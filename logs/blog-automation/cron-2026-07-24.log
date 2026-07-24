@@ -1,0 +1,717 @@
+[2026-07-24 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-07-24 02:00:00] [INFO] SELECTED: sadie-sink (Type ?)
+[2026-07-24 02:00:00] [INFO] Launching pipeline for sadie-sink
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Person:  sadie-sink
+Draft:   src/blog/people/drafts/sadie-sink.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink
+Started: Fri Jul 24 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 sadie-sink --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/1_create.log
+─────────────────────────────────────────────────────
+Draft complete. Here is the non-interactive completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Sadie-Sink.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass, Gate 2: pass, Gate 4: pass, Gate 5: pass, Gate 6: pass]
+LIMITATIONS: none
+```
+
+**Type call:** Enneagram **Type 6 (The Loyalist), 6w5, self-preservation** — confidence **high**, named tiebreaker present ("If I just felt fully confident in what I was doing, that would be a bad sign. The self-doubt showed I actually really, really cared." — Harper's Bazaar, 2025). Type 1 was the near-miss; her *doubt/trust/self-protection* axis is what resolves it to Six.
+
+**Thesis:** The public sees a poised prodigy who's had it figured out since Broadway at ten. The engine underneath is doubt — she treats self-doubt as proof she cares, out-prepares it, and guards a small trusted circle inside a fame she never fully trusted.
+
+**Internal links added (5 total):**
+- Six → `/enneagram-corner/enneagram-type-6` (subject's own type)
+- Timothée Chalamet → `/personality-analysis/Timothee-Chalamet` (celebrity cross-link; fellow young Type 6)
+- wings → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole)
+- instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole)
+- types in stress → `/enneagram-corner/enneagram-types-in-stress` (rabbit hole)
+
+**Gate detail:**
+- **Gate 1 (Testimony):** 3 qualifying quotes — Danya Taymor ×2 (director, Harper's Bazaar 2025), Brendan Fraser (co-star, 2022).
+- **Gate 2 (Heading Mix):** 6 H2s, all search-intent/hybrid (≥2 required).
+- **Gate 4 (Anti-imitation):** ending has no "A [Type]" cadence; hook is a marquee-lights scene, not a reference-library object reveal.
+- **Gate 5 (Distribution):** 1 type-theory paragraph outside diagnosis + rabbit hole (≤4).
+- **Gate 6 (Formula Fingerprint):** 0 strong / 0 comparative contrast pairs; bespoke section = role-by-role pressure test (Max/Ellie/All Too Well/Shelby); critic anchor = "Netflix kid who'll flame out"; empathy turn = the "couldn't be memeable" guardedness reframed via her own "I was protecting myself"; current-tense anchor = Stranger Things finale (Dec 2025) + secret Spider-Man: Brand New Day role (July 2026); same-type similarity top pair 0.148 (no near-verbatim); ending passes swap test.
+
+**Also verified:** Gate 3 no self-loops; no prose em-dashes; no banned AI phrases; type-answer block extractable (56 words); rabbit hole 463 words. Only lint warning is `no faqs in frontmatter`, which the downstream frontmatter-enrich stage owns.
+
+Human review is still required before production; the draft is saved as `status: draft` and was **not** auto-promoted to `ready`. Transcript artifact saved to the pipeline log dir (`transcript-tony-interview.txt`). Next step after approval: mark `production_pretext.status: ready` and run `blog_content_production_people`.
+[Stage 1] create finished 02:20:56 (exit=0, 1256s)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:20:56)
+Command: /blog_content_fresh_eyes_people sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Reviewed `src/blog/people/drafts/Sadie-Sink.md` and appended a `FRESH EYES REVIEW` block at the bottom (no body edits).
+
+The two biggest issues I flagged:
+
+1. **Taylor Swift / "All Too Well" is nearly invisible** — arguably her second-most-famous role, and Swift isn't even named in the body (it appears only as "the All Too Well girl" plus one table row). Swift hand-picked her, she leaned on "years of research as a Swiftie" to play it, and the Dylan O'Brien age-gap drove its own discourse. A reader who knows Sink expects this, and there's an unused Type-6 read right there: a devoted Swiftie entrusted by an authority she revered with the fandom's most loaded song — and she answered with homework.
+
+2. **The doubt thesis is restated one too many times** — the diagnosis section and the whole "Why Sadie Sink Runs on Self-Doubt" section overlap heavily on the same Harper's Bazaar quotes, so it starts to drum rather than deepen. Same with the "protection/memeable" note across the epigraph, Texas, and protection sections.
+
+Strongest thing to preserve: the "You are fourteen…" inner-thought paragraph — the one genuine felt-interior moment in the piece.
+
+Sources:
+- [All Too Well: The Short Film (Wikipedia)](https://en.wikipedia.org/wiki/All_Too_Well:_The_Short_Film)
+- [Sadie Sink relied on 'years of research as a Swiftie' (Billboard)](https://www.billboard.com/music/music-news/sadie-sink-years-research-swiftie-acting-taylor-swift-all-too-well-video-1235749335/)
+[Stage 2] fresh_eyes finished 02:23:07 (exit=0, 131s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:23:07)
+Command: /blog_content_second_pass_people sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/3_second_pass.log
+─────────────────────────────────────────────────────
+Second pass complete on **`src/blog/people/drafts/Sadie-Sink.md`**.
+
+## What I changed
+
+**Source traceability (priority 1).** The audit flagged 2 untagged/vague load-bearing quotes in the diagnosis. I verified both trace to the *Harper's Bazaar* Icons profile (Aug 19, 2025) and tagged them inline. All 4 load-bearing quotes are now **INLINE (0 vague, 0 untagged)**.
+
+**Added the Taylor Swift / All Too Well beat** — the biggest fresh-eyes gap. It sits in "The Roles Sadie Sink Keeps Choosing," where the table already listed the film but the prose never cashed it out. The angle is the strongest unused Type-6 read: Swift hand-picked her (said she wouldn't have made the film if Sink declined), and a lifelong Swiftie answered that anointing with *"years of research as a Swiftie"* (People). Handed the thing she revered, she reached for homework — the diagnosis in miniature. Added Swift to the Testimony Ledger (now 4).
+
+**Trimmed the doubt-thesis repetition.** Cut the re-announcing opener and the "doubt is not a verdict" / "read that as a thesis statement" filler in the self-doubt section so it deepens the diagnosis instead of restating it on the same quotes.
+
+**Thinned the protection through-line + callback.** Cut the `contrast-panel` div (most template-y device, restated the stronger inner-thought paragraph), reworked TL;DR bullet 5 into a teaser so it stops spoiling the ending, and dropped the triple "off the record" callback to a single landing at the close.
+
+**Kept** the "You are fourteen…" inner-thought beat, the Helen Mirren barricade anecdote, and the quarantined 1/3 counter-typing in the Rabbit Hole.
+
+## Post-pass state
+- **Source audit:** 4 load-bearing quotes — 4 inline, 0 vague, 0 untagged.
+- **Lint:** 0 fail, 1 warn.
+
+## Still open (not blockers)
+- The one warn is `no faqs in frontmatter` — the frontmatter-enrich stage hasn't run yet.
+- *Harper's Bazaar* is cited ~6x (the Icons profile is the tentpole source). I varied the verbs, but a future pass could swap one or two body cites for a second outlet carrying the same quote. Neither justifies an editor pass on its own.
+[Stage 3] second_pass finished 02:32:06 (exit=0, 539s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:32:06)
+Command: /cohesion-check src/blog/people/drafts/sadie-sink.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/4_cohesion.log
+─────────────────────────────────────────────────────
+## Cohesion Check Complete: Sadie-Sink.md
+
+**Before: 8.5/10 → After: ~8.7/10**
+
+### What I changed (1 fix)
+
+**Transition fix — Diagnosis → Texas Kid:** Added a one-sentence bridge to open the biography section:
+
+> *"That question, whether she had earned her place, did not start with the Tony nomination."*
+
+It carries the diagnosis's closing keyword ("interrogating whether she deserved to be there") into the origin story and answers the reader's implicit "where did this come from?" before dropping into Brenham. Matches the piece's short-standalone-line rhythm; no em-dashes, no AI tells, no voice drift.
+
+### What I preserved
+- All frontmatter, ledgers, and the TL;DR / Rabbit Hole `<details>` blocks
+- The "You are fourteen…" inner-thought paragraph (strongest beat)
+- All internal links and the quarantined 1/3 counter-typing
+- 5 of 6 section transitions (already strong)
+
+### One structural call I left for you
+
+This is the only thing above a cohesion pass's pay grade, so I'm flagging rather than acting:
+
+**"Why Sadie Sink Runs on Self-Doubt" (H2-3) overlaps the diagnosis section.** Both run doubt-as-fuel on the same Harper's Bazaar quotes. The section *does* earn part of its keep — the doubt=love/caring equation and "even joy passes inspection" are new — but a reader hitting a fourth restatement of the doubt thesis (intro → TL;DR → diagnosis → this) may feel it as repetition rather than deepening. Your fresh-eyes note caught the same thing. **Options:** (a) leave it — the caring angle justifies it; (b) tighten H2-3 to *only* the caring/love beat and the theater-return, cutting anything that re-proves "doubt = fuel," which the diagnosis already nailed. I'd lean (b) as a light trim, but it's a substance call, not a cohesion one, so it's yours.
+
+The through-line itself is solid — the piece opens on "am I actually good at this?" and closes on "still not sure she is any good at it," and the doubt→protection arc lands cleanly. It's ship-cohesive as-is.
+[Stage 4] cohesion finished 02:34:59 (exit=0, 173s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:34:59)
+Command: /blog_content_editor_pass_people sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/5_editor_pass.log
+─────────────────────────────────────────────────────
+## Done — polished `src/blog/people/drafts/Sadie-Sink.md`
+
+**What I found:** The draft was already in strong shape (two passes today), so the scripts were clean going in — 0 contrast pairs, 0 prose em-dashes, no banned phrases. The real remaining problems were **mechanical AI tells the scripts don't catch**, mostly negative-parallelism cadence.
+
+**What I cleaned up:**
+- **Three "not X, it's Y" beats** rewritten as direct statements:
+  - "the worry *is not the enemy, it is* the early-warning system" → "the worry is the early-warning system doing its job"
+  - "Sink *is not correcting the world. She is* checking…" → "Sink is doing something quieter, checking…"
+  - "That instinct *did not make her cold. It made her careful.*" → "The guard has a gate in it… She decides who gets through" (traded a cold/careful adjective swap for the gate/gatekeeper image, which actually advances the point)
+- **Adjective triplet** "measured, careful, a little reserved" → two adjectives
+- **Intro bookend echo** — "marquee… her name" was repeated at the top and bottom of the opening paragraph; the close now lands on the image ("staring up at it")
+
+**Protected:** the "You are fourteen…" inner-thought beat, the Swiftie-cast-as-Swift's-avatar homework beat, the empathy turn, and the quarantined 1/3 counter-typing in the Rabbit Hole — all untouched. `lastmod` untouched.
+
+**One catch worth noting:** my first rewrite of the guard line ("a gate, not a wall") tripped the strong contrast-pair detector, so I reworked it to a purely positive phrasing and re-verified.
+
+**Final contrast-pair count: 0 strong / 0 comparative.** Lint: 0 fail, 1 warn (`faqs` — that's the frontmatter-enrich stage, not a polish issue).
+
+**Verdict:** Production-ready as prose. Remaining pipeline steps before publish are non-editorial: frontmatter-enrich (faqs), then `db_sync`/`db_verify` per the draft's `production_pretext`.
+[Stage 5] editor_pass finished 02:40:07 (exit=0, 308s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:40:07)
+Command: /blog_content_frontmatter_enrich_people sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+```
+Frontmatter enrichment complete: Sadie-Sink
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia (verified correct — points to the Sadie Sink entity)
+- instagram ('sadiesink_' — creator social handle)
+- title / meta_title / persona_title / description / enneagram / type / suggestions / production_pretext / lastmod
+
+FAQs generated (5):
+1. What is Sadie Sink's personality type? → #what-is-sadie-sinks-personality-type
+2. Why does Sadie Sink say self-doubt is a good sign? → #why-sadie-sink-runs-on-self-doubt
+3. Why is Sadie Sink so private and guarded? → #how-sadie-sink-protects-herself-from-fame
+4. Why did Taylor Swift cast Sadie Sink in the All Too Well short film? → #the-roles-sadie-sink-keeps-choosing
+5. What is Sadie Sink's role in Spider-Man: Brand New Day? → #the-one-role-sadie-sink-wont-talk-about
+```
+
+**Key research notes:**
+- **IMDb cross-checked** against Wikidata P345 (`nm5584750` matches) — not a guess.
+- **Birthplace discrepancy resolved:** Wikidata P19 claims *Eldorado, TX*, but the Wikipedia infobox, IMDb, and the article body all say **Brenham, Texas** — used Brenham (the outlier Wikidata claim looks like an error).
+- Each FAQ anchor maps to a real H2 slug in the body, so they deep-link. All answers are drawn from the body and quotes it verbatim; no invented facts.
+- FAQ answers kept **em-dash-free** to respect the piece's editorial em-dash ban (the em-dash grep hits are all in pre-existing comment ledgers and the epigraph attribution, not my additions).
+
+**Issues:**
+- **Body contains zero inline external URLs.** The article cites its sources by name only (Harper's Bazaar Icons profile 2025, Glamour 2025, People, Late Night with Seth Meyers, Billboard, Variety). Rather than invent canonical publisher slugs — and because harpersbazaar.com / glamour.com / people.com block the crawler so I couldn't verify their exact URLs — I built `citations` from **web-search-verified real URLs** that carry the body's exact quotes: Wikipedia, the Harper's Bazaar Icons profile and People "grow up faster" piece (via AOL syndication), the Glamour "subconsciously protected" piece (via Yahoo syndication), and canonical Billboard + Variety links. Every load-bearing quote is now backed, but three of the six are syndication mirrors rather than first-party publisher pages — a minor SEO-authority note, not a blocker.
+- `occupation` is a single item (`Actress`), matching Wikipedia's lead exactly. I chose accuracy over padding to the 2–5 range; a reviewer could add `Model` (Wikidata-backed via her Chanel work) if a fuller list is wanted.
+
+Draft is now frontmatter-complete and ready for the grade / publish gate. Only the frontmatter block was touched — body, Svelte components, and all HTML comment blocks (Testimony Ledger, Fresh Eyes, Second Pass, Editor Pass) are unchanged.
+[Stage 6] enrich_frontmatter finished 02:47:09 (exit=0, 422s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 150 chars
+ok    meta_title length 51 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (56 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: sadie-sink — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+─────────────────────────────────────────────────────
+[Stage 6.6] quality_report  (started 02:47:10)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/6.6_quality_report.log
+─────────────────────────────────────────────────────
+blog-quality-report: sadie-sink
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Why Sadie Sink Runs on Self-Doubt: Enneagram Type 6
+   answer-block: ok (56 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 391)
+[Stage 6.6] quality_report finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.7] source_audit  (started 02:47:10)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs sadie-sink --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/6.7_source_audit.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Sadie-Sink  (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/sadie-sink.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I was really protected by the people around me. And by myself too. I think I was super protective of who I was."
+             outlet="Glamour"  year=2025
+
+### COLD OPEN
+  (no quoted material in slot)
+
+### DIAGNOSIS
+  [INLINE  ] "It doesn't matter how many projects you do, how many good reviews you get, how many people tell you you're amazing, … Everyone still reaches that point where there is always going to be self-doubt."
+             outlet="Harper"  year=2025
+  [INLINE  ] "If I just felt fully confident in what I was doing, that would be a bad sign,"
+             outlet="Harper"  year=2025  venue="profile"
+  [INLINE  ] "to prove to myself that I could do it … to feel like an actor again."
+             outlet="Harper"  year=2025
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  (no quoted material in slot)
+
+------------------------------------------------------------------------
+SUMMARY: 4 load-bearing quote(s) — 4 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 6.7] source_audit finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.8] same_type_similarity  (started 02:47:10)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs sadie-sink --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/6.8_same_type_similarity.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Sadie-Sink (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Sadie-Sink.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 34
+Comparison set (last 8 other Type-6 drafts by date):
+  - Joe-Lonsdale  (2026-07-19, 28 units)
+  - Kaia-Gerber  (2026-07-19, 30 units)
+  - milly-alcock  (2026-07-19, 24 units)
+  - Jack-Antonoff  (2026-07-11, 39 units)
+  - Olivia-Cooke  (2026-07-08, 38 units)
+  - morgan-wallen  (2026-07-08, 53 units)
+  - Tobey-Maguire  (2026-07-03, 24 units)
+  - andrew-ross-sorkin  (2026-07-03, 21 units)
+
+Noise floor over 8738 unit pairs:  median=0  p90=0  p99=0.007  max=0.148
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.148   Sadie-Sink  <->  Joe-Lonsdale
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [diagnosis] Joe Lonsdale appears to be an Enneagram Type 6.
+
+score 0.141   Sadie-Sink  <->  Jack-Antonoff
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] A Type 9 case exists too (the mediator-producer who hides his hand
+
+score 0.116   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [counter-typing] The behavior that keeps pointing back to Six is her open
+   OTHER  [counter-typing] What tips it back to Six is the loyalty and the anxiety.
+
+score 0.068   Sadie-Sink  <->  Kaia-Gerber
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] The Three case is real too
+
+
+Most similar drafts (max unit-pair score):
+  0.148 ######               Joe-Lonsdale
+  0.141 ######               Jack-Antonoff
+  0.116 #####                Tobey-Maguire
+  0.068 ###                  Kaia-Gerber
+  0.045 ##                   morgan-wallen
+  0.034 #                    Olivia-Cooke
+  0.031 #                    milly-alcock
+  0.027 #                    andrew-ross-sorkin
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.148   Sadie-Sink  <->  Joe-Lonsdale
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [diagnosis] Joe Lonsdale appears to be an Enneagram Type 6.
+
+score 0.141   Sadie-Sink  <->  Jack-Antonoff
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] A Type 9 case exists too (the mediator-producer who hides his hand
+
+score 0.116   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [counter-typing] The behavior that keeps pointing back to Six is her open
+   OTHER  [counter-typing] What tips it back to Six is the loyalty and the anxiety.
+
+score 0.068   Sadie-Sink  <->  Kaia-Gerber
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] The Three case is real too
+
+score 0.045   Sadie-Sink  <->  morgan-wallen
+   TARGET [counter-typing] almost grateful relationship with uncertainty.
+   OTHER  [diagnosis] Sixes have a paradoxical relationship with authority.
+
+score 0.040   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] The Six's mind runs constant threat assessment.
+
+score 0.037   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] Maguire lives at both ends of the Six's range
+
+score 0.034   Sadie-Sink  <->  Olivia-Cooke
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [counter-typing] She is an actress drawn to melancholy and darkness
+
+score 0.033   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] Most people meet Sink through that calm.
+   OTHER  [diagnosis] Most people think Sixes are timid.
+
+score 0.032   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] and the raw material underneath it is doubt
+   OTHER  [diagnosis] What matters psychologically is the reversal underneath it
+
+score 0.031   Sadie-Sink  <->  milly-alcock
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] That is the 7 wing doing the job the 6 cannot. ---
+
+score 0.027   Sadie-Sink  <->  andrew-ross-sorkin
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] That is the institutional loyalty 6s build around something they trust to protect them
+
+------------------------------------------------------------------------------
+Top pair scores 0.148 vs median 0  (~∞x the noise floor).
+[Stage 6.8] same_type_similarity finished (exit=1, 0s)
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:47:10)
+Command: /grade_blog sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/7_grade.log
+─────────────────────────────────────────────────────
+Grading complete. Here's the summary.
+
+## Grading Complete — Sadie Sink (single)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Sadie-Sink | 8 | 8 | 9 | 8 | 8 | 9 | **8.3** | **B** |
+
+*(Weighted: `(8×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7` = 58/7 = 8.3. Discoverability 9 ≥ 7, gate not triggered. No caps applied.)*
+
+### Key observations
+
+- **What carries it:** Discoverability is exemplary (the strongest dimension) — length-optimal meta_title/description, 5 real FAQs with anchors, complete entity metadata, and a direct 56-word extractable type answer up top. The "You are fourteen…" inner-thought is a genuine felt-interior beat, and the Swiftie-cast-as-Swift's-avatar move ("years of research as a Swiftie") is the diagnosis in miniature. Hook (marquee triumph undercut by peak doubt) is specific and earns the read.
+- **What holds it at B:** The doubt-thesis is *restated* rather than deepened — intro, TL;DR, diagnosis, and the whole "Why She Runs on Self-Doubt" section all run "doubt = caring = fuel" on the same Harper's Bazaar quotes. That single interview also carries ~6 of the load-bearing cites, so the evidence rests on one source. The empathy turn is largely handed over by her own quote ("I was protecting myself") rather than hard-won.
+- **Deterministic corroboration:** 0 contrast pairs, head-term PASS, source audit 4/4 inline, same-type scan max 0.148 (all generic diagnosis/counter-typing furniture, no near-verbatim reuse). No caps.
+- **Calibration:** Lands just above the Matt-Smith B reference — comparable craft, but its textbook discoverability legitimately pulls it to the top of the B band. This is strong pipeline output, not an A.
+- **Stale-ledger flag:** the in-body SECOND PASS / EDITOR notes claim "no faqs yet," but the frontmatter now has a full faqs block — I scored the actual frontmatter, which is complete.
+
+Frontmatter grade added and `docs/content-analysis/grades/Sadie-Sink.review.md` written. The clearest path to B+ is collapsing the diagnosis / "Why She Runs on Self-Doubt" overlap — it's the one fix that moves both Originality and Writing.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 02:51:15 (exit=0, 245s)
+
+[Stage 8] Revision loop triggered: overall 8.3 < 8.5; deterministic report warnings; 
+─────────────────────────────────────────────────────
+[Stage 8] revise  (started 02:51:15)
+Command: /blog_content_revision_pass_people sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/8_revise.log
+─────────────────────────────────────────────────────
+Done. One disciplined revision iteration on **`src/blog/people/drafts/Sadie-Sink.md`**.
+
+## What triggered the loop
+Grade **B (8.3)**, below the 8.5 bar. Lint was already clean (0 fail), so this was purely grader-driven. All three grader items landed on the 1.5× weighted dimensions (Evidence 8, Originality 8).
+
+## Fixes applied → grader/lint items
+
+**1. Thesis repetition** *(NEEDS WORK + TO REACH #1 — the "single biggest lift," moves Originality + Writing)*
+Repurposed "Why Sadie Sink Runs on Self-Doubt" to **deepen** instead of restate. It no longer re-argues doubt-as-caring on the same Harper's Bazaar quotes as the diagnosis section. It now runs the *mechanism* (doubt → preparation → work that doesn't photograph) and the *cost* (the Tony nomination "felt, for a beat, like a yes," then the scanning resumed), closing on the section's distinct beat, "even joy passes inspection." Cut the re-announcing opener and the redundant HB "I am still learning" quote.
+
+**2. Single-outlet reliance** *(NEEDS WORK + TO REACH #2 — moves Evidence)*
+Added the **independent Nylon 2026 interview** (Iana Murray) as a genuine second pillar — verified it's a separate interview, not an HB syndication. Its `"Oh my God, am I even good at this"` now seats the doubt beat; `"You just don't share the secret, it's not that hard"` replaces the previously **unsourced** "guarded tighter than the finale" claim in both the ending and FAQ #5. Removed one HB body cite; added Nylon to `citations`.
+
+**3. Empathy turn** *(TO REACH #3 — minor)*
+Staged a concrete outside-view Stranger Things junket moment before the self-protection flip, so the reframe is earned rather than handed over by her own quote. The inner-thought "You are fourteen…" paragraph (grader's strongest beat) was left untouched.
+
+## Rejected
+- **Did not gut the intro "am I actually good at this?" or the TL;DR thesis bullet**, which the grader also listed as repetition sites. The intro is the hook (scored 9) and a TL;DR is meant to state the thesis; the real redundancy was the diagnosis ↔ self-doubt overlap. "Good at this" now works as an intentional refrain: the intro poses it, Nylon documents it, the close turns it into the engine.
+
+## Housekeeping
+- Distribution ledger note refreshed to match the new prose; Testimony/Heading/Formula ledgers unchanged (Nylon lines are Sink's own words, not third-party testimony).
+- **Lint: clean (0 fail, 0 warn); contrast pairs still 0.** `content_quality` untouched.
+- REVISION PASS NOTES block appended.
+
+The pipeline will clear the consumed review sidecar and re-grade.
+[Stage 8] revise finished 03:01:02 (exit=0, 587s)
+
+─────────────────────────────────────────────────────
+[Stage 8.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/8.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 150 chars
+ok    meta_title length 51 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (56 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 5
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: sadie-sink — 0 fail, 0 warn
+[Stage 8.5] lint passed
+
+[pre-grade] Stripping existing content_quality block from src/blog/people/drafts/sadie-sink.md for a clean re-grade
+[pre-grade] Removing prior grade-feedback sidecar for sadie-sink
+─────────────────────────────────────────────────────
+[Stage 9] regrade  (started 03:01:02)
+Command: /grade_blog sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/9_regrade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Sadie Sink
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Sadie-Sink | 8 | 8 | 9 | 8.5 | 8 | 8 | **8.3** | **B** |
+
+*(Weighted: (8×1.5 + 8×1.5 + 9×1.5 + 8.5 + 8 + 8×0.5) / 7. Discoverability 9 ≥ 7 → gate cleared.)*
+
+### Key Observations
+
+- **Discoverability (9) carries the piece** — optimal `meta_title` (51 chars) and `description` (150 chars), five genuine search-intent FAQs with anchors, an early 56-word extractable answer block, complete `same_as` metadata. Cleanest AEO surface in the batch. Note: the SECOND/EDITOR-pass ledgers still say "no faqs yet" — **stale**; the enrich stage has since run and the FAQs are present and strong.
+- **Emotional interior is real, not claimed** — all three checks pass. The "You are fourteen…" inner-thought paragraph is the standout beat, and the empathy turn ("a fourteen-year-old running a defense she could not yet name") avoids the house *"not X, it was armor/scar tissue"* grammar → no `house_empathy_turn` cap.
+- **What holds it at B, not B+:** monocausal thesis (everything routes back to doubt-as-fuel across intro/TL;DR/diagnosis/self-doubt section) and a visible house fingerprint (stacked reader-command imperatives, reframe furniture).
+- **No caps triggered:** contrast pairs = 0; counter-typing quarantined in the rabbit hole; same-type similarity tripped only on exempt structural lines (max 0.148 — the generic "is an Enneagram Type 6" opener and "A Three case exists too" scaffolding), not distinctive furniture.
+- **Regrade context:** the draft's REVISION notes show a prior B (8.3) that the revision responded to (added Nylon as a second source, split the doubt sections, staged the empathy turn). Those were real improvements, but the thesis-range and de-templating ceiling keeps it in the same band. I graded the current state independently and omitted `first_overall`/`grade_stability_delta` rather than treat the pipeline's own "8.3" self-report as a trusted prior.
+
+Grades written to frontmatter (`content_quality`, rubric v2) and full feedback to `docs/content-analysis/grades/Sadie-Sink.review.md`. **The clearest path to B+ is thesis range** (surface the unused loyalty/coalition facet of the Six) **plus inline-tagging the four traceable-but-untagged body quotes** (Fraser, Swift, Mirren, "So much of me is Max").
+
+**Total graded this session: 1**
+[Stage 9] regrade finished 03:04:56 (exit=0, 234s)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: sadie-sink
+Finished: Fri Jul 24 03:04:56 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink
+LINT: passed
+─────────────────────────────────────────────────────
+[Stage 9.5] quality_report_after_revision  (started 03:04:56)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs sadie-sink
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/9.5_quality_report_after_revision.log
+─────────────────────────────────────────────────────
+blog-quality-report: sadie-sink
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Why Sadie Sink Runs on Self-Doubt: Enneagram Type 6
+   answer-block: ok (56 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 391)
+[Stage 9.5] quality_report_after_revision finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 9.6] source_audit_after_revision  (started 03:04:56)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs sadie-sink --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/9.6_source_audit_after_revision.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Sadie-Sink  (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/sadie-sink.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I was really protected by the people around me. And by myself too. I think I was super protective of who I was."
+             outlet="Glamour"  year=2025
+
+### COLD OPEN
+  (no quoted material in slot)
+
+### DIAGNOSIS
+  [INLINE  ] "It doesn't matter how many projects you do, how many good reviews you get, how many people tell you you're amazing, … Everyone still reaches that point where there is always going to be self-doubt."
+             outlet="Harper"  year=2025
+  [INLINE  ] "If I just felt fully confident in what I was doing, that would be a bad sign,"
+             outlet="Harper"  year=2025  venue="profile"
+  [INLINE  ] "to prove to myself that I could do it … to feel like an actor again."
+             outlet="Harper"  year=2025
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  (no quoted material in slot)
+
+------------------------------------------------------------------------
+SUMMARY: 4 load-bearing quote(s) — 4 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 9.6] source_audit_after_revision finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 9.7] same_type_similarity_after_revision  (started 03:04:56)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs sadie-sink --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/9.7_same_type_similarity_after_revision.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Sadie-Sink (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Sadie-Sink.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 34
+Comparison set (last 8 other Type-6 drafts by date):
+  - Joe-Lonsdale  (2026-07-19, 28 units)
+  - Kaia-Gerber  (2026-07-19, 30 units)
+  - milly-alcock  (2026-07-19, 24 units)
+  - Jack-Antonoff  (2026-07-11, 39 units)
+  - Olivia-Cooke  (2026-07-08, 38 units)
+  - morgan-wallen  (2026-07-08, 53 units)
+  - Tobey-Maguire  (2026-07-03, 24 units)
+  - andrew-ross-sorkin  (2026-07-03, 21 units)
+
+Noise floor over 8738 unit pairs:  median=0  p90=0  p99=0.007  max=0.148
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.148   Sadie-Sink  <->  Joe-Lonsdale
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [diagnosis] Joe Lonsdale appears to be an Enneagram Type 6.
+
+score 0.141   Sadie-Sink  <->  Jack-Antonoff
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] A Type 9 case exists too (the mediator-producer who hides his hand
+
+score 0.116   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [counter-typing] The behavior that keeps pointing back to Six is her open
+   OTHER  [counter-typing] What tips it back to Six is the loyalty and the anxiety.
+
+score 0.068   Sadie-Sink  <->  Kaia-Gerber
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] The Three case is real too
+
+
+Most similar drafts (max unit-pair score):
+  0.148 ######               Joe-Lonsdale
+  0.141 ######               Jack-Antonoff
+  0.116 #####                Tobey-Maguire
+  0.068 ###                  Kaia-Gerber
+  0.045 ##                   morgan-wallen
+  0.034 #                    Olivia-Cooke
+  0.031 #                    milly-alcock
+  0.027 #                    andrew-ross-sorkin
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.148   Sadie-Sink  <->  Joe-Lonsdale
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [diagnosis] Joe Lonsdale appears to be an Enneagram Type 6.
+
+score 0.141   Sadie-Sink  <->  Jack-Antonoff
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] A Type 9 case exists too (the mediator-producer who hides his hand
+
+score 0.116   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [counter-typing] The behavior that keeps pointing back to Six is her open
+   OTHER  [counter-typing] What tips it back to Six is the loyalty and the anxiety.
+
+score 0.068   Sadie-Sink  <->  Kaia-Gerber
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] The Three case is real too
+
+score 0.045   Sadie-Sink  <->  morgan-wallen
+   TARGET [counter-typing] almost grateful relationship with uncertainty.
+   OTHER  [diagnosis] Sixes have a paradoxical relationship with authority.
+
+score 0.040   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] The Six's mind runs constant threat assessment.
+
+score 0.037   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] Maguire lives at both ends of the Six's range
+
+score 0.034   Sadie-Sink  <->  Olivia-Cooke
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [counter-typing] She is an actress drawn to melancholy and darkness
+
+score 0.033   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] Most people meet Sink through that calm.
+   OTHER  [diagnosis] Most people think Sixes are timid.
+
+score 0.032   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] and the raw material underneath it is doubt
+   OTHER  [diagnosis] What matters psychologically is the reversal underneath it
+
+score 0.031   Sadie-Sink  <->  milly-alcock
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] That is the 7 wing doing the job the 6 cannot. ---
+
+score 0.027   Sadie-Sink  <->  andrew-ross-sorkin
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] That is the institutional loyalty 6s build around something they trust to protect them
+
+------------------------------------------------------------------------------
+Top pair scores 0.148 vs median 0  (~∞x the noise floor).
+[Stage 9.7] same_type_similarity_after_revision finished (exit=1, 0s)
+
+REVISION LOOP: ran once (trigger: overall 8.3 < 8.5; deterministic report warnings)
+GRADE: 8.3 → 8.3 (first grade → after revision)
+STILL BELOW BAR after one revision — human review needed; the loop does not repeat.
+
+Final draft frontmatter (grade summary):
+enneagram: '6'
+  hook: 8
+  enneagram: 8.5
+  evidence: 8
+  writing: 8
+  originality: 8
+  discoverability: 9
+  overall: 8.3
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-07-24'
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-24_020000_sadie-sink/summary.json
+═════════════════════════════════════════════════════
+[2026-07-24 03:04:56] [INFO] Pipeline exited code=0 after 64 min
+[2026-07-24 03:04:56] [WARN] Pipeline left STAGE_WARNINGS (a stage errored but the run continued): stage=6.8_same_type_similarity exit=1 dur=0s at=2026-07-24 02:47:10
+stage=9.7_same_type_similarity_after_revision exit=1 dur=0s at=2026-07-24 03:04:56
+[2026-07-24 03:04:57] [SUCCESS] Completed: Sadie Sink — grade 8.3 (B)
+[2026-07-24 03:04:57] [INFO] NOTIFY: ✅ 9takes nightly blog: Sadie Sink (Type ?) — grade 8.3 (B), disc 9, 64 min. needsReview=true
+[2026-07-24 03:04:57] [INFO] Nightly blog cron finished

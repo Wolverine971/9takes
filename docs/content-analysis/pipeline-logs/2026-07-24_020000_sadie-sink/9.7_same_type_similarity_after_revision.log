@@ -1,0 +1,100 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Sadie-Sink (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Sadie-Sink.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 34
+Comparison set (last 8 other Type-6 drafts by date):
+  - Joe-Lonsdale  (2026-07-19, 28 units)
+  - Kaia-Gerber  (2026-07-19, 30 units)
+  - milly-alcock  (2026-07-19, 24 units)
+  - Jack-Antonoff  (2026-07-11, 39 units)
+  - Olivia-Cooke  (2026-07-08, 38 units)
+  - morgan-wallen  (2026-07-08, 53 units)
+  - Tobey-Maguire  (2026-07-03, 24 units)
+  - andrew-ross-sorkin  (2026-07-03, 21 units)
+
+Noise floor over 8738 unit pairs:  median=0  p90=0  p99=0.007  max=0.148
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.148   Sadie-Sink  <->  Joe-Lonsdale
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [diagnosis] Joe Lonsdale appears to be an Enneagram Type 6.
+
+score 0.141   Sadie-Sink  <->  Jack-Antonoff
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] A Type 9 case exists too (the mediator-producer who hides his hand
+
+score 0.116   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [counter-typing] The behavior that keeps pointing back to Six is her open
+   OTHER  [counter-typing] What tips it back to Six is the loyalty and the anxiety.
+
+score 0.068   Sadie-Sink  <->  Kaia-Gerber
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] The Three case is real too
+
+
+Most similar drafts (max unit-pair score):
+  0.148 ######               Joe-Lonsdale
+  0.141 ######               Jack-Antonoff
+  0.116 #####                Tobey-Maguire
+  0.068 ###                  Kaia-Gerber
+  0.045 ##                   morgan-wallen
+  0.034 #                    Olivia-Cooke
+  0.031 #                    milly-alcock
+  0.027 #                    andrew-ross-sorkin
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.148   Sadie-Sink  <->  Joe-Lonsdale
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [diagnosis] Joe Lonsdale appears to be an Enneagram Type 6.
+
+score 0.141   Sadie-Sink  <->  Jack-Antonoff
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] A Type 9 case exists too (the mediator-producer who hides his hand
+
+score 0.116   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [counter-typing] The behavior that keeps pointing back to Six is her open
+   OTHER  [counter-typing] What tips it back to Six is the loyalty and the anxiety.
+
+score 0.068   Sadie-Sink  <->  Kaia-Gerber
+   TARGET [counter-typing] A Three case exists too
+   OTHER  [counter-typing] The Three case is real too
+
+score 0.045   Sadie-Sink  <->  morgan-wallen
+   TARGET [counter-typing] almost grateful relationship with uncertainty.
+   OTHER  [diagnosis] Sixes have a paradoxical relationship with authority.
+
+score 0.040   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] The Six's mind runs constant threat assessment.
+
+score 0.037   Sadie-Sink  <->  Tobey-Maguire
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] Maguire lives at both ends of the Six's range
+
+score 0.034   Sadie-Sink  <->  Olivia-Cooke
+   TARGET [diagnosis] Sadie Sink is an Enneagram Type 6
+   OTHER  [counter-typing] She is an actress drawn to melancholy and darkness
+
+score 0.033   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] Most people meet Sink through that calm.
+   OTHER  [diagnosis] Most people think Sixes are timid.
+
+score 0.032   Sadie-Sink  <->  morgan-wallen
+   TARGET [diagnosis] and the raw material underneath it is doubt
+   OTHER  [diagnosis] What matters psychologically is the reversal underneath it
+
+score 0.031   Sadie-Sink  <->  milly-alcock
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] That is the 7 wing doing the job the 6 cannot. ---
+
+score 0.027   Sadie-Sink  <->  andrew-ross-sorkin
+   TARGET [diagnosis] That is the Six's entire relationship to fear in one line
+   OTHER  [diagnosis] That is the institutional loyalty 6s build around something they trust to protect them
+
+------------------------------------------------------------------------------
+Top pair scores 0.148 vs median 0  (~∞x the noise floor).

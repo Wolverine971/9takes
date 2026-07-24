@@ -1,0 +1,31 @@
+```
+Frontmatter enrichment complete: Sadie-Sink
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved, untouched):
+- wikipedia (verified correct — points to the Sadie Sink entity)
+- instagram ('sadiesink_' — creator social handle)
+- title / meta_title / persona_title / description / enneagram / type / suggestions / production_pretext / lastmod
+
+FAQs generated (5):
+1. What is Sadie Sink's personality type? → #what-is-sadie-sinks-personality-type
+2. Why does Sadie Sink say self-doubt is a good sign? → #why-sadie-sink-runs-on-self-doubt
+3. Why is Sadie Sink so private and guarded? → #how-sadie-sink-protects-herself-from-fame
+4. Why did Taylor Swift cast Sadie Sink in the All Too Well short film? → #the-roles-sadie-sink-keeps-choosing
+5. What is Sadie Sink's role in Spider-Man: Brand New Day? → #the-one-role-sadie-sink-wont-talk-about
+```
+
+**Key research notes:**
+- **IMDb cross-checked** against Wikidata P345 (`nm5584750` matches) — not a guess.
+- **Birthplace discrepancy resolved:** Wikidata P19 claims *Eldorado, TX*, but the Wikipedia infobox, IMDb, and the article body all say **Brenham, Texas** — used Brenham (the outlier Wikidata claim looks like an error).
+- Each FAQ anchor maps to a real H2 slug in the body, so they deep-link. All answers are drawn from the body and quotes it verbatim; no invented facts.
+- FAQ answers kept **em-dash-free** to respect the piece's editorial em-dash ban (the em-dash grep hits are all in pre-existing comment ledgers and the epigraph attribution, not my additions).
+
+**Issues:**
+- **Body contains zero inline external URLs.** The article cites its sources by name only (Harper's Bazaar Icons profile 2025, Glamour 2025, People, Late Night with Seth Meyers, Billboard, Variety). Rather than invent canonical publisher slugs — and because harpersbazaar.com / glamour.com / people.com block the crawler so I couldn't verify their exact URLs — I built `citations` from **web-search-verified real URLs** that carry the body's exact quotes: Wikipedia, the Harper's Bazaar Icons profile and People "grow up faster" piece (via AOL syndication), the Glamour "subconsciously protected" piece (via Yahoo syndication), and canonical Billboard + Variety links. Every load-bearing quote is now backed, but three of the six are syndication mirrors rather than first-party publisher pages — a minor SEO-authority note, not a blocker.
+- `occupation` is a single item (`Actress`), matching Wikipedia's lead exactly. I chose accuracy over padding to the 2–5 range; a reviewer could add `Model` (Wikidata-backed via her Chanel work) if a fuller list is wanted.
+
+Draft is now frontmatter-complete and ready for the grade / publish gate. Only the frontmatter block was touched — body, Svelte components, and all HTML comment blocks (Testimony Ledger, Fresh Eyes, Second Pass, Editor Pass) are unchanged.

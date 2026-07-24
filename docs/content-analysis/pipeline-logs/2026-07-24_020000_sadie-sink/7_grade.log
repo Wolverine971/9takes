@@ -1,0 +1,21 @@
+Grading complete. Here's the summary.
+
+## Grading Complete — Sadie Sink (single)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Sadie-Sink | 8 | 8 | 9 | 8 | 8 | 9 | **8.3** | **B** |
+
+*(Weighted: `(8×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7` = 58/7 = 8.3. Discoverability 9 ≥ 7, gate not triggered. No caps applied.)*
+
+### Key observations
+
+- **What carries it:** Discoverability is exemplary (the strongest dimension) — length-optimal meta_title/description, 5 real FAQs with anchors, complete entity metadata, and a direct 56-word extractable type answer up top. The "You are fourteen…" inner-thought is a genuine felt-interior beat, and the Swiftie-cast-as-Swift's-avatar move ("years of research as a Swiftie") is the diagnosis in miniature. Hook (marquee triumph undercut by peak doubt) is specific and earns the read.
+- **What holds it at B:** The doubt-thesis is *restated* rather than deepened — intro, TL;DR, diagnosis, and the whole "Why She Runs on Self-Doubt" section all run "doubt = caring = fuel" on the same Harper's Bazaar quotes. That single interview also carries ~6 of the load-bearing cites, so the evidence rests on one source. The empathy turn is largely handed over by her own quote ("I was protecting myself") rather than hard-won.
+- **Deterministic corroboration:** 0 contrast pairs, head-term PASS, source audit 4/4 inline, same-type scan max 0.148 (all generic diagnosis/counter-typing furniture, no near-verbatim reuse). No caps.
+- **Calibration:** Lands just above the Matt-Smith B reference — comparable craft, but its textbook discoverability legitimately pulls it to the top of the B band. This is strong pipeline output, not an A.
+- **Stale-ledger flag:** the in-body SECOND PASS / EDITOR notes claim "no faqs yet," but the frontmatter now has a full faqs block — I scored the actual frontmatter, which is complete.
+
+Frontmatter grade added and `docs/content-analysis/grades/Sadie-Sink.review.md` written. The clearest path to B+ is collapsing the diagnosis / "Why She Runs on Self-Doubt" overlap — it's the one fix that moves both Originality and Writing.
+
+**Total graded this session: 1**

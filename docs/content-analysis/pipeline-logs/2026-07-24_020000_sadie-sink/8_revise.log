@@ -1,0 +1,25 @@
+Done. One disciplined revision iteration on **`src/blog/people/drafts/Sadie-Sink.md`**.
+
+## What triggered the loop
+Grade **B (8.3)**, below the 8.5 bar. Lint was already clean (0 fail), so this was purely grader-driven. All three grader items landed on the 1.5× weighted dimensions (Evidence 8, Originality 8).
+
+## Fixes applied → grader/lint items
+
+**1. Thesis repetition** *(NEEDS WORK + TO REACH #1 — the "single biggest lift," moves Originality + Writing)*
+Repurposed "Why Sadie Sink Runs on Self-Doubt" to **deepen** instead of restate. It no longer re-argues doubt-as-caring on the same Harper's Bazaar quotes as the diagnosis section. It now runs the *mechanism* (doubt → preparation → work that doesn't photograph) and the *cost* (the Tony nomination "felt, for a beat, like a yes," then the scanning resumed), closing on the section's distinct beat, "even joy passes inspection." Cut the re-announcing opener and the redundant HB "I am still learning" quote.
+
+**2. Single-outlet reliance** *(NEEDS WORK + TO REACH #2 — moves Evidence)*
+Added the **independent Nylon 2026 interview** (Iana Murray) as a genuine second pillar — verified it's a separate interview, not an HB syndication. Its `"Oh my God, am I even good at this"` now seats the doubt beat; `"You just don't share the secret, it's not that hard"` replaces the previously **unsourced** "guarded tighter than the finale" claim in both the ending and FAQ #5. Removed one HB body cite; added Nylon to `citations`.
+
+**3. Empathy turn** *(TO REACH #3 — minor)*
+Staged a concrete outside-view Stranger Things junket moment before the self-protection flip, so the reframe is earned rather than handed over by her own quote. The inner-thought "You are fourteen…" paragraph (grader's strongest beat) was left untouched.
+
+## Rejected
+- **Did not gut the intro "am I actually good at this?" or the TL;DR thesis bullet**, which the grader also listed as repetition sites. The intro is the hook (scored 9) and a TL;DR is meant to state the thesis; the real redundancy was the diagnosis ↔ self-doubt overlap. "Good at this" now works as an intentional refrain: the intro poses it, Nylon documents it, the close turns it into the engine.
+
+## Housekeeping
+- Distribution ledger note refreshed to match the new prose; Testimony/Heading/Formula ledgers unchanged (Nylon lines are Sink's own words, not third-party testimony).
+- **Lint: clean (0 fail, 0 warn); contrast pairs still 0.** `content_quality` untouched.
+- REVISION PASS NOTES block appended.
+
+The pipeline will clear the consumed review sidecar and re-grade.

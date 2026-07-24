@@ -1,0 +1,29 @@
+Publish is blocked. The auto-selector found zero eligible drafts across all 480 candidates, and the one fresh draft (`Sadie-Sink`) fails three hard gates — none of which this command owns (it doesn't rewrite, regrade, or generate images).
+
+```text
+Publish people blog — BLOCKED (nothing published)
+
+Auto-select (no arg): No publishable draft found across 480 candidates.
+Freshest untracked draft: src/blog/people/drafts/Sadie-Sink.md
+
+Person: Sadie Sink (Enneagram Type 6)
+Draft: src/blog/people/drafts/Sadie-Sink.md
+
+Blockers:
+- content_quality_below_8.5: overall is 8.3 (gate is ≥8.5)
+  → rubric_version 2, discoverability 9, caps [], needs_review false — the ONLY
+    thing failing on grade is the overall score. Fix via a revision pass
+    (/blog_content_revision_pass_people) then re-grade (/grade_blog).
+- missing_full_image: static/types/6s/Sadie-Sink.webp not present
+- missing_thumbnail_image: static/types/6s/s-Sadie-Sink.webp not present
+  → image generation is out of scope for this command.
+```
+
+**What this means:** the draft is one grade-point and two images away from publishable. It's genuinely close — 8.3 with discoverability 9, no caps, review-clean.
+
+Two things need to happen before I can publish it, neither owned by this command:
+
+1. **Lift the grade to ≥8.5.** Run `/blog_content_revision_pass_people Sadie-Sink` (or an editor pass), then `/grade_blog` to re-score. Only the `overall` is short; everything else already clears the v2 gate.
+2. **Generate both images** into `static/types/6s/`: `Sadie-Sink.webp` (full) and `s-Sadie-Sink.webp` (thumbnail).
+
+Want me to kick off the revision pass now, or are you handling the images first? I'll re-run publish once both are done.

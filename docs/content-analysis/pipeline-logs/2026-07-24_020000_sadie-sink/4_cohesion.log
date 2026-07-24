@@ -1,0 +1,25 @@
+## Cohesion Check Complete: Sadie-Sink.md
+
+**Before: 8.5/10 → After: ~8.7/10**
+
+### What I changed (1 fix)
+
+**Transition fix — Diagnosis → Texas Kid:** Added a one-sentence bridge to open the biography section:
+
+> *"That question, whether she had earned her place, did not start with the Tony nomination."*
+
+It carries the diagnosis's closing keyword ("interrogating whether she deserved to be there") into the origin story and answers the reader's implicit "where did this come from?" before dropping into Brenham. Matches the piece's short-standalone-line rhythm; no em-dashes, no AI tells, no voice drift.
+
+### What I preserved
+- All frontmatter, ledgers, and the TL;DR / Rabbit Hole `<details>` blocks
+- The "You are fourteen…" inner-thought paragraph (strongest beat)
+- All internal links and the quarantined 1/3 counter-typing
+- 5 of 6 section transitions (already strong)
+
+### One structural call I left for you
+
+This is the only thing above a cohesion pass's pay grade, so I'm flagging rather than acting:
+
+**"Why Sadie Sink Runs on Self-Doubt" (H2-3) overlaps the diagnosis section.** Both run doubt-as-fuel on the same Harper's Bazaar quotes. The section *does* earn part of its keep — the doubt=love/caring equation and "even joy passes inspection" are new — but a reader hitting a fourth restatement of the doubt thesis (intro → TL;DR → diagnosis → this) may feel it as repetition rather than deepening. Your fresh-eyes note caught the same thing. **Options:** (a) leave it — the caring angle justifies it; (b) tighten H2-3 to *only* the caring/love beat and the theater-return, cutting anything that re-proves "doubt = fuel," which the diagnosis already nailed. I'd lean (b) as a light trim, but it's a substance call, not a cohesion one, so it's yours.
+
+The through-line itself is solid — the piece opens on "am I actually good at this?" and closes on "still not sure she is any good at it," and the doubt→protection arc lands cleanly. It's ship-cohesive as-is.

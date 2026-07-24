@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-23T07:00:27Z",
+	"lastUpdated": "2026-07-24T07:04:56Z",
 	"stats": {
 		"totalUnpublished": 127,
 		"totalPublished": 266,
 		"completionRate": "67.7%"
 	},
 	"queue": [
-		{
-			"name": "sadie-sink",
-			"displayName": "Sadie Sink",
-			"type": null,
-			"priority": 66,
-			"priorityReason": "Spider-Man: Brand New Day opens July 31 2026 with her mystery role driving rampant speculation; Stranger Things finale halo still active",
-			"estimatedTraffic": "high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "gen-z-hollywood-pop-cluster"
-		},
 		{
 			"name": "caitlin-clark",
 			"displayName": "Caitlin Clark",
@@ -385,6 +372,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "sadie-sink",
+			"displayName": "Sadie Sink",
+			"type": null,
+			"priority": 66,
+			"priorityReason": "Spider-Man: Brand New Day opens July 31 2026 with her mystery role driving rampant speculation; Stranger Things finale halo still active",
+			"estimatedTraffic": "high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster",
+			"startedAt": "2026-07-24T06:00:00Z",
+			"completedAt": "2026-07-24T07:04:56Z",
+			"contentGrade": "8.3",
+			"letter": "B",
+			"discoverability": "9",
+			"duration": "~64 min",
+			"needsReview": true
+		},
 		{
 			"name": "yang-zhilin",
 			"displayName": "Yang Zhilin",

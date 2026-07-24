@@ -1,0 +1,32 @@
+Draft complete. Here is the non-interactive completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Sadie-Sink.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass, Gate 2: pass, Gate 4: pass, Gate 5: pass, Gate 6: pass]
+LIMITATIONS: none
+```
+
+**Type call:** Enneagram **Type 6 (The Loyalist), 6w5, self-preservation** — confidence **high**, named tiebreaker present ("If I just felt fully confident in what I was doing, that would be a bad sign. The self-doubt showed I actually really, really cared." — Harper's Bazaar, 2025). Type 1 was the near-miss; her *doubt/trust/self-protection* axis is what resolves it to Six.
+
+**Thesis:** The public sees a poised prodigy who's had it figured out since Broadway at ten. The engine underneath is doubt — she treats self-doubt as proof she cares, out-prepares it, and guards a small trusted circle inside a fame she never fully trusted.
+
+**Internal links added (5 total):**
+- Six → `/enneagram-corner/enneagram-type-6` (subject's own type)
+- Timothée Chalamet → `/personality-analysis/Timothee-Chalamet` (celebrity cross-link; fellow young Type 6)
+- wings → `/enneagram-corner/enneagram-wings-complete-guide` (rabbit hole)
+- instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (rabbit hole)
+- types in stress → `/enneagram-corner/enneagram-types-in-stress` (rabbit hole)
+
+**Gate detail:**
+- **Gate 1 (Testimony):** 3 qualifying quotes — Danya Taymor ×2 (director, Harper's Bazaar 2025), Brendan Fraser (co-star, 2022).
+- **Gate 2 (Heading Mix):** 6 H2s, all search-intent/hybrid (≥2 required).
+- **Gate 4 (Anti-imitation):** ending has no "A [Type]" cadence; hook is a marquee-lights scene, not a reference-library object reveal.
+- **Gate 5 (Distribution):** 1 type-theory paragraph outside diagnosis + rabbit hole (≤4).
+- **Gate 6 (Formula Fingerprint):** 0 strong / 0 comparative contrast pairs; bespoke section = role-by-role pressure test (Max/Ellie/All Too Well/Shelby); critic anchor = "Netflix kid who'll flame out"; empathy turn = the "couldn't be memeable" guardedness reframed via her own "I was protecting myself"; current-tense anchor = Stranger Things finale (Dec 2025) + secret Spider-Man: Brand New Day role (July 2026); same-type similarity top pair 0.148 (no near-verbatim); ending passes swap test.
+
+**Also verified:** Gate 3 no self-loops; no prose em-dashes; no banned AI phrases; type-answer block extractable (56 words); rabbit hole 463 words. Only lint warning is `no faqs in frontmatter`, which the downstream frontmatter-enrich stage owns.
+
+Human review is still required before production; the draft is saved as `status: draft` and was **not** auto-promoted to `ready`. Transcript artifact saved to the pipeline log dir (`transcript-tony-interview.txt`). Next step after approval: mark `production_pretext.status: ready` and run `blog_content_production_people`.

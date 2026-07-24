@@ -1,0 +1,19 @@
+## Grading Complete — Sadie Sink
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Sadie-Sink | 8 | 8 | 9 | 8.5 | 8 | 8 | **8.3** | **B** |
+
+*(Weighted: (8×1.5 + 8×1.5 + 9×1.5 + 8.5 + 8 + 8×0.5) / 7. Discoverability 9 ≥ 7 → gate cleared.)*
+
+### Key Observations
+
+- **Discoverability (9) carries the piece** — optimal `meta_title` (51 chars) and `description` (150 chars), five genuine search-intent FAQs with anchors, an early 56-word extractable answer block, complete `same_as` metadata. Cleanest AEO surface in the batch. Note: the SECOND/EDITOR-pass ledgers still say "no faqs yet" — **stale**; the enrich stage has since run and the FAQs are present and strong.
+- **Emotional interior is real, not claimed** — all three checks pass. The "You are fourteen…" inner-thought paragraph is the standout beat, and the empathy turn ("a fourteen-year-old running a defense she could not yet name") avoids the house *"not X, it was armor/scar tissue"* grammar → no `house_empathy_turn` cap.
+- **What holds it at B, not B+:** monocausal thesis (everything routes back to doubt-as-fuel across intro/TL;DR/diagnosis/self-doubt section) and a visible house fingerprint (stacked reader-command imperatives, reframe furniture).
+- **No caps triggered:** contrast pairs = 0; counter-typing quarantined in the rabbit hole; same-type similarity tripped only on exempt structural lines (max 0.148 — the generic "is an Enneagram Type 6" opener and "A Three case exists too" scaffolding), not distinctive furniture.
+- **Regrade context:** the draft's REVISION notes show a prior B (8.3) that the revision responded to (added Nylon as a second source, split the doubt sections, staged the empathy turn). Those were real improvements, but the thesis-range and de-templating ceiling keeps it in the same band. I graded the current state independently and omitted `first_overall`/`grade_stability_delta` rather than treat the pipeline's own "8.3" self-report as a trusted prior.
+
+Grades written to frontmatter (`content_quality`, rubric v2) and full feedback to `docs/content-analysis/grades/Sadie-Sink.review.md`. **The clearest path to B+ is thesis range** (surface the unused loyalty/coalition facet of the Six) **plus inline-tagging the four traceable-but-untagged body quotes** (Fraser, Swift, Mirren, "So much of me is Max").
+
+**Total graded this session: 1**
