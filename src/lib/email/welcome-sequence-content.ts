@@ -35,7 +35,7 @@ export const WELCOME_SEQUENCE_CONTENT: WelcomeSequenceContent[] = [
 <p>A few dozen people have answered so far. One borrowed their grandma's line: "never a child." Another went "cute, weird, crazy." Same question, completely different people looking back at you.</p>
 <p><a class="button" href="${KID_QUESTION_URL}">Drop your three words</a></p>
 <p>Takes about two minutes. The moment you answer, every other take unlocks.</p>
-<p>DJocrates<br />9takes.com</p>
+<p>DJ<br />9takes.com</p>
 <p>P.S. If your three words feel a little too honest, you're doing it right.</p>`,
 		plainText: `Hi {{first_name}},
 
@@ -51,7 +51,7 @@ Drop your three words: ${KID_QUESTION_URL}
 
 Takes about two minutes. The moment you answer, every other take unlocks.
 
-DJocrates
+DJ
 9takes.com
 
 P.S. If your three words feel a little too honest, you're doing it right.`
@@ -72,7 +72,7 @@ P.S. If your three words feel a little too honest, you're doing it right.`
 <p>Try it on a live question. Answer first, then look for the assumption you did not realize you were making.</p>
 <p><a class="button" href="{{questions_url}}">Try the loop</a></p>
 <p>Fair warning: your "first read" usually isn't yours. A single fake upvote shifts a comment's score by 25%, which is why reading the room first is dangerous. <a href="https://9takes.com/community/memetic-comments">Read "Memetic Comments: Why Your Online Opinions Aren't Really Yours"</a>.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>DJ<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 Here is a 9takes move you can use even when you are not on 9takes.
@@ -91,7 +91,7 @@ Try the loop: {{questions_url}}
 
 Fair warning: your "first read" usually isn't yours. A single fake upvote shifts a comment's score by 25%, which is why reading the room first is dangerous. Read "Memetic Comments: Why Your Online Opinions Aren't Really Yours": https://9takes.com/community/memetic-comments
 
-DJocrates
+DJ
 9takes.com`
 	},
 	{
@@ -110,7 +110,7 @@ DJocrates
 <p>Add yours first. Then see where it lands next to everyone else's.</p>
 <p><a class="button" href="${FEAR_QUESTION_URL}">Answer "What's your biggest fear?"</a></p>
 <p>Want to know which of the nine fears is driving you? <a href="${ENNEAGRAM_TEST_URL}">Take the test</a> after you answer. Your gut response to this question is half the typing work already.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>DJ<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 There's a question on 9takes that proves the whole premise: "What's your biggest fear?"
@@ -130,7 +130,7 @@ Answer "What's your biggest fear?": ${FEAR_QUESTION_URL}
 Want to know which of the nine fears is driving you? Take the test after you answer: ${ENNEAGRAM_TEST_URL}
 Your gut response to this question is half the typing work already.
 
-DJocrates
+DJ
 9takes.com`
 	},
 	{
@@ -148,7 +148,7 @@ DJocrates
 <p><a class="button" href="{{ask_question_url}}">Post it as a question</a></p>
 <p>You'll get reads on it you did not think of. That's the entire point of nine takes.</p>
 <p>If none of this is useful, the unsubscribe link below works immediately. I mean that.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>DJ<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 9takes earns its place in your inbox if it shows up in one of these moments:
@@ -165,7 +165,7 @@ You'll get reads on it you did not think of. That's the entire point of nine tak
 
 If none of this is useful, the unsubscribe link below works immediately. I mean that.
 
-DJocrates
+DJ
 9takes.com`
 	}
 ];

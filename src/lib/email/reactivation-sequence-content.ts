@@ -43,7 +43,7 @@ const STEP_1_QUESTION_BLOCK_HTML = `<p>The whole platform is one loop: answer a 
 <p>One person answered "taking supplements every morning." Another answered "Continuing to be alive." Same question. That range is why 9takes exists.</p>
 <p><a class="button" href="${MASKING_QUESTION_URL}">Give your take</a></p>
 <p>Your answer unlocks everyone else's. More next week - a personal note about why I built this in the first place.</p>
-<p>DJocrates<br />9takes.com</p>`;
+<p>DJ<br />9takes.com</p>`;
 
 const STEP_1_QUESTION_BLOCK_TEXT = `The whole platform is one loop: answer a question before you can see anyone else's takes. The value lives in the gap - what you noticed, what other people noticed, what everyone assumed too fast.
 
@@ -57,7 +57,7 @@ Give your take: ${MASKING_QUESTION_URL}
 
 Your answer unlocks everyone else's. More next week - a personal note about why I built this in the first place.
 
-DJocrates
+DJ
 9takes.com`;
 
 // Step 2's personal story (the activation blocker) is final as of 2026-06-11.
@@ -128,7 +128,7 @@ const SHARED_STEPS: Array<
 <p>The test cracked the door. The Enneagram kicked it open. I'm an 8. My wife is a 7. Our whole problem in one sentence: I didn't fully understand her fear, and she didn't fully understand my anger. I was waving off the thing that runs her ("don't worry about that"), and she was trying to shut down the thing that runs me, which only made it worse. Same fight, two different alarm systems, no map.</p>
 <p>I don't need you to believe in the Enneagram. I just want you to notice the pattern once. That's the whole pitch.</p>
 <p>If any of that resonates - or you think I'm wrong - hit reply. I read every response.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>DJ<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 Quick personal note.
@@ -143,7 +143,7 @@ I don't need you to believe in the Enneagram. I just want you to notice the patt
 
 If any of that resonates - or you think I'm wrong - hit reply. I read every response.
 
-DJocrates
+DJ
 9takes.com`
 	},
 	{
@@ -159,7 +159,7 @@ DJocrates
 <p>There's a live question in the same lane: <strong>"What are you afraid to tell your partner?"</strong> Answer first, then see everyone else's.</p>
 <p><a class="button" href="${PARTNER_QUESTION_URL}">Add your take</a></p>
 <p>If you've ever been on either side of this one, your read is useful.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>DJ<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 Here's the situation people on 9takes keep circling back to.
@@ -178,7 +178,7 @@ Add your take: ${PARTNER_QUESTION_URL}
 
 If you've ever been on either side of this one, your read is useful.
 
-DJocrates
+DJ
 9takes.com`
 	},
 	{
@@ -193,7 +193,7 @@ DJocrates
 <p>If you say yes, here's what you're opting into: roughly one email every week or two. New questions worth answering. Occasional notes from me. Nothing automated-feeling, nothing daily.</p>
 <p>If you say no - no problem. Click once, you're off, we're good.</p>
 <p>If you don't click either, I'll take you off the list in a few days to keep things clean.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>DJ<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 Short one.
@@ -210,7 +210,7 @@ If you say no - no problem. Click once, you're off, we're good.
 
 If you don't click either, I'll take you off the list in a few days to keep things clean.
 
-DJocrates
+DJ
 9takes.com`
 	},
 	{
@@ -222,7 +222,7 @@ DJocrates
 <p>No hard feelings. Inbox space is real.</p>
 <p>If that was the wrong call, <a href="${YES_URL}">put me back on</a>.</p>
 <p>Either way - good luck out there.</p>
-<p>DJocrates<br />9takes.com</p>`,
+<p>DJ<br />9takes.com</p>`,
 		plainText: `Hi {{first_name}},
 
 You didn't click yes or no on the last one, so I took you off the list.
@@ -233,7 +233,7 @@ If that was the wrong call, put me back on: ${YES_URL}
 
 Either way - good luck out there.
 
-DJocrates
+DJ
 9takes.com`
 	}
 ];

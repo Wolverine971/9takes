@@ -84,7 +84,7 @@ function makeBody({
 	const parts = [
 		`MIME-Version: 1.0`,
 		`To: ${safeToEmails.join(', ')}`,
-		`From: 9takes <${safeFromEmail}>`,
+		`From: DJ at 9takes <${safeFromEmail}>`,
 		`Reply-To: usersup@9takes.com`,
 		`Subject: ${safeSubject}`,
 		`List-ID: 9takes <emails.9takes.com>`,

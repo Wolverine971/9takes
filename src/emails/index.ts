@@ -474,7 +474,7 @@ export const signupWelcomeEmail = () => {
 <p>That gap is where the value is. It shows what you assumed, what other people noticed, and how differently people can read the same moment.</p>
 <p><a class="button" href="https://9takes.com/questions">Browse current questions</a></p>
 <p>If you are more interested in the psychology side, start with <a href="https://9takes.com/enneagram-corner">the Enneagram corner</a> or browse <a href="https://9takes.com/personality-analysis">personality analyses</a>.</p>
-<p>DJocrates<br />9takes.com</p>`;
+<p>DJ<br />9takes.com</p>`;
 };
 // <p><a href="{{ .ConfirmationURL }}" > <b style="" > Confirm your mail < /b></a > </p>
 // Default link is the Supabase Auth template variable so calling forgotPass()
