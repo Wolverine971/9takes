@@ -1,0 +1,24 @@
+## Grading Complete — Hunter-Biden
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Hunter-Biden | 6 | 9 | 9 | 9 | 8.5 | 9 | 8.3 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc 9, so no gate.)
+
+### Key Observations
+
+**One cap is doing all the work.** Five of six dimensions land at 8.5–9 — this is the strongest draft I've graded against the Matt-Smith B anchor, and it beats that anchor on exactly the axis the anchor failed (it hunts for the fact that breaks its own thesis instead of dodging it). But **Evidence is capped at 6** for six untagged load-bearing quotes.
+
+The source-audit script returned a clean 5/5 inline — and that report is misleading. It found **no quoted material in the EMPATHY TURN and CLOSE slots**, which is exactly where the problem lives. The three `Self Portrait #2` quotes at L394 carry both the empathy turn and the closing argument with no outlet, no date, no venue. The two named counter-typing tiebreakers (L365 kills Type 7, L367 kills Type 2) are also untraceable — untagged quotes are deciding the type call. This is the failure mode the rubric warns about: the Testimony Ledger covers third-party testimony, so unsourced *subject* quotes slip through.
+
+**Fixing only the attributions lifts this to 8.8 (B+).** Nothing else needs to change. That's the whole revision.
+
+**Other findings:**
+- The `same-type-similarity` verdict prints "clear," but three drafts exceed the raw 0.04 pair threshold. Two are coincidental word overlap; one is real — the Type 7 dismissal clause echoes oliver-tree's near-verbatim. One reused move, so no Originality cap.
+- Ledgers spot-checked clean (all 7 H2s, all 6 testimony quotes, both interior beats verified) — unusual, and a genuine quality signal.
+- Two pipeline blocks still list "faqs frontmatter absent" as open. It's stale — five strong FAQ entries are present.
+- The body cites the New York Post inline but no NY Post URL is in `citations`; same for Channel 5, Shawn Ryan Show, and Buhle's memoir.
+- Writing held at 8.5 for five reader-command imperatives ("Watch how he argues," "Sit with the metaphor a beat," …) — a house tic on the sameness watchlist.
+
+**Total graded this session: 1**

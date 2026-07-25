@@ -1,0 +1,30 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Hunter-Biden.md`
+
+**Before: 7/10 → After: 9/10**
+
+### Central Thesis
+Hunter Biden is a Type 4 whose compulsive self-exposure is about authorship rather than honesty — he hands over every fact he can frame, fights only over who assembles the picture, and the one fact that frames him instead is the one record he refuses to make.
+
+### Changes Made (8 total)
+
+**Transition Fixes (4)**
+- **Diagnosis → 1972**: added `It starts earlier than the crack and the laptop. It starts with a picture.` Carries the section's own "who gets to assemble the picture" into the painting metaphor, and makes the reader expect a date — which 1972 delivers as its first three words.
+- **Becoming someone else → self-authored records**: "Here is the pattern in its purest form" pointed three sections back to the diagnosis, not to what the reader had just read (Beau's death). Now keyed off the reordered section's new closing line.
+- **Navy Joan H3 → When the floor goes**: the hardest break in the piece. Added `Turning away like that is the exception. His default runs the other way.`
+- **When the floor goes → paintings**: added `The paintings are how he sells that room now.` Carries "the room Hunter has always stood in" across the skippable Rabbit Hole and picks up the orphaned paintings thread. Concession-first ordering intact.
+
+**Internal Flow Fixes (3)**
+- **`## Why Hunter Biden kept becoming someone else` reordered.** It ran résumé (through 2021) → found paint at fifty (2020–21) → "**Then** the marriage went" (2017 divorce, 2015 death). "Then" asserted a sequence running backward, and the section ended before its own climax. Now: résumé → auditioning → marriage/Beau/reference copy → medium found. Chronological, escalating, and it hands into the next section. "Then the marriage went" → "Midway through the list, the marriage went."
+- **"The second floor was 2019"** named no floor-drop while the section frame promised three. Added the 2019 bottom using only facts already in the draft, avoiding an echo of the vodka quote two paragraphs up.
+- **"Eight months after that"** dangled off the February 28 deposition while meaning eight months after the January 10 markup. Fixed.
+
+**Orphaned Threads (1)**
+- The paintings owed to Navy Joan now point forward into the $54,000-canvas section instead of dying at the H3.
+
+### Preserved
+Frontmatter, all four ledgers, both `inner-thought` beats, the timeline div, the Rabbit Hole, all 5 internal links, the cold open, all 6 intro seams, the "Every document above is one he chose to produce" pivot, and the 1972 → 2026 ring close. `blog-lint`: 0 fail, same 2 pre-existing warns.
+
+### Remaining Concerns
+1. The child is owed paintings that never came; collectors pay $54,000 for the same hand. The draft now points the reader at both but never sets the prices side by side. That's an argument, not a bridge, so I left it — your call whether the piece makes it.
+2. Pre-existing fact conflict: the FRESH EYES block dates the DNA finding to January 2020, the body says November 2019. Outside cohesion scope; resolve before publish.
+3. Still open from the second pass and unaffected by this one: `faqs` frontmatter absent, `same-type-similarity` not re-run, `/grade_blog` not yet run.

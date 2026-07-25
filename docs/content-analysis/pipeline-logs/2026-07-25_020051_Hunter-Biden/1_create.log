@@ -1,0 +1,29 @@
+Draft complete.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Hunter-Biden.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass
+LIMITATIONS: no faqs block (frontmatter enrich stage not run); 1 comparative contrast
+             hit is inside a verbatim Hunter Biden quote and exempt from alteration
+```
+
+**The call:** Enneagram Type 4, 4w3, sexual subtype. Confidence high.
+
+**The thesis:** People file him under things concealed — the laptop, the shell companies, Burisma. The record of the last five years is a man who cannot stop handing material over, and who still says nobody has heard him. Total exposure and total invisibility turned out to be the same condition.
+
+**The tiebreaker that locked the typing** is a repeated gesture fifty-four years apart. In *Beautiful Things* he describes the family that reassembled around him after the 1972 crash as "a section torn from a painting… replaced with a lovely likeness." In June 2026 he finished *Self Portrait #2*, rebuilding the tabloids' most-published photograph of him out of mosaic tiles, tile by tile. He also went and got convicted using an audiobook he recorded himself.
+
+**Current-tense anchor is unusually strong:** the July 2026 Fuentes sit-down on a purpose-built motel set referencing his own addiction photos (his publicist confirmed he signed off knowing what it referenced), the NPR "stripped naked in the public square… it was a gift" interview, the $54,000 *Watchers* canvas that ships with a private video call, and 23 posts a day on X since May.
+
+**Gate detail:**
+- 4 named third-party quotes (Joe Biden, Naomi Biden, Georges Bergès, James Comer)
+- Bespoke form: a six-date evidentiary timeline of documents he authored voluntarily that were later entered against him — collapses on any subject who didn't manufacture their own evidence
+- Empathy turn built from his vocabulary, not house grammar; the critic case (Comer, anonymous buyers, the bundled video call) is conceded in full before the type lens goes on
+- Verification: `blog-lint` 0 fail, `blog-quality-report` 0 strong contrast pairs, `same-type-similarity` clear against 8 recent Type 4 drafts
+
+**One judgment call worth your eye:** this is a politically charged subject. I kept every legal and financial claim sourced and took no position on the pardon or the prosecution — the piece is psychological throughout. Reviewer notes at the bottom of the file flag that explicitly.
+
+Next steps are `/grade_blog`, then `blog_content_frontmatter_enrich_people`. I left the pipeline lock alone — its pid is still alive, so another run owns it.

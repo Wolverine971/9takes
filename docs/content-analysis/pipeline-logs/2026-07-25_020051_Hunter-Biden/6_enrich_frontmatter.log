@@ -1,0 +1,30 @@
+Frontmatter enrichment complete: **Hunter-Biden**
+
+**Fields filled:**
+`wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):**
+`wikipedia` (correct canonical URL — left as found), `twitter`, plus all creator-owned fields. `lastmod` untouched at `2026-07-25`.
+
+**Verification notes:**
+- `wikidata_qid: Q5944264` and `imdb_id: nm11045889` — IMDb ID cross-checked two ways: Wikidata claim P345 on Q5944264, and a search result returning the live IMDb page at `nm11045889`.
+- `birth_date` / `birth_place` confirmed by both Wikidata (P569/P19) and Britannica: February 4, 1970, Wilmington, Delaware.
+- `knows_about` written as real expertise areas (addiction and recovery, confessional memoir, contemporary figurative painting, Washington lobbying, international business consulting, corporate board governance) — not occupation-copied.
+
+**FAQs generated (5):**
+1. What is Hunter Biden's personality type? → `#what-is-hunter-bidens-personality-type`
+2. How did the 1972 car crash shape Hunter Biden? → `#the-1972-crash-rearranged-hunter-bidens-family-around-him`
+3. Why does Hunter Biden keep talking when everything he says gets used against him? → `#every-record-hunter-biden-made-of-himself-got-used-against-him`
+4. Why hasn't Hunter Biden met his daughter Navy Joan? → `#the-one-record-hunter-biden-would-not-make`
+5. Why does Hunter Biden sell his paintings for $54,000 with a private video call? → `#why-hunter-bidens-critics-are-right-about-the-paintings`
+
+All five anchors are exact slugs of existing H2/H3 headings, so each deep-links to the section it summarizes. Every answer is drawn from the body — no facts introduced.
+
+**Issues:**
+- **The body has zero inline external links.** Its evidence is attributed in prose (NPR/Scott Simon, The Hollywood Reporter, New York Post, House Oversight, the Wilmington and Independence County court records) but never linked. I did not invent URLs: I searched each named source and wrote 8 citations I could verify independently — NPR's July 2026 Simon interview, THR's Fuentes piece carrying the Mitchell Jackson "reach" quote, NPR + PBS on the 2024 gun conviction and the audiobook-as-evidence, the archived White House pardon statement, House Oversight on the anonymous art buyers, and Arkansas Democrat-Gazette on the January 2026 contempt motion. Worth having the editor pass link these inline; the schema is now sourced but the reader-facing body still isn't.
+- The New York Post `$54,000 Watchers` story is cited in the body but `nypost.com` blocks the fetch agent, so I could only confirm its existence and details secondhand (Isabel Vincent, July 22, 2026) and left it out of `citations` rather than write an unverified URL.
+- Pre-existing, outside this pass: the draft's own fingerprint ledger notes the same-type similarity scan was **not** re-run after the second pass and needs re-running before publish.
+
+**Validation:** frontmatter parses cleanly through `gray-matter`, and I checked specifically for the `\'` escape pattern that has broken people-draft builds before — zero backslashes in any FAQ answer. Body and all HTML comment blocks untouched.
+
+Sources: [Wikidata Q5944264](https://www.wikidata.org/wiki/Q5944264) · [Britannica](https://www.britannica.com/biography/Hunter-Biden) · [IMDb](https://www.imdb.com/name/nm11045889/) · [NPR, July 2026](https://www.npr.org/2026/07/18/nx-s1-5890913/hunter-biden-shares-his-painful-road-to-recovery-and-fight-against-political-scrutiny) · [The Hollywood Reporter](https://www.hollywoodreporter.com/news/politics-news/hunter-biden-image-rehab-tour-nick-fuentes-1236652488/) · [NPR gun verdict](https://www.npr.org/2024/06/11/nx-s1-5002013/federal-jury-convicts-hunter-biden-on-felony-gun-charges) · [PBS NewsHour](https://www.pbs.org/newshour/politics/prosecution-rests-its-case-in-hunter-bidens-federal-gun-trial-after-a-week-of-personal-witness-testimony) · [White House pardon statement](https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/12/01/statement-from-president-joe-biden-11/) · [House Oversight](https://oversight.house.gov/release/icymi-who-wants-to-buy-hunter-bidens-art/) · [Arkansas Democrat-Gazette](https://www.arkansasonline.com/news/2026/jan/30/mother-of-hunter-bidens-arkansas-daughter-says-he/)

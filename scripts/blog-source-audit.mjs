@@ -207,6 +207,9 @@ const OUTLETS = [
 	'The Scotsman',
 	'Newsweek',
 	'Happy Sad Confused',
+	// Independent / creator-owned outlets that publish full transcripts (Hunter-Biden pass, 2026-07-25)
+	'Channel 5',
+	'Shawn Ryan Show',
 	// Checkable Chinese-language / China-coverage venues (Yang-Zhilin pass, 2026-07-23)
 	'Tencent Tech',
 	'Overseas Unicorn',

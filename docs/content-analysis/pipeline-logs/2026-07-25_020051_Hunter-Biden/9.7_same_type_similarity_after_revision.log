@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Hunter-Biden (Type 4)
+/Users/djwayne/9takes/src/blog/people/drafts/Hunter-Biden.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 32
+Comparison set (last 8 other Type-4 drafts by date):
+  - kacey-musgraves  (2026-07-23, 38 units)
+  - julia-fox  (2026-07-20, 30 units)
+  - oliver-tree  (2026-07-19, 37 units)
+  - sza  (2026-07-04, 47 units)
+  - Rose-Blackpink  (2026-07-02, 29 units)
+  - megan-fox  (2026-06-28, 47 units)
+  - odessa-azion  (2026-06-27, 27 units)
+  - lily-allen  (2026-06-24, 24 units)
+
+Noise floor over 8928 unit pairs:  median=0  p90=0  p99=0.006  max=0.107
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.107 ####                 Rose-Blackpink
+  0.100 ####                 megan-fox
+  0.031 #                    oliver-tree
+  0.027 #                    kacey-musgraves
+  0.026 #                    odessa-azion
+  0.022 #                    julia-fox
+  0.019 #                    sza
+  0.014 #                    lily-allen
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.107   Hunter-Biden  <->  Rose-Blackpink
+   TARGET [diagnosis] It starts earlier than the crack and the laptop.
+   OTHER  [counter-typing] a Three hides the crack and sells the win
+
+score 0.100   Hunter-Biden  <->  megan-fox
+   TARGET [diagnosis] I've been very open about." What he fights over is authorship.
+   OTHER  [diagnosis] "I've been lonely my whole life
+
+score 0.031   Hunter-Biden  <->  oliver-tree
+   TARGET [counter-typing] A Seven does not build a philosophy on that sentence
+   OTHER  [counter-typing] Where a Seven keeps moving to stay entertained
+
+score 0.027   Hunter-Biden  <->  oliver-tree
+   TARGET [counter-typing] A Seven does not build a philosophy on that sentence
+   OTHER  [counter-typing] A Seven outruns pain by sprinting to the next thing.
+
+score 0.027   Hunter-Biden  <->  kacey-musgraves
+   TARGET [counter-typing] Type 2 deserves a hearing too
+   OTHER  [diagnosis] That is why the confidence is medium and why the difference between core type and wing deserves a closer look. 🐇 Enneagram Rabbit Hole
+
+score 0.026   Hunter-Biden  <->  odessa-azion
+   TARGET [diagnosis] identity as the central problem of a life
+   OTHER  [diagnosis] She doesn't narrate herself as the normal daughter of a famous family.
+
+score 0.024   Hunter-Biden  <->  kacey-musgraves
+   TARGET [counter-typing] plus a wing that wanted through them
+   OTHER  [diagnosis] Direct self-identification plus a visible record of ambition makes 3w4 a serious answer.
+
+score 0.022   Hunter-Biden  <->  julia-fox
+   TARGET [counter-typing] Ambient access to doors that opened on their own
+   OTHER  [counter-typing] and insists on their authenticity as the actual product.
+
+score 0.022   Hunter-Biden  <->  oliver-tree
+   TARGET [diagnosis] When he sued Patrick Byrne for defamation over a fabricated $800 million Iranian bribe story
+   OTHER  [diagnosis] " would climb past 800 million.) What he chased through all of it was permanence
+
+score 0.022   Hunter-Biden  <->  oliver-tree
+   TARGET [counter-typing] The addiction and the serial reinvention both fit a Seven's escape from pain and appetite for motion.
+   OTHER  [counter-typing] Where a Seven keeps moving to stay entertained
+
+score 0.022   Hunter-Biden  <->  megan-fox
+   TARGET [counter-typing] and the merge with Beau's life after 2015.
+   OTHER  [diagnosis] The sexual Four wants one other person to merge with so completely that the loneliness finally dissolves.
+
+score 0.022   Hunter-Biden  <->  oliver-tree
+   TARGET [counter-typing] and a Seven does not spend a year rebuilding the image of his own worst night in mosaic tiles.
+   OTHER  [counter-typing] Where a Seven keeps moving to stay entertained
+
+------------------------------------------------------------------------------
+Top pair scores 0.107 vs median 0  (~∞x the noise floor).

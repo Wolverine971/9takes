@@ -1,0 +1,9 @@
+blog-quality-report: Hunter-Biden
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [more/less-than] L392: "Nobody can hold you accountable more harshly than you hold yourself," he told Ryan in December 2025.
+
+2.4 Head-term: PASS  meta_title=Why Hunter Biden Can't Stop Confessing: Enneagram Type 4
+   answer-block: ok (34 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 391)

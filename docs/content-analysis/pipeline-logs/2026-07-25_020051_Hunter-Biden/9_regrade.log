@@ -1,0 +1,19 @@
+## Grading Complete — Hunter-Biden (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Hunter-Biden | 6 | 9 | 9 | 9 | 9 | 9 | 8.4 | B |
+
+(Weighted: `(6×1.5 + 9×1.5 + 9×1.5 + 9 + 9 + 9×0.5) / 7` = 8.4. Discoverability 9, no gate.)
+
+**Grade stability:** first 8.3 → regrade 8.4, delta 0.1. The revision pass fixed six untagged quotes (and caught two fabrications — a composite and an unverifiable "pride" quote that had cleared five earlier stages), but the Evidence cap re-fired on a different claim, so the number barely moved.
+
+### Key observations
+
+- **One unsourced claim is the entire B/A gap.** The Patrick Byrne defamation suit (line 181) — the "$800 million Iranian bribe story," the one-dollar damages ask, the $1.7M punitive default judgment — has no outlet, no court, no case caption, and nothing in `citations` covering it. It sits directly before "That is the tell" and is the cleanest single proof of the thesis. Uncapped, Evidence scores 8. One sentence with a cite moves this to 8.8; adding the tax-plea sourcing moves it to 9.0.
+- **`blog-source-audit.mjs` reports 5/5 inline, 0 untagged — and is right.** The gap is a *non-quote* factual claim, which the script structurally cannot see. The revision pass already flagged this class of blind spot ("that script only checks whether a quote is TAGGED, never whether the tag is TRUE"); this is the adjacent hole. Worth a pipeline fix beyond this draft.
+- **This draft is meaningfully less formulaic than its cohort.** No corpus-stat sentence, no "The tell:" TL;DR bullet, 0 strong contrast pairs, 0 counter-typing ladders in the body, same-type similarity clear, and an empathy turn built from the subject's own vocabulary rather than the house `armor/scar tissue` grammar. The bespoke section form — a seven-date timeline of self-authored evidence with an inverted H3 on the one record he refused to make — collapses on any other subject.
+- **Ledgers verified rather than assumed.** All six testimony quotes, both interior beats, and the distribution count check out against the body. That's unusual for this pipeline and I'd treat it as a genuine Writing signal, not just compliance.
+- **Three reader-command imperatives survive** ("Watch how he argues," "Sit with the metaphor a beat," "Call it what the critics call it") — the last visible house fingerprint. Not enough reused moves to trip the Originality cap.
+
+Sidecar written to `docs/content-analysis/grades/Hunter-Biden.review.md`; frontmatter block added to `src/blog/people/drafts/Hunter-Biden.md`. No legacy `QUALITY GRADE` block existed in the body to remove.

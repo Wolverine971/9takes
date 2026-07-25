@@ -1,0 +1,29 @@
+```text
+Nothing published.
+
+Command: node scripts/personBlogParser.js --publish
+Result: No publishable draft found. Checked 481 candidate(s).
+Files changed: none
+```
+
+**Today's fresh draft (Hunter-Biden) is blocked on three things:**
+
+- `content_quality_below_8.5:8.4` — v2 grade came in at 8.4 (evidence 6 is the drag)
+- `caps_applied: evidence_untraceable_load_bearing_claim` — active cap, blocks regardless of score
+- `missing_full_image` + `missing_thumbnail_image` — `static/types/4s/Hunter-Biden.webp` and `s-Hunter-Biden.webp`
+
+Fixing the untraceable load-bearing claim is the unlock; that's an evidence pass + regrade, not a publish-step fix.
+
+**The pool state, since auto-select had nothing:** 98 unpublished drafts, only 40 carry a v2 grade. The 52 drafts sitting at overall ≥8.5 are almost all rubric v1 (Clint Eastwood 9.3, Frank Lloyd Wright 9.3, Britney Spears 9.2, Ninja 9.2…) — all hard-blocked as `stale_grade_rubric_v1` until re-graded.
+
+**Three drafts clear every editorial gate and are blocked only on missing images:**
+
+| Draft | overall | disc | stability delta |
+|---|---|---|---|
+| Christopher-Nolan | 8.8 | 9 | 0.1 |
+| David-Beckham | 8.6 | 9 | 0.0 |
+| Travis-Kelce | 8.6 | 9 | 0.0 |
+
+Each needs `static/types/[type]s/[Person].webp` + `s-[Person].webp`. That's your manual Canva step (the automated type-image pipeline was removed last month), and image generation is outside this command's scope — so I stopped here rather than improvising.
+
+Add images for Christopher Nolan and I can publish him immediately. Next tier after that is Jack Antonoff (8.9) and Victoria Justice (9.0), both needing a supervised regrade for grade stability — Antonoff's delta is 0.5, Justice has no delta recorded.

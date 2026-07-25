@@ -1,0 +1,19 @@
+Polished `src/blog/people/drafts/Hunter-Biden.md` (4,424 body words).
+
+**What it came in as:** structurally strong. The creator → fresh-eyes → second-pass → cohesion chain had already fixed the big things, so this was a prose-level pass, not a rework.
+
+**Main problems cleaned up:**
+
+- **Three negative-parallelism tells** (the #1 AI sentence pattern). All three were load-bearing lines, so I rebuilt rather than cut. "The fight was never about the deposition. It was about who got to watch." became "He had been fighting for an audience the whole time. Once the audience watched him refuse, the closed door cost him nothing."
+- **Two contrast-pair engines the lint regex doesn't catch**, both in the résumé section: "Read that list as ambition… Read it as a series of answers…" and "the search rarely resolves by X. It resolves by Y."
+- **Mobile rhythm.** Eleven paragraphs ran 5–8 sentences, including the whole Navy Joan chronology and all three floor-drops. Split, nothing cut.
+- **Signposting.** Five instances of the draft announcing what it was about to do ("the exception changes what the rest of it means," "Start with the concession, because…," "Any honest observer can see the shape of the problem"). The staccato facts underneath were already the argument.
+- **A real prose error:** "Judge Maryellen Noreika taking three hours apart" was garbled.
+- **Naomi-testimony beat was stealing the interior beat's punchline** ("that has always been the problem") one paragraph before the `inner-thought` block delivers it. Prose now carries only the fact.
+- **Title frontmatter:** "An In-Depth Enneagram Type 4 Analysis" is the generic template 75 drafts share → "Hunter Biden: The Son Who Keeps Repainting Himself." `meta_title` untouched.
+
+**Two open items from the cohesion pass, now resolved:** the promised-paintings-vs-$54,000-canvas juxtaposition is in (one restrained sentence, in the critics' paragraph where the argument belongs), and the DNA-date discrepancy is settled — the body had conflated the November 2019 filing with Judge Holly Meyer's January 7, 2020 paternity order. ([Fox News](https://www.foxnews.com/politics/hunter-biden-child-support-case-who-lunden-roberts))
+
+**Final numbers:** `blog-lint` 0 fail. Contrast pairs **0 strong, 1 comparative** — that one is inside a verbatim Hunter Biden quote ("more harshly than you hold yourself"), which the AI Language Ban exempts. No prose em-dashes, no banned phrases.
+
+**Readiness:** production-ready on prose. It does not need another substantive pass. Two pipeline stages are still owed before publish: `blog_content_frontmatter_enrich_people` (no `faqs` block, and that's a discoverability cost), and `/grade_blog`, which has never run on this draft. Given the 07-22 finding that v2 grades ≥8.5 collapse under blind regrade, I'd treat the grade as genuinely unknown until it runs.

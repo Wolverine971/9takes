@@ -1,0 +1,33 @@
+Revised `src/blog/people/drafts/Hunter-Biden.md`.
+
+**Trigger:** grade B (8.3) with `evidence_untagged_load_bearing_quotes` — Evidence 6 against 9s everywhere else. Lint was already 0 fail, so sourcing was the whole job.
+
+## What the sourcing pass actually found
+
+I verified each of the six quotes against published transcripts rather than adding the tag the grader guessed. That mattered — **two of them were wrong, not merely unattributed:**
+
+1. **A composite quote that appears in no source.** "When my brother died… my wife of 20 years stopped talking to me and I fell apart" isn't a thing he said. Actual (Candace Owens, May 2026): *"When Beau died, my marriage fell apart… after 20 years, 22 years."* Replaced with the verbatim.
+2. **An unverifiable quote holding up two arguments.** "the one thing I allow myself to take some pride in" survived four separate retrievals with no hit. The real quote is a superlative, not a limit: *"The proudest thing that I've ever done is stay clean and sober through all of that."* I swapped it in and rewrote the two beats that leaned on the fabricated "one thing" framing — the section closer became "Of everything he has authored, the achievement he ranks first produced no document at all," which now pays off the self-authored-record spine, and the Rabbit Hole One-arrow sentence follows the real claim.
+
+Also corrected a factual drift the grader read as just an untagged metric: the draft said the Post and Daily Mail ran the photograph "three times a day for years." He said they *"averaged about three stories a day between them"* — stories about him, not runs of the photo. And "a portrait of a monster" was a paraphrase set in quotation marks; the verbatim is "Their portrait was of a monster."
+
+The remaining four checked out verbatim and are now tagged: Self Portrait #2 (Urgent Matter, June 26 2026 — **not** the NPR interview the grader guessed), the sobriety line and the Type 2 tiebreaker (Shawn Ryan #264, Dec 22 2025), the Type 7 tiebreaker (Channel 5/Callaghan, July 23 2025).
+
+## Other grader items
+
+- **citations:** 8 URLs added (14 total), so every inline outlet is backed. NY Post via its MSN syndication — nypost.com blocks our fetcher.
+- **Sameness:** rewrote the Seven-dismissal clause scoring 0.085 against oliver-tree; updated the similarity ledger with the real numbers.
+- **Writing:** converted three imperatives to declaratives (one more than asked) — the "Call it hypocrisy… Watch which facts" paragraph was stacking two commands in three sentences and duplicating a shape used later. Three remain. One of the two metronomic aphoristic closers retired as a side effect of the quote fix.
+- **TO REACH A:** cut the torn-painting metaphor from the TL;DR so the ring has two reader-visible ends instead of three. Kept it in the FAQ deliberately — that renders as JSON-LD, not body copy.
+- Cleared the three stale "still open" notes, marked RESOLVED in place so pass history stays readable.
+
+**Rejected: nothing.** Every item was actionable.
+
+## Two things for you
+
+- The three most load-bearing quotes in the piece (Self Portrait #2, carrying both the empathy turn *and* the close) rest on **Urgent Matter**, a small outlet. Two independent retrievals agree on the wording and no mainstream outlet seems to have carried them. Publishable, but upgrade the citation if a bigger outlet picks them up.
+- The composite and the unverifiable quote cleared five pipeline stages *and* the source-audit script, because that script checks whether a quote is **tagged**, never whether the tag is **true** — and it only scans four slots, so load-bearing quotes elsewhere are invisible to it. I logged this to memory; worth a script fix beyond this draft.
+
+**Lint: clean** (0 fail; the 1 warn is the comparative inside the verbatim Ryan quote, exempt). Source audit: 5 load-bearing, 5 inline, 0 vague, 0 untagged. Frontmatter YAML parses. `content_quality` and `lastmod` untouched — the pipeline will clear the sidecar and re-grade. The grader's own projection was that the attribution fixes alone put this at 8.8 (B+).
+
+Sources: [Urgent Matter](https://www.urgentmatter.press/artist-hunter-biden-blasts-new-york-post-daily-mail/) · [Channel 5 transcript](https://www.rev.com/transcripts/hunter-biden-interview) · [Shawn Ryan #264](https://singjupost.com/shawn-ryan-show-srs-264-with-hunter-biden-transcript/) · [Candace](https://podcasts.happyscribe.com/candace/candace-x-hunter-biden-the-interview) · [NY Post via MSN](https://www.msn.com/en-us/news/politics/hunter-biden-is-still-trying-to-charge-54000-for-his-paintings-and-the-huge-price-includes-a-video-call-with-him/ar-AA28p1Te) · [If We Break](https://www.penguinrandomhouse.com/books/703131/if-we-break-by-kathleen-buhle/)

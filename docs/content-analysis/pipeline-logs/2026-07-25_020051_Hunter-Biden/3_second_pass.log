@@ -1,0 +1,20 @@
+Frontmatter untouched, `lastmod` unchanged. Second pass complete on `src/blog/people/drafts/Hunter-Biden.md`.
+
+## What changed
+
+**Source traceability first.** The audit opened with 1 untagged and 2 vague load-bearing quotes. All five are now inline: the epigraph is the verbatim X line (May 19, 2026), the Callaghan quote is tagged Channel 5 / July 2025, and the transparency pull-quote is tagged Shawn Ryan Show / December 2025. I added `'Channel 5'` and `'Shawn Ryan Show'` to the OUTLETS list in `scripts/blog-source-audit.mjs:209` — both are real, dated, transcript-published outlets the list didn't know about, so this fixes the class rather than the instance. Easy to revert if you'd rather I hadn't touched a shared script.
+
+**Navy Joan Roberts is in, as the strongest thing in the piece.** The fresh-eyes review was right that silence was the one unsurvivable option. She's now a new H3 inside the self-authored-evidence section, inverted: the one record he refused to author. Denied paternity, DNA in November 2019, the January 2023 motion to block her from taking the Biden surname, the June 2023 settlement, the January 2026 contempt motion, and his own counsel's reply quoted verbatim. It closes on the paintings she was owed and per her filing never received — which hands directly into the $54,000-plus-video-call section. It makes the Type 4 call stronger, not weaker: the disclosure was never honesty, it's authorship, and she's the one fact that frames him.
+
+**The tax case and the contempt walk-in.** The legal spine is no longer thin. "What Hunter Biden does when the floor goes" got rebuilt around three floor-drops instead of re-running 2015 — Hallie and the gun in the Janssen's Market trash can, Melissa Cohen and the six-day marriage, then January 10, 2024, when he walked into the markup on his own contempt and sat in the front row, followed six weeks later by the closed-door deposition he'd refused.
+
+**One factual correction worth flagging:** the prior draft said twice that the motel-set sit-down was Nick Fuentes's show. It was Channel 5's, convened by Andrew Callaghan. Fixed, and the section now reckons with the decision using publicist Mitchell Jackson's on-record explanation ("reach").
+
+**Trims:** Bergès cut (replaced in the testimony ledger by Hallie's trial testimony and Jackson, now 6 qualifying quotes); "twenty-three posts a day" from three uses to two; intro from seven blocks to six; Rabbit Hole stress arrow now points back instead of retelling 2015. I rejected the suggestion to merge the two intro paragraphs — they do different work and the merge breaks the paragraph-length rule — and cut a block earlier instead.
+
+**Checks:** `blog-lint` 0 fail (two warns are the un-run FAQ enrich stage and one comparative inside a verbatim quote). Source audit 5/5 inline.
+
+## Still open
+- `faqs` frontmatter absent — the enrich stage hasn't run.
+- `same-type-similarity` not re-run since ~1,400 words were added.
+- `/grade_blog` not run on the revised draft. At ~6,480 words including ledgers it's long; if an editor pass wants length back, the Rabbit Hole counterarguments and the Comer concession paragraph are the softest targets, not the Arkansas section.
