@@ -57,6 +57,7 @@ citations:
   - 'https://www.therebooting.com/p/techs-media-safe-space'
   - 'https://www.axios.com/2025/12/05/tbpn-ads-jordi-hays-john-coogan'
   - 'https://openai.com/index/openai-acquires-tbpn/'
+  - 'https://www.youtube.com/watch?v=KWiIMKiiwz0'
 faqs:
   - question: 'What is John Coogan''s personality type?'
     answer: 'John Coogan is best understood as an Enneagram Type 7. He explicitly ranks curiosity above money, fame, prestige, health, and comfort, then builds demanding projects that keep producing new questions.'
@@ -161,7 +162,7 @@ Ending swap-test: pass — the identical studio and newly changed world depend o
 
 > "Curiosity is my number one currency that I optimize for."
 >
-> — John Coogan, [Audience of One](https://poddtoppen.se/podcast/1671838630/audience-of-one/049-john-coogan-on-ai-ozempic-for-risk-taking-tech-media-curiosity), 2024
+> - John Coogan, [Audience of One](https://poddtoppen.se/podcast/1671838630/audience-of-one/049-john-coogan-on-ai-ozempic-for-risk-taking-tech-media-curiosity), 2024
 
 <p class="firstLetter">About halfway through a 2024 podcast, John Coogan was asked why he kept choosing difficult projects. He answered with a ranking. Curiosity came before money, fame, prestige, health, and comfort. A day of learning with ramen for dinner would make him happier than a boring day followed by steak.</p>
 
@@ -192,6 +193,8 @@ The usual caricature of [Type 7](/enneagram-corner/enneagram-type-7) is a pleasu
 
 His own words settle the core question better than a list of accomplishments could. In the same <em>Audience of One</em> interview, he admits that specialist mastery has obvious advantages. He still cannot imagine surrendering the right to follow whatever remains interesting. Prestigious jobs with little to learn sound terrible to him.
 
+A second self-report, given on [Scott Galloway's _Prof G_ podcast](https://www.youtube.com/watch?v=KWiIMKiiwz0) in July 2026, sharpens the type call further. Explaining why he skipped the large technology companies after moving west, Coogan said he realized he would not be a fit for the corporate ladder. Not that the work looked dull. Not that he could earn more elsewhere. The structure itself was wrong for him. A Five withdraws to protect energy from exposure. A Seven flinches at enclosure, which is a different reflex pointed at a different threat.
+
 That is why Type 3 comes second despite the exits, audience, and intense competitive streak. Achievement matters to John. Curiosity determines which achievements feel worth pursuing.
 
 ## Pasadena gave him the ocean and outer space
@@ -204,7 +207,9 @@ News operated the same way. Coogan has said he read newspapers as soon as he cou
 
 His childhood friendship with David Renteln added competition and companionship. The two ran rival Counter-Strike teams in middle school, then began building companies together. Coogan studied economics at Northeastern, moved west, learned to program, and cycled through startup ideas that produced flat analytics.
 
-One failed company cost the pair about $17,000. They later moved into a one-bedroom apartment in San Francisco's Tenderloin and prepaid a year of rent. Coogan slept in the living room while the team kept testing ideas. Paul Graham's instruction to "just don't die" became a literal operating plan. Coogan recounts the period in his 2021 video [How I Launched My Startup](https://www.youtube.com/watch?v=qAUs4e0TmC8).
+One failed company cost the pair about $17,000. They later moved into a one-bedroom apartment in San Francisco's Tenderloin and prepaid a year of rent. Three people shared it for about $1,500 a month. Coogan slept in the living room while the team kept testing ideas. Paul Graham's instruction to "just don't die" became a literal operating plan. Coogan recounts the period in his 2021 video [How I Launched My Startup](https://www.youtube.com/watch?v=qAUs4e0TmC8).
+
+He has since turned that squalor into a doctrine. Certain cities, he told Galloway, are vortexes, and San Francisco is a vortex for venture capital, startup energy, and now artificial intelligence. Moving there straight out of college was the whole point, because proximity is the fastest way to absorb an industry. His summary of the apartment is that the conditions were bad and they were in the mix, which he counts as a fair trade.
 
 Security was available in the form of a normal job. The unanswered problem kept winning.
 
@@ -215,6 +220,8 @@ The team entered Y Combinator in 2012 to build an inexpensive wireless mesh netw
 Coogan dismissed the idea. He believed viable startups had to be technology companies. Rhinehart tested the mixture on himself for thirty days and published "How I Stopped Eating Food." The post exploded. Thousands of people volunteered personal health data, and the crowdfunding launch raised millions.
 
 The surprise became an education in demonstration, controversy, and brand. Soylent placed nutrition facts on the front of the package. Its name carried a cannibalism joke that guaranteed arguments. Press appearances could create enormous sales days. Coogan moved from skepticism to building the company's technical infrastructure.
+
+He has since been blunt about how deliberate the provocation was. Asked about the name on _Prof G_, he agreed it was a strange choice for a food product and said that was the point: it was rage bait, and he puts it in the same category as Liquid Death. The argument was the distribution channel. That reframes his signature move as a method rather than a lucky accident, and he has now run it at least three times, from Soylent to a show called Technology Brothers with fake yacht sponsors to a spoof product billed as Claude with ads.
 
 The scale arrived quickly, followed by painful operational problems. Soylent raised tens of millions of dollars, expanded, recalled products after customers became ill, lost much of its founding team, and eventually sold to Starco Brands. In a 2024 [Sourcery interview](https://www.youtube.com/watch?v=KYkReFrm7Wg), Coogan compresses the outcome into a blunt postmortem: too much capital, the wrong team, and a disappointing sale.
 
@@ -280,11 +287,13 @@ John supplies technical depth, production knowledge, and the odd association tha
 
 Early TBPN episodes featured fake endorsements from yacht builders and luxury resorts. Their cinematic launch was immediately called "Temu Succession," a roast they enjoyed. John has explained the broader principle: humor gives a person permission to attempt something low-status. A joke makes the first version feel recoverable.
 
-The show gradually built an elaborate world of friends, enemies, cars, gongs, portraits, suits, and recurring phrases. Behind the improvisation sits a brand bible and relentless preparation. John initially wanted no guests and no travel, then changed course after the show revealed what worked.
+The show gradually built an elaborate world of friends, enemies, cars, gongs, portraits, suits, and recurring phrases. Behind the improvisation sits a brand bible and relentless preparation. John initially wanted no guests and no travel, then changed course after the show revealed what worked. He held that line longer than most producers would tolerate: by his account, roughly 150 hours of just the two hosts talking before they booked anyone.
+
+The early growth engine was pure Coogan. They read the financial papers, pulled posts off social media, printed them on paper, then reacted to the printouts on camera in suits and quote-tweeted whoever wrote the original. His explanation of why it worked is unusually sharp. A thousand likes melts into background noise, but a stranger who prints your post and films a considered response in 4K has visibly spent effort on you. Roughly fifty people a day received that signal, and enough of them reposted it to start the audience.
 
 That adaptability resembles a Seven without requiring chaos. The same desk, partner, and countdown return every weekday. The news guarantees that the intellectual experience will not repeat. John has said that a truly identical scripted show would feel like a waking nightmare.
 
-By late 2025, TBPN expected about [$5 million in annual advertising revenue](https://www.axios.com/2025/12/05/tbpn-ads-jordi-hays-john-coogan), remained profitable, and had taken no outside investment. The structure had become both a creative routine and an unusually efficient business.
+By late 2025, TBPN expected about [$5 million in annual advertising revenue](https://www.axios.com/2025/12/05/tbpn-ads-jordi-hays-john-coogan), remained profitable, and had taken no outside investment. On _Prof G_ in July 2026, Galloway laid out figures neither host disputed: eleven employees, still bootstrapped, still profitable, and a trajectory past $30 million for 2026. He also noted that his own show earns roughly $20 million on substantially more reach. The structure had become both a creative routine and an unusually efficient business.
 
 ## The cost of making tech feel like sports
 
@@ -293,6 +302,10 @@ TBPN's friendliness creates its central criticism. Brian Morrissey called it ["t
 The critique gets something important right. TBPN approaches technology as a source of fascination. The hosts avoid racing to break adversarial news, protect relationships with guests, and give ambitious builders room to explain themselves. That choice can polish power into something cool and coherent.
 
 Coogan's personality helps explain the trade. Curiosity flourishes when the conversation keeps opening doors. Hostility closes them. His preference for models, mechanisms, and future possibilities naturally pulls the show toward exploration.
+
+The July 2026 _Prof G_ interview revealed that the posture also has a name, and that Coogan is the one who articulated it. Jordi Hays described an early deliberate strategy the pair adopted and credited John with explaining it repeatedly on air: golden retriever mode. Show up happy, friendly, and, in Hays's word, dumb. Specifically not the interviewer signalling that he is the smartest person in the room and intends to catch you.
+
+That single fact upgrades the criticism from a temperament to a policy. The softness toward powerful people was chosen, named, and run deliberately. Coogan's Type 7 wiring is what keeps it from reading as a costume, because a Seven's curiosity is genuinely non-prosecutorial. He wants the door opened, not the witness broken. The cost is that a posture engineered to be unthreatening is a posture engineered not to prosecute, and the pair have given themselves no stated procedure for suspending it on the day it should be suspended.
 
 Seen from inside his value system, constant motion keeps the world open; each fresh question counters the deadness he associates with comfort. The motive makes the format understandable. It does not erase the journalistic cost. Access can become a filter, and enthusiasm can mistake momentum for truth.
 
@@ -306,7 +319,11 @@ His phrase for the desired condition is "control over chaos." It captures the en
 
 That appetite can produce extraordinary range. It can also turn sufficiency into an enemy. A profitable company, a respected role, or a stable routine may still feel wrong once the questions stop changing.
 
-TBPN solves the problem elegantly. Preparation begins early, the show occupies a fixed block, and the subjects refresh themselves. Outside that block, Coogan has described an entirely offline family life with his wife, three young children, and two Newfoundland dogs. The boundary gives his curiosity a container and gives his family a version of him that is no longer broadcasting.
+Coogan has the strongest available rebuttal, and he offered it when Galloway asked what he would tell young people. He described years of apparently unrelated obsessions: learning every piece of camera, microphone, and lighting equipment, and separately spending a long stretch programming. The return arrived all at once. On day one of TBPN he could build the studio and then coach a team past his own ability, and when a software founder sits down he is fluent enough to ask a real question. His phrase for it is little sprints that finally came together. A daily three-hour show about all of technology is one of the few jobs that cashes a Seven's entire back catalogue of interests at once, which is why the weakness and the qualification here are the same trait.
+
+TBPN solves the problem elegantly. Preparation begins early, the show occupies a fixed block, and the subjects refresh themselves. Outside that block, Coogan has described an entirely offline family life with his wife, three young children, and two Newfoundland dogs. As of mid-2026 the children are a five-year-old and twin two-year-olds. The boundary gives his curiosity a container and gives his family a version of him that is no longer broadcasting.
+
+The clearest measure of where his curiosity actually points came when Galloway pressed him on what the money changed and refused to accept "nothing" as an answer. Coogan reached first for a joke object, asking whether Galloway had heard of the Nissan Murano CrossCabriolet, a convertible SUV the world declined to want. Pushed for something real, he relocated the question entirely. The things he wants cannot be bought: time with his kids, peace and quiet, ending a tantrum gracefully, and getting better at chess without beating a five-year-old by too wide a margin.
 
 The tension remains. A person who needs an interesting frontier can build astonishing things. He can also keep moving before discovering whether the last frontier changed him.
 
@@ -315,6 +332,10 @@ The tension remains. A person who needs an interesting frontier can build astoni
 On April 2, 2026, [OpenAI acquired TBPN](https://openai.com/index/openai-acquires-tbpn/). The companies did not disclose the terms. TBPN joined the strategy organization under Chris Lehane, and the announcement promised that the hosts would continue choosing their programming, guests, and editorial decisions.
 
 The outcome looks like the ultimate institutional prize for a technology broadcaster. For John, the format may matter more. He gets to work near the center of the AI story while the live show keeps generating new material faster than anyone could finish understanding it.
+
+Asked in July 2026 why OpenAI bought them, neither host led with the audience. They led with marketing. TBPN had defended advertising inside ChatGPT when the idea was unpopular, run a Super Bowl ad, built a spoof product needling an Anthropic campaign aimed at OpenAI, and spent months giving OpenAI unsolicited marketing advice on air, including asking where its Steve Jobs was and arguing that launches should stop leading with benchmarks. Coogan says he hopes to have a strong voice in the next Super Bowl ad. The joke-into-institution method has reached the largest stage available to it.
+
+Which is where his own doctrine turns awkward. The vortex theory has a second half. Coogan does not believe he would have done well staying in San Francisco permanently, and he credits leaving with giving him the perspective that let him succeed in technology from outside its center. Enter for the inputs, leave before the place decides what you think. He built a career on proximity without capture, and he has now sold his show to the company at the exact center of the current vortex.
 
 Tomorrow morning the studio will look identical. The desks, portraits, cameras, and countdown clock will all be where they were.
 
@@ -354,6 +375,23 @@ Still open:
 
 Source audit:
 - 1 inline, 0 vague, 0 untagged load-bearing quotes.
+-->
+
+<!-- TRANSCRIPT UPDATE PASS (2026-07-25)
+Source: Prof G / Scott Galloway interview with Coogan and Hays, 2026-07-09 (https://www.youtube.com/watch?v=KWiIMKiiwz0)
+Full transcript: docs/research/transcripts/2026-07-09-tbpn-coogan-hays-prof-g-galloway.md
+
+Added:
+- "Would not be a fit for the corporate ladder" as the Type 7 vs Type 5 tiebreak (enclosure aversion, not exposure aversion).
+- Soylent name confirmed as deliberate rage bait, self-compared to Liquid Death; joke-into-institution now a documented 3x method.
+- Vortex doctrine, split across two sections: enter SF for the inputs (early career) and leave before it decides what you think (OpenAI close). Tenderloin now $1,500/mo, three people.
+- Golden retriever mode: Hays credits Coogan with articulating it. Upgrades the safe-space criticism from temperament to named policy.
+- Skills-sprints rebuttal (camera/lighting/programming converging on day one) as the strongest defense of Seven breadth.
+- Money answer (Murano CrossCabriolet joke, then tantrums and chess) as an interior beat.
+- 150 hours before first guest; love-letters growth mechanic; 2026 revenue trajectory past $30M; kids specified as 5yo + twin 2yos.
+- Hosts' own account of why OpenAI bought them (marketing, not audience).
+
+Not changed: lastmod, title, slug, published status, content_quality grade block (grade is now stale and should be re-run).
 -->
 
 <!-- EDITOR PASS NOTES (2026-07-14)

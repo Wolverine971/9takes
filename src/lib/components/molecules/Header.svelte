@@ -11,9 +11,42 @@
 	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
 	// Phase 3 (2026-05-04): inline SVGs migrated to @lucide/svelte per design-system.md
 	// rollout-plan Phase 3. Stroke widths normalized to Lucide defaults (1.5).
-	import { CircleUserRound, ChevronDown } from '@lucide/svelte';
+	import { CircleUserRound, ChevronDown, Bell } from '@lucide/svelte';
 
 	const authUser = getAuthShellUser();
+
+	// Unread notification badge.
+	//
+	// Fetched client-side rather than via the layout load: the root layout runs
+	// on every page (including cached editorial routes), so loading this
+	// server-side would add a database round trip to every signed-in request for
+	// a badge that only lives in the header. Degrades to 0 — and therefore to no
+	// badge at all — when the notifications migration has not been applied.
+	let unreadCount = $state(0);
+
+	$effect(() => {
+		if (!$authUser) {
+			unreadCount = 0;
+			return;
+		}
+
+		let cancelled = false;
+
+		fetch('/api/notifications/unread')
+			.then((response) => (response.ok ? response.json() : null))
+			.then((payload) => {
+				if (!cancelled && typeof payload?.unread === 'number') {
+					unreadCount = payload.unread;
+				}
+			})
+			.catch(() => {
+				// Badge is decorative; a failure here must never break the header.
+			});
+
+		return () => {
+			cancelled = true;
+		};
+	});
 
 	type NavigationHref =
 		| '/'
@@ -125,6 +158,19 @@
 				{#if $authUser}
 					<a
 						href={resolve('/account')}
+						class="account-button notification-button"
+						aria-label={unreadCount > 0
+							? `Go to account — ${unreadCount} unread`
+							: 'Go to account — notifications'}
+						title="Notifications"
+					>
+						<Bell size={24} strokeWidth={1.5} class="account-icon" />
+						{#if unreadCount > 0}
+							<span class="notification-badge">{unreadCount > 9 ? '9+' : unreadCount}</span>
+						{/if}
+					</a>
+					<a
+						href={resolve('/account')}
 						class="account-button"
 						aria-label="Go to account"
 						title="Account"
@@ -208,6 +254,19 @@
 			{#if $authUser}
 				<a
 					href={resolve('/account')}
+					class="account-button notification-button"
+					aria-label={unreadCount > 0
+						? `Go to account — ${unreadCount} unread`
+						: 'Go to account — notifications'}
+					title="Notifications"
+				>
+					<Bell class="account-icon" size={24} strokeWidth={1.5} />
+					{#if unreadCount > 0}
+						<span class="notification-badge">{unreadCount > 9 ? '9+' : unreadCount}</span>
+					{/if}
+				</a>
+				<a
+					href={resolve('/account')}
 					class="account-button"
 					aria-label="Go to account"
 					title="Account"
@@ -276,6 +335,30 @@
 
 	.account-button:hover {
 		color: var(--lamp-glow);
+	}
+
+	.notification-button {
+		position: relative;
+	}
+
+	.notification-badge {
+		position: absolute;
+		top: 0.35rem;
+		right: 0.25rem;
+		min-width: 1.05rem;
+		height: 1.05rem;
+		padding: 0 0.22rem;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 999px;
+		background: var(--lamp-glow);
+		color: var(--text-on-primary);
+		font-family: var(--font-mono);
+		font-size: 0.62rem;
+		font-weight: 700;
+		line-height: 1;
+		pointer-events: none;
 	}
 
 	.header-shell :global(.desktop-login),

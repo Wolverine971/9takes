@@ -222,7 +222,21 @@ const OUTLETS = [
 	'First Push',
 	'Zhongguancun Forum',
 	'Yahoo Finance',
-	'CNBC'
+	'CNBC',
+	// Creator-economy / streaming trade press (IShowSpeed pass, 2026-07-25).
+	// These are the outlets that actually cover this corpus's creator pages;
+	// without them every streamer quote grades untagged no matter how sourced.
+	'Dexerto',
+	'Sportskeeda',
+	'Awful Announcing',
+	'Streams Charts',
+	'Kotaku',
+	'Polygon',
+	'The Verge',
+	'TheGrio',
+	'Club Shay Shay',
+	'Al Jazeera',
+	'Complex Networks'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when
@@ -248,7 +262,11 @@ const AMBIGUOUS_OUTLETS = [
 	'Axios',
 	'Politico',
 	'Atlantic',
-	'Harper'
+	'Harper',
+	// Dictionary words that are also creator-press outlets (IShowSpeed pass,
+	// 2026-07-25). "Complex" and "Variety" only count next to an attribution cue.
+	'Complex',
+	'Variety'
 ];
 const ATTR_CUE = '(?:told|to|in|for|on|per|via|according to|wrote (?:in|for)|said (?:in|to)|[—-])';
 

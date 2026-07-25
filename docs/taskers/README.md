@@ -110,6 +110,28 @@ The next executable task is **T-10**. Its deletion phase is intentionally review
 
 ---
 
+## New workstream: 2026-07-25 news-refresh batch (T-16)
+
+**Folder:** [`news-refresh-2026-07/`](news-refresh-2026-07/README.md): twelve taskers, one per person, designed to be run by twelve independent agents.
+
+Source: a 2026-07-25 join of a fresh Search Console pull (90 days to 23 July) against all 523 people in `famousTypes.ts`, plus per-person news verification. The corpus does not have a coverage problem. It has a rank-and-freshness problem.
+
+**The three findings that drive the batch:**
+
+1. **391 published analyses produced 176,834 impressions and 940 clicks in 90 days.** Nearly every page ranks position 8 to 12 on queries that match it exactly. **Twelve pages carry 27% of all impressions** from 3.1% of the corpus. Those twelve are the batch.
+2. **The title hypothesis is dead. Do not re-litigate it.** Splitting all 391 pages by whether the SERP title contains _personality / enneagram / type / mbti_: 0.391% CTR **with** the keyword, 0.585% **without**. Keyword titles perform worse. Do not retitle toward keywords and do not replace persona titles anywhere in the corpus.
+3. **Category decides traffic, not quality.** Median impressions per published page: streamer **979**, pop star **616**, rising star **398**, screen icon **156**, historical figure **9**, politician **0**, activist **0**, TikToker **0**. Grade correlates with traffic at roughly _r_ = 0.11.
+
+**Every tasker in the batch inherits a shared editorial doctrine**: 9takes is not a news station, the news is the door and the psychology is the room. Eight required questions per refresh (feeling underneath, inner dialogue, evidence for/against/complicating the type, stress or integration arrow, arc, cost, what the other eight types see, the reader's mirror). Full version in the batch README §1; a condensed version is inlined in every tasker so no agent has to follow a link to work.
+
+Two taskers carry an extra **political-neutrality guardrail**: [NR-03 Hasan Piker](news-refresh-2026-07/NR-03-hasan-piker.md) and [NR-07 Elon Musk](news-refresh-2026-07/NR-07-elon-musk.md). Analyze the pattern, never the position; attribute every characterization; take no side.
+
+**Run order:** NR-05 (Messi) first and alone. It is the only page in the batch that is currently _wrong_ rather than dated, because it was edited five days before the World Cup final it describes. Then NR-01 (iShowSpeed), the single biggest traffic win on the site at 12,312 impressions. Two pairs share research and should be run together: NR-06 + NR-08 (Altman, Amodei) and NR-01 + NR-09 (iShowSpeed, Cenat).
+
+**Related, same analysis:** [`docs/blog-automation/publish-queue.md`](../blog-automation/publish-queue.md) diagnoses why nothing has published since 20 July. The cron is fine; the publish gate now requires rubric v2 and roughly 52 drafts at 8.5+ are still v1, so the publisher runs daily and finds nothing eligible. The fix is a regrade backlog, not an automation fix.
+
+---
+
 ## Notes
 
 - Six older taskers predate this folder and still live in their original locations: `docs/development/` (3), `docs/seo/` (1), `docs/design/` (1), `docs/planning/` (1). They were left in place rather than moved, since other work may link to them. Consolidating them here is a reasonable cleanup if you want it.

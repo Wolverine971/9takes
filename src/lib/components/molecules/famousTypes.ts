@@ -449,7 +449,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'halsey', link: true, hasImage: true, lastmod: '2026-03-15', personaTitle: 'Pop\'s Armored Heart', contentGrade: 8.9, types: ['musician', 'alternative-artist'] },
 		{ name: 'hasan-piker', link: true, hasImage: true, lastmod: '2026-01-26', personaTitle: 'Twitch\'s Political Firebrand', contentGrade: 8, types: ['creator', 'news-commentator'] },
 		{ name: 'ilona-maher', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Rugby\'s Unapologetic Bodyguard', contentGrade: null, types: ['celebrity', 'influencer', 'celebrity-image', 'lifestyle-builder'] },
-		{ name: 'ishowspeed', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Streaming\'s Homesick Warlord', contentGrade: 9.1, types: ['creator', 'streamer'] },
+		{ name: 'ishowspeed', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Streaming\'s Homesick Warlord', contentGrade: 8.9, types: ['creator', 'streamer'] },
 		{ name: 'jamie-dimon', link: true, hasImage: true, lastmod: '2026-05-27', personaTitle: 'Wall Street\'s Fortress Builder', contentGrade: 8.9, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'jeff-bezos', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'The Challenger Who Thinks in Centuries', contentGrade: 8, types: ['techie', 'big-tech-founder'] },
 		{ name: 'jocko-willink', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Discipline\'s Unresting Protector', contentGrade: 8.6, types: ['celebrity', 'celebrity-image'] },

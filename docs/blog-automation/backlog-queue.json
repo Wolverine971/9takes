@@ -1,11 +1,102 @@
 {
-	"lastUpdated": "2026-07-24T07:04:56Z",
+	"lastUpdated": "2026-07-25T00:00:00Z",
 	"stats": {
-		"totalUnpublished": 127,
-		"totalPublished": 266,
-		"completionRate": "67.7%"
+		"totalUnpublished": 132,
+		"totalPublished": 391,
+		"completionRate": "74.8%"
 	},
 	"queue": [
+		{
+			"name": "jynxzi",
+			"displayName": "Jynxzi",
+			"type": null,
+			"priority": 82,
+			"priorityReason": "CORRECTED 2026-07-25: named the #1 Twitch streamer of 2026 and most-watched in North America, ~10M followers. Prior priority (39) used a streamer median of 98; the 2026-07-25 GSC join measures 979. Streamer is the single best-performing category in the corpus.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "caseoh",
+			"displayName": "CaseOh",
+			"type": null,
+			"priority": 80,
+			"priorityReason": "Top-3 Twitch streamer of 2026 by peer and platform rankings; 7M+ YouTube and 7M+ Twitch. Streamer is the highest-yield category in the corpus (median 979 impressions vs 156 for screen icons) and is only 8 pages deep.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "plaqueboymax",
+			"displayName": "PlaqueBoyMax",
+			"type": null,
+			"priority": 77,
+			"priorityReason": "Twitch top-10 for 2026 and the fastest riser on the list, more than doubling his audience in 12 months. His In The Booth format puts rappers on camera, so he sits at the streamer/music intersection where two strong categories overlap.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "ibai-llanos",
+			"displayName": "Ibai Llanos",
+			"type": null,
+			"priority": 75,
+			"priorityReason": "Second most-followed streamer on Twitch globally and holder of the platform concurrency record (9.33M devices, La Velada del Año V). Zero Spanish-language creator coverage in the corpus today.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "ksi",
+			"displayName": "KSI",
+			"type": null,
+			"priority": 72,
+			"priorityReason": "DJ-requested 2026-07-25. The existing blogs_famous_people row is a 409-character stub with no draft on disk, so this needs a full write, not a publish. Creator/streamer is the top category (median 979) and he links directly to iShowSpeed, the #1 traffic page at 12,312 impressions, via Prime.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "penguinz0",
+			"displayName": "Charlie White (penguinz0 / MoistCr1TiKaL)",
+			"type": null,
+			"priority": 70,
+			"priorityReason": "CORRECTED 2026-07-25: streamer/creator median measured at 979, not 98. Long-running commentator with durable evergreen search.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
+		{
+			"name": "stableronaldo",
+			"displayName": "StableRonaldo",
+			"type": null,
+			"priority": 68,
+			"priorityReason": "Ranked top-3 among 2026 streamers in peer rankings. Streamer category median is 979; this is a cheap add inside the best-performing niche.",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
+		},
 		{
 			"name": "caitlin-clark",
 			"displayName": "Caitlin Clark",
@@ -31,6 +122,19 @@
 			"addedToQueue": "2026-07-18",
 			"retryCount": 0,
 			"strategicValue": "royalty-cluster"
+		},
+		{
+			"name": "duke-dennis",
+			"displayName": "Duke Dennis",
+			"type": null,
+			"priority": 64,
+			"priorityReason": "2.9M+ Twitch following, core AMP member and a constant presence in Kai Cenat content, so he cross-links directly into the two highest-traffic pages on the site (iShowSpeed 12,312 and Cenat 2,621 impressions).",
+			"estimatedTraffic": "high",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster"
 		},
 		{
 			"name": "lebron-james",
@@ -59,6 +163,19 @@
 			"strategicValue": "emmy-season-cluster"
 		},
 		{
+			"name": "chase-infiniti",
+			"displayName": "Chase Infiniti",
+			"type": null,
+			"priority": 62,
+			"priorityReason": "Now a surprise 2026 Emmy nominee (The Testaments) on top of the Critics Choice Best Actress win for One Battle After Another — two live award catalysts; Emmy ceremony Sept 14 sustains the arc through fall",
+			"estimatedTraffic": "high",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "gen-z-hollywood-pop-cluster"
+		},
+		{
 			"name": "mel-robbins",
 			"displayName": "Mel Robbins",
 			"type": null,
@@ -83,19 +200,6 @@
 			"addedToQueue": "2026-07-18",
 			"retryCount": 0,
 			"strategicValue": "psychology-hub-cluster"
-		},
-		{
-			"name": "chase-infiniti",
-			"displayName": "Chase Infiniti",
-			"type": null,
-			"priority": 62,
-			"priorityReason": "Now a surprise 2026 Emmy nominee (The Testaments) on top of the Critics Choice Best Actress win for One Battle After Another — two live award catalysts; Emmy ceremony Sept 14 sustains the arc through fall",
-			"estimatedTraffic": "high",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "gen-z-hollywood-pop-cluster"
 		},
 		{
 			"name": "michael-jordan",
@@ -228,19 +332,6 @@
 			"strategicValue": "sports-icon-cluster"
 		},
 		{
-			"name": "penguinz0",
-			"displayName": "Charlie White (penguinz0 / MoistCr1TiKaL)",
-			"type": null,
-			"priority": 47,
-			"priorityReason": "One of YouTube's most consistent commentators, the internet's de facto moral arbiter; streamer/creator niche performs and he is uncovered",
-			"estimatedTraffic": "medium",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
-		},
-		{
 			"name": "nate-bargatze",
 			"displayName": "Nate Bargatze",
 			"type": null,
@@ -330,19 +421,6 @@
 			"addedToQueue": "2026-07-18",
 			"retryCount": 0,
 			"strategicValue": "music-icon-cluster"
-		},
-		{
-			"name": "jynxzi",
-			"displayName": "Jynxzi",
-			"type": null,
-			"priority": 39,
-			"priorityReason": "Top-tier Twitch streamer with young high-volume search; streamer niche performs (98 median) and Gen Z coverage skews older without him",
-			"estimatedTraffic": "medium",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
 		},
 		{
 			"name": "rebecca-yarros",
@@ -745,11 +823,11 @@
 				"Gate 6: pass"
 			],
 			"contentRubric": {
-				"hook": 9.0,
-				"enneagram": 9.0,
+				"hook": 9,
+				"enneagram": 9,
 				"evidence": 8.5,
 				"writing": 8.5,
-				"originality": 9.0,
+				"originality": 9,
 				"discoverability": 7.5
 			},
 			"note": "non-interactive draft from /daily-blog-creator; graded B+ 8.5 (rubric v2) by /grade_blog. Discoverability held at 7.5 by missing faqs schema — easy A-grade lever for production."
@@ -776,10 +854,10 @@
 			"needsReview": false,
 			"coreTension": "Wit as armor vs. grief as wound — the Type 7 escape system that built a comedic operating system around outrunning pain, until her mother's death burned a literal hole through her esophagus and the strategy met its limit.",
 			"contentRubric": {
-				"hook": 9.0,
-				"enneagram": 9.0,
+				"hook": 9,
+				"enneagram": 9,
 				"evidence": 8.5,
-				"writing": 9.0,
+				"writing": 9,
 				"originality": 8.8
 			}
 		},
@@ -825,11 +903,11 @@
 			"needsReview": false,
 			"coreTension": "The mind that decided not to fear couldn't fear what was killing the body — knowledge as the elemental fortress that quietly absorbed her.",
 			"contentRubric": {
-				"hook": 9.0,
-				"enneagram": 9.0,
+				"hook": 9,
+				"enneagram": 9,
 				"evidence": 8.5,
-				"writing": 9.0,
-				"originality": 9.0
+				"writing": 9,
+				"originality": 9
 			}
 		},
 		{
@@ -852,11 +930,11 @@
 			"needsReview": false,
 			"coreTension": "The toughest man alive is also the most fearful man alive — and he refuses to ever stop being either.",
 			"contentRubric": {
-				"hook": 9.0,
-				"enneagram": 9.0,
-				"evidence": 8.0,
-				"writing": 9.0,
-				"originality": 9.0
+				"hook": 9,
+				"enneagram": 9,
+				"evidence": 8,
+				"writing": 9,
+				"originality": 9
 			}
 		},
 		{
@@ -874,10 +952,10 @@
 			"reviewReason": "Type discrepancy: queue listed Type 7, draft analyzed as Type 4 (Comedy's Glamorous Recluse)",
 			"personaTitle": "Comedy's Glamorous Recluse",
 			"contentRubric": {
-				"hook": 9.0,
-				"enneagram": 9.0,
+				"hook": 9,
+				"enneagram": 9,
 				"evidence": 8.5,
-				"writing": 9.0,
+				"writing": 9,
 				"originality": 8.8
 			}
 		},
@@ -911,7 +989,7 @@
 			"type": 8,
 			"priority": 89,
 			"completedAt": "2026-04-23T02:05:00Z",
-			"contentGrade": 9.0,
+			"contentGrade": 9,
 			"letterGrade": "A",
 			"duration": 30,
 			"needsReview": false
@@ -1055,7 +1133,7 @@
 			"strategicValue": "viral-beauty-list-hollywood-cluster",
 			"startedAt": "2026-05-09T16:23:48Z",
 			"completedAt": "2026-05-09T16:48:00Z",
-			"contentGrade": 9.0,
+			"contentGrade": 9,
 			"gradeLetter": "A",
 			"durationMinutes": 24,
 			"needsReview": false,
@@ -1070,7 +1148,7 @@
 			"completedAt": "2026-05-10T06:18:00Z",
 			"startedAt": "2026-05-10T06:01:01Z",
 			"contentGrade": 9.1,
-			"creatorSelfGrade": 9.0,
+			"creatorSelfGrade": 9,
 			"letter": "A",
 			"duration": 17,
 			"draftPath": "src/blog/people/drafts/Halle-Berry.md",
@@ -1112,7 +1190,7 @@
 			"strategicValue": "viral-beauty-list-hollywood-cluster",
 			"startedAt": "2026-05-15T06:01:35Z",
 			"completedAt": "2026-05-15T06:12:55Z",
-			"contentGrade": 9.0,
+			"contentGrade": 9,
 			"gradeLetter": "A",
 			"durationMinutes": 10,
 			"typeAtCreation": 6,
@@ -1151,7 +1229,7 @@
 			"strategicValue": "fills-type-9-gap",
 			"startedAt": "2026-05-17T06:11:15Z",
 			"completedAt": "2026-05-17T06:20:07Z",
-			"contentGrade": 9.0,
+			"contentGrade": 9,
 			"gradeLetter": "A",
 			"durationMinutes": 9,
 			"needsReview": false
@@ -1433,7 +1511,7 @@
 			"strategicValue": "hollywood-comeback-cluster",
 			"startedAt": "2026-06-29T06:00:37Z",
 			"completedAt": "2026-06-29T06:26:43Z",
-			"contentGrade": 9.0,
+			"contentGrade": 9,
 			"letter": "A",
 			"discoverability": 9,
 			"duration": 26,
@@ -1705,14 +1783,14 @@
 	"metadata": {
 		"priorityAlgorithm": "typeMultiplier * 10 + personaTitleBonus + searchVolumeEstimate",
 		"typeMultipliers": {
+			"1": 1,
+			"2": 1,
 			"3": 1.5,
+			"4": 1.2,
+			"5": 0.9,
+			"6": 1.1,
 			"7": 1.4,
 			"8": 1.3,
-			"4": 1.2,
-			"6": 1.1,
-			"1": 1.0,
-			"2": 1.0,
-			"5": 0.9,
 			"9": 0.9
 		},
 		"rateLimit": {

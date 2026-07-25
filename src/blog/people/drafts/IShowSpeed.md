@@ -53,48 +53,60 @@ citations:
   - 'https://www.youtube.com/watch?v=U-pQN5boCDo'
   - 'https://www.youtube.com/watch?v=Uv1PyE8J38w'
   - 'https://www.youtube.com/watch?v=fJNyN0DEOw8'
+  - 'https://time.com/collection/time100-sports/2026/ishowspeed/'
+  - 'https://en.wikipedia.org/wiki/World_Cup_(Champions)'
+  - 'https://www.aljazeera.com/sports/2026/7/8/fifa-condemns-fans-racist-attack-on-ishowspeed-at-argentina-world-cup-match'
+  - 'https://awfulannouncing.com/fox/ishowspeed-deal-stream-live-fifa-world-cup-games.html'
+  - 'https://www.complex.com/sports/a/markelibert/ishowspeed-world-cup-final-performance'
+  - 'https://thegrio.com/2026/07/20/ishowspeed-world-cup-closing-ceremony-father-bus-trip/'
+  - 'https://www.cbssports.com/wwe/news/wrestlemania-42-results-ishowspeed-logan-paul/'
+  - 'https://www.sportskeeda.com/us/streamers/news-is-ishowspeed-okay-video-streamer-passing-caribbean-tour-goes-viral'
+  - 'https://sports.yahoo.com/articles/emotional-ishowspeed-said-cristiano-ronaldo-094244696.html'
+  - 'https://www.aol.com/articles/ishowspeed-receives-savage-reception-attends-143900000.html'
 faqs:
   - question: "What is IShowSpeed's personality type?"
     answer: "IShowSpeed is an Enneagram Type 8 (The Challenger), specifically an 8w7. The pattern shows in the resurfaced photo of a quiet Cincinnati kid at an empty desk, the rage at Talking Ben for saying he doesn't love God, the Twitch ban he answered with a one-word tweet, the $140 million Kick deal he turned down, the Tokyo hospital prayers when the armor cracked, and the silence on the floor of a Senegal slave cell when he finally stopped filling the room."
     anchor: 'what-is-ishowspeeds-personality-type'
   - question: 'Why is IShowSpeed so loud and angry on stream?'
-    answer: "The volume looks random until you track what it does for him. Every room he enters gets filled with noise before the silence can remind him of that empty desk. The rage at controllers, Valorant teammates, and Talking Ben is not a temper problem — it is load-bearing armor. Volume is how an 8 keeps from being invisible, dismissed, or controlled, and Speed turned the dial up earlier and harder than almost anyone in streaming."
+    answer: "The volume looks random until you track what it does for him. Every room he enters gets filled with noise before the silence can remind him of that empty desk. The rage at controllers, Valorant teammates, and Talking Ben is not a temper problem. It is load-bearing armor. Volume is how an 8 keeps from being invisible, dismissed, or controlled, and Speed turned the dial up earlier and harder than almost anyone in streaming."
     anchor: 'why-ishowspeed-gets-so-angry-on-stream'
+  - question: 'Does IShowSpeed have anger issues?'
+    answer: "The record reads as an anger strategy rather than an anger disorder. Anger is the core emotion of the gut center where Type 8 lives, and an 8's version discharges on contact instead of accumulating. Booed by a full stadium in Los Angeles on 7 July 2026, four days after being racially abused by a fan in Miami, Speed grinned, flexed his biceps at the camera, and never raised it again. A disorder escalates past its trigger and keeps running. His ends. The cost of that speed lands on whoever is standing in front of him when it fires, which is a real problem and a different one."
+    anchor: 'does-ishowspeed-have-anger-issues'
+  - question: 'How does IShowSpeed have so much energy?'
+    answer: "He runs on the same supply everyone else has and is unusually willing to empty it. Type 8 sits in the body center, where physical life force is the resource being spent and spending it is the point. In April 2026 he collapsed on stream near the end of a twelve-hour broadcast while trying to reach five Caribbean countries in a single day. He apologized to his audience for losing consciousness, then did more than fifty push-ups on stream to prove the strength was still there."
+    anchor: 'how-does-ishowspeed-have-so-much-energy'
   - question: "What did the Africa tour reveal about IShowSpeed?"
-    answer: "On Gorée Island in Senegal, sitting on the stone floor of a slave-trade holding cell, the loudest person on the internet chose silence. In Liberia he met members of the Watkins family — Ohio descendants of freed slaves — and broke down on a 1.4-million-viewer stream. In Akropong, Ghana, elders gave him the Asante name Barima Kofi Akuffo. The Africa tour was not territorial expansion. It was an 8 looking for where the volume came from."
+    answer: "On Gorée Island in Senegal, sitting on the stone floor of a slave-trade holding cell, the loudest person on the internet chose silence. In Liberia he met members of the Watkins family, Ohio descendants of freed slaves, and broke down on a 1.4-million-viewer stream. In Akropong, Ghana, elders gave him the Asante name Barima Kofi Akuffo. The Africa tour was not territorial expansion. It was an 8 looking for where the volume came from."
     anchor: 'the-africa-tour-and-search-for-home'
   - question: 'Is IShowSpeed actually maturing?'
-    answer: "The 2024-2026 evidence says yes. In China he refused to give racists the explosive reaction they wanted and drove away instead. He bought his mother a house after she kicked him out at 16, offered his father a four-million-dollar mansion, and got Jamal into Streamer University. The faith thread runs through all of it — mosques in Qatar, an Orthodox church in Ethiopia, a cross necklace on stream. For an 8, surrender is the rarest move. He keeps walking into rooms where he is not in charge."
+    answer: "The 2024-2026 evidence says yes, with one complication. In China he refused to give racists the explosive reaction they wanted and drove away instead. He bought his mother a house after she kicked him out at 16, offered his father a four-million-dollar mansion, and got Jamal into Streamer University. The faith thread runs through all of it: mosques in Qatar, an Orthodox church in Ethiopia, a cross necklace on stream. For an 8, surrender is the rarest move. The complication is that after the 2026 World Cup closing ceremony drew lip-sync accusations, he answered none of it, and absorbing criticism in silence is not the 8 script."
     anchor: 'how-he-is-changing'
 path: src/blog/people/drafts/IShowSpeed.md
 content_quality:
-  hook: 9.5
-  enneagram: 9
-  evidence: 9
-  writing: 9
-  originality: 9
-  overall: 9.1
-  letter: A
-  graded_at: '2026-02-19'
+  hook: 9
+  enneagram: 9.5
+  evidence: 9.5
+  writing: 8.5
+  originality: 8.5
+  discoverability: 8
+  overall: 8.9
+  letter: A-
+  graded_at: '2026-07-25'
+  confidence: 'medium'
+  needs_review: false
+  caps_applied:
+    - 'corpus-metaphor-overlap: "fills every room" collides with gordon-ramsay (same-type-similarity 0.132)'
+  notes: 'Manual grade, not /grade_blog. Calibrated against the 2026-07-22 blind-regrade finding that pipeline grades >=8.5 collapse 1-2 pts on re-grade. Post news-refresh + developmental restructure (NR-01).'
 ---
 
-<!-- QUALITY GRADE: A (9.1) → REVISED (2026-04-01)
-
-REVISION NOTES:
-- Added faith thread: "Do you love God?" significance, cross necklace, "God is good" catchphrase, Tokyo prayer reflex, Ramadan fasting, Ethiopian church, witch encounter walkout. Faith as the one space where an 8 voluntarily surrenders control.
-- Added physical transformation: gym journey from early 2024, 225→300lb bench, 4.49s 40-yard dash, Noah Lyles race, Randy Orton endorsement. Body as literalized armor.
-- Added siblings: Jamal's bullying revelation, protecting sister's privacy, browsing history discipline, Streamer University, 100K celebration. 8→2 protector integration.
-- Added Chengdu/China as standalone bridge section before Africa (was awkwardly wedged mid-homecoming).
-- Added Ethiopian church moment to Africa section.
-- Trimmed: Type 3 counter-typing (full paragraph → 2 sentences), Lima mayor paragraph (cut), Speed Goes Pro paragraph (replaced with physical transformation), repeated stress→Five explanation (cut duplicate after Tokyo), one "loudest person on the internet" instance, multiple "fills room with noise" restatements, weakest "empty desk" callback.
-- Reduced "volume as armor" metaphor restatements in later sections — trusting reader to carry the thesis.
--->
-
-<p class="firstLetter">Day 23 of a 35-day nonstop livestream across America. Keystone, South Dakota. The tour bus at breakfast. 135 million followers watching. The most unhinged streamer on the planet says something nobody expected.</p>
+<p class="firstLetter">September 2025. Day 23 of a 35-day nonstop livestream across America. Keystone, South Dakota. The tour bus at breakfast. 135 million followers across his platforms. The most unhinged streamer on the planet says something nobody expected.</p>
 
 "_I need a therapist. I need somebody to talk to. Cuz I feel alone. I feel like nobody understands me._"
 
-Rewind to 2019. Old school footage from Cincinnati College Preparatory Academy surfaces online. A quiet kid named Darren Watkins Jr. sits at a desk in a classroom, completely alone. Every seat around him is empty. A commenter writes: "_The sad thing is that nobody is sitting with him._"
+He said it to a crew eating breakfast beside him, per Complex and Dexerto, who both had it up the same day in September 2025.
+
+Rewind. Footage from Cincinnati College Preparatory Academy shows a quiet freshman named Darren Watkins Jr. at a desk, completely alone, every seat around him empty. The clip was shot in 2019 and resurfaced years afterward on TikTok, where the top comment under the repost reads: "_The sad thing is that nobody is sitting with him._"
 
 Same kid.
 
@@ -102,7 +114,7 @@ One hundred thirty-five million followers later, same fear.
 
 What you see when you watch IShowSpeed (the screaming, the fireworks in the bedroom, the barking at Talking Ben until his voice cracks) isn't chaos. It's load-bearing walls. Every room he enters gets filled with noise before the silence can remind him of that empty desk.
 
-That wiring maps onto [Enneagram Type 8](/enneagram-corner/enneagram-type-8) — the Challenger. But calling Speed "a Challenger" doesn't capture it. He's more specific than a label: **the kid who discovered that volume is armor**, and who spent the next decade turning it up — until the day he discovered what happens when you turn it off.
+That wiring maps onto [Enneagram Type 8](/enneagram-corner/enneagram-type-8), the Challenger. But calling Speed _a Challenger_ doesn't capture it. He's more specific than a label: **the kid who discovered that volume is armor**, and who spent the next decade turning it up, until the day he discovered what happens when you turn it off.
 
 <details>
 <summary class="accordion">TL;DR: Why IShowSpeed is an Enneagram Type 8</summary>
@@ -112,6 +124,7 @@ That wiring maps onto [Enneagram Type 8](/enneagram-corner/enneagram-type-8) —
 <li><b>Volume as search:</b> Gaming → music → IRL tours → WWE → 80+ countries. He doesn't stay in one arena. He conquers new ones. But the restlessness isn't ambition. It's a kid looking for where he belongs. "Streaming can only get you so far. I want to do it all."</li>
 <li><b>The loyalty test:</b> He picks friends who match his energy (Kai Cenat), tests their loyalty aggressively (Adin Ross), and accepts hierarchy only when someone controls access to what he can't take by force (MrBeast → Ronaldo).</li>
 <li><b>The silence:</b> On the floor of a slave cell in Senegal, the loudest person on the internet went quiet. In his mother's village in Ghana, they gave him a name. What the volume was searching for wasn't fame. It was home.</li>
+<li><b>The institutional test:</b> In 2026 FIFA, TIME and WWE all booked him. He kept the channel, gave up the game feed, and collapsed on stream in April at the end of a twelve-hour broadcast. Getting the thing did not stop the chasing.</li>
 </ul>
 </div>
 </details>
@@ -174,7 +187,7 @@ Ben says no.
 
 Speed loses his mind.
 
-The question is revealing. Speed was raised in a Christian household in Bond Hill. He wears a cross necklace in nearly every stream. His signature catchphrase after victories is "_God is good, God is great!_" — a line he turned into an actual song. His first instinct with a cartoon dog was to ask about God, because that's where his mind defaults when the script runs out.
+The question is revealing. Speed was raised in a Christian household in Bond Hill. He wears a cross necklace in nearly every stream. His signature catchphrase after victories is "_God is good, God is great!_", a line he turned into an actual song. His first instinct with a cartoon dog was to ask about God, because that's where his mind defaults when the script runs out.
 
 He argued with the app like it was a sentient being defying him. He returned in May, in July, each time more furious. Fans declared Ben "the main antagonist of the IShowSpeed channel."
 
@@ -254,7 +267,7 @@ Then it got worse. His younger brother Jamal, 15 at the time, appeared on a stre
 
 Speed's face changed. "_Really? I'm sorry, bro. Nah, real sh\*t. Everything I do is for you, bro._" Then: "_I am not about to f\*\*king laugh, I am about to cry._"
 
-The summer of 2023 cracked him open twice. First his body betrayed him. Then his reputation. And the shame didn't just land on him — it landed on the person he was trying to protect.
+The summer of 2023 cracked him open twice. First his body betrayed him. Then his reputation. And the shame didn't just land on him. It landed on the person he was trying to protect.
 
 ## The Family He Protects Most
 
@@ -346,7 +359,7 @@ Before Africa, China tested whether the growth was real.
 
 A woman approached Speed on a Chengdu livestream. He engaged her. Then she said it: "_I'm racist._" He paused. Gave her a chance to walk it back: "_Wait, wait, wait. I don't think you understand what you're saying._" She doubled down. Speed screamed, climbed back into his vehicle, and drove away. In Beijing, fans made monkey noises and handed him a banana and a bucket of KFC simultaneously. Chinese state media later hailed his tour as a "soft power win."
 
-The teenager who exploded at Talking Ben, who threatened a woman on Adin Ross's stream — that version of Speed would have responded to racism with rage. The 2025 Speed denied the racists the explosive reaction they wanted. Denying someone power over your reactions is the strongest thing someone with this wiring can do.
+The teenager who exploded at Talking Ben, who threatened a woman on Adin Ross's stream, would have answered racism with rage. The 2025 Speed denied the racists the explosive reaction they wanted. Denying someone power over your reactions is the strongest thing someone with this wiring can do.
 
 ## The Africa Tour and Search for Home
 
@@ -384,7 +397,9 @@ In Lagos, Nigeria, on January 21, 2026, his 21st birthday, he hit 50 million You
 
 He celebrated in Africa, not America.
 
-Speed's Africa tour wasn't territorial expansion. It was the opposite. He went to find where he came from, and what he found was that belonging doesn't require volume.
+Speed's Africa tour wasn't territorial expansion. It was the opposite. He went looking for where he came from, and in Akropong they handed him a name for it.
+
+Whether a name can quiet an engine that has been running since the sixth grade is a different question. 2026 answered it.
 
 ## How He Is Changing
 
@@ -396,37 +411,159 @@ At the 2023 Streamys, Kai Cenat confronted Twitch CEO Dan Clancy: "_You gotta un
 
 "_I got banned when I was a young kid, when I was sixteen years old. But I'm different now. I'm a grown man._"
 
-Rolling Stone named him their Most Influential Creator of 2025. Back-to-back Streamer of the Year awards. The NFL, CBS Sports, and WWE courting an internet kid once known for setting fireworks off indoors.
+Rolling Stone named him their Most Influential Creator of 2025. Back-to-back Streamer of the Year awards. The NFL, CBS Sports, and WWE courting an internet kid once known for setting fireworks off indoors. By mid-2026 the platform count read 53 million on YouTube, 50 million on TikTok, 47 million on Instagram and 4 million on Twitch, and the institutions had stopped courting and started booking him.
 
 People ask if Speed is real or an act. He finds the question irritating: "_There's no such thing as in character and out of character. I am Speed._"
 
-He's right. And he's wrong. The volume is real. But so is the kid who sat on the floor in Senegal. So is the man who kissed a cross in Ethiopia. So is the brother who cried when Jamal said he was being bullied.
+That answer is half true. The volume is not a costume, and nobody sustains a bit for nine years at that voltage. But the kid who sat down on the stone floor in Senegal, the man who kissed a cross in Ethiopia, and the brother who cried when Jamal reported getting bullied are the same person as the one barking at a cartoon dog. Speed is not switching between a real self and a character. He is running one operating system at different pressures.
 
 The faith thread runs through all of it. Speed explored Ramadan fasting after talking with YouTuber Chunkz. He prayed in mosques in Abu Dhabi and Qatar. When fans accused him of faking, he snapped: "_How the f\*\*k you gon tell me that I'm not fasting?_" He visited a self-proclaimed witch for a spiritual reading and walked out mid-session, visibly uncomfortable. He doesn't belong to one tradition. But he keeps circling back to God, in multiple forms, through multiple doors.
 
-For someone whose entire wiring is about control, this is the most revealing pattern of all. Faith requires surrender. It requires admitting something is bigger than you. Speed — who negotiates honorary mayoral terms upward, who turned down $140 million, who refused to let a cartoon dog tell him no — keeps voluntarily walking into rooms where he's not in charge. That's not performance. That's the armor coming off.
+For someone whose entire wiring is about control, this is the most revealing pattern of all. Faith requires surrender. It requires admitting something is bigger than you. Speed, who negotiates honorary mayoral terms upward, who turned down $140 million, who refused to let a cartoon dog tell him no, keeps voluntarily walking into rooms where he's not in charge. That's not performance. That's the armor coming off.
+
+## The World Cup Year
+
+Within months of Ghana, the institutions called.
+
+TIME named him to the inaugural TIME100 Most Influential People in Sports on June 9, 2026. FIFA, Fox Sports and YouTube handed him live World Cup game feeds, letting him broadcast matches from inside host stadiums and from his desk, a first for a creator in the United States. Portugal's opener drew 9.2 million viewers on his stream, outperforming Fox's own television audience for the same match. His single "World Cup (Champions)" arrived June 1 and passed 100 million YouTube views inside eight weeks. At WrestleMania 42 in April he wrestled his first real match and lost it.
+
+Then, on July 19, 2026, he walked onto the field at MetLife Stadium as the first performer in the closing ceremony of the World Cup final between Spain and Argentina, ahead of Post Malone, Robbie Williams, Nicole Scherzinger and Laura Pausini.
+
+That is the news. Here is the part worth reading.
+
+### What an Institution Does to an Eight
+
+An Eight's core fear is being controlled and being made small. So read the deal terms rather than the headline.
+
+American viewers who came to Speed's own YouTube channel could not see the game feed there. To watch the match with him, they had to go to Fox's channel. The most-watched independent broadcaster of the tournament did not own the room he was broadcasting from.
+
+He signed it anyway.
+
+Set that beside the $140 million he turned down from Kick because a deal that big "might mess up my YouTube career." The refusal and the signature are four years and one category apart. Kick wanted to buy the channel. FIFA wanted to rent the audience and keep the feed. He said no to the first and yes to the second, which means the line he actually defends is narrower than "nobody controls me." It is "nobody owns the channel."
+
+Standing on that field, the sentence a 21-year-old with this wiring is plausibly running is not gratitude. It is closer to: _They ain't want me here. They needed me here._
+
+Then he got off the field and told his stream something else entirely.
+
+"_Unbelievable experience. I'm not gonna lie, I was dumb nervous. I couldn't even move my legs at some point._"
+
+A body-center type reporting that his body stopped working. The fear landed in his legs before it reached his head. For a type that meets the world by moving at it first and reasoning second, that is the most specific self-report available, and he volunteered it without being asked.
+
+### Does IShowSpeed Have Anger Issues?
+
+The short answer is that what looks like an anger problem is an anger strategy. The 2026 record shows him using it sparingly.
+
+Anger is the core emotion of the gut center, where Type 8 lives alongside Types 9 and 1. All three run on it. Nines fall asleep on it, Ones convert it into correction, and Eights spend it on contact. The diagnostic detail is not whether the anger shows up. It is how long it lasts. An Eight's rage discharges: it arrives fast, aims at whatever is in front of it, and is gone. It does not accumulate into a grudge or a plan.
+
+Track that against two documented moments four days apart.
+
+**July 3, 2026. Hard Rock Stadium, Miami.** Argentina against Cabo Verde. Speed was streaming the match under the FIFA arrangement when an Argentina supporter leaned over a railing and told him in Spanish to go cry at the zoo. FIFA treated it as racist abuse, opened an investigation and issued a condemnation, saying the World Cup "is a celebration of unity, diversity and respect" and that "anyone who acts in a manner that undermines these values is not welcome in our game."
+
+Speed kept streaming.
+
+**July 7, 2026. Los Angeles Stadium.** Spain against Belgium in the quarterfinal. His face went up on the videoboard and the stadium booed, louder as it ran. Brad Pitt, Issa Rae and Javier Bardem had drawn applause minutes earlier.
+
+Speed grinned and flexed his biceps at the camera.
+
+That is the answer in behavior. A stadium rejected him on a screen the size of a house and his response took under two seconds and cost him nothing. He did not argue with the crowd, did not address it on stream afterward, did not carry it into the next day. He converted it into a pose.
+
+What an actual anger disorder looks like is escalation that outlasts the trigger: the incident still running an hour later, a day later, aimed at someone who was not there. That is not the shape of this record, and the closest thing to an exception in his catalog is a six-month grudge against a cartoon dog.
+
+This page is not making a diagnosis and cannot make one. It is describing a pattern.
+
+And the pattern has a bill attached that other people pay. The 2021 Twitch ban came from Speed telling Ash Kash, who had just declined a hypothetical, "_Who's going to stop me? You're not stopping me._" She was a person on a livestream who said no, and what she got back was that. The comeback framing skips right past her. Fast-discharging anger is a relief for the Eight who discharges it. It is not a relief for whoever is standing in front of him when it goes off.
+
+### How Does IShowSpeed Have So Much Energy?
+
+Gut types do not decide and then act. The body moves first and the reasoning catches up. For an Eight in particular, physical life force is the resource being spent, and spending it is the point rather than the cost.
+
+Which makes the honest answer this: he runs on the same supply everyone else has, and he is unusually willing to empty it.
+
+**April 29, 2026.** Speed was near the end of a twelve-hour livestream, one leg of a Caribbean run in which he tried to reach five countries in a single day: Dominica, Guadeloupe, Saint Kitts and Nevis, Saint Martin and Sint Maarten. Stream video shows him slowing, clutching his face, bending forward, and going down. Security carried him out of frame. He did not open his eyes.
+
+What he said when he came back is the whole type in two words.
+
+"_My fault._"
+
+"_Chat, I'm good. I just got a little weak. My body is just feeling weird right now. And I'm sorry for collapsing like that on stream. I'm perfectly fine._"
+
+He apologized to his audience for losing consciousness. Then, to settle it, he did more than fifty push-ups on stream.
+
+Read that sequence as behavior and it is unambiguous. The body sent a bill. The response was not rest and it was not an admission. It was a demonstration of strength staged for the exact people who had just watched the strength fail.
+
+That is what the strategy costs. Tokyo in 2023 produced the stress move to Type 5: the armor cracked and he went dark, no streams, no posts. Sint Maarten in 2026 produced no withdrawal at all. He was back on the tour, and six weeks later he was inside a World Cup broadcast schedule that ran through July 19. The Eight who learns to absorb an insult without spending anger on it has not necessarily learned to stop spending the body.
+
+Which forces a harder question about Ghana.
+
+In January they gave him a name and he said there was no better feeling. Three months later he was unconscious on the ground in Sint Maarten, chasing five countries in a day.
+
+Both are true, and the second does not cancel the first. The naming was real. It answered the question the kid at the empty desk had been asking, and the relief on that stream was not performed. What it did not touch was the machine he built to stop having to ask. Belonging and the engine turn out to be separate systems. He found the first in Akropong and the second never got the message.
+
+Which is why the arrival year looks so much like every year before it. The thing a person chases and the reason they cannot stop are frequently separate systems, and satisfying the first does nothing to the second.
+
+### Is IShowSpeed Kind?
+
+Kindness is the wrong instrument for reading an Eight, and the people searching this question are closer to something real than the wording suggests. What the Enneagram predicts for a healthy Eight is not niceness. It is the move to [Type 2](/enneagram-corner/enneagram-connecting-lines): the armor comes off and the force turns outward, toward specific people, usually with nothing gained by it.
+
+The 2026 record has two clean instances.
+
+When Spain beat Portugal 1-0 on a stoppage-time Mikel Merino goal, ending Cristiano Ronaldo's last World Cup, Speed teared up on stream and spoke to him directly, as though the two of them were the only people in the room: "_Ronaldo, I love you. I'm so sorry that you lost the World Cup. I'm sorry. I was cheering for you. I wanted you to win._"
+
+He apologized for an outcome he had no part in. That is a Two's reflex running in an Eight's body: take responsibility for someone else's pain because sitting with it and doing nothing is unbearable.
+
+The second instance he did not perform at all. When flights were canceled before the closing ceremony, Darren Watkins Sr. took a bus for twelve hours to be inside MetLife Stadium. The same father who turned down a four-million-dollar mansion because he already had enough got on a bus.
+
+That is the counterweight the page has always needed. Speed's entire career runs on more. His father keeps demonstrating that the thing his son is chasing is available without any of it.
+
+**The complication is worth naming.** Nearly every documented instance of Speed's warmth happened on camera. The move to Two is supposed to be armor coming off, and it is genuinely hard to separate that from a persona working correctly when the persona's whole function is to broadcast everything he feels at maximum volume. The bus is the cleanest evidence in this section precisely because Speed was not the one performing it.
+
+### What the Other Eight Types Saw
+
+Speed is the most polarizing figure in this corpus by type.
+
+A **[Type 5](/enneagram-corner/enneagram-type-5)** sees exposure with no return. Eighty-two thousand people, a feed you do not control, every second recorded. The Five's question is not how it felt. It is what that cost in privacy, and what it bought that a desk could not.
+
+A **Type 3** sees the scoreboard finally reading correctly. TIME100, the ceremony, the feed rights. To a Three that is arrival, and the boos are noise from people who did not make the list.
+
+A **Type 6** reads the contract. Who holds the feed, what happens when the tournament ends, and what leverage a creator has once the institution has his audience's habit.
+
+A **[Type 9](/enneagram-corner/enneagram-type-9)** sees noise. A stadium of people yelling at a man yelling back, enormous energy spent to move nothing, and the most interesting person in the building was the man who got there by bus.
+
+### Evidence For, Against, and Complicating the Type 8 Read
+
+The World Cup year does not confirm the Eight read cleanly, and pretending otherwise would be the easy version of this page.
+
+**For.** He walked into the largest institutional frame in sports and treated it as territory. He kept the channel. And when Logan Paul turned on him after their WrestleMania loss, opponents had to pull Paul off him, at which point Speed climbed the ring post and put a splash through him. Rescued, then retaliating within the minute.
+
+**Complicating.** The performance drew immediate criticism. Viewers accused him of lip-syncing, calling the ceremony a "lip-syncing contest" and a "2026 Milli Vanilli concert." The Guardian's Alexis Petridis had already dismissed the single as "a frightful cocktail of thunderous drums and autotuned vocals."
+
+Speed did not answer any of it.
+
+That silence is the strongest counter-evidence on this page. The Eight script under public criticism is to double down, and the earlier version of him did exactly that: tweet "Bye." with a screenshot, switch platforms, refuse to soften. The 2026 version absorbed a lip-sync accusation on the biggest stage of his life and let it pass. Absorbing criticism without answering it is closer to how a [Type 3](/enneagram-corner/enneagram-type-3) manages a brand than to how an Eight defends territory.
+
+Two readings survive. The first is that this is an Eight who learned that not every insult is worth the ammunition, which is the same discipline he showed in China in 2025. The second is that the type read has been over-fitted to a teenager who no longer exists. The first is better supported by everything above, but the second deserves to be on the page rather than in a footnote.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for IShowSpeed</summary>
 <div class="panel">
 
-<p><em>For Enneagram readers going deep on IShowSpeed. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+<p><em>For Enneagram readers going deep on IShowSpeed. Skip if you're here for the story. The rest of the analysis stands on its own.</em></p>
 
 ### IShowSpeed's Wing: 8w7
 
-Speed reads as 8w7 — the Challenger with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. An 8w9 would be rooted, heavy, slow-moving, protective of home turf. Speed is the opposite shape: restless, hungry, constantly cannonballing into new arenas. Gaming to music to WWE to IRL tours to 80 countries in a year. The 7-wing is what makes one room never enough. A pure 8 conquers; an 8w7 conquers and keeps looking for the next fight.
+Speed reads as 8w7, the Challenger with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. An 8w9 would be rooted, heavy, slow-moving, protective of home turf. Speed is the opposite shape: restless, hungry, constantly cannonballing into new arenas. Gaming to music to WWE to IRL tours to 80 countries in a year. The 7-wing is what makes one room never enough. A pure 8 conquers; an 8w7 conquers and keeps looking for the next fight.
 
-The 7-wing also explains the appetite for spectacle. Fireworks in the bedroom. Speared through a table at the Royal Rumble. 50-meter sprint against Noah Lyles knowing he'll lose. 8w9s don't pick fights they'll lose for the story — they avoid unnecessary friction. 8w7s generate the friction because the sensation of impact is the point. Speed doesn't want to win safely. He wants to be inside the collision.
+The 7-wing also explains the appetite for spectacle. Fireworks in the bedroom. Speared through a table at the Royal Rumble. 50-meter sprint against Noah Lyles knowing he'll lose. 8w9s don't pick fights they'll lose for the story. They avoid unnecessary friction. 8w7s generate the friction because the sensation of impact is the point. Speed doesn't want to win safely. He wants to be inside the collision.
 
 ### IShowSpeed's Instinctual Subtype: sx/so
 
-Speed reads as sexual-dominant with social secondary. The sx-8 signature is the intensity — the Ronaldo tears, the Kai Cenat brotherhood (wrestling each other during a 68-hour Minecraft marathon), the 70% of his life shared on stream, the "I almost jumped off a building" volatility during the Tokyo crisis. Sx-8s fuse at high voltage. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> runs on charged one-to-one connection — which is why a cartoon dog saying "no" reads to him as an insult worth a six-month grudge.
+Speed reads as sexual-dominant with social secondary. The sx-8 signature is the intensity: the Ronaldo tears, the Kai Cenat brotherhood (wrestling each other during a 68-hour Minecraft marathon), the 70% of his life shared on stream, the "I almost jumped off a building" volatility during the Tokyo crisis. Sx-8s fuse at high voltage. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> runs on charged one-to-one connection, which is why a cartoon dog saying "no" reads to him as an insult worth a six-month grudge.
 
-Social sits second and carries the platform work. The Foundation, the envelopes to childhood friends, the Streamer University connection for Jamal, the loyalty tests with Adin Ross, the MrBeast WhatsApp-group calculus — these are so-8 moves, building and policing the group. Self-preservation sits last. He lights fireworks indoors. He streams 35 days nonstop across America. He gets speared through a table. Sp-8s protect their own bodies and resources first; Speed reliably expends his to keep the arena full.
+Social sits second and carries the platform work. The Foundation, the envelopes to childhood friends, the Streamer University connection for Jamal, the loyalty tests with Adin Ross, the MrBeast WhatsApp-group calculus: these are so-8 moves, building and policing the group. Self-preservation sits last. He lights fireworks indoors. He streams 35 days nonstop across America. He gets speared through a table. Sp-8s protect their own bodies and resources first; Speed reliably expends his to keep the arena full.
 
 ### Stress and Growth Arrows
 
-Under pressure, Speed reaches toward Type 5. The Tokyo hospital stretch is the clearest case — when the armor cracks, the reflex isn't rage. It's withdrawal. Prayer instead of performance. He streamed from the bed but went dark afterward. Same pattern on the stone floor in the Gorée Island slave cell: silence, no character, no screaming. 8-in-stress pulls the Investigator's isolation, not the Investigator's best analytical depth — the version you access under pressure is the withdrawn one.
+Under pressure, Speed reaches toward Type 5. The Tokyo hospital stretch is the clearest case. When the armor cracks, the reflex isn't rage. It's withdrawal. Prayer instead of performance. He streamed from the bed but went dark afterward. Same pattern on the stone floor in the Gorée Island slave cell: silence, no character, no screaming. 8-in-stress pulls the Investigator's isolation, not the Investigator's best analytical depth. The version you access under pressure is the withdrawn one.
 
 In growth he moves toward Type 2. Buying his mother a house at 16 after she kicked him out. Offering his father a four-million-dollar mansion. Protecting his sister from cameras. Escalating when Jamal reported getting bullied. The IShowSpeed Foundation, the envelopes of money for childhood friends framed as "a piece of what I've earned." See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 8s borrow 2's protective generosity when they stop running on pure dominance.
 
@@ -443,13 +580,15 @@ The 3 read points at the career-building, the brand, the platform calculus. But 
 
 In a world where most people suppress their feelings, Speed expresses everything at maximum volume. Happy? Ecstatic. Angry? Furious. Scared? Sobbing in a Tokyo hospital while his fans sing outside.
 
-But in Senegal, he was silent. In Liberia, he wept at a surname. In Ghana, they gave him a name.
+But in Senegal he went silent. In Liberia he wept at a surname. In Ghana they gave him a second name, Barima Kofi Akuffo, and he said there was no better feeling.
 
-A teenager from Cincinnati sat alone at a desk, invisible to every kid around him. He found a camera, turned it on, and started filling the silence. One hundred thirty-five million followers later, he flew to his mother's village and sat still long enough to be given a new one.
+Then he went back to work.
 
-Darren Watkins Jr. Barima Kofi Akuffo.
+A kid in Cincinnati sat alone at a desk, invisible to every student in the room. He found a camera, turned it on, and started filling the silence. Seven years later a stadium of 82,000 people watched him open the World Cup final, and his legs would not move.
 
-The kid from the empty desk, finally named.
+The desk is still in the room.
+
+If you recognize the pattern in yourself, the tell is not the volume. It is the arithmetic underneath it: the assumption that being needed is the safest available version of being wanted, and that the route there is to become too big to leave out. The trade works. It moved a kid from an empty desk to the center of the largest stadium on the calendar. What it has never done is answer the question he asked on a tour bus in South Dakota, which is why the answer keeps having to get louder.
 
 ## FAQs About IShowSpeed's Personality
 
@@ -465,62 +604,20 @@ The volume looks random until you track what it does for him. It fills the room 
 
 Because anger is his fastest route back to control. When he feels dismissed, challenged, or exposed, the reaction is immediate and physical instead of cool or calculated.
 
+**Does IShowSpeed have anger issues?**
+
+The pattern reads as an anger strategy rather than an anger disorder. A disorder escalates past the trigger and keeps running; his discharges on contact and ends. Booed by a full stadium in Los Angeles in July 2026, he grinned, flexed, and never mentioned it again. The cost of that speed lands on whoever is in front of him when it fires, which is a real problem and a different one.
+
+**How does IShowSpeed have so much energy?**
+
+He does not have more of it. He is willing to run out of it. Type 8 sits in the body center, where physical force is the resource being spent, and in April 2026 he spent it until he collapsed on stream near the end of a twelve-hour broadcast. His response on returning was fifty push-ups.
+
+**Is IShowSpeed kind?**
+
+The Enneagram's prediction for a healthy Eight is not niceness but the move to Type 2: protection turned outward toward specific people. He apologized on stream to Cristiano Ronaldo for losing a World Cup he had no part in. He bought his mother a house after she kicked him out. Nearly all of it happened on camera, which is the honest caveat.
+
 **Is IShowSpeed actually changing?**
 
 Yes, and the strongest evidence is that he is learning when not to explode. The China streams, the Africa tour, and his quieter religious moments all show someone who still runs hot but is no longer proud of reacting to everything the same way.
 
 > **Disclaimer** This analysis of IShowSpeed's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of IShowSpeed.
-
-<!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
-============================================================
-
-ONE-LINE VERDICT: The strongest piece in the batch — a long-form profile that earns every section by tying volume-as-armor to a specific kid at a specific empty desk, and then letting that desk return as a finished image rather than a metaphor.
-
-STRONGEST SECTION: "The Africa Tour and Search for Home" — Liberia (the Watkins surname), Ghana (Barima Kofi Akuffo), Ethiopia (kissed cross). The naming-by-coincidence beat is the rarest thing in this corpus: an emotional payoff the writer did not have to manufacture.
-WEAKEST SECTION: "Why He Still Feels Alone" — the closing recap is the only section that doesn't earn its space. "Darren Watkins Jr. Barima Kofi Akuffo." is a strong line but the paragraph above it is summary that the rest of the piece already delivered live.
-
-STRENGTHS (3-5 bullets, specific):
-- The empty-desk image is set up early ("nobody is sitting with him") and inverted later ("a million people choose to sit with him") without being pointed at — a real reward for readers who tracked the through-line.
-- Concrete, dated, sourced. "December 21, 2017... December 18, 2018. First livestream. Fortnite. Two viewers." — that texture is what makes the volume-as-armor thesis feel discovered, not asserted.
-- Father's refusal of the four-million-dollar mansion ("said no... because he already had enough") is the best "anti-thesis" beat in the batch. The piece lets a counter-example sit without arguing with it.
-- Faith thread is integrated, not bolted on — Talking Ben "Do you love God?" reframed as load-bearing rather than meme-fodder.
-- The piece names the China racism beat as a behavioral test the subject passed, with specifics. Most pieces in this corpus would have made it about institutional racism in general; this one stays on what Speed actually did in that moment.
-
-WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
-- "The rage is the roof. The fear is the foundation." — the contrast-pair tic, exactly once, deployed where it works. Not a weakness so much as a flag that the trope is here.
-- "He's right. And he's wrong." — pass 2's flagged "both X and Y are true" paradox-as-resolution shows up here.
-- "The volume is real. But so is the kid who sat on the floor in Senegal. So is the man who kissed a cross in Ethiopia. So is the brother who cried when Jamal said he was being bullied." — anaphoric "so is" stack reads as a single-sentence dramatic paragraph stack flagged in pass 1.
-- "But the deeper question nobody was asking: what is he looking for in all these rooms?" — the "nobody was asking" framing is rhetorically tired and untrue (Dazed asked exactly that).
-- Editor-comment block at top of file (lines 33-43) is a revision log left in the production file. The fixes appear to have been applied, so the comment is now noise. Pass 2 flagged this pattern.
-
-GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
-- Speed has been on stream during behavior the streamer community has called bigoted (anti-LGBT comments, the Ash Kash incident is mentioned as a Twitch ban but not as a moment with a victim). The piece does the work to humanize Ash Kash by naming her, then immediately drops her as a person.
-- The wardrobe-malfunction section quotes Speed's distress and his brother's bullying. It does not ask whether minors should be on a stream where their older brother's body could be exposed. A critical reader notices.
-- Ronaldo as the disarmer is well-drawn, but the asymmetry — Ronaldo's reported indifference, the way Speed's emotional intensity reads to non-fans as cringe-courting — isn't engaged.
-- The "Speed is sometimes manufactured" critique (the Dazed profile makes this case) is acknowledged once and dismissed via Speed's own quote ("There's no such thing as in character and out of character"). The piece sides with the subject's self-frame — pass 2's sympathy-by-self-conception flag.
-- No engagement with the people who think his streaming life has cost him a real adolescence. The mother quote (kicked him out, hung up on Mother's Day) gets reframed as eventual reconciliation; her actual position is never given full air.
-
-PATTERN HITS (DJ tropes that worked here):
-- Childhood-wound origin scene (the empty desk photograph) is the corpus's best-deployed version of the trope.
-- Object/symbol-as-thesis (the empty desk, the cross necklace, the Watkins surname) all work because they recur at different scales.
-- "Counterarguments" subsection (Type 7 vs Type 3) avoids the rule-of-three trap by giving each alternate a real argument and a real refutation.
-
-PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
-- "Volume as armor" repeated in subhead, TL;DR, body, and closing. The revision note at top admits trimming it; more could go.
-- "What the volume was searching for wasn't fame. It was home." — contrast-pair as TL;DR closer.
-- "8s lean in. Speed leans." — pass 2's stat-as-shock-paragraph cousin: punchline-as-paragraph.
-- "Sx-8s fuse at high voltage." — type-plural diagnostic crutch in the rabbit-hole subsection.
-
-CRITIC-ENGAGEMENT: Mixed. Names the China racism incident and Speed's response. Mentions the Twitch ban but reframes via Speed's "Bye." tweet rather than what Ash Kash experienced. Does not name a single named-person critic of his content style.
-
-CURRENCY (2024-2026 anchor): Yes — Lagos 50M subs on his 21st birthday (January 21, 2026), Africa tour (Dec 2025-Jan 2026), Rolling Stone Most Influential Creator 2025. Currency is excellent.
-
-DEFENSE-COUNSEL CHECK: Yes, mildly. The Ash Kash Twitch-ban moment is reframed as "backed into a corner, push forward harder. Don't retreat. Don't apologize" — the piece is admiring an instinct that, at its inception, was directed at a woman saying no. The framing turns a flag into a virtue. The wardrobe-malfunction scene is treated as Speed's trauma; the platform's failure to age-gate his content is not raised.
-
-PRIORITY FIXES (numbered, in order of impact — 3 max):
-1. Engage Ash Kash as a person with a position, not just as a Twitch-ban catalyst. The piece can still admire Speed's resilience and admit the original moment was harassment of a woman who said no.
-2. Cut the editor-comment block at lines 33-43. The notes appear to have been applied; the artifact is now clutter.
-3. Trim the "Why He Still Feels Alone" recap. End on "He celebrated in Africa, not America" or on the Akropong naming. The current closing summarizes ground the piece already won.
-
-============================================================ -->

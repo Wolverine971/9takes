@@ -55,6 +55,7 @@ citations:
   - 'https://www.linkedin.com/posts/jordi-hays-559199113_everyone-in-tech-loves-to-pretend-their-ideas-activity-7458570444510609408-g8c1'
   - 'https://www.superangel.blog/p/founder-friday-brian-keller-charlie'
   - 'https://www.linkedin.com/posts/jordi-hays-559199113_rho-closes-deal-with-capital-bolstering-activity-7102327718813339648-8U27'
+  - 'https://www.youtube.com/watch?v=KWiIMKiiwz0'
 faqs:
   - question: "What is Jordi Hays's personality type?"
     answer: "Jordi Hays is best understood as an Enneagram Type 3, the Achiever. His public pattern is to turn attention into a measurable product: daily broadcasts, visible audience feedback, repeated brand elements, post-show reviews, and predictable sponsorships. The Type 3 case rests on adaptation and proof, not on claiming to know his private motives."
@@ -172,9 +173,25 @@ Hays told *Dialectic* that he had read a newspaper every morning for as long as 
 
 This history changes the meaning of TBPN. The show did not manufacture an interest in technology news after Hays discovered that media could be lucrative. It gave a childhood habit a format, a co-host, and a business model.
 
-Business arrived early too. At 12, Hays used $500 from an aunt to start a skateboard company called J Man. He told *Dialectic* that he sold skateboards around town. The important detail is not that a seventh grader had already become a miniature chief executive. It is that an interest moved quickly into an object another person could buy.
+Business arrived early too. At 12, Hays raised about $500 to start a skateboard company called J Man, and he sold the boards around town.
+
+The mechanics matter more than the milestone, and he supplied them on [Scott Galloway's _Prof G_ podcast](https://www.youtube.com/watch?v=KWiIMKiiwz0) in July 2026. The boards he was buying in California cost $35 and arrived as blank Canadian maple. He worked out that a Midwest manufacturer would produce the same board with his own logo on it for $17.50. So he raised the money and did a run.
+
+Read what the twelve-year-old actually noticed. Not that skateboarding was fun, though it was. That there was a spread between two prices, and that his name could go in the gap. An interest became a margin with a logo on it, which is the shortest possible description of how Hays has operated ever since.
+
+Note that a widely circulated version of this story puts the raise at $650. Hays says $500. His own account is the better source.
 
 The old version of this article built a mythology around those facts. It invented his parents' occupations, imagined the household's definition of success, and assigned a motive to a year in Shanghai. None of that is needed. A newspaper on the coffee table, a repeatedly refreshed technology site, and a skateboard with his chosen name already show the pattern: information becomes identity through a product.
+
+## Branded Native was the same trick on a bigger target
+
+The pattern repeated in college with better economics. Hays met podcasters who had devoted audiences, enormous download numbers, and top-ten placement in their categories, all running zero advertising because they were doing it for the love of it.
+
+His pitch to them was one sentence: if I bring you advertisers, can I take a cut?
+
+That became Branded Native, an advertising business connecting brands with YouTube and podcast creators. He never raised outside money for it, it became profitable quickly, and it still operates today. He put the profits into roughly seventy startup investments over about eight years.
+
+This is the second time Hays walked up to value nobody was collecting and appointed himself the collector. It is also the most underrated fact in his biography, because it means that by the time TBPN sold its first sponsorship, he had already run thousands of creator advertising deals. The Formula One sponsorship model that later made TBPN unusually profitable was not improvised. It was a decade of pattern recognition arriving at a show he happened to co-host.
 
 ## Capital made attention part of the product
 

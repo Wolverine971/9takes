@@ -71,9 +71,12 @@ faqs:
   - question: 'Why did Zendaya repeat kindergarten?'
     answer: "Not for academics. Her parents, both teachers, held her back because she was so shy and anxious in new situations that they wanted to build her confidence. 'I was described as energetic and outgoing at home but reserved and shy at school,' she has said. Childhood tests made her panic so badly a teacher had to walk her out of the room, and that anxiety still followed her to a 2024 Variety interview."
     anchor: 'the-oakland-foundation-where-her-type-6-patterns-formed'
-  - question: 'Are Zendaya and Tom Holland engaged?'
-    answer: "Yes. They got engaged between Christmas and New Year's 2024, after more than three years together. The relationship runs on boundaries she needs: he doesn't walk her red carpets ('It's not my moment, it's her moment'), and when he deleted social media for his mental health, she later unfollowed everyone on Instagram. They're set to appear together in Spider-Man: Brand New Day and Christopher Nolan's The Odyssey."
-    anchor: 'the-tom-holland-dynamic-when-two-types-find-security-in-each-other'
+  - question: 'Are Zendaya and Tom Holland married?'
+    answer: "Yes. They married privately with no announcement, after getting engaged between Christmas and New Year's 2024. Her stylist Law Roach let it slip on the SAG Awards carpet on March 1, 2026. Tom Holland confirmed it in Esquire on June 16, 2026, saying of relatives who saw fake AI wedding photos, 'No, because they were all there.' Zendaya acknowledged it herself on July 20, 2026, telling a fan who proposed at a Spider-Man event, 'You're too late.' She never issued a statement, only gestures: a ring flash, a signature, a joke."
+    anchor: 'the-secret-wedding-what-a-type-6-does-with-the-biggest-news-of-her-life'
+  - question: 'Why is Zendaya taking a break?'
+    answer: "After five 2026 releases (The Drama, Euphoria season three, The Odyssey, Spider-Man: Brand New Day, and Dune: Part Three), she told Fandango: 'I'm disappearing for a little bit. I'm going to have to go into hiding for just a little bit.' Asked what she would do afterward: 'Oh girl, nothing. Just mind my business, you know? And stay to myself.' Her framing is completion rather than exhaustion. She described 2026 to Vogue Brasil as 'a year of wrapping up chapters with some characters I've grown with, of finishing their journey in a really beautiful way.' She is already booked to return in Shrek 5 on June 30, 2027."
+    anchor: 'going-into-hiding-which-arrow-is-this'
 twitter: ''
 instagram: ''
 tiktok: ''
@@ -89,26 +92,9 @@ content_quality:
   graded_at: '2026-02-18'
 ---
 
-<!-- QUALITY GRADE: A (9.0)
-Hook: 9 | Enneagram: 9.5 | Evidence: 9 | Writing: 8.5 | Originality: 9
-
-FEEDBACK (2026-02-18):
-- Opening paradox is excellent: "one of the most controlled, strategic presences in Hollywood" yet "anxiety just arriving at the interview." Immediately hooks and establishes the Type 6 thesis.
-- "Weaponized worrier" persona title is one of the best in the collection — captures the paradox in two words.
-- Enneagram integration is near-flawless: Type 6 thread runs through career strategy, music pivot, fashion, relationships, racial identity, producing, and personal growth. Every section earns its connection.
-- Music pivot as "strategic withdrawal" (not failure) is a genuinely original reframe that demonstrates deep Type 6 understanding.
-- Method dressing section is inventive — "fashion as Type 6 armor" is a framework no other analysis uses.
-- The breadwinner weight section adds unexpected emotional depth: "The breadwinner doesn't get to fail casually."
-- "Hollywood's acceptable version of a Black girl" section adds sociocultural dimension rarely seen in Enneagram analyses — elevates the piece beyond personality typing.
-- Challengers/Tashi analysis is the intellectual peak: "A tragedy trying to game her way into a triumph."
-- NEEDS WORK: At 371 lines, the piece is long. The Tom Holland section, while good, could lose 20% without sacrificing insight.
-- NEEDS WORK: The ending wraps up too neatly with "That's not overcoming Type 6 tendencies. That's perfecting them." — a stronger ending might cut to the Challengers insight or the kindergarten repeat callback.
-- TO REACH A+: Tighter ending (cut the summary paragraph), trim Tom Holland section slightly, consider a callback to the opening anxiety admission for structural closure.
--->
-
 > "I'm a control freak by nature, and I feel like if I don't have any control, I get really anxious. I need to be able to have that say."
 
-<p class="firstLetter">June 2024. Variety interview. Zendaya, two-time Emmy winner, face of luxury brands, fiancée to Spider-Man, sits across from a journalist and admits something most A-listers would never say: she was filled with anxiety just arriving at the interview.</p>
+<p class="firstLetter">June 2024. Variety interview. Zendaya, two-time Emmy winner, face of luxury brands, then engaged to Spider-Man, sits across from a journalist and admits something most A-listers would never say: she was filled with anxiety just arriving at the interview.</p>
 
 Not stage fright. Not imposter syndrome. Pure, familiar anxiety that's followed her since childhood tests made her panic so badly a teacher had to walk her out of the room.
 
@@ -295,7 +281,7 @@ The industry made it official back in 2021. At 25, Zendaya became the youngest p
 
 ## The Tom Holland Dynamic: When Two Types Find Security in Each Other
 
-She's been with [Tom Holland](/personality-analysis/tom-holland) for over three years now. They got engaged between Christmas and New Year's 2024.
+She met [Tom Holland](/personality-analysis/tom-holland) on the first Spider-Man in 2016, got engaged between Christmas and New Year's 2024, and married him without telling anyone.
 
 What makes this relationship work through a Type 6 lens?
 
@@ -313,27 +299,117 @@ When asked about the future, Holland said: "When I have kids, you will not see m
 
 The man is offering something Zendaya has built her entire career around: predictability. Security. A clear plan.
 
-## 2025-2026: The Strategic Next Moves
+## The Secret Wedding: What a Type 6 Does With the Biggest News of Her Life
 
-Zendaya's upcoming slate reads like a Type 6's dream portfolio:
+On March 1, 2026, on the SAG Awards carpet, Law Roach told Access Hollywood that "the wedding has already happened. You missed it." Asked whether that was true, he laughed: "It's very true."
 
-**The Odyssey** (2026): Christopher Nolan cast her as Athena, goddess of wisdom and strategic warfare. She'll appear alongside fiancé Tom Holland (playing Telemachus) and heavy-hitters like [Matt Damon](/personality-analysis/matt-damon), [Anne Hathaway](/personality-analysis/anne-hathaway), and Charlize Theron.
+Zendaya did not respond.
 
-The symbolism isn't lost. Athena is the patron deity of heroes. She doesn't fight with brute force, she wins through preparation, strategy, and being several moves ahead.
+Eleven days later, at the Essence Black Women in Hollywood Awards, host Marsai Martin asked her for a sign about where to send a gift. Zendaya lifted both ring fingers, showed the bands, and let the room cheer. On March 14 she turned up at a Las Vegas chapel to witness a stranger's wedding as a promotional stunt for The Drama, and signed the certificate Coleman, her legal name, which sent the guessing around the internet another lap. On Jimmy Kimmel Live! she discussed the AI-generated wedding photos going viral instead of the wedding itself: "Many people have been fooled by them." Confirmed nothing. Denied nothing.
 
-**Spider-Man: Brand New Day** (2026): She's reprising MJ opposite Holland. The couple will spend much of 2025 filming together in Morocco, Greece, Italy, Iceland, and Scotland.
+The confirmation came from her husband. In an Esquire interview published June 16, 2026, Holland was asked whether he had needed to reassure relatives that the viral images were not real. "No," he said, "because they were all there." Then he shut the door: "That's all you'll get on that." He mentioned that his grandmother had worried she was not invited once the photos circulated.
 
-Despite critically acclaimed performances in both Dune: Part Two and Challengers, the 2025 Oscars passed her over completely. Challengers was shut out of every category, including the Trent Reznor and Atticus Ross score that had just won at the Golden Globes. Dune: Part Two collected five nominations, none for acting. She earned a Golden Globe nod for Challengers, lost to Demi Moore, and skipped the Oscars entirely. Critics and fans called it a snub. For a Type 6, institutional rejection stings, and it also confirms the suspicion she's carried since the bad music contracts: the gatekeepers were never the thing worth relying on.
+Zendaya's own acknowledgment arrived on July 20, 2026, at a Spider-Man: Brand New Day fan event in Mexico City, when someone in the crowd shouted "Will you marry me, please?" She laughed and said, "You're too late."
 
-**Euphoria Season 3** is the puzzle in her portfolio. The show lost cast between seasons (Barbie Ferreira left in 2022, saying she wanted different kinds of roles), absorbed the death of Angus Cloud in 2023, and went roughly four years between installments as strikes, scheduling, and creator Sam Levinson's rewrite-heavy process, well documented in the trades, kept pushing it back. Season 3 finally started filming in February 2025 and premiered in April 2026.
+Four words. To a fan. At a movie event. One hundred and forty-one days after the story broke.
 
-Here's the Type 6 tension the show exposes. Everything else about Zendaya says minimize exposure, avoid the unpredictable. Yet she stayed bolted to the least predictable production in prestige TV, as both its star and an executive producer. Why stay?
+Line those up and the pattern has almost nothing to do with secrecy. She acknowledged the marriage four separate times in public. Every acknowledgment was a gesture: a ring held up, a name written down, a joke tossed back. Not one was a sentence a reporter could file as an announcement.
 
-Because Rue is the role that won her two Emmys and the one she's said she feels responsible to, having built it for people in recovery who recognize themselves in it. For a Type 6, loyalty isn't only about safety. It's about refusing to abandon the thing that proved trustworthy when it counted, even when staying looks reckless from the outside.
+She never hid the fact. She refused to be the one who handed it over.
 
-And she hedged anyway. By the time Season 3 rolled, Zendaya had Dune, Challengers, The Odyssey, Spider-Man, and the Ronnie Spector biopic lined up. If Euphoria had collapsed entirely, her career wouldn't have.
+That is the Type 6 architecture inside a single decision. The Six's core fear is being without support, and its sharpest version is being out in the open with nothing underneath. A wedding announcement is precisely that trade: you hand the largest support structure in your life to a crowd, and the crowd then sets the terms on which it gets discussed. Everyone who mattered was in the room. Nobody who did not was. After that, she let the world assemble the fact on its own while keeping her name off the record.
 
-That's not pessimism. That's risk management.
+Whether that reads as privacy or as control depends on what you think she was protecting. The evidence says it was not the marriage and not the date. It was authorship.
+
+It cost her something specific. Roach announced it. Her mother, Claire Stoermer, posted the clip of him doing it to her own Instagram Stories, captioned "The laugh…" Holland confirmed it. Zendaya was the fourth person to speak publicly about her own wedding, and by the time she got there the story had been running for five months without her.
+
+### What the Other Eight Would See
+
+A secret wedding splits the nine types harder than anything else in her file.
+
+A [Type 3](/enneagram-corner/enneagram-type-3) sees a win left on the table. The announcement is the asset, the one moment the story is entirely yours to shape, and hiding it forfeits the whole thing.
+
+A [Type 7](/enneagram-corner/enneagram-type-7) reads the shape of the year as a door closing. Get married, throw the party, keep the good year going. The retreat is the part a Seven cannot make sense of.
+
+A [Type 8](/enneagram-corner/enneagram-type-8) has no patience for the middle. Announce it or do not, but five months of letting a crowd guess is a weaker position than one sentence said once.
+
+A [Type 4](/enneagram-corner/enneagram-type-4) sees the only defensible version of it. Something this significant belongs to the people inside it, and a public ceremony would have thinned it out.
+
+A [Type 2](/enneagram-corner/enneagram-type-2) feels the guest list. Being close to someone means being told, and learning it from a red carpet is its own answer about where you stood.
+
+One event. Five readings, none of them wrong from the inside.
+
+## The Year of Endings
+
+Her 2026 release calendar: The Drama on April 3, Euphoria season three on April 12, Christopher Nolan's The Odyssey on July 17, Spider-Man: Brand New Day on July 31, and Dune: Part Three in December.
+
+Five major projects in nine months looks, from outside, like a Six running her stress arrow at full extension. Under pressure, Type 6 moves toward [Type 3](/enneagram-corner/enneagram-type-3): relentless output, worth proved by production, motion used to manage fear.
+
+Her own account complicates that. "I think this is one of the most intense years of my life," she told Vogue Brasil in May 2026, then immediately corrected the scale: "It was only less intense than last year, when I was filming all these releases."
+
+The stacking is a distribution artifact. The work was finished in 2025. What 2026 stacked was the exposure.
+
+That is where the arrow actually shows. Between June 22 and July 20 she ran two global press tours simultaneously: Spider-Man through Berlin, Rome, Paris, London, New York and Mexico City, and The Odyssey through London, Mumbai, Paris and New York, method-dressed as Athena for every stop of the second one. Filming is work that ends and gets filed. Promotion is image management with no completion state, performed live, in front of the crowd, and it is the one part of the job a Six cannot prepare her way out of. Those four weeks of carpets are where the stress arrow lives. The five credits are a release calendar.
+
+Underneath the volume, the year kept doing one thing. It ended things.
+
+The Euphoria series finale aired May 31, 2026, and Rue died, an accidental overdose from a Percocet cut with fentanyl. The role that won Zendaya two Emmys, the character she has said she feels responsible to, was finished. In the behind-the-scenes footage she addressed the cast and crew: "I'm incredibly grateful for every single one of you, and many of you have been here from the beginning and watched me grow up. It's been a pleasure and an honor."
+
+She had seen it coming. On The Drew Barrymore Show in April, asked whether season three was the end, she said, "I think so, yeah." What she volunteered about Rue was not about the show's future: "Rue taught me so much about empathy and about redemption."
+
+Dune: Part Three closes Denis Villeneuve's trilogy in December. Chani's story ends with it.
+
+Zendaya named the pattern before anyone asked her to. The year, she told Vogue Brasil, "has been a year of wrapping up chapters with some characters I've grown with, of finishing their journey in a really beautiful way."
+
+Note what she is not measuring the year against. Despite acclaimed performances in Dune: Part Two and Challengers, the 2025 Oscars passed her over completely. Challengers was shut out of every category, including the Trent Reznor and Atticus Ross score that had just won at the Golden Globes. Dune: Part Two collected five nominations, none for acting. She earned a Golden Globe nod for Challengers, lost to Demi Moore, and skipped the Oscars entirely. For a Type 6, institutional rejection stings and simultaneously confirms the suspicion she has carried since the bad music contracts: the gatekeepers were never the thing worth relying on. A year graded by finished work rather than by awards is a year she controls the scoring of.
+
+### The Part That Does Not Fit
+
+A pure security read predicts someone who takes the safe job. Zendaya took Christopher Nolan's Odyssey, a three-hour epic in which she plays Athena opposite [Matt Damon](/personality-analysis/matt-damon), [Anne Hathaway](/personality-analysis/anne-hathaway) and Charlize Theron, and where reviewers noted she made the largest impression with the least screen time. In the same summer she anchored a Marvel tentpole and, in December, a trilogy finale. Any of it going wrong goes wrong in public, at scale.
+
+Her stated selection criterion is the opposite of what a safety-seeking read predicts. On choosing roles, she told Vogue Brasil: "It's important that the work is exciting, but also a little scary, like, a little healthy fear about whether or not I'll be able to embody the character is always good."
+
+She screens for fear rather than away from it.
+
+The reconciliation has to be narrower than "she is a Six, so she seeks safety," because that version explains every possible behavior and therefore explains none of them. What she avoids is risk without a structure around it. A Nolan set is frightening inside a container: a script, a director with a plan, a crew, a call sheet, an end date, and a performance she gets months to prepare. A wedding announcement is frightening with no container at all, no script, no end date, and no way to prepare for what a few million strangers do with it next.
+
+She will take the scarier job every time. She will not take the unbounded one.
+
+## Going Into Hiding: Which Arrow Is This?
+
+In late March 2026, promoting The Drama alongside Robert Pattinson, Alana Haim and Mamoudou Athie, Zendaya told Fandango: "I hope you guys don't get sick of me this year, because, I'll tell you what, I'm disappearing for a little bit. I'm going to have to go into hiding for just a little bit."
+
+Asked what she would do once the promotion stopped: "Oh girl, nothing. Just mind my business, you know? And stay to myself."
+
+Type 6 in integration moves toward [Type 9](/enneagram-corner/enneagram-type-9): settled, unhurried, no longer scanning the horizon for what is coming. On paper the retreat is that arrow. But a Six exhausted into shutdown looks identical from outside, and the two are not the same condition. The tell is in what she says about why she is stopping.
+
+Her language is completion language. Wrapping up chapters. Finishing their journey. A pleasure and an honor. There is no fear in any of it, no framing of the break as recovery, and nothing she describes herself as escaping. "Just mind my business" is what rest sounds like. On the available evidence the retreat is the Nine arrow: she stops because what she was carrying is finished, not because she can no longer carry it.
+
+Then there is the part that keeps this from being tidy.
+
+Before the hiding started, she booked the end of it. In June 2026 she was announced in the voice cast of Shrek 5, playing Felicia, the teenage daughter of Shrek and Fiona, releasing June 30, 2027.
+
+A Nine rests without a return date. A Six schedules the exit before entering the room. The retreat is real and it has a deadline she set for herself, which means the security architecture never switched off. It relocated into the calendar.
+
+## The Loyalty Test: When Her Stylist Quit Everyone But Her
+
+In Hollywood, people cycle through teams faster than they cycle through partners. Zendaya has worked with the same stylist, Law Roach, since she was 14.
+
+Then in March 2023, Roach detonated his own career. A viral moment at a Louis Vuitton show in Paris had fed rumors of a rift between them, and days later he announced he was retiring as a celebrity stylist. "My Cup is empty," he wrote. "The politics, the lies and false narratives finally got me! You win… I'm out."
+
+He walked away from every client in the world except one. Zendaya killed the feud rumors herself: "So y'all really think I'm breaking up with Z… we are forever!" Roach kept dressing her, and only her, straight through the Dune: Part Two and Challengers press tours, the most acclaimed styling runs of either of their careers. He didn't take on another outside client until 2025. Through all of it, she stayed his one constant.
+
+"She's my little sister and it's real love not the fake industry love," he said.
+
+Then the fortress leaked.
+
+Roach is the person who told the world she was married, on a red carpet, into a microphone, five months before she said it herself. That is the hardest test this type gets. A Six sorts the world into people who are safe and people who are not, and the sorting is the central labour of the type. Her trusted inner circle produced the exposure.
+
+What she did about it is on the record in the form of what did not happen. She has never publicly addressed the leak. Four months later, Roach styled her through both the Odyssey and Spider-Man press tours, building the Athena run that got written up as the best fashion storytelling of her career, at one point having a Schiaparelli dress flown from a Paris runway to London by private jet to make a premiere.
+
+No statement. No distance. No replacement.
+
+Read as behavior rather than as sentiment, that is a threat model working as designed. Roach was vetted across fifteen years, and fifteen years of evidence does not get overturned by one red-carpet slip. A Six's skepticism is expensive to get past, and the flip side of that expense is that once someone is through it, they stay through it. She absorbed five months of speculation rather than lose the person. That trade is the reason the "Loyal" in Loyal Skeptic is not decoration.
 
 ## The Breadwinner Weight: Type 6 Responsibility in Action
 
@@ -354,18 +430,6 @@ The stakes were never just about her.
 This weight still shows up in her career choices today. She doesn't take unnecessary risks. She doesn't experiment publicly the way other stars her age do. Every move is calculated because she learned early that her career was the family business, with everyone's livelihood riding on it.
 
 The breadwinner doesn't get to fail casually. Every project needs to work.
-
-## The Loyalty Test: When Her Stylist Quit Everyone But Her
-
-In Hollywood, people cycle through teams faster than they cycle through partners. Zendaya has worked with the same stylist, Law Roach, since she was 14.
-
-Then in March 2023, Roach detonated his own career. A viral moment at a Louis Vuitton show in Paris had fed rumors of a rift between them, and days later he announced he was retiring as a celebrity stylist. "My Cup is empty," he wrote. "The politics, the lies and false narratives finally got me! You win… I'm out."
-
-He walked away from every client in the world except one. Zendaya killed the feud rumors herself: "So y'all really think I'm breaking up with Z… we are forever!" Roach kept dressing her, and only her, straight through the Dune: Part Two and Challengers press tours, the most acclaimed styling runs of either of their careers. He didn't take on another outside client until 2025. Through all of it, she stayed his one constant.
-
-"She's my little sister and it's real love not the fake industry love," he said.
-
-This is what Type 6 loyalty actually looks like. When you find the rare person who's proven trustworthy, you don't trade them for a shinier option when the pressure spikes. You build a fortress around the relationship. In a business that runs on disposable alliances, keeping the same partner for over a decade, through his very public burnout, is almost defiant.
 
 ## "Hollywood's Acceptable Version of a Black Girl": Type 6 Honesty About Power
 
@@ -425,19 +489,31 @@ She forces herself out of isolation even when every instinct says to hide.
 
 This is what growth looks like for Type 6s: recognizing that total control is impossible, that some security comes from trusting others, that anxiety can be acknowledged without being obeyed.
 
-The shy kid who had to repeat kindergarten is now fielding calls from Christopher Nolan. The Disney star who could have crashed is picking her projects like a chess grandmaster. The self-proclaimed hermit is learning to face the day, one shower at a time.
+The shy kid who had to repeat kindergarten played the goddess of strategy in a Christopher Nolan epic. The Disney star who could have crashed is picking her projects like a chess grandmaster. The self-proclaimed hermit is learning to face the day, one shower at a time.
 
-## How Anxiety Becomes a Career Strategy
+## What the Vigilance Costs
 
-Most people treat anxiety as a bug to fix. Zendaya treats it as a feature to optimize.
+Every type buys something with its strategy and pays for it somewhere the buyer isn't looking.
 
-Her preparation isn't despite the anxiety. It's because of it. The threat-scanning isn't separate from her fear of things going wrong. It's the direct response.
+Zendaya bought a year in which nothing was left unfinished. Rue got an ending. Chani gets one in December. The marriage happened with everyone who mattered in the room and no stranger's phone in it. Nothing important was left hanging.
 
-Type 6s at their best don't stop scanning for threats. They get better at assessing which threats are real. They build systems of support. They find people worth trusting. They channel nervous energy into productive preparation rather than paralysis.
+What she paid was the right to say any of it out loud while it was happening. Five months as the subject of a public guessing game about her own marriage, endable at any point with one sentence she chose not to say. A stylist, a mother and a husband on the record about her life before she was. Two overlapping press tours across seven cities in a month, because the exposure she cannot delegate to anyone is the part that has to be managed hardest.
 
-And sometimes, they end up playing the goddess of wisdom and strategy in a Christopher Nolan epic.
+And a break with a return date already printed on it.
 
-The kid who repeated kindergarten because she was too anxious to function in a classroom is now the person Christopher Nolan calls when he needs someone to carry a film. She never stopped scanning for threats. She just got better at deciding which ones were worth running from, and which were worth running toward.
+The sentence she is plausibly telling herself the week Spider-Man opens, inferred rather than quoted, runs something like: *I finished everything I said I would finish, and nobody can ask me for anything else until June.* That is not a panicked thought. It is an accounting one, which is the whole point. The Six does not stop scanning. She gets the ledger to balance and permits herself an interval.
+
+## What This Looks Like In You
+
+If you have ever gotten good news and told almost nobody, you already know this mechanism from the inside.
+
+Not because you were ashamed of it. Because announcing it hands other people a say in what it means, and the second they have a say, you are managing their version alongside your own. Keeping it small keeps it yours. The people who needed to know knew.
+
+The cost is the part that is easy to miss. Withholding the announcement does not let you skip the story. The story gets told anyway, by other people, on their timing, in their words, while you are still deciding whether this is finally the week you say something. You do not avoid the exposure. You arrive at it fourth.
+
+Zendaya's version ran at global scale, with a stylist as the leak and Esquire as the confirmation. Yours probably runs at the scale of a group chat. The mechanism is identical. The fear is not that the news gets out. It is that you are not the one who decides what it means.
+
+So the question worth sitting with is not whether to tell people. It is whether the thing you are guarding is the news, or the authorship.
 
 > **Disclaimer:** This analysis of Zendaya's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Zendaya.
 
