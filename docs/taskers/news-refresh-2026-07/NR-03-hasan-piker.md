@@ -109,11 +109,30 @@ No hedge words. No pathology. No moralizing. Which here means no verdict on his 
 
 ## 5. Mechanics
 
+**The push is a two-step. The bare command is a DRY RUN and writes nothing.**
+
+Step 1, preview the diff:
+
 ```bash
 node scripts/personBlogParser.js Hasan-Piker
 ```
 
-Preserves `lastmod`. **Never `--publish`** on a live page. Never hand-edit `lastmod`.
+This prints `Dry-run previewing...`, the field-level diff, an expected content hash, and an approval token of the form `--approve-fields=content,description`.
+
+Step 2, apply exactly what you reviewed:
+
+```bash
+node scripts/personBlogParser.js Hasan-Piker \
+  --apply \
+  --expected-content-hash=<hash from step 1> \
+  --approve-fields=<token from step 1>
+```
+
+Both flags fail closed. A hash mismatch or an approved-field list that does not exactly match the dry-run diff aborts the write, which is the guard against a stale preview overwriting someone else's concurrent edit. `--apply` requires an explicit single person slug and cannot be combined with `--dry-run`.
+
+**If you stop after step 1, nothing has been saved.** The dry run's success message is not a confirmation that the page was updated.
+
+Preserves `lastmod`. **Never `--publish`** on a live page: it is the first-release workflow and rewrites `lastmod`, which breaks DJ's manual-lastmod rule. Never hand-edit `lastmod`.
 
 Zero em-dashes. No quality-comment markers. Valid YAML in FAQ frontmatter.
 
@@ -135,6 +154,48 @@ Do not retitle toward keywords. Tested corpus-wide, keyword titles convert worse
 ---
 
 ## 7. Completion note (2026-07-25)
+
+### Second pass: full spine rebuild
+
+After the news refresh landed, a holistic re-read found the real problem. The refresh was sound; the page around it was not. It had become two documents stapled together: an 8,881-word magazine profile whose psychological argument did not begin until word 4,559. It also broke four rules its own creator spec enforces (quote-dedup, the ≤4 Distribution Rule, the subtractive principle, and the untagged-epigraph source gate).
+
+DJ chose a rebuild around one spine, keeping all four human-texture categories. Result:
+
+|                                | Before           | After              |
+| ------------------------------ | ---------------- | ------------------ |
+| Words                          | 8,881            | 5,833              |
+| Argument starts at             | 51%              | 9%                 |
+| Lint failures                  | 9                | 1 (false positive) |
+| Untagged load-bearing quotes   | 1 (blocked A/B+) | 0                  |
+| Prose em-dashes                | 30               | 0                  |
+| "9/11" mentions                | 8                | 4                  |
+| Duplicate quotes / sentences   | yes              | 0                  |
+| Internal links                 | 11 (over spec)   | 5 (in spec)        |
+| Type-theory paragraphs in body | 7+               | 4 (at ceiling)     |
+
+**The spine:** he does not defy consequences, he declines to count them. Established in the first 200 words and evidenced by every section after it.
+
+**Structural moves.** The six-entry chronological Controversies section became one bespoke form, "The same move, three times, seven years apart," a three-instance pattern autopsy (2019 quote / 2021 house / 2026 ban) that isolates one mechanism across unrelated subjects. Biography was cut 40% and rewired to serve the argument: the load-bearing formative image is now Erdoğan suing the satire newspaper a child read, not the bullying, because a boy watching a government punish a joke explains the adult better. Four scattered sections about rage, the workout, work addiction and charity collapsed into one, "The engine: his anger has never been about him," which is also the empathy turn. "The withdrawal that did not happen" was promoted from a buried H3 to its own H2. The weak "Legacy and Current Work" section was cut, its one good idea (the venues escalated, the behavior did not) folded into the closer.
+
+**Kept, per DJ:** the mother walking into Valorant matches with a plate of food, Will Neff and the restaurant bill, the charity totals, the himbo/masculinity thesis, the de-radicalization testimonials, the stream texture. All compressed, none deleted. Cut instead: the Debatelords pie, the cockroach, the Japan eyebrows, the One Piece cry, the policy-position list, the Rush Limbaugh line.
+
+**All 7 FAQ anchors verified resolving to real headings.** Headings are now uniformly sentence case, which does not change any anchor slug. The old `the-911-statement-2019` anchor was repointed to the new pattern section, and a seventh FAQ was added for the live "hasan piker controversies" query.
+
+**Ledgers written.** TESTIMONY (9 third-party quotes), HEADING MIX, DISTRIBUTION, FORMULA FINGERPRINT. Filled honestly from decisions actually made in this rewrite, not backfilled. The 23 em-dashes now in the file are all inside those ledger comments, which `blog-lint.sh` exempts by design and `personBlogParser.js` strips on push. Prose em-dashes remain at zero.
+
+**`content_quality` was cleared, not updated.** The 2026-02-18 B/8.0 grade described a piece that no longer exists, and leaving it would anchor a regrade. This is exactly what the pipeline's own `clear_grading_frontmatter()` does before a grade stage. **The page needs a fresh `/grade_blog` run before publish.** `production_pretext.requires` lists `regrade` first.
+
+### Three pipeline bugs found (worth fixing separately)
+
+1. **`blog-lint.sh` type-answer regex is case-sensitive** on `personality type`, so every page with a Title-Case H2 silently fails the AEO answer-block gate. Making it case-insensitive will reveal how many published pages have no extractable answer block.
+2. **`same-type-similarity.mjs` trips at score 1.000 on the mandated diagnosis H3.** "Hasan Piker is an Enneagram Type 8" versus "Susan Sarandon is an Enneagram Type 8" is required boilerplate, so this gate trips on every same-type pair in the corpus and its signal is worthless until the required H3 is excluded from the unit set.
+3. **The contrast-pair regex counts `, not ` inside direct quotes and the quantifier "not one."** Both remaining "strong" hits on this page are false positives, which means a writer chasing zero would have to corrupt a quotation to satisfy it.
+
+### The doctrine conflict worth resolving
+
+The news-refresh doctrine and the creator spec pull opposite ways. A refresh is additive by construction: eight questions to answer, new events to cover. The creator spec is subtractive: cut, compress, one idea. Run refreshes repeatedly against the same page and it inflates every time, which is precisely how this page reached 8,881 words. **The refresh doctrine needs a subtraction step:** what comes out to make room? Recommend adding a word-count ceiling and a "name what you cut" line to the batch README's §1 doctrine before the remaining eleven taskers run.
+
+---
 
 ### What changed
 

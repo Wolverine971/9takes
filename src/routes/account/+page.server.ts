@@ -8,6 +8,7 @@ import { checkDemoTime } from '../../utils/api';
 import { mapDemoValues } from '../../utils/demo';
 import {
 	dayIndex,
+	isRoomLively,
 	loadActiveQuestions,
 	loadCommunityPulse,
 	loadNotificationPreferences,
@@ -15,6 +16,7 @@ import {
 	loadPersonalStats,
 	loadQuestionOfTheDay,
 	loadSharedTypePeople,
+	loadYourTakes,
 	resolveAccountTables,
 	seedFrom
 } from '$lib/server/accountDashboard';
@@ -70,6 +72,7 @@ export const load: PageServerLoad = async (event) => {
 		communityPulse,
 		personal,
 		activeQuestions,
+		yourTakes,
 		notifications,
 		notificationPreferences
 	] = await Promise.all([
@@ -84,6 +87,7 @@ export const load: PageServerLoad = async (event) => {
 		loadCommunityPulse(supabase, tables),
 		loadPersonalStats(supabase, tables, profile.id),
 		loadActiveQuestions(supabase, tables),
+		loadYourTakes(supabase, tables, profile.id),
 		loadNotifications(supabase),
 		loadNotificationPreferences(supabase, profile.id)
 	]);
@@ -99,7 +103,11 @@ export const load: PageServerLoad = async (event) => {
 		questionOfTheDay,
 		sharedTypePeople,
 		communityPulse,
+		// Computed here rather than in the component: isRoomLively lives in
+		// $lib/server, which cannot be imported as a value into client code.
+		roomLively: isRoomLively(communityPulse),
 		personalStats: personal.stats,
+		yourTakes,
 		activeQuestions,
 		notifications,
 		notificationPreferences

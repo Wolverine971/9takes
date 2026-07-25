@@ -1,0 +1,28 @@
+Draft complete.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jynxzi.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 pass | Gate 2 pass | Gate 3 pass | Gate 4 pass | Gate 5 pass | Gate 6 pass
+LIMITATIONS: see below
+```
+
+**The thesis:** Jynxzi is a Type 3, and the contradiction is that he built a fortune selling the sound of losing while being unable to tolerate it. His most-clipped moments are rage at a bad match. His record shows almost nothing he decided to win and then didn't.
+
+The evidence that made the typing land: in March 2026 GothamChess described him on camera as "literally just getting started" at ~250 rating; weeks later he took PogChamps 6 & 7 and $100,000, 13 games, zero losses. Seven days after that he scored twice at Wembley and took Man of the Match. His own account of the prep: *"I was training on my phone at two a.m. in the morning, raging."*
+
+**Deterministic checks** (all run, not self-certified):
+- `blog-lint.sh` — 0 fail, 1 warn
+- `blog-quality-report.mjs` — 0 contrast pairs (was 1 strong + 1 comparative, both rewritten)
+- `same-type-similarity.mjs` — clear at 0.066 (**first pass TRIPPED** at 0.166 vs Madonna and 0.124 vs Beckham on shared house grammar: "The best available reading is…", "A Three does not…"; all three units rewritten)
+- Type-3 avoid list swept; only hit was "threes move", removed
+
+**Limitations you should know about:**
+1. **Transcript quotes need verbatim verification.** Several Jynxzi quotes come from YouTube auto-captions of his own podcast. Attribution is verified (documented in a `SOURCING NOTE` comment in the draft) but exact wording is approximate. I nearly ran CaseOh's job history as Jynxzi's — that episode is an unlabeled two-hander. Saved as a memory since it'll recur.
+2. **One date unpinned.** The "I wouldn't consider myself friends with any streamers besides CaseOh and Sketch" stream and Kai Cenat's "I've been talking to Jynxzi every day" reaction couldn't be dated. Used in prose without a year claim and excluded from the Testimony Ledger count (4 qualifying quotes without it).
+3. **`faqs` frontmatter absent** — owned by `blog_content_frontmatter_enrich_people`, out of scope here.
+4. **Loosest analytical thread**, flagged in the Rabbit Hole: his willingness to say image-damaging things publicly doesn't fit a polished Three. I argue his market pays for bluntness, but I didn't want to paper over it.
+
+No grade — that's `/grade_blog`. Next step is human review, then `blog_content_production_people`.

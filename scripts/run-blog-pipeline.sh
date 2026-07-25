@@ -6,10 +6,18 @@
 # a fresh context. The markdown draft and its non-served grade-feedback sidecar
 # under docs/content-analysis/grades/ pass state between the grading stages.
 #
+# Two modes. `--refresh` updates an existing live page instead of creating a draft.
+# It exists because refreshes used to be hand-rolled from taskers, taskers are written
+# as lists of things to ADD, and by 2026-07-25 the most-refreshed pages in the corpus
+# were also the longest (hasan-piker had reached 8,881 words; 90 of 391 published
+# pages sat over the 4,500-word ceiling). Creation had gates. Maintenance had prose.
+# Refresh mode swaps stage 1 and skips stage 3; every other gate is identical.
+#
 # Pipeline:
 #   1. create             - /blog_content_creator_people_v2 (non-interactive)
+#      (--refresh)        - /blog_refresh_people
 #   2. fresh_eyes         - /blog_content_fresh_eyes_people
-#   3. second_pass        - /blog_content_second_pass_people
+#   3. second_pass        - /blog_content_second_pass_people  (SKIPPED in --refresh)
 #   4. cohesion           - /cohesion-check
 #   5. editor_pass        - /blog_content_editor_pass_people
 #   6. enrich_frontmatter - /blog_content_frontmatter_enrich_people
@@ -24,8 +32,10 @@
 # the draft stays below the bar and a human decides — no infinite polishing.
 #
 # Usage:
-#   ./scripts/run-blog-pipeline.sh <Person-Name>
+#   ./scripts/run-blog-pipeline.sh <Person-Name>              # create a new draft
+#   ./scripts/run-blog-pipeline.sh <Person-Name> --refresh    # update a live page
 #   e.g. ./scripts/run-blog-pipeline.sh Martha-Stewart
+#        ./scripts/run-blog-pipeline.sh Hasan-Piker --refresh
 #
 # Notes:
 #   - Run-all-then-report: if a stage errors, the pipeline keeps going.
@@ -37,10 +47,25 @@
 
 set -uo pipefail
 
-PERSON="${1:-}"
+PERSON=""
+MODE="create"
+for arg in "$@"; do
+  case "$arg" in
+    --refresh) MODE="refresh" ;;
+    --create)  MODE="create" ;;
+    -*) echo "Unknown flag: $arg" >&2; exit 1 ;;
+    *) if [[ -z "$PERSON" ]]; then PERSON="$arg"; fi ;;
+  esac
+done
 if [[ -z "$PERSON" ]]; then
-  echo "Usage: $0 <Person-Name>" >&2
-  echo "  e.g. $0 Martha-Stewart" >&2
+  echo "Usage: $0 <Person-Name> [--refresh]" >&2
+  echo "  create  (default): $0 Martha-Stewart" >&2
+  echo "  refresh          : $0 Hasan-Piker --refresh" >&2
+  echo >&2
+  echo "  --refresh updates an existing live page instead of writing a new draft." >&2
+  echo "  It swaps stage 1 to /blog_refresh_people and skips stage 3 (second_pass," >&2
+  echo "  which deepens a fresh draft and has nothing to do on an established one)." >&2
+  echo "  Every gate, the grade, and the revise-and-regrade loop are identical." >&2
   exit 1
 fi
 
@@ -121,6 +146,7 @@ run_stage() {
 
 echo "═════════════════════════════════════════════════════"
 echo "9takes blog pipeline"
+echo "Mode:    $MODE"
 echo "Person:  $PERSON"
 echo "Draft:   $DRAFT_PATH"
 echo "Logs:    $LOG_DIR"
@@ -320,15 +346,36 @@ REVISED=0
 FIRST_OVERALL=""
 FIRST_DISC=""
 
-run_stage 1 create             "/blog_content_creator_people_v2 $PERSON --non-interactive"
-if [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
-  echo "[Stage 1] create did not produce $DRAFT_PATH; halting remaining stages."
-  write_summary false "draft_missing_after_stage_1_create"
-  PIPELINE_COMPLETED=1
-  exit 0
+if [[ "$MODE" == "refresh" ]]; then
+  # A refresh edits a live page. If the draft is missing there is nothing to refresh,
+  # and running the creator instead would silently overwrite a ranking page.
+  if [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
+    echo "[Stage 1] --refresh requires an existing draft at $DRAFT_PATH; nothing to refresh."
+    write_summary false "draft_missing_for_refresh"
+    PIPELINE_COMPLETED=1
+    exit 0
+  fi
+  BASELINE_WORDS="$(awk '/^---$/{c++; next} c>=2' "$REPO_ROOT/$DRAFT_PATH" \
+    | awk 'BEGIN{inc=0} /<!--/{inc=1} inc{if (/-->/) inc=0; next} {print}' \
+    | sed -E 's/<[^>]+>/ /g' | wc -w | tr -d ' ')"
+  echo "[refresh] baseline body length: ${BASELINE_WORDS} words (ceiling 4500)"
+  run_stage 1 refresh          "/blog_refresh_people $PERSON"
+else
+  run_stage 1 create           "/blog_content_creator_people_v2 $PERSON --non-interactive"
+  if [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
+    echo "[Stage 1] create did not produce $DRAFT_PATH; halting remaining stages."
+    write_summary false "draft_missing_after_stage_1_create"
+    PIPELINE_COMPLETED=1
+    exit 0
+  fi
 fi
 run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $PERSON"
-run_stage 3 second_pass        "/blog_content_second_pass_people $PERSON"
+if [[ "$MODE" == "create" ]]; then
+  run_stage 3 second_pass      "/blog_content_second_pass_people $PERSON"
+else
+  echo "[Stage 3] second_pass skipped in refresh mode (it deepens a fresh draft)"
+  echo
+fi
 run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
 run_stage 5 editor_pass        "/blog_content_editor_pass_people $PERSON"
 run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $PERSON"
@@ -367,6 +414,17 @@ if [[ "$LINT_EXIT" -ne 0 ]]; then
   echo "LINT: FAILED — see the latest lint log in $LOG_DIR (deterministic rule violations need fixing before publish)"
 else
   echo "LINT: passed"
+fi
+if [[ "$MODE" == "refresh" && -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
+  FINAL_WORDS="$(awk '/^---$/{c++; next} c>=2' "$REPO_ROOT/$DRAFT_PATH" \
+    | awk 'BEGIN{inc=0} /<!--/{inc=1} inc{if (/-->/) inc=0; next} {print}' \
+    | sed -E 's/<[^>]+>/ /g' | wc -w | tr -d ' ')"
+  DELTA=$(( FINAL_WORDS - BASELINE_WORDS ))
+  printf 'LENGTH: %s -> %s words (%+d, ceiling 4500)\n' "$BASELINE_WORDS" "$FINAL_WORDS" "$DELTA"
+  if (( DELTA > 0 )); then
+    echo "        A refresh that grew the page is the failure mode this mode exists to catch."
+    echo "        Check the REFRESH LEDGER: what was admitted as Tier 1, and what paid for it?"
+  fi
 fi
 if [[ "$REVISED" -eq 1 ]]; then
   FINAL_OVERALL="$(read_quality_field overall)"

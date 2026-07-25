@@ -30,7 +30,7 @@ It is also humble by construction, which matters. "The Verdict" implies judgment
 
 ---
 
-## 2. The format: six beats, 80 to 85 seconds
+## 2. The format: six beats, 85 to 90 seconds
 
 | Beat                    | Time      | Job                                                                                 |
 | ----------------------- | --------- | ----------------------------------------------------------------------------------- |
@@ -79,59 +79,80 @@ Stating what would prove you wrong does four jobs at once, which is why no other
 
 **Source:** [`NR-12-mrbeast.md`](../taskers/news-refresh-2026-07/NR-12-mrbeast.md). Type 8, gut center, core emotion anger. Core fear: being controlled, being made vulnerable. Stress goes to 5, integration goes to 2.
 
+### Fact check, completed 2026-07-25
+
+The tasker's version of this story was wrong in two places and backwards in a third. **The corrected read is sharper than the original.**
+
+| Tasker claim                                                    | Verdict                 | What is actually true                                                                                                                                                 |
+| --------------------------------------------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "more than $11 million in prizes"                               | **Wrong figure**        | $15 million total in cash and prizes. $5 million grand prize, won by Tyler Lucas, finale February 2026.                                                               |
+| "season 3 will cast one contestant from every country on earth" | **Unverified. Cut it.** | Neither Wikipedia nor the interview supports this. Asked about season 3 themes he deflected: _"If Amazon wouldn't kill me, I'd tell you."_ Do not say this on camera. |
+| "'more personal' is the 8-to-2 integration arrow"               | **Backwards**           | The quote is real, but it describes a production decision driven by audience research, not a man opening up. This inverts the episode, for the better.                |
+
+**The quote in full context.** On why season 2 got personal:
+
+> "The second thing is they just wanted to know the contestants more, which is why in Season 2, we have 200 contestants, 100 of the strongest people in the world, 100 of the smartest people in the world, as opposed to 1,000 contestants like we did in Season 1. Because obviously, the less people there are, the easier it is to get to know them."
+
+And on how he knew:
+
+> "I've literally seen hundreds of people watch the show. I've stared at their faces to really try to pick up on everything that they liked and they didn't like."
+
+That second quote is the strongest piece of evidence in the episode and it was not in the tasker at all. He watched hundreds of people watch him, then rebuilt the show against what their faces did. Intimacy was a metric he found underperforming.
+
+**The disconfirmer, rebuilt.** It now rests on the one moment something escaped him. Two contestants, Jim and Monika, fell for each other on the show:
+
+> "Obviously never in my wildest dreams did I think that was going to be part of the show." / "I don't even know how you plan for that."
+
 ### Script
 
 > **[CLAIM]**
-> MrBeast gave away eleven million dollars this year. I don't think that's generosity. I think it's armor.
+> MrBeast gave away fifteen million dollars this season. I don't think that's generosity. I think it's armor.
 >
 > **[EVIDENCE]**
-> He's a Type 8. What an 8 is most afraid of isn't failure. It's being controlled. Being at someone else's mercy. And there is exactly one seat in any room where that can never happen to you. It's the seat of the person handing out the money.
+> He's a Type 8. An 8's deepest fear isn't failure, it's being at someone else's mercy. And there is exactly one seat in any room where that can never happen to you. The one handing out the money.
 >
 > **[MECHANISM]**
-> That's why the number never stops climbing. Season three is casting someone from every country on earth. Every country. Ask what number would finally be enough and there isn't one, because the number was never the point. Provision is a position. As long as he's the one giving, he is never the one who needs.
+> People say season two got more personal. Here's how that happened. He cut the cast from a thousand down to two hundred, because in his words, the fewer people there are, the easier it is to get to know them. And he figured that out by watching hundreds of people watch his show. He said he stared at their faces to pick up on everything they liked and didn't like. That is not a man opening up. That is a man who found intimacy underperforming and fixed it.
 >
 > **[DISCONFIRMER]**
-> Here's what would prove me wrong. He said season two got more personal. If that's real, if he's letting the caring show instead of routing it through a prize check, that's an 8 actually growing, and I'd be describing a man he already stopped being. I genuinely don't know which one it is.
+> Here's what would prove me wrong. Two contestants fell for each other on that show, and when he got asked about it he said, never in my wildest dreams, I don't even know how you plan for that. If you build a machine to manufacture closeness and real closeness happens anyway, then something got past him. And an 8 who lets something get past him might be growing despite himself.
 >
 > **[MIRROR]**
-> But here's the part that isn't about him. Some of you take care of everyone you love by providing. And you have never once asked any of them for anything. You know exactly why you do that.
+> But this isn't really about him. Some of you take care of everyone you love by providing. And you have never once asked any of them for anything. You know exactly why you do that.
 >
 > **[JURY]**
-> That's one take. There's nine. Go add yours, link in bio.
+> That's one take. There's nine. Go add yours. Link in bio.
 
-220 spoken words, roughly 85 seconds conversational.
+231 spoken words, roughly 90 seconds conversational.
 
-**45-second cold-start variant**, same sitting, second take: keep the claim, cut straight to the disconfirmer, then the mirror and the jury. Drop the mechanism beat and put the Type 8 explanation in the caption instead.
+**45-second cold-start variant**, same sitting, second take: keep the claim, cut straight to the disconfirmer, then the mirror and the jury. Drop the mechanism beat and put the face-watching quote in the caption, where it does its own work.
 
-### Verify before filming
-
-The source tasker marks all three of these unverified. **Do not film until each is confirmed with a primary source.**
-
-| Claim in script                                      | What to confirm                                                                                                                                                                                            |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "eleven million dollars this year"                   | The tasker says more than $11M across ten weeks of Beast Games season 2. Confirm the figure and the window, and match the script's "this year" to whatever is actually true.                               |
-| "season three is casting someone from every country" | Confirm the announcement and his own framing of it.                                                                                                                                                        |
-| "he said season two got more personal"               | **Load-bearing and the most important one.** The disconfirmer collapses without the real quote in its real context. Tasker points at a Deadline interview. Find the full quote before this line is spoken. |
-
-If the "more personal" quote does not hold up, the disconfirmer has to be rebuilt on the stress-to-5 evidence instead: a documented 2026 stretch of him absent from his own content would be the 8 withdrawing, which complicates the read a different way.
+**Sources:** [Deadline interview](https://deadline.com/2026/06/mrbeast-interview-beast-games-season-2-season-3-plan-1236906565/) (paywalled; quotes confirmed via [Collider](https://collider.com/mrbeast-beast-games-season-2-biggest-changes-explained-survivor-themed-episode/)), [Beast Games season 2 on Wikipedia](https://en.wikipedia.org/wiki/Beast_Games_season_2).
 
 ---
 
 ## 6. The jury page
 
-The CTA is dead if it lands on an empty page. Pre-flight, in order:
+The CTA is dead if it lands on an empty page.
 
-1. **Create the question.** Nothing in the corpus currently fits. The only near-match is q525, which is about untrustworthy structures, not provision. Proposed:
+**Episode 1's page is live and ready.** DJ created the question on 2026-07-25 and its nine takes were generated the same day:
 
-   > **What do you provide so that you never have to ask?**
+> **q568** `/questions/what-do-you-provide-so-that-you-never-have-to-ask`
 
-   Passes all four tests in the Mirror Moment spec: non-binary, demands a narrative, about the reader, and too exposed to answer in public comments. Which is exactly why it belongs on 9takes, where answers are anonymous and give-first.
+It passes all four tests in the Mirror Moment spec: non-binary, demands a narrative, about the reader, and too exposed to answer in public comments. Which is exactly why it belongs on 9takes, where answers are anonymous and give-first.
 
-2. **Run `pnpm regen:takes` on the new question id.** The give-first reveal needs its nine to exist before traffic arrives. Confirmed working: questions 116, 146, 179, 181, and 184 all carry the full nine.
+### The takes do not generate themselves, and that is a bug
 
-3. **Point the bio link at the question page, not the blog.** The blog is the doorway, the question page is the room. Sending Reel traffic to `/personality-analysis/mr-beast` converts a product moment into a pageview.
+**Every question created since 2026-06-01 has zero AI takes. 360 of them.** 367 of 413 total questions have never been tagged either.
 
-4. **Watch `give_first_funnel_events`** for `gate_shown` to contribution by fingerprint. That is the only number that tells you whether this is working as product rather than as content.
+The wiring exists but dies in production. `src/routes/questions/create/+page.server.ts:261-272` fires post-processing as background work through `waitUntil`, falling back to `void postProcess()`. `@vercel/functions` is not a dependency and the nodejs22.x adapter does not populate `platform.context.waitUntil`, so the fallback always runs, and Vercel freezes the invocation the moment the response returns. The director call plus nine voice calls never finish.
+
+Until that is fixed, **every new jury question needs `pnpm regen:takes -- --id=<id>` run by hand** before any traffic is pointed at it. Tracked as task 1.
+
+### Remaining pre-flight
+
+1. **Point the bio link at the question page, not the blog.** The blog is the doorway, the question page is the room. Sending Reel traffic to `/personality-analysis/mr-beast` converts a product moment into a pageview.
+2. **Watch `give_first_funnel_events`** for `gate_shown` to contribution by fingerprint. That is the only number that tells you whether this is working as product rather than as content.
 
 ---
 

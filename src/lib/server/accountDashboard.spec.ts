@@ -2,7 +2,9 @@
 import { describe, expect, it } from 'vitest';
 import {
 	buildTypesByQuestion,
+	buildYourTakes,
 	dayIndex,
+	isRoomLively,
 	pickQuestionOfTheDay,
 	questionText,
 	rotateByDay,
@@ -184,6 +186,94 @@ describe('questionText', () => {
 
 	it('falls back to the raw question', () => {
 		expect(questionText({ question: 'raw', question_formatted: null })).toBe('raw');
+	});
+});
+
+describe('buildYourTakes', () => {
+	type QuestionRow = {
+		question: string | null;
+		question_formatted: string | null;
+		url: string | null;
+	};
+
+	const questions = new Map<number, QuestionRow>([
+		[10, { question: 'Raw ten', question_formatted: 'Formatted ten', url: 'ten' }],
+		[11, { question: 'Raw eleven', question_formatted: null, url: 'eleven' }]
+	]);
+
+	function take(id: number, overrides: Record<string, unknown> = {}) {
+		return {
+			id,
+			comment: `take ${id}`,
+			parent_id: 10,
+			created_at: `2026-07-2${id}T00:00:00Z`,
+			like_count: 0,
+			...overrides
+		};
+	}
+
+	it('pairs a take with its question and reply count', () => {
+		const [result] = buildYourTakes([take(1)], questions, new Map([[1, 3]]));
+
+		expect(result.questionText).toBe('Formatted ten');
+		expect(result.questionUrl).toBe('ten');
+		expect(result.excerpt).toBe('take 1');
+		expect(result.replyCount).toBe(3);
+	});
+
+	it('defaults a take with no replies to zero rather than dropping it', () => {
+		const [result] = buildYourTakes([take(1)], questions, new Map());
+		expect(result.replyCount).toBe(0);
+	});
+
+	it('orders newest first and honours the limit', () => {
+		const takes = buildYourTakes([take(1), take(3), take(2)], questions, new Map(), 2);
+		expect(takes.map((t) => t.id)).toEqual([3, 2]);
+	});
+
+	it('drops takes whose question is missing, empty, or unslugged', () => {
+		const orphan = take(1, { parent_id: 999 });
+		const unslugged = take(2, { parent_id: 12 });
+		const blank = take(3, { comment: '   ' });
+		const withUnslugged = new Map(questions);
+		withUnslugged.set(12, { question: 'No url', question_formatted: null, url: null });
+
+		expect(buildYourTakes([orphan, unslugged, blank], withUnslugged, new Map())).toEqual([]);
+	});
+
+	it('falls back to the raw question and clamps a negative like count', () => {
+		const [result] = buildYourTakes(
+			[take(1, { parent_id: 11, like_count: -4 })],
+			questions,
+			new Map()
+		);
+		expect(result.questionText).toBe('Raw eleven');
+		expect(result.likeCount).toBe(0);
+	});
+});
+
+describe('isRoomLively', () => {
+	it('reports a pulse when several types weighed in', () => {
+		expect(isRoomLively({ newTakes7d: 12, activeTypes7d: ['2', '4', '7'] })).toBe(true);
+	});
+
+	it('withholds the pulse when one type carried the week', () => {
+		// The whole point of the gate: volume alone is not the product's claim.
+		expect(isRoomLively({ newTakes7d: 40, activeTypes7d: ['5'] })).toBe(false);
+	});
+
+	it('withholds the pulse when many types barely spoke', () => {
+		expect(isRoomLively({ newTakes7d: 3, activeTypes7d: ['1', '3', '8'] })).toBe(false);
+	});
+
+	it('withholds the pulse on a silent week', () => {
+		expect(isRoomLively({ newTakes7d: 0, activeTypes7d: [] })).toBe(false);
+	});
+
+	it('holds at the exact boundary', () => {
+		expect(isRoomLively({ newTakes7d: 8, activeTypes7d: ['1', '2', '3'] })).toBe(true);
+		expect(isRoomLively({ newTakes7d: 7, activeTypes7d: ['1', '2', '3'] })).toBe(false);
+		expect(isRoomLively({ newTakes7d: 8, activeTypes7d: ['1', '2'] })).toBe(false);
 	});
 });
 

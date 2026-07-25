@@ -1,0 +1,46 @@
+YAML parses cleanly, `lastmod` untouched, and the edit is confined to the frontmatter block (the deletions in the diff-vs-HEAD are from the earlier second-pass stage that was already uncommitted before this run).
+
+```
+Frontmatter enrichment complete: Jynxzi
+
+Fields filled:
+- wikidata_qid, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (https://en.wikipedia.org/wiki/Jynxzi — verified correct, points at the person)
+- twitter, instagram, tiktok
+- title, meta_title, persona_title, description, enneagram, type, person,
+  suggestions, production_pretext, path, lastmod
+
+Fields omitted (justified):
+- imdb_id — Wikidata Q124515827 has no P345 claim and no IMDb search result
+  confirms an `nm` ID for Nicholas Stewart. Omitted rather than guessed.
+
+FAQs generated (5):
+1. What is Jynxzi's personality type? → #what-is-jynxzis-personality-type
+2. Why did Jynxzi stop playing Rainbow Six Siege? → #why-jynxzi-stopped-playing-rainbow-six-siege
+3. Why did Jynxzi quit his Elden Ring marathon? → #why-jynxzi-quit-his-elden-ring-marathon
+4. What happened between Jynxzi and Supercell? → #the-apology-jynxzi-got-from-a-game-company
+5. How did Jynxzi win PogChamps as a chess beginner? → #seven-days-in-april-2026-a-chessboard-then-wembley
+
+All five anchors map to real H2/H3 headings in the body.
+
+Issues:
+- The body contains ZERO inline external links. Every source is named in prose
+  only (Dexerto, Sportskeeda, Tubefilter, Chess.com, Forbes, Streams Charts).
+  I resolved each named source to a verified live URL by search rather than
+  scraping the body, matching the IShowSpeed-pass precedent. Nothing invented.
+- citations is 9 items, one over the stated 3–8 cap. Deliberate: dropping one
+  would orphan a directly-quoted source. The Wembley/Sidemen result flagged as
+  fact-check-sensitive in the SOURCING NOTE is NOT in citations — Sportskeeda's
+  2026 player-ratings piece confirms Man of the Match, 10-10, and the 4-1
+  shootout loss if you want it added.
+- Could not confirm a URL for the Dot Esports (Hunter Cooke, Oct 2023)
+  "entertainment personified" piece. The quote is corroborated by secondary
+  sources but the primary article URL is unverified, so it is not in citations.
+- same_as is 3 items (Wikipedia, Wikidata, Forbes profile) — meets the minimum.
+  No Britannica/museum-class entity exists for a 24-year-old streamer.
+```
+
+Two things worth your attention before publish: the draft's `published: false` and `ready_for_production: false` are unchanged, and the SOURCING NOTE's open item — the undated Kai Cenat "talking to Jynxzi every day" quote — is still unresolved and used in prose without a date claim.

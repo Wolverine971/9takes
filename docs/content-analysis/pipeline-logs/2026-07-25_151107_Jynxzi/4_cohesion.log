@@ -1,0 +1,52 @@
+STAGE 4: cohesion-check — src/blog/people/drafts/Jynxzi.md
+Run: 2026-07-25 (manual re-run; the pipeline's stage-4 invocation produced a 0-byte log)
+
+CENTRAL THESIS
+Jynxzi is a Type 3 whose sense of being worth anything is fused to his most recent result,
+so he will trade any arena for a better one but never stops needing a witness who saw the
+empty version to certify the full one.
+
+SCORES
+Through-Line Clarity     9/10
+Promise-Delivery Match   9/10
+Reader Mental Model      7/10  -> 9/10
+Section Transitions      6/10  -> 9/10
+Internal Paragraph Flow  8/10  -> 9/10
+OVERALL                  8/10  -> 9/10
+
+TRANSITION RATINGS (before)
+cold open -> TL;DR                        strong
+diagnosis -> sec2 (2019)                  weak      FIXED
+sec2 -> sec3 (Siege)                      adequate  left alone by design
+sec3 -> sec4 (Supercell)                  strong    (Clash Royale set up in sec3)
+sec4 -> sec5 (April 2026)                 adequate  (chronological)
+sec5 -> sec6 (Elden Ring)                 broken    FIXED  <- worst seam
+sec6 -> sec7 (nights off)                 weak      FIXED
+sec7 -> sec8 (lives near parents)         adequate
+sec8 -> sec9 (one guy in chat)            strong, but broken referent  FIXED
+
+EDITS APPLIED (6, all bridging; no structural change, no new argument)
+1. cold open: + "That is the half that gets clipped."
+2. sec2 open:  + "The habit predates the audience."
+3. sec6 open:  + "It had happened to him once before."
+4. sec7 open:  + "It does not take a marathon to get him there."
+5. sec7 podcast para: new topic sentence "There is one format that does not do this to him."
+6. sec9 open:  "that same conversation" -> "Back in that 2024 podcast conversation"
+
+ORPHANED THREADS: none requiring action.
+  - mother asymmetry (sec2) resolves inside its own paragraph and is deliberate per second-pass notes
+  - CS2 backlash (sec4) is a closing beat, not a raised-and-dropped question
+  - epigraph ("11:00, I should have been live") pays off in the sec7 inner-thought
+
+VERIFICATION AFTER EDITS
+  blog-lint.sh:            0 fail, 1 warn (faqs — frontmatter enrich stage has not run)
+  contrast-pair engines:   0 strong, 0 comparative
+  prose em-dashes:         0
+  same-type-similarity:    clear (trip threshold 0.04, max pair 0.075 vs David-Beckham)
+  Distribution Ledger:     unaffected, 2 type-theory paragraphs outside diagnosis (gate 4)
+
+CARRIED FORWARD (unchanged from second pass)
+  - no faqs in frontmatter
+  - podcast quotes are YouTube auto-caption transcriptions; verify phrasing before publish
+  - Wembley penalty score unpinned (Dexerto 3-1 vs Sportskeeda 4-1); draft says "loses the shootout"
+  - Paananen apology quoted from trade coverage of the X post, not the post itself

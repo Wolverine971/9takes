@@ -101,11 +101,30 @@ No hedge words. **No pathology. This is the page where that line is most likely 
 
 ## 5. Mechanics
 
+**The push is a two-step. The bare command is a DRY RUN and writes nothing.**
+
+Step 1, preview the diff:
+
 ```bash
 node scripts/personBlogParser.js Elon-Musk
 ```
 
-Preserves `lastmod`. **Never `--publish`** on a live page. Never hand-edit `lastmod`.
+This prints `Dry-run previewing...`, the field-level diff, an expected content hash, and an approval token of the form `--approve-fields=content,description`.
+
+Step 2, apply exactly what you reviewed:
+
+```bash
+node scripts/personBlogParser.js Elon-Musk \
+  --apply \
+  --expected-content-hash=<hash from step 1> \
+  --approve-fields=<token from step 1>
+```
+
+Both flags fail closed. A hash mismatch or an approved-field list that does not exactly match the dry-run diff aborts the write, which is the guard against a stale preview overwriting someone else's concurrent edit. `--apply` requires an explicit single person slug and cannot be combined with `--dry-run`.
+
+**If you stop after step 1, nothing has been saved.** The dry run's success message is not a confirmation that the page was updated.
+
+Preserves `lastmod`. **Never `--publish`** on a live page: it is the first-release workflow and rewrites `lastmod`, which breaks DJ's manual-lastmod rule. Never hand-edit `lastmod`.
 
 Zero em-dashes. No quality-comment markers. Valid YAML in FAQ frontmatter.
 

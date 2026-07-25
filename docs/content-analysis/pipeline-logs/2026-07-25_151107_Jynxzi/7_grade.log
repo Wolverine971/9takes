@@ -1,0 +1,25 @@
+## Grading Complete — Jynxzi
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jynxzi | 6 | 9 | 9 | 9 | 8.5 | 9 | **8.3** | **B** |
+
+`(6×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.3`. Discoverability 9, so no gate. Cap applied: `evidence_untraceable_load_bearing_claim`.
+
+### Key observations
+
+**The one thing dragging it down is sourcing, and the source-audit script gave it a false all-clear.** `blog-source-audit.mjs` reports "5 load-bearing quotes, 5 inline, 0 untagged" — but it only scans four slots, it reported the empathy-turn slot as *empty*, and it never looked at sections 2, 4, 5, 7 or 8. Ten load-bearing quotes carry no outlet or date in the reader-visible body, including the three that matter most:
+
+- **L225**, the 2019 one-viewer year — the thesis anchor, and a YouTube auto-caption transcription the draft itself flags as verify-before-publish
+- **L334**, "I'm a quitter" — the empathy-turn payoff, which the script reported as absent
+- **L406/L408**, the "not friends with any streamers" exchange with Cenat — marked UNRESOLVED in the draft's own notes, and it carries all of section 8 plus the evidence under "an audience of ten million and a jury of about four"
+
+This is the same failure Hunter-Biden was capped for yesterday, one layer worse: there it was one non-quote claim, here it's nine quotes outside the scan window. Worth a pipeline note — that's now two consecutive drafts where a green source audit meant nothing.
+
+**Everything else is genuinely strong.** The witness thesis escalates rather than repeats (father → Supercell CEO → jury of four), the empathy turn concedes the charge before reframing and uses zero house `armor/scar-tissue` grammar, and the fresh-eyes critique was acted on where it cost the draft its tidier version — section 3's thesis inverted after being found false for 2025-26, Wembley corrected from an implied win to Man of the Match on the losing side, two untraceable quotes cut rather than dressed up. Discoverability is the best in the recent cohort (meta_title 56 chars, description 150, five FAQs whose anchors all resolve to real heading slugs).
+
+**Fingerprint that survived:** the aphoristic one-line closer runs seven times and becomes anticipatable by section 6; "Sit with the arithmetic" is near-verbatim Hunter-Biden's "Sit with the metaphor a beat." Not enough near-verbatim reuse to trip the Originality cap — the corpus-stat sentence is absent and the similarity scan is clear at 0.066 — but named in the sidecar.
+
+**The fix is cheap.** Four of the nine quotes already have identified sources sitting in the draft's internal note (the two podcast video IDs). Tagging them the way the epigraph already is lifts Evidence from the capped 6 to 8.5 and the overall to **8.8 (B+)** with no rewriting.
+
+Frontmatter written to `src/blog/people/drafts/Jynxzi.md:92`; feedback at `docs/content-analysis/grades/Jynxzi.review.md`. No legacy `QUALITY GRADE` block existed to remove.

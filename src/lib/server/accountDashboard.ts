@@ -85,6 +85,31 @@ export interface CommunityPulse {
 	activeTypes7d: string[];
 	totalQuestions: number;
 	totalTakes: number;
+	/**
+	 * Questions with no takes at all. Read from questions.comment_count rather
+	 * than an anti-join against comments: the counter drifts on a handful of rows
+	 * (8 of 413 as of 2026-07-25), which is well inside the tolerance for a
+	 * display figure and far cheaper than counting comments per question.
+	 */
+	questionsAwaitingFirstTake: number;
+}
+
+/**
+ * Whether the last 7 days are worth reporting as a pulse.
+ *
+ * The bar is the product's own claim — "one situation, nine ways to see it" —
+ * so a week counts when several *different* types showed up, not merely when
+ * the take counter moved. Twenty takes from a single type is not a pulse, and
+ * rendering it as one flatters the number while misrepresenting the room.
+ *
+ * Below the bar the panel shows the opening instead (see the account page).
+ * That is not a softer truth: with 87% of questions still unanswered, "your
+ * take would be the first" describes the platform more accurately than a
+ * 7-day counter reading zero. The panel flips back on its own once the room
+ * clears the bar, so this needs no revisiting as the community grows.
+ */
+export function isRoomLively(pulse: Pick<CommunityPulse, 'newTakes7d' | 'activeTypes7d'>): boolean {
+	return pulse.newTakes7d >= 8 && pulse.activeTypes7d.length >= 3;
 }
 
 export interface PersonalStats {
@@ -302,26 +327,32 @@ export async function loadCommunityPulse(
 	const db = supabase as DynamicClient;
 	const since = new Date(Date.now() - 7 * 86_400_000).toISOString();
 
-	const [newQuestions, newTakes, totalQuestions, totalTakes, recentTypeRows] = await Promise.all([
-		db
-			.from(tables.questions)
-			.select('id', { count: 'exact', head: true })
-			.eq('removed', false)
-			.gt('created_at', since),
-		db
-			.from(tables.comments)
-			.select('id', { count: 'exact', head: true })
-			.eq('removed', false)
-			.gt('created_at', since),
-		db.from(tables.questions).select('id', { count: 'exact', head: true }).eq('removed', false),
-		db.from(tables.comments).select('id', { count: 'exact', head: true }).eq('removed', false),
-		db
-			.from(tables.comments)
-			.select(`author_id, ${tables.profiles} (enneagram)`)
-			.eq('removed', false)
-			.gt('created_at', since)
-			.limit(500)
-	]);
+	const [newQuestions, newTakes, totalQuestions, totalTakes, awaitingFirstTake, recentTypeRows] =
+		await Promise.all([
+			db
+				.from(tables.questions)
+				.select('id', { count: 'exact', head: true })
+				.eq('removed', false)
+				.gt('created_at', since),
+			db
+				.from(tables.comments)
+				.select('id', { count: 'exact', head: true })
+				.eq('removed', false)
+				.gt('created_at', since),
+			db.from(tables.questions).select('id', { count: 'exact', head: true }).eq('removed', false),
+			db.from(tables.comments).select('id', { count: 'exact', head: true }).eq('removed', false),
+			db
+				.from(tables.questions)
+				.select('id', { count: 'exact', head: true })
+				.eq('removed', false)
+				.eq('comment_count', 0),
+			db
+				.from(tables.comments)
+				.select(`author_id, ${tables.profiles} (enneagram)`)
+				.eq('removed', false)
+				.gt('created_at', since)
+				.limit(500)
+		]);
 
 	const activeTypes = new Set<string>();
 	for (const row of (recentTypeRows.data ?? []) as CommentTypeRow[]) {
@@ -334,7 +365,8 @@ export async function loadCommunityPulse(
 		newTakes7d: newTakes.count ?? 0,
 		activeTypes7d: [...activeTypes].sort(),
 		totalQuestions: totalQuestions.count ?? 0,
-		totalTakes: totalTakes.count ?? 0
+		totalTakes: totalTakes.count ?? 0,
+		questionsAwaitingFirstTake: awaitingFirstTake.count ?? 0
 	};
 }
 
@@ -390,6 +422,130 @@ export async function loadPersonalStats(
 		},
 		commentIds
 	};
+}
+
+export interface YourTake {
+	id: number;
+	excerpt: string;
+	questionText: string;
+	questionUrl: string;
+	createdAt: string;
+	replyCount: number;
+	likeCount: number;
+}
+
+interface OwnTakeRow {
+	id: number;
+	comment: string | null;
+	parent_id: number | null;
+	created_at: string | null;
+	like_count: number | null;
+}
+
+/**
+ * Assembles "your takes, and what came back".
+ *
+ * Separated from the queries so the assembly is unit-testable: a take is only
+ * worth rendering when it has both text and a resolvable question, and the
+ * ordering (newest first) is what makes the section read as a record rather
+ * than a pile.
+ */
+export function buildYourTakes(
+	comments: OwnTakeRow[],
+	questionsById: Map<
+		number,
+		{ question: string | null; question_formatted: string | null; url: string | null }
+	>,
+	replyCountByCommentId: Map<number, number>,
+	limit = 5
+): YourTake[] {
+	return comments
+		.filter((row) => (row.comment ?? '').trim() && row.parent_id != null && row.created_at)
+		.map((row) => {
+			const question = questionsById.get(row.parent_id as number);
+			if (!question?.url) return null;
+
+			const text = questionText(question);
+			if (!text) return null;
+
+			return {
+				id: row.id,
+				excerpt: (row.comment as string).trim(),
+				questionText: text,
+				questionUrl: question.url,
+				createdAt: row.created_at as string,
+				replyCount: replyCountByCommentId.get(row.id) ?? 0,
+				likeCount: Math.max(row.like_count ?? 0, 0)
+			};
+		})
+		.filter((take): take is YourTake => take !== null)
+		.sort((a, b) => b.createdAt.localeCompare(a.createdAt))
+		.slice(0, limit);
+}
+
+/**
+ * The reader's own recent takes and the replies they drew.
+ *
+ * This is the strongest reactivation surface on the page: people come back for
+ * their own words and the reply underneath them far more reliably than for a
+ * community counter. Questions are fetched by id rather than joined, because
+ * comments.parent_id is polymorphic (parent_type 'question' | 'comment') and so
+ * carries no foreign key for PostgREST to traverse.
+ */
+export async function loadYourTakes(
+	supabase: SupabaseClient,
+	tables: AccountTables,
+	userId: string,
+	limit = 5
+): Promise<YourTake[]> {
+	const db = supabase as DynamicClient;
+
+	const { data: own } = await db
+		.from(tables.comments)
+		.select('id, comment, parent_id, created_at, like_count')
+		.eq('author_id', userId)
+		.eq('parent_type', 'question')
+		.eq('removed', false)
+		.order('created_at', { ascending: false })
+		.limit(limit);
+
+	const ownTakes = (own ?? []) as OwnTakeRow[];
+	if (!ownTakes.length) return [];
+
+	const questionIds = [
+		...new Set(ownTakes.map((row) => row.parent_id).filter((id): id is number => id != null))
+	];
+	const commentIds = ownTakes.map((row) => row.id);
+
+	const [questions, replies] = await Promise.all([
+		db.from(tables.questions).select('id, question, question_formatted, url').in('id', questionIds),
+		db
+			.from(tables.comments)
+			.select('parent_id')
+			.eq('parent_type', 'comment')
+			.eq('removed', false)
+			.in('parent_id', commentIds)
+			.neq('author_id', userId)
+	]);
+
+	const questionsById = new Map(
+		(
+			(questions.data ?? []) as Array<{
+				id: number;
+				question: string | null;
+				question_formatted: string | null;
+				url: string | null;
+			}>
+		).map((row) => [row.id, row])
+	);
+
+	const replyCounts = new Map<number, number>();
+	for (const row of (replies.data ?? []) as Array<{ parent_id: number | null }>) {
+		if (row.parent_id == null) continue;
+		replyCounts.set(row.parent_id, (replyCounts.get(row.parent_id) ?? 0) + 1);
+	}
+
+	return buildYourTakes(ownTakes, questionsById, replyCounts, limit);
 }
 
 /**

@@ -107,6 +107,34 @@ content_quality:
   graded_at: '2026-07-18'
 ---
 
+<!-- TRANSCRIPT UPDATE PASS (2026-07-25)
+Source: Prof G / Scott Galloway interview with Coogan and Hays, 2026-07-09 (https://www.youtube.com/watch?v=KWiIMKiiwz0)
+Full transcript: docs/research/transcripts/2026-07-09-tbpn-coogan-hays-prof-g-galloway.md
+
+Added:
+- Skateboard ARBITRAGE detail ($35 blank retail vs $17.50 custom-logo'd from a Midwest maker). Far stronger Type 3 origin evidence than "sold skateboards around town."
+- CORRECTION: raise was $500 (his own account), not the $650 that the currently-live DB version states.
+- Branded Native restored, with its origin in his words ("if I bring you advertisers, can I take a cut?") plus ~70 startup investments. The rewrite had dropped it; it is the direct ancestor of TBPN's ad model.
+- Capital's collapse told from the inside: stablecoin bank launched the month FTX fell, then SVB, $250k FDIC vs ~$1M average balances, telling his own customers there was a bank run, acqui-hire, "deeply humbling," one-year-old plus another on the way. This addresses the behavioral_interior_ceiling cap.
+- Golden retriever mode as its own section: a Three writing a spec for his own posture, traced by Hays to the humbling.
+- Ad architecture: annual fixed-rate, 200k audience cap, enterprise-vs-consumer math, 250x20s reads, clips as trade media, the Zuckerberg headphones Ramp read.
+- OpenAI section: hosts' own marketing-first account of why they were bought; price rumor recorded AS a rumor.
+- First independence evidence (Anthropic concession + adult-mode restatement) with limits stated.
+- Family: the explicit divide-and-conquer with Sarah Chase in his framing, kids (4, 2, third on the way), fatherhood-as-edge.
+- Rabbit Hole stress-to-9 claim revisited: the collapse is now the best-documented stressor and it cuts AGAINST a clean 9 arrow.
+
+Not changed: lastmod, title, slug, published status, content_quality grade block (stale; re-grade before any push).
+
+WARNING: this draft is NOT in sync with the live DB row. See the sync note below.
+-->
+
+<!-- DB SYNC WARNING (checked 2026-07-25)
+The live blogs_famous_people row for jordi-hays is a DIFFERENT, OLDER article (33,134 chars vs this draft's ~19k body; live md5 0403ff21ddb1ba2c8484989ed9fb086d, lastmod 2026-03-21).
+Live H2s are Title Case ("While Other Kids Worshipped Athletes", "From Skatepark to Shanghai") and the live copy contains 52 em-dashes plus the invented biography this rewrite was written to remove (parents' occupations, an assigned motive for the Shanghai year, the $650 figure).
+Live also contains real facts this draft still omits: Likewise, Forbes 30 Under 30, UC Santa Barbara, Ritz-Carlton, Fudan. Those are NOT independently verified here and were deliberately not imported from a contaminated source.
+Pushing this draft REPLACES the live article. That is an editorial decision for DJ, not a mechanical sync.
+-->
+
 <!-- TESTIMONY LEDGER
 1. John Coogan (TBPN co-host): estimated that a three-hour show required roughly six hours of preparation. Dialectic, 2025.
 2. Packy McCormick (investor and sponsored profile author): wrote, "While Party Round was fun, Jordi was dead serious." Not Boring, 2022. The article disclosed sponsorship and investment.
@@ -179,8 +207,6 @@ The mechanics matter more than the milestone, and he supplied them on [Scott Gal
 
 Read what the twelve-year-old actually noticed. Not that skateboarding was fun, though it was. That there was a spread between two prices, and that his name could go in the gap. An interest became a margin with a logo on it, which is the shortest possible description of how Hays has operated ever since.
 
-Note that a widely circulated version of this story puts the raise at $650. Hays says $500. His own account is the better source.
-
 The old version of this article built a mythology around those facts. It invented his parents' occupations, imagined the household's definition of success, and assigned a motive to a year in Shanghai. None of that is needed. A newspaper on the coffee table, a repeatedly refreshed technology site, and a skateboard with his chosen name already show the pattern: information becomes identity through a product.
 
 ## Branded Native was the same trick on a bigger target
@@ -207,6 +233,30 @@ This is strong Type 3 evidence because the brand was neither decoration nor acci
 
 Capital joined Rho in 2023. In his announcement, Hays thanked Chase and the broader team. He then carried the media thesis into a product where attention itself, rather than banking, could generate the revenue.
 
+### The year the timing went against him
+
+For three years that ending was reported as a tidy pivot. On _Prof G_ in July 2026, Hays finally described what the inside of it felt like, and the sequence is worth stating plainly because it is the most consequential episode in his public record.
+
+Capital had evolved into what amounted to a stablecoin bank. It launched the same month FTX collapsed, which removed most of the market's appetite for anything adjacent to crypto. A few months after that, Silicon Valley Bank failed, and founders abruptly cared a great deal about deposit insurance. Capital carried the standard $250,000 of coverage. Its average customer balance was around a million dollars. Hays spent that stretch telling his own customers that a bank run was happening and that they needed to be practical about their businesses.
+
+He had a one-year-old at the time and another child on the way. His phrase for the experience is "deeply humbling."
+
+For a Type 3 reading, nothing else in the record comes close. The characteristic Three injury is not failure in the abstract. It is the public loss of the effective, winning version of yourself, and it lands hardest when the loss is not obviously your fault. Hays had built a company whose entire brand was that startup finance could be fun and fast, and he watched macro forces he did not cause take it apart while he personally delivered the bad news to the people who had trusted him with their money.
+
+What he did next is the tell. He did not withdraw or go quiet, which is what the stress pattern would predict. He redirected into a new venture and, by his own account, changed how he treats other people's companies.
+
+## Golden retriever mode is a Type 3 designing a posture
+
+Hays draws the line from the collapse to the show himself. People expect two men in suits discussing technology valuations to be cocky. Instead, he says, both hosts arrived at TBPN having been humbled by Silicon Valley, and that experience "has informed our coverage." They extend founders the benefit of the doubt because they know what the far side of a market cycle feels like.
+
+Then he names the resulting strategy, and the name is the most useful new fact about how TBPN actually works. He describes it as an early deliberate decision, crediting Coogan with articulating it repeatedly on air: golden retriever mode. Show up happy, friendly, and, in his word, dumb. Specifically not the interviewer who signals that he is the smartest person in the room and intends to catch you.
+
+This is Type 3 cognition operating on the host's own personality. Most interviewers have a manner. Hays wrote a spec. He identified the posture that would produce the outcome he wanted, gave it a name so a team could execute it, and has run it as policy ever since.
+
+The choice is more revealing than it first appears. The obvious status play for a successful founder turned broadcaster is to demonstrate that he belongs in the room intellectually. Hays deliberately surrendered the appearance of superiority because friendliness produced better access, better guests, and a better product. That is a Three optimizing for the real scoreboard instead of the flattering one, which is the version of Type 3 that tends to win.
+
+It also names the show's central weakness more precisely than any outside critic has. A posture engineered to be unthreatening is a posture engineered not to prosecute. Benefit of the doubt as stated policy is difficult to suspend on the particular day it should be, and neither host has described a procedure for suspending it.
+
 ## Why Jordi Hays reads as an Enneagram Type 3
 
 Hays's strongest Type 3 evidence appears in the feedback loops he builds.
@@ -216,6 +266,14 @@ In a 2026 LinkedIn post, he described a brand as the average feeling created by 
 That is adaptation in public. The image is designed, tested, and changed while the underlying product continues. A Three does not merely want applause. At their most effective, Threes are unusually good at detecting which behavior made the applause possible and turning it into a repeatable system.
 
 Hays applies the same logic to business. In a December 2025 [Axios interview](https://www.axios.com/2025/12/05/tbpn-ads-jordi-hays-john-coogan), he said he wanted revenue predictability. TBPN sold annual, category-exclusive sponsorships, which he compared to the integrated commercial structure of a Formula One team. Axios reported that the company was profitable without outside investors and expected roughly $5 million in 2025 revenue.
+
+The _Prof G_ interview filled in the architecture, and the design is the clearest artifact of his type available. He sold only in annual blocks at a fixed rate, for two reasons that both protect the show from itself: three hours of daily live airtime leaves no room for ad sales, and predictable revenue is what allowed them to hire and build the studio before the money existed. Advertisers who locked a fixed rate received every impression above projection free.
+
+Then the constraint that makes the economics work. Hays puts the total audience he is making content for at 200,000 people worldwide, maximum. Because that audience is so specific, the show refuses to explain itself, declining to spend airtime defining AWS or catching viewers up on SpaceX. Most media businesses treat a small audience as a problem to outgrow. He treats it as a filter to enforce.
+
+The enterprise math follows. A single customer can pay for an entire annual sponsorship, so his stated goal with a partner like Ramp was to help close one public company, after which everything else is free. Consumer brands cannot work that way, because a viewer can only buy one mattress cooler. Frequency replaced length, too: a live audience abandons a ninety-second read, so he sold roughly 250 twenty-second reads instead, short enough that nobody reaches for a phone. Every clip carries logos and closes with a full read, so a clip drawing a few thousand views delivers them to exactly the right few thousand people. His term for the effect is trade media.
+
+The audacity peaks in one detail. Powerful people generally do not experience advertising at all. Before the Mark Zuckerberg interview, they put headphones on him and read a Ramp spot live, with the sponsor logos on the screen he was looking at.
 
 His focus is just as important as the numbers. Hays told *Dialectic* that TBPN did not want to attach a venture fund or another large side business to the show. A media company distracted by a second project would compete against someone focused only on media.
 
@@ -239,13 +297,23 @@ On April 2, 2026, [OpenAI announced that it had acquired TBPN](https://openai.co
 
 OpenAI presented the deal as a way to combine TBPN's community and storytelling with its own work. Hays described the move as a transition from commentary toward impact in how artificial intelligence is distributed and understood. Sam Altman called TBPN his favorite tech show and publicly accepted that independent coverage could include criticism of OpenAI.
 
-The purchase price was not disclosed by the companies. Reports have circulated with estimates, but the official announcement and Axios's acquisition coverage did not establish a number. A personality analysis gains nothing by converting an uncertain price into a dramatic fact.
+Asked directly in July 2026 why OpenAI bought them, neither host led with the audience. They led with marketing, and the account is specific. TBPN had been a contrarian supporter of putting advertising inside ChatGPT when the prevailing reaction was distaste, on the argument that an ad-supported tier is how the product reaches households that will not absorb another $20 monthly subscription. They ran a Super Bowl ad. They built a spoof product billed as Claude with ads, needling an Anthropic campaign that had been aimed at OpenAI. And they had spent months giving OpenAI unsolicited marketing advice on air, asking where its Steve Jobs was and arguing that model launches should stop leading with benchmarks and start telling people what the product does for them.
+
+Read that list and the purchase stops looking like a media acquisition. OpenAI bought its most effective volunteer marketing department. The hosts describe the deal as helping on the marketing side, and name billboards and the next Super Bowl ad as the surface area.
+
+The purchase price was not disclosed by the companies. Galloway relayed a rumor of a sale in the low hundreds of millions, which would imply a revenue multiple north of twenty and which he noted media businesses essentially never command. Neither host confirmed a number, and the official announcement and Axios's acquisition coverage did not establish one. The rumor is worth recording as a rumor. A personality analysis gains nothing by converting an uncertain price into a dramatic fact.
 
 The confirmed structure is already dramatic enough. TBPN built authority as founder-led media operating outside the companies it covered. It is now owned by one of the most consequential subjects in its editorial field.
 
 For the Type 3 reading, the deal produces a real conflict rather than another victory lap. The acquisition is unmistakable proof that Hays and Coogan built something valuable. It may also weaken the independence that made the proof possible. A promise from the owner is meaningful. It cannot eliminate the owner's influence by declaration.
 
 That tension should not be settled by guessing at Hays's inner story. It can be observed. Which guests appear? Which questions become harder to ask? Does the show challenge OpenAI with the same energy it brings to competitors? The next phase has a public scoreboard, though not one that revenue alone can measure.
+
+The first readings arrived faster than expected, and they favor Hays. Sitting on someone else's show a few months after the sale, he agreed that Anthropic had overtaken OpenAI, citing revenue figures circulating publicly while noting they trace back to anonymous accounts. He called the reversal one of the most remarkable stories in business history, said its lesson is the value of focus, and framed it as a warning to founders about complacency. He also called Anthropic one of the greatest American companies in history. That is the owner's chief rival praised by name and the owner's competitive setback conceded aloud.
+
+In the same conversation he said there was no way to defend a rumored OpenAI adult mode, a position he had formed in late 2025, before the sale. Repeating it in July 2026 meant repeating it about the company that by then owned his show.
+
+The limits are worth stating as plainly as the credit. Both remarks came as a guest on another program rather than on TBPN's own air. The adult-mode criticism was a pre-existing view restated rather than a fresh judgment, and it concerns a product that never shipped. Neither moment required pressing a live OpenAI executive about something that had actually gone wrong. The scoreboard has moved off zero without being settled.
 
 ## How old is Jordi Hays?
 
@@ -260,6 +328,10 @@ Jordi Hays is married to entrepreneur and investor Sarah Chase. She co-founded P
 Chase is sometimes reduced to a relationship detail in profiles centered on Hays. That treatment distorts the record. The Not Boring article describes her as a cofounder working on the business, and Hays's 2023 Rho announcement thanks her alongside the team.
 
 Their marriage does not tell us whether Hays is a Three, how he behaves at home, or what Chase privately makes of his public persona. Those claims belonged to the old article's invented interior. The sourced fact is more useful: one of Hays's most visible companies was a shared piece of work.
+
+Hays did volunteer one detail about the arrangement in July 2026, and it is worth reporting in his own framing. Once they had children, he says, the two of them divided explicitly: Chase concentrating on the household and Hays on the work, on the reasoning that it is hard to excel at two things at once. He describes it as a temporary structure, names it as her sacrifice, notes that she could otherwise be raising a fund and has invested in a large number of companies, and credits it with letting him be fully present at home rather than tracking preschools and music classes. As of mid-2026 they have a four-year-old, a two-year-old, and a third child on the way.
+
+Read one way, that is a man scoring his own family. Read the way he means it, he has a point worth taking: you get a workable arrangement by stating it out loud instead of assuming it or hoping it settles. Both readings can be true simultaneously, which is what makes it a Type 3 signature rather than a character flaw. The instinct that produced the Formula One sponsorship model does not switch off at the front door. He also treats fatherhood itself as a competitive edge, observing that most male podcasters near the top of the charts do not have children, and counting his own as a reason to have something to work for.
 
 Hays is also a cofounder of the water-filtration company Rorra. In a [2025 founder Q&A](https://www.superangel.blog/p/founder-friday-brian-keller-charlie), he described building the product for two years before launch and named family, startup investing, and fast cars among his interests outside TBPN. The quiet development period adds range to his public record. It does not prove an Enneagram growth arrow or reveal his family psychology.
 
@@ -286,7 +358,9 @@ See the [instinctual subtypes guide](/enneagram-corner/enneagram-instinctual-sub
 
 ### Stress toward 9 and growth toward 6
 
-Enneagram theory says Threes can borrow the disengagement of [Type 9](/enneagram-corner/enneagram-type-9) under stress and the loyalty of [Type 6](/enneagram-corner/enneagram-type-6) in growth. Hays's public record does not show a clean stress-to-9 episode. The daily schedule may prevent drift, but calling that a defense against collapse would be speculation.
+Enneagram theory says Threes can borrow the disengagement of [Type 9](/enneagram-corner/enneagram-type-9) under stress and the loyalty of [Type 6](/enneagram-corner/enneagram-type-6) in growth. Hays's public record still does not show a clean stress-to-9 episode, and the July 2026 account of Capital's collapse is now the best-documented stressor available to test that.
+
+The test cuts against the arrow rather than for it. Faced with the FTX and SVB sequence, a Three drifting toward Nine would be expected to numb out, stall on decisions, or go quiet. Hays reports the opposite: he told customers directly that a bank run was underway, moved the company into an acquisition, and started something new. What changed afterward was his posture toward other founders rather than his level of engagement. That is worth logging as evidence, not as proof, since a single self-reported account of a stressful period cannot establish an arrow.
 
 The collaborative structure of TBPN offers a modest growth-to-6 signal. Hays's performance works because Coogan, the production team, and the audience participate in a reliable system. Shared obligation has become as important as individual charisma. That is compatible with growth toward Six, though it is not proof.
 
@@ -305,6 +379,8 @@ The Type 3 danger is not that every performance is fake. Hays plainly loves busi
 TBPN's first scoreboards were legible: publish the newsletter, start on time, improve the set, earn the clip, renew the sponsor, grow the business. OpenAI has added a harder one. The show must remain useful to its owner and credible to an audience that valued its independence.
 
 No gong can resolve that conflict. It will be decided through ordinary editorial choices, one guest and one question at a time.
+
+There is now a sharper way to phrase the test, and Hays supplied the vocabulary himself. Golden retriever mode was the right instrument for building the show: friendly, curious, and unthreatening enough that powerful people relax and explain how they actually think. The question for the next phase is whether the instrument has an off switch, and whether he is willing to reach for it in public on a day when the subject is the company that signs the checks.
 
 The red flag remains a good symbol, though not for the reason the old profile suggested. Hays waves it when the timeline is in turmoil, converting confusion into an opening scene. Now the turmoil includes the show itself. TBPN has become part of the power structure it narrates.
 

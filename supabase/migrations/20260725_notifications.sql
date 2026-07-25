@@ -576,9 +576,10 @@ REVOKE ALL ON FUNCTION public.enqueue_notification(UUID, TEXT, TEXT, BIGINT, BIG
 --
 -- Why 90 days: replaying all history produces ~1,000 rows, ~780 of them
 -- "someone else answered a question you answered" events from 2024-2025. That
--- is noise, not liveliness. The 90-day window yields ~125 rows across the 3
--- users who have actually been active, which is what makes the feed read as a
--- real place on first load.
+-- is noise, not liveliness. The 90-day window yields 101 rows (1 reply, 29
+-- takes on your question, 70 takes on a question you answered, 1 like) spread
+-- across 28 recipients, which is what makes the feed read as a real place on
+-- first load. Measured read-only against production 2026-07-25.
 --
 -- Why already-read: the unread badge must mean "new since you last looked".
 -- Backfilled history exists to give the feed substance, not to greet returning

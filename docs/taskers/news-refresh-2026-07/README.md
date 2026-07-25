@@ -28,9 +28,71 @@ The batch came out of a 2026-07-25 join of live Search Console data (90-day wind
 
 **9takes is not a news station.** The news is the door. The psychology is the room. If a paragraph in your refresh would sit comfortably in People magazine, it does not belong here.
 
-Every refresh answers the same eight questions. Person-specific versions are in each tasker; these are the general forms.
+### 1.0 The main rule: the personality analysis is the product
+
+**News earns space on the page only when it adds depth to the personality analysis.** Nobody arrives here to learn what happened. They arrive to understand what kind of person this is. An event belongs in the piece only if a reader finishes that passage understanding the subject better than they did before it.
+
+Added 2026-07-25, after the Hasan Piker refresh exposed the mechanism. Every rule below is machinery for enforcing this one sentence.
+
+**Run every candidate event through the admission test. Write down the tier.**
+
+| Tier            | What it is                                                                                                                                       | What it earns                                                      |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| **1, Deepens**  | Reveals a facet the page has not shown, complicates the type read, or is the first real evidence for something the page was asserting without it | Prose. A subsection, sometimes a section.                          |
+| **2, Confirms** | More evidence for a pattern the page already establishes with other examples                                                                     | A clause, a bullet, a date in a timeline. **Never a new section.** |
+| **3, Neither**  | It happened, it got covered, it says nothing about who this person is                                                                            | **Nothing. It does not go in the blog.**                           |
+
+Most news is Tier 2 or Tier 3. If your triage comes back mostly Tier 1, you are grading yourself generously. Redo it.
+
+The tell for a Tier 3 item that snuck through: a paragraph that reports what happened, who objected, and what the subject said back, without once naming a behavior pattern, a feeling underneath, or a cost. That paragraph belongs in a news roundup. Cut it.
+
+### 1.1 The length ceiling: 4,500 words
+
+`scripts/blog-lint.sh` now **fails** any draft whose prose body exceeds 4,500 words. Three operating rules:
+
+1. **A page already over 4,500 must come down.** You may not add net words to it.
+2. **Near the ceiling, spend deliberately.** Adding 400 words at 4,300 is a decision to cut 200 elsewhere, not a surprise at lint time.
+3. **Under the ceiling is not a quota.** A 3,200-word page that says everything worth saying stays 3,200 words.
+
+The ceiling is a **bloat alarm, not a performance target.** Per-page variance is enormous: the best-converting page in the corpus (`jordi-hays`, 2.23% CTR) runs 4,771 words. What the ceiling reliably catches is _accretion_, a page that got long by having things added rather than by being written that way.
+
+Why it exists, from the 2026-07-25 corpus join against live GSC:
+
+- `corr(words, position) = 0.02`. **Length buys no rank.**
+- Controlling for search demand, the longer half of every impression tier converts **12 to 31% worse** at effectively identical rank.
+- `corr(words, impressions) = +0.375`. The longest pages are the highest-traffic ones, because those are the ones that get refreshed. **That is the ratchet**, and this batch sits at the top of it: pokimane 8,062 words, sam-altman 7,865, ishowspeed 7,731, zendaya 6,981, sydney-sweeney 6,832, against a corpus median of 3,885.
+
+Deliberate exceptions use `BLOG_LINT_WORD_CEILING=<n>` and require an argument for why this page needs the room, recorded in the refresh ledger. Never use it to silence a page you have not examined.
+
+### 1.2 Cut before you add
+
+Write the **cut list before the add list**. On a page near the ceiling, an add list longer than the cut list means you have not finished triaging. Cheapest cuts, in order:
+
+- Duplicated quotes and anecdotes (the creator spec: quotes appear once, including the epigraph)
+- Type-theory exposition beyond the **4-paragraph ceiling** outside the diagnosis section and the Rabbit Hole
+- Chronological controversy lists. Three instances sharing one mechanism beat six in date order at half the words.
+- Colour that does not carry the argument
+- Prior refreshes' Tier 2 material that was given prose when it deserved a clause
+
+### 1.3 Integrate, do not append
+
+The failure this doctrine exists to prevent is a sharp new section bolted onto the back of a stale page, leaving two documents stapled together with the argument starting halfway down. Hasan Piker reached 8,881 words with its psychological spine beginning at word 4,559.
+
+New material goes **where the argument needs it**. If the news changes the spine, rewire the page around it rather than leaving the old thesis in the first half and the new one in the second.
+
+### 1.4 Use the pipeline
+
+Refreshes are no longer hand-rolled. Run:
+
+```bash
+./scripts/run-blog-pipeline.sh <Person-Name> --refresh
+```
+
+This swaps stage 1 to `/blog_refresh_people`, skips stage 3, and applies every gate, the grade, and the revise-and-regrade loop that new drafts get. It reports the word delta at the end. To do a single stage by hand, invoke `/blog_refresh_people <Person-Name>` directly.
 
 ### The eight questions
+
+Every refresh answers the same eight questions. Person-specific versions are in each tasker; these are the general forms.
 
 **1. What is the feeling underneath?**
 Not what happened. What emotion is driving the behavior. Anchor it to the center of intelligence:

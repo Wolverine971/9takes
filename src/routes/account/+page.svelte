@@ -12,7 +12,8 @@
 		NotificationRow,
 		PersonalStats,
 		QuestionOfTheDay,
-		SharedTypePerson
+		SharedTypePerson,
+		YourTake
 	} from '$lib/server/accountDashboard';
 
 	interface EnneagramType {
@@ -76,7 +77,12 @@
 	let questionOfTheDay = $derived(data.questionOfTheDay as QuestionOfTheDay | null);
 	let sharedTypePeople = $derived((data.sharedTypePeople ?? []) as SharedTypePerson[]);
 	let pulse = $derived(data.communityPulse as CommunityPulse);
+	// Server-computed (isRoomLively lives in $lib/server). True only when several
+	// different types weighed in this week — the pulse is worth showing when it
+	// demonstrates the nine-perspectives claim, not merely when the counter moved.
+	let roomLively = $derived(data.roomLively === true);
 	let stats = $derived(data.personalStats as PersonalStats);
+	let yourTakes = $derived((data.yourTakes ?? []) as YourTake[]);
 	let activeQuestions = $derived((data.activeQuestions ?? []) as ActiveQuestion[]);
 
 	let firstName = $state('');
@@ -553,21 +559,39 @@
 				<div class="panel-head">
 					<div>
 						<p class="section-label">The room</p>
-						<h2>Last 7 days</h2>
+						<h2>{roomLively ? 'Last 7 days' : 'Room for your take'}</h2>
 					</div>
 					<a href="/questions" class="text-link">Browse</a>
 				</div>
 
-				<div class="stat-row">
-					<div class="stat">
-						<strong>{pulse.newQuestions7d}</strong>
-						<span>new {pulse.newQuestions7d === 1 ? 'question' : 'questions'}</span>
+				{#if roomLively}
+					<div class="stat-row">
+						<div class="stat">
+							<strong>{pulse.newQuestions7d}</strong>
+							<span>new {pulse.newQuestions7d === 1 ? 'question' : 'questions'}</span>
+						</div>
+						<div class="stat">
+							<strong>{pulse.newTakes7d}</strong>
+							<span>new {pulse.newTakes7d === 1 ? 'take' : 'takes'}</span>
+						</div>
 					</div>
-					<div class="stat">
-						<strong>{pulse.newTakes7d}</strong>
-						<span>new {pulse.newTakes7d === 1 ? 'take' : 'takes'}</span>
+				{:else}
+					<!-- Quiet week. A 7-day counter reading zero is a number the user
+					     cannot act on and misreads the place as abandoned; the standing
+					     opening is both truer and actionable. -->
+					<div class="opening">
+						<strong>{pulse.questionsAwaitingFirstTake}</strong>
+						<span>
+							{pulse.questionsAwaitingFirstTake === 1 ? 'question is' : 'questions are'} still waiting
+							for a first take
+						</span>
+						{#if pulse.questionsAwaitingFirstTake > 0}
+							<p class="opening-note">
+								Out of {pulse.totalQuestions}. Yours would be the first one on the page.
+							</p>
+						{/if}
 					</div>
-				</div>
+				{/if}
 
 				{#if pulse.activeTypes7d.length}
 					<div class="pulse-types">
@@ -614,6 +638,33 @@
 							<span>{stats.likesReceived === 1 ? 'like' : 'likes'}</span>
 						</div>
 					</div>
+
+					<!-- The counts say how much; this says what. People come back for
+					     their own words and the reply underneath them, so the takes
+					     themselves carry more return-pull than the tallies above. -->
+					{#if yourTakes.length}
+						<ul class="your-takes">
+							{#each yourTakes as take (take.id)}
+								<li>
+									<a href={`/questions/${take.questionUrl}`} class="your-take">
+										<span class="your-take-question">{take.questionText}</span>
+										<span class="your-take-excerpt">{take.excerpt}</span>
+										<span class="your-take-meta">
+											{#if take.replyCount}
+												{take.replyCount}
+												{take.replyCount === 1 ? 'reply' : 'replies'}
+											{:else}
+												No replies yet
+											{/if}
+											{#if take.likeCount}
+												· {take.likeCount} {take.likeCount === 1 ? 'like' : 'likes'}
+											{/if}
+										</span>
+									</a>
+								</li>
+							{/each}
+						</ul>
+					{/if}
 				{:else}
 					<div class="empty-block">
 						<strong>Nothing yet</strong>
@@ -818,10 +869,13 @@
 							<input type="checkbox" bind:checked={prefs.like_on_take} />
 							<span>Someone likes my take</span>
 						</label>
-						<label class="toggle">
-							<input type="checkbox" bind:checked={prefs.email_digest} />
-							<span>Send me an email digest</span>
-						</label>
+						<!-- The email-digest toggle is deliberately not rendered yet. The
+						     column, the preference RPC, and the notification events it
+						     would draw from all exist, but nothing sends the email — so
+						     showing the switch would promise mail that never arrives.
+						     Restore this control in the same change that ships the digest
+						     job; prefs.email_digest still round-trips and defaults true,
+						     so nobody's stored choice is lost in the meantime. -->
 
 						<Button
 							type="button"
@@ -1333,6 +1387,86 @@
 	.stat span {
 		color: var(--ink-mid);
 		font-size: 0.82rem;
+	}
+
+	.your-takes {
+		list-style: none;
+		margin: 1rem 0 0;
+		padding: 0;
+		display: grid;
+		gap: 0.5rem;
+	}
+
+	.your-take {
+		display: grid;
+		gap: 0.2rem;
+		padding: 0.65rem 0.75rem;
+		border-radius: 0.625rem;
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 14%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
+		text-decoration: none;
+	}
+
+	.your-take:hover {
+		border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
+	}
+
+	.your-take-question {
+		color: var(--ink-dim);
+		font-size: 0.72rem;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		line-clamp: 1;
+	}
+
+	.your-take-excerpt {
+		color: var(--ink-bright);
+		font-size: 0.9rem;
+		line-height: 1.4;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		line-clamp: 2;
+	}
+
+	.your-take-meta {
+		color: var(--ink-mid);
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+	}
+
+	/* Quiet-week counterpart to .stat-row. Single figure rather than a row of
+	   them: the point is one open invitation, not a scoreboard. */
+	.opening {
+		display: grid;
+		gap: 0.15rem;
+		padding: 0.75rem 0.85rem;
+		border-radius: 0.625rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 28%, transparent);
+		background: color-mix(in srgb, var(--lamp-glow) 7%, transparent);
+	}
+
+	.opening strong {
+		font-family: var(--font-display);
+		font-size: 1.6rem;
+		line-height: 1;
+		color: var(--ink-bright);
+	}
+
+	.opening span {
+		color: var(--ink-mid);
+		font-size: 0.82rem;
+	}
+
+	.opening-note {
+		margin: 0.35rem 0 0;
+		color: var(--ink-dim);
+		font-size: 0.8rem;
 	}
 
 	.pulse-types {

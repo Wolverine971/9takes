@@ -1,0 +1,19 @@
+Polished `src/blog/people/drafts/Jynxzi.md`.
+
+The draft came in mechanically clean, so the greps had nothing left to catch. The real problems were rhythm tics:
+
+**Main fixes**
+- **Reader-directive tic** was the worst one. Seven paragraphs opened by instructing the reader ("Sit with the arithmetic," "Note who is missing," "Look at what he carried out," "Watch what Jynxzi does," "Run it forward"). Cut to two, kept where the instruction earns its beat.
+- **Negative parallelism ×4** that the lint doesn't detect: "The pressure does not arrive during the stream. It arrives…", "He was not leaving them, exactly. He was informing…", "that is not a challenge. That is a sentence being served," "Need, not want." All rewritten as direct statements. The Elden Ring payoff is stronger short.
+- **Same rhetorical engine three times** ("the common read is X, the real one is Y") at the diagnosis open, in section 2, and softly at "The choice looks like loyalty." Broke each differently.
+- **Main-body counter-typing ladder** (Seven / Six / Three in three parallel sentences) collapsed to a single Seven pressure test. The Six case already lives in the Rabbit Hole, and the Formula ledger already claimed zero ladders.
+- Duplicate phrasing: "referendum on whether he is any good" in both TL;DR and body, "contact with his calendar" / "contact with the record," "arithmetic" twice, "worked his whole life" three times in one section.
+- One genuinely garbled sentence: "A 24-year-old lost a scoreboard nobody else could even see" read as if he lost. Rebuilt so the scoreboard is the blog paragraph.
+
+**Two fact-safety edits worth flagging:** "A man who has worked with his hands his whole life" was an embellishment with no support in the record (the only evidence is "My dad has worked his whole life"), and "He has been offered every version of the standard exit" asserted offers nobody sourced. Both softened to what's actually checkable.
+
+Protected as instructed: the 2 a.m. cold open, the Elden Ring empathy turn, the inner-thought beat, and the "jury of about four" line.
+
+**Final numbers:** contrast pairs 0 total (0 strong, 0 comparative), 0 prose em-dashes, blog-lint 0 fail / 1 warn.
+
+The prose is production-ready. The one blocker is not editorial: **`faqs` frontmatter is still missing** because the enrich stage hasn't run, which is a real discoverability cost. Three sourcing items from the second pass also remain open by design (podcast quotes are still auto-caption transcriptions and need verification against the videos, Paananen's apology is quoted from trade coverage rather than the X post, and the Wembley penalty score is deliberately unpinned since Dexerto and Sportskeeda disagree).

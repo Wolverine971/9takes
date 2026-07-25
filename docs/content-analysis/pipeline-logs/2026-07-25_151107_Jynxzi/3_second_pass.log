@@ -1,0 +1,17 @@
+Done. Updated `src/blog/people/drafts/Jynxzi.md` (`lastmod` untouched).
+
+**Source audit: 5 load-bearing quotes, 5 inline, 0 vague, 0 untagged** (was 1 inline / 1 vague / 4 untagged). I cut two quotes I couldn't trace to any outlet rather than dress them up — Rozman's "just getting started on his chess journey" and "For me, like, I can play Siege" — and replaced them with dated, sourceable material. I also added Dot Esports, Tubefilter, Chess.com and PocketGamer.biz to `scripts/blog-source-audit.mjs`, following the documented IShowSpeed-pass precedent for creator-economy trade press.
+
+**Main changes:**
+
+The fresh-eyes reviewer was right about the big thing, and I verified it before acting. "Why Jynxzi Never Left Rainbow Six Siege" was false. He pivoted to Clash Royale in late April 2025, told his Siege fans on August 8, 2025 that "if you only wanna watch me play R6, you're not, like, a real supporter," and by May 2026 Streams Charts had Siege at 23% of his year's viewership. The section is now **"Why Jynxzi Stopped Playing Rainbow Six Siege"** and runs the arena-selection argument all the way forward: he picked the room where the ceiling was his own name, then walked out the moment it stopped paying. Same instinct, less flattering, more true.
+
+Added a section on the **Supercell fight** (Feb 10–12, 2026) — the recap that credited the team and no creators, his "biggest spit in the face I've ever seen," and CEO Ilkka Paananen editing the post and apologizing by name two days later. That's the witness thesis at industrial scale, and nothing else in the piece demonstrated it that hard. It closes with the March 2026 CS2 tournament: the community said he'd invited no actual CS2 players, he ran it anyway, 481K peak concurrents.
+
+**Wembley was overclaimed and I fixed it.** He was Man of the Match with two goals for Sidemen FC, the match finished 10-10, and his side lost the shootout — after struggling badly enough in the 2025 fixture that his place was in question. Losing the match and taking the individual award home is a better Type 3 beat than the tidy version.
+
+Also: joined the two Kai Cenat threads (loudest critic, quietly excluded friend), named the mother asymmetry instead of papering over it, gave the sp/3 case a counterweight it was missing (Kings League chair, tournament circuit — security-first doesn't build that), and trimmed the section 3→4 pre-announcement, two superlative tics, and the duplicate "he was number one" proof.
+
+**Checks:** blog-lint 0 fail / 1 warn (no `faqs` — enrich stage hasn't run). Same-type similarity clear at 0.075 after I rewrote a coincidental "spent seven years" collision with the Beckham draft.
+
+**Worth an editor's eye:** sources split on the Wembley penalty score (Dexerto 3-1, Sportskeeda 4-1), so the draft says "loses the shootout" with no digit. The podcast quotes are still YouTube auto-caption transcriptions carrying the original verify-before-publish flag, and Paananen's apology is quoted from trade coverage rather than the X post itself.

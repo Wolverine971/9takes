@@ -230,6 +230,12 @@ const OUTLETS = [
 	'Sportskeeda',
 	'Awful Announcing',
 	'Streams Charts',
+	// Same class, added on the Jynxzi pass (2026-07-25): checkable creator-economy
+	// and games trade press that actually covers this corpus's streamer pages.
+	'Dot Esports',
+	'Tubefilter',
+	'Chess.com',
+	'PocketGamer.biz',
 	'Kotaku',
 	'Polygon',
 	'The Verge',

@@ -214,7 +214,7 @@ Which is where the name comes from. Jordi describes an early deliberate strategy
 
 This is the most useful new fact about the partnership, because it relocates the show's warmth from ideology to design. The softness toward powerful people is a decision with a name, chosen early and run as policy ever since.
 
-The Enneagram reading is unusually clean. A Three identifies the posture that will get the outcome, states it as strategy, and holds the team to it. A Seven does not have to fake it. Genuine curiosity is structurally non-prosecutorial; a Seven wants the door opened, not the witness broken. Jordi supplied the plan and John supplied the temperament that keeps the plan from looking like a costume.
+The Enneagram reading is unusually clean. A Three identifies the posture that will get the outcome, states it as strategy, and holds the team to it. A Seven does not have to fake it. Genuine curiosity is structurally non-prosecutorial; what a Seven wants from a guest is the door, and a broken witness cannot open one. Jordi supplied the plan and John supplied the temperament that keeps the plan from looking like a costume.
 
 It also names the cost more honestly than a critique from outside could. A posture engineered to be friendly and unthreatening is a posture engineered not to prosecute. Benefit of the doubt as a stated policy is difficult to suspend on the specific day it should be, and the hosts have given themselves no procedure for suspending it.
 

@@ -90,11 +90,30 @@ No hedge words. No pathology. Do not turn a fear-based type into an anxiety diso
 
 ## 5. Mechanics
 
+**The push is a two-step. The bare command is a DRY RUN and writes nothing.**
+
+Step 1, preview the diff:
+
 ```bash
 node scripts/personBlogParser.js Zendaya
 ```
 
-Preserves `lastmod`. **Never `--publish`** on a live page. Never hand-edit `lastmod`.
+This prints `Dry-run previewing...`, the field-level diff, an expected content hash, and an approval token of the form `--approve-fields=content,description`.
+
+Step 2, apply exactly what you reviewed:
+
+```bash
+node scripts/personBlogParser.js Zendaya \
+  --apply \
+  --expected-content-hash=<hash from step 1> \
+  --approve-fields=<token from step 1>
+```
+
+Both flags fail closed. A hash mismatch or an approved-field list that does not exactly match the dry-run diff aborts the write, which is the guard against a stale preview overwriting someone else's concurrent edit. `--apply` requires an explicit single person slug and cannot be combined with `--dry-run`.
+
+**If you stop after step 1, nothing has been saved.** The dry run's success message is not a confirmation that the page was updated.
+
+Preserves `lastmod`. **Never `--publish`** on a live page: it is the first-release workflow and rewrites `lastmod`, which breaks DJ's manual-lastmod rule. Never hand-edit `lastmod`.
 
 Zero em-dashes. No quality-comment markers. Valid YAML in FAQ frontmatter.
 
@@ -162,4 +181,39 @@ node scripts/personBlogParser.js Zendaya --apply \
   --approve-fields=content,faqs
 ```
 
-**For the next agent.** The `--expected-content-hash` above is the _live DB_ hash as of 2026-07-25. If anyone else pushes Zendaya first, re-run the bare dry run to get the current one. Two facts to watch as they age: _Dune: Part Three_ is December 2026 and is written without a day because sources disagreed (16 vs 18); and the retreat itself is unresolved until we see whether she actually goes quiet after 31 July. If she does not, the 9-arrow read in "Going Into Hiding" is the paragraph to revisit.
+**For the next agent.** The `--expected-content-hash` above is the _live DB_ hash as of 2026-07-25. If anyone else pushes Zendaya first, re-run the bare dry run to get the current one. Two facts to watch as they age: _Dune: Part Three_ is December 2026 and is written without a day because sources disagreed (16 vs 18); and the retreat itself is unresolved until we see whether she actually goes quiet after 31 July. If she does not, the "Going Into Hiding" read is the section to revisit.
+
+---
+
+## 8. Developmental pass (2026-07-25, same session)
+
+The news refresh raised the ceiling and exposed the floor, so DJ called for a holistic rework rather than an additive one. Diagnosis before the pass: **C, ≈7.3**, against a frontmatter grade of A/9.0 (≈1.7 points of inflation, the documented failure mode).
+
+**Root problem.** Two blogs stapled together. The back half was an argument; the front half was a catalog that stated a fact and asserted "That's Type 6." Counted **40 "Type 6" mentions with 10 bare diagnostic assertions**. The 2026-04-29 fresh-eyes pass had already flagged this as a "type-plural diagnostic crutch" and nobody had acted on it.
+
+**What changed:**
+
+1. **Thesis unified.** The open promised "anxiety is her fuel" while the back half argued "she manages exposure." Now one claim runs end to end: fear is the sensor, preparation is the mechanism, **containment is the point**. Keeps `meta_title` honest and turns the wedding/retreat material into the payoff instead of a swerve.
+2. **Type-plural crutch eliminated.** 40 mentions → 11; bare diagnostic assertions 10 → 0. Every one replaced with her own vocabulary (open at the edges, unbounded, perimeter questions, authorship).
+3. **Rabbit hole added.** `<details class="enneagram-rabbit-hole">` now holds center/core emotion, both arrows, wings (6w5), counter-typing against 1 and 3, and the typing disclaimer. The arrow mechanics I had put in the body during the news pass were moved here; the body still traces both arrows narratively, which satisfies the tasker spine without the vocabulary. Fixes a standing lint FAIL and the Enneagram cap.
+4. **Empathy turn + critic engagement added** (new §"The Overexposure Charge"). The piece had neither, which was capping Originality. Uses the real, dated overexposure discourse ([The Week, 18 July 2026](https://www.theweek.in/news/entertainment/2026/07/18/celebrity-overexposure-double-standard.html), which argues a double standard against Pattinson and Hathaway's comparable slates). The turn: the person accused of omnipresence is the one who has spent twenty years minimizing visibility, and the guardedness read as corporate is what someone does when an unrehearsed question is genuinely expensive. Explicitly does **not** excuse it, per doctrine.
+5. **Interior beat added.** Rubric requires one moment rendered from inside her feeling; the piece had none until line 500. Now in "The One Room She Cannot Prepare Her Way Out Of": the morning where every external variable is handled and the only unscripted thing is whether she can stand up.
+6. **Redundancy merged.** "How Type 6 Shows Up in Her Scene Work" folded into the Challengers section (three sections were doing "she prepares obsessively"). "The Control Freak's Growth Edge" deleted as a near-duplicate of the 2024 anxiety section; merged into one. Producing Empire compressed and the unsourced "industry rumors suggest" claim cut. Tom Holland section trimmed (flagged twice before, never done).
+7. **Headers de-formulaed.** 8 renamed to drop decorative "Type 6" branding; 4 FAQ anchors resynced to match. The required search-intent H2/H3 pair keeps its type language.
+8. **Epigraph attributed** (Variety, June 2024). Source audit went from "2 untagged load-bearing quotes, blocks A/B+" to **clean: 1 quote, inline, 0 untagged**.
+9. **`meta_title` 66 → 56 chars** (dropped "Explained"). Not a keyword retitle; the head term is intact.
+10. **`description` realigned** to the new thesis and to 152 chars (was 127, under the 145-160 target). **This is a live SERP element on a position-9 page. Easy revert if DJ wants the old one.**
+
+**Word count.** Body is **6,975** words, essentially flat (~6,900 before). Note for anyone reading the earlier estimate: the "8,900 words" figure counted the whole file including the trailing editor-comment blocks, which are stripped on push. The merges were justified by redundancy, not by length.
+
+**Self-grade: B, 8.4** (evidence 8.5 / originality 8.5 / discoverability 8.5 / enneagram 8.5 / writing 8.0 / hook 8.5). Written to frontmatter with `confidence: low` and `needs_review: true`, **because the agent that wrote the prose graded it** and the rubric explicitly warns about that. It wants an independent `/grade_blog` run. Writing is the honest weak spot: the seam between 2025-era prose and the new prose is still audible in the Oakland, Disney-to-Dune and Music sections.
+
+**Remaining lint FAILs (6), all pre-v2 scaffolding, deliberately not faked:** `production_pretext` and the four ledger comments (TESTIMONY / HEADING MIX / DISTRIBUTION / FORMULA FINGERPRINT). Adding ledgers that assert compliance without building them would be worse than missing ones, and the rubric treats ledgers as unproven anyway. The last FAIL is contrast-pair = 1 strong, which is inside a direct Holland quote ("It's not my moment, it's her moment") and is a false positive on our prose. Also 2 WARNs: 10 internal links against a 2-5 spec (the nine-takes turn links five type pages on purpose), and 7 "comparative" contrast hits that are almost all inside quotes.
+
+**Push token changed** because the pass touched more fields:
+
+```bash
+node scripts/personBlogParser.js Zendaya --apply \
+  --expected-content-hash=6f267a81e20f2993ccc36b07b3c086d1 \
+  --approve-fields=meta_title,description,content,content_quality,faqs
+```

@@ -310,6 +310,44 @@ if grep -qE "^published: true" <<<"$FM" && grep -qE "^[[:space:]]+status: draft"
   warn "published: true while production_pretext.status: draft — states disagree"
 fi
 
+# --- body length ceiling (added 2026-07-25) -----------------------------------
+# THIS IS A BLOAT ALARM, NOT A CTR LEVER. Read the caveat before citing it.
+#
+# What the data supports (391 published people pages joined against the 90-day GSC
+# pull, docs/data/gsc/2026-07-25-pages.csv):
+#   - corr(words, position) = 0.02. Length buys NO rank. This one is solid.
+#   - Controlling for search demand, the longer half of every impression tier
+#     converts worse at effectively identical rank:
+#       100-300 impr:  3349w -> 1.017% CTR  vs  4719w -> 0.705%  (pos 9.5 vs 9.6)
+#       300-800 impr:  3311w -> 0.592%      vs  4494w -> 0.521%  (pos 10.2 vs 10.3)
+#       800+   impr:  3456w -> 0.564%      vs  5188w -> 0.439%  (pos 9.3 vs 9.8)
+#   - corr(words, impressions) = +0.375. The longest pages are the highest-traffic
+#     ones, because those are the ones that get refreshed. That is the ratchet.
+#
+# What the data does NOT support: that cutting words raises CTR on a given page.
+# Per-page variance swamps the effect. The best converter in the corpus is
+# jordi-hays at 4,771 words and 2.23% CTR; john-f-kennedy runs 4,929 words at 1.08%.
+# Meanwhile mr-beast converts at 0.07% on 3,796 words. Length is not destiny.
+#
+# So the ceiling exists to catch ACCRETION, not length. A 4,700-word page written
+# that way on purpose is fine. An 8,881-word page that got there through six
+# additive refreshes is not, and hasan-piker was exactly that before 2026-07-25.
+# Corpus median 3,885; p75 4,457. Ceiling 4,500, set by DJ.
+#
+# Deliberate exceptions: export BLOG_LINT_WORD_CEILING=<n> for the run. Use it when
+# the length is argued for, never to silence an unexamined page.
+# Counts prose only: frontmatter, HTML comments (ledgers) and tags are excluded.
+BODY_WORDS=$(sed -E 's/<[^>]+>/ /g' <<<"$BODY_NOCOMMENT" | wc -w | tr -d ' ')
+BODY_WORD_CEILING="${BLOG_LINT_WORD_CEILING:-4500}"
+BODY_WORD_WARN=$(( BODY_WORD_CEILING * 90 / 100 ))
+if (( BODY_WORDS > BODY_WORD_CEILING )); then
+  fail "body is $BODY_WORDS words (ceiling $BODY_WORD_CEILING). Cut before you add: news that only re-proves a pattern the page already established belongs in a clause, not a section"
+elif (( BODY_WORDS > BODY_WORD_WARN )); then
+  warn "body is $BODY_WORDS words (ceiling $BODY_WORD_CEILING) — thin headroom for the next refresh"
+else
+  pass "body length $BODY_WORDS words (ceiling $BODY_WORD_CEILING)"
+fi
+
 # --- em-dashes (policy resolved 2026-06-10: banned in prose) ------------------
 # Exemptions: HTML comments (ledgers, review notes) and quote-attribution lines
 # ("…" — Person, source, year  /  lines that begin with an em-dash attribution).
