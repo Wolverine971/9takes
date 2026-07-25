@@ -1,4 +1,5 @@
 <!-- docs/design/2026-07-22-logo-methodology.md -->
+
 # 9takes Logo Methodology
 
 **Status:** Active identity exploration  

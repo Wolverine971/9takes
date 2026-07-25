@@ -186,7 +186,7 @@
 	.rule {
 		width: 56px;
 		height: 3px;
-		border-radius: 1.5px;
+		border-radius: 999px;
 		background: rgba(245, 158, 11, 0.85);
 	}
 

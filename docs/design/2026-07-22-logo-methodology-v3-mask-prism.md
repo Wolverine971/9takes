@@ -1,4 +1,5 @@
 <!-- docs/design/2026-07-22-logo-methodology-v3-mask-prism.md -->
+
 # 9takes Logo Methodology V3 — The Nine-Facet Mask
 
 ## Decision

@@ -416,7 +416,7 @@
 		min-width: 0;
 		padding: 1.1rem 1.1rem 1.2rem 1.3rem;
 		border: 1px solid color-mix(in srgb, var(--type-color) 34%, var(--stone-edge));
-		border-radius: 0.875rem;
+		border-radius: 1rem;
 		background: color-mix(in srgb, var(--type-color) 7%, var(--stone-warm));
 		color: inherit;
 		text-decoration: none;

@@ -1,4 +1,5 @@
 <!-- docs/design/2026-07-22-logo-methodology-v2-agora.md -->
+
 # 9takes Logo Methodology V2 — The Night Agora
 
 **Status:** Active concept reset  

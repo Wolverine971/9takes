@@ -1,4 +1,5 @@
 <!-- docs/design/2026-07-22-enneagram-mask-expression-research.md -->
+
 # 9takes Enneagram Mask Expression Research
 
 ## Working decision
