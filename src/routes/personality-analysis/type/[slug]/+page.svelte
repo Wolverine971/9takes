@@ -2,6 +2,7 @@
 <script lang="ts">
 	import type { PageData } from './$types';
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import EnneagramTypeIntro from '$lib/components/blog/EnneagramTypeIntro.svelte';
 	import EmailSignup from '$lib/components/molecules/Email-Signup.svelte';
 	import EnneagramTypeBottom from '$lib/components/blog/EnneagramTypeBottom.svelte';
@@ -365,7 +366,7 @@
 </script>
 
 <svelte:head>
-	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
+	{@html `<script type="application/ld+json">${serializeJsonLd(structuredData)}</script>`}
 </svelte:head>
 
 <SEOHead

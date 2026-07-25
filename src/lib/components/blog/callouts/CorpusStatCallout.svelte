@@ -14,6 +14,7 @@
 -->
 <script lang="ts">
 	import Callout from './Callout.svelte';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import {
 		buildCorpusDatasetReference,
 		NINE_TAKES_ORGANIZATION
@@ -77,7 +78,7 @@
 	});
 
 	const quotationSchemaHtml = $derived(
-		'<' + 'script type="application/ld+json">' + JSON.stringify(quotationSchema) + '</' + 'script>'
+		'<' + 'script type="application/ld+json">' + serializeJsonLd(quotationSchema) + '</' + 'script>'
 	);
 </script>
 

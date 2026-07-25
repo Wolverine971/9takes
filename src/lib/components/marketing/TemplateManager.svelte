@@ -285,8 +285,7 @@
 						required
 						rows="6"
 						placeholder="Enter your template content..."
-						class="field-input field-textarea"
-					></textarea>
+						class="field-input field-textarea"></textarea>
 				</label>
 				<label class="field">
 					<span class="field-label">Purpose Description</span>
@@ -295,8 +294,7 @@
 						required
 						rows="3"
 						placeholder="Describe when to use this template..."
-						class="field-input field-textarea"
-					></textarea>
+						class="field-input field-textarea"></textarea>
 				</label>
 				<div class="modal-actions">
 					<Button variant="secondary" onclick={closeCreateModal}>Cancel</Button>
@@ -336,8 +334,7 @@
 						bind:value={editingTemplate.content_text}
 						required
 						rows="6"
-						class="field-input field-textarea"
-					></textarea>
+						class="field-input field-textarea"></textarea>
 				</label>
 				<label class="field">
 					<span class="field-label">Purpose Description</span>
@@ -346,8 +343,7 @@
 						bind:value={editingTemplate.purpose_description}
 						required
 						rows="3"
-						class="field-input field-textarea"
-					></textarea>
+						class="field-input field-textarea"></textarea>
 				</label>
 				<div class="modal-actions">
 					<Button variant="secondary" onclick={closeEditModal}>Cancel</Button>

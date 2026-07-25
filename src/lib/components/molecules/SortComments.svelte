@@ -23,17 +23,7 @@
 	let reduceMotion = $state(false);
 
 	type EnneagramTypeOption =
-		| '1'
-		| '2'
-		| '3'
-		| '4'
-		| '5'
-		| '6'
-		| '7'
-		| '8'
-		| '9'
-		| 'unknown'
-		| 'rando';
+		'1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'unknown' | 'rando';
 	type SortOrder = 'newest' | 'oldest' | 'likes';
 
 	import { TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';

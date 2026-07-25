@@ -161,14 +161,14 @@ Always on an **inverted light/bright frame** — the one slide that pops against
 
 ## E. Hooks ranked (by observed source engagement)
 
-| Pattern                                            | 9takes re-skin                                         |
-| -------------------------------------------------- | ------------------------------------------------------ |
+| Pattern                                           | 9takes re-skin                                         |
+| ------------------------------------------------- | ------------------------------------------------------ |
 | **"Don't X. Y instead."** (top performer, 1,476♥) | Don't judge people. Read them instead.                 |
-| "Why [weird thing] works"                          | Why nine answers beat one                              |
-| "Why your X looks cheap"                           | Why your read of people is shallow                     |
-| "The [X] cheat sheet — which X = which Y"          | The Enneagram cheat sheet: which type feels which fear |
-| "Who wins — not who you think"                     | Who actually reads people — not who you think          |
-| "What makes people [look]?"                        | What makes a take stop you?                            |
+| "Why [weird thing] works"                         | Why nine answers beat one                              |
+| "Why your X looks cheap"                          | Why your read of people is shallow                     |
+| "The [X] cheat sheet — which X = which Y"         | The Enneagram cheat sheet: which type feels which fear |
+| "Who wins — not who you think"                    | Who actually reads people — not who you think          |
+| "What makes people [look]?"                       | What makes a take stop you?                            |
 
 **Caption opener that drove the top performer:** a provocative either/or that implicates the reader — _"Are people complicated, or are you just bad at reading them?"_
 

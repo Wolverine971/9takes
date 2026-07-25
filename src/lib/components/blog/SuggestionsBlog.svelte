@@ -1,5 +1,7 @@
 <!-- src/lib/components/blog/SuggestionsBlog.svelte -->
 <script lang="ts">
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
+
 	export let posts: App.BlogPost[] = [];
 	export let blogType = '';
 	export let slugPrefix = '';
@@ -21,7 +23,7 @@
 
 	// Generate ItemList JSON-LD for related articles
 	$: itemListJsonLd = resolvedPosts.length
-		? JSON.stringify({
+		? serializeJsonLd({
 				'@context': 'https://schema.org',
 				'@type': 'ItemList',
 				name: `More ${blogTypeLabel} Articles`,
@@ -39,9 +41,8 @@
 				}))
 			})
 		: '';
-	$: safeItemListJsonLd = itemListJsonLd
-		? itemListJsonLd.replace(/<\/script>/gi, '<\\/script>')
-		: '';
+	// Escaping now happens in serializeJsonLd above.
+	$: safeItemListJsonLd = itemListJsonLd;
 </script>
 
 <svelte:head>

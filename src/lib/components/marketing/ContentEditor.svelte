@@ -311,8 +311,7 @@
 						oninput={(e) => updateThreadBlock(index, e.currentTarget.value)}
 						rows="6"
 						class="field-input field-textarea"
-						class:over-limit={block.length > MAX_CHARS}
-					></textarea>
+						class:over-limit={block.length > MAX_CHARS}></textarea>
 					<div class="thread-footer" class:over-limit={block.length > MAX_CHARS}>
 						{block.length}/{MAX_CHARS}
 						<button type="button" class="delete-link" onclick={() => confirmDeleteBlock(index)}>
@@ -329,8 +328,7 @@
 				oninput={handleContentTextInput}
 				required
 				rows="8"
-				class="field-input field-textarea"
-			></textarea>
+				class="field-input field-textarea"></textarea>
 		{/if}
 	</div>
 

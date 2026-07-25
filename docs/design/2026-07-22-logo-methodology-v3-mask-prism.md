@@ -1,3 +1,4 @@
+<!-- docs/design/2026-07-22-logo-methodology-v3-mask-prism.md -->
 # 9takes Logo Methodology V3 — The Nine-Facet Mask
 
 ## Decision
@@ -155,14 +156,14 @@ Files:
 
 ### Current score
 
-| Criterion | Score | Note |
-| --- | ---: | --- |
-| Immediate read | 4/5 | Meeting ring first; profiles emerge second. |
-| Nine logic | 5/5 | Exactly nine equal repeated units. |
-| Ownability | 4/5 | Profile-cut inner edge distinguishes it from a plain segmented ring. |
-| Small-size strength | 4/5 | Stable at 32 pixels; detailed meaning appears above 64. |
-| Dimensional intelligence | 3/5 | Relational depth replaces literal 3D; a dimensional treatment can be explored later. |
-| Cultural fit | 4/5 | Chorus/mask/agora logic is grounded without costume. |
-| Emotional tone | 4/5 | Equal and conversational; needs user validation that it does not feel too seal-like. |
+| Criterion                | Score | Note                                                                                 |
+| ------------------------ | ----: | ------------------------------------------------------------------------------------ |
+| Immediate read           |   4/5 | Meeting ring first; profiles emerge second.                                          |
+| Nine logic               |   5/5 | Exactly nine equal repeated units.                                                   |
+| Ownability               |   4/5 | Profile-cut inner edge distinguishes it from a plain segmented ring.                 |
+| Small-size strength      |   4/5 | Stable at 32 pixels; detailed meaning appears above 64.                              |
+| Dimensional intelligence |   3/5 | Relational depth replaces literal 3D; a dimensional treatment can be explored later. |
+| Cultural fit             |   4/5 | Chorus/mask/agora logic is grounded without costume.                                 |
+| Emotional tone           |   4/5 | Equal and conversational; needs user validation that it does not feel too seal-like. |
 
 **Total: 28/35.** The symbol clears the round-one threshold but remains a candidate, not a live asset.

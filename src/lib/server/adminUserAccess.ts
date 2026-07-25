@@ -10,8 +10,7 @@ type AdminStatusUser = {
 };
 
 type AdminStatusResult =
-	| { ok: true; user: AdminStatusUser }
-	| { ok: false; status: number; message: string };
+	{ ok: true; user: AdminStatusUser } | { ok: false; status: number; message: string };
 
 const adminStatusErrors: Record<string, { status: number; message: string }> = {
 	'22023': { status: 400, message: 'You cannot remove your own administrator access.' },

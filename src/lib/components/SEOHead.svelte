@@ -1,5 +1,7 @@
 <!-- src/lib/components/SEOHead.svelte -->
 <script lang="ts">
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
+
 	interface AdditionalMetaEntry {
 		name?: string;
 		property?: string;
@@ -126,6 +128,6 @@
 
 	<!-- JSON-LD Structured Data -->
 	{#if jsonLd}
-		{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+		{@html `<script type="application/ld+json">${serializeJsonLd(jsonLd)}</script>`}
 	{/if}
 </svelte:head>

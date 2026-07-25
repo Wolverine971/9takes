@@ -329,8 +329,7 @@
 					value={resourceDraft.description ?? ''}
 					oninput={(event) =>
 						updateDraft('description', (event.currentTarget as HTMLTextAreaElement).value)}
-					placeholder="What this resource is for and when you use it."
-				></textarea>
+					placeholder="What this resource is for and when you use it."></textarea>
 			</label>
 
 			<div class="editor-shell">

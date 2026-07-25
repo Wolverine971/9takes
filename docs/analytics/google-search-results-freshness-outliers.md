@@ -70,45 +70,46 @@ Generated: 2026-02-19
 ### Drafts not in the 3-month full-page rows
 
 Potentially low-traffic or indexation-gap candidates; verify sitemap/canonical/indexing before editing.
-| # | URL | Lastmod | Freshness | Note |
-|---|---|---|---|---|
-| 1 | https://9takes.com/personality-analysis/Chamath-Palihapitiya | 2026-01-21 | <90 days | check canonical, sitemap, indexation |
-| 2 | https://9takes.com/personality-analysis/Chris-Williamson | 2026-02-10 | <90 days | check canonical, sitemap, indexation |
-| 3 | https://9takes.com/community/mind-change-series-roadmap | 2026-02-17 | <90 days | check canonical, sitemap, indexation |
-| 4 | https://9takes.com/community/the-9takes-bridge-protocol | 2026-02-17 | <90 days | check canonical, sitemap, indexation |
-| 5 | https://9takes.com/personality-analysis/JD-Vance | 2026-02-17 | <90 days | check canonical, sitemap, indexation |
-| 6 | https://9takes.com/personality-analysis/Keke-Palmer | 2026-02-17 | <90 days | check canonical, sitemap, indexation |
-| 7 | https://9takes.com/personality-analysis/Sam-Parr | 2026-02-17 | <90 days | check canonical, sitemap, indexation |
-| 8 | https://9takes.com/personality-analysis/Shaan-Puri | 2026-02-17 | <90 days | check canonical, sitemap, indexation |
-| 9 | https://9takes.com/personality-analysis/Charli-xcx | 2026-02-18 | <90 days | check canonical, sitemap, indexation |
-| 10 | https://9takes.com/personality-analysis/Satya-Nadella | 2026-02-18 | <90 days | check canonical, sitemap, indexation |
-| 11 | https://9takes.com/personality-analysis/Tara-Yummy | 2026-02-18 | <90 days | check canonical, sitemap, indexation |
-| 12 | https://9takes.com/personality-analysis/Zohran-Mamdani | 2026-02-18 | <90 days | check canonical, sitemap, indexation |
-| 13 | https://9takes.com/community/first-principles | 2023-02-10 | >=180 days | check canonical, sitemap, indexation |
-| 14 | https://9takes.com/enneagram-corner/hijacking | 2023-03-26 | >=180 days | check canonical, sitemap, indexation |
-| 15 | https://9takes.com/enneagram-corner/how-to-communicate | 2023-03-26 | >=180 days | check canonical, sitemap, indexation |
-| 16 | https://9takes.com/enneagram-corner/psychology | 2023-03-26 | >=180 days | check canonical, sitemap, indexation |
-| 17 | https://9takes.com/community/Dalio-Principles | 2023-04-23 | >=180 days | check canonical, sitemap, indexation |
-| 18 | https://9takes.com/community/three-sided-die | 2023-04-23 | >=180 days | check canonical, sitemap, indexation |
-| 19 | https://9takes.com/community/2d-or-3d-world | 2023-05-13 | >=180 days | check canonical, sitemap, indexation |
-| 20 | https://9takes.com/community/Aristotle-and-Plato | 2023-06-17 | >=180 days | check canonical, sitemap, indexation |
-| 21 | https://9takes.com/community/personality-is-the-catch-all | 2023-08-06 | >=180 days | check canonical, sitemap, indexation |
-| 22 | https://9takes.com/community/hidden-truths | 2023-08-27 | >=180 days | check canonical, sitemap, indexation |
-| 23 | https://9takes.com/enneagram-corner/how-to-crowdsource-solutions-to-conflict | 2023-08-27 | >=180 days | check canonical, sitemap, indexation |
-| 24 | https://9takes.com/how-to-guides/how-to-get-along-with-your-relatives | 2023-12-16 | >=180 days | check canonical, sitemap, indexation |
-| 25 | https://9takes.com/how-to-guides/guide-to-active-listening | 2024-03-09 | >=180 days | check canonical, sitemap, indexation |
-| 26 | https://9takes.com/community/introducing-9takes-original | 2024-03-28 | >=180 days | check canonical, sitemap, indexation |
-| 27 | https://9takes.com/community/where-to-go-for-questions | 2024-04-05 | >=180 days | check canonical, sitemap, indexation |
-| 28 | https://9takes.com/how-to-guides/finding-the-right-words | 2024-04-24 | >=180 days | check canonical, sitemap, indexation |
-| 29 | https://9takes.com/enneagram-corner/name-the-emotion | 2024-05-02 | >=180 days | check canonical, sitemap, indexation |
-| 30 | https://9takes.com/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarden | 2024-06-11 | >=180 days | check canonical, sitemap, indexation |
-| 31 | https://9takes.com/personality-analysis/Tyler-The-Creator | 2025-01-07 | >=180 days | check canonical, sitemap, indexation |
-| 32 | https://9takes.com/personality-analysis/Krystal-Ball | 2025-01-20 | >=180 days | check canonical, sitemap, indexation |
-| 33 | https://9takes.com/personality-analysis/Saagar-Enjeti | 2025-01-20 | >=180 days | check canonical, sitemap, indexation |
-| 34 | https://9takes.com/enneagram-corner/high-achievers-playbook-mastering-self-awareness | 2025-03-27 | >=180 days | check canonical, sitemap, indexation |
-| 35 | https://9takes.com/guides/how-to-psychoanalyze-a-person | 2025-03-27 | >=180 days | check canonical, sitemap, indexation |
-| 36 | https://9takes.com/enneagram-corner/enneagram-personality-test | 2025-05-22 | >=180 days | check canonical, sitemap, indexation |
-| 37 | https://9takes.com/community/manifesto | 2025-06-05 | >=180 days | check canonical, sitemap, indexation |
+
+| #   | URL                                                                                          | Lastmod    | Freshness  | Note                                 |
+| --- | -------------------------------------------------------------------------------------------- | ---------- | ---------- | ------------------------------------ |
+| 1   | https://9takes.com/personality-analysis/Chamath-Palihapitiya                                 | 2026-01-21 | <90 days   | check canonical, sitemap, indexation |
+| 2   | https://9takes.com/personality-analysis/Chris-Williamson                                     | 2026-02-10 | <90 days   | check canonical, sitemap, indexation |
+| 3   | https://9takes.com/community/mind-change-series-roadmap                                      | 2026-02-17 | <90 days   | check canonical, sitemap, indexation |
+| 4   | https://9takes.com/community/the-9takes-bridge-protocol                                      | 2026-02-17 | <90 days   | check canonical, sitemap, indexation |
+| 5   | https://9takes.com/personality-analysis/JD-Vance                                             | 2026-02-17 | <90 days   | check canonical, sitemap, indexation |
+| 6   | https://9takes.com/personality-analysis/Keke-Palmer                                          | 2026-02-17 | <90 days   | check canonical, sitemap, indexation |
+| 7   | https://9takes.com/personality-analysis/Sam-Parr                                             | 2026-02-17 | <90 days   | check canonical, sitemap, indexation |
+| 8   | https://9takes.com/personality-analysis/Shaan-Puri                                           | 2026-02-17 | <90 days   | check canonical, sitemap, indexation |
+| 9   | https://9takes.com/personality-analysis/Charli-xcx                                           | 2026-02-18 | <90 days   | check canonical, sitemap, indexation |
+| 10  | https://9takes.com/personality-analysis/Satya-Nadella                                        | 2026-02-18 | <90 days   | check canonical, sitemap, indexation |
+| 11  | https://9takes.com/personality-analysis/Tara-Yummy                                           | 2026-02-18 | <90 days   | check canonical, sitemap, indexation |
+| 12  | https://9takes.com/personality-analysis/Zohran-Mamdani                                       | 2026-02-18 | <90 days   | check canonical, sitemap, indexation |
+| 13  | https://9takes.com/community/first-principles                                                | 2023-02-10 | >=180 days | check canonical, sitemap, indexation |
+| 14  | https://9takes.com/enneagram-corner/hijacking                                                | 2023-03-26 | >=180 days | check canonical, sitemap, indexation |
+| 15  | https://9takes.com/enneagram-corner/how-to-communicate                                       | 2023-03-26 | >=180 days | check canonical, sitemap, indexation |
+| 16  | https://9takes.com/enneagram-corner/psychology                                               | 2023-03-26 | >=180 days | check canonical, sitemap, indexation |
+| 17  | https://9takes.com/community/Dalio-Principles                                                | 2023-04-23 | >=180 days | check canonical, sitemap, indexation |
+| 18  | https://9takes.com/community/three-sided-die                                                 | 2023-04-23 | >=180 days | check canonical, sitemap, indexation |
+| 19  | https://9takes.com/community/2d-or-3d-world                                                  | 2023-05-13 | >=180 days | check canonical, sitemap, indexation |
+| 20  | https://9takes.com/community/Aristotle-and-Plato                                             | 2023-06-17 | >=180 days | check canonical, sitemap, indexation |
+| 21  | https://9takes.com/community/personality-is-the-catch-all                                    | 2023-08-06 | >=180 days | check canonical, sitemap, indexation |
+| 22  | https://9takes.com/community/hidden-truths                                                   | 2023-08-27 | >=180 days | check canonical, sitemap, indexation |
+| 23  | https://9takes.com/enneagram-corner/how-to-crowdsource-solutions-to-conflict                 | 2023-08-27 | >=180 days | check canonical, sitemap, indexation |
+| 24  | https://9takes.com/how-to-guides/how-to-get-along-with-your-relatives                        | 2023-12-16 | >=180 days | check canonical, sitemap, indexation |
+| 25  | https://9takes.com/how-to-guides/guide-to-active-listening                                   | 2024-03-09 | >=180 days | check canonical, sitemap, indexation |
+| 26  | https://9takes.com/community/introducing-9takes-original                                     | 2024-03-28 | >=180 days | check canonical, sitemap, indexation |
+| 27  | https://9takes.com/community/where-to-go-for-questions                                       | 2024-04-05 | >=180 days | check canonical, sitemap, indexation |
+| 28  | https://9takes.com/how-to-guides/finding-the-right-words                                     | 2024-04-24 | >=180 days | check canonical, sitemap, indexation |
+| 29  | https://9takes.com/enneagram-corner/name-the-emotion                                         | 2024-05-02 | >=180 days | check canonical, sitemap, indexation |
+| 30  | https://9takes.com/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarden | 2024-06-11 | >=180 days | check canonical, sitemap, indexation |
+| 31  | https://9takes.com/personality-analysis/Tyler-The-Creator                                    | 2025-01-07 | >=180 days | check canonical, sitemap, indexation |
+| 32  | https://9takes.com/personality-analysis/Krystal-Ball                                         | 2025-01-20 | >=180 days | check canonical, sitemap, indexation |
+| 33  | https://9takes.com/personality-analysis/Saagar-Enjeti                                        | 2025-01-20 | >=180 days | check canonical, sitemap, indexation |
+| 34  | https://9takes.com/enneagram-corner/high-achievers-playbook-mastering-self-awareness         | 2025-03-27 | >=180 days | check canonical, sitemap, indexation |
+| 35  | https://9takes.com/guides/how-to-psychoanalyze-a-person                                      | 2025-03-27 | >=180 days | check canonical, sitemap, indexation |
+| 36  | https://9takes.com/enneagram-corner/enneagram-personality-test                               | 2025-05-22 | >=180 days | check canonical, sitemap, indexation |
+| 37  | https://9takes.com/community/manifesto                                                       | 2025-06-05 | >=180 days | check canonical, sitemap, indexation |
 
 ## Prioritized action plan (next 10)
 

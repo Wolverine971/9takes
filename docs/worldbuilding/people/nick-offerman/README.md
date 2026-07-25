@@ -4,11 +4,11 @@
 
 The first person-level worldbuilding run for 9takes. Where `docs/worldbuilding/enneagram-1/` maps a type's worldview, this folder maps one subject's world: Nick Offerman, Enneagram Type 9 (9w1), subject of the 9takes personality-analysis blog. It applies the same 7-element workflow (`docs/worldbuilding/WORLDBUILDING_TEMPLATE.md`) to a real, sourced biography instead of a type doctrine - which means every lore beat, quote, and claim in this folder carries an outlet and a year.
 
-| File                                                                       | What it is                                                                                     |
-| -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| [NICK_OFFERMAN_WORLDBUILDING_MAP.md](NICK_OFFERMAN_WORLDBUILDING_MAP.md)   | The full 7-element worldbuilding map: concepts, redefinitions, weaknesses, cast, lore, enemy   |
-| [NICK_OFFERMAN_RESEARCH_NOTES.md](NICK_OFFERMAN_RESEARCH_NOTES.md)         | Consolidated sourced research: verified-quote table, biography timeline, testimony bank        |
-| (future) `NICK_OFFERMAN_WORLDVIEW_BIBLE.md`                                 | Inside-the-subject writing source, if the run deepens                                          |
+| File                                                                     | What it is                                                                                   |
+| ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- |
+| [NICK_OFFERMAN_WORLDBUILDING_MAP.md](NICK_OFFERMAN_WORLDBUILDING_MAP.md) | The full 7-element worldbuilding map: concepts, redefinitions, weaknesses, cast, lore, enemy |
+| [NICK_OFFERMAN_RESEARCH_NOTES.md](NICK_OFFERMAN_RESEARCH_NOTES.md)       | Consolidated sourced research: verified-quote table, biography timeline, testimony bank      |
+| (future) `NICK_OFFERMAN_WORLDVIEW_BIBLE.md`                              | Inside-the-subject writing source, if the run deepens                                        |
 
 ## What this folder feeds
 

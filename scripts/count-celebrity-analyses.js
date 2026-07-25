@@ -7,10 +7,8 @@ import dotenv from 'dotenv';
 // Load environment variables
 dotenv.config();
 
-const supabaseUrl = process.env.PUBLIC_SUPABASE_URL || 'https://nhjjzcsnmyotyhykbajc.supabase.co';
-const supabaseKey =
-	process.env.SUPABASE_SERVICE_KEY ||
-	'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5oamp6Y3NubXlvdHloeWtiYWpjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTE5MTg2MzAsImV4cCI6MjA2NzQ5NDYzMH0.BByJQqr2aWvPa3_Jwh3t3VGVV2KNIIcwKk8-EbFrix8';
+const supabaseUrl = process.env.PUBLIC_SUPABASE_URL;
+const supabaseKey = process.env.SUPABASE_SERVICE_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
 	console.error('Missing Supabase credentials in environment variables');

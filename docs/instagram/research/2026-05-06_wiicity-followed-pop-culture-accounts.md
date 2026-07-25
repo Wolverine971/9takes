@@ -15,14 +15,14 @@
 | Handle                                                        | Display name    | Followers | Following | Verified | Posts | Profile type                                |
 | ------------------------------------------------------------- | --------------- | --------: | --------: | -------- | ----: | ------------------------------------------- |
 | [rollingstone](https://www.instagram.com/rollingstone/)       | Rolling Stone   | 8,583,637 |       628 | ✓        |   16K | **Mainstream music magazine**               |
-| [hidden.ny](https://www.instagram.com/hidden.ny/)             | HIDDEN®        | 3,035,667 |     4,828 | ✓        |   15K | NY culture / streetwear archive             |
+| [hidden.ny](https://www.instagram.com/hidden.ny/)             | HIDDEN®         | 3,035,667 |     4,828 | ✓        |   15K | NY culture / streetwear archive             |
 | [spaceykacey](https://www.instagram.com/spaceykacey/)         | Kacey Musgraves | 2,800,088 |     2,127 | ✓        |   941 | **Celebrity musician** (country/pop)        |
 | [velvetcoke](https://www.instagram.com/velvetcoke/)           | velvey          | 2,027,496 |       399 | –        | 5,479 | Pop culture / fashion archive               |
 | [welcome.jpeg](https://www.instagram.com/welcome.jpeg/)       | welcome         | 1,539,448 |     1,187 | –        | 6,612 | "Digital museum" — film/art/culture         |
 | [ihategum](https://www.instagram.com/ihategum/)               | 𝑮𝑼𝑴             | 1,139,895 |     2,136 | –        | 5,735 | Pop culture / aesthetic curation            |
 | [libraries](https://www.instagram.com/libraries/)             | (no name)       |   717,327 |       840 | ✓        | 3,076 | "Internet culture" curation                 |
 | [downloaded](https://www.instagram.com/downloaded/)           | (no name)       |   646,892 |     5,150 | –        | 2,713 | **Private** — culture documentation         |
-| [tonsil](https://www.instagram.com/tonsil/)                   | tonsil®        |   491,925 |       777 | –        | 8,029 | Pop culture facts / aesthetic               |
+| [tonsil](https://www.instagram.com/tonsil/)                   | tonsil®         |   491,925 |       777 | –        | 8,029 | Pop culture facts / aesthetic               |
 | [lost.in.pieces](https://www.instagram.com/lost.in.pieces/)   | Lost In Pieces  |   437,514 |        36 | –        | 2,002 | Music lyrics / pop fan content              |
 | [hiiihorse](https://www.instagram.com/hiiihorse/)             | hihorse         |   421,807 |     1,939 | ✓        | 4,445 | Pop culture / niche internet                |
 | [driptriangle](https://www.instagram.com/driptriangle/)       | Drip Triangle ☆ |   225,087 |        99 | –        | 1,409 | "We post about everything interesting"      |

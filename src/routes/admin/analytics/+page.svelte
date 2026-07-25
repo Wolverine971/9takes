@@ -149,12 +149,7 @@
 	type SortDirection = 'asc' | 'desc';
 	type PageBreakdownWindow = '24h' | '7d' | '14d' | '30d' | '90d';
 	type AnalyticsTab =
-		| 'pageviews'
-		| 'timing'
-		| 'releases'
-		| 'overperformers'
-		| 'underperformers'
-		| 'cohorts';
+		'pageviews' | 'timing' | 'releases' | 'overperformers' | 'underperformers' | 'cohorts';
 	type ReleaseSortKey =
 		| 'title'
 		| 'published_at'
@@ -175,12 +170,7 @@
 		| 'bounce_rate'
 		| 'avg_time_on_page_ms';
 	type ReleaseBandFilter =
-		| 'all'
-		| 'above_norm'
-		| 'below_norm'
-		| 'near_norm'
-		| 'collecting'
-		| 'insufficient_history';
+		'all' | 'above_norm' | 'below_norm' | 'near_norm' | 'collecting' | 'insufficient_history';
 
 	interface PageBreakdownWindowOption {
 		key: PageBreakdownWindow;
@@ -454,10 +444,10 @@
 	const initialTrending = initialPageData.trending;
 	const hasInitialPageviewData = Boolean(
 		(initialOverview?.total_visits ?? 0) > 0 ||
-			(initialTimeseries?.length ?? 0) > 0 ||
-			(initialRows?.length ?? 0) > 0 ||
-			(initialTopPages?.topPagesOverTime?.length ?? 0) > 0 ||
-			(initialTrending?.rows?.length ?? 0) > 0
+		(initialTimeseries?.length ?? 0) > 0 ||
+		(initialRows?.length ?? 0) > 0 ||
+		(initialTopPages?.topPagesOverTime?.length ?? 0) > 0 ||
+		(initialTrending?.rows?.length ?? 0) > 0
 	);
 	let activeTab = $state<AnalyticsTab>('pageviews');
 	let pageviewsLoaded = $state(hasInitialPageviewData);

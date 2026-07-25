@@ -352,13 +352,12 @@
 					<strong>Domain buckets:</strong> Each profile carries one or more profession tags, grouped
 					into the same readable categories surfaced at
 					<a href="/personality-analysis/categories">/personality-analysis/categories</a>. Domains
-					with fewer than {stats.min_domain_size} profiled figures are omitted to avoid small-sample
-					noise.
+					with fewer than {stats.min_domain_size} profiled figures are omitted to avoid small-sample noise.
 				</li>
 				<li>
-					<strong>Over/under-representation:</strong> Each domain's type share minus the corpus-wide
-					baseline share, expressed in percentage points. Positive values mean a type is over-represented
-					on 9takes relative to the rest of 9takes — not relative to the general population.
+					<strong>Over/under-representation:</strong> Each domain's type share minus the corpus-wide baseline
+					share, expressed in percentage points. Positive values mean a type is over-represented on 9takes
+					relative to the rest of 9takes — not relative to the general population.
 				</li>
 				<li>
 					<strong>Multi-domain figures:</strong> A person tagged as both a musician and an activist is

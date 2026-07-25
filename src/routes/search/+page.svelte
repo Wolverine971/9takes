@@ -1,6 +1,7 @@
 <!-- src/routes/search/+page.svelte -->
 <script lang="ts">
 	import SEOHead from '$lib/components/SEOHead.svelte';
+	import { renderSearchHighlight } from '$lib/utils/searchHighlight';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -146,13 +147,7 @@
 		return 'badge-library';
 	}
 
-	function renderHighlight(html: string): string {
-		let safe = html
-			.replace(/<mark>/gi, '\x00MARK_OPEN\x00')
-			.replace(/<\/mark>/gi, '\x00MARK_CLOSE\x00');
-		safe = safe.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-		return safe.replace(/\x00MARK_OPEN\x00/g, '<mark>').replace(/\x00MARK_CLOSE\x00/g, '</mark>');
-	}
+	const renderHighlight = renderSearchHighlight;
 
 	function resultKey(result: PageData['results'][number]): string {
 		return `${result.source}:${result.id}:${result.url}`;

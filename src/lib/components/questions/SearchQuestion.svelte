@@ -1,6 +1,7 @@
 <!-- src/lib/components/questions/SearchQuestion.svelte -->
 <script lang="ts">
 	import { Button } from '$lib/components/atoms';
+	import { renderSearchHighlight } from '$lib/utils/searchHighlight';
 	import { goto } from '$app/navigation';
 	import ComboBox from '$lib/components/molecules/ComboBox.svelte';
 	import Context from '$lib/components/molecules/Context.svelte';
@@ -247,7 +248,9 @@
 						<!-- Single wrapper keeps the highlighted HTML as one flex item;
 						     without it the <mark> splits the text into scattered columns. -->
 						<span class="result-option">
-							<span class="result-question">{@html option.displayText || option.text}</span>
+							<span class="result-question"
+								>{@html renderSearchHighlight(option.displayText || option.text)}</span
+							>
 							{#if option.isCategory}
 								<span class="result-meta result-meta--category">BROWSE CATEGORY →</span>
 							{:else}

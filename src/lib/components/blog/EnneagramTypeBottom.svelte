@@ -84,8 +84,8 @@
 	<h2>Go Deeper on Type 1</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-1">Type 1: Inside the Inner Courtroom</a> — the full
-			deep dive on where the inner critic comes from and how to disarm it
+			<a href="/enneagram-corner/enneagram-type-1">Type 1: Inside the Inner Courtroom</a> — the full deep
+			dive on where the inner critic comes from and how to disarm it
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-positive-self-talk"
@@ -271,8 +271,8 @@
 			leadership shape and where it breaks
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a> — what 3 →
-			9 disintegration actually feels like
+			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a> — what 3 → 9
+			disintegration actually feels like
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-self-development">Enneagram Self-Development</a> — practical
@@ -705,8 +705,8 @@
 	<h2>Go Deeper on Type 8</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-8">Type 8: Why You Push Everyone Away</a> — the full
-			deep dive on control, vulnerability, and the cost of constant strength
+			<a href="/enneagram-corner/enneagram-type-8">Type 8: Why You Push Everyone Away</a> — the full deep
+			dive on control, vulnerability, and the cost of constant strength
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-leadership">Enneagram Leadership by Type</a> — Type 8's natural
@@ -810,8 +810,8 @@
 			to be heard when you'd rather merge
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a> — what 9 →
-			6 disintegration actually feels like
+			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a> — what 9 → 6
+			disintegration actually feels like
 		</li>
 	</ul>
 {/if}

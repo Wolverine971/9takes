@@ -97,8 +97,7 @@
 		{placeholder}
 		wrap="off"
 		spellcheck="false"
-		class="editor-textarea"
-	></textarea>
+		class="editor-textarea"></textarea>
 </div>
 
 <style lang="scss">

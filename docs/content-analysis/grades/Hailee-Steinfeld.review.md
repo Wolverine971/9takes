@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/grades/Hailee-Steinfeld.review.md -->
+
 # Grade feedback: Hailee Steinfeld
 
 Grade: C (7.0), rubric v2 — supervised regrade (first_overall 8.6 → regrade_overall 7.0, delta 1.6)

@@ -29,9 +29,9 @@ Traffic analysis details live in `rabbit-hole-retrofit-traffic-analysis.md`. Thi
 | Page               | Status                                   | Notes                                                                                                                                                                   |
 | ------------------ | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Elon-Musk**      | ✅ **Live in DB** (confirmed 2026-04-17) | Local draft outdated; do not edit the draft. Primary CTR-measurement target — 22,870 impressions in past 3 months. Baseline GSC snapshot required for 2-week follow-up. |
-| Taylor-Swift       | ⚠ Unverified                            | Draft has rabbit hole; unclear if DB matches. Low traffic in GSC data. Not a measurement target.                                                                        |
-| Anna-Kendrick      | ⚠ Unverified                            | Same — verify DB state; low traffic.                                                                                                                                    |
-| Jeremy-Allen-White | ⚠ Draft only                            | v2-cron auto-generated, not published per pickup brief.                                                                                                                 |
+| Taylor-Swift       | ⚠ Unverified                             | Draft has rabbit hole; unclear if DB matches. Low traffic in GSC data. Not a measurement target.                                                                        |
+| Anna-Kendrick      | ⚠ Unverified                             | Same — verify DB state; low traffic.                                                                                                                                    |
+| Jeremy-Allen-White | ⚠ Draft only                             | v2-cron auto-generated, not published per pickup brief.                                                                                                                 |
 
 ### 1.2 Phase 2 — Class A quick wins (raw material exists AND has traffic) — local drafts done
 
@@ -58,8 +58,8 @@ These need rabbit holes authored from behavioral evidence in the existing body, 
 | 2   | Dua-Lipa          | 0/4  | 21          | 4,190    | Steady                                                                   |
 | 3   | Sydney-Sweeney    | 1/4  | 18 (merged) | 4,805    | Soft decel                                                               |
 | 4   | Jennifer-Lopez    | 1/4  | 16 (merged) | 3,557    | Decel                                                                    |
-| 5   | Ryan-Gosling      | 0/4  | 23          | 3,139    | **Accelerating** ⬆                                                      |
-| 6   | Druski            | 0/4  | 14          | 2,815    | **Accelerating** ⬆                                                      |
+| 5   | Ryan-Gosling      | 0/4  | 23          | 3,139    | **Accelerating** ⬆                                                       |
+| 6   | Druski            | 0/4  | 14          | 2,815    | **Accelerating** ⬆                                                       |
 | 7   | Timothee-Chalamet | 2/4  | 25          | 2,379    | ✅ Local draft retrofit added 2026-04-17; parser sync reported DB update |
 | 8   | Gwyneth-Paltrow   | 1/4  | 20          | 3,965    | **Decelerating** — lowest Class B priority                               |
 
@@ -148,10 +148,10 @@ Ranked by richness (weighted total of explicit wing codes + counter-typing menti
 | `Napoleon-Bonaparte.md`       | Y.YY    | ✅ Local draft retrofit added 2026-04-17; parser reported DB `published=true` |
 | `Pedro-Pascal.md`             | Y.YY    | ✅ Local draft retrofit added 2026-04-17; parser sync reported DB update      |
 | `Saagar-Enjeti.md`            | Y.YY    | ✅ Local draft retrofit added 2026-04-17; parser reported DB `published=true` |
-| `Sam-Altman-research.md`      | .YYY    | ⚠ `-research` fragment — check if `Sam-Altman.md` is the real draft          |
+| `Sam-Altman-research.md`      | .YYY    | ⚠ `-research` fragment — check if `Sam-Altman.md` is the real draft           |
 | `Sam-Altman.md`               | .YYY    | ✅ Local draft retrofit added 2026-04-17; parser sync reported DB update      |
 | `JD-Vance.md`                 | Y.YY    | ✅ Local draft retrofit added 2026-04-17; parser reported DB `published=true` |
-| `Clavicular.md`               | YYY.    | ⚠ unusual filename — verify what this is                                     |
+| `Clavicular.md`               | YYY.    | ⚠ unusual filename — verify what this is                                      |
 | `Bella-Hadid.md`              | Y.YY    | ✅ Local draft retrofit added 2026-04-17; parser reported DB `published=true` |
 | `Marilyn-Monroe.md`           | .YYY    | ✅ Local draft retrofit added 2026-04-17; parser sync reported DB update      |
 | `Cillian-Murphy.md`           | .YYY    | ✅ Local draft retrofit added 2026-04-17; parser reported DB `published=true` |
@@ -166,38 +166,38 @@ Ranked by richness (weighted total of explicit wing codes + counter-typing menti
 
 82 pages total. Top 30 by richness:
 
-| Page                             | Signals |
+| Page | Signals |
 | -------------------------------- | ------- | ---------------------------------------- |
-| `Greta-Thunberg.md`              | Y..Y    |
-| `Gary-Vee.md`                    | Y..Y    |
-| `Justin-Trudeau.md`              | YY..    |
-| `Tim-Dillon.md`                  | Y..Y    |
-| `Kylie-Jenner.md`                | Y.Y.    |
-| `Doja-Cat.md`                    | Y..Y    |
-| `Madison-Beer.md`                | Y..Y    |
-| `Tara-Yummy.md`                  | YY..    | ✅ Local draft retrofit added 2026-04-17 |
-| `Hasan-Piker.md`                 | YY..    |
-| `Napoleon-Bonaparte-research.md` | Y..Y    | ⚠ fragment                              |
-| `Jeff-Bezos.md`                  | Y..Y    |
-| `Jennifer-Garner.md`             | Y.Y.    |
-| `Dolly-Parton.md`                | Y..Y    |
-| `Hozier.md`                      | Y..Y    |
-| `Joe-Biden.md`                   | Y..Y    |
-| `Brittany-Broski.md`             | Y..Y    |
-| `Jacob-Elordi.md`                | Y..Y    |
-| `Kai-Cenat.md`                   | Y.Y.    |
-| `Rihanna.md`                     | Y.Y.    |
-| `Alexis-Bledel.md`               | Y..Y    |
-| `Satya-Nadella.md`               | ..YY    |
-| `Stephen-King.md`                | Y..Y    |
-| `Steven-Bartlett.md`             | Y..Y    |
-| `Will-Smith.md`                  | YY..    |
-| `Conor-McGregor.md`              | Y..Y    |
-| `Dax-Shepard.md`                 | Y..Y    |
-| `Kamala-Harris.md`               | Y..Y    |
-| `Rachel-Brosnahan.md`            | .YY.    |
-| `Keke-Palmer.md`                 | ..YY    |
-| `Kyle-Forgeard.md`               | Y..Y    |
+| `Greta-Thunberg.md` | Y..Y |
+| `Gary-Vee.md` | Y..Y |
+| `Justin-Trudeau.md` | YY.. |
+| `Tim-Dillon.md` | Y..Y |
+| `Kylie-Jenner.md` | Y.Y. |
+| `Doja-Cat.md` | Y..Y |
+| `Madison-Beer.md` | Y..Y |
+| `Tara-Yummy.md` | YY.. | ✅ Local draft retrofit added 2026-04-17 |
+| `Hasan-Piker.md` | YY.. |
+| `Napoleon-Bonaparte-research.md` | Y..Y | ⚠ fragment |
+| `Jeff-Bezos.md` | Y..Y |
+| `Jennifer-Garner.md` | Y.Y. |
+| `Dolly-Parton.md` | Y..Y |
+| `Hozier.md` | Y..Y |
+| `Joe-Biden.md` | Y..Y |
+| `Brittany-Broski.md` | Y..Y |
+| `Jacob-Elordi.md` | Y..Y |
+| `Kai-Cenat.md` | Y.Y. |
+| `Rihanna.md` | Y.Y. |
+| `Alexis-Bledel.md` | Y..Y |
+| `Satya-Nadella.md` | ..YY |
+| `Stephen-King.md` | Y..Y |
+| `Steven-Bartlett.md` | Y..Y |
+| `Will-Smith.md` | YY.. |
+| `Conor-McGregor.md` | Y..Y |
+| `Dax-Shepard.md` | Y..Y |
+| `Kamala-Harris.md` | Y..Y |
+| `Rachel-Brosnahan.md` | .YY. |
+| `Keke-Palmer.md` | ..YY |
+| `Kyle-Forgeard.md` | Y..Y |
 
 (Remaining 52 Tier-2 pages available on request — the curve drops sharply after this.)
 

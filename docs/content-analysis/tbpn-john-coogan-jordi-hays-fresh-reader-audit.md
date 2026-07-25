@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/tbpn-john-coogan-jordi-hays-fresh-reader-audit.md -->
+
 # Fresh-reader audit: John Coogan and Jordi Hays at TBPN
 
 Reviewed: `src/blog/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md`

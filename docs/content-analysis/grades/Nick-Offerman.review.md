@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/grades/Nick-Offerman.review.md -->
+
 # Grade feedback: Nick Offerman
 
 Grade: C (7.5), rubric v2 — supervised REGRADE (prior: 8.9, delta 1.4)

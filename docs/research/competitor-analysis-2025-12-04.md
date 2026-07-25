@@ -341,7 +341,7 @@ For each new post, ensure 9takes content has:
 | Depth         | Behaviors only      | Behaviors + WHY (psychology)    |
 | Root cause    | Not addressed       | Childhood wound → adult pattern |
 | Solutions     | Generic advice      | Type-specific scripts           |
-| Spectrum      | Binary (good/bad)   | Healthy ↔ unhealthy range      |
+| Spectrum      | Binary (good/bad)   | Healthy ↔ unhealthy range       |
 | Mental health | Rarely connected    | Always connected                |
 | Practical     | "Be aware"          | "Here's what to say"            |
 

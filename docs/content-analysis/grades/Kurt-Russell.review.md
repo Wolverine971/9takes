@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/grades/Kurt-Russell.review.md -->
+
 # Grade feedback: Kurt Russell
 
 Grade: C (7.3), rubric v2 — supervised regrade of prior 8.8 (first_overall 8.8 → regrade 7.3, delta 1.5)

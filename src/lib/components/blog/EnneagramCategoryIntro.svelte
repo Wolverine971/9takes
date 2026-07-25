@@ -1,6 +1,7 @@
 <!-- src/lib/components/blog/EnneagramCategoryIntro.svelte -->
 <script lang="ts">
 	import FAQSection from './FAQSection.svelte';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import type { FAQItem } from '$lib/types/faq';
 
 	interface Props {
@@ -456,7 +457,7 @@
 	]);
 
 	const jsonld = $derived(
-		JSON.stringify({ '@context': 'https://schema.org', '@graph': jsonldGraph })
+		serializeJsonLd({ '@context': 'https://schema.org', '@graph': jsonldGraph })
 	);
 
 	function formatBlogSlug(title: string) {

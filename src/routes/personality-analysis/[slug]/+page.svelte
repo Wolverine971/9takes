@@ -271,8 +271,7 @@
 	let BlogComments: typeof import('$lib/components/blog/BlogComments.svelte').default | undefined;
 	let BlogInteract: typeof import('$lib/components/blog/BlogInteract.svelte').default | undefined;
 	let SuggestFamousPerson:
-		| typeof import('$lib/components/molecules/SuggestFamousPerson.svelte').default
-		| undefined;
+		typeof import('$lib/components/molecules/SuggestFamousPerson.svelte').default | undefined;
 
 	// Set up lazy loading for components
 	onMount(() => {

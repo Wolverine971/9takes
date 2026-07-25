@@ -11,17 +11,17 @@
 
 Chrome: `iklipse` top-left, `Real Test of AI Realism: Hands` top-right, `iklipseworld.com` bottom-left.
 
-| #   | Role           | Copy                                                                                                                                                                                                  |
+| # | Role | Copy |
 | --- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1   | Hook           | **It's 2026, and still, your AI HANDS LOOK FAKE**                                                                                                                                                     |
-| 2   | Symptom list   | **The hand problem.** Most AI gets the surface right… but the structure wrong. _Extra fingers · Missing knuckles · Impossible finger bends · Fused joints · Melted palms._                            |
-| 3   | Mechanism      | **Why hands break the illusion.** _No bone structure · No tendon tension · No weight or grip._ **Just soft shapes pretending to be hands. Your brain notices immediately.**                           |
-| 4   | Reframe        | **Real hands are complex. Bones, tendons, skin, nails.** They bend. They press. They wrinkle. **Perfection looks fake.**                                                                              |
-| 5   | Reframe 2      | **It's not just the texture. It's the structure.** Knuckles pushing. Fingers bending. Skin folding with tension.                                                                                      |
-| 6   | Payoff         | **Why this changes everything.** _No hand models · No reshoots · No retouching marathon._ **Just control and restraint. Realism on demand.**                                                          |
-| 7   | Toolkit        | **The toolkit (most people miss):** Nano Banana + Good prompting \*\*                                                                                                                                 | ** Enhancor AI (detail enhancement). **There are no other tools.\*\* |
-| 8   | Word-bank swap | **Stop saying:** ✗ "Perfect hands" / "Smooth skin." **Start saying:** ✓ "Natural finger proportions" / "Visible knuckles" / "Finger tension" / "Uneven nail texture." **Less polish = more realism.** |
-| 9   | CTA            | **Stop the smoothing.** Comment **"HANDS"** if you want a post on how to create realistic hand visuals.                                                                                               |
+| 1 | Hook | **It's 2026, and still, your AI HANDS LOOK FAKE** |
+| 2 | Symptom list | **The hand problem.** Most AI gets the surface right… but the structure wrong. _Extra fingers · Missing knuckles · Impossible finger bends · Fused joints · Melted palms._ |
+| 3 | Mechanism | **Why hands break the illusion.** _No bone structure · No tendon tension · No weight or grip._ **Just soft shapes pretending to be hands. Your brain notices immediately.** |
+| 4 | Reframe | **Real hands are complex. Bones, tendons, skin, nails.** They bend. They press. They wrinkle. **Perfection looks fake.** |
+| 5 | Reframe 2 | **It's not just the texture. It's the structure.** Knuckles pushing. Fingers bending. Skin folding with tension. |
+| 6 | Payoff | **Why this changes everything.** _No hand models · No reshoots · No retouching marathon._ **Just control and restraint. Realism on demand.** |
+| 7 | Toolkit | **The toolkit (most people miss):** Nano Banana + Good prompting \*\* | ** Enhancor AI (detail enhancement). **There are no other tools.\*\* |
+| 8 | Word-bank swap | **Stop saying:** ✗ "Perfect hands" / "Smooth skin." **Start saying:** ✓ "Natural finger proportions" / "Visible knuckles" / "Finger tension" / "Uneven nail texture." **Less polish = more realism.** |
+| 9 | CTA | **Stop the smoothing.** Comment **"HANDS"** if you want a post on how to create realistic hand visuals. |
 
 **Caption:** "Hands are still the ultimate AI giveaway. You can fake the mood and the skin texture, but you can't fake physics. Real hands have structure; bones that move and skin that bunches up when you clench a fist. Most AI gets the 'look' right but the anatomy completely wrong. The secret isn't more detail, but to actually prompt engineer it like an expert. Want to see how to fix the 'uncanny valley' fingers? Comment 'HANDS.'…"
 

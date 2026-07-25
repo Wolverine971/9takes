@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/blog-pipeline-research-handoff-2026-07-04.md -->
+
 # Blog Pipeline Research Handoff - 2026-07-04
 
 This is a research and audit brief for improving the 9takes personality-analysis blog pipeline. The goal is not "make the pipeline pass more rules." The goal is to make the pipeline reliably produce one-of-one, deeply sourced, on-brand personality profiles that do not read like AI-assisted house-template content.

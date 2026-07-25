@@ -78,7 +78,7 @@ Don't over-rotate on month-over-month noise for small-numerator pages (anything 
 | Rank | Person            | Clicks 3mo | Impr 3mo   | CTR        | 1mo share           | Signal tier | Has RH     |
 | ---- | ----------------- | ---------- | ---------- | ---------- | ------------------- | ----------- | ---------- |
 | 1    | Timothee-Chalamet | 25         | 2,379      | 1.05%      | ~8% (decel)         | 2/4         | .          |
-| 2    | Ryan-Gosling      | 23         | 3,139      | 0.73%      | ~78% ⬆             | 0/4         | .          |
+| 2    | Ryan-Gosling      | 23         | 3,139      | 0.73%      | ~78% ⬆              | 0/4         | .          |
 | 3    | Dua-Lipa          | 21         | 4,190      | 0.50%      | ~24%                | 0/4         | .          |
 | 4    | Elon-Musk         | 20         | **22,870** | **0.087%** | —                   | —           | ✅ (draft) |
 | 5    | Gwyneth-Paltrow   | 20         | 3,965      | 0.50%      | ~0% (decel)         | 1/4         | .          |
@@ -87,10 +87,10 @@ Don't over-rotate on month-over-month noise for small-numerator pages (anything 
 | 8    | Tom-Hiddleston    | 16+5 = 21  | 4,793      | 0.44%      | ~24%                | 0/4         | .          |
 | 9    | Sydney-Sweeney    | 16+2 = 18  | 4,805      | 0.37%      | ~11%                | 1/4         | .          |
 | 10   | Jordi-Hays        | 16         | 552        | 2.90%      | **100% 🔥**         | 1/4         | .          |
-| 11   | Jackie-Kennedy    | 15         | 1,630      | 0.92%      | ~40% ⬆             | 1/4         | .          |
+| 11   | Jackie-Kennedy    | 15         | 1,630      | 0.92%      | ~40% ⬆              | 1/4         | .          |
 | 12   | Jennifer-Lopez    | 14+2 = 16  | 3,557      | 0.45%      | ~13%                | 1/4         | .          |
-| 13   | Druski            | 14         | 2,815      | 0.50%      | ~57% ⬆             | 0/4         | .          |
-| 14   | Jack-Black        | 14         | 1,886      | 0.74%      | ~64% ⬆             | 2/4         | .          |
+| 13   | Druski            | 14         | 2,815      | 0.50%      | ~57% ⬆              | 0/4         | .          |
+| 14   | Jack-Black        | 14         | 1,886      | 0.74%      | ~64% ⬆              | 2/4         | .          |
 | 15   | Hasan-Piker       | 4+3 = 7    | 1,281      | 0.55%      | (1mo only surfaced) | 2/4         | .          |
 
 Notable sub-top-15 names that appear in 1-month data but were below 3-month radar — likely recently-published or spiking:
@@ -141,14 +141,14 @@ Cleanest retrofits. Extract the existing jargon into the rabbit hole, apply the 
 | ------------------ | ---- | ---------- | -------- | --------- | ------------------------------------------------------------------------------------ |
 | **IShowSpeed**     | 3/4  | 20         | 8,398    | ~15%      | Biggest Class A opportunity. 4 wing codes, counter-typing, arrows in existing draft. |
 | **Madison-Beer**   | 2/4  | 18         | 3,823    | ~22%      | 6 wing codes — heavy raw material.                                                   |
-| **Jack-Black**     | 2/4  | 14         | 1,886    | ~64% ⬆   | Rising.                                                                              |
+| **Jack-Black**     | 2/4  | 14         | 1,886    | ~64% ⬆    | Rising.                                                                              |
 | **Hasan-Piker**    | 2/4  | 7          | 1,281    | 100%      | 12 wing mentions — heavy raw material; traffic growing.                              |
 | **Caleb-Hearon**   | 4/4  | 3          | 102      | 100%      | Tier 4 pilot from original candidates list.                                          |
 | **Dario-Amodei**   | 4/4  | 4          | 595      | 100%      | Tier 4 pilot. Rising.                                                                |
 | **Henry-Cavill**   | 3/4  | 1          | 447      | —         | Heavy raw material (5 wing codes), modest traffic.                                   |
 | **Sam-Altman**     | 3/4  | 3          | 881      | 100%      | Counter-typing rich; traffic growing.                                                |
 | **xQc**            | 3/4  | 1          | 370      | —         | Rich across all four signals.                                                        |
-| **Jackie-Kennedy** | 1/4  | 15         | 1,630    | ~40% ⬆   | Only 1 signal in draft but decent traffic — marginal Class A.                        |
+| **Jackie-Kennedy** | 1/4  | 15         | 1,630    | ~40% ⬆    | Only 1 signal in draft but decent traffic — marginal Class A.                        |
 | **Pete-Davidson**  | 4/4  | —          | —        | —         | Tier 4 but no GSC signal. Retrofit value is for future traffic.                      |
 | **Johnny-Depp**    | 4/4  | 2          | 54       | 100%      | Tier 4.                                                                              |
 
@@ -163,8 +163,8 @@ These pages will need the rabbit hole built from observed behavior in the existi
 | **Sydney-Sweeney**    | 1/4  | 18         | 4,805    | ~11%      | Near-scratch.                                                      |
 | **Gwyneth-Paltrow**   | 1/4  | 20         | 3,965    | ~0%       | Decelerating — lower priority within Class B.                      |
 | **Jennifer-Lopez**    | 1/4  | 16         | 3,557    | ~13%      | Scratch.                                                           |
-| **Ryan-Gosling**      | 0/4  | 23         | 3,139    | ~78% ⬆   | Full scratch. Accelerating.                                        |
-| **Druski**            | 0/4  | 14         | 2,815    | ~57% ⬆   | Full scratch. Accelerating.                                        |
+| **Ryan-Gosling**      | 0/4  | 23         | 3,139    | ~78% ⬆    | Full scratch. Accelerating.                                        |
+| **Druski**            | 0/4  | 14         | 2,815    | ~57% ⬆    | Full scratch. Accelerating.                                        |
 | **Timothee-Chalamet** | 2/4  | 25         | 2,379    | ~8%       | Highest-traffic personality page; decelerating; some raw material. |
 
 ### 3.3 Class C — Rising content, small current traffic

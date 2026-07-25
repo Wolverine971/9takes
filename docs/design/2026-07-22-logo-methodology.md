@@ -1,3 +1,4 @@
+<!-- docs/design/2026-07-22-logo-methodology.md -->
 # 9takes Logo Methodology
 
 **Status:** Active identity exploration  
@@ -35,16 +36,16 @@ Sources:
 
 ## Strategy capsule
 
-| Dimension | Decision |
-| --- | --- |
-| Category | Personality-based Q&A and social-intelligence platform |
-| Product action | Give your honest take → unlock the chorus → compare nine emotional readings |
-| Emotional promise | Turn “they are being difficult” into “I can see the alarm system they are using” |
-| Core metaphor | One situation opens into a chorus of perspectives |
-| Audience | People who want practical help reading conflict, relationships, and social dynamics |
-| Personality | Tactically direct, socially savvy, curious, quietly provocative |
-| Cultural position | Ancient question-first discourse made modern; warm-tech rather than mystical |
-| Visual world | Streetlamp Symposium: deep warm stone, sodium amber, disciplined negative space |
+| Dimension         | Decision                                                                            |
+| ----------------- | ----------------------------------------------------------------------------------- |
+| Category          | Personality-based Q&A and social-intelligence platform                              |
+| Product action    | Give your honest take → unlock the chorus → compare nine emotional readings         |
+| Emotional promise | Turn “they are being difficult” into “I can see the alarm system they are using”    |
+| Core metaphor     | One situation opens into a chorus of perspectives                                   |
+| Audience          | People who want practical help reading conflict, relationships, and social dynamics |
+| Personality       | Tactically direct, socially savvy, curious, quietly provocative                     |
+| Cultural position | Ancient question-first discourse made modern; warm-tech rather than mystical        |
+| Visual world      | Streetlamp Symposium: deep warm stone, sodium amber, disciplined negative space     |
 
 ### The single brand truth
 
@@ -113,14 +114,14 @@ Preview square, squircle, and circular crops. Convert the mark to a solid silhou
 
 ### 5. Scored selection
 
-| Criterion | Weight |
-| --- | ---: |
-| Brand truth / product-action fit | 25 |
-| Distinctiveness and first impression | 20 |
-| Small-size legibility | 20 |
-| Ownability / low genericity | 15 |
-| Flexibility across wordmark, app, and monochrome | 10 |
-| Fit with Streetlamp Symposium | 10 |
+| Criterion                                        | Weight |
+| ------------------------------------------------ | -----: |
+| Brand truth / product-action fit                 |     25 |
+| Distinctiveness and first impression             |     20 |
+| Small-size legibility                            |     20 |
+| Ownability / low genericity                      |     15 |
+| Flexibility across wordmark, app, and monochrome |     10 |
+| Fit with Streetlamp Symposium                    |     10 |
 
 A route must score **80/100 or higher** and pass every hard constraint.
 
@@ -152,15 +153,15 @@ Eighteen monochrome sketches were generated across the three territories, follow
 
 The selected construction was redrawn as deterministic SVG with smooth Bézier curves and one protected negative-space seam. It has no strokes, effects, masks, or raster dependencies.
 
-| Criterion | Score |
-| --- | ---: |
-| Brand truth / product-action fit | 21 / 25 |
-| Distinctiveness and first impression | 16 / 20 |
-| Small-size legibility | 19 / 20 |
-| Ownability / low genericity | 11 / 15 |
-| Flexibility across wordmark, app, and monochrome | 10 / 10 |
-| Fit with Streetlamp Symposium | 9 / 10 |
-| **Total** | **86 / 100** |
+| Criterion                                        |        Score |
+| ------------------------------------------------ | -----------: |
+| Brand truth / product-action fit                 |      21 / 25 |
+| Distinctiveness and first impression             |      16 / 20 |
+| Small-size legibility                            |      19 / 20 |
+| Ownability / low genericity                      |      11 / 15 |
+| Flexibility across wordmark, app, and monochrome |      10 / 10 |
+| Fit with Streetlamp Symposium                    |       9 / 10 |
+| **Total**                                        | **86 / 100** |
 
 The candidate passes the monochrome, 16/32/64 px, reverse-color, and square/squircle/circle mask tests. Its weaker score is ownability: `9t` is a naturally crowded monogram category. An informal web check did not surface this exact construction, but it is not a legal trademark clearance. Formal image and class-based clearance is required before registration or a high-cost identity rollout.
 

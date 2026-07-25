@@ -65,15 +65,15 @@ Small accounts in the instinctual-variant niche. Tag-themselves-with-type aesthe
 
 These dilute the algorithm's read of who DJ is. Off-topic = noise.
 
-| #   | Handle                     | Why unfollow                                       | Status | Date        |
+| # | Handle | Why unfollow | Status | Date |
 | --- | -------------------------- | -------------------------------------------------- | ------ | ----------- | ------------------- |
-| 1   | `@BrianMcGinnisNC`         | Political (US Senate candidate). Off-topic.        | ✅     | pre-session | Already unfollowed. |
-| 2   | `@saylor` (Michael Saylor) | Bitcoin maximalist. Off-topic.                     | ✅     | pre-session | Already unfollowed. |
-| 3   | `@LifeMathMoney`           | Manosphere self-improvement. Off-brand for 9takes. | ✅     | pre-session | Already unfollowed. |
-| 4   | `@xrpjack718`              | Military/sports. Off-topic.                        | ✅     | pre-session | Already unfollowed. |
-| 5   | `@Fliktastic`              | "just rambling." Random.                           | ✅     | pre-session | Already unfollowed. |
-| 6   | `@BBCWorld`                | News org. Floods feed with off-topic news.         | ✅     | pre-session | Already unfollowed. |
-| 7   | `@threadreaderapp`         | Utility. Mention when needed; don't follow.        | ✅     | pre-session | Already unfollowed. |
+| 1 | `@BrianMcGinnisNC` | Political (US Senate candidate). Off-topic. | ✅ | pre-session | Already unfollowed. |
+| 2 | `@saylor` (Michael Saylor) | Bitcoin maximalist. Off-topic. | ✅ | pre-session | Already unfollowed. |
+| 3 | `@LifeMathMoney` | Manosphere self-improvement. Off-brand for 9takes. | ✅ | pre-session | Already unfollowed. |
+| 4 | `@xrpjack718` | Military/sports. Off-topic. | ✅ | pre-session | Already unfollowed. |
+| 5 | `@Fliktastic` | "just rambling." Random. | ✅ | pre-session | Already unfollowed. |
+| 6 | `@BBCWorld` | News org. Floods feed with off-topic news. | ✅ | pre-session | Already unfollowed. |
+| 7 | `@threadreaderapp` | Utility. Mention when needed; don't follow. | ✅ | pre-session | Already unfollowed. |
 
 ### Optional reconsider (worth keeping for inspiration only)
 

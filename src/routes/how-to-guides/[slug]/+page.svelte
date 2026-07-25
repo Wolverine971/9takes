@@ -6,6 +6,7 @@
 -->
 <script lang="ts">
 	import PopCard from '$lib/components/atoms/PopCard.svelte';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	import { onMount } from 'svelte';
@@ -31,7 +32,7 @@
 	// Build HowTo schema if steps are defined in frontmatter
 	let howToSchema = $derived(
 		data?.frontmatter?.howToSteps && data.frontmatter.howToSteps.length > 0
-			? JSON.stringify(
+			? serializeJsonLd(
 					buildHowToSchema({
 						name: data.frontmatter.title,
 						description: data.frontmatter.description,

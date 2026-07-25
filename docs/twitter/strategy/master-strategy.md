@@ -141,14 +141,15 @@ Build recognition through consistent language patterns:
 ## Part 2: Content Pillars
 
 **Updated Distribution (incorporating bridge strategy + childhood wounds):**
-| Pillar | % of Posts | Purpose |
-|--------|------------|---------|
-| Shadow Content | 25% | Core engagement driver |
-| Mental Health + Personality | 20% | Traffic driver |
-| MBTI Bridge Roasts | 15% | Growth driver (brings outsiders in) |
-| **Childhood Wounds** | **15%** | **NEW** — Therapy-speak bridge (trending topic) |
-| Relationship Reality | 15% | Shareable content |
-| "One Situation, 9 Takes" | 10% | Signature differentiator |
+
+| Pillar                      | % of Posts | Purpose                                         |
+| --------------------------- | ---------- | ----------------------------------------------- |
+| Shadow Content              | 25%        | Core engagement driver                          |
+| Mental Health + Personality | 20%        | Traffic driver                                  |
+| MBTI Bridge Roasts          | 15%        | Growth driver (brings outsiders in)             |
+| **Childhood Wounds**        | **15%**    | **NEW** — Therapy-speak bridge (trending topic) |
+| Relationship Reality        | 15%        | Shareable content                               |
+| "One Situation, 9 Takes"    | 10%        | Signature differentiator                        |
 
 **Bridge Content = 70% of growth.** The existing choir will find you. Your job is to attack outsiders until they feel seen.
 
@@ -779,12 +780,13 @@ Reply with your letter.
 - [ ] Get 1 post above 50 likes
 
 **Weekly Tasks:**
-| Week | Focus | Deliverables |
-|------|-------|--------------|
-| 1 | Setup + first posts | Profile optimized, 7 posts live, baseline metrics |
-| 2 | Content testing | 7 posts covering all pillars, identify winners |
-| 3 | Double down | 10 posts emphasizing top performers, 1 thread |
-| 4 | Review + adjust | Analyze data, document learnings, plan Phase 2 |
+
+| Week | Focus               | Deliverables                                      |
+| ---- | ------------------- | ------------------------------------------------- |
+| 1    | Setup + first posts | Profile optimized, 7 posts live, baseline metrics |
+| 2    | Content testing     | 7 posts covering all pillars, identify winners    |
+| 3    | Double down         | 10 posts emphasizing top performers, 1 thread     |
+| 4    | Review + adjust     | Analyze data, document learnings, plan Phase 2    |
 
 **Key Actions Week 1:**
 
@@ -808,12 +810,13 @@ Reply with your letter.
 - [ ] Drive measurable traffic to site
 
 **Weekly Tasks:**
-| Week | Focus | Deliverables |
-|------|-------|--------------|
-| 5 | Thread mastery | 1 thread per week, repurpose blog content |
-| 6 | Collaboration | Engage with 3-5 similar-sized accounts, cross-promote |
-| 7 | Signature content | Double down on "9 takes" format |
-| 8 | Review + scale | Analyze growth, refine strategy |
+
+| Week | Focus             | Deliverables                                          |
+| ---- | ----------------- | ----------------------------------------------------- |
+| 5    | Thread mastery    | 1 thread per week, repurpose blog content             |
+| 6    | Collaboration     | Engage with 3-5 similar-sized accounts, cross-promote |
+| 7    | Signature content | Double down on "9 takes" format                       |
+| 8    | Review + scale    | Analyze growth, refine strategy                       |
 
 **Key Actions:**
 
@@ -837,12 +840,13 @@ Reply with your letter.
 - [ ] 1 viral post (1000+ engagements)
 
 **Weekly Tasks:**
-| Week | Focus | Deliverables |
-|------|-------|--------------|
-| 9 | Scale content | 10+ posts/week, batch creation |
-| 10 | Authority positioning | Threads on unique insights, cite original research |
-| 11 | Community building | Reply to everyone, create inside jokes/references |
-| 12 | Review + 2026 planning | Full analysis, set Q1 2026 goals |
+
+| Week | Focus                  | Deliverables                                       |
+| ---- | ---------------------- | -------------------------------------------------- |
+| 9    | Scale content          | 10+ posts/week, batch creation                     |
+| 10   | Authority positioning  | Threads on unique insights, cite original research |
+| 11   | Community building     | Reply to everyone, create inside jokes/references  |
+| 12   | Review + 2026 planning | Full analysis, set Q1 2026 goals                   |
 
 ---
 

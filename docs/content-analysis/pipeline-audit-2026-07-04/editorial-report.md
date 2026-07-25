@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/pipeline-audit-2026-07-04/editorial-report.md -->
+
 # Editorial-Judgment Audit — Lanes 1-4 (Steve Martin, Jeff Goldblum, Tobey Maguire, Zac Efron, Rosé, Mira Murati)
 
 Read-only audit of current editorial output quality. The 2026-07-01 grade-inflation fixes are assumed working (they are — the grader now honestly caps and names real issues). The question here is what the honest grades reveal about the ceiling.

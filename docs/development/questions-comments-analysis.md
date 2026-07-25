@@ -1106,8 +1106,7 @@ function processQuestionsAndTags(questions: QuestionWithTag[]): Record<string, Q
 ```typescript
 // Changed from: let html2canvas: any;
 let html2canvasModule:
-	| ((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>)
-	| null = null;
+	((element: HTMLElement, options?: object) => Promise<HTMLCanvasElement>) | null = null;
 ```
 
 #### 6. Fixed SearchQuestion Types

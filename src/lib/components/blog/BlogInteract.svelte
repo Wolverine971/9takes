@@ -95,8 +95,7 @@
 	<textarea
 		placeholder="What are your thoughts on {formatPersonalityDisplayName(data.slug)}?"
 		class="interact-textbox"
-		bind:value={comment}
-	></textarea>
+		bind:value={comment}></textarea>
 </div>
 
 <div class="interaction-div-display">

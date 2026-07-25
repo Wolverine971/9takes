@@ -1,4 +1,5 @@
 <!-- docs/audits/2026-07-06_user-journey-map.md -->
+
 # 9takes User Journey Map
 
 Date: 2026-07-06

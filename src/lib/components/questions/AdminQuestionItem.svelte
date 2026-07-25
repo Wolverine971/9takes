@@ -380,8 +380,7 @@
 						id="formatted-question"
 						bind:value={questionData.question_formatted}
 						class="question-detail-modal__textarea"
-						rows="6"
-					></textarea>
+						rows="6"></textarea>
 				</div>
 			</section>
 

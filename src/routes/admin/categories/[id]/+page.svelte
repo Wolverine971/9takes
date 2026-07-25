@@ -260,8 +260,7 @@
 					value={introDescription}
 					oninput={(event) =>
 						(introDescriptionDraft = (event.currentTarget as HTMLTextAreaElement).value)}
-					placeholder="Optional. Leave blank to derive from the markdown intro."
-				></textarea>
+					placeholder="Optional. Leave blank to derive from the markdown intro."></textarea>
 			</div>
 
 			<div class="markdown-shell">

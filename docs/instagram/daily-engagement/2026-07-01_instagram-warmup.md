@@ -45,7 +45,7 @@
 | --- | ---------------------- | -------------------------- | ---------------------------- | ---- | -------- | ------------- | ---------------------------- | ----- | ----- | ------------------ | -------------------- |
 | 1   | @alignedsoulco         | Enneagram-native / **9**   | "Little Miss Enneagram Nine" | 35m  | 0        | post          | Warm + fresh + Type-9 bridge | 2     | 97    | Existing (updated) | Queued               |
 | 2   | @thesecurerelationship | attachment → **3**/2/6     | "How Shame Shows Up"         | 4h   | ~0       | post          | Fresh on-theme, Anchor       | 1     | 88    | Existing (updated) | Queued               |
-| 3   | @discoatells           | ADHD / **7**               | "ADHD Translation Guide"     | 1w\* | 1.5K❤   | comment-level | Discovery + amplify          | 1     | 72    | New (discovered)   | Queued               |
+| 3   | @discoatells           | ADHD / **7**               | "ADHD Translation Guide"     | 1w\* | 1.5K❤    | comment-level | Discovery + amplify          | 1     | 72    | New (discovered)   | Queued               |
 | 4   | @gottmaninstitute      | emotional-literacy / cross | "Feeling Wheel"              | 1d   | 326      | comment-level | Amplify (weak fit)           | 0     | 45    | —                  | Queued (likely drop) |
 
 \* @discoatells post is evergreen (June 21) but still pulling fresh comments (9h/1d old) → comment-level still live.
@@ -188,9 +188,9 @@ For the `Reply` target, exact text to draft against:
 
 ## New Accounts Discovered
 
-| Account                 | Followers          | Pond / Type        | Theme                                       | Content Type      | Suggested Tier          | Why                                                                                      |
-| ----------------------- | ------------------ | ------------------ | ------------------------------------------- | ----------------- | ----------------------- | ---------------------------------------------------------------------------------------- |
-| @taylordass_counselling | ~3.1K              | attachment / 2·6·9 | Individual & couples therapy relatables     | Carousels + reels | Tier 2 (Therapy)        | Licensed therapist, liked our comment (responsive), strong overlap, comment-only channel |
+| Account                 | Followers         | Pond / Type        | Theme                                       | Content Type      | Suggested Tier          | Why                                                                                      |
+| ----------------------- | ----------------- | ------------------ | ------------------------------------------- | ----------------- | ----------------------- | ---------------------------------------------------------------------------------------- |
+| @taylordass_counselling | ~3.1K             | attachment / 2·6·9 | Individual & couples therapy relatables     | Carousels + reels | Tier 2 (Therapy)        | Licensed therapist, liked our comment (responsive), strong overlap, comment-only channel |
 | @discoatells            | ~mid (1.5K❤/post) | ADHD / 7           | ADHD-women relatables ("translation guide") | Carousels/reels   | Tier 4 (pond discovery) | Fresh Type-7 pond discovery; evergreen posts stay active; real ADHD community            |
 
 ---

@@ -12,8 +12,8 @@ A working library for decoding high-performing Instagram carousels and porting t
 
 | Folder                              | Post                                      | Engine type                                                    | Engagement                           |
 | ----------------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------------------------ |
-| `iklipse-weird-ai-carousel/`        | @iklipse\_ "Why Weird AI Works"           | Judgment / checklist (build to a rule)                         | 700♥ · 641💬                        |
-| `iklipse-camera-angle-cheat-sheet/` | @iklipse\_ "The Camera Angle Cheat Sheet" | Lookup table (technique → emotion map)                         | 522♥ · 375💬                        |
+| `iklipse-weird-ai-carousel/`        | @iklipse\_ "Why Weird AI Works"           | Judgment / checklist (build to a rule)                         | 700♥ · 641💬                         |
+| `iklipse-camera-angle-cheat-sheet/` | @iklipse\_ "The Camera Angle Cheat Sheet" | Lookup table (technique → emotion map)                         | 522♥ · 375💬                         |
 | `vssn-ai/`                          | @vssn.ai (engine, not one post)           | Comment-CTA → auto-DM saves engine + "AI is a camera" doctrine | 44.8K followers; sample post 9,450💬 |
 
 The two `iklipse-*` folders are @iklipse\_ (verified AI-image education) teaching two _different_ carousel **shapes** — keep them distinct. `vssn-ai/` is a different kind of source: not a deck structure but a **distribution engine** + caption skeleton (the comment-keyword → auto-DM mechanic). See its source-analysis for where each piece belongs.

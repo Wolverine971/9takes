@@ -846,8 +846,7 @@
 						<textarea
 							class="sg-textarea"
 							rows="3"
-							placeholder="Drop your take, anonymously, before you see anyone else's…"
-						></textarea>
+							placeholder="Drop your take, anonymously, before you see anyone else's…"></textarea>
 					</label>
 				</div>
 
@@ -1057,8 +1056,8 @@
 				<p class="sg-section-lede">
 					The §01 OBSERVATION hero for listing pages: grain, amber pool, scale-marker, statue frame
 					with vignette + mono caption. Snippets: <code>actions</code> (CTAs) and
-					<code>meta</code> (Published / Updated row). The statue column hides below 968px — at this
-					demo width it may render text-only.
+					<code>meta</code> (Published / Updated row). The statue column hides below 968px — at this demo
+					width it may render text-only.
 				</p>
 				<div class="sg-hero-demo">
 					<IndexHero

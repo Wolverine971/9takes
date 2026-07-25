@@ -24,7 +24,7 @@ Chrome: `iklipse` top-left, `AI Winners` top-right, `iklipseworld.com` bottom-le
 
 ## Beat skeleton
 
-Hook ("who wins — not who you think") → **6× one-line antithesis couplets ("Winners **_ / Others _**")** → payoff that restates the thesis + comment-bait CTA.
+Hook ("who wins — not who you think") → **6× one-line antithesis couplets ("Winners **\_ / Others _**")** → payoff that restates the thesis + comment-bait CTA.
 
 This is the **manifesto / antithesis-list format**: no formula, no checklist — pure parallel-structure couplets building a worldview. Each slide is the same shape: bold claim / dim foil. Very save-able and very quotable (each couplet is a standalone quote-card).
 

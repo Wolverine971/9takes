@@ -671,8 +671,8 @@ The site has four "graphs" that don't talk to each other enough:
 
 ### The 9 bridge classes that need to exist
 
-| Bridge                          | From                                     | To                                                       | Volume            |
-| ------------------------------- | ---------------------------------------- | -------------------------------------------------------- | ----------------- |
+| Bridge                         | From                                     | To                                                       | Volume            |
+| ------------------------------ | ---------------------------------------- | -------------------------------------------------------- | ----------------- |
 | Type pillar ↔ profile cards    | `/enneagram-corner/enneagram-type-N`     | `/personality-analysis/type/N` (and 5 sample profiles)   | 9 × ~6 = 54 links |
 | Type pillar ↔ wing             | `/enneagram-corner/enneagram-type-N`     | `/enneagram-corner/Nw(N-1)` and `Nw(N+1)` (when shipped) | 9 × 2 = 18        |
 | Type pillar ↔ subtypes         | `/enneagram-corner/enneagram-type-N`     | `/enneagram-corner/subtypes/N-sp`, `-so`, `-sx`          | 9 × 3 = 27        |
@@ -711,7 +711,7 @@ Use the existing `getRelatedBlogs` / `getCrossLinkSuggestions` utilities (`src/l
 | P2       | Ship `/enneagram-corner/which-enneagram-type-is-rarest` + `/most-common-enneagram-type` (AEO bait)                | Content      | 2 high-intent low-difficulty wins                  |
 | P2       | Run `gen:crosslinks` and audit; add internal links to the 27 isolated posts                                       | Content      | Crawl depth improves                               |
 | P2       | Promote the "Britney Spears, Stephen Hawking, Mahatma Gandhi, Mother Teresa" drafts (corpus-evidence celebrities) | Content      | 4 new published profiles supporting the AEO claims |
-| P3       | Question category pages get pillar-style intros + outbound bridges                                                | Content      | Bridge graphs 4 ↔ 1-3                             |
+| P3       | Question category pages get pillar-style intros + outbound bridges                                                | Content      | Bridge graphs 4 ↔ 1-3                              |
 
 ### Days 31–60 (content cluster expansion)
 

@@ -20,54 +20,56 @@ You are a design system specialist for 9takes. Your job is to update specific fi
 ### CSS Custom Properties (defined in `src/scss/index.scss`)
 
 **Dark mode (`:root` default):**
-| Token | Value | Usage |
-|---|---|---|
-| `--bg-base` | `#0C0A09` | Page background |
-| `--bg-deep` | `#1C1917` | Secondary background, sidebars |
-| `--bg-surface` | `#292524` | Cards, containers |
-| `--bg-elevated` | `#44403C` | Elevated elements, inputs |
-| `--bg-highlight` | `#57534E` | Active states |
-| `--primary` | `#2DD4BF` | Primary teal |
-| `--primary-light` | `#5EEAD4` | Hover states |
-| `--primary-lighter` | `#99F6E4` | Light accents |
-| `--primary-lightest` | `#CCFBF1` | Subtle backgrounds |
-| `--primary-dark` | `#14B8A6` | Pressed/emphasis |
-| `--primary-darker` | `#0D9488` | Strong emphasis |
-| `--primary-glow` | `rgba(45, 212, 191, 0.4)` | Glow effects |
-| `--primary-subtle` | `rgba(45, 212, 191, 0.12)` | Subtle tints |
-| `--secondary` | `#FB7185` | Rose |
-| `--secondary-light` | `#FDA4AF` | Rose light |
-| `--secondary-dark` | `#F43F5E` | Rose emphasis |
-| `--secondary-glow` | `rgba(251, 113, 133, 0.4)` | Rose glow |
-| `--secondary-subtle` | `rgba(251, 113, 133, 0.12)` | Rose tint |
-| `--accent` | `#A78BFA` | Purple |
-| `--accent-light` | `#C4B5FD` | Purple light |
-| `--accent-dark` | `#7C3AED` | Purple emphasis |
-| `--accent-glow` | `rgba(167, 139, 250, 0.4)` | Purple glow |
-| `--accent-subtle` | `rgba(167, 139, 250, 0.12)` | Purple tint |
-| `--text-primary` | `#FAFAF9` | Main text |
-| `--text-secondary` | `#A8A29E` | Secondary text |
-| `--text-tertiary` | `#78716C` | Muted text |
-| `--text-muted` | `#57534E` | Disabled/placeholder |
-| `--text-on-primary` | `#0C0A09` | Text on teal buttons |
-| `--shadow-sm/md/lg/xl` | warm shadows | Box shadows |
-| `--glow-sm/md/lg` | teal glow | Glow effects |
-| `--glass-color` | `rgba(28, 25, 23, 0.85)` | Glass backgrounds |
-| `--glass-border` | `rgba(45, 212, 191, 0.15)` | Glass borders |
+
+| Token                  | Value                       | Usage                          |
+| ---------------------- | --------------------------- | ------------------------------ |
+| `--bg-base`            | `#0C0A09`                   | Page background                |
+| `--bg-deep`            | `#1C1917`                   | Secondary background, sidebars |
+| `--bg-surface`         | `#292524`                   | Cards, containers              |
+| `--bg-elevated`        | `#44403C`                   | Elevated elements, inputs      |
+| `--bg-highlight`       | `#57534E`                   | Active states                  |
+| `--primary`            | `#2DD4BF`                   | Primary teal                   |
+| `--primary-light`      | `#5EEAD4`                   | Hover states                   |
+| `--primary-lighter`    | `#99F6E4`                   | Light accents                  |
+| `--primary-lightest`   | `#CCFBF1`                   | Subtle backgrounds             |
+| `--primary-dark`       | `#14B8A6`                   | Pressed/emphasis               |
+| `--primary-darker`     | `#0D9488`                   | Strong emphasis                |
+| `--primary-glow`       | `rgba(45, 212, 191, 0.4)`   | Glow effects                   |
+| `--primary-subtle`     | `rgba(45, 212, 191, 0.12)`  | Subtle tints                   |
+| `--secondary`          | `#FB7185`                   | Rose                           |
+| `--secondary-light`    | `#FDA4AF`                   | Rose light                     |
+| `--secondary-dark`     | `#F43F5E`                   | Rose emphasis                  |
+| `--secondary-glow`     | `rgba(251, 113, 133, 0.4)`  | Rose glow                      |
+| `--secondary-subtle`   | `rgba(251, 113, 133, 0.12)` | Rose tint                      |
+| `--accent`             | `#A78BFA`                   | Purple                         |
+| `--accent-light`       | `#C4B5FD`                   | Purple light                   |
+| `--accent-dark`        | `#7C3AED`                   | Purple emphasis                |
+| `--accent-glow`        | `rgba(167, 139, 250, 0.4)`  | Purple glow                    |
+| `--accent-subtle`      | `rgba(167, 139, 250, 0.12)` | Purple tint                    |
+| `--text-primary`       | `#FAFAF9`                   | Main text                      |
+| `--text-secondary`     | `#A8A29E`                   | Secondary text                 |
+| `--text-tertiary`      | `#78716C`                   | Muted text                     |
+| `--text-muted`         | `#57534E`                   | Disabled/placeholder           |
+| `--text-on-primary`    | `#0C0A09`                   | Text on teal buttons           |
+| `--shadow-sm/md/lg/xl` | warm shadows                | Box shadows                    |
+| `--glow-sm/md/lg`      | teal glow                   | Glow effects                   |
+| `--glass-color`        | `rgba(28, 25, 23, 0.85)`    | Glass backgrounds              |
+| `--glass-border`       | `rgba(45, 212, 191, 0.15)`  | Glass borders                  |
 
 **Light mode (`:root.light` override):**
-| Token | Value |
-|---|---|
-| `--bg-base` | `#FAFAF9` |
-| `--bg-deep` | `#F5F5F4` |
-| `--bg-surface` | `#FFFFFF` |
-| `--bg-elevated` | `#E7E5E4` |
-| `--primary` | `#0D9488` |
-| `--primary-dark` | `#0F766E` |
-| `--text-primary` | `#1C1917` |
-| `--text-secondary` | `#57534E` |
-| `--text-on-primary` | `#FFFFFF` |
-| `--glass-color` | `rgba(255, 255, 255, 0.85)` |
+
+| Token               | Value                       |
+| ------------------- | --------------------------- |
+| `--bg-base`         | `#FAFAF9`                   |
+| `--bg-deep`         | `#F5F5F4`                   |
+| `--bg-surface`      | `#FFFFFF`                   |
+| `--bg-elevated`     | `#E7E5E4`                   |
+| `--primary`         | `#0D9488`                   |
+| `--primary-dark`    | `#0F766E`                   |
+| `--text-primary`    | `#1C1917`                   |
+| `--text-secondary`  | `#57534E`                   |
+| `--text-on-primary` | `#FFFFFF`                   |
+| `--glass-color`     | `rgba(255, 255, 255, 0.85)` |
 
 ### Status Colors
 

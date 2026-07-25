@@ -20,13 +20,14 @@ _Purpose: Track 9takes visibility in AI search platforms and identify optimizati
 ### Query 1: "What enneagram type is most prone to anxiety?"
 
 **Google Search Results:**
-| Position | Source | Type |
-|----------|--------|------|
-| 1 | **9takes.com** ✅ | Blog post |
-| 2 | Rel Consultants | Blog post |
-| 3 | Psychology Junkie | Ranked list |
-| 4 | FHE Health | Clinical |
-| 5 | enneagramtest.com | Blog post |
+
+| Position | Source            | Type        |
+| -------- | ----------------- | ----------- |
+| 1        | **9takes.com** ✅ | Blog post   |
+| 2        | Rel Consultants   | Blog post   |
+| 3        | Psychology Junkie | Ranked list |
+| 4        | FHE Health        | Clinical    |
+| 5        | enneagramtest.com | Blog post   |
 
 **AI Response Key Points (from search synthesis):**
 
@@ -48,13 +49,14 @@ _Purpose: Track 9takes visibility in AI search platforms and identify optimizati
 ### Query 2: "Enneagram type most likely to have depression"
 
 **Google Search Results:**
-| Position | Source | Type |
-|----------|--------|------|
-| 1 | **9takes.com** ✅ | Blog post |
-| 2 | FHE Health | Clinical |
-| 3-4 | PersonalityCafe | Forum |
-| 5 | enneagramtest.com | Blog post |
-| 6 | Symmetry Neurotherapy | Medical |
+
+| Position | Source                | Type      |
+| -------- | --------------------- | --------- |
+| 1        | **9takes.com** ✅     | Blog post |
+| 2        | FHE Health            | Clinical  |
+| 3-4      | PersonalityCafe       | Forum     |
+| 5        | enneagramtest.com     | Blog post |
+| 6        | Symmetry Neurotherapy | Medical   |
 
 **AI Response Key Points:**
 
@@ -76,13 +78,14 @@ _Purpose: Track 9takes visibility in AI search platforms and identify optimizati
 ### Query 3: "Why am I so critical of myself enneagram"
 
 **Google Search Results:**
-| Position | Source | Type |
-|----------|--------|------|
-| 1 | Medium (Samantha Mackay) | Personal blog |
-| 2 | Nine Types Co | Business blog |
-| 3 | Truity | Major competitor |
-| 4 | Enneagram Institute | Authority |
-| 5 | PersonalityCafe | Forum |
+
+| Position | Source                   | Type             |
+| -------- | ------------------------ | ---------------- |
+| 1        | Medium (Samantha Mackay) | Personal blog    |
+| 2        | Nine Types Co            | Business blog    |
+| 3        | Truity                   | Major competitor |
+| 4        | Enneagram Institute      | Authority        |
+| 5        | PersonalityCafe          | Forum            |
 
 **AI Response Key Points:**
 

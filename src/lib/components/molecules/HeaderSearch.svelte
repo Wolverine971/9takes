@@ -1,6 +1,7 @@
 <!-- src/lib/components/molecules/HeaderSearch.svelte -->
 <script lang="ts">
 	import { afterNavigate, goto } from '$app/navigation';
+	import { renderSearchHighlight } from '$lib/utils/searchHighlight';
 	import { page } from '$app/stores';
 	import { onDestroy } from 'svelte';
 	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
@@ -94,19 +95,7 @@
 		abortController = null;
 	}
 
-	function escapeHtml(value: string): string {
-		return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-	}
-
-	function renderHighlight(html: string): string {
-		const normalized = html
-			.replace(/<mark>/gi, '\x00MARK_OPEN\x00')
-			.replace(/<\/mark>/gi, '\x00MARK_CLOSE\x00');
-
-		return escapeHtml(normalized)
-			.replace(/\x00MARK_OPEN\x00/g, '<mark>')
-			.replace(/\x00MARK_CLOSE\x00/g, '</mark>');
-	}
+	const renderHighlight = renderSearchHighlight;
 
 	function normalizeText(value: string): string {
 		return value

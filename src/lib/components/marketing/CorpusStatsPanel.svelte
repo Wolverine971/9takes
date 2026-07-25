@@ -108,8 +108,8 @@
 		</div>
 		<h2 class="section-title">The 9takes Corpus, in numbers</h2>
 		<p class="section-desc">
-			Every stat below is computed from the {stats.totals.published} profiles currently published on
-			9takes. Updated automatically on every deploy.
+			Every stat below is computed from the {stats.totals.published} profiles currently published on 9takes.
+			Updated automatically on every deploy.
 		</p>
 	</header>
 

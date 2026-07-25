@@ -115,11 +115,11 @@ Type 5 delight = being _seen accurately_ without being flattered. Her "how dare 
 
 ## New Accounts Discovered
 
-| Account            | Followers          | Pond / Type                       | Theme                                                  | Content Type       | Suggested Tier          | Why                                                                                                                           |
-| ------------------ | ------------------ | --------------------------------- | ------------------------------------------------------ | ------------------ | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Account            | Followers          | Pond / Type                       | Theme                                                 | Content Type       | Suggested Tier          | Why                                                                                                                           |
+| ------------------ | ------------------ | --------------------------------- | ----------------------------------------------------- | ------------------ | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | @goodmorgantherapy | 606K               | narcissist-survivor / Type 2 (+6) | Relationship coach, SEEN Method®, victim/villain-hero | Talking-head reels | Tier 2 → Anchor/Monitor | Large, high-overlap relationship pond; @yourenneagramcoach follows her; saved a post. Work recent comment sections next pass. |
-| @lifebyalissa      | Verified (Unknown) | HSP / Type 4 (sensitive)          | HSP lifestyle, "silly things I do as an HSP," empath   | Reels, carousels   | Tier 3 → review         | Active pond this week (Lana / Type 4). Relatable self-ID vernacular; lead-gen creator. Post was 10w old.                      |
-| @beyondwithbetsy   | Verified (Unknown) | HSP / Type 4 (sensitive)          | Sensitivity/relational; thoughtful HSP-pond commenter  | Unknown            | Tier 4 → review         | Verified, substantive commenter in HSP rooms (named a specific focus-loss pattern). Adjacent T4 voice.                        |
+| @lifebyalissa      | Verified (Unknown) | HSP / Type 4 (sensitive)          | HSP lifestyle, "silly things I do as an HSP," empath  | Reels, carousels   | Tier 3 → review         | Active pond this week (Lana / Type 4). Relatable self-ID vernacular; lead-gen creator. Post was 10w old.                      |
+| @beyondwithbetsy   | Verified (Unknown) | HSP / Type 4 (sensitive)          | Sensitivity/relational; thoughtful HSP-pond commenter | Unknown            | Tier 4 → review         | Verified, substantive commenter in HSP rooms (named a specific focus-loss pattern). Adjacent T4 voice.                        |
 
 _All three appended to `instagram-engagement-targets.md` Tier 4 Discovery with pond tags (append-only)._
 

@@ -7,17 +7,30 @@ const {
 	recordUserTakeMock,
 	recordGiveFirstEventMock,
 	rpcMock,
-	loggerMocks
+	loggerMocks,
+	consumeApiRateLimitMock
 } = vi.hoisted(() => ({
 	generateMirrorMock: vi.fn(),
 	getChorusForQuestionMock: vi.fn(),
 	recordUserTakeMock: vi.fn(),
 	recordGiveFirstEventMock: vi.fn(),
 	rpcMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn(),
 	loggerMocks: {
 		warn: vi.fn(),
 		error: vi.fn()
 	}
+}));
+
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({
+		userId,
+		clientAddress
+	}: {
+		userId?: string | null;
+		clientAddress: string;
+	}) => (userId ? `user:${userId}` : `ip:${clientAddress}`)
 }));
 
 vi.mock('$lib/server/nineTakes', () => ({
@@ -84,6 +97,11 @@ function buildEvent(options: {
 describe('POST /api/nine/mirror', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 600,
+			degraded: false
+		});
 		getChorusForQuestionMock.mockResolvedValue({
 			question: "What's something you do every day to seem fine?",
 			questionUrl,
@@ -211,6 +229,36 @@ describe('POST /api/nine/mirror', () => {
 		expect(body.error).toContain('2000 characters');
 		expect(getChorusForQuestionMock).not.toHaveBeenCalled();
 		expect(rpcMock).not.toHaveBeenCalled();
+		expect(generateMirrorMock).not.toHaveBeenCalled();
+	});
+
+	it('meters on the client address, not the caller-supplied fingerprint', async () => {
+		// Both the body field and the cookie are attacker-controlled, so rotating
+		// them must not buy a fresh budget on a paid LLM call.
+		await POST(
+			buildEvent({
+				fingerprint: 'rotated-body-value',
+				cookieFingerprint: 'rotated-cookie-value'
+			}) as never
+		);
+
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'chorus_mirror',
+			subject: 'ip:127.0.0.1'
+		});
+	});
+
+	it('refuses to generate a mirror once the limit is spent', async () => {
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: false,
+			retryAfterSeconds: 600,
+			degraded: false
+		});
+
+		const response = await POST(buildEvent({ fingerprint: 'visitor-over-budget' }) as never);
+
+		expect(response.status).toBe(429);
+		expect(response.headers.get('Retry-After')).toBe('600');
 		expect(generateMirrorMock).not.toHaveBeenCalled();
 	});
 });

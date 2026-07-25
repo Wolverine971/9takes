@@ -381,8 +381,7 @@
 								name
 							}} for personalization (defaults to 'there')"
 							class="form-textarea"
-							rows="12"
-						></textarea>
+							rows="12"></textarea>
 					{/if}
 				</div>
 
@@ -450,8 +449,7 @@
 							bind:value={generateInstructions}
 							placeholder="Write a welcome email for new coaching waitlist signups. Mention the Enneagram personality system and encourage them to explore the platform..."
 							class="form-textarea"
-							rows="6"
-						></textarea>
+							rows="6"></textarea>
 					</div>
 
 					<div class="form-group">

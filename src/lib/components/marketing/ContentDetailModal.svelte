@@ -543,8 +543,7 @@
 													oninput={(e) => updateThreadBlock(index, e.currentTarget.value)}
 													rows="4"
 													class="field-input field-textarea"
-													class:over-limit={block.length > MAX_CHARS}
-												></textarea>
+													class:over-limit={block.length > MAX_CHARS}></textarea>
 												<div class="thread-char-count" class:over-limit={block.length > MAX_CHARS}>
 													{block.length}/{MAX_CHARS}
 												</div>
@@ -574,8 +573,7 @@
 										oninput={(e) => updateField('content_text', e.currentTarget.value)}
 										rows="12"
 										placeholder="Write your content here..."
-										class="field-input content-textarea"
-									></textarea>
+										class="field-input content-textarea"></textarea>
 								{/if}
 							</div>
 						</div>

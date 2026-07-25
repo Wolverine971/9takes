@@ -6,6 +6,7 @@ import type { RequestHandler } from './$types';
 import { supabase } from '$lib/supabase';
 import { exitReactivationSequenceForTrackedClick } from '$lib/server/reactivationRepermission';
 import { isUuid } from '$lib/utils/uuid';
+import { isAllowedRedirectTarget } from '$lib/server/emailRedirect';
 
 export const GET: RequestHandler = async ({ params, request }) => {
 	const { tracking_id, encoded_url } = params;
@@ -19,14 +20,12 @@ export const GET: RequestHandler = async ({ params, request }) => {
 		throw redirect(302, 'https://9takes.com');
 	}
 
-	// Validate URL to prevent open redirect vulnerability
-	try {
-		const url = new URL(targetUrl);
-		// Only allow http/https protocols
-		if (!['http:', 'https:'].includes(url.protocol)) {
-			throw redirect(302, 'https://9takes.com');
-		}
-	} catch {
+	// Validate URL to prevent open redirect vulnerability.
+	//
+	// Protocol alone is not enough: without a host allowlist this endpoint
+	// forwards to any site, which turns a 9takes link in an email into a
+	// credible phishing hop. Our emails only ever link back to our own hosts.
+	if (!isAllowedRedirectTarget(targetUrl)) {
 		throw redirect(302, 'https://9takes.com');
 	}
 

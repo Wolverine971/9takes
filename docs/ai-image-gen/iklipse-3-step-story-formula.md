@@ -28,7 +28,7 @@ Chrome: `iklipse` top-left, `AI Story` top-right, `iklipseworld.com` bottom-left
 
 ## Beat skeleton
 
-Hook → the failure (3 bullets) → mechanism ("people engage with questions") + name the trio → **3× [Step + Quick-rule + "the viewer should ask: ___"]** → formula (trio → Attention + Engagement) → checklist → comment-bait CTA.
+Hook → the failure (3 bullets) → mechanism ("people engage with questions") + name the trio → **3× [Step + Quick-rule + "the viewer should ask: \___"]** → formula (trio → Attention + Engagement) → checklist → comment-bait CTA.
 
 Same house formula as Weird AI / AI Trap (**Trio → Formula → Checklist → keyword CTA**), but with two strong reusable devices:
 

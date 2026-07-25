@@ -51,8 +51,8 @@ Some of these objections are valid. Some miss the point entirely. Here's the hon
      <img loading="lazy" src="/personality-snippet.webp" alt="personality definition" title="personality definition from google" class="small-absolute" />
     <figcaption>personality definition from google</figcaption>
   </figure>
-    
-  Think about the people in your life.
+
+Think about the people in your life.
 
 Why do you click instantly with some but clash with others? Why do certain friends light up at parties while others recharge in solitude?
 
@@ -68,8 +68,8 @@ Personality isn't just academic theory - it's your lived experience every day as
 <details>
   <summary class="accordion">"The Enneagram lacks scientific validity"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  This criticism has merit - but misses the point.
+
+This criticism has merit - but misses the point.
 
 The Enneagram was never designed as a scientific measuring tool like a blood pressure test. It's a framework for understanding human motivation and behavior patterns.
 
@@ -87,8 +87,8 @@ Ask yourself: How much do we truly understand about emotions scientifically?
 <details>
   <summary class="accordion">"Identifying your Enneagram type is too subjective"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Self-typing is indeed subjective. This isn't a bug - it's a feature.
+
+Self-typing is indeed subjective. This isn't a bug - it's a feature.
 
 The process of discovering your type invites deep self-reflection. As you explore different type descriptions, you're forced to confront uncomfortable questions:
 
@@ -106,8 +106,8 @@ Need help finding your type? Check out our <a href="/enneagram-corner/beginners-
 <details>
   <summary class="accordion">"Enneagram types lead to stereotyping and oversimplification"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  This concern touches on a real risk with any personality system.
+
+This concern touches on a real risk with any personality system.
 
 The Enneagram isn't meant to be a box that limits you - it's a starting point for exploration. Your type isn't your destiny or your entire identity.
 
@@ -130,8 +130,8 @@ The goal isn't to label and dismiss ("Oh, he's just being a typical Four") but t
 <details>
   <summary class="accordion">"9takes relies on a single creator's perspective"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Valid point. Any platform benefits from diverse viewpoints.
+
+Valid point. Any platform benefits from diverse viewpoints.
 
 However, many innovative platforms begin with a single passionate founder. The initial vision often comes from one mind before expanding to include wider perspectives.
 
@@ -145,8 +145,8 @@ Great ideas often start with one person asking "What if?" - but truly thrive whe
 <details>
   <summary class="accordion">"Anonymity invites trolling and disrespectful behavior"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  The double-edged sword of anonymity is real.
+
+The double-edged sword of anonymity is real.
 
 At its best, anonymity creates psychological safety for honest expression. People share vulnerable truths they might never reveal under their real names.
 
@@ -162,8 +162,8 @@ The goal: preserve the freedom that anonymity provides while minimizing its pote
 <details>
   <summary class="accordion">"9takes depends too heavily on active user participation"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  This is true - but it's true of every social platform ever created.
+
+This is true - but it's true of every social platform ever created.
 
 Twitter without tweets, Reddit without posts, YouTube without videos - all would be empty shells. The value of social platforms emerges directly from user contributions.
 
@@ -177,8 +177,8 @@ As with any community, what you give shapes what you receive.
 <details>
   <summary class="accordion">"Focusing exclusively on the Enneagram limits appeal"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Specialization is a strategic choice, not a limitation.
+
+Specialization is a strategic choice, not a limitation.
 
 The Enneagram uniquely <a href="/enneagram-corner/philosophy-psychology-and-the-enneagram">bridges psychology and philosophy</a>, offering deep insights into human motivation. Its influence continues to grow across therapy, business, spirituality, and personal development.
 
@@ -192,8 +192,8 @@ We believe the Enneagram will eventually become part of the common vernacular as
 <details>
   <summary class="accordion">"9takes criticizes binary labels while using nine categories"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  This apparent contradiction deserves exploration.
+
+This apparent contradiction deserves exploration.
 
 The key difference: the Enneagram doesn't label people as "good/bad" or "rational/irrational." Instead, it recognizes nine equally valid perspectives, each with strengths and challenges.
 
@@ -213,8 +213,8 @@ The goal isn't judgment but understanding - not simplification but illumination 
 <details>
   <summary class="accordion">"Without demographic data, perspective diversity can't be verified"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Demographics don't guarantee diverse perspectives.
+
+Demographics don't guarantee diverse perspectives.
 
 Two people with identical demographic profiles can hold wildly different viewpoints. Conversely, people from different backgrounds may share similar outlooks.
 
@@ -230,8 +230,8 @@ The Enneagram itself provides a framework for ensuring nine fundamentally differ
 <details>
   <summary class="accordion">"Sorting by personality type creates echo chambers"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Echo chambers form when similar perspectives reinforce each other without challenge.
+
+Echo chambers form when similar perspectives reinforce each other without challenge.
 
 9takes takes a different approach. By making different viewpoints visible and sortable by type, users can intentionally explore perspectives unlike their own.
 
@@ -245,8 +245,8 @@ The platform is designed specifically to help people understand mindsets differe
 <details>
   <summary class="accordion">"The platform emphasizes problems over solutions"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Questions open doors that declarations close.
+
+Questions open doors that declarations close.
 
 Curiosity and questioning form the foundation of learning and growth. When we approach topics with curiosity rather than certainty, we create space for new understanding.
 
@@ -260,8 +260,8 @@ As 9takes evolves, creating space for both exploration and solution-finding rema
 <details>
   <summary class="accordion">"Users might not feel safe sharing personal struggles publicly"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Vulnerability requires psychological safety.
+
+Vulnerability requires psychological safety.
 
 The anonymity of 9takes intentionally creates a space where people can share authentic experiences without fear of judgment affecting their personal or professional lives.
 
@@ -275,8 +275,8 @@ As the platform grows, continuing to nurture a culture of respect and empathy re
 <details>
   <summary class="accordion">"Moderation policies aren't clearly communicated"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Transparency builds trust in any community.
+
+Transparency builds trust in any community.
 
 As a developing platform, 9takes continues to refine its approach to moderation. Clear communication about community guidelines helps set expectations and create a shared understanding of acceptable behavior.
 
@@ -290,8 +290,8 @@ Feedback on moderation approaches is always welcome as the platform evolves.
 <details>
   <summary class="accordion">"The platform's financial sustainability model isn't clear"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  Sustainable platforms require sustainable business models.
+
+Sustainable platforms require sustainable business models.
 
 As 9takes continues to develop, exploring viable financial approaches that align with its core values remains an ongoing process.
 
@@ -305,8 +305,8 @@ Many successful platforms evolve their business model as they grow, experimentin
 <details>
   <summary class="accordion">"Existing platforms like Reddit already serve this purpose"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  General discussion platforms serve different needs than specialized ones.
+
+General discussion platforms serve different needs than specialized ones.
 
 While Reddit offers breadth, 9takes offers depth through its Enneagram-focused approach. This specialization creates unique possibilities for understanding diverse perspectives through a consistent framework.
 
@@ -320,8 +320,8 @@ Many users find value in both general platforms and specialized ones that serve 
 <details>
   <summary class="accordion">"Not seeing others' comments first leads to less informed responses"</summary>
   <div class="panel" style="margin: 16px 0">
-  
-  This design choice serves a deliberate purpose.
+
+This design choice serves a deliberate purpose.
 
 By asking users to share their authentic perspective before seeing others' comments, 9takes prevents the bandwagon effect where early comments disproportionately influence the conversation.
 

@@ -1,6 +1,7 @@
 <!-- src/lib/components/blog/BlogPageHead.svelte -->
 <script lang="ts">
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
 	import { capDescriptionForSnippet, capTitleForSnippet } from '$lib/utils/seoBudget';
 	import {
@@ -195,7 +196,7 @@
 		'@graph': [blogPostingNode, buildBreadcrumbSchemaForGraph(breadcrumbItems)]
 	}));
 
-	let jsonld = $derived(JSON.stringify(jsonldObj));
+	let jsonld = $derived(serializeJsonLd(jsonldObj));
 </script>
 
 <svelte:head>

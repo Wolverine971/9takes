@@ -499,9 +499,9 @@ Questions people ask (check AnswerThePublic, AlsoAsked):
 ## 2. COMPETITOR ANALYSIS
 
 Who currently ranks for this?
-├── Site 1: **_ (word count: _**, structure: **_)
-├── Site 2: _** (word count: **_, structure: _**)
-└── Site 3: **_ (word count: _**, structure: \_\_\_)
+├── Site 1: **\_ (word count: _**, structure: **\_)
+├── Site 2: _** (word count: **\_, structure: _**)
+└── Site 3: **\_ (word count: _**, structure: \_\_\_)
 
 What are they missing?
 ├── **\*\***\_\_\_**\*\***
@@ -1531,12 +1531,12 @@ Create: /docs/templates/weekly-content-audit.md
 
 ## Content Published
 
-- [ ] Post: **_ (impressions: _**, clicks: \_\_\_)
-- [ ] Post: **_ (impressions: _**, clicks: \_\_\_)
+- [ ] Post: **\_ (impressions: _**, clicks: \_\_\_)
+- [ ] Post: **\_ (impressions: _**, clicks: \_\_\_)
 
 ## Optimizations Made
 
-- [ ] Page: **_ (before CTR: _** → after: \_\_\_)
+- [ ] Page: **\_ (before CTR: _** → after: \_\_\_)
 
 ## AI Search Status
 

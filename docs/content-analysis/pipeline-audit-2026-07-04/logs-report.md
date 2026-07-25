@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/pipeline-audit-2026-07-04/logs-report.md -->
+
 # 9takes Blog Pipeline Automation Audit — Pipeline Logs
 
 Scope: all 33 directories in `docs/content-analysis/pipeline-logs/`, the `FAILED_AT_STAGE` sentinel bug, grade-delta on the 5 runs where revision fired, `content_quality` frontmatter on 17 of the 18 named recent people-drafts (Maisy-Stella has no draft — see Task 5), and `docs/blog-automation/backlog-queue.json`.

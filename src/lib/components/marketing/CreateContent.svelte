@@ -144,8 +144,7 @@
 			bind:value={content_text}
 			required
 			rows="8"
-			class="field-input field-textarea"
-		></textarea>
+			class="field-input field-textarea"></textarea>
 	</label>
 
 	<div class="form-actions">

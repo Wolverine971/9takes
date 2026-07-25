@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/pipeline-audit-2026-07-04/fingerprint-report.md -->
+
 # 9takes People-Pipeline Formula Fingerprint Audit
 
 Read-only mechanical text analysis. Corpus: `src/blog/people/drafts/*.md` (469 files total). Focus set: 17 of the ~18 named "recent full-pipeline" subjects (Maisy-Stella has no draft file anywhere in the repo — dropped from all counts below; n=17, not 18).

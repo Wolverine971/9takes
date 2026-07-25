@@ -8,6 +8,7 @@
 		resolvePersonalityImageSlug
 	} from '$lib/utils/personalityAnalysis';
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import { buildPersonPageJsonLd } from '$lib/utils/personJsonLd';
 	import { buildPersonIdentifiers, buildPersonSameAsUrls } from '$lib/utils/schema';
 	import { capDescriptionForSnippet } from '$lib/utils/seoBudget';
@@ -81,7 +82,7 @@
 
 	let jsonLdString = $derived.by(() => {
 		try {
-			return JSON.stringify(
+			return serializeJsonLd(
 				buildPersonPageJsonLd({
 					personName,
 					canonicalUrl,

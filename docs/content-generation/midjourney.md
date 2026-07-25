@@ -47,7 +47,7 @@
 
                                                                                                                                                                                             ,
 
-2.  _[\_8:02 PM_]\_
+2. _[\_8:02 PM_]\_
 
     **greek statue standing on stage speaking to an audience, Unreal Engine , Cinematic , black white and grey, portrait Photography , Shot on 50mm lense , Ultra - Wide Angle , Depth of Field , hyper - detailed , beautifully color - coded , insane details , intricate details , beautifully color graded , Editorial Photography Photography , Photoshoot , Shot on 70mm lense , Depth of Field , DOF , Tilt Blur , Shutter Speed 1/1000 , F / 22 , White Balance , 32k , Super - Resolution , Megapixel , VR , Lonely , Good , Massive , Halfrear Lighting , Backlight , Natural Lighting , Incandescent , Optical Fiber , Moody Lighting , Cinematic Lighting , Studio Lighting , Soft Lighting , Volumetric , Contre - Jour , Beautiful Lighting , Accent Lighting , Global Illumination , Screen Space Global Illumination , Ray Tracing Global Illumination , Optics , Scattering , Glowing , Shadows , Rough , Shimmering , Ray Tracing Reflections , Lumen Reflections , Screen Space Reflections , Diffraction Grading , Chromatic Aberration , GB Displacement , Scan Lines , Ray Traced , Ray Tracing Ambient Occlusion , Anti - Aliasing , FKAA , TXAA , RTX , SSAO , Shaders , OpenGL - Shaders , GLSL - Shaders , Post Processing , Post - Production , Cel Shading , Tone Mapping , CGI , VFX , SFX , insanely detailed and intricate , hypermaximalist , elegant , hyper realistic , super detailed** - @Wolverine971 (fast)
 
@@ -95,7 +95,7 @@
 
     ,
 
-3.  _[\_8:02 PM_]\_
+3. _[\_8:02 PM_]\_
 
     **a greek statue feeling stressed and worried and concerned, Unreal Engine , Cinematic , black white and grey, portrait Photography , Shot on 50mm lense , Ultra - Wide Angle , Depth of Field , hyper - detailed , beautifully color - coded , insane details , intricate details , beautifully color graded , Editorial Photography Photography , Photoshoot , Shot on 70mm lense , Depth of Field , DOF , Tilt Blur , Shutter Speed 1/1000 , F / 22 , White Balance , 32k , Super - Resolution , Megapixel , VR , Lonely , Good , Massive , Halfrear Lighting , Backlight , Natural Lighting , Incandescent , Optical Fiber , Moody Lighting , Cinematic Lighting , Studio Lighting , Soft Lighting , Volumetric , Contre - Jour , Beautiful Lighting , Accent Lighting , Global Illumination , Screen Space Global Illumination , Ray Tracing Global Illumination , Optics , Scattering , Glowing , Shadows , Rough , Shimmering , Ray Tracing Reflections , Lumen Reflections , Screen Space Reflections , Diffraction Grading , Chromatic Aberration , GB Displacement , Scan Lines , Ray Traced , Ray Tracing Ambient Occlusion , Anti - Aliasing , FKAA , TXAA , RTX , SSAO , Shaders , OpenGL - Shaders , GLSL - Shaders , Post Processing , Post - Production , Cel Shading , Tone Mapping , CGI , VFX , SFX , insanely detailed and intricate , hypermaximalist , elegant , hyper realistic , super detailed** - @Wolverine971 (fast)
 
@@ -143,7 +143,7 @@
 
     ,
 
-4.  _[\_8:04 PM_]\_
+4. _[\_8:04 PM_]\_
 
     **a greek statue looking at phone doing only fans content, Unreal Engine , Cinematic , black white and grey, portrait Photography , Shot on 50mm lense , Ultra - Wide Angle , Depth of Field , hyper - detailed , beautifully color - coded , insane details , intricate details , beautifully color graded , Editorial Photography Photography , Photoshoot , Shot on 70mm lense , Depth of Field , DOF , Tilt Blur , Shutter Speed 1/1000 , F / 22 , White Balance , 32k , Super - Resolution , Megapixel , VR, Halfrear Lighting , Backlight , Natural Lighting , Incandescent , Optical Fiber , Moody Lighting , Cinematic Lighting , Studio Lighting , Soft Lighting , Volumetric , Contre - Jour , Beautiful Lighting , Accent Lighting , Global Illumination , Screen Space Global Illumination , Ray Tracing Global Illumination , Optics , Scattering , Glowing , Shadows , Rough , Shimmering , Ray Tracing Reflections , Lumen Reflections , Screen Space Reflections , Diffraction Grading , Chromatic Aberration , GB Displacement , Scan Lines , Ray Traced , Ray Tracing Ambient Occlusion , Anti - Aliasing , FKAA , TXAA , RTX , SSAO , Shaders , OpenGL - Shaders , GLSL - Shaders , Post Processing , Post - Production , Cel Shading , Tone Mapping , CGI , VFX , SFX , insanely detailed and intricate , hypermaximalist , elegant , hyper realistic , super detailed** - @Wolverine971 (fast)
 
@@ -191,7 +191,7 @@
 
     ,
 
-5.  ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
+5. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
 
     ### Midjourney BotAPP _—_ 5/22/2025 8:08 PM
 
@@ -241,7 +241,7 @@
 
     ,
 
-6.  ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=16)APPMidjourney Bot
+6. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=16)APPMidjourney Bot
 
     **a greek statue face full of emotion looking at phone doing only fans content, Unreal Engine , Cinematic , maximalist design, dark, portrait Photography , Shot on 50mm lense , Ultra - Wide Angle , Depth of Field , hyper - detailed , beautifully color - coded , insane details , intricate details , beautifully color graded , Editorial Photography Photography , Photoshoot , Shot on 70mm lense , Depth of Field , DOF , Tilt Blur , Shutter Speed 1/1000 , F / 22 , White Balance , 32k , Super - Resolution , Megapixel , VR, Halfrear Lighting , Backlight , Natural Lighting , Incandescent , Optical Fiber , Moody Lighting , Cinematic Lighting , Studio Lighting , Soft Lighting , Volumetric , Contre - Jour , Beautiful Lighting , Accent Lighting , Global Illumination , Screen Space Global Illumination , Ray Tracing Global Illumination , Optics , Scattering , Glowing , Shadows , Rough , Shimmering , Ray Tracing Reflections , Lumen Reflections , Screen Space Reflections , Diffraction Grading , Chromatic Aberration , GB Displacement , Scan Lines , Ray Traced , Ray Tracing Ambient Occlusion , Anti - Aliasing , FKAA , TXAA , RTX , SSAO , Shaders , OpenGL - Shaders , GLSL - Shaders , Post Processing , Post - Production , Cel Shading , Tone Mapping , CGI , VFX , SFX , insanely detailed and intricate , hypermaximalist , elegant , hyper realistic , super detailed** - @Wolverine971 (fast) (edited)
 
@@ -335,7 +335,7 @@
 
     ,
 
-7.  _[\_8:10 PM_]\_
+7. _[\_8:10 PM_]\_
 
     **lair of greek statue DJs, Unreal Engine , Cinematic , maximalist design, dark, portrait Photography , Shot on 50mm lense , Ultra - Wide Angle , Depth of Field , hyper - detailed , beautifully color - coded , insane details , intricate details , beautifully color graded , Editorial Photography Photography , Photoshoot , Shot on 70mm lense , Depth of Field , DOF , Tilt Blur , Shutter Speed 1/1000 , F / 22 , White Balance , 32k , Super - Resolution , Megapixel , VR, Halfrear Lighting , Backlight , Natural Lighting , Incandescent , Optical Fiber , Moody Lighting , Cinematic Lighting , Studio Lighting , Soft Lighting , Volumetric , Contre - Jour , Beautiful Lighting , Accent Lighting , Global Illumination , Screen Space Global Illumination , Ray Tracing Global Illumination , Optics , Scattering , Glowing , Shadows , Rough , Shimmering , Ray Tracing Reflections , Lumen Reflections , Screen Space Reflections , Diffraction Grading , Chromatic Aberration , GB Displacement , Scan Lines , Ray Traced , Ray Tracing Ambient Occlusion , Anti - Aliasing , FKAA , TXAA , RTX , SSAO , Shaders , OpenGL - Shaders , GLSL - Shaders , Post Processing , Post - Production , Cel Shading , Tone Mapping , CGI , VFX , SFX , insanely detailed and intricate , hypermaximalist , elegant , hyper realistic , super detailed** - @Wolverine971 (fast)
 
@@ -383,7 +383,7 @@
 
     ,
 
-8.  _[\_8:11 PM_]\_
+8. _[\_8:11 PM_]\_
 
     **lair of greek statue DJs, Unreal Engine , Cinematic , maximalist design, moody and dark, Shot on 50mm lense , Ultra - Wide Angle , Depth of Field , hyper - detailed , beautifully color - coded , insane details , intricate details , beautifully color graded, Shot on 70mm lense , Depth of Field , DOF , Tilt Blur , Shutter Speed 1/1000 , F / 22 , White Balance , 32k , Super - Resolution , Megapixel , VR, Halfrear Lighting , Backlight , Natural Lighting , Incandescent , Optical Fiber , Moody Lighting , Cinematic Lighting , Studio Lighting , Soft Lighting , Volumetric , Contre - Jour , Beautiful Lighting , Accent Lighting , Global Illumination , Screen Space Global Illumination , Ray Tracing Global Illumination , Optics , Scattering , Glowing , Shadows , Rough , Shimmering , Ray Tracing Reflections , Lumen Reflections , Screen Space Reflections , Diffraction Grading , Chromatic Aberration , GB Displacement , Scan Lines , Ray Traced , Ray Tracing Ambient Occlusion , Anti - Aliasing , FKAA , TXAA , RTX , SSAO , Shaders , OpenGL - Shaders , GLSL - Shaders , Post Processing , Post - Production , Cel Shading , Tone Mapping , CGI , VFX , SFX , insanely detailed and intricate , hypermaximalist , elegant , hyper realistic , super detailed** - @Wolverine971 (fast)
 
@@ -431,7 +431,7 @@
 
     ,
 
-9.  _[\_8:12 PM_]\_
+9. _[\_8:12 PM_]\_
 
     **lair of greek statue DJs, lair of greek statue DJs, Unreal Engine , Cinematic , maximalist design, moody and dark, Shot on 50mm lense, Depth of Field , hyper - detailed , beautifully color - coded , insane details** - @Wolverine971 (fast)
 
@@ -4169,300 +4169,299 @@ June 27, 2025
 
 June 28, 2025
 
-94. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
+94.  ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
 
-    ### Midjourney BotAPP _—_ 6/28/2025 2:57 PM
+     ### Midjourney BotAPP _—_ 6/28/2025 2:57 PM
 
-    **Chaotic thought bubbles transforming into organized neural networks, intelligent minimalism with welcoming purple gradients, scattered mental nodes flowing into geometric clarity, neural purple (#7c3aed) and soft cream (#fef7ed) palette, gentle pathways guiding from disorder to systematic beauty, educational sophistication with subtle technological glow, brain-to-system transformation --ar 16:9 --stylize 300 --quality 2 --no people, faces, text, cluttered, stock photography, literal brain imagery --raw** - @Wolverine971 (fast)
+     **Chaotic thought bubbles transforming into organized neural networks, intelligent minimalism with welcoming purple gradients, scattered mental nodes flowing into geometric clarity, neural purple (#7c3aed) and soft cream (#fef7ed) palette, gentle pathways guiding from disorder to systematic beauty, educational sophistication with subtle technological glow, brain-to-system transformation --ar 16:9 --stylize 300 --quality 2 --no people, faces, text, cluttered, stock photography, literal brain imagery --raw** - @Wolverine971 (fast)
 
-    [](https://cdn.discordapp.com/attachments/1064745971042504725/1388594264757244014/wolverine971_Chaotic_thought_bubbles_transforming_into_organize_9813dfe7-d531-4179-bf68-5952dbca802e.png?ex=687b41ef&is=6879f06f&hm=e13b132cd4e99787d74ba369402f9d1c602fa2066978c7dc37cc03bc7cdabac6&)
+     [](https://cdn.discordapp.com/attachments/1064745971042504725/1388594264757244014/wolverine971_Chaotic_thought_bubbles_transforming_into_organize_9813dfe7-d531-4179-bf68-5952dbca802e.png?ex=687b41ef&is=6879f06f&hm=e13b132cd4e99787d74ba369402f9d1c602fa2066978c7dc37cc03bc7cdabac6&)
 
-    ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388594264757244014/wolverine971_Chaotic_thought_bubbles_transforming_into_organize_9813dfe7-d531-4179-bf68-5952dbca802e.png?ex=687b41ef&is=6879f06f&hm=e13b132cd4e99787d74ba369402f9d1c602fa2066978c7dc37cc03bc7cdabac6&=&format=webp&quality=lossless&width=550&height=308)
+     ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388594264757244014/wolverine971_Chaotic_thought_bubbles_transforming_into_organize_9813dfe7-d531-4179-bf68-5952dbca802e.png?ex=687b41ef&is=6879f06f&hm=e13b132cd4e99787d74ba369402f9d1c602fa2066978c7dc37cc03bc7cdabac6&=&format=webp&quality=lossless&width=550&height=308)
 
-    U1
+     U1
 
-    ,
+     ,
 
-    U2
+     U2
 
-    ,
+     ,
 
-    U3
+     U3
 
-    ,
+     ,
 
-    U4
+     U4
 
-    ,
+     ,
 
-    ![🔄](https://discord.com/assets/e541f62450f233be.svg)
+     ![🔄](https://discord.com/assets/e541f62450f233be.svg)
 
-    ,
+     ,
 
-    ,
+     ,
 
-    V1
+     V1
 
-    ,
+     ,
 
-    V2
+     V2
 
-    ,
+     ,
 
-    V3
+     V3
 
-    ,
+     ,
 
-    V4
+     V4
 
-    ,,
+     ,,
 
-    ,
+     ,
 
-95. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
+95.  ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
 
-    ### Midjourney BotAPP _—_ 6/28/2025 3:06 PM
+     ### Midjourney BotAPP _—_ 6/28/2025 3:06 PM
 
-    **Over-the-shoulder view of person typing in Apple Notes app on iPhone, notification popup saying "Calendar: Meeting in 5 minutes" interrupting their thought capture, person's hand pausing mid-type showing subtle frustration, coffee shop setting with clean white marble table, scattered items suggesting interrupted workflow, natural daylight through window, realistic photography, minimal composition with breathing room, single cosmic blue accent color, clean aesthetic, professional lifestyle --ar 16:9 --stylize 200 --no cluttered background, multiple devices, obvious posing, stock photography, chaotic environment --raw** - @Wolverine971 (fast)
+     **Over-the-shoulder view of person typing in Apple Notes app on iPhone, notification popup saying "Calendar: Meeting in 5 minutes" interrupting their thought capture, person's hand pausing mid-type showing subtle frustration, coffee shop setting with clean white marble table, scattered items suggesting interrupted workflow, natural daylight through window, realistic photography, minimal composition with breathing room, single cosmic blue accent color, clean aesthetic, professional lifestyle --ar 16:9 --stylize 200 --no cluttered background, multiple devices, obvious posing, stock photography, chaotic environment --raw** - @Wolverine971 (fast)
 
-    [](https://cdn.discordapp.com/attachments/1064745971042504725/1388596415604854876/wolverine971_Over-the-shoulder_view_of_person_typing_in_Apple_N_12464b30-3c9d-4f8a-a9ee-9adeeba83d09.png?ex=687b43f0&is=6879f270&hm=7f4de318bf37256c0bdc10b03bad5df40107b737ecaf0d0f483ac5c3b37030ac&)
+     [](https://cdn.discordapp.com/attachments/1064745971042504725/1388596415604854876/wolverine971_Over-the-shoulder_view_of_person_typing_in_Apple_N_12464b30-3c9d-4f8a-a9ee-9adeeba83d09.png?ex=687b43f0&is=6879f270&hm=7f4de318bf37256c0bdc10b03bad5df40107b737ecaf0d0f483ac5c3b37030ac&)
 
-    ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388596415604854876/wolverine971_Over-the-shoulder_view_of_person_typing_in_Apple_N_12464b30-3c9d-4f8a-a9ee-9adeeba83d09.png?ex=687b43f0&is=6879f270&hm=7f4de318bf37256c0bdc10b03bad5df40107b737ecaf0d0f483ac5c3b37030ac&=&format=webp&quality=lossless&width=550&height=308)
+     ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388596415604854876/wolverine971_Over-the-shoulder_view_of_person_typing_in_Apple_N_12464b30-3c9d-4f8a-a9ee-9adeeba83d09.png?ex=687b43f0&is=6879f270&hm=7f4de318bf37256c0bdc10b03bad5df40107b737ecaf0d0f483ac5c3b37030ac&=&format=webp&quality=lossless&width=550&height=308)
 
-    U1
+     U1
 
-    ,
+     ,
 
-    U2
+     U2
 
-    ,
+     ,
 
-    U3
+     U3
 
-    ,
+     ,
 
-    U4
+     U4
 
-    ,
+     ,
 
-    ![🔄](https://discord.com/assets/e541f62450f233be.svg)
+     ![🔄](https://discord.com/assets/e541f62450f233be.svg)
 
-    ,
+     ,
 
-    ,
+     ,
 
-    V1
+     V1
 
-    ,
+     ,
 
-    V2
+     V2
 
-    ,
+     ,
 
-    V3
+     V3
 
-    ,
+     ,
 
-    V4
+     V4
 
-    ,,
+     ,,
 
-    ,
+     ,
 
-96. _[\_3:07 PM_]\_
+96.  _[\_3:07 PM_]\_
 
-        **Evening over-the-shoulder view of person capturing ideas in Apple Notes on iPhone, "Low Battery - 5% remaining" notification interrupting their brain dump session, clean dark workspace with single warm desk lamp, person's reflection showing mild frustration, minimalist dark aesthetic, realistic photography, premium lifestyle feel, single growth green accent color --ar 16:9 --stylize 200 --no bright lighting, cluttered space, multiple devices --raw** - @Wolverine971 (fast) Create, explore, and organize on [midjourney.com](https://midjourney.com/imagine?from_discord=1 'midjourney.com
+         **Evening over-the-shoulder view of person capturing ideas in Apple Notes on iPhone, "Low Battery - 5% remaining" notification interrupting their brain dump session, clean dark workspace with single warm desk lamp, person's reflection showing mild frustration, minimalist dark aesthetic, realistic photography, premium lifestyle feel, single growth green accent color --ar 16:9 --stylize 200 --no bright lighting, cluttered space, multiple devices --raw** - @Wolverine971 (fast) Create, explore, and organize on [midjourney.com](https://midjourney.com/imagine?from_discord=1 'midjourney.com
 
-    (https://midjourney.com/imagine?from_discord=1)')
+     (https://midjourney.com/imagine?from_discord=1)')
 
-        [](https://cdn.discordapp.com/attachments/1064745971042504725/1388596760099819623/wolverine971_Evening_over-the-shoulder_view_of_person_capturing_c78e9ab9-4d71-45e2-b1cf-3befc269202f.png?ex=687b4442&is=6879f2c2&hm=55b64f64cac9a21926089bae28219810681fc5c405b2203801be017eb97b7759&)
+         [](https://cdn.discordapp.com/attachments/1064745971042504725/1388596760099819623/wolverine971_Evening_over-the-shoulder_view_of_person_capturing_c78e9ab9-4d71-45e2-b1cf-3befc269202f.png?ex=687b4442&is=6879f2c2&hm=55b64f64cac9a21926089bae28219810681fc5c405b2203801be017eb97b7759&)
 
-        ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388596760099819623/wolverine971_Evening_over-the-shoulder_view_of_person_capturing_c78e9ab9-4d71-45e2-b1cf-3befc269202f.png?ex=687b4442&is=6879f2c2&hm=55b64f64cac9a21926089bae28219810681fc5c405b2203801be017eb97b7759&=&format=webp&quality=lossless&width=550&height=308)
+         ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388596760099819623/wolverine971_Evening_over-the-shoulder_view_of_person_capturing_c78e9ab9-4d71-45e2-b1cf-3befc269202f.png?ex=687b4442&is=6879f2c2&hm=55b64f64cac9a21926089bae28219810681fc5c405b2203801be017eb97b7759&=&format=webp&quality=lossless&width=550&height=308)
 
-        U1
+         U1
 
-        ,
+         ,
 
-        U2
+         U2
 
-        ,
+         ,
 
-        U3
+         U3
 
-        ,
+         ,
 
-        U4
+         U4
 
-        ,
+         ,
 
-        ![🔄](https://discord.com/assets/e541f62450f233be.svg)
+         ![🔄](https://discord.com/assets/e541f62450f233be.svg)
 
-        ,
+         ,
 
-        ,
+         ,
 
-        V1
+         V1
 
-        ,
+         ,
 
-        V2
+         V2
 
-        ,
+         ,
 
-        V3
+         V3
 
-        ,
+         ,
 
-        V4
+         V4
 
-        ,,
+         ,,
 
-        ,
+         ,
 
-97. ![](https://cdn.discordapp.com/avatars/642568082245812224/a9721ba9511c0765914212ad56aaa819.webp?size=16)Wolverine971 used
+97.  ![](https://cdn.discordapp.com/avatars/642568082245812224/a9721ba9511c0765914212ad56aaa819.webp?size=16)Wolverine971 used
 
-    describe
+     describe
 
-    ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
+     ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
 
-    ### Midjourney BotAPP _—_ 6/28/2025 3:10 PM
+     ### Midjourney BotAPP _—_ 6/28/2025 3:10 PM
 
-    ![1️⃣](https://discord.com/assets/83f7cb2c2f4230cd.svg) A minimalistic modern mobile app design in Figma of an iphone with the text " alning album release title" and then below it is written on top, " track list for song", against a blue background. The style should be flat illustration, using purple as primary color and black to highlight details. It's set within the "5/20/23". This image captures essence of simplicity while providing clarity and focus. --ar 66:67 ![2️⃣](https://discord.com/assets/f36ae3caed2a0bae.svg) A mobile app design for "See the new album release track list on your phone" with text that says, "Messy notes title", simple flat UI illustration style, purple and black color palette, on blue background, mobile screen. The overall theme is minimalistic, sleek, user-friendly, and visually appealing to users of all ages. --ar 66:67 ![3️⃣](https://discord.com/assets/a20044fbde269579.svg) A minimalistic design of an app on the screen with text "solid black and purple" as title, inside it is written in white font " track list for album release", below there's another line where we can write some text. The background color should be light blue. On top right corner we see date 05/23/24/26/27/28/29/30/31/2024, underneath that area you have five different buttons to choose from, one button will take us back home page, two boxes for health plan choice selection and three more buttons with --ar 66:67 ![4️⃣](https://discord.com/assets/9d281daf39198aee.svg) modern app UI, flat design, mobile phone with the text "Custom notes" and below it is written in purple letters on an isolated blue background, next to that there's another custom note saying " Were coming out of dark era and into great things", under the words we see two visually stunning words saying " album release title" and underneath one says " track list". The whole thing looks like an app screen with white space around each element. --ar 66:67
+     ![1️⃣](https://discord.com/assets/83f7cb2c2f4230cd.svg) A minimalistic modern mobile app design in Figma of an iphone with the text " alning album release title" and then below it is written on top, " track list for song", against a blue background. The style should be flat illustration, using purple as primary color and black to highlight details. It's set within the "5/20/23". This image captures essence of simplicity while providing clarity and focus. --ar 66:67 ![2️⃣](https://discord.com/assets/f36ae3caed2a0bae.svg) A mobile app design for "See the new album release track list on your phone" with text that says, "Messy notes title", simple flat UI illustration style, purple and black color palette, on blue background, mobile screen. The overall theme is minimalistic, sleek, user-friendly, and visually appealing to users of all ages. --ar 66:67 ![3️⃣](https://discord.com/assets/a20044fbde269579.svg) A minimalistic design of an app on the screen with text "solid black and purple" as title, inside it is written in white font " track list for album release", below there's another line where we can write some text. The background color should be light blue. On top right corner we see date 05/23/24/26/27/28/29/30/31/2024, underneath that area you have five different buttons to choose from, one button will take us back home page, two boxes for health plan choice selection and three more buttons with --ar 66:67 ![4️⃣](https://discord.com/assets/9d281daf39198aee.svg) modern app UI, flat design, mobile phone with the text "Custom notes" and below it is written in purple letters on an isolated blue background, next to that there's another custom note saying " Were coming out of dark era and into great things", under the words we see two visually stunning words saying " album release title" and underneath one says " track list". The whole thing looks like an app screen with white space around each element. --ar 66:67
 
-    [](https://cdn.discordapp.com/ephemeral-attachments/1092492867185950852/1388597480417132544/buildos-art.PNG?ex=687b44ee&is=6879f36e&hm=fc5bd7115042f59243b42d0b9485c882d4919d93648e4f3abfa556266dfc12d6&)
+     [](https://cdn.discordapp.com/ephemeral-attachments/1092492867185950852/1388597480417132544/buildos-art.PNG?ex=687b44ee&is=6879f36e&hm=fc5bd7115042f59243b42d0b9485c882d4919d93648e4f3abfa556266dfc12d6&)
 
-    ![Image](https://discord.com/assets/e4a502bfc6589d65.svg)
+     ![Image](https://discord.com/assets/e4a502bfc6589d65.svg)
 
-    ![1️⃣](https://discord.com/assets/83f7cb2c2f4230cd.svg)
+     ![1️⃣](https://discord.com/assets/83f7cb2c2f4230cd.svg)
 
-    ,
+     ,
 
-    ![2️⃣](https://discord.com/assets/f36ae3caed2a0bae.svg)
+     ![2️⃣](https://discord.com/assets/f36ae3caed2a0bae.svg)
 
-    ,
+     ,
 
-    ![3️⃣](https://discord.com/assets/a20044fbde269579.svg)
+     ![3️⃣](https://discord.com/assets/a20044fbde269579.svg)
 
-    ,
+     ,
 
-    ![4️⃣](https://discord.com/assets/9d281daf39198aee.svg)
+     ![4️⃣](https://discord.com/assets/9d281daf39198aee.svg)
 
-    ,
+     ,
 
-    ![🔄](https://discord.com/assets/e541f62450f233be.svg)
+     ![🔄](https://discord.com/assets/e541f62450f233be.svg)
 
-    ,
+     ,
 
-    ,
+     ,
 
-    ![🎉](https://discord.com/assets/f7750b45770701de.svg)
+     ![🎉](https://discord.com/assets/f7750b45770701de.svg)
 
-    Imagine all
+     Imagine all
 
-    ,
+     ,
 
-    ,
+     ,
 
-98. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
+98.  ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
 
-    ### Midjourney BotAPP _—_ 6/28/2025 3:12 PM
+     ### Midjourney BotAPP _—_ 6/28/2025 3:12 PM
 
-    **A minimalistic modern mobile app design in Figma of a mountains icon, flat icon, game asset, blues and neon, against a blue background. The style should be flat illustration, using purple as primary color and black to highlight details. This image captures essence of simplicity while providing clarity and focus** - @Wolverine971 (fast)
+     **A minimalistic modern mobile app design in Figma of a mountains icon, flat icon, game asset, blues and neon, against a blue background. The style should be flat illustration, using purple as primary color and black to highlight details. This image captures essence of simplicity while providing clarity and focus** - @Wolverine971 (fast)
 
-    [](https://cdn.discordapp.com/attachments/1064745971042504725/1388597981217034520/wolverine971_A_minimalistic_modern_mobile_app_design_in_Figma_o_04dfa12f-b8a1-41a1-84de-7c24ce4534ba.png?ex=687b4565&is=6879f3e5&hm=204ff2796b9493eefebccc78dbe9ab962041204473dd9aa37940324c3f2bb2b3&)
+     [](https://cdn.discordapp.com/attachments/1064745971042504725/1388597981217034520/wolverine971_A_minimalistic_modern_mobile_app_design_in_Figma_o_04dfa12f-b8a1-41a1-84de-7c24ce4534ba.png?ex=687b4565&is=6879f3e5&hm=204ff2796b9493eefebccc78dbe9ab962041204473dd9aa37940324c3f2bb2b3&)
 
-    ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388597981217034520/wolverine971_A_minimalistic_modern_mobile_app_design_in_Figma_o_04dfa12f-b8a1-41a1-84de-7c24ce4534ba.png?ex=687b4565&is=6879f3e5&hm=204ff2796b9493eefebccc78dbe9ab962041204473dd9aa37940324c3f2bb2b3&=&format=webp&quality=lossless&width=350&height=350)
+     ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388597981217034520/wolverine971_A_minimalistic_modern_mobile_app_design_in_Figma_o_04dfa12f-b8a1-41a1-84de-7c24ce4534ba.png?ex=687b4565&is=6879f3e5&hm=204ff2796b9493eefebccc78dbe9ab962041204473dd9aa37940324c3f2bb2b3&=&format=webp&quality=lossless&width=350&height=350)
 
-    U1
+     U1
 
-    ,
+     ,
 
-    U2
+     U2
 
-    ,
+     ,
 
-    U3
+     U3
 
-    ,
+     ,
 
-    U4
+     U4
 
-    ,
+     ,
 
-    ![🔄](https://discord.com/assets/e541f62450f233be.svg)
+     ![🔄](https://discord.com/assets/e541f62450f233be.svg)
 
-    ,
+     ,
 
-    ,
+     ,
 
-    V1
+     V1
 
-    ,
+     ,
 
-    V2
+     V2
 
-    ,
+     ,
 
-    V3
+     V3
 
-    ,
+     ,
 
-    V4
+     V4
 
-    ,,
+     ,,
 
-    ,
+     ,
 
-99. _[\_3:13 PM_]\_
+99.  _[\_3:13 PM_]\_
 
-    **mountains icon, Vector Illustration, Flat Design Illustration, Isometric Illustration, game asset, blues and neon** - @Wolverine971 (fast)
+     **mountains icon, Vector Illustration, Flat Design Illustration, Isometric Illustration, game asset, blues and neon** - @Wolverine971 (fast)
 
-    [](https://cdn.discordapp.com/attachments/1064745971042504725/1388598210251063428/wolverine971_mountains_icon_Vector_Illustration_Flat_Design_Ill_cccfae2c-acb8-4285-bc1f-e79ced5d6574.png?ex=687b459c&is=6879f41c&hm=850b0eaae84ad27beed6b84b62bc343e8d9839ffdf13d5dac03b4f612c48aabf&)
+     [](https://cdn.discordapp.com/attachments/1064745971042504725/1388598210251063428/wolverine971_mountains_icon_Vector_Illustration_Flat_Design_Ill_cccfae2c-acb8-4285-bc1f-e79ced5d6574.png?ex=687b459c&is=6879f41c&hm=850b0eaae84ad27beed6b84b62bc343e8d9839ffdf13d5dac03b4f612c48aabf&)
 
-    ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388598210251063428/wolverine971_mountains_icon_Vector_Illustration_Flat_Design_Ill_cccfae2c-acb8-4285-bc1f-e79ced5d6574.png?ex=687b459c&is=6879f41c&hm=850b0eaae84ad27beed6b84b62bc343e8d9839ffdf13d5dac03b4f612c48aabf&=&format=webp&quality=lossless&width=350&height=350)
+     ![Image](https://media.discordapp.net/attachments/1064745971042504725/1388598210251063428/wolverine971_mountains_icon_Vector_Illustration_Flat_Design_Ill_cccfae2c-acb8-4285-bc1f-e79ced5d6574.png?ex=687b459c&is=6879f41c&hm=850b0eaae84ad27beed6b84b62bc343e8d9839ffdf13d5dac03b4f612c48aabf&=&format=webp&quality=lossless&width=350&height=350)
 
-    U1
+     U1
 
-    ,
+     ,
 
-    U2
+     U2
 
-    ,
+     ,
 
-    U3
+     U3
 
-    ,
+     ,
 
-    U4
+     U4
 
-    ,
+     ,
 
-    ![🔄](https://discord.com/assets/e541f62450f233be.svg)
+     ![🔄](https://discord.com/assets/e541f62450f233be.svg)
 
-    ,
+     ,
 
-    ,
+     ,
 
-    V1
+     V1
 
-    ,
+     ,
 
-    V2
+     V2
 
-    ,
+     ,
 
-    V3
+     V3
 
-    ,
+     ,
 
-    V4
+     V4
 
-    ,,
+     ,,
 
-    ,
+     ,
 
-100.  ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
-
+100. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
 
     ### Midjourney BotAPP _—_ 6/28/2025 4:20 PM
 
@@ -4514,7 +4513,6 @@ June 28, 2025
 
 101. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
 
-
     ### Midjourney BotAPP _—_ 6/28/2025 9:38 PM
 
     **a mountains icon, flat icon, minimalistic modern design in Figma** - @Wolverine971 (fast)
@@ -4563,7 +4561,7 @@ June 28, 2025
 
     ,
 
-102.  _[\_9:39 PM_]\_
+102. _[\_9:39 PM_]\_
 
                  **[https://s.mj.run/RtFeMMTe9nk](https://s.mj.run/RtFeMMTe9nk 'https://s.mj.run/RtFeMMTe9nk
 
@@ -4714,7 +4712,6 @@ June 28, 2025
 
 104. ![](https://cdn.discordapp.com/avatars/642568082245812224/a9721ba9511c0765914212ad56aaa819.webp?size=16)Wolverine971 used
 
-
     describe
 
     ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
@@ -4758,7 +4755,6 @@ June 28, 2025
     ,
 
 105. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
-
 
     ### Midjourney BotAPP _—_ 6/28/2025 9:42 PM
 
@@ -4808,7 +4804,7 @@ June 28, 2025
 
     ,
 
-106.  _[\_9:43 PM_]\_
+106. _[\_9:43 PM_]\_
 
            **mountain range, purple-blue gradient color scheme, vector logo, simple design, flat colors, simple shapes and lines, dark background** - @Wolverine971 (fast) Create, explore, and organize on [midjourney.com](https://midjourney.com/imagine?from_discord=1 'midjourney.com
 
@@ -5055,7 +5051,6 @@ June 28, 2025
 July 3, 2025
 
 111. ![](https://cdn.discordapp.com/avatars/936929561302675456/f6ce562a6b4979c4b1cbc5b436d3be76.webp?size=80)
-
 
     ### Midjourney BotAPP _—_ 7/3/2025 12:22 PM
 

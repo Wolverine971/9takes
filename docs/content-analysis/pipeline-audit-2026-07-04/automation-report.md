@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/pipeline-audit-2026-07-04/automation-report.md -->
+
 # 9takes Nightly Blog Pipeline — Automation Integrity Audit
 
 Read-only audit of failure semantics across the four automation scripts. Every

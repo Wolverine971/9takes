@@ -560,8 +560,7 @@
 										bind:value={editingCampaign.description}
 										class="field-input field-textarea"
 										placeholder="Campaign description"
-										rows="3"
-									></textarea>
+										rows="3"></textarea>
 								</label>
 
 								<div class="field-row">
@@ -636,8 +635,7 @@
 												bind:value={editingCampaign.target_audience}
 												class="field-input field-textarea"
 												placeholder="Who is this campaign targeting?"
-												rows="2"
-											></textarea>
+												rows="2"></textarea>
 										</label>
 										<label class="field">
 											<span class="field-label">Themes and Topics</span>
@@ -646,8 +644,7 @@
 												bind:value={editingCampaign.themes_and_topics}
 												class="field-input field-textarea"
 												placeholder="Key themes and topics"
-												rows="2"
-											></textarea>
+												rows="2"></textarea>
 										</label>
 										<label class="field">
 											<span class="field-label">Target Hashtags</span>
@@ -880,8 +877,7 @@
 						bind:value={newCampaign.description}
 						placeholder="Enter campaign description"
 						rows="3"
-						class="field-input field-textarea"
-					></textarea>
+						class="field-input field-textarea"></textarea>
 				</label>
 
 				<div class="field-row">
@@ -937,8 +933,7 @@
 								bind:value={newCampaign.target_audience}
 								placeholder="Who is this campaign targeting?"
 								rows="2"
-								class="field-input field-textarea"
-							></textarea>
+								class="field-input field-textarea"></textarea>
 						</label>
 						<label class="field">
 							<span class="field-label">Themes and Topics</span>
@@ -947,8 +942,7 @@
 								bind:value={newCampaign.themes_and_topics}
 								placeholder="Key themes and topics for this campaign"
 								rows="2"
-								class="field-input field-textarea"
-							></textarea>
+								class="field-input field-textarea"></textarea>
 						</label>
 						<label class="field">
 							<span class="field-label">Target Hashtags</span>

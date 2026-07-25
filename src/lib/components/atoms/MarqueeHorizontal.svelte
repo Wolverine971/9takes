@@ -1,6 +1,7 @@
 <!-- src/lib/components/atoms/MarqueeHorizontal.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 
 	type DisplayItem = {
 		name: string;
@@ -101,7 +102,7 @@
 </script>
 
 <svelte:head>
-	{@html `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`}
+	{@html `<script type="application/ld+json">${serializeJsonLd(jsonLd)}</script>`}
 </svelte:head>
 
 <div

@@ -59,20 +59,22 @@ For every personality analysis blog, follow this repeatable process:
 ### Benson Boone
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
+
+| Subreddit     | Approach                                                         |
+| ------------- | ---------------------------------------------------------------- |
 | r/bensonboone | Discussion post: "What personality type do you think Benson is?" |
-| r/popheads | Frame as music psychology discussion, not link drop |
-| r/Enneagram | Celebrity typing case study |
-| r/coachella | If referencing his Coachella performance |
+| r/popheads    | Frame as music psychology discussion, not link drop              |
+| r/Enneagram   | Celebrity typing case study                                      |
+| r/coachella   | If referencing his Coachella performance                         |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Benson Boone (official) | @bensonboone |
+
+| Target                            | Handle                                            |
+| --------------------------------- | ------------------------------------------------- |
+| Benson Boone (official)           | @bensonboone                                      |
 | Benson Boone Access (fan account) | @BooneAccess (email: accessbensonboone@gmail.com) |
-| Benson Boone News | @BensonBooneNews |
-| Switched on Pop podcast | @SwitchedOnPop |
+| Benson Boone News                 | @BensonBooneNews                                  |
+| Switched on Pop podcast           | @SwitchedOnPop                                    |
 
 **Hashtags:** #BensonBoone, #FireworksAndRollerblades, #AmericanHeart, #Enneagram
 
@@ -83,12 +85,13 @@ For every personality analysis blog, follow this repeatable process:
 - Personality Database profile (engage in comments where people debate his type)
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Switched on Pop (Nate Sloan & Charlie Harding) | Already did a Benson Boone episode | booking@switchedonpop.com |
-| When The Horn Blows (Anthony Adams) | Reviewed his album | anthony@whenthehornblows.com |
-| EK Carlisle (Substack) | Wrote a Benson Boone analysis piece | Via Substack |
-| Psychology Junkie (Susan Storm) | Publishes Enneagram celebrity content | Via psychologyjunkie.com |
+
+| Target                                         | Why                                   | Contact                      |
+| ---------------------------------------------- | ------------------------------------- | ---------------------------- |
+| Switched on Pop (Nate Sloan & Charlie Harding) | Already did a Benson Boone episode    | booking@switchedonpop.com    |
+| When The Horn Blows (Anthony Adams)            | Reviewed his album                    | anthony@whenthehornblows.com |
+| EK Carlisle (Substack)                         | Wrote a Benson Boone analysis piece   | Via Substack                 |
+| Psychology Junkie (Susan Storm)                | Publishes Enneagram celebrity content | Via psychologyjunkie.com     |
 
 **Blogs accepting guest posts/tips:**
 
@@ -101,20 +104,22 @@ For every personality analysis blog, follow this repeatable process:
 ### Chris Williamson
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/DecodingTheGurus | Already debates his psychology -- perfect fit |
-| r/IntellectualDarkWeb | Associated with IDW sphere |
-| r/selfimprovement | Frame around "what drives self-improvement leaders" |
-| r/getdisciplined | His core audience |
-| r/Podcasts | Content about major podcasters |
-| r/Enneagram | Celebrity typing case study |
+
+| Subreddit             | Approach                                            |
+| --------------------- | --------------------------------------------------- |
+| r/DecodingTheGurus    | Already debates his psychology -- perfect fit       |
+| r/IntellectualDarkWeb | Associated with IDW sphere                          |
+| r/selfimprovement     | Frame around "what drives self-improvement leaders" |
+| r/getdisciplined      | His core audience                                   |
+| r/Podcasts            | Content about major podcasters                      |
+| r/Enneagram           | Celebrity typing case study                         |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Chris Williamson (official) | @ChrisWillx |
-| Modern Wisdom (podcast) | @ModernWisdomMe |
+
+| Target                      | Handle          |
+| --------------------------- | --------------- |
+| Chris Williamson (official) | @ChrisWillx     |
+| Modern Wisdom (podcast)     | @ModernWisdomMe |
 
 **Hashtags:** #ModernWisdom, #ChrisWilliamson, #3MinuteMonday, #Enneagram, #SelfImprovement
 
@@ -126,12 +131,13 @@ For every personality analysis blog, follow this repeatable process:
 - Personality Cafe forums
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Jay Clouse (Creator Science) | Already profiled Williamson in depth | creatorscience.com |
-| Chris Williamson directly | May share with 80K+ newsletter subs | chriswillx.com/contact |
-| Aporia Magazine | Published piece on positive masculinity referencing him | aporiamagazine.com |
-| Courtney Kocak (Podcast Bestie newsletter) | Covers podcast industry | podcastbestie.substack.com |
+
+| Target                                     | Why                                                     | Contact                    |
+| ------------------------------------------ | ------------------------------------------------------- | -------------------------- |
+| Jay Clouse (Creator Science)               | Already profiled Williamson in depth                    | creatorscience.com         |
+| Chris Williamson directly                  | May share with 80K+ newsletter subs                     | chriswillx.com/contact     |
+| Aporia Magazine                            | Published piece on positive masculinity referencing him | aporiamagazine.com         |
+| Courtney Kocak (Podcast Bestie newsletter) | Covers podcast industry                                 | podcastbestie.substack.com |
 
 **Blogs/sites with existing Williamson content:**
 
@@ -144,20 +150,22 @@ For every personality analysis blog, follow this repeatable process:
 ### John Coogan
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/startups | Frame around founder psychology |
-| r/Entrepreneur | "What personality type drives the most successful tech founders?" |
-| r/venturecapital | Founders Fund / VC angle |
-| r/mealtimevideos | If blog has a video component |
-| r/Enneagram | Celebrity typing case study |
+
+| Subreddit        | Approach                                                          |
+| ---------------- | ----------------------------------------------------------------- |
+| r/startups       | Frame around founder psychology                                   |
+| r/Entrepreneur   | "What personality type drives the most successful tech founders?" |
+| r/venturecapital | Founders Fund / VC angle                                          |
+| r/mealtimevideos | If blog has a video component                                     |
+| r/Enneagram      | Celebrity typing case study                                       |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
+
+| Target                 | Handle      |
+| ---------------------- | ----------- |
 | John Coogan (official) | @johncoogan |
-| TBPN (his show) | @tbpn |
-| Jordi Hays (co-host) | @jordihays |
+| TBPN (his show)        | @tbpn       |
+| Jordi Hays (co-host)   | @jordihays  |
 
 **Hashtags:** #TBPN, #TechYouTube, #SiliconValley, #Startups, #Enneagram
 
@@ -169,14 +177,15 @@ For every personality analysis blog, follow this repeatable process:
 - Personality Database (check if he has an entry; create one if not)
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Startup Spells newsletter | Already analyzed TBPN's marketing strategy | startupspells.com |
-| J. Dahl (Substack) | Wrote a detailed TBPN breakdown | jdahl.substack.com |
-| Cyber Patterns | Has directly interviewed Coogan | cyberpatterns.xyz |
-| No Cap Blog | Has a Coogan founder profile | nocap.blog |
-| John Coogan directly | May share or engage | Via @johncoogan on X |
-| Originality with Jessica Dalton | Enneagram coach who profiles entrepreneurs | Podcast outreach |
+
+| Target                          | Why                                        | Contact              |
+| ------------------------------- | ------------------------------------------ | -------------------- |
+| Startup Spells newsletter       | Already analyzed TBPN's marketing strategy | startupspells.com    |
+| J. Dahl (Substack)              | Wrote a detailed TBPN breakdown            | jdahl.substack.com   |
+| Cyber Patterns                  | Has directly interviewed Coogan            | cyberpatterns.xyz    |
+| No Cap Blog                     | Has a Coogan founder profile               | nocap.blog           |
+| John Coogan directly            | May share or engage                        | Via @johncoogan on X |
+| Originality with Jessica Dalton | Enneagram coach who profiles entrepreneurs | Podcast outreach     |
 
 **Guest post targets:**
 
@@ -191,24 +200,26 @@ For every personality analysis blog, follow this repeatable process:
 ### Shawn Ryan
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
+
+| Subreddit       | Approach                                    |
+| --------------- | ------------------------------------------- |
 | r/ShawnRyanShow | Dedicated subreddit -- highest-value target |
-| r/Military | Veteran personality discussion |
-| r/NavySEALs | SEAL culture and notable SEALs |
-| r/Veterans | Veteran public figures |
-| r/JoeRogan | Large crossover audience |
-| r/LexFridman | Crossover audience |
-| r/Enneagram | Celebrity typing case study |
+| r/Military      | Veteran personality discussion              |
+| r/NavySEALs     | SEAL culture and notable SEALs              |
+| r/Veterans      | Veteran public figures                      |
+| r/JoeRogan      | Large crossover audience                    |
+| r/LexFridman    | Crossover audience                          |
+| r/Enneagram     | Celebrity typing case study                 |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Shawn Ryan (official) | @ShawnRyan762 |
-| Andy Stumpf (Cleared Hot) | @andystumpf |
-| Jack Carr (author) | @JackCarrUSA |
-| Tim Kennedy | @TimKennedyMMA |
-| Evan Hafer (BRCC) | @EvanHafer |
+
+| Target                    | Handle         |
+| ------------------------- | -------------- |
+| Shawn Ryan (official)     | @ShawnRyan762  |
+| Andy Stumpf (Cleared Hot) | @andystumpf    |
+| Jack Carr (author)        | @JackCarrUSA   |
+| Tim Kennedy               | @TimKennedyMMA |
+| Evan Hafer (BRCC)         | @EvanHafer     |
 
 **Hashtags:** #ShawnRyanShow, #SRS, #NavySEAL, #SpecialOperations, #Veterans, #Enneagram
 
@@ -222,13 +233,14 @@ For every personality analysis blog, follow this repeatable process:
 - Facebook groups: search "Shawn Ryan Show"
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| SOFREP (Brandon Webb) | Special ops focused media, founded by former SEAL | sofrep.com |
-| Coffee or Die Magazine | BRCC's media arm, covers veteran figures | coffeeordie.com |
-| Task & Purpose | Major military news/culture site | tips@taskandpurpose.com |
-| Havok Journal | Veteran-run blog, accepts guest contributions | havokjournal.com |
-| Sandboxx | Military lifestyle and news | sandboxx.us |
+
+| Target                 | Why                                               | Contact                 |
+| ---------------------- | ------------------------------------------------- | ----------------------- |
+| SOFREP (Brandon Webb)  | Special ops focused media, founded by former SEAL | sofrep.com              |
+| Coffee or Die Magazine | BRCC's media arm, covers veteran figures          | coffeeordie.com         |
+| Task & Purpose         | Major military news/culture site                  | tips@taskandpurpose.com |
+| Havok Journal          | Veteran-run blog, accepts guest contributions     | havokjournal.com        |
+| Sandboxx               | Military lifestyle and news                       | sandboxx.us             |
 
 **Military/Veteran Publications for Guest Posts:**
 
@@ -243,22 +255,24 @@ For every personality analysis blog, follow this repeatable process:
 ### Ali Abdaal
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/productivity | Core topic overlap -- Ali is frequently discussed here |
-| r/getdisciplined | Self-improvement audience |
-| r/Enneagram | Celebrity typing case study (typed as 3w2) |
-| r/mbti | Personality debate (ENTJ vs ESTP) |
-| r/medicalschool | His origin story as a Cambridge-trained doctor |
-| r/NewTubers | Aspiring creators who study his approach |
+
+| Subreddit        | Approach                                               |
+| ---------------- | ------------------------------------------------------ |
+| r/productivity   | Core topic overlap -- Ali is frequently discussed here |
+| r/getdisciplined | Self-improvement audience                              |
+| r/Enneagram      | Celebrity typing case study (typed as 3w2)             |
+| r/mbti           | Personality debate (ENTJ vs ESTP)                      |
+| r/medicalschool  | His origin story as a Cambridge-trained doctor         |
+| r/NewTubers      | Aspiring creators who study his approach               |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Ali Abdaal (official) | @AliAbdaal |
-| Taimur Abdaal (brother, co-host) | @TaimurAbdaal |
-| Jay Clouse (Creator Science) | @JayClouse |
-| Steven Bartlett (DOAC) | @StevenBartlett |
+
+| Target                           | Handle          |
+| -------------------------------- | --------------- |
+| Ali Abdaal (official)            | @AliAbdaal      |
+| Taimur Abdaal (brother, co-host) | @TaimurAbdaal   |
+| Jay Clouse (Creator Science)     | @JayClouse      |
+| Steven Bartlett (DOAC)           | @StevenBartlett |
 
 **Hashtags:** #AliAbdaal, #FeelGoodProductivity, #Enneagram, #CreatorEconomy, #ProductivityTips
 
@@ -271,13 +285,14 @@ For every personality analysis blog, follow this repeatable process:
 - Tattle Life thread (58+ pages analyzing his personality and career shift)
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Jay Clouse (Creator Science) | Interviewed Ali at least twice (episodes #37, #192) | creatorscience.com |
-| Dan Shipper (Superorganizers) | Profiled Ali on Substack | superorganizers.substack.com |
-| Nathan Barry (Kit/ConvertKit) | Published Ali case study ($5M revenue) | nathanbarry.com |
-| Ryan Holiday (Daily Stoic) | Two-part interview with Ali | dailystoic.com |
-| Ali Abdaal directly | 670K+ newsletter subscribers | aliabdaal.com/newsletter |
+
+| Target                        | Why                                                 | Contact                      |
+| ----------------------------- | --------------------------------------------------- | ---------------------------- |
+| Jay Clouse (Creator Science)  | Interviewed Ali at least twice (episodes #37, #192) | creatorscience.com           |
+| Dan Shipper (Superorganizers) | Profiled Ali on Substack                            | superorganizers.substack.com |
+| Nathan Barry (Kit/ConvertKit) | Published Ali case study ($5M revenue)              | nathanbarry.com              |
+| Ryan Holiday (Daily Stoic)    | Two-part interview with Ali                         | dailystoic.com               |
+| Ali Abdaal directly           | 670K+ newsletter subscribers                        | aliabdaal.com/newsletter     |
 
 **Blogs/guest post targets:**
 
@@ -296,20 +311,22 @@ For every personality analysis blog, follow this repeatable process:
 ### Chappell Roan
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/chappellroan | Dedicated fan community -- highest-value target |
-| r/popheads | Largest pop music discussion sub; very active Chappell discourse |
-| r/Enneagram | Personality typing case study |
-| r/popculturechat | Celebrity analysis performs well here |
-| r/actuallesbians | She's a queer icon; frame around authenticity |
-| r/indieheads | Her Midwest indie roots before mainstream breakout |
+
+| Subreddit        | Approach                                                         |
+| ---------------- | ---------------------------------------------------------------- |
+| r/chappellroan   | Dedicated fan community -- highest-value target                  |
+| r/popheads       | Largest pop music discussion sub; very active Chappell discourse |
+| r/Enneagram      | Personality typing case study                                    |
+| r/popculturechat | Celebrity analysis performs well here                            |
+| r/actuallesbians | She's a queer icon; frame around authenticity                    |
+| r/indieheads     | Her Midwest indie roots before mainstream breakout               |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Chappell Roan (official) | @ChappellRoan |
-| Fan update account | @ChappellUpdate |
+
+| Target                   | Handle          |
+| ------------------------ | --------------- |
+| Chappell Roan (official) | @ChappellRoan   |
+| Fan update account       | @ChappellUpdate |
 
 **Hashtags:** #ChappellRoan, #GoodLuckBabe, #HotToGo, #MidwestPrincess, #PinkPonyClub, #Enneagram, #QueerPop
 
@@ -321,13 +338,14 @@ For every personality analysis blog, follow this repeatable process:
 - TikTok #ChappellRoan community (billions of views)
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Larisha Paul (Rolling Stone) | Wrote multiple Chappell Roan features | Via Rolling Stone |
-| Cat Zhang (Pitchfork) | Covered her rise extensively | Via Pitchfork |
-| Switched on Pop podcast | Music analysis format match | booking@switchedonpop.com |
-| Popcast (NYT) | Jon Caramanica covered the Chappell phenomenon | Via NYT |
-| Las Culturistas podcast | Matt Rogers & Bowen Yang -- pop culture + queer lens | Via podcast contact |
+
+| Target                       | Why                                                  | Contact                   |
+| ---------------------------- | ---------------------------------------------------- | ------------------------- |
+| Larisha Paul (Rolling Stone) | Wrote multiple Chappell Roan features                | Via Rolling Stone         |
+| Cat Zhang (Pitchfork)        | Covered her rise extensively                         | Via Pitchfork             |
+| Switched on Pop podcast      | Music analysis format match                          | booking@switchedonpop.com |
+| Popcast (NYT)                | Jon Caramanica covered the Chappell phenomenon       | Via NYT                   |
+| Las Culturistas podcast      | Matt Rogers & Bowen Yang -- pop culture + queer lens | Via podcast contact       |
 
 **Blogs/publications:**
 
@@ -346,23 +364,25 @@ For every personality analysis blog, follow this repeatable process:
 ### Pete Davidson
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/PeteDavidson | Dedicated sub |
-| r/SNL / r/LiveFromNewYork | 8 seasons as cast member |
-| r/StandUpComedy | Comedy specials discussion |
-| r/BPD | One of the most visible public figures with BPD -- high-value, respectful angle |
-| r/mentalhealth | His openness about therapy |
-| r/Enneagram | Personality typing case study |
-| r/Netflix | His new Netflix podcast launched Jan 2026 -- timely |
+
+| Subreddit                 | Approach                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------- |
+| r/PeteDavidson            | Dedicated sub                                                                   |
+| r/SNL / r/LiveFromNewYork | 8 seasons as cast member                                                        |
+| r/StandUpComedy           | Comedy specials discussion                                                      |
+| r/BPD                     | One of the most visible public figures with BPD -- high-value, respectful angle |
+| r/mentalhealth            | His openness about therapy                                                      |
+| r/Enneagram               | Personality typing case study                                                   |
+| r/Netflix                 | His new Netflix podcast launched Jan 2026 -- timely                             |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Pete Davidson | @petedavidson (largely dormant -- mental health reasons) |
-| Fan accounts | @davidsonupdate, @davidsonpics, @davidsonfiles |
-| NBC SNL | @nbcsnl |
-| Netflix Is A Joke | @NetflixIsAJoke |
+
+| Target            | Handle                                                   |
+| ----------------- | -------------------------------------------------------- |
+| Pete Davidson     | @petedavidson (largely dormant -- mental health reasons) |
+| Fan accounts      | @davidsonupdate, @davidsonpics, @davidsonfiles           |
+| NBC SNL           | @nbcsnl                                                  |
+| Netflix Is A Joke | @NetflixIsAJoke                                          |
 
 **Hashtags:** #PeteDavidson, #TurboFonzarelli, #ThePeteDavidsonShow, #BPD, #MentalHealthAwareness, #SNL, #Enneagram
 
@@ -372,13 +392,14 @@ For every personality analysis blog, follow this repeatable process:
 - YouTube comment sections on his specials/interviews
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
+
+| Target                                          | Why                                              | Contact                   |
+| ----------------------------------------------- | ------------------------------------------------ | ------------------------- |
 | Mollie Adler (Back From the Borderline podcast) | Already did a Pete Davidson BPD analysis episode | backfromtheborderline.com |
-| Jon Bernthal (Real Ones podcast) | Pete did a deeply personal PTSD/BPD interview | Via podcast |
-| Hosts of "Waiting for Davidson" podcast | Entire podcast themed around Pete | Via Apple Podcasts |
-| Emotions Matter (BPD nonprofit) | 501(c)(3) for BPD advocacy | emotionsmatterbpd.org |
-| Rosie Cappuccino (Talking About BPD) | Author, 19.8K Twitter followers | talkingaboutbpd.co.uk |
+| Jon Bernthal (Real Ones podcast)                | Pete did a deeply personal PTSD/BPD interview    | Via podcast               |
+| Hosts of "Waiting for Davidson" podcast         | Entire podcast themed around Pete                | Via Apple Podcasts        |
+| Emotions Matter (BPD nonprofit)                 | 501(c)(3) for BPD advocacy                       | emotionsmatterbpd.org     |
+| Rosie Cappuccino (Talking About BPD)            | Author, 19.8K Twitter followers                  | talkingaboutbpd.co.uk     |
 
 **Blogs/publications:**
 
@@ -398,23 +419,25 @@ For every personality analysis blog, follow this repeatable process:
 ### Dax Shepard
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/ArmchairExpert | Dedicated podcast subreddit -- best target |
-| r/Enneagram | Personality typing case study |
-| r/stopdrinking | 900K+ members; his relapse/recovery story resonates deeply |
-| r/recovery | Addiction recovery community |
-| r/podcasts | Major podcaster discussion |
-| r/selfimprovement | His growth narrative fits this audience |
+
+| Subreddit         | Approach                                                   |
+| ----------------- | ---------------------------------------------------------- |
+| r/ArmchairExpert  | Dedicated podcast subreddit -- best target                 |
+| r/Enneagram       | Personality typing case study                              |
+| r/stopdrinking    | 900K+ members; his relapse/recovery story resonates deeply |
+| r/recovery        | Addiction recovery community                               |
+| r/podcasts        | Major podcaster discussion                                 |
+| r/selfimprovement | His growth narrative fits this audience                    |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Dax Shepard (official) | @daxshepard |
+
+| Target                  | Handle          |
+| ----------------------- | --------------- |
+| Dax Shepard (official)  | @daxshepard     |
 | Armchair Expert podcast | @ArmchairExpPod |
-| Kristen Bell | @imkristenbell |
-| Monica Padman (co-host) | (check handle) |
-| Fan account | @DaxShepardFanz |
+| Kristen Bell            | @imkristenbell  |
+| Monica Padman (co-host) | (check handle)  |
+| Fan account             | @DaxShepardFanz |
 
 **Hashtags:** #ArmchairExpert, #DaxShepard, #Enneagram, #SoberLife, #Recovery, #PodcastLife
 
@@ -424,13 +447,14 @@ For every personality analysis blog, follow this repeatable process:
 - armchairexpertpod.com community features
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| The Sober Curator | Published curated list of 33 sober Armchair Expert guests | thesobercurator.com |
-| James Cridland (Podnews) | Podcast industry newsletter, 32,900+ readers | editor@podnews.net |
-| Holly Whitaker (Recovering newsletter) | Author of "Quit Like a Woman," writes about recovery | newsletter.hollywhitaker.com |
-| Tim Ferriss | Dax appeared on his show (Episode #480) | tim.blog |
-| Dan Shipper (Superorganizers) | Covers personality + productivity | Via Substack |
+
+| Target                                 | Why                                                       | Contact                      |
+| -------------------------------------- | --------------------------------------------------------- | ---------------------------- |
+| The Sober Curator                      | Published curated list of 33 sober Armchair Expert guests | thesobercurator.com          |
+| James Cridland (Podnews)               | Podcast industry newsletter, 32,900+ readers              | editor@podnews.net           |
+| Holly Whitaker (Recovering newsletter) | Author of "Quit Like a Woman," writes about recovery      | newsletter.hollywhitaker.com |
+| Tim Ferriss                            | Dax appeared on his show (Episode #480)                   | tim.blog                     |
+| Dan Shipper (Superorganizers)          | Covers personality + productivity                         | Via Substack                 |
 
 **Blogs/publications:**
 
@@ -448,24 +472,26 @@ For every personality analysis blog, follow this repeatable process:
 ### Dolly Parton
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/DollyParton | Dedicated fan sub |
-| r/countrymusic | Country music fans |
-| r/ClassicCountry | Older country music |
-| r/Dollywood | Theme park enthusiasts |
-| r/UpliftingNews | Dolly is a frequent subject |
-| r/philanthropy | Imagination Library angle |
-| r/Enneagram | Personality typing case study |
+
+| Subreddit                  | Approach                                 |
+| -------------------------- | ---------------------------------------- |
+| r/DollyParton              | Dedicated fan sub                        |
+| r/countrymusic             | Country music fans                       |
+| r/ClassicCountry           | Older country music                      |
+| r/Dollywood                | Theme park enthusiasts                   |
+| r/UpliftingNews            | Dolly is a frequent subject              |
+| r/philanthropy             | Imagination Library angle                |
+| r/Enneagram                | Personality typing case study            |
 | r/Tennessee / r/Appalachia | Regional pride and cultural significance |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
+
+| Target                  | Handle                                         |
+| ----------------------- | ---------------------------------------------- |
 | Dolly Parton (official) | @DollyParton (5M+ followers, actively engages) |
-| Dollywood | @Dollywood |
-| Imagination Library | @ImagLibrary |
-| Grand Ole Opry | @opry |
+| Dollywood               | @Dollywood                                     |
+| Imagination Library     | @ImagLibrary                                   |
+| Grand Ole Opry          | @opry                                          |
 
 **Hashtags:** #DollyParton, #Dolly, #WWDD, #CountryMusic, #ImaginationLibrary, #Dollywood, #Enneagram, #Nashville
 
@@ -477,13 +503,14 @@ For every personality analysis blog, follow this repeatable process:
 - Imagination Library parent groups
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Tyler Mahan Coe (Cocaine & Rhinestones podcast) | Deep-dive country music history, massive audience | Via podcast |
-| Jad Abumrad (Dolly Parton's America podcast) | Literally made a Peabody-winning podcast about Dolly | Via WNYC |
-| Marissa R. Moss | Prominent country music journalist, author of "Her Country" | Via social/publication |
-| Jewly Hight (NPR Music) | Nashville-based, covers country deeply | Via NPR |
-| Ian Morgan Cron (Typology podcast) | Enneagram podcast, would love Dolly content | Via podcast |
+
+| Target                                          | Why                                                         | Contact                |
+| ----------------------------------------------- | ----------------------------------------------------------- | ---------------------- |
+| Tyler Mahan Coe (Cocaine & Rhinestones podcast) | Deep-dive country music history, massive audience           | Via podcast            |
+| Jad Abumrad (Dolly Parton's America podcast)    | Literally made a Peabody-winning podcast about Dolly        | Via WNYC               |
+| Marissa R. Moss                                 | Prominent country music journalist, author of "Her Country" | Via social/publication |
+| Jewly Hight (NPR Music)                         | Nashville-based, covers country deeply                      | Via NPR                |
+| Ian Morgan Cron (Typology podcast)              | Enneagram podcast, would love Dolly content                 | Via podcast            |
 
 **Blogs/publications:**
 
@@ -503,22 +530,24 @@ For every personality analysis blog, follow this repeatable process:
 ### Alex Cooper
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/CallHerDaddy | Main fan subreddit |
-| r/CallHerDaddySnark | Snark/critique community -- loves deep analysis |
-| r/Deuxmoi | Celebrity gossip and analysis; Alex is frequently discussed |
-| r/popculturechat | Pop culture discussion |
-| r/podcasts | Major podcaster discussion |
-| r/Enneagram | Personality typing case study |
+
+| Subreddit           | Approach                                                    |
+| ------------------- | ----------------------------------------------------------- |
+| r/CallHerDaddy      | Main fan subreddit                                          |
+| r/CallHerDaddySnark | Snark/critique community -- loves deep analysis             |
+| r/Deuxmoi           | Celebrity gossip and analysis; Alex is frequently discussed |
+| r/popculturechat    | Pop culture discussion                                      |
+| r/podcasts          | Major podcaster discussion                                  |
+| r/Enneagram         | Personality typing case study                               |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Alex Cooper (official) | @alexandracooper |
-| Call Her Daddy podcast | @callherdaddy |
-| SiriusXM | @SiriusXM |
-| Unwell Network (her media company) | @Unwell |
+
+| Target                             | Handle           |
+| ---------------------------------- | ---------------- |
+| Alex Cooper (official)             | @alexandracooper |
+| Call Her Daddy podcast             | @callherdaddy    |
+| SiriusXM                           | @SiriusXM        |
+| Unwell Network (her media company) | @Unwell          |
 
 **Hashtags:** #CallHerDaddy, #AlexCooper, #DaddyGang, #Enneagram, #PodcastCulture, #UnwellNetwork
 
@@ -530,13 +559,14 @@ For every personality analysis blog, follow this repeatable process:
 - Discord fan servers (search for "Call Her Daddy" or "Daddy Gang")
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Ashley Carman (Bloomberg) | Covers podcast industry extensively; covered SiriusXM deal | Via Bloomberg |
-| Nick Quah (The Verge / Hot Pod) | Definitive podcast industry newsletter | Via The Verge |
-| Sarah Fischer (Axios Media Trends) | Covers media deals | Via Axios |
-| James Cridland (Podnews) | Daily podcast newsletter | tips@podnews.net |
-| Betches editors | Strong audience overlap with CHD listeners | betches.com |
+
+| Target                             | Why                                                        | Contact          |
+| ---------------------------------- | ---------------------------------------------------------- | ---------------- |
+| Ashley Carman (Bloomberg)          | Covers podcast industry extensively; covered SiriusXM deal | Via Bloomberg    |
+| Nick Quah (The Verge / Hot Pod)    | Definitive podcast industry newsletter                     | Via The Verge    |
+| Sarah Fischer (Axios Media Trends) | Covers media deals                                         | Via Axios        |
+| James Cridland (Podnews)           | Daily podcast newsletter                                   | tips@podnews.net |
+| Betches editors                    | Strong audience overlap with CHD listeners                 | betches.com      |
 
 **Blogs/publications:**
 
@@ -554,22 +584,24 @@ For every personality analysis blog, follow this repeatable process:
 ### Theo Von
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/TheoVon | Dedicated fan subreddit -- highest-value target |
-| r/StandUpComedy / r/Standup | Comedy discussion |
-| r/Enneagram | Personality typing case study |
-| r/JoeRogan | Theo is a frequent guest; posts about him appear regularly |
-| r/recovery | His openness about addiction |
-| r/podcasts | Podcast discussion |
+
+| Subreddit                   | Approach                                                   |
+| --------------------------- | ---------------------------------------------------------- |
+| r/TheoVon                   | Dedicated fan subreddit -- highest-value target            |
+| r/StandUpComedy / r/Standup | Comedy discussion                                          |
+| r/Enneagram                 | Personality typing case study                              |
+| r/JoeRogan                  | Theo is a frequent guest; posts about him appear regularly |
+| r/recovery                  | His openness about addiction                               |
+| r/podcasts                  | Podcast discussion                                         |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Theo Von (official) | @TheoVon |
+
+| Target                        | Handle         |
+| ----------------------------- | -------------- |
+| Theo Von (official)           | @TheoVon       |
 | Bert Kreischer (close friend) | @BertKreischer |
-| Joe Rogan | @joerogan |
-| Tom Segura | @TomSegura |
+| Joe Rogan                     | @joerogan      |
+| Tom Segura                    | @TomSegura     |
 
 **Hashtags:** #TheoVon, #ThisPastWeekend, #GangGang, #RatKing, #StandUpComedy, #Enneagram
 
@@ -581,13 +613,14 @@ For every personality analysis blog, follow this repeatable process:
 - Facebook Groups: "Theo Von fans" and "This Past Weekend" groups
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Jesse David Fox (Vulture) | Comedy editor, hosts "Good One" podcast | Via Vulture |
-| Jason Zinoman (NYT) | Comedy critic, author of "Letterman" | Via NYT |
-| Seth Simons (Humorism newsletter) | Independent comedy journalist | Via Substack |
-| Ian Morgan Cron (Typology podcast) | Enneagram podcast | Via podcast |
-| The Fix (thefix.com) | Addiction/recovery publication covering celebrity recovery | Via editorial contact |
+
+| Target                             | Why                                                        | Contact               |
+| ---------------------------------- | ---------------------------------------------------------- | --------------------- |
+| Jesse David Fox (Vulture)          | Comedy editor, hosts "Good One" podcast                    | Via Vulture           |
+| Jason Zinoman (NYT)                | Comedy critic, author of "Letterman"                       | Via NYT               |
+| Seth Simons (Humorism newsletter)  | Independent comedy journalist                              | Via Substack          |
+| Ian Morgan Cron (Typology podcast) | Enneagram podcast                                          | Via podcast           |
+| The Fix (thefix.com)               | Addiction/recovery publication covering celebrity recovery | Via editorial contact |
 
 **Blogs/publications:**
 
@@ -606,22 +639,24 @@ For every personality analysis blog, follow this repeatable process:
 ### Dave Portnoy
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/barstoolsports | Main fan subreddit (~92K members; check quarantine status) |
-| r/Entrepreneur | His founder psychology / risk-taking personality |
-| r/wallstreetbets | He became a figure here during the retail trading boom |
-| r/pizza | "One Bite" reviews are iconic |
-| r/Enneagram | Personality typing case study |
-| r/CollegeFootball | Fox's Big Noon Kickoff panel (2025) |
+
+| Subreddit         | Approach                                                   |
+| ----------------- | ---------------------------------------------------------- |
+| r/barstoolsports  | Main fan subreddit (~92K members; check quarantine status) |
+| r/Entrepreneur    | His founder psychology / risk-taking personality           |
+| r/wallstreetbets  | He became a figure here during the retail trading boom     |
+| r/pizza           | "One Bite" reviews are iconic                              |
+| r/Enneagram       | Personality typing case study                              |
+| r/CollegeFootball | Fox's Big Noon Kickoff panel (2025)                        |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
+
+| Target                  | Handle                             |
+| ----------------------- | ---------------------------------- |
 | Dave Portnoy (official) | @stoolpresidente (~3.7M followers) |
-| Barstool Sports | @barstoolsports |
-| Pardon My Take | @PardonMyTake |
-| Big Cat (Dan Katz) | @BarstoolBigCat |
+| Barstool Sports         | @barstoolsports                    |
+| Pardon My Take          | @PardonMyTake                      |
+| Big Cat (Dan Katz)      | @BarstoolBigCat                    |
 
 **Hashtags:** #DavePortnoy, #BarstoolSports, #OneBite, #DDTG, #StoolPresidente, #Enneagram, #CancelMeIfYouCan (his upcoming book -- June 2026)
 
@@ -633,12 +668,13 @@ For every personality analysis blog, follow this repeatable process:
 - Facebook Barstool fan groups
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Ryan Glasspiegel (Front Office Sports) | Broke the Barstool-Fox partnership story | Via Front Office Sports |
-| Brandon Contes (Awful Announcing) | Covers sports media commentary | Via awfulannouncing.com |
-| Awful Announcing editors | Dedicated Barstool Sports archive | awfulannouncing.com |
-| Barrett Media staff | Covered his FS1 viewership and book announcement | barrettmedia.com |
+
+| Target                                 | Why                                              | Contact                 |
+| -------------------------------------- | ------------------------------------------------ | ----------------------- |
+| Ryan Glasspiegel (Front Office Sports) | Broke the Barstool-Fox partnership story         | Via Front Office Sports |
+| Brandon Contes (Awful Announcing)      | Covers sports media commentary                   | Via awfulannouncing.com |
+| Awful Announcing editors               | Dedicated Barstool Sports archive                | awfulannouncing.com     |
+| Barrett Media staff                    | Covered his FS1 viewership and book announcement | barrettmedia.com        |
 
 **Blogs/publications:**
 
@@ -658,23 +694,25 @@ For every personality analysis blog, follow this repeatable process:
 ### Joe Rogan
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/JoeRogan | Main subreddit -- massive, active, mix of fans and critics |
-| r/MMA | One of the largest combat sports communities; he's a major UFC figure |
-| r/ufc | More casual, meme-friendly, good engagement |
-| r/StandUpComedy | Polarizing but highly discussed |
-| r/podcasts | General podcast discussion |
-| r/Enneagram | Personality typing case study |
+
+| Subreddit       | Approach                                                              |
+| --------------- | --------------------------------------------------------------------- |
+| r/JoeRogan      | Main subreddit -- massive, active, mix of fans and critics            |
+| r/MMA           | One of the largest combat sports communities; he's a major UFC figure |
+| r/ufc           | More casual, meme-friendly, good engagement                           |
+| r/StandUpComedy | Polarizing but highly discussed                                       |
+| r/podcasts      | General podcast discussion                                            |
+| r/Enneagram     | Personality typing case study                                         |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
+
+| Target               | Handle                                    |
+| -------------------- | ----------------------------------------- |
 | Joe Rogan (official) | @joerogan (tens of millions of followers) |
-| JRE Clips | @JREClips |
-| Lex Fridman | @lexfridman |
-| Tim Dillon | @TimDillon |
-| Andrew Schulz | @andrewschulz |
+| JRE Clips            | @JREClips                                 |
+| Lex Fridman          | @lexfridman                               |
+| Tim Dillon           | @TimDillon                                |
+| Andrew Schulz        | @andrewschulz                             |
 
 **Hashtags:** #JoeRogan, #JRE, #JoeRoganExperience, #UFC, #MMA, #Enneagram, #Podcasting
 
@@ -687,13 +725,14 @@ For every personality analysis blog, follow this repeatable process:
 - YouTube PowerfulJRE comment sections (massive engagement)
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Nick Quah (The Verge / Hot Pod) | Definitive podcast industry coverage | Via The Verge |
-| Ashley Carman (Bloomberg) | Podcast industry reporter | Via Bloomberg |
-| Ariel Helwani | Most prominent MMA journalist | Via social/MMA Hour |
-| Luke Thomas (Morning Kombat) | MMA analyst and media personality | Via YouTube/social |
-| Jesse David Fox (Vulture) | Comedy/podcast coverage | Via Vulture |
+
+| Target                          | Why                                  | Contact             |
+| ------------------------------- | ------------------------------------ | ------------------- |
+| Nick Quah (The Verge / Hot Pod) | Definitive podcast industry coverage | Via The Verge       |
+| Ashley Carman (Bloomberg)       | Podcast industry reporter            | Via Bloomberg       |
+| Ariel Helwani                   | Most prominent MMA journalist        | Via social/MMA Hour |
+| Luke Thomas (Morning Kombat)    | MMA analyst and media personality    | Via YouTube/social  |
+| Jesse David Fox (Vulture)       | Comedy/podcast coverage              | Via Vulture         |
 
 **Blogs/publications:**
 
@@ -713,21 +752,23 @@ For every personality analysis blog, follow this repeatable process:
 ### Sabrina Carpenter
 
 **Reddit:**
-| Subreddit | Approach |
-|-----------|----------|
-| r/SabrinaCarpenter | Dedicated fan sub (~30K+) |
-| r/popheads | Main pop music discussion hub; she's frequently discussed |
-| r/Enneagram | Personality typing case study |
-| r/popculturechat | Celebrity analysis performs well |
-| r/entertainment | Pop culture coverage |
+
+| Subreddit          | Approach                                                  |
+| ------------------ | --------------------------------------------------------- |
+| r/SabrinaCarpenter | Dedicated fan sub (~30K+)                                 |
+| r/popheads         | Main pop music discussion hub; she's frequently discussed |
+| r/Enneagram        | Personality typing case study                             |
+| r/popculturechat   | Celebrity analysis performs well                          |
+| r/entertainment    | Pop culture coverage                                      |
 
 **Twitter/X:**
-| Target | Handle |
-|--------|--------|
-| Sabrina Carpenter (official) | @SabrinaAnnLynn |
-| PopCrave | @PopCrave (~3M followers) |
-| Pop Base | @PopBase |
-| Chart Data | @chartdata |
+
+| Target                       | Handle                    |
+| ---------------------------- | ------------------------- |
+| Sabrina Carpenter (official) | @SabrinaAnnLynn           |
+| PopCrave                     | @PopCrave (~3M followers) |
+| Pop Base                     | @PopBase                  |
+| Chart Data                   | @chartdata                |
 
 **Hashtags:** #SabrinaCarpenter, #ShortNSweet, #Espresso, #PleasePleasePlease, #Enneagram
 
@@ -739,13 +780,14 @@ For every personality analysis blog, follow this repeatable process:
 - TikTok: #sabrinacarpenter (massive -- her core audience lives here)
 
 **Email Outreach Targets:**
-| Target | Why | Contact |
-|--------|-----|---------|
-| Larisha Paul (Rolling Stone) | Covered Sabrina's rise | Via Rolling Stone |
-| Ilana Kaplan (Elle, Billboard) | Interviews and profiles | Via publication |
-| Jason Lipshutz (Billboard) | Executive editorial, pop coverage | Via Billboard |
-| Cat Zhang (Pitchfork) | Pop music reviews/features | Via Pitchfork |
-| Evan Ross Katz | Pop culture personality-driven angles | Via social |
+
+| Target                         | Why                                   | Contact           |
+| ------------------------------ | ------------------------------------- | ----------------- |
+| Larisha Paul (Rolling Stone)   | Covered Sabrina's rise                | Via Rolling Stone |
+| Ilana Kaplan (Elle, Billboard) | Interviews and profiles               | Via publication   |
+| Jason Lipshutz (Billboard)     | Executive editorial, pop coverage     | Via Billboard     |
+| Cat Zhang (Pitchfork)          | Pop music reviews/features            | Via Pitchfork     |
+| Evan Ross Katz                 | Pop culture personality-driven angles | Via social        |
 
 **Blogs/publications:**
 

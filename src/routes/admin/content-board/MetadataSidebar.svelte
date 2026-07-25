@@ -267,8 +267,7 @@
 						value={data.description || ''}
 						disabled={readonly}
 						rows="3"
-						oninput={(e) => handleChange('description', e.currentTarget.value)}
-					></textarea>
+						oninput={(e) => handleChange('description', e.currentTarget.value)}></textarea>
 				</div>
 
 				<!-- URL -->

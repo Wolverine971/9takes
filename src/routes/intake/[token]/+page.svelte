@@ -289,8 +289,7 @@
 						name="current_challenges"
 						rows="4"
 						placeholder="Be as specific as you're comfortable with..."
-						required
-					></textarea>
+						required></textarea>
 					<span class="field-hint"
 						>This is the most important question - take your time with it.</span
 					>
@@ -303,8 +302,7 @@
 						name="desired_outcome"
 						rows="3"
 						placeholder="If our work together is successful, what would be different in your life?"
-						required
-					></textarea>
+						required></textarea>
 				</div>
 
 				<div class="form-group">
@@ -313,8 +311,7 @@
 						id="previous_attempts"
 						name="previous_attempts"
 						rows="3"
-						placeholder="Therapy, self-help books, other coaches, courses, etc."
-					></textarea>
+						placeholder="Therapy, self-help books, other coaches, courses, etc."></textarea>
 				</div>
 
 				<div class="form-group">
@@ -358,8 +355,7 @@
 						id="why_this_type"
 						name="why_this_type"
 						rows="3"
-						placeholder="What resonates with you about this type? Skip if unsure."
-					></textarea>
+						placeholder="What resonates with you about this type? Skip if unsure."></textarea>
 				</div>
 
 				<div class="form-group">
@@ -368,8 +364,7 @@
 						id="core_fear"
 						name="core_fear"
 						rows="3"
-						placeholder="The deep fear that drives many of your decisions..."
-					></textarea>
+						placeholder="The deep fear that drives many of your decisions..."></textarea>
 					<span class="field-hint"
 						>Think about what keeps you up at night or what you work hardest to avoid.</span
 					>
@@ -381,8 +376,7 @@
 						id="core_desire"
 						name="core_desire"
 						rows="3"
-						placeholder="The thing you're really searching for..."
-					></textarea>
+						placeholder="The thing you're really searching for..."></textarea>
 				</div>
 
 				<div class="form-group">
@@ -436,8 +430,7 @@
 						id="stress_response"
 						name="stress_response"
 						rows="3"
-						placeholder="How do you act when things get difficult?"
-					></textarea>
+						placeholder="How do you act when things get difficult?"></textarea>
 				</div>
 
 				<div class="form-group">
@@ -446,8 +439,7 @@
 						id="comfort_response"
 						name="comfort_response"
 						rows="3"
-						placeholder="How do you show up when life is going well?"
-					></textarea>
+						placeholder="How do you show up when life is going well?"></textarea>
 				</div>
 			</section>
 
@@ -500,8 +492,7 @@
 						id="short_term_goals"
 						name="short_term_goals"
 						rows="3"
-						placeholder="Specific, concrete outcomes you're working toward..."
-					></textarea>
+						placeholder="Specific, concrete outcomes you're working toward..."></textarea>
 				</div>
 
 				<div class="form-group">
@@ -510,8 +501,7 @@
 						id="long_term_goals"
 						name="long_term_goals"
 						rows="3"
-						placeholder="Your bigger vision for your life..."
-					></textarea>
+						placeholder="Your bigger vision for your life..."></textarea>
 				</div>
 
 				<div class="form-group">

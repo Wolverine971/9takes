@@ -137,8 +137,8 @@ Re-run §1 and §2 with the same pages and queries. Compute:
 
 ## 5. Status
 
-| Step                                    | Status                                   |
-| --------------------------------------- | ---------------------------------------- |
+| Step                                    | Status                                  |
+| --------------------------------------- | --------------------------------------- |
 | GSC §1.1 baseline captured              | ⏸ DJ action                             |
 | GSC §1.2 control baseline captured      | ⏸ DJ action                             |
 | GSC §1.3 URL pairs captured             | ⏸ DJ action                             |

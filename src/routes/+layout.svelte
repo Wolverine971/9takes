@@ -5,6 +5,7 @@
 	// @fontsource/* packages are still in package.json (used by email
 	// templates / poster generator until Phase 6) but no longer loaded
 	// globally.
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import '@fontsource-variable/inter';
 	import '@fontsource/jetbrains-mono/400.css';
 	import '@fontsource/jetbrains-mono/500.css';
@@ -602,7 +603,7 @@
 	{/if}
 
 	<!-- Site-wide Organization + WebSite schema (every page inherits site identity) -->
-	{@html `<script type="application/ld+json">${JSON.stringify({
+	{@html `<script type="application/ld+json">${serializeJsonLd({
 		'@context': 'https://schema.org',
 		'@graph': [
 			{

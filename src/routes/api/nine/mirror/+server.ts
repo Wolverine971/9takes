@@ -24,6 +24,7 @@ import {
 	CHORUS_TAKE_MIN_CHARACTERS
 } from '$lib/constants/answerLimits';
 import { recordGiveFirstEvent } from '$lib/server/giveFirstFunnel';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 import { logger } from '$lib/utils/logger';
 
 const takeSchema = z
@@ -70,6 +71,16 @@ const requestSchema = z.discriminatedUnion('subjectType', [
 // Lightweight in-memory throttle: one mirror every few seconds per fingerprint.
 const lastCallAt = new Map<string, number>();
 const MIN_INTERVAL_MS = 3000;
+const LAST_CALL_MAX_ENTRIES = 5000;
+
+/** Keys are never revisited once their interval lapses, so drop the stale ones. */
+function pruneLastCallAt(now: number): void {
+	if (lastCallAt.size <= LAST_CALL_MAX_ENTRIES) return;
+
+	for (const [key, at] of lastCallAt) {
+		if (now - at >= MIN_INTERVAL_MS) lastCallAt.delete(key);
+	}
+}
 const MIRROR_DEADLINE_MS = 8000;
 
 async function generateMirrorBeforeDeadline(question: string, take: string) {
@@ -108,13 +119,30 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 	// anonymous posting functional in browsers that reject client-written cookies.
 	const fingerprint = cookies.get('9tfingerprint') ?? payload.fingerprint ?? null;
 	const userId = locals.session?.user?.id ?? null;
+	// The fingerprint still identifies the *answer* (give-first dedupe), but it
+	// must not gate spending: it arrives from a cookie or the request body, so a
+	// caller can rotate it freely. Metering keys on session or IP instead.
 	const throttleKey = fingerprint || userId || getClientAddress();
+	const rateLimitSubject = resolveRateLimitSubject({ userId, clientAddress: getClientAddress() });
 
 	const now = Date.now();
+	pruneLastCallAt(now);
 	if (now - (lastCallAt.get(throttleKey) ?? 0) < MIN_INTERVAL_MS) {
 		return json({ error: 'One breath between takes, please.' }, { status: 429 });
 	}
 	lastCallAt.set(throttleKey, now);
+
+	const rateLimit = await consumeApiRateLimit({
+		bucket: 'chorus_mirror',
+		subject: rateLimitSubject
+	});
+	if (!rateLimit.allowed) {
+		lastCallAt.delete(throttleKey);
+		return json(
+			{ error: 'That is a lot of takes in one sitting. Give it a few minutes.' },
+			{ status: 429, headers: { 'Retry-After': String(rateLimit.retryAfterSeconds) } }
+		);
+	}
 
 	try {
 		const chorus =

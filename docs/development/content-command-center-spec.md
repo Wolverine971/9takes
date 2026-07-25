@@ -38,11 +38,12 @@ ORDER BY total_connections DESC;
 ```
 
 **Metrics Returned**:
-| Field | Description |
-|-------|-------------|
-| `outgoing_links` | Number of people this blog links to (suggestions array length) |
-| `incoming_links` | Number of blogs that link TO this person |
-| `total_connections` | Sum of both (overall "connectedness") |
+
+| Field               | Description                                                    |
+| ------------------- | -------------------------------------------------------------- |
+| `outgoing_links`    | Number of people this blog links to (suggestions array length) |
+| `incoming_links`    | Number of blogs that link TO this person                       |
+| `total_connections` | Sum of both (overall "connectedness")                          |
 
 **UI**: Sortable table with columns for person, type, outgoing, incoming, total. Color-coded badges (red < 3, yellow 3-6, green > 6).
 
@@ -70,11 +71,12 @@ ORDER BY content_length_chars DESC;
 ```
 
 **Metrics Returned**:
-| Field | Description |
-|-------|-------------|
-| `content_length_chars` | Raw character count |
-| `approx_word_count` | Estimated word count (spaces + 1) |
-| `paragraph_count` | Newline count as paragraph proxy |
+
+| Field                  | Description                       |
+| ---------------------- | --------------------------------- |
+| `content_length_chars` | Raw character count               |
+| `approx_word_count`    | Estimated word count (spaces + 1) |
+| `paragraph_count`      | Newline count as paragraph proxy  |
 
 **Benchmarks** (for reference):
 
@@ -116,12 +118,13 @@ ORDER BY lastmod DESC;
 ```
 
 **Freshness Categories**:
-| Status | Criteria | Color |
-|--------|----------|-------|
-| Fresh | Edited < 30 days ago | Green |
-| Recent | Edited 30-90 days ago | Blue |
-| Aging | Edited 90-180 days ago | Yellow |
-| Stale | Edited > 180 days ago | Red |
+
+| Status | Criteria               | Color  |
+| ------ | ---------------------- | ------ |
+| Fresh  | Edited < 30 days ago   | Green  |
+| Recent | Edited 30-90 days ago  | Blue   |
+| Aging  | Edited 90-180 days ago | Yellow |
+| Stale  | Edited > 180 days ago  | Red    |
 
 **UI**: Sortable table with last edit date, freshness badge, days since edit counter.
 

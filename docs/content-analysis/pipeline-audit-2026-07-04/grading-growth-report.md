@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/pipeline-audit-2026-07-04/grading-growth-report.md -->
+
 # Grading / Review / Discoverability / Bridge Audit — Lanes 5-8
 
 Scope: review process (5), grading calibration & incentives (6, priority), discoverability/AEO (7), reader-to-platform bridge (8). Evidence: 6 pipeline runs (Steve Martin 07-04, Jeff Goldblum 07-03, Tobey Maguire 07-03, Zac Efron 07-02, Rosé 07-02, Mira Murati 07-01), grade_blog/fresh-eyes/enrich commands, rubric v2, the live `[slug]` template + server load, draft frontmatter.

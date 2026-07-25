@@ -1,3 +1,4 @@
+<!-- docs/design/2026-07-22-enneagram-mask-expression-research.md -->
 # 9takes Enneagram Mask Expression Research
 
 ## Working decision
@@ -14,17 +15,17 @@ The masks should not be nine exaggerated “sin faces.” Each should remain rec
 
 For consistency, this project will use the table on Wikipedia’s [Enneagram of Personality](https://en.wikipedia.org/wiki/Enneagram_of_Personality#Nine_types) page as the canonical passion/virtue mapping:
 
-| Type | Passion | Virtue |
-| ---: | --- | --- |
-| 1 | Anger | Serenity |
-| 2 | Pride | Humility |
-| 3 | Deceit | Truthfulness |
-| 4 | Envy | Equanimity |
-| 5 | Avarice | Detachment / non-attachment |
-| 6 | Fear | Courage |
-| 7 | Gluttony | Sobriety |
-| 8 | Lust | Innocence |
-| 9 | Sloth | Action |
+| Type | Passion  | Virtue                      |
+| ---: | -------- | --------------------------- |
+|    1 | Anger    | Serenity                    |
+|    2 | Pride    | Humility                    |
+|    3 | Deceit   | Truthfulness                |
+|    4 | Envy     | Equanimity                  |
+|    5 | Avarice  | Detachment / non-attachment |
+|    6 | Fear     | Courage                     |
+|    7 | Gluttony | Sobriety                    |
+|    8 | Lust     | Innocence                   |
+|    9 | Sloth    | Action                      |
 
 The table notes that Enneagram teachers differ on terminology. This is a symbolic identity system, not a claim that Enneagram passions are scientifically established emotion categories.
 
@@ -213,15 +214,15 @@ This must contrast with Type 1: One compresses and contains force; Eight expands
 
 The following pairs are the highest risk and should be tested side by side:
 
-| Collision | Required distinction |
-| --- | --- |
-| 1 anger vs. 8 intensity | 1 contracts and compresses; 8 expands and advances. |
-| 2 pride vs. 3 performance | 2 has warmth in eyes and cheeks; 3 smiles only with the mouth. |
-| 2 pride vs. 7 appetite | 2 tilts back and feels self-assured; 7 leans forward and anticipates. |
-| 3 performance vs. 7 appetite | 3 is controlled and polished; 7 is open and energized. |
-| 4 envy vs. 6 fear | 4 looks sideways/down toward what is missing; 6 scans outward with widened eyes. |
-| 5 avarice vs. 9 sloth | 5 is tight and guarded; 9 is soft and diffuse. |
-| 6 fear vs. 8 intensity | 6 recoils; 8 advances. |
+| Collision                    | Required distinction                                                             |
+| ---------------------------- | -------------------------------------------------------------------------------- |
+| 1 anger vs. 8 intensity      | 1 contracts and compresses; 8 expands and advances.                              |
+| 2 pride vs. 3 performance    | 2 has warmth in eyes and cheeks; 3 smiles only with the mouth.                   |
+| 2 pride vs. 7 appetite       | 2 tilts back and feels self-assured; 7 leans forward and anticipates.            |
+| 3 performance vs. 7 appetite | 3 is controlled and polished; 7 is open and energized.                           |
+| 4 envy vs. 6 fear            | 4 looks sideways/down toward what is missing; 6 scans outward with widened eyes. |
+| 5 avarice vs. 9 sloth        | 5 is tight and guarded; 9 is soft and diffuse.                                   |
+| 6 fear vs. 8 intensity       | 6 recoils; 8 advances.                                                           |
 
 ## Recommended 3×3 arrangement
 

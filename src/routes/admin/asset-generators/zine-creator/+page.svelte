@@ -988,8 +988,7 @@
 								class="input"
 								rows="4"
 								bind:value={manualPullQuotes}
-								placeholder="One quote per line"
-							></textarea>
+								placeholder="One quote per line"></textarea>
 						{/if}
 					</div>
 

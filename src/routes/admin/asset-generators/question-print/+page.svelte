@@ -600,8 +600,7 @@
 						id="question-input"
 						bind:value={questionText}
 						placeholder={DEFAULT_QUESTION}
-						rows="5"
-					></textarea>
+						rows="5"></textarea>
 				</label>
 
 				<p class="field-note">

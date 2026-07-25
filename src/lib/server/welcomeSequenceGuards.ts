@@ -6,9 +6,7 @@ import {
 } from './emailSequences';
 
 export type WelcomeSequenceExitReason =
-	| 'created_question'
-	| 'answered_question'
-	| 'created_comment';
+	'created_question' | 'answered_question' | 'created_comment';
 
 export function getWelcomeSequenceExitReasonForComment(
 	parentType: string

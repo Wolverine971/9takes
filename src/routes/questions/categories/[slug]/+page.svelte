@@ -7,6 +7,7 @@
 -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import CategoryBrowseBranch from '$lib/components/questions/CategoryBrowseBranch.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
@@ -124,7 +125,7 @@
 	<meta name="twitter:image:alt" content={`Questions in ${categoryName || 'this category'}`} />
 	<meta name="twitter:url" content={canonicalUrl} />
 	{@html `<script type="application/ld+json">
-		${JSON.stringify({
+		${serializeJsonLd({
 			'@context': 'https://schema.org',
 			'@type': 'CollectionPage',
 			name: categoryName ? `${categoryName} Questions | 9takes` : 'Question Categories | 9takes',

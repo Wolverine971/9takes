@@ -1,6 +1,7 @@
 <!-- src/lib/components/blog/SuggestionsPeople.svelte -->
 <script lang="ts">
 	import Pluralize from 'pluralize';
+	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityAnalysisUrl,
@@ -49,7 +50,7 @@
 			(post, index, self) => index === self.findIndex((p) => p.slug === post.slug)
 		);
 
-		return JSON.stringify({
+		return serializeJsonLd({
 			'@context': 'https://schema.org',
 			'@type': 'ItemList',
 			name: 'Related Personality Analyses',

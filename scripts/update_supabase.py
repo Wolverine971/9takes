@@ -2,14 +2,22 @@
 # scripts/update_supabase.py
 import urllib.request
 import json
+import os
 import ssl
+import sys
 
+# Verify TLS. The previous CERT_NONE context silently accepted any certificate,
+# which meant this script would happily hand a service-role key to a MITM.
 ctx = ssl.create_default_context()
-ctx.check_hostname = False
-ctx.verify_mode = ssl.CERT_NONE
 
-supabase_url = "https://nhjjzcsnmyotyhykbajc.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5oamp6Y3NubXlvdHloeWtiYWpjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MTkxODYzMCwiZXhwIjoyMDY3NDk0NjMwfQ.an8SVqD73nLrVe3wLL2XWCHgkemh6RlNFnD1aga0_9Q"
+supabase_url = os.environ.get("PUBLIC_SUPABASE_URL", "").rstrip("/")
+key = os.environ.get("SUPABASE_SERVICE_KEY", "")
+
+if not supabase_url or not key:
+    sys.exit(
+        "Set PUBLIC_SUPABASE_URL and SUPABASE_SERVICE_KEY before running.\n"
+        "  export $(grep -E '^(PUBLIC_SUPABASE_URL|SUPABASE_SERVICE_KEY)=' .env | xargs)"
+    )
 
 updates = [
     ("Jordan-Peterson", ["Joe-Rogan", "Ben-Shapiro", "Justin-Trudeau", "Donald-Trump"]),

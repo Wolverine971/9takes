@@ -382,9 +382,11 @@
 	function buildMatureRateCard(
 		rows: WeeklyCohortRow[],
 		label: string,
-		getCurrentValue: (
-			row: WeeklyCohortRow
-		) => { numerator: number; denominator: number; pct: number }
+		getCurrentValue: (row: WeeklyCohortRow) => {
+			numerator: number;
+			denominator: number;
+			pct: number;
+		}
 	): HeadlineCard {
 		const currentInfo = getLatestWeek(rows, (row) => row.is_mature_within_d7);
 		if (!currentInfo) {

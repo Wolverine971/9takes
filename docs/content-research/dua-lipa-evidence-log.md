@@ -1,4 +1,5 @@
 <!-- docs/content-research/dua-lipa-evidence-log.md -->
+
 # Evidence Log: Dua Lipa
 
 ## Scope

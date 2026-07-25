@@ -430,9 +430,7 @@ const jsonLdString = $derived.by(() =>
 		buildPersonPageJsonLd({
 			personName,
 			canonicalUrl,
-			breadcrumb: [
-				/* Home, Personality Analysis, personName */
-			],
+			breadcrumb: [/* Home, Personality Analysis, personName */],
 			title,
 			description,
 			articleBody: `${data.persona_title ? data.persona_title + '. ' : ''}${description}`,

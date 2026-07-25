@@ -3,6 +3,7 @@ import { json } from '@sveltejs/kit';
 import { env } from '$env/dynamic/private';
 import type { RequestHandler } from './$types';
 import { logger } from '$lib/utils/logger';
+import { consumeApiRateLimit, resolveRateLimitSubject } from '$lib/server/apiRateLimit';
 
 export const config = {
 	maxDuration: 60
@@ -11,8 +12,6 @@ export const config = {
 const OPENROUTER_TRANSCRIPTION_URL = 'https://openrouter.ai/api/v1/audio/transcriptions';
 const DEFAULT_TRANSCRIPTION_MODEL = 'openai/gpt-4o-mini-transcribe';
 const MAX_AUDIO_BYTES = 4 * 1024 * 1024;
-const RATE_LIMIT_WINDOW_MS = 5 * 60 * 1000;
-const MAX_REQUESTS_PER_WINDOW = 8;
 
 const AUDIO_FORMATS: Record<string, string> = {
 	'audio/aac': 'aac',
@@ -25,35 +24,9 @@ const AUDIO_FORMATS: Record<string, string> = {
 	'audio/x-flac': 'flac'
 };
 
-type RateLimitEntry = {
-	count: number;
-	windowStartedAt: number;
-};
-
-const rateLimits = new Map<string, RateLimitEntry>();
-
 function getAudioFormat(file: File): string | null {
 	const baseMimeType = file.type.split(';')[0]?.trim().toLowerCase();
 	return AUDIO_FORMATS[baseMimeType] ?? null;
-}
-
-function consumeRateLimit(key: string): boolean {
-	const now = Date.now();
-	if (rateLimits.size > 500) {
-		for (const [entryKey, entry] of rateLimits) {
-			if (now - entry.windowStartedAt >= RATE_LIMIT_WINDOW_MS) rateLimits.delete(entryKey);
-		}
-	}
-	const current = rateLimits.get(key);
-
-	if (!current || now - current.windowStartedAt >= RATE_LIMIT_WINDOW_MS) {
-		rateLimits.set(key, { count: 1, windowStartedAt: now });
-		return true;
-	}
-
-	if (current.count >= MAX_REQUESTS_PER_WINDOW) return false;
-	current.count += 1;
-	return true;
 }
 
 function getProviderErrorMessage(status: number): string {
@@ -68,7 +41,7 @@ function getProviderResponseStatus(status: number): number {
 	return 502;
 }
 
-export const POST: RequestHandler = async ({ request, locals, cookies, getClientAddress }) => {
+export const POST: RequestHandler = async ({ request, locals, getClientAddress }) => {
 	if (request.headers.get('sec-fetch-site') === 'cross-site') {
 		return json({ error: 'Cross-site transcription requests are not allowed.' }, { status: 403 });
 	}
@@ -103,13 +76,20 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		return json({ error: 'This audio format is not supported.' }, { status: 415 });
 	}
 
-	const userId = locals.session?.user?.id;
-	const fingerprint = cookies.get('9tfingerprint');
-	const rateLimitKey = userId || fingerprint || getClientAddress();
-	if (!consumeRateLimit(rateLimitKey)) {
+	// Keyed on session or IP, never on the 9tfingerprint cookie: a caller can
+	// rewrite that cookie to mint themselves an unlimited budget on a paid API.
+	const decision = await consumeApiRateLimit({
+		bucket: 'transcribe',
+		subject: resolveRateLimitSubject({
+			userId: locals.session?.user?.id,
+			clientAddress: getClientAddress()
+		})
+	});
+
+	if (!decision.allowed) {
 		return json(
 			{ error: 'You have made several voice recordings. Please wait a few minutes.' },
-			{ status: 429 }
+			{ status: 429, headers: { 'Retry-After': String(decision.retryAfterSeconds) } }
 		);
 	}
 

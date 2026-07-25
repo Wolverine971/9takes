@@ -1,4 +1,5 @@
 <!-- docs/design/hyperplexed/QUESTION_CREATE_FLOW_AUDIT_2026-07-16.md -->
+
 # Question Create Flow Audit — 2026-07-16
 
 ## Scope

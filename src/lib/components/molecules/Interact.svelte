@@ -16,7 +16,7 @@
 		Subscription,
 		QuestionPageData
 	} from '$lib/types/questions';
-	import { captureCommentCreated } from '$lib/analytics/commentEvents';
+	import { captureCommentCreated, type CommentCreatedKind } from '$lib/analytics/commentEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 
 	// Component props
@@ -100,7 +100,7 @@
 	let commentActionAria = $derived(
 		parentType === 'question' ? questionCommentActionAria : 'Write a reply'
 	);
-	let composerKind = $derived(
+	let composerKind: CommentCreatedKind = $derived(
 		parentType === 'comment' ? 'reply' : userHasAnswered ? 'comment' : 'answer'
 	);
 

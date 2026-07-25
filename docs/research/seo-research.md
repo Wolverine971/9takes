@@ -46,22 +46,24 @@ Organize content around 4-6 core topical pillars with related cluster content be
 - Aligns with Google's entity-based understanding
 
 **Pillar Page Characteristics:**
-| Attribute | Specification |
-|-----------|---------------|
-| Word count | 2,000-4,000+ words |
-| Keywords | Competitive head terms (high volume, medium difficulty) |
-| Coverage | Comprehensive overview ("what," "why," "when," "how") |
-| Updates | Evergreen, refreshed quarterly |
-| Internal links | Links TO all related cluster pages |
+
+| Attribute      | Specification                                           |
+| -------------- | ------------------------------------------------------- |
+| Word count     | 2,000-4,000+ words                                      |
+| Keywords       | Competitive head terms (high volume, medium difficulty) |
+| Coverage       | Comprehensive overview ("what," "why," "when," "how")   |
+| Updates        | Evergreen, refreshed quarterly                          |
+| Internal links | Links TO all related cluster pages                      |
 
 **Cluster Page Characteristics:**
-| Attribute | Specification |
-|-----------|---------------|
-| Word count | 800-1,500 words |
-| Keywords | Long-tail, specific subtopics |
-| Focus | Single subtopic, FAQ, use case, or scenario |
-| Links back | 1-2 contextual links to pillar using pillar keyword |
-| Horizontal links | 1-3 links to related clusters |
+
+| Attribute        | Specification                                       |
+| ---------------- | --------------------------------------------------- |
+| Word count       | 800-1,500 words                                     |
+| Keywords         | Long-tail, specific subtopics                       |
+| Focus            | Single subtopic, FAQ, use case, or scenario         |
+| Links back       | 1-2 contextual links to pillar using pillar keyword |
+| Horizontal links | 1-3 links to related clusters                       |
 
 **Implementation Steps:**
 
@@ -374,12 +376,13 @@ Images impact SEO through alt text, Core Web Vitals, and image search traffic.
 ```
 
 **Performance:**
-| Image Type | Target Size | Format |
-|------------|-------------|--------|
-| Blog/content images | < 100KB | WebP |
-| Hero images | < 200KB | WebP |
-| Icons/logos | < 20KB | SVG or WebP |
-| Thumbnails | < 30KB | WebP |
+
+| Image Type          | Target Size | Format      |
+| ------------------- | ----------- | ----------- |
+| Blog/content images | < 100KB     | WebP        |
+| Hero images         | < 200KB     | WebP        |
+| Icons/logos         | < 20KB      | SVG or WebP |
+| Thumbnails          | < 30KB      | WebP        |
 
 **Technical Requirements:**
 
@@ -563,13 +566,14 @@ Self-referencing canonicals are essential. Every indexable page should have a ca
 - Canonicals and redirects should align
 
 **Handling Duplicates:**
-| Scenario | Solution |
-|----------|----------|
-| URL parameters | Canonical to parameter-free version |
-| www vs non-www | 301 redirect + canonical |
-| HTTP vs HTTPS | 301 redirect + canonical |
-| Trailing slash variations | 301 redirect + canonical |
-| Paginated content | Self-referencing canonical per page |
+
+| Scenario                  | Solution                            |
+| ------------------------- | ----------------------------------- |
+| URL parameters            | Canonical to parameter-free version |
+| www vs non-www            | 301 redirect + canonical            |
+| HTTP vs HTTPS             | 301 redirect + canonical            |
+| Trailing slash variations | 301 redirect + canonical            |
+| Paginated content         | Self-referencing canonical per page |
 
 **SEO Agent Check:**
 
@@ -623,9 +627,10 @@ CLUSTER PAGE 2 ("Technical SEO")
 ### 3.6 Robots Directives
 
 **robots.txt vs Meta Robots:**
-| File/Tag | Purpose |
-|----------|---------|
-| robots.txt | Controls crawling (where bots can go) |
+
+| File/Tag    | Purpose                                    |
+| ----------- | ------------------------------------------ |
+| robots.txt  | Controls crawling (where bots can go)      |
 | Meta robots | Controls indexing (what appears in search) |
 
 **Critical Rule:** If robots.txt blocks a page, search engines can't see meta robots tags on that page. To noindex a page, it must be crawlable.
@@ -643,15 +648,16 @@ Sitemap: https://example.com/sitemap.xml
 ```
 
 **Meta Robots Values:**
-| Value | Effect |
-|-------|--------|
-| `index` | Allow indexing (default) |
-| `noindex` | Prevent indexing |
-| `follow` | Follow links on page (default) |
-| `nofollow` | Don't follow any links |
-| `noarchive` | Don't show cached version |
-| `nosnippet` | Don't show snippet in results |
-| `max-snippet:N` | Limit snippet to N characters |
+
+| Value           | Effect                         |
+| --------------- | ------------------------------ |
+| `index`         | Allow indexing (default)       |
+| `noindex`       | Prevent indexing               |
+| `follow`        | Follow links on page (default) |
+| `nofollow`      | Don't follow any links         |
+| `noarchive`     | Don't show cached version      |
+| `nosnippet`     | Don't show snippet in results  |
+| `max-snippet:N` | Limit snippet to N characters  |
 
 **Common Patterns:**
 
@@ -1369,25 +1375,28 @@ One high-authority, relevant link > 10 low-quality links.
 ### 10.1 Key Metrics
 
 **Traffic Metrics:**
-| Metric | Target |
-|--------|--------|
+
+| Metric                  | Target             |
+| ----------------------- | ------------------ |
 | Organic sessions growth | Positive MoM trend |
-| Mobile organic traffic | 60%+ of total |
+| Mobile organic traffic  | 60%+ of total      |
 
 **Engagement Metrics:**
-| Metric | Target |
-|--------|--------|
-| Pages per session | 2+ |
-| Time on page | 2+ minutes |
-| Bounce rate | < 50% |
+
+| Metric            | Target     |
+| ----------------- | ---------- |
+| Pages per session | 2+         |
+| Time on page      | 2+ minutes |
+| Bounce rate       | < 50%      |
 
 **Technical Metrics:**
-| Metric | Target |
-|--------|--------|
-| LCP | < 2.5s |
-| INP | < 200ms |
-| CLS | < 0.1 |
-| Crawl errors | 0 |
+
+| Metric       | Target  |
+| ------------ | ------- |
+| LCP          | < 2.5s  |
+| INP          | < 200ms |
+| CLS          | < 0.1   |
+| Crawl errors | 0       |
 
 ### 10.2 Essential Tools
 

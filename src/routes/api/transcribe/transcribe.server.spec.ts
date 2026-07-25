@@ -1,12 +1,24 @@
 // src/routes/api/transcribe/transcribe.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { fetchMock, loggerMocks } = vi.hoisted(() => ({
+const { fetchMock, loggerMocks, consumeApiRateLimitMock } = vi.hoisted(() => ({
 	fetchMock: vi.fn(),
+	consumeApiRateLimitMock: vi.fn(),
 	loggerMocks: {
 		error: vi.fn(),
 		warn: vi.fn()
 	}
+}));
+
+vi.mock('$lib/server/apiRateLimit', () => ({
+	consumeApiRateLimit: consumeApiRateLimitMock,
+	resolveRateLimitSubject: ({
+		userId,
+		clientAddress
+	}: {
+		userId?: string | null;
+		clientAddress: string;
+	}) => (userId ? `user:${userId}` : `ip:${clientAddress}`)
 }));
 
 vi.mock('$env/dynamic/private', () => ({
@@ -53,6 +65,43 @@ describe('POST /api/transcribe', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
 		vi.stubGlobal('fetch', fetchMock);
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: true,
+			retryAfterSeconds: 300,
+			degraded: false
+		});
+	});
+
+	it('meters on session or IP, never on a client-supplied fingerprint', async () => {
+		fetchMock.mockResolvedValue(
+			new Response(JSON.stringify({ text: 'ok' }), {
+				status: 200,
+				headers: { 'content-type': 'application/json' }
+			})
+		);
+
+		// A caller rotating 9tfingerprint must not get a fresh budget.
+		const request = buildRequest({ headers: { cookie: '9tfingerprint=rotated-value' } });
+		await POST(buildEvent(request, '203.0.113.9') as never);
+
+		expect(consumeApiRateLimitMock).toHaveBeenCalledWith({
+			bucket: 'transcribe',
+			subject: 'ip:203.0.113.9'
+		});
+	});
+
+	it('refuses to call the paid provider once the limit is spent', async () => {
+		consumeApiRateLimitMock.mockResolvedValue({
+			allowed: false,
+			retryAfterSeconds: 300,
+			degraded: false
+		});
+
+		const response = await POST(buildEvent(buildRequest(), '203.0.113.9') as never);
+
+		expect(response.status).toBe(429);
+		expect(response.headers.get('Retry-After')).toBe('300');
+		expect(fetchMock).not.toHaveBeenCalled();
 	});
 
 	it('sends anonymous browser audio to the OpenRouter transcription endpoint', async () => {

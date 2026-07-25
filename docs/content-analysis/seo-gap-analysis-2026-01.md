@@ -271,7 +271,7 @@ path: docs/content-analysis/seo-gap-analysis-2026-01.md
 | Behaviors only      | Behaviors + **WHY** (psychology)   |
 | Not addressed       | Childhood wound → adult pattern    |
 | Generic advice      | Type-specific scripts & frameworks |
-| Binary (good/bad)   | Healthy ↔ unhealthy spectrum      |
+| Binary (good/bad)   | Healthy ↔ unhealthy spectrum       |
 | Rarely connected    | Always mental health connected     |
 | "Be aware"          | "Here's exactly what to say"       |
 
@@ -415,32 +415,35 @@ For ChatGPT/Perplexity/Google AI Overview:
 ### Full Keyword List (Prioritized)
 
 **Tier 1 - High Volume, Achievable**
-| Keyword | Volume | Difficulty | Current Rank | Priority |
-|---------|--------|------------|--------------|----------|
-| enneagram compatibility | 22,000 | 45 | Not ranking | CRITICAL |
-| enneagram type 4 | 18,100 | 35 | Page 2 | HIGH |
-| enneagram type 9 | 14,800 | 35 | Page 2 | HIGH |
-| enneagram ADHD | 8,100 | 25 | Not ranking | CRITICAL |
-| enneagram parenting | 3,600 | 30 | Not ranking | CRITICAL |
-| enneagram therapy | 2,900 | 25 | Not ranking | HIGH |
-| enneagram dating | 2,400 | 35 | Minimal | HIGH |
+
+| Keyword                 | Volume | Difficulty | Current Rank | Priority |
+| ----------------------- | ------ | ---------- | ------------ | -------- |
+| enneagram compatibility | 22,000 | 45         | Not ranking  | CRITICAL |
+| enneagram type 4        | 18,100 | 35         | Page 2       | HIGH     |
+| enneagram type 9        | 14,800 | 35         | Page 2       | HIGH     |
+| enneagram ADHD          | 8,100  | 25         | Not ranking  | CRITICAL |
+| enneagram parenting     | 3,600  | 30         | Not ranking  | CRITICAL |
+| enneagram therapy       | 2,900  | 25         | Not ranking  | HIGH     |
+| enneagram dating        | 2,400  | 35         | Minimal      | HIGH     |
 
 **Tier 2 - Medium Volume, Low Competition**
-| Keyword | Volume | Difficulty | Priority |
-|---------|--------|------------|----------|
-| enneagram inner critic | 1,900 | 20 | HIGH |
-| enneagram burnout | 880 | 15 | MEDIUM |
-| enneagram overthinking | 1,300 | 20 | OPTIMIZE |
-| enneagram self-sabotage | 1,600 | 20 | OPTIMIZE |
-| enneagram attachment styles | 720 | 25 | MEDIUM |
+
+| Keyword                     | Volume | Difficulty | Priority |
+| --------------------------- | ------ | ---------- | -------- |
+| enneagram inner critic      | 1,900  | 20         | HIGH     |
+| enneagram burnout           | 880    | 15         | MEDIUM   |
+| enneagram overthinking      | 1,300  | 20         | OPTIMIZE |
+| enneagram self-sabotage     | 1,600  | 20         | OPTIMIZE |
+| enneagram attachment styles | 720    | 25         | MEDIUM   |
 
 **Tier 3 - Long-tail, High Intent**
-| Keyword Pattern | Est. Volume | Notes |
-|-----------------|-------------|-------|
-| why do type [X]s [behavior] | 100-500 | Problem-focused |
-| enneagram [X] and [Y] compatibility | 50-200 | 81 combos |
-| how to communicate with type [X] | 100-300 | Relationship |
-| enneagram [X] childhood | 100-400 | Psychology |
+
+| Keyword Pattern                     | Est. Volume | Notes           |
+| ----------------------------------- | ----------- | --------------- |
+| why do type [X]s [behavior]         | 100-500     | Problem-focused |
+| enneagram [X] and [Y] compatibility | 50-200      | 81 combos       |
+| how to communicate with type [X]    | 100-300     | Relationship    |
+| enneagram [X] childhood             | 100-400     | Psychology      |
 
 ---
 

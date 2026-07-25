@@ -1,3 +1,4 @@
+<!-- docs/design/2026-07-22-logo-methodology-v2-agora.md -->
 # 9takes Logo Methodology V2 — The Night Agora
 
 **Status:** Active concept reset  
@@ -22,7 +23,7 @@ The logo cannot carry every part of the story equally. The order is:
 
 ## Historical basis
 
-- *Agora* means an open place of assembly. The Athenian Agora was the civic center for meetings, events, public life, and philosophical pursuits.
+- _Agora_ means an open place of assembly. The Athenian Agora was the civic center for meetings, events, public life, and philosophical pursuits.
 - Greek symposia were structured social gatherings for conversation. Participants communicated across an open central space, and a shared krater occupied a prominent central position.
 - The civic hearth represented the unity and vitality of the community. Hestia was associated with the prytaneion and bouleuterion, the symbolic civic center where public business was conducted.
 - The Nine Muses provide a genuine Greek precedent for nine distinct domains of knowledge and expression, but they are supporting mythology rather than the primary logo metaphor.
@@ -84,14 +85,14 @@ Nine seat-like stones form an open horseshoe rather than a closed radial wheel. 
 
 ## Decision rubric
 
-| Criterion | Weight |
-| --- | ---: |
-| Meeting / mutual-attention read | 25 |
-| Distinctive ancient-to-modern lineage | 20 |
-| Small-size legibility | 20 |
-| Ownability / distance from category clichés | 15 |
-| Equality of participants | 10 |
-| Flexibility across icon, wordmark, and seal | 10 |
+| Criterion                                   | Weight |
+| ------------------------------------------- | -----: |
+| Meeting / mutual-attention read             |     25 |
+| Distinctive ancient-to-modern lineage       |     20 |
+| Small-size legibility                       |     20 |
+| Ownability / distance from category clichés |     15 |
+| Equality of participants                    |     10 |
+| Flexibility across icon, wordmark, and seal |     10 |
 
 A mark must score at least **84/100**, pass every non-negotiable test, and beat the existing candidates in an unlabelled comparison.
 
@@ -122,15 +123,15 @@ The mark does not literally draw all nine people. It represents the **kind of me
 
 **Rationale:** Ancient voice. Modern voice. Same fire.
 
-| Criterion | Provisional score |
-| --- | ---: |
-| Meeting / mutual-attention read | 23 / 25 |
-| Distinctive ancient-to-modern lineage | 19 / 20 |
-| Small-size legibility | 16 / 20 |
-| Ownability / distance from category clichés | 12 / 15 |
-| Equality of participants | 10 / 10 |
-| Flexibility across icon, wordmark, and seal | 8 / 10 |
-| **Total** | **88 / 100** |
+| Criterion                                   | Provisional score |
+| ------------------------------------------- | ----------------: |
+| Meeting / mutual-attention read             |           23 / 25 |
+| Distinctive ancient-to-modern lineage       |           19 / 20 |
+| Small-size legibility                       |           16 / 20 |
+| Ownability / distance from category clichés |           12 / 15 |
+| Equality of participants                    |           10 / 10 |
+| Flexibility across icon, wordmark, and seal |            8 / 10 |
+| **Total**                                   |      **88 / 100** |
 
 The symbol passes monochrome, reverse, and 16/32/64 px rendering tests. Its open risk is first association: the central hearth must read as shared inquiry rather than religion. That requires a blind five-second test before palette work.
 

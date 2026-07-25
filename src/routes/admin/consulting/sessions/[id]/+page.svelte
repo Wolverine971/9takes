@@ -338,8 +338,7 @@
 						placeholder="Type your observation, insight, or action item..."
 						rows="3"
 						required
-						class="note-content-input"
-					></textarea>
+						class="note-content-input"></textarea>
 
 					<Button type="submit" disabled={!noteContent.trim()}>Add Note</Button>
 				</form>
@@ -572,8 +571,7 @@
 							name="nextSteps"
 							bind:value={nextSteps}
 							rows="3"
-							placeholder="Actions for the client before next session..."
-						></textarea>
+							placeholder="Actions for the client before next session..."></textarea>
 					</div>
 
 					<div class="form-group">
