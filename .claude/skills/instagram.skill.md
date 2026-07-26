@@ -6,6 +6,20 @@ The most important parts of this skill are also inlined into each command so the
 
 ---
 
+## Browser Selection First (Dedicated Chrome Profile)
+
+@9takesdotcom lives in a **dedicated Chrome profile** — profile directory `Profile 2`, display name **"9takes.com"** — with its own Claude extension instance whose cookie jar holds only the @9takesdotcom Instagram session. Cross-account switching inside one shared profile is what evicted sessions for weeks (20+ blocked runs in 23 days through 2026-07); the dedicated profile makes switching unnecessary. Full machine-level mapping: `docs/instagram/instagram-cron-browser-setup.md`.
+
+Before any Instagram work:
+
+1. `list_connected_browsers`, then `select_browser` the one whose name matches the 9takes profile (name contains `9takes`). In unattended/cron runs, do not ask the user to pick — this mapping is the standing instruction.
+2. If names are ambiguous, verify by navigating to `https://www.instagram.com/` and checking the active account (two signals, below). Continue only on the browser where `@9takesdotcom` is live.
+3. If no connected browser has the @9takesdotcom session, stop with `browser_limitation: nine_takes_chrome_profile_not_connected`. Do **not** run from another account's session, and do **not** switch accounts inside another profile — switching is the eviction trigger.
+
+On the dedicated profile, account switching should never be needed — only verification. The switching playbooks below are legacy fallbacks for manual/live sessions on a shared profile.
+
+---
+
 ## Browser Recovery
 
 Instagram in a long-running browser session goes stale fast — especially after switching profiles, after a navigation that silently fails, or after Instagram inserts a soft block / "something went wrong" page. The agent is responsible for noticing this and recovering, not for ignoring it.

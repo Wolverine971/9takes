@@ -69,6 +69,19 @@ If an Instagram browser automation skill exists at `/.claude/skills/instagram.sk
 
 ---
 
+## Phase -1: Select the Dedicated Chrome Profile (Do This Before Touching Instagram)
+
+@9takesdotcom lives in its **own Chrome profile** — Chrome profile directory `Profile 2`, display name **"9takes.com"** — with its own Claude extension instance and a cookie jar that holds ONLY the @9takesdotcom Instagram session. Cross-account switching inside one shared profile is what churned and evicted sessions for weeks; the dedicated profile removes the need to switch at all. (Mapping doc: `docs/instagram/instagram-cron-browser-setup.md`.)
+
+1. Call `list_connected_browsers`. This is an unattended/cron command: do **not** ask the user to pick — the mapping below is the standing instruction.
+2. If a connected browser's name matches the 9takes profile (name contains `9takes`), call `select_browser` with its deviceId.
+3. If no browser name matches but browsers are connected, select the most likely candidate, take tab context, navigate to `https://www.instagram.com/`, and verify the active account per the Account Verification workflow. If it is `@9takesdotcom`, continue — and note in the warmup doc that the browser name mapping needs fixing. Check other connected browsers the same way before giving up.
+4. If no connected browser has the @9takesdotcom session, **stop** — do NOT run the warmup from a different account's session, and do NOT switch accounts inside another profile (switching is the eviction trigger). Log `browser_limitation: nine_takes_chrome_profile_not_connected` and emit the ACTION NEEDED summary (see "When Blocked" below).
+
+Once you are on the dedicated profile, account **switching should never be needed** — only verification. If the profile shows a different account or a login wall, that is a broken session, not a switching problem: use the blocked protocol. The account-switching playbook below remains only for manual/live sessions on a shared profile.
+
+---
+
 ## Browser Recovery (Inline — Load-Bearing)
 
 Instagram in a long-running browser session goes stale fast — especially after switching profiles, after a navigation that silently fails, or after Instagram inserts a soft block. You are responsible for noticing this and recovering. Do not keep trying to read or click against a stale page.
@@ -754,6 +767,22 @@ Warmup doc: docs/instagram/daily-engagement/[filename]
 ```
 
 If Phase 7 produced zero saves, omit the "Top saves" block and the `/instagram-saves triage` next-step line. Don't print empty sections.
+
+## When Blocked
+
+If Phase -1 or account verification fails, your final message is delivered to DJ's Telegram — make the first lines the action, not the diagnosis:
+
+```text
+🔑 ACTION NEEDED — @9takesdotcom warmup BLOCKED [date]. No scan performed.
+
+Fix (2 min): Open Chrome → switch to the "9takes.com" profile (Profile 2) →
+instagram.com → log in as @9takesdotcom → CHECK "Save login info" →
+confirm the Claude extension is signed in and instagram.com is allowed.
+
+Reason: [browser_limitation code + one line of detail]
+```
+
+Then the usual diagnostic detail below. Still write the blocked warmup doc.
 
 ---
 

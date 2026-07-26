@@ -99,12 +99,12 @@ No hedge words. No pathology. No moralizing about AI. **Do not let this become a
 
 ## 5. Mechanics
 
-**The push is a two-step. The bare command is a DRY RUN and writes nothing.**
+**The push is a two-step. Use the explicit `--dry-run` flag for the preview.** A bare command now runs insert-missing mode; it leaves an existing page untouched and does not produce the update approval token.
 
 Step 1, preview the diff:
 
 ```bash
-node scripts/personBlogParser.js Dario-Amodei
+node scripts/personBlogParser.js Dario-Amodei --dry-run
 ```
 
 This prints `Dry-run previewing...`, the field-level diff, an expected content hash, and an approval token of the form `--approve-fields=content,description`.
@@ -138,7 +138,7 @@ Do not retitle toward keywords. Tested corpus-wide, keyword titles convert worse
 - [x] Question 3 (for / against / complicating) answered in the published copy.
 - [x] No paragraph argues about AI policy rather than about him.
 - [x] Zero em-dashes, no quality markers, valid YAML.
-- [x] `personBlogParser.js Dario-Amodei` runs clean; `lastmod` unchanged.
+- [x] `personBlogParser.js Dario-Amodei --dry-run` runs clean; `lastmod` unchanged.
 - [x] Status updated to `done` with a completion note.
 
 ---
@@ -157,4 +157,6 @@ Research findings incorporated:
 - The IPO claim now reflects the June 1 confidential filing, the reported $965 billion private-round valuation, and the lack of announced offering terms or timing.
 - The personal-cost section uses Amodei's June Bloomberg interview about sleep, unusual pressure, and the sensation of time accelerating. The stress-to-7 section explicitly says the available evidence shows overload but does not establish fragmentation.
 
-Mechanics: 4,396 body words; zero prose em-dashes; no quality markers; strong contrast-pattern count reduced to zero. The exact parser preview was applied for `description,content,faqs,citations` and verified with `lastmod=2026-03-23` and `published=true` preserved.
+Second-pass editorial work tightened the biography-to-diagnosis transition, removed stock analytical signposts, folded the other-type perspectives into the Rabbit Hole, cut the weak India photo-op evidence, and trimmed policy detail that did not reveal a new part of Amodei's psychology. The father, Jade Wang, Michael Berry, and Daniela Amodei testimony now carries the emotional and relational evidence more clearly. Search demand around his father and Jade is answered in FAQ schema without turning the body into biography gossip.
+
+Mechanics after the second pass: 3,955 body words; zero prose em-dashes; no quality-feedback markers; zero strong or comparative contrast patterns; same-type similarity clear; deterministic blog lint at zero failures and zero warnings. The guarded parser update changed only `content,faqs,citations` and verified `lastmod=2026-03-23` and `published=true` were preserved.
