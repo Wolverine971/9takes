@@ -96,18 +96,20 @@ path: src/blog/people/drafts/Jynxzi.md
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 6
-  writing: 8.5
-  originality: 9
+  evidence: 8
+  writing: 8
+  originality: 8
   discoverability: 9
-  overall: 8.3
+  overall: 8.4
   letter: B
   rubric_version: 2
-  caps_applied:
-    - evidence_untraceable_load_bearing_claim
+  caps_applied: []
   confidence: high
-  anchor: 'Matt-Smith draft (2026-06-28), B band; in-cohort: Hunter-Biden (2026-07-25)'
+  anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: false
+  first_overall: 8.3
+  regrade_overall: 8.4
+  grade_stability_delta: 0.1
   graded_at: '2026-07-25'
 ---
 
@@ -115,12 +117,13 @@ content_quality:
 1. Kai Cenat: "He was so focused on beating my time during his marathon that he let it eat him alive. You may have better IQ and be the better gamer but you lack something that all Elden Lords have and that's dedication, you f***ing pipsqueak." — Dexerto, June 2024
 2. Kai Cenat: "I own you" — Dexerto, June 2024
 3. Hunter Cooke (Dot Esports): "entertainment personified, the inner monologue that occurs when you die in a frustrating way or get a cheeky kill." — Dot Esports, October 2023
-4. Charlie White / Moist Cr1tikal: "I bet your parents are very proud of the man they have raised." — Jynxzi Podcast #2, 2024
+4. Charlie White / Moist Cr1tikal: "I bet your parents are very proud of the man they have raised." — Jynxzi Podcast #2 with Moist Cr1tikal, Feb 26 2024 (verified against the video transcript, 2026-07-25)
 5. Ilkka Paananen (CEO, Supercell): "Updated my blog post with something I should've included from beginning: proper recognition of Royale creators whose passion... was central to game's best year ever. That's on me, and me alone. I'm sorry." — X post, Feb 12 2026, reported by PocketGamer.biz and Dexerto
 6. Tubefilter on Jynxzi's chess level: "just learned how to play chess, but he's still raw." — Tubefilter, March 27 2026
 7. MrBeast, on returning to Clash Royale: "only started playing again because of you" — Dexerto, February 2026 (paraphrased in prose, not quoted)
-8. Kai Cenat: "I've been talking to Jynxzi every day." — Sportskeeda (stream reaction, year not firmly pinned; used in prose without a date claim, EXCLUDED from the qualifying count)
-Total qualifying quotes: 6
+8. Kai Cenat: "I've been talking to Jynxzi every day." — Sportskeeda, March 27 2024. DATE NOW PINNED (revision pass 2026-07-25): the reaction has a dedicated Sportskeeda article, datePublished 2024-03-27, which also carries Jynxzi's "wouldn't consider myself friends" line. Both are now attributed inline with outlet and month, so this entry QUALIFIES.
+9. Levy Rozman / GothamChess: "Greatest chess tournament of all time just happened." — X post, reported by Chess.com, April 2026
+Total qualifying quotes: 8
 -->
 
 <!-- HEADING MIX LEDGER
@@ -145,7 +148,7 @@ The Supercell section deliberately carries NO type-theory block; it pays off the
 <!-- FORMULA FINGERPRINT LEDGER
 Contrast-pair sentence engines: 0 strong / 0 comparative — scripts/blog-quality-report.mjs, second pass 2026-07-25 (second pass briefly reintroduced 1 strong, "Not watching, not tuning in", rewritten)
 Counter-typing ladders in main body: 0 — the Seven pressure-test is one paragraph inside the diagnosis section; the fuller Six case lives in the Rabbit Hole
-Same-type similarity scan: CLEAR. scripts/same-type-similarity.mjs Jynxzi --n 8, second pass 2026-07-25: trip threshold 0.04 → clear; max unit-pair 0.075 vs David-Beckham. Second pass initially TRIPPED at 0.092 on a coincidental "spent seven years" collision with David-Beckham; rewritten. First pass TRIPPED at 0.166 (madonna) and 0.124 (David-Beckham); those house-grammar units were rewritten then. Type-3 avoid-list swept.
+Same-type similarity scan: CLEAR. scripts/same-type-similarity.mjs Jynxzi --n 8, revision pass 2026-07-25: trip threshold 0.04 → clear; max unit-pair 0.066 vs Kiernan-Shipka on a coincidental "which is X rather than Y" clause. (The second pass recorded 0.075 vs David-Beckham; that no longer reproduces because the comparison set has shifted. Number corrected here per grade feedback.) Second pass initially TRIPPED at 0.092 on a coincidental "spent seven years" collision with David-Beckham; rewritten. First pass TRIPPED at 0.166 (madonna) and 0.124 (David-Beckham); those house-grammar units were rewritten then. Type-3 avoid-list swept.
 Bespoke section form: "Seven Days in April 2026: A Chessboard, Then Wembley" — a two-Saturday ledger built from two verifiable dated events one week apart. Transplant it to any other subject and it collapses, because the form only exists because those two Saturdays happened to this person seven days apart.
 Critic-pressure anchor: THREE, spanning 2024-2026. (1) Kai Cenat, June 2024, on the abandoned Elden Ring marathon ("you lack... dedication") — section "Why Jynxzi Quit His Elden Ring Marathon". (2) His own Siege audience, Aug 2025, told they were "not a real supporter" — section 3; the criticism runs the other direction and he is the one issuing it, which is the harder look. (3) The CS2 community, March 2026, on a tournament with almost no CS2 players in it — section 4.
 Current-tense correction (2026-07-25 second pass): the first draft's "Why Jynxzi Never Left Rainbow Six Siege" was factually false as of 2025-26. Verified: Clash Royale pivot from late April 2025; "not a real supporter" stream Aug 8 2025 (Sportskeeda); Streams Charts May 2026 puts Siege at 23% of 2026 viewership. Section rebuilt as the full arc.
@@ -156,16 +159,44 @@ Ending swap-test: pass — the closing image is an audience of literally one per
 -->
 
 <!-- SOURCING NOTE FOR REVIEW
-Quotes marked below as coming from the Jynxzi Podcast are transcribed from YouTube auto-captions
-(ep. 1 with CaseOh, video 8-OP15Rggos; ep. 2 with Moist Cr1tikal, video M26ylEXv_UE). Speaker
-attribution was verified against internal evidence: the 2019 one-viewer year and "I'm 22" (born
-Sept 2001, ep. recorded March 2024) and "when I was just Nick" identify Jynxzi; the Nadeshot,
-rice-mill and maintenance-job answers belong to CaseOh and are NOT used here. Wording is lightly
-cleaned for filler. Verify exact phrasing against the videos before publish.
+VERIFIED 2026-07-25 (revision pass). Both podcast transcripts were pulled and every quote was
+checked against them. All five podcast quotes match verbatim (lightly cleaned for filler only).
+Episode assignment and dates are now confirmed from video metadata, not inferred:
+  - Jynxzi Podcast #1 with CaseOh, video 8-OP15Rggos, uploaded 2024-02-18
+  - Jynxzi Podcast #2 with Moist Cr1tikal, video M26ylEXv_UE, uploaded 2024-02-26
+Both URLs added to `citations`. Per-quote assignment:
+  - "I'll be feeling terrible about myself... I need to." (epigraph + diagnosis) — ep. #1. NOTE: the
+    earlier note implied ep. 2; it is ep. 1. Corrected.
+  - "I streamed for a year straight in 2019 to one viewer..." — ep. #1, verbatim.
+  - "My dad has worked his whole life, too. So it's like, I'm 22..." — ep. #1, verbatim. Speaker
+    confirmed by the surrounding exchange (he is answering CaseOh's remark about CaseOh's own dad).
+  - "My dad literally told me, he's like, 'Dude, you can run your mouth for hours...'" — ep. #2, verbatim.
+  - "As soon as you click the button, people are flooding in front of you." — ep. #2, verbatim. The
+    "already talked it through with CaseOh" detail is confirmed in the same passage.
+  - "I try to surround myself with my family, my lifelong friends..." — ep. #2, verbatim.
+  - Charlie White's "I bet your parents are very proud..." — ep. #2, verbatim.
+DATE CORRECTION: the diagnosis section said "In March 2024"; the episode is February 2024. Fixed.
+CHRONOLOGY CORRECTION: the Porsche paragraph said Cr1tikal spoke "a few months later" than the
+Porsche gift. The podcast (Feb 2024) is two months EARLIER than the gift (April 2024). Fixed.
 
-UNRESOLVED: the date of the "I wouldn't even really consider myself friends with any streamers"
-stream and Kai Cenat's "I've been talking to Jynxzi every day" reaction could not be pinned to a
-year. Used in prose without a date claim.
+RESOLVED (was UNRESOLVED): the "I wouldn't even really consider myself friends with any streamers"
+stream and Kai Cenat's "I've been talking to Jynxzi every day" reaction are both covered by a
+dedicated Sportskeeda article, datePublished 2024-03-27. Both are now attributed inline with outlet
+and month, and the URL is in `citations`. This also dates the Cenat thread: the exclusion (March
+2024) came three months BEFORE the "pipsqueak" roast (June 2024), and section 8 now says so.
+
+PORSCHE QUOTE REPLACED: "Nobody deserves it more than my dad" could not be found in any source and
+is not in the Sportskeeda transcript of the moment. Cut. Replaced with the sourced line from the
+same video: "You were talking about how you liked the Porsche 911, so... and you were the reason
+why I went for streaming." — Sportskeeda, April 14 2024. URL added to `citations`.
+
+SOURCE-AUDIT TOOLING NOTE: scripts/blog-source-audit.mjs now reads the epigraph and diagnosis quotes
+as VAGUE rather than INLINE, because it classifies "Jynxzi Podcast" as a venue keyword ("podcast")
+rather than a named outlet. This is a tooling gap, not a regression in traceability — those quotes
+now carry a named show, an episode number, a co-host, a month, and a primary URL in `citations`,
+which is strictly more traceable than the previous "Jynxzi Podcast, 2024" tag that the script scored
+as INLINE. The OUTLETS list was deliberately NOT extended to cover a subject's own show; that is a
+shared-tooling decision, not a per-draft one. Do not read the audit summary as a regression.
 
 SECOND PASS (2026-07-25) SOURCING:
 - CUT two quotes that could not be traced to any outlet: Levy Rozman's "He is literally just
@@ -195,7 +226,7 @@ Weeks later, the raw student, born Nicholas Stewart, won PogChamps 6 & 7. Thirte
 
 For most creators, a chess bracket is a bit. A month of jokes, a paycheck, a good thumbnail. Asked on the Chess.com broadcast in 2026 what the run had cost him, he answered like an athlete describing a training camp: "I was training on my phone at two a.m. in the morning, raging. I was committed to this. I wanted to win, I really wanted to win."
 
-Ten million people follow him because he is funny about failing. His most-clipped moments are the ones where a match goes sideways and he takes it personally at volume. Writing for Dot Esports in 2023, Hunter Cooke called him "entertainment personified, the inner monologue that occurs when you die in a frustrating way or get a cheeky kill." Losing is the product.
+Ten million people follow him because he is funny about failing. His most-clipped moments are the ones where a match goes sideways and he takes it personally at volume. Writing for Dot Esports in 2023, Hunter Cooke called him "entertainment personified, the inner monologue that occurs when you die in a frustrating way or get a cheeky kill." Losing, in his hands, is what the audience is actually paying for.
 
 That is the half that gets clipped. Go through the record and you will have trouble finding a single thing he decided to win and then didn't.
 
@@ -278,7 +309,7 @@ Then the Siege audience started asking when he was coming back. On August 8, 202
 
 > "Chat, this isn't your stream, this is my stream. If you only wanna watch me play R6, you're not, like, a real supporter, bro. I'm gonna play R6 tomorrow." — Jynxzi, Sportskeeda, 2025
 
-The last sentence is the tell. He was still playing R6 tomorrow. What he had taken from the people who built him was their vote, and four hours' notice was the consolation prize.
+The tell is the last sentence, because he was still playing R6 tomorrow. What he had taken from the people who built him was their vote, and four hours' notice was the consolation prize.
 
 He kept moving. Rocket League. Counter-Strike. League of Legends. Valorant, where 27 hours on stream pulled in more than 151,000 new followers, a rate per hour roughly five and a half times what Siege was returning by then.
 
@@ -307,7 +338,7 @@ Two days later, CEO Ilkka Paananen edited the post and apologized on X.
 
 > "Updated my blog post with something I should've included from beginning: proper recognition of Royale creators whose passion, from tournaments to content to community building, was central to game's best year ever. That's on me, and me alone. I'm sorry." — Ilkka Paananen, PocketGamer.biz, 2026
 
-His father sat in an empty chat for a year so the number would never read zero. Supercell had a hundred million players and a CEO, and for two days it would not say his name. Same requirement, scaled until you can see it from orbit. The scoreboard this time was one paragraph in a corporate blog post, invisible to everyone but him, and a 24-year-old would not let it go until the head of a multibillion-dollar company rewrote the paragraph by hand and signed an apology under it.
+The first version of this took one witness in one chair. Supercell had a hundred million players and a CEO, and for two days it would not say his name. Same requirement, scaled until you can see it from orbit. The scoreboard this time was one paragraph in a corporate blog post, invisible to everyone but him, and a 24-year-old would not let it go until the head of a multibillion-dollar company rewrote the paragraph by hand and signed an apology under it.
 
 Three weeks later he did the same thing pointed the other way. On March 12 he announced his own Counter-Strike 2 tournament and read out the lineup, and the Counter-Strike community immediately noted that he had invited almost no actual Counter-Strike players. That is the annexation instinct caught mid-reach and told no. He ran it anyway on March 15, forty-plus creators across forty-five channels, and it peaked at 481,000 concurrent viewers.
 
@@ -319,13 +350,13 @@ Two Saturdays. One week apart. Neither of them in the game that made him famous.
 
 <div class="timeline">
 
-**Saturday, April 11, 2026.** PogChamps 6 & 7, Chess.com's $100,000 creator tournament. Jynxzi enters with a blitz rating under 700, weeks after sitting around 250 on camera with GothamChess. He sweeps his group, drops half a point in the semifinal, and beats ohnePixel in the grand final in front of more than 218,000 concurrent viewers. Thirteen games played, zero lost. Levy Rozman's verdict on the whole event: "Greatest chess tournament of all time just happened."
+**Saturday, April 11, 2026.** PogChamps 6 & 7, Chess.com's $100,000 creator tournament. Jynxzi enters with a blitz rating under 700, weeks after sitting around 250 on camera with GothamChess. He sweeps his group, drops half a point in the semifinal, and beats ohnePixel in the grand final in front of more than 218,000 concurrent viewers. Thirteen games played, zero lost. Levy Rozman's verdict on the whole event, posted to X and quoted in Chess.com's report: "Greatest chess tournament of all time just happened."
 
 **Saturday, April 18, 2026.** Sidemen Charity Match, Wembley Stadium, 90,000 in the building and millions streaming. A record 20 goals, £6.2 million raised. Jynxzi scores twice for Sidemen FC and is named Man of the Match on an 8.8 match rating. The game finishes 10-10 and his side loses the shootout.
 
 </div>
 
-Seven days. A board game he had picked up that spring, then a football pitch in front of a stadium crowd. He won one of them.
+Seven days. A board game he had picked up that spring, then a football pitch in front of a stadium crowd. Of the two, he won the one nobody expected him to.
 
 The Saturday he lost is the more interesting one. Ten-all, beaten on penalties, and the individual award in his hand. He had played the same fixture the year before and struggled badly enough that his place in the squad was a live question. Twelve months later he was the best player on the pitch in a game his team did not win, which is the most Type 3 possible way to lose a football match.
 
@@ -351,7 +382,9 @@ The "dedication" charge is the one piece the record refuses to support. This is 
 
 Read Cenat's first sentence again, because he diagnosed it correctly by accident. Jynxzi was not playing *Elden Ring*. He was chasing a number that belonged to somebody else. Once Rykard put that number out of reach, the next forty hours stopped being a game and became a live broadcast of himself losing, slowly, on purpose, in front of everyone, with the outcome already settled. For a person whose sense of being worth anything runs through the result, that is a sentence being served.
 
-So he ended it. And then, within minutes, he delivered a verdict on himself that was harsher than anything Cenat said: "I'm a quitter. I'm a quitting piece of s***."
+So he ended it. And then, within minutes, he delivered a verdict on himself that was harsher than anything Cenat said.
+
+> "I'm a quitter. I'm a quitting piece of s***." — Jynxzi, Dexerto, June 2024
 
 Nobody had to tell him. He got there first. He always gets there first.
 
@@ -363,7 +396,7 @@ It does not take a marathon to get him there. The worst second of his day is the
 
 > "As soon as you click the button, people are flooding in front of you." — Jynxzi, Jynxzi Podcast #2 with Moist Cr1tikal, February 2024
 
-Flooding. He picked the word for water. A room filling up around him faster than he can turn to face it. He described it to Charlie White in 2024 and mentioned he had already talked it through with CaseOh, which is what you do about something that happens every night and never gets easier. Charlie told him he does not really get it, since he only ever makes things he felt like making. Jynxzi gets it every single night, right before the light goes on.
+Flooding. He picked the word for water. A room filling up around him faster than he can turn to face it. He mentioned to Charlie White that he had already talked it through with CaseOh, which is what you do about something that happens every night and never gets easier. Charlie told him he does not really get it, since he only ever makes things he felt like making. Jynxzi gets it every single night, right before the light goes on.
 
 Then there are the nights he does not go on. He was 22 when he tried to explain what those cost him, and the explanation kept circling back to his father.
 
@@ -421,13 +454,15 @@ Success at this size usually relocates people. Los Angeles, a content house, a n
 
 The alternative frightens him. By his own account, a life somewhere away from his family and his friends is not one he can picture.
 
-Then there is the other half of the picture, which is stranger. Asked on stream which streamers he counts as friends, he named two.
+Then there is the other half of the picture, which is stranger. Asked on stream in March 2024 which streamers he counts as friends, he named two.
 
-> "I wouldn't even, like, really consider myself, like, friends with, like, any streamers besides, you know, like, CaseOh and Sketch or something."
+> "I wouldn't even, like, really consider myself, like, friends with, like, any streamers besides, you know, like, CaseOh and Sketch or something." — Jynxzi, Sportskeeda, March 2024
 
-Kai Cenat was watching that stream live. His response was one line, and it was hurt rather than angry: "I've been talking to Jynxzi every day."
+Kai Cenat, who was not on the list, answered in one line, and it was hurt rather than angry.
 
-Same man who called him a pipsqueak with no dedication. Loudest critic and quietly excluded friend, one person, and Jynxzi has never landed on which one Cenat is.
+> "I've been talking to Jynxzi every day." — Kai Cenat, Sportskeeda, March 2024
+
+Three months later, the same man would call him a pipsqueak with no dedication. Loudest critic and quietly excluded friend, one person, and Jynxzi has never landed on which one Cenat is.
 
 Both things are true at once and they have the same root. The people Jynxzi holds onto are the ones who were present before the number went up. Everyone he met afterward, no matter how often they talk, is on the other side of a line he does not seem able to move. For a Three, the crowd that arrived for the results is not the crowd that proves anything. Only the people who watched the empty version can confirm that the full version is real.
 
@@ -498,9 +533,9 @@ Rejected / scaled down:
 - A standalone section on the business he is building. Folded the Kings League club and the tournament circuit into the rabbit hole as the counterweight the sp/3 case was missing, rather than adding length.
 
 Still open:
-- No faqs in frontmatter (blog-lint WARN). Frontmatter enrich stage has not run.
+- RESOLVED 2026-07-25 (enrich stage): faqs are populated, 5 real Q/A pairs, blog-lint passes.
 - Sources split on the Wembley penalty score (Dexerto 3-1, Sportskeeda 4-1). Draft says "loses the shootout" with no number. Pin it before publish if an editor wants the digit.
-- Podcast quotes are still YouTube auto-caption transcriptions. The original sourcing note's verify-before-publish instruction stands.
+- RESOLVED 2026-07-25 (revision pass): podcast quotes verified verbatim against both video transcripts; episodes and dates confirmed from metadata. See SOURCING NOTE.
 - Ilkka Paananen's apology is quoted from trade coverage of his X post, not the post itself.
 
 Source audit after the pass:
@@ -570,11 +605,66 @@ Protected, untouched:
   million and a jury of about four," and the closing audience-of-one reveal.
 
 Still open (unchanged by this pass):
-- faqs frontmatter (blog-lint WARN). Enrich stage has not run.
-- Podcast quotes are still YouTube auto-caption transcriptions; verify wording before publish.
+- RESOLVED since: faqs frontmatter populated by the enrich stage; podcast quotes verified verbatim
+  in the 2026-07-25 revision pass. Both items are closed. See SOURCING NOTE.
 - Wembley penalty score still unpinned by design (sources split 3-1 / 4-1).
 
 Exit checks: blog-lint 0 fail / 1 warn (faqs). blog-quality-report: 0 contrast pairs, head-term PASS,
 answer block 50 words.
+-->
+
+<!-- REVISION PASS NOTES (2026-07-25)
+Triggered by: grade B (8.3), Evidence capped at 6 (evidence_untraceable_load_bearing_claim). Lint was
+already clean (0 fail), so this pass is entirely grade feedback.
+
+Fixed:
+- All nine untraceable load-bearing quotes now carry reader-visible attribution. Rather than tag them
+  from the internal note, both podcast videos were pulled and every quote checked against the
+  transcript. All five podcast quotes match verbatim; episodes and dates come from video metadata.
+  Full per-quote breakdown in the SOURCING NOTE.
+- TO REACH B+ (1): the four podcast quotes plus the epigraph are tagged with show, episode number,
+  co-host and month. Both YouTube URLs added to `citations`.
+- TO REACH B+ (2): the Rozman line is now "posted to X and quoted in Chess.com's report." The Porsche
+  quote "Nobody deserves it more than my dad" could not be sourced anywhere and was CUT, replaced with
+  the sourced line from the same video ("you were the reason why I went for streaming," Sportskeeda,
+  April 2024). The replacement is the better quote for the witness thesis anyway.
+- TO REACH B+ (3): section 8 did NOT need the hedge. Both quotes trace to a dedicated Sportskeeda
+  article, datePublished 2024-03-27, so they are attributed with outlet and month instead. This also
+  dates the Cenat thread and the section now says the exclusion came three months before the roast.
+- "I'm a quitter. I'm a quitting piece of s***" is tagged to Dexerto, June 2024, and promoted to a
+  blockquote so the empathy-turn payoff gets its own beat.
+- TO REACH A (4): three of the seven fragment closers converted to full sentences ("Losing is the
+  product", "The last sentence is the tell" + "He was still playing R6 tomorrow" merged, "He won one
+  of them"). Kept "The arena was always negotiable. The scoreboard never is." and the closing trio,
+  which the grader named as the two strongest.
+- TO REACH A (5): "Sit with the arithmetic" cut; the next sentence carries the beat unaided.
+- TO REACH A (6): section 4's "His father sat in an empty chat for a year" reshaped to "The first
+  version of this took one witness in one chair" — keeps the father-to-CEO escalation and the
+  "scaled until you can see it from orbit" bridge without re-spending the one-viewer image. It now
+  has two reader-visible ends, section 2 and the close.
+- TO REACH A (7): "He reached for the word need" cut. "Flooding. He picked the word for water" kept,
+  as the grader preferred.
+- Two fact corrections surfaced by the verification, neither flagged by the grader: the diagnosis
+  said "In March 2024" (the episode is February 2024), and the Porsche paragraph had Cr1tikal
+  speaking "a few months later" when the podcast is two months EARLIER than the gift. Both fixed.
+- Ledger drift: FORMULA ledger similarity corrected to 0.066 vs Kiernan-Shipka (re-run confirms the
+  grader; 0.075 vs David-Beckham no longer reproduces). TESTIMONY ledger gains Rozman, dates the
+  Cenat entry, and moves it into the qualifying count (6 -> 8). Stale "no faqs" open items cleared
+  from the SECOND PASS and EDITOR PASS blocks.
+
+Rejected (with reason):
+- None of the grade feedback was rejected.
+
+Flagged, not acted on:
+- blog-source-audit.mjs now reads the epigraph and diagnosis quotes as VAGUE rather than INLINE,
+  because it treats "Jynxzi Podcast" as the venue keyword "podcast" rather than a named outlet. The
+  quotes are strictly more traceable than before (named show, episode, co-host, month, primary URL in
+  citations). I did not extend the script's OUTLETS list to cover a subject's own show, because that
+  is a shared-tooling change affecting every draft and should not be made to move one draft's number.
+  Do not read the audit summary as a regression.
+- Wembley penalty score still unpinned by design (Dexerto 3-1, Sportskeeda 4-1).
+- Paananen's apology is still quoted from trade coverage of his X post rather than the post itself.
+
+Lint: clean (0 fail, 1 warn — body 4341 words vs 4500 ceiling, up 114 from attributions).
 -->
 

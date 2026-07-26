@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — jynxzi (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Jynxzi.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 30
+Comparison set (last 8 other Type-3 drafts by date):
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+  - madonna  (2026-07-18, 41 units)
+  - David-Beckham  (2026-07-13, 43 units)
+  - n3on  (2026-07-13, 38 units)
+  - xochitl-gomez  (2026-07-12, 43 units)
+  - Kiernan-Shipka  (2026-07-11, 46 units)
+  - Alex-Warren  (2026-07-01, 25 units)
+
+Noise floor over 9600 unit pairs:  median=0  p90=0  p99=0.005  max=0.066
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.066 ###                  Kiernan-Shipka
+  0.054 ##                   n3on
+  0.039 ##                   Alex-Warren
+  0.031 #                    David-Beckham
+  0.029 #                    madonna
+  0.026 #                    xochitl-gomez
+  0.022 #                    pete-hegseth
+  0.015 #                    margaret-qualley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.066   jynxzi  <->  Kiernan-Shipka
+   TARGET [counter-typing] which is stage fright rather than the Six's ambient scanning for danger.
+   OTHER  [counter-typing] which is a Three running Seven-flavored software rather than the reverse.
+
+score 0.058   jynxzi  <->  Kiernan-Shipka
+   TARGET [diagnosis] ADHD-coded entertainer is Type 7
+   OTHER  [diagnosis] The honest counter-read is Type 7
+
+score 0.054   jynxzi  <->  n3on
+   TARGET [diagnosis] Threes route their sense of being a real person through whatever they produced most recently
+   OTHER  [diagnosis] Type 3s fuse their sense of worth to how they are seen.
+
+score 0.039   jynxzi  <->  Alex-Warren
+   TARGET [diagnosis] he tried to describe the experience of not going live
+   OTHER  [diagnosis] Warren describes the engine himself
+
+score 0.033   jynxzi  <->  Alex-Warren
+   TARGET [diagnosis] Jynxzi gave a single 2015 tactical shooter seven straight years
+   OTHER  [diagnosis] the type organized around a single terror
+
+score 0.031   jynxzi  <->  David-Beckham
+   TARGET [diagnosis] They chase the next stimulating thing and leave the last one half-finished behind them.
+   OTHER  [diagnosis] The finish line becomes the next starting block.
+
+score 0.029   jynxzi  <->  madonna
+   TARGET [counter-typing] a Six at the top of a field is preoccupied with holding position and reading threats.
+   OTHER  [counter-typing] " then a six-year respectability campaign.
+
+score 0.027   jynxzi  <->  Kiernan-Shipka
+   TARGET [diagnosis] and named the mechanism without meaning to.
+   OTHER  [diagnosis] and then whatever the internet is saying." She has named the engine herself.
+
+score 0.026   jynxzi  <->  xochitl-gomez
+   TARGET [counter-typing] a Six at the top of a field is preoccupied with holding position and reading threats.
+   OTHER  [diagnosis] The warmth sits on top of the Three.
+
+score 0.025   jynxzi  <->  madonna
+   TARGET [counter-typing] A Six guarding a position does not vacate it and go looking for four more places to be judged.
+   OTHER  [counter-typing] " then a six-year respectability campaign.
+
+score 0.025   jynxzi  <->  David-Beckham
+   TARGET [diagnosis] and named the mechanism without meaning to.
+   OTHER  [counter-typing] and naming it honestly is more useful than pretending the type covers everything.
+
+score 0.024   jynxzi  <->  xochitl-gomez
+   TARGET [diagnosis] A Seven plays the bracket for the bit and makes the loss funny.
+   OTHER  [counter-typing] A Seven scatters toward new options
+
+------------------------------------------------------------------------------
+Top pair scores 0.066 vs median 0  (~∞x the noise floor).

@@ -1,0 +1,21 @@
+## Grading Complete — Jynxzi (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jynxzi | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 59.0 / 7 = 8.4`. Discoverability 9 — no gate. No caps applied.
+
+**Movement from the first grade (8.3):** Evidence 6 → 8, cap cleared. The revision pass did the expensive version — pulled both podcast transcripts, verified all five quotes verbatim, confirmed episodes from video metadata, cut two quotes it couldn't trace instead of dressing them up. That's the right instinct and it worked. The overall barely moved because I scored Originality at 8 where the first pass had 9, and Writing at 8 vs 8.5.
+
+### Key observations
+
+- **The revision fixed quotes but not numbers.** Every word Jynxzi says is now traceable; almost none of the metrics are. The whole Wembley half of the signature April 2026 section has no inline source and no URL in `citations` — despite the second-pass notes citing Dexerto and Sportskeeda for the penalty score. Also unattributed: the 481K CS2 peak, the 151K/27h Valorant figure and its "five and a half times" multiplier (derived, no denominator shown), the 7.2M→7.8M follower growth. That's the whole gap between Evidence 8 and 9, and it's mostly a two-word insertion per claim.
+
+- **Eight of nine sections close on the same aphoristic beat.** The revision converted three fragments to full sentences, but the cadence underneath is unchanged. Read end to end it's the house fingerprint, which is what the 9-10 Writing band explicitly excludes.
+
+- **The thesis has a visible seam.** Arena selection (§1–3) and the witness requirement (§2, 4, 8) are joined by one clause — "Same requirement, scaled until you can see it from orbit." Leaving Siege because returns dropped isn't self-evidently the same mechanism as needing your name in a corporate blog post. The Distribution Ledger counts that one-sentence bridge as a win; it's actually the load-bearing join.
+
+- **Genuinely strong where it counts:** the empathy turn concedes before it reframes ("Cenat is right about the part that matters most... He should have finished. He knows it."), which most drafts skip. Discoverability is near ceiling. Ledgers spot-checked honest — 9 H2s as claimed, all 9 testimony quotes actually in the body, 0 contrast pairs confirmed by the report. Same-type similarity clear.
+
+Sidecar written to `docs/content-analysis/grades/Jynxzi.review.md` with the B+ path (source the metrics, +0.2) and the A path (break the closer cadence, argue the arena/witness join, give §5 its own claim).

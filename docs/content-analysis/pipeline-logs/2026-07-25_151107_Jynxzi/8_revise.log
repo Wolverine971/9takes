@@ -1,0 +1,24 @@
+Revised `src/blog/people/drafts/Jynxzi.md`. Lint was already clean, so the loop was triggered purely by the grade: **B (8.3), Evidence capped at 6** for nine untraceable load-bearing quotes.
+
+**The main work: I verified rather than tagged.** The grader said to tag the podcast quotes from the draft's internal note. Instead I pulled both YouTube transcripts and checked every quote against them. All five match verbatim, and video metadata pinned the episodes precisely:
+
+- `8-OP15Rggos` = **Jynxzi Podcast #1, CaseOh, Feb 18 2024**
+- `M26ylEXv_UE` = **Jynxzi Podcast #2, Moist Cr1tikal, Feb 26 2024**
+
+That surfaced three things the grader couldn't see:
+
+1. **The epigraph is from ep. 1, not ep. 2** as the internal note implied.
+2. **"In March 2024" was wrong** — the episode is February 2024.
+3. **A chronology error**: the Porsche paragraph had Cr1tikal speaking "a few months later" than the gift. The podcast is two months *earlier*.
+
+**Two quotes went the other way.** "Nobody deserves it more than my dad" appears in no source, including the full transcript of the Porsche moment — cut, and replaced with the sourced line from that same video: *"you were the reason why I went for streaming"* (Sportskeeda, Apr 14 2024). It's the better quote for the witness thesis anyway.
+
+**Section 8 didn't need the hedge.** The grader called it "the hard one" and suggested writing "in an undated stream widely clipped in 2024." Both quotes trace to a dedicated Sportskeeda article, `datePublished 2024-03-27`. That also dates the Cenat thread — the exclusion came three months *before* the pipsqueak roast, and the section now says so.
+
+I also confirmed the "Seven Days in April 2026" section survives: April 11 and 18 are both Saturdays exactly seven days apart (Chess.com's April 10 is the Friday event start). All four TO-REACH-A prose items are done — three fragment closers converted, "Sit with the arithmetic" cut, the duplicate isolate-the-word move dropped, and section 4's one-viewer repeat reshaped so the image has two reader-visible ends.
+
+**Nothing was rejected.** One thing I flagged instead of acting on: `blog-source-audit.mjs` now reads two quotes as VAGUE rather than INLINE, because it classifies "Jynxzi Podcast" as the venue keyword *podcast* rather than a named outlet. The quotes are strictly more traceable than before — named show, episode, co-host, month, primary URL in citations. I did **not** extend the script's `OUTLETS` list, since that's shared tooling affecting every draft and shouldn't be changed to move one draft's number. It's documented in the sourcing note so the re-grade doesn't misread it as a regression.
+
+Verification: **lint 0 fail** (1 warn, body 4341 words vs 4500 ceiling, up 114 from attributions); quality report 0 contrast pairs, head-term PASS; similarity clear at 0.066 vs Kiernan-Shipka — which confirmed the FORMULA ledger's 0.075 was stale, now corrected. YAML parses clean (13 citations, 5 faqs). `lastmod` and `content_quality` both untouched.
+
+The pipeline will clear the consumed review sidecar and re-grade.
