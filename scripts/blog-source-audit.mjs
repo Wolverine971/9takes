@@ -242,7 +242,13 @@ const OUTLETS = [
 	'TheGrio',
 	'Club Shay Shay',
 	'Al Jazeera',
-	'Complex Networks'
+	'Complex Networks',
+	// Comedy podcasts that publish full public episodes (Stavros-Halkias pass,
+	// 2026-07-25). Same class as Shawn Ryan Show / Club Shay Shay above: for
+	// stand-up subjects these ARE the primary record, and a named show + date is
+	// more checkable than most magazine attributions.
+	'Joe Rogan Experience',
+	'Are You Garbage'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

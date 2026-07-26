@@ -1,0 +1,25 @@
+Revised `src/blog/people/drafts/Stavros-Halkias.md`.
+
+**Triggered by:** grade C (7.8) with Evidence at 6 and two caps (`evidence_untraceable_load_bearing`, `originality_cross_draft_sameness`). Lint was already clean, so every item came from the grader sidecar. This was a sourcing pass — no structure, section order, or argument changed.
+
+**One thing the grader didn't catch.** While sourcing the Lodge Room figure I found a factual sequencing error: the draft had him announcing the *Cum Town* exit on June 25, 2022 and releasing *Live at the Lodge Room* "weeks later." The special actually premiered **June 5, 2022** — twenty days *before* the announcement. Reordered to the true sequence, which strengthens the ownership read rather than weakening it: he put the self-financed special up free, it hit two million views, then he left. FAQ 2 corrected to match.
+
+**Grader items fixed**
+
+| Item | Fix |
+|---|---|
+| NEEDS WORK #1 / TO REACH 1 — anonymous Stavvy's World anecdote | Named and dated: Jordan Jensen, episode 145, September 2025, with Slate's October 2025 question about the clip and his answer quoted. Also closes the stale ledger that claimed the Jensen example when the name was absent from the body. |
+| TO REACH 2 — rug / 25,000 tickets | "The Baltimore Sun ran the picture on July 20, 2026." The `netliflix` slug typo **resolves** — it's the Sun's typo, real article by Jacob Baumgart, and it's the source of both the rug and the ticket figure. Left as-is. |
+| TO REACH 3 — "house money" | Attached to Slate, October 2025. Dropped "he reaches for the same phrase every time," which asserted a pattern no source supports. |
+| TO REACH 4 — four cited-but-unattributed claims | *Let's Start a Cult*: Dark Sky Films, Oct 24 2024, Deadline on the Hulu buy. Mamdani rally: Baltimore Sun, Oct 29 2025. 2012 award: Magooby's Joke House named. |
+| NEEDS WORK #2 / TO REACH 5 — Zendaya lift | "Line those up and the pattern has nothing to do with comedy" → "A poster, a life buoy, a tracksuit, his parents' house." TL;DR bold labels de-templated from 5-of-5 on the "The [noun]:" skeleton to 2. |
+
+**Partially fixed:** the Lodge Room "two million views in three weeks" figure still has no outlet in prose. Wikipedia cites The Laugh Button, but that domain now 302s to 800poundgorillamedia.com and no article carrying the figure is reachable. I pinned the verifiable June 5, 2022 release date instead of asserting an outlet I couldn't read.
+
+**Rejected, both flagged in the note:**
+- The "identical furniture" originality hit (epigraph → firstLetter → key-stat → TL;DR). That sequence is the format contract — lint *fails* a people draft without the firstLetter paragraph and the TL;DR accordion. Rules conversation, not a draft fix.
+- Making the source-audit EMPATHY TURN and CLOSE slots score. They still read "(no quoted material in slot)" and you were right that it's a false all-clear, but the cause is by design here: the detector matches negative-parallelism grammar this draft deliberately avoids (which the grader praised), and the Ending Rule cuts the close to black. Changing shared tooling to move one draft's number is the call the Jynxzi pass declined three days ago — left for you to settle as policy.
+
+**Lint: 0 fail, 1 warn.** The warn is word count — 4223 → 4345 against the 4500 ceiling, so headroom is now ~155 words. Contrast pairs re-verified at 0/0; same-type-similarity re-run clear at 0.053.
+
+`content_quality` and `lastmod` untouched. The pipeline will clear the consumed review sidecar and re-grade.

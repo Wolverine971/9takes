@@ -1,0 +1,33 @@
+Done. Updated `src/blog/people/drafts/Stavros-Halkias.md`.
+
+## The biggest change wasn't on the review list
+
+Research turned up that the draft's central fact was materially incomplete. Slate: *"I put it on a down payment on a house... **I bought my family a house**."* The $30,000 didn't buy him a rowhome, it bought his parents one. That collides with a quote the draft mentioned once and abandoned: *"I was the oldest, and I was considered the meal ticket. They were hoping I'd be like a lawyer or something."*
+
+So the spine is now the meal ticket paying out in a currency nobody in that house would have accepted: no law degree, no salary, a podcast called *Cum Town*, and a house. That fixes the review's "meal ticket gets one sentence then disappears" note and upgrades the thesis at the same time. `meta_title` and `description` rewritten to match.
+
+## Other substantive changes
+
+- **New H2 on the weight**, per the review. 290 lbs at end of tour under a 300 goal, *"the first tour of my life where I lost weight,"* the salmon at Sal & Sons instead of pit beef, his public TikTok count, the Dreamboat name. Held as contradiction: appetite and rationing read as one self-preservation instinct, not wound-then-growth.
+- **Carveout section hardened three ways**: Mamdani as the sincerity receipt (rally with Sanders and AOC, the same weeks Simons published); the back-catalog charge answered in his own words (*"we had it good when it was comedians pretending to be Nazis as opposed to actual Nazis with the levers of power"*); and the Jordan Jensen pushback on *Stavvy's World*, which makes the carveout a rule about venue rather than an inability.
+- **Two actual laughs added**, since the review was right that nothing here was funny: the Greek-chef warning and the Lanthimos goat line. Both verbatim, both do double duty.
+- **Rabbit Hole moved** after the carveout and rebuilt with new evidence (the four verbatim re-quotes are gone).
+- **Trims**: $30,000 from 6 body placements to 3; the "test it against" and "here is why" scaffolding; the rug row pulled from the receipt table so the ending isn't pre-spoiled; the triple-negation close.
+
+## Two review notes I pushed back on
+
+The review said he **produced** *Let's Start a Cult*. He co-wrote and starred; Kitnick directed. Added with the correction. It also framed the back-catalog critique as Simons's argument, but Simons's piece is entirely about the friendships. I brought that charge in as the reader's question instead, which is more honest and hits harder.
+
+## Source audit
+
+**7 load-bearing quotes: 6 inline, 1 vague, 0 untagged** (was 2 inline / 3 vague / 1 untagged). The remaining vague is the JRE "run out of new jokes" quote, where outlet and year sit in the immediately preceding sentence and only the script's sentence-window heuristic misses it. I kept the cleaner prose.
+
+I did extend `scripts/blog-source-audit.mjs` OUTLETS with `Joe Rogan Experience` and `Are You Garbage`, following the existing precedent for Shawn Ryan Show / Club Shay Shay. Flagging because it's a script change, not just a draft edit: for a stand-up subject these are the primary record. It also fixed a false positive, since the Are You Garbage quote had been grading inline off a stray "Baltimore Magazine" in its window.
+
+`blog-lint`: 0 fail, 1 warn (4220 words vs 4500 ceiling). `same-type-similarity`: clear. `lastmod` untouched.
+
+## Worth an editor's eye
+
+The old FAQ claimed the Dreamboat Tour was a "26-city run, late January through April 2026." The 2026 leg opened in Tampa on **January 15** and there are dates into **July 2026**, so both the count and the end date were wrong. I softened the FAQ to what's verifiable; someone with the Live Nation press release could restore an exact figure.
+
+Sources: [Slate](https://slate.com/culture/2025/10/stavros-halkias-stavvy-bugonia-comedian-cum-town-interview.html), [Baltimore Magazine](https://www.baltimoremagazine.com/section/artsentertainment/stavros-halkias-comedian-actor-podcaster-profile-greektown-baltimore-native-rise-to-fame/), [Baltimore Sun on Mamdani](https://www.baltimoresun.com/2025/10/29/stavros-halkias-zohran-mamdani-nyc-mayor/), [Are You Garbage transcript](https://podscripts.co/podcasts/are-you-garbage-comedy-podcast/stavros-halkias-greek-garbage), [Let's Start a Cult (Wikipedia)](https://en.wikipedia.org/wiki/Let's_Start_a_Cult), [NPR](https://www.npr.org/2024/10/27/nx-s1-5131537/comedian-stavros-halkias-on-his-new-film-lets-start-a-cult), [Dreamboat 2026 extension](https://www.idsnews.com/article/2025/10/pr-comedian-stavros-halkias-tour-103025), [Fox Baltimore on the Lyric taping](https://foxbaltimore.com/news/local/netflix-taping-stavros-halkias-baltimore-laughing-at-itself).

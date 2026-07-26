@@ -106,20 +106,26 @@ These have database rows but the rows are stubs. They belong in `backlog-queue.j
 
 ---
 
-## Do not publish these
+## Spend images carefully
 
-Four drafts have images made and carry the **highest grades in the entire backlog**. They are in dead categories and should stay unpublished.
+> **Corrected 2026-07-25.** This section originally told you not to publish Frank Lloyd Wright, Marie Curie, Edgar Allan Poe and Mark Twain, citing a `historical` category median of 9. That number came from a broken GSC join that dropped mixed-case and anchor URL rows. With the join fixed, **`historical` medians 75**, which is higher than `musician`. That advice is withdrawn. Method and correction: [`docs/content-analysis/2026-07-25_people-corpus-triage.md`](../content-analysis/2026-07-25_people-corpus-triage.md) §3 and §6.
 
-| Draft              | Grade | Category             | Category median impressions |
-| ------------------ | ----- | -------------------- | --------------------------- |
-| Frank Lloyd Wright | 9.3   | historical-artist    | **16**                      |
-| Marie Curie        | 8.9   | historical-scientist | **9**                       |
-| Edgar Allan Poe    | 8.7   | historical-artist    | 16                          |
-| Mark Twain         | 8.2   | historical-artist    | 16                          |
+Grade correlates with traffic at roughly _r_ = 0.11 across 391 published pages. Category and search demand are what move it. So images, which are the manual bottleneck, should go to the categories that actually earn.
 
-Measured across 391 published pages (GSC, 90 days to 23 July 2026): grade correlates with traffic at roughly _r_ = 0.11. Category and search demand are what move it. Frank Lloyd Wright is the highest-graded unpublished draft on the site and would likely earn nothing.
+**Genuinely dead categories, safe to deprioritise.** These are real findings on real samples:
 
-The same applies to the 21 needs-image drafts in dead categories: Zelensky, Gandhi, Cleopatra, DeSantis, RFK Jr., Buttigieg, Marie Antoinette, Nelson Mandela and the rest. Politician median: **0**. Activist median: **0**. Commissioning images for these spends the scarcest resource on the lowest-return slots.
+| Tag                 | Published pages | Median impressions |
+| ------------------- | --------------- | ------------------ |
+| politician          | 34              | **2**              |
+| campaign-politician | 10              | **0**              |
+| activist            | 5               | **0**              |
+| movement-leader     | 5               | **0**              |
+| tiktoker            | 6               | **3**              |
+| singer-songwriter   | 5               | **1**              |
+
+That covers most of the 21 needs-image drafts in this bracket: Zelensky, Gandhi, Cleopatra, DeSantis, RFK Jr., Buttigieg, Marie Antoinette, Nelson Mandela and the rest. Commissioning images for these spends the scarcest resource on the lowest-return slots.
+
+**Where the tag data cannot be trusted.** `musician` (72 pages, median 47) and `pop-star` (12 pages, median 616) are both applied to pop artists with nothing in the data explaining which is which. Alex Warren carries `musician, creator`; Sabrina Carpenter carries `pop-star` and 7,268 impressions. Any Tier 1 pick above that rests on a mid-table tag is justified by **search demand and news timing**, not by its category median. Trust the extremes, not the middle.
 
 ---
 

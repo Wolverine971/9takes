@@ -1,0 +1,59 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Stavros-Halkias.md`
+
+**Before score: 7.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Stavros Halkias is a Type 7 whose appetite was built by watching his father's forty years of work stay permanently provisional, which is why he converts everything into things he owns and refuses to subtract anything from the table.
+
+### Thread Map
+
+| # | Section | What it contributes |
+|---|---|---|
+| — | Cold open | $30K + house vs. ski-mask quote: same year, same man. Names the eldest-son frame. |
+| 1 | Personality type | Diagnosis: the payoff is the new joke, the fear is a finite supply. |
+| 2 | Didn't Know He Was Poor | Origin of the fear: green card, forty years, status never converts. |
+| 3 | Ten Years in Baltimore Bars | The cost of the payout + the pandemic reset that made the exit possible. |
+| 4 | Left the Podcast | The exit and the ownership pattern that follows from it. |
+| 5 | House Is a Receipt | The physical proof of rooms that let him in, stored in a room he owns. |
+| 6 | Losing the Weight | The one supply he now meters, held as contradiction not growth. |
+| 7 | Right-Wing Friends | The one subtraction he refuses, and why it's about the door, not their politics. |
+| 8 | The Rug | Convergence: father's unconverted forty years vs. the son's rug. |
+
+The chain holds end to end. The weak links were all at the seams, not in the argument.
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 6/10 | 9/10 |
+| Internal Paragraph Flow | 8/10 | 9/10 |
+
+### Changes Made (7 total)
+
+**Thread Fixes (1)**
+- The carveout section closed on "it is not about their politics at all. **It is about his.**" — which contradicts the section's own argument (the whole point is that it *isn't* about politics, it's about doors held open). Changed to "It is about the door," which carries the image the section already built.
+
+**Transition Fixes (5)**
+- **Diagnosis → Poor**: added "That fear has an address." Reader now knows the childhood section is the origin of the dread, not a biography detour.
+- **Poor → Ten Years**: added "That payout took ten years to arrive." This seam was the worst one — the piece delivered the resolution (the house) and then silently jumped back to 2012 open mics. Now the time reversal is announced.
+- **Left the Podcast → Receipt**: added "Those rooms leave things behind, and he keeps all of it." Carries "room" from the generous-laugher close straight into the inventory.
+- **Receipt → Weight**: added "The one thing that got him into those rooms is not in the inventory. He carries it." This was the closest thing to a broken seam (furniture → body, no connection).
+- **Weight → Carveout**: replaced the generic pivot ("This is the part of him that a smart reader should push on") with "He can subtract from his own plate. There is one subtraction he refuses..." — uses the piece's own subtraction vocabulary and makes the later "He just will not do the subtraction" land as a callback.
+
+**Internal Flow Fixes (1)**
+- Diagnosis section had a parallel bridge pair ("His stated ambition matches." / "His stated fear matches too."). Changed the second to "He is equally specific about the alternative," which also carries the *boss → regular job* keyword.
+
+### What Was Preserved
+- All frontmatter, FAQs, ledgers, review notes, Svelte/HTML blocks, key-stat divs, the receipt table, the Rabbit Hole
+- All 6 internal links
+- Strong seams left untouched: cold open → TL;DR, Ten Years → Left the Podcast (already explicitly set up by "Fifteen months later he walked away"), Carveout → Rug
+
+### Verification
+`blog-lint`: 0 fail, 1 warn (word count, pre-existing). `blog-quality-report`: contrast pairs back to **0 strong / 0 comparative** — my first draft of the Ten Years bridge introduced one comparative engine, so I rewrote it.
+
+### Remaining Concerns
+- **Word count**: 4,273 of 4,500. My bridges added ~36 net words. Headroom is thinner than it was; the next refresh should trim before it adds.
+- **Rabbit Hole placement**: it sits inside the carveout section, so the seam into the ending is a hard scene-cut rather than a bridge. That reads as deliberate for an ending and I left it, but if you want a smoother landing, moving the Rabbit Hole to just before the closing disclaimer would let the carveout's "door" line hand off directly to the rug.

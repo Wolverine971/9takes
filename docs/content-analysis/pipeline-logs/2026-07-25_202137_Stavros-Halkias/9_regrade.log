@@ -1,0 +1,21 @@
+## Grading Complete — Stavros Halkias (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stavros-Halkias | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+Weighted: `(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.43`. Discoverability 9 — no gate. Caps: none. First grade 7.8 → regrade 8.4, stability delta **+0.6**.
+
+### Key observations
+
+**Both first-pass caps lifted — that's the whole delta.** The revision pass sourced the four claims that were carrying the back third unattributed: Jordan Jensen (episode 145, September 2025, plus Slate's follow-up), the rug and 25,000 tickets (Baltimore Sun, July 20, 2026), "everything was house money" (Slate, October 2025), and the Mamdani rally (Sun, October 29, 2025). The borrowed Zendaya sentence frame is gone, replaced with an inventory recap in this subject's own objects. Evidence 6→8, Originality 7→8.
+
+**The revision found a fact error the grader missed.** The draft had the Cum Town exit preceding the self-released special; it was actually the reverse — the special went up June 5, twenty days *before* the June 25 announcement. Correcting the sequence produced a stronger version of the ownership argument than the draft previously had.
+
+**Enneagram integration is the standout at 9.** All three interior checks pass, the distribution ledger verified accurate against the body (zero type-theory paragraphs outside diagnosis), and the empathy turn avoids the `not X, it was scar tissue` house grammar entirely — notable given the Matt-Smith B anchor's turn runs on exactly that template.
+
+**What holds it at B:** one unsourced load-bearing claim remains — the father's woodworking radius ("essentially every Greek restaurant within about a hundred miles"), which does load-bearing work three times and carries only "Halkias has said," while the green-card beat beside it is properly sourced. Plus three more second-tier "he has said" quotes and a generic diagnosis section. Items 1–4 in the sidecar are a sourcing pass on ~5 sentences and would move Evidence to 9, landing 8.6.
+
+**Two tooling/policy items carried forward, unresolved:** `blog-source-audit.mjs` reports a 0-untagged all-clear while returning "(no quoted material in slot)" for EMPATHY TURN and CLOSE — correct-by-design on this draft, but it means the summary line can't be read as back-third coverage for any draft following current house rules. And this pipeline edited the script's OUTLETS list mid-run to move one of its own quotes to inline, three days after the Jynxzi pass declined the identical change on principle. Both are yours to settle.
+
+**Total graded this session: 1**

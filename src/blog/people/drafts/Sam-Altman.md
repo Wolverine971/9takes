@@ -55,6 +55,7 @@ citations:
   - 'https://www.newyorker.com/magazine/2016/10/10/sam-altmans-manifest-destiny'
   - 'https://www.forbes.com/profile/sam-altman/'
   - 'https://blog.samaltman.com/'
+  - 'https://www.youtube.com/watch?v=Vv3CEAS_w34'
 faqs:
   - question: "What is Sam Altman's personality type?"
     answer: "Sam Altman is an Enneagram Type 4 with a 3 wing — an sp/so Individualist whose identity project is poured into leadership instead of theatrical moodiness. The $76K salary, the word 'shameful' after being fired, and the lifelong preoccupation with identity (from coming out at 17 to Worldcoin) all converge on Type 4."
@@ -98,6 +99,7 @@ And the [Enneagram Type 4](/enneagram-corner/enneagram-type-4) is the map.
 <li><b>The Word "Shameful":</b> When fired from OpenAI in 2023, he didn't call it "unfair" or "political." He called it <i>shameful</i> — the word a Type 4 reaches for when identity itself is what's been threatened.</li>
 <li><b>Identity, Not Ambition:</b> From coming out at 17 to Worldcoin's mission of giving every human a unique identity, the thread isn't career advancement. It's: <i>I am different. That difference matters. I will build a world where it's allowed to exist.</i></li>
 <li><b>Conflict Through Feeling:</b> When [Elon Musk](/personality-analysis/elon-musk) turned adversary, Altman texted: "You're my hero and it really fucking hurts when you publicly attack OpenAI." Vulnerability first, strategy second.</li>
+<li><b>Grateful for the Bad Days:</b> In 2026 he said the opposite of a bad experience isn't a good one, it's <i>no</i> experience, and that a fast-forward button on your life would end it. He measures a life in "emotional depth and range." A Type 3 presses the button.</li>
 </ul>
 </div>
 </details>
@@ -250,7 +252,7 @@ In growth, Type 4 moves toward Type 1. Altman's best version gives the vision ru
 
 ### Counterarguments: Why Sam Altman Might Not Be Type 4
 
-The strongest alternate is Type 3. Altman leads, scales, fundraises, negotiates, testifies, and plays the institutional game better than almost anyone alive. But a core 3 calibrates to visible winning. No equity in a hundreds-of-billions company should be unbearable if status is the central fuel. Altman keeps saying the reward is the work's meaning, not the scoreboard.
+The strongest alternate is Type 3. Altman leads, scales, fundraises, negotiates, testifies, and plays the institutional game better than almost anyone alive. But a core 3 calibrates to visible winning. No equity in a hundreds-of-billions company should be unbearable if status is the central fuel. Altman keeps saying the reward is the work's meaning, not the scoreboard. The fast-forward-button answer is the cleanest version of the test: a core 3 presses the button, because the bad days are the part of the process that doesn't score. Altman says pressing it ends your life.
 
 The Type 8 read also has a case: force of will, power, control, survival prep, and a willingness to reshape whole industries. But his conflict style is too wound-aware and self-narrating. He does not simply dominate and move on. He processes the injury, names the hurt, then folds the contradiction into the story of who he is. That is Type 4 interiority operating at empire scale.
 
@@ -336,6 +338,30 @@ In that emptiness, something cracked open: "One thing I realized through meditat
 For most people, that's a spiritual insight. For someone whose life has been organized around identity, it's an earthquake. To sit in silence and realize there might be _no self to protect_ is to confront the void at the center of the obsession.
 
 He didn't run from it. He built a practice around it: taking the most destabilizing insight your psyche can produce and giving it structure, discipline, routine.
+
+### "I Find It Fairly Easy to Be Grateful for the Bad Days"
+
+In July 2026, Altman sat down with Ti Morse on the [Relentless podcast](https://www.youtube.com/watch?v=Vv3CEAS_w34&t=446s). Morse asked how he'd made the transition to internalizing the enjoyment of pain, of things going wrong.
+
+The answer is the clearest statement of his emotional operating system anyone has gotten out of him.
+
+> "I think most people think about the opposite of a bad experience as a good experience, and they would rather have the good experience because [it] seems like more fun or more pleasant or whatever. But if you think about it, the opposite of a bad experience is no experience. And at some point in the not-too-distant future, you'll be in no-experience land. Then you can be grateful for the bad experience too."
+
+Then he reached for a line from Naval Ravikant:
+
+> "If you had a fast-forward button on a remote for your life, your life would be over. And so the boring parts, the bad parts, it's much better than no experience. It's all part of the interestingness and the kind of emotional depth and range."
+
+And the landing:
+
+> "I find it fairly easy to be grateful for the bad days."
+
+Read that against the industry he leads. Optimization culture is a machine for eliminating bad days: shorter feedback loops, fewer wasted cycles, faster paths to the outcome. The fast-forward button is that worldview built into a device. Altman looks at the remote and points out that pressing it kills you.
+
+Every type has a story about suffering. Type 8s treat it as a test of strength. Type 3s treat it as a cost to route around. Type 7s reframe it into opportunity so they never have to sit inside it. None of those is what's happening here. He isn't saying bad days build character, or teach lessons, or turn out to be secretly good days. He's saying bad days are _experience_, and experience is the entire point. The metric he names out loud is "emotional depth and range."
+
+That is a Type 4's value system compressed into one sentence. Not achievement. Not comfort. Not even meaning, exactly. The width of what a person can feel is the measure of the life.
+
+It also closes the loop on the man who used to wake in the night with his heart pounding. The dread never went away. He stopped filing it under damage.
 
 ## The Structure That Didn't Exist (And the Contradiction That Replaced It)
 

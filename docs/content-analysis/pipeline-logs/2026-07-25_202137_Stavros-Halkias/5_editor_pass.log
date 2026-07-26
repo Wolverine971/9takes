@@ -1,0 +1,15 @@
+Polished `src/blog/people/drafts/Stavros-Halkias.md`.
+
+**What the draft came in as:** already mechanically clean — 0 em-dashes, 0 contrast pairs, 0 banned phrases. So the linters had nothing left to say, and the real problem was one the greps can't see.
+
+**The main problem: one rhetorical move on repeat.** The "X is not Y. It is Z." engine ran nine times across the body, and five of those were inside the carveout section alone. That section is the hardest and best-argued part of the piece, and it was reading as a drumbeat: *not from a troll / not the weak point / not an inability, it is a rule / does not behave like X, behaves like Y / not about their politics, it is about the door*. Negative parallelism is the #1 AI tell in the standards, and it survived two prior passes because each instance is split across two sentences, so no regex catches it. Rewrote every one as direct statement or consequence. "He will not do it by subtraction from a distance" became "What he will not do is remove a man from his life by press release," which is also just funnier.
+
+**Second problem: visible scaffolding.** Six reader-imperative openers ("Now push on the harder version," "Read the four years since as a list of who owned what," two different "Ask him X and he Y" constructions) down to three. Kept "Line those up" and "Do not resolve this too quickly" because both earn it. Also cut "What actually happened is more specific," which was announcing a turn the next sentence already made.
+
+**Smaller fixes:** collapsed a statement-then-restatement in the cold open; decircularized "the exact shape the dread takes"; moved "That fear has an address" below the ticket stat so the transition sits next to the section it introduces; split a 48-word ending sentence that had put a rowhome and a hundred-mile radius in one clause and muddled the geography. Softened "a Murakami book that week" to "somewhere in there," since no source pins the week.
+
+**Protected:** the pandemic interior beat and the house-money empathy turn both survive — the empathy turn only lost the negation scaffolding around it, not the argument. Receipt table, green-card spine, closing pair, all section titles, all quotes and sourcing untouched. No facts or structure changed.
+
+**Final numbers:** blog-lint 0 fail / 1 warn, contrast pairs 0 strong 0 comparative, 4273 → 4223 words.
+
+**Readiness:** production-ready as prose. It does not need another substantive pass. Two things to know before publishing: the word count leaves only ~275 words of headroom for the next refresh, and the Dreamboat Tour city count is still unverifiable without the Live Nation press release (carried over from the second pass, and the FAQ is already softened to what's provable). Note that `/grade_blog` has a documented ~1–2 point inflation, so if you want a real gate check on the 8.5 bar, a blind regrade is worth more than the pipeline score.

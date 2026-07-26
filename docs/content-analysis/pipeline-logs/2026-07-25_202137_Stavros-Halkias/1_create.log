@@ -1,0 +1,34 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Stavros-Halkias.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass | Gate 2: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass
+LIMITATIONS: see below
+```
+
+**Type call: Enneagram 7 (7w8, self-preservation), confidence high.** The tiebreaker is two sentences that a Three would invert: "a new joke in a shitty bar feels ten times better than selling out a 3,000 seat" (JRE #2072, Dec 2023) and "my true wildest dreams were to make $65,000 a year playing B-level clubs" (Slate, Oct 2025).
+
+**Thesis:** the persona is bottomless appetite; the driver is a kid who didn't know his family was poor until adulthood, watching a father who has been in Baltimore ~40 years, built the fittings in half the region's Greek diners, and still isn't a citizen. In his best year on *Cum Town* he made $30,000 and put it on a down payment.
+
+**Deterministic checks**
+- `blog-quality-report`: 0 contrast pairs (4 strong found on first pass, all rewritten), head-term PASS
+- `blog-lint.sh`: 0 fail, 0 warn — 155-char description, 57-char meta_title, 5 internal links, no prose em-dashes, no banned phrases
+- `same-type-similarity --n 8`: **clear** (top 0.053 vs Matt-Smith, noise p99 0.008). Corpus has 60 published Type 7s including 14 comedians, so the saturated T7 avoid-list vocabulary was dropped entirely in favor of his own lexicon (poverty, house money, meal ticket, green card, furniture, the room)
+- Rabbit hole: 699 words, in spec
+
+**Internal links (5):** Type 7 → `/enneagram-corner/enneagram-type-7` · Shane Gillis → `/personality-analysis/shane-gillis` · Andrew Schulz → `/personality-analysis/andrew-schulz` · wings + instinctual subtypes (rabbit hole)
+
+**Gate highlights**
+- **Bespoke form:** "Everything in Stavros Halkias's House Is a Receipt" — an annotated furniture inventory of his Canton rowhome (Ryman poster, Denver life buoy, DC tracksuit, the Lyric's rug, the house, his father's booths), built off his own line: *"On the spectrum between furniture and an actor, I'm somewhere in the middle."*
+- **Critic pressure + empathy turn:** Seth Simons (Humorism, Oct 29 2025), "Halkias's politics contain an enormous carveout for his Nazi friends." Conceded as correct on effect, then explained through his own "everything was house money" vocabulary. Not excused.
+- **Current-tense anchor:** July 2026 Netflix taping at The Lyric after a scooter accident broke his arm and pushed it four months.
+
+**Limitations**
+1. Baltimore Magazine and Baltimore Sun blocked direct fetch (403). The Sam Morril testimony quote and the 82,000-ticket figure come from search-surfaced verbatim excerpts of the Sept 2025 profile, not a direct read — worth a human spot-check before publish.
+2. The JRE #2072 transcript is auto-generated and unlabeled. Per the known attribution trap, I only used lines unambiguously Stavros's (his father, his family, his own career). Rogan's lines were excluded.
+3. The Cum Town departure explainer video was age-gated to yt-dlp; used reported coverage (Barstool/Distractify) instead.
+
+No numeric grade — that's `/grade_blog`'s job.

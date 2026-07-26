@@ -1,0 +1,32 @@
+Enrichment done. The draft arrived from the creator stage already carrying most rich fields, so this was a narrow pass.
+
+```
+Frontmatter enrichment complete: Stavros-Halkias
+
+Fields filled:
+- imdb_id, same_as (extended 2 → 4)
+
+Fields already present (preserved untouched):
+- wikipedia, wikidata_qid, birth_date, birth_place, nationality,
+  occupation (4), knows_about (6), keywords (13), citations (13), faqs (6)
+
+FAQs generated (0):
+- Existing 6 FAQs are substantive and body-derived — left exactly as-is per
+  strict idempotency. No templated-backfill markers present ("with supporting
+  context from", occupation-copied knows_about). All 6 anchors verified to
+  resolve against real body H2s.
+```
+
+**What I changed**
+
+- `imdb_id: 'nm6254064'` — cross-checked via Wikidata P345 on Q111366943, not guessed. He has real film/TV presence (*Bugonia*, *Tires*, *Let's Start a Cult*), so the field applies.
+- `same_as` extended with the IMDb person URL and `https://www.stavvy.biz/` (his official site, sourced from Wikidata P856 and confirmed live). It was sitting at 2 entries, below the 3–6 spec.
+
+**Issues**
+
+- **The `6_enrich_frontmatter.log` for this run is 0 bytes** — this pipeline stage was scaffolded but never actually executed. The enrichment fields in the draft came from the creator stage, which is why `imdb_id` and a full `same_as` were missing. Worth checking whether the orchestrator is silently skipping stage 6 on other drafts too.
+- **`keywords` has 13 entries against a 5–10 spec, and `faqs` has 6 against a 3–5 spec.** Both were pre-existing and substantive, so additive-only rules say don't touch them. Flagging rather than trimming — the FAQ overage in particular dilutes snippet competition, which is your call to make.
+- I did not add the `stavroshalkias.org` / `stavroshalkiastour.org` results that surfaced in search. They're scraper ticket-resale sites, and they repeat the exact "26 cities, January 29–April 18" tour claim your second pass already verified as wrong (the 2026 leg opened in Tampa on Jan 15 with dates into July). The Dreamboat city count remains unverifiable without the Live Nation press release — carried over from the second pass and still open.
+- Body untouched; frontmatter YAML re-parsed clean via gray-matter, and `lastmod` left exactly as found.
+
+Sources: [Wikidata Q111366943](https://www.wikidata.org/wiki/Special:EntityData/Q111366943.json), [stavvy.biz](https://www.stavvy.biz/)

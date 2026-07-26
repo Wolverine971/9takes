@@ -2,7 +2,7 @@
 title: "Why Dario Amodei Can't Stop Building the Thing He Fears Most"
 meta_title: "Why Dario Amodei Can't Stop Building the Thing He Fears Most"
 persona_title: "AI's Reluctant Prometheus"
-description: "A four-year gap between his father's death and a medical breakthrough drives everything Dario Amodei builds and fears. Here's his personality decoded."
+description: "When Washington shut down Anthropic's newest models, Dario Amodei asked the G7 for help. The Type 5 pattern explains why that public turn matters."
 author: 'DJ Wayne'
 date: '2026-03-23'
 loc: 'https://9takes.com/personality-analysis/dario-amodei'
@@ -58,6 +58,17 @@ citations:
   - 'https://en.wikipedia.org/wiki/Dario_Amodei'
   - 'https://www.anthropic.com/company'
   - 'https://darioamodei.com/'
+  - 'https://www.anthropic.com/news/fable-mythos-access'
+  - 'https://www.washingtonpost.com/technology/2026/06/17/trumps-anthropic-restrictions-rattle-us-allies-ai-leaders-gather-g-7/'
+  - 'https://www.axios.com/2026/07/03/anthropic-ai-models-revived-behind-the-scenes'
+  - 'https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic'
+  - 'https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/'
+  - 'https://apnews.com/article/openai-anthropic-chatgpt-claude-rivalry-c19e0cca22c37190cc4e0dc08e889ef0'
+  - 'https://www.tovima.com/wsj/the-decadelong-feud-shaping-the-future-of-ai/'
+  - 'https://www.youtube.com/watch?v=x2VHFgyawPE'
+  - 'https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01/'
+  - 'https://www.commbank.com.au/articles/newsroom/2026/05/sam-altman-close-ai-gap.html'
+  - 'https://www.anthropic.com/news/responsible-scaling-policy-v3'
 faqs:
   - question: "What is Dario Amodei's personality type?"
     answer: 'Dario Amodei reads as an Enneagram Type 5, the Investigator. His measured public communication, emphasis on interpretability and scaling research, and willingness to walk 14 colleagues out of OpenAI to start Anthropic fit the Type 5 pattern of pursuing understanding and intellectual independence.'
@@ -65,28 +76,23 @@ faqs:
   - question: 'Why did Dario Amodei leave OpenAI to start Anthropic?'
     answer: 'Amodei and his sister Daniela left OpenAI in 2021 with roughly a dozen colleagues over disagreements about safety direction, and founded Anthropic as an AI safety lab. The move reflects the Type 5 preference for protecting epistemic autonomy and building systems on their own terms.'
     anchor: 'fourteen-people-followed-him-out-the-door'
+  - question: 'Why did Dario Amodei ask G7 leaders to cooperate on AI?'
+    answer: 'Days after a US export-control directive forced Anthropic to disable Fable 5 and Mythos 5, Amodei asked G7 leaders to coordinate access to advanced AI among democratic countries. The request matters to this personality analysis because a Type 5 strategy is built around self-sufficiency, yet Amodei responded to an external loss of control by publicly asking institutions for help.'
+    anchor: 'the-room-he-used-to-avoid'
 path: src/blog/people/drafts/Dario-Amodei.md
 ---
 
-<!-- QUALITY GRADE: B+ (8.8)
-Hook: 9 | Enneagram: 8.5 | Evidence: 8.5 | Writing: 9 | Originality: 9
+> "You need to learn to respond rationally and not put dangers out of proportion to each other." ([Bloomberg, June 2026](https://www.youtube.com/watch?v=x2VHFgyawPE))
 
-FEEDBACK (2026-03-15):
-- STANDOUT: The four-year gap between father's death and 95% cure rate is a signature detail that makes the entire analysis click — it explains the urgency, the safety obsession, and the acceleration through a single biographical fact.
-- STRONG PROSE: Multiple memorable lines — "The 14,000-word essay isn't procrastination. It's propulsion" and "For someone who processes the world by mapping it alone, letting another person share the map is no small thing" are both quotable.
-- STRONG STRUCTURE: The Pentagon red lines section adds current, high-stakes material that no other analysis has, and the ending circles back to the four-year gap without summarizing.
-- NEEDS WORK: Enneagram section lacks counter-typing (who might argue he's a 1 or a 6?), stress/growth arrows (what does a Five look like moving to 7 in growth or 8 in stress?), and instinctual variants. These would deepen the analysis significantly.
-- NEEDS WORK: Several quotes use vague attribution ("he has said," "he told Fortune") — adding specific interview dates/titles for at least 2-3 of these would strengthen evidence score.
-- TO REACH A (9.0): (1) Add a counter-typing paragraph — address why someone might type Dario as a 1 (moral conviction, red lines) or 6 (institutional loyalty, worst-case thinking) and explain why 5 fits better. (2) Weave in stress/growth arrows — his Pentagon defiance reads as a Five moving to Eight under stress (confrontational, line-drawing). His "Machines of Loving Grace" optimism reads as integration toward Seven. (3) Source 2-3 of the vaguely attributed quotes with specific interview names/dates.
--->
+<p class="firstLetter">At 5:21 p.m. on June 12, 2026, the US government sent Anthropic an export-control directive. It barred every foreign national, including Anthropic's own employees, from accessing the company's new Fable 5 and Mythos 5 models. The practical result was that Dario Amodei had to switch both models off for everyone.</p>
 
-> "My father died because of cures that could have happened a few years earlier. I understand the benefit of this technology."
+Five days later, he walked into a working lunch with G7 leaders in Évian-les-Bains and asked democratic governments to coordinate. He urged them to ["resist the temptation to splinter"](https://news.bloomberglaw.com/artificial-intelligence/amodei-tells-g7-to-resist-temptation-to-splinter-on-ai-ft) and argued that the benefits of advanced AI should be shared among democratic countries.
 
-<p class="firstLetter">In 2006, Dario Amodei's father died after a long illness. Within a few years, the cure rate for the disease that killed him surged from roughly 50% to 95%.</p>
+That sequence is the clearest Type 5 moment in his public life. The Investigator's strategy is to withdraw, understand, preserve energy, and need as little as possible from people who can make demands. Amodei encountered the fear underneath that strategy in literal form: an outside power took away access to the thing he had built. His response was to enter one of the most politically exposed rooms in the world and ask for help.
 
-A handful of years. The difference between a father's gravestone and a father's recovery.
+The careful sentence in his head was probably not heroic. It was closer to: _The technical case is no longer sufficient. These people need to align._
 
-That gap between what science _could_ have done and what it _did_ in time is the engine that drives one of the most consequential AI companies on earth. Dario Amodei builds machines that might compress a century of scientific progress into a decade. He also writes 14,000-word essays about how those same machines might destroy everything. He does both things with equal intensity, and neither one is an act.
+That public turn does not replace the older story of a man building what he fears. It deepens it. The private map had become too consequential to defend in private.
 
 <details>
 <summary class="accordion">TL;DR: Why Dario Amodei is an Enneagram Type 5</summary>
@@ -94,8 +100,8 @@ That gap between what science _could_ have done and what it _did_ in time is the
 <ul>
 <li><b>The mind that can't stop mapping:</b> From childhood math obsession to 14,000-word risk essays, Dario processes the world by understanding it completely before acting.</li>
 <li><b>The scarcity engine:</b> A father's death taught him that time and knowledge are the scarcest resources. Everything he builds is an attempt to make them less scarce.</li>
-<li><b>The safety paradox:</b> His obsession with AI safety isn't caution — it's a Five's compulsive need to map every risk before crossing the terrain.</li>
-<li><b>The reluctant CEO:</b> Never wanted to run a company or work in tech. Wanted to discover "fundamental scientific truth." Ended up leading a $380 billion AI lab anyway.</li>
+<li><b>The public turn:</b> When Washington blocked Anthropic's newest models, he did not retreat into a longer memo. He asked G7 leaders to build a shared framework.</li>
+<li><b>The updated model:</b> After warning that AI could erase half of entry-level white-collar work, he added a competing theory in which automation expands what workers do. He revised the framework without staging a confession.</li>
 </ul>
 </div>
 </details>
@@ -160,53 +166,53 @@ After Princeton, he moved through the emerging deep learning world: Baidu's AI r
 
 ### Dario Amodei is an Enneagram Type 5
 
-[Enneagram Fives](/enneagram-corner/enneagram-type-5) operate from an economy of scarcity: time, energy, and knowledge are finite resources that must be carefully managed. The world takes more than it gives, so mastery becomes a survival strategy. Understand completely before engaging. Map the territory before crossing it.
+[Enneagram Fives](/enneagram-corner/enneagram-type-5) operate from an economy of scarcity. Time, energy, and knowledge feel finite, while the world can always ask for more. The core emotion is fear, narrowed here to fear of being depleted by demands he cannot master. Competence becomes both protection and permission to act.
 
 This pattern explains something about Dario that confuses most observers: how can the same person be one of the most aggressive AI accelerationists _and_ the most vocal AI safety advocate?
 
 "I am indeed one of the most bullish about AI capabilities improving very fast," he has said. And in almost the same breath: "I worry about the risks and I continue to be worried about the risks."
 
-For a Five, this isn't contradiction. It's coherence. Understanding the risk IS the way forward. You don't slow down to map the territory; mapping the territory is how you move. The 14,000-word essay isn't procrastination. It's propulsion.
+The safety work and the acceleration come from the same method. Understanding the risk is how he gives himself permission to keep moving. His 14,000-word essays are part forecast, part control surface.
 
 Look at the evidence pattern by pattern:
 
-He gravitated toward math because "it had a sense of objectivity." That's the Five's signature move: retreating from the chaos of subjective opinion into systems that hold still long enough to be understood.
+He gravitated toward math because "it had a sense of objectivity." The observable choice was a field where conclusions can be tested. The Type 5 interpretation is that objective systems cost him less energy than subjective rooms.
 
-His biweekly "Dario Vision Quest" meetings involve standing before the entire company with a three-to-four-page written document and speaking for an hour. Not bullet points. Not slides. Written essays on everything from product strategy to geopolitics. He also drives strategy through "extensive, essay-style messages" on Anthropic's internal platform. For a Five, writing isn't communication. It's thinking made visible.
+His biweekly "Dario Vision Quest" meetings involve standing before the company with a three-to-four-page written document and speaking for an hour. He also drives strategy through extensive, essay-style internal messages. Writing lets him finish the thought before the room begins making demands on it.
 
 He never wanted to found a company or work in tech. He wanted to discover "fundamental scientific truth." The CEO role is a means, not an end: the minimum organizational structure required to do the thing he actually cares about.
 
-An Investigator who only cared about understanding would have stayed in academia, accumulating knowledge for its own sake. Dario built an _institution_ around his understanding instead — a company explicitly designed to prepare for worst-case scenarios. The same impulse is why fourteen researchers followed him out of OpenAI. People don't follow pure intellects. They follow people they trust.
+The strongest evidence against a withdrawn-Five caricature is the institution itself. Dario turned private understanding into a company, and other researchers trusted his map enough to leave OpenAI with him. The G7 appearance goes further: he did not only publish a framework and wait for others to adopt it. He entered the room where adoption could be negotiated.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Dario Amodei</summary>
 <div class="panel">
 
-<p><em>For the Enneagram nerds. Skip if you're not deep into the system — the rest of the analysis stands on its own.</em></p>
+<p><em>For the Enneagram nerds. Skip if you're not deep into the system; the rest of the analysis stands on its own.</em></p>
 
 ### Dario Amodei's Wing: 5w6
 
-Dario reads as 5w6 — the Investigator with a Loyalist <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 5w4 would have stayed in aesthetic theory, writing melancholy papers on consciousness and never founding a company. 5w6 is what turns private understanding into institution. The Responsible Scaling Policy, the ASL levels modeled on biosafety tiers, Anthropic's architecture as a bet against worst-case scenarios — that's 6-wing vigilance grafted onto 5's mapping instinct.
+Dario reads as 5w6, the Investigator with a Loyalist <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. The Responsible Scaling Policy, its AI Safety Levels modeled on biosafety tiers, and Anthropic's emphasis on institutional safeguards all show 6-wing vigilance joined to a 5's mapping instinct.
 
-The 6-wing also explains the loyalty bonds. Fourteen researchers don't follow a pure 5 out of OpenAI — they follow someone whose trustworthiness has been demonstrated at close range. "Total and complete trust" in Daniela, amicus briefs from Jeff Dean, Holden Karnofsky working safety strategy inside the org. The 6-wing treats the right people as the load-bearing element of the plan. A 5w4 hoards knowledge; a 5w6 builds a fortress of trusted peers around it.
+The 6-wing also clarifies the loyalty bonds. Fourteen researchers followed him out of OpenAI, and he describes his trust in Daniela as "total and complete." The right people become a load-bearing part of the plan.
 
 ### Dario Amodei's Instinctual Subtype: sp/so
 
-Dario reads as self-preservation-dominant with social secondary. The sp-5 signature is everywhere: total media invisibility (his wife's name has never appeared in public reporting, no social accounts, no weekend-profile interviews), the boundary around his father's illness maintained across years of press, minimal self-disclosure at every opportunity. Sp-5s conserve. They keep the door closed. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> is the cleanest signal on the page.
+Dario reads as self-preservation-dominant with social secondary. The sp-5 signature appears in his limited self-disclosure, the boundary around his father's illness, and a private life mostly absent from profiles. Sp-5s conserve and keep a protected interior. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> is one of the clearest signals on the page.
 
-The social secondary is what puts him on stage at all. Biweekly Vision Quest addresses to the whole company. 14,000-word public essays. Congressional testimony. Pentagon negotiations. These are so-energy outputs — maintaining the group's orientation and the institution's direction. Sexual sits last. The fusion pattern doesn't appear; his collaborations read as long working partnerships, not intensities. Sp holds the gate; So shapes the institution.
+The social secondary puts him on stage: Vision Quest addresses, public essays, congressional testimony, Pentagon negotiations, and now the G7. These outputs maintain a group's orientation and an institution's direction. Self-preservation guards the gate; social instinct builds the structure outside it.
 
 ### Stress and Growth Arrows
 
-Under pressure, Dario reaches toward Type 7. "Machines of Loving Grace" is the tell — 14,000 words imagining AI curing every major disease, lifting the developing world out of poverty, solving mental health. A centered 5 wouldn't write that essay. A stressed 5 reaches for the 7's possibility-generator to keep the doom map bearable. The essay's scope is escape velocity from a risk surface the Investigator can't tolerate sitting inside any longer.
+Under stress, Type 5 moves toward Type 7: attention scatters, commitments multiply, and possibility becomes an exit from the one problem that cannot be solved. Dario's 2026 calendar supplies the surface evidence, with an IPO process, an export fight, a G7 appearance, product launches, interviews, and a marketing war. It does not establish the arrow by itself. The subjects still converge on one problem, and he remained able to explain the system coherently under pressure. The Bloomberg interview gives the better clue: he compared the job to accelerating near light speed, waking each day to find that two, then three, then four days had passed outside. That describes overload. It does not yet show fragmentation.
 
-In growth he moves toward Type 8. The Pentagon red lines are the clearest case: refusing [Pete Hegseth's](/personality-analysis/pete-hegseth) demand to strip the autonomy and surveillance clauses, filing federal suits after the Supply-Chain Risk designation, walking 14 researchers out of OpenAI when the safety argument stalled. Healthy 5-to-8 looks like this — decisive confrontation backed by the map, not chest-thumping. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how 5s borrow 8's gut-center force under growth.
+In growth, Type 5 moves toward Type 8. The Pentagon red lines and the G7 appearance are the clearest cases: taking up space, confronting power, and acting before every variable is settled. Healthy 5-to-8 looks like decisive force backed by the map. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for the underlying mechanics.
 
 ### Counterarguments: Why Dario Might Not Be Type 5
 
-The strongest alternate read is Type 6. The worst-case essays, the ASL ladder, the institution built for safety, the loyalty structures and threat modeling — all read as Loyalist signatures at first glance. 5s and 6s share the anxious-head-center cognition; both run worst-case scenarios; both hedge against catastrophe.
+The strongest alternate read is Type 6. The worst-case essays, the ASL ladder, the institution built for safety, the loyalty structures, and the threat modeling all read as Loyalist signatures at first glance. Types 5 and 6 share the head center; both run worst-case scenarios and hedge against catastrophe.
 
-The rebuttal: 6s orient around external authorities and group-held certainty. They look for the map to trust, then follow it. Dario is the opposite shape — he insists on his own map, refuses to cede interpretation to the government, writes the framework and then publishes it. A 6 under Pentagon pressure would have found reasons to comply. Dario's response was a 14,000-word essay and two federal lawsuits. That's a 5 defending the perimeter of his own thinking, not a 6 negotiating with authority. Type 1 is the other candidate — moral clarity, red lines — but 1s run hot against an inner critic's "should." Dario's moral clarity is cold and derived from the map. The heat never shows up.
+The distinction is where authority sits. Dario writes the framework, publishes it, and defends his interpretation even when the government rejects it. Type 1 is the other candidate because of the moral clarity and red lines. Yet his public reasoning usually begins with a technical model and arrives at an obligation. The sequence points to 5 more than 1.
 
 </div>
 </details>
@@ -331,54 +337,3 @@ So he builds the thing he fears most. Not because he's reckless. Not because he'
 His father died in the four-year gap between a disease being 50% fatal and 95% curable. Everything Dario Amodei has built since is an attempt to close that kind of gap forever. And everything he writes about risk is a reckoning with the possibility that he might create a bigger one.
 
 > **Disclaimer:** This analysis is speculative, based on publicly available information, and explores Dario Amodei's personality through the lens of the Enneagram framework. Dario Amodei has not publicly identified as any Enneagram type.
-
-<!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
-============================================================
-
-ONE-LINE VERDICT: An unusually disciplined Type 5 read of Amodei built around a single biographical fact (the four-year gap between his father's death and the 95% cure rate) that earns the entire safety-vs-acceleration paradox — easily one of the strongest in this batch.
-
-STRONGEST SECTION: "The Four-Year Gap" — short, devastating, structurally load-bearing; Jade Wang's "the difference between his father most likely dying and most likely living" quote is the single best piece of evidence in the piece.
-WEAKEST SECTION: "Zero Time for Bullshit" — the "Dario Vision Quest" detail is gold but the section lapses into a quote anthology that re-states the writing-as-thinking thesis already established.
-
-STRENGTHS (3-5 bullets, specific):
-- The four-year-gap engine is the corpus's best example of a single biographical fact organizing the entire psychological reading — every section connects back to it without restating it.
-- The optimist/pessimist paradox reframed as Type 5 coherence ("Understanding the risk IS the way forward") is genuinely insightful Enneagram analysis, not personality slot-filling.
-- The Pentagon red-lines section is contemporary, high-stakes, and demonstrates the 5-to-8 growth arrow with current evidence (Hegseth designation, Lockheed cuts, March 9 2026 lawsuits).
-- The rabbit-hole specialist block is the cleanest in this batch — wing (5w6 over 5w4 with the institution-building justification), sp/so subtype with specific evidence, and the Type 6 counter-typing that actually engages the 5/6 head-center overlap.
-- "For someone who processes the world by mapping it alone, letting another person share the map is no small thing" — earned, specific, memorable.
-
-WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
-- "The 14,000-word essay isn't procrastination. It's propulsion." — strong line but the "X isn't Y. It's Z" pattern is corpus tic.
-- The contrast-panel between "Machines of Loving Grace" and "Adolescence of Technology" is visually clean but reduces both essays to bullet lists in a way that flattens what the prose elsewhere argues is a sophisticated dialectic.
-- "He doesn't want to slow down. He wants to go so fast that the mapping has to happen at the same speed as the building." — the X. Y. rhythm is corpus pattern.
-- The "Zero Time for Bullshit" section ends with "Perhaps I have too much pride in my own writing" but that line deserves more — it's a rare Five admitting attachment, and the piece skates past it.
-- The closing — "his father died in the four-year gap... everything Dario Amodei has built since is an attempt to close that kind of gap forever" — circles back too neatly; it's the kind of writing-workshop symmetry that the rest of the piece is too good for.
-
-GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
-- His relationship with Sam Altman post-OpenAI departure is hedged ("over disagreements about safety direction") and never engaged; for a 2026 piece with both men as actors, the rivalry is the news beat that's missed.
-- Dario's actual public-speaking style — the discomfort, the careful hedging, the dropped-eye-contact in interviews — is part of what makes him distinctive and is absent.
-- No engagement with the AI-doomer-vs-accelerationist factional politics; he's positioned as standing apart ("I get really angry when someone's like, 'This guy's a doomer'") but the actual Yudkowsky / e/acc / Alex Karp positions he's defining himself against aren't named.
-- Daniela's role is described as operational; her actual influence on Anthropic's culture and Holden Karnofsky's effective-altruism background and the EA-network-inside-Anthropic critique is absent.
-- The China / Huawei / export-controls policy positions are part of his public work and don't appear; for a "Pentagon red lines" piece, the parallel China red-lines are a natural pairing.
-- 2026 currency is strong but the recent compute-deal / $30B funding round / Microsoft + Amazon entanglements are flagged in passing; the financial structure of Anthropic deserves a paragraph.
-
-PATTERN HITS (DJ tropes that worked here):
-- The wound-origin → diagnosis → behavior arc is the corpus's tightest version — every step is evidenced, no autopilot.
-- The rabbit-hole opt-in block with real counter-typing (Type 6 specifically) is the model the rest of the corpus should follow.
-
-PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
-- "It is not X. It is Y." contrast pairs: "Not bridge the gap between disciplines. Bridge the gap between..." / "For a Five, this isn't contradiction. It's coherence." / "He's not oscillating between optimism and pessimism. He holds both at once" — 3+ uses.
-- "The X isn't Y. It's Z" thesis-construction tic.
-- The closing-circle-back to the four-year gap is the most common corpus closing move and reads slightly autopilot here despite the strong opener.
-
-CRITIC-ENGAGEMENT: Names Pete Hegseth (Defense Secretary), David Sacks ("woke"), Emil Michael ("a liar and has a God-complex") — real critics quoted directly. The amicus brief from 30+ employees including Jeff Dean is the rare counterpoint-evidence move done well.
-
-CURRENCY (2024-2026 anchor): Excellent — March 9 2026 federal lawsuits, Feb 2026 Dwarkesh interview, July 2025 Pentagon contract, Jan 2026 "Adolescence of Technology" essay. Strongest currency in the batch.
-
-PRIORITY FIXES (numbered, in order of impact — 3 max):
-1. Engage the Sam Altman post-OpenAI rivalry directly — the piece treats the 2020 departure as a clean exit, but the 2024-2026 Altman-vs-Amodei dynamic is the actual ongoing story.
-2. Cut at least one of the "X isn't Y. It's Z" reframes — the four-year-gap thesis is strong enough to carry the piece without 3+ contrast-pair restatements.
-3. Trim the "Zero Time for Bullshit" section or push it harder into the "I have too much pride in my own writing" admission — that's the rare Five-vulnerability moment and it deserves more than a closing tag.
-
-============================================================ -->

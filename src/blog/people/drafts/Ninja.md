@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/ninja'
 lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['creator', 'celebrity', 'celebrity-image']
 person: 'ninja'

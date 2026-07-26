@@ -1,0 +1,25 @@
+## Grading Complete — Stavros Halkias
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stavros-Halkias | 6 | 7 | 9 | 9 | 8 | 9 | **7.8** | **C** |
+
+(Weighted: `(6×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7`. Discoverability 9 — no gate.)
+
+### Key observations
+
+**Two caps applied, and they're the whole story.** The prose, structure, type work, and discoverability are all B+/A territory. Evidence and Originality dragged it to a C.
+
+**Evidence capped at 6 — the source audit gave a false all-clear.** The script reported "6 inline, 1 vague, 0 untagged," but it only scores 5 slots and returned *"(no quoted material in slot)"* for both EMPATHY TURN and CLOSE — the two least-sourced sections. By hand I found 7 untagged load-bearing claims, all in the back third. The worst: the carveout section resolves on *"a guest and friend reached for a slur on his own show, and the clip went everywhere"* — no name, no date, no outlet, nothing in `citations`. That sentence is the hinge of the piece's hardest argument. Two ledgers call it "the Jordan Jensen counter-example"; **the name appears nowhere in the body.** The rug and the 25,000 tickets — the entire ending and final section title — are also unattributed inline.
+
+**Originality capped at 7 — a whole sentence frame is lifted from Zendaya, graded the same day.** Line 303: "Line those up and the pattern has nothing to do with comedy." Zendaya line 316: "Line those up and the pattern has almost nothing to do with secrecy." Same frame, same structural position. The editor pass reviewed it and explicitly kept it as earning its place. Plus the TL;DR "The [noun]:" skeleton shared with Jynxzi and the identical epigraph→cold-open→key-stat→TL;DR furniture across all three recent drafts.
+
+**Two tooling findings worth your attention:**
+- `same-type-similarity.mjs` returned "clear" and missed the Zendaya reuse entirely — it only compares within-type, and Zendaya is a 6. Cross-draft sameness is invisible to automation whenever the neighbour is a different type.
+- This pass edited `scripts/blog-source-audit.mjs` mid-run (added JRE + Are You Garbage to OUTLETS), which moved one of its own quotes from untagged to inline. Defensible on precedent — but the Jynxzi pass declined the identical change three days earlier on the stated principle that shared tooling shouldn't be changed to move one draft's number. Same week, opposite calls. Worth settling as policy.
+
+**The path back is short.** Evidence is a sourcing pass, not a rewrite — four of the seven unsourced claims are already sitting in the `citations` list and just need outlet + date in the prose. Fix those plus the borrowed sentence and this is an 8.6–8.8 on the same body. Full remediation list in `docs/content-analysis/grades/Stavros-Halkias.review.md`.
+
+One thing to verify before publish: the `citations` URL `baltimoresun.com/2026/07/20/netliflix-taping-stavros-halkias/` has a typo in the slug — confirm it resolves.
+
+**Total graded this session: 1**

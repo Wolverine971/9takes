@@ -128,6 +128,8 @@ Two taskers carry an extra **political-neutrality guardrail**: [NR-03 Hasan Pike
 
 **Run order:** NR-05 (Messi) first and alone. It is the only page in the batch that is currently _wrong_ rather than dated, because it was edited five days before the World Cup final it describes. Then NR-01 (iShowSpeed), the single biggest traffic win on the site at 12,312 impressions. Two pairs share research and should be run together: NR-06 + NR-08 (Altman, Amodei) and NR-01 + NR-09 (iShowSpeed, Cenat).
 
+**Written up in** [`docs/content-analysis/2026-07-25_people-corpus-triage.md`](../content-analysis/2026-07-25_people-corpus-triage.md), reproducible via `node scripts/analyze-people-corpus.mjs --with-titles`, machine-readable sibling `.json`. Its §6 records two join bugs found during the work and one finding withdrawn as a result.
+
 **Related, same analysis:** [`docs/blog-automation/publish-queue.md`](../blog-automation/publish-queue.md) diagnoses why nothing has published since 20 July. The cron is fine; the publish gate now requires rubric v2 and roughly 52 drafts at 8.5+ are still v1, so the publisher runs daily and finds nothing eligible. The fix is a regrade backlog, not an automation fix.
 
 ---

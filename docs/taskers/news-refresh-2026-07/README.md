@@ -14,7 +14,11 @@
 
 Twelve published personality-analysis blogs are stale against events that happened after their last edit. Each one has a tasker file in this directory. Each tasker is self-sufficient: an agent with no memory of the analysis that produced it can open one file, read it top to bottom, and execute.
 
-The batch came out of a 2026-07-25 join of live Search Console data (90-day window, 24 Apr to 23 Jul) against all 523 people in `famousTypes.ts`, plus news verification per person. The full diagnosis:
+The batch came out of a 2026-07-25 join of live Search Console data (90-day window, 24 Apr to 23 Jul) against all 523 people in `famousTypes.ts`, plus news verification per person.
+
+**The analysis is written up in [`docs/content-analysis/2026-07-25_people-corpus-triage.md`](../../content-analysis/2026-07-25_people-corpus-triage.md)** and is reproducible with `node scripts/analyze-people-corpus.mjs --with-titles`. Read its §6 before quoting any number back: two join bugs were found and fixed, and one earlier finding about historical figures was withdrawn.
+
+The headline diagnosis:
 
 - 391 published analyses produced **176,834 impressions and 940 clicks** in 90 days.
 - Nearly every page ranks **position 8 to 12** on queries that match it exactly.

@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — stavros-halkias (Type 7)
+/Users/djwayne/9takes/src/blog/people/drafts/Stavros-Halkias.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 30
+Comparison set (last 8 other Type-7 drafts by date):
+  - Travis-Kelce  (2026-07-21, 44 units)
+  - lamine-yamal  (2026-07-19, 21 units)
+  - john-coogan  (2026-07-14, 31 units)
+  - Jeff-Goldblum  (2026-07-03, 23 units)
+  - Matt-Smith  (2026-07-03, 24 units)
+  - cathie-wood  (2026-07-02, 22 units)
+  - Jim-Carrey  (2026-06-30, 23 units)
+  - conan-obrien  (2026-06-30, 12 units)
+
+Noise floor over 6000 unit pairs:  median=0  p90=0  p99=0.008  max=0.053
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.053 ##                   Matt-Smith
+  0.031 #                    Travis-Kelce
+  0.029 #                    Jeff-Goldblum
+  0.027 #                    cathie-wood
+  0.026 #                    john-coogan
+  0.022 #                    lamine-yamal
+  0.012                      Jim-Carrey
+  0.012                      conan-obrien
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.053   stavros-halkias  <->  Matt-Smith
+   TARGET [diagnosis] Ask him what the best part of the job is and he does not name a milestone.
+   OTHER  [diagnosis] It is the part of the human map built around appetite
+
+score 0.046   stavros-halkias  <->  Matt-Smith
+   TARGET [diagnosis] It is the number you pick when the goal is a life that does not require a boss.
+   OTHER  [diagnosis] It is the part of the human map built around appetite
+
+score 0.045   stavros-halkias  <->  Matt-Smith
+   TARGET [diagnosis] Ask him what the best part of the job is and he does not name a milestone.
+   OTHER  [counter-typing] He does not perform suffering as identity.
+
+score 0.031   stavros-halkias  <->  Travis-Kelce
+   TARGET [diagnosis] It is the number you pick when the goal is a life that does not require a boss.
+   OTHER  [diagnosis] and the pursuit of a life that never goes dull.
+
+score 0.029   stavros-halkias  <->  Travis-Kelce
+   TARGET [diagnosis] Ask him what the best part of the job is and he does not name a milestone.
+   OTHER  [counter-typing] He told GQ he does not want anyone saying anything negative about him
+
+score 0.029   stavros-halkias  <->  Jeff-Goldblum
+   TARGET [diagnosis] Ask him what the best part of the job is and he does not name a milestone.
+   OTHER  [diagnosis] Ask him about retirement and he swats it away
+
+score 0.029   stavros-halkias  <->  Jeff-Goldblum
+   TARGET [diagnosis] It is the number you pick when the goal is a life that does not require a boss.
+   OTHER  [diagnosis] or the flat gray of a life that has stopped moving.
+
+score 0.028   stavros-halkias  <->  Travis-Kelce
+   TARGET [counter-typing] Eights are motivated by control and by not being controlled
+   OTHER  [counter-typing] run on control and confrontation as their baseline weather.
+
+score 0.027   stavros-halkias  <->  cathie-wood
+   TARGET [counter-typing] and organizes his loyalties around people rather than positions.
+   OTHER  [diagnosis] inside a frame where pain becomes a credential rather than evidence.
+
+score 0.026   stavros-halkias  <->  john-coogan
+   TARGET [diagnosis] On the Are You Garbage podcast in June 2020
+   OTHER  [diagnosis] given on Scott Galloway's Prof G podcast in July 2026
+
+score 0.026   stavros-halkias  <->  john-coogan
+   TARGET [counter-typing] and organizes his loyalties around people rather than positions.
+   OTHER  [diagnosis] and freedom from intellectual confinement organize his working life.
+
+score 0.024   stavros-halkias  <->  Travis-Kelce
+   TARGET [diagnosis] Ask him what the best part of the job is and he does not name a milestone.
+   OTHER  [diagnosis] that alone was all I needed to come back." He does not describe the work as work.
+
+------------------------------------------------------------------------------
+Top pair scores 0.053 vs median 0  (~∞x the noise floor).

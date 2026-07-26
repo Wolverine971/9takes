@@ -1,0 +1,1067 @@
+{
+	"generatedFor": "2026-07-26",
+	"gscWindow": {
+		"startDate": "2026-04-24",
+		"endDate": "2026-07-23",
+		"days": 90
+	},
+	"gscRunDate": "2026-07-25",
+	"totals": {
+		"people": 523,
+		"published": 391,
+		"unpublished": 132,
+		"unpublishedWithImage": 47,
+		"impressions": 179696,
+		"clicks": 946,
+		"ctr": 0.526,
+		"pagesWithZeroImpressions": 118,
+		"medianPositionOfRankingPages": 9.4
+	},
+	"concentration": [
+		{
+			"topPages": 12,
+			"impressions": 52654,
+			"shareOfImpressions": 29.302,
+			"shareOfCorpus": 3.069
+		},
+		{
+			"topPages": 25,
+			"impressions": 80746,
+			"shareOfImpressions": 44.935,
+			"shareOfCorpus": 6.394
+		},
+		{
+			"topPages": 50,
+			"impressions": 113512,
+			"shareOfImpressions": 63.169,
+			"shareOfCorpus": 12.788
+		}
+	],
+	"categories": [
+		{
+			"tag": "streamer",
+			"pages": 8,
+			"medianImpressions": 979,
+			"meanImpressions": 2441,
+			"maxImpressions": 12312
+		},
+		{
+			"tag": "pop-star",
+			"pages": 12,
+			"medianImpressions": 616,
+			"meanImpressions": 1172,
+			"maxImpressions": 7268
+		},
+		{
+			"tag": "rising-star",
+			"pages": 18,
+			"medianImpressions": 398,
+			"meanImpressions": 981,
+			"maxImpressions": 3452
+		},
+		{
+			"tag": "newMovieStar",
+			"pages": 19,
+			"medianImpressions": 395,
+			"meanImpressions": 929,
+			"maxImpressions": 3452
+		},
+		{
+			"tag": "lifestyleInfluencer",
+			"pages": 8,
+			"medianImpressions": 342,
+			"meanImpressions": 562,
+			"maxImpressions": 1954
+		},
+		{
+			"tag": "techie",
+			"pages": 42,
+			"medianImpressions": 246,
+			"meanImpressions": 524,
+			"maxImpressions": 2681
+		},
+		{
+			"tag": "podcaster",
+			"pages": 11,
+			"medianImpressions": 228,
+			"meanImpressions": 542,
+			"maxImpressions": 2433
+		},
+		{
+			"tag": "investor",
+			"pages": 9,
+			"medianImpressions": 201,
+			"meanImpressions": 395,
+			"maxImpressions": 1086
+		},
+		{
+			"tag": "big-tech-founder",
+			"pages": 10,
+			"medianImpressions": 193,
+			"meanImpressions": 491,
+			"maxImpressions": 2568
+		},
+		{
+			"tag": "author",
+			"pages": 20,
+			"medianImpressions": 181,
+			"meanImpressions": 421,
+			"maxImpressions": 2400
+		},
+		{
+			"tag": "tv-comedy-crossover",
+			"pages": 13,
+			"medianImpressions": 166,
+			"meanImpressions": 474,
+			"maxImpressions": 2827
+		},
+		{
+			"tag": "screen-icon",
+			"pages": 70,
+			"medianImpressions": 156,
+			"meanImpressions": 411,
+			"maxImpressions": 3448
+		},
+		{
+			"tag": "music-crossover",
+			"pages": 17,
+			"medianImpressions": 144,
+			"meanImpressions": 494,
+			"maxImpressions": 2827
+		},
+		{
+			"tag": "business-creator",
+			"pages": 12,
+			"medianImpressions": 144,
+			"meanImpressions": 492,
+			"maxImpressions": 3634
+		},
+		{
+			"tag": "celebrity",
+			"pages": 69,
+			"medianImpressions": 132,
+			"meanImpressions": 490,
+			"maxImpressions": 3460
+		},
+		{
+			"tag": "movieStar",
+			"pages": 80,
+			"medianImpressions": 114,
+			"meanImpressions": 425,
+			"maxImpressions": 3452
+		},
+		{
+			"tag": "modern-leader",
+			"pages": 12,
+			"medianImpressions": 107,
+			"meanImpressions": 232,
+			"maxImpressions": 833
+		},
+		{
+			"tag": "influencer",
+			"pages": 11,
+			"medianImpressions": 106,
+			"meanImpressions": 634,
+			"maxImpressions": 3546
+		},
+		{
+			"tag": "celebrity-image",
+			"pages": 36,
+			"medianImpressions": 100,
+			"meanImpressions": 366,
+			"maxImpressions": 3460
+		},
+		{
+			"tag": "entrepreneur",
+			"pages": 40,
+			"medianImpressions": 95,
+			"meanImpressions": 358,
+			"maxImpressions": 3634
+		},
+		{
+			"tag": "creator",
+			"pages": 74,
+			"medianImpressions": 93,
+			"meanImpressions": 621,
+			"maxImpressions": 12312
+		},
+		{
+			"tag": "sketch-comic",
+			"pages": 8,
+			"medianImpressions": 91,
+			"meanImpressions": 562,
+			"maxImpressions": 2827
+		},
+		{
+			"tag": "business-operator",
+			"pages": 37,
+			"medianImpressions": 81,
+			"meanImpressions": 284,
+			"maxImpressions": 3634
+		},
+		{
+			"tag": "viral-entertainer",
+			"pages": 14,
+			"medianImpressions": 77,
+			"meanImpressions": 358,
+			"maxImpressions": 1532
+		},
+		{
+			"tag": "historical",
+			"pages": 22,
+			"medianImpressions": 75,
+			"meanImpressions": 294,
+			"maxImpressions": 1182
+		},
+		{
+			"tag": "comedian",
+			"pages": 31,
+			"medianImpressions": 74,
+			"meanImpressions": 381,
+			"maxImpressions": 2827
+		},
+		{
+			"tag": "musician",
+			"pages": 72,
+			"medianImpressions": 47,
+			"meanImpressions": 497,
+			"maxImpressions": 7268
+		},
+		{
+			"tag": "lifestyle-builder",
+			"pages": 24,
+			"medianImpressions": 42,
+			"meanImpressions": 398,
+			"maxImpressions": 3546
+		},
+		{
+			"tag": "news-commentator",
+			"pages": 9,
+			"medianImpressions": 32,
+			"meanImpressions": 413,
+			"maxImpressions": 3074
+		},
+		{
+			"tag": "stand-up",
+			"pages": 6,
+			"medianImpressions": 24,
+			"meanImpressions": 182,
+			"maxImpressions": 891
+		},
+		{
+			"tag": "rapper",
+			"pages": 8,
+			"medianImpressions": 9,
+			"meanImpressions": 163,
+			"maxImpressions": 600
+		},
+		{
+			"tag": "politician",
+			"pages": 34,
+			"medianImpressions": 4,
+			"meanImpressions": 205,
+			"maxImpressions": 1827
+		},
+		{
+			"tag": "tiktoker",
+			"pages": 6,
+			"medianImpressions": 3,
+			"meanImpressions": 15,
+			"maxImpressions": 63
+		},
+		{
+			"tag": "singer-songwriter",
+			"pages": 5,
+			"medianImpressions": 1,
+			"meanImpressions": 280,
+			"maxImpressions": 1398
+		},
+		{
+			"tag": "campaign-politician",
+			"pages": 10,
+			"medianImpressions": 0,
+			"meanImpressions": 83,
+			"maxImpressions": 305
+		},
+		{
+			"tag": "activist",
+			"pages": 5,
+			"medianImpressions": 0,
+			"meanImpressions": 6,
+			"maxImpressions": 24
+		},
+		{
+			"tag": "movement-leader",
+			"pages": 5,
+			"medianImpressions": 0,
+			"meanImpressions": 3,
+			"maxImpressions": 8
+		},
+		{
+			"tag": "historical-artist",
+			"pages": 5,
+			"medianImpressions": 0,
+			"meanImpressions": 16,
+			"maxImpressions": 81
+		}
+	],
+	"refreshQueue": [
+		{
+			"slug": "ishowspeed",
+			"type": 8,
+			"impressions": 12312,
+			"clicks": 19,
+			"position": 8.1,
+			"ageDays": 114,
+			"ctr": 0.154,
+			"score": 15595,
+			"topQuery": "ishowspeed personality"
+		},
+		{
+			"slug": "zendaya",
+			"type": 6,
+			"impressions": 3452,
+			"clicks": 18,
+			"position": 9,
+			"ageDays": 190,
+			"ctr": 0.521,
+			"score": 7288,
+			"topQuery": "zendaya personality"
+		},
+		{
+			"slug": "hasan-piker",
+			"type": 8,
+			"impressions": 3074,
+			"clicks": 10,
+			"position": 9.7,
+			"ageDays": 181,
+			"ctr": 0.325,
+			"score": 6182,
+			"topQuery": "hasan piker mbti"
+		},
+		{
+			"slug": "sabrina-carpenter",
+			"type": 3,
+			"impressions": 7268,
+			"clicks": 12,
+			"position": 6.7,
+			"ageDays": 68,
+			"ctr": 0.165,
+			"score": 5491,
+			"topQuery": "sabrina carpenter personality"
+		},
+		{
+			"slug": "jordi-hays",
+			"type": 3,
+			"impressions": 3634,
+			"clicks": 79,
+			"position": 7.9,
+			"ageDays": 127,
+			"ctr": 2.174,
+			"score": 5128,
+			"topQuery": "jordi hays"
+		},
+		{
+			"slug": "jack-black",
+			"type": 7,
+			"impressions": 2827,
+			"clicks": 17,
+			"position": 8.3,
+			"ageDays": 158,
+			"ctr": 0.601,
+			"score": 4963,
+			"topQuery": "jack black personality type"
+		},
+		{
+			"slug": "elon-musk",
+			"type": 5,
+			"impressions": 2568,
+			"clicks": 3,
+			"position": 13.7,
+			"ageDays": 158,
+			"ctr": 0.117,
+			"score": 4508,
+			"topQuery": "elon musk enneagram type"
+		},
+		{
+			"slug": "shawn-ryan",
+			"type": 5,
+			"impressions": 2433,
+			"clicks": 13,
+			"position": 9,
+			"ageDays": 166,
+			"ctr": 0.534,
+			"score": 4488,
+			"topQuery": "sean palmisano"
+		},
+		{
+			"slug": "sam-altman",
+			"type": 4,
+			"impressions": 2681,
+			"clicks": 11,
+			"position": 8.8,
+			"ageDays": 147,
+			"ctr": 0.41,
+			"score": 4379,
+			"topQuery": "sam altman personality"
+		},
+		{
+			"slug": "ryan-gosling",
+			"type": 9,
+			"impressions": 3448,
+			"clicks": 29,
+			"position": 8.1,
+			"ageDays": 114,
+			"ctr": 0.841,
+			"score": 4367,
+			"topQuery": "ryan gosling personality"
+		},
+		{
+			"slug": "sky-bri",
+			"type": 2,
+			"impressions": 3546,
+			"clicks": 26,
+			"position": 8.6,
+			"ageDays": 108,
+			"ctr": 0.733,
+			"score": 4255,
+			"topQuery": "sky bri porn"
+		},
+		{
+			"slug": "timothee-chalamet",
+			"type": 6,
+			"impressions": 3007,
+			"clicks": 9,
+			"position": 8.4,
+			"ageDays": 114,
+			"ctr": 0.299,
+			"score": 3809,
+			"topQuery": "timothee chalamet personality"
+		},
+		{
+			"slug": "madison-beer",
+			"type": 4,
+			"impressions": 1954,
+			"clicks": 2,
+			"position": 9,
+			"ageDays": 157,
+			"ctr": 0.102,
+			"score": 3409,
+			"topQuery": "madison beer personality type"
+		},
+		{
+			"slug": "robert-greene",
+			"type": 5,
+			"impressions": 1961,
+			"clicks": 2,
+			"position": 7.6,
+			"ageDays": 156,
+			"ctr": 0.102,
+			"score": 3399,
+			"topQuery": null
+		},
+		{
+			"slug": "emma-watson",
+			"type": 1,
+			"impressions": 3399,
+			"clicks": 12,
+			"position": 9.9,
+			"ageDays": 88,
+			"ctr": 0.353,
+			"score": 3323,
+			"topQuery": "emma watson personality"
+		},
+		{
+			"slug": "kai-cenat",
+			"type": 7,
+			"impressions": 2621,
+			"clicks": 5,
+			"position": 8.3,
+			"ageDays": 114,
+			"ctr": 0.191,
+			"score": 3320,
+			"topQuery": "kai cenat mbti"
+		},
+		{
+			"slug": "brad-pitt",
+			"type": 9,
+			"impressions": 1522,
+			"clicks": 8,
+			"position": 9.1,
+			"ageDays": 189,
+			"ctr": 0.526,
+			"score": 3196,
+			"topQuery": "brad pitt personality type"
+		},
+		{
+			"slug": "kara-swisher",
+			"type": 8,
+			"impressions": 2400,
+			"clicks": 25,
+			"position": 9.7,
+			"ageDays": 114,
+			"ctr": 1.042,
+			"score": 3040,
+			"topQuery": "kara swisher amanda katz age difference"
+		},
+		{
+			"slug": "marilyn-monroe",
+			"type": 6,
+			"impressions": 1705,
+			"clicks": 16,
+			"position": 12.1,
+			"ageDays": 157,
+			"ctr": 0.938,
+			"score": 2974,
+			"topQuery": "marilyn monroe personality type"
+		},
+		{
+			"slug": "ariana-grande",
+			"type": 3,
+			"impressions": 1451,
+			"clicks": 8,
+			"position": 10.9,
+			"ageDays": 178,
+			"ctr": 0.551,
+			"score": 2870,
+			"topQuery": "ariana grande personality"
+		},
+		{
+			"slug": "dua-lipa",
+			"type": 3,
+			"impressions": 2495,
+			"clicks": 7,
+			"position": 8.5,
+			"ageDays": 102,
+			"ctr": 0.281,
+			"score": 2828,
+			"topQuery": "dua lipa personality"
+		},
+		{
+			"slug": "mr-beast",
+			"type": 8,
+			"impressions": 1532,
+			"clicks": 1,
+			"position": 9.9,
+			"ageDays": 157,
+			"ctr": 0.065,
+			"score": 2672,
+			"topQuery": null
+		},
+		{
+			"slug": "sydney-sweeney",
+			"type": 3,
+			"impressions": 3227,
+			"clicks": 4,
+			"position": 7.6,
+			"ageDays": 68,
+			"ctr": 0.124,
+			"score": 2438,
+			"topQuery": null
+		},
+		{
+			"slug": "aubrey-plaza",
+			"type": 6,
+			"impressions": 1319,
+			"clicks": 8,
+			"position": 9.1,
+			"ageDays": 159,
+			"ctr": 0.607,
+			"score": 2330,
+			"topQuery": "aubrey plaza personality type"
+		},
+		{
+			"slug": "margot-robbie",
+			"type": 2,
+			"impressions": 1272,
+			"clicks": 8,
+			"position": 7.9,
+			"ageDays": 161,
+			"ctr": 0.629,
+			"score": 2275,
+			"topQuery": "margot robbie personality"
+		},
+		{
+			"slug": "alex-hormozi",
+			"type": 3,
+			"impressions": 1304,
+			"clicks": 4,
+			"position": 11.8,
+			"ageDays": 157,
+			"ctr": 0.307,
+			"score": 2275,
+			"topQuery": "alex hormozi mbti"
+		},
+		{
+			"slug": "dario-amodei",
+			"type": 5,
+			"impressions": 1589,
+			"clicks": 9,
+			"position": 7.8,
+			"ageDays": 125,
+			"ctr": 0.566,
+			"score": 2207,
+			"topQuery": "dario amodei girlfriend"
+		},
+		{
+			"slug": "cillian-murphy",
+			"type": 5,
+			"impressions": 1687,
+			"clicks": 7,
+			"position": 11.2,
+			"ageDays": 114,
+			"ctr": 0.415,
+			"score": 2137,
+			"topQuery": "cillian murphy personality"
+		},
+		{
+			"slug": "grimes",
+			"type": 7,
+			"impressions": 1065,
+			"clicks": 2,
+			"position": 13.2,
+			"ageDays": 178,
+			"ctr": 0.188,
+			"score": 2106,
+			"topQuery": "did grimes live in a crack den"
+		},
+		{
+			"slug": "robert-pattinson",
+			"type": 4,
+			"impressions": 1059,
+			"clicks": 8,
+			"position": 9.9,
+			"ageDays": 166,
+			"ctr": 0.755,
+			"score": 1953,
+			"topQuery": "robert pattinson personality type"
+		}
+	],
+	"backlogTop": [
+		{
+			"slug": "n3on",
+			"type": 3,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["creator", "streamer"],
+			"projectedImpressions": 979,
+			"bucket": "viable"
+		},
+		{
+			"slug": "tyler1",
+			"type": 8,
+			"grade": null,
+			"hasImage": true,
+			"tags": ["creator", "streamer"],
+			"projectedImpressions": 979,
+			"bucket": "viable"
+		},
+		{
+			"slug": "xochitl-gomez",
+			"type": 3,
+			"grade": 8.4,
+			"hasImage": false,
+			"tags": ["newMovieStar", "rising-star"],
+			"projectedImpressions": 398,
+			"bucket": "viable"
+		},
+		{
+			"slug": "jeremy-allen-white",
+			"type": 4,
+			"grade": 9,
+			"hasImage": true,
+			"tags": ["newMovieStar", "movieStar", "rising-star"],
+			"projectedImpressions": 398,
+			"bucket": "viable"
+		},
+		{
+			"slug": "maddie-phillips",
+			"type": 4,
+			"grade": 8.7,
+			"hasImage": false,
+			"tags": ["newMovieStar", "celebrity", "rising-star"],
+			"projectedImpressions": 398,
+			"bucket": "viable"
+		},
+		{
+			"slug": "madelaine-petsch",
+			"type": 2,
+			"grade": 8.5,
+			"hasImage": false,
+			"tags": ["newMovieStar", "creator"],
+			"projectedImpressions": 395,
+			"bucket": "viable"
+		},
+		{
+			"slug": "kiernan-shipka",
+			"type": 3,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["newMovieStar", "celebrity"],
+			"projectedImpressions": 395,
+			"bucket": "viable"
+		},
+		{
+			"slug": "jonathan-graff",
+			"type": 4,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["newMovieStar"],
+			"projectedImpressions": 395,
+			"bucket": "viable"
+		},
+		{
+			"slug": "nicholas-galitzine",
+			"type": 4,
+			"grade": 8.7,
+			"hasImage": false,
+			"tags": ["movieStar", "newMovieStar"],
+			"projectedImpressions": 395,
+			"bucket": "viable"
+		},
+		{
+			"slug": "john-krasinski",
+			"type": 6,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["newMovieStar"],
+			"projectedImpressions": 395,
+			"bucket": "viable"
+		},
+		{
+			"slug": "florence-pugh",
+			"type": 7,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["newMovieStar"],
+			"projectedImpressions": 395,
+			"bucket": "viable"
+		},
+		{
+			"slug": "martha-stewart",
+			"type": 1,
+			"grade": 8.8,
+			"hasImage": false,
+			"tags": ["lifestyleInfluencer", "entrepreneur", "celebrity"],
+			"projectedImpressions": 342,
+			"bucket": "viable"
+		},
+		{
+			"slug": "carina-zavline",
+			"type": 3,
+			"grade": null,
+			"hasImage": true,
+			"tags": ["lifestyleInfluencer", "influencer"],
+			"projectedImpressions": 342,
+			"bucket": "viable"
+		},
+		{
+			"slug": "chiara-ferragni",
+			"type": 3,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["lifestyleInfluencer"],
+			"projectedImpressions": 342,
+			"bucket": "viable"
+		},
+		{
+			"slug": "james-charles-lifestyle",
+			"type": 3,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["lifestyleInfluencer"],
+			"projectedImpressions": 342,
+			"bucket": "viable"
+		},
+		{
+			"slug": "marie-kondo",
+			"type": 3,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["lifestyleInfluencer"],
+			"projectedImpressions": 342,
+			"bucket": "viable"
+		},
+		{
+			"slug": "peter-attia",
+			"type": 1,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["techie"],
+			"projectedImpressions": 246,
+			"bucket": "viable"
+		},
+		{
+			"slug": "whitney-wolfe-herd",
+			"type": 3,
+			"grade": 9.1,
+			"hasImage": true,
+			"tags": ["entrepreneur", "techie", "business-operator"],
+			"projectedImpressions": 246,
+			"bucket": "viable"
+		},
+		{
+			"slug": "dalton-cadwell",
+			"type": 3,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["techie"],
+			"projectedImpressions": 246,
+			"bucket": "viable"
+		},
+		{
+			"slug": "jensen-huang",
+			"type": 6,
+			"grade": 8.7,
+			"hasImage": true,
+			"tags": ["techie", "entrepreneur", "business-operator"],
+			"projectedImpressions": 246,
+			"bucket": "viable"
+		},
+		{
+			"slug": "ashton-kutcher",
+			"type": 7,
+			"grade": 9,
+			"hasImage": true,
+			"tags": [
+				"celebrity",
+				"movieStar",
+				"techie",
+				"entrepreneur",
+				"screen-icon",
+				"business-operator"
+			],
+			"projectedImpressions": 246,
+			"bucket": "viable"
+		},
+		{
+			"slug": "mira-murati",
+			"type": 9,
+			"grade": 8.8,
+			"hasImage": true,
+			"tags": ["techie", "entrepreneur"],
+			"projectedImpressions": 246,
+			"bucket": "viable"
+		},
+		{
+			"slug": "brene-brown",
+			"type": 1,
+			"grade": 7.8,
+			"hasImage": true,
+			"tags": ["author", "creator"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "james-clear",
+			"type": 1,
+			"grade": 8.4,
+			"hasImage": false,
+			"tags": ["author", "entrepreneur", "business-operator"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "brene-brown",
+			"type": 2,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["author"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "simon-sinek",
+			"type": 2,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["author", "entrepreneur", "business-operator"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "colleen-hoover",
+			"type": 4,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["author"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "stephen-king",
+			"type": 5,
+			"grade": 8.8,
+			"hasImage": true,
+			"tags": ["author"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "steve-martin",
+			"type": 5,
+			"grade": 8.5,
+			"hasImage": false,
+			"tags": ["comedian", "movieStar", "author"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "nick-offerman",
+			"type": 9,
+			"grade": 8.9,
+			"hasImage": true,
+			"tags": ["comedian", "movieStar", "author"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "jane-goodall",
+			"type": 9,
+			"grade": 9.1,
+			"hasImage": false,
+			"tags": ["activist", "historical", "author"],
+			"projectedImpressions": 181,
+			"bucket": "viable"
+		},
+		{
+			"slug": "glen-powell",
+			"type": 3,
+			"grade": 8.5,
+			"hasImage": true,
+			"tags": ["movieStar", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "jonah-hill",
+			"type": 3,
+			"grade": 8,
+			"hasImage": true,
+			"tags": ["movieStar", "comedian", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "rachel-brosnahan",
+			"type": 3,
+			"grade": 8.1,
+			"hasImage": true,
+			"tags": ["movieStar", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "reese-witherspoon",
+			"type": 3,
+			"grade": 8,
+			"hasImage": true,
+			"tags": ["movieStar", "entrepreneur", "screen-icon", "business-operator"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "gal-gadot",
+			"type": 3,
+			"grade": null,
+			"hasImage": false,
+			"tags": ["movieStar", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "halle-berry",
+			"type": 3,
+			"grade": 9.1,
+			"hasImage": false,
+			"tags": ["movieStar", "celebrity", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "jennifer-coolidge",
+			"type": 4,
+			"grade": 8,
+			"hasImage": true,
+			"tags": ["comedian", "movieStar", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "oscar-isaac",
+			"type": 4,
+			"grade": 8.6,
+			"hasImage": false,
+			"tags": ["movieStar", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		},
+		{
+			"slug": "daniel-day-lewis",
+			"type": 5,
+			"grade": 8.9,
+			"hasImage": false,
+			"tags": ["movieStar", "screen-icon"],
+			"projectedImpressions": 156,
+			"bucket": "viable"
+		}
+	],
+	"gradeTraps": [
+		{
+			"slug": "shakira",
+			"type": 7,
+			"grade": 9,
+			"hasImage": false,
+			"tags": ["musician"],
+			"projectedImpressions": 47,
+			"bucket": "viable"
+		},
+		{
+			"slug": "camila-cabello",
+			"type": 6,
+			"grade": 8.8,
+			"hasImage": true,
+			"tags": ["musician"],
+			"projectedImpressions": 47,
+			"bucket": "viable"
+		},
+		{
+			"slug": "bruno-mars",
+			"type": 3,
+			"grade": 8.5,
+			"hasImage": false,
+			"tags": ["musician"],
+			"projectedImpressions": 47,
+			"bucket": "viable"
+		}
+	],
+	"orphanDrafts": [
+		"Anthony-Hopkins",
+		"Antonio-Banderas",
+		"Christopher-Nolan",
+		"Hunter-Biden",
+		"Jynxzi",
+		"Margaret-Qualley",
+		"Nelk-Boys",
+		"Sadie-Sink",
+		"Stavros-Halkias",
+		"Travis-Kelce",
+		"William-Shakespeare",
+		"Yang-Zhilin"
+	],
+	"titleKeywordTest": {
+		"withKeyword": {
+			"pages": 82,
+			"impressions": 48955,
+			"clicks": 193,
+			"ctr": 0.394
+		},
+		"withoutKeyword": {
+			"pages": 309,
+			"impressions": 130741,
+			"clicks": 753,
+			"ctr": 0.576
+		},
+		"verdict": "keyword titles convert WORSE (hypothesis refuted)"
+	}
+}
