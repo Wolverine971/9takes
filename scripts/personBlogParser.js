@@ -107,6 +107,7 @@ dotenv.config();
  *   expectedContentHash?: string | null,
  *   approvedFields?: string[],
  *   publishSync?: boolean,
+ *   insertMissing?: boolean,
  *   supabase?: ReturnType<typeof createSupabaseServiceClient>
  * }} InsertIntoSupabaseOptions
  */
@@ -118,6 +119,9 @@ dotenv.config();
  *   inserted: number,
  *   gradesUpdated: number,
  *   skipped: number,
+ *   existingUntouched: number,
+ *   blocked: string[],
+ *   insertedPeople: string[],
  *   errors: string[]
  * }} InsertIntoSupabaseResult
  */
@@ -1742,8 +1746,31 @@ async function syncEntryForPublish(supabase, entry, result) {
 }
 
 /**
- * Preview or atomically update existing blogs_famous_people rows.
- * Non-publish mode is dry-run by default and never inserts.
+ * Reasons a draft must not be auto-inserted as a new unpublished row. Keeping this
+ * strict is what stopped the older loose push from creating rows like
+ * `enneagram: null` / `enneagram: "tiptype"` that the type pages then had to skip.
+ * @param {PersonBlogEntry} entry
+ * @returns {string | null} skip reason, or null when the entry is safe to insert
+ */
+function getInsertBlockReason(entry) {
+	if (!isNonEmptyString(entry.person)) return 'missing person slug';
+	if (!isNonEmptyString(entry.title)) return 'missing title';
+
+	const enneagram = Number(entry.enneagram);
+	if (!Number.isInteger(enneagram) || enneagram < 1 || enneagram > 9) {
+		return `enneagram must be 1-9 (got ${JSON.stringify(entry.enneagram)})`;
+	}
+
+	return null;
+}
+
+/**
+ * Preview, insert, or atomically update blogs_famous_people rows.
+ *
+ * Insert-missing mode (the default for a bare `pnpm push:people`) creates rows for
+ * drafts that have no row yet, always as `published: false`, and never touches a
+ * row that already exists. Editing an existing person still requires the
+ * fail-closed `--apply` path so live pages can't be overwritten by draft drift.
  * @param {PersonBlogEntry[]} entries
  * @param {InsertIntoSupabaseOptions} [options={}]
  * @returns {Promise<InsertIntoSupabaseResult>}
@@ -1753,6 +1780,7 @@ export async function insertIntoSupabase(entries, options = {}) {
 	const gradesOnly = options.gradesOnly === true;
 	const apply = options.apply === true;
 	const publishSync = options.publishSync === true;
+	const insertMissing = options.insertMissing === true;
 	/** @type {InsertIntoSupabaseResult} */
 	const result = {
 		processed: entries.length,
@@ -1760,6 +1788,9 @@ export async function insertIntoSupabase(entries, options = {}) {
 		inserted: 0,
 		gradesUpdated: 0,
 		skipped: 0,
+		existingUntouched: 0,
+		blocked: [],
+		insertedPeople: [],
 		errors: []
 	};
 
@@ -1769,12 +1800,22 @@ export async function insertIntoSupabase(entries, options = {}) {
 	if (publishSync && !apply) {
 		throw new Error('Internal publish sync requires apply mode');
 	}
-	if ((apply || publishSync) && entries.length > 0) {
+	if (insertMissing && (apply || publishSync || gradesOnly)) {
+		throw new Error(
+			'Insert-missing mode is standalone; do not combine it with apply/publish/grades'
+		);
+	}
+	if ((apply || publishSync || insertMissing) && entries.length > 0) {
 		await assertBlogHistorySchemaCompatible(supabase);
 	}
 
+	const modeLabel = apply
+		? 'Applying'
+		: insertMissing
+			? 'Syncing new people from'
+			: 'Dry-run previewing';
 	console.log(
-		`${apply ? 'Applying' : 'Dry-run previewing'} ${entries.length} people blog entr${entries.length === 1 ? 'y' : 'ies'}...`
+		`${modeLabel} ${entries.length} people blog entr${entries.length === 1 ? 'y' : 'ies'}...`
 	);
 
 	for (const entry of entries) {
@@ -1800,6 +1841,35 @@ export async function insertIntoSupabase(entries, options = {}) {
 				.maybeSingle();
 			if (existingError) throw new Error(`Live-row lookup failed: ${existingError.message}`);
 			if (!existing) {
+				if (insertMissing) {
+					const blockReason = getInsertBlockReason(entry);
+					if (blockReason) {
+						console.warn(`Blocked (${blockReason}): ${entry.person || entry.title}`);
+						result.blocked.push(`${entry.person || entry.title}: ${blockReason}`);
+						result.skipped += 1;
+						continue;
+					}
+
+					const {
+						_has_content_quality,
+						_has_valid_content_quality,
+						_explicit_fields: _explicitFields,
+						...entryRecord
+					} = entry;
+					/** @type {BlogRecord} */
+					const record = { ...getEmptyBlogRecord(), ...entryRecord };
+					if (!_has_content_quality || !_has_valid_content_quality) delete record.content_quality;
+
+					const { error: insertError } = await supabase
+						.from('blogs_famous_people')
+						.insert({ ...record, published: false });
+					if (insertError) throw new Error(insertError.message);
+
+					result.inserted += 1;
+					result.insertedPeople.push(entry.person);
+					console.log(`Inserted (unpublished): ${entry.person}`);
+					continue;
+				}
 				if (!apply) {
 					console.log(
 						`Skipped (not yet in database): ${entry.person}. Use --publish when this draft is ready to create and release.`
@@ -1810,6 +1880,13 @@ export async function insertIntoSupabase(entries, options = {}) {
 				throw new Error(
 					`Existing-row-only update refused: ${entry.person} was not found; no row was inserted`
 				);
+			}
+
+			// Insert-missing mode never edits a row that already exists; updating an
+			// existing person stays behind the fail-closed --apply gate.
+			if (insertMissing) {
+				result.existingUntouched += 1;
+				continue;
 			}
 
 			const plan = buildNonPublishUpdatePlan(existing, entry, { gradesOnly });
@@ -1964,15 +2041,42 @@ async function main() {
 			console.log(`Filtered to: ${normalizedPersonFilter}`);
 		}
 
+		// A bare `pnpm push:people` syncs drafts that have no row yet into the
+		// database as unpublished. --dry-run previews instead; --apply and --publish
+		// keep their existing fail-closed semantics for rows that already exist.
+		const insertMissing = !apply && !explicitDryRun && !gradesOnly;
+
 		console.log(`Found ${blogEntries.length} entries to process`);
 		const syncResult = await insertIntoSupabase(blogEntries, {
 			gradesOnly,
 			apply,
+			insertMissing,
 			expectedContentHash,
 			approvedFields
 		});
 		if (syncResult.errors.length > 0) {
 			throw new Error(`People sync failed:\n${syncResult.errors.join('\n')}`);
+		}
+
+		if (insertMissing) {
+			console.log('\n' + '='.repeat(60));
+			console.log(`Inserted (unpublished): ${syncResult.inserted}`);
+			console.log(`Already in database, untouched: ${syncResult.existingUntouched}`);
+			console.log(`Blocked: ${syncResult.blocked.length}`);
+			for (const reason of syncResult.blocked) console.log(`  - ${reason}`);
+			console.log('='.repeat(60));
+
+			if (syncResult.inserted > 0) {
+				console.log(`New people: ${syncResult.insertedPeople.join(', ')}`);
+				if (skipGenAll) {
+					console.log('Skipped pnpm gen:famous-types (--skip-gen-all)');
+				} else {
+					console.log('\nRegenerating famousTypes.ts...');
+					execSync('pnpm gen:famous-types', { stdio: 'inherit' });
+				}
+			} else {
+				console.log('No new people to insert; famousTypes.ts already current.');
+			}
 		}
 
 		console.log('Processing complete!');

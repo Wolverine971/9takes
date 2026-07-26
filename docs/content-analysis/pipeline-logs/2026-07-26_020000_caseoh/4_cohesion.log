@@ -1,0 +1,41 @@
+## Cohesion Check Complete: caseoh.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+CaseOh is a self-preservation Enneagram 9: the four loud hours a night are a manufactured product that protects a life built entirely around quiet, comfort, and the avoidance of real conflict.
+
+### Score Breakdown (before → after)
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 8/10 | 9/10 |
+| Reader Mental Model | 8/10 | 9/10 |
+| Section Transitions | 7/10 | 9/10 |
+| Internal Paragraph Flow | 9/10 | 9/10 |
+
+The through-line was already strong: every section serves the loud/quiet gap, nothing is a detour, and the ending lands the same argument the hook opens (298,512 callback, salt lamp bookend). The issues were all at the seams.
+
+### Changes Made (5 total)
+
+**Thread Fixes (1):**
+- **Hook, final line** was a false pointer: "It starts with what the screaming is actually for" promised the screaming explanation, but that arrives four sections later; what actually comes next is the "chill" value-system diagnosis. Repointed to "It starts with the one word he uses for everything he loves," which tees up the chill litany directly and pre-echoes its "One word" payoff without spoiling it.
+
+**Transition Fixes (3):**
+- **Diagnosis → Six Jobs**: was a cold topic switch from the small-friend-circle close to a jobs inventory. Added "Everything he keeps, he keeps against a specific memory." — carries the "keeping" thread from the skeptic paragraph and frames the jobs section as the motive behind it.
+- **Phone Call → Childhood**: the jump from the borrowed-momentum pattern back to childhood had no stated link. Added "The pattern is older than the career." — carries "pattern" from the previous paragraph's "This is the pattern under the whole biography."
+- **Arkansas → Maybe When I Was Younger**: the fat-jokes section opened on a disconnected "economics" frame. Rewrote the topic sentence to "One line item in the kingdom's books would startle anyone else:" — carries both "kingdom" and "startle" from the Arkansas close ("the entire kingdom is arranged so that nothing in it ever startles him") while keeping the no-other-creator contrast.
+
+**Internal Flow Fixes (1):**
+- **Screaming section**: "Because here is what the clip-farm reading misses" dangled — its "Because" pointed back past the Sketch-defense paragraph to the accusation two paragraphs earlier. Dropped "Because" so the sentence reads as an explicit thread return.
+
+### What Was Preserved
+- All frontmatter, FAQ answers, HTML components (timeline, dialogue, inner-thought, pull-quote), working-note comments, internal links, and the Rabbit Hole.
+- The transitions that were already strong: Six Jobs → Phone Call (direct TikTok carry), Childhood's close, the Arkansas peer-comparison pivot, and the final section's hook callback.
+- No em-dashes or banned-list language in any added sentence; each bridge is one short sentence in the piece's existing register.
+
+### Remaining Concerns
+- **Childhood → Screaming** relies on the H2 ("Why CaseOh Screams...") to pivot from "He didn't escape his childhood. He scaled it." to the cynics' case. The heading genuinely carries it, so I left it, but an explicit bridge is available if you ever feel a bump there.
+- The fresh-eyes note about aphoristic section-ending snaps becoming a visible device is a style/rhythm issue, not a cohesion one — out of scope here and already partially addressed in the second pass. My bridges are section openers, so they don't add to that density.

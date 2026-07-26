@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — caseoh (Type 9)
+/Users/djwayne/9takes/src/blog/people/drafts/caseoh.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 34
+Comparison set (last 8 other Type-9 drafts by date):
+  - seth-rogen  (2026-07-04, 19 units)
+  - Zac-Efron  (2026-07-02, 21 units)
+  - Mira-Murati  (2026-07-01, 34 units)
+  - Brendan-Fraser  (2026-06-29, 23 units)
+  - keith-lee  (2026-06-25, 19 units)
+  - adam-sandler  (2026-06-23, 26 units)
+  - John-Goodman  (2026-06-21, 36 units)
+  - Nick-Offerman  (2026-06-19, 28 units)
+
+Noise floor over 7004 unit pairs:  median=0  p90=0  p99=0.007  max=0.059
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.059 ##                   Zac-Efron
+  0.052 ##                   Brendan-Fraser
+  0.039 ##                   Mira-Murati
+  0.038 ##                   John-Goodman
+  0.037 #                    seth-rogen
+  0.021 #                    keith-lee
+  0.020 #                    Nick-Offerman
+  0.019 #                    adam-sandler
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.059   caseoh  <->  Zac-Efron
+   TARGET [counter-typing] and answered the biggest betrayal-shaped accusation of his career with silence rather than a loyalty audit.
+   OTHER  [diagnosis] the most physically punishing job of his career
+
+score 0.052   caseoh  <->  Brendan-Fraser
+   TARGET [diagnosis] A skeptic will point at the record grinds and the awards and call him a competitor in a gentle costume
+   OTHER  [diagnosis] Point at the evidence and the case makes itself.
+
+score 0.039   caseoh  <->  Mira-Murati
+   TARGET [diagnosis] zero public feuds in four years at the top
+   OTHER  [diagnosis] The words at the top of this page come from her sworn testimony about the weekend OpenAI's board fired Sam Altman
+
+score 0.038   caseoh  <->  John-Goodman
+   TARGET [diagnosis] That word is the whole value system.
+   OTHER  [diagnosis] and a face the whole country recognizes
+
+score 0.037   caseoh  <->  seth-rogen
+   TARGET [diagnosis] The Enneagram Type 9 moves through the world protecting exactly this
+   OTHER  [diagnosis] Enneagram Nines are called the Peacemakers
+
+score 0.036   caseoh  <->  John-Goodman
+   TARGET [diagnosis] and the ambition has never updated since.
+   OTHER  [diagnosis] The Academy has never once nominated him
+
+score 0.036   caseoh  <->  John-Goodman
+   TARGET [diagnosis] the whole list fit in one breath
+   OTHER  [diagnosis] and a face the whole country recognizes
+
+score 0.034   caseoh  <->  John-Goodman
+   TARGET [counter-typing] Type 3 fails on the absence of image management from a man who introduced himself to The Game Awards audience as a random fat dude that looks like a lumberjack.
+   OTHER  [diagnosis] describing himself as a man who contributes nothing.
+
+score 0.030   caseoh  <->  Mira-Murati
+   TARGET [counter-typing] The loudest genre on the internet almost never produces a Peacemaker at the top.
+   OTHER  [diagnosis] The words at the top of this page come from her sworn testimony about the weekend OpenAI's board fired Sam Altman
+
+score 0.027   caseoh  <->  John-Goodman
+   TARGET [diagnosis] The Enneagram Type 9 moves through the world protecting exactly this
+   OTHER  [diagnosis] He has been underestimated for exactly this reason.
+
+score 0.025   caseoh  <->  Mira-Murati
+   TARGET [counter-typing] and answered the biggest betrayal-shaped accusation of his career with silence rather than a loyalty audit.
+   OTHER  [diagnosis] the executive who answered a training-data question with silence
+
+score 0.025   caseoh  <->  Zac-Efron
+   TARGET [diagnosis] when she asked for the most fulfilling thing his career has given his family
+   OTHER  [diagnosis] the most physically punishing job of his career
+
+------------------------------------------------------------------------------
+Top pair scores 0.059 vs median 0  (~∞x the noise floor).

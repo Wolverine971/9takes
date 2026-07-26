@@ -1,0 +1,24 @@
+Draft complete. CaseOh is typed as an **Enneagram Type 9 (self-preservation 9w8)** and the draft is saved where the pipeline expects it, with every hard gate passing.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/caseoh.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): pass — 4 qualifying named-source quotes (Angie Baker ×2, LosPollosTV, Jynxzi) + 1 hedged (Cody Baker, authenticity unconfirmed)
+       Gate 2 (heading mix): pass — 5 of 8 H2s search-intent/hybrid
+       Gate 4 (anti-imitation): pass — no type-named ending sentences, no reference-library cadence
+       Gate 5 (distribution): pass — 2 type-theory paragraphs outside diagnosis/Rabbit Hole (limit 4)
+       Gate 6 (formula fingerprint): pass — 0 strong contrast pairs, similarity scan clear, bespoke section, critic anchor, empathy turn, current-tense anchor, ending swap-test
+LIMITATIONS: podcast/interview quotes are auto-caption-approximate (sourcing note in draft flags verbatim re-check before publish); Cody Baker brother account never confirmed by CaseOh (hedged in prose); no-cussing rationale and gambling-sponsorship stance excluded as unverified; CaseOh has no Wikipedia page (field omitted); hometown kept at state level (county unverified)
+```
+
+**The thesis:** the loudest stream on the internet is produced by a man built entirely for quiet. He screams at video games because a game is the one opponent that can't be hurt and can't leave — off-stream he couldn't even quit his own job (he told chat "get me to 5,000 subs and I'll call in," then had his dad make the call). The aha beat: his mom used to lie on his bed watching him play Call of Duty every night; streaming recreates that exact arrangement at a 298,512-person scale.
+
+**Key evidence sourced this run:** full Jynxzi Podcast #1 transcript (verified line-by-line against the two-hander attribution trap), plus two fresh transcripts (Layna Lazar Q&A Oct 2025, "Talk With My Chat" Oct 2025) that produced the load-bearing details — "I'll never get on an airplane my whole life," "I have to listen to complete silence," lives alone with a cat, retired both parents so "everybody gets to chill."
+
+**Deterministic checks:** blog-lint 0 fail / 1 warn (2 comparative patterns, documented as legitimate comparisons); quality report 0 strong contrast engines, head-term pass, 55-word extractable answer block; same-type similarity clear against the 8 most recent Type 9 drafts; avoid-list grep clean; 3,742 body words (ceiling 4,500).
+
+**Internal links (6):** Type 9 pillar, IShowSpeed, Kai Cenat in the body; wings guide, instinctual subtypes, and corpus-stats inside the Rabbit Hole (which also carries the citable stat: only 5 of 84 creator profiles on 9takes are 9s). Jynxzi is quoted but deliberately not linked — his blog is still unpublished.
+
+The pipeline (stage 2: fresh_eyes) takes it from here.

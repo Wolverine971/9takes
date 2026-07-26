@@ -5,7 +5,7 @@
 **For:** one agent, independent run
 **Owner:** DJ
 **Created:** 2026-07-25
-**Status:** open
+**Status:** done (2026-07-26)
 **Related:** [batch README + doctrine](README.md)
 
 ---
@@ -127,10 +127,25 @@ Do not retitle toward keywords. Tested corpus-wide, keyword titles convert worse
 
 ## 6. Definition of done
 
-- [ ] No sentence anywhere on the page refers to the 2026 World Cup as ongoing or upcoming.
-- [ ] The final result, the extra-time winner, and the Rodri assignment are all present and sourced.
-- [ ] The record-without-trophy split is the analytical spine, not a footnote.
-- [ ] Question 3 (for / against / complicating) answered in the published copy.
-- [ ] Zero em-dashes, no quality markers, valid YAML.
-- [ ] `personBlogParser.js Lionel-Messi` runs clean; `lastmod` unchanged.
-- [ ] Status updated to `done` with a completion note.
+- [x] No sentence anywhere on the page refers to the 2026 World Cup as ongoing or upcoming.
+- [x] The final result, the extra-time winner, and the Rodri assignment are all present and sourced.
+- [x] The record-without-trophy split is the analytical spine, not a footnote.
+- [x] Question 3 (for / against / complicating) answered in the published copy.
+- [x] Zero em-dashes, no quality markers, valid YAML.
+- [x] `personBlogParser.js Lionel-Messi` runs clean; `lastmod` unchanged.
+- [x] Status updated to `done` with a completion note.
+
+---
+
+## 7. Completion note (2026-07-26)
+
+Pushed live through the guarded two-step parser flow with the diff limited to `content`, `faqs`, and `citations`; the verified live row kept `lastmod: 2026-07-14` and `published: true`. The stale semifinal ending and live-tournament FAQ were replaced by **The Record and the Wound**, which integrates the 1-0 final loss, Ferran Torres's 106th-minute goal, Spain's collective plan to isolate Messi, Rodri's central role, the medal-ceremony footage, Messi's next-day statement, the 9-to-3 integration and 9-to-6 stress test, the 8/3/4 alternative readings, and the reader mirror. The body came down from 5,127 to 4,047 words while preserving the title and opening. The evidence complicates the Type 9 read: Messi centered the group and congratulated Spain, supporting the pattern, but he also named his own wound directly and stayed publicly present, which points more toward integration to Type 3 than self-erasure. Two tasker assumptions needed correction for the next editor: Spain did not assign Rodri a solo man-marking job, and Messi did not finish the tournament as the scoring-record holder. De la Fuente described a collective keep-Messi-at-bay plan that Rodri anchored, while Kylian Mbappé passed Messi's twenty-one goals during the third-place match.
+
+### Research closure
+
+1. **Messi's own post-final words:** found. He did not speak to the media at the stadium. On Instagram the next day, he called the pain immense and the loss a wound that would take time to heal, then centered the group's two straight finals, national unity, and congratulations to Spain. Sources: [FIFA](https://www.fifa.com/es/articles/messi-el-dolor-es-muy-grande-y-va-a-costar-que-cierre-esta-herida), [MLS](https://www.mlssoccer.com/news/lionel-messi-shares-message-following-world-cup-final), [Reuters](https://www.reuters.com/sports/soccer/messi-says-argentinas-defeat-by-spain-left-immense-pain-2026-07-20/).
+2. **Post-match footage:** found and used. The sequence was precise: Messi dropped to the grass and stared, received embraces from Spanish players, tried to smile in the guard of honor, accepted silver with a blank expression, then cried while looking toward supporters chanting his name. Sources: [Washington Post](https://www.washingtonpost.com/sports/soccer/2026/07/19/messi-world-cup-final/), [FIFA](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/messis-argentina-bond-shines-bright-amid-pain-of-defeat), [FOX Sports](https://www.foxsports.com/stories/soccer/lionel-messi-tears-spain-celebrates-world-win-over-argentina).
+3. **Scaloni and teammate comments:** Scaloni said he had not spoken to Messi about his future, that Messi would play until he chose to stop, and that everyone should be proud of his tournament. Source: [UPI](https://www.upi.com/Sports_News/Soccer/2026/07/20/latam-us-world-cup-lionel-messi-unsure-future/4021784556465/). **No substantive, reliably reported post-final teammate comment about Messi specifically was found.** De Paul defended the team and Messi on Instagram, while Lautaro Martínez discussed the team and his own unused role; neither added enough psychological evidence to earn space.
+4. **The tactical plan:** verified with a correction. De la Fuente said Spain's first idea was to keep Messi at bay but explicitly rejected a solo man-mark. Baena, Cucurella, Laporte, Fabián Ruiz, and Rodri blocked lanes collectively. Rodri completed 95.3 percent of his passes, made four tackles, and dispossessed Messi near the box in the 92nd minute. Sources: [Sports Illustrated](https://www.si.com/soccer/six-takeaways-from-spain-deserved-history-shaking-world-cup-title-win), [Guardian](https://www.theguardian.com/football/2026/jul/20/rodri-spain-world-cup-final-2026-argentina-pass-accuracy).
+5. **Retirement or international future:** no retirement announcement as of 26 July. Messi omitted the subject from his post; Scaloni said the decision was Messi's and that they had not discussed it after the match. Source: [UPI](https://www.upi.com/Sports_News/Soccer/2026/07/20/latam-us-world-cup-lionel-messi-unsure-future/4021784556465/).
+6. **The scoring-record framing:** found and used. When Messi first drew level with Klose, he called the record a statistic and said collective triumphs mattered more. He later reached twenty-one and briefly led outright, but Mbappé moved to twenty-two before the final. The psychologically useful split is therefore stronger and more precise than "record without trophy": Messi called the individual number a bonus and the missed collective title a wound. Sources: [El País](https://elpais.com/deportes/mundial-futbol/2026-06-17/messi-se-emociona-tras-el-record-goleador-con-argentina-pase-unos-dias-dificiles-consegui-todo-y-lo-que-venga-a-partir-de-ahora-es-un-bonus.html), [Reuters](https://www.reuters.com/sports/soccer/lionel-messi-thanks-argentina-fans-wound-will-take-time-heal--flm-2026-07-21/).

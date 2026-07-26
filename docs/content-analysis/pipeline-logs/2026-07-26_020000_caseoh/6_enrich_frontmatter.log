@@ -1,0 +1,24 @@
+Frontmatter enrichment complete: **caseoh**
+
+**Fields filled:**
+- `wikidata_qid` — `Q124813026` (verified: birth date and Twitter handle on the entity match the draft)
+- `imdb_id` — `nm15713546` (cross-checked via Wikidata property P345, per the confirmation rule)
+- `knows_about` — 5 entries grounded in the body: variety game streaming, indie horror games, short-form clip strategy, family-friendly streaming, NBA 2K content creation
+- `same_as` — 4 entries: Wikidata, Finnish Wikipedia, IMDb, official Twitch channel
+
+**Fields already present (preserved untouched):**
+- `birth_date`, `birth_place`, `nationality`, `occupation`, `keywords` (10), `citations` (12), `faqs` (5 substantive entries — strict idempotency applied, left exactly as written), plus all creator-owned fields including `lastmod`
+
+**FAQs (pre-existing, not regenerated):**
+1. What is CaseOh's personality type? → `#what-is-caseohs-personality-type`
+2. Why does CaseOh scream at video games? → `#why-caseoh-screams-at-video-games-and-never-at-people`
+3. What jobs did CaseOh work before streaming? → `#the-six-jobs-caseoh-worked-before-twitch`
+4. Why does CaseOh still live in Arkansas? → `#why-caseoh-still-lives-in-the-arkansas-woods`
+5. Is CaseOh actually okay with the fat jokes? → `#maybe-when-i-was-younger`
+
+**Issues:**
+- **No English Wikipedia page exists** for CaseOh — I confirmed both "CaseOh" and "Case Baker" are missing on en.wikipedia.org (only a Finnish article exists, which I put in `same_as`). The `wikipedia` field is omitted per the edge-case rule, not an oversight. Worth rechecking on the next refresh; a streamer this large will likely get an English article eventually.
+- `birth_place` is state-level only (`'Arkansas, United States'`). Fandom sources say Dallas County, Arkansas, but no authoritative source (Wikidata has no P19) confirms a city, so I left the existing value rather than overwrite with wiki-grade data.
+- The body is read-only per the command and was not touched; citations were already rich (12 sources).
+
+Sources: [CaseOh — Wikidata](https://www.wikidata.org/wiki/Q124813026), [CaseOh — Finnish Wikipedia](https://fi.wikipedia.org/wiki/CaseOh), [Caseoh — Twitch Wiki (Fandom)](https://twitch.fandom.com/wiki/Caseoh)

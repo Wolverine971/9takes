@@ -248,7 +248,12 @@ const OUTLETS = [
 	// stand-up subjects these ARE the primary record, and a named show + date is
 	// more checkable than most magazine attributions.
 	'Joe Rogan Experience',
-	'Are You Garbage'
+	'Are You Garbage',
+	// Streamer-run shows that publish full public episodes (CaseOh pass,
+	// 2026-07-26). Same class as the comedy podcasts above: for streamer
+	// subjects a named show + date IS the checkable primary record.
+	'Jynxzi Podcast',
+	'Creature Feature'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

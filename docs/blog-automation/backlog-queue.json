@@ -1,37 +1,11 @@
 {
-	"lastUpdated": "2026-07-25T00:00:00Z",
+	"lastUpdated": "2026-07-26T07:01:13Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "jynxzi",
-			"displayName": "Jynxzi",
-			"type": null,
-			"priority": 82,
-			"priorityReason": "CORRECTED 2026-07-25: named the #1 Twitch streamer of 2026 and most-watched in North America, ~10M followers. Prior priority (39) used a streamer median of 98; the 2026-07-25 GSC join measures 979. Streamer is the single best-performing category in the corpus.",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
-		},
-		{
-			"name": "caseoh",
-			"displayName": "CaseOh",
-			"type": null,
-			"priority": 80,
-			"priorityReason": "Top-3 Twitch streamer of 2026 by peer and platform rankings; 7M+ YouTube and 7M+ Twitch. Streamer is the highest-yield category in the corpus (median 979 impressions vs 156 for screen icons) and is only 8 pages deep.",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-25",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
-		},
 		{
 			"name": "plaqueboymax",
 			"displayName": "PlaqueBoyMax",
@@ -450,6 +424,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "caseoh",
+			"displayName": "CaseOh",
+			"type": null,
+			"priority": 80,
+			"priorityReason": "Top-3 Twitch streamer of 2026 by peer and platform rankings; 7M+ YouTube and 7M+ Twitch. Streamer is the highest-yield category in the corpus (median 979 impressions vs 156 for screen icons) and is only 8 pages deep.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-07-26T06:00:00Z",
+			"completedAt": "2026-07-26T07:01:13Z",
+			"contentGrade": "8.6",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~61 min",
+			"needsReview": false
+		},
 		{
 			"name": "sadie-sink",
 			"displayName": "Sadie Sink",
@@ -1522,6 +1516,21 @@
 	],
 	"inProgress": null,
 	"skipped": [
+		{
+			"name": "jynxzi",
+			"displayName": "Jynxzi",
+			"type": null,
+			"priority": 82,
+			"priorityReason": "CORRECTED 2026-07-25: named the #1 Twitch streamer of 2026 and most-watched in North America, ~10M followers. Prior priority (39) used a streamer median of 98; the 2026-07-25 GSC join measures 979. Streamer is the single best-performing category in the corpus.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"skippedAt": "2026-07-26T06:00:00Z",
+			"skipReason": "draft already exists"
+		},
 		{
 			"name": "jerry-seinfeld",
 			"displayName": "Jerry Seinfeld",

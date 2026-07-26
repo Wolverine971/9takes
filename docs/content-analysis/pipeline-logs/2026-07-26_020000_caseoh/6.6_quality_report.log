@@ -1,0 +1,10 @@
+blog-quality-report: caseoh
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 2 total  (strong 0, comparative 2)
+   compar. [more/less-than] L242: The most-clipped man on Twitch took the worst accusation of his career in total silence, which tells you more about his wiring than the accu
+   compar. [more/less-than] L284: Those read more as small-town congregational culture than as an inner critic; nothing else in his record shows the 1 wing's self-punishing p
+
+2.4 Head-term: PASS  meta_title=Why CaseOh Screams at Games but Never Fights: Enneagram 9
+   answer-block: ok (57 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 391)

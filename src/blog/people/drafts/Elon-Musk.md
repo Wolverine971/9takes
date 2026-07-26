@@ -118,7 +118,7 @@ content_quality:
 
 Jon McNeill, then Tesla's president of global sales, opens a dark conference room. Elon Musk is lying face-down on the carpet and does not respond. McNeill spends half an hour getting him into a chair, then covers the call. Walter Isaacson reports that scenes like this happened five or six times that autumn. Once, McNeill presented a website redesign while sitting on the floor beside him because Musk would not get up.
 
-That scene is more useful than the familiar labels. Visionary. Billionaire. Genius. Bully. None explains why a man with nearly unlimited material resources repeatedly builds a life with no reserve left inside it.
+That scene makes the familiar labels look thin. Visionary. Billionaire. Genius. Bully. None explains why a man with nearly unlimited material resources repeatedly builds a life with no reserve left inside it.
 
 The Type 5 answer starts with fear, but not stage fright or fear of failure. It is the fear of being invaded by demands, emptied out, and exposed as unable to cope. A classic Five protects against that feeling by withdrawing, conserving energy, and understanding the system before entering it.
 
@@ -130,7 +130,9 @@ Into the next problem.
 
 ## What is Elon Musk's personality type?
 
-Elon Musk reads as an **Enneagram Type 5w6**, the Investigator with a security-focused Six wing. Other personality sites commonly type him as INTJ or INTP in the Myers-Briggs system. This page makes a narrower claim about motive: Musk masters complex systems because competence is where he appears to find safety from helplessness, dependence, and depletion.
+### Elon Musk is an Enneagram Type 5
+
+Elon Musk reads as an **[Enneagram Type 5](/enneagram-corner/enneagram-type-5)** with a security-focused Six wing. Other personality sites commonly type him as INTJ or INTP in the Myers-Briggs system. This page makes a narrower claim about motive: Musk masters complex systems because competence is where he appears to find safety from helplessness, dependence, and depletion.
 
 <div class="quick-answer">
 
@@ -145,6 +147,18 @@ Elon Musk reads as an **Enneagram Type 5w6**, the Investigator with a security-f
 - **The tell:** when pressure turns personal, his first move is usually distance, analysis, or work
 
 </div>
+
+<details>
+<summary class="accordion">TL;DR: Why Elon Musk reads as a Type 5</summary>
+<div class="panel">
+<ul>
+<li><b>Mastery is safety:</b> He repeatedly answers uncertainty by learning the underlying system and owning its critical layer.</li>
+<li><b>Stress creates expansion:</b> When demands multiply, his response resembles Type 7 scatter at institutional scale.</li>
+<li><b>Growth requires presence:</b> His strongest leadership moments happen when he enters the room and shares responsibility for the work.</li>
+<li><b>The 2026 complication:</b> His projects converged around one AI-and-space thesis, and he corrected himself publicly three times.</li>
+</ul>
+</div>
+</details>
 
 The Six wing matters. Musk does not collect knowledge for its own sake. He models threats and builds against them. Mars is species redundancy. Starlink is communications redundancy. Tesla Energy is grid redundancy. Neuralink is a response to the possibility that human intelligence becomes obsolete. xAI is both an AI company and an attempt to control a technology he has described as civilization-changing.
 
@@ -170,7 +184,7 @@ The joke protected the speaker from earnestness. It could not protect the compan
 
 ## What a Five looks like when withdrawal is gone
 
-Under stress, Type 5 moves toward the less grounded side of Type 7: more stimulation, more options, more starts, less ability to remain with one demand. Musk's version is not a forgotten appointment or a crowded browser. It is simultaneous expansion at institutional scale.
+Under stress, [Type 5 moves toward Type 7](/enneagram-corner/enneagram-types-in-stress): more stimulation, more options, more starts, less ability to remain with one demand. Musk's version is not a forgotten appointment or a crowded browser. It is simultaneous expansion at institutional scale.
 
 Tesla. SpaceX. X. xAI. Neuralink. The Boring Company. Politics. Product announcements. Late-night posting. Each new arena creates more demands, and the response to demand is another arena that he can understand or control.
 
@@ -196,15 +210,15 @@ After a wave of departures left only two of xAI's original eleven co-founders, M
 
 This is unusually clean evidence for the Type 5 read. He did not defend the old structure because it was his. He declared the structure wrong and reached for first principles.
 
-It is also evidence against the flattering version of that read. Rebuilding from the foundations is still a control response. Nine of the other original co-founders had left. The public correction named a defective system, not a leadership relationship. A Five can update the architecture while leaving the interpersonal cause outside the model.
+It is also evidence against the flattering version of that read. Rebuilding from the foundations is still a control response. Nine of the other original co-founders had left. The public correction named a defective system and left leadership relationships outside the account. A Five can update the architecture while leaving the interpersonal cause outside the model.
 
 ### May 6: the private structure became testimony
 
-During Musk's case against OpenAI, Neuralink executive Shivon Zilis testified about their relationship and four children. According to [The Guardian's report from the courtroom](https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit), Zilis lives in an Austin house where Musk sometimes stays when visiting the children.
+During Musk's case against OpenAI and [Sam Altman](/personality-analysis/sam-altman), Neuralink executive Shivon Zilis testified about their relationship and four children. According to [The Guardian's report from the courtroom](https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit), Zilis lives in an Austin house where Musk sometimes stays when visiting the children.
 
 The event matters here for one reason: it made the distance concrete. Four children, a house, visits, and a relationship described under oath because a business dispute pulled it into public view. None proves what Musk feels. Together they show the architecture through which connection has to operate.
 
-This also complicates the easy absent-father story. Zilis described an ongoing family arrangement, not abandonment. Observable behavior can support two truths at once: he created a structure for continued presence, and his presence still has to fit around an empire whose limiting problems receive him first.
+This also complicates the easy absent-father story. Zilis described an ongoing family arrangement. Her testimony complicates the simple abandonment story. Observable behavior can support two truths at once: he created a structure for continued presence, and his presence still has to fit around an empire whose limiting problems receive him first.
 
 ### June 12: six companies started looking like one bet
 
@@ -228,7 +242,7 @@ This is not a verdict on DOGE policy. It is evidence about correction style. Sys
 
 ## Integrated Eight versus performed Eight
 
-The Enneagram says a healthy Five moves toward Type 8. Musk makes the distinction between integration and imitation unusually visible.
+The Enneagram says a healthy Five moves toward [Type 8](/enneagram-corner/enneagram-type-8). Musk makes the distinction between integration and imitation unusually visible.
 
 **Integrated Eight is presence.** After Falcon 1 failed, he stood with the people whose work and jobs were on the line. During Model 3 production hell, he entered the factory and shared the conditions. The decisions were forceful, but force was not the point. Responsibility was physically located in the same room as consequence.
 
@@ -256,9 +270,28 @@ His daughter Vivian Jenna Wilson made the distance explicit when she sought to s
 
 The May 2026 Zilis testimony adds rather than resolves the story. It shows an ongoing effort to be present with four younger children. It also shows connection organized through housing, travel, and visits. The Five strategy keeps trying to make enough structure that intimacy will stop making unstructured demands.
 
-The cost is not simply that Musk works too much. Many people work too much and remain emotionally available. The specific cost is that asking for relief appears to be less tolerable than absorbing another load. He would rather build a larger container than tell someone the current one is full.
+The cost is not simply that Musk works too much. Many people work too much and remain emotionally available. The specific cost is his repeated absorption of another load whenever relief would require dependence. He would rather build a larger container than tell someone the current one is full.
 
 That is what the conference-room floor means without turning it into a diagnosis. The public behavior before and after the scene was extreme work. The private interruption was a body on a carpet. We know the scene. We do not need to name a disorder to see that the strategy had reached its limit.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Enneagram Rabbit Hole: wing, arrows, and the Type 8 alternative</summary>
+<div class="panel">
+
+### Why 5w6 fits better than 5w4
+
+The Six wing gives Musk's knowledge a defensive purpose. The recurring question is not only how a system works. It is how the system fails, and what must exist before that failure arrives. The Four-wing case explains his taste for provocation, science fiction, and grand personal myth. The Six wing better explains the portfolio of redundancies.
+
+### The arrows in one sentence each
+
+At stress, Five takes on Seven's restless multiplication: another project, platform, announcement, or fight. In growth, Five takes on Eight's grounded force: enter the room, make the decision, and remain accountable for what follows.
+
+### Why not a core Type 8?
+
+Musk's confrontation usually follows analysis. He identifies a model, a threat, or a limiting factor before applying force. The core Type 8 case becomes strongest when he is challenged publicly. The Type 5 case becomes strongest when pressure turns intimate or depleting and he reaches for distance, structure, or another problem to master.
+
+</div>
+</details>
 
 ## Evidence against the Type 5 case
 
@@ -304,3 +337,32 @@ The sentence a depleted Five most resists is also the one that interrupts the lo
 Competence can build the larger system. Self-sufficiency can keep it moving. Neither can substitute for being in the room.
 
 > **Disclaimer:** This analysis of Elon Musk's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type.
+
+<!-- TESTIMONY LEDGER
+1. Jon McNeill, former Tesla president of global sales: observed and responded to the 2017 conference-room-floor episodes, reported by Walter Isaacson.
+2. Justine Musk, former spouse: first-person account of marriage, grief, and divorce in Marie Claire.
+3. Shivon Zilis, Neuralink executive and mother of four of Musk's children: May 2026 courtroom testimony about their family arrangement.
+4. Vivian Jenna Wilson, daughter: public account of estrangement, placed beside Musk's conflicting public account.
+Total quoted third-party testimony in body: 0. All testimony is paraphrased and attributed.
+-->
+
+<!-- HEADING MIX LEDGER
+Search-intent: What is Elon Musk's personality type?
+Signature: What a Five looks like when withdrawal is gone; Integrated Eight versus performed Eight; The cost: people do not behave like components.
+Hybrid: How the retreat became a superpower; The 2026 record: three public corrections; Evidence against the Type 5 case.
+Mechanic: What the other eight types would see; The reader's mirror.
+-->
+
+<!-- DISTRIBUTION LEDGER
+Type theory outside diagnosis and Rabbit Hole appears in four blocks: childhood retreat, stress to Seven, integration to Eight, and the evidence-against verdict.
+The 2026 timeline contains four dated entries, of which March, May, and July deepen the psychology and June supplies counter-evidence.
+Internal links: Type 5, stress arrows, Type 8, Sam Altman. Total: 4.
+-->
+
+<!-- FORMULA FINGERPRINT LEDGER
+Spine: a Type 5 who cannot withdraw retreats into a larger problem.
+Bespoke form: three public corrections followed by an analysis of where correction stops.
+Inner dialogue: The system is eating me. Fine. Build a bigger system.
+Closing mirror: the reader who absorbs another load because requesting relief would require dependence.
+No epigraph. No visible FAQ body. No duplicated quotation.
+-->

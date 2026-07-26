@@ -5,7 +5,7 @@
 **For:** one agent, **run together with [NR-06 Sam Altman](NR-06-sam-altman.md)**
 **Owner:** DJ
 **Created:** 2026-07-25
-**Status:** open
+**Status:** done
 **Related:** [batch README + doctrine](README.md)
 
 ---
@@ -132,11 +132,29 @@ Do not retitle toward keywords. Tested corpus-wide, keyword titles convert worse
 
 ## 6. Definition of done
 
-- [ ] The G7 request is the analytical spine, with the chosen-versus-cornered question answered.
-- [ ] The export block is sourced precisely, not paraphrased loosely.
-- [ ] The Altman contrast is drawn explicitly at least once, same event, opposite type, different response.
-- [ ] Question 3 (for / against / complicating) answered in the published copy.
-- [ ] No paragraph argues about AI policy rather than about him.
-- [ ] Zero em-dashes, no quality markers, valid YAML.
-- [ ] `personBlogParser.js Dario-Amodei` runs clean; `lastmod` unchanged.
-- [ ] Status updated to `done` with a completion note.
+- [x] The G7 request is the analytical spine, with the chosen-versus-cornered question answered.
+- [x] The export block is sourced precisely, not paraphrased loosely.
+- [x] The Altman contrast is drawn explicitly at least once, same event, opposite type, different response.
+- [x] Question 3 (for / against / complicating) answered in the published copy.
+- [x] No paragraph argues about AI policy rather than about him.
+- [x] Zero em-dashes, no quality markers, valid YAML.
+- [x] `personBlogParser.js Dario-Amodei` runs clean; `lastmod` unchanged.
+- [x] Status updated to `done` with a completion note.
+
+---
+
+## Completion note (2026-07-26)
+
+Reframed the article around the June export directive and Amodei's G7 appearance. The chosen-versus-cornered answer is explicit: he was cornered into the room when withdrawal stopped being available, then showed integration by using the room to argue for a durable democratic-access framework and remaining involved through the technical resolution.
+
+Research findings incorporated:
+
+- The June 12 directive barred all foreign nationals, including Anthropic employees, from Fable 5 and Mythos 5. Anthropic disabled both models for all users; a multi-agency technical process restored them on July 1.
+- No public G7 transcript was available. The account is attributed to reporting on the closed-door lunch, including Amodei's direct "resist the temptation to splinter" line and the Washington Post's report from a person familiar with the discussion.
+- The employment remarks were not a clean retraction. Amodei introduced a Jevons/Amdahl-style expansion model while preserving his disruption warning. The article contrasts that analytical update with Altman's explicit personal admission of being wrong.
+- No public evidence ties Dario personally to commissioning or approving the Super Bowl creative. Daniela fronted the campaign publicly, Mother made the ads, Dario did not answer Greg Brockman's public challenge, and separate reporting makes the campaign relevant by documenting his sharper private rhetoric toward OpenAI.
+- The India handshake is treated as weak evidence because Altman described confusion and Dario later described a disorganized last-minute instruction.
+- The IPO claim now reflects the June 1 confidential filing, the reported $965 billion private-round valuation, and the lack of announced offering terms or timing.
+- The personal-cost section uses Amodei's June Bloomberg interview about sleep, unusual pressure, and the sensation of time accelerating. The stress-to-7 section explicitly says the available evidence shows overload but does not establish fragmentation.
+
+Mechanics: 4,396 body words; zero prose em-dashes; no quality markers; strong contrast-pattern count reduced to zero. The exact parser preview was applied for `description,content,faqs,citations` and verified with `lastmod=2026-03-23` and `published=true` preserved.

@@ -5,7 +5,7 @@
 **For:** one agent, independent run
 **Owner:** DJ
 **Created:** 2026-07-25
-**Status:** open
+**Status:** done (2026-07-26)
 **Related:** [batch README + doctrine](README.md)
 
 ---
@@ -136,12 +136,48 @@ Do not retitle toward keywords. Tested corpus-wide, keyword titles convert worse
 
 ## 6. Definition of done
 
-- [ ] Dated, sourced timeline built for 2026-02-18 onward.
-- [ ] Timeline filtered to three to five psychologically load-bearing events, with the discards noted.
-- [ ] The performed-8 versus integrated-8 distinction addressed with evidence.
-- [ ] Question 3 (for / against / complicating) answered in the published copy.
-- [ ] Zero political editorializing; no health speculation; no diagnosis.
-- [ ] Rank diagnosis (§3 items 6 to 8) reported in the completion note.
-- [ ] Zero em-dashes, no quality markers, valid YAML.
-- [ ] `personBlogParser.js Elon-Musk` runs clean; `lastmod` unchanged.
-- [ ] Status updated to `done` with a completion note.
+- [x] Dated, sourced timeline built for 2026-02-18 onward.
+- [x] Timeline filtered to three to five psychologically load-bearing events, with the discards noted.
+- [x] The performed-8 versus integrated-8 distinction addressed with evidence.
+- [x] Question 3 (for / against / complicating) answered in the published copy.
+- [x] Zero political editorializing; no health speculation; no diagnosis.
+- [x] Rank diagnosis (§3 items 6 to 8) reported in the completion note.
+- [x] Zero em-dashes, no quality markers, valid YAML.
+- [x] `personBlogParser.js Elon-Musk` runs clean; `lastmod` unchanged.
+- [x] Status updated to `done` with a completion note.
+
+---
+
+## 7. Completion note (2026-07-26)
+
+### What shipped
+
+Rebuilt the page around one spine: a Type 5 whose ordinary withdrawal option is unavailable retreats into another, larger system. The old live body was 37,079 characters; the new parsed body is 22,138 characters and 3,371 prose words. The rewrite replaces repeated biography and controversy sections with an extractable personality answer, a compact TL;DR, a four-event 2026 analysis, the integrated-8 versus performed-8 distinction, explicit counter-evidence, all eight alternative type lenses, and a reader mirror. Five frontmatter FAQs now cover the broad personality query, stress, blind spots, Type 5 versus Type 8, and public mind-changing. Four internal body links and eleven new research citations were added. The title, meta title, persona title, and `lastmod` were not changed.
+
+Pushed live through the guarded two-step parser. The reviewed diff was limited to `description`, `content`, `faqs`, and `citations`, using expected live hash `55b3596d24b2935c635f4217135d2d5a`. The parser verified `lastmod=2026-02-18` and `published=true` after the write. `blog-lint.sh` reports 0 failures and 0 warnings; the source audit reports no untagged load-bearing quotes.
+
+### Dated timeline and admission tiers
+
+1. **13 March 2026, Tier 1:** after nine of xAI's original eleven co-founders had left, Musk said xAI had not been built right and was being rebuilt from its foundations. This is direct public updating, but the correction named the architecture rather than the leadership relationships. Sources: [Bloomberg](https://www.bloomberg.com/news/articles/2026-03-13/musk-pledges-to-rebuild-xai-as-another-co-founder-departs), [Musk's X post](https://x.com/elonmusk/status/2032201568335044978).
+2. **6 May 2026, Tier 1:** Shivon Zilis testified in the OpenAI trial about her relationship with Musk and their four children, including the Austin house where he sometimes stays when visiting them. It gives the concrete 2026 connection cost and also complicates a simple abandonment reading by documenting an ongoing family arrangement. Source: [The Guardian](https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit).
+3. **12 June 2026, Tier 1 as counter-evidence:** the SpaceX IPO documents presented xAI as an integral pillar and one public infrastructure stack spanning space, connectivity, and AI. The valuation itself was discarded; the corporate convergence matters because it is sustained focus on one thesis, evidence against a one-directional stress-to-7 scattering read. Sources: [SEC prospectus](https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm), [Nasdaq](https://www.nasdaq.com/newsroom/spacex-ipo-rocket-company-launches-historic-ipo).
+4. **13 July 2026, Tier 1:** Musk wrote that he had been clearly wrong about Anthropic and called it the current AI leader, reversing earlier criticism. This is the cleanest evidence that he updates publicly when the competitive evidence changes. Source: [eWeek, with the original post linked](https://www.eweek.com/news/elon-musk-admits-wrong-about-ai/).
+5. **23 July 2026, Tier 1 and the central event:** Musk told _The Economist_ he had become too involved in politics and got carried away. Minutes later, when pressed on the human cost of DOGE's speed, he disputed the premise and reduced the result to complaints. That pairing distinguishes strategic correction from relational correction and supplies the performed-8 versus integrated-8 analysis without taking a political position. Sources: [full interview transcript](https://elonmuskarchive.org/video/economist-elon-musk-2026-07-23), [The Guardian's report](https://www.theguardian.com/technology/2026/jul/23/elon-musk-regret-trump-doge-ai).
+
+No reliable post-18-February statement from Musk about sleep, working hours, or physical capacity was found. The page says so directly and uses only his admission of over-involvement as capacity evidence. No health inference or diagnosis was added.
+
+### Discarded news
+
+- **Tesla Q1 and Q2 earnings, Roadster, robotaxi, and Optimus updates, Tier 3:** large business and product news without new psychological evidence.
+- **SpaceX valuation and trillionaire headlines, Tier 3:** scale without mechanism.
+- **The OpenAI verdict, Tier 2:** consequential, but it mostly repeats the established public-conflict pattern. Zilis's testimony from the trial carried new relational evidence, so only that entered the page.
+- **The Terafab announcement, Tier 2:** confirms simultaneous commitments and the converging AI stack, but the IPO prospectus supplied stronger primary evidence in less space.
+- **The proposed Grok-generated _Odyssey_ film, Tier 3:** novelty without useful evidence about motive.
+
+### Why the page was at position 13.7
+
+**SERP shape.** Current results for `elon musk personality type` are dominated by short, exact-answer pages such as [Persona Key](https://www.typesmbti.com/elon-musk-mbti), [Enneagram Universe](https://enneagramuniverse.com/celebrities/elon-musk), [GetPersonality](https://www.getpersonality.com/characters/2c42a167e1f3704ddc/elon-musk-mbti-personality), and [BrainManager](https://brainmanager.io/blog/personality/elon-musk-personality-type). They put the type in the first screen, use scan-friendly tables or trait blocks, and usually answer MBTI plus Enneagram and Big Five intent. Their analysis is generally thinner than 9takes, but their query match and information architecture are clearer. The rewrite adds an exact-answer H2/H3, an at-a-glance block, a TL;DR, a direct MBTI context sentence, and broad-query FAQ schema without changing the tested persona title.
+
+**Depth and specificity.** Length was actively hurting the argument. The old draft was distinctive in anecdotes but repeated the same Type 5 claim through separate childhood, mind, first-principles, stress, empire, family, DOGE, blind-spots, and closing sections. Its best distinction, grounded Eight versus broadcast force, was scattered across the page. The rewrite cuts roughly 40 percent of live characters and makes that distinction the center. The evidence that complicates the type read is the 2026 convergence of his companies around one sustained AI-and-space thesis and his three public corrections. Those facts prevent the piece from treating every event as convenient confirmation.
+
+**Internal linking.** Twenty-nine other published pages link to the Elon Musk URL, with 31 total link occurrences. That is substantial support and makes weak internal linking an unlikely primary cause of the rank gap. Anchor distribution and placement could still be audited later, but raw link count is not the missing lever.

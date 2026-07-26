@@ -5,7 +5,7 @@
 **For:** one agent, independent run
 **Owner:** DJ
 **Created:** 2026-07-25
-**Status:** open
+**Status:** done (2026-07-26)
 **Related:** [batch README + doctrine](README.md)
 
 ---
@@ -138,11 +138,49 @@ Zero em-dashes. No quality-comment markers. Valid YAML in FAQ frontmatter.
 
 ## 6. Definition of done
 
-- [ ] The shame-to-comedy mechanism is named explicitly and developed, not implied.
-- [ ] Stress-to-9 evidence searched for and reported either way.
-- [ ] Integration-to-6 counter-evidence searched for and reported either way.
-- [ ] Question 3 (for / against / complicating) answered in the published copy.
-- [ ] Page structure and title unchanged; additions only.
-- [ ] Zero em-dashes, no quality markers, valid YAML.
-- [ ] `personBlogParser.js Sabrina-Carpenter` runs clean; `lastmod` unchanged.
-- [ ] Status updated to `done` with a completion note.
+- [x] The shame-to-comedy mechanism is named explicitly and developed, not implied.
+- [x] Stress-to-9 evidence searched for and reported either way.
+- [x] Integration-to-6 counter-evidence searched for and reported either way.
+- [x] Question 3 (for / against / complicating) answered in the published copy.
+- [x] Page structure and title unchanged; additions only.
+- [x] Zero em-dashes, no quality markers, valid YAML.
+- [x] `personBlogParser.js Sabrina-Carpenter` runs clean; `lastmod` unchanged.
+- [x] Status updated to `done` with a completion note.
+
+---
+
+## 7. Completion note (2026-07-26)
+
+### What shipped
+
+Pushed live through the guarded two-step parser. The reviewed first diff was limited to `content`, `faqs`, and `citations`, using expected live hash `17b281abbda938dca16d350231b1d65b`. A sentence-level cleanup then touched only `content`, using expected hash `316e15e8417cbc8df2b7148c9f059e5b`. The parser verified `lastmod=2026-05-19` and `published=true`; the final read-only dry run reports no parser-managed field changes.
+
+The refresh preserves the title, meta title, persona title, heading order, and section structure. It deepens the existing comedy-as-control thesis inside the existing sections:
+
+- Names heart-center shame explicitly and traces the mechanism from exposed desire or rejection to a joke she controls.
+- Uses Carpenter's April 2026 description of an onstage "button" and her effort to keep the performer, ordinary self, and businesswoman separate. This makes the album-seven persona a job boundary she must maintain, not a generic authenticity debate.
+- Puts the Guardian's creative-arrival reading of _Man's Best Friend_ against Pitchfork's self-parody warning, then answers the tasker's add-or-subtract question: the album adds as craft and subtracts as range.
+- Tests the Type 3 thesis against the Madonna performance. Direct footage shows Carpenter step aside with clasped hands and yield the visual center. That is validation an Achiever would recognize, plus observable counter-evidence against a simple outshine-and-control reading.
+- Adds the concrete cost from her post-Coachella self-report: the set succeeded, but her memory returned as a jump cut from stage to car. The defended inner line, the Type 4, Type 1, and Type 7 readings, and the load-bearing-humor reader mirror all land in the existing closing run.
+- Adds a third FAQ about what her humor reveals and expands the citation ledger with seven sources used in the refresh.
+
+The prior Muppets paragraph called authenticity the Type 3 connecting line. That was corrected: the movement toward Type 6 is loyalty, trust, and shared commitment. The Muppets material remains counter-evidence to pure career calculus, while the cleaner arrow evidence now comes from her long-running creative team, her sister Sarah as the consistent through-line, and Carpenter's stated willingness to trust collaborators enough to relinquish control.
+
+### Research assignments, item by item
+
+1. **Coachella footage and aftermath: found and used.** The [performance footage](https://www.independent.co.uk/tv/culture/sabrina-carpenter-madonna-coachella-video-b2960261.html) supplied the body-language observation. Carpenter's [Vogue Met Gala interview](https://www.vogue.com/video/watch/met-gala-met-gala-red-carpet-cutdown-8) supplied her post-show memory and risk framing.
+2. **A 2026 persona-versus-self interview: found and used.** The [Perfect interview with Marc Jacobs](https://www.theperfectmagazine.com/features/sabrina-carpenter-interviewed-by-marc-jacobs) is the load-bearing source for the onstage button, compartmentalization, creative control, seven-month Coachella build, sister relationship, trust, and relinquishing control.
+3. **Critical reception: found and used.** [The Guardian](https://www.theguardian.com/music/2025/aug/29/sabrina-carpenter-mans-best-friend-review) argues creative arrival; [Pitchfork](https://pitchfork.com/reviews/albums/sabrina-carpenter-mans-best-friend/) hears a persona at its apex and nearing self-parody. Carpenter gave no sourced response to that exact framing in the material reviewed.
+4. **Touring status: no active leg verified, omitted.** Carpenter's [official tour page](https://www.sabrinacarpenter.com/tour/) exposed no active tour dates on 26 July 2026. Aggregator claims were not used.
+5. **Declining an opportunity or choosing one with no career upside: no clean evidence found.** The Muppets project does not establish a declined opportunity and was not presented as the 6 arrow. Loyalty and trust supplied the stronger integration evidence.
+6. **A 2026 revision of the Disney origin story: no material revision found.** The current interview focuses on creative control and the boundary between stage and private life. The existing Disney history was left in place rather than forcing a finding.
+
+Two tasker news claims were omitted after verification. The official "House Tour" page dates its video to 6 April 2026, while the tasker gives 17 April for the fourth-single release; the discrepancy was not psychologically load-bearing. No current Short n' Sweet touring leg was verified from the official source.
+
+### Arrow verdict and mechanics
+
+**Stress to 9:** no clean evidence found. The seven-month build, custom looks, collaboration, improvisation, and present performance behavior conflict with a checked-out reading. Her "blacked out" comment records overwhelm, which is distinct from disengagement.
+
+**Integration to 6:** supported by repeated behavior and her own description of trust. Sarah Carpenter's ongoing creative role, the stable collaborator circle, and Carpenter's pleasure in relinquishing control complicate the solitary achievement-machine read without pretending to prove a type.
+
+Zero prose em dashes and zero quality-comment markers remain. Frontmatter parses, all three FAQs are FAQPage-eligible, `git diff --check` is clean, and the source audit reports no untagged load-bearing quote. `blog-lint.sh` still reports the older page's creator-v2 structural debt: missing `production_pretext`, extractable-answer and rabbit-hole scaffolding, four ledgers, the deliberately preserved non-keyword meta title, contrast-pair debt, and a body that was already above the generic 4,500-word ceiling before this conservative additions-only task. Those items require the restructure §4 forbids, so they were documented rather than folded into a ranking-sensitive news refresh.

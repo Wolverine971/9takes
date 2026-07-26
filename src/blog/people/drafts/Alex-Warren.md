@@ -149,7 +149,7 @@ Ending swap-test: pass — the closing image belongs only to a man chasing the a
 
 Instead he was scrolling past every one of those numbers to find the comment that called him a fraud, because that was the comment he believed.
 
-Here is the man who wrote "You'll Be Alright, Kid." Who tells stadiums, night after night, that whatever they are going through will pass. Who married his high school girlfriend and thanks God from the stage. And who, in a quiet room with a microphone, describes himself as "the most insecure" person you will ever meet.
+Here is the man who wrote _You'll Be Alright, Kid_. Who tells stadiums, night after night, that whatever they are going through will pass. Who married his high school girlfriend and thanks God from the stage. And who, sitting with Jay Shetty on _On Purpose_ in December 2025, said this about himself: "Dude, I am the most insecure mother you ever meet, which most of us are."
 
 Something in that does not add up. A man that reassuring should be able to reassure himself.
 
@@ -172,7 +172,7 @@ Something in that does not add up. A man that reassuring should be able to reass
 
 [Type 3](/enneagram-corner/enneagram-type-3) is the Achiever, the type organized around a single terror: that without the win, the applause, the proof, there is nothing underneath worth loving. Threes learn early that they are valued for what they produce, not who they are, so they become experts at producing. The tragedy is built in. No amount of proof reaches the part of them that first decided it wasn't enough.
 
-Warren describes the engine himself, almost clinically. "I have the worst imposter syndrome. I care about what everyone thinks about me." And then the line that gives the whole thing away: "I've worked so hard and I just want people to think I'm good enough, because I think that'll convince me I'm good enough."
+Warren describes the engine himself, almost clinically. "There's some deep thing in me that I have really bad imposter syndrome," he told _Rolling Stone_ in July 2025, and then, on what it costs him: "I care a lot about what people think of me, which sucks because you don't want to." On _On Purpose with Jay Shetty_ in December 2025 he gave away the rest of it: "I've worked so hard and I just want people to think I'm good enough, because I think that'll convince me I'm good enough."
 
 Read that twice. He collects approval the way a defendant collects evidence, hoping enough of it will finally settle a verdict he handed down on himself as a child. That is the Achiever's exact predicament: outsourcing self-worth to the scoreboard, then discovering the scoreboard can't pay the debt.
 
@@ -279,7 +279,7 @@ The night before he died, Alex did what kids do. He asked for things. "Dad, will
 
 There was no tomorrow, and a nine-year-old did not get to know that the joke was the goodbye. He carries the name his father gave him, "Wildchild," tattooed on his body and printed on the cover of his 2026 album. He says he stays moral because "I truly believe that my dad is watching." He credits the gut feeling that pulled him toward music to God. Every one of those is a way of keeping a witness in the room, an audience of the two people whose approval he can never actually collect.
 
-That is the thing about "chasing the approval of my dead parents," a phrase he has used about himself without flinching. The scoreboard can hit ten weeks at No. 1 and thirteen at the top of the UK charts and five trophies in a single night, and none of it reaches the seat he is really performing for, because that seat is empty.
+That is the thing about "chasing the approval of my dead parents," the phrase he used about himself, without flinching, in _Variance Magazine_ in February 2023. The scoreboard can hit ten weeks at No. 1 and thirteen at the top of the UK charts and five trophies in a single night, and none of it reaches the seat he is really performing for, because that seat is empty.
 
 He will keep singing "you'll be alright, kid" to everyone who will listen. He is still waiting to hear it back.
 

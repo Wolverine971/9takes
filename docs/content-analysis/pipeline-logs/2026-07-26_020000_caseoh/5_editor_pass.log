@@ -1,0 +1,12 @@
+Editor pass on `src/blog/people/drafts/caseoh.md` is done. This draft arrived unusually clean — it had already been through fresh-eyes and second-pass earlier today, so the lint was passing before I touched it. The polish problems left were ones the scripts can't see.
+
+**What I cleaned up:**
+
+- **The one real tell was a repeated rhetorical device, not a phrase.** The piece directed the reader with imperative openers about ten times ("Now put the one exception next to it," "Ask what the screaming costs him," "And notice where the anger goes," "Look closer at which games," "Hold that against his peers"). Individually each worked; in sequence the trick became visible. I rewrote five as declaratives and kept the four best ("Listen to how he talks...", "Say the cynical version first...", "Now put the two scenes together...", "Hold both moments in one frame..."), so the device now reads as voice instead of pattern.
+- **Cut a double-triplet restatement** in the phone-call section: "his mom relaunched / his chat authorized / his dad executed" was immediately restated as "His mother pushed, his chat counted, his father dialed." The second triplet is gone; the "talent, and the willingness to be moved" payoff stays.
+- **Fixed a stat inconsistency:** the piece cites StreamsCharts' 60.6 million watch-hours, then later said "Fifty million watch-hours a year." Now "Sixty million."
+- Small de-dupes ("exactly," "entire" repeats varied). I deliberately left the "The volume is not a personality. It is a payload..." construction — it looks like the negative-parallelism tell but is actually a callback answering LosPollosTV's "Not his personality" accusation, and the empathy turn depends on it.
+
+**Exit checks:** `blog-lint.sh` with contrast target 0 passes — 0 fails, **0 strong contrast pairs**, no prose em-dashes, no banned AI phrases. The 2 remaining flags are comparative contrasts documented in the fingerprint ledger as legitimate cross-claim comparisons, not the banned engine. Word count 4,143 against the 4,500 ceiling (pre-existing headroom warning).
+
+**Verdict:** production-ready from an editorial-polish standpoint. The strongest material (the "chill" litany, the phone-call spine, "Maybe when I was younger") survived untouched. The one open item carried over from second-pass notes: quote wording is smoothed from auto-captions and should be spot-verified against video timestamps before publish.

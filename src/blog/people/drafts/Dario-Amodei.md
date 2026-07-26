@@ -69,6 +69,14 @@ citations:
   - 'https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01/'
   - 'https://www.commbank.com.au/articles/newsroom/2026/05/sam-altman-close-ai-gap.html'
   - 'https://www.anthropic.com/news/responsible-scaling-policy-v3'
+  - 'https://www.anthropic.com/news/activating-asl3-protections'
+  - 'https://www.dwarkesh.com/p/dario-amodei-2'
+  - 'https://abcnews.com/GMA/Culture/anthropic-president-talks-debut-super-bowl-ad-future/story?id=129843379'
+  - 'https://clios.com/press-article/mother-wins-super-clio-for-creative-excellence-in-super-bowl-lx-advertising/'
+  - 'https://apnews.com/article/altman-amodei-india-ai-summit-photo-9067be4a101fcc710b09e297f4879c01'
+  - 'https://m.thewire.in/article/government/narendra-modi-suddenly-telling-everyone-to-hold-hands-what-dario-amodei-said-on-indias-ai-summit/amp'
+  - 'https://www.cbsnews.com/news/anthropic-ceo-dario-amodei-full-transcript/'
+  - 'https://www.anthropic.com/news/statement-department-of-war'
 faqs:
   - question: "What is Dario Amodei's personality type?"
     answer: 'Dario Amodei reads as an Enneagram Type 5, the Investigator. His measured public communication, emphasis on interpretability and scaling research, and willingness to walk 14 colleagues out of OpenAI to start Anthropic fit the Type 5 pattern of pursuing understanding and intellectual independence.'
@@ -86,7 +94,7 @@ path: src/blog/people/drafts/Dario-Amodei.md
 
 <p class="firstLetter">At 5:21 p.m. on June 12, 2026, the US government sent Anthropic an export-control directive. It barred every foreign national, including Anthropic's own employees, from accessing the company's new Fable 5 and Mythos 5 models. The practical result was that Dario Amodei had to switch both models off for everyone.</p>
 
-Five days later, he walked into a working lunch with G7 leaders in Évian-les-Bains and asked democratic governments to coordinate. He urged them to ["resist the temptation to splinter"](https://news.bloomberglaw.com/artificial-intelligence/amodei-tells-g7-to-resist-temptation-to-splinter-on-ai-ft) and argued that the benefits of advanced AI should be shared among democratic countries.
+Five days later, according to reports from a closed-door working lunch with G7 leaders in Évian-les-Bains, he asked democratic governments to coordinate. He urged them to ["resist the temptation to splinter"](https://news.bloomberglaw.com/artificial-intelligence/amodei-tells-g7-to-resist-temptation-to-splinter-on-ai-ft) and argued that the benefits of advanced AI should be shared among democratic countries.
 
 That sequence is the clearest Type 5 moment in his public life. The Investigator's strategy is to withdraw, understand, preserve energy, and need as little as possible from people who can make demands. Amodei encountered the fear underneath that strategy in literal form: an outside power took away access to the thing he had built. His response was to enter one of the most politically exposed rooms in the world and ask for help.
 
@@ -112,7 +120,7 @@ Dario grew up in the Mission District before San Francisco gentrified into a tec
 
 "They gave me a sense of right and wrong and what was important in the world," Dario has said. "Imbuing a strong sense of responsibility is maybe the thing that I remember most."
 
-He was drawn to math early. Not the way some children gravitate toward puzzles for entertainment, but the way a certain kind of mind reaches for the one thing in the world that can't argue back.
+He was drawn to math early, with the intensity of a mind reaching for the one thing in the world that can't argue back.
 
 "I was interested in being a scientist. I was interested in physics and math," he said in a 2025 interview. "The idea of writing some website actually had no interest to me whatsoever."
 
@@ -156,7 +164,7 @@ But Berry added something else: "I think internally, he was kind of a proud pers
 
 Not a criticism. An observation about fit. Dario's instinct was to build with teams, to synthesize across fields, to move fast on problems that mattered. Academia rewarded the opposite: individual papers, narrow specializations, years of incremental contribution to questions no one outside the department would ever ask about.
 
-The pride Berry noticed wasn't vanity. It was a systems thinker chafing against a system built for specialists.
+The pride Berry noticed reads as a systems thinker chafing against a system built for specialists.
 
 After Princeton, he moved through the emerging deep learning world: Baidu's AI research lab with Andrew Ng in 2014, then OpenAI as VP of Research. Each step brought him closer to the tool that could do what biology alone couldn't: compress decades of scientific progress into years.
 
@@ -180,7 +188,7 @@ He gravitated toward math because "it had a sense of objectivity." The observabl
 
 His biweekly "Dario Vision Quest" meetings involve standing before the company with a three-to-four-page written document and speaking for an hour. He also drives strategy through extensive, essay-style internal messages. Writing lets him finish the thought before the room begins making demands on it.
 
-He never wanted to found a company or work in tech. He wanted to discover "fundamental scientific truth." The CEO role is a means, not an end: the minimum organizational structure required to do the thing he actually cares about.
+He never wanted to found a company or work in tech. He wanted to discover "fundamental scientific truth." The CEO role became the minimum organizational structure required to do the thing he actually cares about.
 
 The strongest evidence against a withdrawn-Five caricature is the institution itself. Dario turned private understanding into a company, and other researchers trusted his map enough to leave OpenAI with him. The G7 appearance goes further: he did not only publish a framework and wait for others to adopt it. He entered the room where adoption could be negotiated.
 
@@ -229,9 +237,9 @@ The response was tepid.
 
 In December 2020, he left. Over the following months, fourteen researchers followed, including his sister Daniela, who had been vice president of safety and policy, and several of OpenAI's strongest technical minds.
 
-They founded Anthropic in early 2021 with $124 million. The name comes from "anthropic principle," the observation that the universe's fundamental constants appear fine-tuned for human existence. It was a statement of intent: build AI that was fine-tuned for human benefit, not just human use.
+They founded Anthropic in early 2021 with $124 million. The name comes from "anthropic principle," the observation that the universe's fundamental constants appear fine-tuned for human existence. It was a statement of intent: build AI whose tuning served human benefit as well as human use.
 
-Daniela has described the dynamic simply: "It's genuinely a privilege to run Anthropic with my sibling. We've known each other our whole lives — or my whole life, at least. He had four years without me, poor guy."
+Daniela has called running Anthropic with her sibling "genuinely a privilege" and joked, "He had four years without me, poor guy."
 
 On working with Daniela, Dario has been characteristically direct: "Total and complete trust."
 
@@ -245,33 +253,29 @@ She is married to Holden Karnofsky, the former head of Open Philanthropy who now
 
 ## The Constitution
 
-Anthropic's valuation rests on Claude — a family of AI models positioned as both the safest and most capable in the industry. But what separates Anthropic from OpenAI or Google DeepMind isn't the chatbot. It's the training.
+Anthropic developed **Constitutional AI** by writing a set of principles and training models to critique and revise their own responses against them. The company also built a **Responsible Scaling Policy** with safety levels modeled on laboratory biosafety tiers. Anthropic [activated ASL-3 protections in May 2025](https://www.anthropic.com/news/activating-asl3-protections) and [revised the policy again in 2026](https://www.anthropic.com/news/responsible-scaling-policy-v3).
 
-Anthropic developed **Constitutional AI**: instead of relying entirely on human reviewers to rate outputs, they wrote a set of principles (drawing from the UN Declaration of Human Rights and other sources) and trained the model to critique and revise its own responses against them. The AI learns to evaluate itself. It's a characteristically Dario solution: systematize the ethics so they scale with the technology rather than depending on an ever-growing army of human judgment calls.
-
-They also built the **Responsible Scaling Policy**, which defines AI Safety Levels modeled after biosafety levels in laboratories. Current Claude sits at ASL-2 — early signs of dangerous capabilities, but not yet reliably weaponizable. The critical feature: the policy requires pausing development if safety measures can't keep pace with capability gains. No other major lab has a comparable brake.
+The policy design exposes the pattern. Dario takes an ethical problem that usually depends on case-by-case human judgment and turns it into a written system that can scale. The boundary becomes inspectable. Disagreement can happen against a document instead of inside an unstructured relationship.
 
 ---
 
-## Zero Time for Bullshit
+## What the Job Costs
 
-Running a $380 billion company might seem natural for a tech CEO. For a theoretical physicist who trusted math because it couldn't argue back, organizational leadership is the hardest possible domain. Everything he valued about numbers, their objectivity, their stillness, is absent from the work of managing people.
+On June 1, 2026, Anthropic [confidentially filed for a US initial public offering](https://www.reuters.com/business/ai-giant-anthropic-confidentially-files-us-ipo-2026-06-01/). The filing followed a private funding round that valued the company at $965 billion. No public offering price or date had been set.
+
+The irony is structural. To protect the independence of his technical map, Dario built a company that now depends on investors, cloud providers, customers, regulators, and foreign governments. The larger his instrument for self-sufficiency becomes, the more people can place demands on it.
 
 "I probably spend a third, maybe 40%, of my time making sure the culture of Anthropic is good," he has said. Spending 40% of his energy on the squishiest, most subjective thing in any organization is a deliberate choice. He does it because he's studied the terrain and concluded it matters more than anything else.
 
-The "Dario Vision Quest," a name he initially resisted because of its "psychedelic connotation" but eventually kept, is where this shows up most clearly. Every two weeks, the entire company gathers. Dario stands up with his pages and talks.
+His "Dario Vision Quest" sessions are the clearest mechanism. Every two weeks, he addresses the company from a three-to-four-page document. In a [February 2026 interview with Dwarkesh Patel](https://www.dwarkesh.com/p/dario-amodei-2), he said writing and speaking to the whole company had become the way to keep 2,500 people oriented around one mission. The toolmaker still protects time to make his own meaning legible.
 
-"The point is to get a reputation of telling the company the truth about what's happening, to call things what they are," he has said. "To acknowledge problems, to avoid the sort of 'corpo speak,' the kind of defensive communication."
+In a [June 2026 interview with Bloomberg](https://www.youtube.com/watch?v=x2VHFgyawPE), Emily Chang opened by asking how much he was sleeping. He said he was learning to relax and sleep through "moments of unusual pressure." Then he reached for physics. The job felt like accelerating away from Earth at relativistic speed: sleep once and two days pass outside, then three, then four. Each morning brings more elapsed world than one person had time to live.
 
-"If you have a company of people who you trust — and we try to hire people that we trust — then you can really just be entirely unfiltered."
-
-He also admitted something most CEOs would never say out loud: "Perhaps I have too much pride in my own writing." This was about using Claude, his own company's AI, to help draft communication. The man who built one of the most capable writing tools on the planet would still rather trust his own sentences.
-
-"There is zero time for bullshit," he told Dwarkesh Patel in February 2026, the day after closing a $30 billion funding round. "There is zero time for feeling like we're productive when we're not."
+That is the personal cost in his own idiom. It also clarifies the stress arrow. His calendar looks scattered, but the evidence does not show a man chasing stimulation or abandoning the central problem. It shows a man trying to process an expanding number of consequences through the same narrow channel: his own finished understanding.
 
 ---
 
-## The Bomb and the Manual
+## The Forecast He Changed Without Retracting
 
 In October 2024, Dario published "Machines of Loving Grace," a 14,000-word essay on what the world looks like if AI goes right. Fifteen months later, he published "The Adolescence of Technology," equally long, describing how it all goes wrong.
 
@@ -288,17 +292,35 @@ In October 2024, Dario published "Machines of Loving Grace," a 14,000-word essay
 
 "One of my main reasons for focusing on risks," Dario wrote, "is that they're the only thing standing between us and what I see as a fundamentally positive future."
 
-He's not oscillating between optimism and pessimism. He holds both at once, with equal force, because he's mapped the territory and concluded that the utopia and the catastrophe sit _the same distance away from each other._ The margin is thin. A few years. A few decisions.
+The two essays hold optimism and fear inside one causal model. Progress is the desired outcome; unmanaged progress is the threat surface. His father's death makes delay morally expensive, while his risk work makes speed technically expensive.
 
-"I get really angry when someone's like, 'This guy's a doomer. He wants to slow things down,'" he said in a 2025 interview.
+Then the employment model changed. In May 2025, Amodei [warned Axios](https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic) that AI could wipe out half of entry-level white-collar jobs within one to five years and raise unemployment to 10% or 20%. At a financial-services briefing on May 5, 2026, he introduced a competing mechanism. If AI automates 90% of a job, he said, everyone could concentrate on the remaining 10%, which expands to become the new whole job and multiplies productivity.
 
-His entire life was shaped by the cost of slow progress. Calling him a doomer misreads the basic logic. He doesn't want to slow down. He wants to go so fast that the mapping has to happen at the same speed as the building.
+He immediately complicated that more optimistic account. "AI is moving faster than all these previous technologies," he said, so the strain could still produce "weird behaviors and this big disruption." ([Fortune, May 5, 2026](https://fortune.com/2026/05/05/dario-amodei-jevons-paradox-will-ai-wipe-out-white-collar-jobs/))
 
-"We're under an incredible amount of commercial pressure and make it even harder for ourselves because we have all this safety stuff we do that I think we do more than other companies," he told Fortune. "If Anthropic sits on the sidelines, we're just going to lose and stop existing as a company."
+Calling this a full retraction overstates the evidence. He did not declare the old forecast false. He added a second model in which demand expands around whatever labor remains, then preserved the warning about transition speed.
+
+The contrast with [Sam Altman](/personality-analysis/sam-altman) is exact. Speaking to Commonwealth Bank later that month, Altman said OpenAI had been ["roughly right" on technology and "pretty wrong" on social and economic effects](https://www.commbank.com.au/articles/newsroom/2026/05/sam-altman-close-ai-gap.html). He framed the change as a personal admission and said he was delighted to be wrong about near-term entry-level job losses. Amodei framed his change as a more complete system.
+
+That is evidence for the Type 5 read. Updating a framework costs him less than performing remorse because accuracy is the protected value. The omission is also complicating evidence: he never directly reconciled the new theory with the headline forecast that made him famous. He widened the map without marking which old border had moved.
 
 ---
 
-## The Red Lines
+## The Loudest Ad in America
+
+In February 2026, Anthropic aired two Super Bowl commercials as part of a four-ad campaign ridiculing chatbots that insert advertising into vulnerable conversations. The spots left OpenAI unnamed. The target was clear enough that Altman called them dishonest, and OpenAI president Greg Brockman challenged Dario directly on X. [Dario did not respond](https://apnews.com/article/openai-anthropic-chatgpt-claude-rivalry-c19e0cca22c37190cc4e0dc08e889ef0).
+
+There is no public evidence that Dario commissioned the campaign or approved its creative. [Daniela Amodei presented the campaign on ABC](https://abcnews.com/GMA/Culture/anthropic-president-talks-debut-super-bowl-ad-future/story?id=129843379), and [the agency Mother made the ads](https://clios.com/press-article/mother-wins-super-clio-for-creative-excellence-in-super-bowl-lx-advertising/). That makes the campaign weak evidence for a personal move toward Type 8.
+
+It is not irrelevant evidence. A Wall Street Journal report said Dario had been escalating his criticism of OpenAI in messages to colleagues and had compared rival labs to tobacco companies knowingly selling harm. The same report described Anthropic's internal brand strategy as the "healthy alternative." ([WSJ syndication, March 28, 2026](https://www.tovima.com/wsj/the-decadelong-feud-shaping-the-future-of-ai/)) The ads belong to an institution that has outgrown its founder's reticence, but their aggression was not alien to his private rhetoric.
+
+Ten days later, Dario and Altman failed to join hands during a staged unity photo at India's AI summit. The footage invited a perfect rivalry story. [Altman said he was confused](https://apnews.com/article/altman-amodei-india-ai-summit-photo-9067be4a101fcc710b09e297f4879c01), while [Dario later described a disorganized, last-minute instruction](https://m.thewire.in/article/government/narendra-modi-suddenly-telling-everyone-to-hold-hands-what-dario-amodei-said-on-indias-ai-summit/amp). Their explanations fit the observable chaos better than treating several awkward seconds as a personality test.
+
+The more useful contrast came at the G7 four months later. Anthropic attacked OpenAI in the loudest advertising slot in America; Altman still supported the case for international coordination when Anthropic's own models were blocked. Rivalry did not prevent cooperation when the subject moved from brand to institution.
+
+---
+
+## The Room He Used to Avoid
 
 In July 2025, Anthropic signed a $200 million contract with the Pentagon. The contract included two restrictions Dario insisted on: no fully autonomous weapons targeting, and no mass domestic surveillance of Americans.
 
@@ -316,24 +338,44 @@ On autonomous weapons: "It doesn't show the judgment that a human soldier would 
 
 Remember: this is the same person whose parents taught him "a sense of right and wrong and what was important in the world," and whose father's death proved that getting the science right _in time_ matters more than getting it right in theory.
 
-The fallout was swift. Lockheed Martin cut ties. OpenAI struck a Pentagon deal hours after Anthropic was blacklisted. Anthropic claims hundreds of millions in lost revenue, with billions at risk as private-sector customers scrambled to renegotiate contracts.
+The fallout was swift. Lockheed Martin cut ties. OpenAI struck a Pentagon deal hours after Anthropic was blacklisted. On March 9, 2026, Anthropic filed lawsuits in two federal courts. More than thirty employees from OpenAI and Google DeepMind filed an amicus brief, and Altman publicly disagreed with the government's designation.
 
-On March 9, 2026, Anthropic filed lawsuits in two federal courts, alleging the designation punishes them for being outspoken on AI policy. Over thirty employees from OpenAI and Google DeepMind, including Google chief scientist Jeff Dean, filed an amicus brief warning that the designation threatens the entire American AI industry. [Sam Altman](/personality-analysis/sam-altman) publicly disagreed with the government's decision.
+Then came a different loss of control. Anthropic released Fable 5 and Mythos 5 in June. On June 12, the US government issued an export-control directive barring access by every foreign national, inside or outside the United States, including Anthropic employees. Anthropic said the directive cited national-security authority but gave no specific details. The company's understanding was that the dispute concerned a narrow jailbreak that exposed software vulnerabilities. The rule made compliance at scale impossible, so Anthropic [disabled both models for every customer](https://www.anthropic.com/news/fable-mythos-access).
 
-The red lines held. The cost of holding them is still being calculated.
+The order made a Type 5's core fear concrete. A resource he had built and needed was removed by an authority he could neither out-research nor ignore. Five days later, he went to the G7.
 
-Outside of work, Dario is almost invisible. He is married, but his wife's name has never appeared in public reporting. No social media footprint. No weekend-profile features. The privacy is total and non-negotiable.
+The timing was forced. Nothing in the record shows that he wanted to become a public diplomat. His choice began after withdrawal stopped being available. According to reporting on the closed-door lunch, he did more than request a private exception for Anthropic. He argued that democratic countries should coordinate trade in advanced models and share their benefits. Altman called for an international safety forum, and Demis Hassabis proposed a standards body.
+
+The best reading is that Dario was cornered into the room and integrated once he was inside it. Type 8 energy appears in the willingness to occupy space and make a demand. Type 5 remains visible in the demand itself: build a durable technical framework so no single improvised relationship decides access next time.
+
+The follow-through distinguishes action from a one-day performance. Anthropic sent engineers to Washington and worked through the disputed safeguards with multiple agencies. Axios reported that Dario never stepped offstage even as policy chief Sarah Heck and co-founder Tom Brown took larger technical roles. The restrictions were lifted, and the models returned on July 1. ([Axios, July 3, 2026](https://www.axios.com/2026/07/03/anthropic-ai-models-revived-behind-the-scenes))
+
+This year adds to the original story instead of replacing it. Dario is still building the thing he fears and writing the manual for controlling it. The change is that the institution became too large, expensive, and politically important for self-sufficiency to mean solitude.
 
 ---
 
-## The Unresolved Frequency
+## What the Other Eight See
+
+A Type 8 sees the G7 appearance and thinks, _finally_. The map was ready long ago; the missing act was forcing the room to deal with it.
+
+A Type 9 sees the ad war, the Pentagon lawsuits, and the public criticism of rivals and asks why someone seeking cooperation keeps creating more enemies. Peace would start by lowering the temperature.
+
+A Type 6 sees the standards body as the most sensible response in the story. If access to consequential technology can change through one late-Friday letter, then trusted institutions, common rules, and an appeal process are not weakness. They are the safety system.
+
+Those readings clarify the cost of Dario's own strategy. He waits for technical understanding before relational exposure. By the time he asks for cooperation, the issue has often become a confrontation.
+
+---
+
+## When the Map Ends
 
 "I see this exponential," Dario has said. "When you're on an exponential, you can really get fooled by it. Two years away from when the exponential goes totally crazy, it looks like it's just starting."
 
-He sees the curve that most people miss because he's mapped it obsessively, in writing, across thousands of pages of internal memos and public essays and biweekly addresses to his entire company. He knows that being four years late on an exponential isn't a minor miscalculation. It's the difference between a father living and dying.
+He has spent his life trying to see the curve before other people do. The strategy bought him competence, autonomy, and a company capable of acting on his conclusions. It also created a familiar trap: every new consequence became another thing he had to understand before he could safely depend on anyone else.
 
-So he builds the thing he fears most. Not because he's reckless. Not because he's cautious. Because the only way to ensure the gap closes in time is to be the one closing it, while writing down everything that could go wrong if it closes too fast or in the wrong direction.
+The G7 appearance broke that loop for one afternoon. The map had reached its edge, and he asked other people to help determine what came next.
 
-His father died in the four-year gap between a disease being 50% fatal and 95% curable. Everything Dario Amodei has built since is an attempt to close that kind of gap forever. And everything he writes about risk is a reckoning with the possibility that he might create a bigger one.
+If you recognize yourself here, the mirror is smaller than artificial intelligence. It is the problem you would rather study alone for another six months than bring to one person who could help. More understanding feels like independence. Past a certain point, it becomes the reason you never test whether support was available.
+
+The Type 5 growth move is not to know less. It is to notice when knowledge has finished its part of the job, walk into the room, and make the careful request.
 
 > **Disclaimer:** This analysis is speculative, based on publicly available information, and explores Dario Amodei's personality through the lens of the Enneagram framework. Dario Amodei has not publicly identified as any Enneagram type.

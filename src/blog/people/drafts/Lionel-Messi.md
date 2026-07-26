@@ -62,8 +62,10 @@ citations:
   - 'https://www.theguardian.com/football/2026/jul/20/rodri-spain-world-cup-final-2026-argentina-pass-accuracy'
   - 'https://www.washingtonpost.com/sports/2026/07/19/spain-scoring-late-tops-argentina-1-0-win-2026-world-cup/'
   - 'https://www.washingtonpost.com/sports/soccer/2026/07/19/messi-world-cup-final/'
+  - 'https://apnews.com/article/fccc26aa12d9226e63d06b601b770617'
   - 'https://elpais.com/deportes/mundial-futbol/2026-06-17/messi-se-emociona-tras-el-record-goleador-con-argentina-pase-unos-dias-dificiles-consegui-todo-y-lo-que-venga-a-partir-de-ahora-es-un-bonus.html'
   - 'https://www.reuters.com/sports/soccer/messi-says-argentinas-defeat-by-spain-left-immense-pain-2026-07-20/'
+  - 'https://www.upi.com/Sports_News/Soccer/2026/07/20/latam-us-world-cup-lionel-messi-unsure-future/4021784556465/'
 faqs:
   - question: "What is Lionel Messi's personality type?"
     answer: "Lionel Messi is an Enneagram Type 9 (The Peacemaker). The pattern shows in the boy who hid behind a tree to avoid running drills, the youth teammates who called him 'El Mudo,' the mute one, the years of pre-match vomiting from internalized anxiety, his habit of texting coaches rather than confronting them, and the 2016 international retirement he reversed while admitting 'I was embarrassed to say I wanted to come back.'"
@@ -237,8 +239,6 @@ Nicolás Dominguez said Messi captured what the team and the country had endured
 
 The man they said couldn't lead had led. Not by becoming someone else. By becoming, for exactly four minutes in a dressing room, a slightly louder version of exactly who he already was.
 
-<!-- YouTube embed: search "Messi Copa America 2021 dressing room speech" for the Netflix documentary clip. Verify video ID before publishing. -->
-
 ## Leaving the Only Home He Knew
 
 On August 8, 2021, one month after lifting the Copa America, Messi sat at a press conference at Camp Nou and cried before he could say a single word.
@@ -301,13 +301,15 @@ In the summer of 2026, Messi turned thirty-nine during his sixth World Cup and c
 
 The score hides how completely Spain controlled Messi's access to the match. Luis de la Fuente said his first idea was to keep Messi at bay, but the plan was collective rather than a private man-marking job for Rodri. Spain crowded the middle and blocked the passing lanes into Argentina's captain. Messi had fifteen first-half touches and completed nine passes, none in the final third. When he received the ball, it was usually near halfway and far from goal. Rodri completed 95.3 percent of his passes, won four tackles, and dispossessed Messi in the 92nd minute as he approached the penalty area.
 
-That is the Type 9 fear made tactical: not simply losing, but being made not to matter. Stillness had always let Messi disappear from a defender's attention and return where the game was vulnerable. Spain reversed the mechanism. They made the supply disappear, surrounded the space where he normally reappeared, and left him visible but irrelevant to the action.
+That makes the Type 9 fear tactical: being made not to matter. Stillness had always let Messi disappear from a defender's attention and return where the game was vulnerable. Spain reversed the mechanism. They made the supply disappear, surrounded the space where he normally reappeared, and left him visible but irrelevant to the action.
 
 This is also where the Type 9 strategy showed its cost. The type lens does not turn a team failure into one man's temperament. It does reveal the risk inside Messi's lifelong method. Waiting is genius when it lets him see the corridor first. When every corridor is closed, waiting becomes absence. The peace bought by not fighting for every inch of space can cost the Nine the chance to claim any space at all.
 
 After the whistle, Messi dropped to the grass with his hands behind him and stared ahead as Spanish players came over to embrace him. He tried to smile while walking through Spain's guard of honor, then accepted the silver medal with a blank expression. When Argentina's supporters chanted his name, his eyes filled and he cried while looking into the stands. Those are observable actions. They do not prove peace, numbness, or acceptance. They show stillness giving way to grief.
 
-The next day, he supplied the interpretation himself: "The pain is immense, and it will take time for this wound to heal." Then he moved immediately to the group, the comebacks, the effort, the supporters, and the pride of reaching two straight finals. He congratulated Spain. He did not announce his international retirement.
+The next day, he wrote on Instagram: "The pain is immense, and it will take time for this wound to heal." Then he moved immediately to the group, the comebacks, the effort, the supporters, and the pride of reaching two straight finals. He congratulated Spain. He did not announce his international retirement. Scaloni said he had not spoken to Messi about his future and that the decision belonged to the player.
+
+For a gut type, the unanswered question is where the anger went. Messi directed none at Spain, his teammates, or himself in public. His tears and the word _wound_ show hurt, but they do not establish whether anger was absent or redirected into stillness. Calling the sequence grace would confuse composure with resolution.
 
 This both supports and complicates the Type 9 reading. Centering the collective and repairing the social field by honoring the winner are classic Nine moves. Naming his own wound so plainly is not self-erasure. It points more toward the Nine's integration to Type 3, where the person claims his own effort and stays present, than toward the stress move to Type 6, with its doubt and search for reassurance. The retirement question remains unresolved because Messi left it unresolved.
 
@@ -333,7 +335,7 @@ Kuper wrote that Messi is "not shy, he's not timid, he's quite assertive, but he
 
 Then there is the anger. In the January 2021 Spanish Super Cup final, Messi swung an arm at an Athletic Bilbao opponent and received the first red card of his Barcelona career. It shocked viewers because the public version of Messi had made the buildup invisible.
 
-Anger does not disappear in Nines. It [goes underground](/enneagram-corner/enneagram-types-in-stress). When it erupts, it startles everyone because the calm hid the accumulation, not the fire.
+Anger does not disappear in Nines. It [goes underground](/enneagram-corner/enneagram-types-in-stress). When it erupts, it startles everyone because the calm concealed an accumulating fire.
 
 ## The Simplest Life in Sports
 
@@ -351,65 +353,8 @@ Messi's stillness teaches two truths. The first is why it worked. Early in a mat
 
 Then the ball arrived. For three or four seconds, the quietest player became the most decisive force on the pitch.
 
-The second truth arrived in the 2026 final. Stillness is a strategy, not magic. Spain closed the routes he had spent a lifetime finding. Waiting became absence. A gift overused became its own cost.
+The second truth arrived in the 2026 final. Stillness is one strategy, and Spain exposed its limits. They closed the routes he had spent a lifetime finding. Waiting became absence. A gift overused became its own cost.
 
 A four-year-old whose grandmother fought to get him on the field became the man who won everything, lost the final ending, and still pointed two fingers toward her.
 
 If you recognize your own peacekeeping in Messi, ask where calm has become disappearance. Keeping the connection is not the same as leaving yourself out of it. Integration begins when you name the wound, claim your space, and remain connected anyway.
-
-<!-- FRESH EYES REVIEW (2026-04-10)
-Biggest issues:
-- The draft stops at the 2022 World Cup and his daily routine. There is NO mention of the PSG years (2021-2023), the move to Inter Miami, the 2025 MLS Cup win, back-to-back MLS MVPs, or the 2024 Copa America victory. For a piece dated April 2026, this is the single biggest gap. A reader coming to this article knows Messi is at Inter Miami — omitting that entire chapter feels like the profile is frozen in 2022. The Miami chapter is also rich Nine material: choosing a quieter league, reuniting with Mascherano as coach, building a family-centered life in Fort Lauderdale.
-- The 2016 Spanish tax fraud conviction is completely absent. It's one of the few genuine controversies in Messi's life and a reader who knows even basic Messi biography will notice the omission. It's also interesting Nine territory — his father handled his finances, Messi was largely passive about his own money, and the conviction was widely seen as reflecting that passivity rather than active wrongdoing.
-
-What to expand:
-- The Messi-vs-Maradona debate deserves more than a single dismissive Maradona quote. It's the central tension of Argentine football identity: the loud, chaotic genius vs. the quiet, surgical one. This is the most natural Enneagram contrast in the entire piece and it's barely touched.
-- Fatherhood. The draft names his three sons but doesn't explore how becoming a father changed him. Multiple sources describe Messi becoming more emotionally open after Thiago's birth (2012) — his celebrations changed, his public demeanor softened. For a Nine, parenthood as a channel for emotional expression is worth examining.
-- The PSG period (even briefly) matters because it was arguably the most uncomfortable chapter of his career — a club that didn't fit, fans who booed him, a city he never settled into. A Nine ripped from his merged environment and placed in one he couldn't merge with. The discomfort was visible.
-- The Presidential Medal of Freedom (2025) is a striking cultural milestone worth at least a sentence — the quiet kid from Rosario receiving America's highest civilian honor.
-
-What to trim:
-- The Ronaldo contrast appears twice (in "Ravenously Disconnected" and "Simplest Life" sections). Pick one location and make it sharper. The Instagram comparison in "Simplest Life" feels like the weaker instance.
-- The "walking" motif is used in the intro, the "Mute One" section, the "Body Kept Score" resolution, the World Cup section, and the closing. It's the article's signature idea and it works, but by the closing it's starting to feel like the fifth pass on the same note. Consider whether the closing needs to re-explain walking or can land on a different image.
-- The Enneagram explainer paragraph in "What is Lionel Messi's Personality Type?" ("Enneagram Nines are driven by a core desire...") reads like textbook material dropped into an otherwise literary piece. It's the one section where the framework crowds out the story. Can this be woven into the evidence instead of stated as exposition?
-
-Structural suggestions:
-- Consider adding a section (even a short one) between the World Cup and "Ravenously Disconnected" that covers Inter Miami and the late-career chapter. It doesn't need to be long, but the profile needs to feel current.
-- The piece has no "how each Enneagram type can learn from Messi" or "how to connect with a Nine" section — check whether the 9takes template expects one.
-- The "What Stillness Teaches" closing is beautiful but it could land harder if it incorporated the full arc (Rosario → Barcelona → PSG → Miami) rather than repeating the walking-scanning-erupting cycle one more time.
-
-What's already working:
-- The opening (hiding behind the tree) is one of the best openings in the drafts folder. It's specific, surprising, and perfectly sets up the Nine thesis. Do not touch it.
-- "Ravenously disconnected" as a borrowed phrase is excellent — it earns its section heading.
-- The Copa America dressing room speech section is the emotional high point and reads like the best sports writing. The Dominguez "rucksack" detail is a perfect closer for that section.
-- The Barcelona farewell section is genuinely moving. The line "Because the circumstances left him no choice and he couldn't fight them" is sharp Nine analysis.
-- The grandmother throughline (boots → death → two fingers) is well-structured and emotionally effective across the full piece.
-- Writing quality is consistently high — this reads like a magazine profile, not a personality blog post.
--->
-
-<!-- SECOND PASS NOTES (2026-04-10)
-Addressed:
-- Added PSG chapter ("The Environment That Didn't Fit") covering the booing, the failed merger, the two uncomfortable years
-- Added Inter Miami chapter ("The Quietest Victory Lap") covering the move, back-to-back MVPs, 2025 MLS Cup, Mascherano reunion
-- Added 2024 Copa America victory (second consecutive title)
-- Added Presidential Medal of Freedom (January 2025)
-- Added tax fraud conviction paragraph in "Reluctant King" section — framed as Nine passivity, not corruption
-- Added fatherhood paragraph in "Simplest Life" — Thiago transforming his emotional expression
-- Expanded Maradona contrast in "Ravenously Disconnected" — identity debate, not just one dismissive quote
-- Removed Enneagram textbook paragraph, wove Nine characteristics into evidence bullets
-- Removed duplicate Ronaldo contrast from "Simplest Life" (kept stronger version in "Ravenously Disconnected")
-- Reworked closing to arc through full life (Rosario → Barcelona → PSG → Miami) instead of repeating walking motif; lands on grandmother throughline
-
-Kept as-is:
-- Opening (hiding behind the tree) — untouched per fresh-eyes instruction
-- Copa America dressing room speech section — already the emotional high point
-- Barcelona farewell section — already strong
-- "Ravenously disconnected" section heading and Burgo quote
-
-Rejected:
-- "How each type can learn from Messi" section — fresh-eyes hedged this themselves ("check whether template expects one"). The piece works as a literary profile and adding a listicle section would break the tone.
-
-Still open:
-- YouTube embed placeholder for Copa America 2021 speech still needs a verified video ID before publishing
-- The piece is now ~4,500 words — could benefit from a final read-through for pacing with the new sections
--->

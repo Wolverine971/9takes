@@ -58,7 +58,7 @@ faqs:
     answer: 'Ted Lasso is the Type 9 ego-ideal made flesh, and Sudeikis built it on purpose: a man who "didn''t swear, be like teflon toward people''s negativity," which he called "a hundred percent intentional." The "be a goldfish" creed came straight from his high-school coach Donnie Campbell. He admitted the opposite of kindness can be just as powerful but said he would "much rather view the world as Ted Lasso," the choice of a Nine who sees the darkness and deliberately keeps his back to it.'
     anchor: 'why-jason-sudeikis-turned-kindness-into-a-system'
   - question: 'Did Jason Sudeikis really serve Olivia Wilde custody papers on stage?'
-    answer: 'At CinemaCon in April 2022, Wilde was handed child-custody papers from Sudeikis while presenting onstage. Through a representative he said he had no idea they would be served that way and "would never condone" it. The analysis reads the episode not as cruelty but as the failure mode of a conflict-avoider: a man whose whole personality is built to dodge direct confrontation handling a rupture through lawyers and process rather than a hard conversation.'
+    answer: 'At CinemaCon in April 2022, Wilde was handed child-custody papers from Sudeikis while presenting onstage. A representative told Entertainment Tonight that month that he had not known when the documents would be delivered and "would never condone her being served in such an inappropriate manner." The analysis reads the episode not as cruelty but as the failure mode of a conflict-avoider: a man whose whole personality is built to dodge direct confrontation handling a rupture through lawyers and process rather than a hard conversation.'
     anchor: 'how-jason-sudeikis-fights-when-he-can-t-be-a-goldfish'
   - question: 'Is Jason Sudeikis a Type 2 instead of a Type 9?'
     answer: 'Type 2, the Helper, is the strongest alternate case, since Ted heals everyone and the real Sudeikis emails grieving strangers. But a Two''s engine is being needed and indispensable, tracking the debt of giving. Sudeikis''s signature is different: self-erasure for the sake of harmony, conflict-avoidance, and disowned anger. He does not work to be needed; he works to keep the peace and stay merged with the group. The helping is the surface; the keeping-together is the core, which is why Nine fits better.'
@@ -136,9 +136,9 @@ Ending swap-test: pass — the goldfish/ten-second-memory callback belongs only 
 
 > "I was a straight man long before I knew what it was called. I was just the boring one." — Jason Sudeikis, Interview Magazine
 
-<p class="firstLetter">In April 2022, Olivia Wilde stood on a stage at CinemaCon in Las Vegas, presenting the trailer for her film <em>Don't Worry Darling</em>. A stranger walked up and handed her a manila envelope marked "Personal and Confidential." Inside were child-custody papers from Jason Sudeikis, the man American audiences had just spent two years voting the kindest person on television.</p>
+<p class="firstLetter">In April 2022, Olivia Wilde stood on a stage at CinemaCon in Las Vegas, presenting the trailer for her film <em>Don't Worry Darling</em>. A stranger walked up and handed her a manila envelope, marked "Personal and Confidential" according to _Variety_'s reporting that April. Inside were child-custody papers from Jason Sudeikis, the man American audiences had just spent two years voting the kindest person on television.</p>
 
-She kept talking. Backstage, she dissolved. Sudeikis, through a representative, said he had no idea the papers would be served that way and "would never condone" it.
+She kept talking. Backstage, she dissolved. A representative for Sudeikis told _Entertainment Tonight_ in April 2022 that he had not known when the documents would be delivered and "would never condone her being served in such an inappropriate manner."
 
 Both things are true. He really is the man who emails grieving strangers to comfort them. He is also the man whose lawyers chose that stage. The interesting question is not which one is the real him. It is how the same person produces both.
 
