@@ -67,6 +67,13 @@
 			color: meta.color
 		})
 	);
+	const DEFAULT_NOTIFICATION_PREFERENCES = {
+		reply_to_take: true,
+		take_on_your_question: true,
+		take_on_answered_question: true,
+		like_on_take: true,
+		email_digest: true
+	};
 
 	let { data }: { data: PageData } = $props();
 
@@ -100,13 +107,7 @@
 	// full invalidation round trip.
 	let feedItems = $state<NotificationRow[]>([]);
 	let unreadCount = $state(0);
-	let prefs = $state({
-		reply_to_take: true,
-		take_on_your_question: true,
-		take_on_answered_question: true,
-		like_on_take: true,
-		email_digest: true
-	});
+	let prefs = $state({ ...DEFAULT_NOTIFICATION_PREFERENCES });
 
 	let notificationsAvailable = $derived(data.notifications?.available ?? false);
 	let hasType = $derived(/^[1-9]$/.test(enneagram));
@@ -156,9 +157,12 @@
 	});
 
 	$effect(() => {
-		if (data.notificationPreferences) {
-			prefs = { ...prefs, ...data.notificationPreferences };
-		}
+		const notificationPreferences = data.notificationPreferences;
+		if (!notificationPreferences) return;
+
+		// Do not merge from `prefs` here. Reading and then replacing the same
+		// reactive object makes this effect subscribe to its own write and loop.
+		prefs = { ...DEFAULT_NOTIFICATION_PREFERENCES, ...notificationPreferences };
 	});
 
 	interface FeedGroup {
