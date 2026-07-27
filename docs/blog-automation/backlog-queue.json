@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-26T07:01:13Z",
+	"lastUpdated": "2026-07-27T07:10:07Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "plaqueboymax",
-			"displayName": "PlaqueBoyMax",
-			"type": null,
-			"priority": 77,
-			"priorityReason": "Twitch top-10 for 2026 and the fastest riser on the list, more than doubling his audience in 12 months. His In The Booth format puts rappers on camera, so he sits at the streamer/music intersection where two strong categories overlap.",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-25",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
-		},
 		{
 			"name": "ibai-llanos",
 			"displayName": "Ibai Llanos",
@@ -424,6 +411,26 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "plaqueboymax",
+			"displayName": "PlaqueBoyMax",
+			"type": null,
+			"priority": 77,
+			"priorityReason": "Twitch top-10 for 2026 and the fastest riser on the list, more than doubling his audience in 12 months. His In The Booth format puts rappers on camera, so he sits at the streamer/music intersection where two strong categories overlap.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-07-27T06:00:00Z",
+			"completedAt": "2026-07-27T07:10:07Z",
+			"contentGrade": "8.4",
+			"letter": "B",
+			"discoverability": "9",
+			"duration": "~70 min",
+			"needsReview": true
+		},
 		{
 			"name": "caseoh",
 			"displayName": "CaseOh",

@@ -3,6 +3,7 @@
 // This keeps the marked library out of the client bundle
 
 import { marked, type Tokens } from 'marked';
+import { getBlogEvidenceMedia } from '$lib/blogEvidenceMedia';
 
 interface Placeholder {
 	id: string;
@@ -44,7 +45,13 @@ function slugify(text: string): string {
 }
 
 // Component tags that can appear in blog content
-const COMPONENT_TAGS = ['PopCard', 'BlogPurpose', 'MarqueeHorizontal', 'QuickAnswer'];
+const COMPONENT_TAGS = [
+	'PopCard',
+	'BlogPurpose',
+	'MarqueeHorizontal',
+	'QuickAnswer',
+	'EvidenceFigure'
+];
 
 /**
  * Process blog markdown content into HTML with component placeholders
@@ -169,9 +176,65 @@ function renderComponentFallback(
 			return renderBlogPurposeFallback();
 		case 'PopCard':
 			return renderPopCardFallback(props);
+		case 'EvidenceFigure':
+			return renderEvidenceFigureFallback(props);
 		default:
 			return normalizeFallbackContent(children);
 	}
+}
+
+function renderEvidenceFigureFallback(props: Record<string, any>): string {
+	const evidenceId = stringProp(props.evidenceId).trim();
+	const evidence = getBlogEvidenceMedia(evidenceId);
+	if (!evidence) return '';
+
+	const portraitSide = evidence.presentation?.portrait_side ?? 'left';
+	const evidenceVariant =
+		evidence.presentation?.variant ?? (evidence.kind === 'moment' ? 'feature' : 'portrait');
+	const classes = [
+		'blog-evidence',
+		`blog-evidence--${evidenceVariant}`,
+		evidenceVariant === 'portrait' && portraitSide === 'right'
+			? 'blog-evidence--portrait-right'
+			: '',
+		'blog-evidence--ssr'
+	]
+		.filter(Boolean)
+		.join(' ');
+	const imageCreditLabel =
+		evidence.image.rights.status === 'fair-use'
+			? `${evidence.image.rights.creator} / ${evidence.image.source.publisher ?? 'source'} · editorial fair use`
+			: evidence.image.rights.attribution;
+	const speakerHtml = evidence.quote
+		? `<p class="blog-evidence__speaker${evidenceVariant === 'compact' ? ' blog-evidence__speaker--lead' : ''}"><strong>${escapeHtml(evidence.quote.speaker)}</strong>${
+				evidence.quote.speaker_role ? `<span>${escapeHtml(evidence.quote.speaker_role)}</span>` : ''
+			}</p>`
+		: '';
+	const quoteHtml = evidence.quote
+		? `${evidenceVariant === 'compact' ? speakerHtml : ''}<blockquote class="blog-evidence__quote"><p>&ldquo;${escapeHtml(evidence.quote.text)}&rdquo;</p></blockquote>${evidenceVariant === 'compact' ? '' : speakerHtml}`
+		: evidence.caption
+			? `<p class="blog-evidence__caption">${escapeHtml(evidence.caption)}</p>`
+			: '';
+	const quoteSourceHtml = evidence.quote
+		? `<a href="${escapeHtmlAttribute(evidence.quote.source.url)}" target="_blank" rel="noopener noreferrer">Source: ${escapeHtml(evidence.quote.source.name)}</a>`
+		: '';
+	const licenseHtml =
+		evidence.image.rights.license && evidence.image.rights.license_url
+			? ` &middot; <a href="${escapeHtmlAttribute(evidence.image.rights.license_url)}" target="_blank" rel="license noopener">${escapeHtml(evidence.image.rights.license)}</a>`
+			: '';
+	const modificationsHtml = evidence.image.rights.modifications.length
+		? ` <span>&middot; ${escapeHtml(evidence.image.rights.modifications.join(', '))}</span>`
+		: '';
+
+	return `<figure class="${classes}" data-evidence-id="${escapeHtmlAttribute(evidence.id)}" data-rights-status="${escapeHtmlAttribute(evidence.image.rights.status)}">
+	<div class="blog-evidence__media"><img src="${escapeHtmlAttribute(evidence.image.src)}" alt="${escapeHtmlAttribute(evidence.image.alt)}" width="${evidence.image.width}" height="${evidence.image.height}" loading="lazy" decoding="async" style="object-position:${escapeHtmlAttribute(evidence.image.object_position ?? '50% 50%')}" /></div>
+	<figcaption class="blog-evidence__body">
+		${evidenceVariant !== 'compact' ? `<p class="blog-evidence__label">${escapeHtml(evidence.label)}</p>` : ''}
+		${quoteHtml}
+		${evidence.context ? `<p class="blog-evidence__context">${escapeHtml(evidence.context)}</p>` : ''}
+		<div class="blog-evidence__sources">${quoteSourceHtml}<span class="blog-evidence__image-credit">Photo: <a href="${escapeHtmlAttribute(evidence.image.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(imageCreditLabel)}</a>${licenseHtml}${modificationsHtml}</span></div>
+	</figcaption>
+</figure>`;
 }
 
 function renderQuickAnswerFallback(props: Record<string, any>, children: string): string {

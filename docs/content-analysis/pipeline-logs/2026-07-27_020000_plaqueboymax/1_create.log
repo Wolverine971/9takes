@@ -1,0 +1,23 @@
+The PlaqueBoyMax draft is done and clean through every gate. Note: last night's 2 AM pipeline run for plaqueboymax left only an empty log file, so this run started from scratch.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/PlaqueBoyMax.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (5 testimony quotes), Gate 2: pass (5 search-intent/hybrid H2s),
+       Gate 4: pass, Gate 5: pass (1 type-theory paragraph), Gate 6: pass
+LIMITATIONS: Interview Magazine profile returned 403; its title quote is corroborated
+             via secondary sources and logged in working notes. No faqs frontmatter yet
+             (blog-lint WARN — the frontmatter-enrich stage owns that).
+```
+
+**The blog:** Maxwell Dent as an Enneagram 3 (3w2, social). The thesis rides on a detail his own Forbes interview handed us: at 17, with his group channel dead from COVID, he scrolled hundreds of names in his Notes app and named himself after the YouTube plaque on his shelf. The piece tracks the gap between the name and the proof: the 30-slide deck that bought his gap year, the Streamer Awards vow ("Next time I hold a trophy, I'm going to win a Grammy") fulfilled eleven months later, the 153-day streak that ended in burnout, and the million-follower milestone where he'd rehearsed crying for two years and felt nothing. The bespoke section is a "trophy ledger" table auditing whose name each of his awards actually carries (spoiler: almost never his voice). The July 2026 Streamer University confrontation, where he left his own stream in tears, anchors the current-tense arc and the empathy turn.
+
+**Evidence base:** three full transcripts fetched and mined (Forbes Top Creators, Boardroom Talks, 7PM in Brooklyn with Carmelo Anthony) plus Complex, Rolling Stone, The FADER, 34st, and Wikipedia. Testimony from Drake, Kevin Gates, Lazer Dim 700, Sxprano, and Nino Paid; critic pressure from Pitchfork's Five Forever review and Fanum.
+
+**Script verification:** blog-lint 0 fail / 1 warn, contrast pairs 0 strong / 0 comparative, same-type similarity clear (the first run tripped at 0.192 against n3on on a near-verbatim diagnosis sentence, which I rewrote), and none of the Type 3 concentrated corpus phrases appear.
+
+**Internal links (5):** Type 3 pillar, Drake, Kai Cenat, plus the two standard Rabbit Hole links (wings guide, instinctual subtypes).
+
+Next steps when you're ready: `/grade_blog PlaqueBoyMax`, then human review before promoting `production_pretext` to `ready` for the production pass.

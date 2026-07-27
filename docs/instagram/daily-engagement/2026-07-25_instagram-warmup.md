@@ -391,4 +391,4 @@ Perfect pond fit — it lists the non-obvious forms of people-pleasing (staying 
 
 **Created:** 2026-07-25 (morning)
 **Stage 1 Completed:** 2026-07-25 (morning) — full scan completed on a live session
-**Reply Command Status:** Pending — `/instagram-reply docs/instagram/daily-engagement/2026-07-25_instagram-warmup.md`
+**Reply Command Status:** DRAFTS READY (2026-07-26) — see `2026-07-25_instagram-replies.md`. Pending manual posting + reconciliation.

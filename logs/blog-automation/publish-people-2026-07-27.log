@@ -1,0 +1,23 @@
+Not published — the gate blocked every candidate.
+
+```text
+No people blog published.
+
+Auto-select: node scripts/personBlogParser.js --publish
+Checked: 485 candidates (94 unpublished drafts), zero eligible
+
+Blockers (closest candidates):
+- victoria-justice (v2 grade 9.0, discoverability 8.5 — closest to ready):
+  - missing_grade_stability_delta: run supervised grade/regrade
+  - source_standard_failed: untagged_epigraph_or_cold_open
+- plaqueboymax (the fresh draft from last night's pipeline):
+  - content_quality_below_8.5: 8.4
+  - missing_full_image + missing_thumbnail_image
+- all other 92 unpublished drafts: v1 rubric grades (stale) — each needs
+  a /grade_blog regrade before it can qualify
+```
+
+Per the command scope I stopped at the gate rather than bypassing it. Fastest paths to a publish, if you want one:
+
+1. **victoria-justice** — run `/grade_blog` on it (supervised regrade gives the stability delta), then tag or replace the untagged epigraph/cold-open quote. No image work needed.
+2. **plaqueboymax** — needs a revision pass to lift 8.4 → 8.5+ plus both Canva images (`static/types/[type]s/PlaqueBoyMax.webp` + `s-PlaqueBoyMax.webp`), so it's the slower path.

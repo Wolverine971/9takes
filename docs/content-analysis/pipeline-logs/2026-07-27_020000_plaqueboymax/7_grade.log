@@ -1,0 +1,18 @@
+## Grading Complete — PlaqueBoyMax
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| PlaqueBoyMax | 6 | 7 | 9 | 9 | 8 | 8.5 | 7.8 | C |
+
+(Weighted: `(6×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 8.5×0.5) / 7 = 7.8`. Anchor: Alex-Warren, C band.)
+
+### Key Observations
+
+This is a top-of-C-band draft: excellent craft dragged down by two rule-triggered caps, both cheaply fixable.
+
+- **What's genuinely strong:** The trophy-ledger table (an audit of whose name each award actually carries, with the two *loss* rows as the sharpest entries) is real 9-band originality material, and the Streamer University reading — "an attack on the wigs is an attack on the inventory, and the inventory is him" — is the best paragraph in the draft. Enneagram integration and discoverability are both near-model (9s): clean rabbit-hole quarantine, all three interior checks pass in his own vocabulary, 52-word extractable answer, 5 real FAQ questions.
+- **Evidence capped at 6 (the score-killer):** The source-audit script showed 0 untagged quotes, but its slot detection only covers the front half. Manually I found **seven** untraceable load-bearing subject quotes in the back half — worst being the million-follower "I thought I was going to cry… I didn't" (the emotional hinge of the whole thesis), plus the empathy-turn quote, the BMW quote, and the Kanye line, all bare "he said" with no outlet or date. This is exactly the Testimony-Ledger blind spot the grader instructions warn about.
+- **Originality capped at 7 (cross-draft sameness):** 4+ house moves reused near-verbatim against Jynxzi (07-25), caseoh (07-26), and Alex-Warren — including "Here is the detail that doesn't add up" ≈ Alex-Warren's "Something in that does not add up," six reader-command imperatives (the same tic the Jynxzi review already cut to two), and a scoreboard thesis sentence nearly identical to Alex-Warren's. Notably, the same-type similarity scan reported "clear" because Alex-Warren falls outside its last-8-drafts window — a blind spot worth knowing about.
+- **Path to B+ is short:** pinning outlet + date on the seven quotes alone likely lifts Evidence to 8–9 and the overall by ~0.6; varying the two most-reused house moves handles the rest. Full fix list is in `docs/content-analysis/grades/PlaqueBoyMax.review.md`. One publish blocker flagged by the pipeline itself stands: re-verify the Ojay Suave removal allegation (live news).
+
+**Total graded this session: 1**

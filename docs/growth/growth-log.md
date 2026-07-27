@@ -8,6 +8,44 @@ Use this file as the persistent memory for growth work across audits, research p
 
 ## Experiment Log
 
+### 2026-07-27 - Weekly growth audit: best contribution week ever (14 comments, 10 humans), the gate escaped the questions ghetto and converts 15-19% — but 9 of 10 contributors evaporate as unreachable fingerprints
+
+- Area: Activation / give-first expansion / contribution capture / reactivation email launch
+- Status: audit complete. Live DB numbers. Complete week = 2026-07-20 (Mon-Sun); 2026-07-27 is Monday WTD and immature (ignore its 178-visitor / 2-gate row).
+- Observed numbers (recent cohorts; D7 for 07-20 cohort is right-censored):
+
+| Cohort wk  | New visitors | Signups (act/uns) | Profiles | Comments | Gate fps -> contrib | Contributor D7 | Waitlist | Email sends/open/click | Chorus takes (cum) |
+| ---------- | -----------: | ----------------: | -------: | -------: | ------------------: | -------------: | -------: | ---------------------: | -----------------: |
+| 2026-07-20 |        3,868 |           0 (0/0) |        1 |   **14** |   49 -> 7 = **14%** |  2 / 9 = 22%\* |        0 |        **54 / 12 / 0** |             **11** |
+| 2026-07-13 |        4,260 |           0 (0/0) |        1 |        9 |       25 -> 3 = 12% |    1 / 2 = 50% |        0 |              4 / 3 / 1 |                  3 |
+| 2026-07-06 |        5,357 |           0 (0/0) |        1 |        0 |         6 -> 0 = 0% |              - |        0 |              2 / 1 / 0 |                  1 |
+| 2026-06-29 |        3,613 |           1 (1/0) |        0 |        2 |       10 -> 2 = 20% |     0 / 2 = 0% |        0 |              2 / 0 / 0 |                  1 |
+
+\* both "returns" are same-session second comments (minutes apart), not day-later returns. The only multi-day returner is registered 2023 Type-8 profile `9ce7ff91` (commented 07-23, 07-24, 07-25).
+
+- Direction changes vs 2026-07-20 audit:
+  - **Last week's #1/#2 bets partially SHIPPED and immediately worked.** `gate_shown` for masking q567 now fires on `/` (32 fps), `/enneagram-corner/enneagram-and-adhd...` (7 fps), and `/enneagram-corner/depression-patterns...` (2 fps) — the prompt left the questions surface. **Homepage placement: 32 gate fps -> 6 native contributions = 18.8%.** q567 overall: 45 gate fps -> 7 contributions = 15.6% native. New masking question 568 is live and gated (2 fps).
+  - **First Chorus take on a personality-analysis page since June.** `nine_user_takes` 3 -> **11** (+8). Take 10 fired on `/personality-analysis/robert-pattinson` -> native `contribution` on q515 — the buried PA Chorus converted once, organically. PA's rate is still 1 contribution / 2,584 fps (~0.04%) vs homepage 6 / 133.
+  - **Contribution breadth is real now, not one human.** 14 comments (0 removed, incl. 1 reply) from **10 distinct actors**: 9 anonymous fingerprints + 1 registered (the reactivated 2023 Type-8, 3 comments across 3 separate days). 9 first-ever contributors — the widest week in the log.
+  - **Reactivation FINALLY launched — closing a 5-week-old flag.** `reactivation_dormant` is `active` with **50 enrollments** (last 07-26); 51 of the week's 54 sends were reactivation step-1. Result so far: 12 opens (~22%), **0 clicks**, 1 unsubscribe. `reactivation_cold`/`zombies` still 0 enrollments. `welcome_sequence`: 26 enrollments; new profile `7a17bc78` (Type 5, reg 07-23) enrolled same day but has not commented.
+  - **Upstream capture still dead: 0 signups (4th straight week), 0 waitlist (9 weeks).** Traffic 4,260 -> 3,868 (-9%); PA dwell recovered to 21.8s; questions surface = 51 fps (~1.3% of traffic).
+
+- **Biggest leak this week: anonymous contribution evaporation.** The gate now converts 14-19% wherever it's placed and produced 9 new contributors — but 9 of 10 contributing humans are unreachable fingerprints, 0 emails were captured, and the only person who returned on a later day is the one registered profile. Each loop turn burns out at the moment of maximum engagement (just contributed, awaiting the reveal) because nothing asks for identity. Secondary leak unchanged: PA (2,584 fps, ~64% of traffic) still has no above-fold prompt; its buried Chorus converted exactly once.
+
+- Recommended bets (ranked):
+  1. **Post-contribution identity capture — now unblocked, highest EV.** We believe offering "get notified when someone answers you" (one email field) immediately after contribution/reveal for anonymous contributors will convert contribution volume into reachable identity, because volume finally exists (14/wk, 10 humans) and the sole registered contributor is also the sole multi-day returner. Success = >=15% of anonymous contributors leave an email AND >=1 captured contributor returns within 30 days. Guardrail = contribution completion does not drop >10% relative.
+  2. **Port the proven prompt to personality-analysis above the fold.** We believe the q567-style prompt (18.8% native on homepage) will convert on PA, which holds ~64% of traffic at 21.8s dwell but produced 1 contribution all week. Success = >=1% of PA sessions fire native `gate_shown -> contribution` within 30 days (~26/wk vs 1); guardrail = bounce not worse by >3 pts. (The robert-pattinson Chorus firing is direct evidence PA readers will do this when they find the mechanic.)
+  3. **Judge reactivation_dormant on returns, not opens, before enrolling cold/zombies.** 22% open / 0 clicks so far. Hold the other segments until dormant produces >=1 click or >=1 return visit/comment from a recipient by next audit. Guardrail = unsub rate <5% (currently 1/51).
+
+- Running experiment status:
+  - **Masking q567 (T-12): `running`, EXPANDED** — now on homepage + 2 enneagram-corner posts + questions; 7 native contributions this week (was 1-2/wk). Best-performing placement: homepage.
+  - **Masking q568 ("What do you provide so that you never have to ask"): new, `running`** — gated, 2 fps, 1 comment (from the Type-8 profile).
+  - **reactivation_dormant: status change `draft` -> `running`** — 50 enrolled, 51 sends, 12 opens, 0 clicks, 1 unsub. Too early to call; click/return is the win condition.
+  - **welcome_sequence: `running`** — 26 enrollments, 1 active (Type 5 profile reg 07-23). Enrollment fires same-day on registration; working.
+  - **Signup capture: still dead** — 0 signups 4 straight weeks. Unchanged negative.
+
+- Repro SQL: same shapes as 07-20 audit (first-touch CTE for visitors; weekly UNION of `signups`/`profiles`/`comments`/`coaching_waitlist`; `gate_shown` fps joined to same-fp comments within 7d; firsts-CTE contributor D7; `give_first_funnel_events` grouped by event_type/question_id/**path** — the path column is what revealed the homepage/EC placements; `nine_user_takes` full scan; weekly `email_sends` x `email_tracking_events`; `email_sequences.key` joined to enrollments; `email_unsubscribes.unsubscribed_at`).
+
 ### 2026-07-20 - Weekly growth audit: the give-first loop finally turned — 9-comment week, native funnel live, one full loop turn — but only on the ~0.6% of traffic it reaches
 
 - Area: Activation / give-first / Chorus instrumentation / contribution loop / email / signup capture

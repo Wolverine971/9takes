@@ -1,0 +1,33 @@
+{
+	"schema_version": 1,
+	"updated_at": "2026-07-26",
+	"unlisted_default": "needs-enrichment-review",
+	"blogs": [
+		{
+			"slug": "elon-musk",
+			"title": "Elon Musk: The Type 5 Mind Behind Tesla, SpaceX, and His Unpredictable Empire",
+			"draft_path": "src/blog/people/drafts/Elon-Musk.md",
+			"content_system": "supabase-with-local-draft",
+			"status": "enriched-local",
+			"publication_status": "not-published",
+			"evidence_ids": [
+				"elon-model-3-launch-2017",
+				"elon-talulah-riley-childhood-quote",
+				"elon-kimbal-musk-empathy-quote",
+				"elon-justine-musk-intimacy-quote",
+				"elon-walter-isaacson-conference-room-source"
+			],
+			"hooks": {
+				"exact_moments": 0,
+				"time_anchors": 1,
+				"quote_portraits": 3,
+				"source_portraits": 1
+			},
+			"rights": {
+				"licensed": 4,
+				"fair_use": 1
+			},
+			"next_action": "Visually approve the pilot, compare against the current Supabase body, publish, then verify the live page."
+		}
+	]
+}

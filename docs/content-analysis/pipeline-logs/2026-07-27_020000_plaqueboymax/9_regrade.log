@@ -1,0 +1,20 @@
+## Grading Complete — PlaqueBoyMax (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| PlaqueBoyMax | 8 | 8 | 9 | 9 | 8 | 8 | 8.4 | B |
+
+(Weighted: `(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 8×0.5) / 7 = 8.4`. No caps applied. Anchor: Matt-Smith B reference.)
+
+This was a supervised regrade — the revision pass was triggered by a first grade of 7.8 (C), and it moved to 8.4 (B, delta +0.6) because it genuinely fixed both prior caps rather than polishing around them: every subject quote is now transcript-pinned (Forbes Top Creators Show, Boardroom — the Kanye-hesitation accuracy fix proves real checking), the unverifiable 2024 Grammy-vow verbatim was cut and honestly paraphrased, and the sameness engine that tripped against the Jynxzi draft at 0.192 was rewritten (scan now clear at 0.060).
+
+### Key Observations
+
+- **What earns the 9s:** Discoverability is near-optimal (52-word extractable answer, 5 genuine search-intent FAQs with matching anchors, complete entity metadata, head-term check passes). Enneagram integration hits all three interior requirements — the million-follower inner-thought beat, the lunch-table empathy turn in the subject's own plaque-vocabulary (not house "scar tissue" grammar), and shame *rendered* in the Streamer University section ("the inventory is him"). All typology depth is quarantined in the rabbit hole.
+- **Why Evidence is 8, not 9:** the *Victory Lap* metrics ("200 million streams, went platinum in the UK") and the 127k-concurrent peak have no inline source — the Forbes attribution in that paragraph only covers the follower count. Also one stale ledger entry: Nino Paid's testimony-ledger quote exists in the body only as paraphrase.
+- **Sameness watch (no cap, but real):** shared furniture with Jynxzi and caseoh, graded the same week — epigraph→cold-open→reframe pivot, two "Read…" imperatives, return-to-opening-image close — and the thesis is a close cousin of Jynxzi's "wins never bank" engine. Both are Type 3 streamers published days apart; serial readers will feel the rhyme. Under the 3-near-verbatim threshold, but the sidecar flags it for the next pass.
+- **Before publish:** the Ojay Suave removal allegation is live news (draft flags it), the faqs enrich stage hasn't run (lint WARN), and the source-audit's VAGUE on the Grammy-vow quote is a tooling gap (no awards-show entries in OUTLETS), not a real traceability failure.
+
+Grade written to the draft frontmatter (with `first_overall: 7.8` / `grade_stability_delta: 0.6`) and full feedback to `docs/content-analysis/grades/PlaqueBoyMax.review.md`.
+
+**Total graded this session: 1**

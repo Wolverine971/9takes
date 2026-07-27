@@ -1,0 +1,26 @@
+Frontmatter enrichment complete: **PlaqueBoyMax**
+
+**Fields filled:**
+- `wikidata_qid` (Q128277446), `birth_date` (2003-04-03), `birth_place` (West Orange, New Jersey, United States), `nationality` (American), `occupation` (3), `knows_about` (6), `keywords` (9), `same_as` (4), `citations` (6), `faqs` (5)
+- YAML validated with gray-matter: parses clean, all 5 FAQs have question/answer/anchor, apostrophes escaped as `''` (the known deploy-breaking trap). Body, comment blocks, and `lastmod` untouched.
+
+**Fields already present (preserved):**
+- `wikipedia` — verified it resolves to a real article for the right person (page id 79157421, "American online streamer and rapper (born 2003)")
+- `twitter`, `instagram` handles; `tiktok` left empty (creator-owned field)
+
+**imdb_id omitted (correctly):** Wikidata has no P345 claim and no search result surfaced an `nm` name page — only podcast-episode title pages mentioning him. Per the cross-check rule, omitted rather than guessed.
+
+**FAQs generated (5):**
+1. What is PlaqueBoyMax's personality type? → `#what-is-plaqueboymaxs-personality-type`
+2. Did PlaqueBoyMax win a Grammy? → `#the-trophy-ledger-whose-name-is-on-plaqueboymaxs-awards`
+3. What happened to PlaqueBoyMax at Streamer University? → `#what-happened-to-plaqueboymax-at-streamer-university`
+4. Why does PlaqueBoyMax stream every day? → `#why-plaqueboymax-cant-log-off`
+5. How did PlaqueBoyMax get his name? → `#the-last-slide-is-madison-square-garden`
+
+Anchors 1–4 match the body's actual H2 slugs; #5 anchors to the closing section, which revisits the naming ("He picked Plaque Boy off a shelf").
+
+**Issues:**
+- **Body has zero inline external links.** Citations were built Einstein-style from verified URLs of sources the body explicitly names: Wikipedia, the FADER In The Booth profile (Aug 2025), the FADER 2026 Grammys piece, Rolling Stone and Complex on the Grammy nomination, and his Grammy.com artist page. The exact Pitchfork *Five Forever* review URL couldn't be verified (pitchfork.com is unfetchable from here), so it's not in citations despite being quoted in the body.
+- **Wikidata data quality is poor:** its P19 (birth place) says Houston, Texas, contradicting Wikipedia and the article (West Orange, NJ), and its occupations list "esports player." I used Wikipedia's values. Worth a Wikidata correction someday, but not blocking.
+- **Name spelling discrepancy:** body says "Maxwell Elliott Dent," Wikipedia says "Maxwell Elliot" (one t). FAQ #5 sidesteps with "Maxwell Dent"; the body is read-only for this pass, so flagging for the publish gate.
+- Pre-existing open items from the second-pass notes still stand for publish: re-verify the Ojay removal allegation, and the Grammy-vow quote has no pinned outlet. The lint WARN for the missing faqs stage should now clear.

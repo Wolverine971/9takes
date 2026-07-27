@@ -1,0 +1,216 @@
+{
+	"schema_version": 1,
+	"updated_at": "2026-07-26",
+	"items": [
+		{
+			"id": "elon-model-3-launch-2017",
+			"blog_slug": "elon-musk",
+			"kind": "moment",
+			"label": "Model 3 launch · July 2017",
+			"image": {
+				"src": "/blog-enrichment/elon-musk/model-3-launch-2017.webp",
+				"alt": "Elon Musk presenting the first Tesla Model 3 cars to a crowd in July 2017",
+				"width": 1200,
+				"height": 853,
+				"object_position": "50% 55%",
+				"source": {
+					"name": "Elon Musk Presenting the First Tesla Model 3 Cars",
+					"url": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Presenting_the_First_Tesla_Model_3_Cars.jpg",
+					"author": "Steve Jurvetson",
+					"publisher": "Wikimedia Commons",
+					"date_published": "2017-07-28"
+				},
+				"rights": {
+					"status": "licensed",
+					"creator": "Steve Jurvetson",
+					"license": "CC BY 2.0",
+					"license_url": "https://creativecommons.org/licenses/by/2.0/",
+					"attribution": "Steve Jurvetson, CC BY 2.0, via Wikimedia Commons",
+					"modifications": ["resized", "converted to WebP"],
+					"retrieved_at": "2026-07-26"
+				}
+			},
+			"caption": "Musk presents the first Model 3 cars on July 28, 2017, as the production ramp begins.",
+			"context": "A public view of the same production period—not the private conference-room scene Isaacson describes.",
+			"presentation": { "variant": "feature" }
+		},
+		{
+			"id": "elon-talulah-riley-childhood-quote",
+			"blog_slug": "elon-musk",
+			"kind": "quote-portrait",
+			"label": "Elon + Talulah · 2015",
+			"image": {
+				"src": "/blog-enrichment/elon-musk/talulah-riley-elon-musk-2015.webp",
+				"alt": "Talulah Riley and Elon Musk standing together beside an illuminated robot at Musk's 2015 birthday party",
+				"width": 1000,
+				"height": 1277,
+				"object_position": "50% 44%",
+				"source": {
+					"name": "Superhero or Supervillain? The Elon Musk interview",
+					"url": "https://commons.wikimedia.org/wiki/File:Superhero_or_Supervillain%3F_The_Elon_Musk_interview.jpg",
+					"author": "Steve Jurvetson",
+					"publisher": "Wikimedia Commons",
+					"date_published": "2015-08-08"
+				},
+				"rights": {
+					"status": "licensed",
+					"creator": "Steve Jurvetson",
+					"license": "CC BY 2.0",
+					"license_url": "https://creativecommons.org/licenses/by/2.0/",
+					"attribution": "Steve Jurvetson, CC BY 2.0, via Wikimedia Commons",
+					"modifications": ["resized", "converted to WebP"],
+					"retrieved_at": "2026-07-26"
+				}
+			},
+			"quote": {
+				"text": "I remember one of those nights, he began crying, and it was really horrendous for him.",
+				"speaker": "Talulah Riley",
+				"speaker_role": "Musk's second wife",
+				"source": {
+					"name": "Elon Musk",
+					"url": "https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284",
+					"author": "Walter Isaacson",
+					"publisher": "Simon & Schuster",
+					"date_published": "2023-09-12"
+				}
+			},
+			"context": "Riley and Musk together at his 2015 birthday party. This is relationship-era context, not the night she describes.",
+			"presentation": { "variant": "feature" }
+		},
+		{
+			"id": "elon-kimbal-musk-empathy-quote",
+			"blog_slug": "elon-musk",
+			"kind": "quote-portrait",
+			"label": "Kimbal Musk",
+			"image": {
+				"src": "/blog-enrichment/elon-musk/kimbal-musk-2012.webp",
+				"alt": "Kimbal Musk outside The Kitchen in Boulder in May 2012",
+				"width": 960,
+				"height": 627,
+				"object_position": "68% 38%",
+				"source": {
+					"name": "Kimbal Musk outside The Kitchen",
+					"url": "https://commons.wikimedia.org/wiki/File:KimbalMusk.jpg",
+					"author": "Wikiupdate1019",
+					"publisher": "Wikimedia Commons",
+					"date_published": "2012-05-15"
+				},
+				"rights": {
+					"status": "licensed",
+					"creator": "Wikiupdate1019",
+					"license": "CC BY-SA 3.0",
+					"license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+					"attribution": "Wikiupdate1019, CC BY-SA 3.0, via Wikimedia Commons",
+					"modifications": ["resized", "converted to WebP"],
+					"retrieved_at": "2026-07-26"
+				}
+			},
+			"quote": {
+				"text": "He is a savant when it comes to business, but his gift is not empathy with people.",
+				"speaker": "Kimbal Musk",
+				"speaker_role": "Elon's brother and longtime business partner",
+				"source": {
+					"name": "What Elon Musk Really Believes",
+					"url": "https://time.com/6170696/elon-musk-politics-twitter/",
+					"author": "Molly Ball",
+					"publisher": "TIME",
+					"date_published": "2022-04-25"
+				}
+			},
+			"presentation": { "variant": "compact" }
+		},
+		{
+			"id": "elon-justine-musk-intimacy-quote",
+			"blog_slug": "elon-musk",
+			"kind": "quote-portrait",
+			"label": "Justine Musk",
+			"image": {
+				"src": "/blog-enrichment/elon-musk/justine-musk-2010.webp",
+				"alt": "Justine Musk seated in her Los Angeles home in 2010",
+				"width": 768,
+				"height": 512,
+				"object_position": "82% 45%",
+				"source": {
+					"name": "I Was a Starter Wife: Inside America's Messiest Divorce",
+					"url": "https://www.marieclaire.com/sex-love/a5380/millionaire-starter-wife/",
+					"author": "Justine Musk",
+					"publisher": "Marie Claire",
+					"date_published": "2010-09-10"
+				},
+				"rights": {
+					"status": "fair-use",
+					"creator": "Lauren Greenfield",
+					"rights_holder": "Ownership not independently verified; credited by Marie Claire to Lauren Greenfield",
+					"attribution": "Lauren Greenfield / Marie Claire; reproduced for editorial commentary",
+					"modifications": ["used a 768px publisher rendition", "converted to WebP"],
+					"retrieved_at": "2026-07-26",
+					"fair_use": {
+						"purpose": "The image identifies the first-person speaker beside analysis and criticism of her published account; it is contextual evidence, not decoration or a standalone gallery use.",
+						"nature": "A previously published editorial photograph with creative elements, weighing against fair use more than a purely factual image would.",
+						"amount": "One reduced-resolution rendition is used, with no gallery, download link, or reproduction of the full photo feature.",
+						"market_effect": "The card credits and links to the original Marie Claire feature and is not a substitute for the article, print publication, or a licensable high-resolution file.",
+						"risk": "medium",
+						"legal_review": "recommended"
+					}
+				}
+			},
+			"quote": {
+				"text": "I longed for deep and heartfelt conversations, for intimacy and empathy.",
+				"speaker": "Justine Musk",
+				"speaker_role": "Musk's first wife, writing in her own account",
+				"source": {
+					"name": "I Was a Starter Wife: Inside America's Messiest Divorce",
+					"url": "https://www.marieclaire.com/sex-love/a5380/millionaire-starter-wife/",
+					"author": "Justine Musk",
+					"publisher": "Marie Claire",
+					"date_published": "2010-09-10"
+				}
+			},
+			"context": "From her first-person account of their marriage.",
+			"presentation": { "variant": "compact" }
+		},
+		{
+			"id": "elon-walter-isaacson-conference-room-source",
+			"blog_slug": "elon-musk",
+			"kind": "source-portrait",
+			"label": "Walter Isaacson",
+			"image": {
+				"src": "/blog-enrichment/elon-musk/walter-isaacson-2012.webp",
+				"alt": "Biographer Walter Isaacson in New York City in April 2012",
+				"width": 960,
+				"height": 1200,
+				"object_position": "50% 35%",
+				"source": {
+					"name": "Walter Isaacson in New York City",
+					"url": "https://commons.wikimedia.org/wiki/File:Walter_Isaacson_VF_2012_Shankbone_2.JPG",
+					"author": "David Shankbone",
+					"publisher": "Wikimedia Commons",
+					"date_published": "2012-04-17"
+				},
+				"rights": {
+					"status": "licensed",
+					"creator": "David Shankbone",
+					"license": "CC BY 3.0",
+					"license_url": "https://creativecommons.org/licenses/by/3.0/",
+					"attribution": "David Shankbone, CC BY 3.0, via Wikimedia Commons",
+					"modifications": ["resized", "converted to WebP"],
+					"retrieved_at": "2026-07-26"
+				}
+			},
+			"quote": {
+				"text": "McNeill said the same scene played out five or six times.",
+				"speaker": "Walter Isaacson",
+				"speaker_role": "Biographer, reporting Jon McNeill's account",
+				"source": {
+					"name": "Elon Musk",
+					"url": "https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284",
+					"author": "Walter Isaacson",
+					"publisher": "Simon & Schuster",
+					"date_published": "2023-09-12"
+				}
+			},
+			"context": "Isaacson attributes the conference-room account to Jon McNeill, Tesla's president at the time.",
+			"presentation": { "variant": "compact" }
+		}
+	]
+}

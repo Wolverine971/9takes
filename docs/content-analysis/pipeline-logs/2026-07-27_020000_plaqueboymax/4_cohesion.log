@@ -1,0 +1,37 @@
+## Cohesion Check Complete: PlaqueBoyMax.md
+
+**Before score: 8.5/10** → **After score: 9/10**
+
+(One path note: you passed `plaqueboymax.md`; the actual file is `src/blog/people/drafts/PlaqueBoyMax.md`, the only match, so I used that.)
+
+### Central Thesis
+PlaqueBoyMax is a textbook Type 3: he fused identity with achievement when he named himself after a trophy at 17, and his entire career, from the relentless streaming to the hollow milestones to the Streamer University shame collapse, is one long project of closing the gap between the name and the proof.
+
+### Thread Map
+Every section serves that thesis, and the chain holds: cold open (name taken from a trophy) → diagnosis (the pattern named: runs on evidence, not stimulation) → childhood (where results-for-freedom was learned) → live engineer (the machine that mints proof for other people) → trophy ledger (the audit: his name is on the frame, never the voice) → can't log off (why wins don't hold: the counter resets at midnight) → Streamer University (what happens when the image itself is attacked and there's no persona to absorb it) → Madison Square Garden (the one trophy that would close the gap). The ledger table, the hollow million-follower moment, and the lunch-table empathy turn form the spine, and all three were left untouched.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 8/10 | 1 |
+| Section Transitions | 8/10 | 2 |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+### Changes Made (3 total)
+
+**Transition fixes (2):**
+- Diagnosis → Childhood: the section exited on Rabbit Hole navigation ("...collapsed panel past the burnout section") and then dropped cold into birth facts. Added a one-line bridge: *"The habit of running on evidence started long before Twitch, in a house in West Orange."* It carries the "runs on evidence" keyword from the Type 7 contrast directly into the West Orange opener.
+- Trophy ledger → Can't log off: "Even his dream is a credit." jumped straight to "On January 1, 2025..." with only the H2 doing the work. Added: *"The cost of that chase shows up on the calendar."*
+
+**Internal contradiction fix (1):**
+- Streamer University section: the setup paragraph said he was "playing with a persona," but the section's own sharpest argument three paragraphs later is that there is *no* persona to absorb the hit ("one world," "the inventory is him"). Reworded to "playing with a side of himself," which removes the collision and actually strengthens the payoff.
+
+### What Was Preserved
+- All frontmatter, working-notes comments, ledger comments, both accordion components, the pull-quote, the inner-thought paragraph, and all internal links
+- 5 of 7 section transitions untouched (already strong; the "single sentence" → "The last slide" carry into the MSG close is the best transition in the piece)
+- The Ojay-removal open thread: intentionally unresolved and already flagged for pre-publish re-verification in the second-pass notes, so I left it as-is
+- Added a dated `COHESION PASS` comment to the file's pipeline-notes trail
+
+### Remaining Concerns
+None structural. The only judgment call I'd surface: the Engineer → Trophy Ledger boundary re-anchors on the naming ("For a man named after an award...") rather than on the previous section's close. I left it because the ledger is the bespoke device and the naming callback is what earns the audit frame, but if you ever feel a bump there, that's where it is.

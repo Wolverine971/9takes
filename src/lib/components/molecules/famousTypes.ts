@@ -177,6 +177,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'patrick-starr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
 		{ name: 'pelosi-schumer-dynamic', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'pete-buttigieg', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
+		{ name: 'plaqueboymax', link: false, hasImage: false, lastmod: '2026-07-27', personaTitle: 'Streaming\'s Relentless Hitmaker', contentGrade: 8.4, types: ['creator', 'musician'] },
 		{ name: 'riyaz-aly', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'ted-bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'xochitl-gomez', link: false, hasImage: false, lastmod: '2026-07-12', personaTitle: 'Hollywood\'s Rehearsed Sunshine', contentGrade: 8.4, types: ['newMovieStar', 'rising-star'] }

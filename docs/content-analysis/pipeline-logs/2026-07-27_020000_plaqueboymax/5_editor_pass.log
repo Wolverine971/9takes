@@ -1,0 +1,13 @@
+Editor pass complete on `src/blog/people/drafts/PlaqueBoyMax.md`. This draft arrived in unusually good shape — it had already been through fresh-eyes, second-pass, and cohesion passes, and the mechanical checks were clean before I touched it. So this was a close line-read rather than a rescue, and I made five surgical fixes:
+
+- **Duplicate guest**: Central Cee appeared twice in the same sentence listing booth guests; the list is tightened and his record-breaking January 2025 stream keeps the mention.
+- **Garbled appositive**: "a BMW X6M, the prop success is supposed to hold" didn't parse; it's now "the standard prop of having made it." Also fixed the plural "purchases confess" when only one purchase is described.
+- **Too-compressed news beat**: "Ojay Suave, off campus soon after the clash" now reads as an actual sentence: he was removed from campus and alleges Max was behind it.
+- **Triplet cadence**: the Type 7 concession ("chaotic, joyful, and genuinely fun") no longer scans as an AI list-of-three.
+- **Word echo**: three "clean" variants across the piece ("clean answer" / "cleanest specimen" / "conceding cleanly"); dropped the third.
+
+The empathy turn (the lunch-table camera-holder who was never the talent), the interior beat (the million-follower moment he rehearsed crying for and felt nothing), and the trophy-ledger table all survived untouched — they're the spine of the piece.
+
+**Exit checks**: blog-lint 0 fail / 1 warn, contrast pairs **0 strong / 0 comparative**, em-dash check passing, body 3,767 words, head-term PASS. The one warn is the missing `faqs` frontmatter, which belongs to the enrich stage (`/blog_content_frontmatter_enrich_people`), not this pass.
+
+**Verdict**: production-ready on prose. Two pre-publish items remain, both flagged in the draft's notes: run the frontmatter enrich stage, and re-verify the live Ojay Suave removal allegation (it's active news as of July 20).

@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — plaqueboymax (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/PlaqueBoyMax.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 31
+Comparison set (last 8 other Type-3 drafts by date):
+  - jynxzi  (2026-07-25, 30 units)
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+  - madonna  (2026-07-18, 41 units)
+  - David-Beckham  (2026-07-13, 43 units)
+  - n3on  (2026-07-13, 38 units)
+  - xochitl-gomez  (2026-07-12, 43 units)
+  - Kiernan-Shipka  (2026-07-11, 46 units)
+
+Noise floor over 10075 unit pairs:  median=0  p90=0  p99=0.005  max=0.06
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.060 ##                   jynxzi
+  0.039 ##                   Kiernan-Shipka
+  0.031 #                    pete-hegseth
+  0.030 #                    margaret-qualley
+  0.026 #                    David-Beckham
+  0.026 #                    madonna
+  0.021 #                    n3on
+  0.019 #                    xochitl-gomez
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.060   plaqueboymax  <->  jynxzi
+   TARGET [diagnosis] then sets the next one before the applause fades.
+   OTHER  [diagnosis] which is why the wins never bank and the next one always has to happen on schedule.
+
+score 0.039   plaqueboymax  <->  Kiernan-Shipka
+   TARGET [diagnosis] so he builds a life that keeps producing them
+   OTHER  [diagnosis] and builds a self around delivering it.
+
+score 0.031   plaqueboymax  <->  pete-hegseth
+   TARGET [diagnosis] he held his first major trophy and told the room
+   OTHER  [diagnosis] he told the Shawn Ryan Show
+
+score 0.030   plaqueboymax  <->  margaret-qualley
+   TARGET [diagnosis] The feeling underneath is harder to see
+   OTHER  [diagnosis] I love the feeling of working really hard.
+
+score 0.026   plaqueboymax  <->  David-Beckham
+   TARGET [counter-typing] the rehearsed tears that never came
+   OTHER  [counter-typing] a quiet surface stretched over an engine that never idles.
+
+score 0.026   plaqueboymax  <->  madonna
+   TARGET [diagnosis] A Three learns young that attention arrives when the results are visible
+   OTHER  [diagnosis] the Three learns that love responds to accomplishment
+
+score 0.025   plaqueboymax  <->  pete-hegseth
+   TARGET [diagnosis] "Next time I hold a trophy
+   OTHER  [diagnosis] but this is the first time I've heard of a nomination conversion" (NPR).
+
+score 0.025   plaqueboymax  <->  margaret-qualley
+   TARGET [diagnosis] so he builds a life that keeps producing them
+   OTHER  [diagnosis] Type 3s organize a life around being worth something
+
+score 0.022   plaqueboymax  <->  margaret-qualley
+   TARGET [diagnosis] so he builds a life that keeps producing them
+   OTHER  [diagnosis] The 4 wing explains the filmography that keeps confusing people.
+
+score 0.021   plaqueboymax  <->  jynxzi
+   TARGET [diagnosis] Max describes the underground music cycle with something close to dread
+   OTHER  [diagnosis] he tried to describe the experience of not going live
+
+score 0.021   plaqueboymax  <->  n3on
+   TARGET [diagnosis] his first instinct is to check whether it registered.
+   OTHER  [diagnosis] The core drive is to become someone the room values
+
+score 0.021   plaqueboymax  <->  jynxzi
+   TARGET [diagnosis] selling his own future like a product.
+   OTHER  [diagnosis] Jynxzi treated a streamer exhibition like a referendum on whether he is any good. ---
+
+------------------------------------------------------------------------------
+Top pair scores 0.06 vs median 0  (~∞x the noise floor).

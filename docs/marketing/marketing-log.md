@@ -10,6 +10,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-07-27 — Unattended status brief: best contribution week ever; publish jammed 7 days; IG session FIXED but posting at zero
+
+- Brief: [`docs/daily-briefs/2026-07-27_marketing-status.md`](../daily-briefs/2026-07-27_marketing-status.md).
+- **Growth freshness gate PASSED:** weekly audit ran today (growth-log newest entry `2026-07-27`); headline + biggest leak folded verbatim.
+- **Growth headline (verbatim):** _"best contribution week ever (14 comments, 10 humans), the gate escaped the questions ghetto and converts 15-19% — but 9 of 10 contributors evaporate as unreachable fingerprints."_ Homepage placement of q567 converts **18.8% native**; first PA Chorus take since June (robert-pattinson); `nine_user_takes` 3 → 11; reactivation_dormant LAUNCHED (50 enrollments, 12 opens, 0 clicks). New #1 leak: **anonymous contribution evaporation** — 0 emails captured at the contribute/reveal moment. Growth's #1 bet: post-contribution identity capture (one email field). Still dead upstream: 0 signups 4th week, waitlist 0 for 9 weeks.
+- **Pipeline swapped states again — create recovered, publish jammed 7 straight days.** Create shipped 6 (Travis Kelce 8.6 on retry, Nolan 8.9, Yang Zhilin 8.7, Sadie Sink 8.3, CaseOh 8.6, PlaqueBoyMax 8.4 needsReview) and hit its 5/wk cap; publish shipped **0 since julia-fox 07-20**. Structural blocker: 92 of 94 unpublished drafts on stale v1-rubric grades (52 of them ≥8.5). Fastest unblock named by today's log: **victoria-justice** (v2 9.0, needs only supervised regrade delta + epigraph tag, no images).
+- **Instagram REVERSED:** dedicated per-brand Chrome profile live; first clean session 07-26 PM (matches memory `[[instagram-session-eviction]]`). Bottleneck moved to posting: reply queues drafted (07-25 + 07-26 PM docs) but nothing posted in 5+ passes — Melissa owed ~38+ days, Candice first-touch queued 5x. Standing order: `/instagram-reply` on the 07-25 doc FIRST.
+- **SEO refreshed:** GSC `latest.json` now runDate 2026-07-25 (closes last brief's staleness flag); corpus-stats + crosslinks regenerated 07-26.
+- **Distribution grew to 14 unfired** (new: `blackpill-social-package-2026-07-22/`); Quora ~69 days dark; outreach unchanged.
+- **New parallel workstream observed (untouched):** blog evidence enrichment — `docs/blog-enrichment/` Elon Musk pilot (`enriched-local`), `EvidenceFigure.svelte`, blogEvidenceMedia lib; uncommitted product/design work in flight.
+- **Owner:** DJ. Open decisions in brief §"Open questions for DJ": identity capture green-light, PA above-fold port, victoria-justice regrade + v1 batch-regrade call, PlaqueBoyMax review, IG reply execution + browser rename, reactivation segment hold, fire distribution, Quora revive/retire.
+
 ### 2026-07-20 — Unattended status brief: growth loop PROVEN to work; publish valve reopened; create timed out; IG escalated dark
 
 - Brief: [`docs/daily-briefs/2026-07-20_marketing-status.md`](../daily-briefs/2026-07-20_marketing-status.md).
@@ -249,6 +261,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-07-27](../daily-briefs/2026-07-27_marketing-status.md) — best contribution week ever (14 comments, 10 humans; gate 15-19%, homepage 18.8%) but 9/10 contributors evaporate unreached; publish jammed 7 days (0 since julia-fox; 92 drafts on v1 rubric, victoria-justice fastest unblock); create recovered to cap; IG session FIXED (dedicated profile live 07-26 PM) but replies still unposted; GSC refreshed 07-25; reactivation launched (50 enrolled, 0 clicks).
 - [2026-07-20](../daily-briefs/2026-07-20_marketing-status.md) — growth loop PROVEN (0→9 comments, native funnel + Chorus live, one full loop turn) but quarantined to ~0.6% of traffic; publish valve reopened (10+ posts, both prior blockers cleared); create timed out (travis-kelce, no draft); IG escalated dark 17/20.
 - [2026-07-13](../daily-briefs/2026-07-13_marketing-status.md) — growth fresh (biggest visitor week converted to ~nothing); bottleneck flipped create→publish (0 posts 3 days); IG fully dark 7/7; GSC refreshed; new scout (Truell top pick).
 - [2026-07-06](../daily-briefs/2026-07-06_marketing-status.md) — stale growth data; people pipeline failed twice on Oliver Tree; IG session blocked again; distribution/Quora still idle.

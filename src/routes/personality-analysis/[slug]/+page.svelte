@@ -47,6 +47,7 @@
 	import QuickAnswer from '$lib/components/blog/callouts/QuickAnswer.svelte';
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import ArticleSources from '$lib/components/blog/ArticleSources.svelte';
+	import EvidenceFigure from '$lib/components/blog/EvidenceFigure.svelte';
 
 	export let data: PageData;
 
@@ -157,7 +158,8 @@
 	const componentTypes: { tag: string; component: Component<Record<string, any>> }[] = [
 		{ tag: 'PopCard', component: PopCard },
 		{ tag: 'BlogPurpose', component: BlogPurpose as Component<Record<string, any>> },
-		{ tag: 'QuickAnswer', component: QuickAnswer }
+		{ tag: 'QuickAnswer', component: QuickAnswer },
+		{ tag: 'EvidenceFigure', component: EvidenceFigure as Component<Record<string, any>> }
 	];
 	const mountedPlaceholders = new Map<string, ReturnType<typeof mount>>();
 

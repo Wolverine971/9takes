@@ -69,6 +69,7 @@ citations:
   - 'https://www.simonandschuster.com/books/Elon-Musk/Walter-Isaacson/9781982181284'
   - 'https://www.marieclaire.com/sex-love/a5380/millionaire-starter-wife/'
   - 'https://time.com/person-of-the-year-2021-elon-musk/'
+  - 'https://time.com/6170696/elon-musk-politics-twitter/'
   - 'https://www.sec.gov/newsroom/press-releases/2018-226'
   - 'https://www.bloomberg.com/news/articles/2026-03-13/musk-pledges-to-rebuild-xai-as-another-co-founder-departs'
   - 'https://www.theguardian.com/technology/2026/may/06/shivon-zilis-testimony-elon-musk-openai-lawsuit'
@@ -108,7 +109,7 @@ production_pretext:
 
 <!-- TESTIMONY LEDGER
 1. Talulah Riley: "I remember one of those nights, he began crying, and it was really horrendous for him." — Walter Isaacson, Elon Musk, 2023.
-2. Kimbal Musk: "He is a savant when it comes to business, but his gift is not empathy with people." — TIME, 2021.
+2. Kimbal Musk: "He is a savant when it comes to business, but his gift is not empathy with people." — TIME, 2022.
 3. Justine Musk: "I longed for deep and heartfelt conversations, for intimacy and empathy." — Marie Claire, 2010.
 Total qualifying quotes: 3.
 -->
@@ -161,6 +162,8 @@ Evergreen spine retained: when withdrawal is unavailable, Musk retreats into a l
 
 Jon McNeill, then Tesla's president of global sales, opens a dark conference room. Elon Musk is lying face-down on the carpet and does not respond. McNeill spends half an hour getting him into a chair, then covers the call. Walter Isaacson reports that scenes like this happened five or six times that autumn. Once, McNeill presented a website redesign while sitting on the floor beside him because Musk would not get up.
 
+<EvidenceFigure evidenceId="elon-model-3-launch-2017" />
+
 The usual argument calls Musk some mix of visionary, genius, billionaire, and bully. The man on the carpet presents a harder question: why does someone with almost unlimited material resources keep building a life with no reserve left inside it?
 
 The Type 5 answer begins with a particular kind of fear. It is the feeling that demands will consume more time, energy, or competence than you possess. Retreat creates room to think. Mastery makes the world manageable.
@@ -195,7 +198,9 @@ His appetite for confrontation makes a Type 8 reading plausible. The tiebreaker 
 
 Musk's childhood gave withdrawal a job. After his parents divorced, he chose to live with his father, Errol, a decision he later described with deep regret. He was severely bullied at school, read for hours at a time, taught himself programming, and sold the code for a game at twelve. Isaacson's biography describes a child repeatedly leaving an unpredictable human world for one governed by rules.
 
-His second wife, Talulah Riley, saw that past break through decades later. She recalled nights when Musk cried and repeated things his father had said to him. "I remember one of those nights, he began crying, and it was really horrendous for him," she told Isaacson.
+His second wife, Talulah Riley, saw that past break through decades later. She recalled nights when Musk cried and repeated things his father had said to him.
+
+<EvidenceFigure evidenceId="elon-talulah-riley-childhood-quote" />
 
 Mastery offered a clean form of protection. People could humiliate, leave, or overwhelm him. A system could be studied. The boy who escaped into books became the adult who can disappear into a broken production line while standing in the middle of a factory.
 
@@ -291,9 +296,15 @@ The Type 5 call rests on refuge rather than style. Musk's confrontations usually
 
 ## The people Musk cannot debug
 
-Musk's brother Kimbal gave *TIME* the blunt version in 2021: "He is a savant when it comes to business, but his gift is not empathy with people." That gap between abstract humanity and the person nearby runs through Musk's private record.
+Musk's brother Kimbal gave *TIME* the blunt version in 2022:
 
-His first wife, Justine Musk, described the months after their infant son Nevada died. She wrote that Elon did not want to discuss the death and regarded her open grieving as emotional manipulation. Within two months they began IVF. Later in the same *Marie Claire* account, she wrote, "I longed for deep and heartfelt conversations, for intimacy and empathy."
+<EvidenceFigure evidenceId="elon-kimbal-musk-empathy-quote" />
+
+That gap between abstract humanity and the person nearby runs through Musk's private record.
+
+His first wife, Justine Musk, described the months after their infant son Nevada died. She wrote that Elon did not want to discuss the death and regarded her open grieving as emotional manipulation. Within two months they began IVF. Later in the same *Marie Claire* account, she described what was missing.
+
+<EvidenceFigure evidenceId="elon-justine-musk-intimacy-quote" />
 
 No public record can tell us that Musk felt nothing. The behavior shows what he did with helplessness: he moved toward a plan, another attempt, and forward motion. Engineering rewards that conversion. Grief does not. A partner cannot be repaired by isolating a fault, and a child cannot receive secure attachment in a five-minute slot.
 
@@ -323,3 +334,5 @@ The Type 9 read points toward the one experiment Musk rarely runs: leave the sys
 That dark Tesla conference room holds the whole pattern. Musk had carried a failing factory until his body stopped cooperating. McNeill's response was almost embarrassingly low-tech.
 
 McNeill sat down on the carpet beside him.
+
+<EvidenceFigure evidenceId="elon-walter-isaacson-conference-room-source" />
