@@ -3,6 +3,7 @@
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -22,6 +23,7 @@
 	let testStepNumber = $state(1);
 	let showAllCandidates = $state(false);
 	let showPreview = $state(true);
+	let activityFilter = $state<'all' | 'opened' | 'clicked' | 'unsubscribed'>('all');
 
 	const statusColors: Record<string, string> = {
 		draft: 'var(--warning)',
@@ -30,7 +32,8 @@
 		processing: 'var(--lamp-glow)',
 		completed: 'var(--data-teal)',
 		exited: 'var(--warning)',
-		errored: 'var(--error)'
+		errored: 'var(--error)',
+		unsubscribed: 'var(--warning)'
 	};
 
 	let selectedStep = $derived(
@@ -50,6 +53,14 @@
 		data.steps
 			.filter((step) => step.sequence_key === 'reactivation_dormant')
 			.sort((a, b) => a.step_number - b.step_number)
+	);
+	let filteredActivity = $derived(
+		data.activity.filter((recipient) => {
+			if (activityFilter === 'opened') return recipient.opened_messages > 0;
+			if (activityFilter === 'clicked') return recipient.clicked_messages > 0;
+			if (activityFilter === 'unsubscribed') return recipient.unsubscribed;
+			return true;
+		})
 	);
 
 	$effect(() => {
@@ -90,6 +101,20 @@
 		if (days === 0) return 'On enrollment';
 		if (days === 1) return '+1 day';
 		return `+${days} days`;
+	}
+
+	function lastActivityLabel(recipient: PageData['activity'][number]): string {
+		if (recipient.last_engaged_at && recipient.unsubscribed_at === recipient.last_engaged_at) {
+			return 'Unsubscribed';
+		}
+		if (recipient.last_engaged_at && recipient.last_clicked_at === recipient.last_engaged_at) {
+			return 'Clicked';
+		}
+		if (recipient.last_engaged_at && recipient.last_opened_at === recipient.last_engaged_at) {
+			return 'Opened';
+		}
+		if (recipient.last_sent_at) return 'Sent';
+		return 'Enrolled';
 	}
 
 	function handleAction(defaultMessage: string) {
@@ -234,6 +259,182 @@
 				{/if}
 			</form>
 		</div>
+	</section>
+
+	<section class="section">
+		<div class="section-header activity-section-header">
+			<div>
+				<p class="section-kicker">§06 · RESPONSE SIGNALS</p>
+				<h2>Recipient Activity</h2>
+				<p class="info-note">
+					See who opened, clicked, or unsubscribed across the latest {data.activitySummary.loaded}
+					reactivation enrollments. Opens are directional because inbox privacy tools can preload them.
+				</p>
+			</div>
+			<div class="candidate-counts activity-counts" aria-label="Recipient activity totals">
+				<span class="signal-count opened">Opened {data.activitySummary.opened}</span>
+				<span class="signal-count clicked">Clicked {data.activitySummary.clicked}</span>
+				<span class="signal-count unsubscribed"
+					>Unsubscribed {data.activitySummary.unsubscribed}</span
+				>
+			</div>
+		</div>
+
+		<div class="activity-filters" aria-label="Filter recipient activity">
+			<button
+				type="button"
+				class="filter-button"
+				class:active={activityFilter === 'all'}
+				onclick={() => (activityFilter = 'all')}>All {data.activitySummary.loaded}</button
+			>
+			<button
+				type="button"
+				class="filter-button"
+				class:active={activityFilter === 'opened'}
+				onclick={() => (activityFilter = 'opened')}>Opened {data.activitySummary.opened}</button
+			>
+			<button
+				type="button"
+				class="filter-button"
+				class:active={activityFilter === 'clicked'}
+				onclick={() => (activityFilter = 'clicked')}>Clicked {data.activitySummary.clicked}</button
+			>
+			<button
+				type="button"
+				class="filter-button"
+				class:active={activityFilter === 'unsubscribed'}
+				onclick={() => (activityFilter = 'unsubscribed')}
+				>Unsubscribed {data.activitySummary.unsubscribed}</button
+			>
+		</div>
+
+		{#if filteredActivity.length === 0}
+			<p class="empty-note activity-empty">No recipients match this activity filter.</p>
+		{:else}
+			<div class="table-wrapper activity-table-wrap">
+				<table class="activity-table">
+					<thead>
+						<tr>
+							<th>Recipient</th>
+							<th>Bucket</th>
+							<th>Sent</th>
+							<th>Opened</th>
+							<th>Clicked</th>
+							<th>Email status</th>
+							<th>Sequence</th>
+							<th>Latest signal</th>
+						</tr>
+					</thead>
+					<tbody>
+						{#each filteredActivity as recipient (recipient.id)}
+							<tr class:unsubscribed-row={recipient.unsubscribed}>
+								<td class="recipient-cell">
+									<strong>{recipient.recipient_name || 'Unnamed recipient'}</strong>
+									<span title={recipient.recipient_email}>{recipient.recipient_email}</span>
+								</td>
+								<td><span class="bucket">{recipient.bucket ?? '-'}</span></td>
+								<td class="number-cell">{recipient.messages_sent}</td>
+								<td>
+									{#if recipient.opened_messages > 0}
+										<span class="engagement-badge opened">
+											Opened {recipient.total_opens}×
+										</span>
+										<small class="engagement-date">{formatDateTime(recipient.last_opened_at)}</small
+										>
+									{:else}
+										<span class="no-signal">Not yet</span>
+									{/if}
+								</td>
+								<td>
+									{#if recipient.clicked_messages > 0}
+										<span class="engagement-badge clicked">
+											Clicked {recipient.total_clicks}×
+										</span>
+										<small class="engagement-date"
+											>{formatDateTime(recipient.last_clicked_at)}</small
+										>
+									{:else}
+										<span class="no-signal">Not yet</span>
+									{/if}
+								</td>
+								<td>
+									<EmailSubscriptionStatus
+										unsubscribed={recipient.unsubscribed}
+										unsubscribedAt={recipient.unsubscribed_at}
+										reason={recipient.unsubscribe_reason}
+										showActive
+									/>
+								</td>
+								<td class="sequence-cell">
+									<span class="sequence-status">
+										<span
+											class="status-dot"
+											style="background: {statusColors[recipient.display_status] ||
+												'var(--ink-dim)'}"
+										></span>
+										{recipient.display_status}
+									</span>
+									<small>Step {recipient.current_step_number} of 5</small>
+								</td>
+								<td class="latest-signal">
+									<strong>{lastActivityLabel(recipient)}</strong>
+									<span
+										>{formatDateTime(
+											recipient.last_engaged_at || recipient.last_sent_at || recipient.enrolled_at
+										)}</span
+									>
+								</td>
+							</tr>
+						{/each}
+					</tbody>
+				</table>
+			</div>
+
+			<div class="activity-cards">
+				{#each filteredActivity as recipient (recipient.id)}
+					<article class="activity-card" class:unsubscribed-card={recipient.unsubscribed}>
+						<header>
+							<div class="recipient-cell">
+								<strong>{recipient.recipient_name || 'Unnamed recipient'}</strong>
+								<span>{recipient.recipient_email}</span>
+							</div>
+							<EmailSubscriptionStatus
+								unsubscribed={recipient.unsubscribed}
+								unsubscribedAt={recipient.unsubscribed_at}
+								reason={recipient.unsubscribe_reason}
+								showActive
+							/>
+						</header>
+						<div class="activity-card-meta">
+							<span class="bucket">{recipient.bucket ?? '-'}</span>
+							<span>{recipient.display_status} · Step {recipient.current_step_number} of 5</span>
+						</div>
+						<dl>
+							<div>
+								<dt>Sent</dt>
+								<dd>{recipient.messages_sent}</dd>
+							</div>
+							<div class:has-signal={recipient.opened_messages > 0}>
+								<dt>Opens</dt>
+								<dd>{recipient.total_opens}</dd>
+							</div>
+							<div class:has-signal={recipient.clicked_messages > 0}>
+								<dt>Clicks</dt>
+								<dd>{recipient.total_clicks}</dd>
+							</div>
+						</dl>
+						<footer>
+							<span>{lastActivityLabel(recipient)}</span>
+							<strong
+								>{formatDateTime(
+									recipient.last_engaged_at || recipient.last_sent_at || recipient.enrolled_at
+								)}</strong
+							>
+						</footer>
+					</article>
+				{/each}
+			</div>
+		{/if}
 	</section>
 
 	<section class="section">
@@ -553,6 +754,16 @@
 		text-decoration: none;
 	}
 
+	.section-kicker {
+		margin: 0 0 0.35rem;
+		color: var(--lamp-glow);
+		font-family: var(--font-mono);
+		font-size: 0.68rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
 	.header-actions a {
 		padding: 0.55rem 0.75rem;
 		border: 1px solid var(--stone-warm);
@@ -801,6 +1012,147 @@
 		overflow-x: auto;
 	}
 
+	.activity-filters {
+		display: flex;
+		align-items: center;
+		gap: 0.45rem;
+		margin: 1rem 0;
+		overflow-x: auto;
+		padding-bottom: 0.15rem;
+	}
+
+	.filter-button {
+		min-height: 2.75rem;
+		flex: 0 0 auto;
+		border: 1px solid var(--stone-edge);
+		border-radius: 999px;
+		background: var(--night-deep);
+		color: var(--ink-mid);
+		font-family: var(--font-mono);
+		font-size: 0.72rem;
+	}
+
+	.filter-button:hover,
+	:global(.page-shell .activity-filters button:focus-visible),
+	.filter-button.active {
+		border-color: var(--lamp-glow);
+		color: var(--lamp-glow);
+	}
+
+	:global(.page-shell .activity-filters button:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.signal-count,
+	.engagement-badge {
+		display: inline-flex;
+		width: fit-content;
+		align-items: center;
+		border: 1px solid transparent;
+		border-radius: 999px;
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 700;
+		line-height: 1;
+		white-space: nowrap;
+	}
+
+	.signal-count {
+		padding: 0.4rem 0.6rem;
+	}
+
+	.engagement-badge {
+		padding: 0.25rem 0.45rem;
+	}
+
+	.signal-count.opened,
+	.engagement-badge.opened {
+		border-color: color-mix(in srgb, var(--data-teal) 32%, transparent);
+		background: color-mix(in srgb, var(--data-teal) 11%, transparent);
+		color: var(--data-cyan);
+	}
+
+	.signal-count.clicked,
+	.engagement-badge.clicked {
+		border-color: color-mix(in srgb, var(--success) 32%, transparent);
+		background: color-mix(in srgb, var(--success) 11%, transparent);
+		color: var(--success-text);
+	}
+
+	.signal-count.unsubscribed {
+		border-color: color-mix(in srgb, var(--warning) 34%, transparent);
+		background: color-mix(in srgb, var(--warning) 12%, transparent);
+		color: var(--warning-text);
+	}
+
+	.activity-table {
+		min-width: 1120px;
+	}
+
+	.activity-table tr.unsubscribed-row {
+		background: color-mix(in srgb, var(--warning) 5%, transparent);
+	}
+
+	.recipient-cell,
+	.sequence-cell,
+	.latest-signal {
+		min-width: 0;
+	}
+
+	.recipient-cell,
+	.sequence-cell,
+	.latest-signal {
+		display: grid;
+		gap: 0.25rem;
+	}
+
+	.recipient-cell {
+		max-width: 17rem;
+	}
+
+	.recipient-cell strong,
+	.recipient-cell span {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.recipient-cell span,
+	.sequence-cell small,
+	.latest-signal span,
+	.engagement-date,
+	.no-signal {
+		color: var(--ink-mid);
+		font-size: 0.72rem;
+	}
+
+	.sequence-status {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		text-transform: capitalize;
+	}
+
+	.engagement-date {
+		display: block;
+		margin-top: 0.3rem;
+		white-space: nowrap;
+	}
+
+	.number-cell {
+		font-family: var(--font-mono);
+		font-weight: 700;
+	}
+
+	.activity-cards {
+		display: none;
+	}
+
+	.activity-empty {
+		padding: 1.5rem 0 0.5rem;
+	}
+
 	table {
 		width: 100%;
 		border-collapse: collapse;
@@ -879,6 +1231,110 @@
 		.schedule-strip,
 		.test-form {
 			grid-template-columns: 1fr;
+		}
+
+		.activity-section-header {
+			gap: 0.75rem;
+		}
+
+		.activity-counts {
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+
+		.activity-table-wrap {
+			display: none;
+		}
+
+		.activity-cards {
+			display: grid;
+			gap: 0.75rem;
+		}
+
+		.activity-card {
+			display: grid;
+			gap: 0.75rem;
+			min-width: 0;
+			padding: 0.9rem;
+			border: 1px solid var(--stone-edge);
+			border-radius: 16px;
+			background: var(--night-deep);
+		}
+
+		.activity-card.unsubscribed-card {
+			border-color: color-mix(in srgb, var(--warning) 36%, var(--stone-edge));
+		}
+
+		.activity-card header,
+		.activity-card footer,
+		.activity-card-meta {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.75rem;
+			min-width: 0;
+		}
+
+		.activity-card header {
+			align-items: flex-start;
+			flex-wrap: wrap;
+		}
+
+		.activity-card .recipient-cell {
+			max-width: min(55vw, 18rem);
+		}
+
+		.activity-card-meta {
+			justify-content: flex-start;
+			color: var(--ink-mid);
+			font-size: 0.72rem;
+			text-transform: capitalize;
+		}
+
+		.activity-card dl {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			margin: 0;
+			border: 1px solid var(--stone-warm);
+			border-radius: 10px;
+			overflow: hidden;
+		}
+
+		.activity-card dl div {
+			padding: 0.7rem;
+			border-right: 1px solid var(--stone-warm);
+		}
+
+		.activity-card dl div:last-child {
+			border-right: none;
+		}
+
+		.activity-card dl div.has-signal {
+			background: color-mix(in srgb, var(--data-teal) 8%, transparent);
+		}
+
+		.activity-card dt {
+			color: var(--ink-mid);
+			font-family: var(--font-mono);
+			font-size: 0.62rem;
+			text-transform: uppercase;
+		}
+
+		.activity-card dd {
+			margin: 0.25rem 0 0;
+			font-family: var(--font-mono);
+			font-size: 1rem;
+			font-weight: 700;
+		}
+
+		.activity-card footer {
+			color: var(--ink-mid);
+			font-size: 0.68rem;
+		}
+
+		.activity-card footer strong {
+			color: var(--ink-bright);
+			font-weight: 600;
 		}
 
 		/* Let the wide tables reflow within the phone viewport instead of

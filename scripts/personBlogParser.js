@@ -9,6 +9,8 @@
 //   node scripts/personBlogParser.js --grades-only Malcolm-Gladwell # Dry-run grade change
 //   node scripts/personBlogParser.js Malcolm-Gladwell --publish
 //   node scripts/personBlogParser.js --publish          # Publish top eligible unpublished draft
+//   node scripts/personBlogParser.js Malcolm-Gladwell --publish-check --json
+//   node scripts/personBlogParser.js Malcolm-Gladwell --record-grade-stability --first-overall=8.6
 //
 import { promises as fs } from 'fs';
 import { execFileSync, execSync } from 'child_process';
@@ -768,6 +770,26 @@ async function findMarkdownFiles(dir, fileList = []) {
 }
 
 /**
+ * Resolve one person to its processable local draft without relying on filename casing.
+ * @param {string} personFilter
+ * @returns {Promise<string>}
+ */
+async function findPersonDraftFile(personFilter) {
+	const normalizedPerson = normalizePersonalitySlug(personFilter);
+	if (!normalizedPerson) {
+		throw new Error('A person slug is required');
+	}
+
+	const draftFiles = filterProcessableMarkdownFiles(await findMarkdownFiles(PEOPLE_DRAFTS_DIR));
+	for (const filePath of draftFiles) {
+		const entry = await parseMarkdownFile(filePath);
+		if (entry.person === normalizedPerson) return filePath;
+	}
+
+	throw new Error(`No blog entry found for person: ${personFilter}`);
+}
+
+/**
  * Extract JSON-LD from HTML content
  * @param {string} content - HTML content
  * @returns {JsonLdSnippet | null} - Parsed JSON-LD object or null if not found/invalid
@@ -1166,14 +1188,36 @@ export function selectPublishCandidate(candidates, publishedMap, hasExplicitPers
  * @param {number} [limit=8]
  * @returns {string}
  */
-function formatPublishCandidateBlockers(candidates, limit = 8) {
-	return candidates
+export function formatPublishCandidateBlockers(candidates, limit = 8) {
+	const unpublished = candidates.filter((candidate) => candidate.dbPublished !== true);
+	const ranked = [...unpublished].sort((a, b) => {
+		const blockerDelta = a.blockers.length - b.blockers.length;
+		if (blockerDelta !== 0) return blockerDelta;
+		const gradeDelta = (b.qualityOverall ?? 0) - (a.qualityOverall ?? 0);
+		if (gradeDelta !== 0) return gradeDelta;
+		return a.entry.person.localeCompare(b.entry.person);
+	});
+	const blockerCounts = new Map();
+	for (const candidate of unpublished) {
+		for (const blocker of candidate.blockers) {
+			const key = blocker.split(':', 1)[0];
+			blockerCounts.set(key, (blockerCounts.get(key) ?? 0) + 1);
+		}
+	}
+	const counts = [...blockerCounts.entries()]
+		.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+		.slice(0, 8)
+		.map(([blocker, count]) => `${blocker}=${count}`)
+		.join(', ');
+	const closest = ranked
 		.slice(0, limit)
 		.map((candidate) => {
 			const label = candidate.entry.person || path.basename(candidate.filePath);
 			return `- ${label}: ${candidate.blockers.join('; ') || 'eligible'}`;
 		})
 		.join('\n');
+
+	return `Unpublished candidates: ${unpublished.length}\nBlocker counts: ${counts || 'none'}\nClosest candidates:\n${closest || '- none'}`;
 }
 
 /**
@@ -1234,6 +1278,103 @@ export function updatePublishFrontmatterContent(fileContent, publishDate) {
 	updatedFrontmatter = replaceFrontmatterScalarLine(updatedFrontmatter, 'published', 'true');
 
 	return `${opening}${updatedFrontmatter}${closing}${body}`;
+}
+
+/**
+ * Persist a grade/regrade pair without re-serializing unrelated YAML.
+ * @param {string} fileContent
+ * @param {number} firstOverall
+ * @param {number} regradeOverall
+ * @returns {string}
+ */
+export function updateGradeStabilityFrontmatterContent(fileContent, firstOverall, regradeOverall) {
+	const first = normalizeScore(firstOverall);
+	const regrade = normalizeScore(regradeOverall);
+	if (first === null || regrade === null) {
+		throw new Error('Both first and regrade overall scores must be numbers from 0 to 10');
+	}
+
+	const frontmatterMatch = fileContent.match(/^(---\r?\n)([\s\S]*?)(\r?\n---)([\s\S]*)$/);
+	if (!frontmatterMatch) {
+		throw new Error('Missing YAML frontmatter block');
+	}
+
+	const [, opening, frontmatterContent, closing, body] = frontmatterMatch;
+	const newline = frontmatterContent.includes('\r\n') ? '\r\n' : '\n';
+	const lines = frontmatterContent.split(/\r?\n/);
+	const qualityStart = lines.findIndex((line) => /^content_quality:\s*$/.test(line));
+	if (qualityStart === -1) {
+		throw new Error('Missing content_quality frontmatter block');
+	}
+	let qualityEnd = lines.length;
+	for (let index = qualityStart + 1; index < lines.length; index += 1) {
+		if (/^\S/.test(lines[index])) {
+			qualityEnd = index;
+			break;
+		}
+	}
+	const overallIndex = lines.findIndex(
+		(line, index) => index > qualityStart && index < qualityEnd && /^\s+overall:\s*/.test(line)
+	);
+	if (overallIndex === -1) {
+		throw new Error('Missing content_quality.overall');
+	}
+
+	const stabilityKeys = new Set(['first_overall', 'regrade_overall', 'grade_stability_delta']);
+	const withoutStability = lines.filter((line, index) => {
+		if (index <= qualityStart || index >= qualityEnd) return true;
+		const key = line.match(/^\s+([a-z_]+):/)?.[1];
+		return !key || !stabilityKeys.has(key);
+	});
+	const adjustedOverallIndex = withoutStability.findIndex(
+		(line, index) => index > qualityStart && /^\s+overall:\s*/.test(line)
+	);
+	const indent = withoutStability[adjustedOverallIndex].match(/^(\s+)/)?.[1] || '  ';
+	const delta = Math.abs(first - regrade);
+	withoutStability.splice(
+		adjustedOverallIndex + 1,
+		0,
+		`${indent}first_overall: ${first.toFixed(1)}`,
+		`${indent}regrade_overall: ${regrade.toFixed(1)}`,
+		`${indent}grade_stability_delta: ${delta.toFixed(1)}`
+	);
+
+	return `${opening}${withoutStability.join(newline)}${closing}${body}`;
+}
+
+/**
+ * @param {string} personFilter
+ * @param {number} firstOverall
+ * @returns {Promise<{ filePath: string, firstOverall: number, regradeOverall: number, gradeStabilityDelta: number }>}
+ */
+async function recordGradeStability(personFilter, firstOverall) {
+	const filePath = await findPersonDraftFile(personFilter);
+	const entry = await parseMarkdownFile(filePath);
+	const regradeOverall = normalizeScore(entry.content_quality?.overall);
+	const first = normalizeScore(firstOverall);
+	if (first === null || regradeOverall === null) {
+		throw new Error('Cannot record grade stability without both grade scores');
+	}
+	const fileContent = await fs.readFile(filePath, 'utf8');
+	await fs.writeFile(
+		filePath,
+		updateGradeStabilityFrontmatterContent(fileContent, first, regradeOverall),
+		'utf8'
+	);
+	return {
+		filePath,
+		firstOverall: first,
+		regradeOverall,
+		gradeStabilityDelta: Math.abs(first - regradeOverall)
+	};
+}
+
+/**
+ * @param {string} personFilter
+ * @returns {Promise<PublishCandidate>}
+ */
+async function checkPersonPublishReadiness(personFilter) {
+	return readPublishCandidate(await findPersonDraftFile(personFilter));
 }
 
 /**
@@ -1977,11 +2118,15 @@ async function main() {
 		const changedOnly = args.includes('--changed');
 		const gradesOnly = args.includes('--grades-only');
 		const publish = args.includes('--publish');
+		const publishCheck = args.includes('--publish-check');
+		const recordStability = args.includes('--record-grade-stability');
+		const jsonOutput = args.includes('--json');
 		const skipGenAll = args.includes('--skip-gen-all');
 		const apply = args.includes('--apply');
 		const explicitDryRun = args.includes('--dry-run');
 		const expectedContentHashArg = args.find((arg) => arg.startsWith('--expected-content-hash='));
 		const approvedFieldsArg = args.find((arg) => arg.startsWith('--approve-fields='));
+		const firstOverallArg = args.find((arg) => arg.startsWith('--first-overall='));
 		const expectedContentHash = expectedContentHashArg?.slice('--expected-content-hash='.length);
 		const approvedFields = (approvedFieldsArg?.slice('--approve-fields='.length) || '')
 			.split(',')
@@ -1991,6 +2136,44 @@ async function main() {
 		const normalizedPersonFilter = normalizePersonalitySlug(personFilter);
 		/** @type {PersonBlogEntry[]} */
 		let blogEntries = [];
+
+		if (publishCheck || recordStability) {
+			if (!personFilter) {
+				throw new Error(
+					`${publishCheck ? '--publish-check' : '--record-grade-stability'} requires a person slug`
+				);
+			}
+			if (publish || apply || gradesOnly || changedOnly) {
+				throw new Error('Publish checks and stability recording are standalone operations');
+			}
+			if (publishCheck) {
+				const candidate = await checkPersonPublishReadiness(personFilter);
+				const result = {
+					person: candidate.entry.person,
+					filePath: candidate.filePath,
+					eligible: candidate.blockers.length === 0,
+					overall: candidate.qualityOverall,
+					blockers: candidate.blockers
+				};
+				if (jsonOutput) console.log(JSON.stringify(result));
+				else {
+					console.log(`Publish ready: ${result.eligible ? 'yes' : 'no'}`);
+					for (const blocker of result.blockers) console.log(`- ${blocker}`);
+				}
+				if (!result.eligible) process.exitCode = 2;
+				return;
+			}
+
+			const firstOverall = Number(firstOverallArg?.slice('--first-overall='.length));
+			const result = await recordGradeStability(personFilter, firstOverall);
+			if (jsonOutput) console.log(JSON.stringify(result));
+			else {
+				console.log(
+					`Recorded grade stability for ${personFilter}: ${result.firstOverall.toFixed(1)} -> ${result.regradeOverall.toFixed(1)} (delta ${result.gradeStabilityDelta.toFixed(1)})`
+				);
+			}
+			return;
+		}
 
 		if (publish) {
 			if (gradesOnly) {

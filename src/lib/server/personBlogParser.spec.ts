@@ -11,6 +11,7 @@ import {
 	extractJsonLd,
 	filterProcessableMarkdownFiles,
 	findUnfinishedDraftMarkers,
+	formatPublishCandidateBlockers,
 	getMissingPublishFrontmatterFields,
 	getPublishImageStatus,
 	hashPeopleContent,
@@ -26,6 +27,7 @@ import {
 	resolveReleaseEventType,
 	selectPublishCandidate,
 	shouldProcessMarkdownFile,
+	updateGradeStabilityFrontmatterContent,
 	updatePublishFrontmatterContent,
 	verifyNonPublishUpdate
 } from '../../../scripts/personBlogParser.js';
@@ -177,6 +179,30 @@ Body`;
 		expect(output).not.toContain('author: DJ Wayne');
 	});
 
+	it('records a deterministic grade-stability pair without reformatting unrelated frontmatter', () => {
+		const input = `---
+title: 'Example'
+content_quality:
+  hook: 9
+  overall: 8.6
+  first_overall: 9.9
+  regrade_overall: 1.0
+  grade_stability_delta: 8.9
+  letter: 'B+'
+published: false
+---
+
+Body`;
+
+		const output = updateGradeStabilityFrontmatterContent(input, 8.6, 8.4);
+
+		expect(output).toContain('  overall: 8.6\n  first_overall: 8.6');
+		expect(output).toContain('  regrade_overall: 8.4');
+		expect(output).toContain('  grade_stability_delta: 0.2');
+		expect(output).toContain("title: 'Example'");
+		expect(output.match(/first_overall:/g)).toHaveLength(1);
+	});
+
 	it('uses the current publish time as first_published_at for unpublished draft rows', () => {
 		const publishedAt = '2026-04-17T10:00:00.000Z';
 
@@ -276,6 +302,33 @@ TODO: add source.
 
 		expect(selected?.entry.person).toBe('candidate-b');
 		expect(candidates[0].blockers).toContain('already_published');
+	});
+
+	it('reports the closest unpublished candidates instead of the first files alphabetically', () => {
+		const candidates = [
+			{
+				entry: { person: 'already-live' },
+				qualityOverall: 10,
+				blockers: ['already_published'],
+				dbPublished: true
+			},
+			{
+				entry: { person: 'many-blockers' },
+				qualityOverall: 9.2,
+				blockers: ['missing_full_image', 'missing_thumbnail_image']
+			},
+			{
+				entry: { person: 'one-blocker' },
+				qualityOverall: 8.8,
+				blockers: ['missing_grade_stability_delta:run supervised grade/regrade']
+			}
+		] as any[];
+
+		const output = formatPublishCandidateBlockers(candidates, 2);
+
+		expect(output).toContain('Unpublished candidates: 2');
+		expect(output.indexOf('- one-blocker')).toBeLessThan(output.indexOf('- many-blockers'));
+		expect(output).not.toContain('already-live');
 	});
 
 	describe('JSON-LD frontmatter normalizers', () => {

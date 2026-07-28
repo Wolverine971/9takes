@@ -1,6 +1,7 @@
 <!-- src/routes/admin/email-dashboard/+page.svelte -->
 <script lang="ts">
 	import { onDestroy } from 'svelte';
+	import { page } from '$app/state';
 	import type { PageData } from './$types';
 	import type {
 		EmailRecipient,
@@ -19,9 +20,19 @@
 	import { Button } from '$lib/components/atoms';
 
 	let { data }: { data: PageData } = $props();
+	type EmailDashboardTab = 'users' | 'drafts' | 'sent' | 'scheduled' | 'unsubscribes';
+	const requestedTab = page.url.searchParams.get('tab');
+	const initialTab: EmailDashboardTab =
+		requestedTab === 'drafts' ||
+		requestedTab === 'sent' ||
+		requestedTab === 'scheduled' ||
+		requestedTab === 'unsubscribes'
+			? requestedTab
+			: 'users';
 
 	// State
-	let activeTab = $state<'users' | 'drafts' | 'sent' | 'scheduled' | 'unsubscribes'>('users');
+	let activeTab = $state<EmailDashboardTab>(initialTab);
+	let initialTabFetched = $state(false);
 	let users = $state((data.users || []) as EmailRecipient[]);
 	let totalUsers = $state(data.totalUsers || 0);
 	let drafts = $state((data.drafts || []) as unknown as EmailDraft[]);
@@ -362,6 +373,16 @@
 		}
 	}
 
+	$effect(() => {
+		if (initialTabFetched) return;
+		initialTabFetched = true;
+
+		if (activeTab === 'unsubscribes') void fetchUnsubscribes();
+		if (activeTab === 'sent') void fetchSentEmails();
+		if (activeTab === 'drafts') void fetchDrafts();
+		if (activeTab === 'scheduled') void fetchScheduledEmails();
+	});
+
 	function handleSentFilterChange() {
 		sentPage = 1;
 		void fetchSentEmails();
@@ -427,7 +448,7 @@
 		}
 	}
 
-	function setActiveTab(tab: 'users' | 'drafts' | 'sent' | 'scheduled' | 'unsubscribes') {
+	function setActiveTab(tab: EmailDashboardTab) {
 		activeTab = tab;
 		if (tab === 'sent') {
 			void fetchSentEmails();

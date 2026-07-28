@@ -1,6 +1,6 @@
 ---
 title: 'Jason Sudeikis: An Enneagram Type 9 Analysis'
-meta_title: 'The Real Reason Jason Sudeikis Made Ted Lasso So Kind'
+meta_title: 'Jason Sudeikis Enneagram Type 9: The Hidden Anger'
 persona_title: "Comedy's Reluctant Peacekeeper"
 description: 'Why does the kindest man on television keep his own anger so hidden? Jason Sudeikis reads as a textbook Enneagram Type 9. Here is what that explains.'
 author: 'DJ Wayne'
@@ -50,6 +50,13 @@ same_as:
 citations:
   - 'https://en.wikipedia.org/wiki/Jason_Sudeikis'
   - 'https://www.britannica.com/biography/Jason-Sudeikis'
+  - 'https://www.interviewmagazine.com/film/jason-sudeikis'
+  - 'https://www.gq.com/story/jason-sudeikis-august-cover-profile'
+  - 'https://www.etonline.com/olivia-wilde-served-legal-paperwork-from-jason-sudeikis-on-stage-at-cinemacon-183164'
+  - 'https://www.cbsnews.com/video/ted-lasso-exuding-positivity-was-intentional/'
+  - 'https://www.business-standard.com/article/news-ians/letting-out-anger-every-now-and-then-is-healthy-jason-sudeikis-116043000242_1.html'
+  - 'https://www.apple.com/tv-pr/news/2026/04/apple-tvs-emmy-award-winning-global-smash-hit-series-ted-lasso-returns-for-season-four-on-wednesday-august-5/'
+  - 'https://au.variety.com/2026/tv/features/hannah-waddingham-wicked-rumors-ted-lasso-return-37120/'
 faqs:
   - question: "What is Jason Sudeikis's personality type?"
     answer: 'Jason Sudeikis reads as an Enneagram Type 9, the Peacemaker, most likely a 9w1. The evidence: he calls himself "the boring one" and the straight man, spent nine SNL seasons making flashier comedians funnier, built Ted Lasso as a system for keeping the peace, and describes his own anger as something to release in "a little toot" rather than a confrontation. When he could not be a goldfish, the conflict over his split from Olivia Wilde got routed sideways through lawyers rather than fought cleanly in the open.'
@@ -75,31 +82,29 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Jason-Sudeikis.md
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 9
-  originality: 9
-  discoverability: 8
-  overall: 8.8
-  letter: B+
+  enneagram: 8
+  evidence: 8
+  writing: 8
+  originality: 7
+  discoverability: 9
+  overall: 8.1
+  first_overall: 8.8
+  regrade_overall: 8.1
+  grade_stability_delta: 0.7
+  letter: B
   rubric_version: 2
-  graded_at: '2026-06-17'
-path: src/blog/people/drafts/Jason-Sudeikis.md
+  caps_applied:
+    - contrast_pair_overuse
+    - same_type_reuse
+    - house_empathy_turn
+  confidence: high
+  anchor: 'Matt-Smith draft (2026-06-28)'
+  needs_review: false
+  graded_at: '2026-07-27'
 ---
-
-<!-- QUALITY GRADE: B+ (8.8) — rubric v2
-Evidence: 9 | Originality: 9 | Discoverability: 8 | Enneagram: 9 | Writing: 9 | Hook: 9
-
-FEEDBACK (2026-06-17):
-- The "both things are true" frame (emails grieving strangers / lawyers chose that stage) sets the real question — "how the same person produces both" — instead of smoothing it. Strongest opening move in the piece.
-- The Waddingham section earns its keep: "control that never has to raise its voice" is the genuinely non-obvious insight that lifts this past the nice-guy surface. Same with "pastry on his game" (Campbell, period-stamped) as a signature detail.
-- The empathy turn on the CinemaCon custody papers — reading the serving as a conflict-avoider's failure to fight cleanly, not cruelty — is earned, and the inner-thought interior beat ("A little toot. Not a confrontation.") lands all three of the emotional-interior checks.
-- Rabbit hole is clean: 9w1, social subtype, 6/3 arrows, and the Type 2 counter-case are all quarantined out of the body. Evidence is exceptional — quotes are structural across multiple dated sources.
-- NEEDS WORK: meta_title ("The Real Reason Jason Sudeikis Made Ted Lasso So Kind") is a strong CTR play but carries none of the core search term — "enneagram" / "type 9" / "personality type" live only in title and description. This is the single thing holding Discoverability at 8.
-- TO REACH A (9.0+): (1) Buy back the meta_title miss — either work "Enneagram Type 9" into a 50–60 char meta_title or accept the CTR title and verify the H2/description fully carry the query (they currently do, which is why it's still B+). (2) The goldfish/ten-second-memory motif runs through TL;DR, two body mentions, and the close; the body's second mention is the most expendable — cutting it would sharpen the callback. Neither is a blocker; this is publish-ready as graded.
--->
 
 <!-- TESTIMONY LEDGER
 1. Hannah Waddingham: "There's always going to be a bit of give-and-take within a scene, because of the nature of how Sudeikis works. He hears it in the room, and then we tweak. With that boy, you've got to roll with the punches." — TODAY interview, 2024
@@ -134,11 +139,11 @@ Interior beat: <p class="inner-thought"> in "How Jason Sudeikis fights when he c
 Ending swap-test: pass — the goldfish/ten-second-memory callback belongs only to Sudeikis (Campbell's line, his creed)
 -->
 
-> "I was a straight man long before I knew what it was called. I was just the boring one." — Jason Sudeikis, Interview Magazine
+> "I was a straight man long before I knew what it was called. I was just the boring one." — Jason Sudeikis, _Interview Magazine_, July 2013
 
-<p class="firstLetter">In April 2022, Olivia Wilde stood on a stage at CinemaCon in Las Vegas, presenting the trailer for her film <em>Don't Worry Darling</em>. A stranger walked up and handed her a manila envelope, marked "Personal and Confidential" according to _Variety_'s reporting that April. Inside were child-custody papers from Jason Sudeikis, the man American audiences had just spent two years voting the kindest person on television.</p>
+<p class="firstLetter">In April 2022, Olivia Wilde stood on a stage at CinemaCon in Las Vegas, presenting the trailer for her film <em>Don't Worry Darling</em>. A stranger walked up and handed her a manila envelope. _Entertainment Tonight_ reported that month that it bore the words Personal and Confidential. Inside were child-custody papers from Jason Sudeikis, the man American audiences had just spent two years voting the kindest person on television.</p>
 
-She kept talking. Backstage, she dissolved. A representative for Sudeikis told _Entertainment Tonight_ in April 2022 that he had not known when the documents would be delivered and "would never condone her being served in such an inappropriate manner."
+She kept talking. Backstage, she dissolved. Sudeikis had not known when the documents would be delivered and "would never condone her being served in such an inappropriate manner," his representative told _Entertainment Tonight_ in April 2022.
 
 Both things are true. He really is the man who emails grieving strangers to comfort them. He is also the man whose lawyers chose that stage. The interesting question is not which one is the real him. It is how the same person produces both.
 
@@ -165,7 +170,7 @@ Most people see the warmest man in show business. A coach who hands out complime
 
 Nines are the Peacemakers. Their gift is merging with other people, smoothing conflict, holding a group together so no one has to be the villain. Their blind spot is themselves. They go to sleep on their own anger, their own wants, their own edges, because having edges might rupture the connection. The deadly sin assigned to the type is not cruelty. It is a kind of self-forgetting.
 
-Watch how Sudeikis talks about himself and the pattern is hard to miss. Asked, repeatedly, about being one of the nicest guys in comedy, he answers, "I don't know about that." Asked about his own talent, he reaches for the smallest possible frame: the straight man, the boring one, the guy who set up the joke so someone else could land it. He won the Emmy for Lead Actor in a Comedy two years running, in 2021 and 2022, for a character he insists is mostly other people, his dad's mustache, his coach's sayings, a borrowed warmth.
+Watch how Sudeikis talks about himself and the pattern is hard to miss. In his July 2013 _Interview Magazine_ conversation with Michael Keaton, he reached for the smallest possible frame: the straight man, the boring one, the guy who set up the joke so someone else could land it. He won the Emmy for Lead Actor in a Comedy two years running, in 2021 and 2022, for a character he insists is mostly other people, his dad's mustache, his coach's sayings, a borrowed warmth.
 
 That is the tell. A man with a healthy relationship to his own importance does not work this hard to give it away.
 
@@ -175,7 +180,7 @@ Daniel Jason Sudeikis grew up in Overland Park, Kansas, the affable kid in a war
 
 Comedy, for Sudeikis, started as a team sport before it was a career. He came up through ComedySportz in suburban Kansas City and the longform improv houses of Chicago, where the first rule is "yes, and." You never block your scene partner. You accept whatever they hand you and build on it. For most performers that is a technique. For a Nine it is a philosophy of life. Never refuse, never rupture, keep the thing going.
 
-His high-school basketball coach, Donnie Campbell, remembers a player who was easy to like and hard to push. "When he got between the lines, he was a really good competitor, and he was a terrific teammate," Campbell told a Kansas City station in 2021. Then the detail that says everything: "He liked putting a little pastry on his game that I didn't always like, and he didn't always play the kind of defense that I wish he'd play."
+His high-school basketball coach, Donnie Campbell, remembers a player who was easy to like and hard to push. "When he got between the lines, he was a really good competitor, and he was a terrific teammate," Campbell told Kansas City's KSHB in 2021. Then the detail that says everything: "He liked putting a little pastry on his game that I didn't always like, and he didn't always play the kind of defense that I wish he'd play."
 
 Pastry on his game. The flourish, the charm, the part that delights the crowd. Less of the grinding, unglamorous defense. A coach naming, in 1993, the exact shape of a personality. The warmth comes naturally. The hard, gritty confrontation does not.
 
@@ -193,7 +198,7 @@ When Sudeikis finally built something with his name on the front of it, he did n
 
 Ted Lasso, the relentlessly decent American coach exported to English soccer, was assembled from people Sudeikis loved: his loquacious father, "that's where the mustache comes from," and above all Coach Campbell. The show's most famous line came straight from Campbell's locker room. "You know what the happiest animal on Earth is? A goldfish. You know why? Got a ten-second memory." Be a goldfish. Forget the bad play. Move on.
 
-It is the perfect creed for a Nine. The whole type is organized around not letting the unpleasant thing take up residence. And Sudeikis knew exactly what he was making. "To play someone that was kindhearted, that didn't swear, be like teflon toward people's negativity," he said, was "a hundred percent intentional."
+It is the perfect creed for a Nine. The whole type is organized around not letting the unpleasant thing take up residence. And Sudeikis knew exactly what he was making. "To play someone that was kindhearted, that didn't swear, be like teflon toward people's negativity," he told CBS's _60 Minutes_ in 2022, was "a hundred percent intentional."
 
 Pressed on whether kindness is really the most powerful force, he gave an answer that is more revealing than it sounds. "And so can the opposite," he admitted. "But if you had to choose one, I'd much rather view the world as Ted Lasso." There is nothing naive in that. It is the choice of a man who knows the darkness is real and has decided, on purpose, to keep his back to it. A Nine sees the dark fine. He just refuses to make a home in it.
 
@@ -211,7 +216,7 @@ Watch how a conflict-avoider metabolizes that. Slowly. Sideways. With enormous e
 
 "I'll have a better understanding of why in a year," he told GQ in 2021, "and an even better one in two, and an even greater one in five, and it'll go from being a book of my life to becoming a chapter, to a paragraph, to a line, to a word, to a doodle." It is a beautiful sentence. It is also a man describing how he plans to shrink a wound by waiting it out rather than walking into it. Understanding scheduled for the distant future. The anger nowhere in the frame.
 
-Because the anger is the part Nines cannot reach. Sudeikis once described his own relationship to it with uncomfortable precision, talking about voicing the lead in <em>The Angry Birds Movie</em>: "We've gotten better at acting like anger doesn't exist, but it clearly still does. Don't hold it all the way in and don't let it all the way out, but a little toot of anger every now and then is a nice thing."
+Because the anger is the part Nines cannot reach. Sudeikis described his own relationship to it with uncomfortable precision in an April 2016 IANS interview about voicing the lead in <em>The Angry Birds Movie</em>: "We've gotten better at acting like anger doesn't exist, but it clearly still does. Don't hold it all the way in and don't let it all the way out, but a little toot of anger every now and then is a nice thing."
 
 <p class="inner-thought">A little toot. Not a confrontation. Not a fight you finish. Just enough pressure released to keep the rest of it sealed.</p>
 
@@ -244,13 +249,13 @@ The strongest alternate case is Type 2, the Helper. Ted heals everyone, gives co
 
 Here is the part the warmth obscures: a Nine's peace is not always passive. Sometimes it is how control gets exercised without anyone calling it control.
 
-Hannah Waddingham, who played Rebecca across all three seasons of Ted Lasso, has described the experience with affection and a little exhaustion. "There's always going to be a bit of give-and-take within a scene, because of the nature of how Sudeikis works," she said in 2024. "He hears it in the room, and then we tweak. With that boy, you've got to roll with the punches." She has called it "an ongoing love-hate relationship," the way he changes things at the last minute, the way the rest of them adjust around him.
+Hannah Waddingham, who plays Rebecca on _Ted Lasso_, described the experience with affection and a little exhaustion in a May 2026 _Variety_ interview. "There's always going to be a bit of give-and-take within a scene, because of the nature of how Sudeikis works," she said. "He hears it in the room, and then we tweak. With that boy, you've got to roll with the punches." She called it "an ongoing love-hate relationship," the way he changes things at the last minute, the way the rest of them adjust around him.
 
 Read that carefully. The kindest set in television runs on everyone else adapting to one man's instinct, rewritten in the moment, never quite finished. There are no barked orders. He just keeps the scene fluid until it matches the harmony only he can hear, and the room reshapes itself to fit. It is control that never has to raise its voice, which is exactly the kind a Nine can live with.
 
 The same softness shows up in how he praises people. He once told Waddingham, "I saw Rebecca first. And then I had to get to know Hannah," a compliment so oblique she said it made her emotional precisely because he "doesn't give compliments lightly." Even the warmth is rationed and indirect. The man gives the world a character who hands out affection like water, and gives the people closest to him a single carefully weighed sentence.
 
-His real life keeps drifting back toward the keep-everyone-together fantasy. When Wrexham, the Welsh club turned global feel-good story, became the real-world echo of his own show, his response was warm and a little wistful: "Good timing with Ryan Reynolds." (He has been a Manchester City man for years; the underdog fairy tale was someone else's to own.) He keeps the door open on more Ted Lasso. The instinct never changes. Build the team. Hold it together.
+His real life keeps drifting back toward the keep-everyone-together fantasy. Apple confirmed that _Ted Lasso_ returns for a fourth season on August 5, 2026, with Ted coaching a second-division women's team. After three years away, Sudeikis did not come back for a solo victory lap. He came back to assemble another group of outsiders. The instinct never changes. Build the team. Hold it together.
 
 ## The ten-second memory
 
@@ -309,5 +314,3 @@ Left untouched (earned, not tells):
 - The CinemaCon open, the empathy turn, "pastry on his game," and the goldfish close.
 Reads production-ready. Lint clean (0 em-dashes). Only open item is frontmatter faqs (enrich stage not yet run).
 -->
-
-

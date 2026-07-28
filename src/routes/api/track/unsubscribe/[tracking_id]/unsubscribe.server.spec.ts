@@ -1,12 +1,16 @@
 // src/routes/api/track/unsubscribe/[tracking_id]/unsubscribe.server.spec.ts
 import { describe, expect, it, vi } from 'vitest';
 
-const { exitWelcomeSequenceForEmailMock } = vi.hoisted(() => ({
-	exitWelcomeSequenceForEmailMock: vi.fn()
-}));
+const { exitWelcomeSequenceForEmailMock, exitReactivationSequencesForEmailMock } = vi.hoisted(
+	() => ({
+		exitWelcomeSequenceForEmailMock: vi.fn(),
+		exitReactivationSequencesForEmailMock: vi.fn()
+	})
+);
 
 vi.mock('$lib/server/emailSequences', () => ({
-	exitWelcomeSequenceForEmail: exitWelcomeSequenceForEmailMock
+	exitWelcomeSequenceForEmail: exitWelcomeSequenceForEmailMock,
+	exitReactivationSequencesForEmail: exitReactivationSequencesForEmailMock
 }));
 
 import { GET, POST } from './+server';
@@ -49,6 +53,33 @@ describe('/api/track/unsubscribe/[tracking_id]', () => {
 		expect(supabase.from).not.toHaveBeenCalled();
 		expect(supabase.rpc).not.toHaveBeenCalled();
 		expect(exitWelcomeSequenceForEmailMock).not.toHaveBeenCalled();
+		expect(exitReactivationSequencesForEmailMock).not.toHaveBeenCalled();
+	});
+
+	it('exits welcome and reactivation flows immediately after an unsubscribe', async () => {
+		const recipientEmail = 'person@example.com';
+		const supabase = {
+			from: vi.fn(),
+			rpc: vi.fn().mockResolvedValue({ data: recipientEmail, error: null })
+		};
+		exitWelcomeSequenceForEmailMock.mockResolvedValue(1);
+		exitReactivationSequencesForEmailMock.mockResolvedValue(1);
+
+		const response = await POST({
+			params: { tracking_id: '43f280b0-1234-4abc-9def-123456789abc' },
+			request: new Request(
+				'https://9takes.com/api/track/unsubscribe/43f280b0-1234-4abc-9def-123456789abc',
+				{ method: 'POST', headers: { accept: 'application/json' } }
+			),
+			locals: { supabase }
+		} as any);
+
+		expect(response.status).toBe(200);
+		expect(exitWelcomeSequenceForEmailMock).toHaveBeenCalledWith(recipientEmail, 'unsubscribed');
+		expect(exitReactivationSequencesForEmailMock).toHaveBeenCalledWith(
+			recipientEmail,
+			'unsubscribed'
+		);
 	});
 
 	it('treats missing valid tracking IDs as 404 without logging a lookup error', async () => {

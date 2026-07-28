@@ -10,6 +10,7 @@
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
 	import { Button } from '$lib/components/atoms';
 	import { onDestroy } from 'svelte';
+	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
 
 	let { data }: { data: PageData } = $props();
 
@@ -350,6 +351,12 @@
 			/>
 			<StatCard icon="📧" label="Email Signups" value={data.signupPagination.total} />
 			<StatCard
+				icon="✉️"
+				label="Unsubscribed"
+				value={data.profileStats.unsubscribed}
+				color="warning"
+			/>
+			<StatCard
 				icon="🚧"
 				label="Quarantined on page"
 				value={quarantinedSignups.length}
@@ -511,8 +518,13 @@
 									<td class="date-cell" data-label="Joined">
 										{profile.createdAt || '—'}
 									</td>
-									<td data-label="Email">
+									<td class="profile-email-cell" data-label="Email">
 										<a href="mailto:{profile.email}" class="email-link">{profile.email}</a>
+										<EmailSubscriptionStatus
+											unsubscribed={profile.unsubscribed}
+											unsubscribedAt={profile.unsubscribed_at}
+											reason={profile.unsubscribe_reason}
+										/>
 									</td>
 									<td data-label="Type">
 										{#if profile.enneagram}
@@ -647,10 +659,12 @@
 									</td>
 									<td class="suppression-cell" data-label="Suppression">
 										{#if signup.isSuppressed}
-											<span class="suppression-reason">
-												{signup.suppressionReason || 'suppressed'}
-											</span>
-											<span class="suppression-date">{formatDateTime(signup.suppressedAt)}</span>
+											<EmailSubscriptionStatus
+												unsubscribed
+												unsubscribedAt={signup.suppressedAt}
+												reason={signup.suppressionReason}
+												showDetail
+											/>
 										{:else}
 											<span class="empty-badge">—</span>
 										{/if}
@@ -709,6 +723,11 @@
 				<div class="user-details">
 					<p class="user-email">{detailProfile.email}</p>
 					<p class="user-name">{displayName(detailProfile)}</p>
+					<EmailSubscriptionStatus
+						unsubscribed={detailProfile.unsubscribed}
+						unsubscribedAt={detailProfile.unsubscribed_at}
+						reason={detailProfile.unsubscribe_reason}
+					/>
 				</div>
 			</div>
 		{/if}
@@ -1169,6 +1188,19 @@
 
 	.email-link:hover {
 		color: var(--lamp-glow);
+	}
+
+	.profile-email-cell {
+		min-width: 180px;
+	}
+
+	.profile-email-cell .email-link {
+		display: block;
+		max-width: 240px;
+		margin-bottom: 5px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 	}
 
 	.source-cell,

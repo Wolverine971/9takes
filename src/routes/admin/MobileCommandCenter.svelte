@@ -18,6 +18,7 @@
 		UserRoundPlus
 	} from '@lucide/svelte';
 	import { getMobileAdminCommand } from '$lib/admin/mobileAdminCommand';
+	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
 	import type { PageData } from './$types';
 
 	type Props = {
@@ -175,6 +176,7 @@
 	let recentQuestions = $derived((data.dailyQuestions ?? []).slice(0, 4));
 	let recentUsers = $derived((data.recentSignups ?? []).slice(0, 4));
 	let recentEmailSignups = $derived((data.recentEmailSignups ?? []).slice(0, 4));
+	let recentUnsubscribes = $derived((data.recentUnsubscribes ?? []).slice(0, 4));
 </script>
 
 <section class="command-center" aria-labelledby="mobile-command-title">
@@ -373,7 +375,12 @@
 				<h2 id="mobile-activity-title">Latest activity</h2>
 			</div>
 			<span class="activity-count">
-				{formatCount(recentQuestions.length + recentUsers.length + recentEmailSignups.length)}
+				{formatCount(
+					recentQuestions.length +
+						recentUsers.length +
+						recentEmailSignups.length +
+						recentUnsubscribes.length
+				)}
 			</span>
 		</div>
 
@@ -420,7 +427,15 @@
 								Joined {formatDate(user.created_at)} · Type {user.enneagram || 'pending'}
 							</small>
 						</span>
-						<ArrowUpRight size={14} strokeWidth={1.8} aria-hidden="true" />
+						{#if user.unsubscribed}
+							<EmailSubscriptionStatus
+								unsubscribed
+								unsubscribedAt={user.unsubscribed_at}
+								reason={user.unsubscribe_reason}
+							/>
+						{:else}
+							<ArrowUpRight size={14} strokeWidth={1.8} aria-hidden="true" />
+						{/if}
 					</a>
 				{:else}
 					<p class="empty-copy compact">No recent registered users.</p>
@@ -443,10 +458,45 @@
 								{formatDate(signup.created_at)}
 							</small>
 						</span>
-						<Mail size={14} strokeWidth={1.8} aria-hidden="true" />
+						{#if signup.unsubscribed || signup.unsubscribed_date}
+							<EmailSubscriptionStatus
+								unsubscribed
+								unsubscribedAt={signup.unsubscribed_at || signup.unsubscribed_date}
+								reason={signup.unsubscribe_reason}
+							/>
+						{:else}
+							<Mail size={14} strokeWidth={1.8} aria-hidden="true" />
+						{/if}
 					</a>
 				{:else}
 					<p class="empty-copy compact">No recent email signups.</p>
+				{/each}
+			</div>
+		</details>
+
+		<details>
+			<summary>
+				<span>Unsubscribed</span>
+				<strong>{data.totalUnsubscribes}</strong>
+			</summary>
+			<div class="activity-list">
+				{#each recentUnsubscribes as unsubscribe (unsubscribe.id)}
+					<a href="/admin/email-dashboard?tab=unsubscribes" class="activity-row unsubscribe-row">
+						<span class="activity-main">
+							<strong>{unsubscribe.email}</strong>
+							<small>
+								{unsubscribe.reason || unsubscribe.source || 'Email opt-out'} ·
+								{formatDate(unsubscribe.unsubscribed_at)}
+							</small>
+						</span>
+						<EmailSubscriptionStatus
+							unsubscribed
+							unsubscribedAt={unsubscribe.unsubscribed_at}
+							reason={unsubscribe.reason}
+						/>
+					</a>
+				{:else}
+					<p class="empty-copy compact">No email unsubscribes recorded.</p>
 				{/each}
 			</div>
 		</details>
@@ -1074,6 +1124,10 @@
 
 	.activity-row + .activity-row {
 		border-top: 1px solid color-mix(in srgb, var(--stone-edge) 45%, transparent);
+	}
+
+	.activity-row.unsubscribe-row {
+		background: color-mix(in srgb, var(--warning) 5%, transparent);
 	}
 
 	.activity-row > svg {

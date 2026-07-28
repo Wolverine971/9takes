@@ -3,7 +3,10 @@
 
 import { error } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { exitWelcomeSequenceForEmail } from '$lib/server/emailSequences';
+import {
+	exitReactivationSequencesForEmail,
+	exitWelcomeSequenceForEmail
+} from '$lib/server/emailSequences';
 import { isUuid } from '$lib/utils/uuid';
 
 function escapeHtml(value: string): string {
@@ -223,10 +226,16 @@ export const POST: RequestHandler = async ({ params, request, locals }) => {
 		throw error(404, 'Email not found');
 	}
 
-	try {
-		await exitWelcomeSequenceForEmail(recipientEmail, 'unsubscribed');
-	} catch (sequenceError) {
-		console.error('Failed to exit welcome sequence on unsubscribe:', sequenceError);
+	const [welcomeExit, reactivationExit] = await Promise.allSettled([
+		exitWelcomeSequenceForEmail(recipientEmail, 'unsubscribed'),
+		exitReactivationSequencesForEmail(recipientEmail, 'unsubscribed')
+	]);
+
+	if (welcomeExit.status === 'rejected') {
+		console.error('Failed to exit welcome sequence on unsubscribe:', welcomeExit.reason);
+	}
+	if (reactivationExit.status === 'rejected') {
+		console.error('Failed to exit reactivation sequence on unsubscribe:', reactivationExit.reason);
 	}
 
 	const acceptsHtml = request.headers.get('accept')?.includes('text/html');

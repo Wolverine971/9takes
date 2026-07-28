@@ -4,6 +4,20 @@
 
 _Created: 2026-07-25. Companion to `backlog-queue.json`._
 
+## Automation repair — 2026-07-27
+
+The scheduler was firing, but the creation and publication contracts did not match. The repair now:
+
+- runs a mandatory independent second grade whenever stage 7 produced a score;
+- writes `first_overall`, `regrade_overall`, and `grade_stability_delta` deterministically;
+- checks the complete local publish gate before the creator calls a draft publish-ready;
+- stores `publishReady` and exact `publishBlockers` on completed queue entries;
+- runs the 6 AM publisher as a direct command, so an empty eligible pool is an OpenClaw error instead of a green agent summary;
+- ranks the genuinely closest unpublished candidates and reports aggregate blocker counts;
+- returns nonzero when the creator produces no draft, allowing the existing watchdog to catch quota/API failures.
+
+The first post-repair recovery is complete. Codex revised and independently regraded Alex Warren at 8.9 B+ with zero active caps and a 0.0 stability delta, then published it on July 27. Jason Sudeikis was independently regraded at 8.1 B and remains unpublished because the score, 0.7 stability delta, and three active caps fail the release gate. Image generation remains a deliberate manual gate, so drafts missing personality portraits remain human-assisted rather than fully automatic.
+
 **The two queues are different jobs and confusing them wastes work:**
 
 - **`backlog-queue.json`**: people who need a draft _written_. The nightly cron reads it, writes one draft per night, and skips anyone who already has a file in `src/blog/people/drafts/`.
@@ -11,9 +25,9 @@ _Created: 2026-07-25. Companion to `backlog-queue.json`._
 
 ---
 
-## Why nothing has published since 20 July
+## Why nothing published after 20 July
 
-The cron is not broken. `openclaw cron list` shows all four 9takes jobs reporting `ok`, and both the creator and the publisher ran this morning.
+Before the repair above, OpenClaw showed the creator and publisher as `ok` because the agent wrappers completed even when no release occurred.
 
 **The publisher runs every day and finds nothing it is allowed to ship.** From `logs/blog-automation/publish-people-2026-07-25.log`:
 
@@ -48,13 +62,12 @@ Ordered by effort to unblock, cheapest first.
 
 ### Needs only a supervised regrade (image already made)
 
-| Draft              | Grade | Rubric | Disc | Stability | Blocker                                       | Action                                                                       |
-| ------------------ | ----- | ------ | ---- | --------- | --------------------------------------------- | ---------------------------------------------------------------------------- |
-| **Alex Warren**    | 8.9   | v2 ✅  | 9 ✅ | _missing_ | `missing_grade_stability_delta`               | One supervised regrade. **Closest to shippable of anything in the backlog.** |
-| **Jason Sudeikis** | 8.8   | v2 ✅  | 8 ✅ | _missing_ | `missing_grade_stability_delta`               | One supervised regrade.                                                      |
-| **Jack Antonoff**  | 8.9   | v2 ✅  | 9 ✅ | **0.5**   | `grade_unstable:0.5_delta` (threshold is 0.3) | Regrade to settle the score. DJ-requested.                                   |
+| Draft              | Grade | Rubric | Disc | Stability | Blocker                                        | Action                                                  |
+| ------------------ | ----- | ------ | ---- | --------- | ---------------------------------------------- | ------------------------------------------------------- |
+| **Jason Sudeikis** | 8.1   | v2 ✅  | 9 ✅ | **0.7**   | Below 8.5; unstable; three active quality caps | Substantive revision before another supervised regrade. |
+| **Jack Antonoff**  | 8.9   | v2 ✅  | 9 ✅ | **0.5**   | `grade_unstable:0.5_delta` (threshold is 0.3)  | Regrade to settle the score. DJ-requested.              |
 
-**Ship Alex Warren first.** His second album _Wildchild_ lands in August 2026, "Ordinary" was the top-selling song of 2025, and he is a Grammy Best New Artist nominee. Publishing into that release window is the best timing available in the whole backlog.
+**Completed July 27:** Alex Warren shipped at 8.9 B+ ahead of the August 2026 _Wildchild_ release window. The database row, release event, generated famous-types entry, sitemap URL, and live HTTP 200 response were verified after publication.
 
 ### Needs a full rubric-v2 regrade (v1 grade, image already made)
 

@@ -20,11 +20,14 @@ import {
 import { sendEmail } from '$lib/email/sender';
 import { enrollDormantCandidatesInReactivationSequence } from '$lib/server/emailSequences';
 import { loadReactivationCandidateSummary } from '$lib/server/reactivationCandidates';
+import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
+import { normalizeEmail } from '$lib/email/suppression';
 import { logger } from '$lib/utils/logger';
 
 const TEST_UNSUBSCRIBE_URL = 'https://9takes.com/api/track/unsubscribe/test-preview';
 const EMAIL_PATTERN = /\S+@\S+\.\S+/;
 const QUEUE_PREVIEW_LIMIT = 200;
+const ACTIVITY_PREVIEW_LIMIT = 200;
 
 const BUCKET_LABELS: Record<ReactivationBucket, string> = {
 	cold: 'Cold',
@@ -76,6 +79,31 @@ type EnrollmentRow = {
 	failure_count: number;
 	last_error: string | null;
 	updated_at: string | null;
+};
+
+type EmailSendEngagementRow = {
+	id: string;
+	sequence_enrollment_id: string | null;
+	status: string | null;
+	sent_at: string | null;
+	opened_at: string | null;
+	open_count: number | null;
+	clicked_at: string | null;
+	click_count: number | null;
+	unsubscribed_at: string | null;
+	bounced_at: string | null;
+};
+
+type EnrollmentEngagement = {
+	messagesSent: number;
+	openedMessages: number;
+	totalOpens: number;
+	clickedMessages: number;
+	totalClicks: number;
+	lastOpenedAt: string | null;
+	lastClickedAt: string | null;
+	unsubscribedAt: string | null;
+	bouncedAt: string | null;
 };
 
 type CandidatePreview = {
@@ -259,6 +287,50 @@ function cumulativeOffsets(steps: DbStepRow[]) {
 	return offsets;
 }
 
+function latestTimestamp(current: string | null, candidate: string | null): string | null {
+	if (!candidate) return current;
+	if (!current) return candidate;
+	return new Date(candidate).getTime() > new Date(current).getTime() ? candidate : current;
+}
+
+function emptyEnrollmentEngagement(): EnrollmentEngagement {
+	return {
+		messagesSent: 0,
+		openedMessages: 0,
+		totalOpens: 0,
+		clickedMessages: 0,
+		totalClicks: 0,
+		lastOpenedAt: null,
+		lastClickedAt: null,
+		unsubscribedAt: null,
+		bouncedAt: null
+	};
+}
+
+function aggregateEnrollmentEngagement(rows: EmailSendEngagementRow[]) {
+	const byEnrollment = new Map<string, EnrollmentEngagement>();
+
+	for (const row of rows) {
+		if (!row.sequence_enrollment_id) continue;
+		const engagement = byEnrollment.get(row.sequence_enrollment_id) ?? emptyEnrollmentEngagement();
+		const opened = Boolean(row.opened_at) || (row.open_count ?? 0) > 0;
+		const clicked = Boolean(row.clicked_at) || (row.click_count ?? 0) > 0;
+
+		if (row.sent_at) engagement.messagesSent += 1;
+		if (opened) engagement.openedMessages += 1;
+		if (clicked) engagement.clickedMessages += 1;
+		engagement.totalOpens += row.open_count ?? 0;
+		engagement.totalClicks += row.click_count ?? 0;
+		engagement.lastOpenedAt = latestTimestamp(engagement.lastOpenedAt, row.opened_at);
+		engagement.lastClickedAt = latestTimestamp(engagement.lastClickedAt, row.clicked_at);
+		engagement.unsubscribedAt = latestTimestamp(engagement.unsubscribedAt, row.unsubscribed_at);
+		engagement.bouncedAt = latestTimestamp(engagement.bouncedAt, row.bounced_at);
+		byEnrollment.set(row.sequence_enrollment_id, engagement);
+	}
+
+	return byEnrollment;
+}
+
 async function assertAdmin(locals: App.Locals) {
 	const session = locals.session;
 	const supabase = locals.supabase;
@@ -334,7 +406,13 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const sequenceIds = sequences.map((sequence) => sequence.id);
 	const sequenceById = new Map(sequences.map((sequence) => [sequence.id, sequence]));
 
-	const [stepsResult, enrollmentsResult, candidatePreview, enrollmentCounts] = await Promise.all([
+	const [
+		stepsResult,
+		enrollmentsResult,
+		activityEnrollmentsResult,
+		candidatePreview,
+		enrollmentCounts
+	] = await Promise.all([
 		sequenceIds.length
 			? supabase
 					.from('email_sequence_steps')
@@ -357,6 +435,16 @@ export const load: PageServerLoad = async ({ locals }) => {
 					.order('next_send_at', { ascending: true })
 					.limit(QUEUE_PREVIEW_LIMIT)
 			: Promise.resolve({ data: [], error: null }),
+		sequenceIds.length
+			? supabase
+					.from('email_sequence_enrollments')
+					.select(
+						'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
+					)
+					.in('sequence_id', sequenceIds)
+					.order('enrolled_at', { ascending: false })
+					.limit(ACTIVITY_PREVIEW_LIMIT)
+			: Promise.resolve({ data: [], error: null }),
 		buildCandidatePreview(supabase),
 		loadReactivationEnrollmentCounts(supabase, sequenceIds)
 	]);
@@ -366,6 +454,9 @@ export const load: PageServerLoad = async ({ locals }) => {
 	}
 	if (enrollmentsResult.error) {
 		throw enrollmentsResult.error;
+	}
+	if (activityEnrollmentsResult.error) {
+		throw activityEnrollmentsResult.error;
 	}
 
 	const steps = (stepsResult.data ?? []) as DbStepRow[];
@@ -448,19 +539,21 @@ export const load: PageServerLoad = async ({ locals }) => {
 		});
 
 	const enrollmentRows = (enrollmentsResult.data ?? []) as EnrollmentRow[];
-	const queueUserIds = [
-		...new Set(enrollmentRows.map((enrollment) => enrollment.user_id).filter(Boolean))
+	const activityEnrollmentRows = (activityEnrollmentsResult.data ?? []) as EnrollmentRow[];
+	const listedEnrollments = [...enrollmentRows, ...activityEnrollmentRows];
+	const listedUserIds = [
+		...new Set(listedEnrollments.map((enrollment) => enrollment.user_id).filter(Boolean))
 	] as string[];
 	const profileById = new Map<
 		string,
 		{ created_at: string | null; first_name: string | null; username: string | null }
 	>();
 
-	if (queueUserIds.length > 0) {
+	if (listedUserIds.length > 0) {
 		const { data: queueProfiles, error: queueProfilesError } = await supabase
 			.from('profiles')
 			.select('id, created_at, first_name, username')
-			.in('id', queueUserIds);
+			.in('id', listedUserIds);
 
 		if (queueProfilesError) {
 			throw queueProfilesError;
@@ -474,6 +567,88 @@ export const load: PageServerLoad = async ({ locals }) => {
 			});
 		}
 	}
+
+	const listedEnrollmentIds = [...new Set(listedEnrollments.map((enrollment) => enrollment.id))];
+	const listedEmails = listedEnrollments.map((enrollment) => enrollment.recipient_email);
+	const [engagementResult, suppressionLookup] = await Promise.all([
+		listedEnrollmentIds.length
+			? supabase
+					.from('email_sends')
+					.select(
+						'id, sequence_enrollment_id, status, sent_at, opened_at, open_count, clicked_at, click_count, unsubscribed_at, bounced_at'
+					)
+					.in('sequence_enrollment_id', listedEnrollmentIds)
+			: Promise.resolve({ data: [], error: null }),
+		loadEmailSuppressionStatus(supabase, listedEmails)
+	]);
+
+	if (engagementResult.error) {
+		throw engagementResult.error;
+	}
+	if (suppressionLookup.error) {
+		throw suppressionLookup.error;
+	}
+
+	const engagementByEnrollment = aggregateEnrollmentEngagement(
+		(engagementResult.data ?? []) as EmailSendEngagementRow[]
+	);
+
+	function getEnrollmentActivity(enrollment: EnrollmentRow) {
+		const engagement = engagementByEnrollment.get(enrollment.id) ?? emptyEnrollmentEngagement();
+		const suppression = suppressionLookup.byEmail.get(normalizeEmail(enrollment.recipient_email));
+		const profile = enrollment.user_id ? profileById.get(enrollment.user_id) : null;
+		const sequenceKey = sequenceById.get(enrollment.sequence_id)?.key;
+		const unsubscribedAt = latestTimestamp(
+			engagement.unsubscribedAt,
+			suppression?.unsubscribedAt ?? null
+		);
+		const lastEngagedAt = latestTimestamp(
+			latestTimestamp(engagement.lastOpenedAt, engagement.lastClickedAt),
+			unsubscribedAt
+		);
+
+		return {
+			...engagement,
+			sequenceKey: sequenceKey ?? '',
+			bucket: sequenceKey ? SEQUENCE_TO_BUCKET[sequenceKey] : null,
+			recipientName: profile?.first_name?.trim() || profile?.username?.trim() || null,
+			unsubscribed: Boolean(unsubscribedAt),
+			unsubscribedAt,
+			unsubscribeReason: suppression?.reason ?? null,
+			lastEngagedAt
+		};
+	}
+
+	const activity = activityEnrollmentRows.map((enrollment) => {
+		const engagement = getEnrollmentActivity(enrollment);
+
+		return {
+			...enrollment,
+			sequence_key: engagement.sequenceKey,
+			bucket: engagement.bucket,
+			recipient_name: engagement.recipientName,
+			messages_sent: engagement.messagesSent,
+			opened_messages: engagement.openedMessages,
+			total_opens: engagement.totalOpens,
+			last_opened_at: engagement.lastOpenedAt,
+			clicked_messages: engagement.clickedMessages,
+			total_clicks: engagement.totalClicks,
+			last_clicked_at: engagement.lastClickedAt,
+			unsubscribed: engagement.unsubscribed,
+			unsubscribed_at: engagement.unsubscribedAt,
+			unsubscribe_reason: engagement.unsubscribeReason,
+			bounced_at: engagement.bouncedAt,
+			last_engaged_at: engagement.lastEngagedAt,
+			display_status: engagement.unsubscribed ? 'unsubscribed' : enrollment.status
+		};
+	});
+
+	const activitySummary = {
+		loaded: activity.length,
+		opened: activity.filter((enrollment) => enrollment.opened_messages > 0).length,
+		clicked: activity.filter((enrollment) => enrollment.clicked_messages > 0).length,
+		unsubscribed: activity.filter((enrollment) => enrollment.unsubscribed).length
+	};
 
 	const queue = enrollmentRows
 		.filter((enrollment) => {
@@ -504,6 +679,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 							})
 						)
 					: null;
+			const engagement = getEnrollmentActivity(enrollment);
 
 			return {
 				...enrollment,
@@ -511,6 +687,15 @@ export const load: PageServerLoad = async ({ locals }) => {
 				bucket: sequenceKey ? SEQUENCE_TO_BUCKET[sequenceKey] : null,
 				next_step_subject: prepared?.subject ?? `Step ${enrollment.next_step_number}`,
 				next_step_preheader: prepared?.preheader,
+				opened_messages: engagement.openedMessages,
+				total_opens: engagement.totalOpens,
+				last_opened_at: engagement.lastOpenedAt,
+				clicked_messages: engagement.clickedMessages,
+				total_clicks: engagement.totalClicks,
+				last_clicked_at: engagement.lastClickedAt,
+				unsubscribed: engagement.unsubscribed,
+				unsubscribed_at: engagement.unsubscribedAt,
+				unsubscribe_reason: engagement.unsubscribeReason,
 				due_now: enrollment.next_send_at
 					? new Date(enrollment.next_send_at).getTime() <= Date.now()
 					: false
@@ -532,6 +717,8 @@ export const load: PageServerLoad = async ({ locals }) => {
 		steps: editorItems,
 		candidatePreview,
 		enrollments: enrollmentRows,
+		activity,
+		activitySummary,
 		queue,
 		enrollmentCounts,
 		copyReadiness

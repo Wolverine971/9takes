@@ -11,6 +11,7 @@ import { setAdminStatusSafely } from '$lib/server/adminUserAccess';
 import { z } from 'zod';
 import { logger } from '$lib/utils/logger';
 import { loadAdminEnneagramDistribution } from '$lib/server/adminAnalytics';
+import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
 
 const USER_DETAIL_LIMIT = 10;
 const ADMIN_USER_PAGE_SIZE = 100;
@@ -285,28 +286,38 @@ export const load: PageServerLoad = async (event) => {
 	const profileOffset = (profilePage - 1) * ADMIN_USER_PAGE_SIZE;
 	const signupOffset = (signupPage - 1) * ADMIN_SIGNUP_PAGE_SIZE;
 	const profileTable = demo_time === true ? 'profiles_demo' : 'profiles';
+	const adminSupabase = getSupabaseAdminClient() as any;
 
-	const [profilesResult, profileCountResult, adminCountResult, typedCountResult, distribution] =
-		await Promise.all([
-			supabase.rpc('get_admin_users_page', {
-				p_search: userQuery.search,
-				p_filter: userQuery.filter,
-				p_sort_by: userQuery.sort,
-				p_sort_direction: userQuery.direction,
-				p_limit: ADMIN_USER_PAGE_SIZE,
-				p_offset: profileOffset
-			}),
-			supabase.from(profileTable).select('id', { count: 'exact', head: true }),
-			supabase.from(profileTable).select('id', { count: 'exact', head: true }).eq('admin', true),
-			supabase
-				.from(profileTable)
-				.select('id', { count: 'exact', head: true })
-				.not('enneagram', 'is', null),
-			loadAdminEnneagramDistribution(supabase as any, {
-				demoTime: demo_time === true,
-				profilesTable: profileTable
-			})
-		]);
+	const [
+		profilesResult,
+		profileCountResult,
+		adminCountResult,
+		typedCountResult,
+		distribution,
+		unsubscribeCountResult
+	] = await Promise.all([
+		supabase.rpc('get_admin_users_page', {
+			p_search: userQuery.search,
+			p_filter: userQuery.filter,
+			p_sort_by: userQuery.sort,
+			p_sort_direction: userQuery.direction,
+			p_limit: ADMIN_USER_PAGE_SIZE,
+			p_offset: profileOffset
+		}),
+		supabase.from(profileTable).select('id', { count: 'exact', head: true }),
+		supabase.from(profileTable).select('id', { count: 'exact', head: true }).eq('admin', true),
+		supabase
+			.from(profileTable)
+			.select('id', { count: 'exact', head: true })
+			.not('enneagram', 'is', null),
+		loadAdminEnneagramDistribution(supabase as any, {
+			demoTime: demo_time === true,
+			profilesTable: profileTable
+		}),
+		demo_time === true
+			? Promise.resolve({ count: 0, error: null })
+			: adminSupabase.from('email_unsubscribes').select('id', { count: 'exact', head: true })
+	]);
 	const { data: profiles, error: profilesError } = profilesResult;
 	const filteredProfileCount = profiles?.[0]?.total_rows ?? 0;
 
@@ -368,17 +379,44 @@ export const load: PageServerLoad = async (event) => {
 		throw error(500, { message: 'Failed to load email signups' });
 	}
 	const signupsWithSignals = await attachSignupSignals((signups ?? []) as SignupRow[]);
+	const profileSuppressionLookup =
+		demo_time === true
+			? { byEmail: new Map(), error: null }
+			: await loadEmailSuppressionStatus(
+					adminSupabase,
+					(profiles ?? []).map((profile) => profile.email)
+				);
+
+	if (profileSuppressionLookup.error) {
+		logger.warn('Failed to load profile unsubscribe status', {
+			error: profileSuppressionLookup.error
+		});
+	}
+	if (unsubscribeCountResult.error) {
+		logger.warn('Failed to load unsubscribe total', { error: unsubscribeCountResult.error });
+	}
+
+	const profilesWithEmailStatus = (profiles ?? []).map((profile) => {
+		const suppression = profileSuppressionLookup.byEmail.get(normalizeEmailText(profile.email));
+		return {
+			...profile,
+			unsubscribed: Boolean(suppression),
+			unsubscribed_at: suppression?.unsubscribedAt ?? null,
+			unsubscribe_reason: suppression?.reason ?? null
+		};
+	});
 
 	if (!findUserError) {
 		return {
 			user: mapDemoValues(user),
-			profiles: mapDemoValues(profiles),
+			profiles: mapDemoValues(profilesWithEmailStatus),
 			signups: signupsWithSignals,
 			demoTime: demo_time,
 			profileStats: {
 				total: profileCountResult.count ?? 0,
 				admins: adminCountResult.count ?? 0,
 				withType: typedCountResult.count ?? 0,
+				unsubscribed: unsubscribeCountResult.count ?? 0,
 				enneagramDistribution: distribution
 			},
 			profilePagination: {

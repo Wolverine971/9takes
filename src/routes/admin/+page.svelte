@@ -8,6 +8,7 @@
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import { convertDateToReadable } from '../../utils/conversions';
 	import MobileCommandCenter from './MobileCommandCenter.svelte';
+	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
 	import type { PageData } from './$types';
 
 	type ActionResultPayload = {
@@ -370,6 +371,7 @@
 	let waitlistEntries = $derived((data.coachingWaitlistUsers ?? []).slice(0, 6));
 	let recentUsers = $derived((data.recentSignups ?? []).slice(0, 8));
 	let recentEmailSignups = $derived((data.recentEmailSignups ?? []).slice(0, 8));
+	let recentUnsubscribes = $derived((data.recentUnsubscribes ?? []).slice(0, 6));
 	let questionActivity = $derived(
 		(data.dailyQuestions ?? []).slice(0, 10).map((question: QuestionDay): QuestionActivityItem => ({
 			question: question.question || 'Untitled question',
@@ -655,6 +657,11 @@
 								</div>
 								<div class="detail-side">
 									<span class="detail-date">{formatDate(user.created_at)}</span>
+									<EmailSubscriptionStatus
+										unsubscribed={user.unsubscribed}
+										unsubscribedAt={user.unsubscribed_at}
+										reason={user.unsubscribe_reason}
+									/>
 								</div>
 							</li>
 						{/each}
@@ -691,6 +698,11 @@
 									<p class="detail-subtitle">Joined {formatDate(signup.created_at)}</p>
 								</div>
 								<div class="detail-side">
+									<EmailSubscriptionStatus
+										unsubscribed={signup.unsubscribed}
+										unsubscribedAt={signup.unsubscribed_at}
+										reason={signup.unsubscribe_reason}
+									/>
 									{#if signup.enneagram}
 										<span class="type-badge type-{signup.enneagram}">{signup.enneagram}</span>
 									{:else}
@@ -729,15 +741,57 @@
 								</div>
 								<div class="detail-side">
 									<span class="detail-date">{formatDate(signup.created_at)}</span>
-									{#if signup.unsubscribed_date}
-										<span class="meta-pill warning">Suppressed</span>
-									{/if}
+									<EmailSubscriptionStatus
+										unsubscribed={signup.unsubscribed || Boolean(signup.unsubscribed_date)}
+										unsubscribedAt={signup.unsubscribed_at || signup.unsubscribed_date}
+										reason={signup.unsubscribe_reason}
+									/>
 								</div>
 							</li>
 						{/each}
 					</ul>
 				{:else}
 					<p class="empty-state">No recent email signups available.</p>
+				{/if}
+			</article>
+
+			<article class="panel list-card unsubscribe-card">
+				<div class="list-card-header">
+					<div class="section-copy">
+						<span class="eyebrow">Email health</span>
+						<h3 class="card-title">Recent unsubscribes</h3>
+					</div>
+					<div class="list-card-meta">
+						<span class="count-pill warning">{formatCount(data.totalUnsubscribes)}</span>
+						<a href="/admin/email-dashboard?tab=unsubscribes" class="inline-link">Review all</a>
+					</div>
+				</div>
+
+				{#if recentUnsubscribes.length > 0}
+					<ul class="detail-list">
+						{#each recentUnsubscribes as unsubscribe (unsubscribe.id)}
+							<li class="detail-item unsubscribe-item">
+								<div class="detail-main">
+									<a href={`mailto:${unsubscribe.email}`} class="detail-link">
+										{unsubscribe.email}
+									</a>
+									<p class="detail-subtitle">
+										{unsubscribe.reason || unsubscribe.source || 'Email opt-out'}
+									</p>
+								</div>
+								<div class="detail-side">
+									<EmailSubscriptionStatus
+										unsubscribed
+										unsubscribedAt={unsubscribe.unsubscribed_at}
+										reason={unsubscribe.reason}
+									/>
+									<span class="detail-date">{formatDate(unsubscribe.unsubscribed_at)}</span>
+								</div>
+							</li>
+						{/each}
+					</ul>
+				{:else}
+					<p class="empty-state">No email unsubscribes recorded.</p>
 				{/if}
 			</article>
 		</div>
@@ -1134,6 +1188,19 @@
 	.count-pill.muted {
 		background: color-mix(in srgb, var(--warning) 14%, transparent);
 		color: var(--warning);
+	}
+
+	.count-pill.warning {
+		background: color-mix(in srgb, var(--warning) 14%, transparent);
+		color: var(--warning-text);
+	}
+
+	.unsubscribe-card {
+		border-color: color-mix(in srgb, var(--warning) 22%, var(--stone-edge));
+	}
+
+	.unsubscribe-item {
+		background: color-mix(in srgb, var(--warning) 3%, transparent);
 	}
 
 	.trend-list {

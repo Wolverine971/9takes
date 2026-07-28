@@ -208,6 +208,22 @@ if [[ -f "$draft" ]]; then
   if [[ -z "$overall" ]] || awk -v o="${overall:-0}" 'BEGIN { exit !(o < 8.5) }'; then
     needs_review="true"
   fi
+  publish_check_json="$(node "$REPO/scripts/personBlogParser.js" "$person" --publish-check --json 2>> "$LOG")"
+  publish_check_exit=$?
+  if jq -e . >/dev/null 2>&1 <<< "$publish_check_json"; then
+    publish_ready="$(jq -r '.eligible' <<< "$publish_check_json")"
+    publish_blockers="$(jq -c '.blockers' <<< "$publish_check_json")"
+  else
+    publish_ready="false"
+    publish_blockers='["publish_check_failed"]'
+    log WARN "Publish-readiness check returned invalid JSON (exit=$publish_check_exit)"
+  fi
+  if [[ "$publish_ready" != "true" ]]; then
+    needs_review="true"
+    log WARN "DRAFT COMPLETE, PUBLISH BLOCKED: $(jq -r 'join("; ")' <<< "$publish_blockers")"
+  else
+    log INFO "DRAFT READY FOR PUBLISH: all local release gates passed"
+  fi
   latest_log_dir="$(ls -dt "$REPO/docs/content-analysis/pipeline-logs/"*"_$person" 2>/dev/null | head -1)"
   if [[ -n "$latest_log_dir" && -f "$latest_log_dir/FAILED_AT_STAGE" ]]; then
     needs_review="true"
@@ -219,11 +235,17 @@ if [[ -f "$draft" ]]; then
   fi
   queue_update --arg now "$NOW_ISO" --arg grade "${overall:-ungraded}" --arg letter "${letter:-?}" \
     --arg disc "${disc:-?}" --arg dur "~${duration_min} min" --argjson review "$needs_review" \
-    '.completed = ([.inProgress + {completedAt: $now, contentGrade: $grade, letter: $letter, discoverability: $disc, duration: $dur, needsReview: $review}] + .completed)
+    --argjson publishReady "$publish_ready" --argjson publishBlockers "$publish_blockers" \
+    '.completed = ([.inProgress + {completedAt: $now, contentGrade: $grade, letter: $letter, discoverability: $disc, duration: $dur, needsReview: $review, publishReady: $publishReady, publishBlockers: $publishBlockers}] + .completed)
       | .inProgress = null | .lastUpdated = $now'
   override_update '.rateLimit.currentWeekCount = (.rateLimit.currentWeekCount + 1)'
-  log SUCCESS "Completed: $display_name — grade ${overall:-ungraded} (${letter:-?})"
-  notify "✅ 9takes nightly blog: $display_name (Type $etype) — grade ${overall:-ungraded} (${letter:-?}), disc ${disc:-?}, ${duration_min} min. needsReview=$needs_review"
+  if [[ "$publish_ready" == "true" ]]; then
+    log SUCCESS "Draft completed and publish-ready: $display_name — grade ${overall:-ungraded} (${letter:-?})"
+    notify "✅ 9takes nightly blog: $display_name (Type $etype) — draft is PUBLISH READY, grade ${overall:-ungraded} (${letter:-?}), disc ${disc:-?}, ${duration_min} min."
+  else
+    log WARN "Draft completed but publish-blocked: $display_name — grade ${overall:-ungraded} (${letter:-?})"
+    notify "⚠️ 9takes nightly blog: $display_name (Type $etype) — draft complete but PUBLISH BLOCKED: $(jq -r 'join("; ")' <<< "$publish_blockers")"
+  fi
 else
   retry_count="$(jq -r '.inProgress.retryCount // 0' "$QUEUE")"
   new_retry=$(( retry_count + 1 ))
@@ -240,6 +262,8 @@ else
     log ERROR "RETRY $new_retry/3: $person returned to queue (no draft)"
     notify "⚠️ 9takes nightly blog: $display_name produced no draft (exit=$pipeline_exit). Retry $new_retry/3 tomorrow."
   fi
+  log INFO "Nightly blog cron finished"
+  exit 1
 fi
 
 log INFO "Nightly blog cron finished"

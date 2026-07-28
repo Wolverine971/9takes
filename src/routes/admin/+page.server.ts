@@ -24,6 +24,8 @@ import {
 	loadTrendingAnalytics
 } from '$lib/server/adminTrendingAnalytics';
 import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
+import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
+import { normalizeEmail } from '$lib/email/suppression';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
 
@@ -166,7 +168,8 @@ export const load: PageServerLoad = async (event) => {
 		questionsTodayResult,
 		commentsTodayResult,
 		retentionSummaryResult,
-		trendingPagesResult
+		trendingPagesResult,
+		recentUnsubscribesResult
 	] = await Promise.all([
 		supabase.rpc('visitors_last_30_days'),
 		supabase.rpc('comments_last_30_days'),
@@ -237,7 +240,16 @@ export const load: PageServerLoad = async (event) => {
 				}).catch((err) => {
 					console.error('Failed to load admin trending pages', err);
 					return emptyTrendingAnalyticsPayload(trendingOptions, false);
-				})
+				}),
+		demoTime
+			? Promise.resolve({ data: [], error: null, count: 0 })
+			: supabase
+					.from('email_unsubscribes')
+					.select('id, email, reason, source, source_id, unsubscribed_at', {
+						count: 'exact'
+					})
+					.order('unsubscribed_at', { ascending: false })
+					.limit(6)
 	]);
 
 	if (dailyVisitorsResult.error) {
@@ -267,6 +279,36 @@ export const load: PageServerLoad = async (event) => {
 	if (recentEmailSignupsResult.error) {
 		console.error('Failed to load admin recent email signups', recentEmailSignupsResult.error);
 	}
+	if (recentUnsubscribesResult.error) {
+		console.error('Failed to load admin recent unsubscribes', recentUnsubscribesResult.error);
+	}
+
+	const listedPeople = [
+		...(coachingWaitlistUsersResult.data ?? []),
+		...(recentSignupsResult.data ?? []),
+		...(recentEmailSignupsResult.data ?? [])
+	];
+	const suppressionLookup = demoTime
+		? { byEmail: new Map(), error: null }
+		: await loadEmailSuppressionStatus(
+				supabase,
+				listedPeople.map((person) => person.email)
+			);
+
+	if (suppressionLookup.error) {
+		console.error('Failed to load admin user unsubscribe status', suppressionLookup.error);
+	}
+
+	const withSuppressionStatus = <T extends { email?: string | null }>(rows: T[]) =>
+		rows.map((row) => {
+			const suppression = suppressionLookup.byEmail.get(normalizeEmail(row.email));
+			return {
+				...row,
+				unsubscribed: Boolean(suppression),
+				unsubscribed_at: suppression?.unsubscribedAt ?? null,
+				unsubscribe_reason: suppression?.reason ?? null
+			};
+		});
 
 	const retentionSummary =
 		retentionSummaryResult.error && !isMissingRetentionSummaryRpc(retentionSummaryResult.error)
@@ -315,6 +357,11 @@ export const load: PageServerLoad = async (event) => {
 			label: 'Recent email signups',
 			error: recentEmailSignupsResult.error
 		},
+		{
+			key: 'email-unsubscribes',
+			label: 'Email unsubscribe status',
+			error: recentUnsubscribesResult.error || suppressionLookup.error
+		},
 		{ key: 'questions-today', label: "Today's questions", error: questionsTodayResult.error },
 		{ key: 'comments-today', label: "Today's comments", error: commentsTodayResult.error },
 		{
@@ -346,17 +393,19 @@ export const load: PageServerLoad = async (event) => {
 		newUsersMonth: newUsersMonthResult.count || 0,
 		newUsersToday: newUsersTodayResult.count || 0,
 		coachingWaitlist: coachingWaitlistResult.count || 0,
-		coachingWaitlistUsers: coachingWaitlistUsersResult.data || [],
+		coachingWaitlistUsers: withSuppressionStatus(coachingWaitlistUsersResult.data || []),
 		totalQuestions: totalQuestionsResult.count || 0,
 		totalComments: totalCommentsResult.count || 0,
 		activeContributors,
 		enneagramDistribution,
-		recentSignups: recentSignupsResult.data || [],
+		recentSignups: withSuppressionStatus(recentSignupsResult.data || []),
 		totalEmailSignups: totalEmailSignupsResult.count || 0,
 		newEmailSignupsToday: newEmailSignupsTodayResult.count || 0,
 		newEmailSignupsWeek: newEmailSignupsWeekResult.count || 0,
 		newEmailSignupsMonth: newEmailSignupsMonthResult.count || 0,
-		recentEmailSignups: recentEmailSignupsResult.data || [],
+		recentEmailSignups: withSuppressionStatus(recentEmailSignupsResult.data || []),
+		totalUnsubscribes: recentUnsubscribesResult.count || 0,
+		recentUnsubscribes: recentUnsubscribesResult.data || [],
 		questionsToday: questionsTodayResult.count || 0,
 		commentsToday: commentsTodayResult.count || 0,
 		retentionSummary,

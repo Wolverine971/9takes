@@ -26,7 +26,10 @@
 #   8. revise             - /blog_content_revision_pass_people  (CONDITIONAL — only if
 #                           overall < 8.5, discoverability < 7, or lint failed)
 #   8.5 lint (re-run)     - scripts/blog-lint.sh
-#   9. regrade            - /grade_blog (after clearing the stage-7 grade and feedback)
+#   9. regrade            - /grade_blog (always runs when stage 7 produced a grade;
+#                           after revision when needed, otherwise as an independent
+#                           stability pass required by the publish gate)
+#   9.1 stability record  - deterministic first/regrade/delta frontmatter write
 #
 # The revise loop runs AT MOST ONCE. If the re-grade still lands below the bar,
 # the draft stays below the bar and a human decides — no infinite polishing.
@@ -352,8 +355,7 @@ if [[ "$MODE" == "refresh" ]]; then
   if [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
     echo "[Stage 1] --refresh requires an existing draft at $DRAFT_PATH; nothing to refresh."
     write_summary false "draft_missing_for_refresh"
-    PIPELINE_COMPLETED=1
-    exit 0
+    exit 1
   fi
   BASELINE_WORDS="$(awk '/^---$/{c++; next} c>=2' "$REPO_ROOT/$DRAFT_PATH" \
     | awk 'BEGIN{inc=0} /<!--/{inc=1} inc{if (/-->/) inc=0; next} {print}' \
@@ -365,8 +367,7 @@ else
   if [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
     echo "[Stage 1] create did not produce $DRAFT_PATH; halting remaining stages."
     write_summary false "draft_missing_after_stage_1_create"
-    PIPELINE_COMPLETED=1
-    exit 0
+    exit 1
   fi
 fi
 run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $PERSON"
@@ -404,6 +405,23 @@ else
     echo "[Stage 8] No revision needed (overall ${FIRST_OVERALL:-?} >= 8.5, discoverability ${FIRST_DISC:-?} >= 7, lint clean)"
   fi
   echo
+  if [[ -n "$FIRST_OVERALL" ]]; then
+    echo "[Stage 9] Running mandatory independent stability regrade required by the publish gate"
+    clear_grading_frontmatter
+    run_stage 9 regrade "/grade_blog $PERSON"
+  else
+    echo "[Stage 9] Stability regrade skipped because stage 7 produced no overall score"
+  fi
+fi
+
+FINAL_OVERALL="$(read_quality_field overall)"
+if [[ -n "$FIRST_OVERALL" && -n "$FINAL_OVERALL" ]]; then
+  run_report_stage 9.1 record_grade_stability \
+    node "$REPO_ROOT/scripts/personBlogParser.js" "$PERSON" \
+    --record-grade-stability "--first-overall=$FIRST_OVERALL"
+else
+  echo "[Stage 9.1] Grade stability not recorded — first=${FIRST_OVERALL:-missing}, regrade=${FINAL_OVERALL:-missing}"
+  echo
 fi
 
 echo "═════════════════════════════════════════════════════"
@@ -427,7 +445,6 @@ if [[ "$MODE" == "refresh" && -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
   fi
 fi
 if [[ "$REVISED" -eq 1 ]]; then
-  FINAL_OVERALL="$(read_quality_field overall)"
   run_report_stage 9.5 quality_report_after_revision node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$PERSON"
   run_report_stage 9.6 source_audit_after_revision node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON" --fail-on-untagged-load-bearing
   run_report_stage 9.7 same_type_similarity_after_revision node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8 --fail-on-trip
@@ -444,7 +461,7 @@ echo
 FULL_DRAFT="$REPO_ROOT/$DRAFT_PATH"
 if [[ -f "$FULL_DRAFT" ]]; then
   echo "Final draft frontmatter (grade summary):"
-  awk '/^---$/{c++; next} c==1' "$FULL_DRAFT" | grep -E "^\s*(hook|enneagram|evidence|writing|originality|discoverability|overall|letter|rubric_version|graded_at):" || \
+  awk '/^---$/{c++; next} c==1' "$FULL_DRAFT" | grep -E "^\s*(hook|enneagram|evidence|writing|originality|discoverability|overall|first_overall|regrade_overall|grade_stability_delta|letter|rubric_version|graded_at):" || \
     echo "  (no content_quality block found — grade stage may have failed)"
 fi
 
