@@ -1,10 +1,13 @@
 <!-- src/routes/account/+page.svelte -->
 <script lang="ts">
 	import { enhance } from '$app/forms';
+	import { goto } from '$app/navigation';
+	import { resolve } from '$app/paths';
 	import { Button } from '$lib/components/atoms';
 	import { notifications as toast } from '$lib/components/molecules/notifications';
 	import { supabase } from '$lib/supabase';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import { useNotificationCount } from '$lib/notificationCount.svelte';
 	import type { PageData } from './$types';
 	import type {
 		ActiveQuestion,
@@ -76,6 +79,7 @@
 	};
 
 	let { data }: { data: PageData } = $props();
+	const notificationCount = useNotificationCount();
 
 	// Demo mode routes these through mapDemoValues, which erases the row types.
 	let user = $derived(data.user as unknown as AccountUser);
@@ -366,6 +370,7 @@
 
 			feedItems = feedItems.map((item) => (item.read_at ? item : { ...item, read_at: now }));
 			unreadCount = 0;
+			notificationCount.setUnread(0);
 		} catch (error) {
 			console.error('Error marking notifications read:', error);
 			toast.danger('Could not mark notifications read', 3000);
@@ -374,10 +379,80 @@
 		}
 	}
 
+	async function markGroupRead(group: FeedGroup) {
+		const unreadIds = new Set(
+			feedItems
+				.filter((item) => group.ids.includes(item.id) && item.read_at === null)
+				.map((item) => item.id)
+		);
+
+		if (!unreadIds.size) return;
+
+		const previousItems = feedItems;
+		const previousUnread = unreadCount;
+		const now = new Date().toISOString();
+
+		feedItems = feedItems.map((item) =>
+			unreadIds.has(item.id) ? { ...item, read_at: now } : item
+		);
+		unreadCount = Math.max(0, unreadCount - unreadIds.size);
+		notificationCount.setUnread(unreadCount);
+
+		try {
+			const response = await fetch('/api/notifications/read', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ ids: [...unreadIds] }),
+				keepalive: true
+			});
+
+			if (!response.ok) throw new Error(`Failed (${response.status})`);
+		} catch (error) {
+			feedItems = previousItems;
+			unreadCount = previousUnread;
+			notificationCount.setUnread(previousUnread);
+			console.error('Error marking notification read:', error);
+			toast.danger('Could not mark notification read', 3000);
+		}
+	}
+
+	function openNotification(event: MouseEvent, group: FeedGroup) {
+		if (
+			event.button !== 0 ||
+			event.metaKey ||
+			event.ctrlKey ||
+			event.shiftKey ||
+			event.altKey ||
+			!group.questionUrl
+		) {
+			return;
+		}
+
+		event.preventDefault();
+		void markGroupRead(group);
+		void goto(resolve(`/questions/${group.questionUrl}`));
+	}
+
 	function selectType(num: number) {
 		enneagram = String(num);
 	}
 </script>
+
+{#snippet notificationContent(group: FeedGroup)}
+	<span class="feed-dot" style={`--dot: ${typeColor(group.actors[0])}`} aria-hidden="true"></span>
+	<div class="feed-body">
+		<p class="feed-headline">{groupHeadline(group)}</p>
+		{#if group.excerpt && group.kind !== 'take_on_answered_question'}
+			<p class="feed-excerpt">“{group.excerpt}”</p>
+		{/if}
+		{#if group.questionText}
+			<span class="feed-link">{group.questionText}</span>
+		{/if}
+	</div>
+	<time class="feed-time" datetime={group.createdAt}>
+		{relativeTime(group.createdAt)}
+	</time>
+{/snippet}
 
 <div class="account-page">
 	<div class="account-shell">
@@ -685,11 +760,11 @@
 
 		<!-- ── Notifications ───────────────────────────────────────────────── -->
 		{#if notificationsAvailable}
-			<section class="panel">
+			<section id="notifications" class="panel" aria-labelledby="notifications-heading">
 				<div class="panel-head">
 					<div>
 						<p class="section-label">Activity</p>
-						<h2>
+						<h2 id="notifications-heading">
 							What's come back to you
 							{#if unreadCount > 0}
 								<span class="unread-badge">{unreadCount}</span>
@@ -716,25 +791,17 @@
 					<ul class="feed-list">
 						{#each feedGroups as group (group.key)}
 							<li class="feed-item" class:unread={group.unread}>
-								<span
-									class="feed-dot"
-									style={`--dot: ${typeColor(group.actors[0])}`}
-									aria-hidden="true"
-								></span>
-								<div class="feed-body">
-									<p class="feed-headline">{groupHeadline(group)}</p>
-									{#if group.excerpt && group.kind !== 'take_on_answered_question'}
-										<p class="feed-excerpt">“{group.excerpt}”</p>
-									{/if}
-									{#if group.questionText && group.questionUrl}
-										<a href={`/questions/${group.questionUrl}`} class="feed-link">
-											{group.questionText}
-										</a>
-									{/if}
-								</div>
-								<time class="feed-time" datetime={group.createdAt}>
-									{relativeTime(group.createdAt)}
-								</time>
+								{#if group.questionUrl}
+									<a
+										href={resolve(`/questions/${group.questionUrl}`)}
+										class="feed-row"
+										onclick={(event) => openNotification(event, group)}
+									>
+										{@render notificationContent(group)}
+									</a>
+								{:else}
+									<div class="feed-row">{@render notificationContent(group)}</div>
+								{/if}
 							</li>
 						{/each}
 					</ul>
@@ -1515,6 +1582,9 @@
 	}
 
 	/* ── Notification feed ────────────────────────────────────────────────── */
+	#notifications {
+		scroll-margin-top: 6rem;
+	}
 
 	.unread-badge {
 		display: inline-flex;
@@ -1542,14 +1612,33 @@
 	}
 
 	.feed-item {
+		border-radius: 0.625rem;
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 14%, transparent);
+		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
+		overflow: hidden;
+	}
+
+	.feed-row {
 		display: grid;
 		grid-template-columns: auto minmax(0, 1fr) auto;
 		gap: 0.7rem;
 		align-items: start;
 		padding: 0.75rem 0.85rem;
-		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 14%, transparent);
-		background: color-mix(in srgb, var(--night-deep) 92%, transparent);
+		color: inherit;
+		text-decoration: none;
+	}
+
+	a.feed-row {
+		transition: background 0.18s ease;
+	}
+
+	a.feed-row:hover {
+		background: color-mix(in srgb, var(--lamp-glow) 7%, transparent);
+	}
+
+	a.feed-row:focus {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: -2px;
 	}
 
 	.feed-item.unread {
@@ -1598,7 +1687,7 @@
 		text-decoration: none;
 	}
 
-	.feed-link:hover {
+	a.feed-row:hover .feed-link {
 		text-decoration: underline;
 	}
 
@@ -1839,6 +1928,12 @@
 		}
 	}
 
+	@media (max-width: 899px) {
+		#notifications {
+			scroll-margin-top: 9rem;
+		}
+	}
+
 	@media (max-width: 720px) {
 		.account-page {
 			padding: 0.85rem 0.75rem 2.5rem;
@@ -1893,7 +1988,7 @@
 			grid-template-columns: auto 1fr;
 		}
 
-		.feed-item {
+		.feed-row {
 			grid-template-columns: auto minmax(0, 1fr);
 		}
 

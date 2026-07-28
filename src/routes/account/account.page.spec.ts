@@ -1,11 +1,24 @@
 // src/routes/account/account.page.spec.ts
 // @vitest-environment jsdom
 
-import { cleanup, render, screen } from '@testing-library/svelte';
+import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/svelte';
 import { afterEach, describe, expect, it, vi } from 'vitest';
+
+const { gotoMock, setUnreadMock } = vi.hoisted(() => ({
+	gotoMock: vi.fn(),
+	setUnreadMock: vi.fn()
+}));
 
 vi.mock('$app/forms', () => ({
 	enhance: () => ({ destroy: vi.fn() })
+}));
+
+vi.mock('$app/navigation', () => ({ goto: gotoMock }));
+
+vi.mock('$app/paths', () => ({ resolve: (path: string) => path }));
+
+vi.mock('$lib/notificationCount.svelte', () => ({
+	useNotificationCount: () => ({ unread: 0, setUnread: setUnreadMock })
 }));
 
 vi.mock('$lib/supabase', () => ({
@@ -59,6 +72,7 @@ const baseData = {
 afterEach(() => {
 	cleanup();
 	vi.clearAllMocks();
+	vi.unstubAllGlobals();
 });
 
 describe('/account page', () => {
@@ -70,5 +84,57 @@ describe('/account page', () => {
 			(screen.getByRole('checkbox', { name: 'Someone replies to my take' }) as HTMLInputElement)
 				.checked
 		).toBe(false);
+	});
+
+	it('updates read state and opens the question without waiting for the API', async () => {
+		let finishRequest: (response: { ok: boolean }) => void = () => {};
+		const pendingResponse = new Promise<{ ok: boolean }>((resolve) => {
+			finishRequest = resolve;
+		});
+		const fetchMock = vi.fn().mockReturnValue(pendingResponse);
+		vi.stubGlobal('fetch', fetchMock);
+		const data = {
+			...baseData,
+			notifications: {
+				available: true,
+				unread: 1,
+				items: [
+					{
+						id: 17,
+						kind: 'reply_to_take',
+						actor_enneagram: '4',
+						question_id: 42,
+						question_text: 'What helps you feel understood?',
+						question_url: 'what-helps-you-feel-understood',
+						comment_excerpt: 'A thoughtful reply',
+						created_at: new Date().toISOString(),
+						read_at: null
+					}
+				]
+			}
+		};
+
+		render(AccountPage, { data: data as any });
+		const notification = await screen.findByRole('link', {
+			name: /a type 4 replied to your take/i
+		});
+
+		await fireEvent.click(notification);
+
+		await waitFor(() => {
+			expect(fetchMock).toHaveBeenCalledWith(
+				'/api/notifications/read',
+				expect.objectContaining({
+					method: 'POST',
+					body: JSON.stringify({ ids: [17] }),
+					keepalive: true
+				})
+			);
+			expect(gotoMock).toHaveBeenCalledWith('/questions/what-helps-you-feel-understood');
+			expect(setUnreadMock).toHaveBeenCalledWith(0);
+			expect(notification.closest('.feed-item')?.classList.contains('unread')).toBe(false);
+		});
+
+		finishRequest({ ok: true });
 	});
 });

@@ -31,6 +31,7 @@
 	import { preparePageTransition } from '$lib/page-transition';
 	import { resolvePageShell } from '$lib/layout/pageShell';
 	import { createAuthShellUser, normalizeAuthShellUser, type AuthShellUser } from '$lib/authShell';
+	import { provideNotificationCount } from '$lib/notificationCount.svelte';
 	import {
 		AUTHOR_DJ_WAYNE_ID,
 		DJ_WAYNE_SAME_AS,
@@ -47,6 +48,7 @@
 	export let data: PageData;
 
 	const authShellUser = createAuthShellUser(data?.user);
+	provideNotificationCount();
 	let authShellRequest: Promise<void> | null = null;
 	let authShellHydrated = false;
 

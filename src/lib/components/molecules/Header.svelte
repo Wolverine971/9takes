@@ -8,12 +8,14 @@
 	import ThemeToggle from '$lib/components/atoms/ThemeToggle.svelte';
 	import { Button } from '$lib/components/atoms';
 	import { getAuthShellUser } from '$lib/authShell';
+	import { useNotificationCount } from '$lib/notificationCount.svelte';
 	import { onClickOutside } from '$lib/components/molecules/Context.svelte';
 	// Phase 3 (2026-05-04): inline SVGs migrated to @lucide/svelte per design-system.md
 	// rollout-plan Phase 3. Stroke widths normalized to Lucide defaults (1.5).
 	import { CircleUserRound, ChevronDown, Bell } from '@lucide/svelte';
 
 	const authUser = getAuthShellUser();
+	const notificationCount = useNotificationCount();
 
 	// Unread notification badge.
 	//
@@ -22,11 +24,11 @@
 	// server-side would add a database round trip to every signed-in request for
 	// a badge that only lives in the header. Degrades to 0 — and therefore to no
 	// badge at all — when the notifications migration has not been applied.
-	let unreadCount = $state(0);
+	let unreadCount = $derived(notificationCount.unread);
 
 	$effect(() => {
 		if (!$authUser) {
-			unreadCount = 0;
+			notificationCount.setUnread(0);
 			return;
 		}
 
@@ -36,7 +38,7 @@
 			.then((response) => (response.ok ? response.json() : null))
 			.then((payload) => {
 				if (!cancelled && typeof payload?.unread === 'number') {
-					unreadCount = payload.unread;
+					notificationCount.setUnread(payload.unread);
 				}
 			})
 			.catch(() => {
@@ -157,11 +159,11 @@
 				<ThemeToggle />
 				{#if $authUser}
 					<a
-						href={resolve('/account')}
+						href={resolve('/account#notifications')}
 						class="account-button notification-button"
 						aria-label={unreadCount > 0
-							? `Go to account — ${unreadCount} unread`
-							: 'Go to account — notifications'}
+							? `View notifications — ${unreadCount} unread`
+							: 'View notifications'}
 						title="Notifications"
 					>
 						<Bell size={24} strokeWidth={1.5} class="account-icon" />
@@ -253,11 +255,11 @@
 			<ThemeToggle />
 			{#if $authUser}
 				<a
-					href={resolve('/account')}
+					href={resolve('/account#notifications')}
 					class="account-button notification-button"
 					aria-label={unreadCount > 0
-						? `Go to account — ${unreadCount} unread`
-						: 'Go to account — notifications'}
+						? `View notifications — ${unreadCount} unread`
+						: 'View notifications'}
 					title="Notifications"
 				>
 					<Bell class="account-icon" size={24} strokeWidth={1.5} />
