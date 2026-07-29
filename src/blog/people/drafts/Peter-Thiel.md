@@ -13,7 +13,7 @@ published: true
 enneagram: '6'
 type: ['techie', 'investor']
 person: 'peter-thiel'
-suggestions: ['Elon-Musk', 'David-Sacks', 'Sam-Altman', 'Mark-Zuckerberg', 'Joe-Lonsdale']
+suggestions: ['Elon-Musk', 'David-Sacks', 'Jensen-Huang', 'Sam-Altman', 'Mark-Zuckerberg', 'Joe-Lonsdale']
 wikipedia: 'https://en.wikipedia.org/wiki/Peter_Thiel'
 twitter: ''
 instagram: ''

@@ -301,7 +301,7 @@ It shouldn't work. A 50-something actor doing TikTok dances? Recipe for cringe. 
 
 For a generation raised on irony and internet cynicism, Jack's earnest absurdity feels refreshing. He's not trying to be cool. He's not in on some joke at his own expense. He's just _being_. That authenticity resonates.
 
-**Jablinski Games** (YouTube): In December 2018, Jack launched a gaming channel with his son Sam. The stated goal? "Bigger than Ninja... bigger than PewDiePie!" Within one week, he had one million subscribers before posting a real video. Within two weeks, 2.5 million.
+**Jablinski Games** (YouTube): In December 2018, Jack launched a gaming channel with his son Sam. The stated goal? "Bigger than [Ninja](/personality-analysis/ninja)... bigger than [PewDiePie](/personality-analysis/pewdiepie)!" Within one week, he had one million subscribers before posting a real video. Within two weeks, 2.5 million.
 
 The catch? He barely played games.
 

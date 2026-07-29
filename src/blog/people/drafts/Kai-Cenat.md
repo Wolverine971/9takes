@@ -13,7 +13,7 @@ enneagram: 7
 type: ['creator', 'streamer']
 person: 'kai-cenat'
 persona_title: "Twitch's Perpetual Motion Machine"
-suggestions: ['IShowSpeed', 'Druski', 'xQc', 'Mr-Beast', 'Logan-Paul']
+suggestions: ['IShowSpeed', 'Ninja', 'Druski', 'xQc', 'Mr-Beast', 'Logan-Paul']
 wikipedia: ''
 wikidata_qid: 'Q113818347'
 imdb_id: 'nm9411427'

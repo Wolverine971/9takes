@@ -13,7 +13,7 @@ published: true
 enneagram: 8
 type: ['creator', 'streamer']
 person: 'ishowspeed'
-suggestions: ['Kai-Cenat', 'Jake-Paul', 'Logan-Paul', 'Mr-Beast']
+suggestions: ['Kai-Cenat', 'Ninja', 'Jake-Paul', 'Logan-Paul', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/IShowSpeed'
 wikidata_qid: 'Q114834007'
 imdb_id: 'nm12964938'

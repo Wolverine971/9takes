@@ -13,7 +13,7 @@ published: true
 enneagram: 6
 type: ['creator', 'streamer']
 person: 'pokimane'
-suggestions: ['Kai-Cenat', 'IShowSpeed', 'PewDiePie', 'Hasan-Piker']
+suggestions: ['Kai-Cenat', 'IShowSpeed', 'Ninja', 'PewDiePie', 'Hasan-Piker']
 wikipedia: 'https://en.wikipedia.org/wiki/Pokimane'
 wikidata_qid: 'Q55956238'
 imdb_id: 'nm11091643'

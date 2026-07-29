@@ -20,6 +20,7 @@ suggestions:
     'Steve-Jobs',
     'Mark-Zuckerberg',
     'Sam-Altman',
+    'Jensen-Huang',
     'Peter-Thiel',
     'Palmer-Luckey',
     'Paul-Graham',

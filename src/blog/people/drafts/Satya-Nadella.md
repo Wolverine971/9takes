@@ -13,7 +13,7 @@ published: true
 enneagram: 5
 type: ['techie', 'big-tech-founder']
 person: 'satya-nadella'
-suggestions: ['Bill-Gates', 'Elon-Musk', 'Sundar-Pichai', 'Mark-Zuckerberg']
+suggestions: ['Bill-Gates', 'Elon-Musk', 'Jensen-Huang', 'Sundar-Pichai', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Satya_Nadella'
 twitter: '@sataborasu'
 instagram: ''
@@ -332,4 +332,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Cut the explicit Type 9 / Type 1 counter-typing rule of three — replace with a single concrete behavioral distinction that doesn't follow the corpus template.
 
 ============================================================ -->
-

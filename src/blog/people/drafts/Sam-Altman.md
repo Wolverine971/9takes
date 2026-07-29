@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['techie', 'frontier-builder']
 person: 'sam-altman'
-suggestions: ['Paul-Graham', 'Elon-Musk', 'Peter-Thiel', 'Jason-Calacanis', 'Palmer-Luckey']
+suggestions: ['Paul-Graham', 'Elon-Musk', 'Mira-Murati', 'Jensen-Huang', 'Peter-Thiel', 'Jason-Calacanis', 'Palmer-Luckey']
 wikipedia: 'https://en.wikipedia.org/wiki/Sam_Altman'
 twitter: 'https://twitter.com/sama'
 instagram: ''

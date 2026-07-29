@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['creator', 'streamer']
 person: 'jynxzi'
-suggestions: ['Kai-Cenat', 'IShowSpeed', 'Adin-Ross', 'Tfue']
+suggestions: ['Kai-Cenat', 'IShowSpeed', 'Ninja', 'Adin-Ross', 'Tfue']
 wikipedia: 'https://en.wikipedia.org/wiki/Jynxzi'
 wikidata_qid: 'Q124515827'
 birth_date: '2001-09-26'
@@ -279,7 +279,7 @@ Three hundred and sixty-five days of turning a camera on, being funny, doing bit
 
 The dad is the load-bearing detail. At 18, Jynxzi could not name a direction for his life. His father could.
 
-> "My dad literally told me, he's like, 'Dude, you can run your mouth for hours, and you love playing video games.' My dad's tuned in. Like he saw like Ninja, Nickmercs, [Tfue](/personality-analysis/Tfue). He's like, 'Bro, you could easily do this.'" — Jynxzi, Jynxzi Podcast #2 with Moist Cr1tikal, February 2024
+> "My dad literally told me, he's like, 'Dude, you can run your mouth for hours, and you love playing video games.' My dad's tuned in. Like he saw like [Ninja](/personality-analysis/ninja), Nickmercs, [Tfue](/personality-analysis/Tfue). He's like, 'Bro, you could easily do this.'" — Jynxzi, Jynxzi Podcast #2 with Moist Cr1tikal, February 2024
 
 A man who had worked every year of his adult life looked at his son doing nothing in particular and named a career that did not exist when he was young. Then he sat in the chat for a year to make sure the number was never zero.
 
@@ -667,4 +667,3 @@ Flagged, not acted on:
 
 Lint: clean (0 fail, 1 warn — body 4341 words vs 4500 ceiling, up 114 from attributions).
 -->
-

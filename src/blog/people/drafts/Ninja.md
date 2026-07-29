@@ -13,7 +13,7 @@ published: true
 enneagram: '6'
 type: ['creator', 'celebrity', 'celebrity-image']
 person: 'ninja'
-suggestions: ['Pokimane', 'xQc', 'Kai-Cenat', 'iShowSpeed']
+suggestions: ['Pokimane', 'xQc', 'Kai-Cenat', 'iShowSpeed', 'Tfue']
 wikipedia: 'https://en.wikipedia.org/wiki/Ninja_(gamer)'
 wikidata_qid: 'Q50825725'
 imdb_id: 'nm8181333'

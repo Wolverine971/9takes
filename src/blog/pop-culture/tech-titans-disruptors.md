@@ -136,6 +136,6 @@ For anyone who recognizes their own wiring in these four: the disruptive instinc
 ## Rabbit Holes Worth Exploring
 
 - **The WeWork Saga**: [Adam Neumann](/personality-analysis/adam-neumann) as a Type 3 attempting disruption. Disruption without an 8's force or a 5's analytical rigor. Just narrative and charm. Why did it fail?
-- **Jensen Huang as Non-Disruptor Disruptor**: Nvidia didn't disrupt GPUs. It EVOLVED them until they became essential for AI. Is there a Type 3 version of disruption, where you don't break an industry but reposition within it until you're indispensable?
+- **[Jensen Huang as the Non-Disruptor Disruptor](/personality-analysis/jensen-huang)**: Nvidia did not abandon GPUs. It kept adapting them until they became essential for AI. Is there a Type 6 version of disruption, where vigilance compounds into infrastructure competitors cannot safely ignore?
 - **The Second-Time Founder Pattern**: Musk after PayPal. Dorsey after Twitter (Block). Kalanick after Uber (ghost kitchens). Does the type determine what you build the second time?
 - **Disruption Fatigue**: At what point does a disruptor's type become a liability? Musk's 5 served him in automotive and aerospace but arguably failed in social media. Do types have disruption limits?

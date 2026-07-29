@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['creator', 'streamer']
 person: 'xqc'
-suggestions: ['Kai-Cenat', 'IShowSpeed', 'Pokimane', 'Adin-Ross']
+suggestions: ['Kai-Cenat', 'IShowSpeed', 'Ninja', 'Pokimane', 'Adin-Ross']
 wikipedia: 'https://en.wikipedia.org/wiki/XQc'
 wikidata_qid: 'Q50716407'
 birth_date: '1995-11-12'
@@ -463,4 +463,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Cut at least three single-sentence paragraphs across the body. The form is doing the lifting where the sentences should.
 
 ============================================================ -->
-

@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['creator', 'streamer']
 person: 'tfue'
-suggestions: ['xqc', 'Kai-Cenat', 'IShowSpeed', 'Logan-Paul']
+suggestions: ['xqc', 'Kai-Cenat', 'IShowSpeed', 'Ninja', 'Logan-Paul']
 wikipedia: 'https://en.wikipedia.org/wiki/Tfue'
 wikidata_qid: 'Q61609160'
 birth_date: '1998-01-02'
@@ -96,7 +96,7 @@ This from a man who answered to no one. No org owned him. He'd sued his way out 
 
 And he was sobbing into a camera because freedom had become its own kind of prison.
 
-That paradox, the escape artist who keeps building new cages, is the key to understanding Tfue. Not his aim. Not his earnings. Not the FaZe lawsuit or the Ninja rivalry or the Fortnite highlights. The real story is simpler and stranger: a kid whose parents banned video games became the best gamer on earth, then discovered that the game had become the exact cage his parents once tried to protect him from.
+That paradox, the escape artist who keeps building new cages, is the key to understanding Tfue. Not his aim. Not his earnings. Not the FaZe lawsuit or the [Ninja](/personality-analysis/ninja) rivalry or the Fortnite highlights. The real story is simpler and stranger: a kid whose parents banned video games became the best gamer on earth, then discovered that the game had become the exact cage his parents once tried to protect him from.
 
 ---
 

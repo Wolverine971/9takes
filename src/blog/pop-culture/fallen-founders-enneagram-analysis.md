@@ -138,7 +138,7 @@ Sam Altman is a [Type 4](/enneagram-corner/enneagram-type-4) in the same structu
 
 **The Toner CSET incident.** In October 2023, board member Helen Toner co-authored a Georgetown CSET paper that praised Anthropic's safety posture and was mildly critical of OpenAI. Altman's response, [per Toner herself](https://www.ted.com/pages/what-really-went-down-at-openai-and-the-future-of-regulation-w-helen-toner) on the TED AI Show six months later: _"After the paper came out, Sam started lying to other board members in order to try and push me off the board."_ Then the harder beat. Executives _"actually sent us screenshots and documentation of some of the instances they were telling us about, of him lying and being manipulative."_ Not vibes. Receipts.
 
-**The GPT-4 Turbo safety bypass.** Altman told CTO Mira Murati that OpenAI's general counsel Jason Kwon had cleared a new model to skip the internal safety review board. When Murati Slacked Kwon to confirm, he was confused. He hadn't said that. Under oath in May 2026, [asked whether Altman was telling the truth](https://futurism.com/artificial-intelligence/perjury-openai-cto-murati-altman), Murati answered: _"no."_ Asked whether Altman _"undermined [her] as CTO,"_ she said _"yes."_ Asked whether he _"pit other execs against one another,"_ again _"yes."_
+**The GPT-4 Turbo safety bypass.** Altman told CTO [Mira Murati](/personality-analysis/mira-murati) that OpenAI's general counsel Jason Kwon had cleared a new model to skip the internal safety review board. When Murati Slacked Kwon to confirm, he was confused. He hadn't said that. Under oath in May 2026, [asked whether Altman was telling the truth](https://futurism.com/artificial-intelligence/perjury-openai-cto-murati-altman), Murati answered: _"no."_ Asked whether Altman _"undermined [her] as CTO,"_ she said _"yes."_ Asked whether he _"pit other execs against one another,"_ again _"yes."_
 
 That is the Type 4 narrative-architect under stress: two rooms, two incompatible stories, calibrated to the audience in each room. Different reality for different listener. The same gap-between-image-and-substance dynamic that fells 3s, named in writing by people who had worked next to him for years.
 
@@ -188,7 +188,7 @@ The whole argument rests on the word "check." Here is the working taxonomy:
 
 A founder is integrated to the degree that their type has at least two of these in real, operating order. Strip them all, and any type, including the celebrated ones, defaults to the failure shape its stress-arrow predicts.
 
-- Jensen Huang's 3w2 is checked by a chip in real data centers and the customers who would notice if it underperformed. Same wing as Holmes; different substrate.
+- [Jensen Huang's](/personality-analysis/jensen-huang) Type 6 vigilance is checked by chips in real data centers and customers who immediately notice if they underperform. His fear stays attached to a falsifiable substrate.
 - [Bill Gates](/personality-analysis/bill-gates)'s 5 is checked by a moral framework he spent decades stress-testing in public, and by Paul Allen as a co-founder peer. Same type as SBF; different integrations.
 - Altman's 4 is checked, today, by GPT working, Microsoft's $13 billion, and a missionary employee base, none of which is operated by anyone whose only job is to say no.
 

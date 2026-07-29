@@ -27,7 +27,7 @@ knows_about:
   - 'Short-form clip strategy'
   - 'Family-friendly streaming'
   - 'NBA 2K content creation'
-suggestions: ['Jynxzi', 'Kai-Cenat', 'IShowSpeed', 'xQc']
+suggestions: ['Jynxzi', 'Kai-Cenat', 'IShowSpeed', 'Ninja', 'xQc']
 twitter: 'CaseOh__'
 instagram: 'caseoh_games'
 tiktok: 'caseohgames'
@@ -296,7 +296,7 @@ The same nervous system writes his smaller rules. He monologues to a plastic pic
 
 ### CaseOh's Wing: 9w8
 
-The comedic register is the giveaway. CaseOh's humor is dominance theater: mock bans, mock lawsuits ("That's a lawsuit. We'll see you in court, buddy," he told Ninja after a viral dig), roasted viewers, big physical presence. That blunt, earthy force is the 8 wing decorating a 9 core, and it turns protective the moment someone he loves is under fire: witness the Sketch defense covered above, and the way he defends ad-watching free viewers against his own paying subscribers when they complain about his ad-pause habit. The case for 9w1 is real but thinner: the no-swearing standard, the church upbringing, the clean-content discipline. Those read more as small-town congregational culture than as an inner critic; nothing else in his record shows the 1 wing's self-punishing precision. See how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.
+The comedic register is the giveaway. CaseOh's humor is dominance theater: mock bans, mock lawsuits ("That's a lawsuit. We'll see you in court, buddy," he told [Ninja](/personality-analysis/ninja) after a viral dig), roasted viewers, big physical presence. That blunt, earthy force is the 8 wing decorating a 9 core, and it turns protective the moment someone he loves is under fire: witness the Sketch defense covered above, and the way he defends ad-watching free viewers against his own paying subscribers when they complain about his ad-pause habit. The case for 9w1 is real but thinner: the no-swearing standard, the church upbringing, the clean-content discipline. Those read more as small-town congregational culture than as an inner critic; nothing else in his record shows the 1 wing's self-punishing precision. See how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.
 
 ### CaseOh's Instinctual Subtype: Self-Preservation
 
@@ -402,5 +402,3 @@ Cleaned up:
 Still rough:
 - None blocking. Two comparative contrast patterns remain (L~229 LosPollosTV wiring line, Rabbit Hole 9w1 line); both are legitimate cross-claim comparisons, documented in the fingerprint ledger, and not the banned engine.
 -->
-
-

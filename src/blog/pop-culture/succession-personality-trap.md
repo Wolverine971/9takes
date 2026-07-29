@@ -39,7 +39,7 @@ path: src/blog/pop-culture/succession-personality-trap.md
 </script>
 
 <QuickAnswer question="Why is succession so hard at founder-built companies?">
-Every founder-built empire is a personality externalized as infrastructure. Buffett's trust premium is Type 5 patience hardened into reputation. Anna Wintour's gatekeeping is Type 8 nerve. Murdoch's political force is Type 8 dominance instincts. Morris Chang's manufacturing religion is Type 1 perfectionism scaled to industrial policy. The successor inherits the asset—not the wiring. That's why Jensen Huang said no when Chang offered him TSMC, why Greg Abel can't fully replicate Buffett's aura, and why Vogue under Chloe Malle is a different magazine. You can't inherit a personality.
+Every founder-built empire is a personality externalized as infrastructure. Buffett's trust premium is Type 5 patience hardened into reputation. Anna Wintour's gatekeeping is Type 8 nerve. Murdoch's political force is Type 8 dominance instincts. Morris Chang's manufacturing religion is Type 1 perfectionism scaled to industrial policy. The successor inherits the asset—not the wiring. That's why [Jensen Huang](/personality-analysis/jensen-huang) said no when Chang offered him TSMC, why Greg Abel can't fully replicate Buffett's aura, and why Vogue under Chloe Malle is a different magazine. You can't inherit a personality.
 </QuickAnswer>
 
 <p class="firstLetter">Morris Chang offered Jensen Huang the keys to TSMC. Jensen—who runs the most valuable company on earth—said no. Most readers will assume that was modesty, or that Jensen was too busy with NVIDIA. The Enneagram read is sharper: Jensen knew his Type 6 vigilance couldn't run a Type 1 manufacturing religion. The institution would have rejected the transplant.</p>

@@ -59,10 +59,10 @@ This isn't a coincidence. It's the Enneagram. And the types that DON'T show up i
 | Type   | Leaders                                                                                                                                                                                                                              | Leadership Style          | Strength                 | Blind Spot               |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- | ------------------------ | ------------------------ |
 | Type 1 | [Steve Jobs](/personality-analysis/steve-jobs), [Tim Cook](/personality-analysis/tim-cook)                                                                                                                                           | Standards & Perfectionism | Uncompromising quality   | Crushing rigidity        |
-| Type 3 | Jensen Huang, Andy Jassy, [Chamath](/personality-analysis/chamath-palihapitiya)                                                                                                                                                      | Achievement & Adaptation  | Relentless execution     | Image over substance     |
+| Type 3 | Andy Jassy, [Chamath](/personality-analysis/chamath-palihapitiya), [Brian Chesky](/personality-analysis/brian-chesky)                                                                                                                | Achievement & Adaptation  | Relentless execution     | Image over substance     |
 | Type 4 | [Sam Altman](/personality-analysis/sam-altman)                                                                                                                                                                                       | Vision & Narrative        | Inspiring significance   | Dramatic instability     |
 | Type 5 | [Musk](/personality-analysis/elon-musk), [Zuckerberg](/personality-analysis/mark-zuckerberg), [Nadella](/personality-analysis/satya-nadella), [Gates](/personality-analysis/bill-gates), [Dorsey](/personality-analysis/jack-dorsey) | Systems & Mastery         | Deep analytical rigor    | Emotional detachment     |
-| Type 6 | [Peter Thiel](/personality-analysis/peter-thiel), [David Sacks](/personality-analysis/david-sacks)                                                                                                                                   | Contrarianism & Loyalty   | Threat detection         | Paranoid decision-making |
+| Type 6 | [Jensen Huang](/personality-analysis/jensen-huang), [Peter Thiel](/personality-analysis/peter-thiel), [David Sacks](/personality-analysis/david-sacks)                                                                               | Vigilance & Loyalty       | Threat detection         | Paranoid decision-making |
 | Type 8 | [Jeff Bezos](/personality-analysis/jeff-bezos), [Reed Hastings](/personality-analysis/reed-hastings), [Travis Kalanick](/personality-analysis/travis-kalanick)                                                                       | Confrontation & Dominance | Decisive force           | Destructive intensity    |
 | Type 9 | [Sundar Pichai](/personality-analysis/sundar-pichai)                                                                                                                                                                                 | Consensus & Diplomacy     | Organizational stability | Conflict avoidance       |
 
@@ -96,37 +96,23 @@ Cook's Apple has a subtler version of the same problem. The need to make everyth
 
 ## Type 3 Leaders: The Achievement Machines
 
-### Jensen Huang
+### Chamath Palihapitiya, Brian Chesky, and Andy Jassy
 
-In 1993, three engineers crowded into a booth at a Denny's in San Jose. Jensen Huang was 30, the youngest of the three co-founders. Chris Malachowsky and Curtis Priem had deeper technical expertise. They deferred to Huang anyway. As Priem later put it: "We basically deferred to Jensen on day one. You're in charge of running the company, all the stuff Chris and I don't know how to do."
+Type 3 leadership adapts to the scoreboard in front of it. [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya) performs expertise across finance, politics, health, and AI with the confidence of someone who has mastered each arena. [Brian Chesky](/personality-analysis/brian-chesky) turned design taste and founder narrative into Airbnb's operating system. Andy Jassy built his career by converting Amazon's internal infrastructure into AWS, then inherited Bezos's larger machine.
 
-That's Type 3 instinct. Huang didn't know more. He positioned himself as the one who could _execute_ more. And then he proved it, even when execution meant surviving catastrophe.
-
-Nvidia's first real product, the NV1, nearly killed the company. Huang bet on quadratic texture mapping when the entire industry was going triangles. Microsoft released DirectX with triangle-only support. The NV1 became a $10 million loss. Sixty percent of the 80-person staff got laid off. The bank balance dropped to one month's payroll. A Type 5 might have doubled down on the theory. A Type 1 might have insisted the industry was wrong. Huang did what 3s do: he read the room, killed the failing approach, and pivoted the entire company to the RIVA 128 chip. It sold a million units in four months.
-
-That pattern (reading the market, becoming what it demands, executing at speed) defines everything Huang has done since. Gaming GPU company to AI infrastructure backbone. The pivot wasn't visionary. It was adaptive. 3s don't predict the future. They position themselves at the center of whatever the future turns out to be.
+The surface changes with the arena. The engine does not: identify what success requires, become credible in that language, and keep executing until the institution reflects the leader's performance standard.
 
 ### The 3's Superpower: Becoming What Success Requires
 
-Huang sells GPUs to everyone: OpenAI, Anthropic, Google, Meta. A Type 8 would pick a side and dominate it. A Type 5 would analyze which side is right. A Type 3 ensures they're essential to EVERY side. He's the arms dealer of the AI wars, and that's not neutrality. That's 3 optimization. You don't pick winners when you can be the thing every winner needs.
+The 3 sees the performance standard early. Chamath turns public positioning into capital access. Jassy optimized himself for the specific challenge of running someone else's empire. Chesky made hospitality legible to investors by making himself the interpreter between design culture and Wall Street.
 
-His management style reflects the same logic. Huang has 60+ direct reports and holds no one-on-one meetings. Instead, he reads roughly 100 "top of mind" emails every morning from anyone in the company, what he calls "stochastically sampling the system." No hierarchy filters the information. No single person gets privileged access. It's efficiency as leadership philosophy: a 3 who eliminates every structural barrier between himself and achievement. And when the Nvidia stock hit $100, he made good on a years-old promise to employees and got the company logo tattooed on his arm. A 3 performs commitment publicly enough that the gesture itself becomes the story.
-
-Compare Huang's product-3 approach with [Chamath Palihapitiya's](/personality-analysis/chamath-palihapitiya) capital-3. Both are relentlessly achievement-driven, but their arenas differ. Huang executes through engineering and supply chain dominance. Chamath executes through deals, narrative, and public positioning. On the All-In Podcast, Chamath performs expertise across every domain (finance, politics, health, AI) with the confidence of someone who has mastered each one. That's a 3's core skill: projecting competence so convincingly that the audience can't tell the difference between mastery and performance.
-
-The 3 also appears as a successor type. Andy Jassy at Amazon is a quieter 3, achievement-oriented, operationally relentless, but adapted to the specific challenge of running someone else's empire. Where Huang builds his own narrative, Jassy executes within Bezos's framework. Same type, different stage.
-
-And then there's the 3 who admits the cost. [Brian Chesky](/personality-analysis/brian-chesky) at Airbnb has called the company's $100 billion IPO "one of the saddest periods of my life." A Huang would never say that out loud. A Chamath certainly wouldn't. Chesky is the 3 who lets the loneliness of the achievement engine show: same drive, opposite confession. The same type that builds Nvidia's victory-lap keynotes also builds the rare CEO interview where success is described as a kind of grief.
+Chesky has called Airbnb's $100 billion IPO "one of the saddest periods of my life." That confession exposes the cost under the achievement engine: the scoreboard can say victory while the person running toward it feels increasingly alone.
 
 ### The 3's Blind Spot: Image Over Substance
 
-3s can confuse achievement with substance. They optimize for looking successful, which sometimes means prioritizing optics over depth.
+3s can confuse achievement with substance. They optimize for looking successful, which sometimes means prioritizing optics over depth. A Type 3-led company can become a rocket strapped to market demand, fast enough that nobody asks whether the destination still belongs to the founder or merely to the scoreboard.
 
-Nvidia's stock story is as much about narrative as technology. Huang's GTC keynotes are spectacles: the leather jacket, the demos, the "this changes everything" framing. The technology is real. But the presentation is pure 3: package the achievement so compellingly that the audience confuses the packaging for the product. When Nvidia's stock dropped 17% in January 2025 after the DeepSeek announcement (a Chinese AI lab training competitive models on fewer GPUs), the market briefly saw through the narrative. The stock recovered. But the dip revealed something: a 3's success story is always partly story.
-
-The contrast with 5s clarifies this. A 5-led company feels like a thesis, built from first principles regardless of market reaction. A 3-led company feels like a rocket strapped to market demand. Nvidia doesn't have a philosophical position on AI. It has a market position. And for a Type 3, that's the only position that matters.
-
-And when the 3's image-management gets uncoupled from real achievement entirely, you get [Elizabeth Holmes](/personality-analysis/elizabeth-holmes). The deepened voice, the black turtleneck, the unblinking stare: a Type 3 cosplaying Steve Jobs while the actual technology never worked. Theranos is what happens when the costume keeps performing after the substance has run out. The same 3 wiring that makes Huang's keynotes electric makes Holmes's deposition footage chilling. The difference between them isn't type. It's whether the achievement under the image is real.
+When image-management gets uncoupled from real achievement entirely, you get [Elizabeth Holmes](/personality-analysis/elizabeth-holmes). The deepened voice, the black turtleneck, the unblinking stare: a Type 3 cosplaying Steve Jobs while the actual technology never worked. Theranos is what happens when the costume keeps performing after the substance has run out.
 
 ## Type 4 Leaders: The Vision-Casters
 
@@ -218,9 +204,13 @@ The collapse case is [Sam Bankman-Fried](/personality-analysis/sam-bankman-fried
 
 ## Type 6 Leaders: The Contrarian Threat-Detectors
 
-### Peter Thiel and David Sacks
+### Jensen Huang, Peter Thiel, and David Sacks
 
-6s in tech are rarely CEOs. They're investors, advisors, and political operators. [Thiel](/personality-analysis/peter-thiel) and [Sacks](/personality-analysis/david-sacks) are the archetypal examples: they don't build companies day-to-day, but they shape the terrain through capital allocation and political influence. The 6 doesn't sit in the CEO chair. The 6 decides who gets to.
+Type 6 leaders build for the threat they assume is already approaching. [Jensen Huang](/personality-analysis/jensen-huang) carries that vigilance into the CEO chair; [Peter Thiel](/personality-analysis/peter-thiel) and [David Sacks](/personality-analysis/david-sacks) deploy it through capital, networks, and political influence.
+
+Huang still describes NVIDIA as perpetually close to failure. His flat information system, dozens of direct reports, and constant sampling of employee "top five" emails are designed to keep bad news from being filtered out before it reaches him. Selling GPUs to competing AI labs is not merely achievement optimization. It is a Type 6 hedge: NVIDIA does not need to guess the winner if every plausible winner depends on its infrastructure.
+
+That same loyalty appears in the NVIDIA tattoo and the employees who stayed through near-bankruptcy. The performance is visible, but the motive underneath it is security through preparedness and a trusted group. The full case is in [Jensen Huang's Type 6 personality analysis](/personality-analysis/jensen-huang).
 
 ### The 6's Superpower: Seeing Around Corners
 

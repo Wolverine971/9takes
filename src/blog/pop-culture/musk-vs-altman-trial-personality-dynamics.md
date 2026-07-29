@@ -85,7 +85,7 @@ The verdict does not mean "OpenAI never betrayed its mission." It means "Musk wa
 
 ## What Three Weeks of Testimony Actually Revealed
 
-The statute of limitations ended the lawsuit. It did not make the trial pointless. Musk, Altman, Brockman, Ilya Sutskever, Mira Murati, former board members, Microsoft executives, and others put years of private conflict into a public record.
+The statute of limitations ended the lawsuit. It did not make the trial pointless. Musk, Altman, Brockman, Ilya Sutskever, [Mira Murati](/personality-analysis/mira-murati), former board members, Microsoft executives, and others put years of private conflict into a public record.
 
 The testimony produced three overlapping trials:
 
