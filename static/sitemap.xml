@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -953,7 +953,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1412,7 +1412,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-07-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2143,6 +2143,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/jensen-huang</loc>
+    <lastmod>2026-07-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Jensen-Huang.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/jimmy-carter</loc>
     <lastmod>2025-12-09</lastmod>
     <image:image>
@@ -2773,6 +2780,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/mira-murati</loc>
+    <lastmod>2026-07-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Mira-Murati.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/morgan-freeman</loc>
     <lastmod>2026-07-01</lastmod>
     <image:image>
@@ -2868,6 +2882,13 @@
     <lastmod>2026-07-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/4s/Nikola-Tesla.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/ninja</loc>
+    <lastmod>2026-07-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Ninja.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3662,7 +3683,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-07-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
@@ -3674,7 +3695,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-07-25</lastmod>
+    <lastmod>2026-07-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vincent-van-gogh</loc>

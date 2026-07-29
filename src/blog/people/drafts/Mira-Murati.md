@@ -4,33 +4,15 @@ meta_title: "Mira Murati's Enneagram: Why the Calmest Woman in AI Went Quiet"
 persona_title: "AI's Center of Gravity"
 description: 'Why did the calmest woman in AI dodge the one question everyone wanted answered? Mira Murati is a Type 9, and the peacemaker pattern explains all of it.'
 author: 'DJ Wayne'
-date: '2026-07-01'
+date: '2026-07-28'
 loc: 'https://9takes.com/personality-analysis/Mira-Murati'
-lastmod: '2026-07-01'
+lastmod: '2026-07-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['techie', 'entrepreneur']
 person: 'Mira-Murati'
-content_quality:
-  hook: 9
-  enneagram: 9
-  evidence: 8
-  writing: 8
-  originality: 8
-  discoverability: 9
-  overall: 8.4
-  letter: B
-  rubric_version: 2
-  caps_applied: []
-  confidence: medium
-  anchor: 'Matt-Smith draft (2026-06-28)'
-  needs_review: false
-  first_overall: 7.6
-  regrade_overall: 8.4
-  grade_stability_delta: 0.8
-  graded_at: '2026-07-22'
 suggestions: ['Sam-Altman', 'Bill-Gates', 'Elon-Musk', 'Mark-Zuckerberg']
 wikipedia: 'https://en.wikipedia.org/wiki/Mira_Murati'
 wikidata_qid: 'Q116706551'
@@ -123,6 +105,24 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Mira-Murati.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8
+  originality: 8
+  discoverability: 9
+  overall: 8.6
+  first_overall: 8.6
+  regrade_overall: 8.6
+  grade_stability_delta: 0.0
+  letter: B+
+  rubric_version: 2
+  caps_applied: []
+  confidence: medium
+  anchor: 'Matt-Smith draft (2026-06-28)'
+  needs_review: false
+  graded_at: '2026-07-28'
 ---
 
 <!-- TESTIMONY LEDGER
@@ -161,15 +161,15 @@ Ending swap-test: pass — the ending turns on answering a billion-dollar talent
 
 > "OpenAI was at catastrophic risk of falling apart. I was concerned about the company completely blowing up." — Mira Murati, sworn testimony, Musk v. OpenAI trial, May 2026
 
-<p class="firstLetter">The most-watched question Mira Murati ever answered, she didn't answer. In March 2024 she sat for a Wall Street Journal interview about Sora, the video model that had stunned the internet a few weeks earlier. Joanna Stern asked a simple thing: what was it trained on? Murati offered "publicly available data and licensed data." Stern pressed. YouTube videos?</p>
+<p class="firstLetter">In March 2024, Mira Murati sat down with Joanna Stern for a Wall Street Journal video interview about Sora, the model that had stunned the internet a few weeks earlier. Stern asked a simple thing: what was it trained on? Murati began with "publicly available data and licensed data." Stern pressed. YouTube videos?</p>
 
-"I'm actually not sure about that," Murati said.
+"I'm actually not sure about that." — Mira Murati, Wall Street Journal video interview, March 2024
 
 She was the chief technology officer of OpenAI. Her team built the model. And on camera, in front of the world, she went quiet at exactly the moment a direct answer would have created friction. The clip went viral as a gaffe. Commentators called it cringe, evasive, a CTO caught flat-footed.
 
-It was none of those things. It was the single most revealing three seconds of her public life.
+Those three seconds exposed the method behind her public life: lower the temperature, avoid the irreversible answer, keep the room from splitting.
 
-Because the woman who wouldn't plant a flag on training data is the same woman every warring faction inside OpenAI trusted to hold it together. The same woman whose private Slack messages became the ammunition for firing [Sam Altman](/personality-analysis/Sam-Altman), and who then spent a frantic weekend fighting to bring him back. The same woman a collapsing country produced, who raised two billion dollars to build her own lab and then watched Altman pull pieces of it back out.
+The woman who wouldn't plant a flag on training data is the same woman every warring faction inside OpenAI trusted to hold it together. Her private Slack messages became evidence in the case for firing [Sam Altman](/personality-analysis/Sam-Altman), and she then spent a frantic weekend fighting to bring him back. She spent childhood in a country that collapsed, raised two billion dollars to build her own lab, and watched former colleagues recruit pieces of it away.
 
 To understand Mira Murati, start with what the calm actually is: a strategy, built in childhood, for hiding both a fear and an edge.
 
@@ -179,7 +179,7 @@ To understand Mira Murati, start with what the calm actually is: a strategy, bui
 <ul>
 <li><b>The type:</b> Enneagram Type 9, the Peacemaker, with a strong 1 wing. The calm, principled bridge who keeps the whole thing standing.</li>
 <li><b>The core tension:</b> The bridge versus the builder. She spent a decade making other people's visions real before she dared build her own.</li>
-<li><b>The core fear, in her own words:</b> the company "completely blowing up." A Nine dreads fragmentation. She grew up watching a country fragment for real.</li>
+<li><b>The core fear, in her own words:</b> the company "completely blowing up," as she described OpenAI in sworn testimony in May 2026. A Nine dreads fragmentation. She grew up watching a country fragment for real.</li>
 <li><b>Where to see it:</b> She became the leader every faction could accept for the same reason she could rarely say what she herself wanted.</li>
 <li><b>The turn:</b> A Nine in growth moves toward Type 3: ambition, agency, her own name on the door. That is Thinking Machines Lab, and the products it ships are agency machines for everyone else.</li>
 </ul>
@@ -190,7 +190,7 @@ To understand Mira Murati, start with what the calm actually is: a strategy, bui
 
 ### Mira Murati is an Enneagram Type 9
 
-Type 9, the [Peacemaker](/enneagram-corner/enneagram-type-9), with a strong 1 wing: that is the pattern under Mira Murati's whole public life. It produced the leader every warring OpenAI faction trusted, the executive who answered a training-data question with silence, and the founder whose stated fear, under oath, was a company "completely blowing up."
+Type 9, the [Peacemaker](/enneagram-corner/enneagram-type-9), with a strong 1 wing: that is the pattern under Mira Murati's whole public life. It produced the leader every warring OpenAI faction trusted, the executive who answered a training-data question with silence, and the founder whose stated fear was a company "completely blowing up" (Musk v. OpenAI trial deposition, May 2026).
 
 The public read is a cold, unflappable technical operator. The rare grown-up in a company full of prophets and provocateurs. The one who didn't shout. But once you understand the Nine, the read flips. The calm is a discipline, learned early and drilled for decades, and the entire arc of her life runs on the Nine's engine: hold the room together, become the person no one needs to fear, pour yourself into a shared mission until there is no separate self left to consult.
 
@@ -198,7 +198,7 @@ Strip the type theory down to one sentence and the sentence is already hers. A N
 
 But a Nine's calm hides more than fear. Underneath it sits anger with nowhere direct to go, and the second half of this story is the map of where hers went.
 
-One number frames how rare her path is. Across every tech founder and executive profiled on 9takes, 68 people in all, exactly one types as a Nine ([9takes corpus data](/corpus-stats)). Founder culture selects for people who grab the center of gravity. A Nine holds it instead, quietly, until everyone else is standing on it. Murati held it so well that two industries argued about her without ever being afraid of her.
+9takes has profiled 68 tech founders and executives. Murati is the only Nine in that group ([9takes corpus data](/corpus-stats)). Founder culture selects for people who grab the center of gravity. A Nine holds it quietly until everyone else is standing on it. Murati held it so well that two industries argued about her without ever being afraid of her.
 
 <div class="key-stat">
 <div class="key-stat-row"><strong>$2 billion</strong> raised in a single seed round for Thinking Machines Lab, at a <strong>$12 billion</strong> valuation, before revealing what the company was building.</div>
@@ -218,7 +218,7 @@ What she does talk about is the boredom, and what it built. "When everything is 
 
 A Nine's pattern usually traces to a childhood lesson that staying calm and low-friction kept things from breaking. Murati learned a version of it at national scale.
 
-At sixteen, she left. A United World Colleges scholarship took her to Pearson College on Vancouver Island, alone, an ocean from home. Then Colby, then Dartmouth's engineering school, then Goldman, Zodiac Aerospace, Tesla's Model X program, Leap Motion. Read that list again. It is a decade of walking into elite rooms as the outsider and becoming indispensable inside them without ever quite being from them. She still narrates herself that way. "I grew up in Albania," she told Kara Swisher, by way of explaining the gaps in her cultural references. "I didn't grow up with American pop culture." The immigrant kid who learns to read a room faster than anyone in it, because reading the room was once the whole job.
+At sixteen, she left. A United World Colleges scholarship took her to Pearson College on Vancouver Island, alone, an ocean from home. Then Colby, then Dartmouth's engineering school, then Goldman, Zodiac Aerospace, Tesla's Model X program, Leap Motion. The sequence matters: a decade of walking into elite rooms as the outsider and becoming indispensable inside them without ever quite being from them. She still narrates herself that way. "I grew up in Albania," she told Kara Swisher during a June 2024 event at the Johns Hopkins Bloomberg Center. "I didn't grow up with American pop culture." The immigrant kid learns to read a room fast because reading the room was once the whole job.
 
 So the world saw a polished, unflappable engineer gliding through the most prestigious institutions in tech, the picture of belonging. Underneath was a child from a place where the structures could dissolve overnight, who had learned one job above all others: stay calm, add nothing to the break, help hold what is left.
 
@@ -226,21 +226,21 @@ So the world saw a polished, unflappable engineer gliding through the most prest
 
 ## Why everyone at OpenAI called Mira Murati the adult in the room
 
-She joined OpenAI in 2018 and rose to CTO by 2022. She was the public face of ChatGPT, DALL-E, and Sora, the launches that turned a research lab into the most important company in the world. Fortune, profiling her at the height of it, landed on a sentence nobody has ever needed to write about Sam Altman: "She answers questions slowly and thoughtfully, with a tone that's both relaxed and ardent." In a building full of true believers and warring egos, that temperament made her one of the most trusted people in the field.
+She joined OpenAI in 2018 and rose to CTO by 2022. She was the public face of ChatGPT, DALL-E, and Sora, the launches that turned a research lab into a global consumer-technology force. Fortune's October 2023 profile landed on a sentence nobody has ever needed to write about Sam Altman: "She answers questions slowly and thoughtfully, with a tone that's both relaxed and ardent." In a building full of true believers and warring egos, that temperament made her one of the field's most trusted operators.
 
 Trusted is the precise word, and it is doing quiet work in every account of her.
 
-But calm was never passive, and this is where the builder shows. When OpenAI put ChatGPT in front of the public in November 2022, Murati's team walked it out as, in her words, "just a research preview," an experiment meant to gather feedback on how the model behaved. "We didn't anticipate the degree to which people would be so captivated with talking to an AI system," she told the AP. It became, at the time, the fastest-growing consumer app in history anyway. The most consequential product debut of the decade, and the person running the technology designed it to lower the temperature in the room. That is engineering judgment and a Nine's instinct in the same move.
+But calm was never passive, and this is where the builder shows. When OpenAI put ChatGPT in front of the public in November 2022, Murati's team walked it out as, in her words, "just a research preview," an experiment meant to gather feedback on how the model behaved. "We didn't anticipate the degree to which people would be so captivated with talking to an AI system," she told the Associated Press in April 2023. It became, at the time, the fastest-growing consumer app in history anyway. The product debut changed the decade, and the person running the technology had deliberately lowered the temperature around it. That is engineering judgment and a Nine's instinct in the same move.
 
 This is the Nine's genius at work, and it is real. Murati could sit with a safety researcher terrified of the models and a product lead desperate to ship them, and both would leave feeling heard. She held the Microsoft partnership together across three deals and roughly thirteen billion dollars. She saw every side because she was not gripping any one of them. It is a sophisticated skill most executives never develop, and she made it look like temperament.
 
-Then there is the most loaded exchange of her public life before the courtroom. In June 2024, on stage at Johns Hopkins, Kara Swisher described Murati's boss to her face: "feral and aggressive like most of technology people," Swisher said, and asked about their relationship. Handed a live grenade, Murati declined to pull the pin. "Sam is a visionary. He has great ambition and he's built an amazing company," she answered. The pushing? "Sam will push the team very hard, and I think that's good." And when it goes too far, "I can push back, and that's sort of the relationship we've had for over six years now." An interviewer offers her the word feral. She hands back visionary. That is a peacemaker defusing a grenade in real time. The exchange has a second act, two years later, under oath.
+At the same June 2024 Johns Hopkins event, Swisher described Murati's boss to her face as "feral and aggressive like most of technology people," then asked about their relationship. Handed a live grenade, Murati declined to pull the pin. "Sam is a visionary. He has great ambition and he's built an amazing company," she answered. The pushing? "Sam will push the team very hard, and I think that's good." And when it goes too far, "I can push back, and that's sort of the relationship we've had for over six years now." An interviewer offers her the word feral. She hands back visionary. That is a peacemaker defusing a grenade in real time. The exchange has a second act, two years later, under oath.
 
 The shape of the exchange matters, too. The men of technology get described as feral and aggressive, and the woman across from Swisher is expected to absorb the description without flinching, then vouch for everyone. The industry kept calling her "the adult in the room," which is the role a certain kind of company always hands the woman: absorb the heat, steady everyone else, ask for nothing out loud. She was better at it than anyone alive. It is also part of what kept her quiet for years about what Altman was doing to her.
 
 Which brings us back to the Sora interview, because this is where the empathy has to do its work. Critics saw a CTO dodging a question about stolen data. And they were not entirely wrong. "I'm actually not sure" was, on the merits, a bad answer about a real transparency problem, and she knew enough to know it.
 
-But watch what her system did under pressure. A direct "yes, we used YouTube" would have detonated a lawsuit and a firestorm. A flat "no" would have been a lie. So she did what a Nine does under threat: went soft, went vague, refused to plant a flag that might blow something up. It reads as evasion. It is closer to a reflex. The same instinct that let her mediate a civil war inside her own company is the instinct that makes her physically unable to say the friction-creating sentence out loud. The strength and the weakness are the same muscle.
+But watch what her system did under pressure. A direct "yes, we used YouTube" would have detonated a lawsuit and a firestorm. A flat "no" would have been a lie. So she did what a Nine does under threat: went soft, went vague, refused to plant a flag that might blow something up. It reads as evasion. It is closer to a reflex. The same instinct that let her mediate a civil war inside her own company makes the friction-creating sentence hard to say out loud. The strength and the weakness are the same muscle.
 
 <p class="inner-thought">The board has just fired Sam. Seven hundred people are threatening to walk. Someone has to be the still point or the whole company scatters by Monday. Not because I want the chair. Because if I flinch, it all comes down. Stay calm. Hold it together. That is the only thing I know how to do.</p>
 
@@ -250,13 +250,13 @@ But watch what her system did under pressure. A direct "yes, we used YouTube" wo
 
 In November 2023, OpenAI's board fired Sam Altman, and for roughly three days Murati was interim CEO of the most consequential company in artificial intelligence.
 
-Here is the part that complicates the diplomat image, and the part the Nine lens actually explains. Murati had spent years absorbing what she saw as Altman's way of running the company, and she did not shout about it. She wrote it down. The New York Times reported that before the firing she sent Altman a private memo questioning his management and shared her concerns with the board, a move that "helped to propel" his ouster. Keach Hagey's book The Optimist goes further: the dossier of alleged lying and toxic behavior that Ilya Sutskever sent the board was "largely backed up by screenshots from Murati's Slack channel that Sutskever had compiled." Her frustration, typed quietly into a chat window, became the paper trail that brought down the most powerful man in AI.
+Here is the part that complicates the diplomat image, and the part the Nine lens actually explains. Murati had spent years absorbing what she saw as Altman's way of running the company, and she did not shout about it. She wrote it down. The New York Times reported in March 2024 that before the firing she sent Altman a private memo questioning his management and shared her concerns with the board, a move that "helped to propel" his ouster. Keach Hagey's 2025 book, The Optimist, goes further: the dossier of alleged lying and toxic behavior that Ilya Sutskever sent the board was "largely backed up by screenshots from Murati's Slack channel that Sutskever had compiled." Her frustration, typed quietly into a chat window, became part of the paper trail that brought down OpenAI's CEO.
 
-Murati has always rejected the coup-plotter framing. Her comments to the board, she said afterward, were "all feedback Sam already knew." Hold both facts at once, because both are true and the type explains how they coexist. She raised her anger exactly the way a Nine raises anger: privately, in writing, through channels, in the mildest available register, to the man himself and to the people responsible for him. No leak, no ultimatum, no showdown. Then someone else took her carefully worded worry and detonated it. Helen Toner, who sat on that board, would later testify that the concerns reaching it through Sutskever did real work in convincing it to move. A Nine's anger is real. It just moves in documents, through intermediaries, as feedback the other person "already knew." What a Nine cannot do is want the explosion.
+Murati has always rejected the coup-plotter framing. Her comments to the board, she said afterward, were "all feedback Sam already knew." Both facts matter, and the type explains how they coexist. She raised her anger exactly the way a Nine raises anger: privately, in writing, through channels, in the mildest available register, to the man himself and to the people responsible for him. No leak, no ultimatum, no showdown. Then someone else took her carefully worded worry and detonated it. In a deposition played at the Musk v. OpenAI trial in May 2026, former board member Helen Toner said Sutskever's concerns were a starting point for the board's decision. A Nine's anger is real. It moves in documents, through intermediaries, as feedback the other person "already knew." What a Nine cannot do is want the explosion.
 
-And the moment the explosion came, she could not bear it. More than 700 of OpenAI's roughly 770 employees signed a letter threatening to walk. So the interim CEO of the company that had just fired Sam Altman went to work bringing Sam Altman back: Bloomberg reported she was negotiating to re-hire him and Greg Brockman within days. On Sunday night, with the board wavering, Altman texted her: "can you indicate directionally good or bad? satya and others anxious." Her three-word reply became the most quoted exhibit of the Musk v. OpenAI trial when the texts surfaced in court two and a half years later: "Directionally very bad." Honest, precise, and delivered to the man her own words had helped depose.
+And the moment the explosion came, she could not bear it. More than 700 of OpenAI's roughly 770 employees signed a letter threatening to walk. So the interim CEO of the company that had just fired Sam Altman went to work bringing Sam Altman back: Bloomberg reported she was negotiating to re-hire him and Greg Brockman within days. On Sunday night, with the board wavering, Altman texted her: "can you indicate directionally good or bad? satya and others anxious." Her three-word reply, preserved in a November 19, 2023 text exchange and entered as a Musk v. OpenAI trial exhibit in May 2026, was "Directionally very bad." Honest, precise, and delivered to the man her own words had helped depose.
 
-Satya Nadella, with roughly thirteen billion Microsoft dollars riding on the outcome, put his weight behind her by name: Microsoft remained "committed to our partnership, and to Mira and the team." The board replaced her with an outside interim CEO that Sunday night anyway. Two days later Altman was back, and Murati returned to being CTO as if the weekend had been weather. She later described running the most important company on earth through its near-death experience as "kind of stressful."
+Satya Nadella, with roughly thirteen billion Microsoft dollars riding on the outcome, put his weight behind her by name: Microsoft remained "committed to our partnership, and to Mira and the team." The board replaced her with an outside interim CEO that Sunday night anyway. Two days later Altman was back, and Murati returned to being CTO as if the weekend had been weather. At the Johns Hopkins event in June 2024, she compressed the three-day crisis into two dry words: "kind of stressful."
 
 For years that stayed the story: loyal number two, steady hand, the executor who made other people's visions real. Then the pattern broke.
 
@@ -268,11 +268,11 @@ Support. Love. Held it together. Even the goodbye described a peacemaker.
 
 ## What Mira Murati built when she finally built her own
 
-In February 2025 she launched Thinking Machines Lab, and in July 2025 it closed a seed round that broke records: two billion dollars at a twelve-billion-dollar valuation, led by Andreessen Horowitz, for what TechCrunch called "a startup so early, it hasn't even revealed what it's working on yet." The backers were not buying a roadmap. They were buying her. And the quiet woman who had spent a decade deferring to other people's boards structured this one so that her vote equals every other board vote combined, plus one. The peacemaker took control. It is the most out-of-character move of her life, and one of the truest.
+In February 2025 she launched Thinking Machines Lab, and in July 2025 it closed a record-setting seed round: two billion dollars at a twelve-billion-dollar valuation, led by Andreessen Horowitz, for what TechCrunch called "a startup so early, it hasn't even revealed what it's working on yet." The backers were not buying a roadmap. They were buying her. Fortune reported that the quiet woman who had spent a decade deferring to other people's boards structured this one so that her vote equals every other board vote combined, plus one. The peacemaker took control. The move looks out of character until you read it as the moment she finally stopped disappearing into someone else's mission.
 
 The mission she wrote at launch sounds, again, like the woman writing it: "We believe AI should serve as an extension of individual agency and, in the spirit of freedom, be distributed as widely and equitably as possible." Agency, distributed widely, no single dominant hand. Even her vision of the technology is a Nine's vision of the world: wholeness, spread evenly, nobody forced to disappear.
 
-For seven months the lab said almost nothing, and the industry filled the silence with guesses. Then in October 2025 the first product arrived, and it was a self-portrait. Thinking Machines did not ship a chatbot to compete with the company she left. It shipped Tinker, an API that lets researchers fine-tune open models themselves. Andrej Karpathy's endorsement caught the design philosophy exactly: "you retain 90% of algorithmic creative control" while Tinker "handles the hard parts."
+For seven months the lab said almost nothing, and the industry filled the silence with guesses. Then in October 2025 the first product arrived, and it was a self-portrait. Thinking Machines did not ship a chatbot to compete with the company she left. It shipped Tinker, an API that lets researchers fine-tune open models themselves. In an October 1, 2025 X post, Andrej Karpathy caught the design philosophy exactly: "you retain 90% of algorithmic creative control" while Tinker "handles the hard parts."
 
 The product is the type, rendered as infrastructure. OpenAI sells you a finished intelligence and asks you to trust it. Murati's first product hands you the controls and gets out of the way. She raised two billion dollars and used it to build the machine version of what she did in every meeting at OpenAI: make everyone else more capable while keeping herself out of the frame.
 
@@ -288,15 +288,15 @@ In January, Luke Metz went back to OpenAI, and her co-founder and CTO Barret Zop
 
 By spring, roughly a third of the founding team was gone, most of it to Meta and OpenAI. Gizmodo ran the headline that said the quiet part out loud: "Sam Altman Is Tearing Apart His Former Colleague's Startup."
 
-Run the symmetry once and it stings. Run it twice and you can see the whole type. The man who called her a source of "love during all the hard times" was pulling her people back to the company she left. The woman whose entire operating system exists to keep things from coming apart was watching her own creation shed pieces, from the outside, calmly, the way she watched everything.
+The symmetry stings. The man who called her a source of "love during all the hard times" was pulling her people back to the company she left. The woman whose entire operating system exists to keep things from coming apart was watching her own creation shed pieces, from the outside, calmly, the way she watched everything.
 
-But something else broke that spring, and it is the most important beat in her whole story. In sworn testimony played at the Musk v. OpenAI trial in May 2026, the peacemaker stopped keeping the peace. Two years earlier, handed the word "feral" about her boss on a live stage, she had smoothed it into "Sam is a visionary." Now, asked under oath whether Altman had been candid with her, she paused long enough that reporters in the courtroom noted it, and gave two words: "Not always." Did he undermine her as CTO? Yes. Did he pit OpenAI's executives against one another? Yes. He had built, she testified, "a very difficult and chaotic environment." For a decade she had absorbed all of it and named none of it. The Nine's buried anger, the thing the type dissociates from so fast it slips away like wind through the fingers, finally had a name and a courtroom.
+But something else broke that spring. In sworn testimony played at the Musk v. OpenAI trial in May 2026, the peacemaker stopped keeping the peace. Two years earlier, handed the word "feral" about her boss on a live stage, she had smoothed it into "Sam is a visionary." Now, asked under oath whether Altman had been candid with her, she paused long enough that reporters in the courtroom noted it, and gave two words: "Not always." Did he undermine her as CTO? Yes. Did he pit OpenAI's executives against one another? Yes. He had built, she testified, "a very difficult and chaotic environment." For a decade she had absorbed all of it and named none of it. The Nine's buried anger, the thing the type dissociates from so fast it slips away like wind through the fingers, finally had a name and a courtroom.
 
-Here is where the story stops being a tragedy, because the wall held. In March 2026, Nvidia signed a gigawatt-scale compute partnership with Thinking Machines and put an investment behind it. By April the talent flow had reversed, engineers leaving Meta for the lab Meta had raided, and this time the TechCrunch headline read "Meta's loss is Thinking Machines' gain." People go where the center holds. In June she resurfaced on stage at Bloomberg Tech, laying out what her lab is actually for and referring to the OpenAI implosion with the survivors' shorthand: "the blip." And on July 15, 2026, Thinking Machines shipped Inkling, an open-weights model that independent evaluators immediately ranked the strongest open model in America.
+Here is where the story stops being a tragedy, because the wall held. In March 2026, Nvidia signed a gigawatt-scale compute partnership with Thinking Machines and put an investment behind it. By April the talent flow had reversed, engineers leaving Meta for the lab Meta had raided, and this time the TechCrunch headline read "Meta's loss is Thinking Machines' gain." People go where the center holds. In June she resurfaced on stage at Bloomberg Tech, laying out what her lab is actually for and referring to the OpenAI implosion with the survivors' shorthand: "the blip." On July 15, 2026, Thinking Machines shipped Inkling, an open-weights model that Artificial Analysis ranked as the leading U.S. open-weights release on its Intelligence Index.
 
-The move underneath that release is the whole biography. In the middle of the most predatory talent war in tech history, with rivals waving billion-dollar packages at her staff, Murati's counterpunch was to give her model's weights away. The labs around her treat capability like a state secret. She shipped hers with an open license, downloadable by anyone, because the mission said "distributed as widely and equitably as possible" and she meant it.
+The move underneath that release is the whole biography. In the middle of a predatory talent war, with rivals waving billion-dollar packages at her staff, Murati's counterpunch was to give her model's weights away. The labs around her treat capability like a state secret. She shipped hers with an open license, downloadable by anyone, because the mission said "distributed as widely and equitably as possible" and she meant it.
 
-The peace she kept for everyone else was never quite a peace she was standing inside. This one is hers. And she built it the only way a Nine ever fully owns anything: by handing it to everyone at once.
+The peace she kept for everyone else was never quite a peace she was standing inside. This one is hers. She built it in her own characteristic way: by handing it to everyone at once.
 
 ---
 
