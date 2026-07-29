@@ -120,9 +120,9 @@ export const POP_CULTURE_BRIDGES: Record<string, PopCultureBridges> = {
 		corpusAnchor: 'creator-media',
 		category: 'creator-media'
 	},
-	// Podcast Bros — Type 7 / Type 8 framing
+	// Podcast Bros — Type 5 expertise / Type 8 challenge framing
 	'podcast-bros-enneagram-analysis': {
-		type: 7,
+		type: 5,
 		secondaryType: 8,
 		corpusAnchor: 'creator-media',
 		category: 'creator-media'

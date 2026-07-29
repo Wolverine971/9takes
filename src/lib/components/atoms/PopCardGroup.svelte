@@ -14,13 +14,18 @@
 	interface Person {
 		image: string;
 		text: string;
+		shortText?: string;
 		enneagramType?: number;
 		subtext?: string;
 	}
 
-	export let people: Person[] = [];
-	export let aspectRatio = '16 / 9';
-	export let lazyLoad = true;
+	interface Props {
+		people?: Person[];
+		aspectRatio?: string;
+		lazyLoad?: boolean;
+	}
+
+	let { people = [], aspectRatio = '16 / 9', lazyLoad = true }: Props = $props();
 
 	// Small overlap that scales with count — more people = slightly more overlap
 	// 2 people: ~5%, 6 people: ~15%
@@ -43,6 +48,7 @@
 
 <div
 	class="pop-group"
+	class:pop-group--crowded={people.length > 4}
 	style="aspect-ratio: {aspectRatio};"
 	role="img"
 	aria-label={people.map((p) => p.text).join(', ')}
@@ -51,7 +57,7 @@
 		class="pop-group__people"
 		style="--count: {people.length}; --overlap: {getOverlapPx(people.length)}px;"
 	>
-		{#each people as person, i}
+		{#each people as person, i (person.text)}
 			<div class="pop-group__person" style="z-index: {getZIndex(i, people.length)};">
 				<img
 					src={person.image}
@@ -63,7 +69,7 @@
 					class="pop-group__img"
 				/>
 				<div class="pop-group__label">
-					<span class="pop-group__name">{person.text}</span>
+					<span class="pop-group__name" title={person.text}>{person.shortText ?? person.text}</span>
 					{#if person.enneagramType}
 						<span class="pop-group__type">Type {person.enneagramType}</span>
 					{/if}
@@ -104,7 +110,7 @@
 		justify-content: flex-end;
 		transition: transform 0.3s ease;
 
-		// Subtle overlap — first child has no negative margin
+		/* Subtle overlap — first child has no negative margin */
 		&:not(:first-child) {
 			margin-left: calc(var(--overlap, 5px) * -1);
 		}
@@ -135,15 +141,21 @@
 		bottom: 0.5rem;
 		left: 50%;
 		transform: translateX(-50%);
+		box-sizing: border-box;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: 0.15rem;
+		width: 100%;
+		padding-inline: 0.125rem;
 		z-index: 5;
 		white-space: nowrap;
 	}
 
 	.pop-group__name {
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
 		font-family: var(--font-family, sans-serif);
 		font-size: clamp(0.6rem, 2vw, 0.85rem);
 		font-weight: 700;
@@ -162,23 +174,55 @@
 		font-size: clamp(0.5rem, 1.5vw, 0.65rem);
 		letter-spacing: 0.1em;
 		color: var(--lamp-glow);
-		// Phase 2 (2026-05-04): brand-glow text-shadow removed per design-system.md §5.
+		/* Phase 2 (2026-05-04): brand-glow text-shadow removed per design-system.md §5. */
 	}
 
-	// Responsive
+	/* Responsive */
 	@media (max-width: 500px) {
 		.pop-group {
 			aspect-ratio: auto !important;
 			min-height: 250px;
 		}
 
+		.pop-group--crowded {
+			min-height: 0;
+		}
+
+		.pop-group--crowded .pop-group__people {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+			padding: 0;
+		}
+
+		.pop-group--crowded .pop-group__person {
+			height: 180px;
+			max-width: none;
+			overflow: hidden;
+		}
+
+		.pop-group--crowded .pop-group__person:not(:first-child) {
+			margin-left: 0;
+		}
+
 		.pop-group__name {
-			font-size: 0.55rem;
-			padding: 0.15rem 0.35rem;
+			font-size: 0.6rem;
+			letter-spacing: 0.04em;
+			padding: 0.15rem 0.125rem;
 		}
 
 		.pop-group__type {
-			font-size: 0.45rem;
+			font-size: 0.5rem;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.pop-group__person,
+		.pop-group__img {
+			transition: none;
+		}
+
+		.pop-group__person:hover {
+			transform: none;
 		}
 	}
 </style>
