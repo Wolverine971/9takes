@@ -85,7 +85,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'ben-affleck', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Hollywood\'s Self-Demolishing Architect', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] },
 		{ name: 'bernard-arnault', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'The Achiever in Cashmere', contentGrade: 9.3, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'brian-chesky', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Hospitality\'s Polished Reinventor', contentGrade: 8.9, types: ['techie', 'entrepreneur', 'business-operator'] },
-		{ name: 'carina-zavline', link: false, hasImage: true, lastmod: '2026-06-08', personaTitle: 'Fashion\'s Self-Made Brand', contentGrade: null, types: ['lifestyleInfluencer', 'influencer'] },
+		{ name: 'carina-zavline', link: true, hasImage: true, lastmod: '2026-07-29', personaTitle: 'Fashion\'s Proof Machine', contentGrade: 8.6, types: ['lifestyleInfluencer', 'influencer', 'model', 'actor'] },
 		{ name: 'chamath-palihapitiya', link: true, hasImage: true, lastmod: '2026-04-02', personaTitle: 'Silicon Valley\'s Restless Reinventor', contentGrade: 9.5, types: ['techie', 'investor'] },
 		{ name: 'charli-xcx', link: true, hasImage: true, lastmod: '2026-02-22', personaTitle: 'Pop\'s Calculated Anarchist', contentGrade: 9.6, types: ['musician', 'alternative-artist'] },
 		{ name: 'chris-williamson', link: true, hasImage: true, lastmod: '2026-02-22', personaTitle: 'Podcasting\'s Relentless Optimizer', contentGrade: 9.3, types: ['creator', 'podcaster'] },

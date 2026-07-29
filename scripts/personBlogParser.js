@@ -1184,6 +1184,29 @@ export function selectPublishCandidate(candidates, publishedMap, hasExplicitPers
 }
 
 /**
+ * Keep the standalone readiness check aligned with the real auto-publisher.
+ * Local editorial eligibility is useful for repair work, but a draft is only
+ * publishable by the cadence job when Supabase still marks it unpublished.
+ * @param {PublishCandidate} candidate
+ * @param {boolean} dbPublished
+ */
+export function buildPublishCheckResult(candidate, dbPublished) {
+	const localEligible = candidate.blockers.length === 0;
+	const blockers = [...candidate.blockers];
+	if (dbPublished) blockers.push('already_published');
+
+	return {
+		person: candidate.entry.person,
+		filePath: candidate.filePath,
+		eligible: localEligible && !dbPublished,
+		localEligible,
+		published: dbPublished,
+		overall: candidate.qualityOverall,
+		blockers
+	};
+}
+
+/**
  * @param {PublishCandidate[]} candidates
  * @param {number} [limit=8]
  * @returns {string}
@@ -2148,16 +2171,17 @@ async function main() {
 			}
 			if (publishCheck) {
 				const candidate = await checkPersonPublishReadiness(personFilter);
-				const result = {
-					person: candidate.entry.person,
-					filePath: candidate.filePath,
-					eligible: candidate.blockers.length === 0,
-					overall: candidate.qualityOverall,
-					blockers: candidate.blockers
-				};
+				const supabase = createSupabaseServiceClient();
+				const publishedMap = await getDbPublishedStatusMap(supabase);
+				const result = buildPublishCheckResult(
+					candidate,
+					publishedMap.get(candidate.entry.person) === true
+				);
 				if (jsonOutput) console.log(JSON.stringify(result));
 				else {
 					console.log(`Publish ready: ${result.eligible ? 'yes' : 'no'}`);
+					console.log(`Local editorial gates: ${result.localEligible ? 'pass' : 'blocked'}`);
+					console.log(`Published in Supabase: ${result.published ? 'yes' : 'no'}`);
 					for (const blocker of result.blockers) console.log(`- ${blocker}`);
 				}
 				if (!result.eligible) process.exitCode = 2;

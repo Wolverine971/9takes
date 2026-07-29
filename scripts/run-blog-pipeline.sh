@@ -26,10 +26,11 @@
 #   8. revise             - /blog_content_revision_pass_people  (CONDITIONAL — only if
 #                           overall < 8.5, discoverability < 7, or lint failed)
 #   8.5 lint (re-run)     - scripts/blog-lint.sh
-#   9. regrade            - /grade_blog (always runs when stage 7 produced a grade;
-#                           after revision when needed, otherwise as an independent
-#                           stability pass required by the publish gate)
-#   9.1 stability record  - deterministic first/regrade/delta frontmatter write
+#   9. regrade            - /grade_blog (after revision when needed, otherwise as
+#                           the independent stability pass required by the gate)
+#   9.1 stability regrade - /grade_blog (revision path only; grades the final text
+#                           a second time so improvement is not called instability)
+#   9.2 stability record  - deterministic same-version first/regrade/delta write
 #
 # The revise loop runs AT MOST ONCE. If the re-grade still lands below the bar,
 # the draft stays below the bar and a human decides — no infinite polishing.
@@ -204,7 +205,7 @@ write_summary() {
   PERSON="$PERSON" \
   DRAFT_PATH="$DRAFT_PATH" \
   PIPELINE_LOG_DIR="$LOG_DIR" \
-  FIRST_OVERALL="${FIRST_OVERALL:-}" \
+  FIRST_OVERALL="${STABILITY_FIRST_OVERALL:-${FIRST_OVERALL:-}}" \
   FINAL_OVERALL="${final_overall:-}" \
   FINAL_DISCOVERABILITY="${final_disc:-}" \
   LINT_EXIT="${LINT_EXIT:-0}" \
@@ -348,6 +349,8 @@ REVISION_REASONS=""
 REVISED=0
 FIRST_OVERALL=""
 FIRST_DISC=""
+POST_REVISION_FIRST_OVERALL=""
+STABILITY_FIRST_OVERALL=""
 
 if [[ "$MODE" == "refresh" ]]; then
   # A refresh edits a live page. If the draft is missing there is nothing to refresh,
@@ -397,7 +400,16 @@ if revision_needed; then
   run_stage 8 revise           "/blog_content_revision_pass_people $PERSON"
   run_lint 8.5
   clear_grading_frontmatter
-  run_stage 9 regrade          "/grade_blog $PERSON"
+  run_stage 9 post_revision_grade "/grade_blog $PERSON"
+  POST_REVISION_FIRST_OVERALL="$(read_quality_field overall)"
+  if [[ -n "$POST_REVISION_FIRST_OVERALL" ]]; then
+    STABILITY_FIRST_OVERALL="$POST_REVISION_FIRST_OVERALL"
+    echo "[Stage 9.1] Running independent stability regrade on the final revised text"
+    clear_grading_frontmatter
+    run_stage 9.1 stability_regrade "/grade_blog $PERSON"
+  else
+    echo "[Stage 9.1] Stability regrade skipped because the post-revision grade produced no overall score"
+  fi
 else
   if [[ -n "$REVISION_REASONS" ]]; then
     echo "[Stage 8] Skipped revision loop: ${REVISION_REASONS}"
@@ -406,6 +418,7 @@ else
   fi
   echo
   if [[ -n "$FIRST_OVERALL" ]]; then
+    STABILITY_FIRST_OVERALL="$FIRST_OVERALL"
     echo "[Stage 9] Running mandatory independent stability regrade required by the publish gate"
     clear_grading_frontmatter
     run_stage 9 regrade "/grade_blog $PERSON"
@@ -415,12 +428,12 @@ else
 fi
 
 FINAL_OVERALL="$(read_quality_field overall)"
-if [[ -n "$FIRST_OVERALL" && -n "$FINAL_OVERALL" ]]; then
-  run_report_stage 9.1 record_grade_stability \
+if [[ -n "$STABILITY_FIRST_OVERALL" && -n "$FINAL_OVERALL" ]]; then
+  run_report_stage 9.2 record_grade_stability \
     node "$REPO_ROOT/scripts/personBlogParser.js" "$PERSON" \
-    --record-grade-stability "--first-overall=$FIRST_OVERALL"
+    --record-grade-stability "--first-overall=$STABILITY_FIRST_OVERALL"
 else
-  echo "[Stage 9.1] Grade stability not recorded — first=${FIRST_OVERALL:-missing}, regrade=${FINAL_OVERALL:-missing}"
+  echo "[Stage 9.2] Grade stability not recorded — same-version first=${STABILITY_FIRST_OVERALL:-missing}, regrade=${FINAL_OVERALL:-missing}"
   echo
 fi
 
@@ -449,7 +462,7 @@ if [[ "$REVISED" -eq 1 ]]; then
   run_report_stage 9.6 source_audit_after_revision node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON" --fail-on-untagged-load-bearing
   run_report_stage 9.7 same_type_similarity_after_revision node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8 --fail-on-trip
   echo "REVISION LOOP: ran once (trigger: ${REVISION_REASONS%; })"
-  echo "GRADE: ${FIRST_OVERALL:-?} → ${FINAL_OVERALL:-?} (first grade → after revision)"
+  echo "GRADE: ${FIRST_OVERALL:-?} pre-revision → ${POST_REVISION_FIRST_OVERALL:-?} post-revision → ${FINAL_OVERALL:-?} stability regrade"
   if [[ -n "$FINAL_OVERALL" ]] && awk -v o="$FINAL_OVERALL" 'BEGIN { exit !(o < 8.5) }'; then
     echo "STILL BELOW BAR after one revision — human review needed; the loop does not repeat."
   fi

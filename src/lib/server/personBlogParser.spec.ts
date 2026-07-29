@@ -4,6 +4,7 @@ import { describe, expect, it, vi } from 'vitest';
 
 import {
 	assertNonPublishPlanApproved,
+	buildPublishCheckResult,
 	buildNonPublishUpdatePlan,
 	buildPeopleManagedSnapshot,
 	countPublishableSections,
@@ -302,6 +303,28 @@ TODO: add source.
 
 		expect(selected?.entry.person).toBe('candidate-b');
 		expect(candidates[0].blockers).toContain('already_published');
+	});
+
+	it('distinguishes local editorial readiness from unpublished publish eligibility', () => {
+		const candidate = {
+			entry: { person: 'already-live' },
+			filePath: 'src/blog/people/drafts/already-live.md',
+			qualityOverall: 8.9,
+			blockers: []
+		} as any;
+
+		expect(buildPublishCheckResult(candidate, true)).toMatchObject({
+			eligible: false,
+			localEligible: true,
+			published: true,
+			blockers: ['already_published']
+		});
+		expect(buildPublishCheckResult(candidate, false)).toMatchObject({
+			eligible: true,
+			localEligible: true,
+			published: false,
+			blockers: []
+		});
 	});
 
 	it('reports the closest unpublished candidates instead of the first files alphabetically', () => {

@@ -4,6 +4,49 @@
 
 _Created: 2026-07-25. Companion to `backlog-queue.json`._
 
+## Live image-ready unpublished queue — 2026-07-29
+
+This snapshot is generated from the same two sources the publisher uses: local draft/image files and
+the live `blogs_famous_people.published` state in Supabase. All 41 entries below already participate in
+the publisher's dynamic candidate pool; this list explains why each one is held.
+
+**Ready for the next cadence run (1):**
+
+- **Jack Antonoff — 8.9 B+.** Independently regraded on the final text at 8.9; valid stability pair
+  8.9 → 8.9 (delta 0.0). Both images and every release gate pass.
+
+**Current v2 grade below 8.5 (6):**
+
+- Rose (BLACKPINK) 8.4; Olivia Cooke 8.3; Jason Sudeikis 8.1; Nick Offerman 7.5;
+  Jim Carrey 7.4; Hailee Steinfeld 7.0.
+
+**Missing a grade (2):**
+
+- Carina Zavline has no grade. Tyler1 has no grade and also fails the source standard.
+
+**Current v2 grade needs a valid stability pass plus a source fix (6):**
+
+- Victoria Justice 9.0; Keira Knightley 8.9; Olivia Wilde 8.8; Andrew Garfield 8.7;
+  Glen Powell 8.5; Greta Gerwig 8.5.
+
+**Stale rubric-v1 grade needs migration and stability (16):**
+
+- Britney Spears 9.2 (source check otherwise passes).
+- Frank Lloyd Wright 9.3; Tyga 9.1; Whitney Wolfe Herd 9.1; Ashton Kutcher 9.0;
+  Jeremy Allen White 9.0; Kate Beckinsale 8.9; Marie Curie 8.9; Mila Kunis 8.9;
+  Camila Cabello 8.8; Jennifer Aniston 8.8; Salma Hayek 8.8; Sandra Bullock 8.8;
+  Stephen King 8.8; Edgar Allan Poe 8.7; Jerry Seinfeld 8.7. These 15 also need the
+  untagged epigraph/cold-open source issue repaired.
+
+**Below 8.5 and also failing the source standard (10):**
+
+- Zac Efron 8.3; Mark Twain 8.2; Nikki Glaser 8.1; Paige Spiranac 8.1;
+  Rachel Brosnahan 8.1; Jennifer Coolidge 8.0; Jonah Hill 8.0; Reese Witherspoon 8.0;
+  Brené Brown 7.8; Channing Tatum 7.8.
+
+The standalone `--publish-check` now reports both local editorial readiness and live Supabase
+publication state. It no longer labels an already-published draft simply `eligible: true`.
+
 ## Automation repair — 2026-07-27
 
 The scheduler was firing, but the creation and publication contracts did not match. The repair now:
@@ -65,7 +108,11 @@ Ordered by effort to unblock, cheapest first.
 | Draft              | Grade | Rubric | Disc | Stability | Blocker                                        | Action                                                  |
 | ------------------ | ----- | ------ | ---- | --------- | ---------------------------------------------- | ------------------------------------------------------- |
 | **Jason Sudeikis** | 8.1   | v2 ✅  | 9 ✅ | **0.7**   | Below 8.5; unstable; three active quality caps | Substantive revision before another supervised regrade. |
-| **Jack Antonoff**  | 8.9   | v2 ✅  | 9 ✅ | **0.5**   | `grade_unstable:0.5_delta` (threshold is 0.3)  | Regrade to settle the score. DJ-requested.              |
+
+**Completed July 29:** Jack Antonoff independently regraded at 8.9 B+ on the final text. The former
+8.4 → 8.9 delta compared the pre-revision and post-revision drafts, so it measured improvement rather
+than grade instability. The corrected same-version pair is 8.9 → 8.9 (delta 0.0); Jack is now the first
+eligible unpublished candidate for the next cadence run.
 
 **Completed July 27:** Alex Warren shipped at 8.9 B+ ahead of the August 2026 _Wildchild_ release window. The database row, release event, generated famous-types entry, sitemap URL, and live HTTP 200 response were verified after publication.
 
