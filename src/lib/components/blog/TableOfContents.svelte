@@ -633,15 +633,23 @@
 	// Add active state tracking for TOC links - throttled for performance
 	let activeLinkTicking = false;
 	function updateActiveTocLink() {
-		if (!browser || !contentAnalysis || activeLinkTicking) return;
+		if (!browser || activeLinkTicking) return;
 
 		activeLinkTicking = true;
 		requestAnimationFrame(() => {
-			// Get all headings using the dynamic selector and TOC links
-			const headings = Array.from(
-				document.querySelectorAll(`${contentAnalysis!.headerSelector}[id]`)
-			);
-			const tocLinks = document.querySelectorAll('.toc-link');
+			// Derive the tracked headings from rendered TOC links. This works for
+			// both SSR-provided headings and client-generated TOCs.
+			const tocLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('.toc-link'));
+			const headingIds = [
+				...new Set(
+					tocLinks
+						.map((link) => link.getAttribute('href')?.replace(/^#/, ''))
+						.filter((id): id is string => Boolean(id))
+				)
+			];
+			const headings = headingIds
+				.map((id) => document.getElementById(id))
+				.filter((heading): heading is HTMLElement => heading !== null);
 
 			if (!headings.length || !tocLinks.length) {
 				activeLinkTicking = false;
@@ -668,10 +676,9 @@
 			// Add active class to the matching link
 			if (activeHeading) {
 				const activeId = activeHeading.id;
-				const activeLink = document.querySelector(`.toc-link[href="#${activeId}"]`);
-				if (activeLink) {
-					activeLink.classList.add('active');
-				}
+				tocLinks
+					.filter((link) => link.getAttribute('href') === `#${activeId}`)
+					.forEach((link) => link.classList.add('active'));
 			}
 
 			activeLinkTicking = false;
@@ -691,6 +698,7 @@
 
 			// Initial setup
 			handleResize();
+			updateActiveTocLink();
 
 			// Add event listener for TOC clicks
 			document.addEventListener('click', handleTocClick);
@@ -744,7 +752,7 @@
 
 {#if toc && (renderMode === 'both' || renderMode === 'accordion-only')}
 	<nav aria-label="Table of contents" class="toc-nav-wrapper">
-		<details class="toc-accordion" open>
+		<details class="toc-accordion" open={windowWidth >= desktopBreakpoint}>
 			<summary class="toc-summary">{title}</summary>
 			<div class="toc-accordion-content">
 				{@html toc}
@@ -757,6 +765,8 @@
 	.toc-sidebar {
 		--toc-link-color: var(--lamp-glow);
 		--toc-link-hover-color: var(--lamp-glow);
+		--toc-active-color: var(--ink-bright);
+		--toc-active-background: var(--lamp-soft);
 
 		/* Card base styles - Solo Leveling dark theme */
 		background-color: var(--night-deep);
@@ -827,6 +837,8 @@
 	.toc-accordion {
 		--toc-link-color: var(--lamp-glow);
 		--toc-link-hover-color: var(--lamp-glow);
+		--toc-active-color: var(--ink-bright);
+		--toc-active-background: var(--lamp-soft);
 
 		box-sizing: border-box;
 		width: 100%;
@@ -998,14 +1010,16 @@
 
 	:global(.toc-link.active) {
 		font-weight: 600;
-		color: var(--ink-bright);
-		background-color: var(--lamp-soft);
+		color: var(--toc-active-color);
+		background-color: var(--toc-active-background);
 	}
 
 	:global(:root.light) .toc-sidebar,
 	:global(:root.light) .toc-accordion {
-		--toc-link-color: var(--lamp-glow);
-		--toc-link-hover-color: var(--lamp-glow);
+		--toc-link-color: var(--ink-mid);
+		--toc-link-hover-color: var(--lamp-deep);
+		--toc-active-color: var(--lamp-deep);
+		--toc-active-background: color-mix(in srgb, var(--lamp-glow) 14%, var(--stone-warm));
 	}
 
 	/* Responsive adjustments - hide sidebar on screens smaller than breakpoint */

@@ -208,7 +208,15 @@ declare global {
 			howToSteps?: Array<{ name?: string; text?: string } | string>;
 			totalTime?: string;
 			pic?: string;
-			picGroup?: Array<{ image: string; text: string; enneagramType?: number; subtext?: string }>;
+			picGroup?: Array<{
+				image: string;
+				text: string;
+				shortText?: string;
+				enneagramType?: number;
+				subtext?: string;
+			}>;
+			eagerPicGroup?: boolean;
+			tocMaxEntries?: number;
 			headings?: TocHeading[];
 		}
 	}

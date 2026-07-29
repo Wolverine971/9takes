@@ -30,22 +30,29 @@
 	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
 	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
 	const defaultShareImage = 'https://9takes.com/brand/9takes-nine-mask-social-card.png';
+	let hasCompositeShareImage = $derived(Boolean(data?.pic?.endsWith('-composite')));
 	let shareImage = $derived(
-		data?.picGroup?.length
-			? buildSocialImageUrl(data.picGroup[0].image)
-			: data?.pic
-				? `https://9takes.com/blogs/${data.pic}.webp`
+		data?.pic
+			? `https://9takes.com/blogs/${data.pic}.webp`
+			: data?.picGroup?.length
+				? buildSocialImageUrl(data.picGroup[0].image)
 				: defaultShareImage
 	);
 	let shareImageAlt = $derived(
-		data?.picGroup?.length
+		data?.pic && data?.picGroup?.length
 			? data.picGroup.map((p) => p.text).join(', ')
 			: data?.pic
 				? data.pic.split('-').join(' ')
-				: articleTitle || '9takes'
+				: data?.picGroup?.length
+					? data.picGroup.map((p) => p.text).join(', ')
+					: articleTitle || '9takes'
 	);
-	let shareImageWidth = $derived(data?.picGroup?.length ? '560' : data?.pic ? '900' : '1200');
-	let shareImageHeight = $derived(data?.picGroup?.length ? '560' : data?.pic ? '900' : '630');
+	let shareImageWidth = $derived(
+		data?.pic ? (hasCompositeShareImage ? '2200' : '900') : data?.picGroup?.length ? '560' : '1200'
+	);
+	let shareImageHeight = $derived(
+		data?.pic ? (hasCompositeShareImage ? '1080' : '900') : data?.picGroup?.length ? '560' : '630'
+	);
 	const robotsContent =
 		'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1';
 	let canonicalUrl = $derived(`https://9takes.com/${slug}`);
@@ -155,13 +162,13 @@
 		description,
 		datePublished: data.date,
 		dateModified: data.lastmod || data.date,
-		...(data?.picGroup?.length || data?.pic
+		...(data?.pic || data?.picGroup?.length
 			? {
 					image: {
 						'@type': 'ImageObject',
 						url: shareImage,
-						width: data?.picGroup?.length ? 560 : 900,
-						height: data?.picGroup?.length ? 560 : 900
+						width: Number(shareImageWidth),
+						height: Number(shareImageHeight)
 					}
 				}
 			: {}),

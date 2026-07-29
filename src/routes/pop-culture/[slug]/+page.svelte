@@ -128,7 +128,7 @@
 
 	{#if data?.frontmatter?.picGroup}
 		<div class="featured-image" class:dark-image={isDarkContent}>
-			<PopCardGroup people={data.frontmatter.picGroup} />
+			<PopCardGroup people={data.frontmatter.picGroup} lazyLoad={!data.frontmatter.eagerPicGroup} />
 		</div>
 	{:else if data?.frontmatter?.pic}
 		<div class="featured-image" class:dark-image={isDarkContent}>
@@ -143,7 +143,11 @@
 		</div>
 	{/if}
 
-	<TableOfContents {contentStore} headings={data.frontmatter.headings} />
+	<TableOfContents
+		{contentStore}
+		headings={data.frontmatter.headings}
+		maxTocEntries={data.frontmatter.tocMaxEntries ?? 24}
+	/>
 
 	<div class="article-content">
 		<Article />
