@@ -4,12 +4,12 @@ meta_title: 'Tyler1 Enneagram Type 8: Discipline Behind the Rage'
 persona_title: "Streaming's Disciplined Brawler"
 description: "Why does Tyler1 yell? This Enneagram Type 8 analysis traces the control, endurance, anxiety response, and protective instinct beneath his persona."
 author: 'DJ Wayne'
-date: '2026-05-19'
+date: '2026-07-29'
 loc: 'https://9takes.com/personality-analysis/Tyler1'
-lastmod: '2026-05-19'
+lastmod: '2026-07-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '8'
 type: ['creator', 'streamer']
 person: 'Tyler1'
@@ -103,9 +103,9 @@ content_quality:
   confidence: high
   anchor: 'Matt-Smith draft (calibration B, 2026-06-28)'
   needs_review: false
-  first_overall: 7.2
+  first_overall: 8.7
   regrade_overall: 8.7
-  grade_stability_delta: 1.5
+  grade_stability_delta: 0.0
   graded_at: '2026-07-29'
 ---
 

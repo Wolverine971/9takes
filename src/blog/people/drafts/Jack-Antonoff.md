@@ -4,12 +4,12 @@ meta_title: 'Why Jack Antonoff Took His Bedroom on Tour (Enneagram 6)'
 persona_title: "Pop's Homesick Hitmaker"
 description: 'He recorded his first album in his childhood bedroom, then literally took the room on tour. Inside the inherited fear that built the Jack Antonoff sound.'
 author: 'DJ Wayne'
-date: '2026-07-11'
+date: '2026-07-30'
 loc: 'https://9takes.com/personality-analysis/Jack-Antonoff'
-lastmod: '2026-07-11'
+lastmod: '2026-07-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['musician', 'celebrity']
 person: 'Jack-Antonoff'

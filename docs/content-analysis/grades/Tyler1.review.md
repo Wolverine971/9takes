@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/grades/Tyler1.review.md -->
+
 # Grade feedback: Tyler1
 
 Grade: B+ (8.7), rubric v2
@@ -7,6 +8,7 @@ Anchor: Matt-Smith draft (calibration B, 2026-06-28) | Caps: none | Needs review
 Source audit: 1 inline, 0 vague, 0 untagged load-bearing quotes; no untagged load-bearing slots.
 Interior line: "If the feeling can be turned into a fight, then it does not get to make the decision."
 Empathy turn: "What it does reveal is his preferred route out of vulnerability: increase energy, close distance, regain command."
+Grade/regrade: first evaluation of the revised article 8.7 → supervised regrade 8.7 (stability delta 0.0). The pre-revision 7.2 remains editorial history and is excluded from this stability comparison because the article was materially rewritten.
 
 FEEDBACK (2026-07-29):
 

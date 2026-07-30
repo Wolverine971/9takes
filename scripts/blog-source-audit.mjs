@@ -260,7 +260,14 @@ const OUTLETS = [
 	// 2026-07-26). Same class as the comedy podcasts above: for streamer
 	// subjects a named show + date IS the checkable primary record.
 	'Jynxzi Podcast',
-	'Creature Feature'
+	'Creature Feature',
+	// Spanish-language creator coverage (Ibai-Llanos pass, 2026-07-30). The Wild
+	// Project is Jordi Wild's show with full public episodes (same class as Joe
+	// Rogan Experience above); Infobae and El Español are the checkable
+	// Spanish-language press that actually covers this corpus's Spanish creators.
+	'The Wild Project',
+	'Infobae',
+	'El Español'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

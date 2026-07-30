@@ -6,7 +6,7 @@ description: 'Peter Thiel bought a parachute after 9/11, lectures on the Antichr
 author: 'DJ Wayne'
 date: '2024-09-12'
 loc: 'https://9takes.com/personality-analysis/peter-thiel'
-lastmod: '2026-03-02'
+lastmod: '2026-07-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -155,13 +155,21 @@ Both men knew the answer. If Thiel had won the most competitive game in law, he 
 The evidence for Thiel as a Six is overwhelming:
 
 - **The outsider childhood** that taught him trust is earned, never given: seven schools, corporal punishment, constant displacement
-- **Systematic hedging against catastrophe**: New Zealand citizenship (obtained after spending just 12 days there), life extension research, cryonic preservation, a parachute in his office after 9/11
+- **Systematic hedging against catastrophe**: citizenship in Germany, the United States, and New Zealand (obtained after spending just 12 days there), a later [Maltese passport application](https://www.nytimes.com/2022/10/15/technology/peter-thiel-malta-citizenship.html), life extension research, cryonic preservation, and a parachute in his office after 9/11
 - **Counterphobic risk-taking**: the most anxious people sometimes charge directly at what frightens them. Thiel backs [Donald Trump](/personality-analysis/donald-trump) when his entire social circle recoils. He stands before the 2016 Republican National Convention, a venue hostile to everything he represents, and declares **"I am proud to be gay."** The first person to say those words at an RNC. That is a Six running toward the fire
 - **The Thiel Fellowship**: In 2011, he created a program paying students $100,000 to drop out of college and pursue entrepreneurship instead. Not just an investment in young founders, but a direct challenge to the institution most Americans trust without question. When a Six decides an authority is corrupt, they don't just leave. They build an alternative
 - **The interview question**, "What important truth do very few people agree with you on?", is a Six's diagnostic tool. It identifies independent thinkers and reveals who is brave enough to be unpopular. A Six needs to know who will hold the line when consensus turns hostile
 - **The stagnation thesis as existential threat**: for Thiel, technological stagnation isn't disappointing. It's terrifying. Without progress, societies don't stagnate peacefully. They collapse
 
 Where other types see contradictions in Thiel, the Six pattern reveals coherence. One friend described his inner landscape this way: **"Peter is of two minds on everything. If you were able to open his skull, you would see a number of Mexican standoffs between powerful antagonistic ideas you wouldn't think could be safely housed in the same brain."** Thiel has hinted at this himself. **"Denial is extreme optimism, acceptance is extreme pessimism, but extreme optimism and extreme pessimism converge to doing nothing,"** he told the Hoover Institution. The statement reveals his cognitive wiring: hold both extremes in tension, refuse to collapse into either, and use the discomfort to force action. That internal war, testing every position against its opposite, running simultaneous scenarios for how things could go wrong, is the Six's cognitive signature.
+
+### Security Through Optionality
+
+The clearest expression may be how Thiel has structured his life. Musk is inseparable from Tesla and SpaceX, Zuckerberg from Meta, Bezos from Amazon. Thiel is harder to locate inside one institution. He remains Palantir's chairman, and its [April 2026 proxy](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000019/pltr-20260423.htm) disclosed roughly 98 million shares across three classes associated with him, so Palantir is a major current holding, not merely an old investment. Yet his wider investment activity runs through Founders Fund, Thiel Capital, and private vehicles whose complete holdings are not public. No single company fully defines him or exposes him.
+
+He applies the same logic to geography. In 2026 he [relocated his family to Buenos Aires](https://fortune.com/2026/07/16/the-global-rich-peter-thiel-safe-haven-argentina/), bought property, and met with President Javier Milei and senior officials. There is no evidence that he obtained Argentine citizenship; the move is better understood as another option. **For this kind of Six, security does not mean finding one invulnerable home. It means making sure no home is indispensable.**
+
+Seasteading was the purest version of the impulse. Thiel funded the institute in 2008; no sovereign floating city emerged, and [his foundation last donated in 2014](https://www.seasteading.org/faq/who-supports-the-institute/). But the idea survived in his [support for semi-autonomous cities and new nations](https://www.youtube.com/watch?v=_W3qPymBEBA&t=776s). The office parachute was not an isolated quirk. Passports are geopolitical parachutes, private funds economic ones, trusted networks political ones. Thiel does not bet on one safe future; he builds escape routes from several unsafe ones.
 
 ### The Six's Trap: Manifesting What You Fear
 
