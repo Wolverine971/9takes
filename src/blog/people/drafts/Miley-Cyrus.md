@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['musician', 'pop-star']
 person: 'miley-cyrus'
-suggestions: ['Billie-Eilish', 'Demi-Lovato', 'Chappell-Roan', 'Lana-Del-Rey']
+suggestions: ['Billie-Eilish', 'Demi-Lovato', 'Chappell-Roan', 'Britney-Spears']
 wikipedia: 'https://en.wikipedia.org/wiki/Miley_Cyrus'
 wikidata_qid: 'Q4235'
 imdb_id: 'nm1415323'

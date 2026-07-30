@@ -1,15 +1,15 @@
 ---
 title: 'Mila Kunis: An In-Depth Enneagram Type 6 Analysis'
-meta_title: "Mila Kunis's Hidden Anxiety: Why the Chillest Star Is Always Worried"
-persona_title: "Hollywood's Chillest Worrier"
-description: 'The "chillest woman in Hollywood" arrived in LA with $250 at age seven. Inside Mila Kunis is a Type 6 loyalty engine — and the moment it misfired.'
+meta_title: 'Mila Kunis Enneagram Type 6: When Loyalty Misfires'
+persona_title: "Hollywood's Loyalty Engineer"
+description: 'The "chillest woman in Hollywood" arrived in LA with $250 at age seven. Inside Mila Kunis is a Type 6 loyalty engine, and the moment it misfired.'
 author: 'DJ Wayne'
-date: '2026-05-12'
+date: '2026-07-29'
 loc: 'https://9takes.com/personality-analysis/mila-kunis'
-lastmod: '2026-05-12'
+lastmod: '2026-07-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'mila-kunis'
@@ -50,364 +50,258 @@ same_as:
   - 'https://www.imdb.com/name/nm0005109/'
   - 'https://milakunis.com/'
 citations:
-  - 'https://en.wikipedia.org/wiki/Mila_Kunis'
-  - 'https://www.wikidata.org/wiki/Q37628'
-  - 'https://www.imdb.com/name/nm0005109/'
-  - 'https://milakunis.com/'
+  - 'https://www.youtube.com/watch?v=DNV4kN0-dbk'
+  - 'https://podscripts.co/podcasts/wtf-with-marc-maron-podcast/episode-937-mila-kunis-iliza-shlesinger'
+  - 'https://www.independent.ie/entertainment/movies/mila-motherhood-and-life-with-ashton/31384930.html'
+  - 'https://www.the-independent.com/news/people/mila-kunis-refuses-to-discuss-ukraine-in-particularly-cold-interview-9562106.html'
+  - 'https://www.gofundme.org/blog/stand-with-ukraine-fund-raised-over-36m/'
+  - 'https://www.youtube.com/watch?v=2LGgfetILHU'
+  - 'https://abcnews.go.com/GMA/Culture/mila-kunis-horrible-breakup-years-ago-macaulay-culkin/story?id=56781995'
+  - 'https://www.vogue.com/article/natalie-portman-mila-kunis-and-darren-aronofsky-on-15-years-of-black-swan'
+  - 'https://www.netflix.com/tudum/articles/mila-kunis-chiara-aurelia-jessica-knoll-luckiest-girl-alive-behind-the-scenes'
+  - 'https://www.latimes.com/california/story/2023-09-08/danny-masterson-rape-sentencing-support-letters-ashton-kutcher-mila-kunis'
+  - 'https://apnews.com/article/fd7a10eda44d0e3ddde582d4c7053eb6'
+  - 'https://apnews.com/article/962edb0f437fe93a28724a5339176daf'
+  - 'https://dam.tmz.com/document/6b/o/2023/09/19/6be0e9cb3be94a9abc7fd39a0324e260.pdf'
+  - 'https://www.yahoo.com/entertainment/movies/articles/mila-kunis-explains-why-fans-163114108.html'
+  - 'https://www.tvline.com/2020349/why-mila-kunis-replaced-lacey-chabert-meg-griffin-family-guy/'
 faqs:
   - question: "What is Mila Kunis's personality type?"
-    answer: "Mila Kunis is an Enneagram Type 6 (The Loyalist). The pattern shows in her admission that she is 'already worried about things. So worried,' the same manager since age nine, voicing Meg Griffin since she was fifteen, marrying the co-star she met at fourteen, the $35 million Ukraine fundraiser launched within forty-eight hours of the invasion — and the Danny Masterson character letter, the moment the same loyalty engine misfired."
+    answer: "Mila Kunis fits Enneagram Type 6 (The Loyalist). Her own accounts center on safe places, long-term trust, and rapid action when people or places inside her circle feel threatened. The pattern connects her decades with the same manager and Family Guy, the Ukraine fundraiser she helped launch in 2022, and the Danny Masterson character letter that damaged her reputation in 2023."
     anchor: 'what-is-mila-kuniss-personality-type'
   - question: "How did Mila Kunis's family come to America?"
-    answer: "They left Soviet Ukraine in 1991 on a religious-refugee visa — her grandparents had survived the Holocaust, and classmates were still finding swastikas scratched into school desks — arriving in Los Angeles with $250. By the time her mother, a former physics teacher working as a factory 'box lady,' had $900 left, the family spent $890 of it on acting classes for their nine-year-old daughter. Mila has been the working member of the family ever since."
+    answer: "Her family left Soviet Ukraine in 1991 on religious-refugee visas after facing antisemitism. Kunis was seven, spoke no English, and has said the family arrived with $250. In a 2016 interview, she said her parents later spent $890 of their last $900 on an acting class. Her 2018 retelling said the check left $300. Both versions agree that the class consumed most of the family's cash and led her to Susan Curtis, who still managed her in 2018."
     anchor: 'the-890-that-bought-her-future'
   - question: 'Why did Mila Kunis write a character letter for Danny Masterson?'
-    answer: "In September 2023, at the Masterson family's request, she and Ashton Kutcher submitted letters asking for leniency at his rape sentencing — hers praised his 'innate goodness' — eleven months after she produced and starred in Luckiest Girl Alive, a film about a rape survivor coming forward. The blowback forced an apology video within forty-eight hours, which one of Masterson's victims called 'incredibly insulting and hurtful.' The article reads it as the Type 6 loyalty engine running on a 25-year-old input."
-    anchor: 'the-masterson-letters-and-the-loyalty-engine-that-misfired'
+    answer: "Masterson's family asked Kunis and Ashton Kutcher to describe the person they had known for 25 years so the sentencing judge could consider that history. Kunis praised his 'innate goodness' after his conviction on two rape counts. This article reads the decision as misplaced Type 6 loyalty: private history displaced the scrutiny the verdict required. That explains the mechanism without excusing the letter."
+    anchor: 'the-masterson-letter-and-the-limit-of-loyalty'
   - question: 'How did Mila Kunis and Ashton Kutcher get together?'
-    answer: "They met on That '70s Show when she was fourteen and he was nineteen — colleagues, never a couple. After both divorced, they ran into each other at a 2012 awards show and, as she told James Corden, decided to 'just hook up... Three months later we're living together.' Fourteen years of platonic trust had already pre-validated the decision; before proposing, Ashton flew to her father's house at Christmas to ask his blessing."
-    anchor: 'why-mila-kunis-stays-loyal-to-people-for-decades'
+    answer: "They met on That '70s Show when she was fourteen and he was nineteen, but did not date during the series. They reconnected in 2012 after other long relationships ended and initially agreed to keep things casual. Kunis later told James Corden that they trusted each other and were living together three months later."
+    anchor: 'why-mila-kunis-keeps-the-same-people'
   - question: 'How did Mila Kunis get cast in Black Swan?'
-    answer: "Natalie Portman spotted her at the Rose Bowl Flea Market and immediately called Darren Aronofsky: 'There was this amazing actress with ballet experience who would be perfect for Lily.' The training was brutal — 'a lot of dancing and very little eating,' twelve-hour dance days, broth-only stretches. Aronofsky's attempt to manufacture a rivalry between the two leads failed; they caught on quickly and made fun of him for it."
-    anchor: 'black-swan-and-the-darkness-mila-kunis-keeps-offstage'
+    answer: "Natalie Portman recommended Kunis after learning at the Rose Bowl Flea Market that she had some childhood dance experience. In a 2025 Vogue oral history, Kunis joked that Portman had exaggerated how much ballet she knew. Director Darren Aronofsky had also admired her in Forgetting Sarah Marshall, and their first meeting happened over Skype."
+    anchor: 'what-black-swan-reveals-about-her-control'
 twitter: ''
 instagram: ''
 tiktok: ''
 production_pretext:
-  status: draft
+  status: published
   handoff_from: blog_content_creator_people
-  reviewed: false
-  ready_for_production: false
+  reviewed: true
+  ready_for_production: true
   sync_mode: full
-  requires:
-    - db_sync
-    - db_verify
-    - regenerate_famous_types
-    - image_check
+  requires: []
   blockers: []
 path: src/blog/people/drafts/Mila-Kunis.md
 content_quality:
-  hook: 9.5
+  hook: 9
   enneagram: 8.5
-  evidence: 9.0
+  evidence: 8.5
   writing: 8.5
-  originality: 9.0
-  overall: 8.9
-  letter: 'B+'
-  graded_at: '2026-05-12'
+  originality: 8.5
+  discoverability: 9
+  overall: 8.6
+  letter: B+
+  rubric_version: 2
+  caps_applied: []
+  confidence: high
+  anchor: 'Matt-Smith draft (calibration B, 2026-06-28)'
+  needs_review: false
+  first_overall: 8.6
+  regrade_overall: 8.6
+  grade_stability_delta: 0.0
+  graded_at: '2026-07-29'
 ---
 
-<!-- QUALITY GRADE: B+ (8.9)
-Hook: 9.5 | Enneagram: 8.5 | Evidence: 9.0 | Writing: 8.5 | Originality: 9.0
+> "Until I get comfortable and I feel like I'm in a safe place," - Mila Kunis, [_WTF with Marc Maron_ podcast](https://podscripts.co/podcasts/wtf-with-marc-maron-podcast/episode-937-mila-kunis-iliza-shlesinger), 2018
 
-FEEDBACK (2026-05-12, post-revision pass):
-- HOOK IS THE STRENGTH: $890-of-$900-spent-on-acting-classes is the load-bearing detail of the entire piece, and the article uses it as a thesis ("There is no version of this story where the math makes sense, except the version where it works") rather than a trivia bullet. The compressed "within five years / within fifteen / within twenty" arc that lands on the Masterson contradiction is exceptional setup.
-- LUCKIEST GIRL ALIVE → MASTERSON IS THE SIGNATURE INSIGHT: The October 2022 → September 2023 sequencing reframes the Masterson section from "engine misfired" to "she literally produced the movie and still couldn't see it." This is the screenshot-grade moment that separates B+ from generic. Hold this framing in any future revision.
-- CULKIN COUNTER-EXAMPLE LANDS: "A Six who leaves spends the rest of her life filing the paperwork that she was the one who broke the contract" is the kind of fresh, person-specific Enneagram language the rubric rewards. Bad Moms/real-kids paragraph also nails the public/private gap.
+<p class="firstLetter">In the version Mila Kunis told <a href="https://www.youtube.com/watch?v=DNV4kN0-dbk">Howard Stern in 2016</a>, her family arrived in America with $250. Two years later, her parents had $900 in the bank. They spent $890 of it on one acting class for their nine-year-old daughter. There is no version of that arithmetic that feels safe.</p>
 
-- NEEDS WORK (closer geography): The actual peak line of the piece — "The country had earned her loyalty. The friend had not." — is buried one paragraph before the closer. The current ending ("the unfinished work of the type") is structurally correct but meta, and a hair softer than the country/friend bookend it follows. Consider ending on the country/friend couplet itself, with the unfinished-work beat moved up a paragraph or cut.
-- NEEDS WORK (Enneagram depth gaps): No explicit stress/growth arrow integration (Six → Three under stress, Six → Nine in health). No counter-typing pass (the Mila chill could easily get her typed as Type 9 by a casual reader — addressing that would defend the diagnosis). Core emotion (fear) is implied throughout but never named and felt as fear. One emotionally immersive scene where the reader is INSIDE the Six's worry-engine would push Enneagram from 8.5 → 9.5.
+Kunis gave Marc Maron a different balance in 2018: the class cost enough to leave her parents with $300. The numbers shift between tellings. The decision does not. Her mother spent most of the family's available cash on the class where Kunis met manager Susan Curtis.
 
-- TO REACH A (9.0-9.4):
-  (1) Restructure the closer: end on "The country had earned her loyalty. The friend had not." as the cut-to-black line. Move the "unfinished work of the type" up into the body or cut it.
-  (2) Add one scene of emotional immersion — put the reader IN the moment of the Masterson letter being written, or in the apology-video living room. The piece is currently analytical-strong but in-the-room-light.
-  (3) Add a one-paragraph counter-typing beat in the diagnosis: "If you were going to mistype Mila Kunis, you'd call her a Type 9 — the chill, the agreeable surface, the long-running relationships. Here's why that read fails..." That defends the typing against the most likely objection.
-  (4) Name the stress arrow explicitly somewhere in the Masterson section: the Six-under-stress moves toward Three's image-management, and the apology video is exactly that.
-  (5) More bold/italic eye-guides through the longer analytical paragraphs (e.g., the "A Six does not run moral calculations" graf and the "engine ran the way it always runs" graf).
+It worked. Seven years after the move, Kunis joined _That '70s Show_ at fourteen. By 2010, she was playing Lily in _Black Swan_. In 2022, she and Ashton Kutcher helped raise more than $36 million for people displaced by Russia's invasion of Ukraine. In 2023, she submitted a character letter for a friend who had been convicted of raping two women.
 
-- TESTIMONY LEDGER STATUS: All 5 ledger quotes now used in body (post-revision). Seth MacFarlane quote integrated cleanly into the Family Guy loyalty beat.
-- DISTRIBUTION: Type-theory paragraphs are well-distributed (5 outside diagnosis); no section over-relies on jargon.
-- REPETITION CHECK: "Engineered" drum-solo in closer earns it (only one earlier echo, cut in revision). "Loyalty engine" used three times — at threshold, don't add another.
--->
+The public version of Mila Kunis is one of Hollywood's most relaxed stars: the inexpensive wedding ring, the sweatpants, the unfussy interviews, the marriage to the boy from the old sitcom.
 
-
-
-<!-- TESTIMONY LEDGER
-1. Natalie Portman: "It's great to see someone do so beautifully in a work context after you know they're just a fun, cool person." — Variety / Deadline, 2025
-2. Natalie Portman: "Mila and I had 'sweatpants nights' watching Top Chef, and suddenly we were on set together in tutus, emaciated, and tired." — Variety, 2025
-3. Darren Aronofsky: "I was trying to be a sneaky director and make them argue… Mila and Natalie both realized very quickly what I was doing and made fun of me, so it quickly became a joke that we all understood." — Variety, 2025
-4. Seth MacFarlane: "What Mila brought to it was in a lot of ways, I thought, almost more right for the character. I say that Lacey did a phenomenal job, but there was something about Mila — something very natural about Mila." — Family Guy retrospective interviews
-5. Jane Doe #1 (Masterson trial victim): The apology video was "incredibly insulting and hurtful." — public statement via Yashar Ali, September 2023
-Total qualifying quotes: 5
--->
-
-<!-- HEADING MIX LEDGER
-H2 1: "What is Mila Kunis's personality type?" — search-intent (required)
-H2 2: "The $890 that bought her future" — signature
-H2 3: "How a refugee kid built the chillest persona in Hollywood" — hybrid
-H2 4: "Why Mila Kunis stays loyal to people for decades" — search-intent
-H2 5: "Black Swan and the darkness Mila Kunis keeps offstage" — hybrid
-H2 6: "The Masterson letters and the loyalty engine that misfired" — hybrid
-H2 7: "What the chill is for" — signature (final)
-Search-intent + hybrid count: 5
--->
-
-<!-- DISTRIBUTION LEDGER
-Type-theory paragraphs outside diagnosis section and Rabbit Hole: 5
-Locations: "The $890 that bought her future" (1), "Why Mila Kunis stays loyal to people for decades" (2 — Culkin take-the-blame beat, kids/moat beat), "The Masterson letters and the loyalty engine that misfired" (1), "How a refugee kid built the chillest persona in Hollywood" (1 — Hot Ones controlled-anxiety beat)
--->
-
-> "I'm already worried about things. So worried." — Mila Kunis, _WTF with Marc Maron_, 2018
-
-<p class="firstLetter">In 1991, Mila Kunis's parents had $900 left. They spent $890 of it on acting classes for their nine-year-old daughter. They had been in America less than two years, arrived from Soviet Ukraine with $250 between them, and her mother — a physics teacher in the old country — was working as a "box lady" in a Los Angeles factory. There is no version of this story where the math makes sense, except the version where it works.</p>
-
-It worked. Within five years she was lying about her age to get cast on _That '70s Show._ Within fifteen, she was Natalie Portman's lover in _Black Swan._ Within twenty, she was the wife who had married her teenage co-star, raised $35 million for a country she fled at age seven, and — in the same year — written a character letter for a man being sentenced to thirty years for rape.
-
-The public has decided Mila Kunis is the chillest woman in Hollywood. The Etsy wedding band. The Taco Bell runs. The sweatpants. The husband who used to be the guy in the basement on the sitcom.
-
-The verdict isn't wrong, exactly. It's just incomplete.
-
-Mila Kunis's groundedness is not the opposite of her anxiety. It is the solution she built for it.
+Her own words point somewhere tenser. The calm looks like the result of preparing for uncertainty.
 
 <details>
 <summary class="accordion">TL;DR: Why Mila Kunis is an Enneagram Type 6</summary>
 <div class="panel">
 <ul>
-<li><b>Core type:</b> Type 6 (Loyalist/Skeptic). Security is the engine. Loyalty is the operating system.</li>
-<li><b>The chill is constructed:</b> She tells Marc Maron in 2018 that she is "already worried about things. So worried." The unflappable surface is the output of constant pre-worry, not its absence.</li>
-<li><b>The refugee thread:</b> Family of three, $250, a religious-refugee visa out of antisemitic Soviet Ukraine, grandparents who had survived the Holocaust. Type 6 forms in worlds where the ground can disappear.</li>
-<li><b>Loyalty contracts:</b> Same manager since age nine. Same animated character (Meg Griffin) since fifteen. Same husband since the show that started at fourteen. Same friend group from <em>That '70s Show</em> — including the one who turned out to be a serial rapist.</li>
-<li><b>The misfire:</b> The same engine that built her marriage and her $35M Ukraine fundraiser also produced the worst public moment of her career, in the same year, on a related question.</li>
+<li><b>Core type:</b> Type 6, the Loyalist. Kunis describes needing a safe place before she comes out of her shell and organizes her life around trusted people and durable commitments.</li>
+<li><b>The calm has a job:</b> Her public ease sits on top of preparation, planning, and firm boundaries around work and family.</li>
+<li><b>The refugee history matters:</b> Her family left antisemitic Soviet Ukraine on religious-refugee visas. Her earliest memories of America are fear, confusion, and a language she could not understand.</li>
+<li><b>Loyalty lasts:</b> A manager she kept from childhood into adulthood, Meg Griffin since 1999, a husband she first met at fourteen, and a tightly protected family schedule.</li>
+<li><b>Loyalty can fail:</b> The Ukraine fundraiser and the Masterson letter show the helpful and harmful ends of the same protect-the-circle reflex.</li>
 </ul>
 </div>
 </details>
 
-## The $890 That Bought Her Future
+## What is Mila Kunis's personality type?
 
-The story Mila Kunis tells about her mother is not a triumph story. It is a story she finds inexplicable.
+### Mila Kunis is an Enneagram Type 6
 
-"There's absolutely no rhyme or reason for what my mother did or why she did it," she told [Howard Stern](/personality-analysis/howard-stern) in 2019. "Mind you, I never got birthday presents, never got holiday gifts. Like we weren't a family of givers in that regard — it's one of those kismet moments that you can't explain."
+Mila Kunis fits Enneagram Type 6, the Loyalist. Her public record is organized around preparation, long-term trust, and fast action when her circle feels threatened. The same pattern helps explain her durable career, her Ukraine fundraiser, and the character letter that damaged her reputation.
 
-She doesn't say her mother believed in her. She doesn't say her mother saw something. She says her mother spent the money for reasons her daughter still cannot find. The story sits in her mouth like an unsolved problem.
+[Type 6](/enneagram-corner/enneagram-type-6) is built around a question: _Is this ground safe?_ Sixes scan for risk, test who can be trusted, and build reliable structures around the people and institutions that pass. The fear is uncertainty. The desire is dependable ground. Relief arrives when the plan, the person, or the group holds. The pattern is closely tied to [anticipatory anxiety](/enneagram-corner/anxiety-and-enneagram-types-guide).
 
-Read it back through the family arithmetic. Mark Kunis, a mechanical engineer in Chernivtsi, was managing payrolls and delivering pizzas. Elvira Kunis, who had taught physics and run a pharmacy, was packing boxes. They had a six-year-old son and a nine-year-old daughter and ten dollars in the bank. And the calculus they ran was: the kid books one commercial, we eat next week.
+Kunis uses her own vocabulary for that interior. She told Marc Maron in 2018 that her shyness lifts only after she feels comfortable and safe. She described manager Susan Curtis and Curtis's husband as additional parents because nobody outside her family had looked out for her more. When she and Kutcher began dating, the decisive word was _trust_.
 
-She booked the commercial. She has been the working member of the family for thirty-five years.
+Those details resolve the public contradiction. The relaxed surface does not require an anxiety-free person. It can be the face of someone who has already run the failure scenarios and secured the room.
 
-The detail that matters isn't the gamble. It's the residue: a woman who, decades later and tens of millions of dollars deep, still describes the gamble as something she cannot account for. Type 6s narrate the world this way. The good things are improbable. The ground is provisional. The next disaster is being routed through a switchboard you cannot see.
+Three patterns recur. First comes the **early scan**: a child moving countries, then entering an American classroom without English. Next comes the **trusted unit**: manager, family, husband, and long-running jobs chosen early and held tightly. Finally comes **mobilization**: when Russia invaded Ukraine, Kunis did not freeze. She helped build a relief operation.
 
-She has spent the next thirty-five years making sure the switchboard never catches her by surprise again.
+The same pattern can also overvalue private trust after public evidence demands a reassessment. The Masterson letter is the point at which old trust outlived the evidence.
 
----
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">Technical note: what sits under Mila's calm</summary>
+<div class="panel">
+<p><em>This is the technical layer. The acting-class check, the safe-place language, and the loyalty pattern carry the argument on their own.</em></p>
 
-## How a Refugee Kid Built the Chillest Persona in Hollywood
+### A slight 6w7 lean
 
-She arrived at Rosewood Elementary on her second day in the country, knowing no English. She has said publicly she "blocked out second grade completely." She learned the language by watching _The Price Is Right_ — which is, if you think about it, an excellent training program for a kid trying to figure out how things in this country cost what they cost.
+The core type is clear. The wing remains open. A 6w7 reading fits the humor, social ease, quick banter, and ability to make vigilance look light. A 6w5 case remains plausible because Kunis guards her private life and keeps a small, durable trust network. The public record supports a slight 6w7 lean while leaving room for a 6w5 reading.
 
-The visa that brought her family in was a religious-refugee visa. Her grandparents had survived the Holocaust. Her parents had raised her knowing she was Jewish in a country where, by her own telling, classmates were still finding swastikas scratched into the backs of their school desks. The family did not leave Soviet Ukraine because America was promising. They left because the country they were in had specifically, generationally, not been safe for people like them.
+### Social and self-preservation instincts
 
-This is the formation a Type 6 gets when the formation is honest about itself. Not "the world is dangerous" abstractly. Specifically: _the country can fall apart, the language can be taken, the school can be a place where you cannot ask for help, and the people in charge can decide your last name is the problem._ The vigilance that follows is not paranoid. It is empirical.
+Her story shows both social and self-preservation concerns. Social Six themes appear in loyalty to a group, old castmates, family, and country. Self-preservation shows up in money stories, work continuity, and family scheduling. The evidence does not justify a confident stacking order.
 
-What makes Kunis unusual is the next move. Most refugee kids in Hollywood either perform the refugee story — turn it into the brand — or scrub it. Kunis does neither. She tells the story flatly when asked. She does not put it on a poster. The persona she builds on top is the one that would have helped her seven-year-old self the most: nothing-fazes-me, no edges, no drama, no opening.
+### Stress toward Type 3, growth toward Type 9
 
-Watch her on _Hot Ones_ in 2021. By the time most guests are hyperventilating into a ranch cup, she is just eating the wings. She is not pretending it doesn't hurt. She is just unwilling to flinch on camera. That is a Type 6 in a controlled-anxiety environment — the stress goes inward first, and the face is the last thing she lets break.
+The line toward Type 3 can turn a Six's uncertainty into a push to control how other people interpret the situation. The 2023 apology video focused heavily on the letters' intent and the way they were meant to be understood. A healthier move toward Type 9 would look quieter: tolerating uncertainty long enough to reconsider whether an old loyalty still deserves authority. Her 2025 one-film-per-year boundary and alternating work schedule with Kutcher suggest a life built around steadier limits, though they do not prove an arrow movement.
 
-When Marc Maron asked her in 2018 what she did with her life outside acting, she gave him an answer that was funnier and more revealing than she meant it to be:
+### Why the relaxed surface can look like Type 9
 
-> "I have no other skills in life. I have no other passions. I'm f---ed. I just love everything about this industry."
+Type 9 is the obvious alternate: Kunis is casual, funny, low-drama, and attached to long relationships. The distinction appears in her language and behavior. Nines often seek ease by reducing friction. Kunis describes safe places, preparedness, durable trust, and rapid mobilization. Her calm reads as an answer to threat, which points more strongly to Type 6.
+</div>
+</details>
 
-The reading most fans take from that quote is: she's grateful, she's lucky, she's chill. The reading the Enneagram offers is one notch sideways. She is describing a person who has identified one viable ground, learned every floorboard, and intends to stay on it. She is not in love with acting. She is loyal to it.
+## The $890 that bought her future
 
-The chillest woman in Hollywood is also one of the most vigilant.
+Kunis still tells the acting-class story as an unsolved decision.
 
----
+"There's absolutely no rhyme or reason for what my mother did or why she did it," she told Howard Stern in 2016. In that telling, the class cost $890, the family had $900, and her mother wrote the check. Her later Maron account changes the remainder, though both versions retain the scale of the risk.
 
-## What is Mila Kunis's Personality Type?
+The move had already reset her parents' working lives. Elvira Kunis had taught physics and worked in a pharmacy before immigration. Mark Kunis had trained as a mechanical engineer. In Los Angeles, [the _Irish Independent_ reported in 2015](https://www.independent.ie/entertainment/movies/mila-motherhood-and-life-with-ashton/31384930.html), her mother packed boxes and her father drove a taxi.
 
-### Mila Kunis Is an Enneagram Type 6
+At the acting class, Kunis met Susan Curtis. Curtis took her to an audition, found her clothes, and helped her book a Barbie commercial. Kunis was still with Curtis when she recounted the story on [_WTF with Marc Maron_ in 2018](https://podscripts.co/podcasts/wtf-with-marc-maron-podcast/episode-937-mila-kunis-iliza-shlesinger).
 
-[Type 6](/enneagram-corner/enneagram-type-6) — the Loyalist, sometimes called the Skeptic — runs on a question most people don't realize they're asking: _is this ground safe?_ Sixes scan for risk, plan for failure, build loyalty contracts with people and institutions they trust, and either lean into fear (phobic) or charge straight at it (counterphobic). Healthy Sixes look unshakeable because they have done the worrying for everybody else, in advance, on their own time.
+The signature detail is the way Kunis frames the check. She does not turn it into a polished speech about destiny. She keeps returning to the missing rationale. Her mother risked almost everything and the outcome happened to hold.
 
-This is the lens that resolves the contradiction.
+A Type 6 reading starts in that residue. Good fortune still feels improbable. The floor can give way. Preparation becomes a way to avoid depending on another impossible bet.
 
-Most people see a sitcom kid who married a sitcom kid and made it look easy. But the easy is the engineering. Three signatures of Type 6 show up everywhere in Kunis's life if you know where to look.
+## The classroom she says she blocked out
 
-First, the **early scan.** She has said she lay in bed at four years old in Soviet Ukraine, worrying. By seven, she was in a country that could not pronounce her name. By nine, she was the family breadwinner. The pattern of [pre-worry](/enneagram-corner/anxiety-and-enneagram-types-guide) — naming the disaster before it arrives — is the Six's earliest reflex. Some Sixes never grow out of it. Healthy Sixes turn it into a kind of preparedness that reads, externally, as composure.
+Kunis entered Rosewood Elementary on her second day in Los Angeles without English. Her account of that year supplies the emotional interior that the relaxed celebrity image hides.
 
-Second, the **loyalty unit.** Sixes do not have friends; they have _people._ Kunis has had the same manager, Susan Curtis, since she was nine years old. "She is my — her and her husband are my parents," she told Maron. "Nobody's ever looked out for me more so, aside from my family." She married Ashton Kutcher, whom she met at fourteen. She has voiced Meg Griffin on _Family Guy_ since 1999, when she was fifteen — twenty-four seasons later, she has not missed one. Seth MacFarlane has said the part feels "more right" with her than it did with the actress who originated it: "There was something very natural about Mila." She still talks about her _That '70s Show_ cast like family. The loyalty contracts get signed early, and they do not expire.
+> "I cried every day. I didn't understand the culture. I didn't understand the people. I didn't understand the language," Kunis recalled in an interview later quoted by [_The Independent_](https://www.the-independent.com/news/people/mila-kunis-refuses-to-discuss-ukraine-in-particularly-cold-interview-9562106.html).
 
-Third, the **counterphobic spike.** When the ground actually shakes, healthy Sixes do not freeze. They mobilize. In late February 2022, Russia invaded Ukraine. Within forty-eight hours, Kunis and Kutcher had launched a GoFundMe. They seeded it with $3 million of their own money. They hit their $30 million goal in two weeks. They closed at $35 million from sixty-five thousand donors. President Zelensky personally thanked them.
+She has said she blocked out second grade completely.
 
-That is not a Hollywood publicity machine. That is a Type 6 with a country-shaped trigger pulled directly on the wound, running a logistics operation in real time.
+The family came on religious-refugee visas. On Maron's podcast, Kunis described Soviet Ukraine as "very anti-Semitic" and said her parents saw no future there for their children. She also said the generations before her parents had been caught in the Holocaust.
 
-There is one more thing the Six lens explains, and it is the part fans have been waiting for someone to explain. We will get there.
+This history does not prove an Enneagram type. It does make vigilance understandable. Country, language, school, and adult status had all changed at once. A child who could not ask for help learned that the room might become dangerous before she could read it.
 
----
+The public calm starts to look practical. Kunis answers questions flatly, jokes before the emotion can swell, and keeps a short list of people who have already demonstrated that they will stay.
 
-## Why Mila Kunis Stays Loyal to People for Decades
+Her love of acting carries some of that same loyalty. On Maron's podcast she said, "I have no other skills in life. I have no other passions. I'm f---ed. I just love everything about this industry." Acting became the floor she learned in full: the auditions, the schedules, the people, the paycheck. She has remained on it since childhood.
 
-The two longest relationships in Mila Kunis's life — outside her family of origin — are with a manager she signed with as a child and a husband she met as a child. This is not normal Hollywood arithmetic. Most stars rotate managers every five years and partners every three. Kunis has been with hers for twenty-six and thirty respectively.
+## Why Mila Kunis keeps the same people
 
-The Ashton story sounds, when she tells it, like she still can't quite believe it.
+Manager Susan Curtis is the clearest example. "She is my, her and her husband are my parents," Kunis told Maron in 2018. "Nobody's ever looked out for me more so, aside from my family." The relationship began when Kunis was nine.
 
-The two of them played boyfriend and girlfriend on _That '70s Show_ for the better part of a decade. She was fourteen at the kissing scene. He was nineteen. They were not together. They were not interested. They were colleagues with a script and a curfew. Then the show ended. Then they both went through their own marriages and their own divorces. Then, at a 2012 awards show, they ran into each other.
+_Family Guy_ is another. [TVLine reported in November 2025](https://www.tvline.com/2020349/why-mila-kunis-replaced-lacey-chabert-meg-griffin-family-guy/) that Kunis had voiced Meg Griffin for more than twenty-five years. A job secured at fifteen became one of the longest commitments in her career.
 
-"We were just like, 'Let's just hook up. Let's have fun. We're both single. We both trust each other. Everything's great,'" she told James Corden. The next sentence is the one that matters: "Three months later we're living together."
+Then there is Ashton Kutcher. They met on _That '70s Show_ when she was fourteen and he was nineteen. They worked as colleagues throughout the series and began dating years later, after other long relationships had ended.
 
-A Six does not "just hook up" for three months. A Six runs the model in her head and clocks that the trust variable is already solved. Fourteen years of platonic data is fourteen years of risk pre-assessed. The relationship that looks impulsive from the outside is, from the inside, the most pre-validated decision available.
+"We were just like, 'Let's just hook up. Let's have fun. We're both single. We both trust each other,'" Kunis told [_The Late Late Show with James Corden_ in 2016](https://www.youtube.com/watch?v=2LGgfetILHU). Then came the punch line: "Three months later we're living together."
 
-She has said the proposal made her cry. Sources later reported that Ashton flew to her father Mark's house at Christmas before he asked her. He wanted Mark's blessing. The detail rhymes — a Six's husband, asking the patriarch of the loyalty unit before signing the contract. The form is older than Hollywood. Mila Kunis chose a man who knew that form was load-bearing.
+The speed makes more sense when trust is treated as the scarce resource. Fourteen years of familiarity had answered questions a new partner would still have to survive.
 
-The honest counter-example, before we get further, is Macaulay Culkin. Kunis was with him for eight years, from eighteen to twenty-eight. The relationship was famously private. She has said going out in public with him was nearly impossible because of who he was. And then, in 2011, she ended it.
+Macaulay Culkin is the important counterexample. Kunis dated him for about eight years and ended the relationship in 2011. On _Armchair Expert_, she accepted responsibility for the breakup: "It's f---ed up what I did and it's f---ed up how I did it," as [ABC News reported in 2018](https://abcnews.go.com/GMA/Culture/mila-kunis-horrible-breakup-years-ago-macaulay-culkin/story?id=56781995).
 
-She has spoken about that breakup exactly once at length, on Dax Shepard's _Armchair Expert_. The line is the part that matters: "It's f---ed up what I did and it's f---ed up how I did it." She took the blame. She did not blame the relationship. She did not blame him. She took it on herself.
+Leaving did not lead her to publicly indict the former partner. She filed the failure under her own name. That response fits a person for whom breaking a bond can feel like proof that her own trust system failed.
 
-That admission is more Type 6 than the relationship itself. A Six can leave. But a Six who leaves spends the rest of her life filing the paperwork that she was the one who broke the contract — because the alternative is admitting the loyalty unit was the wrong unit, and admitting that is admitting the engine got the model wrong. She has not said a public word against Macaulay Culkin in the fifteen years since.
+The family schedule now turns the same instinct into policy. While promoting _Wake Up Dead Man_ in 2025, Kunis said she and Kutcher never work at the same time and do not leave town for work while their children are in school. She limits herself to about one film a year, according to a [November 2025 interview reported by _People_](https://www.yahoo.com/entertainment/movies/articles/mila-kunis-explains-why-fans-163114108.html).
 
-The children are the same logic, downstream. Wyatt was born in 2014, Dimitri in 2016. In the same window she built the _Bad Moms_ franchise around the chill, relatable, frazzled-but-coping mom — her biggest-ever performance of working motherhood as public spectacle — she was militantly keeping her actual kids' faces off the internet. No Instagram, no paparazzi cooperation, no public-school confirmations. She has explained the policy in interviews using the same word she uses for everything else: _safety._ The public Mila parents on screen for box office. The private Mila builds a moat.
+The public Mila can play a frazzled mother in _Bad Moms_ alongside [Kristen Bell](/personality-analysis/kristen-bell). The private household runs on a rule that keeps one parent present.
 
-Loyalty, for Mila, is not sentimentality. It is risk management with a smile on it.
+## What Black Swan reveals about her control
 
----
+The most useful _Black Swan_ evidence arrived fifteen years after the film.
 
-## Black Swan and the Darkness Mila Kunis Keeps Offstage
+In an [August 2025 _Vogue_ oral history](https://www.vogue.com/article/natalie-portman-mila-kunis-and-darren-aronofsky-on-15-years-of-black-swan), [Natalie Portman](/personality-analysis/natalie-portman) recalled recommending Kunis after a conversation at the Rose Bowl Flea Market. Portman told Darren Aronofsky that an actress with ballet experience would be perfect for Lily. Kunis immediately punctured the legend: "I think I said, 'I danced once.'" Portman conceded that she may have exaggerated for her friend.
 
-For one year of her adult life, Mila Kunis was not chill at all.
+Kunis then described the preparation in blunt terms: "a lot of dancing and very little eating." She drank broth, danced for twelve hours a day, bruised her ribs, and dislocated her shoulder.
 
-The first crack in the sitcom-Jackie surface was _Forgetting Sarah Marshall_ in 2008 — the breakup-rebound role that made directors stop seeing her as the spoiled-princess voice from _That '70s Show_ and start seeing her as a leading-woman face. Two years later, Darren Aronofsky cast her in _Black Swan_ on the strength of two things: that performance, and a phone call from [Natalie Portman](/personality-analysis/natalie-portman). Portman saw her at the Rose Bowl Flea Market and immediately called Aronofsky. "There was this amazing actress with ballet experience who would be perfect for Lily," she told him.
+Her summary of the set was almost aggressively ordinary. Journalists wanted a story about a frightening director. Kunis told them Aronofsky was kind, took the cast to see _Twilight_ on a day off, and believed an actor could "have fun on set, do the work, go home, and live a great life."
 
-The training was brutal. Kunis later described the regimen plainly: "A lot of dancing and very little eating." Twelve-hour dance days. Broth-only stretches. She has joked that she "somehow came out totally fine," which is the kind of line a Type 6 makes when she does not want to revisit the file.
+That sentence offers the useful insight. Reading Lily as a buried dark self requires too much guesswork. Kunis puts intensity inside the workday and closes the container afterward. The pain can be real without becoming the public identity.
 
-What lives in _Black Swan_ is not the chill Mila. It is the other one. Lily is a dancer with a kind of unbothered menace — sexual, predatory, casually cruel. Kunis plays her without comedy. She plays her without a wink. The performance is so unsettling because it does not feel like an actress in costume. It feels like a part of Mila Kunis that the sitcom never had a use for.
+Aronofsky also admitted trying to make Kunis and Portman compete. The two friends compared his messages, recognized the trick, and made fun of him. Their prior trust beat the director's manufactured uncertainty.
 
-Aronofsky tried something on set that became the most quoted behind-the-scenes story from the film. He tried to manufacture a rivalry between his two leads — making each think the other thought she wasn't working hard enough. The plan did not survive contact with Natalie Portman.
+## The Masterson letter and the limit of loyalty
 
-"Of course she is!" Portman shot back, when the suggestion was floated that Kunis was slacking. "She's so f---ing talented and I love her so much and I'm happy she's doing a great job!"
+On October 7, 2022, Netflix released _Luckiest Girl Alive_. Kunis starred in it and served as a producer. The story follows a woman whose adult life has been built around sexual assault she could not publicly name. Author Jessica Knoll had already disclosed that the rape in her novel drew from her own experience as a teenager.
 
-Aronofsky later admitted it. "I was trying to be a sneaky director and make them argue," he told _Variety_ in 2025. "Mila and Natalie both realized very quickly what I was doing and made fun of me, so it quickly became a joke that we all understood."
+Eleven months later, Danny Masterson was sentenced to thirty years to life after a jury at his second trial convicted him on two rape counts. Kunis and Kutcher had submitted character letters for Judge Charlaine Olmedo to consider at sentencing.
 
-The aside that matters is Portman's: "It's great to see someone do so beautifully in a work context after you know they're just a fun, cool person." Translation: the people who knew Mila Kunis privately had been waiting for the world to find out she had range.
+Kunis wrote that she had sensed Masterson's "innate goodness and genuine nature" from the beginning. She called him a role model. The [full letter](https://dam.tmz.com/document/6b/o/2023/09/19/6be0e9cb3be94a9abc7fd39a0324e260.pdf) described the friend she believed she had known for twenty-five years.
 
-She has not gone back into that mode since. Not really. A Six does not perform her darkness on a press tour — she keeps it in the basement, where she knows the wiring. _Black Swan_ was the one season the lights came up.
+The public response was immediate. Kunis and Kutcher posted a video the next day. They said Masterson's family had asked them to represent the person they knew so the judge could consider that history. Kunis said the letters did not question the jury's ruling. Kutcher said they were never meant to undermine the victims' testimony.
 
-> "Mila and I had 'sweatpants nights' watching _Top Chef_, and suddenly we were on set together in tutus, emaciated, and tired." — Natalie Portman, _Variety_, 2025
+One of the women Masterson was convicted of raping called the video "incredibly insulting and hurtful."
 
-That single sentence is the whole gap, in one quote.
+The letter is the sharpest test of this personality analysis. It shows the danger of treating private history as stronger evidence than a verdict built from testimony Kunis did not witness.
 
----
+The Type 6 conflict can be stated without pretending to know her private thoughts:
 
-## The Masterson Letters and the Loyalty Engine That Misfired
+<p class="inner-thought">Twenty-five years of private history. One jury verdict. One family request. Which source of certainty gets to define the person?</p>
 
-On October 7, 2022, Netflix released a film called _Luckiest Girl Alive._ Mila Kunis produced it. She starred in it. The story — based on the novel by Jessica Knoll, who later revealed she had written it about her own teenage gang rape — follows a woman in her mid-thirties who has built a meticulously curated New York life on top of a sexual assault she has refused to publicly name. The arc of the film is the moment she names it.
+The letter answered that question in the wrong direction. A trusted person stayed inside the protected unit after the evidence required scrutiny.
 
-Kunis did the press tour. She talked about how important the story was, about how survivors deserve to be heard, about how silence is the wound. She said in one interview that she "couldn't put the book down" when she first read it. She optioned it. She gave it three years of her life.
+The apology video preserved the same frame. Its language concentrated on intent, purpose, and what the letters were meant to do. It offered far less reconsideration of the judgment that produced them.
 
-Eleven months later — on September 7, 2023 — Danny Masterson was sentenced to thirty years to life for two counts of rape. Among the character letters submitted to Judge Charlaine Olmedo asking for leniency were two from Mila Kunis and Ashton Kutcher.
+The letter becomes understandable as misplaced loyalty, and it remains indefensible as a response to two rape convictions. Explanation stops well short of absolution.
 
-Kunis's letter, filed in open court and quickly republished by _Deadline_, opens like this:
+## What her calm is protecting
 
-> "I am writing this character letter on behalf of my dear friend, Danny Masterson, with whom I have had the privilege of sharing a significant part of my life. I first met Danny during our time working together on _That '70s Show_, and from the very beginning, I could sense his innate goodness and genuine nature."
+The $890 check, the manager, the marriage, the work schedule, and the fundraiser all answer the same early fear: the ground can disappear.
 
-It calls him "an amazing friend, confidant, and, above all, an outstanding older brother figure." It calls him a "role model." She signed her name.
+For much of Kunis's life, loyalty has been an asset. It kept relationships durable, turned a child actor's first break into a long career, and helped move more than $36 million toward Ukrainian relief. [GoFundMe.org reports](https://www.gofundme.org/blog/stand-with-ukraine-fund-raised-over-36m/) that more than 75,000 people donated.
 
-The blowback was immediate and total. Within forty-eight hours, she and Ashton recorded an Instagram video in their living room. He wore a black t-shirt. She wore a cardigan. They apologized for the "pain caused" by the letters. They said the letters were written to address the judge's character question, at the family's request, to represent the person they knew for twenty-five years. They said the letters were "never meant to question the testimony of the victims or to invalidate the jury's ruling."
-
-The reaction to the apology, from one of Masterson's victims, was published in real time. The video was "incredibly insulting and hurtful."
-
-It is the worst public moment of Mila Kunis's career. It is also the most legible moment, if you have followed the engine.
-
-A Six does not run moral calculations the way a One does. A One holds the rapist verdict next to the friendship and asks which weighs more on the scale of justice. A Six holds the rapist verdict next to twenty-five years of inside-the-room knowledge and asks which weighs more on the scale of _what I know._ For a Six, the people in the loyalty unit are not data points. They are infrastructure. You do not revise the foundation of your house because the city assessor sends you a letter. You verify. You re-verify. You ask the family.
-
-This is how an otherwise functional adult writes a sentence like "innate goodness" about a man two juries have convicted of rape. Not because the verdict is wrong in her mind. Because the verdict is in a different cognitive room than the friend.
-
-The apology video is, in its own way, more revealing than the letter. Watch it again with the Six lens. Notice how much of the runtime is spent explaining the _intent_. Notice how little is spent reconsidering the _judgment_. A Six in crisis does not abandon the loyalty frame — she defends it for being misapplied. The letters, she says, were not for what they look like they were for. They were a piece of paperwork the family asked them to file.
-
-The reading is not absolution. It is diagnosis. The same loyalty engine that built her marriage in three months, that kept her manager for twenty-six years, that wired thirty-five million dollars to a war zone in two weeks — that engine ran exactly the way it always runs. It just took an input from 1998 and produced an output for 2023, and the world had changed in between.
-
----
-
-## What the Chill Is For
-
-There is a question that haunts every Type 6 profile, including this one. _If the chill is the construction, what is underneath?_
-
-The honest answer, in Mila Kunis's case, is: a girl in a strange country with no English, watching _The Price Is Right_ to learn the prices of things, who long ago decided she would never be that unprepared for the room again.
-
-She has spent her adult life making sure the math always works out.
-
-The marriage is engineered. The career is engineered. The manager is engineered. The fundraiser is engineered. The chill is engineered. The Etsy ring is engineered. Even the Masterson letter — read it again — is engineered. It is the document a Six writes when she has been asked to honor a twenty-five-year loyalty contract and cannot find a way to refuse without breaking something she has built her whole life on.
-
-That is not the story of a good person who erred. It is the story of a constructed person whose construction is doing exactly what it was built to do.
-
-She is one of the most reliable people in her industry. She is also one of the most predictable. Her best decisions and her worst decisions come from the same engine. You can see them in the same year — a woman who watched the country of her birth get bombed and built a thirty-five-million-dollar lifeline in two weeks, then watched a man she had known since fourteen get convicted of rape and reached for a pen.
+The Masterson letter exposed the boundary. Loyalty can organize a life. It cannot decide whether the person receiving it still deserves protection.
 
 The country had earned her loyalty. The friend had not.
 
-The question every Six eventually has to answer is not whether to feel loyal — the loyalty is involuntary, hardwired, built before language. The question is whether the people inside the unit have, without telling her, become structural risks rather than structural supports. Whether Mila Kunis ever answers that question from the inside is the unfinished work of the type.
-
-<!-- FRESH-EYES REVIEW (reader-pass, 2026-05-12)
-
-Coming to this as someone who knows Mila from Forgetting Sarah Marshall, Bad Moms, Black Swan, and the Ashton marriage — here is what jumped out:
-
-WHAT'S MISSING (would expect to see at least mentioned):
-
-1. Macaulay Culkin. Eight years together (2002–2011). She was 18 when they started, 28 when it ended. This is the biggest hole in the piece — the loyalty thesis says "Sixes sign contracts and don't break them," and Culkin is the obvious counter-example a reader will think of. You either need to address it (the Six who DID leave, and why — Culkin was reportedly struggling with addiction; maybe the loyalty engine has a "ground is no longer safe" override?) or the thesis feels like it's cherry-picking.
-
-2. Forgetting Sarah Marshall (2008). Her breakout adult film role. It's the bridge between sitcom Jackie and Black Swan Lily, and it's how most millennials first saw her as a movie star. Not naming it is a tell that the writer hasn't seen it.
-
-3. Family Guy / Meg Griffin. She's voiced Meg since 1999 — that's 26 years of the same job. This is ANOTHER loyalty contract and it would strengthen the thesis. The Seth MacFarlane quote is already in the testimony ledger but barely used. Easy add.
-
-4. Her kids (Wyatt, 2014; Dimitri, 2016). She is famously, almost militantly private about them — no faces on social media, has talked publicly about why. That's textbook Six "protect the unit." A one-paragraph mention would do a lot.
-
-5. Luckiest Girl Alive (Netflix, 2022). She produced and starred in a film about a sexual assault survivor coming forward. ONE YEAR before signing a character letter for a convicted rapist. This is jaw-dropping and the article doesn't mention it. The Masterson section is good but it would be devastating if you sat that film next to the letter. Right now the section reads "the loyalty engine misfired" — adding Luckiest Girl Alive reframes it as "she literally made the movie and still couldn't see it." That's the version that ends up screenshotted.
-
-6. Bad Moms franchise. Her biggest box-office work as a lead (not co-lead). It's a piece of her self-curation as the chill, relatable mom-figure. Worth a line.
-
-7. Jackie on That '70s Show. You reference the show repeatedly but never describe the character. Jackie was a spoiled, fearful, status-anxious princess — a kind of unhealthy Six caricature in her own way. Fun layer to mention.
-
-WHAT'S OVERDONE / DUPLICATE:
-
-1. "The chill is engineered" gets said outright at least four times (intro, Hot Ones section, "What the Chill Is For" section, and the marriage section). The final section then lists it as a bulleted recap — "marriage is engineered. career is engineered. manager is engineered…" — which lands like a drum solo of the same word. Trim one of them; the closing list is the one that earns it.
-
-2. The $890 / $250 / $10-in-the-bank numbers appear in the hook, again in the first section, and once more in the closing section. Once with full impact, twice as a callback, is fine. Three times feels like the writer is in love with the line.
-
-3. The TL;DR accordion repeats almost every beat the article makes. That's normal for the format, but the "The misfire" bullet basically tells the Masterson punchline before the reader gets there. Consider keeping the bullet vaguer ("the 2023 misstep that fits the same pattern") so the article still has somewhere to go.
-
-4. "Loyalty engine" appears in the TL;DR, the H2, and twice in the body. It's a good phrase. Don't wear it out.
-
-WHAT TO EXPAND:
-
-1. Religious-refugee context. You mention it in passing but don't say her family fled antisemitism in Soviet Ukraine specifically. That detail makes the $35M Ukraine fundraiser hit harder — she didn't just send money to a country, she sent money to a country that hadn't been safe for her family. One sentence.
-
-2. The frugality pattern. You name the Etsy ring once. Mila is famous for Taco Bell runs, hand-me-downs for the kids, not flying private. That's a Six "the ground is provisional, save the money" tell. A two-line beat would add texture without adding length.
-
-3. Her voice. The famously low, raspy voice — she's said it's from being a screaming kid. Tiny detail but fans clock it as a Mila signature and the piece is voiceless in a literal sense.
-
-WHAT'S SLIGHTLY OFF:
-
-1. The closer "She has not figured out, yet, how to tell them apart from the inside" reads a hair preachy — like the writer has decided what Mila should have done. A Six reader will feel scolded. Consider ending on the question instead of the verdict ("Whether she figures out how to tell them apart from the inside is the unfinished work of the type.")
-
-2. The piece never says whether she is fundamentally a *good person who erred* or a *constructed person whose construction failed.* It hovers between the two. Pick one — readers can tell when an article is hedging.
-
-3. No mention of how her chill reads to people who don't know the refugee story. For a chunk of the audience she IS just "Ashton's wife who does Bad Moms" — bridging from that surface to the engineered-Six read would help readers who came in skeptical.
-
-NET: this is a B+ for a reason — the Masterson framing is excellent and the refugee-to-engineered-chill arc is real. The fixes are mostly additive (Culkin, Luckiest Girl Alive, Meg) rather than structural. Add those three things and trim one "engineered" repetition and it's an A-.
-
+<!-- TESTIMONY LEDGER
+1. Mila Kunis: "Until I get comfortable and I feel like I'm in a safe place." WTF with Marc Maron, July 2018. Used in the epigraph and diagnosis.
+2. Mila Kunis: "$890" from "$900" and "no rhyme or reason" about the acting class. The Howard Stern Show, 2016. The different $300 remainder in her 2018 WTF retelling is disclosed in the hook and $890 section.
+3. Mila Kunis: Susan Curtis and her husband "are my parents" and looked out for her. WTF with Marc Maron, July 2018. Used in the loyalty section.
+4. Mila Kunis: "It's f---ed up what I did and it's f---ed up how I did it." Armchair Expert, reported by ABC News, July 2018. Used in the Culkin counterexample.
+5. Natalie Portman and Darren Aronofsky: casting recommendation and failed rivalry attempt. Vogue, August 2025. Used in the Black Swan section.
+6. Jane Doe #1: apology video was "incredibly insulting and hurtful." Statement via Yashar Ali, September 2023. Used in the Masterson section.
 -->
 
-<!-- REVISION PASS (2026-05-12, responding to fresh-eyes review)
-
-ADDRESSED:
-- (Missing #1) Culkin: added counter-example paragraphs in "Why Mila Kunis Stays Loyal" — uses her Armchair Expert "f---ed up what I did" line as the load-bearing tell. Reframes the leaving as itself Type 6 (she took the blame rather than blame the unit).
-- (Missing #2) Forgetting Sarah Marshall: added one-line bridge at top of Black Swan section.
-- (Missing #3) Family Guy / Meg Griffin: added to diagnosis "loyalty unit" beat — 1999, age 15, 24 seasons, MacFarlane "more right" quote. Now the testimony ledger Seth quote earns its keep.
-- (Missing #4) Kids privacy: added paragraph in loyalty section (Wyatt 2014, Dimitri 2016, no internet faces, "safety" framing).
-- (Missing #5) Luckiest Girl Alive: opens the Masterson section. October 2022 → September 2023 timeline lands as designed.
-- (Missing #6) Bad Moms: folded into kids paragraph as the public/private contrast (chill on-screen mom vs. moat around real kids).
-- (Missing #7) Jackie character: light reference inside the Forgetting Sarah Marshall line ("spoiled-princess voice from That '70s Show").
-
-- (Overdone #1) "Chill is engineered" duplicates: cut the standalone "The chill is what she built on top of that." line in $890 section. Closer drum solo retained.
-- (Overdone #3) TL;DR spoiler: rewrote misfire bullet to flag the misfire without naming Masterson — preserves the reveal.
-
-- (Expand #1) Antisemitism / religious-refugee: added paragraph in refugee section. Family fled because Soviet Ukraine was specifically unsafe for them; grandparents Holocaust survivors. Makes Ukraine fundraiser hit harder by implication.
-
-- (Off #1) Preachy closer: replaced "She has not figured out, yet, how to tell them apart from the inside" with question-framed close.
-- (Off #2) Hedging stance: added explicit "not a good person who erred — a constructed person whose construction is doing exactly what it was built to do" line.
-
-NOT ADDRESSED (deliberate skips):
-- "Voice" expand item: couldn't source the "she got it from being a screaming kid" claim cleanly. Skipped to avoid fabrication.
-- Frugality pattern beyond Etsy ring: held back to keep the kids/moat beat from getting busier.
-- Off #3 (bridging from "Ashton's wife who does Bad Moms" surface): partially addressed via the Bad Moms beat in the kids paragraph.
-
+<!-- HEADING MIX LEDGER
+H2 1: "What is Mila Kunis's personality type?" | search intent
+H2 2: "The $890 that bought her future" | signature
+H2 3: "The classroom she says she blocked out" | signature
+H2 4: "Why Mila Kunis keeps the same people" | hybrid
+H2 5: "What Black Swan reveals about her control" | hybrid
+H2 6: "The Masterson letter and the limit of loyalty" | hybrid
+H2 7: "What her calm is protecting" | signature closer
 -->
 
+<!-- DISTRIBUTION LEDGER
+Type theory outside the verdict section appears in the $890 residue, the childhood vigilance context, the trust reading of long relationships, and the Masterson empathy turn. Wing, instinct, arrow, and counter-typing mechanics remain inside the rabbit hole.
+-->
 
+<!-- FORMULA FINGERPRINT LEDGER
+Contrast-pair target: zero strong negative-parallelism engines.
+Counter-typing: Type 9 alternate appears only inside the rabbit hole.
+Critic pressure: Danny Masterson letter addressed directly.
+Current anchor: 2025 Vogue oral history and 2025 family work rule.
+Ending swap test: closes on the Ukraine fundraiser and Masterson letter, details unique to Kunis.
+-->

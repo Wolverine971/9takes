@@ -1,6 +1,6 @@
 # Blog Cross-Link Index
 
-_Generated: 2026-07-29_
+_Generated: 2026-07-30_
 _Total Posts Analyzed: 192 (Published: 171, Unpublished: 21)_
 _Note: Individual type pages (enneagram-type-1 through 9) excluded from link counts_
 
@@ -14,9 +14,9 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Published posts | 171 |
 | Unpublished posts | 21 |
 | Posts with 0 outgoing links | 28 |
-| Posts with 0 incoming links | 46 |
+| Posts with 0 incoming links | 47 |
 | Completely isolated (0 in, 0 out) | 26 |
-| Total internal cross-links | 968 |
+| Total internal cross-links | 966 |
 | Average outgoing links per post | 5.0 |
 
 ---
@@ -93,7 +93,7 @@ These posts don't link to any other content.
 
 ---
 
-## Priority 3: Posts with NO Incoming Links (46 posts)
+## Priority 3: Posts with NO Incoming Links (47 posts)
 
 These posts are "orphaned" - no other content links to them.
 
@@ -111,6 +111,7 @@ These posts are "orphaned" - no other content links to them.
 | Succession Enneagram: Why Logan Roy Bred Four Different Pers... | `pop-culture/succession-roy-siblings-enneagram-types.md` | 5 |
 | Attachment, Frustration, Rejection: Object Relations by Type | `enneagram/enneagram-object-relations.md` | 4 |
 | How to Read People: The 4-Step Guide to Understanding Anyone | `guides/how-to-psychoanalyze-people.md` | 4 |
+| Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` | 3 |
 | Depp vs Heard: Why a Type 4 and a Type 3 Were Built to Destr... | `pop-culture/depp-vs-heard-enneagram-analysis.md` | 2 |
 | The Kardashian Family Enneagram: How Each Type Built a Billi... | `pop-culture/kardashian-family-enneagram-analysis.md` | 2 |
 | John Coogan and Jordi Hays Built TBPN by Wanting Different T... | `pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic.md` | 2 |
@@ -250,7 +251,7 @@ Sorted by total connections (incoming + outgoing).
 | 11 | 2 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
 | 11 | 1 | 10 | The Crash Course on Emotions We All Missed in Kindergarten | `guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten.md` |
 | 11 | 2 | 9 | How to Use the Enneagram for Self-Development (Past the Test... | `guides/using-the-enneagram-for-self-development.md` |
-| 10 | 5 | 5 | Enneagram Connecting Lines: The Hidden Dynamics of Growth an... | `enneagram/enneagram-connecting-lines.md` |
+| 10 | 5 | 5 | Enneagram Connecting Lines: Growth and Stress | `enneagram/enneagram-connecting-lines.md` |
 | 10 | 6 | 4 | The Enneagram Under Fire: Common Criticisms Addressed | `enneagram/enneagram-criticisms.md` |
 | 10 | 3 | 7 | Enneagram Leadership: Why Your Approach Keeps Backfiring | `enneagram/enneagram-leadership.md` |
 | 10 | 3 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
@@ -269,7 +270,6 @@ Sorted by total connections (incoming + outgoing).
 | 9 | 2 | 7 | Why Type 6 Isn | `enneagram/mental-health/enneagram-anxiety-complete-guide.md` |
 | 9 | 4 | 5 | Why Dating Apps Are Harder for Certain Personality Types | `enneagram/why-dating-apps-are-harder-for-certain-personality-types.md` |
 | 9 | 3 | 6 | The Definitive Guide to Relationship Conflict [Part 1] | `guides/definitive-guide-to-relationship-conflict-part-1.md` |
-| 9 | 5 | 4 | The Podcaster Personality Map: Why Every Host Gravitates to ... | `pop-culture/podcaster-personality-map.md` |
 | 8 | 2 | 6 | 5 Reasons Reddit Can | `community/reddit-deep-connections-limitations.md` |
 | 8 | 2 | 6 | Enneagram Compatibility: Why Charts Lie | `enneagram/enneagram-compatibility-guide.md` |
 | 8 | 6 | 2 | The Complete Enneagram Compatibility Matrix: All 81 Type Com... | `enneagram/enneagram-compatibility-matrix.md` |
@@ -293,6 +293,7 @@ Sorted by total connections (incoming + outgoing).
 | 7 | 4 | 3 | Why You Hate Your Job (It | `enneagram/enneagram-types-and-career-choices.md` |
 | 7 | 2 | 5 | How Type 8 Challengers Actually Succeed (It | `enneagram/how-type-8-challengers-actually-succeed.md` |
 | 7 | 2 | 5 | The Psychology of Jeffrey Epstein: Understanding the Dark He... | `pop-culture/epstein-psychology-part-1.md` |
+| 7 | 5 | 2 | The Podcaster Personality Map: Why Hosts Return to the Same ... | `pop-culture/podcaster-personality-map.md` |
 | 7 | 3 | 4 | The AI Wars: Why Personality Types Determine Who Gets to Bui... | `pop-culture/tech-titans-ai-wars.md` |
 | 6 | 1 | 5 | What Was The Inspiration For 9takes? | `community/inspiration-for-9takes.md` |
 | 6 | 3 | 3 | The Hardware and Software of the Mind | `community/software-and-hardware-of-the-mind.md` |
@@ -303,7 +304,6 @@ Sorted by total connections (incoming + outgoing).
 | 6 | 1 | 5 | Why the Next Thing Won | `enneagram/why-the-next-thing-wont-fix-it-type-7.md` |
 | 6 | 3 | 3 | Dating Dynamics by Enneagram Type: 9 Patterns That Sabotage ... | `guides/dating-dynamics-by-enneagram-type.md` |
 | 6 | 3 | 3 | Breaking Points: How a Type 1 and a Type 7 Built Media | `pop-culture/breaking-points-enneagram-analysis.md` |
-| 6 | 3 | 3 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
 | 6 | 1 | 5 | The Fallen Founders: What Holmes, Neumann, and Bankman-Fried... | `pop-culture/fallen-founders-enneagram-analysis.md` |
 | 6 | 3 | 3 | Influencer Enneagram Types: Nine Creator Pressure Patterns | `pop-culture/influencer-enneagram-types-instagram.md` |
 | 6 | 1 | 5 | Masculinity, Strength, and Emotional Maturity | `pop-culture/masculinity-strength-and-the-enneagram.md` |
@@ -317,6 +317,7 @@ Sorted by total connections (incoming + outgoing).
 | 5 | 2 | 3 | Enneagram Social Styles: The Hornevian Triads, Decoded | `enneagram/enneagram-social-styles.md` |
 | 5 | 3 | 2 | Enneagram First Impression Cheat Sheet: All 9 Types | `enneagram/first-impression-cheat-sheet.md` |
 | 5 | 1 | 4 | How Each Enneagram Type Unwinds: Your Stress-Relief Formula | `enneagram/how-each-enneagram-type-unwinds.md` |
+| 5 | 2 | 3 | Comedy Kings: Why the Funniest Men Alive Are Wired Completel... | `pop-culture/comedy-kings-enneagram-analysis.md` |
 | 5 | 2 | 3 | Google | `pop-culture/google-leadership-evolution.md` |
 | 5 | 3 | 2 | The Anatomy of Public Shame: What We | `pop-culture/psychology-of-public-shame.md` |
 | 5 | 0 | 5 | Succession Enneagram: Why Logan Roy Bred Four Different Pers... | `pop-culture/succession-roy-siblings-enneagram-types.md` |
@@ -331,13 +332,13 @@ Sorted by total connections (incoming + outgoing).
 | 4 | 1 | 3 | Why You Don | `guides/definitive-guide-to-self-efficacy.md` |
 | 4 | 3 | 1 | The Pattern-Breaking Guide to Fighting Depression | `guides/guide-to-fighting-depression.md` |
 | 4 | 0 | 4 | How to Read People: The 4-Step Guide to Understanding Anyone | `guides/how-to-psychoanalyze-people.md` |
-| 4 | 1 | 3 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` |
 | 4 | 2 | 2 | How Epstein Trapped the Powerful and the Vulnerable (Part 2) | `pop-culture/epstein-psychology-part-2.md` |
 | 4 | 2 | 2 | Reddit Moderators and Enneagram: What Actually Motivates Mod... | `pop-culture/reddit-moderators-type-1-internet.md` |
 | 3 | 1 | 2 | The Bible Doesn | `community/questions-are-the-engine-of-moral-awakening.md` |
 | 3 | 1 | 2 | Why Your Enneagram Clients Aren | `enneagram/enneagram-coach-toolkit.md` |
 | 3 | 2 | 1 | Who Built the Enneagram? Mystics, Psychiatrists, Philosopher... | `enneagram/enneagram-influences.md` |
 | 3 | 2 | 1 | How to Apologize by Enneagram Type: The Nine Scripts Each Ty... | `enneagram/how-to-apologize-like-a-pro.md` |
+| 3 | 0 | 3 | Alex Cooper vs Alix Earle: Why the Mentor-Protegee Pipeline ... | `pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis.md` |
 | 3 | 1 | 2 | Ghislaine Maxwell: The Hostage Princess Who Became the Enabl... | `pop-culture/ghislaine-maxwell-psychology.md` |
 | 3 | 2 | 1 | Musk vs Altman Trial: The Verdict, the Vibes, and the Person... | `pop-culture/musk-vs-altman-trial-personality-dynamics.md` |
 | 3 | 2 | 1 | You Can | `pop-culture/succession-personality-trap.md` |

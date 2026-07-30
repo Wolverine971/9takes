@@ -13,7 +13,7 @@ published: true
 enneagram: 8
 type: ['musician', 'alternative-artist']
 person: 'chappell-roan'
-suggestions: ['Billie-Eilish', 'Halsey', 'Sabrina-Carpenter', 'Olivia-Rodrigo']
+suggestions: ['Billie-Eilish', 'Halsey', 'Sabrina-Carpenter', 'Olivia-Rodrigo', 'Britney-Spears']
 wikipedia: 'https://en.wikipedia.org/wiki/Chappell_Roan'
 wikidata_qid: 'Q110281146'
 imdb_id: 'nm11490513'
@@ -347,7 +347,7 @@ In October 2025, Chappell launched The Midwest Princess Project, a nonprofit sup
 
 The controversy that defined Chappell's 2024 was her decision to publicly set limits on fan interaction. After canceling festival appearances and posting viral TikToks about harassment, the internet split: those who respected her boundaries and those who saw an "ungrateful" celebrity complaining about success.
 
-But as McLamb noted on _A Bit Fruity_, there's a documented cycle that young female celebrities get put through, what writer Rain Fisher-Quann calls "the womaning": adoration, overexposure, backlash, degradation, and sometimes redemption. The same pattern hit Britney Spears, [Anne Hathaway](/personality-analysis/anne-hathaway), and [Jennifer Lawrence](/personality-analysis/jennifer-lawrence) before her.
+But as McLamb noted on _A Bit Fruity_, there's a documented cycle that young female celebrities get put through, what writer Rain Fisher-Quann calls "the womaning": adoration, overexposure, backlash, degradation, and sometimes redemption. The same pattern hit [Britney Spears](/personality-analysis/britney-spears), [Anne Hathaway](/personality-analysis/anne-hathaway), and [Jennifer Lawrence](/personality-analysis/jennifer-lawrence) before her.
 
 Chappell is attempting something most don't: **interrupting the cycle mid-stream** rather than waiting for the crash.
 

@@ -14,7 +14,7 @@ date: '2026-06-11'
 published: true
 type: ['musician', 'pop-star', 'screen-icon']
 suggestions:
-  ['demi-lovato', 'miley-cyrus', 'justin-bieber', 'taylor-swift', 'ariana-grande', 'benny-blanco']
+  ['demi-lovato', 'miley-cyrus', 'justin-bieber', 'taylor-swift', 'britney-spears', 'benny-blanco']
 wikipedia: 'https://en.wikipedia.org/wiki/Selena_Gomez'
 wikidata_qid: 'Q83287'
 imdb_id: 'nm1411125'

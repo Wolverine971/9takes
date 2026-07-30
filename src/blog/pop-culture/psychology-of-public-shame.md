@@ -5,7 +5,7 @@ description: "Public shame is older than the internet. The substrate changed, th
 author: 'DJ Wayne'
 date: '2026-05-14'
 loc: 'https://9takes.com/pop-culture/psychology-of-public-shame'
-lastmod: '2026-05-14'
+lastmod: '2026-07-29'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -192,7 +192,7 @@ Public shame, untethered from a specific harm done to a specific person within a
 BuzzFeed's list, viewed without flinching, is exactly this collapse at internet scale. In one shared bucket of "celebrities we have lost respect for":
 
 - **Convicted serial sex offender, 60+ accusers** (Bill Cosby)
-- **Co-stars of a convicted rapist who wrote leniency letters** (Ashton Kutcher, Mila Kunis)
+- **Co-stars of a convicted rapist who wrote leniency letters** (Ashton Kutcher, [Mila Kunis](/personality-analysis/mila-kunis))
 - **Pending allegations, unadjudicated** (Russell Brand, Marilyn Manson)
 - **Admissions and accountability already entered** (Louis C.K.)
 - **Political support the writer dislikes** ([Snoop Dogg](/personality-analysis/snoop-dogg), Sylvester Stallone, Chuck Norris, [Hugh Jackman](/personality-analysis/hugh-jackman))
@@ -209,7 +209,7 @@ It cheapens the heavy entries. The reader who skimmed past Cosby's name (entry #
 
 The cost of that flattening lands hardest on the people the article claims to defend. For the survivors of an actual crime — the women who testified at depositions, who sat through cross-examination, who watched a conviction get overturned and then retried — being filed as a slightly heavier line item in a slideshow that also contains "he is friends with Rupert Murdoch" is a specific form of erasure. Their decade of work gets reduced to the same emotional register as a Reddit user's opinion about a Wolverine movie. Worse, every listicle that bundles a convicted serial offender with a comedian-the-writer-finds-unfunny makes the next survivor's case marginally harder to land — the public's pattern recognition for "real accountability claim" gets blunted by repeated exposure to fake ones. The flattening does not protect anyone. It uses them.
 
-The list also does not grant the benefit of the doubt symmetrically. Snoop apologizes, partners with the leading LGBTQ media organization in the country, and writes a children's song called "Love Is Love" — and stays on the wall. White male peers with shorter repair arcs are routinely cited as "complicated" rather than canceled. Women in public mental-health crises — Britney Spears in 2007 is the canonical case — get filed as embarrassments, where male peers in similar shape get filed as troubled geniuses. The receipt economy was not built on a level surface. It sorts people the way the surface already sorted them, and then claims the sorting was about the people.
+The list also does not grant the benefit of the doubt symmetrically. Snoop apologizes, partners with the leading LGBTQ media organization in the country, and writes a children's song called "Love Is Love" — and stays on the wall. White male peers with shorter repair arcs are routinely cited as "complicated" rather than canceled. Women in public mental-health crises — [Britney Spears](/personality-analysis/britney-spears) in 2007 is the canonical case — get filed as embarrassments, where male peers in similar shape get filed as troubled geniuses. The receipt economy was not built on a level surface. It sorts people the way the surface already sorted them, and then claims the sorting was about the people.
 
 The sloppiness is the giveaway. A serious moral framework — one trying to distinguish accountability from preference — would never produce this list. A list that flattens everything is not enforcing a standard. It is performing a tribe.
 

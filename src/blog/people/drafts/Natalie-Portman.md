@@ -13,7 +13,7 @@ published: true
 enneagram: '1'
 type: ['movieStar', 'screen-icon']
 person: 'natalie-portman'
-suggestions: ['Emma-Watson', 'Blake-Lively', 'Margot-Robbie', 'Gwyneth-Paltrow']
+suggestions: ['Emma-Watson', 'Blake-Lively', 'Margot-Robbie', 'Gwyneth-Paltrow', 'Mila-Kunis']
 wikipedia: 'https://en.wikipedia.org/wiki/Natalie_Portman'
 wikidata_qid: 'Q37876'
 imdb_id: 'nm0000204'
@@ -52,6 +52,7 @@ citations:
   - 'https://en.wikipedia.org/wiki/Natalie_Portman'
   - 'https://www.wikidata.org/wiki/Q37876'
   - 'https://www.imdb.com/name/nm0000204/'
+  - 'https://www.vogue.com/article/natalie-portman-mila-kunis-and-darren-aronofsky-on-15-years-of-black-swan'
 faqs:
   - question: "What is Natalie Portman's personality type?"
     answer: "Natalie Portman is an Enneagram Type 1 (The Reformer), specifically a 1w9. The pattern shows in the armor of seriousness she engineered at thirteen to survive sexualization, her own distinction — 'I'm obedient, but I'm not a perfectionist' — the moral commitment to vegetarianism she made at nine and never broke, the year of monastic Black Swan discipline that dislocated a rib, and the Genesis Prize ceremony she walked away from on principle."
@@ -212,6 +213,8 @@ The pattern isn't ambition. Ambition wants to win. This is something else — th
 She trained for a year. Five hours a day. She lost twenty pounds. She dislocated a rib from being lifted repeatedly during rehearsals. There were nights, she later admitted, when she thought she might die.
 
 "The physical discipline of it really helped for the emotional side of the character," she told interviewers, "because you get the sense of the monastic lifestyle of only working out, that is a ballet dancer's life. You don't drink, you don't go out with your friends, you don't have much food and you are constantly putting your body through extreme pain."
+
+In a [2025 _Vogue_ oral history](https://www.vogue.com/article/natalie-portman-mila-kunis-and-darren-aronofsky-on-15-years-of-black-swan), her co-star [Mila Kunis](/personality-analysis/mila-kunis) compressed the same production into "a lot of dancing and very little eating." Portman's account turns that shared ordeal inward: the discipline became part of the character's psychology.
 
 She described this as helpful. Her diet reportedly consisted mainly of carrots and almonds. When she started losing serious weight, "all of a sudden I started getting compliments from everyone. But it was very much like what that world is." She couldn't shut off the character: "There wasn't really any time to relax and be myself."
 

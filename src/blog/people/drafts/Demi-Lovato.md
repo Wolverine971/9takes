@@ -343,4 +343,3 @@ Cleaned up:
 Preserved untouched: the "Anyone" hook, the "envied whatever the drugs gave him" beat, the inner-thought interior block, "A Four hears it as Tuesday," "the word a person uses when they have spent a lifetime airborne," and the joy-as-unrehearsed-identity ending.
 lastmod left untouched (DJ-managed).
 -->
-

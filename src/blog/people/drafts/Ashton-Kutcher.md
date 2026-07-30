@@ -210,7 +210,7 @@ The seat had just been on fire. He sat in it anyway. That is the part with Seven
 
 The same instinct ran his personal life. He married Demi Moore in 2005, fifteen years his senior and freshly separated from Bruce Willis. He moved into her existing life — her three daughters, her Kabbalah practice, her two-decade head start on global fame. He took the kids to school and stayed close to them long after the marriage ended; the 6-wing loyalty held even there. Demi later wrote in her 2019 memoir *Inside Out* that he had pressured her into threesomes and contributed to the end of her two decades of sobriety. When the marriage collapsed in 2011, the same year he took the Walden Schmidt seat, he didn't go looking. He pivoted to the person who had been on his set since he was 19 and she was 14.
 
-> "I've never kissed a guy. I was a 14-year-old little girl, and I was extremely scared for my life. He was very nice about it, like, 'Don't worry about it.'" — Mila Kunis on her first on-screen kiss with Kutcher, *The Rosie O'Donnell Show*, 2002
+> "I've never kissed a guy. I was a 14-year-old little girl, and I was extremely scared for my life. He was very nice about it, like, 'Don't worry about it.'" — [Mila Kunis](/personality-analysis/mila-kunis) on her first on-screen kiss with Kutcher, *The Rosie O'Donnell Show*, 2002
 
 That first kiss was a bet. Danny Masterson, sitting in the makeup chair, paid Kutcher $10 to slip Mila tongue on camera. She has told that story in public. They started dating in 2012, married in 2015, and have two children. The bet, the wife, and the character letter for the man who placed the bet are the same set of people, on the same set, twenty-five years apart. The Seven engine doesn't change rooms. It changes what the room is for.
 

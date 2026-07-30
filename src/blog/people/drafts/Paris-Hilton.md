@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['celebrity', 'celebrity-image']
 person: 'paris-hilton'
-suggestions: ['Kim-Kardashian', 'Kylie-Jenner', 'Marilyn-Monroe', 'Taylor-Swift', 'Jake-Paul']
+suggestions: ['Kim-Kardashian', 'Kylie-Jenner', 'Marilyn-Monroe', 'Taylor-Swift', 'Britney-Spears']
 wikipedia: ''
 wikidata_qid: 'Q47899'
 imdb_id: 'nm0385296'

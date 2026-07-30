@@ -364,4 +364,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Trim the "luck... or something Sounds Like a Real Person" section by 50% — it's rollout-coverage texture rather than analysis, and the piece is already strong without it.
 
 ============================================================ -->
-

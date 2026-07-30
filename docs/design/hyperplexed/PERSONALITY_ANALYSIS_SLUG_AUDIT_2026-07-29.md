@@ -1,0 +1,101 @@
+<!-- docs/design/hyperplexed/PERSONALITY_ANALYSIS_SLUG_AUDIT_2026-07-29.md -->
+
+# Personality Analysis Slug — Hyperplexed Audit
+
+**Route:** `/personality-analysis/[slug]`  
+**Date:** 2026-07-29  
+**Status:** Audit complete; implementation pending
+
+## Verdict
+
+The route has a genuinely premium desktop opener and a distinct editorial voice. Its case-file hero, portrait treatment, readable article measure, theme support, and `NineChorus` ending are already strong enough to preserve.
+
+The quality falls off after that opener. On mobile the portrait consumes the first screen before the page makes its analytical promise; the long search-oriented title repeats type metadata; the table of contents and type dossier become long interruptions; and the related/discussion surfaces use older interaction and visual patterns. This needs hierarchy and consolidation, not a redesign.
+
+## Surfaces Reviewed
+
+- Case-file hero, portrait, title, description, and article metadata
+- Inline and fixed table of contents
+- Article body and injected Enneagram type dossier
+- Sources, `NineChorus`, author, discussion, and comment composer
+- Related analysis cards and floating people suggestions
+- Desktop, extra-wide desktop, and mobile behavior in light and dark themes
+
+## What Is Already Strong
+
+- **The desktop hero is authored, not templated.** The restrained dossier framing, grayscale portrait, clipped corner treatment, and typographic scale produce a clear editorial identity.
+- **The article is comfortable to read.** The body measure and spacing support long-form reading, and the route maintains good contrast in both themes.
+- **The page has a real signature moment.** `NineChorus` turns nine personality perspectives into one purposeful interaction. It is the right place to spend the route's animation and visual-effects budget.
+- **The content model is dependable.** All 396 inspected published personality records had a title, description, Enneagram type, persona title, and non-empty body content.
+- **The route is technically stable in the tested states.** The deployed pages produced no browser warnings or errors and no horizontal overflow; the only off-screen element detected was the intentional anti-spam honeypot.
+
+## Tier 1 — Fix First
+
+### 1. Separate the visible editorial title from the search title
+
+The hero renders the full `post.title` as its visible H1. Across the published corpus, the median title is 59 characters, 82 titles exceed 70 characters, and 17 exceed 80. In 167 records the title also repeats “Type N,” even though the type is already stated in the kicker above it. The 94-character Meryl Streep title demonstrates the worst case: it turns the hero into metadata instead of a decisive opening.
+
+Use the person's name as the visible H1, elevate `persona_title` into a concise thesis/dek, and retain the longer search title in page metadata or a quieter supporting position. This is primarily a naming and hierarchy correction, not a smaller-font correction. **Patterns: P6 + P4.**
+
+### 2. Remove the duplicate “Further Analysis” heading
+
+The route wraps `RelatedPosts` with a `SectionKicker` labeled “Further Analysis,” while `RelatedPosts` immediately renders its own H2 with the same words. Keep one semantic heading and one small contextual label only if the two phrases communicate different information. **Patterns: P6 + P4.**
+
+### 3. Give the discussion composer a persistent, accessible contract
+
+The textarea relies on placeholder text as its only label, the submit button exposes the tooltip “You only YOLO once,” and submission failures are reduced to a generic transient notification. Add a persistent label, a stable `id`, optional help text, `aria-describedby`, an inline error connected with `aria-invalid`, and an announced status/error region. Replace the joke tooltip with useful action language or remove it. **Patterns: P13 + P6.**
+
+### 4. Stop hiding related-person names on desktop
+
+Related-card names are set to `opacity: 0` until hover, with no equivalent focus treatment, while mobile gets permanently visible but undersized labels. Identity is the card's essential information, so it should be stable in every input mode. Use a persistent bottom scrim and readable name treatment for mouse, keyboard, and touch. **Patterns: P8 + P10 + P4 + P13.**
+
+## Tier 2 — Structural Refinement
+
+### 1. Let mobile state the promise before showing the full portrait
+
+At 391 × 844, the Meryl Streep portrait occupies roughly y=245–565, the kicker begins near y=602, and the H1 begins near y=638; the description does not appear until below the first viewport. Put the analysis text before the portrait on small screens, or substantially compact the image so the name and thesis arrive in the first screen. Preserve the current desktop composition. **Patterns: P3 + P4 + P8.**
+
+### 2. Consolidate the two table-of-contents experiences
+
+The route first shows a potentially 24-entry inline contents block, then introduces a separate fixed contents rail after scrolling on desktop. This asks desktop readers to process the same navigation twice. Default the inline version closed at every width, retain one desktop rail when space permits, and keep the disclosure's state/control behavior explicit. The current working-tree change improves the deployed mobile-open behavior but still leaves the desktop inline block expanded. **Patterns: P8 + P13.**
+
+### 3. Compress the generic type dossier on mobile
+
+The injected dossier measured roughly 1,152–1,255 pixels tall on tested mobile pages—more than a full viewport—and temporarily displaces the person-specific narrative with generic type reference material. Keep the highest-value fear, desire, stress, and growth summary visible; move secondary statistics and taxonomy into a deliberate disclosure or linked type page. **Patterns: P4 + P13.**
+
+### 4. Retire or relocate the floating people rail
+
+`PeopleSuggestionsSideBar` looks for `main.column-width`, which this route does not provide, then falls back to a hard-coded content width. It is absent at a normal 1440-pixel desktop but appears as a second fixed rail beside the fixed contents at extra-wide sizes. It also duplicates the later related-content graph. Remove it from this route or replace it with one quiet inline “next dossier” module. **Patterns: P8 + P6.**
+
+### 5. Bring related content into the case-file grammar
+
+The related grid uses viewport-width JavaScript to choose counts, unkeyed image loops, resting shadows, glow/lift hover, and hover-only labels. Reuse the established case-card treatment—or a compact CSS-grid variant—with visible names, keyed rows, and CSS-driven breakpoints. **Patterns: P2 + P3 + P8 + P10 + P11.**
+
+## Tier 3 — Polish
+
+### 1. Spend the effects budget on `NineChorus`
+
+Keep `NineChorus` as the route's single signature interaction. Replace resting glows and decorative shadows on tables of contents, source cards, related cards, side rails, and the dossier shelf with borders and tonal surfaces; reserve elevation for floating or interactive states. Gate remaining non-essential motion behind reduced-motion preferences. **Patterns: P11 + P19.**
+
+### 2. Reduce the hero to one accent system
+
+The type-color stripe, amber dossier label, and saturated violet portrait mark compete as three accent languages. Keep type color as data and either neutralize the eye mark or tune it into that system. **Patterns: P10 + P19.**
+
+## Recommended Approval Order
+
+1. Correct the hero title hierarchy and mobile ordering.
+2. Consolidate the TOC and repair the discussion form contract.
+3. Replace the related/floating-rail treatment.
+4. Build the compact mobile type dossier.
+5. Apply the effects and accent-budget polish.
+
+## Verification Notes
+
+- Reviewed the current working-tree source, including the existing unstaged mobile TOC change.
+- Inspected deployed Selena Gomez, Elon Musk, and Meryl Streep pages.
+- Tested 1440 × 1000 desktop, extra-wide desktop, and exact 391 × 844 mobile states in light and dark themes.
+- Confirmed no horizontal page overflow and no browser diagnostics in tested states.
+- Ran the Svelte analyzer in the route's legacy compatibility mode. It identified existing raw-HTML/migration advisories and unkeyed related/dossier loops; no implementation changes were made during this audit.
+- Local browser screenshots remain to be repeated after the current working tree can complete its database-backed page load; the in-app browser blocked direct localhost access, so visual findings above use the deployed route while source findings use the current tree.
+
+No implementation changes were made as part of this audit.

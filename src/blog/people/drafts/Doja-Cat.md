@@ -254,7 +254,7 @@ _Hot Pink_ (2019) and _Planet Her_ (2021) established Doja as a mainstream pop s
 
 Then something shifted.
 
-August 2022: Doja shaved her head on Instagram Live. Then her eyebrows. Fans panicked, comparing her to Britney Spears' 2007 meltdown.
+August 2022: Doja shaved her head on Instagram Live. Then her eyebrows. Fans panicked, comparing her to [Britney Spears' 2007 rupture](/personality-analysis/britney-spears).
 
 Her response: "I'm rich, I'm fine."
 

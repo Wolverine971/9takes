@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['movieStar', 'screen-icon']
 person: 'kristen-bell'
-suggestions: ['Jennifer-Garner', 'Anne-Hathaway', 'Meghan-Markle', 'Oprah-Winfrey']
+suggestions: ['Jennifer-Garner', 'Anne-Hathaway', 'Meghan-Markle', 'Oprah-Winfrey', 'Mila-Kunis']
 wikipedia: 'https://en.wikipedia.org/wiki/Kristen_Bell'
 wikidata_qid: 'Q178882'
 imdb_id: 'nm0068338'
