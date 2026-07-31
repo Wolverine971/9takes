@@ -1,0 +1,13 @@
+Editor pass on `src/blog/people/drafts/Ibai-Llanos.md` is done. Both exit checks pass: **0 lint fails, 0 em-dashes in prose, 0 contrast pairs (strong and comparative), no banned AI phrases.**
+
+This draft arrived mechanically clean (the creator and second passes had already zeroed the contrast-pair and em-dash counts), so this pass was about the tells the regexes can't see:
+
+- **Mobile rhythm was the biggest problem.** Six paragraph blocks ran 6–8 dense sentences (the formats catalog, the 2020 lockdown bridge, the guest-list run, the housing history, the food autopsy, the Kings League snap). All broken into 2–4 sentence paragraphs at their natural seams; no content lost.
+- **Cross-sentence negative parallelism** survived the lint because it spans sentence boundaries. Fixed three: "The lockdown did not make Ibai famous for gaming. It made him…" is now a direct statement; "pressure doesn't make him louder, it makes him gone" became "the Nine's version is disappearance"; "he did not torch anyone publicly" folded into "ended the partnership… without one public word about any of it."
+- **Repeated constructions**: three "Handed a…" openers reduced to one, the duplicate "Look at…" pivot cut, "handed to a man" (Ondas award) varied, "sideways and delayed" redundancy trimmed, and the second "in this analysis" self-reference reworded.
+- **Headings converted to sentence case** (H2s and Rabbit Hole H3s). The corpus is mixed, but Tyler1, the most recent editor-passed draft, uses sentence case and the standards call Title Case a structural tell; ledger comments updated to match.
+- **Protected as-is**: the empathy turn (eating as anger paid out sideways, the "you see yourself in the shower" passage), the interior beat (the Barcelona panic-attack inner-thought), the wage-ledger table, and the "smallest event" ending.
+
+Two remaining lint warns, both expected at this stage: no `faqs` frontmatter (the enrich stage hasn't run yet) and body at 4,061 words against the 4,500 ceiling, which is thin headroom for a future refresh but fine now.
+
+Verdict: the prose now reads production-ready. Next stop in the pipeline would be the frontmatter enrich pass and a grade.

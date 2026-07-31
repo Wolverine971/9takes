@@ -1,0 +1,20 @@
+## Grading Complete — Ibai-Llanos
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Ibai-Llanos | 8 | 9 | 9 | 9 | 8 | 9 | 8.6 | B+ |
+
+(Weighted: `(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability 9 — no gate. No caps applied.)
+
+### Key observations
+
+- **This is the strongest draft I've seen against the v2 checks in a while, and it sits above the Matt-Smith B anchor on the merits.** All deterministic checks came back clean: 0 contrast-pair engines, head-term PASS with a 54-word answer block, and the same-type scan is clear after the pipeline's documented 4 de-formula rewrites. The source audit shows all 3 script-tracked load-bearing quotes inline and dated.
+- **The signature insight is real**: the CPAP mask he "almost got addicted to" as the key to Nine self-forgetting, paired with "He has organized six editions. He has never once put himself on the card." The 2026 anchor is unusually good — he ended his own world-record streak *by choice*, which turns news into type evidence. The empathy turn runs on his own wound-vocabulary ("paying out an anger with food," "the head is a real bastard"), not house armor-grammar.
+- **What kept it out of the A band** — two things, both fixable:
+  - *Evidence (8):* the wage table ("1,040 euros net") carries a whole section with no inline source, and the five-stairs cold open plus the endocrinologist warning trace to the Wild Project transcript (I verified both in the mined transcript) but aren't tagged at the point of claim — and the transcript actually says "five, six-seven stairs," which the draft hardens to a flat five. The Testimony Ledger is also stale (one entry never appears in the body; one body quote is missing from it).
+  - *Writing (8):* four reader-command imperatives ("Sit with that," "Watch what happened there," etc.) — the four most recently graded drafts have zero, so this is the last visible house fingerprint — plus the thesis is stated three times before the CPAP section earns it, and "One mechanism, three exits" repeats the monocausal tidiness the Matt-Smith audit flagged.
+- Sameness check vs. Tyler1 / Britney-Spears / Mila-Kunis / carina-zavline: clean — bespoke TL;DR skeleton, no corpus-stat sentence, distinct closing shape.
+
+Grade written to the draft frontmatter; full feedback with a concrete path to A is in `docs/content-analysis/grades/Ibai-Llanos.review.md`.
+
+**Total graded this session: 1**

@@ -1,0 +1,18 @@
+Draft complete. The 02:00 cron run for tonight's backlog subject died before writing anything; this session picked it up and ran the full v2 workflow end to end.
+
+**The blog:** Ibai Llanos, typed as an Enneagram 9 (9w8, self-preservation-first, high confidence). The thesis: the man who holds the internet's all-time live-audience record (9.33M concurrent devices, La Velada V) is wired to smooth every room he enters — he monetized conflict by domesticating it into boxing with referees and hugs, and has never once put himself on the card in six editions. The emotional core came from his own January 2026 Wild Project interview: he reached 152kg "paying out anger at someone with food," slept over a year with a CPAP for 40-a-night apneas and got so used to it he called the mask his relaxation ritual. The ending lands on his July 2026 line that he might finally fight at La Velada someday, against the Day-1 walking ritual (3,650 km, "the distance from my house to Russia").
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Ibai-Llanos.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (6 named testimony quotes — Évole, Piqué, Colominas, Agüero ×2) | Gate 2: pass (6 of 8 H2s search-intent/hybrid) | Gate 4: pass (no reference-library cadence; zero "A [Type]" ending sentences) | Gate 5: pass (2 type-theory paragraphs outside diagnosis/Rabbit Hole) | Gate 6: pass (contrast pairs 0/0, similarity scan CLEAR, bespoke pay-vs-audience ledger, Agüero critic anchor, empathy turn, La Velada VI 2026 anchor)
+LIMITATIONS: Spanish quotes translated by me; Lo de Évole full episode had no fetchable transcript (Évole material sourced from his El Hormiguero appearance transcript + press); father's occupation reported inconsistently across sources, omitted; faqs frontmatter not yet populated (belongs to the enrich stage — lint's 1 warn)
+```
+
+Worth knowing: the same-type similarity scan initially **tripped hard** — the "rarest type in the corpus" stat move I reached for was already used in the last two Type 9 creator drafts (CaseOh, Mira Murati). I cut it and three other house n-grams; the scan now reads clear. Three Spanish transcripts were saved to `youtube-transcripts/` for future quote-pinning.
+
+Internal links added (4): Type 9 → `/enneagram-corner/enneagram-type-9`, stress → `/enneagram-corner/enneagram-types-in-stress`, wings + subtypes guides inside the Rabbit Hole. Deterministic checks: blog-lint 0 fail / 1 warn, blog-quality-report all pass (extractable 54-word answer block), corpus-phrase-frequency clean against the Type 9 avoid-list.
+
+Next steps when you review: `/grade_blog Ibai-Llanos`, then the frontmatter enrich pass, then flip `production_pretext` to ready and run `blog_content_production_people`. The backlog queue still shows ibai-llanos as `inProgress` — I left queue transitions to the pipeline owner since the orchestrator normally manages that file.

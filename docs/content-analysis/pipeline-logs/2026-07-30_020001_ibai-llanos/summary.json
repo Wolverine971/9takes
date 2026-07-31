@@ -1,0 +1,15 @@
+{
+	"person": "ibai-llanos",
+	"draft_path": "src/blog/people/drafts/ibai-llanos.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": 8.6,
+	"final_overall": 8.6,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0,
+	"has_stage_warnings": false,
+	"generated_at": "2026-07-30T06:58:28.840Z"
+}

@@ -59,7 +59,21 @@ The scheduler was firing, but the creation and publication contracts did not mat
 - ranks the genuinely closest unpublished candidates and reports aggregate blocker counts;
 - returns nonzero when the creator produces no draft, allowing the existing watchdog to catch quota/API failures.
 
-The first post-repair recovery is complete. Codex revised and independently regraded Alex Warren at 8.9 B+ with zero active caps and a 0.0 stability delta, then published it on July 27. Jason Sudeikis was independently regraded at 8.1 B and remains unpublished because the score, 0.7 stability delta, and three active caps fail the release gate. Image generation remains a deliberate manual gate, so drafts missing personality portraits remain human-assisted rather than fully automatic.
+The first post-repair recovery is complete. Codex revised and independently regraded Alex Warren at 8.9 B+ with zero active caps and a 0.0 stability delta, then published it on July 27. Jack Antonoff (8.9 B+) and Tyler1 (8.7 B+) followed on July 29 and 30. Image generation remains a deliberate manual gate, so drafts missing personality portraits remain human-assisted rather than fully automatic.
+
+### Jason Sudeikis cleared and published, 2026-07-30
+
+He was the last of the four DJ asked for and the only one that needed the caps worked off by hand rather than rescored. The 8.1 B grade of July 27 was accurate for that text. All three active caps were then lifted by revision:
+
+| Cap                     | Before                                                                                                                                                | After                                                                                           |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `same_type_reuse`       | Type 2 counter-typing paragraph scored **0.609** against Brendan Fraser on the near-verbatim "But the Two's engine is being needed and indispensable" | Rewritten in his own material. **0.103**, near the noise floor. Originality 7 to 8              |
+| `contrast_pair_overuse` | 3 constructions, 2 strong                                                                                                                             | **1**, 0 strong. Writing 8 to 8.5                                                               |
+| `house_empathy_turn`    | "It is easy to read X. Read it instead as Y", and the paragraph announced itself as "the empathy turn the CinemaCon moment demands"                   | Rewritten in his own vocabulary, the goldfish creed named as what it cost him. Enneagram 8 to 9 |
+
+Regraded 8.5 B+ on the revised text and published. Two source corrections went in alongside: the CinemaCon quote had been truncated to "would never condone," which changes its meaning, and is now the full statement attributed to a representative speaking to Entertainment Tonight in April 2022. The near-verbatim Type 2 phrase also survived in the `faqs` block feeding JSON-LD and was corrected there in a separate approved `faqs`-only update.
+
+**A gate-semantics note worth acting on.** Recording the honest audit trail (pre-revision `first_overall: 8.1`, post-revision `regrade_overall: 8.5`) produces a 0.4 delta and trips `grade_unstable`, even though the revision genuinely improved the piece. The gate cannot tell "improved by revision" from "two graders disagree." The convention the Alex Warren sidecar documents is to set the pre-revision score aside and record two reads of the revised text, which is what was done here. Worth making that explicit in `grade_blog.md`, because read literally the field penalises successful revision and that is part of why this queue jammed.
 
 **The two queues are different jobs and confusing them wastes work:**
 

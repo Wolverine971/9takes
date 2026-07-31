@@ -1,0 +1,26 @@
+Frontmatter enrichment complete: **Ibai-Llanos**
+
+**Fields filled:**
+- `wikidata_qid: 'Q83566876'` — verified via Wikipedia pageprops API + Wikidata entity data (label, description, and birth date all match)
+- `imdb_id: 'nm9667263'` — cross-checked two ways per the command: Wikidata P345 **and** IMDb's own pages (real screen credits: *Not a Game*, *Balloon World Cup*, *Camera Café, la película*)
+- `same_as` — added the Wikidata and IMDb URLs (additive; existing entries untouched)
+- `faqs` — 5 entries generated from the final body
+
+**Fields already present (preserved untouched):**
+- wikipedia, birth_date, birth_place, nationality, occupation, knows_about, keywords, same_as (original 4 entries), citations (all 17), plus all creator-owned fields including `lastmod`
+
+**FAQs generated (5):**
+1. What is Ibai Llanos's personality type? → `#what-is-ibai-llanoss-personality-type`
+2. Why did Ibai Llanos sleep with a breathing machine? → `#why-ibai-llanos-slept-with-a-breathing-machine`
+3. How did Ibai Llanos lose 50 kilos? → `#the-smallest-event-ibai-ever-organized`
+4. Is Ibai Llanos actually calm, or is it a business strategy? → `#what-kun-agüero-saw-when-ibai-finally-snapped`
+5. Did La Velada del Año VI break Ibai's streaming record? → `#what-ibai-llanos-is-doing-in-2026`
+
+All anchors match the rendered H2 slugs (accents preserved in slugs, consistent with rehype-slug and existing drafts like Shakira's `gerard-piqué` anchor). Verified the full frontmatter parses with gray-matter, and confirmed no em-dashes in the FAQ text.
+
+**Issues / gaps:**
+- `same_as` contains an Instagram profile URL (`instagram.com/ibaillanos/`), which the field spec says belongs only in the social-handle fields. It predates this pass, so per idempotency rules I left it and am flagging it here instead.
+- The second-pass notes mention the Velada VI commentator-table source (Movistar eSports roundup) is still missing from `citations` — that's a creator/editor-stage item, not mine to add without the URL, so it remains open.
+- Body sourcing is healthy (17 citations), so no thin-sourcing flag.
+
+This clears the "faqs frontmatter enrichment stage not yet run" lint WARN noted in the editor pass. The draft's remaining pipeline steps are grading and the publish gate.

@@ -1,0 +1,31 @@
+All em-dashes remaining in the file sit inside HTML comment blocks (working notes/ledgers) or quote-attribution lines, both exempt, so nothing I added trips lint. Final report:
+
+## Cohesion Check Complete: Ibai-Llanos.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+Note on file resolution: the given path `ibai-llanos.md` doesn't exist; I took the exact-name match `src/blog/people/drafts/Ibai-Llanos.md` per the non-interactive defaults.
+
+### Central Thesis
+Ibai is a Type 9 whose steady-the-room reflex built the biggest live audience in internet history, and the same reflex nearly killed him until he turned his organizing superpower on his own body.
+
+The through-line holds essentially end to end: the five-stairs paradox opens it, every section either builds the calm machinery or reveals its cost, and the ending closes both the stairs loop and the "fights he won't join" promise from the meta title. Since the draft scored above 8, I applied the minor fixes myself per the pipeline rules rather than withholding them.
+
+### Changes Made (4 total)
+
+**Transition Fixes (2):**
+- Diagnosis → Childhood: added "A reflex that deep gets built early." so the birth-record opening now follows from the "never once put himself on the card" crescendo instead of starting cold.
+- Weight-loss → Agüero/skeptic: added "The weight story explains where the anger went. It leaves a harder question open: whether the calm was ever real." This states the logical step the piece was silently making, softens the jump back from 2026 to 2023, and sets up the section's closing line ("the real answer to the skeptic") without giving it away.
+
+**Missing-Setup Fixes (2):**
+- Agüero section: "his Queens League team" → "his team in the women's Queens League," since Queens League had never been introduced.
+- 2026 section: "sit-down with Jordi Wild" → "sit-down with Jordi Wild on The Wild Project," so the reader can connect the named person to the outlet quoted throughout (epigraph, CPAP section).
+
+### What Was Preserved
+- All frontmatter, HTML comment ledgers, accordions, pull-quotes, the wage table, and internal links
+- 6 of 8 section transitions untouched (already strong: "escape hatch," "while all of that compounded," the tranquilamente callback, the fight-thread handoff into the ending)
+- The skeptic-then-answer structure and both section closers adjacent to my bridges; bridges were added on the far side so no punchline got diluted
+
+### Remaining Concerns
+None structural. One judgment call I made rather than flagged: the Agüero section sits after the weight-loss arc even though its events (2023) precede Day 1 (June 2024). That's the right argument order, since the CPAP section supplies the evidence that answers the skeptic, and the explicit dates keep the reader oriented, so I bridged it rather than reordering.

@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-30</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -2115,6 +2115,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/jason-sudeikis</loc>
+    <lastmod>2026-07-30</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Jason-Sudeikis.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/jd-vance</loc>
     <lastmod>2026-04-23</lastmod>
     <image:image>
@@ -3730,7 +3737,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-30</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/vincent-van-gogh</loc>

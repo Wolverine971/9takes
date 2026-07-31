@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Ibai-Llanos (Type 9)
+/Users/djwayne/9takes/src/blog/people/drafts/Ibai-Llanos.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 41
+Comparison set (last 8 other Type-9 drafts by date):
+  - britney-spears  (2026-07-29, 35 units)
+  - Mira-Murati  (2026-07-28, 32 units)
+  - caseoh  (2026-07-26, 34 units)
+  - seth-rogen  (2026-07-04, 19 units)
+  - Zac-Efron  (2026-07-02, 21 units)
+  - Brendan-Fraser  (2026-06-29, 23 units)
+  - keith-lee  (2026-06-25, 19 units)
+  - adam-sandler  (2026-06-23, 26 units)
+
+Noise floor over 8569 unit pairs:  median=0  p90=0  p99=0.005  max=0.072
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.072 ###                  Mira-Murati
+  0.070 ###                  caseoh
+  0.046 ##                   seth-rogen
+  0.038 ##                   britney-spears
+  0.037 #                    keith-lee
+  0.026 #                    Brendan-Fraser
+  0.020 #                    adam-sandler
+  0.019 #                    Zac-Efron
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.072   Ibai-Llanos  <->  Mira-Murati
+   TARGET [diagnosis] then clawing at the top of Spanish Twitch
+   OTHER  [diagnosis] The words at the top of this page come from her sworn testimony about the weekend OpenAI's board fired Sam Altman
+
+score 0.070   Ibai-Llanos  <->  caseoh
+   TARGET [diagnosis] in the same March 2022 Infobae roundup
+   OTHER  [diagnosis] "He was really chill." And in the same hour
+
+score 0.046   Ibai-Llanos  <->  seth-rogen
+   TARGET [diagnosis] driven by a need for steadiness and belonging so deep that their own preferences get quietly filed away.
+   OTHER  [diagnosis] They merge with their surroundings so naturally that their own ambitions
+
+score 0.044   Ibai-Llanos  <->  caseoh
+   TARGET [diagnosis] then clawing at the top of Spanish Twitch
+   OTHER  [diagnosis] zero public feuds in four years at the top
+
+score 0.038   Ibai-Llanos  <->  britney-spears
+   TARGET [counter-typing] which pure Nine theory does not predict
+   OTHER  [diagnosis] Celebrity shyness alone does not make the case.
+
+score 0.037   Ibai-Llanos  <->  keith-lee
+   TARGET [diagnosis] The clearest Enneagram fit for Ibai Llanos is Type 9.
+   OTHER  [diagnosis] The popular misread of Keith Lee is "shy guy who got lucky on TikTok." It's not a shy guy.
+
+score 0.033   Ibai-Llanos  <->  caseoh
+   TARGET [diagnosis] then clawing at the top of Spanish Twitch
+   OTHER  [counter-typing] The loudest genre on the internet almost never produces a Peacemaker at the top.
+
+score 0.032   Ibai-Llanos  <->  caseoh
+   TARGET [diagnosis] He has never once put himself on the card.
+   OTHER  [diagnosis] and the ambition has never updated since.
+
+score 0.026   Ibai-Llanos  <->  Brendan-Fraser
+   TARGET [diagnosis] a rival handed Ibai a loaded weapon.
+   OTHER  [diagnosis] What makes Fraser a Nine is the shape of it.
+
+score 0.025   Ibai-Llanos  <->  Brendan-Fraser
+   TARGET [diagnosis] That wiring is scarce among streaming's giants for a reason.
+   OTHER  [diagnosis] long before anyone gave him a reason to use it. ---
+
+score 0.025   Ibai-Llanos  <->  Mira-Murati
+   TARGET [diagnosis] his instinct was to lower the temperature of the entire room
+   OTHER  [diagnosis] and the entire arc of her life runs on the Nine's engine
+
+score 0.024   Ibai-Llanos  <->  Brendan-Fraser
+   TARGET [diagnosis] He needs therapy." Watch what happened there.
+   OTHER  [diagnosis] It made me feel reclusive." He is describing what happened after he was hurt.
+
+------------------------------------------------------------------------------
+Top pair scores 0.072 vs median 0  (~∞x the noise floor).

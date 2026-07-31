@@ -4,12 +4,12 @@ meta_title: 'Jason Sudeikis Enneagram Type 9: The Hidden Anger'
 persona_title: "Comedy's Reluctant Peacekeeper"
 description: 'Why does the kindest man on television keep his own anger so hidden? Jason Sudeikis reads as a textbook Enneagram Type 9. Here is what that explains.'
 author: 'DJ Wayne'
-date: '2026-06-17'
+date: '2026-07-30'
 loc: 'https://9takes.com/personality-analysis/Jason-Sudeikis'
-lastmod: '2026-06-17'
+lastmod: '2026-07-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['comedian', 'movieStar']
 person: 'Jason-Sudeikis'
@@ -68,7 +68,7 @@ faqs:
     answer: 'At CinemaCon in April 2022, Wilde was handed child-custody papers from Sudeikis while presenting onstage. A representative told Entertainment Tonight that month that he had not known when the documents would be delivered and "would never condone her being served in such an inappropriate manner." The analysis reads the episode not as cruelty but as the failure mode of a conflict-avoider: a man whose whole personality is built to dodge direct confrontation handling a rupture through lawyers and process rather than a hard conversation.'
     anchor: 'how-jason-sudeikis-fights-when-he-can-t-be-a-goldfish'
   - question: 'Is Jason Sudeikis a Type 2 instead of a Type 9?'
-    answer: 'Type 2, the Helper, is the strongest alternate case, since Ted heals everyone and the real Sudeikis emails grieving strangers. But a Two''s engine is being needed and indispensable, tracking the debt of giving. Sudeikis''s signature is different: self-erasure for the sake of harmony, conflict-avoidance, and disowned anger. He does not work to be needed; he works to keep the peace and stay merged with the group. The helping is the surface; the keeping-together is the core, which is why Nine fits better.'
+    answer: 'Type 2, the Helper, is the strongest alternate case, since Ted heals everyone and the real Sudeikis emails grieving strangers. The difference shows up in what he wants back. A Helper gives and then watches to see whether the giving landed, because the ledger is the point. Sudeikis hands the line over and leaves the room: nine SNL seasons setting up other people''s laughs, a series built so the ensemble could shine, a man who calls himself the boring one with no visible wish to be corrected. He is not buying a place in anyone''s life. He is keeping the room level so nobody in it has to fight, which is why Nine fits better.'
     anchor: 'counterarguments-why-sudeikis-might-be-a-type-2'
 production_pretext:
   status: draft
@@ -85,25 +85,22 @@ production_pretext:
 path: src/blog/people/drafts/Jason-Sudeikis.md
 content_quality:
   hook: 9
-  enneagram: 8
+  enneagram: 9
   evidence: 8
-  writing: 8
-  originality: 7
+  writing: 8.5
+  originality: 8
   discoverability: 9
-  overall: 8.1
-  first_overall: 8.8
-  regrade_overall: 8.1
-  grade_stability_delta: 0.7
-  letter: B
+  overall: 8.5
+  first_overall: 8.5
+  regrade_overall: 8.5
+  grade_stability_delta: 0.0
+  letter: B+
   rubric_version: 2
-  caps_applied:
-    - contrast_pair_overuse
-    - same_type_reuse
-    - house_empathy_turn
+  caps_applied: []
   confidence: high
   anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: false
-  graded_at: '2026-07-27'
+  graded_at: '2026-07-30'
 ---
 
 <!-- TESTIMONY LEDGER
@@ -220,7 +217,9 @@ Because the anger is the part Nines cannot reach. Sudeikis described his own rel
 
 <p class="inner-thought">A little toot. Not a confrontation. Not a fight you finish. Just enough pressure released to keep the rest of it sealed.</p>
 
-This is the empathy turn the CinemaCon moment demands. It is easy to read the custody papers as cruelty from a wounded ego. Read it instead as the failure mode of a man who never learned to fight in the open. He would "never condone" serving them that way, and almost certainly didn't engineer the staging. But the impulse underneath, to handle the rupture through lawyers and process rather than through a hard, direct conversation, is exactly what you would expect from someone whose entire personality is built to avoid the confrontation in the first place. The settlement landed in 2023 at a reported $27,500 a month in support. Clean on paper. The fight itself never quite happened out loud, which is the point. When a Nine cannot be a goldfish, the anger does not disappear. It finds a back channel.
+He almost certainly did not engineer the staging, and his representative said as much within the day. What the moment exposes is the machinery underneath it. A rupture that size wanted a hard conversation in a small room. It got lawyers, a process, a courier, and a stage. The settlement landed in 2023 at a reported $27,500 a month in support. Clean on paper. Nobody ever had to raise a voice.
+
+That is what the goldfish costs him. Ten seconds of memory is a beautiful thing to hand a team that just lost, and a terrible way to end nine years with someone. The anger does not evaporate because a Nine declines to feel it. It goes looking for a channel that does not require him to be standing there when it lands.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Jason Sudeikis</summary>
@@ -229,7 +228,7 @@ This is the empathy turn the CinemaCon moment demands. It is easy to read the cu
 
 ### Sudeikis's Wing: 9w1
 
-The evidence points to a One wing. Ted Lasso is not just a nice man, he is a <em>moral</em> man, an earnest believer in doing the right thing for its own sake, and Sudeikis built that on purpose. His perfectionism shows up in the work, not the temperament: castmates describe a writer who rewrites lines until the moment they shoot, chasing a rightness only he can hear. That blend of easygoing warmth with a quiet, insistent inner standard is the 9w1 signature. The Eight wing is present but subordinate, surfacing in his genuine athletic competitiveness and the steel that can serve legal papers when pushed. For more on how wings shade a core type, see <a href="/enneagram-corner/enneagram-wings-complete-guide">the wings guide</a>.
+The evidence points to a One wing. Ted Lasso believes in doing the right thing for its own sake, and Sudeikis built him that way on purpose, which means the kindness sits downstream of a standard. The perfectionism stays inside the work. Castmates describe a writer who rewrites lines until the moment they shoot, chasing a rightness only he can hear, while the man holding the pen stays easy in the room. That blend of easygoing warmth with a quiet, insistent inner standard is the 9w1 signature. The Eight wing is present but subordinate, surfacing in his genuine athletic competitiveness and the steel that can serve legal papers when pushed. For more on how wings shade a core type, see <a href="/enneagram-corner/enneagram-wings-complete-guide">the wings guide</a>.
 
 ### Sudeikis's Instinctual Subtype: likely social (so)
 
@@ -241,7 +240,7 @@ Under stress, Nines move toward Type 6: anxious, doubting, looking for reasons. 
 
 ### Counterarguments: Why Sudeikis Might Be a Type 2
 
-The strongest alternate case is Type 2, the Helper. Ted heals everyone, gives constantly, remembers everyone's name, and the real Sudeikis emails grieving strangers. That is real, and it is Two-shaped. But the Two's engine is being needed and indispensable, reshaping the self to meet others' needs and quietly tracking the debt. Sudeikis's signature is different. It is self-erasure for the sake of harmony, conflict-avoidance, and disowned anger, not the pursuit of love through giving. He does not work to be needed. He works to keep the peace and stay merged with the group. The helping is the surface. The keeping-together is the core. That is why Nine fits better than Two.
+The strongest alternate case is Type 2, the Helper. Ted heals everyone, gives constantly, remembers everyone's name, and the real Sudeikis emails grieving strangers. That is real, and it is Two-shaped. The difference shows up in what he wants back. A Helper gives and then watches to see whether the giving landed, because the ledger is the whole point. Sudeikis hands the line over and leaves the room. Nine seasons setting up other people's laughs on SNL, a series built so the ensemble could shine, and a man who calls himself the boring one without any visible wish to be corrected. He is not buying a place in anyone's life. He is keeping the room level so nobody in it has to fight. The helping is the surface. The keeping-together is the core. That is why Nine fits better than Two.
 </div>
 </details>
 

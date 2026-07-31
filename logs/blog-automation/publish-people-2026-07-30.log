@@ -1,0 +1,407 @@
+[2026-07-30 06:00:00] People blog publisher starting
+Selected for publish: jack-antonoff (src/blog/people/drafts/Jack-Antonoff.md)
+Content grade: 8.9
+Word count: 4202
+Full image: /Users/djwayne/9takes/static/types/6s/Jack-Antonoff.webp
+Thumbnail image: /Users/djwayne/9takes/static/types/6s/s-Jack-Antonoff.webp
+Applying 1 people blog entry...
+Running pnpm gen:all...
+$ node scripts/gen-all.js
+
+▶ Incremental: 193 changed file(s)
+
+  • docs/blog-automation/backlog-queue.json
+  • docs/blog-automation/override.json
+  • docs/content-analysis/grades/Tyler1.review.md
+  • docs/data/corpus-stats.md
+  • scripts/blog-source-audit.mjs
+  • src/blog/people/drafts/Jack-Antonoff.md
+  • src/blog/people/drafts/Peter-Thiel.md
+  • src/blog/people/drafts/Tyler1.md
+  • src/lib/components/molecules/famousTypes.ts
+  • src/lib/data/corpus-stats.json
+  • static/sitemap.xml
+  • .codex-tmp/peter-thiel-barebones/assets/elon.jpg
+  • .codex-tmp/peter-thiel-barebones/assets/hogan.jpg
+  • .codex-tmp/peter-thiel-barebones/assets/mafia.jpg
+  • .codex-tmp/peter-thiel-barebones/assets/thiel.jpg
+  • .codex-tmp/peter-thiel-barebones/assets/tim-thiel.jpg
+  • .codex-tmp/peter-thiel-barebones/assets/trump.jpg
+  • .codex-tmp/peter-thiel-barebones/assets/vance.jpg
+  • .codex-tmp/peter-thiel-barebones/assets/zuckerberg.jpg
+  • .codex-tmp/peter-thiel-barebones/montage-final.png
+  • .codex-tmp/peter-thiel-barebones/montage.png
+  • .codex-tmp/peter-thiel-barebones/output-issues-final.json
+  • .codex-tmp/peter-thiel-barebones/output-issues.json
+  • .codex-tmp/peter-thiel-barebones/raw-barebones-final.json
+  • .codex-tmp/peter-thiel-barebones/raw-barebones.json
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s01.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s02.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s03.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s04.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s05.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s06.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s07.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s08.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s09.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s10.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s11.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s12.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s13.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s14.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s15.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s16.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s17.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s18.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s19.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s20.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s21.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s22.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s23.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s24.png
+  • .codex-tmp/peter-thiel-barebones/thumbs/bb_s25.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/deck-montage.webp
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-01.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-01.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-02.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-02.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-03.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-03.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-04.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-04.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-05.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-05.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-06.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-06.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-07.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-07.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-08.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-08.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-09.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-09.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-10.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-10.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-11.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-11.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-12.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-12.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-13.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-13.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-14.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-14.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-15.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-15.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-16.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-16.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-17.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-17.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-18.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-18.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-19.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-19.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-20.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-20.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-21.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-21.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-22.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-22.png
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-23.layout.json
+  • .codex-tmp/peter-thiel-deck/artifact-preview/slide-23.png
+  • .codex-tmp/peter-thiel-deck/assets/elon-musk.jpg
+  • .codex-tmp/peter-thiel-deck/assets/hulk-hogan.jpg
+  • .codex-tmp/peter-thiel-deck/assets/mark-zuckerberg.jpg
+  • .codex-tmp/peter-thiel-deck/assets/peter-thiel-rnc.jpg
+  • .codex-tmp/peter-thiel-deck/assets/peter-thiel.jpg
+  • .codex-tmp/peter-thiel-deck/assets/tim-ferriss.jpg
+  • .codex-tmp/peter-thiel-deck/build_deck.mjs
+  • .codex-tmp/peter-thiel-deck/montage.png
+  • .codex-tmp/peter-thiel-deck/package.json
+  • .codex-tmp/peter-thiel-deck/rendered-montage.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-1.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-10.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-11.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-12.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-13.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-14.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-15.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-16.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-17.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-18.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-19.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-2.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-20.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-21.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-22.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-23.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-3.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-4.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-5.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-6.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-7.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-8.png
+  • .codex-tmp/peter-thiel-deck/rendered/slide-9.png
+  • .codex-tmp/peter-thiel-deck/video-kSHehMhSUq4.txt
+  • .codex-tmp/peter-thiel-deck/video-wwJV_NuN43Y.txt
+  • .codex-tmp/peter-thiel-google-edit/design-catalog-final.md
+  • .codex-tmp/peter-thiel-google-edit/design-catalog.md
+  • .codex-tmp/peter-thiel-google-edit/design-system-final.json
+  • .codex-tmp/peter-thiel-google-edit/design-system.json
+  • .codex-tmp/peter-thiel-google-edit/final-montage.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-01-p1.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-02-p2.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-03-p3.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-04-p4.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-05-p5.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-06-p6.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-07-ppmafia1.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-08-p7.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-09-p8.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-10-p9.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-11-p10.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-12-p11.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-13-p12.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-14-p13.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-15-p14.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-16-p15.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-17-p16.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-18-p17.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-19-p18.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-20-p19.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-21-p20.png
+  • .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-22-p21.png
+  • .codex-tmp/peter-thiel-google-edit/output-issues.json
+  • .codex-tmp/peter-thiel-google-edit/raw-output-final.json
+  • .codex-tmp/peter-thiel-google-edit/raw-output-preorder.json
+  • .codex-tmp/peter-thiel-google-edit/thumb-p2.png
+  • .codex-tmp/peter-thiel-google-edit/thumb-p5.png
+  • .codex-tmp/peter-thiel-google-edit/thumb-p6.png
+  • .codex-tmp/peter-thiel-google-edit/thumb-p7.png
+  • .codex-tmp/peter-thiel-google-edit/thumb-p8.png
+  • .codex-tmp/peter-thiel-google-edit/thumb-ppmafia1.png
+  • Peter_Thiel_Secrets_Fear_and_Power.pptx
+  • Peter_Thiel_Secrets_Fear_and_Power.pptx.inspect.ndjson
+  • docs/content-analysis/grades/Ibai-Llanos.review.md
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/1_create.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/2_fresh_eyes.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/3_second_pass.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/4_cohesion.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/5_editor_pass.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.5_lint.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.6_quality_report.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.7_source_audit.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.8_same_type_similarity.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6_enrich_frontmatter.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/7_grade.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/9.2_record_grade_stability.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/9_regrade.log
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/stage-summary.tsv
+  • docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/summary.json
+  • logs/blog-automation/cron-2026-07-30.log
+  • logs/blog-automation/publish-people-2026-07-30.log
+  • peter-thiel-tiktok-story-arc.md
+  • src/blog/people/drafts/Ibai-Llanos.md
+  • youtube-transcripts/2026-07-30-evole-hormiguero-sobre-ibai.md
+  • youtube-transcripts/2026-07-30-ibai-asi-perdi-50-kilos.md
+  • youtube-transcripts/2026-07-30-ibai-wild-project-si-no-adelgazaba.md
+
+docs/blog-automation/backlog-queue.json 42ms
+docs/blog-automation/override.json 1ms
+docs/content-analysis/grades/Tyler1.review.md 20ms (unchanged)
+scripts/blog-source-audit.mjs 355ms (unchanged)
+.codex-tmp/peter-thiel-barebones/output-issues-final.json 1ms (unchanged)
+.codex-tmp/peter-thiel-barebones/output-issues.json 0ms (unchanged)
+.codex-tmp/peter-thiel-barebones/raw-barebones-final.json 182ms (unchanged)
+.codex-tmp/peter-thiel-barebones/raw-barebones.json 141ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-01.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-02.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-03.layout.json 4ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-04.layout.json 6ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-05.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-06.layout.json 4ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-07.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-08.layout.json 5ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-09.layout.json 2ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-10.layout.json 4ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-11.layout.json 6ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-12.layout.json 4ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-13.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-14.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-15.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-16.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-17.layout.json 4ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-18.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-19.layout.json 4ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-20.layout.json 6ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-21.layout.json 4ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-22.layout.json 5ms (unchanged)
+.codex-tmp/peter-thiel-deck/artifact-preview/slide-23.layout.json 3ms (unchanged)
+.codex-tmp/peter-thiel-deck/build_deck.mjs 28ms (unchanged)
+.codex-tmp/peter-thiel-deck/package.json 0ms (unchanged)
+.codex-tmp/peter-thiel-google-edit/design-catalog-final.md 11ms (unchanged)
+.codex-tmp/peter-thiel-google-edit/design-catalog.md 5ms (unchanged)
+.codex-tmp/peter-thiel-google-edit/design-system-final.json 62ms (unchanged)
+.codex-tmp/peter-thiel-google-edit/design-system.json 58ms (unchanged)
+.codex-tmp/peter-thiel-google-edit/output-issues.json 0ms (unchanged)
+.codex-tmp/peter-thiel-google-edit/raw-output-final.json 293ms (unchanged)
+.codex-tmp/peter-thiel-google-edit/raw-output-preorder.json 363ms (unchanged)
+docs/content-analysis/grades/Ibai-Llanos.review.md 6ms
+docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/summary.json 0ms
+peter-thiel-tiktok-story-arc.md 11ms (unchanged)
+$ tsx scripts/labelFilePaths.ts --files docs/blog-automation/backlog-queue.json docs/blog-automation/override.json docs/content-analysis/grades/Tyler1.review.md docs/data/corpus-stats.md scripts/blog-source-audit.mjs src/blog/people/drafts/Jack-Antonoff.md src/blog/people/drafts/Peter-Thiel.md src/blog/people/drafts/Tyler1.md src/lib/components/molecules/famousTypes.ts src/lib/data/corpus-stats.json static/sitemap.xml .codex-tmp/peter-thiel-barebones/assets/elon.jpg .codex-tmp/peter-thiel-barebones/assets/hogan.jpg .codex-tmp/peter-thiel-barebones/assets/mafia.jpg .codex-tmp/peter-thiel-barebones/assets/thiel.jpg .codex-tmp/peter-thiel-barebones/assets/tim-thiel.jpg .codex-tmp/peter-thiel-barebones/assets/trump.jpg .codex-tmp/peter-thiel-barebones/assets/vance.jpg .codex-tmp/peter-thiel-barebones/assets/zuckerberg.jpg .codex-tmp/peter-thiel-barebones/montage-final.png .codex-tmp/peter-thiel-barebones/montage.png .codex-tmp/peter-thiel-barebones/output-issues-final.json .codex-tmp/peter-thiel-barebones/output-issues.json .codex-tmp/peter-thiel-barebones/raw-barebones-final.json .codex-tmp/peter-thiel-barebones/raw-barebones.json .codex-tmp/peter-thiel-barebones/thumbs/bb_s01.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s02.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s03.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s04.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s05.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s06.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s07.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s08.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s09.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s10.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s11.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s12.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s13.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s14.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s15.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s16.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s17.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s18.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s19.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s20.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s21.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s22.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s23.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s24.png .codex-tmp/peter-thiel-barebones/thumbs/bb_s25.png .codex-tmp/peter-thiel-deck/artifact-preview/deck-montage.webp .codex-tmp/peter-thiel-deck/artifact-preview/slide-01.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-01.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-02.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-02.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-03.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-03.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-04.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-04.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-05.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-05.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-06.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-06.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-07.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-07.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-08.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-08.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-09.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-09.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-10.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-10.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-11.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-11.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-12.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-12.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-13.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-13.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-14.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-14.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-15.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-15.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-16.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-16.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-17.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-17.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-18.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-18.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-19.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-19.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-20.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-20.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-21.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-21.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-22.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-22.png .codex-tmp/peter-thiel-deck/artifact-preview/slide-23.layout.json .codex-tmp/peter-thiel-deck/artifact-preview/slide-23.png .codex-tmp/peter-thiel-deck/assets/elon-musk.jpg .codex-tmp/peter-thiel-deck/assets/hulk-hogan.jpg .codex-tmp/peter-thiel-deck/assets/mark-zuckerberg.jpg .codex-tmp/peter-thiel-deck/assets/peter-thiel-rnc.jpg .codex-tmp/peter-thiel-deck/assets/peter-thiel.jpg .codex-tmp/peter-thiel-deck/assets/tim-ferriss.jpg .codex-tmp/peter-thiel-deck/build_deck.mjs .codex-tmp/peter-thiel-deck/montage.png .codex-tmp/peter-thiel-deck/package.json .codex-tmp/peter-thiel-deck/rendered-montage.png .codex-tmp/peter-thiel-deck/rendered/slide-1.png .codex-tmp/peter-thiel-deck/rendered/slide-10.png .codex-tmp/peter-thiel-deck/rendered/slide-11.png .codex-tmp/peter-thiel-deck/rendered/slide-12.png .codex-tmp/peter-thiel-deck/rendered/slide-13.png .codex-tmp/peter-thiel-deck/rendered/slide-14.png .codex-tmp/peter-thiel-deck/rendered/slide-15.png .codex-tmp/peter-thiel-deck/rendered/slide-16.png .codex-tmp/peter-thiel-deck/rendered/slide-17.png .codex-tmp/peter-thiel-deck/rendered/slide-18.png .codex-tmp/peter-thiel-deck/rendered/slide-19.png .codex-tmp/peter-thiel-deck/rendered/slide-2.png .codex-tmp/peter-thiel-deck/rendered/slide-20.png .codex-tmp/peter-thiel-deck/rendered/slide-21.png .codex-tmp/peter-thiel-deck/rendered/slide-22.png .codex-tmp/peter-thiel-deck/rendered/slide-23.png .codex-tmp/peter-thiel-deck/rendered/slide-3.png .codex-tmp/peter-thiel-deck/rendered/slide-4.png .codex-tmp/peter-thiel-deck/rendered/slide-5.png .codex-tmp/peter-thiel-deck/rendered/slide-6.png .codex-tmp/peter-thiel-deck/rendered/slide-7.png .codex-tmp/peter-thiel-deck/rendered/slide-8.png .codex-tmp/peter-thiel-deck/rendered/slide-9.png .codex-tmp/peter-thiel-deck/video-kSHehMhSUq4.txt .codex-tmp/peter-thiel-deck/video-wwJV_NuN43Y.txt .codex-tmp/peter-thiel-google-edit/design-catalog-final.md .codex-tmp/peter-thiel-google-edit/design-catalog.md .codex-tmp/peter-thiel-google-edit/design-system-final.json .codex-tmp/peter-thiel-google-edit/design-system.json .codex-tmp/peter-thiel-google-edit/final-montage.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-01-p1.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-02-p2.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-03-p3.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-04-p4.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-05-p5.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-06-p6.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-07-ppmafia1.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-08-p7.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-09-p8.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-10-p9.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-11-p10.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-12-p11.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-13-p12.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-14-p13.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-15-p14.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-16-p15.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-17-p16.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-18-p17.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-19-p18.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-20-p19.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-21-p20.png .codex-tmp/peter-thiel-google-edit/final-thumbs/slide-22-p21.png .codex-tmp/peter-thiel-google-edit/output-issues.json .codex-tmp/peter-thiel-google-edit/raw-output-final.json .codex-tmp/peter-thiel-google-edit/raw-output-preorder.json .codex-tmp/peter-thiel-google-edit/thumb-p2.png .codex-tmp/peter-thiel-google-edit/thumb-p5.png .codex-tmp/peter-thiel-google-edit/thumb-p6.png .codex-tmp/peter-thiel-google-edit/thumb-p7.png .codex-tmp/peter-thiel-google-edit/thumb-p8.png .codex-tmp/peter-thiel-google-edit/thumb-ppmafia1.png Peter_Thiel_Secrets_Fear_and_Power.pptx Peter_Thiel_Secrets_Fear_and_Power.pptx.inspect.ndjson docs/content-analysis/grades/Ibai-Llanos.review.md docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/1_create.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/2_fresh_eyes.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/3_second_pass.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/4_cohesion.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/5_editor_pass.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.5_lint.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.6_quality_report.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.7_source_audit.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6.8_same_type_similarity.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/6_enrich_frontmatter.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/7_grade.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/9.2_record_grade_stability.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/9_regrade.log docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/stage-summary.tsv docs/content-analysis/pipeline-logs/2026-07-30_020001_ibai-llanos/summary.json logs/blog-automation/cron-2026-07-30.log logs/blog-automation/publish-people-2026-07-30.log peter-thiel-tiktok-story-arc.md src/blog/people/drafts/Ibai-Llanos.md youtube-transcripts/2026-07-30-evole-hormiguero-sobre-ibai.md youtube-transcripts/2026-07-30-ibai-asi-perdi-50-kilos.md youtube-transcripts/2026-07-30-ibai-wild-project-si-no-adelgazaba.md
+Starting file path labeling in: /Users/djwayne/9takes
+Supported file types: svelte, html, xml, md, ts, js, mjs, jsx, tsx, jsonc, css, scss, sass, less, py, sh, bash, sql, yml, yaml
+Labeling 193 changed file(s)
+
+Updated: docs/data/corpus-stats.md
+Updated: static/sitemap.xml
+Updated: docs/content-analysis/grades/Ibai-Llanos.review.md
+Updated: src/blog/people/drafts/Ibai-Llanos.md
+Updated: youtube-transcripts/2026-07-30-evole-hormiguero-sobre-ibai.md
+Updated: youtube-transcripts/2026-07-30-ibai-asi-perdi-50-kilos.md
+Updated: youtube-transcripts/2026-07-30-ibai-wild-project-si-no-adelgazaba.md
+
+==================================================
+Processed 17 files
+Updated 7 files
+Completed in 9ms
+
+▶ Running generators
+
+$ node scripts/generate-types.js
+🔧 Generating Supabase database types...
+⚠️  Skipping database type regeneration: SUPABASE_DB_URL requires Docker and SUPABASE_ACCESS_TOKEN is not set. Keeping existing database.types.ts.
+$ node scripts/generate-personality-image-slug-map.js
+Wrote 456 personality image slug mappings to src/lib/generated/personalityImageSlugMap.json
+$ node scripts/generate-famous-types.js
+🚀 Generating famousTypes.ts...
+📊 Found 538 famous people in database
+   Type 1: 32 people (24 published, 25 with images)
+   Type 2: 33 people (27 published, 27 with images)
+   Type 3: 109 people (70 published, 80 with images)
+   Type 4: 73 people (58 published, 64 with images)
+   Type 5: 41 people (33 published, 36 with images)
+   Type 6: 55 people (44 published, 49 with images)
+   Type 7: 78 people (59 published, 65 with images)
+   Type 8: 55 people (45 published, 46 with images)
+   Type 9: 57 people (40 published, 46 with images)
+✅ famousTypes.ts generated successfully
+📄 File size: 96.75 KB
+$ node scripts/generate-corpus-stats.js
+🚀 Generating 9takes Corpus Stats…
+📊 Fetched 538 rows from blogs_famous_people
+✅ Wrote src/lib/data/corpus-stats.json
+✅ Wrote docs/data/corpus-stats.md
+   Published: 400  |  Domains reported: 7  |  Claims: 9
+$ node scripts/generate-sitemap.js
+Generating sitemap...
+Sitemap generated at static/sitemap.xml (143.53 KB)
+Total URLs: 663
+$ node scripts/generate-crosslink-report.js
+🔍 Analyzing blog crosslinks...
+
+Found 198 blog files to analyze...
+
+✅ Report generated: /Users/djwayne/9takes/docs/BLOG-CROSSLINK-INDEX.md
+
+📊 Quick Stats:
+   Total posts: 192
+   Published: 171 | Unpublished: 21
+   Posts with 0 outgoing: 28
+   Posts with 0 incoming: 47
+   Isolated (0/0): 26
+$ node scripts/index-blogs-to-supabase.js --if-env
+======================================================================
+Blog Content Indexer for Supabase - ALL DIRECTORIES
+======================================================================
+
+Directories to scan: 11
+  - src/blog/enneagram -> /enneagram-corner
+  - src/blog/community -> /community
+  - src/blog/guides -> /how-to-guides
+  - src/blog/pop-culture -> /pop-culture
+  - src/blog/topical -> /blog/topical
+  - src/blog/life-situations -> /enneagram-corner
+  - src/blog/generational -> /enneagram-corner
+  - src/blog/historical -> /enneagram-corner
+  - src/blog/situational -> /enneagram-corner
+  - src/blog/overview -> /enneagram-corner
+  - src/blog/life-style -> /enneagram-corner
+
+──────────────────────────────────────────────────
+Scanning: src/blog/enneagram
+Found 104 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/community
+Found 18 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/guides
+Found 14 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/pop-culture
+Found 63 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/topical
+Found 1 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/life-situations
+Found 1 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/generational
+Found 0 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/historical
+Found 0 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/situational
+Found 0 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/overview
+Found 0 markdown files
+
+──────────────────────────────────────────────────
+Scanning: src/blog/life-style
+Found 0 markdown files
+
+──────────────────────────────────────────────────
+Category Summary:
+  enneagram: 104 files
+  pop-culture: 63 files
+  community: 18 files
+  guides: 14 files
+  topical: 1 files
+  life-situations: 1 files
+
+Total entries to process: 158
+
+Processing 158 blog entries...
+
+======================================================================
+FINAL SUMMARY
+======================================================================
+  Inserted:    0
+  Updated:     0
+  Skipped:     158
+  Unpublished: 0
+  Errors:      0
+======================================================================
+
+Done!
+
+✓ gen:all complete
+
+
+Publish complete.
+Person: jack-antonoff
+Date/lastmod: 2026-07-30
+Supabase row id: 1091
+Published: true
+[2026-07-30 06:00:30] People blog publisher finished successfully

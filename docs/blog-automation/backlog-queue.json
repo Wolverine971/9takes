@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-29T06:00:02Z",
+	"lastUpdated": "2026-07-30T06:58:28Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "ibai-llanos",
-			"displayName": "Ibai Llanos",
-			"type": null,
-			"priority": 75,
-			"priorityReason": "Second most-followed streamer on Twitch globally and holder of the platform concurrency record (9.33M devices, La Velada del Año V). Zero Spanish-language creator coverage in the corpus today.",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-25",
-			"retryCount": 2,
-			"strategicValue": "creator-economy-cluster"
-		},
 		{
 			"name": "ksi",
 			"displayName": "KSI",
@@ -411,6 +398,28 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "ibai-llanos",
+			"displayName": "Ibai Llanos",
+			"type": null,
+			"priority": 75,
+			"priorityReason": "Second most-followed streamer on Twitch globally and holder of the platform concurrency record (9.33M devices, La Velada del Año V). Zero Spanish-language creator coverage in the corpus today.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 2,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-07-30T06:00:01Z",
+			"completedAt": "2026-07-30T06:58:28Z",
+			"contentGrade": "8.6",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~58 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": ["missing_full_image", "missing_thumbnail_image"]
+		},
 		{
 			"name": "plaqueboymax",
 			"displayName": "PlaqueBoyMax",

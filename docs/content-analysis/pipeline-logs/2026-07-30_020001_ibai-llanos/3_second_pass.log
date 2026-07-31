@@ -1,0 +1,15 @@
+Second pass complete on `src/blog/people/drafts/Ibai-Llanos.md`. The source audit went from 2 untagged / 2 vague to **3/3 inline, 0 vague, 0 untagged**, and lint passes with 0 fails.
+
+**Source traceability (fixed first, per the command):**
+- The Xokas-drama quotes (Auronplay's "number one" line and Ibai's "he needs therapy") are now pinned to a March 2022 Infobae roundup — I fetched the article and confirmed both quotes appear in it before citing.
+- *Charlando Tranquilamente* is now italicized as a title instead of quoted, so it no longer registers as an unattributed quote.
+- I added `The Wild Project`, `Infobae`, and `El Español` to the outlet list in `scripts/blog-source-audit.mjs`, following the script's own documented per-pass precedent (CaseOh/Jynxzi passes) — without Spanish-language press in that list, every Spanish-creator quote grades untagged no matter how well sourced.
+
+**Substantive changes (from the fresh-eyes notes):**
+- **Added the missing 2019–2020 bridge** opening the empire section: G2 in February 2020, the lockdown LaLiga Santander Challenge (1M+ viewers, €180k raised), and the New Year's bells stream (552,345 peak — verified in the cited El Español piece). This also fixed a factual error the fresh-eyes reviewer grazed: the draft called Ibai "newly independent" in February 2021, when he was at G2; the bridge now explains why Piqué was "already following him."
+- **Shared-house/Ander payoff** added beside the tax paragraph: the Eto'o mansion filled with his broke-era caster friends, the December 2021 exit that turned the house into KOI's HQ, and Ander Cortés at the commentary table of every Velada including the one five days ago.
+- **KOI's rocky 2023** added to the Agüero section as thesis evidence rather than a detour: Infinite Reality's non-payments, the reported ~€3M of salaries he quietly covered himself, the November split — which sets up the group-chat snap as anger with nowhere sanctioned to go.
+- **A funny beat on the page**: Ibai mock-announcing "miracle diet, lose 40 kilos in just two weeks" in his own December 2024 routine video. I deliberately avoided the "I look like your finger" line from the Wild Project transcript — checking context showed it's Jordi Wild's joke, not Ibai's (the unlabeled-transcript attribution trap).
+- **Trims**: the intro no longer restates the epigraph verbatim; the invoice/ledger metaphor family is down from four uses to two; the second "domesticated" became "tamed"; plus a five-stairs callback now closes the loop in the final section.
+
+**Verification after the pass:** lint 0 fail / 2 warns (missing `faqs` frontmatter belongs to the enrich stage; body is 4,051 words against the 4,500 ceiling), and the same-type similarity scan is unchanged at 0.072 top pair — the new material introduced no formula drift. Nothing unresolved that blocks the next pipeline stage.
