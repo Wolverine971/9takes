@@ -1,0 +1,30 @@
+[2026-07-31 08:00:00] [INFO] Instagram warmup cron starting for @9takesdotcom
+@9takesdotcom Instagram warmup complete for 2026-07-31.
+
+**Queued opportunities:** 5
+**Profiles created:** 1 (@myadhdtherapist)
+**Profiles updated:** 4 (alignedsoulco, thesecurerelationship, mindfulmft, candicemichelleenneagram)
+**New accounts discovered:** 2 strategic (+1 new follower logged)
+**Saves dropped to inbox/:** 3
+
+**Top reply priorities:**
+1. **@alignedsoulco** – "Childhood Validation" per-type carousel caught at **36 minutes** (122 likes already — her third viral-format post in 5 weeks). Queued a vulnerable-register 8 answer + a reply to known rising peer @throughyourlensenneagram in the thread. Standing rule intact: the owed "You are just one person 😜" reply posts first.
+2. **@myadhdtherapist** – **The ADHD/Type-7 room gap is finally closed.** After three failed handle probes, IG keyword search + DOM extraction found Alexis Saville, LICSW (29K followers, 44K-like Explore reach, "ADHD expert for the high functioning"). First touch queued on her fresh "invisible hyperactivity" reel (7 comments, Level 0).
+3. **@mindfulmft** – discernment reel (94 comments → comment-level): two strangers living our exact "same behavior, different engine" question.
+
+**Top saves:**
+1. `DbdJ47Bll6j` @alignedsoulco – per-type unmet-wish mirror; instant self-ID thread mechanic worth copying for the arc restart
+2. `DaLYfj-jhPO` @myadhdtherapist – "competence as camouflage" viral (44K/997) + replicable "Hills I Die On" series format
+3. `DbbXguPhR2q` @mindfulmft – our core thesis (avoidance vs. self-care under one behavior) stated by a big adjacent creator
+
+**Worth knowing:**
+- **New follower:** @helenaputnamwalker (1h ago) — private personal account, logged only.
+- **New room-sourcing pattern documented:** keyword search → DOM link extraction → follow the *author*, not the post. Works where hashtag pages stay dead.
+- **The bottleneck is now the reply leg, not sourcing:** the 07-30 queue never executed, and alignedsoulco alone has 4 queued-unposted items. Today's doc explicitly supersedes stale items with per-account caps — but if `/instagram-reply` doesn't run today, tomorrow's warmup should trim inventory rather than add more.
+
+**Next steps:**
+- `/instagram-reply docs/instagram/daily-engagement/2026-07-31_instagram-warmup.md` (standing orders first)
+- `/instagram-saves triage` (3 new saves in inbox)
+
+Warmup doc: `docs/instagram/daily-engagement/2026-07-31_instagram-warmup.md`
+[2026-07-31 08:12:35] [INFO] claude exited with code 0

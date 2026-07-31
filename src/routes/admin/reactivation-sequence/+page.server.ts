@@ -125,65 +125,6 @@ type CandidatePreviewSummary = {
 	totalProfilesChecked: number;
 };
 
-type ReactivationEnrollmentCounts = {
-	total: number;
-	active: number;
-	processing: number;
-	completed: number;
-	exited: number;
-	errored: number;
-	rePermissioned: number;
-	reactivatedClick: number;
-};
-
-async function loadReactivationEnrollmentCounts(
-	supabase: App.Locals['supabase'],
-	sequenceIds: string[]
-): Promise<ReactivationEnrollmentCounts> {
-	if (sequenceIds.length === 0) {
-		return {
-			total: 0,
-			active: 0,
-			processing: 0,
-			completed: 0,
-			exited: 0,
-			errored: 0,
-			rePermissioned: 0,
-			reactivatedClick: 0
-		};
-	}
-
-	const baseQuery = () =>
-		supabase
-			.from('email_sequence_enrollments')
-			.select('id', { count: 'exact', head: true })
-			.in('sequence_id', sequenceIds);
-	const results = await Promise.all([
-		baseQuery(),
-		baseQuery().eq('status', 'active'),
-		baseQuery().eq('status', 'processing'),
-		baseQuery().eq('status', 'completed'),
-		baseQuery().eq('status', 'exited'),
-		baseQuery().eq('status', 'errored'),
-		baseQuery().eq('exit_reason', 're_permissioned'),
-		baseQuery().eq('exit_reason', 'reactivated_click')
-	]);
-	const failed = results.find((result) => result.error);
-	if (failed?.error) throw failed.error;
-	const count = (index: number) => results[index]?.count ?? 0;
-
-	return {
-		total: count(0),
-		active: count(1),
-		processing: count(2),
-		completed: count(3),
-		exited: count(4),
-		errored: count(5),
-		rePermissioned: count(6),
-		reactivatedClick: count(7)
-	};
-}
-
 function isReactivationSequenceKey(value: string): value is ReactivationSequenceKey {
 	return REACTIVATION_SEQUENCE_KEYS.includes(value as ReactivationSequenceKey);
 }
@@ -406,48 +347,42 @@ export const load: PageServerLoad = async ({ locals }) => {
 	const sequenceIds = sequences.map((sequence) => sequence.id);
 	const sequenceById = new Map(sequences.map((sequence) => [sequence.id, sequence]));
 
-	const [
-		stepsResult,
-		enrollmentsResult,
-		activityEnrollmentsResult,
-		candidatePreview,
-		enrollmentCounts
-	] = await Promise.all([
-		sequenceIds.length
-			? supabase
-					.from('email_sequence_steps')
-					.select(
-						'id, sequence_id, step_number, subject, html_content, plain_text, delay_days_after_previous, updated_at'
-					)
-					.in('sequence_id', sequenceIds)
-					.order('step_number', { ascending: true })
-			: Promise.resolve({ data: [], error: null }),
-		sequenceIds.length
-			? supabase
-					.from('email_sequence_enrollments')
-					.select(
-						'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
-					)
-					.in('sequence_id', sequenceIds)
-					.in('status', ['active', 'processing'])
-					.not('next_step_number', 'is', null)
-					.not('next_send_at', 'is', null)
-					.order('next_send_at', { ascending: true })
-					.limit(QUEUE_PREVIEW_LIMIT)
-			: Promise.resolve({ data: [], error: null }),
-		sequenceIds.length
-			? supabase
-					.from('email_sequence_enrollments')
-					.select(
-						'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
-					)
-					.in('sequence_id', sequenceIds)
-					.order('enrolled_at', { ascending: false })
-					.limit(ACTIVITY_PREVIEW_LIMIT)
-			: Promise.resolve({ data: [], error: null }),
-		buildCandidatePreview(supabase),
-		loadReactivationEnrollmentCounts(supabase, sequenceIds)
-	]);
+	const [stepsResult, enrollmentsResult, activityEnrollmentsResult, candidatePreview] =
+		await Promise.all([
+			sequenceIds.length
+				? supabase
+						.from('email_sequence_steps')
+						.select(
+							'id, sequence_id, step_number, subject, html_content, plain_text, delay_days_after_previous, updated_at'
+						)
+						.in('sequence_id', sequenceIds)
+						.order('step_number', { ascending: true })
+				: Promise.resolve({ data: [], error: null }),
+			sequenceIds.length
+				? supabase
+						.from('email_sequence_enrollments')
+						.select(
+							'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
+						)
+						.in('sequence_id', sequenceIds)
+						.in('status', ['active', 'processing'])
+						.not('next_step_number', 'is', null)
+						.not('next_send_at', 'is', null)
+						.order('next_send_at', { ascending: true })
+						.limit(QUEUE_PREVIEW_LIMIT)
+				: Promise.resolve({ data: [], error: null }),
+			sequenceIds.length
+				? supabase
+						.from('email_sequence_enrollments')
+						.select(
+							'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
+						)
+						.in('sequence_id', sequenceIds)
+						.order('enrolled_at', { ascending: false })
+						.limit(ACTIVITY_PREVIEW_LIMIT)
+				: Promise.resolve({ data: [], error: null }),
+			buildCandidatePreview(supabase)
+		]);
 
 	if (stepsResult.error) {
 		throw stepsResult.error;
@@ -643,13 +578,6 @@ export const load: PageServerLoad = async ({ locals }) => {
 		};
 	});
 
-	const activitySummary = {
-		loaded: activity.length,
-		opened: activity.filter((enrollment) => enrollment.opened_messages > 0).length,
-		clicked: activity.filter((enrollment) => enrollment.clicked_messages > 0).length,
-		unsubscribed: activity.filter((enrollment) => enrollment.unsubscribed).length
-	};
-
 	const queue = enrollmentRows
 		.filter((enrollment) => {
 			return (
@@ -685,8 +613,10 @@ export const load: PageServerLoad = async ({ locals }) => {
 				...enrollment,
 				sequence_key: sequenceKey ?? '',
 				bucket: sequenceKey ? SEQUENCE_TO_BUCKET[sequenceKey] : null,
+				recipient_name: engagement.recipientName,
 				next_step_subject: prepared?.subject ?? `Step ${enrollment.next_step_number}`,
 				next_step_preheader: prepared?.preheader,
+				messages_sent: engagement.messagesSent,
 				opened_messages: engagement.openedMessages,
 				total_opens: engagement.totalOpens,
 				last_opened_at: engagement.lastOpenedAt,
@@ -696,6 +626,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 				unsubscribed: engagement.unsubscribed,
 				unsubscribed_at: engagement.unsubscribedAt,
 				unsubscribe_reason: engagement.unsubscribeReason,
+				last_engaged_at: engagement.lastEngagedAt,
 				due_now: enrollment.next_send_at
 					? new Date(enrollment.next_send_at).getTime() <= Date.now()
 					: false
@@ -718,9 +649,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 		candidatePreview,
 		enrollments: enrollmentRows,
 		activity,
-		activitySummary,
 		queue,
-		enrollmentCounts,
 		copyReadiness
 	};
 };

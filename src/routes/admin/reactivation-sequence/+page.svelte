@@ -3,7 +3,7 @@
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
+	import RecipientTable from './RecipientTable.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -17,13 +17,9 @@
 		};
 	};
 
-	let selectedEditorKey = $state('');
-	let testEmail = $state('');
-	let testSequenceKey = $state('reactivation_dormant');
-	let testStepNumber = $state(1);
-	let showAllCandidates = $state(false);
+	let selectedEditorKey = $derived(data.steps[0]?.editor_key ?? '');
+	let testEmail = $derived(data.adminEmail ?? '');
 	let showPreview = $state(true);
-	let activityFilter = $state<'all' | 'opened' | 'clicked' | 'unsubscribed'>('all');
 
 	const statusColors: Record<string, string> = {
 		draft: 'var(--warning)',
@@ -39,82 +35,22 @@
 	let selectedStep = $derived(
 		data.steps.find((step) => step.editor_key === selectedEditorKey) ?? data.steps[0] ?? null
 	);
+	let testSequenceKey = $derived(selectedStep?.sequence_key ?? 'reactivation_dormant');
+	let testStepNumber = $derived(selectedStep?.step_number ?? 1);
 	let allActive = $derived(
 		data.sequences.length === 3 && data.sequences.every((sequence) => sequence.status === 'active')
 	);
-	let anyActive = $derived(data.sequences.some((sequence) => sequence.status === 'active'));
 	let dueQueueCount = $derived(data.queue.filter((item) => item.due_now).length);
-	let displayedCandidates = $derived(
-		showAllCandidates
-			? data.candidatePreview.candidates
-			: data.candidatePreview.candidates.slice(0, 75)
-	);
 	let sharedSchedule = $derived(
 		data.steps
 			.filter((step) => step.sequence_key === 'reactivation_dormant')
 			.sort((a, b) => a.step_number - b.step_number)
 	);
-	let filteredActivity = $derived(
-		data.activity.filter((recipient) => {
-			if (activityFilter === 'opened') return recipient.opened_messages > 0;
-			if (activityFilter === 'clicked') return recipient.clicked_messages > 0;
-			if (activityFilter === 'unsubscribed') return recipient.unsubscribed;
-			return true;
-		})
-	);
-
-	$effect(() => {
-		if (!selectedEditorKey && data.steps.length > 0) {
-			selectedEditorKey = data.steps[0].editor_key;
-		}
-
-		if (!testEmail && data.adminEmail) {
-			testEmail = data.adminEmail;
-		}
-
-		if (selectedStep) {
-			testSequenceKey = selectedStep.sequence_key;
-			testStepNumber = selectedStep.step_number;
-		}
-	});
-
-	function formatDateTime(dateStr: string | null): string {
-		if (!dateStr) return '-';
-		return new Date(dateStr).toLocaleDateString('en-US', {
-			month: 'short',
-			day: 'numeric',
-			hour: 'numeric',
-			minute: '2-digit'
-		});
-	}
-
-	function formatDate(dateStr: string | null): string {
-		if (!dateStr) return '-';
-		return new Date(dateStr).toLocaleDateString('en-US', {
-			month: 'short',
-			day: 'numeric',
-			year: 'numeric'
-		});
-	}
 
 	function offsetLabel(days: number): string {
 		if (days === 0) return 'On enrollment';
 		if (days === 1) return '+1 day';
 		return `+${days} days`;
-	}
-
-	function lastActivityLabel(recipient: PageData['activity'][number]): string {
-		if (recipient.last_engaged_at && recipient.unsubscribed_at === recipient.last_engaged_at) {
-			return 'Unsubscribed';
-		}
-		if (recipient.last_engaged_at && recipient.last_clicked_at === recipient.last_engaged_at) {
-			return 'Clicked';
-		}
-		if (recipient.last_engaged_at && recipient.last_opened_at === recipient.last_engaged_at) {
-			return 'Opened';
-		}
-		if (recipient.last_sent_at) return 'Sent';
-		return 'Enrolled';
 	}
 
 	function handleAction(defaultMessage: string) {
@@ -174,7 +110,7 @@
 	{/if}
 
 	<section class="status-grid">
-		{#each data.sequences as sequence}
+		{#each data.sequences as sequence (sequence.id)}
 			<div class="status-tile">
 				<div class="status-row">
 					<span
@@ -261,181 +197,7 @@
 		</div>
 	</section>
 
-	<section class="section">
-		<div class="section-header activity-section-header">
-			<div>
-				<p class="section-kicker">§06 · RESPONSE SIGNALS</p>
-				<h2>Recipient Activity</h2>
-				<p class="info-note">
-					See who opened, clicked, or unsubscribed across the latest {data.activitySummary.loaded}
-					reactivation enrollments. Opens are directional because inbox privacy tools can preload them.
-				</p>
-			</div>
-			<div class="candidate-counts activity-counts" aria-label="Recipient activity totals">
-				<span class="signal-count opened">Opened {data.activitySummary.opened}</span>
-				<span class="signal-count clicked">Clicked {data.activitySummary.clicked}</span>
-				<span class="signal-count unsubscribed"
-					>Unsubscribed {data.activitySummary.unsubscribed}</span
-				>
-			</div>
-		</div>
-
-		<div class="activity-filters" aria-label="Filter recipient activity">
-			<button
-				type="button"
-				class="filter-button"
-				class:active={activityFilter === 'all'}
-				onclick={() => (activityFilter = 'all')}>All {data.activitySummary.loaded}</button
-			>
-			<button
-				type="button"
-				class="filter-button"
-				class:active={activityFilter === 'opened'}
-				onclick={() => (activityFilter = 'opened')}>Opened {data.activitySummary.opened}</button
-			>
-			<button
-				type="button"
-				class="filter-button"
-				class:active={activityFilter === 'clicked'}
-				onclick={() => (activityFilter = 'clicked')}>Clicked {data.activitySummary.clicked}</button
-			>
-			<button
-				type="button"
-				class="filter-button"
-				class:active={activityFilter === 'unsubscribed'}
-				onclick={() => (activityFilter = 'unsubscribed')}
-				>Unsubscribed {data.activitySummary.unsubscribed}</button
-			>
-		</div>
-
-		{#if filteredActivity.length === 0}
-			<p class="empty-note activity-empty">No recipients match this activity filter.</p>
-		{:else}
-			<div class="table-wrapper activity-table-wrap">
-				<table class="activity-table">
-					<thead>
-						<tr>
-							<th>Recipient</th>
-							<th>Bucket</th>
-							<th>Sent</th>
-							<th>Opened</th>
-							<th>Clicked</th>
-							<th>Email status</th>
-							<th>Sequence</th>
-							<th>Latest signal</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each filteredActivity as recipient (recipient.id)}
-							<tr class:unsubscribed-row={recipient.unsubscribed}>
-								<td class="recipient-cell">
-									<strong>{recipient.recipient_name || 'Unnamed recipient'}</strong>
-									<span title={recipient.recipient_email}>{recipient.recipient_email}</span>
-								</td>
-								<td><span class="bucket">{recipient.bucket ?? '-'}</span></td>
-								<td class="number-cell">{recipient.messages_sent}</td>
-								<td>
-									{#if recipient.opened_messages > 0}
-										<span class="engagement-badge opened">
-											Opened {recipient.total_opens}×
-										</span>
-										<small class="engagement-date">{formatDateTime(recipient.last_opened_at)}</small
-										>
-									{:else}
-										<span class="no-signal">Not yet</span>
-									{/if}
-								</td>
-								<td>
-									{#if recipient.clicked_messages > 0}
-										<span class="engagement-badge clicked">
-											Clicked {recipient.total_clicks}×
-										</span>
-										<small class="engagement-date"
-											>{formatDateTime(recipient.last_clicked_at)}</small
-										>
-									{:else}
-										<span class="no-signal">Not yet</span>
-									{/if}
-								</td>
-								<td>
-									<EmailSubscriptionStatus
-										unsubscribed={recipient.unsubscribed}
-										unsubscribedAt={recipient.unsubscribed_at}
-										reason={recipient.unsubscribe_reason}
-										showActive
-									/>
-								</td>
-								<td class="sequence-cell">
-									<span class="sequence-status">
-										<span
-											class="status-dot"
-											style="background: {statusColors[recipient.display_status] ||
-												'var(--ink-dim)'}"
-										></span>
-										{recipient.display_status}
-									</span>
-									<small>Step {recipient.current_step_number} of 5</small>
-								</td>
-								<td class="latest-signal">
-									<strong>{lastActivityLabel(recipient)}</strong>
-									<span
-										>{formatDateTime(
-											recipient.last_engaged_at || recipient.last_sent_at || recipient.enrolled_at
-										)}</span
-									>
-								</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
-			</div>
-
-			<div class="activity-cards">
-				{#each filteredActivity as recipient (recipient.id)}
-					<article class="activity-card" class:unsubscribed-card={recipient.unsubscribed}>
-						<header>
-							<div class="recipient-cell">
-								<strong>{recipient.recipient_name || 'Unnamed recipient'}</strong>
-								<span>{recipient.recipient_email}</span>
-							</div>
-							<EmailSubscriptionStatus
-								unsubscribed={recipient.unsubscribed}
-								unsubscribedAt={recipient.unsubscribed_at}
-								reason={recipient.unsubscribe_reason}
-								showActive
-							/>
-						</header>
-						<div class="activity-card-meta">
-							<span class="bucket">{recipient.bucket ?? '-'}</span>
-							<span>{recipient.display_status} · Step {recipient.current_step_number} of 5</span>
-						</div>
-						<dl>
-							<div>
-								<dt>Sent</dt>
-								<dd>{recipient.messages_sent}</dd>
-							</div>
-							<div class:has-signal={recipient.opened_messages > 0}>
-								<dt>Opens</dt>
-								<dd>{recipient.total_opens}</dd>
-							</div>
-							<div class:has-signal={recipient.clicked_messages > 0}>
-								<dt>Clicks</dt>
-								<dd>{recipient.total_clicks}</dd>
-							</div>
-						</dl>
-						<footer>
-							<span>{lastActivityLabel(recipient)}</span>
-							<strong
-								>{formatDateTime(
-									recipient.last_engaged_at || recipient.last_sent_at || recipient.enrolled_at
-								)}</strong
-							>
-						</footer>
-					</article>
-				{/each}
-			</div>
-		{/if}
-	</section>
+	<RecipientTable {data} />
 
 	<section class="section">
 		<div class="section-header">
@@ -459,7 +221,7 @@
 		</div>
 
 		<div class="schedule-strip">
-			{#each sharedSchedule as step}
+			{#each sharedSchedule as step (step.id)}
 				<div class="schedule-item">
 					<span>Step {step.step_number}</span>
 					<strong>{offsetLabel(step.cumulative_days_after_enrollment)}</strong>
@@ -470,7 +232,7 @@
 
 		<div class="editor-layout">
 			<nav class="step-nav" aria-label="Reactivation email steps">
-				{#each data.steps as step}
+				{#each data.steps as step (step.editor_key)}
 					<button
 						type="button"
 						class:active={selectedEditorKey === step.editor_key}
@@ -553,131 +315,6 @@
 			{/if}
 		</div>
 	</section>
-
-	<section class="section">
-		<div class="section-header">
-			<div>
-				<h2>Eligible Recipients</h2>
-				<p class="info-note">
-					These profiles are not suppressed, not fresh, and not already enrolled in welcome or
-					reactivation. Email 1 sends when you enroll each batch.
-				</p>
-			</div>
-			<div class="candidate-counts">
-				<span>Cold {data.candidatePreview.counts.cold}</span>
-				<span>Dormant {data.candidatePreview.counts.dormant}</span>
-				<span>Zombies {data.candidatePreview.counts.zombies}</span>
-			</div>
-		</div>
-
-		{#if data.candidatePreview.candidates.length === 0}
-			<p class="empty-note">No eligible reactivation candidates right now.</p>
-		{:else}
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th>Email</th>
-							<th>Name</th>
-							<th>Bucket</th>
-							<th>Signed Up</th>
-							<th>Age</th>
-							<th>Recommended Batch</th>
-							<th>When</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each displayedCandidates as candidate}
-							<tr>
-								<td class="email-cell" title={candidate.email}>{candidate.email}</td>
-								<td>{candidate.name}</td>
-								<td><span class="bucket">{candidate.bucket}</span></td>
-								<td>{formatDate(candidate.created_at)}</td>
-								<td>{candidate.age_days}d</td>
-								<td>{candidate.recommended_batch}</td>
-								<td>{candidate.first_send_timing}</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
-			</div>
-			{#if data.candidatePreview.candidates.length > 75}
-				<button
-					class="text-button"
-					type="button"
-					onclick={() => (showAllCandidates = !showAllCandidates)}
-				>
-					{showAllCandidates
-						? 'Show fewer candidates'
-						: `Show all ${data.candidatePreview.candidates.length} loaded candidates`}
-				</button>
-			{/if}
-		{/if}
-	</section>
-
-	<section class="section">
-		<div class="section-header">
-			<div>
-				<h2>Active Queue</h2>
-				<p class="info-note">
-					Once candidates are enrolled, this table shows the exact next email and send time cron
-					will claim.
-				</p>
-			</div>
-			<div class="candidate-counts">
-				<span>Active {data.enrollmentCounts.active}</span>
-				<span>Completed {data.enrollmentCounts.completed}</span>
-				<span>Re-permissioned {data.enrollmentCounts.rePermissioned}</span>
-				<span>Clicked {data.enrollmentCounts.reactivatedClick}</span>
-			</div>
-		</div>
-
-		{#if data.queue.length === 0}
-			<p class="empty-note">
-				No reactivation emails are queued. {anyActive
-					? 'Enroll a controlled batch when ready.'
-					: 'Sequences are still draft or paused.'}
-			</p>
-		{:else}
-			<div class="table-wrapper">
-				<table>
-					<thead>
-						<tr>
-							<th>Email</th>
-							<th>Bucket</th>
-							<th>Next Step</th>
-							<th>Subject</th>
-							<th>Send Time</th>
-							<th>Status</th>
-						</tr>
-					</thead>
-					<tbody>
-						{#each data.queue as queued}
-							<tr>
-								<td class="email-cell" title={queued.recipient_email}>{queued.recipient_email}</td>
-								<td>{queued.bucket ?? '-'}</td>
-								<td>Step {queued.next_step_number}</td>
-								<td class="subject-cell">
-									{queued.next_step_subject}
-									{#if queued.next_step_preheader}
-										<small>{queued.next_step_preheader}</small>
-									{/if}
-								</td>
-								<td class:due={queued.due_now}>{formatDateTime(queued.next_send_at)}</td>
-								<td>
-									<span
-										class="status-dot"
-										style="background: {statusColors[queued.status] || 'var(--ink-dim)'}"
-									></span>
-									{queued.status}
-								</td>
-							</tr>
-						{/each}
-					</tbody>
-				</table>
-			</div>
-		{/if}
-	</section>
 </div>
 
 <style>
@@ -692,8 +329,7 @@
 	.section-header,
 	.status-row,
 	.button-row,
-	.header-actions,
-	.candidate-counts {
+	.header-actions {
 		display: flex;
 		align-items: center;
 		gap: 1rem;
@@ -740,7 +376,6 @@
 
 	.subtitle,
 	.info-note,
-	.empty-note,
 	.inline-warning,
 	.save-scope,
 	.preview-meta span {
@@ -748,20 +383,9 @@
 		line-height: 1.5;
 	}
 
-	.header-actions a,
-	.text-button {
+	.header-actions a {
 		color: var(--lamp-glow);
 		text-decoration: none;
-	}
-
-	.section-kicker {
-		margin: 0 0 0.35rem;
-		color: var(--lamp-glow);
-		font-family: var(--font-mono);
-		font-size: 0.68rem;
-		font-weight: 700;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
 	}
 
 	.header-actions a {
@@ -967,8 +591,7 @@
 		border-color: var(--lamp-glow);
 	}
 
-	.step-nav small,
-	.subject-cell small {
+	.step-nav small {
 		display: block;
 		color: var(--ink-mid);
 	}
@@ -1008,199 +631,6 @@
 		background: var(--marble-pure);
 	}
 
-	.table-wrapper {
-		overflow-x: auto;
-	}
-
-	.activity-filters {
-		display: flex;
-		align-items: center;
-		gap: 0.45rem;
-		margin: 1rem 0;
-		overflow-x: auto;
-		padding-bottom: 0.15rem;
-	}
-
-	.filter-button {
-		min-height: 2.75rem;
-		flex: 0 0 auto;
-		border: 1px solid var(--stone-edge);
-		border-radius: 999px;
-		background: var(--night-deep);
-		color: var(--ink-mid);
-		font-family: var(--font-mono);
-		font-size: 0.72rem;
-	}
-
-	.filter-button:hover,
-	:global(.page-shell .activity-filters button:focus-visible),
-	.filter-button.active {
-		border-color: var(--lamp-glow);
-		color: var(--lamp-glow);
-	}
-
-	:global(.page-shell .activity-filters button:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-
-	.signal-count,
-	.engagement-badge {
-		display: inline-flex;
-		width: fit-content;
-		align-items: center;
-		border: 1px solid transparent;
-		border-radius: 999px;
-		font-family: var(--font-mono);
-		font-size: 0.7rem;
-		font-weight: 700;
-		line-height: 1;
-		white-space: nowrap;
-	}
-
-	.signal-count {
-		padding: 0.4rem 0.6rem;
-	}
-
-	.engagement-badge {
-		padding: 0.25rem 0.45rem;
-	}
-
-	.signal-count.opened,
-	.engagement-badge.opened {
-		border-color: color-mix(in srgb, var(--data-teal) 32%, transparent);
-		background: color-mix(in srgb, var(--data-teal) 11%, transparent);
-		color: var(--data-cyan);
-	}
-
-	.signal-count.clicked,
-	.engagement-badge.clicked {
-		border-color: color-mix(in srgb, var(--success) 32%, transparent);
-		background: color-mix(in srgb, var(--success) 11%, transparent);
-		color: var(--success-text);
-	}
-
-	.signal-count.unsubscribed {
-		border-color: color-mix(in srgb, var(--warning) 34%, transparent);
-		background: color-mix(in srgb, var(--warning) 12%, transparent);
-		color: var(--warning-text);
-	}
-
-	.activity-table {
-		min-width: 1120px;
-	}
-
-	.activity-table tr.unsubscribed-row {
-		background: color-mix(in srgb, var(--warning) 5%, transparent);
-	}
-
-	.recipient-cell,
-	.sequence-cell,
-	.latest-signal {
-		min-width: 0;
-	}
-
-	.recipient-cell,
-	.sequence-cell,
-	.latest-signal {
-		display: grid;
-		gap: 0.25rem;
-	}
-
-	.recipient-cell {
-		max-width: 17rem;
-	}
-
-	.recipient-cell strong,
-	.recipient-cell span {
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-
-	.recipient-cell span,
-	.sequence-cell small,
-	.latest-signal span,
-	.engagement-date,
-	.no-signal {
-		color: var(--ink-mid);
-		font-size: 0.72rem;
-	}
-
-	.sequence-status {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.4rem;
-		text-transform: capitalize;
-	}
-
-	.engagement-date {
-		display: block;
-		margin-top: 0.3rem;
-		white-space: nowrap;
-	}
-
-	.number-cell {
-		font-family: var(--font-mono);
-		font-weight: 700;
-	}
-
-	.activity-cards {
-		display: none;
-	}
-
-	.activity-empty {
-		padding: 1.5rem 0 0.5rem;
-	}
-
-	table {
-		width: 100%;
-		border-collapse: collapse;
-		min-width: 900px;
-	}
-
-	th,
-	td {
-		padding: 0.75rem;
-		border-bottom: 1px solid var(--stone-warm);
-		text-align: left;
-		vertical-align: top;
-	}
-
-	th {
-		color: var(--ink-mid);
-		font-size: 0.75rem;
-		text-transform: uppercase;
-	}
-
-	.email-cell,
-	.subject-cell {
-		max-width: 18rem;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-
-	.bucket {
-		display: inline-flex;
-		padding: 0.2rem 0.45rem;
-		border-radius: 999px;
-		background: var(--data-teal-rgba);
-		color: var(--data-teal);
-		font-size: 0.8rem;
-	}
-
-	.due {
-		color: var(--lamp-glow);
-		font-weight: 700;
-	}
-
-	.text-button {
-		margin-top: 0.8rem;
-		padding: 0;
-		background: transparent;
-	}
-
 	@media (max-width: 1100px) {
 		.status-grid,
 		.schedule-strip {
@@ -1221,8 +651,7 @@
 	@media (max-width: 720px) {
 		.page-header,
 		.section-header,
-		.header-actions,
-		.candidate-counts {
+		.header-actions {
 			align-items: flex-start;
 			flex-direction: column;
 		}
@@ -1231,123 +660,6 @@
 		.schedule-strip,
 		.test-form {
 			grid-template-columns: 1fr;
-		}
-
-		.activity-section-header {
-			gap: 0.75rem;
-		}
-
-		.activity-counts {
-			flex-direction: row;
-			flex-wrap: wrap;
-		}
-
-		.activity-table-wrap {
-			display: none;
-		}
-
-		.activity-cards {
-			display: grid;
-			gap: 0.75rem;
-		}
-
-		.activity-card {
-			display: grid;
-			gap: 0.75rem;
-			min-width: 0;
-			padding: 0.9rem;
-			border: 1px solid var(--stone-edge);
-			border-radius: 16px;
-			background: var(--night-deep);
-		}
-
-		.activity-card.unsubscribed-card {
-			border-color: color-mix(in srgb, var(--warning) 36%, var(--stone-edge));
-		}
-
-		.activity-card header,
-		.activity-card footer,
-		.activity-card-meta {
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			gap: 0.75rem;
-			min-width: 0;
-		}
-
-		.activity-card header {
-			align-items: flex-start;
-			flex-wrap: wrap;
-		}
-
-		.activity-card .recipient-cell {
-			max-width: min(55vw, 18rem);
-		}
-
-		.activity-card-meta {
-			justify-content: flex-start;
-			color: var(--ink-mid);
-			font-size: 0.72rem;
-			text-transform: capitalize;
-		}
-
-		.activity-card dl {
-			display: grid;
-			grid-template-columns: repeat(3, minmax(0, 1fr));
-			margin: 0;
-			border: 1px solid var(--stone-warm);
-			border-radius: 10px;
-			overflow: hidden;
-		}
-
-		.activity-card dl div {
-			padding: 0.7rem;
-			border-right: 1px solid var(--stone-warm);
-		}
-
-		.activity-card dl div:last-child {
-			border-right: none;
-		}
-
-		.activity-card dl div.has-signal {
-			background: color-mix(in srgb, var(--data-teal) 8%, transparent);
-		}
-
-		.activity-card dt {
-			color: var(--ink-mid);
-			font-family: var(--font-mono);
-			font-size: 0.62rem;
-			text-transform: uppercase;
-		}
-
-		.activity-card dd {
-			margin: 0.25rem 0 0;
-			font-family: var(--font-mono);
-			font-size: 1rem;
-			font-weight: 700;
-		}
-
-		.activity-card footer {
-			color: var(--ink-mid);
-			font-size: 0.68rem;
-		}
-
-		.activity-card footer strong {
-			color: var(--ink-bright);
-			font-weight: 600;
-		}
-
-		/* Let the wide tables reflow within the phone viewport instead of
-		   forcing a 900px-wide horizontal scroll on every row. */
-		.table-wrapper table {
-			min-width: 0;
-		}
-
-		.email-cell,
-		.subject-cell {
-			max-width: none;
-			white-space: normal;
-			overflow-wrap: anywhere;
 		}
 	}
 </style>

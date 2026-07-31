@@ -256,6 +256,9 @@ const OUTLETS = [
 	// more checkable than most magazine attributions.
 	'Joe Rogan Experience',
 	'Are You Garbage',
+	// Same class, added on the KSI pass (2026-07-31): Schulz's Flagrant publishes
+	// full public episodes and is the primary record for KSI's therapy/goal quotes.
+	'Flagrant',
 	// Streamer-run shows that publish full public episodes (CaseOh pass,
 	// 2026-07-26). Same class as the comedy podcasts above: for streamer
 	// subjects a named show + date IS the checkable primary record.
