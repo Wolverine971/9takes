@@ -1,7 +1,7 @@
 ---
 title: "Sydney Sweeney's Personality: Why She Works Like Failure Already Happened"
-meta_title: "Sydney Sweeney's Personality: The Type 3 System That Cracked on Camera"
-description: "Sydney Sweeney built a system at 12 to keep her real self off camera. One night on Twitter, it broke. Here's the Type 3 architecture underneath."
+meta_title: 'Sydney Sweeney Personality Type & Traits: What Interviews Reveal'
+description: 'What is Sydney Sweeney like in real life? Interviews show a driven, private, strategic, image-aware personality—patterns that fit Enneagram Type 3w4.'
 author: 'DJ Wayne'
 date: '2024-06-01'
 loc: 'https://9takes.com/personality-analysis/sydney-sweeney'
@@ -88,6 +88,8 @@ content_quality:
 <p class="firstLetter">She was trending on Twitter. Strangers were calling her ugly.</p>
 
 It was May 2021. Sydney Sweeney had spent the day on a Cosmopolitan lingerie shoot, dizzy and nauseous, vomiting between takes. She came home, opened Twitter, and found her name attached to thousands of posts dissecting her face and body.
+
+**Based on her interviews and public record, Sydney Sweeney's clearest personality traits are relentless drive, preparation, privacy, image-awareness, and fear of failure. In Enneagram terms, those patterns fit Type 3w4, the achievement-focused type with a more private, artistic wing.**
 
 She went on Instagram Live and cried on camera.
 

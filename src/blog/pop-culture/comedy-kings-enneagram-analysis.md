@@ -235,6 +235,8 @@ You can see the merging everywhere in his public life.
 
 His run of high-profile relationships, Ariana Grande, Kim Kardashian, Kate Beckinsale and others, reads like textbook 9 behavior: borrowing the identity and orbit of a stronger partner because your own sense of self feels thin. He doesn't pull people into his world. He dissolves into theirs. That isn't a character flaw. It's a type that struggles to find itself without someone bigger to merge into.
 
+The family context matters too. Our [Kardashian family Enneagram analysis](/pop-culture/kardashian-family-enneagram-analysis) maps the achievement, caretaking, loyalty, and merging patterns in the orbit Davidson entered.
+
 His openness about a borderline personality disorder diagnosis adds a second layer.
 
 The core 9 pattern is self-erasure, forgetting your own needs and wants until you barely register as a person to yourself. Pair that with the instability BPD brings and the effect compounds. The result is a man who can be the literal center of attention and still seem like he's not entirely in the room.

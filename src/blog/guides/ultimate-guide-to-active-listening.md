@@ -345,6 +345,8 @@ After important conversations, ask yourself:
 
 Can't answer these? You were waiting to talk, not listening.
 
+Those questions become a fuller observation method in [the four-step guide to reading people](/how-to-guides/how-to-psychoanalyze-people), which connects projected image, desire, fear, and stress behavior without turning understanding into manipulation.
+
 Once you've mastered these listening fundamentals, you'll be ready to handle difficult conversations, including [delivering authentic apologies that actually land based on your personality type](/enneagram-corner/how-to-apologize-like-a-pro). True listening is the foundation of genuine reconciliation.
 
 ## The Advanced Techniques (Once You've Mastered the Basics)

@@ -140,6 +140,8 @@ These groups reflect how types cope with difficulty:
 
 These groups, rooted in psychoanalytic theory, describe core relational issues:
 
+The [full Enneagram object relations guide](/enneagram-corner/enneagram-object-relations) explains where the three patterns come from, how they differ from attachment theory, and how each one shapes adult relationships.
+
 - Attachment types seek connection and validation from others (3, 6, 9).
 - Frustration types feel a sense of inner lack or missing piece (1, 4, 7).
 - Rejection types struggle with closeness, either pushing away or withdrawing (2, 5, 8).

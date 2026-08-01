@@ -1,0 +1,17 @@
+[2026-08-01 06:00:00] People blog publisher starting
+Error processing blog entries: Error: No publishable draft found. Checked 489 candidate(s).
+Unpublished candidates: 88
+Blocker counts: missing_full_image=53, missing_thumbnail_image=53, source_standard_failed=50, missing_grade_stability_delta=41, stale_grade_rubric_v1=30, content_quality_below_8.5=29, missing_content_quality=12, missing_frontmatter=4
+Closest candidates:
+- rose-blackpink: content_quality_below_8.5:8.4
+- olivia-cooke: content_quality_below_8.5:8.3
+- nick-offerman: content_quality_below_8.5:7.5
+- jim-carrey: content_quality_below_8.5:7.4
+- hailee-steinfeld: content_quality_below_8.5:7
+- victoria-justice: missing_grade_stability_delta:run supervised grade/regrade; source_standard_failed:untagged_epigraph_or_cold_open
+- keira-knightley: missing_grade_stability_delta:run supervised grade/regrade; source_standard_failed:untagged_epigraph_or_cold_open
+- christopher-nolan: missing_full_image; missing_thumbnail_image
+    at publishPersonBlog (file:///Users/djwayne/9takes/scripts/personBlogParser.js:1560:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async main (file:///Users/djwayne/9takes/scripts/personBlogParser.js:2212:4)
+[2026-08-01 06:00:21] People blog publisher failed (exit=1)

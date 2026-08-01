@@ -495,7 +495,7 @@ Consider that last one. The very thing that made you feel separate, your common 
 
 What these Fours share: the transformation of personal pain into art that helps others feel less alone.
 
-Notice how many are musicians, writers, actors, artists. People who make the invisible visible, who give form to feelings that have no words.
+Notice how many are [musicians](/pop-culture/what-enneagram-type-are-most-musicians), writers, actors, artists. People who make the invisible visible, who give form to feelings that have no words.
 
 They took their sense of being different and turned it into their contribution. Their wound became their gift. That's the Four path, when it works.
 

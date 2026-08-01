@@ -137,6 +137,8 @@ The shared pattern takes five distinct forms:
 
 **Alex Cooper** channels her Type 7 energy into high-volume candor about sex, relationships, and emotional chaos. Call Her Daddy made private, whispered subjects into public conversation. Her expansion into The Unwell Network and a [SiriusXM agreement](https://investor.siriusxm.com/news-events/press-releases/detail/2096/siriusxm-inks-new-multi-year-agreement-with-alex-cooper) that was [reported as nine figures](https://www.latimes.com/entertainment-arts/story/2024-08-21/alex-cooper-siriusxm-deal-call-her-daddy-podcast-spotify) extend the same appetite for scale: one show becomes a broader media world.
 
+That empire-building pattern becomes more visible in the [Alex Cooper and Alix Earle split](/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis), where Cooper was the network owner rather than the talent negotiating an exit.
+
 ### Theo Von — Absurdist Storytelling
 
 **Theo Von** channels his Type 7 energy into absurdist storytelling that can turn a painful memory into a Southern Gothic riff. The joke rarely erases the discomfort; it gives him and the audience enough motion to stay with it. His show works through quick association, tonal surprise, and the possibility that an apparently stray story will land on an emotional truth.
@@ -209,6 +211,8 @@ When Shaan pitches a business idea, it arrives with enthusiasm, lateral connecti
 The dynamic also produces conflict. In the episode ["Is This The End Of The Pod?"](https://www.youtube.com/watch?v=-9RVriDcAgc), they aired a post-mortem of a fight from the previous day, discussed Sam's irritability, and used relationship frameworks to examine what happened. Turning the rupture into an episode captured the pairing in miniature: intensity creates the break, then reframing creates forward motion.
 
 The pattern of a Type 7 paired with a grounding type also appears on [Breaking Points](/pop-culture/breaking-points-enneagram-analysis), with Krystal Ball typed as a 1 and Saagar Enjeti as a 7. The 7 opens the aperture; the grounding type pressure-tests what comes through. Their tension helps the show avoid both heaviness and drift.
+
+A more accelerator-heavy pairing appears on [TBPN](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic), where John Coogan's Type 7 possibility-seeking runs beside Jordi Hays's Type 3 focus on stakes, presentation, and visible value.
 
 ## The Crossover Test
 

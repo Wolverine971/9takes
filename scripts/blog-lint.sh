@@ -243,13 +243,14 @@ fi
 if grep -qE "^published: true" <<<"$FM" && [[ "$FILE" != */drafts/* ]]; then
   REVIEW_MARKER_PATTERN='<!--[[:space:]]*([[:alnum:]_-]+[[:space:]_-]+){0,5}(GRADE|REVIEW|FEEDBACK|LEDGER|NOTES)([[:space:]:(_-]|$)'
   REVIEW_MARKERS="$(grep -Ei "$REVIEW_MARKER_PATTERN" "$FILE" | grep -Eiv '<!--[[:space:]]*QUALITY_FEEDBACK_START' || true)"
-  if [[ -n "$REVIEW_MARKERS" ]] || grep -qE '<!--[[:space:]]*(EDITOR_NOTE|DJ:)' "$FILE"; then
+  if [[ -n "$REVIEW_MARKERS" ]] || \
+     grep -qE '<!--[[:space:]]*(EDITOR_NOTE|DJ:|QUALITY_FEEDBACK_START)' "$FILE"; then
     fail "internal review note in published source (renders into public view-source)"
   else
     pass "no internal review notes in source"
   fi
-  if grep -qE '<!--[[:space:]]*(QUALITY_FEEDBACK_START|TODO:|FIXME)' "$FILE"; then
-    warn "working marker in published source (grade block / TODO), visible in view-source"
+  if grep -qE '<!--[[:space:]]*(TODO:|FIXME)' "$FILE"; then
+    warn "working marker in published source (TODO / FIXME), visible in view-source"
   fi
 fi
 

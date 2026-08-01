@@ -1,0 +1,457 @@
+[2026-08-01 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-08-01 02:00:00] [INFO] SELECTED: penguinz0 (Type ?)
+[2026-08-01 02:00:00] [INFO] Launching pipeline for penguinz0
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Mode:    create
+Person:  penguinz0
+Draft:   src/blog/people/drafts/penguinz0.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0
+Started: Sat Aug  1 02:00:00 EDT 2026
+═════════════════════════════════════════════════════
+
+─────────────────────────────────────────────────────
+[Stage 1] create  (started 02:00:00)
+Command: /blog_content_creator_people_v2 penguinz0 --non-interactive
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/1_create.log
+─────────────────────────────────────────────────────
+Draft complete. penguinz0 (Charlie White / MoistCr1TiKaL) is typed as an **Enneagram 9w8**, confidence high, and the draft clears every hard gate and every deterministic check.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Penguinz0.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (4 testimony quotes), Gate 2: pass (6 search/hybrid H2s), Gate 4: pass, Gate 5: pass (2 type-theory paragraphs), Gate 6: pass]
+LIMITATIONS: Naroditsky tribute video has no captions (quotes sourced from press coverage instead); Anthony Padilla collab does not exist; vitiligo claim unverifiable, dropped
+```
+
+**The thesis:** the most unbothered man on the internet built his calm by hand. OCD hit him around age 12 (the same stretch of life when he started the channel) with "at least a hundred rituals" — National Treasure every night for two years, meals at exact times — which he dismantled alone via self-invented exposure therapy and hid from everyone for a decade. The adult kept the architecture (white shirt, Tampa forever, drivable-distance-only travel, daily uploads since 2007) but became its author. The type earns its place through the money: he measures decisions by whether they "sit right," which is why he donated his first 4–5 years of earnings, ran Moist Esports at a $4.2M loss, and in October 2025 turned off $1M+/year of donations after revealing $41.3M in lifetime earnings — then refused to lead the movement it started ("I'm not your dad").
+
+Key structural pieces:
+- **Bespoke section:** a ledger rebuilt from his own published analytics (what came in vs. what he kept)
+- **Critic anchor + empathy turn:** the 2023 iDubbbz-apology backlash (Kat Blaque, Hasan pushback) — conceding critics' point, then reframing the "no spine" charge: his takes bend when the cost lands on others, and held firm against Billy Mitchell, a litigant with a winning record
+- **Testimony:** Ludwig ("Charlie's YouTube is such a sick anomaly"), Rizzo (×2), Naroditsky
+- **Ending:** the unpayable Twitch bits minimum as a chosen ritual, closing on his own catchphrase: "The greatest ritual of all time."
+
+Verification: blog-lint **0 fail** (1 expected warn: FAQ enrich is a downstream stage), contrast pairs **0/0**, same-type similarity **clear**, meta_title 53 chars with head term, description 159 chars, answer block 52 words. Four transcripts were fetched and archived under `youtube-transcripts/penguinz0/` for future passes.
+
+Per non-interactive rules I did not grade (that's `/grade_blog`) and did not promote to `ready` — human review comes first. Next steps when you're ready: `/grade_blog Penguinz0`, then production via `blog_content_production_people`.
+[Stage 1] create finished 02:22:49 (exit=0, 1369s)
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:22:49)
+Command: /blog_content_fresh_eyes_people penguinz0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Fresh-eyes review done on `src/blog/people/drafts/Penguinz0.md` — notes appended as a `FRESH EYES REVIEW (2026-08-01)` block at the bottom of the file. No body edits made.
+
+The two biggest issues I flagged:
+
+1. **The faceless decade is missing.** The draft jumps from Charlie starting the channel at twelve to sitting on camera at a desk, skipping the ~nine years he spent as an anonymous voice before the 2016 face reveal. That's core fan lore, and it's free ammunition for the Type 9 thesis — a man with no appetite for spotlight who stayed a disembodied voice for a decade. Readers who know him will notice the hole. (Related: the piece is titled *penguinz0* and explains "Moist" but never the handle itself — a common reader search, one-line fix.)
+
+2. **The cynical reading of the money shutdown is never faced.** The widely voiced October 2025 take was "turning off donations is easy at $41M, and it bought him the best PR in streaming." The draft's critic-pressure anchor (Kat Blaque on the iDubbbz take) pressures a side event, not the central one. One paragraph conceding and answering the PR-move reading would harden the spine of the whole piece.
+
+Smaller notes: trim the six-variant "calmest man / flattest voice / deadpan" epithet stack, compress the fourth re-narration of the October 2025 shutdown, and consider verifying his 2022 gambling-sponsorship refusals as a money-ledger addition. The cold open, money table, OCD section, and Naroditsky peak are all working — I marked them preserve-as-is.
+
+Sources: [Cr1TiKaL — Wikipedia](https://en.wikipedia.org/wiki/Cr1TiKaL), [Why Is Moist Critical Called Penguinz0 — TikTok](https://www.tiktok.com/discover/why-is-moist-critical-called-penguinz0), [MoistCr1TiKaL hiatus after Sneako debate — Tribune](https://tribune.com.pk/story/2484534/moistcr1tikal-announces-indefinite-online-hiatus-following-heated-debate-with-sneako)
+[Stage 2] fresh_eyes finished 02:25:22 (exit=0, 153s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:25:22)
+Command: /blog_content_second_pass_people penguinz0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/3_second_pass.log
+─────────────────────────────────────────────────────
+Second pass on `src/blog/people/drafts/Penguinz0.md` is done. Source audit went from 0 inline / 4 vague / 1 untagged to **7/7 inline, 0 untagged**, and blog-lint is at **0 fail** (the one warn is the not-yet-run frontmatter-enrich stage).
+
+**What changed:**
+
+- **Source traceability (first-order fix):** Every load-bearing quote now carries a checkable outlet + year. I verified the real coverage first: Dexerto covered both October videos, Tubefilter analyzed the earnings, and the video titles/dates are confirmed ("I'm Turning It Off" Oct 9, "I'm Not Turning It Back On" Oct 15). The previously untagged "I'm not your dad" line is now pinned to the Oct 15 follow-up.
+- **Caught a factual error the fresh-eyes review missed:** the cold-open kicker ("There are so many better options for your money…") was staged as the post-earnings-reveal mic drop, but it's from the October 9 video — Video Games Chronicle put it in a headline on October 10, before the earnings video existed. The cold open is restructured so the drama no longer depends on the wrong timeline.
+- **Faceless decade added** as the close of the rituals section — with corrected dates (fresh-eyes said "2007 to a 2016 face reveal"; it's actually name reveal Sept 2015, Snapchat face leak Oct 2015, first on-camera video March 2017). It ties the hidden-OCD and hidden-face patterns together.
+- **PR-move cynicism faced head-on** in the money section: concedes the take is fair, then answers it with the anonymous-era charity giving and the fact that he asked other streamers *not* to copy him.
+- **penguinz0 name origin** added next to the Moist story (WIRED autocomplete interview, 2023: penguins were cool, "penguin" was taken, add z0) — covers the common reader search.
+- **Skeptic pressure + honesty:** the Judge section now opens by steelmanning the drama-as-business-model reading before the target-selection counter, and the weathervane resolution admits the type doesn't launder every crowd-pressure bend.
+- **Trims:** calm-epithet stack cut from six variants to three, the diagnosis section's shutdown re-narration compressed to a clause, the shirt/desk/city motif reduced to three instances, and the Rabbit Hole's vague "a band, a graphic novel" cashed out as The Gentle Men and GODSLAP (fresh-eyes had the band name wrong — "The Little Cars" isn't his).
+
+**Not done, and why:** the 2022 gambling-sponsorship refusal never verified with a concrete figure, so it stayed out per the review's own "if verified" condition — that's the one item that might justify a later research pass.
+[Stage 3] second_pass finished 02:39:54 (exit=0, 872s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:39:54)
+Command: /cohesion-check src/blog/people/drafts/penguinz0.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/4_cohesion.log
+─────────────────────────────────────────────────────
+## Cohesion Check Complete: penguinz0.md
+
+**Before score: 8/10** → **After score: 9/10**
+
+### Central Thesis
+penguinz0's famous calm is not an inborn temperament but a structure Charlie White built himself after dismantling his OCD as a teenager, and he will pay any price (including deleting a million dollars a year of income) to stay its sole author.
+
+### Thread Map
+The piece holds one thread cleanly: cold open (the money shutdown) → diagnosis (equilibrium compass + the "second gear" of anger on others' behalf) → rituals (origin of the built calm) → Tampa (the adult sameness architecture) → money ledger (what defending equilibrium costs) → judge (the second gear in action) → gets-bothered (where the two gears meet: bends when the cost lands on others, holds under personal risk) → Naroditsky (the one crack in the monotone, for someone else) → ending (the bits number as a self-built ritual). Every section serves the thesis; the promise in the title and intro is the argument the ending lands.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 8/10 | 1 |
+| Section Transitions | 7/10 | 2 |
+| Internal Paragraph Flow | 8/10 | 2 |
+
+### Changes Made (4 total)
+
+**Internal Flow Fixes (1):**
+- Rituals section: moved the faceless-era paragraph out of its old slot (it sat *after* the "Watch what he kept" adult-architecture pivot, yanking chronology backward right before Tampa). It now lives in the hiding-theme block, so the seams read "told no one for a decade" → "The hiding went further than the rituals," then "The last ritual he did not choose was gone" → "Watch what he kept," and the section closes on the adult-architecture pivot that feeds the Tampa section directly.
+
+**Transition Fixes (3):**
+- Tampa → Money: was a hard cut from the Ludwig quote straight into a table. Added a bridge carrying the "easiest job" keyword: *"The easiest job there is paid accordingly. What Charlie did with the money is the part that needs explaining."*
+- Money → Judge: the section's central paradox (a man who pays to stay undisturbed working as a professional judge of disturbances) was implied by the H2 but never stated. Added: *"That makes the day job strange. The man guarding that surface spends it ruling on other people's chaos."* It carries "surface" from the Money section's last line.
+- Judge section, Mitchell → Rizzo: the jump from the Brisbane courtroom to esports-ownership testimonials had no connector. Added: *"The same protective instinct runs his own house."*
+
+### What Was Preserved
+- All frontmatter, working-notes comments, Svelte/HTML blocks, internal links, and the table
+- The cold open, diagnosis section, money-ledger framing, Naroditsky section, and ending untouched (all strong; the ending's rituals→bits-number callback is the best transition in the piece)
+- The Diagnosis → Rituals and Bothered → Naroditsky boundaries left alone: both open on dated scenes, which is this piece's house style, and the "twelve years old" callback / section-title setup carry them adequately
+
+Verified after editing: `blog-lint` still reports **0 fail, 1 warn**, and the warn is the pre-existing `faqs` frontmatter item owned by the enrich stage, not this pass. No em-dashes or banned phrases introduced; contrast-pair count still 0.
+
+### Remaining Concerns
+Two judgment calls I left alone: the section titled "What Happens When penguinz0 Actually Gets Bothered" ends on the T-Pain retirement joke, which reads as a trailing shrug rather than a landed close (though the shrug arguably *is* the character), and the chess section jumps back to 2020 with no time signal after 2024–25 material. Both are defensible as-is; flagging in case you want them tightened in a later pass.
+[Stage 4] cohesion finished 02:43:46 (exit=0, 232s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:43:46)
+Command: /blog_content_editor_pass_people penguinz0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/5_editor_pass.log
+─────────────────────────────────────────────────────
+Editor pass on `src/blog/people/drafts/Penguinz0.md` is complete, and both exit checks pass: **0 contrast pairs** (strong and comparative), **0 lint failures**, zero prose em-dashes, no banned phrases. The only remaining warn is the missing `faqs` frontmatter, which belongs to the enrich stage, not this pass.
+
+This draft arrived unusually clean — it had already been through fresh-eyes and a second pass, so this was a genuine light-touch polish rather than a rescue. What I fixed:
+
+- **One banned word**: "leverages" in the diagnosis section became "cashes it in," which also fits the money theme better.
+- **One fact-not-in-evidence**: the ending claimed the National Treasure disc "gave out and set him free," but the piece only establishes he *feared* it would. Now reads "while he prayed the disc would hold," which echoes the inner-thought beat instead of contradicting it.
+- **Mobile rhythm**: split five dense paragraphs (the OCD self-treatment plan, the faceless-era beat, the names-trace-to-inertia riff, the judge docket, and the weathervane defense). The weathervane concession ("the type does not launder those") now stands alone as a one-sentence paragraph, which gives the honest-residue admission real weight instead of burying it.
+- **One dropped-word clunk**: "a character name for a college Wii U" → "a character name on a Wii U back in college."
+
+I deliberately left the best material untouched: the bits-breaking cold open, the money ledger table, the interior beat, the empathy turn in the iDubbbz section, and the Naroditsky peak ("it cracked exactly once that fall, and it was for someone else").
+
+**Verdict: production-ready on prose.** The remaining gates before publish are the frontmatter enrich stage (faqs) and the normal grade/publish workflow — no further substantive editing pass needed.
+[Stage 5] editor_pass finished 02:47:17 (exit=0, 211s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:47:17)
+Command: /blog_content_frontmatter_enrich_people penguinz0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+Frontmatter enrichment complete: **Penguinz0**
+
+**Fields filled:**
+
+- `wikidata_qid` (Q98465764), `imdb_id` (nm5694647 — cross-checked via Wikidata P345), `birth_date` (1994-08-02), `birth_place` (Tampa, Florida, United States), `nationality`, `occupation` (4), `knows_about` (6), `keywords` (10), `same_as` (4), `citations` (6), `faqs` (5)
+
+**Fields already present (preserved):**
+
+- `wikipedia` (points correctly to the Cr1TiKaL article — no mismatch to flag), `twitter`, and `lastmod` untouched
+
+**FAQs generated (5):**
+
+1. What is penguinz0's personality type? → `#what-is-penguinz0s-personality-type`
+2. Why did penguinz0 turn off donations? → `#what-penguinz0-made-and-what-he-kept`
+3. Does penguinz0 have OCD? → `#the-hundred-rituals-that-ran-charlie-whites-teenage-years`
+4. Why is moistcr1tikal called penguinz0? → `#why-charlie-white-still-lives-in-tampa`
+5. How much money has penguinz0 made? → `#what-penguinz0-made-and-what-he-kept`
+
+All anchors match the body's actual H2 slugs. FAQ 4 covers the "why is he called penguinz0" search gap the fresh-eyes review flagged. Answers avoid em-dashes to stay lint-clean, and apostrophes are YAML-doubled (`''`), so this draft won't trip the FAQ-frontmatter build break from past pipeline runs.
+
+**Verification:** YAML parses cleanly (js-yaml), and `blog-lint` now reports **0 fail, 0 warn** — including "faqs present and FAQPage-eligible (5 real Q/A pairs)", clearing the WARN left open by the second-pass notes.
+
+**Issues:**
+
+- The body contains zero external hyperlinks — sources are named inline (Dexerto, VGC, Tubefilter, WIRED) but never linked. Per the edge-case rule I did not invent body links; I resolved the named references to their verified URLs for `citations` (Dexerto's earnings-reveal article, VGC's "better options for your money" piece, Tubefilter's $35M breakdown, plus Wikipedia entries for Cr1TiKaL, Moist Esports, and Daniel Naroditsky). Worth noting for the publish gate as a thin-sourcing style choice, not a data gap.
+- The WIRED autocomplete interview couldn't be cited directly (wired.com blocks the crawler), so it's referenced only inside the name-origin FAQ answer, matching how the body cites it.
+[Stage 6] enrich_frontmatter finished 02:52:01 (exit=0, 284s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 159 chars
+ok    meta_title length 53 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (60 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 6
+ok    body length 3778 words (ceiling 4500)
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: penguinz0 — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+─────────────────────────────────────────────────────
+[Stage 6.6] quality_report  (started 02:52:01)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs penguinz0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/6.6_quality_report.log
+─────────────────────────────────────────────────────
+blog-quality-report: penguinz0
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Why penguinz0 Turned Off the Money (Enneagram Type 9)
+   answer-block: ok (60 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 401)
+[Stage 6.6] quality_report finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.7] source_audit  (started 02:52:01)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs penguinz0 --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/6.7_source_audit.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — penguinz0  (Type 9)
+/Users/djwayne/9takes/src/blog/people/drafts/penguinz0.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I'm not special. I got lucky. I have always said that and I still believe that to this day. … I'm Not Turning It Back On"
+             outlet=""I'm Not Turning It Back On""  year=2025
+
+### COLD OPEN
+  [INLINE  ] "I'm Turning It Off,"
+             outlet="Dexerto"  year=2025
+  [INLINE  ] "a call to inaction … This isn't reverse psychology. I'm not trying to get into your noodle and rearrange neurons in a confusing, complex gambit here. I am just asking you honestly not to."
+             outlet="Dexerto"  year=2025  venue="youtube"
+  [INLINE  ] "I'm Not Turning It Back On."
+             outlet="Video Games Chronicle"  year=2007  venue="youtube"
+  [INLINE  ] "There are so many better options for your money than giving it to me."
+             outlet="Video Games Chronicle"  year=2025
+
+### DIAGNOSIS
+  [INLINE  ] "I'm Not Turning It Back On, … It just doesn't sit right with me."
+             outlet="Dexerto"  year=2025
+  [INLINE  ] "I'm not trying to make a rallying cry here. I'm not your dad."
+             outlet="Dexerto"  year=2025
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  (no quoted material in slot)
+
+------------------------------------------------------------------------
+SUMMARY: 7 load-bearing quote(s) — 7 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 6.7] source_audit finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.8] same_type_similarity  (started 02:52:01)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs penguinz0 --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/6.8_same_type_similarity.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — penguinz0 (Type 9)
+/Users/djwayne/9takes/src/blog/people/drafts/Penguinz0.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 23
+Comparison set (last 8 other Type-9 drafts by date):
+  - Ibai-Llanos  (2026-07-30, 41 units)
+  - Jason-Sudeikis  (2026-07-30, 24 units)
+  - britney-spears  (2026-07-29, 35 units)
+  - Mira-Murati  (2026-07-28, 32 units)
+  - caseoh  (2026-07-26, 34 units)
+  - seth-rogen  (2026-07-04, 19 units)
+  - Zac-Efron  (2026-07-02, 21 units)
+  - Brendan-Fraser  (2026-06-29, 23 units)
+
+Noise floor over 5267 unit pairs:  median=0  p90=0  p99=0.005  max=0.093
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.093 ####                 caseoh
+  0.070 ###                  Mira-Murati
+  0.034 #                    britney-spears
+  0.030 #                    Ibai-Llanos
+  0.027 #                    Zac-Efron
+  0.018 #                    seth-rogen
+  0.013 #                    Jason-Sudeikis
+  0.007                      Brendan-Fraser
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.093   penguinz0  <->  caseoh
+   TARGET [diagnosis] The Enneagram Type 9 runs on equilibrium
+   OTHER  [diagnosis] The Enneagram Type 9 moves through the world protecting exactly this
+
+score 0.070   penguinz0  <->  Mira-Murati
+   TARGET [diagnosis] because being the center of a movement is louder than being at peace.
+   OTHER  [diagnosis] Founder culture selects for people who grab the center of gravity.
+
+score 0.067   penguinz0  <->  Mira-Murati
+   TARGET [counter-typing] but Ones crusade from standards and carry audible self-criticism
+   OTHER  [counter-typing] But Ones assert their standards and criticize
+
+score 0.056   penguinz0  <->  caseoh
+   TARGET [diagnosis] His summary of the biggest voluntary earnings reveal in streaming history is the quote this profile opened on
+   OTHER  [diagnosis] he was already one of the biggest streamers alive
+
+score 0.053   penguinz0  <->  caseoh
+   TARGET [counter-typing] and planting himself in the middle of every conflict on the internet
+   OTHER  [counter-typing] The loudest genre on the internet almost never produces a Peacemaker at the top.
+
+score 0.034   penguinz0  <->  britney-spears
+   TARGET [counter-typing] yet his baseline is trust and unflappability
+   OTHER  [diagnosis] Yet the early pattern is unusually trusting and adaptive
+
+score 0.030   penguinz0  <->  Ibai-Llanos
+   TARGET [diagnosis] the refusal landed in the same follow-up Dexerto and Tubefilter were covering in October 2025
+   OTHER  [diagnosis] in the same March 2022 Infobae roundup
+
+score 0.028   penguinz0  <->  Mira-Murati
+   TARGET [counter-typing] the exact place a Five will not stand.
+   OTHER  [counter-typing] the person who withdraws to keep their mind free is a Five.
+
+score 0.027   penguinz0  <->  Zac-Efron
+   TARGET [diagnosis] The rest of the diagnosis is everywhere once you look.
+   OTHER  [diagnosis] Efron hands you the diagnosis without meaning to.
+
+score 0.027   penguinz0  <->  britney-spears
+   TARGET [counter-typing] and the vigilance appears only under stress
+   OTHER  [diagnosis] Type 9 moves toward the anxious vigilance of Type 6 under stress and toward the self-directed agency of Type 3 in growth.
+
+score 0.027   penguinz0  <->  Zac-Efron
+   TARGET [diagnosis] "I'm not trying to make a rallying cry here.
+   OTHER  [counter-typing] and spends his adult life trying to find it again.
+
+score 0.026   penguinz0  <->  caseoh
+   TARGET [diagnosis] the refusal landed in the same follow-up Dexerto and Tubefilter were covering in October 2025
+   OTHER  [diagnosis] "He was really chill." And in the same hour
+
+------------------------------------------------------------------------------
+Top pair scores 0.093 vs median 0  (~∞x the noise floor).
+[Stage 6.8] same_type_similarity finished (exit=0, 1s)
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:52:02)
+Command: /grade_blog penguinz0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — penguinz0
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Penguinz0 | 9 | 8 | 9 | 9 | 8 | 9 | 8.6 | B+ |
+
+(Weighted: `(9×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability ≥ 7, so no gate. Graded against the Matt-Smith B-band anchor; this draft clears it on sourcing discipline and critic-pressure honesty.)
+
+### Key observations
+
+- **Best-sourced draft in recent batches.** The source audit came back 7/7 load-bearing quotes inline, 0 vague, 0 untagged — every money figure traces to his own on-screen reveal with outlet and date. Both critic pressures (the "PR move at $41M" reading and the weathervane charge) are conceded and answered rather than ducked, including an honest-residue sentence that keeps the resolution from being too tidy.
+- **The thesis genuinely clicks.** OCD self-dismantling, the donation shutdown, and the judge persona all resolve into one equilibrium-defense engine; "kept the architecture and fired the architect" and the unpayable-bits-number-as-ritual close are real signature details. The ending passes the swap test decisively.
+- **Writing capped at 8 (contrast engines).** The detector reads 0 contrast pairs, but that's the documented blind spot from Brooke-Monk's ledger: this draft's engines straddle sentence boundaries ("was not building mystique. He just liked the wall," "never been the absence of structure. It is structure with his own name on the deed," plus two more). Hand count 3–4 > the 2-use threshold. The fingerprint ledger's "0/0" claim is technically true and materially incomplete.
+- **Sameness echoes noted but not capped.** Three house moves a serial reader will feel — the "He built it." intro twist (≈ Brooke-Monk's "That look took six years to build"), the "Watch what he kept." reader-command (≈ KSI's "Watch what he does with losses"), and the wound-return close shape. Two near-verbatim hits, under the 3+ bar for the Originality cap; listed in the sidecar for the revision pass. Originality holds at 8 rather than 9 because the biographical beats are the subject's best-known lore — the synthesis is novel, the parts aren't.
+- Grade written to the draft frontmatter (`first_overall: 8.6`); feedback sidecar at `docs/content-analysis/grades/Penguinz0.review.md`. No legacy QUALITY GRADE blocks were present to remove.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 02:56:35 (exit=0, 273s)
+
+[Stage 8] No revision needed (overall 8.6 >= 8.5, discoverability 9 >= 7, lint clean)
+
+[Stage 9] Running mandatory independent stability regrade required by the publish gate
+[pre-grade] Stripping existing content_quality block from src/blog/people/drafts/penguinz0.md for a clean re-grade
+[pre-grade] Removing prior grade-feedback sidecar for penguinz0
+─────────────────────────────────────────────────────
+[Stage 9] regrade  (started 02:56:35)
+Command: /grade_blog penguinz0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/9_regrade.log
+─────────────────────────────────────────────────────
+## Grading Complete — penguinz0
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Penguinz0 | 9 | 7 | 9 | 9 | 8 | 9 | 8.4 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. One cap applied: `sameness_3plus_moves`.)
+
+### Key Observations:
+
+- **This is a strong draft held back by one thing: house furniture.** Uncapped, Originality read like a 9 — the calm-as-built-artifact thesis, the money-as-obligation Type 9 reading, and the unpayable-bits-number ending all pass the swap test decisively. But read serially against KSI, Jason-Sudeikis, and Ibai-Llanos, three house moves reuse near-verbatim: the 5/5 label-colon TL;DR skeleton (all three comparators run the identical pattern), the epigraph→cold-open→reframe-twist furniture ("The calm reads as a temperament he was born with. / He built it."), and the return-to-the-wound close. That trips the 3+ threshold and caps Originality at 7 — the same cap Brooke-Monk took and then cleared on regrade by varying the furniture. Writing sits at 8 for the same architectural fingerprint, not sentence-level craft.
+- **Evidence and discoverability are the draft's real strengths.** Source audit came back 7/7 inline with zero untagged slots; every ledger claim I spot-checked reproduced exactly on re-run (similarity scan, heading mix, distribution count) — after a stretch of stale-ledger drafts, this one is working from a true baseline. Frontmatter is near-optimal: meta_title 53 chars, description 159, five genuine search-intent FAQs covering both handles (penguinz0 and moistcr1tikal), head-term check PASS with a 60-word answer block.
+- **The interior/empathy machinery genuinely clears the bar.** The National Treasure inner-thought beat is a real interior moment, and the empathy turn ("What looks like a missing spine is a load-bearing one that only activates for other people's weight") avoids house armor-grammar by reframing through the critics' own accusation word. No `house_empathy_turn` cap.
+- **One sourcing gap worth fixing:** the Billy Mitchell beat carries the empathy turn's tiebreaker (held firm under litigation risk) but runs the $275K judgment and Brisbane testimony with no inline outlet — the most load-bearing non-quote claim in the piece.
+
+The path to B+/A is concrete and cheap: vary two of the three capped moves (break the TL;DR label pattern, drop the epigraph or the reframe twist) and add one inline citation for the Mitchell judgment. Full details in `docs/content-analysis/grades/Penguinz0.review.md`; grades written to the draft frontmatter.
+
+**Total graded this session: 1**
+[Stage 9] regrade finished 03:02:17 (exit=0, 342s)
+
+─────────────────────────────────────────────────────
+[Stage 9.2] record_grade_stability  (started 03:02:17)
+Command: node /Users/djwayne/9takes/scripts/personBlogParser.js penguinz0 --record-grade-stability --first-overall=8.6
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/9.2_record_grade_stability.log
+─────────────────────────────────────────────────────
+Recorded grade stability for penguinz0: 8.6 -> 8.4 (delta 0.2)
+[Stage 9.2] record_grade_stability finished (exit=0, 0s)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: penguinz0
+Finished: Sat Aug  1 03:02:17 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0
+LINT: passed
+REVISION LOOP: not needed
+
+Final draft frontmatter (grade summary):
+enneagram: '9'
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8
+  originality: 7
+  discoverability: 9
+  overall: 8.4
+  first_overall: 8.6
+  regrade_overall: 8.4
+  grade_stability_delta: 0.2
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-08-01'
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0/summary.json
+═════════════════════════════════════════════════════
+[2026-08-01 03:02:17] [INFO] Pipeline exited code=0 after 62 min
+[2026-08-01 03:02:18] [WARN] DRAFT COMPLETE, PUBLISH BLOCKED: content_quality_below_8.5:8.4; missing_full_image; missing_thumbnail_image
+[2026-08-01 03:02:18] [WARN] Draft completed but publish-blocked: Charlie White (penguinz0 / MoistCr1TiKaL) — grade 8.4 (B)
+[2026-08-01 03:02:18] [INFO] NOTIFY: ⚠️ 9takes nightly blog: Charlie White (penguinz0 / MoistCr1TiKaL) (Type ?) — draft complete but PUBLISH BLOCKED: content_quality_below_8.5:8.4; missing_full_image; missing_thumbnail_image
+[2026-08-01 03:02:18] [INFO] Nightly blog cron finished
