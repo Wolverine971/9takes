@@ -1,0 +1,44 @@
+## Cohesion Check Complete: ksi.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+KSI is an Enneagram Type 3 whose entire public life is one machine for overturning a single childhood verdict (the Portugal kitchen after his failed AS-levels): shame gets converted into measurable results before he ever has to sit in it.
+
+### Thread Map
+1. **Cold open (Wembley halftime)** — poses the puzzle: why sing the joke? Promises the kitchen as the answer.
+2. **What is KSI's personality type?** — names the mechanism (unachievable goal, counting everything, shame-to-motion reflex), collapses the 7/8 counter-typings on post-loss behavior, and pre-seeds the backlash section ("We'll get to those thirty days").
+3. **Why KSI's A-Level Results Still Run His Life** — the origin scene the reflex answers; ends "retaking that exam ever since."
+4. **Who Is KSI When the Camera Stops?** — the persona as the instrument built for that retake; the one unscored room (the relationship).
+5. **Why KSI Keeps Picking Fights He Can Lose** — jeopardy as product, the Fury loss, the stress-arrow stall, and the universal L-conversion list.
+6. **Thirty Days Inside the "Thick of It" Backlash** — the one mockery that got through (self-authored arena), the empathy turn back to the kitchen, and the two counterexamples proving the machine only spins for verdicts he disputes.
+7. **Why KSI Left the Sidemen** — the 2025–26 loss stack culminating in the first exit that broke the pattern.
+8. **The Poem About Dads** — pays off the kitchen; the appeal is still open.
+
+The chain holds top to bottom. Every section feeds the verdict/conversion spine, and the intro's promise is paid off in the final line.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 9/10 | 0 |
+| Section Transitions | 8/10 | 2 |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+### Changes Made (2 total)
+
+**Transition Fixes (2):**
+- [Diagnosis] → [A-Levels]: The diagnosis ended on "shame gets converted into motion" and the next section cold-opened on his father's biography with no connective tissue. Added "The reflex was installed early, and expensively." at the section top — "reflex" carries the previous section's closing concept forward, and "expensively" sets up the Berkhamsted fees two sentences later.
+- [A-Levels] → [Camera Stops]: The exam-retake close jumped straight to Dr Disrespect tape study. Added "Results on that scale took a louder man than the one his parents raised." — carries "results" from the prior section's final line and frames the persona as the machine built to generate them, which is exactly what the section then shows.
+
+Both additions pass the AI-language ban (no em-dashes, no banned words, short declaratives matching the surrounding rhythm).
+
+### What Was Preserved
+- All frontmatter, working-notes comments, ledgers, and fresh-eyes/second-pass blocks
+- All Svelte-adjacent markup (accordions, timeline, pull-quote, inner-thought), all internal links
+- 5 of 7 section boundaries untouched — the fights→backlash handoff (pre-seeded by "We'll get to those thirty days") and the Sidemen→poem close are genuinely strong, and the intro's kitchen tease carrying across the diagnosis section is deliberate house structure that works
+
+### Remaining Concerns
+- **Word budget**: the second-pass notes flag the body at 4,408 words against a 4,500 ceiling with "cut before adding." My two bridges add ~20 words, so you're at roughly 4,430 — still under, but the next pass should trim, not grow.
+- **Minor chronology back-step**: the final section (May 16, 2026) sits two weeks before the Sidemen exit (May 31) that closes the previous section. The date-stamps make it visible to a careful reader, but the poem must end the piece and reordering would wreck the structure — I'd leave it. Flagging only so nobody "fixes" it into a worse shape later.

@@ -21,14 +21,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: A (9.3) | Priority: none | Safety: n/a
-Strengths: practical utility (9.9); evidence quality (9.6).
-Improve next: Push for more distinctive insight and less generic phrasing. Improve structural flow and readability across sections.
-Tags: none
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
   import instagram from '$lib/images/instagram.svg';

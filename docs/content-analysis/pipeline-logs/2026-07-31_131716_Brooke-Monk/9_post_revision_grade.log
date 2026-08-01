@@ -1,0 +1,27 @@
+Frontmatter parses clean, no legacy grade blocks.
+
+## Grading Complete — Brooke Monk (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Brooke-Monk | 9 | 8 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+Weighted: `(9×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.64`. Discoverability 9 — no gate. First grade 8.1 → regrade 8.6 (delta +0.5).
+
+### Key observations
+
+**The revision earned the move, and I verified it independently rather than taking the ledgers' word.** Both caps from the first grade are cleared. `cross_draft_sameness`: checked against KSI (same day, same type), Jason-Sudeikis, and Ibai-Llanos — Brooke's TL;DR is 2/5 templated bullets against 5/5 in all three comparators, the corpus-stat sentence and epigraph are gone, and one reader-command imperative survives. Four of five flagged moves are varied or removed. `house_empathy_turn`: the punchline now lands on her own quoted verb, no armor/scar-tissue grammar anywhere.
+
+**Evidence moved 8 → 9 because both defects were actually fixed.** Doolaramani's quotes now carry in-body attribution, and the deepfake names The Mirror and states outright that no outlet fixes a date — the piece shows the reader its footing instead of hiding it. 9 inline, 0 vague, 0 untagged across five distinct source types.
+
+**One new cap: `split_negation_engine`, Writing held at 8.** The cross-sentence "negate a reading, then assert the replacement" construction fires ~6–7 times in the body. The detector can't see it (it correctly reports 0 contrast pairs) because the contrast straddles a sentence boundary. The revision pass replaced a stale carried-forward count with a hand count of 2 — that hand count is also wrong. Second consecutive pass where this ledger line has been inaccurate.
+
+**Two ledger claims fail spot-check.** The FORMULA FINGERPRINT LEDGER says the same-type similarity scan is "CLEAR … threshold not tripped." Re-running it prints **TRIPPED** with two pairs above 0.04 (0.086 madonna, 0.064 margaret-qualley). The script exits 0 regardless, so the ledger conflated exit code with verdict. The trip pairs are generic clause overlap rather than shared argument templates, so this doesn't cost Originality — but the ledger asserts a result the tool doesn't report.
+
+**One unsourced specific is sitting in the FAQ schema.** "her comment sections fill with people recognizing the room" has no source anywhere and appears in FAQ 3. That's the block an answer engine lifts and attributes to us, which makes it the worst available place for an unsourced claim.
+
+**What holds it off an A:** the most original angle is still in the type-challenge memo, not the body — she *publishes* the machinery, which inverts the classic Three's protection of effortlessness. The body gives it one paragraph as an aside while the spine runs the expected reading (homeschooled kid fights siblings, then fights the algorithm). The evidence for the better thesis is already in the file.
+
+Sidecar written to `docs/content-analysis/grades/Brooke-Monk.review.md` with a five-item TO REACH A list.
+
+**Total graded this session: 1**

@@ -1,0 +1,23 @@
+Frontmatter enrichment complete: **KSI**
+
+**Fields filled:**
+- `wikidata_qid: 'Q16235544'` — verified against Wikidata directly ([wikidata.org/wiki/Q16235544](https://www.wikidata.org/wiki/Q16235544))
+- `imdb_id: 'nm6518846'` — cross-checked via Wikidata property P345 per the spec, not guessed
+- `same_as` — expanded from 1 to 4 entries: Wikipedia (existing, untouched) + Wikidata + IMDb + his [Official Charts artist page](https://www.officialcharts.com/artist/48106/ksi/) (appropriate since chart positions are load-bearing evidence in this analysis)
+- `faqs` — 5 entries, freshly generated (second-pass notes explicitly left this for the enrich stage)
+
+**Fields already present (preserved untouched):**
+- `wikipedia`, `birth_date`, `birth_place`, `nationality`, `occupation` (5), `knows_about` (6, all real — no templated-backfill pattern), `keywords` (9), `citations` (14), all social handles, `lastmod`
+
+**FAQs generated (5):**
+1. What is KSI's personality type? → `#what-is-ksis-personality-type`
+2. Why did KSI leave the Sidemen? → `#why-ksi-left-the-sidemen`
+3. Why did KSI perform 'Thick of It' at Wembley after the backlash? → `#thirty-days-inside-the-thick-of-it-backlash`
+4. What is KSI like off camera? → `#who-is-ksi-when-the-camera-stops`
+5. Why does KSI keep boxing opponents who can beat him? → `#why-ksi-keeps-picking-fights-he-can-lose`
+
+All anchors map to actual H2 headings in the body, all answers summarize arguments the body actually makes, and quoting follows the Einstein gold-standard convention (double-quoted YAML with inner single quotes). YAML validated with a parser after writing — clean parse, no build-break risk. Body and HTML comment blocks untouched.
+
+**Issues:** none. One minor note: Wikidata lists his birthplace as London while the draft (and Wikipedia) say Watford — the draft's existing value is correct and was left as-is.
+
+Sources: [KSI — Wikidata](https://www.wikidata.org/wiki/Q16235544), [KSI — Official Charts](https://www.officialcharts.com/artist/48106/ksi/)

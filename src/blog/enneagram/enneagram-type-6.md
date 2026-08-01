@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: A (9) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.4); practical utility (9.3).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
-Tags: weak-hook
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Midjourney prompt:
 vigilance under uncertainty greek statue sentinel mapping multiple paths with lantern and shield, alert worried expression, windy cliffside above distant city lights, Unreal Engine, Cinematic, stormy blue-gray with protective warm lantern tones, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Backlight and Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700

@@ -1,0 +1,41 @@
+Frontmatter parses cleanly; all five FAQ anchors resolve to real H2s in the body; `lastmod` and the body are untouched.
+
+```
+Frontmatter enrichment complete: Brooke-Monk
+
+Fields filled (3 new + 2 same_as entries):
+- wikidata_qid: Q123028765
+- imdb_id: nm13451636 (double-confirmed: Wikidata P345 + IMDb pages resolving to her)
+- birth_place: 'Jacksonville, Florida, United States'
+- same_as: added Wikidata + IMDb URLs (was 2 items, now 4 — meets the 3–6 target)
+
+Fields already present (preserved untouched):
+- wikipedia, birth_date, nationality, occupation (4), knows_about (5),
+  keywords (8), citations (13), faqs (5), all social handles
+
+FAQs generated: 0 — the existing 5 are substantive, body-derived, and not the
+templated-backfill pattern. Left exactly as-is per strict idempotency.
+All 5 anchors verified against real H2s in the body.
+
+Issues:
+1. `wikipedia` is a redirect, not an article. en.wikipedia.org/wiki/Brooke_Monk
+   302s to "List of most-followed TikTok accounts" — she has no standalone
+   Wikipedia page. Left in place per the no-overwrite rule, but flagging it:
+   the Schema.org `sameAs` will point readers/crawlers at a list article where
+   she's one row. Your call whether to drop it and let the Wikidata + IMDb +
+   Forbes links carry `same_as` instead.
+2. birth_place conflicts with a note in your own working memo. The memo flags
+   that Forbes says she grew up homeschooled in California while most coverage
+   says Jacksonville, Florida, and that the body deliberately names no home
+   state. Wikidata has no P19 at all. I wrote Jacksonville, Florida on IMDb's
+   editorially-moderated record — but that's *birthplace*, which is a different
+   claim than *where she was raised*, so it doesn't contradict the body's
+   silence. If you'd rather the frontmatter stay as agnostic as the body, this
+   is the one line to delete.
+3. `knows_about` includes 'Homeschooling' and 'Doting Beauty' — thin as
+   Schema.org expertise areas (one is a circumstance, one is her own product).
+   Not the occupation-copy backfill pattern, so I left them under additive-only.
+   Worth a look if you want that field sharper.
+```
+
+Sources: [Wikidata Q123028765](https://www.wikidata.org/wiki/Q123028765), [IMDb nm13451636](https://www.imdb.com/name/nm13451636/), [Wikipedia redirect check](https://en.wikipedia.org/wiki/Brooke_Monk)

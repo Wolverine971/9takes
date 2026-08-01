@@ -1,0 +1,32 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Brooke-Monk.md`
+
+**Before score: 7/10**
+**After score: 9/10**
+
+### Central Thesis
+Brooke Monk is a Type 3 who learned in a crowded homeschooled house that being unmemorable is the thing to fear, and every visible feature of her career is a machine built so the room never scrolls past her.
+
+### Changes Made (7 total)
+
+**Transition Fixes (5):**
+- **Diagnosis → Childhood**: added "She will also tell you where it started." Carries the "narrate" keyword into a section built entirely from her own quotes.
+- **Childhood → White wall**: added "Building a high school she had never attended took work. So does looking like nothing was built." Carries construction forward and sets up "reads accidental."
+- **White wall → Same word**: this was the near-broken one. "You already read the first of these" had no antecedent in the prose, only in the H2, so the reader decoded a pronoun by reaching back into a heading. Now prefaced with "She has explained every piece of the machine on the record. One thing she has never explained is a word she keeps reaching for," which supplies the antecedent and bridges from "None of this is hidden."
+- **Same word → Pollock**: added "A version of that verdict already exists in print." Carries "verdict" from the diagnosis section and makes Pollock the concrete answer to the abstract "day the room stops looking" question.
+- **Doting Beauty → Close**: added "The internet had already answered that question for her. She read the answer out loud two years before that interview." Bridges "doesn't know who she is off camera" to the subreddit, and flags the jump back to 2021.
+
+**Internal Flow Fixes (2):**
+- Close: "The rule has two exceptions" → "The 1 p.m. rule has two exceptions." Mid-section the draft assigns "the rule" to her parents' don't-show-your-face rule ("That is the rule from the childhood section"), so the final beat was colliding on the antecedent.
+- White wall: "a wrinkle mine skipped" → "a wrinkle my summary skipped." No first-person voice was established for "mine" to attach to.
+
+### What Was Preserved
+- All frontmatter, all five ledgers, the FAQ block, the TL;DR and Rabbit Hole accordions, all four internal links, the source-card and inner-thought components
+- Every argument, quote, and piece of sourcing. No section reordered, cut, or rewritten
+- The Rabbit Hole's position (after Pollock, before Doting Beauty). The "catalog" keyword carries across it cleanly and the second pass moved it there deliberately
+- The seam into the close, the white-wall mechanism, and the two-exceptions ending, all flagged as working by fresh eyes
+
+### Verification
+`blog-lint.sh`: 0 fail, 1 warn. Contrast-pair engines still 0 strong / 0 comparative, so the new bridges didn't trip the formula detector. No em-dashes, no banned phrases. Logged the pass in a COHESION PASS ledger and corrected the two stale word-count references.
+
+### Remaining Concerns
+Word count is now 4394 against the 4500 ceiling, up from 4317. That was already the file's one open warn, and the cohesion bridges spent about 60 percent of the remaining headroom. The next refresh needs to cut before it adds. If you want that headroom back, the cheapest trim is the manager/LinkedIn paragraph in the white-wall section, which repeats a point the Rabbit Hole's growth-arrow entry already makes.

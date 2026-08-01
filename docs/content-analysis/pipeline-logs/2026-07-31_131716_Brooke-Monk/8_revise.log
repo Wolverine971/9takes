@@ -1,0 +1,26 @@
+Revised `src/blog/people/drafts/Brooke-Monk.md`.
+
+**What triggered the loop:** grade B (8.1) with two caps applied — `cross_draft_sameness` (Originality pinned at 7) and `house_empathy_turn`. Lint was already clean, so every edit came from the grader sidecar.
+
+**Fixes, mapped to the feedback**
+
+*TO REACH B+ items:*
+- **(1) Varied three reused house moves.** Reader-command imperatives went 3 → 1 ("Read that twice" cut; "Consider what a deepfake actually does" → declarative; kept "Sit with the last four words"). Epigraph dropped so the "sixteen the first time she was allowed to own a phone" line carries the cold open alone, with the "little machine" quote relocated into the diagnosis. TL;DR bullets went 5/5 → 2/5 in the "The [noun]:" form.
+- **(2) Sourcing made visible.** Doolaramani now carries "told the Founder's Story podcast in 2025" inline, with "On that same podcast" covering his other two quotes. The deepfake names The Mirror in-body and states plainly that no outlet fixes a date.
+- **(3) Corpus-stat sentence cut** from the middle of the diagnosis.
+- **(4) Empathy-turn punchline rewritten.** "It is a safety mechanism with a posting schedule" is gone; the turn now lands on her own quoted verb ("you really have to fight to be remembered") and the room-and-scroll frame.
+- **(5) Three bare metrics dated** — 47M as of mid-2026, 11.5M as of July 2026, 28,000 in October 2021.
+
+*NEEDS WORK items:* Doting Beauty rebalanced — the aging-out problem gains a paragraph, the brand-deal block moved into the Rabbit Hole counterarguments where it now carries the quote instead of a paraphrase. Split-negation engine recounted by hand (the ledger's "3" was stale, the grader's "at least 7" was right) and cut to 2 deliberate instances.
+
+I also chased one gap outside the TO REACH list: the LinkedIn "publishes her own back-end numbers" claim was unsourced and load-bearing twice. One search confirmed the public account and its creator-economy posting but not that specificity, so both instances now claim only what's checkable.
+
+**Rejected**
+- *Vary the aphoristic-fragment closers.* Only two true fragments exist — the cold-open payoff and the protected ending. "The play just found a bigger house" is a full sentence and its section closes on a question. Varying either real one costs the hook or the ending.
+- *Return-to-the-wound closing shape.* That's the Ending Rule working, not drift; three of five moves are varied as asked.
+
+**Two things worth your eye, left unchanged:** her own LinkedIn headline says "Forbes #37" against the draft's verified No. 38 (likely a stale self-written bio — the second pass verified against Forbes directly). And the source-audit script still labels the "little machine" quote as Forbes 2026; the body reads "in that same Elite Daily conversation" right before it, but the script's 180-char forward window catches the next paragraph. Classification is INLINE regardless.
+
+**Lint: clean** — 0 fail, 1 warn (4354 words of a 4500 ceiling, up from 4305; the moved brand-deal block still counts toward the body, so I trimmed four spots to bring it back). Contrast pairs 0, same-type similarity clear, source audit holds at 9 inline / 0 vague / 0 untagged.
+
+The pipeline will clear the consumed review sidecar and re-grade. I did not touch `content_quality` or `lastmod`.

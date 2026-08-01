@@ -21,15 +21,6 @@ quality_safety_gate: 'fail'
 quality_update_note: 'Safety edits applied 2026-03-10: softened diagnostic language, added parent disclaimer, reframed clinical claims as observational patterns'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: D (6.9) | Priority: rebuild | Safety: fail
-Strengths: practical utility (9.9); Enneagram depth (9.7).
-Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
-Tags: safety-boundary-risk
-Graded: 2026-02-22
-UPDATE 2026-03-10: Safety edits applied — softened diagnostic language, added parent disclaimer, reframed clinical claims as observational patterns, softened warning signs table. Needs re-grading.
-QUALITY_FEEDBACK_END -->
-
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

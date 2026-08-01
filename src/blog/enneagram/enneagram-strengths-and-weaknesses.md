@@ -21,14 +21,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.8) | Priority: none | Safety: n/a
-Strengths: practical utility (9.9); Enneagram depth (9.7).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
-Tags: weak-hook, template-fatigue
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!-- MIDJOURNEY PROMPTS
 
 Hero Image - Balance of Strengths and Weaknesses:

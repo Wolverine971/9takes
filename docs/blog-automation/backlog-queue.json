@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-30T06:58:28Z",
+	"lastUpdated": "2026-07-31T07:16:17Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "ksi",
-			"displayName": "KSI",
-			"type": null,
-			"priority": 72,
-			"priorityReason": "DJ-requested 2026-07-25. The existing blogs_famous_people row is a 409-character stub with no draft on disk, so this needs a full write, not a publish. Creator/streamer is the top category (median 979) and he links directly to iShowSpeed, the #1 traffic page at 12,312 impressions, via Prime.",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-25",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
-		},
 		{
 			"name": "penguinz0",
 			"displayName": "Charlie White (penguinz0 / MoistCr1TiKaL)",
@@ -398,6 +385,32 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "ksi",
+			"displayName": "KSI",
+			"type": null,
+			"priority": 72,
+			"priorityReason": "DJ-requested 2026-07-25. The existing blogs_famous_people row is a 409-character stub with no draft on disk, so this needs a full write, not a publish. Creator/streamer is the top category (median 979) and he links directly to iShowSpeed, the #1 traffic page at 12,312 impressions, via Prime.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-07-31T06:00:00Z",
+			"completedAt": "2026-07-31T07:16:17Z",
+			"contentGrade": "8.4",
+			"letter": "B",
+			"discoverability": "9",
+			"duration": "~76 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": [
+				"content_quality_below_8.5:8.4",
+				"missing_full_image",
+				"missing_thumbnail_image"
+			]
+		},
 		{
 			"name": "ibai-llanos",
 			"displayName": "Ibai Llanos",

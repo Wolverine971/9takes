@@ -21,14 +21,6 @@ quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8.4) | Priority: light | Safety: n/a
-Strengths: Enneagram depth (8.3); practical utility (8.3).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Reduce repeated section scaffolding and make type sections more differentiated.
-Tags: weak-hook, template-fatigue
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";

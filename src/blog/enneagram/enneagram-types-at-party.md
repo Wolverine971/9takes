@@ -20,14 +20,6 @@ quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8) | Priority: light | Safety: n/a
-Strengths: Enneagram depth (9.6); practical utility (8.5).
-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
-Tags: template-fatigue
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import  PopCard  from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

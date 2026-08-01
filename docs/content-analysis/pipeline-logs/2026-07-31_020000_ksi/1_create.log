@@ -1,0 +1,20 @@
+KSI draft is complete and all gates pass. Here's the completion report:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/KSI.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): PASS — 10 qualifying quotes enumerated
+       Gate 2 (heading mix): PASS — 6 of 7 H2s search-intent/hybrid
+       Gate 4 (anti-imitation): PASS — zero "A [Type]" ending sentences, scene hook
+       Gate 5 (distribution): PASS — 1 type-theory paragraph outside diagnosis/Rabbit Hole (limit 4)
+       Gate 6 (formula fingerprint): PASS — 0 contrast engines, similarity top score 0.047, bespoke timeline section, Froch/Fantano critic anchors, empathy turn, 2026 anchors
+LIMITATIONS: Tobi "burning"/gaslighting quote is medium-confidence (Sportskeeda coverage, attributed as reported in-text); Diary of a CEO does not exist for KSI (corrected — True Geordie #18 substituted); Hearn's 2M PPV figure attributed as promoter-claimed, not audited
+```
+
+**The thesis:** KSI is an Enneagram 3 whose engine was built on results day 2011 — he failed his A-levels, hid in the bathroom for two hours, then watched his mum smash glasses screaming "all this money we've wasted, you stupid boy" while his dad called him "a disgrace to the family." Everything since is an appeal against that verdict: he converts every public L into a metric (the mocked "Thick of It" → No. 6 UK → BRIT nomination → "defeated the internet" → singing it at Wembley halftime), and he literally told Andrew Schulz he engineered "a goal that isn't achievable" so the striving never stops. The ending lands on May 2026: the man who prices feelings in views crying on live TV at a stranger's poem about hugging your dad.
+
+**Mechanics:** verified quotes throughout (6 transcripts saved to `youtube-transcripts/ksi/`), stats from Bloomberg/Official Charts/Marketing Week/Front Office Sports, corpus stat (T3/T7 tied at 21 among 88 creators) in the Rabbit Hole counterarguments, and cross-links to Logan Paul and iShowSpeed (the #1 traffic page, per the backlog's priority rationale). Current anchors run through June 2026 (Sidemen exit, Tate/Misfits ousting, BGT chair, Dagenham stake). blog-lint: 0 fail, 2 expected warns (FAQs belong to the frontmatter-enrich stage; 4,132 words vs 4,500 ceiling).
+
+Worth knowing: the 2am pipeline run died before writing anything (`1_create.log` is empty), so this run did the full build. Next steps in the chain are `/grade_blog` and then `blog_content_production_people` after human review — this draft is intentionally not auto-promoted to `ready`.

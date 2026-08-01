@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.8) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.4); practical utility (8.4).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
-Tags: weak-hook
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Midjourney prompt:
 achievement identity conflict greek statue running past laurel crowns and masks, polished smile with hidden strain, grand marble stage with mirrored reflections, Unreal Engine, Cinematic, high-contrast monochrome with metallic gold highlights, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Spotlight Cinematic Lighting and Backlight, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700

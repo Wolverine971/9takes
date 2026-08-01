@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.6) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.1); evidence quality (8.1).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
-Tags: weak-hook, low-utility
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 </script>

@@ -1,0 +1,14 @@
+Editor pass on the KSI draft is complete, and all exit checks pass.
+
+**What I found:** This draft arrived unusually clean — the overnight pipeline's second pass had already killed the em-dashes, contrast pairs, and banned phrases, so the mechanical checks were green before I touched anything. The remaining problems were rhythm-level, not rule-level.
+
+**What I changed:**
+- Rewrote the one lecture-y instructional opener ("Understand what mockery normally is in his economy, because this is the paradox the whole month turns on...") into a direct claim: "Mockery is normally an asset in his economy." The draft leans on imperative sentence-starters as a voice motif (Read it again / Look at how he counts / Listen to the last three words / Consider...), and at six instances it was tipping from motif into tic — this was the weakest one, so it went. The five that remain each earn their slot.
+- Split the two densest paragraphs for mobile: the L-conversion list (Luna crypto / Sweden show / Logan Paul / Deji) and the Eurogamer-plus-slur counterexample block, which now runs one paragraph per case.
+- Cut the closing "Even the family feud got converted," which repeated the same paragraph's own "Even enemies get converted" opener. Deji's "he's a king" quote lands the point better on its own.
+
+**What I deliberately left alone:** the Title Case H2s (that's the people-corpus convention, confirmed against the other drafts, despite the general sentence-case rule), the empathy turn (the "defeated the internet" brag re-read through the Portugal kitchen), the bathroom-door interior beat, and the BGT poem ending — the strongest writing in the piece.
+
+**Exit checks:** blog-lint 0 fail / 2 warn, contrast pairs 0 strong / 0 comparative, em-dashes 0, head-term PASS. The two warns are expected: `faqs` frontmatter awaits the enrich stage, and the body sits at 4,410 words against the 4,500 ceiling (my pass trimmed it slightly; the next refresh should cut before adding).
+
+**Verdict:** production-ready from an editorial standpoint. Remaining pipeline steps are the frontmatter enrich stage and the grade gate — no further substantive prose pass needed.

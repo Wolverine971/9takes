@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: A (9) | Priority: none | Safety: n/a
-Strengths: practical utility (9.9); Enneagram depth (9.5).
-Improve next: Push for more distinctive insight and less generic phrasing. Support key assertions with more explicit, high-quality sourcing.
-Tags: none
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
   import TypeQuotes from "$lib/components/blog/callouts/TypeQuotes.svelte";
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";

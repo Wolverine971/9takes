@@ -21,14 +21,6 @@ quality_rewrite_priority: 'major'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: C (7.9) | Priority: major | Safety: n/a
-Strengths: practical utility (9.6); Enneagram depth (8.4).
-Improve next: Add higher-quality sources and anchor key claims with specific evidence.
-Tags: unsupported-claims
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Keyword Strategy:
 - Primary: best enneagram test (246,000/mo)

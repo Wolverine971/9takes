@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.6) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.3); writing/structure (8.2).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
-Tags: weak-hook
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Midjourney prompt:
 longing for the missing piece greek statue holding a single mosaic fragment near heart, melancholic and searching expression, romantic neoclassical ruins beside reflective water, Unreal Engine, Cinematic, indigo blue and muted rose with warm amber accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting and Contre-Jour, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700

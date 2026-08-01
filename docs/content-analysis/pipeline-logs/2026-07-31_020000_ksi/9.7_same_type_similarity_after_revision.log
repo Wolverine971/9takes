@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — KSI (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/KSI.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 38
+Comparison set (last 8 other Type-3 drafts by date):
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+  - jynxzi  (2026-07-25, 30 units)
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+  - madonna  (2026-07-18, 41 units)
+  - David-Beckham  (2026-07-13, 43 units)
+
+Noise floor over 10716 unit pairs:  median=0  p90=0  p99=0.006  max=0.135
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.135 #####                madonna
+  0.099 ####                 pete-hegseth
+  0.069 ###                  jynxzi
+  0.046 ##                   plaqueboymax
+  0.032 #                    David-Beckham
+  0.023 #                    margaret-qualley
+  0.021 #                    Carina-Zavline
+  0.015 #                    Alex-Warren
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.135   KSI  <->  madonna
+   TARGET [diagnosis] That sentence is an Enneagram Type 3 describing his own operating system with unusual honesty.
+   OTHER  [diagnosis] Madonna is an Enneagram Type 3 with a 4 wing
+
+score 0.099   KSI  <->  pete-hegseth
+   TARGET [diagnosis] and the audience gasped while KSI grinned.
+   OTHER  [diagnosis] and the audience became the United States Senate
+
+score 0.069   KSI  <->  jynxzi
+   TARGET [diagnosis] Threes fuse their sense of worth to results
+   OTHER  [diagnosis] Threes route their sense of being a real person through whatever they produced most recently
+
+score 0.060   KSI  <->  pete-hegseth
+   TARGET [diagnosis] then walked back into the same measured arena with a camera rolling.
+   OTHER  [diagnosis] every job he has held has come with a camera attached.
+
+score 0.046   KSI  <->  plaqueboymax
+   TARGET [diagnosis] Both readings collapse on the same evidence
+   OTHER  [diagnosis] and back on the same stage in December 2025 he kept score out loud
+
+score 0.039   KSI  <->  plaqueboymax
+   TARGET [diagnosis] The Enneagram files Threes in the heart triad
+   OTHER  [counter-typing] and the shame collapse at Streamer University are heart-triad signatures.
+
+score 0.037   KSI  <->  jynxzi
+   TARGET [diagnosis] converted into content within weeks.
+   OTHER  [diagnosis] February 2024 Ten million followers had not converted into permission to rest.
+
+score 0.032   KSI  <->  David-Beckham
+   TARGET [diagnosis] what he does the morning after a loss.
+   OTHER  [diagnosis] 1999 Ferguson watched a teenage Beckham train in the morning
+
+score 0.027   KSI  <->  David-Beckham
+   TARGET [diagnosis] Prime hit $1.2 billion in sales in 2023 (Bloomberg).
+   OTHER  [diagnosis] On the podcast Stick to Football in 2023
+
+score 0.024   KSI  <->  plaqueboymax
+   TARGET [diagnosis] Andrew Schulz asked what drives him
+   OTHER  [diagnosis] " he told Forbes in 2026 when asked what he'd tell his younger self.
+
+score 0.024   KSI  <->  madonna
+   TARGET [counter-typing] and his response to public shame is conversion
+   OTHER  [counter-typing] private-sphere evidence of genuine indifference to public reception
+
+score 0.024   KSI  <->  jynxzi
+   TARGET [diagnosis] Every arena he enters gets a number bolted to it
+   OTHER  [counter-typing] Jynxzi responded to being number one by walking away from the game that got him there and then entering arenas he had no standing in
+
+------------------------------------------------------------------------------
+Top pair scores 0.135 vs median 0  (~∞x the noise floor).

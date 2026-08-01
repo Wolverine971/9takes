@@ -21,14 +21,6 @@ quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8.2) | Priority: light | Safety: n/a
-Strengths: Enneagram depth (9.1); framing (7.9).
-Improve next: Add higher-quality sources and anchor key claims with specific evidence. Add concrete steps, checklists, and "what to do next" guidance.
-Tags: unsupported-claims, low-utility
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Midjourney prompt:
 restless Greek traveler statue surrounded by multiple unfinished marble roads and open doorways, kneeling to drink from a single deep spring while abandoned masks and tickets scatter behind, twilight to dawn gradient, neoclassical landscape, cinematic depth, emotionally reflective editorial composition, detailed stone textures --ar 16:9 --stylize 700

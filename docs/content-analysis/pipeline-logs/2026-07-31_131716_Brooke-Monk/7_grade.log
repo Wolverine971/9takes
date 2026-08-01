@@ -1,0 +1,23 @@
+## Grading Complete — Brooke Monk
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Brooke-Monk | 8 | 7 | 9 | 8.5 | 8 | 9 | **8.1** | **B** |
+
+(Weighted: `(8×1.5 + 7×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7 = 8.14`. Discoverability 9 — no gate.)
+
+**Caps applied:** `cross_draft_sameness` (Originality 8 → 7), `house_empathy_turn` (Writing held at 8)
+
+### Key observations
+
+**Deterministic checks all passed** — 0 contrast pairs, head-term PASS, answer block 25 words, same-type similarity clear (top pair 0.086 vs madonna, threshold 0.04 untripped), source audit 9 inline / 0 vague / 0 untagged. I spot-checked the corpus claim against `docs/data/corpus-stats.md` and it's exact (21/88 = 23.9%, tied with Type 7).
+
+**But the clean source audit covers less than it looks like.** The script reported "(no quoted material in slot)" for both EMPATHY TURN and CLOSE — the two most quote-dense sections in the file. Outside the scanned slots there's a real band of unattributed load-bearing material: all three Doolaramani quotes carry the Doting Beauty section with zero in-body attribution, and the deepfake — which carries the entire final movement — is undated with no outlet named in the body. That's Evidence 8, not 9.
+
+**The sameness cap is the main drag.** Against KSI (same day, same type), Jason-Sudeikis, and Ibai-Llanos, five house moves repeat near-verbatim: reader-command imperatives ("Sit with the last four words" / "Read that twice" vs. Ibai's "Sit with that" and KSI's "Listen to the last three words"), the epigraph→cold-open→reframe-twist furniture, the TL;DR skeleton, aphoristic section closers, and the return-to-the-wound close. The draft also kept the corpus-stat sentence that KSI's revision pass explicitly cut.
+
+**What's genuinely strong:** the white-wall section's engineered-emptiness/accidental-signature split is a real original observation, and the close's argument — a deepfake steals precisely the recognizability she spent six years manufacturing — is the best idea in the file. The Pollock empathy turn does the hard version, refusing to launder the verdict it just explained. Discoverability is near-exemplary; all five FAQ anchors resolve to real H2 slugs and each answer is a standalone citable block.
+
+Frontmatter block added before the closing `---` (no `path:` line in this draft yet). Sidecar written to `docs/content-analysis/grades/Brooke-Monk.review.md` with the five-step TO REACH B+ list — the highest-leverage items are varying three of the reused moves and attributing Doolaramani inline.
+
+**Total graded this session: 1**

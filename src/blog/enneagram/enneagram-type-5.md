@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.9) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.2); practical utility (8.8).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
-Tags: weak-hook
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Midjourney prompt:
 fortress mind and cautious connection greek statue scholar guarding a library tower drawbridge, observant reserved expression, marble archive filled with scrolls and star charts, Unreal Engine, Cinematic, cool slate blue and ivory with warm doorway glow, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Moody Lighting and Accent Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700

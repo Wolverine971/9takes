@@ -20,14 +20,6 @@ quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8.1) | Priority: light | Safety: n/a
-Strengths: evidence quality (8.0); framing (7.5).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
-Tags: weak-hook, low-utility, style-friction
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>

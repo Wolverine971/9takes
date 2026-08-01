@@ -1,0 +1,33 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Brooke-Monk.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass · Gate 2: pass · Gate 3: pass · Gate 4: pass · Gate 5: pass · Gate 6: pass
+LIMITATIONS: 3 (see below)
+```
+
+**The read:** Enneagram Type 3, 3w2, social subtype. Confidence high.
+
+The thesis is that Brooke Monk got famous performing a world she'd never entered — Forbes' own line is *"She became famous making videos about a world she'd never lived in"* — and that the effortless-girl-in-her-bedroom look is the single most engineered thing about her. The white wall is stripped on purpose so a scrolling thumb has nothing to look at but her face. She's posted by 1 p.m. every day since September 4, 2019, with two exceptions she named out loud.
+
+The spine of the piece is a two-date quote pair she never connected herself. Elite Daily, 2023, on growing up with five siblings: *"you kind of fight for your own identity."* Forbes, 2026, on the algorithm: *"you really have to fight to be remembered."* Same verb, bigger house. That's the bespoke section form.
+
+The typing tiebreaker is what she does with an insult — she reclassifies "that was annoying" as proof the video held attention and leaves the offending bit in. A One fixes the flaw, a Two over-pleases, a Six hunts the threat. She files it as retention.
+
+**Gate evidence:**
+- **Testimony (Gate 1):** 3 quotes, 2 distinct speakers — her manager Devain Doolaramani (*"such a genius mind"*, *"It's her brand. And it's her vision."*) and critic Lucy Pollock in The Oxford Blue (*"speakers with nothing to say, but high follower counts, like Brooke Monk"*), which doubles as the critic-pressure anchor.
+- **Scripts:** `blog-lint.sh` 0 fail / 0 warn; `blog-quality-report.mjs` 0 contrast-pair engines, head-term PASS; `same-type-similarity.mjs --n 8` clear (exit 0, threshold not tripped).
+- **Distribution:** 0 type-theory paragraphs outside the diagnosis section and Rabbit Hole. Rabbit Hole 692 words, within the 400–700 spec.
+- **Internal links:** 4 (type-3 explainer, wings guide, subtypes guide, Taylor Swift) plus `/corpus-stats`.
+
+**Two fixes I made mid-run rather than shipping:** the first pass claimed Type 3 was the single most concentrated call among the 88 profiled creators — it's actually tied with Type 7 at 23.9%, so I corrected it. And I'd written that Taylor Swift "would be targeted the same way within the year," which I couldn't source given the deepfake incident isn't reliably dated; that's now a claim about the song instead.
+
+**Limitations, all logged in the draft's working notes:**
+1. Forbes publishes two different 2026 earnings figures for her ($5.2M on the profile page, $2.6M in the Top Creators social copy), so the body uses the list rank (No. 38) and no dollar figure.
+2. Forbes says she grew up homeschooled in California; most other coverage places her upbringing in Jacksonville, Florida. The draft names no home state.
+3. The deepfake incident isn't reliably dated in available coverage, so the closing section doesn't date it.
+
+Next step is `/grade_blog` — this command doesn't score, and human review is still required before `blog_content_production_people`.

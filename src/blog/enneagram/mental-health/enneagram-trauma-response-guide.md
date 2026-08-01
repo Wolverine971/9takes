@@ -21,15 +21,6 @@ quality_safety_gate: 'fail'
 quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened diagnostic claims and prescriptive healing sections'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: D (6.9) | Priority: rebuild | Safety: fail
-Strengths: Enneagram depth (9.7); practical utility (9.5).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
-Tags: weak-hook, safety-boundary-risk
-Graded: 2026-02-22
-UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened diagnostic claims and prescriptive healing sections. Needs re-grading.
-QUALITY_FEEDBACK_END -->
-
 <!--
 NOTES:
 - Cover fight/flight/freeze/fawn responses by type

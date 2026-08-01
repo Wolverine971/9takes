@@ -21,14 +21,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.8) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.7); practical utility (8.6).
-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Differentiate from overlapping posts with a clearer unique angle and non-redundant sections.
-Tags: template-fatigue, overlap-duplication
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Keyword Strategy:
 - Primary: enneagram compatibility (22,000/mo)

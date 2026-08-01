@@ -22,14 +22,6 @@ quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8) | Priority: light | Safety: n/a
-Strengths: practical utility (9.5); Enneagram depth (9.4).
-Improve next: Add higher-quality sources and anchor key claims with specific evidence. Tighten flow and readability by trimming dense blocks and sharpening transitions.
-Tags: unsupported-claims, style-friction
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <p class="firstLetter">"Is this just astrology for people who think they're too smart for astrology?"</p>
 
 Fair question.

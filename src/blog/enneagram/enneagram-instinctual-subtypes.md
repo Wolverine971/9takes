@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: A (9.3) | Priority: none | Safety: n/a
-Strengths: practical utility (9.9); Enneagram depth (9.1).
-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
-Tags: none
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import PopCard from "$lib/components/atoms/PopCard.svelte";

@@ -1,0 +1,16 @@
+## Grading Complete — KSI (regrade after revision)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| KSI | 9 | 7 | 9 | 9 | 8 | 9 | 8.4 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Prior grade was 8.1; this regrade lands at 8.4, delta +0.3.)
+
+### Key Observations
+
+- **This is a strong draft held at B by exactly one thing: the cross-draft sameness cap.** Originality is capped at 7 because four house moves survive near-verbatim against the two most recently graded drafts (Jason-Sudeikis, Ibai-Llanos): the epigraph → cold-open → reframe-twist furniture, the reader-command imperatives ("Read it again, slower"), the return-to-the-wound closing shape ("It goes to that kitchen. It is still open."), and the aphoristic section closers. The revision pass explicitly declined to restructure two of these as "a rewrite, not a revision," so the cap carried over. Uncapped, the piece computes to 8.9 (B+) — releasing it is a structural decision, not a line edit, and I've spelled out the three moves in the sidecar.
+- **What earned the 9s:** evidence is corpus-top-tier (10 named-witness testimony quotes all verified in the body, 5/5 load-bearing quotes tagged inline, 0 vague, 0 untagged, metrics sourced); the emotional interior fully lands (bathroom-door inner-thought, an empathy turn built from KSI's own wound vocabulary rather than the banned "it was armor" grammar); and the sharpest move in the piece — the Eurogamer 2012 + 2023 slur counterexamples showing the spin machine *shuts off* for shame he agrees with — turns the obvious objection into typing evidence.
+- **Deterministic checks all clean:** 0 contrast pairs, 0 counter-typing ladders in the body, same-type similarity scan CLEAR (the David-Beckham template pairs from the first grade are gone), head-term PASS, 60-word answer block.
+- Grade written to frontmatter (with the supervised pair fields: first 8.1 → regrade 8.4), sidecar replaced at `docs/content-analysis/grades/KSI.review.md`. No legacy QUALITY GRADE blocks existed in the draft body.
+
+**Total graded this session: 1**

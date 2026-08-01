@@ -5,7 +5,7 @@
 **For:** the agent assigned to fix the click-through rate on `src/blog/enneagram/astrology-and-the-enneagram.md`.
 **Owner:** DJ
 **Created:** 2026-07-15
-**Status:** Not started. Unblocked. Roughly 4 hours of work. This is the highest-ROI item on the site.
+**Status:** Implemented locally 2026-07-31. Production deploy, live index refresh, and measurement are pending.
 **Related:** `docs/content-analysis/2026-07-15_enneagram-blog-audit.md` §6.1 (this page), §6.3 (the editorial pattern behind it), §6.6 (the section-wide anchor finding). Sister taskers: `T-05` (`enneagram-compatibility-matrix`, same disease), `T-06` (the editorial rule that prevents the next dozen), `T-09` (fresh GSC pull). Those three are planned in parallel and may not exist on disk yet. Do not do their work here.
 
 ---
@@ -173,19 +173,19 @@ Do not mechanically swap every em-dash for a comma. Re-read each sentence and pi
 
 ## 5. Verification checklist
 
-- [ ] `rg '\x{2014}' src/blog/enneagram/astrology-and-the-enneagram.md` prints **nothing**
-- [ ] `lastmod` in the frontmatter is byte-identical to before the edit (`git diff` shows no change to that line)
-- [ ] `loc` and the file path are unchanged. The slug did not move.
-- [ ] `meta_title` is 60 characters or fewer, confirmed by passing it through `truncateForSnippet(value, 60)` and getting the input back unchanged
-- [ ] `description` is 155 characters or fewer, same check against `truncateForSnippet(value, 155)`
+- [x] `rg '\x{2014}' src/blog/enneagram/astrology-and-the-enneagram.md` prints **nothing**
+- [x] `lastmod` in the frontmatter is byte-identical to before the edit (`git diff` shows no change to that line)
+- [x] `loc` and the file path are unchanged. The slug did not move.
+- [x] `meta_title` is 60 characters or fewer, confirmed by passing it through `truncateForSnippet(value, 60)` and getting the input back unchanged
+- [x] `description` is 155 characters or fewer, same check against `truncateForSnippet(value, 155)`
 - [ ] The rendered `<title>` on the built page contains the word "Chart" (view source, do not assume)
-- [ ] The correlation chart is the first table on the page, above the "vs." comparison table
-- [ ] The Roulo "no statistical correlation" finding appears above the 25% depth mark, framed as the angle
-- [ ] The H1 and the `title` frontmatter match
-- [ ] The FAQPage JSON-LD block at the bottom still parses and its answers do not contradict the new framing
-- [ ] `pnpm build` succeeds. Bad YAML in a blog frontmatter fails the whole deploy.
+- [x] The correlation chart is the first table on the page, above the "vs." comparison table
+- [x] The Roulo "no statistical correlation" finding appears above the 25% depth mark, framed as the angle
+- [x] The H1 and the `title` frontmatter match
+- [x] The FAQPage JSON-LD block at the bottom still parses and its answers do not contradict the new framing
+- [x] `pnpm build` succeeds. Bad YAML in a blog frontmatter fails the whole deploy.
 - [ ] `pnpm index:blogs` run after the edit so the FTS index picks up the new title
-- [ ] Baseline snapshot recorded per §6 **before** deploy
+- [x] Baseline snapshot recorded per §6 **before** deploy
 
 ---
 
@@ -240,12 +240,35 @@ For reference, the `2026-07-06` values are 86/11,691/0.74%/7.7, then 0/1,387/0.0
 ## 8. Definition of done
 
 - [ ] Title and `meta_title` rewritten to the lookup intent, verified against the live query set in the CSVs, with the rendered `<title>` confirmed to survive the 60-character cap with "Chart" intact
-- [ ] Correlation chart promoted above the fold, ahead of the "vs." comparison table
-- [ ] Roulo finding reframed near the top as the 9takes angle, or explicitly deferred per the §6 escape hatch with a one-line note saying why
-- [ ] Meta description rewritten: 155 characters or fewer, chart-forward, zero em-dashes
-- [ ] All 54 em-dashes gone. `rg '\x{2014}'` prints nothing.
-- [ ] `lastmod` untouched, slug untouched, `enneagram-and-mental-illness` untouched
+- [x] Correlation chart promoted above the fold, ahead of the "vs." comparison table
+- [x] Roulo finding reframed near the top as the 9takes angle, or explicitly deferred per the §6 escape hatch with a one-line note saying why
+- [x] Meta description rewritten: 155 characters or fewer, chart-forward, zero em-dashes
+- [x] All 54 em-dashes gone. `rg '\x{2014}'` prints nothing.
+- [x] `lastmod` untouched, slug untouched, `enneagram-and-mental-illness` untouched
 - [ ] `pnpm build` green, `pnpm index:blogs` run
 - [ ] Baseline snapshot from a fresh GSC pull appended to §7, dated
 - [ ] 2-week and 4-week re-snapshots scheduled
 - [ ] One-line handoff to T-05 and T-06 stating whether the play worked, so the pattern fix has evidence behind it
+
+---
+
+## 9. Baseline snapshot pulled 2026-07-31
+
+The pull ran after midnight UTC and therefore wrote `2026-08-01-*.csv`. The finalized GSC window is 2026-05-01 through 2026-07-30.
+
+| Row                                                                 | Clicks | Impressions |   CTR | Position |
+| ------------------------------------------------------------------- | -----: | ----------: | ----: | -------: |
+| `/enneagram-corner/astrology-and-the-enneagram`                     |     89 |      10,091 | 0.88% |      8.4 |
+| `…#what-enneagram-type-is-your-zodiac-sign`                         |      0 |       1,359 | 0.00% |      6.9 |
+| `…#why-each-enneagram-type-matches-its-zodiac-sign`                 |      0 |       1,303 | 0.00% |      6.9 |
+| `…#enneagram-types-and-zodiac-signs-the-complete-correlation-chart` |      1 |       1,026 | 0.10% |      7.0 |
+
+The newer window confirms the original diagnosis. The page retained roughly 10,000 impressions while all three lookup/chart anchors remained effectively clickless. Top unfragmented query rows also continue to favor lookup language over the old essay framing: `enneagram and astrology` (82 impressions, position 6.3), `enneagram astrology` (85, position 6.7), `enneagram zodiac` (36, position 6.8), and `astrology enneagram` (72, position 7.1).
+
+Implementation began from this baseline on 2026-07-31. Record the production deployment date before starting the two-week and four-week clocks.
+
+## 10. Local implementation note 2026-07-31
+
+The lookup-intent title, 51-character `meta_title`, 149-character description, chart-first structure, early evidence caveat, and reconciled FAQ schema are implemented. `pnpm check` completed with zero errors, and `pnpm build` plus all build-budget checks passed. The compiled server output contains the full `meta_title` with "Chart" intact.
+
+Not run locally: `pnpm index:blogs`, because it writes the updated article metadata to the live Supabase-backed search index. Run it as part of the authorized production publishing workflow, then verify the live page source and record the deployment date before starting the two-week and four-week measurement clocks.

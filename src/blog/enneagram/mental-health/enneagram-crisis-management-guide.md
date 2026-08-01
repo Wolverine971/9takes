@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'pass'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: A (9) | Priority: none | Safety: pass
-Strengths: practical utility (9.9); Enneagram depth (9.7).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
-Tags: weak-hook
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 NOTES:
 - Immediate interventions for each type in crisis

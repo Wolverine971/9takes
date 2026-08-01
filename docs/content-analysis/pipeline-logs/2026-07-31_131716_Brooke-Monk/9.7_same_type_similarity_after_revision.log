@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Brooke-Monk (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Brooke-Monk.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 40
+Comparison set (last 8 other Type-3 drafts by date):
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+  - jynxzi  (2026-07-25, 30 units)
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+  - madonna  (2026-07-18, 41 units)
+
+Noise floor over 11080 unit pairs:  median=0  p90=0  p99=0.006  max=0.086
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.064   Brooke-Monk  <->  margaret-qualley
+   TARGET [diagnosis] "Sometimes I feel like I'm just a little machine that's pumping out content for people." The behavior is documented and dated.
+   OTHER  [diagnosis] that I always feel like I'm harder on myself than anyone else in the room
+
+
+Most similar drafts (max unit-pair score):
+  0.086 ###                  madonna
+  0.064 ###                  margaret-qualley
+  0.057 ##                   jynxzi
+  0.033 #                    Alex-Warren
+  0.031 #                    KSI
+  0.030 #                    pete-hegseth
+  0.026 #                    Carina-Zavline
+  0.016 #                    plaqueboymax
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.086   Brooke-Monk  <->  madonna
+   TARGET [diagnosis] The tiebreaker is what she does with a bad comment.
+   OTHER  [diagnosis] But watch what she does after each fight.
+
+score 0.064   Brooke-Monk  <->  margaret-qualley
+   TARGET [diagnosis] "Sometimes I feel like I'm just a little machine that's pumping out content for people." The behavior is documented and dated.
+   OTHER  [diagnosis] that I always feel like I'm harder on myself than anyone else in the room
+
+score 0.057   Brooke-Monk  <->  jynxzi
+   TARGET [diagnosis] She posts by 1 p.m. daily and named the only two things that override it on the Forbes Top Creators Show in 2026
+   OTHER  [diagnosis] and named the mechanism without meaning to.
+
+score 0.033   Brooke-Monk  <->  Alex-Warren
+   TARGET [diagnosis] She offered it the way a restaurant owner tells you the kitchen is the business
+   OTHER  [diagnosis] He collects approval the way a defendant collects evidence
+
+score 0.031   Brooke-Monk  <->  KSI
+   TARGET [diagnosis] " she told Elite Daily in 2023.
+   OTHER  [diagnosis] Prime hit $1.2 billion in sales in 2023 (Bloomberg).
+
+score 0.031   Brooke-Monk  <->  jynxzi
+   TARGET [counter-typing] because anyone she works with needs the product understood
+   OTHER  [counter-typing] is still the product doing its job.
+
+score 0.030   Brooke-Monk  <->  pete-hegseth
+   TARGET [diagnosis] Type 3 is the house type of this business
+   OTHER  [diagnosis] The Enneagram Type 3 is called the Achiever.
+
+score 0.029   Brooke-Monk  <->  madonna
+   TARGET [counter-typing] The honest answer is that we cannot separate a held value from a long-horizon strategy with the evidence available.
+   OTHER  [diagnosis] and whether the Type 8 reading survives contact with the evidence) waits in a collapsible box midway down this page.
+
+score 0.028   Brooke-Monk  <->  madonna
+   TARGET [diagnosis] and her 2023 Elite Daily line
+   OTHER  [counter-typing] and her documented behavior is saturated with reception-monitoring
+
+score 0.027   Brooke-Monk  <->  pete-hegseth
+   TARGET [diagnosis] She offered it the way a restaurant owner tells you the kitchen is the business
+   OTHER  [diagnosis] He hired a war secretary the way a producer books a lead
+
+score 0.026   Brooke-Monk  <->  Alex-Warren
+   TARGET [diagnosis] I hate you.'" There is the whole wiring in one sentence.
+   OTHER  [diagnosis] there is nothing underneath worth loving.
+
+score 0.026   Brooke-Monk  <->  Carina-Zavline
+   TARGET [counter-typing] The strongest case against is the brand-deal refusal.
+   OTHER  [diagnosis] The strongest clue is not that she is famous or image-conscious.
+
+------------------------------------------------------------------------------
+Top pair scores 0.086 vs median 0  (~∞x the noise floor).

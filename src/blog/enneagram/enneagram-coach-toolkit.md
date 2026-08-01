@@ -21,14 +21,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: A+ (9.5) | Priority: none | Safety: n/a
-Strengths: practical utility (9.7); evidence quality (9.6).
-Improve next: Push for more distinctive insight and less generic phrasing. Tighten opening framing and make the reader promise more explicit.
-Tags: none
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";
 </script>

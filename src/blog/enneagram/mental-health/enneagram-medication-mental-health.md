@@ -41,15 +41,6 @@ faqs:
     answer: '"Just exercise more." "You don''t need pills." "We don''t believe in that." This is painful and common. Many families carry stigma around psychiatric medication. Some come from cultures where mental health treatment is taboo. Some have outdated beliefs. Some are genuinely scared for you based on bad information. Here''s what''s true: your medical decisions are yours. You don''t owe anyone an explanation. Your family isn''t living in your brain. If they''re open to learning, share information selectively. If they''re not, protect yourself by finding support elsewhere: therapists, support groups, trusted friends who get it. Type 2s, 6s, and 9s struggle most with family disapproval because they value harmony and others'' opinions. Remember: advocating for your own health isn''t betraying your family. It''s taking care of yourself so you can show up for them.'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: D (6.9) | Priority: rebuild | Safety: fail
-Strengths: practical utility (9.9); Enneagram depth (9.7).
-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
-Tags: template-fatigue, safety-boundary-risk
-Graded: 2026-02-22
-UPDATE 2026-03-10: Safety edits applied — removed specific drug-to-type mappings, reframed medication sections as "Topics to Discuss with Your Provider", added mid-article disclaimer, softened prescriptive headers. Template fatigue partially addressed (headers varied). Needs re-grading.
-QUALITY_FEEDBACK_END -->
-
 <!--
 NOTES:
 - How each type responds to different medications

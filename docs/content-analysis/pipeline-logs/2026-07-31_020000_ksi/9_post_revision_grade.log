@@ -1,0 +1,18 @@
+## Grading Complete — KSI (supervised regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| KSI | 9 | 8 | 9 | 9 | 8 | 9 | 8.6 | B+ |
+
+(Weighted: `(9×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability ≥ 7, no gate. First grade 8.1 → regrade 8.6, stability delta 0.5.)
+
+### Key Observations:
+
+- **The regrade lift is verified, not vibes.** The first grade's B (8.1) came from an Originality cap via cross-draft sameness — the "The [Type] case leans on..." counter-typing template shared with David-Beckham. The revision rewrote it, and the same-type similarity scan now reads CLEAR (Beckham max dropped 0.163 → 0.032; the remaining 0.135 top pair with Madonna is benign type-declaration overlap). Corpus-stat sentence cut, reader-commands trimmed to the two grader-sanctioned instances. Cap lifted, Originality 7 → 8.
+- **Deterministic checks all clean:** source audit 5 inline / 0 vague / 0 untagged, 0 contrast pairs, head-term PASS, 60-word answer block. I spot-checked the ledgers against the body (all 7 H2s, all 10 testimony quotes, counter-typing quarantine) — they hold, no stale-ledger flags.
+- **Best moves:** the Eurogamer-2012 + 2023-slur counterexample pair (the conversion machine shuts off for shame he agrees with — turns the obvious objection into typing evidence) and the bespoke "Thick of It" dated-timeline autopsy. Enneagram integration passes all three interior checks with quotable lines.
+- **Why not an A:** the house skeleton (epigraph → cold-open → reframe-twist, return-to-the-wound close) is still visible against Jason-Sudeikis and Ibai-Llanos — shape-level, not near-verbatim, so no cap, but it holds Writing and Originality at 8. The courtroom metaphor family still runs ~5-6 times, and the tone stays monochrome-intense (no joy section the way the Matt-Smith anchor has one). One minor sourcing note: the load-bearing kitchen quote should get its True Geordie attribution pinned inline rather than inherited from two paragraphs up.
+
+Frontmatter grade block added to `src/blog/people/drafts/KSI.md` (with the first_overall/regrade/delta fields); sidecar written to `docs/content-analysis/grades/KSI.review.md`.
+
+**Total graded this session: 1**

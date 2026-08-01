@@ -1,0 +1,21 @@
+## Grading Complete — Brooke Monk (post-revision regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Brooke-Monk | 8 | 8 | 8 | 8 | 8 | 8 | 8.0 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc = 8, gate not triggered.)
+
+**Grade stability:** first 8.1 → regrade 8.0, delta 0.1. Caps applied: none.
+
+### Key Observations
+
+**Both prior caps cleared.** The revision earned them. `house_empathy_turn` is gone — the turn now lands on her own quoted verb ("you really have to fight to be remembered") instead of `not X, it was armor`. `cross_draft_sameness` is gone — against KSI, Jason-Sudeikis, and Ibai-Llanos, Brooke reuses 2 of the 7 tracked moves (aphoristic fragments, return-to-the-wound close), below the 3+ threshold. The epigraph is dropped where all three comparators keep one, and the TL;DR runs 2/5 label-colon bullets where all three run 5/5.
+
+**Deterministic checks:** lint 0 fail / 1 warn (4,354 words vs 4,500 ceiling); quality-report 0 contrast pairs, head-term PASS, 25-word extractable answer block; source audit 9 inline / 0 vague / 0 untagged.
+
+**Two ledger claims don't survive re-running the tools.** The same-type scan prints `TRIPPED` (0.064 vs margaret-qualley, exit 0) where the ledger says "CLEAR … no Brooke pair above threshold" — the pair is a false positive, but the ledger overstates it. And the split-negation hand-recount says "Now 2"; the body has at least five. The revision pass replaced a stale carried-forward number with a fresh undercount.
+
+**What's holding it at B:** a quote repeated in full ~50 lines apart that fresh eyes flagged and the revision didn't fix; two frontmatter promises the body doesn't keep (the Sam Dezz keyword has no matching content, and the "how much does she make" FAQ answers without money); and the piece's real ceiling — 4,354 words about a comedy creator with no funny moment in them. It keeps explaining that her lightness is a machine and never lets the lightness be real. That's the same gap the Matt-Smith anchor cleared with its joy section, and it's the difference between this and an A.
+
+**Total graded this session: 1**

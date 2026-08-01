@@ -21,14 +21,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.7) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.7); evidence quality (8.0).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes.
-Tags: weak-hook
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Midjourney prompt:
 type 8 breakthrough through alliance greek statues gathered around a marble strategy table and clasping forearms in unity, focused determined expressions, grand neoclassical council chamber opening to a dawn horizon, Unreal Engine, Cinematic, marble white and gold with deep blue accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Cinematic Lighting and Moody Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700

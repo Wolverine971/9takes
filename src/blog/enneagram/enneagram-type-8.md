@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.6) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.3); evidence quality (8.0).
-Improve next: Strengthen the first 2-3 paragraphs with a sharper promise and clearer stakes. Add concrete steps, checklists, and "what to do next" guidance.
-Tags: weak-hook, low-utility
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!--
 Midjourney prompt:
 armored strength learning vulnerability greek statue warrior with cracked cuirass and open hand, fierce protective expression, monumental neoclassical colonnade after storm, Unreal Engine, Cinematic, charcoal stone with bronze and deep red accents, portrait Photography, Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded, insane details, intricate details, beautifully color graded, 32k, Super-Resolution, Megapixel, Dramatic Side Lighting and Cinematic Lighting, Global Illumination, Ray Tracing Global Illumination, hypermaximalist, elegant, hyper realistic, super detailed --ar 16:9 --stylize 700

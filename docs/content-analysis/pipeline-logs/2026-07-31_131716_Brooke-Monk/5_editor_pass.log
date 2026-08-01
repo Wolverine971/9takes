@@ -1,0 +1,15 @@
+Polished `src/blog/people/drafts/Brooke-Monk.md`.
+
+**The draft arrived mechanically clean** — 0 contrast pairs, 0 prose em-dashes, 0 banned phrases, 0 lint fails. It had already been through creator → fresh eyes → second pass → cohesion pass. So the tooling had nothing left to say, which meant the remaining problems were the ones the tooling can't see.
+
+**The real tell was a split-sentence negation engine.** "She did not mean it as confession. She meant it as an operating fact." / "It does not aim at a private standard. It aims at whatever the numbers reward." / "Not neglect. Not cruelty." / "She was not doing research. She was doing..." It fired **12 times** across 4,400 words. `blog-quality-report` scores zero on it because the contrast straddles a sentence boundary rather than living inside one clause — the detector only sees within-sentence patterns. Editing by feel would have caught two or three of these; counting them by hand caught all twelve. I rewrote nine into direct statements or scenes and kept three where the device actually lands, including "The sameness is not laziness. It is a safety mechanism with a posting schedule," which earlier passes correctly flagged as the sharpest line in the piece.
+
+**Other cleanup:** five "as you read in the previous section" scaffolding moves reduced to plain callbacks (one of them, "a wrinkle my summary skipped," was also smuggling in a first person the piece never establishes); three statement-then-restatement pairs collapsed, including a sentence that pre-announced the Forbes quote and stole its punch; imperative reader-instructions cut from five to three; three overlong paragraphs split for mobile. Two antecedent collisions fixed — "In her own account of her day" sat one sentence after "the account" meaning TikTok, and "six kids in a closed loop" echoed the section's own opening line.
+
+**One thing I verified rather than trusted:** the corpus claim. Checked against `docs/data/corpus-stats.md` — Creators & Internet Personalities n=88, Type 3 = 21 (23.9%), Type 7 = 21 (23.9%). "Tied with Type 7 for the largest share" is exact.
+
+**Protected deliberately:** the empathy turn (the Pollock concession-then-reframe) and the interior beat (the inner-thought block) are intact and untrimmed. `lastmod` untouched.
+
+**Final numbers:** contrast pairs 0 total (0 strong, 0 comparative). blog-lint 0 fail, 1 warn. Word count 4,394 → 4,305, which buys back ~90 words of headroom against the 4,500 ceiling. Same-type similarity re-run and still clear (top pair 0.086 vs madonna, threshold 0.04 not tripped).
+
+**Production-ready on language.** I did not re-open sourcing or structure, and the two known gaps from the second pass still stand: the deepfake can't be dated, and no earnings figure is used because Forbes publishes two conflicting 2026 numbers. Neither blocks publish, but the deepfake now runs as escalation after a dated 2021 artifact rather than carrying the close alone — that's a mitigation, not a fix.

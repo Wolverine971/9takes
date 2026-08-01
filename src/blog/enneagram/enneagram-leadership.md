@@ -20,14 +20,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.6) | Priority: none | Safety: n/a
-Strengths: Enneagram depth (9.7); practical utility (9.6).
-Improve next: Reduce repeated section scaffolding and make type sections more differentiated.
-Tags: template-fatigue
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <!-- Midjourney Prompt: diverse group of 9 business leaders in a modern glass boardroom, each displaying distinct leadership styles - one pointing assertively at charts, another listening intently, one mediating between others, one analyzing data on tablet, one inspiring the group with animated gestures, one organizing documents methodically, one celebrating team wins, one questioning thoughtfully, one bringing harmony to discussion, professional attire, natural lighting through floor-to-ceiling windows, city skyline background, photorealistic, corporate photography style --ar 16:9 --stylize 750 -->
 
 <script>

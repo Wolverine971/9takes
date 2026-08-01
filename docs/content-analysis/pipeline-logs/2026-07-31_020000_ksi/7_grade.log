@@ -1,0 +1,18 @@
+## Grading Complete — KSI
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| KSI | 8 | 7 | 9 | 8 | 8 | 9 | 8.1 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Anchor: Matt-Smith, the B reference. Cap applied: `cross_draft_sameness`.)
+
+### Key Observations:
+
+- **The content is B+/A quality; the house furniture is what's holding the score.** The Originality cap at 7 is a sameness finding, not a content one — uncapped this draft computes to 8.5. Four house moves recur near-verbatim against the last three graded drafts (Jason-Sudeikis, Ibai-Llanos, carina-zavline): the corpus-stat sentence with swapped numbers, the epigraph→cold-open→reframe furniture, five reader-command imperatives ("Read it again, slower" / Look / Notice / Listen / Consider), and the return-to-the-wound closing shape all three recent endings also use.
+- **Stale ledger caught**: the draft's Formula Fingerprint Ledger claims the similarity scan passed at 0.047, but running it today trips at 0.163 vs David-Beckham — both trip pairs on the "The [Type] case leans on…" counter-typing template. Either the editor pass reintroduced the pattern after the scan ran or the ledger was never updated; either way the self-report can't be trusted.
+- **Genuine strengths worth keeping intact**: the two-counterexample move (Eurogamer 2012 + the 2023 slur proving the conversion machine shuts off for shame he agrees with) is the sharpest analytical beat; the "Thick of It" dated timeline is truly bespoke; and the empathy turn is built from KSI's own wound vocabulary rather than the house "it was armor" grammar.
+- **Evidence flags for revision**: the Tobi "gaslighted"/"burning" quotes ride on "Members later say" with no outlet in text (Sportskeeda-only per the draft's own memo), and "defeated the internet" has no inline outlet. Named in the sidecar with the fix list.
+
+Grades written to the draft frontmatter (`caps_applied: ['cross_draft_sameness']`, `graded_at: 2026-07-31`) and full feedback to `docs/content-analysis/grades/KSI.review.md`. No legacy QUALITY GRADE blocks existed in the body to remove.
+
+**Total graded this session: 1**

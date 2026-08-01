@@ -21,15 +21,6 @@ quality_safety_gate: 'fail'
 quality_update_note: 'Safety edits applied 2026-03-10: added disclaimer, softened prescriptive modality-to-type mappings, reframed directive language'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: D (6.9) | Priority: rebuild | Safety: fail
-Strengths: practical utility (9.4); Enneagram depth (9.2).
-Improve next: Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
-Tags: safety-boundary-risk
-Graded: 2026-02-22
-UPDATE 2026-03-10: Safety edits applied — added disclaimer, softened prescriptive modality assignments, reframed directive language. Needs re-grading.
-QUALITY_FEEDBACK_END -->
-
 <script>
   import PopCard from "$lib/components/atoms/PopCard.svelte";
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

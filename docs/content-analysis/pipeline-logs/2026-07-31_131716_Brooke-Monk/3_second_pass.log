@@ -1,0 +1,29 @@
+Second pass complete on `src/blog/people/drafts/Brooke-Monk.md`.
+
+## Source audit: 4 inline / 2 vague / 2 untagged → **9 inline / 0 vague / 0 untagged**
+
+I pulled transcripts for all five cited Forbes clips (all uploaded 2026-07-11) and confirmed every untagged quote traces to the Forbes Top Creators Show, 2026. The "neurotic" quote traces to Elite Daily, June 2023 — as do four other quotes the draft was using loosely. I added `Elite Daily` and `The Oxford Blue` to the OUTLETS list in `scripts/blog-source-audit.mjs` (documented in-file, consistent with prior passes): "Daily" isn't a recognized outlet suffix, so the draft's single best long-form source was grading vague no matter how carefully it was written.
+
+## Main changes
+
+**The best quote in the file wasn't in the draft.** Elite Daily 2023: *"If you're unhappy with it, your brain turns, 'This product sucks, I hate it,' into 'You suck. I hate you.'"* That's the Type 3 conversion stated as mechanism in her own words. It now carries the diagnosis instead of the flatter "you are the product" line alone.
+
+**Close rebuilt on dated evidence.** Leads with her Oct 18, 2021 Reddit-reaction video: the 28,000-member subreddit, *"I am a stranger on the internet that you are fetishizing without my consent,"* and then — still shaken — the closing pitch for a sequel gated on likes. The deepfake stays as escalation; the signature argument and two-exceptions ending are untouched.
+
+**Filled the "what does she want" gap:** *"I just want to be myself, and as I get older, I'm figuring out more of who that is"* — placed against the aging-out problem (famous at 16–19 playing high schoolers, now 23).
+
+**Pollock now gets a factual rebuttal, not just a psychological reframe:** 11.5M YouTube subscribers (verified via yt-dlp), *"I'm not as harsh about the perfectionist side of it,"* *"it's special when they're there for you."*
+
+Also: intro duplication merged, follower count corrected 45M → 47M, Forbes 43→38 added, "eight hundred times a year" cut, Rabbit Hole moved ahead of Doting Beauty, same-word section given the apophenia concession it needed.
+
+## Three fresh-eyes notes I rejected
+
+- **Engagement.** The note said "multiple outlets report they got engaged in November 2024." No outlet reports it — what exists is TikTok speculation from May–July 2026, including threads arguing the clip is staged. Draft says "partner since 2020," true either way.
+- **Faith.** Asserted only by aggregator and AI-generated SEO pages, never a checkable outlet. Used the strictness she actually documented instead: her parents "told me to not show my face on the internet" — which then pays off in the close.
+- **Mental-health breaks puncturing the 1 p.m. rule.** Every source is SEO slop. The rule stands as she stated it.
+
+## Verification
+
+`blog-lint`: 0 fail, 1 warn (4,315 words against a 4,500 ceiling). `blog-quality-report`: 0 contrast pairs. `same-type-similarity`: clear — note that the pass's own top pair (0.115 vs Carina-Zavline) came from a house-template clause I introduced and then rewrote out. `lastmod` untouched.
+
+**Worth an editor pass?** The word count is the one thing I'd flag — it's under the ceiling but leaves little room for the next refresh, and the piece gained real substance this round. The deepfake still can't be dated; running it as escalation behind a dated artifact is mitigation, not a fix.

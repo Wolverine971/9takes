@@ -21,14 +21,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.8) | Priority: none | Safety: n/a
-Strengths: practical utility (9.9); Enneagram depth (9.7).
-Revised 2026-04-01: Rewrote intro with concrete scenario, eliminated Type 4/6/7 duplication, added Hidden Strengths to all types, added gender note and medication section, replaced repetitive FAQ with new questions, made conclusion actionable. Needs re-grading.
-Tags: revised
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";

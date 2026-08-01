@@ -21,14 +21,6 @@ quality_rewrite_priority: 'minor'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8.4) | Priority: minor | Safety: n/a
-Strengths: Enneagram depth (9.7); practical utility (9.6); differentiated type sections.
-Improve next: Consider adding real quotes/anecdotes from wing communities.
-Tags: none
-Graded: 2026-04-02
-QUALITY_FEEDBACK_END -->
-
 <!--
 Keyword Strategy:
 - Primary: enneagram wings (22,200/mo)

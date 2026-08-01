@@ -1,0 +1,15 @@
+{
+	"person": "Brooke-Monk",
+	"draft_path": "src/blog/people/drafts/Brooke-Monk.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-07-31_131716_Brooke-Monk",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.6,
+	"final_overall": 8,
+	"final_discoverability": 8,
+	"grade_stability_delta": 0.5999999999999996,
+	"has_stage_warnings": true,
+	"generated_at": "2026-07-31T18:27:59.837Z"
+}

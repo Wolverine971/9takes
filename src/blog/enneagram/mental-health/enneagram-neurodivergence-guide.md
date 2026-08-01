@@ -22,15 +22,6 @@ quality_safety_gate: 'fail'
 quality_update_note: 'Safety edits applied 2026-03-10: added formal disclaimer box, softened prescriptive claims'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: D (6.9) | Priority: rebuild | Safety: fail
-Strengths: practical utility (9.9); Enneagram depth (9.7).
-Improve next: Reduce repeated section scaffolding and make type sections more differentiated. Add explicit educational/clinical boundaries and remove diagnostic-or-prescriptive phrasing.
-Tags: template-fatigue, safety-boundary-risk
-Graded: 2026-02-22
-UPDATE 2026-03-10: Safety edits applied — added formal disclaimer box, softened prescriptive claims. Needs re-grading.
-QUALITY_FEEDBACK_END -->
-
 <!--
 NOTES:
 - ADHD presentation in each type

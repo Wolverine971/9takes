@@ -270,7 +270,13 @@ const OUTLETS = [
 	// Spanish-language press that actually covers this corpus's Spanish creators.
 	'The Wild Project',
 	'Infobae',
-	'El Español'
+	'El Español',
+	// Gen-Z / creator-beat outlets (Brooke-Monk pass, 2026-07-31). Elite Daily is
+	// a BDG title with bylined, dated interviews and is the primary long-form
+	// record for this subject; "Daily" is not in OUTLET_SUFFIX, so without an
+	// explicit entry every quote from it grades vague no matter how sourced.
+	'Elite Daily',
+	'The Oxford Blue'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

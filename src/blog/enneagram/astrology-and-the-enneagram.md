@@ -1,6 +1,7 @@
 ---
-title: 'Astrology vs. the Enneagram: When vs. Why'
-description: "Your Scorpio intensity and your Type 8 drive aren't the same thing, but they aren't unrelated either. Astrology maps what influences you. The Enneagram maps why you respond. Here's the complete chart pairing all 9 types to signs, planets, and houses."
+title: 'What Enneagram Type Is Your Zodiac Sign? The Complete Correlation Chart'
+meta_title: 'What Enneagram Type Is Your Zodiac Sign? Full Chart'
+description: 'See all 12 zodiac signs mapped to likely Enneagram types in one chart, plus the honest caveat: no substantiated correlation connects the two systems.'
 author: 'DJ Wayne'
 date: '2024-08-23'
 loc: 'https://9takes.com/enneagram-corner/astrology-and-the-enneagram'
@@ -21,35 +22,12 @@ path: src/blog/enneagram/astrology-and-the-enneagram.md
 </script>
 
 <QuickAnswer question="What Enneagram type matches my zodiac sign?">
-The Enneagram maps psychological patterns while astrology maps cosmic influences. Common correlations: Type 1 with Virgo (perfectionism), Type 3 with Leo (achievement), Type 4 with Pisces (emotional depth), Type 7 with Sagittarius (enthusiasm), Type 8 with Aries/Scorpio (intensity). The Enneagram maps motivation patterns; astrology maps timing and influence. They're complementary, not identical: see the full chart below.
+No zodiac sign determines your Enneagram type. For a pattern-based lookup, common pairings include Virgo with Type 1, Leo with Type 3, Pisces with Type 4, Sagittarius with Type 7, and Aries or Scorpio with Type 8. The chart below maps all 12 signs while keeping the important caveat visible: these are thematic comparisons, not a proven correlation.
 </QuickAnswer>
 
 <p class="firstLetter">You've typed yourself twice. Once by the stars. Once by your fears.</p>
 
-Do they line up? Or are they telling you two different stories about the same person?
-
-**Astrology tracks what's influencing you. The Enneagram tells two people with the same chart apart.**
-
-Your Scorpio intensity and your Type 8 drive aren't the same thing. But they're not unrelated either. One comes from the cosmos. One comes from your core wound.
-
-Stacked together, you see yourself from two angles instead of one.
-
-## Enneagram vs Astrology: What's the Difference?
-
-People treat astrology and the Enneagram as interchangeable personality tools. They aren't.
-
-|                       | **Enneagram**                                | **Astrology**                         |
-| --------------------- | -------------------------------------------- | ------------------------------------- |
-| **Based on**          | Self-assessment and core motivations         | Birth date, time, and location        |
-| **Number of types**   | 9 core types (+ wings, subtypes)             | 12 sun signs (+ moon, rising, houses) |
-| **What it reveals**   | Your core motivation pattern                 | What influences you and when          |
-| **Changes over time** | Core type stays the same; growth is possible | Transits create shifting influences   |
-| **Determined by**     | Self-reflection and honest assessment        | Astronomical calculations             |
-| **Focus**             | Inner fears, desires, and defense mechanisms | Cosmic energies, cycles, and timing   |
-
-The Enneagram is a map of motivation. Astrology is a map of influence. One names the pattern you bring to every situation. The other predicts when that pattern will be tested.
-
-Use both. The Enneagram tells you who you are. Astrology tells you which week that's about to matter.
+The chart gives you the fast answer. The rest of the article shows where the similarities come from, where they break, and how to use the comparison without pretending your birth date determines your core motivation.
 
 ## Enneagram Types and Zodiac Signs: The Complete Correlation Chart
 
@@ -67,49 +45,9 @@ Which zodiac signs tend to show up with which Enneagram types? Here's the patter
 | **Type 8** - Challenger    | Aries          | Mars         | Scorpio, Leo      | Power assertion                 | Intensity, control needs, protective instincts           |
 | **Type 9** - Peacemaker    | Taurus         | Venus        | Libra, Pisces     | Harmony desire                  | Stability seeking, conflict avoidance, diplomatic nature |
 
-**Reality check:** These patterns are common, not universal. You can absolutely be a Taurus Type 8 or an Aries Type 9. The systems measure different things.
+**The honest caveat:** These pairings compare themes; they do not show that zodiac signs predict Enneagram types. Enneagram trainer [Lynn Roulo found no substantiated correlation between the two systems](https://www.lynnroulo.com/enneagram-and-astrology-is-there-a-correlation/). You can absolutely be a Taurus Type 8 or an Aries Type 9. Use the chart as a reflection prompt, not a typing method.
 
 **A note on planets:** The "Zodiac Ruler" column above shows the ruling planet of each type's primary zodiac sign. But some types resonate more with a _different_ planet psychologically. Type 1 maps to Virgo (Mercury) by zodiac, but Saturn's discipline better captures the 1's inner critic. Type 5 maps to Aquarius (Uranus) by zodiac, but Mercury's analytical energy fits the 5's mind. When planets appear below, they refer to psychological resonance: which planet's energy matches the type's motivation. Zodiac rulership is a separate relationship.
-
-## Why Each Enneagram Type Matches Its Zodiac Sign
-
-Why each pairing lands where it does:
-
-**Type 1 (The Perfectionist) and Virgo**
-
-Both run on the same operating system: there's a right way to do things, and everything else is noise. Virgo's Mercury-driven analytical eye mirrors the Type 1's inner critic, always scanning for what could be better, tighter, more correct. Capricorn shows up as an alternative match because of its Saturn-like discipline. The difference: Virgo 1s perfect the details. Capricorn 1s perfect the structure.
-
-**Type 2 (The Helper) and Cancer**
-
-Cancer is ruled by the Moon: emotional tides, nurturing instinct, an almost psychic read on what others need. That's Type 2's entire world. Both orient their identity around being needed. The gift is genuine warmth. The trap is losing themselves in someone else's emotional weather. Pisces 2s take this further into self-sacrifice territory.
-
-**Type 3 (The Achiever) and Leo**
-
-Leo is ruled by the Sun: vitality, visibility, performance. Type 3s want to succeed in public. Leo energy amplifies the Achiever's natural magnetism and image-consciousness. Aries 3s are more competitive than performative. The win matters more to them than looking like a winner.
-
-**Type 4 (The Individualist) and Pisces**
-
-Neptune dissolves the boundary between feeling and identity. That's Type 4's territory: "I am my emotions, and they make me different." Pisces energy intensifies the 4's creative depth but also their tendency toward melancholy. Scorpio 4s channel this into transformation rather than longing. They feel the wound, then excavate it.
-
-**Type 5 (The Investigator) and Aquarius**
-
-Aquarius runs on Uranus: unconventional thinking, detachment from emotional consensus, intellectual independence. Type 5s live in their heads by design, accumulating knowledge as a buffer against a world that feels overwhelming. Virgo 5s are more methodical in their research. Aquarius 5s are more radical in their conclusions.
-
-**Type 6 (The Loyalist) and Capricorn**
-
-Saturn governs both: structure, rules, accountability, and the nagging question "what could go wrong?" Type 6s scan for threats. Capricorn energy adds a pragmatic edge: if something might fail, they'll build contingencies. Cancer 6s orient their security around family and belonging. Taurus 6s need material stability to feel safe.
-
-**Type 7 (The Enthusiast) and Sagittarius**
-
-Jupiter rules expansion, adventure, and abundance. Type 7s want more of everything: experiences, options, possibilities. Sagittarius energy makes them philosophical about it, turning escapism into a worldview. Gemini 7s are more intellectually scattered. Sagittarius 7s are more physically restless. Both are running from the same thing: pain.
-
-**Type 8 (The Challenger) and Aries**
-
-Mars drives both: assertion, confrontation, the refusal to be controlled. Type 8s need power to feel safe. Aries energy makes this direct and immediate. Scorpio 8s play the long game, accumulating influence quietly. Leo 8s combine power with charisma and value loyalty above respect.
-
-**Type 9 (The Peacemaker) and Taurus**
-
-Venus seeks harmony, beauty, and the path of least resistance. Type 9s merge with their environment to avoid conflict. Taurus energy grounds this in physical comfort and routine. Libra 9s are more socially diplomatic. They keep the peace through charm. Pisces 9s dissolve into others' perspectives entirely.
 
 ## What Enneagram Type Is Your Zodiac Sign?
 
@@ -162,6 +100,46 @@ Aquarius marches to its own beat. If you withdraw to observe and understand from
 **Pisces → Type 4 or Type 9**
 
 Pisces dissolves boundaries. If you feel everything more deeply than others seem to, you're likely a [Type 4](/enneagram-corner/enneagram-type-4). If you absorb everyone else's feelings and lose your own position, consider [Type 9](/enneagram-corner/enneagram-type-9). The tell: 4s drown in their own emotions. 9s drown in everyone else's.
+
+## Why Each Enneagram Type Matches Its Zodiac Sign
+
+Why each pairing lands where it does:
+
+**Type 1 (The Perfectionist) and Virgo**
+
+Both run on the same operating system: there's a right way to do things, and everything else is noise. Virgo's Mercury-driven analytical eye mirrors the Type 1's inner critic, always scanning for what could be better, tighter, more correct. Capricorn shows up as an alternative match because of its Saturn-like discipline. The difference: Virgo 1s perfect the details. Capricorn 1s perfect the structure.
+
+**Type 2 (The Helper) and Cancer**
+
+Cancer is ruled by the Moon: emotional tides, nurturing instinct, an almost psychic read on what others need. That's Type 2's entire world. Both orient their identity around being needed. The gift is genuine warmth. The trap is losing themselves in someone else's emotional weather. Pisces 2s take this further into self-sacrifice territory.
+
+**Type 3 (The Achiever) and Leo**
+
+Leo is ruled by the Sun: vitality, visibility, performance. Type 3s want to succeed in public. Leo energy amplifies the Achiever's natural magnetism and image-consciousness. Aries 3s are more competitive than performative. The win matters more to them than looking like a winner.
+
+**Type 4 (The Individualist) and Pisces**
+
+Neptune dissolves the boundary between feeling and identity. That's Type 4's territory: "I am my emotions, and they make me different." Pisces energy intensifies the 4's creative depth but also their tendency toward melancholy. Scorpio 4s channel this into transformation rather than longing. They feel the wound, then excavate it.
+
+**Type 5 (The Investigator) and Aquarius**
+
+Aquarius runs on Uranus: unconventional thinking, detachment from emotional consensus, intellectual independence. Type 5s live in their heads by design, accumulating knowledge as a buffer against a world that feels overwhelming. Virgo 5s are more methodical in their research. Aquarius 5s are more radical in their conclusions.
+
+**Type 6 (The Loyalist) and Capricorn**
+
+Saturn governs both: structure, rules, accountability, and the nagging question "what could go wrong?" Type 6s scan for threats. Capricorn energy adds a pragmatic edge: if something might fail, they'll build contingencies. Cancer 6s orient their security around family and belonging. Taurus 6s need material stability to feel safe.
+
+**Type 7 (The Enthusiast) and Sagittarius**
+
+Jupiter rules expansion, adventure, and abundance. Type 7s want more of everything: experiences, options, possibilities. Sagittarius energy makes them philosophical about it, turning escapism into a worldview. Gemini 7s are more intellectually scattered. Sagittarius 7s are more physically restless. Both are running from the same thing: pain.
+
+**Type 8 (The Challenger) and Aries**
+
+Mars drives both: assertion, confrontation, the refusal to be controlled. Type 8s need power to feel safe. Aries energy makes this direct and immediate. Scorpio 8s play the long game, accumulating influence quietly. Leo 8s combine power with charisma and value loyalty above respect.
+
+**Type 9 (The Peacemaker) and Taurus**
+
+Venus seeks harmony, beauty, and the path of least resistance. Type 9s merge with their environment to avoid conflict. Taurus energy grounds this in physical comfort and routine. Libra 9s are more socially diplomatic. They keep the peace through charm. Pisces 9s dissolve into others' perspectives entirely.
 
 ## When Your Type and Sign Seem to Contradict
 
@@ -285,23 +263,23 @@ Here's the quick-reference for all wing combinations:
 | 9w8  | Venus + Mars      | Peaceful force: gentle until pushed, then unmovable          |
 | 9w1  | Venus + Saturn    | Peaceful standards: harmony with quiet convictions           |
 
-## Enneagram Stress and Growth Points During Astrological Transits
+## Using Transits as Stress and Growth Prompts
 
-Here's where it gets practical: the Enneagram's stress and growth arrows align with challenging and supportive astrological transits.
+If astrology is part of your reflection practice, treat transit language as a prompt rather than a cause. There is no evidence that a Saturn square moves a Type 1 toward Type 4 or that a Jupiter trine moves a Type 7 toward Type 5.
 
-**During difficult transits** (Saturn square, Pluto opposition), you're more likely to move toward your stress point:
+Instead, compare the period you are labeling difficult with the stress pattern your Enneagram framework describes:
 
-- Type 1s become more critical and resentful (moving toward 4)
-- Type 7s become scattered and escapist (moving toward 1)
-- Type 9s become anxious and worried (moving toward 6)
+- Is a Type 1 becoming more critical and resentful?
+- Is a Type 7 becoming scattered and escapist?
+- Is a Type 9 becoming anxious and worried?
 
-**During supportive transits** (Jupiter trine, Venus conjunction), you have easier access to your growth direction:
+Then compare the periods you are labeling supportive with the growth pattern:
 
-- Type 1s relax and enjoy life more (moving toward 7)
-- Type 7s commit and go deeper (moving toward 5)
-- Type 9s take action and assert themselves (moving toward 3)
+- Is a Type 1 relaxing and enjoying life more?
+- Is a Type 7 committing and going deeper?
+- Is a Type 9 taking action and asserting themselves?
 
-The claim here is pattern recognition; it makes no claim of mystical causation. Hard times activate your defensive patterns. Good times give you room to grow. Both systems describe the same dynamics.
+The useful observation is how you respond to pressure or support. The astrology label can organize the reflection, but it does not establish what caused the change.
 
 ## How to Use Astrology and the Enneagram Together
 
@@ -314,17 +292,29 @@ The claim here is pattern recognition; it makes no claim of mystical causation. 
 - **Sun (Type 3) + Moon (Type 2)**: The archetypal performer-supporter dynamic. The 3 shines; the 2 enables. The risk: the 2 enables the 3's image obsession, and the 3 takes the 2's devotion for granted.
 - **Mercury (Type 5) + Neptune (Type 4)**: The 5 brings analytical clarity to the 4's emotional depth. The 4 brings feeling to the 5's detachment. Like Mercury-Neptune aspects in astrology: either creative genius or total miscommunication.
 
-**For timing decisions:** Check your transits before major moves. If Saturn is squaring your chart, your Type 6 tendencies will be amplified regardless of your core type. Build in extra support.
+**For timing decisions:** If you already track transits, use them as reminders to check your stress level, assumptions, and support system. Do not treat a chart as evidence that a decision is safe or unsafe.
 
 For a deeper exploration of these connections, check out [Enneagram Astrology: How the 9 Types Match with the Planets and Zodiac Signs](https://astrostyle.com/enneagram-astrology/) by the AstroTwins.
 
+## Enneagram vs Astrology: What's the Difference?
+
+People often group astrology and the Enneagram together, but the systems start from different inputs and make different claims.
+
+|                        | **Enneagram**                                      | **Astrology**                                        |
+| ---------------------- | -------------------------------------------------- | ---------------------------------------------------- |
+| **Based on**           | Self-reported patterns and interpreted motivations | Birth date, time, location, and chart interpretation |
+| **Number of types**    | 9 core types, plus wings and subtypes              | 12 sun signs, plus planets, rising signs, and houses |
+| **What it proposes**   | Recurring motivations and defense patterns         | Symbolic influences, traits, cycles, and timing      |
+| **How it is assigned** | Self-reflection, tests, interviews, or typing      | Astronomical chart calculation and interpretation    |
+| **Evidence**           | Mixed evidence of reliability and validity         | No substantiated link to Enneagram type              |
+
+The comparison can still be useful when it makes you test a description against your real behavior. It stops being useful when a symbolic pairing is treated as a diagnosis, prediction, or shortcut to typing yourself.
+
 ## Are Astrology and the Enneagram Scientific?
 
-Neither system meets clinical-grade scientific validation. That's the honest baseline.
+Neither system is a clinical diagnostic tool. A [2021 systematic review of 104 Enneagram samples](https://doi.org/10.1002/jclp.23097) found mixed evidence of reliability and validity, with little research supporting secondary ideas such as wings and movement between types.
 
-But they're not equally positioned. The Enneagram has moderate empirical support: test-retest reliability of 70-85%, meaningful overlap with the Big Five personality traits, and descriptions of core motivations that align with established psychological frameworks like attachment theory and defense mechanisms. Several peer-reviewed studies treat it as a useful personality assessment tool, even if it doesn't meet the bar of something like the MBTI's standardized testing protocols.
-
-Astrology relies on a different kind of evidence entirely: centuries of observational tradition, personal resonance, and a premise (celestial positions influence temperament) that mainstream science hasn't validated. Researcher Lynn Roulo, who studies both systems, found **no statistical correlation** between Enneagram type and zodiac sign in her data. The correlations in this article are pattern-based, not empirical.
+Astrology's zodiac-to-Enneagram pairings have no substantiated empirical basis. Roulo's conclusion is straightforward: the systems may both prompt self-reflection, but their methods, focus, and classifications do not establish a correlation. The chart in this article is pattern-based, not predictive.
 
 The real danger with combining these systems is confirmation bias: you see what you want to see. The real value is self-awareness. These frameworks give you language for patterns you already live but haven't named. Test them against your actual experience. If a description doesn't fit, it doesn't fit. The map is not the territory.
 
@@ -353,7 +343,7 @@ That's the only test that matters.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram maps why you respond. Astrology maps what influences you. Common pairings: Type 1 with Virgo, Type 3 with Leo, Type 4 with Pisces, Type 7 with Sagittarius, Type 8 with Aries or Scorpio. You can still be any type regardless of sign. The two systems measure different things."
+            "text": "No zodiac sign determines your Enneagram type. Pattern-based comparisons often pair Type 1 with Virgo, Type 3 with Leo, Type 4 with Pisces, Type 7 with Sagittarius, and Type 8 with Aries or Scorpio. Treat these as thematic prompts, not a proven correlation or typing method."
           },
           "name": "What Enneagram type matches my zodiac sign?"
         },
@@ -361,7 +351,7 @@ That's the only test that matters.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A Taurus Type 8 and an Aries Type 9 are both common. The Enneagram reveals core motivations and fears: why you act. Astrology suggests influences and timing: when and under what conditions. They're complementary, not deterministic."
+            "text": "Yes. You can be any Enneagram type regardless of your zodiac sign. The Enneagram interprets recurring motivations and defense patterns, while astrology interprets a birth chart. A Taurus Type 8 or Aries Type 9 does not break either system."
           },
           "name": "Can you be a different Enneagram type than your zodiac suggests?"
         },
@@ -369,7 +359,7 @@ That's the only test that matters.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Enneagram focuses on core motivations: why you do what you do. Astrology maps influences and timing from your birth chart. Enneagram type comes from self-assessment; astrology is calculated from astronomical data. Neither meets clinical-grade scientific validation, but the Enneagram has test-retest reliability of 70-85% and aligns with established personality psychology frameworks like the Big Five."
+            "text": "The Enneagram interprets self-reported motivations and defense patterns through nine core types. Astrology interprets a chart calculated from birth date, time, and location. Neither is a clinical diagnostic tool, and no substantiated correlation connects zodiac signs to Enneagram types."
           },
           "name": "What is the difference between the Enneagram and astrology?"
         },
@@ -377,7 +367,7 @@ That's the only test that matters.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Neither is scientifically validated to clinical standards. The Enneagram is more consistent for core motivations and behavior patterns (70-85% test-retest reliability). Astrology offers timing context. Most practitioners use them together: Enneagram for psychological depth, astrology for influences and cycles."
+            "text": "Neither is a clinical diagnostic tool. A 2021 systematic review found mixed evidence for the Enneagram's reliability and validity and little support for secondary ideas such as wings and movement. Zodiac-to-Enneagram pairings have no substantiated empirical basis."
           },
           "name": "Which is more accurate: Enneagram or astrology?"
         },
@@ -385,7 +375,7 @@ That's the only test that matters.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. The Enneagram provides a stable framework for core personality patterns. Astrology adds timing and life cycles. Layer your sun sign, moon sign, and rising sign over your Enneagram type: the sun matches your core type, the moon modifies emotional processing like a wing, and the rising sign shapes how your type presents to strangers."
+            "text": "You can use them as separate reflection prompts. Compare a zodiac description with the motivations assigned to your Enneagram type, then test both against your actual behavior. Do not use a birth chart to determine your Enneagram type or make consequential decisions."
           },
           "name": "Can I use both Enneagram and astrology together?"
         },
@@ -393,7 +383,7 @@ That's the only test that matters.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Each Enneagram type maps to a planet by psychological resonance: Type 1 with Saturn (discipline), Type 2 with the Moon (nurturing), Type 3 with the Sun (visibility), Type 4 with Neptune (emotional depth), Type 5 with Mercury (intellect), Type 6 with Saturn (caution and responsibility), Type 7 with Jupiter (expansion), Type 8 with Mars (assertion and power), and Type 9 with Venus (harmony)."
+            "text": "There is no scientifically established ruling planet for an Enneagram type. Pattern-based comparisons often associate Type 1 with Saturn, Type 2 with the Moon, Type 3 with the Sun, Type 4 with Neptune, Type 5 with Mercury, Type 6 with Saturn, Type 7 with Jupiter, Type 8 with Mars, and Type 9 with Venus."
           },
           "name": "What planet rules each Enneagram type?"
         },
@@ -401,7 +391,7 @@ That's the only test that matters.
           "@type": "Question",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "During challenging transits like Saturn squares or Pluto oppositions, you're more likely to move toward your Enneagram stress point. During supportive transits like Jupiter trines or Venus conjunctions, you have easier access to your growth direction. Example: Type 1s become more critical under hard transits (moving toward 4) but relax and enjoy life during supportive ones (moving toward 7)."
+            "text": "There is no evidence that an astrological transit causes movement toward an Enneagram stress or growth point. If you follow transits, use them as reminders to examine your stress patterns, assumptions, and support system rather than as predictions or causes."
           },
           "name": "How do astrological transits affect your Enneagram type?"
         }

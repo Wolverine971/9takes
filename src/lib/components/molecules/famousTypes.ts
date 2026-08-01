@@ -155,6 +155,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'andy-cohen', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['celebrity'] },
 		{ name: 'ava-max', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },
 		{ name: 'bob-iger', link: false, hasImage: false, lastmod: '2026-04-24', personaTitle: 'Hollywood\'s Relentless Finisher', contentGrade: 9.1, types: ['entrepreneur', 'business-operator'] },
+		{ name: 'brooke-monk', link: false, hasImage: false, lastmod: '2026-07-31', personaTitle: 'The Girl-Next-Door Machine', contentGrade: 8, types: ['creator', 'tiktoker', 'influencer'] },
 		{ name: 'bruno-mars', link: false, hasImage: false, lastmod: '2026-04-14', personaTitle: 'Music\'s Effortless Machine', contentGrade: 8.5, types: ['musician'] },
 		{ name: 'chiara-ferragni', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['lifestyleInfluencer'] },
 		{ name: 'cleopatra', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['historical'] },

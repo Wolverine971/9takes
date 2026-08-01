@@ -22,14 +22,6 @@ quality_rewrite_priority: 'none'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B+ (8.7) | Priority: none | Safety: n/a
-Strengths: practical utility (9.9); Enneagram depth (9.7).
-Improve next: Add higher-quality sources and anchor key claims with specific evidence.
-Tags: unsupported-claims
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
   import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
   import QuickAnswer from "$lib/components/blog/callouts/QuickAnswer.svelte";

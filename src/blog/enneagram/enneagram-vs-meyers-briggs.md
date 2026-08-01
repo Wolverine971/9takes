@@ -19,14 +19,6 @@ quality_rewrite_priority: 'light'
 quality_safety_gate: 'n/a'
 ---
 
-<!-- QUALITY_FEEDBACK_START
-Grade: B (8.3) | Priority: light | Safety: n/a
-Strengths: Enneagram depth (9.4); framing (8.3).
-Improve next: Tighten flow and readability by trimming dense blocks and sharpening transitions.
-Tags: style-friction
-Graded: 2026-02-22
-QUALITY_FEEDBACK_END -->
-
 <script>
 	import MarqueeHorizontal from "$lib/components/atoms/MarqueeHorizontal.svelte";
 	import PopCard from "$lib/components/atoms/PopCard.svelte";
