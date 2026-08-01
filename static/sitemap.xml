@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,11 +135,11 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-07-31</lastmod>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/90-day-personality-maxing-blueprint</loc>
@@ -438,6 +438,13 @@
   <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-test-comparison-2025</loc>
     <lastmod>2026-04-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/blogs/greek-statue-comparing-enneagram-tests.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/enneagram-corner/enneagram-test-comparison-2026</loc>
+    <lastmod>2026-08-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statue-comparing-enneagram-tests.webp</image:loc>
     </image:image>
@@ -806,7 +813,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/overview</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/relationships</loc>

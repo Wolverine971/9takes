@@ -365,7 +365,7 @@
 				</li>
 				<li>
 					<strong>Related reading:</strong>
-					<a href="/enneagram-corner/enneagram-test-comparison-2025"
+					<a href="/enneagram-corner/enneagram-test-comparison-2026"
 						>which Enneagram tests actually work</a
 					>,
 					<a href="/enneagram-corner">Enneagram Corner</a>,

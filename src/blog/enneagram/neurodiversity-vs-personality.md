@@ -313,7 +313,7 @@ strategic_question_url: 'whats-something-every-day-seem-fine-nobody-knows-costin
 					<span class="mr-3 font-bold">1.</span>
 					<span
 						><strong>Take an Enneagram test.</strong> Skip the 5-minute quiz and use a real one. We compare the best options in our <a
-							href="/enneagram-corner/enneagram-test-comparison-2025"
+							href="/enneagram-corner/enneagram-test-comparison-2026"
 							class="font-bold text-white underline">Enneagram test comparison guide</a
 						>.</span
 					>

@@ -136,7 +136,7 @@ If you prefer online resources, these websites offer valuable information, inter
 
 ### Tests & Typing Tools
 
-Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-corner/enneagram-test-comparison-2025) for detailed breakdowns. Here are the top options:
+Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-corner/enneagram-test-comparison-2026) for detailed breakdowns. Here are the top options:
 
 - <a  target="_blank" rel="noopener" href="https://www.truity.com/test/enneagram-personality-test">Truity</a>: One of the most popular free Enneagram tests (100+ questions, ~10 min). Good for narrowing down to 2-3 possible types.
 
@@ -666,7 +666,7 @@ Several active Enneagram Facebook groups exist for specific interests:
 
 Ready to apply what you learn? Explore our in-depth guides:
 
-- **Getting started**: [Enneagram Overview](/enneagram-corner/enneagram-tldr) | [Core Concepts](/enneagram-corner/enneagram-concepts) | [How to Determine Your Type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) | [Best Free Tests Compared](/enneagram-corner/enneagram-test-comparison-2025)
+- **Getting started**: [Enneagram Overview](/enneagram-corner/enneagram-tldr) | [Core Concepts](/enneagram-corner/enneagram-concepts) | [How to Determine Your Type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) | [Best Free Tests Compared](/enneagram-corner/enneagram-test-comparison-2026)
 - **Go deeper**: [Wings Guide](/enneagram-corner/enneagram-wings-complete-guide) | [Instinctual Subtypes](/enneagram-corner/enneagram-instinctual-subtypes) | [Connecting Lines](/enneagram-corner/enneagram-connecting-lines) | [Stress Numbers](/enneagram-corner/enneagram-stress-number)
 - **Relationships**: [Types in Relationships](/enneagram-corner/enneagram-types-in-relationships) | [Communication Styles](/enneagram-corner/enneagram-communication-styles) | [Compatibility Guide](/enneagram-corner/enneagram-compatibility-guide) | [Love Languages by Type](/enneagram-corner/love-languages-and-enneagram-types)
 - **Mental health**: [Shadow Work by Type](/enneagram-corner/shadow-work-by-enneagram-type) | [Anxiety & the Enneagram](/enneagram-corner/anxiety-and-enneagram-types-guide) | [Depression Patterns](/enneagram-corner/depression-patterns-by-enneagram-type) | [Types in Stress](/enneagram-corner/enneagram-types-in-stress)
@@ -712,7 +712,7 @@ Your core type doesn't change, but how you express it absolutely does. The Ennea
 
 ### What are the best free Enneagram resources?
 
-For a zero-cost deep dive: read the type descriptions on the Enneagram Institute website, listen to the Typology or Enneagram 2.0 podcasts, and watch Dr. Tom LaHue's YouTube channel. For tests, Truity and Eclectic Energies offer free assessments (see our [test comparison guide](/enneagram-corner/enneagram-test-comparison-2025)). Reddit's r/Enneagram community is also a valuable free resource for discussion and typing help.
+For a zero-cost deep dive: read the type descriptions on the Enneagram Institute website, listen to the Typology or Enneagram 2.0 podcasts, and watch Dr. Tom LaHue's YouTube channel. For tests, Truity and Eclectic Energies offer free assessments (see our [test comparison guide](/enneagram-corner/enneagram-test-comparison-2026)). Reddit's r/Enneagram community is also a valuable free resource for discussion and typing help.
 
 </article>
 

@@ -162,7 +162,7 @@ While any MBTI type can be any Enneagram type, certain combinations appear more 
 
 For example, "I'm an INFJ Type 4" says you prefer introversion and intuition (MBTI) and you're driven by a fear of being ordinary and a desire to find your unique identity (Enneagram). Together, that's a richer picture than either system alone.
 
-<a href="/enneagram-corner/enneagram-test-comparison-2025" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-test-comparison-2026" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/enneagram-inspiration-docs.webp`}
       showIcon={false}

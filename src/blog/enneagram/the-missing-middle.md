@@ -390,7 +390,7 @@ If this article described your experience — if you've been searching for a fra
 <ul class="space-y-4 text-lg">
 <li class="flex items-start">
 <span class="mr-3 font-bold">1.</span>
-<span><strong>Name your pattern.</strong> Take a real Enneagram assessment — not a 5-minute quiz. We compare the best options in our <a href="/enneagram-corner/enneagram-test-comparison-2025" class="font-bold text-white underline">Enneagram test comparison guide</a>.</span>
+<span><strong>Name your pattern.</strong> Take a real Enneagram assessment — not a 5-minute quiz. We compare the best options in our <a href="/enneagram-corner/enneagram-test-comparison-2026" class="font-bold text-white underline">Enneagram test comparison guide</a>.</span>
 </li>
 <li class="flex items-start">
 <span class="mr-3 font-bold">2.</span>

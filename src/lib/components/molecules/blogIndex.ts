@@ -567,10 +567,10 @@ export const blogDomains: { [key: string]: BlogDomain } = {
 				tags: ['resources', 'typing', 'beginners', 'guide']
 			},
 			{
-				slug: 'enneagram-test-comparison-2025',
-				title: 'Best Free Enneagram Test (2025)',
+				slug: 'enneagram-test-comparison-2026',
+				title: 'Best Free Enneagram Tests (2026)',
 				description: 'Honest comparison of tests that work',
-				lastmod: '2025-12-03',
+				lastmod: '2026-08-01',
 				tags: ['resources', 'tests', 'comparison', 'review']
 			},
 			{

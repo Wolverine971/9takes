@@ -7,7 +7,7 @@ const redirectMap: Record<string, string> = {
 	'enneagram-communication-overview': 'enneagram-communication-guide',
 	'enneagram-communication-in-relationships': 'relationship-communication-guide',
 	'enneagram-types-overview': 'enneagram-tldr',
-	'enneagram-test': 'enneagram-test-comparison-2025',
+	'enneagram-test': 'enneagram-test-comparison-2026',
 	'enneagram-types-being-direct': 'enneagram-communication-styles'
 };
 

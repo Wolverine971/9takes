@@ -395,7 +395,7 @@ Not necessarily. The presence of red flags is information, not an automatic verd
 
 **What if I see red flags in myself?**
 
-Recognizing your own patterns is the most important step toward growth. Everyone has shadow tendencies—the question is whether you let them run your life or actively work on them. Consider taking a [free Enneagram test](/enneagram-corner/enneagram-test-comparison-2025) to identify your type, then explore what healthy expression looks like. Many people find therapy helpful for understanding and transforming these deep patterns.
+Recognizing your own patterns is the most important step toward growth. Everyone has shadow tendencies—the question is whether you let them run your life or actively work on them. Consider taking a [free Enneagram test](/enneagram-corner/enneagram-test-comparison-2026) to identify your type, then explore what healthy expression looks like. Many people find therapy helpful for understanding and transforming these deep patterns.
 
 **How do I know someone's Enneagram type?**
 

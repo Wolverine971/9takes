@@ -306,7 +306,7 @@ Online tests measure behavior. You need to map your core emotional patterns. **F
 
 **Want a structured approach?** The [complete beginner's guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) offers a proven 4-step method.
 
-**Prefer a test?** We've [compared every major Enneagram test](/enneagram-corner/enneagram-test-comparison-2025) so you know which ones actually work.
+**Prefer a test?** We've [compared every major Enneagram test](/enneagram-corner/enneagram-test-comparison-2026) so you know which ones actually work.
 
 ---
 
@@ -325,7 +325,7 @@ Online tests measure behavior. You need to map your core emotional patterns. **F
 ### Find Your Type
 
 - [**Complete typing guide**](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type): The 4-step method that works better than any test
-- [**Enneagram test comparison (2025)**](/enneagram-corner/enneagram-test-comparison-2025): Which free tests actually get it right
+- [**Enneagram test comparison (2026)**](/enneagram-corner/enneagram-test-comparison-2026): Which free tests actually get it right
 - [**Childhood stereotypes**](/enneagram-corner/enneagram-childhood-stereotypes): How each type showed up as a kid reveals adult patterns
 - [**Wings explained**](/enneagram-corner/enneagram-wings-complete-guide): Why you're not "just" your type
 
