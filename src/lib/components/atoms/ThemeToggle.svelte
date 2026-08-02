@@ -3,7 +3,7 @@
 	import { onDestroy, onMount } from 'svelte';
 	import { themePreference, applyTheme, cycleTheme, type ThemePreference } from '$lib/stores/theme';
 
-	let current: ThemePreference = 'system';
+	let current: ThemePreference = $state('system');
 
 	const unsubscribe = themePreference.subscribe((v) => {
 		current = v;
@@ -102,16 +102,24 @@
 		height: 2.75rem;
 		padding: 0;
 		background: transparent;
-		border: 1px solid var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		border-radius: 0.625rem;
 		color: var(--ink-mid);
 		cursor: pointer;
-		transition: all 0.2s ease;
+		transition:
+			background-color 0.2s ease,
+			border-color 0.2s ease,
+			color 0.2s ease;
 	}
 
 	.theme-toggle:hover {
 		color: var(--lamp-glow);
 		border-color: var(--lamp-glow);
 		background: var(--lamp-soft);
+	}
+
+	button:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 </style>

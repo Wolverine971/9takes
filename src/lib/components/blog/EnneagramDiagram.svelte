@@ -17,7 +17,6 @@
 
 	let hoveredType: number | null = $state(null);
 	let mounted = $state(false);
-	let containerElement: HTMLElement | null = $state(null);
 	let showLabels = $derived(showLabelsProp);
 
 	// Type metadata (colors come from shared constants)
@@ -147,12 +146,7 @@
 	});
 </script>
 
-<div
-	class="diagram-wrapper"
-	class:size-sm={size === 'sm'}
-	class:size-lg={size === 'lg'}
-	bind:this={containerElement}
->
+<div class="diagram-wrapper" class:size-sm={size === 'sm'} class:size-lg={size === 'lg'}>
 	<div class="enneagram-container">
 		<!-- Ambient glow effects -->
 		<div class="glow-layer"></div>
@@ -192,7 +186,7 @@
 			<circle cx={center.x} cy={center.y} r={radius - 0.5} class="inner-glow" />
 
 			<!-- Triangle connections (3-6-9) - more prominent -->
-			{#each triangleConnections as conn}
+			{#each triangleConnections as conn (`${conn.from}-${conn.to}`)}
 				<line
 					x1={typePositions[conn.from].x}
 					y1={typePositions[conn.from].y}
@@ -206,7 +200,7 @@
 			{/each}
 
 			<!-- Hexad connections (1-4-2-8-5-7-1) -->
-			{#each hexadConnections as conn}
+			{#each hexadConnections as conn (`${conn.from}-${conn.to}`)}
 				<line
 					x1={typePositions[conn.from].x}
 					y1={typePositions[conn.from].y}
@@ -227,7 +221,7 @@
 		</div>
 
 		<!-- Type Nodes -->
-		{#each enneagramTypes as type, index}
+		{#each enneagramTypes as type, index (type.id)}
 			{#if mounted}
 				<a
 					href={interactive ? getTypeUrl(type.id) : undefined}
@@ -291,7 +285,7 @@
 	<!-- Type Legend -->
 	{#if mounted && showLabels}
 		<ul class="type-legend">
-			{#each enneagramTypes as type}
+			{#each enneagramTypes as type (type.id)}
 				<li>
 					<a
 						href={interactive ? getTypeUrl(type.id) : undefined}
@@ -328,8 +322,6 @@
 		--text-faded: var(--ink-dim);
 		--shadow-flame: var(--lamp-glow);
 		--shadow-ethereal: var(--lamp-glow);
-		--secondary: var(--secondary);
-		--system-hologram: var(--secondary-light);
 		--font-display: 'Inter Variable', 'Inter', system-ui, sans-serif;
 		--font-mono: 'JetBrains Mono', ui-monospace, monospace;
 	}
@@ -403,7 +395,7 @@
 		background: radial-gradient(
 			circle at 50% 50%,
 			color-mix(in srgb, var(--lamp-glow) 12%, transparent) 0%,
-			rgba(251, 113, 133, 0.06) 40%,
+			color-mix(in srgb, var(--data-teal) 6%, transparent) 40%,
 			transparent 65%
 		);
 		pointer-events: none;
@@ -462,7 +454,7 @@
 	}
 
 	.connection-hexad {
-		stroke: var(--secondary);
+		stroke: var(--data-teal);
 		stroke-width: 0.25;
 		stroke-opacity: 0.25;
 		transition: all 0.3s ease;
@@ -495,7 +487,7 @@
 
 	.center-icon span {
 		font-size: 0.8rem;
-		color: white;
+		color: var(--text-on-primary);
 	}
 
 	.center-pulse {

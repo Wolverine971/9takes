@@ -607,7 +607,10 @@
 		right: 0;
 		top: calc(100% + 0.65rem);
 		z-index: 80;
-		overflow: hidden;
+		max-height: min(60vh, 26.25rem);
+		max-height: min(60dvh, 26.25rem);
+		overflow-y: auto;
+		overscroll-behavior: contain;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 16%, var(--glass-border));
 		border-radius: 1rem;
 		background:

@@ -82,11 +82,11 @@
 <style lang="scss">
 	.pop-group {
 		position: relative;
-		width: clamp(300px, 100%, 700px);
+		width: min(100%, 700px);
 		margin: 1.5rem auto;
 		overflow: hidden;
 		border: 2px solid var(--lamp-glow);
-		border-radius: var(--border-radius, 0.75rem);
+		border-radius: var(--border-radius);
 		background: linear-gradient(135deg, var(--night-deep), var(--night-deep));
 	}
 
@@ -161,16 +161,16 @@
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
-		color: rgba(255, 255, 255, 0.95);
+		color: var(--text-on-image);
 		text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
-		background: rgba(0, 0, 0, 0.4);
+		background: var(--image-overlay-medium);
 		backdrop-filter: blur(4px);
 		padding: 0.2rem 0.5rem;
 		border-radius: 0.25rem;
 	}
 
 	.pop-group__type {
-		font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+		font-family: var(--font-mono);
 		font-size: clamp(0.5rem, 1.5vw, 0.65rem);
 		letter-spacing: 0.1em;
 		color: var(--lamp-glow);

@@ -241,7 +241,7 @@
 			</div>
 
 			<div class="type-grid">
-				{#each typeOptions as type}
+				{#each typeOptions as type (type)}
 					{@const isSelected = selected.includes(type)}
 					<button
 						type="button"
@@ -554,7 +554,7 @@
 		justify-content: center;
 		aspect-ratio: 1;
 		background: var(--stone-warm);
-		border: 2px solid var(--stone-warm);
+		border: 2px solid var(--stone-edge);
 		border-radius: 0.625rem;
 		cursor: pointer;
 		transition:
@@ -644,7 +644,7 @@
 		gap: 0.5rem;
 		padding: 0.875rem 0.625rem;
 		background: var(--stone-warm);
-		border: 2px solid var(--stone-warm);
+		border: 2px solid var(--stone-edge);
 		border-radius: 0.625rem;
 		cursor: pointer;
 		transition:

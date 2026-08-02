@@ -1,8 +1,8 @@
 ---
 title: "Drake's Enneagram Type: The Psychology Behind Hip-Hop's Most Vulnerable Achiever"
-meta_title: "Why Drake Can't Stop Fighting After Losing to Kendrick Lamar"
+meta_title: "Drake Personality Type: Why He Can't Accept Defeat"
 persona_title: 'The Achiever Who Made Vulnerability Win'
-description: "Drake's Type 3 psychology explains the outsider wound, the chameleon branding, the Stake.com losses, and why Iceman still refuses to concede Kendrick Lamar."
+description: "Drake's Enneagram Type 3w2 personality explains his ambition, strategic vulnerability, image shifts, and refusal to concede the Kendrick Lamar feud."
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/drake'
@@ -109,6 +109,8 @@ PUBLICATION READY: Yes. Clears the 8.5 threshold comfortably.
 <p class="firstLetter">Most superstars hide this truth. Drake built a quarter-billion-dollar empire on it.</p>
 
 Fifteen months after Kendrick Lamar performed "Not Like Us" for 133.5 million Super Bowl viewers, Drake answered the way only a Type 3 can — not with a concession, but with output. On May 15, 2026, he released three albums in a single night and watched them debut at one, two, and three on the Billboard 200, something no artist had ever done. He's still touring, still suing Universal Music Group, and now holds more number-one albums than any solo artist in history but Taylor Swift, his only equal. A Type 3 Achiever does not accept defeat. He reprices it.
+
+**The short answer:** Drake's personality most closely fits an Enneagram Type 3w2—the image-aware Achiever who earns belonging through performance, adapts to every room, and converts even public defeat into another campaign to win.
 
 To understand why, go back to a basement apartment in Toronto, where a half-Jewish, half-Black kid who never fit anywhere learned that performance was the only reliable path to love.
 

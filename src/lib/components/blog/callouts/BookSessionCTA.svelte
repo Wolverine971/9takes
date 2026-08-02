@@ -5,6 +5,8 @@
   with UTM attribution. Visually distinct from neutral InsightBox callouts.
 -->
 <script lang="ts">
+	import { resolve } from '$app/paths';
+
 	type Props = {
 		slug?: string;
 		surface?: string;
@@ -12,7 +14,7 @@
 
 	let { slug = '', surface = 'personality_analysis' }: Props = $props();
 
-	const bookHref = $derived.by(() => {
+	const bookHref = $derived.by((): `/book-session?${string}#waitlist` => {
 		const params = new URLSearchParams({
 			utm_source: 'blog',
 			utm_medium: 'session_cta',
@@ -35,7 +37,7 @@
 		<p class="session-cta__body session-cta__body--emphasis">
 			I love this kind of conversation. Let's have it.
 		</p>
-		<a class="session-cta__button" href={bookHref} data-source={surface} data-slug={slug}>
+		<a class="session-cta__button" href={resolve(bookHref)} data-source={surface} data-slug={slug}>
 			Book a session →
 		</a>
 	</div>
@@ -82,12 +84,12 @@
 		line-height: 1.7;
 		color: var(--ink-mid);
 		margin: 0 0 0.875rem;
+	}
 
-		&--emphasis {
-			color: var(--ink-bright);
-			font-style: italic;
-			margin-bottom: 1.5rem;
-		}
+	.session-cta .session-cta__body--emphasis {
+		color: var(--ink-bright);
+		font-style: italic;
+		margin-bottom: 1.5rem;
 	}
 
 	.session-cta .session-cta__button {
