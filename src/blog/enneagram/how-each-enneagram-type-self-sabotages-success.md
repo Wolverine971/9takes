@@ -45,7 +45,7 @@ This guide maps the specific sabotage loop for all nine types, then gives you th
 Read through all nine. Pay attention to the one that makes you defensive. That's yours.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date 💜', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## Why Your Brain Sabotages You
@@ -451,7 +451,7 @@ Self-sabotage happens to everyone. But when patterns persist despite awareness, 
 
 Your Enneagram type can help a therapist understand your specific patterns faster, but [not every therapeutic approach works the same for every type](/enneagram-corner/why-therapy-doesnt-work-the-same-for-every-type). If traditional talk therapy hasn't worked for you, you might need somatic work, EMDR, or another modality that matches how your brain actually processes.
 
-If anxiety underlies your self-sabotage, understanding [how your type experiences anxiety differently](/enneagram-corner/anxiety-and-enneagram-types-guide) can help you target the root cause instead of just the symptoms.
+If anxiety underlies your self-sabotage, understanding [how your type experiences anxiety differently](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) can help you target the root cause instead of just the symptoms.
 
 Self-awareness is the first step. Sometimes you need a guide to walk you through the territory you've been avoiding. For more on personality and mental health, see our guides on [Enneagram and mental illness](/enneagram-corner/enneagram-and-mental-illness) and [toxic traits of each type](/enneagram-corner/toxic-traits-of-each-enneagram-type).
 

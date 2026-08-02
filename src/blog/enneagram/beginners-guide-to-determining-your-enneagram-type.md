@@ -449,7 +449,7 @@ Now that you see the box you've been living in...
 
 ---
 
-_P.S. Still uncertain? That's normal. Some people take months to find their true type. The key is to keep observing your motivations, not your behaviors. The truth always reveals itself. For deeper understanding, explore [how each type communicates](/enneagram-corner/enneagram-communication-styles) or [what happens under stress](/enneagram-corner/enneagram-types-in-stress)._
+_P.S. Still uncertain? That's normal. Some people take months to find their true type. The key is to keep observing your motivations, not your behaviors. The truth always reveals itself. For deeper understanding, explore [how each type communicates](/enneagram-corner/relationship-communication-guide) or [what happens under stress](/enneagram-corner/enneagram-types-in-stress)._
 
 <svelte:head>
 

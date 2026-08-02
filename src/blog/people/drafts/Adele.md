@@ -237,7 +237,7 @@ Five words that carry an entire identity crisis. Because for Adele, the public r
 
 She understood the hurt, though. "I represented a lot of women," she acknowledged. "Visually, I represented them." The grace in that statement is real. She wasn't dismissive. But she also wasn't apologetic — because the weight loss wasn't about image. "It was because of my anxiety," she explained. "Working out made me feel better. It was never about losing weight, it was always about becoming strong."
 
-The [anxiety](/enneagram-corner/anxiety-and-enneagram-types-guide) drove the transformation. Not vanity. Not a makeover montage. Just a woman who couldn't stop her body from shaking before shows, who found that lifting heavy things made the shaking stop.
+The [anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) drove the transformation. Not vanity. Not a makeover montage. Just a woman who couldn't stop her body from shaking before shows, who found that lifting heavy things made the shaking stop.
 
 ---
 

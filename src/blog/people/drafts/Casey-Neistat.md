@@ -182,7 +182,7 @@ The crucial detail: Nike didn't ask for this. Nike didn't approve this. Casey to
 
 Most people see Casey Neistat as a hustle-culture hero, the dropout who outworked everyone. But hustle is a behavior. The question is what's underneath it.
 
-Enneagram Fours carry a core wound: the conviction that something essential is missing inside them. They feel things at a frequency others can't detect. They experience existence as raw material that must be shaped, interpreted, transformed, because the unprocessed version is unbearable. Their deepest fear isn't failure. It's ordinariness. The core emotion of the [heart triad](/enneagram-corner/enneagram-communication-styles), shame, runs beneath everything, though it rarely announces itself. Being forgettable. Passing through life without leaving a mark that proves they were here.
+Enneagram Fours carry a core wound: the conviction that something essential is missing inside them. They feel things at a frequency others can't detect. They experience existence as raw material that must be shaped, interpreted, transformed, because the unprocessed version is unbearable. Their deepest fear isn't failure. It's ordinariness. The core emotion of the [heart triad](/enneagram-corner/relationship-communication-guide), shame, runs beneath everything, though it rarely announces itself. Being forgettable. Passing through life without leaving a mark that proves they were here.
 
 Look at Casey's own words: "I never want to be comfortable, I never want to feel safe — that is the fast track to being irrelevant."
 

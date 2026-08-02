@@ -243,7 +243,7 @@ Then <em>Atonement</em> got her a BAFTA nomination, and the industry expected he
 
 <p class="inner-thought">Shoulders back. Chin up. Forty cameras, and every one of them allowed to be here this time. Wait for the flutter in the chest. Nothing yet. Keep smiling. It's working. It's working.</p>
 
-She stood on that carpet in February 2008 and did not have a panic attack. The bravest single act of her career happened in formalwear, and nobody watching knew it was happening at all. If you want to understand how differently the same diagnosis can wear on different people, the internal patterns are mapped in our <a href="/enneagram-corner/anxiety-and-enneagram-types-guide">guide to anxiety by Enneagram type</a>; hers is the version that walks toward the camera.
+She stood on that carpet in February 2008 and did not have a panic attack. The bravest single act of her career happened in formalwear, and nobody watching knew it was happening at all. If you want to understand how differently the same diagnosis can wear on different people, the internal patterns are mapped in our <a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">guide to anxiety by Enneagram type</a>; hers is the version that walks toward the camera.
 
 ## What John Carney got right about Keira Knightley
 
@@ -359,6 +359,5 @@ Cleaned up:
 Still rough:
 - Nothing blocking. Awards Chatter quotes remain secondary-sourced.
 -->
-
 
 

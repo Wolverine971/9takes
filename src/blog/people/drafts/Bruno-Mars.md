@@ -136,7 +136,7 @@ Look at Bruno Mars and you see this pattern in everything:
 - An adult whose music brims with emotion while his private life remains a sealed room
 - A performer whose one truly naked song is the one he describes as "bleeding"
 
-The shame that drives Type 3 is not shame about any specific thing. It's a [quiet terror](/enneagram-corner/enneagram-anxiety-management-guide) that nothing real exists beneath the presentation. Every win briefly silences that voice. Then it comes back. You need a bigger win.
+The shame that drives Type 3 is not shame about any specific thing. It's a [quiet terror](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) that nothing real exists beneath the presentation. Every win briefly silences that voice. Then it comes back. You need a bigger win.
 
 Bruno Mars has been outrunning that voice since he was four years old.
 

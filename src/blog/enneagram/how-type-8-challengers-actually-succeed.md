@@ -55,7 +55,7 @@ After studying 14 famous Type 8s and how they actually rose to power, one patter
 Here's what actually produced their breakthroughs.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'self-sabotage 🔥', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'self-sabotage 🔥', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## The Type 8s Studied

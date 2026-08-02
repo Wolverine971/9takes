@@ -92,7 +92,7 @@ For each Enneagram type, this negativity bias gets filtered through your core fe
 
 **This is why generic positive self-talk fails.** Telling a Type 6 "everything will be fine" doesn't address their need for concrete security. Telling a Type 8 to "be gentle with yourself" triggers their fear of weakness.
 
-When negative self-talk creates anxiety, you need more than just positive affirmations. Learn [anxiety management strategies specifically designed for your Enneagram type](/enneagram-corner/enneagram-anxiety-management-guide) to address both the thoughts and the feelings they create.
+When negative self-talk creates anxiety, you need more than just positive affirmations. Learn [anxiety management strategies specifically designed for your Enneagram type](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) to address both the thoughts and the feelings they create.
 
 ### The Real Cost of Toxic Self-Talk
 
@@ -113,7 +113,7 @@ Your inner critic isn't just annoying – it's expensive. Here's what that voice
 **Mental Health Impact:**
 
 - Type 4s spiral into depression through comparison
-- Type 6s develop [anxiety disorders](/enneagram-corner/enneagram-anxiety-management-guide) from chronic worry
+- Type 6s develop [anxiety disorders](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) from chronic worry
 - Type 7s develop addictive patterns to escape discomfort
 
 **Physical Manifestations:**

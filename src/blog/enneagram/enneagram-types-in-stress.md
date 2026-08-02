@@ -346,7 +346,7 @@ Stress turns an event into a prediction: “This could lead to the thing I most 
 <section class="related-reading" aria-labelledby="related-reading">
 	<h2 id="related-reading">Keep following the pattern</h2>
 	<ul>
-		<li><a href="/enneagram-corner/anxiety-and-enneagram-types-guide">Why anxiety looks different for each type</a></li>
+		<li><a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">Why anxiety looks different for each type</a></li>
 		<li><a href="/enneagram-corner/why-you-cant-stop-overthinking-enneagram">Why each type gets stuck overthinking</a></li>
 		<li><a href="/enneagram-corner/how-each-enneagram-type-self-sabotages-success">How each type’s protection strategy becomes self-sabotage</a></li>
 		<li><a href="/enneagram-corner/enneagram-personal-growth">The Enneagram personal-growth guide</a></li>

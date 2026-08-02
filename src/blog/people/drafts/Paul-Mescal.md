@@ -243,7 +243,7 @@ The people who refuse to feel things are the people who collapse when feeling fi
 
 ## Paul Mescal is still learning to be private in public
 
-On the first day of <em>Gladiator II</em>, Ridley Scott — who had been told, apparently, that Mescal was <a href="/enneagram-corner/anxiety-and-enneagram-types-guide">anxious</a> about the scale of the production — turned to him and said, "Your nerves are no fucking good to me."
+On the first day of <em>Gladiator II</em>, Ridley Scott — who had been told, apparently, that Mescal was <a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">anxious</a> about the scale of the production — turned to him and said, "Your nerves are no fucking good to me."
 
 Mescal called it "the perfect thing to say." He called it "liberating."
 

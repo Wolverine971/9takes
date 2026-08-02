@@ -6,7 +6,7 @@ description: 'Peter Thiel bought a parachute after 9/11, lectures on the Antichr
 author: 'DJ Wayne'
 date: '2024-09-12'
 loc: 'https://9takes.com/personality-analysis/peter-thiel'
-lastmod: '2026-07-30'
+lastmod: '2026-08-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -140,7 +140,17 @@ But it was Girard, the French philosopher of mimetic desire, who provided the in
 
 Thiel took this and built a philosophy of business: if everyone wants the same things, the winners are the ones who want what nobody else recognizes as valuable yet. Seek monopolies, not competition. Find secrets. **"Competition is for losers."**
 
-After Stanford Law School, Thiel clerked for a federal judge, then interviewed for Supreme Court clerkships with Justices Kennedy and Scalia. He was devastated when he didn't get the position. He joined Sullivan & Cromwell, a prestigious New York law firm where the hours were long and the competition was cutthroat. He lasted seven months and three days. When he left, a colleague down the hall told him: **"You know, I had no idea it was possible to escape from Alcatraz."** It wasn't literally true. All you had to do was walk out the front door. But as Thiel later reflected, the lawyers couldn't leave because **"their identity was defined by competing so intensely with other people, they could not imagine leaving."** He distilled the place in a single observation: **"From the outside, everybody wanted to get in; and from the inside, everybody wanted to get out."**
+### The Door Was Open. Nobody Left.
+
+After Stanford Law School, Thiel clerked for a federal judge, then interviewed for Supreme Court clerkships with Justices Kennedy and Scalia. He was devastated when he didn't get the position. He joined Sullivan & Cromwell, a prestigious New York law firm, and lasted seven months and three days.
+
+In his [2016 Hamilton College commencement address](https://www.youtube.com/watch?v=id4ywg5oemc&t=98s), he distilled the place into one sentence:
+
+> **"From the outside, everybody wanted to get in, and from the inside, everybody wanted to get out."**
+
+When Thiel left, a coworker told him he had not known it was possible to escape from Alcatraz. Thiel pointed out how strange that was: **"All you had to do to escape was walk through the front door and not come back."** What held people inside was not a lock but identity. They had competed so hard to reach the firm that leaving felt like erasing the meaning of winning.
+
+This is more revealing than simple career dissatisfaction. The prestigious path offered money, status, and apparent security while quietly weakening the ability to choose. Read through the Six lens, Thiel was not escaping risk; he was escaping **entrapment**. A system that could make its members psychologically unable to leave was itself unsafe. Long before the passports, private funds, and geopolitical escape routes, the law firm supplied an early version of the rule that would shape his life: **security requires keeping the exit usable.**
 
 The pivotal moment came in 2004, after PayPal's sale to eBay had made him wealthy. Thiel ran into an old law school friend who had helped him prepare those Supreme Court applications. The friend grinned and asked: **"So, Peter, aren't you glad you didn't get that clerkship?"**
 

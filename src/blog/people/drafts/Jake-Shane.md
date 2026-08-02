@@ -167,7 +167,7 @@ The kid who quit his school play because changing schools made him too insecure 
 
 ### Jake Shane is an Enneagram Type 6
 
-The Enneagram's [head triad](/enneagram-corner/enneagram-anxiety-management-guide) — Types 5, 6, and 7 — all organize their lives around fear. Fives retreat from it. Sevens sprint away from it. Sixes sit in it, scan it, map it, and build elaborate systems to manage it.
+The Enneagram's [head triad](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) — Types 5, 6, and 7 — all organize their lives around fear. Fives retreat from it. Sevens sprint away from it. Sixes sit in it, scan it, map it, and build elaborate systems to manage it.
 
 Jake Shane is a Six, and the evidence isn't subtle.
 

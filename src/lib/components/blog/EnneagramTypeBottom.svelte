@@ -446,8 +446,8 @@
 			how Type 5's three subtypes show up wildly differently
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-communication-styles">Communication Styles by Type</a> — how
-			to actually be heard by — and as — a Type 5
+			<a href="/enneagram-corner/relationship-communication-guide">Communication Styles by Type</a> —
+			how to actually be heard by — and as — a Type 5
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-strengths-and-weaknesses"
@@ -530,13 +530,14 @@
 			deep dive on the worry engine and how to loosen its grip
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-anxiety-management-guide"
+			<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
 				>Enneagram Anxiety Management Guide</a
 			> — the playbook tuned for Type 6 specifically
 		</li>
 		<li>
-			<a href="/enneagram-corner/anxiety-and-enneagram-types-guide">Anxiety and the Enneagram</a> — how
-			anxiety actually differs between types
+			<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
+				>Anxiety and the Enneagram</a
+			> — how anxiety actually differs between types
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-mental-health-flags">Mental Health Flags by Type</a> — when
@@ -806,8 +807,8 @@
 			for actually showing up to your own life
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-communication-styles">Communication Styles by Type</a> — how
-			to be heard when you'd rather merge
+			<a href="/enneagram-corner/relationship-communication-guide">Communication Styles by Type</a> —
+			how to be heard when you'd rather merge
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a> — what 9 → 6

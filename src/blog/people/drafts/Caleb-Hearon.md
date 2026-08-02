@@ -186,7 +186,7 @@ But the most revealing evidence isn't in the resume. It's in what he said about 
 
 Read that again. He didn't say he wanted to process his grief. He didn't say he wanted the audience to understand his father. He wanted to put it in the special so he could be done with it. So he could move on. So the painful material could be converted into a finished product, filed away, performed, completed — and he could stop carrying it as an open wound.
 
-That's the Seven mechanism in its purest form. Not avoidance exactly. More like emotional engineering. Each Enneagram type has a [characteristic way of processing feelings](/enneagram-corner/enneagram-communication-styles), and the Seven's version is to take raw suffering, shape it into art, install it somewhere permanent, and walk forward lighter.
+That's the Seven mechanism in its purest form. Not avoidance exactly. More like emotional engineering. Each Enneagram type has a [characteristic way of processing feelings](/enneagram-corner/relationship-communication-guide), and the Seven's version is to take raw suffering, shape it into art, install it somewhere permanent, and walk forward lighter.
 
 When asked whether performing that material felt cathartic or draining, he was clear: "Not emotionally draining, definitely cathartic... it's kind of felt like an act of love for my dad to make art about his life."
 

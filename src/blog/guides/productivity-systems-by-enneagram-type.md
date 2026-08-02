@@ -341,7 +341,7 @@ The double-checking. The seeking reassurance. The catastrophizing about obstacle
 
 [Jim Collins' research on "Productive Paranoia"](https://www.jimcollins.com/concepts/productive-paranoia.html) shows successful leaders channel anxiety into preparation. Your instincts have value. The key is channeling them into action rather than paralysis.
 
-Related: <a href="/enneagram-corner/enneagram-anxiety-management-guide">Enneagram Anxiety Management Guide</a>
+Related: <a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">Enneagram Anxiety Management Guide</a>
 
 ## Type 7: The Variety System
 

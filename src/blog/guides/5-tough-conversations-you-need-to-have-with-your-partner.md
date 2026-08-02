@@ -281,7 +281,7 @@ None of this happens by accident. It happens through intentional, uncomfortable,
 
 Pick one. Start tonight.
 
-**For a deeper dive into relationship communication patterns, check out our guides on [navigating relationship conflict](/how-to-guides/definitive-guide-to-relationship-conflict-part-1) and [understanding Enneagram communication styles](/enneagram-corner/enneagram-communication-styles).**
+**For a deeper dive into relationship communication patterns, check out our guides on [navigating relationship conflict](/how-to-guides/definitive-guide-to-relationship-conflict-part-1) and [understanding Enneagram communication styles](/enneagram-corner/relationship-communication-guide).**
 
 <style lang="scss">
 </style>

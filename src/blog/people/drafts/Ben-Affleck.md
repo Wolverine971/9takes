@@ -143,7 +143,7 @@ Two blocks away from the Affleck house, a ten-year-old named <a href="/personali
 
 They shared a bank account. Not as adults, as teenagers. The money was for auditions, for bus tickets to New York, for the logistical machinery of two working-class kids trying to will a career into existence. Damon has described the moment their friendship solidified: a fight at school where Affleck stepped in for him without hesitation. "He'll put himself in a really bad spot for me," Damon told Conan O'Brien. "This is a good friend."
 
-That instinct, the willingness to sacrifice for the people he's bonded with, would define Affleck's closest relationships for forty years. It's also what makes the pattern of his romantic relationships so painful to watch. He knows how to be loyal. He just doesn't always know how to be present. The [communication gap](/enneagram-corner/enneagram-communication-styles) between what he feels and what he shows has been the defining feature of his public life.
+That instinct, the willingness to sacrifice for the people he's bonded with, would define Affleck's closest relationships for forty years. It's also what makes the pattern of his romantic relationships so painful to watch. He knows how to be loyal. He just doesn't always know how to be present. The [communication gap](/enneagram-corner/relationship-communication-guide) between what he feels and what he shows has been the defining feature of his public life.
 
 But the bond that explains even more about Affleck is the one he didn't choose: his younger brother Casey.
 

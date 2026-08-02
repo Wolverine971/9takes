@@ -77,15 +77,17 @@
 				</a>
 			</li>
 			<li>
-				<a href="/enneagram-corner/enneagram-communication-guide">
+				<a href="/enneagram-corner/relationship-communication-guide">
 					How to communicate and interact effectively with different Enneagram types
 				</a>
 			</li>
 			<li>
-				<a href="/enneagram-corner/enneagram-communication-tips"> Enneagram communication tips </a>
+				<a href="/enneagram-corner/relationship-communication-guide">
+					Enneagram communication tips
+				</a>
 			</li>
 			<li>
-				<a href="/enneagram-corner/enneagram-communication-styles">
+				<a href="/enneagram-corner/relationship-communication-guide">
 					Enneagram communication styles
 				</a>
 			</li>

@@ -154,7 +154,7 @@ How do you have an original thought online when the infrastructure is designed t
 
 **Ask questions instead of making statements.** Hot takes create binary reactions — agree or disagree. Questions invite exploration. They bypass the memetic reflex because there's no position to copy yet.
 
-**Learn why people think differently.** When you understand [how different personalities process the same information](/enneagram-corner/enneagram-communication-styles), you stop seeing disagreement as tribal warfare and start seeing it as different operating systems running different code. The person who enrages you in a thread might simply be processing reality through a completely different lens — one that catches something yours misses.
+**Learn why people think differently.** When you understand [how different personalities process the same information](/enneagram-corner/relationship-communication-guide), you stop seeing disagreement as tribal warfare and start seeing it as different operating systems running different code. The person who enrages you in a thread might simply be processing reality through a completely different lens — one that catches something yours misses.
 
 **Speak before you scroll.** If you never see other people's comments before writing your own, mimesis can't prime you. You'd be surprised how different your honest first reaction is from the take you would have crafted after reading the room.
 

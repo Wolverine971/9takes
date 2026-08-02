@@ -504,7 +504,7 @@ The 3 is all forward motion. The 9 keeps disappearing into the passenger seat. T
 3. **Run the 3-question self-diagnostic** on yourself, then ask your partner the five direct-approach questions the next time you have an hour.
 4. **Pick one cell** from your partner's row this week and give it to them in that specific form. Don't announce it. See what lands.
 
-([Need help with the conversation?](/enneagram-corner/enneagram-communication-styles) Communication styles vary by type too.)
+([Need help with the conversation?](/enneagram-corner/relationship-communication-guide) Communication styles vary by type too.)
 
 ## Frequently Asked Questions
 

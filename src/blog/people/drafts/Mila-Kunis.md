@@ -144,7 +144,7 @@ Her own words point somewhere tenser. The calm looks like the result of preparin
 
 Mila Kunis fits Enneagram Type 6, the Loyalist. Her public record is organized around preparation, long-term trust, and fast action when her circle feels threatened. The same pattern helps explain her durable career, her Ukraine fundraiser, and the character letter that damaged her reputation.
 
-[Type 6](/enneagram-corner/enneagram-type-6) is built around a question: _Is this ground safe?_ Sixes scan for risk, test who can be trusted, and build reliable structures around the people and institutions that pass. The fear is uncertainty. The desire is dependable ground. Relief arrives when the plan, the person, or the group holds. The pattern is closely tied to [anticipatory anxiety](/enneagram-corner/anxiety-and-enneagram-types-guide).
+[Type 6](/enneagram-corner/enneagram-type-6) is built around a question: _Is this ground safe?_ Sixes scan for risk, test who can be trusted, and build reliable structures around the people and institutions that pass. The fear is uncertainty. The desire is dependable ground. Relief arrives when the plan, the person, or the group holds. The pattern is closely tied to [anticipatory anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 
 Kunis uses her own vocabulary for that interior. She told Marc Maron in 2018 that her shyness lifts only after she feels comfortable and safe. She described manager Susan Curtis and Curtis's husband as additional parents because nobody outside her family had looked out for her more. When she and Kutcher began dating, the decisive word was _trust_.
 

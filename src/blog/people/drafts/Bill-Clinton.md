@@ -244,7 +244,7 @@ He wasn't thinking at all. He was feeling. The man who could feel everyone else'
 
 "Quite simply, I gave in to my shame," Clinton told the nation.
 
-That word, shame, is the Two's deepest currency. Not guilt, which says "I did something bad." Shame, which says "I am bad." The Two's entire life is organized around avoiding that conclusion. Every act of service, every handwritten note, every rope-line handshake is, at its core, evidence against the prosecution's case that they are unworthy of love. Understanding how each type processes [shame differently](/enneagram-corner/enneagram-communication-styles) reveals why Clinton's response to crisis looked the way it did.
+That word, shame, is the Two's deepest currency. Not guilt, which says "I did something bad." Shame, which says "I am bad." The Two's entire life is organized around avoiding that conclusion. Every act of service, every handwritten note, every rope-line handshake is, at its core, evidence against the prosecution's case that they are unworthy of love. Understanding how each type processes [shame differently](/enneagram-corner/relationship-communication-guide) reveals why Clinton's response to crisis looked the way it did.
 
 When the scandal broke, Clinton wrote that he was "back to my parallel lives with a vengeance." The man who told the nation he felt their pain admitted he could not let anyone into his own. "If I took the openness and vulnerability of acknowledging my mistakes into the impeachment fight," he wrote, "I would have been devoured."
 
@@ -389,4 +389,3 @@ STILL OFF (THIS IS THE PRIORITY BLOG OF THE 15):
 RECOMMENDED NEXT MOVE: Per-blog brief drafted before any agent touches this. Named sources required: Paula Jones (1994 Arkansas suit), Broaddrick (1999 NBC interview), Willey (60 Minutes), one Epstein flight log citation, one post-#MeToo critic (Linda Hirshman, Michelle Goldberg, or similar). Integration form: dedicated H2 ("The Reckoning the 90s Postponed" or similar). Voice anchor: Sorkin/Taibbi treatment from Andrew-Ross-Sorkin.md.
 
 ============================================================ -->
-

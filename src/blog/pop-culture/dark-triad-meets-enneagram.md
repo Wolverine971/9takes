@@ -204,7 +204,7 @@ Calm can be restorative. It can also conceal a decision not to intervene.
 		displayList={[
 			{name: 'stress patterns 😰', link: '/enneagram-corner/enneagram-types-in-stress'},
 			{name: 'toxic traits ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'},
-			{name: 'communication guide 💬', link: '/enneagram-corner/enneagram-communication-guide'},
+			{name: 'communication guide 💬', link: '/enneagram-corner/relationship-communication-guide'},
 			{name: 'manipulation tactics 🎭', link: '/enneagram-corner/how-each-enneagram-type-manipulates'},
 			{name: 'shadow work guide 🌑', link: '/enneagram-corner/shadow-work-by-enneagram-type'}
 		]}

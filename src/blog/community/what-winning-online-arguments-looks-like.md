@@ -70,7 +70,7 @@ The key insight: **seek to understand before you try to be understood.**
 
 Most people do this backwards. They lead with their argument, then get frustrated when the other person doesn't listen. But why would they? You haven't shown any interest in their perspective. (There's a deeper model for [why this happens and how minds actually change](/community/how-minds-change-on-9takes) — it comes down to identity threat, not intelligence.)
 
-Understanding [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) gives you an even bigger edge. A Type 8 needs directness. A Type 2 needs to feel appreciated. A Type 5 needs space to think. Same argument, completely different approaches.
+Understanding [how different personality types communicate](/enneagram-corner/relationship-communication-guide) gives you an even bigger edge. A Type 8 needs directness. A Type 2 needs to feel appreciated. A Type 5 needs space to think. Same argument, completely different approaches.
 
 Here are 4 steps that actually work:
 

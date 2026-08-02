@@ -303,7 +303,7 @@ Most of the time, the people you fight with aren't actually wrong about the prob
 
 - **The growth and stress map**: [Enneagram Connecting Lines](/enneagram-corner/enneagram-connecting-lines) — how each type transforms under integration and disintegration
 - **Attachment overlay**: [Attachment Styles and Enneagram Types](/enneagram-corner/attachment-styles-and-enneagram-types) — how Harmonic patterns map to attachment research
-- **Conflict-specific deep dive**: [Enneagram Communication Styles](/enneagram-corner/enneagram-communication-styles) — what each type sounds like in hard conversations
+- **Conflict-specific deep dive**: [Enneagram Communication Styles](/enneagram-corner/relationship-communication-guide) — what each type sounds like in hard conversations
 - **Type-by-type breakdowns**: [Type 1](/enneagram-corner/enneagram-type-1) · [Type 2](/enneagram-corner/enneagram-type-2) · [Type 3](/enneagram-corner/enneagram-type-3) · [Type 4](/enneagram-corner/enneagram-type-4) · [Type 5](/enneagram-corner/enneagram-type-5) · [Type 6](/enneagram-corner/enneagram-type-6) · [Type 7](/enneagram-corner/enneagram-type-7) · [Type 8](/enneagram-corner/enneagram-type-8) · [Type 9](/enneagram-corner/enneagram-type-9)
 
 <svelte:head>

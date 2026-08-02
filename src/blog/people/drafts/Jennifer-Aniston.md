@@ -219,7 +219,7 @@ Read that again. _Terrified that I was going to get murdered in response._ Not f
 
 "I always thought, if you're angry you just don't say anything," she's said. "I would come out passive, things would come out passively."
 
-She's been called passive-aggressive. She knows it. She's been a self-described control freak. She knows that too. What she didn't know — what took years of therapy to surface — was that these weren't personality defects. They were [survival strategies](/enneagram-corner/enneagram-communication-styles) from a little girl who learned that the safest thing in a dangerous room was to become invisible.
+She's been called passive-aggressive. She knows it. She's been a self-described control freak. She knows that too. What she didn't know — what took years of therapy to surface — was that these weren't personality defects. They were [survival strategies](/enneagram-corner/relationship-communication-guide) from a little girl who learned that the safest thing in a dangerous room was to become invisible.
 
 "Go to therapy," she's said plainly. "Clean up all of the sh-t. Clean up all of the toxins and the noise. Understand who you are. Educate yourself on the self."
 

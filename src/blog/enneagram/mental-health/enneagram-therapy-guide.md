@@ -236,7 +236,7 @@ Need someone competent who respects boundaries and explains their methods. If th
 
 ## Type 6: The Loyalist
 
-**Your therapy sabotage:** You test your therapist like they are applying for security clearance. You doubt everything works. You scan for danger instead of healing. Understanding [your type's unique anxiety signature](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad) helps you recognize when vigilance is productive versus when it's keeping you stuck.
+**Your therapy sabotage:** You test your therapist like they are applying for security clearance. You doubt everything works. You scan for danger instead of healing. Understanding [your type's unique anxiety signature](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide#type-6-the-loyalists-anxiety) helps you recognize when vigilance is productive versus when it's keeping you stuck.
 
 ### Approaches That Tend to Resonate
 

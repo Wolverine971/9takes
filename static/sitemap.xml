@@ -1,3 +1,4 @@
+<!-- static/sitemap.xml -->
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
@@ -149,13 +150,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://9takes.com/enneagram-corner/anxiety-and-enneagram-types-guide</loc>
-    <lastmod>2026-02-19</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/anxiety-and-enneagram-types-guide.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://9takes.com/enneagram-corner/astrology-and-the-enneagram</loc>
     <lastmod>2026-03-20</lastmod>
     <image:image>
@@ -212,13 +206,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide</loc>
-    <lastmod>2026-03-26</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/greek-statues-who-are-stressed.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://9takes.com/enneagram-corner/enneagram-books-websites-podcasts</loc>
     <lastmod>2026-02-10</lastmod>
     <image:image>
@@ -237,27 +224,6 @@
     <lastmod>2026-01-18</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statue-giving-a-speech.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://9takes.com/enneagram-corner/enneagram-communication-guide</loc>
-    <lastmod>2025-12-04</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/communication-example.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://9takes.com/enneagram-corner/enneagram-communication-styles</loc>
-    <lastmod>2026-01-18</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/two-female-greek-statues-having-a-conversation.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://9takes.com/enneagram-corner/enneagram-communication-tips</loc>
-    <lastmod>2025-12-04</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/greek-statues-arguing.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -668,7 +634,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/mental-health</loc>
-    <lastmod>2026-07-04</lastmod>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-addiction-recovery-guide</loc>
@@ -679,7 +645,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide</loc>
-    <lastmod>2026-02-22</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statue-circle-of-anxiety.webp</image:loc>
     </image:image>
@@ -784,7 +750,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/relationship-communication-guide</loc>
-    <lastmod>2026-01-23</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statues-having-an-intimate-conversation.webp</image:loc>
     </image:image>
@@ -817,7 +783,7 @@
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/relationships</loc>
-    <lastmod>2026-07-18</lastmod>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner/subtopic/resources</loc>

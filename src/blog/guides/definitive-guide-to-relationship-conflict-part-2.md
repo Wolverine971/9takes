@@ -249,7 +249,7 @@ If you notice these, call a time-out and name a return time. Try: "I'm getting f
 
 5. **Practice perspective-taking** - Spend 60 seconds arguing for your partner's view as generously as you can.
 
-For a deeper understanding of how your personality type might influence conflict resolution, check out our guide on <a href="/enneagram-corner/enneagram-communication-styles">Enneagram Communication Styles</a>.
+For a deeper understanding of how your personality type might influence conflict resolution, check out our guide on <a href="/enneagram-corner/relationship-communication-guide">Enneagram Communication Styles</a>.
 
 ### How to Know When to Compromise vs. When to Stand Firm
 
@@ -461,7 +461,7 @@ People with higher emotional intelligence tend to navigate conflict more success
 
 5. **Stay curious about your partner** - Ask open-ended questions and listen without judgment.
 
-For an in-depth exploration of how your personality type influences your emotional responses and communication style, check out our <a href="/enneagram-corner/enneagram-communication-guide">Enneagram Communication Guide</a>.
+For an in-depth exploration of how your personality type influences your emotional responses and communication style, check out our <a href="/enneagram-corner/relationship-communication-guide">Enneagram Communication Guide</a>.
 
 ### The Power of Empathy: Emotional Street Smarts
 

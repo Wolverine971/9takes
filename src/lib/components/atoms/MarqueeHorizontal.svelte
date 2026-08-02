@@ -40,7 +40,7 @@
 				name: 'Types in Relationships',
 				link: '/enneagram-corner/enneagram-types-in-relationships'
 			},
-			{ name: 'Communication Guide', link: '/enneagram-corner/enneagram-communication-guide' },
+			{ name: 'Communication Guide', link: '/enneagram-corner/relationship-communication-guide' },
 			{ name: 'First Date Dynamics', link: '/enneagram-corner/enneagram-types-on-a-first-date' },
 			{
 				name: 'Relationship Stages',
@@ -57,7 +57,7 @@
 			{ name: 'Working in Teams', link: '/enneagram-corner/enneagram-types-working-in-teams' },
 			{ name: 'Career Choices', link: '/enneagram-corner/enneagram-types-and-career-choices' },
 			{ name: 'Workplace Building', link: '/enneagram-corner/enneagram-workplace-team-building' },
-			{ name: 'Communication Styles', link: '/enneagram-corner/enneagram-communication-styles' }
+			{ name: 'Communication Styles', link: '/enneagram-corner/relationship-communication-guide' }
 		],
 		growth: [
 			{ name: 'Personal Growth', link: '/enneagram-corner/enneagram-personal-growth' },

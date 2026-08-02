@@ -64,7 +64,7 @@ Understanding your type's depression patterns can help you spot warning signs an
 
 **Don't know your type yet?** If you see yourself in multiple patterns below, pay attention to which one creates the most visceral "that's me" reaction. Ignore which sounds worst; notice which one you'd least want others to read about you. That discomfort usually points to your core type. You can also [take our Enneagram quiz](/enneagram-corner/enneagram-types-overview) to find out.
 
-**Important Note:** This article explores psychological patterns and is not a substitute for professional mental health care. If you're experiencing suicidal thoughts or severe depression, please contact a mental health professional or crisis hotline immediately. For comprehensive strategies on breaking depression patterns specific to your type, read our detailed guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). If anxiety accompanies your depression, as it often does, explore [how each type experiences anxiety differently](/enneagram-corner/anxiety-and-enneagram-types-guide).
+**Important Note:** This article explores psychological patterns and is not a substitute for professional mental health care. If you're experiencing suicidal thoughts or severe depression, please contact a mental health professional or crisis hotline immediately. For comprehensive strategies on breaking depression patterns specific to your type, read our detailed guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). If anxiety accompanies your depression, as it often does, explore [how each type experiences anxiety differently](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 
 ## Why Depression Varies by Enneagram Type
 
@@ -286,7 +286,7 @@ Type 5 depression involves withdrawal, depletion, and feeling overwhelmed by the
 
 ## Type 6: The Loyalist's Depression
 
-Type 6s experience depression primarily through the anxiety channel. They don't feel "sad" - they feel worried, hypervigilant, catastrophic. The [anxiety that underlies Type 6 depression](/enneagram-corner/anxiety-and-enneagram-types-guide#head-triad) is so constant that it feels like "just how life is." Clinically, this maps to "anxious depression" - a subtype that's frequently underdiagnosed because the anxiety is more visible than the depression underneath.
+Type 6s experience depression primarily through the anxiety channel. They don't feel "sad" - they feel worried, hypervigilant, catastrophic. The [anxiety that underlies Type 6 depression](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide#type-6-the-loyalists-anxiety) is so constant that it feels like "just how life is." Clinically, this maps to "anxious depression" - a subtype that's frequently underdiagnosed because the anxiety is more visible than the depression underneath.
 
 **Core Pattern:** "The world is dangerous, I can't trust my own judgment, and I'm alone in facing unpredictable threats."
 

@@ -122,7 +122,7 @@ Reddit was the closest thing, and Reddit has a power law problem: lurkers everyw
 
 **So I built the thing I couldn't find.**
 
-I wanted to explore personality, specifically the [Enneagram](/enneagram-corner/enneagram-tldr). I wanted a space where people could share their fears, motivations, and [how they actually communicate](/enneagram-corner/enneagram-communication-styles). I wanted to help couples like my wife and me stop talking past each other.
+I wanted to explore personality, specifically the [Enneagram](/enneagram-corner/enneagram-tldr). I wanted a space where people could share their fears, motivations, and [how they actually communicate](/enneagram-corner/relationship-communication-guide). I wanted to help couples like my wife and me stop talking past each other.
 
 But I also wanted something bigger: a place where people say what they actually think. Right now, online, people aren't honest because they know they'll get harassed in the comments. It stifles real conversation. I wanted a space where people could be genuinely honest without the fear of being piled on.
 

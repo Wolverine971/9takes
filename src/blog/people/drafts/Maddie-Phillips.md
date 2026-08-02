@@ -236,7 +236,7 @@ That binary is the Four's default emotional weather map, and she described it fr
 
 Notice what's missing. Self-pity. Blame. A pitch for better conditions on set. Phillips isn't running a complaint. She's running a diagnosis. She is explaining, with clinical accuracy, what it actually feels like from the inside when a sensitive person has to rent out her body for a camera.
 
-A year later, at San Diego Comic-Con 2025, Phillips walked a panel for _Gen V_ in front of fans who had come specifically to see her. Afterward, she described the experience as "stimulating yet initially daunting." Every actor on a Prime Video show is coached to thank fans and call the con a blast. Phillips used _daunting_ in print, on the record, about her own job. (For a broader map of how each type experiences anxiety, see our [anxiety and Enneagram types guide](/enneagram-corner/anxiety-and-enneagram-types-guide).)
+A year later, at San Diego Comic-Con 2025, Phillips walked a panel for _Gen V_ in front of fans who had come specifically to see her. Afterward, she described the experience as "stimulating yet initially daunting." Every actor on a Prime Video show is coached to thank fans and call the con a blast. Phillips used _daunting_ in print, on the record, about her own job. (For a broader map of how each type experiences anxiety, see our [anxiety and Enneagram types guide](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).)
 
 The strangest thing about her is that this is a woman who will tell you exactly what the work costs her — the dissociation, the overwhelm, the unmooring — and then choose the work again next pilot season. She isn't hiding the damage. She is making art out of it.
 

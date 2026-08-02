@@ -55,7 +55,7 @@ After studying 17 famous [Type 7 Enthusiasts](/enneagram-corner/enneagram-type-7
 The next thing wasn't the answer. Going deeper was. The Enneagram calls this integrating toward [Type 5](/enneagram-corner/enneagram-type-5), the Investigator: trading scattered breadth for focused depth. Every pattern below shows what that looks like in practice.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'self-sabotage 🔥', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'self-sabotage 🔥', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## The 17 Type 7s Studied

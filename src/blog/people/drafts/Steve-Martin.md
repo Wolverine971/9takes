@@ -212,7 +212,7 @@ He refused to call any of it a gift. "I always divide the world up into people l
 
 The first one hit around 1967, in a movie theater. His heart raced past two hundred beats a minute, the saliva drained from his mouth until he could not move his tongue, and his mind felt "torn from its location." He was certain he was dying.
 
-He was not dying. He was having a [panic attack](/enneagram-corner/anxiety-and-enneagram-types-guide), the first of many that would be, in his words, "woven throughout two decades of my life," receding eventually "as slowly as the ice around Greenland." And here is the most Five thing he ever did with his own terror: he researched it. He went to the books, found the phenomenon "exactly described and named," and reassured himself with the clinical fact that the body was firing its lion-response when "there is no lion." He could not stop the fear, so he studied it into something he could name.
+He was not dying. He was having a [panic attack](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide), the first of many that would be, in his words, "woven throughout two decades of my life," receding eventually "as slowly as the ice around Greenland." And here is the most Five thing he ever did with his own terror: he researched it. He went to the books, found the phenomenon "exactly described and named," and reassured himself with the clinical fact that the body was firing its lion-response when "there is no lion." He could not stop the fear, so he studied it into something he could name.
 
 Then he went onstage anyway. "I learned over the next months that I could do several things at once," he wrote. "Be a comedy writer, be a stand-up comedian, and endure private mortal fear." Twenty thousand people watched a man be the freest person alive. Inside the suit, he was managing a "terrifying experience of disassociation from your own self" and a "morbid sense of doom," convinced, as he later told NPR, that "people didn't like me."
 
@@ -352,6 +352,5 @@ Rejected (with reason):
 
 Lint: clean
 -->
-
 
 

@@ -103,7 +103,7 @@ There's an uncomfortable power in that. You know something about them that feels
 This is why oversharing pushes people away instead of drawing them closer. It skips trust-building and forces intimacy that feels unearned.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## Why You Thought It Was Safe (And Why It Wasn't)
@@ -305,7 +305,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 </article>
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/enneagram-corner/enneagram-communication-styles" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/relationship-communication-guide" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statues-having-an-intense-conversation.webp`}
           showIcon={false}

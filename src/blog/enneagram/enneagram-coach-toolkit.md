@@ -324,7 +324,7 @@ Pick your most stuck client. Give them the assignment for their type from the ta
 
 **Explore type dynamics**: See how different types interact in our [relationship guide](/enneagram-corner/enneagram-types-in-relationships)
 
-**Master communication**: Decode each type's communication style in our [communication guide](/enneagram-corner/enneagram-communication-guide)
+**Master communication**: Decode each type's communication style in our [communication guide](/enneagram-corner/relationship-communication-guide)
 
 **Get real examples**: See the Enneagram in action with [personality analyses](/personality-analysis)
 

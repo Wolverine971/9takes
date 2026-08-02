@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/enneagram-communication-styles'
 lastmod: '2026-01-18'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['development']
 blog: true
 previewHtml: ''
@@ -651,7 +651,7 @@ Now you have the dictionary.
 2. **Pick one person who frustrates you.** What language might they be speaking? What are they actually trying to say?
 3. **Try one translation.** Just one phrase that matches their filter instead of yours. Watch what shifts.
 
-For [specific scripts and phrases that work for each type](/enneagram-corner/enneagram-communication-tips), we've compiled the exact words that land.
+For [specific scripts and phrases that work for each type](/enneagram-corner/relationship-communication-guide), we've compiled the exact words that land.
 
 The Enneagram doesn't ask you to become someone else. It maps the filters so you can finally decode the message behind the words.
 

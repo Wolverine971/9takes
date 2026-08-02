@@ -233,7 +233,7 @@ Non-growth-oriented partners:
 **A growth-oriented "incompatible" pair will outperform a stagnant "compatible" pair every time.**
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'relationship patterns 💔', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'toxic traits 🎭', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'how each type loves 💕', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'communication scripts 💬', link: '/enneagram-corner/enneagram-communication-tips'} ]} />
+<MarqueeHorizontal displayList={[{name: 'relationship patterns 💔', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'red flags in dating 🚩', link: '/enneagram-corner/red-flags-dating-each-enneagram-type'}, {name: 'toxic traits 🎭', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'how each type loves 💕', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'communication scripts 💬', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## Reframing Compatibility: What to Actually Expect
@@ -461,7 +461,7 @@ For deeper exploration of the dynamics discussed here:
 - **[All 81 Type Combinations Explained](/enneagram-corner/enneagram-compatibility-matrix)**: The complete breakdown of every pairing's dynamics, challenges, and growth potential
 - **[How Each Enneagram Type Loves](/enneagram-corner/enneagram-types-in-relationships)**: Understanding the unconscious patterns each type brings to relationships
 - **[Red Flags When Dating Each Type](/enneagram-corner/red-flags-dating-each-enneagram-type)**: Warning signs that someone's operating from their unhealthy patterns
-- **[Communication Scripts for Each Type](/enneagram-corner/enneagram-communication-tips)**: Practical phrases that work with each type's communication style
+- **[Communication Scripts for Each Type](/enneagram-corner/relationship-communication-guide)**: Practical phrases that work with each type's communication style
 - **[How Each Type Self-Sabotages](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)**: Understanding the patterns that derail relationships
 
 <svelte:head>

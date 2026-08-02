@@ -219,7 +219,7 @@ Together? This person reframes difficult feelings as interesting problems to sol
 A Type 1's inner critic runs nonstop. Libra rising softens the delivery: this person doesn't lecture, they diplomatically suggest improvements. The tension: Libra wants to be liked, but the Type 1 can't let standards slide. The result is someone who corrects you so gracefully you barely notice.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'religion? 🙏', link: '/enneagram-corner/enneagram-and-religion'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'religion? 🙏', link: '/enneagram-corner/enneagram-and-religion'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## Enneagram Wings and Planetary Aspects

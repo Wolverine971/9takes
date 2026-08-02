@@ -523,8 +523,8 @@ Your inner critic has had years of practice. Give your inner champion at least 3
 
 **Related Topics:**
 
-- [Enneagram and Therapy](/enneagram-corner/enneagram-therapy-guide)
-- [Communication Patterns](/enneagram-corner/enneagram-communication-guide)
+- [Enneagram and Therapy](/enneagram-corner/mental-health/enneagram-therapy-guide)
+- [Communication Patterns](/enneagram-corner/relationship-communication-guide)
 - [Relationship Dynamics](/enneagram-corner/enneagram-relationships)
 
 ## CTA Strategy

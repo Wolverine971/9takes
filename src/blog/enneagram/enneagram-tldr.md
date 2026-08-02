@@ -165,7 +165,7 @@ You live in your head. Anxiety drives you to prepare, escape, or understand.
 
 **Under stress**: Type 5s become scattered and impulsive like unhealthy Type 7s. The careful observer becomes frenetic. [See what triggers the 5's breakdown](/enneagram-corner/enneagram-types-in-stress).
 
-**The isolation trap**: 5s withdraw to conserve energy, but too much withdrawal creates the overwhelm they're trying to avoid. [This pattern shows up strongly in communication styles](/enneagram-corner/enneagram-communication-styles).
+**The isolation trap**: 5s withdraw to conserve energy, but too much withdrawal creates the overwhelm they're trying to avoid. [This pattern shows up strongly in communication styles](/enneagram-corner/relationship-communication-guide).
 
 ---
 
@@ -342,7 +342,7 @@ Online tests measure behavior. You need to map your core emotional patterns. **F
 
 - [**Stress breakdown patterns**](/enneagram-corner/enneagram-types-in-stress): How each type falls apart and how to stop the spiral
 - [**Mental illness and personality**](/enneagram-corner/enneagram-and-mental-illness): When personality becomes pathology
-- [**Anxiety by type**](/enneagram-corner/enneagram-anxiety-management-guide): Type-specific strategies that actually work
+- [**Anxiety by type**](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide): Type-specific strategies that actually work
 - [**Depression patterns**](/enneagram-corner/depression-patterns-by-enneagram-type): How your type shapes your depression experience
 - [**Shadow work guide**](/enneagram-corner/shadow-work-by-enneagram-type): Confronting the parts of yourself you hide
 - [**Trauma responses**](/enneagram-corner/mental-health/enneagram-trauma-response-guide): Your type's survival patterns explained
@@ -357,8 +357,8 @@ Online tests measure behavior. You need to map your core emotional patterns. **F
 
 ### Communication
 
-- [**Communication styles**](/enneagram-corner/enneagram-communication-styles): Why nobody understands you (and how to fix it)
-- [**Scripts that work**](/enneagram-corner/enneagram-communication-tips): Exact words to use with each type
+- [**Communication styles**](/enneagram-corner/relationship-communication-guide): Why nobody understands you (and how to fix it)
+- [**Scripts that work**](/enneagram-corner/relationship-communication-guide): Exact words to use with each type
 - [**How each type manipulates**](/enneagram-corner/how-each-enneagram-type-manipulates): Recognize it in yourself and others
 - [**Relationship communication**](/enneagram-corner/relationship-communication-guide): The key to understanding your partner
 

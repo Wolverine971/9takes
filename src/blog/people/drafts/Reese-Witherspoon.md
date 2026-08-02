@@ -248,7 +248,7 @@ But the deeper wound came from a relationship she's never named. In a September 
 
 She told Oprah in 2018: "I drew a line in the sand, and it got crossed, and my brain just switched."
 
-The abusive relationship involved psychological and verbal abuse — someone systematically dismantling the one thing a Three cannot survive without: the belief that they are valuable. For anyone who has experienced how [each personality type processes shame differently](/enneagram-corner/enneagram-communication-styles), this is the wound that cuts deepest for a heart-triad type. For a person whose entire identity is built on accomplishment and worth, having someone convinced you that you're worthless isn't just painful. It's existential annihilation.
+The abusive relationship involved psychological and verbal abuse — someone systematically dismantling the one thing a Three cannot survive without: the belief that they are valuable. For anyone who has experienced how [each personality type processes shame differently](/enneagram-corner/relationship-communication-guide), this is the wound that cuts deepest for a heart-triad type. For a person whose entire identity is built on accomplishment and worth, having someone convinced you that you're worthless isn't just painful. It's existential annihilation.
 
 "It changed who I was on a cellular level, the fact that I stood up for myself. It's part of the reason I can stand up and say, 'Yes, I'm ambitious.' Because someone tried to take that from me."
 

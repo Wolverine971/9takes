@@ -124,7 +124,7 @@ Fast responses. Witty banter. Constant availability. The format rewards a specif
 With unlimited choices one swipe away, commitment feels like risk. Why commit when someone better might be next? This is a design feature, not a personal failing.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 💬', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'on a first date ❤️', link: '/enneagram-corner/enneagram-types-on-a-first-date'}, {name: 'communication styles 💬', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## Who Dating Apps Were Actually Built For

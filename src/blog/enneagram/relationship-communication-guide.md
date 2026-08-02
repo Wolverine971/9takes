@@ -4,7 +4,7 @@ description: 'Learn how each Enneagram type communicates in relationships and di
 author: 'DJ Wayne'
 date: '2024-09-28'
 loc: 'https://9takes.com/enneagram-corner/relationship-communication-guide'
-lastmod: '2026-01-23'
+lastmod: '2026-08-01'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -57,7 +57,7 @@ Before the type breakdowns, some ground rules.
 
 ### Getting Started
 
-1. **Know yourself first.** Identify your own Enneagram type and understand your default <a href="/enneagram-corner/enneagram-communication-styles">communication style</a>. You can't read others if you're blind to your own patterns. Once you know your type, <a href="/enneagram-corner/enneagram-communication-tips">these scripts for each type</a> give you practical phrases that actually land.
+1. **Know yourself first.** Identify your own Enneagram type and understand your default communication style. You can't read others if you're blind to your own patterns. Once you know your type, use the scripts in each section below to find practical phrases that actually land.
 
 2. **Open the conversation gently.** Skip announcing "You're definitely a Type 8." Instead, share your own journey: "I've been learning about the Enneagram and discovered I'm likely a Type [X]. These motivations and fears resonate with me. I'm curious if any type resonates with you?"
 
@@ -84,6 +84,13 @@ Their internal critical voice often leaks outward. A One might think they're off
 
 **Connection strategy:**
 Validate their values and principles first, then gently invite flexibility. Ones respond well to phrases like "I appreciate how thoughtful you are about doing the right thing" before suggesting alternatives.
+
+**Try these exact words:**
+
+- When they are critical: "You're right, that detail matters. What's the best way to fix it?"
+- When giving feedback: "I know you care about quality. Here's one thing that might make this even better."
+- When they are stressed: "You've done everything you could. Some things are outside your control."
+- Avoid: "You're being too picky" and "It's good enough."
 
 **Topics they love discussing:**
 Ethics, self-improvement, social issues, and practical ways to make the world better. They light up when sharing values-driven conversations.
@@ -126,6 +133,13 @@ Their desire to help can feel intrusive or smothering to some types. Twos may al
 **Connection strategy:**
 Proactively offer help and appreciation before they ask. Notice and thank them for specific ways they've supported you. Ask directly about their needs: "What would make you feel cared for today?"
 
+**Try these exact words:**
+
+- When they are over-giving: "This is so thoughtful. Before you do more, what do you need today?"
+- When setting a boundary: "I love that you want to help. Right now, the best thing for me is space to figure this out myself. It's not about you."
+- When they seem upset: "You take care of everyone else. Let me take care of you for a minute."
+- Avoid: "Stop helping" and "I don't need you."
+
 **Topics they love discussing:**
 Relationships, emotional well-being, helping strategies, and interpersonal dynamics. They thrive in conversations about how people connect and care for each other.
 
@@ -167,6 +181,13 @@ Their focus on image and achievement can make authentic emotional connection dif
 **Connection strategy:**
 Create space for them to drop the success mask occasionally. Notice and appreciate their character qualities beyond achievements: "I admire your loyalty" carries more weight than "I'm impressed by your promotion."
 
+**Try these exact words:**
+
+- When making a request: "Here's the bottom line: [specific ask]. I know you're busy. I only need five minutes."
+- When they are burning out: "You've already done enough. Rest is maintenance, not weakness."
+- When inviting honesty: "Forget the role and the title for a second. How are you doing?"
+- Avoid: vague asks such as "Whenever you have time" and lectures about working too much.
+
 **Topics they love discussing:**
 Goals, strategies, self-improvement, and inspirational success stories. They're energized by conversations about getting results and making impact.
 
@@ -193,7 +214,7 @@ After a career setback, a Three might throw themselves into fitness goals or sid
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'relationship patterns 💞', link: '/enneagram-corner/enneagram-types-in-relationships'} ]} />
 </div>
 
 <section class="section-content">
@@ -211,6 +232,13 @@ Their emotional intensity can overwhelm partners, especially sensing-dominant ty
 
 **Connection strategy:**
 Stay present during emotional waves without trying to fix, minimize, or overreact. Acknowledge the validity of their feelings first: "That makes sense you'd feel that way" before moving to solutions.
+
+**Try these exact words:**
+
+- When they share pain: "That sounds really hard. I'm here."
+- When they feel misunderstood: "Help me understand. I want to get this right."
+- When action is eventually needed: "I'm not asking you to stop feeling this. When you're ready, here is one small step we could take together."
+- Avoid: "Look on the bright side," "You're being dramatic," and immediate solutions.
 
 **Topics they love discussing:**
 Identity, meaningful experiences, art, music, literature, and the deeper significance behind everyday occurrences. They treasure conversations that reveal the beauty in melancholy or complexity in simple moments.
@@ -253,6 +281,13 @@ Their need for space and privacy can feel like emotional abandonment to partners
 **Connection strategy:**
 Respect their need for privacy and independent thinking. Give advance notice for social events or emotional conversations. Appreciate their insights without demanding immediate emotional responses.
 
+**Try these exact words:**
+
+- When you need an answer: "Here is the question. Take the time you need, and I'll check back tomorrow."
+- When they share an interest: "I've never thought of it that way. Keep going."
+- When you want connection: "I'm not asking you to feel something on demand. I want to know what is going on in your head."
+- Avoid: surprise calls for immediate answers and "You never open up to me."
+
 **Topics they love discussing:**
 Ideas, systems, theories, and niche interests they've researched deeply. They come alive in conversations that explore concepts thoroughly rather than skimming the surface.
 
@@ -293,6 +328,13 @@ Their questioning nature can come across as doubt or lack of trust. Their need f
 
 **Connection strategy:**
 Be consistent and transparent. Follow through on commitments and communicate proactively about changes. Validate concerns without minimizing: "I understand why you'd worry about that" before offering reassurance.
+
+**Try these exact words:**
+
+- When they are spiraling: "That's a valid concern. Let's think through what we would do if it happened."
+- When trust is shaky: "I'm here. Ask me what you need to ask, and I will keep showing up."
+- When delivering bad news: "I want to be straight with you. Here is what I know, what I do not know, and what we can do."
+- Avoid: "You're overthinking this," "Just relax," and surprise changes.
 
 **Topics they love discussing:**
 Safety planning, relationship security, troubleshooting potential problems, and building trustworthy systems. They excel at identifying what could go wrong so it can be addressed proactively.
@@ -335,6 +377,13 @@ Their avoidance of negative emotions can leave partners feeling unsupported duri
 **Connection strategy:**
 Match their enthusiasm for the positive while creating safe space for deeper emotions. Avoid forcing emotional conversations, but gently stay present when difficulties emerge: "We can plan that fun trip, and I'm also here if you want to talk more about what happened today."
 
+**Try these exact words:**
+
+- When focus is needed: "Once this is done, you're free. Let's knock it out."
+- When they avoid something difficult: "You do not have to stay in this feeling forever. Just stay with it for one minute with me."
+- When they overcommit: "I love the enthusiasm. Which one thing will you commit to?"
+- Avoid: "You never follow through" and framing the conversation as an inescapable ordeal.
+
 **Topics they love discussing:**
 Future plans, possibilities, adventures, ideas, and positive experiences. They thrive in brainstorming sessions where no idea is too wild to consider.
 
@@ -376,6 +425,13 @@ Their intensity and directness can feel overwhelming or confrontational to many 
 **Connection strategy:**
 Meet their directness with your own strength. Don't cower or get defensive, but don't escalate intensity either. Acknowledge their protective intentions: "I know you're pushing hard on this because you care about protecting us."
 
+**Try these exact words:**
+
+- When intensity rises: "I hear you, and I'm not backing down. Let's figure this out together."
+- When giving feedback: "I'm going to be straight with you because I respect you. Here is the issue."
+- When you need softness: "I know you're strong. Right now, I need the person behind the armor for a minute."
+- Avoid: "Why are you so angry?" and softening the message until it sounds manipulative.
+
 **Topics they love discussing:**
 Justice, power dynamics, practical action steps, and how to make concrete impact. They value conversations that lead to clear decisions and tangible results.
 
@@ -416,6 +472,13 @@ Their conflict avoidance can lead to passive-aggressive behavior or unexpressed 
 
 **Connection strategy:**
 Ask direct questions about their preferences, then wait patiently for real answers. Don't accept "I don't care" or "whatever you want" at face value. Create safety for them to express disagreement: "I promise I won't be upset if you don't like my idea."
+
+**Try these exact words:**
+
+- When they hide their view: "I want to know what you think, not what you think I want to hear."
+- When tension goes quiet: "I sense something is off. I would rather hear the hard truth than the silence."
+- When a decision is needed: "Of these three options, which feels most right to you? I'll wait."
+- Avoid: "Just pick one" and deciding for them without asking.
 
 **Topics they love discussing:**
 Common ground, peaceful experiences, nature, and topics that create a sense of connection without conflict. They excel at seeing multiple perspectives and finding compromise.

@@ -304,7 +304,7 @@ Gottman identified four communication patterns that predict divorce with 94% acc
 - **Heart types (2, 3, 4)**: The shame they won't process becomes the wound that never heals. 2s give until they resent. 3s perform instead of connecting. 4s create emotional intensity when their partner needs stability.
 - **Head types (5, 6, 7)**: The fear they won't face becomes the distance they maintain. 5s withdraw. 6s catastrophize until their partner is exhausted. 7s deflect into humor when someone needs them to just be present.
 
-Emotional literacy isn't a nice-to-have. It's the difference between your relationships slowly dying and actually getting closer to the people you care about. (See also: [how each type communicates](/enneagram-corner/enneagram-communication-guide) and our full [guide to relationship conflict](/how-to-guides/definitive-guide-to-relationship-conflict-part-1).)
+Emotional literacy isn't a nice-to-have. It's the difference between your relationships slowly dying and actually getting closer to the people you care about. (See also: [how each type communicates](/enneagram-corner/relationship-communication-guide) and our full [guide to relationship conflict](/how-to-guides/definitive-guide-to-relationship-conflict-part-1).)
 
 ## The Twist: Your Avoided Emotion Is Your Greatest Asset
 

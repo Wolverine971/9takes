@@ -3,18 +3,25 @@ import type { PageLoad } from './$types';
 import { slugFromPath } from '$lib/slugFromPath';
 import { error, redirect } from '@sveltejs/kit';
 
-const redirectMap: Record<string, string> = {
-	'enneagram-communication-overview': 'enneagram-communication-guide',
-	'enneagram-communication-in-relationships': 'relationship-communication-guide',
-	'enneagram-types-overview': 'enneagram-tldr',
-	'enneagram-test': 'enneagram-test-comparison-2026',
-	'enneagram-types-being-direct': 'enneagram-communication-styles'
+const permanentRedirectMap: Record<string, string> = {
+	'enneagram-communication-overview': '/enneagram-corner/relationship-communication-guide',
+	'enneagram-communication-in-relationships': '/enneagram-corner/relationship-communication-guide',
+	'enneagram-communication-guide': '/enneagram-corner/relationship-communication-guide',
+	'enneagram-communication-styles': '/enneagram-corner/relationship-communication-guide',
+	'enneagram-communication-tips': '/enneagram-corner/relationship-communication-guide',
+	'enneagram-types-being-direct': '/enneagram-corner/relationship-communication-guide',
+	'enneagram-types-overview': '/enneagram-corner/enneagram-tldr',
+	'enneagram-test': '/enneagram-corner/enneagram-test-comparison-2026',
+	'enneagram-anxiety-management-guide':
+		'/enneagram-corner/mental-health/enneagram-anxiety-complete-guide',
+	'anxiety-and-enneagram-types-guide':
+		'/enneagram-corner/mental-health/enneagram-anxiety-complete-guide'
 };
 
-export const load: PageLoad = async ({ params, data }) => {
-	if (redirectMap[params.slug]) {
-		// throw error(301, redirectMap[params.slug]);
-		throw redirect(302, redirectMap[params.slug]);
+export const load: PageLoad = async ({ params, data, url }) => {
+	const permanentTarget = permanentRedirectMap[params.slug];
+	if (permanentTarget) {
+		throw redirect(301, `${permanentTarget}${url.search}`);
 	}
 	const modules = import.meta.glob([
 		`/src/blog/enneagram/**/*.{md,svx,svelte.md}`,

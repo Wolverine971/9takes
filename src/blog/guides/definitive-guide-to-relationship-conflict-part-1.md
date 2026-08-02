@@ -193,7 +193,7 @@ Different tactics, same result: the ball never lands on their side of the net.
 
 One leaves visibly. The other disappears from inside the conversation.
 
-Want the full map — how each Enneagram type starts, escalates, and resolves a fight? See our <a href="/enneagram-corner/enneagram-communication-guide">Enneagram Communication Guide</a>.
+Want the full map — how each Enneagram type starts, escalates, and resolves a fight? See our <a href="/enneagram-corner/relationship-communication-guide">Enneagram Communication Guide</a>.
 
 ## The antidotes: what to do when a Horseman shows up
 
@@ -513,7 +513,7 @@ For additional insights on personal growth that can enhance your conflict resolu
 - **Tools:**
   - The Gottman Institute's Card Decks App
   - Headspace and Calm for mindfulness exercises
-  - Our <a href="/enneagram-corner/enneagram-communication-styles">Enneagram Communication Styles</a> guide for personality-based insights
+  - Our <a href="/enneagram-corner/relationship-communication-guide">Enneagram Communication Styles</a> guide for personality-based insights
 
 ### Footnotes / References
 

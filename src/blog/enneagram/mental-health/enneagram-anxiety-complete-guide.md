@@ -4,7 +4,7 @@ description: "Think anxiety is just a Type 6 thing? Wrong. Every Enneagram type 
 author: 'DJ Wayne'
 date: '2025-08-25'
 loc: 'https://9takes.com/enneagram-corner/mental-health/enneagram-anxiety-complete-guide'
-lastmod: '2026-02-22'
+lastmod: '2026-08-01'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -22,18 +22,28 @@ path: src/blog/enneagram/mental-health/enneagram-anxiety-complete-guide.md
 </script>
 
 <QuickAnswer question="Why does anxiety feel different for everyone?">
-Because anxiety follows the shape of what you care about most. Your Enneagram type's core fear creates a specific anxiety signature, not just "worry" but a particular flavor of dread wired to your deepest vulnerabilities. A perfectionist's anxiety (Type 1) feels nothing like an achiever's anxiety (Type 3), even though both might keep you up at night. Understanding your type's pattern turns a vague, overwhelming feeling into something you can actually name and work with.
+Because anxiety follows the shape of what you care about most. Your Enneagram type's core fear creates a specific anxiety signature, but the protective response can also create the outcome it fears. A One's perfectionism can produce paralysis; a Six's loyalty tests can exhaust allies; a Nine's conflict avoidance can hollow out connection. Naming that loop turns vague anxiety into a pattern you can interrupt.
 </QuickAnswer>
 
-**Read time**: 18 minutes | **Key insight**: Your type's core fear creates your unique anxiety pattern
+**Read time**: 18 minutes | **Key insight**: Your protective anxiety pattern can create the outcome it fears
 
-<p class="firstLetter">Everyone thinks Type 6 owns anxiety. They're wrong.</p>
+<p class="firstLetter">Anxiety often manufactures the outcome it is trying to prevent.</p>
 
-Sure, Sixes get called "The Loyalist" and worry is their signature move. But here's what nobody talks about: every Enneagram type has anxiety. It just wears a different mask.
+That is the pattern beneath all nine types. Anxiety reaches for a protective strategy, the strategy becomes rigid, and the result begins to resemble the original fear:
 
-Type 1s are anxious about being wrong. Type 3s are anxious about failing in public. Type 7s? They're anxious about being trapped in pain, so anxious they've built an entire personality around never sitting still long enough to feel it.
+- **Type 1:** Perfectionism creates paralysis, procrastination, and more opportunities for mistakes.
+- **Type 2:** Compulsive giving creates burnout and resentment that can push people away.
+- **Type 3:** Achievement addiction hides the person behind the performance.
+- **Type 4:** Forced uniqueness lets the performance eclipse genuine depth.
+- **Type 5:** Withdrawal limits the practice and participation needed to feel capable.
+- **Type 6:** Reassurance seeking and loyalty tests can exhaust the allies they need.
+- **Type 7:** Constant escape narrows life until freedom starts to feel like another trap.
+- **Type 8:** Controlling against vulnerability creates resistance and distance.
+- **Type 9:** Avoiding conflict slowly weakens the connection they were trying to protect.
 
-Your anxiety has a personality. And once you understand how YOUR type experiences it, you can stop fighting a faceless enemy.
+This is not a reason to blame yourself for feeling anxious. These strategies usually began as attempts to stay safe. The useful moment is recognizing when protection has become a feedback loop, because that is where you regain a choice.
+
+Type 6 is still the type most visibly associated with worry, but every type experiences anxiety. It simply wears a different mask. Type 1s become anxious about being wrong, Type 3s about failing in public, and Type 7s about being trapped in pain. Once you understand your pattern, you can stop fighting a faceless enemy and work on the specific loop that keeps feeding it.
 
 ## Quick Reference: Every Type's Anxiety Pattern
 

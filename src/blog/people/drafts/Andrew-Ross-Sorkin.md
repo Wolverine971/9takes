@@ -231,7 +231,7 @@ Hold the under-the-covers phone in your head. Then layer the rest:
 
 This is what people mean when they say Sorkin "does the work of five people." But the framing is wrong. It isn't five jobs. It's one psychological strategy expressed five ways: _verify until you cannot be ambushed._
 
-The under-the-covers phone is the giveaway. Someone grinding for outcomes wakes early to make something happen. Sorkin wakes early to confirm nothing has come undone. Listen to how he describes his Twitter habit: _"addicted, probably to my great detriment, to X, formerly Twitter."_ The addiction is not to feeds. It is to not-being-the-last-to-know. That is [Type 6 anxiety](/enneagram-corner/enneagram-anxiety-management-guide) wearing a press pass, and the press pass has been a remarkable way to monetize it.
+The under-the-covers phone is the giveaway. Someone grinding for outcomes wakes early to make something happen. Sorkin wakes early to confirm nothing has come undone. Listen to how he describes his Twitter habit: _"addicted, probably to my great detriment, to X, formerly Twitter."_ The addiction is not to feeds. It is to not-being-the-last-to-know. That is [Type 6 anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) wearing a press pass, and the press pass has been a remarkable way to monetize it.
 
 His wife, Pilar Queen, a literary agent at UTA, has reportedly told him he can't write another book until their three children are in college. The implication isn't subtle: when given an unsupervised week, he will fill it with a deeper archive than the last one.
 

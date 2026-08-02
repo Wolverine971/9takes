@@ -239,7 +239,7 @@ Classic Five deflection: use dark humor to prevent genuine vulnerability. The re
 
 ## The ideal reader
 
-Fives often [struggle with intimacy](/enneagram-corner/enneagram-communication-styles). The same withdrawal that protects the inner world starves the people outside it. King's marriage to Tabitha has survived fifty-plus years, through poverty, addiction, and near-death. It works because Tabitha operates as something King's mind cannot: a corrective external force.
+Fives often [struggle with intimacy](/enneagram-corner/relationship-communication-guide). The same withdrawal that protects the inner world starves the people outside it. King's marriage to Tabitha has survived fifty-plus years, through poverty, addiction, and near-death. It works because Tabitha operates as something King's mind cannot: a corrective external force.
 
 She fished _Carrie_ out of the trash. She dumped the garbage bag. She talked him out of the van charity stunt. At every critical juncture where King's Five patterns would have led him to withdraw, abandon, or self-destruct, Tabitha intervened with action, not analysis.
 

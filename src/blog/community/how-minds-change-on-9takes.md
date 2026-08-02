@@ -162,7 +162,7 @@ The Enneagram isn't a replacement for evidence. It's a translation layer for emo
 
 One person hears a challenge to their competence. Another hears a threat to their relationships. A third hears an attack on their autonomy. Same words, three different nervous systems lighting up. And if you don't understand which concern is driving the reaction, your perfectly logical argument is hitting the wrong target.
 
-When you spot the emotional driver, you can keep a disagreement from escalating into something that feels personal. You stop assuming bad faith and start recognizing different wiring. That's not soft. That's [strategic communication](/enneagram-corner/enneagram-communication-styles).
+When you spot the emotional driver, you can keep a disagreement from escalating into something that feels personal. You stop assuming bad faith and start recognizing different wiring. That's not soft. That's [strategic communication](/enneagram-corner/relationship-communication-guide).
 
 On 9takes, this context travels with every response. You're not just reading nine different opinions — you're reading nine different emotional architectures processing the same question. And that makes the comparison exponentially richer than a standard comment thread.
 
@@ -190,7 +190,7 @@ One question. Nine perspectives. A better shot at understanding.
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
-{name: 'Enneagram Communication Styles', link: '/enneagram-corner/enneagram-communication-styles'},
+{name: 'Enneagram Communication Styles', link: '/enneagram-corner/relationship-communication-guide'},
 {name: 'Types in Stress', link: '/enneagram-corner/enneagram-types-in-stress'},
 {name: 'What Winning Arguments Looks Like', link: '/community/what-winning-online-arguments-looks-like'},
 {name: 'Introducing 9takes', link: '/community/introducing-9takes'},

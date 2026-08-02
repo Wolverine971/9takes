@@ -24,7 +24,11 @@
 	--blog-link-color: var(--lamp-glow);
 	--blog-link-hover-color: var(--lamp-glow);
 
-	a:not(.toc-link):not([class*='text-']):not([class*='bg-']):not([class*='border-']) {
+	/* Prose link styles must not leak into embedded conversion banners. Those
+	   components own their complete button treatment and theme contrast. */
+	a:not(.toc-link):not(.session-cta__button):not([class*='text-']):not([class*='bg-']):not(
+			[class*='border-']
+		) {
 		color: var(--blog-link-color);
 		text-decoration: none;
 		transition: color 0.2s ease;

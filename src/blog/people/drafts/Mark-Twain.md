@@ -193,7 +193,7 @@ Not art. Not love. Not truth. A weapon. The most beloved funny man in American h
 
 Through combining humor and irony, Twain made relentless exposés of what he saw as the ugly phenomena in American social life — hypocrisy, conformity, mob mentality, the cruelty hiding behind politeness. His humor was always colored by the knowledge that horrible things can happen in life, and this element gave his comedy its depth. Strip the anger away from Mark Twain's humor and you're left with parlor jokes. The anger was the point.
 
-His friend William Dean Howells — the most important literary critic in America and the man who called Twain "the Lincoln of our literature" — observed that Twain "had powers of sarcasm and a relentless rancor in his contempt which those who knew him best appreciated most." The public saw the wit. Howells saw the fury underneath. It was a [communication style](/enneagram-corner/enneagram-communication-styles) built not on connection but on controlled detonation.
+His friend William Dean Howells — the most important literary critic in America and the man who called Twain "the Lincoln of our literature" — observed that Twain "had powers of sarcasm and a relentless rancor in his contempt which those who knew him best appreciated most." The public saw the wit. Howells saw the fury underneath. It was a [communication style](/enneagram-corner/relationship-communication-guide) built not on connection but on controlled detonation.
 
 And the fury served a purpose. As long as Twain was attacking, he was moving. As long as he was performing, he wasn't alone. As long as there was a fight, he didn't have to sit with the silence.
 

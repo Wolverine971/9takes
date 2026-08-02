@@ -136,7 +136,7 @@ The blacking out started around the sixth Potter film, when he was eighteen. He 
 
 "In the last three years of drinking, I blacked out nearly every time," he told *Shortlist*. "Blacking out was my thing."
 
-The frame everyone reaches for is *child star, fame, predictable substance issue*. The frame is not wrong, but it misses what the drinking was *for*. He has been very specific about it. "A lot of drinking that happened towards the end of Potter, and for a little bit after it finished, was panic and not being comfortable enough in who he was to remain sober." It was an [anxiety management strategy](/enneagram-corner/anxiety-and-enneagram-types-guide), not a hedonism strategy.
+The frame everyone reaches for is *child star, fame, predictable substance issue*. The frame is not wrong, but it misses what the drinking was *for*. He has been very specific about it. "A lot of drinking that happened towards the end of Potter, and for a little bit after it finished, was panic and not being comfortable enough in who he was to remain sober." It was an [anxiety management strategy](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide), not a hedonism strategy.
 
 It was also, by his own description, well-camouflaged. He has said he turned up to set, hit his marks, and could perform scenes "still drunk from the night before." The crew noticed enough to worry. The public did not. The press did not. The version of Daniel Radcliffe that arrived on the eighth Potter premiere red carpet looked like the version on the first, only taller. The Six's instinct to manage how he is seen kept the mask in place even when the person underneath was coming apart.
 
@@ -264,5 +264,4 @@ Still open:
 - Rowling cost question (did he hesitate, did the Trevor Project statement go through drafts) — declined to expand. He has not publicly said it, and inferring it would have meant speculating about a working volunteer's process. Held the surface read instead of inventing texture. Editor pass could decide whether to add a line acknowledging the unknown.
 - Tony speech analysis is still folded into "What Settles Daniel Radcliffe Now" rather than getting its own beat. The current shape (specific quotes → "a Six in growth at a microphone" → settled-life summary) reads as one continuous payoff; splitting it felt like padding. Open to revisiting if an editor disagrees.
 -->
-
 

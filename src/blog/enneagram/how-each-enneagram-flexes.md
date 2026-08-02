@@ -34,7 +34,7 @@ Some boast. Others humble-brag. Many flex without even realizing they're doing i
 
 I've spent years observing these patterns, and what I've discovered might surprise you. Let's pull back the curtain on the secret ways each Enneagram type craves validation and what their flexing behavior reveals about their deepest desires.
 
-Understanding these patterns can transform your [communication style](/enneagram-corner/enneagram-communication-styles) with greater empathy.
+Understanding these patterns can transform your [communication style](/enneagram-corner/relationship-communication-guide) with greater empathy.
 
 > **Quick disclaimer:** "Flexing" looks different depending on health level, instinctual subtype (self-pres/social/one-to-one), culture, and context. Use this as a lens for empathy and self-awareness—not as a way to diagnose or box people in.
 

@@ -329,7 +329,7 @@ Reflect on what worked. Schedule it. What you don't schedule doesn't happen.
 **The uncomfortable truth**: The relaxation methods that feel most foreign to your type often work best. Type 7s resist stillness because they need it. Type 5s avoid embodiment because it heals them.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ## Decode Your Entire Stress Pattern
@@ -338,7 +338,7 @@ Reflect on what worked. Schedule it. What you don't schedule doesn't happen.
 
 [Discover how your type handles stress](/enneagram-corner/enneagram-types-in-stress) - and what actually helps
 
-[See how your type communicates under pressure](/enneagram-corner/enneagram-communication-styles) - and why misunderstandings happen
+[See how your type communicates under pressure](/enneagram-corner/relationship-communication-guide) - and why misunderstandings happen
 
 [Join our questions platform](/questions) - Share what works for your type and learn from others
 

@@ -184,7 +184,7 @@ Seeing other answers first [primes your thinking](/community/memetic-comments). 
 <b style="color: #e2e8f0;">A personality lens (the Enneagram).</b>
 </span>
 
-The Enneagram maps nine personality types based on core motivations: what drives you, what you fear, how you process the world. Astrology assigns you a label from your birthday; the Enneagram gives you a framework for [why different people communicate the way they do](/enneagram-corner/enneagram-communication-styles). On 9takes, you can optionally tag your answer with your type. It gives readers context without forcing a real name. If you don't know your type yet, [start here](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) or skip it entirely.
+The Enneagram maps nine personality types based on core motivations: what drives you, what you fear, how you process the world. Astrology assigns you a label from your birthday; the Enneagram gives you a framework for [why different people communicate the way they do](/enneagram-corner/relationship-communication-guide). On 9takes, you can optionally tag your answer with your type. It gives readers context without forcing a real name. If you don't know your type yet, [start here](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) or skip it entirely.
 
 <span class="point-list" style="margin-top: 1rem;">
 <span class="center-svg">

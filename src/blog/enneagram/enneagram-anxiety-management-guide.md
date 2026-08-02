@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/enneagram-anxiety-management-guide'
 lastmod: '2026-03-26'
 changefreq: 'monthly'
 priority: '0.8'
-published: true
+published: false
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -734,7 +734,7 @@ Seek professional support if:
 - Substance use increases (explore [addiction recovery patterns](/enneagram-corner/mental-health/enneagram-addiction-recovery-guide))
 - You can't remember feeling calm
 
-Getting help isn't weakness – it's pattern recognition at its best. Consider our [therapy integration guide](/enneagram-corner/enneagram-therapy-guide) for type-specific approaches, and our [trauma response guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide) for understanding deeper patterns.
+Getting help isn't weakness – it's pattern recognition at its best. Consider our [therapy integration guide](/enneagram-corner/mental-health/enneagram-therapy-guide) for type-specific approaches, and our [trauma response guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide) for understanding deeper patterns.
 
 </article>
 

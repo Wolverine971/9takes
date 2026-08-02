@@ -66,7 +66,9 @@
 		position: relative;
 	}
 
-	.session-cta__title {
+	/* Anchor the CTA's typography to its shell so article-level :global(h3/p/a)
+	   rules cannot restyle this embedded conversion banner. */
+	.session-cta .session-cta__title {
 		font-size: 1.4rem;
 		font-weight: 700;
 		color: var(--lamp-glow);
@@ -75,7 +77,7 @@
 		letter-spacing: -0.01em;
 	}
 
-	.session-cta__body {
+	.session-cta .session-cta__body {
 		font-size: 1rem;
 		line-height: 1.7;
 		color: var(--ink-mid);
@@ -88,28 +90,40 @@
 		}
 	}
 
-	.session-cta__button {
+	.session-cta .session-cta__button {
 		display: inline-flex;
 		align-items: center;
 		gap: 0.5rem;
 		padding: 0.875rem 1.5rem;
 		background: var(--lamp-glow);
-		color: var(--night-deep);
+		color: var(--text-on-primary);
 		font-weight: 600;
 		font-size: 1rem;
 		border-radius: 0.625rem;
 		text-decoration: none;
-		transition: all 0.2s ease;
+		text-shadow: none;
+		transition:
+			background 0.18s ease,
+			box-shadow 0.18s ease,
+			transform 0.18s ease;
 
 		&:hover {
 			background: var(--lamp-glow);
-			transform: translateY(-1px);
+			color: var(--text-on-primary);
+			text-decoration: none;
+			text-shadow: none;
 			box-shadow: 0 6px 20px var(--lamp-glow-rgba);
 		}
 
 		&:focus-visible {
 			outline: 2px solid var(--lamp-glow);
 			outline-offset: 2px;
+		}
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		.session-cta .session-cta__button:hover {
+			transform: translateY(-1px);
 		}
 	}
 
@@ -120,15 +134,15 @@
 			border-radius: 1rem;
 		}
 
-		.session-cta__title {
+		.session-cta .session-cta__title {
 			font-size: 1.2rem;
 		}
 
-		.session-cta__body {
+		.session-cta .session-cta__body {
 			font-size: 0.95rem;
 		}
 
-		.session-cta__button {
+		.session-cta .session-cta__button {
 			width: 100%;
 			justify-content: center;
 		}

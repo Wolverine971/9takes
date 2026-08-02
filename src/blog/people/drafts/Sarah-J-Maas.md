@@ -153,7 +153,7 @@ But the engine is Four. The ambition serves the need to be seen and understood, 
 
 In 2019, about a year after her son Taran was born, the floor dropped out.
 
-"I was having such rampant [anxiety](/enneagram-corner/anxiety-and-enneagram-types-guide) and depression that it was devouring me. That was probably the lowest point in my life, both emotionally and creatively."
+"I was having such rampant [anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) and depression that it was devouring me. That was probably the lowest point in my life, both emotionally and creatively."
 
 She started therapy. And then something happened that would be hard to believe if she hadn't described it so precisely across multiple interviews: she wrote her way through recovery in real time, using a fictional character as her partner in the climb.
 

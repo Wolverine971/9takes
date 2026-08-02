@@ -165,7 +165,7 @@ Therapy works differently for different people because people bring different pr
 <MarqueeHorizontal displayList={[
   {name: 'How Each Type Resists Therapy', link: '/enneagram-corner/mental-health/enneagram-therapy-resistance-guide'},
   {name: 'Enneagram Trauma Response', link: '/enneagram-corner/mental-health/enneagram-trauma-response-guide'},
-  {name: 'Anxiety by Enneagram Type', link: '/enneagram-corner/anxiety-and-enneagram-types-guide'},
+  {name: 'Anxiety by Enneagram Type', link: '/enneagram-corner/mental-health/enneagram-anxiety-complete-guide'},
   {name: 'Depression Patterns by Type', link: '/enneagram-corner/depression-patterns-by-enneagram-type'}
 ]} />
 </div>

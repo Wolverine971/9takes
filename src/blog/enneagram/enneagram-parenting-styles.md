@@ -82,7 +82,7 @@ Once you can name the pattern, you can interrupt it.
 Read your type below. If you're parenting with someone else, read theirs too. If you do not know your child's type, that is fine. Read for the kind of behavior that most activates you.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being direct ستقستت', link: '/enneagram-corner/enneagram-communication-tips'}, {name: 'self-sabotage 🎭', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being direct ستقستت', link: '/enneagram-corner/relationship-communication-guide'}, {name: 'self-sabotage 🎭', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'} ]} />
 </div>
 
 ---
@@ -732,7 +732,7 @@ No type wins parenting. Every type has a gift and a trap. The best parent is the
 - [9 Childhood Stereotypes Based on the Enneagram](/enneagram-corner/enneagram-childhood-stereotypes)
 - [How Each Enneagram Type Self-Sabotages Success](/enneagram-corner/how-each-enneagram-type-self-sabotages-success)
 - [Enneagram Types in Stress](/enneagram-corner/enneagram-types-in-stress)
-- [What to Say to Each Enneagram Type](/enneagram-corner/enneagram-communication-tips)
+- [What to Say to Each Enneagram Type](/enneagram-corner/relationship-communication-guide)
 
 <svelte:head>
 

@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/enneagram-communication-tips'
 lastmod: '2025-12-04'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['development']
 blog: true
 previewHtml: ''
@@ -45,7 +45,7 @@ Each Enneagram type has different emotional triggers and needs. Type 1s need you
 
 This guide gives you the exact words that work. And the phrases that backfire, for every type. No theory. Just scripts you can use today.
 
-(For the deeper "why" behind each type's communication patterns, see our guide on [Enneagram communication styles](/enneagram-corner/enneagram-communication-styles).)
+(For the deeper "why" behind each type's communication patterns, see our guide on [Enneagram communication styles](/enneagram-corner/relationship-communication-guide).)
 
 ## Why Your Words Keep Missing the Target
 
@@ -211,7 +211,7 @@ This breaks their core assumption. Say it. Mean it. Watch them pause.
 ---
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 ---

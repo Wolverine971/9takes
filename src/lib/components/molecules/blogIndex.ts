@@ -314,7 +314,7 @@ export const blogDomains: { [key: string]: BlogDomain } = {
 				slug: 'relationship-communication-guide',
 				title: 'Relationship Communication Guide',
 				description: 'How each type communicates in relationships',
-				lastmod: '2025-02-26',
+				lastmod: '2026-08-01',
 				tags: ['relationships', 'communication', 'partners', 'understanding']
 			},
 			{
@@ -529,27 +529,6 @@ export const blogDomains: { [key: string]: BlogDomain } = {
 				description: 'Shadow aspects and how to deal with them',
 				lastmod: '2025-10-23',
 				tags: ['social', 'toxic-traits', 'dark-side', 'awareness']
-			},
-			{
-				slug: 'enneagram-communication-guide',
-				title: 'Decode Any Personality Type in Seconds',
-				description: 'Exact communication patterns by type',
-				lastmod: '2025-12-04',
-				tags: ['communication', 'guide', 'patterns', 'decoding']
-			},
-			{
-				slug: 'enneagram-communication-styles',
-				title: "Why Nobody Understands You (It's Your Enneagram)",
-				description: '9 hidden languages everyone speaks',
-				lastmod: '2025-08-15',
-				tags: ['communication', 'styles', 'understanding', 'connection']
-			},
-			{
-				slug: 'enneagram-communication-tips',
-				title: 'Tips for Communicating with Each Type',
-				description: 'Optimize communication by personality',
-				lastmod: '2024-05-22',
-				tags: ['communication', 'tips', 'practical', 'optimization']
 			}
 		]
 	},

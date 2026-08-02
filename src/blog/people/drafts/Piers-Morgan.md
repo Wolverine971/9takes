@@ -234,7 +234,7 @@ Morgan doesn't see himself as provocative. He sees himself as the brave voice sa
 
 "You can't have your own version of the truth," he has said. "There's _the_ truth, which is fact-based, and then that's it."
 
-The thing is, he means it. Every time. When he was anti-war, he meant it. When he was pro-gun-control, he meant it. When he was pro-Trump, and then anti-Trump, and then cautiously pro-Trump again, he meant it each time. Threes [communicate in achievements](/enneagram-corner/enneagram-communication-styles), and Morgan's entire public life is one long broadcast of what he's achieved, who he's challenged, and why he won.
+The thing is, he means it. Every time. When he was anti-war, he meant it. When he was pro-gun-control, he meant it. When he was pro-Trump, and then anti-Trump, and then cautiously pro-Trump again, he meant it each time. Threes [communicate in achievements](/enneagram-corner/relationship-communication-guide), and Morgan's entire public life is one long broadcast of what he's achieved, who he's challenged, and why he won.
 
 ## The Woman Who Stopped Calling
 

@@ -241,7 +241,7 @@ Achievement as the price of admission. Love mediated through performance. The so
 
 Patrick's interviewing style is his personality distilled to its purest form.
 
-He asks every guest the same question: "Who were you in high school?" He's been asking it for twenty years. And when he explains why, he gives away the whole game: "I can listen to a person's language and typically be able to pick the mindset they are in. The language you speak says a lot about insecurities, fears, self-confidence, and self-esteem." (This ability to [decode communication patterns](/enneagram-corner/enneagram-communication-styles) is something Threes excel at. Reading the room is survival.)
+He asks every guest the same question: "Who were you in high school?" He's been asking it for twenty years. And when he explains why, he gives away the whole game: "I can listen to a person's language and typically be able to pick the mindset they are in. The language you speak says a lot about insecurities, fears, self-confidence, and self-esteem." (This ability to [decode communication patterns](/enneagram-corner/relationship-communication-guide) is something Threes excel at. Reading the room is survival.)
 
 He's not interviewing people. He's _reading_ them. Mapping their weaknesses, their insecurities, the levers that make them move. It's the same skill that made him a great insurance salesman: the ability to walk into a room and within minutes understand what everyone values, fears, and needs to hear.
 

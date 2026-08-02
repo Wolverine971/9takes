@@ -217,7 +217,7 @@ You're marketing yourself like a LinkedIn profile. Leading with achievements, op
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'being toxic ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 <section class="section-content">
@@ -658,7 +658,7 @@ Reflect on what shifted. Your dating patterns change when you understand your ps
 
 Your dating style is one piece of your relationship blueprint.
 
-- [How your type handles conflict](/enneagram-corner/enneagram-communication-styles)
+- [How your type handles conflict](/enneagram-corner/relationship-communication-guide)
 - [How your type shows up when the honeymoon ends](/enneagram-corner/enneagram-types-in-relationships)
 - [Get real-time feedback on your dating situations](/questions)
 

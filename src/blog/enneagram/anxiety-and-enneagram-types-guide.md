@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/anxiety-and-enneagram-types-guide'
 lastmod: '2026-02-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 type: ['situational']
 blog: true
 previewHtml: ''
@@ -542,7 +542,7 @@ Drop a comment below. What type are you, and what does anxiety actually feel lik
 You might find someone in the comments who gets it.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'self-sabotage 🎯', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'communication styles 💬', link: '/enneagram-corner/enneagram-communication-styles'} ]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'self-sabotage 🎯', link: '/enneagram-corner/how-each-enneagram-type-self-sabotages-success'}, {name: 'communication styles 💬', link: '/enneagram-corner/relationship-communication-guide'} ]} />
 </div>
 
 <svelte:head>

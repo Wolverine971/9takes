@@ -128,14 +128,14 @@ Compare this to how relationships actually form. You don't befriend someone beca
 
 **Reddit gives you infinite doors and no rooms.**
 
-And when you do stumble into someone interesting? Understanding [how different personality types communicate](/enneagram-corner/enneagram-communication-styles) could change how you read their comment entirely. But Reddit gives you no context for that. Just text on a screen, stripped of the person who wrote it.
+And when you do stumble into someone interesting? Understanding [how different personality types communicate](/enneagram-corner/relationship-communication-guide) could change how you read their comment entirely. But Reddit gives you no context for that. Just text on a screen, stripped of the person who wrote it.
 
 <div class="scroll-fade">
 <MarqueeHorizontal displayList={[
   { name: "What Winning Arguments Looks Like", link: "/community/what-winning-online-arguments-looks-like" },
   { name: "How Minds Change on 9takes", link: "/community/how-minds-change-on-9takes" },
   { name: "The Power of Memetic Comments", link: "/community/memetic-comments" },
-  { name: "Enneagram Communication Styles", link: "/enneagram-corner/enneagram-communication-styles" }
+  { name: "Enneagram Communication Styles", link: "/enneagram-corner/relationship-communication-guide" }
 ]} />
 </div>
 

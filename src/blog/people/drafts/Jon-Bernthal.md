@@ -167,7 +167,7 @@ When he returned to the U.S., the director of Harvard's Institute for Advanced T
 
 The pattern running through Bernthal's life isn't random aggression. It's the architecture of a man whose first instinct is to scan every environment for threats, protect anyone in his orbit, and convert vulnerability into forward motion.
 
-People with this personality structure share a [core wound](/enneagram-corner/enneagram-type-8): somewhere early, they learned that the world doesn't protect the vulnerable. It eats them. The response is armor. Physical strength, emotional intensity, and a [need for control](/enneagram-corner/enneagram-communication-styles) that isn't about power for its own sake but about ensuring no one ever makes them feel helpless again.
+People with this personality structure share a [core wound](/enneagram-corner/enneagram-type-8): somewhere early, they learned that the world doesn't protect the vulnerable. It eats them. The response is armor. Physical strength, emotional intensity, and a [need for control](/enneagram-corner/relationship-communication-guide) that isn't about power for its own sake but about ensuring no one ever makes them feel helpless again.
 
 Watch how this plays out in Bernthal's life:
 

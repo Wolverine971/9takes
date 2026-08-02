@@ -253,7 +253,7 @@ She was right. She just didn't expect the change to look like this.
 
 The tech industry's accountability gap, the distance between what Silicon Valley promised and what it delivered, is one of the defining stories of the 21st century. So why was the person who closed that gap most forcefully _this_ particular woman with _this_ particular psychology?
 
-An Eight's relationship to [power and truth](/enneagram-corner/enneagram-communication-styles) is visceral, not intellectual. Swisher doesn't analyze lies from a distance; she feels them as a physical affront. "Just telling the truth is always better." "It's better if you're true to what you're like instead of pretending, 'cause I think it makes you sick."
+An Eight's relationship to [power and truth](/enneagram-corner/relationship-communication-guide) is visceral, not intellectual. Swisher doesn't analyze lies from a distance; she feels them as a physical affront. "Just telling the truth is always better." "It's better if you're true to what you're like instead of pretending, 'cause I think it makes you sick."
 
 She said that about being closeted. But she meant it as a universal law.
 

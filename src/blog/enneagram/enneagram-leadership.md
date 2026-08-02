@@ -471,7 +471,7 @@ Awareness: Notice conflict avoidance. Management: Take decisive stands. People: 
 
 <!-- {#uncomfortable-conversations} -->
 
-Here is a script for the conversation your type avoids. (For more on [how each type communicates](/enneagram-corner/enneagram-communication-styles), see our communication guide.)
+Here is a script for the conversation your type avoids. (For more on [how each type communicates](/enneagram-corner/relationship-communication-guide), see our communication guide.)
 
 ### The 5-Sentence Format That Works
 

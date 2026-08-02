@@ -230,7 +230,7 @@ When a Type 3 comes apart, the slide is toward Type 9: not a louder version of t
 
 <p class="inner-thought">If I'm not making something, what am I. The set is gone, the studio is gone, the thing I hand people so they'll know I'm worth it is gone. I am so lost. I need something to do, anything, or I disappear.</p>
 
-She has gotten more fluent in naming it. "At this point in my life, I have a better understanding of what anxiety is and what it feels like in my body," she wrote in her newsletter in 2024. And her hardest-won coping skill is the one most foreign to her wiring: permission to stop. Curl up with a blanket, she advises, talk to no one for ten minutes, "take a gentle pause." For a type that equates stillness with vanishing, doing nothing on purpose is not rest. It is the discipline. (Her own [anxiety](/enneagram-corner/enneagram-anxiety-management-guide) playbook, written for readers, reads like a note to herself.)
+She has gotten more fluent in naming it. "At this point in my life, I have a better understanding of what anxiety is and what it feels like in my body," she wrote in her newsletter in 2024. And her hardest-won coping skill is the one most foreign to her wiring: permission to stop. Curl up with a blanket, she advises, talk to no one for ten minutes, "take a gentle pause." For a type that equates stillness with vanishing, doing nothing on purpose is not rest. It is the discipline. (Her own [anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide) playbook, written for readers, reads like a note to herself.)
 
 ---
 
@@ -326,5 +326,4 @@ Deliberately left alone:
 - Jo-Ann skirt spine, the strike-era inner-thought beat, and the Sinners/heritage turn untouched per prior reviews.
 - lastmod NOT modified (DJ-managed).
 -->
-
 

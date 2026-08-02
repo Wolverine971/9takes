@@ -461,7 +461,7 @@ That is how a pattern starts becoming a relationship.
 - **[Love Languages and Enneagram Types](/enneagram-corner/love-languages-and-enneagram-types)**: How motivation can shape giving and receiving affection
 - **[Attachment Styles and Enneagram Types](/enneagram-corner/attachment-styles-and-enneagram-types)**: Where the frameworks overlap and where they do not
 - **[Red Flags You Are Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)**: Unhealthy patterns to notice early
-- **[Enneagram Communication Styles](/enneagram-corner/enneagram-communication-styles)**: How each type tends to process difficult conversations
+- **[Enneagram Communication Styles](/enneagram-corner/relationship-communication-guide)**: How each type tends to process difficult conversations
 
 <svelte:head>
 

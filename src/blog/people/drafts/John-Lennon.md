@@ -161,7 +161,7 @@ The feeling never left. Not when the Beatles became the most famous band in huma
 
 To survive Liverpool in the 1950s with that kind of interior life, you built armor. Lennon's armor was cruelty.
 
-He dressed like a Teddy boy. He adopted a swagger lifted from Marlon Brando and Elvis Presley. He cultivated a wit so fast and so cutting that people flinched before they laughed, a pattern familiar to anyone who has watched a deeply sensitive person build a [fortress of personality](/enneagram-corner/enneagram-communication-styles) to keep the world at arm's length. In the 1980 Playboy interview, he dismantled the entire persona in a single paragraph:
+He dressed like a Teddy boy. He adopted a swagger lifted from Marlon Brando and Elvis Presley. He cultivated a wit so fast and so cutting that people flinched before they laughed, a pattern familiar to anyone who has watched a deeply sensitive person build a [fortress of personality](/enneagram-corner/relationship-communication-guide) to keep the world at arm's length. In the 1980 Playboy interview, he dismantled the entire persona in a single paragraph:
 
 "I was never really a street kid or a tough guy. I used to dress like a Teddy boy and identify with Marlon Brando and Elvis Presley, but I never really was in real street fights or real down-home gangs. I was just a suburban kid, imitating the rockers. But it was a big part of one's life to look tough."
 

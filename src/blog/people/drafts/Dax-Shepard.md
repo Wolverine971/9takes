@@ -219,7 +219,7 @@ His co-host Monica Padman, who started as Kristen's personal assistant's roommat
 
 "The biggest improvement I've made as an interviewer is learning to shut the [ __ ] up," Dax told <a href="/personality-analysis/tim-ferriss">Tim Ferriss</a>. He's also dyslexic, can't read quotes on air, has to memorize them beforehand, which he says forces him to think in pictures rather than words. He believes it makes him a better storyteller and more empathetic interviewer.
 
-He builds recurring questions, especially about guests' relationships with their mothers, not just as show structure, but as a way to process his own unresolved material in front of an audience. It's the kind of [deep emotional work](/enneagram-corner/enneagram-communication-styles) most people do in private, if they do it at all. He asks hundreds of strangers about their mom dynamics because he still hasn't fully reckoned with his own.
+He builds recurring questions, especially about guests' relationships with their mothers, not just as show structure, but as a way to process his own unresolved material in front of an audience. It's the kind of [deep emotional work](/enneagram-corner/relationship-communication-guide) most people do in private, if they do it at all. He asks hundreds of strangers about their mom dynamics because he still hasn't fully reckoned with his own.
 
 He also tells every guest they can cut anything from the interview afterward. It's a safety net that lowers the cost of honesty in the moment. "I think what happens is they say something regrettable, and then they realize they feel different than they anticipated, better, not worse, and they end up keeping all these things in."
 

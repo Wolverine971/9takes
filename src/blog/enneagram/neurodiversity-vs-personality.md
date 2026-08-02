@@ -371,7 +371,7 @@ strategic_question_url: 'whats-something-every-day-seem-fine-nobody-knows-costin
 <div class="prose prose-lg max-w-none">
 
 - **[Enneagram and ADHD: Which Types Struggle Most](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most)**: how ADHD intersects with each Enneagram type, plus type-specific coping strategies
-- **[Anxiety and the Enneagram Types](/enneagram-corner/anxiety-and-enneagram-types-guide)**: for anyone asking whether their anxiety is a condition or a personality pattern
+- **[Anxiety and the Enneagram Types](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide)**: for anyone asking whether their anxiety is a condition or a personality pattern
 - **[Shadow Work by Enneagram Type](/enneagram-corner/shadow-work-by-enneagram-type)**: the actual mechanics of looking inward, once you know your type
 - **[Mental Health Risks by Enneagram Type](/enneagram-corner/enneagram-and-mental-illness)**: understanding each type's predispositions
 - **[The Enneagram's Place in Personality Science](/enneagram-corner/enneagram-vs-personality-frameworks-comparison)**: 104 studies, honest assessment of what we know and don't

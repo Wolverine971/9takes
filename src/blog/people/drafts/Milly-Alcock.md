@@ -240,7 +240,7 @@ Then the whole internet watched her stand next to Rihanna and laugh helplessly a
 
 ## Why Milly Alcock thought her life was over at 22
 
-Most people hear "I was so shit-scared that my life was over at 22" and assume hyperbole. With Alcock, it was a [diagnosis](/enneagram-corner/anxiety-and-enneagram-types-guide).
+Most people hear "I was so shit-scared that my life was over at 22" and assume hyperbole. With Alcock, it was a [diagnosis](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 
 _House of the Dragon_ ended. She was replaced in Season 2 by Emma D'Arcy, the older-version actor, a handoff written into her contract from day one. The character she had spent months learning to inhabit simply continued without her. She wasn't in the edit. She wasn't in the marketing.
 

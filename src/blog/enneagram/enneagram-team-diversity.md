@@ -91,7 +91,7 @@ High-stakes, high-ego, high-performance. Not for the faint of heart.
 The 3 drives results. The 8 clears obstacles. The 4 refuses to let the work become generic or forgettable. This team either produces exceptional work or burns down trying. Use it for moonshots, not maintenance.
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'toxic traits of each type ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'}]} />
+<MarqueeHorizontal displayList={[{name: 'at a party 🎉', link: '/enneagram-corner/enneagram-types-at-party'}, {name: 'in stress 😰', link: '/enneagram-corner/enneagram-types-in-stress'}, {name: 'toxic traits of each type ☣️', link: '/enneagram-corner/toxic-traits-of-each-enneagram-type'}, {name: 'strengths 💪 and weaknesses', link: '/enneagram-corner/enneagram-strengths-and-weaknesses'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'}]} />
 </div>
 
 ## Making This Work in Practice
@@ -120,7 +120,7 @@ You're not being manipulative. You're being effective.
 - **Types 2, 6, 8** need to feel heard before they'll hear you. Acknowledge their concern first.
 - **Types 4, 7, 9** respond to vision and possibility. Connect the task to something bigger.
 
-Dive deeper into [how each type communicates](/enneagram-corner/enneagram-communication-styles).
+Dive deeper into [how each type communicates](/enneagram-corner/relationship-communication-guide).
 
 ### Predict Conflicts Before They Happen
 

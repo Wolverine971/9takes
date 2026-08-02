@@ -271,7 +271,7 @@ What the public didn't see was that for two years after her death, every single 
 
 "That is how bad my life was without my mother," he said on his podcast during World Mental Health Day. "I knew for the rest of my life I would never, ever have anyone like that again."
 
-He went to therapy. This was not a small admission for a Black man in sports media who had built his entire persona on [strength, volume, and certainty](/enneagram-corner/enneagram-communication-styles). Smith acknowledged the stigma directly and talked about it anyway.
+He went to therapy. This was not a small admission for a Black man in sports media who had built his entire persona on [strength, volume, and certainty](/enneagram-corner/relationship-communication-guide). Smith acknowledged the stigma directly and talked about it anyway.
 
 "There were literally times I would sit across from someone on air and didn't hear them," he said. "All I saw was my mom's casket being lowered into the ground."
 

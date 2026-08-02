@@ -222,7 +222,7 @@ Beyond addiction, Mike has been candid about mental health battles that most pub
 
 "I have been recklessly harming myself, sabotaging any good in my life," he's admitted publicly.
 
-This is the shadow side of the Seven's wiring. When the possibility machine has nothing positive to generate, it doesn't shut off. It generates negative possibilities instead. Intrusive thoughts. Catastrophic scenarios. The same brain that produces "what if I tried this?" also produces "what if everything falls apart?" Sevens belong to the Enneagram's [head center](/enneagram-corner/enneagram-concepts), the [fear triad](/enneagram-corner/enneagram-anxiety-management-guide). Underneath all that enthusiasm is a fear circuitry that never fully powers down.
+This is the shadow side of the Seven's wiring. When the possibility machine has nothing positive to generate, it doesn't shut off. It generates negative possibilities instead. Intrusive thoughts. Catastrophic scenarios. The same brain that produces "what if I tried this?" also produces "what if everything falls apart?" Sevens belong to the Enneagram's [head center](/enneagram-corner/enneagram-concepts), the [fear triad](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide). Underneath all that enthusiasm is a fear circuitry that never fully powers down.
 
 But here's where Mike's story diverges from the typical Seven narrative. He didn't just outrun the anxiety by staying busy. He started therapy. Announced it publicly. Began a new treatment regimen while millions of followers watched.
 

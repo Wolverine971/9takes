@@ -165,7 +165,7 @@ Hailey recently shared that she identifies as an "otrovert"—someone who enjoys
 
 ### Hailey Bieber and Social Media: The Tool She Can't Put Down
 
-"Being off Instagram is the best thing ever," Hailey has admitted. "Whenever I take breaks from it I feel so much better, so much happier as a person... the second I come back on I get immediate [anxiety](/enneagram-corner/enneagram-anxiety-management-guide)."
+"Being off Instagram is the best thing ever," Hailey has admitted. "Whenever I take breaks from it I feel so much better, so much happier as a person... the second I come back on I get immediate [anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide)."
 
 In December 2021, she completed a seven-day intensive therapy program—no phone, hours of therapy daily. "I've had to work a lot of this through with a therapist," she explained, "because it had gotten to a point where they'd [the trolls] gotten way too crazy for me, and I was really anxious all the time."
 

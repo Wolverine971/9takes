@@ -411,7 +411,7 @@ This is the opposite of how most people approach dating, which is to perform com
 </section>
 
 <div style="overflow: hidden;">
-<MarqueeHorizontal displayList={[{name: 'dating guide for men 👨', link: '/enneagram-corner/enneagram-dating-guide-for-men'}, {name: 'dating guide for women 👩', link: '/enneagram-corner/enneagram-dating-guide-for-women'}, {name: 'communication styles 🙊', link: '/enneagram-corner/enneagram-communication-styles'}, {name: 'in relationships 💞', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'} ]} />
+<MarqueeHorizontal displayList={[{name: 'dating guide for men 👨', link: '/enneagram-corner/enneagram-dating-guide-for-men'}, {name: 'dating guide for women 👩', link: '/enneagram-corner/enneagram-dating-guide-for-women'}, {name: 'communication styles 🙊', link: '/enneagram-corner/relationship-communication-guide'}, {name: 'in relationships 💞', link: '/enneagram-corner/enneagram-types-in-relationships'}, {name: 'being ghosted 👻', link: '/enneagram-corner/enneagram-types-being-ghosted'} ]} />
 </div>
 
 <section class="section-content">

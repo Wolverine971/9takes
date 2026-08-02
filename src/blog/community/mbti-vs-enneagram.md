@@ -132,7 +132,7 @@ For a detailed breakdown, see our [Enneagram vs Myers-Briggs comparison](/enneag
   { name: "Enneagram Overview (TLDR)", link: "/enneagram-corner/enneagram-tldr" },
   { name: "Find Your Enneagram Type", link: "/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" },
   { name: "Enneagram vs Myers-Briggs", link: "/enneagram-corner/enneagram-vs-meyers-briggs" },
-  { name: "Enneagram Communication Styles", link: "/enneagram-corner/enneagram-communication-styles" }
+  { name: "Enneagram Communication Styles", link: "/enneagram-corner/relationship-communication-guide" }
 ]} />
 </div>
 

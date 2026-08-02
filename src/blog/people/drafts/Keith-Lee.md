@@ -209,7 +209,7 @@ Every review he has ever filmed is downstream of that sentence.
 
 ## Why Keith Lee's food reviews sound like apologies
 
-Keith started TikTok to get over his social <a href="/enneagram-corner/anxiety-and-enneagram-types-guide">anxiety</a>. This is well-documented and boring. The interesting part is why.
+Keith started TikTok to get over his social <a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide">anxiety</a>. This is well-documented and boring. The interesting part is why.
 
 "I started doing TikTok just to get over my social anxiety so I can do interviews for MMA," he told The Breakfast Club in 2023. He needed to be able to talk to reporters after fights without stuttering. So he pointed his phone at himself in his Las Vegas condo and pretended it was three hundred people in front of him. He did this alone, for months, before he ever posted anything.
 
