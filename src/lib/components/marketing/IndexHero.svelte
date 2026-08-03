@@ -19,7 +19,7 @@
 		line1 = '',
 		line2 = '',
 		imageSrc,
-		imageAlt = '',
+		imageAlt,
 		imageMono = '',
 		headingLevel = 'h1',
 		meta,
@@ -31,7 +31,7 @@
 		line1?: string;
 		line2?: string;
 		imageSrc: string;
-		imageAlt?: string;
+		imageAlt: string;
 		imageMono?: string;
 		/** Keep h1 for page heroes; lower the level when the hero is embedded in documentation. */
 		headingLevel?: 'h1' | 'h2' | 'h3' | 'h4';
@@ -87,7 +87,7 @@
 			{/if}
 		</div>
 
-		<div class="hero-subject" aria-hidden="true">
+		<div class="hero-subject">
 			<div class="subject-frame">
 				<!-- .hero-subject is display:none ≤968px; the media-gated source keeps
 				     phones from downloading the hero image at all (2026-06-11 audit) -->

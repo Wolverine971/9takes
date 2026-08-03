@@ -284,6 +284,14 @@
 </header>
 
 <style lang="scss">
+	.nav-main {
+		position: relative;
+		z-index: 200;
+		border-bottom: 1px solid var(--glass-border);
+		background: var(--glass-color);
+		backdrop-filter: blur(12px);
+	}
+
 	.header-frame,
 	.mobile-shell {
 		max-width: 1240px;
@@ -323,20 +331,57 @@
 		gap: 0.65rem;
 	}
 
+	.logo-link {
+		display: flex;
+		align-items: center;
+		flex-shrink: 0;
+		text-decoration: none;
+	}
+
+	.nav-main :global(.logo-link:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+		border-radius: var(--border-radius-sm);
+	}
+
+	.logo-text {
+		font-family: var(--font-display);
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: color-mix(in srgb, var(--ink-bright) 90%, var(--lamp-deep));
+		transition: color 0.2s ease;
+	}
+
+	.logo-link:hover .logo-text {
+		color: color-mix(in srgb, var(--ink-bright) 72%, var(--lamp-glow));
+	}
+
 	.account-button {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
 		width: 2.75rem;
 		height: 2.75rem;
+		padding: 0.25rem;
+		border: 0;
 		border-radius: 0.625rem;
+		background: transparent;
 		color: var(--ink-mid);
 		text-decoration: none;
-		transition: color 0.2s ease;
+		cursor: pointer;
+		transition:
+			background-color 0.2s ease,
+			color 0.2s ease;
 	}
 
 	.account-button:hover {
+		background-color: var(--lamp-soft);
 		color: var(--lamp-glow);
+	}
+
+	.nav-main :global(.account-button:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
 	.notification-button {
@@ -559,6 +604,11 @@
 		height: 0.95rem;
 		color: color-mix(in srgb, var(--ink-mid) 72%, var(--lamp-glow));
 		justify-self: end;
+		transition: transform 0.2s ease;
+	}
+
+	.library-button :global(.dropdown-arrow.rotated) {
+		transform: rotate(180deg);
 	}
 
 	.mobile-top-row,

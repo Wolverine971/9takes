@@ -1,0 +1,20 @@
+Polished `src/blog/people/drafts/Machine-Gun-Kelly.md`.
+
+**Starting state:** unusually clean. Lint was already 0 fail, 0 em-dashes, 0 banned phrases, 0 contrast pairs — the create/fresh-eyes/second-pass/cohesion chain had done its job. So this was a pure prose pass, not a rescue.
+
+**What I actually cleaned up**
+
+- **Statement + restatement pairs** — the main AI tell the lint can't see. "Catchy is the entire objective. Catchy is the win condition." was one idea twice. Same for "His clothes did not fit" sitting on top of the Poverty quote, and the *Bloom* row saying "the only optimistic word" and "one hopeful title in seven records" back to back.
+- **A dangling -ing faking depth** — "he told the Times, describing formative years spent among other people's cultures, prayers, languages." Cut at "he told the Times"; the clause added a list-of-three and nothing else.
+- **Vague abstractions** — "something else is happening" became "nothing is in the past tense" (falsifiable, and the album table proves it). "There is a pattern in the system for what a Four does" became "There is a specific way a Four comes apart."
+- **Contorted sentences** — "What the sequence does not survive is what came after" → "The sequence stops explaining him the moment it works." The *Good Mourning* verdict → "He held every credit on it. The one time nobody misread him, they hated what they saw."
+- **Soft preambles → assertion** — "Then there is the smaller detail, the one that explains…" and "His own account is not about pride or about ambition."
+- **The ending.** Cut the sentence before "The rap album is next" — third run of the blank-pages motif, and it stated the thesis one line before the rap-album beat lands it without saying it. The close now runs Casie → rap album → ukulele → last line clean.
+
+**Also fixed:** the frontmatter description promised "seven career reinventions," which the body doesn't support (seven albums, three genre changes). The cohesion pass had flagged it for you; it now reads "seven albums of wreckage." 150 chars.
+
+**Left alone deliberately:** Title Case H2s. The editorial standard says sentence case, but Megan-Fox, Julia-Fox, Jelly-Roll, and Halsey all use Title Case — corpus consistency wins on a published-surface convention. Also left the one-sentence punch paragraph, which runs ~10 times and is the voice, not a tic. Empathy turn and both interior beats untouched.
+
+**Final numbers:** contrast pairs 0 total (0 strong / 0 comparative). Lint 0 fail. 4481 → 4376 words, which also restores real headroom under the 4500 ceiling.
+
+**Production-ready on prose.** The one blocker is mechanical: `faqs` frontmatter is still empty, so the frontmatter enrich stage hasn't run. That's the remaining discoverability cost before publish.

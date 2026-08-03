@@ -1,6 +1,18 @@
 // src/lib/email/reactivation-sequence-content.ts
 // Canonical copy for the people-focused reactivation sequence.
 
+import {
+	REACTIVATION_PEOPLE_WALL_HTML,
+	REACTIVATION_PEOPLE_WALL_URL
+} from './reactivation-people-wall';
+
+export {
+	REACTIVATION_PEOPLE_WALL_CARD_URLS,
+	REACTIVATION_PEOPLE_WALL_IMAGE_URL,
+	REACTIVATION_PEOPLE_WALL_URL,
+	buildReactivationPersonUrl
+} from './reactivation-people-wall';
+
 export const REACTIVATION_COLD_KEY = 'reactivation_cold';
 export const REACTIVATION_DORMANT_KEY = 'reactivation_dormant';
 export const REACTIVATION_ZOMBIES_KEY = 'reactivation_zombies';
@@ -27,12 +39,6 @@ export type ReactivationSequenceContent = {
 export const REACTIVATION_HERO_URL =
 	'https://9takes.com/enneagram-corner/enneagram-and-mental-illness';
 
-export const REACTIVATION_PEOPLE_WALL_URL =
-	'https://9takes.com/personality-analysis/map?utm_source=reactivation&utm_medium=email&utm_campaign=people-wall';
-
-export const REACTIVATION_PEOPLE_WALL_IMAGE_URL =
-	'https://9takes.com/email/reactivation/people-wall-v1.jpg';
-
 // Live question featured in step 3. If it's ever removed or flagged, swap in
 // another high-engagement relationship question.
 const PARTNER_QUESTION_URL =
@@ -43,8 +49,8 @@ const PARTNER_QUESTION_URL =
 // every portrait accessible and clickable; the email uses a client-safe JPEG.
 const STEP_1_PEOPLE_WALL_HTML = `<p>Since you joined, 9takes has grown into more than 400 in-depth reads on actors, musicians, founders, creators, athletes, and historical figures.</p>
 <p><strong>Take a peek inside their inner worlds.</strong> This condensed people index shows three public figures for each of the nine Enneagram types. Open anyone who catches your eye to explore the moments, contradictions, and emotional pattern behind the read.</p>
-<p><a href="${REACTIVATION_PEOPLE_WALL_URL}"><img src="${REACTIVATION_PEOPLE_WALL_IMAGE_URL}" alt="A three-column by nine-row people index showing three public figures for each Enneagram type" width="520" style="display:block;width:100%;max-width:520px;height:auto;border:0;border-radius:16px;" /></a></p>
-<p><a class="button" href="${REACTIVATION_PEOPLE_WALL_URL}">See what drives them</a></p>
+${REACTIVATION_PEOPLE_WALL_HTML}
+<p style="margin:16px 0;"><a class="button" href="${REACTIVATION_PEOPLE_WALL_URL.replaceAll('&', '&amp;')}">See what drives them</a></p>
 <p>More next week - a personal note about why I built this in the first place.</p>
 <p>DJ<br />9takes.com</p>`;
 

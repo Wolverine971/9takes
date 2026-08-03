@@ -75,7 +75,8 @@
 		<img
 			src="/images/home-reimagined/streetlamp-nine.webp"
 			class="era-image era-image--modern"
-			alt=""
+			alt="Nine modern people gathered in conversation beneath a streetlamp"
+			aria-hidden="true"
 			width="1400"
 			height="788"
 			loading="eager"
@@ -85,7 +86,8 @@
 		<img
 			src="/images/home-reimagined/ancient-fire-nine.webp"
 			class="era-image era-image--ancient"
-			alt=""
+			alt="Nine marble Greek philosophers gathered in conversation around a fire"
+			aria-hidden="true"
 			width="1400"
 			height="788"
 			loading="eager"

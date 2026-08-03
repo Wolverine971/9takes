@@ -33,6 +33,18 @@ describe('base email template helpers', () => {
 		expect(html).not.toContain('Hi <script>alert(1)</script>');
 	});
 
+	it('keeps the 600px email shell fluid on narrow screens', () => {
+		const html = generateEmailHtml({
+			subject: 'Responsive shell',
+			content: '<p>Body</p>',
+			includeFooter: false
+		});
+
+		expect(html).toContain(
+			'width="600" align="center" style="width: 100%; max-width: 600px; margin: 0 auto;"'
+		);
+	});
+
 	it('adds an unsubscribe URL to the plain-text footer', () => {
 		const text = appendEmailFooterToPlainText('Body', 'https://9takes.com/unsubscribe/test');
 
@@ -89,7 +101,7 @@ describe('base email template helpers', () => {
 
 	it('preserves explicit UTM values and fills only missing attribution', () => {
 		const html = rewriteLinksForTracking(
-			'<a href="https://9takes.com/personality-analysis/map?utm_campaign=people-wall&amp;utm_source=reactivation">People</a>',
+			'<a href="https://9takes.com/personality-analysis/emma-watson?utm_campaign=people-wall&amp;utm_source=reactivation&amp;utm_content=person-emma-watson">People</a>',
 			TRACKING_ID,
 			BASE_URL,
 			{
@@ -106,7 +118,7 @@ describe('base email template helpers', () => {
 		expect(target.searchParams.get('utm_source')).toBe('reactivation');
 		expect(target.searchParams.get('utm_medium')).toBe('email');
 		expect(target.searchParams.get('utm_campaign')).toBe('people-wall');
-		expect(target.searchParams.get('utm_content')).toBe('reactivation_cold_step_1_link_1');
+		expect(target.searchParams.get('utm_content')).toBe('person-emma-watson');
 	});
 
 	it('fills blank UTM values and attributes test-email links without wrapping them', () => {

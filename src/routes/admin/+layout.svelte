@@ -330,16 +330,22 @@
 	}
 
 	.nav-link {
+		position: relative;
 		display: flex;
 		align-items: center;
 		gap: 6px;
 		padding: 8px 14px;
+		background: transparent;
 		color: var(--ink-mid);
 		text-decoration: none;
+		font-family: var(--font-mono);
 		font-weight: 500;
 		font-size: 0.8125rem;
 		border-radius: 0.625rem;
-		transition: all 0.2s ease;
+		transition:
+			background-color 0.2s ease,
+			border-color 0.2s ease,
+			color 0.2s ease;
 		white-space: nowrap;
 		border: 1px solid transparent;
 	}
@@ -365,6 +371,11 @@
 		background: var(--lamp-glow);
 		color: var(--text-on-primary);
 		border-color: var(--lamp-glow);
+	}
+
+	.admin-layout :global(.nav-link:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
 	/* Main Content */

@@ -195,6 +195,7 @@
 		line1="We read public figures through the Enneagram — the framework that maps 9 emotional patterns driving behavior."
 		line2="Each breakdown goes beyond surface biography. We map their core fear, core desire, stress line, growth line — and the moments where those patterns showed up."
 		imageSrc="/greek_pantheon.webp"
+		imageAlt="Greek pantheon representing the nine Enneagram personality types"
 		imageMono="9TAKES · CASE FILES · ENNEAGRAM READS"
 	/>
 

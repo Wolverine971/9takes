@@ -1,0 +1,54 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Samara-Weaving.md`
+
+**Before score: 7/10**
+**After score: 9/10**
+
+### Central Thesis
+Weaving's lifelong anxiety built a career that runs on vetting people and enacting terror — and the one thing it doesn't explain is that she goes hunting for the fear on purpose.
+
+### Thread Map
+| Section | Contribution | Connects because |
+|---|---|---|
+| Cold open (Babylon) | Crisis cancels her nerves | Plants "this happened before, and it's why she screams for a living" |
+| Diagnosis | Type 6: baseline anxiety, trust audit, effortful future | Names the pattern the open showed |
+| Childhood | Four countries, weeks of silence, drama at five | Origin of ground that won't hold |
+| Anxiety meds | Dose record: Ready or Not, Babylon | The mechanism the open promised |
+| *Azrael* | Fear as compass; the case the type can't close | Pays off the silence thread, opens the appetite seam |
+| Drought | Two years of no calls; gumnut mafia; the baby | Source of the over-prep and the closed circle |
+| Same movie | Repetition as trust inventory; Emma Frost breaks it | Applies the circle logic to work, then challenges it |
+| Photograph | She gave away her own name | Coda against a woman who now refuses to hand anything over |
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 8/10 | 1 |
+| Section Transitions | 9/10 | 5 (fixed) |
+| Internal Paragraph Flow | 9/10 | 2 (fixed) |
+
+### Changes Made (11 total)
+
+**Transition Fixes (5)** — every section boundary was Weak or Broken before; the piece was a set of strong sections with no seams.
+- Childhood → Meds: added "It was. The job came with a side effect nobody had prescribed." Answers the Pirates question and hands off the medication keyword.
+- Meds → *Azrael*: added "Even so, she kept choosing the hardest available version of the job." Turns the previous section's cost line into the question this section answers.
+- *Azrael* → Drought: added "None of that machinery was there at the start." Signals the jump backward in time instead of letting it happen silently.
+- Drought → Same movie: added "That instinct to keep the circle small runs her career too." Carries the gumnut-mafia image straight into the repetition argument.
+- Same movie → Closer: "About ten years ago" → "About ten years before Marvel called." Anchors the reverse-chronology jump off the beat just read.
+
+**Internal Flow Fixes (2)**
+- Childhood section: the Hugo pivot now opens "The wanting came later, and not from the uncle everyone asks about," so the Hugo dead-end and the Pirates payoff hang off one question rather than arriving as a topic switch.
+- Rabbit Hole said "See the *Azrael* section" for a section that comes *after* it. Now "The *Azrael* section below makes the case."
+
+**Orphaned/Duplicated Threads (4)**
+- Prep-as-blame-proofing ran three times (source card note → *Azrael* paraphrase → drought quote). Compressed the first two so the drought quote is the single full statement.
+- Babylon Entry Two no longer re-narrates the cold open's vomiting/ensemble detail.
+- Scream-queen lead-in lost its doubled "without flinching" / "does not hesitate."
+
+### What Was Preserved
+All frontmatter, all ledgers, all internal links (6), the inner-thought paragraph, the dose-record form, the airport closer, every sourced claim and every load-bearing quote.
+
+### Constraint Note
+The draft was at 4,487 words against a hard 4,500 lint ceiling, so the bridges had to be paid for. The cuts above are all genuine redundancy, not compression of unique content. Final: **4,493 words, blog-lint 0 fail**, same 3 pre-existing warns (no `faqs` frontmatter, 1 comparative contrast pattern, thin word headroom).
+
+### Remaining Concern
+Section 8 now carries two arguments in sequence — repetition-as-trust-inventory, then Emma Frost refuting it. That unresolved tension is deliberate per the ledger and I left it intact, but it means the section's own through-line ends on a question rather than a claim. If a later pass ever wants a cleaner landing, splitting Emma Frost into its own short section is the move. Your call.

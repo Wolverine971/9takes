@@ -87,6 +87,24 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Machine-Gun-Kelly.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 8.5
+  writing: 8.5
+  originality: 8.5
+  discoverability: 9
+  overall: 8.7
+  letter: B+
+  rubric_version: 2
+  caps_applied: []
+  confidence: high
+  anchor: 'Matt-Smith draft (B, 2026-06-28)'
+  needs_review: false
+  first_overall: 7.5
+  regrade_overall: 8.7
+  grade_stability_delta: 1.2
+  graded_at: '2026-08-03'
 ---
 
 <!-- TESTIMONY LEDGER

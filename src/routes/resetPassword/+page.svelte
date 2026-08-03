@@ -8,7 +8,7 @@
 	import { applyAction, enhance } from '$app/forms';
 	import { goto } from '$app/navigation';
 	import type { ActionData, PageData } from './$types';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Input } from '$lib/components/atoms';
 
 	let { form, data }: { form: ActionData; data: PageData } = $props();
 
@@ -31,6 +31,14 @@
 	);
 	let canSubmit = $derived(
 		!!password && !!confirmPassword && passwordsMatch && isValidPassword && !loading
+	);
+	let passwordError = $derived(
+		password && !isValidPassword
+			? 'Use 8+ characters with an uppercase letter, a lowercase letter, and a number.'
+			: undefined
+	);
+	let confirmPasswordError = $derived(
+		confirmPassword && !passwordsMatch ? 'Passwords do not match.' : undefined
 	);
 
 	// Handle redirecting to login after successful password reset
@@ -63,7 +71,7 @@
 	<h1 class="auth-title">Reset Password</h1>
 
 	{#if form?.success || showSuccessMessage}
-		<div class="success-message">
+		<div class="success-message" role="status" aria-live="polite">
 			<p>{form?.message || 'Password has been reset successfully!'}</p>
 			<p>Redirecting to login page...</p>
 		</div>
@@ -92,43 +100,35 @@
 				};
 			}}
 		>
-			<div class="form-group">
-				<label for="password" class="form-label">New Password</label>
-				<input
+			<Field for="password" label="New password" required error={passwordError}>
+				<Input
 					type="password"
 					id="password"
 					name="password"
 					bind:value={password}
 					required
-					minlength="8"
+					minlength={8}
 					autocomplete="new-password"
-					class="form-input"
+					invalid={!!passwordError}
+					aria-describedby={passwordError ? 'password-error' : undefined}
 				/>
-				{#if password && !isValidPassword}
-					<div class="error-hint">
-						8+ characters with an uppercase letter, a lowercase letter, and a number
-					</div>
-				{/if}
-			</div>
+			</Field>
 
-			<div class="form-group">
-				<label for="confirmPassword" class="form-label">Confirm Password</label>
-				<input
+			<Field for="confirmPassword" label="Confirm password" required error={confirmPasswordError}>
+				<Input
 					type="password"
 					id="confirmPassword"
 					name="confirmPassword"
 					bind:value={confirmPassword}
 					required
 					autocomplete="new-password"
-					class="form-input"
+					invalid={!!confirmPasswordError}
+					aria-describedby={confirmPasswordError ? 'confirmPassword-error' : undefined}
 				/>
-				{#if confirmPassword && !passwordsMatch}
-					<div class="error-hint">Passwords do not match</div>
-				{/if}
-			</div>
+			</Field>
 
 			{#if form?.error}
-				<div class="error-message">
+				<div class="error-message" role="alert">
 					{form.error}
 				</div>
 			{/if}
@@ -178,39 +178,6 @@
 		gap: 1rem;
 	}
 
-	.form-group {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	.form-label {
-		font-weight: 600;
-		font-size: 0.9rem;
-		color: var(--ink-mid);
-	}
-
-	.form-input {
-		padding: 0.75rem;
-		background-color: var(--night-deep);
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		font-size: 1rem;
-		color: var(--ink-bright);
-		transition: all 0.3s ease;
-
-		&::placeholder {
-			color: var(--ink-dim);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: var(--lamp-glow);
-			box-shadow: var(--glow-sm);
-			background: var(--stone-warm);
-		}
-	}
-
 	.success-message {
 		padding: 1rem;
 		margin-bottom: 1rem;
@@ -232,12 +199,6 @@
 		background: color-mix(in srgb, var(--error) 10%, transparent);
 		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
 		border-radius: 0.625rem;
-	}
-
-	.error-hint {
-		margin-top: 0.25rem;
-		font-size: 0.85rem;
-		color: var(--error-text);
 	}
 
 	.back-link {

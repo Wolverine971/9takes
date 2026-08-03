@@ -289,7 +289,7 @@
 				</div>
 			</div>
 
-			<div class="hero-statue" aria-hidden="true">
+			<div class="hero-statue">
 				<div class="statue-frame">
 					<!-- .hero-statue is display:none <=968px; media-gate the source so phones
 					     do not download the desktop-only artwork. -->
@@ -301,7 +301,7 @@
 						/>
 						<img
 							src="/philosopher-gathering.webp"
-							alt=""
+							alt="Classical philosophers gathered in conversation, representing nine perspectives"
 							class="statue"
 							loading="eager"
 							fetchpriority="high"

@@ -2,7 +2,7 @@
 title: 'Sam Altman: The Boy Who Was Already King of the Island'
 meta_title: 'Why Sam Altman Always Ends Up Leading'
 description: 'Sam Altman grew up feeling fundamentally different, then turned that outsider identity into the strange advantage that keeps making him the leader.'
-persona_title: "AI's Existential Architect"
+persona_title: "Silicon Valley's King of Every Island"
 author: 'DJ Wayne'
 date: '2023-12-08'
 loc: 'https://9takes.com/personality-analysis/sam-altman'

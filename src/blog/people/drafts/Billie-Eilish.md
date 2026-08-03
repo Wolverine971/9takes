@@ -1,7 +1,7 @@
 ---
 title: "Billie Eilish: The Girl Who Couldn't Stop Being Watched"
 meta_title: "Why Billie Eilish Can't Tell If She's Being Real or Performing Anymore"
-persona_title: "Gen Z's Beautiful Wound"
+persona_title: "Pop's Unfinished Self-Portrait"
 description: "Billie Eilish turned vulnerability into a brand so complete she can't tell where the pain ends and the performance begins. A Type 4 analysis."
 author: 'DJ Wayne'
 date: '2023-06-17'

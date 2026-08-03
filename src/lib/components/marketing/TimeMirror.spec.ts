@@ -26,6 +26,17 @@ describe('TimeMirror', () => {
 		vi.useRealTimers();
 	});
 
+	it('provides descriptive alt text for both linked hero images', () => {
+		render(TimeMirror);
+
+		expect(
+			screen.getByAltText('Nine modern people gathered in conversation beneath a streetlamp')
+		).toBeTruthy();
+		expect(
+			screen.getByAltText('Nine marble Greek philosophers gathered in conversation around a fire')
+		).toBeTruthy();
+	});
+
 	it('advances immediately when clicked instead of pausing', async () => {
 		render(TimeMirror);
 

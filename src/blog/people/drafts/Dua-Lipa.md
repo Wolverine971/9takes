@@ -1,7 +1,7 @@
 ---
 title: 'Dua Lipa: An Enneagram Type 3 Personality Analysis'
 meta_title: 'Dua Lipa Personality Type: Enneagram Type 3'
-persona_title: "Pop's Precision Optimist"
+persona_title: 'The Star Who Turns Doubt into Deadlines'
 description: 'Dua Lipa turns criticism into a work plan. See how her stage reinvention, Radical Optimism perfectionism, and Service95 reveal an Enneagram Type 3.'
 author: 'DJ Wayne'
 date: '2026-04-15'

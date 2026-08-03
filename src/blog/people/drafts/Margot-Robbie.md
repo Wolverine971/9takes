@@ -70,7 +70,7 @@ faqs:
 twitter: ''
 instagram: ''
 tiktok: ''
-persona_title: 'The Star Who Finds You Through Your Need'
+persona_title: "Hollywood's Load-Bearing Heart"
 path: src/blog/people/drafts/Margot-Robbie.md
 content_quality:
   hook: 9.5

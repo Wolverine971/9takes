@@ -97,7 +97,7 @@ export function generateEmailHtml(options: TemplateOptions): string {
   <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f6f7f9;">
     <tr>
       <td class="email-wrapper" style="padding: 30px 20px;">
-        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" style="max-width: 600px; margin: 0 auto;">
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" style="width: 100%; max-width: 600px; margin: 0 auto;">
 
           <!-- Brand -->
           <tr>

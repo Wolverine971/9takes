@@ -152,6 +152,7 @@
 		line1="Step-by-step playbooks for using the Enneagram in real situations — conflict, dating, work, family."
 		line2={`${publishedCount} guides. Tactical, not theoretical.`}
 		imageSrc="/greek_pantheon.webp"
+		imageAlt="Greek pantheon representing practical Enneagram guidance"
 		imageMono="9TAKES · CASE FILES · HOW-TO GUIDES"
 	>
 		{#snippet actions()}

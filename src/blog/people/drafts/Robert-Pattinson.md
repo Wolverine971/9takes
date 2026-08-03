@@ -1,7 +1,7 @@
 ---
 title: "Robert Pattinson: The Man Who Doesn't Feel Real"
 meta_title: "Why Robert Pattinson Can't Stop Lying in Interviews (And What It Reveals)"
-persona_title: "Hollywood's Disappearing Act"
+persona_title: "Hollywood's Honest Liar"
 description: 'Robert Pattinson lies in interviews, hid in car trunks, and chose to play freaks after Twilight. Inside the Enneagram Type 4 psychology that explains all of it.'
 author: 'DJ Wayne'
 date: '2025-03-24'

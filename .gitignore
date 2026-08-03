@@ -21,3 +21,9 @@ unused-selectors-report.json
 .env*.local
 
 source-assets
+
+videos
+
+.codex-tmp
+
+e2e

@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — machine-gun-kelly (Type 4)
+/Users/djwayne/9takes/src/blog/people/drafts/Machine-Gun-Kelly.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 50
+Comparison set (last 8 other Type-4 drafts by date):
+  - Hunter-Biden  (2026-07-25, 32 units)
+  - kacey-musgraves  (2026-07-23, 38 units)
+  - julia-fox  (2026-07-20, 30 units)
+  - oliver-tree  (2026-07-19, 37 units)
+  - sza  (2026-07-04, 47 units)
+  - Rose-Blackpink  (2026-07-02, 29 units)
+  - megan-fox  (2026-06-28, 47 units)
+  - odessa-azion  (2026-06-27, 27 units)
+
+Noise floor over 14350 unit pairs:  median=0  p90=0  p99=0.005  max=0.084
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.084   machine-gun-kelly  <->  megan-fox
+   TARGET [diagnosis] " he told the New York Times Popcast in August 2025.
+   OTHER  [diagnosis] she published a New York Times bestseller and read it on stage.
+
+
+Most similar drafts (max unit-pair score):
+  0.084 ###                  megan-fox
+  0.051 ##                   julia-fox
+  0.038 ##                   kacey-musgraves
+  0.035 #                    Hunter-Biden
+  0.035 #                    oliver-tree
+  0.027 #                    Rose-Blackpink
+  0.025 #                    odessa-azion
+  0.015 #                    sza
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.084   machine-gun-kelly  <->  megan-fox
+   TARGET [diagnosis] " he told the New York Times Popcast in August 2025.
+   OTHER  [diagnosis] she published a New York Times bestseller and read it on stage.
+
+score 0.051   machine-gun-kelly  <->  julia-fox
+   TARGET [diagnosis] the core desire is to be understood as the genuine article.
+   OTHER  [diagnosis] and its oldest hunger is to be seen and understood as exactly
+
+score 0.038   machine-gun-kelly  <->  kacey-musgraves
+   TARGET [diagnosis] the evidence that something real is happening underneath.
+   OTHER  [diagnosis] Sustained first-person evidence that recognition
+
+score 0.035   machine-gun-kelly  <->  Hunter-Biden
+   TARGET [diagnosis] " he told the New York Times Popcast in August 2025.
+   OTHER  [counter-typing] " he told Ryan in December 2025.
+
+score 0.035   machine-gun-kelly  <->  oliver-tree
+   TARGET [counter-typing] The Type 3 case is strong and this piece already made it
+   OTHER  [counter-typing] A Type 3 case exists too
+
+score 0.034   machine-gun-kelly  <->  Hunter-Biden
+   TARGET [counter-typing] The honest gap is the combat reflex
+   OTHER  [counter-typing] The honest weakness in the Type 4 call is the business record.
+
+score 0.031   machine-gun-kelly  <->  megan-fox
+   TARGET [counter-typing] a public fight that raised his profile.
+   OTHER  [diagnosis] Fox turns the wound into a public-facing product.
+
+score 0.031   machine-gun-kelly  <->  megan-fox
+   TARGET [diagnosis] Track one of Lost Americana hands you the diagnosis in a single bar.
+   OTHER  [diagnosis] are built around a single conviction
+
+score 0.029   machine-gun-kelly  <->  kacey-musgraves
+   TARGET [diagnosis] the evidence that something real is happening underneath.
+   OTHER  [diagnosis] and the feeling that something essential is missing.
+
+score 0.028   machine-gun-kelly  <->  julia-fox
+   TARGET [diagnosis] She has said he came in wanting order
+   OTHER  [counter-typing] and has said outright she has "earned" her place at the table.
+
+score 0.028   machine-gun-kelly  <->  Hunter-Biden
+   TARGET [counter-typing] a man dangling above a Rolling Loud crowd on acid.
+   OTHER  [diagnosis] A man protecting a secret goes quiet.
+
+score 0.027   machine-gun-kelly  <->  Rose-Blackpink
+   TARGET [counter-typing] Handed the best comeback year of his life
+   OTHER  [diagnosis] " that is functionally a plea to be told she is the best.
+
+------------------------------------------------------------------------------
+Top pair scores 0.084 vs median 0  (~∞x the noise floor).

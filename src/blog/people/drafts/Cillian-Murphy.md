@@ -1,6 +1,6 @@
 ---
 title: 'Cillian Murphy: The Invisible Man Behind Intense Eyes'
-persona_title: "Cinema's Invisible Vessel"
+persona_title: 'The Actor Who Cancels Reality'
 meta_title: 'Why Cillian Murphy Guards His Private Life So Hard'
 description: 'Why is Cillian Murphy so private offscreen? We decode the Type 5 pattern behind the fortress, obsessive preparation, and total disappearance into roles.'
 author: 'DJ Wayne'

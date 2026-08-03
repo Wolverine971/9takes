@@ -1,0 +1,25 @@
+## Grading Complete — Machine Gun Kelly
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Machine-Gun-Kelly | 9 | 9 | 9 | 9 | 8 | 9 | **8.9** | **B+** |
+
+(Weighted: `(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.857 → 8.9`. Discoverability 9, so no gate.)
+
+### Key Observations
+
+**This is a regrade, and the delta checks out.** The draft first scored C (7.5) with Evidence capped at 6 and Discoverability at 6. Uncapping those two mechanically accounts for ~1.3 of the 1.4-point jump — so the movement is the revision pass doing its job, not me re-scoring the prose more generously. The other four dimensions landed where the first grade had them, except Hook (I read it a point higher).
+
+**What the revision actually fixed.** It pulled the real NYT Popcast transcript and pinned every floating childhood quote to it, sourced the father's trial to Bunnie XO's *Dumb Blonde* (Aug 2024), and ran the frontmatter enrich stage. Source audit now returns 6 inline / 1 vague / **0 untagged**. All five FAQ anchors resolve to real headings (verified).
+
+**The standout.** Rebuilding the Type 3 tiebreaker on the December 2023 blackout tattoo after the unverifiable therapy quote was killed produced a *better* argument than the one it replaced: he paid for 78 hours of pain to erase the visual identity that made him famous, and left one line showing. That's a signature detail in the rubric's exact sense.
+
+**What holds it at B+.** Writing, and only Writing. Five sections close on the same short aphoristic reframe, plus three reader-command imperatives against 0–1 in each of the three most recently graded drafts. The full pipeline architecture is visible at every joint, which the 9-band explicitly excludes. The Eminem section also still reads as the SEO obligation it is — it names the honest gap and then resolves it biographically, so the type never explains anything there.
+
+**Sameness cap did not fire.** Checked against Penguinz0, KSI, Brooke-Monk. It shares the epigraph→cold-open furniture (structural, exempt) but notably *avoids* the "What would change our mind:" counterargument closer all three recent drafts use near-verbatim. The same-type similarity trip at 0.084 vs megan-fox is a genuine false positive on the token "New York Times" — the ledger's call to keep the attribution is right.
+
+**One flag for whoever revises:** the Razzie claim ("seven nominations and handed him Worst Director") carries no year or awarding body, and I could not independently verify the nomination count. It's load-bearing for the Good Mourning beat, which is the piece's second critic-pressure anchor.
+
+Frontmatter written to the draft; feedback sidecar at `docs/content-analysis/grades/Machine-Gun-Kelly.review.md`. No legacy `QUALITY GRADE` block was present to remove.
+
+**Total graded this session: 1**

@@ -1,6 +1,6 @@
 ---
 title: 'Jordan Peterson: Inside the Mind That Refuses to Bend'
-persona_title: "Psychology's Weeping Crusader"
+persona_title: "The Professor Who Can't Let Chaos Win"
 meta_title: 'Why Is Jordan Peterson So Polarizing? His Personality Decoded'
 description: "What drives Jordan Peterson's relentless moral crusades? His Type 1 personality explains everything from the crying to the controversies to millions of devoted followers."
 author: 'DJ Wayne'

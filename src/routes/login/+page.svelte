@@ -14,7 +14,8 @@
 	import { invalidateAll } from '$app/navigation';
 	import type { SubmitFunction } from '@sveltejs/kit';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Input } from '$lib/components/atoms';
+	import CaptchaFrame from '$lib/components/molecules/CaptchaFrame.svelte';
 	import {
 		ensureRecaptchaLoaded,
 		reloadRecaptchaWidget,
@@ -27,6 +28,7 @@
 	let loading = $state(false);
 	let email = $state('');
 	let password = $state('');
+	let formError = $state('');
 	let captchaRequired = $state(data.captchaRequired ?? false);
 	let recaptchaTheme = $state<'light' | 'dark'>('dark');
 	let captchaContainer = $state<HTMLDivElement | null>(null);
@@ -88,10 +90,15 @@
 
 	const handleSubmit: SubmitFunction = () => {
 		loading = true;
+		formError = '';
 		return async ({ result }) => {
 			if (result.type === 'failure') {
 				captchaRequired = !!result.data?.captchaRequired || captchaRequired;
-				notifications.danger(result.data?.error || 'An error occurred', 3000);
+				formError = result.data?.error || 'An error occurred';
+				notifications.danger(formError, 3000);
+			} else if (result.type === 'error') {
+				formError = 'An unexpected error occurred. Please try again.';
+				notifications.danger(formError, 3000);
 			} else if (result.type === 'success') {
 				// Keep loading=true during navigation - rerun all `load` functions
 				await invalidateAll();
@@ -151,20 +158,19 @@
 		use:enhance={handleSubmit}
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
-		<div class="form-group">
-			<label for="email">Email</label>
-			<input
+		<Field for="email" label="Email" required>
+			<Input
 				type="email"
 				id="email"
 				name="email"
 				bind:value={email}
 				required
 				autocomplete="email"
+				inputmode="email"
 			/>
-		</div>
-		<div class="form-group">
-			<label for="password">Password</label>
-			<input
+		</Field>
+		<Field for="password" label="Password" required>
+			<Input
 				type="password"
 				id="password"
 				name="password"
@@ -172,9 +178,14 @@
 				required
 				autocomplete="current-password"
 			/>
-		</div>
+		</Field>
+		{#if formError}
+			<div class="form-error" role="alert">{formError}</div>
+		{/if}
 		{#if captchaRequired}
-			<div bind:this={captchaContainer}></div>
+			<CaptchaFrame>
+				<div bind:this={captchaContainer}></div>
+			</CaptchaFrame>
 		{/if}
 		<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-4">
 			Log in
@@ -247,37 +258,13 @@
 		gap: 1.5rem;
 	}
 
-	.form-group {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	label {
-		font-weight: 600;
+	.form-error {
+		padding: 0.75rem 0.9rem;
 		font-size: 0.9rem;
-		color: var(--ink-mid);
-	}
-
-	input {
-		padding: 0.75rem;
-		background-color: var(--night-deep);
-		border: 1px solid var(--stone-edge);
+		color: var(--error-text);
+		background: color-mix(in srgb, var(--error) 10%, transparent);
+		border: 1px solid color-mix(in srgb, var(--error) 28%, transparent);
 		border-radius: 0.625rem;
-		font-size: 1rem;
-		color: var(--ink-bright);
-		transition: all 0.3s ease;
-
-		&::placeholder {
-			color: var(--ink-dim);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: var(--lamp-glow);
-			box-shadow: var(--glow-sm);
-			background: var(--stone-warm);
-		}
 	}
 
 	.forgot-password {

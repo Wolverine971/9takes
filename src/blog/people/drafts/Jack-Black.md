@@ -1,7 +1,7 @@
 ---
 title: "Jack Black: The Psychology Behind Comedy's Most Unhinged Performer"
 meta_title: 'Why Jack Black Acts So Crazy (The Real Psychology Behind It)'
-persona_title: "Comedy's Boundless Showman"
+persona_title: "Comedy's Loudest Man Goes Quiet"
 description: "How Jack Black's Enneagram Type 7 personality connects his cocaine addiction at 15, his rocket scientist mother, and his TikTok domination at 55."
 author: 'DJ Wayne'
 date: '2026-01-23'

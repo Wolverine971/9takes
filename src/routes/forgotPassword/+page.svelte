@@ -11,7 +11,8 @@
 	import { browser } from '$app/environment';
 	import type { ActionData } from './$types';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Input } from '$lib/components/atoms';
+	import CaptchaFrame from '$lib/components/molecules/CaptchaFrame.svelte';
 	import {
 		ensureRecaptchaLoaded,
 		reloadRecaptchaWidget,
@@ -114,26 +115,25 @@
 	<h1 class="auth-title">Forgot Password</h1>
 
 	{#if form?.success}
-		<div class="success-message">
+		<div class="success-message" role="status" aria-live="polite">
 			{form.message}
 		</div>
 	{:else}
 		<form action="?/forgotPass" method="POST" class="auth-form" use:enhance={handleSubmit}>
-			<div class="form-group">
-				<label for="email" class="form-label">Email</label>
-				<input
+			<Field for="email" label="Email" required>
+				<Input
 					type="email"
 					id="email"
 					name="email"
 					bind:value={email}
 					required
 					autocomplete="email"
-					class="form-input"
+					inputmode="email"
 				/>
-			</div>
+			</Field>
 
 			{#if form?.error}
-				<div class="error-message">
+				<div class="error-message" role="alert">
 					{form.error}
 				</div>
 			{/if}
@@ -150,7 +150,9 @@
 				/>
 			</div>
 
-			<div bind:this={captchaContainer}></div>
+			<CaptchaFrame>
+				<div bind:this={captchaContainer}></div>
+			</CaptchaFrame>
 
 			<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-2">
 				Reset Password
@@ -187,39 +189,6 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
-	}
-
-	.form-group {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	.form-label {
-		font-weight: 600;
-		font-size: 0.9rem;
-		color: var(--ink-mid);
-	}
-
-	.form-input {
-		padding: 0.75rem;
-		background-color: var(--night-deep);
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		font-size: 1rem;
-		color: var(--ink-bright);
-		transition: all 0.3s ease;
-
-		&::placeholder {
-			color: var(--ink-dim);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: var(--lamp-glow);
-			box-shadow: var(--glow-sm);
-			background: var(--stone-warm);
-		}
 	}
 
 	.success-message {

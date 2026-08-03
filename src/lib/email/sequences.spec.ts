@@ -1,5 +1,12 @@
 // src/lib/email/sequences.spec.ts
 import { describe, expect, it } from 'vitest';
+import peopleWall from '../data/people-wall.json';
+import {
+	REACTIVATION_PEOPLE_WALL_CARD_URLS,
+	REACTIVATION_PEOPLE_WALL_URL,
+	buildReactivationPersonUrl
+} from './reactivation-sequence-content';
+import { generateEmailHtml } from './base-template';
 import { prepareSequenceSend, type SequenceSendRow } from './sequences';
 
 function makeSequenceRow(overrides: Partial<SequenceSendRow> = {}): SequenceSendRow {
@@ -81,8 +88,43 @@ describe('prepareSequenceSend', () => {
 		expect(prepared.preheader).toBe('Take a peek inside the inner worlds of 27 public figures.');
 		expect(prepared.htmlContent).toContain('https://9takes.com/personality-analysis/map');
 		expect(prepared.htmlContent).toContain(
-			'https://9takes.com/email/reactivation/people-wall-v1.jpg'
+			'https://9takes.com/email/reactivation/people-wall/cards/emma-watson.jpg'
 		);
+		expect(
+			prepared.htmlContent.match(
+				/https:\/\/9takes\.com\/email\/reactivation\/people-wall\/cards\/[^"\s]+\.jpg/g
+			)
+		).toHaveLength(27);
+		expect(prepared.htmlContent).not.toMatch(/<(?:map|area)\b|usemap=/i);
+
+		const people = peopleWall.types.flatMap((row) => row.people);
+		expect(people).toHaveLength(27);
+		for (const person of people) {
+			const profileUrl = buildReactivationPersonUrl(person.slug);
+			expect(prepared.htmlContent).toContain(`href="${profileUrl.replaceAll('&', '&amp;')}"`);
+			expect(prepared.htmlContent).toContain(
+				`src="${REACTIVATION_PEOPLE_WALL_CARD_URLS[person.slug]}"`
+			);
+
+			const trackedProfile = new URL(profileUrl);
+			expect(trackedProfile.searchParams.get('utm_source')).toBe('reactivation');
+			expect(trackedProfile.searchParams.get('utm_medium')).toBe('email');
+			expect(trackedProfile.searchParams.get('utm_campaign')).toBe('people-wall');
+			expect(trackedProfile.searchParams.get('utm_content')).toBe(`person-${person.slug}`);
+		}
+
+		const wallCta = new URL(REACTIVATION_PEOPLE_WALL_URL);
+		expect(wallCta.searchParams.get('utm_content')).toBe('people-wall-cta');
+		expect(
+			Buffer.byteLength(
+				generateEmailHtml({
+					subject: prepared.subject,
+					preheader: prepared.preheader,
+					content: prepared.htmlContent
+				}),
+				'utf8'
+			)
+		).toBeLessThan(90 * 1024);
 		expect(prepared.htmlContent).toContain('See what drives them');
 		expect(prepared.plainText).toContain('See what drives them:');
 		expect(prepared.linkAttribution).toEqual({

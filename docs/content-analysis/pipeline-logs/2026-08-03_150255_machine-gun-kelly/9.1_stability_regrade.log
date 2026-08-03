@@ -1,0 +1,24 @@
+## Grading Complete — Machine Gun Kelly
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Machine-Gun-Kelly | 8.5 | 8.5 | 9 | 9 | 8.5 | 9 | **8.7** | **B+** |
+
+(Weighted: `(8.5×1.5 + 8.5×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.7`. Disc 9 — gate not triggered. No caps applied.)
+
+### Key Observations
+
+**This is a regrade, and the 7.5 → 8.7 jump is mechanically explained, not calibration drift.** The prior C capped Evidence at 6 (untraceable load-bearing claims) and scored Discoverability 6 (frontmatter enrich never ran). Those are the two heaviest dimensions. Holding the other four constant and moving those two to 8.5/9 reproduces 7.5 → 8.7 exactly — I back-solved the old score at 7.46 to confirm. The revision pass fixed precisely what was broken: it pulled the actual NYT Popcast transcript and grepped it, sourced the father's trial to Bunnie XO's podcast, and ran the enrich stage. Recorded as `first_overall: 7.5 / regrade_overall: 8.7 / grade_stability_delta: 1.2`.
+
+**Strongest element:** the December 2023 blackout tattoo as typing tiebreaker. It replaced an unverifiable therapy quote the second pass correctly killed, and it's a better argument than what it replaced — checkable, physical, and it breaks the Type 3 case without hand-waving.
+
+**Three things holding it off an A:**
+1. Two load-bearing lyric quotes never name the track — "don't let me go" appears only in pipeline comments. Cheapest fix in the draft; converts the audit's last VAGUE to INLINE.
+2. The confession pressure test opens sharp ("the claim... lets him keep the wreckage") and resolves in one line that proves the pattern predates the confession, not that the ruin is intentional. The piece raises the doubt and walks past it.
+3. Reader-command imperatives are back at five, against 1/0/1 in the three most recently graded drafts — Brooke Monk cut hers at revision specifically as house furniture.
+
+**Sameness check:** the deterministic scan trips at 0.084 vs megan-fox, and the ledger is right that it's a false positive (shared tokens are the outlet name only). By hand I found three shared house moves — TL;DR bullet skeleton, fragment section closers, return-to-the-wound closer — below the near-verbatim bar, so Originality was docked rather than capped. One corpus-level decision worth making: the corpus-stat sentence is back here after Brooke Monk cut it as a sameness move. Pick one and hold it.
+
+**Ledger drift:** two claims don't match the body. The testimony ledger counts 6 quotes but Travis Barker's "I just watched him grow" never reaches the reader; the distribution ledger counts 3 type-theory paragraphs where a hand count finds 4. Both still inside their ceilings, so nothing triggered — but worth correcting before they compound.
+
+**Total graded this session: 1**

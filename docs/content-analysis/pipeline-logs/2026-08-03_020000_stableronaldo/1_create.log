@@ -1,0 +1,41 @@
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Stable-Ronaldo.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony ≥2): PASS — 5 qualifying quotes
+       Gate 2 (heading mix): PASS — 5 of 7 H2s search-intent/hybrid
+       Gate 3 (self-loop): PASS — verified by blog-lint
+       Gate 4 (anti-imitation): PASS — ending is a Kai Cenat callback, no "A [Type]" anaphora
+       Gate 5 (distribution ≤4): PASS — 2 type-theory paragraphs in body
+       Gate 6 (formula fingerprint): PASS — 0 contrast-pair engines, similarity 0.058 (clear)
+LIMITATIONS: 1 lint WARN — no `faqs` in frontmatter (downstream enrich stage's job)
+```
+
+**This was a verify/repair pass, not a fresh write.** The draft already existed and was strong. The Aug 2 pipeline run didn't fail at writing — it failed at *finding* the file.
+
+## Root cause of the failed run
+
+`scripts/run-blog-pipeline.sh:109` builds `DRAFT_PATH="src/blog/people/drafts/${PERSON}.md"` from the queue name. The cron passed `stableronaldo`; the create stage correctly wrote `Stable-Ronaldo.md`. Hence `draft_missing_after_stage_1_create` — nine stages skipped on a draft that was sitting right there.
+
+This is narrower than it looks. macOS APFS is case-insensitive, so queued names like `caitlin-clark` still resolve to `Caitlin-Clark.md`. It only breaks on **single-token handles that are really two words** (`stableronaldo` → `Stable-Ronaldo`). `penguinz0` and `jynxzi` are genuinely single-token, which is why those runs passed. I did not touch the pipeline script — it's outside this command's scope. Say the word and I'll make stage 1 resolve the real filename instead of assuming it.
+
+## Errors I found and fixed
+
+The prior run self-certified "all gates pass," but three claims didn't survive checking:
+
+1. **2026 stats were wrong.** Draft said "averaging around 45,000 viewers and ranking around #13 overall." The 45k is his *last-30-days* average, not the year; the rank was off by nine places. Replaced with sourced numbers: ~29,000 average across 2026, peak 168,044 on July 19, ~#4 most-watched (TwitchTracker, Aug 2026).
+2. **Twitch bans were stale.** "Four separate times" → five; the fifth landed in October 2024.
+3. **An unprovenanced number.** "Hundreds of thousands of people watched" had no source, which the command bans outright. Cut, and replaced with a verified detail that does more work: he went live the next day in a head bandage, playing his own beating for laughs. That's better evidence for the thesis than the viewership figure was.
+
+My edit initially pushed the snippet answer-block to 72 words and broke lint; tightened to 58. Final: **0 fail, 1 warn.**
+
+## What verified clean
+
+Real name (Rani Netz), Cherry Hill NJ, the June 8 2024 Martyn slap and the "part of the narrative" line, the $250k clawback quote, CORE's April 30 2026 launch with six ex-FaZe members and the $20M house, and the Kai Cenat ending — that one matched **verbatim**, blue headset and shoes included. The corpus stat also holds: Type 3 and Type 7 genuinely tie at 23.9% across n=88 creators, 401 published profiles.
+
+Frontmatter needed nothing. I flagged `type: ['creator', 'streamer']` as invalid against the command's table, then found the table is stale — `streamer` is the established convention here (adin-ross, kai-cenat, xqc, pokimane all use it). Worth correcting the command doc at some point.
+
+Next: `/grade_blog`, then human review before `blog_content_production_people`.
+
+**Sources:** [Wikipedia](https://en.wikipedia.org/wiki/Stable_Ronaldo) · [Sportskeeda — Martyn slap](https://www.sportskeeda.com/us/streamers/news-fitness-influencer-bradley-martyn-slaps-stable-ronaldo-live-stream-fortnite-streamer-responds) · [Sportskeeda — "didn't know he was bald"](https://www.sportskeeda.com/us/streamers/news-i-know-bald-stable-ronaldo-addresses-community-bradley-martyn-slapped-livestream) · [Sportskeeda — Asmongold](https://sportskeeda.com/us/streamers/news-asmongold-says-bradley-martyn-did-favor-slapping-stable-ronaldo-claims-twitch-streamer-being-rat) · [StableRonaldoHQ on X — Streamer University](https://x.com/StableRonaldoHQ/status/2079071924001337409) · [yoxic on X — $250k clawback](https://x.com/yoxics/status/2037281395392004430) · [Tubefilter — CORE](https://www.tubefilter.com/2026/05/01/new-faze-clan-creator-group-house-core/) · [Sportskeeda — CORE members](https://www.sportskeeda.com/us/streamers/news-what-core-aka-thecoreboys-list-members-explored-former-faze-clan-affiliates-announce-new-group) · [Dexerto — fifth ban](https://www.dexerto.com/twitch/faze-ronaldo-banned-from-twitch-for-fifth-time-2954840/) · [TwitchTracker](https://twitchtracker.com/stableronaldo/statistics)

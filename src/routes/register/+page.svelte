@@ -12,7 +12,8 @@
 	import { browser } from '$app/environment';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Input } from '$lib/components/atoms';
+	import CaptchaFrame from '$lib/components/molecules/CaptchaFrame.svelte';
 	import {
 		ensureRecaptchaLoaded,
 		reloadRecaptchaWidget,
@@ -169,37 +170,35 @@
 		use:enhance={handleSubmit}
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
-		<div class="form-group">
-			<label for="email" class="form-label">Email</label>
-			<input
+		<Field for="email" label="Email" required>
+			<Input
 				type="email"
 				id="email"
 				name="email"
 				bind:value={email}
 				required
 				autocomplete="email"
-				class="form-input"
+				inputmode="email"
 			/>
-		</div>
-		<div class="form-group">
-			<label for="password" class="form-label">Password</label>
-			<input
+		</Field>
+		<Field for="password" label="Password" required>
+			<Input
 				type="password"
 				id="password"
 				name="password"
 				bind:value={password}
 				required
-				minlength="8"
+				minlength={8}
 				autocomplete="new-password"
-				class="form-input"
+				aria-describedby="password-requirements"
 			/>
-			<ul class="password-hints" aria-label="Password requirements">
+			<ul id="password-requirements" class="password-hints" aria-label="Password requirements">
 				<li class:met={passwordChecks.length}>8+ characters</li>
 				<li class:met={passwordChecks.upper}>uppercase</li>
 				<li class:met={passwordChecks.lower}>lowercase</li>
 				<li class:met={passwordChecks.number}>number</li>
 			</ul>
-		</div>
+		</Field>
 
 		{#if formError}
 			<div class="error-message" role="alert">{formError}</div>
@@ -218,7 +217,9 @@
 		</div>
 
 		{#if captchaRequired}
-			<div bind:this={captchaContainer}></div>
+			<CaptchaFrame>
+				<div bind:this={captchaContainer}></div>
+			</CaptchaFrame>
 		{/if}
 
 		<Button type="submit" variant="primary" size="lg" fullWidth {loading} class="mt-2">
@@ -281,39 +282,6 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1.5rem;
-	}
-
-	.form-group {
-		display: flex;
-		flex-direction: column;
-		gap: 0.5rem;
-	}
-
-	.form-label {
-		font-weight: 600;
-		font-size: 0.9rem;
-		color: var(--ink-mid);
-	}
-
-	.form-input {
-		padding: 0.75rem;
-		background-color: var(--night-deep);
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		font-size: 1rem;
-		color: var(--ink-bright);
-		transition: all 0.3s ease;
-
-		&::placeholder {
-			color: var(--ink-dim);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: var(--lamp-glow);
-			box-shadow: var(--glow-sm);
-			background: var(--stone-warm);
-		}
 	}
 
 	.password-hints {

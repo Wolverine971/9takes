@@ -2,15 +2,14 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
 	import { deserialize } from '$app/forms';
+	import { resolve } from '$app/paths';
+	import { EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
 	import { slide } from 'svelte/transition';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import Popover from '$lib/components/atoms/Popover.svelte';
-	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
-	import ThumbsUpIcon from '$lib/components/icons/thumbsUpIcon.svelte';
-	import SettingsIcon from '$lib/components/icons/settingsIcon.svelte';
 	import type {
 		User,
 		Comment as CommentType,
@@ -63,12 +62,22 @@
 		? _commentComment.comments[_commentComment.comments.length - 1]?.created_at || null
 		: null;
 
-	$: createdOrModifiedAt = new Date(
-		_commentComment.modified_at || _commentComment.created_at
-	).toLocaleDateString('en-US');
+	function formatCommentDate(timestamp: string) {
+		return new Date(timestamp).toLocaleDateString('en-US', {
+			month: 'short',
+			day: 'numeric',
+			year: 'numeric'
+		});
+	}
+
+	$: createdAtLabel = formatCommentDate(_commentComment.created_at);
+	$: modifiedAtLabel = _commentComment.modified_at
+		? formatCommentDate(_commentComment.modified_at)
+		: null;
 
 	// Update local state when comment changes
 	$: likes = _commentComment.comment_like || [];
+	$: isLiked = likes.some((like) => like.user_id === user?.id);
 	$: commentEdit = _commentComment.comment;
 
 	// Check if comment needs to be truncated (either exceeds length limit or contains newlines)
@@ -379,52 +388,53 @@
 	<!-- The type-colored left stripe is the "9 takes" payoff: each comment is
 	     visually attributed to its Enneagram type via --type-N-color (data-only
 	     palette). Anonymous comments fall back to the neutral stone edge. -->
-	<div
-		class="comment-card group relative rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] transition-all duration-200 hover:border-[var(--lamp-soft)] hover:shadow-[var(--glow-sm)]"
+	<article
+		class="comment-card relative overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)]"
 		style="--comment-type-color: var(--type-{_commentComment?.profiles?.enneagram ??
 			0}-color, var(--stone-edge))"
 	>
 		<div class="flex flex-col">
 			<div class="flex w-full flex-col">
 				<!-- Comment Header and Content -->
-				<div class="p-3" id="comment-box{_commentComment.id}">
-					<!-- User Badge and Timestamp -->
-					<div class="mb-2 flex items-start justify-between">
-						<div class="flex items-center gap-3">
+				<div class="p-lg" id="comment-box{_commentComment.id}">
+					<!-- Authorship stays visible; age is available on demand in the overflow menu. -->
+					<header class="flex min-w-0 items-center gap-sm">
+						<div class="flex min-w-0 items-center gap-sm">
+							<span
+								class="h-2 w-2 shrink-0 rounded-sm bg-[var(--comment-type-color)]"
+								aria-hidden="true"
+							></span>
 							{#if _commentComment?.profiles?.enneagram && _commentComment?.profiles?.external_id}
 								<a
 									title="View profile"
-									class="comment-type-badge inline-flex h-7 items-center justify-center rounded-md px-2.5 text-xs font-semibold transition-colors duration-200"
-									href={`/users/${_commentComment.profiles.external_id}`}
+									class="comment-author truncate text-sm font-semibold text-[var(--ink-mid)] underline-offset-4 transition-colors duration-200 hover:text-[var(--ink-bright)] hover:underline focus-visible:rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
+									href={resolve(
+										`/users/${_commentComment.profiles.external_id}` as `/users/${string}`
+									)}
+									itemprop="author"
 								>
 									Type {_commentComment?.profiles?.enneagram}
 								</a>
 							{:else}
 								<span
-									class="inline-flex h-7 items-center justify-center rounded-md border border-[var(--stone-edge)] bg-[var(--stone-mid)] px-2.5 text-xs font-medium text-[var(--ink-mid)]"
+									class="comment-author truncate text-sm font-semibold text-[var(--ink-mid)]"
+									itemprop="author"
 								>
 									Anonymous
 								</span>
 							{/if}
-
-							<!-- Timestamp -->
-							<span class="flex items-center gap-1.5 text-xs text-[var(--ink-dim)]">
-								<time itemprop="dateCreated" datetime={createdOrModifiedAt}>
-									{createdOrModifiedAt}
-								</time>
-								{#if _commentComment.modified_at}
-									<span class="italic text-[var(--ink-dim)]" title="Edited">· edited</span>
-								{/if}
-							</span>
+							{#if _commentComment.modified_at}
+								<span class="shrink-0 text-xs italic text-[var(--ink-dim)]"> Edited </span>
+							{/if}
 						</div>
-					</div>
+					</header>
 
 					<!-- Comment Text -->
-					<div class="relative mb-3 w-full">
+					<div class="relative mt-md w-full">
 						<div
-							class="block {isExpanded
+							class="comment-copy block {isExpanded
 								? ''
-								: 'max-h-[4.5em] overflow-hidden'} relative whitespace-pre-line break-words text-sm leading-relaxed text-[var(--ink-bright)] transition-all duration-200"
+								: 'max-h-[4.65em] overflow-hidden'} relative whitespace-pre-line break-words text-lg leading-relaxed text-[var(--ink-bright)] transition-all duration-200 [overflow-wrap:anywhere]"
 							itemprop="text"
 						>
 							{_commentComment.comment}
@@ -433,7 +443,7 @@
 						{#if shouldTruncate && !isExpanded}
 							<button
 								type="button"
-								class="mt-1 text-sm font-medium text-[var(--lamp-glow)] transition-colors duration-200 hover:text-[var(--lamp-light)]"
+								class="mt-xs inline-flex min-h-11 items-center rounded-md text-sm font-medium text-[var(--lamp-glow)] underline-offset-4 transition-colors duration-200 hover:text-[var(--lamp-light)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
 								on:click={toggleExpandText}
 							>
 								Read more
@@ -443,76 +453,103 @@
 
 					<!-- Interaction Buttons -->
 					<div
-						class="-ml-2 -mr-2 flex items-center gap-1"
+						class="-mb-sm -ml-sm mt-sm flex items-center gap-xs"
 						role="group"
 						aria-label="Comment actions"
 					>
 						<button
-							title={likes.some((e) => e.user_id === user?.id) ? 'Unlike' : 'Like'}
-							aria-label={likes.some((e) => e.user_id === user?.id)
-								? `Unlike this comment (${likes.length} likes)`
-								: `Like this comment${likes.length > 0 ? ` (${likes.length} likes)` : ''}`}
-							aria-pressed={likes.some((e) => e.user_id === user?.id)}
-							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm transition-colors duration-200 {likes.some(
-								(e) => e.user_id === user?.id
-							)
+							type="button"
+							title={isLiked ? 'Unlike' : 'Like'}
+							aria-label={isLiked
+								? `Unlike this comment (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})`
+								: `Like this comment${likes.length > 0 ? ` (${likes.length} ${likes.length === 1 ? 'like' : 'likes'})` : ''}`}
+							aria-pressed={isLiked}
+							class="comment-action flex min-h-11 items-center gap-sm rounded-md px-md text-sm font-medium transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)] {isLiked
 								? 'bg-[var(--lamp-soft)] text-[var(--lamp-glow)]'
-								: 'text-[var(--ink-mid)] hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]'}"
+								: 'text-[var(--ink-dim)] hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]'}"
 							on:click={toggleLike}
 						>
-							<ThumbsUpIcon className="w-3.5 h-3.5" />
+							<ThumbsUp size={16} strokeWidth={1.75} aria-hidden="true" />
+							<span>Like</span>
 							{#if likes.length}
-								<span itemprop="upvoteCount">
+								<span class="tabular-nums opacity-80" itemprop="upvoteCount">
 									{likes.length}
 								</span>
-							{:else}
-								<span>Like</span>
 							{/if}
 						</button>
 
 						<button
+							type="button"
 							title="Reply to this comment"
 							aria-label={commenting ? 'Hide reply form' : 'Reply to this comment'}
 							aria-expanded={commenting}
-							class="flex min-h-11 items-center gap-1.5 rounded-md px-3 py-2 text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]"
+							class="comment-action flex min-h-11 items-center gap-sm rounded-md px-md text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
 							on:click={() => (commenting = !commenting)}
 						>
-							<MasterCommentIcon
-								className="w-3.5 h-3.5"
-								type={_commentComment.comments?.length ? 'full' : 'empty'}
-							/>
+							<MessageCircle size={16} strokeWidth={1.75} aria-hidden="true" />
 							<span>Reply</span>
 						</button>
 
-						<div class="ml-auto">
+						<div class="comment-overflow ml-auto">
 							<Popover position="bottom-right">
 								<svelte:fragment slot="icon">
-									<div
-										class="flex h-11 w-11 items-center justify-center rounded-md transition-colors duration-200 hover:bg-[var(--stone-mid)]"
+									<span
+										class="flex h-11 w-11 items-center justify-center rounded-md text-[var(--ink-dim)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)]"
+										title="Comment options"
 									>
-										<SettingsIcon className="w-4 h-4 text-[var(--ink-dim)]" />
-									</div>
+										<EllipsisVertical size={16} strokeWidth={1.75} aria-hidden="true" />
+									</span>
 								</svelte:fragment>
 
 								<svelte:fragment slot="popoverValue">
-									<div class="flex flex-col gap-1">
-										{#if user?.id === _commentComment.author_id}
+									<div class="flex flex-col">
+										<div
+											class="mb-sm border-b border-[var(--stone-edge)] px-md pb-sm pt-xs"
+											aria-label="Comment dates"
+										>
+											<p class="flex items-baseline justify-between gap-md text-xs">
+												<span class="text-[var(--ink-dim)]">Posted</span>
+												<time
+													class="font-mono text-[var(--ink-mid)]"
+													itemprop="dateCreated"
+													datetime={_commentComment.created_at}
+												>
+													{createdAtLabel}
+												</time>
+											</p>
+											{#if _commentComment.modified_at && modifiedAtLabel}
+												<p class="mt-xs flex items-baseline justify-between gap-md text-xs">
+													<span class="text-[var(--ink-dim)]">Edited</span>
+													<time
+														class="font-mono text-[var(--ink-mid)]"
+														itemprop="dateModified"
+														datetime={_commentComment.modified_at}
+													>
+														{modifiedAtLabel}
+													</time>
+												</p>
+											{/if}
+										</div>
+
+										<div class="flex flex-col gap-1">
+											{#if user?.id === _commentComment.author_id}
+												<button
+													type="button"
+													class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--lamp-soft)] hover:text-[var(--ink-bright)]"
+													on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
+												>
+													Edit Comment
+												</button>
+											{/if}
+
 											<button
 												type="button"
-												class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--lamp-soft)] hover:text-[var(--ink-bright)]"
-												on:click={() => getModal(`edit-modal-${_commentComment.id}`).open()}
+												class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--error-text)] transition-colors duration-200 hover:bg-error-500/20"
+												on:click={openFlagModal}
 											>
-												Edit Comment
+												Flag Comment
 											</button>
-										{/if}
-
-										<button
-											type="button"
-											class="w-full rounded-md px-3 py-2 text-left text-sm text-[var(--error-text)] transition-colors duration-200 hover:bg-error-500/20"
-											on:click={openFlagModal}
-										>
-											Flag Comment
-										</button>
+										</div>
 									</div>
 								</svelte:fragment>
 							</Popover>
@@ -647,7 +684,7 @@
 							comments={_commentComment.comments}
 							comment_count={_commentComment.comment_count}
 							parentData={_commentComment}
-							parentType={'comment'}
+							parentType="comment"
 							{user}
 							onCommentsUpdate={(updatedComments) => {
 								_commentComment.comments = updatedComments;
@@ -658,7 +695,7 @@
 				{/if}
 			</div>
 		{/if}
-	</div>
+	</article>
 {/if}
 
 <!-- Edit Comment Modal -->
@@ -775,7 +812,7 @@
 								: 'border-[var(--stone-edge)] focus:border-[var(--lamp-glow)]'}"
 						>
 							<option value="" disabled selected>Select a reason...</option>
-							{#each flagReasons as reason}
+							{#each flagReasons as reason (reason.id)}
 								<option value={reason.id}>{reason.reason}</option>
 							{/each}
 						</select>
@@ -865,21 +902,16 @@
 		border-left: 3px solid var(--comment-type-color, var(--stone-edge));
 	}
 
-	/* Type badge: tinted chip in the comment's type color. Text is mixed
-	   toward white (dark mode) / black (light mode) so every type color
-	   stays legible on the card surface. */
-	.comment-type-badge {
-		background: color-mix(in srgb, var(--comment-type-color) 16%, transparent);
-		border: 1px solid color-mix(in srgb, var(--comment-type-color) 38%, transparent);
-		color: color-mix(in srgb, var(--comment-type-color) 65%, white);
+	/* The card is reading content, not one large interactive target. Its type
+	   stripe and quiet author mark carry attribution without competing with copy. */
+	:global(.comment-overflow button:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
-	.comment-type-badge:hover {
-		background: color-mix(in srgb, var(--comment-type-color) 28%, transparent);
-		border-color: color-mix(in srgb, var(--comment-type-color) 55%, transparent);
-	}
-
-	:global(:root.light) .comment-type-badge {
-		color: color-mix(in srgb, var(--comment-type-color) 72%, black);
+	@media (max-width: 380px) {
+		.comment-action {
+			padding-inline: 0.5rem;
+		}
 	}
 </style>

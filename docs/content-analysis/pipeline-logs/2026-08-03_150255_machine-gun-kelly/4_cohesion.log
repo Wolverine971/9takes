@@ -1,0 +1,29 @@
+## Cohesion Check Complete: `Machine-Gun-Kelly.md`
+
+**Before: 7/10 → After: 9/10**
+
+### Central Thesis
+Machine Gun Kelly is a Type 4 who treats his own wreckage as raw material, so he manufactures the wreckage on a schedule — and the tell is that he preserves what he claims to be destroying.
+
+The skeleton was already sound. Every section serves the thesis and the closer lands the argument the intro opened. All the damage was at the seams.
+
+### Changes Made (13)
+
+**Transition fixes (4)**
+- **Album titles → Eminem** was the one genuinely *broken* boundary: the section ended on "a bright pink guitar and a song about dying" and the next opened on a 2012 tweet, with nothing between them. Added "Owning the insult first only works when you see it coming," which carries the section's own "say it before they can" logic forward and frames Eminem as the attack he didn't author.
+- **Diagnosis → Childhood:** "The need to be read correctly did not start in a tattoo chair."
+- **Eminem → Sellout:** "The room he walked into next did not run on cyphers." (carries "room"/"cypher" from the prior paragraph)
+- **Sellout → Fox:** "Most of that dark stuff had a witness." (carries Corey Taylor's 2024 line into the section showing who absorbed it)
+
+**Referent repairs (3)** — the second pass inserted the Good Mourning paragraph mid-chain and orphaned both pronouns downstream: "None of which makes the Riot Fest speech acceptable" had come to read as *the Razzies* don't excuse Riot Fest, and "But it explains why he keeps moving" read as *Riot Fest* explains it. Both now point at the empathy turn. Also killed the dangling "it" in "He did it to his own name first," whose referent didn't arrive for two paragraphs — the stage-name beat still opens the bespoke section as designed.
+
+**Internal flow (2)** — motivated the "Go back to the two nine-year-olds" callback with "The damage was handed to him," so the third-generation payoff has a runway; clarified "supplied plenty of wreckage anyway."
+
+**Cuts (2)** — my bridges cost ~57 words and broke the 4500 ceiling, so I took the budget from two spots that were redundant anyway: the Fox section's duplicate self-summary (it summed up twice back-to-back, and the recap was competing with the sharper "She did it for four more years, and then she stopped"), and the Room Three paragraph about the internet settling matters.
+
+### One thing worth your call
+That Room Three cut is the only judgment call. It qualified as an orphaned thread — it reopened the Fox/public-narrative thread one paragraph after the Fox section closed it, then dropped it. But it's also a live counterexample: a man who converts private damage into public material staying *silent* through a breakup is a real tension the page never answers. I flagged it in the ledger. If you want it back, it needs an answer attached rather than a restore.
+
+Separately, the frontmatter description promises "seven career reinventions." The body supports seven *albums* and three genre changes. The body is right; the description overstates. I left frontmatter untouched per the command's rules.
+
+Verified after the pass: `blog-lint` 0 fail (4481 words, no prose em-dashes, no banned phrases), and the contrast-pair fingerprint held at 0 strong / 0 comparative — all nine additions were written to avoid that sentence engine.

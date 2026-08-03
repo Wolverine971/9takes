@@ -9,7 +9,8 @@
 	import { browser } from '$app/environment';
 	import { enhance } from '$app/forms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Input, Select, Textarea } from '$lib/components/atoms';
+	import CaptchaFrame from '$lib/components/molecules/CaptchaFrame.svelte';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
 	import type { PageData } from './$types';
 
@@ -307,9 +308,8 @@
 							/>
 						</div>
 
-						<div class="field-group">
-							<label for="name">First name</label>
-							<input
+						<Field for="name" label="First name" required>
+							<Input
 								id="name"
 								name="name"
 								type="text"
@@ -318,13 +318,11 @@
 								required
 								autocomplete="name"
 								disabled={loading}
-								class="form-input"
 							/>
-						</div>
+						</Field>
 
-						<div class="field-group">
-							<label for="email">Email</label>
-							<input
+						<Field for="email" label="Email" required>
+							<Input
 								id="email"
 								name="email"
 								type="email"
@@ -332,19 +330,17 @@
 								value={form?.email || ''}
 								required
 								autocomplete="email"
+								inputmode="email"
 								disabled={loading}
-								class="form-input"
 							/>
-						</div>
+						</Field>
 
-						<div class="field-group">
-							<label for="enneagramType">Enneagram type (optional)</label>
-							<select
+						<Field for="enneagramType" label="Enneagram type" optional>
+							<Select
 								id="enneagramType"
 								name="enneagramType"
 								value={form?.enneagramType || ''}
 								disabled={loading}
-								class="form-input"
 							>
 								<option value="">I am not sure yet</option>
 								<option value="1">Type 1 - The Perfectionist</option>
@@ -356,30 +352,34 @@
 								<option value="7">Type 7 - The Enthusiast</option>
 								<option value="8">Type 8 - The Challenger</option>
 								<option value="9">Type 9 - The Peacemaker</option>
-							</select>
-						</div>
+							</Select>
+						</Field>
 
-						<div class="field-group">
-							<label for="sessionGoal"
-								>Anything you already know you want help with? (optional)</label
-							>
-							<textarea
+						<Field
+							for="sessionGoal"
+							label="What do you want help with?"
+							optional
+							help="Optional, but helpful. Keep it under 600 characters."
+						>
+							<Textarea
 								id="sessionGoal"
 								name="sessionGoal"
 								placeholder="Example: same conflict with my partner, trouble reading my boss, not sure if I am a 3 or a 6..."
-								maxlength="600"
-								rows="4"
+								maxlength={600}
+								rows={4}
 								disabled={loading}
-								class="form-input form-textarea">{form?.sessionGoal || ''}</textarea
-							>
-							<p class="field-hint">Optional, but helpful. Keep it under 600 characters.</p>
-						</div>
+								value={form?.sessionGoal || ''}
+								aria-describedby="sessionGoal-help"
+							/>
+						</Field>
 
-						<div
-							class="g-recaptcha"
-							data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
-							data-theme={recaptchaTheme}
-						></div>
+						<CaptchaFrame>
+							<div
+								class="g-recaptcha"
+								data-sitekey={PUBLIC_RECAPTCHA_SITE_KEY}
+								data-theme={recaptchaTheme}
+							></div>
+						</CaptchaFrame>
 
 						{#if form?.message && !form?.success}
 							<div class="form-error" role="alert">{form.message}</div>
@@ -994,62 +994,6 @@
 		position: absolute;
 		left: -9999px;
 		top: -9999px;
-	}
-
-	.field-group {
-		display: grid;
-		gap: 0.4rem;
-	}
-
-	.field-group label {
-		font-size: 0.9rem;
-		font-weight: 600;
-		color: var(--ink-bright);
-	}
-
-	.form-input {
-		width: 100%;
-		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 18%, transparent);
-		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
-		padding: 0.8rem 1rem;
-		font-size: 16px;
-		color: var(--ink-bright);
-		transition:
-			border-color 0.2s ease,
-			box-shadow 0.2s ease;
-	}
-
-	.form-input::placeholder {
-		color: var(--ink-dim);
-	}
-
-	.form-input:focus {
-		border-color: color-mix(in srgb, var(--lamp-glow) 65%, white);
-		box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--lamp-glow) 14%, transparent);
-		outline: none;
-	}
-
-	.form-input:disabled {
-		cursor: not-allowed;
-		opacity: 0.55;
-	}
-
-	.form-input option {
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-	}
-
-	.form-textarea {
-		min-height: 6rem;
-		resize: vertical;
-	}
-
-	.field-hint {
-		margin: 0;
-		font-size: 0.8rem;
-		line-height: 1.5;
-		color: var(--ink-dim);
 	}
 
 	.form-error {

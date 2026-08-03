@@ -1,0 +1,25 @@
+## Grading Complete — Machine Gun Kelly
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Machine-Gun-Kelly | 6 | 8.5 | 6 | 8.5 | 8.5 | 9 | **7.5** | **C** |
+
+`(6×1.5 + 8.5×1.5 + 6×1.5 + 8.5 + 8.5 + 9×0.5) / 7 = 7.5`
+
+### Key observations
+
+**This is a B+ craft profile dragged to a C by two unfinished pipeline stages, not by writing.** Originality, Enneagram, Writing, and Hook all land at or above the Matt-Smith anchor. The two 6s are mechanical and close in one pass.
+
+**Evidence capped at 6 — the source audit is a false clean.** `blog-source-audit.mjs` reported 6 inline / 1 vague / 0 untagged, but it only inspects five named slots, and it returned "no quoted material in slot" for the empathy turn and the close *because the quotes there carry no attribution tag for it to read*. Outside the audited slots roughly 15 quotes run with no outlet, including the entire childhood section — the attic, the Listerine, the yearbook, the fur coat, "I don't think I had armor" — which is the origin of the thesis, the TL;DR's headline bullet, and the empathy turn's raw material. Worst instance: line 157 sources a named third party standing trial for a shooting death to "In 2024 he told it publicly," and the claim is re-asserted in the closer. All untagged load-bearing slots are named in the sidecar.
+
+**Discoverability 6 — `faqs` is absent entirely**, along with `same_as`, `wikidata_qid`, `keywords`, and `citations`. Everything the writer controls is strong (60-char meta_title, head-term PASS, 149-char description, 13-word answer block, 6 of 8 search-intent H2s). Two of the four AEO bullets are simply at zero. The draft's own editor notes flag this. Gate recorded; non-binding at 7.5.
+
+**What the draft does better than its recent neighbors:** it refuses the house empathy-turn grammar on purpose — puts the armor frame in his mouth and lets him reject it — and it has zero reader-command imperatives, against 2/3/4 in Penguinz0, KSI, and Brooke-Monk. Ledgers spot-checked against the body on three claims and all three held, including an honest disclosure that testimony quote #1 never made it into the text. The same-type similarity trip at 0.084 is a genuine false positive (colliding token is "New York Times" in an attribution fragment) — I re-ran it rather than taking the ledger's word.
+
+Sameness check found 2 shape-level reused moves plus one marginal, below the 3-move cap threshold. Flagged for the next Type 4, not actioned here.
+
+**Path to B+:** tag the childhood interview once with outlet and date, source or trim the father's trial claim, run frontmatter enrich. Same craft scores then compute to 8.7 — no prose changes needed.
+
+Frontmatter written to the draft; sidecar at `docs/content-analysis/grades/Machine-Gun-Kelly.review.md`. No legacy `QUALITY GRADE` block existed to remove.
+
+**Total graded this session: 1**

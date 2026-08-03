@@ -17,12 +17,12 @@
 				{
 					"slug": "steve-jobs",
 					"name": "Steve Jobs",
-					"personaTitle": "Silicon Valley's Restless Perfectionist"
+					"personaTitle": "Silicon Valley's Unforgiving Craftsman"
 				},
 				{
 					"slug": "jordan-peterson",
 					"name": "Jordan Peterson",
-					"personaTitle": "Psychology's Weeping Crusader"
+					"personaTitle": "The Professor Who Can't Let Chaos Win"
 				}
 			]
 		},
@@ -34,7 +34,7 @@
 				{
 					"slug": "margot-robbie",
 					"name": "Margot Robbie",
-					"personaTitle": "The Star Who Finds You Through Your Need"
+					"personaTitle": "Hollywood's Load-Bearing Heart"
 				},
 				{
 					"slug": "oprah-winfrey",
@@ -66,7 +66,7 @@
 				{
 					"slug": "dua-lipa",
 					"name": "Dua Lipa",
-					"personaTitle": "Pop's Precision Optimist"
+					"personaTitle": "The Star Who Turns Doubt into Deadlines"
 				}
 			]
 		},
@@ -78,17 +78,17 @@
 				{
 					"slug": "billie-eilish",
 					"name": "Billie Eilish",
-					"personaTitle": "Gen Z's Beautiful Wound"
+					"personaTitle": "Pop's Unfinished Self-Portrait"
 				},
 				{
 					"slug": "robert-pattinson",
 					"name": "Robert Pattinson",
-					"personaTitle": "Hollywood's Disappearing Act"
+					"personaTitle": "Hollywood's Honest Liar"
 				},
 				{
 					"slug": "sam-altman",
 					"name": "Sam Altman",
-					"personaTitle": "AI's Existential Architect"
+					"personaTitle": "Silicon Valley's King of Every Island"
 				}
 			]
 		},
@@ -105,7 +105,7 @@
 				{
 					"slug": "cillian-murphy",
 					"name": "Cillian Murphy",
-					"personaTitle": "Cinema's Invisible Vessel"
+					"personaTitle": "The Actor Who Cancels Reality"
 				},
 				{
 					"slug": "robert-greene",
@@ -122,12 +122,12 @@
 				{
 					"slug": "zendaya",
 					"name": "Zendaya",
-					"personaTitle": "Hollywood's Weaponized Worrier"
+					"personaTitle": "The Star Who Builds the Exit First"
 				},
 				{
 					"slug": "timothee-chalamet",
 					"name": "Timothée Chalamet",
-					"personaTitle": "The Prodigy Who Needs Protecting"
+					"personaTitle": "The Prodigy Who Prepares for Everything"
 				},
 				{
 					"slug": "marilyn-monroe",
@@ -144,12 +144,12 @@
 				{
 					"slug": "jack-black",
 					"name": "Jack Black",
-					"personaTitle": "Comedy's Boundless Showman"
+					"personaTitle": "Comedy's Loudest Man Goes Quiet"
 				},
 				{
 					"slug": "kai-cenat",
 					"name": "Kai Cenat",
-					"personaTitle": "Twitch's Perpetual Motion Machine"
+					"personaTitle": "Streaming's Perpetual Motion Machine"
 				},
 				{
 					"slug": "john-f-kennedy",
@@ -176,7 +176,7 @@
 				{
 					"slug": "joe-rogan",
 					"name": "Joe Rogan",
-					"personaTitle": "Podcasting's Alpha Interrogator"
+					"personaTitle": "The Interrogator Who Trusts His Gut"
 				}
 			]
 		},
@@ -193,12 +193,12 @@
 				{
 					"slug": "ryan-gosling",
 					"name": "Ryan Gosling",
-					"personaTitle": "Hollywood's Gentle Vanishing Man"
+					"personaTitle": "The Movie Star Everyone Projects Onto"
 				},
 				{
 					"slug": "selena-gomez",
 					"name": "Selena Gomez",
-					"personaTitle": "Pop's Steady Presence"
+					"personaTitle": "The Peacemaker Who Learned to Stay"
 				}
 			]
 		}

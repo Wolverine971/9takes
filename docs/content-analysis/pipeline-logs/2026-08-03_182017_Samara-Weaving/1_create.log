@@ -1,0 +1,29 @@
+Draft complete and saved.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Samara-Weaving.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (5 qualifying quotes) | Gate 2: pass (5 of 7 H2s search-intent/hybrid)
+       Gate 3: pass (no self-loop) | Gate 4: pass (0 "A [Type]" sentences in ending)
+       Gate 5: pass (2 type-theory paragraphs, ceiling 4) | Gate 6: pass
+LIMITATIONS: no raw audio for the Backstage "In the Envelope" (Mar 2025) or Collider
+             Ladies Night (Mar 2025 / Jun 2026) episodes — those are quoted via
+             published write-ups. `faqs` frontmatter not present (owned by
+             /blog_content_frontmatter_enrich_people, out of scope here).
+```
+
+**The read: Type 6, 6w7, sp/sx — confidence high.** The thesis is that Weaving's whole career is an accidental treatment protocol. She has been anxious as long as she can remember ("I don't remember not being anxious, so I don't know"), and she has twice discovered on the record that an acute physical crisis cancels her nerves — once across the *Ready or Not* shoot, after which she went off her medication, and once in an ambulance beside the *Babylon* soundstage with an IV in her arm. The tiebreaker against Type 9 is that she runs an explicit trust audit before every job ("do I trust this filmmaker? Do I trust this person?") and describes trusting the future as effortful work.
+
+**Deterministic checks (all run, not self-certified):**
+- `blog-quality-report.mjs` — 0 contrast pairs, strong *and* comparative; head-term PASS
+- `same-type-similarity.mjs --n 8` — top 0.091 vs trip threshold 0.04, reported **clear**
+- `blog-lint.sh` — 0 fail, 1 warn (the `faqs` enrich stage)
+- Type 6 avoid-list phrases — 0 hits (notably "counterphobic six," which appears in 29% of existing T6 drafts, is absent)
+
+**Internal links (6):** body — `/enneagram-corner/enneagram-type-6`, `/enneagram-corner/anxiety-and-enneagram-types-guide`, `/personality-analysis/margot-robbie`; rabbit hole — wings, instinctual subtypes, connecting lines.
+
+Two things worth your attention. First, the nearest same-type neighbour is **Milly Alcock** — also Australian, also Type 6, and her draft leans on an acting-coach beat that Weaving's biography also contains. I deliberately dropped that beat here in favour of the two-year work drought after *Home and Away*; if you ever publish them close together, that's the seam to watch. Second, the draft is deliberately built around her anxiety and her going off medication. That's all self-reported in *The Independent* and on *Happy Sad Confused*, and I kept the framing narrow (she reports adrenaline emptying the tank, and the piece says plainly that a film wrap is not a treatment plan) — but it is the spine of the blog, so it's your call whether that's the right register for a living subject who gave birth three months ago.
+
+Next step when you've reviewed: set `production_pretext.status: ready`, then run `/blog_content_production_people`. Grading is `/grade_blog` and I haven't touched it.

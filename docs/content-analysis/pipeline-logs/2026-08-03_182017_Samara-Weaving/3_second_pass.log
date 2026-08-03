@@ -1,0 +1,32 @@
+Updated `src/blog/people/drafts/Samara-Weaving.md`.
+
+## Source audit first
+
+Went from **3 untagged / 2 vague → 6 inline, 0 vague, 0 untagged**. Along the way I pinned three attributions the draft had guessed at:
+
+- The "let's just try and trust that something will happen" line is **Collider Ladies Night, June 10 2026** (Perri Nemiroff), not the McCarthy episode.
+- The Independent piece is **Adam White, September 10 2025**.
+- **Fact fix:** the Rabbit Hole misquoted her stress-arrow line as "Anyone want to take me?" The actual quote is *"When you're starting out, you're going, 'Anyone who wants to hire me, I'll do whatever.'"* Corrected and moved into the body where it does causal work.
+
+I added `On Film` / `Kevin McCarthy` to the OUTLETS list in `scripts/blog-source-audit.mjs` — three load-bearing quotes have episode 53 (June 26 2026, full public 90-minute video) as their primary record, and that's the same class as the eight prior dated additions in that file.
+
+## Main changes
+
+**New section: "The horror movie where Samara Weaving does not speak."** *Azrael* (2024) was the biggest hole. It pays off the weeks-of-silence childhood thread, refutes the one-register charge with a fact instead of an argument, and carries the draft's real addition — her own selection rule: *"I was really afraid, which is a good sign for me to do something. Usually if I'm like, 'Oh, yeah, I can do this,' I shouldn't do it."*
+
+**The working notes' admission is now on the page.** The memo said craft appetite carries weight the fear model doesn't; that never reached the reader. It does now, in the Azrael section and again in the Rabbit Hole. A Six who uses fear as a compass is not a Six managing fear.
+
+**Emma Frost.** Trade-reported late July 2026 (Deadline, Variety), Marvel no comment, no statement from her — so it's attributed to the trades and I invented no interior state. It closes section 6 so the tidy trust-inventory reframe doesn't stand unchallenged by the one fact that challenges it.
+
+**The baby** closes section 5 with the magical/terrifying pair she's used about work for a decade, now in the one thing she can't prep for.
+
+**Merged sections 3 and 4** (they narrated the same *Ready or Not* discovery twice); killed the verbatim *Babylon* quote repeat; cut the duplicate Type 9 rebuttal; stripped the airport spoiler from the Rabbit Hole; promoted the gumnut mafia into the body.
+
+I rejected one fresh-eyes note: cutting the corpus key-stat box. Its numbers verify against `docs/data/corpus-stats.md` and editorializing a stat box to make it "about her" would be worse than leaving it factual.
+
+## Still open
+
+- Lint is **0 fail, 3 warn** — but word count is 4487 against a 4500 ceiling. Zero headroom; the next refresh has to cut before it adds.
+- `faqs` frontmatter still absent (enrich stage hasn't run).
+- Three Rabbit Hole growth-arrow quotes are first-pass sourcing I couldn't independently re-verify. Not load-bearing, but an editor pass should pin or drop them.
+- `lastmod` untouched.

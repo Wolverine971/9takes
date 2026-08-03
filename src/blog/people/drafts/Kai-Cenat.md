@@ -12,7 +12,7 @@ published: true
 enneagram: 7
 type: ['creator', 'streamer']
 person: 'kai-cenat'
-persona_title: "Twitch's Perpetual Motion Machine"
+persona_title: "Streaming's Perpetual Motion Machine"
 suggestions: ['IShowSpeed', 'Ninja', 'Druski', 'xQc', 'Mr-Beast', 'Logan-Paul']
 wikipedia: ''
 wikidata_qid: 'Q113818347'

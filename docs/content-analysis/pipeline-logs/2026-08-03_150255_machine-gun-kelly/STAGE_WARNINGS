@@ -1,0 +1,4 @@
+stage=6_enrich_frontmatter exit=1 dur=1119s at=2026-08-03 16:20:01
+stage=6.8_same_type_similarity exit=1 dur=0s at=2026-08-03 16:20:02
+stage=9.2_record_grade_stability exit=1 dur=1s at=2026-08-03 16:59:04
+stage=9.7_same_type_similarity_after_revision exit=1 dur=0s at=2026-08-03 16:59:04

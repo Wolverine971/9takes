@@ -2,7 +2,7 @@
 title: "Timothée Chalamet: The Actor Who Treats Preparation Like Protection"
 meta_title: 'Why Timothée Chalamet Over-Prepares for Every Role'
 description: 'Why does Timothée Chalamet over-prepare for every role and public moment? We decode the Type 6 drive behind the anxiety, ambition, and need for trusted anchors.'
-persona_title: 'The Prodigy Who Needs Protecting'
+persona_title: 'The Prodigy Who Prepares for Everything'
 author: 'DJ Wayne'
 date: '2024-07-03'
 loc: 'https://9takes.com/personality-analysis/timothee-chalamet'

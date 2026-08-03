@@ -12,7 +12,7 @@ published: true
 enneagram: 6
 type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'zendaya'
-persona_title: "Hollywood's Weaponized Worrier"
+persona_title: 'The Star Who Builds the Exit First'
 suggestions:
   [
     'Sydney-Sweeney',

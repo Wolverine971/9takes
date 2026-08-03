@@ -1,0 +1,26 @@
+Second pass complete on `src/blog/people/drafts/Machine-Gun-Kelly.md`.
+
+## The one thing you should know
+
+**The draft's typing tiebreaker was an unverifiable quote.** The 2022 line — *"Being scared to fully correct yourself so that there's no more pain to talk about, that definitely scares me"* — was the hinge the whole Type 4 argument swung on, and fresh eyes praised it as the strongest structural move in the piece. Eight targeted searches turned up nothing, and the create-stage log carries no citation either. It's gone.
+
+I rebuilt the tiebreaker on material that checks out: **December 2023, thirteen six-hour sessions, most of his body blacked out in solid ink**, revealed February 20 2024 captioned "for spiritual purposes only," and the next day's lyric — *"I had a breakdown and tatted my entire body except one line."* An Achiever doesn't destroy the merchandise, and a man who wanted rid of the old version would have finished the job. Stronger than what it replaced, and sourced.
+
+## Other substantive changes
+
+- **The confession is now pressure-tested in the body.** "I got to ruin everything" was said on a promo podcast, mid-cycle, about the cycle — the kindest possible account of a rehab stay and a broken engagement. The answer is the calendar: the confession is a year old, the behavior is twenty.
+- **Fox section fills its four-year hole** — her November 2023 disclosure of the miscarriage, his February 2024 answer on record, the separation. It now says what the job cost and how it ended.
+- **Generational spine closed** — Casie (b. 2009, he was nineteen) as the third nine-year-old, with her August 2025 People "big advisor" quote. A man whose method is self-sabotage runs decisions past a teenager who stops him.
+- Good Mourning / seven Razzie noms / Worst Director added as the self-authored critic verdict; stage-name paragraph opens the bespoke section; rabbit hole moved after "Room Three."
+
+## Gates
+
+Source audit **6 inline / 1 vague / 0 untagged** (was 1 / 3 / 0). Lint **0 fail** — contrast pairs back to 0/0, no em-dashes, no banned phrases. `lastmod` untouched.
+
+I extended `scripts/blog-source-audit.mjs` with Apple Music, Zane Lowe, Audacy, Rock Sound, Kerrang and Nylon — the music-press primary record, same class as the podcasts added on earlier passes.
+
+## Worth an editor's eye
+
+- **Word count is at 4498 of 4500.** I cut ~460 words to get under, and the compression is real but tight in places. There's no headroom for the next refresh.
+- **Similarity trips at 0.084 vs megan-fox** — a false positive on the shared string "New York Times." I left it rather than drop the attribution that earns the diagnosis quote its inline grade; reasoning is in the fingerprint ledger.
+- `faqs` frontmatter is still empty; the enrich stage hasn't run.

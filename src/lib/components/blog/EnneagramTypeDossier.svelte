@@ -24,7 +24,7 @@
 		akaArchetypes = null as [string, string] | null,
 		stats = [] as DossierStat[],
 		imageSrc = '/greek_pantheon.webp',
-		imageAlt = '',
+		imageAlt,
 		specimenLine = 'SPECIMEN · BUST · MARBLE · GREECE · UNDATED',
 		ctaHref = '#full-breakdown',
 		ctaLabel = 'Read the full breakdown',
@@ -62,6 +62,9 @@
 	);
 
 	const triadKey = $derived(coreEmotion.toLowerCase());
+	const resolvedImageAlt = $derived(
+		imageAlt || `Greek pantheon representing Enneagram Type ${type}, ${archetype}`
+	);
 
 	const TRIAD_NAMES: Record<CoreEmotion, string> = {
 		Anger: 'GUT',
@@ -87,7 +90,7 @@
 				<div class="subject-stack">
 					<img
 						src={imageSrc}
-						alt={imageAlt}
+						alt={resolvedImageAlt}
 						class="dossier-image"
 						loading="lazy"
 						decoding="async"

@@ -1,6 +1,7 @@
 // scripts/lint-radius.js
 //
-// Radius-scale linter — enforces docs/design-system.md §8 (locked 2026-04-27).
+// Radius-scale and radius-role linter — enforces docs/design-system.md §8
+// (locked 2026-04-27).
 //
 // Allowed radii:  rounded-sm (4px) · rounded-md (10px) · rounded-xl (16px) · rounded-full
 // Banned radii:   rounded-lg · rounded-2xl · rounded-3xl · rounded-[<arbitrary>]
@@ -8,6 +9,9 @@
 //
 // Side-prefixed variants are also checked: rounded-t-lg, rounded-tl-2xl,
 // rounded-b-[12px], plus responsive/state prefixes (md:rounded-2xl, hover:rounded-lg).
+// Form controls are role-checked automatically. Ambiguous raw CSS can opt into
+// role checking with /* lint-radius-role: control|card|badge|pill */ immediately
+// before its border-radius declaration.
 //
 // Usage:  node scripts/lint-radius.js          → scans src/, exits 1 on any violation
 //         node scripts/lint-radius.js --quiet   → only prints the summary line
@@ -17,6 +21,7 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join, relative, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { findRadiusRoleViolations } from './lint-radius-semantics.js';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const SCAN_DIRS = ['src'];
@@ -119,6 +124,7 @@ for (const d of SCAN_DIRS) {
 
 const violations = [];
 const cssViolations = [];
+const roleViolations = [];
 for (const file of files) {
 	const rel = relative(ROOT, file);
 	if (isIgnored(rel)) continue;
@@ -127,6 +133,7 @@ for (const file of files) {
 		(ext === '.svelte' || ext === '.scss' || ext === '.css') &&
 		!CSS_IGNORE_PATHS.some((p) => rel === p || rel.startsWith(p + '/'));
 	const text = readFileSync(file, 'utf8');
+	roleViolations.push(...findRadiusRoleViolations({ text, rel, ext, cssEligible }));
 	const lines = text.split('\n');
 	lines.forEach((line, i) => {
 		if (line.includes(INLINE_IGNORE)) return;
@@ -142,6 +149,21 @@ for (const file of files) {
 			}
 		}
 	});
+}
+
+if (roleViolations.length) {
+	if (!quiet) {
+		console.error('\n✗ Radius-role violations (docs/design-system.md §8):\n');
+		for (const v of roleViolations) {
+			console.error(`  ${v.rel}:${v.line}  ${v.role} requires its role radius; found ${v.value}`);
+		}
+		console.error('\nRoles: badge 4px · control 10px · card 16px · pill full');
+		console.error(
+			'For ambiguous raw CSS, add /* lint-radius-role: control|card|badge|pill */ before the declaration.\n'
+		);
+	}
+	console.error(`✗ lint:radius — ${roleViolations.length} semantic violation(s)`);
+	process.exit(1);
 }
 
 if (violations.length) {
@@ -175,6 +197,6 @@ if (cssViolations.length > CSS_RATCHET_BASELINE) {
 }
 
 console.log(
-	`✓ lint:radius — 0 class violations (${files.length} files scanned); ` +
+	`✓ lint:radius — 0 class/role violations (${files.length} files scanned); ` +
 		`CSS backlog ${cssViolations.length}/${CSS_RATCHET_BASELINE} (ratchet — lower the baseline as you fix)`
 );

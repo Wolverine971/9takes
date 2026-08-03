@@ -1,7 +1,7 @@
 ---
 title: 'Selena Gomez: Disney to Rare Beauty - Type 9 Psychology of Her Authentic Evolution'
 meta_title: 'Selena Gomez''s Personality: How She Handles Fame & Mental Health'
-persona_title: 'Pop''s Steady Presence'
+persona_title: 'The Peacemaker Who Learned to Stay'
 description: 'How does Selena Gomez navigate bipolar disorder, lupus, and billion-dollar success? We analyze the psychology behind her mental health advocacy—her Type 9 personality explains everything.'
 author: 'DJ Wayne'
 loc: 'https://9takes.com/personality-analysis/selena-gomez'

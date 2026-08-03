@@ -974,6 +974,7 @@
 						line1="One reusable hero. Five listing pages used to carry identical copies."
 						line2="Pool-alpha and grain custom properties inherit from the page wrapper."
 						imageSrc="/greek_pantheon.webp"
+						imageAlt="Greek pantheon artwork in the reusable index hero"
 						imageMono="9TAKES · CASE FILES · STYLEGUIDE"
 					>
 						{#snippet actions()}

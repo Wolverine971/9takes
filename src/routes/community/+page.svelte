@@ -195,6 +195,7 @@
 		line1="Real situations. Honest reads. The pieces our community keeps coming back to."
 		line2={`${publishedCount} reads. From the people who actually use the platform.`}
 		imageSrc="/philosopher-gathering.webp"
+		imageAlt="Classical philosophers gathered in conversation"
 		imageMono="9TAKES · CASE FILES · COMMUNITY"
 	>
 		{#snippet actions()}

@@ -539,12 +539,12 @@
 				</div>
 			</div>
 
-			<aside class="case-file-portrait" aria-hidden="true">
+			<aside class="case-file-portrait">
 				<div class="portrait-frame personality-portrait-well">
 					{#if postImagePath}
 						<img
 							src={postImagePath}
-							alt=""
+							alt={`Portrait of ${postDisplayName}`}
 							class="portrait-image personality-portrait-image"
 							loading="eager"
 							fetchpriority="high"

@@ -428,7 +428,9 @@
 		padding: 8px;
 		color: var(--ink-mid);
 		border-radius: 0.625rem;
-		transition: all 0.2s ease;
+		transition:
+			background-color 0.2s ease,
+			color 0.2s ease;
 
 		&:hover {
 			background-color: var(--stone-mid);
@@ -462,13 +464,20 @@
 	}
 
 	.nav-link {
+		position: relative;
 		display: block;
 		padding: 0.875rem 1.25rem;
+		background: transparent;
 		color: var(--ink-bright);
 		text-decoration: none;
+		font-family: var(--font-mono);
 		font-size: 1.125rem;
 		font-weight: 500;
-		transition: all 0.2s ease;
+		cursor: pointer;
+		transition:
+			background-color 0.2s ease,
+			border-left-color 0.2s ease,
+			color 0.2s ease;
 		border-left: 3px solid transparent;
 
 		&:hover {

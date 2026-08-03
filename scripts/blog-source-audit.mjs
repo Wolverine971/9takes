@@ -276,7 +276,18 @@ const OUTLETS = [
 	// record for this subject; "Daily" is not in OUTLET_SUFFIX, so without an
 	// explicit entry every quote from it grades vague no matter how sourced.
 	'Elite Daily',
-	'The Oxford Blue'
+	'The Oxford Blue',
+	// Music-press primary record (Machine-Gun-Kelly pass, 2026-08-03). Apple Music's
+	// Zane Lowe sessions and Audacy's on-air interviews are where musicians in this
+	// corpus actually say the load-bearing things, and both publish dated, watchable
+	// full episodes. Same class as Joe Rogan Experience / Shawn Ryan Show above:
+	// without them every musician quote grades vague no matter how well sourced.
+	'Apple Music',
+	'Zane Lowe',
+	'Audacy',
+	'Rock Sound',
+	'Kerrang',
+	'Nylon'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

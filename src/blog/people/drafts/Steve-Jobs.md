@@ -1,7 +1,7 @@
 ---
 title: 'Steve Jobs: The Perfectionist Who Built Beautiful Things and Brutalized People'
 meta_title: 'Why Steve Jobs Turned Perfection Into a Weapon'
-persona_title: "Silicon Valley's Restless Perfectionist"
+persona_title: "Silicon Valley's Unforgiving Craftsman"
 description: "The abandoned boy who built perfect products also turned perfection into a weapon. Inside the psychology behind Steve Jobs's genius and cruelty."
 author: 'DJ Wayne'
 date: '2026-03-28'

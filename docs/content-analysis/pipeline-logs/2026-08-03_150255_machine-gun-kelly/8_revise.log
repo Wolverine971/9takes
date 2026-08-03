@@ -1,0 +1,23 @@
+Done. Lint clean, source audit clean.
+
+## What I revised
+
+`src/blog/people/drafts/Machine-Gun-Kelly.md` — triggered by the C (7.5) grade. Lint had 0 fails, so the whole work list came from the grader: **Evidence capped at 6** and **Discoverability at 6**.
+
+**Evidence — the cap came off by finding the source, not by cutting.** The grader hypothesized the floating childhood quotes came from one long interview. They do. I pulled the actual transcript of the NYT Popcast episode (Aug 7, 2025) and grepped it: Listerine, the attic, the yearbook, the fur coat, "who is this goofy," "I don't think I had armor," "I erased all of it," "slept on," the Jelly Roll table, the Picasso, "My baby was up there" — all verbatim, all one sitting. The childhood section now names the outlet and full date once and scopes the chain to it.
+
+The father's homicide trial — the claim the grader called the worst instance — is Bunnie XO's *Dumb Blonde* podcast, August 2024, transcript-verified down to the acquittal. It's now named and dated, and framed as the story as it was told to him, which is how he tells it. One catch: "He never took a chance to heal" is **not** in that episode. It's from *Life in Pink* (2022), so it's attributed there instead of being folded into the 2024 disclosure.
+
+Also tagged: Roxx → TMZ Feb 2024, the July 5 2020 post → Instagram, Riot Fest → *Life in Pink*, and the "Rap Devil" recording quote → Complex's *Everyday Struggle*, Sept 2018 (untagged, not on the grader's list, caught here).
+
+**Discoverability — ran the enrich stage.** `wikidata_qid` Q1354843 and `imdb_id` nm0446622 (both confirmed against Wikidata P345), plus birth data, occupation, `knows_about`, `keywords`, `same_as`, `citations`, and five FAQs on the queries the grader named. Anchors resolve to real headings; YAML parses.
+
+**Craft (the TO REACH A items):** converted the Taylor paragraph-scale reversal to straight assertion (3 → 2), absorbed three one-sentence punch paragraphs (~10 → 7), moved "Same-day retaliation is Eight behavior" and the 4→2 arrow mechanic into the accordion while keeping the felt versions in the body, fixed the Jelly Roll speaker ambiguity, and trimmed the closer's restatement to a callback.
+
+**Rejected: nothing from the grade.** Two flags were deliberately left per the grader's own instruction — the cold-open reversal (protected across every pass) and the cross-draft sameness drift ("worth watching in the next Type 4, not worth a revision here").
+
+**Verification:** lint 0 fail / 1 warn — the faqs warn is cleared; the remaining warn is word-count headroom (4448 of 4500), which was already warning before this pass. Attributions cost words, so I cut the Fox mechanic, the Eminem counter-type line, and the closer restatement rather than rewording them. Source audit: 7 load-bearing quotes, 6 inline, 1 vague, 0 untagged, exit 0. Contrast pairs still 0/0.
+
+Two things flagged in the revision note for whoever publishes: the Wikipedia article has been renamed to "MGK" (the existing URL still redirects and was left alone per the enrich rule), and Roxx's account is still reported paraphrase via TMZ, so it stays out of the testimony ledger.
+
+The pipeline will clear the consumed review sidecar and re-grade — I didn't touch `content_quality` or `lastmod`.

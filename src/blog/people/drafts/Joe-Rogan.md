@@ -1,7 +1,7 @@
 ---
 title: "Joe Rogan: The Psychology Behind the World's Most Dangerous Conversation"
 meta_title: "Why Joe Rogan Can't Be Controlled: His Personality Explained"
-persona_title: "Podcasting's Alpha Interrogator"
+persona_title: 'The Interrogator Who Trusts His Gut'
 description: 'Why does Joe Rogan trust himself over every tribe? We decode the Type 8 drive behind the podcast empire, political independence, loyalty, and blind spots.'
 author: 'DJ Wayne'
 date: '2023-07-26'

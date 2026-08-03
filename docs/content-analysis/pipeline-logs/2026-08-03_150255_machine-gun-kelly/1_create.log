@@ -1,0 +1,35 @@
+Draft complete. All hard gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Machine-Gun-Kelly.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): pass — 6 qualifying quotes
+       Gate 2 (heading mix): pass — 6 of 8 H2s search-intent or strong-hybrid
+       Gate 3 (self-loop): pass — 0 self-links
+       Gate 4 (anti-imitation): pass — 0 "A [Type]" sentences in ending
+       Gate 5 (distribution): pass — 2 type-theory paragraphs in body (limit 4)
+       Gate 6 (formula fingerprint): pass — 0 strong / 0 comparative contrast pairs;
+              same-type similarity CLEAR (0.051 top vs 0.04 threshold, noise-floor max)
+LIMITATIONS: rehab count ambiguous in sources (he referenced multiple prior stays);
+             draft claims only the documented Nov/Dec 2024 stay.
+             Suicide attempt is dated in Life in Pink only to "after his father's death";
+             draft says "somewhere in the months between" rather than pinning a date.
+```
+
+**Typing: Enneagram Type 4 (4w3), confidence high.**
+
+The thesis pressure-tests hard against Type 3, because everything visible about him points there — two number ones, the Eminem fight, three genre pivots. The tiebreaker is what he says about getting *better*: "Being scared to fully correct yourself so that there's no more pain to talk about, that definitely scares me" (2022), and then the same fear as a lyric three years later: "All the pages are blank till my life goes to shit. I know I do that on purpose just to write again." An Achiever never says that. Health is an upgrade for a Three.
+
+**Four transcripts pulled** (NYT Popcast Aug 2025, Kevan Kenney Aug 2022, Apple Music/Zane Lowe Oct 2020, Rock Sound May 2022) — the Apple Music one produced two Travis Barker testimony quotes and the piece's hook: he got *angry* at a good review of his first #1 album. "God, you just missed it."
+
+**Signature details** the research surfaced: the two yearbooks (empty, then full, one year apart); the attic he moved into so the stairs would warn him; Listerine as a trigger; the 350-pound man's fur coat; his father standing trial for murder at nine; and the Picasso in pencil he carried out of the Palisades fire.
+
+**Bespoke section** is "Seven Album Titles, One Confession" — the discography read as a confession sheet, including the fact that he named a record *Hotel Diablo* and his father died exactly one year later on the day he'd set aside to celebrate it.
+
+**Internal links (5):** enneagram-type-4, /personality-analysis/eminem, /personality-analysis/megan-fox, plus the two required Rabbit Hole pillar links (wings guide, instinctual subtypes).
+
+Two non-blocking lint warnings remain: no `faqs` in frontmatter (that's the downstream enrich stage), and body at 4,232 words against the 4,500 ceiling.
+
+No grade was emitted — that's `/grade_blog`'s job. Next step is human review, then `/grade_blog`, then production.
