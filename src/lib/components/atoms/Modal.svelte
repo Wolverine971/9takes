@@ -53,6 +53,7 @@
 	export let labelledBy: string | null = null;
 	export let describedBy: string | null = null;
 	export let initialFocus: string | null = null;
+	export let contentPadding: string | null = null;
 
 	function keyPress(ev: KeyboardEvent) {
 		const node = topDiv;
@@ -183,7 +184,7 @@
 				</svg>
 			</button>
 		{/if}
-		<div class="modal-scroll-region">
+		<div class="modal-scroll-region" style:padding={contentPadding || undefined}>
 			<slot />
 		</div>
 	</div>

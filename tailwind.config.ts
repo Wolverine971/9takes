@@ -47,32 +47,6 @@ export default {
 					800: '#115E59',
 					900: '#134E4A'
 				},
-				// Rose secondary palette
-				secondary: {
-					50: '#FFF1F2',
-					100: '#FFE4E6',
-					200: '#FECDD3',
-					300: '#FDA4AF',
-					400: '#FB7185',
-					500: '#F43F5E',
-					600: '#E11D48',
-					700: '#BE123C',
-					800: '#9F1239',
-					900: '#881337'
-				},
-				// Purple accent palette
-				accent: {
-					50: '#F5F3FF',
-					100: '#EDE9FE',
-					200: '#DDD6FE',
-					300: '#C4B5FD',
-					400: '#A78BFA',
-					500: '#8B5CF6',
-					600: '#7C3AED',
-					700: '#6D28D9',
-					800: '#5B21B6',
-					900: '#4C1D95'
-				},
 				// Warm stone neutral palette
 				neutral: {
 					50: '#FAFAF9',
@@ -111,13 +85,6 @@ export default {
 					100: '#CCFBF1',
 					500: '#14B8A6',
 					700: '#0F766E'
-				},
-				brand: {
-					teal: '#2DD4BF',
-					tealDark: '#0D9488',
-					rose: '#FB7185',
-					roseDark: '#E11D48',
-					gold: '#D4AF37'
 				}
 			},
 			boxShadow: {

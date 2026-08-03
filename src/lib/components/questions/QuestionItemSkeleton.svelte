@@ -3,17 +3,17 @@
 	import Skeleton from '$lib/components/atoms/Skeleton.svelte';
 </script>
 
-<div class="skeleton-container">
+<div class="skeleton-container" role="status" aria-label="Loading question">
 	<div class="skeleton-content">
-		<Skeleton width="80%" height="1.2em" />
-		<Skeleton width="60%" height="1.2em" />
+		<Skeleton decorative width="80%" height="1.2em" />
+		<Skeleton decorative width="60%" height="1.2em" />
 	</div>
 	<div class="skeleton-meta">
 		<div class="skeleton-comments">
-			<Skeleton width="30px" height="20px" />
-			<Skeleton variant="circular" width="20px" height="20px" />
+			<Skeleton decorative width="30px" height="20px" />
+			<Skeleton decorative variant="circular" width="20px" height="20px" />
 		</div>
-		<Skeleton width="70px" height="24px" borderRadius="4px" />
+		<Skeleton decorative width="70px" height="24px" />
 	</div>
 </div>
 

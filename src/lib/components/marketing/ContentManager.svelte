@@ -4,7 +4,8 @@
 	import ContentDetailModal from './ContentDetailModal.svelte';
 	import CreateContent from './CreateContent.svelte';
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
-	import { Button } from '$lib/components/atoms';
+	import { FileText, Plus } from '@lucide/svelte';
+	import { Button, EmptyState } from '$lib/components/atoms';
 
 	let {
 		contentItems,
@@ -324,45 +325,30 @@
 			{/each}
 		</div>
 	{:else}
-		<div class="empty-state" transition:fade={{ duration: 150 }}>
-			<div class="empty-icon">
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="48"
-					height="48"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="1.5"
-				>
-					<path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
-					<polyline points="14 2 14 8 20 8" />
-				</svg>
-			</div>
+		<div transition:fade={{ duration: 150 }}>
 			{#if hasActiveFilters}
-				<h3>No content matches your filters</h3>
-				<p>Try adjusting your search or filter criteria</p>
-				<Button variant="secondary" onclick={clearFilters}>Clear Filters</Button>
-			{:else}
-				<h3>No content yet</h3>
-				<p>Create your first piece of content to get started</p>
-				<Button onclick={() => (showNewContentForm = true)}>
-					{#snippet icon()}
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="16"
-							height="16"
-							viewBox="0 0 24 24"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="2"
-						>
-							<path d="M5 12h14" />
-							<path d="M12 5v14" />
-						</svg>
+				<EmptyState
+					title="No content matches your filters"
+					body="Try adjusting your search or filter criteria."
+				>
+					{#snippet icon()}<FileText aria-hidden="true" />{/snippet}
+					{#snippet cta()}
+						<Button variant="secondary" onclick={clearFilters}>Clear filters</Button>
 					{/snippet}
-					Create Content
-				</Button>
+				</EmptyState>
+			{:else}
+				<EmptyState
+					title="No content yet"
+					body="Create your first piece of content to get started."
+				>
+					{#snippet icon()}<FileText aria-hidden="true" />{/snippet}
+					{#snippet cta()}
+						<Button onclick={() => (showNewContentForm = true)}>
+							{#snippet icon()}<Plus aria-hidden="true" />{/snippet}
+							Create content
+						</Button>
+					{/snippet}
+				</EmptyState>
 			{/if}
 		</div>
 	{/if}
@@ -638,34 +624,6 @@
 	}
 
 	.more-hashtags {
-		color: var(--ink-mid);
-	}
-
-	/* Empty State */
-	.empty-state {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		padding: 4rem 2rem;
-		text-align: center;
-	}
-
-	.empty-icon {
-		color: var(--ink-mid);
-		margin-bottom: 1rem;
-	}
-
-	.empty-state h3 {
-		margin: 0 0 0.5rem 0;
-		font-size: 1.125rem;
-		font-weight: 600;
-		color: var(--ink-bright);
-	}
-
-	.empty-state p {
-		margin: 0 0 1rem 0;
-		font-size: 0.875rem;
 		color: var(--ink-mid);
 	}
 

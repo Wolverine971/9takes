@@ -5,14 +5,18 @@
 import { PRIVATE_gmail_private_key } from '$env/static/private';
 import { google } from 'googleapis';
 import {
+	addAttributionToEmailLinks,
+	addAttributionToPlainTextLinks,
 	appendEmailFooterToPlainText,
 	generateEmailHtml,
 	htmlToPlainText,
 	renderEmailContent,
 	rewriteLinksForTracking,
+	rewritePlainTextLinksForTracking,
 	getTrackingPixelUrl,
 	getUnsubscribeUrl,
-	TRACKING_ID_PLACEHOLDER
+	TRACKING_ID_PLACEHOLDER,
+	type EmailLinkAttribution
 } from './base-template';
 import type { EmailRecipient, EmailSend } from '$lib/types/email';
 
@@ -26,6 +30,7 @@ interface SendEmailOptions {
 	plainTextContent?: string;
 	recipientName?: string;
 	trackingId?: string;
+	linkAttribution?: EmailLinkAttribution;
 	unsubscribeUrl?: string;
 	includeFooter?: boolean;
 }
@@ -126,6 +131,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		plainTextContent,
 		recipientName,
 		trackingId,
+		linkAttribution,
 		unsubscribeUrl: providedUnsubscribeUrl,
 		includeFooter = true
 	} = options;
@@ -175,9 +181,33 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 				trackingId
 			);
 			// Rewrite links for click tracking
-			finalHtmlContent = rewriteLinksForTracking(finalHtmlContent, trackingId, BASE_URL);
+			finalHtmlContent = rewriteLinksForTracking(
+				finalHtmlContent,
+				trackingId,
+				BASE_URL,
+				linkAttribution
+			);
+			if (finalPlainTextContent) {
+				finalPlainTextContent = rewritePlainTextLinksForTracking(
+					finalPlainTextContent,
+					trackingId,
+					BASE_URL,
+					linkAttribution
+				);
+			}
 			trackingPixelUrl = getTrackingPixelUrl(trackingId, BASE_URL);
 			unsubscribeUrl = getUnsubscribeUrl(trackingId, BASE_URL);
+		} else if (linkAttribution) {
+			// Admin test sends should show the same attributed destinations as a
+			// production send without creating analytics records for test clicks.
+			finalHtmlContent = addAttributionToEmailLinks(finalHtmlContent, BASE_URL, linkAttribution);
+			if (finalPlainTextContent) {
+				finalPlainTextContent = addAttributionToPlainTextLinks(
+					finalPlainTextContent,
+					BASE_URL,
+					linkAttribution
+				);
+			}
 		}
 
 		// Wrap content in base template
@@ -236,6 +266,7 @@ export async function sendEmailWithTracking(
 		campaignId?: string;
 		sequenceEnrollmentId?: string;
 		sequenceStepNumber?: number;
+		linkAttribution?: EmailLinkAttribution;
 		sentBy?: string | null;
 		includeFooter?: boolean;
 	}
@@ -249,6 +280,7 @@ export async function sendEmailWithTracking(
 		campaignId,
 		sequenceEnrollmentId,
 		sequenceStepNumber,
+		linkAttribution,
 		sentBy,
 		includeFooter = true
 	} = options;
@@ -287,9 +319,10 @@ export async function sendEmailWithTracking(
 		subject,
 		preheader,
 		htmlContent,
-		plainTextContent,
+		plainTextContent: resolvedPlainTextContent,
 		recipientName: recipient.name ?? undefined,
 		trackingId: emailSend.tracking_id,
+		linkAttribution,
 		includeFooter
 	});
 
@@ -319,6 +352,7 @@ export async function sendBatchEmails(
 		htmlContent: string;
 		plainTextContent?: string;
 		campaignId?: string;
+		linkAttribution?: EmailLinkAttribution;
 		sentBy?: string | null;
 		delayMs?: number; // Delay between sends to avoid rate limiting
 		includeFooter?: boolean;
@@ -335,6 +369,7 @@ export async function sendBatchEmails(
 		htmlContent,
 		plainTextContent,
 		campaignId,
+		linkAttribution,
 		sentBy,
 		delayMs = 100,
 		includeFooter = true
@@ -353,6 +388,7 @@ export async function sendBatchEmails(
 			htmlContent,
 			plainTextContent,
 			campaignId,
+			linkAttribution,
 			sentBy,
 			includeFooter
 		});

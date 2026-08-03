@@ -88,7 +88,7 @@ Important:
 - Use {{name}} placeholder for recipient's name (falls back to "there" if no name available, e.g., "Hello {{name}}!" becomes "Hello there!")
 - Keep subject lines under 60 characters
 - Make the first sentence compelling for email previews
-- For buttons, use: <a href="URL" style="display:inline-block;padding:14px 28px;background-color:#6c5ce7;color:#ffffff;text-decoration:none;border-radius:6px;font-weight:600;">Button Text</a>`;
+- For buttons, use: <a href="URL" style="display:inline-block;padding:14px 28px;background-color:#b45309;color:#ffffff;text-decoration:none;border-radius:10px;font-weight:600;">Button Text</a>`;
 
 export const POST: RequestHandler = async ({ request, locals }) => {
 	const { session, supabase } = await requireAdmin(locals);

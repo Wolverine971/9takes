@@ -1,0 +1,206 @@
+{
+	"kicker": "People index",
+	"headline": "Take a peek inside their inner worlds.",
+	"description": "Twenty-seven public figures. Nine emotional patterns. A condensed view of more than 400 in-depth reads on 9takes.",
+	"cta": "See what drives them",
+	"types": [
+		{
+			"type": 1,
+			"name": "Perfectionist",
+			"read": "what's broken",
+			"people": [
+				{
+					"slug": "emma-watson",
+					"name": "Emma Watson",
+					"personaTitle": "Hollywood's Conscientious Objector"
+				},
+				{
+					"slug": "steve-jobs",
+					"name": "Steve Jobs",
+					"personaTitle": "Silicon Valley's Restless Perfectionist"
+				},
+				{
+					"slug": "jordan-peterson",
+					"name": "Jordan Peterson",
+					"personaTitle": "Psychology's Weeping Crusader"
+				}
+			]
+		},
+		{
+			"type": 2,
+			"name": "Helper",
+			"read": "what people need",
+			"people": [
+				{
+					"slug": "margot-robbie",
+					"name": "Margot Robbie",
+					"personaTitle": "The Star Who Finds You Through Your Need"
+				},
+				{
+					"slug": "oprah-winfrey",
+					"name": "Oprah Winfrey",
+					"personaTitle": "Television's Patron Saint of Pain"
+				},
+				{
+					"slug": "meghan-markle",
+					"name": "Meghan Markle",
+					"personaTitle": "The Calligrapher Who Burned the Palace"
+				}
+			]
+		},
+		{
+			"type": 3,
+			"name": "Achiever",
+			"read": "what wins",
+			"people": [
+				{
+					"slug": "sabrina-carpenter",
+					"name": "Sabrina Carpenter",
+					"personaTitle": "Pop's Winking Machine"
+				},
+				{
+					"slug": "taylor-swift",
+					"name": "Taylor Swift",
+					"personaTitle": "Pop's Strategic Alchemist"
+				},
+				{
+					"slug": "dua-lipa",
+					"name": "Dua Lipa",
+					"personaTitle": "Pop's Precision Optimist"
+				}
+			]
+		},
+		{
+			"type": 4,
+			"name": "Individualist",
+			"read": "what's missing",
+			"people": [
+				{
+					"slug": "billie-eilish",
+					"name": "Billie Eilish",
+					"personaTitle": "Gen Z's Beautiful Wound"
+				},
+				{
+					"slug": "robert-pattinson",
+					"name": "Robert Pattinson",
+					"personaTitle": "Hollywood's Disappearing Act"
+				},
+				{
+					"slug": "sam-altman",
+					"name": "Sam Altman",
+					"personaTitle": "AI's Existential Architect"
+				}
+			]
+		},
+		{
+			"type": 5,
+			"name": "Investigator",
+			"read": "the system underneath",
+			"people": [
+				{
+					"slug": "elon-musk",
+					"name": "Elon Musk",
+					"personaTitle": "Technology's Apocalyptic Engineer"
+				},
+				{
+					"slug": "cillian-murphy",
+					"name": "Cillian Murphy",
+					"personaTitle": "Cinema's Invisible Vessel"
+				},
+				{
+					"slug": "robert-greene",
+					"name": "Robert Greene",
+					"personaTitle": "Power's Cold Cartographer"
+				}
+			]
+		},
+		{
+			"type": 6,
+			"name": "Loyalist",
+			"read": "the threat",
+			"people": [
+				{
+					"slug": "zendaya",
+					"name": "Zendaya",
+					"personaTitle": "Hollywood's Weaponized Worrier"
+				},
+				{
+					"slug": "timothee-chalamet",
+					"name": "Timothée Chalamet",
+					"personaTitle": "The Prodigy Who Needs Protecting"
+				},
+				{
+					"slug": "marilyn-monroe",
+					"name": "Marilyn Monroe",
+					"personaTitle": "Hollywood's Armored Icon"
+				}
+			]
+		},
+		{
+			"type": 7,
+			"name": "Enthusiast",
+			"read": "what's next",
+			"people": [
+				{
+					"slug": "jack-black",
+					"name": "Jack Black",
+					"personaTitle": "Comedy's Boundless Showman"
+				},
+				{
+					"slug": "kai-cenat",
+					"name": "Kai Cenat",
+					"personaTitle": "Twitch's Perpetual Motion Machine"
+				},
+				{
+					"slug": "john-f-kennedy",
+					"name": "John F. Kennedy",
+					"personaTitle": "Camelot's Graceful Fugitive"
+				}
+			]
+		},
+		{
+			"type": 8,
+			"name": "Challenger",
+			"read": "the power dynamic",
+			"people": [
+				{
+					"slug": "ishowspeed",
+					"name": "IShowSpeed",
+					"personaTitle": "Streaming's Homesick Warlord"
+				},
+				{
+					"slug": "mr-beast",
+					"name": "MrBeast",
+					"personaTitle": "The Algorithm Monk Who Can't Stop Building"
+				},
+				{
+					"slug": "joe-rogan",
+					"name": "Joe Rogan",
+					"personaTitle": "Podcasting's Alpha Interrogator"
+				}
+			]
+		},
+		{
+			"type": 9,
+			"name": "Peacemaker",
+			"read": "the harmony",
+			"people": [
+				{
+					"slug": "lionel-messi",
+					"name": "Lionel Messi",
+					"personaTitle": "Football's Quiet Volcano"
+				},
+				{
+					"slug": "ryan-gosling",
+					"name": "Ryan Gosling",
+					"personaTitle": "Hollywood's Gentle Vanishing Man"
+				},
+				{
+					"slug": "selena-gomez",
+					"name": "Selena Gomez",
+					"personaTitle": "Pop's Steady Presence"
+				}
+			]
+		}
+	]
+}

@@ -17,6 +17,7 @@
 
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
+	import { Spinner } from '$lib/components/atoms';
 
 	export let placeholder = 'Search...';
 	export let loading = false;
@@ -101,7 +102,7 @@
 
 		{#if loading}
 			<div class="loading-indicator">
-				<span class="loading-spinner"></span>
+				<Spinner size="xs" label="Searching questions" />
 			</div>
 		{:else if searchTerm}
 			<button
@@ -167,22 +168,6 @@
 		right: 0.75rem;
 	}
 
-	.loading-spinner {
-		display: inline-block;
-		width: 1rem;
-		height: 1rem;
-		border: 2px solid var(--stone-warm, var(--stone-warm));
-		border-top-color: var(--lamp-glow, var(--lamp-glow));
-		border-radius: 50%;
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		to {
-			transform: rotate(360deg);
-		}
-	}
-
 	.clear-button {
 		background: none;
 		border: none;
@@ -212,9 +197,6 @@
 			0 2px 4px -1px rgba(0, 0, 0, 0.2);
 		padding: 0;
 		list-style-type: none;
-	}
-
-	.result-item {
 	}
 
 	.result-button {

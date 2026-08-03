@@ -475,7 +475,7 @@
 	textarea {
 		width: 100%;
 		border: 1px solid var(--stone-warm);
-		border-radius: 0.25rem;
+		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 		font: inherit;

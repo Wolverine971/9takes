@@ -154,7 +154,7 @@
 		<svg class="diagram-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 			<defs>
 				<!-- Glow filters -->
-				<filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
+				<filter id="glowLamp" x="-50%" y="-50%" width="200%" height="200%">
 					<feGaussianBlur stdDeviation="1.5" result="coloredBlur" />
 					<feMerge>
 						<feMergeNode in="coloredBlur" />
@@ -434,7 +434,7 @@
 		fill: none;
 		stroke: color-mix(in srgb, var(--lamp-glow) 15%, transparent);
 		stroke-width: 0.8;
-		filter: url(#glowPurple);
+		filter: url(#glowLamp);
 	}
 
 	/* ==========================================
@@ -450,7 +450,7 @@
 	.connection-triangle.highlighted {
 		stroke-opacity: 0.8;
 		stroke-width: 0.5;
-		filter: url(#glowPurple);
+		filter: url(#glowLamp);
 	}
 
 	.connection-hexad {

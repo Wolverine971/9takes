@@ -4,6 +4,7 @@
 	import type { Campaign, Template } from '$lib/types/marketing';
 	import { invalidateAll } from '$app/navigation';
 	import { Button } from '$lib/components/atoms';
+	import { untrack } from 'svelte';
 
 	let {
 		campaigns,
@@ -21,7 +22,7 @@
 
 	let selectedTemplate: Template | null = $state(null);
 	let content_text = $state('');
-	let scheduled_date = $state(initialDate ? formatDateForInput(initialDate) : '');
+	let scheduled_date = $state(untrack(() => (initialDate ? formatDateForInput(initialDate) : '')));
 	let platform = $state('twitter');
 	let campaign_id = $state('');
 	let content_promotion_accounts = $state('');
@@ -72,7 +73,7 @@
 				<span class="field-label">Select Template</span>
 				<select onchange={handleTemplateSelection} class="field-input">
 					<option value="">No Template</option>
-					{#each templates as template}
+					{#each templates as template (template.id)}
 						<option value={template.id}>{template.type} - {template.purpose_description}</option>
 					{/each}
 				</select>
@@ -102,7 +103,7 @@
 				<span class="field-label">Campaign</span>
 				<select name="campaign_id" bind:value={campaign_id} class="field-input">
 					<option value="">No Campaign</option>
-					{#each campaigns as campaign}
+					{#each campaigns as campaign (campaign.id)}
 						<option value={campaign.id}>{campaign.name}</option>
 					{/each}
 				</select>
@@ -190,8 +191,8 @@
 	.field-input {
 		width: 100%;
 		padding: 0.5rem 0.75rem;
-		font-size: 0.875rem;
-		border: 1px solid var(--stone-warm);
+		font-size: 1rem;
+		border: 1px solid var(--stone-edge);
 		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
@@ -201,7 +202,7 @@
 	.field-input:focus {
 		outline: none;
 		border-color: var(--lamp-glow);
-		box-shadow: 0 0 0 2px rgba(var(--primary-rgb, 99, 102, 241), 0.15);
+		box-shadow: 0 0 0 2px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 	}
 
 	.field-textarea {

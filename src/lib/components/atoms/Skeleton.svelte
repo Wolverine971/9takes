@@ -1,34 +1,78 @@
 <!-- src/lib/components/atoms/Skeleton.svelte -->
 <script lang="ts">
-	export let width = '100%';
-	export let height = '20px';
-	export let borderRadius = '4px';
-	export let variant: 'text' | 'circular' | 'rectangular' = 'rectangular';
-	export let animation: 'pulse' | 'wave' | 'none' = 'pulse';
+	type Dimension = string | number;
+	type Variant = 'text' | 'circular' | 'rectangular' | 'card';
+	type Animation = 'pulse' | 'wave' | 'none';
 
-	$: computedBorderRadius = variant === 'circular' ? '50%' : borderRadius;
-	$: computedHeight = variant === 'text' ? '1em' : height;
+	type Props = {
+		width?: Dimension;
+		height?: Dimension | 'auto';
+		borderRadius?: string;
+		variant?: Variant;
+		animation?: Animation;
+		class?: string;
+		label?: string;
+		decorative?: boolean;
+	};
+
+	let {
+		width = '100%',
+		height = 'auto',
+		borderRadius,
+		variant = 'rectangular',
+		animation = 'pulse',
+		class: extraClass = '',
+		label = 'Loading',
+		decorative = false
+	}: Props = $props();
+
+	function toCssDimension(value: Dimension) {
+		return typeof value === 'number' ? `${value}px` : value;
+	}
+
+	const widthStyle = $derived(toCssDimension(width));
+	const heightStyle = $derived.by(() => {
+		if (height !== 'auto') return toCssDimension(height);
+		if (variant === 'text') return '1em';
+		if (variant === 'circular') return widthStyle;
+		if (variant === 'card') return '300px';
+		return '20px';
+	});
+	const radiusStyle = $derived(
+		borderRadius ?? (variant === 'circular' ? '50%' : variant === 'card' ? '1rem' : '0.25rem')
+	);
+	const klass = $derived(
+		['skeleton', `skeleton--${animation}`, `skeleton--${variant}`, extraClass]
+			.filter(Boolean)
+			.join(' ')
+	);
 </script>
 
 <div
-	class="skeleton skeleton--{animation} skeleton--{variant}"
-	style="width: {width}; height: {computedHeight}; border-radius: {computedBorderRadius};"
-	role="status"
-	aria-label="Loading..."
+	class={klass}
+	style:width={widthStyle}
+	style:height={heightStyle}
+	style:border-radius={radiusStyle}
+	role={decorative ? undefined : 'status'}
+	aria-label={decorative ? undefined : label}
+	aria-hidden={decorative ? 'true' : undefined}
 >
-	<span class="visually-hidden">Loading...</span>
+	{#if !decorative}
+		<span class="visually-hidden">{label}</span>
+	{/if}
 </div>
 
 <style>
 	.skeleton {
-		background-color: color-mix(in srgb, var(--stone-warm) 82%, var(--stone-warm));
+		background-color: color-mix(in srgb, var(--stone-mid) 72%, var(--stone-warm));
 		position: relative;
 		overflow: hidden;
 	}
 
 	.skeleton--text {
 		transform: scale(1, 0.6);
-		margin: 0.5em 0;
+		transform-origin: left center;
+		margin: 0.25em 0;
 	}
 
 	.skeleton--pulse {
@@ -79,5 +123,17 @@
 		.skeleton--wave::after {
 			animation: none;
 		}
+	}
+
+	.visually-hidden {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		padding: 0;
+		margin: -1px;
+		overflow: hidden;
+		clip: rect(0, 0, 0, 0);
+		white-space: nowrap;
+		border: 0;
 	}
 </style>

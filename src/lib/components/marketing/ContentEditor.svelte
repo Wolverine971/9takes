@@ -2,6 +2,7 @@
 <script lang="ts">
 	import type { ContentItem, Campaign, Template } from '$lib/types/marketing';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 
 	let {
 		contentItem = null,
@@ -21,7 +22,6 @@
 	let selectedTemplate: Template | null = $state(null);
 	let isThreadView = $state(false);
 	let threadBlocks: string[] = $state([]);
-	let showDeleteConfirmation = $state(false);
 	let blockToDelete: number | null = $state(null);
 
 	let contentTextWithSeparators: string = $state(editingContent.content_text || '');
@@ -107,10 +107,16 @@
 	function confirmDeleteBlock(index: number) {
 		if (threadBlocks[index].trim()) {
 			blockToDelete = index;
-			showDeleteConfirmation = true;
+			getModal('delete-thread-block')?.open(() => {
+				blockToDelete = null;
+			});
 		} else {
 			deleteThreadBlock(index);
 		}
+	}
+
+	function closeDeleteConfirmation() {
+		getModal('delete-thread-block')?.close();
 	}
 
 	function deleteThreadBlock(index: number) {
@@ -118,8 +124,7 @@
 		contentTextWithSeparators = threadBlocks.join(SEPARATOR);
 		contentTextWithoutSeparators = removeSeparators(contentTextWithSeparators);
 		updateEditingContent('content_text', contentTextWithSeparators);
-		showDeleteConfirmation = false;
-		blockToDelete = null;
+		closeDeleteConfirmation();
 	}
 
 	function handleContentTextInput(event: Event) {
@@ -340,21 +345,30 @@
 	</div>
 </form>
 
-{#if showDeleteConfirmation}
-	<div class="modal-overlay" onclick={() => (showDeleteConfirmation = false)} role="presentation">
-		<div class="modal-dialog" onclick={(e) => e.stopPropagation()} role="dialog">
-			<h3 class="modal-title">Are you sure you want to delete this tweet?</h3>
-			<div class="modal-actions">
-				<Button variant="danger" onclick={() => deleteThreadBlock(blockToDelete!)}>
-					Yes, I'm sure
-				</Button>
-				<Button variant="secondary" onclick={() => (showDeleteConfirmation = false)}>
-					No, cancel
-				</Button>
-			</div>
-		</div>
+<Modal
+	id="delete-thread-block"
+	name="Delete tweet"
+	labelledBy="delete-thread-block-title"
+	describedBy="delete-thread-block-description"
+	initialFocus="#confirm-delete-thread-block"
+	maxWidth="400px"
+>
+	<h3 id="delete-thread-block-title" class="modal-title">Delete this tweet?</h3>
+	<p id="delete-thread-block-description" class="modal-description">
+		This removes the tweet from the thread.
+	</p>
+	<div class="modal-actions">
+		<Button
+			id="confirm-delete-thread-block"
+			variant="danger"
+			disabled={blockToDelete === null}
+			onclick={() => blockToDelete !== null && deleteThreadBlock(blockToDelete)}
+		>
+			Yes, delete it
+		</Button>
+		<Button variant="secondary" onclick={closeDeleteConfirmation}>No, cancel</Button>
 	</div>
-{/if}
+</Modal>
 
 <style>
 	.editor-form {
@@ -551,32 +565,19 @@
 		gap: 1rem;
 	}
 
-	/* Modal */
-	.modal-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.6);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 50;
-	}
-
-	.modal-dialog {
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-warm);
-		border-radius: 1rem;
-		padding: 1.5rem;
-		max-width: 400px;
-		width: 90%;
-		text-align: center;
-	}
-
 	.modal-title {
 		margin: 0 0 1.25rem 0;
 		font-size: 1rem;
 		font-weight: 500;
 		color: var(--ink-bright);
+		text-align: center;
+	}
+
+	.modal-description {
+		margin: -0.75rem 0 1.25rem;
+		color: var(--ink-mid);
+		font-size: 0.875rem;
+		text-align: center;
 	}
 
 	.modal-actions {

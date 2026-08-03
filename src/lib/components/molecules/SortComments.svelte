@@ -409,7 +409,7 @@
 		box-shadow: 0 0 8px var(--lamp-glow-rgba);
 	}
 
-	/* Modal Styles - Dark Purple Theme */
+	/* Modal — streetlamp theme */
 	.filter-modal {
 		width: 100%;
 		background: var(--night-deep);

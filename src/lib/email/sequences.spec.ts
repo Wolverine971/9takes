@@ -78,9 +78,19 @@ describe('prepareSequenceSend', () => {
 		expect(prepared.subject).toBe(
 			'Alice, you signed up for 9takes in February 2025. Quick re-introduction.'
 		);
+		expect(prepared.preheader).toBe('Take a peek inside the inner worlds of 27 public figures.');
+		expect(prepared.htmlContent).toContain('https://9takes.com/personality-analysis/map');
 		expect(prepared.htmlContent).toContain(
-			'https://9takes.com/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort'
+			'https://9takes.com/email/reactivation/people-wall-v1.jpg'
 		);
+		expect(prepared.htmlContent).toContain('See what drives them');
+		expect(prepared.plainText).toContain('See what drives them:');
+		expect(prepared.linkAttribution).toEqual({
+			source: 'reactivation',
+			medium: 'email',
+			campaign: 'reactivation-sequence',
+			content: 'reactivation_dormant_step_1'
+		});
 		expect(prepared.htmlContent).not.toContain('Old DB body');
 	});
 
@@ -148,6 +158,7 @@ describe('prepareSequenceSend', () => {
 		expect(prepared.subject).toBe('Welcome, <script>alert(1)</script>');
 		expect(prepared.htmlContent).toContain('&lt;script&gt;alert(1)&lt;/script&gt;');
 		expect(prepared.htmlContent).toContain('{{unknown_token}}');
+		expect(prepared.linkAttribution).toBeUndefined();
 	});
 
 	it('falls back to "there" when no recipient name is available', () => {

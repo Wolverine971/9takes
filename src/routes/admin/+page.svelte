@@ -910,7 +910,7 @@
 		padding: 14px 16px;
 		border: 1px solid color-mix(in srgb, var(--warning) 45%, transparent);
 		border-radius: 10px;
-		background: color-mix(in srgb, var(--warning) 9%, var(--night));
+		background: color-mix(in srgb, var(--warning) 9%, var(--night-deep));
 		color: var(--ink-bright);
 	}
 

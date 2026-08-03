@@ -1,5 +1,5 @@
 // src/lib/email/reactivation-sequence-content.ts
-// Canonical copy for the profiles-only reactivation sequence.
+// Canonical copy for the people-focused reactivation sequence.
 
 export const REACTIVATION_COLD_KEY = 'reactivation_cold';
 export const REACTIVATION_DORMANT_KEY = 'reactivation_dormant';
@@ -27,35 +27,34 @@ export type ReactivationSequenceContent = {
 export const REACTIVATION_HERO_URL =
 	'https://9takes.com/enneagram-corner/enneagram-and-mental-illness';
 
+export const REACTIVATION_PEOPLE_WALL_URL =
+	'https://9takes.com/personality-analysis/map?utm_source=reactivation&utm_medium=email&utm_campaign=people-wall';
+
+export const REACTIVATION_PEOPLE_WALL_IMAGE_URL =
+	'https://9takes.com/email/reactivation/people-wall-v1.jpg';
+
 // Live question featured in step 3. If it's ever removed or flagged, swap in
 // another high-engagement relationship question.
 const PARTNER_QUESTION_URL =
 	'https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner';
 
-// Live homepage question (id 567) featured in every step 1. The quoted answers
-// below are real takes from the thread; refresh them if the thread changes.
-const MASKING_QUESTION_URL =
-	'https://9takes.com/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort';
-
-const STEP_1_QUESTION_BLOCK_HTML = `<p>The whole platform is one loop: answer a question before you can see anyone else's takes. The value lives in the gap - what you noticed, what other people noticed, what everyone assumed too fast.</p>
-<p>Right now one question is pulling the most honest answers on the site:</p>
-<p><strong>"What's something you do every day to seem 'fine' that nobody knows is costing you effort?"</strong></p>
-<p>One person answered "taking supplements every morning." Another answered "Continuing to be alive." Same question. That range is why 9takes exists.</p>
-<p><a class="button" href="${MASKING_QUESTION_URL}">Give your take</a></p>
-<p>Your answer unlocks everyone else's. More next week - a personal note about why I built this in the first place.</p>
+// The first reactivation click should be low-friction: browse a familiar public
+// figure before asking for a personal contribution. The linked web map keeps
+// every portrait accessible and clickable; the email uses a client-safe JPEG.
+const STEP_1_PEOPLE_WALL_HTML = `<p>Since you joined, 9takes has grown into more than 400 in-depth reads on actors, musicians, founders, creators, athletes, and historical figures.</p>
+<p><strong>Take a peek inside their inner worlds.</strong> This condensed people index shows three public figures for each of the nine Enneagram types. Open anyone who catches your eye to explore the moments, contradictions, and emotional pattern behind the read.</p>
+<p><a href="${REACTIVATION_PEOPLE_WALL_URL}"><img src="${REACTIVATION_PEOPLE_WALL_IMAGE_URL}" alt="A three-column by nine-row people index showing three public figures for each Enneagram type" width="520" style="display:block;width:100%;max-width:520px;height:auto;border:0;border-radius:16px;" /></a></p>
+<p><a class="button" href="${REACTIVATION_PEOPLE_WALL_URL}">See what drives them</a></p>
+<p>More next week - a personal note about why I built this in the first place.</p>
 <p>DJ<br />9takes.com</p>`;
 
-const STEP_1_QUESTION_BLOCK_TEXT = `The whole platform is one loop: answer a question before you can see anyone else's takes. The value lives in the gap - what you noticed, what other people noticed, what everyone assumed too fast.
+const STEP_1_PEOPLE_WALL_TEXT = `Since you joined, 9takes has grown into more than 400 in-depth reads on actors, musicians, founders, creators, athletes, and historical figures.
 
-Right now one question is pulling the most honest answers on the site:
+Take a peek inside their inner worlds. This condensed people index shows three public figures for each of the nine Enneagram types. Open anyone who catches your eye to explore the moments, contradictions, and emotional pattern behind the read.
 
-"What's something you do every day to seem 'fine' that nobody knows is costing you effort?"
+See what drives them: ${REACTIVATION_PEOPLE_WALL_URL}
 
-One person answered "taking supplements every morning." Another answered "Continuing to be alive." Same question. That range is why 9takes exists.
-
-Give your take: ${MASKING_QUESTION_URL}
-
-Your answer unlocks everyone else's. More next week - a personal note about why I built this in the first place.
+More next week - a personal note about why I built this in the first place.
 
 DJ
 9takes.com`;
@@ -75,40 +74,40 @@ const STEP_1_BY_SEQUENCE: Record<
 > = {
 	[REACTIVATION_COLD_KEY]: {
 		subject: "{{first_name}}, you signed up in {{signup_month_year}}. Here's what 9takes is now.",
-		preheader: 'And the one question I want your take on.',
+		preheader: 'Take a peek inside the inner worlds of 27 public figures.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined. If this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.</p>
-${STEP_1_QUESTION_BLOCK_HTML}`,
+${STEP_1_PEOPLE_WALL_HTML}`,
 		plainText: `Hi {{first_name}},
 
 You signed up a couple months back, and I want to use the moment to actually show you what 9takes is - not what it was the day you joined. If this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.
 
-${STEP_1_QUESTION_BLOCK_TEXT}`
+${STEP_1_PEOPLE_WALL_TEXT}`
 	},
 	[REACTIVATION_DORMANT_KEY]: {
 		subject:
 			'{{first_name}}, you signed up for 9takes in {{signup_month_year}}. Quick re-introduction.',
-		preheader: "It's been a while. One question, and I want your take on it.",
+		preheader: 'Take a peek inside the inner worlds of 27 public figures.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. And if this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.</p>
-${STEP_1_QUESTION_BLOCK_HTML}`,
+${STEP_1_PEOPLE_WALL_HTML}`,
 		plainText: `Hi {{first_name}},
 
 You signed up for 9takes a while ago. I'll be honest: the product on the day you registered was half of what it is now. And if this email is a surprise, the unsubscribe link at the bottom works on click one - no guilt, no trick.
 
-${STEP_1_QUESTION_BLOCK_TEXT}`
+${STEP_1_PEOPLE_WALL_TEXT}`
 	},
 	[REACTIVATION_ZOMBIES_KEY]: {
 		subject: 'You signed up for 9takes back in {{signup_year}}.',
 		preheader: 'I owe you a better intro than the silence you got.',
 		htmlContent: `<p>Hi {{first_name}},</p>
 <p>You signed up for 9takes in {{signup_year}}. That's {{signup_months_ago}} months of me not writing to you, which is on me. Before I start, one line of honesty: if this email is a surprise, the unsubscribe link at the bottom works on click one. No guilt, no trick.</p>
-${STEP_1_QUESTION_BLOCK_HTML}`,
+${STEP_1_PEOPLE_WALL_HTML}`,
 		plainText: `Hi {{first_name}},
 
 You signed up for 9takes in {{signup_year}}. That's {{signup_months_ago}} months of me not writing to you, which is on me. Before I start, one line of honesty: if this email is a surprise, the unsubscribe link at the bottom works on click one. No guilt, no trick.
 
-${STEP_1_QUESTION_BLOCK_TEXT}`
+${STEP_1_PEOPLE_WALL_TEXT}`
 	}
 };
 

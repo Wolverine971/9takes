@@ -20,6 +20,7 @@ export function isAllowedRedirectTarget(targetUrl: string): boolean {
 	if (url.protocol !== 'https:' && url.protocol !== 'http:') {
 		return false;
 	}
+	if (url.username || url.password || url.port) return false;
 
 	return ALLOWED_REDIRECT_HOSTS.has(url.hostname.toLowerCase());
 }

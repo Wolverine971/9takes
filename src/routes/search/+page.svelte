@@ -515,7 +515,7 @@
 	.query-row input,
 	.filter-grid select {
 		width: 100%;
-		border-radius: 16px;
+		border-radius: 10px;
 		border: 1px solid var(--search-control-border);
 		background: var(--search-control-bg);
 		color: var(--ink-bright);

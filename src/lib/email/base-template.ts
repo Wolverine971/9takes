@@ -16,6 +16,13 @@ interface TemplateOptions {
 
 export const TRACKING_ID_PLACEHOLDER = '__EMAIL_TRACKING_ID__';
 
+export type EmailLinkAttribution = {
+	source: string;
+	medium: string;
+	campaign: string;
+	content?: string;
+};
+
 /**
  * Generates a clean, minimal email template optimized for deliverability.
  * Uses inline styles for maximum email client compatibility.
@@ -164,6 +171,20 @@ export function htmlToPlainText(html: string): string {
 	return html
 		.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
 		.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+		.replace(
+			/<a\b[^>]*?\shref\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+))[^>]*>([\s\S]*?)<\/a>/gi,
+			(_match, doubleQuotedUrl, singleQuotedUrl, unquotedUrl, labelHtml) => {
+				const url = decodeHtmlAttribute(doubleQuotedUrl || singleQuotedUrl || unquotedUrl || '');
+				const label = String(labelHtml)
+					.replace(/<[^>]+>/g, '')
+					.replace(/&nbsp;/g, ' ')
+					.trim();
+
+				if (!url) return label;
+				if (!label || label === url || label.includes(url)) return label || url;
+				return `${label} (${url})`;
+			}
+		)
 		.replace(/<br\s*\/?>/gi, '\n')
 		.replace(/<\/p>/gi, '\n\n')
 		.replace(/<\/h[1-6]>/gi, '\n\n')
@@ -215,20 +236,183 @@ function escapeHtml(text: string): string {
 	return text.replace(/[&<>"']/g, (char) => htmlEntities[char]);
 }
 
-/**
- * Rewrites links in HTML content to go through click tracking
- */
-export function rewriteLinksForTracking(html: string, trackingId: string, baseUrl: string): string {
-	// Match href attributes with http/https URLs
-	return html.replace(/href="(https?:\/\/[^"]+)"/g, (match, url) => {
-		// Don't rewrite unsubscribe links or tracking links
-		if (url.includes('/track/unsubscribe') || url.includes('/track/click')) {
-			return match;
-		}
+function decodeHtmlAttribute(value: string): string {
+	return value
+		.replace(/&amp;/gi, '&')
+		.replace(/&quot;/gi, '"')
+		.replace(/&#39;|&apos;/gi, "'");
+}
 
-		// Encode the URL for the redirect
-		const encodedUrl = Buffer.from(encodeURIComponent(url)).toString('base64url');
-		return `href="${baseUrl}/api/track/click/${trackingId}/${encodedUrl}"`;
+function normalizeOwnHost(hostname: string): string {
+	return hostname.toLowerCase().replace(/^www\./, '');
+}
+
+function isTrackingControlUrl(url: URL): boolean {
+	return (
+		url.pathname.startsWith('/api/track/click/') ||
+		url.pathname.startsWith('/api/track/open/') ||
+		url.pathname.startsWith('/api/track/unsubscribe/')
+	);
+}
+
+function addMissingAttribution(
+	url: URL,
+	attribution: EmailLinkAttribution | undefined,
+	linkIndex: number
+) {
+	if (!attribution || url.pathname.startsWith('/api/')) return;
+
+	const values = {
+		utm_source: attribution.source,
+		utm_medium: attribution.medium,
+		utm_campaign: attribution.campaign,
+		utm_content: attribution.content ? `${attribution.content}_link_${linkIndex + 1}` : undefined
+	};
+
+	for (const [key, value] of Object.entries(values)) {
+		if (value && !url.searchParams.get(key)?.trim()) {
+			url.searchParams.set(key, value);
+		}
+	}
+}
+
+function resolveFirstPartyEmailUrl(
+	rawUrl: string,
+	baseUrl: string
+): { base: URL; target: URL } | null {
+	let base: URL;
+	let target: URL;
+
+	try {
+		base = new URL(baseUrl);
+		target = new URL(decodeHtmlAttribute(rawUrl), base);
+	} catch {
+		return null;
+	}
+
+	if (!['http:', 'https:'].includes(target.protocol)) return null;
+	if (normalizeOwnHost(target.hostname) !== normalizeOwnHost(base.hostname)) return null;
+	if (target.username || target.password || target.port) return null;
+
+	// All production email destinations are HTTPS. Upgrade legacy or edited
+	// http links before encoding them so tracking never causes a downgrade.
+	target.protocol = 'https:';
+	return { base, target };
+}
+
+function buildTrackedEmailUrl(
+	rawUrl: string,
+	trackingId: string,
+	baseUrl: string,
+	attribution: EmailLinkAttribution | undefined,
+	linkIndex: number
+): string | null {
+	const resolved = resolveFirstPartyEmailUrl(rawUrl, baseUrl);
+	if (!resolved) return null;
+	const { base, target } = resolved;
+	if (isTrackingControlUrl(target)) return null;
+
+	addMissingAttribution(target, attribution, linkIndex);
+	const encodedUrl = Buffer.from(encodeURIComponent(target.toString())).toString('base64url');
+	return `${base.origin}/api/track/click/${trackingId}/${encodedUrl}`;
+}
+
+/** Adds attribution to first-party links without creating click records. */
+export function addAttributionToEmailLinks(
+	html: string,
+	baseUrl: string,
+	attribution: EmailLinkAttribution
+): string {
+	let linkIndex = 0;
+	return html.replace(
+		/(<a\b[^>]*?\s)href\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+))/gi,
+		(match, _anchorPrefix, doubleQuotedUrl, singleQuotedUrl, unquotedUrl) => {
+			const rawUrl = doubleQuotedUrl || singleQuotedUrl || unquotedUrl || '';
+			const resolved = resolveFirstPartyEmailUrl(rawUrl, baseUrl);
+			if (!resolved || isTrackingControlUrl(resolved.target)) return match;
+
+			addMissingAttribution(resolved.target, attribution, linkIndex);
+			linkIndex += 1;
+			return match.replace(rawUrl, resolved.target.toString());
+		}
+	);
+}
+
+/**
+ * Rewrites first-party links in HTML content to go through click tracking.
+ * Supports quoted, unquoted, absolute, and relative href values. External links
+ * remain direct because the redirect endpoint intentionally only allows 9takes.
+ */
+export function rewriteLinksForTracking(
+	html: string,
+	trackingId: string,
+	baseUrl: string,
+	attribution?: EmailLinkAttribution
+): string {
+	let linkIndex = 0;
+	return html.replace(
+		/(<a\b[^>]*?\s)href\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+))/gi,
+		(match, _anchorPrefix, doubleQuotedUrl, singleQuotedUrl, unquotedUrl) => {
+			const rawUrl = doubleQuotedUrl || singleQuotedUrl || unquotedUrl || '';
+			const trackedUrl = buildTrackedEmailUrl(rawUrl, trackingId, baseUrl, attribution, linkIndex);
+
+			if (!trackedUrl) return match;
+			linkIndex += 1;
+			return match.replace(rawUrl, trackedUrl);
+		}
+	);
+}
+
+function splitPlainTextUrl(value: string): { url: string; trailing: string } {
+	let url = value;
+	let trailing = '';
+
+	while (/[.,;:!?]$/.test(url)) {
+		trailing = `${url.slice(-1)}${trailing}`;
+		url = url.slice(0, -1);
+	}
+
+	while (url.endsWith(')') && (url.match(/\(/g)?.length ?? 0) < (url.match(/\)/g)?.length ?? 0)) {
+		trailing = `)${trailing}`;
+		url = url.slice(0, -1);
+	}
+
+	return { url, trailing };
+}
+
+/** Rewrites explicit first-party URLs in the plain-text MIME alternative. */
+export function rewritePlainTextLinksForTracking(
+	text: string,
+	trackingId: string,
+	baseUrl: string,
+	attribution?: EmailLinkAttribution
+): string {
+	let linkIndex = 0;
+	return text.replace(/https?:\/\/[^\s<>"']+/gi, (value) => {
+		const { url, trailing } = splitPlainTextUrl(value);
+		const trackedUrl = buildTrackedEmailUrl(url, trackingId, baseUrl, attribution, linkIndex);
+
+		if (!trackedUrl) return value;
+		linkIndex += 1;
+		return `${trackedUrl}${trailing}`;
+	});
+}
+
+/** Adds attribution to explicit first-party URLs in plain-text emails. */
+export function addAttributionToPlainTextLinks(
+	text: string,
+	baseUrl: string,
+	attribution: EmailLinkAttribution
+): string {
+	let linkIndex = 0;
+	return text.replace(/https?:\/\/[^\s<>"']+/gi, (value) => {
+		const { url, trailing } = splitPlainTextUrl(value);
+		const resolved = resolveFirstPartyEmailUrl(url, baseUrl);
+		if (!resolved || isTrackingControlUrl(resolved.target)) return value;
+
+		addMissingAttribution(resolved.target, attribution, linkIndex);
+		linkIndex += 1;
+		return `${resolved.target.toString()}${trailing}`;
 	});
 }
 

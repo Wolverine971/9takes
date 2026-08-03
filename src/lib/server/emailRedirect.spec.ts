@@ -20,6 +20,11 @@ describe('isAllowedRedirectTarget', () => {
 
 	it('ignores userinfo tricks that put our domain before the real host', () => {
 		expect(isAllowedRedirectTarget('https://9takes.com@evil.example/')).toBe(false);
+		expect(isAllowedRedirectTarget('https://user:password@9takes.com/')).toBe(false);
+	});
+
+	it('rejects nonstandard ports', () => {
+		expect(isAllowedRedirectTarget('https://9takes.com:444/questions')).toBe(false);
 	});
 
 	it('rejects non-http protocols', () => {

@@ -13,7 +13,7 @@
 	};
 	export let showDetails = true;
 
-	let commentColor = 'var(--lamp-glow)'; // Purple-400 for dark theme
+	let commentColor = 'var(--lamp-glow)';
 	let hovered = false;
 
 	// Use shared viewport store
@@ -37,11 +37,11 @@
 	// Memoize hover/leave handlers
 	const handleMouseEnter = () => {
 		hovered = true;
-		commentColor = 'var(--lamp-glow)'; // Purple-300 for hover
+		commentColor = 'var(--lamp-glow)';
 	};
 	const handleMouseLeave = () => {
 		hovered = false;
-		commentColor = 'var(--lamp-glow)'; // Purple-400 for dark theme
+		commentColor = 'var(--lamp-glow)';
 	};
 </script>
 

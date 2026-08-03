@@ -3,6 +3,7 @@
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 	import type { EmailRecipient } from '$lib/types/email';
@@ -99,10 +100,6 @@
 		showEmailModal = false;
 	}
 
-	// Modals
-	let showNoteModal = $state(false);
-	let showSessionModal = $state(false);
-
 	// Note form
 	let noteTitle = $state('');
 	let noteContent = $state('');
@@ -142,20 +139,34 @@
 		return dateStr ? new Date(dateStr).getTime() : 0;
 	}
 
-	function closeNoteModal() {
-		showNoteModal = false;
+	function resetNoteForm() {
 		noteTitle = '';
 		noteContent = '';
 		noteType = 'observation';
 	}
 
-	function closeSessionModal() {
-		showSessionModal = false;
+	function openNoteModal() {
+		getModal('client-note-modal')?.open(resetNoteForm);
+	}
+
+	function closeNoteModal() {
+		getModal('client-note-modal')?.close();
+	}
+
+	function resetSessionForm() {
 		sessionDate = '';
 		sessionTime = '';
 		sessionType = 'discovery';
 		sessionDuration = '60';
 		sessionLink = '';
+	}
+
+	function openSessionModal() {
+		getModal('client-session-modal')?.open(resetSessionForm);
+	}
+
+	function closeSessionModal() {
+		getModal('client-session-modal')?.close();
 	}
 
 	const statusOptions = [
@@ -474,7 +485,7 @@
 			<section class="section-card" id="sessions">
 				<div class="section-header">
 					<h2>Sessions</h2>
-					<Button size="sm" onclick={() => (showSessionModal = true)}>+ Schedule</Button>
+					<Button size="sm" onclick={openSessionModal}>+ Schedule</Button>
 				</div>
 
 				{#if upcomingSessions.length > 0}
@@ -547,9 +558,7 @@
 			<section class="section-card" id="notes">
 				<div class="section-header">
 					<h2>Notes</h2>
-					<Button variant="secondary" size="sm" onclick={() => (showNoteModal = true)}>
-						+ Add Note
-					</Button>
+					<Button variant="secondary" size="sm" onclick={openNoteModal}>+ Add Note</Button>
 				</div>
 				{#if client.notes?.length}
 					<div class="notes-list">
@@ -596,10 +605,8 @@
 							Resend Intake Form
 						</button>
 					{/if}
-					<button class="action-btn" onclick={() => (showSessionModal = true)}>
-						Schedule Session
-					</button>
-					<button class="action-btn" onclick={() => (showNoteModal = true)}> Add Note </button>
+					<button class="action-btn" onclick={openSessionModal}> Schedule Session </button>
+					<button class="action-btn" onclick={openNoteModal}> Add Note </button>
 				</div>
 			</section>
 
@@ -664,136 +671,141 @@
 </div>
 
 <!-- Add Note Modal -->
-{#if showNoteModal}
-	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-	<div
-		class="modal-overlay"
-		onclick={(e) => {
-			if (e.target === e.currentTarget) closeNoteModal();
-		}}
-	>
-		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="note-modal-title">
-			<div class="modal-header">
-				<h2 id="note-modal-title">Add Note</h2>
-				<button class="close-btn" onclick={closeNoteModal}>&times;</button>
-			</div>
-			<form
-				method="POST"
-				action="?/addNote"
-				use:enhance={() => {
-					return async ({ result }) => {
-						if (result.type === 'success') {
-							notifications.success('Note added', 3000);
-							closeNoteModal();
-							invalidateAll();
-						}
-					};
-				}}
+<Modal
+	id="client-note-modal"
+	name="Add note"
+	labelledBy="note-modal-title"
+	maxWidth="450px"
+	navTop
+	contentPadding="0"
+>
+	<div class="modal">
+		<div class="modal-header">
+			<h2 id="note-modal-title">Add Note</h2>
+			<button type="button" class="close-btn" aria-label="Close add note" onclick={closeNoteModal}
+				>&times;</button
 			>
-				<div class="modal-body">
-					<div class="form-group">
-						<label for="noteType">Type</label>
-						<select id="noteType" name="noteType" bind:value={noteType}>
-							{#each noteTypes as type}
-								<option value={type.value}>{type.label}</option>
-							{/each}
-						</select>
-					</div>
-					<div class="form-group">
-						<label for="noteTitle">Title (optional)</label>
-						<input type="text" id="noteTitle" name="title" bind:value={noteTitle} />
-					</div>
-					<div class="form-group">
-						<label for="noteContent">Note *</label>
-						<textarea id="noteContent" name="content" bind:value={noteContent} rows="5" required
-						></textarea>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<Button type="button" variant="secondary" onclick={closeNoteModal}>Cancel</Button>
-					<Button type="submit">Add Note</Button>
-				</div>
-			</form>
 		</div>
+		<form
+			method="POST"
+			action="?/addNote"
+			use:enhance={() => {
+				return async ({ result }) => {
+					if (result.type === 'success') {
+						notifications.success('Note added', 3000);
+						closeNoteModal();
+						invalidateAll();
+					}
+				};
+			}}
+		>
+			<div class="modal-body">
+				<div class="form-group">
+					<label for="noteType">Type</label>
+					<select id="noteType" name="noteType" bind:value={noteType}>
+						{#each noteTypes as type}
+							<option value={type.value}>{type.label}</option>
+						{/each}
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="noteTitle">Title (optional)</label>
+					<input type="text" id="noteTitle" name="title" bind:value={noteTitle} />
+				</div>
+				<div class="form-group">
+					<label for="noteContent">Note *</label>
+					<textarea id="noteContent" name="content" bind:value={noteContent} rows="5" required
+					></textarea>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<Button type="button" variant="secondary" onclick={closeNoteModal}>Cancel</Button>
+				<Button type="submit">Add Note</Button>
+			</div>
+		</form>
 	</div>
-{/if}
+</Modal>
 
 <!-- Schedule Session Modal -->
-{#if showSessionModal}
-	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-	<div
-		class="modal-overlay"
-		onclick={(e) => {
-			if (e.target === e.currentTarget) closeSessionModal();
-		}}
-	>
-		<div class="modal" role="dialog" aria-modal="true" aria-labelledby="session-modal-title">
-			<div class="modal-header">
-				<h2 id="session-modal-title">Schedule Session</h2>
-				<button class="close-btn" onclick={closeSessionModal}>&times;</button>
-			</div>
-			<form
-				method="POST"
-				action="?/scheduleSession"
-				use:enhance={() => {
-					return async ({ result }) => {
-						if (result.type === 'success') {
-							notifications.success('Session scheduled', 3000);
-							closeSessionModal();
-							invalidateAll();
-						}
-					};
-				}}
+<Modal
+	id="client-session-modal"
+	name="Schedule session"
+	labelledBy="session-modal-title"
+	maxWidth="450px"
+	navTop
+	contentPadding="0"
+>
+	<div class="modal">
+		<div class="modal-header">
+			<h2 id="session-modal-title">Schedule Session</h2>
+			<button
+				type="button"
+				class="close-btn"
+				aria-label="Close schedule session"
+				onclick={closeSessionModal}>&times;</button
 			>
-				<div class="modal-body">
-					<div class="form-row">
-						<div class="form-group">
-							<label for="sessionDate">Date *</label>
-							<input type="date" id="sessionDate" bind:value={sessionDate} required />
-						</div>
-						<div class="form-group">
-							<label for="sessionTime">Time *</label>
-							<input type="time" id="sessionTime" bind:value={sessionTime} required />
-						</div>
-					</div>
-					<input type="hidden" name="scheduledAt" value={scheduledAtValue} />
-					<div class="form-group">
-						<label for="sessionType">Session Type</label>
-						<select id="sessionType" name="sessionType" bind:value={sessionType}>
-							<option value="intro_call">Intro Call</option>
-							<option value="discovery">Discovery Session</option>
-							<option value="follow_up">Follow Up</option>
-							<option value="deep_dive">Deep Dive</option>
-							<option value="relationship">Relationship Focus</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<label for="sessionDuration">Duration (minutes)</label>
-						<select id="sessionDuration" name="duration" bind:value={sessionDuration}>
-							<option value="30">30 min</option>
-							<option value="60">60 min</option>
-							<option value="90">90 min</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<label for="sessionLink">Meeting Link</label>
-						<input
-							type="url"
-							id="sessionLink"
-							name="meetingLink"
-							bind:value={sessionLink}
-							placeholder="https://..."
-						/>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<Button type="button" variant="secondary" onclick={closeSessionModal}>Cancel</Button>
-					<Button type="submit">Schedule</Button>
-				</div>
-			</form>
 		</div>
+		<form
+			method="POST"
+			action="?/scheduleSession"
+			use:enhance={() => {
+				return async ({ result }) => {
+					if (result.type === 'success') {
+						notifications.success('Session scheduled', 3000);
+						closeSessionModal();
+						invalidateAll();
+					}
+				};
+			}}
+		>
+			<div class="modal-body">
+				<div class="form-row">
+					<div class="form-group">
+						<label for="sessionDate">Date *</label>
+						<input type="date" id="sessionDate" bind:value={sessionDate} required />
+					</div>
+					<div class="form-group">
+						<label for="sessionTime">Time *</label>
+						<input type="time" id="sessionTime" bind:value={sessionTime} required />
+					</div>
+				</div>
+				<input type="hidden" name="scheduledAt" value={scheduledAtValue} />
+				<div class="form-group">
+					<label for="sessionType">Session Type</label>
+					<select id="sessionType" name="sessionType" bind:value={sessionType}>
+						<option value="intro_call">Intro Call</option>
+						<option value="discovery">Discovery Session</option>
+						<option value="follow_up">Follow Up</option>
+						<option value="deep_dive">Deep Dive</option>
+						<option value="relationship">Relationship Focus</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="sessionDuration">Duration (minutes)</label>
+					<select id="sessionDuration" name="duration" bind:value={sessionDuration}>
+						<option value="30">30 min</option>
+						<option value="60">60 min</option>
+						<option value="90">90 min</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="sessionLink">Meeting Link</label>
+					<input
+						type="url"
+						id="sessionLink"
+						name="meetingLink"
+						bind:value={sessionLink}
+						placeholder="https://..."
+					/>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<Button type="button" variant="secondary" onclick={closeSessionModal}>Cancel</Button>
+				<Button type="submit">Schedule</Button>
+			</div>
+		</form>
 	</div>
-{/if}
+</Modal>
 
 <!-- Email Compose Modal -->
 <EmailComposeModal
@@ -1347,20 +1359,6 @@
 	/* Button visuals now owned by the Button atom. */
 
 	/* Modal */
-	.modal-overlay {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(0, 0, 0, 0.5);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 1000;
-		padding: 1rem;
-	}
-
 	.modal {
 		background: var(--stone-warm);
 		border-radius: 1rem;

@@ -1240,7 +1240,8 @@
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		border-radius: 0.875rem;
+		/* lint-radius-role: card */
+		border-radius: 1rem;
 		background: color-mix(in srgb, var(--accent) 22%, var(--night-deep));
 		border: 1px solid color-mix(in srgb, var(--accent) 46%, transparent);
 		color: var(--ink-bright);

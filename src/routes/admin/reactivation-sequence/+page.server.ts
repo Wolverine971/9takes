@@ -1,7 +1,7 @@
 // src/routes/admin/reactivation-sequence/+page.server.ts
 import type { Actions, PageServerLoad } from './$types';
 import { fail, redirect } from '@sveltejs/kit';
-import { generateEmailHtml } from '$lib/email/base-template';
+import { generateEmailHtml, TRACKING_ID_PLACEHOLDER } from '$lib/email/base-template';
 import {
 	getReactivationTemplateOverrideState,
 	prepareSequenceSend,
@@ -25,9 +25,14 @@ import { normalizeEmail } from '$lib/email/suppression';
 import { logger } from '$lib/utils/logger';
 
 const TEST_UNSUBSCRIBE_URL = 'https://9takes.com/api/track/unsubscribe/test-preview';
+const TEST_REPERMISSION_YES_URL =
+	'https://9takes.com/thanks-for-staying?preview=reactivation-email';
+const TEST_REPERMISSION_NO_URL = 'https://9takes.com/goodbye?preview=reactivation-email';
 const EMAIL_PATTERN = /\S+@\S+\.\S+/;
 const QUEUE_PREVIEW_LIMIT = 200;
-const ACTIVITY_PREVIEW_LIMIT = 200;
+const ACTIVITY_RECENT_LIMIT = 200;
+const CLICKED_SEND_PAGE_SIZE = 500;
+const LOOKUP_BATCH_SIZE = 200;
 
 const BUCKET_LABELS: Record<ReactivationBucket, string> = {
 	cold: 'Cold',
@@ -40,6 +45,18 @@ const SEQUENCE_TO_BUCKET: Record<ReactivationSequenceKey, ReactivationBucket> = 
 	[REACTIVATION_DORMANT_KEY]: 'dormant',
 	[REACTIVATION_ZOMBIES_KEY]: 'zombies'
 };
+
+function resolveReactivationTestActionLinks(content: string): string {
+	return content
+		.replaceAll(
+			`https://9takes.com/api/email/re-permission/yes/${TRACKING_ID_PLACEHOLDER}`,
+			TEST_REPERMISSION_YES_URL
+		)
+		.replaceAll(
+			`https://9takes.com/api/email/re-permission/no/${TRACKING_ID_PLACEHOLDER}`,
+			TEST_REPERMISSION_NO_URL
+		);
+}
 
 type SequenceRow = {
 	id: string;
@@ -248,6 +265,14 @@ function emptyEnrollmentEngagement(): EnrollmentEngagement {
 	};
 }
 
+function chunkValues<T>(values: T[], size = LOOKUP_BATCH_SIZE): T[][] {
+	const chunks: T[][] = [];
+	for (let index = 0; index < values.length; index += size) {
+		chunks.push(values.slice(index, index + size));
+	}
+	return chunks;
+}
+
 function aggregateEnrollmentEngagement(rows: EmailSendEngagementRow[]) {
 	const byEnrollment = new Map<string, EnrollmentEngagement>();
 
@@ -327,6 +352,87 @@ async function buildCandidatePreview(
 	};
 }
 
+async function loadRecentAndClickedReactivationEnrollments(
+	supabase: App.Locals['supabase'],
+	sequenceIds: string[]
+): Promise<EnrollmentRow[]> {
+	if (sequenceIds.length === 0) return [];
+
+	const { data: recentData, error: recentError } = await supabase
+		.from('email_sequence_enrollments')
+		.select(
+			'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
+		)
+		.in('sequence_id', sequenceIds)
+		.order('enrolled_at', { ascending: false })
+		.order('id', { ascending: false })
+		.limit(ACTIVITY_RECENT_LIMIT);
+
+	if (recentError) throw recentError;
+
+	const recentRows = (recentData ?? []) as EnrollmentRow[];
+	const recentIds = new Set(recentRows.map((row) => row.id));
+	const clickedEnrollmentIds = new Set<string>();
+
+	for (let from = 0; ; from += CLICKED_SEND_PAGE_SIZE) {
+		const { data, error } = await supabase
+			.from('email_sends')
+			.select('sequence_enrollment_id')
+			.in('sequence_id', sequenceIds)
+			.not('sequence_enrollment_id', 'is', null)
+			.or('clicked_at.not.is.null,click_count.gt.0')
+			.order('sent_at', { ascending: false })
+			.range(from, from + CLICKED_SEND_PAGE_SIZE - 1);
+
+		if (error) throw error;
+
+		const page = (data ?? []) as Array<{ sequence_enrollment_id: string | null }>;
+		for (const row of page) {
+			if (row.sequence_enrollment_id && !recentIds.has(row.sequence_enrollment_id)) {
+				clickedEnrollmentIds.add(row.sequence_enrollment_id);
+			}
+		}
+		if (page.length < CLICKED_SEND_PAGE_SIZE) break;
+	}
+
+	const historicalClickedRows: EnrollmentRow[] = [];
+	for (const enrollmentIdBatch of chunkValues([...clickedEnrollmentIds])) {
+		const { data, error } = await supabase
+			.from('email_sequence_enrollments')
+			.select(
+				'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
+			)
+			.in('sequence_id', sequenceIds)
+			.in('id', enrollmentIdBatch);
+
+		if (error) throw error;
+		historicalClickedRows.push(...((data ?? []) as EnrollmentRow[]));
+	}
+
+	return [...recentRows, ...historicalClickedRows];
+}
+
+async function loadEnrollmentEngagementRows(
+	supabase: App.Locals['supabase'],
+	enrollmentIds: string[]
+): Promise<EmailSendEngagementRow[]> {
+	const rows: EmailSendEngagementRow[] = [];
+
+	for (const enrollmentIdBatch of chunkValues(enrollmentIds)) {
+		const { data, error } = await supabase
+			.from('email_sends')
+			.select(
+				'id, sequence_enrollment_id, status, sent_at, opened_at, open_count, clicked_at, click_count, unsubscribed_at, bounced_at'
+			)
+			.in('sequence_enrollment_id', enrollmentIdBatch);
+
+		if (error) throw error;
+		rows.push(...((data ?? []) as EmailSendEngagementRow[]));
+	}
+
+	return rows;
+}
+
 export const load: PageServerLoad = async ({ locals }) => {
 	const session = await assertAdmin(locals);
 	const supabase = locals.supabase;
@@ -371,16 +477,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 						.order('next_send_at', { ascending: true })
 						.limit(QUEUE_PREVIEW_LIMIT)
 				: Promise.resolve({ data: [], error: null }),
-			sequenceIds.length
-				? supabase
-						.from('email_sequence_enrollments')
-						.select(
-							'id, sequence_id, user_id, recipient_email, recipient_source, recipient_source_id, status, current_step_number, next_step_number, enrolled_at, next_send_at, last_sent_at, exit_reason, failure_count, last_error, updated_at'
-						)
-						.in('sequence_id', sequenceIds)
-						.order('enrolled_at', { ascending: false })
-						.limit(ACTIVITY_PREVIEW_LIMIT)
-				: Promise.resolve({ data: [], error: null }),
+			loadRecentAndClickedReactivationEnrollments(supabase, sequenceIds),
 			buildCandidatePreview(supabase)
 		]);
 
@@ -389,9 +486,6 @@ export const load: PageServerLoad = async ({ locals }) => {
 	}
 	if (enrollmentsResult.error) {
 		throw enrollmentsResult.error;
-	}
-	if (activityEnrollmentsResult.error) {
-		throw activityEnrollmentsResult.error;
 	}
 
 	const steps = (stepsResult.data ?? []) as DbStepRow[];
@@ -434,6 +528,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 					recipientCreatedAt: sampleCreatedAt(sequenceKey)
 				})
 			);
+			const previewHtmlContent = resolveReactivationTestActionLinks(prepared.htmlContent);
 
 			return {
 				id: step.id,
@@ -463,7 +558,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 				preview_html: generateEmailHtml({
 					subject: prepared.subject,
 					preheader: prepared.preheader,
-					content: prepared.htmlContent,
+					content: previewHtmlContent,
 					recipientName: 'DJ',
 					unsubscribeUrl: TEST_UNSUBSCRIBE_URL,
 					includeFooter: true
@@ -474,8 +569,15 @@ export const load: PageServerLoad = async ({ locals }) => {
 		});
 
 	const enrollmentRows = (enrollmentsResult.data ?? []) as EnrollmentRow[];
-	const activityEnrollmentRows = (activityEnrollmentsResult.data ?? []) as EnrollmentRow[];
-	const listedEnrollments = [...enrollmentRows, ...activityEnrollmentRows];
+	const activityEnrollmentRows = activityEnrollmentsResult;
+	const listedEnrollments = [
+		...new Map(
+			[...enrollmentRows, ...activityEnrollmentRows].map((enrollment) => [
+				enrollment.id,
+				enrollment
+			])
+		).values()
+	];
 	const listedUserIds = [
 		...new Set(listedEnrollments.map((enrollment) => enrollment.user_id).filter(Boolean))
 	] as string[];
@@ -485,48 +587,36 @@ export const load: PageServerLoad = async ({ locals }) => {
 	>();
 
 	if (listedUserIds.length > 0) {
-		const { data: queueProfiles, error: queueProfilesError } = await supabase
-			.from('profiles')
-			.select('id, created_at, first_name, username')
-			.in('id', listedUserIds);
+		for (const userIdBatch of chunkValues(listedUserIds)) {
+			const { data: queueProfiles, error: queueProfilesError } = await supabase
+				.from('profiles')
+				.select('id, created_at, first_name, username')
+				.in('id', userIdBatch);
 
-		if (queueProfilesError) {
-			throw queueProfilesError;
-		}
+			if (queueProfilesError) throw queueProfilesError;
 
-		for (const profile of queueProfiles ?? []) {
-			profileById.set(profile.id, {
-				created_at: profile.created_at,
-				first_name: profile.first_name,
-				username: profile.username
-			});
+			for (const profile of queueProfiles ?? []) {
+				profileById.set(profile.id, {
+					created_at: profile.created_at,
+					first_name: profile.first_name,
+					username: profile.username
+				});
+			}
 		}
 	}
 
 	const listedEnrollmentIds = [...new Set(listedEnrollments.map((enrollment) => enrollment.id))];
 	const listedEmails = listedEnrollments.map((enrollment) => enrollment.recipient_email);
-	const [engagementResult, suppressionLookup] = await Promise.all([
-		listedEnrollmentIds.length
-			? supabase
-					.from('email_sends')
-					.select(
-						'id, sequence_enrollment_id, status, sent_at, opened_at, open_count, clicked_at, click_count, unsubscribed_at, bounced_at'
-					)
-					.in('sequence_enrollment_id', listedEnrollmentIds)
-			: Promise.resolve({ data: [], error: null }),
+	const [engagementRows, suppressionLookup] = await Promise.all([
+		loadEnrollmentEngagementRows(supabase, listedEnrollmentIds),
 		loadEmailSuppressionStatus(supabase, listedEmails)
 	]);
 
-	if (engagementResult.error) {
-		throw engagementResult.error;
-	}
 	if (suppressionLookup.error) {
 		throw suppressionLookup.error;
 	}
 
-	const engagementByEnrollment = aggregateEnrollmentEngagement(
-		(engagementResult.data ?? []) as EmailSendEngagementRow[]
-	);
+	const engagementByEnrollment = aggregateEnrollmentEngagement(engagementRows);
 
 	function getEnrollmentActivity(enrollment: EnrollmentRow) {
 		const engagement = engagementByEnrollment.get(enrollment.id) ?? emptyEnrollmentEngagement();
@@ -874,14 +964,19 @@ export const actions: Actions = {
 				recipientCreatedAt: sampleCreatedAt(sequenceKey)
 			})
 		);
+		const testHtmlContent = resolveReactivationTestActionLinks(prepared.htmlContent);
+		const testPlainTextContent = prepared.plainText
+			? resolveReactivationTestActionLinks(prepared.plainText)
+			: prepared.plainText;
 
 		const result = await sendEmail({
 			to: email,
 			subject: `[TEST] ${prepared.subject}`,
 			preheader: prepared.preheader,
-			htmlContent: prepared.htmlContent,
-			plainTextContent: prepared.plainText,
+			htmlContent: testHtmlContent,
+			plainTextContent: testPlainTextContent,
 			recipientName: 'there',
+			linkAttribution: prepared.linkAttribution,
 			unsubscribeUrl: TEST_UNSUBSCRIBE_URL,
 			includeFooter: true
 		});

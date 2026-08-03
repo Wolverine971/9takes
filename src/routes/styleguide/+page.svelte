@@ -11,13 +11,24 @@
     re-defined here.
   - Theme toggle uses the canonical production theme store so labels, root
     tokens, browser chrome, and rendered specimens cannot drift apart.
-  - No new npm packages. Reuses Spinner / ThemeToggle if useful, but keeps
-    canonical specs inline so this file does not silently track other files.
+  - No new npm packages. Production atoms are rendered directly when they
+    exist; bespoke specimens are provisional and tracked for replacement.
 -->
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 	import type { PageData } from './$types';
-	import { Button, EmptyState, ErrorState } from '$lib/components/atoms';
+	import {
+		Button,
+		EmptyState,
+		ErrorState,
+		Field,
+		Input,
+		SectionKicker,
+		Select,
+		Skeleton,
+		Spinner,
+		Textarea
+	} from '$lib/components/atoms';
 	import { applyTheme, themePreference, type ThemePreference } from '$lib/stores/theme';
 	// Listing + callout atoms (extracted 2026-06-10, design audit) — build rule:
 	// if it isn't on /styleguide, it doesn't exist.
@@ -439,7 +450,7 @@
 			</div>
 		</aside>
 
-		<main class="sg-main">
+		<div class="sg-main">
 			<!-- =====================================================
 			  §00 — HEADER / TITLE
 			===================================================== -->
@@ -714,9 +725,9 @@
 				<span class="mono sg-kicker">§11 · COMPONENTS</span>
 				<h2 class="sg-h2">Base components</h2>
 				<p class="sg-section-lede">
-					Canonical visual specs for the atoms 9takes ships (or wants to ship in Phase 3). Buttons
-					and cards have no resting glow; hover is a solid color shift, not a gradient. Borders do
-					the elevation work.
+					Production atoms rendered from the same components used across 9takes. Buttons and cards
+					have no resting glow; hover is a solid color shift, not a gradient. Borders do the
+					elevation work.
 				</p>
 
 				<!-- ----- Buttons ----- -->
@@ -727,7 +738,7 @@
 							<span class="mono sg-btn-label">{variant}</span>
 							<div class="sg-btn-line">
 								{#each buttonSizes as size}
-									<button type="button" class={`sg-btn sg-btn--${variant} sg-btn--${size}`}>
+									<Button {variant} {size}>
 										{variant === 'primary'
 											? 'Drop your take'
 											: variant === 'secondary'
@@ -735,11 +746,9 @@
 												: variant === 'ghost'
 													? 'Skip'
 													: 'Delete'}
-									</button>
+									</Button>
 								{/each}
-								<button type="button" class={`sg-btn sg-btn--${variant} sg-btn--md`} disabled>
-									Disabled
-								</button>
+								<Button {variant} size="md" disabled>Disabled</Button>
 							</div>
 						</div>
 					{/each}
@@ -748,26 +757,34 @@
 				<!-- ----- Form controls ----- -->
 				<h3 class="sg-h3">Form controls</h3>
 				<div class="sg-form-grid">
-					<label class="sg-field">
-						<span class="mono sg-field-label">TEXT INPUT</span>
-						<input class="sg-input" type="text" placeholder="What did you read in the room?" />
-					</label>
-					<label class="sg-field">
-						<span class="mono sg-field-label">SELECT</span>
-						<select class="sg-input">
-							<option>Choose your type…</option>
+					<Field
+						for="sg-take-prompt"
+						label="Take prompt"
+						help="Visible labels persist after the field has a value."
+					>
+						<Input
+							id="sg-take-prompt"
+							placeholder="What did you read in the room?"
+							aria-describedby="sg-take-prompt-help"
+						/>
+					</Field>
+					<Field for="sg-type" label="Enneagram type">
+						<Select id="sg-type">
+							<option value="">Choose your type…</option>
 							{#each enneagramTypes as t}
-								<option>Type {t.num} · {t.name}</option>
+								<option value={t.num}>Type {t.num} · {t.name}</option>
 							{/each}
-						</select>
-					</label>
-					<label class="sg-field sg-field--full">
-						<span class="mono sg-field-label">TEXTAREA</span>
-						<textarea
-							class="sg-textarea"
-							rows="3"
-							placeholder="Drop your take, anonymously, before you see anyone else's…"></textarea>
-					</label>
+						</Select>
+					</Field>
+					<div class="sg-field-full">
+						<Field for="sg-take-body" label="Your take" optional>
+							<Textarea
+								id="sg-take-body"
+								rows={3}
+								placeholder="Drop your take, anonymously, before you see anyone else's…"
+							/>
+						</Field>
+					</div>
 				</div>
 
 				<!-- ----- Cards ----- -->
@@ -806,16 +823,27 @@
 				<h3 class="sg-h3">Spinner</h3>
 				<div class="sg-spinner-row">
 					<div class="sg-spinner-block">
-						<span class="sg-spinner sg-spinner--sm" role="status" aria-label="Loading"></span>
-						<span class="mono">SM · 16px</span>
+						<Spinner size="xs" decorative />
+						<span class="mono">XS · 16px</span>
 					</div>
 					<div class="sg-spinner-block">
-						<span class="sg-spinner sg-spinner--md" role="status" aria-label="Loading"></span>
-						<span class="mono">MD · 24px</span>
+						<Spinner size="md" decorative />
+						<span class="mono">MD · 32px</span>
 					</div>
 					<div class="sg-spinner-block">
-						<span class="sg-spinner sg-spinner--lg" role="status" aria-label="Loading"></span>
-						<span class="mono">LG · 36px</span>
+						<Spinner size="lg" decorative />
+						<span class="mono">LG · 48px</span>
+					</div>
+				</div>
+
+				<!-- ----- Skeleton ----- -->
+				<h3 class="sg-h3">Skeleton</h3>
+				<div class="sg-skeleton-demo" role="status" aria-label="Loading content preview">
+					<Skeleton variant="circular" width={48} decorative />
+					<div class="sg-skeleton-lines">
+						<Skeleton variant="text" width="38%" decorative />
+						<Skeleton variant="text" width="100%" decorative />
+						<Skeleton variant="text" width="72%" decorative />
 					</div>
 				</div>
 
@@ -832,89 +860,49 @@
 							<code>--stone-edge</code> border, <code>--shadow-lg</code>, max-w-md.
 						</p>
 						<footer class="sg-modal-footer">
-							<button type="button" class="sg-btn sg-btn--ghost sg-btn--md">Cancel</button>
-							<button type="button" class="sg-btn sg-btn--primary sg-btn--md">Continue</button>
+							<Button variant="ghost">Cancel</Button>
+							<Button variant="primary">Continue</Button>
 						</footer>
 					</div>
 				</div>
 
 				<!-- ----- Empty state ----- -->
 				<h3 class="sg-h3">Empty state</h3>
-				<p class="sg-section-lede">
-					Visual spec on the left, live <code>&lt;EmptyState&gt;</code> atom on the right. Pages should
-					use the atom; spec stays for reference.
-				</p>
-				<div class="sg-state-pair">
-					<div class="sg-state sg-state--empty">
-						<svg
-							class="sg-state-icon"
-							viewBox="0 0 48 48"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="1.5"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							aria-hidden="true"
-						>
-							<circle cx="20" cy="20" r="11" />
-							<line x1="29" y1="29" x2="40" y2="40" />
-						</svg>
-						<h4 class="sg-state-title">No results found</h4>
-						<p class="sg-state-body">Try a different search term.</p>
-						<button type="button" class="sg-btn sg-btn--primary sg-btn--sm">Clear filters</button>
-					</div>
-					<div class="sg-state-live">
-						<EmptyState title="No results found" body="Try a different search term.">
-							{#snippet cta()}
-								<Button variant="primary" size="sm">Clear filters</Button>
-							{/snippet}
-						</EmptyState>
-					</div>
+				<div class="sg-state-live">
+					<EmptyState
+						title="No results found"
+						body="Try a different search term."
+						headingLevel="h4"
+					>
+						{#snippet cta()}
+							<Button variant="primary" size="sm">Clear filters</Button>
+						{/snippet}
+					</EmptyState>
 				</div>
 
 				<!-- ----- Error state ----- -->
 				<h3 class="sg-h3">Error state</h3>
-				<p class="sg-section-lede">
-					Visual spec on the left, live <code>&lt;ErrorState&gt;</code> atom on the right.
-				</p>
-				<div class="sg-state-pair">
-					<div class="sg-state sg-state--error">
-						<svg
-							class="sg-state-icon sg-state-icon--error"
-							viewBox="0 0 48 48"
-							fill="none"
-							stroke="currentColor"
-							stroke-width="1.5"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							aria-hidden="true"
-						>
-							<circle cx="24" cy="24" r="18" />
-							<line x1="24" y1="14" x2="24" y2="26" />
-							<line x1="24" y1="32" x2="24" y2="34" />
-						</svg>
-						<h4 class="sg-state-title sg-state-title--error">Something went wrong</h4>
-						<p class="sg-state-body">We couldn&rsquo;t load this section.</p>
-						<button type="button" class="sg-btn sg-btn--danger sg-btn--sm">Retry</button>
-					</div>
-					<div class="sg-state-live">
-						<ErrorState title="Something went wrong" body="We couldn’t load this section.">
-							{#snippet cta()}
-								<Button variant="danger" size="sm">Retry</Button>
-							{/snippet}
-						</ErrorState>
-					</div>
+				<div class="sg-state-live">
+					<ErrorState
+						title="Something went wrong"
+						body="We couldn’t load this section."
+						headingLevel="h4"
+					>
+						{#snippet cta()}
+							<Button variant="danger" size="sm">Retry</Button>
+						{/snippet}
+					</ErrorState>
 				</div>
 
 				<!-- ----- Section kicker ----- -->
 				<h3 class="sg-h3">Section kicker</h3>
 				<p class="sg-section-lede">
-					The <code>§NN · LABEL</code> mono pattern V5 uses everywhere. Spec for the future
-					<code>&lt;SectionKicker&gt;</code> atom (Phase 3).
+					The canonical <code>&lt;SectionKicker&gt;</code> atom for the
+					<code>§NN · LABEL</code> mono pattern V5 uses across public surfaces.
 				</p>
 				<div class="sg-kicker-stack">
 					{#each sectionKickerExamples as k}
-						<span class="mono sg-kicker">§{k.num} · {k.label}</span>
+						<SectionKicker num={k.num} label={k.label} />
 					{/each}
 				</div>
 
@@ -982,6 +970,7 @@
 				<div class="sg-hero-demo">
 					<IndexHero
 						title="The hero, decoded."
+						headingLevel="h4"
 						line1="One reusable hero. Five listing pages used to carry identical copies."
 						line2="Pool-alpha and grain custom properties inherit from the page wrapper."
 						imageSrc="/greek_pantheon.webp"
@@ -1206,7 +1195,7 @@
 					<a href="/design-preview/v5">/design-preview/v5</a>
 				</p>
 			</footer>
-		</main>
+		</div>
 	</div>
 </div>
 
@@ -2098,87 +2087,6 @@
 		align-items: center;
 	}
 
-	.sg-btn {
-		font-family: var(--font-family, 'Inter Variable', 'Inter', system-ui, sans-serif);
-		font-weight: 600;
-		border-radius: 0.625rem;
-		border: 1px solid transparent;
-		cursor: pointer;
-		line-height: 1.2;
-		transition:
-			background 0.18s ease,
-			border-color 0.18s ease,
-			color 0.18s ease;
-
-		&:focus-visible {
-			outline: 2px solid var(--lamp-glow);
-			outline-offset: 2px;
-		}
-
-		&:disabled {
-			opacity: 0.45;
-			cursor: not-allowed;
-		}
-	}
-
-	/* sizes */
-	.sg-btn--sm {
-		padding: 6px 12px;
-		font-size: 13px;
-	}
-	.sg-btn--md {
-		padding: 8px 16px;
-		font-size: 15px;
-	}
-	.sg-btn--lg {
-		padding: 12px 24px;
-		font-size: 17px;
-	}
-
-	/* variants */
-	.sg-btn--primary {
-		background: var(--lamp-glow);
-		color: var(--cta-text, var(--night-deep));
-		border-color: var(--lamp-glow);
-
-		&:hover:not(:disabled) {
-			background: var(--lamp-deep);
-			border-color: var(--lamp-deep);
-		}
-	}
-
-	.sg-btn--secondary {
-		background: transparent;
-		color: var(--ink-bright);
-		border-color: var(--stone-edge);
-
-		&:hover:not(:disabled) {
-			border-color: var(--ink-dim);
-			background: var(--stone-mid);
-		}
-	}
-
-	.sg-btn--ghost {
-		background: transparent;
-		color: var(--lamp-glow);
-		border-color: transparent;
-
-		&:hover:not(:disabled) {
-			background: var(--lamp-soft);
-		}
-	}
-
-	.sg-btn--danger {
-		background: var(--danger-surface, #ef4444);
-		color: var(--text-on-danger, #0a0807);
-		border-color: var(--danger-surface, #ef4444);
-
-		&:hover:not(:disabled) {
-			background: var(--danger-surface-hover, #f87171);
-			border-color: var(--danger-surface-hover, #f87171);
-		}
-	}
-
 	/* ----- §11 form controls ----- */
 	.sg-form-grid {
 		display: grid;
@@ -2194,48 +2102,8 @@
 		}
 	}
 
-	.sg-field {
-		display: flex;
-		flex-direction: column;
-		gap: 6px;
-	}
-
-	.sg-field--full {
+	.sg-field-full {
 		grid-column: 1 / -1;
-	}
-
-	.sg-field-label {
-		color: var(--lamp-glow);
-		font-size: 10px;
-	}
-
-	.sg-input,
-	.sg-textarea {
-		font-family: var(--font-family, 'Inter Variable', 'Inter', system-ui, sans-serif);
-		font-size: 16px;
-		color: var(--ink-bright);
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		padding: 10px 12px;
-		transition:
-			border-color 0.18s ease,
-			box-shadow 0.18s ease;
-
-		&::placeholder {
-			color: var(--ink-dim);
-		}
-
-		&:focus {
-			outline: none;
-			border-color: var(--lamp-glow);
-			box-shadow: 0 0 0 2px var(--lamp-soft);
-		}
-	}
-
-	.sg-textarea {
-		resize: vertical;
-		min-height: 80px;
 	}
 
 	/* ----- §11 cards ----- */
@@ -2349,41 +2217,22 @@
 		gap: 8px;
 	}
 
-	.sg-spinner {
-		display: inline-block;
-		border-style: solid;
-		border-color: var(--stone-edge);
-		border-top-color: var(--lamp-glow);
-		border-radius: 9999px;
-		animation: sg-spin 0.8s linear infinite;
+	.sg-skeleton-demo {
+		display: grid;
+		grid-template-columns: auto minmax(0, 1fr);
+		gap: 16px;
+		align-items: center;
+		padding: 20px;
+		border: 1px solid var(--stone-edge);
+		border-radius: 1rem;
+		background: var(--stone-warm);
 	}
 
-	.sg-spinner--sm {
-		width: 16px;
-		height: 16px;
-		border-width: 2px;
-	}
-	.sg-spinner--md {
-		width: 24px;
-		height: 24px;
-		border-width: 3px;
-	}
-	.sg-spinner--lg {
-		width: 36px;
-		height: 36px;
-		border-width: 3px;
-	}
-
-	@keyframes sg-spin {
-		to {
-			transform: rotate(360deg);
-		}
-	}
-
-	@media (prefers-reduced-motion: reduce) {
-		.sg-spinner {
-			animation-duration: 4s;
-		}
+	.sg-skeleton-lines {
+		display: flex;
+		min-width: 0;
+		flex-direction: column;
+		gap: 4px;
 	}
 
 	/* ----- §11 modal preview ----- */
@@ -2442,17 +2291,6 @@
 	}
 
 	/* ----- §11 empty / error state ----- */
-	.sg-state-pair {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 16px;
-		margin-top: 8px;
-
-		@media (max-width: 720px) {
-			grid-template-columns: 1fr;
-		}
-	}
-
 	.sg-state-live {
 		border: 1px dashed var(--stone-edge);
 		border-radius: 1rem;
@@ -2461,48 +2299,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-	}
-
-	.sg-state {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		gap: 8px;
-		padding: 40px 24px;
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		background: var(--stone-warm);
-	}
-
-	.sg-state-icon {
-		width: 48px;
-		height: 48px;
-		color: var(--ink-dim);
-	}
-
-	.sg-state-icon--error {
-		color: var(--error, #ef4444);
-	}
-
-	.sg-state-title {
-		font-family: var(--font-display, 'Inter Variable', 'Inter', system-ui, sans-serif);
-		font-weight: 700;
-		font-size: 18px;
-		color: var(--ink-bright);
-		letter-spacing: -0.01em;
-		margin-top: 4px;
-	}
-
-	.sg-state-title--error {
-		color: var(--error, #ef4444);
-	}
-
-	.sg-state-body {
-		font-size: 14px;
-		color: var(--ink-mid);
-		margin-bottom: 8px;
-		max-width: 36ch;
+		min-height: 13rem;
 	}
 
 	/* ----- §11 section kickers ----- */

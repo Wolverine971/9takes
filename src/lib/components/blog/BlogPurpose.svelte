@@ -314,7 +314,7 @@
 		border-radius: 0.625rem;
 		background: var(--night-deep);
 		color: var(--ink-bright);
-		font-size: 0.9rem;
+		font-size: 1rem;
 		line-height: 1.2;
 		transition:
 			border-color 0.2s ease,
@@ -337,6 +337,10 @@
 
 		&[aria-invalid='true'] {
 			border-color: var(--error);
+		}
+
+		@media (min-width: 768px) {
+			font-size: 0.9rem;
 		}
 	}
 

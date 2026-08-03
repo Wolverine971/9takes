@@ -75,17 +75,11 @@
 </div>
 
 <style lang="scss">
-	:root {
-		--primary-rgb: 114, 33, 243;
-		--blob-color-1: rgb(var(--primary-rgb));
-		--blob-color-2: #801eff;
-	}
-
 	.jumbo-card {
 		display: flex;
-		border: 2px solid rgba(var(--primary-rgb), 0.8);
+		border: 2px solid color-mix(in srgb, var(--lamp-glow) 80%, transparent);
 		border-radius: 0.25rem;
-		background-color: rgba(var(--primary-rgb), 0.15);
+		background-color: color-mix(in srgb, var(--lamp-glow) 15%, var(--night-deep));
 		overflow: hidden;
 		position: relative;
 		z-index: 10;
@@ -102,8 +96,8 @@
 
 	.jumbo-card-overlay {
 		background: linear-gradient(
-			rgba(var(--primary-rgb), 0.15),
-			rgba(var(--primary-rgb), 0.15) 3px,
+			color-mix(in srgb, var(--lamp-glow) 15%, transparent),
+			color-mix(in srgb, var(--lamp-glow) 15%, transparent) 3px,
 			transparent 3px,
 			transparent 9px
 		);
@@ -145,7 +139,7 @@
 		position: relative;
 		z-index: 3;
 		margin: 1rem;
-		border: 1px solid rgba(var(--primary-rgb), 0.5);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 50%, transparent);
 		border-radius: 0.625rem;
 		display: flex;
 		align-items: center;
@@ -193,6 +187,17 @@
 		:global(.jumbo-name),
 		:global(.link) {
 			text-shadow: 2px 2px #0e0e0e;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.jumbo-card-overlay,
+		.jumbo-card-image.home {
+			animation: none;
+		}
+
+		.jumbo-card-image {
+			transition: none;
 		}
 	}
 </style>

@@ -3,6 +3,7 @@
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import type { PageData } from './$types';
 
@@ -16,7 +17,6 @@
 	let noteTitle = $state('');
 
 	// Completion form state
-	let showCompleteModal = $state(false);
 	let sessionSummary = $state('');
 	let nextSteps = $state('');
 	let clientProgress = $state('');
@@ -34,6 +34,14 @@
 	function copyQuestion(question: string) {
 		navigator.clipboard.writeText(question);
 		notifications.success('Question copied!', 2000);
+	}
+
+	function openCompleteModal() {
+		getModal('complete-session-modal')?.open();
+	}
+
+	function closeCompleteModal() {
+		getModal('complete-session-modal')?.close();
 	}
 
 	function formatDate(dateStr: string | null): string {
@@ -162,7 +170,7 @@
 				{/if}
 
 				{#if session.status === 'in_progress'}
-					<Button onclick={() => (showCompleteModal = true)}>Complete Session</Button>
+					<Button onclick={openCompleteModal}>Complete Session</Button>
 				{/if}
 			</div>
 		</div>
@@ -525,76 +533,78 @@
 </div>
 
 <!-- Complete Session Modal -->
-{#if showCompleteModal}
-	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-	<div
-		class="modal-overlay"
-		onclick={(e) => {
-			if (e.target === e.currentTarget) showCompleteModal = false;
-		}}
-	>
-		<div class="modal complete-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-			<div class="modal-header">
-				<h2 id="modal-title">Complete Session</h2>
-				<button class="close-btn" onclick={() => (showCompleteModal = false)}>&times;</button>
-			</div>
-			<form
-				method="POST"
-				action="?/completeSession"
-				use:enhance={() => {
-					return async ({ result }) => {
-						if (result.type === 'success') {
-							showCompleteModal = false;
-							notifications.success('Session completed!', 3000);
-							invalidateAll();
-						}
-					};
-				}}
+<Modal
+	id="complete-session-modal"
+	name="Complete session"
+	labelledBy="complete-session-modal-title"
+	maxWidth="550px"
+	navTop
+	contentPadding="0"
+>
+	<div class="modal complete-modal">
+		<div class="modal-header">
+			<h2 id="complete-session-modal-title">Complete Session</h2>
+			<button
+				type="button"
+				class="close-btn"
+				aria-label="Close complete session"
+				onclick={closeCompleteModal}>&times;</button
 			>
-				<div class="modal-body">
-					<div class="form-group">
-						<label for="sessionSummary">Session Summary *</label>
-						<textarea
-							id="sessionSummary"
-							name="summary"
-							bind:value={sessionSummary}
-							rows="4"
-							required
-							placeholder="Key insights, breakthroughs, and important observations from this session..."
-						></textarea>
-					</div>
-
-					<div class="form-group">
-						<label for="nextSteps">Next Steps / Homework</label>
-						<textarea
-							id="nextSteps"
-							name="nextSteps"
-							bind:value={nextSteps}
-							rows="3"
-							placeholder="Actions for the client before next session..."></textarea>
-					</div>
-
-					<div class="form-group">
-						<label for="clientProgress">Client Progress Notes</label>
-						<textarea
-							id="clientProgress"
-							name="clientProgress"
-							bind:value={clientProgress}
-							rows="3"
-							placeholder="Any shifts in type awareness, trust layer movement, breakthroughs..."
-						></textarea>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<Button type="button" variant="secondary" onclick={() => (showCompleteModal = false)}>
-						Cancel
-					</Button>
-					<Button type="submit" disabled={!sessionSummary.trim()}>Complete Session</Button>
-				</div>
-			</form>
 		</div>
+		<form
+			method="POST"
+			action="?/completeSession"
+			use:enhance={() => {
+				return async ({ result }) => {
+					if (result.type === 'success') {
+						closeCompleteModal();
+						notifications.success('Session completed!', 3000);
+						invalidateAll();
+					}
+				};
+			}}
+		>
+			<div class="modal-body">
+				<div class="form-group">
+					<label for="sessionSummary">Session Summary *</label>
+					<textarea
+						id="sessionSummary"
+						name="summary"
+						bind:value={sessionSummary}
+						rows="4"
+						required
+						placeholder="Key insights, breakthroughs, and important observations from this session..."
+					></textarea>
+				</div>
+
+				<div class="form-group">
+					<label for="nextSteps">Next Steps / Homework</label>
+					<textarea
+						id="nextSteps"
+						name="nextSteps"
+						bind:value={nextSteps}
+						rows="3"
+						placeholder="Actions for the client before next session..."></textarea>
+				</div>
+
+				<div class="form-group">
+					<label for="clientProgress">Client Progress Notes</label>
+					<textarea
+						id="clientProgress"
+						name="clientProgress"
+						bind:value={clientProgress}
+						rows="3"
+						placeholder="Any shifts in type awareness, trust layer movement, breakthroughs..."
+					></textarea>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<Button type="button" variant="secondary" onclick={closeCompleteModal}>Cancel</Button>
+				<Button type="submit" disabled={!sessionSummary.trim()}>Complete Session</Button>
+			</div>
+		</form>
 	</div>
-{/if}
+</Modal>
 
 <style>
 	.session-detail {
@@ -1202,20 +1212,6 @@
 	/* Button visuals now owned by the Button atom. */
 
 	/* Modal */
-	.modal-overlay {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(0, 0, 0, 0.5);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 1000;
-		padding: 1rem;
-	}
-
 	.modal {
 		background: var(--stone-warm);
 		border-radius: 1rem;

@@ -1504,7 +1504,7 @@
 		padding: 0.875rem 1rem;
 		border: 1px solid color-mix(in srgb, var(--warning) 45%, transparent);
 		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--warning) 9%, var(--night));
+		background: color-mix(in srgb, var(--warning) 9%, var(--night-deep));
 		color: var(--ink-bright);
 	}
 

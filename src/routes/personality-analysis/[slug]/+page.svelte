@@ -28,7 +28,7 @@
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
-	import { SectionKicker } from '$lib/components/atoms';
+	import { SectionKicker, Spinner } from '$lib/components/atoms';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
 	import NineChorus from '$lib/components/blog/NineChorus.svelte';
 	import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
@@ -684,7 +684,7 @@
 			</div>
 		{:else if commentsVisible}
 			<div class="loading-placeholder">
-				<div class="loading-spinner"></div>
+				<Spinner size="md" label="Loading discussion" />
 			</div>
 		{/if}
 
@@ -1444,30 +1444,6 @@
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-edge);
 		border-radius: 10px;
-	}
-
-	.loading-spinner {
-		width: 30px;
-		height: 30px;
-		border: 3px solid var(--stone-mid);
-		border-top: 3px solid var(--lamp-glow);
-		border-radius: 50%;
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-
-	@media (prefers-reduced-motion: reduce) {
-		.loading-spinner {
-			animation: none;
-		}
 	}
 
 	/* =========================================================

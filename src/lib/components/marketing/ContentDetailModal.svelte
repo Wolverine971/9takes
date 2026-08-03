@@ -3,6 +3,9 @@
 	import { fade, slide } from 'svelte/transition';
 	import type { ContentItem, Campaign } from '$lib/types/marketing';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+
+	const MODAL_ID = 'marketing-content-detail';
 
 	let {
 		open = $bindable(false),
@@ -40,6 +43,18 @@
 			isEditMode = false;
 			isThreadView = false;
 			threadBlocks = splitIntoThreads(contentItem.content_text || '');
+		}
+	});
+
+	$effect(() => {
+		if (open && contentItem) {
+			getModal(MODAL_ID)?.open(() => {
+				open = false;
+				isEditMode = false;
+				onclose?.();
+			});
+		} else {
+			getModal(MODAL_ID)?.close();
 		}
 	});
 
@@ -192,9 +207,7 @@
 	}
 
 	function closeModal() {
-		open = false;
-		isEditMode = false;
-		onclose?.();
+		getModal(MODAL_ID)?.close();
 	}
 
 	function handleCopy() {
@@ -206,9 +219,16 @@
 	}
 </script>
 
-{#if open && contentItem}
-	<div class="modal-overlay" onclick={closeModal} role="presentation">
-		<div class="modal-dialog" onclick={(e) => e.stopPropagation()} role="dialog">
+<Modal
+	id={MODAL_ID}
+	name="Content details"
+	labelledBy="marketing-content-detail-title"
+	maxWidth="900px"
+	navTop
+	contentPadding="0"
+>
+	{#if contentItem}
+		<div class="modal-dialog">
 			<!-- Header -->
 			<div class="modal-header" style="border-bottom-color: {platformStyle.bg}">
 				<div class="header-left">
@@ -265,7 +285,9 @@
 						{/if}
 					</div>
 					<div class="header-info">
-						<span class="platform-name">{contentItem.platform}</span>
+						<span id="marketing-content-detail-title" class="platform-name"
+							>{contentItem.platform} content</span
+						>
 						<span class="status-badge {getStatusClass(contentItem.status)}"
 							>{contentItem.status || 'draft'}</span
 						>
@@ -581,21 +603,10 @@
 				{/if}
 			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
+</Modal>
 
 <style>
-	.modal-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.6);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 50;
-		padding: 1rem;
-	}
-
 	.modal-dialog {
 		background: var(--stone-warm);
 		border: 1px solid var(--stone-warm);

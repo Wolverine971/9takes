@@ -5,7 +5,7 @@ import {
 	WELCOME_SEQUENCE_KEY,
 	type WelcomeSequenceContent
 } from './welcome-sequence-content';
-import { TRACKING_ID_PLACEHOLDER } from './base-template';
+import { TRACKING_ID_PLACEHOLDER, type EmailLinkAttribution } from './base-template';
 import {
 	getReactivationStep,
 	isReactivationSequenceKey,
@@ -211,6 +211,14 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 		reactivationOverrides.htmlContent,
 		reactivationOverrides.plainText
 	);
+	const linkAttribution: EmailLinkAttribution | undefined = isReactivation
+		? {
+				source: 'reactivation',
+				medium: 'email',
+				campaign: 'reactivation-sequence',
+				content: `${row.sequence_key}_step_${row.step_number}`
+			}
+		: undefined;
 
 	return {
 		recipient: {
@@ -228,7 +236,8 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 		htmlContent: renderSequenceTemplate(htmlTemplate, tokens, {
 			escapeHtmlValues: true
 		}),
-		plainText: plainTextTemplate ? renderSequenceTemplate(plainTextTemplate, tokens) : undefined
+		plainText: plainTextTemplate ? renderSequenceTemplate(plainTextTemplate, tokens) : undefined,
+		linkAttribution
 	};
 }
 

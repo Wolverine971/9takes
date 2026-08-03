@@ -21,6 +21,7 @@
 		imageSrc,
 		imageAlt = '',
 		imageMono = '',
+		headingLevel = 'h1',
 		meta,
 		actions
 	}: {
@@ -32,6 +33,8 @@
 		imageSrc: string;
 		imageAlt?: string;
 		imageMono?: string;
+		/** Keep h1 for page heroes; lower the level when the hero is embedded in documentation. */
+		headingLevel?: 'h1' | 'h2' | 'h3' | 'h4';
 		/** Optional mono meta row (e.g. Published / Last updated) between subheads and CTAs. */
 		meta?: Snippet;
 		actions?: Snippet;
@@ -48,7 +51,15 @@
 				<SectionKicker {num} {label} />
 			</div>
 
-			<h1 class="hero-title">{title}</h1>
+			{#if headingLevel === 'h4'}
+				<h4 class="hero-title">{title}</h4>
+			{:else if headingLevel === 'h3'}
+				<h3 class="hero-title">{title}</h3>
+			{:else if headingLevel === 'h2'}
+				<h2 class="hero-title">{title}</h2>
+			{:else}
+				<h1 class="hero-title">{title}</h1>
+			{/if}
 
 			<div class="scale-marker" aria-hidden="true">
 				{#each Array(11) as _, i}

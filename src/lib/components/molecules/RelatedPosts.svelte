@@ -2,6 +2,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
+	import { ErrorState, Spinner } from '$lib/components/atoms';
 	import {
 		buildPersonalityAnalysisPath,
 		buildPersonalityImagePath,
@@ -100,16 +101,17 @@
 	<section class="suggestions-container" aria-labelledby="loading-suggestions">
 		<h2 id="loading-suggestions" class="suggestions-title">Related Case Files</h2>
 		<div class="lazy-loading">
-			<div class="loading-spinner"></div>
-			<p>Loading related content...</p>
+			<Spinner size="md" label="Loading related content">Loading related content…</Spinner>
 		</div>
 	</section>
 {:else if error}
 	<section class="suggestions-container" aria-labelledby="error-suggestions">
 		<h2 id="error-suggestions" class="suggestions-title">Related Case Files</h2>
-		<div class="error">
-			<p>Unable to load related content</p>
-		</div>
+		<ErrorState
+			size="compact"
+			title="Related content unavailable"
+			body="Try refreshing the page."
+		/>
 	</section>
 {:else if sameNichePosts.length || sameEnneagramPosts.length}
 	<section class="suggestions-container" aria-labelledby="suggestions-title">
@@ -318,31 +320,6 @@
 		color: var(--ink-mid);
 	}
 
-	.loading-spinner {
-		width: 30px;
-		height: 30px;
-		border: 3px solid var(--stone-warm);
-		border-top: 3px solid var(--lamp-glow);
-		border-radius: 50%;
-		margin: 0 auto 1rem;
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-
-	.error {
-		padding: 1rem;
-		color: var(--error-text);
-		text-align: center;
-	}
-
 	@media (max-width: 420px) {
 		.person-name {
 			font-size: 0.75rem;
@@ -357,10 +334,6 @@
 
 		.grid-item:hover .grid-img {
 			transform: none;
-		}
-
-		.loading-spinner {
-			animation: none;
 		}
 	}
 </style>

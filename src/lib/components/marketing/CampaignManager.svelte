@@ -364,7 +364,12 @@
 		<div class="alert alert-success" transition:slide>
 			<span class="alert-bold">Success!</span>
 			{formSuccess}
-			<button class="alert-dismiss" onclick={() => (showFormSuccess = false)}>
+			<button
+				type="button"
+				class="alert-dismiss"
+				aria-label="Dismiss success message"
+				onclick={() => (showFormSuccess = false)}
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="14"
@@ -384,7 +389,12 @@
 		<div class="alert alert-error" transition:slide>
 			<span class="alert-bold">Error!</span>
 			{formError}
-			<button class="alert-dismiss" onclick={() => (formError = '')}>
+			<button
+				type="button"
+				class="alert-dismiss"
+				aria-label="Dismiss error message"
+				onclick={() => (formError = '')}
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="14"

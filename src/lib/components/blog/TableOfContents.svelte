@@ -41,6 +41,10 @@
 	let content: string = '';
 	let initialized = false;
 	let contentProcessed = false;
+	const MARQUEE_HOVER_DELAY = 500;
+	const MARQUEE_PIXELS_PER_SECOND = 28;
+	const MARQUEE_MIN_DURATION = 6;
+	const marqueeTimers = new Map<HTMLAnchorElement, ReturnType<typeof setTimeout>>();
 
 	interface TocItem {
 		id: string;
@@ -569,10 +573,99 @@
 		handleScroll();
 	}
 
+	function getTocLink(target: EventTarget | null): HTMLAnchorElement | null {
+		return target instanceof Element ? target.closest<HTMLAnchorElement>('a.toc-link') : null;
+	}
+
+	function restoreTocLink(link: HTMLAnchorElement) {
+		const timer = marqueeTimers.get(link);
+		if (timer) {
+			clearTimeout(timer);
+			marqueeTimers.delete(link);
+		}
+
+		const originalText = link.dataset.tocMarqueeText;
+		if (originalText && link.classList.contains('toc-marquee-active')) {
+			link.replaceChildren(document.createTextNode(originalText));
+		}
+
+		const originalTitle = link.dataset.tocMarqueeTitle;
+		if (originalTitle) {
+			link.setAttribute('title', originalTitle);
+			delete link.dataset.tocMarqueeTitle;
+		}
+
+		link.classList.remove('toc-marquee-active');
+		link.style.removeProperty('--toc-marquee-offset');
+		link.style.removeProperty('--toc-marquee-duration');
+	}
+
+	function startTocMarquee(link: HTMLAnchorElement) {
+		marqueeTimers.delete(link);
+		if (!link.isConnected || link.classList.contains('toc-marquee-active')) return;
+
+		const originalText = link.dataset.tocMarqueeText ?? link.textContent?.trim();
+		if (!originalText || link.scrollWidth <= link.clientWidth + 1) return;
+
+		link.dataset.tocMarqueeText = originalText;
+
+		const track = document.createElement('span');
+		track.className = 'toc-link-marquee-track';
+
+		const visibleCopy = document.createElement('span');
+		visibleCopy.className = 'toc-link-marquee-copy';
+		visibleCopy.textContent = originalText;
+
+		const loopCopy = visibleCopy.cloneNode(true) as HTMLSpanElement;
+		loopCopy.setAttribute('aria-hidden', 'true');
+
+		track.append(visibleCopy, loopCopy);
+		link.replaceChildren(track);
+
+		// Each copy includes its trailing gap, so translating by exactly one copy
+		// creates a seamless handoff to the duplicate.
+		const travelDistance = visibleCopy.getBoundingClientRect().width;
+		const duration = Math.max(MARQUEE_MIN_DURATION, travelDistance / MARQUEE_PIXELS_PER_SECOND);
+
+		link.style.setProperty('--toc-marquee-offset', `-${travelDistance}px`);
+		link.style.setProperty('--toc-marquee-duration', `${duration}s`);
+		link.classList.add('toc-marquee-active');
+	}
+
+	function handleTocPointerOver(e: PointerEvent) {
+		if (
+			e.pointerType !== 'mouse' ||
+			window.matchMedia('(prefers-reduced-motion: reduce)').matches
+		) {
+			return;
+		}
+
+		const link = getTocLink(e.target);
+		if (!link || (e.relatedTarget instanceof Node && link.contains(e.relatedTarget))) return;
+		if (link.scrollWidth <= link.clientWidth + 1 || marqueeTimers.has(link)) return;
+
+		const title = link.getAttribute('title');
+		if (title) {
+			link.dataset.tocMarqueeTitle = title;
+			link.removeAttribute('title');
+		}
+
+		const timer = setTimeout(() => startTocMarquee(link), MARQUEE_HOVER_DELAY);
+		marqueeTimers.set(link, timer);
+	}
+
+	function handleTocPointerOut(e: PointerEvent) {
+		const link = getTocLink(e.target);
+		if (!link || (e.relatedTarget instanceof Node && link.contains(e.relatedTarget))) return;
+
+		restoreTocLink(link);
+	}
+
 	function handleTocClick(e: MouseEvent) {
 		// Handle smooth scrolling when clicking TOC links
-		if (e.target instanceof HTMLAnchorElement && e.target.hash) {
-			const targetId = e.target.hash.substring(1);
+		const link = getTocLink(e.target);
+		if (link?.hash) {
+			const targetId = link.hash.substring(1);
 			const targetElement = document.getElementById(targetId);
 
 			if (targetElement) {
@@ -703,6 +796,8 @@
 
 			// Add event listener for TOC clicks
 			document.addEventListener('click', handleTocClick);
+			document.addEventListener('pointerover', handleTocPointerOver);
+			document.addEventListener('pointerout', handleTocPointerOut);
 
 			// If we already have content from a previous subscription, process it
 			if (content) {
@@ -717,6 +812,11 @@
 			window.removeEventListener('resize', handleResize);
 			window.removeEventListener('scroll', updateActiveTocLink);
 			document.removeEventListener('click', handleTocClick);
+			document.removeEventListener('pointerover', handleTocPointerOver);
+			document.removeEventListener('pointerout', handleTocPointerOut);
+
+			marqueeTimers.forEach((timer) => clearTimeout(timer));
+			marqueeTimers.clear();
 		}
 	});
 
@@ -1015,6 +1115,30 @@
 		background-color: var(--toc-active-background);
 	}
 
+	:global(.toc-link.toc-marquee-active) {
+		text-overflow: clip;
+	}
+
+	:global(.toc-link-marquee-track) {
+		display: flex;
+		align-items: baseline;
+		width: max-content;
+		will-change: transform;
+		animation: toc-link-marquee var(--toc-marquee-duration) linear infinite;
+	}
+
+	:global(.toc-link-marquee-copy) {
+		flex: 0 0 auto;
+		padding-right: 1.5rem;
+		white-space: nowrap;
+	}
+
+	@keyframes toc-link-marquee {
+		to {
+			transform: translate3d(var(--toc-marquee-offset), 0, 0);
+		}
+	}
+
 	:global(:root.light) .toc-sidebar,
 	:global(:root.light) .toc-accordion {
 		--toc-link-color: var(--ink-mid);
@@ -1053,6 +1177,12 @@
 			white-space: normal;
 			overflow-wrap: anywhere;
 			text-overflow: clip;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		:global(.toc-link-marquee-track) {
+			animation: none;
 		}
 	}
 </style>

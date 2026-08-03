@@ -27,6 +27,8 @@ type LegacySignupRow = {
 	unsubscribed_date: string | null;
 };
 
+const QUERY_BATCH_SIZE = 200;
+
 function isLater(candidate: string | null, current: string | null): boolean {
 	if (!candidate) return false;
 	if (!current) return true;
@@ -45,21 +47,34 @@ export async function loadEmailSuppressionStatus(
 		return { byEmail: new Map(), error: null };
 	}
 
-	const [unsubscribesResult, legacySignupsResult] = await Promise.all([
-		supabase
-			.from('email_unsubscribes')
-			.select('email, reason, source, source_id, unsubscribed_at')
-			.in('email', normalizedEmails),
-		supabase
-			.from('signups')
-			.select('email, unsubscribed_date')
-			.in('email', normalizedEmails)
-			.not('unsubscribed_date', 'is', null)
-	]);
+	const unsubscribeRows: EmailUnsubscribeRow[] = [];
+	const legacySignupRows: LegacySignupRow[] = [];
+	let queryError: unknown | null = null;
+
+	for (let index = 0; index < normalizedEmails.length; index += QUERY_BATCH_SIZE) {
+		const emailBatch = normalizedEmails.slice(index, index + QUERY_BATCH_SIZE);
+		const [unsubscribesResult, legacySignupsResult] = await Promise.all([
+			supabase
+				.from('email_unsubscribes')
+				.select('email, reason, source, source_id, unsubscribed_at')
+				.in('email', emailBatch),
+			supabase
+				.from('signups')
+				.select('email, unsubscribed_date')
+				.in('email', emailBatch)
+				.not('unsubscribed_date', 'is', null)
+		]);
+
+		queryError = unsubscribesResult.error || legacySignupsResult.error || null;
+		if (queryError) break;
+
+		unsubscribeRows.push(...((unsubscribesResult.data ?? []) as EmailUnsubscribeRow[]));
+		legacySignupRows.push(...((legacySignupsResult.data ?? []) as LegacySignupRow[]));
+	}
 
 	const byEmail = new Map<string, EmailSuppressionStatus>();
 
-	for (const row of (legacySignupsResult.data ?? []) as LegacySignupRow[]) {
+	for (const row of legacySignupRows) {
 		const email = normalizeEmail(row.email);
 		if (!email || !row.unsubscribed_date) continue;
 
@@ -72,7 +87,7 @@ export async function loadEmailSuppressionStatus(
 		});
 	}
 
-	for (const row of (unsubscribesResult.data ?? []) as EmailUnsubscribeRow[]) {
+	for (const row of unsubscribeRows) {
 		const email = normalizeEmail(row.email);
 		if (!email) continue;
 
@@ -90,6 +105,6 @@ export async function loadEmailSuppressionStatus(
 
 	return {
 		byEmail,
-		error: unsubscribesResult.error || legacySignupsResult.error || null
+		error: queryError
 	};
 }

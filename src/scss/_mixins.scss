@@ -1,72 +1,7 @@
 /* src/scss/_mixins.scss */
-/*
- * Responsive & Effect Mixins
- */
 
-/*==============================================
-  GLOW EFFECT MIXINS
-==============================================*/
-
-// Primary glow effect (locked 2026-05-04: cut to sm + md only).
-// 'lg' parameter kept for backward-compat — falls through to md.
-@mixin glow-primary($intensity: 'md') {
-	@if $intensity == 'sm' {
-		box-shadow: var(--glow-sm);
-	} @else {
-		box-shadow: var(--glow-md);
-	}
-}
-
-// Text glow — single brand glow only (primary-amber).
-@mixin text-glow($color: 'primary') {
-	text-shadow: 0 0 20px var(--lamp-glow-rgba);
-}
-
-// Card with glow on hover
-@mixin card-glow-hover {
-	transition: all 0.3s ease;
-
-	&:hover {
-		transform: translateY(-4px);
-		box-shadow: 0 0 30px var(--lamp-glow-rgba);
-		border-color: var(--lamp-glow-rgba);
-	}
-}
-
-// Focus glow ring
-@mixin focus-glow {
-	&:focus-visible {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-		box-shadow: var(--glow-sm);
-	}
-}
-
-// Dark card base styles
-@mixin dark-card {
-	background-color: var(--stone-warm);
-	border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-	border-radius: 1rem;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-}
-
-// Dark input base styles
-@mixin dark-input {
-	background-color: var(--stone-warm);
-	border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
-	border-radius: 0.625rem;
-	color: var(--ink-bright);
-
-	&::placeholder {
-		color: var(--ink-dim);
-	}
-
-	&:focus {
-		outline: none;
-		border-color: var(--lamp-glow);
-		box-shadow: var(--glow-sm);
-	}
-}
+/* Responsive helpers shared by legacy SCSS consumers. Component effects live
+   with their owning Svelte component instead of in global mixins. */
 
 /*==============================================
   RESPONSIVE BREAKPOINT MIXINS

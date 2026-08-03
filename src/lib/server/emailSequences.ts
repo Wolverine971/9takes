@@ -251,6 +251,7 @@ async function processClaimedSequenceSends(
 				plainTextContent: prepared.plainText,
 				sequenceEnrollmentId: row.enrollment_id,
 				sequenceStepNumber: row.step_number,
+				linkAttribution: prepared.linkAttribution,
 				sentBy: null,
 				includeFooter: true
 			});

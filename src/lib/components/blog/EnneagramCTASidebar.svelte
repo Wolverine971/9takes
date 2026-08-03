@@ -346,7 +346,7 @@
 		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--stone-warm) 90%, var(--night-deep));
 		color: var(--ink-bright);
-		font-size: 0.9rem;
+		font-size: 1rem;
 		line-height: 1.2;
 		transition:
 			border-color 0.2s ease,
@@ -372,6 +372,12 @@
 	.sidebar-input[aria-invalid='true'] {
 		border-color: var(--error);
 		box-shadow: none;
+	}
+
+	@media (min-width: 768px) {
+		.sidebar-input {
+			font-size: 0.9rem;
+		}
 	}
 
 	.sidebar-button {

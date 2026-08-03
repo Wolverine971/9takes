@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 
 	let {
 		contentItems,
@@ -22,10 +23,7 @@
 	let currentDate = $state(new Date());
 	let todayDate = $state(new Date());
 	let selectedContent: ContentItem | null = $state(null);
-	let showEditModal = $state(false);
-	let showCreateModal = $state(false);
 	let selectedCampaignId: string = $state('all');
-	let showAllContentModal = $state(false);
 	let selectedDayContent: ContentItem[] = $state([]);
 	let selectedDate: Date | null = $state(null);
 	let calendarDays: (Date | null)[] = $state([]);
@@ -165,22 +163,24 @@
 	function openContentEditor(content: ContentItem, event?: Event) {
 		if (event) event.stopPropagation();
 		selectedContent = { ...content };
-		showEditModal = true;
+		getModal('calendar-edit-content')?.open(() => {
+			selectedContent = null;
+		});
 	}
 
 	function closeEditModal() {
-		showEditModal = false;
-		selectedContent = null;
+		getModal('calendar-edit-content')?.close();
 	}
 
 	function openCreateModal(date: Date) {
 		selectedDate = date;
-		showCreateModal = true;
+		getModal('calendar-create-content')?.open(() => {
+			selectedDate = null;
+		});
 	}
 
 	function closeCreateModal() {
-		showCreateModal = false;
-		selectedDate = null;
+		getModal('calendar-create-content')?.close();
 	}
 
 	function handleContentUpdate(updatedContents: any) {
@@ -214,7 +214,18 @@
 	function openAllContentModal(dayContent: ContentItem[], event?: Event) {
 		if (event) event.stopPropagation();
 		selectedDayContent = dayContent;
-		showAllContentModal = true;
+		getModal('calendar-all-content')?.open(() => {
+			selectedDayContent = [];
+		});
+	}
+
+	function closeAllContentModal() {
+		getModal('calendar-all-content')?.close();
+	}
+
+	function editContentFromAll(item: ContentItem) {
+		closeAllContentModal();
+		openContentEditor(item);
 	}
 
 	function sortContentByDateTime(a: ContentItem, b: ContentItem) {
@@ -253,7 +264,12 @@
 	<!-- Calendar Header -->
 	<div class="calendar-header">
 		<div class="nav-controls">
-			<button class="nav-btn" onclick={previousPeriod}>
+			<button
+				type="button"
+				class="nav-btn"
+				aria-label={`Previous ${viewMode}`}
+				onclick={previousPeriod}
+			>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="20"
@@ -286,7 +302,7 @@
 				</span>
 			{/if}
 
-			<button class="nav-btn" onclick={nextPeriod}>
+			<button type="button" class="nav-btn" aria-label={`Next ${viewMode}`} onclick={nextPeriod}>
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
 					width="20"
@@ -350,7 +366,7 @@
 						class:is-empty={!day}
 						class:is-active={!!day}
 						role={day ? 'button' : undefined}
-						tabindex={day ? 0 : -1}
+						tabindex={day ? 0 : undefined}
 						onclick={() => day && openCreateModal(day)}
 						onkeydown={(event) => {
 							if (!day) return;
@@ -524,109 +540,103 @@
 </div>
 
 <!-- Edit Modal -->
-{#if showEditModal}
-	<div class="modal-overlay" onclick={closeEditModal} role="presentation">
-		<div class="modal-dialog modal-xl" onclick={(e) => e.stopPropagation()} role="dialog">
-			<h2 class="modal-title">Edit Content</h2>
-			{#if selectedContent}
-				<ContentEditor
-					contentItem={selectedContent}
-					{campaigns}
-					{templates}
-					oncontentUpdated={(data) => handleContentUpdate(data)}
-					oncancel={closeEditModal}
-				/>
-			{/if}
-		</div>
-	</div>
-{/if}
+<Modal
+	id="calendar-edit-content"
+	name="Edit content"
+	labelledBy="calendar-edit-content-title"
+	maxWidth="800px"
+>
+	<h2 id="calendar-edit-content-title" class="modal-title">Edit Content</h2>
+	{#if selectedContent}
+		<ContentEditor
+			contentItem={selectedContent}
+			{campaigns}
+			{templates}
+			oncontentUpdated={(data) => handleContentUpdate(data)}
+			oncancel={closeEditModal}
+		/>
+	{/if}
+</Modal>
 
 <!-- Create Modal -->
-{#if showCreateModal}
-	<div class="modal-overlay" onclick={closeCreateModal} role="presentation">
-		<div class="modal-dialog modal-xl" onclick={(e) => e.stopPropagation()} role="dialog">
-			<h2 class="modal-title">Create Content</h2>
-			{#if selectedDate}
-				<CreateContent
-					{campaigns}
-					{templates}
-					initialDate={selectedDate}
-					oncontentCreated={(data) => handleContentCreate(data)}
-					oncancel={closeCreateModal}
-				/>
-			{/if}
-		</div>
-	</div>
-{/if}
+<Modal
+	id="calendar-create-content"
+	name="Create content"
+	labelledBy="calendar-create-content-title"
+	maxWidth="800px"
+>
+	<h2 id="calendar-create-content-title" class="modal-title">Create Content</h2>
+	{#if selectedDate}
+		<CreateContent
+			{campaigns}
+			{templates}
+			initialDate={selectedDate}
+			oncontentCreated={(data) => handleContentCreate(data)}
+			oncancel={closeCreateModal}
+		/>
+	{/if}
+</Modal>
 
 <!-- All Content Modal -->
-{#if showAllContentModal}
-	<div class="modal-overlay" onclick={() => (showAllContentModal = false)} role="presentation">
-		<div class="modal-dialog modal-lg" onclick={(e) => e.stopPropagation()} role="dialog">
-			<h2 class="modal-title">
-				All Content for {selectedDayContent.length > 0
-					? new Date(selectedDayContent[0].scheduled_date).toLocaleDateString()
-					: ''}
-			</h2>
-			<div class="all-content-list">
-				{#each selectedDayContent as item (item.id)}
-					<button
-						class="all-content-item"
-						style="background-color: {getCampaignColor(item.campaign_id)}10;"
-						onclick={() => {
-							openContentEditor(item);
-							showAllContentModal = false;
-						}}
-						onkeydown={(event) => {
-							if (event.key === 'Enter' || event.key === ' ') {
-								event.preventDefault();
-								openContentEditor(item);
-								showAllContentModal = false;
-							}
-						}}
-					>
-						<div class="all-content-time">
-							<span class="time-bold">
-								{new Date(item.scheduled_date).toLocaleTimeString([], {
-									hour: '2-digit',
-									minute: '2-digit'
-								})}
-							</span>
-							{#if item.platform}
-								<span
-									style="color: {platformColors[item.platform.toLowerCase()] ||
-										platformColors.default};"
-								>
-									{@html getPlatformIcon(item.platform)}
-									<span class="platform-text">{item.platform}</span>
-								</span>
-							{/if}
-						</div>
-						<div class="all-content-body">
-							<span>{item.content_text}</span>
-							{#if item.content_hashtags}
-								<span class="hashtags-text">{item.content_hashtags}</span>
-							{/if}
-						</div>
-						<div class="all-content-meta">
-							{#if item.status}
-								<span class="status-badge-sm {getStatusClass(item.status)}">{item.status}</span>
-							{/if}
-							{#if item.campaign_id}
-								{@const camp = campaigns.find((c) => c.id === item.campaign_id)}
-								{#if camp}
-									<span class="campaign-pill" style="background-color: {camp.color}; color: white;"
-										>{camp.name}</span
-									>
-								{/if}
-							{/if}
-						</div>
-					</button>
-				{/each}
-			</div>
-		</div>
+<Modal
+	id="calendar-all-content"
+	name="All content for selected day"
+	labelledBy="calendar-all-content-title"
+	maxWidth="640px"
+>
+	<h2 id="calendar-all-content-title" class="modal-title">
+		All Content for {selectedDayContent.length > 0
+			? new Date(selectedDayContent[0].scheduled_date).toLocaleDateString()
+			: ''}
+	</h2>
+	<div class="all-content-list">
+		{#each selectedDayContent as item (item.id)}
+			<button
+				type="button"
+				class="all-content-item"
+				style="background-color: {getCampaignColor(item.campaign_id)}10;"
+				onclick={() => editContentFromAll(item)}
+			>
+				<div class="all-content-time">
+					<span class="time-bold">
+						{new Date(item.scheduled_date).toLocaleTimeString([], {
+							hour: '2-digit',
+							minute: '2-digit'
+						})}
+					</span>
+					{#if item.platform}
+						<span
+							style="color: {platformColors[item.platform.toLowerCase()] ||
+								platformColors.default};"
+						>
+							{@html getPlatformIcon(item.platform)}
+							<span class="platform-text">{item.platform}</span>
+						</span>
+					{/if}
+				</div>
+				<div class="all-content-body">
+					<span>{item.content_text}</span>
+					{#if item.content_hashtags}
+						<span class="hashtags-text">{item.content_hashtags}</span>
+					{/if}
+				</div>
+				<div class="all-content-meta">
+					{#if item.status}
+						<span class="status-badge-sm {getStatusClass(item.status)}">{item.status}</span>
+					{/if}
+					{#if item.campaign_id}
+						{@const camp = campaigns.find((c) => c.id === item.campaign_id)}
+						{#if camp}
+							<span class="campaign-pill" style="background-color: {camp.color}; color: white;"
+								>{camp.name}</span
+							>
+						{/if}
+					{/if}
+				</div>
+			</button>
+		{/each}
 	</div>
-{/if}
+</Modal>
 
 <style>
 	.calendar-container {
@@ -1011,36 +1021,6 @@
 		border: 1px dashed var(--stone-warm);
 		border-radius: 0.625rem;
 		background: var(--night-deep);
-	}
-
-	/* Modals */
-	.modal-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.6);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 50;
-		padding: 1rem;
-	}
-
-	.modal-dialog {
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-warm);
-		border-radius: 1rem;
-		padding: 1.5rem;
-		width: 90%;
-		max-height: 90vh;
-		overflow-y: auto;
-	}
-
-	.modal-xl {
-		max-width: 800px;
-	}
-
-	.modal-lg {
-		max-width: 640px;
 	}
 
 	.modal-title {

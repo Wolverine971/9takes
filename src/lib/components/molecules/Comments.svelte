@@ -4,7 +4,7 @@
 	import { createEventDispatcher, onMount, onDestroy } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import Comment from './Comment.svelte';
-	import SkeletonLoader from '../atoms/SkeletonLoader.svelte';
+	import Skeleton from '../atoms/Skeleton.svelte';
 	import { debounce } from '../../utils/debounce';
 	import type { User, Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 
@@ -87,6 +87,7 @@
 			console.error('Error refreshing comments:', error);
 		} finally {
 			loading = false;
+			initialLoading = false;
 		}
 	};
 
@@ -125,7 +126,7 @@
 </script>
 
 {#key key}
-	{#if browser && comments.length && userHasAnswered}
+	{#if browser && (comments.length || initialLoading) && userHasAnswered}
 		<div class={parentType === 'comment' ? 'space-y-2' : 'space-y-3'}>
 			{#each _comments as comment, index (comment.id)}
 				<div
@@ -146,17 +147,18 @@
 
 		<!-- Initial loading state -->
 		{#if initialLoading && _comments.length === 0}
-			<div class="space-y-4 py-4">
+			<div class="space-y-4 py-4" role="status" aria-label="Loading comments">
 				{#each Array(3) as _, i}
 					<div
 						class="rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-lg"
 						in:fade={{ duration: 300, delay: i * 50 }}
 					>
 						<div class="flex gap-4">
-							<SkeletonLoader variant="circular" width={40} height={40} />
+							<Skeleton decorative variant="circular" width={40} height={40} />
 							<div class="flex-1">
-								<SkeletonLoader variant="text" width="25%" className="mb-2" />
-								<SkeletonLoader variant="text" count={2} />
+								<Skeleton decorative variant="text" width="25%" class="mb-2" />
+								<Skeleton decorative variant="text" />
+								<Skeleton decorative variant="text" />
 							</div>
 						</div>
 					</div>

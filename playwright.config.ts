@@ -12,6 +12,9 @@ if (smokeUrl.protocol !== 'http:' || !smokePort) {
 
 export default defineConfig({
 	testDir: 'e2e',
+	// Webfonts are bundled, so one baseline can serve local macOS and Linux CI.
+	// Keep platform-specific rasterization noise in the assertion tolerance instead.
+	snapshotPathTemplate: '{testDir}/{testFileName}-snapshots/{arg}{ext}',
 	timeout: 60_000,
 	fullyParallel: true,
 	retries: process.env.CI ? 1 : 0,

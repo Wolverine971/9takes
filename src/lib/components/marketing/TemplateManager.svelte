@@ -4,14 +4,12 @@
 	import { fade, slide } from 'svelte/transition';
 	import type { Template } from '$lib/types/marketing';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 
 	let { templates }: { templates: Template[] } = $props();
 
 	let editingTemplate: Partial<Template> | null = $state(null);
-	let showCreateModal = $state(false);
-	let showEditModal = $state(false);
 	let searchTerm = $state('');
-	let showDeleteConfirm = $state(false);
 	let templateToDelete: Template | null = $state(null);
 
 	let filteredTemplates = $derived(
@@ -38,31 +36,33 @@
 	);
 
 	function openCreateModal() {
-		showCreateModal = true;
+		getModal('create-content-template')?.open();
 	}
 
 	function closeCreateModal() {
-		showCreateModal = false;
+		getModal('create-content-template')?.close();
 	}
 
 	function openEditModal(template: Template) {
 		editingTemplate = { ...template };
-		showEditModal = true;
+		getModal('edit-content-template')?.open(() => {
+			editingTemplate = null;
+		});
 	}
 
 	function closeEditModal() {
-		editingTemplate = null;
-		showEditModal = false;
+		getModal('edit-content-template')?.close();
 	}
 
 	function confirmDelete(template: Template) {
 		templateToDelete = template;
-		showDeleteConfirm = true;
+		getModal('delete-content-template')?.open(() => {
+			templateToDelete = null;
+		});
 	}
 
 	function cancelDelete() {
-		templateToDelete = null;
-		showDeleteConfirm = false;
+		getModal('delete-content-template')?.close();
 	}
 
 	function handleCreateTemplate() {
@@ -89,8 +89,7 @@
 
 	function handleDeleteTemplate(deletedTemplateId: string) {
 		templates = templates.filter((template) => template.id !== deletedTemplateId);
-		showDeleteConfirm = false;
-		templateToDelete = null;
+		cancelDelete();
 	}
 
 	function truncateText(text: string, maxLength: number): string {
@@ -258,149 +257,157 @@
 </div>
 
 <!-- Create Modal -->
-{#if showCreateModal}
-	<div class="modal-overlay" onclick={closeCreateModal} role="presentation">
-		<div class="modal-dialog modal-lg" onclick={(e) => e.stopPropagation()} role="dialog">
-			<h3 class="modal-title">Create New Template</h3>
-			<form
-				action="?/createTemplate"
-				method="POST"
-				use:enhance={handleCreateTemplate}
-				class="modal-form"
-			>
-				<label class="field">
-					<span class="field-label">Type / Category</span>
-					<input
-						type="text"
-						name="type"
-						required
-						placeholder="e.g., Tweet, Thread Opener, CTA"
-						class="field-input"
-					/>
-				</label>
-				<label class="field">
-					<span class="field-label">Content Text</span>
-					<textarea
-						name="content_text"
-						required
-						rows="6"
-						placeholder="Enter your template content..."
-						class="field-input field-textarea"></textarea>
-				</label>
-				<label class="field">
-					<span class="field-label">Purpose Description</span>
-					<textarea
-						name="purpose_description"
-						required
-						rows="3"
-						placeholder="Describe when to use this template..."
-						class="field-input field-textarea"></textarea>
-				</label>
-				<div class="modal-actions">
-					<Button variant="secondary" onclick={closeCreateModal}>Cancel</Button>
-					<Button type="submit">Create Template</Button>
-				</div>
-			</form>
+<Modal
+	id="create-content-template"
+	name="Create content template"
+	labelledBy="create-content-template-title"
+	maxWidth="600px"
+>
+	<h3 id="create-content-template-title" class="modal-title">Create New Template</h3>
+	<form
+		action="?/createTemplate"
+		method="POST"
+		use:enhance={handleCreateTemplate}
+		class="modal-form"
+	>
+		<label class="field">
+			<span class="field-label">Type / Category</span>
+			<input
+				type="text"
+				name="type"
+				required
+				placeholder="e.g., Tweet, Thread Opener, CTA"
+				class="field-input"
+			/>
+		</label>
+		<label class="field">
+			<span class="field-label">Content Text</span>
+			<textarea
+				name="content_text"
+				required
+				rows="6"
+				placeholder="Enter your template content..."
+				class="field-input field-textarea"></textarea>
+		</label>
+		<label class="field">
+			<span class="field-label">Purpose Description</span>
+			<textarea
+				name="purpose_description"
+				required
+				rows="3"
+				placeholder="Describe when to use this template..."
+				class="field-input field-textarea"></textarea>
+		</label>
+		<div class="modal-actions">
+			<Button variant="secondary" onclick={closeCreateModal}>Cancel</Button>
+			<Button type="submit">Create Template</Button>
 		</div>
-	</div>
-{/if}
+	</form>
+</Modal>
 
 <!-- Edit Modal -->
-{#if showEditModal && editingTemplate}
-	<div class="modal-overlay" onclick={closeEditModal} role="presentation">
-		<div class="modal-dialog modal-lg" onclick={(e) => e.stopPropagation()} role="dialog">
-			<h3 class="modal-title">Edit Template</h3>
-			<form
-				action="?/updateTemplate"
-				method="POST"
-				use:enhance={handleUpdateTemplate}
-				class="modal-form"
-			>
-				<input type="hidden" name="id" value={editingTemplate.id} />
-				<label class="field">
-					<span class="field-label">Type / Category</span>
-					<input
-						type="text"
-						name="type"
-						bind:value={editingTemplate.type}
-						required
-						class="field-input"
-					/>
-				</label>
-				<label class="field">
-					<span class="field-label">Content Text</span>
-					<textarea
-						name="content_text"
-						bind:value={editingTemplate.content_text}
-						required
-						rows="6"
-						class="field-input field-textarea"></textarea>
-				</label>
-				<label class="field">
-					<span class="field-label">Purpose Description</span>
-					<textarea
-						name="purpose_description"
-						bind:value={editingTemplate.purpose_description}
-						required
-						rows="3"
-						class="field-input field-textarea"></textarea>
-				</label>
-				<div class="modal-actions">
-					<Button variant="secondary" onclick={closeEditModal}>Cancel</Button>
-					<Button type="submit">Save Changes</Button>
-				</div>
-			</form>
-		</div>
-	</div>
-{/if}
+<Modal
+	id="edit-content-template"
+	name="Edit content template"
+	labelledBy="edit-content-template-title"
+	maxWidth="600px"
+>
+	{#if editingTemplate}
+		<h3 id="edit-content-template-title" class="modal-title">Edit Template</h3>
+		<form
+			action="?/updateTemplate"
+			method="POST"
+			use:enhance={handleUpdateTemplate}
+			class="modal-form"
+		>
+			<input type="hidden" name="id" value={editingTemplate.id} />
+			<label class="field">
+				<span class="field-label">Type / Category</span>
+				<input
+					type="text"
+					name="type"
+					bind:value={editingTemplate.type}
+					required
+					class="field-input"
+				/>
+			</label>
+			<label class="field">
+				<span class="field-label">Content Text</span>
+				<textarea
+					name="content_text"
+					bind:value={editingTemplate.content_text}
+					required
+					rows="6"
+					class="field-input field-textarea"></textarea>
+			</label>
+			<label class="field">
+				<span class="field-label">Purpose Description</span>
+				<textarea
+					name="purpose_description"
+					bind:value={editingTemplate.purpose_description}
+					required
+					rows="3"
+					class="field-input field-textarea"></textarea>
+			</label>
+			<div class="modal-actions">
+				<Button variant="secondary" onclick={closeEditModal}>Cancel</Button>
+				<Button type="submit">Save Changes</Button>
+			</div>
+		</form>
+	{/if}
+</Modal>
 
 <!-- Delete Confirmation Modal -->
-{#if showDeleteConfirm && templateToDelete}
-	<div class="modal-overlay" onclick={cancelDelete} role="presentation">
-		<div class="modal-dialog modal-sm" onclick={(e) => e.stopPropagation()} role="dialog">
-			<div class="delete-confirm-content">
-				<div class="delete-icon-wrapper">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke="#ef4444"
-						stroke-width="2"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-						/>
-					</svg>
-				</div>
-				<h3 class="modal-title">Delete Template?</h3>
-				<p class="delete-message">
-					This will permanently delete "{templateToDelete.type}". This action cannot be undone.
-				</p>
-				<div class="modal-actions modal-actions-center">
-					<Button variant="secondary" onclick={cancelDelete}>Cancel</Button>
-					<form
-						action="?/deleteTemplate"
-						method="POST"
-						use:enhance={() => {
-							return ({ result }) => {
-								if (result.type === 'success' && templateToDelete) {
-									handleDeleteTemplate(templateToDelete.id);
-								}
-							};
-						}}
-					>
-						<input type="hidden" name="id" value={templateToDelete.id} />
-						<Button type="submit" variant="danger">Delete</Button>
-					</form>
-				</div>
+<Modal
+	id="delete-content-template"
+	name="Delete content template"
+	labelledBy="delete-content-template-title"
+	describedBy="delete-content-template-description"
+	maxWidth="400px"
+>
+	{#if templateToDelete}
+		<div class="delete-confirm-content">
+			<div class="delete-icon-wrapper">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="24"
+					height="24"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke="#ef4444"
+					stroke-width="2"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+					/>
+				</svg>
+			</div>
+			<h3 id="delete-content-template-title" class="modal-title">Delete Template?</h3>
+			<p id="delete-content-template-description" class="delete-message">
+				This will permanently delete "{templateToDelete.type}". This action cannot be undone.
+			</p>
+			<div class="modal-actions modal-actions-center">
+				<Button variant="secondary" onclick={cancelDelete}>Cancel</Button>
+				<form
+					action="?/deleteTemplate"
+					method="POST"
+					use:enhance={() => {
+						return ({ result }) => {
+							if (result.type === 'success' && templateToDelete) {
+								handleDeleteTemplate(templateToDelete.id);
+							}
+						};
+					}}
+				>
+					<input type="hidden" name="id" value={templateToDelete.id} />
+					<Button type="submit" variant="danger">Delete</Button>
+				</form>
 			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
+</Modal>
 
 <style>
 	.template-manager {
@@ -620,33 +627,6 @@
 		margin: 0 0 1rem 0;
 		font-size: 0.875rem;
 		color: var(--ink-mid);
-	}
-
-	/* Modals */
-	.modal-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.6);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 50;
-	}
-
-	.modal-dialog {
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-warm);
-		border-radius: 1rem;
-		padding: 1.5rem;
-		width: 90%;
-	}
-
-	.modal-lg {
-		max-width: 600px;
-	}
-
-	.modal-sm {
-		max-width: 400px;
 	}
 
 	.modal-title {

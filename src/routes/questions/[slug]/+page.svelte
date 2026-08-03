@@ -1769,6 +1769,12 @@
 		box-shadow: 0 0 0 2px rgba(180, 83, 9, 0.18);
 	}
 
+	@media (max-width: 768px) {
+		.case-input {
+			font-size: 16px;
+		}
+	}
+
 	.category-editor-msg {
 		font-family: var(--font-display);
 		font-size: 14px;
