@@ -104,10 +104,10 @@ split-scene editorial photograph in a neoclassical marble courtyard, left side c
 Most feeds reward engagement, not understanding. Engagement loves conflict, so the loudest take wins and the rest of us scroll.
 
 <div>
-	<h3 style="margin: 0; color: #f1f5f9;">Two waves of social media.</h3>
+	<h3 style="margin: 0; color: var(--ink-bright);">Two waves of social media.</h3>
 	<section class="wave-sections wave-old">
 		<h4 style="margin-top: 0; padding-top: 0;">🤖 Old wave 🔄</h4>
-		<p><b style="color: #f1f5f9;">The old social media</b> was about staying in touch and sharing cool stuff.</p>
+		<p><b style="color: var(--ink-bright);">The old social media</b> was about staying in touch and sharing cool stuff.</p>
 		<ul>
 		<li>Users posted to be seen.</li>
 		<li>Sharing became broadcasting.</li>
@@ -115,20 +115,20 @@ Most feeds reward engagement, not understanding. Engagement loves conflict, so t
 		<li>Honesty got expensive: say what you actually think and the comments make you pay for it.</li>
 		<li>The algorithm rewarded sameness, and different viewpoints got filtered out.</li>
 		</ul>
-		<p style="color: #94a3b8; font-style: italic;">We look connected, and we feel divided.</p>
+		<p style="color: var(--ink-mid); font-style: italic;">We look connected, and we feel divided.</p>
 	</section>
 	<section class="wave-sections wave-new">
 		<h4 style="margin-top: 0; padding-top: 0;">🎭 New wave ❓</h4>
-		<p><b style="color: #f1f5f9;">The new social media</b> isn't a prediction. It has been arriving for years, and it doesn't look like a feed.</p>
+		<p><b style="color: var(--ink-bright);">The new social media</b> isn't a prediction. It has been arriving for years, and it doesn't look like a feed.</p>
 		<ul>
 		<li>Discord servers where strangers become friends over shared interests.</li>
 		<li>BeReal pushing authenticity over performance.</li>
 		<li>Substack Notes and niche communities built around conversation, not content.</li>
 		<li>People choosing smaller, honest spaces over massive audiences.</li>
 		</ul>
-		<p style="color: #a78bfa;">The pattern: participation over performance, depth over reach.</p>
+		<p style="color: var(--lamp-glow);">The pattern: participation over performance, depth over reach.</p>
 	</section>
-	<p style="color: #e2e8f0;">9takes builds on that shift, starting with <b style="color: #a78bfa;">questions</b>.</p>
+	<p style="color: var(--ink-bright);">9takes builds on that shift, starting with <b style="color: var(--lamp-glow);">questions</b>.</p>
 </div>
 
 ## Why Questions Are the Key
@@ -170,9 +170,9 @@ Three mechanics make this work:
 
 <span class="point-list" style="margin-top: 1rem;">
 <span class="center-svg">
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="#a78bfa"><path d="M255.6 385.2C231.4 416.6 201.5 432 172 432s-59.4-15.4-83.6-46.8c-9.1-11.9-17.1-25.7-23.5-41.2c9.2 5.1 19.8 8 31.1 8c35.3 0 64-28.7 64-64s-28.7-64-64-64c-19 0-36.1 8.3-47.8 21.4c2-47.8 17.7-89.3 40.2-118.6C112.6 95.4 142.5 80 172 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2zM320 141.8C290 76.1 235 32 172 32C77 32 0 132.3 0 256S77 480 172 480c63 0 118-44.1 148-109.8C350 435.9 405 480 468 480c95 0 172-100.3 172-224s-77-224-172-224c-63 0-118 44.1-148 109.8zm42.8 206.6c6.6 2.3 13.7 3.6 21.2 3.6c35.3 0 64-28.7 64-64s-28.7-64-64-64c-14.8 0-28.5 5-39.3 13.5c3.3-44.4 18.5-83 39.8-110.6C408.6 95.4 438.5 80 468 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2C527.4 416.6 497.5 432 468 432s-59.4-15.4-83.6-46.8c-8.2-10.7-15.5-23.1-21.6-36.7z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512" fill="var(--lamp-glow)"><path d="M255.6 385.2C231.4 416.6 201.5 432 172 432s-59.4-15.4-83.6-46.8c-9.1-11.9-17.1-25.7-23.5-41.2c9.2 5.1 19.8 8 31.1 8c35.3 0 64-28.7 64-64s-28.7-64-64-64c-19 0-36.1 8.3-47.8 21.4c2-47.8 17.7-89.3 40.2-118.6C112.6 95.4 142.5 80 172 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2zM320 141.8C290 76.1 235 32 172 32C77 32 0 132.3 0 256S77 480 172 480c63 0 118-44.1 148-109.8C350 435.9 405 480 468 480c95 0 172-100.3 172-224s-77-224-172-224c-63 0-118 44.1-148 109.8zm42.8 206.6c6.6 2.3 13.7 3.6 21.2 3.6c35.3 0 64-28.7 64-64s-28.7-64-64-64c-14.8 0-28.5 5-39.3 13.5c3.3-44.4 18.5-83 39.8-110.6C408.6 95.4 438.5 80 468 80s59.4 15.4 83.6 46.8c24.1 31.4 40.4 77 40.4 129.2s-16.3 97.7-40.4 129.2C527.4 416.6 497.5 432 468 432s-59.4-15.4-83.6-46.8c-8.2-10.7-15.5-23.1-21.6-36.7z"/></svg>
 </span>
-<b style="color: #e2e8f0;">Comments are hidden until you comment.</b>
+<b style="color: var(--ink-bright);">Comments are hidden until you comment.</b>
 </span>
 
 Seeing other answers first [primes your thinking](/community/memetic-comments). Hiding them forces an independent take, then lets you compare. The psychology behind why this works runs deeper than you'd expect, starting with [why most conversations fail before the first fact lands](/community/how-minds-change-on-9takes).
@@ -181,16 +181,16 @@ Seeing other answers first [primes your thinking](/community/memetic-comments). 
 <span class="center-svg">
 <Rubix height={'1.5rem'} width={'1.5rem'} />
 </span>
-<b style="color: #e2e8f0;">A personality lens (the Enneagram).</b>
+<b style="color: var(--ink-bright);">A personality lens (the Enneagram).</b>
 </span>
 
 The Enneagram maps nine personality types based on core motivations: what drives you, what you fear, how you process the world. Astrology assigns you a label from your birthday; the Enneagram gives you a framework for [why different people communicate the way they do](/enneagram-corner/relationship-communication-guide). On 9takes, you can optionally tag your answer with your type. It gives readers context without forcing a real name. If you don't know your type yet, [start here](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) or skip it entirely.
 
 <span class="point-list" style="margin-top: 1rem;">
 <span class="center-svg">
-<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="#a78bfa"><path d="M384 208A176 176 0 1 0 32 208a176 176 0 1 0 352 0zM343.3 366C307 397.2 259.7 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 51.7-18.8 99-50 135.3L507.3 484.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L343.3 366z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" fill="var(--lamp-glow)"><path d="M384 208A176 176 0 1 0 32 208a176 176 0 1 0 352 0zM343.3 366C307 397.2 259.7 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 51.7-18.8 99-50 135.3L507.3 484.7c6.2 6.2 6.2 16.4 0 22.6s-16.4 6.2-22.6 0L343.3 366z"/></svg>
 </span>
-<b style="color: #e2e8f0;">Filter answers by personality type.</b>
+<b style="color: var(--ink-bright);">Filter answers by personality type.</b>
 </span>
 
 Compare how different types answer the same question. Spot patterns, common ground, and blind spots across all nine perspectives, seeing how all the Type 8s answered versus the Type 4s.
@@ -248,33 +248,33 @@ No ads, and we will never sell user data. What you share here is deeply personal
 		align-items: center;
 		gap: 0.5rem;
 		text-wrap: wrap;
-		color: #e2e8f0;
+		color: var(--ink-bright);
 	}
 	.wave-sections {
 		border-radius: 12px;
 		margin: 1.5rem 0;
 		padding: 1.5rem;
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
-		color: #cbd5e1;
+		background: var(--stone-warm);
+		color: var(--ink-mid);
 	}
 
 	.wave-old {
-		border: 1px solid rgba(100, 116, 139, 0.3);
-		border-left: 4px solid #64748b;
+		border: 1px solid var(--stone-edge);
+		border-left: 4px solid var(--ink-dim);
 	}
 
 	.wave-new {
-		border: 1px solid rgba(124, 58, 237, 0.3);
-		border-left: 4px solid #7c3aed;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 32%, var(--stone-edge));
+		border-left: 4px solid var(--lamp-glow);
 	}
 
 	.wave-sections h4 {
 		text-align: center;
-		color: #f1f5f9;
+		color: var(--ink-bright);
 	}
 
 	.wave-sections ul {
-		color: #cbd5e1;
+		color: var(--ink-mid);
 	}
 
 	.wave-sections li {

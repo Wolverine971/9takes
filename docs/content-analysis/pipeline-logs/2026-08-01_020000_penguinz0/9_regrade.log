@@ -1,0 +1,18 @@
+## Grading Complete — penguinz0
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Penguinz0 | 9 | 7 | 9 | 9 | 8 | 9 | 8.4 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. One cap applied: `sameness_3plus_moves`.)
+
+### Key Observations:
+
+- **This is a strong draft held back by one thing: house furniture.** Uncapped, Originality read like a 9 — the calm-as-built-artifact thesis, the money-as-obligation Type 9 reading, and the unpayable-bits-number ending all pass the swap test decisively. But read serially against KSI, Jason-Sudeikis, and Ibai-Llanos, three house moves reuse near-verbatim: the 5/5 label-colon TL;DR skeleton (all three comparators run the identical pattern), the epigraph→cold-open→reframe-twist furniture ("The calm reads as a temperament he was born with. / He built it."), and the return-to-the-wound close. That trips the 3+ threshold and caps Originality at 7 — the same cap Brooke-Monk took and then cleared on regrade by varying the furniture. Writing sits at 8 for the same architectural fingerprint, not sentence-level craft.
+- **Evidence and discoverability are the draft's real strengths.** Source audit came back 7/7 inline with zero untagged slots; every ledger claim I spot-checked reproduced exactly on re-run (similarity scan, heading mix, distribution count) — after a stretch of stale-ledger drafts, this one is working from a true baseline. Frontmatter is near-optimal: meta_title 53 chars, description 159, five genuine search-intent FAQs covering both handles (penguinz0 and moistcr1tikal), head-term check PASS with a 60-word answer block.
+- **The interior/empathy machinery genuinely clears the bar.** The National Treasure inner-thought beat is a real interior moment, and the empathy turn ("What looks like a missing spine is a load-bearing one that only activates for other people's weight") avoids house armor-grammar by reframing through the critics' own accusation word. No `house_empathy_turn` cap.
+- **One sourcing gap worth fixing:** the Billy Mitchell beat carries the empathy turn's tiebreaker (held firm under litigation risk) but runs the $275K judgment and Brisbane testimony with no inline outlet — the most load-bearing non-quote claim in the piece.
+
+The path to B+/A is concrete and cheap: vary two of the three capped moves (break the TL;DR label pattern, drop the epigraph or the reframe twist) and add one inline citation for the Mitchell judgment. Full details in `docs/content-analysis/grades/Penguinz0.review.md`; grades written to the draft frontmatter.
+
+**Total graded this session: 1**

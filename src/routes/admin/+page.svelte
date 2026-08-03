@@ -929,7 +929,7 @@
 	}
 
 	.data-status-meta a {
-		color: var(--accent);
+		color: var(--lamp-glow);
 		font-weight: 700;
 	}
 

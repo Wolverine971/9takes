@@ -1,0 +1,12 @@
+Editor pass on `src/blog/people/drafts/Penguinz0.md` is complete, and both exit checks pass: **0 contrast pairs** (strong and comparative), **0 lint failures**, zero prose em-dashes, no banned phrases. The only remaining warn is the missing `faqs` frontmatter, which belongs to the enrich stage, not this pass.
+
+This draft arrived unusually clean — it had already been through fresh-eyes and a second pass, so this was a genuine light-touch polish rather than a rescue. What I fixed:
+
+- **One banned word**: "leverages" in the diagnosis section became "cashes it in," which also fits the money theme better.
+- **One fact-not-in-evidence**: the ending claimed the National Treasure disc "gave out and set him free," but the piece only establishes he *feared* it would. Now reads "while he prayed the disc would hold," which echoes the inner-thought beat instead of contradicting it.
+- **Mobile rhythm**: split five dense paragraphs (the OCD self-treatment plan, the faceless-era beat, the names-trace-to-inertia riff, the judge docket, and the weathervane defense). The weathervane concession ("the type does not launder those") now stands alone as a one-sentence paragraph, which gives the honest-residue admission real weight instead of burying it.
+- **One dropped-word clunk**: "a character name for a college Wii U" → "a character name on a Wii U back in college."
+
+I deliberately left the best material untouched: the bits-breaking cold open, the money ledger table, the interior beat, the empathy turn in the iDubbbz section, and the Naroditsky peak ("it cracked exactly once that fall, and it was for someone else").
+
+**Verdict: production-ready on prose.** The remaining gates before publish are the frontmatter enrich stage (faqs) and the normal grade/publish workflow — no further substantive editing pass needed.

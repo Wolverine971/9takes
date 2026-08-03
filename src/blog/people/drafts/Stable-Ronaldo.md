@@ -30,6 +30,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Stable-Ronaldo.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -60,11 +61,11 @@ Locations: "Stable Ronaldo's childhood: one lost job, then three", "What Stable 
 <!-- FORMULA FINGERPRINT LEDGER
 Contrast-pair sentence engines: 0 strong / 0 comparative — from scripts/blog-quality-report.mjs
 Counter-typing ladders in main body: 0 — single pressure-test paragraph in the diagnosis section only
-Same-type similarity scan: top score 0.058 vs jynxzi (T3, n=8 scanned; trip threshold 0.04) — clear, no shared diagnosis or counter-typing argument
+Same-type similarity scan: top score 0.058 vs jynxzi (T3, n=8 scanned; trip threshold 0.04) — CLEAR, no shared diagnosis or counter-typing argument
 Bespoke section form: "The Receipts: What Stable Ronaldo Bought His Mother" — a dated purchase ledger with a third column for what each transaction was actually paying for. It runs on his specific receipts (the GT3, the paid-off house, the $250,000, the clawback) and collapses without them.
 Critic-pressure anchor: xQc, December 2024, on Ronaldo's ad load and "fake content" — section "Why People Call Stable Ronaldo an Ad Machine"
 Empathy turn: the money talk everyone mocks (the ad breaks, the public earnings posts, taking back his mother's $250,000). Reframed through his own vocabulary of worry and bills: a kid who watched a job loss end a marriage reads revenue as a smoke detector, and he would rather eat a bill than leave one behind the way his father did. Section: "Why People Call Stable Ronaldo an Ad Machine"
-Current-tense anchor: CORE launched April 30, 2026; best statistical year of his career in 2026 (~45k average, #13 overall); Streamer University Community Builder Award, July 2026
+Current-tense anchor: CORE launched April 30, 2026; best statistical year of his career in 2026 (~29k average YTD, 168,044 peak on July 19, ~#4 most-watched, TwitchTracker Aug 2026); Streamer University Community Builder Award, July 2026
 Interior beat: the 2022 morning with 10,000 people waiting and no reason to get up — section "What Stable Ronaldo Does When the Numbers Drop"
 Ending swap-test: pass. The ending turns on Kai Cenat's specific memory of a blue headset and a pair of shoes in a dark New Jersey bedroom at 2,000 viewers. No other subject has those objects.
 -->
@@ -103,7 +104,7 @@ His father left when he was a kid. He does not talk to him now.
 
 ### Stable Ronaldo is an Enneagram Type 3
 
-In June 2024, fitness influencer Bradley Martyn slapped Rani Netz across the face on a live stream at his Zoo Culture gym after Netz grabbed his hat as a bit. Hundreds of thousands of people watched a 21-year-old get hit and told to leave. The clip traveled for a week. Asmongold said Martyn "did a favor" by slapping him.
+On June 8, 2024, Bradley Martyn slapped Rani Netz across the face on stream at his Zoo Culture gym. Netz had taken his hat as a bit and would not give it back. Asmongold said Martyn "did a favor" by slapping him. The next day Netz went live in a head bandage, playing his own beating for laughs.
 
 A month later they reconciled, and Netz described the slap as "part of the narrative" that boosted his relevancy.
 
@@ -150,7 +151,7 @@ Money in this story is never just money. Follow the receipts and the psychology 
 	</div>
 	<div class="timeline__item">
 		<span class="timeline__year">Jan 2024</span>
-		<span class="timeline__event">Announces a Porsche 911 GT3 on his 21st birthday, live, after a year at the bottom. He is explicit about the frame: "look what you could do in a year." 30,000 people watch.</span>
+		<span class="timeline__event">Buys himself a Porsche 911 GT3 and announces it live on his 21st birthday, one year after bottoming out. 30,000 people watch.</span>
 	</div>
 	<div class="timeline__item timeline__item--key">
 		<span class="timeline__year">Sept 2024</span>
@@ -185,9 +186,9 @@ Here is what he said about the moment he redirected the car money, on the All Gr
 
 Notice the phrasing. He does not describe wanting her to be happy. He describes wanting her to never need to worry. Those are different products. One is joy. The other is the removal of a specific dread he watched her carry through three jobs.
 
-Then read the last line of the ledger again. Two years later he had to unwind it, and he narrated the unwinding on stream, including the part where he acknowledged out loud that this had been the happiest she had been in years.
+Then read the last line of the ledger again. He unwound it on stream, out loud, in the same breath as the sentence about how she had felt.
 
-He gave her the thing that ends worry, and then he took it back to settle a bill.
+He bought her the end of worrying, and then he took it back to settle a bill.
 
 ---
 
@@ -229,13 +230,13 @@ None of that makes eighteen minutes of ads a good viewing experience. It does ex
 
 Every type has a specific way of falling apart. His is the quietest one available.
 
-In 2022, with the count sliding, he stopped going live. He did not rage or spiral publicly. He went horizontal. He woke up and decided he did not feel like working, played games off stream where nothing was measured, took days off and then weeks off, ended broadcasts early when the number came in low. "That's what really ruined my mental," he said, "because then it would go down even more."
+Go back to the bedroom in 2022. He never raged, never spiraled publicly, never posted a callout. He went horizontal. "That's what really ruined my mental," he said of watching the count fall, "because then it would go down even more." Each low night made the next night harder to start.
 
 <p class="inner-thought">Ten thousand of them are out there right now, refreshing, waiting for me to click Go Live. And I cannot think of one reason to get out of this bed.</p>
 
-Read that carefully, because it is genuinely strange. Ten thousand people is a career most streamers never touch. He experienced it as evidence of decline and it made him unable to move. The Enneagram's contribution here is a specific mechanic: under pressure, a Three slides toward Type 9 and goes numb, checking out of the very effort that used to define them. The scoreboard stops rewarding, so the self switches off. He is describing that slide from the inside, in his own words, without any framework in his hands.
+Ten thousand people is a career most streamers never touch, and it paralyzed him. The Enneagram's contribution here is a specific mechanic: under pressure, a Three slides toward Type 9 and goes numb, checking out of the very effort that used to define them. The scoreboard stops paying, so the self powers down. He is describing that slide from the inside, in his own words, with no framework in his hands.
 
-The recovery ran the other direction, toward Type 6. What he says brought him back is not the follower count. It is a discovery about people: "when I was so low, coming back, I was like, damn, I have people who really f*** with me." He left FaZe on Christmas Day 2025 with no explanation and immediately posted his best statistical year, averaging around 45,000 viewers and ranking around #13 overall in 2026. On April 30, 2026 he and five other ex-FaZe creators launched CORE, an acronym for Create Own Run Everything, out of a $20 million house. In July 2026 he won the Community Builder Award at Kai Cenat's Streamer University.
+The recovery ran the other direction, toward Type 6. What he says brought him back is not the follower count. It is a discovery about people: "when I was so low, coming back, I was like, damn, I have people who really f*** with me." He left FaZe on Christmas Day 2025 with no explanation and immediately posted the best statistical year of his career: close to 29,000 average viewers across 2026, a peak of 168,044 on July 19, and a spot around #4 most-watched on the platform (TwitchTracker, August 2026). On April 30, 2026 he and five other ex-FaZe creators launched CORE, an acronym for Create Own Run Everything, out of a $20 million house. In July 2026 he won the Community Builder Award at Kai Cenat's Streamer University.
 
 The kid who fell apart alone in 2022 spent 2026 building rooms and keeping crews together.
 
@@ -260,9 +261,11 @@ Under stress, a Three moves toward Type 9: withdrawal, numbness, inertia, the sl
 
 ### Counterarguments: Why Stable Ronaldo Might Not Be Type 3
 
-The strongest alternate case is Type 7. He is loud, restless, chaotic, banned from Twitch four separate times, and self-aware about it ("I just troll too hard"). Sevens also burn out spectacularly and announce hiatuses, which he did in 2025, citing anxiety and drained energy. A Seven reading of him would be defensible and would explain the volume better than a Three reading does.
+The strongest alternate case is Type 7. He is loud, restless, chaotic, banned from Twitch five separate times, and self-aware about it ("I just troll too hard"). Sevens also burn out spectacularly and announce hiatuses, which he did in 2025, citing anxiety and drained energy. A Seven reading of him would be defensible and would explain the volume better than a Three reading does.
 
-What tips it back is the vocabulary. When he explains a bad moment, he reaches for words about position: relevancy, falling off, resurgence, viewers, rank. When he explains a good moment, he reaches for numbers. A Seven's crash is a crash of stimulation, and it sends them scrambling for the next hit. His crash put him in bed for weeks because 10,000 had once been 30,000. Type 8 is worth naming too, given the confrontations, though Social 3s routinely present that way under competition. If he described his 2022 collapse as boredom instead of shame, this typing would need to change.
+What tips it back is the vocabulary. When he explains a bad moment, he reaches for words about position: relevancy, falling off, resurgence, viewers, rank. When he explains a good moment, he reaches for numbers. A Seven's crash is a crash of stimulation, and it sends them scrambling for the next hit. His crash flattened him at an audience size that would make most careers. Shame does that. Boredom does not.
+
+The anxiety argues for Type 6, and he has said so himself in public more than once, including a 2021 post wondering whether something ran in his family. Everything depends on what the dread is pointed at. A Six scans for threat and for who can be trusted. He scans a leaderboard. If he ever described the 2022 collapse as boredom, or the 2025 hiatus as fear of who was coming for him, this typing would need to change.
 
 </div>
 </details>

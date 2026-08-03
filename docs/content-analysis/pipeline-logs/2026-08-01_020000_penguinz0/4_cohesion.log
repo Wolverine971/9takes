@@ -1,0 +1,37 @@
+## Cohesion Check Complete: penguinz0.md
+
+**Before score: 8/10** → **After score: 9/10**
+
+### Central Thesis
+penguinz0's famous calm is not an inborn temperament but a structure Charlie White built himself after dismantling his OCD as a teenager, and he will pay any price (including deleting a million dollars a year of income) to stay its sole author.
+
+### Thread Map
+The piece holds one thread cleanly: cold open (the money shutdown) → diagnosis (equilibrium compass + the "second gear" of anger on others' behalf) → rituals (origin of the built calm) → Tampa (the adult sameness architecture) → money ledger (what defending equilibrium costs) → judge (the second gear in action) → gets-bothered (where the two gears meet: bends when the cost lands on others, holds under personal risk) → Naroditsky (the one crack in the monotone, for someone else) → ending (the bits number as a self-built ritual). Every section serves the thesis; the promise in the title and intro is the argument the ending lands.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 8/10 | 1 |
+| Section Transitions | 7/10 | 2 |
+| Internal Paragraph Flow | 8/10 | 2 |
+
+### Changes Made (4 total)
+
+**Internal Flow Fixes (1):**
+- Rituals section: moved the faceless-era paragraph out of its old slot (it sat *after* the "Watch what he kept" adult-architecture pivot, yanking chronology backward right before Tampa). It now lives in the hiding-theme block, so the seams read "told no one for a decade" → "The hiding went further than the rituals," then "The last ritual he did not choose was gone" → "Watch what he kept," and the section closes on the adult-architecture pivot that feeds the Tampa section directly.
+
+**Transition Fixes (3):**
+- Tampa → Money: was a hard cut from the Ludwig quote straight into a table. Added a bridge carrying the "easiest job" keyword: *"The easiest job there is paid accordingly. What Charlie did with the money is the part that needs explaining."*
+- Money → Judge: the section's central paradox (a man who pays to stay undisturbed working as a professional judge of disturbances) was implied by the H2 but never stated. Added: *"That makes the day job strange. The man guarding that surface spends it ruling on other people's chaos."* It carries "surface" from the Money section's last line.
+- Judge section, Mitchell → Rizzo: the jump from the Brisbane courtroom to esports-ownership testimonials had no connector. Added: *"The same protective instinct runs his own house."*
+
+### What Was Preserved
+- All frontmatter, working-notes comments, Svelte/HTML blocks, internal links, and the table
+- The cold open, diagnosis section, money-ledger framing, Naroditsky section, and ending untouched (all strong; the ending's rituals→bits-number callback is the best transition in the piece)
+- The Diagnosis → Rituals and Bothered → Naroditsky boundaries left alone: both open on dated scenes, which is this piece's house style, and the "twelve years old" callback / section-title setup carry them adequately
+
+Verified after editing: `blog-lint` still reports **0 fail, 1 warn**, and the warn is the pre-existing `faqs` frontmatter item owned by the enrich stage, not this pass. No em-dashes or banned phrases introduced; contrast-pair count still 0.
+
+### Remaining Concerns
+Two judgment calls I left alone: the section titled "What Happens When penguinz0 Actually Gets Bothered" ends on the T-Pain retirement joke, which reads as a trailing shrug rather than a landed close (though the shrug arguably *is* the character), and the chess section jumps back to 2020 with no time signal after 2024–25 material. Both are defensible as-is; flagging in case you want them tightened in a later pass.

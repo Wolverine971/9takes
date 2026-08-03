@@ -15,28 +15,6 @@
 	/* Phase 7 complete 2026-06-10: legacy bridge aliases deleted; V5 tokens
 	   (--lamp-*, --night-*, --stone-*, --ink-*) are the only color source of truth. */
 
-	/* Secondary — kept as standalone rose accent, no V5 equivalent. */
-	--secondary: #fb7185;
-	--secondary-light: #fda4af;
-	--secondary-dark: #f43f5e;
-	--secondary-glow: rgba(251, 113, 133, 0.4);
-	--secondary-subtle: rgba(251, 113, 133, 0.12);
-
-	/* ========================================
-	   NEUTRALS
-	   Phase 8 (2026-06-11): the numbered --neutral-* ramp deleted; consumers
-	   migrated to --ink-* / --night-* / --stone-* directly. (Tailwind's
-	   `neutral` classes are hex in tailwind.config.ts — unaffected.)
-	   ======================================== */
-	--white: #ffffff;
-	--off-white: #fafaf9;
-	--lightest-gray: var(--stone-warm);
-	--light-gray: var(--stone-warm);
-	--medium-gray: #57534e;
-	--dark-gray: #a8a29e;
-	--darkest-gray: #e7e5e4;
-	--black: var(--night-deep);
-
 	/* ========================================
 	   FUNCTIONAL / STATUS COLORS
 	   Adjusted for dark backgrounds
@@ -70,42 +48,8 @@
 	   ======================================== */
 	--text-on-primary: #0c0a09;
 	--text-on-dark: #fafaf9;
-	--text-on-secondary: #ffffff;
 	--text-on-image: var(--text-on-dark);
 	--text-on-image-muted: rgba(250, 250, 249, 0.82);
-
-	/* ========================================
-	   COMPONENT SPECIFIC
-	   ======================================== */
-	--card-background: var(--stone-warm);
-	--body-background: var(--night-deep);
-	--comment-hover-bg: var(--stone-warm);
-	--border-color: var(--stone-warm);
-	--button-hover: var(--lamp-glow);
-	--hover-background: var(--stone-warm);
-	--message-background: var(--night-deep);
-	--button-background: var(--lamp-soft);
-	--background: var(--stone-warm);
-	--color-border: var(--border-color);
-	--color-text: var(--ink-bright);
-	--color-text-secondary: var(--ink-mid);
-	--color-text-muted: var(--ink-dim);
-	--color-primary: var(--lamp-glow);
-	--color-warning: var(--warning);
-	--color-bg-secondary: var(--night-deep);
-	--color-bg-muted: var(--stone-warm);
-	--color-icon: var(--ink-mid);
-	--accent-color: var(--lamp-glow);
-	--text-color-secondary: var(--ink-mid);
-	--card-bg-color: var(--stone-warm);
-	--item-background: var(--stone-warm);
-	--title-background: var(--stone-warm);
-	--title-color: var(--ink-bright);
-	--link-background: var(--night-deep);
-	--link-hover-background: var(--stone-warm);
-	--link-color: var(--lamp-glow);
-	--background-light: var(--night-deep);
-	--background-dark: var(--night-deep);
 
 	/* ========================================
 	   SHADOWS & GLOWS
@@ -201,8 +145,6 @@
 	/* 2026-06-10: was the retired teal rgba(45,212,191,0.15) — it tinted the
 	   site header's bottom border teal. Now a stone-edge tint. */
 	--glass-border: rgba(92, 79, 71, 0.45);
-	--base-white-outline: #fafaf9;
-	--classic-border: 1px solid var(--stone-warm);
 	--image-overlay-strong: rgba(12, 10, 9, 0.97);
 	--image-overlay-medium: rgba(12, 10, 9, 0.72);
 	--image-overlay-soft: rgba(12, 10, 9, 0.2);
@@ -221,11 +163,6 @@
 	--pillar-head: #0ea5e9;
 	--pillar-gut: #dc2626;
 	--pillar-heart: #a855f7;
-
-	/* Blog-specific overrides for dark theme.
-	   Phase 8 (2026-06-11): --neutral-light/-border/-text/-divider deleted
-	   (zero consumers). */
-	--muted-text: var(--ink-dim);
 
 	/* ========================================
 	   V5 STREETLAMP SYMPOSIUM TOKENS
@@ -275,6 +212,12 @@
 	/* Pool / glow rgb triples for radial gradients */
 	--pool-rgb: 245, 158, 11;
 	--pool-deep-rgb: 180, 83, 9;
+
+	/* Personality portraits — contained-violet media treatment.
+	   The violet is baked into the protected portrait assets; these tokens make
+	   it a quiet image signature instead of a third UI accent. */
+	--personality-portrait-well: #2c1f28;
+	--personality-portrait-filter: contrast(1.08) brightness(0.92) saturate(0.68);
 }
 
 /*==============================================
@@ -283,13 +226,6 @@
 :root.light {
 	/* Phase 7 complete 2026-06-10: legacy bridge aliases deleted; V5 tokens
 	   (--lamp-*, --night-*, --stone-*, --ink-*) are the only color source of truth. */
-
-	/* Secondary — standalone rose accent. */
-	--secondary: #e11d48;
-	--secondary-light: #f43f5e;
-	--secondary-dark: #be123c;
-	--secondary-glow: rgba(225, 29, 72, 0.25);
-	--secondary-subtle: rgba(225, 29, 72, 0.08);
 
 	--text-on-primary: #ffffff;
 	--text-on-dark: #fafaf9;
@@ -320,9 +256,6 @@
 	/* 2026-06-10: was a teal tint; now stone-edge (light) to match dark mode. */
 	--glass-border: rgba(214, 204, 184, 0.7);
 
-	--off-white: #fafaf9;
-	--dark-gray: #57534e;
-	--medium-gray: #78716c;
 	--pillar-head: #0ea5e9;
 	--pillar-gut: #dc2626;
 	--pillar-heart: #a855f7;
@@ -361,11 +294,27 @@
 
 	--pool-rgb: 217, 119, 6;
 	--pool-deep-rgb: 180, 83, 9;
+
+	/* White surfaces make the legacy violet read louder, so light mode pulls
+	   saturation down slightly further than dark mode. */
+	--personality-portrait-well: #f6f3fb;
+	--personality-portrait-filter: contrast(1.02) brightness(0.99) saturate(0.58);
 }
 
 /*==============================================
   COMPONENT LIBRARY
 ==============================================*/
+
+/* Semantic, opt-in treatment for images sourced from the personality portrait
+   library. Callers add both classes deliberately; never infer this from a URL. */
+.personality-portrait-well {
+	background-color: var(--personality-portrait-well);
+}
+
+.personality-portrait-image {
+	filter: var(--personality-portrait-filter);
+	mix-blend-mode: normal;
+}
 
 /*==============================================
   RESET & BASE STYLES
@@ -493,12 +442,12 @@ figcaption {
 }
 
 .txt-white {
-	color: var(--base-white-outline);
-	text-shadow: 1px 1px 1px var(--black);
+	color: var(--marble-pure);
+	text-shadow: 1px 1px 1px var(--night-deep);
 }
 
 .txt-dark {
-	color: var(--dark-gray);
+	color: var(--ink-mid);
 	text-shadow: 1px 1px 1px var(--lamp-glow);
 }
 
@@ -905,7 +854,7 @@ table {
   VISUAL EFFECTS
 ==============================================*/
 .loader {
-	border: 5px solid var(--white);
+	border: 5px solid var(--marble-pure);
 	border-bottom-color: transparent;
 	border-radius: 50%;
 	animation: rotation 1s linear infinite;

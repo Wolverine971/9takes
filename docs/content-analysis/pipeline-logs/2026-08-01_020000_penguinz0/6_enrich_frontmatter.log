@@ -1,0 +1,26 @@
+Frontmatter enrichment complete: **Penguinz0**
+
+**Fields filled:**
+
+- `wikidata_qid` (Q98465764), `imdb_id` (nm5694647 — cross-checked via Wikidata P345), `birth_date` (1994-08-02), `birth_place` (Tampa, Florida, United States), `nationality`, `occupation` (4), `knows_about` (6), `keywords` (10), `same_as` (4), `citations` (6), `faqs` (5)
+
+**Fields already present (preserved):**
+
+- `wikipedia` (points correctly to the Cr1TiKaL article — no mismatch to flag), `twitter`, and `lastmod` untouched
+
+**FAQs generated (5):**
+
+1. What is penguinz0's personality type? → `#what-is-penguinz0s-personality-type`
+2. Why did penguinz0 turn off donations? → `#what-penguinz0-made-and-what-he-kept`
+3. Does penguinz0 have OCD? → `#the-hundred-rituals-that-ran-charlie-whites-teenage-years`
+4. Why is moistcr1tikal called penguinz0? → `#why-charlie-white-still-lives-in-tampa`
+5. How much money has penguinz0 made? → `#what-penguinz0-made-and-what-he-kept`
+
+All anchors match the body's actual H2 slugs. FAQ 4 covers the "why is he called penguinz0" search gap the fresh-eyes review flagged. Answers avoid em-dashes to stay lint-clean, and apostrophes are YAML-doubled (`''`), so this draft won't trip the FAQ-frontmatter build break from past pipeline runs.
+
+**Verification:** YAML parses cleanly (js-yaml), and `blog-lint` now reports **0 fail, 0 warn** — including "faqs present and FAQPage-eligible (5 real Q/A pairs)", clearing the WARN left open by the second-pass notes.
+
+**Issues:**
+
+- The body contains zero external hyperlinks — sources are named inline (Dexerto, VGC, Tubefilter, WIRED) but never linked. Per the edge-case rule I did not invent body links; I resolved the named references to their verified URLs for `citations` (Dexerto's earnings-reveal article, VGC's "better options for your money" piece, Tubefilter's $35M breakdown, plus Wikipedia entries for Cr1TiKaL, Moist Esports, and Daniel Naroditsky). Worth noting for the publish gate as a thin-sourcing style choice, not a data gap.
+- The WIRED autocomplete interview couldn't be cited directly (wired.com blocks the crawler), so it's referenced only inside the name-origin FAQ answer, matching how the body cites it.

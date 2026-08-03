@@ -1,0 +1,15 @@
+{
+	"person": "stableronaldo",
+	"draft_path": "src/blog/people/drafts/stableronaldo.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-02_020000_stableronaldo",
+	"completed": false,
+	"halt_reason": "draft_missing_after_stage_1_create",
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": null,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": false,
+	"generated_at": "2026-08-02T06:42:03.907Z"
+}

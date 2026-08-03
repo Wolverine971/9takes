@@ -4,7 +4,6 @@
 	import QRCode from 'qrcode';
 	import Modal from '$lib/components/atoms/Modal.svelte';
 	import { getModal } from '$lib/components/atoms/Modal.svelte';
-	import Rubix from '$lib/components/icons/rubix.svelte';
 	import Scribble from '$lib/components/atoms/scribble.svelte';
 	import { Button } from '$lib/components/atoms';
 	import {
@@ -25,8 +24,8 @@
 	const PRINT_LAYOUT_WIDTH = 688;
 	const PRINT_LAYOUT_MAX_HEIGHT = 280;
 	const PRINT_LAYOUT_MAX_LINES = 6;
-	const FALLBACK_QR_DARK = '#0f766e';
-	const FALLBACK_QR_LIGHT = '#f8fafc';
+	const FALLBACK_QR_DARK = '#92400e';
+	const FALLBACK_QR_LIGHT = '#faf8f4';
 	const UPLOAD_OPACITY = 0.38;
 
 	let questionText = $state('');
@@ -184,6 +183,9 @@
 
 		const posterBackground = backgroundImageCss;
 		const fullQuestionUrl = escapeHtml(questionUrl);
+		const brandMarkUrl = escapeHtml(
+			new URL('/brand/9takes-nine-mask-logo-192.png', window.location.origin).href
+		);
 		const footerMarkup = showQuestionUrlFooter
 			? `
 								<div class="footer-copy">
@@ -207,12 +209,7 @@
 						<div class="poster-noise"></div>
 						<div class="poster-content">
 							<div class="brand">
-								<svg width="36" height="36" viewBox="0 0 50 50" aria-hidden="true">
-									<rect x="5" y="5" width="16" height="16" rx="2" fill="#0f766e"></rect>
-									<rect x="29" y="5" width="16" height="16" rx="2" fill="#f97316"></rect>
-									<rect x="5" y="29" width="16" height="16" rx="2" fill="#38bdf8"></rect>
-									<rect x="29" y="29" width="16" height="16" rx="2" fill="#fb7185"></rect>
-								</svg>
+								<img class="brand-mark" src="${brandMarkUrl}" alt="" width="36" height="36" />
 								<svg width="138" height="32" viewBox="0 0 138 32" aria-hidden="true">
 									<text
 										x="4"
@@ -220,7 +217,7 @@
 										font-family="Noticia Text, Georgia, serif"
 										font-size="26"
 										font-weight="700"
-										fill="#f8fafc"
+									fill="#faf8f4"
 									>
 										9takes
 									</text>
@@ -258,9 +255,9 @@
 
 			body {
 				margin: 0;
-				background: #dce8ef;
+				background: #ede6da;
 				font-family: Inter, 'Segoe UI', sans-serif;
-				color: #10202e;
+				color: #1c1917;
 			}
 
 			.print-sheet {
@@ -278,9 +275,9 @@
 				height: 100%;
 				overflow: hidden;
 				border-radius: 0.32in;
-				background: linear-gradient(180deg, #0f1722 0%, #16273a 100%);
-				box-shadow: 0 32px 80px rgba(8, 18, 27, 0.24);
-				border: 1px solid rgba(255, 255, 255, 0.18);
+				background: linear-gradient(180deg, #0a0807 0%, #16110d 100%);
+				box-shadow: 0 32px 80px rgba(12, 10, 9, 0.24);
+				border: 1px solid rgba(250, 248, 244, 0.18);
 			}
 
 			.poster::after {
@@ -288,8 +285,8 @@
 				position: absolute;
 				inset: 0;
 				background:
-					linear-gradient(180deg, rgba(8, 18, 27, 0.12), rgba(8, 18, 27, 0.5)),
-					radial-gradient(circle at top, rgba(255, 255, 255, 0.18), transparent 42%);
+					linear-gradient(180deg, rgba(12, 10, 9, 0.12), rgba(12, 10, 9, 0.5)),
+					radial-gradient(circle at top, rgba(250, 248, 244, 0.18), transparent 42%);
 				pointer-events: none;
 			}
 
@@ -309,12 +306,12 @@
 				background:
 					repeating-linear-gradient(
 						0deg,
-						rgba(255, 255, 255, 0.16) 0 1px,
+						rgba(250, 248, 244, 0.16) 0 1px,
 						transparent 1px 18px
 					),
 					repeating-linear-gradient(
 						90deg,
-						rgba(255, 255, 255, 0.12) 0 1px,
+						rgba(250, 248, 244, 0.12) 0 1px,
 						transparent 1px 24px
 					);
 			}
@@ -337,18 +334,24 @@
 				gap: 0.18in;
 			}
 
-			.brand svg {
+			.brand svg,
+			.brand-mark {
 				display: block;
+			}
+
+			.brand-mark {
+				border-radius: 7px;
+				object-fit: cover;
 			}
 
 			.question-panel {
 				margin: auto 0;
 				padding: 0.34in;
 				border-radius: 0.24in;
-				background: rgba(248, 250, 252, 0.9);
+				background: rgba(250, 248, 244, 0.92);
 				backdrop-filter: blur(16px);
-				box-shadow: 0 18px 40px rgba(8, 18, 27, 0.18);
-				border: 1px solid rgba(255, 255, 255, 0.6);
+				box-shadow: 0 18px 40px rgba(12, 10, 9, 0.18);
+				border: 1px solid rgba(214, 204, 184, 0.78);
 			}
 
 			.question-label {
@@ -356,7 +359,7 @@
 				font-size: 0.12in;
 				letter-spacing: 0.12em;
 				text-transform: uppercase;
-				color: #496174;
+				color: #78716c;
 				text-align: center;
 			}
 
@@ -368,7 +371,7 @@
 				line-height: ${printQuestionLayout.lineHeight};
 				font-weight: 700;
 				text-transform: uppercase;
-				color: #10202e;
+				color: #1c1917;
 			}
 
 			.question-box span {
@@ -382,7 +385,7 @@
 				height: 0.04in;
 				margin: 0.18in auto 0;
 				border-radius: 999px;
-				background: #0f766e;
+				background: #b45309;
 			}
 
 			.footer {
@@ -401,9 +404,9 @@
 				min-width: 0;
 				padding: 0.2in 0.24in;
 				border-radius: 0.22in;
-				background: rgba(248, 250, 252, 0.9);
+				background: rgba(250, 248, 244, 0.92);
 				backdrop-filter: blur(16px);
-				border: 1px solid rgba(255, 255, 255, 0.55);
+				border: 1px solid rgba(214, 204, 184, 0.74);
 			}
 
 			.footer-label {
@@ -411,7 +414,7 @@
 				font-size: 0.12in;
 				letter-spacing: 0.1em;
 				text-transform: uppercase;
-				color: #496174;
+				color: #78716c;
 				margin-bottom: 0.06in;
 			}
 
@@ -428,13 +431,13 @@
 				width: 1.28in;
 				height: 1.28in;
 				border-radius: 0.22in;
-				background: #f8fafc;
+				background: #faf8f4;
 				display: flex;
 				align-items: center;
 				justify-content: center;
 				padding: 0.12in;
-				border: 1px solid rgba(255, 255, 255, 0.55);
-				box-shadow: 0 14px 32px rgba(8, 18, 27, 0.12);
+				border: 1px solid rgba(214, 204, 184, 0.74);
+				box-shadow: 0 14px 32px rgba(12, 10, 9, 0.12);
 			}
 
 			.qr-panel img {
@@ -526,7 +529,13 @@
 
 		<div class="poster-card__content">
 			<div class="brand">
-				<Rubix height={50} width={50} svgStyle="margin: 0" />
+				<img
+					class="brand-mark"
+					src="/brand/9takes-nine-mask-logo-192.png"
+					alt=""
+					width="50"
+					height="50"
+				/>
 				<Scribble text="9takes" />
 			</div>
 
@@ -538,7 +547,7 @@
 					itemprop="name"
 					bind:clientWidth={questionBoxWidth}
 				>
-					{#each previewQuestionLayout.lines as line}
+					{#each previewQuestionLayout.lines as line, lineIndex (`${line}-${lineIndex}`)}
 						<span>{line}</span>
 					{/each}
 				</h1>
@@ -682,7 +691,7 @@
 				</p>
 
 				<div class="background-grid">
-					{#each QUESTION_PRINT_BACKGROUND_PRESETS as preset}
+					{#each QUESTION_PRINT_BACKGROUND_PRESETS as preset (preset.id)}
 						<button
 							type="button"
 							class="background-option"
@@ -1096,9 +1105,9 @@
 		margin: 0 auto;
 		overflow: hidden;
 		border-radius: 1.8rem;
-		background: linear-gradient(180deg, #0f1722 0%, #16273a 100%);
-		border: 1px solid rgba(255, 255, 255, 0.12);
-		box-shadow: 0 32px 80px rgba(8, 18, 27, 0.28);
+		background: linear-gradient(180deg, #0a0807 0%, #16110d 100%);
+		border: 1px solid rgba(250, 248, 244, 0.12);
+		box-shadow: 0 32px 80px rgba(12, 10, 9, 0.28);
 	}
 
 	.poster-card::after {
@@ -1106,8 +1115,8 @@
 		position: absolute;
 		inset: 0;
 		background:
-			linear-gradient(180deg, rgba(8, 18, 27, 0.16), rgba(8, 18, 27, 0.52)),
-			radial-gradient(circle at top, rgba(255, 255, 255, 0.16), transparent 42%);
+			linear-gradient(180deg, rgba(12, 10, 9, 0.16), rgba(12, 10, 9, 0.52)),
+			radial-gradient(circle at top, rgba(250, 248, 244, 0.16), transparent 42%);
 		pointer-events: none;
 	}
 
@@ -1125,8 +1134,8 @@
 	.poster-card__noise {
 		opacity: 0.08;
 		background:
-			repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.14) 0 1px, transparent 1px 18px),
-			repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0 1px, transparent 1px 24px);
+			repeating-linear-gradient(0deg, rgba(250, 248, 244, 0.14) 0 1px, transparent 1px 18px),
+			repeating-linear-gradient(90deg, rgba(250, 248, 244, 0.1) 0 1px, transparent 1px 24px);
 	}
 
 	.poster-card__content {
@@ -1145,17 +1154,24 @@
 		align-items: center;
 		justify-content: center;
 		gap: 0.9rem;
-		color: #f8fafc;
+		color: #faf8f4;
+	}
+
+	.brand-mark {
+		display: block;
+		flex-shrink: 0;
+		border-radius: 10px;
+		object-fit: cover;
 	}
 
 	.question-panel {
 		margin: auto 0;
 		padding: clamp(1.35rem, 3vw, 2rem);
 		border-radius: 1.5rem;
-		background: rgba(248, 250, 252, 0.9);
+		background: rgba(250, 248, 244, 0.92);
 		backdrop-filter: blur(16px);
-		border: 1px solid rgba(255, 255, 255, 0.62);
-		box-shadow: 0 18px 40px rgba(8, 18, 27, 0.2);
+		border: 1px solid rgba(214, 204, 184, 0.78);
+		box-shadow: 0 18px 40px rgba(12, 10, 9, 0.2);
 	}
 
 	.question-panel__label {
@@ -1164,7 +1180,7 @@
 		font-weight: 700;
 		letter-spacing: 0.12em;
 		text-transform: uppercase;
-		color: #496174;
+		color: #78716c;
 		text-align: center;
 	}
 
@@ -1175,7 +1191,7 @@
 		text-align: center;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: #10202e;
+		color: #1c1917;
 	}
 
 	.question-box span {
@@ -1208,9 +1224,9 @@
 		min-width: 0;
 		padding: 0.95rem 1rem;
 		border-radius: 1.2rem;
-		background: rgba(248, 250, 252, 0.9);
+		background: rgba(250, 248, 244, 0.92);
 		backdrop-filter: blur(16px);
-		border: 1px solid rgba(255, 255, 255, 0.56);
+		border: 1px solid rgba(214, 204, 184, 0.74);
 	}
 
 	.poster-card__copy-label {
@@ -1220,14 +1236,14 @@
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: #496174;
+		color: #78716c;
 	}
 
 	.poster-card__copy-url {
 		display: block;
 		font-size: 0.94rem;
 		font-weight: 600;
-		color: #10202e;
+		color: #1c1917;
 		line-height: 1.45;
 		overflow-wrap: anywhere;
 		word-break: break-word;
@@ -1239,9 +1255,9 @@
 		height: clamp(88px, 11vw, 118px);
 		padding: 0.7rem;
 		border-radius: 1.2rem;
-		background: #f8fafc;
-		border: 1px solid rgba(255, 255, 255, 0.55);
-		box-shadow: 0 14px 32px rgba(8, 18, 27, 0.12);
+		background: #faf8f4;
+		border: 1px solid rgba(214, 204, 184, 0.74);
+		box-shadow: 0 14px 32px rgba(12, 10, 9, 0.12);
 	}
 
 	.qr-image {
@@ -1249,22 +1265,22 @@
 		width: 100%;
 		height: 100%;
 		border-radius: 0.7rem;
-		background: linear-gradient(135deg, #eef4f8, #d8e7ee);
+		background: linear-gradient(135deg, #faf8f4, #ede6da);
 	}
 
 	.qr-image--placeholder {
 		background:
 			linear-gradient(
 				90deg,
-				rgba(15, 118, 110, 0.18) 25%,
+				rgba(180, 83, 9, 0.18) 25%,
 				transparent 25% 50%,
-				rgba(15, 118, 110, 0.18) 50% 75%,
+				rgba(180, 83, 9, 0.18) 50% 75%,
 				transparent 75%
 			),
 			linear-gradient(
-				rgba(15, 118, 110, 0.18) 25%,
+				rgba(180, 83, 9, 0.18) 25%,
 				transparent 25% 50%,
-				rgba(15, 118, 110, 0.18) 50% 75%,
+				rgba(180, 83, 9, 0.18) 50% 75%,
 				transparent 75%
 			);
 		background-size: 18px 18px;

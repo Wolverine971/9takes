@@ -1,0 +1,41 @@
+[2026-08-02 08:00:00] [INFO] Instagram warmup cron starting for @9takesdotcom
+All outputs written.
+
+```text
+@9takesdotcom Instagram warmup complete for 2026-08-02.
+
+Queued opportunities: 5 (trimmed from 7; 3 stale items dropped outright)
+Profiles created: 1
+Profiles updated: 5
+New accounts discovered: 4
+Saves dropped to inbox/: 3
+Saves held (over cap): 1
+Saves skipped (hard-skip): 0
+
+Top reply priorities:
+1. @typeishofficial - "Just Stop! Stereotypes we need to retire" — caught at 4 MINUTES old, 1 junk comment, direct CTA. Closes a standing "no first touch yet" loop on a 48.5K Anchor.
+2. @candicemichelleenneagram - "This one's for us, Enneagram 2s" reel, 11h, ZERO comments. 8th scan with zero contact; follow-first is a standing order now.
+3. @thesecurerelationship - comment-level: her thread produced the FIRST live Type 9 stranger we've ever surfaced.
+
+Top saves:
+1. DbiXeSrFg4V @typeishofficial - nine stereotypes on one frame; he says the stereotype misses the motivation and never supplies it — we can
+2. DaSgOodmdVQ @aayushiirana - "name your anxiety" externalization ritual; 8.7K/333/354 with strangers performing it in the comments
+3. DbhJg5GB4CU @candicemichelleenneagram - a 15.1K coach independently states same-type-different-wiring
+
+Next steps:
+- /instagram-reply docs/instagram/daily-engagement/2026-08-02_instagram-warmup.md
+- /instagram-saves triage
+
+Warmup doc: docs/instagram/daily-engagement/2026-08-02_instagram-warmup.md
+```
+
+Three things worth your attention beyond the queue:
+
+**The 9 pond cracked open — by accident.** A cold `conflict avoidant` keyword search returned 20 results, all stale, and an author-pivot into a dead micro-account. The same session, a stranger described Type 9 self-abandonment perfectly *inside* @thesecurerelationship's comment thread, unprompted, with zero replies. Nines don't post about themselves; they comment about themselves in other people's relationship rooms. I've recorded that as a standing method change — work the 9 pond by commenter-mining couples/attachment threads, stop searching for it.
+
+**Execution debt is now 4 sessions with zero comments posted.** Yesterday's fix was trimming 7 items; I trimmed to 5 and dropped 3. That's treating the symptom — the sourcing leg runs daily and the reply leg doesn't run at all, so trimming just slows the decay. Two options worth your call: fold reply-drafting into the warmup cron so one job produces posted comments instead of a queue, or accept sourcing-only and cut this job to 2–3x/week. I'd push for the first; the second is the honest fallback. Either beats writing a fifth queue nobody executes. Related: three straight sessions with zero inbound signals — we haven't commented, so nothing comes back.
+
+**The Type 2 pond had its best day and we weren't in it.** A dedicated "for us, Enneagram 2s" reel at zero comments, a stereotype list naming the 2 directly, plus the 2-pond room we entered on 08-01 — all on the pond with the largest addressable audience and no celebrity anchor. That's an argument for moving the Type 2 celebrity analysis (Dolly Parton, Mister Rogers) up the content pipeline.
+
+One caveat on browser setup: both Chrome instances still connect as generic "Browser 1"/"Browser 2". I verified @9takesdotcom by reading the sidebar rather than by name-matching, which works but is fragile. One interactive `claude --chrome` session from this repo would let the extension's connect prompt name the profile permanently.
+[2026-08-02 08:15:05] [INFO] claude exited with code 0

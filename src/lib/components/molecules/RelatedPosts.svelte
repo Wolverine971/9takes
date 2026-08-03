@@ -18,23 +18,37 @@
 		sameEnneagramPosts?: RelatedPostCard[];
 	};
 
-	export let slug: string;
-	export let postTypes: string[] = [];
-	export let enneagramType: string | null = null;
-	export let initialSameNichePosts: RelatedPostCard[] = [];
-	export let initialSameEnneagramPosts: RelatedPostCard[] = [];
+	type RelatedPostsProps = {
+		slug: string;
+		postTypes?: string[];
+		enneagramType?: string | null;
+		initialSameNichePosts?: RelatedPostCard[];
+		initialSameEnneagramPosts?: RelatedPostCard[];
+	};
 
-	let loading = initialSameNichePosts.length === 0 && initialSameEnneagramPosts.length === 0;
-	let sameNichePosts: RelatedPostCard[] = initialSameNichePosts;
-	let sameEnneagramPosts: RelatedPostCard[] = initialSameEnneagramPosts;
-	let error: string | null = null;
+	let {
+		slug,
+		postTypes = [],
+		enneagramType = null,
+		initialSameNichePosts = [],
+		initialSameEnneagramPosts = []
+	}: RelatedPostsProps = $props();
 
-	// For responsive layout
-	let innerWidth: number;
+	let fetchedSameNichePosts = $state<RelatedPostCard[] | null>(null);
+	let fetchedSameEnneagramPosts = $state<RelatedPostCard[] | null>(null);
+	let requestComplete = $state(false);
+	let error = $state<string | null>(null);
+	let hasInitialPosts = $derived(
+		initialSameNichePosts.length > 0 || initialSameEnneagramPosts.length > 0
+	);
+	let loading = $derived(!hasInitialPosts && !requestComplete);
+	let sameNichePosts = $derived(fetchedSameNichePosts ?? initialSameNichePosts);
+	let sameEnneagramPosts = $derived(fetchedSameEnneagramPosts ?? initialSameEnneagramPosts);
 
-	// Responsive post count based on screen width
-	function slicePosts(posts: RelatedPostCard[]) {
-		return posts.slice(0, innerWidth > 920 ? 6 : innerWidth > 576 ? 6 : 4);
+	const MAX_POSTS_PER_GROUP = 4;
+
+	function selectPosts(posts: RelatedPostCard[]) {
+		return posts.slice(0, MAX_POSTS_PER_GROUP);
 	}
 
 	onMount(async () => {
@@ -63,8 +77,8 @@
 
 			if (result.type === 'success') {
 				const payload = (result.data ?? {}) as RelatedPostsPayload;
-				sameNichePosts = Array.isArray(payload.sameNichePosts) ? payload.sameNichePosts : [];
-				sameEnneagramPosts = Array.isArray(payload.sameEnneagramPosts)
+				fetchedSameNichePosts = Array.isArray(payload.sameNichePosts) ? payload.sameNichePosts : [];
+				fetchedSameEnneagramPosts = Array.isArray(payload.sameEnneagramPosts)
 					? payload.sameEnneagramPosts
 					: [];
 			} else {
@@ -77,16 +91,14 @@
 			error = 'Failed to load related posts';
 			console.error(e);
 		} finally {
-			loading = false;
+			requestComplete = true;
 		}
 	});
 </script>
 
-<svelte:window bind:innerWidth />
-
 {#if loading}
 	<section class="suggestions-container" aria-labelledby="loading-suggestions">
-		<h2 id="loading-suggestions" class="suggestions-title">Further Analysis</h2>
+		<h2 id="loading-suggestions" class="suggestions-title">Related Case Files</h2>
 		<div class="lazy-loading">
 			<div class="loading-spinner"></div>
 			<p>Loading related content...</p>
@@ -94,29 +106,33 @@
 	</section>
 {:else if error}
 	<section class="suggestions-container" aria-labelledby="error-suggestions">
-		<h2 id="error-suggestions" class="suggestions-title">Further Analysis</h2>
+		<h2 id="error-suggestions" class="suggestions-title">Related Case Files</h2>
 		<div class="error">
 			<p>Unable to load related content</p>
 		</div>
 	</section>
 {:else if sameNichePosts.length || sameEnneagramPosts.length}
 	<section class="suggestions-container" aria-labelledby="suggestions-title">
-		<h2 id="suggestions-title" class="suggestions-title">Further Analysis</h2>
+		<h2 id="suggestions-title" class="suggestions-title">Related Case Files</h2>
 		<div class="suggestions-grid">
 			{#if sameNichePosts.length}
 				<div class="suggestion-section" aria-labelledby="niche-suggestions">
 					<h3 id="niche-suggestions" class="section-title">Similar Profiles</h3>
 					<ul class="people-grid" role="list">
-						{#each slicePosts(sameNichePosts) as post}
+						{#each selectPosts(sameNichePosts) as post (post.slug)}
 							{@const personName = formatPersonalityDisplayName(post.slug)}
 							{@const imagePath = buildPersonalityImagePath(post.enneagram, post.slug, 'thumbnail')}
 							<li class="grid-item">
-								<a href={buildPersonalityAnalysisPath(post.slug)} class="person-link">
-									<div class="image-container">
+								<a
+									href={buildPersonalityAnalysisPath(post.slug)}
+									class="person-link"
+									aria-label={`Read the personality analysis of ${personName}`}
+								>
+									<div class="image-container personality-portrait-well">
 										<img
 											loading="lazy"
 											fetchpriority="low"
-											class="grid-img"
+											class="grid-img personality-portrait-image"
 											height="218"
 											width="218"
 											title="Personality analysis of {personName}"
@@ -140,16 +156,20 @@
 						Other Enneagram {enneagramType}s
 					</h3>
 					<ul class="people-grid" role="list">
-						{#each slicePosts(sameEnneagramPosts) as post}
+						{#each selectPosts(sameEnneagramPosts) as post (post.slug)}
 							{@const personName = formatPersonalityDisplayName(post.slug)}
 							{@const imagePath = buildPersonalityImagePath(post.enneagram, post.slug, 'thumbnail')}
 							<li class="grid-item">
-								<a href={buildPersonalityAnalysisPath(post.slug)} class="person-link">
-									<div class="image-container">
+								<a
+									href={buildPersonalityAnalysisPath(post.slug)}
+									class="person-link"
+									aria-label={`Read the personality analysis of ${personName}`}
+								>
+									<div class="image-container personality-portrait-well">
 										<img
 											loading="lazy"
 											fetchpriority="low"
-											class="grid-img"
+											class="grid-img personality-portrait-image"
 											height="218"
 											width="218"
 											title="Personality analysis of {personName}"
@@ -172,24 +192,25 @@
 
 <style lang="scss">
 	.suggestions-container {
-		margin: 3rem 0 5rem;
-		padding: 0 1rem;
-		max-width: 1200px;
+		margin: 0;
+		max-width: 100%;
 	}
 
 	.suggestions-title {
 		text-align: center;
-		margin-bottom: 2rem;
-		font-size: 2rem;
+		margin: 0 0 1.5rem;
+		font-size: clamp(1.5rem, 3vw, 2rem);
+		line-height: 1.1;
 		color: var(--ink-bright);
 	}
 
 	.suggestions-grid {
 		display: grid;
-		gap: 3rem;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 1.5rem;
 
-		@media (min-width: 768px) {
-			grid-template-columns: repeat(2, 1fr);
+		@media (max-width: 720px) {
+			grid-template-columns: 1fr;
 		}
 	}
 
@@ -198,18 +219,22 @@
 	}
 
 	.section-title {
-		text-align: center;
-		padding: 0.5rem;
-		margin-bottom: 1rem;
-		font-size: 1.5rem;
-		color: var(--ink-bright);
+		margin: 0 0 0.75rem;
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 1.4;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink-dim);
 	}
 
 	.people-grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-		gap: 1rem;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.75rem;
 		list-style-type: none;
+		margin: 0;
 		padding: 0;
 	}
 
@@ -217,29 +242,19 @@
 		position: relative;
 		overflow: hidden;
 		border-radius: 1rem;
-		box-shadow: 0 0 15px rgba(0, 0, 0, 0.12);
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 20%, transparent);
+		border: 1px solid var(--stone-edge);
+		background: var(--stone-warm);
+		padding: 0.45rem;
 		transition:
-			transform 0.3s ease,
-			box-shadow 0.3s ease,
-			border-color 0.3s ease;
+			border-color 0.2s ease,
+			background-color 0.2s ease;
 
 		&:hover {
-			transform: translateY(-5px);
-			box-shadow: 0 0 25px var(--lamp-glow-rgba);
-			border-color: var(--lamp-glow);
+			border-color: color-mix(in srgb, var(--lamp-glow) 48%, var(--stone-edge));
+			background: var(--stone-mid);
 
 			.grid-img {
-				filter: brightness(0.9);
-			}
-
-			.name-overlay {
-				opacity: 1;
-				background: linear-gradient(
-					to top,
-					color-mix(in srgb, var(--lamp-glow) 90%, transparent),
-					rgba(0, 0, 0, 0.7)
-				);
+				transform: scale(1.025);
 			}
 		}
 	}
@@ -248,22 +263,26 @@
 		text-decoration: none;
 		color: inherit;
 		display: block;
+		border-radius: 0.625rem;
 	}
 
 	.image-container {
 		position: relative;
 		width: 100%;
-		padding-top: 100%; // 1:1 Aspect ratio
+		aspect-ratio: 1;
+		overflow: hidden;
+		border-radius: 0.625rem;
 	}
 
 	.grid-img {
 		position: absolute;
-		top: 0;
-		left: 0;
+		inset: 0;
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		transition: filter 0.3s ease;
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
+		transition: transform 0.25s ease;
 	}
 
 	.name-overlay {
@@ -271,18 +290,25 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: linear-gradient(to top, rgba(10, 10, 15, 0.9), rgba(0, 0, 0, 0.5));
+		background: linear-gradient(
+			to top,
+			rgba(10, 8, 7, 0.94) 0%,
+			rgba(10, 8, 7, 0.64) 58%,
+			transparent 100%
+		);
 		color: var(--text-on-dark);
-		padding: 0.5rem;
-		opacity: 0;
-		transition: all 0.3s ease;
+		padding: 2.5rem 0.65rem 0.65rem;
+		pointer-events: none;
 	}
 
 	.person-name {
-		font-size: 0.9rem;
-		font-weight: bold;
-		text-align: center;
+		font-size: 0.82rem;
+		font-weight: 600;
+		line-height: 1.25;
 		display: block;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
 		text-transform: capitalize;
 	}
 
@@ -300,7 +326,6 @@
 		border-radius: 50%;
 		margin: 0 auto 1rem;
 		animation: spin 1s linear infinite;
-		box-shadow: 0 0 15px var(--lamp-glow-rgba);
 	}
 
 	@keyframes spin {
@@ -318,17 +343,24 @@
 		text-align: center;
 	}
 
-	@media (max-width: 576px) {
-		.people-grid {
-			grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-		}
-
+	@media (max-width: 420px) {
 		.person-name {
-			font-size: 0.8rem;
+			font-size: 0.75rem;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.grid-img,
+		.grid-item {
+			transition: none;
 		}
 
-		.name-overlay {
-			opacity: 1;
+		.grid-item:hover .grid-img {
+			transform: none;
+		}
+
+		.loading-spinner {
+			animation: none;
 		}
 	}
 </style>

@@ -6,12 +6,13 @@
 # a fresh context. The markdown draft and its non-served grade-feedback sidecar
 # under docs/content-analysis/grades/ pass state between the grading stages.
 #
-# Two modes. `--refresh` updates an existing live page instead of creating a draft.
+# Three modes. `--refresh` updates an existing live page instead of creating a draft.
 # It exists because refreshes used to be hand-rolled from taskers, taskers are written
 # as lists of things to ADD, and by 2026-07-25 the most-refreshed pages in the corpus
 # were also the longest (hasan-piker had reached 8,881 words; 90 of 391 published
 # pages sat over the 4,500-word ceiling). Creation had gates. Maintenance had prose.
-# Refresh mode swaps stage 1 and skips stage 3; every other gate is identical.
+# `--resume` skips stage 1 for a draft already created by a partial run. Refresh mode
+# swaps stage 1 and skips stage 3; every other gate is identical.
 #
 # Pipeline:
 #   1. create             - /blog_content_creator_people_v2 (non-interactive)
@@ -37,6 +38,7 @@
 #
 # Usage:
 #   ./scripts/run-blog-pipeline.sh <Person-Name>              # create a new draft
+#   ./scripts/run-blog-pipeline.sh <Person-Name> --resume     # continue an existing draft
 #   ./scripts/run-blog-pipeline.sh <Person-Name> --refresh    # update a live page
 #   e.g. ./scripts/run-blog-pipeline.sh Martha-Stewart
 #        ./scripts/run-blog-pipeline.sh Hasan-Piker --refresh
@@ -56,14 +58,16 @@ MODE="create"
 for arg in "$@"; do
   case "$arg" in
     --refresh) MODE="refresh" ;;
+    --resume)  MODE="resume" ;;
     --create)  MODE="create" ;;
     -*) echo "Unknown flag: $arg" >&2; exit 1 ;;
     *) if [[ -z "$PERSON" ]]; then PERSON="$arg"; fi ;;
   esac
 done
 if [[ -z "$PERSON" ]]; then
-  echo "Usage: $0 <Person-Name> [--refresh]" >&2
+  echo "Usage: $0 <Person-Name> [--resume | --refresh]" >&2
   echo "  create  (default): $0 Martha-Stewart" >&2
+  echo "  resume           : $0 StableRonaldo --resume" >&2
   echo "  refresh          : $0 Hasan-Piker --refresh" >&2
   echo >&2
   echo "  --refresh updates an existing live page instead of writing a new draft." >&2
@@ -74,6 +78,9 @@ if [[ -z "$PERSON" ]]; then
 fi
 
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+DRAFTS_DIR="$REPO_ROOT/src/blog/people/drafts"
+# shellcheck source=scripts/lib/person-draft-path.sh
+source "$REPO_ROOT/scripts/lib/person-draft-path.sh"
 TIMESTAMP="$(date +%Y-%m-%d_%H%M%S)"
 LOG_DIR="$REPO_ROOT/docs/content-analysis/pipeline-logs/${TIMESTAMP}_${PERSON}"
 
@@ -107,6 +114,28 @@ trap on_exit EXIT
 mkdir -p "$LOG_DIR"
 
 DRAFT_PATH="src/blog/people/drafts/${PERSON}.md"
+DRAFT_SUBJECT="$PERSON"
+DRAFT_EXISTS=0
+
+set_canonical_draft_path() {
+  local resolved rc
+  resolved="$(resolve_person_draft_path "$DRAFTS_DIR" "$PERSON")"
+  rc=$?
+  if [[ "$rc" -eq 0 ]]; then
+    DRAFT_PATH="${resolved#$REPO_ROOT/}"
+    DRAFT_SUBJECT="$(basename "$resolved" .md)"
+    DRAFT_EXISTS=1
+    return 0
+  fi
+  if [[ "$rc" -eq 2 ]]; then
+    echo "Cannot safely resolve draft for '$PERSON'; see ambiguity above." >&2
+    exit 1
+  fi
+  DRAFT_EXISTS=0
+  return 1
+}
+
+set_canonical_draft_path || true
 
 run_stage() {
   local stage_num="$1"
@@ -160,7 +189,7 @@ echo
 
 clear_grading_frontmatter() {
   local file="$REPO_ROOT/$DRAFT_PATH"
-  local feedback_file="$REPO_ROOT/docs/content-analysis/grades/${PERSON}.review.md"
+  local feedback_file="$REPO_ROOT/docs/content-analysis/grades/${DRAFT_SUBJECT}.review.md"
   if [[ ! -f "$file" ]]; then
     echo "[pre-grade] Draft not found at $file, skipping grade-block cleanup"
     return 0
@@ -189,7 +218,7 @@ clear_grading_frontmatter() {
     ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
   fi
   if [[ -f "$feedback_file" ]]; then
-    echo "[pre-grade] Removing prior grade-feedback sidecar for $PERSON"
+    echo "[pre-grade] Removing prior grade-feedback sidecar for $DRAFT_SUBJECT"
     rm -f "$feedback_file"
   fi
 }
@@ -249,7 +278,7 @@ run_lint() {
   echo "[Stage $stage_label] lint (deterministic checks — scripts/blog-lint.sh)"
   echo "Log:     $log_file"
   echo "─────────────────────────────────────────────────────"
-  "$REPO_ROOT/scripts/blog-lint.sh" "$PERSON" 2>&1 | tee "$log_file"
+  "$REPO_ROOT/scripts/blog-lint.sh" "$DRAFT_PATH" 2>&1 | tee "$log_file"
   LINT_EXIT="${PIPESTATUS[0]}"
   if [[ "$LINT_EXIT" -ne 0 ]]; then
     echo "[Stage $stage_label] lint FAILED (exit=$LINT_EXIT) — failures listed above; pipeline continues (run-all-then-report)"
@@ -364,31 +393,45 @@ if [[ "$MODE" == "refresh" ]]; then
     | awk 'BEGIN{inc=0} /<!--/{inc=1} inc{if (/-->/) inc=0; next} {print}' \
     | sed -E 's/<[^>]+>/ /g' | wc -w | tr -d ' ')"
   echo "[refresh] baseline body length: ${BASELINE_WORDS} words (ceiling 4500)"
-  run_stage 1 refresh          "/blog_refresh_people $PERSON"
+  run_stage 1 refresh          "/blog_refresh_people $DRAFT_SUBJECT"
+elif [[ "$MODE" == "resume" ]]; then
+  if [[ "$DRAFT_EXISTS" -ne 1 || ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
+    echo "[Stage 1] --resume requires an existing draft matching '$PERSON'; nothing to resume."
+    write_summary false "draft_missing_for_resume"
+    exit 1
+  fi
+  echo "[Stage 1] create skipped in resume mode; continuing existing draft at $DRAFT_PATH"
+  echo
 else
+  if [[ "$DRAFT_EXISTS" -eq 1 ]]; then
+    echo "[Stage 1] Existing draft resolved at $DRAFT_PATH; refusing to run the creator over it."
+    echo "Use --resume to continue the pipeline or --refresh to update a live page."
+    write_summary false "existing_draft_requires_explicit_mode"
+    exit 1
+  fi
   run_stage 1 create           "/blog_content_creator_people_v2 $PERSON --non-interactive"
-  if [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
-    echo "[Stage 1] create did not produce $DRAFT_PATH; halting remaining stages."
+  if ! set_canonical_draft_path || [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
+    echo "[Stage 1] create did not produce a draft matching '$PERSON'; halting remaining stages."
     write_summary false "draft_missing_after_stage_1_create"
     exit 1
   fi
 fi
-run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $PERSON"
-if [[ "$MODE" == "create" ]]; then
-  run_stage 3 second_pass      "/blog_content_second_pass_people $PERSON"
+run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $DRAFT_SUBJECT"
+if [[ "$MODE" != "refresh" ]]; then
+  run_stage 3 second_pass      "/blog_content_second_pass_people $DRAFT_SUBJECT"
 else
   echo "[Stage 3] second_pass skipped in refresh mode (it deepens a fresh draft)"
   echo
 fi
 run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
-run_stage 5 editor_pass        "/blog_content_editor_pass_people $PERSON"
-run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $PERSON"
+run_stage 5 editor_pass        "/blog_content_editor_pass_people $DRAFT_SUBJECT"
+run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $DRAFT_SUBJECT"
 run_lint 6.5
-run_report_stage 6.6 quality_report node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$PERSON"
-run_report_stage 6.7 source_audit node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON" --fail-on-untagged-load-bearing
-run_report_stage 6.8 same_type_similarity node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8 --fail-on-trip
+run_report_stage 6.6 quality_report node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$DRAFT_PATH"
+run_report_stage 6.7 source_audit node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$DRAFT_PATH" --fail-on-untagged-load-bearing
+run_report_stage 6.8 same_type_similarity node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$DRAFT_PATH" --n 8 --fail-on-trip
 clear_grading_frontmatter
-run_stage 7 grade              "/grade_blog $PERSON"
+run_stage 7 grade              "/grade_blog $DRAFT_SUBJECT"
 
 # ── Stage 8/9: revise-and-regrade loop (at most once) ─────────────────────
 FIRST_OVERALL="$(read_quality_field overall)"
@@ -397,16 +440,16 @@ FIRST_DISC="$(read_quality_field discoverability)"
 if revision_needed; then
   REVISED=1
   echo "[Stage 8] Revision loop triggered: ${REVISION_REASONS}"
-  run_stage 8 revise           "/blog_content_revision_pass_people $PERSON"
+  run_stage 8 revise           "/blog_content_revision_pass_people $DRAFT_SUBJECT"
   run_lint 8.5
   clear_grading_frontmatter
-  run_stage 9 post_revision_grade "/grade_blog $PERSON"
+  run_stage 9 post_revision_grade "/grade_blog $DRAFT_SUBJECT"
   POST_REVISION_FIRST_OVERALL="$(read_quality_field overall)"
   if [[ -n "$POST_REVISION_FIRST_OVERALL" ]]; then
     STABILITY_FIRST_OVERALL="$POST_REVISION_FIRST_OVERALL"
     echo "[Stage 9.1] Running independent stability regrade on the final revised text"
     clear_grading_frontmatter
-    run_stage 9.1 stability_regrade "/grade_blog $PERSON"
+    run_stage 9.1 stability_regrade "/grade_blog $DRAFT_SUBJECT"
   else
     echo "[Stage 9.1] Stability regrade skipped because the post-revision grade produced no overall score"
   fi
@@ -421,7 +464,7 @@ else
     STABILITY_FIRST_OVERALL="$FIRST_OVERALL"
     echo "[Stage 9] Running mandatory independent stability regrade required by the publish gate"
     clear_grading_frontmatter
-    run_stage 9 regrade "/grade_blog $PERSON"
+    run_stage 9 regrade "/grade_blog $DRAFT_SUBJECT"
   else
     echo "[Stage 9] Stability regrade skipped because stage 7 produced no overall score"
   fi
@@ -430,7 +473,7 @@ fi
 FINAL_OVERALL="$(read_quality_field overall)"
 if [[ -n "$STABILITY_FIRST_OVERALL" && -n "$FINAL_OVERALL" ]]; then
   run_report_stage 9.2 record_grade_stability \
-    node "$REPO_ROOT/scripts/personBlogParser.js" "$PERSON" \
+    node "$REPO_ROOT/scripts/personBlogParser.js" "$DRAFT_SUBJECT" \
     --record-grade-stability "--first-overall=$STABILITY_FIRST_OVERALL"
 else
   echo "[Stage 9.2] Grade stability not recorded — same-version first=${STABILITY_FIRST_OVERALL:-missing}, regrade=${FINAL_OVERALL:-missing}"
@@ -458,9 +501,9 @@ if [[ "$MODE" == "refresh" && -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
   fi
 fi
 if [[ "$REVISED" -eq 1 ]]; then
-  run_report_stage 9.5 quality_report_after_revision node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$PERSON"
-  run_report_stage 9.6 source_audit_after_revision node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$PERSON" --fail-on-untagged-load-bearing
-  run_report_stage 9.7 same_type_similarity_after_revision node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$PERSON" --n 8 --fail-on-trip
+  run_report_stage 9.5 quality_report_after_revision node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$DRAFT_PATH"
+  run_report_stage 9.6 source_audit_after_revision node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$DRAFT_PATH" --fail-on-untagged-load-bearing
+  run_report_stage 9.7 same_type_similarity_after_revision node "$REPO_ROOT/scripts/same-type-similarity.mjs" "$DRAFT_PATH" --n 8 --fail-on-trip
   echo "REVISION LOOP: ran once (trigger: ${REVISION_REASONS%; })"
   echo "GRADE: ${FIRST_OVERALL:-?} pre-revision → ${POST_REVISION_FIRST_OVERALL:-?} post-revision → ${FINAL_OVERALL:-?} stability regrade"
   if [[ -n "$FINAL_OVERALL" ]] && awk -v o="$FINAL_OVERALL" 'BEGIN { exit !(o < 8.5) }'; then

@@ -79,7 +79,7 @@
 <style>
 	.enneagram-chart {
 		width: 100%;
-		background: var(--card-background, #fff);
+		background: var(--stone-warm);
 		border-radius: 1rem;
 		padding: 16px;
 	}
@@ -203,7 +203,7 @@
 
 	.bar-track {
 		height: 24px;
-		background: var(--hover-background, var(--ink-bright));
+		background: var(--stone-mid);
 		border-radius: 0.25rem;
 		overflow: hidden;
 		position: relative;

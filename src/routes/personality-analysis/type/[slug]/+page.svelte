@@ -387,7 +387,7 @@
 	]}
 />
 
-<div class="page-wrapper">
+<div class="page-wrapper" style={`--type-accent: var(--type-${data.slug}-color);`}>
 	<nav class="breadcrumbs" aria-label="Breadcrumb">
 		<ol>
 			<li><a href="/">Home</a></li>
@@ -430,12 +430,15 @@
 				<span class="people-count">{peopleCount} personalities</span>
 			</div>
 			<div class="people-grid-container">
-				{#each data.people as person}
-					<a href={buildPersonalityAnalysisPath(person.slug)} class="grid-item">
+				{#each data.people as person (person.slug)}
+					<a
+						href={buildPersonalityAnalysisPath(person.slug)}
+						class="grid-item personality-portrait-well"
+					>
 						{#if person.enneagram}
 							<img
 								loading="lazy"
-								class="grid-img"
+								class="grid-img personality-portrait-image"
 								src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
 								alt={`${formatPersonalityDisplayName(person.slug)} — Enneagram Type ${data.slug} (${typeInfo.name})`}
 								width="218"
@@ -462,12 +465,16 @@
 				{#each SIBLING_TYPES as siblingSlug}
 					{@const meta = enneagramTypes[siblingSlug]}
 					{#if siblingSlug === data.slug}
-						<li class="current" aria-current="page">
+						<li
+							class="current"
+							aria-current="page"
+							style={`--sibling-accent: var(--type-${siblingSlug}-color);`}
+						>
 							<span class="sibling-num">{siblingSlug}</span>
 							<span class="sibling-name">{meta.name}</span>
 						</li>
 					{:else}
-						<li>
+						<li style={`--sibling-accent: var(--type-${siblingSlug}-color);`}>
 							<a href={`/personality-analysis/type/${siblingSlug}`}>
 								<span class="sibling-num">{siblingSlug}</span>
 								<span class="sibling-name">{meta.name}</span>
@@ -583,30 +590,18 @@
 		justify-content: center;
 		width: 4rem;
 		height: 4rem;
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
+		background: color-mix(in srgb, var(--type-accent) 18%, var(--stone-warm));
+		border: 1px solid color-mix(in srgb, var(--type-accent) 58%, var(--stone-edge));
 		border-radius: 1rem;
 		margin-bottom: 1rem;
-		box-shadow: 0 0 30px var(--lamp-glow-rgba);
+		box-shadow: none;
 		position: relative;
-
-		&::after {
-			content: '';
-			position: absolute;
-			inset: -2px;
-			border-radius: 1rem;
-			background: linear-gradient(
-				135deg,
-				color-mix(in srgb, var(--lamp-glow) 40%, transparent) 0%,
-				transparent 50%
-			);
-			z-index: -1;
-		}
 	}
 
 	.type-num {
 		font-size: 2rem;
 		font-weight: 700;
-		color: var(--night-deep);
+		color: color-mix(in srgb, var(--type-accent) 72%, var(--ink-bright));
 	}
 
 	.hero h1 {
@@ -616,10 +611,7 @@
 		margin: 0 0 0.5rem;
 		letter-spacing: -0.02em;
 		position: relative;
-		background: linear-gradient(135deg, var(--ink-bright) 0%, var(--lamp-glow) 100%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-clip: text;
+		color: var(--ink-bright);
 	}
 
 	.tagline {
@@ -739,11 +731,17 @@
 		}
 	}
 
+	.grid-item.personality-portrait-well {
+		background: var(--personality-portrait-well);
+	}
+
 	.grid-img {
 		width: 100%;
 		height: auto;
 		aspect-ratio: 1;
 		object-fit: cover;
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
 		transition: transform 0.4s ease;
 		border-radius: 0.625rem;
 		display: block;
@@ -821,17 +819,13 @@
 			}
 
 			a:hover {
-				border-color: color-mix(in srgb, var(--lamp-glow) 40%, transparent);
+				border-color: color-mix(in srgb, var(--sibling-accent) 48%, var(--stone-edge));
 				color: var(--ink-bright);
 			}
 
 			&.current {
-				background: linear-gradient(
-					135deg,
-					color-mix(in srgb, var(--lamp-glow) 18%, transparent),
-					color-mix(in srgb, var(--lamp-glow) 8%, transparent)
-				);
-				border-color: color-mix(in srgb, var(--lamp-glow) 50%, transparent);
+				background: color-mix(in srgb, var(--sibling-accent) 10%, var(--night-deep));
+				border-color: color-mix(in srgb, var(--sibling-accent) 48%, var(--stone-edge));
 				color: var(--ink-bright);
 				font-weight: 600;
 			}
@@ -843,8 +837,9 @@
 			height: 1.5rem;
 			align-items: center;
 			justify-content: center;
-			background: var(--lamp-glow);
-			color: var(--night-deep);
+			background: color-mix(in srgb, var(--sibling-accent) 18%, var(--stone-warm));
+			border: 1px solid color-mix(in srgb, var(--sibling-accent) 58%, var(--stone-edge));
+			color: color-mix(in srgb, var(--sibling-accent) 72%, var(--ink-bright));
 			border-radius: 0.25rem;
 			font-weight: 700;
 			font-size: 0.75rem;

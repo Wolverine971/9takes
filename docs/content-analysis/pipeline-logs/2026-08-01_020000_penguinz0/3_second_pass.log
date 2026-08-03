@@ -1,0 +1,13 @@
+Second pass on `src/blog/people/drafts/Penguinz0.md` is done. Source audit went from 0 inline / 4 vague / 1 untagged to **7/7 inline, 0 untagged**, and blog-lint is at **0 fail** (the one warn is the not-yet-run frontmatter-enrich stage).
+
+**What changed:**
+
+- **Source traceability (first-order fix):** Every load-bearing quote now carries a checkable outlet + year. I verified the real coverage first: Dexerto covered both October videos, Tubefilter analyzed the earnings, and the video titles/dates are confirmed ("I'm Turning It Off" Oct 9, "I'm Not Turning It Back On" Oct 15). The previously untagged "I'm not your dad" line is now pinned to the Oct 15 follow-up.
+- **Caught a factual error the fresh-eyes review missed:** the cold-open kicker ("There are so many better options for your money…") was staged as the post-earnings-reveal mic drop, but it's from the October 9 video — Video Games Chronicle put it in a headline on October 10, before the earnings video existed. The cold open is restructured so the drama no longer depends on the wrong timeline.
+- **Faceless decade added** as the close of the rituals section — with corrected dates (fresh-eyes said "2007 to a 2016 face reveal"; it's actually name reveal Sept 2015, Snapchat face leak Oct 2015, first on-camera video March 2017). It ties the hidden-OCD and hidden-face patterns together.
+- **PR-move cynicism faced head-on** in the money section: concedes the take is fair, then answers it with the anonymous-era charity giving and the fact that he asked other streamers *not* to copy him.
+- **penguinz0 name origin** added next to the Moist story (WIRED autocomplete interview, 2023: penguins were cool, "penguin" was taken, add z0) — covers the common reader search.
+- **Skeptic pressure + honesty:** the Judge section now opens by steelmanning the drama-as-business-model reading before the target-selection counter, and the weathervane resolution admits the type doesn't launder every crowd-pressure bend.
+- **Trims:** calm-epithet stack cut from six variants to three, the diagnosis section's shutdown re-narration compressed to a clause, the shirt/desk/city motif reduced to three instances, and the Rabbit Hole's vague "a band, a graphic novel" cashed out as The Gentle Men and GODSLAP (fresh-eyes had the band name wrong — "The Little Cars" isn't his).
+
+**Not done, and why:** the 2022 gambling-sponsorship refusal never verified with a concrete figure, so it stayed out per the review's own "if verified" condition — that's the one item that might justify a later research pass.

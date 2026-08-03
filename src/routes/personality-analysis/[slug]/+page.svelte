@@ -5,7 +5,7 @@
 
   Restyle, don't rewrite: long-form blog page wrapped in a V5 case-file
   header. All imported blog components (ArticleSubTitle,
-  PeopleBlogPageHead, TableOfContents, PeopleSuggestionsSideBar,
+  PeopleBlogPageHead, TableOfContents,
   RelatedPosts, FAQSection, AuthorBio, BlogPurpose, QuickAnswer, BookSessionCTA, PopCard)
   are preserved — only the layout chrome and scoped styles migrate.
 
@@ -36,7 +36,6 @@
 	// Only import critical components for initial render
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
-	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	// Lazy-loaded RelatedPosts component
 	import RelatedPosts from '$lib/components/molecules/RelatedPosts.svelte';
@@ -174,7 +173,6 @@
 	let userHasAnswered: PageData['flags']['userHasAnswered'] = data.flags.userHasAnswered;
 	let postMeta: App.BlogPost = normalizePost(data.post);
 	let postTypes: string[] = toStringArray(postMeta.type);
-	let postSuggestions: string[] = postMeta.suggestions || [];
 	let postDisplayName: string = formatPersonalityDisplayName(data.post.person || data.post.slug);
 	let postImagePath: string = buildPersonalityImagePath(
 		data.post.enneagram,
@@ -186,9 +184,8 @@
 	$: userHasAnswered = data.flags.userHasAnswered;
 	$: postMeta = normalizePost(post);
 	$: postTypes = toStringArray(postMeta.type);
-	$: postSuggestions = postMeta.suggestions || [];
 	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
-	$: caseFileTitle = postMeta.title || postDisplayName;
+	$: caseFileTitle = postDisplayName;
 	$: postImagePath = buildPersonalityImagePath(
 		postMeta.enneagram,
 		postMeta.person || postMeta.slug
@@ -493,7 +490,7 @@
 
 <article
 	class="dossier-page"
-	style="--type-stripe: {typeNum ? `var(--type-${typeNum}-color)` : 'var(--lamp-glow)'};"
+	style="--type-accent: {typeNum ? `var(--type-${typeNum}-color)` : 'var(--lamp-glow)'};"
 >
 	<!-- =====================================================================
 	  §01 CASE FILE — V5 dossier header (the brand moment)
@@ -514,6 +511,10 @@
 				{#key post.slug}
 					<h1 id="case-file-name" class="case-file-name">{caseFileTitle}</h1>
 				{/key}
+
+				{#if personaTitle}
+					<p class="case-file-persona">{personaTitle}</p>
+				{/if}
 
 				{#if postMeta.description}
 					<p class="case-file-subhead">
@@ -539,12 +540,12 @@
 			</div>
 
 			<aside class="case-file-portrait" aria-hidden="true">
-				<div class="portrait-frame">
+				<div class="portrait-frame personality-portrait-well">
 					{#if postImagePath}
 						<img
 							src={postImagePath}
 							alt=""
-							class="portrait-image"
+							class="portrait-image personality-portrait-image"
 							loading="eager"
 							fetchpriority="high"
 							decoding="async"
@@ -588,6 +589,7 @@
 				headings={data.headings}
 				sidePosition="right"
 				renderMode="accordion-only"
+				accordionOpen={false}
 			/>
 
 			<!-- Prose, part 1 — runs up to the 3rd h2 (usually the personality-type
@@ -649,22 +651,8 @@
 	headings={data.headings}
 	sidePosition="right"
 	renderMode="sidebar-only"
+	hideBeforeBottom={1400}
 />
-
-<!-- Floating related-personalities rail (desktop only, auto-hides near the
-     top and bottom of the page). Inline list suppressed — the bottom
-     "Further analysis" section is the canonical related block. -->
-<div class="sidebar-container">
-	{#key post.slug}
-		{#if postSuggestions.length || (data.bridgeLinks?.length ?? 0)}
-			<PeopleSuggestionsSideBar
-				links={postSuggestions}
-				bridgeLinks={data.bridgeLinks ?? []}
-				showInline={false}
-			/>
-		{/if}
-	{/key}
-</div>
 
 <!-- =====================================================================
   §03 DISCUSSION — the human layer (lazy loaded). One feedback section with
@@ -713,8 +701,8 @@
 
 <!-- =====================================================================
   §04 FURTHER ANALYSIS — the single canonical related block (DB-driven case
-  files). The floating rail above surfaces the same graph mid-scroll; the
-  old duplicate inline link lists were removed as redundant.
+  files) plus quiet framework bridges. The duplicate floating personality
+  rail is intentionally retired on this route.
   ===================================================================== -->
 <section id="related-content" class="related">
 	<div class="related-inner">
@@ -730,6 +718,19 @@
 				initialSameEnneagramPosts={data.relatedPosts?.sameEnneagramPosts ?? []}
 			/>
 		{/key}
+
+		{#if data.bridgeLinks?.length}
+			<nav class="related-framework" aria-label="Explore the personality framework">
+				<p class="related-framework-label mono">Explore the framework</p>
+				<ul>
+					{#each data.bridgeLinks as bridge (bridge.href)}
+						<li>
+							<a href={bridge.href} data-track="profile-related-bridge">{bridge.label}</a>
+						</li>
+					{/each}
+				</ul>
+			</nav>
+		{/if}
 	</div>
 </section>
 
@@ -741,7 +742,8 @@
 	  src/scss/index.scss. Local-only overrides scoped to .dossier-page.
 	  ========================================================= */
 	.dossier-page {
-		--type-stripe: var(--lamp-glow);
+		--type-accent: var(--lamp-glow);
+		--type-stripe: color-mix(in srgb, var(--type-accent) 58%, var(--stone-edge));
 		--pool-alpha-strong: 0.22;
 		--pool-alpha-mid: 0.14;
 		--pool-alpha-soft: 0.06;
@@ -894,6 +896,17 @@
 		}
 	}
 
+	.case-file-persona {
+		margin: -4px 0 0;
+		font-family: var(--font-mono);
+		font-size: 12px;
+		font-weight: 600;
+		line-height: 1.4;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--ink-mid);
+	}
+
 	.case-file-coords {
 		display: flex;
 		flex-wrap: wrap;
@@ -953,11 +966,9 @@
 		max-width: 100%;
 
 		@media (max-width: 968px) {
-			/* Single-column: lead with the face so it lands above the fold,
-			   sized so the title still peeks in on a standard phone viewport. */
-			order: -1;
-			width: min(100%, 320px);
-			max-width: 320px;
+			/* The analytical promise leads on small screens; the portrait follows. */
+			width: min(100%, 280px);
+			max-width: 280px;
 			margin: 0 auto;
 			justify-self: center;
 		}
@@ -972,7 +983,7 @@
 		margin-left: auto;
 		overflow: hidden;
 		border-radius: 10px;
-		background: var(--night-mid);
+		background: var(--personality-portrait-well);
 		border: 1px solid var(--stone-edge);
 	}
 
@@ -981,8 +992,8 @@
 		height: 100%;
 		object-fit: cover;
 		object-position: center 25%;
-		filter: contrast(1.15) brightness(0.96) saturate(0.85);
-		mix-blend-mode: var(--statue-blend);
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
 	}
 
 	@media (max-width: 968px) {
@@ -996,10 +1007,6 @@
 		.portrait-image {
 			object-position: center;
 		}
-	}
-
-	:global(:root.light) .dossier-page .portrait-image {
-		filter: contrast(1.05) brightness(1) saturate(0.95);
 	}
 
 	.portrait-stub {
@@ -1023,15 +1030,13 @@
 		inset: 0;
 		pointer-events: none;
 		background:
-			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.18) 0%, transparent 55%),
 			linear-gradient(135deg, transparent 40%, rgba(10, 8, 7, 0.55) 100%),
 			linear-gradient(180deg, transparent 65%, rgba(10, 8, 7, 0.75) 100%);
 	}
 
 	:global(:root.light) .dossier-page .portrait-vignette {
 		background:
-			radial-gradient(ellipse at 25% 25%, rgba(var(--pool-rgb), 0.06) 0%, transparent 60%),
-			linear-gradient(135deg, transparent 60%, rgba(180, 83, 9, 0.05) 100%),
+			linear-gradient(135deg, transparent 60%, rgba(10, 8, 7, 0.04) 100%),
 			linear-gradient(180deg, transparent 58%, rgba(10, 8, 7, 0.68) 100%);
 	}
 
@@ -1039,7 +1044,7 @@
 		position: absolute;
 		width: 14px;
 		height: 14px;
-		border-color: var(--lamp-glow);
+		border-color: var(--ink-dim);
 		border-style: solid;
 		border-width: 0;
 		z-index: 2;
@@ -1081,8 +1086,7 @@
 		min-height: 34px;
 		padding: 7px 10px;
 		background: linear-gradient(90deg, rgba(10, 8, 7, 0.92), rgba(10, 8, 7, 0.82));
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 46%, rgba(250, 248, 244, 0.18));
-		box-shadow: 0 10px 24px rgba(10, 8, 7, 0.34);
+		border: 1px solid var(--stone-edge);
 		color: #faf8f4;
 
 		.mono {
@@ -1096,7 +1100,7 @@
 
 	:global(:root.light) .dossier-page .portrait-mono {
 		background: linear-gradient(90deg, rgba(10, 8, 7, 0.9), rgba(10, 8, 7, 0.72));
-		border-color: color-mix(in srgb, var(--lamp-glow) 58%, rgba(250, 248, 244, 0.2));
+		border-color: var(--stone-edge);
 	}
 
 	/* =========================================================
@@ -1355,11 +1359,6 @@
 		}
 	}
 
-	/* Sidebar container - PeopleSuggestionsSideBar handles its own fixed positioning */
-	.sidebar-container {
-		display: contents; /* Pass through to let component handle positioning */
-	}
-
 	/* =========================================================
 	  §03 DISCUSSION — comments section
 	  ========================================================= */
@@ -1478,13 +1477,13 @@
 		box-sizing: border-box;
 		width: min(100%, 880px);
 		margin-inline: auto;
-		padding: 96px 0;
+		padding: 72px 0;
 		background: var(--night-deep);
 		border-top: 1px solid var(--stone-edge);
 		overflow-x: hidden;
 
 		@media (max-width: 768px) {
-			padding: 64px 20px;
+			padding: 48px 20px;
 		}
 	}
 
@@ -1497,11 +1496,48 @@
 
 	.related-kicker {
 		text-align: center;
-		margin-bottom: 32px;
+		margin-bottom: 20px;
 
 		:global(.kicker) {
 			color: var(--lamp-glow);
 		}
+	}
+
+	.related-framework {
+		margin-top: 2rem;
+		padding-top: 1.25rem;
+		border-top: 1px solid var(--stone-edge);
+
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 0.55rem 1rem;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			margin: 0;
+		}
+
+		a {
+			color: var(--ink-mid);
+			font-size: 0.86rem;
+			line-height: 1.4;
+			text-decoration: none;
+			border-bottom: 1px solid color-mix(in srgb, var(--lamp-glow) 35%, transparent);
+
+			&:hover {
+				color: var(--lamp-glow);
+				border-bottom-color: var(--lamp-glow);
+			}
+		}
+	}
+
+	.related-framework-label {
+		margin: 0 0 0.75rem;
+		color: var(--ink-dim);
 	}
 
 	/* =========================================================
@@ -1517,8 +1553,8 @@
 		}
 
 		.case-file-portrait {
-			width: min(100%, 320px);
-			max-width: 320px;
+			width: min(100%, 280px);
+			max-width: 280px;
 		}
 
 		.breakdown {

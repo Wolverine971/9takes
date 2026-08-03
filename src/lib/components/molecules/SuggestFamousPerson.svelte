@@ -221,7 +221,7 @@
 <style lang="scss">
 	.waitlist-section {
 		text-align: center;
-		border: var(--classic-border);
+		border: 1px solid var(--stone-edge);
 		padding: 2rem;
 		border-radius: var(--base-border-radius);
 
@@ -256,7 +256,7 @@
 			width: 100%;
 			padding: 0.75rem 1rem;
 			border-radius: var(--base-border-radius);
-			border: var(--classic-border);
+			border: 1px solid var(--stone-edge);
 			background: var(--night-deep);
 			color: var(--ink-bright);
 			font-size: 1rem;
@@ -293,7 +293,7 @@
 	.suggestions-remaining {
 		margin-top: 0.75rem;
 		font-size: 0.8rem;
-		color: var(--color-text-muted, #6b7280);
+		color: var(--ink-dim);
 
 		&.limit-reached {
 			color: var(--error-text);
@@ -304,7 +304,7 @@
 	input:disabled {
 		opacity: 0.5;
 		cursor: not-allowed;
-		background-color: var(--color-bg-muted, #f3f4f6);
+		background-color: var(--stone-mid);
 	}
 
 	@media only screen and (min-width: 768px) {

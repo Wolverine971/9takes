@@ -27,7 +27,7 @@
 
 <!-- We always render the grid; each cell handles its own loading state. -->
 <div class="grid-container" style="grid-template-columns: repeat({gridSize}, 1fr);">
-	{#each images as person, index}
+	{#each images as person, index (person.name)}
 		{#if (gridSize === 9 && index === 40) || (gridSize === 5 && index === 27)}
 			<!-- Special "YOUR NAME" cell -->
 			<div class="grid-cell loaded">
@@ -44,6 +44,7 @@
 			<div class="grid-cell">
 				<SmallPopCard
 					image={buildPersonalityImagePath(person.type, person.name, 'thumbnail')}
+					imageTreatment="personality"
 					showIcon={false}
 					enneagramType={typeof person.type === 'number'
 						? person.type

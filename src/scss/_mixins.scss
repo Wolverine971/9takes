@@ -17,16 +17,6 @@
 	}
 }
 
-// Secondary / accent glow mixins retired 2026-05-04 (per design-system.md §5).
-// Aliases below keep legacy callers working — they all route to glow-primary.
-@mixin glow-secondary($intensity: 'md') {
-	@include glow-primary($intensity);
-}
-
-@mixin glow-accent($intensity: 'md') {
-	@include glow-primary($intensity);
-}
-
 // Text glow — single brand glow only (primary-amber).
 @mixin text-glow($color: 'primary') {
 	text-shadow: 0 0 20px var(--lamp-glow-rgba);
@@ -76,19 +66,6 @@
 		border-color: var(--lamp-glow);
 		box-shadow: var(--glow-sm);
 	}
-}
-
-// Legacy aliases for backward compatibility
-@mixin glow-purple($intensity: 'md') {
-	@include glow-primary($intensity);
-}
-
-@mixin glow-blue($intensity: 'md') {
-	@include glow-secondary($intensity);
-}
-
-@mixin glow-cyan($intensity: 'md') {
-	@include glow-accent($intensity);
 }
 
 /*==============================================

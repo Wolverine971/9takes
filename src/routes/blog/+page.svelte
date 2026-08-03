@@ -147,7 +147,7 @@
 	<!-- Quick Navigation -->
 	<nav class="quick-nav" aria-label="Blog sections">
 		<div class="nav-scroll">
-			{#each sections as section}
+			{#each sections as section (section.id)}
 				<a href="#{section.id}" class="nav-pill">
 					{section.title}
 				</a>
@@ -156,7 +156,7 @@
 	</nav>
 
 	<div class="main-content">
-		{#each sections as section}
+		{#each sections as section (section.id)}
 			<section class="content-section" id={section.id}>
 				<div class="section-header">
 					<div>
@@ -168,7 +168,7 @@
 				</div>
 
 				<div class="blog-grid">
-					{#each data[section.key] as blog}
+					{#each data[section.key] as blog (blog.slug)}
 						{@const personCard = isPersonCard(blog) ? blog : null}
 						{@const postCard = isPostCard(blog) ? blog : null}
 						{@const pic = postCard?.pic ?? null}
@@ -180,10 +180,21 @@
 							class:has-image={pic || Boolean(personCard)}
 						>
 							{#if personCard?.enneagram}
-								<div
-									class="card-image"
-									style={`background-image: url(${buildPersonalityImagePath(personCard.enneagram, personCard.slug, 'thumbnail')});`}
-								></div>
+								<div class="card-image card-image--portrait personality-portrait-well">
+									<img
+										src={buildPersonalityImagePath(
+											personCard.enneagram,
+											personCard.slug,
+											'thumbnail'
+										)}
+										alt={`Portrait of ${formatPersonalityDisplayName(personCard.slug)}`}
+										class="card-image__portrait personality-portrait-image"
+										loading="lazy"
+										decoding="async"
+										width="320"
+										height="240"
+									/>
+								</div>
 							{:else if pic}
 								<div class="card-image" style="background-image: url(/blogs/s-{pic}.webp);"></div>
 							{/if}
@@ -468,6 +479,19 @@
 		background-size: cover;
 		background-position: center;
 		transition: transform 0.4s ease;
+	}
+
+	.card-image--portrait {
+		background: var(--personality-portrait-well);
+	}
+
+	.card-image__portrait {
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
 	}
 
 	.card-overlay {

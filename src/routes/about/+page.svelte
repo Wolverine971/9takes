@@ -351,7 +351,7 @@
 		--about-surface-strong: color-mix(in srgb, var(--stone-warm) 92%, var(--night-deep));
 		--about-border: color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
 		--about-border-strong: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
-		--about-rose-border: color-mix(in srgb, var(--secondary) 28%, var(--stone-edge));
+		--about-problem-border: color-mix(in srgb, var(--ink-dim) 42%, var(--stone-edge));
 		--about-shadow: 0 14px 30px color-mix(in srgb, var(--shadow-color) 42%, transparent);
 
 		max-width: 1120px;
@@ -498,12 +498,12 @@
 	}
 
 	.problem-panel {
-		border-color: var(--about-rose-border);
+		border-color: var(--about-problem-border);
 	}
 
 	.panel-emphasis {
 		margin-top: 1rem !important;
-		color: color-mix(in srgb, var(--secondary) 72%, var(--ink-bright)) !important;
+		color: var(--ink-bright) !important;
 		font-weight: 700;
 	}
 

@@ -3,7 +3,7 @@
 	export let className = '';
 
 	export let height = '1rem';
-	export let fill = 'var(--dark-gray)';
+	export let fill = 'var(--ink-mid)';
 	export let iconStyle = '';
 
 	type CommentTypes = 'empty' | 'multiple' | 'disabled' | 'full';

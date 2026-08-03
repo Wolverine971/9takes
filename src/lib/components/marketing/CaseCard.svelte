@@ -22,6 +22,8 @@
 		imageAlt?: string;
 		/** CSS color for the top stripe + eyebrow. Omit for no stripe. */
 		stripe?: string | null;
+		/** Opt-in media treatment; non-personality callers keep the current default. */
+		imageTreatment?: 'default' | 'personality';
 		featured?: boolean;
 		compactMobile?: boolean;
 		/** Pre-formatted date string (renders in the meta row). */
@@ -44,6 +46,7 @@
 		imageSrc = null,
 		imageAlt = '',
 		stripe = null,
+		imageTreatment = 'default',
 		featured = false,
 		compactMobile = false,
 		date = '',
@@ -66,12 +69,12 @@
 	style={stripeStyle}
 	aria-label={ariaLabel || `Read ${title}`}
 >
-	<div class="case-image-wrap">
+	<div class={['case-image-wrap', imageTreatment === 'personality' && 'personality-portrait-well']}>
 		{#if imageSrc}
 			<img
 				src={imageSrc}
 				alt={imageAlt || title}
-				class="case-image"
+				class={['case-image', imageTreatment === 'personality' && 'personality-portrait-image']}
 				loading={eager ? 'eager' : 'lazy'}
 				fetchpriority={priority ? 'high' : undefined}
 				width={featured ? 640 : 320}
@@ -127,17 +130,17 @@
 		&.has-stripe:hover {
 			border-color: var(--case-stripe);
 		}
+	}
 
-		@media (prefers-reduced-motion: no-preference) {
-			.case-card {
-				transition:
-					background 0.2s ease,
-					border-color 0.2s ease,
-					transform 0.2s ease;
+	@media (prefers-reduced-motion: no-preference) {
+		.case-card {
+			transition:
+				background 0.2s ease,
+				border-color 0.2s ease,
+				transform 0.2s ease;
 
-				&:hover {
-					transform: translateY(-2px);
-				}
+			&:hover {
+				transform: translateY(-2px);
 			}
 		}
 	}
@@ -167,6 +170,15 @@
 
 	:global(:root.light) .case-image {
 		filter: contrast(1.02) brightness(1) saturate(0.96);
+	}
+
+	.case-image.personality-portrait-image {
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
+	}
+
+	:global(:root.light) .case-image.personality-portrait-image {
+		filter: var(--personality-portrait-filter);
 	}
 
 	.case-card--featured .case-image {

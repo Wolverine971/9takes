@@ -23,6 +23,7 @@
 	export let title: string = 'Table of Contents';
 	export let sidePosition: 'left' | 'right' | 'none' = 'left'; // New prop to control side position
 	export let renderMode: 'both' | 'sidebar-only' | 'accordion-only' = 'both'; // Control which version renders
+	export let accordionOpen: boolean | undefined = undefined; // Explicit route-level default when needed
 
 	// Smart format detection thresholds
 	const FORMAT_THRESHOLDS = {
@@ -752,7 +753,7 @@
 
 {#if toc && (renderMode === 'both' || renderMode === 'accordion-only')}
 	<nav aria-label="Table of contents" class="toc-nav-wrapper">
-		<details class="toc-accordion" open={windowWidth >= desktopBreakpoint}>
+		<details class="toc-accordion" open={accordionOpen ?? windowWidth >= desktopBreakpoint}>
 			<summary class="toc-summary">{title}</summary>
 			<div class="toc-accordion-content">
 				{@html toc}

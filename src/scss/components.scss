@@ -586,7 +586,8 @@
 }
 
 .toast--default {
-	background: var(--medium-gray);
+	background: var(--ink-mid);
+	color: var(--night-deep);
 }
 
 /*==============================================
@@ -713,8 +714,8 @@
 }
 
 .spinner--secondary {
-	border-color: rgba(251, 113, 133, 0.3);
-	border-top-color: var(--secondary);
+	border-color: color-mix(in srgb, var(--ink-mid) 30%, transparent);
+	border-top-color: var(--ink-mid);
 }
 
 .spinner--success {

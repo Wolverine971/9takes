@@ -466,7 +466,7 @@
 	.chart-container-enhanced {
 		width: 100%;
 		min-width: 0;
-		background: var(--card-background, #fff);
+		background: var(--stone-warm);
 		border-radius: 1rem;
 		overflow: hidden;
 	}

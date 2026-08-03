@@ -42,6 +42,7 @@
 	{:else if type && visiblePerson}
 		<PopCard
 			image={buildPersonalityImagePath(type, visiblePerson.name, 'thumbnail')}
+			imageTreatment="personality"
 			showIcon={false}
 			displayText={formatPersonalityDisplayName(visiblePerson.name)}
 			subtext={''}

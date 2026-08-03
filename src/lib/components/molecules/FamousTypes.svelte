@@ -99,7 +99,7 @@
 		width: 100%;
 		margin: 0 0 0.95rem;
 		padding-top: 0.55rem;
-		border-top: 1px solid var(--border-color, rgba(17, 24, 39, 0.14));
+		border-top: 1px solid var(--stone-edge);
 	}
 
 	.famous-types__heading {

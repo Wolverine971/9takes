@@ -85,6 +85,19 @@ Closing copy.`);
 		expect(result.content).toContain('Pop strategist');
 	});
 
+	it('semantically opts personality-article PopCards into the contained portrait treatment', async () => {
+		const result = await processBlogContent(
+			'<PopCard image="/types/3s/Taylor-Swift.webp" displayText="Taylor Swift" />',
+			{ popCardImageTreatment: 'personality' }
+		);
+
+		expect(result.placeholders[0].props).toMatchObject({
+			imageTreatment: 'personality'
+		});
+		expect(result.content).toContain('class="pop-card pop-card--ssr personality-portrait-well"');
+		expect(result.content).toContain('class="personality-portrait-image"');
+	});
+
 	it('renders registered evidence media with quote and image attribution before mounting', async () => {
 		const result = await processBlogContent(
 			'<EvidenceFigure evidenceId="elon-kimbal-musk-empathy-quote" />'

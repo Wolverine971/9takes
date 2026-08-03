@@ -73,15 +73,15 @@
 </script>
 
 <div class="grid">
-	{#each firstGroup as person, i}
+	{#each firstGroup as person (person.name)}
 		<a
 			class="face front grid-item"
 			href={person.link ? buildPersonalityAnalysisPath(person.name) : '#'}
 		>
-			<div class="pop-card" title="">
+			<div class="pop-card personality-portrait-well" title="">
 				<!-- ${firstGroup[Math.floor(Math.random() * 8)] -->
 				<img
-					class="pop-card-image profileFace tint"
+					class="pop-card-image profileFace personality-portrait-image"
 					src={buildPersonalityImagePath(type, person.name, 'thumbnail')}
 					alt={formatPersonalityDisplayName(person.name)}
 					in:fly={{ y: 200, duration: 2000 }}
@@ -119,18 +119,13 @@
 		background-size: cover !important;
 	}
 
-	.tint {
-		filter: sepia(100%) hue-rotate(160deg);
-		opacity: 0.8;
-	}
-
 	.pop-card {
 		display: flex;
 		justify-content: center;
-		border: 1px solid rgb(var(--primary-rgb) / 80%);
+		border: 1px solid var(--stone-edge);
 		aspect-ratio: 1/1;
 		border-radius: 1rem;
-		background-color: rgb(var(--primary-rgb) / 15%);
+		background-color: var(--personality-portrait-well);
 		overflow: hidden;
 		position: relative;
 		z-index: 10;
@@ -146,9 +141,9 @@
 
 	.pop-card:hover {
 		img {
-			filter: none !important;
+			filter: var(--personality-portrait-filter) brightness(0.9);
 		}
-		color: var(--base-white-outline);
+		color: var(--marble-pure);
 	}
 
 	.pop-card-user {
@@ -167,8 +162,8 @@
 		font-weight: 200;
 		margin: 1rem;
 		font-family: var(--font-family);
-		color: var(--base-white-outline);
-		text-shadow: 1px 1px 1px var(--black);
+		color: var(--marble-pure);
+		text-shadow: 1px 1px 1px var(--night-deep);
 		text-align: center;
 		text-transform: uppercase;
 		z-index: 2;

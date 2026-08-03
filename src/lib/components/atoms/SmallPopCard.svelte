@@ -13,6 +13,7 @@
 	export let scramble = true;
 	export let tint = true;
 	export let link = '';
+	export let imageTreatment: 'default' | 'personality' = 'default';
 
 	const LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	let interval: ReturnType<typeof setInterval> | undefined;
@@ -22,9 +23,14 @@
 
 	const namePopId = Math.random().toString(36).substring(2);
 
-	// If you generate a smaller version of the image for optimization
-	// For example: original is "folder/person.webp" => "folder/s-person.webp"
-	$: imageSrc = `${image.split('/').slice(0, -1).join('/')}/s-${image.split('/').pop()}`;
+	function getSmallImagePath(source: string): string {
+		const parts = source.split('/');
+		const file = parts.pop() ?? '';
+		return [...parts, file.startsWith('s-') ? file : `s-${file}`].join('/');
+	}
+
+	// Keep an existing thumbnail path intact instead of producing an invalid s-s-* URL.
+	$: imageSrc = getSmallImagePath(image);
 
 	const enneagramTypes = [
 		{
@@ -115,8 +121,9 @@
 
 <div
 	class="hover:scale-102 relative z-10 h-full w-full transform overflow-hidden rounded-xl border border-[var(--glass-border)] bg-opacity-15 transition-transform duration-300 hover:shadow-[var(--glow-sm)]"
-	class:bg-black={!enneagramType}
-	class:bg-data-900={enneagramType}
+	class:bg-black={!enneagramType && imageTreatment === 'default'}
+	class:bg-data-900={enneagramType && imageTreatment === 'default'}
+	class:personality-portrait-well={imageTreatment === 'personality'}
 	class:hover:scale-103={enneagramType}
 	class:hover:shadow-[var(--glow-md)]={enneagramType}
 	title={altText || displayText}
@@ -159,6 +166,7 @@
 	<!-- Responsive image -->
 	{#if displayText !== 'YOUR NAME' && image}
 		<img
+			src={image}
 			srcset="{imageSrc} 218w, {image} 560w"
 			sizes="(max-width: 560px) 218px, 560px"
 			loading="lazy"
@@ -166,8 +174,13 @@
 			class="absolute left-0 top-0 z-10 h-full w-full object-cover transition-all duration-300"
 			class:animate-pan-image={showIcon}
 			class:object-center={!showIcon}
-			class:brightness-70={tint && showDescription && enneagramType}
-			class:contrast-120={tint && showDescription && enneagramType}
+			class:personality-portrait-image={imageTreatment === 'personality'}
+			class:brightness-70={imageTreatment === 'default' && tint && showDescription && enneagramType}
+			class:contrast-120={imageTreatment === 'default' && tint && showDescription && enneagramType}
+			class:personality-portrait-image--dimmed={imageTreatment === 'personality' &&
+				tint &&
+				showDescription &&
+				enneagramType}
 			alt={altText || displayText}
 			in:fly={{ y: 200, duration: 1500 }}
 		/>
@@ -175,8 +188,9 @@
 
 	<div
 		class="animate-pan-overlay pointer-events-none absolute left-0 top-0 z-20 h-full w-full bg-opacity-15"
-		class:bg-black={!enneagramType}
-		class:bg-data-900={enneagramType}
+		class:bg-black={!enneagramType && imageTreatment === 'default'}
+		class:bg-data-900={enneagramType && imageTreatment === 'default'}
+		class:personality-portrait-scrim={imageTreatment === 'personality'}
 		class:yourname={displayText === 'YOUR NAME'}
 	></div>
 
@@ -252,6 +266,24 @@
 
 	.contrast-120 {
 		filter: contrast(1.2);
+	}
+
+	.personality-portrait-well {
+		background-color: var(--personality-portrait-well);
+		border-color: var(--stone-edge);
+	}
+
+	.personality-portrait-image {
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
+	}
+
+	.personality-portrait-image--dimmed {
+		filter: var(--personality-portrait-filter) brightness(0.7) contrast(1.2);
+	}
+
+	.personality-portrait-scrim {
+		background: rgba(10, 8, 7, 0.15);
 	}
 
 	.scale-102 {

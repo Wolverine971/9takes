@@ -254,15 +254,15 @@
 		font-weight: 600;
 
 		&.triad-tag--anger {
-			color: var(--lamp-light);
+			color: color-mix(in srgb, var(--pillar-gut) 72%, var(--ink-bright));
 		}
 
 		&.triad-tag--fear {
-			color: var(--data-cyan);
+			color: color-mix(in srgb, var(--pillar-head) 72%, var(--ink-bright));
 		}
 
 		&.triad-tag--shame {
-			color: #f0abfc;
+			color: color-mix(in srgb, var(--pillar-heart) 72%, var(--ink-bright));
 		}
 	}
 
@@ -427,15 +427,15 @@
 	}
 
 	.triad-value.triad--anger {
-		color: var(--lamp-light);
+		color: color-mix(in srgb, var(--pillar-gut) 78%, var(--ink-bright));
 	}
 
 	.triad-value.triad--fear {
-		color: var(--data-cyan);
+		color: color-mix(in srgb, var(--pillar-head) 78%, var(--ink-bright));
 	}
 
 	.triad-value.triad--shame {
-		color: #f0abfc; /* soft violet for shame triad */
+		color: color-mix(in srgb, var(--pillar-heart) 78%, var(--ink-bright));
 	}
 
 	.dossier-content {
@@ -774,18 +774,6 @@
 		.dossier-link:hover {
 			border-bottom-color: var(--lamp-deep);
 			color: var(--lamp-deep);
-		}
-
-		.triad-value.triad--shame {
-			color: #a21caf; /* darker violet so shame value still pops on cream */
-		}
-
-		.triad-value.triad--anger {
-			color: var(--lamp-deep);
-		}
-
-		.triad-value.triad--fear {
-			color: var(--data-cyan);
 		}
 	}
 </style>

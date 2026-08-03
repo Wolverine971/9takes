@@ -80,7 +80,7 @@
 <style>
 	.invite-section {
 		text-align: center;
-		border: var(--classic-border);
+		border: 1px solid var(--stone-edge);
 		padding: 2rem;
 		border-radius: var(--base-border-radius);
 	}
@@ -104,7 +104,7 @@
 		margin-bottom: 10px;
 		padding: 10px;
 		border-radius: var(--base-border-radius);
-		border: var(--classic-border);
+		border: 1px solid var(--stone-edge);
 	}
 	.invite-form button {
 		/* background-color: #007bff; */

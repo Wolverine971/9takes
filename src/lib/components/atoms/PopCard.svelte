@@ -14,6 +14,7 @@
 	export let subtext = 'Ask questions, give your hot takes, talk to people';
 	export let scramble = true;
 	export let tint = true;
+	export let imageTreatment: 'default' | 'personality' = 'default';
 	// LCP optimization props
 	export let lazyLoad = true; // Set to false for hero/LCP images
 	export let priority = false; // Set to true for LCP images to add fetchpriority="high"
@@ -27,8 +28,14 @@
 	// Generate a unique ID for the text animation
 	const namePopId = Math.random().toString(36).substring(2);
 
-	// Create optimized image src path for responsive loading
-	$: imageSrc = `${image.split('/').slice(0, -1).join('/')}/s-${image.split('/').pop()}`;
+	function getSmallImagePath(source: string): string {
+		const parts = source.split('/');
+		const file = parts.pop() ?? '';
+		return [...parts, file.startsWith('s-') ? file : `s-${file}`].join('/');
+	}
+
+	// Create optimized image src path for responsive loading without producing s-s-* paths.
+	$: imageSrc = getSmallImagePath(image);
 
 	// Data for enneagram type descriptions
 	// Each type has a core emotion AND a stance toward that emotion
@@ -148,6 +155,7 @@
 
 <div
 	class="image-card-base {enneagramType ? 'enneagram-card' : ''}"
+	class:personality-portrait-well={imageTreatment === 'personality'}
 	style="aspect-ratio: {aspectRatio};"
 	title={altText || displayText}
 	aria-roledescription="card"
@@ -188,6 +196,7 @@
 			class:image-card__img--home={showIcon}
 			class:image-card__img--profile={!showIcon}
 			class:image-card__img--tinted={tint && showDescription && enneagramType}
+			class:personality-portrait-image={imageTreatment === 'personality'}
 			alt={altText || displayText}
 		/>
 	{:else}
@@ -202,6 +211,7 @@
 			class:image-card__img--home={showIcon}
 			class:image-card__img--profile={!showIcon}
 			class:image-card__img--tinted={tint && showDescription && enneagramType}
+			class:personality-portrait-image={imageTreatment === 'personality'}
 			alt={altText || displayText}
 			in:fly={{ y: 200, duration: 2000 }}
 		/>
@@ -299,6 +309,25 @@
 	// Override global hover effect - keep card still
 	.image-card-base:hover {
 		transform: none;
+	}
+
+	.image-card-base.personality-portrait-well {
+		background-color: var(--personality-portrait-well);
+		border-color: var(--stone-edge);
+
+		&:hover {
+			border-color: var(--stone-edge);
+			box-shadow: var(--shadow-md);
+		}
+	}
+
+	.image-card__img.personality-portrait-image {
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
+	}
+
+	.image-card__img.personality-portrait-image.image-card__img--tinted {
+		filter: var(--personality-portrait-filter) brightness(0.5) contrast(1.2);
 	}
 
 	// Full-card overlay - starts invisible, fades in on hover

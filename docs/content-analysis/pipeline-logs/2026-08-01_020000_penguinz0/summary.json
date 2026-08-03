@@ -1,0 +1,15 @@
+{
+	"person": "penguinz0",
+	"draft_path": "src/blog/people/drafts/penguinz0.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-01_020000_penguinz0",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": 8.6,
+	"final_overall": 8.4,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.1999999999999993,
+	"has_stage_warnings": false,
+	"generated_at": "2026-08-01T07:02:17.696Z"
+}

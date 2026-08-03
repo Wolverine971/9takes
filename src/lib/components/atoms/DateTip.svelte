@@ -12,7 +12,7 @@
 
 <style>
 	.date-tip {
-		background: var(--secondary-subtle);
+		background: var(--lamp-soft);
 		border-left: 4px solid var(--lamp-glow);
 		padding: 1rem;
 		margin: 1.5rem 0;
@@ -20,7 +20,6 @@
 		position: relative;
 		font-size: 0.95rem;
 		line-height: 1.5;
-		box-shadow: 0 0 15px rgba(251, 113, 133, 0.15);
 		color: var(--ink-bright);
 	}
 

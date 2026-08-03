@@ -806,10 +806,10 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 </svelte:head>
 
 <style lang="scss">
-	/* Solo Leveling Dark Theme */
+	/* Streetlamp V5 — warm, theme-aware resource furniture. */
 
 	a:hover {
-		color: #c4b5fd !important;
+		color: var(--lamp-light) !important;
 	}
 
 	/* Social media icons - make white for dark theme */
@@ -823,25 +823,23 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		opacity: 1;
 	}
 
-	/* Resource cards - Solo Leveling dark theme */
+	/* Resource cards */
 	.resource-card {
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		border: 1px solid var(--stone-edge);
 		border-radius: 12px;
 		padding: 1.5rem;
 		margin-bottom: 1.5rem;
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
-		transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+		background: var(--stone-warm);
+		transition: background-color 0.2s, border-color 0.2s;
 	}
 
 	.resource-card:hover {
-		transform: translateY(-3px);
-		box-shadow: 0 8px 30px rgba(124, 58, 237, 0.15);
-		border-color: rgba(124, 58, 237, 0.4);
+		background: var(--stone-mid);
+		border-color: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
 	}
 
 	.resource-card h3 {
-		color: #f1f5f9;
+		color: var(--ink-bright);
 		margin-top: 0;
 		border-bottom: none !important;
 	}
@@ -852,12 +850,12 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		border-radius: 8px;
 	}
 
-	/* Tag styling - Solo Leveling dark theme */
+	/* Tag styling */
 	.tag {
 		display: inline-block;
-		background: rgba(124, 58, 237, 0.15);
-		color: #a78bfa;
-		border: 1px solid rgba(124, 58, 237, 0.3);
+		background: var(--lamp-soft);
+		color: var(--lamp-glow);
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 32%, transparent);
 		border-radius: 9999px;
 		font-size: 0.875rem;
 		font-weight: 500;
@@ -867,42 +865,42 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 	}
 
 	.tag-beginner {
-		background: rgba(34, 197, 94, 0.15);
-		color: #4ade80;
-		border-color: rgba(34, 197, 94, 0.3);
+		background: var(--success-light);
+		color: var(--success-text);
+		border-color: color-mix(in srgb, var(--success) 32%, transparent);
 	}
 
 	.tag-advanced {
-		background: rgba(168, 85, 247, 0.15);
-		color: #c084fc;
-		border-color: rgba(168, 85, 247, 0.3);
+		background: var(--warning-light);
+		color: var(--warning-text);
+		border-color: color-mix(in srgb, var(--warning) 32%, transparent);
 	}
 
 	.tag-spiritual {
-		background: rgba(249, 115, 22, 0.15);
-		color: #fb923c;
-		border-color: rgba(249, 115, 22, 0.3);
+		background: var(--lamp-soft);
+		color: var(--lamp-glow);
+		border-color: color-mix(in srgb, var(--lamp-glow) 32%, transparent);
 	}
 
 	.tag-professional {
-		background: rgba(20, 184, 166, 0.15);
-		color: #2dd4bf;
-		border-color: rgba(20, 184, 166, 0.3);
+		background: var(--data-teal-rgba);
+		color: var(--data-cyan);
+		border-color: color-mix(in srgb, var(--data-teal) 38%, transparent);
 	}
 
 	/* Tooltip styling - Solo Leveling dark theme */
 	.tooltip {
 		position: relative;
 		display: inline-block;
-		border-bottom: 1px dotted #64748b;
+		border-bottom: 1px dotted var(--stone-edge);
 		cursor: help;
 	}
 
 	.tooltip .tooltip-text {
 		visibility: hidden;
 		width: 200px;
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 100%);
-		color: #e2e8f0;
+		background: var(--stone-mid);
+		color: var(--ink-bright);
 		text-align: center;
 		border-radius: 8px;
 		padding: 0.75rem;
@@ -914,8 +912,8 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		opacity: 0;
 		transition: opacity 0.3s;
 		font-size: 0.875rem;
-		border: 1px solid rgba(124, 58, 237, 0.3);
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+		border: 1px solid var(--stone-edge);
+		box-shadow: var(--shadow-md);
 	}
 
 	.tooltip:hover .tooltip-text {
@@ -923,7 +921,7 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		opacity: 1;
 	}
 
-	/* Influencer grid - Solo Leveling dark theme */
+	/* Influencer grid */
 	.influencer-grid {
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -932,28 +930,26 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 	}
 
 	.influencer-card {
-		background: linear-gradient(135deg, #1a1a2e 0%, #16161e 50%, #12121a 100%);
-		border: 1px solid rgba(124, 58, 237, 0.2);
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
 		border-radius: 12px;
 		padding: 1.25rem;
-		transition: all 0.2s ease;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+		transition: background-color 0.2s, border-color 0.2s;
 
 		&:hover {
-			transform: translateY(-3px);
-			border-color: rgba(124, 58, 237, 0.4);
-			box-shadow: 0 8px 30px rgba(124, 58, 237, 0.15);
+			background: var(--stone-mid);
+			border-color: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
 		}
 
 		h4 {
-			color: #f1f5f9;
+			color: var(--ink-bright);
 			margin: 0 0 0.75rem;
 			font-size: 1.1rem;
 			font-weight: 700;
 		}
 
 		p {
-			color: #cbd5e1;
+			color: var(--ink-mid);
 			font-size: 0.9rem;
 			line-height: 1.6;
 			margin: 0 0 0.75rem;
@@ -964,15 +960,15 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		}
 
 		a {
-			color: #a78bfa;
+			color: var(--lamp-glow);
 
 			&:hover {
-				color: #c4b5fd !important;
+				color: var(--lamp-light) !important;
 			}
 		}
 	}
 
-	/* Influencer list - Solo Leveling dark theme */
+	/* Influencer list */
 	.influencer-list {
 		display: flex;
 		flex-direction: column;
@@ -981,28 +977,27 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 	}
 
 	.influencer-item {
-		background: rgba(255, 255, 255, 0.03);
-		border: 1px solid rgba(100, 116, 139, 0.15);
-		border-left: 4px solid #7c3aed;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-left: 4px solid var(--lamp-glow);
 		border-radius: 8px;
 		padding: 1rem 1.25rem;
-		transition: all 0.2s ease;
+		transition: background-color 0.2s, border-color 0.2s;
 
 		&:hover {
-			background: rgba(124, 58, 237, 0.08);
-			border-color: rgba(124, 58, 237, 0.25);
-			transform: translateX(4px);
+			background: var(--stone-mid);
+			border-color: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
 		}
 
 		h4 {
-			color: #f1f5f9;
+			color: var(--ink-bright);
 			margin: 0 0 0.5rem;
 			font-size: 1rem;
 			font-weight: 600;
 		}
 
 		p {
-			color: #cbd5e1;
+			color: var(--ink-mid);
 			font-size: 0.9rem;
 			line-height: 1.6;
 			margin: 0 0 0.5rem;
@@ -1013,10 +1008,10 @@ For a zero-cost deep dive: read the type descriptions on the Enneagram Institute
 		}
 
 		a {
-			color: #a78bfa;
+			color: var(--lamp-glow);
 
 			&:hover {
-				color: #c4b5fd !important;
+				color: var(--lamp-light) !important;
 			}
 		}
 	}

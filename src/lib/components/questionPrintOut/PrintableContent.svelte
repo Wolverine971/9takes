@@ -176,7 +176,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		color: var(--base-white-outline);
+		color: var(--marble-pure);
 		z-index: 12433;
 		text-decoration: none !important;
 	}

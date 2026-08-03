@@ -451,12 +451,13 @@
 				</div>
 
 				<div class="featured-grid">
-					{#each data.featured as person}
+					{#each data.featured as person (person.slug)}
 						<a href={buildPersonalityAnalysisPath(person.slug)} class="featured-card">
-							<div class="image-wrap">
+							<div class="image-wrap personality-portrait-well">
 								<img
 									src={buildPersonalityImagePath(person.enneagram, person.slug)}
 									alt={`Portrait of ${person.name}`}
+									class="personality-portrait-image"
 									loading="lazy"
 									width="400"
 									height="533"
@@ -515,9 +516,9 @@
 								</div>
 
 								<div class="people-grid">
-									{#each group.people as person}
+									{#each group.people as person (person.slug)}
 										<a href={buildPersonalityAnalysisPath(person.slug)} class="person-card">
-											<div class="person-image">
+											<div class="person-image personality-portrait-well">
 												<img
 													src={buildPersonalityImagePath(
 														person.enneagram,
@@ -525,6 +526,7 @@
 														'thumbnail'
 													)}
 													alt={`Portrait of ${person.name}`}
+													class="personality-portrait-image"
 													loading="lazy"
 													width="240"
 													height="240"
@@ -544,12 +546,13 @@
 					</div>
 				{:else}
 					<div class="people-grid">
-						{#each data.people as person}
+						{#each data.people as person (person.slug)}
 							<a href={buildPersonalityAnalysisPath(person.slug)} class="person-card">
-								<div class="person-image">
+								<div class="person-image personality-portrait-well">
 									<img
 										src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
 										alt={`Portrait of ${person.name}`}
+										class="personality-portrait-image"
 										loading="lazy"
 										width="240"
 										height="240"
@@ -615,7 +618,7 @@
 						<a
 							href="/personality-analysis/categories/{category.slug}"
 							class="related-card"
-							style={`--related-accent:${category.accent}; --related-soft:${category.accentSoft};`}
+							style={`--related-accent:${category.accent};`}
 						>
 							<div class="related-top">
 								<h3>{category.label}</h3>
@@ -642,7 +645,7 @@
 		background:
 			radial-gradient(
 				circle at top,
-				color-mix(in srgb, var(--accent-soft) 52%, transparent) 0%,
+				color-mix(in srgb, var(--lamp-glow) 7%, transparent) 0%,
 				transparent 36%
 			),
 			linear-gradient(
@@ -762,7 +765,7 @@
 		border-radius: 1rem;
 		background: linear-gradient(
 			180deg,
-			color-mix(in srgb, var(--accent-soft) 30%, transparent) 0%,
+			color-mix(in srgb, var(--data-teal) 6%, transparent) 0%,
 			var(--surface-card) 100%
 		);
 		border: 1px solid var(--accent-border);
@@ -811,13 +814,7 @@
 	.distribution-card {
 		padding: 1.1rem;
 		border-radius: 1rem;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--accent-soft) 38%, transparent) 0%,
-				transparent 48%
-			),
-			var(--surface-card-strong);
+		background: var(--surface-card-strong);
 		border: 1px solid var(--accent-border);
 		box-shadow: var(--shadow-sm);
 	}
@@ -831,11 +828,7 @@
 		margin-top: 1.25rem;
 		padding: 1.1rem;
 		border-radius: 1rem;
-		background: linear-gradient(
-			180deg,
-			color-mix(in srgb, var(--accent-soft) 26%, transparent) 0%,
-			var(--surface-card-strong) 100%
-		);
+		background: var(--surface-card-strong);
 		border: 1px solid var(--accent-border);
 		box-shadow: var(--shadow-sm);
 	}
@@ -991,11 +984,14 @@
 		inset: 0.5rem;
 		border-radius: 0.625rem;
 		overflow: hidden;
+		background: var(--personality-portrait-well);
 
 		img {
 			width: 100%;
 			height: 100%;
 			object-fit: cover;
+			filter: var(--personality-portrait-filter);
+			mix-blend-mode: normal;
 		}
 	}
 
@@ -1117,14 +1113,9 @@
 		padding: 1rem;
 		border-radius: 1rem;
 		text-decoration: none;
-		background:
-			linear-gradient(
-				180deg,
-				color-mix(in srgb, var(--related-soft) 38%, transparent) 0%,
-				transparent 52%
-			),
-			var(--surface-card-strong);
+		background: var(--surface-card-strong);
 		border: 1px solid var(--accent-border);
+		border-top-color: color-mix(in srgb, var(--related-accent) 62%, var(--stone-edge));
 		box-shadow: var(--shadow-sm);
 
 		&:hover {

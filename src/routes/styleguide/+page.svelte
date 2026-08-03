@@ -9,14 +9,16 @@
   - Scoped styles only. Reads global tokens from src/scss/index.scss; never
     mutates them. The bridge (V5 + legacy) is rendered as documentation, not
     re-defined here.
-  - Theme toggle uses its own localStorage key + own <html> class
-    (`styleguide-light`) so it cannot collide with production theme state.
+  - Theme toggle uses the canonical production theme store so labels, root
+    tokens, browser chrome, and rendered specimens cannot drift apart.
   - No new npm packages. Reuses Spinner / ThemeToggle if useful, but keeps
     canonical specs inline so this file does not silently track other files.
 -->
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onDestroy, onMount } from 'svelte';
+	import type { PageData } from './$types';
 	import { Button, EmptyState, ErrorState } from '$lib/components/atoms';
+	import { applyTheme, themePreference, type ThemePreference } from '$lib/stores/theme';
 	// Listing + callout atoms (extracted 2026-06-10, design audit) — build rule:
 	// if it isn't on /styleguide, it doesn't exist.
 	import IndexHero from '$lib/components/marketing/IndexHero.svelte';
@@ -24,46 +26,53 @@
 	import CaseGrid from '$lib/components/marketing/CaseGrid.svelte';
 	import Callout from '$lib/components/blog/callouts/Callout.svelte';
 
+	let { data }: { data: PageData } = $props();
+	const portraitPreflight = $derived(data.portraitPreflight);
+
 	// ---------------------------------------------------------------------------
-	// Theme state — separate from production. Honors prefers-color-scheme on
-	// first load if the user has never toggled here. Mirrors the V5 prototype
-	// pattern (own localStorage key, own html class).
+	// Theme state — follows the canonical production preference so the control
+	// label and the root-level token block always describe the same theme.
 	// ---------------------------------------------------------------------------
 	let theme = $state<'dark' | 'light'>('dark');
+	let preference: ThemePreference = $state('system');
 	let bannerDismissed = $state(false);
 
-	const STORAGE_KEY = '9takes-styleguide-theme';
-	const HTML_LIGHT_CLASS = 'styleguide-light';
-
-	onMount(() => {
-		const stored = localStorage.getItem(STORAGE_KEY);
-		if (stored === 'light' || stored === 'dark') {
-			theme = stored;
-		} else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-			theme = 'light';
+	function syncEffectiveTheme() {
+		if (typeof window === 'undefined') {
+			theme = preference === 'light' ? 'light' : 'dark';
+			return;
 		}
+		theme =
+			preference === 'system'
+				? window.matchMedia('(prefers-color-scheme: light)').matches
+					? 'light'
+					: 'dark'
+				: preference;
+	}
+
+	const unsubscribeTheme = themePreference.subscribe((value) => {
+		preference = value;
+		syncEffectiveTheme();
 	});
 
-	$effect(() => {
-		if (typeof document === 'undefined') return;
-		// Mirror production's `:root.light` token block on this page only.
-		document.documentElement.classList.toggle('light', theme === 'light');
-		// Page-host warm-up so the chrome around the .styleguide wrapper matches.
-		document.documentElement.classList.toggle(HTML_LIGHT_CLASS, theme === 'light');
-		try {
-			localStorage.setItem(STORAGE_KEY, theme);
-		} catch {
-			// Non-fatal: private mode, etc.
-		}
+	onDestroy(unsubscribeTheme);
+
+	onMount(() => {
+		applyTheme(preference);
+		const mediaQuery = window.matchMedia('(prefers-color-scheme: light)');
+		const handleSystemThemeChange = () => {
+			if (preference === 'system') syncEffectiveTheme();
+		};
+		mediaQuery.addEventListener('change', handleSystemThemeChange);
 		return () => {
-			document.documentElement.classList.remove(HTML_LIGHT_CLASS);
-			// Leave .light alone on unmount — production ThemeToggle owns it
-			// in normal navigation flows. We only added it; we don't strip it.
+			mediaQuery.removeEventListener('change', handleSystemThemeChange);
 		};
 	});
 
 	function toggleTheme() {
-		theme = theme === 'dark' ? 'light' : 'dark';
+		const next = theme === 'dark' ? 'light' : 'dark';
+		themePreference.set(next);
+		applyTheme(next);
 	}
 
 	// ---------------------------------------------------------------------------
@@ -74,7 +83,7 @@
 		{ id: 's00', num: '00', label: 'HEADER' },
 		{ id: 's01', num: '01', label: 'BRAND' },
 		{ id: 's02', num: '02', label: 'COLOR · V5' },
-		{ id: 's03', num: '03', label: 'COLOR · LEGACY' },
+		{ id: 's03', num: '03', label: 'COLOR · ARCHIVE' },
 		{ id: 's04', num: '04', label: 'SEMANTIC' },
 		{ id: 's05', num: '05', label: 'ENNEAGRAM' },
 		{ id: 's06', num: '06', label: 'TYPOGRAPHY' },
@@ -83,7 +92,8 @@
 		{ id: 's09', num: '09', label: 'SHADOW' },
 		{ id: 's10', num: '10', label: 'MOTION' },
 		{ id: 's11', num: '11', label: 'COMPONENTS' },
-		{ id: 's12', num: '12', label: 'VOCAB' }
+		{ id: 's12', num: '12', label: 'VOCAB' },
+		{ id: 's13', num: '13', label: 'PORTRAITS' }
 	];
 
 	// ---------------------------------------------------------------------------
@@ -185,104 +195,6 @@
 			use: 'sodium-pool radial gradient falloff',
 			isRgb: true
 		}
-	];
-
-	// §03 — Legacy tokens (deprecated, bridge only — Phase 7 cleanup)
-	const legacyPrimary: SwatchRow[] = [
-		{ token: '--primary', dark: '#F59E0B', light: '#B45309', use: 'legacy alias → --lamp-glow' },
-		{
-			token: '--primary-dark',
-			dark: '#F59E0B',
-			light: '#B45309',
-			use: 'legacy hover → --lamp-glow'
-		},
-		{
-			token: '--primary-darker',
-			dark: '#F59E0B',
-			light: '#B45309',
-			use: 'legacy pressed → --lamp-glow'
-		},
-		{
-			token: '--primary-light',
-			dark: '#F59E0B',
-			light: '#B45309',
-			use: 'legacy soft → --lamp-glow'
-		},
-		{
-			token: '--primary-lighter',
-			dark: '#F59E0B',
-			light: '#B45309',
-			use: 'legacy lighter tint → --lamp-glow'
-		},
-		{
-			token: '--primary-lightest',
-			dark: '#F59E0B',
-			light: '#B45309',
-			use: 'legacy lightest tint → --lamp-glow'
-		},
-		{
-			token: '--primary-glow',
-			dark: 'rgba(245,158,11,0.40)',
-			light: 'rgba(217,119,6,0.18)',
-			use: 'legacy glow alpha → --lamp-glow-rgba'
-		},
-		{
-			token: '--primary-subtle',
-			dark: 'rgba(245,158,11,0.14)',
-			light: 'rgba(180,83,9,0.10)',
-			use: 'legacy subtle bg → --lamp-soft'
-		}
-	];
-
-	const legacySecondary: SwatchRow[] = [
-		{ token: '--secondary', dark: '#FB7185', light: '#E11D48', use: 'legacy rose accent' },
-		{ token: '--secondary-dark', dark: '#F43F5E', light: '#BE123C', use: 'legacy rose hover' },
-		{ token: '--secondary-light', dark: '#FDA4AF', light: '#F43F5E', use: 'legacy rose soft' },
-		{
-			token: '--secondary-glow',
-			dark: 'rgba(251,113,133,0.40)',
-			light: 'rgba(225,29,72,0.25)',
-			use: 'legacy rose glow'
-		},
-		{
-			token: '--secondary-subtle',
-			dark: 'rgba(251,113,133,0.12)',
-			light: 'rgba(225,29,72,0.08)',
-			use: 'legacy rose subtle'
-		}
-	];
-
-	const legacyAccent: SwatchRow[] = [
-		{ token: '--accent', dark: '#A78BFA', light: '#7C3AED', use: 'legacy purple accent' },
-		{ token: '--accent-dark', dark: '#7C3AED', light: '#6D28D9', use: 'legacy purple hover' },
-		{ token: '--accent-light', dark: '#C4B5FD', light: '#8B5CF6', use: 'legacy purple soft' },
-		{
-			token: '--accent-glow',
-			dark: 'rgba(167,139,250,0.40)',
-			light: 'rgba(124,58,237,0.20)',
-			use: 'legacy purple glow'
-		},
-		{
-			token: '--accent-subtle',
-			dark: 'rgba(167,139,250,0.12)',
-			light: 'rgba(124,58,237,0.06)',
-			use: 'legacy purple subtle'
-		}
-	];
-
-	const legacySurface: SwatchRow[] = [
-		{ token: '--bg-base', dark: '#0C0A09', light: '#FAFAF9', use: 'legacy page background' },
-		{ token: '--bg-deep', dark: '#1C1917', light: '#F5F5F4', use: 'legacy secondary surface' },
-		{ token: '--bg-surface', dark: '#292524', light: '#FFFFFF', use: 'legacy card surface' },
-		{ token: '--bg-elevated', dark: '#44403C', light: '#E7E5E4', use: 'legacy elevated, hover' },
-		{ token: '--bg-highlight', dark: '#57534E', light: '#D6D3D1', use: 'legacy active, selected' }
-	];
-
-	const legacyText: SwatchRow[] = [
-		{ token: '--text-primary', dark: '#FAFAF9', light: '#1C1917', use: 'legacy primary text' },
-		{ token: '--text-secondary', dark: '#A8A29E', light: '#57534E', use: 'legacy body text' },
-		{ token: '--text-tertiary', dark: '#78716C', light: '#78716C', use: 'legacy caption' },
-		{ token: '--text-muted', dark: '#57534E', light: '#A8A29E', use: 'legacy muted' }
 	];
 
 	// §04 — Semantic
@@ -446,6 +358,20 @@
 			};
 		}
 	);
+
+	// §13 — one real personality portrait per type. This is the calibration
+	// fixture for the contained-violet treatment across all nine data accents.
+	const personalityPortraitSamples = [
+		{ type: 1, name: 'Anna Wintour', src: '/types/1s/s-Anna-Wintour.webp' },
+		{ type: 2, name: 'Dolly Parton', src: '/types/2s/s-Dolly-Parton.webp' },
+		{ type: 3, name: 'Addison Rae', src: '/types/3s/s-Addison-Rae.webp' },
+		{ type: 4, name: 'Billie Eilish', src: '/types/4s/s-Billie-Eilish.webp' },
+		{ type: 5, name: 'Albert Einstein', src: '/types/5s/s-Albert-Einstein.webp' },
+		{ type: 6, name: 'Aubrey Plaza', src: '/types/6s/s-Aubrey-Plaza.webp' },
+		{ type: 7, name: 'Anna Kendrick', src: '/types/7s/s-Anna-Kendrick.webp' },
+		{ type: 8, name: 'Beyoncé Knowles', src: '/types/8s/s-Beyonce-Knowles.webp' },
+		{ type: 9, name: 'Barack Obama', src: '/types/9s/s-Barack-Obama.webp' }
+	];
 </script>
 
 <svelte:head>
@@ -583,26 +509,20 @@
 			</section>
 
 			<!-- =====================================================
-			  §03 — LEGACY TOKENS (DEPRECATED)
+			  §03 — PRE-V5 COLOR ARCHIVE
 			===================================================== -->
 			<section id="s03" class="sg-section">
-				<span class="mono sg-kicker">§03 · COLOR · LEGACY</span>
-				<h2 class="sg-h2">Legacy tokens</h2>
+				<span class="mono sg-kicker">§03 · COLOR · ARCHIVE</span>
+				<h2 class="sg-h2">Pre-V5 palette archive</h2>
 				<div class="sg-deprecated">
-					<p class="mono sg-deprecated-tag">⚠️ DELETED · PHASE 7 COMPLETE (2026-06-10)</p>
+					<p class="mono sg-deprecated-tag">HISTORICAL ONLY · DO NOT USE</p>
 					<p class="sg-deprecated-body">
-						These tokens were deleted from <code>src/scss/index.scss</code> in Phase 7 of
-						<code>docs/design/2026-05-04-rollout-plan.md</code>. This section is a historical record
-						of what they were — all live code now uses the V5 tokens from §02.
+						The former teal-primary, rose-secondary, purple-accent, gray-name, and generic component
+						aliases are retired. Their swatches are intentionally absent so this live styleguide
+						cannot be mistaken for an available token menu. Historical values remain in
+						<code>docs/design/2026-05-04-streetlamp-symposium-v5.md</code>; production code uses the
+						role-based tokens in §02 and §04.
 					</p>
-
-					<div class="sg-deprecated-body-wrap">
-						{@render swatchGroup('Legacy primary · teal', legacyPrimary)}
-						{@render swatchGroup('Legacy secondary · rose', legacySecondary)}
-						{@render swatchGroup('Legacy accent · purple', legacyAccent)}
-						{@render swatchGroup('Legacy surfaces', legacySurface)}
-						{@render swatchGroup('Legacy text', legacyText)}
-					</div>
 				</div>
 			</section>
 
@@ -1157,6 +1077,126 @@
 			</section>
 
 			<!-- =====================================================
+			  §13 — PERSONALITY PORTRAIT TREATMENT
+			===================================================== -->
+			<section id="s13" class="sg-section">
+				<span class="mono sg-kicker">§13 · PORTRAITS</span>
+				<h2 class="sg-h2">Contained-violet portrait treatment</h2>
+				<p class="sg-section-lede">
+					Violet stays inside the image, type color stays data, and amber remains reserved for
+					illumination and action. The same filter and dusk well must hold across all nine type
+					accents in both themes.
+				</p>
+
+				{#if portraitPreflight}
+					<div id="portrait-preflight" class="sg-portrait-preflight" data-portrait-preflight>
+						{#if portraitPreflight.status === 'invalid'}
+							<span class="mono sg-preflight-label">PUBLISHING PREFLIGHT · INVALID</span>
+							<p class="sg-preflight-error" role="alert">{portraitPreflight.message}</p>
+						{:else}
+							<div class="sg-preflight-heading">
+								<div>
+									<span class="mono sg-preflight-label">PUBLISHING PREFLIGHT · READY</span>
+									<h3>{portraitPreflight.name}</h3>
+								</div>
+								<span
+									class="mono sg-preflight-type"
+									style={`--portrait-type-color: var(--type-${portraitPreflight.type}-color);`}
+								>
+									TYPE {portraitPreflight.type}
+								</span>
+							</div>
+
+							<p class="sg-preflight-instruction">
+								Inspect both crops, then use the theme control above and repeat the review. These
+								are the exact full and thumbnail files checked by <code>pnpm portrait:check</code>.
+							</p>
+
+							<div class="sg-preflight-grid">
+								<figure class="sg-preflight-card">
+									<div
+										class="sg-preflight-frame sg-preflight-frame--hero personality-portrait-well"
+										style={`--portrait-type-color: var(--type-${portraitPreflight.type}-color);`}
+									>
+										<img
+											src={portraitPreflight.fullSrc}
+											alt={`Full portrait preview of ${portraitPreflight.name}`}
+											class="personality-portrait-image"
+											data-preflight-asset="full"
+											width="1200"
+											height="825"
+											decoding="async"
+										/>
+										<span class="mono sg-portrait-type">HERO</span>
+									</div>
+									<figcaption class="sg-preflight-caption">
+										<strong>Full asset · 16:11 crop</strong>
+										<code>{portraitPreflight.fullSrc}</code>
+									</figcaption>
+								</figure>
+
+								<figure class="sg-preflight-card">
+									<div
+										class="sg-preflight-frame sg-preflight-frame--square personality-portrait-well"
+										style={`--portrait-type-color: var(--type-${portraitPreflight.type}-color);`}
+									>
+										<img
+											src={portraitPreflight.thumbnailSrc}
+											alt={`Thumbnail portrait preview of ${portraitPreflight.name}`}
+											class="personality-portrait-image"
+											data-preflight-asset="thumbnail"
+											width="480"
+											height="480"
+											decoding="async"
+										/>
+										<span class="mono sg-portrait-type">CARD</span>
+									</div>
+									<figcaption class="sg-preflight-caption">
+										<strong>Thumbnail asset · square crop</strong>
+										<code>{portraitPreflight.thumbnailSrc}</code>
+									</figcaption>
+								</figure>
+							</div>
+						{/if}
+					</div>
+				{/if}
+
+				<div class="sg-portrait-grid">
+					{#each personalityPortraitSamples as sample (sample.type)}
+						<figure class="sg-portrait-figure">
+							<div
+								class="sg-portrait-frame personality-portrait-well"
+								style={`--portrait-type-color: var(--type-${sample.type}-color);`}
+							>
+								<img
+									src={sample.src}
+									alt={`Portrait of ${sample.name}`}
+									class="personality-portrait-image"
+									loading="lazy"
+									width="240"
+									height="240"
+									decoding="async"
+								/>
+								<span class="mono sg-portrait-type">TYPE {sample.type}</span>
+							</div>
+							<figcaption>
+								<strong>{sample.name}</strong>
+								<span class="mono">--TYPE-{sample.type}-COLOR</span>
+							</figcaption>
+						</figure>
+					{/each}
+				</div>
+
+				<div class="sg-portrait-contract">
+					<span class="mono">COLOR CONTRACT</span>
+					<p>
+						Amber = illumination/action · type color = data · violet = image pixels only · stone/ink
+						= passive frame chrome.
+					</p>
+				</div>
+			</section>
+
+			<!-- =====================================================
 			  FOOTER
 			===================================================== -->
 			<footer class="sg-footer">
@@ -1351,7 +1391,7 @@
 		gap: 32px;
 
 		@media (max-width: 968px) {
-			grid-template-columns: 1fr;
+			grid-template-columns: minmax(0, 1fr);
 			gap: 16px;
 			padding: 24px 16px 64px;
 		}
@@ -1704,18 +1744,18 @@
 
 	/* ----- deprecated wrapper ----- */
 	.sg-deprecated {
-		border: 2px solid #f59e0b; /* warning yellow — same in both modes by design */
+		border: 2px solid var(--warning);
 		border-style: dashed;
 		border-radius: 1rem;
 		padding: 20px;
-		background: rgba(245, 158, 11, 0.05);
+		background: color-mix(in srgb, var(--warning) 5%, transparent);
 		display: flex;
 		flex-direction: column;
 		gap: 12px;
 	}
 
 	.sg-deprecated-tag {
-		color: #f59e0b;
+		color: var(--warning-text);
 		font-size: 12px;
 		letter-spacing: 0.1em;
 	}
@@ -1724,13 +1764,6 @@
 		font-size: 14px;
 		line-height: 1.55;
 		color: var(--ink-mid);
-	}
-
-	.sg-deprecated-body-wrap {
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-		margin-top: 8px;
 	}
 
 	/* ----- §05 enneagram type cards ----- */
@@ -2584,6 +2617,211 @@
 		opacity: 0.7;
 	}
 
+	/* ----- §13 personality portrait treatment ----- */
+	.sg-portrait-preflight {
+		margin-bottom: 32px;
+		padding: 24px;
+		background: var(--night-mid);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+	}
+
+	.sg-preflight-heading {
+		display: flex;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 16px;
+		margin-bottom: 12px;
+
+		h3 {
+			margin-top: 4px;
+			color: var(--ink-bright);
+			font-size: clamp(20px, 3vw, 28px);
+			line-height: 1.15;
+		}
+	}
+
+	.sg-preflight-label {
+		color: var(--lamp-glow);
+		font-size: 10px;
+		letter-spacing: 0.08em;
+	}
+
+	.sg-preflight-type {
+		flex: 0 0 auto;
+		padding: 4px 8px;
+		color: var(--portrait-type-color);
+		background: var(--stone-warm);
+		border: 1px solid color-mix(in srgb, var(--portrait-type-color) 55%, var(--stone-edge));
+		border-radius: 4px;
+		font-size: 10px;
+		letter-spacing: 0.07em;
+	}
+
+	.sg-preflight-instruction,
+	.sg-preflight-error {
+		margin-bottom: 20px;
+		color: var(--ink-mid);
+		font-size: 14px;
+		line-height: 1.55;
+
+		code {
+			color: var(--ink-bright);
+		}
+	}
+
+	.sg-preflight-error {
+		margin-top: 8px;
+		margin-bottom: 0;
+		color: var(--error-text);
+	}
+
+	.sg-preflight-grid {
+		display: grid;
+		grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+		gap: 16px;
+
+		@media (max-width: 640px) {
+			grid-template-columns: minmax(0, 1fr);
+		}
+	}
+
+	.sg-preflight-card {
+		min-width: 0;
+		margin: 0;
+	}
+
+	.sg-preflight-frame {
+		position: relative;
+		overflow: hidden;
+		background: var(--personality-portrait-well);
+		border: 1px solid var(--stone-edge);
+		border-top: 3px solid var(--portrait-type-color);
+		border-radius: 10px;
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			filter: var(--personality-portrait-filter);
+			mix-blend-mode: normal;
+		}
+	}
+
+	.sg-preflight-frame--hero {
+		aspect-ratio: 16 / 11;
+	}
+
+	.sg-preflight-frame--square {
+		aspect-ratio: 1;
+	}
+
+	.sg-preflight-caption {
+		display: flex;
+		flex-direction: column;
+		gap: 4px;
+		padding-top: 8px;
+		min-width: 0;
+
+		strong {
+			color: var(--ink-bright);
+			font-size: 13px;
+		}
+
+		code {
+			overflow-wrap: anywhere;
+			color: var(--ink-dim);
+			font-size: 10px;
+		}
+	}
+
+	.sg-portrait-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		gap: 16px;
+	}
+
+	.sg-portrait-figure {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		min-width: 0;
+	}
+
+	.sg-portrait-frame {
+		position: relative;
+		aspect-ratio: 1;
+		overflow: hidden;
+		background: var(--personality-portrait-well);
+		border: 1px solid var(--stone-edge);
+		border-top: 3px solid var(--portrait-type-color);
+		border-radius: 10px;
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			filter: var(--personality-portrait-filter);
+			mix-blend-mode: normal;
+		}
+	}
+
+	.sg-portrait-type {
+		position: absolute;
+		right: 8px;
+		bottom: 8px;
+		padding: 4px 6px;
+		background: rgba(10, 8, 7, 0.84);
+		border: 1px solid color-mix(in srgb, var(--portrait-type-color) 55%, var(--stone-edge));
+		border-radius: 4px;
+		color: var(--text-on-image);
+		font-size: 9px;
+		letter-spacing: 0.07em;
+	}
+
+	.sg-portrait-figure figcaption {
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		min-width: 0;
+
+		strong {
+			overflow: hidden;
+			font-size: 13px;
+			line-height: 1.3;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			color: var(--ink-bright);
+		}
+
+		.mono {
+			font-size: 9px;
+			color: var(--ink-dim);
+		}
+	}
+
+	.sg-portrait-contract {
+		margin-top: 24px;
+		padding: 20px;
+		background: var(--stone-warm);
+		border: 1px solid var(--stone-edge);
+		border-radius: 16px;
+
+		.mono {
+			color: var(--lamp-glow);
+			font-size: 10px;
+		}
+
+		p {
+			margin-top: 8px;
+			color: var(--ink-mid);
+			font-size: 14px;
+			line-height: 1.55;
+		}
+	}
+
 	/* ----- footer ----- */
 	.sg-footer {
 		margin-top: 32px;
@@ -2611,18 +2849,5 @@
 		border: 1px dashed var(--stone-edge);
 		border-radius: 1rem;
 		overflow: hidden;
-	}
-
-	/* =============================================================
-	  Global side-effects scoped to <html.styleguide-light>. We only
-	  warm up the host page so the surround matches when the styleguide
-	  toggles to light mode. The .styleguide wrapper above already swaps
-	  via the `.sg-light` class — this is just for the page chrome.
-	============================================================= */
-	:global(html.styleguide-light) {
-		background: #faf8f4;
-	}
-	:global(html.styleguide-light body) {
-		background: #faf8f4;
 	}
 </style>

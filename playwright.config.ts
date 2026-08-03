@@ -27,7 +27,7 @@ export default defineConfig({
 			'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1'
 	},
 	webServer: {
-		command: `pnpm exec vite dev --host ${smokeUrl.hostname} --port ${smokePort} --strictPort`,
+		command: `node ./node_modules/vite/bin/vite.js dev --host ${smokeUrl.hostname} --port ${smokePort} --strictPort`,
 		url: smokeBaseUrl,
 		// Never attach the suite to an unrelated Vite app that happens to own a common dev port.
 		reuseExistingServer: false,

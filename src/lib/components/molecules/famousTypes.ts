@@ -180,6 +180,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'pete-buttigieg', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'plaqueboymax', link: false, hasImage: false, lastmod: '2026-07-27', personaTitle: 'Streaming\'s Relentless Hitmaker', contentGrade: 8.4, types: ['creator', 'musician'] },
 		{ name: 'riyaz-aly', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
+		{ name: 'stable-ronaldo', link: false, hasImage: false, lastmod: '2026-08-02', personaTitle: 'Twitch\'s Comeback Machine', contentGrade: null, types: ['creator', 'streamer'] },
 		{ name: 'ted-bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'xochitl-gomez', link: false, hasImage: false, lastmod: '2026-07-12', personaTitle: 'Hollywood\'s Rehearsed Sunshine', contentGrade: 8.4, types: ['newMovieStar', 'rising-star'] }
 	],
@@ -551,6 +552,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'khaby-lame', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'kurt-russell', link: false, hasImage: false, lastmod: '2026-06-17', personaTitle: 'Hollywood\'s Unbothered Holdout', contentGrade: 8.8, types: ['movieStar'] },
 		{ name: 'nelson-mandela', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Madiba\'s Quiet Eight Wing', contentGrade: 9, types: ['historical', 'politician', 'activist', 'movement-leader'] },
+		{ name: 'penguinz0', link: false, hasImage: false, lastmod: '2026-08-01', personaTitle: 'Streaming\'s Unbothered Giant', contentGrade: 8.4, types: ['creator', 'streamer'] },
 		{ name: 'robert-f-kennedy-jr', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'ron-desantis', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'shawn-mendes', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] }

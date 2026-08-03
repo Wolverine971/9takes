@@ -12,7 +12,8 @@
 #   1. Opens the brand's dedicated Chrome profile so its Claude extension
 #      instance is awake and connectable.
 #   2. Runs claude --chrome "/instagram-warmup" with output going ONLY to a
-#      per-day log file.
+#      per-day log file. Warmup now includes 0–3 high-confidence reply
+#      suggestions; it never posts them.
 #   3. Prints a truthful, compact summary (status header + tail of THIS
 #      day's log) to stdout — which OpenClaw announce delivers to Telegram.
 #   4. Exits nonzero when the run actually failed, so the cron job status

@@ -1,0 +1,22 @@
+Draft complete. penguinz0 (Charlie White / MoistCr1TiKaL) is typed as an **Enneagram 9w8**, confidence high, and the draft clears every hard gate and every deterministic check.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Penguinz0.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (4 testimony quotes), Gate 2: pass (6 search/hybrid H2s), Gate 4: pass, Gate 5: pass (2 type-theory paragraphs), Gate 6: pass]
+LIMITATIONS: Naroditsky tribute video has no captions (quotes sourced from press coverage instead); Anthony Padilla collab does not exist; vitiligo claim unverifiable, dropped
+```
+
+**The thesis:** the most unbothered man on the internet built his calm by hand. OCD hit him around age 12 (the same stretch of life when he started the channel) with "at least a hundred rituals" — National Treasure every night for two years, meals at exact times — which he dismantled alone via self-invented exposure therapy and hid from everyone for a decade. The adult kept the architecture (white shirt, Tampa forever, drivable-distance-only travel, daily uploads since 2007) but became its author. The type earns its place through the money: he measures decisions by whether they "sit right," which is why he donated his first 4–5 years of earnings, ran Moist Esports at a $4.2M loss, and in October 2025 turned off $1M+/year of donations after revealing $41.3M in lifetime earnings — then refused to lead the movement it started ("I'm not your dad").
+
+Key structural pieces:
+- **Bespoke section:** a ledger rebuilt from his own published analytics (what came in vs. what he kept)
+- **Critic anchor + empathy turn:** the 2023 iDubbbz-apology backlash (Kat Blaque, Hasan pushback) — conceding critics' point, then reframing the "no spine" charge: his takes bend when the cost lands on others, and held firm against Billy Mitchell, a litigant with a winning record
+- **Testimony:** Ludwig ("Charlie's YouTube is such a sick anomaly"), Rizzo (×2), Naroditsky
+- **Ending:** the unpayable Twitch bits minimum as a chosen ritual, closing on his own catchphrase: "The greatest ritual of all time."
+
+Verification: blog-lint **0 fail** (1 expected warn: FAQ enrich is a downstream stage), contrast pairs **0/0**, same-type similarity **clear**, meta_title 53 chars with head term, description 159 chars, answer block 52 words. Four transcripts were fetched and archived under `youtube-transcripts/penguinz0/` for future passes.
+
+Per non-interactive rules I did not grade (that's `/grade_blog`) and did not promote to `ready` — human review comes first. Next steps when you're ready: `/grade_blog Penguinz0`, then production via `blog_content_production_people`.

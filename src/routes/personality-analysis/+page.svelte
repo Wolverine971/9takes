@@ -223,6 +223,7 @@
 							? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 							: null}
 						imageAlt={displayName}
+						imageTreatment="personality"
 						stripe={`var(--type-${typeNum}-color)`}
 						featured={true}
 						recency={getRecencyLabel(person.lastmod, person.date) ?? ''}
@@ -261,6 +262,7 @@
 							? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 							: null}
 						imageAlt={displayName}
+						imageTreatment="personality"
 						stripe={`var(--type-${typeNum}-color)`}
 						recency={getRecencyLabel(person.lastmod, person.date) ?? ''}
 						stubLabel="[PORTRAIT]"
@@ -329,6 +331,7 @@
 									? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 									: null}
 								imageAlt={displayName}
+								imageTreatment="personality"
 								stripe={`var(--type-${t.num}-color)`}
 								recency={getRecencyLabel(person.lastmod, person.date) ?? ''}
 								stubLabel="[PORTRAIT]"

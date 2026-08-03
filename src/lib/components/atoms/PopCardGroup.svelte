@@ -4,6 +4,10 @@
 	 * Movie-poster style group card showing 2-6 people side by side,
 	 * overlapping from left to right. Based on PopCard's visual language.
 	 *
+	 * Contained-violet exception: this is an authored multi-person editorial
+	 * composite, not an individual personality portrait module. Its group-level
+	 * treatment remains unchanged until composites are calibrated together.
+	 *
 	 * Usage:
 	 *   <PopCardGroup people={[
 	 *     { image: '/types/5s/Elon-Musk.webp', text: 'Elon Musk', enneagramType: 5 },

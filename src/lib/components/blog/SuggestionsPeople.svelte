@@ -90,16 +90,16 @@
 				<div class="suggestion-section" aria-labelledby="niche-suggestions">
 					<h3 id="niche-suggestions" class="section-title">More {capitalizedPluralNiche}</h3>
 					<ul class="people-grid" role="list">
-						{#each slicePosts(suggestions.niche.posts) as post}
+						{#each slicePosts(suggestions.niche.posts) as post (post.slug)}
 							{@const personName = formatPersonalityDisplayName(post.slug)}
 							{@const imagePath = buildPersonalityImagePath(post.enneagram, post.slug, 'thumbnail')}
 							<li class="grid-item">
 								<a href={buildPersonalityAnalysisPath(post.slug)} class="person-link">
-									<div class="image-container">
+									<div class="image-container personality-portrait-well">
 										<img
 											loading="lazy"
 											fetchpriority="low"
-											class="grid-img"
+											class="grid-img personality-portrait-image"
 											height="218"
 											width="218"
 											title="Personality analysis of {personName}"
@@ -122,16 +122,16 @@
 						Other Enneagram {suggestions.sameEnneagram.type}s
 					</h3>
 					<ul class="people-grid" role="list">
-						{#each slicePosts(suggestions.sameEnneagram.posts) as post}
+						{#each slicePosts(suggestions.sameEnneagram.posts) as post (post.slug)}
 							{@const personName = formatPersonalityDisplayName(post.slug)}
 							{@const imagePath = buildPersonalityImagePath(post.enneagram, post.slug, 'thumbnail')}
 							<li class="grid-item">
 								<a href={buildPersonalityAnalysisPath(post.slug)} class="person-link">
-									<div class="image-container">
+									<div class="image-container personality-portrait-well">
 										<img
 											loading="lazy"
 											fetchpriority="low"
-											class="grid-img"
+											class="grid-img personality-portrait-image"
 											height="218"
 											width="218"
 											title="Personality analysis of {personName}"
@@ -210,7 +210,7 @@
 			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 			.grid-img {
-				filter: brightness(0.8);
+				filter: var(--personality-portrait-filter) brightness(0.8);
 			}
 
 			.name-overlay {
@@ -238,6 +238,8 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
 		transition: filter 0.3s ease;
 	}
 

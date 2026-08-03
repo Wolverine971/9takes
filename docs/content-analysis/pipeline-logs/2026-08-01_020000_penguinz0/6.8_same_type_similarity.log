@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — penguinz0 (Type 9)
+/Users/djwayne/9takes/src/blog/people/drafts/Penguinz0.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 23
+Comparison set (last 8 other Type-9 drafts by date):
+  - Ibai-Llanos  (2026-07-30, 41 units)
+  - Jason-Sudeikis  (2026-07-30, 24 units)
+  - britney-spears  (2026-07-29, 35 units)
+  - Mira-Murati  (2026-07-28, 32 units)
+  - caseoh  (2026-07-26, 34 units)
+  - seth-rogen  (2026-07-04, 19 units)
+  - Zac-Efron  (2026-07-02, 21 units)
+  - Brendan-Fraser  (2026-06-29, 23 units)
+
+Noise floor over 5267 unit pairs:  median=0  p90=0  p99=0.005  max=0.093
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.093 ####                 caseoh
+  0.070 ###                  Mira-Murati
+  0.034 #                    britney-spears
+  0.030 #                    Ibai-Llanos
+  0.027 #                    Zac-Efron
+  0.018 #                    seth-rogen
+  0.013 #                    Jason-Sudeikis
+  0.007                      Brendan-Fraser
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.093   penguinz0  <->  caseoh
+   TARGET [diagnosis] The Enneagram Type 9 runs on equilibrium
+   OTHER  [diagnosis] The Enneagram Type 9 moves through the world protecting exactly this
+
+score 0.070   penguinz0  <->  Mira-Murati
+   TARGET [diagnosis] because being the center of a movement is louder than being at peace.
+   OTHER  [diagnosis] Founder culture selects for people who grab the center of gravity.
+
+score 0.067   penguinz0  <->  Mira-Murati
+   TARGET [counter-typing] but Ones crusade from standards and carry audible self-criticism
+   OTHER  [counter-typing] But Ones assert their standards and criticize
+
+score 0.056   penguinz0  <->  caseoh
+   TARGET [diagnosis] His summary of the biggest voluntary earnings reveal in streaming history is the quote this profile opened on
+   OTHER  [diagnosis] he was already one of the biggest streamers alive
+
+score 0.053   penguinz0  <->  caseoh
+   TARGET [counter-typing] and planting himself in the middle of every conflict on the internet
+   OTHER  [counter-typing] The loudest genre on the internet almost never produces a Peacemaker at the top.
+
+score 0.034   penguinz0  <->  britney-spears
+   TARGET [counter-typing] yet his baseline is trust and unflappability
+   OTHER  [diagnosis] Yet the early pattern is unusually trusting and adaptive
+
+score 0.030   penguinz0  <->  Ibai-Llanos
+   TARGET [diagnosis] the refusal landed in the same follow-up Dexerto and Tubefilter were covering in October 2025
+   OTHER  [diagnosis] in the same March 2022 Infobae roundup
+
+score 0.028   penguinz0  <->  Mira-Murati
+   TARGET [counter-typing] the exact place a Five will not stand.
+   OTHER  [counter-typing] the person who withdraws to keep their mind free is a Five.
+
+score 0.027   penguinz0  <->  Zac-Efron
+   TARGET [diagnosis] The rest of the diagnosis is everywhere once you look.
+   OTHER  [diagnosis] Efron hands you the diagnosis without meaning to.
+
+score 0.027   penguinz0  <->  britney-spears
+   TARGET [counter-typing] and the vigilance appears only under stress
+   OTHER  [diagnosis] Type 9 moves toward the anxious vigilance of Type 6 under stress and toward the self-directed agency of Type 3 in growth.
+
+score 0.027   penguinz0  <->  Zac-Efron
+   TARGET [diagnosis] "I'm not trying to make a rallying cry here.
+   OTHER  [counter-typing] and spends his adult life trying to find it again.
+
+score 0.026   penguinz0  <->  caseoh
+   TARGET [diagnosis] the refusal landed in the same follow-up Dexerto and Tubefilter were covering in October 2025
+   OTHER  [diagnosis] "He was really chill." And in the same hour
+
+------------------------------------------------------------------------------
+Top pair scores 0.093 vs median 0  (~∞x the noise floor).

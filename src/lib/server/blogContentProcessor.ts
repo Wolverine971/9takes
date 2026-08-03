@@ -23,6 +23,10 @@ interface ProcessedContent {
 	headings: TocHeading[];
 }
 
+type ProcessBlogContentOptions = {
+	popCardImageTreatment?: 'default' | 'personality';
+};
+
 type PlaceholderFallbackInput = {
 	id: string;
 	type: string;
@@ -57,7 +61,10 @@ const COMPONENT_TAGS = [
  * Process blog markdown content into HTML with component placeholders
  * This function runs server-side only to keep marked out of client bundle
  */
-export async function processBlogContent(content: string): Promise<ProcessedContent> {
+export async function processBlogContent(
+	content: string,
+	options: ProcessBlogContentOptions = {}
+): Promise<ProcessedContent> {
 	if (!content) {
 		return { content: '', placeholders: [], headings: [] };
 	}
@@ -93,6 +100,9 @@ export async function processBlogContent(content: string): Promise<ProcessedCont
 		htmlContent = htmlContent.replace(regex, (_match, props, children = '') => {
 			const id = nextPlaceholderId(tag);
 			const propsObj = parseProps(props);
+			if (tag === 'PopCard' && !propsObj.imageTreatment && options.popCardImageTreatment) {
+				propsObj.imageTreatment = options.popCardImageTreatment;
+			}
 
 			// Add children content if any
 			if (children.trim()) {
@@ -273,11 +283,20 @@ function renderPopCardFallback(props: Record<string, any>): string {
 	const displayText = stringProp(props.displayText).trim();
 	const altText = stringProp(props.altText).trim() || displayText;
 	const subtext = stringProp(props.subtext).trim();
+	const personalityTreatment = props.imageTreatment === 'personality';
+	const figureClasses = [
+		'pop-card',
+		'pop-card--ssr',
+		personalityTreatment ? 'personality-portrait-well' : ''
+	]
+		.filter(Boolean)
+		.join(' ');
+	const imageClass = personalityTreatment ? ' class="personality-portrait-image"' : '';
 
 	if (!image && !displayText && !subtext) return '';
 
-	return `<figure class="pop-card pop-card--ssr">
-	${image ? `<img src="${escapeHtmlAttribute(image)}" alt="${escapeHtmlAttribute(altText)}" loading="lazy" decoding="async" />` : ''}
+	return `<figure class="${figureClasses}">
+	${image ? `<img${imageClass} src="${escapeHtmlAttribute(image)}" alt="${escapeHtmlAttribute(altText)}" loading="lazy" decoding="async" />` : ''}
 	${displayText || subtext ? `<figcaption>${displayText ? `<strong>${escapeHtml(displayText)}</strong>` : ''}${subtext ? `<span>${escapeHtml(subtext)}</span>` : ''}</figcaption>` : ''}
 </figure>`;
 }

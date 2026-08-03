@@ -199,7 +199,7 @@
 		margin-bottom: 20px;
 		padding: 10px;
 		background-color: var(--lamp-glow);
-		border: var(--classic-border);
+		border: 1px solid var(--stone-edge);
 		box-sizing: border-box;
 		border-radius: 0.25rem;
 	}

@@ -28,7 +28,7 @@ path: src/blog/enneagram/drafts/enneagram-personality-test.md
 <p class="text-center text-lg italic mb-6">One situation, <strong>9 ways to see it</strong>. Which lens is yours?</p>
 
 <p style="text-align:center;display:flex;justify-content:center;">
-  <Enneagram height={"10rem"} fill={"#5b21b6"} />
+  <Enneagram height={"10rem"} fill={"var(--lamp-glow)"} />
 </p>
 
 <a href="/take-the-test" class="block w-max mx-auto mb-10 px-6 py-3 bg-primary-600 text-white font-semibold rounded-2xl shadow hover:bg-primary-700 transition">Start 5‑min test →</a>

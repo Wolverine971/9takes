@@ -38,11 +38,28 @@ NOW_ISO="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 DRY_RUN=0
 [[ "${1:-}" == "--dry-run" ]] && DRY_RUN=1
 
+# shellcheck source=scripts/lib/person-draft-path.sh
+source "$REPO/scripts/lib/person-draft-path.sh"
+
 mkdir -p "$LOG_DIR"
 
 log() {
   local level="$1"; shift
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] [$level] $*" | tee -a "$LOG"
+}
+
+RESOLVED_DRAFT=""
+set_resolved_draft() {
+  local person="$1"
+  local rc
+  RESOLVED_DRAFT="$(resolve_person_draft_path "$DRAFTS" "$person")"
+  rc=$?
+  if [[ "$rc" -eq 2 ]]; then
+    log ERROR "Ambiguous draft resolution for '$person'; refusing to guess"
+    notify "9takes nightly blog: ambiguous draft files for $person; manual cleanup needed."
+    exit 1
+  fi
+  [[ "$rc" -eq 0 ]]
 }
 
 # Send a Telegram message directly via the Bot API. Never fails the run.
@@ -104,7 +121,7 @@ if [[ -n "$in_progress_name" ]]; then
     exit 0
   fi
   # No live pipeline. Draft present → finished but never reconciled; absent → dead launch.
-  if [[ -f "$DRAFTS/$in_progress_name.md" ]]; then
+  if set_resolved_draft "$in_progress_name"; then
     log WARN "RECONCILING: $in_progress_name has a draft but was never moved to completed (wrapper likely killed post-pipeline). Moving to completed with needsReview."
     [[ "$DRY_RUN" -eq 1 ]] || queue_update \
       --arg now "$NOW_ISO" \
@@ -139,14 +156,26 @@ fi
 
 # ── Selection: forceNext, else highest priority without an existing draft ──
 person=""
+resume_pipeline=0
 force_next="$(jq -r '.forceNext // empty' "$OVERRIDE")"
 if [[ -n "$force_next" ]]; then
   person="$force_next"
+  if set_resolved_draft "$person"; then
+    resume_pipeline=1
+    log INFO "Forced selection resolved existing draft $(basename "$RESOLVED_DRAFT"); pipeline will resume after create"
+  fi
   log INFO "Using forced selection: $person"
   [[ "$DRY_RUN" -eq 1 ]] || override_update '.forceNext = null'
 else
   while IFS= read -r candidate; do
-    if [[ -f "$DRAFTS/$candidate.md" ]]; then
+    if set_resolved_draft "$candidate"; then
+      candidate_retry_count="$(jq -r --arg name "$candidate" '.queue[] | select(.name == $name) | .retryCount // 0' "$QUEUE")"
+      if (( candidate_retry_count > 0 )); then
+        person="$candidate"
+        resume_pipeline=1
+        log WARN "RECOVERY: $candidate retry $candidate_retry_count/3 has existing canonical draft $(basename "$RESOLVED_DRAFT"); resuming after create"
+        break
+      fi
       log INFO "SKIPPED: $candidate — draft already exists"
       [[ "$DRY_RUN" -eq 1 ]] || queue_update --arg name "$candidate" --arg now "$NOW_ISO" \
         '.skipped = ([(.queue[] | select(.name == $name)) + {skippedAt: $now, skipReason: "draft already exists"}] + .skipped)
@@ -170,7 +199,11 @@ etype="$(jq -r --arg n "$person" '.queue[] | select(.name == $n) | .type // "?"'
 log INFO "SELECTED: $person (Type $etype)"
 
 if [[ "$DRY_RUN" -eq 1 ]]; then
-  log INFO "DRY RUN complete — would run pipeline for $person"
+  if [[ "$resume_pipeline" -eq 1 ]]; then
+    log INFO "DRY RUN complete — would resume pipeline for $person after create"
+  else
+    log INFO "DRY RUN complete — would run pipeline for $person"
+  fi
   log INFO "Nightly blog cron finished"
   exit 0
 fi
@@ -188,7 +221,11 @@ queue_update --arg name "$person" --arg now "$NOW_ISO" \
 started_ts="$(date +%s)"
 log INFO "Launching pipeline for $person"
 set -m
-nohup "$REPO/scripts/run-blog-pipeline.sh" "$person" >> "$LOG" 2>&1 &
+pipeline_args=("$person")
+if [[ "$resume_pipeline" -eq 1 ]]; then
+  pipeline_args+=("--resume")
+fi
+nohup "$REPO/scripts/run-blog-pipeline.sh" "${pipeline_args[@]}" >> "$LOG" 2>&1 &
 PIPELINE_PID=$!
 set +m
 wait "$PIPELINE_PID"
@@ -199,7 +236,11 @@ log INFO "Pipeline exited code=$pipeline_exit after ${duration_min} min"
 # ── Verify + reconcile queue ────────────────────────────────────────────────
 NOW_ISO="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
 draft="$DRAFTS/$person.md"
+if set_resolved_draft "$person"; then
+  draft="$RESOLVED_DRAFT"
+fi
 if [[ -f "$draft" ]]; then
+  draft_subject="$(basename "$draft" .md)"
   overall="$(awk '/^---$/{fm++;next} fm==1 && /^content_quality:/{cq=1;next} fm==1 && cq && $0!~/^[[:space:]]/{cq=0} fm==1 && cq && $1=="overall:"{gsub(/[^0-9.]/,"",$2); print $2; exit}' "$draft")"
   letter="$(awk '/^---$/{fm++;next} fm==1 && /^content_quality:/{cq=1;next} fm==1 && cq && $0!~/^[[:space:]]/{cq=0} fm==1 && cq && $1=="letter:"{gsub(/['"'"']/,"",$2); print $2; exit}' "$draft")"
   disc="$(awk '/^---$/{fm++;next} fm==1 && /^content_quality:/{cq=1;next} fm==1 && cq && $0!~/^[[:space:]]/{cq=0} fm==1 && cq && $1=="discoverability:"{gsub(/[^0-9.]/,"",$2); print $2; exit}' "$draft")"
@@ -208,7 +249,7 @@ if [[ -f "$draft" ]]; then
   if [[ -z "$overall" ]] || awk -v o="${overall:-0}" 'BEGIN { exit !(o < 8.5) }'; then
     needs_review="true"
   fi
-  publish_check_json="$(node "$REPO/scripts/personBlogParser.js" "$person" --publish-check --json 2>> "$LOG")"
+  publish_check_json="$(node "$REPO/scripts/personBlogParser.js" "$draft_subject" --publish-check --json 2>> "$LOG")"
   publish_check_exit=$?
   if jq -e . >/dev/null 2>&1 <<< "$publish_check_json"; then
     publish_ready="$(jq -r '.eligible' <<< "$publish_check_json")"

@@ -161,12 +161,12 @@
 
 <style lang="scss">
 	.crisis-notice {
-		background-color: #fee;
-		border: 2px solid #f66;
+		background-color: var(--error-light);
+		border: 2px solid var(--error);
 		padding: 1rem;
 		margin: 1rem auto 2rem;
 		border-radius: 1rem;
-		color: #d00;
+		color: var(--error-text);
 		text-align: center;
 		max-width: 800px;
 
@@ -180,8 +180,8 @@
 	}
 
 	.disclaimer-box {
-		background-color: var(--color-bg-secondary);
-		border-left: 4px solid var(--color-warning, #ffa500);
+		background-color: var(--night-deep);
+		border-left: 4px solid var(--warning);
 		padding: 1rem;
 		margin: 1.5rem auto;
 		max-width: 800px;
@@ -194,7 +194,7 @@
 		}
 
 		strong {
-			color: var(--color-warning, #ffa500);
+			color: var(--warning-text);
 		}
 	}
 
@@ -207,7 +207,7 @@
 	.section-divider {
 		margin: 5rem 0;
 		border: 0;
-		border-top: 1px solid var(--color-border, rgba(0, 0, 0, 0.1));
+		border-top: 1px solid var(--stone-edge);
 	}
 
 	.resources-section {
@@ -228,7 +228,7 @@
 			margin: 0 auto;
 
 			.resource-card {
-				background: var(--color-bg-secondary);
+				background: var(--night-deep);
 				padding: 1.5rem;
 				border-radius: 1rem;
 				text-align: center;
@@ -254,7 +254,7 @@
 				}
 
 				a {
-					color: var(--color-primary);
+					color: var(--lamp-glow);
 					text-decoration: none;
 					font-weight: 500;
 

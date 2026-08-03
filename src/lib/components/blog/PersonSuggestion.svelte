@@ -14,7 +14,7 @@
 <div class="suggestion-section" aria-labelledby={sectionId}>
 	<h3 id={sectionId} class="section-title">{title}</h3>
 	<ul class="people-grid" role="list">
-		{#each posts as { slug, enneagram }}
+		{#each posts as { slug, enneagram } (slug)}
 			{@const personName = formatPersonalityDisplayName(slug)}
 			{@const imagePath = buildPersonalityImagePath(enneagram, slug, 'thumbnail')}
 			<li class="grid-item">
@@ -24,11 +24,11 @@
 					aria-label="Read personality analysis of {personName}"
 				>
 					{#if enneagram && imagePath}
-						<div class="image-container">
+						<div class="image-container personality-portrait-well">
 							<img
 								loading="lazy"
 								fetchpriority="low"
-								class="grid-img"
+								class="grid-img personality-portrait-image"
 								height="218"
 								width="218"
 								title="Personality analysis of {personName}"
@@ -87,7 +87,7 @@
 			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 			.grid-img {
-				filter: brightness(0.8);
+				filter: var(--personality-portrait-filter) brightness(0.8);
 			}
 
 			.name-overlay {
@@ -115,6 +115,8 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+		filter: var(--personality-portrait-filter);
+		mix-blend-mode: normal;
 		transition: filter 0.3s ease;
 	}
 

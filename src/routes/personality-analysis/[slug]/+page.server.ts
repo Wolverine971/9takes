@@ -127,7 +127,7 @@ export const load: PageServerLoad = async (event) => {
 	const enneagramNum = parseEnneagramNumber(personData.enneagram);
 	const [userHasAnswered, { content, placeholders, headings }, relatedPosts] = await Promise.all([
 		hasCommentedPromise,
-		processBlogContent(personData.content ?? ''),
+		processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
 		buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum)
 	]);
 	let comments: PublicBlogCommentRow[] = [];

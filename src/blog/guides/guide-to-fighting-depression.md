@@ -812,7 +812,7 @@ No. It helps you understand your patterns. Therapy treats the condition. The two
 Read your type's inner dialogue above. If something resonates, that's your entry point. Pick one small action from there.
 
 <style lang="scss">
-/* Solo Leveling Dark Theme - Depression Guide */
+/* Streetlamp V5 — theme-aware editorial panels and semantic status color. */
 
 .depression-guide {
   max-width: 1000px;
@@ -824,23 +824,23 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 .info-banner {
   display: flex;
   gap: 1rem;
-  background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(124, 58, 237, 0.1) 100%);
-  border: 1px solid rgba(6, 182, 212, 0.3);
-  border-left: 4px solid #22d3ee;
+  background: color-mix(in srgb, var(--data-teal) 10%, var(--stone-warm));
+  border: 1px solid color-mix(in srgb, var(--data-teal) 34%, var(--stone-edge));
+  border-left: 4px solid var(--data-teal);
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 2rem;
 
   &__icon {
     flex-shrink: 0;
-    color: #22d3ee;
+    color: var(--data-cyan);
   }
 
   &__content {
     h3 {
       font-size: 1.1rem;
       font-weight: 600;
-      color: #f1f5f9;
+      color: var(--ink-bright);
       margin: 0 0 0.75rem;
     }
   }
@@ -848,7 +848,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   &__text {
     p {
       font-size: 0.9rem;
-      color: #94a3b8;
+      color: var(--ink-mid);
       line-height: 1.6;
       margin: 0 0 0.5rem;
 
@@ -858,11 +858,11 @@ Read your type's inner dialogue above. If something resonates, that's your entry
     }
 
     a {
-      color: #22d3ee;
+      color: var(--data-cyan);
       text-decoration: underline;
 
       &:hover {
-        color: #67e8f9;
+        color: var(--data-teal);
       }
     }
   }
@@ -871,24 +871,24 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 /* Content Section */
 .content-section {
   h2, h3, h4 {
-    color: #f1f5f9;
+    color: var(--ink-bright);
   }
 
   p {
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.7;
     margin-bottom: 1rem;
   }
 
   em {
-    color: #a78bfa;
+    color: var(--lamp-glow);
   }
 }
 
 /* Intro Card */
 .intro-card {
-  background: #16161e;
-  border: 1px solid rgba(100, 116, 139, 0.15);
+  background: var(--stone-warm);
+  border: 1px solid var(--stone-edge);
   border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
@@ -896,13 +896,13 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h2 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #f1f5f9;
+    color: var(--ink-bright);
     margin: 0 0 1.5rem;
   }
 
   p {
     font-size: 1rem;
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.7;
     margin-bottom: 1rem;
   }
@@ -910,7 +910,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Pattern Flow */
 .pattern-flow {
-  background: rgba(26, 26, 46, 0.6);
+  background: var(--stone-mid);
   border-radius: 12px;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -918,7 +918,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h3 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #e2e8f0;
+    color: var(--ink-bright);
     margin: 0 0 1rem;
   }
 }
@@ -941,45 +941,45 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   min-width: 80px;
 
   &--trigger {
-    background: rgba(239, 68, 68, 0.2);
-    color: #f87171;
-    border: 1px solid rgba(239, 68, 68, 0.3);
+    background: var(--error-light);
+    color: var(--error-text);
+    border: 1px solid color-mix(in srgb, var(--error) 36%, transparent);
   }
 
   &--overwhelm {
-    background: rgba(245, 158, 11, 0.2);
-    color: #fbbf24;
-    border: 1px solid rgba(245, 158, 11, 0.3);
+    background: var(--warning-light);
+    color: var(--warning-text);
+    border: 1px solid color-mix(in srgb, var(--warning) 36%, transparent);
   }
 
   &--paralysis {
-    background: rgba(100, 116, 139, 0.2);
-    color: #94a3b8;
-    border: 1px solid rgba(100, 116, 139, 0.3);
+    background: var(--stone-mid);
+    color: var(--ink-mid);
+    border: 1px solid var(--stone-edge);
   }
 
   &--criticism {
-    background: rgba(239, 68, 68, 0.25);
-    color: #fca5a5;
-    border: 1px solid rgba(239, 68, 68, 0.4);
+    background: var(--error-light);
+    color: var(--error-text);
+    border: 1px solid color-mix(in srgb, var(--error) 42%, transparent);
   }
 
   &--isolation {
-    background: rgba(100, 116, 139, 0.3);
-    color: #cbd5e1;
-    border: 1px solid rgba(100, 116, 139, 0.4);
+    background: var(--stone-mid);
+    color: var(--ink-bright);
+    border: 1px solid var(--stone-edge);
   }
 }
 
 .pattern-arrow {
-  color: #64748b;
+  color: var(--ink-dim);
   font-weight: bold;
 }
 
 /* Warning Card */
 .warning-card {
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(245, 158, 11, 0.05) 100%);
-  border: 1px solid rgba(245, 158, 11, 0.3);
+  background: var(--warning-light);
+  border: 1px solid color-mix(in srgb, var(--warning) 36%, transparent);
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -987,12 +987,12 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h2 {
     font-size: 1.25rem;
     font-weight: 600;
-    color: #fbbf24;
+    color: var(--warning-text);
     margin: 0 0 0.75rem;
   }
 
   > p {
-    color: #fcd34d;
+    color: var(--warning-text);
     margin-bottom: 1rem;
   }
 }
@@ -1004,19 +1004,19 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 }
 
 .advice-item {
-  background: rgba(26, 26, 46, 0.8);
+  background: var(--stone-mid);
   border-radius: 8px;
   padding: 1rem;
 
   &__title {
     font-weight: 600;
-    color: #e2e8f0;
+    color: var(--ink-bright);
     margin-bottom: 0.5rem;
   }
 
   &__text {
     font-size: 0.85rem;
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.5;
   }
 }
@@ -1029,13 +1029,13 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h2 {
     font-size: 1.75rem;
     font-weight: 600;
-    color: #f1f5f9;
+    color: var(--ink-bright);
     margin: 0 0 0.75rem;
   }
 
   p {
     font-size: 1rem;
-    color: #94a3b8;
+    color: var(--ink-mid);
     max-width: 600px;
     margin: 0 auto;
   }
@@ -1043,17 +1043,17 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Type Cards */
 .type-card {
-  background: #16161e;
-  border: 1px solid rgba(100, 116, 139, 0.15);
-  border-left: 4px solid #7c3aed;
+  background: var(--stone-warm);
+  border: 1px solid var(--stone-edge);
+  border-left: 4px solid var(--lamp-glow);
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
   transition: all 0.2s ease;
 
   &:hover {
-    border-color: rgba(124, 58, 237, 0.4);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    background: var(--stone-mid);
+    border-color: color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
   }
 
   &__header {
@@ -1065,7 +1065,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
     h3 {
       font-size: 1.25rem;
       font-weight: 600;
-      color: #f1f5f9;
+      color: var(--ink-bright);
       margin: 0;
     }
   }
@@ -1083,18 +1083,18 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   justify-content: center;
   min-width: 4.5rem;
   padding: 0.5rem 1rem;
-  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
-  color: white;
+  background: var(--lamp-soft);
+  color: var(--lamp-glow);
+  border: 1px solid color-mix(in srgb, var(--lamp-glow) 36%, transparent);
   border-radius: 9999px;
   font-weight: 700;
   font-size: 0.9rem;
-  box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
 }
 
 .type-column {
   p {
     font-size: 0.9rem;
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.6;
     margin-bottom: 1rem;
   }
@@ -1115,28 +1115,26 @@ Read your type's inner dialogue above. If something resonates, that's your entry
     }
 
     &--problem::before {
-      background: #ef4444;
-      box-shadow: 0 0 8px rgba(239, 68, 68, 0.5);
+      background: var(--error);
     }
 
     &--solution::before {
-      background: #22c55e;
-      box-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
+      background: var(--success);
     }
   }
 }
 
 /* Inner Dialogue Box */
 .inner-dialogue {
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid rgba(239, 68, 68, 0.2);
+  background: var(--error-light);
+  border: 1px solid color-mix(in srgb, var(--error) 32%, transparent);
   border-radius: 8px;
   padding: 1rem;
 
   h5 {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #f87171;
+    color: var(--error-text);
     margin: 0 0 0.75rem;
   }
 
@@ -1148,7 +1146,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
   li {
     font-size: 0.85rem;
-    color: #fca5a5;
+    color: var(--error-text);
     line-height: 1.5;
     margin-bottom: 0.375rem;
     padding-left: 1rem;
@@ -1158,15 +1156,15 @@ Read your type's inner dialogue above. If something resonates, that's your entry
       content: '"';
       position: absolute;
       left: 0;
-      color: #f87171;
+      color: var(--error-text);
     }
   }
 }
 
 /* Reframe Box */
 .reframe-box {
-  background: rgba(34, 197, 94, 0.1);
-  border: 1px solid rgba(34, 197, 94, 0.2);
+  background: var(--success-light);
+  border: 1px solid color-mix(in srgb, var(--success) 32%, transparent);
   border-radius: 8px;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -1174,7 +1172,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h5 {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #4ade80;
+    color: var(--success-text);
     margin: 0 0 0.75rem;
   }
 
@@ -1186,7 +1184,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
   li {
     font-size: 0.85rem;
-    color: #86efac;
+    color: var(--success-text);
     line-height: 1.5;
     margin-bottom: 0.375rem;
   }
@@ -1194,15 +1192,15 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Action Box */
 .action-box {
-  background: rgba(124, 58, 237, 0.1);
-  border: 1px solid rgba(124, 58, 237, 0.2);
+  background: var(--lamp-soft);
+  border: 1px solid color-mix(in srgb, var(--lamp-glow) 32%, transparent);
   border-radius: 8px;
   padding: 1rem;
 
   h5 {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #a78bfa;
+    color: var(--lamp-glow);
     margin: 0 0 0.75rem;
   }
 
@@ -1214,7 +1212,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
   li {
     font-size: 0.85rem;
-    color: #c4b5fd;
+    color: var(--ink-bright);
     line-height: 1.5;
     margin-bottom: 0.375rem;
   }
@@ -1222,8 +1220,8 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Help Section */
 .help-section {
-  background: linear-gradient(135deg, rgba(34, 197, 94, 0.08) 0%, rgba(124, 58, 237, 0.08) 100%);
-  border: 1px solid rgba(100, 116, 139, 0.15);
+  background: var(--stone-warm);
+  border: 1px solid var(--stone-edge);
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem 0;
@@ -1231,7 +1229,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h2 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #f1f5f9;
+    color: var(--ink-bright);
     margin: 0 0 1.5rem;
   }
 }
@@ -1249,11 +1247,11 @@ Read your type's inner dialogue above. If something resonates, that's your entry
     margin: 0 0 1rem;
 
     &--support {
-      color: #4ade80;
+      color: var(--success-text);
     }
 
     &--self {
-      color: #a78bfa;
+      color: var(--lamp-glow);
     }
   }
 }
@@ -1265,20 +1263,20 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 }
 
 .help-item {
-  background: rgba(26, 26, 46, 0.8);
+  background: var(--stone-mid);
   border-radius: 8px;
   padding: 1rem;
 
   h4 {
     font-size: 0.95rem;
     font-weight: 600;
-    color: #e2e8f0;
+    color: var(--ink-bright);
     margin: 0 0 0.375rem;
   }
 
   p {
     font-size: 0.85rem;
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.5;
     margin: 0;
   }
@@ -1286,8 +1284,8 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Experiment Section */
 .experiment-section {
-  background: #16161e;
-  border: 1px solid rgba(100, 116, 139, 0.15);
+  background: var(--stone-warm);
+  border: 1px solid var(--stone-edge);
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem 0;
@@ -1296,13 +1294,13 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h2 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #f1f5f9;
+    color: var(--ink-bright);
     margin: 0 0 1rem;
   }
 
   &__intro, &__text {
     font-size: 1rem;
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.7;
     max-width: 700px;
     margin: 0 auto 1.5rem;
@@ -1310,8 +1308,8 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 }
 
 .experiment-box {
-  background: rgba(124, 58, 237, 0.1);
-  border: 1px solid rgba(124, 58, 237, 0.25);
+  background: var(--lamp-soft);
+  border: 1px solid color-mix(in srgb, var(--lamp-glow) 36%, transparent);
   border-radius: 8px;
   padding: 1.5rem;
   margin: 1.5rem auto;
@@ -1320,20 +1318,20 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h3 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #a78bfa;
+    color: var(--lamp-glow);
     margin: 0 0 0.75rem;
   }
 
   p {
     font-size: 0.95rem;
-    color: #c4b5fd;
+    color: var(--ink-bright);
     line-height: 1.6;
     margin: 0;
   }
 }
 
 .experiment-quote {
-  background: rgba(26, 26, 46, 0.6);
+  background: var(--stone-mid);
   border-radius: 8px;
   padding: 1.5rem;
   max-width: 500px;
@@ -1342,7 +1340,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   p {
     font-size: 1rem;
     font-weight: 500;
-    color: #e2e8f0;
+    color: var(--ink-bright);
     margin: 0;
   }
 }
@@ -1350,9 +1348,9 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 /* Type Scenarios */
 .type-scenario {
   font-style: italic;
-  color: #cbd5e1;
-  background: rgba(100, 116, 139, 0.08);
-  border-left: 3px solid rgba(167, 139, 250, 0.4);
+  color: var(--ink-mid);
+  background: var(--stone-mid);
+  border-left: 3px solid color-mix(in srgb, var(--lamp-glow) 42%, var(--stone-edge));
   padding: 0.75rem 1rem;
   margin: 0.75rem 0 1rem;
   border-radius: 0 8px 8px 0;
@@ -1362,8 +1360,8 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Body Section */
 .body-section {
-  background: #16161e;
-  border: 1px solid rgba(100, 116, 139, 0.15);
+  background: var(--stone-warm);
+  border: 1px solid var(--stone-edge);
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem 0;
@@ -1371,12 +1369,12 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h2 {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #f1f5f9;
+    color: var(--ink-bright);
     margin: 0 0 1rem;
   }
 
   > p {
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.7;
     margin-bottom: 1.5rem;
   }
@@ -1390,20 +1388,20 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 }
 
 .body-item {
-  background: rgba(26, 26, 46, 0.6);
+  background: var(--stone-mid);
   border-radius: 8px;
   padding: 1.25rem;
 
   h4 {
     font-size: 0.95rem;
     font-weight: 600;
-    color: #e2e8f0;
+    color: var(--ink-bright);
     margin: 0 0 0.5rem;
   }
 
   p {
     font-size: 0.875rem;
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.6;
     margin: 0;
   }
@@ -1411,8 +1409,8 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Escalation Section */
 .escalation-section {
-  background: linear-gradient(135deg, rgba(239, 68, 68, 0.08) 0%, rgba(124, 58, 237, 0.08) 100%);
-  border: 1px solid rgba(239, 68, 68, 0.25);
+  background: color-mix(in srgb, var(--error) 8%, var(--stone-warm));
+  border: 1px solid color-mix(in srgb, var(--error) 34%, transparent);
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem 0;
@@ -1420,12 +1418,12 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h2 {
     font-size: 1.3rem;
     font-weight: 600;
-    color: #f1f5f9;
+    color: var(--ink-bright);
     margin: 0 0 1rem;
   }
 
   > p {
-    color: #94a3b8;
+    color: var(--ink-mid);
     line-height: 1.7;
     margin-bottom: 1rem;
   }
@@ -1440,7 +1438,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 0.75rem;
-    color: #cbd5e1;
+    color: var(--ink-mid);
     font-size: 0.95rem;
     line-height: 1.5;
 
@@ -1448,19 +1446,19 @@ Read your type's inner dialogue above. If something resonates, that's your entry
       content: "→";
       position: absolute;
       left: 0;
-      color: #ef4444;
+      color: var(--error);
     }
   }
 }
 
 .crisis-box {
-  background: rgba(239, 68, 68, 0.1);
-  border: 1px solid rgba(239, 68, 68, 0.3);
+  background: var(--error-light);
+  border: 1px solid color-mix(in srgb, var(--error) 36%, transparent);
   border-radius: 8px;
   padding: 1rem 1.25rem;
 
   p {
-    color: #e2e8f0;
+    color: var(--ink-bright);
     font-size: 0.9rem;
     margin: 0 0 0.5rem;
 
@@ -1472,8 +1470,8 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* Progress Box */
 .progress-box {
-  background: rgba(34, 211, 238, 0.06);
-  border: 1px solid rgba(34, 211, 238, 0.2);
+  background: color-mix(in srgb, var(--data-teal) 8%, var(--stone-warm));
+  border: 1px solid color-mix(in srgb, var(--data-teal) 34%, transparent);
   border-radius: 12px;
   padding: 1.5rem;
   margin: 1.5rem 0 0;
@@ -1481,12 +1479,12 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   h3 {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #22d3ee;
+    color: var(--data-cyan);
     margin: 0 0 0.75rem;
   }
 
   p {
-    color: #94a3b8;
+    color: var(--ink-mid);
     font-size: 0.95rem;
     line-height: 1.6;
     margin: 0 0 0.75rem;
@@ -1501,7 +1499,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
     padding-left: 1.25rem;
 
     li {
-      color: #cbd5e1;
+      color: var(--ink-mid);
       font-size: 0.9rem;
       line-height: 1.6;
       margin-bottom: 0.5rem;
@@ -1511,7 +1509,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%);
+  background: var(--lamp-glow);
   border-radius: 12px;
   padding: 2rem;
   margin: 2rem 0;
@@ -1519,7 +1517,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 
   p {
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--text-on-primary);
     margin: 0 0 1rem;
   }
 }
@@ -1527,8 +1525,9 @@ Read your type's inner dialogue above. If something resonates, that's your entry
 .cta-button {
   display: inline-block;
   padding: 0.875rem 2rem;
-  background: white;
-  color: #7c3aed;
+  background: var(--night-deep);
+  color: var(--marble-pure);
+  border: 1px solid color-mix(in srgb, var(--text-on-primary) 28%, transparent);
   font-weight: 600;
   font-size: 0.95rem;
   border-radius: 8px;
@@ -1536,8 +1535,7 @@ Read your type's inner dialogue above. If something resonates, that's your entry
   transition: all 0.2s ease;
 
   &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    background: var(--stone-mid);
   }
 }
 

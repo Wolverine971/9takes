@@ -5298,8 +5298,8 @@
 	}
 
 	.summary-filter.below.active {
-		border-color: color-mix(in srgb, var(--secondary) 70%, transparent);
-		background: color-mix(in srgb, var(--secondary) 16%, transparent);
+		border-color: color-mix(in srgb, var(--error) 70%, transparent);
+		background: color-mix(in srgb, var(--error) 16%, transparent);
 	}
 
 	.release-sort-controls {
@@ -5353,7 +5353,7 @@
 	}
 
 	.release-signal-panel.under {
-		border-color: color-mix(in srgb, var(--secondary) 38%, transparent);
+		border-color: color-mix(in srgb, var(--error) 38%, transparent);
 	}
 
 	.signal-header,
@@ -5552,8 +5552,8 @@
 	}
 
 	.band-below {
-		background: color-mix(in srgb, var(--secondary) 18%, transparent);
-		color: var(--secondary-light);
+		background: color-mix(in srgb, var(--error) 18%, transparent);
+		color: var(--error-text);
 	}
 
 	.band-collecting {
@@ -6004,7 +6004,7 @@
 
 	.window-tab.active {
 		border-color: var(--data-teal);
-		background: color-mix(in srgb, var(--secondary) 18%, transparent);
+		background: color-mix(in srgb, var(--data-teal) 18%, transparent);
 		color: var(--data-cyan);
 	}
 
