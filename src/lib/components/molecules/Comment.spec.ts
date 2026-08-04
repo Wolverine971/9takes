@@ -1,8 +1,30 @@
+// src/lib/components/molecules/Comment.spec.ts
 // @vitest-environment jsdom
 
-import { fireEvent, render } from '@testing-library/svelte';
-import { describe, expect, it } from 'vitest';
+import { fireEvent, render, waitFor } from '@testing-library/svelte';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { Comment as CommentType, QuestionPageData } from '$lib/types/questions';
+
+const { deserializeMock, captureCommentCreatedMock, getOrCreateVisitorIdMock, fetchMock } =
+	vi.hoisted(() => ({
+		deserializeMock: vi.fn(),
+		captureCommentCreatedMock: vi.fn(),
+		getOrCreateVisitorIdMock: vi.fn(),
+		fetchMock: vi.fn()
+	}));
+
+vi.mock('$app/forms', () => ({
+	deserialize: deserializeMock
+}));
+
+vi.mock('$lib/analytics/commentEvents', () => ({
+	captureCommentCreated: captureCommentCreatedMock
+}));
+
+vi.mock('$lib/analytics/visitorIdentity', () => ({
+	getOrCreateVisitorId: getOrCreateVisitorIdMock
+}));
+
 import Comment from './Comment.svelte';
 
 const comment: CommentType = {
@@ -46,6 +68,62 @@ const parentData: QuestionPageData = {
 };
 
 describe('Comment', () => {
+	beforeEach(() => {
+		vi.stubGlobal(
+			'IntersectionObserver',
+			class IntersectionObserverStub {
+				readonly root = null;
+				readonly rootMargin = '0px';
+				readonly thresholds = [0];
+				disconnect() {}
+				observe() {}
+				takeRecords(): IntersectionObserverEntry[] {
+					return [];
+				}
+				unobserve() {}
+			}
+		);
+		Element.prototype.animate = vi.fn((_, options) => {
+			let finishHandler: Animation['onfinish'] = null;
+			const animation = {
+				cancel: vi.fn(),
+				currentTime: typeof options === 'number' ? options : (options?.duration ?? 0),
+				effect: null,
+				playState: 'finished',
+				get onfinish() {
+					return finishHandler;
+				},
+				set onfinish(handler: Animation['onfinish']) {
+					finishHandler = handler;
+					queueMicrotask(() =>
+						handler?.call(
+							animation as unknown as Animation,
+							new Event('finish') as AnimationPlaybackEvent
+						)
+					);
+				}
+			};
+
+			return animation as unknown as Animation;
+		});
+		window.history.replaceState({}, '', '/questions/what-keeps-you-grounded');
+		deserializeMock.mockReset();
+		captureCommentCreatedMock.mockReset();
+		captureCommentCreatedMock.mockResolvedValue(undefined);
+		getOrCreateVisitorIdMock.mockReset();
+		getOrCreateVisitorIdMock.mockReturnValue('visitor-123');
+		fetchMock.mockReset();
+		fetchMock.mockResolvedValue({
+			ok: true,
+			text: vi.fn().mockResolvedValue('serialized-action-result')
+		});
+		vi.stubGlobal('fetch', fetchMock);
+	});
+
+	afterEach(() => {
+		vi.unstubAllGlobals();
+	});
+
 	it('keeps dates off the card face and available in the overflow menu', async () => {
 		const { container, getByRole } = render(Comment, {
 			props: {
@@ -114,5 +192,55 @@ describe('Comment', () => {
 
 		expect(editedAt?.textContent?.trim()).toBe('Aug 4, 2026');
 		expect(editedAt?.getAttribute('datetime')).toBe(editedComment.modified_at);
+	});
+
+	it('captures a server-confirmed reply with the canonical comment event', async () => {
+		const createdReply: CommentType = {
+			id: 88,
+			comment: 'A reply from another perspective.',
+			author_id: 'reader-1',
+			parent_id: 41,
+			parent_type: 'comment',
+			created_at: '2026-08-03T17:00:00.000Z',
+			modified_at: null,
+			comment_count: 0,
+			comment_like: [],
+			profiles: null,
+			comments: []
+		};
+		deserializeMock.mockReturnValue({ type: 'success', data: createdReply });
+
+		const { getByRole } = render(Comment, {
+			props: {
+				user: { id: 'reader-1' },
+				comment,
+				parentData: {
+					...parentData,
+					user: { id: 'reader-1' },
+					flags: { userHasAnswered: true, userSignedIn: true }
+				},
+				questionId: 9
+			}
+		});
+
+		await fireEvent.click(getByRole('button', { name: 'Reply to this comment' }));
+		await fireEvent.input(getByRole('textbox', { name: 'Your reply' }), {
+			target: { value: createdReply.comment }
+		});
+		await fireEvent.click(getByRole('button', { name: 'Reply' }));
+
+		await waitFor(() => {
+			expect(captureCommentCreatedMock).toHaveBeenCalledTimes(1);
+		});
+		expect(captureCommentCreatedMock).toHaveBeenCalledWith({
+			commentId: 88,
+			questionId: 9,
+			questionUrl: 'what-keeps-you-grounded',
+			parentType: 'comment',
+			commentKind: 'reply',
+			surface: 'question_page',
+			sourcePath: '/questions/what-keeps-you-grounded',
+			isAnonymous: false
+		});
 	});
 });

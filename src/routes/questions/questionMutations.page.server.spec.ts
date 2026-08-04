@@ -1,10 +1,20 @@
 // src/routes/questions/questionMutations.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { checkDemoTimeMock, mapDemoValuesMock, rpcMock } = vi.hoisted(() => ({
+const {
+	checkDemoTimeMock,
+	mapDemoValuesMock,
+	rpcMock,
+	recordGiveFirstEventMock,
+	runBestEffortTelemetryMock,
+	safelyExitWelcomeSequenceMock
+} = vi.hoisted(() => ({
 	checkDemoTimeMock: vi.fn(),
 	mapDemoValuesMock: vi.fn((value: unknown) => value),
-	rpcMock: vi.fn()
+	rpcMock: vi.fn(),
+	recordGiveFirstEventMock: vi.fn(),
+	runBestEffortTelemetryMock: vi.fn(),
+	safelyExitWelcomeSequenceMock: vi.fn()
 }));
 
 vi.mock('$lib/supabase', () => ({
@@ -15,7 +25,16 @@ vi.mock('$lib/supabase', () => ({
 }));
 
 vi.mock('$lib/server/welcomeSequenceGuards', () => ({
-	safelyExitWelcomeSequenceForCommentCreation: vi.fn()
+	safelyExitWelcomeSequenceForCommentCreation: safelyExitWelcomeSequenceMock
+}));
+
+vi.mock('$lib/server/giveFirstFunnel', () => ({
+	recordGiveFirstEvent: recordGiveFirstEventMock
+}));
+
+vi.mock('$lib/server/bestEffortTelemetry', () => ({
+	logBestEffortTelemetryFailure: vi.fn(),
+	runBestEffortTelemetry: runBestEffortTelemetryMock
 }));
 
 vi.mock('../../utils/api', () => ({
@@ -96,6 +115,8 @@ describe('question mutation identity binding', () => {
 		vi.clearAllMocks();
 		checkDemoTimeMock.mockResolvedValue(false);
 		mapDemoValuesMock.mockImplementation((value: unknown) => value);
+		recordGiveFirstEventMock.mockResolvedValue(undefined);
+		safelyExitWelcomeSequenceMock.mockResolvedValue(undefined);
 		rpcMock.mockImplementation((name: string) => {
 			if (name === 'check_comment_rate_limit') {
 				return Promise.resolve({ data: true, error: null });
@@ -128,6 +149,30 @@ describe('question mutation identity binding', () => {
 				p_parent_type: 'question'
 			})
 		);
+		expect(recordGiveFirstEventMock).toHaveBeenCalledWith({
+			fingerprint: 'visitor-1',
+			eventType: 'contribution',
+			questionId: 42,
+			userId: null
+		});
+		expect(runBestEffortTelemetryMock).toHaveBeenCalledTimes(1);
+	});
+
+	it('runs registered-user lifecycle cleanup through the shared comment action', async () => {
+		const event = buildActionEvent(buildCommentRequest(USER_ID), USER_ID);
+
+		const result = await actions.createCommentRando(event as any);
+
+		expect(result).toEqual({ id: 123, comment: 'This is my first take.', author_id: null });
+		expect(safelyExitWelcomeSequenceMock).toHaveBeenCalledWith({
+			userId: USER_ID,
+			parentType: 'question',
+			onError: expect.any(Function)
+		});
+	});
+
+	it('keeps the legacy and current action names on the same implementation path', () => {
+		expect(actions.createComment).toBe(actions.createCommentRando);
 	});
 
 	it('rejects an anonymous comment that claims a registered user id', async () => {

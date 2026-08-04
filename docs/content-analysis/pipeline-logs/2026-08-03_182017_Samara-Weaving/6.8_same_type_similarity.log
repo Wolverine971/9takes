@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — samara-weaving (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Samara-Weaving.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 33
+Comparison set (last 8 other Type-6 drafts by date):
+  - Jack-Antonoff  (2026-07-30, 27 units)
+  - mila-kunis  (2026-07-29, 40 units)
+  - jensen-huang  (2026-07-28, 16 units)
+  - ninja  (2026-07-28, 43 units)
+  - Sadie-Sink  (2026-07-24, 34 units)
+  - Joe-Lonsdale  (2026-07-19, 28 units)
+  - Kaia-Gerber  (2026-07-19, 30 units)
+  - milly-alcock  (2026-07-19, 24 units)
+
+Noise floor over 7986 unit pairs:  median=0  p90=0  p99=0.006  max=0.091
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.091 ####                 milly-alcock
+  0.055 ##                   Kaia-Gerber
+  0.051 ##                   Jack-Antonoff
+  0.046 ##                   jensen-huang
+  0.034 #                    Sadie-Sink
+  0.031 #                    ninja
+  0.020 #                    mila-kunis
+  0.017 #                    Joe-Lonsdale
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.091   samara-weaving  <->  milly-alcock
+   TARGET [diagnosis] so I don't know." That is the baseline condition
+   OTHER  [diagnosis] a permanent file labeled "proof I don't belong here
+
+score 0.055   samara-weaving  <->  Kaia-Gerber
+   TARGET [diagnosis] Talking to Collider in June 2026
+   OTHER  [diagnosis] " she told Collider in September 2024.
+
+score 0.051   samara-weaving  <->  Jack-Antonoff
+   TARGET [diagnosis] The second tell is what she says about the future.
+   OTHER  [diagnosis] The tell is what Antonoff does with the word "safe." Giving Apple Music a tour of his workspace above Electric Lady Studios in 2024
+
+score 0.046   samara-weaving  <->  jensen-huang
+   TARGET [diagnosis] who will still be working as hard as she is at two in the morning on day twenty-six.
+   OTHER  [diagnosis] and make sure the people beside you will still be there when pressure arrives.
+
+score 0.036   samara-weaving  <->  milly-alcock
+   TARGET [diagnosis] so I don't know." That is the baseline condition
+   OTHER  [diagnosis] That is the 7 wing doing the job the 6 cannot. ---
+
+score 0.034   samara-weaving  <->  Sadie-Sink
+   TARGET [diagnosis] so I don't know." That is the baseline condition
+   OTHER  [diagnosis] That is the Six's entire relationship to fear in one line
+
+score 0.031   samara-weaving  <->  ninja
+   TARGET [counter-typing] The Azrael section below makes the case.
+   OTHER  [diagnosis] His marriage makes the type answer concrete.
+
+score 0.029   samara-weaving  <->  ninja
+   TARGET [diagnosis] and reports that trusting the world takes conscious effort.
+   OTHER  [diagnosis] Did the world move on while I wasn't looking?
+
+score 0.028   samara-weaving  <->  ninja
+   TARGET [counter-typing] The honest limit of the type is not a rival type.
+   OTHER  [diagnosis] His marriage makes the type answer concrete.
+
+score 0.026   samara-weaving  <->  Jack-Antonoff
+   TARGET [counter-typing] sustained evidence that her caution is disinterest rather than vigilance
+   OTHER  [counter-typing] evidence that the safety language is aesthetic rather than lived.
+
+score 0.025   samara-weaving  <->  Kaia-Gerber
+   TARGET [counter-typing] The honest limit of the type is not a rival type.
+   OTHER  [counter-typing] Neither type is incapable of choosing frightening work.
+
+score 0.024   samara-weaving  <->  Sadie-Sink
+   TARGET [diagnosis] and it is worth taking seriously for one paragraph.
+   OTHER  [diagnosis] and the raw material underneath it is doubt
+
+------------------------------------------------------------------------------
+Top pair scores 0.091 vs median 0  (~∞x the noise floor).

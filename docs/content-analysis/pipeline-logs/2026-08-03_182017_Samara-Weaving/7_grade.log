@@ -1,0 +1,25 @@
+## Grading Complete — Samara Weaving
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Samara-Weaving | 8 | 8.5 | 9 | 9 | 8.5 | 9 | **8.6** | **B+** |
+
+(Weighted: `(8×1.5 + 8.5×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7`. Discoverability 9 → no gate cap. No fingerprint caps tripped.)
+
+### Key Observations
+
+**What earns the grade.** The draft names its own explanatory limit on the page — "No type gets to claim all of a person, and this is the seam where Weaving's own taste is carrying weight the Enneagram cannot" — and then refuses to let the trust-inventory reframe stand a second time when the Emma Frost casting breaks it. That is the exact opposite of the monocausal failure in the Matt-Smith B anchor, and it's why Originality clears it. The Azrael section (weeks of childhood silence → headlining a dialogue-free feature) is the signature detail; the two-entry dose record is a genuine formal invention; the airport/Margot Robbie closer passes the swap test cleanly.
+
+**Deterministic checks all clean.** Source audit 6/6 inline, 0 vague, 0 untagged. 0 strong contrast pairs (the 1 comparative sits inside a Weaving quote). Same-type scan clear at 0.091. meta_title 52 chars, description 148, all five FAQ anchors resolve to real H2 slugs.
+
+**What holds it off A.** Three things, in cost order:
+
+1. **Seven untagged secondary quotes.** The script only grades load-bearing slots, and those are clean — but "In the entirety of SAG, 1% of actors are working" and the blame-proofing prep quote both carry real argumentative weight and neither is traceable. The SAG line is also cited inside a FAQ answer, so an AI engine could lift an unsourced statistic under our byline.
+2. **Two confirmed cross-draft sameness moves.** Four reader-command imperatives (one, "Hold that against the childhood," is near-verbatim with Machine-Gun-Kelly's "Hold that next to the story"), plus the corpus key-stat box — the swapped-numbers house template that fresh-eyes flagged and the second pass declined to cut. Below the 3-move cap threshold, so no Originality cap, but it's the house voice showing.
+3. **The thesis itself is the obvious read.** Anxious woman finds relief in enacted terror is what any profile of her would land on after the viral 2025 meds quote. The unworked material is at the Azrael seam — she says horror is "where you can be one of the guys… it makes me feel really powerful, and I have autonomy over it." Power and autonomy aren't fear-management words, and the draft states that seam rather than working it.
+
+**Bookkeeping drift:** the testimony ledger claims five quotes but only four are in the body (Tyler Gillett's is ledger-only), and both the second-pass and editor-pass "still open" lists say the `faqs` frontmatter is absent when it's present and complete. Stages edited past their own ledgers.
+
+Frontmatter block written to `src/blog/people/drafts/Samara-Weaving.md:88`; full feedback at `docs/content-analysis/grades/Samara-Weaving.review.md`. No legacy `QUALITY GRADE` block existed in the body to remove.
+
+**Total graded this session: 1**

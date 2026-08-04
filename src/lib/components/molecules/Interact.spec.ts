@@ -52,6 +52,8 @@ import Interact from './Interact.svelte';
 
 describe('Interact', () => {
 	beforeEach(() => {
+		window.history.replaceState({}, '', '/');
+		window.localStorage.clear();
 		deserializeMock.mockReset();
 		deserializeMock.mockReturnValue({
 			type: 'success',
@@ -83,6 +85,12 @@ describe('Interact', () => {
 	});
 
 	it('Should be able to add comment', async () => {
+		const inviteId = '11111111-1111-4111-8111-111111111111';
+		window.history.replaceState(
+			{},
+			'',
+			`/questions/what-are-you-thinking-about-these-days?via=${inviteId}`
+		);
 		const oncommentAdded = vi.fn();
 		const longComment =
 			'This is a detailed comment that is intentionally long enough to avoid the short-answer confirmation path and submit immediately.';
@@ -161,7 +169,8 @@ describe('Interact', () => {
 			parentType: 'question',
 			commentKind: 'answer',
 			surface: 'question_page',
-			sourcePath: '/',
+			sourcePath: '/questions/what-are-you-thinking-about-these-days',
+			inviteId,
 			isAnonymous: true
 		});
 		expect((commentBox as HTMLTextAreaElement).value).toBe('');
@@ -220,6 +229,49 @@ describe('Interact', () => {
 
 		expect(commentBox.style.height).toBe('320px');
 		expect(commentBox.classList.contains('overflow-y-auto')).toBe(true);
+	});
+
+	it('records the toolbar invite when the attributed QR share is opened', async () => {
+		const onshareQrOpened = vi.fn();
+		const { getByRole } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				qrCodeUrl: 'data:image/png;base64,invite',
+				user: null,
+				onshareQrOpened,
+				data: {
+					question: {
+						id: 85,
+						question: 'what are you thinking about these days',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'what-are-you-thinking-about-these-days',
+						img_url: '',
+						es_id: '48FXu4oBxTGqyww5ba_8',
+						comment_count: 10,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 10,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: { userHasAnswered: true, userSignedIn: false },
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
+		});
+
+		await fireEvent.click(getByRole('button', { name: 'Share via QR Code' }));
+
+		expect(onshareQrOpened).toHaveBeenCalledTimes(1);
 	});
 
 	it('allows an anonymous user to submit a short first comment after confirmation', async () => {

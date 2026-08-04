@@ -255,6 +255,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'hunter-biden', link: false, hasImage: false, lastmod: '2026-07-25', personaTitle: 'The Son Who Repainted Himself', contentGrade: 8.4, types: ['author', 'celebrity'] },
 		{ name: 'janelle-monae', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },
 		{ name: 'jonathan-graff', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['newMovieStar'] },
+		{ name: 'machine-gun-kelly', link: false, hasImage: false, lastmod: '2026-08-03', personaTitle: 'Cleveland\'s Beautiful Wreck', contentGrade: 8.7, types: ['musician', 'music-crossover'] },
 		{ name: 'maddie-phillips', link: false, hasImage: false, lastmod: '2026-04-20', personaTitle: 'Streaming\'s Tender Shapeshifter', contentGrade: 8.7, types: ['newMovieStar', 'celebrity', 'rising-star'] },
 		{ name: 'nicholas-galitzine', link: false, hasImage: false, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Reluctant Adonis', contentGrade: 8.7, types: ['movieStar', 'newMovieStar'] },
 		{ name: 'oscar-isaac', link: false, hasImage: false, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] }
@@ -356,6 +357,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'jimmy-kimmel', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['celebrity'] },
 		{ name: 'john-krasinski', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['newMovieStar'] },
 		{ name: 'sadie-sink', link: false, hasImage: false, lastmod: '2026-07-24', personaTitle: 'The Guarded Ingénue', contentGrade: 8.3, types: ['newMovieStar', 'movieStar', 'celebrity'] },
+		{ name: 'samara-weaving', link: false, hasImage: false, lastmod: '2026-08-03', personaTitle: 'Horror\'s Off-Label Cure', contentGrade: 8.4, types: ['movieStar', 'newMovieStar'] },
 		{ name: 'volodymyr-zelensky', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'zooey-deschanel', link: false, hasImage: false, lastmod: '2026-05-06', personaTitle: 'Indie\'s Vigilant Romantic', contentGrade: 8.9, types: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover'] }
 	],

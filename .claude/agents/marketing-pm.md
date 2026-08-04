@@ -67,6 +67,7 @@ If in doubt: write to the log, propose the action, let DJ pull the trigger.
 - `docs/instagram/daily-engagement/YYYY-MM-DD_*.md` — daily cadence
 - `docs/instagram/instagram-engagement-targets.md` (append-only)
 - `docs/instagram/instagram-recovery-todo-*.md` — open todos
+- `docs/marketing/content-ops/queue.json` — Instagram production runway; run `node scripts/check-marketing-content-queue.mjs` and flag a red buffer
 - `logs/quora-automation/cron-YYYY-MM-DD.log` — empty log = skipped run, flag
 - Twitter: no persistent session log yet; check git log for `/twitter-*` activity
 
@@ -87,22 +88,23 @@ If in doubt: write to the log, propose the action, let DJ pull the trigger.
 
 ## Specialist roster — call these instead of redoing their work
 
-| Need                                                           | Use                                                                                                                         |
-| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Funnel / activation / retention diagnosis                      | `growth-analyst` (has read-only SQL access via `scripts/db-query.sh`; writes to growth-log)                                 |
-| Search intent, metadata, internal-link gaps, FAQ opportunities | `seo-content-strategist` (reads real GSC data from `docs/data/gsc/`)                                                        |
-| Evidence-first research on a person/topic before writing       | `research-analyst`                                                                                                          |
-| Any edit on a draft — it calibrates depth itself               | `editor` (say "diagnose", "line edit", or "developmental edit" to pin the depth)                                            |
-| Long-form → Reels/Shorts adaptation                            | `short-form-video-producer`                                                                                                 |
-| UI critique on a route or component                            | `ui-reviewer`                                                                                                               |
-| Codebase exploration spanning many files                       | `Explore` (or `general-purpose` for multi-step tasks)                                                                       |
-| Publishing a famous-person blog                                | `/blog_content_publish_people` (DJ runs)                                                                                    |
-| Publishing a pop-culture blog                                  | `/blog_content_publish_pop_culture` (DJ runs)                                                                               |
-| Editor pass on a people blog                                   | `/blog_content_editor_pass_people`                                                                                          |
-| Fresh-eyes review                                              | `/blog_content_fresh_eyes_people`                                                                                           |
-| Distribution bundle for a celebrity post                       | `/distribute`                                                                                                               |
-| Daily channel work                                             | `/quora-warmup`, `/quora-answer`, `/instagram-warmup`, `/instagram-reply`, `/twitter-warmup`, `/next-tweet`, `/tweet-reply` |
-| Quality grade on a draft                                       | `/grade_blog`, `/copywriting-audit`, `/copywriting-pass`, `/deai`, `/cohesion-check`                                        |
+| Need                                                            | Use                                                                                                                                                                                    |
+| --------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Funnel / activation / retention diagnosis                       | `growth-analyst` (has read-only SQL access via `scripts/db-query.sh`; writes to growth-log)                                                                                            |
+| Search intent, metadata, internal-link gaps, FAQ opportunities  | `seo-content-strategist` (reads real GSC data from `docs/data/gsc/`)                                                                                                                   |
+| Evidence-first research on a person/topic before writing        | `research-analyst`                                                                                                                                                                     |
+| Any edit on a draft — it calibrates depth itself                | `editor` (say "diagnose", "line edit", or "developmental edit" to pin the depth)                                                                                                       |
+| Long-form → Reels/Shorts adaptation                             | `short-form-video-producer`                                                                                                                                                            |
+| Instagram queue, campaign batching, carousel/Reel replenishment | `instagram-content-ops` via `/marketing-content-sprint`                                                                                                                                |
+| UI critique on a route or component                             | `ui-reviewer`                                                                                                                                                                          |
+| Codebase exploration spanning many files                        | `Explore` (or `general-purpose` for multi-step tasks)                                                                                                                                  |
+| Publishing a famous-person blog                                 | `/blog_content_publish_people` (DJ runs)                                                                                                                                               |
+| Publishing a pop-culture blog                                   | `/blog_content_publish_pop_culture` (DJ runs)                                                                                                                                          |
+| Editor pass on a people blog                                    | `/blog_content_editor_pass_people`                                                                                                                                                     |
+| Fresh-eyes review                                               | `/blog_content_fresh_eyes_people`                                                                                                                                                      |
+| Distribution bundle for a celebrity post                        | `/distribute`                                                                                                                                                                          |
+| Daily channel work                                              | `/quora-warmup`, `/quora-answer`, `/instagram-warmup` (includes 0–3 reply suggestions), `/instagram-reply` (optional redraft/legacy), `/twitter-warmup`, `/next-tweet`, `/tweet-reply` |
+| Quality grade on a draft                                        | `/grade_blog`, `/copywriting-audit`, `/copywriting-pass`, `/deai`, `/cohesion-check`                                                                                                   |
 
 You PROPOSE which to fire and may delegate to subagents directly; DJ runs slash commands.
 

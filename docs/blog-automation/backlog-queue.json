@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-07-31T07:16:17Z",
+	"lastUpdated": "2026-08-03T06:05:05Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "penguinz0",
-			"displayName": "Charlie White (penguinz0 / MoistCr1TiKaL)",
-			"type": null,
-			"priority": 70,
-			"priorityReason": "CORRECTED 2026-07-25: streamer/creator median measured at 979, not 98. Long-running commentator with durable evergreen search.",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
-		},
 		{
 			"name": "stableronaldo",
 			"displayName": "StableRonaldo",
@@ -29,7 +16,7 @@
 			"searchVolume": "high",
 			"personaTitle": null,
 			"addedToQueue": "2026-07-25",
-			"retryCount": 0,
+			"retryCount": 2,
 			"strategicValue": "creator-economy-cluster"
 		},
 		{
@@ -385,6 +372,32 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "penguinz0",
+			"displayName": "Charlie White (penguinz0 / MoistCr1TiKaL)",
+			"type": null,
+			"priority": 70,
+			"priorityReason": "CORRECTED 2026-07-25: streamer/creator median measured at 979, not 98. Long-running commentator with durable evergreen search.",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-08-01T06:00:00Z",
+			"completedAt": "2026-08-01T07:02:17Z",
+			"contentGrade": "8.4",
+			"letter": "B",
+			"discoverability": "9",
+			"duration": "~62 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": [
+				"content_quality_below_8.5:8.4",
+				"missing_full_image",
+				"missing_thumbnail_image"
+			]
+		},
 		{
 			"name": "ksi",
 			"displayName": "KSI",

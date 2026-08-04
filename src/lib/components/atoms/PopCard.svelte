@@ -306,9 +306,113 @@
 		border: 1px solid rgba(255, 255, 255, $border-opacity);
 	}
 
-	// Override global hover effect - keep card still
-	.image-card-base:hover {
-		transform: none;
+	@keyframes pan-overlay {
+		from {
+			background-position: 0 0;
+		}
+
+		to {
+			background-position: 0 -100%;
+		}
+	}
+
+	@keyframes pan-image {
+		0%,
+		100% {
+			transform: scale(1) translate(0, 0);
+		}
+
+		25% {
+			transform: scale(1.05) translate(2%, 2%);
+		}
+
+		50% {
+			transform: scale(1.1) translate(-2%, 2%);
+		}
+
+		75% {
+			transform: scale(1.05) translate(-2%, -2%);
+		}
+	}
+
+	.image-card-base {
+		position: relative;
+		z-index: 10;
+		overflow: hidden;
+		margin: 1rem auto;
+		max-width: 100%;
+		border: 2px solid var(--lamp-glow);
+		border-radius: var(--border-radius-lg);
+		background-color: var(--lamp-soft);
+		box-shadow: var(--shadow-sm);
+		cursor: pointer;
+		transition: var(--transition-glow);
+
+		&:hover {
+			transform: none;
+			border-color: var(--lamp-glow);
+			box-shadow: var(--glow-md);
+
+			.image-card__content {
+				backdrop-filter: blur(5px);
+			}
+		}
+
+		&:focus-visible {
+			outline: 2px solid var(--lamp-glow);
+			outline-offset: 2px;
+		}
+	}
+
+	.image-card__overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(
+			var(--lamp-soft),
+			var(--lamp-soft) 3px,
+			transparent 3px,
+			transparent 9px
+		);
+		background-size: 100% 9px;
+		animation: pan-overlay 22s infinite linear;
+		pointer-events: none;
+	}
+
+	.image-card__img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		transition:
+			filter 0.3s ease,
+			transform 0.5s ease;
+
+		&--home {
+			animation: pan-image var(--animation-speed, 15s) linear infinite;
+		}
+
+		&--profile {
+			object-position: center;
+		}
+
+		&--tinted {
+			filter: brightness(0.5) contrast(1.2);
+		}
+	}
+
+	.image-card__icon {
+		width: 10%;
+		min-width: 32px;
+		max-width: 48px;
+		margin-top: 1rem;
+		filter: drop-shadow(0 0 0.5rem white);
 	}
 
 	.image-card-base.personality-portrait-well {
@@ -388,40 +492,50 @@
 	.image-card__content {
 		position: absolute;
 		inset: auto 1rem 1rem;
+		z-index: 3;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+		flex-grow: 1;
 		background: transparent;
 		border: none;
+		border-radius: calc(var(--border-radius) - 0.4rem);
+		box-shadow: var(--shadow-md);
 		margin: 0;
 		padding: 0;
+		transition: backdrop-filter 0.3s ease;
 	}
 
 	.image-card__text {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		gap: 0.5rem;
+		width: 100%;
 		background: transparent;
 		padding: 0;
+		text-align: center;
 	}
 
 	// Title with glass effect - min-height prevents CLS during font loading
 	.image-card__title {
 		@include glass(0.3, 8px, 0.2);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-height: 1.5em; // Reserve space to prevent layout shift
 		padding: 0.75rem;
 		margin: 0;
 		border-radius: 1rem;
 		color: white;
-		min-height: 1.5em; // Reserve space to prevent layout shift
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
-	// Subtitle with glass effect
-	.image-card__subtitle {
-		@include glass(0.5, 6px, 0.15);
-		padding: 0.5rem 1rem;
-		margin: 0;
-		border-radius: 0.625rem;
+		font-family: var(--font-family, sans-serif);
+		font-size: 2rem;
+		font-weight: 400;
+		letter-spacing: 0.05em;
+		text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+		text-transform: uppercase;
 	}
 
 	// Tech spec HUD panel
@@ -536,6 +650,47 @@
 			color: rgba(255, 255, 255, 0.9);
 			font-weight: 500;
 			text-wrap: pretty;
+		}
+	}
+
+	@media (max-width: 576px) {
+		.image-card-base {
+			width: 100%;
+			max-width: 100%;
+			min-height: 200px;
+			margin: 1rem 0 0;
+			aspect-ratio: auto !important;
+		}
+
+		.image-card__img {
+			position: relative;
+			display: block;
+			height: auto;
+		}
+
+		.image-card__title {
+			font-size: 1.5rem;
+			font-weight: 200;
+		}
+	}
+
+	@media (min-width: 500px) {
+		.image-card-base {
+			width: min(100%, 600px);
+			max-height: 500px;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.image-card-base,
+		.image-card__img,
+		.image-card__content {
+			transition: none;
+		}
+
+		.image-card__overlay,
+		.image-card__img--home {
+			animation: none;
 		}
 	}
 </style>

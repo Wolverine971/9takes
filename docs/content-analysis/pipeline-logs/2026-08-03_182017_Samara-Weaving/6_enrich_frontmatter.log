@@ -1,0 +1,30 @@
+Frontmatter enrichment complete: Samara-Weaving
+
+**Fields filled:**
+`wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):**
+`wikipedia` (canonical, correct), `instagram` — both left untouched. `lastmod` untouched. Body, ledgers, and all four comment blocks untouched (diff confirms my change is frontmatter-only; the deletions in `git diff` are from the earlier editor pass, already uncommitted before this run).
+
+**Verification:**
+- `imdb_id: nm3034977` cross-checked two ways: Wikidata P345 on Q7408805, and an IMDb URL returned by search.
+- `wikidata_qid: Q7408805` pulled from the Wikipedia page's `wikibase_item`.
+- Birth data from Wikidata P569/P19/P27: 1992-02-23, Adelaide, Australian.
+
+**FAQs generated (5):**
+1. What is Samara Weaving's personality type? → `#what-is-samara-weavings-personality-type`
+2. Why did Samara Weaving stop taking her anxiety medication? → `#why-samara-weaving-stopped-taking-her-anxiety-medication`
+3. Why did Samara Weaving make a horror movie with no dialogue? → `#the-horror-movie-where-samara-weaving-does-not-speak`
+4. Why does Samara Weaving keep making the same kind of movie? → `#why-samara-weaving-keeps-making-the-same-movie`
+5. What happened to Samara Weaving after Home and Away? → `#the-two-years-after-home-and-away-when-nobody-called`
+
+All five anchors verified against computed heading slugs in the body. Answers hold the body's hedges (the meds FAQ keeps "never claimed a film wrap is a treatment plan"; the same-movie FAQ ends on the Emma Frost fact that breaks the trust-inventory reading rather than letting it stand).
+
+**Checks run:**
+- Frontmatter parses cleanly through `gray-matter` (the `\'`-vs-`''` YAML break class is clear).
+- `blog-lint.sh`: **0 fail, 2 warn** — the "no faqs in frontmatter" warn is now `ok faqs present and FAQPage-eligible (5 real Q/A pairs)`. Remaining two warns are pre-existing and unrelated to this pass (1 comparative contrast pattern, which sits inside a direct Weaving quote; body at 4444/4500 words).
+- No em-dashes and no templated-backfill filler in the new fields.
+
+**Issues:**
+- The body carries only one external URL (the 9takes corpus-stats link), so `citations` was built from the sources the body names inline rather than from body hyperlinks. I pinned real URLs for eight of them via search (Wikipedia, IMDb, Screen Rant SXSW, Collider, Den of Geek, TheWrap, Deadline, Variety) and dropped any I could not confirm.
+- Two body-cited sources are **not** in `citations` because I could not confirm a canonical publisher URL: The Independent (Sept 2025 anxiety interview — independent.co.uk blocks the fetch agent; only AOL/inkl syndications surfaced) and People (May 2026 Margot Robbie airport story — only Yahoo/AOL/JustJared syndications surfaced). Both quotes remain sourced in-text; only the URL list omits them.

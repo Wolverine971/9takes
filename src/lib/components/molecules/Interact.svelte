@@ -17,6 +17,7 @@
 		QuestionPageData
 	} from '$lib/types/questions';
 	import { captureCommentCreated, type CommentCreatedKind } from '$lib/analytics/commentEvents';
+	import { getRecipientQuestionInviteId } from '$lib/analytics/questionInvites';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 
 	// Component props
@@ -27,9 +28,11 @@
 		questionId: number;
 		qrCodeUrl: string;
 		oncommentAdded?: (comment: CommentType) => void;
+		onshareQrOpened?: () => void;
 	}
 
-	let { parentType, data, user, questionId, qrCodeUrl, oncommentAdded }: Props = $props();
+	let { parentType, data, user, questionId, qrCodeUrl, oncommentAdded, onshareQrOpened }: Props =
+		$props();
 
 	// Type guard to check if data is QuestionPageData
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
@@ -136,6 +139,7 @@
 	// Handle QR code modal opening
 	const openQRModal = () => {
 		if (!shareReady) return;
+		onshareQrOpened?.();
 		getModal(qrModalId).open();
 	};
 
@@ -272,6 +276,10 @@
 			if (Array.isArray(commentData)) {
 				commentData = commentData[0] ?? null;
 			}
+			const inviteId =
+				submittedKind === 'answer' && parentType === 'question'
+					? getRecipientQuestionInviteId()
+					: null;
 			void captureCommentCreated({
 				commentId: commentData?.id,
 				questionId,
@@ -280,6 +288,7 @@
 				commentKind: submittedKind,
 				surface: 'question_page',
 				sourcePath: window.location.pathname,
+				inviteId,
 				isAnonymous: !user?.id
 			});
 			oncommentAdded?.(commentData);

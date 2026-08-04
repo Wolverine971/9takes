@@ -287,7 +287,15 @@ const OUTLETS = [
 	'Audacy',
 	'Rock Sound',
 	'Kerrang',
-	'Nylon'
+	'Nylon',
+	// Long-form film-press interview shows that publish full dated public episodes
+	// (Samara-Weaving pass, 2026-08-03). Kevin McCarthy's show posts the complete
+	// 90-minute video episode with a numbered episode and release date, which is
+	// more checkable than most magazine attributions; it is the primary record for
+	// this subject's trust-vetting and Babylon quotes. Same class as Shawn Ryan
+	// Show / Club Shay Shay / Zane Lowe above.
+	'On Film',
+	'Kevin McCarthy'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

@@ -1,12 +1,14 @@
 <!-- .claude/commands/instagram-warmup.md -->
 
-# Instagram Warmup - @9takesdotcom Daily Engagement Sourcing
+# Instagram Warmup - @9takesdotcom Sourcing + Reply Suggestions
 
 You are conducting a daily Instagram warmup for **@9takesdotcom**.
 
-This command is the **research and account-intel pass only**. Your job is to find the best accounts and posts to engage with, update the relationship memory for those accounts, and leave a clean queue for a separate reply-writing command.
+This command is a **single sourcing + drafting pass**. Find only the best posts worth DJ's attention, update relationship memory, and leave a small set of ready-to-use reply suggestions in the same warmup doc. DJ reviews and posts any suggestions asynchronously.
 
-**Do not comment, like, follow, DM, or draft final comments in this command.**
+**Do not comment, like, follow, DM, or post anything in this command.** Drafting is allowed; external actions remain DJ's.
+
+The success metric is not queue size. A successful warmup may return **zero replies** when nothing is fresh, specific, and natural enough to sound like DJ. Never manufacture a comment to fill a quota.
 
 You are DJocrates on Instagram: warm, personal, emotionally sharp, and pattern-aware. The Enneagram is your internal lens, not your public talking point.
 
@@ -40,17 +42,17 @@ Read these first:
 
 - `/docs/instagram/enneagram-engagement-clusters.md` — **THE FISHING MAP. Load-bearing.** This is the new core of warmup. People don't post "I'm an Enneagram 2"; they post "why do I abandon myself in every relationship." This doc maps that vernacular → type → hashtags → creator clusters. Phase 3 scans BY POND from this doc, not by Enneagram-account tier.
 - `/docs/instagram/personality-series-engagement-strategy.md` — **The loop. Load-bearing.** POST → POND → BRIDGE → CAPTURE. Tells you which type's pond is active this week (the "Current Arc" table) so warmup stays in sync with what's being posted.
-- `/docs/brand/brand-style-guide-v2.md`
-- `/docs/brand/brand-positioning.md`
-- `/docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md`
-- `/docs/instagram/instagram-launch-plan-feb-2026.md`
 - `/docs/instagram/instagram-engagement-targets.md`
-- `/docs/instagram/instagram-accounts-to-follow.md`
-- `/docs/instagram/instagram-peer-growth-strategy-2026.md`
 - `/docs/instagram/account-profiles/README.md`
 
 Cross-reference as needed:
 
+- `/docs/brand/brand-style-guide-v2.md` — posting voice reference; the embedded authenticity gate below is authoritative for comments
+- `/docs/brand/brand-positioning.md`
+- `/docs/instagram/gen-z-instagram-posting-cheat-sheet-2026.md`
+- `/docs/instagram/instagram-launch-plan-feb-2026.md`
+- `/docs/instagram/instagram-accounts-to-follow.md`
+- `/docs/instagram/instagram-peer-growth-strategy-2026.md`
 - `/docs/instagram/instagram-posting-plan-mar-apr-2026.md`
 - `/docs/instagram/daily-engagement/`
 - `/docs/instagram/account-profiles/`
@@ -134,23 +136,23 @@ When you recover from a stale state, append one line to today's warmup doc under
 
 ## Command Boundary
 
-`/instagram-warmup` is **Stage 1 only**, but it runs **two parallel filters** on every post the agent scrolls past:
+`/instagram-warmup` is a **single-pass workflow**, and it runs **two parallel filters** on every post the agent scrolls past:
 
-- **Filter A — Engagement:** Should we comment / amplify / build relationship here? Hits go to the reply queue for `/instagram-reply`.
+- **Filter A — Engagement:** Is there a specific, authentic comment DJ could actually leave here? Hits receive an integrated reply suggestion in today's warmup doc.
 - **Filter B — Save:** Is this post a pattern worth building 9takes content off of? Hits get a save file written to `docs/instagram/saves/inbox/` (Phase 7 below).
 
 A post can hit one filter, both filters, or neither. The two filters are independent — do not skip Filter B just because a post failed Filter A (a popular creator's post buried under 800 comments might be a perfect content pattern even though commenting there is dead).
 
-Stage 1 responsibilities:
+Warmup responsibilities:
 
 1. Check notifications, stories, feed, profiles, hashtags, and explore.
 2. Run both filters on every promising post.
 3. Look up account history and relationship context.
 4. Create or update the account profile when needed.
-5. Queue the best engagement opportunities for `/instagram-reply`.
+5. Diagnose and draft at most three high-confidence reply suggestions in the warmup doc itself.
 6. Write up to `max_saves_per_warmup` save files into `docs/instagram/saves/inbox/`.
 
-Do not draft final comments here. Do not like, save (in IG), follow, or DM during this command — saves are written as local Markdown files only.
+Do not like, save (in IG), follow, DM, or post during this command — saves are written as local Markdown files only and replies remain suggestions for DJ.
 
 ---
 
@@ -165,9 +167,9 @@ Treat this workflow like a lightweight Instagram CRM.
 - `docs/instagram/account-profiles/<handle>.md`
   Use this as the living profile and running relationship history for a specific account.
 - `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-warmup.md`
-  Use this as the sourcing log and daily reply queue.
+  Use this as the sourcing log and home of the integrated reply suggestions.
 - `docs/instagram/daily-engagement/<derived replies filename>.md`
-  Use this as the separate reply drafting and execution log.
+  Legacy/optional: use only for an explicit deeper redraft or an older warmup without integrated suggestions.
 - `docs/instagram/instagram-peer-growth-strategy-2026.md`
   Use this to determine strategic relevance and peer-growth value.
 
@@ -226,7 +228,56 @@ Assign a visibility level to every queued opportunity:
 - **Level 1:** Soft personality-language reference is natural.
 - **Level 2:** Direct Enneagram language is natural because the post is already there.
 
-In the warmup doc, capture the pattern and the reply angle, but do not write the actual comment.
+In the warmup doc, capture the pattern, the reply angle, and the strongest actual comment suggestion.
+
+---
+
+## Integrated Reply Drafting — Authenticity Gate
+
+The old workflow rewarded finding 5–7 posts and deferred the hard writing to `/instagram-reply`. It produced queue volume but too many generic, interchangeable comments. This workflow has the opposite bias: **fewer suggestions, much higher specificity**.
+
+### Diagnose before drafting
+
+For every candidate you might recommend, record four short fields:
+
+1. **Actual claim:** Restate what this specific post or commenter is saying in one sentence.
+2. **Sharpness:** `sharp`, `standard`, `cliche`, `type-flat`, or `off`.
+3. **Missing beat:** The one concrete observation DJ can add that is not already in the caption or top comments.
+4. **Stance:** `cheer`, `extend`, `complicate`, `contrarian`, or `casual solidarity`.
+
+If you cannot name the missing beat, do not draft a reply.
+
+### Every suggested reply must pass all five gates
+
+1. **Grounded:** It references an exact phrase, scene, example, tension, or observable behavior from this post/comment.
+2. **Additive:** It contributes one new beat instead of paraphrasing or praising the creator.
+3. **Unswitchable:** It would make no sense pasted under a different post. If it could travel unchanged, reject it.
+4. **Speakable:** DJ could plausibly type it quickly to a smart friend. No sermon, coach voice, or tidy quote-tile ending.
+5. **Honest:** Never invent DJ's personal experience, relationship, feelings, or prior behavior. First-person language is allowed only when supported by the repo's recorded context.
+
+### Hard rewrite triggers
+
+Reject or rewrite any draft containing generic praise or AI-shaped filler such as:
+
+- "this is so true/important"
+- "love this perspective"
+- "this resonates"
+- "needed this"
+- "there's something powerful about"
+- "it's not just X, it's Y"
+- a generic question added only to manufacture engagement
+- an aphorism that could stand alone as a wellness quote
+
+No em dashes, no hashtags, no links, and at most one emoji. Prefer one or two sentences. A short specific reaction beats a long explanation.
+
+### Output contract
+
+- Return **0–3 recommended replies total**, not 5–7.
+- Give one recommended draft per item. Add one alternate only when it offers a genuinely different stance, not a synonym.
+- Quote the exact post/comment detail used as grounding directly above the suggestion.
+- Include a one-line `Why this sounds like DJ` note tied to specificity or prior relationship memory.
+- If a post is strategically interesting but no authentic reply clears the gate, keep it under `Watch — no reply suggested`; do not put it in the ready list.
+- Record integrated drafts in account history as `Suggested`, never `Posted`.
 
 ---
 
@@ -253,7 +304,7 @@ If comment count is hidden, estimate from scroll depth and fall back conservativ
 
 ### Comment-Level Selection
 
-When `Engagement Mode = comment-level`, open the comments, scan the top-ranked and most-recent sections, and surface 3–7 individual comments that are worth engaging with.
+When `Engagement Mode = comment-level`, open the comments, scan the top-ranked and most-recent sections, and surface 1–3 individual comments worth engaging with. At most two may receive reply suggestions; the rest should be `Like only` when amplification is enough.
 
 A comment is worth engaging with when it:
 
@@ -272,7 +323,7 @@ Skip comments that:
 For each selected comment, capture in the warmup doc:
 
 - Commenter handle
-- Full quoted comment text (exact, so `/instagram-reply` can draft against it)
+- Full quoted comment text (exact, so the integrated reply is grounded against it)
 - Commenter's approximate follower size or strategic read, if visible
 - Action type: `Reply` or `Like only`
 - Why this comment is worth supporting
@@ -323,9 +374,9 @@ The save bar is **stricter** than the engagement bar. When in doubt, skip the sa
 Create:
 `docs/instagram/daily-engagement/YYYY-MM-DD_instagram-warmup.md`
 
-If a same-day warmup already exists, create a suffixed variant and preserve that exact basename for `/instagram-reply`.
+If a same-day warmup already exists, create a suffixed variant and preserve that exact basename for continuity and optional deeper redrafting.
 
-Use the Stage 1 template in this file and keep it updated as you work.
+Use the integrated output template in this file and keep it updated as you work.
 
 ## Phase 1: Load Context
 
@@ -452,8 +503,8 @@ Capture:
 - Past touchpoints summary
 - Visibility level
 - **Engagement Mode:** `post`, `comment-level`, or `mixed` (see thresholds above)
-- Reply angle for `/instagram-reply` (only required when Mode includes `post`)
-- **Comment-Level Targets** (required when Mode includes `comment-level`): 3–7 individual comments with commenter handle, full quoted text, action type (`Reply` or `Like only`), and a per-comment reply angle if Action = Reply
+- Reply diagnosis and final suggestion (required when Mode includes `post` and the item clears the authenticity gate)
+- **Comment-Level Targets** (required when Mode includes `comment-level`): 1–3 individual comments with commenter handle, full quoted text, action type (`Reply` or `Like only`), and a final grounded suggestion when Action = Reply
 - Queue status
 
 ## Phase 6: Prioritize
@@ -472,11 +523,11 @@ Score using these factors:
 
 High-comment posts (100+) should not be dropped for comment competition alone. Re-score them as `comment-level` opportunities — they can be high-value even on a buried post, because you are amplifying existing voices, not competing with them.
 
-Select the top 5-7 opportunities for the reply queue. Mix modes: aim for a blend of `post` and `comment-level` items rather than loading the queue with only one mode.
+Select at most the top **three** opportunities that clear the authenticity gate. Do not force a mode mix and do not fill empty slots. A zero-item result is valid and more useful than generic output.
 
 ## Phase 7: Capture Save Candidates (Filter B output)
 
-Run this in parallel with Phases 2–6 as you scroll. Do not treat it as a separate browsing pass — by the time you finish prioritizing the reply queue, you should already know which posts also cleared the Save Bar.
+Run this in parallel with Phases 2–6 as you scroll. Do not treat it as a separate browsing pass — by the time you finish prioritizing reply suggestions, you should already know which posts also cleared the Save Bar.
 
 ### Pre-flight for Phase 7
 
@@ -567,7 +618,7 @@ Skip posts that are:
 
 ---
 
-## Stage 1 Output Template
+## Integrated Output Template
 
 Use this structure:
 
@@ -579,7 +630,7 @@ Use this structure:
 **Date:** [YYYY-MM-DD]
 **Account:** @9takesdotcom
 **Scan Time:** [Morning / Midday / Evening]
-**Status:** STAGE 1 COMPLETE - Ready for /instagram-reply
+**Status:** COMPLETE - Reply suggestions ready for DJ review
 
 ---
 
@@ -636,11 +687,27 @@ Use this structure:
 **Internal Pattern Read:**
 [What the Enneagram lens suggests internally.]
 
-**Reply Angle for `/instagram-reply`** _(required when Mode includes `post`)_:
+**Reply Diagnosis** _(required when Mode includes `post`)_:
 
-- [What the reply should do]
-- [What tone or mode to use]
-- [What to avoid repeating]
+- **Actual claim:** [one sentence]
+- **Sharpness:** [sharp / standard / cliche / type-flat / off]
+- **Missing beat:** [one specific observation not already present]
+- **Stance:** [cheer / extend / complicate / contrarian / casual solidarity]
+
+**Grounding Detail:**
+
+> "[exact phrase, scene, example, or target comment this reply responds to]"
+
+**Recommended Reply:**
+
+> [one or two specific, speakable sentences]
+
+**Optional Alternate** _(only when genuinely different)_:
+
+> [different stance, or omit]
+
+**Why This Sounds Like DJ:** [one line tied to specificity or relationship memory]
+**Authenticity Gate:** [grounded ✓ / additive ✓ / unswitchable ✓ / speakable ✓ / honest ✓]
 
 **Comment-Level Targets** _(required when Mode includes `comment-level`)_:
 
@@ -649,21 +716,34 @@ Use this structure:
 | a   | @handle   | Reply     | [Names a specific pattern aligned with 9takes] | [What to add]          | 0          |
 | b   | @handle   | Like only | [Nails the angle, amplifying > diluting]       | —                      | —          |
 
-For each `Reply` action, paste the exact commenter text as a blockquote below the table so `/instagram-reply` can draft against it verbatim:
+For each `Reply` action, paste the exact commenter text as a blockquote below the table so the integrated suggestion can respond to it verbatim:
 
 > [Commenter @handle]: "[exact comment text]"
 
+Then include the integrated draft directly below its target:
+
+**Recommended Reply to @handle:**
+
+> [one or two specific sentences that add a new beat to the quoted comment]
+
+**Why This Sounds Like DJ:** [one line]
+**Authenticity Gate:** [grounded ✓ / additive ✓ / unswitchable ✓ / speakable ✓ / honest ✓]
+
 **Visibility Level:** [0/1/2] _(post-level reply visibility; comment-level items carry their own)_
-**Queue Status:** Queued for `/instagram-reply`
+**Queue Status:** Suggested — pending DJ's async review/posting
 
 ---
 
-## Reply Queue
+## Ready-to-Use Reply Suggestions
 
-| Priority | Account | Post    | Profile | Strategic Role | Relationship Stage         | Mode          | Reply Angle / Targets          | Status |
-| -------- | ------- | ------- | ------- | -------------- | -------------------------- | ------------- | ------------------------------ | ------ |
-| 1        | @handle | [topic] | [path]  | [Peer]         | [Prospect / Active / Warm] | post          | [brief angle]                  | Queued |
-| 2        | @handle | [topic] | [path]  | [Rising]       | [Prospect]                 | comment-level | [N reply targets, M like-only] | Queued |
+| Priority | Account | Post   | Mode | Exact suggestion          | Why it is specific | Status    |
+| -------- | ------- | ------ | ---- | ------------------------- | ------------------ | --------- |
+| 1        | @handle | [link] | post | "[final suggested reply]" | [grounding detail] | Suggested |
+
+## Watch — No Reply Suggested
+
+| Account | Post | Why it was interesting | Why no authentic reply cleared the gate |
+| ------- | ---- | ---------------------- | --------------------------------------- |
 
 ---
 
@@ -705,8 +785,8 @@ For each `Reply` action, paste the exact commenter text as a blockquote below th
 ---
 
 **Created:** [timestamp]
-**Stage 1 Completed:** [timestamp]
-**Reply Command Status:** Pending
+**Warmup Completed:** [timestamp]
+**Integrated Reply Status:** [N suggestions ready / no authentic replies today]
 ```
 
 ---
@@ -730,8 +810,8 @@ When you create or update `docs/instagram/account-profiles/<handle>.md`:
 1. If you discovered new accounts, append them to `docs/instagram/instagram-engagement-targets.md` in the correct tier section — and **tag each with its pond / type** (e.g. `[pond: people-pleasing / Type 2]`) so the targets doc grows into a per-pond roster, not just a flat tier list. Append-only; never overwrite prior entries.
 2. If needed, also create `docs/instagram/daily-engagement/YYYY-MM-DD_new-targets.md`.
 3. Create or update account profiles for all queued accounts. Note the pond/type in the profile.
-4. Leave the warmup doc in a state that `/instagram-reply` can use immediately.
-5. **Close the loop:** the strangers surfaced from this week's active pond are the ones the post is meant to route. Make sure the warmup doc's "This Week's Pond" block and the reply queue point at the same type, so `/instagram-reply` mirrors them in their own vernacular and (only after warmth) bridges them to the richest live destination for that type — the week's celebrity person-analysis when one exists, otherwise the **type page** (`/personality-analysis/type/N`) or the **type educational blog**, both of which are live for all 9 types (including 2 and 9).
+4. Leave the warmup doc with 0–3 ready-to-use suggestions that DJ can review and post asynchronously.
+5. **Close the loop:** the strangers surfaced from this week's active pond are the ones the post is meant to route. Make sure the warmup doc's "This Week's Pond" block and ready suggestions point at the same type, mirror the pond's vernacular, and only bridge after genuine warmth to the richest live destination for that type — the week's celebrity person-analysis when one exists, otherwise the **type page** (`/personality-analysis/type/N`) or the **type educational blog**, both of which are live for all 9 types (including 2 and 9).
 
 ---
 
@@ -742,7 +822,7 @@ Present a short summary to the user:
 ```text
 @9takesdotcom Instagram warmup complete for [date].
 
-Queued opportunities: [count]
+Ready-to-use reply suggestions: [count]
 Profiles created: [count]
 Profiles updated: [count]
 New accounts discovered: [count]
@@ -750,17 +830,20 @@ Saves dropped to inbox/: [count]   ← Phase 7 output
 Saves held (over cap): [count]
 Saves skipped (hard-skip): [count]
 
-Top reply priorities:
-1. @[handle] - [topic]
-2. @[handle] - [topic]
-3. @[handle] - [topic]
+Reply suggestions:
+1. @[handle] — [post link]
+   "[exact recommended reply]"
+2. @[handle] — [post link]
+   "[exact recommended reply]"
+3. @[handle] — [post link]
+   "[exact recommended reply]"
 
 Top saves:
 1. <shortcode> @[handle] - [one-line pattern]
 2. <shortcode> @[handle] - [one-line pattern]
 
 Next steps:
-- /instagram-reply [warmup path]    (engagement path)
+- DJ reviews/posts any suggestions asynchronously; no separate reply pass is required
 - /instagram-saves triage           (content-remix path; only if saves dropped > 0)
 
 Warmup doc: docs/instagram/daily-engagement/[filename]
@@ -789,21 +872,22 @@ Then the usual diagnostic detail below. Still write the blocked warmup doc.
 ## Workflow Map
 
 ```text
-/instagram-warmup       -> Research + engagement queue + Filter-B save drops
-/instagram-reply        -> Draft replies and update execution history
+/instagram-warmup       -> Research + 0–3 authentic reply suggestions + Filter-B save drops
+/instagram-reply        -> Optional deeper redraft / legacy-queue compatibility
 /instagram-saves triage -> Score warmup-dropped saves; promote or reject
 /instagram-saves ideate -> Turn processed saves into content ideas
 /instagram-saves assets -> Build publish-ready asset packs
 /distribute-instagram   -> Build publishing assets for a specific blog post
 ```
 
-**Use `/instagram-warmup` when:** You want a single browser sweep that produces both an engagement queue and a fresh batch of save candidates.
+**Use `/instagram-warmup` when:** You want a single browser sweep that produces a few ready-to-use replies and a fresh batch of save candidates.
 
-**Use `/instagram-reply` when:** You already have a warmup doc and want to draft replies for the queued opportunities without losing account context.
+**Use `/instagram-reply` when:** You explicitly want alternate drafts, deeper diagnosis, or need to process an older warmup that predates integrated suggestions.
 
 **Use `/instagram-saves triage` when:** Today's warmup dropped saves into `inbox/` (or you bookmarked things manually and ran `/instagram-saves capture`).
 
 ---
 
-_Last Updated: 2026-06-18 (v5 — pond-first revamp: warmup now scans BY POND from enneagram-engagement-clusters.md, syncs to this week's active type via personality-series-engagement-strategy.md, tags every opportunity/account with pond+type, and scores active-pond fit. The old "scan Enneagram-account tiers" model is demoted to a secondary CRM map.)_
+_Last Updated: 2026-08-03 (v6 — reply drafting folded into warmup; output capped at 0–3 suggestions with a grounding/specificity/authenticity gate. Separate `/instagram-reply` is optional.)_
+_v5 — 2026-06-18: pond-first revamp: warmup scans by pond and syncs to the active type._
 _v4 — 2026-05-18: Phase 7 Filter-B save bar; warmup feeds docs/instagram/saves/inbox/._

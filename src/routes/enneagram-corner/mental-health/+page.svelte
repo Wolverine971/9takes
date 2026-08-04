@@ -326,18 +326,18 @@
 							{@const blogPath =
 								blog.loc?.replace('https://9takes.com', '') ||
 								`/enneagram-corner/mental-health/${blog.slug}`}
-							<a href={blogPath} class="blog-card image-card" class:has-image={blog.pic}>
+							<a href={blogPath} class="blog-card" class:has-image={blog.pic}>
 								{#if blog.pic}
 									<div
-										class="card-image image-card-media"
+										class="card-image"
 										style={`background-image: url(/blogs/s-${blog.pic}.webp);`}
 									></div>
 								{/if}
-								<div class="card-overlay image-card-overlay"></div>
-								<div class="card-content image-card-content">
+								<div class="card-overlay"></div>
+								<div class="card-content">
 									<h4>{blog.title}</h4>
 									<p>{blog.description}</p>
-									<span class="read-link image-card-read-more">Read Guide</span>
+									<span class="read-link">Read Guide</span>
 								</div>
 							</a>
 						{/each}
@@ -679,14 +679,19 @@
 	}
 
 	.blog-card {
-		@extend .image-card !optional;
 		position: relative;
 		aspect-ratio: 4 / 3;
+		overflow: hidden;
 		border-radius: 1rem;
 		background: var(--surface-card-strong);
-		transition: all 0.25s ease;
 		border: 1px solid var(--accent-border);
 		box-shadow: var(--shadow-sm);
+		color: inherit;
+		text-decoration: none;
+		transition:
+			transform 0.25s ease,
+			border-color 0.25s ease,
+			box-shadow 0.25s ease;
 
 		&::before {
 			content: '';
@@ -717,15 +722,54 @@
 				color: var(--lamp-glow);
 			}
 		}
+
+		&.has-image {
+			.card-content,
+			.card-content h4,
+			.read-link {
+				color: var(--text-on-image);
+			}
+
+			.card-content p {
+				color: var(--text-on-image-muted);
+			}
+
+			.card-overlay {
+				background: linear-gradient(
+					to top,
+					var(--image-overlay-strong) 0%,
+					var(--image-overlay-medium) 45%,
+					var(--image-overlay-soft) 100%
+				);
+			}
+
+			&:hover .card-content h4,
+			&:hover .read-link {
+				color: var(--text-on-image);
+			}
+		}
+	}
+
+	.page-wrapper :global(.blog-card:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
 	}
 
 	.card-image {
-		@extend .image-card-media !optional;
-		transition-duration: 0.35s;
+		position: absolute;
+		inset: 0;
+		background-position: center;
+		background-size: cover;
+		transition: transform 0.35s ease;
+	}
+
+	.blog-card:hover .card-image {
+		transform: scale(1.05);
 	}
 
 	.card-overlay {
-		@extend .image-card-overlay !optional;
+		position: absolute;
+		inset: 0;
 		background:
 			linear-gradient(
 				180deg,
@@ -740,8 +784,14 @@
 	}
 
 	.card-content {
-		@extend .image-card-content !optional;
+		position: relative;
+		z-index: 2;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		height: 100%;
 		padding: 1rem;
+		color: var(--ink-bright);
 
 		h4 {
 			font-size: 0.9375rem;
@@ -770,10 +820,25 @@
 		}
 
 		.read-link {
-			@extend .image-card-read-more !optional;
+			display: inline-flex;
+			align-items: center;
+			color: var(--lamp-glow);
 			font-size: 0.6875rem;
 			font-weight: 600;
 			margin-top: 0.375rem;
+			transition: color 0.2s ease;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.blog-card,
+		.card-image {
+			transition: none;
+		}
+
+		.blog-card:hover,
+		.blog-card:hover .card-image {
+			transform: none;
 		}
 	}
 

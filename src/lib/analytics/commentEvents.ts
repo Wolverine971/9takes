@@ -1,5 +1,6 @@
 // src/lib/analytics/commentEvents.ts
 import { capture } from '$lib/analytics/posthog';
+import { normalizeQuestionInviteId } from '$lib/analytics/questionInvites';
 
 export type CommentCreatedSurface = 'homepage' | 'question_page' | 'strategic_question';
 export type CommentCreatedKind = 'answer' | 'comment' | 'reply';
@@ -13,6 +14,7 @@ type CaptureCommentCreatedInput = {
 	surface: CommentCreatedSurface;
 	sourcePath?: string;
 	campaign?: string;
+	inviteId?: string | null;
 	isAnonymous: boolean;
 };
 
@@ -29,6 +31,7 @@ function normalizeCommentId(value: unknown): number | string | null {
 export function captureCommentCreated(input: CaptureCommentCreatedInput): Promise<void> {
 	const commentId = normalizeCommentId(input.commentId);
 	if (commentId === null) return Promise.resolve();
+	const inviteId = normalizeQuestionInviteId(input.inviteId);
 
 	const properties: Record<string, unknown> = {
 		comment_id: commentId,
@@ -44,6 +47,25 @@ export function captureCommentCreated(input: CaptureCommentCreatedInput): Promis
 	if (input.questionUrl) properties.question_url = input.questionUrl;
 	if (input.sourcePath) properties.source_path = input.sourcePath;
 	if (input.campaign) properties.campaign = input.campaign;
+	if (inviteId) {
+		properties.invite_id = inviteId;
+		properties.acquisition_source = 'question_invite';
+	}
 
-	return capture('comment_created', properties);
+	const events = [capture('comment_created', properties)];
+	if (inviteId && input.commentKind === 'answer') {
+		events.push(
+			capture('question_invite_recipient_answered', {
+				invite_id: inviteId,
+				comment_id: commentId,
+				question_id: input.questionId,
+				question_url: input.questionUrl,
+				surface: input.surface,
+				is_anonymous: input.isAnonymous,
+				server_confirmed: true
+			})
+		);
+	}
+
+	return Promise.all(events).then(() => undefined);
 }

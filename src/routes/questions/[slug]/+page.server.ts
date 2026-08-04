@@ -1,7 +1,7 @@
 // src/routes/questions/[slug]/+page.server.ts
 import { supabase } from '$lib/supabase';
 
-import type { Actions, PageServerLoad } from './$types';
+import type { Actions, PageServerLoad, RequestEvent } from './$types';
 import { error } from '@sveltejs/kit';
 import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcomeSequenceGuards';
 import {
@@ -185,99 +185,62 @@ export const load: PageServerLoad = async (event) => {
 	);
 };
 
+async function createQuestionComment(event: RequestEvent) {
+	const { request, getClientAddress, locals } = event;
+	const { body, demo_time } = await getRequestData(request);
+	const ip = getClientAddress();
+	const db = locals.supabase as any;
+	const sessionUserId = locals.session?.user?.id ?? null;
+
+	const validationResult = createCommentSchema.safeParse(body);
+	if (!validationResult.success) {
+		const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
+		throw error(400, { message: firstError });
+	}
+	const commentInput = validationResult.data;
+
+	if (!demo_time) {
+		const isAllowed = await checkRateLimit(commentInput.fingerprint, ip);
+		if (!isAllowed) {
+			throw error(429, {
+				message: 'Too many comments. Please wait a minute before trying again.'
+			});
+		}
+	}
+
+	await assertCommentAccess(commentInput, sessionUserId, demo_time);
+	const commentData = await createCommentData(commentInput, ip, sessionUserId);
+	const record = await handleCommentCreation(db, commentData, commentInput.parent_type, demo_time);
+
+	// Give-first contribution: log it (fingerprint-keyed) so it joins to the
+	// gate_shown event for the wall-hit -> contribution funnel.
+	if (!demo_time && commentInput.parent_type === 'question' && commentInput.fingerprint) {
+		queueGiveFirstEvent(event, {
+			fingerprint: commentInput.fingerprint,
+			eventType: 'contribution',
+			questionId: Number(commentInput.parent_id),
+			userId: sessionUserId
+		});
+	}
+
+	if (!demo_time && commentData.author_id) {
+		await safelyExitWelcomeSequenceForCommentCreation({
+			userId: commentData.author_id,
+			parentType: commentData.parent_type,
+			onError: (sequenceError) => {
+				console.error('Failed to exit welcome sequence after comment creation:', sequenceError);
+			}
+		});
+	}
+
+	return mapDemoValues(record as Record<string, unknown> | null);
+}
+
 export const actions: Actions = {
-	createComment: async (event) => {
-		const { request, getClientAddress, locals } = event;
-		const { body, demo_time } = await getRequestData(request);
-		const ip = getClientAddress();
-		const db = locals.supabase as any;
-		const sessionUserId = locals.session?.user?.id ?? null;
-
-		// Validate input
-		const validationResult = createCommentSchema.safeParse(body);
-		if (!validationResult.success) {
-			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
-			throw error(400, { message: firstError });
-		}
-		const commentInput = validationResult.data;
-
-		// Check rate limit (skip in demo mode)
-		if (!demo_time) {
-			const isAllowed = await checkRateLimit(commentInput.fingerprint, ip);
-			if (!isAllowed) {
-				throw error(429, {
-					message: 'Too many comments. Please wait a minute before trying again.'
-				});
-			}
-		}
-
-		await assertCommentAccess(commentInput, sessionUserId, demo_time);
-		const commentData = await createCommentData(commentInput, ip, sessionUserId);
-		const record = await handleCommentCreation(
-			db,
-			commentData,
-			commentInput.parent_type,
-			demo_time
-		);
-
-		// Give-first contribution: log it (fingerprint-keyed) so it joins to the
-		// gate_shown event for the wall-hit -> contribution funnel.
-		if (!demo_time && commentInput.parent_type === 'question' && commentInput.fingerprint) {
-			queueGiveFirstEvent(event, {
-				fingerprint: commentInput.fingerprint,
-				eventType: 'contribution',
-				questionId: Number(commentInput.parent_id),
-				userId: sessionUserId
-			});
-		}
-
-		if (!demo_time && commentData.author_id) {
-			await safelyExitWelcomeSequenceForCommentCreation({
-				userId: commentData.author_id,
-				parentType: commentData.parent_type,
-				onError: (sequenceError) => {
-					console.error('Failed to exit welcome sequence after comment creation:', sequenceError);
-				}
-			});
-		}
-
-		return record;
-	},
-
-	createCommentRando: async ({ request, getClientAddress, locals }) => {
-		const { body, demo_time } = await getRequestData(request);
-		const ip = getClientAddress();
-		const db = locals.supabase as any;
-		const sessionUserId = locals.session?.user?.id ?? null;
-
-		// Validate input
-		const validationResult = createCommentSchema.safeParse(body);
-		if (!validationResult.success) {
-			const firstError = validationResult.error.errors[0]?.message || 'Invalid comment data';
-			throw error(400, { message: firstError });
-		}
-		const commentInput = validationResult.data;
-
-		// Check rate limit (skip in demo mode)
-		if (!demo_time) {
-			const isAllowed = await checkRateLimit(commentInput.fingerprint, ip);
-			if (!isAllowed) {
-				throw error(429, {
-					message: 'Too many comments. Please wait a minute before trying again.'
-				});
-			}
-		}
-
-		await assertCommentAccess(commentInput, sessionUserId, demo_time);
-		const commentData = await createCommentData(commentInput, ip, sessionUserId);
-		const record = await handleCommentCreation(
-			db,
-			commentData,
-			commentInput.parent_type,
-			demo_time
-		);
-		return mapDemoValues(record as Record<string, unknown> | null);
-	},
+	// Keep both action names as aliases while older clients migrate. Their
+	// validation, authorization, side effects, and response shape stay identical.
+	createComment: createQuestionComment,
+	createCommentRando: createQuestionComment,
 
 	likeComment: async ({ request, locals }) => {
 		const session = locals.session;

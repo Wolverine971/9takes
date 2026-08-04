@@ -26,6 +26,18 @@
 	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import { capture } from '$lib/analytics/posthog';
+	import {
+		QUESTION_SHARE_NUDGE_DELAY_MS,
+		buildQuestionInviteUrl,
+		captureQuestionInvitePageView,
+		createQuestionInviteId,
+		markQuestionShareNudgeSeen,
+		questionShareNudgeWasSeen,
+		rememberOwnedQuestionInvite,
+		shareQuestionInvite,
+		shouldQueueQuestionShareNudge,
+		type QuestionInviteSource
+	} from '$lib/analytics/questionInvites';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { buildBreadcrumbSchemaForGraph, type BreadcrumbItem } from '$lib/utils/schema';
 	import type { PageData } from './$types';
@@ -60,6 +72,7 @@
 		tone: 'success' | 'error';
 	} | null>(null);
 	let shareNudgeTimer: number | null = null;
+	let shareNudgeSource: QuestionInviteSource = 'question-answer';
 	let categoryEditorOpen = $state(false);
 	let categoryEditorError = $state('');
 	let categoryEditorSuccess = $state('');
@@ -233,6 +246,8 @@
 
 	// QR Code settings
 	let qrCodeUrl = $state('');
+	let qrInviteId = '';
+	let qrInviteTracked = false;
 	const QR_OPTS = {
 		errorCorrectionLevel: 'H' as const,
 		type: 'image/png' as const,
@@ -438,35 +453,28 @@
 		}
 	}
 
-	function shareNudgeSeen(): boolean {
-		try {
-			return window.sessionStorage.getItem(shareNudgeStorageKey) === 'seen';
-		} catch {
-			return false;
-		}
-	}
-
 	function markShareNudgeSeen() {
-		try {
-			window.sessionStorage.setItem(shareNudgeStorageKey, 'seen');
-		} catch {
-			// Storage can be unavailable in privacy modes; dismissal still works in memory.
-		}
+		markQuestionShareNudgeSeen(window.sessionStorage, shareNudgeStorageKey);
 	}
 
-	function queueShareNudge(source: 'homepage-answer' | 'question-answer') {
-		if (!window.matchMedia('(min-width: 900px)').matches || shareNudgeSeen()) return;
+	function queueShareNudge(source: QuestionInviteSource) {
+		const shouldQueue = shouldQueueQuestionShareNudge({
+			matchesDesktop: window.matchMedia('(min-width: 900px)').matches,
+			alreadySeen: questionShareNudgeWasSeen(window.sessionStorage, shareNudgeStorageKey)
+		});
+		if (!shouldQueue) return;
 		if (shareNudgeTimer !== null) window.clearTimeout(shareNudgeTimer);
 
 		shareNudgeTimer = window.setTimeout(() => {
 			shareNudgeFeedback = null;
 			shareNudgeVisible = true;
+			shareNudgeSource = source;
 			shareNudgeTimer = null;
 			void capture('question_share_nudge_shown', {
 				question_url: data.question.url,
 				source
 			});
-		}, 8000);
+		}, QUESTION_SHARE_NUDGE_DELAY_MS);
 	}
 
 	function dismissShareNudge(action: 'dismissed' | 'shared' = 'dismissed') {
@@ -489,44 +497,67 @@
 	}
 
 	async function shareQuestionFromNudge() {
-		const shareData = {
+		const result = await shareQuestionInvite({
+			baseUrl: url,
 			title: 'A question from 9takes',
 			text: `${formattedQuestionText}\n\nWhat’s your take?`,
-			url
-		};
+			share: navigator.share?.bind(navigator),
+			writeClipboard: navigator.clipboard?.writeText?.bind(navigator.clipboard)
+		});
 
-		if (navigator.share) {
-			try {
-				await navigator.share(shareData);
-				void capture('question_shared_from_nudge', {
-					question_url: data.question.url,
-					method: 'native'
-				});
+		if (result.status === 'aborted') return;
+
+		if (result.status === 'shared') {
+			rememberOwnedQuestionInvite({
+				inviteId: result.inviteId,
+				questionUrl: data.question.url,
+				source: shareNudgeSource
+			});
+
+			const shareProperties = {
+				invite_id: result.inviteId,
+				question_id: data.question.id,
+				question_url: data.question.url,
+				method: result.method,
+				source: shareNudgeSource
+			};
+			void capture('question_invite_created', shareProperties);
+			void capture('question_shared_from_nudge', shareProperties);
+
+			if (result.method === 'native') {
 				dismissShareNudge('shared');
 				return;
-			} catch (error) {
-				if (error instanceof DOMException && error.name === 'AbortError') return;
 			}
-		}
 
-		try {
-			if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
-			await navigator.clipboard.writeText(url);
 			shareNudgeFeedback = {
 				message: 'Link copied. Drop it in the group chat.',
 				tone: 'success'
 			};
 			markShareNudgeSeen();
-			void capture('question_shared_from_nudge', {
-				question_url: data.question.url,
-				method: 'clipboard'
-			});
-		} catch {
-			shareNudgeFeedback = {
-				message: 'Could not open sharing. Copy the page URL from your browser.',
-				tone: 'error'
-			};
+			return;
 		}
+
+		shareNudgeFeedback = {
+			message: 'Could not open sharing. Copy the page URL from your browser.',
+			tone: 'error'
+		};
+	}
+
+	function trackQrInviteOpened() {
+		if (!qrInviteId || qrInviteTracked) return;
+		qrInviteTracked = true;
+		rememberOwnedQuestionInvite({
+			inviteId: qrInviteId,
+			questionUrl: data.question.url,
+			source: 'question-toolbar'
+		});
+		void capture('question_invite_created', {
+			invite_id: qrInviteId,
+			question_id: data.question.id,
+			question_url: data.question.url,
+			method: 'qr',
+			source: 'question-toolbar'
+		});
 	}
 
 	beforeNavigate(() => {
@@ -536,9 +567,16 @@
 	// Generate QR code on component mount
 	onMount(() => {
 		innerWidth = window.innerWidth;
-		QRCode.toDataURL(`https://9takes.com/questions/${data.question.url}`, QR_OPTS)
+		qrInviteId = createQuestionInviteId();
+		const qrInviteUrl = buildQuestionInviteUrl(url, qrInviteId);
+		QRCode.toDataURL(qrInviteUrl, QR_OPTS)
 			.then((url) => (qrCodeUrl = url))
 			.catch((err) => console.error('QR Code generation failed:', err));
+		void captureQuestionInvitePageView({
+			currentUrl: window.location.href,
+			questionId: data.question.id,
+			questionUrl: data.question.url
+		});
 
 		if (new URL(window.location.href).searchParams.get('from') === 'homepage-answer') {
 			queueShareNudge('homepage-answer');
@@ -868,6 +906,7 @@
 					questionId={data.question.id}
 					parentType="question"
 					oncommentAdded={addComment}
+					onshareQrOpened={trackQrInviteOpened}
 					user={data?.user}
 					{qrCodeUrl}
 				/>

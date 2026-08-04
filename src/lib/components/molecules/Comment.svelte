@@ -5,6 +5,7 @@
 	import { resolve } from '$app/paths';
 	import { EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
 	import { slide } from 'svelte/transition';
+	import { captureCommentCreated } from '$lib/analytics/commentEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import Comments from '$lib/components/molecules/Comments.svelte';
@@ -246,6 +247,17 @@
 			}
 
 			notifications.success('Reply Added', 3000);
+			const createdReply = Array.isArray(result?.data) ? (result.data[0] ?? null) : result?.data;
+			void captureCommentCreated({
+				commentId: createdReply?.id,
+				questionId,
+				questionUrl: questionPageData?.question.url,
+				parentType: 'comment',
+				commentKind: 'reply',
+				surface: 'question_page',
+				sourcePath: window.location.pathname,
+				isAnonymous: false
+			});
 
 			// Update comment count
 			_commentComment.comment_count = (_commentComment.comment_count || 0) + 1;

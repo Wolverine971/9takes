@@ -57,4 +57,45 @@ describe('captureCommentCreated', () => {
 
 		expect(captureMock).not.toHaveBeenCalled();
 	});
+
+	it('joins an invited first answer to the recipient funnel without content or identity data', async () => {
+		const inviteId = '11111111-1111-4111-8111-111111111111';
+
+		await captureCommentCreated({
+			commentId: 321,
+			questionId: 9,
+			questionUrl: 'what-keeps-you-grounded',
+			parentType: 'question',
+			commentKind: 'answer',
+			surface: 'question_page',
+			sourcePath: '/questions/what-keeps-you-grounded',
+			inviteId,
+			isAnonymous: true
+		});
+
+		expect(captureMock).toHaveBeenNthCalledWith(
+			1,
+			'comment_created',
+			expect.objectContaining({
+				comment_id: 321,
+				invite_id: inviteId,
+				acquisition_source: 'question_invite'
+			})
+		);
+		expect(captureMock).toHaveBeenNthCalledWith(2, 'question_invite_recipient_answered', {
+			invite_id: inviteId,
+			comment_id: 321,
+			question_id: 9,
+			question_url: 'what-keeps-you-grounded',
+			surface: 'question_page',
+			is_anonymous: true,
+			server_confirmed: true
+		});
+		for (const [, properties] of captureMock.mock.calls) {
+			expect(properties).not.toHaveProperty('comment');
+			expect(properties).not.toHaveProperty('fingerprint');
+			expect(properties).not.toHaveProperty('email');
+			expect(properties).not.toHaveProperty('user_id');
+		}
+	});
 });

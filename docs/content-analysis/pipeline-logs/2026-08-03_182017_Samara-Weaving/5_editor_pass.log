@@ -1,0 +1,18 @@
+Polished `src/blog/people/drafts/Samara-Weaving.md`.
+
+**What it came in as:** already mechanically clean (0 lint fails, 0 strong contrast pairs, 0 prose em-dashes) after fresh-eyes, second, and cohesion passes. So this was a prose pass, not a repair job.
+
+**Main problems I cleaned up**
+
+- **Negative parallelism at the Azrael hinge.** "That is not fear management. That is fear used as a compass" was the last #1-tell construction in the body. The quality report misses it because it straddles two sentences. Cut to the affirmative half.
+- **A cadence tic running the whole piece.** Six reader-directives in the same shape (*Read that again / Sit inside that / Hold that against / Then hold it against / Listen to what she is envying / Put the label to her*). That symmetry is the thing that reads as machine-written. Cut to four, varied the survivors.
+- **Cold open.** "discovered / discovered / discovery" inside two sentences, and "A woman who has taken medication for anxiety" demoted the subject into an abstraction on her own opening beat. Rewritten with her as subject.
+- **Two sub-threshold contrast pairs** the linter scores but doesn't fail: the empathy turn's *outside/inside* symmetry (rewritten around the short list and its consequence, so the loyalty reframe survives intact) and the TL;DR's *critics call it X / she calls it Y* bullet.
+- **Hedges and lecture openers**: "worth noticing carefully," "Here is what that repetition actually is," "She is also, notably," "the opposite of a limited performer," "becomes legible."
+- **Resolved a second-pass open item.** The unverified growth-arrow quote ("If I put too much pressure on the outcome...") I couldn't re-verify either, so I dropped it rather than pinning it to a source I can't stand behind. The arrow argument now runs on the sourced McCarthy material, and "relinquish the rest" gained its attribution at first use.
+
+Protected and untouched: the inner-thought paragraph, the uncle Hugo beat, the dose-record form, and the airport closer.
+
+**Final numbers:** 0 strong contrast pairs (target met). 1 comparative remains — it's inside a direct Weaving quote and isn't editable. blog-lint 0 fail / 3 warn (all pre-existing). Source audit still 6 inline, 0 vague, 0 untagged. 4493 → 4444 words, which buys back 56 words of headroom under the 4500 ceiling.
+
+**Readiness:** production-ready on prose. It does not need another substantive pass. The one real gate left is the `faqs` frontmatter — the enrich stage hasn't run, and blog-lint flags that as a discoverability cost.

@@ -1,0 +1,27 @@
+## Grading Complete — Samara Weaving
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Samara-Weaving | 6 | 7 | 9 | 9 | 8 | 9 | **7.8** | **C** |
+
+`(6×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 7.8`. Discoverability 9, so no gate. Two caps applied.
+
+### Key observations
+
+**The craft is B-band; two mechanical caps drop it to C.** Uncapped it computes to 8.6. The Azrael section, the unresolved thesis, and the airport closer are genuinely strong — this draft names its own explanatory limit on the page ("the seam where Weaving's own taste is carrying weight the Enneagram cannot") instead of tying the bow, which is rare for this pipeline.
+
+**Evidence capped at 6 — and the deterministic tool gave a false clean.** `blog-source-audit.mjs` reported 6 load-bearing / 6 inline / 0 untagged, but it printed "(no quoted material in slot)" for both the empathy-turn and close slots *while both slots contain quotes*. By hand I found eight of Weaving's own quotes plus both testimony quotes floating with no outlet and no date. Three are structurally load-bearing:
+
+- L194 "That's where I can just be a lunatic and don't feel judged" — the next line calls it "the whole engine, installed at five years old"
+- L219 "Your body doesn't know. You're just in a state of panic…" — zero attribution, and the entire meds thesis runs on it as the mechanism
+- L343 "Yeah, why not? 'Scream Queen' is great. I'll take it!" — zero attribution, and it's the hinge of the empathy turn
+
+The outlets exist in the Testimony Ledger and second-pass notes (Den of Geek 2024/2026). Ledgers don't render, so this is transcription work, not research. Worth a bug against the audit script — the slot-detection gap probably affects other files.
+
+**Originality capped at 7 for cross-draft sameness.** Five of seven listed moves reuse near-verbatim against Machine-Gun-Kelly and Penguinz0: the corpus-stat sentence (Samara L180 and MGK L203 are the same template), the epigraph→cold-open furniture, aphoristic-fragment closers, four reader-command imperatives, and the return-to-the-wound closer shape. Correctly varied: the TL;DR bullets are bespoke with no "The tell:" line, and the empathy turn avoids the scar-tissue grammar. Same-type similarity scan is clear (top 0.091 vs milly-alcock, a shared quote fragment).
+
+That's the third consecutive draft to take a sameness cap — KSI and Penguinz0 both landed at Originality 7 for the same reason. The revision pass is not varying the house furniture between drafts.
+
+`needs_review: true` — flagged because the Evidence cap overrides a clean script result.
+
+**Total graded this session: 1**
