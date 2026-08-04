@@ -1,0 +1,28 @@
+[2026-08-03 06:07:01] Starting weekly marketing brief
+Brief written and verified. Both target files updated, nothing else touched.
+
+**Files:** `docs/daily-briefs/2026-08-03_marketing-status.md` (25KB), `docs/marketing/marketing-log.md` (entry at line 13)
+
+---
+
+## TL;DR
+
+- **Growth data is FRESH (audit ran today, 2026-08-03).** Headline, verbatim: _"the 07-20 spike did not compound — contributions 14 -> 4, and the matured cohort returned 0 of 9. Root cause candidate found: 82% of registered profiles have no Enneagram type."_ Last week's "best contribution week ever" reversed: native gate conversion 16.3% → **5.4%**, six straight days of zero contributions, and last week's 22% contributor-return number was an artifact that corrects to **0%** under a strict `>24h` window.
+
+- **DJ personally broke the publish drought — and it re-jammed in one day.** Ten drafts carry publish dates 07-27 → 07-30 (disk `published: true` went **392 → 401**), but the auto-publisher shipped only **one** of them (jack-antonoff, 07-30). The other nine were manual: Mira-Murati went 8.4 → 8.6 and Jason-Sudeikis 8.1 → 8.5 on v2 rubric, so supervised regrades happened. That was exactly last brief's Recommendation #2, executed. Then publish failed **four straight days** (07-31 → 08-03).
+
+- **The publish gate's #1 blocker flipped from stale grades to missing images.** Top blocker today is `missing_full_image=54` / `missing_thumbnail_image=54`, overtaking `stale_grade_rubric_v1` (34 → 30). Per memory, type images are **manual Canva only** — the automated pipeline was removed 2026-06-10 and must not be rebuilt. The dominant blocker now has no automation path.
+
+- **NEW: the create pipeline has a filename-resolution bug and burns its last retry tonight.** `scripts/run-blog-pipeline.sh:109` builds `DRAFT_PATH="src/blog/people/drafts/${PERSON}.md"` from the queue name. The cron passed `stableronaldo`; the create stage correctly wrote `Stable-Ronaldo.md`. Nine downstream stages have now been skipped **twice** (08-02, 08-03) on a draft that exists on disk and is good. `retryCount: 2` — the 02:00 run tonight is retry 3/3.
+
+- **Instagram: sourcing healthy, output still zero — and the agent is now asking DJ to pick a fork.** Warmups ran clean 07-30 → 08-02 on the dedicated profile. But **zero comments have been posted for 4+ consecutive sessions**; the newest replies doc is `2026-07-26`, 8 days old. Melissa's owed reply is ~46 days; Candice's first touch has been queued **8 consecutive scans**. New failure mode on 07-28/07-29: `You've hit your weekly limit` (Claude usage cap, not session eviction).
+
+- **New surface, RED:** the Instagram content-ops queue is live (22 items) and **0/10 approved or scheduled**. Robert Greene is in `qa` with a target date of **today**; Chappell Roan Reel targets 08-04. Nothing is approved.
+
+- **Unchanged:** Quora **76 days dark**; 14 distribution assets unfired (none since the 07-22 blackpill package); pop-culture 18 unpublished for the 4th brief running; signups 0 (5th week); coaching waitlist 0 (10 weeks).
+
+---
+
+**Top 3 in the brief:** (1) fix the create path bug before 02:00 tonight (~10 min — structural fix at line 109, or rename the queue entry for one night); (2) pick the Instagram fork so a fifth queue doesn't get written (~2 min decision); (3) green-light identity capture, and fix the `NineChorus.svelte` light-mode contrast regression from `84c055bd` before the personality-analysis port.
+[2026-08-03 06:14:36] claude exited 0
+[2026-08-03 06:14:36] Weekly marketing brief OK: /Users/djwayne/9takes/docs/daily-briefs/2026-08-03_marketing-status.md

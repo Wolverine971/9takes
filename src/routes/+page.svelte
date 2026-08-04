@@ -8,10 +8,12 @@
 	import type { PageData } from './$types';
 	import { capture } from '$lib/analytics/posthog';
 	import { captureCommentCreated } from '$lib/analytics/commentEvents';
+	import { questionInvitePromptWasSeen } from '$lib/analytics/questionInvites';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import PerspectivePreviewCard from '$lib/components/molecules/PerspectivePreviewCard.svelte';
 	import TimeMirror from '$lib/components/marketing/TimeMirror.svelte';
+	import QuestionInviteCard from '$lib/components/questions/QuestionInviteCard.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import {
 		CHORUS_TAKE_MAX_CHARACTERS,
@@ -115,6 +117,7 @@
 	let alreadyAnswered = $state(false);
 	let chorusTakes = $state.raw<ChorusTake[]>([]);
 	let revealEl = $state<HTMLElement | null>(null);
+	let inviteCardVisible = $state(false);
 
 	const trimmedTake = $derived(previewTake.trim());
 	const wordCount = $derived(trimmedTake ? trimmedTake.split(/\s+/).length : 0);
@@ -217,6 +220,7 @@
 			chorusTakes = result.takes;
 			alreadyAnswered = Boolean(result.alreadyAnswered);
 			previewRevealed = true;
+			inviteCardVisible = browser && !questionInvitePromptWasSeen(data.featuredQuestion.url);
 			if (!alreadyAnswered) {
 				void captureCommentCreated({
 					commentId: result.commentId,
@@ -416,6 +420,16 @@
 							</div>
 						{/if}
 					</div>
+				{/if}
+
+				{#if inviteCardVisible}
+					<QuestionInviteCard
+						questionId={data.featuredQuestion.id}
+						questionUrl={data.featuredQuestion.url}
+						questionText={data.featuredQuestion.question}
+						source="homepage-answer"
+						onclose={() => (inviteCardVisible = false)}
+					/>
 				{/if}
 
 				<div class="takes-shell" class:is-revealed={previewRevealed} aria-live="polite">

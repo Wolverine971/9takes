@@ -14,28 +14,19 @@
   globally in src/scss/index.scss.
 -->
 <script lang="ts">
-	import { beforeNavigate, invalidateAll } from '$app/navigation';
+	import { afterNavigate, beforeNavigate, invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
-	import { onMount } from 'svelte';
-	import { Share2, X } from '@lucide/svelte';
-	import QRCode from 'qrcode';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
+	import QuestionInviteCard from '$lib/components/questions/QuestionInviteCard.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 	import { Button, SectionKicker } from '$lib/components/atoms';
-	import { capture } from '$lib/analytics/posthog';
 	import {
-		QUESTION_SHARE_NUDGE_DELAY_MS,
-		buildQuestionInviteUrl,
 		captureQuestionInvitePageView,
-		createQuestionInviteId,
-		markQuestionShareNudgeSeen,
-		questionShareNudgeWasSeen,
-		rememberOwnedQuestionInvite,
-		shareQuestionInvite,
-		shouldQueueQuestionShareNudge,
+		getRecipientQuestionInviteId,
+		questionInvitePromptWasSeen,
 		type QuestionInviteSource
 	} from '$lib/analytics/questionInvites';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
@@ -66,13 +57,9 @@
 	// Local state for optimistic updates
 	let optimisticComments = $state<Comment[]>([]);
 	let optimisticUserHasAnswered = $state(false);
-	let shareNudgeVisible = $state(false);
-	let shareNudgeFeedback = $state<{
-		message: string;
-		tone: 'success' | 'error';
-	} | null>(null);
-	let shareNudgeTimer: number | null = null;
-	let shareNudgeSource: QuestionInviteSource = 'question-answer';
+	let inviteCardVisible = $state(false);
+	let inviteSource = $state<QuestionInviteSource>('question-answer');
+	let recipientInviteId = $state<string | null>(null);
 	let categoryEditorOpen = $state(false);
 	let categoryEditorError = $state('');
 	let categoryEditorSuccess = $state('');
@@ -244,28 +231,10 @@
 		user: data.user
 	});
 
-	// QR Code settings
-	let qrCodeUrl = $state('');
-	let qrInviteId = '';
-	let qrInviteTracked = false;
-	const QR_OPTS = {
-		errorCorrectionLevel: 'H' as const,
-		type: 'image/png' as const,
-		margin: 1,
-		color: {
-			// Brand amber (--lamp-glow) on night-deep — was the retired teal.
-			dark: '#F59E0B',
-			light: '#0C0A09'
-		}
-	};
-
-	// Responsive variables
-	let innerWidth = $state(0);
 	let formattedQuestionText = $derived(
 		normalizeText(data.question.question_formatted || data.question.question)
 	);
 	let url = $derived(`https://9takes.com/questions/${data.question.url}`);
-	let shareNudgeStorageKey = $derived(`9takes:share-nudge:${data.question.url}`);
 	let hasUserProvidedContext = $derived(hasUserProvidedQuestionContext(data.question.data));
 	let questionContext = $derived(
 		hasUserProvidedContext
@@ -327,16 +296,14 @@
 		items.push({ name: formattedQuestionText, url });
 		return items;
 	});
-	// Trimmed chain shown to readers — drops the redundant "Home" entry and the
-	// trailing question title (the question card sits right below the crumbs).
+	// Keep the original quiet parent trail readers recognize. The single-item
+	// case remains a real link through Breadcrumbs.linkSingleItem.
 	let displayBreadcrumbItems = $derived.by(() => {
-		const items: BreadcrumbItem[] = [{ name: 'Questions', url: 'https://9takes.com/questions' }];
+		const items: BreadcrumbItem[] = [{ name: 'Questions', url: '/questions' }];
 		if (deepestCategory?.category_name) {
 			items.push({
 				name: deepestCategory.category_name,
-				url: `https://9takes.com${buildQuestionCategoryPath(
-					deepestCategory.slug || deepestCategory.category_name
-				)}`
+				url: buildQuestionCategoryPath(deepestCategory.slug || deepestCategory.category_name)
 			});
 		}
 		return items;
@@ -444,7 +411,7 @@
 		// Always mark as answered so the gate opens immediately
 		if (isFirstComment) {
 			optimisticUserHasAnswered = true;
-			queueShareNudge('question-answer');
+			showQuestionInvite('question-answer');
 		}
 
 		// Invalidate for first-time commenters to refresh permissions and load all comments
@@ -453,125 +420,19 @@
 		}
 	}
 
-	function markShareNudgeSeen() {
-		markQuestionShareNudgeSeen(window.sessionStorage, shareNudgeStorageKey);
-	}
-
-	function queueShareNudge(source: QuestionInviteSource) {
-		const shouldQueue = shouldQueueQuestionShareNudge({
-			matchesDesktop: window.matchMedia('(min-width: 900px)').matches,
-			alreadySeen: questionShareNudgeWasSeen(window.sessionStorage, shareNudgeStorageKey)
-		});
-		if (!shouldQueue) return;
-		if (shareNudgeTimer !== null) window.clearTimeout(shareNudgeTimer);
-
-		shareNudgeTimer = window.setTimeout(() => {
-			shareNudgeFeedback = null;
-			shareNudgeVisible = true;
-			shareNudgeSource = source;
-			shareNudgeTimer = null;
-			void capture('question_share_nudge_shown', {
-				question_url: data.question.url,
-				source
-			});
-		}, QUESTION_SHARE_NUDGE_DELAY_MS);
-	}
-
-	function dismissShareNudge(action: 'dismissed' | 'shared' = 'dismissed') {
-		shareNudgeVisible = false;
-		markShareNudgeSeen();
-		void capture('question_share_nudge_closed', {
-			question_url: data.question.url,
-			action
-		});
-	}
-
-	function resetShareNudge() {
-		if (shareNudgeTimer !== null) {
-			window.clearTimeout(shareNudgeTimer);
-			shareNudgeTimer = null;
-		}
-
-		shareNudgeVisible = false;
-		shareNudgeFeedback = null;
-	}
-
-	async function shareQuestionFromNudge() {
-		const result = await shareQuestionInvite({
-			baseUrl: url,
-			title: 'A question from 9takes',
-			text: `${formattedQuestionText}\n\nWhat’s your take?`,
-			share: navigator.share?.bind(navigator),
-			writeClipboard: navigator.clipboard?.writeText?.bind(navigator.clipboard)
-		});
-
-		if (result.status === 'aborted') return;
-
-		if (result.status === 'shared') {
-			rememberOwnedQuestionInvite({
-				inviteId: result.inviteId,
-				questionUrl: data.question.url,
-				source: shareNudgeSource
-			});
-
-			const shareProperties = {
-				invite_id: result.inviteId,
-				question_id: data.question.id,
-				question_url: data.question.url,
-				method: result.method,
-				source: shareNudgeSource
-			};
-			void capture('question_invite_created', shareProperties);
-			void capture('question_shared_from_nudge', shareProperties);
-
-			if (result.method === 'native') {
-				dismissShareNudge('shared');
-				return;
-			}
-
-			shareNudgeFeedback = {
-				message: 'Link copied. Drop it in the group chat.',
-				tone: 'success'
-			};
-			markShareNudgeSeen();
-			return;
-		}
-
-		shareNudgeFeedback = {
-			message: 'Could not open sharing. Copy the page URL from your browser.',
-			tone: 'error'
-		};
-	}
-
-	function trackQrInviteOpened() {
-		if (!qrInviteId || qrInviteTracked) return;
-		qrInviteTracked = true;
-		rememberOwnedQuestionInvite({
-			inviteId: qrInviteId,
-			questionUrl: data.question.url,
-			source: 'question-toolbar'
-		});
-		void capture('question_invite_created', {
-			invite_id: qrInviteId,
-			question_id: data.question.id,
-			question_url: data.question.url,
-			method: 'qr',
-			source: 'question-toolbar'
-		});
+	function showQuestionInvite(source: QuestionInviteSource) {
+		if (questionInvitePromptWasSeen(data.question.url)) return;
+		inviteSource = source;
+		inviteCardVisible = true;
 	}
 
 	beforeNavigate(() => {
-		resetShareNudge();
+		inviteCardVisible = false;
+		recipientInviteId = null;
 	});
 
-	// Generate QR code on component mount
-	onMount(() => {
-		innerWidth = window.innerWidth;
-		qrInviteId = createQuestionInviteId();
-		const qrInviteUrl = buildQuestionInviteUrl(url, qrInviteId);
-		QRCode.toDataURL(qrInviteUrl, QR_OPTS)
-			.then((url) => (qrCodeUrl = url))
-			.catch((err) => console.error('QR Code generation failed:', err));
+	afterNavigate(() => {
+		recipientInviteId = getRecipientQuestionInviteId(window.location.href);
 		void captureQuestionInvitePageView({
 			currentUrl: window.location.href,
 			questionId: data.question.id,
@@ -579,12 +440,8 @@
 		});
 
 		if (new URL(window.location.href).searchParams.get('from') === 'homepage-answer') {
-			queueShareNudge('homepage-answer');
+			showQuestionInvite('homepage-answer');
 		}
-
-		return () => {
-			resetShareNudge();
-		};
 	});
 
 	// SEO metadata (derived to stay reactive with data changes)
@@ -826,8 +683,6 @@
 	}
 </script>
 
-<svelte:window bind:innerWidth />
-
 <SEOHead
 	{title}
 	{description}
@@ -851,7 +706,7 @@
 		<div class="open-case-inner">
 			{#if displayBreadcrumbItems.length}
 				<div class="open-case-breadcrumbs">
-					<Breadcrumbs items={displayBreadcrumbItems} />
+					<Breadcrumbs items={displayBreadcrumbItems} linkSingleItem />
 				</div>
 			{/if}
 
@@ -900,15 +755,20 @@
 				<QuestionDisplay question={data.question} />
 			</div>
 
+			{#if recipientInviteId}
+				<aside class="invite-arrival" aria-label="Invitation context">
+					<strong>Someone thought you might see this differently.</strong>
+					<span>Give your take first. Then compare what each of you noticed.</span>
+				</aside>
+			{/if}
+
 			<div class="open-case-interact">
 				<Interact
 					data={dataForChild}
 					questionId={data.question.id}
 					parentType="question"
 					oncommentAdded={addComment}
-					onshareQrOpened={trackQrInviteOpened}
 					user={data?.user}
-					{qrCodeUrl}
 				/>
 			</div>
 
@@ -926,6 +786,16 @@
 					<p class="mono open-case-context__label">USER-ADDED CONTEXT</p>
 					<p class="open-case-context__body">{questionContext}</p>
 				</aside>
+			{/if}
+
+			{#if inviteCardVisible}
+				<QuestionInviteCard
+					questionId={data.question.id}
+					questionUrl={data.question.url}
+					questionText={formattedQuestionText}
+					source={inviteSource}
+					onclose={() => (inviteCardVisible = false)}
+				/>
 			{/if}
 
 			{#if dataForChild}
@@ -1134,43 +1004,6 @@
 			{/if}
 		</div>
 	</section>
-
-	{#if shareNudgeVisible}
-		<aside
-			class="share-nudge"
-			aria-labelledby="share-nudge-title"
-			aria-describedby="share-nudge-copy"
-		>
-			<button
-				type="button"
-				class="share-nudge__close"
-				onclick={() => dismissShareNudge()}
-				aria-label="Dismiss share suggestion"
-			>
-				<X size={17} aria-hidden="true" />
-			</button>
-			<span class="share-nudge__icon" aria-hidden="true">
-				<Share2 size={20} />
-			</span>
-			<p class="share-nudge__kicker">A friend-to-friend test</p>
-			<h2 id="share-nudge-title">Who would answer this differently?</h2>
-			<p id="share-nudge-copy" class="share-nudge__copy">
-				Drop this question in a group chat. Compare answers after everyone gives their own take.
-			</p>
-			<Button fullWidth size="md" onclick={shareQuestionFromNudge}>Share in a group chat</Button>
-			{#if shareNudgeFeedback}
-				<p
-					class={[
-						'share-nudge__feedback',
-						shareNudgeFeedback.tone === 'error' && 'share-nudge__feedback--error'
-					]}
-					role="status"
-				>
-					{shareNudgeFeedback.message}
-				</p>
-			{/if}
-		</aside>
-	{/if}
 </article>
 
 <style lang="scss">
@@ -1194,119 +1027,6 @@
 
 	:global(:root.light) .question-page {
 		--cta-text: var(--ink-bright);
-	}
-
-	.share-nudge {
-		position: fixed;
-		right: max(1.5rem, env(safe-area-inset-right));
-		bottom: max(1.5rem, env(safe-area-inset-bottom));
-		z-index: 30;
-		display: none;
-		width: min(23rem, calc(100vw - 3rem));
-		padding: 1.2rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 38%, var(--stone-edge));
-		border-radius: 1rem;
-		background: color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
-		box-shadow: var(--shadow-lg);
-	}
-
-	.share-nudge__close {
-		position: absolute;
-		top: 0.55rem;
-		right: 0.55rem;
-		display: grid;
-		width: 2.75rem;
-		height: 2.75rem;
-		place-items: center;
-		padding: 0;
-		border: 0;
-		border-radius: 0.625rem;
-		background: transparent;
-		color: var(--ink-dim);
-		cursor: pointer;
-	}
-
-	.share-nudge__close:hover {
-		background: var(--stone-mid);
-		color: var(--ink-bright);
-	}
-
-	:global(.question-page .share-nudge__close:focus-visible) {
-		outline: 2px solid var(--lamp-glow);
-		outline-offset: 2px;
-	}
-
-	.share-nudge__icon {
-		display: grid;
-		width: 2.5rem;
-		height: 2.5rem;
-		place-items: center;
-		margin-bottom: 0.85rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 34%, var(--stone-edge));
-		border-radius: 0.625rem;
-		background: var(--lamp-soft);
-		color: var(--lamp-glow);
-	}
-
-	.share-nudge__kicker {
-		margin: 0;
-		color: var(--lamp-glow);
-		font-family: var(--font-mono);
-		font-size: 0.62rem;
-		letter-spacing: 0.07em;
-		text-transform: uppercase;
-	}
-
-	.share-nudge h2 {
-		max-width: 17rem;
-		margin: 0.4rem 0 0;
-		color: var(--ink-bright);
-		font-size: 1.2rem;
-		font-weight: 720;
-		letter-spacing: -0.02em;
-		line-height: 1.2;
-	}
-
-	.share-nudge__copy {
-		margin: 0.65rem 0 1rem;
-		color: var(--ink-mid);
-		font-size: 0.84rem;
-		line-height: 1.55;
-	}
-
-	.share-nudge__feedback {
-		margin: 0.75rem 0 0;
-		color: var(--success-text);
-		font-size: 0.75rem;
-		line-height: 1.45;
-	}
-
-	.share-nudge__feedback--error {
-		color: var(--warning-text);
-	}
-
-	@media (min-width: 900px) {
-		.share-nudge {
-			display: block;
-		}
-	}
-
-	@media (min-width: 900px) and (prefers-reduced-motion: no-preference) {
-		.share-nudge {
-			animation: share-nudge-enter 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
-		}
-	}
-
-	@keyframes share-nudge-enter {
-		from {
-			transform: translateY(10px);
-			opacity: 0;
-		}
-
-		to {
-			transform: translateY(0);
-			opacity: 1;
-		}
 	}
 
 	/* .mono is a global utility in index.scss (promoted 2026-06-10). */
@@ -1511,6 +1231,22 @@
 		color: var(--ink-bright);
 		text-wrap: balance;
 		line-height: 1.08;
+	}
+
+	.invite-arrival {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 0.45rem;
+		padding: 0.7rem 0.85rem;
+		border-left: 2px solid var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-soft) 24%, transparent);
+		color: var(--ink-mid);
+		font-size: 0.82rem;
+		line-height: 1.5;
+	}
+
+	.invite-arrival strong {
+		color: var(--ink-bright);
 	}
 
 	.open-case-coords {

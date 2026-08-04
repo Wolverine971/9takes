@@ -10,16 +10,16 @@ vi.mock('$lib/analytics/posthog', () => ({
 }));
 
 import {
-	QUESTION_SHARE_NUDGE_DELAY_MS,
 	buildQuestionInviteUrl,
 	captureQuestionInvitePageView,
 	getQuestionInviteId,
 	getRecipientQuestionInviteId,
-	markQuestionShareNudgeSeen,
-	questionShareNudgeWasSeen,
+	markQuestionInvitePromptSeen,
+	questionInvitePromptWasSeen,
+	recordQuestionInviteCreated,
 	rememberOwnedQuestionInvite,
 	shareQuestionInvite,
-	shouldQueueQuestionShareNudge
+	shouldUseNativeQuestionShare
 } from './questionInvites';
 
 const INVITE_ID = '11111111-1111-4111-8111-111111111111';
@@ -34,18 +34,37 @@ describe('question invite sharing', () => {
 		window.sessionStorage.clear();
 	});
 
-	it('keeps the polite nudge delayed, desktop-only, and dismissible once per session', () => {
-		const storageKey = `9takes:share-nudge:${QUESTION_URL}`;
+	it('shows the polite inline prompt once per answered question', () => {
+		expect(questionInvitePromptWasSeen(QUESTION_URL, window.localStorage)).toBe(false);
 
-		expect(QUESTION_SHARE_NUDGE_DELAY_MS).toBe(8_000);
-		expect(shouldQueueQuestionShareNudge({ matchesDesktop: true, alreadySeen: false })).toBe(true);
-		expect(shouldQueueQuestionShareNudge({ matchesDesktop: false, alreadySeen: false })).toBe(
-			false
-		);
+		markQuestionInvitePromptSeen(QUESTION_URL, window.localStorage);
 
-		markQuestionShareNudgeSeen(window.sessionStorage, storageKey);
-		expect(questionShareNudgeWasSeen(window.sessionStorage, storageKey)).toBe(true);
-		expect(shouldQueueQuestionShareNudge({ matchesDesktop: true, alreadySeen: true })).toBe(false);
+		expect(questionInvitePromptWasSeen(QUESTION_URL, window.localStorage)).toBe(true);
+		expect(questionInvitePromptWasSeen('a-different-question', window.localStorage)).toBe(false);
+	});
+
+	it('uses native sharing on mobile and clipboard sharing on desktop', () => {
+		expect(
+			shouldUseNativeQuestionShare({
+				canNativeShare: true,
+				coarsePointer: true,
+				viewportWidth: 1024
+			})
+		).toBe(true);
+		expect(
+			shouldUseNativeQuestionShare({
+				canNativeShare: true,
+				coarsePointer: false,
+				viewportWidth: 390
+			})
+		).toBe(true);
+		expect(
+			shouldUseNativeQuestionShare({
+				canNativeShare: true,
+				coarsePointer: false,
+				viewportWidth: 1280
+			})
+		).toBe(false);
 	});
 
 	it('builds a privacy-safe attributed URL and rejects malformed attribution', () => {
@@ -134,6 +153,28 @@ describe('question invite sharing', () => {
 		);
 
 		expect(getRecipientQuestionInviteId(inviteUrl, window.localStorage)).toBeNull();
+	});
+
+	it('records an attributed invite as both analytics and local ownership', async () => {
+		await recordQuestionInviteCreated({
+			inviteId: INVITE_ID,
+			questionId: 9,
+			questionUrl: QUESTION_URL,
+			source: 'question-toolbar',
+			method: 'qr',
+			storage: window.localStorage
+		});
+
+		expect(captureMock).toHaveBeenCalledWith('question_invite_created', {
+			invite_id: INVITE_ID,
+			question_id: 9,
+			question_url: QUESTION_URL,
+			method: 'qr',
+			source: 'question-toolbar'
+		});
+		expect(
+			getRecipientQuestionInviteId(`${BASE_URL}?via=${INVITE_ID}`, window.localStorage)
+		).toBeNull();
 	});
 
 	it('captures one recipient landing per browser session', async () => {

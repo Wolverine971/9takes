@@ -304,6 +304,7 @@
 	}
 
 	.tab {
+		position: relative;
 		padding: 0.4rem 0.875rem;
 		font-size: 0.8rem;
 		font-weight: 500;
@@ -312,7 +313,10 @@
 		border: 1px solid var(--stone-warm);
 		border-radius: 0.625rem;
 		background: var(--stone-warm);
-		transition: all 0.15s ease;
+		transition:
+			color 0.15s ease,
+			background-color 0.15s ease,
+			border-color 0.15s ease;
 
 		&:hover {
 			color: var(--lamp-glow);
@@ -324,6 +328,11 @@
 			color: white;
 			border-color: var(--lamp-glow);
 		}
+	}
+
+	.typeahead-page :global(.tab:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: -2px;
 	}
 
 	.header {

@@ -89,6 +89,24 @@ test('mobile smoke: question detail (SSR)', async ({ page }) => {
 	expect(href, 'questions listing should link to at least one question').toBeTruthy();
 
 	await smokeCheck(page, href!);
+
+	const backLink = page
+		.getByRole('navigation', { name: 'Breadcrumb' })
+		.getByRole('link', { name: 'Questions', exact: true });
+	await expect(backLink).toBeVisible();
+	await expect(backLink).toHaveAttribute('href', '/questions');
+
+	// Preserve the approved three-action toolbar on one desktop row.
+	await page.setViewportSize({ width: 1440, height: 1000 });
+	const toolbarButtons = page.locator('.interaction-toolbar button');
+	await expect(toolbarButtons).toHaveCount(3);
+	const buttonTops = await toolbarButtons.evaluateAll((buttons) =>
+		buttons.map((button) => Math.round(button.getBoundingClientRect().top))
+	);
+	expect(Math.max(...buttonTops) - Math.min(...buttonTops)).toBeLessThanOrEqual(2);
+
+	await backLink.click();
+	await expect(page).toHaveURL(/\/questions$/);
 });
 
 test('mobile smoke: article detail (SSR)', async ({ page }) => {

@@ -1736,6 +1736,7 @@
 	}
 
 	.tab {
+		position: relative;
 		padding: 0.75rem 1rem;
 		border: none;
 		background: none;
@@ -1745,16 +1746,25 @@
 		color: var(--ink-mid);
 		border-bottom: 2px solid transparent;
 		margin-bottom: -1px;
-		transition: all 0.2s;
+		transition:
+			color 0.2s,
+			background-color 0.2s,
+			border-color 0.2s;
 	}
 
 	.tab:hover {
 		color: var(--ink-bright);
+		background: var(--stone-warm);
 	}
 
 	.tab.active {
 		color: var(--lamp-glow);
 		border-bottom-color: var(--lamp-glow);
+	}
+
+	.email-dashboard :global(.tab:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: -2px;
 	}
 
 	/* Section Card */

@@ -11,6 +11,10 @@ const {
 	notificationsDangerMock,
 	getOrCreateVisitorIdMock,
 	captureCommentCreatedMock,
+	captureMock,
+	shareQuestionInviteMock,
+	shouldUseNativeQuestionShareMock,
+	recordQuestionInviteCreatedMock,
 	fetchMock
 } = vi.hoisted(() => ({
 	deserializeMock: vi.fn(),
@@ -19,6 +23,10 @@ const {
 	notificationsDangerMock: vi.fn(),
 	getOrCreateVisitorIdMock: vi.fn(),
 	captureCommentCreatedMock: vi.fn(),
+	captureMock: vi.fn(),
+	shareQuestionInviteMock: vi.fn(),
+	shouldUseNativeQuestionShareMock: vi.fn(),
+	recordQuestionInviteCreatedMock: vi.fn(),
 	fetchMock: vi.fn()
 }));
 
@@ -41,6 +49,20 @@ vi.mock('$lib/analytics/visitorIdentity', () => ({
 vi.mock('$lib/analytics/commentEvents', () => ({
 	captureCommentCreated: captureCommentCreatedMock
 }));
+
+vi.mock('$lib/analytics/posthog', () => ({
+	capture: captureMock
+}));
+
+vi.mock('$lib/analytics/questionInvites', async (importOriginal) => {
+	const actual = await importOriginal<typeof import('$lib/analytics/questionInvites')>();
+	return {
+		...actual,
+		recordQuestionInviteCreated: recordQuestionInviteCreatedMock,
+		shareQuestionInvite: shareQuestionInviteMock,
+		shouldUseNativeQuestionShare: shouldUseNativeQuestionShareMock
+	};
+});
 
 vi.mock('svelte/transition', () => ({
 	slide: vi.fn(() => ({
@@ -71,6 +93,20 @@ describe('Interact', () => {
 		getOrCreateVisitorIdMock.mockReturnValue('visitor-123');
 		captureCommentCreatedMock.mockReset();
 		captureCommentCreatedMock.mockResolvedValue(undefined);
+		captureMock.mockReset();
+		captureMock.mockResolvedValue(undefined);
+		shouldUseNativeQuestionShareMock.mockReset();
+		shouldUseNativeQuestionShareMock.mockReturnValue(false);
+		shareQuestionInviteMock.mockReset();
+		shareQuestionInviteMock.mockResolvedValue({
+			status: 'shared',
+			method: 'clipboard',
+			inviteId: '11111111-1111-4111-8111-111111111111',
+			inviteUrl:
+				'https://9takes.com/questions/what-are-you-thinking-about-these-days?via=11111111-1111-4111-8111-111111111111'
+		});
+		recordQuestionInviteCreatedMock.mockReset();
+		recordQuestionInviteCreatedMock.mockResolvedValue(undefined);
 
 		fetchMock.mockReset();
 		fetchMock.mockResolvedValue({
@@ -95,12 +131,11 @@ describe('Interact', () => {
 		const longComment =
 			'This is a detailed comment that is intentionally long enough to avoid the short-answer confirmation path and submit immediately.';
 
-		const { getByRole, queryByText } = render(Interact, {
+		const { getByRole, queryByRole, queryByText } = render(Interact, {
 			intro: false,
 			props: {
 				parentType: 'question',
 				questionId: 85,
-				qrCodeUrl: '',
 				user: null,
 				oncommentAdded,
 				data: {
@@ -173,7 +208,7 @@ describe('Interact', () => {
 			inviteId,
 			isAnonymous: true
 		});
-		expect((commentBox as HTMLTextAreaElement).value).toBe('');
+		expect(queryByRole('textbox')).toBeNull();
 	});
 
 	it('caps long answers and keeps the textarea internally scrollable', async () => {
@@ -182,7 +217,6 @@ describe('Interact', () => {
 			props: {
 				parentType: 'question',
 				questionId: 85,
-				qrCodeUrl: '',
 				user: null,
 				data: {
 					question: {
@@ -231,16 +265,13 @@ describe('Interact', () => {
 		expect(commentBox.classList.contains('overflow-y-auto')).toBe(true);
 	});
 
-	it('records the toolbar invite when the attributed QR share is opened', async () => {
-		const onshareQrOpened = vi.fn();
+	it('uses direct share as the primary toolbar action and records its invite', async () => {
 		const { getByRole } = render(Interact, {
 			intro: false,
 			props: {
 				parentType: 'question',
 				questionId: 85,
-				qrCodeUrl: 'data:image/png;base64,invite',
 				user: null,
-				onshareQrOpened,
 				data: {
 					question: {
 						id: 85,
@@ -269,9 +300,22 @@ describe('Interact', () => {
 			}
 		});
 
-		await fireEvent.click(getByRole('button', { name: 'Share via QR Code' }));
+		await fireEvent.click(getByRole('button', { name: 'Share this question' }));
 
-		expect(onshareQrOpened).toHaveBeenCalledTimes(1);
+		expect(shareQuestionInviteMock).toHaveBeenCalledWith(
+			expect.objectContaining({
+				baseUrl: 'https://9takes.com/questions/what-are-you-thinking-about-these-days',
+				share: undefined
+			})
+		);
+		expect(recordQuestionInviteCreatedMock).toHaveBeenCalledWith({
+			inviteId: '11111111-1111-4111-8111-111111111111',
+			questionId: 85,
+			questionUrl: 'what-are-you-thinking-about-these-days',
+			source: 'question-toolbar',
+			method: 'clipboard'
+		});
+		expect(notificationsSuccessMock).toHaveBeenCalledWith('Invite link copied', 3000);
 	});
 
 	it('allows an anonymous user to submit a short first comment after confirmation', async () => {
@@ -282,7 +326,6 @@ describe('Interact', () => {
 			props: {
 				parentType: 'question',
 				questionId: 85,
-				qrCodeUrl: '',
 				user: null,
 				oncommentAdded: vi.fn(),
 				data: {

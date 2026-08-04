@@ -295,7 +295,16 @@ const OUTLETS = [
 	// this subject's trust-vetting and Babylon quotes. Same class as Shawn Ryan
 	// Show / Club Shay Shay / Zane Lowe above.
 	'On Film',
-	'Kevin McCarthy'
+	'Kevin McCarthy',
+	// Streamer-facing primary records (Stable-Ronaldo pass, 2026-08-04). All Grown
+	// Up posts numbered, dated episodes to Apple Podcasts and Spotify (Ep. 10,
+	// September 16, 2024 is this subject's longest on-record interview); Kai Cenat's
+	// Streamer University is a named, dated, publicly broadcast event with a full
+	// stream record. Same class as Jynxzi Podcast / Club Shay Shay / Are You Garbage
+	// above: for streamer subjects these ARE the checkable primary record, and
+	// without them every quote from them grades vague no matter how well sourced.
+	'All Grown Up',
+	'Streamer University'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

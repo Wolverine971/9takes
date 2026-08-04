@@ -1,0 +1,31 @@
+[2026-08-03 06:00:00] Starting weekly growth audit
+Log entry confirmed — `docs/growth/growth-log.md:11`, heading `### 2026-08-03`, newest-on-top above the 07-27 entry, history untouched. DB was live, so all numbers are real queries (no SETUP NEEDED flag).
+
+## Weekly Growth Audit — 2026-08-03
+
+**Complete week = 07-27 (Mon 07-27 – Sun 08-02).** Today is Monday WTD and immature.
+
+| Cohort wk | New visitors | Profiles (untyped) | Comments | Gate → contrib | New contribs → returned |
+|---|---:|---:|---:|---:|---:|
+| 07-27 | 3,559 | 3 (3/3) | **4** | 37 → 2 = **5.4%** | 2 → **0%** |
+| 07-20 | 3,868 | 1 (1/1) | 14 | 49 → 8 = 16.3% | 9 → **0%** (matured) |
+
+### Biggest leak
+**The contribution loop turns once and dies — contributor return is structurally zero, and the reveal has nothing to personalize with.**
+
+- **Last week's 22% return was an artifact.** Re-run with a strict `>24h and ≤7d` window, the matured 07-20 cohort returned **0 of 9**. Six weeks: 19 new contributors, 1 later-day returner (~5%) vs Chen's 30% D7 floor. Both multi-day returners ever are *registered profiles*; zero anonymous fingerprints have come back.
+- **New root cause: 82% of registered users have no Enneagram type.** 51 of 62 profiles since Dec 2025 are `enneagram='unknown'`, including all 3 this week. `/enneagram-test` drew 6 fingerprints all week (0.2% of traffic). The give-first payoff degrades to a generic nine-take dump for 4 of 5 registrants — there's no second turn to offer.
+- Contributions fell 14 → 4 with **six straight zero-contribution days on 23 gate fingerprints**. Gate exposure held steady (3–8 fps/day), so it's conversion, not reach. Converting surfaces are all unchanged since 07-25 — logged as unverified regression vs. small-n variance (P ≈ 1.8%), re-check next week.
+
+### Recommended bets
+1. **Post-contribution identity capture** — bet #1 for the third straight audit, still unshipped. One email field at the reveal. Evidence is now decisive, not suggestive. Success = ≥15% capture + ≥1 return in 30 days.
+2. **Type the user at the reveal, not at registration** (new). Contributors have just written the exact self-disclosure a typing heuristic needs. Success = ≥40% of new profiles typed in 30 days, vs 18% today.
+3. **Fix the NineChorus light-mode salience regression before porting the prompt to PA.** Commit `84c055bd` (07-29) stripped hardcoded fallbacks from `src/lib/components/blog/NineChorus.svelte`; those legacy tokens are undefined, so the panel used to render dark everywhere and now follows OS theme. In light mode it's near-white on near-white with a ghost CTA. **This blocks the "port the prompt to PA" bet that topped the last two audits.**
+
+### Also flagged
+- **Reactivation is losing and last week's stop condition was violated.** `reactivation_dormant`: 119 sends / 0 clicks / 3 unsubs. `reactivation_zombies` launched anyway (29 sends, 1 click). Joining all reactivation recipients to `comments` after send returns **0**. Recommend pausing both and rewriting the CTA.
+- **`/register` converts 3 of 4 visitors into profiles.** The form isn't the leak — traffic to it is (0.1% of visitors).
+
+Nothing committed, pushed, or modified outside `docs/growth/`.
+[2026-08-03 06:07:01] claude exited 0
+[2026-08-03 06:07:01] Weekly growth audit OK: Weekly growth audit: the 07-20 spike did not compound — contributions 14 -> 4, and the matured cohort returned 0 of 9. Root cause candidate found: 82% of registered profiles have no Enneagram type.

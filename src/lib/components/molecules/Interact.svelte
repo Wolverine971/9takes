@@ -7,7 +7,6 @@
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import { Button } from '$lib/components/atoms';
-	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
 	import type {
 		User,
@@ -17,7 +16,13 @@
 		QuestionPageData
 	} from '$lib/types/questions';
 	import { captureCommentCreated, type CommentCreatedKind } from '$lib/analytics/commentEvents';
-	import { getRecipientQuestionInviteId } from '$lib/analytics/questionInvites';
+	import { capture } from '$lib/analytics/posthog';
+	import {
+		getRecipientQuestionInviteId,
+		recordQuestionInviteCreated,
+		shareQuestionInvite,
+		shouldUseNativeQuestionShare
+	} from '$lib/analytics/questionInvites';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 
 	// Component props
@@ -26,18 +31,18 @@
 		data: QuestionPageData | CommentType;
 		user: User | null;
 		questionId: number;
-		qrCodeUrl: string;
 		oncommentAdded?: (comment: CommentType) => void;
-		onshareQrOpened?: () => void;
 	}
 
-	let { parentType, data, user, questionId, qrCodeUrl, oncommentAdded, onshareQrOpened }: Props =
-		$props();
+	let { parentType, data, user, questionId, oncommentAdded }: Props = $props();
 
 	// Type guard to check if data is QuestionPageData
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
 		return 'question' in d && d.question !== undefined;
 	};
+	const shouldOpenComposerInitially = () =>
+		parentType === 'question' &&
+		!(isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false);
 
 	// State variables
 	let likes = $state<CommentLike[]>([]);
@@ -46,13 +51,10 @@
 	// Give-first: on a question the user has not yet answered, the composer is
 	// the main event — open by default instead of hiding it behind a button.
 	// Replies and post-answer comments stay collapsed until asked for.
-	// svelte-ignore state_referenced_locally -- initial-open state is deliberately a snapshot
-	let commenting = $state(
-		parentType === 'question' &&
-			!(isQuestionPageData(data) ? data?.flags?.userHasAnswered || false : false)
-	);
+	let commenting = $state(shouldOpenComposerInitially());
 	let loading = $state(false);
 	let subscriptionLoading = $state(false);
+	let shareLoading = $state(false);
 	let anonymousComment = $state(false);
 	let shortAnswerNudge = $state(false);
 	let confirmShortSubmit = $state(false);
@@ -70,7 +72,6 @@
 	let nudgeId = $derived(`comment-composer-nudge-${composerId}`);
 	let errorId = $derived(`comment-composer-error-${composerId}`);
 	let commentButtonId = $derived(`comment-button-${composerId}`);
-	let qrModalId = $derived(`qr-modal-${composerId}`);
 
 	const SHORT_ANSWER_THRESHOLD = 100;
 	const TEXTAREA_MAX_HEIGHT_PX = 320;
@@ -111,7 +112,7 @@
 	// navigation, so the creation-time composer snapshot goes stale. Re-seed
 	// the draft and the give-first open state when the question changes; the
 	// early return keeps answered-state flips from clobbering user toggles.
-	let seededForQuestionId = questionId;
+	let seededForQuestionId = $state<number | null>(null);
 	$effect(() => {
 		if (questionId === seededForQuestionId) return;
 		seededForQuestionId = questionId;
@@ -120,6 +121,7 @@
 		shortAnswerNudge = false;
 		confirmShortSubmit = false;
 		commenting = parentType === 'question' && !userHasAnswered;
+		shareLoading = false;
 	});
 	let composerKindTitle = $derived(
 		`${composerKind.charAt(0).toUpperCase()}${composerKind.slice(1)}`
@@ -128,20 +130,65 @@
 		[shortAnswerNudge ? nudgeId : null, commentError ? errorId : null].filter(Boolean).join(' ') ||
 			undefined
 	);
-	let shareReady = $derived(Boolean(qrCodeUrl));
-
 	// Update likes and subscription state from data
 	$effect(() => {
 		likes = isQuestionPageData(data) ? [] : (data as CommentType)?.comment_like || [];
 		subscriptions = isQuestionPageData(data) ? data?.question?.subscriptions || [] : [];
 	});
 
-	// Handle QR code modal opening
-	const openQRModal = () => {
-		if (!shareReady) return;
-		onshareQrOpened?.();
-		getModal(qrModalId).open();
-	};
+	function getShareableQuestion() {
+		return isQuestionPageData(data) ? data.question : null;
+	}
+
+	async function shareQuestionFromToolbar() {
+		const question = getShareableQuestion();
+		if (!question || shareLoading) return;
+		shareLoading = true;
+
+		try {
+			const useNativeShare = shouldUseNativeQuestionShare({
+				canNativeShare: typeof navigator.share === 'function',
+				coarsePointer:
+					typeof window.matchMedia === 'function' && window.matchMedia('(pointer: coarse)').matches,
+				viewportWidth: window.innerWidth
+			});
+			const result = await shareQuestionInvite({
+				baseUrl: `https://9takes.com/questions/${question.url}`,
+				title: 'A question from 9takes',
+				text: `${question.question_formatted || question.question}\n\nI think you might answer this differently.`,
+				share: useNativeShare ? navigator.share.bind(navigator) : undefined,
+				writeClipboard: navigator.clipboard?.writeText?.bind(navigator.clipboard)
+			});
+
+			if (result.status !== 'shared') {
+				if (result.status === 'failed') {
+					notifications.danger('Could not share this question. Copy the page URL instead.', 4000);
+				}
+				return;
+			}
+
+			void recordQuestionInviteCreated({
+				inviteId: result.inviteId,
+				questionId,
+				questionUrl: question.url,
+				source: 'question-toolbar',
+				method: result.method
+			});
+			void capture('question_shared_from_toolbar', {
+				invite_id: result.inviteId,
+				question_id: questionId,
+				question_url: question.url,
+				source: 'question-toolbar',
+				method: result.method
+			});
+			notifications.success(
+				result.method === 'native' ? 'Share opened' : 'Invite link copied',
+				3000
+			);
+		} finally {
+			shareLoading = false;
+		}
+	}
 
 	const getCommentFingerprint = (): string => {
 		if (cachedFingerprint) return cachedFingerprint;
@@ -299,8 +346,9 @@
 				if (textareaElement) resizeTextarea(textareaElement);
 			});
 
-			// Hide comment box after submitting for non-first-time users
-			if (userHasAnswered) {
+			// Collapse the composer after an answer so the unlocked room and
+			// one-person comparison invitation become the immediate next step.
+			if (submittedKind === 'answer' || userHasAnswered) {
 				commenting = false;
 			}
 		}
@@ -441,15 +489,15 @@
 
 {#snippet commentIcon()}
 	<MasterCommentIcon
-		iconStyle={'padding: 0;'}
-		height={'1.25rem'}
-		fill={'currentColor'}
+		iconStyle="padding: 0;"
+		height="1.25rem"
+		fill="currentColor"
 		type={comment?.length ? 'full' : 'empty'}
 	/>
 {/snippet}
 
 {#snippet subscriptionIcon()}
-	<BellIcon iconStyle={'padding: 0;'} height={'1.25rem'} fill={'currentColor'} />
+	<BellIcon iconStyle="padding: 0;" height="1.25rem" fill="currentColor" />
 {/snippet}
 
 {#snippet shareIcon()}
@@ -499,14 +547,15 @@
 				</Button>
 
 				<Button
-					title={shareReady ? 'Share via QR Code' : 'Preparing share code'}
+					title="Share this question"
 					class="interaction-toolbar-button"
 					variant="secondary"
 					size="md"
-					onclick={openQRModal}
-					disabled={!shareReady}
-					aria-label={shareReady ? 'Share via QR Code' : 'Preparing share QR code'}
-					aria-busy={!shareReady || undefined}
+					onclick={shareQuestionFromToolbar}
+					disabled={shareLoading}
+					loading={shareLoading}
+					aria-label="Share this question"
+					aria-busy={shareLoading || undefined}
 					icon={shareIcon}
 				>
 					Share
@@ -619,30 +668,6 @@
 		</div>
 	{/if}
 </div>
-
-<!-- QR Code Modal -->
-{#if parentType === 'question'}
-	<Modal id={qrModalId} name="Share this question">
-		<div class="mx-auto flex max-w-sm flex-col items-center py-2 text-center">
-			<h2 class="mb-1 text-xl font-semibold text-[var(--ink-bright)]">Share This Question</h2>
-			<p class="mb-5 text-sm text-[var(--ink-mid)]">Scan the QR code to share with others</p>
-
-			<div class="mb-5 rounded-xl border border-[var(--lamp-soft)] bg-[var(--night-deep)] p-4">
-				{#if shareReady}
-					<img
-						src={qrCodeUrl}
-						alt="Share question QR code"
-						width="180"
-						height="180"
-						class="h-[180px] w-[180px]"
-					/>
-				{/if}
-			</div>
-
-			<p class="text-xs text-[var(--ink-dim)]">Share and explore different perspectives</p>
-		</div>
-	</Modal>
-{/if}
 
 <style>
 	.interact-shell {

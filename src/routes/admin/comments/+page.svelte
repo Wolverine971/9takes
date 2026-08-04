@@ -582,6 +582,7 @@
 		gap: 2px;
 		background: var(--night-deep);
 		padding: 3px;
+		border-bottom: 1px solid var(--stone-warm);
 		border-radius: 0.625rem;
 	}
 
@@ -597,17 +598,26 @@
 		font-weight: 500;
 		color: var(--ink-mid);
 		cursor: pointer;
-		transition: all 0.15s;
+		transition:
+			color 0.15s,
+			background-color 0.15s,
+			box-shadow 0.15s;
 	}
 
 	.tab:hover {
 		color: var(--ink-bright);
+		background: var(--stone-warm);
 	}
 
 	.tab.active {
 		background: var(--stone-warm);
 		color: var(--ink-bright);
 		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+	}
+
+	.admin-comments :global(.tab:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: -2px;
 	}
 
 	.tab-badge {

@@ -1,7 +1,8 @@
+// scripts/lint-global-component-css.mjs
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const MAX_LINES = 614;
+const MAX_LINES = 212;
 const stylesheetUrl = new URL('../src/scss/components.scss', import.meta.url);
 const stylesheetPath = fileURLToPath(stylesheetUrl);
 const stylesheet = readFileSync(stylesheetUrl, 'utf8');

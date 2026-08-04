@@ -803,11 +803,13 @@
 
 	.tabs {
 		display: flex;
+		gap: 0.25rem;
 		border-bottom: 1px solid var(--stone-warm);
 		overflow-x: auto;
 	}
 
 	.tab {
+		position: relative;
 		flex: 1;
 		display: flex;
 		align-items: center;
@@ -820,7 +822,11 @@
 		background: none;
 		border: none;
 		cursor: pointer;
-		transition: all 0.2s;
+		transition:
+			color 0.2s,
+			background-color 0.2s,
+			border-color 0.2s,
+			box-shadow 0.2s;
 		border-bottom: 2px solid transparent;
 		white-space: nowrap;
 
@@ -838,6 +844,11 @@
 		svg {
 			flex-shrink: 0;
 		}
+	}
+
+	.poster-generator :global(.tab:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: -2px;
 	}
 
 	.tab-content {

@@ -2,21 +2,26 @@
 <script lang="ts">
 	import type { BreadcrumbItem } from '$lib/utils/schema';
 
-	let { items = [] }: { items?: BreadcrumbItem[] } = $props();
+	let {
+		items = [],
+		linkSingleItem = false
+	}: { items?: BreadcrumbItem[]; linkSingleItem?: boolean } = $props();
 </script>
 
 <!-- JSON-LD breadcrumb schema is already emitted by BlogPageHead/PeopleBlogPageHead -->
 
 <nav aria-label="Breadcrumb" class="breadcrumbs">
 	<ol itemscope itemtype="https://schema.org/BreadcrumbList">
-		{#each items as item, i}
+		{#each items as item, i (`${item.url}:${item.name}`)}
 			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-				{#if i < items.length - 1}
+				{#if i < items.length - 1 || (linkSingleItem && items.length === 1)}
 					<a itemprop="item" href={item.url}>
 						<span itemprop="name">{item.name}</span>
 					</a>
 					<meta itemprop="position" content={String(i + 1)} />
-					<span class="separator" aria-hidden="true">/</span>
+					{#if i < items.length - 1}
+						<span class="separator" aria-hidden="true">/</span>
+					{/if}
 				{:else}
 					<span itemprop="name" class="current" aria-current="page">{item.name}</span>
 					<meta itemprop="item" content={item.url} />

@@ -1270,23 +1270,40 @@
 		grid-template-columns: repeat(4, 1fr);
 		gap: 0.3rem;
 		padding: 0.65rem;
+		border-bottom: 1px solid var(--stone-warm);
 		background: var(--stone-warm);
 	}
 
 	.tab {
+		position: relative;
 		padding: 0.6rem 0.5rem;
 		background: transparent;
 		border: 1px solid var(--stone-warm);
 		border-radius: 0.5rem;
 		color: var(--ink-mid);
+		font-size: 0.875rem;
 		font-weight: 600;
 		cursor: pointer;
+		transition:
+			color 0.3s ease,
+			background-color 0.3s ease,
+			border-color 0.3s ease;
+	}
+
+	.tab:hover {
+		color: var(--ink-bright);
+		background: var(--stone-warm);
 	}
 
 	.tab.active {
 		background: color-mix(in srgb, var(--lamp-glow) 22%, transparent);
 		border-color: color-mix(in srgb, var(--lamp-glow) 55%, var(--stone-warm));
 		color: var(--ink-bright);
+	}
+
+	.zine-creator :global(.tab:focus-visible) {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: -2px;
 	}
 
 	.tab-content {

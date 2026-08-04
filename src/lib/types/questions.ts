@@ -189,7 +189,6 @@ export interface InteractProps {
 	data: QuestionPageData;
 	user: User | null;
 	questionId: number;
-	qrCodeUrl: string;
 }
 
 export interface QuestionContentProps {

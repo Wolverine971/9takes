@@ -1,0 +1,699 @@
+[2026-08-04 02:00:00] [INFO] Nightly blog cron starting (dry-run=0)
+[2026-08-04 02:00:02] [WARN] RECOVERY: stableronaldo retry 2/3 has existing canonical draft Stable-Ronaldo.md; resuming after create
+[2026-08-04 02:00:02] [INFO] SELECTED: stableronaldo (Type ?)
+[2026-08-04 02:00:02] [INFO] Launching pipeline for stableronaldo
+═════════════════════════════════════════════════════
+9takes blog pipeline
+Mode:    resume
+Person:  stableronaldo
+Draft:   src/blog/people/drafts/Stable-Ronaldo.md
+Logs:    /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo
+Started: Tue Aug  4 02:00:04 EDT 2026
+═════════════════════════════════════════════════════
+
+[Stage 1] create skipped in resume mode; continuing existing draft at src/blog/people/drafts/Stable-Ronaldo.md
+
+─────────────────────────────────────────────────────
+[Stage 2] fresh_eyes  (started 02:00:04)
+Command: /blog_content_fresh_eyes_people Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/2_fresh_eyes.log
+─────────────────────────────────────────────────────
+Reviewed `src/blog/people/drafts/Stable-Ronaldo.md` and appended a `FRESH EYES REVIEW` block at the bottom (no body edits).
+
+**The two biggest flags:**
+
+1. **The formula fingerprint the linter missed.** The ledger reports 0 contrast pairs, but that's because the script only catches literal "not X but Y." The actual engine of the piece is *negation-then-assertion* — "The engine is not appetite. It is accounting," "He is not describing an audience. He is describing a threshold," "Shame does that. Boredom does not" — eight instances. A reader will start hearing the template over the person. Should come down to about three.
+
+2. **The strongest complication is locked in the skippable accordion.** His 2025 burnout hiatus — and his own line, *"Every single thing has been documented since I was 17. I never really got time off the internet"* — appears only as a Type 7 counterargument inside the Rabbit Hole. That's the moment the accounting engine ran out of gas, at the *top* of his career rather than the bottom, and anyone who closes the accordion never sees it. He also went dark off-stream in September 2025 and apologized for disappearing; the draft doesn't mention it.
+
+Two other things worth knowing before the next pass: there's an internal contradiction on the FaZe exit (line 123 says he spent 35 minutes explaining why he left; line 239 says he left with no explanation — press coverage backs the second), and two significant omissions a viewer would notice immediately — the on-stream Boba breakup with the "one of his girlfriends" accusation, and the Stake/gambling ban, which is the sharpest available counter-evidence against the draft's own "money is a smoke detector" thesis.
+
+Sources: [Sportskeeda — hiatus/anxiety](https://www.sportskeeda.com/us/streamers/news-i-lot-anxiety-stable-ronaldo-announces-hiatus-livestreaming-faze-subathon), [IBTimes — FaZe exits](https://www.ibtimes.co.uk/faze-clan-hit-major-exits-stable-ronaldo-silky-lacy-jasontheween-leave-1765943), [Dexerto — fifth Twitch ban](https://www.dexerto.com/twitch/faze-ronaldo-banned-from-twitch-for-fifth-time-2954840/), [Dot Esports — Martyn slap](https://dotesports.com/streaming/news/i-can-probably-sue-him-stable-ronaldo-gets-slapped-after-removing-bradley-martyns-hat), [Dexerto — CORE launch](https://www.dexerto.com/twitch/former-faze-clan-creators-rebrand-under-new-core-group-with-20m-content-house-3359297/), [Jaxon — breakup](https://www.jaxon.gg/reason-why-stableronaldos-girlfriend-broke-up-with-him/)
+[Stage 2] fresh_eyes finished 02:03:30 (exit=0, 206s)
+
+─────────────────────────────────────────────────────
+[Stage 3] second_pass  (started 02:03:30)
+Command: /blog_content_second_pass_people Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/3_second_pass.log
+─────────────────────────────────────────────────────
+Second pass done on `src/blog/people/drafts/Stable-Ronaldo.md`.
+
+## Source audit (the load-bearing fix, done wholesale first)
+
+**Before:** 7 quotes / 0 inline / 4 vague / 3 untagged
+**After:** 5 quotes / **5 inline** / 0 vague / 0 untagged
+
+Epigraph and cold open now carry "All Grown Up podcast, September 2024"; Ninja's insult carries `(Dexerto, 2023)`; the Kai Cenat closer carries "Streamer University, July 2026." The two untagged diagnosis quotes disappeared with the Martyn compression. I added `All Grown Up` and `Streamer University` to `OUTLETS` in `scripts/blog-source-audit.mjs:298` with a dated comment, following the same precedent class already documented there (Jynxzi Podcast, Club Shay Shay, Shawn Ryan Show) — both are named, dated, publicly-recorded primary sources for a streamer subject.
+
+`blog-lint`: 0 fail, 1 warn (the expected "no faqs in frontmatter" — enrich stage hasn't run).
+
+## Main changes
+
+- **New H2, "Why Stable Ronaldo Took a Break in 2025."** The review was right that this was the piece's biggest miss. It's now the self-undercut beat: the Boba breakup in January ("Oh no, I am broken up with" — he lost the argument and kept the segment), the September 10 disappearance post, and the hiatus quotes. The point that earns the section: this collapse landed at the *top* of a career year, where the scoreboard had no column for it.
+- **The FaZe contradiction was real but resolvable.** Both facts are true: he left Christmas Day 2025 with a two-word post and no explanation, *and* streamed ~35 minutes about it to ~117k peak while showing the $11,000 dashboard. That juxtaposition is now a timeline row and the payoff of the smoke-detector paragraph.
+- **Negation-then-assertion tic cut from 9 to 3**, keeping the three the review named as landing.
+- **The mother now has a scene.** He opened the call with a lie about $50,000 and she was already crying at fifty; then "I sent you $250K. I want you to just enjoy your life, even if you don't need it."
+- Slap date corrected to June 7, 2024. Rani Netz introduced in the second sentence. Fortnite pivot added (a scoreboard that closes traded for one that never does). Stream texture added twice. Corpus stat moved into the pressure test with `401` dropped so it stops reading as an error.
+
+## One note I rejected
+
+**The gambling contradiction.** Verification kills it: the October 2024 ban was for accidentally showing *someone else* gambling on Stake (Dexerto, Sportskeeda), not for gambling on camera. Printing it as counter-evidence against a money-as-safety thesis would have been a manufactured tension. The 2025 hiatus does that job honestly.
+
+## Still open for an editor
+
+- Ninja's July 2023 DM is still paraphrased rather than quoted in the body; there's room for the text.
+- "I'm not going to be like 'I forgive you' because I don't" (rabbit hole) is unattributed in-text — almost certainly the All Grown Up episode, but I couldn't confirm it independently.
+- The Boba date is soft. Coverage is dated January 8, 2025 and describes "a viral clip from January," and a separate July 2024 on-stream breakup clip is also in circulation. I wrote "In January" without a day rather than pin it wrong.
+[Stage 3] second_pass finished 02:13:34 (exit=0, 604s)
+
+─────────────────────────────────────────────────────
+[Stage 4] cohesion  (started 02:13:34)
+Command: /cohesion-check src/blog/people/drafts/Stable-Ronaldo.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/4_cohesion.log
+─────────────────────────────────────────────────────
+Lint holds: **0 fail, 1 warn** — same single pre-existing warn (`no faqs in frontmatter`, the enrich stage hasn't run). Contrast-pair engines still 0, no em-dashes, no banned phrases.
+
+## Cohesion Check Complete: `Stable-Ronaldo.md`
+
+**Before: 7/10 → After: 9/10**
+
+### Central Thesis
+Rani Netz is a Type 3 who reads a live viewer count as a verdict on his worth, because a father's lost job taught him that money is what makes people stay — so revenue reads as safety, and even his own collapses get filed as inventory.
+
+### Changes Made (8 total)
+
+**Transition Fixes (4):**
+- **H2 1 → H2 2** — the diagnosis closed on "It is accounting," then the childhood section opened cold on biography. Added `That kind of accounting gets taught.` to carry the keyword across.
+- **H2 3 → H2 4** *(the worst seam)* — Receipts ends in 2026 with the clawback, then the next section dropped the reader into late 2023 with no time signal and no stated link between the money and the counter. Added: *"Every line of that ledger was paid for by the number in the corner of his screen. A year before the bank call, that number had nearly vanished."*
+- **H2 4 → H2 5** — `xQc went off about it on stream` had no antecedent in the prose; the only referent lived in the heading. Now *"Not everyone was buying. In December 2024, xQc went off about the ads on stream,"* which also carries "merchandise" forward from the previous line.
+- **H2 7 → H2 8** — added *"Two years before CORE, he was still keeping score on who had shown up for him."* Signals the rewind to September 2024 and carries "keeping crews together" into the Kai question.
+
+**Internal Flow Fixes (3):**
+- Diagnosis pressure-test paragraph: the corpus stat was wedged between the topic sentence and its argument. Reordered to claim → stat → the Seven-vs-Three contrast.
+- H2 6: the Boba beat and the September hiatus were joined only by "Then." Now *"The engine was still converting everything it touched. Eight months later it quit."* — which is the section's actual logic.
+- H2 7 recovery paragraph: reordered so the crew precedes the numbers (FaZe exit → CORE → "Then came the best statistical year"). The Type 6 argument is about people; the stats now read as the consequence rather than an interruption.
+
+**Missing Setup (1):**
+- The close depended on the 5,000-viewer rule from H2 4 but never recalled it. Added one clause: *"By his own rule, 2,000 was below the line where a person becomes worth looking at."* The final three paragraphs (blue headset, dark room, shoes) are untouched.
+
+### What Was Preserved
+All frontmatter, every ledger comment, all six internal links, the cold open, the Receipts timeline and source-card markup, the rabbit hole, and the Kai Cenat close.
+
+### Remaining Concerns
+Two judgment calls I left to you rather than editing around:
+
+1. **H2 7's heading over-promises its back half.** "What Stable Ronaldo Does When the Numbers Drop" ends on 2026 CORE success. The closing line carries it, and headings are locked by the HEADING MIX LEDGER, so I didn't touch it. If you ever re-cut the heading mix, that's the one to revisit.
+2. **The piece jumps chronology ten times.** That's correct for a thematic argument, and the three worst jumps now carry signposts, but a reader tracking dates rather than themes will still work for it.
+
+I appended a `COHESION PASS (2026-08-04)` ledger comment documenting all of this in the file's existing convention, including the three things I considered and deliberately left alone.
+[Stage 4] cohesion finished 02:18:11 (exit=0, 277s)
+
+─────────────────────────────────────────────────────
+[Stage 5] editor_pass  (started 02:18:11)
+Command: /blog_content_editor_pass_people Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/5_editor_pass.log
+─────────────────────────────────────────────────────
+Polished `src/blog/people/drafts/Stable-Ronaldo.md`.
+
+**The main problem was one no script catches: the piece kept stopping to tell the reader how to read it.** Ten instructional directives — "Sit with the word he reached for," "Watch how consistently the equation shows up," "Read the tail of that sentence again," "Notice the phrasing," "Now put the ad load next to the ledger," "Note where this collapse landed," "Go back to the bedroom in 2022," and four more. That's a museum-docent cadence, and it was the loudest AI tell left in the draft. Cut to one (a pointer at a specific timeline row, which is doing real work). Each of the others became a statement that lands the observation itself, or a cut that lets the pull quote / inner-thought do the pivot.
+
+**Second: the negation-then-assertion engine was at 7, not the 3 the `FORMULA FINGERPRINT LEDGER` claimed.** The ledger was stale exactly as the command warns. Rewrote five into positive form, including the empathy turn (which I kept in substance — "Never needing to worry is a different product from happiness" — since the standards protect that beat). Three survive on purpose: the "inventory" pull quote, "The engine is not appetite. It is accounting," and the xQc refusal.
+
+Also cut the comparative seesaws ("would rather absorb a bill than leave one behind" is now causal: *he grew up in the house where somebody left a bill behind and walked out, so he ate this one himself*), split four wall-of-text paragraphs for mobile, and fixed two clauses that fought themselves — notably the Kai Cenat close, where "a bedroom he had not been inside of and had not seen in three years" became "a bedroom he had never stood in, three years after the last time it was on his screen." He watched the room on a stream; he was never in it. That's the whole point of the ending.
+
+**Final counts:** contrast pairs 0 total (0 strong, 0 comparative). blog-lint 0 fail / 1 warn — the warn is the expected "no faqs in frontmatter," since the enrich stage hasn't run. Body 3,704 words. No em-dashes, no banned phrases, `lastmod` and all frontmatter untouched.
+
+**Production-ready on prose.** Two things I left rather than decided for you: heading case is mixed (H2 1–2 sentence case, H2 3–8 Title Case) — the editorial standards want sentence case, but the headings are locked by the `HEADING MIX LEDGER` and match the people-corpus convention, so I flagged it instead of changing it. And the frontmatter enrich stage still needs to run for the FAQs. The three open source questions from the second pass (Ninja's DM still paraphrased, the "I forgive you" line unattributed, the soft Boba date) are unchanged — those need research, not editing.
+[Stage 5] editor_pass finished 02:24:00 (exit=0, 349s)
+
+─────────────────────────────────────────────────────
+[Stage 6] enrich_frontmatter  (started 02:24:00)
+Command: /blog_content_frontmatter_enrich_people Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/6_enrich_frontmatter.log
+─────────────────────────────────────────────────────
+```
+Frontmatter enrichment complete: Stable-Ronaldo
+```
+
+**Fields filled:** `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):** `wikipedia`, `twitter`, `tiktok`, plus all creator-owned fields. `lastmod` untouched.
+
+**Verification:**
+- Wikidata `Q137597192` — birth 2003-01-15, born Cherry Hill, NJ (Wikipedia infobox; Wikidata P19 is state-level only)
+- IMDb `nm14338353` — cross-checked twice: Wikidata P345 **and** a search confirming the page is Rani Netz (*Streamer Games*, *Sidemen Charity Match 2025*)
+- All 7 citation URLs curl-verified 200. They resolve the outlets the body already cites by name (Dexerto for the Ninja feud + apology, Sportskeeda for the Martyn slap / the $250k / xQc's ad complaint / the September 2025 hiatus)
+- `same_as` includes the Liquipedia Fortnite entity (confirmed live via their API; it 403s to browsers as a bot block, not a dead link)
+- Frontmatter parses clean via gray-matter — no repeat of the `\'` YAML break
+- `blog-lint`: **0 fail, 0 warn** (the standing "no faqs" warn is now cleared)
+
+**FAQs generated (5):**
+1. What is Stable Ronaldo's personality type? → `#what-is-stable-ronaldos-personality-type`
+2. Why did Stable Ronaldo fall off in 2022? → `#what-stable-ronaldo-does-when-the-numbers-drop`
+3. Why did Stable Ronaldo take back the $250,000 he gave his mother? → `#the-receipts-what-stable-ronaldo-bought-his-mother`
+4. Why does Stable Ronaldo run so many ads on stream? → `#why-people-call-stable-ronaldo-an-ad-machine`
+5. Why did Stable Ronaldo take a break in 2025? → `#why-stable-ronaldo-took-a-break-in-2025`
+
+All five anchors match live H2s in the body. No em-dashes, no negation-then-assertion added.
+
+**Issues:**
+- **`instagram: ''` is still empty.** Social handles are on this command's do-not-touch list, so I left it, but the correct value is `stableronaldo` (Wikidata P2003, and the live account with ~2M followers whose bio links `@createownruneverything`). One-word fix if you want it.
+- **Zero external URLs in the body.** The article cites outlets by name in prose (Dexerto, Sportskeeda, TwitchTracker, All Grown Up) but carries no inline links, so `citations` had to be resolved by matching each named reference to its actual article rather than harvested from the text. Nothing invented, but the body's sourcing is name-only.
+- **TwitchTracker excluded.** The body's 2026 stats cite it, but the site 403s verification, so I left it out of `citations` rather than write an unverified link.
+[Stage 6] enrich_frontmatter finished 02:28:39 (exit=0, 279s)
+
+─────────────────────────────────────────────────────
+[Stage 6.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/6.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 148 chars
+ok    meta_title length 58 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (37 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 6
+ok    body length 3704 words (ceiling 4500)
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: Stable-Ronaldo — 0 fail, 0 warn
+[Stage 6.5] lint passed
+
+─────────────────────────────────────────────────────
+[Stage 6.6] quality_report  (started 02:28:39)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs src/blog/people/drafts/Stable-Ronaldo.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/6.6_quality_report.log
+─────────────────────────────────────────────────────
+blog-quality-report: Stable-Ronaldo
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Stable Ronaldo's Personality Type: Why 10,000 Isn't Enough
+   answer-block: ok (37 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 401)
+[Stage 6.6] quality_report finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.7] source_audit  (started 02:28:39)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs src/blog/people/drafts/Stable-Ronaldo.md --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/6.7_source_audit.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — stable-ronaldo  (Type 3)
+src/blog/people/drafts/Stable-Ronaldo.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I would get like 10,000 viewers and I'd be like, damn, I don't really want to stream."
+             outlet="All Grown Up"  year=2024  venue="podcast"
+
+### COLD OPEN
+  [INLINE  ] "I was like, damn, I'm the man,"
+             outlet="All Grown Up"  year=2024  venue="podcast"
+  [INLINE  ] "I could do what I want."
+             outlet="All Grown Up"  year=2024  venue="podcast"
+
+### DIAGNOSIS
+  [INLINE  ] "completely irrelevant, … tried to be an IRL streamer and failed miserably"
+             outlet="Dexerto"  year=2023
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  [INLINE  ] "Cause bro you funny, I fw with your sht. Them lil blue headset in that dark a$$ room with your shoes in your background."
+             outlet="Streamer University"  year=2026
+
+------------------------------------------------------------------------
+SUMMARY: 5 load-bearing quote(s) — 5 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 6.7] source_audit finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 6.8] same_type_similarity  (started 02:28:39)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs src/blog/people/drafts/Stable-Ronaldo.md --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/6.8_same_type_similarity.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — stable-ronaldo (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Stable-Ronaldo.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 41
+Comparison set (last 8 other Type-3 drafts by date):
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+  - jynxzi  (2026-07-25, 30 units)
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+
+Noise floor over 11316 unit pairs:  median=0  p90=0  p99=0.006  max=0.077
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.077 ###                  jynxzi
+  0.060 ##                   Brooke-Monk
+  0.054 ##                   Carina-Zavline
+  0.031 #                    plaqueboymax
+  0.026 #                    KSI
+  0.024 #                    pete-hegseth
+  0.022 #                    Alex-Warren
+  0.015 #                    margaret-qualley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.077   stable-ronaldo  <->  jynxzi
+   TARGET [diagnosis] " and that he "tried to be an IRL streamer and failed miserably" (Dexerto
+   OTHER  [diagnosis] he tried to describe the experience of not going live
+
+score 0.060   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Netz let the insult about his character stand and went straight at the other one
+   OTHER  [counter-typing] Her stated reason points straight at the audience
+
+score 0.054   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] His 2022 crash flattened him at an audience size that would make most careers.
+   OTHER  [counter-typing] or identity confusion that would make the inner Type 3 case conclusive.
+
+score 0.041   stable-ronaldo  <->  Brooke-Monk
+   TARGET [counter-typing] Boredom sends people out of the house.
+   OTHER  [diagnosis] Type 3 is the house type of this business
+
+score 0.031   stable-ronaldo  <->  plaqueboymax
+   TARGET [diagnosis] so anything that moves the scoreboard is an asset
+   OTHER  [counter-typing] Max gives and then checks the scoreboard.
+
+score 0.029   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] If he ever described the 2022 collapse as boredom
+   OTHER  [counter-typing] Carina has never publicly described the shame
+
+score 0.026   stable-ronaldo  <->  KSI
+   TARGET [diagnosis] He gave the same treatment to a lost year
+   OTHER  [diagnosis] more power." He gave his own healing a performance target.
+
+score 0.025   stable-ronaldo  <->  plaqueboymax
+   TARGET [diagnosis] The core desire is to feel valuable.
+   OTHER  [diagnosis] his first instinct is to check whether it registered.
+
+score 0.025   stable-ronaldo  <->  plaqueboymax
+   TARGET [diagnosis] When Ninja finally apologized on stream in December 2024
+   OTHER  [diagnosis] and back on the same stage in December 2025 he kept score out loud
+
+score 0.025   stable-ronaldo  <->  Brooke-Monk
+   TARGET [counter-typing] this typing would need to change.
+   OTHER  [diagnosis] "I will film as many takes as needed to make the video perfect.
+
+score 0.024   stable-ronaldo  <->  pete-hegseth
+   TARGET [diagnosis] When Ninja went after him on a drunken broadcast in July 2023
+   OTHER  [diagnosis] The reversal got its epilogue in July 2026
+
+score 0.023   stable-ronaldo  <->  jynxzi
+   TARGET [counter-typing] which is exactly what happened in September 2025.
+   OTHER  [diagnosis] which is why the wins never bank and the next one always has to happen on schedule.
+
+------------------------------------------------------------------------------
+Top pair scores 0.077 vs median 0  (~∞x the noise floor).
+[Stage 6.8] same_type_similarity finished (exit=0, 1s)
+
+[pre-grade] No existing content_quality block on draft
+─────────────────────────────────────────────────────
+[Stage 7] grade  (started 02:28:40)
+Command: /grade_blog Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/7_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Stable Ronaldo
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stable-Ronaldo | 6 | 7 | 8.5 | 8.5 | 8 | 9 | **7.6** | **C** |
+
+*(Weighted: `(6×1.5 + 7×1.5 + 8.5×1.5 + 8.5 + 8 + 9×0.5) / 7 = 7.6`. Disc 8.5 ≥ 7, so no gate.)*
+
+### Key observations
+
+**The craft is B-grade; the sourcing is what pulls it to C.** Uncapped, this computes to 8.3. Three caps applied:
+
+1. **Evidence capped at 6 (from 8).** `blog-source-audit.mjs` returns a clean 5/5-inline — that's a **false pass**. The script only reads five named slots and never enters `<div class="timeline">`, the receipts section, or the childhood section. Untagged load-bearing material includes the entire childhood sequence (the foundation of the thesis), the `$250k back` direct quote (which is also in the FAQ schema that AI engines lift), and the $700K / $1.2M / $1,000-a-day / $11,000 / 180–220K figures. For a blog arguing that *numbers are his self-worth*, roughly half the numbers are unsourced. The Alex-Warren C-anchor hyperlinks eight sources inline; this one doesn't.
+
+2. **Originality capped at 7.** Five house moves recur near-verbatim against Samara-Weaving, Machine-Gun-Kelly, and Penguinz0: the epigraph→firstLetter furniture, the TL;DR bold-label skeleton, the corpus-stat sentence with swapped numbers, the aphoristic one-line section closer (**7 of 8 sections** here), and the concrete-image-then-punch-line ending.
+
+3. **Writing capped at 8.** The negation-then-assertion engine runs ~6 times in the body, not the 3 the ledger claims — `blog-quality-report` reports 0 contrast pairs because it only catches literal "not X but Y."
+
+**What's genuinely strong:** the cold open is the best in the recent batch, the empathy turn uses his own wound-vocabulary rather than the house "armor/scar tissue" grammar, the 2025 hiatus is a real self-undercut (the engine failing at the *top* of a career year), and the Kai Cenat close is swap-proof. Discoverability is near-optimal — meta_title 58 chars, description 148, five FAQs whose anchors all resolve to live H2s.
+
+**Two bookkeeping errors worth fixing:** the FORMULA FINGERPRINT LEDGER reports a stale similarity score (0.058 vs. the actual 0.077) and a stale negation count, and TESTIMONY LEDGER #2 quotes Ninja's DM in full while the body only paraphrases it.
+
+The fastest path to B+ is entirely sourcing — five specific attributions would take Evidence 6→8 and the overall to ~8.0. Full list in `docs/content-analysis/grades/Stable-Ronaldo.review.md`.
+
+**Total graded this session: 1**
+[Stage 7] grade finished 02:33:34 (exit=0, 294s)
+
+[Stage 8] Revision loop triggered: overall 7.6 < 8.5; 
+─────────────────────────────────────────────────────
+[Stage 8] revise  (started 02:33:34)
+Command: /blog_content_revision_pass_people Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/8_revise.log
+─────────────────────────────────────────────────────
+Revised `src/blog/people/drafts/Stable-Ronaldo.md`. Lint was already clean, so this pass consumed the grader sidecar only — grade C (7.6), with Evidence capped at 6.
+
+**Evidence (the whole reason for the loop).** The grader was right that the scripted source audit's "5/5 inline" was a false pass — it only inspects five named slots and never reads the timeline, receipts, or childhood sections. I chased all five TO REACH items:
+
+- **Childhood sequence** — the lost job, divorce, and three jobs now carry his own video of August 23, 2024 (the source Wikipedia's early-life section cites). This was the foundation the entire thesis rested on with zero attribution.
+- **`$250k back` quote** — attributed in the timeline row *and* the FAQ answer, and re-dated from a bare "2026" to March 2026, tied to the ex-FaZe repair-bill cycle (win.gg, March 25, 2026).
+- **Bank-call quote** — pinned to the video he posted September 1, 2024 (Esports.gg) instead of leaning on an adjacent source card that cites a different quote.
+- **The figures** — $700K (Sportskeeda), the $1.2M leak (Dexerto, Oct 2024), the $1,000-a-day giveaway (Sportskeeda, Dec 2024). The **$11,000 dashboard checked out**: win.gg, Dec 29 2025, ~117,000 peak, ~35 min, before ads. The second-pass notes had it right; it just never reached the text.
+- **"Relevancy"** — its own sentence, its own cite, pinned to the June 9 broadcast.
+- Also named Copete Law, P.C. (Dexerto, Jan 21 2026) and swapped the age-17 fragment for his actual X post.
+
+**One thing I cut rather than sourced.** The 250-hour grind's "180,000–220,000 followers" and "clawed his average back up to 5,000" could not be traced to any outlet or tracker snapshot for November 2023. Per the grader's explicit allowance I reduced to the citable commitment (his own November 2023 announcement) and an unquantified recovery. The 5,000 survives only as his own stated rule for when a streamer is worth clicking — which is a quote, and is what the ending pays off.
+
+**Other caps.** Aphoristic closers 7 → 3 (kept the three both the grader and fresh-eyes called load-bearing); corpus-stat sentence replaced with person-specific framing; negation-then-assertion 6 → 2 (kept the "inventory" pull quote and the xQc refusal); arrow mechanics cut from the body since they were already verbatim in the rabbit hole. I also fixed the Discoverability dock — a 44-word direct type answer now precedes the Martyn scene, so an engine lifting that block gets an answer.
+
+**Ledgers.** Similarity corrected 0.058 → 0.077 (still clear; top pairs are date collisions), negation count corrected, and TESTIMONY LEDGER #2 no longer asserts a quote the reader never sees — Ninja's July 11, 2023 DM is now quoted in the body.
+
+**Rejected:** heading-case normalization. Third pass to flag it; headings are locked by the ledger and five FAQ anchors resolve against them. That's a corpus-wide call for you, not a one-draft divergence.
+
+Verification: `blog-lint` 0 fail / 0 warn, answer block 47 words, 0 contrast pairs, no corpus drift, source audit now 6 load-bearing quotes / 6 inline / 0 untagged. The pipeline will clear the consumed sidecar and re-grade — I didn't touch `content_quality` or `lastmod`.
+[Stage 8] revise finished 02:43:13 (exit=0, 579s)
+
+─────────────────────────────────────────────────────
+[Stage 8.5] lint (deterministic checks — scripts/blog-lint.sh)
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/8.5_lint.log
+─────────────────────────────────────────────────────
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 148 chars
+ok    meta_title length 58 chars
+ok    meta_title contains a searchable head term
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    type-answer opening block is extractable (47 words)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+ok    ledger present: FORMULA FINGERPRINT LEDGER
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (5 real Q/A pairs)
+ok    contrast-pair sentence engines: 0 strong (target <= 0)
+ok    no comparative contrast patterns detected
+ok    internal link count: 6
+ok    body length 3857 words (ceiling 4500)
+ok    no prose em-dashes (quote attributions exempt)
+ok    no banned AI phrases
+
+blog-lint: Stable-Ronaldo — 0 fail, 0 warn
+[Stage 8.5] lint passed
+
+[pre-grade] Stripping existing content_quality block from src/blog/people/drafts/Stable-Ronaldo.md for a clean re-grade
+[pre-grade] Removing prior grade-feedback sidecar for Stable-Ronaldo
+─────────────────────────────────────────────────────
+[Stage 9] post_revision_grade  (started 02:43:13)
+Command: /grade_blog Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/9_post_revision_grade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Stable Ronaldo (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stable-Ronaldo | 6 | 8 | 9 | 9 | 8 | 9 | **8.0** | **B** |
+
+`(6×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.0`. Discoverability 9, so no gate. First grade 7.6 (C) → regrade 8.0 (B), delta +0.4.
+
+### Key observations
+
+**The revision pass worked on everything it was pointed at.** I verified the claims rather than trusting the ledgers: corpus-stat sentence gone, reader-directives 10→1, aphoristic closers 7→3, negation-then-assertion 6→2 (hand-counted), arrow mechanics moved out of the body, 47-word extractable type answer now sits ahead of the Bradley Martyn scene. Against Samara-Weaving and Machine-Gun-Kelly the only overlaps left are structural house form, not near-verbatim reuse — **no Originality cap from sameness this time**.
+
+**Evidence is capped at 6, and it's a tooling blind spot, not a writing failure.** `blog-source-audit.mjs` reports 6/6 inline, 0 untagged — and it's right about the five slots it checks. Outside those slots there are eight untagged direct quotes and three vague attributions. The cap trigger is the 5,000-viewer rule at L288: no outlet, no date, and the ending is built on it ("By his own rule, 2,000 was below the line"). Worst item is L359 — `"I'm not going to be like 'I forgive you' because I don't"` — which the draft's own second-pass notes admit is "not independently confirmed," still printed as a direct quote and still doing argumentative work.
+
+**Standouts.** The empathy turn dodges the house `armor/scar tissue` grammar and builds its reframe from his own wound-vocabulary — best one in the recent batch. Discoverability is near-maximal: all five FAQ anchors resolve, entity metadata complete, meta_title and description both length-optimal. The Kai Cenat close is swap-proof and the cohesion pass gave it the setup it was missing.
+
+**The path to B+ is one dimension.** Evidence is worth 1.5×; sourcing those quotes alone takes 8.0 → 8.4–8.6 with no other changes. The sidecar lists each one by line number with the fix.
+
+Frontmatter written to the draft; feedback at `docs/content-analysis/grades/Stable-Ronaldo.review.md`. No legacy `QUALITY GRADE` block existed to remove, and `lastmod` untouched.
+
+**Total graded this session: 1**
+[Stage 9] post_revision_grade finished 02:48:25 (exit=0, 312s)
+
+[Stage 9.1] Running independent stability regrade on the final revised text
+[pre-grade] Stripping existing content_quality block from src/blog/people/drafts/Stable-Ronaldo.md for a clean re-grade
+[pre-grade] Removing prior grade-feedback sidecar for Stable-Ronaldo
+─────────────────────────────────────────────────────
+[Stage 9.1] stability_regrade  (started 02:48:25)
+Command: /grade_blog Stable-Ronaldo
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/9.1_stability_regrade.log
+─────────────────────────────────────────────────────
+## Grading Complete — Stable Ronaldo (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stable-Ronaldo | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability 9 — no gate. No caps applied.
+
+**Prior grade C (7.6) → B (8.4), delta 0.8.** The revision pass did what the last sidecar asked, and the numbers moved honestly.
+
+### Key observations
+
+- **Deterministic checks are clean.** 0 contrast pairs, head-term PASS, 47-word answer block, 6/6 load-bearing quotes inline, same-type similarity clear. Corpus-stat sentence removed, aphoristic closers 7→3, reader-directives 10→1, arrow mechanics moved into the rabbit hole.
+- **What earns the B:** the cold open (thesis fully dramatized before any framework word), an empathy turn in his own wound-vocabulary rather than house grammar ("reads revenue as a smoke detector"), and the 2025-hiatus section — a genuine self-undercut where the accounting engine fails at the *top* of a career year. That last one is rare in this corpus and it's what carries Enneagram to 9.
+- **What holds it at B — one fixable defect.** The piece is monochrome. The fresh-eyes review flagged that the reader never sees him be funny, the second pass answered with two glances, and then the closer asks you to feel Kai Cenat saying *"cause bro you funny."* The body never funded that line. Three to five sentences of an actual 2026 CORE broadcast, placed before the Kai section, moves Writing 8→8.5 and the overall to 8.5.
+- **Sourcing asymmetry worth flagging to you directly:** the money claims are well-cited; the *comeback* claims are the least-cited thing in the article. CORE's April 30 2026 launch and the $20M Calabasas house — the current-tense anchor and the Type 6 integration evidence — have no outlet anywhere, in body or `citations`. Also still carrying the unattributed "I'm not going to be like 'I forgive you' because I don't," which the draft's own second-pass notes flagged as unconfirmed two passes ago.
+- **Ledger accuracy problem, third pass running:** the FORMULA FINGERPRINT similarity figure has now been wrong three times (0.058 → 0.077 → actually 0.186). The verdict is still legitimately CLEAR — the top pair is a boilerplate collision — but the ledger keeps asserting a number the script contradicts. Worth a pipeline fix, not a per-draft one.
+
+Cross-draft sameness check ran against Samara-Weaving, Machine-Gun-Kelly, and Penguinz0: only the epigraph→cold-open furniture and bolded-noun TL;DR bullets are shared, both structural. Under the 3-move threshold.
+
+Written to `src/blog/people/drafts/Stable-Ronaldo.md` (frontmatter) and `docs/content-analysis/grades/Stable-Ronaldo.review.md`.
+
+**Total graded this session: 1**
+[Stage 9.1] stability_regrade finished 02:53:19 (exit=0, 294s)
+
+─────────────────────────────────────────────────────
+[Stage 9.2] record_grade_stability  (started 02:53:19)
+Command: node /Users/djwayne/9takes/scripts/personBlogParser.js Stable-Ronaldo --record-grade-stability --first-overall=8.0
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/9.2_record_grade_stability.log
+─────────────────────────────────────────────────────
+Recorded grade stability for Stable-Ronaldo: 8.0 -> 8.4 (delta 0.4)
+[Stage 9.2] record_grade_stability finished (exit=0, 0s)
+
+═════════════════════════════════════════════════════
+Pipeline complete for: stableronaldo
+Finished: Tue Aug  4 02:53:19 EDT 2026
+All logs: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo
+LINT: passed
+─────────────────────────────────────────────────────
+[Stage 9.5] quality_report_after_revision  (started 02:53:19)
+Command: node /Users/djwayne/9takes/scripts/blog-quality-report.mjs src/blog/people/drafts/Stable-Ronaldo.md
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/9.5_quality_report_after_revision.log
+─────────────────────────────────────────────────────
+blog-quality-report: Stable-Ronaldo
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=Stable Ronaldo's Personality Type: Why 10,000 Isn't Enough
+   answer-block: ok (47 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 401)
+[Stage 9.5] quality_report_after_revision finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 9.6] source_audit_after_revision  (started 02:53:19)
+Command: node /Users/djwayne/9takes/scripts/blog-source-audit.mjs src/blog/people/drafts/Stable-Ronaldo.md --fail-on-untagged-load-bearing
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/9.6_source_audit_after_revision.log
+─────────────────────────────────────────────────────
+========================================================================
+LOAD-BEARING SOURCE AUDIT — stable-ronaldo  (Type 3)
+src/blog/people/drafts/Stable-Ronaldo.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I would get like 10,000 viewers and I'd be like, damn, I don't really want to stream."
+             outlet="All Grown Up"  year=2024  venue="podcast"
+
+### COLD OPEN
+  [INLINE  ] "I was like, damn, I'm the man,"
+             outlet="All Grown Up"  year=2024  venue="podcast"
+  [INLINE  ] "I could do what I want."
+             outlet="All Grown Up"  year=2024  venue="podcast"
+
+### DIAGNOSIS
+  [INLINE  ] "completely irrelevant, … tried to be an IRL streamer and failed miserably"
+             outlet="Dexerto"  year=2023
+  [INLINE  ] "My apologies dude. I have no reason to blast you like that. I was completely gone and just feeling a type of way... You're a great streamer and a good content creator."
+             outlet="All Grown Up"  year=2023  venue="podcast"
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  [INLINE  ] "Cause bro you funny, I fw with your sht. Them lil blue headset in that dark a$$ room with your shoes in your background."
+             outlet="Streamer University"  year=2026
+
+------------------------------------------------------------------------
+SUMMARY: 6 load-bearing quote(s) — 6 inline, 0 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------
+[Stage 9.6] source_audit_after_revision finished (exit=0, 0s)
+
+─────────────────────────────────────────────────────
+[Stage 9.7] same_type_similarity_after_revision  (started 02:53:19)
+Command: node /Users/djwayne/9takes/scripts/same-type-similarity.mjs src/blog/people/drafts/Stable-Ronaldo.md --n 8 --fail-on-trip
+Log:     /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/9.7_same_type_similarity_after_revision.log
+─────────────────────────────────────────────────────
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — stable-ronaldo (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Stable-Ronaldo.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 49
+Comparison set (last 8 other Type-3 drafts by date):
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+  - jynxzi  (2026-07-25, 30 units)
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+
+Noise floor over 13524 unit pairs:  median=0  p90=0  p99=0.006  max=0.186
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.186 #######              KSI
+  0.082 ###                  Brooke-Monk
+  0.077 ###                  jynxzi
+  0.054 ##                   Carina-Zavline
+  0.029 #                    pete-hegseth
+  0.026 #                    plaqueboymax
+  0.019 #                    Alex-Warren
+  0.018 #                    margaret-qualley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.186   stable-ronaldo  <->  KSI
+   TARGET [diagnosis] Stable Ronaldo is an Enneagram Type 3
+   OTHER  [diagnosis] That sentence is an Enneagram Type 3 describing his own operating system with unusual honesty.
+
+score 0.082   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Asked in that same June 9 broadcast what the slap had done for him
+   OTHER  [diagnosis] in that same 2023 Elite Daily interview
+
+score 0.077   stable-ronaldo  <->  jynxzi
+   TARGET [diagnosis] " and that he "tried to be an IRL streamer and failed miserably" (Dexerto
+   OTHER  [diagnosis] he tried to describe the experience of not going live
+
+score 0.060   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Asked in that same June 9 broadcast what the slap had done for him
+   OTHER  [diagnosis] The plainest version came later in that same Elite Daily conversation.
+
+score 0.060   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Netz let the insult about his character stand and went straight at the other one
+   OTHER  [counter-typing] Her stated reason points straight at the audience
+
+score 0.054   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] His 2022 crash flattened him at an audience size that would make most careers.
+   OTHER  [counter-typing] or identity confusion that would make the inner Type 3 case conclusive.
+
+score 0.033   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] he said it boosted his "relevancy" (Sportskeeda
+   OTHER  [diagnosis] She said it herself before anyone typed her.
+
+score 0.030   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] so anything that moves the number counts as an asset
+   OTHER  [diagnosis] It tracks whatever the numbers reward
+
+score 0.029   stable-ronaldo  <->  pete-hegseth
+   TARGET [diagnosis] Stable Ronaldo is an Enneagram Type 3
+   OTHER  [diagnosis] The Enneagram Type 3 is called the Achiever.
+
+score 0.029   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] If he ever described the 2022 collapse as boredom
+   OTHER  [counter-typing] Carina has never publicly described the shame
+
+score 0.029   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] A Type 3 sorts every event by whether it moved the number.
+   OTHER  [diagnosis] It tracks whatever the numbers reward
+
+score 0.027   stable-ronaldo  <->  pete-hegseth
+   TARGET [diagnosis] then went back on stream two days later and worked the whole thing as material
+   OTHER  [diagnosis] Thirty-two days after the podcast
+
+------------------------------------------------------------------------------
+Top pair scores 0.186 vs median 0  (~∞x the noise floor).
+[Stage 9.7] same_type_similarity_after_revision finished (exit=0, 1s)
+
+REVISION LOOP: ran once (trigger: overall 7.6 < 8.5)
+GRADE: 7.6 pre-revision → 8.0 post-revision → 8.4 stability regrade
+STILL BELOW BAR after one revision — human review needed; the loop does not repeat.
+
+Final draft frontmatter (grade summary):
+enneagram: '3'
+  hook: 9
+  enneagram: 9
+  evidence: 8
+  writing: 8
+  originality: 8
+  discoverability: 9
+  overall: 8.4
+  first_overall: 8.0
+  regrade_overall: 8.4
+  grade_stability_delta: 0.4
+  letter: B
+  rubric_version: 2
+  graded_at: '2026-08-04'
+Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_020002_stableronaldo/summary.json
+═════════════════════════════════════════════════════
+[2026-08-04 02:53:20] [INFO] Pipeline exited code=0 after 53 min
+[2026-08-04 02:53:22] [WARN] DRAFT COMPLETE, PUBLISH BLOCKED: content_quality_below_8.5:8.4; missing_full_image; missing_thumbnail_image
+[2026-08-04 02:53:22] [WARN] Draft completed but publish-blocked: StableRonaldo — grade 8.4 (B)
+[2026-08-04 02:53:22] [INFO] NOTIFY: ⚠️ 9takes nightly blog: StableRonaldo (Type ?) — draft complete but PUBLISH BLOCKED: content_quality_below_8.5:8.4; missing_full_image; missing_thumbnail_image
+[2026-08-04 02:53:23] [INFO] Nightly blog cron finished

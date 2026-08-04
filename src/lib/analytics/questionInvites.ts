@@ -2,16 +2,17 @@
 import { capture } from '$lib/analytics/posthog';
 
 export const QUESTION_INVITE_PARAM = 'via';
-export const QUESTION_SHARE_NUDGE_DELAY_MS = 8_000;
 
 const OWNED_INVITES_STORAGE_KEY = '9takes:question-invites:v1';
 const LANDING_STORAGE_PREFIX = '9takes:question-invite-landing:';
+const PROMPT_STORAGE_PREFIX = '9takes:question-invite-prompt:';
 const MAX_OWNED_INVITES = 20;
 const INVITE_TTL_MS = 30 * 24 * 60 * 60 * 1_000;
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
 export type QuestionInviteSource = 'homepage-answer' | 'question-answer' | 'question-toolbar';
-export type QuestionInviteShareMethod = 'native' | 'clipboard';
+export type QuestionInviteShareMethod = 'native' | 'clipboard' | 'qr';
+export type QuestionInviteDirectShareMethod = Exclude<QuestionInviteShareMethod, 'qr'>;
 
 type OwnedQuestionInvite = {
 	inviteId: string;
@@ -33,7 +34,7 @@ type ShareQuestionInviteInput = {
 export type ShareQuestionInviteResult =
 	| {
 			status: 'shared';
-			method: QuestionInviteShareMethod;
+			method: QuestionInviteDirectShareMethod;
 			inviteId: string;
 			inviteUrl: string;
 	  }
@@ -50,6 +51,15 @@ type CaptureQuestionInvitePageViewInput = {
 	localStorage?: Storage;
 	sessionStorage?: Storage;
 	now?: number;
+};
+
+type RecordQuestionInviteCreatedInput = {
+	inviteId: string;
+	questionId: number;
+	questionUrl: string;
+	source: QuestionInviteSource;
+	method: QuestionInviteShareMethod;
+	storage?: Storage;
 };
 
 function isAbortError(error: unknown): boolean {
@@ -121,30 +131,38 @@ export function getQuestionInviteId(currentUrl: string | URL): string | null {
 	}
 }
 
-export function questionShareNudgeWasSeen(storage: Storage, storageKey: string): boolean {
+export function questionInvitePromptWasSeen(
+	questionUrl: string,
+	storage: Storage = window.localStorage
+): boolean {
 	try {
-		return storage.getItem(storageKey) === 'seen';
+		return storage.getItem(`${PROMPT_STORAGE_PREFIX}${questionUrl}`) === 'seen';
 	} catch {
 		return false;
 	}
 }
 
-export function markQuestionShareNudgeSeen(storage: Storage, storageKey: string): void {
+export function markQuestionInvitePromptSeen(
+	questionUrl: string,
+	storage: Storage = window.localStorage
+): void {
 	try {
-		storage.setItem(storageKey, 'seen');
+		storage.setItem(`${PROMPT_STORAGE_PREFIX}${questionUrl}`, 'seen');
 	} catch {
-		// Dismissal still works in memory when browser storage is unavailable.
+		// The inline prompt can still be dismissed in memory when storage is unavailable.
 	}
 }
 
-export function shouldQueueQuestionShareNudge({
-	matchesDesktop,
-	alreadySeen
+export function shouldUseNativeQuestionShare({
+	canNativeShare,
+	coarsePointer,
+	viewportWidth
 }: {
-	matchesDesktop: boolean;
-	alreadySeen: boolean;
+	canNativeShare: boolean;
+	coarsePointer: boolean;
+	viewportWidth: number;
 }): boolean {
-	return matchesDesktop && !alreadySeen;
+	return canNativeShare && (coarsePointer || viewportWidth < 768);
 }
 
 export async function shareQuestionInvite({
@@ -209,6 +227,34 @@ export function rememberOwnedQuestionInvite(
 		},
 		...existing
 	]);
+}
+
+export async function recordQuestionInviteCreated({
+	inviteId,
+	questionId,
+	questionUrl,
+	source,
+	method,
+	storage = window.localStorage
+}: RecordQuestionInviteCreatedInput): Promise<void> {
+	const normalizedInviteId = normalizeQuestionInviteId(inviteId);
+	if (!normalizedInviteId) return;
+
+	rememberOwnedQuestionInvite(
+		{
+			inviteId: normalizedInviteId,
+			questionUrl,
+			source
+		},
+		storage
+	);
+	await capture('question_invite_created', {
+		invite_id: normalizedInviteId,
+		question_id: questionId,
+		question_url: questionUrl,
+		method,
+		source
+	});
 }
 
 export function getRecipientQuestionInviteId(

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-03T06:05:05Z",
+	"lastUpdated": "2026-08-04T06:53:20Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "stableronaldo",
-			"displayName": "StableRonaldo",
-			"type": null,
-			"priority": 68,
-			"priorityReason": "Ranked top-3 among 2026 streamers in peer rankings. Streamer category median is 979; this is a cheap add inside the best-performing niche.",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-25",
-			"retryCount": 2,
-			"strategicValue": "creator-economy-cluster"
-		},
 		{
 			"name": "caitlin-clark",
 			"displayName": "Caitlin Clark",
@@ -372,6 +359,32 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "stableronaldo",
+			"displayName": "StableRonaldo",
+			"type": null,
+			"priority": 68,
+			"priorityReason": "Ranked top-3 among 2026 streamers in peer rankings. Streamer category median is 979; this is a cheap add inside the best-performing niche.",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-25",
+			"retryCount": 2,
+			"strategicValue": "creator-economy-cluster",
+			"startedAt": "2026-08-04T06:00:00Z",
+			"completedAt": "2026-08-04T06:53:20Z",
+			"contentGrade": "8.4",
+			"letter": "B",
+			"discoverability": "9",
+			"duration": "~53 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": [
+				"content_quality_below_8.5:8.4",
+				"missing_full_image",
+				"missing_thumbnail_image"
+			]
+		},
 		{
 			"name": "penguinz0",
 			"displayName": "Charlie White (penguinz0 / MoistCr1TiKaL)",
