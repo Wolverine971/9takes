@@ -1263,9 +1263,13 @@
 	.badge {
 		display: inline-block;
 		padding: 0.125rem 0.5rem;
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		font-size: 0.6875rem;
 		font-weight: 600;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
 		border-radius: 9999px;
+		white-space: nowrap;
 	}
 
 	.badge-full {

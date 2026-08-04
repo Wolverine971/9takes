@@ -1,0 +1,21 @@
+Done. **`src/blog/people/drafts/Nara-Smith.md`**
+
+## Source audit (first priority)
+Was **8 untagged / 2 vague / 1 inline** → now **8 inline, 0 vague, 0 untagged**. Nearly every load-bearing quote comes from one 93-minute sitting, so each slot now carries *Call Her Daddy* + July 2026 inside the audit's attribution window, with paired quotes spaced under the merge threshold so one citation serves both. Added `'Call Her Daddy'` to `OUTLETS` in `scripts/blog-source-audit.mjs` with a dated comment — the same precedent the file already documents for GRAMMY.com and Flagrant.
+
+## Two research findings that changed the work
+**The conversion claim doesn't hold.** The review said she converted to the LDS church at 18. Rolling Stone reports those rumors were never confirmed. The verified record is better evidence anyway: she affirmed LDS in comments early, declined every marker in March 2024 ("I don't wear garments. I didn't get married in the temple"), and by July 2025 said flatly she is not Mormon. She never argued theology, she dismantled the category — the dishes line pointed at a church.
+
+**I rejected the review's statistic.** It proposed "7% of stay-at-home mothers are Black vs. 49% white" as proof Black women were excluded from homemaking. Pew's actual rate data shows 27% of Black mothers vs 26% of white mothers — near parity. The 7/49 figure is population composition, not a rate. I made the historical point qualitatively instead, anchored to Kay Wicker in TheGrio (3 Aug 2026), whose "any one box" line lands directly on Nara's own "narrow boxes" quote.
+
+## Main changes
+- New H3 inside the tradwife section, **"Why the label stuck in the first place"** — Mormon trajectory, the Ballerina Farm visit (concrete, and both women refuse the same word), and the race dimension. The section previously argued why the label hurt without ever explaining why it landed.
+- ***Homemade*** contradiction landed: the cookbook ships ten weeks after "I don't prioritize being a homemaker," and it pays off in the close, where the book traces back to the Frankfurt grandmother.
+- Marriage origin added *before* the autoimmune paragraph, so "21 with two children" lands right.
+- Lucky's driving quote: tension held open rather than resolved — the 8w9 section now says outright that a framework explaining both the dishes refusal and the driving rule is doing too much work.
+- Thesis restatements cut six → three; duplicate Type 3 case cut from the Rabbit Hole; "Watch/Watch/Watch" template broken; Rabbit Hole moved behind the tradwife section so cancer → postpartum → Frankfurt runs clean.
+
+## Lint: 0 fail, 2 warn
+Body is **exactly 4500 words, at the ceiling**. About 620 words of trimming paid for ~640 of new material, and every section took cuts. Worth flagging: there's now zero headroom for the next refresh, so an editor pass should find another 150–200 words before anything else goes in. `lastmod` untouched.
+
+Two things I did not resolve: `faqs` frontmatter still awaits the enrich stage, and the "#33 on Forbes' 2026 Top Creators" figure in the key-stat is inherited from the first pass — the 31 July Forbes explainer doesn't carry it, so it's unverified.

@@ -1,0 +1,19 @@
+## Grading Complete — Tate McRae (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Tate-McRae | 6 | 8 | 9 | 9 | 8 | 9 | **8.0** | **B** |
+
+(Weighted: `(6×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.0`. Disc 9 — no gate. First grade 7.9 → regrade 8.0, delta 0.1.)
+
+### Key observations
+
+**The revision pass did real work and I verified it rather than trusting the ledgers.** Corpus stat deleted, reader-directives down to one (in the Rabbit Hole, carrying the falsifiability beat), 8 H2s as claimed, all five FAQ anchors resolve to live headings. The FORMULA FINGERPRINT ledger retracts its own earlier false similarity claim, and the retraction checks out against a fresh `same-type-similarity` run — the 1.000 and 0.153 trips are both the mandated-heading artifact, highest genuinely authored pair is 0.043 with zero shared phrases. **No cross-draft sameness cap this round.**
+
+**The one cap is Evidence, and it's the reason this is a B not a B+.** `blog-source-audit.mjs` returns 5/5 inline, 0 untagged — but it only inspects five slots. Sections 6–8 run roughly fifteen quotes with no outlet and no date, and two of them generate the article's own metadata: the Tatiana origin quote is the entire basis of `persona_title` and FAQ 3, and the "20,000 people / small room" quote is the basis of the `meta_title` and `description`. Neither is citable from the body. That's the exact scenario the citability rule names, so Evidence caps at 6.
+
+**Delta between 7.9 and 8.0 understates the improvement.** The prior grade capped Originality at 7 on sameness and Evidence at 7; the revision genuinely cleared the sameness cap and fixed all metric sourcing and the Wallen legal hygiene. Originality and Writing both rose a point. The Evidence cap ate the gain — the pass fixed what the script flags and not what the rubric asks for.
+
+**Cheapest path to B+:** tag the quotes in sections 6–8 (most are on the Zane Lowe transcript already sitting in `/tmp/tate_zane_clean.txt`). That alone lifts Evidence 6→8 and the overall to 8.4.
+
+Frontmatter block added; sidecar at `docs/content-analysis/grades/Tate-McRae.review.md`. No legacy `QUALITY GRADE` block existed in the body to remove.

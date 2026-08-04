@@ -362,45 +362,43 @@ async function parsePeopleDraftsFromFs(rootDir: string): Promise<ParsedBlog[]> {
 		.map((entry) => path.join(rootDir, entry.name))
 		.sort((a, b) => a.localeCompare(b));
 
-	const parsed: ParsedBlog[] = [];
-	for (const filePath of markdownFiles) {
-		const raw = await readFile(filePath, 'utf8');
-		const { data, content } = matter(raw);
-		const links = extractLinks(content);
-		parsed.push({
-			slug: slugFromPath(filePath, data),
-			filePath,
-			data,
-			content,
-			outgoingInternalHrefs: links.internal,
-			outgoingExternalHrefs: links.external
-		});
-	}
-
-	return parsed;
+	return Promise.all(
+		markdownFiles.map(async (filePath) => {
+			const raw = await readFile(filePath, 'utf8');
+			const { data, content } = matter(raw);
+			const links = extractLinks(content);
+			return {
+				slug: slugFromPath(filePath, data),
+				filePath,
+				data,
+				content,
+				outgoingInternalHrefs: links.internal,
+				outgoingExternalHrefs: links.external
+			};
+		})
+	);
 }
 
 async function parsePeopleDraftsFromModules(
 	modules: Record<string, () => Promise<string>>
 ): Promise<ParsedBlog[]> {
-	const parsed: ParsedBlog[] = [];
 	const entries = Object.entries(modules).sort(([a], [b]) => a.localeCompare(b));
 
-	for (const [filePath, resolver] of entries) {
-		const raw = await resolver();
-		const { data, content } = matter(raw);
-		const links = extractLinks(content);
-		parsed.push({
-			slug: slugFromPath(filePath, data),
-			filePath: filePath.replace(/^\//, ''),
-			data,
-			content,
-			outgoingInternalHrefs: links.internal,
-			outgoingExternalHrefs: links.external
-		});
-	}
-
-	return parsed;
+	return Promise.all(
+		entries.map(async ([filePath, resolver]) => {
+			const raw = await resolver();
+			const { data, content } = matter(raw);
+			const links = extractLinks(content);
+			return {
+				slug: slugFromPath(filePath, data),
+				filePath: filePath.replace(/^\//, ''),
+				data,
+				content,
+				outgoingInternalHrefs: links.internal,
+				outgoingExternalHrefs: links.external
+			};
+		})
+	);
 }
 
 function isMissingDefaultDraftsDir(rootDir: string, err: unknown): boolean {

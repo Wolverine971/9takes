@@ -20,8 +20,14 @@
 #   2. fresh_eyes         - /blog_content_fresh_eyes_people
 #   3. second_pass        - /blog_content_second_pass_people  (SKIPPED in --refresh)
 #   4. cohesion           - /cohesion-check
+#   4.1 snapshot          - freeze the exact draft all perspective reviewers audit
+#   4.2 evidence_packet   - shared factual baseline (one research pass)
+#   4.4 perspective_jury  - six isolated role reviews in parallel
+#   4.6 synthesis         - adjudicate flags, improvements, conflicts, and protected hits
 #   5. editor_pass        - /blog_content_editor_pass_people
 #   6. enrich_frontmatter - /blog_content_frontmatter_enrich_people
+#   6.1 perspective_verify- independently verify final editorial metadata, repairs,
+#                           and protected-hit regressions
 #   6.5 lint              - scripts/blog-lint.sh (deterministic checks, no LLM)
 #   7. grade              - /grade_blog
 #   8. revise             - /blog_content_revision_pass_people  (CONDITIONAL — only if
@@ -32,6 +38,8 @@
 #   9.1 stability regrade - /grade_blog (revision path only; grades the final text
 #                           a second time so improvement is not called instability)
 #   9.2 stability record  - deterministic same-version first/regrade/delta write
+#   9.8 perspective final - bind the passing review to the final reader-visible body;
+#                           publishing rejects missing, unresolved, or stale reviews
 #
 # The revise loop runs AT MOST ONCE. If the re-grade still lands below the bar,
 # the draft stays below the bar and a human decides — no infinite polishing.
@@ -234,6 +242,9 @@ write_summary() {
   PERSON="$PERSON" \
   DRAFT_PATH="$DRAFT_PATH" \
   PIPELINE_LOG_DIR="$LOG_DIR" \
+  PERSPECTIVE_REVIEW_DIR="${PERSPECTIVE_REVIEW_DIR_REL:-}" \
+  PERSPECTIVE_INITIAL_STATUS="${PERSPECTIVE_INITIAL_STATUS:-not_run}" \
+  PERSPECTIVE_FINAL_STATUS="${PERSPECTIVE_FINAL_STATUS:-not_run}" \
   FIRST_OVERALL="${STABILITY_FIRST_OVERALL:-${FIRST_OVERALL:-}}" \
   FINAL_OVERALL="${final_overall:-}" \
   FINAL_DISCOVERABILITY="${final_disc:-}" \
@@ -250,6 +261,9 @@ const summary = {
   person: env.PERSON,
   draft_path: env.DRAFT_PATH,
   log_dir: env.PIPELINE_LOG_DIR,
+  perspective_review_dir: env.PERSPECTIVE_REVIEW_DIR || null,
+  perspective_initial_status: env.PERSPECTIVE_INITIAL_STATUS || "not_run",
+  perspective_final_status: env.PERSPECTIVE_FINAL_STATUS || "not_run",
   completed: env.COMPLETED === "true",
   halt_reason: env.HALT_REASON || null,
   revised: env.REVISED === "1",
@@ -316,6 +330,7 @@ run_report_stage() {
 
   "$@" 2>&1 | tee "$log_file"
   local exit_code="${PIPESTATUS[0]}"
+  LAST_REPORT_EXIT="$exit_code"
 
   local dur
   dur=$(( $(date +%s) - start_epoch ))
@@ -331,6 +346,61 @@ run_report_stage() {
   echo
 
   return 0
+}
+
+run_parallel_perspective_reviews() {
+  local stage_label="4.4"
+  local perspectives=(subject fan critic unfamiliar enneagram future)
+  local pids=()
+  local starts=()
+  local logs=()
+  local i perspective command log_file rc dur
+
+  CURRENT_STAGE="${stage_label}_perspective_jury"
+  PERSPECTIVE_PARALLEL_EXIT=0
+
+  echo "─────────────────────────────────────────────────────"
+  echo "[Stage $stage_label] perspective_jury (six isolated reviews in parallel)"
+  echo "Snapshot: $PERSPECTIVE_REVIEW_DIR_REL/draft-reviewed.md"
+  echo "Evidence: $PERSPECTIVE_REVIEW_DIR_REL/evidence-packet.md"
+  echo "─────────────────────────────────────────────────────"
+
+  for i in "${!perspectives[@]}"; do
+    perspective="${perspectives[$i]}"
+    command="/blog_perspective_review_people $DRAFT_SUBJECT --perspective=$perspective --review-dir=$PERSPECTIVE_REVIEW_DIR_REL --draft-sha=$PERSPECTIVE_DRAFT_SHA"
+    log_file="$LOG_DIR/${stage_label}_perspective_${perspective}.log"
+    logs[$i]="$log_file"
+    starts[$i]="$(date +%s)"
+    echo "  starting $perspective → $log_file"
+    (
+      claude -p "$command" --dangerously-skip-permissions 2>&1 | tee "$log_file" >/dev/null
+      exit "${PIPESTATUS[0]}"
+    ) &
+    pids[$i]=$!
+  done
+
+  for i in "${!perspectives[@]}"; do
+    perspective="${perspectives[$i]}"
+    if wait "${pids[$i]}"; then
+      rc=0
+    else
+      rc=$?
+      PERSPECTIVE_PARALLEL_EXIT=1
+      REPORT_WARNINGS=1
+    fi
+    dur=$(( $(date +%s) - starts[$i] ))
+    printf '%s\t%s\t%s\t%ss\n' "$stage_label" "perspective_$perspective" "$rc" "$dur" \
+      >> "$LOG_DIR/stage-summary.tsv"
+    if [[ "$rc" -ne 0 ]]; then
+      printf 'stage=%s_perspective_%s exit=%s dur=%ss at=%s\n' \
+        "$stage_label" "$perspective" "$rc" "$dur" "$(date '+%Y-%m-%d %H:%M:%S')" \
+        >> "$LOG_DIR/STAGE_WARNINGS"
+      echo "  $perspective FAILED (exit=$rc, ${dur}s) — see ${logs[$i]}"
+    else
+      echo "  $perspective finished (${dur}s)"
+    fi
+  done
+  echo
 }
 
 # Pull a numeric score out of the draft's content_quality block ("" if absent).
@@ -374,12 +444,21 @@ revision_needed() {
 
 LINT_EXIT=0
 REPORT_WARNINGS=0
+LAST_REPORT_EXIT=0
 REVISION_REASONS=""
 REVISED=0
 FIRST_OVERALL=""
 FIRST_DISC=""
 POST_REVISION_FIRST_OVERALL=""
 STABILITY_FIRST_OVERALL=""
+PERSPECTIVE_REVIEW_DIR=""
+PERSPECTIVE_REVIEW_DIR_REL=""
+PERSPECTIVE_DRAFT_SHA=""
+PERSPECTIVE_READY=0
+PERSPECTIVE_PARALLEL_EXIT=0
+PERSPECTIVE_INITIAL_STATUS="not_run"
+PERSPECTIVE_FINAL_STATUS="not_run"
+PERSPECTIVE_VERIFICATION_FILE=""
 
 if [[ "$MODE" == "refresh" ]]; then
   # A refresh edits a live page. If the draft is missing there is nothing to refresh,
@@ -424,8 +503,84 @@ else
   echo
 fi
 run_stage 4 cohesion           "/cohesion-check $DRAFT_PATH"
-run_stage 5 editor_pass        "/blog_content_editor_pass_people $DRAFT_SUBJECT"
+
+# ── Stage 4.1–4.7: independent audience-perspective jury ────────────────
+# Every reviewer receives the same immutable draft snapshot and shared evidence
+# packet, but no reviewer sees another review. The six calls run concurrently.
+PERSPECTIVE_REVIEW_DIR="$REPO_ROOT/docs/content-analysis/perspective-reviews/$DRAFT_SUBJECT/$TIMESTAMP"
+PERSPECTIVE_REVIEW_DIR_REL="${PERSPECTIVE_REVIEW_DIR#$REPO_ROOT/}"
+
+run_report_stage 4.1 perspective_snapshot \
+  node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+  --phase snapshot --draft "$DRAFT_PATH" --review-dir "$PERSPECTIVE_REVIEW_DIR_REL" --subject "$DRAFT_SUBJECT"
+
+if [[ "$LAST_REPORT_EXIT" -eq 0 && -f "$PERSPECTIVE_REVIEW_DIR/draft-reviewed.md" ]]; then
+  PERSPECTIVE_DRAFT_SHA="$(shasum -a 256 "$PERSPECTIVE_REVIEW_DIR/draft-reviewed.md" | awk '{print $1}')"
+  run_stage 4.2 perspective_evidence \
+    "/blog_perspective_research_people $DRAFT_SUBJECT --review-dir=$PERSPECTIVE_REVIEW_DIR_REL --draft-sha=$PERSPECTIVE_DRAFT_SHA"
+  run_report_stage 4.3 perspective_packet_gate \
+    node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+    --phase packet --review-dir "$PERSPECTIVE_REVIEW_DIR_REL"
+
+  if [[ "$LAST_REPORT_EXIT" -eq 0 ]]; then
+    run_parallel_perspective_reviews
+    run_report_stage 4.5 perspective_reviews_gate \
+      node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+      --phase reviews --review-dir "$PERSPECTIVE_REVIEW_DIR_REL"
+
+    if [[ "$LAST_REPORT_EXIT" -eq 0 ]]; then
+      run_stage 4.6 perspective_synthesis \
+        "/blog_perspective_synthesis_people $DRAFT_SUBJECT --review-dir=$PERSPECTIVE_REVIEW_DIR_REL --draft-sha=$PERSPECTIVE_DRAFT_SHA"
+      run_report_stage 4.7 perspective_synthesis_gate \
+        node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+        --phase synthesis --review-dir "$PERSPECTIVE_REVIEW_DIR_REL"
+      if [[ "$LAST_REPORT_EXIT" -eq 0 ]]; then
+        PERSPECTIVE_READY=1
+      else
+        PERSPECTIVE_FINAL_STATUS="synthesis_invalid"
+      fi
+    else
+      PERSPECTIVE_FINAL_STATUS="reviews_incomplete"
+    fi
+  else
+    PERSPECTIVE_FINAL_STATUS="packet_invalid"
+  fi
+else
+  PERSPECTIVE_FINAL_STATUS="snapshot_failed"
+fi
+
+EDITOR_COMMAND="/blog_content_editor_pass_people $DRAFT_SUBJECT"
+if [[ "$PERSPECTIVE_READY" -eq 1 ]]; then
+  EDITOR_COMMAND+=" --perspective-review-dir=$PERSPECTIVE_REVIEW_DIR_REL"
+fi
+run_stage 5 editor_pass "$EDITOR_COMMAND"
+
+if [[ "$PERSPECTIVE_READY" -eq 1 ]]; then
+  run_report_stage 5.05 perspective_editor_resolution_gate \
+    node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+    --phase resolution --review-dir "$PERSPECTIVE_REVIEW_DIR_REL" \
+    --resolution-file editor-resolution.md
+fi
+
 run_stage 6 enrich_frontmatter "/blog_content_frontmatter_enrich_people $DRAFT_SUBJECT"
+
+if [[ "$PERSPECTIVE_READY" -eq 1 ]]; then
+  run_stage 6.1 perspective_verify \
+    "/blog_perspective_verify_people $DRAFT_SUBJECT --review-dir=$PERSPECTIVE_REVIEW_DIR_REL --draft-sha=$PERSPECTIVE_DRAFT_SHA --output=verification-initial.md"
+  run_report_stage 6.2 perspective_verification_gate \
+    node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+    --phase verification --draft "$DRAFT_PATH" --review-dir "$PERSPECTIVE_REVIEW_DIR_REL" \
+    --verification-file verification-initial.md
+  PERSPECTIVE_VERIFICATION_FILE="verification-initial.md"
+  if [[ "$LAST_REPORT_EXIT" -eq 0 ]]; then
+    PERSPECTIVE_INITIAL_STATUS="pass"
+    PERSPECTIVE_FINAL_STATUS="pass_pending_finalization"
+  else
+    PERSPECTIVE_INITIAL_STATUS="fail"
+    PERSPECTIVE_FINAL_STATUS="needs_revision"
+  fi
+fi
+
 run_lint 6.5
 run_report_stage 6.6 quality_report node "$REPO_ROOT/scripts/blog-quality-report.mjs" "$DRAFT_PATH"
 run_report_stage 6.7 source_audit node "$REPO_ROOT/scripts/blog-source-audit.mjs" "$DRAFT_PATH" --fail-on-untagged-load-bearing
@@ -440,7 +595,29 @@ FIRST_DISC="$(read_quality_field discoverability)"
 if revision_needed; then
   REVISED=1
   echo "[Stage 8] Revision loop triggered: ${REVISION_REASONS}"
-  run_stage 8 revise           "/blog_content_revision_pass_people $DRAFT_SUBJECT"
+  REVISION_COMMAND="/blog_content_revision_pass_people $DRAFT_SUBJECT"
+  if [[ "$PERSPECTIVE_READY" -eq 1 ]]; then
+    REVISION_COMMAND+=" --perspective-review-dir=$PERSPECTIVE_REVIEW_DIR_REL"
+  fi
+  run_stage 8 revise "$REVISION_COMMAND"
+  if [[ "$PERSPECTIVE_READY" -eq 1 ]]; then
+    run_report_stage 8.2 perspective_revision_resolution_gate \
+      node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+      --phase resolution --review-dir "$PERSPECTIVE_REVIEW_DIR_REL" \
+      --resolution-file revision-resolution.md
+    run_stage 8.4 perspective_reverify \
+      "/blog_perspective_verify_people $DRAFT_SUBJECT --review-dir=$PERSPECTIVE_REVIEW_DIR_REL --draft-sha=$PERSPECTIVE_DRAFT_SHA --output=verification-final.md"
+    run_report_stage 8.45 perspective_reverification_gate \
+      node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+      --phase verification --draft "$DRAFT_PATH" --review-dir "$PERSPECTIVE_REVIEW_DIR_REL" \
+      --verification-file verification-final.md
+    PERSPECTIVE_VERIFICATION_FILE="verification-final.md"
+    if [[ "$LAST_REPORT_EXIT" -eq 0 ]]; then
+      PERSPECTIVE_FINAL_STATUS="pass_pending_finalization"
+    else
+      PERSPECTIVE_FINAL_STATUS="fail_after_revision"
+    fi
+  fi
   run_lint 8.5
   clear_grading_frontmatter
   run_stage 9 post_revision_grade "/grade_blog $DRAFT_SUBJECT"
@@ -511,6 +688,23 @@ if [[ "$REVISED" -eq 1 ]]; then
   fi
 else
   echo "REVISION LOOP: not needed"
+fi
+
+if [[ "$PERSPECTIVE_READY" -eq 1 && -n "$PERSPECTIVE_VERIFICATION_FILE" ]]; then
+  run_report_stage 9.8 perspective_finalize \
+    node "$REPO_ROOT/scripts/perspective-review-gate.mjs" \
+    --phase finalize --draft "$DRAFT_PATH" --review-dir "$PERSPECTIVE_REVIEW_DIR_REL" \
+    --verification-file "$PERSPECTIVE_VERIFICATION_FILE"
+  if [[ "$LAST_REPORT_EXIT" -eq 0 ]]; then
+    PERSPECTIVE_FINAL_STATUS="pass"
+  elif [[ "$PERSPECTIVE_FINAL_STATUS" == "pass_pending_finalization" ]]; then
+    PERSPECTIVE_FINAL_STATUS="finalization_failed"
+  fi
+fi
+
+echo "PERSPECTIVE REVIEW: $PERSPECTIVE_FINAL_STATUS"
+if [[ -n "$PERSPECTIVE_REVIEW_DIR_REL" ]]; then
+  echo "PERSPECTIVE ARTIFACTS: $PERSPECTIVE_REVIEW_DIR_REL"
 fi
 echo
 

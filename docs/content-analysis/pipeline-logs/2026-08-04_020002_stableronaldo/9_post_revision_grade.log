@@ -1,0 +1,21 @@
+## Grading Complete — Stable Ronaldo (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stable-Ronaldo | 6 | 8 | 9 | 9 | 8 | 9 | **8.0** | **B** |
+
+`(6×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.0`. Discoverability 9, so no gate. First grade 7.6 (C) → regrade 8.0 (B), delta +0.4.
+
+### Key observations
+
+**The revision pass worked on everything it was pointed at.** I verified the claims rather than trusting the ledgers: corpus-stat sentence gone, reader-directives 10→1, aphoristic closers 7→3, negation-then-assertion 6→2 (hand-counted), arrow mechanics moved out of the body, 47-word extractable type answer now sits ahead of the Bradley Martyn scene. Against Samara-Weaving and Machine-Gun-Kelly the only overlaps left are structural house form, not near-verbatim reuse — **no Originality cap from sameness this time**.
+
+**Evidence is capped at 6, and it's a tooling blind spot, not a writing failure.** `blog-source-audit.mjs` reports 6/6 inline, 0 untagged — and it's right about the five slots it checks. Outside those slots there are eight untagged direct quotes and three vague attributions. The cap trigger is the 5,000-viewer rule at L288: no outlet, no date, and the ending is built on it ("By his own rule, 2,000 was below the line"). Worst item is L359 — `"I'm not going to be like 'I forgive you' because I don't"` — which the draft's own second-pass notes admit is "not independently confirmed," still printed as a direct quote and still doing argumentative work.
+
+**Standouts.** The empathy turn dodges the house `armor/scar tissue` grammar and builds its reframe from his own wound-vocabulary — best one in the recent batch. Discoverability is near-maximal: all five FAQ anchors resolve, entity metadata complete, meta_title and description both length-optimal. The Kai Cenat close is swap-proof and the cohesion pass gave it the setup it was missing.
+
+**The path to B+ is one dimension.** Evidence is worth 1.5×; sourcing those quotes alone takes 8.0 → 8.4–8.6 with no other changes. The sidecar lists each one by line number with the fix.
+
+Frontmatter written to the draft; feedback at `docs/content-analysis/grades/Stable-Ronaldo.review.md`. No legacy `QUALITY GRADE` block existed to remove, and `lastmod` untouched.
+
+**Total graded this session: 1**

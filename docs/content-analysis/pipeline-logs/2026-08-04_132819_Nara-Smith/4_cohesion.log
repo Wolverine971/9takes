@@ -1,0 +1,51 @@
+## Cohesion Audit: `src/blog/people/drafts/Nara-Smith.md`
+
+### Central Thesis
+Nara Smith is a self-preservation Type 8 whose defining refusal is not aggression but being placed inside a frame she did not author — which is why the timing of her disclosures and her rejection of the tradwife label are the same move.
+
+### Thread Map
+
+| # | Section | Contributes | Links to next because |
+|---|---------|-------------|----------------------|
+| — | Cold open + TL;DR | Two disclosures, one engine | Names the claim the diagnosis proves |
+| 1 | What is Nara Smith's personality type? | Type 8 case + Type 3 pressure test | Ends on "guarding the right to release it" → asks where that started |
+| 2 | Why she started cooking from scratch | Origin is medical, not ideological | Explains the aesthetic, not the need for the frame |
+| 3 | Childhood: Bloemfontein to Frankfurt | Couldn't speak freely at home → built a kitchen nobody edits | "Frame she owns completely" → "the shot is a choice" |
+| 4 | What 12 million saw / what sat outside | The frame as literal operation (dated table) | Frame control worked, until a word got in |
+| 5 | Why she rejects the tradwife label (+H3, +Rabbit Hole) | The one frame she lost; critics get the stronger case on impact | Timeline hands off to the eight months |
+| 6 | Filming through her daughter's cancer | Frame control at maximum cost | Not the first concealment |
+| 7 | The postpartum picture she refuses | Refuses even flattering captions | Inverts into the close |
+| 8 | The one recipe she can't reproduce | The single kitchen where someone else's hands were on hers | — |
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 6/10 | 2 |
+| Section Transitions | 5/10 | 3 |
+| Internal Paragraph Flow | 8/10 | 1 |
+
+**Before: 7/10 → After: 9/10**
+
+The thread itself was never the problem: every section serves the thesis and nothing is a detour. What was broken was the connective tissue at three seams and one chronology jump — and two of them look like collateral damage from the second pass, which cut thesis restatements that were doubling as bridges.
+
+### Changes Made (6)
+
+**Transition fixes (4)**
+- **Scratch → Childhood** (worst seam): the section closed on "the internet read the constraints as a manifesto" and the next opened on a 2001 birth date. Added: *"That explains the kitchen. It does not explain the need to own the frame around it, which starts earlier."*
+- **Table → Tradwife**: the second pass cut the table's closing line ("the column she controlled the release of") as thesis repetition and left the seam bare. Added a bridge that connects without restating: *"She can keep faces out of the frame. She could not keep out a word."*
+- **Tradwife/Rabbit Hole → Cancer**: Cooper's "it's very threatening" quote landed directly on the mother's chemotherapy with no link. Added: *"The Cooper interview came twelve days after she made the diagnosis public."*
+- **Cancer → Postpartum**: the only genuine reader-mental-model break — the bell rings in mid-2026, then the next line jumps back to September 2025 with no signal. Added: *"The hospital was not the first stretch she went through without telling anyone."*
+
+**Internal flow (1)**
+- `src/blog/people/drafts/Nara-Smith.md:130` — "First the speed of it" had no antecedent; the marriage hadn't been introduced yet. Now "the speed of the marriage."
+
+**Formatting (1)**
+- Removed a stray double blank line before the rule after the postpartum section.
+
+### What Was Preserved
+Frontmatter, all five ledger comments, the Rabbit Hole `<details>`, the table, all quotes and attributions, all internal links, section order (the second pass's Rabbit Hole move is correct — postpartum → Frankfurt now runs clean). Transitions I left alone because they're already strong: childhood → table (carries "frame"), tradwife → H3 ("the rebuttal is clean, it skips how the label found her"), postpartum → oatmeal (the "before, before, before" construction is a deliberate closing move and the payoff is the last line).
+
+### Remaining Concerns
+- **Word budget.** Body is now ~4,595 words. The second pass flagged 4,500 as the ceiling and asked for 150–200 words of trimming before anything else was added; my 58 words of bridging makes that 210–260 and it's still owed. The bridges are load-bearing, so the trim should come from elsewhere — the likeliest candidates are the Rabbit Hole's stress/growth arrows and the scratch section's haircut beat.
+- **Not a cohesion issue but still open from the second pass:** the "#33 on Forbes' 2026 Top Creators" figure in the key-stat is unverified, and `faqs` frontmatter is still pending the enrich stage.

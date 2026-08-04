@@ -1,0 +1,35 @@
+Lint holds: **0 fail, 1 warn** — same single pre-existing warn (`no faqs in frontmatter`, the enrich stage hasn't run). Contrast-pair engines still 0, no em-dashes, no banned phrases.
+
+## Cohesion Check Complete: `Stable-Ronaldo.md`
+
+**Before: 7/10 → After: 9/10**
+
+### Central Thesis
+Rani Netz is a Type 3 who reads a live viewer count as a verdict on his worth, because a father's lost job taught him that money is what makes people stay — so revenue reads as safety, and even his own collapses get filed as inventory.
+
+### Changes Made (8 total)
+
+**Transition Fixes (4):**
+- **H2 1 → H2 2** — the diagnosis closed on "It is accounting," then the childhood section opened cold on biography. Added `That kind of accounting gets taught.` to carry the keyword across.
+- **H2 3 → H2 4** *(the worst seam)* — Receipts ends in 2026 with the clawback, then the next section dropped the reader into late 2023 with no time signal and no stated link between the money and the counter. Added: *"Every line of that ledger was paid for by the number in the corner of his screen. A year before the bank call, that number had nearly vanished."*
+- **H2 4 → H2 5** — `xQc went off about it on stream` had no antecedent in the prose; the only referent lived in the heading. Now *"Not everyone was buying. In December 2024, xQc went off about the ads on stream,"* which also carries "merchandise" forward from the previous line.
+- **H2 7 → H2 8** — added *"Two years before CORE, he was still keeping score on who had shown up for him."* Signals the rewind to September 2024 and carries "keeping crews together" into the Kai question.
+
+**Internal Flow Fixes (3):**
+- Diagnosis pressure-test paragraph: the corpus stat was wedged between the topic sentence and its argument. Reordered to claim → stat → the Seven-vs-Three contrast.
+- H2 6: the Boba beat and the September hiatus were joined only by "Then." Now *"The engine was still converting everything it touched. Eight months later it quit."* — which is the section's actual logic.
+- H2 7 recovery paragraph: reordered so the crew precedes the numbers (FaZe exit → CORE → "Then came the best statistical year"). The Type 6 argument is about people; the stats now read as the consequence rather than an interruption.
+
+**Missing Setup (1):**
+- The close depended on the 5,000-viewer rule from H2 4 but never recalled it. Added one clause: *"By his own rule, 2,000 was below the line where a person becomes worth looking at."* The final three paragraphs (blue headset, dark room, shoes) are untouched.
+
+### What Was Preserved
+All frontmatter, every ledger comment, all six internal links, the cold open, the Receipts timeline and source-card markup, the rabbit hole, and the Kai Cenat close.
+
+### Remaining Concerns
+Two judgment calls I left to you rather than editing around:
+
+1. **H2 7's heading over-promises its back half.** "What Stable Ronaldo Does When the Numbers Drop" ends on 2026 CORE success. The closing line carries it, and headings are locked by the HEADING MIX LEDGER, so I didn't touch it. If you ever re-cut the heading mix, that's the one to revisit.
+2. **The piece jumps chronology ten times.** That's correct for a thematic argument, and the three worst jumps now carry signposts, but a reader tracking dates rather than themes will still work for it.
+
+I appended a `COHESION PASS (2026-08-04)` ledger comment documenting all of this in the file's existing convention, including the three things I considered and deliberately left alone.

@@ -13,6 +13,7 @@ The user will provide one of:
 - A person's slug, like `Chappell-Roan`
 - A draft file path
 - `current draft`
+- Any of the above followed by `--perspective-review-dir=<repo-relative-dir>` when an audience-perspective verification needs another targeted repair
 
 `$ARGUMENTS`
 
@@ -20,7 +21,8 @@ The user will provide one of:
 
 - **Read**: All file reads in project directories
 - **Write / Edit**: Editing the target draft file in `src/blog/people/drafts/`
-- **WebSearch**: Only when a grader note requires a specific missing fact, quote, or source (e.g. "unattributed quote — find the source or cut")
+- **Perspective artifacts**: Reading the supplied review directory and writing `revision-resolution.md`
+- **WebSearch**: Only when a grader note or unresolved perspective item requires a specific missing fact, quote, or source (e.g. "unattributed quote — find the source or cut")
 - **Glob/Grep**: Locating the draft and review blocks
 - **Bash**: `grep`, `ls`, `echo`, `test`, `awk`, `./scripts/blog-lint.sh`
 
@@ -55,6 +57,12 @@ You succeed when:
 
 5. Build a single work list: lint FAILs first (mechanical, unambiguous), then grader NEEDS WORK items, then TO REACH items.
 
+When `--perspective-review-dir` is supplied:
+
+6. Read `context.json`, `synthesis.md`, `editor-resolution.md`, and the newest available verification artifact (`verification-final.md` before `verification-initial.md`).
+7. Add every unresolved `P0-*` and every protected-hit regression to the work list immediately after lint FAILs and before ordinary grader feedback.
+8. Add an accepted `P1-*` only when the verifier says the attempted repair remains incomplete. Do not reopen already resolved or deliberately rejected P1 preferences.
+
 ---
 
 ## Step 2: Triage the Work List
@@ -65,6 +73,8 @@ For each item, decide:
 - **Reject** — would bloat or weaken the piece, or contradicts a deliberate choice (e.g. the grader asks for a summary ending but the Ending Rule says cut to black). Note the rejection and reason.
 
 **Never reject lint FAILs.** They are mechanical rule violations (missing rabbit hole, prose em-dashes, missing ledgers, templated FAQs, self-loops). If one seems wrong, fix the draft anyway and flag the rule concern in your report.
+
+**Never silently reject a perspective P0.** Fix it, mark it `research_needed`, or mark it `needs_human` with the exact unresolved decision. The later perspective verifier, not this revision pass, closes the gate.
 
 ---
 
@@ -88,6 +98,7 @@ All creator v2 rules bind here, especially:
 - **Update the ledgers** (Testimony, Heading Mix, Distribution, Formula Fingerprint) if your edits changed what they enumerate.
 - **Never modify `lastmod`** — DJ manages that field manually.
 - **Never touch `content_quality`** — the pipeline strips and re-grades after this pass. Do not pre-fill or edit grades.
+- **Protect the jury's hits** — every `PROTECT-*` item in `synthesis.md` is a regression check. Preserve the passage or its essential function while fixing nearby P0/P1 items.
 
 ### Discoverability fixes specifically
 
@@ -107,7 +118,34 @@ All FAILs must be gone. If a FAIL remains, keep working — do not report succes
 
 ---
 
-## Step 5: Leave a Revision Note
+## Step 5: Write the Perspective Revision Resolution
+
+When `--perspective-review-dir` is supplied, write `<review-dir>/revision-resolution.md` with:
+
+```yaml
+---
+artifact: perspective-revision-resolution
+schema_version: 1
+subject: <exact context subject>
+draft_sha256: <frozen snapshot sha>
+resolution_status: complete
+resolved_at: <ISO-8601 timestamp>
+---
+```
+
+Map each verifier-named `P0-*`, incomplete accepted `P1-*`, and `PROTECT-*` regression to its exact edit and status. Allowed statuses are `fixed`, `research_needed`, and `needs_human`. Do not declare the gate passed; the pipeline reruns `/blog_perspective_verify_people`.
+
+Use these exact H2 headings:
+
+```markdown
+## Resolution log
+
+## Protected hits checked
+
+## Unresolved decisions
+```
+
+## Step 6: Leave a Revision Note
 
 Append or replace a `REVISION PASS NOTES` block at the very bottom of the draft (after any existing review blocks):
 
@@ -128,13 +166,14 @@ Keep it short. Replace an older block rather than stacking duplicates.
 
 ---
 
-## Step 6: Report Back
+## Step 7: Report Back
 
 - Which draft you revised and what triggered the loop
 - The fixes applied, mapped to the grader/lint items they address
 - Any rejected feedback and why
 - Confirmation that lint is clean
 - Note that the pipeline will clear the consumed review sidecar and re-grade
+- In perspective mode: note the resolution artifact and that targeted perspective verification must rerun
 
 Do **not** grade the blog yourself. `/grade_blog` owns grading.
 

@@ -1,0 +1,11 @@
+Error processing blog entries: Error: ENOENT: no such file or directory, scandir 'src/blog/people/drafts'
+    at async Object.readdir (node:internal/fs/promises:956:18)
+    at async findMarkdownFiles (file:///Users/djwayne/9takes/scripts/personBlogParser.js:757:16)
+    at async findPersonDraftFile (file:///Users/djwayne/9takes/scripts/personBlogParser.js:785:52)
+    at async recordGradeStability (file:///Users/djwayne/9takes/scripts/personBlogParser.js:1381:19)
+    at async main (file:///Users/djwayne/9takes/scripts/personBlogParser.js:2199:19) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'src/blog/people/drafts'
+}

@@ -1,0 +1,26 @@
+Draft complete and saved.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Tate-McRae.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass | Gate 2: pass | Gate 3: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass
+LIMITATIONS: Rolling Stone Jan 2026 cover story returned HTTP 402 — its quotes are attributed as reported by secondary outlets and flagged for wording verification before publish
+```
+
+**Type call: 3w4, confidence high.** The tiebreaker is on the record — at eight years old she set a 6 a.m. alarm to do 500 crunches so she'd be in better shape than her brother. Unprompted, comparative, closed by labor. A Four would have made that difference into an identity; she just closed the gap.
+
+**The thesis** inverts the standard read. The internet's verdict is "manufactured pop product." But the persona wasn't installed by a label — she built it herself at six because being in her own skin felt worse, and she later gave it a name (Tatiana) because *"I started to black out onstage and become this person that I couldn't explain, nor could my family or my friends, and I needed a reason for it."*
+
+**What the piece is built on:**
+- **Bespoke section** — "Two Octobers." Oct 20, 2017 (couldn't get into a dance studio, wrote a song in 20 minutes, 31M views, career exists) against Oct 31, 2025 (upside-down mic, lip-sync accusations). Same collision, eight years apart. The form collapses if transplanted.
+- **Empathy turn** — the lip-syncing. Dancing is older than singing for her and is the one reliable technology she has for being okay in her body. When they compete for four minutes of stage time she picks the older one. That doesn't refund a ticket; it names the trade.
+- **Critic pressure conceded** — she engineered a show designed to be watched, then wrote "purple lace bra" about the pain of being watched instead of heard.
+- **Ending** — the notebook where a 22-year-old with a No. 1 album wrote down her own favorite colors so she'd have somewhere to look it up.
+
+**Research depth:** pulled the full Zane Lowe transcript via yt-dlp (9,308 words) plus Variety, GRAMMY.com, Billboard chart data, and the Hitmakers Brunch remarks.
+
+Two remaining warnings are both intentional: the single comparative contrast pattern sits inside a verbatim Tate quote (the AI Language Ban exempts direct quotes), and the missing `faqs` frontmatter belongs to the downstream enrich stage. The similarity scanner's one residual trip is on the H2/H3 heading the command mandates verbatim for every profile — a scanner artifact, not a fingerprint; all four genuine trips were rewritten.
+
+Next step is human review, then `/grade_blog` — this command doesn't grade.

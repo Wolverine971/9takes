@@ -259,6 +259,13 @@ const OUTLETS = [
 	// Same class, added on the KSI pass (2026-07-31): Schulz's Flagrant publishes
 	// full public episodes and is the primary record for KSI's therapy/goal quotes.
 	'Flagrant',
+	// Same class, added on the Nara-Smith pass (2026-08-04): the 29 July 2026
+	// Call Her Daddy episode is a dated, 93-minute public episode and is the
+	// primary record for nearly every load-bearing quote on that subject — the
+	// cancer disclosure, the dishes line, the tradwife rebuttal. Without it a
+	// creator whose testimony lives in one long podcast grades untagged no
+	// matter how precisely it is cited.
+	'Call Her Daddy',
 	// Streamer-run shows that publish full public episodes (CaseOh pass,
 	// 2026-07-26). Same class as the comedy podcasts above: for streamer
 	// subjects a named show + date IS the checkable primary record.
@@ -277,6 +284,12 @@ const OUTLETS = [
 	// explicit entry every quote from it grades vague no matter how sourced.
 	'Elite Daily',
 	'The Oxford Blue',
+	// Recording Academy's own editorial site (Tate-McRae pass, 2026-08-04). It runs
+	// bylined, dated artist interviews and is the primary record for this subject's
+	// impostor-syndrome quote; the ".com" in the name means neither OUTLET_SUFFIX
+	// nor any existing entry catches it, so it graded vague however well sourced.
+	'GRAMMY.com',
+	'Grammy.com',
 	// Music-press primary record (Machine-Gun-Kelly pass, 2026-08-03). Apple Music's
 	// Zane Lowe sessions and Audacy's on-air interviews are where musicians in this
 	// corpus actually say the load-bearing things, and both publish dated, watchable

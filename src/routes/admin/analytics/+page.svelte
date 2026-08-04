@@ -2165,7 +2165,7 @@
 				releaseRows[0]?.slug ??
 				'';
 			if (nextSlug) {
-				await selectRelease(nextSlug);
+				void selectRelease(nextSlug);
 			}
 		} catch (err) {
 			if (requestId !== releaseFetchRequestId) return;
@@ -2207,12 +2207,11 @@
 	}
 
 	async function ensureBlogInsightData() {
-		if (!releasesLoaded && !releasesLoading) {
-			await fetchReleaseAnalytics();
-		}
-		if (!blogDiagnosticsLoaded && !blogDiagnosticsLoading) {
-			await fetchBlogDiagnostics();
-		}
+		const pendingLoads: Promise<void>[] = [];
+		if (!releasesLoaded && !releasesLoading) pendingLoads.push(fetchReleaseAnalytics());
+		if (!blogDiagnosticsLoaded && !blogDiagnosticsLoading)
+			pendingLoads.push(fetchBlogDiagnostics());
+		await Promise.all(pendingLoads);
 	}
 
 	async function applyReleaseFilters() {

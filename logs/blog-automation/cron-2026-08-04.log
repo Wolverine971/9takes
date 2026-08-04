@@ -697,3 +697,7 @@ Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-
 [2026-08-04 02:53:22] [WARN] Draft completed but publish-blocked: StableRonaldo — grade 8.4 (B)
 [2026-08-04 02:53:22] [INFO] NOTIFY: ⚠️ 9takes nightly blog: StableRonaldo (Type ?) — draft complete but PUBLISH BLOCKED: content_quality_below_8.5:8.4; missing_full_image; missing_thumbnail_image
 [2026-08-04 02:53:23] [INFO] Nightly blog cron finished
+[2026-08-04 09:12:21] [INFO] Nightly blog cron starting (dry-run=1)
+[2026-08-04 09:12:26] [INFO] SELECTED: caitlin-clark (Type ?)
+[2026-08-04 09:12:26] [INFO] DRY RUN complete — would run pipeline for caitlin-clark
+[2026-08-04 09:12:26] [INFO] Nightly blog cron finished

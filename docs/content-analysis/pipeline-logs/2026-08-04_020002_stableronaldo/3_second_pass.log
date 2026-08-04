@@ -1,0 +1,28 @@
+Second pass done on `src/blog/people/drafts/Stable-Ronaldo.md`.
+
+## Source audit (the load-bearing fix, done wholesale first)
+
+**Before:** 7 quotes / 0 inline / 4 vague / 3 untagged
+**After:** 5 quotes / **5 inline** / 0 vague / 0 untagged
+
+Epigraph and cold open now carry "All Grown Up podcast, September 2024"; Ninja's insult carries `(Dexerto, 2023)`; the Kai Cenat closer carries "Streamer University, July 2026." The two untagged diagnosis quotes disappeared with the Martyn compression. I added `All Grown Up` and `Streamer University` to `OUTLETS` in `scripts/blog-source-audit.mjs:298` with a dated comment, following the same precedent class already documented there (Jynxzi Podcast, Club Shay Shay, Shawn Ryan Show) — both are named, dated, publicly-recorded primary sources for a streamer subject.
+
+`blog-lint`: 0 fail, 1 warn (the expected "no faqs in frontmatter" — enrich stage hasn't run).
+
+## Main changes
+
+- **New H2, "Why Stable Ronaldo Took a Break in 2025."** The review was right that this was the piece's biggest miss. It's now the self-undercut beat: the Boba breakup in January ("Oh no, I am broken up with" — he lost the argument and kept the segment), the September 10 disappearance post, and the hiatus quotes. The point that earns the section: this collapse landed at the *top* of a career year, where the scoreboard had no column for it.
+- **The FaZe contradiction was real but resolvable.** Both facts are true: he left Christmas Day 2025 with a two-word post and no explanation, *and* streamed ~35 minutes about it to ~117k peak while showing the $11,000 dashboard. That juxtaposition is now a timeline row and the payoff of the smoke-detector paragraph.
+- **Negation-then-assertion tic cut from 9 to 3**, keeping the three the review named as landing.
+- **The mother now has a scene.** He opened the call with a lie about $50,000 and she was already crying at fifty; then "I sent you $250K. I want you to just enjoy your life, even if you don't need it."
+- Slap date corrected to June 7, 2024. Rani Netz introduced in the second sentence. Fortnite pivot added (a scoreboard that closes traded for one that never does). Stream texture added twice. Corpus stat moved into the pressure test with `401` dropped so it stops reading as an error.
+
+## One note I rejected
+
+**The gambling contradiction.** Verification kills it: the October 2024 ban was for accidentally showing *someone else* gambling on Stake (Dexerto, Sportskeeda), not for gambling on camera. Printing it as counter-evidence against a money-as-safety thesis would have been a manufactured tension. The 2025 hiatus does that job honestly.
+
+## Still open for an editor
+
+- Ninja's July 2023 DM is still paraphrased rather than quoted in the body; there's room for the text.
+- "I'm not going to be like 'I forgive you' because I don't" (rabbit hole) is unattributed in-text — almost certainly the All Grown Up episode, but I couldn't confirm it independently.
+- The Boba date is soft. Coverage is dated January 8, 2025 and describes "a viral clip from January," and a separate July 2024 on-stream breakup clip is also in circulation. I wrote "In January" without a day rather than pin it wrong.

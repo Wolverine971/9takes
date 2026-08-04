@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — stable-ronaldo (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Stable-Ronaldo.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 49
+Comparison set (last 8 other Type-3 drafts by date):
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+  - jynxzi  (2026-07-25, 30 units)
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+
+Noise floor over 13524 unit pairs:  median=0  p90=0  p99=0.006  max=0.186
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.186 #######              KSI
+  0.082 ###                  Brooke-Monk
+  0.077 ###                  jynxzi
+  0.054 ##                   Carina-Zavline
+  0.029 #                    pete-hegseth
+  0.026 #                    plaqueboymax
+  0.019 #                    Alex-Warren
+  0.018 #                    margaret-qualley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.186   stable-ronaldo  <->  KSI
+   TARGET [diagnosis] Stable Ronaldo is an Enneagram Type 3
+   OTHER  [diagnosis] That sentence is an Enneagram Type 3 describing his own operating system with unusual honesty.
+
+score 0.082   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Asked in that same June 9 broadcast what the slap had done for him
+   OTHER  [diagnosis] in that same 2023 Elite Daily interview
+
+score 0.077   stable-ronaldo  <->  jynxzi
+   TARGET [diagnosis] " and that he "tried to be an IRL streamer and failed miserably" (Dexerto
+   OTHER  [diagnosis] he tried to describe the experience of not going live
+
+score 0.060   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Asked in that same June 9 broadcast what the slap had done for him
+   OTHER  [diagnosis] The plainest version came later in that same Elite Daily conversation.
+
+score 0.060   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Netz let the insult about his character stand and went straight at the other one
+   OTHER  [counter-typing] Her stated reason points straight at the audience
+
+score 0.054   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] His 2022 crash flattened him at an audience size that would make most careers.
+   OTHER  [counter-typing] or identity confusion that would make the inner Type 3 case conclusive.
+
+score 0.033   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] he said it boosted his "relevancy" (Sportskeeda
+   OTHER  [diagnosis] She said it herself before anyone typed her.
+
+score 0.030   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] so anything that moves the number counts as an asset
+   OTHER  [diagnosis] It tracks whatever the numbers reward
+
+score 0.029   stable-ronaldo  <->  pete-hegseth
+   TARGET [diagnosis] Stable Ronaldo is an Enneagram Type 3
+   OTHER  [diagnosis] The Enneagram Type 3 is called the Achiever.
+
+score 0.029   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] If he ever described the 2022 collapse as boredom
+   OTHER  [counter-typing] Carina has never publicly described the shame
+
+score 0.029   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] A Type 3 sorts every event by whether it moved the number.
+   OTHER  [diagnosis] It tracks whatever the numbers reward
+
+score 0.027   stable-ronaldo  <->  pete-hegseth
+   TARGET [diagnosis] then went back on stream two days later and worked the whole thing as material
+   OTHER  [diagnosis] Thirty-two days after the podcast
+
+------------------------------------------------------------------------------
+Top pair scores 0.186 vs median 0  (~∞x the noise floor).

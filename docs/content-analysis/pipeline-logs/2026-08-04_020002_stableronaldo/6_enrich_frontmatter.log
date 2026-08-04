@@ -1,0 +1,29 @@
+```
+Frontmatter enrichment complete: Stable-Ronaldo
+```
+
+**Fields filled:** `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):** `wikipedia`, `twitter`, `tiktok`, plus all creator-owned fields. `lastmod` untouched.
+
+**Verification:**
+- Wikidata `Q137597192` — birth 2003-01-15, born Cherry Hill, NJ (Wikipedia infobox; Wikidata P19 is state-level only)
+- IMDb `nm14338353` — cross-checked twice: Wikidata P345 **and** a search confirming the page is Rani Netz (*Streamer Games*, *Sidemen Charity Match 2025*)
+- All 7 citation URLs curl-verified 200. They resolve the outlets the body already cites by name (Dexerto for the Ninja feud + apology, Sportskeeda for the Martyn slap / the $250k / xQc's ad complaint / the September 2025 hiatus)
+- `same_as` includes the Liquipedia Fortnite entity (confirmed live via their API; it 403s to browsers as a bot block, not a dead link)
+- Frontmatter parses clean via gray-matter — no repeat of the `\'` YAML break
+- `blog-lint`: **0 fail, 0 warn** (the standing "no faqs" warn is now cleared)
+
+**FAQs generated (5):**
+1. What is Stable Ronaldo's personality type? → `#what-is-stable-ronaldos-personality-type`
+2. Why did Stable Ronaldo fall off in 2022? → `#what-stable-ronaldo-does-when-the-numbers-drop`
+3. Why did Stable Ronaldo take back the $250,000 he gave his mother? → `#the-receipts-what-stable-ronaldo-bought-his-mother`
+4. Why does Stable Ronaldo run so many ads on stream? → `#why-people-call-stable-ronaldo-an-ad-machine`
+5. Why did Stable Ronaldo take a break in 2025? → `#why-stable-ronaldo-took-a-break-in-2025`
+
+All five anchors match live H2s in the body. No em-dashes, no negation-then-assertion added.
+
+**Issues:**
+- **`instagram: ''` is still empty.** Social handles are on this command's do-not-touch list, so I left it, but the correct value is `stableronaldo` (Wikidata P2003, and the live account with ~2M followers whose bio links `@createownruneverything`). One-word fix if you want it.
+- **Zero external URLs in the body.** The article cites outlets by name in prose (Dexerto, Sportskeeda, TwitchTracker, All Grown Up) but carries no inline links, so `citations` had to be resolved by matching each named reference to its actual article rather than harvested from the text. Nothing invented, but the body's sourcing is name-only.
+- **TwitchTracker excluded.** The body's 2026 stats cite it, but the site 403s verification, so I left it out of `citations` rather than write an unverified link.

@@ -1,0 +1,15 @@
+{
+	"person": "Tate-McRae",
+	"draft_path": "src/blog/people/drafts/Tate-McRae.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_103835_Tate-McRae",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.4,
+	"final_overall": 8,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.40000000000000036,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-04T15:45:48.951Z"
+}

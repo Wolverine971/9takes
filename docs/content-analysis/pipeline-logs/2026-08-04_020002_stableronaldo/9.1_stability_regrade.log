@@ -1,0 +1,23 @@
+## Grading Complete — Stable Ronaldo (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stable-Ronaldo | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability 9 — no gate. No caps applied.
+
+**Prior grade C (7.6) → B (8.4), delta 0.8.** The revision pass did what the last sidecar asked, and the numbers moved honestly.
+
+### Key observations
+
+- **Deterministic checks are clean.** 0 contrast pairs, head-term PASS, 47-word answer block, 6/6 load-bearing quotes inline, same-type similarity clear. Corpus-stat sentence removed, aphoristic closers 7→3, reader-directives 10→1, arrow mechanics moved into the rabbit hole.
+- **What earns the B:** the cold open (thesis fully dramatized before any framework word), an empathy turn in his own wound-vocabulary rather than house grammar ("reads revenue as a smoke detector"), and the 2025-hiatus section — a genuine self-undercut where the accounting engine fails at the *top* of a career year. That last one is rare in this corpus and it's what carries Enneagram to 9.
+- **What holds it at B — one fixable defect.** The piece is monochrome. The fresh-eyes review flagged that the reader never sees him be funny, the second pass answered with two glances, and then the closer asks you to feel Kai Cenat saying *"cause bro you funny."* The body never funded that line. Three to five sentences of an actual 2026 CORE broadcast, placed before the Kai section, moves Writing 8→8.5 and the overall to 8.5.
+- **Sourcing asymmetry worth flagging to you directly:** the money claims are well-cited; the *comeback* claims are the least-cited thing in the article. CORE's April 30 2026 launch and the $20M Calabasas house — the current-tense anchor and the Type 6 integration evidence — have no outlet anywhere, in body or `citations`. Also still carrying the unattributed "I'm not going to be like 'I forgive you' because I don't," which the draft's own second-pass notes flagged as unconfirmed two passes ago.
+- **Ledger accuracy problem, third pass running:** the FORMULA FINGERPRINT similarity figure has now been wrong three times (0.058 → 0.077 → actually 0.186). The verdict is still legitimately CLEAR — the top pair is a boilerplate collision — but the ledger keeps asserting a number the script contradicts. Worth a pipeline fix, not a per-draft one.
+
+Cross-draft sameness check ran against Samara-Weaving, Machine-Gun-Kelly, and Penguinz0: only the epigraph→cold-open furniture and bolded-noun TL;DR bullets are shared, both structural. Under the 3-move threshold.
+
+Written to `src/blog/people/drafts/Stable-Ronaldo.md` (frontmatter) and `docs/content-analysis/grades/Stable-Ronaldo.review.md`.
+
+**Total graded this session: 1**

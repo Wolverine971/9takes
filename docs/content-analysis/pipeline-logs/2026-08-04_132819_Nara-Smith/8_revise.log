@@ -1,0 +1,27 @@
+Revised `src/blog/people/drafts/Nara-Smith.md`.
+
+**Trigger:** grade B+ (8.5), Evidence 8 / Enneagram 8.5 — 2 NEEDS WORK + 6 TO REACH A items. Lint was already 0 FAIL, so nothing here was a mechanical fix.
+
+## Fixes applied
+
+**Evidence (the capped dimension) — added the first non-Cooper primary source.** Lucky Blue Smith on the record to *People* (published 28 Mar 2026, from the Clarins Night of Extra carpet on 20 Mar 2026) — **four months into Whimsy's chemotherapy** — attributing the household strain to the fourth baby: *"we thought we were really done after three. And to be honest, four has been an adjustment,"* and they were *"finally hitting our stride with it."*
+
+This does more than break the single-interview dependency. It's the only outside record of the frame *while it was still up*, so "eight months of two separate realities" no longer rests entirely on her own retrospective account. I wrote it as true-but-incomplete rather than as a lie — a fourth baby genuinely is an adjustment — which keeps the draft's concession discipline intact. Testimony ledger 5 → 6; citation added.
+
+**All three unsourced claims (TO REACH #1).** The "roughly 700% follower growth" figure has no traceable publisher — I searched and it isn't in the Forbes explainer or anywhere else — so the table row is now qualitative (Aritzia campaign, Marc Jacobs bag, viral peak) rather than carrying a phantom metric. Neeleman's crown is attributed to Megan Agnew's July 2024 profile in *The Times* of London. Yale New Haven is attributed to the Cooper interview.
+
+**The missing "want" (NEEDS WORK #2).** The childhood section now closes on *unlearning* as her own word for building rather than defending, and on raising four children inside a version of childhood she got from one room in Frankfurt, "and it was not the room with the globe in it." The oatmeal close now answers a question the piece asked.
+
+**Interior beat in the tradwife section (TO REACH #5)**, placed after the Wicker gap paragraph to break ~1,100 words of unbroken argument. It says "a picture I am not in" rather than putting words about race in her mouth.
+
+**Two metronomic closers broken (TO REACH #4)** — childhood and postpartum. Kept the table's "the right-hand column never leaked" and the diagnosis thesis pair, both scored as hits.
+
+**Stale ledgers corrected** — both prior passes claimed faqs were pending enrich; they're complete. Also carried the editor pass's own open item: "ten weeks" → "eleven weeks."
+
+## One item only partly discharged
+
+**The 4050 word warn is not cleared.** Body is 4384 — exactly where it started, so ~195 words of new material were paid for in full out of genuine redundancy, not evidence. But clearing 4050 needs ~334 more, and your grader's own instruction was to remove a *section*. The two sections it named are now compressed; everything left at that scale is load-bearing (the table and oatmeal close are scored hits, the Rabbit Hole is lint-required). Cutting further trades Evidence — the exact dimension this pass was sent to raise — for word count. That's your call, so I flagged it rather than doing it silently.
+
+I also left the grader's source-audit parser note alone: the "asking for permission" quote mis-tagged as Forbes is a `blog-source-audit.mjs` windowing artifact (the key-stat div bleeding into the window), not a draft defect. The body attribution to Cooper is correct.
+
+**Lint: 0 fail, 1 warn** (word count only). `lastmod` and `content_quality` untouched — verified against the staged blob. No perspective review directory was supplied, so no resolution artifact was written. The pipeline will clear the consumed sidecar and re-grade.

@@ -64,6 +64,14 @@ function callGet(supabase: unknown, url: string) {
 	} as any);
 }
 
+function deferred<T>() {
+	let resolve!: (value: T) => void;
+	const promise = new Promise<T>((nextResolve) => {
+		resolve = nextResolve;
+	});
+	return { promise, resolve };
+}
+
 describe('/api/admin/analytics/releases', () => {
 	afterEach(() => {
 		vi.useRealTimers();
@@ -163,6 +171,53 @@ describe('/api/admin/analytics/releases', () => {
 			above_norm: 0,
 			benchmarked: 0
 		});
+	});
+
+	it('starts independent release scoring reads concurrently after the refresh', async () => {
+		const selected = deferred<{ data: Array<Record<string, unknown>>; error: null }>();
+		const baseline = deferred<{ data: Array<Record<string, unknown>>; error: null }>();
+		const demand = deferred<{ data: Array<Record<string, unknown>>; error: null }>();
+		let performanceCall = 0;
+		const rpc = vi.fn((name: string) => {
+			if (name === 'refresh_content_analytics_daily') {
+				return Promise.resolve({ data: 0, error: null });
+			}
+			if (name === 'get_content_release_performance') {
+				performanceCall += 1;
+				return performanceCall === 1 ? selected.promise : baseline.promise;
+			}
+			if (name === 'get_content_release_demand_metrics') return demand.promise;
+			return Promise.resolve({ data: null, error: null });
+		});
+		const supabase = {
+			from: vi.fn(() => ({
+				select: vi.fn(() => ({
+					eq: vi.fn(() => ({
+						single: vi.fn().mockResolvedValue({ data: { admin: true }, error: null })
+					}))
+				}))
+			})),
+			rpc
+		};
+
+		const responsePromise = callGet(
+			supabase,
+			'https://9takes.test/api/admin/analytics/releases?from=2026-04-01&limit=10'
+		);
+
+		await vi.waitFor(() => {
+			expect(rpc.mock.calls.map(([name]) => name)).toEqual([
+				'refresh_content_analytics_daily',
+				'get_content_release_performance',
+				'get_content_release_performance',
+				'get_content_release_demand_metrics'
+			]);
+		});
+
+		selected.resolve({ data: [], error: null });
+		baseline.resolve({ data: [], error: null });
+		demand.resolve({ data: [], error: null });
+		expect((await responsePromise).status).toBe(200);
 	});
 
 	it('quarantines legacy 7-day benchmark rows instead of trusting stale bands', async () => {

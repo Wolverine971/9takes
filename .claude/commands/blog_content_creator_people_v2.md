@@ -10,7 +10,7 @@ This is **v2** — the working revision. Compare with `blog_content_creator_peop
 
 - **WebSearch**: All web searches for research
 - **Read**: All file reads in project directories
-- **Write / Edit**: Creating and editing draft files in `src/blog/people/drafts/`
+- **Write / Edit**: Creating and editing draft files in `src/blog/people/drafts/`, plus the durable evidence file `docs/content-analysis/research/[Person-Name].md`
 - **Bash**: `grep`, `env`, `echo`, `ls`, `test` for local research and content checks
 - **Glob / Grep**: Searching the codebase for link targets and existing drafts
 
@@ -722,6 +722,20 @@ When invoked:
 **Primary source priority:** long-form podcasts (Rogan, Lex, Diary of a CEO, Tim Ferriss, niche in-field); books/memoirs; YouTube interviews 30+ minutes; documentaries. Scripted press junkets are last resort.
 
 **Output:** comprehensive research summary with source URLs, preliminary core tension, best signature moments found so far, and a shortlist of promising interviews for transcript analysis.
+
+**Persist the research instead of leaving it in session context.** Create or update `docs/content-analysis/research/[Person-Name].md` using the canonical draft filename casing. This durable evidence file is consumed later by `/blog_perspective_research_people`, preventing six perspective evaluators from repeating the creator's baseline work.
+
+The durable file must keep evidence separate from interpretation and include:
+
+- dated timeline relevant to the eventual thesis
+- first-person quotations with source/date/URL or repository transcript path
+- named third-party testimony
+- accomplishments, failures, controversies, and serious counterevidence
+- source ledger with primary/reported/community source distinctions
+- preliminary type hypothesis, strongest alternative, and disconfirming evidence, all labeled as hypotheses
+- unresolved facts and research limitations
+
+Update an existing file rather than stacking dated duplicates. Do not put a quality verdict or imagined audience reactions in this research artifact.
 
 ### Step 2: Enneagram Analysis
 

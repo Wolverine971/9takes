@@ -1,0 +1,28 @@
+Frontmatter enrichment complete: **Nara-Smith**
+
+**Fields filled:**
+`wikidata_qid`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):**
+`wikipedia` (already the canonical en.wikipedia URL — correct entity, left untouched). No socials were set by the creator, and I did not add any. `lastmod` untouched.
+
+**FAQs generated (5):**
+1. What is Nara Smith's personality type? → `#what-is-nara-smiths-personality-type`
+2. Why does Nara Smith cook everything from scratch? → `#why-nara-smith-started-cooking-everything-from-scratch`
+3. Why does Nara Smith reject the tradwife label? → `#why-nara-smith-rejects-the-tradwife-label`
+4. Why did Nara Smith hide her daughter's cancer? → `#how-nara-smith-kept-filming-through-her-daughters-cancer`
+5. What did Nara Smith say about her postpartum experience? → `#the-postpartum-picture-nara-smith-refuses-to-accept`
+
+All five anchors verified against real H2 slugs in the body. Frontmatter re-parsed clean with `gray-matter`; body and all HTML comment blocks unchanged (file 466 → 521 lines, exactly the 55 frontmatter lines added).
+
+**Issues:**
+
+- **`imdb_id` omitted deliberately.** Wikidata Q124800984 carries no P345, and an IMDb search surfaced two different people named Nara Smith (`nm9781757`, a visual-effects artist; `nm18223242`, an uncredited actress) with nothing tying either to her. IMDb returns 403 to fetching, so neither could be confirmed. Writing a guess would have cross-referenced the wrong person.
+- **Body has zero inline external URLs.** The `citations` list was resolved from sources the body names in prose — the 29 July 2026 *Call Her Daddy* episode, Forbes (31 Jul), TheGrio/Kay Wicker (3 Aug), Tia Levings' Substack (30 Jul), and Rolling Stone (the source behind "reports that she converted were never confirmed"). All six URLs verified as live search hits. Nothing was invented, but the draft itself carries no linked sourcing.
+- **Two Wikidata/Wikipedia conflicts, resolved toward Wikipedia:**
+  - Birth date: Wikidata P569 reads 28 September 2001; Wikipedia and secondary coverage both say **27 September**. Used 27th.
+  - Birth place: Wikidata P19 says **Cape Town**; Wikipedia, The South African, and the draft body all say **Bloemfontein**. Used Bloemfontein (added the Free State province for Schema.org granularity).
+  
+  Worth fixing upstream on Wikidata if you care about the entity graph, but the frontmatter is right.
+- `models.com/people/nara-smith` in `same_as` was confirmed only by search-result title — the site 403s direct fetches. Wikipedia, Wikidata, and the Rolling Stone topic page are all solid.
+- No `path:` or `content_quality:` block on this draft yet — the grader hasn't run.

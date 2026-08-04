@@ -1,0 +1,4 @@
+stage=4.1_perspective_snapshot exit=1 dur=0s at=2026-08-04 14:06:50
+stage=6.8_same_type_similarity exit=1 dur=0s at=2026-08-04 14:18:28
+stage=9.2_record_grade_stability exit=1 dur=0s at=2026-08-04 14:46:18
+stage=9.7_same_type_similarity_after_revision exit=1 dur=0s at=2026-08-04 14:46:18

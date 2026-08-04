@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — stable-ronaldo (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Stable-Ronaldo.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 41
+Comparison set (last 8 other Type-3 drafts by date):
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+  - jynxzi  (2026-07-25, 30 units)
+  - margaret-qualley  (2026-07-23, 30 units)
+  - pete-hegseth  (2026-07-19, 54 units)
+
+Noise floor over 11316 unit pairs:  median=0  p90=0  p99=0.006  max=0.077
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.077 ###                  jynxzi
+  0.060 ##                   Brooke-Monk
+  0.054 ##                   Carina-Zavline
+  0.031 #                    plaqueboymax
+  0.026 #                    KSI
+  0.024 #                    pete-hegseth
+  0.022 #                    Alex-Warren
+  0.015 #                    margaret-qualley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.077   stable-ronaldo  <->  jynxzi
+   TARGET [diagnosis] " and that he "tried to be an IRL streamer and failed miserably" (Dexerto
+   OTHER  [diagnosis] he tried to describe the experience of not going live
+
+score 0.060   stable-ronaldo  <->  Brooke-Monk
+   TARGET [diagnosis] Netz let the insult about his character stand and went straight at the other one
+   OTHER  [counter-typing] Her stated reason points straight at the audience
+
+score 0.054   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] His 2022 crash flattened him at an audience size that would make most careers.
+   OTHER  [counter-typing] or identity confusion that would make the inner Type 3 case conclusive.
+
+score 0.041   stable-ronaldo  <->  Brooke-Monk
+   TARGET [counter-typing] Boredom sends people out of the house.
+   OTHER  [diagnosis] Type 3 is the house type of this business
+
+score 0.031   stable-ronaldo  <->  plaqueboymax
+   TARGET [diagnosis] so anything that moves the scoreboard is an asset
+   OTHER  [counter-typing] Max gives and then checks the scoreboard.
+
+score 0.029   stable-ronaldo  <->  Carina-Zavline
+   TARGET [counter-typing] If he ever described the 2022 collapse as boredom
+   OTHER  [counter-typing] Carina has never publicly described the shame
+
+score 0.026   stable-ronaldo  <->  KSI
+   TARGET [diagnosis] He gave the same treatment to a lost year
+   OTHER  [diagnosis] more power." He gave his own healing a performance target.
+
+score 0.025   stable-ronaldo  <->  plaqueboymax
+   TARGET [diagnosis] The core desire is to feel valuable.
+   OTHER  [diagnosis] his first instinct is to check whether it registered.
+
+score 0.025   stable-ronaldo  <->  plaqueboymax
+   TARGET [diagnosis] When Ninja finally apologized on stream in December 2024
+   OTHER  [diagnosis] and back on the same stage in December 2025 he kept score out loud
+
+score 0.025   stable-ronaldo  <->  Brooke-Monk
+   TARGET [counter-typing] this typing would need to change.
+   OTHER  [diagnosis] "I will film as many takes as needed to make the video perfect.
+
+score 0.024   stable-ronaldo  <->  pete-hegseth
+   TARGET [diagnosis] When Ninja went after him on a drunken broadcast in July 2023
+   OTHER  [diagnosis] The reversal got its epilogue in July 2026
+
+score 0.023   stable-ronaldo  <->  jynxzi
+   TARGET [counter-typing] which is exactly what happened in September 2025.
+   OTHER  [diagnosis] which is why the wins never bank and the next one always has to happen on schedule.
+
+------------------------------------------------------------------------------
+Top pair scores 0.077 vs median 0  (~∞x the noise floor).

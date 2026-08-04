@@ -392,13 +392,19 @@
 	}
 
 	.badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 		background: var(--profile-chip-bg);
 		color: var(--profile-chip-text);
 		padding: 0.18rem 0.55rem;
 		border-radius: 1rem;
 		font-size: 0.6875rem;
 		font-weight: 600;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
 		border: 1px solid var(--profile-chip-border);
+		white-space: nowrap;
 	}
 
 	.empty-state {

@@ -181,6 +181,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'plaqueboymax', link: false, hasImage: false, lastmod: '2026-07-27', personaTitle: 'Streaming\'s Relentless Hitmaker', contentGrade: 8.4, types: ['creator', 'musician'] },
 		{ name: 'riyaz-aly', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'stable-ronaldo', link: false, hasImage: false, lastmod: '2026-08-02', personaTitle: 'Twitch\'s Comeback Machine', contentGrade: null, types: ['creator', 'streamer'] },
+		{ name: 'tate-mcrae', link: false, hasImage: false, lastmod: '2026-08-04', personaTitle: 'The Girl Who Built Tatiana', contentGrade: 8, types: ['musician'] },
 		{ name: 'ted-bundy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'xochitl-gomez', link: false, hasImage: false, lastmod: '2026-07-12', personaTitle: 'Hollywood\'s Rehearsed Sunshine', contentGrade: 8.4, types: ['newMovieStar', 'rising-star'] }
 	],
@@ -494,6 +495,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'kabib', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'katharine-hepburn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
 		{ name: 'lisa-koshy', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
+		{ name: 'nara-smith', link: false, hasImage: false, lastmod: '2026-08-04', personaTitle: 'The Whisper That Never Asks', contentGrade: null, types: ['creator', 'lifestyleInfluencer', 'tiktoker'] },
 		{ name: 'sean-connery', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
 		{ name: 'sean-penn', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
 		{ name: 'susan-sarandon', link: false, hasImage: false, lastmod: '2026-06-28', personaTitle: 'The Star They Couldn\'t Muzzle', contentGrade: 8.8, types: ['movieStar', 'activist', 'screen-icon'] }

@@ -1,0 +1,20 @@
+Polished `src/blog/people/drafts/Tate-McRae.md`.
+
+**What the draft came in with:** structurally solid, mechanically clean already (0 em-dashes, 0 strong contrast pairs, no banned phrases). The problems were rhythm and redundancy, not compliance. This was a line edit only — no argument, structure, or quote changed.
+
+**Main things cleaned up:**
+
+- **Repetitive correction cadence.** The piece ran "everyone thinks X, actually Y" seven times. I kept the five doing real work (the intro charge, the diagnosis hinge, the "not *I felt objectified*" close-read, self-manufactured, "the template isn't the tell") and rewrote the two that were only signposting. "That's the reversal" sat one clause before the actual reversal; "worth reading twice" duplicated the stronger version two sections later.
+- **The booked-studio idea stated three times in a row** — the punchline sentence, then the key-stat box, then a near-verbatim restatement six lines down. Kept the first, shortened the third to a button.
+- **Editorializing that stepped on its own quotes.** "One of the saddest sentences a 22-year-old with a No. 1 album has ever said out loud" was doing the reader's reacting for them; the black-room quote is stronger naked. Same fix on "a conclusion most people take decades to reach."
+- **Quote scaffolding** in section 5 ("she's said so several ways. The cleanest: … And the counterpart:") that read like a clippings file rather than a portrait.
+- **Crutch words:** 6 × "the thing," 4 × "installed," 3 × "genuine." "Installed" now runs as a deliberate two-beat only — the fix installed at six, the kid who installed herself at 6 a.m.
+- **Two sentence-initial "Which" openers**, one of which also narrated the article's own structure ("the charge from the top of this piece").
+
+**Protected:** the 6 a.m. crunches open, the inner-thought counting paragraph, "Two Octobers," the empathy turn on the lip-syncing, the frame-limit beat on the precognitive dreams, and the favorite-colors close. All quotes verbatim.
+
+**Final contrast-pair count: 0 strong, 1 comparative** — and that one sits inside a verbatim Tate McRae quote ("way less fear than sitting in a small room"), which the quote exemption covers. Lint: 0 fail, 3 warn.
+
+Net **−124 words** (4,364 → 4,240), which was deliberate: the cohesion pass had left only 148 words of headroom under the 4,500 ceiling and flagged that the next editor should trim before adding. There's now 260.
+
+**Production-ready on prose.** Two non-editorial blockers remain, both carried over: the Rolling Stone January 2026 quotes are sourced through secondaries and need wording confirmed against the paywalled text, and the frontmatter enrich stage hasn't run (no `faqs`, which is a discoverability cost).

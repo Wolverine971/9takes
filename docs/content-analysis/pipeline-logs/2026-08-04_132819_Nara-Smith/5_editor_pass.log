@@ -1,0 +1,22 @@
+Polished `src/blog/people/drafts/Nara-Smith.md`. No perspective-review dir exists for this subject and no `--perspective-review-dir` was passed, so this ran as a standard editor pass.
+
+**What I cleaned up**
+
+The draft came in structurally strong (three prior passes had already done the heavy lifting), so the real problems were accretion and residual template.
+
+- **The hard blocker was length.** Body was 4560 against the 4500 ceiling — a lint FAIL. Now 4384. The biggest single cut was the scratch-section summary paragraph, which re-stated the ingredient control, the dress, and the whisper immediately after each had been shown. I kept its one new fact and its payoff line.
+- **Negative parallelism.** Five "not X, it's Y" constructions, the #1 AI tell in the standards. I broke four ("The engine is not aggression", "What she refuses is never the work" — which ran twice as a template — "Her charge is not that", "The silence was never shame") and kept the two carrying the thesis.
+- **Reader-instruction imperatives.** Cut "Sit with the shape of that" and "Note what stings and what does not." Left "Look at the grammar," which points at something real.
+- **Duplicated facts.** "She was 18" ran twice and "two children" three times across four paragraphs. Also cut the postpartum-compliment exhibit from the Type 3 paragraph, where it was the third exhibit in one paragraph and is paid off better later.
+
+**Two things worth your attention**
+
+1. **A factual slip:** "The whole type in eight words" pointed at a twelve-word quote. Now reads "in one sentence."
+2. **I removed the "#33 on Forbes' 2026 Top Creators list" stat.** The second-pass notes flagged it as inherited from pass one and absent from the cited 31 July 2026 Forbes explainer. Rather than ship an unverified number inside a callout box with a Forbes byline, I cut it — the other two clauses in that key-stat are supported. I did not research it, since WebSearch is scoped to jury-mode items in this command. If you want the rank back, it needs one verification.
+
+**Exit checks:** `blog-lint.sh` 0 fail, 2 warn. `blog-quality-report` contrast pairs **0 total (0 strong, 0 comparative)**. No em-dashes, no banned phrases, head-term PASS.
+
+**Readiness:** production-ready on prose. Two open items, neither of which an editor pass can close:
+
+- `faqs` frontmatter still pending the enrich stage — the remaining discoverability gap.
+- Body is above lint's 4050 warn line. I deliberately stopped ~50 words short of the 210–260 the cohesion pass requested: that estimate was scoped before the Mormon and race material became load-bearing, and the remaining candidates were evidence, not fat. Clearing the warn outright needs ~334 more words, which is a refresh-level decision, not a polish one. I noted in the draft that the next refresh should cut a section before adding one, and flagged the Mormon H3 and Ballerina Farm paragraph as the most compressible if something has to give.

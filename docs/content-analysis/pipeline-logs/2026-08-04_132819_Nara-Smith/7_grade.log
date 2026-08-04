@@ -1,0 +1,25 @@
+## Grading Complete — Nara Smith
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nara-Smith | 8 | 8.5 | 9 | 8.5 | 8.5 | 9 | **8.5** | **B+** |
+
+`(8×1.5 + 8.5×1.5 + 9×1.5 + 8.5 + 8.5 + 9×0.5) / 7 = 8.5`. No caps fired — 0 contrast pairs, 0 counter-typing ladders in body, critic pressure faced not ducked, current anchor saturated, ending passes swap test, empathy turn avoids house grammar.
+
+### Key observations
+
+**What earns the B+:** Three things this draft does that the recent batch (Tate-McRae 8.0, Stable-Ronaldo 8.4, Samara-Weaving 8.4) doesn't.
+
+1. It **loses the argument on purpose** — "Her critics have the stronger case on impact" — and leaves Lucky's driving quote unresolved rather than letting the framework cover for her. That's the credibility the type read then borrows.
+2. **Discoverability is the strongest I've graded this week.** The meta_title captures a query surging *right now* (Nara Smith tradwife, six days old), and the FAQ answers are long enough for an AI engine to lift whole.
+3. The **in-frame/out-of-frame table** is a real form invention — it only works because she operates her own camera, which is the bar for bespoke.
+
+**What holds it under A:** The evidence base is essentially **one 93-minute interview**. Attribution hygiene is perfect (8/8 inline, 0 vague, 0 untagged), but there's no testimony from anyone who actually knows her — the critics are commentators *about* her. And the fresh-eyes "what does she want" gap was never closed by the second pass: the reader finishes knowing precisely what she fears and nothing about what she's reaching for.
+
+**Three unsourced claims the audit script can't see** (it only scans quotes): the "roughly 700% follower growth" metric in the table has no publisher, "a British newspaper profile" is vague for The Times, and "Yale New Haven" is a specific institution with no attribution.
+
+**Stale ledgers:** both the second-pass and editor-pass notes claim "faqs still pending the enrich stage" — they're present and complete; lint confirms 5 FAQPage-eligible pairs. The ledger's own read of the same-type similarity trip is correct and I verified it independently: 0.058 against ella-langley is that comparison set's noise max, and the overlap is four words inside two unrelated quotes. False positive.
+
+Sidecar written to `docs/content-analysis/grades/Nara-Smith.review.md` with the six concrete steps to A. Frontmatter block added; no legacy `QUALITY GRADE` comment existed in the body to remove.
+
+**Total graded this session: 1**

@@ -15,7 +15,7 @@ A person's slug (`Hasan-Piker`), a draft path, or `current draft`, optionally fo
 ## Pre-Approved Operations
 
 - **Read / Glob / Grep**: locating and reading the draft, taskers, and GSC data
-- **Edit / Write**: the target draft in `src/blog/people/drafts/` only
+- **Edit / Write**: the target draft in `src/blog/people/drafts/` and its durable evidence file at `docs/content-analysis/research/[Person-Name].md`
 - **WebSearch / WebFetch**: verifying every factual claim you add
 - **Bash**: `grep`, `awk`, `wc`, `ls`, `test`, `node`, `./scripts/blog-lint.sh`, `./scripts/blog-quality-report.mjs`, `./scripts/blog-source-audit.mjs`, `node scripts/personBlogParser.js <Person>` (dry run only)
 
@@ -90,6 +90,7 @@ Every factual claim you add needs a real, checkable source. This corpus has a do
 - Report legal and legislative status precisely. Introduced is not passed. A subpoena is not a charge. An inquiry is not a finding.
 - If you cannot source it, cut it.
 - Add real sources to the `citations` frontmatter array.
+- Add accepted, verified refresh evidence to `docs/content-analysis/research/[Person-Name].md`, including event date, publication date, URL, source tier, and what it can support. Preserve contrary evidence and rejected/unverified claims so the later perspective jury does not have to rediscover them.
 
 ---
 

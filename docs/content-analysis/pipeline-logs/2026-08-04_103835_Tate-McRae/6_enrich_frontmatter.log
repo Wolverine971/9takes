@@ -1,0 +1,25 @@
+```
+Frontmatter enrichment complete: Tate-McRae
+```
+
+**Fields filled:** `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved untouched):** `wikipedia`, `twitter`, `instagram`, `tiktok`, plus all creator-owned fields including `lastmod`.
+
+**FAQs generated (5)** — every anchor verified against the real `github-slugger` output for the body's H2s, so all five deep-link correctly:
+
+1. What is Tate McRae's personality type? → `#what-is-tate-mcraes-personality-type`
+2. Does Tate McRae lip-sync at her concerts? → `#two-octobers-the-booked-dance-studio-and-the-upside-down-mic`
+3. Why does Tate McRae call her stage persona Tatiana? → `#why-tate-mcrae-is-less-afraid-of-20000-people-than-of-four`
+4. Why did Tate McRae work with Morgan Wallen? → `#tate-mcraes-first-no-1-and-the-fans-who-turned-on-her`
+5. Is Tate McRae an industry plant? → `#tate-mcraes-childhood-and-the-black-and-white-math`
+
+`imdb_id: nm5950715` cross-checked two ways (Wikidata P345 on Q95129121, plus IMDb bio confirming Calgary/Tanja Rosner/SYTYCD). YAML parses clean, no em-dashes in the new fields.
+
+**Issues:**
+
+- **Body has zero external hyperlinks.** Nothing to extract, so I built `citations` from the sources the body names by attribution and verified each URL independently: Wikipedia, the GRAMMY.com 2022 interview, the Rolling Stone Jan 2026 cover, the Variety 2026 cover feature, the full Zane Lowe interview, and V Magazine. Worth adding inline links on a future pass.
+- **Attribution discrepancy worth checking before publish.** The body credits Dance Spirit for the black-and-white math ("if she put in hours of training and worked super hard, she saw a result"). I fetched both plausible Dance Spirit pieces — the 2017 SYTYCD feature and the 2014 "You Should Know" — and neither contains it. The verified carrier of that exact phrasing is V Magazine: *"In my head, it was very black and white to me: If I put in hours of training and if I worked super hard, I saw a result."* I cited V Magazine and left the body alone, per the read-only rule, but the sentence at `src/blog/people/drafts/Tate-McRae.md:150` names the wrong outlet.
+- The reviewer note about the paywalled Rolling Stone cover still stands, though the canonical URL is now in `citations` and both quotes the draft uses matched secondary reporting of that piece.
+
+One note on the diff: `git diff` on this file shows body hunks, but those are the uncommitted second-pass edits that were already in your working tree when this session started. My change was a single exact-string replacement inside the frontmatter block.

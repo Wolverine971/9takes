@@ -13,7 +13,8 @@ One rulebook for every editorial tool (the `editor` agent, `/deai`, `/copywritin
 1. **Never modify `lastmod` frontmatter.** DJ manages it manually. No enrichment, editing, or automated pass touches it.
 2. **Em-dashes are banned in blog content.** Zero per article (the blog lint enforces this). Replace with commas, periods, or restructure. This supersedes any older "1–2 is fine" guidance.
 3. **Quality gate: overall grade ≥ 8.5 and discoverability ≥ 7** (per `/grade_blog`) before a draft is publish-eligible.
-4. **Don't change the title or slug of high-traffic published posts** (notably `enneagram-and-mental-illness`) — light-touch edits only, SEO preservation first.
+4. **Perspective gate: current reader-visible copy must have a passing six-perspective verification.** The subject-fairness, informed-fan, fair-minded-critic, unfamiliar-reader, Enneagram-expert, and one-year-future proxies run independently from one frozen draft. Missing, unresolved, or stale verification blocks publishing.
+5. **Don't change the title or slug of high-traffic published posts** (notably `enneagram-and-mental-illness`) — light-touch edits only, SEO preservation first.
 
 ## Brand voice
 

@@ -281,33 +281,12 @@ async function fetchReleaseDemandWindows(supabaseAny: any): Promise<ReleaseDeman
 	return (data ?? []) as ReleaseDemandWindowRow[];
 }
 
-async function buildDemandScoreFields(
-	supabaseAny: any,
+function buildDemandScoreFields(
 	selectedRows: Array<ReturnType<typeof normalizeReleasePerformanceRow>>,
-	fromDate: string | undefined,
-	toDate: string | undefined
-): Promise<Map<string, ReleasePerformanceScoreFields>> {
+	baselineRows: Array<ReturnType<typeof normalizeReleasePerformanceRow>>,
+	windowRows: ReleaseDemandWindowRow[]
+): Map<string, ReleasePerformanceScoreFields> {
 	if (selectedRows.length === 0) return new Map();
-
-	// Score percentiles need the full release population as a baseline, not just the selected slice.
-	let baselineRows = selectedRows;
-	if (fromDate || toDate) {
-		const { data: baselineData, error: baselineError } = await fetchReleasePerformanceRows(
-			supabaseAny,
-			undefined,
-			undefined,
-			DEMAND_BASELINE_LIMIT
-		);
-		if (baselineError) {
-			throw new Error(baselineError.message || 'Failed to load release demand baseline');
-		}
-		const normalizedBaseline = ((baselineData ?? []) as ReleasePerformanceRow[]).map(
-			normalizeReleasePerformanceRow
-		);
-		if (normalizedBaseline.length > 0) {
-			baselineRows = normalizedBaseline;
-		}
-	}
 
 	const selectedSlugSet = new Set(selectedRows.map((row) => row.slug));
 	const baselineSlugSet = new Set(baselineRows.map((row) => row.slug));
@@ -316,9 +295,6 @@ async function buildDemandScoreFields(
 		...selectedRows.filter((row) => !baselineSlugSet.has(row.slug))
 	];
 
-	// Pre-aggregated per-(slug, window) demand metrics computed set-based in SQL. This replaces fetching
-	// every raw page_analytics_visits row for every slug on each request (the old performance bottleneck).
-	const windowRows = await fetchReleaseDemandWindows(supabaseAny);
 	const scoreFields = computeReleasePerformanceScoreFieldsFromWindows(
 		rowsForScoring.map(toReleaseScoreBaseRow),
 		windowRows
@@ -360,12 +336,31 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		console.warn('Failed to refresh people release analytics before read:', refreshError);
 	}
 
-	const { data, error: rpcError } = await fetchReleasePerformanceRows(
+	const needsUnfilteredBaseline = Boolean(fromDate || toDate);
+	const selectedRowsPromise = fetchReleasePerformanceRows(
 		supabaseAny,
 		fromDate,
 		toDate,
 		parsedQuery.data.limit
 	);
+	const baselinePromise = needsUnfilteredBaseline
+		? fetchReleasePerformanceRows(supabaseAny, undefined, undefined, DEMAND_BASELINE_LIMIT)
+		: Promise.resolve(null);
+	const demandWindowsPromise = fetchReleaseDemandWindows(supabaseAny)
+		.then((data) => ({ data, error: null }))
+		.catch((demandError: unknown) => ({
+			data: [] as ReleaseDemandWindowRow[],
+			error: demandError
+		}));
+
+	// These reads are independent and are intentionally concurrent. Running the selected release query,
+	// the scoring baseline, and the demand aggregates serially pushed this endpoint past the serverless
+	// response window as analytics volume grew.
+	const [{ data, error: rpcError }, baselineResult, demandWindowsResult] = await Promise.all([
+		selectedRowsPromise,
+		baselinePromise,
+		demandWindowsPromise
+	]);
 
 	if (rpcError) {
 		console.error('Failed to fetch release performance analytics:', rpcError);
@@ -377,7 +372,21 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	);
 	let scoreFieldsBySlug: Map<string, ReleasePerformanceScoreFields>;
 	try {
-		scoreFieldsBySlug = await buildDemandScoreFields(supabaseAny, normalizedRows, fromDate, toDate);
+		if (baselineResult?.error) {
+			throw new Error(baselineResult.error.message || 'Failed to load release demand baseline');
+		}
+		if (demandWindowsResult.error) {
+			throw demandWindowsResult.error;
+		}
+
+		const normalizedBaselineRows = baselineResult
+			? ((baselineResult.data ?? []) as ReleasePerformanceRow[]).map(normalizeReleasePerformanceRow)
+			: normalizedRows;
+		scoreFieldsBySlug = buildDemandScoreFields(
+			normalizedRows,
+			normalizedBaselineRows.length > 0 ? normalizedBaselineRows : normalizedRows,
+			demandWindowsResult.data
+		);
 	} catch (scoreError) {
 		console.warn('Failed to compute demand release scoring:', scoreError);
 		scoreFieldsBySlug = new Map(

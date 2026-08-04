@@ -558,12 +558,19 @@
 	}
 
 	.badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 		padding: 2px 6px;
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		background: var(--stone-warm);
 		border-radius: 10px;
 		font-size: 10px;
 		font-weight: 600;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
 		color: var(--ink-dim);
+		white-space: nowrap;
 
 		&.empty {
 			background: transparent;

@@ -1,0 +1,16 @@
+node:internal/fs/promises:640
+  return new FileHandle(await PromisePrototypeThen(
+                        ^
+
+Error: ENOENT: no such file or directory, open '/Users/djwayne/9takes/scripts/src/blog/people/drafts/Nara-Smith.md'
+    at async open (node:internal/fs/promises:640:25)
+    at async Object.readFile (node:internal/fs/promises:1290:14)
+    at async snapshot (file:///Users/djwayne/9takes/scripts/perspective-review-gate.mjs:100:14)
+    at async file:///Users/djwayne/9takes/scripts/perspective-review-gate.mjs:354:3 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/djwayne/9takes/scripts/src/blog/people/drafts/Nara-Smith.md'
+}
+
+Node.js v24.18.0

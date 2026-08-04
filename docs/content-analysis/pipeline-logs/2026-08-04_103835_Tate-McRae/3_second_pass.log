@@ -1,0 +1,15 @@
+Updated `src/blog/people/drafts/Tate-McRae.md`.
+
+**Source audit first (the priority the command sets):** went from 2 inline / 1 vague / 2 untagged → **5 inline, 0 vague, 0 untagged**. The Zane Lowe cold-open quote now carries "Apple Music in 2025," the "muscle memory" quote is tagged to Variety 2026 (and restored to full wording), and the impostor re-quote is tagged to GRAMMY.com 2022. That last one needed a one-line change to `scripts/blog-source-audit.mjs` — `GRAMMY.com` isn't in the OUTLETS list and the `.com` means no suffix rule catches it, so it graded vague no matter how well sourced. Added with a dated comment, same class as the earlier Elite Daily addition.
+
+**The factual problem the fresh-eyes review caught was real.** The draft claimed "Her first No. 1 single" as a clean milestone. Her first Hot 100 No. 1 is "What I Want," a Morgan Wallen feature; "greedy" peaked at 3, "Sports car" at 16. That's now a new H2 covering the whole episode: the chart fact, Wallen's 2021 slur video and 2024 chair arrest, her own fans calling her MAGA, and her Rolling Stone line ("It was just about the song for me... it really shocked me") read as a Three optimizing a deliverable and getting ambushed by its context. The industry-plant promise from the intro finally gets cashed in that same section (not manufactured, self-manufactured), along with the Britney material.
+
+**Other substantive additions:** "you broke me first" and "greedy" now appear, bridged inside "Two Octobers" so both still trace to the booked studio; the sexualization half of "purple lace bra" ("all of my work and effort was taken away from me" — a theft of labor, which is the Three-specific reading); the Tatiana-carries-the-charge observation moved out of the Rabbit Hole into the body; the precognitive dreams taken up as the frame-limit beat.
+
+**Trims:** post-tour quote stack cut from six quotes to four with narration between; dementia joke moved ahead of the favorite-colors list so the list lands last; second Hailey Bieber quote cut; breakup and leak merged; corpus stat relocated to the Rabbit Hole; current-tense anchor updated from the stale Feb 2026 session to Osheaga/Lollapalooza this week.
+
+I rejected one suggestion: folding Wallen into "Two Octobers" as a third dated beat. That section's spine is two October days and a May chart week breaks it.
+
+`blog-lint`: 0 fail, 3 warn. The one remaining comparative contrast pattern sits inside a verbatim quote and is exempt.
+
+**Still open for an editor pass:** Rolling Stone's January 2026 cover is paywalled, so its two quotes are cross-checked against two independent secondaries each but not against the source text. And the body is 4,292 words against a 4,500 ceiling, so the next pass should trim before it adds.

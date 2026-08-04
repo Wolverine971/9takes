@@ -27,6 +27,7 @@ import {
 	normalizePersonalitySlug,
 	normalizePersonalitySuggestions
 } from './lib/personalitySeo.js';
+import { getPerspectivePublishStatus } from './lib/perspectiveReview.js';
 
 dotenv.config();
 
@@ -149,6 +150,7 @@ dotenv.config();
  *   imageStatus: PublishImageStatus,
  *   blockers: string[],
  *   sourceAudit?: SourceAuditSummary | null,
+ *   perspectiveReview?: Awaited<ReturnType<typeof getPerspectivePublishStatus>> | null,
  *   dbPublished?: boolean
  * }} PublishCandidate
  *
@@ -1060,6 +1062,7 @@ export async function readPublishCandidate(filePath) {
 	const unfinishedMarkers = findUnfinishedDraftMarkers(content);
 	const missingFields = getMissingPublishFrontmatterFields(data);
 	const sourceAudit = runPublishSourceAudit(filePath);
+	const perspectiveReview = await getPerspectivePublishStatus(filePath);
 	const blockers = [];
 
 	if (missingFields.length > 0) {
@@ -1100,6 +1103,9 @@ export async function readPublishCandidate(filePath) {
 	} else if (sourceAudit.untagged_in_epigraph_or_cold_open === true) {
 		blockers.push('source_standard_failed:untagged_epigraph_or_cold_open');
 	}
+	if (!perspectiveReview.valid && perspectiveReview.blocker) {
+		blockers.push(perspectiveReview.blocker);
+	}
 	if (wordCount < PUBLISH_MIN_WORD_COUNT) {
 		blockers.push(`too_short:${wordCount}_words`);
 	}
@@ -1126,6 +1132,7 @@ export async function readPublishCandidate(filePath) {
 		qualityOverall,
 		imageStatus,
 		sourceAudit,
+		perspectiveReview,
 		blockers
 	};
 }

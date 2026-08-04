@@ -50,6 +50,7 @@ This command owns the final release step:
 - Require `content_quality.needs_review` to be false or absent
 - Require grade stability as `content_quality.grade_stability_delta <= 0.3`, or as `first_overall` / `regrade_overall` with absolute delta <= 0.3
 - Require `scripts/blog-source-audit.mjs` to find zero untagged quotes in the epigraph or cold open
+- Require a completed six-perspective review whose final verification passed and whose reader-visible content hash still matches the draft
 - Require the draft to look like a real article, not a skeleton or outline
 - Require both personality image files:
   - `static/types/[type]s/[Person].webp`
@@ -94,6 +95,8 @@ If the user supplied a draft file path, derive the person from the file's `perso
 
 The script performs the publish checks. Do not duplicate those rules manually unless troubleshooting a blocker.
 
+The perspective-review gate hashes reader/search-facing editorial frontmatter (`title`, `meta_title`, `persona_title`, `description`, `enneagram`, `person`, and `faqs`) plus the visible body. It ignores grades, dates, production metadata, and editorial HTML comments. Any review-sensitive title, FAQ, prose, or structural edit requires reverification/finalization by the full blog pipeline.
+
 The script rejects candidates with:
 
 - Missing required frontmatter
@@ -105,6 +108,7 @@ The script rejects candidates with:
 - `content_quality.needs_review: true`
 - Missing or unstable grade-stability delta
 - Untagged load-bearing quote in the epigraph or cold open from `scripts/blog-source-audit.mjs`
+- Missing, unresolved, invalid, or stale perspective-review verification at `docs/content-analysis/perspective-reviews/[Person]/latest.json`
 - Too little article body content
 - Too few `##` sections
 - TODO/placeholder/outline markers

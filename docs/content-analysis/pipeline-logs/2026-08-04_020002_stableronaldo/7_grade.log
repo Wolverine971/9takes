@@ -1,0 +1,25 @@
+## Grading Complete — Stable Ronaldo
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Stable-Ronaldo | 6 | 7 | 8.5 | 8.5 | 8 | 9 | **7.6** | **C** |
+
+*(Weighted: `(6×1.5 + 7×1.5 + 8.5×1.5 + 8.5 + 8 + 9×0.5) / 7 = 7.6`. Disc 8.5 ≥ 7, so no gate.)*
+
+### Key observations
+
+**The craft is B-grade; the sourcing is what pulls it to C.** Uncapped, this computes to 8.3. Three caps applied:
+
+1. **Evidence capped at 6 (from 8).** `blog-source-audit.mjs` returns a clean 5/5-inline — that's a **false pass**. The script only reads five named slots and never enters `<div class="timeline">`, the receipts section, or the childhood section. Untagged load-bearing material includes the entire childhood sequence (the foundation of the thesis), the `$250k back` direct quote (which is also in the FAQ schema that AI engines lift), and the $700K / $1.2M / $1,000-a-day / $11,000 / 180–220K figures. For a blog arguing that *numbers are his self-worth*, roughly half the numbers are unsourced. The Alex-Warren C-anchor hyperlinks eight sources inline; this one doesn't.
+
+2. **Originality capped at 7.** Five house moves recur near-verbatim against Samara-Weaving, Machine-Gun-Kelly, and Penguinz0: the epigraph→firstLetter furniture, the TL;DR bold-label skeleton, the corpus-stat sentence with swapped numbers, the aphoristic one-line section closer (**7 of 8 sections** here), and the concrete-image-then-punch-line ending.
+
+3. **Writing capped at 8.** The negation-then-assertion engine runs ~6 times in the body, not the 3 the ledger claims — `blog-quality-report` reports 0 contrast pairs because it only catches literal "not X but Y."
+
+**What's genuinely strong:** the cold open is the best in the recent batch, the empathy turn uses his own wound-vocabulary rather than the house "armor/scar tissue" grammar, the 2025 hiatus is a real self-undercut (the engine failing at the *top* of a career year), and the Kai Cenat close is swap-proof. Discoverability is near-optimal — meta_title 58 chars, description 148, five FAQs whose anchors all resolve to live H2s.
+
+**Two bookkeeping errors worth fixing:** the FORMULA FINGERPRINT LEDGER reports a stale similarity score (0.058 vs. the actual 0.077) and a stale negation count, and TESTIMONY LEDGER #2 quotes Ninja's DM in full while the body only paraphrases it.
+
+The fastest path to B+ is entirely sourcing — five specific attributions would take Evidence 6→8 and the overall to ~8.0. Full list in `docs/content-analysis/grades/Stable-Ronaldo.review.md`.
+
+**Total graded this session: 1**

@@ -1,0 +1,26 @@
+Revised `src/blog/people/drafts/Tate-McRae.md`. Triggered by grade **C (7.9)** — Evidence 7, Originality 7 (capped on cross-draft sameness), Writing 7. Lint was already at 0 fail, so the whole work list came from the grader.
+
+**Originality — the four sameness moves**
+- **Corpus stat**: deleted outright. Stable-Ronaldo's pass cut the same move three days earlier; moving it into the rabbit hole wasn't varying it. The rabbit hole now closes on "She keeps taking the room."
+- **Cold-open reframe**: rebuilt off MGK's here's-the-story/here's-why-it's-backwards shape. Now names the charge and its buried premise ("every one of them rests on the same assumption: that somebody else built her") and leaves the flip to section 4, where "self-manufactured" already pays it off.
+- **Aphoristic closers 5 → 2**: absorbed three into the paragraphs above them; kept "The 6 a.m. count is" and the notebook close per the grader.
+- **Reader directives 5 → 0**, all converted to declaratives.
+
+**Evidence**
+- Every metric now carries a publisher: Billboard/Luminate for the debut week, The Line of Best Fit for the 31M (prose *and* the key-stat box), Spotify's counter for both billion figures, Billboard for all three chart peaks, the Live Nation itinerary for the 81-date run.
+- **Wallen legal hygiene** (the non-negotiable): both claims now cite a publisher. Verified this pass — TMZ published the video Feb 2, 2021; the arrest was April 7, 2024 at Chief's, three felony reckless-endangerment counts later reduced to two misdemeanors on a guilty plea. Fixed the same sentence in FAQ 4 and added three source URLs to `citations`.
+- Hailey Bieber tagged inline; the Eagles beat reframed to its real provenance (her 2025 Zane Lowe retelling, not a documented 2023 artifact).
+
+**Writing**: negation engine 4 → 2 (kept the two the grader named load-bearing); thinned the receipt/document figure; split Britney into its own H2 — "Why Tate McRae gets compared to Britney Spears," also a real search query — relieving a section that carried five topics.
+
+**Ledgers**: HEADING MIX now 8 H2s; DISTRIBUTION re-checked (still 1 strict / 3 conservative vs a ceiling of 4); the three stale "no faqs" claims marked SUPERSEDED in place rather than deleted.
+
+Two things worth flagging:
+
+**The FORMULA FINGERPRINT correction is narrower than the grader framed it.** The ledger's "highest non-artifact score sits below threshold" was genuinely false and is retracted. But the KSI 0.153 is the *same* mandated-heading artifact as the stable-ronaldo 1.000 — it matches "Tate McRae is an Enneagram Type 3" against a KSI clause that also contains that string, carries zero shared phrases, and so never enters `trip_pairs`. The highest genuinely authored pair is Alex-Warren at 0.043, also coincidental. So the number is real and above threshold, but it isn't a second formula fingerprint. I wrote the actual run into the ledger rather than re-clearing it.
+
+**One partial rejection.** The grader's suggested replacement clause for the objectification close ("not *I felt objectified*, but the work and effort…") still runs the negation-then-assertion engine that the same feedback asks to cut to two. I kept the intent and used a fully declarative construction.
+
+Lint clean: **0 fail, 2 warn**, both pre-existing and benign (the lone comparative sits inside a verbatim quote and is exempt; the other is word-count headroom). Body 4,265 words, +25 net. Source audit re-run: 5 load-bearing quotes, 5 inline, 0 untagged. All five FAQ anchors re-verified against live headings — the new H2 breaks none. `lastmod` and `content_quality` untouched; the pipeline will clear the consumed review sidecar and re-grade.
+
+Still open and carried forward, not introduced here: the Rolling Stone January 2026 cover is paywalled, and its two quotes should be confirmed against the paywalled text before publish.

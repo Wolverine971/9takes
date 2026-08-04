@@ -1,0 +1,21 @@
+## Grading Complete — Tate McRae (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Tate-McRae | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4` · Discoverability 9, no gate · no caps applied
+
+**Regrade: 7.9 → 8.4 (+0.5).** This was the second half of a supervised grade/regrade pair, and the revision pass earned the movement — I verified its claims rather than taking them. The corpus-stat sentence is genuinely deleted, reader-directives are 5→0 in the body, and the ledger's retraction about the KSI 0.153 similarity score is correct: I re-ran `same-type-similarity.mjs` and it is the same mandated-heading artifact as the stable-ronaldo 1.000, carrying zero shared phrases. **No Originality cap on cross-draft sameness this time.**
+
+### Key observations
+
+- **The empathy turn clears the house-grammar check.** It's built from her own wound-vocabulary ("awkward in my skin," "muscle memory") rather than the `not X, it was armor/scar tissue` construction, and it refuses to excuse: *"That doesn't refund anybody's ticket."* No `house_empathy_turn` cap.
+- **Discoverability (9) is the standout** — five FAQs on real controversy queries (lip-sync, Wallen, industry plant), all anchors verified live, metadata all in band.
+- **Evidence (8) is the ceiling holding it at B**, and the script doesn't see why. `blog-source-audit.mjs` reports 5 inline / 0 untagged, but that only covers slot-based quotes. Reading the body: the 500-crunches detail carries the entire thesis and runs unattributed at the point of impact (Lowe attribution arrives two sections later, indirectly), and six quoted fragments in the back half sit bare — including a fake-emergency anecdote with no source and a not-eating-until-the-song-is-done rule stated twice about a 22-year-old.
+- **The Rolling Stone problem is still open**, and it's under the two highest-stakes quotes in the piece. Both are attributed as direct speech to a cover the writer got HTTP 402 on, sourced through aggregation. Cross-checking against two secondaries each is decent practice; asserting "she told Rolling Stone" is more than the record supports.
+- **Structural residue from the revision pass:** section 5 (Britney) is one paragraph wearing an H2 — a word-budget artifact of the section split — while section 6 now carries seven topics, the exact problem that got fixed one section earlier.
+
+The clearest unclaimed asset: her core desire in her own words, *"as close to authentic as humanly possible,"* exists only in the rabbit hole and the working notes. It never appears in the body. A Three framing authenticity as a destination requiring effort is the sharpest observation in this research, and the piece isn't using it.
+
+Files written: `src/blog/people/drafts/Tate-McRae.md` (frontmatter) and `docs/content-analysis/grades/Tate-McRae.review.md` (new sidecar — none existed).

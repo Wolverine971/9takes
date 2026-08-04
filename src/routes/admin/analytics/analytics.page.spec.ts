@@ -80,6 +80,14 @@ describe('/admin/analytics page', () => {
 		).mock.calls.map(([input]) => String(input));
 	}
 
+	function deferred<T>() {
+		let resolve!: (value: T) => void;
+		const promise = new Promise<T>((nextResolve) => {
+			resolve = nextResolve;
+		});
+		return { promise, resolve };
+	}
+
 	beforeEach(() => {
 		vi.stubGlobal(
 			'fetch',
@@ -170,6 +178,60 @@ describe('/admin/analytics page', () => {
 			expect(fetchUrls()).toContain(
 				'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=200'
 			);
+		});
+	});
+
+	it('loads performance and blog diagnostics concurrently for insight tabs', async () => {
+		const releases = deferred<{
+			ok: boolean;
+			json: () => Promise<{ rows: never[] }>;
+		}>();
+		const diagnostics = deferred<{
+			ok: boolean;
+			json: () => Promise<{ rows: never[] }>;
+		}>();
+
+		vi.stubGlobal(
+			'fetch',
+			vi.fn((input: RequestInfo | URL) => {
+				const url = String(input);
+				if (url.startsWith('/api/admin/analytics/releases?')) return releases.promise;
+				if (url === '/api/admin/analytics/blog-diagnostics') return diagnostics.promise;
+				return Promise.resolve({
+					ok: true,
+					json: vi.fn().mockResolvedValue({})
+				});
+			})
+		);
+
+		render(AnalyticsPage, {
+			data: pageData as any
+		});
+
+		await fireEvent.click(screen.getByRole('tab', { name: 'Overperformers' }));
+
+		await waitFor(() => {
+			expect(fetchUrls()).toEqual(
+				expect.arrayContaining([
+					'/api/admin/analytics/releases?from=2026-03-10&to=2026-04-08&scope=all&limit=200',
+					'/api/admin/analytics/blog-diagnostics'
+				])
+			);
+		});
+
+		releases.resolve({
+			ok: true,
+			json: vi.fn().mockResolvedValue({ rows: [] })
+		});
+		diagnostics.resolve({
+			ok: true,
+			json: vi.fn().mockResolvedValue({ rows: [] })
+		});
+
+		await waitFor(() => {
+			expect(
+				screen.getByText('No overperforming mature blogs found for this release range.')
+			).toBeTruthy();
 		});
 	});
 

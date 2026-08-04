@@ -135,6 +135,16 @@
 		text-align: center;
 	}
 
+	.badge-dot {
+		display: block;
+		width: 6px;
+		height: 6px;
+		flex: 0 0 auto;
+		border-radius: 50%;
+		background: currentColor;
+		box-shadow: 0 0 6px currentColor;
+	}
+
 	.corpus-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);

@@ -11,6 +11,7 @@ The user will provide one of:
 - A person's slug, like `Chappell-Roan`
 - A draft file path
 - `current draft`
+- Any of the above followed by `--perspective-review-dir=<repo-relative-dir>` when the perspective jury ran
 
 `$ARGUMENTS`
 
@@ -20,6 +21,8 @@ The following operations are pre-approved and should be executed automatically w
 
 - **Read operations**: All file reads in project directories
 - **Write operations**: Editing the target draft file in `src/blog/people/drafts/`
+- **Review artifacts**: Reading the supplied perspective-review directory and writing its `editor-resolution.md`
+- **WebSearch**: Only when an accepted `P0-*` or `RQ-*` item names a specific unresolved fact/source; no general re-research
 - **Glob/Grep**: Searching for the target draft and checking for obvious AI-language patterns
 - **Bash commands**: `grep`, `ls`, `echo`, `test`, `node scripts/blog-quality-report.mjs`, `./scripts/blog-lint.sh`
 
@@ -103,6 +106,21 @@ node scripts/blog-quality-report.mjs [Person-Name]
 
 Use the reported contrast-pair lines as your concrete edit list. Do not rely on the draft's `FORMULA FINGERPRINT LEDGER`; it may be stale.
 
+### Perspective-jury mode
+
+When `--perspective-review-dir` is supplied:
+
+1. Read that directory's `context.json`, `synthesis.md`, and six perspective reviews.
+2. Confirm `synthesis.md` is for this exact subject and frozen-draft SHA.
+3. Turn the synthesis Revision brief into the primary editorial worklist:
+   - every `P0-*` item is mandatory unless it explicitly requires a human decision the available evidence cannot safely resolve
+   - resolve safe `RQ-*` items with tightly scoped research; never improvise through a factual or ethical uncertainty
+   - apply accepted `P1-*` items when their expected benefit survives the stated tradeoff
+   - treat `P2-*` as optional and normally take no more than the one highest-value item
+   - preserve every `PROTECT-*` hit or its essential function
+4. The synthesis is adjudicated feedback, not six invitations to rewrite. Do not act on rejected or deferred reviewer preferences.
+5. Give perspective repairs priority over discretionary prose polish. A trust break matters more than making an already-good sentence prettier.
+
 ---
 
 ## Step 4: Edit the Draft Directly
@@ -132,6 +150,7 @@ Apply the 9takes-editorial-standards rulebook to the full draft.
 - Do not add obvious AI phrases while trying to "improve" the prose
 - Keep the focus on the person, not on Enneagram jargon
 - **NEVER modify `lastmod`** — DJ manages that field manually (editorial-standards hard rule)
+- In perspective-jury mode, do not delete a protected hit to pay for a lower-priority improvement. If an accepted change conflicts with a protected hit, keep the hit and record the tradeoff in `editor-resolution.md`.
 
 ### Required Exit Check
 
@@ -146,7 +165,45 @@ You may not exit if `blog-lint.sh` reports any strong contrast-pair sentence eng
 
 ---
 
-## Step 5: Optional Editor Note
+## Step 5: Write the Perspective Resolution Artifact
+
+When `--perspective-review-dir` is supplied, write `<review-dir>/editor-resolution.md`. This artifact is mandatory in perspective-jury mode and must begin:
+
+```yaml
+---
+artifact: perspective-editor-resolution
+schema_version: 1
+subject: <exact context subject>
+draft_sha256: <frozen snapshot sha>
+resolution_status: complete
+resolved_at: <ISO-8601 timestamp>
+---
+```
+
+Use one row per `P0-*`, `RQ-*`, and accepted `P1-*` item:
+
+```markdown
+## Resolution log
+```
+
+| ID  | Status | Draft location | Action taken | Evidence/source | Acceptance test self-check |
+| --- | ------ | -------------- | ------------ | --------------- | -------------------------- |
+
+Allowed statuses are `fixed`, `rejected`, `deferred`, `research_needed`, and `needs_human`. A P0 may only be `fixed`, `research_needed`, or `needs_human`; never silently reject it. End with these exact sections:
+
+```markdown
+## Protected hits checked
+
+Cover every `PROTECT-*` ID.
+
+## Unresolved decisions
+
+List research/human decisions or write `None.`
+```
+
+Do not claim the perspective gate passed. `/blog_perspective_verify_people` independently checks the result.
+
+## Step 6: Optional Editor Note
 
 If helpful, append or replace a short `EDITOR PASS NOTES` block at the very bottom of the draft.
 
@@ -166,7 +223,7 @@ Keep it brief. If the file already has enough editorial comments, update an exis
 
 ---
 
-## Step 6: Report Back
+## Step 7: Report Back
 
 Briefly tell the user:
 
@@ -174,3 +231,4 @@ Briefly tell the user:
 - The main language or flow problems you cleaned up
 - The final contrast-pair count from `blog-quality-report`
 - Whether the draft now feels production-ready or still needs another substantive pass
+- In perspective-jury mode: the resolution artifact path, P0 items addressed, and anything left for research/human judgment

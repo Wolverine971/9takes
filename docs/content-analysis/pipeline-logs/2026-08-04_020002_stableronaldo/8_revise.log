@@ -1,0 +1,20 @@
+Revised `src/blog/people/drafts/Stable-Ronaldo.md`. Lint was already clean, so this pass consumed the grader sidecar only — grade C (7.6), with Evidence capped at 6.
+
+**Evidence (the whole reason for the loop).** The grader was right that the scripted source audit's "5/5 inline" was a false pass — it only inspects five named slots and never reads the timeline, receipts, or childhood sections. I chased all five TO REACH items:
+
+- **Childhood sequence** — the lost job, divorce, and three jobs now carry his own video of August 23, 2024 (the source Wikipedia's early-life section cites). This was the foundation the entire thesis rested on with zero attribution.
+- **`$250k back` quote** — attributed in the timeline row *and* the FAQ answer, and re-dated from a bare "2026" to March 2026, tied to the ex-FaZe repair-bill cycle (win.gg, March 25, 2026).
+- **Bank-call quote** — pinned to the video he posted September 1, 2024 (Esports.gg) instead of leaning on an adjacent source card that cites a different quote.
+- **The figures** — $700K (Sportskeeda), the $1.2M leak (Dexerto, Oct 2024), the $1,000-a-day giveaway (Sportskeeda, Dec 2024). The **$11,000 dashboard checked out**: win.gg, Dec 29 2025, ~117,000 peak, ~35 min, before ads. The second-pass notes had it right; it just never reached the text.
+- **"Relevancy"** — its own sentence, its own cite, pinned to the June 9 broadcast.
+- Also named Copete Law, P.C. (Dexerto, Jan 21 2026) and swapped the age-17 fragment for his actual X post.
+
+**One thing I cut rather than sourced.** The 250-hour grind's "180,000–220,000 followers" and "clawed his average back up to 5,000" could not be traced to any outlet or tracker snapshot for November 2023. Per the grader's explicit allowance I reduced to the citable commitment (his own November 2023 announcement) and an unquantified recovery. The 5,000 survives only as his own stated rule for when a streamer is worth clicking — which is a quote, and is what the ending pays off.
+
+**Other caps.** Aphoristic closers 7 → 3 (kept the three both the grader and fresh-eyes called load-bearing); corpus-stat sentence replaced with person-specific framing; negation-then-assertion 6 → 2 (kept the "inventory" pull quote and the xQc refusal); arrow mechanics cut from the body since they were already verbatim in the rabbit hole. I also fixed the Discoverability dock — a 44-word direct type answer now precedes the Martyn scene, so an engine lifting that block gets an answer.
+
+**Ledgers.** Similarity corrected 0.058 → 0.077 (still clear; top pairs are date collisions), negation count corrected, and TESTIMONY LEDGER #2 no longer asserts a quote the reader never sees — Ninja's July 11, 2023 DM is now quoted in the body.
+
+**Rejected:** heading-case normalization. Third pass to flag it; headings are locked by the ledger and five FAQ anchors resolve against them. That's a corpus-wide call for you, not a one-draft divergence.
+
+Verification: `blog-lint` 0 fail / 0 warn, answer block 47 words, 0 contrast pairs, no corpus drift, source audit now 6 load-bearing quotes / 6 inline / 0 untagged. The pipeline will clear the consumed sidecar and re-grade — I didn't touch `content_quality` or `lastmod`.

@@ -1,0 +1,28 @@
+## Grading Complete — Nara Smith
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nara-Smith | 6 | 7 | 9 | 8.5 | 8 | 9 | **7.7** | **C** |
+
+`(6×1.5 + 7×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7 = 7.7`. Discoverability 9, so no gate cap.
+
+### Key Observations
+
+**This is a regrade after revision, and it went down: 8.5 → 7.7 (delta 0.8).** The draft is *better prose* than the version that scored 8.5. The drop is entirely two rule-mandated caps the earlier pass didn't apply:
+
+- **Evidence capped at 6.** `blog-source-audit.mjs` reports 8/8 inline, 0 untagged — and it's blind here. The script windows the epigraph, cold open, diagnosis, empathy turn, and close. The section the meta_title *sells* — the "Why the label stuck in the first place" H3 — sits outside every slot, and it rests on two claims a fact-checker can't trace from the body: the Ballerina Farm visit (no outlet, no date, no platform) and the March 2024 "I don't wear garments. I didn't get married in the temple" quotes (month, no publisher). Rolling Stone is in the frontmatter `citations` array, but that's not inline attribution.
+- **Originality capped at 7** by cross-draft sameness against Tate-McRae, Stable-Ronaldo, Samara-Weaving. Four house moves recur in shape: the epigraph→cold-open→reframe-line furniture, the TL;DR bullet skeleton, the aphoristic one-line closers (six+ here), and the signature-titled return-to-an-object ending. Uncapped it reads 8.5.
+
+**What's genuinely strong:** the hook is the best in the recent batch (9), discoverability is near best-in-class (all 5 FAQ anchors resolve, 47-word extractable answer, complete entity metadata), and "Being disliked never comes up. Being sorted does" resolves a real contradiction that a behavioral read can't.
+
+**Two calibration notes worth your attention:**
+1. The rubric's C anchor (`Alex-Warren draft, 2026-07-01`) is **stale** — that file has since been revised and regraded to B+ 8.9. I cross-checked band placement against the Matt-Smith B description instead.
+2. `same-type-similarity.mjs` has **no signal for Type 8** right now — the comparison set's own noise max is 0.058, above the 0.04 trip threshold. It tripped; I confirmed it's a false positive (the string "you're going to" inside two unrelated direct quotes).
+
+I set `needs_review: true` and `confidence: medium` — the Originality cap is the one judgment call, since the reuse is shape-level rather than verbatim string, and it's worth 1.5 weighted points.
+
+**Path back to B+ is cheap:** fixing the two untraceable claims moves Evidence 6→8 on its own, carrying the overall to ~8.1. Both sources are already in `citations`.
+
+Files written: `src/blog/people/drafts/Nara-Smith.md` (frontmatter) and `docs/content-analysis/grades/Nara-Smith.review.md`. No legacy `QUALITY GRADE` block existed in the body.
+
+**Total graded this session: 1**

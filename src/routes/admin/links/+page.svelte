@@ -225,12 +225,19 @@
 	}
 
 	.badge {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
 		padding: 0.2rem 0.625rem;
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		font-size: 0.7rem;
 		font-weight: 500;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
 		background: rgba(139, 92, 246, 0.1);
 		color: var(--lamp-glow);
 		border-radius: 9999px;
+		white-space: nowrap;
 	}
 
 	.loading-state {

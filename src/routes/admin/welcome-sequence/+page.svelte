@@ -1138,9 +1138,13 @@
 	.badge {
 		display: inline-block;
 		padding: 2px 8px;
+		border: 1px solid color-mix(in srgb, var(--ink-dim) 30%, transparent);
 		border-radius: 0.625rem;
 		font-size: 0.6875rem;
 		font-weight: 600;
+		letter-spacing: 0.025em;
+		text-transform: uppercase;
+		white-space: nowrap;
 	}
 
 	.badge-yes {

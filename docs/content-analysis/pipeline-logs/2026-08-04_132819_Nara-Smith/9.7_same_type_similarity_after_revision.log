@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Nara-Smith (Type 8)
+/Users/djwayne/9takes/src/blog/people/drafts/Nara-Smith.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 37
+Comparison set (last 8 other Type-8 drafts by date):
+  - Tyler1  (2026-07-29, 17 units)
+  - gordon-ramsay  (2026-07-08, 43 units)
+  - nicki-minaj  (2026-06-29, 24 units)
+  - susan-sarandon  (2026-06-28, 24 units)
+  - ella-langley  (2026-06-01, 15 units)
+  - david-goggins  (2026-05-30, 37 units)
+  - jamie-dimon  (2026-05-27, 25 units)
+  - ernest-hemingway  (2026-05-19, 20 units)
+
+Noise floor over 7585 unit pairs:  median=0  p90=0  p99=0.006  max=0.058
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.058   Nara-Smith  <->  ella-langley
+   TARGET [diagnosis] There's no way you're going to see me washing and scrubbing the dishes." Nobody performing traditional wifehood draws that line
+   OTHER  [diagnosis] you're going to hate your life for your whole entire life.'" The biographical evidence stacks up the same way.
+
+
+Most similar drafts (max unit-pair score):
+  0.058 ##                   ella-langley
+  0.042 ##                   gordon-ramsay
+  0.038 ##                   david-goggins
+  0.026 #                    susan-sarandon
+  0.024 #                    nicki-minaj
+  0.017 #                    Tyler1
+  0.015 #                    ernest-hemingway
+  0.011                      jamie-dimon
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.058   Nara-Smith  <->  ella-langley
+   TARGET [diagnosis] There's no way you're going to see me washing and scrubbing the dishes." Nobody performing traditional wifehood draws that line
+   OTHER  [diagnosis] you're going to hate your life for your whole entire life.'" The biographical evidence stacks up the same way.
+
+score 0.042   Nara-Smith  <->  gordon-ramsay
+   TARGET [diagnosis] Aggression is the part of the Type 8 engine that shows up on camera and almost never the part that drives it.
+   OTHER  [diagnosis] The 8w7 wing — the Seven influence — explains the part that doesn't fit the grim protector archetype.
+
+score 0.038   Nara-Smith  <->  david-goggins
+   TARGET [counter-typing] Two things keep the Eight call intact.
+   OTHER  [diagnosis] Goggins keeps the anger on purpose
+
+score 0.032   Nara-Smith  <->  gordon-ramsay
+   TARGET [diagnosis] woman show." The servile version is where she stops
+   OTHER  [diagnosis] What the narrative already shows — the childhood
+
+score 0.029   Nara-Smith  <->  david-goggins
+   TARGET [diagnosis] and volunteers the word "ambitious" about herself.
+   OTHER  [diagnosis] Listen to him long enough and the word that recurs is not afraid
+
+score 0.026   Nara-Smith  <->  susan-sarandon
+   TARGET [diagnosis] Deciding to keep filming through a newborn
+   OTHER  [counter-typing] and half the country rather than soften to keep them.
+
+score 0.024   Nara-Smith  <->  gordon-ramsay
+   TARGET [diagnosis] woman show." The servile version is where she stops
+   OTHER  [diagnosis] The American version is a reality show about a man who screams.
+
+score 0.024   Nara-Smith  <->  nicki-minaj
+   TARGET [diagnosis] "I've kind of detached myself from what the public perception is because I know I'm not that." The tiebreaker is the eight months.
+   OTHER  [diagnosis] But I'm not one of those artists that just go to the studio and everything else they don't deal with." Delegation means trusting someone with a piece of the thing that keeps her safe
+
+score 0.023   Nara-Smith  <->  ella-langley
+   TARGET [diagnosis] Underneath is a flat refusal to be handled
+   OTHER  [diagnosis] The sp 8 underneath is hoarding her own private space like fuel.
+
+score 0.021   Nara-Smith  <->  susan-sarandon
+   TARGET [diagnosis] Twice in the worst year of her life she skipped the deliberation entirely
+   OTHER  [diagnosis] Now read her life back through that.
+
+score 0.021   Nara-Smith  <->  david-goggins
+   TARGET [counter-typing] which on its face looks like an anxious type.
+   OTHER  [diagnosis] dissecting his own failures like an engineer studying a crash.
+
+score 0.021   Nara-Smith  <->  david-goggins
+   TARGET [diagnosis] Aggression is the part of the Type 8 engine that shows up on camera and almost never the part that drives it.
+   OTHER  [diagnosis] Goggins almost never talks about dominating other people.
+
+------------------------------------------------------------------------------
+Top pair scores 0.058 vs median 0  (~∞x the noise floor).
