@@ -153,7 +153,7 @@
 	  ===================================================================== -->
 	<IndexHero
 		title="Pop culture, decoded."
-		line1="Movies, shows, fictional characters, public moments — read through the 9 emotional patterns."
+		line1="Movies, shows, fictional characters, and public moments, all read through the 9 emotional patterns."
 		line2={`${publishedCount} reads. The patterns you didn’t see coming.`}
 		imageSrc="/greek_distorted_statue_face.webp"
 		imageAlt="Fragmented classical statue face representing pop culture psychology"

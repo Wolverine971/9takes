@@ -96,27 +96,27 @@
 	// reason to appear (e.g., Type 7 sits inside a source conflict).
 	const INTERPRETATIONS: Record<number, { heading: string; body: string }> = {
 		3: {
-			heading: 'Type 3 (Achiever) — the corpus leans heavily into achievement',
+			heading: 'Type 3 (Achiever): the corpus leans heavily into achievement',
 			body: 'The biggest over-representation on the page. Type 3 sits near 20% of the 9takes corpus versus roughly 10% of the largest online test-taker sample. The explanation is not mysterious: becoming a publicly-documented figure is already an Achiever-shaped outcome. Our corpus selects for visibility and resume, which selects for Type 3.'
 		},
 		8: {
-			heading: 'Type 8 (Challenger) — power and presence bias',
-			body: 'Challengers run companies, enter politics, and get profiled. At 11.9% the corpus sits above online test-taker baselines but below what Truity reports (15%). Treat this as a "public-figure" effect more than a "9takes" effect — every corpus of well-known people will over-index on Type 8.'
+			heading: 'Type 8 (Challenger): power and presence bias',
+			body: 'Challengers run companies, enter politics, and get profiled. At 11.9% the corpus sits above online test-taker baselines but below what Truity reports (15%). Treat this as a "public-figure" effect more than a "9takes" effect. Every corpus of well-known people will over-index on Type 8.'
 		},
 		9: {
-			heading: 'Type 9 (Peacemaker) — the invisible majority',
+			heading: 'Type 9 (Peacemaker): the invisible majority',
 			body: 'The opposite story. Type 9 is the single most common type in online test-taker samples (16.5%) and one of the least-represented in ours (9.2%). Peacemakers hold groups together from the inside; that kind of work rarely produces a Wikipedia page. This gap is one of the best arguments that the 9takes corpus is a public-figure sample, not a population sample.'
 		},
 		1: {
-			heading: 'Type 1 (Reformer) — modestly under-represented',
-			body: "At 7.2% versus 11.5% online, Reformers run about four points light. Expect this to drift upward as the corpus grows toward politicians, judges, and activist founders — the kinds of public figures that frequently type as Type 1 but we haven't yet profiled in numbers."
+			heading: 'Type 1 (Reformer): modestly under-represented',
+			body: "At 7.2% versus 11.5% online, Reformers run about four points light. Expect this to drift upward as the corpus grows toward politicians, judges, and activist founders, the kinds of public figures that frequently type as Type 1 but we haven't yet profiled in numbers."
 		},
 		6: {
-			heading: 'Type 6 (Loyalist) — common online, less so in public-figure data',
+			heading: 'Type 6 (Loyalist): common online, less so in public-figure data',
 			body: 'Loyalists over-index in test-taker samples (13.8%) and under-index in our corpus (9.6%). Part of this is that anxiety-linked types engage with typology tools at higher rates. Part of it is that skepticism and loyalty do not automatically make a person famous.'
 		},
 		7: {
-			heading: 'Type 7 (Enthusiast) — the source-of-truth problem',
+			heading: 'Type 7 (Enthusiast): the source-of-truth problem',
 			body: 'The 9takes corpus shows Type 7 at 14.3%, essentially matching enneagram-personality.com (13.6%). But Truity, with a very large sample of its own, calls Type 7 the single rarest type at 9%. The two largest public sources disagree on Type 7 by more than they disagree on any other type. Treat any Type 7 comparison as noisy until the disagreement is resolved.'
 		}
 	};
@@ -141,8 +141,8 @@
 
 	<p class="lede">
 		Our {corpusTotal}-profile corpus, put next to the two largest public Enneagram datasets that
-		actually publish numbers. The point is not to crown a "correct" distribution — it's to make our
-		sample bias legible.
+		actually publish numbers. The point is to make our sample bias legible, not to crown a "correct"
+		distribution.
 	</p>
 
 	<!-- ========== HONEST-SAMPLE CAVEAT ========== -->
@@ -152,8 +152,8 @@
 			The 9takes corpus is a non-random sample of well-documented public figures. It is
 			<strong>not</strong>
 			a representative population sample. When our numbers diverge from test-taker datasets like Truity
-			or enneagram-personality.com, the divergence is usually a story about <em>our</em> sample — which
-			types become famous, who gets written about, which professions we lean toward — not about which
+			or enneagram-personality.com, the divergence is usually a story about <em>our</em> sample (which
+			types become famous, who gets written about, which professions we lean toward), not about which
 			dataset is "right." This section exists to make those sample biases legible, not to claim a true
 			population distribution.
 		</p>
@@ -217,7 +217,7 @@
 		</table>
 	</div>
 	<p class="table-note">
-		<strong>n/d</strong> = not disclosed. Truity has never published a consolidated 9-type table — only
+		<strong>n/d</strong> = not disclosed. Truity has never published a consolidated 9-type table. Only
 		Types 5, 7, 8, and 9 have explicit shares on record.
 	</p>
 
@@ -226,7 +226,7 @@
 		<h3 id="comparison-divergence-heading">Where the 9takes corpus diverges, and why</h3>
 		<p class="lede-sub">
 			Types ordered by absolute delta against
-			{primarySource.short_name}. Entries below are written, not generated — each one is a working
+			{primarySource.short_name}. Entries below are written, not generated. Each one is a working
 			hypothesis for why our sample moves the way it does.
 		</p>
 
@@ -252,8 +252,8 @@
 	<aside class="conflict-note">
 		<h3>One more thing: the "equal distribution" claim</h3>
 		<p>
-			Enneagram discourse sometimes cites an "11.11% per type" baseline — the idea that every type
-			is equally common in the general population. No primary empirical source supports that number.
+			Enneagram discourse sometimes cites an "11.11% per type" baseline: the idea that every type is
+			equally common in the general population. No primary empirical source supports that number.
 			It's a theoretical prior, not a finding. The actual public data (when it exists at all) shows
 			uneven distributions with Type 5 consistently rare and Type 9 consistently common.
 		</p>
@@ -286,8 +286,8 @@
 		<h3 id="comparison-academic-heading">Academic Context</h3>
 		<p class="lede-sub">
 			None of the peer-reviewed Enneagram research below publishes a per-type population
-			distribution. They're listed here as the validity backbone — proof the Enneagram has been
-			studied in psychology journals, not merely in self-help — not as chart data. That distinction
+			distribution. They're listed here as the validity backbone, not as chart data: proof the
+			Enneagram has been studied in psychology journals, not merely in self-help. That distinction
 			is the whole reason this page exists.
 		</p>
 		<ul class="source-list academic">

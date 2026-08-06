@@ -29,15 +29,15 @@
 	const bridges = $derived(getPopCultureBridges(data?.slug ?? ''));
 	const bridgeCategory = $derived(bridges ? getPersonalityCategoryBySlug(bridges.category) : null);
 	const TYPE_PILLAR_LABELS: Record<number, string> = {
-		1: 'Type 1 — Perfectionist',
-		2: 'Type 2 — Helper',
-		3: 'Type 3 — Achiever',
-		4: 'Type 4 — Individualist',
-		5: 'Type 5 — Investigator',
-		6: 'Type 6 — Loyalist',
-		7: 'Type 7 — Enthusiast',
-		8: 'Type 8 — Challenger',
-		9: 'Type 9 — Peacemaker'
+		1: 'Type 1: Perfectionist',
+		2: 'Type 2: Helper',
+		3: 'Type 3: Achiever',
+		4: 'Type 4: Individualist',
+		5: 'Type 5: Investigator',
+		6: 'Type 6: Loyalist',
+		7: 'Type 7: Enthusiast',
+		8: 'Type 8: Challenger',
+		9: 'Type 9: Peacemaker'
 	};
 
 	const contentStore = writable('');
@@ -172,7 +172,7 @@
 					>
 						<span class="card-icon">◐</span>
 						<h3>{TYPE_PILLAR_LABELS[bridges.secondaryType]}</h3>
-						<p>The other type driving this dynamic — read it side-by-side.</p>
+						<p>The other type driving this dynamic. Read it side-by-side.</p>
 						<span class="card-link">Read the type pillar →</span>
 					</a>
 				{/if}
@@ -186,7 +186,7 @@
 				{/if}
 				<a href={`/corpus-stats#domain-${bridges.corpusAnchor}`} class="related-card">
 					<span class="card-icon">▦</span>
-					<h3>Corpus stats — {bridgeCategory?.shortLabel ?? bridges.corpusAnchor}</h3>
+					<h3>Corpus stats: {bridgeCategory?.shortLabel ?? bridges.corpusAnchor}</h3>
 					<p>The actual type distribution in this domain across the 9takes corpus.</p>
 					<span class="card-link">See the data →</span>
 				</a>

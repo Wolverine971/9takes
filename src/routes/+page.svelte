@@ -285,7 +285,7 @@
 				<h1 id="hero-title">One question.<br /><span>Nine ways to see it.</span></h1>
 				<p class="hero-lede">
 					Say what you actually think before the crowd can shape your take. Then unlock the other
-					perspectives—and notice what someone else can see that you cannot.
+					perspectives and notice what someone else can see that you cannot.
 				</p>
 
 				<div class="hero-action">
@@ -531,10 +531,10 @@
 				<SectionKicker num="03" label="THE PATTERN UNDERNEATH" tone="data" />
 				<h2 id="centers-title">The same question can hold more than one honest perspective.</h2>
 				<p>
-					Once the room opens, the differences are the point. We are more alike—and more
-					different—than we think: we all navigate anger, shame, and fear, but develop different
-					ways of managing them. Those strategies shape what we notice, what feels at stake, and how
-					we respond. The Enneagram maps those recurring strategies into nine personality patterns.
+					Once the room opens, the differences are the point. We are more alike and more different
+					than we think: we all navigate anger, shame, and fear, but develop different ways of
+					managing them. Those strategies shape what we notice, what feels at stake, and how we
+					respond. The Enneagram maps those recurring strategies into nine personality patterns.
 				</p>
 			</header>
 
@@ -576,7 +576,7 @@
 						<h3>Start with what feels real.</h3>
 						<p>
 							You do not need to know your type. Answer a question and notice which perspectives
-							feel familiar—or completely foreign.
+							feel familiar or completely foreign.
 						</p>
 						<Button href={resolve('/questions')} size="lg">Start with a question</Button>
 					</div>

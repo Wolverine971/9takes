@@ -61,7 +61,7 @@
 			? [
 					{
 						question: `Which Enneagram type is over-represented in the 9takes ${data.category.label} category?`,
-						answer: `${corpusStats.headlineClaim} ${corpusStats.underClaim} These numbers are computed from the 9takes corpus of ${corpusStats.corpusPublished} published profiles and regenerated on every deploy — see the full dataset at ${corpusStats.datasetUrl}.`
+						answer: `${corpusStats.headlineClaim} ${corpusStats.underClaim} These numbers are computed from the 9takes corpus of ${corpusStats.corpusPublished} published profiles and regenerated on every deploy. See the full dataset at ${corpusStats.datasetUrl}.`
 					},
 					{
 						question: 'How fresh is the data on this page?',
@@ -373,7 +373,7 @@
 							<a href={`/personality-analysis/type/${corpusStats.over.type}`}>
 								{corpusStats.over.typeName}
 							</a>
-							is over-represented at <strong>{corpusStats.over.sharePct}</strong> —
+							is over-represented at <strong>{corpusStats.over.sharePct}</strong>,
 							<strong
 								>{corpusStats.over.deltaPp >= 0 ? '+' : ''}{corpusStats.over.deltaPp.toFixed(2)} pp</strong
 							>
@@ -580,7 +580,7 @@
 				<div class="section-head">
 					<div>
 						<SectionKicker class="section-tag" num="04" label="QUESTIONS" />
-						<h2 id="faq-heading">{data.category.label} — FAQ</h2>
+						<h2 id="faq-heading">{data.category.label} FAQ</h2>
 					</div>
 					<p class="section-copy">
 						Quick answers about how this category is built and what the data shows.

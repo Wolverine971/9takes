@@ -9,9 +9,9 @@
 
 	export let data: PageData;
 
-	const hubDescription = `Each Enneagram type breaks differently. Type 7s mask depression with motion. Type 8s with anger. Type 9s with shutdown. These guides decode how anxiety, depression, trauma, and burnout actually show up by type — and what tends to help.`;
+	const hubDescription = `Each Enneagram type breaks differently. Type 7s mask depression with motion. Type 8s with anger. Type 9s with shutdown. These guides decode how anxiety, depression, trauma, and burnout actually show up by type, and what tends to help.`;
 
-	const heroLede = `Anxiety, depression, burnout, addiction — they don't show up the same way in everyone. Type 7s outrun depression. Type 8s convert it to anger. Type 9s vanish into it. Knowing the type tells you what you're actually looking at, and what's likely to help.`;
+	const heroLede = `Anxiety, depression, burnout, and addiction don't show up the same way in everyone. Type 7s outrun depression. Type 8s convert it to anger. Type 9s vanish into it. Knowing the type tells you what you're actually looking at, and what's likely to help.`;
 
 	const benefitCards = [
 		{
@@ -20,7 +20,7 @@
 		},
 		{
 			title: 'Symptoms get hidden by personality',
-			body: "Type 7 covers depression with plans. Type 8 with control. Type 9 by going quiet. If you don't know the type, you miss it — including in yourself."
+			body: "Type 7 covers depression with plans. Type 8 with control. Type 9 by going quiet. If you don't know the type, you miss it, including in yourself."
 		},
 		{
 			title: 'What helps is type-specific',
@@ -34,7 +34,7 @@
 
 	const sectionSubs = {
 		why: 'What changes when you read mental health through type.',
-		guides: 'Deep dives by topic — written for actual humans, not symptom checklists.',
+		guides: 'Full guides by topic, written for actual humans, not symptom checklists.',
 		byType: 'Where each type tends to break, and what tends to put it back together.'
 	};
 
@@ -138,7 +138,7 @@
 			strengths: [
 				'Self-awareness that most therapists envy',
 				'Creative expression as a real route through pain',
-				'Refuses to perform recovery — only the real thing counts'
+				'Refuses to perform recovery. Only the real thing counts'
 			]
 		},
 		{
@@ -172,7 +172,7 @@
 				'Depression masked by motion until it stops them cold'
 			],
 			strengths: [
-				'Genuine optimism — the kind that survives setbacks',
+				'Genuine optimism, the kind that survives setbacks',
 				'Will try multiple modalities until one clicks',
 				'Reframes growth as adventure, which keeps them in it'
 			]
@@ -181,11 +181,11 @@
 			vulnerabilities: [
 				'Rage as the only emotion that feels safe to feel',
 				'Vulnerability avoided until it bursts the seam',
-				'Stress that lands in the body — heart, gut, blood pressure'
+				'Stress that lands in the body: heart, gut, blood pressure'
 			],
 			strengths: [
 				'Unstoppable once they decide to do the work',
-				"Leads their own recovery — doesn't outsource it",
+				'Leads their own recovery instead of outsourcing it',
 				'Will defend the healing space from anyone who threatens it'
 			]
 		},
@@ -196,7 +196,7 @@
 				"Chronic fatigue that nobody sees because nobody's told"
 			],
 			strengths: [
-				'Holistic approach — nothing single-modality survives them',
+				'Holistic approach: nothing single-modality survives them',
 				'Natural mediator who can hold both sides of an inner conflict',
 				'Steady pace that finishes long after the dramatic types quit'
 			]

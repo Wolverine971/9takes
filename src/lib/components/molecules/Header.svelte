@@ -162,7 +162,7 @@
 						href={resolve('/account#notifications')}
 						class="account-button notification-button"
 						aria-label={unreadCount > 0
-							? `View notifications — ${unreadCount} unread`
+							? `View notifications, ${unreadCount} unread`
 							: 'View notifications'}
 						title="Notifications"
 					>
@@ -258,7 +258,7 @@
 					href={resolve('/account#notifications')}
 					class="account-button notification-button"
 					aria-label={unreadCount > 0
-						? `View notifications — ${unreadCount} unread`
+						? `View notifications, ${unreadCount} unread`
 						: 'View notifications'}
 					title="Notifications"
 				>

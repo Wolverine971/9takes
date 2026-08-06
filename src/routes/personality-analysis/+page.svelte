@@ -192,8 +192,8 @@
 	  ===================================================================== -->
 	<IndexHero
 		title="See public figures through the patterns that drive them."
-		line1="We read public figures through the Enneagram — the framework that maps 9 emotional patterns driving behavior."
-		line2="Each breakdown goes beyond surface biography. We map their core fear, core desire, stress line, growth line — and the moments where those patterns showed up."
+		line1="We read public figures through the Enneagram, the framework that maps 9 emotional patterns driving behavior."
+		line2="Each breakdown goes beyond surface biography. We map their core fear, core desire, stress line, growth line, and the moments where those patterns showed up."
 		imageSrc="/greek_pantheon.webp"
 		imageAlt="Greek pantheon representing the nine Enneagram personality types"
 		imageMono="9TAKES · CASE FILES · ENNEAGRAM READS"
@@ -219,7 +219,7 @@
 						href={buildPersonalityAnalysisPath(person.slug)}
 						title={displayName}
 						eyebrow={`TYPE ${typeNum} · ${typeMeta?.name?.toUpperCase() ?? 'TYPE'}`}
-						description={`The ${typeMeta?.name ?? ''} — leads with ${typeMeta?.read ?? ''}.`}
+						description={`The ${typeMeta?.name ?? ''} leads with ${typeMeta?.read ?? ''}.`}
 						imageSrc={person.enneagram && person.slug
 							? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 							: null}

@@ -111,7 +111,7 @@
 	<p class="corpus-stat__source">
 		Source:
 		<a href={corpusAnchorUrl} class="corpus-stat__link">
-			9takes Corpus Stats — {domainLabel}
+			9takes Corpus Stats: {domainLabel}
 		</a>
 		·
 		<a href={domainUrl} class="corpus-stat__link"> Browse {domainLabel} profiles</a>

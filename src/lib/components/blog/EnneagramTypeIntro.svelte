@@ -8,9 +8,9 @@
 
 	<p>
 		You know that person who notices the one crooked picture frame in a room full of art? That's a
-		Type 1. They carry an internal compass that's always pointing toward "how things should be" —
-		and they can't turn it off. This makes them principled, reliable, and relentless about doing
-		things the right way.
+		Type 1. They carry an internal compass that's always pointing toward "how things should be," and
+		they can't turn it off. This makes them principled, reliable, and relentless about doing things
+		the right way.
 	</p>
 	<ul>
 		<li>
@@ -34,7 +34,7 @@
 	<h2>The Perfectionist's Worldview</h2>
 
 	<p>
-		For a Type 1, the world is a rough draft that needs editing. Everything could be better — and
+		For a Type 1, the world is a rough draft that needs editing. Everything could be better, and
 		they feel personally responsible for improving it. Here's what's running through their mind:
 	</p>
 	<ul>
@@ -46,7 +46,7 @@
 	</ul>
 
 	<p>
-		Spot a Type 1 by their corrections. They're not trying to be difficult — they genuinely can't
+		Spot a Type 1 by their corrections. They aren't being difficult on purpose. They genuinely can't
 		unsee the mistake. Match their precision and you'll earn deep respect.
 	</p>
 {/if}
@@ -57,7 +57,7 @@
 	<p>
 		Ever meet someone who remembered your coffee order after hearing it once? Who checked in on you
 		after a rough day you barely mentioned? That's a Type 2 operating at full power. They have an
-		almost supernatural ability to read what you need — sometimes before you know it yourself.
+		almost supernatural ability to read what you need, sometimes before you know it yourself.
 	</p>
 	<ul>
 		<li><strong>Stereotypes</strong>: People-pleasers, overly accommodating, emotionally needy</li>
@@ -79,8 +79,8 @@
 	<h2>The Helper's Worldview</h2>
 
 	<p>
-		A Type 2 walks into every room scanning for who needs something. It's not calculated — it's
-		automatic. Their internal wiring maps the world like this:
+		A Type 2 walks into every room scanning for who needs something. It's automatic, not calculated.
+		Their internal wiring maps the world like this:
 	</p>
 	<ul>
 		<li>Every interaction is a chance to make someone's day better</li>
@@ -92,14 +92,14 @@
 
 	<p>
 		Navigate a Type 2 by appreciating them without being asked. They spend so much energy on
-		everyone else that unsolicited recognition genuinely catches them off guard — in the best way.
+		everyone else that unsolicited recognition genuinely catches them off guard. In the best way.
 	</p>
 {/if}
 {#if type === '3'}
 	<h2>What Drives a Type 3</h2>
 	<p>
 		In any meeting, the Type 3 already knows who the decision-maker is and has positioned themselves
-		accordingly. They're wired for achievement — reading the room, adapting their approach, and
+		accordingly. They're wired for achievement: reading the room, adapting their approach, and
 		executing with a polish that makes it look effortless. What you see is someone who just "gets
 		it." What you don't see is how carefully they've calibrated every move.
 	</p>
@@ -135,7 +135,7 @@
 		<li>Success and achievement are the primary measures of personal worth</li>
 		<li>Every situation contains an opportunity for advancement or recognition</li>
 		<li>Image and reputation are strategic tools for reaching goals</li>
-		<li>Competition is natural — someone's always winning, and it should be them</li>
+		<li>Competition is natural: someone's always winning, and it should be them</li>
 	</ul>
 
 	<p>
@@ -147,7 +147,7 @@
 	<h2>What Drives a Type 4</h2>
 	<p>
 		While everyone else is having a good time at the party, a Type 4 is wondering why the good time
-		feels slightly hollow. They experience emotions at a depth most people don't access — and that
+		feels slightly hollow. They experience emotions at a depth most people don't access, and that
 		intensity is both their superpower and their curse. They're not being dramatic. They genuinely
 		feel things differently.
 	</p>
@@ -180,7 +180,7 @@
 	</p>
 	<ul>
 		<li>Beauty and meaning hiding in the melancholy and bittersweet moments</li>
-		<li>The world as a canvas — every choice is an act of self-expression</li>
+		<li>The world as a canvas: every choice is an act of self-expression</li>
 		<li>A fundamental sense of being different from everyone around them</li>
 		<li>Emotions as data that most people are too afraid to explore</li>
 		<li>Life as a search for significance and authentic identity</li>
@@ -188,14 +188,14 @@
 
 	<p>
 		Decode a Type 4 by taking their emotions seriously. Don't try to "fix" their mood. Sit with them
-		in it — that's how you earn their trust.
+		in it. That's how you earn their trust.
 	</p>
 {/if}
 {#if type === '5'}
 	<h2>What Drives a Type 5</h2>
 
 	<p>
-		A Type 5 spent their weekend learning how jet engines work. Not because they needed to — just
+		A Type 5 spent their weekend learning how jet engines work. Not because they needed to, just
 		because the question crossed their mind. They're the ones who disappear into a topic for hours,
 		emerge with a working mental model, and then need a full day alone to recharge. Knowledge isn't
 		a hobby for them. It's how they feel safe in the world.
@@ -223,8 +223,8 @@
 	<h2>The Investigator's Worldview</h2>
 
 	<p>
-		For a Type 5, the world is an enormously complex system — and they need to understand it before
-		they can engage with it. Here's what's running underneath:
+		For a Type 5, the world is an enormously complex system they need to understand before they can
+		engage with it. Here's what's running underneath:
 	</p>
 	<ul>
 		<li>Everything can be analyzed, mapped, and understood with enough information</li>
@@ -236,16 +236,16 @@
 
 	<p>
 		Navigate a Type 5 by respecting their space and leading with substance. Skip the small talk. Ask
-		them what they've been researching — then actually listen. That's their love language.
+		them what they've been researching, then actually listen. That's their love language.
 	</p>
 {/if}
 {#if type === '6'}
 	<h2>What Drives a Type 6</h2>
 	<p>
 		The Type 6 is the friend who texted "did you get home safe?" before you even parked the car.
-		They're constantly scanning for what could go wrong — not because they're pessimists, but
-		because they care deeply about protecting the people and systems they've committed to. Loyalty
-		is their defining trait, and they test it in everyone they meet.
+		They're constantly scanning for what could go wrong, not because they're pessimists, but because
+		they care deeply about protecting the people and systems they've committed to. Loyalty is their
+		defining trait, and they test it in everyone they meet.
 	</p>
 	<ul>
 		<li>
@@ -275,15 +275,15 @@
 		like this:
 	</p>
 	<ul>
-		<li>The world is unpredictable — and preparation is the only rational response</li>
+		<li>The world is unpredictable, so preparation is the only rational response</li>
 		<li>Everyone and everything needs to be tested before it can be trusted</li>
-		<li>Questioning authority isn't rebellion — it's due diligence</li>
+		<li>Questioning authority is due diligence, not rebellion</li>
 		<li>Trustworthy allies are the most valuable thing you can find</li>
-		<li>Duty and responsibility aren't burdens — they're what hold everything together</li>
+		<li>Far from being burdens, duty and responsibility are what hold everything together</li>
 	</ul>
 
 	<p>
-		Spot a Type 6 by their questions. They're not interrogating you — they're building a mental
+		Spot a Type 6 by their questions. This isn't an interrogation. Each question builds a mental
 		model of whether you're safe. Answer directly and consistently, and you'll unlock their loyalty.
 	</p>
 {/if}
@@ -292,8 +292,8 @@
 	<h2>What Drives a Type 7</h2>
 
 	<p>
-		A Type 7 has three tabs open, two plans for tonight, and just had an idea for a side project —
-		all before lunch. Their mind moves fast because standing still means feeling whatever they've
+		A Type 7 has three tabs open, two plans for tonight, and just had an idea for a side project.
+		All before lunch. Their mind moves fast because standing still means feeling whatever they've
 		been outrunning. Behind the enthusiasm is a simple equation: if life stays exciting, the painful
 		stuff can't catch up.
 	</p>
@@ -327,16 +327,16 @@
 		map of the world looks like this:
 	</p>
 	<ul>
-		<li>Life is a grand adventure — every day should contain something new</li>
+		<li>Life is a grand adventure: every day should contain something new</li>
 		<li>Joy and possibility exist in every situation if you look hard enough</li>
 		<li>Constraints are just puzzles that haven't been solved yet</li>
 		<li>The future is always brighter than the present</li>
-		<li>Variety isn't a luxury — it's a survival need</li>
+		<li>Variety is a survival need, not a luxury</li>
 	</ul>
 
 	<p>
 		Read a Type 7 by watching when they change the subject. That's usually the moment a conversation
-		got too real. Don't chase them — just note where the exit door is. That tells you what they're
+		got too real. Don't chase them. Just note where the exit door is. That tells you what they're
 		avoiding.
 	</p>
 {/if}
@@ -345,7 +345,7 @@
 
 	<p>
 		A Type 8 will tell you exactly what they think within thirty seconds of meeting you. No filter,
-		no warmup. They're not trying to be rude — they just think indirectness wastes everyone's time.
+		no warmup. They aren't trying to be rude. They just think indirectness wastes everyone's time.
 		Underneath that intensity is someone who decided early on that the world rewards strength and
 		punishes vulnerability. So they chose strength.
 	</p>
@@ -376,7 +376,7 @@
 		decided which side they're on a long time ago:
 	</p>
 	<ul>
-		<li>Strength and independence aren't optional — they're essential for survival</li>
+		<li>Strength and independence are essential for survival, not optional</li>
 		<li>Injustice and exploitation need to be confronted, not tolerated</li>
 		<li>Vulnerability is a liability unless you're with someone who's earned that trust</li>
 		<li>Challenges are how you prove what you're made of</li>
@@ -385,7 +385,7 @@
 
 	<p>
 		Decode a Type 8 by how they test you. They'll push to see if you fold. Stand your ground without
-		matching their aggression and you'll earn something rare — their genuine respect.
+		matching their aggression and you'll earn something rare: their genuine respect.
 	</p>
 {/if}
 {#if type === '9'}
@@ -393,7 +393,7 @@
 
 	<p>
 		The Type 9 is the person everyone feels comfortable around but nobody fully knows. They have a
-		gift for making you feel heard, validating your perspective, and smoothing over tension — often
+		gift for making you feel heard, validating your perspective, and smoothing over tension, often
 		at the cost of their own opinions disappearing entirely. They're not passive. They're absorbing
 		everything and choosing peace over the exhausting alternative.
 	</p>
@@ -419,19 +419,19 @@
 	<h2>The Peacemaker's Worldview</h2>
 
 	<p>
-		What happens when someone's greatest fear is disconnection? You get a Type 9 — someone who maps
+		What happens when someone's greatest fear is disconnection? You get a Type 9: someone who maps
 		the world by where the harmony is and where it's breaking down:
 	</p>
 	<ul>
 		<li>Every person and perspective has inherent value worth acknowledging</li>
-		<li>Conflict is rarely worth what it costs — most arguments aren't that important</li>
+		<li>Conflict is rarely worth what it costs, and most arguments aren't that important</li>
 		<li>Balance and stability are what make life livable</li>
 		<li>Everything and everyone is more connected than people realize</li>
-		<li>Peaceful coexistence isn't naive — it's the only approach that actually scales</li>
+		<li>Call it naive, but peaceful coexistence is the only approach that actually scales</li>
 	</ul>
 
 	<p>
-		Unlock a Type 9 by asking what <em>they</em> want — then waiting. The pause isn't indecision. They're
+		Unlock a Type 9 by asking what <em>they</em> want, then waiting. The pause isn't indecision. They're
 		checking whether it's actually safe to have a preference. Give them that space and you'll hear things
 		they don't tell anyone.
 	</p>

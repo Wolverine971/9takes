@@ -120,7 +120,7 @@
 		rel="alternate"
 		type="application/json"
 		href="/corpus-stats.json"
-		title="9takes Corpus Stats — raw dataset"
+		title="9takes Corpus Stats: raw dataset"
 	/>
 </svelte:head>
 
@@ -342,7 +342,7 @@
 			<h2 id="methodology-heading">Methodology</h2>
 			<ul class="kv-list">
 				<li>
-					<strong>Source:</strong> The 9takes public-figure corpus — one row per profiled person.
+					<strong>Source:</strong> The 9takes public-figure corpus, one row per profiled person.
 				</li>
 				<li>
 					<strong>Scope:</strong> Published profiles only. Drafts are excluded from every percentage,
@@ -357,7 +357,7 @@
 				<li>
 					<strong>Over/under-representation:</strong> Each domain's type share minus the corpus-wide baseline
 					share, expressed in percentage points. Positive values mean a type is over-represented on 9takes
-					relative to the rest of 9takes — not relative to the general population.
+					relative to the rest of 9takes, not relative to the general population.
 				</li>
 				<li>
 					<strong>Multi-domain figures:</strong> A person tagged as both a musician and an activist is

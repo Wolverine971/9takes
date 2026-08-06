@@ -9,14 +9,14 @@
 	<h3>The Perfectionist at Their Best</h3>
 	<p>
 		A healthy Type 1 stops trying to fix every flaw and starts choosing which ones actually matter.
-		The inner critic gets quieter — not because it leaves, but because they finally stop obeying it
+		The inner critic gets quieter, not because it leaves, but because they finally stop obeying it
 		on autopilot.
 	</p>
 	<ul>
 		<li>Decisions made on principle, not on the loudest voice in their head</li>
 		<li>Criticism delivered as service, not as punishment</li>
 		<li>
-			Real flexibility — they can hold a standard <em>and</em> let it slide when context demands
+			Real flexibility: they can hold a standard <em>and</em> let it slide when context demands
 		</li>
 		<li>Quiet integrity that pulls others up without lecturing them</li>
 		<li>Self-improvement that feels like growth, not penance</li>
@@ -24,12 +24,11 @@
 
 	<h3>The Perfectionist Cracking Under Pressure</h3>
 	<p>
-		Stress sends Type 1s to the unhealthy side of Type 4 — and the wheels come off in a specific
-		way:
+		Stress sends Type 1s to the unhealthy side of Type 4, and the wheels come off in a specific way:
 	</p>
 	<ul>
 		<li>The composed exterior gives way to mood swings they can't explain</li>
-		<li>Sudden withdrawal — emails ignored, plans cancelled, doors closed</li>
+		<li>Sudden withdrawal: emails ignored, plans cancelled, doors closed</li>
 		<li>Escapist binges (food, shows, fantasy) that violate their own rules</li>
 		<li>Hypersensitivity to criticism that wouldn't have touched them last week</li>
 		<li>Out-of-character emotional outbursts that shock everyone, including them</li>
@@ -37,11 +36,11 @@
 	<p>
 		The Type 1 lawyer who's been holding the line for months doesn't just get tired. One day she
 		calls in sick, lies in bed all afternoon, and snaps at her partner for asking if she's okay. The
-		standard didn't break. <em>She</em> did — temporarily.
+		standard didn't break. <em>She</em> did. Temporarily.
 	</p>
 
 	<h2>Where Growth Lives for a Type 1</h2>
-	<p>Healthy Type 1s borrow from Type 7 — and the shift is unmistakable:</p>
+	<p>Healthy Type 1s borrow from Type 7, and the shift is unmistakable:</p>
 	<ul>
 		<li>Spontaneity stops feeling reckless and starts feeling like oxygen</li>
 		<li>Rules become tools, not commandments</li>
@@ -59,8 +58,8 @@
 
 	<h3>1w9: The Idealist</h3>
 	<p>
-		The 1's standards plus the 9's calm. Reform happens, but quietly — in policies, systems, and
-		long emails rather than confrontations.
+		The 1's standards plus the 9's calm. Reform happens, but quietly: in policies, systems, and long
+		emails rather than confrontations.
 	</p>
 	<ul>
 		<li>More reserved and contemplative than the pure 1</li>
@@ -71,7 +70,7 @@
 
 	<h3>1w2: The Advocate</h3>
 	<p>
-		The 1's principles plus the 2's warmth. They don't just want things to be right — they want to
+		The 1's principles plus the 2's warmth. They don't just want things to be right. They want to
 		<em>help</em> people get there.
 	</p>
 	<ul>
@@ -84,23 +83,23 @@
 	<h2>Go Deeper on Type 1</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-1">Type 1: Inside the Inner Courtroom</a> — the full deep
-			dive on where the inner critic comes from and how to disarm it
+			<a href="/enneagram-corner/enneagram-type-1">Type 1: Inside the Inner Courtroom</a>. The full
+			breakdown of where the inner critic comes from and how to disarm it
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-positive-self-talk"
 				>Positive Self-Talk by Enneagram Type</a
-			> — scripts for when the inner judge gets loud
+			>: scripts for when the inner judge gets loud
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-strengths-and-weaknesses"
 				>Strengths and Weaknesses by Type</a
-			> — what to lean into, what to watch for
+			>: what to lean into, what to watch for
 		</li>
 		<li>
 			<a href="/enneagram-corner/depression-patterns-by-enneagram-type"
 				>Depression Patterns by Type</a
-			> — how Type 1 burnout actually shows up
+			>: how Type 1 burnout actually shows up
 		</li>
 	</ul>
 {/if}
@@ -109,23 +108,23 @@
 
 	<h3>The Helper at Their Best</h3>
 	<p>
-		A healthy Type 2 still cares — they just stop trading their needs to earn the right to. The
+		A healthy Type 2 still cares. They just stop trading their needs to earn the right to. The
 		giving gets cleaner because they're no longer billing for it underneath.
 	</p>
 	<ul>
 		<li>Real generosity, not strategic generosity disguised as kindness</li>
 		<li>Boundaries that don't require resentment to enforce</li>
 		<li>The ability to receive without immediately deflecting</li>
-		<li>Naming their own needs out loud — and surviving it</li>
+		<li>Naming their own needs out loud, and surviving it</li>
 		<li>Empowering people instead of becoming indispensable to them</li>
 	</ul>
 
 	<h3>The Helper Cracking Under Pressure</h3>
-	<p>Stress sends Type 2s to the unhealthy side of Type 8 — and the warmth flips fast:</p>
+	<p>Stress sends Type 2s to the unhealthy side of Type 8, and the warmth flips fast:</p>
 	<ul>
 		<li>Sudden anger that's been building for months under "I'm fine"</li>
 		<li>Confrontation triggered by the specific feeling of being unappreciated</li>
-		<li>Vulnerability becomes intolerable — they snap at help offered with care</li>
+		<li>Vulnerability becomes intolerable: they snap at help offered with care</li>
 		<li>Repressed needs erupt as ultimatums</li>
 		<li>Subtle manipulation to recover the emotional ground they feel they lost</li>
 	</ul>
@@ -137,7 +136,7 @@
 	</p>
 
 	<h2>Where Growth Lives for a Type 2</h2>
-	<p>Healthy Type 2s borrow from Type 4 — and it usually looks like this:</p>
+	<p>Healthy Type 2s borrow from Type 4, and it usually looks like this:</p>
 	<ul>
 		<li>They notice what <em>they</em> feel, not just what everyone else needs</li>
 		<li>Solitude stops feeling like rejection and starts feeling like home</li>
@@ -154,17 +153,17 @@
 
 	<h3>2w1: The Servant</h3>
 	<p>
-		The 2's warmth with the 1's sense of duty. Helping isn't optional — it's the right thing to do.
+		The 2's warmth with the 1's sense of duty. For them, helping is simply the right thing to do.
 	</p>
 	<ul>
 		<li>Stronger moral spine guiding who they help and how</li>
 		<li>More structured and dependable in caregiving</li>
-		<li>Holds themselves to "did I help <em>enough</em>?" — usually no</li>
+		<li>Holds themselves to "did I help <em>enough</em>?" The answer is usually no</li>
 		<li>Gravitates toward service careers and sustained volunteer work</li>
 	</ul>
 
 	<h3>2w3: The Host/Hostess</h3>
-	<p>The 2's love with the 3's drive. Helping becomes a stage — and they're the lead actor.</p>
+	<p>The 2's love with the 3's drive. Helping becomes a stage, and they're the lead actor.</p>
 	<ul>
 		<li>More outgoing, more visible, more socially ambitious</li>
 		<li>Helps in ways that get noticed; the recognition is part of the fuel</li>
@@ -175,20 +174,20 @@
 	<h2>Go Deeper on Type 2</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-2">Type 2: The Hidden Cost of Giving</a> — the full deep
-			dive on people-pleasing exhaustion and the way out
+			<a href="/enneagram-corner/enneagram-type-2">Type 2: The Hidden Cost of Giving</a>. The full
+			breakdown of people-pleasing exhaustion and the way out
 		</li>
 		<li>
 			<a href="/enneagram-corner/attachment-styles-and-enneagram-types">Attachment Styles by Type</a
-			> — how Type 2's anxious patterns show up in love
+			>: how Type 2's anxious patterns show up in love
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-compatibility-guide">Enneagram Compatibility Guide</a> — what
-			Type 2 needs from each other type to feel safe
+			<a href="/enneagram-corner/enneagram-compatibility-guide">Enneagram Compatibility Guide</a>:
+			what Type 2 needs from each other type to feel safe
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-mental-health-flags">Mental Health Flags by Type</a> — early
-			warning signs of 2 → 8 stress slide
+			<a href="/enneagram-corner/enneagram-mental-health-flags">Mental Health Flags by Type</a>:
+			early warning signs of 2 → 8 stress slide
 		</li>
 	</ul>
 {/if}
@@ -197,8 +196,8 @@
 
 	<h3>The Achiever at Their Best</h3>
 	<p>
-		A healthy Type 3 stops performing and starts <em>being</em>. The polish is still there — but
-		it's no longer load-bearing. They can lose without it costing them their sense of self.
+		A healthy Type 3 stops performing and starts <em>being</em>. The polish is still there, but it's
+		no longer load-bearing. They can lose without it costing them their sense of self.
 	</p>
 	<ul>
 		<li>Authenticity that doesn't read the room first</li>
@@ -209,7 +208,7 @@
 	</ul>
 
 	<h3>The Achiever Cracking Under Pressure</h3>
-	<p>Stress sends Type 3s to the unhealthy side of Type 9 — and the engine just stops:</p>
+	<p>Stress sends Type 3s to the unhealthy side of Type 9, and the engine just stops:</p>
 	<ul>
 		<li>The legendary drive evaporates overnight</li>
 		<li>Important meetings missed, decisions deferred, calls unreturned</li>
@@ -219,17 +218,17 @@
 	</ul>
 	<p>
 		The Type 3 exec who's been hitting numbers for years doesn't just have a slow week. He stops
-		opening Slack. His calendar develops white space. He tells his team he's "thinking" — and
+		opening Slack. His calendar develops white space. He tells his team he's "thinking" when
 		actually he's just frozen, watching his own image of himself flicker.
 	</p>
 
 	<h2>Where Growth Lives for a Type 3</h2>
-	<p>Healthy Type 3s borrow from Type 6 — and the shift looks like this:</p>
+	<p>Healthy Type 3s borrow from Type 6, and the shift looks like this:</p>
 	<ul>
 		<li>Loyalty replaces transactional thinking</li>
 		<li>They build teams instead of personal stages</li>
 		<li>Risk gets weighed instead of charmed past</li>
-		<li>An inner compass develops — not just an outer scoreboard</li>
+		<li>An inner compass develops, not just an outer scoreboard</li>
 		<li>Stability and security become valuable, not boring</li>
 	</ul>
 	<p>
@@ -242,17 +241,17 @@
 
 	<h3>3w2: The Charmer</h3>
 	<p>
-		The 3's drive with the 2's warmth. Success is interpersonal — they win <em>through</em> people.
+		The 3's drive with the 2's warmth. Success is interpersonal: they win <em>through</em> people.
 	</p>
 	<ul>
 		<li>More relationship-driven in their pursuit of goals</li>
 		<li>Networking is genuine connection, not just collection</li>
-		<li>Charisma is the primary tool — and a real one</li>
+		<li>Charisma is the primary tool, and a real one</li>
 		<li>The bind: ambition vs. the desperate need to be liked</li>
 	</ul>
 
 	<h3>3w4: The Professional</h3>
-	<p>The 3's ambition with the 4's depth. They want success — but it has to mean something.</p>
+	<p>The 3's ambition with the 4's depth. They want success. But it has to mean something.</p>
 	<ul>
 		<li>Quieter, more introspective, more hung up on personal meaning</li>
 		<li>Often drawn to creative, branded, or specialist fields</li>
@@ -263,20 +262,20 @@
 	<h2>Go Deeper on Type 3</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-3">Type 3: When Success Becomes Identity</a> — the full
-			deep dive on achievement addiction and the way back to a real self
+			<a href="/enneagram-corner/enneagram-type-3">Type 3: When Success Becomes Identity</a>. The
+			full breakdown of achievement addiction and the way back to a real self
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-leadership">Enneagram Leadership by Type</a> — Type 3's natural
-			leadership shape and where it breaks
+			<a href="/enneagram-corner/enneagram-leadership">Enneagram Leadership by Type</a>: Type 3's
+			natural leadership shape and where it breaks
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a> — what 3 → 9
-			disintegration actually feels like
+			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a>: what 3 →
+			9 disintegration actually feels like
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-self-development">Enneagram Self-Development</a> — practical
-			work for high-functioning 3s
+			<a href="/enneagram-corner/enneagram-self-development">Enneagram Self-Development</a>:
+			practical work for high-functioning 3s
 		</li>
 	</ul>
 {/if}
@@ -286,19 +285,19 @@
 	<h3>The Individualist at Their Best</h3>
 	<p>
 		A healthy Type 4 stops auditing themselves for what's missing and starts using their depth. The
-		emotion stays — but it's no longer the whole identity. They become useful in the way only
-		someone who's stared at the dark can be.
+		emotion stays, but it's no longer the whole identity. They become useful in the way only someone
+		who's stared at the dark can be.
 	</p>
 	<ul>
 		<li>Emotion channeled into work people actually feel</li>
 		<li>Empathy that's seasoned, not draining</li>
 		<li>Authenticity without the performance of being authentic</li>
 		<li>Beauty noticed in ordinary moments, not just in the elegantly tragic ones</li>
-		<li>Their uniqueness held lightly — not clutched as proof they exist</li>
+		<li>Their uniqueness held lightly, not clutched as proof they exist</li>
 	</ul>
 
 	<h3>The Individualist Cracking Under Pressure</h3>
-	<p>Stress sends Type 4s to the unhealthy side of Type 2 — and the inward gaze flips outward:</p>
+	<p>Stress sends Type 4s to the unhealthy side of Type 2, and the inward gaze flips outward:</p>
 	<ul>
 		<li>Excessive enmeshment in friends' lives to escape their own</li>
 		<li>Their own needs disappear under "I'm here for you" performance</li>
@@ -313,7 +312,7 @@
 	</p>
 
 	<h2>Where Growth Lives for a Type 4</h2>
-	<p>Healthy Type 4s borrow from Type 1 — and the shift is grounding:</p>
+	<p>Healthy Type 4s borrow from Type 1, and the shift is grounding:</p>
 	<ul>
 		<li>Action replaces marination in feelings</li>
 		<li>Self-discipline stops feeling like a betrayal of authenticity</li>
@@ -323,18 +322,18 @@
 	</ul>
 	<p>
 		Picture the Type 4 writer who's spent 10 years writing in spurts. She develops a 6 a.m. routine.
-		The work gets sharper. The depth doesn't go anywhere — it just stops being held hostage by mood.
+		The work gets sharper. The depth doesn't go anywhere. It just stops being held hostage by mood.
 	</p>
 
 	<h2>The Wings: Two Flavors of Type 4</h2>
 
 	<h3>4w3: The Aristocrat</h3>
 	<p>
-		The 4's depth with the 3's drive. Unique <em>and</em> visible — they want their distinctiveness seen.
+		The 4's depth with the 3's drive. Unique <em>and</em> visible: they want their distinctiveness seen.
 	</p>
 	<ul>
 		<li>More image-conscious, more outwardly ambitious</li>
-		<li>Drawn to fashion, art, performance — fields where uniqueness is currency</li>
+		<li>Drawn to fields where uniqueness is currency: fashion, art, performance</li>
 		<li>The conflict: real authenticity vs. authenticity that performs well</li>
 		<li>Comfortable showcasing talent; less comfortable being ordinary</li>
 	</ul>
@@ -344,27 +343,27 @@
 	<ul>
 		<li>More introverted; processes feeling through ideas, not display</li>
 		<li>Drawn to philosophy, mysticism, niche fascinations</li>
-		<li>Doubly different — emotionally <em>and</em> intellectually off the main road</li>
+		<li>Doubly different: emotionally <em>and</em> intellectually off the main road</li>
 		<li>Rich inner world that may never get translated for anyone else</li>
 	</ul>
 
 	<h2>Go Deeper on Type 4</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-4">Type 4: The Search for the Missing Piece</a> — the
-			full deep dive on why they feel different and what to do with it
+			<a href="/enneagram-corner/enneagram-type-4">Type 4: The Search for the Missing Piece</a>. The
+			full breakdown of why they feel different and what to do with it
 		</li>
 		<li>
 			<a href="/enneagram-corner/depression-patterns-by-enneagram-type"
 				>Depression Patterns by Type</a
-			> — how Type 4 melancholy turns clinical
+			>: how Type 4 melancholy turns clinical
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-and-mental-illness">Enneagram and Mental Illness</a> — emotional
-			sensitivity and where it crosses a line
+			<a href="/enneagram-corner/enneagram-and-mental-illness">Enneagram and Mental Illness</a>:
+			emotional sensitivity and where it crosses a line
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-personal-growth">Enneagram Personal Growth</a> — practices
+			<a href="/enneagram-corner/enneagram-personal-growth">Enneagram Personal Growth</a>: practices
 			for moving emotion into action
 		</li>
 	</ul>
@@ -374,22 +373,22 @@
 
 	<h3>The Investigator at Their Best</h3>
 	<p>
-		A healthy Type 5 stops hoarding knowledge and starts deploying it. The expertise stays — but now
-		it leaves the lab. They engage with the world instead of just observing it from a safe distance.
+		A healthy Type 5 stops hoarding knowledge and starts deploying it. The expertise stays. Now it
+		leaves the lab. They engage with the world instead of just observing it from a safe distance.
 	</p>
 	<ul>
 		<li>Insight made accessible, not gatekept by jargon</li>
 		<li>Engagement that doesn't deplete them within an hour</li>
 		<li>Intellect connected to feeling, not insulated from it</li>
 		<li>Innovation aimed at real problems, not just elegant puzzles</li>
-		<li>Quiet confidence in their expertise — no need to prove the credential</li>
+		<li>Quiet confidence in their expertise, no need to prove the credential</li>
 	</ul>
 
 	<h3>The Investigator Cracking Under Pressure</h3>
-	<p>Stress sends Type 5s to the unhealthy side of Type 7 — and the discipline collapses:</p>
+	<p>Stress sends Type 5s to the unhealthy side of Type 7, and the discipline collapses:</p>
 	<ul>
 		<li>Scattered focus, half a dozen rabbit holes, none completed</li>
-		<li>Impulsive escapes — a binge, a trip, a purchase that doesn't fit them</li>
+		<li>Impulsive escapes: a binge, a trip, a purchase that doesn't fit them</li>
 		<li>Sensory overindulgence in a way that feels foreign to who they are</li>
 		<li>Deadlines slip; the precision they're known for evaporates</li>
 		<li>Restlessness with no off-switch</li>
@@ -401,18 +400,18 @@
 	</p>
 
 	<h2>Where Growth Lives for a Type 5</h2>
-	<p>Healthy Type 5s borrow from Type 8 — and the shift is visible:</p>
+	<p>Healthy Type 5s borrow from Type 8, and the shift is visible:</p>
 	<ul>
 		<li>They take action instead of waiting until they "know enough"</li>
 		<li>Leadership stops feeling like an imposition and starts feeling natural</li>
 		<li>Knowledge gets <em>used</em>, not just refined</li>
-		<li>Communication gets direct — fewer hedges, fewer caveats</li>
+		<li>Communication gets direct: fewer hedges, fewer caveats</li>
 		<li>The body stops being just a vehicle for the brain</li>
 	</ul>
 	<p>
 		Picture the Type 5 data analyst who's spent 8 years behind dashboards. He takes the team-lead
 		role. He runs the meeting. He says "we're doing this" instead of "the data suggests." Nothing
-		about him got dumber. Something about him got <em>louder</em> — in the right way.
+		about him got dumber. Something about him got <em>louder</em>, in the right way.
 	</p>
 
 	<h2>The Wings: Two Flavors of Type 5</h2>
@@ -432,27 +431,27 @@
 		<li>Knowledge applied to fields with concrete output (engineering, medicine, security)</li>
 		<li>Higher baseline anxiety about being competent enough</li>
 		<li>More duty-driven and collaborative than the pure 5</li>
-		<li>Wants certainty — and treats expertise as the path to it</li>
+		<li>Wants certainty and treats expertise as the path to it</li>
 	</ul>
 
 	<h2>Go Deeper on Type 5</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-5">Type 5: Inside the Fortress Mind</a> — the full deep
-			dive on withdrawal, expertise, and how to leave the cave without losing the lab
+			<a href="/enneagram-corner/enneagram-type-5">Type 5: Inside the Fortress Mind</a>. The full
+			breakdown of withdrawal, expertise, and how to leave the cave without losing the lab
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-instinctual-subtypes">Enneagram Instinctual Subtypes</a> —
+			<a href="/enneagram-corner/enneagram-instinctual-subtypes">Enneagram Instinctual Subtypes</a>:
 			how Type 5's three subtypes show up wildly differently
 		</li>
 		<li>
-			<a href="/enneagram-corner/relationship-communication-guide">Communication Styles by Type</a> —
-			how to actually be heard by — and as — a Type 5
+			<a href="/enneagram-corner/relationship-communication-guide">Communication Styles by Type</a>:
+			how to actually be heard by a Type 5, and as one
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-strengths-and-weaknesses"
 				>Strengths and Weaknesses by Type</a
-			> — what to lean into, what's costing them
+			>: what to lean into, what's costing them
 		</li>
 	</ul>
 {/if}
@@ -462,7 +461,7 @@
 	<h3>The Loyalist at Their Best</h3>
 	<p>
 		A healthy Type 6 stops outsourcing certainty and starts trusting their own read. The vigilance
-		doesn't disappear — it gets repurposed from "what could destroy me" into "what could actually
+		doesn't disappear. It gets repurposed from "what could destroy me" into "what could actually
 		work."
 	</p>
 	<ul>
@@ -470,30 +469,30 @@
 		<li>Skepticism aimed at problems, not at every person who walks in</li>
 		<li>Reliability that becomes the load-bearing wall of any group they're in</li>
 		<li>Risk and opportunity weighed with the same eyes</li>
-		<li>Genuine self-trust — finally believing their own judgment</li>
+		<li>Genuine self-trust: finally believing their own judgment</li>
 	</ul>
 
 	<h3>The Loyalist Cracking Under Pressure</h3>
-	<p>Stress sends Type 6s to the unhealthy side of Type 3 — and they outrun their own anxiety:</p>
+	<p>Stress sends Type 6s to the unhealthy side of Type 3, and they outrun their own anxiety:</p>
 	<ul>
 		<li>Sudden image-consciousness in someone who never cared about that</li>
 		<li>Overworking to prove they belong on the team</li>
 		<li>Achievements inflated; vulnerabilities buried</li>
 		<li>Help refused because asking would feel like exposure</li>
-		<li>Restless climbing — chasing security through visible success</li>
+		<li>Restless climbing, chasing security through visible success</li>
 	</ul>
 	<p>
 		The Type 6 team member who's normally the careful one starts dominating meetings, listing wins,
-		and putting in 70-hour weeks. He's not suddenly more confident. He's terrified — and he's
-		decided that being undeniable is the only protection left.
+		and putting in 70-hour weeks. He's not suddenly more confident. He's terrified, and he's decided
+		that being undeniable is the only protection left.
 	</p>
 
 	<h2>Where Growth Lives for a Type 6</h2>
-	<p>Healthy Type 6s borrow from Type 9 — and the system finally exhales:</p>
+	<p>Healthy Type 6s borrow from Type 9, and the system finally exhales:</p>
 	<ul>
 		<li>Inner peace stops feeling naive and starts feeling earned</li>
 		<li>Multiple perspectives held without the alarm bells</li>
-		<li>Uncertainty becomes tolerable — even occasionally interesting</li>
+		<li>Uncertainty becomes tolerable, even occasionally interesting</li>
 		<li>The body relaxes; the shoulders drop</li>
 		<li>Vigilance and calm coexist instead of canceling each other out</li>
 	</ul>
@@ -510,7 +509,7 @@
 	<ul>
 		<li>More introverted, more analytical</li>
 		<li>Researches their way to a feeling of safety</li>
-		<li>Drawn to deep-analysis fields — engineering, IT, intelligence work</li>
+		<li>Drawn to deep-analysis fields: engineering, IT, intelligence work</li>
 		<li>Skeptical and curious in equal measure</li>
 	</ul>
 
@@ -520,28 +519,28 @@
 		<li>More extroverted; uses humor as armor</li>
 		<li>Pulled between "play it safe" and "go anyway"</li>
 		<li>More visibly anxious, but also bounces back faster</li>
-		<li>Loyal — and a little chaotic</li>
+		<li>Loyal, and a little chaotic</li>
 	</ul>
 
 	<h2>Go Deeper on Type 6</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-6">Type 6: The Search for Solid Ground</a> — the full
-			deep dive on the worry engine and how to loosen its grip
+			<a href="/enneagram-corner/enneagram-type-6">Type 6: The Search for Solid Ground</a>. The full
+			breakdown of the worry engine and how to loosen its grip
 		</li>
 		<li>
 			<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
 				>Enneagram Anxiety Management Guide</a
-			> — the playbook tuned for Type 6 specifically
+			>: the playbook tuned for Type 6 specifically
 		</li>
 		<li>
 			<a href="/enneagram-corner/mental-health/enneagram-anxiety-complete-guide"
 				>Anxiety and the Enneagram</a
-			> — how anxiety actually differs between types
+			>: how anxiety actually differs between types
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-mental-health-flags">Mental Health Flags by Type</a> — when
-			6 vigilance becomes something more
+			<a href="/enneagram-corner/enneagram-mental-health-flags">Mental Health Flags by Type</a>:
+			when 6 vigilance becomes something more
 		</li>
 	</ul>
 {/if}
@@ -550,37 +549,37 @@
 
 	<h3>The Enthusiast at Their Best</h3>
 	<p>
-		A healthy Type 7 stops running and finally lets the moment land. The energy is still there — but
+		A healthy Type 7 stops running and finally lets the moment land. The energy is still there, but
 		it has somewhere to go. They go deep <em>and</em> wide.
 	</p>
 	<ul>
 		<li>Long-term focus on things that genuinely matter, not just things that excite</li>
-		<li>Real satisfaction — not the next-thing chase that never lets them taste this thing</li>
+		<li>Real satisfaction, not the next-thing chase that never lets them taste this thing</li>
 		<li>Optimism that has integrated some pain, not bypassed it</li>
 		<li>Vision used to solve actual problems, not just to imagine new ones</li>
 		<li>A kind of leadership that pulls people toward life, not just toward distraction</li>
 	</ul>
 
 	<h3>The Enthusiast Cracking Under Pressure</h3>
-	<p>Stress sends Type 7s to the unhealthy side of Type 1 — and the fun goes brittle:</p>
+	<p>Stress sends Type 7s to the unhealthy side of Type 1, and the fun goes brittle:</p>
 	<ul>
 		<li>Harsh self-criticism in someone who's usually the optimist</li>
 		<li>Rigid rules and lists they've never needed before</li>
 		<li>Judgment of others' choices that's almost out of character</li>
 		<li>Obsessive nitpicking on small flaws while everything's on fire</li>
-		<li>The trademark spontaneity gone — replaced by stiffness</li>
+		<li>The trademark spontaneity gone, replaced by stiffness</li>
 	</ul>
 	<p>
 		The Type 7 event planner who normally pulls magic out of chaos suddenly cares about font sizes
 		on the seating chart. She's snapping at vendors. She can't improvise. The party isn't actually
-		harder — she's just trying to control everything because something underneath feels deeply out
-		of control.
+		harder. She's just trying to control everything because something underneath feels deeply out of
+		control.
 	</p>
 
 	<h2>Where Growth Lives for a Type 7</h2>
-	<p>Healthy Type 7s borrow from Type 5 — and it changes how they think:</p>
+	<p>Healthy Type 7s borrow from Type 5, and it changes how they think:</p>
 	<ul>
-		<li>Depth replaces breadth — they finish what they started</li>
+		<li>Depth replaces breadth: they finish what they started</li>
 		<li>Solitude becomes nourishing, not threatening</li>
 		<li>Mastery in a chosen field instead of dilettantism in twelve</li>
 		<li>Quiet, self-directed thought without an exit door open</li>
@@ -589,7 +588,7 @@
 	<p>
 		Picture the Type 7 travel blogger who's been bouncing between countries for years. He spends six
 		months in one place. He learns the language. He writes the deepest piece he's ever made. The
-		energy didn't disappear — it just stopped scattering.
+		energy didn't disappear. It just stopped scattering.
 	</p>
 
 	<h2>The Wings: Two Flavors of Type 7</h2>
@@ -608,28 +607,28 @@
 	<ul>
 		<li>More entrepreneurial; happy to take charge</li>
 		<li>Confronts obstacles instead of dancing around them</li>
-		<li>High-impact roles — startup, sales, on-stage</li>
+		<li>High-impact roles: startup, sales, on-stage</li>
 		<li>Combines vision with the willingness to actually fight for it</li>
 	</ul>
 
 	<h2>Go Deeper on Type 7</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-7">Type 7: The Possibility Engine</a> — the full deep
-			dive on restlessness, FOMO, and what they're really running from
+			<a href="/enneagram-corner/enneagram-type-7">Type 7: The Possibility Engine</a>. The full
+			breakdown of restlessness, FOMO, and what they're really running from
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-and-adhd-which-types-struggle-most">Enneagram and ADHD</a
-			> — how Type 7 patterns overlap with — and differ from — ADHD
+			>: how Type 7 patterns overlap with ADHD, and how they differ
 		</li>
 		<li>
 			<a href="/enneagram-corner/depression-patterns-by-enneagram-type"
 				>Depression Patterns by Type</a
-			> — what happens when a Type 7 finally can't outrun it
+			>: what happens when a Type 7 finally can't outrun it
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-personal-growth">Enneagram Personal Growth</a> — depth-building
-			practices for high-energy types
+			<a href="/enneagram-corner/enneagram-personal-growth">Enneagram Personal Growth</a>:
+			depth-building practices for high-energy types
 		</li>
 	</ul>
 {/if}
@@ -638,12 +637,12 @@
 
 	<h3>The Challenger at Their Best</h3>
 	<p>
-		A healthy Type 8 still hits hard — but their power is finally used to build something instead of
+		A healthy Type 8 still hits hard, but their power is finally used to build something instead of
 		just defend themselves. The intensity becomes a gift to the people in their circle, not a toll
 		for getting close.
 	</p>
 	<ul>
-		<li>Strength deployed to protect — especially the people who can't protect themselves</li>
+		<li>Strength deployed to protect, especially the people who can't protect themselves</li>
 		<li>Vulnerability with the few who've earned it (and that vulnerability is real)</li>
 		<li>Assertiveness that doesn't need to flatten anyone to function</li>
 		<li>Visionary leadership that creates rooms, not just rules them</li>
@@ -651,7 +650,7 @@
 	</ul>
 
 	<h3>The Challenger Cracking Under Pressure</h3>
-	<p>Stress sends Type 8s to the unhealthy side of Type 5 — and the lion goes into the cave:</p>
+	<p>Stress sends Type 8s to the unhealthy side of Type 5, and the lion goes into the cave:</p>
 	<ul>
 		<li>Withdrawal from the team they usually lead</li>
 		<li>Obsessive information-gathering in place of action</li>
@@ -662,20 +661,20 @@
 	<p>
 		The Type 8 founder who's been the engine of his company for a decade goes silent for two weeks.
 		He's reading reports nobody asked for. He's not in meetings. He's started questioning whether
-		his closest collaborators are really with him. The withdrawal isn't laziness — it's a wounded 8
-		trying to think his way back to certainty.
+		his closest collaborators are really with him. The withdrawal is a wounded 8 trying to think his
+		way back to certainty.
 	</p>
 
 	<h2>Where Growth Lives for a Type 8</h2>
 	<p>
-		Healthy Type 8s borrow from Type 2 — and it disarms the armor without disarming the strength:
+		Healthy Type 8s borrow from Type 2, and it disarms the armor without disarming the strength:
 	</p>
 	<ul>
 		<li>Emotion gets named, not muscled past</li>
 		<li>Care expressed openly to the people they actually love</li>
 		<li>Mentorship and protection replace domination</li>
 		<li>Strength used to lift, not to win</li>
-		<li>The hard exterior allows softer access — at least to a few</li>
+		<li>The hard exterior allows softer access, at least to a few</li>
 	</ul>
 	<p>
 		Picture the Type 8 executive who's run rooms by force for 20 years. He starts mentoring younger
@@ -691,7 +690,7 @@
 		<li>More adventurous and fun-loving than the pure 8</li>
 		<li>Charismatic leader who pulls people into the vision</li>
 		<li>Risk of impulsivity and overextension</li>
-		<li>Energy that's contagious — and exhausting</li>
+		<li>Energy that's contagious, and exhausting</li>
 	</ul>
 
 	<h3>8w9: The Bear</h3>
@@ -699,28 +698,28 @@
 	<ul>
 		<li>Slower to anger, harder to move once they've decided</li>
 		<li>More patient, more diplomatic, more measured</li>
-		<li>The stabilizer in their environment — until you cross a line</li>
+		<li>The stabilizer in their environment. Until you cross a line</li>
 		<li>Risk of passive aggression when they avoid confrontation</li>
 	</ul>
 
 	<h2>Go Deeper on Type 8</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-8">Type 8: Why You Push Everyone Away</a> — the full deep
-			dive on control, vulnerability, and the cost of constant strength
+			<a href="/enneagram-corner/enneagram-type-8">Type 8: Why You Push Everyone Away</a>. The full
+			breakdown of control, vulnerability, and the cost of constant strength
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-leadership">Enneagram Leadership by Type</a> — Type 8's natural
-			leadership style and where it backfires
+			<a href="/enneagram-corner/enneagram-leadership">Enneagram Leadership by Type</a>: Type 8's
+			natural leadership style and where it backfires
 		</li>
 		<li>
 			<a href="/enneagram-corner/attachment-styles-and-enneagram-types">Attachment Styles by Type</a
-			> — how Type 8 protects connection by hiding need for it
+			>: how Type 8 protects connection by hiding need for it
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-strengths-and-weaknesses"
 				>Strengths and Weaknesses by Type</a
-			> — what to lean into, what to soften
+			>: what to lean into, what to soften
 		</li>
 	</ul>
 {/if}
@@ -729,47 +728,46 @@
 
 	<h3>The Peacemaker at Their Best</h3>
 	<p>
-		A healthy Type 9 finally takes up space without fearing the cost. The harmony stays — but
-		they're no longer paying for it with their own voice. They're in the room now, not just
-		smoothing it.
+		A healthy Type 9 finally takes up space without fearing the cost. The harmony stays, but they're
+		no longer paying for it with their own voice. They're in the room now, not just smoothing it.
 	</p>
 	<ul>
 		<li>Needs and opinions named clearly, without apologetic preface</li>
 		<li>Active engagement with their own life, not just everyone else's</li>
 		<li>Conflict mediated toward real resolution, not surface peace</li>
 		<li>Multiple perspectives synthesized into something new</li>
-		<li>A calm that anchors a room — and a backbone underneath it</li>
+		<li>A calm that anchors a room, and a backbone underneath it</li>
 	</ul>
 
 	<h3>The Peacemaker Cracking Under Pressure</h3>
-	<p>Stress sends Type 9s to the unhealthy side of Type 6 — and the calm gets cracked:</p>
+	<p>Stress sends Type 9s to the unhealthy side of Type 6, and the calm gets cracked:</p>
 	<ul>
 		<li>Anxiety in someone who's normally unflappable</li>
 		<li>Indecision and constant reassurance-seeking</li>
-		<li>Suspicion about motives — even close ones</li>
+		<li>Suspicion about motives, even close ones</li>
 		<li>Reactivity to anything that disturbs the peace</li>
 		<li>Loss of their signature ability to hold many sides at once</li>
 	</ul>
 	<p>
 		The Type 9 therapist who's spent a decade as the calm one starts second-guessing every treatment
 		plan. She's overwhelmed by sessions she used to handle in her sleep. She catches herself
-		snapping at her partner over nothing. The center didn't hold — and what surfaces is anxiety, not
+		snapping at her partner over nothing. The center didn't hold. What surfaces is anxiety, not
 		peace.
 	</p>
 
 	<h2>Where Growth Lives for a Type 9</h2>
-	<p>Healthy Type 9s borrow from Type 3 — and it lights a fire without burning the house down:</p>
+	<p>Healthy Type 9s borrow from Type 3, and it lights a fire without burning the house down:</p>
 	<ul>
 		<li>Drive and motivation that don't feel foreign anymore</li>
 		<li>Comfort with the spotlight when their work needs it</li>
-		<li>Real prioritization — not "everything matters equally," which is its own avoidance</li>
+		<li>Real prioritization, not "everything matters equally," which is its own avoidance</li>
 		<li>Healthy ambition that doesn't compromise their grounded nature</li>
 		<li>Action <em>and</em> harmony, not action vs. harmony</li>
 	</ul>
 	<p>
 		Picture the Type 9 artist who's painted in private for years. He starts showing the work. He
 		applies for the residency. He says yes to leading the workshop. The peaceful presence is still
-		there — it's just stopped being a hiding place.
+		there. It's just stopped being a hiding place.
 	</p>
 
 	<h2>The Wings: Two Flavors of Type 9</h2>
@@ -781,7 +779,7 @@
 	<ul>
 		<li>More assertive and self-confident than the pure 9</li>
 		<li>Capable of confrontation when avoidance would cost too much</li>
-		<li>A grounded, powerful presence — slow to move, hard to topple</li>
+		<li>A grounded, powerful presence: slow to move, hard to topple</li>
 		<li>The bind: peace-seeking nature vs. real inner force</li>
 	</ul>
 
@@ -793,26 +791,26 @@
 		<li>More structured and principled in pursuit of harmony</li>
 		<li>Strong sense of right and wrong under the calm</li>
 		<li>Drawn to spiritual, idealistic, or service-oriented causes</li>
-		<li>Inner critic plus inner peacemaker — quietly at war</li>
+		<li>Inner critic plus inner peacemaker, quietly at war</li>
 	</ul>
 
 	<h2>Go Deeper on Type 9</h2>
 	<ul class="related-links">
 		<li>
-			<a href="/enneagram-corner/enneagram-type-9">Type 9: Finding Your Voice</a> — the full deep dive
-			on why you go missing, and how to come back
+			<a href="/enneagram-corner/enneagram-type-9">Type 9: Finding Your Voice</a>. The full
+			breakdown of why you go missing, and how to come back
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-personal-growth">Enneagram Personal Growth</a> — practices
+			<a href="/enneagram-corner/enneagram-personal-growth">Enneagram Personal Growth</a>: practices
 			for actually showing up to your own life
 		</li>
 		<li>
-			<a href="/enneagram-corner/relationship-communication-guide">Communication Styles by Type</a> —
+			<a href="/enneagram-corner/relationship-communication-guide">Communication Styles by Type</a>:
 			how to be heard when you'd rather merge
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a> — what 9 → 6
-			disintegration actually feels like
+			<a href="/enneagram-corner/enneagram-stress-number">The Stress Number Explained</a>: what 9 →
+			6 disintegration actually feels like
 		</li>
 	</ul>
 {/if}

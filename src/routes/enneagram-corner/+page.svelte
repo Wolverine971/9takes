@@ -133,7 +133,7 @@
 			id: 'personal-development',
 			type: 'development',
 			title: 'Growth',
-			descriptor: 'Move past your automatic patterns — with type-aware strategy.',
+			descriptor: 'Move past your automatic patterns with type-aware strategy.',
 			viewAllHref: '/enneagram-corner/subtopic/development'
 		},
 		{
@@ -380,7 +380,7 @@
 	  ===================================================================== -->
 	<IndexHero
 		title="The Enneagram, decoded."
-		line1="9 emotional types. Each one leads with a different read of the same situation. Here's what each one sees first — and what every type misses."
+		line1="9 emotional types. Each one leads with a different read of the same situation. Here's what each one sees first, and what every type misses."
 		line2={`${publishedCount} reads. Centers, wings, stress lines, growth lines, and the moments those patterns show up in real life.`}
 		imageSrc="/greek_distorted_statue_face.webp"
 		imageAlt="Fragmented classical statue face representing the nine Enneagram types"

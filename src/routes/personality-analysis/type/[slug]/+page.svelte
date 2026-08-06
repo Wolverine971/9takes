@@ -148,7 +148,7 @@
 	let faqId = $derived(`${typeUrl}#faq`);
 
 	let seoTitle = $derived(
-		`${peopleCount} Famous Enneagram Type ${data.slug}s — ${typeInfo.name} (Examples & Analyses)`
+		`${peopleCount} Famous Enneagram Type ${data.slug}s: ${typeInfo.name} (Examples & Analyses)`
 	);
 	let seoDescription = $derived(
 		`${peopleCount} famous Enneagram Type ${data.slug} (${typeInfo.name}) personalities, decoded. ${typeInfo.tagline}. See how Type ${data.slug} shows up in celebrities, leaders, and creators.`
@@ -254,7 +254,7 @@
 	let articleSchema = $derived({
 		'@type': 'Article',
 		'@id': articleId,
-		headline: `Enneagram Type ${data.slug}: ${typeInfo.name} — Worldview, Wings, and Famous Examples`,
+		headline: `Enneagram Type ${data.slug}: ${typeInfo.name} (Worldview, Wings, and Famous Examples)`,
 		description: typeInfo.summary,
 		mainEntityOfPage: { '@id': pageId },
 		isPartOf: { '@id': pageId },
@@ -375,7 +375,7 @@
 	canonical={canonicalUrl}
 	twitterCardType="summary_large_image"
 	{ogImage}
-	twitterImageAlt={`Famous Enneagram Type ${data.slug} — ${typeInfo.name}`}
+	twitterImageAlt={`Famous Enneagram Type ${data.slug}: ${typeInfo.name}`}
 	author="9takes"
 	ogType="website"
 	additionalMeta={[
@@ -400,7 +400,7 @@
 		<div class="type-badge">
 			<span class="type-num">{data.slug}</span>
 		</div>
-		<h1>Famous Enneagram Type {data.slug}s — {typeInfo.name}</h1>
+		<h1>Famous Enneagram Type {data.slug}s: {typeInfo.name}</h1>
 		<p class="tagline">{typeInfo.tagline}</p>
 		{#if typeInfo.summary}
 			<p class="hero-summary">{typeInfo.summary}</p>
@@ -413,7 +413,7 @@
 		{#if corpusInsight}
 			<CorpusStatCallout
 				claim={corpusInsight.claim}
-				eyebrow={`9takes Corpus Stat — Type ${data.slug}`}
+				eyebrow={`9takes Corpus Stat: Type ${data.slug}`}
 				domainLabel={corpusInsight.domainLabel}
 				domainUrl={corpusInsight.domainUrl}
 				corpusAnchorUrl={corpusInsight.corpusAnchorUrl}
@@ -426,7 +426,7 @@
 
 		<section class="famous-people" aria-labelledby="famous-heading">
 			<div class="section-header">
-				<h2 id="famous-heading">Famous Type {data.slug}s — {typeInfo.name} Examples</h2>
+				<h2 id="famous-heading">Famous Type {data.slug}s: {typeInfo.name} Examples</h2>
 				<span class="people-count">{peopleCount} personalities</span>
 			</div>
 			<div class="people-grid-container">
@@ -440,7 +440,7 @@
 								loading="lazy"
 								class="grid-img personality-portrait-image"
 								src={buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')}
-								alt={`${formatPersonalityDisplayName(person.slug)} — Enneagram Type ${data.slug} (${typeInfo.name})`}
+								alt={`${formatPersonalityDisplayName(person.slug)}, Enneagram Type ${data.slug} (${typeInfo.name})`}
 								width="218"
 								height="218"
 							/>

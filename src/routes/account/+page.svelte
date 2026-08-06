@@ -518,13 +518,13 @@
 					<p class="section-label">Start here</p>
 					<h2>You haven't set your type yet</h2>
 					<p class="section-copy">
-						Your type is the key to everything else here — which questions need your voice, which
+						Your type is the key to everything else here: which questions need your voice, which
 						takes get shown to you, and who else sees the world the way you do. Pick one and the
 						rest of this page comes alive.
 					</p>
 					<p class="section-copy subtle">
-						Not sure? <a href="/enneagram-test" class="inline-link">Take the test</a> — it takes a few
-						minutes.
+						Not sure? <a href="/enneagram-test" class="inline-link">Take the test</a>. It takes a
+						few minutes.
 					</p>
 				</div>
 			</section>
@@ -596,7 +596,7 @@
 							{questionOfTheDay.takeCount === 1 ? 'take' : 'takes'}
 						</span>
 					{:else}
-						<span class="meta-pill">No takes yet — be first</span>
+						<span class="meta-pill">No takes yet. Be first.</span>
 					{/if}
 
 					{#if questionOfTheDay.typesPresent.length}

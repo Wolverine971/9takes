@@ -177,7 +177,7 @@
 		<p class="eyebrow">Personality analysis · Categories</p>
 		<h1>Browse famous people by the lane they live in</h1>
 		<p class="lede">
-			Instead of one flat archive, every hub now breaks into tight sub-categories — so you can
+			Instead of one flat archive, every hub now breaks into tight sub-categories, so you can
 			compare screen icons to rising actors, pop stars to rappers, and heads of state to activists
 			inside the same frame.
 		</p>
@@ -206,7 +206,7 @@
 		<section class="section">
 			<div class="section-head">
 				<h2>Core categories</h2>
-				<p>The seven largest lanes — together they cover the bulk of the library.</p>
+				<p>The seven largest lanes. Together they cover the bulk of the library.</p>
 			</div>
 
 			<div class="category-grid">
@@ -326,7 +326,7 @@
 			<div class="alt-copy">
 				<p class="mini-label">Another way in</p>
 				<h2>Or browse by Enneagram type</h2>
-				<p>See every profile grouped by the nine core personality types — 1 through 9.</p>
+				<p>See every profile grouped by the nine core personality types, 1 through 9.</p>
 			</div>
 			<a href="/personality-analysis" class="alt-link">
 				<span>Go to type index</span>

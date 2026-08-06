@@ -48,9 +48,8 @@
 		{
 			id: 'enneagram',
 			title: 'Enneagram Corner',
-			subtitle: 'Deep dives into the 9 types',
-			description:
-				'Core education on the Enneagram system — from basics to advanced type dynamics.',
+			subtitle: 'Inside the 9 types',
+			description: 'Core education on the Enneagram system, from basics to advanced type dynamics.',
 			key: 'enneagram' as const,
 			href: '/enneagram-corner',
 			linkPrefix: '/enneagram-corner',

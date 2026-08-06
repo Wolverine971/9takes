@@ -1,24 +1,11 @@
 {
-  "lastUpdated": "2026-08-05T06:00:00Z",
+  "lastUpdated": "2026-08-06T06:19:10Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
   "queue": [
-    {
-      "name": "kate-middleton",
-      "displayName": "Kate Middleton",
-      "type": null,
-      "priority": 64,
-      "priorityReason": "One of the most-searched women alive with constant royal news flow; Meghan, Harry, Diana and QE2 are covered but the Princess of Wales is not",
-      "estimatedTraffic": "very-high",
-      "searchVolume": "very-high",
-      "personaTitle": null,
-      "addedToQueue": "2026-07-18",
-      "retryCount": 0,
-      "strategicValue": "royalty-cluster"
-    },
     {
       "name": "duke-dennis",
       "displayName": "Duke Dennis",
@@ -29,7 +16,7 @@
       "searchVolume": "medium",
       "personaTitle": null,
       "addedToQueue": "2026-07-25",
-      "retryCount": 0,
+      "retryCount": 1,
       "strategicValue": "creator-economy-cluster"
     },
     {
@@ -346,6 +333,23 @@
     }
   ],
   "completed": [
+    {
+      "name": "caitlin-clark",
+      "displayName": "Caitlin Clark",
+      "type": null,
+      "priority": 65,
+      "priorityReason": "WNBA All-Star Game starter July 25 2026 (3rd straight year, 2nd-most fan votes); career-high scoring pace; biggest story in US women's sports",
+      "estimatedTraffic": "very-high",
+      "searchVolume": "very-high",
+      "personaTitle": null,
+      "addedToQueue": "2026-07-18",
+      "retryCount": 0,
+      "strategicValue": "sports-icon-cluster",
+      "startedAt": "2026-08-05T06:00:00Z",
+      "completedAt": "2026-08-06T06:00:00Z",
+      "needsReview": true,
+      "recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+    },
     {
       "name": "stableronaldo",
       "displayName": "StableRonaldo",
@@ -1559,20 +1563,7 @@
       "reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
     }
   ],
-  "inProgress": {
-    "name": "caitlin-clark",
-    "displayName": "Caitlin Clark",
-    "type": null,
-    "priority": 65,
-    "priorityReason": "WNBA All-Star Game starter July 25 2026 (3rd straight year, 2nd-most fan votes); career-high scoring pace; biggest story in US women's sports",
-    "estimatedTraffic": "very-high",
-    "searchVolume": "very-high",
-    "personaTitle": null,
-    "addedToQueue": "2026-07-18",
-    "retryCount": 0,
-    "strategicValue": "sports-icon-cluster",
-    "startedAt": "2026-08-05T06:00:00Z"
-  },
+  "inProgress": null,
   "skipped": [
     {
       "name": "jynxzi",
@@ -1846,7 +1837,24 @@
       "skipDetail": "Started 2026-06-10T06:00:46Z, no draft or pipeline logs ever created; cleared after ~48h"
     }
   ],
-  "failed": [],
+  "failed": [
+    {
+      "name": "kate-middleton",
+      "displayName": "Kate Middleton",
+      "type": null,
+      "priority": 64,
+      "priorityReason": "One of the most-searched women alive with constant royal news flow; Meghan, Harry, Diana and QE2 are covered but the Princess of Wales is not",
+      "estimatedTraffic": "very-high",
+      "searchVolume": "very-high",
+      "personaTitle": null,
+      "addedToQueue": "2026-07-18",
+      "retryCount": 3,
+      "strategicValue": "royalty-cluster",
+      "startedAt": "2026-08-06T06:08:01Z",
+      "failedAt": "2026-08-06T06:11:04Z",
+      "error": "no draft after pipeline run"
+    }
+  ],
   "metadata": {
     "priorityAlgorithm": "typeMultiplier * 10 + personaTitleBonus + searchVolumeEstimate",
     "typeMultipliers": {

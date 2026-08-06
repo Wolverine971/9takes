@@ -74,7 +74,7 @@
 
 <svelte:head>
 	<title>
-		User Profile{hasKnownType ? ` — Type ${enneagramType}` : ''} | 9takes
+		User Profile{hasKnownType ? `: Type ${enneagramType}` : ''} | 9takes
 	</title>
 </svelte:head>
 
@@ -90,7 +90,7 @@
 					<h1>{profileHeading}</h1>
 					{#if hasKnownType}
 						<span class="type-badge">
-							Type {enneagramType} — The {typeName}
+							Type {enneagramType}: The {typeName}
 						</span>
 					{/if}
 				</div>
