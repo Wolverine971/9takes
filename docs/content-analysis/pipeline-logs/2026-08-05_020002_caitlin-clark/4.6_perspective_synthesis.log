@@ -1,0 +1,19 @@
+Synthesis written to `docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/synthesis.md`.
+
+**10 P0 · 11 P1 accepted · 5 research-required · 11 protected hits · requires_revision: true**
+
+All six perspectives recorded `delight: clear_hit` and all six said revise. The argument is sound; the evidence handling is what breaks.
+
+The organizing finding — four perspectives arrived at it independently, and I confirmed all four instances against the frozen text — is that **every time Clark pairs self-criticism with self-assertion, the draft keeps the criticism and drops the assertion.** The ESPN obsession quote is cut mid-sentence at "because I want to be the best player in the world" (and truncated at the identical comma again in the Rabbit Hole). The Olympic paragraph drops her simultaneous insistence she was good enough. "We'll have to see" is absent. "The fire is what makes me, me" is absent. Those are the exact three points the pre-write memo names as its Type 1 vs Type 3 tiebreakers.
+
+Three other P0s sit outside that pattern: the practice scene is specified far past its sourcing and *reverses* its only named account; the Rabbit Hole's falsification list cites an interior monologue the article invented four sections earlier; and the subtype section defines the sexual instinct in a way this site's own Type 1 pillar contradicts, one paragraph from a link to that pillar.
+
+**Most important protected hit:** the H2 5 turnover-resolution paragraph — named by all six reviewers, the only passage every seat independently called the article's reason to exist. P0-05 changes one sentence of its *framing* (mark the mechanism as inference, since Clark has never described her standard that way and a competing first-person account exists); nothing else touches it, and it must not be compressed to fund any other edit.
+
+Three things worth flagging to you directly:
+
+- **The ten P0 repairs are roughly word-neutral** — five free words, five cost a clause. They fit inside the 4,500 ceiling as-is (body is at 4,494). The P1s are where the ceiling bites: four of them cost ~95 words that don't exist. I named three funding sources no reviewer protects and made a recommendation, but the reserve-vs-scope call is yours.
+- **The Swoopes misquote originates upstream.** "Those are hella good numbers" is verbatim in `docs/content-analysis/research/Caitlin-Clark.md:128`. The draft faithfully reproduced a bad research file — fix both, or it returns on the next refresh and in every future piece built from that research.
+- **One conflict I settled with a direct check:** the critic wanted "draining" and "shoulders tense" verified or cut as unlocated. Both are verbatim ("It's draining." / "It makes your shoulders tense."). The draft is correct, packet CLM-20 resolves in its favor, and I logged it as not-to-be-re-raised.
+
+Sources used for adjudication: [Yahoo Sports — McNutt criticism](https://sports.yahoo.com/articles/espn-monica-mcnutt-criticizes-caitlin-165559733.html), [AOL — ESPN host flips criticism back on Caitlin Clark](https://www.aol.com/articles/espn-host-flips-criticism-back-161906000.html).

@@ -1,0 +1,29 @@
+```
+Frontmatter enrichment complete: Caitlin-Clark
+```
+
+**Fields filled:** `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):** `wikipedia`, `twitter`, `instagram`, `tiktok` (empty, creator-owned), `production_pretext`
+
+**Key values verified:**
+- `wikidata_qid: Q106298476` — Wikidata search, "American basketball player (born 2002)"
+- `birth_date: 2002-01-22` / `birth_place: Des Moines, Iowa, United States` — Wikidata P569 + P19 (Q39709 = Des Moines) agree with Wikipedia
+- `imdb_id: nm14710113` — see caveat below
+
+**FAQs generated (5)** — all five anchors resolve to real H2 slugs in the body (verified programmatically):
+1. What is Caitlin Clark's personality type? → `#what-is-caitlin-clarks-personality-type`
+2. Why did Caitlin Clark rate herself a six out of ten? → `#caitlin-clark-is-still-going-to-the-gym-about-it`
+3. Why does Caitlin Clark have the WNBA single-season turnover record? → `#why-caitlin-clark-set-the-wnba-turnover-record`
+4. Why does Caitlin Clark look angry when she plays? → `#why-caitlin-clark-looks-angry-when-she-plays`
+5. How does Caitlin Clark handle criticism? → `#why-caitlin-clarks-fame-turned-into-a-fight-about-race`
+
+Frontmatter parses clean through gray-matter; no em-dashes; `lastmod` untouched at `2026-08-05`; body not modified.
+
+**Issues:**
+
+- **The body has zero external hyperlinks.** Every source is named in prose only (ESPN, TIME, The Gazette, Yahoo Sports, Netflix, Gil's Arena, Talks at GS). I built `citations` by searching out and confirming the real URLs behind the load-bearing attributions rather than fabricating them — TIME's Athlete of the Year piece (confirmed to contain the "as a white person, there is privilege" quote), The Gazette's Jeff Linder retirement profile (confirmed to contain the Bluder leadership quote), and two Yahoo Sports pieces covering the six-out-of-ten interview and the "draining" All-Star complaint. This is a content-quality gap worth fixing upstream: the article cites well but links nothing.
+- **`imdb_id` is lower-confidence than usual.** Wikidata has no P345 claim for her. `nm14710113` is confirmed by IMDb search results matching name, birth date (22 January 2002), state (Iowa), and basketball-broadcast credits — that satisfies the command's WebSearch fallback, but it isn't Wikidata-backed. Easy to drop if you'd rather omit it.
+- Britannica (`biography/Caitlin-Clark`) is confirmed via Wikidata P1417 rather than direct fetch; the page 403s to automated requests.
+- `same_as` has 4 entries (spec range is 3–6). I left out Basketball-Reference because I couldn't verify the WNBA URL path without guessing.
+- The SECOND PASS NOTES line "No faqs in frontmatter — the enrich stage has not run" is now stale. Also note this draft has no `path:` or `content_quality:` block yet, which the grader stage adds.

@@ -1,0 +1,15 @@
+Saved: `docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 9 concerns.**
+
+SHA verified against `context.json` and the supplied argument before reading. First read was unaided per the unfamiliar-reader exception; packet and one orientation search came after.
+
+**Strongest hit:** the lupus sequence (L210–231) — "So she stopped asking and went to get the answer herself… She flew back to the country she was raised in to be believed." It's the passage that changed my read of the subject from lifestyle performer to medical event, and it's the one stretch where a newcomer is never confused.
+
+**Blockers:**
+- **UNFAM-B1** — The cancer inner-thought (L385) asserts an unsourced private fact ("say nothing to anyone, including the person beside me") inside a styled first-person panel. The `.inner-thought` CSS signals *thought vs. speech* but not *documented vs. authored*. The tradwife inner-thought (L316) sits directly after the Wicker race paragraph, creating the implication the packet explicitly warns against.
+- **UNFAM-B2** — "She gave Forbes the feeling version" (L299). Packet CLM-06 confirms Forbes conducted no interview; Di Placido's piece re-reports the podcast. It's the one sentence advertising the article's source diversity, and it's wrong. ~5-word fix.
+
+**Highest-priority concern (UNFAM-C1):** the draft conveys "tradwife" only through the three clauses she rebuts — homemaking, financial dependence, dishes — all of which sound like a lifestyle description. It never supplies the ultraconservative/far-right association that dictionary definitions carry as standard. Concrete consequence: Levings' "Your own content has bolstered that oppression" (L320) has no antecedent in the reader-visible text, so the article's strongest criticism is unparseable. I stopped short of blocker because the thesis still survives.
+
+Worth flagging for whoever synthesizes: items 2 and 9 in my improvements list *free* words, funding the rest — the 4,488/4,500 budget isn't a reason to decline any of it. And one limit I recorded rather than papered over: the snapshot embeds its own pipeline commentary and prior grade, which I read past before knowing where it started. I excluded it as evidence, but a reader-visible-only snapshot would make this perspective cleaner — `context.json` already computes `reader_visible_content_sha256`.

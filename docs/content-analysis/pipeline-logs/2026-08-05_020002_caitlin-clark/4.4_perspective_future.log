@@ -1,0 +1,16 @@
+All required headings present in order, counts match the frontmatter.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/future.md`
+
+**Verdict:** `revise` — trust intact, value high, delight clear_hit. **0 blockers, 9 concerns.**
+
+**Strongest hit (FUTURE-H1):** `"It is August 2026, and she is spending the hours again."` — an absolute date stamp opening the single most perishable paragraph. It converts a paragraph that would otherwise read as a false present-tense assertion into dated reportage. Every repair I proposed is an extension of the instinct already in that sentence. The broader durability win is architectural: the thesis is built from dated quotes and completed events, so strip the newest material entirely and the article still stands — the turnover argument, its sharpest idea, rests on a 2024 season and cannot go stale.
+
+**Highest-priority concern (FUTURE-C1):** The final section is a live mid-season snapshot publishing seven weeks before the 2026 regular season ends (Sept 24) and the Fever — first in the East at 19-11 — start a postseason the article never anticipates. Repair is cheap: past-tense the perishable clauses under the existing date stamp, plus one ~12-word clause acknowledging the season is unfinished. It's compounded by FUTURE-C2: the draft's own notes record 4,485 words against a 4,500 ceiling, so the mandatory October edit has fifteen words of headroom. The pipeline diagnosed the perishability and shipped no remediation.
+
+Two things worth flagging about how the review came out:
+
+- I went looking for a blocker and didn't find one. The packet left "third in the league in scoring" unresolved and recommended a pre-publication leaderboard check; I ran it, and it's correct (Wilson 26.6, Mitchell 24.0, Clark 21.5). I recorded it as a margin-fragility concern — third place by 0.1 PPG over Stewart — rather than converting a verified-accurate claim into a red flag.
+- Research surfaced a change point the draft doesn't account for: her fourth-year option was exercised in April 2026, contracting her through 2027, with restricted free agency and new-CBA maximum eligibility after that season. The commercial-seam paragraph is the article's best-built idea and I recommended not touching it — only scheduling a post-2027 revisit, since its factual footing moves inside the review window.
+
+The review includes a dated twelve-month refresh list. It's body-copy only — I made no recommendation touching `lastmod` or other frontmatter date fields.

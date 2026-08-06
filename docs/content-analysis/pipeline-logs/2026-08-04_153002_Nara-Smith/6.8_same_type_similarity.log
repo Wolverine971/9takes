@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Nara-Smith (Type 8)
+/Users/djwayne/9takes/src/blog/people/drafts/Nara-Smith.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 44
+Comparison set (last 8 other Type-8 drafts by date):
+  - Tyler1  (2026-07-29, 17 units)
+  - gordon-ramsay  (2026-07-08, 43 units)
+  - nicki-minaj  (2026-06-29, 24 units)
+  - susan-sarandon  (2026-06-28, 24 units)
+  - ella-langley  (2026-06-01, 15 units)
+  - david-goggins  (2026-05-30, 37 units)
+  - jamie-dimon  (2026-05-27, 25 units)
+  - ernest-hemingway  (2026-05-19, 20 units)
+
+Noise floor over 9020 unit pairs:  median=0  p90=0  p99=0.007  max=0.057
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.057   Nara-Smith  <->  ella-langley
+   TARGET [diagnosis] There's no way you're going to see me washing and scrubbing the dishes." Whatever else she does for him off camera
+   OTHER  [diagnosis] you're going to hate your life for your whole entire life.'" The biographical evidence stacks up the same way.
+
+
+Most similar drafts (max unit-pair score):
+  0.057 ##                   ella-langley
+  0.046 ##                   david-goggins
+  0.043 ##                   gordon-ramsay
+  0.026 #                    susan-sarandon
+  0.025 #                    ernest-hemingway
+  0.024 #                    jamie-dimon
+  0.018 #                    nicki-minaj
+  0.017 #                    Tyler1
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.057   Nara-Smith  <->  ella-langley
+   TARGET [diagnosis] There's no way you're going to see me washing and scrubbing the dishes." Whatever else she does for him off camera
+   OTHER  [diagnosis] you're going to hate your life for your whole entire life.'" The biographical evidence stacks up the same way.
+
+score 0.046   Nara-Smith  <->  david-goggins
+   TARGET [counter-typing] so the easy version of the Eight defense does not hold.
+   OTHER  [diagnosis] and he refuses to be controlled — the cartoon version of the Challenger
+
+score 0.043   Nara-Smith  <->  gordon-ramsay
+   TARGET [diagnosis] Aggression is the part of the Type 8 engine that shows up on camera and almost never the part that drives it.
+   OTHER  [diagnosis] The 8w7 wing — the Seven influence — explains the part that doesn't fit the grim protector archetype.
+
+score 0.033   Nara-Smith  <->  david-goggins
+   TARGET [counter-typing] Type 1 fits the behavior and misses the motive
+   OTHER  [diagnosis] into jet fuel." - The motive is strength
+
+score 0.032   Nara-Smith  <->  gordon-ramsay
+   TARGET [diagnosis] woman show." The servile version is where she stops
+   OTHER  [diagnosis] What the narrative already shows — the childhood
+
+score 0.029   Nara-Smith  <->  david-goggins
+   TARGET [diagnosis] and volunteers the word "ambitious" about herself.
+   OTHER  [diagnosis] Listen to him long enough and the word that recurs is not afraid
+
+score 0.028   Nara-Smith  <->  david-goggins
+   TARGET [diagnosis] When the internet turned a postpartum photo of her into a bounce-back trophy
+   OTHER  [diagnosis] The internet usually calls Goggins a Type 8
+
+score 0.026   Nara-Smith  <->  susan-sarandon
+   TARGET [diagnosis] Deciding to keep filming through a newborn
+   OTHER  [counter-typing] and half the country rather than soften to keep them.
+
+score 0.025   Nara-Smith  <->  ernest-hemingway
+   TARGET [diagnosis] The eight months of silence run the same direction
+   OTHER  [diagnosis] He never went to a psychiatrist until the last twelve months of his life.
+
+score 0.024   Nara-Smith  <->  gordon-ramsay
+   TARGET [diagnosis] woman show." The servile version is where she stops
+   OTHER  [diagnosis] The American version is a reality show about a man who screams.
+
+score 0.024   Nara-Smith  <->  jamie-dimon
+   TARGET [diagnosis] The eight months of silence run the same direction
+   OTHER  [diagnosis] He runs the largest balance sheet in the United States
+
+score 0.024   Nara-Smith  <->  david-goggins
+   TARGET [counter-typing] so the easy version of the Eight defense does not hold.
+   OTHER  [diagnosis] but also mentally." He does not stay in that softness.
+
+------------------------------------------------------------------------------
+Top pair scores 0.057 vs median 0  (~∞x the noise floor).

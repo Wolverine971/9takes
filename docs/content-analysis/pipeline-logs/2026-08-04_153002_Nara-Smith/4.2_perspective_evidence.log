@@ -1,0 +1,9 @@
+The background search resolved into a substantive finding rather than a dead end, so the packet is updated.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/evidence-packet.md` — validates clean (frontmatter parses, all 10 required H2s, 21 claim IDs, 24 ledger rows, SHA matches `context.json`).
+
+One correction to what I said in my last message: I reported that a repo grep for a distinctive *Call Her Daddy* quote returned nothing. That grep had hit its 60-second timeout while walking `node_modules`, not come back empty. The quote is in the research file and the draft, as expected. Re-running it bounded is what caught this.
+
+The verified version is narrower and worse for the draft's sourcing: a bounded search across the repo, `~/Downloads`, `~/Desktop`, and `~/.cache` found **no surviving copy of the transcript itself** — no `pjHzLMfsf3w` artifact, no Nara entry under `youtube-transcripts-people/`. The research file says a local copy was pulled on 2026-08-04; it did not persist.
+
+So the largest unresolved gap is now sharper than I first stated it. Roughly 80% of the draft's quotation traces to that episode, and the research file's quote list is the *only* surviving record of it. Those quotes can't be re-verified against a source, checked for speaker attribution in a two-woman conversation, or given timestamps without re-pulling from YouTube. That affects the details with no external corroboration anywhere — Yale New Haven, chemotherapy, "five days out of roughly every sixteen," blood counts, the 200,000-like story. Recorded in ledger row S-05 and limitation 1, with the re-pull requirement stated explicitly for downstream evaluators.

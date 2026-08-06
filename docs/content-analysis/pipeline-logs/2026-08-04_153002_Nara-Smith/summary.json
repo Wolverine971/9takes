@@ -1,0 +1,18 @@
+{
+  "person": "Nara-Smith",
+  "draft_path": "src/blog/people/drafts/Nara-Smith.md",
+  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-04_153002_Nara-Smith",
+  "perspective_review_dir": "docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002",
+  "perspective_initial_status": "pass",
+  "perspective_final_status": "fail_after_revision",
+  "completed": true,
+  "halt_reason": null,
+  "revised": true,
+  "lint_exit": 0,
+  "first_overall": 8,
+  "final_overall": 8.1,
+  "final_discoverability": 9,
+  "grade_stability_delta": 0.09999999999999964,
+  "has_stage_warnings": true,
+  "generated_at": "2026-08-04T21:49:08.074Z"
+}

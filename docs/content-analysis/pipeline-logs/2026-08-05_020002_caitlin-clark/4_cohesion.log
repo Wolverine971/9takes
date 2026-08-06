@@ -1,0 +1,40 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Caitlin-Clark.md`
+
+**Before: 7/10 → After: 9/10**
+
+**Central thesis:** Clark is a Type 1 who grades hours and correct decisions rather than results, so no outcome can close the audit — which is why she instantly rates herself a six.
+
+The through-line was already strong. The problem was mechanical: six of eight section seams were cold starts, because the sections were written as excellent standalone units and then butted together.
+
+### Changes made (13 total)
+
+**Transition fixes (8)** — each carries a keyword forward; none is a generic "now let's look at" connective:
+
+| Seam | Before | Bridge added |
+|---|---|---|
+| intro → H2 1 | Broken loop | "The six came out fast because the audit had already run." |
+| H2 1 → H2 2 | Adequate | "She learned to carry it early." |
+| H2 2 → H2 3 | **Weak** | "Take that standard somewhere the result counts." |
+| H2 3 → H2 4 | Weak | "She runs the numbers on her best nights too." |
+| H2 4 → H2 5 | Adequate | "Remember what she wanted to know about those ten assists." |
+| H2 6 → H2 7 | Adequate | "That charge does not come from nowhere." |
+| H2 7 → H2 8 | **Weak** | "In 2025 the fire had nothing to burn." |
+| H2 8 → H2 9 | Adequate | "…and she is spending the hours again." |
+
+The most valuable one is the first. Your cold open ends on "None of it explains how fast the number came out" and the diagnosis section never actually answered it — the open loop stayed open through the whole piece.
+
+**Redundancy cuts (5)** — these funded the bridges against your hard 4500-word fail:
+- "She is the most-watched athlete in her sport" (verbatim repeat of the cold open)
+- "That is the whole formative mechanism in one anecdote" (same self-grading species as the "empathy turn" label fresh eyes cut)
+- "The reframe does not clear her" (said again 3 paragraphs later, better)
+- Rabbit Hole wing: a sentence restating the paragraph above it, which was also one of the flagged "not X, Y" shapes — negative-parallelism count is now 1
+- Rabbit Hole counterarguments: the Three case re-ran the body's four data points sentence by sentence; compressed to one clause pointing back at the diagnosis, all four points kept
+
+**Net: 4485 → 4490 words.** Still under ceiling. Lint unchanged at 0 fail, 3 warn; no new contrast pairs, no em-dashes, type-answer block still 55 words.
+
+### Preserved
+All frontmatter, the box-score table and its final row, the turnover resolution, the bike bookend, every internal link, all quote attributions, and the childhood section's position.
+
+### Two things I left for you
+1. **H2 3 is titled "Why Caitlin Clark never won a national championship" and never answers the why.** It's a search-intent heading and the section itself is strong, but someone landing from that exact query gets an account of the losses rather than a cause. Fixing it means either a new sentence you don't have the words for, or a heading change.
+2. **The commercial seam** in H2 6 stays open — your ledger marks it unresolved-by-design, so I didn't touch it. Worth confirming that's still the call, since it's the one place a reader can feel the piece decline to land.

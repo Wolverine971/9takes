@@ -1,0 +1,26 @@
+All gates pass. Draft is saved.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Caitlin-Clark.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (6 qualifying quotes) | Gate 2: pass (6 of 8 H2s search-intent/hybrid) | Gate 3: pass (no self-loops) | Gate 4: pass | Gate 5: pass (1 type-theory paragraph, limit 4) | Gate 6: pass (0 contrast pairs, similarity clear)
+LIMITATIONS: Letterman quotes sourced from secondary write-ups (Netflix has no fetchable transcript; cross-verified across 3 outlets). ESPN sit-down quotes come from auto-generated captions — sentence-level wording reliable, punctuation inferred, interviewer not named on-transcript so attributed to ESPN's NBA Today. No substantive teammate testimony located (Boston/Martin quotes found were social-media reactions and did not qualify).
+```
+
+**The read: Enneagram Type 1 (1w2), confidence medium-high.**
+
+The thesis is that Clark's driver is a private accounting of hours, not the scoreboard. The tiebreaker against Type 3 is her own words in a 2026 ESPN sit-down, where she was handed the flattering answer and refused it: *"I don't think it's like an obsession with winning. I think that comes because you're obsessed with all the time you put in."* A Three protects the visible result; Clark disclaimed it, and at Iowa she burned enough room-management capital holding teammates to her standard that Lisa Bluder ejected her from practice.
+
+The hook is the six. Asked in 2026 to rate herself out of ten, she answered instantly and low, months before the only 40-point/10-assist game in WNBA history.
+
+**What made the draft:**
+- **Bespoke section** — an annotated box score from July 17, 2026, read row by row. The payoff row: the greatest individual game in league history came inside a three-point escape against the league's worst team. That's the number she'd start with.
+- **Critic pressure** — Sheryl Swoopes conceded in full before the type lens is applied. Her timeline claim was right.
+- **Empathy turn** — the on-court fury read as entitlement, reframed by the fact that a sports psychologist had to assign her a facial expression. It reframes without excusing; teammates still absorbed it.
+- **Falsifiable spine** — 223 turnovers against a prior record of 137 is the disconfirming evidence, kept visible and resolved rather than buried.
+
+Two things worth your call: I flagged her ease inside the commercial machine as the softest seam in the typing (noted in the memo and the Rabbit Hole counterarguments rather than smoothed over), and the ESPN transcript attribution is deliberately conservative.
+
+Durable evidence file is at `docs/content-analysis/research/Caitlin-Clark.md` for the downstream perspective-research stage. One lint warning remains — no `faqs` in frontmatter — which is the enrich stage's job, not this command's. No grade was assigned; that's `/grade_blog`.

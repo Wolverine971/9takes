@@ -1,0 +1,33 @@
+```
+Frontmatter enrichment complete: Nara-Smith
+
+NO CHANGES — already fully enriched. Verified rather than assumed.
+```
+
+Enrichment already ran earlier today (`6_enrich_frontmatter.log` present in both the 13:28 and 15:30 pipeline runs). Every field I own has a real value, so I made no edits. Instead I audited what's there:
+
+**Verified against live sources:**
+
+| Field | Status |
+|---|---|
+| `wikipedia` | 200 — canonical page, correct entity |
+| `wikidata_qid` | `Q124800984` resolves to "Nara Smith, South African-German fashion model and social media personality (born 2001)" ✓ |
+| `imdb_id` | Correctly **omitted**. No `P345` on Wikidata; the two `nm` candidates in search (`nm18223242`, `nm9781757`) are unconfirmed/wrong-person (the latter is VFX & art department). Omission is right per the cross-check rule. |
+| `birth_date` `2001-09-27` | Matches Wikipedia infobox ("27 September 2001") |
+| `birth_place`, `nationality` | Bloemfontein + South African/German — both match Wikipedia's "South African-German" |
+| `occupation`, `knows_about` | Real expertise areas, **not** the occupation-copied backfill pattern |
+| `same_as` (4) | All live — `models.com` returns 403 to curl but the profile exists (bot protection, not a dead link) |
+| `citations` (11) | **All 11 return HTTP 200**, including the recent Forbes 7/31, TheGrio 8/03 and 7/17 pieces |
+| `faqs` (5) | Substantive and body-derived; no "with supporting context from" tell. All 5 anchors match real H2 headings in the body. |
+
+**FAQs present (5):**
+1. What is Nara Smith's personality type? → `#what-is-nara-smiths-personality-type`
+2. Why does Nara Smith cook everything from scratch? → `#why-nara-smith-started-cooking-everything-from-scratch`
+3. Why does Nara Smith reject the tradwife label? → `#why-nara-smith-rejects-the-tradwife-label`
+4. Why did Nara Smith wait to share her daughter's cancer diagnosis? → `#how-nara-smith-kept-filming-through-her-daughters-cancer`
+5. What did Nara Smith say about her postpartum experience? → `#the-postpartum-picture-nara-smith-refuses-to-accept`
+
+**Issues (both minor, neither worth churning the file over):**
+
+- **Wikidata/Wikipedia birth-date conflict.** Wikidata `P569` says `+2001-09-28`; Wikipedia's infobox says 27 September 2001. The draft follows Wikipedia. That one-day gap is the usual Wikidata timezone artifact — leaving `2001-09-27` as-is.
+- **`citations` has 11 entries vs. the 3–8 guideline.** All resolve and all are real, so I left them. Worth knowing the body itself contains **zero inline external links** — every citation was assembled from research, with sources named in prose rather than linked. That's a body-sourcing characteristic for the source-audit stage to weigh in on, not a frontmatter defect.

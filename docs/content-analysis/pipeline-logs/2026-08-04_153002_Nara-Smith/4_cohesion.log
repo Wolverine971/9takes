@@ -1,0 +1,29 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Nara-Smith.md`
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+Nara Smith is a Type 8 whose engine is not aggression but a refusal to be placed by anyone else's hand — which is why eight months of silence about her daughter's cancer and ninety minutes dismantling the tradwife label are the same move.
+
+### Changes Made (4 total)
+
+**Transition Fixes (3):**
+- **Childhood → "What 12 million people saw"** (the one broken seam left). The childhood section now closes on a Frankfurt room, and the next section opened cold on camera framing with no bridge. Added: *"The room she is building for those four children is not the room she puts on camera."* Carries `room` and `four children` forward, and the existing quote ("turn this camera around, you would see four screaming kids") now lands as confirmation rather than arriving unprompted.
+- **Tradwife section, cookbook para → driving para.** The marriage evidence sat five paragraphs downstream of the rebuttal clause it answers. Added *"The ledger has another entry in her own footage."* to re-hook it to "They are right about the ledger."
+- **"Alex Cooper named the other half of it"** had no antecedent — the revision pass cut the material "it" pointed at. Now *"Alex Cooper offered another explanation for the backlash,"* using a term already established in the diagnosis section.
+
+**Internal Flow Fixes (1):**
+- Postpartum section: cut *"Every morning she looked at her newborn and thought: who are you?"* — third beat of a point the two direct quotes above it already make ("I don't have a baby"). Restatement, not evidence. This paid for the bridges.
+
+### What Was Preserved
+- All frontmatter, the TL;DR accordion, the Rabbit Hole, the in-frame/out-of-frame table, all 5 internal links, all quotes and citations
+- Section order and the central argument, untouched
+- Run 1's four bridges (scratch→childhood, table→tradwife, tradwife→cancer, cancer→postpartum) all survived the editor and revision passes and are still working
+- 5 of 8 section transitions were already strong and were not touched
+
+**Lint after: 0 fail, 1 warn.** Body 4480 → 4489 (net +8) against a 4500 ceiling. Contrast-pair engines still 0 strong.
+
+### Remaining Concerns
+1. **Orphaned thread — your call.** The childhood section's *"but why, why are we doing this... what's the bigger message"* habit has no payoff left. The revision pass cut its callback ("A child raised on interrogation grows up interrogating"). Its natural landing is the tradwife section, where she reads the definition aloud and goes at it clause by clause — but wiring that costs words the body doesn't have. Either restore a short callback in a pass with headroom, or cut the "why" quote and let the globe game carry the childhood alone.
+2. **The ~440-word trim to clear the 4050 warn is still owed** and still can't be paid out of a cohesion pass without spending evidence. Three passes have now flagged this. It needs a section removed, not sentences trimmed, and every section-scale candidate left is load-bearing.

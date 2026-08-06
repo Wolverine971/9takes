@@ -164,6 +164,23 @@ const OUTLETS = [
 	'W Magazine',
 	'Billboard',
 	'Forbes',
+	// Celebrity/teen-press and entertainment-trade outlets that carry the primary
+	// interviews for this corpus's actor and pop-star pages (Victoria-Justice pass,
+	// 2026-08-05). All are named, dated, checkable publications.
+	'Marie Claire',
+	'Her Campus',
+	'The Daily Beast',
+	'Daily Beast',
+	'Us Weekly',
+	'E! News',
+	'Teen Vogue',
+	'Seventeen',
+	'PopCrush',
+	'Just Jared',
+	'Just Jared Jr.',
+	'Nick.com',
+	'Mythical Kitchen',
+	'Last Meals',
 	'Vanity Fair',
 	'GQ',
 	'Vulture',
@@ -317,7 +334,14 @@ const OUTLETS = [
 	// above: for streamer subjects these ARE the checkable primary record, and
 	// without them every quote from them grades vague no matter how well sourced.
 	'All Grown Up',
-	'Streamer University'
+	'Streamer University',
+	// Sports primary record (Caitlin-Clark pass, 2026-08-05). ESPN is the outlet
+	// that actually holds this corpus's athlete testimony — the sit-down
+	// interviews, the game recaps, the documentary arm — and it was absent, so
+	// every athlete quote sourced to a dated ESPN interview graded vague no
+	// matter how precisely it was cited. Unambiguous all-caps acronym, same
+	// class as NPR / BBC / CNN already listed.
+	'ESPN'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

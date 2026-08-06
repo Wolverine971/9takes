@@ -1,0 +1,20 @@
+## Grading Complete — Caitlin Clark
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Caitlin-Clark | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability 9 — no gate. No caps applied.
+
+**This was a regrade.** The revision-pass notes record a first grade of C (7.9) with Evidence and Originality both capped. Both caps cleared: the source audit went to 4 inline / 2 vague / **0 untagged** (the untagged-in-cold-open flag that mechanically blocks B+ is gone), and the sameness cap lifted — reader-command imperatives are down to 2, the origin-object close is cut, and cross-draft reuse against Tate-McRae/Stable-Ronaldo/Nara-Smith comes back at 2 moves, under the 3-move cap. Stability delta +0.5.
+
+### Key observations
+
+- **Two genuinely good ideas.** The turnover resolution — she grades correctness at the moment of decision, not at the moment the ball arrives — turns the hardest fact against a perfectionist read into evidence for it, and ships with a stated falsifier. The criticism filter explains *which* attacks she answers and which bounce, and the prediction holds across three separate incidents. That pair carries the Enneagram 9.
+- **Discoverability is the strongest dimension.** Real meta_title hook that still carries the query term, 151-char description, 5 FAQs on actual search questions, 7 of 9 search-intent headings, extractable 55-word answer block. Head-term check passes.
+- **One ledger is lying.** The FORMULA FINGERPRINT LEDGER certifies the same-type similarity scan as "0.037, clear." It now returns **0.066 vs anna-wintour, over the 0.04 threshold**. The cause is benign — the tripping unit is a verbatim Clark quote the editor pass restored, scoring lexically against Wintour's authored prose — so I capped nothing for it. But the next pass will read that line as a pass. It needs rerunning.
+- **The ceiling is thesis, not execution.** Every section proves the same claim and none complicate it, and the audit/ledger/column metaphor is one idea in six costumes. That plus a monochrome-serious register across 4,495 words is what holds Writing at 8. The B+ path is four mechanical fixes; the A path is a rewrite-level decision I'd leave alone.
+
+Worth flagging separately: the body is at **4,495 words against a hard 4,500 ceiling**, and the October postseason update still has to fit. All four B+ suggestions in the sidecar are net-neutral or negative on word count for that reason.
+
+**Total graded this session: 1**

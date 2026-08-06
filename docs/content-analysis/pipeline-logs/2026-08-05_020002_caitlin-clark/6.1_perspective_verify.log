@@ -1,0 +1,10 @@
+**Output:** `docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/verification-initial.md`
+
+- **verification_status:** `pass`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+- **final_content_sha256:** `e38aaaea002f5336799727e838fa9ca2f88826d2e048628170a038c4818438ea`
+
+Snapshot SHA matched `context.json`, `synthesis.md`, `editor-resolution.md`, and the supplied `--draft-sha`. All ten P0 acceptance tests pass against the current text, all eleven accepted P1s plus P2-02 are complete, and all eleven `PROTECT-*` items survive verbatim or with only the changes the synthesis authorized. The two hits the editor logged as "spent" (the walk-on gloss, PROTECT-08's follow-through) were both pre-adjudicated by the synthesis, so neither scores as a regression.
+
+Four non-blocking items are recorded in Remaining work — the sharpest is a stale `SECOND PASS NOTES` line instructing a future editor to restore the Cynthia Cooper sentence that P0-09 cut, and a Sue Bird podcast date in the body that conflicts with the packet's own dating. Lint: 0 fail, 2 warn.

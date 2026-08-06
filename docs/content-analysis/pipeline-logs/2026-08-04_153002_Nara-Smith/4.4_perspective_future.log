@@ -1,0 +1,16 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/future.md`
+
+**Verdict:** `trust: strained` · `value: high` · `delight: clear_hit` · **recommendation: revise**
+
+**Blockers: 2** (concerns: 8)
+
+- **FUTURE-R1** — The cold open ages Whimsy forward across a window she was mostly one year old in. Born 8 April 2024; treatment began ~November 2025; she turned two on 8 April 2026 — two years old for only the last ~3.5 months of "about eight months." Outlets say "2-year-old" because that's her age at the July 2026 disclosure; the backward projection is the draft's own move. Repair costs one word.
+- **FUTURE-R2** — "Whimsy rang the bell in mid-2026, right after her birthday" (L407) cannot coexist with the cold open's eight months. Her birthday is 8 April → ~five months of treatment, plus an unexplained three-month gap before the 17 July remission post. No outlet dates a bell-ringing at all, so this can never be resolved by future reporting — only cut or softened.
+
+**Strongest hit:** the in-frame/out-of-frame table (L274-281). Every row carries an absolute date, and the closing line — *"Two years of footage, and the right-hand column never leaked"* — reads identically in 2027. It's the durability model the rest of the piece should copy.
+
+**Highest-priority concern:** **FUTURE-C2** — the 8w9 case reads six days of quiet as a disposition. *"She did it once, at length, on a single podcast, and went quiet"* describes the six days between the 29 July episode and the 4 August draft. My research found the discourse plainly did *not* go quiet (Tyla, TheRoot, SheKnows, NewsNation all post-episode), and a cookbook press cycle lands 13 October 2026 — verified still on schedule with live preorders — making further label questions near-certain. The fix is free: move the wing evidence onto the *manner* of the rebuttal, which the article already has, instead of the *duration* of the silence after it.
+
+Two notes for whoever runs synthesis: the two blockers are net-word-free or word-*positive* to fix, so they clear without spending from a body sitting 12 words under the ceiling. And the highest-value action isn't editorial — the packet confirms the *Call Her Daddy* transcript carrying ~80% of the article's quotation no longer exists on disk, and I could not confirm the source video is still retrievable. Re-pull and commit it before publication, or no quote in this piece can be defended a year out.
+
+Sources: [HarperCollins UK](https://harpercollins.co.uk/products/homemade-nara-aziza-smith) · [Amazon (ISBN 9780063459083)](https://www.amazon.com/Homemade-Nara-Aziza-Smith/dp/0063459086) · [Tyla](https://www.tyla.com/entertainment/celebrity/nara-smith-tradwife-influencer-interview-children-626570-20260730) · [Just Jared](https://www.justjared.com/2026/07/29/nara-smith-addresses-tradwife-label-reveals-her-familys-reaction-to-daughter-whimsy-2-being-in-remission/) · [SheKnows](https://www.sheknows.com/parenting/articles/1235038797/nara-smith-tradwife-denial-response/) · [Yahoo — tradwife economy](https://www.yahoo.com/entertainment/celebrity/articles/nara-smith-target-tradwife-economy-155947570.html)

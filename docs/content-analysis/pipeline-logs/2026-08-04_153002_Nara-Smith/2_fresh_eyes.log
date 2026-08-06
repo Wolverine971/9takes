@@ -1,0 +1,11 @@
+Reviewed `src/blog/people/drafts/Nara-Smith.md` and replaced the stale FRESH EYES REVIEW block at the bottom (the old one's items had all been addressed in the second pass, so it was misleading the next editor).
+
+**The two biggest things I flagged:**
+
+1. **The autoimmune disease is lupus, and she said so in December 2024.** The draft's whole spine is "the origin is medical, and almost nobody arguing about her knows it" — but it sources that spine entirely to the July 2026 *Call Her Daddy* interview she gave while defending herself. That hands Tia Levings her strongest possible charge for free: the origin story is a retcon. It isn't. She named lupus publicly nineteen months earlier, unprompted, after flying to Germany to find doctors when American ones weren't giving her an answer. Putting the word "lupus" and the year "2024" in that section kills the skeptical reading outright, and the Germany flight is a better scene than anything currently in that section — it also wires the medical origin straight to the Frankfurt kitchen the piece closes on.
+
+2. **There's a fifth child in the house and the draft never mentions her.** Gravity Blue Smith, born 2017 to Lucky and Stormi Bree. Nara married at 18 and became a stepmother the same year — the actual first fact of her domestic life, missing from 4,400 words about her domestic life. "Four screaming kids" runs throughout and is quietly wrong about the household.
+
+Also noted: nine paragraphs open with "Then," the source-audit fix has left seven near-identical "in that same July 2026 *Call Her Daddy*" stamps that read as machine-generated, and lint's "0 strong contrast pairs" is missing five two-beat closers on one rhythm.
+
+Since the body is at 4,384 against a 4,050 warn line, I wrote every note as a trade rather than an addition — the duplicated Type 3 argument is the ~200 words that pay for lupus and Germany.

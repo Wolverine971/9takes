@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — caitlin-clark (Type 1)
+/Users/djwayne/9takes/src/blog/people/drafts/Caitlin-Clark.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 44
+Comparison set (last 8 other Type-1 drafts by date):
+  - Judge-Judy  (2026-05-25, 23 units)
+  - hayao-miyazaki  (2026-05-21, 29 units)
+  - martha-stewart  (2026-05-16, 12 units)
+  - anna-wintour  (2026-05-13, 21 units)
+  - mahatma-gandhi  (2026-05-06, 14 units)
+  - ben-shapiro  (2026-05-03, 22 units)
+  - michael-seibel  (2026-04-20, 49 units)
+  - brene-brown  (2026-04-18, 17 units)
+
+Noise floor over 8228 unit pairs:  median=0  p90=0  p99=0.008  max=0.066
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.066 ###                  anna-wintour
+  0.038 ##                   hayao-miyazaki
+  0.034 #                    ben-shapiro
+  0.031 #                    michael-seibel
+  0.025 #                    martha-stewart
+  0.024 #                    mahatma-gandhi
+  0.018 #                    brene-brown
+  0.014 #                    Judge-Judy
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.066   caitlin-clark  <->  anna-wintour
+   TARGET [diagnosis] I come in here every single day and I want to put in the work and get everything done because I want to be the best player in the world and I want to help this team win.
+   OTHER  [diagnosis] They want to be the largest force in the room.
+
+score 0.038   caitlin-clark  <->  hayao-miyazaki
+   TARGET [diagnosis] Being the best player in the world is a standard
+   OTHER  [diagnosis] A Type One believes that anything less than perfect is a form of moral failure — that the gap between how the world is and how it should be is their gap to close .
+
+score 0.034   caitlin-clark  <->  ben-shapiro
+   TARGET [diagnosis] But a Three protects the visible outcome and manages the room to keep the image intact.
+   OTHER  [diagnosis] Shapiro keeps the receipts visible.
+
+score 0.034   caitlin-clark  <->  ben-shapiro
+   TARGET [diagnosis] because a result is somebody else's measurement of a night she has already graded herself.
+   OTHER  [diagnosis] The frustration leaks out as criticism because the prosecutor has been working on the One's own case all day and somebody else's mistake just walked into court.
+
+score 0.031   caitlin-clark  <->  michael-seibel
+   TARGET [counter-typing] Clark converts them into the next audit.
+   OTHER  [diagnosis] He fixes them by handing the next person the working version.
+
+score 0.029   caitlin-clark  <->  hayao-miyazaki
+   TARGET [diagnosis] Type Ones run a standing audit on their own conduct
+   OTHER  [diagnosis] Type Ones are sometimes called Reformers
+
+score 0.026   caitlin-clark  <->  michael-seibel
+   TARGET [counter-typing] Clark converts them into the next audit.
+   OTHER  [diagnosis] the One refuses to enter the next adventure until the current one is finished properly.
+
+score 0.025   caitlin-clark  <->  martha-stewart
+   TARGET [diagnosis] the records chased since high school
+   OTHER  [diagnosis] A Reformer can absorb almost any outcome except the one where the verdict against them is on the record.
+
+score 0.024   caitlin-clark  <->  michael-seibel
+   TARGET [diagnosis] And then you get in the game and then you're competitive with it because you've been so obsessed with the time that you've put in.
+   OTHER  [diagnosis] such a big market that investors look like idiots if they let race get in the way." The bar is the bar.
+
+score 0.024   caitlin-clark  <->  mahatma-gandhi
+   TARGET [counter-typing] The Three that competes here is the self-preservation Three
+   OTHER  [diagnosis] It judges the self before it judges anyone else.
+
+score 0.024   caitlin-clark  <->  michael-seibel
+   TARGET [diagnosis] The six arrived with its evidence attached because the audit had already run.
+   OTHER  [diagnosis] found a system someone he trusted had already validated
+
+score 0.023   caitlin-clark  <->  michael-seibel
+   TARGET [counter-typing] Every discriminator above is also sp-Three behavior.
+   OTHER  [diagnosis] It is also what makes him a Type 1 with a 2 wing rather than a colder 1w9.
+
+------------------------------------------------------------------------------
+Top pair scores 0.066 vs median 0  (~∞x the noise floor).

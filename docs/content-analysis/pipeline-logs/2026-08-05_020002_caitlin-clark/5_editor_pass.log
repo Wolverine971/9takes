@@ -1,0 +1,19 @@
+Polished `src/blog/people/drafts/Caitlin-Clark.md` against the six-perspective synthesis.
+
+**The core problem wasn't prose, it was evidence handling — and it was directional.** Four reviewers independently found the same pattern: every time Clark paired self-criticism with self-assertion, the draft kept the criticism and dropped the assertion, manufacturing a more self-flagellating person than the record contains. All four instances are restored, including the block quote that had been cut mid-sentence (twice) at the exact clause contradicting the argument built on it.
+
+**All 10 P0s fixed.** Highlights: the Swoopes block quote said "hella good numbers," which no source uses — traced upstream to `research/Caitlin-Clark.md:129` and fixed both files so it can't re-propagate. The Rabbit Hole's falsification list was citing the article's own invented interior monologue as disconfirming evidence. The subtype section defined the sexual instinct in a way our own Type 1 pillar contradicts, one paragraph from a link to that pillar.
+
+**Two research questions resolved from text, one not.** RQ-03 pinned the "toxic part of me" turnover quote to Sue Bird's *Bird's Eye View* (SI, Aug 2025), which upgraded the central mechanism repair from "mark it as inference" to quoting her competing account and naming a falsifier — the article's weakest-sourced paragraph is now its most testable. RQ-02 came back negative, confirming the practice scene was invented specificity; it's de-specified to what Jensen and Bluder support. **RQ-01 I could not resolve** — it needs ten seconds of video — so I removed the draft's dependency on it rather than publish an unverified tempo claim.
+
+**Exit checks:** `blog-lint.sh` 0 fail, 3 warn. Contrast-pair engines **0 strong** (1 comparative, inside the protected filter paragraph). 0 prose em-dashes. All 11 protected hits verified present; the mechanism sentence is verbatim. `lastmod` untouched.
+
+**Two things you should know:**
+
+The word ceiling bit hard. The strong P0-05 repair cost more than the synthesis budgeted, so I funded it by cutting material reviewers flagged as weak — TL;DR bullet 3, the unsourced wing quote (the article's only unledgered quotation), two unsourced superlatives, and a Rabbit Hole paragraph my own subtype fix had made redundant. Body landed at **4,497 of 4,500**.
+
+That leaves **the one decision I didn't make**: the October postseason refresh is not optional and has three words of headroom. Either this page gets a one-time `BLOG_LINT_WORD_CEILING` exception, or someone cuts ~150 words before adding anything. The synthesis called it a pipeline-policy call, and I agree — it's yours.
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/editor-resolution.md`.
+
+The draft reads as production-ready to me, but it hasn't cleared the gate — `/blog_perspective_verify_people` checks that independently, and it should run before publish.

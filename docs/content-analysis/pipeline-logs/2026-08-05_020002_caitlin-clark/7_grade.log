@@ -1,0 +1,23 @@
+## Grading Complete — Caitlin Clark
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Caitlin-Clark | 6 | 7 | 9 | 9 | 8.5 | 9 | **7.9** | **C** |
+
+`(6×1.5 + 7×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 7.9`. Discoverability 9, so no gate applied. Two caps drove the score.
+
+### Key observations
+
+**This is a strong draft held down by two mechanical caps.** Uncapped it scores 8.6 (B+), and it beats the Matt-Smith B anchor on evidence breadth, critic pressure, rabbit-hole quality, and interior work. I flagged `needs_review: true` because that 0.7-point swing is worth a human look.
+
+**Evidence capped at 6 — untraceable load-bearing sources.** The typing spine is "two head coaches independently land on *perfectionist*," and neither coach quote has an outlet on the page: Bluder's has no outlet and no date, White's has a bare year. Jensen's corroborating testimony is paraphrased with its source (Talkin' Hawks) living only in a ledger comment. The entire numeric layer — the 223 turnovers, the 37-0 bench disparity, the whole box-score table, the August 2026 current-tense anchor — names no publisher anywhere. Also: the SECOND PASS NOTES claim "5 inline, 0 vague, 0 untagged," which `blog-source-audit.mjs` contradicts (3/2/1), and both later ledgers say faqs are missing when they're present. Stale ledgers asserting compliance they don't have.
+
+**Originality capped at 7 on cross-draft sameness, not on the argument.** Against Nara-Smith, Stable-Ronaldo, and Tate-McRae (all graded 08-04), four house moves recur: the epigraph→cold-open→reframe furniture, the TL;DR bold-colon bullets, reader-command imperatives (8 here vs ~1 each in the comparators), and the return-to-origin-object close. The falsifier line is near-verbatim against Tate McRae's. Read one draft, invisible; read three, the machine shows.
+
+**What's genuinely excellent and shouldn't be touched:** the turnover resolution (Ones grade correctness at the moment of decision, not arrival) resolves a real public contradiction and earns the typing better than any quote does. All three emotional-interior checks pass, and the empathy turn refuses to launder the behavior. Discoverability is near-perfect — metadata in-window, extractable 55-word answer block, 5 real FAQs, 7 of 9 search-intent headings.
+
+**The gap is cheap to close.** Evidence 6→8 alone puts it at 8.3; adding the sameness fixes clears 8.5. Mostly it's attaching outlets to quotes and stats that already exist in the ledgers, cutting six imperatives, and changing the closing shape.
+
+Sidecar written to `docs/content-analysis/grades/Caitlin-Clark.review.md`; frontmatter block added before the closing `---` (no `path:` field on this draft). No legacy `QUALITY GRADE` blocks were present to remove.
+
+**Total graded this session: 1**

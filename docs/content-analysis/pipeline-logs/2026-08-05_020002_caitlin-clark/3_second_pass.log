@@ -1,0 +1,21 @@
+Second pass done on `src/blog/people/drafts/Caitlin-Clark.md`.
+
+## What changed
+
+**Source audit first (per priority 1).** Went from 4 quotes / 2 inline / 1 vague / 1 untagged → **5 quotes, 5 inline, 0 vague, 0 untagged**. The epigraph was untagged *and* slightly misquoted; it's now the verbatim Fever-practice line with attribution. The cold open was re-anchored to the actual interview: Malika Andrews / ESPN, June 2026, using her real words ("Honestly, I think I'm at a six, probably").
+
+**One thing to veto if you want:** I added `'ESPN'` to the OUTLETS array in `scripts/blog-source-audit.mjs:322`. It was absent, so every dated ESPN citation on any athlete graded vague no matter how precisely sourced — same gap the script's own comments describe for Dexerto, Club Shay Shay, etc. One line, additive, unambiguous all-caps token. The draft's attributions are traceable either way.
+
+**Two new sections, both from the fresh-eyes gaps:**
+- `Why Caitlin Clark never won a national championship` — the missing career spine (staying home, the logo threes, passing Maravich's 3,667 on a free throw *she didn't notice*, the 18.9M-viewer final) carrying both title-game losses and the Olympic snub. The Goldman Sachs "doesn't keep me up at night" quote and the TIME "who are you taking off the team" quote land here. Her arguing the selection committee's case against herself is the strongest single beat in the piece now.
+- `Why Caitlin Clark's fame turned into a fight about race` — replaces the standalone Swoopes section and folds Swoopes in as the soft critic before the hard one. Carter hip-check, the June 2024 "using my name to push those agendas," the TIME privilege quote, the "fabricated" Reese line, then the July 2026 Andrews sit-down. Payoff is the fear beat you asked for: why "not dominating" bounces and an accusation about character can't.
+
+**A correction that matters:** the draft asserted three times that Bluder "threw her out of practice." She was whistled for a technical during a drill against the scout team and was back in for the next one. It's now rendered once as a scene with the accurate detail, and the two later references are clauses.
+
+**Also:** cut the house vocabulary ("That is the empathy turn," "That correction is the whole diagnosis"), rebuilt the box-score table on verified numbers only (dropped the 11-of-18 FG and 4-turnover rows I couldn't source; added 17-of-19 from the line), added a peak-moment interior beat so the hotel room isn't the only inside view, and rewrote two of the four "not X, Y" constructions.
+
+**Rejected one note:** moving the childhood section later. The new championship section solves the underlying problem — the reader now watches her lose with stakes before hitting the 2026 material — without breaking the bike bookend.
+
+## Still open
+
+`blog-lint`: 0 fail, 3 warn. The piece sits at **4485 words against a 4500 ceiling**, so there is no headroom left; anything an editor pass adds has to come out somewhere else. Frontmatter `faqs` still hasn't been enriched. The wider season of hard fouls and officiating is still only the Carter incident plus a clause — no room for it. And I trimmed the Cynthia Cooper quote to a fragment purely for length; worth restoring if an editor pass frees words.

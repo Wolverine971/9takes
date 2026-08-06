@@ -1,0 +1,25 @@
+## Grading Complete — Nara Smith
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nara-Smith | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+`(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5 / 7 = 8.6`. Discoverability 9 ≥ 7, so no gate. No caps bound.
+
+### Key observations
+
+**What carries it.** The thesis — eight months of silence about her daughter's cancer and ninety-three minutes of war over the tradwife label are "the same move" — is a real aha that resolves two behaviors the internet read as opposites. The in-frame/out-of-frame table is a bespoke form that only works because she films her own life. And the rabbit hole refuses to explain the driving rule ("a framework that… is doing too much work"), which buys more credibility than more argument would.
+
+**What holds it at B+.**
+- **Evidence 8** — the audit returns 2 untagged load-bearing quotes, including the dishes line, which is the piece's most-reused evidence (TL;DR, FAQ 1, diagnosis) and the one with no outlet stamp where it's used. Six more quotes/claims carry no inline outlet+date; the bare "roughly 200,000 likes" is the weakest. I considered the cap-at-6 and **declined it** — both flagged quotes inherit a Cooper attribution from the adjacent paragraph, so they're traceable. It's an attribution gap, not an untraceable claim.
+- **Writing 8** — `blog-quality-report` says 0 contrast pairs, but that regex reads single sentences. Split across a period there are six two-beat closers, and the cadence is metronomic across sections. The draft's own fresh-eyes pass caught five and only two were fixed.
+
+**Two things worth flagging to you directly.** The body has been at 4,484 words against a 4,050 warn for four consecutive passes, each one recording "zero headroom" and paying additions out of duplication — the trim is genuinely owed and needs a section cut, not sentences. And several ledgers are stale: the REVISION PASS notes still describe a Ballerina Farm clause and a *Times* of London citation that the later editor pass removed, and its "0 untagged" source-audit line no longer matches the body.
+
+**Calibration note.** The Matt-Smith anchor file carries a self-reported `QUALITY GRADE: A (9.0)` in its own header. I anchored to the audit re-grade band (8.0–8.4) instead, per the recalibration — that 9.0 is an instance of the inflation being calibrated against, not a reference point.
+
+**Sameness check: no Originality cap.** Shared house furniture with the three most recent drafts (bold-label TL;DR, inner-thought device, object-as-final-image close) but nothing near-verbatim. Notably absent: the corpus-stat sentence and the "scar tissue" empathy grammar — both genuine differentiators. Same-type scan tripped at 0.057 vs ella-langley; that's a false positive on a four-word string inside unrelated quotes, and the set's own noise max is 0.057 against a 0.04 threshold.
+
+`first_overall: 8.5` in the frontmatter is taken from the REVISION PASS notes, not recomputed — the earlier sidecar had been deleted. The +0.1 delta across a perspective-jury pass and a revision pass is itself signal: those passes fixed real factual defects (the Forbes non-interview, an invented week, an "objected once" error) but weren't aimed at the two dimensions holding the score down.
+
+**Total graded this session: 1**

@@ -1,0 +1,14 @@
+All eleven required headings present; concern IDs C1–C8 match the frontmatter count.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/unfamiliar.md`
+
+**Verdict:** `revise` — trust intact, value high, delight clear_hit. **0 blockers, 8 concerns.**
+
+**Strongest hit:** the turnover-resolution paragraph in H2 5 — *"Ones are not organized around avoiding mistakes... Whether the ball arrives is a separate question, settled a half-second later by four other people."* It takes the fact that most contradicts the thesis (she holds the league turnover record) and converts it into the thesis's proof, using a distinction a reader with zero Enneagram background can restate an hour later. It's the article's reason to exist.
+
+**Highest-priority concern (UNFAMILIAR-C1):** the draft never says she turned professional, and H2 3 crosses from college to the WNBA without a marker — "averaging 17 points and 6 assists for a team that had started 3-9" reads as Iowa in a section that is otherwise entirely Iowa. It's the Indiana Fever. Reader-visible prose contains no mention of the draft, the No. 1 pick, or the Fever by name; the packet supplies the missing fact (drafted first overall, 2024-04-15). Fix is one clause at the seam.
+
+Two calibration notes worth flagging to whoever synthesizes:
+
+- I checked the route template before ruling on my strongest first-read reaction ("the body never says this is basketball"). `src/routes/personality-analysis/[slug]/+page.svelte` §01 renders `persona_title` and `description` above the body, so page chrome does supply the sport and the league — which is why that is a miss, not a blocker, and why C1 narrowed to the seam chrome can't fix. That dependency became UNFAMILIAR-Q3.
+- The snapshot carries pipeline apparatus in HTML comments (fresh-eyes, second-pass, cohesion notes). They were in the file I read. I formed every finding from reader-visible prose during the unaided pass and didn't adopt their framing, but I've disclosed the exposure in Limits rather than claim an independence the file's structure didn't permit.

@@ -1,0 +1,15 @@
+**Output:** `docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/verification-final.md`
+
+- **verification_status:** pass
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+
+Snapshot integrity holds (frozen SHA matches the supplied `--draft-sha` and all four artifacts; the live whole-file SHA matches the one `revision-resolution.md` recorded, so nothing touched the draft after that pass). Final reader-visible hash: `5e5467d1…600690d8`.
+
+Three things worth your attention:
+
+- **PROTECT-07 adjudicated as intact.** The revision pass cut the bike setup sentence and asked for a ruling rather than inferring one. The protected line survives verbatim and still closes the article, and both hinges of the bookend (the bike, and "the gap is yours to close") remain in H2 2 — so the callback got wider, not broken. Not scored as a regression.
+- **All nine new attributions traced.** I checked each publisher/date the Evidence pass added against the packet and reviews before accepting it; the 37-0 "CBS Sports" tag traces to the fan reviewer's research log rather than the packet, and the Talkin' Hawks venue carries the packet's own "episode not listened to" caveat.
+- **Two non-blocking items you may want closed before publish:** the Sue Bird August 2025 date is now asserted twice with no URL or S-number anywhere in the artifacts while the packet still says 2024; and the ledger's "Reader-command imperatives: 2" is stated as a hard constraint when two more imperatives survive by design — the same stale-comment species as the Cooper instruction this pass just superseded.
+
+Lint exit: 0 fail, 2 warn (4,494 words; the protected comparative pair). Source audit: 4 inline / 2 vague / 0 untagged, cold open clear.

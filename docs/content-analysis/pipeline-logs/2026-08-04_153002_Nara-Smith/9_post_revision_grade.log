@@ -1,0 +1,23 @@
+## Grading Complete — Nara Smith
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nara-Smith | 6 | 8.5 | 9 | 8.5 | 8 | 9 | **8.0** | **B** |
+
+`(6×1.5 + 8.5×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7 = 8.0`. Discoverability 9 — gate cleared, no cap.
+
+### Key observations
+
+**This is a strong draft with one bad hole.** Discoverability (9) and Hook (9) are the best I've seen in the recent batch, and the critic-pressure handling is genuinely unusual for this pipeline — it concedes "Her critics have the stronger case on impact" rather than sanitizing. The lupus-with-a-December-2024-date argument and the in-frame/out-of-frame table are two distinct original contributions. The close passes the swap test hard.
+
+**Evidence capped at 6, and the automated audit is why it slipped through.** `blog-source-audit.mjs` reports 7 load-bearing / 7 inline / 0 untagged. That clean bill doesn't survive inspection: the script scans five named slots, and the body carries ~25 untagged quotes outside them. Two entire sections — childhood and postpartum — have **zero** source stamps. The empathy-turn payoff quote ("that feels the safest to me") is untagged, which is why the script reports that slot as containing no quoted material at all. The formal cap trigger is the @Katwiia quote, which the pipeline's own verifier escalated as undatable and unarchived while it carries the sharpest critic charge in the fairness-critical section. Set `needs_review: true` for that plus the cold open's unsourced chemo-schedule claim about a named minor.
+
+**Two ledger claims don't match the body** — the revision pass claims a Rolling Stone stamp was added (it wasn't) and that both reader-command imperatives are gone ("Set that beside her own sentence…" survives). Spot-checking caught both.
+
+**Writing capped at 8 on contrast-pair density.** `blog-quality-report.mjs` reports 0 strong pairs; manual count is a dozen-plus, including the thesis itself. The regex reads single sentences and this piece's engine splits across a period — a structural blind spot worth knowing about beyond this draft.
+
+**Regrade delta: 8.6 → 8.0 (−0.6).** Not a regression — the revision pass genuinely improved the piece. The earlier Evidence 8 appears to have taken the source-audit script's output at face value. Recorded as `first_overall` / `regrade_overall` / `grade_stability_delta`.
+
+The whole gap to B+ is Evidence, and items 1–2 in the sidecar (~35 words of attribution) close most of it.
+
+**Total graded this session: 1**

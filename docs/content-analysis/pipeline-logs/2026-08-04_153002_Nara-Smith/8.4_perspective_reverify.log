@@ -1,0 +1,11 @@
+**Output:** `docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/verification-final.md`
+
+- **verification_status:** `fail`
+- **open_p0:** 1
+- **protected_hit_regressions:** 0
+
+One P0 reopened. Among the seven inline source stamps the revision pass added for the grader, the body now reads *"telling Axios Salt Lake City that March: 'I don't wear garments…'"* — but she said that on TikTok and Axios re-reported it (packet CLM-09/S-08; Axios' own headline is "Influencer Nara Smith **tells TikTok** she's 'not hardcore Mormon'"). The reviewed draft carried the quote unattributed, so the reporting relationship is new this pass, and it is the same defect class P0-01 was written for at a different publisher. Fix is word-neutral: attribute to TikTok, keep Axios as the re-report.
+
+Everything else held: nine P0s unchanged and passing, all twelve protected hits verified by literal match (PROTECT-09 is verbatim identical to the reviewed draft — the cut bob paragraph sat outside its span), P1-05 now complete, and the pass's other new material — the TODAY paragraph and the 200,000-likes passage — both carry source trails, the latter confirmed in the archived transcript at `00:33:02`.
+
+Sources: [Axios Salt Lake City](https://www.axios.com/local/salt-lake-city/2024/03/07/nara-smith-mormon-tiktok-tradwife-model-cooking), [Salt Lake Tribune](https://www.sltrib.com/religion/2024/03/07/latest-mormon-land-signs-that-your/)

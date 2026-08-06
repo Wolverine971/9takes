@@ -1,0 +1,19 @@
+Revised `src/blog/people/drafts/Caitlin-Clark.md`. Triggered by grade **C (7.9)** — Evidence 6 and Originality 7, both capped. Lint had no FAILs going in, and perspective verification had already passed with 0 open P0s and 0 protected regressions, so the perspective side contributed its four non-blocking "Remaining work" items instead.
+
+**Evidence — the whole B+ gap.** The typing spine now carries sources on the page. Bluder's "perfectionist" got KCRG, February 2025 (it had no outlet and no date at all); White's got Athlon Sports; Jensen's corroboration names Talkin' Hawks in the body, pulled from the testimony ledger where it was already sitting; the May 2026 grace quote got Yahoo Sports. The numeric layer got publishers — Guinness World Records on the 223, CBS Sports on the 37-0 bench, an AP header on the box-score table, the Fever's 2026-08-04 release on the current-tense paragraph. I also tagged the cold open's "We'll have to see" to ESPN: the grader excused it, but `blog-source-audit.mjs` treats an untagged cold-open quote as a hard B+ block. The audit moved from 3 inline / 2 vague / 1 untagged to **4 / 2 / 0**, flag cleared.
+
+One thing the grader didn't name: the packet marks "top three in the league in scoring" as disputed and unverified. I cut it. "Top two in assists" is confirmed and stays.
+
+**Originality.** Imperatives cut 8 → 2, keeping the two named. Three of the six were cohesion bridges, so they kept their carried keywords and lost only the imperative mood. I also converted a ninth the grader missed ("Read against the six…").
+
+**The one conflict, and how I called it.** The grader wanted the closing shape changed off the return-to-origin-object move; the jury protected the bike bookend (PROTECT-07, named by four). I cut the setup sentence — which *is* the origin-object return — and kept "Nobody has told her the gap closed." verbatim as the last line, now attached to the arithmetic. "The gap" reads as the distance between her six and a ten, the bike keeps its H2 2 home, and the swap test still passes. Flagged explicitly in the resolution so the verifier adjudicates rather than infers.
+
+**Rejected:** the minor note on H2 3 (wants words in a draft at the ceiling; the 37-0 disparity does answer it), and sameness moves 1–2 — the epigraph/cold-open furniture and TL;DR skeleton are template properties, not this draft's. Fixing them here breaks consistency with 400+ siblings for no reader gain, and they'll keep capping originality on every batch-graded draft until the template gets a decision. That's in the resolution's unresolved list.
+
+**Lint: 0 fail, 2 warn** — both known and adjudicated (the protected H2 6 comparative pair, and 4,494 words against the 4,500 ceiling). The pass ran net-negative on words; funding cuts are itemized in the resolution.
+
+Artifacts: `revision-resolution.md` in the review dir, and a REVISION PASS NOTES block on the draft. I left `content_quality` and `lastmod` untouched — the pipeline will clear the consumed sidecar and re-grade, and targeted perspective verification needs to rerun.
+
+Two things worth your attention: the word ceiling is still a production call you own (the October postseason refresh needs either a one-time `BLOG_LINT_WORD_CEILING` exception or a ~150-word structural cut), and the template-level sameness decision will keep costing originality points on every draft until it's made.
+
+Sources for the two facts I verified live: [SI on the Bird's Eye View episode](https://www.si.com/wnba/fever/caitlin-clark/indiana-fever-caitlin-clark-points-out-positive-in-toxic-turnover-trait-to-sue-bird-01k25d28wc9e) and [CBS Sports on the 37-0 bench disparity](https://www.cbssports.com/womens-college-basketball/news/south-carolina-wins-2024-national-title-gamecocks-freshmen-bench-depth-step-up-on-biggest-stage-vs-iowa/).

@@ -1,0 +1,14 @@
+All ten required H2 headings present, frontmatter matches `context.json` exactly, and the frozen draft's SHA is unchanged.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/evidence-packet.md`
+
+**Largest unresolved evidence gap:** the practice-ejection scene (CLM-05). The draft renders it as one specific incident — Iowa starters against a scout team, "the blue squad," reserves and walk-ons, Bluder whistling a technical mid-drill and sending Clark off the floor, Clark back in for the next drill. The only located account is Jan Jensen on *Talkin' Hawks with The VandeBergs*, who says Bluder "kicked her out of practice and gave her a technical **and those things**" — plural and habitual, with no scout team, no blue squad, and no return. Bluder separately describes practice technicals as a recurring management tool, and Clark's own comment on it is "That hasn't happened in a while." Only "technical" and "practice" are sourced; every other specific is unsupported. This matters disproportionately because the scene is referenced three times and is the concrete anchor of the draft's Three-vs-One tiebreaker. Both source URLs refused direct fetch (HTTP 403 and 405), so resolving it requires listening to the Jensen podcast episode.
+
+Four other findings reviewers will want in hand:
+
+- **CLM-13** — TIME's Olympic-snub material has Clark conceding the roster math *and* maintaining she was good enough. The draft presents only the concession, in the paragraph doing its heaviest typing work.
+- **CLM-08** — Her Maravich-record quote ("Not really. When they announced it and everybody screamed, that's when I knew") is weaker than the draft's "she had not realized it happened."
+- **CLM-15** — The Swoopes block quote reads "hella good numbers"; every located source renders it "helluva numbers."
+- **CLM-29** — "Third in the league in scoring" doesn't check out cleanly; one leaderboard snapshot has Clark second in PPG. "Second in assists" is confirmed. This is a same-week verifiable number.
+
+The pass also *resolved* two limitations the upstream research file had flagged as open: the ESPN interviewer is confirmed as Malika Andrews (June 2026), and Bluder's "Caitlin is a perfectionist" quote is sourceable to KCRG, February 1, 2025.

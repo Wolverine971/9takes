@@ -1,0 +1,32 @@
+Revision pass complete on `src/blog/people/drafts/Nara-Smith.md`.
+
+## What triggered it
+
+Grade **B+ 8.6** (Evidence 8, Writing 8) with 2 NEEDS WORK + 6 TO REACH A items. Lint was already clean, so nothing mechanical drove this. The perspective verification had **already passed** (0 open P0, 0 protected-hit regressions), so perspective work was limited to what the verifier itself named as incomplete or wrong.
+
+## Fixes applied
+
+**Evidence (weighted 1.5×, the lowest-scoring weighted dimension — got the most attention):**
+- **Source audit went from 2 untagged → 0.** Now 7 quotes, 7 inline. The dishes quote carries its own stamp instead of inheriting one; the oatmeal close's stamp was *moved* onto the load-bearing quote rather than duplicated.
+- **The 200,000-likes claim is fixed, and a factual conflation with it.** The archived transcript shows the likes belong to a TikTok someone made *from* her Instagram story, not the story itself. Now corrected and attributed.
+- **New outside source: TODAY, 1 July 2026** — ER visits, pediatrician, imaging, biopsy, and a confirmation the cancer had **spread**. First outside account of the medical sequence, so that section stops resting on her own retrospective telling. It also resolves evidence-packet dispute #3 (pediatrician vs. ER — they're sequential, not competing).
+- Six remaining bare claims stamped. One grader correction: the garments/temple quote is **Axios Salt Lake City**, not Rolling Stone.
+
+**Structure/Writing:** H3 folded into the main tradwife section; both reader-command imperatives gone; two two-beat closers flattened, and a **new ledger tracks all six** — `blog-quality-report.mjs` structurally can't see these, which is why it reports 0.
+
+**Perspective partials:** P1-05's two deferred glosses both landed. Both false-provenance ledger notes corrected — the transcript refutes the claim that Cooper "read the poster child line back to her"; she says it, and his next line is "Why was that bizarre to you?" Left standing it would have told the next pass a genuine Cooper quote wasn't hers.
+
+## The word budget — partly paid down
+
+Body **4,484 → 4,462**: a net reduction while absorbing ~120 words of new material. Headroom 16 → 38 words. This is the first pass since the second that didn't end tighter than it started. Mid-pass it hit 4,574 (a hard lint FAIL) and came back under by cutting duplication only — including a verbatim duplicate quote appearing in two sections. **The 4,050 warn is still not cleared and still can't be without spending evidence** — flagging that rather than doing it silently.
+
+## Two things I did not decide
+
+- **@Katwiia quote (P1-07) — `needs_human`.** Undatable, unarchived, Tier 4, and the sharpest critic line in the piece. A revision pass shouldn't quietly cut a critic while keeping every one of the subject's quotes, nor quietly keep an unverifiable one in the section the whole jury scrutinized. Your call: keep, cut, or replace with an archivable equivalent.
+- **singjupost speaker-labeled transcript — `research_needed`.** Not a blocker today; a prerequisite for any *new* quote pulled from that transcript.
+
+Two scope notes disclosed rather than buried: P1-16 conflicted with the grader on the oatmeal stamp (resolved by moving, not restoring — P1-16's test still holds), and I **rejected** cutting the diagnosis section's postpartum-photo details, since P0-09 depends on them.
+
+**Verified:** lint 0 fail / 1 warn (the word-budget warn); source audit 7/7 inline; all 12 protected hits confirmed by literal string match; `lastmod` and `content_quality` untouched.
+
+Resolution artifact at `docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/revision-resolution.md`. The pipeline will clear the consumed review sidecar and re-grade, and targeted perspective verification must rerun — this pass does not declare the gate passed.

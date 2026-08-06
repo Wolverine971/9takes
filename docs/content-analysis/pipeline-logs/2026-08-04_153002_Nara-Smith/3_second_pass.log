@@ -1,0 +1,25 @@
+Updated `src/blog/people/drafts/Nara-Smith.md`.
+
+## The biggest thing wasn't in the review
+
+The draft claimed in four places that she disclosed the diagnosis and the remission in the *same* July 2026 announcement. She didn't — the diagnosis post came ~1 July, the remission post 17 July. I fixed it in the cold open, the table row, the cancer-section transition, and two FAQ answers. The Type 8 argument survives and gets slightly better: she waited until treatment was *finished* and remission already achieved, which is her own stated reason ("We wanted to wait until she is done with treatment"). Knock-on fixes: "twelve days after she made the diagnosis public" was ~28 days (twelve days is from the remission post), and Levings "answered five days later" was one day.
+
+## Main changes from the review
+
+**Lupus, verified and dated.** The single biggest lift, and the review was right that it kills the retcon reading. The scratch section now runs: dermatologists dismissing her ("sent home defeated," "not listened to," "a paper bag full of steroid creams"), the worst flare, stopping eating entirely and falling into a depression, then the flight to Germany and the diagnosis. Confirmed across News24 (11 Dec 2024), IOL, and AOL/People (10 Dec 2024).
+
+I corrected the review's own framing on the date. December 2024 is *not* nineteen months before the label started costing her collaborations — the draft's own table dates that to 2024. Nineteen months is Dec 2024 → the Cooper sitting, so that's what the claim now says.
+
+Also added: the stepdaughter (Gravity, b. 2017), the cancer type being undisclosed, the Ridgefield orientation (they moved from **Texas**, not Utah — worth knowing, since a reader primed on the Mormon material guesses wrong), and Lucky's occupation. The lupus depression now does real work in the Rabbit Hole: two concealed collapses make a pattern, so the easy "it was just hormones" defense of the Eight call no longer holds — which is more honest than what was there.
+
+**Rejected one note.** The review said "four children" is "quietly wrong about the household." Half right — her four biological children are four, and "four screaming kids" is her own quote. I added the stepmother fact rather than rewriting every count. Also skipped Stormi Bree's TikTok praise; it costs words the piece doesn't have.
+
+## Checks
+
+- **Source audit: 8 load-bearing quotes, 8 inline, 0 vague, 0 untagged** — clean before and after.
+- **blog-lint: 0 fail, 1 warn.** Two contrast-pair FAILs I introduced are cleared; one was the lint firing on "sent home defeated, not listened to" inside a direct quote, so I re-quoted it in fragments rather than altering evidence.
+- **YAML parses** (gray-matter): 5 FAQs, 11 citations, `published: false`, `lastmod` untouched.
+
+## Still open
+
+Body is **4496 against a 4500 ceiling** — I paid for ~470 words of new material in full, but there is now zero headroom. Every cut came from duplication, not evidence: the doubled Type 3 case, the Ballerina Farm paragraph, the tradwife empathy-turn recap (redundant now that the scratch section carries the origin), and overlong quotes. An editor pass should cut a section before adding a sentence — the "Why the label stuck in the first place" H3 is now the most compressible thing left, since the lupus material took over the origin argument it used to share.

@@ -1,0 +1,12 @@
+**Output path:** `docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/verification-initial.md`
+
+**verification_status:** `pass` · **open_p0:** 0 · **protected_hit_regressions:** 0
+
+SHAs match (synthesis and frozen snapshot both `5919d6ad…`); final reader-visible hash `530d6b3d…`. Lint on the current draft: 0 fail, 1 warn (4,484 words).
+
+Two things worth your attention beyond the gate:
+
+- **The editor's evidence trail for P0-01 is wrong in one step.** The log says Cooper "read the line back to her" at transcript `00:17:01`. The archived transcript shows the opposite — Nara says it, and Cooper's follow-up is "Why was that bizarre to you?" The repair still passes (the substituted Shetty quote has an independent BuzzFeed source trail via `fan.md`), but the draft's own ledger now records a false provenance claim that would tell a future pass a genuine Cooper quote isn't hers. Reader-invisible, so nothing published is affected.
+- **P0-10's speaker cross-check was skipped, so I ran it myself.** All six load-bearing quotes located and attributable to Nara from first-person content. Worth knowing: the transcript's `>>` turn markers demonstrably miss turns (the oatmeal block switches speaker mid-marker), so the singjupost cross-check is still owed for anything quoted from it in future.
+
+Five other items in Remaining work, including a Shetty episode-date discrepancy that lives only in ledgers (9 vs 10 July 2025) and the @Katwiia archive decision the editor escalated to you.

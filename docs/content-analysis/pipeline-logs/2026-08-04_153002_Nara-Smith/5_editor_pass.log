@@ -1,0 +1,25 @@
+Polished `src/blog/people/drafts/Nara-Smith.md` against the perspective jury.
+
+**Draft SHA verified** against the frozen snapshot before editing. All 10 P0 items addressed, plus 16 accepted P1s (two partial), all 12 protected hits preserved.
+
+**The four repairs that changed what the article asserts:**
+
+- **Forbes never interviewed her.** Fixing that surfaced a bigger error the synthesis missed: the "poster child" quote didn't originate with Cooper either. She said it on Jay Shetty's podcast on 9 July 2025, and Cooper read it back to her a year later (transcript 00:17:01, verbatim confirmed via Complex).
+- **"She objected once" was false**, and the correction strengthens the piece — a woman who'd been making the argument for two years and was still being called it beats a woman who spoke up when it got expensive. Knock-on: the 8w9 wing now rests on manner, not frequency or vocal register. Also fixed a checkable error: "let them think what they're going to think" arrives at minute 26, not "after ninety minutes."
+- **The invented week is gone.** The transcript contradicts it twice over — she *did* hint to Lucky ("he was like, 'No, honey'"), and Whimsy was already hospitalized for biopsies. The rewritten beat is sourced and better.
+- **The driving paragraph was built by omission.** Two service rules from the same video are now named, and the inferred "says nothing" is replaced by her own "Do it for me." The protected refusal survives, narrower and more honest.
+
+**Research:** RQ-01 resolved affirmatively — she does name Yale New Haven on the record, so the body attribution stands (the FAQ cut stays, since detachable structured data about a minor's care is a separate concern). RQ-06 and RQ-07 resolved. RQ-02/03/04/05 remain open; RQ-04's non-resolution forced the Ballerina Farm cut.
+
+**Exit checks:** contrast pairs **0 strong / 0 comparative**, 0 em-dashes, 0 banned phrases, **0 fails**. Body 4,489 → 4,484 against a 4,500 ceiling — the P0 set was word-positive, so this was paid for by cutting first. The one warn (thin headroom) is pre-existing.
+
+**Artifacts:** `editor-resolution.md` in the review dir; transcript archived to `docs/content-analysis/youtube-transcripts-people/` (2,651 segments) with a source manifest. Wayback snapshots captured for Levings and TheGrio; Forbes already had one.
+
+**Three things I left for you, not silently:**
+1. **@Katwiia can't be dated or archived.** The synthesis said date it or cut it. I kept it — cutting would weaken the critics' side of the section the jury scrutinized hardest — and the draft prints no date, so nothing false ships. Your call whether an undatable critic quote is acceptable.
+2. **The singjupost.com speaker-label cross-check wasn't done.** All six load-bearing quotes are unambiguous from context, but this repo has a logged near-miss on exactly this, and it's a two-woman conversation with two cancer narratives.
+3. **P1-05 is partly unpaid** — the Enneagram-system and self-preservation glosses didn't fit the budget.
+
+Two other findings from the archived transcript are worth knowing: she *posted* the postpartum photo herself with an honest caption (the internet supplied the bounce-back reading), which I corrected since P0-09 now leans on that passage as the type discriminator; and in July 2025 she predicted the exact charge Levings would make a year later ("all the comments would be like, 'She's lying. She's gaslighting'"). I didn't use the second one — it's a strong beat but there was no budget, and it risks reading as dunking on Levings against PROTECT-07.
+
+Not production-ready yet: `/blog_perspective_verify_people` still has to independently check the gate, and `published: false` stands.
