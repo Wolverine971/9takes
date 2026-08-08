@@ -7,6 +7,8 @@
 **Defers to:** [`../personality-series-north-star.md`](../personality-series-north-star.md) (Reels carry the same goal at a different tempo).
 **Interactive diagnosis:** https://claude.ai/code/artifact/e11d49ed-217d-4e0a-9122-9b54c0f01892
 
+> **2026-08-03 update — start here now:** [`reel-flow.md`](reel-flow.md) is the current governing script/timing spec (VO baseline, two spines, 26s), and [`ai-tell-checklist.md`](ai-tell-checklist.md) is the gate every cut must clear before approval. The hook/callout/proof/catch/CTA template in [`reel-scripts.md`](reel-scripts.md) is **superseded** — it resolves the tension instead of opening it. Its three scripts remain useful as fact inventories. E1 was confirmed on 08-03 (see [`experiment-log.md`](experiment-log.md)): Reels reached 375 accounts vs 8–21 for carousels.
+
 ---
 
 ## The diagnosis in one paragraph

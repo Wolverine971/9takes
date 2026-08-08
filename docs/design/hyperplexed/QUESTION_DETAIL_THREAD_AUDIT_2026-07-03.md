@@ -113,9 +113,120 @@ Post-fix verification:
   mobile nudge or overflow. Captures: `/private/tmp/9takes-doublecheck-question-share-desktop.png`
   and `/private/tmp/9takes-doublecheck-question-mobile.png`.
 
+## Comment card hierarchy - 2026-08-03
+
+- [answer hierarchy] Community answer copy now renders at the 18px reading size, above 14px
+  authorship. Long strings retain explicit anywhere wrapping and the existing three-line disclosure
+  behavior. -> P1+P4
+- [authorship + provenance] Removed the heavy anonymous/type badge shell. A small type-color data
+  mark and plain byline now integrate attribution into the card. Exact posted and modified dates move
+  into the overflow menu with their original ISO values in `datetime`; only an understated `Edited`
+  trust signal remains visible when a comment was modified. -> P4+P6+P9
+- [action rail] Like, Reply, and overflow now share one 16px Lucide stroke language and fixed 44px
+  targets. Inactive Like is quieter than Reply, counts remain visible without a filled counter tile,
+  focus-visible rings are explicit, and pluralized accessible labels cover the count state. -> P4+P9+P13
+- [surface restraint] Removed the static card's decorative hover glow and preserved the then-current
+  V5 card frame. The 2026-08-08 flat-list pass below supersedes that border, radius, and stripe while
+  retaining the answer-first hierarchy. -> P2+P4
+
+Verification:
+
+- Actual `Comments` + `Comment` components mounted against a fixture matching the supplied one-like
+  anonymous comments. Desktop 1180x920 and mobile 390x844 passed in light and dark mode with zero
+  horizontal overflow, 18/14px answer/byline hierarchy, zero exposed date text, and 44px action
+  targets. The overflow menu preserves an exact semantic `Posted` date on demand.
+- Captures:
+  - `/Users/djwayne/.codex/visualizations/2026/08/03/019fc9b9-0bb1-7b31-8138-1059740aa7a2/comments-desktop-light.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/03/019fc9b9-0bb1-7b31-8138-1059740aa7a2/comments-mobile-light.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/03/019fc9b9-0bb1-7b31-8138-1059740aa7a2/comments-desktop-dark.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/03/019fc9b9-0bb1-7b31-8138-1059740aa7a2/comments-mobile-dark.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/03/019fc9b9-0bb1-7b31-8138-1059740aa7a2/comments-date-menu-light.png`
+- Focused component regression test passes. Svelte autofixer reports no issues or suggestions;
+  targeted ESLint/Prettier pass; `pnpm lint:radius` passes at zero; `pnpm check` passes with 0 errors
+  and the existing repository warning backlog.
+
+## Approved-reference restoration - 2026-08-04
+
+- [parent navigation] Restored the quiet `Questions / category` breadcrumb from the approved visual
+  reference. `Questions` remains a real relative link even when it is the only crumb through the
+  opt-in `Breadcrumbs.linkSingleItem` behavior; structured breadcrumb data is unchanged. -> P6+P13
+- [share toolbar] Restored the original three peer actions: Answer, Subscribe, and Share. Direct
+  sharing still creates and records an attributed invite; QR sharing remains available after an
+  answer in `QuestionInviteCard` instead of occupying the first-viewport toolbar. -> P6+P8+P13
+- [regression coverage] The question-detail smoke check asserts the `Questions` destination and
+  click-through, exactly three toolbar buttons, and single-row desktop geometry. Fresh dark captures
+  of the reference question pass at 1904x1152, 1440x1000, and 390x844 with HTTP 200, zero browser
+  errors, and zero horizontal overflow. At both desktop widths the three controls share the exact
+  same top coordinate; mobile wraps the third control into the intentional full-width row.
+- [reference captures]
+  - `.codex-tmp/question-detail-reference-restored-reference.png`
+  - `.codex-tmp/question-detail-desktop-restored-reference.png`
+  - `.codex-tmp/question-detail-mobile-restored-reference.png`
+
+## Flat community-answer list - 2026-08-08
+
+- [thread shell] The unlocked discussion no longer sits inside a second rounded, bordered surface.
+  Tabs and community content now share the page background, with one neutral navigation rule instead
+  of nested card chrome. The active tab uses a teal count and type weight rather than an amber bottom
+  edge. -> P4+P9
+- [answer rows] Community takes now follow the `/questions` index hierarchy: answer first, compact
+  mono attribution and actions second, then one straight neutral separator between entries. Full card
+  borders, rounded corners, warm card fills, and type-colored left rails are removed. Type remains a
+  small data dot only. -> P4+P5+P9
+- [nested replies] Reply composers retain a quiet inset working surface, while visible reply threads
+  use indentation without the former amber connector rail and decorative node. Like, Reply, overflow,
+  edit, flag, and reply-loading behavior are unchanged. -> P4+P8+P9+P13
+- [loading and empty states] Loading rows and the empty state use the same flat grammar; bordered
+  skeleton cards, loading pills, and the framed empty-state icon were removed. -> P4
+
+Verification:
+
+- The focused `Comment` component suite passes (3 tests), including the answer-first DOM hierarchy,
+  44px Like/Reply targets, hidden exact dates, overflow-menu dates, and reply analytics.
+- Svelte autofixer and targeted ESLint pass on all edited components. `pnpm check` reaches an unrelated
+  existing type error in `scripts/lib/perspectiveReview.js`; `pnpm lint:radius` reaches two unrelated
+  off-scale declarations in `QuestionInviteCard.svelte`.
+- Live dark and light checks at 1440x1000 and 390x844 each rendered 10 real comments with no browser
+  errors and zero horizontal overflow. Computed checks confirm 0px comment left borders, transparent
+  row backgrounds, 0px thread-shell borders, and no active-tab shadow.
+- Captures:
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-desktop-dark.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-mobile-dark.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-desktop-light.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-mobile-light.png`
+
+## Subtle grouped answer cards - 2026-08-08
+
+- [comment ownership] The separator-only answer row above was too flat to bind answer copy,
+  attribution, actions, reply composer, and nested replies into one comment. Each take now owns one
+  low-contrast neutral surface with a uniform hairline and 16px card radius; no side receives a type
+  color or accent treatment. -> P2+P4+P9
+- [separation] Root comments use a 12px list gap instead of touching at shared dividers. The warm
+  surface is deliberately translucent in both themes, so the cards establish grouping without
+  rebuilding the former heavy nested shell. Nested replies retain their smaller gap and remain inside
+  the parent comment boundary. -> P4+P5+P9
+- [state consistency] Loading placeholders use the same neutral card geometry, and the reply composer
+  remains an inset working surface within its owning comment. Answer-first hierarchy, compact mono
+  metadata, teal type data dots, actions, overflow dates, and the simplified thread tabs are unchanged.
+  -> P1+P4+P6+P13
+
+Verification:
+
+- The focused `Comment` suite passes (3 tests), including an explicit assertion that the opened reply
+  field remains inside the same semantic comment article as its answer and actions. Targeted ESLint,
+  Prettier, and legacy-syntax Svelte component validation pass for the changed surface.
+- Live dark and light checks at 1440x1000 and 390x844 each rendered 10 real comments with HTTP 200,
+  no browser errors, and zero horizontal overflow. Computed checks confirm a 12px list gap, 16px
+  radius, translucent theme surface, and a uniform 1px neutral border on all four sides.
+- Captures:
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-grouped-desktop-dark.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-grouped-mobile-dark.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-grouped-desktop-light.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-grouped-mobile-light.png`
+
 ## Tier 3 - polish/signature (motion/effects, at most one per surface)
 
-- [motion pass] The surface already has enough visual identity from the type-color stripe and Streetlamp case-file styling. Do not add P14-P18 signature effects yet. First gate the existing `slide`, `fade`, hover translate, carousel transform, spinner, and modal fly/scale motion for reduced-motion users. -> P11
+- [motion pass] The surface already has enough visual identity from its small type-color data marks and Streetlamp case-file styling. Do not add P14-P18 signature effects yet. First gate the existing `slide`, `fade`, hover translate, carousel transform, spinner, and modal fly/scale motion for reduced-motion users. -> P11
 
 ## Verification
 

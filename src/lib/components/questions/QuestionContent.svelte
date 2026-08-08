@@ -315,15 +315,12 @@
 </div>
 
 <style>
-	/* V5 Streetlamp pass 2026-06-09: flattened the legacy glass-morphism shell
-	   (1.35rem radius, backdrop blur, gradient washes, static shadow) to the
-	   locked system — 1px stone-edge border does the elevation work. */
+	/* The thread follows the flat reading-list grammar used by /questions.
+	   Controls still provide their own focus/hover states, while the content
+	   itself avoids nested card chrome. */
 	.question-content-shell {
 		position: relative;
-		overflow: hidden;
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		background: var(--stone-warm);
+		min-width: 0;
 	}
 
 	.question-content-nav {
@@ -331,9 +328,9 @@
 		z-index: 1;
 		display: flex;
 		overflow-x: auto;
-		padding: 0.45rem;
+		padding: 0;
 		border-bottom: 1px solid var(--stone-edge);
-		background: var(--night-mid);
+		background: transparent;
 	}
 
 	.question-tab {
@@ -344,9 +341,9 @@
 		gap: 0.5rem;
 		flex: 1 1 0;
 		min-width: 0;
-		padding: 0.9rem 1.15rem;
+		padding: 0.9rem 1rem;
 		border: 0;
-		border-radius: 0.625rem;
+		border-radius: 0;
 		background: transparent;
 		color: var(--ink-mid);
 		font-size: 0.9rem;
@@ -390,13 +387,16 @@
 
 	.question-tab:hover {
 		color: var(--ink-bright);
-		background: var(--lamp-soft);
+		background: color-mix(in srgb, var(--stone-warm) 58%, transparent);
 	}
 
 	.question-tab.is-active {
 		color: var(--ink-bright);
-		background: var(--lamp-soft);
-		box-shadow: inset 0 -2px 0 var(--lamp-glow);
+		background: transparent;
+	}
+
+	.question-tab.is-active .question-tab__count {
+		color: var(--data-teal);
 	}
 
 	.question-content-body {
@@ -426,9 +426,7 @@
 		grid-template-columns: minmax(0, 1fr) minmax(13rem, 0.7fr);
 		align-items: end;
 		gap: 1rem;
-		margin: 0 1rem 1rem;
-		padding-bottom: 1rem;
-		border-bottom: 1px solid var(--stone-edge);
+		margin: 0 1rem 0.75rem;
 	}
 
 	.community-discussion-head span {
@@ -648,8 +646,6 @@
 	.public-perspective-card {
 		padding: 0.95rem 1rem;
 		border: 1px solid var(--stone-edge);
-		/* Type-colored stripe — same attribution language as Comment.svelte. */
-		border-left: 3px solid var(--comment-type-color, var(--stone-edge));
 		border-radius: 0.625rem;
 		background: var(--stone-warm);
 	}
@@ -734,12 +730,8 @@
 	}
 
 	@media (max-width: 640px) {
-		.question-content-shell {
-			border-radius: 1rem;
-		}
-
 		.question-content-nav {
-			padding: 0.35rem;
+			padding: 0;
 		}
 
 		.question-tab {

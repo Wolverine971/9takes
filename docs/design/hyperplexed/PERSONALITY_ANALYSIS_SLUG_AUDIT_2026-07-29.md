@@ -4,7 +4,8 @@
 
 **Route:** `/personality-analysis/[slug]`  
 **Date:** 2026-07-29  
-**Status:** Audit complete; implementation pending
+**Status:** Audit complete; hero hierarchy, TOC consolidation, related/rail cleanup, and Tier 3
+accent-budget polish shipped locally; composer and compact mobile type dossier remain pending
 
 ## Verdict
 
@@ -51,11 +52,11 @@ Related-card names are set to `opacity: 0` until hover, with no equivalent focus
 
 ## Tier 2 — Structural Refinement
 
-### 1. Let mobile state the promise before showing the full portrait
+### 1. Let mobile state the promise before showing the full portrait — shipped 2026-08-02
 
 At 391 × 844, the Meryl Streep portrait occupies roughly y=245–565, the kicker begins near y=602, and the H1 begins near y=638; the description does not appear until below the first viewport. Put the analysis text before the portrait on small screens, or substantially compact the image so the name and thesis arrive in the first screen. Preserve the current desktop composition. **Patterns: P3 + P4 + P8.**
 
-### 2. Consolidate the two table-of-contents experiences
+### 2. Consolidate the two table-of-contents experiences — shipped 2026-08-02
 
 The route first shows a potentially 24-entry inline contents block, then introduces a separate fixed contents rail after scrolling on desktop. This asks desktop readers to process the same navigation twice. Default the inline version closed at every width, retain one desktop rail when space permits, and keep the disclosure's state/control behavior explicit. The current working-tree change improves the deployed mobile-open behavior but still leaves the desktop inline block expanded. **Patterns: P8 + P13.**
 
@@ -63,11 +64,11 @@ The route first shows a potentially 24-entry inline contents block, then introdu
 
 The injected dossier measured roughly 1,152–1,255 pixels tall on tested mobile pages—more than a full viewport—and temporarily displaces the person-specific narrative with generic type reference material. Keep the highest-value fear, desire, stress, and growth summary visible; move secondary statistics and taxonomy into a deliberate disclosure or linked type page. **Patterns: P4 + P13.**
 
-### 4. Retire or relocate the floating people rail
+### 4. Retire or relocate the floating people rail — shipped 2026-08-02
 
 `PeopleSuggestionsSideBar` looks for `main.column-width`, which this route does not provide, then falls back to a hard-coded content width. It is absent at a normal 1440-pixel desktop but appears as a second fixed rail beside the fixed contents at extra-wide sizes. It also duplicates the later related-content graph. Remove it from this route or replace it with one quiet inline “next dossier” module. **Patterns: P8 + P6.**
 
-### 5. Bring related content into the case-file grammar
+### 5. Bring related content into the case-file grammar — shipped 2026-08-02
 
 The related grid uses viewport-width JavaScript to choose counts, unkeyed image loops, resting shadows, glow/lift hover, and hover-only labels. Reuse the established case-card treatment—or a compact CSS-grid variant—with visible names, keyed rows, and CSS-driven breakpoints. **Patterns: P2 + P3 + P8 + P10 + P11.**
 
@@ -80,6 +81,12 @@ Keep `NineChorus` as the route's single signature interaction. Replace resting g
 ### 2. Reduce the hero to one accent system
 
 The type-color stripe, amber dossier label, and saturated violet portrait mark compete as three accent languages. Keep type color as data and either neutralize the eye mark or tune it into that system. **Patterns: P10 + P19.**
+
+**Shipped locally 2026-08-02:** Option A contains the existing violet inside a theme-aware portrait
+well and lowers its saturation without altering source assets. Amber remains illumination/action,
+type color remains data, and neutral stone/ink now carries the portrait frame, corners, and caption
+border. The reusable implementation is documented as **P20**; see
+`docs/design/2026-08-02-personality-portrait-contained-violet-rollout-plan.md`.
 
 ## Recommended Approval Order
 
@@ -96,6 +103,41 @@ The type-color stripe, amber dossier label, and saturated violet portrait mark c
 - Tested 1440 × 1000 desktop, extra-wide desktop, and exact 391 × 844 mobile states in light and dark themes.
 - Confirmed no horizontal page overflow and no browser diagnostics in tested states.
 - Ran the Svelte analyzer in the route's legacy compatibility mode. It identified existing raw-HTML/migration advisories and unkeyed related/dossier loops; no implementation changes were made during this audit.
-- Local browser screenshots remain to be repeated after the current working tree can complete its database-backed page load; the in-app browser blocked direct localhost access, so visual findings above use the deployed route while source findings use the current tree.
+- At the time of the original audit, local browser screenshots were blocked by the database-backed
+  page load; the deployed route supplied the visual baseline. The contained-violet slice below was
+  subsequently verified against the local working tree.
 
-No implementation changes were made as part of this audit.
+### 2026-08-02 contained-violet verification
+
+- Local Anna Wintour rendered nine `/types/` images at 1440 × 1000; all nine used the semantic image
+  treatment and media well, with no overflow or broken images.
+- The live `/blog` personality section rendered six treated portraits at 1440 × 1000 and 390 × 844
+  in dark and light mode. Fifteen ordinary blog artworks remained untreated.
+- The Podcast Bros article rendered six multi-person `PopCardGroup` images untreated, matching the
+  documented editorial-composite exception.
+- The light portrait well/filter computed as `#F6F3FB` and
+  `contrast(1.02) brightness(0.99) saturate(0.58)`; dark computed as `#2C1F28` and
+  `contrast(1.08) brightness(0.92) saturate(0.68)`.
+- The publishing preflight validates one generated full/thumbnail pair before opening its exact
+  styleguide fixture. That fixture passed at 1440 × 1000 and 390 × 844 in both themes with canonical
+  filters/wells, normal blend mode, loaded assets, no horizontal overflow, and no browser warnings.
+
+No implementation changes were made during the original audit. The 2026-08-02 follow-up shipped the
+contained-violet treatment plus the visible-name hero, promise-first mobile ordering, closed inline
+contents, single desktop contents rail, retired people rail, and case-file related grid. The
+persistent discussion-composer contract and compact mobile generic type dossier remain open.
+
+### 2026-08-02 structural verification
+
+- Anna Wintour now uses the person's name as the visible H1 and a neutral persona thesis while keeping
+  the search-oriented title in metadata.
+- At 390×844 in both themes, the name and analytical promise appear before the 280-pixel portrait;
+  the inline contents starts closed and the page has no horizontal overflow or broken images.
+- At 1440×1000, one desktop contents rail appears during reading and clears before the ending. The
+  former floating people rail is absent at every tested width.
+- The ending presents one `Related Case Files` module with eight permanently visible names and four
+  quiet framework links. Cards use CSS breakpoints and neutral resting surfaces without glow or
+  shadow.
+- SvelteKit sync, `svelte-check` (0 errors, 143 existing warnings), three targeted personality test
+  files (14 tests), ESLint, formatting, and diff whitespace checks pass. Radius lint remains blocked
+  only by the unrelated existing `account/+page.svelte:1243` declaration.

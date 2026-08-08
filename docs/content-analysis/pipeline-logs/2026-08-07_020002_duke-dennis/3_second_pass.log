@@ -1,0 +1,19 @@
+Second pass on `src/blog/people/drafts/Duke-Dennis.md` is complete. The source audit went from **4 untagged load-bearing quotes → 3 inline / 1 vague / 0 untagged**, clearing both A/B+ blockers.
+
+**Source fixes (done first, per the audit):**
+- Epigraph now carries `— Duke Dennis, Complex's 360 With Speedy, 2024` (grades inline).
+- Found a dating error while tagging: the army story-time video was uploaded **Feb 6, 2018**, not "~2019" as the research file claimed — I verified against the transcript metadata, tagged the quotes 2018, and corrected the research file. The remaining "vague" is that video's honest ceiling: it's self-published, so no third-party outlet exists to cite.
+- The money/"own boss" quotes are now tagged to Complex, 2024.
+
+**Fresh-eyes notes addressed:**
+- **Rolling Stone/Speed dedup**: the AMP section is now the moment's only full telling; the diagnosis counter-read shrank to three sentences and the TL;DR lost its "deflected crown" bullet.
+- **Cousin Dee**: verified the Dec 2024 fan-shirt tear-up is real and added it to the stress section as the door-opening beat ("this time there was no standing reply to hand back"). Critically, I did **not** connect Dee to Deo — Deo gets a warm, no-mention-of-death shoutout in the Feb 2024 Complex interview, while Dee was mourned on stream before that. Different people; the distinction is now recorded in the research file.
+- **Union Square**: one on-thesis paragraph in the AMP section (charged Aug 2023 at Kai's giveaway, dropped May 2024 after apology and restitution — "it came from standing in somebody else's crowd").
+- **Clock-metaphor pileup**: varied the Army-section close ("the discipline answers to him now"); kept the shift bell and the ending, which the review itself rated best.
+- **Syllabus contradiction**: bridge paragraph after Unit 3 links the hashtag-riding curriculum to the meme economy that made him a daily prompt, with Unit 4 as the self-defense.
+- **Twitch + physique**: new paragraph in the empire section (3.3M Twitch followers, what the live hours actually are, the body as the one territory nobody else names) — also sets up India Love's "entertainment of Twitch" line.
+- **Girlfriend-quote continuity**: solved by the 2018 date tag itself.
+
+**Rejected:** the AMP H2 retitle (kept the search-intent question, added a connective line instead).
+
+**Still open:** the Dee moment rests on clip coverage only, so it's stated as fact with no quote — same treatment the draft gives Kai's Veterans Day call. Prose checks are clean: no new em-dashes outside the exempt attribution line, no banned words. A `SECOND PASS NOTES` block at the bottom documents all of this for the next editor pass.

@@ -5,7 +5,7 @@
 **For:** the agent assigned to strip the remaining `QUALITY_FEEDBACK` HTML comments out of published blogs.
 **Owner:** DJ
 **Created:** 2026-07-15
-**Status:** Dry run complete 2026-07-15; awaiting DJ review. 86 of the original 88 blocks remained at the dry run. No T-10 bulk deletion has started.
+**Status:** Implemented locally 2026-07-31. DJ approved the regenerated 78-file dry run; all remaining historical blocks are removed, the lint guard is enforced, and the fresh build is green. Commit/deploy remain pending in the shared dirty worktree.
 **Re-verified 2026-07-18:** the count is now **79** published files carrying `QUALITY_FEEDBACK_START`, down from 86, because subsequent per-file reworks (the 2026-07-15 etiology fixes and the type-1/type-8 worldview rebuilds) stripped several blocks along the way, e.g. `astrology-and-the-enneagram` and `depression-patterns-by-enneagram-type` are now clean. The leak still ships on the #1 traffic page (`enneagram-and-mental-illness`, leaks `Grade: A+ (9.5)`) and on the #3 mental-health page (`enneagram-neurodivergence-guide`, leaks `Grade: D (6.9) | Safety: fail | Tags: template-fatigue, safety-boundary-risk`). This is still the executable next step for the leak class. Re-run the count before writing any patch; it decays as T-13 touches the same top files.
 **Related:** `docs/content-analysis/2026-07-15_enneagram-blog-audit.md` §9.5 (the correction that owns this; §8 items 2-3 and §9.4 are the under-count it corrects). Siblings: `T-02` (the two prose-dump leaks, owns the lint guard), `T-03` (the frontmatter half of the same batch run).
 
@@ -143,20 +143,20 @@ The 2 published files are `src/blog/pop-culture/hollywood-heartthrobs-enneagram-
 
 ## Verification checklist
 
-- [ ] `grep -rl "QUALITY_FEEDBACK" src/blog/ --include="*.md" | grep -v drafts` returns **0** (86 remain after T-02 and T-01)
-- [ ] Fresh `pnpm build`, then `grep -rl "QUALITY_FEEDBACK" .svelte-kit/output/server/chunks/` returns **0**. A stale build passing this proves nothing; rebuild.
+- [x] `grep -rl "QUALITY_FEEDBACK" src/blog/ --include="*.md" | grep -v drafts` returns **0**
+- [x] Fresh `pnpm build`, then `grep -rl "QUALITY_FEEDBACK" .svelte-kit/output/server/chunks/` returns **0**. A stale build passing this proves nothing; rebuild.
 - [x] `git diff | grep '^[+-]lastmod:'` returns **empty** at the dry-run gate
 - [x] Salvage report exists at `docs/content-analysis/2026-07-15_quality-feedback-salvage.md` and accounts for all 88 original blocks
-- [ ] The dry-run diff was shown to DJ before any write
-- [ ] **Visible content unchanged.** The comments were invisible, so removing them must not change one rendered word. Diff the comment-stripped body before and after; it must match exactly.
-- [ ] Every touched file still ends with a single clean newline, no orphan blank-line runs
-- [ ] `grep -rlE "^quality_(grade|score|graded_at|rewrite_priority|safety_gate|update_note):" src/blog/ | wc -l` still returns **88**. T-10 touches no frontmatter. T-01 caused the 89 to 88 change before this patch.
-- [ ] `grep -rl "^content_quality:" src/blog/ | wc -l` still returns **442**, untouched
-- [ ] `pnpm build` passes (drafts and blogs are bundled; one malformed file fails the whole deploy)
+- [x] The regenerated 78-file dry-run diff was shown to and approved by DJ before any write
+- [x] **Visible content unchanged.** Every touched file equals its `HEAD` version after removing exactly the delimited comment and following blank line.
+- [x] Every touched file still ends with a single clean newline, no orphan blank-line runs
+- [x] Flat `quality_*` count remains at its pre-write 2026-07-31 baseline of **85** files. T-10 touched no frontmatter.
+- [x] `content_quality:` count remains at its pre-write 2026-07-31 baseline of **458** files, untouched
+- [x] `pnpm build` passes (drafts and blogs are bundled; one malformed file fails the whole deploy)
 - [x] Original 88 vs 89 reconciled and reported; the later T-01 removal explains the current 86 vs 88
 - [x] T-02's guard reads raw `$FILE`, covers both historical and successor marker shapes, and is proven to FAIL on a known-bad file
 - [x] Live-generator finding addressed under T-11
-- [ ] Commits are reviewable batches, not one 86-file commit
+- [x] The source patch was applied in four reviewable batches of 20, 20, 20, and 18 files. No commit was created in the shared dirty worktree.
 
 ---
 
@@ -179,15 +179,15 @@ The 2 published files are `src/blog/pop-culture/hollywood-heartthrobs-enneagram-
 
 - [x] Salvage report written and verified to account for all 88 original blocks **before** the remaining deletion
 - [x] Original 88 vs 89 reconciled, with `depression-patterns-by-enneagram-type.md` named and the later T-01 removal recorded
-- [ ] Dry-run diff reviewed by DJ before any write
-- [ ] All 86 remaining blocks stripped; source and fresh build output both return 0
-- [ ] Rendered/visible content provably unchanged across all 86 touched files
-- [ ] `lastmod` unchanged on every touched file, verified by `git diff`
-- [ ] Frontmatter untouched: the current `quality_*` 88 and `content_quality:` 442 counts both unmoved
-- [ ] `pnpm build` passes
-- [ ] T-02's guard covers both markers, reads raw `$FILE`, and is proven to fail on a known-bad file
-- [ ] T-02's `QUALITY_FEEDBACK` check promoted from WARN to FAIL, now that the historical class is clear
-- [ ] Live-generator finding handed to DJ as its own tasker, with the honest framing: T-10 closed the historical leak, not the mechanism
+- [x] Regenerated 78-file dry-run diff reviewed and approved by DJ before any write
+- [x] All 78 blocks that remained on 2026-07-31 stripped; source and fresh build output both return 0
+- [x] Rendered/visible content provably unchanged across all 78 touched files
+- [x] `lastmod` unchanged on every touched file, verified against `HEAD`
+- [x] Frontmatter untouched: the pre-write `quality_*` 85 and `content_quality:` 458 counts both unmoved
+- [x] `pnpm build` passes
+- [x] T-02's guard covers both markers, reads raw `$FILE`, and is proven to fail on a known-bad file
+- [x] T-02's `QUALITY_FEEDBACK` check promoted from WARN to FAIL, now that the historical class is clear
+- [x] Live-generator finding handed to DJ as T-11; the current grader writes feedback to non-served sidecars and removes the successor marker from drafts
 
 If any box cannot be checked, stop and report. Do not ship a partial sweep across 88 files.
 
@@ -204,3 +204,15 @@ Completed without source writes on 2026-07-15:
 - Current source gates are 86 `QUALITY_FEEDBACK` markers, all 86 in published files; 88 flat `quality_*` files; 442 `content_quality:` files; and zero changed `lastmod` lines.
 
 The task is paused at the explicit review gate. Do not apply the patch until DJ approves the dry-run artifacts.
+
+---
+
+## 6. Completion outcome 2026-07-31
+
+DJ approved the regenerated artifacts at `docs/content-analysis/2026-07-31_quality-feedback-dry-run.md` and `docs/content-analysis/2026-07-31_quality-feedback-removal.diff`. The current count had decayed from 86 to 78 because eight more pages were cleaned during unrelated per-file work.
+
+The 78 approved removals were applied in four batches: 20, 20, 20, and 18 files. Marker counts fell 78 to 58 to 38 to 18 to 0. An independent verifier compared every touched file with its `HEAD` version after removing exactly the delimited block and following blank line; it found zero unexpected changes, zero `lastmod` changes, and zero newline failures.
+
+Pre-write frontmatter baselines were preserved at 85 flat `quality_*` files and 458 `content_quality:` files. The historical marker now fails `scripts/blog-lint.sh` for published non-draft files, while normal TODO/FIXME markers remain warnings. The guard passed a cleaned production article and failed a reconstructed known-bad copy.
+
+A fresh production build completed successfully, all asset-budget ratchets passed, and `QUALITY_FEEDBACK` is absent from both `src/blog/` and `.svelte-kit/output/server/chunks/`. No commit or deployment was performed because the shared worktree already contains unrelated staged and unstaged changes.

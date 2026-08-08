@@ -1,0 +1,24 @@
+Draft complete and all gates pass. The two failed cron runs (both died on API `ENOTFOUND` before writing anything) are now recovered with a full fresh draft.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Duke-Dennis.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 qualifying testimony quotes) | Gate 2: pass (6 search-intent/hybrid H2s) | Gate 4: pass | Gate 5: pass (2 type-theory paragraphs, cap 4) | Gate 6: pass (0 contrast engines, similarity scan clear, all anchors present)
+LIMITATIONS: no independently verifiable Kai Cenat quote about Duke (Veterans Day 2024 call stated as fact, no words quoted); "Berry's Plastic" rendered as Duke says it, corporate identity unverified
+```
+
+**The blog in one line:** Duke Dennis is typed as an **8w9** — the thesis is that the internet's avatar of charisma is actually a man who will not be told what to do, and every famous thing about him (the rizz refusal, the Army regret, the sealed AMP roster, the seven interview-free years) is the same walk out of the same factory.
+
+**What it's built on:**
+- Two fresh transcripts pulled into `youtube-transcripts/`: his 2024 Complex *360 With Speedy* sit-down (his first ever interview) and his ~2019 army story-time video. His own words carry the piece — "I just don't like people telling me what to do" said three ways on tape is the tiebreaker quote.
+- Signature details: the 29-day plastics-factory job he walked out of mid-shift, the empire still logged into his friend Deo's email, buying his mom's house before his first chain, and the fact that he never asked his aunt what "Duke" means — which becomes the ending.
+- Current-tense anchor: his July 6, 2026 return as a Streamer University professor, which powers the bespoke section (his real blueprint rendered as a course syllabus).
+- Durable research file at `docs/content-analysis/research/Duke-Dennis.md` for the perspective-review stage.
+
+**Internal links (6):** Kai Cenat and IShowSpeed people pages, the Type 8 explainer, the types-in-stress guide, plus the two template links inside the Rabbit Hole (wings, subtypes).
+
+**Verification:** `blog-lint.sh` 0 fail / 1 warn (the warn is the FAQ-frontmatter enrich stage that runs downstream), contrast-pair engines 0, same-type similarity clear after rewriting two trips against the Nara-Smith and David Goggins drafts, Rabbit Hole at 488 words.
+
+Per non-interactive rules the draft stays at `status: draft` — human review, then `/grade_blog` and the perspective pipeline are the next stops.

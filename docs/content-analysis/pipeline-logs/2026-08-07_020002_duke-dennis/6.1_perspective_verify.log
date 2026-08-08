@@ -1,0 +1,10 @@
+Verification complete — the Duke-Dennis revision passes.
+
+- **Output:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/verification-initial.md`
+- **Verification status:** `pass`
+- **Open P0:** 0
+- **Protected-hit regressions:** 0
+
+All seven P0 repairs check out against primary evidence, not just the resolution log — I re-verified the drawer/live-channel quote, the "ruined it" soften-then-re-own exchange, and the seated cold-open posture directly against the repo transcripts, and the sitting fix makes the protected "Then he stood" line literally true. One wrinkle worth knowing: `grep` does find "ruined a generation" in the transcript, but only as YouTube chapter labels, so the synthesis's no-verbatim-speech premise holds. All ten P1s are completed (none rejected), and a full body diff shows every change maps to a synthesis item with zero collateral edits to the ten protected passages.
+
+Carried forward as publish-time work: RQ-01 (which channel actually holds the 3.5M — the new "his YouTube channels hold roughly 3.5M" phrasing follows the research file but may undercount if the trackers are right), RQ-02 (legal sweep before publish), and the clip-URL archiving. The deterministic gate script makes the final call from the report.

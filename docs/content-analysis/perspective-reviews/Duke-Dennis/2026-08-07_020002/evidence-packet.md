@@ -1,0 +1,178 @@
+---
+artifact: perspective-evidence-packet
+schema_version: 1
+subject: Duke-Dennis
+draft_sha256: b98e726c3df7db72dbd36a9aef2eb7220bef5b4aad2c4a1f2d8051df476b60bb
+packet_status: complete
+compiled_at: 2026-08-07T06:42:55Z
+---
+
+## Identity and scope
+
+Duke Dennis, legal name Denzel Shaquille Dennis, born February 26, 1994, in Greenville, South Carolina [S3]. U.S. Army veteran (2013–2017, stationed in Germany), NBA 2K YouTuber turned variety streamer, member of the six-person Atlanta collective AMP, ~3.5M YouTube subscribers / ~232M views and ~3.3M Twitch followers as of 2026 [S3]. Known nicknames and labels applied by others: "Duke" (from an aunt), "Unc," fake birth-year "1987" jokes, and pervasive association with the word "rizz." The article covers him as a personality-analysis subject; the draft's hypothesis is Enneagram Type 8 (8w9, sp/so), organized around a claimed pattern of "command vs. being claimed."
+
+Knowledge cutoff of this packet: **2026-08-07**. Repo transcripts were re-read in full and external checks were run against the live web on that date. The subject's primary long-form record is thin by design — one sit-down interview (Feb 2024) plus his own 2018 story-time video carry nearly all first-person evidence.
+
+## Dated timeline
+
+Event dates and publication dates separated where they differ. Verification status marked per entry.
+
+- **1994-02-26** — Born, Greenville, SC. Verified fact [S3].
+- **~2010–2012** — Plays football at Travelers Rest High School; receives small-college offers, declines. Self-reported ("a couple offers... small colleges"; "I was done with football and I was tired of school") [S2]; school name from [S3]/research file, not in transcript.
+- **2013-12-31** — Ships out to Army reception ("December 31st... the day before New Year's" [S2]; the year is not stated in the transcript — 2013 comes from the 2013–2017 service window [S3]). Attributed claim (self-report + aggregator).
+- **~2015** — Cousin Dee dies (per Duke's 2021 memorial post quoted by Sportskeeda: "6 years ago today I lost my cousin Dee," reportedly to gun violence) [S14]. Attributed claim. Note: this predates the channel gift and most of his career.
+- **2016-03-03** — Starts Twitch while enlisted. Verified fact [S3].
+- **2016-10-29** — First YouTube upload while enlisted (research file, sourced to Wikipedia edit at research time; current Wikipedia infobox says "YouTube 2017–present" [S3]). Minor discrepancy; treat exact date as attributed.
+- **2017** — Discharged (month unknown); works 29 days at a plastics plant he calls "Berry's Plastic," walks out mid-shift; goes full-time on YouTube. Self-reported (event told in 2024) [S1].
+- **2018-02-06** — Publication date of the Army story-time video; in it he states the channel is at 83K subscribers [S2]. Verified fact (upload metadata).
+- **2018** — Passes 100K subscribers [S3]. Consistent with the 83K figure above.
+- **2019 (October per research file)** — AMP forms; original four Duke, Agent 00, ImDavisss, Fanum; Kai Cenat and Chrisnxtdoor make six [S1 for membership; S3 calls him "one of the first and founding members" without a date]. Founding-order dispute noted below.
+- **2021 (late, weakly dated)** — Buys his mother a house before buying jewelry/designer. The purchase and sequencing are self-reported and firm [S1]; the 2021 date rests on Tier 4 sources only [S21].
+- **2023-08-04** — Kai Cenat's Union Square giveaway becomes a riot (65 arrests); Duke charged alongside Kai and Agent 00 [S7][S10]. Verified fact.
+- **2024-02-01** — First sit-down interview publishes: 360 With Speedy, Complex [S1]. Verified fact (upload metadata + on-tape exchange).
+- **2024-05-07/08** — Manhattan DA drops the Union Square charges: Kai pays ~$55,000 restitution; Duke and Agent 00 pay roughly $1,000 each and post public apologies [S7][S8]. Verified fact. (Wikipedia's "$57,000" is the combined total [S3] — see Disputes.)
+- **2024-08 (list published ~Aug 26)** — Rolling Stone ranks him **#5** on "25 Most Influential Creators of 2024," with the "almost mythic figure for teenage boys" line [S4][S5]. On-stream he protests IShowSpeed's exclusion ("Where is Speed?") [S6]. Ranking verified fact; reaction attributed (clip via reporting).
+- **2024-11-11** — Kai Cenat calls Duke live on stream (Mafiathon 2 era) to thank him for his service on Veterans Day. Event verified via multiple clip posts [S18]; **no reliable text transcript of Kai's exact words exists** — the draft correctly states the event without quoting.
+- **2024-12-24** — Opens fan mail on stream: a shirt honoring late cousin Dee; gets visibly emotional, puts on shades [S14][S15]. Verified event; see Disputes for the "cried" wording.
+- **2025-05** — Part of Kai Cenat's inaugural Streamer University (research file; [S3] confirms professor role generally).
+- **2025 (mid, probably June–July; research file says November — disputed)** — India Love discusses the flirty on-stream dynamic on 360 With Speedy [S16][S17]. See Disputes: both the episode date and which man ("he") the key quote refers to are unsettled.
+- **2026-07-06** — Kai Cenat returns from a nine-month streaming hiatus and announces Streamer University 2026; professor list includes Duke Dennis, Agent 00, Lizzo, Pokimane, Ludwig, Maya Higa, others [S11][S12][S13][S20]. Verified fact, including the "nine-month hiatus" framing [S13].
+
+## First-person evidence
+
+All quotes below were re-verified word-for-word against the two repo transcripts on 2026-08-07 unless noted. Both are self-narrated sources: they establish what Duke says about himself, not independently what happened.
+
+**From the 2018 Army story time [S2]** (his own channel, published while at 83K subs — before major fame, which is evidentially useful: no image-management incentive at scale yet):
+
+- "As soon as I got on that bus, I knew it was the worst decision I ever made in my life." Verified in transcript.
+- "The army wasn't for me because I don't like being told what to do. Being told when to eat, sleep, when to go to work..." / "I just had bigger plans for myself." / "I don't even like my girlfriend telling me what to do... I just don't like people telling me what to do." Verified; the told-what-to-do sentiment genuinely appears three-plus times, supporting the draft's "three repetitions" claim.
+- "When I got out the army it was the best feeling of my life. Being free, it felt like I got out of jail or something." Verified.
+- Mother's reply on night one (recounted): "stop being a [expletive]... man up, do what you gotta do and you'll be home in a couple months." Verified as *his recounting*; cannot support what she actually said.
+- First-sergeant exchange (recounted): "he said if you don't want to be here... let me know and I'll send you home... I said I don't want to be here"; they talked "for like an hour" and he stayed. Verified as recounting. **Transcript wrinkle:** he twice says "I ended up staying the whole *three* years in the Army" while elsewhere saying "I was in the Army for four years." The likely reading is three *remaining* years, but the four-year figure is his own framing plus [S3], not arithmetic from this passage.
+- Germany: "I was real lonely... I ended up staying in my room 24/7, not making no friends, not going to clubs, not doing nothing fun." Verified.
+- Reception night details (bald head, cold, recruiter said leave the phone, borrowed the neighbor's phone), duffel-bags-on-faces bus ride ("like we getting kidnapped"), the 6'8" recruit reduced to tears and Duke's 20 push-ups for laughing — all verified as recounted in [S2]. The draft's "a reputation that followed him the rest of his contract" leans on a garbled transcript passage ("I already knew it was around my whole army career"); the gist is plausible but the specific claim is a reading of noisy audio.
+- Also in [S2] but unused by the draft: after basic training he called his girlfriend "only to find out that she had cheated on me."
+
+**From the 2024 Complex interview [S1]:**
+
+- "It definitely taught me some valuable traits, like being punctual and discipline... but I feel like I wasted a lot of time. I feel like my life didn't really start until I got out of the army." Verified. Note the framing: Speedy introduces the "biggest regret" quote as something Duke has *been quoted as saying*; in this interview Duke's own stance is the softer "part of my journey... wasted a lot of time."
+- Factory: "I was there for 29 days and that was it... I almost fell asleep in front of the machine and I woke up pretty much catching myself... so I just walked out. I walked home." Verified. He was *sitting* in front of the machine per the transcript; the draft's cold open ("his body quit standing up") is a stylized rendering. The transcript also does not explicitly say the near-fall happened on day 29, though "29 days and that was it" strongly implies the walk-out day.
+- First check: "it was like two, three hundred dollars"; "once I seen that it was up, like — oh, it's so [expletive] Berry's Plastic. I'm doing this." Verified; the draft's expletive-omission is accurate to its stated method.
+- Deo channel: 3K vs. 100 subs, "I don't use mine, so you could just have this," deleted his own, "it still got his email attached... I changed the password of course." All verified. Deo gets a warm, present-tense shoutout ("shout out my dog Deo") — relevant to the Dee ≠ Deo question below.
+- AMP: "Like Big Bang Theory... it was never supposed to happen"; original four named on tape ("the original four is me, Agent, Davis and Fanum"); "Nobody else can join... if you take away one member the whole thing will fall apart." Verified.
+- **"I'm the oldest in [AMP] but Agent is right behind me, he like 27, 28"** — verified on tape; this directly supports the draft's "oldest in the house" claim.
+- Kai: "he's bigger than everybody and the group itself, but he still understands that you can't change or switch... Kai doesn't have an ego." Verified.
+- Rizz: the percentages (80% of male fan interactions; "if they white and they know [me] and they support me, 90%"; Aspen "they all said it... across the board" — Duke confirms "100%" in the exchange); "they ask me to teach them rizz, and I just think that's the craziest question you can ask"; "I say I don't got nothing to do with that"; "people overdo and overuse everything they come in contact with... what starts off cool eventually turns corny." All verified. **Nuance the draft flattens:** "he ruined a generation" is Speedy quoting Duke's *prior* statement back to him; Duke's first response is "I wouldn't say ruined it," and only when pressed ("you did say it") does he repeat "he ruined it, he ruined it." The draft presents it as Duke's flat assessment.
+- Unc/1987: "It starts off cool, funny, and then it gets cringy, lame... we get it now... let it go." Verified. The "1987" is a *fake* birth year the internet assigns him as an aging joke; his actual birth year is 1994. The draft's line "It prints his birth year as a punchline" is ambiguous on this point.
+- Money/freedom: "waking up not having to worry about financial circumstances, I feel like that's one of the most slept-on freedoms"; "nobody really wants to work for other people no more... if you had the opportunity to be your own boss, I think everybody want to take that." Verified.
+- Mother's house: "before I even started buying designer, cars, jewelry, I had to buy my house first... I had to do that before I even got chained. I just wouldn't feel right." Verified (no year given on tape).
+- Craft: "I don't really think about none of that [watch-time math]... I just want to make a good video that tells a good story"; confirms he has shelved fully edited videos. **Counterevidence the draft omits:** he immediately adds "but now I'm starting to put them on my live channel, just throw them over there... I know they want to see it, even though I don't want to drop it." The draft's "It stays in the drawer" is contradicted by the tail of the same exchange.
+- Blueprint: "It's all about your face getting out there as much as possible"; "TikTok don't have no longevity towards it, the longevity is YouTube"; correct hashtags/sounds; react to "Kai, Adin, Speed" and hashtag their names; "when you put somebody above you, you going to stay there forever"; three months, "maybe two"; "they'll hear it, but people not going to put in the work for it"; "that's why I don't like giving people the advice, because I'm just talking... they ain't going to listen anyway." All verified. The draft's final advice quote stitches two adjacent transcript moments with an ellipsis; both halves are real and near-contiguous.
+- Compliments: "my support system was 90% male... now it's like 50/50... it's rare to see somebody in there trolling now." Verified.
+- Turning 30: "I'm just happy to make it, because not everybody do"; he adds he'd start worrying "when I get like 37." Verified.
+- First interview: Speedy: "you don't have many interviews out there... sit-down interviews, I couldn't really find anything like that." Duke: "I think this is my first one." Verified. Speedy's on-time ranking quote and the 12:30 call time are also on tape; Speedy states Duke was early.
+
+## Third-party testimony
+
+1. **Speedy Morman** (Complex host, 2024) — punctuality ranking and no-prior-interviews observations, both on tape [S1]. Limitations: a host complimenting his guest; the "no interviews" claim reflects Speedy's research, though Duke confirms it.
+2. **Rolling Stone** (Aug 2024) — "Dennis has his biggest following on TikTok, where his charm with the ladies has made him an almost mythic figure for teenage boys" [S4]. Verified exact wording via Rolling Stone's own X post. This is the draft's critic-pressure anchor; it is a characterization, not a fact claim.
+3. **India Love** (360 With Speedy, 2025) — "We're friends but we can get flirty and playful because I know he's not in a relationship, I'm not in a relationship, and it's for the entertainment of Twitch. They love it, they eat it up" [S16][S17]. Attributed claim with a **referent problem**: the episode covers her dynamics with *both* DDG and Duke Dennis, and secondary write-ups do not settle which "he" this sentence is about. Her Duke-specific remarks in the same coverage: "The whole thing with Duke... it just organically happened. That was my first time meeting him."
+4. **Kai Cenat** — Veterans Day 2024 on-stream call: event established by video clips [S18]; no verified wording exists. The draft's no-quote treatment is the correct ceiling. Kai's general regard for Duke is otherwise documented only in clip form.
+5. **Streamer University staff page** (2026) — describes Duke's teaching as, per the research file, "the art of interacting with an audience during unscripted and live broadcasts"; Wikipedia says his professor role covers "personal branding and content creation" [S3]. The draft's "teaching personal branding" matches Wikipedia's phrasing more than the 2026 staff page's.
+
+## Public record, accomplishments, failures, and controversies
+
+**Accomplishments (verified):** Rolling Stone #5 most influential creator of 2024 [S4][S5]; ~3.5M YouTube subs / 232M views, ~3.3M Twitch followers [S3]; AMP co-founder-or-early-member with two group awards (research file, Tier 3); Streamer University professor in both 2025 and 2026 cohorts [S3][S11].
+
+**Failures / low points (self-reported):** turned down small-college football; enlisted with no plan and hated it; 29-day factory job; early story times at ~400 views ("I had nobody to watch them, so I kind of stopped" — verified in [S2]).
+
+**Controversies:** Notably few for his scale. The sole legal matter is Union Square: charged after the Aug 4, 2023 riot at Kai Cenat's giveaway; Manhattan DA dropped charges May 2024 after public apologies and restitution — Kai ~$55K, Duke and Agent 00 roughly $1,000 each [S7][S8][S10]. The draft's "the only legal mark on a decade of fame" is a universal negative that cannot be fully verified, but no other legal matter surfaced in any source consulted. His public criticism of Rolling Stone (defending IShowSpeed's exclusion from the list that honored him) is the closest thing to a public conflict [S6]. The AMP-vs-RDC "beef" is friendly banter per Duke on tape ("we all on the same side anyway" — verified [S1]).
+
+**Contested characterizations:** "Kai Cenat became the biggest streamer on the planet" (draft) — defensible shorthand for the most-subscribed-Twitch-streamer record set during Mafiathon 2 (Nov 2024) and widely repeated in coverage of his 2026 return [S13][S20], but it is a characterization; evaluators may prefer "most-subscribed streamer on Twitch."
+
+## Enneagram hypothesis evidence
+
+The draft's Type 8 (8w9, sp/so) claim is a **hypothesis**, not a fact, and this section keeps it that way.
+
+**Evidence for (verified behavior/self-report):** The anti-authority tiebreaker is unusually strong — "I don't like being told what to do" stated three-plus ways in one 2018 video, echoed six years later in different vocabulary ("be your own boss"; "when you put somebody above you, you going to stay there forever") [S1][S2]. Freedom-as-escape vocabulary ("felt like I got out of jail") [S2]. Instant, unhedged exits: factory walk-out mid-shift; telling the first sergeant to his face [S1][S2]. Protector/guardian pattern: mother's house before jewelry [S1]; enforcing AMP's sealed-membership rule [S1]; spending his own honor on Speed's exclusion [S6].
+
+**Evidence against / alternatives:**
+- **Type 3 (closest alternative):** curated physique, personal-branding professorship, encyclopedic algorithm command, enjoyment of compliments ("my favorite part of the internet right now") — all verified [S1][S3]. The draft's rebuttal (declines attention: shelved videos, seven interview-free years, credit deflection) is real but one plank is overstated: the shelved videos now go to his live channel (see First-person evidence), which weakens "declines attention" as stated.
+- **Type 6:** the enlistment pact, the sealed loyal circle, punctuality, and *staying four years in a system he hated* — the last being the single behavior the draft itself flags as unexplained by Type 8. The draft attributes the staying to his mother's "man up" message plus completion stubbornness; that is interpretation, not evidence.
+- **Type 9 inertia** (research file): another reading of the four-year stay.
+
+**Discriminating evidence evaluators can check:** whether his refusals are anxiety-shaped (6) or dominance-shaped (8) in the primary tape; whether attention is metabolized as fuel (3) or audited for who it excludes (his Rolling Stone reaction). The Germany withdrawal (room 24/7) is used by the draft as the 8→5 stress arrow; a skeptic can read the same data as baseline introversion.
+
+**Behavior the type does not explain (draft's own admission):** completing the contract after openly asking to leave. The draft handles this honestly ("His mother's sentence outlasted his own"); evaluators should note it remains unexplained rather than resolved.
+
+**Corpus context (verified):** 45 published Type 8 profiles on 9takes; 11 in the creator-media domain (24.4%) — matches the draft's claim exactly [S19].
+
+## Draft claim inventory
+
+Locations reference the draft's H2 sections. Classes: fact / quote / causal / psychological / type.
+
+- **CLM-01** — Factory story: 29 days, near-fall into the machine, walked out mid-shift (cold open + "borrowed email" section). Class: fact (self-reported). **Status: verified as self-report** [S1]. Counterevidence: none; but single-source, no independent record of the job; plant identity ("Berry's Plastic," likely Berry Global) unverified; transcript has him sitting, not standing; day-29 timing implied rather than stated. Risk if wrong: the cold open and the thesis's central image collapse.
+- **CLM-02** — Rolling Stone ranked him No. 5 most influential creator of 2024; "almost mythic figure" wording (intro, AMP section, rizz section). Class: fact + quote. **Status: verified** [S4][S5]. Risk: low — this is the draft's strongest external anchor.
+- **CLM-03** — On-stream reaction: "Where is Speed, bruh? Why was Speed not one, two, three, four, or five?" (AMP section). Class: quote. **Status: attributed** — clip-based, wording per Sportskeeda/Dexerto reporting [S6]; no primary transcript. Risk: moderate — it carries the "audits every ranking" psychological claim.
+- **CLM-04** — The anti-authority triple ("I don't like being told what to do" ×3, girlfriend line, jail/free line) from a 2018 story time (diagnosis section). Class: quote + type. **Status: verified** [S2], including the 2018-02-06 date the second pass corrected. Risk: this is the typing's named tiebreaker; it holds.
+- **CLM-05** — Asked to be sent home, then stayed the full four-year contract (Army section). Class: fact (self-reported) + psychological. **Status: verified as recounting** [S2], with the "whole three years" transcript wrinkle noted; four-year total supported by [S3]. Risk: the draft's most honest paradox; the wrinkle is a nit, not a refutation.
+- **CLM-06** — "He still calls enlisting the worst decision of his life" (TL;DR). Class: fact (present-tense). **Status: attributed/overstated** — "worst decision" is 2018 tape [S2]; his 2024 stance is softer ("part of my journey... wasted a lot of time") [S1]. Risk: low-moderate; TL;DR compression outrunning the newest evidence.
+- **CLM-07** — Deo gave him the channel; it still runs on Deo's email "underneath roughly 3.5 million subscribers and 232 million views" (empire section). Class: fact. **Status: gift/email verified** [S1]; **the subscriber attachment is unresolved** — [S3]'s 3.5M/232M may be totals across channels (research file says "across channels"), and whether the Deo-email channel is the 3.5M channel is unconfirmed. Risk: moderate — the poetry of the claim depends on the numbers sitting on *that* channel.
+- **CLM-08** — AMP: sealed six, "nobody else can join," original four, Duke oldest member, Kai "doesn't have an ego" (AMP section, TL;DR). Class: fact + quote. **Status: verified on tape** [S1], including "I'm the oldest." AMP founding date (Oct 2019) and founding-member-vs-early-recruit order: Tier 3, mildly disputed. Risk: low.
+- **CLM-09** — Union Square: charged Aug 2023, dropped May 2024 after public apology + restitution (AMP section). Class: fact. **Status: verified** [S7][S8][S10]; Duke's share was roughly $1,000 (vs. Kai's $55K). "The only legal mark on a decade of fame": unverifiable universal, no contradicting record found. Risk: low; the draft's one-paragraph treatment matches the record.
+- **CLM-10** — Rizz cluster: "He ruined a generation," 80/90/100 percentages, "teach them rizz," standing reply (rizz section). Class: quote. **Status: verified with one flattening** — the "ruined" line is Speedy quoting Duke's prior statement; Duke softens ("I wouldn't say ruined it") before repeating it [S1]. Risk: moderate for the "ruined" framing only; the percentages are clean.
+- **CLM-11** — Streamer University 2026: July 6, 2026 announcement during Kai's comeback from a nine-month hiatus; faculty incl. Lizzo, Pokimane, Ludwig; Duke "teaching personal branding" (syllabus section). Class: fact. **Status: verified** [S11][S12][S13][S20]; "personal branding" matches [S3]'s general description; the 2026 staff page reportedly frames his subject as live audience interaction. Risk: low; subject-name nit only.
+- **CLM-12** — Seven years without a sit-down interview; Germany room-24/7 withdrawal as the stress signature (stress section). Class: fact + type. **Status: verified** [S1][S2] — Speedy's research claim plus Duke's confirmation, and the Germany quote is on tape. The *interpretation* (8→5 stress arrow vs. baseline introversion) is open. Risk: the facts hold; the reading is contestable by design.
+- **CLM-13** — Dee shirt moment: December 2024, opened on stream, "and cried" (stress section). Class: fact. **Status: verified event, wording escalated** — stream of Dec 24, 2024; sources say "nearly teared up," "a little emotional," put on shades [S14][S15]; "cried" outright is stronger than any source. Additional context the draft omits: Dee died ~2015 (before fame, during Duke's enlistment) [S14]. Dee ≠ Deo is now effectively settled: Dee died ~2015, the channel gift happened 2016, and Deo got a warm present-tense 2024 shoutout. Risk: moderate — the emotional beat is real but the verb overshoots its sources.
+- **CLM-14** — "Of the 45 Type 8s profiled on 9takes, 11 are internet creators" (rabbit hole). Class: fact (internal). **Status: verified** against `src/lib/data/corpus-stats.json` (generated 2026-08-06): Type 8 count 45, creator-media 11 [S19]. Risk: none while the corpus snapshot stands.
+- **CLM-15** — India Love: "By late 2025," quote about flirting "for the entertainment of Twitch" (stress section; testimony ledger says November 2025). Class: fact + quote. **Status: disputed** — the quote is real per multiple write-ups [S16], but (a) the Complex episode appears to date to mid-2025 (Complex's own promotional TikTok is from late June 2025), not November, and (b) the sentence covers her dynamics with both DDG and Duke, and no source settles which man "he's not in a relationship" refers to. Risk: moderate — a dating error plus a possible misattribution in a mood-setting beat.
+- **CLM-16** — First major purchase: house for his mother "in 2021" (stress section). Class: fact. **Status: purchase and sequencing verified on tape** [S1]; **the 2021 date is Tier 4 only** [S21]. Risk: low; drop or soften the year if challenged.
+
+## Disputes and unresolved questions
+
+1. **The biography is a two-source self-narration.** Every Army and factory beat — the mother's "man up" line, the first-sergeant exchange, the desk nap, the duffel-bag bus, the near-fall — exists only in Duke's own two tellings [S1][S2]. Nothing contradicts them, but no independent verification is possible. Conclusions built on these beats must stay attributed to his account.
+2. **"Three years" vs. "four years."** His own 2018 telling says he "stayed the whole three years" (twice) and "was in the Army for four years" in the same video. The four-year figure is the consensus [S3], but the draft's precision ("finish the entire four-year contract") exceeds the tape's.
+3. **India Love episode: date and referent** (CLM-15). Likely mid-2025, not November 2025; the key quote may be about DDG, Duke, or both. Nothing in the draft breaks if the beat is softened, but as written it asserts more than the sources do.
+4. **The 3.5M-subscriber attachment to the Deo-email channel** (CLM-07). Totals may span channels; unresolved which channel Wikipedia counts.
+5. **Wikipedia's "$57,000 restitution"** vs. the reported ~$55K (Kai) + ~$1K each (Duke, Agent 00): the former is the combined figure. The draft doesn't cite a number, so it is safe either way; evaluators comparing sources should not read the $57K as Duke's payment.
+6. **"DeeBlock" and cousin Dee.** Tier 4 sources claim the neighborhood name honors his late cousin Dee; the 2018 transcript treats D-Block as a pre-existing neighborhood name. Which direction the naming runs is unresolved — the draft wisely asserts nothing, and evaluators should not either.
+7. **"He ruined a generation" framing** (CLM-10): Duke's on-tape softening is real; whether the draft's flat rendering is fair compression or a mischaracterization is an evaluator judgment call.
+8. **AMP founding order**: founding member (Wikipedia, his own "original four" account) vs. recruited-slightly-after (some secondary sources). The draft's "co-founded" follows his own account.
+9. **What the type does not explain** stays unexplained: completing the contract after asking to leave. The draft's mother's-sentence reading is interpretation.
+
+## Source ledger
+
+| ID | Tier | Source / outlet | Date | URL or repo path | Supports | Limitations |
+|----|------|----------------|------|------------------|----------|-------------|
+| S1 | 1 | 360 With Speedy transcript (Complex, YouTube C8QOpUByFB8) | 2024-02-01 | `youtube-transcripts/duke-dennis-360-with-speedy-2024.md` | Nearly all 2024 first-person quotes; factory; Deo; AMP; rizz; blueprint; oldest-member; first-interview | Auto-transcript (garbled passages); self-narration for past events |
+| S2 | 1 | Army story-time transcript (Duke Dennis Gaming, YouTube cslGptGMfJs) | 2018-02-06 | `youtube-transcripts/duke-dennis-army-story-time.md` | All Army-era quotes; 83K-subs snapshot; anti-authority triple | Auto-transcript, heavily garbled; recounted stories, single-source |
+| S3 | 3 | Wikipedia: Duke Dennis | fetched 2026-08-07 | https://en.wikipedia.org/wiki/Duke_Dennis | Birth name/date/place; sub counts; service years; 100K by 2018; professor role; top-five RS ranking | Aggregator; $57K figure is combined; YouTube start year differs from research file |
+| S4 | 2 | Rolling Stone (own X post) | 2024-08 | https://x.com/RollingStone/status/1828168036215382460 | #5 ranking; exact "mythic figure" wording | Promotional summary of their own list |
+| S5 | 2 | Rolling Stone, 25 Most Influential Creators of 2024 | 2024-08 | https://www.rollingstone.com/culture/culture-lists/top-social-media-influencers-creators-2024-1235084589/duke-dennis-1235084795 | Ranking entry | Not re-fetched in full this run |
+| S6 | 3 | Sportskeeda: "Where is Speed?" | 2024-08 | https://www.sportskeeda.com/us/streamers/news-where-speed-duke-dennis-slams-rolling-stone-including-ishowspeed-top-content-creators-year-list | Duke's on-stream reaction wording | Clip-based reporting; not a primary transcript |
+| S7 | 2 | AP (wire + X) | 2024-05-08 | https://x.com/AP/status/1788328042504307147 | Charges dropped; apology + payment terms | Headline-level; details via wire story |
+| S8 | 3 | Tubefilter | 2024-05-08 | https://www.tubefilter.com/2024/05/08/kai-cenat-apology-union-square-new-york-city-giveaway-chaos/ | ~$1,000-each restitution for co-defendants; apology mechanics | Secondary |
+| S10 | 3 | Wikipedia: 2023 Union Square riot | fetched 2026-08-07 | https://en.wikipedia.org/wiki/2023_Union_Square_riot | Aug 4, 2023 event; 65 arrests; charges | Aggregator |
+| S11 | 3 | Ebony: Streamer University 2026 professors | 2026-07 | https://www.ebony.com/kai-cenat-unveils-star-studded-professor-lineup-and-2026-class-for-streamer-university/ | July 6 announcement; faculty incl. Duke, Lizzo, Pokimane, Ludwig | Entertainment coverage |
+| S12 | 4 | @scubaryan_ X post (professor list) | 2026-07-06 | https://x.com/scubaryan_/status/2074306836975472870 | Full 12-name faculty list | Fan aggregator; corroborated by S11 |
+| S13 | 3 | Just Jared / Men's Journal / Yahoo | 2026-07-06 | https://www.justjared.com/2026/07/06/kai-cenat-announces-return-to-streaming-after-9-month-hiatus-missed-yall/ | "Nine-month hiatus" framing; July 6 return stream | Celebrity press |
+| S14 | 3 | Sportskeeda: Dee shirt moment | 2024-12 | https://www.sportskeeda.com/us/streamers/news-amp-duke-dennis-left-emotional-fan-sends-shirt-honoring-late-cousin-dee | Dec 24, 2024 stream; "nearly teared up"; Dee died ~2015 (via Duke's 2021 post); shirt said "DeeBlock" | Clip-based; Dee's 2015 death via quoted social post |
+| S15 | 4 | @scubaryan_ X post (Dee clip) | 2024-12-26 | https://x.com/scubaryan_/status/1872024596049973690 | "Gets a little emotional" wording; clip exists | Fan clip account |
+| S16 | 3 | Soap Central (India Love / 360 With Speedy) | 2025 | https://www.soapcentral.com/pop-culture/news-we-can-get-flirty-playful-india-love-relationship-ddg-duke-dennis-post-streamer-university | The "flirty and playful... entertainment of Twitch" quote; DDG-vs-Duke referent ambiguity | Secondary rendering of episode |
+| S17 | 1 | Complex episode page: India Love on 360 With Speedy | 2025 (mid, inferred) | https://www.complex.com/v/360-with-speedy/cFg0YSVB | Episode exists; primary source for the quote if re-watched | Not transcribed in repo; date inferred from Complex's June 2025 TikTok promo |
+| S18 | 4 | Veterans Day call clips (TikTok/IG/YT Shorts) | 2024-11-11 | e.g. https://www.tiktok.com/@jakemcgradytv/video/7436177335394569518 | Event happened (Mafiathon 2 era) | Video evidence only; no verified wording |
+| S19 | 1 | 9takes corpus stats (internal) | generated 2026-08-06 | `src/lib/data/corpus-stats.json` | 45 Type 8s; 11 creator-media | Published corpus only; regenerated nightly |
+| S20 | 3 | HotNewHipHop: Kai comeback stream | 2026-07 | https://www.hotnewhiphop.com/1000952-kai-cenat-announce-comeback-stream-streamer-university | Comeback-stream context | Entertainment coverage |
+| S21 | 4 | Mabumbe + TikTok clips (mother's house) | fetched 2026-08-07 | https://mabumbe.com/people/duke-dennis-net-worth-from-army-to-3m-empire/ | "Late 2021" house date | Content farm; date not independently anchored |
+
+## Research limitations
+
+- **No third long-form primary source exists.** His media footprint before Feb 2024 is deliberately thin; the packet could not add a third independent first-person source beyond the two repo transcripts. Everything else is clips and secondary write-ups.
+- **Auto-transcripts are noisy.** Both repo transcripts are unpunctuated ASR output with garbled passages; a handful of draft renderings (the "reputation that followed him," the "12:31" arrival) rest on readings of noisy audio.
+- **Could not verify:** Kai Cenat's Veterans Day wording (video exists, no reliable text); the exact 2026 Streamer University staff-page wording (research file's version not independently re-fetched); the India Love episode's air date and the referent of its key quote; the discharge month in 2017; the "late 2021" house date beyond Tier 4; which YouTube channel Wikipedia's 3.5M counts; the corporate identity behind "Berry's Plastic."
+- **Could not safely infer:** the direction of the DeeBlock/cousin-Dee naming; Duke's current relationship status (deliberately opaque per the research file, and the draft correctly avoids asserting it).
+- **Web checks were single-pass.** Rolling Stone's list page (S5) and the Complex India Love episode (S17) were located but not re-read in full; their contents are supported here via their own promotional posts and multiple secondary write-ups.
+
+---
+
+**Largest unresolved evidence gap:** the psychological spine of the article — the factory walk-out, the mother's "man up" line, the first-sergeant exchange, the desk nap — rests entirely on Duke's own two recountings, one of which internally wavers between "three years" and "four years" of service. Nothing contradicts these beats, but no evaluator can independently confirm them; every conclusion built on them must stay attributed to his account rather than treated as established history.

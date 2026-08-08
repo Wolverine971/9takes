@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">9takes typographic nine-section mark</title>
+  <desc id="desc">The exact condensed nine from the 9takes wordmark, divided into nine bowl sections with an amber leg.</desc>
+  <defs>
+    <text id="nine-glyph" x="512" y="900" text-anchor="middle"
+      font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+      font-size="900" font-weight="900">9</text>
+    <clipPath id="nine-glyph-clip">
+      <use href="#nine-glyph"/>
+    </clipPath>
+    <clipPath id="nine-gap-limit">
+      <rect width="1024" height="650"/>
+    </clipPath>
+    <!-- A gap ray at -110 degrees; nine 40-degree rotations divide the bowl evenly. -->
+    <path id="nine-gap-ray" d="M512 420 L341 -50"/>
+  </defs>
+
+  <!-- The wordmark glyph remains the exact outer silhouette. -->
+  <g clip-path="url(#nine-glyph-clip)">
+    <rect width="1024" height="1024" fill="var(--nine-bone, #eee8dc)"/>
+
+    <!-- The native lower terminal is amber. -->
+    <path d="M500 650 H1024 V1024 H0 V690 H500 Z" fill="var(--nine-amber, #f59e0b)"/>
+
+    <!-- Amber ninth bowl section sits directly at the typographic leg junction. -->
+    <path d="M512 420 L898 880 L512 1020 Z" fill="var(--nine-amber, #f59e0b)"/>
+
+    <g clip-path="url(#nine-gap-limit)" fill="none" stroke="var(--nine-gap, #070707)" stroke-width="14" stroke-linecap="butt">
+      <use href="#nine-gap-ray"/>
+      <use href="#nine-gap-ray" transform="rotate(40 512 420)"/>
+      <use href="#nine-gap-ray" transform="rotate(80 512 420)"/>
+      <use href="#nine-gap-ray" transform="rotate(120 512 420)"/>
+      <use href="#nine-gap-ray" transform="rotate(160 512 420)"/>
+      <use href="#nine-gap-ray" transform="rotate(200 512 420)"/>
+      <use href="#nine-gap-ray" transform="rotate(240 512 420)"/>
+      <use href="#nine-gap-ray" transform="rotate(280 512 420)"/>
+      <use href="#nine-gap-ray" transform="rotate(320 512 420)"/>
+    </g>
+
+    <!-- The expanded counter hides the ray convergence and keeps nine sections readable. -->
+    <ellipse cx="512" cy="420" rx="58" ry="140" fill="var(--nine-gap, #070707)"/>
+  </g>
+</svg>

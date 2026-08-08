@@ -134,6 +134,18 @@ Two taskers carry an extra **political-neutrality guardrail**: [NR-03 Hasan Pike
 
 ---
 
+## New workstream: 2026-08-02 audience-to-revenue validation (T-17)
+
+This workstream responds to DJ's urgent need for approximately $4,000 in monthly cash and prevents 9takes from becoming an unbounded product or content project. The latest recorded growth audit shows real attention and the strongest contribution week yet, but nearly every new contributor remains anonymous and the session waitlist remains inactive. Research must determine whether a paid decode-session beta, conversion of existing traffic, and a bounded TikTok pilot deserve DJ's limited time.
+
+| ID       | Tasker                                                                      | What it is                                                                                                                                                                                                                                                                      | Est.                     |
+| -------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| **T-17** | [Audience-to-revenue research](T-17-9takes-audience-to-revenue-research.md) | Revalidate the live funnel, research one smallest credible paid offer, evaluate TikTok as a measurable trust channel, and produce a ranked 30-day plan with a weekly time ceiling. Research only. Implementation, pricing, publication, outreach, and payments remain DJ-gated. | 1 focused research cycle |
+
+T-17 is a decision task. It must choose a sequence and stop conditions, not create another pile of parallel initiatives.
+
+---
+
 ## Notes
 
 - Six older taskers predate this folder and still live in their original locations: `docs/development/` (3), `docs/seo/` (1), `docs/design/` (1), `docs/planning/` (1). They were left in place rather than moved, since other work may link to them. Consolidating them here is a reasonable cleanup if you want it.

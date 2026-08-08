@@ -223,7 +223,8 @@ Desktop grouping remains deferred.
 
 ### P2.2 Finish mobile table fallbacks — `P12`
 
-**Status:** In progress; categories and consulting clients shipped on 2026-07-18.
+**Status:** In progress; categories, consulting clients, and the reactivation recipient pipeline shipped
+through 2026-07-31.
 
 Categories remains a seven-column table with a 120px minimum per cell on phones. Use identity-first mobile
 cards, following the stronger users/email dashboard pattern. Reserve horizontal scroll for true matrices.
@@ -231,6 +232,11 @@ cards, following the stronger users/email dashboard pattern. Reserve horizontal 
 Categories and consulting clients now swap desktop tables for identity-first cards with compact metric
 strips, trust/status context, safe truncation, and reachable row actions. The shared mobile adaptation
 layer also contains remaining true-table surfaces instead of allowing them to widen the viewport.
+
+The reactivation page now replaces its three overlapping recipient tables with one lifecycle table that
+merges eligible profiles, queue state, sequence progress, subscription state, and engagement signals.
+Queue records merge into matching enrollments instead of duplicating recipients. Phones receive the same
+sorted and filtered dataset as identity-first cards with a dedicated sort control. `P4 + P6 + P7 + P12 + P13`
 
 ### P2.3 Fix mobile controls and table semantics — `P12 + P13`
 
@@ -243,10 +249,12 @@ sortable headers rather than click handlers on `<th>` elements.
 All admin-route text inputs, selects, and textareas now hold a 16px phone size and a 44px minimum target;
 comments' dense copy and search treatment were corrected directly. Shared phone toolbars, filter rows,
 tabs, modal sizing, sticky actions, card padding, and overflow containment now converge on one system.
+The reactivation recipient table uses button-based sortable headers with `aria-sort`, plus an explicit
+mobile sort select and direction control.
 
 ### P2.4 Make content-board interactions device-independent — `P12 + P13`
 
-**Status:** Not started.
+**Status:** In progress; the reactivation recipient pipeline was extracted on 2026-07-31.
 
 Remove `window.innerWidth` layout branching, add a keyboard/touch “Move to stage” control alongside drag
 and drop, and remove button-like table rows that contain nested interactive controls.
@@ -265,6 +273,9 @@ then add focus trapping/return, `dvh` and safe-area sizing, sticky actions, and 
 Current hotspots include analytics (~6.5k lines), consulting (~3k), email dashboard (~2.3k), content board
 (~2k), retention analytics (~1.7k), and users (~1.6k). Split by tab/domain and extract shared admin table,
 filter, async-state, and modal patterns with component tests.
+
+`RecipientTable.svelte` now owns reactivation row normalization, search, filters, sorting, desktop table
+semantics, and mobile cards; the route page retains controls and email editing.
 
 ### P2.7 Finish charts and dense filter states — `P7 + P13`
 
@@ -380,3 +391,19 @@ seven-day bar summary.
   Consulting Clients, and Asset Generators: no horizontal overflow, two-column header actions, 16px
   visible inputs, compact category batch controls, desktop-table replacement, and safe long-string
   truncation. Authenticated verification against live admin data remains owed.
+
+### 2026-07-31 — Unified reactivation recipient pipeline
+
+- Consolidated Eligible Recipients, Active Queue, and Recipient Activity into one recipient lifecycle
+  model and one desktop table; queue details merge into matching enrollment rows.
+- Added name/email search, lifecycle and signal filters, sorting for all seven columns, `aria-sort`,
+  honest loaded-record counts, explicit empty state, and safe long-email truncation.
+- Added P12 identity-first mobile cards that preserve the same filters and ordering through a mobile sort
+  select; the search field remains 16px and the filter strip has an intentional horizontal-scroll cue.
+- Fixture-backed live verification passed at 1440x1000 and 390x844 in dark and light mode: one table,
+  header sorting and filters worked, cards replaced the table on phones, and page `scrollWidth` stayed
+  equal to the viewport. Authenticated real-data verification remains owed because both available local
+  browser sessions redirected the protected route to login.
+- Svelte autofixer, `pnpm check`, targeted ESLint, Prettier, and `git diff --check` pass. The repository
+  radius ratchet remains blocked only by the unrelated existing
+  `src/routes/account/+page.svelte:1243` declaration.

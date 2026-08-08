@@ -127,10 +127,14 @@
 
 {#key key}
 	{#if browser && (comments.length || initialLoading) && userHasAnswered}
-		<div class={parentType === 'comment' ? 'space-y-2' : 'space-y-3'}>
+		<div
+			class="comment-list"
+			class:comment-list--root={parentType === 'question'}
+			class:comment-list--nested={parentType === 'comment'}
+		>
 			{#each _comments as comment, index (comment.id)}
 				<div
-					class={parentType === 'comment' ? '' : 'p-1'}
+					class="comment-list__item"
 					in:fade={{ duration: 300, delay: Math.min(index * 20, 100) }}
 				>
 					<Comment
@@ -147,19 +151,13 @@
 
 		<!-- Initial loading state -->
 		{#if initialLoading && _comments.length === 0}
-			<div class="space-y-4 py-4" role="status" aria-label="Loading comments">
+			<div class="comment-skeleton-list" role="status" aria-label="Loading comments">
 				{#each Array(3) as _, i}
-					<div
-						class="rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-lg"
-						in:fade={{ duration: 300, delay: i * 50 }}
-					>
-						<div class="flex gap-4">
-							<Skeleton decorative variant="circular" width={40} height={40} />
-							<div class="flex-1">
-								<Skeleton decorative variant="text" width="25%" class="mb-2" />
-								<Skeleton decorative variant="text" />
-								<Skeleton decorative variant="text" />
-							</div>
+					<div class="comment-skeleton" in:fade={{ duration: 300, delay: i * 50 }}>
+						<div class="flex-1">
+							<Skeleton decorative variant="text" />
+							<Skeleton decorative variant="text" />
+							<Skeleton decorative variant="text" width="25%" class="mt-3" />
 						</div>
 					</div>
 				{/each}
@@ -171,9 +169,7 @@
 			<div bind:this={bottomSentinel} class="my-6">
 				{#if loading && !initialLoading}
 					<div class="flex justify-center py-6">
-						<div
-							class="flex items-center gap-3 rounded-full border border-[var(--stone-edge)] bg-[var(--stone-warm)] px-4 py-2 shadow-sm"
-						>
+						<div class="flex items-center gap-3 px-4 py-2">
 							<div
 								class="h-4 w-4 animate-spin rounded-full border-2 border-[var(--lamp-soft)] border-t-[var(--lamp-glow)]"
 							></div>
@@ -185,15 +181,8 @@
 		{/if}
 	{:else if userHasAnswered && !comments.length}
 		<div class="flex flex-col items-center justify-center py-12">
-			<div
-				class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)]"
-			>
-				<svg
-					class="h-7 w-7 text-[var(--ink-mid)]"
-					fill="none"
-					stroke="currentColor"
-					viewBox="0 0 24 24"
-				>
+			<div class="mb-4 flex h-14 w-14 items-center justify-center text-[var(--ink-mid)]">
+				<svg class="h-7 w-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 					<path
 						stroke-linecap="round"
 						stroke-linejoin="round"
@@ -209,3 +198,52 @@
 		</div>
 	{/if}
 {/key}
+
+<style>
+	.comment-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		min-width: 0;
+	}
+
+	.comment-list--root,
+	.comment-skeleton-list {
+		margin-inline: 1rem;
+	}
+
+	.comment-list--nested {
+		gap: 0.5rem;
+		margin-top: 0.5rem;
+	}
+
+	.comment-skeleton-list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+	}
+
+	.comment-list__item,
+	.comment-skeleton {
+		min-width: 0;
+	}
+
+	.comment-skeleton {
+		display: flex;
+		padding: 1.25rem 1rem;
+		border: 1px solid color-mix(in srgb, var(--stone-edge) 52%, transparent);
+		border-radius: 1rem;
+		background: color-mix(in srgb, var(--stone-warm) 72%, transparent);
+	}
+
+	@media (max-width: 520px) {
+		.comment-list--root,
+		.comment-skeleton-list {
+			margin-inline: 0.75rem;
+		}
+
+		.comment-skeleton {
+			padding-inline: 0.875rem;
+		}
+	}
+</style>

@@ -1,0 +1,18 @@
+## Grading Complete — Duke-Dennis
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Duke-Dennis | 8 | 8.5 | 9 | 8 | 8 | 9 | 8.4 | B |
+
+(Weighted: `(8×1.5 + 8.5×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7` = 8.4. Discoverability ≥ 7, so no gate cap. This is a regrade after the revision pass — prior pipeline grade was 8.5, so stability delta is 0.1.)
+
+### Key observations
+
+- **This is top-of-B, anchor-consistent output.** Compared dimension-by-dimension against the Matt-Smith B anchor, Duke matches or beats it in the places that matter: the thesis (every exit is the same exit — Army, factory, "rizz") is genuinely person-specific, and "His mother's sentence outlasted his own" holds the disconfirming fact (he *stayed* four years) instead of smoothing it, which is exactly the monocausal-thesis failure Matt-Smith was docked for. The Professor Dennis syllabus section is a bespoke form that collapses on any other subject.
+- **Deterministic checks were clean**: 0 contrast pairs, 0 untagged quotes in the audited slots, answer-block PASS. The similarity scan's single trip (0.253 vs susan-sarandon) is just the structural "rabbit hole below" pointer sentence, not argument reuse — no cap.
+- **What held it at B rather than B+** (all fixable in one pass): three load-bearing quotes in the AMP section have no inline venue/date (the sealed-six rule, the Kai "no ego" verdict, the "Big Bang Theory" line); the follower counts still lack a named publisher (the draft's own open RQ-01); and one subtype sentence ("for a self-preservation Eight…") bleeds typology into the body stress section.
+- **Serial-reader flag, no cap applied**: this is the third consecutive graded draft to close on a name/label beat (Keira's signed "Natalie Portman," Victoria's noun printed over her head, Duke's "a sound with no orders inside"). Each is strong alone — Duke's is the best of the three — but the move is hardening into house furniture. Worth varying in the next drafts.
+
+Grade written to the frontmatter (`content_quality` block) and full feedback saved to `docs/content-analysis/grades/Duke-Dennis.review.md`. No legacy QUALITY GRADE comments existed in the body.
+
+**Total graded this session: 1**

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">9takes hardcore typographic identity board</title>
+  <desc id="desc">A distressed presentation of the exact wordmark nine divided into nine sections with an amber leg.</desc>
+  <defs>
+    <text id="board-nine-glyph" x="512" y="900" text-anchor="middle"
+      font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"
+      font-size="900" font-weight="900">9</text>
+    <clipPath id="board-nine-clip">
+      <use href="#board-nine-glyph"/>
+    </clipPath>
+    <clipPath id="board-nine-gap-limit">
+      <rect width="1024" height="650"/>
+    </clipPath>
+    <path id="board-nine-gap-ray" d="M512 420 L341 -50"/>
+    <filter id="rough-edge" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035 0.6" numOctaves="2" seed="9" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.8" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="paper-noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" seed="19" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <g id="typographic-nine" clip-path="url(#board-nine-clip)">
+      <rect width="1024" height="1024" fill="#eee8dc"/>
+      <path d="M500 650 H1024 V1024 H0 V690 H500 Z" fill="#f59e0b"/>
+      <path d="M512 420 L898 880 L512 1020 Z" fill="#f59e0b"/>
+      <g clip-path="url(#board-nine-gap-limit)" fill="none" stroke="#070707" stroke-width="14" stroke-linecap="butt">
+        <use href="#board-nine-gap-ray"/>
+        <use href="#board-nine-gap-ray" transform="rotate(40 512 420)"/>
+        <use href="#board-nine-gap-ray" transform="rotate(80 512 420)"/>
+        <use href="#board-nine-gap-ray" transform="rotate(120 512 420)"/>
+        <use href="#board-nine-gap-ray" transform="rotate(160 512 420)"/>
+        <use href="#board-nine-gap-ray" transform="rotate(200 512 420)"/>
+        <use href="#board-nine-gap-ray" transform="rotate(240 512 420)"/>
+        <use href="#board-nine-gap-ray" transform="rotate(280 512 420)"/>
+        <use href="#board-nine-gap-ray" transform="rotate(320 512 420)"/>
+      </g>
+      <ellipse cx="512" cy="420" rx="58" ry="140" fill="#070707"/>
+    </g>
+  </defs>
+
+  <rect width="1200" height="1200" fill="#070707"/>
+  <rect width="1200" height="1200" filter="url(#paper-noise)" opacity="0.085"/>
+  <path d="M1 20 H1199 M1 1177 H1199 M18 1 V1199 M1181 1 V1199" stroke="#eee8dc" stroke-opacity="0.16" stroke-width="2"/>
+
+  <g transform="translate(190 48) scale(0.8)" filter="url(#rough-edge)">
+    <use href="#typographic-nine"/>
+  </g>
+
+  <g fill="#eee8dc" text-anchor="middle" filter="url(#rough-edge)">
+    <text x="600" y="920" font-family="Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif" font-size="106" letter-spacing="28">9takes</text>
+    <text x="600" y="987" font-family="'Courier New', monospace" font-size="21" letter-spacing="7">NINE PERSPECTIVES / ONE BLIND SPOT</text>
+  </g>
+
+  <g transform="translate(1015 1005) scale(0.145)" filter="url(#rough-edge)">
+    <use href="#typographic-nine"/>
+  </g>
+
+  <g stroke="#eee8dc" stroke-opacity="0.08" stroke-width="1">
+    <path d="M74 143 l31 -4 M986 83 l52 5 M81 1082 l44 -3 M1048 768 l64 7 M174 639 l28 -2 M918 1108 l35 -3"/>
+  </g>
+</svg>

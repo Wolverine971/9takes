@@ -1,0 +1,59 @@
+The file is fully drafted and has already been through fresh-eyes and second-pass edits. I'll map the argument thread and evaluate cohesion and transitions.
+
+## Cohesion Audit: Duke-Dennis.md
+
+### Central Thesis
+
+Duke Dennis is a Type 8 whose entire biography — the Army regret, the factory walkout, the sealed AMP circle, the hatred of "rizz," the name he never asked about — is one repeating pattern: refusing to live inside arrangements other people made for him.
+
+### Thread Map
+
+1. **Cold open / intro** — The factory walkout and the "rizz" refusal are framed as the same act ("Both walks are the same walk"), stating the thesis explicitly before any section begins.
+2. **What is Duke Dennis's personality type?** — Formalizes the pattern as Type 8 using his own repeated words ("I don't like being told what to do," three times), briefly pressure-tests Type 3, defers the full counter-case to the Rabbit Hole.
+3. **Why Duke Dennis calls the Army his biggest regret** — The biographical origin of the allergy: reception night, the "I don't want to be here" confession, and the paradox that he stayed anyway. Plants "Germany deserves its own section" for later payoff.
+4. **How Duke Dennis built an empire on a borrowed email** — The escape route: YouTube discovered inside the contract, the first check that ended the factory, consistency doctrine, and the physique as the one self-governed territory.
+5. **Why AMP will never add a seventh member** — The pattern applied to relationships: a sealed circle he controls, the one legal cost of standing in someone else's crowd (Union Square), and ranking-audits on behalf of excluded friends.
+6. **Why Duke Dennis hates the word rizz** — The thesis's payoff: a label repeated daily becomes a schedule someone else wrote, explicitly linked back to the Army ("four years performing somebody else's script").
+7. **Professor Dennis's syllabus** — The inversion: he teaches the exact meme economy that claimed him, with the Unit 3 contradiction explicitly cashed and Unit 4 named as the self-defense.
+8. **What stress does to Duke Dennis** — Pays off the planted Germany promise; withdrawal-to-Five under pressure, then the doors opening (first interview, Dee shirt, growth-to-Two provider moves).
+9. **The name he never asked about** — The close gathers every thread (Army, factory, Aspen, Unc) into the aunt's name: "a sound with no orders inside."
+
+The map reads as a coherent outline top to bottom. Every section serves the thesis; removing any one of them would leave a hole in the argument.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 9/10  | 0      |
+| Section Transitions     | 8/10  | 2 adequate-not-strong |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+**Overall Cohesion Score: 9/10**
+
+### Transition Ratings
+
+- Intro → Diagnosis: **Strong** (thesis stated, then formalized)
+- Diagnosis → Army: **Adequate** — diagnosis ends on the Type 3 counter-read, Army opens with childhood; but the diagnosis section quotes the Army story heavily, so the reader arrives primed, and the search-intent H2 does the reset legitimately
+- Army → Empire: **Strong** ("The career started inside the contract" carries the keyword directly)
+- Empire → AMP: **Adequate** — "AMP chaos from the Atlanta house" appears two sentences before the AMP section opens with "the Atlanta-based collective," so the link exists but sits slightly upstream of the boundary
+- AMP → Rizz: **Strong** (Kai carries over as the bridge; ranking-audits → the biggest label of all)
+- Rizz → Syllabus: **Strong** ("The man who refuses every label the internet writes for him now grades students on how to build one" is an explicit hinge)
+- Syllabus → Stress: **Strong on arrival** — the topic switch is real, but "Germany is where you see what pressure actually does to him" pays off a promise planted four sections earlier ("Germany deserves its own section of this story"), which is better than any local bridge
+- Stress → Ending: **Strong** (the close explicitly gathers the Army, the factory, and Aspen)
+
+### Fixes Applied: 0
+
+I evaluated the two "adequate" boundaries for bridging sentences and decided against both, and per the non-interactive protocol I'm logging the decision rather than asking:
+
+1. **Diagnosis → Army**: any bridge here ("That allergy started somewhere...") would be more mechanical than the current hard cut. The search-intent H2 format deliberately lets headers reset topics, and the Army material is already live from the diagnosis quotes.
+2. **Empire → AMP**: the "Atlanta house" → "Atlanta-based collective" echo already does the work; moving the physique paragraph to strengthen the boundary would break the section's internal money-body parallel, a worse trade.
+
+No orphaned threads found — every planted setup pays off (Germany section promise, Berry's Plastic callback, the Twitch setup for India Love's "entertainment of Twitch" line, the intro's Rolling Stone ranking landing in the AMP section). No false or formulaic transitions. The long-range plant-and-payoff structure (Germany, the door metaphor in the stress section, the name/label thread) is the piece's strongest cohesion asset.
+
+### What Was Preserved
+
+Everything — frontmatter, all HTML comments/ledgers, Svelte-adjacent markup, internal links, and all prose. Zero edits were needed.
+
+### Remaining Concerns
+
+None structural. The prior fresh-eyes concerns (Rolling Stone duplication, missing Dee moment, Union Square omission, clock-metaphor pileup, the Unit 3 contradiction) were all resolved in the second pass and verified present in the current text. The draft is cohesion-ready for the next pipeline stage.

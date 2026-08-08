@@ -10,6 +10,53 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-08-05 — Status brief: Reels E1 confirmed (26–45x) with nothing acting on it; IG drafting theory falsified; create recovered but all 3 new drafts below bar
+
+- Brief: [`docs/daily-briefs/2026-08-05_marketing-status.md`](../daily-briefs/2026-08-05_marketing-status.md).
+- **Reels E1 CONFIRMED, stronger than hypothesized** (08-03 insights pull in `docs/instagram/reels/experiment-log.md`): one 2-second Reel reached 375 accounts vs 8–21 views for every carousel — 26–45x; 98.4% of account views from Reels; 94.3% non-followers. Logged decision: promote Reels to the spine. **Not yet acted on:** queue still 16 carousels / 6 Reels, native 9takes Reel never posted, Chappell Roan Reel missed its 08-04 target (`copy_ready`), One Take ep 1 frozen since 07-25. Robert Greene carousel confirmed the ceiling: 8 views / 1 like at 24h.
+- **Time-boxed opening:** Nolan's Odyssey — both major niche accounts posted Odyssey personality content within 24h; a nine-character Odyssey cast read is the most native available idea, stale in ~a month. Recommendation #1: ship it as the first native 9takes Reel.
+- **IG comment leg: v6 falsified the drafting theory.** 3 final-copy comments delivered 08-04 + 3 more 08-05, none posted; 7 sessions, 0 comments total. Agent's fork to DJ: authorize auto-posting the top suggestion, or retire the leg. It also recommends retiring the 48/43-day owed replies. Counter-evidence on record: the one posted comment (Jul 02) drew 86 likes.
+- **Create pipeline recovered** (stableronaldo filename bug resolved): StableRonaldo 8.4 B (image-blocked), Nara-Smith 8.1 (perspective fail_after_revision, manual 08-04 run), Caitlin-Clark 7.9 C (regrade dropped from 8.4) — **all below the 8.5 gate.** Publish at 6 straight zero days (nothing since jack-antonoff 07-30); the 08-05 publisher run died silently (53-byte log, new failure signature). Standing no-Canva unblocks for the 3rd brief: victoria-justice, keira-knightley (supervised regrades); christopher-nolan images-only. `missing_full_image` 54 → 56.
+- **NEW outreach artifact:** `docs/outreach/2026-08-04_nine-mirrors-podcast-pilot.md` — Nine Mirrors audience-signal-map pilot (Huberman / Ferriss / Theo Von), drafting only, nothing sent.
+- **Unchanged:** Quora 78 days dark (7th brief); 14 distribution assets unfired; pop-culture 18 unpublished (5th brief); growth bets #1/#2 + NineChorus fix un-green-lit (3rd audit); reactivation pause pending (stop condition met 08-03); GSC still short of T-09 clean window; content-ops 0/10 approved.
+- **Owner:** DJ. Top asks: green-light Odyssey Reel, answer the IG auto-post-or-retire question, green-light growth bets, pause reactivation, fire the two regrades.
+
+### 2026-08-03 — DJ closed the Instagram fork; Robert Greene published with weak early traction
+
+- **Decision:** fold reply drafting into `/instagram-warmup`, but keep posting manual/asynchronous. The new contract returns 0–3 grounded suggestions and is allowed to return zero; generic comments that could fit another post are rejected.
+- **Why:** DJ uses the suggestions opportunistically, but the prior split workflow produced too much generic, inauthentic copy and too little value.
+- **Robert Greene:** published on Instagram 08-02. The existing dashboard snapshot confirms the weak start: **8 views / 1 like** at ~24 hours. Queue moved `qa` → `published`; the live URL and 7-day metrics are still needed. The current experiment read points to carousel distribution, not necessarily the Greene creative itself.
+- **Create pipeline:** canonical filename resolution approved across both the pipeline and nightly wrapper; `stableronaldo` should resume the existing `Stable-Ronaldo.md` after create rather than spend retry 3/3 or overwrite the draft.
+
+### 2026-08-03 — Unattended status brief: DJ broke the publish drought by hand, then it re-jammed on image debt; create hit a filename bug; growth reversed
+
+- Brief: [`docs/daily-briefs/2026-08-03_marketing-status.md`](../daily-briefs/2026-08-03_marketing-status.md).
+- **Growth freshness gate PASSED:** weekly audit ran today (growth-log newest entry `2026-08-03`); headline + biggest leak folded verbatim.
+- **Growth headline (verbatim):** _"the 07-20 spike did not compound — contributions 14 -> 4, and the matured cohort returned 0 of 9. Root cause candidate found: 82% of registered profiles have no Enneagram type."_ Native gate conversion 16.3% → **5.4%**; six straight days of zero contributions (07-29 → 08-03) on 23 gate fps, with gate volume holding (conversion drop, not exposure drop); last week's 22% contributor return was an artifact and corrects to **0%** under a strict `>24h` window. New leak: **the loop turns once and dies** because the reveal has nothing to personalize with. Register-page conversion is strong and starved (4 fps → 3 profiles; 0.1% of visitors reach it). PA dwell best in window (25.6s) and converts ~0.
+- **Publish drought BROKE — by hand, not by cron.** Ten drafts carry publish dates 07-27 → 07-30 (disk `published: true` **392 → 401**), but the auto-publisher shipped only jack-antonoff (07-30). The other nine were manual, with supervised regrades visible in frontmatter (Mira-Murati 8.4 → 8.6, Jason-Sudeikis 8.1 → 8.5, both v2). This executed the 07-27 brief's Recommendation #2.
+- **Then it re-jammed: 4 straight publish failures 07-31 → 08-03.** Top blocker class **flipped from stale grades to missing images** — `missing_full_image=54` / `missing_thumbnail=54` now beats `stale_grade_rubric_v1` (34 → 30). Images are manual Canva only per `[[type-image-pipeline]]`, so the dominant blocker has no automation path. No-image unblocks available: **victoria-justice** and **keira-knightley** (regrade delta + epigraph tag each); **christopher-nolan** needs images only.
+- **NEW create bug, deadline-bound:** `scripts/run-blog-pipeline.sh:109` builds `DRAFT_PATH="src/blog/people/drafts/${PERSON}.md"` from the queue name. Cron passed `stableronaldo`; create wrote `Stable-Ronaldo.md`. Nine downstream stages skipped **twice** (08-02, 08-03) on a good draft sitting on disk. `retryCount: 2` — tonight is retry 3/3. Narrow class: only breaks on single-token handles that are really two words (APFS case-insensitivity covers `caitlin-clark`). The 08-03 wasted run doubled as a verify pass and caught three factual errors the 08-02 run self-certified clean.
+- **Instagram: sourcing healthiest ever, output still ZERO.** Clean warmups 07-30 → 08-02 on the dedicated profile; **new failure mode 07-28/07-29 — Claude weekly usage cap** (`You've hit your weekly limit`), not session eviction. Zero comments posted for 4+ consecutive sessions; newest replies doc is 07-26 (8 days). Melissa owed ~46 days; Candice first touch queued on the 8th consecutive scan. **The warmup agent escalated a two-option fork to DJ:** fold reply-drafting into the warmup cron, or cut the job to 2-3x/week and accept sourcing-only. It recommends the former.
+- **Content-ops queue live and RED:** 22 items, **0/10 approved or scheduled**; Robert Greene in `qa` targeting 08-03 (today) awaiting only DJ's review; Chappell Roan Reel targets 08-04.
+- **Growth's standing PA port is now BLOCKED:** `NineChorus.svelte` retokenized 07-29 (`84c055bd`) removed hardcoded fallbacks for `--night-900` / `--ink-50`, which are undefined in `src/scss/index.scss`; light-mode PA visitors get a near-white panel with a ghost CTA. Verified still unfixed on disk. Fix contrast before porting.
+- **SEO:** GSC refreshed 08-01 (runDate 2026-08-01) but window starts 05-01, straddling the 05-04 URL fix by 3 days — T-09's clean `--days 69` spec still unmet. corpus-stats + sitemap + crosslinks regenerated 08-02/08-03.
+- **Unchanged:** Quora **76 days dark**; 14 distribution assets unfired; pop-culture 18 unpublished (4th brief running); signups 0 (5th week); waitlist 0 (10 weeks); outreach unchanged since 07-15.
+- **Owner:** DJ. Open decisions in brief §"Open questions for DJ": create-bug fix tonight, publish image-debt policy, IG fork, Robert Greene approval, growth bets + NineChorus sequencing, pause reactivation, T-11 treadmill, GSC clean window, Type 2 anchor gap, Quora + distribution standing calls.
+
+### 2026-08-02 — Instagram content-ops agent and single production queue launched
+
+- Created focused `instagram-content-ops` agent plus `/marketing-content-sprint`; the existing `marketing-pm` remains the cross-channel status owner.
+- Canonical queue: [`docs/marketing/content-ops/queue.json`](./content-ops/queue.json). Validation: `node scripts/check-marketing-content-queue.mjs`.
+- Baseline is honest and RED: **0/10 approved or scheduled**, **12/15 copy-ready or later**, **20/20 triaged or later**, design WIP **3/3**. The bottleneck is rendering/QA/approval, not ideas.
+- Seeded five campaigns and the first three weeks of target dates. Operating default: 5 feed posts/week split 3 carousels + 2 Reels, with story support and a 14-day approved buffer.
+- First item advanced: Robert Greene two-slide lore carousel moved from `copy_ready` to `design_ready`; locked production brief at [`docs/marketing/content-ops/briefs/robert-greene-lore-carousel.md`](./content-ops/briefs/robert-greene-lore-carousel.md).
+- Next: render and QA Robert Greene before opening more design WIP; then Chappell Roan Reel and Pedro Pascal lore carousel.
+- Owner: `instagram-content-ops`; DJ retains approval and publishing boundary.
+- **Same-run production update:** Robert Greene is now rendered and passed internal visual/dimension QA at 1080x1350. Queue moved to `qa` with exact assets recorded; current WIP is design **2/3**, QA **1/2**. DJ's review is the only gate before `approved`.
+- **Format refinement:** Personality Lore Stack is now a three-slide contract: cover → lore → **“A Window Inside.”** The third slide is an evidence trail—not an analysis grid: four to six dated moments, exact short quotes, concrete choices, documented evolution, and one final open question. Reusable contract: [`docs/marketing/content-ops/templates/window-inside-slide.md`](./content-ops/templates/window-inside-slide.md). Robert Greene is the first test case, rebuilt around five records from 1960s Baldwin Hills through the 2018 stroke and his post-stroke work on the sublime.
+- **Color-harmony pass:** The complete Robert Greene carousel now follows the approved contained-violet portrait plan. The source violet stays inside a `#2C1F28` media well under the calibrated filter; the competing amber eye bar is gone. Amber is limited to illuminated kickers and closing question fields, canonical Type 5 sky carries dossier data, and passive chrome/dividers are neutral stone and ink. All three exports passed full-size and 25%-scale visual review without modifying `static/types/`.
+- **Layout cleanup after review:** Removed the visible portrait card and centered Greene in a borderless full-width well; expanded the six lore rows to the safe-area edges; replaced the evidence diamonds with circular markers centered on the timeline; aligned headers back to the brand chrome while preserving the wider data rows.
+
 ### 2026-07-27 — Unattended status brief: best contribution week ever; publish jammed 7 days; IG session FIXED but posting at zero
 
 - Brief: [`docs/daily-briefs/2026-07-27_marketing-status.md`](../daily-briefs/2026-07-27_marketing-status.md).
@@ -201,6 +248,17 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-08-03 — Current blockers needing DJ / eng decision
+
+- **Create engine, hard deadline tonight:** `stableronaldo` at `retryCount: 2`; the 02:00 run is retry 3/3. Root cause confirmed at `scripts/run-blog-pipeline.sh:109` (`${PERSON}.md` path assumption vs the `Stable-Ronaldo.md` the create stage actually writes). Fix the resolution or rename the queue entry.
+- **Publish gate, structural (blocker class changed):** `missing_full_image=54` is now the largest class, ahead of `stale_grade_rubric_v1=30`. Images are manual Canva only — no automation path exists or should be built. Needs a standing batch decision from DJ, or a gate change so image-blocked drafts stop masking real near-misses.
+- **Instagram, decision not execution:** the warmup agent asked DJ to choose between folding reply-drafting into the warmup cron or cutting the job to 2-3x/week. Four consecutive sessions produced zero posted comments; a fifth queue is worse than either answer. Also still owed: browser rename ("Browser 1" → "9takes.com"), 3rd brief running.
+- **Growth PA port BLOCKED by a UI regression:** NineChorus light-mode contrast (see 07-29 `84c055bd`). Restore explicit contrast before the standing port bet, or it lands invisible.
+- **Reactivation email is losing and over-enrolled:** `reactivation_zombies` launched against the explicit hold condition; 90 people touched → 1 click, 0 returns. Growth recommends pausing both dormant and zombies and rewriting the CTA.
+- **Content-ops runway RED:** 0/10 approved; Robert Greene's target date is today and DJ's review is the only gate.
+- **Carried:** Quora 76 days dark (revive or retire, 6th brief); 14 distribution assets unfired; T-11 unfixed so the QUALITY GRADE leak regenerates (212 people drafts still carry the marker); GSC window still straddles the 05-04 URL fix.
+- **Resolved since 07-27:** the 7-day publish drought (DJ cleared 9 by hand with supervised regrades); GSC staleness; Instagram session eviction stays fixed.
+
 ### 2026-07-20 — Current blockers needing DJ / eng decision
 
 - **Growth activation (product/eng) — NOW the top move:** the give-first/Chorus mechanic is proven (12% wall, full loop turn) but quarantined to ~0.6% of traffic. Port it above the fold onto personality-analysis, where the ~4,260-visitor firehose lands with 0 capture. Also: scale masking-question 567 (the only native `contribution` source).
@@ -261,6 +319,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-08-03](../daily-briefs/2026-08-03_marketing-status.md) — growth reversed (contributions 14 → 4, gate 16.3% → 5.4%, contributor return corrects to 0%, 82% of registrants untyped); DJ broke the publish drought by hand (392 → 401 published, 9 manual with regrades) and it re-jammed in a day with image debt (54) overtaking stale grades (30); NEW create filename bug at `run-blog-pipeline.sh:109` burning retry 3/3 tonight; IG sourcing clean but zero comments posted 4+ sessions (agent escalated a fork) + new Claude weekly-cap failure mode; content-ops queue RED 0/10 approved; PA port blocked by NineChorus light-mode regression; Quora 76 days dark.
 - [2026-07-27](../daily-briefs/2026-07-27_marketing-status.md) — best contribution week ever (14 comments, 10 humans; gate 15-19%, homepage 18.8%) but 9/10 contributors evaporate unreached; publish jammed 7 days (0 since julia-fox; 92 drafts on v1 rubric, victoria-justice fastest unblock); create recovered to cap; IG session FIXED (dedicated profile live 07-26 PM) but replies still unposted; GSC refreshed 07-25; reactivation launched (50 enrolled, 0 clicks).
 - [2026-07-20](../daily-briefs/2026-07-20_marketing-status.md) — growth loop PROVEN (0→9 comments, native funnel + Chorus live, one full loop turn) but quarantined to ~0.6% of traffic; publish valve reopened (10+ posts, both prior blockers cleared); create timed out (travis-kelce, no draft); IG escalated dark 17/20.
 - [2026-07-13](../daily-briefs/2026-07-13_marketing-status.md) — growth fresh (biggest visitor week converted to ~nothing); bottleneck flipped create→publish (0 posts 3 days); IG fully dark 7/7; GSC refreshed; new scout (Truell top pick).

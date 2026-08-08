@@ -129,3 +129,19 @@
 ## Relationship History Addendum — 2026-07-27 (AM cron warmup)
 
 - **2026-07-27 · Re-verified · DbQbO7OG4Jc** — "Things we say" question carousel at 23h: 1.1K likes / 17 comments (was 11 at 6h) / 23 shares. Window still open, post-mode still correct; Melissa replying to commenters individually. No new post since (the "IF YOUR TYPE COULD WHISPER" grid tile is a 27-week-old post from Jan 17, not fresh). Two NEW pond self-IDs in thread since yesterday's scan: @trace_carpenter (10h, "The 6 list. I feel very understood (and a bit uncomfortable) 😂" — anxiety/6) and @twogirlzstuff (11h, "2 here - the lil 'why can't everyone leave me alone' snuck in there had me cackling" — Type 2). Owed candy reply now ~39 days; 07-25/07-26 queues still unposted.
+
+## Relationship History Addendum — 2026-08-05 (AM cron warmup)
+
+- **NEW POST · Dbn06Sfm5Yr** (23h at scan) — IFS-flavored "parts" post. 369 likes · **11 comments** · 7 shares. Caption: _"Some of these parts come out all the time. Some are known well. Some peek out now and again. Some are hiding and waiting to be let out into the light. What other parts of yourself do you love?"_
+- 🚫 **No reply suggested — media would not render.** No video element and no readable image alts returned; the caption alone is four abstract lines with a closing question. Per the standing carousel/media constraint, **skipped rather than guessed at.** Logged to the Watch table.
+- 🎯 **@alignedsoulco is live in this thread** (3h: _"I do be sucking the marrow."_) and @9takesdotcom is visible in the liker list. **This is the surface the 08-04 recommendation was pointing at** — the 43-day-old owed reply-to-reply on her June thread should be **retired**, and both she and Melissa re-approached on a fresh, caption-carried post. Melissa's owed candy reply-to-reply is now **48 days**; same recommendation.
+- **New pond name: @love4123** (22h, 2 likes) — _"A 9 here . This is spot on ."_ A **live Type 9 self-ID**, which remains the rarest find in the whole pond map. Melissa already replied, so no opening for us here, but log the handle: 9s surface in other people's Enneagram-native threads, not on their own grids. Consistent with the 08-02 finding on @thesecurerelationship.
+- Other thread names: @leafherwild, @karenhickswellness, @dp.waldman, @miamasha11 — all light reactions, Melissa replying individually to each (her standing pattern).
+- Follower count 71.1K; 857 posts.
+- **Next sweep: look specifically for a caption-carried post.** Her IFS/media-heavy posts are structurally unworkable for us; her question-carousels (e.g. DbQbO7OG4Jc) are the format that has always worked.
+
+## Relationship History Addendum — 2026-08-06 (AM cron warmup)
+
+- **Swept, no new post** since Dbn06Sfm5Yr (the IFS "parts" post, now ~2d, media-unreadable, skipped 08-05). Clean negative; nothing queued.
+- Grid required one reload to render (site-wide profile-grid flakiness this session), then read fine.
+- Standing recommendation unchanged: wait for her next caption-carried question post, then re-approach her and @alignedsoulco together with fresh (not owed-debt) volleys.

@@ -1,0 +1,18 @@
+{
+	"person": "kate-middleton",
+	"draft_path": "src/blog/people/drafts/kate-middleton.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-06_020803_kate-middleton",
+	"perspective_review_dir": null,
+	"perspective_initial_status": "not_run",
+	"perspective_final_status": "not_run",
+	"completed": false,
+	"halt_reason": "draft_missing_after_stage_1_create",
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": null,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-06T06:11:04.847Z"
+}

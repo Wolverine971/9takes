@@ -5,7 +5,7 @@
 **For:** the agent assigned to consolidate the cannibalizing Enneagram Corner clusters into their winners and 301 the losers.
 **Owner:** DJ
 **Created:** 2026-07-15
-**Status:** Not started. Scoped and route-verified 2026-07-15. Every merge below is blocked on its salvage step (§2.1), nothing else.
+**Status:** In progress. Anxiety and communication clusters implemented locally 2026-08-01; deployment and live search-index sync pending. Compatibility remains blocked by `T-05` source verification, so teams is the next actionable cluster in §4 order.
 **Related:** `docs/content-analysis/2026-07-15_enneagram-blog-audit.md` §5 (the authoritative merge/kill list), §8 item 9 (the shipping order), §9.2 (the mental-health trap). Taskers `T-05` (compatibility-matrix rewrite, owns the 457-couple merge itself) and `T-09` (post-merge internal-link and sitemap hygiene, if split out).
 
 ---
@@ -127,7 +127,7 @@ Converting all five to 301 is part of this tasker. Two of the five need their **
 | `enneagram-types-being-direct`             | `enneagram-communication-styles`   | target becomes a loser (§4.3) | Repoint to `relationship-communication-guide`, 301 |
 | `enneagram-communication-in-relationships` | `relationship-communication-guide` | already the winner            | 301 only, target unchanged                         |
 | `enneagram-types-overview`                 | `enneagram-tldr`                   | unaffected by any merge       | 301 only, target unchanged                         |
-| `enneagram-test`                           | `enneagram-test-comparison-2025`   | unaffected by any merge       | 301 only, target unchanged                         |
+| `enneagram-test`                           | `enneagram-test-comparison-2026`   | updated by the 2026 edition   | 301 only, keep the current 2026 target             |
 
 **Why repoint rather than chain.** If you only flip the status, `enneagram-communication-overview` 301s to `enneagram-communication-guide`, which then 301s to `relationship-communication-guide`. That is a two-hop chain. It resolves, but it bleeds equity, burns crawl budget, and is trivially avoidable. Point every source at the final destination.
 
@@ -169,6 +169,8 @@ Keeping the file preserves the salvage source in-tree, which is the cheap insura
 
 ### 4.1 Anxiety (three-way)
 
+**Local implementation completed 2026-08-01.** The self-fulfilling anxiety mechanism now leads the canonical guide; both losers are `published: false`; both old slugs return a one-hop 301 to the absolute mental-health URL while preserving the query string; and 38 internal links across 32 files point directly to the winner. The regenerated sitemap contains 663 URLs and excludes both losers. The remote search-index dry run would update the winner and unpublish the two stale rows; run the live sync only after deployment. The production build, asset budgets, five-item FAQ JSON-LD, local redirect checks, `git diff --check`, and zero-orphan audit pass.
+
 - **Winner:** `mental-health/enneagram-anxiety-complete-guide` (7 clicks, consolidating)
 - **Losers:** `enneagram-anxiety-management-guide` (not indexed), `anxiety-and-enneagram-types-guide` (0 clicks)
 - **Salvage first:** the management-guide's buried thesis, that **each type's anxiety manufactures the outcome it fears**. The audit notes it is announced as "the most important insight in this entire article" and buried at 90% depth. Lift it and make it the winner's **lede**.
@@ -178,6 +180,8 @@ Keeping the file preserves the salvage source in-tree, which is the cheap insura
 
 ### 4.2 Compatibility (guide into matrix)
 
+**Skipped on 2026-08-01.** `T-05` is blocked because the cited source no longer supports the proposed 457-couple salvage asset. The matrix, guide, and redirect remain unchanged; do not consolidate this pair until a verifiable replacement source or revised salvage plan clears that dependency.
+
 - **Winner:** `enneagram-compatibility-matrix` (81 clicks / 10,735 imp / pos 11.9)
 - **Loser:** `enneagram-compatibility-guide` (0 clicks / 246 imp, graded 5.5)
 - **Salvage first:** the **457-couple dataset**. Four pairings account for 73.4% of 457 couples, roughly 9x chance. The guide then concludes this proves pairings do **not** cluster, which is exactly backwards. **Correct the inversion during the lift.** The data is real and it is the matrix's evidentiary spine; the conclusion attached to it is wrong and must not travel with it.
@@ -185,6 +189,8 @@ Keeping the file preserves the salvage source in-tree, which is the cheap insura
 - **Dependency:** the salvage-and-correct work is **T-05's job**, not this tasker's. T-05 owns the matrix rewrite (title, chart above the fold, the 81-vs-45 promise) and the 457-couple graft lands inside it. **T-07 owns the 301 and the ordering.** Do not do T-05's work here and do not 301 the guide until T-05 confirms the data has landed in the matrix and renders. If T-05 has not shipped, skip to §4.3 and come back.
 
 ### 4.3 Communication (four-way, plus the 302 conversion)
+
+**Local implementation completed 2026-08-01.** The winner now includes three practical scripts and an avoid-list for every Enneagram type, salvaged and integrated before the redirect work. All three losers are `published: false`, removed from the manual blog index, and return a one-hop 301 to the winner with query strings preserved. All five legacy aliases now use 301s; the three communication aliases point directly to the final winner, `enneagram-types-overview` points to `enneagram-tldr`, and the generic test alias retains the separately completed 2026 target. The cleanup repointed 99 old communication-URL references across 80 source files. The regenerated full sitemap contains 660 URLs and includes only the winner. The accumulated Rank 6 remote-index dry run reports two winner updates, five stale-row unpublishes, 152 unchanged rows, and zero errors; the live sync remains pending until deployment. The winner returns 200, all six communication source/alias routes tested return direct 301s, its JSON-LD parses with ten FAQ questions, the orphan audit remains at zero, `git diff --check` passes, and the production build plus asset-budget ratchets pass.
 
 - **Winner:** `relationship-communication-guide` (1 click / 2,120 imp / pos 33.9). It owns 69% of the cluster's impressions and position 33.9 is upside, not a verdict.
 - **Losers:** `enneagram-communication-guide` (0 clicks on 6,111 words), `enneagram-communication-styles`, `enneagram-communication-tips`

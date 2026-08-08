@@ -1,37 +1,11 @@
 {
-  "lastUpdated": "2026-08-06T06:19:10Z",
+  "lastUpdated": "2026-08-08T15:33:35Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
   "queue": [
-    {
-      "name": "duke-dennis",
-      "displayName": "Duke Dennis",
-      "type": null,
-      "priority": 64,
-      "priorityReason": "2.9M+ Twitch following, core AMP member and a constant presence in Kai Cenat content, so he cross-links directly into the two highest-traffic pages on the site (iShowSpeed 12,312 and Cenat 2,621 impressions).",
-      "estimatedTraffic": "high",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-07-25",
-      "retryCount": 1,
-      "strategicValue": "creator-economy-cluster"
-    },
-    {
-      "name": "lebron-james",
-      "displayName": "LeBron James",
-      "type": null,
-      "priority": 63,
-      "priorityReason": "Most famous active athlete on earth, late-career legacy narrative running; site has almost no US team-sport athletes and zero NBA coverage",
-      "estimatedTraffic": "very-high",
-      "searchVolume": "very-high",
-      "personaTitle": null,
-      "addedToQueue": "2026-07-18",
-      "retryCount": 0,
-      "strategicValue": "sports-icon-cluster"
-    },
     {
       "name": "noah-wyle",
       "displayName": "Noah Wyle",
@@ -42,7 +16,7 @@
       "searchVolume": "high",
       "personaTitle": null,
       "addedToQueue": "2026-07-18",
-      "retryCount": 0,
+      "retryCount": 1,
       "strategicValue": "emmy-season-cluster"
     },
     {
@@ -333,6 +307,32 @@
     }
   ],
   "completed": [
+    {
+      "name": "duke-dennis",
+      "displayName": "Duke Dennis",
+      "type": null,
+      "priority": 64,
+      "priorityReason": "2.9M+ Twitch following, core AMP member and a constant presence in Kai Cenat content, so he cross-links directly into the two highest-traffic pages on the site (iShowSpeed 12,312 and Cenat 2,621 impressions).",
+      "estimatedTraffic": "high",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-07-25",
+      "retryCount": 1,
+      "strategicValue": "creator-economy-cluster",
+      "startedAt": "2026-08-07T06:00:00Z",
+      "completedAt": "2026-08-07T07:53:20Z",
+      "contentGrade": "8.4",
+      "letter": "B",
+      "discoverability": "9",
+      "duration": "~113 min",
+      "needsReview": true,
+      "publishReady": false,
+      "publishBlockers": [
+        "content_quality_below_8.5:8.4",
+        "missing_full_image",
+        "missing_thumbnail_image"
+      ]
+    },
     {
       "name": "caitlin-clark",
       "displayName": "Caitlin Clark",
@@ -1852,6 +1852,22 @@
       "strategicValue": "royalty-cluster",
       "startedAt": "2026-08-06T06:08:01Z",
       "failedAt": "2026-08-06T06:11:04Z",
+      "error": "no draft after pipeline run"
+    },
+    {
+      "name": "lebron-james",
+      "displayName": "LeBron James",
+      "type": null,
+      "priority": 63,
+      "priorityReason": "Most famous active athlete on earth, late-career legacy narrative running; site has almost no US team-sport athletes and zero NBA coverage",
+      "estimatedTraffic": "very-high",
+      "searchVolume": "very-high",
+      "personaTitle": null,
+      "addedToQueue": "2026-07-18",
+      "retryCount": 3,
+      "strategicValue": "sports-icon-cluster",
+      "startedAt": "2026-08-08T11:02:03Z",
+      "failedAt": "2026-08-08T12:33:26Z",
       "error": "no draft after pipeline run"
     }
   ],

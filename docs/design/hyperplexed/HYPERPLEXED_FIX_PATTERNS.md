@@ -447,6 +447,44 @@ hover translation merely to make the quieter treatment noticeable.
 
 ---
 
+### P20 - Contain Legacy Media Color
+
+**Finding:** a repeated accent baked into a protected image library competes with the current brand
+accent or semantic data colors, but rewriting every source asset would be destructive or impractical.
+
+Keep the source media unchanged and create an explicit, theme-aware presentation treatment. Put the
+image on a quiet semantic well, lower saturation/contrast only as much as needed, and keep surrounding
+frame chrome neutral. Callers must opt in by meaning; never infer the treatment from a URL or apply it
+to a shared card globally.
+
+```css
+:root {
+	--portrait-well: #2c1f28;
+	--portrait-filter: contrast(1.08) brightness(0.92) saturate(0.68);
+}
+
+:root.light {
+	--portrait-well: #f6f3fb;
+	--portrait-filter: contrast(1.02) brightness(0.99) saturate(0.58);
+}
+
+.portrait-well {
+	background: var(--portrait-well);
+}
+
+.portrait-image {
+	filter: var(--portrait-filter);
+	mix-blend-mode: normal;
+}
+```
+
+Preserve a predictable scrim wherever text overlaps the media (P10), and re-check the local accent
+budget afterward (P19). A static color filter needs no motion fallback. If hover movement or a filter
+transition is present, gate the movement with `prefers-reduced-motion` and ensure every hover/focus
+state retains the base treatment rather than snapping back to the source color.
+
+---
+
 ## Using This Doc In An Audit
 
 In audit findings, cite patterns as `-> P1`, `-> P6+P1`, etc. If a fix does not match any pattern and

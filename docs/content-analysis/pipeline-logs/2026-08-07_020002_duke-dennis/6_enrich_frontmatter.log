@@ -1,0 +1,27 @@
+All checks pass — YAML parses, no em-dashes, and the draft is an untracked new file so nothing else was touched. Enrichment done.
+
+---
+
+**Frontmatter enrichment complete: Duke-Dennis**
+
+**Fields filled:**
+
+- `wikidata_qid` (`Q124466749`), `imdb_id` (`nm15242465` — cross-checked: Wikidata has no P345, but the IMDb page independently confirms matching birth name *Denzel Shaquille Dennis* and birth date), `birth_date` (`1994-02-26`), `birth_place` (Greenville, South Carolina, United States), `nationality` (American), `occupation` (3), `knows_about` (6 — NBA 2K content creation, live streaming, YouTube channel growth, personal branding, short-form clip strategy, fitness content), `keywords` (10), `same_as` (3), `citations` (4), `faqs` (5)
+
+**Fields already present (preserved):** `wikipedia` (verified it points to the correct Duke Dennis page), `instagram`, `tiktok`, and all creator-owned fields. `lastmod` untouched. Body and all HTML comment ledgers untouched.
+
+**FAQs generated (5)** — all anchors match real H2 slugs in the body:
+
+1. What is Duke Dennis's personality type? → `#what-is-duke-denniss-personality-type`
+2. Why does Duke Dennis call the Army his biggest regret? → `#why-duke-dennis-calls-the-army-his-biggest-regret`
+3. Why does Duke Dennis hate the word rizz? → `#why-duke-dennis-hates-the-word-rizz`
+4. What is Duke Dennis's real name? → `#the-name-he-never-asked-about`
+5. Why will AMP never add a seventh member? → `#why-amp-will-never-add-a-seventh-member`
+
+**Issues:**
+
+- The body contains **zero inline external URLs**. The `citations` list resolves the sources the body explicitly names and quotes: Wikipedia (facts/numbers per the research file's source ledger), the two primary YouTube sources whose transcripts live in the repo (360 With Speedy `C8QOpUByFB8`, the 2018 Army story time `cslGptGMfJs`), and Rolling Stone's 2024 creators list. No citations were invented beyond that resolution.
+- `twitter: ''` is empty but is a creator-owned field I don't touch — note that Wikidata lists his handle as `ImDukeDennis` if DJ wants to fill it.
+- I removed em-dashes from three FAQ answers after drafting, since the body was written under the pipeline's em-dash ban (the Einstein gold standard predates it and still has them).
+
+Sources: [Duke Dennis — Wikidata](https://www.wikidata.org/wiki/Q124466749), [Duke Dennis — Wikipedia](https://en.wikipedia.org/wiki/Duke_Dennis), [Duke Dennis — IMDb](https://www.imdb.com/name/nm15242465/), [Rolling Stone — 25 Most Influential Creators of 2024](https://www.rollingstone.com/culture/culture-lists/top-social-media-influencers-creators-2024-1235084589/), [Rolling Stone on X (No. 5 blurb)](https://x.com/RollingStone/status/1828168036215382460)

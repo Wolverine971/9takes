@@ -85,3 +85,17 @@
 - **Fallback — "I don't know" + initiator-grief posts both retired.** Do not draft on those posts.
 - **Future:** Compassion-without-accountability collapses into self-soothing; accountability-without-compassion collapses into self-flagellation — save for a later post
 - **Future:** The role of childhood conditioning in what your nervous system reads as "safe" vs "dangerous" in relationships
+
+## Relationship History Addendum — 2026-07-30 (AM cron warmup)
+
+- **2026-07-30 · Reviewed + QUEUED (mixed) · DbZDQMCxFbX** — "Making someone prove to you that you hurt them is a disconnector." Long teaching caption decomposing defensiveness into 3 childhood origins (shame-wiring; gaslighting history; admitting fault = punishment). 14h, 647 likes / 12 comments. First re-touch since June (dormant). Post-level angle: extend origin #3 — the defense is aimed at an old prosecutor, not the present partner. Level 0 hard rule here (no typology). Comment-level: Reply @livingunpatterned ("protecting the younger version of themselves who learned that admitting fault wasn't safe", 9 likes — 2nd sighting in 14 days, profile created), Like @i_am_my_mothers_song (discernment/bad-faith-partner comment, complete as-is). Avoid the April "pretending was protection" shape. Save dropped (saves/inbox/2026-07-30_DbZDQMCxFbX.md). Link: https://www.instagram.com/p/DbZDQMCxFbX/
+
+## Relationship History Addendum — 2026-07-31 (AM cron warmup)
+
+- **2026-07-31 · Reviewed + QUEUED (comment-level) · DbbXguPhR2q** — Reel "The healthiest choice isn't always having the conversation" (nuance line: not-speaking can be avoidance OR self-care; the work is knowing what's driving the decision), 17h, 1.9K likes / **94 comments** / 106 shares. 94 comments = comment-level per thresholds, and yesterday's DbZDQMCxFbX post-level is still pending (per-account cap). Targets: **Reply @upstate_nerd** (7 likes — labeled "avoidant" by an abusive ex for what was actually self-protection; angle: the label came from the person the protection was against, which is exactly why behavior alone can't be read); **Reply @hudsonpackham** (asks the live discernment question "is that giving myself permission to not have the conversation when I maybe need to?" — angle: the tell is what happens in your body AFTER you decide, relief that opens vs. relief that numbs); **Like only @ohisashiburi** (39 likes, "trust when they tell you they don't have capacity" — complete) + **@hindhader** (grief-in-growth story, complete). Level 0 hard rule unchanged. Save dropped: saves/inbox/2026-07-31_DbbXguPhR2q.md. Link: https://www.instagram.com/mindfulmft/reel/DbbXguPhR2q/
+
+## Addendum — 2026-08-01 warmup
+
+- New reel **Dbd7frqOPV2** (17h): "The balancing act" — boundaries with love ("You don't have to hate a person to set a boundary with them"), direct CTA "Do you struggle with this? Let me know your thoughts." 235 likes / 17 comments / 15 shares — post mode open.
+- Queued POST mode; supersedes the stale 07-30 post-level item (DbZDQMCxFbX) for her single slot. The 07-31 comment-level targets on DbbXguPhR2q (@upstate_nerd, @hudsonpackham) remain valid as secondary work if the reply session has room.
+- Room note: her CTA posts get author replies on nearly every comment — first-person struggle answers outperform observations here.

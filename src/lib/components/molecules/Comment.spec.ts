@@ -124,7 +124,7 @@ describe('Comment', () => {
 		vi.unstubAllGlobals();
 	});
 
-	it('keeps dates off the card face and available in the overflow menu', async () => {
+	it('groups the complete answer-first comment while keeping dates in the overflow menu', async () => {
 		const { container, getByRole } = render(Comment, {
 			props: {
 				user: null,
@@ -135,19 +135,21 @@ describe('Comment', () => {
 		});
 
 		const card = container.querySelector('article.comment-card');
-		const header = card?.querySelector('header');
 		const copy = card?.querySelector('[itemprop="text"]');
+		const metadata = card?.querySelector('footer .comment-meta');
 		const actions = card?.querySelector('[role="group"][aria-label="Comment actions"]');
 
 		expect(card).toBeTruthy();
-		expect(header?.textContent).toContain('Anonymous');
-		expect(header?.querySelector('time')).toBeNull();
+		expect(metadata?.textContent).toContain('Anonymous');
+		expect(metadata?.querySelector('time')).toBeNull();
 		expect(card?.textContent).not.toContain('Aug 3, 2026');
 		expect(copy?.textContent?.trim()).toBe(comment.comment);
 		expect(copy?.classList.contains('text-lg')).toBe(true);
-		if (!header || !copy || !actions) throw new Error('Expected complete comment hierarchy');
-		expect(header.compareDocumentPosition(copy) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
-		expect(copy.compareDocumentPosition(actions) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+		if (!metadata || !copy || !actions) throw new Error('Expected complete comment hierarchy');
+		expect(copy.compareDocumentPosition(metadata) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
+		expect(
+			metadata.compareDocumentPosition(actions) & Node.DOCUMENT_POSITION_FOLLOWING
+		).toBeTruthy();
 
 		const like = getByRole('button', { name: 'Like this comment (1 like)' });
 		const reply = getByRole('button', { name: 'Reply to this comment' });
@@ -156,6 +158,10 @@ describe('Comment', () => {
 		expect(like.textContent).toContain('1');
 		expect(like.classList.contains('min-h-11')).toBe(true);
 		expect(reply.classList.contains('min-h-11')).toBe(true);
+
+		await fireEvent.click(reply);
+		const replyField = getByRole('textbox', { name: 'Your reply' });
+		expect(replyField.closest('article.comment-card')).toBe(card);
 
 		await fireEvent.click(getByRole('button', { name: 'Open menu' }));
 		const menu = getByRole('menu');
@@ -184,7 +190,7 @@ describe('Comment', () => {
 		const editedSignal = getByText('Edited');
 
 		expect(editedSignal.getAttribute('title')).toBeNull();
-		expect(card?.querySelector('time')).toBeNull();
+		expect(card?.querySelector('.comment-card__main time')).toBeNull();
 		expect(card?.textContent).not.toContain('Aug 4, 2026');
 
 		await fireEvent.click(getByRole('button', { name: 'Open menu' }));

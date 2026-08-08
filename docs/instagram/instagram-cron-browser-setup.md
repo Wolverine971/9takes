@@ -1,3 +1,5 @@
+<!-- docs/instagram/instagram-cron-browser-setup.md -->
+
 # Instagram Cron ↔ Chrome Profile Setup (Canonical Mapping)
 
 _Created 2026-07-26 after the account-switching investigation. This is the machine-level source of truth for which Instagram account lives in which Chrome profile and which cron job drives it. The warmup commands in all three repos reference this file._
@@ -15,31 +17,61 @@ Separately, the OpenClaw cron jobs used **agentTurn payloads** (an LLM wrapper i
 
 ## The mapping
 
-| Brand   | IG account      | Chrome profile dir | Profile display name   | Cron job (OpenClaw)       | Schedule (ET) | Wrapper script                                              | Telegram        |
-| ------- | --------------- | ------------------ | ---------------------- | ------------------------- | ------------- | ----------------------------------------------------------- | --------------- |
-| 9takes  | `@9takesdotcom` | `Profile 2`        | "9takes.com"           | 9takes Instagram Warmup   | 8:00 daily    | `/Users/djwayne/9takes/scripts/instagram-warmup-cron.sh`    | -1003724832638  |
-| BuildOS | `@djwayne3`     | `Default`          | "djwayne35"            | BuildOS Instagram Warmup  | 9:00 daily    | `/Users/djwayne/buildos-platform/scripts/instagram-warmup-cron.sh` | -1003985535162  |
-| Cadre   | `@dj_pew_pew`   | `Profile 5`        | "thecadretraining.com" | The Cadre Instagram Warmup| 10:00 daily   | `/Users/djwayne/thecadre/scripts/instagram-warmup-cron.sh`  | -1003920049308  |
+| Brand   | IG account      | Chrome profile dir | Profile display name   | Cron job (OpenClaw)        | Schedule (ET) | Wrapper script                                                     | Telegram       |
+| ------- | --------------- | ------------------ | ---------------------- | -------------------------- | ------------- | ------------------------------------------------------------------ | -------------- |
+| 9takes  | `@9takesdotcom` | `Profile 2`        | "9takes.com"           | 9takes Instagram Warmup    | 8:00 daily    | `/Users/djwayne/9takes/scripts/instagram-warmup-cron.sh`           | -1003724832638 |
+| BuildOS | `@djwayne3`     | `Default`          | "djwayne35"            | BuildOS Instagram Warmup   | 9:00 daily    | `/Users/djwayne/buildos-platform/scripts/instagram-warmup-cron.sh` | -1003985535162 |
+| Cadre   | `@dj_pew_pew`   | `Profile 5`        | "thecadretraining.com" | The Cadre Instagram Warmup | 10:00 daily   | `/Users/djwayne/thecadre/scripts/instagram-warmup-cron.sh`         | -1003920049308 |
 
-**BuildOS is the sanctioned exception to one-account-per-profile** (DJ's call, 2026-07-26): it runs in `Default` ("djwayne35") — DJ's main profile, shared with his personal Instagram accounts — because the Claude extension is already installed there. The warmup may switch to `@djwayne3` *within that profile*; if @djwayne3's session proves flaky there (same eviction pattern as before), the fallback is moving it to a dedicated profile.
+**BuildOS is the sanctioned exception to one-account-per-profile** (DJ's call, 2026-07-26): it runs in `Default` ("djwayne35") — DJ's main profile, shared with his personal Instagram accounts — because the Claude extension is already installed there. The warmup may switch to `@djwayne3` _within that profile_; if @djwayne3's session proves flaky there (same eviction pattern as before), the fallback is moving it to a dedicated profile.
 
 Other profiles on this machine: `Profile 1` ("djwayne3"), `Profile 3` (also "9takes.com"), and `Profile 4` (also "thecadretraining.com") are unused; 9takes and Cadre automation stays OUT of `Default`.
+
+> ⚠️ **Two profiles are both displayed as "thecadretraining.com".** Tell them apart by Google
+> account, not by name: **`Profile 5` = "David Wayne"** (the real one — Claude extension +
+> Instagram cookies) and `Profile 4` = "info thecadretraining" (decoy — neither). In Chrome's
+> profile switcher they look identical.
+
+### Diagnosing "extension not connected" (do this BEFORE waking the profile)
+
+Confirmed useful 2026-08-02 after four days of fruitless wake attempts. All read-only:
+
+```bash
+CH="$HOME/Library/Application Support/Google/Chrome"; EXT="fcoeoabgfenejglbffodgkkbkcdhcgfn"
+for p in "Default" "Profile 2" "Profile 5"; do
+  printf "%-10s ext:%-3s size:%-6s ig_sessionid:%s\n" "$p" \
+    "$([ -d "$CH/$p/Extensions/$EXT" ] && echo yes || echo no)" \
+    "$(du -sh "$CH/$p/Local Extension Settings/$EXT" 2>/dev/null | cut -f1)" \
+    "$(sqlite3 "file:$CH/$p/Cookies?immutable=1" "select count(*) from cookies where host_key like '%instagram.com' and name='sessionid';" 2>/dev/null)"
+done
+```
+
+- **Extension storage ≈ 20 KB → signed out of Claude.** Healthy signed-in profiles ran
+  864 KB (Default) and 6.0 MB (Profile 2) on 8/2; Profile 5 sat at 20 KB. Only DJ can fix
+  it (extension icon → Sign in).
+- **Storage mtime updating at cron time → the wake works; the auth doesn't.** Profile 5's
+  was written at 10:00:01 by the wake. Once you see this, stop nudging and report.
+- **`ig_sessionid` = 1 → the Instagram login is probably still alive**, so it's one
+  extension sign-in, not an Instagram re-login. (Presence only; validity needs a live browser.)
 
 ## One-time setup checklist (DJ — ~10 min, only you can do this)
 
 The cron jobs will stay blocked with a `🔑 ACTION NEEDED` Telegram message until this is done, once per profile:
 
 **Profile 2 — "9takes.com"** (Claude extension already installed ✓)
+
 1. Open Chrome → profile switcher → "9takes.com".
 2. Click the Claude extension icon → confirm it's signed in; allow `instagram.com` in its site permissions.
 3. Go to instagram.com → log in as `@9takesdotcom` → **check "Save login info"**.
 
 **Default — "djwayne35"** (Claude extension already installed ✓ — this is DJ's main profile)
+
 1. Open Chrome → profile switcher → "djwayne35".
 2. Click the Claude extension icon → confirm it's signed in; allow `instagram.com` in its site permissions.
 3. Go to instagram.com → log in as `@djwayne3` → **check "Save login info"**. (@djwayne3 dropped out of this profile's account picker on 2026-07-21, so it needs the full "Log into an Existing Account" path.)
 
 **Profile 5 — "thecadretraining.com"** (Claude extension installed ✓ 2026-07-26)
+
 1. Open Chrome → profile switcher → "thecadretraining.com".
 2. Install the Claude extension, sign in, allow `instagram.com`.
 3. Go to instagram.com → log in as `@dj_pew_pew` → **check "Save login info"**. (Add `@thecadre.training` as a second saved account in THIS profile if brand-account actions are ever needed — that's the one sanctioned two-account profile.)

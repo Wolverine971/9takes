@@ -74,7 +74,7 @@ Progress note: the current migration passes have converted 13 shared components 
 - `src/lib/components/SEOHead.svelte`
 - `src/lib/components/blog/BlogPageHead.svelte`
 - `src/lib/components/questions/QuestionDisplay.svelte`
-- `src/lib/components/questions/QuestionTags.svelte`
+- ~~`src/lib/components/questions/QuestionTags.svelte`~~ — removed as unreferenced on August 3, 2026
 - `src/lib/components/blog/Breadcrumbs.svelte`
 - `src/lib/components/blog/AuthorBio.svelte`
 - `src/lib/amp-stories/EnneagramMentalIllnessPromo.svelte`

@@ -1,0 +1,15 @@
+Revision pass complete on `src/blog/people/drafts/Duke-Dennis.md`.
+
+**What triggered it, and a notable finding:** the pipeline invoked this pass in perspective mode, but the perspective verification had *already passed* — zero open P0s, zero incomplete P1s, zero protected-hit regressions. So the entire work list came from the grader sidecar (8.5 B+, with Evidence, Enneagram, and Writing all at 8) plus its TO REACH A(9.0) list. Lint had no failures going in.
+
+**Fixes applied, mapped to grader items:**
+- **Evidence breadth** — Union Square now carries a named written source inline (the Associated Press wire, May 8, 2024, from the packet's S7), and the AP, Tubefilter, and Sportskeeda (Dee shirt) URLs were added to the citations frontmatter so the clip-backed beats travel with written sources.
+- **Typology bleed** — the two flagged mechanics sentences ("signature Eight stress move… withdrawn side of the map" and "a secure Eight turns provider") moved from the stress section into the Rabbit Hole's arrows section; the Germany scene and the mother's-house sequencing now stand behaviorally in the body. Distribution ledger updated from 2 to 1.
+- **House cadence** — cut two of the three reader-command imperatives: "Read the body the way he reads money" deleted outright, and the ending's "Think about what the internet has done…" rewritten declaratively ("The internet has spent the years since doing the opposite," which also sharpens the aunt-name contrast). "Sit with Unit 3" kept, per both the grader and PROTECT-06.
+- **Rolling Stone repetition** — the intro no longer names Rolling Stone (the ranking phrase stays), so the AMP section's full telling now lands as the first attribution.
+
+**Rejected/deferred, with reasons:** RQ-01 (re-attaching subscriber counts to a named publisher) stays publish-time per the verifier — an About-page check must settle per-channel vs. aggregate first; archive.org captures of the clip URLs remain the standing P2-04 publish item; and the Veterans Day call has no written source in existence, so its quote-free treatment is the honest ceiling.
+
+**Verification:** lint re-run is clean (0 FAILs; the word-count WARN is pre-existing and the body sits at 4144 against a 4500 ceiling), and a post-edit grep confirms all ten PROTECT literals intact. The resolution artifact is at `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/revision-resolution.md` with status `complete`, and a REVISION PASS NOTES block is at the bottom of the draft.
+
+The pipeline should now clear the consumed review sidecar and re-grade, and targeted perspective verification (`/blog_perspective_verify_people`) must rerun against the post-revision draft — this pass does not declare the gate passed.

@@ -80,3 +80,35 @@
 - **General rule (now confirmed across 275+-like Anchor):** The 9takes-only angle on Vanessa-niche posts is the _cross-pattern at the wiring level_. Vanessa names single mechanisms; 9takes names the multi-mechanism asymmetry underneath. This format has now compounded to >275 likes across 9 weeks — it's the durable engagement template for her account.
 - **Reserved (do NOT recycle):** "totally different wiring, same result on the surface" (cover-up Anchor — pinned). Regulation-math frame for parenting hours (May 7 PM DYDWMN_SB3a — archived). Avoid em dashes per voice rules.
 - **Future:** When she posts another cue-decoding reel ("eye contact," "vocal tone," "posture"), apply the multi-pathway-with-trade-offs frame in fresh language. When she Collabs again with @ryanhawk12 or similar, the Collab amplifies our visibility — prioritize Collabs over solo reels on tie scores.
+
+## Addendum — 2026-08-01 warmup
+
+- New carousel **DbdwqKGFPlg** (19h): "7 Ridiculous Questions to Ask Your Best Friend" — book-funnel promo for _Conversation_ (pre-order), CTA "Which question would you ask first?" ~44 comments / 57 shares; thread is light reactions plus Vanessa SEEDING her own thread by @-tagging friends with individual questions ("what smell reminds you of me?", "If I called you crying what would it be about?").
+- Queued POST mode (44 comments = judgment zone, but no existing comment carries a substantive angle — a real answer stands out). Angle: answer her CTA with the one question we'd pick + why (the answer tells you how they see you, not just a story). Level 0–1. This is the most on-brand room on IG for a question platform.
+- SAVED for the format mechanic (author-seeded comment thread as product demo): saves/inbox/2026-08-01_DbdwqKGFPlg.md.
+- Reconcile-note (standing): cover-up comment shortcode discrepancy (DWFmfi5Dv1k vs DYDWMN_SB3a) still unresolved; not blocking.
+
+## Addendum — 2026-08-05 warmup
+
+- 🆕 **FIRST GENUINELY ENTERABLE SURFACE ON THIS ACCOUNT · DboxrpAvxST** (reel, 13h at scan) — Vanessa cosplaying **Penelope** from Nolan's Odyssey, set to Ludwig Göransson's actual "Odysseus" score. Caption: _"Let's be real Penelope was the blueprint for introverts. Have you seen the Odyssey yet?! @annehathaway as Penelope is my alter ego ❤️‍🔥 #theodyssey #annehathaway #introvert"_
+- **91 likes · ~15 comments · 7 shares on 1.2M — a low performer for her, which is exactly why it is workable.** Recommended `post` mode, **Level 0**.
+- 🔑 **Key relationship intel: she personally replies to nearly every commenter here** ("View all 1 replies" under almost every line, plus two comments from her own account joking about her Cheerios necklace and "This is what me procrastinating looks like"). **The realistic upside of one good line in this thread is a direct exchange with a 1.2M behavioral researcher.** That makes her threads disproportionately valuable relative to their size.
+- **Pond role established: this account is our back-door into the introvert / Type 5 pond** — a pond we almost never enter live. Prior scans framed her as a question-platform-adjacent partner (the "Ridiculous Questions" carousel, 08-01); the Type 5 read is new and more useful.
+- **Register warning, load-bearing:** this is a playful costume bit, not a teaching post, and the top organic comment is a joke ("introverts could run….into their bedrooms at 9pm 👀😂", 12 likes). Analysis clangs here. **Drafted angle is a joke that happens to be a real Odyssey detail** — Penelope unravelling the burial shroud every night for three years to avoid choosing a suitor, which nobody in the thread mentioned. Final copy in the 08-05 warmup doc.
+- Internal read (not for the comment): what makes Penelope 5-ish is not quietness, it is **information control** — she withholds the one decision everyone is waiting on and buys three years of autonomy. Withdrawal as strategy, not retreat.
+- **SAVED (Filter B)** → `saves/inbox/2026-08-05_DboxrpAvxST.md` — the "[Character] was the blueprint for [trait]" format, riding a film release on its own official audio. Pairs with the @typeishofficial Odyssey save (08-04); those two should be worked as one content idea.
+- Standing reconcile-note (cover-up comment shortcode discrepancy) still unresolved; still not blocking.
+
+## Addendum — 2026-08-06 warmup
+
+- **DboxrpAvxST (Penelope reel) re-verified at 1d — still the recommended target, now upgraded in priority: the Type 5 pond is this week's ACTIVE pond** (our Robert Greene / Type 5 analysis shipped 08-02, so this thread is the live routing surface for it).
+- Verified via DOM search: **nobody in the thread has said "shroud"** — the drafted beat is still unclaimed a full day later. Thread still small (~15 comments), Vanessa still replying personally (her two self-replies now at 51 and 40 likes). @cora.lakey's bedroom joke still top organic at 12 likes.
+- 08-05 drafted copy carried unchanged (already cleared the gate; post unchanged). Status: Suggested, not posted — second listing.
+- Session note: her profile grid returned empty on one load attempt (site-wide grid flakiness today); the reel's direct URL loaded fine.
+
+## Addendum — 2026-08-07 warmup
+
+- **She is in a book-launch promo cycle** ("Conversation" pre-order). Two newest posts are both promos: **DbtlkWWgOwu** (carousel, 15h — "Everyone sees the keynote. Nobody sees the 47 rehearsals in my kitchen…" + pre-order CTA; room is congratulation-only, incl. @taurenwells) and **Dbqx6c7hz2_** (reel, 1d — "Comment BOOK and I'll send you the pre-order link"; comment-automation surface).
+- 🚫 **No reply suggested on either; PAUSE her as an engagement surface until the launch cycle passes.** Anything additive in a congratulation room reads as fan noise, and the BOOK reel triggers her DM automation.
+- Open intel from the reel thread: @lmgardin's "example of the first five words for a job interview or a pitch?" (5 likes) went unanswered — her audience asks for concrete applications her promos don't give. That gap is 9takes-shaped but not workable without the reel's formula.
+- The Penelope reel (DboxrpAvxST) is now 3d and buried under promo posts; the drafted shroud beat stays on file but drops out of active carry.

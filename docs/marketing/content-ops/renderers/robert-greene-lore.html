@@ -1,0 +1,593 @@
+<!-- docs/marketing/content-ops/renderers/robert-greene-lore.html -->
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Robert Greene Lore Carousel</title>
+		<style>
+			@font-face {
+				font-family: 'Inter';
+				src: url('../../../../static/fonts/inter/Inter-Bold.ttf') format('truetype');
+				font-weight: 700;
+			}
+
+			@font-face {
+				font-family: 'Inter';
+				src: url('../../../../static/fonts/inter/Inter-Black.ttf') format('truetype');
+				font-weight: 900;
+			}
+
+			:root {
+				--night: #0a0807;
+				--night-mid: #16110d;
+				--stone: #241d17;
+				--stone-mid: #3a302a;
+				--edge: #5c4f47;
+				--amber: #f59e0b;
+				--amber-deep: #b45309;
+				--ink: #faf8f4;
+				--marble-warm: #ede6da;
+				--ink-mid: #a8a095;
+				--ink-dim: #948578;
+				--type-five: #0ea5e9;
+				--portrait-well: #2c1f28;
+				--cta-text: #0c0a09;
+				--ig-safe-x: 72px;
+				--ig-safe-top: 88px;
+				--ig-safe-bottom: 128px;
+				--ig-counter-reserve: 136px;
+			}
+
+			* {
+				box-sizing: border-box;
+			}
+
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+				background: #050403;
+				font-family: 'Inter', Arial, sans-serif;
+			}
+
+			body {
+				display: grid;
+				gap: 40px;
+				padding: 40px;
+			}
+
+			.slide {
+				position: relative;
+				width: 1080px;
+				height: 1440px;
+				overflow: hidden;
+				background:
+					radial-gradient(circle at 78% 16%, rgb(245 158 11 / 9%), transparent 30%),
+					linear-gradient(145deg, var(--night-mid), var(--night) 62%);
+				color: var(--ink);
+			}
+
+			.slide::after {
+				position: absolute;
+				inset: 36px;
+				border: 1px solid rgb(92 79 71 / 78%);
+				content: '';
+				pointer-events: none;
+			}
+
+			.chrome {
+				position: absolute;
+				z-index: 10;
+				top: var(--ig-safe-top);
+				right: var(--ig-safe-x);
+				left: var(--ig-safe-x);
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				color: var(--ink-mid);
+				font-size: 17px;
+				font-weight: 900;
+				letter-spacing: 0.13em;
+				text-transform: uppercase;
+			}
+
+			.chrome > :last-child:not(.brand) {
+				margin-right: var(--ig-counter-reserve);
+			}
+
+			.chrome .brand {
+				color: color-mix(in srgb, var(--ink) 90%, var(--amber-deep));
+				font-size: 22px;
+				letter-spacing: -0.04em;
+				text-transform: lowercase;
+			}
+
+			.url {
+				position: absolute;
+				z-index: 10;
+				bottom: var(--ig-safe-bottom);
+				left: var(--ig-safe-x);
+				color: var(--ink-mid);
+				font-size: 15px;
+				font-weight: 700;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+			}
+
+			.cover .grid {
+				position: absolute;
+				inset: 0;
+				background-image:
+					linear-gradient(rgb(92 79 71 / 8%) 1px, transparent 1px),
+					linear-gradient(90deg, rgb(92 79 71 / 8%) 1px, transparent 1px);
+				background-size: 72px 72px;
+				mask-image: linear-gradient(to bottom, black 0%, transparent 70%);
+			}
+
+			.cover .kicker {
+				position: absolute;
+				z-index: 5;
+				top: 198px;
+				left: var(--ig-safe-x);
+				color: var(--amber);
+				font-size: 18px;
+				font-weight: 900;
+				letter-spacing: 0.16em;
+				text-transform: uppercase;
+			}
+
+			.cover h1 {
+				position: absolute;
+				z-index: 6;
+				top: 240px;
+				left: 68px;
+				width: 892px;
+				margin: 0;
+				font-size: 108px;
+				font-weight: 900;
+				letter-spacing: -0.075em;
+				line-height: 0.86;
+				text-transform: uppercase;
+			}
+
+			.cover h1 span {
+				display: block;
+				color: var(--ink);
+			}
+
+			.cover .portrait-stage {
+				position: absolute;
+				z-index: 3;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				height: 880px;
+				overflow: hidden;
+				background: linear-gradient(
+					180deg,
+					rgb(44 31 40 / 0%) 0%,
+					rgb(44 31 40 / 42%) 15%,
+					var(--portrait-well) 40%,
+					var(--portrait-well) 100%
+				);
+			}
+
+			.cover .portrait-stage::after {
+				position: absolute;
+				z-index: 2;
+				inset: 0;
+				background:
+					linear-gradient(135deg, transparent 48%, rgb(10 8 7 / 50%) 100%),
+					linear-gradient(180deg, transparent 66%, rgb(10 8 7 / 75%) 100%);
+				content: '';
+				pointer-events: none;
+			}
+
+			.cover .portrait {
+				position: absolute;
+				z-index: 1;
+				bottom: -46px;
+				left: 50%;
+				width: 880px;
+				height: 880px;
+				object-fit: contain;
+				filter: contrast(1.08) brightness(0.92) saturate(0.68);
+				transform: translateX(-50%);
+			}
+
+			.cover .type {
+				position: absolute;
+				z-index: 8;
+				bottom: 174px;
+				left: var(--ig-safe-x);
+				display: grid;
+				justify-items: start;
+				gap: 8px;
+				width: 236px;
+				text-align: left;
+			}
+
+			.cover .type .number {
+				color: var(--type-five);
+				font-size: 70px;
+				font-weight: 900;
+				letter-spacing: -0.06em;
+				line-height: 0.85;
+			}
+
+			.cover .type .label {
+				padding: 10px 0 9px;
+				border-top: 1px solid rgb(14 165 233 / 72%);
+				border-bottom: 1px solid rgb(92 79 71 / 72%);
+				color: var(--ink);
+				font-size: 17px;
+				font-weight: 900;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+			}
+
+			.cover .url {
+				right: var(--ig-safe-x);
+				left: auto;
+			}
+
+			.lore .content {
+				position: absolute;
+				inset: 166px 64px 196px;
+			}
+
+			.lore .eyebrow {
+				margin: 0 0 15px 14px;
+				color: var(--amber);
+				font-size: 17px;
+				font-weight: 900;
+				letter-spacing: 0.15em;
+				text-transform: uppercase;
+			}
+
+			.lore h2 {
+				width: 900px;
+				margin: 0 0 34px 14px;
+				font-size: 67px;
+				font-weight: 900;
+				letter-spacing: -0.045em;
+				line-height: 0.98;
+			}
+
+			.rows {
+				display: grid;
+				gap: 10px;
+			}
+
+			.row {
+				display: grid;
+				grid-template-columns: 58px 1fr;
+				align-items: center;
+				min-height: 119px;
+				padding: 15px 18px 15px 0;
+				border: 1px solid rgb(92 79 71 / 82%);
+				background: linear-gradient(90deg, rgb(36 29 23 / 94%), rgb(22 17 13 / 86%));
+			}
+
+			.row .number {
+				align-self: stretch;
+				display: grid;
+				place-items: center;
+				border-right: 1px solid rgb(14 165 233 / 42%);
+				color: var(--type-five);
+				font-size: 20px;
+				font-weight: 900;
+				letter-spacing: 0.08em;
+			}
+
+			.row p {
+				margin: 0;
+				padding-left: 16px;
+				color: var(--ink);
+				font-size: 28px;
+				font-weight: 700;
+				letter-spacing: -0.018em;
+				line-height: 1.22;
+			}
+
+			.row strong {
+				color: var(--marble-warm);
+				font-weight: 900;
+			}
+
+			.lore .question {
+				position: absolute;
+				right: var(--ig-safe-x);
+				bottom: 174px;
+				left: var(--ig-safe-x);
+				padding: 19px 24px;
+				background: var(--amber);
+				color: var(--cta-text);
+				font-size: 26px;
+				font-weight: 900;
+				letter-spacing: -0.02em;
+				text-align: center;
+			}
+
+			.inside .content {
+				position: absolute;
+				inset: 166px 64px 0;
+			}
+
+			.inside .eyebrow {
+				margin: 0 0 15px 14px;
+				color: var(--amber);
+				font-size: 17px;
+				font-weight: 900;
+				letter-spacing: 0.15em;
+				text-transform: uppercase;
+			}
+
+			.inside h2 {
+				margin: 0 0 0 14px;
+				font-size: 62px;
+				font-weight: 900;
+				letter-spacing: -0.045em;
+				line-height: 1;
+			}
+
+			.inside .lead {
+				margin: 16px 0 24px 14px;
+				color: var(--ink-mid);
+				font-size: 22px;
+				font-weight: 700;
+				line-height: 1.3;
+			}
+
+			.evidence-trail {
+				position: relative;
+				display: grid;
+				gap: 0;
+				margin-top: 20px;
+				border-top: 1px solid rgb(92 79 71 / 78%);
+			}
+
+			.evidence-trail::before {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 202px;
+				width: 1px;
+				background: rgb(14 165 233 / 38%);
+				content: '';
+			}
+
+			.evidence {
+				position: relative;
+				display: grid;
+				grid-template-columns: 184px 1fr;
+				gap: 36px;
+				min-height: 143px;
+				padding: 19px 6px 18px 0;
+				border-bottom: 1px solid rgb(92 79 71 / 58%);
+			}
+
+			.evidence::before {
+				position: absolute;
+				top: 25px;
+				left: 196px;
+				width: 13px;
+				height: 13px;
+				border: 2px solid var(--stone);
+				border-radius: 50%;
+				background: var(--type-five);
+				content: '';
+			}
+
+			.evidence .date {
+				color: var(--type-five);
+				font-size: 17px;
+				font-weight: 900;
+				letter-spacing: 0.075em;
+				line-height: 1.15;
+				text-transform: uppercase;
+			}
+
+			.evidence .source {
+				display: block;
+				margin-top: 8px;
+				color: var(--ink-mid);
+				font-size: 12px;
+				font-weight: 800;
+				letter-spacing: 0.07em;
+				line-height: 1.3;
+				text-transform: uppercase;
+			}
+
+			.evidence p {
+				margin: 0;
+				color: var(--ink);
+				font-size: 23px;
+				font-weight: 700;
+				letter-spacing: -0.013em;
+				line-height: 1.27;
+			}
+
+			.evidence q {
+				color: var(--marble-warm);
+				font-weight: 900;
+				quotes: none;
+			}
+
+			.inside .reflection {
+				position: absolute;
+				right: var(--ig-safe-x);
+				bottom: 192px;
+				left: var(--ig-safe-x);
+				padding: 23px 38px 25px;
+				background: var(--amber);
+				color: var(--cta-text);
+				text-align: center;
+			}
+
+			.inside .reflection .question-text {
+				display: block;
+				font-size: 29px;
+				font-weight: 900;
+				letter-spacing: -0.025em;
+				line-height: 1.16;
+			}
+
+			.inside .disclaimer {
+				position: absolute;
+				right: var(--ig-safe-x);
+				bottom: var(--ig-safe-bottom);
+				color: var(--ink-mid);
+				font-size: 13px;
+				font-weight: 700;
+				letter-spacing: 0.045em;
+			}
+		</style>
+	</head>
+	<body>
+		<section class="slide cover" aria-label="Robert Greene cover">
+			<div class="grid"></div>
+			<div class="chrome"><span class="brand">9takes</span><span>Personality Analysis</span></div>
+			<div class="kicker">The observer behind the laws</div>
+			<h1>Robert <span>Greene</span></h1>
+			<div class="portrait-stage">
+				<img class="portrait" src="../../../../static/types/5s/Robert-Greene.webp" alt="" />
+			</div>
+			<div class="type">
+				<span class="number">05</span>
+				<span class="label">The Investigator</span>
+			</div>
+			<div class="url">9takes.com</div>
+		</section>
+
+		<section class="slide lore" aria-label="Six facts about Robert Greene">
+			<div class="chrome"><span class="brand">9takes</span><span>Personality Analysis</span></div>
+			<div class="content">
+				<div class="eyebrow">The lore beneath the observer</div>
+				<h2>Six things most people miss.</h2>
+				<div class="rows">
+					<div class="row">
+						<span class="number">01</span>
+						<p>
+							At 37–38, he called an Italy post <strong>“one of my 80 different jobs”</strong>—after
+							construction in Greece and skip-tracing in Pasadena.
+						</p>
+					</div>
+					<div class="row">
+						<span class="number">02</span>
+						<p>
+							At that point, he said <strong>“suicidal thoughts”</strong> were “floating in my
+							brain”—just before <em>The 48 Laws</em> opportunity.
+						</p>
+					</div>
+					<div class="row">
+						<span class="number">03</span>
+						<p>
+							His books emerge from <strong>thousands of handwritten 4×6 cards</strong>—then, he
+							says, “the cards tell me what the chapters are.”
+						</p>
+					</div>
+					<div class="row">
+						<span class="number">04</span>
+						<p>
+							Ryan Holiday became his research assistant at 18. Nearly 18 years later:
+							<strong>“I still use so much of what Robert taught me.”</strong>
+						</p>
+					</div>
+					<div class="row">
+						<span class="number">05</span>
+						<p>
+							The wasp sting was one part of what Greene calls
+							<strong>“a kind of a perfect storm”</strong> before the clot and stroke.
+						</p>
+					</div>
+					<div class="row">
+						<span class="number">06</span>
+						<p>
+							Four months later:
+							<strong>“I still can’t make my own breakfast… I also can’t wash dishes.”</strong>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="question">What makes someone study power this closely?</div>
+		</section>
+
+		<section class="slide inside" aria-label="A respectful window into Robert Greene's inner world">
+			<div class="chrome"><span class="brand">9takes</span><span>Personality Analysis</span></div>
+			<div class="content">
+				<div class="eyebrow">A window inside</div>
+				<h2>The record tells its own story.</h2>
+				<p class="lead">Five moments. Robert Greene’s own words. One open question.</p>
+				<div class="evidence-trail">
+					<article class="evidence">
+						<div class="date">
+							1960s · LA
+							<span class="source">Diary of a CEO + Tetragrammaton · 2023</span>
+						</div>
+						<p>
+							<q>“My parents kind of left me alone a lot.”</q> His sister, he said,
+							<q>“almost kind of raised me.”</q> Elsewhere:
+							<q>“My mother’s a very anxious person”</q>—and “you absorb the energy patterns” around
+							you.
+						</p>
+					</article>
+					<article class="evidence">
+						<div class="date">
+							Before 1995 · Hollywood
+							<span class="source">Recounted at Yale · 2010</span>
+						</div>
+						<p>
+							Greene says his ideas made a superior insecure. After he reacted emotionally, he
+							vowed:
+							<q>“I am just going to become a master observer of the game of power.”</q>
+						</p>
+					</article>
+					<article class="evidence">
+						<div class="date">
+							1995 → 1998 · Italy
+							<span class="source">Fabrica to Viking</span>
+						</div>
+						<p>
+							At Fabrica, he pitched Joost Elffers a book about power. In 1998,
+							<em>The 48 Laws</em> was published. His rule:
+							<q>“It’s all material.”</q>
+						</p>
+					</article>
+					<article class="evidence">
+						<div class="date">
+							Aug. 17, 2018 · Stroke
+							<span class="source">Revisited on Tetragrammaton · 2023</span>
+						</div>
+						<p>
+							His left side was paralyzed. Five years later:
+							<q>“I was a very independent person, and now I’m a dependent person.”</q>
+						</p>
+					</article>
+					<article class="evidence">
+						<div class="date">
+							Nov. 10, 2026 · New book
+							<span class="source">Tetragrammaton + Viking</span>
+						</div>
+						<p>
+							The idea predated his stroke by decades; the stroke changed its terms:
+							<q
+								>“The sublime has to be something you can access from your chair, from your bed, in
+								your daily life.”</q
+							>
+						</p>
+					</article>
+				</div>
+			</div>
+			<div class="reflection">
+				<span class="question-text"
+					>What makes someone study power this closely—then spend his next chapter studying
+					wonder?</span
+				>
+			</div>
+			<div class="url">9takes.com</div>
+			<div class="disclaimer">Public record, arranged by 9takes.</div>
+		</section>
+	</body>
+</html>

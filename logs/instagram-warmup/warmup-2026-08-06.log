@@ -1,0 +1,35 @@
+[2026-08-06 08:00:00] [INFO] Instagram warmup cron starting for @9takesdotcom
+Execution error[2026-08-06 08:45:30] [INFO] Instagram warmup cron starting for @9takesdotcom
+@9takesdotcom Instagram warmup complete for 2026-08-06 (morning retry — the 08:04 cron run crashed mid-scan; its stub is marked superseded).
+
+**The headline finding: the arc is not frozen.** The Robert Greene / Type 5 analysis actually shipped Aug 2 — yesterday's warmup missed it because no phase ever checked our own grid (that check is now a standing step). This makes **Type 5 (introvert/INTJ) the active pond for the first time**, and the bridge post is sitting at 1 like / 0 comments after 3 days: the loop is fully assembled and only the posting step — now stalled for **eight consecutive sessions** (all three 08-05 suggestions verified unposted) — is missing.
+
+```
+Ready-to-use reply suggestions: 3
+Profiles created: 0
+Profiles updated: 6
+New accounts discovered: 2 (@mrsjodihill — live Type 9 self-ID; @moon.glitch)
+Saves dropped to inbox/: 2
+```
+
+Reply suggestions (order = posting order, 3–6 min apart, no links):
+
+1. **@typeishofficial** — https://www.instagram.com/typeishofficial/p/DbsqrI9lgvq/ (caught at 54 min, 0 comments, explicit "share your type" CTA)
+   *"This list is secretly a diagnostic. A 5 will analyze it instead of acting on it, a 6 will want a second source before trusting it, and a 1 is rereading it for typos. Whatever you just did with this post is your answer."*
+2. **@vvanedwards** — https://www.instagram.com/vvanedwards/reel/DboxrpAvxST/ (re-verified: shroud beat still unclaimed, Vanessa still replying personally — and this is now the active Type 5 pond)
+   *"She also unraveled that shroud every night for three years so she'd never have to pick a suitor. Three years of stalling to avoid one conversation is the most introvert thing in the poem."*
+3. **@thesecurerelationship** — https://www.instagram.com/thesecurerelationship/p/DboSdaNklBb/ (re-verified: the two commenters' "why only with certain people" question is still unanswered after 2 days)
+   *"A couple people here said it only shows up with certain people, which is kind of the whole answer. The alarm is tracking someone's actual consistency, so it goes quiet around someone steady and that's hard to call a character flaw."*
+
+Top saves:
+1. `DbsqrI9lgvq` @typeishofficial — the "X over Y" per-type countermove formula; third sighting of the all-nine-listicle CTA format in a week (a 9takes flavor is a near-free experiment)
+2. `DbrOeDMEXep` @thesecurerelationship — "it's time" vs "never given the tools": one situation, two valid readings — our thesis in miniature
+
+Also worth knowing: Candice's item hit its **final listing** (post-or-retire, per the 08-05 rule); her profile grid wouldn't render across 3 attempts (site flakiness, logged); @intjmemesdaily is dormant since ~2023 (its bio funnels to typing-app competitor @urmytype.app); the build.os collab reel got a 22-like burst overnight (BuildOS-side signal); follower count ticked 29→30.
+
+Next steps:
+- DJ reviews/posts suggestions asynchronously — #1 is the only genuinely perishable slot (first comment on a sub-1h CTA post by the niche's connector node), and it's the cheapest test of the 08-05 recommendation to either automate posting or retire the comment leg
+- `/instagram-saves triage` (2 new saves in inbox/)
+
+Warmup doc: `docs/instagram/daily-engagement/2026-08-06_instagram-warmup-2.md`
+[2026-08-06 09:14:01] [INFO] claude exited with code 0
