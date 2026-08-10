@@ -1,0 +1,5 @@
+stage=6_enrich_frontmatter exit=1 dur=108s at=2026-08-09 04:20:18
+stage=6.1_perspective_verify exit=1 dur=10s at=2026-08-09 04:20:28
+stage=6.2_perspective_verification_gate exit=1 dur=0s at=2026-08-09 04:20:28
+stage=7_grade exit=1 dur=2s at=2026-08-09 04:20:31
+stage=9.8_perspective_finalize exit=1 dur=0s at=2026-08-09 04:20:31

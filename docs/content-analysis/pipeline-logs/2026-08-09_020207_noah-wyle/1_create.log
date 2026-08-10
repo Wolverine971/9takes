@@ -1,0 +1,35 @@
+Draft complete and saved. Full run summary:
+
+**The blog:** Noah Wyle typed as **Enneagram 6w7**, built around the thesis that his family put pain in drawers and he built a television show that opens them. The hook is his 2025 Emmy win in a tuxedo made of scrubs, 26 years after his last nomination; the emotional core is a 2026 podcast story where his nurse mother revealed she once put an eight-year-old in a morgue drawer (his brother's age at the time), came home, and made dinner. The ending lands on her one-word answer to where she put that memory: "Somewhere." The Crichton-estate lawsuit serves as the critic-pressure anchor, with the empathy turn built from his own words ("I volunteer," "profoundly sad," "we really felt like we'd done it"). Current anchor: The Pitt leads the 2026 Emmys with 25 nominations.
+
+**Notable catches during research:**
+- An attribution near-miss: the auto-transcript of the Actors on Actors episode nearly handed Sally Field's quotes (including the note-from-her-son story) to Wyle. Excluded, and I updated the attribution-trap memory with this second instance.
+- Variety/THR/GoldDerby now block WebFetch behind a Tollbit 402 paywall; I worked around it via syndicated copies and YouTube transcripts, and saved that workaround as a memory.
+- Two transcripts fetched and saved to `youtube-transcripts/noah-wyle/`; durable evidence file written to `docs/content-analysis/research/Noah-Wyle.md` for the downstream perspective commands.
+
+**Deterministic checks:** blog-lint 0 fail / 1 warn (comparative-contrast warn only), blog-quality-report 0 strong contrast pairs, same-type similarity scan clear (three initial trips rewritten), Type 6 avoid-list phrases 0.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Noah-Wyle.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 qualifying testimony quotes — McCormack x2, Field, Gemmill),
+       Gate 2: pass (6 of 8 H2s search-intent/hybrid),
+       Gate 4: pass (no type-anaphora ending, hook shape original),
+       Gate 5: pass (2 type-theory paragraphs outside diagnosis/Rabbit Hole, limit 4),
+       Gate 6: pass (bespoke Capitol two-date section, Crichton lawsuit critic anchor,
+                empathy turn, current-tense anchor, interior beat, ending swap-test clear)
+LIMITATIONS: NPR Fresh Air transcript unreachable (timeouts); 2026 directing Emmy
+       nomination unverified so phrased as "submitted"; ER episode-count stat omitted
+       as unverified; Great Chat quotes are auto-transcript wording (flagged in
+       working notes for pre-publish verification)
+```
+
+**Internal links added (4 total):**
+- Type 6 → `/enneagram-corner/enneagram-type-6`
+- Stress patterns → `/enneagram-corner/enneagram-types-in-stress`
+- Wings → `/enneagram-corner/enneagram-wings-complete-guide` (Rabbit Hole)
+- Instinctual subtypes → `/enneagram-corner/enneagram-instinctual-subtypes` (Rabbit Hole)
+
+Per non-interactive rules, no grade was emitted (that's `/grade_blog`'s job) and the draft was not promoted to ready — human review is still required before production.

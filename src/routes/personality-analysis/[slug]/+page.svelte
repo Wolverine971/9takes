@@ -36,6 +36,7 @@
 	// Only import critical components for initial render
 	import PeopleBlogPageHead from '$lib/components/blog/PeopleBlogPageHead.svelte';
 	import ArticleSubTitle from '$lib/components/blog/ArticleSubTitle.svelte';
+	import PeopleSuggestionsSideBar from '$lib/components/blog/PeopleSuggestionsSideBar.svelte';
 	import TableOfContents from '$lib/components/blog/TableOfContents.svelte';
 	// Lazy-loaded RelatedPosts component
 	import RelatedPosts from '$lib/components/molecules/RelatedPosts.svelte';
@@ -173,6 +174,9 @@
 	let userHasAnswered: PageData['flags']['userHasAnswered'] = data.flags.userHasAnswered;
 	let postMeta: App.BlogPost = normalizePost(data.post);
 	let postTypes: string[] = toStringArray(postMeta.type);
+	// Server-filtered to published pages; falls back to the raw column so the
+	// rail still renders if an older payload comes through without the field.
+	let postSuggestions: string[] = data.suggestedPeople ?? toStringArray(data.post.suggestions);
 	let postDisplayName: string = formatPersonalityDisplayName(data.post.person || data.post.slug);
 	let postImagePath: string = buildPersonalityImagePath(
 		data.post.enneagram,
@@ -184,6 +188,7 @@
 	$: userHasAnswered = data.flags.userHasAnswered;
 	$: postMeta = normalizePost(post);
 	$: postTypes = toStringArray(postMeta.type);
+	$: postSuggestions = data.suggestedPeople ?? toStringArray(postMeta.suggestions);
 	$: postDisplayName = formatPersonalityDisplayName(postMeta.person || postMeta.slug);
 	$: caseFileTitle = postDisplayName;
 	$: postImagePath = buildPersonalityImagePath(
@@ -654,6 +659,21 @@
 	hideBeforeBottom={1400}
 />
 
+<!-- Floating related-personalities rail — the curated `suggestions` graph,
+     mirrored on the left of the TOC. Desktop only; auto-hides near the top and
+     bottom of the page so it never collides with the "Further analysis" block.
+     Inline list suppressed: that bottom section is the canonical related block. -->
+{#key post.slug}
+	{#if postSuggestions.length || (data.bridgeLinks?.length ?? 0)}
+		<PeopleSuggestionsSideBar
+			links={postSuggestions}
+			bridgeLinks={data.bridgeLinks ?? []}
+			showInline={false}
+			hideBeforeBottom={1400}
+		/>
+	{/if}
+{/key}
+
 <!-- =====================================================================
   §03 DISCUSSION — the human layer (lazy loaded). One feedback section with
   two ways to weigh in: react to this analysis (comments), or tell us who to
@@ -701,8 +721,8 @@
 
 <!-- =====================================================================
   §04 FURTHER ANALYSIS — the single canonical related block (DB-driven case
-  files) plus quiet framework bridges. The duplicate floating personality
-  rail is intentionally retired on this route.
+  files) plus quiet framework bridges. The floating rail above surfaces the
+  curated graph mid-scroll and hides before this section comes into view.
   ===================================================================== -->
 <section id="related-content" class="related">
 	<div class="related-inner">

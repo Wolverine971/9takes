@@ -46,13 +46,22 @@
 	$: sidebarPosition = calculateSidebarPosition(windowWidth, contentWidth, sidebarWidth);
 
 	function calculateSidebarPosition(winWidth: number, contentW: number, sidebarW: number) {
-		// Calculate the left position relative to the main content column
-		const mainContentLeft = Math.max((winWidth - contentW) / 2, 16); // Minimum 16px from edge
-		const sidebarLeft = mainContentLeft - sidebarW - 24; // 24px gap from main content
+		// Mirror TableOfContents' geometry so this rail and the TOC sit
+		// symmetrically around the same prose column. `main` is full-bleed on
+		// the owned-shell routes, so cap it at the prose measure the article
+		// actually uses (56rem) rather than trusting the raw element width.
+		const maxContentWidth = 56 * 16; // 896px
+		const actualContentWidth = Math.min(contentW, maxContentWidth);
+		const gap = 20;
+		const minEdgeMargin = 12;
 
-		// If sidebar would be positioned less than 16px from left edge, hide it
-		if (sidebarLeft < 16) {
-			return null; // Will cause sidebar to hide
+		const mainContentLeft = Math.max((winWidth - actualContentWidth) / 2, minEdgeMargin);
+		const sidebarLeft = mainContentLeft - sidebarW - gap;
+
+		// Not enough gutter to the left of the content column — hide rather than
+		// overlap the prose.
+		if (sidebarLeft < minEdgeMargin) {
+			return null;
 		}
 
 		return {
@@ -77,9 +86,15 @@
 
 		windowWidth = window.innerWidth;
 
-		// Find the main content element and get its width
+		// Find the main content element and get its width. `main.column-width`
+		// no longer exists anywhere in the app, so the fallbacks are what
+		// actually resolve — without them contentWidth stayed at its default
+		// and the rail only cleared the left gutter above ~1500px.
 		if (!mainElement) {
-			mainElement = document.querySelector('main.column-width');
+			mainElement =
+				document.querySelector('main.column-width') ||
+				document.querySelector('main') ||
+				document.querySelector('.blog');
 		}
 
 		if (mainElement) {
@@ -334,6 +349,9 @@
 
 	.sidebar-link[data-bridge='true'] {
 		color: var(--ink-bright);
+		// Person slugs get title-cased below; bridge labels are already written
+		// as prose and must keep their sentence case.
+		text-transform: none;
 
 		&:hover {
 			color: var(--lamp-glow);

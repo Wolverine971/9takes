@@ -125,11 +125,18 @@ export const load: PageServerLoad = async (event) => {
 	});
 	const postTypes = normalizePeopleTypes(personData.type);
 	const enneagramNum = parseEnneagramNumber(personData.enneagram);
-	const [userHasAnswered, { content, placeholders, headings }, relatedPosts] = await Promise.all([
-		hasCommentedPromise,
-		processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
-		buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum)
-	]);
+	const [userHasAnswered, { content, placeholders, headings }, relatedPosts, publishedRows] =
+		await Promise.all([
+			hasCommentedPromise,
+			processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
+			buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum),
+			getPersonalitySimilarityRows(supabase)
+		]);
+	const suggestedPeople = buildSuggestedPeople(
+		personData.suggestions,
+		canonicalSlug,
+		publishedRows
+	);
 	let comments: PublicBlogCommentRow[] = [];
 
 	// Only fetch comments if user has answered.
@@ -176,6 +183,7 @@ export const load: PageServerLoad = async (event) => {
 		headings,
 		comments,
 		bridgeLinks,
+		suggestedPeople,
 		relatedPosts
 	};
 };
@@ -320,6 +328,38 @@ function parsePostTypes(value: FormDataEntryValue | null): string[] {
 
 function mapSimilarResults(rows: PersonalitySimilarityRow[]): RelatedPersonalityCard[] {
 	return rows.map((row) => ({ ...row, slug: normalizePersonalitySlug(row.person) }));
+}
+
+/**
+ * Hand-curated `suggestions` (jsonb array of person slugs) drive the floating
+ * related-personalities rail. Normalize them, drop self-references and dupes,
+ * and keep only slugs that resolve to a published page so the rail never links
+ * into a 404. When the published-row lookup came back empty (network blip, and
+ * the cache is cold) the filter is skipped rather than blanking the rail.
+ */
+function buildSuggestedPeople(
+	rawSuggestions: unknown,
+	currentSlug: string,
+	publishedRows: PersonalitySimilarityRow[]
+): string[] {
+	if (!Array.isArray(rawSuggestions)) return [];
+
+	const publishedSlugs = new Set(
+		publishedRows.map((row) => normalizePersonalitySlug(row.person)).filter(Boolean)
+	);
+	const seen = new Set<string>();
+	const suggested: string[] = [];
+
+	for (const entry of rawSuggestions) {
+		if (typeof entry !== 'string') continue;
+		const slug = normalizePersonalitySlug(entry);
+		if (!slug || slug === currentSlug || seen.has(slug)) continue;
+		if (publishedSlugs.size && !publishedSlugs.has(slug)) continue;
+		seen.add(slug);
+		suggested.push(slug);
+	}
+
+	return suggested;
 }
 
 async function buildRelatedPosts(

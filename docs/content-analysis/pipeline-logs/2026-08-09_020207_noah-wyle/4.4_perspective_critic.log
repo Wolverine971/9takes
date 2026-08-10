@@ -1,0 +1,11 @@
+Critic review complete and saved to `docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207/critic.md` (SHA verified against context.json before review).
+
+**Verdict:** trust strained, value high, recommendation **revise** — 1 blocker, 10 concerns. The draft largely earns its sympathetic interpretation (the lawsuit steelman is genuine and the pre-fame service record is strong non-self-narrated evidence), but it buys extra sympathy through a pattern of small inflations that are each one notch past their sources.
+
+**Blocker (CRITIC-B1):** The lawsuit section calls the Crichton suit a "copyright case" — it's pled as breach of contract. One-word fix, but it sits in the exact section where informed readers will check.
+
+**Strongest hit (CRITIC-H1/H2):** The "Be honest about what the estate has right" paragraph plus "motives and rights are different questions" — the estate's case stated at near-full strength with an explicit guardrail against motive-laundering. Both flagged preserve-verbatim.
+
+**Highest-priority concern (CRITIC-C1):** New finding beyond the evidence packet — my research turned up that FIGS (the cold-open tuxedo maker and organizer of the June 2025 Capitol trip) announced a formal long-term partnership with Wyle in May 2026. The draft weaves FIGS through the service narrative with zero disclosure of the commercial relationship; a hostile reader will find this in one search.
+
+Also notable: the empathy turn rebuts a "cash-grab theory" the estate never filed (its actual charge is contract circumvention), and two quote-fidelity issues cluster in the bespoke Capitol section ("really good" reattached to the wrong referent; an unverified nurse.org headline printed as his direct speech).

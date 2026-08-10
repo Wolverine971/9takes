@@ -341,7 +341,19 @@ const OUTLETS = [
 	// every athlete quote sourced to a dated ESPN interview graded vague no
 	// matter how precisely it was cited. Unambiguous all-caps acronym, same
 	// class as NPR / BBC / CNN already listed.
-	'ESPN'
+	'ESPN',
+	// Legacy-TV primary record (Noah-Wyle pass, 2026-08-09). Television Academy is
+	// the Academy's own editorial arm (emmy magazine) and holds this subject's
+	// volunteer-email recounting — same class as GRAMMY.com above. Gold Derby runs
+	// bylined, dated awards-beat interviews (the McCormack testimony). Great Chat
+	// is Josh Smith's interview show with full public episodes (same class as
+	// Happy Sad Confused / Call Her Daddy). SlashFilm is checkable film-trade
+	// press; "Film" is not in OUTLET_SUFFIX, so without an entry its dated stat
+	// reporting grades vague no matter how sourced.
+	'Television Academy',
+	'Gold Derby',
+	'Great Chat',
+	'SlashFilm'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

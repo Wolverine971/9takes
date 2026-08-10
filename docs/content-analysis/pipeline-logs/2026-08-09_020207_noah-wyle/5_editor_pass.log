@@ -1,0 +1,20 @@
+Editor pass complete on `src/blog/people/drafts/Noah-Wyle.md`, run in perspective-jury mode against the `2026-08-09_020207` synthesis (frozen-draft SHA verified before editing).
+
+**All 7 P0 repairs applied:**
+1. The lawsuit is no longer called a "copyright case" — label-free "a lawsuit" per the synthesis's adjudication.
+2. Emmy status is nomination-current: "was nominated twice over, for acting and for directing the episode '12:00 P.M.'", with absolute September 2026 dating.
+3. The 2012 arrest beat now uses both verified quotes with correct referents (the "really good" was about the activists' cheer; his verdict was "a good fight to fight").
+4. Capitol/service precision: **June 2025** date, the "seen and heard" line paraphrased as attributed headline framing, HRW corrected to the Los Angeles committee, camp figure softened to "thousands."
+5. The phone ban is reattributed to John Wells, with Wyle as champion/enforcer.
+6. Gemmill added to the defendant lists in body and FAQ; the ruling qualified as an early screen; appeal noted as briefed and undecided as of mid-2026.
+7. FIGS disclosure added in the Capitol paragraph (May 2026 partnership, with the IR release added to citations), and the unpaid service ledger now explicitly reads "no sponsor."
+
+**Research questions:** RQ-01 resolved — I fetched the FIGS IR release; the ambassadorship kicked off May 21, 2026 with no evidence of a paid tie predating the June 2025 trip, so the one-clause disclosure stands. RQ-02 stays open — the "seen and heard" sentence exists only as a nurse.org headline, so the paraphrase repair holds until someone finds event video.
+
+**All 9 accepted P1s plus P2-01 landed**, the highlights being the retargeted empathy turn (now answers the sequence-of-events charge with a concession and one sentence of estate interiority, guardrail verbatim), the self-narration caveat before the confidence claim, the Carter-intervention mirror at the finale beat, and the Rabbit Hole's new Type 3 counterargument, counterphobic clause, and three-falsifier exit. Universalizers swept ("by castmates' accounts," "Cast of 300" with the Variety referent glossed), and the closer now reads "a son building," which drops the aging number and arguably lands harder.
+
+**Exit checks:** blog-lint 0 fail with contrast target 0 (0 strong / 5 comparative, unchanged from baseline), no prose em-dashes, no banned phrases. All 12 protected hits verified byte-intact, including the drawer dialogue, steelman, and bookend.
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207/editor-resolution.md` — full per-item log, protected-hit checklist, and unresolved items (RQ-02 video hunt, plus refresh triggers: Sept 14 Emmy results, the appellate ruling, and season 3 in January 2027).
+
+The draft reads production-ready to me — the trust repairs were all clause-scale and nothing structural moved. It now goes to `/blog_perspective_verify_people` for the independent gate check; I have not claimed that gate passed.

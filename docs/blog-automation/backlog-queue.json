@@ -1,24 +1,11 @@
 {
-  "lastUpdated": "2026-08-08T15:33:35Z",
+  "lastUpdated": "2026-08-10T06:00:11Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
   "queue": [
-    {
-      "name": "noah-wyle",
-      "displayName": "Noah Wyle",
-      "type": null,
-      "priority": 62,
-      "priorityReason": "The Pitt leads 2026 Emmys with 25 noms; reigning Lead Actor winner with acting + directing noms; resurgence narrative runs through Sept 14 ceremony",
-      "estimatedTraffic": "high",
-      "searchVolume": "high",
-      "personaTitle": null,
-      "addedToQueue": "2026-07-18",
-      "retryCount": 1,
-      "strategicValue": "emmy-season-cluster"
-    },
     {
       "name": "chase-infiniti",
       "displayName": "Chase Infiniti",
@@ -29,7 +16,7 @@
       "searchVolume": "medium",
       "personaTitle": null,
       "addedToQueue": "2026-07-18",
-      "retryCount": 0,
+      "retryCount": 1,
       "strategicValue": "gen-z-hollywood-pop-cluster"
     },
     {
@@ -307,6 +294,23 @@
     }
   ],
   "completed": [
+    {
+      "name": "noah-wyle",
+      "displayName": "Noah Wyle",
+      "type": null,
+      "priority": 62,
+      "priorityReason": "The Pitt leads 2026 Emmys with 25 noms; reigning Lead Actor winner with acting + directing noms; resurgence narrative runs through Sept 14 ceremony",
+      "estimatedTraffic": "high",
+      "searchVolume": "high",
+      "personaTitle": null,
+      "addedToQueue": "2026-07-18",
+      "retryCount": 1,
+      "strategicValue": "emmy-season-cluster",
+      "startedAt": "2026-08-09T06:02:05Z",
+      "completedAt": "2026-08-10T06:00:00Z",
+      "needsReview": true,
+      "recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+    },
     {
       "name": "duke-dennis",
       "displayName": "Duke Dennis",

@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — noah-wyle (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Noah-Wyle.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 57
+Comparison set (last 8 other Type-6 drafts by date):
+  - samara-weaving  (2026-08-03, 29 units)
+  - Jack-Antonoff  (2026-07-30, 27 units)
+  - mila-kunis  (2026-07-29, 40 units)
+  - jensen-huang  (2026-07-28, 16 units)
+  - ninja  (2026-07-28, 43 units)
+  - Sadie-Sink  (2026-07-24, 34 units)
+  - Joe-Lonsdale  (2026-07-19, 28 units)
+  - Kaia-Gerber  (2026-07-19, 30 units)
+
+Noise floor over 14079 unit pairs:  median=0  p90=0  p99=0.006  max=0.1
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.100 ####                 Sadie-Sink
+  0.075 ###                  Jack-Antonoff
+  0.059 ##                   samara-weaving
+  0.043 ##                   ninja
+  0.037 #                    Kaia-Gerber
+  0.030 #                    mila-kunis
+  0.028 #                    Joe-Lonsdale
+  0.019 #                    jensen-huang
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.100   noah-wyle  <->  Sadie-Sink
+   TARGET [counter-typing] evidence that the calm is temperamental baseline rather than practiced (9)
+   OTHER  [diagnosis] Type 6 says the calm is the finished product
+
+score 0.085   noah-wyle  <->  Sadie-Sink
+   TARGET [counter-typing] but the calm is practiced integration rather than temperament (see the arrows above)
+   OTHER  [diagnosis] Type 6 says the calm is the finished product
+
+score 0.075   noah-wyle  <->  Jack-Antonoff
+   TARGET [counter-typing] evidence that the calm is temperamental baseline rather than practiced (9)
+   OTHER  [counter-typing] evidence that the safety language is aesthetic rather than lived.
+
+score 0.073   noah-wyle  <->  Jack-Antonoff
+   TARGET [counter-typing] evidence that the service record is publicity-managed (3).
+   OTHER  [counter-typing] evidence that the safety language is aesthetic rather than lived.
+
+score 0.059   noah-wyle  <->  samara-weaving
+   TARGET [counter-typing] the opposite of a Nine's self-forgetting.
+   OTHER  [diagnosis] but being really famous never appealed to me." But a Nine's peace comes from not looking too hard at what might go wrong.
+
+score 0.046   noah-wyle  <->  Jack-Antonoff
+   TARGET [counter-typing] evidence that the caretaking is primarily about being irreplaceable to specific people rather than useful to a chosen tribe (that would point to 2)
+   OTHER  [counter-typing] evidence that the safety language is aesthetic rather than lived.
+
+score 0.043   noah-wyle  <->  ninja
+   TARGET [counter-typing] The Type 3 case is the one a skeptic reaches for first
+   OTHER  [diagnosis] The chair is the one place where there is no time to ask whether he is slowing down.
+
+score 0.037   noah-wyle  <->  Kaia-Gerber
+   TARGET [counter-typing] Sixes run phobic to counterphobic
+   OTHER  [diagnosis] The Enneagram Type 6 runs on exactly this wiring.
+
+score 0.034   noah-wyle  <->  samara-weaving
+   TARGET [diagnosis] "I know you don't want to do the show again
+   OTHER  [diagnosis] so I don't know." That is a baseline condition
+
+score 0.031   noah-wyle  <->  Sadie-Sink
+   TARGET [diagnosis] offered across back-to-back Emmy campaigns.
+   OTHER  [counter-typing] The behavior that keeps pointing back to Six is her open
+
+score 0.030   noah-wyle  <->  Sadie-Sink
+   TARGET [diagnosis] documented behavior that predates any campaign
+   OTHER  [counter-typing] The behavior that keeps pointing back to Six is her open
+
+score 0.030   noah-wyle  <->  mila-kunis
+   TARGET [counter-typing] evidence that the service record is publicity-managed (3).
+   OTHER  [diagnosis] Her public record is organized around preparation
+
+------------------------------------------------------------------------------
+Top pair scores 0.1 vs median 0  (~∞x the noise floor).

@@ -67,13 +67,24 @@ faqs:
     anchor: 'the-farm-the-cashmere-and-the-woman-behind-the-curtain'
 content_quality:
   hook: 9
-  enneagram: 8.5
-  evidence: 8.5
-  writing: 9
-  originality: 8.5
-  overall: 8.7
-  letter: 'B+'
-  graded_at: '2026-03-28'
+  enneagram: 7
+  evidence: 6
+  writing: 8
+  originality: 8
+  discoverability: 6
+  overall: 7.1
+  letter: 'C'
+  rubric_version: 2
+  caps_applied:
+    - evidence_untagged_load_bearing
+    - missing_rabbit_hole
+    - contrast_pair_density
+    - house_empathy_turn
+    - discoverability_gate
+  confidence: high
+  anchor: 'Alex-Warren draft (2026-07-01)'
+  needs_review: true
+  graded_at: '2026-08-10'
 path: src/blog/people/drafts/Gigi-Hadid.md
 ---
 

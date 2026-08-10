@@ -1,0 +1,50 @@
+## Cohesion Check Complete: Noah-Wyle.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Noah Wyle is a Type 6 Loyalist whose strangest career decisions (the fifteen-year vow, the volunteer email, the two Capitol visits) all trace back to his nurse mother's silent competence, and The Pitt is him finally building the room where helpers like her get to open the drawer.
+
+### Thread Map
+
+| Section | Contribution | Links because |
+|---|---|---|
+| Cold open (scrubs tuxedo) | Sets the paradox: never worked a shift, dressed as the profession | Ends on "who helps the helper?", which the whole piece answers |
+| What is his personality type? | The diagnosis: loyalty record, self-report, the volunteer email tiebreaker | "Running that program since 1994" begs the origin question |
+| The Drawer | Origin: mother's filed-away trauma is the formative curriculum | Closes on "built a career out of the filing system" → career section |
+| Why He Swore Off Doctors | ER fame, the vow, the wilderness years | Ends "even his exile looked like showing up" → what broke the vow |
+| The Letters | COVID letters → The Pitt as debt repayment | "Then the pandemic arrived" picks up the wilderness directly |
+| Capitol Twice | Off-camera service ledger proving the enlistment pattern | "When no camera needs him" pivots cleanly from the show narrative |
+| Set of 300 | The pattern applied to his own set: he guards his people | Now bridged from Capitol's "institutions that guard people he considers his" |
+| The Lawsuit | Critic-pressure section: honest steelman, then the motive reframe | "Sharpest criticism of his second act" turns from the praise section |
+| Where Did You Put That Memory | Lands the thesis on "Somewhere" and the shift bookend | Explicitly named "the question this entire analysis orbits" |
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 9/10 | 0 |
+| Section Transitions | 8→9/10 | 2 fixed |
+| Internal Paragraph Flow | 8→9/10 | 1 fixed |
+
+### Changes Made (3 total, all minor)
+
+**Transition fixes (2):**
+- Diagnosis → The Drawer: the diagnosis ended on Rabbit Hole housekeeping, then jumped to childhood cold. Added "The program got installed early." to open the Drawer section, carrying the "running that program" keyword from the diagnosis into the origin story.
+- Capitol Twice → Set of 300: the Capitol section closed on "institutions that guard people he considers his," then the next section opened on production logistics with no link. Added "The institution he guards most days is his own set." to carry both keywords across the boundary.
+
+**Internal flow fix (1):**
+- Lawsuit section: split the final paragraph before "You can watch what stress does to each type." It was carrying motive analysis, the wound reframe, the stress arrow, the season 2 Robby arc, and the Emmy count in one block; the break separates the wound argument from the working-harder evidence. No words changed.
+
+### What Was Preserved
+
+- All frontmatter, ledgers, working notes, and pass-note comments
+- The drawer dialogue scene, the "Somewhere" ending, and the shift bookend (fresh-eyes do-not-touch items, untouched)
+- All internal links, the Rabbit Hole accordion, pull quote, and inner-thought beat
+- Six of eight section transitions were already strong (Swore → Letters and Letters → Capitol are the best in the piece) and were left alone
+
+### Remaining Concerns
+
+None structural. No orphaned threads: the "who helps the helper?" question from the intro is answered by both the Abbott intervention and the ending, and the impostor thread (epigraph → Pirates of Silicon Valley → set reassurance → lawsuit wound) resolves cleanly. The lawsuit section still ends on Emmy stats before the pivot to the mother scene, but the signature H2 plus "the question this entire analysis orbits" re-anchors fast enough that I left the ending untouched rather than risk diluting the closer.

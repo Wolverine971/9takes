@@ -75,14 +75,25 @@ instagram: 'troyesivan'
 tiktok: 'troyesivan'
 path: src/blog/people/drafts/Troye-Sivan.md
 content_quality:
-  hook: 9
-  enneagram: 8.5
-  evidence: 8.5
-  writing: 9
-  originality: 9
-  overall: 8.8
-  letter: 'B+'
-  graded_at: '2026-03-27'
+  hook: 8.5
+  enneagram: 7
+  evidence: 6
+  writing: 6
+  originality: 8
+  discoverability: 7
+  overall: 7.0
+  letter: C
+  rubric_version: 2
+  caps_applied:
+    - evidence_untraceable_load_bearing
+    - contrast_pair_engine_drives_piece
+    - ending_swap_test
+    - missing_rabbit_hole
+  confidence: high
+  anchor: 'Alex-Warren draft (C, 2026-07-01)'
+  needs_review: false
+  first_overall: 7.0
+  graded_at: '2026-08-10'
 ---
 
 > "I talk about things in music that I would never talk about with my best friends, which I think seems like a weird thing, but my justification in my head as to why it's okay is because it's cryptic enough and there's enough meat around it to make it all okay."
