@@ -1,0 +1,18 @@
+{
+	"person": "chase-infiniti",
+	"draft_path": "src/blog/people/drafts/Chase-Infiniti.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-11_020002_chase-infiniti",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Chase-Infiniti/2026-08-11_020002",
+	"perspective_initial_status": "fail",
+	"perspective_final_status": "fail_after_revision",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.4,
+	"final_overall": 8.2,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.20000000000000107,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-11T08:27:18.733Z"
+}

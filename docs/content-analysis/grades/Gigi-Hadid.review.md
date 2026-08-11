@@ -1,29 +1,57 @@
+<!-- docs/content-analysis/grades/Gigi-Hadid.review.md -->
+
 # Grade feedback: Gigi Hadid
 
-Grade: C (7.1), rubric v2
-Evidence: 6 | Originality: 8 | Discoverability: 6 | Enneagram: 7 | Writing: 8 | Hook: 9
-Anchor: Alex-Warren draft (2026-07-01) | Caps: evidence_untagged_load_bearing, missing_rabbit_hole, contrast_pair_density, house_empathy_turn, discoverability_gate | Needs review: true
-Source audit: 9 load-bearing quotes — 0 inline, 1 vague, 8 untagged. Untagged in BOTH epigraph and cold open. Untagged load-bearing slots: (1) epigraph "I don't wake up feeling like the Gigi that the world expects me to be on a daily basis."; (2) cold open "Have a few almonds and chew them well."; (3) diagnosis "I have three goals every day: be nice, work hard, and make friends."; (4) diagnosis "I feel suffocated by my own work ethic and by the expectations I put on myself"; (5) diagnosis "I've just really been so focused on making sure that I am nice to everyone that I work with..."; (6) diagnosis Taylor Swift's "an innately kind and inclusive person..."; (7) diagnosis rep statement "Gigi is solely focused on the best for Khai."; (8) diagnosis "All I do my entire life — the purpose — is just to watch over Bella."; (9) diagnosis Kanye response "a bully and a joke". Vague: close "To say what I think when I think it." (year=2025, venue="red carpet", no outlet).
-Interior line: MISSING. Closest is "A half-almond girl learning to run on fumes and make it look easy." — narrator-voice observation, not a moment rendered from inside her feeling.
-Empathy turn: "That restraint isn't sainthood. It's the Three under stress — moving toward Nine — choosing peace over confrontation, choosing function over feeling, choosing the performance of stability because the alternative is too chaotic to survive." (house grammar `isn't X. It's Y`, resolving into typology vocabulary rather than her own wound-vocabulary)
+Grade: B+ (8.6), rubric v2
+Evidence: 8 | Originality: 9 | Discoverability: 9 | Enneagram: 8.5 | Writing: 8.5 | Hook: 9
+Anchor: Matt-Smith draft (2026-06-28), audit-calibrated to B | Caps: none | Needs review: true
+Source audit: 7 load-bearing quotes, 7 inline, 0 vague, 0 untagged. No untagged quote in epigraph or cold open.
+Interior line: "She reaches for the second notebook, the one designated for exactly this, writes the sentence down, closes the cover, and opens the other one, where the good things go."
+Empathy turn: "The carefulness reads as cowardice only if you skip what she had already told i-D two years earlier. She has never once been handed a category she fully fits." (resolves in her own wound-vocabulary from the i-D quote, not house grammar)
 
-**NOTE: This replaces a stale v1 grade (8.7 / B+, graded 2026-03-28) that never scored Discoverability and predates the source audit. v1 and v2 overalls are not comparable — this is a rubric migration, not a quality regression. This blog is `published: true` and live.**
+**Rebuild pass, 2026-08-10.** Prior state was C (7.1) with five caps. This is a re-grade after a
+research-and-rewrite pass, not a re-scoring of the same text. **Confidence is medium because the
+grader also wrote the revision** — an independent regrade is warranted before this number is trusted
+downstream.
+
+## What the rebuild fixed
+
+- **Evidence 6 → 8.** Source audit went from 0 inline / 8 untagged to **7 inline / 0 untagged**. The `citations` array went from 4 Wikipedia pages plus the brand's own homepage to 12 real sources (Refinery29, TIME, W Magazine, i-D, GMA, E! News, Forbes, Just Jared, Reality Tea).
+- **Discoverability 6 → 9.** `meta_title` 90 chars with no head term → 55 chars leading with "Gigi Hadid Enneagram Type 3". `title` 55 chars, `description` 139. Head-term check now PASSES. The type answer moved from ~59% depth to the first H2 after the TL;DR, with a 59-word extractable answer block. Added a fifth FAQ ("Is Gigi Hadid a 3w2 or a 3w4?") to serve long-tail wing queries.
+- **Enneagram 7 → 8.5.** A real `<details class="enneagram-rabbit-hole">` now exists holding the wing case, both arrows, **two** counter-typing cases (Type 9 and Type 1), and an instinctual note. The body is clean of wing/arrow mechanics.
+- **Writing 8 → 8.5.** Strong contrast pairs went 5 → **0**. Em-dashes 41 → **0**. The previously untitled final section got an H2. Reader-command imperatives trimmed from 4 to 2.
+- **All five caps cleared.**
+
+## Factual corrections made (the real story of this pass)
+
+The old draft's most-praised material was substantially wrong. Corrected against sources:
+
+1. **Epigraph was a misquote.** It read "I don't wake up feeling like the Gigi that the world expects me to be." She actually said "I'm so grateful for every opportunity, but that doesn't mean that I wake up feeling like..." The cut changed the meaning.
+2. **The cold open was partly invented.** "She called her mother from a photoshoot" is unsupported, and Yolanda's line was misquoted as "Have a few almonds and chew them well" (actual: "have a couple of almonds and chew them really well"). The rebuild also adds Yolanda's own 2022 rebuttal, which the draft never mentioned.
+3. **"$20 million annually" appears to be Kendall Jenner's 2017 Forbes figure.** Gigi's was ~$9.5M (2016, 2017). Removed.
+4. **Hashimoto's timeline was wrong.** Draft said "the diagnosis came around 2014"; it was December 2016. The statement was a **tweet**, not an "open letter."
+5. **The two-journals reading was backwards.** The draft framed it as concealment ("the truth goes in another"). Gigi's stated reason was "I didn't want to feel guilty about feeling those things... I just liked the separation," and she intends to let Khai read the bad journal. Reframed as a container, which is a stronger Type 3 insight.
+6. **"make friends" → "make a friend"** (Refinery29, 2015), and the revealing follow-up the draft dropped: "Those things open up more doors."
+7. **The farm is Yolanda's**, bought 2017, not Gigi's "primary residence."
+8. **$30M is Puck's reporting on the brand** and the old draft lifted Puck's phrasing near-verbatim, uncredited. Now attributed and reworded.
+9. **Cut as unverifiable:** the Bella "I'll get aggressive for her" quote, the "catering crew / famous photographer" quote, the Ralph Lauren sweater origin, the Milan cashmere-house trips, Inner Mongolia / Sustainable Fibre Alliance sourcing, the eleven-person office, the Glamour dedication to her father, the two Victoria's Secret rejections, Mohamed's "$85 million empire" and "not even a dollar."
+
+Full sourcing table and the complete cut list: `docs/content-analysis/research/Gigi-Hadid.md`.
+
+## What earned the Originality 9
+
+The rebuild is built around a verified chronology no coverage appears to have connected:
+
+- **Oct 4, 2022** — Gigi calls Kanye West "a bully and a joke" defending Vogue editor Gabriella Karefa-Johnson.
+- **Oct 14, 2022** — she sits across from _that same woman_ at Vogue's Forces of Fashion and says "I have imposter syndrome all the time."
+
+Ten days. Total conviction about someone else's worth; none about her own. That asymmetry is the
+piece's spine and it replaced a monocausal image-versus-truth thesis.
 
 FEEDBACK (2026-08-10):
 
-- **The half-almond cold open is the best thing here and it earns its Hook 9.** "She called her mother from a photoshoot feeling faint. She'd eaten half an almond that day." — specific, surprising, reveals character, and creates the question the piece then answers. It also *pays off* structurally at the close ("Somewhere between the half-almond phone call and the Met Gala red carpet"), which is why the ending passes the swap test. Very few drafts in the corpus land a spine image this cleanly.
-- **The two-journals section is a genuine signature detail.** The good journal / bad journal split, and the read on it — "The performance goes in one place. The truth goes in another" — is the single most Type-3-illuminating passage in the piece, and it's hers, not a textbook illustration.
-- **"Guest in Residence" read as self-description is real originality.** "A guest in residence. Someone who belongs somewhere but not permanently." That's a small observation that reframes the whole business section, and it links to the not-Arab-enough / not-white-enough / not-self-made-enough triangulation earlier. Critic pressure is faced rather than ducked throughout (nepotism, too-big/too-thin, the October 2023 statement and death threats, Zayn).
-- **Current-tense anchor present and well-placed** (Met Gala 2025, turning 30, "To say what I think when I think it"). Cross-draft sameness scan is CLEAR — no house-furniture reuse against Duke-Dennis, Keira-Knightley, Caitlin-Clark; `same-type-similarity` top pair (0.100 vs Brooke-Monk) is a generic clause, not real reuse.
-
-- **NEEDS WORK — Evidence is the binding constraint (capped at 6).** The piece is quote-dense, which reads as strong sourcing, but a fact-checker can trace almost none of it. The `citations` array is 4 Wikipedia pages plus the brand's own homepage — zero primary interview sources. Compare Alex-Warren (the C-band anchor) which carries LA Times, Guardian, Grammy, Official Charts, and a named podcast episode. The thesis quotes — the three-goals mantra, "I feel suffocated by my own work ethic," "I have imposter syndrome all the time," Yolanda's mantra — are the spine of the argument and none carry outlet + date. The Yolanda mantra in particular is quoted three times (body, TL;DR, FAQ) and sourced nowhere.
-- **NEEDS WORK — Discoverability fails on titling and answer placement (6, trips the gate).** Three title fields and not one carries the head term: `title` "The Supermodel Who Can't Stop Performing Effortless", `meta_title` "Inside Gigi Hadid's Mind: Why the World's Most Relatable Supermodel Doesn't Feel Relatable" (90 chars — 25 over the 65 max, so it truncates in the SERP), `persona_title` "Fashion's Effortless Performer". Nobody searching "Gigi Hadid enneagram" or "Gigi Hadid personality type" is served by any of those. The keywords array has the head terms but keywords are not a ranking signal. Separately, the type answer H2 sits at line 164 of 278 (~59% depth) behind two full narrative sections — a Google visitor scrolls past ~1,700 words to reach it. What IS strong: the FAQ schema is real (4 genuine search questions with anchors and substantive answers), the answer block itself is clean at 19 words, and `same_as` / `wikidata_qid` / `imdb_id` are complete.
-- **NEEDS WORK — There is no rabbit hole at all (0 matches for `enneagram-rabbit-hole`), and the typology is in the body.** The 3w2-vs-3w4 wing comparison, the stress arrow to 9 with mechanics, and the growth arrow to 6 with mechanics all run in the main narrative. That is the exact content v2 quarantines. Caps Enneagram at 8; it lands at 7 because the emotional interior check is 2 of 3 — the felt interior is genuinely strong ("My biggest fear is the people I love not knowing how much I love them" is an excellent reframe of the expected Three fear), but there is no interior beat, and the "achievement equals love / the child brings home the A's" paragraph is a stock Three parable that could sit in any Type 3 blog.
-- **NEEDS WORK — 5 strong contrast pairs (threshold is 2).** L156 "Not by fighting the system, but by making the system want what she already was"; L160 "evolution, not disruption"; L128 "wasn't just career advice. It was a life thesis"; L144 "wasn't it. She was athletic..."; plus the H2 "Not Arab Enough, Not White Enough, Not Self-Made Enough". Caps Writing at 8. Two more structural nits: the final section has **no H2** (it opens on a bare blockquote at L263), which breaks the heading scan pattern; and the last two sentences resolve/explain rather than cut to black.
-
-- **TO REACH B+ (8.5):** Discoverability and Evidence are both weighted 1.5× and both are the cheapest fixes here — this draft is one metadata pass and one sourcing pass away from a very different score.
-  1. **Rewrite the three title fields.** `meta_title` → something like "Gigi Hadid Enneagram Type 3: The Effortless Performance" (54 chars, head term front-loaded). `title` → "Gigi Hadid: An Enneagram Type 3 (The Achiever) Analysis". Add the head term to `description` too. This alone moves Discoverability from 6 to ~8.
-  2. **Move the type answer above the fold.** Promote "What is Gigi Hadid's Personality Type?" to run immediately after the TL;DR (before "Scaling the Staircase"), or hoist a 2-3 sentence extractable answer block up there. The narrative sections still work after it.
-  3. **Source the 8 untagged load-bearing quotes with outlet + date inline**, prioritizing the epigraph, the cold open, the three-goals mantra, and Yolanda's mantra — those four carry the argument. Add the real interview URLs to `citations` and drop the Wikipedia padding. This clears the Evidence cap and Evidence moves 6 → ~8.
-  4. **Build the rabbit hole.** Cut the 3w2-vs-3w4 comparison and both arrow-mechanics passages out of the body and rebuild them inside `<details class="enneagram-rabbit-hole">`. Keep the Zayn restraint scene in the body but re-land the empathy turn in Gigi's own vocabulary instead of "the Three under stress — moving toward Nine." Removes both the rabbit-hole cap and `house_empathy_turn`.
-  5. **Cut two of the five strong contrast pairs** (L156 and L160 are the most disposable — both land in the same paragraph region and say the same thing twice), and give the final section an H2.
+- The "Ten Days in October" section is the strongest thing in the piece and the reason this clears B+. It is built entirely from two well-known, separately-reported events, which is the cheapest possible kind of originality and the hardest to find.
+- Keeping Yolanda's rebuttal in the cold open makes the opening better, not weaker. The lore and the mother's account sit side by side and the piece declines to adjudicate, which raises the credibility of everything after it.
+- NEEDS WORK: at ~3,700 words it runs long, and several analytic beats explain what the scene already showed ("That is a Three describing the sound in the background"). A trim pass could cut 300-400 words of commentary without losing a single fact.
+- NEEDS WORK: two load-bearing items are second-hand. The Virgil Abloh quote is verified by outlet (SSENSE) but the page 403s, and the Puck $30M figure could not be fetched directly. Both are attributed honestly, but neither is a primary read.
+- TO REACH A (9.0+): (1) Pin Yolanda's mantra to one specific outlet and date. It is quoted three times across the piece and is the only load-bearing item still sourced as "repeated in interviews for a decade." (2) Get primary reads on the SSENSE and Puck items. (3) Cut 300-400 words of explanatory commentary. (4) Replace the softened stats ("dozens of international Vogue covers") with exact, cited figures.

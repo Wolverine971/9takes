@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-08-06T17:28:48.572Z_
+_Generated: 2026-08-11T17:49:32.705Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -11,7 +11,7 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 ## Corpus Totals
 
 - **Published profiles:** 401
-- **Drafts in pipeline:** 140
+- **Drafts in pipeline:** 144
 
 > All stats below are computed against **published** profiles only.
 
@@ -173,15 +173,15 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 ## Pipeline
 
-- **In the draft / review pipeline:** 140
+- **In the draft / review pipeline:** 144
 - **Published in the last 30 days:** 20
-- **Published in the last 90 days:** 69
-- **Average new profiles per month (trailing 90d):** 23
+- **Published in the last 90 days:** 64
+- **Average new profiles per month (trailing 90d):** 21.3
 
 ## Freshness
 
-- **Updated in last 30 days:** 25
-- **Updated in last 90 days:** 100 (24.9%)
+- **Updated in last 30 days:** 22
+- **Updated in last 90 days:** 93 (23.2%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
@@ -196,7 +196,7 @@ Drop these into a blog verbatim — they are pre-computed from the live corpus a
 - Among 70 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 22.9% — +14.63 percentage points above the corpus baseline.
 - Among 32 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 43.8% — +29.04 percentage points above the corpus baseline.
 - Among 21 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 33.3% — +25.1 percentage points above the corpus baseline.
-- 140 additional profiles are in the review pipeline, with ~23 new profiles shipping per month.
+- 144 additional profiles are in the review pipeline, with ~21.3 new profiles shipping per month.
 
 ---
 

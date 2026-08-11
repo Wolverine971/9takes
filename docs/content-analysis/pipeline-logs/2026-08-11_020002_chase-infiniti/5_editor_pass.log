@@ -1,0 +1,17 @@
+Polished `src/blog/people/drafts/Chase-Infiniti.md` in perspective-jury mode against the frozen snapshot (SHA matched).
+
+**All 12 P0 items fixed, 14 P1 applied, all 4 RQ items resolved.** Resolution artifact: `docs/content-analysis/perspective-reviews/Chase-Infiniti/2026-08-11_020002/editor-resolution.md`.
+
+**The research paid off more than expected.** RQ-02/RQ-04 turned up a first-person source the evidence packet never had: on Jimmy Kimmel Live (Jan 14, 2026) she says *"I was like shaking the entire time."* That converts P0-04 from a hedging repair into an upgrade — the piece's spine no longer rests on the casting director's marked guess, it's sourced from both sides of the camera. RQ-03 also came back positive: the name quotation traces to the same *Elle* interview, so it got sourced rather than cut, which saved a protected line's supporting evidence. RQ-01 came back negative (THR's "terrifies her" answer is about Gilead's real-world resonance), so P0-01's discriminator repair stood as written.
+
+**Main language and flow work:** the mantra splice replaced with the real contiguous pair; the severed *W* sentence printed whole in one place only; the *Dazed* coping line restored to her own authorship; Miller's craft compliment removed from the "unexplained" slot and replaced with the concealed *One Battle After Another* credential, which is genuinely unaccounted for; the instinctual-subtype section rewritten against the two repo pages it links to; the falsifier respecified at motivation level and *The Julia Set* corrected to its TIFF premiere.
+
+**Final gates:** blog-lint **0 fail, 2 warn**. Contrast pairs **0 strong, 0 comparative** — I introduced three strong engines during the repairs and rewrote all of them before exit. Body 4,499 words against the 4,500 ceiling. All 12 PROTECT items verified intact; `lastmod` untouched.
+
+**Production-ready on the editorial axis**, with three things left that aren't mine to decide:
+
+- **P1-14 is deferred** — the four syndicated AOL/Yahoo URLs still need archiving, and that matters *more* now, since P0-01 and P0-02 both depend on longer quotations held through them.
+- **P0-05 I resolved against the synthesis's stated preference.** It wanted the Rizzo moment kept with her in the *Grease* audience; that framing rests on Tier 4 aggregators, and over-claiming from thin sources is the exact failure this pass exists to repair. I substituted the WFYI-documented Summer Stock Stage run and lost the vocation-origin beat. Reversible if a Tier 1–2 source surfaces.
+- **A new source conflict I deliberately left unresolved in the body:** Kulukundis calls it "that screen test"; Infiniti calls it a bonding exercise around her last callbacks, with an electric shaver, and says she left the beard crooked. Probably the same session labelled two ways. The draft asserts no identity between them. The crooked-beard detail is unused — it complicates "didn't look like she missed a beat" in a way the piece could profit from, but there was no word budget for it.
+
+The perspective gate isn't claimed here; `/blog_perspective_verify_people` checks it independently.

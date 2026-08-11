@@ -1,0 +1,56 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Chase-Infiniti.md`
+
+**Before score: 7/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Chase Infiniti's celebrated poise is a room-reading skill built on a biracial neighborhood seam in Indianapolis: she converts every pressure into a legible surface, grades herself by whether it reads convincingly in someone else's eye, and cannot credit herself for any of it.
+
+### Thread Map
+
+| Section | Contributes | Links to next because |
+|---|---|---|
+| Intro (razor) | The behavior to be explained: shaking that never surfaced | The mantra reveals a suspicion underneath |
+| H2 1 Diagnosis | Names the Three; pressure-tests Type 6; admits one unexplained behavior | The legible part has an origin |
+| H2 2 Childhood | Where the room-reading equation got written | That keeping instinct is also how she got cast |
+| H2 3 Master Class | The audition as curriculum; what she actually did on camera | Casting didn't settle the razor's question |
+| H2 4 Scared | Interior beat; the frame she reaches for; where it fails | The self-assessment failure has a public face |
+| H2 5 Thanks Everyone | Empathy turn: deflection as standing-establishment, cost named | She won't credit herself; the Academy also didn't |
+| H2 6 Academy | Withheld verdict; skeptic's case; Emmy as the test result | "Say my name" → "a girl with two names" |
+| H2 7 Convincing | Agnes/Hannah mirrors the thesis; the standard named out loud; close | — |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 5/10 | 9/10 |
+| Internal Paragraph Flow | 7/10 | 9/10 |
+
+### Changes Made (8 total)
+
+**Transition fixes (5):**
+- **Diagnosis → Childhood** (was *broken*): ended on "not enough to say what," opened on *Batman Forever*. Added a line carrying "legible" into the name origin.
+- **Childhood → Master Class** (was *weak*, plus a chronology whiplash from 2026 back to 2023): bridged on "keeping everything," which is the same instinct as the sponge posture the master-class quote describes.
+- **Master Class → Scared** (was *adequate*): now carries the table's own grading column ("Whether the fear got into her hands") into the first-day beat.
+- **Scared → Thanks Everyone** (was *weak*; the rabbit hole physically separates them): added a line so the empathy turn reaches back over the accordion to the "hard for me to say I'm happy" close.
+- **Thanks Everyone → Academy** (was *weak*): the ironic pivot — she won't credit herself, and neither did the Academy — was implied but never stated. Now one clause.
+
+**Internal flow fixes (2):**
+- Childhood: "This is where a Three's equation gets written" had an ambiguous referent after the parallel-parking pull quote and its one-line button. Changed to "That calibration," which points back over the quote.
+- Scared: the frame paragraph (coping that works) ran straight into the Nine stress arrow (coping that fails) with no connective. Merged.
+
+**Mechanical bridge replaced (1):**
+- "Which brings us to the lace" → "The seam is where the lace comes in," carrying "seam" from the preceding Agnes/Hannah sentence.
+
+### What Was Preserved
+All frontmatter, all ledger comments, all HTML/Svelte blocks (TL;DR accordion, rabbit hole, scroll-table, pull-quote, inner-thought), all five internal links, every quote and citation. The razor cold open, master-class table, empathy turn, and close were untouched per the fresh-eyes read. Intro → diagnosis and Academy → Convincing ("say my name" → "a girl with two names") were already strong and left alone.
+
+**Cadence guard:** no new two-beat reversal pairs. The five tracked in the formula fingerprint ledger are unchanged.
+
+**Lint:** 0 fail, 2 warn — the same two that existed before this pass (missing `faqs`, word-count headroom). Body 4,161 → 4,226 words, still under the 4,500 ceiling.
+
+### Remaining Concerns (your call)
+1. **The Bruce Miller "left or right" thread is raised, re-pointed-at, and never resolved.** The diagnosis says something in her process is illegible and three years isn't enough to say what; the rabbit hole points back at it; the close doesn't touch it. That's deliberate honesty about a medium-confidence read, but it is a genuinely open loop. Leaving it open is defensible — just know it's the one thread the piece doesn't land.
+2. **The Academy section ends one beat behind its own climax.** The Emmy resolves the section, then the Oscar-ceremony anecdote follows as a coda that reverts to the deflection theme. I left it because it feeds the name echo into the next H2, but if you'd rather the section land on the Emmy, that paragraph is the one to move or cut.

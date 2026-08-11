@@ -1,0 +1,31 @@
+Frontmatter enrichment complete: **Chase-Infiniti**
+
+**Fields filled:**
+`wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):**
+- `wikipedia` — verified correct (resolves 200, matches Wikidata entity Q125156936). No mismatch to flag.
+
+**Entity IDs (verified):**
+- Wikidata `Q125156936` — "Chase Infiniti, American actress (born 2000)"
+- IMDb `nm14551692` — cross-checked via Wikidata P345, per the command's verification rule
+- Born 2000-05-01, Indianapolis, Indiana, United States
+
+**FAQs generated (5):**
+1. What is Chase Infiniti's personality type? → `#what-is-chase-infinitis-personality-type`
+2. Why was Chase Infiniti not nominated for an Oscar for One Battle After Another? → `#what-the-academy-did-not-give-chase-infiniti`
+3. What happened in Chase Infiniti's screen test with Leonardo DiCaprio? → `#the-master-class-chase-infiniti-was-never-enrolled-in`
+4. Is Chase Infiniti a 3w2 or a 3w4? → `#chase-infinitis-wing-3w2`
+5. Could Chase Infiniti be an Enneagram Type 6 instead? → `#counterarguments-why-chase-infiniti-might-not-be-type-3`
+
+All five anchors were checked against the draft's actual H2/H3 slugs — every one resolves to a real heading.
+
+**Issues:**
+- **Citations were resolved, not lifted.** The body contains exactly one inline URL (TheWrap). Every other source is named in prose by outlet + year (Dazed, Elle, W, Variety, Interview, The FADER, Jimmy Kimmel Live). I resolved those references to the URLs in `docs/content-analysis/research/Chase-Infiniti.md` §5 Source Ledger and verified each returns 200. Nothing was invented. The one exception: `interviewmagazine.com` returns 403 to automated fetch (bot blocking, not a dead link) — the research file documents the same behavior.
+- **The FADER is uncitable.** David Renshaw's September 2025 review is the only critic read of the Willa performance in the draft, and no URL for it exists in the research file. Not included in `citations`. Worth capturing on the next research run.
+- **Birth date conflict, resolved toward Wikidata.** Reviewer notes flag May 1 (Wikipedia) vs May 5 (aggregators) and say the body deliberately avoids an exact day. Wikidata P345's entity carries `2000-05-01` at day precision, matching Wikipedia, so that is what I wrote. The body still avoids the day — no contradiction introduced.
+- **Official site omitted from `same_as`.** Wikidata lists `chaseinfinitiofficial.com` (P856); it resolves 200 but renders as a near-empty GoDaddy builder page ("home" and nothing else). I used TMDb and Wikiquote instead. Easy to add later if the site fills out.
+
+**Lint:** `blog-lint` now reports **0 fail, 1 warn** — the faqs warning cleared (`faqs present and FAQPage-eligible (5 real Q/A pairs)`). The remaining warn is the pre-existing word-count one (4,499 / 4,500 ceiling), unchanged by this pass.
+
+Body, HTML comment ledgers, `lastmod`, `production_pretext` and `content_quality` are untouched.

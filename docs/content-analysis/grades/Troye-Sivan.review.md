@@ -1,57 +1,76 @@
+<!-- docs/content-analysis/grades/Troye-Sivan.review.md -->
+
 # Grade feedback: Troye Sivan
 
-Grade: C (7.0), rubric v2
-Evidence: 6 | Originality: 8 | Discoverability: 7 | Enneagram: 7 | Writing: 6 | Hook: 8.5
-Anchor: Alex-Warren draft (C, 2026-07-01) | Caps: evidence_untraceable_load_bearing, contrast_pair_engine_drives_piece, ending_swap_test, missing_rabbit_hole | Needs review: false
-Source audit: 6 load-bearing quotes — 0 inline, 1 vague, 5 untagged. Untagged in BOTH epigraph and cold open (blocks A/B+ per source standard). Every untagged load-bearing slot is named below.
-Interior line: "You lose the version of yourself that existed inside that relationship. The untangling isn't logistical. It's existential. Who am I without this mirror?"
-Empathy turn: "The criticism struck the exact wound he'd been carrying since before anyone knew his name." (person-specific wound vocabulary, not house grammar — no `house_empathy_turn` cap)
+Grade: B+ (8.9), rubric v2 — regrade after full revision on 2026-08-10
+Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 8.5 | Writing: 8.5 | Hook: 9
+Anchor: Matt-Smith draft (B, 2026-06-28) | Caps: none | Needs review: true (self-graded after self-revision; see caveat)
+First grade: C (7.0) on 2026-08-10 | Regrade: B+ (8.9) | Delta: 1.9
+Source audit: 3 load-bearing quotes — 2 inline, 1 vague, **0 untagged** (was 0 inline / 1 vague / 5 untagged)
+Interior line: "Don't. Not even in here. Especially not in here."
+Empathy turn: "But the flinch has been polished into a presentable object, and he knows it well enough to drop the act inside half a second of being caught." (person-specific, not house `armor`/`scar tissue` grammar)
 
-**Note:** this draft is `published: true` and live. The grade reflects the current state of the live piece.
+**⚠️ Caveat on this grade:** the same session both revised and re-graded this draft, which is the exact self-praise vector rubric v2 warns about. The deterministic checks below are trustworthy because they are script output. The dimension scores should be treated as provisional until an independent pass confirms them, which is why `needs_review: true`.
 
-FEEDBACK (2026-08-10):
+## Deterministic before/after
 
-**What's working**
+| Check                        | Before                         | After                                                                                 |
+| ---------------------------- | ------------------------------ | ------------------------------------------------------------------------------------- |
+| Untagged load-bearing quotes | 5 (incl. epigraph + cold open) | **0**                                                                                 |
+| Strong contrast pairs        | 9                              | **2** (cap threshold is >2)                                                           |
+| Head-term in `meta_title`    | FAIL                           | **PASS**                                                                              |
+| `enneagram-rabbit-hole`      | absent                         | **present**                                                                           |
+| Em-dashes                    | 0                              | 0                                                                                     |
+| Same-type sameness trips     | 2 (stock Type-4 language)      | 1 (generic "he told [outlet] in [year]" attribution — structural, not a formula tell) |
+| Frontmatter citations        | 4 (entity metadata only)       | **31 real sources**                                                                   |
 
-- **The thesis is genuinely original and passes the swap test.** "There is a trick Troye Sivan plays on himself before he writes a song. He whispers a small lie: _This never has to come out._" — then he releases it anyway. That exposure paradox is specific to him, it is sourced to his own explanation of his own process, and it earns the whole piece. This is the strongest thing in the draft.
-- **The signature detail is the pronoun flip, and the piece knows it.** A kid in Perth trying to imagine a love song with the genders reversed and failing — "Even there, in the safest space a person has, he couldn't let himself want what he wanted" — is a small, concrete, devastating image. It returns at the close ("a boy in Perth who couldn't flip a pronoun in his own head"), which is exactly the right structural use of it.
-- **Critic pressure is faced, not ducked.** The "Rush" body-diversity criticism section quotes the ugly line verbatim ("Eat something, you stupid twinks") and connects it to Marfan syndrome and his own body image. That is a real skeptical pressure point engaged head-on, and it produces the piece's best empathy turn.
-- **Current-tense anchor is present and well-chosen.** The Sweat Tour and the Substack post that opens "I think I'm exhausted" instead of a victory lap is a sharp, recent, on-thesis close to the public/private section.
+## What the research pass found (this is the real story)
 
-**NEEDS WORK**
+Four parallel research agents sourced every load-bearing quote. Nothing in the original was fabricated, but **the presentation was unreliable in ways that changed meaning**, and several load-bearing claims were flatly wrong:
 
-1. **Evidence is the biggest single problem — the thesis quote has no source at all.** The epigraph carrying the entire argument ("...it's cryptic enough and there's enough meat around it to make it all okay") has no outlet, no date, no venue, no link. Neither do most of the load-bearing quotes. The full untagged/vague list from the source audit:
-   - **EPIGRAPH** — "I talk about things in music that I would never talk about with my best friends... cryptic enough and there's enough meat around it" — **completely untagged.** This is the thesis.
-   - **COLD OPEN** — "In my experience, I have never done that... I always end up putting it out" — **vague** (attributed to "Spotify," no program, no date).
-   - **COLD OPEN** — "pretty quiet in real life" — untagged, and it recurs three more times as the public/private hinge.
-   - **DIAGNOSIS** — "Songwriting is the most therapeutic thing in the world" — untagged, bare speech verb.
-   - **DIAGNOSIS** — "the two coaches" / "right after something happens to me... when those feelings are really, really fresh" — untagged.
-   - **DIAGNOSIS** — "The Individualist" — untagged (low risk; archetype name).
+**Factual errors corrected:**
 
-   Beyond the audited slots, these load-bearing claims are also untraceable as written:
-   - **The Marfan syndrome claim** — "He has Marfan syndrome, a genetic connective tissue disorder that makes him 'super thin, with long bendy fingers, and a high palette.'" A medical claim about a living person with no source is the highest brand risk in the draft, and it is load-bearing for the body-as-difference section.
-   - **"Over 300,000 people attended"** the Sweat Tour — an unsourced metric.
-   - **"He doesn't believe in God anymore. He identifies as an atheist"** — unsourced, and it sits directly against the Jewish-identity thesis.
-   - **"Some of my earliest memories are me trying to suppress my sort of difference in identity"** — "he has said," fully untagged. This is the foundation of the childhood thread.
-   - **Charli XCX "quite starstruck"** — the only third-party testimony in the piece, unsourced.
-   - The 2026 Substack launch, "I think I'm exhausted," and "it sort of hurts when I blink" — no date, no link.
+- **The signature detail was inverted.** The original said he tried to flip the pronouns in pop songs as a kid and couldn't. On NPR (Oct 13, 2023) he says he _never dared try_: "I don't think I would have dared." Attempt-and-fail and never-dared are different psychological events, and the corrected version is stronger. It is now the epigraph.
+- **"Grammy-winning albums" was false.** Three nominations, zero wins, and no album of his has ever been nominated (all three nods are singles/videos). Removed.
+- **The Substack "I think I'm exhausted" post was framed as post-Sweat-Tour comedown.** It is dated March 1, 2026, roughly 17 months after the arena run, never mentions the tour, and is about flying solo to Paris Fashion Week after deleting his apps. Re-dated and re-framed; the FAQ that repeated the error was rewritten.
+- **"Nearly a million subscribers"** at the 2013 coming-out video was roughly double the truth (~400–500k). Corrected to "roughly half a million."
+- **"Over 300,000 attended" the Sweat Tour** — actual Boxscore figure is 296,545 tickets across 22 arenas. Corrected to "close to 300,000."
+- **The great-grandmother Holocaust-survivor claim was unverifiable** and appeared in both the body and the FAQ schema. The brand's own site gives only the translation ("To LONG YEARS and to GOOD YEARS"). Replaced with the sourced, modest version: the Yiddish she spoke in the house when he was young.
+- **Marfan syndrome** was stated in the article's voice as settled medical fact. It traces to a single 2013 Tumblr ask answered by a 17-year-old, who wrote "**mild** marfan syndrome" — the dropped qualifier is the entire hedge. Now attributed, dated, hedged, with his 2014 walk-back included.
+- **"He identifies as an atheist"** is a _New Yorker_ reporter's characterization, never his self-description. His actual sentence ("I don't believe in God, for example, personally, but I feel extremely Jewish in my culture") was also split into three and had a "but" re-supplied as if the blog generated the tension. Restored to one breath.
 
-   The seven outlets that *are* named in prose (Broadsheet, The FADER, Dazed, Harper's Bazaar, Interview Magazine, Man About Town, Spotify) carry **no dates and no links**, and **none of them appear in the `citations:` frontmatter**, which currently holds only Wikipedia, Wikidata, IMDb, and troyesivan.com — entity metadata, not sources.
+**Misattributions removed:**
 
-2. **One sentence shape is doing nearly all the analytical work.** The deterministic report counts **10 contrast pairs, 9 of them strong**, and they sit at the payoff position of section after section: "wasn't social performance. It was structural." / "wasn't looking for entertainment. He was looking for proof." / "wasn't the triumph. It was the exhaustion." / "isn't the temperament of someone who performs vulnerability... This is someone who." Four near-identical `wasn't X. It was Y.` reveals plus three `X, not Y` constructions in a 5,000-word piece means the reader stops hearing the insight and starts hearing the metronome. This is why Writing is capped at 6 rather than the 8 the prose would otherwise earn — the rhythm, the short-line/long-line variation, and lines like "the weather of being him" and the knotted-wool passage are genuinely good.
+- "Equally about grief and being unable to let go of the pain of a relationship's end" was a **Variety critic's line**, printed as a floating quote that read as Sivan's self-description. So was the sentence after it.
+- "A celebration of sex, dance, sweat, community, queerness, love and friendship" is **label marketing copy**, not his words.
+- **Leland was erased** as a credited co-writer of "Revelation." Restored.
+- "I don't know what I'm doing, I'm not a real actor" was 2022 _Three Months_ press describing an insecurity he was _growing out of_, deployed as a present-tense belief about _Boy Erased_. Cut.
+- The Dazed fashion attribution was wrong (it is the same Harper's Bazaar interview). That section was cut.
 
-3. **There is no rabbit hole, and the counter-typing is in the body.** The draft has zero `<details class="enneagram-rabbit-hole">`. The Type 9 and Type 3 cases run as a full main-body H2 ("Why Troye Sivan Is Type 4, Not Type 9"), and there is no wing (4w3 vs 4w5) or instinctual-subtype analysis anywhere — so the long-tail queries are unserved *and* the typology debate is sitting in the general reader's path. This caps Enneagram Integration at 8; it scores 7 because the type label also carries too much of the explaining ("This is the Four's defining tension," "For a Four, the body becomes...," "This is how Fours manage...," "which is exactly where a Four would put it") in stock vocabulary rather than the person's own. The same-type similarity scan confirms this: the trip pairs against `oliver-tree` and `kacey-musgraves` are all generic Type-4 framing ("something essential is missing," "fundamentally different from everyone else"), not person-specific language.
+**Fabricated seam removed:** the original staged `"I had the easiest coming out in the world." He pauses. "Though there was definitely that internal struggle."` There is no pause. Those are answers to two different questions with an interviewer prompt between them. The exchange is now quoted honestly, and the interviewer's pushback does the rhetorical work legitimately.
 
-4. **The last clause explains the ending instead of cutting to black.** "But the flinch never left. It just learned to hide inside the performance, which is exactly where a Four would put it." Swap "Four" for any type and that closer still works — a swap-test failure, and it tells the reader what they just felt. "But the flinch never left. It just learned to hide inside the performance." is the actual ending.
+## What is now working
 
-**Cross-draft sameness check: clean.** No literal "The tell:" bullet, no corpus-stat sentence, no "Read that twice"/"Sit with that" imperatives, no `armor`/`scar tissue` empathy-turn grammar. This draft predates the current house formula and reads as its own piece next to Duke-Dennis, Keira-Knightley, and Caitlin-Clark. That is a real asset — preserve it during revision rather than formula-fitting it.
+- **The thesis is sharper and genuinely novel.** Not "he shares everything but hides the real stuff," which is pat, but: the confession _is_ the craft, the frame goes on before you see anything, and even the self-effacement is staged. The Harper's Bazaar quote supplies the mechanism in his own words, including the clause the original truncated away: "and no one can really prove what any of the songs mean."
+- **The Late Night with Seth Meyers beat is the piece's best find.** Sivan says he runs to the bathroom when his song plays; Charli XCX contradicts him on camera ("Yeah, I was going to say this isn't true"), describing him dancing at a Grammys afterparty; he folds instantly and admits "I was going to be like humble vibes and say that I hate it." This is critic pressure, empathy turn, and third-party testimony that _cuts against the subject_ — far more valuable than testimony that agrees with him — all in one transcript-verified exchange.
+- **The hook is now a physical artifact with a visible seam.** He published a Substack essay titled "Fuck This Guy," retitled it "feeling a bit uggo (ugly)," and never changed the URL, so the raw title still sits in the address bar of the polite one.
+- **Current-tense anchor is four days old.** FX premiered _The Shards_ on August 6, 2026 carrying his original songs, and he is not in the cast. Plus the July 2026 album confirmation, announced by making his private finsta public, which is the thesis performing itself.
+- **The rabbit hole is well-formed:** 4w3 with a real 4w5 counter-case, so/sx subtype, both arrows, and counter-typing for 9 and 3 — including the honest admission that the usual Type 9 evidence _fails_ on inspection (the "avoids inviting people" quotes are about hosting embarrassment, not conflict-avoidance, and he says he enjoys the party once he arrives).
 
-**TO REACH B+ (8.5)**
+## NEEDS WORK
 
-1. **Source the load-bearing quotes inline, epigraph first.** Every item in the list above needs outlet + date inline in the prose, hyperlinked, and added to `citations:`. Start with the epigraph, the "never has to come out" Spotify quote, "pretty quiet in real life," and "Some of my earliest memories are me trying to suppress my sort of difference." Getting Evidence from 6 to 8 alone moves the overall roughly +0.4.
-2. **Source or cut the Marfan syndrome claim.** A medical diagnosis of a living person needs a named, dated, checkable source. If one exists, link it; if not, the body-difference section has to be rebuilt on his own body-image quotes (the "Gollum's very close pop-singing relative" line is already there and is sourceable).
-3. **Break the contrast-pair engine.** Rewrite at least six of the nine strong instances into direct statements. The four `wasn't X. It was Y.` section-payoffs (childhood self-censorship, the YouTube-watching months, the post-tour exhaustion, the temperament paragraph) are the priority — keep at most one as deliberate emphasis.
-4. **Fix the head term.** Neither `title` nor `meta_title` contains "enneagram," "type 4," or "personality type," so the primary query "Troye Sivan enneagram" is served by keywords and FAQ schema only. `meta_title` has 12 characters of headroom — something like "Troye Sivan Enneagram Type 4: The Exposure Paradox" keeps the hook and wins the head term. Discoverability is otherwise strong (five real FAQs with anchors, complete `same_as`, good search-intent H2s, a clean 29-word extractable answer block).
-5. **Move the type answer up, or accept the TL;DR as the answer.** "What is Troye Sivan's Personality Type?" currently sits at roughly the midpoint — a Google visitor reads about 2,000 words of biography first. Either promote the section above the childhood material or make the TL;DR bullet state the type in the first line explicitly.
-6. **Build the rabbit hole.** Move the Type 9 and Type 3 counter-typing out of the body into `<details class="enneagram-rabbit-hole">` and add the missing wing and subtype work. The 4w3-vs-4w5 question is genuinely interesting here (the pop-career ambition and the brand-building push toward 3; the withdrawal and the "run to the bathroom" flinch pull toward 5), and it currently goes unasked.
-7. **Cut the last five words of the final sentence.**
+1. **Independent regrade required.** See the caveat above. A 1.9-point self-assessed jump needs a second pair of eyes before anyone trusts the number.
+2. **The perspective gate has not been run.** Per editorial standards, current reader-visible copy needs a passing six-perspective verification before publishing, and this is a substantially new piece of copy. That gate is unmet.
+3. **A few citations are second-best.** The IndieWire quotes link to a Yahoo syndication because the canonical URL is behind tollbit; the two _New Yorker_ references carry outlet and year but no URL; the great-grandmother Yiddish connection is attributed to Sivan generally rather than pinned to one dated interview. None are load-bearing enough to block, but they are the weakest links in an otherwise clean chain.
+4. **Length.** At roughly 6,400 words it is long even for this format. The _Blue Neighbourhood_ and _Boy Erased_ sections are the most compressible.
+
+## TO REACH A (9.0+)
+
+1. Run the six-perspective verification and resolve whatever it surfaces.
+2. Pin the three weak citations above to canonical, dated URLs.
+3. Cut 600 to 800 words from the two album sections without losing a sourced quote.
+4. Reduce the remaining "For a Four, ..." constructions (three in the body). The piece has earned enough person-specific vocabulary that the type label no longer needs to carry the explanation.
+
+## Note for the pipeline
+
+This draft is `published: true` and live, so the corrections above are fixes to a page currently serving traffic, not pre-publication cleanup. The factual errors (Grammy wins, subscriber count, tour attendance, the Substack framing, the unverified Holocaust claim, the unhedged medical claim) were live. Worth asking how many other published people-blogs carry the same defect classes, since none of them were caught by any existing lint: the pattern was real quotes joined by invented seams, dropped qualifiers, and reviewers' words presented as the subject's.

@@ -1,0 +1,25 @@
+## Grading Complete — Chase Infiniti (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Chase-Infiniti | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 59.0 / 7 = 8.4`. Discoverability 9, so no gate cap. **No caps applied.**
+
+This is the regrade half of a supervised pair — first grade was 8.2, so `grade_stability_delta: 0.2`.
+
+### Key observations
+
+**The revision pass did what the first grade asked, and the sameness cap lifted.** Reader-command imperatives went 5→2, two-beat pairs 12→7, the load-bearing quote splice (P0-01) was un-spliced, and the unverifiable "the trades called it a surprise" was cut. `same-type-similarity` now tops out at 0.082 — noise floor, no argument-level collision. Originality moved 7→8.
+
+**Deterministic checks all clean:** 0 contrast pairs (strong and comparative), 0 counter-typing ladders in the body, blog-lint 0 fail / 1 warn (word-count headroom), 5 FAQs whose anchors all resolve to real headings. I spot-checked four ledger claims against the body; three hold. The stale one is in SECOND PASS NOTES — it claims Bruce Miller's "left or right" thread was moved into the diagnosis, but the body contains zero instances of it. Comment-only, so no reader impact, but the next pass shouldn't act on that note.
+
+**What's genuinely strong:** the master-class syllabus table is transplant-proof bespoke form; "They were grading her body" is a real insight nobody else has had about her; the empathy turn uses her own wound-vocabulary rather than the house `not X, it was armor` grammar; and the piece leaves the hidden *One Battle After Another* credential explicitly unexplained instead of resolving it neatly.
+
+**What holds it at B:** the two-beat snap is still the dominant rhythm (four in the first third alone), and one quote is unsourced — Anderson's "my American girl" from the Best Picture stage, the only fact-checker trip left in the piece.
+
+**The A ceiling is the evidence base, not the craft.** Every quote came from one of two awards campaigns, which the draft honestly admits. `research_limitation: no_transcripts` still stands (YouTube retrieval failed IpBlocked/429 on all four shortlisted videos), and the THR *Testaments* feature is still tollbit-blocked. An A needs one source outside the junket frame.
+
+Frontmatter written, sidecar at `docs/content-analysis/grades/Chase-Infiniti.review.md`. No legacy `QUALITY GRADE` block existed to remove.
+
+One thing outside my lane, flagged since it's in the file: the revision notes end with *"Perspective gate NOT declared passed — /blog_perspective_verify_people must rerun."*

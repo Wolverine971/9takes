@@ -1,0 +1,16 @@
+All eleven required headings present; counts match the frontmatter (2 blockers, 7 concerns).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Chase-Infiniti/2026-08-11_020002/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 7 concerns.**
+
+**Strongest hit (UNFAM-H2):** the Type 3 definition — *"Threes measure themselves by output, and they learn young to read a room and hand it what it rewards. Underneath sits a suspicion that with the output stripped away, there would be nothing left there to love."* I understood the entire typology claim from that one sentence with zero prior Enneagram knowledge, and every later type reference resolved against it. The rabbit hole is correctly collapsed and genuinely skippable, so the main body stands alone for a general reader. That combination is the article's real achievement from this standpoint.
+
+**Highest-priority finding (UNFAM-R1):** *One Battle After Another* is never named until body line 202 of 236 — roughly 72% in. For ~3,000 words it's "that first film," "the film," "this movie," and the TL;DR never names the film or the show either. A stranger can't search it, can't tell whether they've already heard of it, and is denied the strongest reason to keep reading at the point of highest attrition. The fix is two clauses.
+
+Two things worth flagging beyond that:
+
+- **UNFAM-R2** is a factual blocker I caught unaided, before opening the packet: *"At ten she was cast in a local production of Hairspray... watching Rizzo sing."* Rizzo is a *Grease* character. The packet independently flags this as DISPUTED, and my one search confirmed these are two separate events (she was taken to see *Grease* as a pre-teen). The repair needs no new research — cut to the sourced half — and is thematically stronger, since it puts her in the audience judging what reads, which is the article's own thesis.
+- I **withdrew** one concern after checking `src/scss/blog.scss:592`: the invented second-person inner monologue renders as an italic box with a thought-bubble icon, so it's adequately marked as a device on the live page.
+
+One caveat I recorded in the review rather than hiding: the snapshot embeds prior-pipeline review comments (fresh-eyes, second-pass, cohesion ledgers). I read them as part of reading the file and did not use them to form findings — my top finding isn't raised in any of them, and I disagree with their call on the reversal cadence — but strict blindness can't be claimed, and the synthesis stage should weigh that.

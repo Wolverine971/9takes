@@ -353,7 +353,37 @@ const OUTLETS = [
 	'Television Academy',
 	'Gold Derby',
 	'Great Chat',
-	'SlashFilm'
+	'SlashFilm',
+	// Fashion press (Gigi-Hadid pass, 2026-08-10). The list had grown up around
+	// music, streaming and sports subjects, so the entire fashion vertical was
+	// unrepresented: a quote cited to a dated Refinery29 or i-D interview graded
+	// vague no matter how precisely it was sourced. Harper's Bazaar needs a full
+	// entry because only the bare token "Harper" sits in AMBIGUOUS_OUTLETS, and
+	// "Bazaar" is not an OUTLET_SUFFIX word. Bravo and Reality Tea carry the
+	// reality-TV primary record (the RHOBH almond scene and Yolanda's later
+	// rebuttal). Both apostrophe forms are listed because drafts use curly quotes.
+	'Refinery29',
+	'i-D',
+	'SSENSE',
+	'Glamour',
+	'WWD',
+	"Harper's Bazaar",
+	'Harper’s Bazaar',
+	'Bravo',
+	'Reality Tea',
+	// Film-awards trade + youth-culture press (Chase-Infiniti pass, 2026-08-11).
+	// TheWrap runs the bylined, dated casting-desk interview that holds this
+	// subject's entire audition record and the casting director's razor
+	// testimony; "Wrap" is in OUTLET_SUFFIX only as "Wire", so it graded vague
+	// however precisely it was cited. Dazed carries the load-bearing belonging
+	// quotes for this corpus's young-actor pages. "W Magazine" was already
+	// listed but the case-sensitive match missed the lowercase "W magazine"
+	// form that drafts actually use for the title. Elle sits in
+	// AMBIGUOUS_OUTLETS and still needs an attribution cue, which is correct.
+	'TheWrap',
+	'The Wrap',
+	'Dazed',
+	'W magazine'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

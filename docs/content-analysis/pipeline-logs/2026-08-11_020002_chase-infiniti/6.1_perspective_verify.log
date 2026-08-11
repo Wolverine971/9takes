@@ -1,0 +1,16 @@
+**Output path:** `docs/content-analysis/perspective-reviews/Chase-Infiniti/2026-08-11_020002/verification-initial.md`
+
+**verification_status:** `fail`
+**open_p0:** 2
+**protected_hit_regressions:** 0
+
+Ten of twelve P0s resolved, twelve of fourteen accepted P1s complete, all twelve protected hits intact (master-class table byte-identical). Two P0s remain open:
+
+- **P0-01 — unresolved.** The mantra splice is fixed, but the acceptance test's whole-piece contiguity sweep fails on Kulukundis's "so special" quotation in the Master Class section. I verified against the live TheWrap article: two sentences are removed with no ellipsis and the lowercase mid-answer continuation is recased into a standalone sentence. The draft's own testimony ledger records the ellipsis the body drops. Mechanical fix.
+- **P0-04 — needs-human.** The repair exceeded the minimum — the editor found first-person confirmation the packet lacked, and I independently verified it (Jimmy Kimmel Live, January 14 2026; quote contiguous). But "Infiniti confirmed it" asserts her account and Kulukundis's describe the same session, and they don't agree: Kulukundis says screen test, Infiniti says last callback and chemistry reads. The editor logged the conflict in Unresolved decisions #3 and believed the draft asserted no identity between them; "confirmed it" is that assertion.
+
+One live incidental finding worth acting on: while verifying, the AOL copy of the Kimmel article returned HTTP 404 while the Yahoo copy resolved — direct confirmation of the link rot P1-14 exists to prevent, on a URL now carrying the P0-04 repair.
+
+Sources used for targeted verification:
+- [TheWrap — Chase Infiniti interview](https://www.thewrap.com/chase-infiniti-one-battle-after-another-interview/)
+- [Yahoo Entertainment — Chase Infiniti on shaving DiCaprio's beard (Jimmy Kimmel Live)](https://www.yahoo.com/entertainment/celebrity/articles/chase-infiniti-admits-she-botched-195129347.html)

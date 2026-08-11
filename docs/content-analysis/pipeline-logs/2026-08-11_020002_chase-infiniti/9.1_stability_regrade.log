@@ -1,0 +1,23 @@
+## Grading Complete — Chase Infiniti
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Chase-Infiniti | 8 | 7 | 9 | 9 | 8 | 9 | **8.2** | **B** |
+
+`(8×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 57.5 / 7 = 8.2`. Discoverability 9, no gate cap. Caps applied: `originality_cross_draft_sameness`, `writing_contrast_pair_engines`.
+
+### Key observations
+
+**A pipeline write was lost.** The pipeline ran stage 7 (grade, 8.2) and stage 9 (post-revision regrade, 8.4) and its stage-9 log claims it wrote both frontmatter and sidecar — neither existed. My independent regrade lands at 8.2, so `grade_stability_delta: 0.0`. Both artifacts are now on disk. Stage 9.1 (`stability_regrade`) logged empty, and three pipeline gates exited 1 (`6.2_perspective_verification`, `6.8_same_type_similarity`, `8.45_perspective_reverification`) — the revision notes end with "Perspective gate NOT declared passed," which is outside grading but still open.
+
+**The script's source audit under-reports.** It scans only the structural slots, so it returns 0 untagged. Independent scan of the body found four untagged load-bearing quotes it never reaches — including DiCaprio's "She was the fabric of this movie," which has no outlet, no date, and no THR entry in `citations`, and which is reproduced verbatim in FAQ 2. That's the line an AI answer engine lifts, sourced to nothing. Same for Taylor's "You were chosen for a reason," an entirely unattributed "I remember being very nervous that day," and the Best Picture stage pair. Since editor comments are stripped on push, the Testimony Ledger doesn't cover any of them.
+
+**Writing capped at 8 despite a clean deterministic run.** `blog-quality-report` reports 0 contrast pairs, but its regex only catches explicit `not X but Y`. The seven surviving two-beat reversal pairs are the same engine in fragment form, four of them in the first third. The revision pass stopped cutting because all seven are perspective-jury protected hits — which means this is now unfixable downstream. Read serially against Troye-Sivan, Gigi-Hadid and Duke-Dennis, that cadence is the house voice, not hers. The fix belongs at creator stage on the next subject.
+
+**Originality 7 is a delivery cap, not an argument cap.** `same-type-similarity` tops out at 0.082 across eight Type-3 drafts — noise floor, and the two real collisions the revision rewrote stayed rewritten. The reuse is in the furniture: aphoristic fragment closers, the two reader-command imperatives, and a closing line whose shape matches Troye-Sivan's. Absent the cap this reads 8.
+
+**Genuinely strong:** the master-class syllabus table is transplant-proof; "They were grading her body" is a real insight nobody else has had about this awards season; the Agnes/Hannah rhyme (both lead roles are girls under assigned names) is the best unannounced move in the piece; and the diagnosis leaves the hidden *One Battle After Another* credential explicitly unexplained rather than resolving it neatly. All three interior checks pass, and the empathy turn uses her own wound-vocabulary instead of the house `armor/scar tissue` grammar.
+
+**The A ceiling is the evidence base, not the craft.** Every quote came from one of two awards campaigns — the draft says so itself. `research_limitation: no_transcripts` stands and the THR *Testaments* feature is still tollbit-blocked. One non-junket source moves Evidence to 9.
+
+**Total graded this session: 1**

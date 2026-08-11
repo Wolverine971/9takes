@@ -1,0 +1,15 @@
+Counts and headings verify: 1 blocker, 9 concerns, all eleven required H2s in order.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Chase-Infiniti/2026-08-11_020002/fan.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. Snapshot SHA `5a54c40f…` verified against `context.json` and the supplied value before reading.
+
+**Blockers: 1**
+
+- **FAN-R1 — Rizzo is not a character in *Hairspray*.** The childhood section has her cast in *Hairspray* at ten and pinpoints the calling to "watching Rizzo sing." Rizzo is in *Grease*. The packet has this disputed (CLM-03): WFYI, the most local theatre-focused source, lists seven Summer Stock Stage credits 2016–2021 with no *Hairspray* and no age-ten event, and the repo's own research file attaches Rizzo to *Grease*. For the audience most likely to finish a piece about a Columbia College musical-theatre graduate, this is the error that costs the writer standing.
+
+**Strongest hit:** the reading of the lace quote — *"'I'm at a point now where it's convincing on camera.' … Convincing. She set the bar inside somebody else's eye."* That's the clean pass of the fan delight test: a quote I'd filed as a charming craft aside, reframed as a confession about where she keeps her scoreboard.
+
+**Highest-priority concern (FAN-C1):** the Zendaya loop is left open. The draft builds the childhood beat on Zendaya as proof the shape was possible, then reports the Emmy category twelve hundred words later without noting Zendaya is *in it*. My research added something the packet doesn't have — her own nomination statement reads *"to be nominated alongside Carrie, Rhea, Zendaya, and Keri is an honor."* She closed the loop herself, on the record; the piece doesn't. That same statement thanks Bruce, Warren, Elisabeth, Hulu, cast and crew before mentioning her own work — a dateable 2026 instance of the exact reflex the draft's best section is built on, which currently runs entirely on 2025 examples.
+
+Two other findings worth surfacing since they change the piece's argument rather than just its accuracy: **Willa Ferguson is an alias** (birth name Charlene Calhoun, raised sixteen years under an assigned identity) — so both her lead roles are the "girl with two names" the draft treats as unique to *The Testaments*, which makes its climax a pattern instead of a coincidence. And the draft's rebuttal to the "she was just cast well" skeptic leaves its best card face-down: her Emmy nod was *The Testaments*' only acting nomination — she was pulled out of the show, not lifted by it.

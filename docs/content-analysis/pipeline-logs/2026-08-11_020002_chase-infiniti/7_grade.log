@@ -1,0 +1,23 @@
+## Grading Complete — Chase Infiniti
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Chase-Infiniti | 8 | 7 | 9 | 9 | 8 | 9 | **8.2** | **B** |
+
+`(8×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.2` · Discoverability 9, no gate · Cap applied: `sameness_originality_7`
+
+### Key observations
+
+**The cap is the story.** Originality scored ~8.5 on merit — the two-names thread (Chase Meridian → Chase Infiniti, Charlene → Willa, Hannah → Agnes) is a genuine discovery that no profile of her has made, and "every prize she won that season was a prize for being new" is the sharpest type-consequence in recent batches. Then the cross-draft check against Troye-Sivan, Gigi-Hadid and Duke-Dennis caught three reused house moves: **5 reader-command imperatives** (batch median: 1), the two-beat fragment cadence the draft's own ledger admits it under-trimmed, and a closing line that is the fourth consecutive draft to end on wound-noun + persistence + present-tense turn. Cap to 7.
+
+**Deterministic checks were clean, which is exactly why the manual passes mattered.** 0 contrast pairs, head-term PASS, answer block 50 words, no corpus-count drift, and the similarity scan's only 1.000 trips were the mandated "[Person] is an Enneagram Type 3" string. None of the regexes catch the metronome; the fresh-eyes reader did, flagged 10+, and the second pass cut four.
+
+**The source audit's clean bill is narrower than it looks.** 9/10 quotes inline, 0 untagged — genuinely good. But the audit only scans quotes, and the piece's best insight rests on an awards ledger (13 Oscar noms, four best-actress nominations, seven critics' prizes) carrying **zero** inline attribution, plus a load-bearing "the trades called it a surprise" with no named trade. That's the cheapest available point on the board.
+
+**Two things worth protecting.** The empathy turn avoids the house `not X, it was armor/scar tissue` grammar and relocates the cause into her own wound vocabulary instead — no `house_empathy_turn` cap, which is rare. And the Oscar section states the skeptic's case at full strength ("she was cast well and directed well… She has never answered that case in public") rather than dissolving it.
+
+**One real defect:** the body asserts a Type 9 stress arrow that the rabbit hole then admits is undocumented — the piece claims and un-claims the same thing 1,500 words apart. Three ledgers are also stale, including one that says `faqs` are missing when five are present with valid anchors.
+
+Sidecar at `docs/content-analysis/grades/Chase-Infiniti.review.md`, with a costed path to B+ (source the awards ledger, cut 3 imperatives + 4 pairs, vary the close → 8.6) and to A.
+
+**Total graded this session: 1**

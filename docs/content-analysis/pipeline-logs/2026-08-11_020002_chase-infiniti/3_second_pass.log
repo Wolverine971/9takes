@@ -1,0 +1,25 @@
+Second pass done on `src/blog/people/drafts/Chase-Infiniti.md`.
+
+## Source audit (first-order fix)
+
+Went in at **0 inline / 4 vague / 5 untagged**, with an untagged quote in the cold open — a hard A/B+ blocker. Now **10 inline / 0 vague / 0 untagged**.
+
+The blocker was mostly tooling: `blog-source-audit.mjs` had no entries for TheWrap, Dazed, or the lowercase "W magazine" form, so this subject's entire primary record graded vague no matter how it was cited. Added them following the same documented precedent as yesterday's Gigi-Hadid fashion-press pass. Separately, I identified the research file's anonymous "AOL/syndicated 2025 profile" as **Elle, Nerisha Penrose, October 1, 2025** — that's the source for the mantra, the "remember to breathe" line, and the Zendaya quote, all now pinned.
+
+## Main revisions
+
+- **Named the Emmy role.** The draft had *The Testaments* as a credential with no character in it. Now the final H2 opens on Agnes MacKenzie, born Hannah Bankole, who remembers only the name and not why — the thesis playing out on screen, which also earns the lace beat instead of leaving embroidery as trivia.
+- **Somebody finally describes the performance.** New paragraph on what Willa actually does on camera, David Renshaw's read in *The FADER*, and the stunt award restated as a fact rather than a second credential.
+- **Un-quarantined the counterevidence.** Bruce Miller's "left or right" and her habit of naming her own nerves moved from the rabbit hole into the diagnosis as an explicit "one thing stays unexplained" paragraph. The piece now sounds as certain as the research file actually is (medium).
+- **Moved the parallel-parking quote** out of the Oscar-section punchline slot into Indianapolis, right after "how much of yourself will fit in it."
+- **Cashed out the awards pattern** — three sentences on why a season of potential-prizes reads to a Three as an open verdict, before the Emmy rescue.
+- Added *Presumed Innocent*, cashed out the dance crew as mildly anti-Three, gave Zendaya a consequence, and pointed the rabbit hole's falsifier at *The Julia Set* (the test is already shot, not hypothetical).
+- **Trims:** "hard for me to say I'm happy" cut from four uses to two; four two-beat reversal pairs removed (five survive, each in a different section).
+
+I rejected one fresh-eyes note: a second inner-thought beat at the Oscar snub. No sourced account of that morning exists, so it would mean inventing a real person's private feeling at the piece's highest-stakes moment, and it would double a device that works because it's used once.
+
+`blog-lint`: 0 fail, 2 warn. `lastmod` untouched.
+
+**Still open for an editor pass:** THR's "what terrifies her most about *The Testaments*" feature is still unread behind tollbit and remains the highest-value source; `research_limitation: no_transcripts` still stands; frontmatter enrich hasn't run (no `faqs`); body is 4,161 words against a 4,500 ceiling.
+
+Sources: [The FADER](https://www.thefader.com/2025/09/29/one-battle-after-another-chase-infiniti) · [Variety via Yahoo](https://www.yahoo.com/entertainment/tv/articles/chase-infiniti-hiding-one-battle-175400098.html) · [TVInsider](https://www.tvinsider.com/1266599/the-testaments-season-2-agnes-daisy-june-mayday-handmaids-tale/) · [Elle via AOL](https://www.aol.com/articles/chase-infiniti-her-hollywood-dreams-120000191.html) · [The Testaments (Wikipedia)](https://en.wikipedia.org/wiki/The_Testaments_(TV_series))

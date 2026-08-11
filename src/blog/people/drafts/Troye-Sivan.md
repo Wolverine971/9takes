@@ -1,8 +1,8 @@
 ---
-title: 'Troye Sivan: The Exposure Paradox of Pop Music'
-meta_title: 'Why Troye Sivan Shares So Much but Still Stays Hidden'
+title: 'Troye Sivan Enneagram Type 4: The Exposure Paradox'
+meta_title: "Troye Sivan's Enneagram Type 4 and the Exposure Paradox"
 persona_title: "Pop's Beautiful Exile"
-description: 'Why does Troye Sivan share so much and still keep the deepest parts hidden? We decode the Type 4 pattern behind the songs, style, and exposure paradox.'
+description: "Troye Sivan tells himself every song never has to come out, then releases it anyway. Decode the Enneagram Type 4 pattern behind pop's most framed confessions."
 author: 'DJ Wayne'
 date: '2026-03-28'
 loc: 'https://9takes.com/personality-analysis/troye-sivan'
@@ -50,300 +50,373 @@ same_as:
   - 'https://www.imdb.com/name/nm2931989/'
   - 'https://troyesivan.com'
 citations:
-  - 'https://en.wikipedia.org/wiki/Troye_Sivan'
-  - 'https://www.wikidata.org/wiki/Q1362028'
-  - 'https://www.imdb.com/name/nm2931989/'
-  - 'https://troyesivan.com'
+  - 'https://www.npr.org/2023/10/13/1205855985/troye-sivans-new-album-has-something-to-give-us'
+  - 'https://www.harpersbazaar.com/culture/art-books-music/a13226/troye-sivan-interview/'
+  - 'https://artists.spotify.com/blog/troye-sivan-value-doing-things-yourself-best-advice-from-ariana-grande'
+  - 'https://www.youtube.com/watch?v=ql8jG9OoSTM'
+  - 'https://www.youtube.com/watch?v=I0hjQAzF8Uk'
+  - 'https://time.com/6323478/troye-sivan-interview/'
+  - 'https://www.forbes.com/sites/hughmcintyre/2026/03/02/troye-sivans-debut-album-spikes-23000-in-sales/'
+  - 'https://www.youtube.com/watch?v=JoL-MnXvK80'
+  - 'https://web.archive.org/web/20150917001703/http://www.smh.com.au/good-weekend/troye-sivan-the-most-famous-teenager-youve-never-heard-of-20150209-13a11r.html'
+  - 'https://www.anothermanmag.com/life-culture/10346/troye-sivan-on-coming-out-and-why-he-doesnt-want-to-be-a-gay-icon'
+  - 'https://www.thefader.com/2015/09/04/troye-sivan-wild-interview'
+  - 'https://www.yahoo.com/entertainment/troye-sivan-wanted-show-nuances-150041628.html'
+  - 'https://www.nbcnews.com/feature/nbc-out/pop-star-troye-sivan-returns-acting-conversion-therapy-drama-boy-n930061'
+  - 'https://www.hollywoodreporter.com/news/general-news/troye-sivan-saw-his-worst-nightmare-reflected-boy-erased-1163398/'
+  - 'https://www.youtube.com/watch?v=uxrsDYLn8qs'
+  - 'https://www.vogue.com/article/troye-sivan-rush-new-album-interview'
+  - 'https://www.billboard.com/culture/pride/troye-sivan-rush-video-1235371358/'
+  - 'https://www.vulture.com/2023/07/troye-sivan-rush-review.html'
+  - 'https://troyesivan.tumblr.com/post/41456927880/troye-have-you-ever-noticed-how-long-your-fingers'
+  - 'https://troyesivan.substack.com/p/fuck-this-guy'
+  - 'https://troyesivan.substack.com/p/in-flight-entertainment'
+  - 'https://www.youtube.com/watch?v=pTYKWhjfg1Q'
+  - 'https://songexploder.net/troye-sivan'
+  - 'https://www.wmagazine.com/story/troye-sivan-easy-new-album-cartier-pasha-watch-quarantine-interview'
+  - 'https://www.interviewmagazine.com/film/troye-sivan-and-jared-frieder-have-a-very-gay-conversation'
+  - 'https://www.interviewmagazine.com/culture/troye-sivan-wont-rule-out-marrying-a-fan'
+  - 'https://www.broadsheet.com.au/featured/troye-sivan-interview-melbourne-brat-summer'
+  - 'https://www.smh.com.au/lifestyle/life-and-relationships/troye-sivan-i-would-love-children-one-day-i-m-less-attracted-to-the-idea-of-marriage-20230921-p5e6l8.html'
+  - 'https://press.disney.co.uk/news/fxs-the-shards-to-feature-original-music-by-troye-sivan,-leland-and-hayes-warner'
+  - 'https://www.attitude.co.uk/culture/troye-sivan-confirms-new-album-secret-finsta-account-528973/'
+  - 'https://www.thefader.com/2026/01/21/troye-sivan-substack-account'
 faqs:
   - question: "What is Troye Sivan's personality type?"
-    answer: "Troye Sivan is an Enneagram Type 4 (The Individualist). The pattern shows in his layered outsiderness — gay, Jewish, South African-born, raised in isolated Perth — the childhood inability to even imagine a love song with flipped pronouns, the trick of writing songs as a diary that 'never has to come out' before releasing them anyway, a fragrance brand organized by emotional state, and the fact that he still runs to the bathroom when his own song plays at a party."
+    answer: "Troye Sivan is an Enneagram Type 4 (The Individualist). The pattern shows in the childhood daydream he never let himself have, telling NPR in 2023 that he would not even have dared swap the pronouns in a pop song, in the trick of writing each song as a diary that 'never has to come out' before releasing it anyway, and in how he announced his fourth album in July 2026 by making his private Instagram account public. The exposure is real. So is the frame he builds around it first."
     anchor: 'what-is-troye-sivans-personality-type'
   - question: 'Why does Troye Sivan seem shy in real life despite his confessional music?'
-    answer: "Sivan describes himself as 'pretty quiet in real life' with 'imposter syndrome at the best of times' — he's confident at work but gets embarrassed when his song plays at a party. After the Sweat Tour with Charli XCX, his Substack post opened with 'I think I'm exhausted,' not triumph. He keeps migrating to platforms like Substack that give him more control over the exposure, then uses that control to share more."
+    answer: "Sivan says he runs to the bathroom when his song comes on at a party. On Late Night with Seth Meyers in April 2024, Charli XCX contradicted him to his face, describing him dancing in the middle of a Grammys afterparty while Dua Lipa cheered. Sivan conceded the point: 'I was going to be like humble vibes and say that I hate it.' The shyness is genuine and it is also, by his own admission, partly a bit."
     anchor: 'why-troye-sivan-seems-shy-in-real-life'
   - question: 'How did Troye Sivan come out?'
-    answer: "He first told his best friend at fourteen, then ran home crying and promised never to speak of it again. He came out to his Orthodox Jewish father after asking what he'd change about Judaism — his father said its approach to homosexuality. On August 7, 2013, at eighteen, he uploaded the YouTube video 'Coming Out' to nearly a million subscribers, which became a landmark of queer internet culture."
+    answer: "At fourteen he told his best friend Kayla in a park, cried, and in his words 'we decided we were never ever gonna speak of it again.' He then spent about six months watching coming-out videos on YouTube behind a locked door. He came out to his Orthodox Jewish father after asking what he would change about Judaism; his father answered 'the way that it deals with gay people,' then asked 'What about you?' On August 7, 2013, at eighteen, Sivan uploaded his own 'Coming Out' video to roughly half a million subscribers."
     anchor: 'how-troye-sivan-came-out-on-youtube'
   - question: 'Is Troye Sivan a Type 4 or a Type 9?'
-    answer: "Some databases type him a Nine because he hates confrontation and gets avoidant about inviting people to things. But Nines merge with others and stall in inertia, while Sivan calls himself 'addicted to working' and has one of the most intensely cultivated senses of self in pop — a home designed as autobiography, a wardrobe that functions as identity, a fragrance line organized by mood. His art runs on fundamental difference, which is the Four."
+    answer: "Some databases type him a Nine, usually citing his dislike of hosting and his avoidance of confrontation. The hosting evidence is real but it describes embarrassment, not conflict-avoidance, and he told Interview in 2024 that he ends up enjoying the party once he arrives. Nines merge with others and stall in inertia, while Sivan has one of the most deliberately built senses of self in pop: a home, a wardrobe, and a fragrance brand that all function as autobiography. His art runs on fundamental difference, which is the Four."
     anchor: 'why-troye-sivan-is-type-4-not-type-9'
   - question: 'What does Tsu Lange Yor mean and why did Troye Sivan choose the name?'
-    answer: "Tsu Lange Yor — Yiddish for 'to long years' — is named after his great-grandmother, a Holocaust survivor who escaped Lithuania for Johannesburg and spoke only Yiddish. Sivan launched the fragrance and lifestyle brand with his brother Steele in 2023, organizing the scents around 'some of my most common moods.' He calls it ancestry made tangible, not a vanity project."
-    anchor: 'why-troye-sivan-named-his-brand-after-his-great-grandmother'
+    answer: "Tsu Lange Yor is Yiddish. The brand's own site translates it as 'To LONG YEARS and to GOOD YEARS,' a traditional toast. Sivan launched the fragrance and lifestyle label in Melbourne in August 2023 with his brother Steele Mellet, drawing the name from the Yiddish his great-grandmother spoke in the house when he was young. It has since expanded into homeware and textiles and reached Nordstrom in July 2025."
+    anchor: 'why-troye-sivan-named-his-brand-after-a-yiddish-toast'
 twitter: 'traborjam'
 instagram: 'troyesivan'
 tiktok: 'troyesivan'
 path: src/blog/people/drafts/Troye-Sivan.md
 content_quality:
-  hook: 8.5
-  enneagram: 7
-  evidence: 6
-  writing: 6
-  originality: 8
-  discoverability: 7
-  overall: 7.0
-  letter: C
+  hook: 9
+  enneagram: 8.5
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  letter: B+
   rubric_version: 2
-  caps_applied:
-    - evidence_untraceable_load_bearing
-    - contrast_pair_engine_drives_piece
-    - ending_swap_test
-    - missing_rabbit_hole
-  confidence: high
-  anchor: 'Alex-Warren draft (C, 2026-07-01)'
-  needs_review: false
+  caps_applied: []
+  confidence: medium
+  anchor: 'Matt-Smith draft (B, 2026-06-28)'
+  needs_review: true
   first_overall: 7.0
+  regrade_overall: 8.9
+  grade_stability_delta: 1.9
   graded_at: '2026-08-10'
 ---
 
-> "I talk about things in music that I would never talk about with my best friends, which I think seems like a weird thing, but my justification in my head as to why it's okay is because it's cryptic enough and there's enough meat around it to make it all okay."
+> "I don't think I would have dared." Troye Sivan, asked whether he ever swapped the pronouns in love songs as a kid, on [NPR's _All Things Considered_, October 13, 2023](https://www.npr.org/2023/10/13/1205855985/troye-sivans-new-album-has-something-to-give-us)
 
-<p class="firstLetter">There is a trick Troye Sivan plays on himself before he writes a song. He whispers a small lie: <em>This never has to come out.</em> He imagines a room with no audience, and then he writes as if it's his diary. Raw. Unguarded. The most honest version of himself he'll ever commit to paper.</p>
+<p class="firstLetter">On January 21, 2026, Troye Sivan published the first post on his new Substack. He titled it "Fuck This Guy." Then he changed his mind and retitled it "feeling a bit uggo (ugly)," leaving a small edit note to explain the swap.</p>
+
+He never changed the web address. Months later the softened essay still lives at `/p/fuck-this-guy`. The raw version is sitting in the URL of the polite one, one glance away, for anyone who thinks to look.
+
+That is the entire man in a single artifact. He published the unguarded thing. Then he put a kinder label on the unguarded thing. Then he left the original title exactly where a curious person would find it.
+
+There is a version of this move he performs every time he writes a song. He tells himself a small lie first: _this never has to come out._ He writes as though the room is empty and the file is private, the most honest thing he will ever put on paper.
 
 Then he releases it to millions of people.
 
-"In my experience, I have never done that," he admitted to Spotify. "I always end up putting it out."
-
-This is the central paradox of Troye Sivan. A man who has built one of the most confessional careers in modern pop, coming out to a million YouTube subscribers at eighteen, writing songs so personal they function as open surgery, starring in a film about the conversion therapy that haunted his adolescent nightmares. And who still describes himself as "pretty quiet in real life." Who still, after all these years, runs to the bathroom when someone plays his song at a party.
-
-He gives you everything. And he keeps the real stuff hidden. And the remarkable thing is: you can't tell the difference.
+He gives you everything. He also decides the frame, the lighting, and the caption before you see any of it. The remarkable part is how rarely you can tell the difference.
 
 <details>
 <summary class="accordion">TL;DR: Why Troye Sivan is an Enneagram Type 4</summary>
 <div class="panel">
 <ul>
-<li><b>The outsider's outsider:</b> Gay, Jewish, South African-born, raised in the most isolated city on earth. Layers of difference that became creative fuel</li>
-<li><b>Art as survival:</b> Uses songwriting the way others use therapy, telling himself songs "never have to come out" then releasing them anyway</li>
-<li><b>The exposure paradox:</b> Built a career on radical vulnerability while fiercely guarding his actual inner world</li>
-<li><b>From suppression to liberation:</b> The boy who censored his own imagination became the man who put queer desire on a stadium screen</li>
+<li><b>The type:</b> Troye Sivan is an Enneagram Type 4, the Individualist, organized around a sense of being fundamentally different and turning that difference into the work.</li>
+<li><b>The contradiction:</b> One of the most confessional careers in pop, run by a man who says he leaves the room when his own song plays.</li>
+<li><b>The childhood engine:</b> He policed his own daydreams so completely that he never even attempted the pronoun swap other closeted kids used to survive pop radio.</li>
+<li><b>The tell:</b> He writes each song believing it will never be released, which is the only condition under which he can be honest, and then he always releases it.</li>
+<li><b>The seam:</b> In July 2026 he announced his fourth album by making his secret private Instagram public. The hidden self was the campaign.</li>
 </ul>
 </div>
 </details>
 
-## Troye Sivan's Childhood and Early Self-Censorship
-
-Before Troye Sivan was anyone's queer icon, he was a kid in Perth, Australia, listening to pop songs and doing something that should have been effortless.
-
-He was trying to imagine the pronouns flipped.
-
-He couldn't do it.
-
-"Some of my earliest memories are me trying to suppress my sort of difference in identity," he has said. Not just publicly. That would come later. He was censoring the inside. The private daydream. The version of a love song that only existed in his own head, with no audience, no consequence, no risk. Even there, in the safest space a person has, he couldn't let himself want what he wanted.
-
-The suppression wasn't social performance. It was structural. He had built walls inside his own mind, in rooms no one would ever enter.
-
-He was born Troye Sivan Mellet in Johannesburg, South Africa, in 1995, to a family of Lithuanian-Jewish descent. When he was two, they fled rising crime and landed in Perth. He attended an Orthodox Jewish school because it was the only Jewish school available, regardless of where your family fell on the spectrum of observance.
-
-The layers of otherness were stacking before he could name them.
-
-## How Troye Sivan Came Out to His Family
-
-He came out first to his best friend at fourteen. Said he might be bisexual. Then ran home crying and promised himself he'd never speak of it again.
-
-For the next six months, he watched YouTube coming-out videos obsessively. He wasn't looking for entertainment. He was looking for proof that people like him existed. "I didn't know any gay people growing up or any queer people growing up, and so I just really felt alone and kind of lost."
-
-The internet became his lifeline. "It's really integral to who I am," he later told Broadsheet. "Especially as a queer person growing up not knowing any queer people, I really leant on the internet and an online community for a sense of place. I developed my identity online."
-
-The actual coming out happened through a conversation so elegant it reads like fiction.
-
-He asked his Orthodox Jewish father a question: _What would you change about Judaism?_
-
-His father said he would change the way the Orthodox tenets of the religion approach homosexuality.
-
-That answer, offered without knowing what it would unlock, gave Troye the opening. He came out to his father that night. His family accepted him immediately. "I got really lucky," he later said, noting with some wonder that he had an Orthodox rabbi "who was so cool about me being gay and wanted to invite my boyfriend up to the bimah in shul."
-
-Lucky. He calls it lucky. But the years of self-censorship, the six months of watching strangers confess on YouTube what he couldn't say to his own reflection, those don't disappear because the ending is good.
-
-## How Troye Sivan Came Out on YouTube
-
-On August 7, 2013, Sivan uploaded a video to YouTube titled "Coming Out."
-
-"I'm Troye Sivan, and this is probably the most nervous I've been in my entire life."
-
-He was eighteen. He had nearly a million subscribers who knew him as a charming vlogger and cover singer from Perth. He had been keeping this secret from them for years while simultaneously building a career on being authentic and approachable online.
-
-"Years of pushing thoughts out of my head, and having my heart sink whenever I would think about it, and censoring the way that I moved, and the way that I spoke."
-
-The video has been viewed millions of times. It became a landmark in queer internet culture. But Troye has always been careful to contextualize his own experience within its privilege: "I had the easiest coming out in the world." He pauses. "Though there was definitely that internal struggle."
-
-The easiest coming out in the world. Said by a man who spent years unable to let himself imagine a love song with the right pronouns.
-
-This gap is what makes Troye Sivan psychologically fascinating. He names his pain and minimizes it in the same breath. He shares his deepest vulnerability with a million strangers and calls the whole thing easy. He writes a diary that becomes an album and convinces himself it's cryptic enough that no one will really know what it means.
-
----
-
-## What is Troye Sivan's Personality Type?
+## What is Troye Sivan's personality type?
 
 ### Troye Sivan is an Enneagram Type 4
 
-<a href="/enneagram-corner/enneagram-type-4">Enneagram Type 4</a>, "The Individualist," organizes around a core feeling of being fundamentally different from everyone else. Not different in the way everyone feels occasionally different. Structurally different. Missing something essential that others seem to have been born with.
+<a href="/enneagram-corner/enneagram-type-4">Enneagram Type 4</a>, the Individualist, organizes around a feeling of being fundamentally unlike everyone else. Not occasionally out of step. Structurally apart, as though some standard-issue part shipped with everyone else and skipped you.
 
-Fours don't envy others' possessions or achievements. They envy their apparent wholeness. That effortless sense of belonging. The ability to simply exist without the constant awareness of what's absent.
+Fours rarely envy what other people own. They envy how easily other people seem to occupy themselves.
 
-Troye Sivan's entire biography reads like a case study in layered otherness:
+Sivan's biography stacks the difference in layers: born in Johannesburg to a Jewish family that moved to Perth when he was two, schooled in the city's only Jewish school, gay in an Orthodox community, a bedroom YouTuber in one of the most isolated cities on earth. He told _The New Yorker_ in 2019 that he met his first non-Jewish friend at around seventeen.
 
-- South African in Australia
-- Jewish in a secular country
-- Gay in an Orthodox community
-- A bedroom YouTuber in the most isolated city on earth
-- A body shaped by Marfan syndrome in an industry that scrutinizes every frame
+For a Four, that apartness does not stay a wound. It gets promoted. It becomes the material, the aesthetic, and eventually the brand.
 
-Each layer deepened the sense of being fundamentally apart. But for a Four, apartness isn't just suffered. It becomes identity. It becomes the raw material of art. The wound becomes the work.
+He explained the mechanism himself at twenty, and it is the most useful thing he has ever said about his own work. "I talk about things in music that I would never talk about with my best friends," he told [_Harper's Bazaar_ in December 2015](https://www.harpersbazaar.com/culture/art-books-music/a13226/troye-sivan-interview/). "Which I think seems like a weird thing, but my justification in my head as to why it's okay is because it's cryptic enough and there's enough meat around it to make it all okay, and no one can really prove what any of the songs mean."
 
-"Songwriting is the most therapeutic thing in the world," Sivan has said. He alternates between his therapist and the studio, what he calls "the two coaches." He writes "right after something happens to me... when those feelings are really, really fresh." Not to process the feeling and move on, but to hold it in place, examine it from every angle, turn it into something beautiful before it fades.
+No one can really prove what any of the songs mean. That clause is the whole permission structure. He can hand you the diary because the diary is written in a code he can always deny knowing.
 
-This is the Four's defining tension. The ability to transmute pain into beauty, but only by keeping the pain alive long enough to work with it.
+## The daydream Troye Sivan never let himself have
+
+Ask most queer kids who grew up on pop radio about the pronoun swap and they will know exactly what you mean. She becomes he. Girl becomes boy. It is a small private edit, performed silently, at no risk, in a room no one else can enter.
+
+On NPR in October 2023, Ari Shapiro asked Sivan whether he did it.
+
+"I don't think I would have dared," Sivan said. "I was definitely not comfortable with my identity, and for some reason, I was hyperaware of it. [Some of my earliest memories are me trying to suppress my sort of difference in identity](https://www.npr.org/2023/10/13/1205855985/troye-sivans-new-album-has-something-to-give-us). I don't know where that came from, but unfortunately, that was a really big part of my internal monologue as, like, a kid."
+
+Sit with the size of that. The censorship did not begin at the school gate or the dinner table. It ran ahead of him into the imagination and got there first. He was not caught wanting the wrong thing. He was never going to risk finding out that he did.
+
+<p class="inner-thought">Don't. Not even in here. Especially not in here.</p>
+
+That is the beginning of a Four, and it is worth naming precisely, because the popular version of this type is a moody teenager writing poetry about being misunderstood. The real engine is quieter and much more disciplined. It is a child running surveillance on his own interior and deciding, correctly, that the safest daydream is the one he never has.
+
+The layers kept arriving before he had names for them. His father's family traces back to Lithuanian Jews. His parents left Johannesburg for Perth when he was two, citing the city's rising crime. He landed at the only Jewish school in a small community, which meant an Orthodox one regardless of how his own family practiced.
+
+He explained the arrangement himself, in 2022, and his phrasing is better than any summary: "because it was such a small Jewish community, there was only one Jewish school and it was an Orthodox school. So no matter where you personally landed on the [spectrum of observance](https://www.yahoo.com/entertainment/troye-sivan-wanted-show-nuances-150041628.html), we all went to the Orthodox school."
+
+Spectrum of observance. Three decades on, describing the school he was sent to as a child, he still reaches for the language of coordinates. Where you personally landed. Fours narrate their own biographies as a position relative to everyone else's.
+
+## How Troye Sivan came out, twice
+
+He was fourteen, in a park, with his best friend Kayla.
+
+In the video he would later post about it, he describes her pulling it out of him. He got as far as "I think I might be" before she supplied the rest of the sentence and asked if he was bisexual. He started crying, hugged her, and said yes.
+
+Then he ran home. And this is the part the story usually gets wrong: he did not privately vow to bury it. "[We decided we were never ever gonna speak of it again](https://www.youtube.com/watch?v=JoL-MnXvK80)," he says. It was a pact, made with the one person who knew, to put the thing back.
+
+For the next six months he did the only thing he knew how to do, which was open his laptop. He watched, by his own count, close to every coming-out video on YouTube. He told _AnotherMan_ in 2018 that he locked his door to do it.
+
+Call that what it was: six months of a fourteen-year-old gathering evidence that people like him made it to adulthood. He needed proof of concept before he would risk the hypothesis.
+
+The second coming out was the one that mattered at home, and it arrived through a question.
+
+Sivan and his father Shaun were up late talking when religion came up. As _The Sydney Morning Herald_ reported in [February 2015](https://web.archive.org/web/20150917001703/http://www.smh.com.au/good-weekend/troye-sivan-the-most-famous-teenager-youve-never-heard-of-20150209-13a11r.html), with both of them on the record, Sivan asked: if you could change anything about Judaism, what would you change?
+
+His father thought about it. "The way that it deals with gay people," he said. "What about you?"
+
+Sivan said he felt the same way. Then he took a long pause and added, "Because I'm gay."
+
+Read his father's answer again, then read the follow-up question. Shaun did not stumble into the opening. He built it, and then he held the door. Sivan has said as much about the video-era version of this story: he suspects his dad was trying to draw it out of him, "because he knows me better than anyone else knows me."
+
+The family took it well. The rabbi took it well too, which surprised the community. But Sivan's account of that period is more textured than the highlight reel: "I definitely had my ups and downs with being gay and Jewish. It was tough," he told _IndieWire_ in February 2022. "Then on the other side of it, I got really lucky. I had an Orthodox rabbi who was so cool about me being gay and so accepting, and literally wanted to invite my boyfriend up to the bimah in shul."
+
+## How Troye Sivan came out on YouTube
+
+On August 7, 2013, he uploaded a video called "Coming Out."
+
+"This is probably the most nervous I've ever been in my entire life."
+
+He was eighteen, with roughly half a million subscribers who knew him as a charming kid from Perth who sang covers and talked to a camera. He had been building a career on seeming knowable while keeping the largest fact about himself off the record.
+
+Five years later he described the years before that upload to _AnotherMan_, and the list is worth reading in full, because of where it ends:
+
+> "Years of pushing thoughts out of my head, and having my heart sink whenever I would think about it, and censoring the way that I moved, and the way that I spoke, and the things that I watched on TV, and the [music that I listened to](https://www.anothermanmag.com/life-culture/10346/troye-sivan-on-coming-out-and-why-he-doesnt-want-to-be-a-gay-icon), and the company that I kept, and the way that I dressed… I was really scared, you know?"
+
+The music that I listened to. The kid who would not risk flipping a pronoun in his head was also auditing his own playlist for evidence.
+
+The video has been watched more than nine million times and became a landmark of queer internet culture. Sivan has spent the decade since refusing to be sanctified for it. "I'm extraordinarily lucky," he told the same interviewer. "I come from a middle-class white family in Australia, and all of my dreams have come true by 22. I had the easiest coming out in the world."
+
+His interviewer pushed back. You say you had an easy coming out, but you fought with yourself about it for a while, didn't you?
+
+"There was definitely that internal struggle."
+
+Both sentences are true, and he needs both. Naming the pain precisely and then filing it under lucky is how he keeps it portable.
 
 ---
 
-## How _Blue Neighbourhood_ Turned Longing Into a Blueprint
+## Why Troye Sivan writes songs he swears he will never release
 
-Sivan's debut album, _Blue Neighbourhood_ (2015), was a concept album about first love, heartbreak, and queer longing set against the suburbs of Perth. The "blue neighbourhood" was both literal, the streets where he grew up, and psychological: a place of nostalgic familiarity and stifling repression.
+His debut album, _Blue Neighbourhood_ (2015), was a concept record about first love and queer longing set in the suburbs he grew up in. The blue neighbourhood was the actual streets of Perth and also a state of mind, familiar and stifling at the same time.
 
-"It takes place in both the suburbs of Perth where I've grown up, which I consider to be my blue neighbourhood, but then also in this fast-paced, crazy, whirlwind life that I'm now living."
+He was careful, in 2015, to make the songs sound unremarkable. "I just wanted to write normal pop songs and when the time comes to use a pronoun, I'll use the word 'he,'" he told [_The FADER_ in September 2015](https://www.thefader.com/2015/09/04/troye-sivan-wild-interview). Later in that same conversation, deflecting a question about his dating life, he laughed and said the songs were "100% about boys."
 
-The music video trilogy ("Wild," "Fools," "Talk Me Down") followed a fictional same-sex love story that mirrored Troye's own adolescence. The songs were confessional in a way that pop music about queer love rarely was in 2015. "I just wanted to write normal pop songs and when the time comes to use a pronoun, I'll use the word 'he,'" he told The FADER. "These songs are 100% about boys."
+Normal. That was the ambition. The boy who would not dare edit a lyric in his own head was now insisting that a man singing "he" was the least interesting thing in the room.
 
-Normal. He wanted them to be normal. The boy who couldn't flip a pronoun in his own imagination was now insisting that using "he" in a love song was the most natural thing in the world.
+In the same interview he explained the method, hedge first: "Well, I'm quite theatrical with songwriting. But every song stems from a real experience. An autobiographical experience."
 
-"Every song stems from a real experience," he said. "An autobiographical experience, maybe there's embellishments here and there."
+The embellishment is not decoration. It is the padding he wraps around the confession so the confession can survive contact with an audience.
 
-He's quite theatrical, he admits. But the feelings are always real. The embellishments are the meat he wraps around the confession to make it survivable.
+And underneath the padding sits the deal he strikes with himself before he writes anything at all. Talking to [Spotify for Artists in May 2022](https://artists.spotify.com/blog/troye-sivan-value-doing-things-yourself-best-advice-from-ariana-grande), he laid out the trick: tell yourself the song is private, that it never has to come out, and write accordingly.
 
-"Only started feeling lonely when I left home," he has said. "All the loneliness came from me traveling for the last year and a half while I've been writing this album, and being alone in places other than Perth."
+Then he described how the trick always ends. "In my experience, I have never done that. I always end up putting it out."
 
-## Why Boy Erased Hit Troye Sivan So Hard
+He knows the lie is a lie. He tells it anyway, because it is the only door into the room where he is honest, and he has never once walked back out through it empty-handed.
 
-In 2018, Sivan took a role in _Boy Erased_, a film about a teenager whose parents enroll him in a conversion therapy program. He played Gary, a fellow student at the facility, and co-wrote the film's original song, "Revelation," with Jonsi of Sigur Ros.
+This is the exposure paradox, and it is not hypocrisy. It is the only sequence in which honesty is available to him. The lie about privacy is load-bearing. Remove it and the diary never gets written.
 
-The role terrified him. Not because the acting was hard (he had imposter syndrome about that too: "I don't know what I'm doing, I'm not a real actor"). It terrified him because the story mapped onto his deepest childhood fear.
+## Why Boy Erased hit Troye Sivan so hard
 
-"I kept remembering how vulnerable I was at that time in my life, when I was first coming to terms with myself and coming out to my parents."
+In 2018 he took a supporting role in _Boy Erased_, playing Gary, a young man inside a conversion therapy program. He also co-wrote the film's original song, "Revelation," with Jónsi of Sigur Rós and his longtime collaborator Leland.
 
-His worst nightmare before coming out: "That my parents were not going to accept me and they'd want to fix me."
+The material sat directly on top of his own worst-case scenario.
 
-"Had I not been lucky enough to have the kind of family I had that was so supportive, I don't know where I'd be today, or who I would be today, or if I'd be here today."
+"[That] was my worst nightmare before I came out," he told [_The Hollywood Reporter_ in November 2018](https://www.hollywoodreporter.com/news/general-news/troye-sivan-saw-his-worst-nightmare-reflected-boy-erased-1163398/), "that my parents were not going to accept me and they'd want to fix me."
 
-There it is again. Lucky. The word he keeps reaching for when he talks about the years of internal suppression, the months of searching YouTube for proof that people like him existed, the body that already felt foreign because of a genetic condition. He feels his suffering deeply, articulates it precisely, and then minimizes it. Not because he doesn't think it matters, but because he's lived inside the ache so long it stops registering as remarkable. It's just the weather of being him.
+He told [NBC News](https://www.nbcnews.com/feature/nbc-out/pop-star-troye-sivan-returns-acting-conversion-therapy-drama-boy-n930061) that month that filming kept returning him to the worst of it: "I kept remembering how vulnerable I was at that time in my life, when I was first coming to terms with myself and coming out to my parents. Had I not been lucky enough to have the kind of family I had that was so supportive, I don't know where I'd be today, or who I would be today, or if I'd be here today."
 
-## Troye Sivan's Breakup and Why It Took So Long to Heal
+There it is again. Lucky.
 
-Troye's most significant public relationship was with model Jacob Bixenman. They dated for four and a half years before ending things in 2019. The breakup would eventually fuel his third album, but not in a simple, cathartic way.
+He reaches for that word every time the subject is his own suffering, and the reach is revealing. He can describe the ache with real precision, which means he has looked at it closely and often. Then he files it as good fortune, because he has lived inside it long enough that it stopped registering as remarkable. It is just the weather of being him.
 
-"Untangling yourself from someone" is how he described it. "This big ball of just knotted wool or something like that." It took "a really, really, really long time."
+## The breakup that took years to untangle
 
-He still thinks about it a lot. They share custody of their dog, Nash. He calls Bixenman "a significant moment" in his life.
+His longest relationship was with the model and photographer Jacob Bixenman. By his own account in _The Sydney Morning Herald_ in October 2023, it ran four and a half years and ended in 2019. They stayed friends and share custody of a dog named Nash. He called Bixenman "a significant moment in my life."
 
-"Love is often really menial and practical, and I think that's really unsexy," he reflected in Interview Magazine. "But on the flip side, that is the most romantic thing in the world." The idea of going through life as imperfect people in an imperfect relationship, choosing each other every day. "I know it exists because I've been in it. My parents are in it."
+Speaking to Zane Lowe on Apple Music in [October 2023](https://www.youtube.com/watch?v=uxrsDYLn8qs), he described the aftermath as one long unspooling sentence, which is how it evidently felt:
 
-When you lose a relationship like that, you don't just lose the person. You lose the version of yourself that existed inside that relationship. The untangling isn't logistical. It's existential. Who am I without this mirror?
+> "Untangling yourself from someone, it felt like this big ball of just knotted wool or something like that. It just took a really, really, really long time to slowly but surely … and it's still something that I think about a lot."
 
-The knotted wool metaphor is revealing. Not a clean break. Not a severing. A patient, painful process of separating two things that grew together until you couldn't tell which strand belonged to whom.
+Knotted wool is a precise image, and the precision is the point. Not a clean break, not a severing. Two things that grew into each other until you cannot tell which strand started where, and separating them takes patience rather than force.
 
-## How Troye Sivan Turned Heartbreak Into a Dance Album
+He came out of it with an unglamorous theory of love. "Recently I've started having this unromantic view of love that is a little bit more realistic," he told [_Interview_ in March 2022](https://www.interviewmagazine.com/film/troye-sivan-and-jared-frieder-have-a-very-gay-conversation). "Love is often really menial and practical, and I think that's really unsexy. But on the flip side, that is the most romantic thing in the world to me." Two imperfect people, choosing each other daily, working through it. And then the line that gives the theory its weight: "I know it exists because I've been in it. My parents are in it, and they have been in it for years."
 
-Then something shifted.
+A Four building a case for the ordinary is always worth noticing. It is the type arguing against its own reflex.
 
-_Something to Give Each Other_ (2023) arrived as the opposite of everything _Blue Neighbourhood_ represented. Where the debut was suburban heartbreak in minor keys, the third album was dance floors and sweat and unapologetic queer desire.
+## How Troye Sivan turned heartbreak into a dance album
 
-"Rush," the lead single, dropped with a music video that was "a hedonistic tribute" to queer sexuality: voguing, body paint, pole dancing. Sivan described the song as reflecting his experiences of feeling "confident, free and liberated." He told Man About Town he "really just wanted to step my pussy up as far as the pop game goes."
+_Something to Give Each Other_ (2023) arrived sounding like the opposite of his debut. Where _Blue Neighbourhood_ was hushed bedroom electropop, the third album pulled from house music and nineties club records and put queer desire on a dance floor at full volume.
 
-The sonic shift tells its own story. _Blue Neighbourhood_ was intimate electropop, cinematic and hushed, recorded in bedrooms. _Something to Give Each Other_ pulls from house music and nineties club cuts.
+"It's about community," he told [_Vogue_ in July 2023](https://www.vogue.com/article/troye-sivan-rush-new-album-interview), "and about community built off a common experience of dance music, partying, fashion, humor, and all of these things that I love so much about my life and about my friends."
 
-On "One of Your Girls," he ran the chorus through a vocoder after The Weeknd showed him a video of a robot singing sadly. He liked the idea of "an apathetic sad robot voice" delivering the emotional punch. His natural voice is a baritone that he pushes into a high, breathy falsetto, always singing slightly above where his voice naturally sits. As if comfort were something to escape rather than settle into.
+The grief did not leave. It relocated. In that same conversation he was direct about what the album was made out of: "I came from this really serious, long, beautiful queer relationship... It really rocked my world to come out on the other side of that." Like <a href="/personality-analysis/billie-eilish">Billie Eilish</a> tucking devastation inside a bedroom whisper, Sivan filed his under a beat you can sweat to.
 
-The album title itself was a thesis statement. Sivan said it was about "community built off a common experience of dance music, partying, fashion, humor, and all of these things that I love so much about my life and about my friends." He promoted it as "a celebration of sex, dance, sweat, community, queerness, love and friendship."
+The craft choices tell on him. On "One of Your Girls" he ran the chorus through a vocoder after Abel Tesfaye, The Weeknd, showed him a YouTube clip of a robot singing sadly. As he explained on [_Song Exploder_ in September 2024](https://songexploder.net/troye-sivan): "this robot is in the recording studio and he's singing and he's, like, sad… And I'm like, I wonder if the chorus should be like that sad robot, because of how disconnected I feel from this guy." His natural voice is a baritone. He spends most of his records in a breathy falsetto above where it comfortably sits.
 
-Even the celebration album carries the ache. It's "equally about grief and being unable to let go of the pain of a relationship's end." Like <a href="/personality-analysis/billie-eilish">Billie Eilish</a> hiding devastation inside bedroom whispers, Sivan buries his grief inside beats designed to make you dance. Human connection is the central theme, which means the threat of disconnection is always present, humming underneath the bass line.
+Then "Rush" arrived, and with it the first real critical pressure of his career.
 
-<div class="iframe-container">
-<iframe width="100%" height="315" loading="lazy" src="https://www.youtube.com/embed/b53QJYP-lqY" title="Troye Sivan - Rush" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+The video was a hedonistic tribute to queer nightlife, all voguing and body paint and sweat, and a chunk of the internet noticed that every body in it was slim and toned. The criticism came mostly from fans and online discourse rather than one outlet, but one line did land on him personally. Writing in [_Vulture_ that July](https://www.vulture.com/2023/07/troye-sivan-rush-review.html), critic Choire Sicha called the video "a return to body fascism and emaciation" and signed off: "Eat something, stupid twinks!"
+
+Sivan read it. Days later he told [_Billboard_](https://www.billboard.com/culture/pride/troye-sivan-rush-video-1235371358/) what it did to him.
+
+"There was this article yesterday, and they were talking about [the lack of body diversity], and in the same sentence, this person said 'Eat something, you stupid twinks.' That really bummed me out to read that, because I've had my own insecurities with my body image. I think that everyone's body is as beautiful as it is, including my own, and it just sucks to see people talking about other people's bodies."
+
+Notice that he added a word. Sicha wrote "stupid twinks." Sivan remembers "you stupid twinks." The insult arrived addressed to him.
+
+His body has been a site of difference since long before anyone was writing about it. In a [2013 Tumblr answer to a fan](https://troyesivan.tumblr.com/post/41456927880/troye-have-you-ever-noticed-how-long-your-fingers) who asked why his fingers were so long, a seventeen-year-old Sivan wrote that he has "mild marfan syndrome," which he described as making him "super thin, with long bendy fingers, and a high palette. Harmless, but weird, nonetheless." A year later, answering a rumor about an eating disorder, he waved it off again: "I'm perfectly healthy!"
+
+He was explaining his own frame to strangers years before the industry started grading it. And he is still doing it. The essay he almost called "Fuck This Guy" opens like this:
+
+> "I oscillate constantly between feeling like i'm aging in a good way, getting 'sexier' with time, and then feeling like [gollum's very close pop-singing relative](https://troyesivan.substack.com/p/fuck-this-guy). So decrepit, somehow both skinny and fat at the same time."
+
+The lowercase is his. So is the refusal to resolve it. That post lays out two positions, body acceptance and quietly researching procedures, and ends without picking one: "I can't make any promises."
+
+## Why Troye Sivan seems shy in real life
+
+Here is the self-description he has offered for years, and he has been remarkably consistent about it.
+
+Answering fan questions for [GQ in May 2020](https://www.youtube.com/watch?v=I0hjQAzF8Uk), he described himself as "pretty quiet in real life" who "can get a little bit quiet in like group situations." He told [_Interview_ in March 2022](https://www.interviewmagazine.com/film/troye-sivan-and-jared-frieder-have-a-very-gay-conversation) that he has "imposter syndrome at the best of times." And speaking to [TIME in October 2023](https://time.com/6323478/troye-sivan-interview/), he drew the line between the two selves precisely: "I'm still going to run to the bathroom if they start playing my song at a party because I get embarrassed. I'm just more confident at work."
+
+In April 2024 he brought that self-description onto [_Late Night with Seth Meyers_](https://www.youtube.com/watch?v=pTYKWhjfg1Q) with <a href="/personality-analysis/charli-xcx">Charli XCX</a> sitting next to him, and it did not survive the segment. The two were months away from announcing the Sweat Tour, the co-headlining run that would sell close to 300,000 tickets across twenty-two arenas that autumn, with the pair trading the stage every two or three songs instead of playing separate sets.
+
+Meyers asked how they feel hearing their own music in public. Charli said she loves it. Sivan said he gets "run-to-the-bathroom vibes."
+
+Meyers started to say that Charli had actually witnessed this. Charli cut in.
+
+"Yeah, I was going to say this isn't true."
+
+She then described a Grammys afterparty where Sivan's song came on and he was in the middle of the dance floor in a little beret, with Dua Lipa cheering him on. "It was a moment," she said, "and you loved it."
+
+Then he folded, instantly and completely.
+
+"No. Okay. So, yeah, I was going to be like humble vibes and say that I hate it. I really do." Then he explained the exception: he had just been nominated for a Grammy, and that night he told himself not to hide, not to go to the bathroom, because it was actually sick. And then, on national television, he described the final adjustment he made: "Okay, yeah, I should probably just, like, pretend to be chill about what's going on right now."
+
+He was celebrating. He was performing being chill about celebrating. And when a friend called it out on camera, he immediately conceded that the modesty had been a bit.
+
+This is where the easy version of Troye Sivan falls apart, and where the useful version starts. The shyness is not fake. He really does leave rooms. But the flinch has been polished into a presentable object, and he knows it well enough to drop the act inside half a second of being caught. The hiding is also a performance. He is running the same operation on his personality that he runs on his songs: live the thing, then decide how it should look.
+
+For a Four, this is not vanity. It is how the self stays legible. If your organizing belief is that you are made differently from everyone else, then the presentation of that difference is not decoration on top of an identity. It is the identity's only reliable proof. Charli caught him mid-edit, and he handled it with more grace than most people manage, because being seen accurately by someone who likes you anyway is the thing Fours actually want and rarely believe they will get.
+
+## Why Troye Sivan named his brand after a Yiddish toast
+
+In August 2023 he and his brother Steele Mellet launched Tsu Lange Yor, a Melbourne fragrance and lifestyle label.
+
+The name is a Yiddish toast. The brand's own site translates it as "To LONG YEARS and to GOOD YEARS." Sivan has connected it to the Yiddish his great-grandmother spoke in the house when he was young, which makes the label a piece of inherited language repurposed as a business by a great-grandson who now makes perfume in Melbourne. It has since grown into homeware and a textiles collaboration, and reached Nordstrom in July 2025.
+
+His relationship to the religion behind the language is more layered than either headline version. He said it in one breath in 2022, and the sentence deserves to stay in one piece: "I don't believe in God, for example, personally, but I feel extremely Jewish in my culture. It's the way I grew up. I think I would love to do Shabbat with my kids one day. There's a lot that's really important to me. I wanted to show that it's nuanced."
+
+He was talking about _Three Months_ (2022), where he played a queer Jewish teenager waiting out an HIV test window. What he wanted from director Jared Frieder was protective rather than confessional. His own experience had been good, and he did not want a film to flatten the community that had been decent to him. "I want to show Jewish kids that there are ways you can be queer and Jewish and make it work."
+
+He keeps landing on that last word. Nuanced. Nothing files cleanly. Every identity he holds arrives with a qualifying clause attached, and he would rather give you the clause than let you take the simple version.
+
+## What Troye Sivan is doing now
+
+The current chapter is a good test of everything above, because he is more visible than he has been in years and almost none of it is him standing in front of a camera.
+
+His debut turned ten in February 2026 and he reissued it as _Blue Neighbourhood: Ten Years On_, with new artwork from the illustrator who did the original. It worked: [_Forbes_ reported](https://www.forbes.com/sites/hughmcintyre/2026/03/02/troye-sivans-debut-album-spikes-23000-in-sales/) the album jumped from roughly twenty copies in a week to 5,400, a new peak on the vinyl chart. At thirty, he curated his own adolescence into an object you can hold.
+
+Four days before this was written, FX premiered _The Shards_, the Bret Easton Ellis adaptation, carrying [original songs by Sivan and Leland](https://press.disney.co.uk/news/fxs-the-shards-to-feature-original-music-by-troye-sivan,-leland-and-hayes-warner). He is not in the cast. After two films in which he played versions of his own adolescent fear, he has taken up a position off screen, writing the interior voice for somebody else's frightened teenager.
+
+And then there is the fourth album. In July 2026 he confirmed it, and the method was the thesis.
+
+He did not send a press release. He made his finsta public. The private account he kept away from fifteen million followers went open, and the [confirmation was a screenshot of his own text message](https://www.attitude.co.uk/culture/troye-sivan-confirms-new-album-secret-finsta-account-528973/) asking whether it was too late to swap two songs in the tracklist, captioned "It wasn't too late!!" The secret self was the campaign.
+
+The Substack, meanwhile, tells the other half. He launched it in January 2026 saying he wanted to use it as a mind dump. _The FADER_ described the writing as "either artfully slapdash or a touch amateur depending on how you look at it," and it is genuinely good when he lets it run. He posted twice. The second post, in March 2026, opens: "I think I'm exhausted. It sort of hurts when I blink."
+
+That post is worth reading, because he diagnoses himself in it better than any analyst could. He had deleted Instagram, TikTok, and the dating apps to clear space in his head and stop numbing himself. Then he noticed the result:
+
+> "The issue is of course that I now have space in my mind, am lonely, bored, emotionally vulnerable and not numb."
+
+He has not published there since.
+
+<details class="enneagram-rabbit-hole">
+<summary class="accordion">🐇 Enneagram rabbit hole: wings, subtypes and connecting lines for Troye Sivan</summary>
+<div class="panel">
+<p><em>For the Enneagram nerds. Skip if you are not deep into the system. The rest of the analysis stands on its own.</em></p>
+
+### Troye Sivan's wing: 4w3
+
+The evidence leans 4w3, the more outward and image-fluent flavor of the Individualist. A 4w5 withdraws to protect the inner world and tends to leave the commercial machinery alone. Sivan built a fragrance brand into Nordstrom, co-headlined arenas, and announced an album through a staged Instagram reveal. The Three wing is the part that knows how a thing will read before it ships.
+
+The 4w5 case is not empty. The locked door, the six months of solitary research, the withdrawal after the tour, the deleted apps: those are Five-ish moves toward information and away from people. The tiebreaker is what he does with the retreat. A 4w5 stays in it. Sivan converts it into output and then markets the output. Read more on how a <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> reshapes a core type.
+
+### Troye Sivan's instinctual subtype: social (so) with a sexual (sx) charge
+
+The social Four carries the sense of being the outsider in the group and often plays the role consciously. That fits a man whose formative community was an online one, who has spoken about wanting to show Jewish kids a workable version of queer and Jewish, and who frames his best year as a tour built on friendship.
+
+The sexual instinct shows up in the work itself: _Something to Give Each Other_ is organized around desire, competition for attention, and the intensity of one-to-one connection. Best read as so/sx. More on how the <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a> split one type into very different people.
+
+### Stress and growth arrows
+
+Under stress, Fours move toward Type 2: they manage the relationship instead of stating the need, becoming accommodating in ways that cost them. The hosting anxiety he described to _Interview_ in 2024 has this shape. He asked his team to invite his own friends because he was too embarrassed to do it, which is a Two-ward solution to a Four-ward feeling.
+
+In growth, Fours move toward Type 1: they stop waiting for the mood and start doing the work on a schedule. The reissue project, the film scoring, and the six-day-a-week gym routine he blames for his March 2026 exhaustion all point that direction. A Four getting healthy tends to look boringly disciplined from the outside.
+
+### Counterarguments: why Troye Sivan might not be a Type 4
+
+**The Type 9 case, and why the usual evidence for it fails.** Databases that type him a Nine cite his dislike of confrontation and his avoidance of inviting people to things. That second piece of evidence does not survive a look at the source. In _Interview_ in May 2024 he is describing the anxiety of hosting, and he names the feeling himself as embarrassment. He also says he enjoys the party once he is there and that everyone came and he was happy. Hosting dread is not conflict-avoidance, and it is not merging. The stronger Nine argument would rest on his agreeableness and his warmth toward collaborators, but Nines dissolve into the group, and Sivan arrives with a fully specified aesthetic and an acute sense of his own difference.
+
+**The Type 3 case.** He is ambitious, he has said so plainly, and he is strategic about brand partnerships. But Threes tune the image to what the market rewards, and Sivan has repeatedly moved before the market was ready, wearing dresses on red carpets when it carried risk. The clearest evidence is what happened when he wrote "Easy" in 2020. He cried while writing it, told _W_ that it was the first time he had ever cried in the studio, and then felt, almost immediately, "I don't know if I can put this out, or if I want to." A Three recognizes a vulnerable moment as usable material. Sivan's first instinct was to protect it.
+
+**Honest counterweight.** The Four typing has to account for how functional and collaborative he is. He is not a tortured recluse. He works constantly, keeps decade-long creative partnerships like the one with Leland, and talks about friendship as the highest available good. Healthy Fours do look like this rather than like the archetype's caricature. Still, the honest version of this typing admits that Sivan supplies unusually good evidence for both readings, and that the case rests less on any single quote than on where his art keeps starting: not at the goal, but at the gap.
 </div>
+</details>
 
-When the "Rush" video faced criticism for lacking body diversity (all slim, toned dancers), Sivan's response revealed how he processes the gap between intention and perception. "There was this article...and they were talking about [the lack of body diversity], and in the same sentence, this person said 'Eat something, you stupid twinks.' That really bummed me out to read that, because I've had my own insecurities with my body image."
+## What Troye Sivan still keeps
 
-He has Marfan syndrome, a genetic connective tissue disorder that makes him "super thin, with long bendy fingers, and a high palette." His body is literally shaped by something he didn't choose and can't change. The criticism struck the exact wound he'd been carrying since before anyone knew his name.
+The triumphant version of this story writes itself. Kid from Perth comes out on YouTube, conquers pop, and puts on a stadium the exact desire the conversion-therapy nightmare was built to erase.
 
-For a Four, the body becomes yet another site of fundamental difference. He has written about oscillating "between feeling like I'm aging in a good way, getting 'sexier' with time, and then feeling like Gollum's very close pop-singing relative." That hyper-awareness of his own body as a text that others read and misread feeds the same engine that powers his music. The difference isn't just felt. It's _seen_.
+The triumph is real. It also did not dismantle the architecture underneath it. He still writes as though the file is private. He still wraps the confession in enough embellishment to call it survivable. He still names the wound with total accuracy and then files it under lucky.
 
-## Why Troye Sivan Named His Brand After His Great-Grandmother
+And he still runs the frame. He published the essay, then softened the title, then left the original in the address bar. He announced an album by unlocking the account he had kept hidden. He said he leaves the room when his song plays, and when someone who loves him said that was not true, he agreed inside a second, on camera, and explained exactly which part had been the bit.
 
-In 2023, Troye and his brother Steele launched Tsu Lange Yor, a luxury lifestyle brand of fragrances and art objects.
+That last move is the one to keep. A man who has spent his whole life deciding how his difference should look, caught mid-edit by a friend, and choosing to be seen instead.
 
-The name comes from his great-grandmother.
+He named the whole arrangement in 2014, before the albums and the arenas and the fragrance line, and he named it the way he names everything: into his own camera, in a video he wrote, filmed, edited, and uploaded himself. The vlog was called ["Becoming You."](https://www.youtube.com/watch?v=ql8jG9OoSTM) Over footage of himself staring into the middle distance, the voice-over says:
 
-She was a Holocaust survivor who escaped from Lithuania to Johannesburg. She spoke only Yiddish. "Tsu lange yor," _to long years_, is one of the phrases that stuck through the generations, passed from a woman who fled genocide to a great-grandson who builds perfume bottles in Melbourne.
+> "I'm on the path to being someone I'm equally terrified by, and obsessed with. My true self."
 
-"I wake up every day excited to make something new, in a house that tells the story of my life."
+Terrified by and obsessed with. He was nineteen, and he had already worked out that the destination and the danger were the same address.
 
-The brand isn't a vanity project. It's ancestry made tangible. The fragrance covers "some of my most common moods," Sivan said. He organizes scent by emotional state the way others organize closets by season.
+The daydream he would not let himself have at nine, he now sells out arenas performing.
 
-He doesn't believe in God anymore. He identifies as an atheist. But he feels "extremely Jewish in my culture. It's the way I grew up. I think I would love to do Shabbat with my kids one day. There's a lot that's really important to me."
-
-In _Three Months_ (2022), where he played a queer Jewish teenager awaiting HIV test results, he worked with director Jared Frieder to ensure the Jewish identity was handled with nuance. "I said to Jared that I want to explore this, but I also want to show Jewish kids that there are ways you can be queer and Jewish and make it work."
-
-"I wanted to show that it's nuanced."
-
-He keeps reaching for that word. Nuance. Nothing is simple. Every identity contains its own contradiction. The only honest answer to any question about who he is requires a caveat, a qualifying clause, a second layer beneath the first.
-
-## Why Troye Sivan Seems Shy in Real Life
-
-Here is Troye Sivan's own description of the gap between his public and private self:
-
-"I'm still going to run to the bathroom if they start playing my song at a party because I get embarrassed. I'm just more confident at work. I feel comfortable wearing something extravagant for a video for art, doing red carpets, or whatever."
-
-"I have imposter syndrome at the best of times."
-
-He is "pretty quiet in real life" and "can get a little bit quiet in like group situations." His family turns off their phones at dinner. He relocated to Melbourne not because it was good for his career but because "it really aligns with the adult me."
-
-<a href="/personality-analysis/charli-xcx">Charli XCX</a>, his co-headliner on the 2024 Sweat Tour, first met him when he showed up uninvited to one of her house parties. She was "quite starstruck" when she found him in her kitchen. The friendship produced "1999," "2099," and "Talk Talk," and the Sweat Tour became a revealing test of who Sivan is when exposed nightly.
-
-The tour format was unusual: rather than performing separate sets, both artists alternated every two or three songs across a thirty-song show. Their music was intertwined, their wardrobes referenced each other, the arenas were transformed into clubs. Over 300,000 people attended. Afterward, Sivan reflected: "The Sweat Tour felt like lightning in a bottle. It spoke to all the things that feel so important to me: pop, community, collaboration, friendship."
-
-But the toll showed. His Substack post afterward opens with "I think I'm exhausted" and mentions "it sort of hurts when I blink." The man who runs to the bathroom when his song plays at a party had spent six weeks performing "erotically charged choreography" in arenas. And afterward, what he wrote about wasn't the triumph. It was the exhaustion. The quiet re-entry into himself.
-
-"The biggest rule of this whole thing," Sivan told his collaborator Leland about making _Something to Give Each Other_, "is that the process just has to be the most fun."
-
-His mother's influence shows up in unexpected ways. "If she were to see me being rude to someone in any environment, she would just be so pissed off." He took <a href="/personality-analysis/ariana-grande">Ariana Grande's</a> advice to heart: hire talented people, but they have to be good people. "If you're liked and respected by the people you work with, you're going to get much more done anyway."
-
-This isn't the temperament of someone who performs vulnerability for an audience. This is someone who genuinely operates from feeling, who runs emotional calculations before professional ones, who chooses a city because it "aligns with the adult me," who names a brand after a dead grandmother's Yiddish phrase because meaning matters more than marketing.
-
-## How Troye Sivan Uses Fashion to Build Identity
-
-Fashion became another language for the interior life. "I was definitely scared of fashion growing up just because I didn't want people to think I was gay," he told Dazed. "But now that I'm out, I feel like it's such a personal journey."
-
-The journey has been deliberate. From slim suits resembling early Hedi Slimane to Jean Paul Gaultier cone bras and Prada sheer suits on tour, he dresses like someone who is building an identity in public, garment by garment. "The only thing that really goes through my head when I'm picking out an outfit is, do I feel cool and cute." He likes to "disarm people by sometimes dressing a little bit more chilled than you might expect. But then also, I'll show up in a dress or something."
-
-This is how Fours manage the gap between inner and outer worlds. Every outfit is a precise statement about who he is today, which is never quite who he was yesterday.
-
-His relationship with platforms tells a similar story. He abandoned Twitter after a crypto hack, calling it "a hell scape." He leaned into TikTok ("I don't have to go and shake hands with the radio station in wherever the f--k but I can stay home and make TikToks? OK!"). And in 2026, he launched a Substack, writing in an "artfully slapdash" style with creative grammar and confessional tone, because he wanted a platform where vulnerability could breathe without being compressed into content.
-
-"When I made YouTube videos, I am the one who's uploading it, I'm the one who's editing it, so I'm very in control of what I'm sharing," he told Harper's Bazaar. "Whereas in music, it's a lot more of pouring my heart out and kind of just putting it out there." He keeps migrating toward platforms that offer more control over the exposure. Then, predictably, he uses that control to share more.
-
-## Why Troye Sivan Is Type 4, Not Type 9
-
-Some personality databases type Sivan as a Nine, the Peacemaker. He does hate confrontation. "I actually hate inviting people to things," he told Interview Magazine. "The thought of it beforehand is quite nerve-wracking." He gets "quite avoidant about it." He's described as humble, receptive, calming.
-
-But Nines merge with others and lose themselves in the process. Sivan has one of the most intensely cultivated senses of self in pop music, from his Melbourne home designed with Flack Studio to a fragrance brand organized by emotional state to a wardrobe that functions as autobiography. He doesn't dissolve into groups. He arrives with a fully formed aesthetic and an almost allergic awareness of his own difference. Nines are also defined by inertia. Sivan calls himself "addicted to working."
-
-Others might see a Three, the Achiever. He's ambitious ("there's a lot that I want to do"), strategic with brand partnerships (Prada, Valentino, Cartier), and cried when he got his first Grammy nomination. But Threes adapt their image to what the market rewards. Sivan wore halter tops and dresses to red carpets when it was risky, not calculated. When he cried in the studio writing "Easy," his first instinct was "I don't know if I can put this out," the opposite of a Three, who would recognize vulnerability as useful content. And he freely admits: "I'm the type of person who listens to sad music when I'm sad to feel sadder, and to feel sorry for myself." A Three would never say that out loud.
-
-The core tell: Sivan's art comes from a sense of fundamental difference, not from a desire to achieve or a desire for peace. The wound is the engine. That's the Four.
-
-## What Troye Sivan Still Hides
-
-"I'm on the path to being someone I'm equally terrified by and obsessed with. My true self."
-
-There is a version of Troye Sivan's story that reads as pure triumph. The kid from Perth who came out on YouTube and conquered the world. The queer icon who went from bedroom covers to Grammy-winning albums, from conversion therapy nightmares to _Rush_ videos that celebrate everything those nightmares tried to destroy.
-
-But the triumph doesn't erase the architecture. The original wound works like a compass needle, always pointing, always orienting, even when everything around you has changed.
-
-"Part of the reason why I came out is to do whatever I wanted and be with whoever I wanted," he told The FADER. "That freedom is something that I've worked hard for."
-
-Worked hard for. Not found. Not received. Worked for. Like freedom was a construction project, something that required blueprints and labor and maintenance. Something that could be built but also, if you stopped working, could fall apart.
-
-He still writes like it's a diary that no one will read. He still runs to the bathroom. He still wraps confessions in enough cryptic embellishment that he can tell himself the exposure is safe. He still names his deepest creations after a dead grandmother's Yiddish, a phrase passed down through a family that crossed oceans and languages to arrive at a boy in Perth who couldn't flip a pronoun in his own head.
-
-That boy grew into the man who put queer desire on a stadium screen. But the flinch never left. It just learned to hide inside the performance, which is exactly where a Four would put it.
+The flinch is still in there. It just finally has somewhere better to be.
 
 > **Disclaimer:** This analysis of Troye Sivan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Troye Sivan.
