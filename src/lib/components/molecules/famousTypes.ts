@@ -100,7 +100,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'cleopatra', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['historical'] },
 		{ name: 'corina-conf', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'cristiano-ronaldo', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Football\'s Relentless Perfectionist', contentGrade: 8.7, types: ['athlete'] },
-		{ name: 'david-beckham', link: false, hasImage: true, lastmod: '2026-07-13', personaTitle: 'Football\'s Self-Made Idol', contentGrade: 8.6, types: ['celebrity', 'entrepreneur'] },
+		{ name: 'david-beckham', link: true, hasImage: true, lastmod: '2026-08-12', personaTitle: 'Football\'s Most Practised Idol', contentGrade: 8.5, types: ['celebrity', 'entrepreneur'] },
 		{ name: 'donald-trump', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'The Showman Who Became the Show', contentGrade: 9.6, types: ['politician', 'modern-leader'] },
 		{ name: 'drake', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Achiever Who Made Vulnerability Win', contentGrade: 9, types: ['musician', 'rapper'] },
 		{ name: 'dua-lipa', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'The Star Who Turns Doubt into Deadlines', contentGrade: 8.7, types: ['musician'] },

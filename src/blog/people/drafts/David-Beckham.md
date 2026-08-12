@@ -4,12 +4,12 @@ meta_title: 'David Beckham''s Type 3 Mind: The Boy Who Built Himself'
 persona_title: 'Football''s Most Practised Idol'
 description: 'David Beckham turns public judgment into finished performances, images and institutions. A Type 3 reading, tested against what he cannot control.'
 author: 'DJ Wayne'
-date: '2026-07-13'
+date: '2026-08-12'
 loc: 'https://9takes.com/personality-analysis/David-Beckham'
-lastmod: '2026-07-13'
+lastmod: '2026-08-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['celebrity', 'entrepreneur']
 person: 'David-Beckham'
