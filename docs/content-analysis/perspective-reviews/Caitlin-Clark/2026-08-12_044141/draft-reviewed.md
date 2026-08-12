@@ -67,10 +67,10 @@ faqs:
     answer: 'Clark committed 223 turnovers in 2024, the most any player has given away in a single WNBA season. The record she broke was 137. The reading here is that she grades correctness at the moment of decision, not at the moment the ball arrives, which is settled a half-second later by four other people. If the cross-court skip pass is the right read, it stays the right read on the possession it gets deflected.'
     anchor: 'why-caitlin-clark-set-the-wnba-turnover-record'
   - question: 'Why does Caitlin Clark look angry when she plays?'
-    answer: "This article's reading is that her anger points at herself first, and the portion that will not fit lands sideways on teammates, coaches and officials. Lisa Bluder named all three targets. She called technical fouls on Clark in practice more than once, sometimes from the bench herself. A sports psychologist at Iowa once assigned her to smile at people, because she did not know what her face was doing. Both of her head coaches have prescribed grace. She declined, telling ESPN in 2026 that 'the fire and the passion, that's what makes me, me.'"
+    answer: "Her anger points at herself first, and the portion that will not fit lands sideways on teammates, coaches and officials. Lisa Bluder named all three targets. She called technical fouls on Clark in practice more than once, sometimes from the bench herself. A sports psychologist at Iowa once assigned her to smile at people, because she did not know what her face was doing. Both of her head coaches have prescribed grace. She declined, telling ESPN in 2026 that 'the fire and the passion, that's what makes me, me.'"
     anchor: 'why-caitlin-clark-looks-angry-when-she-plays'
   - question: 'How does Caitlin Clark handle criticism?'
-    answer: "This article's reading is that it depends on what is being criticized. Criticism of her output bounces off: when Sheryl Swoopes said in September 2024 that Clark's rookie numbers were 'not dominating,' Clark spent almost no energy arguing, because her own audit grades output more harshly than a critic can. An accusation about her character is the one charge she cannot absorb. That is what put her on ESPN over All-Star weekend in July 2026 saying 'don't make accusations about my character and who I am when you don't know me.'"
+    answer: "It depends entirely on what is being criticized. Criticism of her output bounces off: when Sheryl Swoopes said in September 2024 that Clark's rookie numbers were 'not dominating,' Clark spent almost no energy arguing, because her own audit grades output more harshly than a critic can. An accusation about her character is the one charge she cannot absorb. That is what put her on ESPN over All-Star weekend in July 2026 saying 'don't make accusations about my character and who I am when you don't know me.'"
     anchor: 'why-caitlin-clarks-fame-turned-into-a-fight-about-race'
 production_pretext:
   status: draft
@@ -85,24 +85,6 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Caitlin-Clark.md
-content_quality:
-  hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 9
-  originality: 9
-  discoverability: 9
-  overall: 9.0
-  first_overall: 9.0
-  regrade_overall: 9.0
-  grade_stability_delta: 0.0
-  letter: A
-  rubric_version: 2
-  caps_applied: []
-  confidence: high
-  anchor: 'Peter Thiel (v1-era, approximate)'
-  needs_review: false
-  graded_at: '2026-08-12'
 ---
 
 <!-- TYPE-CHALLENGE MEMO (pre-write, working notes)
@@ -173,7 +155,7 @@ Current-tense anchor: August 2026 — 21.5 PPG and 8.0 APG, Fever 19-11, Eastern
 Reader-command imperatives: 2 — "Look at what survives the filter" (H2 6) and "Watch for the night she takes the safe pass" (H2 5, the stated falsifier). Six others were converted in the revision pass and "Pressure-test that against the obvious alternative" (the third the grader counted) in the grade-response pass; the count is the ledgered constraint, so do not reintroduce.
 Aphoristic section closers: 4 of 9 after the grade-response pass (was 7, which tripped the cross-draft sameness cap). H2 1 now ends on the Bluder quote with the aphorism folded into its intro sentence; H2 2 and H2 8 closers were merged into plainer single sentences. Do not re-drop them as standalone fragments.
 Ending shape: the August 4 Player of the Week release and back-injury listing now collide in the final paragraph. The last sentence asks which line she reads first, ending on a subject-specific external fact rather than returning to an origin object, wound, or isolated aphorism.
-Interior beats: 1 imagined, explicitly labeled — the Seattle career night. The hotel-room monologue was removed after the 2026-08-12 subject-fairness review; Clark's sourced ESPN account now carries that section's emotional interior by itself.
+Interior beats: 2 — the Seattle career night (peak) and the hotel room before Game 5 of the 2025 semifinals (loss), so the inside is not shown only in defeat
 Unresolved-by-design: the commercial seam. She is one of the highest earners in the sport, fluent inside machinery that runs on a rivalry she calls fabricated, and says the credit belongs elsewhere. Held open in H2 6 rather than settled.
 Ending swap-test: pass. The closing depends on the Fever announcing Clark's third Player of the Week award and a back-injury listing together on August 4. No other subject produces that collision.
 Source audit after the structural de-templating pass: no epigraph remains. Re-run the script rather than trusting the prior 5 inline / 1 vague / 0 untagged count.
@@ -236,12 +218,12 @@ Clark grew up the middle child between two brothers, Blake and Colin, in a house
 
 She has said she once ended an Easter egg hunt with the fewest eggs and cried about it.
 
-One possible lesson in a house like that is quiet and durable: there is a correct amount of effort, everyone else is applying less, and the gap is yours to close. The card game suggests the pattern did not stay confined to basketball.
+The lesson available in a house like that is quiet and durable: there is a correct amount of effort, everyone else is applying less of it, and the gap is yours to close. Which is why the pattern never confined itself to basketball.
 
 > "When I'm just playing a casual card game with my family or my friends, and then everybody hates me by the end of the night. And I'm like, oh, great. I ruined Christmas."
 > — Caitlin Clark, <em>My Next Guest Needs No Introduction with David Letterman</em>, Netflix, 2025
 
-She tells it as a joke. There are no stakes, and she still cannot let the standard drop.
+She tells it as a joke. A card game has no stakes, a room full of people who love her, killing an hour, and she still cannot let the standard drop inside it.
 
 ---
 
@@ -249,7 +231,7 @@ She tells it as a joke. There are no stakes, and she still cannot let the standa
 
 She took that standard somewhere the result counts, staying home for college, to a program that had been to exactly one Final Four, in 1993, before she was born.
 
-The shot was the reason people came. Her logo threes came from the Hawkeye mark at midcourt, with a hand in her face, taken before the defense had finished setting up. Opposing crowds started arriving early for warmups.
+The shot was the reason people came. Threes from the Hawkeye logo at midcourt, with a hand in her face, taken before the defense had finished setting up. Opposing crowds started arriving early for warmups.
 
 On March 3, 2024, against Ohio State, she passed Pete Maravich's 3,667 career points and became the leading scorer in the history of Division I basketball, a record that had stood since 1970. It arrived at the free-throw line, on a technical foul with 0.3 seconds left in the second quarter. Asked in a halftime television interview whether she had known where she stood when she stepped to the line, she said, per CBS News: "Not really. When they announced it and everybody screamed, that's when I knew." The biggest number in the sport went by and the building had to tell her, because a career scoring total is an accounting somebody else keeps.
 
@@ -269,7 +251,7 @@ Eight days after that final, Indiana took her first overall in the WNBA draft. T
 > "A point everybody was making was like, 'Who are you taking off the team?' And that was a tremendous point. I gave them a lot of reasons to keep me off the team with my play."
 > — Caitlin Clark, TIME, 2024
 
-She never conceded the larger point. She told the same magazine she knew she was good enough for that roster and called the omission a blessing: it fueled her and gave her a break she needed. TIME also reported that she told Fever coach Christie Sides the snub "woke a monster."
+She never conceded the larger point. She told the same magazine she knew she was good enough for that roster, and called the omission a blessing that woke a monster.
 
 An Eight treats that as a slight and makes somebody pay. A Three manages the story until it stops costing anything. Clark argued the committee's case for them, in public, specified the evidence against herself, and went on believing she belonged. That is not grace. She had already run the numbers and reached the same verdict about her play, and it did not change what she thought she was worth.
 
@@ -281,7 +263,7 @@ She runs the numbers on her best nights too. On July 17, 2026, Clark scored 45 p
 
 <div class="scroll-table">
 
-| The line               | What the record book saw                                   | Where this reading predicts she would look first                                  |
+| The line               | What the record book saw                                   | Where she would go first                                                          |
 | ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | 45 points              | Career high                                                | Fine. Next.                                                                        |
 | 17-of-19 from the line | 89 percent, most of it late                                | Two misses, and she can tell you which two.                                        |
@@ -341,7 +323,7 @@ That December, named TIME's Athlete of the Year, she went further than any of he
 > "I want to say I've earned every single thing, but as a white person, there is privilege. A lot of those players in the league that have been really good have been Black players. This league has kind of been built on them."
 > — Caitlin Clark, TIME, 2024
 
-In the same profile she called the Angel Reese rivalry, with her LSU title-game opponent turned WNBA rookie-class rival, "really fabricated and made up."
+In the same profile she called the Angel Reese rivalry, sold for two years as the sport's defining feud, "really fabricated and made up."
 
 That is the seam in the whole picture, and it should be left open. Clark is one of the highest-earning athletes in women's sports, fluent inside commercial machinery that runs partly on the very rivalry she is calling fabricated, and every dollar of it is downstream of an audience a meaningful slice of the league experienced as a threat. She says the credit belongs to the Black women who built the place. She also keeps the check. Both are true, she has not solved it, and there may be no version of her career in which she can.
 
@@ -352,9 +334,7 @@ What she does do is sort the incoming. In July 2026, sitting down with ESPN's Ma
 
 She said the coverage had become "emotionally exhausting," that "it makes your shoulders tense." She did not complain that anyone had underrated her game.
 
-The complaint drew its own criticism. Days later on ESPN's <em>Women's Sports Sunday</em>, ESPN analyst Monica McNutt said there was "room for a little bit more accountability and self-awareness" from Clark about her role in "the larger sisterhood, if she sees it that way," in the WNBA.
-
-McNutt's charge is a third column: what someone with Clark's platform owes a community. The filter below does not settle it.
+The complaint drew its own criticism. Days later on ESPN's Women's Sports Sunday, Monica McNutt said there was "room for a little bit more accountability and self-awareness" from Clark about her role in "the larger sisterhood."
 
 Look at what survives the filter. "You are not dominating" is a claim about output, and output is a number she is already grading more harshly than Swoopes ever could, so it bounces: the internal auditor got there first with a worse verdict. "You are a bad person" cannot be handled that way, because the audit is the moral instrument. It is the thing that says the standard is real and that she is honestly applying it. An accusation about her character says the ledger is a performance, and there is no gym she can go to about that.
 
@@ -394,7 +374,11 @@ Two months later she was blunter about why the prescription does not take. "The 
 
 In 2025 the fire had nothing to burn. She played 13 games. A left quad strain, then a bone bruise in the ankle, then a right groin sprain on July 15 that ended everything. The Fever went to the semifinals without her. She traveled anyway.
 
-She has never said what the night before Game 5 sounded like in her own head. Months later, her account to ESPN still could not get through the sentence cleanly.
+Her account gives enough to imagine the night before Game 5:
+
+<p class="inner-thought">They are downstairs going over the game plan. Tomorrow is Game 5 and I will watch it in a sweatsuit. Every hour I put in this year bought me nothing. I did the work. I did the work and I am up here.</p>
+
+Her own account of it, given to ESPN months later, still could not get through the sentence cleanly.
 
 > "The toughest moments for me were like the night before the games. You're in your hotel room and it's like, 'Man, my team is gearing up to play in game five of the semifinals to maybe go to the finals and I know I don't get to put my uniform on.' Like that makes me emotional right now. Like that just ate at me. Like I hated that."
 > — Caitlin Clark, ESPN, 2026
@@ -419,7 +403,7 @@ The honest complication is the anger. The one-to-one One, the Zeal countertype, 
 
 ### Stress and Growth Arrows
 
-The theory describes Ones under pressure as moving toward <a href="/enneagram-corner/enneagram-types-in-stress">Type Four's lower-side habits</a>. In 2025, the observable shift in Clark's language was from measurement to feeling: on the hotel rooms, "that just ate at me." The theory's sharper Four parallel is feeling misunderstood, language Clark used herself: "people didn't understand how I was wired." It arrived the moment the thing she regulates with was taken away.
+Ones move toward the <a href="/enneagram-corner/enneagram-types-in-stress">unhealthy side of Type Four under pressure</a>, and 2025 is the case study. Cut off from the work, Clark's language shifted from measurement to feeling: on the hotel rooms, "that just ate at me." The sharper Four marker is the complaint that arrow specializes in, that the effort goes unseen, and she has made it in her own words: "people didn't understand how I was wired." It arrived the moment the thing she regulates with was taken away.
 
 Her growth line runs to Type Seven, and it looks like play: the Letterman bits, the golf, the "goofy kid" Bluder insists survived the noise. Ones integrating to Seven get lightness without having to earn it first, which is the skill both of her head coaches keep prescribing under the word grace.
 
@@ -427,13 +411,11 @@ Her growth line runs to Type Seven, and it looks like play: the Letterman bits, 
 
 The strongest case against is Type Three, and the diagnosis above tested the wrong one. The Three that competes here is the self-preservation Three: uneasy with self-promotion, privately exacting about the work, and the single most common Three mistyped as a One. Every discriminator above is also sp-Three behavior.
 
-So discriminate on the fear. A Three's dread is worthlessness and it attaches to output. A One's dread is corruption and it attaches to character. Her own filter, back in the race section, sorts incoming criticism on exactly that line: "not dominating" bounces off her, and an accusation about who she is does not. A self-preservation Three would be expected to manage a character attack; Clark offers no counter-narrative, only the insistence that strangers cannot know her.
+So discriminate on the fear. A Three's dread is worthlessness and it attaches to output. A One's dread is corruption and it attaches to character. Her own filter, back in the race section, sorts incoming criticism on exactly that line: "not dominating" bounces off her, and an accusation about who she is does not.
 
 What would change our mind: evidence that she adjusts her self-presentation by audience, or that a win actually settles her for a while. Neither shows up. She volunteered on a national broadcast that she is "at times maybe difficult" to coach. She told a room of Goldman Sachs clients the lost title games do not keep her up at night. Her own account of the reflex: "I'm always analyzing my play. I'm always trying to find ways to be better." Threes convert wins into fuel. Clark converts them into the next audit.
 
 The other alternative worth naming is Type Eight, which fits the jaw and the refusal to back down and fits almost nothing else. The anger runs the wrong direction, and the subtype note works through why.
-
-Type Six deserves a look too. Sixes fear being unsafe or unsupported. Clark assumes the pass will work after it fails and calls the fire part of who she is; her stated threat is moral misreading.
 
 </div>
 </details>
@@ -443,7 +425,7 @@ Type Six deserves a look too. Sixes fear being unsafe or unsupported. Clark assu
 
 ## Caitlin Clark is still going to the gym about it
 
-It is August 2026, and she is spending the hours again. As of August 4, she is averaging 21.5 points and 8.0 assists, second in the league in assists per Basketball-Reference. The Fever are 19-11, with two months and a postseason still in front of them.
+It is August 2026, and she is spending the hours again. She is averaging 21.5 points and 8.0 assists, second in the league in assists per Basketball-Reference. The Fever are 19-11, with two months and a postseason still in front of them.
 
 On August 4, the Fever announced two facts about Clark. She was Eastern Conference Player of the Week for the third time that season. She was also on the injury report with a back problem. The first line was the league's verdict on what she had done. The second decided whether she could go back to work. Clark has already told us which line she reads first.
 

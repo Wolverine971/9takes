@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "subject": "Caitlin-Clark",
+  "draft_path": "src/blog/people/drafts/Caitlin-Clark.md",
+  "review_dir": "docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141",
+  "draft_sha256": "3d649ecec30f226cfeb43586cfe0c01d43596cd6f0ae8985afa21d81d36c505d",
+  "reader_visible_content_sha256": "470f2ad20136045ac173d29c266c277465e8c0a068a14d40a4f486eb1dd0b683",
+  "created_at": "2026-08-12T04:42:09.299Z",
+  "source_task": {
+    "source_thread_id": "019ff3c3-38b4-74b1-a45e-e82b9506a175",
+    "binding_constraints": [
+      "Put an explicit authorial cue immediately before the H2 4 inner-thought passage so no reader mistakes imagined prose for a Caitlin Clark quote. The approved concise cue in the source workspace is: \"The imagined tape session sounds like this:\"",
+      "Preserve PROTECT-06 upstream of the H2 7 ending: \"The reframe changes what the behavior means without changing what it cost.\""
+    ],
+    "scope_constraints": [
+      "Work only on Caitlin Clark's article and directly related grading/review artifacts.",
+      "Do not publish, sync Supabase, change cron jobs, lower or bypass thresholds, or fabricate grade metadata.",
+      "Preserve the turnover mechanism and falsifier, criticism filter, current sourcing, direct type answer, FAQ and entity metadata, and emotional interior."
+    ]
+  }
+}
