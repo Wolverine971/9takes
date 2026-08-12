@@ -8,6 +8,7 @@
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import RightIcon from '$lib/components/icons/rightIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { captureQuestionCreated } from '$lib/analytics/questionEvents';
 	import { fade, fly } from 'svelte/transition';
 	import type { PageData } from './$types';
 	import QuestionSocialCardTemplate from '$lib/components/questions/QuestionSocialCardTemplate.svelte';
@@ -283,6 +284,12 @@
 
 			url = createdUrl;
 			createdQuestionPath = `/questions/${encodeURIComponent(createdUrl)}`;
+			void captureQuestionCreated({
+				questionId,
+				questionUrl: createdUrl,
+				sourcePath: $page.url.pathname,
+				hasContext: Boolean(context.trim())
+			});
 
 			try {
 				createProgressStage = 'generatingImage';

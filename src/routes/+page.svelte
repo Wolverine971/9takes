@@ -7,7 +7,15 @@
 	import { ArrowUpRight, CircleCheck, EyeOff, LockKeyhole, UnlockKeyhole } from '@lucide/svelte';
 	import type { PageData } from './$types';
 	import { capture } from '$lib/analytics/posthog';
-	import { captureCommentCreated } from '$lib/analytics/commentEvents';
+	import {
+		captureCommentCreated,
+		captureCommentFailed,
+		captureCommentStarted,
+		normalizeServerCommentAnalytics,
+		type CommentFailureCategory,
+		type CommentFailureStage
+	} from '$lib/analytics/commentEvents';
+	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
 	import { questionInvitePromptWasSeen } from '$lib/analytics/questionInvites';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { Button, SectionKicker } from '$lib/components/atoms';
@@ -112,12 +120,23 @@
 	let previewRevealed = $state(false);
 	let submitting = $state(false);
 	let submitError = $state<string | null>(null);
+	let commentStartedTracked = false;
 	let mirror = $state<Mirror | null>(null);
 	let mirrorUnavailable = $state(false);
 	let alreadyAnswered = $state(false);
 	let chorusTakes = $state.raw<ChorusTake[]>([]);
 	let revealEl = $state<HTMLElement | null>(null);
 	let inviteCardVisible = $state(false);
+
+	function trackFeaturedQuestionImpression(node: HTMLElement) {
+		const destroy = observeQualifiedQuestionImpression(node, {
+			questionId: data.featuredQuestion.id,
+			questionUrl: data.featuredQuestion.url,
+			surface: 'homepage',
+			sourcePath: '/'
+		});
+		return { destroy };
+	}
 
 	const trimmedTake = $derived(previewTake.trim());
 	const wordCount = $derived(trimmedTake ? trimmedTake.split(/\s+/).length : 0);
@@ -178,6 +197,8 @@
 
 		submitting = true;
 		submitError = null;
+		let failureStage: CommentFailureStage = 'request';
+		let errorCategory: CommentFailureCategory = 'network_error';
 
 		try {
 			const visitorId = browser ? getOrCreateVisitorId() : undefined;
@@ -196,9 +217,14 @@
 			const result = await response.json().catch(() => null);
 
 			if (!response.ok) {
+				errorCategory = 'http_error';
 				throw new Error(result?.error ?? result?.message ?? 'Something slipped. Try once more.');
 			}
+			failureStage = 'response';
+			errorCategory = 'invalid_response';
 			if (!result?.answerRecorded) {
+				failureStage = 'server_action';
+				errorCategory = 'action_failure';
 				throw new Error('We could not add your answer to the live question. Please try again.');
 			}
 			if (!Array.isArray(result?.takes) || result.takes.length !== 9) {
@@ -222,6 +248,7 @@
 			previewRevealed = true;
 			inviteCardVisible = browser && !questionInvitePromptWasSeen(data.featuredQuestion.url);
 			if (!alreadyAnswered) {
+				const serverAnalytics = normalizeServerCommentAnalytics(result.commentAnalytics);
 				void captureCommentCreated({
 					commentId: result.commentId,
 					questionId: data.featuredQuestion.id,
@@ -230,9 +257,11 @@
 					commentKind: 'answer',
 					surface: 'homepage',
 					sourcePath: browser ? window.location.pathname : undefined,
-					isAnonymous: !data.user?.id
+					isAnonymous: !data.user?.id,
+					...serverAnalytics
 				});
 			}
+			commentStartedTracked = false;
 			void capture('homepage_question_answered', {
 				question_url: data.featuredQuestion.url,
 				source_path: browser ? window.location.pathname : undefined
@@ -240,10 +269,34 @@
 			await tick();
 			revealEl?.focus();
 		} catch (error) {
+			void captureCommentFailed({
+				...getHomepageCommentEventContext(),
+				failureStage,
+				errorCategory
+			});
 			submitError = error instanceof Error ? error.message : 'Something slipped. Try once more.';
 		} finally {
 			submitting = false;
 		}
+	}
+
+	function getHomepageCommentEventContext() {
+		return {
+			questionId: data.featuredQuestion.id,
+			questionUrl: data.featuredQuestion.url,
+			commentKind: 'answer' as const,
+			surface: 'homepage' as const,
+			sourcePath: browser ? window.location.pathname : undefined,
+			isAnonymous: !data.user?.id
+		};
+	}
+
+	function handleHomepageCommentInput(event: Event) {
+		submitError = null;
+		const value = (event.currentTarget as HTMLTextAreaElement).value;
+		if (commentStartedTracked || !value.trim()) return;
+		commentStartedTracked = true;
+		void captureCommentStarted(getHomepageCommentEventContext());
 	}
 
 	function trackDiscussionOpen() {
@@ -315,7 +368,7 @@
 				</p>
 			</header>
 
-			<div class="question-stage">
+			<div class="question-stage" use:trackFeaturedQuestionImpression>
 				<div class="proof-meta">
 					<span>Open question · {String(data.featuredQuestion.id).padStart(4, '0')}</span>
 					<span class="status">
@@ -350,7 +403,7 @@
 							<textarea
 								id="preview-take"
 								bind:value={previewTake}
-								oninput={() => (submitError = null)}
+								oninput={handleHomepageCommentInput}
 								rows="4"
 								maxlength={CHORUS_TAKE_MAX_CHARACTERS}
 								placeholder="Answer honestly. A short sentence is enough."

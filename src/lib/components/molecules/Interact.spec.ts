@@ -11,6 +11,9 @@ const {
 	notificationsDangerMock,
 	getOrCreateVisitorIdMock,
 	captureCommentCreatedMock,
+	captureCommentStartedMock,
+	captureCommentFailedMock,
+	normalizeServerCommentAnalyticsMock,
 	captureMock,
 	shareQuestionInviteMock,
 	shouldUseNativeQuestionShareMock,
@@ -23,6 +26,9 @@ const {
 	notificationsDangerMock: vi.fn(),
 	getOrCreateVisitorIdMock: vi.fn(),
 	captureCommentCreatedMock: vi.fn(),
+	captureCommentStartedMock: vi.fn(),
+	captureCommentFailedMock: vi.fn(),
+	normalizeServerCommentAnalyticsMock: vi.fn(),
 	captureMock: vi.fn(),
 	shareQuestionInviteMock: vi.fn(),
 	shouldUseNativeQuestionShareMock: vi.fn(),
@@ -47,7 +53,10 @@ vi.mock('$lib/analytics/visitorIdentity', () => ({
 }));
 
 vi.mock('$lib/analytics/commentEvents', () => ({
-	captureCommentCreated: captureCommentCreatedMock
+	captureCommentCreated: captureCommentCreatedMock,
+	captureCommentStarted: captureCommentStartedMock,
+	captureCommentFailed: captureCommentFailedMock,
+	normalizeServerCommentAnalytics: normalizeServerCommentAnalyticsMock
 }));
 
 vi.mock('$lib/analytics/posthog', () => ({
@@ -81,8 +90,17 @@ describe('Interact', () => {
 			type: 'success',
 			data: {
 				id: 123,
-				comment: 'Posted comment'
+				comment: 'Posted comment',
+				_analytics: { is_first_comment_ever: true }
 			}
+		});
+		normalizeServerCommentAnalyticsMock.mockReset();
+		normalizeServerCommentAnalyticsMock.mockReturnValue({
+			isFirstCommentEver: true,
+			isFirstCommentOnQuestion: true,
+			isReply: false,
+			questionAgeHours: 1,
+			responsesBeforeComment: 0
 		});
 
 		notificationsSuccessMock.mockReset();
@@ -93,6 +111,10 @@ describe('Interact', () => {
 		getOrCreateVisitorIdMock.mockReturnValue('visitor-123');
 		captureCommentCreatedMock.mockReset();
 		captureCommentCreatedMock.mockResolvedValue(undefined);
+		captureCommentStartedMock.mockReset();
+		captureCommentStartedMock.mockResolvedValue(undefined);
+		captureCommentFailedMock.mockReset();
+		captureCommentFailedMock.mockResolvedValue(undefined);
 		captureMock.mockReset();
 		captureMock.mockResolvedValue(undefined);
 		shouldUseNativeQuestionShareMock.mockReset();
@@ -192,10 +214,12 @@ describe('Interact', () => {
 			})
 		);
 		expect(deserializeMock).toHaveBeenCalledWith('{"type":"success","data":"[]"}');
-		expect(oncommentAdded).toHaveBeenCalledWith({
-			id: 123,
-			comment: 'Posted comment'
-		});
+		expect(oncommentAdded).toHaveBeenCalledWith(
+			expect.objectContaining({
+				id: 123,
+				comment: 'Posted comment'
+			})
+		);
 		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
 		expect(captureCommentCreatedMock).toHaveBeenCalledWith({
 			commentId: 123,
@@ -206,8 +230,17 @@ describe('Interact', () => {
 			surface: 'question_page',
 			sourcePath: '/questions/what-are-you-thinking-about-these-days',
 			inviteId,
-			isAnonymous: true
+			isAnonymous: true,
+			isFirstCommentEver: true,
+			isFirstCommentOnQuestion: true,
+			isReply: false,
+			questionAgeHours: 1,
+			responsesBeforeComment: 0
 		});
+		expect(normalizeServerCommentAnalyticsMock).toHaveBeenCalledWith(
+			expect.objectContaining({ id: 123 })
+		);
+		expect(captureCommentStartedMock).toHaveBeenCalledTimes(1);
 		expect(queryByRole('textbox')).toBeNull();
 	});
 

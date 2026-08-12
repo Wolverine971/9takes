@@ -65,7 +65,18 @@ function buildEvent(options: {
 	take?: string;
 }) {
 	rpcMock.mockResolvedValueOnce({
-		data: options.rpcError ? null : { id: 123 },
+		data: options.rpcError
+			? null
+			: {
+					id: 123,
+					_analytics: {
+						is_first_comment_ever: true,
+						is_first_comment_on_question: true,
+						is_reply: false,
+						question_age_hours: 3.5,
+						responses_before_comment: 0
+					}
+				},
 		error: options.rpcError ?? null
 	});
 
@@ -131,7 +142,14 @@ describe('POST /api/nine/mirror', () => {
 			alreadyAnswered: false,
 			questionId: 567,
 			commentId: 123,
-			isAnonymous: true
+			isAnonymous: true,
+			commentAnalytics: {
+				is_first_comment_ever: true,
+				is_first_comment_on_question: true,
+				is_reply: false,
+				question_age_hours: 3.5,
+				responses_before_comment: 0
+			}
 		});
 		expect(rpcMock).toHaveBeenCalledWith(
 			'create_comment_atomic',

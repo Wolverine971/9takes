@@ -15,7 +15,13 @@
 		Subscription,
 		QuestionPageData
 	} from '$lib/types/questions';
-	import { captureCommentCreated, type CommentCreatedKind } from '$lib/analytics/commentEvents';
+	import {
+		captureCommentCreated,
+		captureCommentFailed,
+		captureCommentStarted,
+		normalizeServerCommentAnalytics,
+		type CommentCreatedKind
+	} from '$lib/analytics/commentEvents';
 	import { capture } from '$lib/analytics/posthog';
 	import {
 		getRecipientQuestionInviteId,
@@ -59,6 +65,7 @@
 	let shortAnswerNudge = $state(false);
 	let confirmShortSubmit = $state(false);
 	let commentError = $state('');
+	let commentStartedTracked = false;
 	let reduceMotion = $state(false);
 	let voiceBusy = $state(false);
 	let textareaElement = $state<HTMLTextAreaElement | null>(null);
@@ -118,6 +125,7 @@
 		seededForQuestionId = questionId;
 		comment = '';
 		commentError = '';
+		commentStartedTracked = false;
 		shortAnswerNudge = false;
 		confirmShortSubmit = false;
 		commenting = parentType === 'question' && !userHasAnswered;
@@ -238,6 +246,11 @@
 			handleCommentResult(result);
 		} catch (error) {
 			console.error('Error creating comment:', error);
+			void captureCommentFailed({
+				...getCommentEventContext(),
+				failureStage: 'request',
+				errorCategory: 'network_error'
+			});
 			commentError = 'Failed to create comment. Please try again.';
 			notifications.danger('Failed to create comment', 3000);
 		} finally {
@@ -308,6 +321,11 @@
 	// Handle comment submission result
 	const handleCommentResult = (result: any) => {
 		if (result.error || result.type === 'error' || result.type === 'failure') {
+			void captureCommentFailed({
+				...getCommentEventContext(),
+				failureStage: 'server_action',
+				errorCategory: 'action_failure'
+			});
 			commentError = getActionErrorMessage(result);
 			notifications.danger(commentError, 5000);
 			console.error(result.error || result.data);
@@ -323,6 +341,7 @@
 			if (Array.isArray(commentData)) {
 				commentData = commentData[0] ?? null;
 			}
+			const serverAnalytics = normalizeServerCommentAnalytics(commentData);
 			const inviteId =
 				submittedKind === 'answer' && parentType === 'question'
 					? getRecipientQuestionInviteId()
@@ -336,10 +355,12 @@
 				surface: 'question_page',
 				sourcePath: window.location.pathname,
 				inviteId,
-				isAnonymous: !user?.id
+				isAnonymous: !user?.id,
+				...serverAnalytics
 			});
 			oncommentAdded?.(commentData);
 			comment = '';
+			commentStartedTracked = false;
 			shortAnswerNudge = false;
 			confirmShortSubmit = false;
 			queueMicrotask(() => {
@@ -353,6 +374,23 @@
 			}
 		}
 	};
+
+	function getCommentEventContext() {
+		return {
+			questionId,
+			questionUrl: isQuestionPageData(data) ? data.question.url : undefined,
+			commentKind: composerKind,
+			surface: 'question_page' as const,
+			sourcePath: typeof window === 'undefined' ? undefined : window.location.pathname,
+			isAnonymous: !user?.id
+		};
+	}
+
+	function trackCommentStarted(value: string) {
+		if (commentStartedTracked || !value.trim()) return;
+		commentStartedTracked = true;
+		void captureCommentStarted(getCommentEventContext());
+	}
 
 	// Toggle subscription status
 	const toggleSubscription = async () => {
@@ -417,6 +455,7 @@
 	// Handle textarea auto-growth
 	const handleTextareaInput = (e: Event) => {
 		const target = e.target as HTMLTextAreaElement;
+		trackCommentStarted(target.value);
 		commentError = '';
 		rememberCommentSelection();
 
@@ -461,6 +500,7 @@
 		const insertedText = `${needsSpaceBefore ? ' ' : ''}${trimmedTranscript}${needsSpaceAfter ? ' ' : ''}`;
 
 		comment = `${comment.slice(0, start)}${insertedText}${comment.slice(end)}`;
+		trackCommentStarted(comment);
 		commentError = '';
 		if (comment.trim().length >= SHORT_ANSWER_THRESHOLD) {
 			shortAnswerNudge = false;

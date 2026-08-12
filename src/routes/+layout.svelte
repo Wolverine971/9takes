@@ -26,7 +26,11 @@
 	} from '$lib/analytics/pageAnalytics';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
-	import { loadPostHog, setUserIdentity } from '$lib/analytics/posthog';
+	import {
+		beginUserIdentityResolution,
+		loadPostHog,
+		setUserIdentity
+	} from '$lib/analytics/posthog';
 	import { webVitals } from '$lib/vitals';
 	import { preparePageTransition } from '$lib/page-transition';
 	import { resolvePageShell } from '$lib/layout/pageShell';
@@ -51,6 +55,7 @@
 	provideNotificationCount();
 	let authShellRequest: Promise<void> | null = null;
 	let authShellHydrated = false;
+	if (browser && data?.authShell === 'client') beginUserIdentityResolution();
 
 	// Constants
 	const VERCEL_ANALYTICS_ID = import.meta.env.VERCEL_ANALYTICS_ID;
@@ -116,13 +121,23 @@
 					credentials: 'same-origin'
 				});
 
-				if (!response.ok) return;
+				if (!response.ok) {
+					authShellUser.set(null);
+					authShellHydrated = true;
+					setUserIdentity(null);
+					return;
+				}
 
 				const payload = (await response.json()) as { user?: AuthShellUser | null };
-				authShellUser.set(normalizeAuthShellUser(payload.user));
+				const user = normalizeAuthShellUser(payload.user);
+				authShellUser.set(user);
 				authShellHydrated = true;
+				setUserIdentity(user);
 			} catch {
 				// Keep the public shell usable if the optional auth refresh fails.
+				authShellUser.set(null);
+				authShellHydrated = true;
+				setUserIdentity(null);
 			} finally {
 				authShellRequest = null;
 			}
@@ -562,22 +577,26 @@
 		authShellHydrated = false;
 	}
 
+	$: if (browser && data?.authShell === 'client' && !authShellHydrated) {
+		beginUserIdentityResolution();
+	}
+
 	// Sync PostHog identity with auth state. Calls made before PostHog
 	// finishes loading are queued by the wrapper and applied on init.
 	$: if (browser) {
-		const u = data?.user as
-			| { id?: string | null; email?: string | null; enneagram?: number | null; admin?: boolean }
-			| null
-			| undefined;
-		if (u?.id) {
-			setUserIdentity({
-				id: u.id,
-				email: u.email ?? null,
-				enneagram: u.enneagram ?? null,
-				admin: u.admin ?? false
-			});
-		} else {
-			setUserIdentity(null);
+		const authIsReady = data?.authShell !== 'client' || authShellHydrated;
+		if (authIsReady) {
+			const u = (data?.authShell === 'client' ? $authShellUser : data?.user) as
+				{ id?: string | null; enneagram?: number | null; admin?: boolean } | null | undefined;
+			if (u?.id) {
+				setUserIdentity({
+					id: u.id,
+					enneagram: u.enneagram ?? null,
+					admin: u.admin ?? false
+				});
+			} else {
+				setUserIdentity(null);
+			}
 		}
 	}
 </script>

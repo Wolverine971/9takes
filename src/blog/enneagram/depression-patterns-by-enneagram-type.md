@@ -332,7 +332,7 @@ This might be the most dangerous misidentification of all because it looks like 
 
 Type 7 depression is masked by manic activity and forced optimism. Early experiences of pain, limitation, or deprivation were too overwhelming for a child to process, so you learned to run. Now, when it breaks through, you experience deep emptiness and terror of being trapped in pain.
 
-<StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="depression-patterns-by-enneagram-type" />
+<StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionId={567} questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="depression-patterns-by-enneagram-type" />
 
 **How it shows up:**
 

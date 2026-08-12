@@ -33,8 +33,13 @@
 		canAskQuestion: boolean;
 	}
 
+	interface Props {
+		data: SearchQuestionData;
+		showAskAction?: boolean;
+	}
+
 	const dispatch = createEventDispatcher();
-	let { data }: { data: SearchQuestionData } = $props();
+	let { data, showAskAction = true }: Props = $props();
 
 	let question = $state('');
 	let options = $state<ComboBoxOption[]>([]);
@@ -67,6 +72,7 @@
 
 	function handleSubmit(event: SubmitEvent) {
 		event.preventDefault();
+		if (!showAskAction) return;
 		void goToCreateQuestionPage();
 	}
 
@@ -237,7 +243,7 @@
 					name="question"
 					{placeholder}
 					onInputChange={({ text }) => debounce(text)}
-					onSelectQuestion={() => dispatch('createQuestion', question)}
+					onSelectQuestion={showAskAction ? () => dispatch('createQuestion', question) : undefined}
 					{options}
 					onSelection={handleQuestionSelected}
 					loading={isSearching}
@@ -273,14 +279,16 @@
 		{/if}
 	</div>
 
-	<div class="search-action">
-		<Button type="submit" size="lg" disabled={buttonDisabled} aria-label={buttonText}>
-			<span class="button-text">{buttonText}</span>
-			{#if !data?.user?.id}
-				<span class="button-arrow" aria-hidden="true">→</span>
-			{/if}
-		</Button>
-	</div>
+	{#if showAskAction}
+		<div class="search-action">
+			<Button type="submit" size="lg" disabled={buttonDisabled} aria-label={buttonText}>
+				<span class="button-text">{buttonText}</span>
+				{#if !data?.user?.id}
+					<span class="button-arrow" aria-hidden="true">→</span>
+				{/if}
+			</Button>
+		</div>
+	{/if}
 </form>
 
 <style lang="scss">

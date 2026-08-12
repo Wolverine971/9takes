@@ -13,6 +13,7 @@
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
+	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
 	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
 	import { goto } from '$app/navigation';
 	import type { PageData } from './$types';
@@ -124,6 +125,32 @@
 
 	let loadMoreTrigger: HTMLElement | undefined = $state(undefined);
 	let observer: IntersectionObserver | null = null;
+
+	type QuestionRowImpressionInput = { question: QuestionRow; position: number };
+
+	function trackQuestionRow(node: HTMLElement, input: QuestionRowImpressionInput) {
+		const observe = ({ question, position }: QuestionRowImpressionInput) =>
+			observeQualifiedQuestionImpression(node, {
+				questionId: question.id,
+				questionUrl: question.url,
+				surface: 'questions_index',
+				sourcePath: '/questions',
+				position,
+				questionCreatedAt: question.created_at,
+				responsesVisibleBeforeImpression: question.comment_count
+			});
+
+		let cleanup = observe(input);
+		return {
+			update(nextInput: QuestionRowImpressionInput) {
+				cleanup();
+				cleanup = observe(nextInput);
+			},
+			destroy() {
+				cleanup();
+			}
+		};
+	}
 
 	async function loadMore() {
 		if (loadingMore || !hasMore) return;
@@ -339,6 +366,7 @@
 			<div class="search-wrap">
 				<SearchQuestion
 					{data}
+					showAskAction={Boolean(data?.user?.id)}
 					on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
 					on:questionSelected={({ detail }) => {
 						if (detail?.url) {
@@ -406,8 +434,8 @@
 			</div>
 		{:else}
 			<ul class="question-list">
-				{#each questionsList as q (q.id)}
-					<li class="question-row">
+				{#each questionsList as q, position (q.id)}
+					<li class="question-row" use:trackQuestionRow={{ question: q, position }}>
 						<a href={`/questions/${q.url}`} class="question-row-link">
 							<span class="question-row-text">
 								{q.question_formatted ?? q.question}

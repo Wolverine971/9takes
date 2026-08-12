@@ -1,9 +1,9 @@
 <!-- src/lib/components/atoms/ThemeToggle.svelte -->
 <script lang="ts">
-	import { onDestroy, onMount } from 'svelte';
+	import { onDestroy } from 'svelte';
 	import { themePreference, applyTheme, cycleTheme, type ThemePreference } from '$lib/stores/theme';
 
-	let current: ThemePreference = $state('system');
+	let current: ThemePreference = $state('dark');
 
 	const unsubscribe = themePreference.subscribe((v) => {
 		current = v;
@@ -16,25 +16,13 @@
 		themePreference.set(next);
 		applyTheme(next);
 	}
-
-	onMount(() => {
-		applyTheme(current);
-
-		// Listen for OS theme changes when preference is "system"
-		const mq = window.matchMedia('(prefers-color-scheme: light)');
-		const handler = () => {
-			if (current === 'system') applyTheme('system');
-		};
-		mq.addEventListener('change', handler);
-		return () => mq.removeEventListener('change', handler);
-	});
 </script>
 
 <button
 	class="theme-toggle"
 	onclick={toggle}
-	aria-label="Toggle theme ({current})"
-	title="Theme: {current}"
+	aria-label={current === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+	title={current === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
 >
 	{#if current === 'light'}
 		<svg
@@ -64,19 +52,6 @@
 				y2="18.36"
 			/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
 		</svg>
-	{:else if current === 'dark'}
-		<svg
-			width="18"
-			height="18"
-			viewBox="0 0 24 24"
-			fill="none"
-			stroke="currentColor"
-			stroke-width="2"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-		>
-			<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
-		</svg>
 	{:else}
 		<svg
 			width="18"
@@ -88,7 +63,7 @@
 			stroke-linecap="round"
 			stroke-linejoin="round"
 		>
-			<circle cx="12" cy="12" r="10" /><path d="M12 2a7 7 0 0 0 0 20z" />
+			<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
 		</svg>
 	{/if}
 </button>

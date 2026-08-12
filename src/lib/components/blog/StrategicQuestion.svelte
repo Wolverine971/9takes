@@ -17,7 +17,15 @@
 	import { tick } from 'svelte';
 	import { browser } from '$app/environment';
 	import { capture } from '$lib/analytics/posthog';
-	import { captureCommentCreated } from '$lib/analytics/commentEvents';
+	import {
+		captureCommentCreated,
+		captureCommentFailed,
+		captureCommentStarted,
+		normalizeServerCommentAnalytics,
+		type CommentFailureCategory,
+		type CommentFailureStage
+	} from '$lib/analytics/commentEvents';
+	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
 	import { Button } from '$lib/components/atoms';
 	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
@@ -27,12 +35,15 @@
 
 	let {
 		question,
+		questionId,
 		questionUrl,
 		blogSlug,
 		campaign = 'wave1-masking'
 	}: {
 		/** Display text. Passed explicitly: the stored row may have lost punctuation. */
 		question: string;
+		/** ID of the backing questions row. */
+		questionId: number;
 		/** Slug of the backing `questions` row (questions.url). */
 		questionUrl: string;
 		/** Host blog slug, for UTM content and analytics. */
@@ -45,11 +56,10 @@
 	let draft = $state('');
 	let submitting = $state(false);
 	let submitError = $state<string | null>(null);
+	let commentStartedTracked = false;
 	let mirror = $state<Mirror | null>(null);
 	let takes = $state<Take[]>([]);
-	let root = $state<HTMLElement | undefined>();
 	let revealEl = $state<HTMLElement | undefined>();
-	let seen = $state(false);
 	let voiceBusy = $state(false);
 	let composerFocused = $state(false);
 	let textareaElement = $state<HTMLTextAreaElement | null>(null);
@@ -75,26 +85,29 @@
 		return `/questions/${questionUrl}?${params.toString()}`;
 	});
 
-	// Depth-band impression: fires once when the widget scrolls into view.
-	$effect(() => {
-		if (!browser || seen || !root) return;
-		const observer = new IntersectionObserver(
-			(entries) => {
-				if (entries.some((entry) => entry.isIntersecting)) {
-					seen = true;
-					observer.disconnect();
+	// Qualified impression: half visible for 750ms, once per tab and surface.
+	function trackStrategicQuestionImpression(node: HTMLElement) {
+		const destroy = observeQualifiedQuestionImpression(
+			node,
+			{
+				questionId,
+				questionUrl,
+				surface: 'strategic_blog',
+				sourcePath: `/enneagram-corner/${blogSlug}`,
+				campaign
+			},
+			{
+				onCaptured: () => {
 					void capture('strategic_question_seen', {
 						blog_slug: blogSlug,
 						question_url: questionUrl,
 						campaign
 					});
 				}
-			},
-			{ threshold: 0.4 }
+			}
 		);
-		observer.observe(root);
-		return () => observer.disconnect();
-	});
+		return { destroy };
+	}
 
 	async function submit() {
 		if (submitting || voiceBusy) return;
@@ -104,6 +117,8 @@
 		}
 		submitting = true;
 		submitError = null;
+		let failureStage: CommentFailureStage = 'request';
+		let errorCategory: CommentFailureCategory = 'network_error';
 		try {
 			const res = await fetch('/api/nine/mirror', {
 				method: 'POST',
@@ -115,8 +130,18 @@
 					sourcePath: browser ? window.location.pathname : undefined
 				})
 			});
-			const data = await res.json();
-			if (!res.ok) throw new Error(data?.error ?? data?.message ?? 'failed');
+			const data = await res.json().catch(() => null);
+			if (!res.ok) {
+				errorCategory = 'http_error';
+				throw new Error(data?.error ?? data?.message ?? 'failed');
+			}
+			failureStage = 'response';
+			errorCategory = 'invalid_response';
+			if (!data?.answerRecorded) {
+				failureStage = 'server_action';
+				errorCategory = 'action_failure';
+				throw new Error(data?.error ?? data?.message ?? 'failed');
+			}
 			mirror =
 				typeof data?.reflection === 'string' &&
 				Number.isInteger(data?.resonantType) &&
@@ -130,18 +155,21 @@
 			takes = data.takes ?? [];
 			phase = 'revealed';
 			if (!data?.alreadyAnswered) {
+				const serverAnalytics = normalizeServerCommentAnalytics(data?.commentAnalytics);
 				void captureCommentCreated({
 					commentId: data?.commentId,
-					questionId: Number(data?.questionId),
+					questionId,
 					questionUrl,
 					parentType: 'question',
 					commentKind: 'answer',
 					surface: 'strategic_question',
 					sourcePath: browser ? window.location.pathname : undefined,
 					campaign,
-					isAnonymous: Boolean(data?.isAnonymous)
+					isAnonymous: Boolean(data?.isAnonymous),
+					...serverAnalytics
 				});
 			}
+			commentStartedTracked = false;
 			void capture('strategic_question_answered', {
 				blog_slug: blogSlug,
 				question_url: questionUrl,
@@ -150,6 +178,11 @@
 			await tick();
 			revealEl?.focus();
 		} catch (e) {
+			void captureCommentFailed({
+				...getStrategicCommentEventContext(),
+				failureStage,
+				errorCategory
+			});
 			submitError =
 				e instanceof Error && e.message !== 'failed'
 					? e.message
@@ -157,6 +190,27 @@
 		} finally {
 			submitting = false;
 		}
+	}
+
+	function getStrategicCommentEventContext() {
+		return {
+			questionId,
+			questionUrl,
+			commentKind: 'answer' as const,
+			surface: 'strategic_question' as const,
+			sourcePath: browser ? window.location.pathname : undefined,
+			campaign,
+			isAnonymous: true
+		};
+	}
+
+	function handleCommentInput(event: Event) {
+		submitError = null;
+		rememberDraftSelection();
+		const value = (event.currentTarget as HTMLTextAreaElement).value;
+		if (commentStartedTracked || !value.trim()) return;
+		commentStartedTracked = true;
+		void captureCommentStarted(getStrategicCommentEventContext());
 	}
 
 	async function submitEmail() {
@@ -223,6 +277,10 @@
 
 		draft = `${draft.slice(0, start)}${insertedText}${draft.slice(end)}`;
 		submitError = null;
+		if (!commentStartedTracked) {
+			commentStartedTracked = true;
+			void captureCommentStarted(getStrategicCommentEventContext());
+		}
 
 		const cursorPosition = start + insertedText.length;
 		voiceInsertionRange = { start: cursorPosition, end: cursorPosition };
@@ -242,7 +300,7 @@
 	}
 </script>
 
-<section class="sq" bind:this={root} aria-label="A question for you">
+<section class="sq" use:trackStrategicQuestionImpression aria-label="A question for you">
 	{#if phase === 'ask'}
 		<p class="sq-question">{question}</p>
 		<p class="sq-deal">Give your take. Then see how nine different minds answered it.</p>
@@ -264,10 +322,7 @@
 				id="sq-take"
 				bind:this={textareaElement}
 				bind:value={draft}
-				oninput={() => {
-					submitError = null;
-					rememberDraftSelection();
-				}}
+				oninput={handleCommentInput}
 				onselect={rememberDraftSelection}
 				onclick={rememberDraftSelection}
 				onkeyup={rememberDraftSelection}

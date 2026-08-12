@@ -143,7 +143,7 @@
 		Back to your takes and the questions you follow.
 	</p>
 	<p class="auth-switch" in:fly={{ y: -12, duration: 300, delay: 200 }}>
-		Need an account? <a href="/register">Sign up</a>
+		Don't have an account? <a href="/register">Sign up</a>
 	</p>
 	{#if data.confirmationError}
 		<div class="confirm-error" role="alert">

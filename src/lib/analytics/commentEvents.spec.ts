@@ -7,7 +7,12 @@ vi.mock('$lib/analytics/posthog', () => ({
 	capture: captureMock
 }));
 
-import { captureCommentCreated } from './commentEvents';
+import {
+	captureCommentCreated,
+	captureCommentFailed,
+	captureCommentStarted,
+	normalizeServerCommentAnalytics
+} from './commentEvents';
 
 describe('captureCommentCreated', () => {
 	beforeEach(() => {
@@ -97,5 +102,113 @@ describe('captureCommentCreated', () => {
 			expect(properties).not.toHaveProperty('email');
 			expect(properties).not.toHaveProperty('user_id');
 		}
+	});
+
+	it('captures composer start context without submitted content', async () => {
+		await captureCommentStarted({
+			questionId: 9,
+			questionUrl: 'what-keeps-you-grounded',
+			commentKind: 'answer',
+			surface: 'homepage',
+			sourcePath: '/',
+			isAnonymous: true
+		});
+
+		expect(captureMock).toHaveBeenCalledWith('comment_started', {
+			question_id: 9,
+			question_url: 'what-keeps-you-grounded',
+			comment_kind: 'answer',
+			surface: 'homepage',
+			source_path: '/',
+			is_anonymous: true
+		});
+		expect(captureMock.mock.calls[0]?.[1]).not.toHaveProperty('comment');
+	});
+
+	it('limits failures to the declared stage and category fields', async () => {
+		await captureCommentFailed({
+			questionId: 9,
+			questionUrl: 'what-keeps-you-grounded',
+			commentKind: 'reply',
+			surface: 'question_page',
+			isAnonymous: false,
+			failureStage: 'server_action',
+			errorCategory: 'action_failure'
+		});
+
+		expect(captureMock).toHaveBeenCalledWith('comment_failed', {
+			question_id: 9,
+			question_url: 'what-keeps-you-grounded',
+			comment_kind: 'reply',
+			surface: 'question_page',
+			is_anonymous: false,
+			failure_stage: 'server_action',
+			error_category: 'action_failure'
+		});
+		expect(captureMock.mock.calls[0]?.[1]).not.toHaveProperty('error');
+		expect(captureMock.mock.calls[0]?.[1]).not.toHaveProperty('message');
+	});
+
+	it('adds precise success properties while keeping the compatibility flag', async () => {
+		await captureCommentCreated({
+			commentId: 500,
+			questionId: 9,
+			parentType: 'question',
+			commentKind: 'answer',
+			surface: 'question_page',
+			isAnonymous: true,
+			isFirstCommentEver: true,
+			isFirstCommentOnQuestion: true,
+			isReply: false,
+			questionAgeHours: 2.25,
+			responsesBeforeComment: 0
+		});
+
+		expect(captureMock).toHaveBeenCalledWith(
+			'comment_created',
+			expect.objectContaining({
+				is_first_contribution: true,
+				is_first_comment_ever: true,
+				is_first_comment_on_question: true,
+				is_reply: false,
+				question_age_hours: 2.25,
+				responses_before_comment: 0
+			})
+		);
+	});
+
+	it('normalizes privacy-safe metadata from the atomic server response', () => {
+		expect(
+			normalizeServerCommentAnalytics({
+				id: 500,
+				comment: 'never copied into analytics',
+				_analytics: {
+					is_first_comment_ever: true,
+					is_first_comment_on_question: false,
+					is_reply: true,
+					question_age_hours: 12.5,
+					responses_before_comment: 4
+				}
+			})
+		).toEqual({
+			isFirstCommentEver: true,
+			isFirstCommentOnQuestion: false,
+			isReply: true,
+			questionAgeHours: 12.5,
+			responsesBeforeComment: 4
+		});
+	});
+
+	it('drops malformed server metadata instead of leaking arbitrary values', () => {
+		expect(
+			normalizeServerCommentAnalytics({
+				_analytics: {
+					is_first_comment_ever: 'yes',
+					question_age_hours: -1,
+					responses_before_comment: 'private',
+					email: 'do-not-capture@example.com'
+				}
+			})
+		).toEqual({});
 	});
 });

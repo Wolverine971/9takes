@@ -1,0 +1,17 @@
+[2026-08-12 06:00:00] People blog publisher starting
+Error processing blog entries: Error: No publishable draft found. Checked 499 candidate(s).
+Unpublished candidates: 98
+Blocker counts: missing_perspective_review=96, source_standard_failed=48, missing_grade_stability_delta=40, missing_full_image=38, missing_thumbnail_image=38, content_quality_below_8.5=36, stale_grade_rubric_v1=30, missing_content_quality=14
+Closest candidates:
+- david-beckham: missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume
+- caitlin-clark: content_quality_below_8.5:8.4
+- margaret-qualley: grade_unstable:1.0_delta; missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume
+- keira-knightley: grade_unstable:1.2_delta; missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume
+- victoria-justice: missing_grade_stability_delta:run supervised grade/regrade; missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume
+- jynxzi: content_quality_below_8.5:8.4; missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume
+- madelaine-petsch: content_quality_below_8.5:8.4; missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume
+- plaqueboymax: content_quality_below_8.5:8.4; missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume
+    at publishPersonBlog (file:///Users/djwayne/9takes/scripts/personBlogParser.js:1567:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async main (file:///Users/djwayne/9takes/scripts/personBlogParser.js:2219:4)
+[2026-08-12 06:00:19] People blog publisher failed (exit=1)

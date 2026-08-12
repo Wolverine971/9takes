@@ -5,16 +5,19 @@ import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/sv
 import { readable } from 'svelte/store';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { gotoMock, notificationMocks, html2canvasMock } = vi.hoisted(() => ({
-	gotoMock: vi.fn(),
-	notificationMocks: {
-		danger: vi.fn(),
-		info: vi.fn(),
-		success: vi.fn(),
-		warning: vi.fn()
-	},
-	html2canvasMock: vi.fn()
-}));
+const { gotoMock, notificationMocks, html2canvasMock, captureQuestionCreatedMock } = vi.hoisted(
+	() => ({
+		gotoMock: vi.fn(),
+		notificationMocks: {
+			danger: vi.fn(),
+			info: vi.fn(),
+			success: vi.fn(),
+			warning: vi.fn()
+		},
+		html2canvasMock: vi.fn(),
+		captureQuestionCreatedMock: vi.fn()
+	})
+);
 
 vi.mock('$app/navigation', () => ({
 	goto: gotoMock
@@ -34,6 +37,10 @@ vi.mock('$lib/components/molecules/notifications', () => ({
 
 vi.mock('html2canvas', () => ({
 	default: html2canvasMock
+}));
+
+vi.mock('$lib/analytics/questionEvents', () => ({
+	captureQuestionCreated: captureQuestionCreatedMock
 }));
 
 import CreateQuestionPage from './+page.svelte';
@@ -175,6 +182,13 @@ describe('Create Question page', () => {
 		expect(createBody.has('author_id')).toBe(false);
 		expect(uploadBody.get('url')).toBe('whats-best-way-handle-this-1');
 		expect(uploadBody.getAll('img_url')).toHaveLength(1);
+		expect(captureQuestionCreatedMock).toHaveBeenCalledTimes(1);
+		expect(captureQuestionCreatedMock).toHaveBeenCalledWith({
+			questionId: 101,
+			questionUrl: 'whats-best-way-handle-this-1',
+			sourcePath: '/questions/create',
+			hasContext: false
+		});
 
 		resolveNavigation();
 		await waitFor(() => {

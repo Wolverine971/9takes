@@ -153,8 +153,10 @@
 				hideList();
 			} else if (key === 'Enter') {
 				event.preventDefault();
-				internalLoading = true;
-				onSelectQuestion?.({ text: input.value });
+				if (onSelectQuestion) {
+					internalLoading = true;
+					onSelectQuestion({ text: input.value });
+				}
 			} else if (key === 'Tab') {
 				hideList();
 			}

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-11T06:00:00Z",
+	"lastUpdated": "2026-08-12T06:47:31Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "mel-robbins",
-			"displayName": "Mel Robbins",
-			"type": null,
-			"priority": 60,
-			"priorityReason": "Let Them is the biggest self-help phenomenon of 2025-26 and her podcast is top-charts; perfect audience overlap with 9takes coaching pillar",
-			"estimatedTraffic": "high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "self-improvement-cluster"
-		},
 		{
 			"name": "carl-jung",
 			"displayName": "Carl Jung",
@@ -281,6 +268,50 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "mel-robbins",
+			"displayName": "Mel Robbins",
+			"type": null,
+			"priority": 60,
+			"priorityReason": "Let Them is the biggest self-help phenomenon of 2025-26 and her podcast is top-charts; perfect audience overlap with 9takes coaching pillar",
+			"estimatedTraffic": "high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "self-improvement-cluster",
+			"startedAt": "2026-08-12T06:00:00Z",
+			"completedAt": "2026-08-12T06:47:31Z",
+			"contentGrade": "ungraded",
+			"letter": "?",
+			"discoverability": "?",
+			"duration": "~47 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": [
+				"missing_content_quality",
+				"missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume",
+				"missing_full_image",
+				"missing_thumbnail_image"
+			]
+		},
+		{
+			"name": "chase-infiniti",
+			"displayName": "Chase Infiniti",
+			"type": null,
+			"priority": 62,
+			"priorityReason": "Now a surprise 2026 Emmy nominee (The Testaments) on top of the Critics Choice Best Actress win for One Battle After Another — two live award catalysts; Emmy ceremony Sept 14 sustains the arc through fall",
+			"estimatedTraffic": "high",
+			"searchVolume": "medium",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 1,
+			"strategicValue": "gen-z-hollywood-pop-cluster",
+			"startedAt": "2026-08-11T06:00:00Z",
+			"completedAt": "2026-08-12T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "noah-wyle",
 			"displayName": "Noah Wyle",
@@ -1551,20 +1582,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "chase-infiniti",
-		"displayName": "Chase Infiniti",
-		"type": null,
-		"priority": 62,
-		"priorityReason": "Now a surprise 2026 Emmy nominee (The Testaments) on top of the Critics Choice Best Actress win for One Battle After Another — two live award catalysts; Emmy ceremony Sept 14 sustains the arc through fall",
-		"estimatedTraffic": "high",
-		"searchVolume": "medium",
-		"personaTitle": null,
-		"addedToQueue": "2026-07-18",
-		"retryCount": 1,
-		"strategicValue": "gen-z-hollywood-pop-cluster",
-		"startedAt": "2026-08-11T06:00:00Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "jynxzi",

@@ -29,6 +29,7 @@
 		questionInvitePromptWasSeen,
 		type QuestionInviteSource
 	} from '$lib/analytics/questionInvites';
+	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { buildBreadcrumbSchemaForGraph, type BreadcrumbItem } from '$lib/utils/schema';
 	import type { PageData } from './$types';
@@ -70,6 +71,42 @@
 	let selectedParentCategoryId = $state<number | null>(null);
 	let selectedTagIds = $state<number[]>([]);
 	let serverTagSignature = $state('');
+
+	type QuestionImpressionActionInput = {
+		questionId: number;
+		questionUrl: string;
+		questionCreatedAt: string;
+		responsesVisibleBeforeImpression: number;
+		isAnsweredByViewer: boolean;
+	};
+
+	function trackQuestionImpression(node: HTMLElement, input: QuestionImpressionActionInput) {
+		const observe = (nextInput: QuestionImpressionActionInput) =>
+			observeQualifiedQuestionImpression(node, {
+				...nextInput,
+				surface: 'question_page',
+				sourcePath: `/questions/${nextInput.questionUrl}`
+			});
+
+		let cleanup = observe(input);
+		return {
+			update(nextInput: QuestionImpressionActionInput) {
+				cleanup();
+				cleanup = observe(nextInput);
+			},
+			destroy() {
+				cleanup();
+			}
+		};
+	}
+
+	const questionImpressionInput = $derived<QuestionImpressionActionInput>({
+		questionId: data.question.id,
+		questionUrl: data.question.url,
+		questionCreatedAt: data.question.created_at,
+		responsesVisibleBeforeImpression: data.comment_count,
+		isAnsweredByViewer: Boolean(data.flags?.userHasAnswered)
+	});
 
 	let editableCategories = $derived<EditableCategory[]>(
 		Array.isArray(data.categoryEditor?.categories)
@@ -751,7 +788,11 @@
 				</div>
 			{/if}
 
-			<div id="open-case-question" class="open-case-display">
+			<div
+				id="open-case-question"
+				class="open-case-display"
+				use:trackQuestionImpression={questionImpressionInput}
+			>
 				<QuestionDisplay question={data.question} />
 			</div>
 

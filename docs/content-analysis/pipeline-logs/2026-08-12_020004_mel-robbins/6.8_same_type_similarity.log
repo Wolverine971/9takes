@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Mel-Robbins (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Mel-Robbins.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 32
+Comparison set (last 8 other Type-3 drafts by date):
+  - chase-infiniti  (2026-08-11, 48 units)
+  - Tate-McRae  (2026-08-04, 34 units)
+  - stable-ronaldo  (2026-08-02, 49 units)
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+
+Noise floor over 9376 unit pairs:  median=0  p90=0  p99=0.006  max=0.065
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.065 ###                  Brooke-Monk
+  0.038 ##                   Carina-Zavline
+  0.037 #                    Tate-McRae
+  0.029 #                    chase-infiniti
+  0.020 #                    stable-ronaldo
+  0.019 #                    plaqueboymax
+  0.018 #                    KSI
+  0.016 #                    Alex-Warren
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.065   Mel-Robbins  <->  Brooke-Monk
+   TARGET [diagnosis] unless the phrasing is the whole point.
+   OTHER  [diagnosis] I hate you.'" There is the whole wiring in one sentence.
+
+score 0.051   Mel-Robbins  <->  Brooke-Monk
+   TARGET [counter-typing] and she has turned on herself with a ferocity any One would recognize.
+   OTHER  [counter-typing] and she has never had to choose between them in public.
+
+score 0.039   Mel-Robbins  <->  Brooke-Monk
+   TARGET [diagnosis] Type 1 is the reading that deserves a real hearing
+   OTHER  [counter-typing] The Type 6 read deserves a hearing too.
+
+score 0.038   Mel-Robbins  <->  Carina-Zavline
+   TARGET [counter-typing] sustained evidence that she stayed with one mission through a period when it cost her audience.
+   OTHER  [diagnosis] she treated presence and attitude as evidence that she belonged on a modeling show.
+
+score 0.037   Mel-Robbins  <->  Tate-McRae
+   TARGET [counter-typing] The Type 6 case rests on the anxiety
+   OTHER  [diagnosis] and the proof never holds long enough to rest on.
+
+score 0.037   Mel-Robbins  <->  Brooke-Monk
+   TARGET [counter-typing] The Type 6 case rests on the anxiety
+   OTHER  [counter-typing] The Type 6 read deserves a hearing too.
+
+score 0.030   Mel-Robbins  <->  Carina-Zavline
+   TARGET [diagnosis] Robbins has replaced the standard roughly a dozen times
+   OTHER  [diagnosis] especially when the standard of success changes beneath her.
+
+score 0.030   Mel-Robbins  <->  Brooke-Monk
+   TARGET [diagnosis] That one sentence explains twelve reinventions
+   OTHER  [diagnosis] I hate you.'" There is the whole wiring in one sentence.
+
+score 0.029   Mel-Robbins  <->  chase-infiniti
+   TARGET [counter-typing] She feared exposure as a fraud rather than abandonment without protection.
+   OTHER  [counter-typing] the first film she carries rather than joins.
+
+score 0.028   Mel-Robbins  <->  chase-infiniti
+   TARGET [counter-typing] She opened her career at Legal Aid
+   OTHER  [diagnosis] She narrates her career almost entirely through mentors
+
+score 0.027   Mel-Robbins  <->  chase-infiniti
+   TARGET [diagnosis] Her reason for leaving was about the label rather than the labor.
+   OTHER  [counter-typing] the first film she carries rather than joins.
+
+score 0.027   Mel-Robbins  <->  Carina-Zavline
+   TARGET [diagnosis] Robbins has replaced the standard roughly a dozen times
+   OTHER  [counter-typing] Carina has never publicly described the shame
+
+------------------------------------------------------------------------------
+Top pair scores 0.065 vs median 0  (~∞x the noise floor).

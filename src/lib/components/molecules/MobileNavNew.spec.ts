@@ -76,23 +76,21 @@ describe('MobileNavNew', () => {
 
 		const dialog = await screen.findByRole('dialog', { name: 'Menu' });
 		const closeButton = within(dialog).getByRole('button', { name: 'Close navigation' });
-		const loginLink = within(dialog).getByRole('link', { name: 'Log in' });
-		const signupLink = within(dialog).getByRole('link', { name: 'Sign up' });
+		const authLink = within(dialog).getByRole('link', { name: 'Log in / Sign up' });
 		const pageContent = document.querySelector('#page-content');
 
 		await waitFor(() => expect(document.activeElement).toBe(closeButton));
 		expect(document.body.style.overflow).toBe('hidden');
 		expect(pageContent?.hasAttribute('inert')).toBe(true);
-		expect(loginLink.getAttribute('href')).toBe('/login');
-		expect(signupLink.getAttribute('href')).toBe('/register');
+		expect(authLink.getAttribute('href')).toBe('/login');
 
-		signupLink.focus();
+		authLink.focus();
 		await fireEvent.keyDown(window, { key: 'Tab' });
 		expect(document.activeElement).toBe(closeButton);
 
 		closeButton.focus();
 		await fireEvent.keyDown(window, { key: 'Tab', shiftKey: true });
-		expect(document.activeElement).toBe(signupLink);
+		expect(document.activeElement).toBe(authLink);
 
 		await fireEvent.keyDown(window, { key: 'Escape' });
 		await waitFor(() => expect(screen.queryByRole('dialog', { name: 'Menu' })).toBeNull());

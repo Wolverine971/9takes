@@ -45,20 +45,11 @@
 	// label and the root-level token block always describe the same theme.
 	// ---------------------------------------------------------------------------
 	let theme = $state<'dark' | 'light'>('dark');
-	let preference: ThemePreference = $state('system');
+	let preference: ThemePreference = $state('dark');
 	let bannerDismissed = $state(false);
 
 	function syncEffectiveTheme() {
-		if (typeof window === 'undefined') {
-			theme = preference === 'light' ? 'light' : 'dark';
-			return;
-		}
-		theme =
-			preference === 'system'
-				? window.matchMedia('(prefers-color-scheme: light)').matches
-					? 'light'
-					: 'dark'
-				: preference;
+		theme = preference;
 	}
 
 	const unsubscribeTheme = themePreference.subscribe((value) => {
@@ -70,14 +61,6 @@
 
 	onMount(() => {
 		applyTheme(preference);
-		const mediaQuery = window.matchMedia('(prefers-color-scheme: light)');
-		const handleSystemThemeChange = () => {
-			if (preference === 'system') syncEffectiveTheme();
-		};
-		mediaQuery.addEventListener('change', handleSystemThemeChange);
-		return () => {
-			mediaQuery.removeEventListener('change', handleSystemThemeChange);
-		};
 	});
 
 	function toggleTheme() {

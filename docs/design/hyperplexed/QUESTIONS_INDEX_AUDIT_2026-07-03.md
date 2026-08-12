@@ -68,3 +68,14 @@ Regions audited: root shell, hero, open-floor header, search, category navigatio
   - `/private/tmp/9takes-questions-hyperplexed-2026-07-03-fixed/questions-mobile-390.png`
   - `/private/tmp/9takes-questions-hyperplexed-2026-07-03-fixed/questions-mobile-open-floor-390.png`
   - `/private/tmp/9takes-questions-hyperplexed-2026-07-03-fixed/questions-mobile-filters-open-390.png`
+
+## CTA Hierarchy Follow-up - 2026-08-12
+
+- [hero + open-floor search] Guest signup appeared twice in the first viewport: once as the hero's primary action and again beside the open-question search. Keep the hero signup as the page-level primary action, make the guest open-floor toolbar search-only, and retain the contextual `Ask question` action there for signed-in users. `SearchQuestion` now exposes this as an explicit mode so category surfaces keep their existing search-and-ask behavior. -> P6+P8+P13
+- [keyboard behavior] A search-only ComboBox no longer enters an indefinite loading state when Enter has no custom-value ask handler. Arrow-key and click selection of existing results remain available. -> P13
+- [live verification] Guest checks passed at 2048x1013 and 390x844 in light and dark mode: the hero has one signup action, the open-floor search has zero signup/ask actions, search expands to 720px desktop and 350px mobile, Enter stays on `/questions` without a stuck loading indicator, and all four states have zero horizontal overflow or browser-console errors.
+- Screenshots captured:
+  - `/Users/djwayne/.codex/visualizations/2026/08/12/019ff74f-3a23-7f01-9c69-85240df3a6a4/questions-cta-cleanup-desktop-light.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/12/019ff74f-3a23-7f01-9c69-85240df3a6a4/questions-cta-cleanup-mobile-light.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/12/019ff74f-3a23-7f01-9c69-85240df3a6a4/questions-cta-cleanup-desktop-dark.png`
+  - `/Users/djwayne/.codex/visualizations/2026/08/12/019ff74f-3a23-7f01-9c69-85240df3a6a4/questions-cta-cleanup-mobile-dark.png`

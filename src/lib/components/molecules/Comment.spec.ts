@@ -5,20 +5,33 @@ import { fireEvent, render, waitFor } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { Comment as CommentType, QuestionPageData } from '$lib/types/questions';
 
-const { deserializeMock, captureCommentCreatedMock, getOrCreateVisitorIdMock, fetchMock } =
-	vi.hoisted(() => ({
-		deserializeMock: vi.fn(),
-		captureCommentCreatedMock: vi.fn(),
-		getOrCreateVisitorIdMock: vi.fn(),
-		fetchMock: vi.fn()
-	}));
+const {
+	deserializeMock,
+	captureCommentCreatedMock,
+	captureCommentStartedMock,
+	captureCommentFailedMock,
+	normalizeServerCommentAnalyticsMock,
+	getOrCreateVisitorIdMock,
+	fetchMock
+} = vi.hoisted(() => ({
+	deserializeMock: vi.fn(),
+	captureCommentCreatedMock: vi.fn(),
+	captureCommentStartedMock: vi.fn(),
+	captureCommentFailedMock: vi.fn(),
+	normalizeServerCommentAnalyticsMock: vi.fn(),
+	getOrCreateVisitorIdMock: vi.fn(),
+	fetchMock: vi.fn()
+}));
 
 vi.mock('$app/forms', () => ({
 	deserialize: deserializeMock
 }));
 
 vi.mock('$lib/analytics/commentEvents', () => ({
-	captureCommentCreated: captureCommentCreatedMock
+	captureCommentCreated: captureCommentCreatedMock,
+	captureCommentStarted: captureCommentStartedMock,
+	captureCommentFailed: captureCommentFailedMock,
+	normalizeServerCommentAnalytics: normalizeServerCommentAnalyticsMock
 }));
 
 vi.mock('$lib/analytics/visitorIdentity', () => ({
@@ -110,6 +123,18 @@ describe('Comment', () => {
 		deserializeMock.mockReset();
 		captureCommentCreatedMock.mockReset();
 		captureCommentCreatedMock.mockResolvedValue(undefined);
+		captureCommentStartedMock.mockReset();
+		captureCommentStartedMock.mockResolvedValue(undefined);
+		captureCommentFailedMock.mockReset();
+		captureCommentFailedMock.mockResolvedValue(undefined);
+		normalizeServerCommentAnalyticsMock.mockReset();
+		normalizeServerCommentAnalyticsMock.mockReturnValue({
+			isFirstCommentEver: false,
+			isFirstCommentOnQuestion: false,
+			isReply: true,
+			questionAgeHours: 48,
+			responsesBeforeComment: 1
+		});
 		getOrCreateVisitorIdMock.mockReset();
 		getOrCreateVisitorIdMock.mockReturnValue('visitor-123');
 		fetchMock.mockReset();
@@ -246,7 +271,16 @@ describe('Comment', () => {
 			commentKind: 'reply',
 			surface: 'question_page',
 			sourcePath: '/questions/what-keeps-you-grounded',
-			isAnonymous: false
+			isAnonymous: false,
+			isFirstCommentEver: false,
+			isFirstCommentOnQuestion: false,
+			isReply: true,
+			questionAgeHours: 48,
+			responsesBeforeComment: 1
 		});
+		expect(normalizeServerCommentAnalyticsMock).toHaveBeenCalledWith(
+			expect.objectContaining({ id: 88 })
+		);
+		expect(captureCommentStartedMock).toHaveBeenCalledTimes(1);
 	});
 });

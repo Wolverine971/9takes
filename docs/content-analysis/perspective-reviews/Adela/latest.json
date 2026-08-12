@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Adela",
+	"review_dir": "docs/content-analysis/perspective-reviews/Adela/2026-08-12_Adela",
+	"verification_file": "docs/content-analysis/perspective-reviews/Adela/2026-08-12_Adela/verification-initial.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "f21b668d4b0adad9b8dfffe8129a70b7a757d0f929afbffda6353c493eb70107",
+	"verified_content_sha256": "1115dddf33bdf4ad68a046b3fc3a08590498cb183b0f48ddb8cebef3d2bcfb54",
+	"verified_at": "2026-08-12T16:16:00Z"
+}

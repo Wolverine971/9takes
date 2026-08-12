@@ -155,6 +155,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 
 		let answerRecorded = false;
 		let commentId: number | string | null = null;
+		let commentAnalytics: unknown = null;
 
 		// Record the answer as a real comment on the backing question, using the
 		// reader's own client so give-first identity rules apply. This is the
@@ -179,6 +180,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 				if (!commentError) {
 					answerRecorded = true;
 					const rawCommentId = commentRecord?.id;
+					commentAnalytics = commentRecord?._analytics ?? null;
 					commentId =
 						typeof rawCommentId === 'number' || typeof rawCommentId === 'string'
 							? rawCommentId
@@ -259,6 +261,7 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 			questionUrl: chorus.questionUrl,
 			questionId: chorus.questionId,
 			commentId,
+			commentAnalytics,
 			isAnonymous: !userId,
 			answerRecorded,
 			alreadyAnswered

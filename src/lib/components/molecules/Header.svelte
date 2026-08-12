@@ -180,7 +180,9 @@
 						<CircleUserRound size={24} strokeWidth={1.5} class="account-icon" />
 					</a>
 				{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-					<a href={resolve('/login')} class="mobile-login">Log in</a>
+					<a href={resolve('/login')} class="mobile-login" aria-label="Log in or sign up">
+						Log in<span class="mobile-signup-suffix"> / Sign up</span>
+					</a>
 				{/if}
 			</div>
 		</div>
@@ -276,8 +278,7 @@
 					<CircleUserRound class="account-icon" size={24} strokeWidth={1.5} />
 				</a>
 			{:else if !($page.url.pathname === '/login' || $page.url.pathname === '/register')}
-				<Button href={resolve('/login')} variant="secondary" class="desktop-login">Log in</Button>
-				<Button href={resolve('/register')} class="desktop-signup">Sign up</Button>
+				<Button href={resolve('/login')} class="desktop-auth">Log in / Sign up</Button>
 			{/if}
 		</div>
 	</nav>
@@ -408,8 +409,7 @@
 		pointer-events: none;
 	}
 
-	.header-shell :global(.desktop-login),
-	.header-shell :global(.desktop-signup) {
+	.header-shell :global(.desktop-auth) {
 		padding-inline: 1rem;
 		white-space: nowrap;
 	}
@@ -678,6 +678,12 @@
 
 		.mobile-search-row {
 			align-items: stretch;
+		}
+	}
+
+	@media (max-width: 359px) {
+		.mobile-signup-suffix {
+			display: none;
 		}
 	}
 </style>

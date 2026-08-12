@@ -16,22 +16,27 @@ import {
 	PUBLIC_POSTHOG_ENABLE_IN_DEV
 } from '$env/static/public';
 import type { PostHog } from 'posthog-js';
+import {
+	buildIdentityProperties,
+	createIdentityTransitionTracker,
+	type UserIdentity
+} from '$lib/analytics/posthogIdentity';
+
+export type { UserIdentity } from '$lib/analytics/posthogIdentity';
 
 const POSTHOG_KEY = PUBLIC_POSTHOG_KEY ?? '';
 const POSTHOG_HOST = PUBLIC_POSTHOG_HOST || 'https://us.i.posthog.com';
 const ENABLE_IN_DEV = String(PUBLIC_POSTHOG_ENABLE_IN_DEV ?? '').toLowerCase() === 'true';
 
-export type UserIdentity = {
-	id: string;
-	email?: string | null;
-	enneagram?: number | null;
-	admin?: boolean;
-};
-
 let cached: PostHog | null = null;
 let initPromise: Promise<PostHog | null> | null = null;
 let pendingIdentity: UserIdentity | null = null;
 let pendingReset = false;
+const identityTransitions = createIdentityTransitionTracker();
+
+let identityResolutionPending = false;
+let identityResolutionPromise: Promise<void> = Promise.resolve();
+let resolveIdentityResolution: (() => void) | null = null;
 
 export function isPostHogEnabled(): boolean {
 	return browser && !!POSTHOG_KEY && (!dev || ENABLE_IN_DEV);
@@ -71,35 +76,50 @@ export function loadPostHog(): Promise<PostHog | null> {
 }
 
 function applyIdentity(posthog: PostHog, identity: UserIdentity): void {
-	const props: Record<string, unknown> = {};
-	if (identity.email) props.email = identity.email;
-	if (identity.enneagram != null) props.enneagram_type = identity.enneagram;
-	if (identity.admin != null) props.admin = identity.admin;
-	posthog.identify(identity.id, props);
+	posthog.identify(identity.id, buildIdentityProperties(identity));
+}
+
+/** Hold eligible captures while a cacheable public route resolves client auth. */
+export function beginUserIdentityResolution(): void {
+	if (identityResolutionPending) return;
+	identityResolutionPending = true;
+	identityResolutionPromise = new Promise<void>((resolve) => {
+		resolveIdentityResolution = resolve;
+	});
+}
+
+function completeUserIdentityResolution(): void {
+	if (!identityResolutionPending) return;
+	identityResolutionPending = false;
+	resolveIdentityResolution?.();
+	resolveIdentityResolution = null;
 }
 
 export function setUserIdentity(identity: UserIdentity | null): void {
-	if (!isPostHogEnabled()) return;
+	const transition = identityTransitions.transition(identity);
+	completeUserIdentityResolution();
+	if (!isPostHogEnabled() || transition.kind === 'none') return;
 
 	if (cached) {
-		if (identity?.id) {
-			applyIdentity(cached, identity);
-		} else {
+		if (transition.kind === 'identify') {
+			applyIdentity(cached, transition.identity);
+		} else if (transition.kind === 'reset') {
 			cached.reset();
 		}
 		return;
 	}
 
-	if (identity?.id) {
-		pendingIdentity = identity;
+	if (transition.kind === 'identify') {
+		pendingIdentity = transition.identity;
 		pendingReset = false;
-	} else {
+	} else if (transition.kind === 'reset') {
 		pendingIdentity = null;
 		pendingReset = true;
 	}
 }
 
 export async function capture(event: string, props?: Record<string, unknown>): Promise<void> {
+	await identityResolutionPromise;
 	const posthog = cached ?? (await loadPostHog());
 	posthog?.capture(event, props);
 }

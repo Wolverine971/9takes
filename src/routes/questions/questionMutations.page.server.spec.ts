@@ -126,7 +126,18 @@ describe('question mutation identity binding', () => {
 			}
 			if (name === 'create_comment_atomic') {
 				return Promise.resolve({
-					data: { id: 123, comment: 'This is my first take.', author_id: null },
+					data: {
+						id: 123,
+						comment: 'This is my first take.',
+						author_id: null,
+						_analytics: {
+							is_first_comment_ever: true,
+							is_first_comment_on_question: true,
+							is_reply: false,
+							question_age_hours: 2,
+							responses_before_comment: 0
+						}
+					},
 					error: null
 				});
 			}
@@ -140,7 +151,15 @@ describe('question mutation identity binding', () => {
 
 		const result = await actions.createCommentRando(event as any);
 
-		expect(result).toEqual({ id: 123, comment: 'This is my first take.', author_id: null });
+		expect(result).toEqual(
+			expect.objectContaining({
+				id: 123,
+				_analytics: expect.objectContaining({
+					is_first_comment_ever: true,
+					is_first_comment_on_question: true
+				})
+			})
+		);
 		expect(rpcMock).toHaveBeenCalledWith(
 			'create_comment_atomic',
 			expect.objectContaining({
@@ -163,7 +182,7 @@ describe('question mutation identity binding', () => {
 
 		const result = await actions.createCommentRando(event as any);
 
-		expect(result).toEqual({ id: 123, comment: 'This is my first take.', author_id: null });
+		expect(result).toEqual(expect.objectContaining({ id: 123, _analytics: expect.any(Object) }));
 		expect(safelyExitWelcomeSequenceMock).toHaveBeenCalledWith({
 			userId: USER_ID,
 			parentType: 'question',

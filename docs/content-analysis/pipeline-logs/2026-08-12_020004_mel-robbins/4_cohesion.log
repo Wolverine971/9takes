@@ -1,0 +1,52 @@
+Cohesion pass complete. Lint stayed at 0 fail.
+
+## Cohesion Audit: `src/blog/people/drafts/Mel-Robbins.md`
+
+**Before: 7/10 → After: 9/10**
+
+### Central Thesis
+Mel Robbins is a Type 3 who escaped the performance trap by making the confession itself the performance — and the one place the confession stops is the authorship of her biggest idea.
+
+### Thread Map (post-fix)
+
+| # | Section | Contribution → next |
+|---|---|---|
+| — | Hook (turtleneck / voir dire) | Establishes the trade: say the humiliating thing first. Plants the withheld story. |
+| 1 | Personality type | Names the type; the "I'm an attorney" quote is the load-bearing evidence → next section complicates it |
+| 2 | Walked Away From the Law | Legal Aid proves the label answer isn't the whole answer; ready-fire-aim → the crash |
+| 3 | Pot Roast Morning | 2008 collapse, 3→9 slide, 5 Second Rule as survival device → but nobody had told her why |
+| 4 | Waited 47 Years | The diagnosis moves the defect from character to wiring; that relief is the product |
+| — | Rabbit Hole | Wing/subtype/arrows/counter-typing, sealed off |
+| 5 | The Mel Robbins Show | Thesis stress-test: she confesses the failure and reissues it as a credential → confession applied to others |
+| 6 | Advice Sounds So Dumb | Empathy turn: simplicity is a spec, because complexity failed her → she concedes every charge |
+| 7 | Let Them, Told Three Ways | The one charge she doesn't concede. Blind spot inside the legacy |
+| 8 | The Sentence | What she gives away without a byline. Courtroom callback |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 8/10 | 9/10 |
+| Promise-Delivery Match | 7/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 6/10 | 9/10 |
+| Internal Paragraph Flow | 9/10 | 9/10 |
+
+### The one real break (fixed)
+
+The second pass planted "Hold that pattern next to the one story where it stops" at the end of the **talk-show** section — but the next section is "Why Mel Robbins's Advice Sounds So Dumb." A reader takes that line as a promise about what comes next, and instead gets a defense of her advice. The breadcrumb was aimed two slots past its target.
+
+Moved it to the end of the advice section, where the very next H2 pays it off. The talk-show section now bridges into the advice critique on its actual shared logic: *"Saying the damaging thing before anyone else can is the move she worked out in voir dire. Her critics have a bigger one for her to say."*
+
+### Other changes (6)
+
+- **Diagnosis → "Walked Away"**: the H2 re-asks a question the previous section already answered. Now framed as the complication: "The label answer is true and it is not the whole answer."
+- **"Walked Away" → pot roast**: "nine years out of the courtroom" carries the 1999 exit into 2008 without claiming it caused the collapse.
+- **Pot roast → ADHD**: the section opened cold on "Her son was being evaluated" right after a 2011 TEDx beat. Added the 2015 marker, which also pays off the "another sixteen years before anyone told her why" fuse from two sections earlier.
+- **ADHD → talk show**: "four years after the diagnosis" keeps the reader oriented across the collapsible Rabbit Hole.
+- **Let Them → closing**: "she could not let them keep it" now hands off to "There is one thing she gives away without needing her name on it."
+
+### Preserved
+Frontmatter, all four ledgers, all H2 wording, TL;DR, the Rabbit Hole, every internal link, the cold open, the "Told Three Ways" form, the empathy turn, and the closing callback. Bridging language only — no new arguments, no voice edits.
+
+### Two things to note
+- **Word count**: my additions (~65 words) pushed the body from ~3,986 to 4,051, tripping blog-lint's warn threshold (4,050) by one word. Still well under the 4,500 fail ceiling. `0 fail, 2 warn` — the other warn (no `faqs` in frontmatter) is pre-existing; the enrich stage hasn't run.
+- **Remaining structural call, yours**: the hook's promise still runs six sections before it pays off. Chronology is why, and it's a defensible trade, but that fuse is now carried by one TL;DR bullet and one breadcrumb. If it still feels long, the fix is moving "Told Three Ways" ahead of "Sounds So Dumb" — which costs you the empathy turn landing before the prosecution.

@@ -4,10 +4,13 @@
 import { cleanup, render, screen } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { authUserStore, notificationCount, pageStore } = vi.hoisted(() => ({
+const { authState, authUserStore, notificationCount, pageStore } = vi.hoisted(() => ({
+	authState: {
+		current: { id: 'user-1', admin: false } as { id: string; admin: boolean } | null
+	},
 	authUserStore: {
-		subscribe(run: (value: { id: string; admin: boolean }) => void) {
-			run({ id: 'user-1', admin: false });
+		subscribe(run: (value: { id: string; admin: boolean } | null) => void) {
+			run(authState.current);
 			return () => {};
 		}
 	},
@@ -40,6 +43,7 @@ import Header from './Header.svelte';
 
 describe('Header notification bell', () => {
 	beforeEach(() => {
+		authState.current = { id: 'user-1', admin: false };
 		vi.stubGlobal(
 			'fetch',
 			vi.fn().mockResolvedValue({
@@ -65,10 +69,19 @@ describe('Header notification bell', () => {
 	it('targets the notification feed on desktop and mobile', () => {
 		render(Header);
 
-		const bells = screen.getAllByRole('link', { name: 'View notifications — 4 unread' });
+		const bells = screen.getAllByRole('link', { name: 'View notifications, 4 unread' });
 		expect(bells).toHaveLength(2);
 		for (const bell of bells) {
 			expect(bell.getAttribute('href')).toBe('/account#notifications');
 		}
+	});
+
+	it('shows one combined desktop auth action that opens the login page', () => {
+		authState.current = null;
+		render(Header);
+
+		const authLink = screen.getByRole('link', { name: 'Log in / Sign up' });
+		expect(authLink.getAttribute('href')).toBe('/login');
+		expect(screen.queryByRole('link', { name: 'Sign up' })).toBeNull();
 	});
 });

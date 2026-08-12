@@ -1,0 +1,31 @@
+Second pass complete on `src/blog/people/drafts/Mel-Robbins.md`.
+
+## Source audit — the first-order item
+
+**Before:** 2 inline, 1 vague, 1 untagged. **After:** 4 inline, 0 vague, 0 untagged.
+
+Fixing those turned up two factual errors:
+
+- **Wrong call sign.** The draft said Anderssen produced her at "WBDO." The station is **WDBO** (AM 580 / FM 96.5, Orlando) per Cox Media Group's own announcement of his hiring. TIME carries the transposition, which is where the draft inherited it.
+- **Unsourceable quote.** The pot roast quote ("like a human pot roast, feeling sorry for myself") matched nothing. Replaced with the version that's actually on the record via NBC News, 2025.
+
+## What I added
+
+All four fresh-eyes gaps verified and used. New H2, **"What Happened to The Mel Robbins Show"** — the 2019 launch, the January 2020 cancellation, the 0.4 rating against Clarkson and Hall. It earns its place because it's the thesis test: she *did* confess it ("It wasn't good") and converted it into a credential in the same breath. Her husband's depression disclosure folds in there as the counterweight — his disclosure, her distribution.
+
+The clinician critique (DBT radical acceptance, ACT, boundary work repackaged with thin credit; acceptance blurring into avoidance in asymmetric relationships) went into the Let Them section, where it scales the Phillips pattern up instead of sitting next to a charge she already agrees with. 143 Studios lands in the close, placed *before* "So she took the job" so the courtroom callback still gets the last word.
+
+## Where I overrode the review
+
+Two of its strongest-sounding notes were wrong, and both would have been unfair to real people:
+
+- **The "Let Me" claim.** The review said Phillips' 2019 framing was "Let Them / Let Me," which would gut Robbins' defense. The circulating poem keeps **both** halves on "Let Them." The turn to "let me" appears genuinely Robbins'. I wrote it as the strongest point in *her* favor and deleted the draft's own unverified "Let Them / Let Me" claim in Telling One — that was an internal contradiction waiting to be caught by a reader.
+- **143 Studios.** Not the clean Mister Rogers fact the review assumed. TIME says it's the couple's old Manhattan apartment number; Sony's talk-show publicity says Mister Rogers. I ran it as two origin stories rather than picking one, which happens to echo the piece's own theme.
+
+## Trims
+
+$800k 5× → 2×, neck-rash restatement cut, 2 of 4 staccato negation triads rewritten, both soft contrast engines rewritten, 11M/8M inconsistency resolved to 8M. Rabbit Hole moved after the ADHD section so the 2008→2015 seam stays intact. Net 3,964 → 3,970 words, so the additions paid for themselves.
+
+blog-lint: 0 fail, 1 warn. Cold open, closing callback, "Told Three Ways" form, and the empathy turn are untouched.
+
+**Three things still open**, all in the notes block: the Chris Robbins video date couldn't be confirmed (attributed by venue only, no date claim in body), there's still no 2026 current-tense beat, and the frontmatter enrich stage hasn't run — that's the lint warn and a separate command. The 2026 gap is the one an editor pass might want, since the dispute is unresolved with no suit filed and the SiriusXM deal runs into 2027.

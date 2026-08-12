@@ -254,7 +254,7 @@ Here's what emotional flooding actually looks like: your partner makes an offhan
 
 As one ADHD coach noted: "If you're a Type 4, emotional regulation might be your biggest hurdle." Both Type 4s and people with ADHD experience emotions more intensely than others, struggle with mundane tasks, feel out of step with other people, and get lost in their inner world. When you have both, those tendencies compound.
 
-<StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="enneagram-and-adhd-which-types-struggle-most" />
+<StrategicQuestion question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?" questionId={567} questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort" blogSlug="enneagram-and-adhd-which-types-struggle-most" />
 
 **How It Manifests:**
 

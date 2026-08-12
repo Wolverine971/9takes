@@ -1,0 +1,17 @@
+Packet compiled. Frozen snapshot verified unchanged (SHA matches), all ten required H2 headings present, frontmatter parseable.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Mel-Robbins/2026-08-12_020004/evidence-packet.md`
+
+18 load-bearing claims inventoried (CLM-01 … CLM-18) against 22 ledgered sources. Both `/tmp` transcripts referenced by the research file survived and became the packet's strongest primary evidence.
+
+**Largest unresolved evidence gap:** whether Robbins publicly credited Cassie Phillips and then deleted it. The deleted Facebook post exists only in Tier 3/4 secondhand reporting and can almost certainly never be retrieved, while her located on-record response (New York Post, ~March 2025) is a categorical denial of exposure — "I have not seen her poem, I have not read her poem." Those two cannot both be straightforwardly true, nothing adjudicates them, and the draft's entire "Told Three Ways" section plus its Type 3 absorption mechanism rests on the seam between them. Compounding it: the NY Post original could not be fetched, so even the denial reaches the packet secondhand.
+
+Three findings worth flagging directly, since they cut against the draft's own notes:
+
+- **CLM-01 is a contradiction, not a gap.** The second pass replaced the pot roast quote, recording that the original "had no traceable wording" and substituting "a pot roast marinating in fear" attributed to NBC News. The record shows the reverse — the research file's original wording is verbatim in the captured *Meet the Press* transcript and in NBC's own report, while "marinating" appears zero times in either transcript. A named-outlet quotation of a living person currently sits unattested in the section the thesis is named after.
+- **CLM-02: the 2009/2008 date.** Her DOB (Oct 6, 1968) makes "By 2008 … she was forty-one" impossible; NBC and biographical reporting both say 2009. It propagates into dependent arithmetic elsewhere in the piece.
+- **CLM-12: Robbins' defense is mischaracterized.** The "short poem vs. researched 300-page book" argument traces to the research file's own summary, not to anything she said.
+
+Two things the draft got right against its sources: the WDBO call-sign correction holds (Time prints the transposition), and the 143 Studios dual-origin framing is genuinely supported.
+
+I did not review, grade, or recommend changes to the article, and did not touch `draft-reviewed.md` or any prior research file.

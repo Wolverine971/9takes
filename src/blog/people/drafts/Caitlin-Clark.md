@@ -4,12 +4,12 @@ meta_title: 'Why Caitlin Clark Rates Herself a Six: Enneagram Type 1'
 persona_title: "Basketball's Uncompromising Crusader"
 description: 'Why does Caitlin Clark rate herself a six? The Type 1 pattern behind the WNBA turnover record, two lost title games, and a smile she had to be assigned.'
 author: 'DJ Wayne'
-date: '2026-08-05'
+date: '2026-08-12'
 loc: 'https://9takes.com/personality-analysis/caitlin-clark'
 lastmod: '2026-08-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['celebrity', 'athlete']
 person: 'caitlin-clark'

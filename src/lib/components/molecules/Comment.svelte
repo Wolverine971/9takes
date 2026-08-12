@@ -5,7 +5,14 @@
 	import { resolve } from '$app/paths';
 	import { ChevronRight, EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
 	import { slide } from 'svelte/transition';
-	import { captureCommentCreated } from '$lib/analytics/commentEvents';
+	import {
+		captureCommentCreated,
+		captureCommentFailed,
+		captureCommentStarted,
+		normalizeServerCommentAnalytics,
+		type CommentFailureCategory,
+		type CommentFailureStage
+	} from '$lib/analytics/commentEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import Comments from '$lib/components/molecules/Comments.svelte';
@@ -37,6 +44,7 @@
 	let cachedFingerprint: string | null = null;
 
 	let newcomment = '';
+	let replyStartedTracked = false;
 	let replyError = '';
 	let commenting = false;
 	let anonymousComment = false;
@@ -221,6 +229,9 @@
 		replyError = '';
 		loading = true;
 
+		let failureStage: CommentFailureStage = 'request';
+		let errorCategory: CommentFailureCategory = 'network_error';
+
 		try {
 			const fingerprint = cachedFingerprint || getOrCreateVisitorId();
 			cachedFingerprint = fingerprint;
@@ -237,17 +248,27 @@
 			const resp = await fetch('?/createCommentRando', { method: 'POST', body });
 
 			if (!resp.ok) {
+				errorCategory = 'http_error';
 				throw new Error(`Server responded with status: ${resp.status}`);
 			}
 
+			failureStage = 'response';
+			errorCategory = 'invalid_response';
 			const result: any = deserialize(await resp.text());
 
-			if (result.error) {
-				throw new Error(result.error);
+			if (result.error || result.type === 'error' || result.type === 'failure') {
+				failureStage = 'server_action';
+				errorCategory = 'action_failure';
+				throw new Error(
+					typeof result.error === 'string'
+						? result.error
+						: (result.data?.message ?? 'Could not add reply')
+				);
 			}
 
 			notifications.success('Reply Added', 3000);
 			const createdReply = Array.isArray(result?.data) ? (result.data[0] ?? null) : result?.data;
+			const serverAnalytics = normalizeServerCommentAnalytics(createdReply);
 			void captureCommentCreated({
 				commentId: createdReply?.id,
 				questionId,
@@ -256,7 +277,8 @@
 				commentKind: 'reply',
 				surface: 'question_page',
 				sourcePath: window.location.pathname,
-				isAnonymous: false
+				isAnonymous: false,
+				...serverAnalytics
 			});
 
 			// Update comment count
@@ -275,15 +297,40 @@
 			dispatch('commentAdded', result?.data);
 			dispatch('commentUpdated', _commentComment);
 			newcomment = '';
+			replyStartedTracked = false;
 			commenting = false;
 			showReplies = true; // Show replies so user can see their new reply
 		} catch (error) {
 			console.error('Error adding reply:', error);
+			void captureCommentFailed({
+				...getReplyEventContext(),
+				failureStage,
+				errorCategory
+			});
 			replyError = 'We could not add your reply. Please try again.';
 			notifications.danger('Error adding reply', 3000);
 		} finally {
 			loading = false;
 		}
+	}
+
+	function getReplyEventContext() {
+		return {
+			questionId,
+			questionUrl: questionPageData?.question.url,
+			commentKind: 'reply' as const,
+			surface: 'question_page' as const,
+			sourcePath: typeof window === 'undefined' ? undefined : window.location.pathname,
+			isAnonymous: false
+		};
+	}
+
+	function handleReplyInput(event: Event) {
+		replyError = '';
+		const value = (event.currentTarget as HTMLTextAreaElement).value;
+		if (replyStartedTracked || !value.trim()) return;
+		replyStartedTracked = true;
+		void captureCommentStarted(getReplyEventContext());
 	}
 
 	// Check if user can comment
@@ -576,7 +623,7 @@
 						placeholder="Share your perspective — what's your experience with this? The more detail, the better the conversation."
 						class="w-full resize-y rounded-md border border-[var(--stone-edge)] bg-[var(--stone-warm)] p-3 text-base text-[var(--ink-bright)] placeholder-[var(--ink-dim)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-2 focus:ring-[var(--lamp-soft)]"
 						bind:value={newcomment}
-						on:input={() => (replyError = '')}
+						on:input={handleReplyInput}
 						rows="3"
 						aria-invalid={replyError ? 'true' : 'false'}
 						aria-describedby={replyError ? `reply-error-${_commentComment.id}` : undefined}
@@ -598,6 +645,7 @@
 						on:click={() => {
 							commenting = false;
 							newcomment = '';
+							replyStartedTracked = false;
 							replyError = '';
 						}}
 					>

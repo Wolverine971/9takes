@@ -119,6 +119,7 @@ strategic_question_url: 'whats-something-every-day-seem-fine-nobody-knows-costin
 	</section>
 	<StrategicQuestion
 		question="What's something you do every day to seem 'fine' that nobody knows is costing you effort?"
+		questionId={567}
 		questionUrl="whats-something-every-day-seem-fine-nobody-knows-costing-effort"
 		blogSlug="neurodiversity-vs-personality"
 	/>

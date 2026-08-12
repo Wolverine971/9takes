@@ -1,0 +1,34 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Mel-Robbins.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (5 qualifying quotes) | Gate 2: pass (5 of 7 H2s search-intent/hybrid)
+       Gate 3: pass (no self-loop) | Gate 4: pass (no type-anaphora ending)
+       Gate 5: pass (2 type-theory paragraphs, max 4) | Gate 6: pass (0 strong contrast pairs, similarity CLEAR)
+LIMITATIONS: authorship dispute unresolved (presented as allegation with her rebuttal);
+             ADHD diagnosis year inferred from stated age 47; no direct Chris Robbins quote located;
+             NBC Meet the Press source returned HTTP 403
+```
+
+**The thesis:** Mel Robbins is a Type 3 who escaped the performance trap by making the confession itself the performance — and the one story she can't tell on herself is where her biggest idea came from.
+
+**What carries it:**
+- **Signature detail (the hook):** as a young public defender she hid stress rashes under a July turtleneck, then started announcing them during jury selection. The rashes stopped. That trade is the whole business model, thirty years early.
+- **Emotional thesis in her own words:** on being diagnosed with ADHD and dyslexia at 47 — *"So it was this revelation. That I'm not crazy, number one."* Forty-seven years of reading her own wiring as a character defect.
+- **Bespoke section:** "Where 'Let Them' Actually Came From, Told Three Ways" — the origin story as three successive drafts with the byline changing each time. In every version someone else says the words to her first.
+- **Empathy turn:** she's mocked for two-word advice; she agrees it "sounds dumb." The simplicity is a spec, designed for the woman on the pot-roast mornings who'd fail anything with six pillars.
+
+**Two things worth your judgment before this goes further:**
+
+1. **The plagiarism section names Cassie Phillips and quotes her directly.** I concede what her claim gets right (Robbins credited her, then deleted the post) and what Robbins' defense gets right (a poem and a researched book are different objects; no text copying alleged). It's the strongest section, and it's also the one with legal-adjacent exposure — worth your read given the Tobey precedent.
+
+2. **Real counterevidence is left in, not smoothed over:** she opened at Legal Aid, which a prestige-driven Three doesn't do. It's flagged in both the draft and the research file rather than argued away.
+
+Research evidence persisted to `docs/content-analysis/research/Mel-Robbins.md` (timeline, ~30 sourced quotes, testimony table, source ledger, type memo at high confidence). Two YouTube transcripts were captured to `/tmp` and are ephemeral — video IDs `P91b4civBxA` and `Eh7Q0hUBg2E` are recorded for re-capture.
+
+No grade emitted — that's `/grade_blog`'s job. The single lint warning (`no faqs in frontmatter`) is owned by the downstream `blog_content_frontmatter_enrich_people` stage.
+
+Next step is human review, then `blog_content_production_people`. I did not mark it `ready`.
