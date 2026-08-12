@@ -137,6 +137,17 @@ describe('universalSearch', () => {
 		});
 	});
 
+	it('skips two-character typeahead queries', async () => {
+		const result = await searchUniversalTypeahead({} as any, 'ca', {
+			scope: 'all',
+			limit: 8
+		});
+
+		expect(result.results).toEqual([]);
+		expect(searchBlogTypeahead).not.toHaveBeenCalled();
+		expect(searchQuestionsTypeahead).not.toHaveBeenCalled();
+	});
+
 	it('reuses cached typeahead results for repeated queries', async () => {
 		searchBlogTypeahead.mockResolvedValue([
 			{

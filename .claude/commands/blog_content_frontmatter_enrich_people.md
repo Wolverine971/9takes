@@ -39,9 +39,13 @@ After the editor pass produces the final body, enrich frontmatter with:
 - Schema.org Person fields (`knows_about`, `same_as`)
 - SEO keywords
 - Source citations drawn from the body
-- FAQPage data (`faqs`) — 3–5 question/answer/anchor entries derived from the **final** analysis
+- FAQPage data (`faqs`) — 3–5 question/answer/anchor entries derived from the **final** analysis and
+  verified biography intent
 
-These fields are read by `src/routes/personality-analysis/[slug]/+page.server.ts` and rendered as Schema.org Person + FAQPage JSON-LD on every personality-analysis page, plus an on-page `<FAQSection>`. The renderer emits FAQPage when the row has at least two real FAQ entries; there is no separate `include_faq_schema` database column to set. Filling `faqs` well is direct SEO and AI-search lift.
+These fields are read by `src/routes/personality-analysis/[slug]/+page.server.ts` and rendered as
+Schema.org Person + FAQPage JSON-LD plus an on-page FAQ accordion on personality-analysis pages. FAQ
+rich-result visibility is not guaranteed and is not a ranking shortcut. Fill `faqs` because the
+answers are useful, sourced, and consistent with the article, not to stuff queries.
 
 ---
 
@@ -79,7 +83,10 @@ You are **additive only**. Never overwrite an existing good value.
 
 **Exception — templated backfill FAQs (audit 2026-06-10):** a 2026 bulk backfill wrote machine-assembled FAQ answers (telltale: "…with supporting context from [occupation list]" or answers that restate the occupation/type fields instead of the body's analysis). These do NOT count as substantive. If any FAQ answer contains "with supporting context from" or is plainly assembled from frontmatter fields rather than the article, **replace the entire `faqs` block** with freshly generated FAQs per Step 9. The same backfill wrote occupation-copied `knows_about` values (e.g. `'Business Executive'`, `'Manager'`) — replace those with real expertise areas per Step 5 when you see that pattern.
 
-**Strict idempotency on `wikipedia`:** if `wikipedia` already has a URL (even if it points to a tangentially-related entity like the person's show instead of the person), leave it. Flag the mismatch in your GAPS report instead. Do not silently overwrite.
+**Strict identity on `wikipedia`:** keep an existing URL only after verifying it describes this exact
+person. A show, company, namesake, search page, or 404 is not a valid Person identity URL. Remove an
+invalid value and flag the correction in the GAPS report. Never construct a Wikipedia URL from the
+person's name and assume the page exists.
 
 The fields you own:
 

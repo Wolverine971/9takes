@@ -9,7 +9,7 @@
 - Zach King — high-resolution event portrait from TMS, followed by a targeted Imagegen outpaint and formal wardrobe treatment: https://www.tvguide.com/celebrities/zach-king/credits/3030546801/
 - Daniel Radcliffe — high-resolution studio portrait surfaced by Fanpop: https://www.fanpop.com/clubs/harry-potter-the-boy-who-lived-and-much-more/images/33997757/title/daniel-radcliffe-photo
 - Jimmy Kimmel — TMDB profile portrait, followed by a targeted Imagegen front-facing correction and outpaint: https://www.themoviedb.org/person/12225-jimmy-kimmel
-- John Krasinski — Plex high-resolution metadata portrait: https://www.plex.tv/
+- John Krasinski — Doug Inglish “Sharp” professional portrait, selected for its complete shoulders and upper torso: https://www.douginglish.com/new-gallery-33
 - Noah Wyle — TIME100 2026 portrait: https://time.com/collection/time100-2026/
 - Sadie Sink — high-resolution studio portrait surfaced by Wallhaven, followed by a targeted Imagegen background cleanup to preserve fine hair edges: https://wallhaven.cc/w/6lmwpl
 

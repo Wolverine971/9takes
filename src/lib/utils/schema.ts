@@ -424,7 +424,6 @@ export function buildPersonSameAsUrls(options: {
 	wikidataQid?: string | null;
 	imdbId?: string | null;
 	wikipedia?: string | null;
-	fallbackWikipedia?: string | null;
 	twitter?: string | null;
 	instagram?: string | null;
 	tiktok?: string | null;
@@ -436,9 +435,7 @@ export function buildPersonSameAsUrls(options: {
 	const wikidataQid = normalizeWikidataQid(options.wikidataQid);
 	const imdbId = normalizeImdbNconst(options.imdbId);
 
-	const wikipediaUrl =
-		normalizeProfileUrl('wikipedia', options.wikipedia) ??
-		normalizeProfileUrl('wikipedia', options.fallbackWikipedia);
+	const wikipediaUrl = normalizeProfileUrl('wikipedia', options.wikipedia);
 
 	return dedupeUrls(
 		[

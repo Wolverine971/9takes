@@ -58,4 +58,10 @@ describe('personalityAnalysis helpers', () => {
 		// "J.K. Rowling" lives in the DB title field, not the slug-derived name.
 		expect(formatPersonalityDisplayName('j.k.-rowling')).toBe('JK Rowling');
 	});
+
+	it('can use a full public entity name without changing a ranking slug or image key', () => {
+		expect(formatPersonalityDisplayName('ashby')).toBe('Ashby Florence');
+		expect(buildPersonalityAnalysisPath('ashby')).toBe('/personality-analysis/ashby');
+		expect(buildPersonalityImagePath(7, 'ashby')).toBe('/types/7s/Ashby.webp');
+	});
 });

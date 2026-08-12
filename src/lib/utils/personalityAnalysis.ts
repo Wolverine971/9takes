@@ -1,6 +1,13 @@
 // src/lib/utils/personalityAnalysis.ts
 import personalityImageSlugMap from '$lib/generated/personalityImageSlugMap.json';
 
+// A profile's canonical URL/image key is occasionally shorter than the public
+// name people search for. Keep those identities explicit instead of changing a
+// ranking URL or overloading the image-slug compatibility map.
+const PERSONALITY_DISPLAY_NAME_OVERRIDES: Record<string, string> = {
+	ashby: 'Ashby Florence'
+};
+
 export function normalizePersonalitySlug(slug: string | null | undefined): string {
 	if (typeof slug !== 'string') return '';
 	return slug
@@ -44,6 +51,10 @@ export function resolvePersonalityImageSlug(slug: string | null | undefined): st
 }
 
 export function formatPersonalityDisplayName(slug: string | null | undefined): string {
+	const normalizedSlug = normalizePersonalitySlug(slug);
+	const displayNameOverride = PERSONALITY_DISPLAY_NAME_OVERRIDES[normalizedSlug];
+	if (displayNameOverride) return displayNameOverride;
+
 	const resolvedSlug = resolvePersonalityImageSlug(slug) || normalizePersonalitySlug(slug);
 	if (!resolvedSlug) return '';
 

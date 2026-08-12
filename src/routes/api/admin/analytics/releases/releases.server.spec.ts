@@ -4,7 +4,6 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { GET } from './+server';
 
 interface SupabaseMockOptions {
-	refreshRows?: number;
 	// One array per sequential get_content_release_performance call (selected fetch + optional baseline).
 	perfBatches?: Array<Array<Record<string, unknown>>>;
 	demand?: Array<Record<string, unknown>>;
@@ -13,19 +12,15 @@ interface SupabaseMockOptions {
 
 /**
  * Builds a Supabase mock whose `.rpc()` dispatches by function name so call ordering is robust to the
- * endpoint's internal sequencing (refresh → performance pages → demand metrics).
+ * endpoint's internal sequencing (performance pages + demand metrics).
  */
 function createSupabase({
-	refreshRows = 0,
 	perfBatches = [[]],
 	demand = [],
 	admin = true
 }: SupabaseMockOptions = {}) {
 	let perfIndex = 0;
 	const rpc = vi.fn((name: string) => {
-		if (name === 'refresh_content_analytics_daily') {
-			return Promise.resolve({ data: refreshRows, error: null });
-		}
 		if (name === 'get_content_release_performance') {
 			const batch = perfBatches[perfIndex] ?? [];
 			perfIndex += 1;
@@ -79,12 +74,12 @@ describe('/api/admin/analytics/releases', () => {
 	});
 
 	it('uses the raised default release limit when no explicit limit is provided', async () => {
-		const { supabase, rpc } = createSupabase({ refreshRows: 12, perfBatches: [[]] });
+		const { supabase, rpc } = createSupabase({ perfBatches: [[]] });
 
 		const response = await callGet(supabase, 'https://9takes.test/api/admin/analytics/releases');
 
 		expect(response.status).toBe(200);
-		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
+		expect(rpc).toHaveBeenNthCalledWith(1, 'get_content_release_performance', {
 			p_from_date: undefined,
 			p_to_date: undefined,
 			p_limit: 200
@@ -127,7 +122,6 @@ describe('/api/admin/analytics/releases', () => {
 		};
 		// fromDate is set, so buildDemandScoreFields fetches a baseline page too (second perf batch).
 		const { supabase, rpc } = createSupabase({
-			refreshRows: 12,
 			perfBatches: [[expandedRow], [expandedRow]],
 			demand: []
 		});
@@ -138,12 +132,7 @@ describe('/api/admin/analytics/releases', () => {
 		);
 		const body = await response.json();
 
-		expect(rpc).toHaveBeenNthCalledWith(1, 'refresh_content_analytics_daily', {
-			p_from: expect.any(String),
-			p_to: expect.any(String),
-			p_content_type: 'people'
-		});
-		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
+		expect(rpc).toHaveBeenNthCalledWith(1, 'get_content_release_performance', {
 			p_from_date: '2026-04-01',
 			p_to_date: undefined,
 			p_limit: 10
@@ -173,15 +162,12 @@ describe('/api/admin/analytics/releases', () => {
 		});
 	});
 
-	it('starts independent release scoring reads concurrently after the refresh', async () => {
+	it('starts independent release scoring reads concurrently', async () => {
 		const selected = deferred<{ data: Array<Record<string, unknown>>; error: null }>();
 		const baseline = deferred<{ data: Array<Record<string, unknown>>; error: null }>();
 		const demand = deferred<{ data: Array<Record<string, unknown>>; error: null }>();
 		let performanceCall = 0;
 		const rpc = vi.fn((name: string) => {
-			if (name === 'refresh_content_analytics_daily') {
-				return Promise.resolve({ data: 0, error: null });
-			}
 			if (name === 'get_content_release_performance') {
 				performanceCall += 1;
 				return performanceCall === 1 ? selected.promise : baseline.promise;
@@ -207,7 +193,6 @@ describe('/api/admin/analytics/releases', () => {
 
 		await vi.waitFor(() => {
 			expect(rpc.mock.calls.map(([name]) => name)).toEqual([
-				'refresh_content_analytics_daily',
 				'get_content_release_performance',
 				'get_content_release_performance',
 				'get_content_release_demand_metrics'
@@ -248,7 +233,6 @@ describe('/api/admin/analytics/releases', () => {
 			release_stage: 'mature'
 		};
 		const { supabase } = createSupabase({
-			refreshRows: 12,
 			perfBatches: [[legacyRow]],
 			demand: []
 		});
@@ -317,7 +301,6 @@ describe('/api/admin/analytics/releases', () => {
 		);
 		const secondBatch = [makeRow(201, '2025-12-31T12:00:00.000Z')];
 		const { supabase, rpc } = createSupabase({
-			refreshRows: 12,
 			perfBatches: [firstBatch, secondBatch],
 			demand: []
 		});
@@ -328,7 +311,7 @@ describe('/api/admin/analytics/releases', () => {
 		);
 		const body = await response.json();
 
-		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
+		expect(rpc).toHaveBeenNthCalledWith(1, 'get_content_release_performance', {
 			p_from_date: undefined,
 			p_to_date: undefined,
 			p_limit: 200
@@ -339,11 +322,8 @@ describe('/api/admin/analytics/releases', () => {
 		expect(body.rows).toHaveLength(200);
 	});
 
-	it('refreshes the selected release window before reading older ranges', async () => {
-		vi.useFakeTimers();
-		vi.setSystemTime(new Date(2026, 3, 24, 12, 0, 0));
-
-		const { supabase, rpc } = createSupabase({ refreshRows: 8, perfBatches: [[]] });
+	it('leaves rollup maintenance to the scheduled database job', async () => {
+		const { supabase, rpc } = createSupabase({ perfBatches: [[], []] });
 
 		const response = await callGet(
 			supabase,
@@ -351,21 +331,18 @@ describe('/api/admin/analytics/releases', () => {
 		);
 		const body = await response.json();
 
-		expect(rpc).toHaveBeenNthCalledWith(1, 'refresh_content_analytics_daily', {
-			p_from: '2026-01-24',
-			p_to: '2026-04-24',
-			p_content_type: 'people'
-		});
-		expect(rpc).toHaveBeenNthCalledWith(2, 'get_content_release_performance', {
+		expect(rpc).not.toHaveBeenCalledWith('refresh_content_analytics_daily', expect.anything());
+		expect(rpc).toHaveBeenNthCalledWith(1, 'get_content_release_performance', {
 			p_from_date: '2026-01-10',
 			p_to_date: '2026-02-10',
 			p_limit: 10
 		});
 		expect(body.refresh).toMatchObject({
-			from: '2026-01-24',
-			to: '2026-04-24',
-			rows: 8,
-			selectedRangeExtended: true
+			from: null,
+			to: null,
+			rows: 0,
+			selectedRangeExtended: false,
+			scheduled: true
 		});
 	});
 });

@@ -15,6 +15,7 @@
 # swaps stage 1 and skips stage 3; every other gate is identical.
 #
 # Pipeline:
+#   0.5 entity_gap_brief  - live SERP + biography-intent packet used by writing stages
 #   1. create             - /blog_content_creator_people_v2 (non-interactive)
 #      (--refresh)        - /blog_refresh_people
 #   2. fresh_eyes         - /blog_content_fresh_eyes_people
@@ -241,6 +242,7 @@ write_summary() {
   SUMMARY_PATH="$LOG_DIR/summary.json" \
   PERSON="$PERSON" \
   DRAFT_PATH="$DRAFT_PATH" \
+  ENTITY_GAP_BRIEF_REL="${ENTITY_GAP_BRIEF_REL:-}" \
   PIPELINE_LOG_DIR="$LOG_DIR" \
   PERSPECTIVE_REVIEW_DIR="${PERSPECTIVE_REVIEW_DIR_REL:-}" \
   PERSPECTIVE_INITIAL_STATUS="${PERSPECTIVE_INITIAL_STATUS:-not_run}" \
@@ -260,6 +262,7 @@ const num = (value) => value === "" || value == null ? null : Number(value);
 const summary = {
   person: env.PERSON,
   draft_path: env.DRAFT_PATH,
+  entity_gap_brief: env.ENTITY_GAP_BRIEF_REL || null,
   log_dir: env.PIPELINE_LOG_DIR,
   perspective_review_dir: env.PERSPECTIVE_REVIEW_DIR || null,
   perspective_initial_status: env.PERSPECTIVE_INITIAL_STATUS || "not_run",
@@ -459,6 +462,14 @@ PERSPECTIVE_PARALLEL_EXIT=0
 PERSPECTIVE_INITIAL_STATUS="not_run"
 PERSPECTIVE_FINAL_STATUS="not_run"
 PERSPECTIVE_VERIFICATION_FILE=""
+ENTITY_GAP_BRIEF_REL="docs/content-analysis/entity-gaps/${DRAFT_SUBJECT}.md"
+
+# The entity-gap packet is advisory, not a publication gate. Strong-serp subjects can
+# still deserve profiles; the packet tells later stages which biography intent exists,
+# which competitors are entrenched, and which unsupported facts to avoid.
+mkdir -p "$REPO_ROOT/docs/content-analysis/entity-gaps"
+run_stage 0.5 entity_gap_brief \
+  "/find-emerging-entity-gaps $DRAFT_SUBJECT --single --non-interactive"
 
 if [[ "$MODE" == "refresh" ]]; then
   # A refresh edits a live page. If the draft is missing there is nothing to refresh,
@@ -472,7 +483,7 @@ if [[ "$MODE" == "refresh" ]]; then
     | awk 'BEGIN{inc=0} /<!--/{inc=1} inc{if (/-->/) inc=0; next} {print}' \
     | sed -E 's/<[^>]+>/ /g' | wc -w | tr -d ' ')"
   echo "[refresh] baseline body length: ${BASELINE_WORDS} words (ceiling 4500)"
-  run_stage 1 refresh          "/blog_refresh_people $DRAFT_SUBJECT"
+  run_stage 1 refresh          "/blog_refresh_people $DRAFT_SUBJECT --entity-gap-brief=$ENTITY_GAP_BRIEF_REL"
 elif [[ "$MODE" == "resume" ]]; then
   if [[ "$DRAFT_EXISTS" -ne 1 || ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
     echo "[Stage 1] --resume requires an existing draft matching '$PERSON'; nothing to resume."
@@ -488,14 +499,14 @@ else
     write_summary false "existing_draft_requires_explicit_mode"
     exit 1
   fi
-  run_stage 1 create           "/blog_content_creator_people_v2 $PERSON --non-interactive"
+  run_stage 1 create           "/blog_content_creator_people_v2 $PERSON --non-interactive --entity-gap-brief=$ENTITY_GAP_BRIEF_REL"
   if ! set_canonical_draft_path || [[ ! -f "$REPO_ROOT/$DRAFT_PATH" ]]; then
     echo "[Stage 1] create did not produce a draft matching '$PERSON'; halting remaining stages."
     write_summary false "draft_missing_after_stage_1_create"
     exit 1
   fi
 fi
-run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $DRAFT_SUBJECT"
+run_stage 2 fresh_eyes         "/blog_content_fresh_eyes_people $DRAFT_SUBJECT --entity-gap-brief=$ENTITY_GAP_BRIEF_REL"
 if [[ "$MODE" != "refresh" ]]; then
   run_stage 3 second_pass      "/blog_content_second_pass_people $DRAFT_SUBJECT"
 else

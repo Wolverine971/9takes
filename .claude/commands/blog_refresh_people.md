@@ -12,6 +12,9 @@ A person's slug (`Hasan-Piker`), a draft path, or `current draft`, optionally fo
 
 `$ARGUMENTS`
 
+When the invocation includes `--entity-gap-brief=<path>`, read that packet before triage. It is the
+current search-intent/SERP contract for this refresh.
+
 ## Pre-Approved Operations
 
 - **Read / Glob / Grep**: locating and reading the draft, taskers, and GSC data
@@ -30,6 +33,23 @@ Never run `personBlogParser.js --apply` or `--publish` from this command. Shippi
 9takes is not a news outlet. Nobody arrives at this page to find out what happened; they arrive to understand what kind of person this is. An event earns space on the page only if a reader finishes that passage understanding the subject better than they did before it.
 
 Everything below is machinery for enforcing that one sentence.
+
+## Emerging Entity Gap refresh rule
+
+When the packet recommends `retrofit` or `protect`, treat biography intent as a second admission test:
+
+- Preserve the indexed URL, exact-name identity, strongest hook, and central thesis.
+- Add only sourced context that resolves a real identity/career/fact query named in the packet.
+- Integrate that context into the psychological spine; do not append a generic biography section.
+- Protect a ranking page from wholesale replacement. Factual corrections and intent coverage should
+  be surgical unless the packet documents that the existing spine is itself wrong.
+- Record the GSC baseline and 28-day prediction from the packet in the refresh ledger.
+- Do not invent or guess ages, partners, parents, education, net worth, or private motives.
+- If the packet justifies a biography-first `Name + thesis` SEO title without an Enneagram head term,
+  add an explicit `head_term_exception` so deterministic lint records the intentional tradeoff.
+
+If the packet is missing, continue the normal refresh and report `entity_gap_packet_missing` as a
+measurement limitation.
 
 ---
 

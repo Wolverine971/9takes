@@ -4,8 +4,7 @@
 		buildPersonalityAnalysisUrl,
 		buildPersonalityImagePath,
 		buildPersonalityImageUrl,
-		formatPersonalityDisplayName,
-		resolvePersonalityImageSlug
+		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
@@ -37,7 +36,6 @@
 	let shareImageUrl = $derived(
 		buildSocialImageUrl(buildPersonalityImageUrl(data?.enneagram, data?.person || data?.slug))
 	);
-	let resolvedPersonSlug = $derived(resolvePersonalityImageSlug(data?.person || data?.slug));
 
 	let breadcrumbItems = $derived.by(() => [
 		{ name: 'Home', url: 'https://9takes.com/' },
@@ -45,22 +43,12 @@
 		{ name: personName, url: canonicalUrl }
 	]);
 
-	// Build Wikipedia URL from person slug (e.g., "Taylor-Swift" -> "https://en.wikipedia.org/wiki/Taylor_Swift")
-	let wikipediaName = $derived(
-		resolvedPersonSlug
-			? resolvedPersonSlug
-					.split('-')
-					.map((w: string) => (w === w.toLowerCase() ? w.charAt(0).toUpperCase() + w.slice(1) : w))
-					.join('_')
-			: ''
-	);
 	let personSameAs = $derived(
 		buildPersonSameAsUrls({
 			sameAs: data?.same_as,
 			wikidataQid: data?.wikidata_qid,
 			imdbId: data?.imdb_id,
 			wikipedia: data?.wikipedia,
-			fallbackWikipedia: wikipediaName ? `https://en.wikipedia.org/wiki/${wikipediaName}` : null,
 			twitter: data?.twitter,
 			instagram: data?.instagram,
 			tiktok: data?.tiktok
@@ -87,7 +75,7 @@
 					personName,
 					canonicalUrl,
 					breadcrumb: breadcrumbItems,
-					title: articleTitle || seoTitle,
+					title: seoTitle || articleTitle,
 					description,
 					articleBody: buildArticleBodySummary(data?.persona_title, description),
 					datePublished: publishedAt,

@@ -64,7 +64,7 @@
 	}
 
 	async function search() {
-		if (query.length < 2) {
+		if (query.length < 3) {
 			results = [];
 			showResults = false;
 			return;
@@ -88,7 +88,7 @@
 
 	function debounceSearch() {
 		clearTimeout(debounceTimer);
-		debounceTimer = setTimeout(search, 150);
+		debounceTimer = setTimeout(search, 225);
 	}
 
 	function handleKeydown(e: KeyboardEvent) {
@@ -273,7 +273,7 @@
 					</button>
 				{/each}
 
-				{#if results.length === 0 && query.length >= 2 && !isLoading}
+				{#if results.length === 0 && query.length >= 3 && !isLoading}
 					<div class="no-results">
 						No results found for "{query}"
 					</div>

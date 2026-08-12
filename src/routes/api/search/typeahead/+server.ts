@@ -11,7 +11,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		const limit =
 			Number.isInteger(requestedLimit) && requestedLimit > 0 ? Math.min(requestedLimit, 20) : 10;
 
-		if (query.length < 2) {
+		if (query.length < 3) {
 			return json({ results: [], query, scope });
 		}
 

@@ -7,7 +7,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	try {
 		const query = url.searchParams.get('q')?.trim();
 
-		if (!query || query.length < 2) {
+		if (!query || query.length < 3) {
 			return json({ results: [], query: query || '' });
 		}
 

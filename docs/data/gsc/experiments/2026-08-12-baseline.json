@@ -1,0 +1,1555 @@
+{
+	"label": "2026-08-12-baseline",
+	"captured_at": "2026-08-12T20:41:13.843Z",
+	"site": "sc-domain:9takes.com",
+	"window": {
+		"start_date": "2026-07-14",
+		"end_date": "2026-08-10",
+		"days": 28
+	},
+	"notes": [
+		"Case variants of the same document URL are consolidated by lowercase slug.",
+		"Fragment URLs are listed under page_variants but excluded from page and query-family metrics.",
+		"Query families are rule-based; inspect the retained query rows before drawing conclusions.",
+		"Search Console metrics are observational and can move with demand, rank, snippet, or seasonality."
+	],
+	"profiles": {
+		"ashby": {
+			"page": {
+				"clicks": 9,
+				"impressions": 1406,
+				"ctr_pct": 0.6401137980085349,
+				"position": 9.322901849217638
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 1,
+					"impressions": 919,
+					"ctr_pct": 0.1088139281828074,
+					"position": 9.70620239390642
+				},
+				"biography": {
+					"clicks": 0,
+					"impressions": 71,
+					"ctr_pct": 0,
+					"position": 10.746478873239436
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 1,
+					"impressions": 47,
+					"ctr_pct": 2.127659574468085,
+					"position": 10.063829787234043
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence",
+					"family": "exact_name",
+					"clicks": 1,
+					"impressions": 919,
+					"ctr_pct": 0.1088139281828074,
+					"position": 9.70620239390642
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence boyfriend",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 34,
+					"ctr_pct": 0,
+					"position": 10.441176470588236
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence virginia",
+					"family": "other",
+					"clicks": 1,
+					"impressions": 15,
+					"ctr_pct": 6.666666666666667,
+					"position": 4.8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence handstand",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 14,
+					"ctr_pct": 0,
+					"position": 12.785714285714286
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 11,
+					"ctr_pct": 0,
+					"position": 10.909090909090908
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "who is ashby florence",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 8,
+					"ctr_pct": 0,
+					"position": 10.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby person",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 11.571428571428571
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 11.833333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "how tall is ashby florence",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 10.333333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "where is ashby florence from",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 11.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence movie",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 10.666666666666666
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashbyflorence",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 10.666666666666666
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "what is ashby's real name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence flash",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 19
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence high school",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence hot",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 14
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "ashby florence merch",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"query": "site:9takes.com",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 26
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/ashby",
+					"clicks": 9,
+					"impressions": 1406,
+					"ctr_pct": 0.6401137980085349,
+					"position": 9.322901849217638
+				}
+			]
+		},
+		"john-coogan": {
+			"page": {
+				"clicks": 8,
+				"impressions": 857,
+				"ctr_pct": 0.9334889148191364,
+				"position": 5.640606767794632
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 0,
+					"impressions": 404,
+					"ctr_pct": 0,
+					"position": 1.5965346534653466
+				},
+				"biography": {
+					"clicks": 5,
+					"impressions": 116,
+					"ctr_pct": 4.310344827586207,
+					"position": 9.922413793103448
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 34,
+					"ctr_pct": 0,
+					"position": 9.205882352941176
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan",
+					"family": "exact_name",
+					"clicks": 0,
+					"impressions": 404,
+					"ctr_pct": 0,
+					"position": 1.5965346534653464
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan wife",
+					"family": "biography",
+					"clicks": 5,
+					"impressions": 101,
+					"ctr_pct": 4.9504950495049505,
+					"position": 9.693069306930694
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "evaluate the delphi company delphi on john coogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 12,
+					"ctr_pct": 0,
+					"position": 8.333333333333332
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogam",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "jon coogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 15.833333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 14.8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan net worth",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogsn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john cooga",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan education",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 11.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan height",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 18.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "how tall is john coogan",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 18
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "if i asked john coogan the following: \"how does your founder-mode heuristic shape your decisions?\" what would they say?",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "john coogan soylent",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 23
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "johncoogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 21
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "stephen john coogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 17
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "where did john coogan go to college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 16
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"query": "who is john coogan",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan",
+					"clicks": 8,
+					"impressions": 857,
+					"ctr_pct": 0.9334889148191364,
+					"position": 5.640606767794632
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#what-is-john-coogans-personality-type",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#lucy-and-the-usefulness-of-a-closed-door",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 8.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#soylent-taught-him-what-a-strange-idea-can-unlock",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/john-coogan#pasadena-gave-him-the-ocean-and-outer-space",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 9.5
+				}
+			]
+		},
+		"leila-hormozi": {
+			"page": {
+				"clicks": 5,
+				"impressions": 274,
+				"ctr_pct": 1.824817518248175,
+				"position": 10.532846715328468
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"biography": {
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 5.75
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 9.4375
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila naghshineh",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 13,
+					"ctr_pct": 0,
+					"position": 8.615384615384615
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi mbti",
+					"family": "personality",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 5.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi leaked",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 14
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi parents",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "did leila hormozi go to college",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi leak",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"query": "leila hormozi maiden name",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/leila-hormozi",
+					"clicks": 5,
+					"impressions": 274,
+					"ctr_pct": 1.824817518248175,
+					"position": 10.532846715328468
+				}
+			]
+		},
+		"jordi-hays": {
+			"page": {
+				"clicks": 127,
+				"impressions": 5895,
+				"ctr_pct": 2.1543681085665822,
+				"position": 6.633418150975403
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 73,
+					"impressions": 3434,
+					"ctr_pct": 2.125800815375655,
+					"position": 7.094350611531741
+				},
+				"biography": {
+					"clicks": 4,
+					"impressions": 479,
+					"ctr_pct": 0.8350730688935281,
+					"position": 6.4154488517745305
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 9,
+					"impressions": 353,
+					"ctr_pct": 2.5495750708215295,
+					"position": 5.215297450424929
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays",
+					"family": "exact_name",
+					"clicks": 73,
+					"impressions": 3434,
+					"ctr_pct": 2.125800815375655,
+					"position": 7.094350611531741
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays age",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 204,
+					"ctr_pct": 0.49019607843137253,
+					"position": 5.068627450980392
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays wife",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 160,
+					"ctr_pct": 0.625,
+					"position": 8.85625
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays tbpn",
+					"family": "other",
+					"clicks": 2,
+					"impressions": 49,
+					"ctr_pct": 4.081632653061225,
+					"position": 8.448979591836736
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays wikipedia",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 46,
+					"ctr_pct": 2.1739130434782608,
+					"position": 4.934782608695652
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 31,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordihays",
+					"family": "other",
+					"clicks": 2,
+					"impressions": 25,
+					"ctr_pct": 8,
+					"position": 8.04
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordy hays",
+					"family": "other",
+					"clicks": 2,
+					"impressions": 20,
+					"ctr_pct": 10,
+					"position": 7.2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "who is jordi hays",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 20,
+					"ctr_pct": 0,
+					"position": 5.55
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 16,
+					"ctr_pct": 0,
+					"position": 2.0625
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays background",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 15,
+					"ctr_pct": 6.666666666666667,
+					"position": 4.733333333333333
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "why jordi",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 13,
+					"ctr_pct": 0,
+					"position": 6.384615384615385
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan jordi hays",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 12,
+					"ctr_pct": 0,
+					"position": 5.416666666666667
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays net worth",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 12,
+					"ctr_pct": 0,
+					"position": 8.666666666666668
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 11,
+					"ctr_pct": 0,
+					"position": 1.9090909090909092
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hayes age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 11,
+					"ctr_pct": 0,
+					"position": 5.636363636363637
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn podcast",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 10,
+					"ctr_pct": 0,
+					"position": 3.4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 9,
+					"ctr_pct": 0,
+					"position": 1.5555555555555556
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 9,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan and jordi hays",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 7,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes podcast list",
+					"family": "other",
+					"clicks": 1,
+					"impressions": 6,
+					"ctr_pct": 16.666666666666664,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan & jordi hays",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 6,
+					"ctr_pct": 0,
+					"position": 22.833333333333332
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "sarah chase hays",
+					"family": "other",
+					"clicks": 2,
+					"impressions": 5,
+					"ctr_pct": 40,
+					"position": 17.2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes top paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 2.2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordy tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 9.4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "the highest-paid podcasters of 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 4.2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "richest podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn jordi hays",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 12
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how tall is jordi hays",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 5.666666666666667
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi tbpn",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 15.333333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top 10 highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top earning podcasts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top paid podcasters 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes highest paid podcasters 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 2.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes highest paid podcasters 2026 list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes highest paid podcasters list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes list of highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes podcast list 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes top 20 podcasts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes’ highest-paid podcasters list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters 2025",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john and jordi",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 12.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays height",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 8
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays tbpn linkedin",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 11.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top 10 paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top 20",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top 20 highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top podcast earners",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "who is the highest paid podcaster",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "yes",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 4.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "are they brothers?",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "can you show the full list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "charlie carlisle rorra",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 50
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes highest paid podcaster list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes podcasters list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes top 10 podcasts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes top podcast",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes top podcaster list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes top podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "forbes top podcasts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "give me the top 20",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest earning podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcast",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcaster 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters 2026 list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters forbes",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasters of 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest paid podcasts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest podcast earners",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "highest-paid podcasters of 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "hoghest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how do i get in touch with them",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "how much did the founders make",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "joe budden net worth",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "joe rogan topped the highest-paid podcasters ranking in recent reports",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "john coogan and jordi hays podcast",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays biography tbpn",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "jordi hays instagram",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 12
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "list the top 20",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "podcast forbes",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "richest podcasters in the world",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "show me the top 20",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "show me top 50",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbnp",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn hosts",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 4
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn meaning",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 3
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn open ai",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "tbpn producer",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "the highest paid podcaster",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "the highest paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top 10 podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top 20 paid podcasters",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top 25 list",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top earning podcasts 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top podcast earnings",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"query": "top podcasters 2026",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays",
+					"clicks": 127,
+					"impressions": 5895,
+					"ctr_pct": 2.1543681085665822,
+					"position": 6.633418150975403
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#the-compounding-machine",
+					"clicks": 0,
+					"impressions": 1196,
+					"ctr_pct": 0,
+					"position": 6.706521739130435
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#what-is-jordi-hayss-personality-type",
+					"clicks": 0,
+					"impressions": 1196,
+					"ctr_pct": 0,
+					"position": 6.706521739130435
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#while-party-round-was-fun-jordi-was-dead-serious",
+					"clicks": 0,
+					"impressions": 1192,
+					"ctr_pct": 0,
+					"position": 6.706375838926174
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#the-year-the-market-tried-to-kill-him",
+					"clicks": 0,
+					"impressions": 1122,
+					"ctr_pct": 0,
+					"position": 6.505347593582887
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#from-skatepark-to-shanghai",
+					"clicks": 0,
+					"impressions": 1120,
+					"ctr_pct": 0,
+					"position": 6.494642857142857
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/jordi-hays#while-other-kids-worshipped-athletes",
+					"clicks": 0,
+					"impressions": 1119,
+					"ctr_pct": 0,
+					"position": 6.499553172475425
+				}
+			]
+		}
+	}
+}

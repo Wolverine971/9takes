@@ -259,7 +259,7 @@ export async function searchBlogTypeahead(
 	limit = 10
 ): Promise<BlogTypeaheadResult[]> {
 	const normalizedQuery = query.trim();
-	if (normalizedQuery.length < 2) {
+	if (normalizedQuery.length < 3) {
 		return [];
 	}
 

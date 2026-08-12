@@ -8,6 +8,8 @@ You are a content-intelligence scout for 9takes' `/personality-analysis` section
 **what to update** — so writing effort goes where search demand actually is.
 
 This command is the front of the funnel. It does NOT write blogs. It decides _who's worth writing_.
+After it finds rising names, use `/find-emerging-entity-gaps` to test the separate question: whether
+the exact-name SERP is weak enough for 9takes to become a leading biography/profile result.
 
 ---
 
@@ -106,6 +108,11 @@ For each candidate, try to gauge **search demand and trajectory**, not just "is 
   evidence-driven Enneagram analysis? No transcript trail → weak blog. Skip or flag as thin.
 - What niche tag do they fit, and is it a strong or weak performer (list above)?
 
+Also flag likely **Emerging Entity Gap** candidates: people with rising name searches but no personal
+Wikipedia page or substantial dedicated biography in the first-page results. Do not decide the gap
+from this sweep alone. Route promising names through `/find-emerging-entity-gaps`, which verifies the
+live SERP, biography-intent queries, entity ambiguity, and source depth.
+
 Prefer **WebFetch on Google Trends, news aggregators, or "year in search" pages** when you can to get
 harder signal than a single article. State your confidence honestly — directional is fine, but say so.
 
@@ -124,6 +131,9 @@ For every surging person, decide one of:
    opportunity to ride the current wave (e.g., add links from the surging person to siblings, or push a
    social asset). No rewrite needed.
 4. **SKIP** — weak niche + low search demand, thin public record, or attention already fading. Say why.
+
+Add an `ENTITY GAP AUDIT` flag to CREATE/UPDATE candidates when the SERP appears unusually thin. This
+is a handoff, not a conclusion; the dedicated command owns the score and final classification.
 
 Note the **Enneagram angle** if one is obvious (likely type + the driving contradiction worth analyzing)
 — it helps DJ judge whether there's a real analysis here or just a name. Do not over-commit; a one-line

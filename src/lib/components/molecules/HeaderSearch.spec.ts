@@ -77,7 +77,7 @@ describe('HeaderSearch', () => {
 
 		expect(screen.getAllByText('Searching…').length).toBeGreaterThan(0);
 
-		await vi.advanceTimersByTimeAsync(200);
+		await vi.advanceTimersByTimeAsync(300);
 
 		await waitFor(() => {
 			expect(fetch).toHaveBeenCalledWith(
@@ -88,6 +88,17 @@ describe('HeaderSearch', () => {
 
 		expect(screen.getByText('Cillian Murphy Personality Analysis')).toBeTruthy();
 		expect(screen.getByText('Personality analysis')).toBeTruthy();
+	});
+
+	it('does not query the database for a two-character prefix', async () => {
+		render(HeaderSearch);
+
+		const input = screen.getByRole('combobox', { name: /search 9takes/i });
+		await fireEvent.input(input, { target: { value: 'ca' } });
+		await vi.advanceTimersByTimeAsync(500);
+
+		expect(fetch).not.toHaveBeenCalled();
+		expect(screen.queryByText('Searching…')).toBeNull();
 	});
 
 	it('renders description fallback text without double-escaping entities', async () => {
@@ -108,7 +119,7 @@ describe('HeaderSearch', () => {
 
 		const input = screen.getByRole('combobox', { name: /search 9takes/i });
 		await fireEvent.input(input, { target: { value: 'boundary' } });
-		await vi.advanceTimersByTimeAsync(200);
+		await vi.advanceTimersByTimeAsync(300);
 
 		await waitFor(() => {
 			expect(fetch).toHaveBeenCalledWith(

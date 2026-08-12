@@ -22,9 +22,9 @@
 		comment_count: number | null;
 	}
 
-	const MIN_QUERY_LENGTH = 2;
+	const MIN_QUERY_LENGTH = 3;
 	const SEARCH_SCOPE = 'all';
-	const TYPEAHEAD_DEBOUNCE_MS = 100;
+	const TYPEAHEAD_DEBOUNCE_MS = 225;
 	const TYPEAHEAD_CACHE_TTL_MS = 60_000;
 	const MAX_TYPEAHEAD_CACHE_SIZE = 40;
 

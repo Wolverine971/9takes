@@ -1,8 +1,9 @@
 ---
 title: "Leila Hormozi: The Debt She's Still Paying Has Nothing to Do With Money"
 persona_title: "Business's Worthiness Machine"
-meta_title: 'Why Leila Hormozi Turns Shame Into Extreme Success'
-description: 'Why does Leila Hormozi turn shame into output? We decode the Type 3 drive behind Acquisition.com, composure, loyalty, and why rest feels like quitting.'
+meta_title: 'Leila Hormozi: Why She Turns Shame Into Extreme Success'
+head_term_exception: 'Emerging Entity Gap: exact-name biography intent is primary'
+description: 'Leila Hormozi is the co-founder and chairwoman of Acquisition.com. Her Type 3 story connects operational intensity, composure, loyalty, and burnout.'
 author: 'DJ Wayne'
 date: '2025-01-06'
 loc: 'https://9takes.com/personality-analysis/leila-hormozi'
@@ -45,6 +46,15 @@ citations:
   - 'https://hormozi.blog/doing-my-own-hair-and-makeup/'
   - 'https://www.famousbirthdays.com/people/leila-hormozi.html'
 faqs:
+  - question: 'Who is Leila Hormozi?'
+    answer: 'Leila Hormozi is an Iranian-American entrepreneur, investor, and co-founder and chairwoman of Acquisition.com. She previously built Gym Launch, Prestige Labs, and ALAN with Alex Hormozi and is best known for her work in operations, hiring, and scaling companies.'
+    anchor: 'who-is-leila-hormozi'
+  - question: "What is Leila Hormozi's role at Acquisition.com?"
+    answer: 'Leila Hormozi is the co-founder and chairwoman of Acquisition.com. After running its day-to-day operations as CEO, she moved into the chairwoman role so she could focus on the portfolio, leadership, and longer-term strategy.'
+    anchor: 'what-is-leila-hormozis-role-at-acquisitioncom'
+  - question: 'Where did Leila Hormozi go to college?'
+    answer: 'Leila Hormozi graduated from Western Michigan University in 2014 with a degree in kinesiology and exercise science. She moved to Orange County, California, the following year to begin her career as a personal trainer.'
+    anchor: 'where-did-leila-hormozi-go-to-college'
   - question: "What is Leila Hormozi's personality type?"
     answer: "Leila Hormozi is an Enneagram Type 3 (The Achiever). The pattern shows in her own equation — 'I have to make all of this worth something. My life has to be worth this pain' — in performing composure ('can be nervous, scared, anxious, and still act like I'm not'), in the 5-minute rule that schedules emotions like meetings, in reframing shame itself as a performance problem, and in converting six arrests and a childhood spent keeping her mother alive into a $100 million net worth by 28."
     anchor: 'what-is-leila-hormozis-personality-type'
@@ -125,6 +135,12 @@ Assets. Bridges. The same woman said both. The [Enneagram Type 3](/enneagram-cor
 > "I have to make all of this worth something. My life has to be worth this pain."
 
 That's not ambition. That's a debt she's been paying since she was ten years old.
+
+## Who is Leila Hormozi?
+
+Leila Hormozi is an Iranian-American entrepreneur, investor, and co-founder and chairwoman of Acquisition.com. She began as a personal trainer, helped build Gym Launch, Prestige Labs, and ALAN with [Alex Hormozi](/personality-analysis/alex-hormozi), and now works with a portfolio of founder-led companies. Her [official biography](https://leilahormozi.com/about) emphasizes operations, hiring, management systems, and company scaling.
+
+Hormozi graduated from Western Michigan University with a degree in kinesiology and exercise science before moving to Orange County, California, in 2015. She later ran Acquisition.com's day-to-day operations as CEO and moved into the chairwoman role as the organization expanded. That factual career spine explains the scale of the psychological question this profile examines: why competence became both her professional advantage and her measure of personal worth.
 
 <details>
 <summary class="accordion">TL;DR: Why Leila Hormozi is an Enneagram Type 3</summary>

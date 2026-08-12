@@ -78,12 +78,12 @@ const people = [
 	{
 		slug: 'john-krasinski',
 		name: 'John-Krasinski',
-		width: 1920,
-		height: 2880,
-		left: [654.805, 1281.719],
-		right: [1159.379, 1265.276],
-		correction: 1.866,
-		eyeDistance: 150
+		width: 1000,
+		height: 1500,
+		left: [532.168, 322.728],
+		right: [613.162, 333.493],
+		correction: -7.571,
+		eyeDistance: 160
 	},
 	{
 		slug: 'noah-wyle',

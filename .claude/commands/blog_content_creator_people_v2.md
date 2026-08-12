@@ -24,6 +24,29 @@ Use TaskCreate / TaskUpdate to track progress through the workflow. Create an in
 
 **Out of scope:** database reads/writes, stale-blog audits, `famousTypes.ts` regeneration, image handling, publication-state changes. After the draft is approved, hand off to `blog_content_production_people`.
 
+## Emerging Entity Gap packet
+
+When the invocation includes `--entity-gap-brief=<path>`, read that packet before external research.
+It records the current exact-name SERP, biography-intent query families, source gate, competitors,
+claims to avoid, and any protected strengths in an existing page.
+
+The packet is advisory, not a type or publication decision. Use it to make the profile satisfy the
+reader's identity question before layering on the psychological interpretation:
+
+- explain who the person is and why they matter now in the opening screen
+- preserve the exact person name in the visible identity/title system
+- include a sourced life-and-career spine when the SERP lacks a real biography
+- answer only verified age, partner, family, education, background, and company/show queries
+- organize the page around one memorable contradiction rather than a generic biography template
+- preserve any strengths named in `Protected strengths`; do not erase a ranking thesis during refresh
+
+When biography intent is primary and the best reviewed SEO title is `Name + distinctive thesis`
+without an Enneagram head term, add a truthful `head_term_exception` explaining the Emerging Entity
+Gap decision. Do not add the field when the title already contains the normal searchable head term.
+
+If the packet is absent or stale, continue normally and record that limitation. Never invent search
+volume, SERP positions, query suggestions, or biographical facts to fill the gap.
+
 ---
 
 ## Execution Mode
@@ -700,6 +723,10 @@ When invoked:
 
 **Read first:** `/docs/blogs-famous-people/prep-prompt-1.md` — this is your research framework and depth checklist. Do not skip it; it contains the signature-detail hunt and the central-contradiction rubric that drive the blog's quality.
 
+**Then read the Emerging Entity Gap packet** when `--entity-gap-brief` was supplied. Turn its
+biography-intent map into explicit research questions. A weak SERP is permission to be useful, not
+permission to speculate: every fact-query answer still needs an authoritative source.
+
 **Then read:** `/docs/development/enneagram-mental-health-blog-index.json`. Shortlist 6–12 internal posts relevant to the person's likely type and themes. Read 3–6 in full. Build an "internal lens brief" with pattern hypotheses and counter-hypotheses to test against external evidence.
 
 **Research focus areas (standard):**
@@ -827,6 +854,12 @@ If nothing surfaces after a reasonable search, name the specific gap in working 
 - Legacy and current work
 - No visible FAQ section at the bottom
 - Strong ending that cuts to black (see The Ending Rule)
+
+**When the entity-gap packet marks `biography_intent: true`:** the opening must identify the person,
+their current relevance, and their signature work without assuming the reader is already a fan. The
+body must contain a sourced formation/career spine and concise answers to the packet's verified query
+families. These elements should support the central contradiction, not form an `Early Life / Career /
+Personal Life` fact dump.
 
 **Apply the Five Craft Principles throughout** — show don't label, point don't talk, story over system, sound like 9takes, compress ruthlessly.
 
@@ -1117,6 +1150,10 @@ production_pretext:
   blockers: []
 ---
 ```
+
+Entity URLs are explicit-only. Add `wikipedia`, `wikidata_qid`, IMDb, and `same_as` entries only when
+you verified that the destination describes this exact person. Never synthesize a Wikipedia URL from
+the person's slug, and never use a company/show Wikipedia page as if it were the person's page.
 
 If the draft has been graded, preserve this optional block. Key name is exactly `content_quality` (not `content_grade`):
 

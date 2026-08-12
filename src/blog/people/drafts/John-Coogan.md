@@ -1,8 +1,9 @@
 ---
 title: 'John Coogan: The Man Who Would Rather Learn Than Win'
-meta_title: 'Is John Coogan an Enneagram Type 7? Inside His Curiosity'
+meta_title: 'John Coogan: The Curiosity Behind TBPN, Soylent and Lucy'
+head_term_exception: 'Emerging Entity Gap: exact-name biography intent is primary'
 persona_title: "Silicon Valley's Restless Systems Explorer"
-description: "John Coogan keeps trading certainty for a more interesting problem. See why the curiosity behind Soylent, Lucy, and TBPN points to Enneagram Type 7."
+description: 'John Coogan is the TBPN co-host who helped build Soylent and Lucy. His Type 7 story explains why curiosity keeps outranking comfort and certainty.'
 author: 'DJ Wayne'
 date: '2026-07-14'
 loc: 'https://9takes.com/personality-analysis/john-coogan'
@@ -59,6 +60,15 @@ citations:
   - 'https://openai.com/index/openai-acquires-tbpn/'
   - 'https://www.youtube.com/watch?v=KWiIMKiiwz0'
 faqs:
+  - question: 'Who is John Coogan?'
+    answer: 'John Coogan is an American entrepreneur, technology creator, investor, and co-host of the daily tech-business show TBPN. He co-founded Soylent and Lucy, produced documentary videos about technology companies, hosted Power Law, and worked as an entrepreneur-in-residence at Founders Fund before building TBPN with Jordi Hays.'
+    anchor: 'who-is-john-coogan'
+  - question: 'What companies did John Coogan found?'
+    answer: 'John Coogan co-founded the meal-replacement company Soylent, the nicotine company Lucy, and TBPN with Jordi Hays. His career also includes documentary YouTube work, the Power Law podcast, and an entrepreneur-in-residence role at Founders Fund.'
+    anchor: 'what-companies-did-john-coogan-found'
+  - question: 'Where did John Coogan go to college?'
+    answer: 'John Coogan studied economics at Northeastern University. He moved west after college, learned to program, and began building startups with longtime collaborator David Renteln.'
+    anchor: 'where-did-john-coogan-go-to-college'
   - question: 'What is John Coogan''s personality type?'
     answer: 'John Coogan is best understood as an Enneagram Type 7. He explicitly ranks curiosity above money, fame, prestige, health, and comfort, then builds demanding projects that keep producing new questions.'
     anchor: 'what-is-john-coogans-personality-type'
@@ -169,6 +179,12 @@ Ending swap-test: pass — the identical studio and newly changed world depend o
 That ranking rearranges his résumé. Soylent, Lucy, a documentary YouTube channel, Founders Fund, <em>Power Law</em>, and TBPN resemble an escalating series of Silicon Valley wins. Coogan describes them as access points to new systems. Each project gives him a fresh set of mechanics to decode and another reason to avoid the safe route.
 
 The question running through his career is simple: how do you build something enduring without becoming trapped inside the thing you built?
+
+## Who is John Coogan?
+
+John Coogan is an American entrepreneur, technology creator, investor, and co-host of TBPN, the weekday tech-business show he built with [Jordi Hays](/personality-analysis/jordi-hays). Before TBPN, he co-founded the meal-replacement company Soylent and the nicotine company Lucy, created documentary videos about technology businesses, hosted <em>Power Law</em>, and worked as an entrepreneur-in-residence at Founders Fund. His [public profile](https://www.johncoogan.com/) centers those operating and media roles rather than a single company.
+
+He grew up in Pasadena, studied economics at Northeastern University, and moved to San Francisco to build startups with his longtime collaborator David Renteln. That career timeline is not background decoration: each transition shows the same preference for a new system to understand over a settled identity to defend.
 
 <details>
 <summary class="accordion">TL;DR: Why John Coogan is an Enneagram Type 7</summary>

@@ -90,16 +90,15 @@ describe('JSON-LD helpers', () => {
 		]);
 	});
 
-	it('ignores blank or sentinel social values', () => {
+	it('ignores blank or sentinel social values without inventing identity URLs', () => {
 		expect(
 			buildPersonSameAsUrls({
 				wikipedia: 'None',
-				fallbackWikipedia: 'https://en.wikipedia.org/wiki/Benson_Boone',
 				twitter: 'None',
 				instagram: '',
 				tiktok: 'n/a'
 			})
-		).toEqual(['https://en.wikipedia.org/wiki/Benson_Boone']);
+		).toEqual([]);
 	});
 
 	it('merges explicit sameAs URLs ahead of legacy fallbacks', () => {

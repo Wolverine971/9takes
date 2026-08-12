@@ -50,66 +50,6 @@ const querySchema = z.object({
 });
 const RPC_RELEASE_LIMIT = 200;
 const DEMAND_BASELINE_LIMIT = RPC_RELEASE_LIMIT;
-const RAW_VISIT_REFRESH_WINDOW_DAYS = 90;
-const RELEASE_ANALYTICS_WINDOW_DAYS = 30;
-
-function toDateString(date: Date): string {
-	const year = date.getFullYear();
-	const month = String(date.getMonth() + 1).padStart(2, '0');
-	const day = String(date.getDate()).padStart(2, '0');
-	return `${year}-${month}-${day}`;
-}
-
-function addDaysString(value: string, days: number): string | null {
-	const date = new Date(`${value}T12:00:00Z`);
-	if (Number.isNaN(date.getTime())) return null;
-	date.setUTCDate(date.getUTCDate() + days);
-	return date.toISOString().slice(0, 10);
-}
-
-function getFreshnessRefreshRange(): { from: string; to: string } {
-	const to = new Date();
-	const from = new Date(to);
-	from.setDate(from.getDate() - 44);
-
-	return {
-		from: toDateString(from),
-		to: toDateString(to)
-	};
-}
-
-function getRawRefreshFloor(): string {
-	const floor = new Date();
-	floor.setDate(floor.getDate() - RAW_VISIT_REFRESH_WINDOW_DAYS);
-	return toDateString(floor);
-}
-
-function getSelectedReleaseRefreshRange(
-	fromDate: string | undefined,
-	toDate: string | undefined
-): { from: string; to: string } | null {
-	const today = toDateString(new Date());
-	const rawFloor = getRawRefreshFloor();
-	const publishFrom = fromDate ?? rawFloor;
-	const publishTo = toDate ?? today;
-	const launchWindowTo = addDaysString(publishTo, RELEASE_ANALYTICS_WINDOW_DAYS - 1) ?? publishTo;
-	const from = publishFrom > rawFloor ? publishFrom : rawFloor;
-	const to = launchWindowTo < today ? launchWindowTo : today;
-
-	if (from > to) return null;
-	return { from, to };
-}
-
-function mergeRefreshRanges(
-	baseRange: { from: string; to: string },
-	selectedRange: { from: string; to: string } | null
-): { from: string; to: string } {
-	if (!selectedRange) return baseRange;
-	return {
-		from: selectedRange.from < baseRange.from ? selectedRange.from : baseRange.from,
-		to: selectedRange.to > baseRange.to ? selectedRange.to : baseRange.to
-	};
-}
 
 function parseDate(value: string | null): string | undefined {
 	if (!value) return undefined;
@@ -321,21 +261,6 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	}
 
 	const supabaseAny = locals.supabase as any;
-	const selectedRefreshRange = getSelectedReleaseRefreshRange(fromDate, toDate);
-	const refreshRange = mergeRefreshRanges(getFreshnessRefreshRange(), selectedRefreshRange);
-	const { data: refreshedRows, error: refreshError } = await supabaseAny.rpc(
-		'refresh_content_analytics_daily',
-		{
-			p_from: refreshRange.from,
-			p_to: refreshRange.to,
-			p_content_type: 'people'
-		}
-	);
-
-	if (refreshError) {
-		console.warn('Failed to refresh people release analytics before read:', refreshError);
-	}
-
 	const needsUnfilteredBaseline = Boolean(fromDate || toDate);
 	const selectedRowsPromise = fetchReleasePerformanceRows(
 		supabaseAny,
@@ -409,10 +334,11 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 			benchmarked: rows.filter((row) => row.overall_score !== null).length
 		},
 		refresh: {
-			from: refreshRange.from,
-			to: refreshRange.to,
-			rows: Number(refreshedRows || 0),
-			selectedRangeExtended: selectedRefreshRange !== null
+			from: null,
+			to: null,
+			rows: 0,
+			selectedRangeExtended: false,
+			scheduled: true
 		}
 	});
 };

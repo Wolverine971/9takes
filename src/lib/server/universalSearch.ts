@@ -284,7 +284,7 @@ export async function searchUniversalTypeahead(
 	const scope = options.scope ?? 'all';
 	const limit = Math.min(Math.max(options.limit ?? 10, 1), 20);
 
-	if (normalizedQuery.length < 2) {
+	if (normalizedQuery.length < 3) {
 		return { results: [], query: normalizedQuery, scope };
 	}
 

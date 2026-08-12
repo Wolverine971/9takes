@@ -48,6 +48,7 @@
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import ArticleSources from '$lib/components/blog/ArticleSources.svelte';
 	import EvidenceFigure from '$lib/components/blog/EvidenceFigure.svelte';
+	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 
 	export let data: PageData;
 
@@ -634,6 +635,14 @@
 				citations={postMeta.citations ?? []}
 				articleCitations={postMeta.article_citations ?? []}
 			/>
+
+			{#if (postMeta.faqs?.length ?? 0) >= 2}
+				<FAQSection
+					faqs={postMeta.faqs ?? []}
+					title={`Questions about ${postDisplayName}`}
+					sectionId="frequently-asked-questions"
+				/>
+			{/if}
 
 			<!-- ★ PRIMARY ACTION — the give-first Chorus is the one thing this page
 			     drives toward. Everything below is supporting content or quiet,

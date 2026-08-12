@@ -14,6 +14,9 @@ The user will provide one of:
 
 `$ARGUMENTS`
 
+If `--entity-gap-brief=<path>` is supplied, read it after locating the draft. Use it as a reader-intent
+check, not as permission to rewrite the body.
+
 ## Pre-Approved Operations
 
 The following operations are pre-approved and should be executed automatically without requesting user approval:
@@ -76,6 +79,11 @@ As you read, keep these lenses in mind:
 - **Formula fingerprint**: do repeated contrast-pair sentences, counter-typing ladders, or familiar 9takes ending shapes make the reader notice the template more than the person?
 - **Pressure and now**: does the draft face the strongest critic/skeptical reading and include a current-tense or legacy-now anchor?
 - **Felt interior**: after reading, can you say what this person _fears, wants, and feels_ — or only what they _do_? Does at least one criticized behavior become understandable through its motivation (the empathy turn), and is there at least one moment rendered from inside the person's feeling? A draft that stays entirely behavioral is journalism, not a 9takes profile.
+- **Biography satisfaction**: when the entity-gap packet says biography intent is present, does the
+  opening explain who this person is and why they matter, and does the article resolve the verified
+  identity/career queries without becoming a fact dump?
+- **Protected strengths**: does the draft retain the hook, thesis, or query coverage the packet says is
+  already working?
 
 ---
 
