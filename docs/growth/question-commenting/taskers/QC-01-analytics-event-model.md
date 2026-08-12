@@ -155,10 +155,13 @@ Add focused tests for:
 - Wired composer start and failure tracking to the homepage, question-page answer/comment composers, nested replies, and strategic blog question.
 - Added transactionally derived comment-success metadata to `create_comment_atomic`, so first-comment, first-response, reply, response-order, and question-age properties come from the successful database write rather than browser guesses.
 - Repaired the PostHog identity transition: anonymous route loads no longer reset the visitor ID, signed-in identity resolution gates eligible custom captures, and email is excluded from identify properties.
+- A second-pass audit now also clears an identified `$user_id` persisted across a full reload when server auth resolves anonymous, and resets before a shared browser switches directly between two authenticated accounts. Ordinary anonymous visits still retain their device journey.
+- Propagated an available `utm_campaign` into qualified question impressions and canonical comment events on the homepage, questions index, question page, and nested replies.
 - Added the read-only SQL scorecard linked above.
 - Focused result: 41 tests passed across nine files, including identity continuity, server analytics normalization, all comment mutation paths, and confirmed question creation. The full Vitest run also passed: 615 tests across 130 files.
 - Applied the migration to a disposable PostgreSQL database and exercised first response, later response, returning actor on a new question, and nested reply cases. The returned analytics values and parent reply count matched the contract.
 - The live PostHog schema does not show the four new event names yet, which is expected before deployment and is the remaining production gate.
+- Fresh verification after the second-pass fixes: the full Vitest suite passes with 627 tests across 131 files, including direct wrapper tests for anonymous reloads and shared-browser account switches.
 - `pnpm check` reported no diagnostics in this workstream's changed files. The repository-wide command remains red on the unrelated existing `scripts/lib/perspectiveReview.js` string-index type error.
 - Production PostHog verification and browser smoke tests remain open; do not unblock QC-03 or QC-06 until those pass.
 

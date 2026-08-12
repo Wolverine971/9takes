@@ -16,6 +16,7 @@
 		type CommentFailureStage
 	} from '$lib/analytics/commentEvents';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
+	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { questionInvitePromptWasSeen } from '$lib/analytics/questionInvites';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import { Button, SectionKicker } from '$lib/components/atoms';
@@ -133,7 +134,8 @@
 			questionId: data.featuredQuestion.id,
 			questionUrl: data.featuredQuestion.url,
 			surface: 'homepage',
-			sourcePath: '/'
+			sourcePath: '/',
+			campaign: getCurrentUtmCampaign()
 		});
 		return { destroy };
 	}
@@ -257,6 +259,7 @@
 					commentKind: 'answer',
 					surface: 'homepage',
 					sourcePath: browser ? window.location.pathname : undefined,
+					campaign: getCurrentUtmCampaign(),
 					isAnonymous: !data.user?.id,
 					...serverAnalytics
 				});
@@ -264,7 +267,8 @@
 			commentStartedTracked = false;
 			void capture('homepage_question_answered', {
 				question_url: data.featuredQuestion.url,
-				source_path: browser ? window.location.pathname : undefined
+				source_path: browser ? window.location.pathname : undefined,
+				campaign: getCurrentUtmCampaign()
 			});
 			await tick();
 			revealEl?.focus();
@@ -287,8 +291,14 @@
 			commentKind: 'answer' as const,
 			surface: 'homepage' as const,
 			sourcePath: browser ? window.location.pathname : undefined,
+			campaign: getCurrentUtmCampaign(),
 			isAnonymous: !data.user?.id
 		};
+	}
+
+	function getCurrentUtmCampaign(): string | undefined {
+		if (!browser) return undefined;
+		return extractPageViewAttribution(new URL(window.location.href)).utm_campaign ?? undefined;
 	}
 
 	function handleHomepageCommentInput(event: Event) {

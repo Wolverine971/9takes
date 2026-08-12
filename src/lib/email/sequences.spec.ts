@@ -7,7 +7,8 @@ import {
 	buildReactivationPersonUrl
 } from './reactivation-sequence-content';
 import { generateEmailHtml } from './base-template';
-import { prepareSequenceSend, type SequenceSendRow } from './sequences';
+import { rewriteLinksForTracking, rewritePlainTextLinksForTracking } from './base-template';
+import { prepareSequenceSend, type SequenceSendRow, WELCOME_SEQUENCE_KEY } from './sequences';
 
 function makeSequenceRow(overrides: Partial<SequenceSendRow> = {}): SequenceSendRow {
 	return {
@@ -66,7 +67,53 @@ describe('prepareSequenceSend', () => {
 			'Post it as a question: https://9takes.com/questions/create'
 		);
 		expect(prepared.plainText).not.toContain('Old DB text');
+		expect(prepared.linkAttribution).toEqual({
+			source: 'welcome',
+			medium: 'email',
+			campaign: 'welcome-sequence',
+			content: 'welcome_sequence_step_4'
+		});
 	});
+
+	it.each([1, 2, 3, 4])(
+		'attributes every first-party HTML and plain-text link in welcome step %i',
+		(stepNumber) => {
+			const prepared = prepareSequenceSend(
+				makeSequenceRow({
+					sequence_key: WELCOME_SEQUENCE_KEY,
+					step_number: stepNumber
+				})
+			);
+			const trackingId = '550e8400-e29b-41d4-a716-446655440000';
+			const trackedHtml = rewriteLinksForTracking(
+				prepared.htmlContent,
+				trackingId,
+				'https://9takes.com',
+				prepared.linkAttribution
+			);
+			const trackedPlainText = rewritePlainTextLinksForTracking(
+				prepared.plainText ?? '',
+				trackingId,
+				'https://9takes.com',
+				prepared.linkAttribution
+			);
+
+			const encodedTargets = [
+				...trackedHtml.matchAll(/\/api\/track\/click\/[^/"']+\/([^"']+)/g),
+				...trackedPlainText.matchAll(/\/api\/track\/click\/[^/\s]+\/([^\s.,;:!?]+)/g)
+			].map((match) => new URL(decodeURIComponent(Buffer.from(match[1], 'base64url').toString())));
+
+			expect(encodedTargets.length).toBeGreaterThanOrEqual(2);
+			for (const target of encodedTargets) {
+				expect(target.searchParams.get('utm_source')).toBe('welcome');
+				expect(target.searchParams.get('utm_medium')).toBe('email');
+				expect(target.searchParams.get('utm_campaign')).toBe('welcome-sequence');
+				expect(target.searchParams.get('utm_content')).toMatch(
+					new RegExp(`^welcome_sequence_step_${stepNumber}_link_\\d+$`)
+				);
+			}
+		}
+	);
 
 	it('uses code-managed copy and profile-created date tokens for reactivation sequences', () => {
 		const prepared = prepareSequenceSend(

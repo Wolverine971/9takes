@@ -10,10 +10,12 @@
 	import { onMount, untrack } from 'svelte';
 	import { browser } from '$app/environment';
 	import { deserialize } from '$app/forms';
+	import { page } from '$app/state';
 	import { Button, SectionKicker } from '$lib/components/atoms';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import SearchQuestion from '$lib/components/questions/SearchQuestion.svelte';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
+	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { buildBreadcrumbSchemaForGraph, buildFAQSchemaForGraph } from '$lib/utils/schema';
 	import { goto } from '$app/navigation';
 	import type { PageData } from './$types';
@@ -136,6 +138,7 @@
 				surface: 'questions_index',
 				sourcePath: '/questions',
 				position,
+				campaign: extractPageViewAttribution(page.url).utm_campaign ?? undefined,
 				questionCreatedAt: question.created_at,
 				responsesVisibleBeforeImpression: question.comment_count
 			});
@@ -249,18 +252,6 @@
 		const path = questionCategoryDisplayPath(categoryPath);
 		return path.at(-1)?.category_name ?? categoryPath.category_name;
 	}
-
-	// Search component dispatches createQuestion + questionSelected events.
-	function goToCreateQuestionPage(detail: string) {
-		if (!data?.user?.id) {
-			void goto('/register', { invalidateAll: true });
-			return;
-		}
-		const url = detail
-			? `/questions/create/?question=${encodeURIComponent(detail)}`
-			: '/questions/create/';
-		void goto(url, { invalidateAll: true });
-	}
 </script>
 
 <SEOHead
@@ -367,7 +358,6 @@
 				<SearchQuestion
 					{data}
 					showAskAction={Boolean(data?.user?.id)}
-					on:createQuestion={({ detail }) => goToCreateQuestionPage(detail)}
 					on:questionSelected={({ detail }) => {
 						if (detail?.url) {
 							void goto(`/questions/${detail.url}`);

@@ -19,6 +19,8 @@ import type { PostHog } from 'posthog-js';
 import {
 	buildIdentityProperties,
 	createIdentityTransitionTracker,
+	hasPersistedIdentifiedUser,
+	persistedIdentityRequiresReset,
 	type UserIdentity
 } from '$lib/analytics/posthogIdentity';
 
@@ -32,6 +34,7 @@ let cached: PostHog | null = null;
 let initPromise: Promise<PostHog | null> | null = null;
 let pendingIdentity: UserIdentity | null = null;
 let pendingReset = false;
+let pendingAnonymousIdentityCheck = false;
 const identityTransitions = createIdentityTransitionTracker();
 
 let identityResolutionPending = false;
@@ -55,11 +58,17 @@ export function loadPostHog(): Promise<PostHog | null> {
 				person_profiles: 'identified_only'
 			});
 			cached = posthog;
+			const persistedUserId = posthog.get_property('$user_id');
 
-			if (pendingReset) {
+			if (
+				pendingReset ||
+				(pendingAnonymousIdentityCheck && hasPersistedIdentifiedUser(persistedUserId)) ||
+				(pendingIdentity?.id && persistedIdentityRequiresReset(persistedUserId, pendingIdentity.id))
+			) {
 				posthog.reset();
 				pendingReset = false;
 			}
+			pendingAnonymousIdentityCheck = false;
 			if (pendingIdentity?.id) {
 				applyIdentity(posthog, pendingIdentity);
 				pendingIdentity = null;
@@ -98,12 +107,18 @@ function completeUserIdentityResolution(): void {
 export function setUserIdentity(identity: UserIdentity | null): void {
 	const transition = identityTransitions.transition(identity);
 	completeUserIdentityResolution();
-	if (!isPostHogEnabled() || transition.kind === 'none') return;
+	if (!isPostHogEnabled()) return;
 
 	if (cached) {
 		if (transition.kind === 'identify') {
+			if (persistedIdentityRequiresReset(cached.get_property('$user_id'), transition.identity.id)) {
+				cached.reset();
+			}
 			applyIdentity(cached, transition.identity);
-		} else if (transition.kind === 'reset') {
+		} else if (
+			transition.kind === 'reset' ||
+			hasPersistedIdentifiedUser(cached.get_property('$user_id'))
+		) {
 			cached.reset();
 		}
 		return;
@@ -112,9 +127,13 @@ export function setUserIdentity(identity: UserIdentity | null): void {
 	if (transition.kind === 'identify') {
 		pendingIdentity = transition.identity;
 		pendingReset = false;
+		pendingAnonymousIdentityCheck = false;
 	} else if (transition.kind === 'reset') {
 		pendingIdentity = null;
 		pendingReset = true;
+		pendingAnonymousIdentityCheck = false;
+	} else {
+		pendingAnonymousIdentityCheck = true;
 	}
 }
 

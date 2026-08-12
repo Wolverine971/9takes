@@ -1,6 +1,11 @@
 // src/lib/analytics/posthogIdentity.spec.ts
 import { describe, expect, it } from 'vitest';
-import { buildIdentityProperties, createIdentityTransitionTracker } from './posthogIdentity';
+import {
+	buildIdentityProperties,
+	createIdentityTransitionTracker,
+	hasPersistedIdentifiedUser,
+	persistedIdentityRequiresReset
+} from './posthogIdentity';
 
 describe('PostHog identity continuity', () => {
 	it('does not reset a browser merely because it loads anonymous routes', () => {
@@ -32,5 +37,19 @@ describe('PostHog identity continuity', () => {
 				...({ email: 'private@example.com' } as Record<string, unknown>)
 			})
 		).toEqual({ enneagram_type: 5, admin: false });
+	});
+
+	it('detects identified state persisted across a full page reload', () => {
+		expect(hasPersistedIdentifiedUser('user-1')).toBe(true);
+		expect(hasPersistedIdentifiedUser(42)).toBe(true);
+		expect(hasPersistedIdentifiedUser('')).toBe(false);
+		expect(hasPersistedIdentifiedUser(null)).toBe(false);
+	});
+
+	it('requires reset for anonymous auth or a different persisted account', () => {
+		expect(persistedIdentityRequiresReset('user-1')).toBe(true);
+		expect(persistedIdentityRequiresReset('user-1', 'user-2')).toBe(true);
+		expect(persistedIdentityRequiresReset('user-1', 'user-1')).toBe(false);
+		expect(persistedIdentityRequiresReset(null, 'user-1')).toBe(false);
 	});
 });

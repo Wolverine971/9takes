@@ -14,6 +14,7 @@
 		type CommentFailureStage
 	} from '$lib/analytics/commentEvents';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
+	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
@@ -277,6 +278,7 @@
 				commentKind: 'reply',
 				surface: 'question_page',
 				sourcePath: window.location.pathname,
+				campaign: getCurrentUtmCampaign(),
 				isAnonymous: false,
 				...serverAnalytics
 			});
@@ -321,8 +323,14 @@
 			commentKind: 'reply' as const,
 			surface: 'question_page' as const,
 			sourcePath: typeof window === 'undefined' ? undefined : window.location.pathname,
+			campaign: getCurrentUtmCampaign(),
 			isAnonymous: false
 		};
+	}
+
+	function getCurrentUtmCampaign(): string | undefined {
+		if (typeof window === 'undefined') return undefined;
+		return extractPageViewAttribution(new URL(window.location.href)).utm_campaign ?? undefined;
 	}
 
 	function handleReplyInput(event: Event) {

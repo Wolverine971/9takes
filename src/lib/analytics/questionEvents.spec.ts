@@ -10,6 +10,7 @@ vi.mock('$lib/analytics/posthog', () => ({
 
 import {
 	captureQuestionCreated,
+	captureQuestionImpression,
 	observeQualifiedQuestionImpression,
 	resetQuestionImpressionDedupeForTests
 } from './questionEvents';
@@ -120,6 +121,24 @@ describe('question analytics', () => {
 		});
 
 		expect(captureMock).not.toHaveBeenCalled();
+	});
+
+	it('forwards an available campaign without leaking the landing query', async () => {
+		await captureQuestionImpression({
+			questionId: 12,
+			questionUrl: 'a-question',
+			surface: 'question_page',
+			sourcePath: '/questions/a-question',
+			campaign: 'welcome-sequence'
+		});
+
+		expect(captureMock).toHaveBeenCalledWith('question_impression', {
+			question_id: 12,
+			question_url: 'a-question',
+			surface: 'question_page',
+			source_path: '/questions/a-question',
+			campaign: 'welcome-sequence'
+		});
 	});
 
 	it('requires half visibility for the full qualification duration', async () => {

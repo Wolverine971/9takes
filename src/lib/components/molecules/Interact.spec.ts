@@ -147,7 +147,7 @@ describe('Interact', () => {
 		window.history.replaceState(
 			{},
 			'',
-			`/questions/what-are-you-thinking-about-these-days?via=${inviteId}`
+			`/questions/what-are-you-thinking-about-these-days?via=${inviteId}&utm_campaign=welcome-sequence`
 		);
 		const oncommentAdded = vi.fn();
 		const longComment =
@@ -229,6 +229,7 @@ describe('Interact', () => {
 			commentKind: 'answer',
 			surface: 'question_page',
 			sourcePath: '/questions/what-are-you-thinking-about-these-days',
+			campaign: 'welcome-sequence',
 			inviteId,
 			isAnonymous: true,
 			isFirstCommentEver: true,

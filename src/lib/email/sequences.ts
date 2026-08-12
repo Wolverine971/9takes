@@ -218,7 +218,14 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 				campaign: 'reactivation-sequence',
 				content: `${row.sequence_key}_step_${row.step_number}`
 			}
-		: undefined;
+		: row.sequence_key === WELCOME_SEQUENCE_KEY
+			? {
+					source: 'welcome',
+					medium: 'email',
+					campaign: 'welcome-sequence',
+					content: `${WELCOME_SEQUENCE_KEY}_step_${row.step_number}`
+				}
+			: undefined;
 
 	return {
 		recipient: {

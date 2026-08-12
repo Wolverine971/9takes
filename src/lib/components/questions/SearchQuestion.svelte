@@ -54,14 +54,14 @@
 		if (abortController) abortController.abort();
 	});
 
-	const goToCreateQuestionPage = async () => {
+	const goToCreateQuestionPage = async (prefill = question) => {
 		try {
 			if (!data?.user?.id) {
 				await goto(`/register`, { invalidateAll: true });
 				return;
 			}
-			const url = question
-				? `/questions/create/?question=${encodeURIComponent(question)}`
+			const url = prefill
+				? `/questions/create/?question=${encodeURIComponent(prefill)}`
 				: '/questions/create/';
 			await goto(url, { invalidateAll: true });
 		} catch (error) {
@@ -243,7 +243,9 @@
 					name="question"
 					{placeholder}
 					onInputChange={({ text }) => debounce(text)}
-					onSelectQuestion={showAskAction ? () => dispatch('createQuestion', question) : undefined}
+					onSelectQuestion={showAskAction
+						? ({ text }) => void goToCreateQuestionPage(text)
+						: undefined}
 					{options}
 					onSelection={handleQuestionSelected}
 					loading={isSearching}

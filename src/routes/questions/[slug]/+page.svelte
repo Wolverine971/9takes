@@ -16,6 +16,7 @@
 <script lang="ts">
 	import { afterNavigate, beforeNavigate, invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
+	import { page } from '$app/state';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
 	import Interact from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
@@ -30,6 +31,7 @@
 		type QuestionInviteSource
 	} from '$lib/analytics/questionInvites';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
+	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import { buildQuestionCategoryPath } from '$lib/utils/questionCategorySlug';
 	import { buildBreadcrumbSchemaForGraph, type BreadcrumbItem } from '$lib/utils/schema';
 	import type { PageData } from './$types';
@@ -78,6 +80,7 @@
 		questionCreatedAt: string;
 		responsesVisibleBeforeImpression: number;
 		isAnsweredByViewer: boolean;
+		campaign?: string;
 	};
 
 	function trackQuestionImpression(node: HTMLElement, input: QuestionImpressionActionInput) {
@@ -105,7 +108,8 @@
 		questionUrl: data.question.url,
 		questionCreatedAt: data.question.created_at,
 		responsesVisibleBeforeImpression: data.comment_count,
-		isAnsweredByViewer: Boolean(data.flags?.userHasAnswered)
+		isAnsweredByViewer: Boolean(data.flags?.userHasAnswered),
+		campaign: extractPageViewAttribution(page.url).utm_campaign ?? undefined
 	});
 
 	let editableCategories = $derived<EditableCategory[]>(

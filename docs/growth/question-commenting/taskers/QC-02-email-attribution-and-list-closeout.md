@@ -5,7 +5,7 @@
 **For:** the agent making welcome-email participation attributable and closing the finite reactivation-list learning loop.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Ready  
+**Status:** Ready for deploy verification and closeout approval  
 **Related:** [`../02-BASELINE-2026-08-12.md`](../02-BASELINE-2026-08-12.md)
 
 ## 0. What and why
@@ -84,16 +84,16 @@ The default recommendation should be no new broad enrollment until a clear click
 
 ## Verification checklist
 
-- [ ] Welcome HTML links receive correct sequence and step UTMs.
-- [ ] Welcome plain-text links receive equivalent UTMs.
-- [ ] Existing reactivation attribution tests remain green.
-- [ ] Caller-supplied attribution is preserved.
-- [ ] Brand-link behavior is tested and documented.
+- [x] Welcome HTML links receive correct sequence and step UTMs.
+- [x] Welcome plain-text links receive equivalent UTMs.
+- [x] Existing reactivation attribution tests remain green.
+- [x] Caller-supplied attribution is preserved.
+- [x] Brand-link behavior is tested and documented.
 - [ ] A test click appears in `email_tracking_events` with its final destination.
 - [ ] A test landing appears in PostHog with welcome campaign properties.
-- [ ] The report reconciles the two known Welcome Email 1 journeys.
-- [ ] No PII is written to docs or PostHog.
-- [ ] `pnpm test -- src/lib/email`
+- [x] The report reconciles the two known Welcome Email 1 journeys.
+- [x] No PII is written to docs or PostHog.
+- [x] `pnpm test -- src/lib/email`
 - [ ] `pnpm check`
 
 ## Risks and gotchas
@@ -106,8 +106,18 @@ The default recommendation should be no new broad enrollment until a clear click
 
 ## Definition of done
 
-- [ ] Welcome links are attributable by sequence, step, and link.
-- [ ] The email-to-comment report is reproducible and privacy-safe.
-- [ ] The proven Welcome Email 1 learning is documented.
-- [ ] A reactivation closeout decision is ready for DJ.
-- [ ] No sequence state was changed without approval.
+- [x] Welcome links are attributable by sequence, step, and link.
+- [x] The email-to-comment report is reproducible and privacy-safe.
+- [x] The proven Welcome Email 1 learning is documented.
+- [x] A reactivation closeout decision is ready for DJ.
+- [x] No sequence state was changed without approval.
+
+## Local implementation update: 2026-08-12
+
+- Added structured welcome attribution in the shared sequence preparation path without changing Welcome Email 1 copy.
+- Added coverage for every welcome step, both MIME alternatives, caller-supplied UTM preservation, and the explicitly excluded brand link.
+- Added the privacy-safe sequence-to-comment SQL report and the dated closeout decision note at [`../03-QC-02-EMAIL-CLOSEOUT-2026-08-12.md`](../03-QC-02-EMAIL-CLOSEOUT-2026-08-12.md).
+- Reproduced the two known pilot journeys and ten comments; the all-time report also found one earlier July 16 step-one recipient with two comments.
+- Verification result: 30 focused email tests and the full 627-test Vitest suite pass.
+- `pnpm check` remains red only on the unrelated existing `scripts/lib/perspectiveReview.js` string-index type error; this workstream introduced no Svelte/type diagnostic.
+- No email was sent and no production sequence or enrollment state was changed.

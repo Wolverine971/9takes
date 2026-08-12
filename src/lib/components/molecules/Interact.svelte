@@ -23,6 +23,7 @@
 		type CommentCreatedKind
 	} from '$lib/analytics/commentEvents';
 	import { capture } from '$lib/analytics/posthog';
+	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import {
 		getRecipientQuestionInviteId,
 		recordQuestionInviteCreated,
@@ -354,6 +355,7 @@
 				commentKind: submittedKind,
 				surface: 'question_page',
 				sourcePath: window.location.pathname,
+				campaign: getCurrentUtmCampaign(),
 				inviteId,
 				isAnonymous: !user?.id,
 				...serverAnalytics
@@ -382,8 +384,14 @@
 			commentKind: composerKind,
 			surface: 'question_page' as const,
 			sourcePath: typeof window === 'undefined' ? undefined : window.location.pathname,
+			campaign: getCurrentUtmCampaign(),
 			isAnonymous: !user?.id
 		};
+	}
+
+	function getCurrentUtmCampaign(): string | undefined {
+		if (typeof window === 'undefined') return undefined;
+		return extractPageViewAttribution(new URL(window.location.href)).utm_campaign ?? undefined;
 	}
 
 	function trackCommentStarted(value: string) {

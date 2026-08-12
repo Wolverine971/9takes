@@ -226,6 +226,11 @@ describe('Comment', () => {
 	});
 
 	it('captures a server-confirmed reply with the canonical comment event', async () => {
+		window.history.replaceState(
+			{},
+			'',
+			'/questions/what-keeps-you-grounded?utm_campaign=welcome-sequence'
+		);
 		const createdReply: CommentType = {
 			id: 88,
 			comment: 'A reply from another perspective.',
@@ -271,6 +276,7 @@ describe('Comment', () => {
 			commentKind: 'reply',
 			surface: 'question_page',
 			sourcePath: '/questions/what-keeps-you-grounded',
+			campaign: 'welcome-sequence',
 			isAnonymous: false,
 			isFirstCommentEver: false,
 			isFirstCommentOnQuestion: false,

@@ -77,4 +77,24 @@ describe('sendEmail link handling', () => {
 		expect(result.success).toBe(true);
 		expect(rawMessage.match(new RegExp(`/api/track/click/${TRACKING_ID}/`, 'g'))).toHaveLength(2);
 	});
+
+	it('leaves the template brand link direct and outside sequence-link conclusions', async () => {
+		await sendEmail({
+			to: 'recipient@example.com',
+			subject: 'Welcome message',
+			htmlContent: '<p><a href="https://9takes.com/questions/example">Answer</a></p>',
+			plainTextContent: 'Answer: https://9takes.com/questions/example',
+			trackingId: TRACKING_ID,
+			linkAttribution: {
+				source: 'welcome',
+				medium: 'email',
+				campaign: 'welcome-sequence',
+				content: 'welcome_sequence_step_1'
+			}
+		});
+		const rawMessage = lastRawMessage();
+
+		expect(rawMessage).toContain('<a href="https://9takes.com"');
+		expect(rawMessage).not.toContain('<a href="https://9takes.com?utm_source=welcome');
+	});
 });
