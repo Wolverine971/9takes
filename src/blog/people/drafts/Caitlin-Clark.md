@@ -85,23 +85,21 @@ production_pretext:
     - image_check
   blockers: []
 content_quality:
-  hook: 8
+  hook: 9
   enneagram: 9
   evidence: 9
   writing: 8
-  originality: 8
+  originality: 7
   discoverability: 9
-  overall: 8.6
-  first_overall: 8.4
-  regrade_overall: 7.9
-  grade_stability_delta: 0.5
-  letter: 'B+'
+  overall: 8.4
+  letter: 'B'
   rubric_version: 2
-  caps_applied: []
-  confidence: medium
+  caps_applied: ['cross_draft_sameness']
+  confidence: high
   anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: false
-  graded_at: '2026-08-05'
+  graded_at: '2026-08-11'
+path: src/blog/people/drafts/Caitlin-Clark.md
 ---
 
 <!-- TYPE-CHALLENGE MEMO (pre-write, working notes)
@@ -299,6 +297,8 @@ She runs the numbers on her best nights too. On July 17, 2026, Clark scored 45 p
 
 That last row is the one. The record night arrived inside a three-point escape against the worst team in the league. Yahoo Sports headlined it "eke out." For Clark the number that failed to meet the standard is the number the eye lands on.
 
+The imagined tape session sounds like this:
+
 <p class="inner-thought">Forty-five, and it still came down to me at the line with seventeen seconds left. Three points. Against them. Somewhere in there are the four minutes that made it close, and I will find them tomorrow.</p>
 
 ---
@@ -377,6 +377,8 @@ Ones run on anger they mostly aim at themselves, and the portion that will not f
 What it cost the room shows up in what Iowa built to manage it. Bluder called technical fouls on Clark in practice more than once, sometimes from the bench herself when no hired official would, and once sent her off the floor entirely.
 
 Bluder's successor as Iowa head coach, Jan Jensen, told the Talkin' Hawks podcast in 2025 that the last one is evidence the relationship held: it was not always easy, and the two of them were wired very much the same. Bluder's standing instruction to her staff was to leave the fire alone. You cannot coach it into somebody who does not have it, and putting a bushel over it costs more than a technical does.
+
+The reframe changes what the behavior means without changing what it cost.
 
 Stephanie White, who took over as her head coach in Indiana in 2025, landed on the same prescription Iowa did.
 
@@ -676,9 +678,10 @@ Evidence (the B+ list, all five slots):
 
 Funded by (the grade named the first two; all three were on its tic list):
 - The "obsessed with the work" unpacking paragraph cut to one sentence.
-- "If the pattern holds, the drive home sounds something like this." preamble cut.
-- "The reframe changes what the behavior means without changing what it cost." cut (writer grading
-  own move).
+- "If the pattern holds, the drive home sounds something like this." was cut, then replaced before
+  publish with a concise authorial marker required by P1-08. Do not remove that marker.
+- "The reframe changes what the behavior means without changing what it cost." was restored before
+  publish because it is PROTECT-06. Do not cut it in a later grade-response pass.
 - "Pressure-test that against the obvious alternative" converted to declarative ("The obvious
   alternative is Type Three."), making the ledger's imperative count of 2 true.
 
@@ -693,4 +696,3 @@ Post-pass state: lint 0 fail, 2 warn (protected comparative pair; word count). S
 5 inline / 1 vague / 0 untagged. Body 4,423 words — 77 words of headroom toward FUTURE-C2's
 October-refresh reserve (was 5).
 -->
-

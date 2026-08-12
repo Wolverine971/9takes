@@ -1,0 +1,9 @@
+stage=2_fresh_eyes exit=1 dur=3s at=2026-08-11 22:45:29
+stage=3_second_pass exit=1 dur=2s at=2026-08-11 22:45:31
+stage=4_cohesion exit=1 dur=3s at=2026-08-11 22:45:34
+stage=4.2_perspective_evidence exit=1 dur=2s at=2026-08-11 22:45:36
+stage=4.3_perspective_packet_gate exit=1 dur=1s at=2026-08-11 22:45:37
+stage=5_editor_pass exit=1 dur=2s at=2026-08-11 22:45:39
+stage=6_enrich_frontmatter exit=1 dur=3s at=2026-08-11 22:45:42
+stage=6.8_same_type_similarity exit=1 dur=1s at=2026-08-11 22:45:43
+stage=7_grade exit=1 dur=2s at=2026-08-11 22:45:45

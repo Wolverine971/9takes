@@ -975,3 +975,8 @@ enneagram: 3
   graded_at: '2026-08-11'
 Summary JSON: /Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-11_020002_chase-infiniti/summary.json
 ═════════════════════════════════════════════════════
+[2026-08-11 22:25:05] [INFO] Nightly blog cron starting (dry-run=1)
+[2026-08-11 22:25:09] [WARN] RECONCILING: chase-infiniti has a draft but was never moved to completed (wrapper likely killed post-pipeline). Moving to completed with needsReview.
+[2026-08-11 22:25:14] [INFO] SELECTED: mel-robbins (Type ?)
+[2026-08-11 22:25:14] [INFO] DRY RUN complete — would run pipeline for mel-robbins
+[2026-08-11 22:25:14] [INFO] Nightly blog cron finished

@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — David-Beckham (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/David-Beckham.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-3 drafts by date):
+  - chase-infiniti  (2026-08-11, 48 units)
+  - Tate-McRae  (2026-08-04, 34 units)
+  - stable-ronaldo  (2026-08-02, 49 units)
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+
+Noise floor over 12599 unit pairs:  median=0  p90=0  p99=0.006  max=0.087
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.087   David-Beckham  <->  Tate-McRae
+   TARGET [diagnosis] The Enneagram sorts people by the engine underneath the behaviour
+   OTHER  [counter-typing] and the engine underneath was already running at eight
+
+
+Most similar drafts (max unit-pair score):
+  0.087 ###                  Tate-McRae
+  0.055 ##                   Brooke-Monk
+  0.049 ##                   Alex-Warren
+  0.037 #                    chase-infiniti
+  0.037 #                    stable-ronaldo
+  0.032 #                    KSI
+  0.027 #                    plaqueboymax
+  0.021 #                    Carina-Zavline
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.087   David-Beckham  <->  Tate-McRae
+   TARGET [diagnosis] The Enneagram sorts people by the engine underneath the behaviour
+   OTHER  [counter-typing] and the engine underneath was already running at eight
+
+score 0.055   David-Beckham  <->  Brooke-Monk
+   TARGET [diagnosis] October 2023 That one line is the whole man.
+   OTHER  [diagnosis] I hate you.'" There is the whole wiring in one sentence.
+
+score 0.049   David-Beckham  <->  Alex-Warren
+   TARGET [counter-typing] the "everything has to be perfect." But a One is driven by an inner sense of right and wrong and carries a low simmer of resentment about a flawed world
+   OTHER  [counter-typing] he described being so terrified of losing his life on tour that "everything has to be perfect." A Six could plausibly organize all of that around unreliable support and the need for something trustworthy.
+
+score 0.037   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Chase Infiniti is an Enneagram Type 3
+
+score 0.037   David-Beckham  <->  Tate-McRae
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Tate McRae is an Enneagram Type 3
+
+score 0.037   David-Beckham  <->  stable-ronaldo
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Stable Ronaldo is an Enneagram Type 3
+
+score 0.032   David-Beckham  <->  KSI
+   TARGET [diagnosis] 1999 Ferguson watched a teenage Beckham train in the morning
+   OTHER  [diagnosis] what he does the morning after a loss.
+
+score 0.031   David-Beckham  <->  Alex-Warren
+   TARGET [counter-typing] Image theory says the performance is for someone.
+   OTHER  [counter-typing] and says the success frightens him because it could disappear.
+
+score 0.030   David-Beckham  <->  Brooke-Monk
+   TARGET [counter-typing] The honest cases against are Type 1 and Type 9.
+   OTHER  [counter-typing] The strongest case against is the brand-deal refusal.
+
+score 0.027   David-Beckham  <->  plaqueboymax
+   TARGET [counter-typing] a quiet surface stretched over an engine that never idles.
+   OTHER  [counter-typing] the rehearsed tears that never came
+
+score 0.026   David-Beckham  <->  Alex-Warren
+   TARGET [diagnosis] The Enneagram sorts people by the engine underneath the behaviour
+   OTHER  [diagnosis] Warren describes the engine himself.
+
+score 0.025   David-Beckham  <->  KSI
+   TARGET [diagnosis] The Enneagram sorts people by the engine underneath the behaviour
+   OTHER  [diagnosis] The Enneagram files Threes in the heart triad
+
+------------------------------------------------------------------------------
+Top pair scores 0.087 vs median 0  (~∞x the noise floor).
