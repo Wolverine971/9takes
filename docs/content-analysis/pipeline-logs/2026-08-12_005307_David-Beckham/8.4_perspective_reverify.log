@@ -1,0 +1,14 @@
+**Output path:** `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/verification-final.md`
+
+- **verification_status:** `pass`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+- **final_content_sha256:** `7268f963163088e0dd8a1018cd3dc94edbdd98269c8bf423add03a6306d8bbff`
+
+SHA chain verified: synthesis `draft_sha256`, the supplied `--draft-sha`, and the file hash of `draft-reviewed.md` all match `ef21a39…`, and `draft-reviewed.md` hashes to the `reader_visible_content_sha256` in `context.json`.
+
+I re-ran all 11 P0 acceptance tests, all 10 accepted P1 checks, and all 10 `PROTECT-*` regression checks from scratch against the current text rather than carrying forward `verification-initial.md`'s verdict, since `revision-resolution.md` moved two section blocks after that pass. Independently confirmed the source-audit claim by running `scripts/blog-source-audit.mjs` (1 load-bearing quote, 1 inline, 0 vague, 0 untagged, both hard gates passing), and added two cross-checks the item list doesn't cover: frontmatter parses under `gray-matter`, and all six em-dashes are citation attributions rather than prose.
+
+One finding worth your attention in the non-blocking list: that pass executed **P2-11**, the beekeeping reorder the synthesis explicitly deferred, and also moved the Rabbit Hole after the final H2. Nothing gate-bearing regressed — bridges were rewritten and I verified the protected hits post-move — but the reorder hasn't been through a jury, and the Rabbit Hole's new position is a house-convention outlier: 169 of 173 people drafts place it *before* the final H2. Worth a deliberate call at publish rather than inheriting it.
+
+The deterministic gate script, not this prose, decides whether the pipeline may finalize.

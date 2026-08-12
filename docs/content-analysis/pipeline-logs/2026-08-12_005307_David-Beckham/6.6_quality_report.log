@@ -1,0 +1,8 @@
+blog-quality-report: David-Beckham
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 0 total  (strong 0, comparative 0)
+
+2.4 Head-term: PASS  meta_title=David Beckham''s Type 3 Mind: The Boy Who Built Himself
+   answer-block: ok (38 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 401)

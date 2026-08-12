@@ -1,0 +1,21 @@
+## Grading Complete — David Beckham
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| David-Beckham | 8 | 8 | 9 | 8 | 8 | 9 | **8.3** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 8.3`. Discoverability 9, so no gate. Anchor: Matt-Smith (B). No caps applied.
+
+**Written:** `content_quality` block into the draft frontmatter after `path:`; feedback to `docs/content-analysis/grades/David-Beckham.review.md`. No legacy `QUALITY GRADE` block existed in the body.
+
+### Key observations
+
+**Discoverability is the standout (9).** meta_title 54 chars, description 147, name first and exact in all three title fields, a 38-word extractable answer block under a search-intent H2, five real FAQ entries with anchors, complete `same_as`/entity metadata, long-tail keywords. An AI engine could cite this cleanly.
+
+**Evidence is strong but has a hole at the load-bearing pillar.** 11 quotes across 8+ sources, most dated inline, real collaborator testimony (Ferguson, Neville, Keane, Ted, Sandra, Victoria, Loos, Brooklyn). But the Ferguson "relentless application" quote — the primary support for the Type 3 call — is attributed only to "his autobiography," and the draft's own ledger admits the wording traces to quotation aggregators with a contested year. Ted's "nothing to work at" line, which carries the entire origin thesis, is tagged "widely reported from the series" rather than verified against it. Several metrics (Qatar fee range, the 60% referendum, effigy/bullets) run unsourced in the body while their URLs sit unused in `citations`.
+
+**The frame rests on evidence the piece disowns.** The 2am night walk is the cold open, the meta description hook, and the closer's callback — then the Rabbit Hole states plainly that it's *excluded* from the case for type. The disclaimer is the honest call; building the frame on it isn't.
+
+**Sameness check: near-miss, not a trip.** The deterministic same-type scan is clean (max 0.048). Three usual formula moves are genuinely absent — no corpus-stat sentence, no scar-tissue empathy grammar, no return-to-the-wound closer, and 0 contrast pairs / 0 prose em-dashes. But "Here is what those years appear to have taught him" echoes Chase-Infiniti's "Here is what the poise story leaves out" two drafts back, and "That is the most Type 3 thing in the whole story" is the writer-grades-own-move tic the Caitlin-Clark pass explicitly cut. Two more and Originality caps at 7.
+
+**One process flag:** this draft's pass modified `scripts/blog-source-audit.mjs` (uncommitted) to add "Stick to Football" and "The Overlap" to the OUTLETS list — a pipeline stage editing the audit instrument so its own citations grade INLINE. The addition is defensible on the merits (same class as Joe Rogan Experience, already listed), but it changes the measuring stick for every future draft, so you may want that reviewed separately from the blog itself.

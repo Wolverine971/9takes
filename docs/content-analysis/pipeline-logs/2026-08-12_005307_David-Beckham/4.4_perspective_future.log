@@ -1,0 +1,19 @@
+Saved: `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/future.md`
+
+**Verdict** — trust intact, value high, recommendation **revise**. **0 blockers, 7 concerns.**
+
+Snapshot SHA verified against `context.json` and the supplied argument before reading, and unchanged after. Sibling reviews (`subject`, `fan`, `critic`, `unfamiliar`, `enneagram`) landed in the directory while I worked; the directory held only `context.json`, `draft-reviewed.md` and `evidence-packet.md` when I listed it, and I read none of them.
+
+**Strongest hit** — line 278: *"In July 2023 it signed Lionel Messi. Sixteen years from clause to Messi: the same boy in the park, on a timeline he could not compress."* Both endpoints are fixed dates, so the interval can never change. It survives Messi leaving, retiring, anything. More broadly, the swap test passes: delete both 2026 events and ~90% of the article is untouched. The spine is 1975–2025 material. This draft is not thesis-dependent on a news cycle, which is the failure this role exists to catch.
+
+**Highest-priority concern (FUTURE-R2)** — the family passage states a temporary status as a permanent incapacity: *"the man who has answered every crisis of his life by producing something cannot produce this"* (line 292), plus an unanchored *"now"* (line 288). I verified there's been no reconciliation as of today, so the draft is accurate — but the story has moved four times in three months (19 Jan statement → Davos non-response 20 Jan → March birthday messages → April WSJ). Fix is two edits: date-anchor the "now," scope the absolute. Notably, line 336 already contains the durable version of the same idea in the past perfect (*"has ever bought him"*), which survives a reconciliation.
+
+Three things worth flagging to you directly:
+
+- **`at 51` (line 338) expires 2 May 2027** — inside the window, arithmetically certain, in the last sentence. Cheapest fix in the file.
+- **The draft is datelined 13 July 2026 and never mentions the World Cup** that ran 11 June–19 July 2026, with seven matches in Miami and Beckham in attendance. I've recommended one dated clause as an appendix, explicitly *not* as evidence — making it thesis-bearing would create the fragility the piece has otherwise avoided.
+- **Research killed three findings I'd planned.** All 12 citations return 200 (WSJ 401 is paywall, not rot), all three `/enneagram-corner/` targets exist, and the body's lowercase personality links match the 846-vs-29 repo convention. Also: David's "children are allowed to make mistakes" is Davos, 20 Jan 2026 — contemporaneous, not new — so line 290's "did not give AP a detailed response" still holds. That check stopped me filing a false finding.
+
+The review includes the required twelve-month refresh list as a dated checkpoint table. I left `lastmod` alone.
+
+Sources: [Northeastern](https://news.northeastern.edu/2026/01/23/beckham-family-drama-brooklyn-estrangement/), [Goal](https://www.goal.com/en/lists/david-and-victoria-beckham-send-loving-messages-to-son-brooklyn-27th-birthday-family-feud/blt6cff64dd018b78a3), [Variety](https://au.variety.com/2026/more/news/david-beckham-children-make-mistakes-brooklyn-post-32118/), [Yahoo](https://www.yahoo.com/entertainment/celebrity/articles/brad-pitt-tom-cruise-david-180043586.html), [Miami host committee](https://miamifwc26.com/match-schedule/), [Hard Rock Stadium](https://www.hardrockstadium.com/events/fifa-world-cup-2026/).

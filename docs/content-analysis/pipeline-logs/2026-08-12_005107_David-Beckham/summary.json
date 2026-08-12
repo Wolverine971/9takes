@@ -1,0 +1,18 @@
+{
+  "person": "David-Beckham",
+  "draft_path": "src/blog/people/drafts/David-Beckham.md",
+  "log_dir": "/Users/djwayne/.codex/worktrees/a502/9takes/docs/content-analysis/pipeline-logs/2026-08-12_005107_David-Beckham",
+  "perspective_review_dir": "docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005107",
+  "perspective_initial_status": "not_run",
+  "perspective_final_status": "snapshot_failed",
+  "completed": true,
+  "halt_reason": null,
+  "revised": false,
+  "lint_exit": 0,
+  "first_overall": null,
+  "final_overall": null,
+  "final_discoverability": null,
+  "grade_stability_delta": null,
+  "has_stage_warnings": true,
+  "generated_at": "2026-08-12T04:51:28.868Z"
+}

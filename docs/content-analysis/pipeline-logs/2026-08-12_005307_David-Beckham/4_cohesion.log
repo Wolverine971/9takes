@@ -1,0 +1,54 @@
+## Cohesion Audit: `src/blog/people/drafts/David-Beckham.md`
+
+### Central Thesis
+Beckham learned as a child that love arrives only on delivery, so he has answered every rejection of his life by producing finished work — a method that built everything he has and cannot repair the two things left.
+
+### Thread Map
+
+| # | Section | Contributes | Link to next |
+|---|---------|-------------|--------------|
+| — | Cold open (2am night walk) | The private ritual contradicts the effortless myth | → the myth needs a verdict |
+| 1 | What is his personality type? | Type 3 call; practice, not gift | → but where did the habit come from |
+| 2 | The father who took him out for hours | Origin of the engine; Ted, Sandra, 1996 goal, 2002 separation, OCD | → other audience-free work |
+| 3 | What he does when no one is keeping score | Beekeeping: work that can't be hurried | → he learned the opposite at 23 |
+| 4 | Why an entire nation turned on him | 1998; the answer is to deliver; insurance reframe | → so he built more than one thing |
+| 5 | How he built a brand out of a haircut | The engine expanding: image, Madrid, LA, Inter Miami | → the first build predates them all |
+| 6 | Why the marriage survived its worst year | Method applied to a relationship; Brooklyn is where it fails | → the Rabbit Hole, then the bill |
+| 7 | Why he took the Qatar money | The reply-with-work reflex under moral pressure | → the method's ledger |
+| 8 | The work that makes him wait | What the method cannot buy: consent, and time | — |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 7/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 5/10 | 9/10 |
+| Internal Paragraph Flow | 7/10 | 9/10 |
+
+**Overall: 7.5/10 → 9/10.** The argument was already strong; the joints weren't carrying it.
+
+### Fixes Applied (7)
+
+**Broken transitions (2)**
+- **Beekeeping → 1998** was the worst break in the piece: the section closed in October 2025 on "makes him wait," and the next opened cold on 30 June 1998. Added *"Nothing else in his life had ever worked that way. At 23, the verdict on him came overnight."*
+- **Father → beekeeping** jumped from the 2006 OCD interview to a 2020 flat-pack hive. Bridged on the concept the heading already promises: *"The night walk is not the only work Beckham does with no one watching."*
+
+**Weak transitions (3)**
+- **Diagnosis → father**: the section ended on an epistemic hedge. Added *"The engine was already running before he ever reached United."* — which also plants "engine" three paragraphs before "That is the engine described by its builder."
+- **Brand → marriage**: *"The biggest of those builds came before all the others."* so the 1999 wedding reads as the first build, not a rewind.
+- **Qatar opener**: "This one costs him something the others did not" had no antecedent — the nearest visible text is the Rabbit Hole's typology, and the piece never frames a series of controversies. Now names the deal.
+
+**Internal flow (1)**
+- Father section: *"He said as much, without meaning to"* pointed back to the delivery-is-love lesson, but the 1996 halfway-line goal and the 2002 separation had been inserted between them. Restored the referent.
+
+**Promise-delivery (1)**
+- The description and cold open pose the 2am question; the only visible-body answer sat inside the collapsible Rabbit Hole. Added one line to the closer: *"It still walks him through his own house at 2am."*
+
+Preserved: all frontmatter, ledgers, Svelte/HTML blocks, internal links, quotes, and the four beats the fresh-eyes review flagged as working (Ferguson boot → Alice band, the insurance reframe, Keane, the Brooklyn section's refusal to pick a side).
+
+### Remaining Concerns (your call)
+1. **Section order.** Beekeeping is section 3; its payoff is section 8, five sections away. It's now bridged on both sides and defensible as plant-and-payoff, but moving it after the marriage section would tighten the counter-thread considerably. Would require reordering the HEADING MIX LEDGER.
+2. **Rabbit Hole placement** between marriage and Qatar rather than after the last H2. The prose thread survives it now, but it still interrupts.
+3. **Word count: 4369 → 4442** against the 4500 ceiling. Lint is still 0 fail / 1 warn, but the next refresh has to trim before it adds.
+
+Also unrelated but worth flagging: the `buildos` MCP server needs authorization before its tools work — that has to happen in an interactive session (`claude mcp` or `/mcp`), not here.

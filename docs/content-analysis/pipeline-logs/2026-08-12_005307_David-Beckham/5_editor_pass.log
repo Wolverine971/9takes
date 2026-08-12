@@ -1,0 +1,27 @@
+Polished `src/blog/people/drafts/David-Beckham.md` in perspective-jury mode.
+
+**Exit checks:** `blog-lint` 0 fail / 1 warn (word count), **contrast pairs 0 total (0 strong)**, 0 prose em-dashes, `lastmod` untouched.
+
+## What was wrong
+
+The jury's diagnosis was one failure mode repeated eleven times: the draft applied epistemic discipline to claims and suspended it for scenes, and every invented detail tilted the same way. That's what I fixed, not the prose rhythm — the draft was already clean on the mechanical checks.
+
+**All 11 P0s resolved.** The fabricated 2000 head-shave reveal is gone (four perspectives caught it; the draft's own next paragraph contradicted it). The two staged rooms on *Stick to Football* are stripped with every quote intact. Beckham's own account of surviving 1998 — he credits a manager, a team, teammates, and calls the red card his own mistake — now appears before the article supplies "He delivered." Studio 99 is disclosed at first citation. The marriage-as-brand claim is marked as a reading with his *Desert Island Discs* denial. Loos gets her 2023 response. The insurance passage keeps its metaphor and loses its wrong causation (Adidas 1996, Brylcreem 1997 both predate the red card).
+
+**All 10 accepted P1s applied**, including the missing football: six league titles, a Champions League, 115 caps, his actual position, the 1999 treble and the 2002 penalty. A stranger can now tell he was great rather than only famous.
+
+**All 10 PROTECT hits verified present** by exact-string grep, including the two the brief flagged as most at risk (the Alice band sequence and the Miami sentences), both verbatim.
+
+## Two things worth your attention
+
+**RQ-01 is still open and cost something.** The Ferguson "relentless application" line — the first evidence the reader meets — is attributed to *Managing My Life* (1999) only via quotation aggregators, and one listing dates it to 2013. Two searches couldn't get past that, so it now reads "in his autobiography," true under either volume. **Consequence:** `blog-source-audit` drops it from INLINE to VAGUE (1 inline, 1 vague, 0 untagged). Both hard gates still pass, but a publish check demanding all-INLINE would flag it deliberately. Resolving it needs the actual book.
+
+**RQ-02 I resolved better than the brief's interim.** I read the primary transcript: the Keane "inhumane" line and Neville's "wasn't enough for him" are both archive *played during* the episode, not live studio speech — the host cues a clip, and the live reaction ("wow, gives me goosebumps") lands after. Both are now cited as archive shown on the show. Neville's salary/jeans quote and Beckham's own lines are genuinely live and keep their plain citation.
+
+**P2-01 deferred, and it's the one real loss.** The synthesis calls naming the image-for-identity mechanism the largest available upgrade in insight-per-word, and it would retire the currently unearned "shame converted into output" in the Qatar section. The body finished at 4,487 against a hard 4,500 ceiling that fails the lint above it — there was no room. Logged in the draft's editor note for the next refresh.
+
+I also recorded a genuine conflict in the artifact: the synthesis designated the beekeeping commercial aside as P1-03's funding source while PROTECT-08 protects the second half of that same sentence. I kept the guest-edit disclosure, cut only "Golden Beez" (which also resolved P2-10), and funded the rest from the 2007 timeline entry.
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/editor-resolution.md`.
+
+**Readiness:** production-ready pending `/blog_perspective_verify_people`, with RQ-01 as the one open sourcing question and RQ-03 (the contested knighthood history) a standing call for you — I left it omitted rather than publishing a hedged allegation from hacked material.

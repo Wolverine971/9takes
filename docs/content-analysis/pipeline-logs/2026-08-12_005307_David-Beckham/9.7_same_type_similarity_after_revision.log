@@ -1,0 +1,100 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — David-Beckham (Type 3)
+/Users/djwayne/.codex/worktrees/a502/9takes/src/blog/people/drafts/David-Beckham.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 39
+Comparison set (last 8 other Type-3 drafts by date):
+  - chase-infiniti  (2026-08-11, 48 units)
+  - Tate-McRae  (2026-08-04, 34 units)
+  - stable-ronaldo  (2026-08-02, 49 units)
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+
+Noise floor over 11427 unit pairs:  median=0  p90=0  p99=0.006  max=0.217
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.217   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] and the Rabbit Hole below takes the case seriously.
+   OTHER  [diagnosis] and the full case is in the rabbit hole below.
+
+score 0.135   David-Beckham  <->  Brooke-Monk
+   TARGET [diagnosis] The serious case against is Type 9
+   OTHER  [counter-typing] The strongest case against is the brand-deal refusal.
+
+score 0.125   David-Beckham  <->  Tate-McRae
+   TARGET [diagnosis] The engine was already running before he ever reached United.
+   OTHER  [counter-typing] and the engine underneath was already running at eight
+
+score 0.069   David-Beckham  <->  KSI
+   TARGET [diagnosis] The engine was already running before he ever reached United.
+   OTHER  [diagnosis] shame gets converted into motion before he ever has to sit in it.
+
+
+Most similar drafts (max unit-pair score):
+  0.217 #########            chase-infiniti
+  0.135 #####                Brooke-Monk
+  0.125 #####                Tate-McRae
+  0.069 ###                  KSI
+  0.038 ##                   plaqueboymax
+  0.027 #                    stable-ronaldo
+  0.026 #                    Alex-Warren
+  0.021 #                    Carina-Zavline
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.217   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] and the Rabbit Hole below takes the case seriously.
+   OTHER  [diagnosis] and the full case is in the rabbit hole below.
+
+score 0.135   David-Beckham  <->  Brooke-Monk
+   TARGET [diagnosis] The serious case against is Type 9
+   OTHER  [counter-typing] The strongest case against is the brand-deal refusal.
+
+score 0.125   David-Beckham  <->  Tate-McRae
+   TARGET [diagnosis] The engine was already running before he ever reached United.
+   OTHER  [counter-typing] and the engine underneath was already running at eight
+
+score 0.092   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] who spent seven years at right back with Beckham in front of him at right midfield
+   OTHER  [diagnosis] in front of a new peer group
+
+score 0.069   David-Beckham  <->  KSI
+   TARGET [diagnosis] The engine was already running before he ever reached United.
+   OTHER  [diagnosis] shame gets converted into motion before he ever has to sit in it.
+
+score 0.048   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] who spent seven years at right back with Beckham in front of him at right midfield
+   OTHER  [counter-typing] premieres at the Toronto International Film Festival in September 2026 with Infiniti in the title role
+
+score 0.044   David-Beckham  <->  KSI
+   TARGET [diagnosis] the same run-up into the same corner until the motion stopped requiring a decision.
+   OTHER  [diagnosis] then walked back into the same measured arena with a camera rolling.
+
+score 0.038   David-Beckham  <->  plaqueboymax
+   TARGET [counter-typing] Confidence in the wing and subtype is lower.
+   OTHER  [diagnosis] Enneagram-fluent readers can find the wing
+
+score 0.033   David-Beckham  <->  Brooke-Monk
+   TARGET [counter-typing] the brand expansion and Neville's testimony.
+   OTHER  [counter-typing] The strongest case against is the brand-deal refusal.
+
+score 0.032   David-Beckham  <->  Brooke-Monk
+   TARGET [counter-typing] The honest cases against are Type 1 and Type 9.
+   OTHER  [counter-typing] The strongest case against is the brand-deal refusal.
+
+score 0.029   David-Beckham  <->  Brooke-Monk
+   TARGET [diagnosis] and the Rabbit Hole below takes the case seriously.
+   OTHER  [counter-typing] Pure achievement logic takes the deal and optimizes inside the constraint.
+
+score 0.027   David-Beckham  <->  stable-ronaldo
+   TARGET [diagnosis] What answers it is everything he went after unasked
+   OTHER  [diagnosis] When Ninja went after him on a drunken broadcast in July 2023
+
+------------------------------------------------------------------------------
+Top pair scores 0.217 vs median 0  (~∞x the noise floor).

@@ -1,0 +1,16 @@
+**Artifact saved:** `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/fan.md`
+
+SHA verified against `context.json` and the supplied value (`ef21a394…6ee99`). `critic.md` exists in the directory; I did not open it.
+
+**Verdict:** trust `strained` · value `useful` · delight `clear_hit` · recommendation **revise**
+**Blockers: 2 · Concerns: 7**
+
+**Strongest hit — FAN-H1, the boot and the Alice band (line 274).** Ferguson's flying boot converted, days later, into a controlled photograph with the wound framed by an Alice band. Every fan knows both facts and has never seen them welded; the "whether he planned it or not" hedge keeps the insight without claiming his motive. This is the thesis rendered as behavior instead of asserted, and it must survive revision intact.
+
+**Highest-priority concern — FAN-C1, the 1999 treble is absent from a redemption argument it completes.** The draft's core claim is that Beckham answers rejection with delivery, and its timeline jumps 1998 effigy → 2000 armband. Eleven months after the effigy he won the treble, playing centre midfield in the European Cup final because Keane and Scholes were suspended, and delivered both corners that produced both injury-time goals (confirmed via UEFA). The article's single best piece of evidence is sitting unused. Alongside it: the 2002 Argentina penalty (FAN-C2) never closes the loop the 1998 section opens, and the 2007 Capello freeze-out → La Liga title (FAN-C3) — the pattern in its purest form — is compressed into a scene change.
+
+**The two blockers** are canonical-accuracy failures a fan reads as outsider tells:
+- **FAN-B1:** the 2000 Charity Shield is told twice in consecutive paragraphs (lines 264, 266), and the first telling — the staged on-pitch reveal that carries the section's image-management thesis — is contradicted by Beckham's own account and by the correct version directly below it.
+- **FAN-B2:** two scenes are staged on *Stick to Football* (Keane watching footage "could barely get a sentence out"; "when Neville asked him") that no source supports, in a passage where the packet shows strong evidence the Keane words are Netflix documentary footage played as a clip.
+
+Every proposed add is paired with a cut, since the draft sits at 4,442 against its 4,500-word ceiling.

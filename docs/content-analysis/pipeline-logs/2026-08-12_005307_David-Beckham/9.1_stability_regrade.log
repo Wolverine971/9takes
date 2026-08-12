@@ -1,0 +1,21 @@
+## Grading Complete — David Beckham
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| David-Beckham | 6 | 7 | 9 | 8 | 8 | 8 | 7.6 | C |
+
+(Weighted: `(6×1.5 + 7×1.5 + 9×1.5 + 8 + 8 + 8×0.5) / 7 = 53/7 = 7.6`. Discoverability 9, so no gate.)
+
+### Key observations
+
+**Two caps fired, and both are process findings rather than writing problems** — which is why I flagged `needs_review: true`. The prose is genuinely good; on Discoverability, epistemic discipline, and critic pressure it's above the Matt-Smith B anchor.
+
+- **Evidence capped at 6 (uncapped read: 8).** The revision pass says it plainly: the Ferguson "God-given talent" quote "was demoted out of the diagnosis section… so it no longer occupies a load-bearing slot." That makes `blog-source-audit` report clean, but the quote is still in the body at line 201 and still load-bearing — it's the only third-party testimony for the piece's central manufactured-not-gifted claim, and FAQ 1 lists it as a pillar of the type case. In the body it's attributed as "wrote that." No title, no year, nothing in `citations`.
+- **Originality capped at 7 (uncapped read: 8).** The FORMULA FINGERPRINT LEDGER claims similarity is "clear, maximum 0.038." The live scan trips at **0.217 — the maximum across all 11,427 pairs** (p99 noise floor = 0.006). Three near-verbatim diagnosis signposts shared with Chase-Infiniti, Brooke-Monk, and Tate-McRae. The ledger also says the prior 0.087 trip was fixed by removing an "engine underneath the behaviour" sentence — but the replacement reuses the same metaphor and grammar.
+- **Passed cleanly:** 0 contrast pairs, 0 em-dashes, ending survives the swap test, empathy turn uses person-specific vocabulary ("insurance," "hunted once") rather than house grammar, all three emotional-interior checks satisfied, rabbit hole well-formed and holding the typology depth.
+- **Best in the draft:** the Ferguson boot → Alice band paragraph. Private humiliation converted into a controlled photograph — thesis rendered as behavior, swap-test-proof.
+- **Weakest real writing issue:** "shame converted into output" is asserted in the Qatar close but never staged; your editor notes already flagged it as unearned. The 1998 section renders the abuse from outside plus distress symptoms, never from inside the Three's specific experience.
+
+**Grade stability:** first 8.3 (B) → regrade 7.6 (C), delta 0.7. The draft improved on frame, sequencing, ending, and house tics — the drop is entirely the two caps.
+
+Sourcing Ferguson (or cutting him) plus rewriting the three tripped signposts gets this to **8.2** with no other changes; the full B+ path is in `docs/content-analysis/grades/David-Beckham.review.md`.

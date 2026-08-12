@@ -1,0 +1,15 @@
+Review complete. Counts verified against the document (6 concerns, 0 blockers).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/unfamiliar.md`
+
+**Verdict:** `revise` — trust `strained`, value `high`, delight `clear_hit`. SHA `ef21a39…` verified against `context.json` and the supplied `--draft-sha`.
+
+**Blockers: 0.** I tested four candidates against the bar and none cleared it. Nothing broke trust; the article corrects itself within ~80 words of its worst moment.
+
+**Strongest hit:** the Ferguson-boot-to-Alice-band sequence — a private humiliation converted into a controlled photograph. It's the only passage where the thesis is *demonstrated* rather than asserted, and it needs no football knowledge, no Enneagram knowledge, and no prior sense of the subject. Runner-up is the insurance reframe, the one idea I'd carry out of the piece into a conversation.
+
+**Highest-priority concern (UNFAMILIAR-C2):** the body never shows the results the thesis is built on. Counted in the reader-visible text: zero occurrences of "trophy," "treble," or "Champions League"; "won" appears once and refers to bees; "title" and "captain" appear once each, both buried in the timeline. The evidence packet has the full record unused — six league titles, the 1999 treble, 115 caps, the 2000–2006 captaincy. For an argument that practice converted into visible achievement, the achievement is the missing term, and I finished genuinely unsure whether Beckham was a great footballer or a famous one. Repair is ~30 words in three touches.
+
+Two structural notes worth flagging to whoever edits: the intro promises 1998 at word ~250 and delivers it at word 1,608, behind a detour to 2020–2025 beekeeping — that's the abandonment point. And the body's stated counter-case ("the Rabbit Hole below takes that case seriously") lives behind an accordion that opens by telling general readers to skip it.
+
+Two caveats on my own report: the frozen snapshot contains prior-pass editorial notes in HTML comments that I couldn't avoid seeing while reading it — I've disclosed the exposure in Limits and traced every finding to my own unaided read plus my own counts. And I could not reproduce `reader_visible_content_sha256`, so I scoped two findings (C5, C6) as sensitive to how the page actually renders the FAQ block and type dossier rather than asserting gaps the surface may already close.

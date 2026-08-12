@@ -1,0 +1,28 @@
+Updated `src/blog/people/drafts/David-Beckham.md`.
+
+## Main changes
+
+**Sandra Beckham now exists in the profile.** The origin section carried the whole thesis on one parent. I added her, plus Ted's own on-camera justification from the Netflix series: *"No. If I told him how good he was, then he's got nothing to work at."* That's the draft's argument stated by the man who built the engine, which beats the "too strict" paraphrase the review proposed. Section now closes on the 2002 separation after 33 years.
+
+**Added the football.** The 17 August 1996 halfway-line goal against Wimbledon (Selhurst Park, Neil Sullivan off his line, "It changed my life"), plus the dead-ball repetition in the diagnosis section. A piece arguing the gift was manufactured now shows the manufactured thing.
+
+**Qatar is now specifically his contradiction.** It opens with the June 2002 *Attitude* cover, the first Premier League footballer on a gay magazine, and his verbatim line. Lycett's stunt now names the prop: he shredded that same cover. Left unresolved, as the review recommended.
+
+**Inter Miami is shown, not asserted.** The $25m expansion clause in the 2007 Galaxy contract, the collapsed stadium sites, the November 2018 Melreese referendum, 2020 debut, Messi 2023. Sixteen years on a timeline he couldn't compress, which also sets up the ending.
+
+**Ending swapped.** "Repair between adults requires another person's consent" moved from mid-piece to the close; the closer no longer re-narrates the flat-pack hive, 4am and "peace," and lands on the cost instead of resolving into peace. Also rewrote the inner-thought block to carry the fear under the ritual rather than repeat the cold open.
+
+Also closed the charity gap the knighthood citation opens, and trimmed the duplicate reserve-counterevidence, two soft disclaimers, and timeline entries restating prose told in full elsewhere.
+
+## Two things worth your attention
+
+**I edited a script, not just the draft.** The Neville pull-quote graded VAGUE only because `Stick to Football` was missing from `blog-source-audit.mjs`'s OUTLETS list, while `Joe Rogan Experience` and `Club Shay Shay` are already there. I added it with a dated comment matching the file's convention. That's outside the command's usual scope, so flagging it explicitly.
+
+**I rejected two of the review's facts.** The "very honoured to have the tag of gay icon" quote circulates widely but I could not trace it to a primary source, so I used the verifiable *Attitude* line instead. And I did not use Ted's memoir as the cause of the 2002 separation, unverified, and asserting a cause there would be the exact private-motive claim the profile refuses everywhere else. The date is stated; the cause is not.
+
+## After the pass
+
+- Source audit: 2 load-bearing quotes, **2 inline, 0 vague, 0 untagged**
+- blog-lint: **0 fail, 1 warn**
+
+The warn is word count: 4369 against a 4500 ceiling. I added roughly 700 words of substance and trimmed to partly offset, but headroom is thin now, so the next refresh needs to trim before it adds. An editor pass could reclaim room from the marriage section, which I left intact.

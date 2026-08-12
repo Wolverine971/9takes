@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — David-Beckham (Type 3)
+/Users/djwayne/.codex/worktrees/a502/9takes/src/blog/people/drafts/David-Beckham.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 38
+Comparison set (last 8 other Type-3 drafts by date):
+  - chase-infiniti  (2026-08-11, 48 units)
+  - Tate-McRae  (2026-08-04, 34 units)
+  - stable-ronaldo  (2026-08-02, 49 units)
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+  - Carina-Zavline  (2026-07-29, 19 units)
+  - Alex-Warren  (2026-07-27, 32 units)
+  - plaqueboymax  (2026-07-27, 33 units)
+
+Noise floor over 11134 unit pairs:  median=0  p90=0  p99=0.005  max=0.038
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.038 ##                   plaqueboymax
+  0.037 #                    chase-infiniti
+  0.037 #                    Tate-McRae
+  0.037 #                    stable-ronaldo
+  0.032 #                    KSI
+  0.030 #                    Brooke-Monk
+  0.025 #                    Alex-Warren
+  0.020 #                    Carina-Zavline
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.038   David-Beckham  <->  plaqueboymax
+   TARGET [counter-typing] Confidence in the wing and subtype is lower.
+   OTHER  [diagnosis] Enneagram-fluent readers can find the wing
+
+score 0.037   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Chase Infiniti is an Enneagram Type 3
+
+score 0.037   David-Beckham  <->  Tate-McRae
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Tate McRae is an Enneagram Type 3
+
+score 0.037   David-Beckham  <->  stable-ronaldo
+   TARGET [diagnosis] "David Beckham is Britain's finest striker of a football not because of God-given talent but because he practises with a relentless application that the vast majority of less gifted players wouldn't contemplate." — Sir Alex Ferguson
+   OTHER  [diagnosis] Stable Ronaldo is an Enneagram Type 3
+
+score 0.032   David-Beckham  <->  KSI
+   TARGET [diagnosis] 1999 Ferguson watched a teenage Beckham train in the morning
+   OTHER  [diagnosis] what he does the morning after a loss.
+
+score 0.031   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] Football became the proof of concept rather than the limit.
+   OTHER  [counter-typing] the first film she carries rather than joins.
+
+score 0.030   David-Beckham  <->  Brooke-Monk
+   TARGET [counter-typing] The honest cases against are Type 1 and Type 9.
+   OTHER  [counter-typing] The strongest case against is the brand-deal refusal.
+
+score 0.027   David-Beckham  <->  Tate-McRae
+   TARGET [counter-typing] Confidence in Type 3 instead rests on the achievement-as-worth pattern
+   OTHER  [diagnosis] and the proof never holds long enough to rest on.
+
+score 0.025   David-Beckham  <->  chase-infiniti
+   TARGET [counter-typing] His reserve remains genuine counterevidence rather than something the Type 3 case gets to explain away.
+   OTHER  [counter-typing] the first film she carries rather than joins.
+
+score 0.025   David-Beckham  <->  Alex-Warren
+   TARGET [counter-typing] No clean typing explains the audience-free cleaning at 2am.
+   OTHER  [counter-typing] The deciding evidence is Warren's language when he explains the fear.
+
+score 0.023   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] Football became the proof of concept rather than the limit.
+   OTHER  [diagnosis] they read as a Three's healthiest instinct rather than a Six's core
+
+score 0.023   David-Beckham  <->  chase-infiniti
+   TARGET [diagnosis] Beckham repeatedly turns rejection into measurable performance and expands each success into a new arena.
+   OTHER  [diagnosis] in front of a new peer group
+
+------------------------------------------------------------------------------
+Top pair scores 0.038 vs median 0  (~∞x the noise floor).

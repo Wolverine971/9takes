@@ -1,0 +1,15 @@
+Packet compiled. All ten required H2s present, frontmatter matches `context.json`, and `draft-reviewed.md` is unmodified (SHA still `ef21a39…`). One artifact written, no other files touched.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/evidence-packet.md`
+
+20 claims (CLM-01…CLM-20), 26 ledger sources, tiers and limitations recorded inline.
+
+**Largest unresolved evidence gap:** whether three of the draft's load-bearing testimony quotes were spoken *live on Stick to Football in October 2023*, as the draft cites and stages them, or were **played as Netflix documentary clips during that episode**. The repo's own transcript brackets the Keane "inhumane… 99.9% of footballers" run between `[Applause]` and `[Music]`, immediately after a line ("lucky for Becks, he's got players in his team that can flatten people, you go after him, you're going after all of us") that is independently documented as Keane speaking *in the documentary*; the live studio reaction ("wow, gives me goosebumps") comes after. The Neville "It wasn't enough for him" line sits inside a similarly captioned clip run containing 1990s archival footage. The words themselves are not in doubt — where and when they were spoken is, and the draft narrates two of them as live studio scenes ("watched the old footage play back and could barely get a sentence out", "When Neville asked him"). Closing this needs a speaker-labelled podcast transcript or the documentary footage; neither was available.
+
+Three other things reviewers will want flagged, since they're already settled rather than open:
+
+- **CLM-06 is contradicted, not merely unverified.** The draft says Beckham hid a shaved head under a beanie "through the entire warm-up… The reveal was the whole point." Beckham's own account: the beanie hid a *mohawk*, Ferguson caught it in the changing room *before* the warm-up and made him shave it at Wembley. The reveal never happened at that match. The draft then retells the same Wembley incident correctly one paragraph later, so one event is narrated twice and the first telling is wrong.
+- **CLM-07:** the 2006 OCD quote drops an intervening sentence with no ellipsis in the rendered quote block (the draft's internal ledger does mark it) — a quote-handling slip in the draft's most epistemically careful passage.
+- **CLM-13:** the Qatar sentence attributes three things to the dated 4 Oct 2023 Sky Sports statement; "he believed engagement through sport mattered" isn't in it and traces to earlier 2021–22 remarks.
+
+Two live MCP notes, unrelated to this task: the `buildos` server needs authorization (via claude.ai connector settings or `claude mcp` in an interactive session) before its tools are usable here.

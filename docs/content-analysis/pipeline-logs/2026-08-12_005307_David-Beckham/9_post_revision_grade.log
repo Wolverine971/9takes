@@ -1,0 +1,25 @@
+## Grading Complete — David Beckham
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| David-Beckham | 8 | 8 | 9 | 8 | 8 | 8 | **8.2** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 8×0.5) / 7 = 57.5/7 = 8.2`. No caps fired; Discoverability 9 clears the gate.
+
+### Key observations
+
+**Discoverability is the standout (9)** — exact-query H2, a 38-word extractable answer block, five genuine long-tail FAQs, complete entity metadata, all three title/description fields length-optimal.
+
+**Two findings the pipeline's own ledgers got wrong:**
+
+1. **The Formula Fingerprint Ledger asserts a same-type scan of "maximum 0.038, clear."** Re-running it today returns **TRIPPED at 0.217** against chase-infiniti, plus 0.135 (Brooke-Monk) and 0.125 (Tate-McRae). That last hit is the same "engine" bridge the ledger claims was removed — the revision cut one instance, the cohesion pass reinstated another.
+
+2. **The clean source audit depends on a same-pass edit to `scripts/blog-source-audit.mjs`**, which added "Stick to Football"/"The Overlap" to OUTLETS. The edit is defensible and the quote survives a human traceability check, but the audit no longer independently corroborates the draft. And because the script only inspects five structural slots, it misses that the entire brand H2 — mohawk, the M3, the verbatim "You've got to look good for the paps," the boot and Alice band — runs with no outlet or date. That section is where the "manufactured image" thesis gets its best behavioral proof.
+
+**What's genuinely strong:** the epistemic discipline is the best I've seen in the recent cohort — unconfirmed Qatar figures marked as such, the untraceable "gay icon" quote excluded, Studio 99 disclosed, Loos given her answer, OCD refused as type evidence. The Qatar section earns its sharpness by opening on the 2002 *Attitude* cover, which makes the contradiction specifically his rather than generic sportswashing.
+
+**Why B and not B+:** it sits right on the Matt-Smith anchor. It beats that draft on sourcing discipline and discoverability, loses to it on tonal range — 4,500 words in a single grave register, with the accumulated hedges holding the reader at arm's length exactly where the piece should be closest to him.
+
+Note this is a regrade: the draft's revision notes record a prior 8.3, so I logged `first_overall: 8.3 / regrade_overall: 8.2 / delta: 0.1`. I scored independently before reading that number — the convergence is coincidental, and the revision did genuinely improve the frame and the diagnosis-slot sourcing over what I'd have graded the prior version.
+
+**Total graded this session: 1**

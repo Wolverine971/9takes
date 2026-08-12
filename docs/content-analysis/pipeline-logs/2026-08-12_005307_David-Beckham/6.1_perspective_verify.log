@@ -1,0 +1,13 @@
+**Output path:** `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/verification-initial.md`
+
+- **verification_status:** `pass`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+
+Snapshot SHA matched the supplied `--draft-sha`, and `draft-reviewed.md` hashed to the exact `reader_visible_content_sha256` in `context.json`. The live draft's reader-visible hash is `a7fe2a41708fdfad8ac2c8744dfee3b95f002c624bbb7fa9902927587cfd11bb`.
+
+All 11 P0s pass their acceptance tests, all 10 accepted P1s are completed, and all 10 `PROTECT-*` items survive — including the two the brief flagged as most at risk (PROTECT-01 and PROTECT-07), both verbatim. Every new factual assertion introduced by a repair traces to the packet, a reviewer's cited research, or the synthesist's own verification; the one claim the critic could not settle (Stevens's final cut) was correctly left out. I ran `blog-source-audit` to check the editor's self-reported RQ-01 consequence — accurate: 1 inline, 1 vague, 0 untagged, both hard gates passing.
+
+Four non-blocking items are logged in Remaining work: RQ-01 still needs a primary text, a small tense tension at the 1998 close, one clause where the marriage reading briefly speaks in the article's voice, and P2-01 still unfunded at 4,487/4,500 words.
+
+The deterministic gate script decides whether the pipeline may finalize.

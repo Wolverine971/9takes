@@ -1,0 +1,26 @@
+Revised `src/blog/people/drafts/David-Beckham.md`. Only the draft was edited (`blog-source-audit.mjs` was already modified by the earlier second pass — I didn't touch it).
+
+**What triggered the loop:** grade B (8.3) — Evidence 8, Originality 8, Enneagram 8, Writing 8. Lint was already 0 fail, and perspective verification had already passed (0 open P0, 0 protected regressions), so this pass consumed grader feedback plus the four non-blocking items the verifier logged.
+
+## Fixes applied
+
+**Frame (NEEDS WORK + TO REACH A).** The cold open no longer asks the 2am walk to carry the typing — it now states the walk isn't the proof, hands the proof to the manufactured craft, and names the argument the piece actually runs: *the method has a domain, and his fifties are finding its edges.* Same thesis promoted in the diagnosis section and the last TL;DR bullet. The Rabbit Hole's exclusion of the night walk now agrees with the frame instead of contradicting it 3,000 words in.
+
+**Ferguson provenance (TO REACH B+ 1).** Another search returned only aggregators, so I took the grader's stated fallback rather than invent a citation: the Ferguson blockquote moved **out of the diagnosis section** into the father section, and Neville's verified line carries the diagnosis alone. Source audit went from **2 quotes / 1 inline / 1 vague** to **1 quote / 1 inline / 0 vague / 0 untagged**. FAQ 1 reordered to lead with Neville.
+
+**Metrics sourced inline (TO REACH B+ 3).** The 1998 abuse details now sit *under* the episode-two citation with Kath Phipps named as the witness for the posted bullets; the unsourced car-window detail was cut. Melreese dated to 6 November 2018; the Qatar fee dated to the October 2021 reporting with both figures marked unconfirmed; *The Independent* and *Country Life* now named in the body (both were unused URLs in `citations`).
+
+**Sequencing, tics, ending.** Beekeeping H2 moved from position 3 to 6 (one section from its payoff, not five); Rabbit Hole moved to after the final H2; three bridges rewritten and the heading ledger updated. Cut "That is the most Type 3 thing in the whole story," rewrote "Here is what those years appear to have taught him," cut two of three "Look at…" imperatives and one aphoristic section closer. Cut the closing moral so the piece ends on "the thing his father's method left out."
+
+## Rejected
+
+- **Cutting the 1999/2002 timeline entries.** Those were *added* by accepted perspective items P1-03/P1-04 so a football-naive reader can name the treble and see the recovery; removing them would regress verified jury work to satisfy the grader's mildest note. I trimmed the restating flourishes inside the 2000 and 2001 entries instead.
+- **Rewriting the `description` to drop the 2am hook.** The reframed cold open makes it an honest curiosity hook rather than a broken promise, and Discoverability is the one dimension already at 9.
+
+## Still open (logged, not dropped)
+
+Ferguson's volume still needs a primary text or a page reference. Ted's "nothing to work at" is now dated to 4 October 2023 and corroborated by contemporaneous coverage, but no source pins it to an episode — so **no episode number was asserted**, and the grader's ask there is only partly met.
+
+**Verification:** lint clean (0 fail; the 1 warn is the pre-existing word-count headroom, 4,492 of 4,500). All 10 PROTECT hits re-verified present by exact-string grep after the reorder — that reorder was the real risk this pass took, so I re-ran the full regression check rather than the two at-risk items. `lastmod` and `content_quality` untouched.
+
+Resolution artifact written to `docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/revision-resolution.md`. The pipeline will clear the consumed review sidecar and re-grade, and targeted perspective verification needs to rerun — I did not declare the gate passed.

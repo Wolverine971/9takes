@@ -1,0 +1,39 @@
+No changes needed — this draft is already fully enriched. I verified rather than assumed:
+
+**Verified against Wikidata (Q10520):**
+- `imdb_id: nm0065743` → confirmed via P345
+- `birth_date: 1975-05-02` → confirmed via P569
+- `nationality: British` → confirmed via P27 (Q145)
+- `wikidata_qid` / `wikipedia` → resolve to the correct person entity
+
+**Verified against the draft itself:**
+- No templated-backfill telltale ("with supporting context from") anywhere in the file
+- `knows_about` holds 7 real expertise areas (free-kick technique, crossing and set pieces, sports franchise ownership…), not occupation-copied placeholders
+- All 5 FAQ anchors resolve to real body headings: `what-is-david-beckhams-personality-type`, `the-father-who-took-david-beckham-out-for-hours`, `why-an-entire-nation-turned-on-david-beckham`, `why-david-beckham-took-the-qatar-money`. FAQ 5 (Three vs. Nine) reuses the type anchor, which is correct placement.
+- FAQ answers track the body's actual arguments — the 1998 sending-off, the OCD epistemic hedge, the unresolved Qatar motive, the Nine counterargument. Substantive, so idempotency applies: left untouched.
+
+```
+Frontmatter enrichment complete: David-Beckham
+
+Fields filled: none — no changes made
+
+Fields already present (preserved):
+- wikipedia, wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation (4), knows_about (7), keywords (8), same_as (4),
+  citations (12), faqs (5)
+
+FAQs present (5, all preserved):
+1. What is David Beckham's personality type? → #what-is-david-beckhams-personality-type
+2. Why did an entire nation turn on David Beckham in 1998? → #why-an-entire-nation-turned-on-david-beckham
+3. Does David Beckham really have OCD? → #the-father-who-took-david-beckham-out-for-hours
+4. Why did David Beckham take the Qatar World Cup money? → #why-david-beckham-took-the-qatar-money
+5. Is David Beckham a Type 3 or a Type 9? → #what-is-david-beckhams-personality-type
+```
+
+**Issues (2, neither blocking):**
+
+1. **Zero external URLs inline in the body.** The 12 `citations` are authoritative and map cleanly onto the body's factual claims (Netflix *Beckham*, AP, Independent OCD interview, Country Life beekeeping, gov.uk knighthood, HRW Qatar, Inter Miami), but they were sourced from the Testimony Ledger and working notes rather than lifted from body links. The body's only links are internal (`/personality-analysis/cristiano-ronaldo`, `/personality-analysis/lionel-messi`, `/enneagram-corner/enneagram-type-3`). Nothing to fix at this stage — the body is read-only for me — but worth knowing the citation list is research-derived, not link-derived.
+
+2. **`content_quality` is absent from the frontmatter.** Not a field this pass owns, and I left it alone, but the publish gate may expect it before `/blog_content_publish_people` runs.
+
+One flag on `blockers: []` — `published: false` and `ready_for_published: false` are both still set, so this is correctly parked pre-publish.
