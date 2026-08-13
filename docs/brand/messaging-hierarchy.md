@@ -43,6 +43,11 @@ Weak:
 
 > Here is how an Enneagram 8 communicates with an Enneagram 7.
 
+**Scoped exemption (DJ, 2026-08-13):** Instagram type-pond captions may open type-first (self-ID
+hook in the type's vernacular) — that is the deliberate `/carousel` type-pond strategy, not drift.
+The exemption covers IG captions only; the carousel's story content itself still leads with the
+human tension.
+
 ### Use one level for one job
 
 - Use the **movement belief** in manifestos, founder posts, podcast conversations, and category-defining essays.

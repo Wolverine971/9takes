@@ -76,14 +76,14 @@ Load the required Svelte skills before analyzing Svelte files. Use the `hyperple
 
 Evaluate at least these source groups:
 
-| Source intent | Candidate next action to test | Important guardrail |
-| --- | --- | --- |
-| Personality analysis | Give your take, run a personal situation, or explore the founder-led offer | Do not assume celebrity curiosity equals buying intent |
-| Relationship or conflict guide | Bring one real person, conversation, or recurring pattern | Avoid manipulation promises |
-| Workplace or difficult-person guide | Map motives and communication possibilities | Do not claim certainty about another person's type |
-| Mental-health content | Safe educational continuation or professional support resources | Do not funnel diagnostic concern into personality decoding |
-| Founder-led Reel landing | Answer the exact situation from the Reel | Keep one consistent action for the pilot |
-| Post-contribution reveal | Save identity, add type context, or deepen the situation | Do not interrupt the initial contribution |
+| Source intent                       | Candidate next action to test                                              | Important guardrail                                        |
+| ----------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Personality analysis                | Give your take, run a personal situation, or explore the founder-led offer | Do not assume celebrity curiosity equals buying intent     |
+| Relationship or conflict guide      | Bring one real person, conversation, or recurring pattern                  | Avoid manipulation promises                                |
+| Workplace or difficult-person guide | Map motives and communication possibilities                                | Do not claim certainty about another person's type         |
+| Mental-health content               | Safe educational continuation or professional support resources            | Do not funnel diagnostic concern into personality decoding |
+| Founder-led Reel landing            | Answer the exact situation from the Reel                                   | Keep one consistent action for the pilot                   |
+| Post-contribution reveal            | Save identity, add type context, or deepen the situation                   | Do not interrupt the initial contribution                  |
 
 For each group, produce:
 

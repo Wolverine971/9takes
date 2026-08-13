@@ -60,9 +60,9 @@
 				'Create an account to submit a new question; your email is never displayed with the post. Answering an existing question stays anonymous and does not require an account.'
 		},
 		{
-			question: 'What is the give-first commenting system?',
+			question: "Why can't I see other answers before I post mine?",
 			answer:
-				"The give-first system requires you to share your own perspective before viewing others' responses. This encourages authentic participation and reduces bias from seeing other answers first."
+				'9takes runs on one rule: answer before the crowd. Other responses stay hidden until you contribute your own, so your honest read comes before the room can shape it.'
 		},
 		{
 			question: 'How do personality types work on 9takes?',
@@ -255,8 +255,8 @@
 </script>
 
 <SEOHead
-	title="Ask Questions Anonymously & Get Answers | 9takes"
-	description="Join 9takes to ask personal questions anonymously and get answers from diverse perspectives. Explore life's questions through the lens of personality types."
+	title="One Question, Nine Perspectives — Anonymous Q&A | 9takes"
+	description="Answer before the crowd. Other answers stay hidden until you post yours — then see nine perspectives on the same question and the emotions behind every take."
 	canonical="https://9takes.com/questions"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/questions-default.webp"
@@ -265,7 +265,7 @@
 		{
 			name: 'keywords',
 			content:
-				'anonymous questions, personality types, enneagram, Q&A platform, diverse perspectives, give-first system'
+				'anonymous questions, nine perspectives, enneagram, Q&A platform, answer before the crowd'
 		},
 		{ name: 'twitter:label1', content: 'Active Questions' },
 		{ name: 'twitter:data1', content: `${data.questionsAndTags?.length || 0}+` }
@@ -490,7 +490,7 @@
 		<section class="signup-nudge">
 			<div class="signup-inner">
 				<SectionKicker class="section-tag" num="03" label="HOW IT WORKS" />
-				<h2 class="display-md">Give first. Then see how the room reads it.</h2>
+				<h2 class="display-md">Answer before the crowd. Then see how the room reads it.</h2>
 				<ol class="signup-steps">
 					<li>
 						<span class="mono signup-step-num">01</span>

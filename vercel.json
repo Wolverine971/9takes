@@ -73,6 +73,10 @@
 		{
 			"path": "/api/cron/tag-chorus-questions",
 			"schedule": "*/15 * * * *"
+		},
+		{
+			"path": "/api/cron/postprocess-questions",
+			"schedule": "*/15 * * * *"
 		}
 	],
 	"redirects": [

@@ -65,7 +65,11 @@ One question, nine perspectives. Answer before reading the room.
 
 ### Destination
 
-Use the pilot question from [`docs/research/give-first-nine-person-pilot.md`](../../research/give-first-nine-person-pilot.md) once its live question page exists.
+**Primary (available now):** [`/questions/what-are-you-afraid-to-tell-to-your-partner`](https://9takes.com/questions/what-are-you-afraid-to-tell-to-your-partner) — live, on-theme, 6 real answers + all nine takes (verified 2026-08-13). Episode 1 does not wait on the pilot.
+
+**Better, if DJ prefers an exact match:** create the episode's own closing question ("When someone you trust is afraid of a decision you believe is right, what do you do?") through the normal create flow — the postprocess cron now generates its nine takes automatically within ~15 minutes.
+
+**Later:** switch to the pilot question from [`docs/research/give-first-nine-person-pilot.md`](../../research/give-first-nine-person-pilot.md) once its live question page exists with all nine independent answers.
 
 ---
 
@@ -133,7 +137,7 @@ The crowd is not the enemy. The design problem is anchoring: once you know what 
 
 ### Destination
 
-Route directly to the current featured question, not the homepage or a general blog index.
+Route directly to a specific live question, not the homepage or a general blog index. Default: the question currently featured in the homepage hero's `#live-question` section (that is the closest thing to a "featured question" mechanism as of 2026-08-13); confirm it has real answers before posting.
 
 ---
 

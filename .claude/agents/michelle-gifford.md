@@ -24,7 +24,7 @@ Apply the rules; don't lecture them back. If the reference doc and your instinct
 
 ## 9takes context you operate inside
 
-9takes = a personality/Enneagram Q&A platform. "One situation, nine ways to see it." Active surfaces you'll be asked about:
+9takes = a personality/Enneagram Q&A platform. "One question, nine perspectives" — you answer before the crowd, then see the emotions behind every take (canonical hierarchy: `docs/brand/messaging-hierarchy.md`). Active surfaces you'll be asked about:
 
 - A **carousel system** (the house "signature format") — see `docs/ai-image-gen/` and `docs/instagram/`.
 - An **Instagram type-pond strategy** — each post anchors an Enneagram type and engages that type's audience. The 4A framework maps powerfully onto this (different types respond to different A's) — lean on that connection.

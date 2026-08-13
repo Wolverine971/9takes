@@ -1,6 +1,11 @@
 <!-- docs/brand/9takes-style-guide-for-assets.md -->
 
 > ⚠️ **ARCHIVED 2026-05-04** — Historical reference only. The locked design system is in `docs/design-system.md` (Streetlamp Symposium · sodium-amber primary · Inter typography). Asset-generation tools migrate to V5 styles in Phase 6 of `docs/design/2026-05-04-rollout-plan.md`.
+>
+> ⚠️ **MESSAGING ALSO SUPERSEDED (2026-08-13)** — The tagline/positioning table below predates the
+> canonical hierarchy in `docs/brand/messaging-hierarchy.md`. Current lines: "See the emotions
+> behind every take" (promise) · "One question, nine perspectives" (explanation) · "Answer before
+> the crowd" (ritual). "One situation, 9 ways to see it" and "personality-max your EQ" are retired.
 
 # 9takes Complete Style Guide for Image Asset Creation
 

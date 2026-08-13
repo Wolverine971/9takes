@@ -34,7 +34,7 @@
 
 	let {
 		title = '9takes - See the emotions behind every take',
-		description = 'One situation, 9 ways to see it. Anonymous Q&A platform exploring perspectives through personality types.',
+		description = 'One question, nine perspectives. Answer before the crowd, then see the emotions behind every take.',
 		canonical,
 		ogImage = DEFAULT_OG_IMAGE,
 		ogImageWidth: providedOgImageWidth,

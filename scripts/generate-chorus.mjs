@@ -231,7 +231,7 @@ async function ensureQuestion(person, questionText, authorId) {
 					})
 					.eq('id', existing.id);
 			}
-			return existing.url;
+			return { id: existing.id, url: existing.url };
 		}
 	}
 
@@ -242,11 +242,11 @@ async function ensureQuestion(person, questionText, authorId) {
 		.select('id, url')
 		.single();
 	if (error) throw new Error(`question insert: ${error.message}`);
-	return data.url;
+	return { id: data.id, url: data.url };
 }
 
 async function persist(person, questionText, takes, authorId) {
-	const url = await ensureQuestion(person, questionText, authorId);
+	const { id: questionId, url } = await ensureQuestion(person, questionText, authorId);
 
 	const { error: blogErr } = await supabase
 		.from('blogs_famous_people')
@@ -268,6 +268,25 @@ async function persist(person, questionText, takes, authorId) {
 			{ onConflict: 'subject_type,subject_slug' }
 		);
 		if (takesErr) throw new Error(`takes upsert: ${takesErr.message}`);
+
+		// Keep the question page's AI takes (comments_ai) in sync with the chorus
+		// takes — /questions/[slug] reads only comments_ai (2026-08-13 audit).
+		const aiRows = (takes || [])
+			.filter((t) => t && typeof t.take === 'string' && t.take.trim() && Number.isInteger(t.type))
+			.map((t) => ({
+				question_id: questionId,
+				enneagram_type: String(t.type),
+				comment: t.take.trim()
+			}));
+		if (aiRows.length === 9) {
+			const { error: delErr } = await supabase
+				.from('comments_ai')
+				.delete()
+				.eq('question_id', questionId);
+			if (delErr) throw new Error(`comments_ai delete: ${delErr.message}`);
+			const { error: aiErr } = await supabase.from('comments_ai').insert(aiRows);
+			if (aiErr) throw new Error(`comments_ai insert: ${aiErr.message}`);
+		}
 	}
 
 	return url;

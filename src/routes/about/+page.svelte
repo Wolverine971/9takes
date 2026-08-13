@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>About 9takes - Answer First, See 9 Perspectives</title>
+	<title>About 9takes - See the Emotions Behind Every Take</title>
 	<meta
 		name="description"
 		content="9takes uses the Enneagram to help you give your real take first, then compare how nine personality types read the same situation."
@@ -131,8 +131,9 @@
 		</div>
 		<h1>Built for the moment your first read is not enough.</h1>
 		<p class="hero-subtitle">
-			Most online debate rewards the fastest take. 9takes slows the moment down: answer first, then
-			compare how other Enneagram types read the same situation.
+			See the emotions behind every take. Most online debate rewards the fastest take; 9takes slows
+			the moment down: answer before the crowd, then compare how other Enneagram types read the same
+			situation.
 		</p>
 		<div class="hero-actions">
 			<Button href="/questions">Browse Questions</Button>

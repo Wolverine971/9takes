@@ -369,7 +369,7 @@
 		<div class="shell hero-grid">
 			<div class="hero-copy">
 				<SectionKicker num="01" label="THE OPEN QUESTION" />
-				<h1 id="hero-title">One question.<br /><span>Nine ways to see it.</span></h1>
+				<h1 id="hero-title">One question.<br /><span>Nine perspectives.</span></h1>
 				<p class="hero-lede">
 					Say what you actually think before the crowd can shape your take. Then unlock the other
 					perspectives and notice what someone else can see that you cannot.

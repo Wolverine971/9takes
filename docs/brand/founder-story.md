@@ -3,7 +3,11 @@
 # Founder Story — DJ Wayne / 9takes
 
 **Date:** 2026-06-11
-**Status:** `draft-for-DJ-edit`
+**Status:** `historical-source-material` — superseded as the public founder narrative by
+[`9takes-manifesto.md`](./9takes-manifesto.md) (2026-08-13), which is the canonical telling of the
+marriage loop and the founding argument. This doc remains valuable as the raw tidbit bank and the
+fuller origin chronology (Myers-Briggs → Ian Cron group → killed prototype); pull from it, don't
+publish it. `[needs-ruling]` gates still apply.
 **Sources:** DJ's written brain dump, 2026-06-11 (see `docs/brand/founder-story-brief.md`, "DJ's answers" section)
 
 > Nothing below is invented. Every fact and phrase comes from DJ's dump. Items needing his ruling are flagged in the Gaps section. Do not deploy any tidbit tagged `[needs-ruling]` until DJ clears it.

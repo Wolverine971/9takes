@@ -191,9 +191,9 @@
 	  §01 OBSERVATION — hero + statue + tagline + subtext (no CTA row here)
 	  ===================================================================== -->
 	<IndexHero
-		title="See public figures through the patterns that drive them."
-		line1="We read public figures through the Enneagram, the framework that maps 9 emotional patterns driving behavior."
-		line2="Each breakdown goes beyond surface biography. We map their core fear, core desire, stress line, growth line, and the moments where those patterns showed up."
+		title="See the emotions that drive public figures."
+		line1="Every analysis starts with the human contradiction — the feud, the reinvention, the decision nobody understood — and finds the emotional logic underneath."
+		line2="The Enneagram is the map: core fear, core desire, stress line, growth line, and the moments where those patterns showed up."
 		imageSrc="/greek_pantheon.webp"
 		imageAlt="Greek pantheon representing the nine Enneagram personality types"
 		imageMono="9TAKES · CASE FILES · ENNEAGRAM READS"

@@ -15,6 +15,20 @@ path: docs/twitter/voice-and-tone.md
 
 **READ THIS FIRST** before creating any Twitter content.
 
+> **Persona exemption + boundaries (DJ, 2026-08-13).** DJocrates is a sanctioned persona exemption
+> from the default brand tone — the savage energy stays. Two boundaries are non-negotiable, from
+> the canonical messaging doctrine (`docs/brand/messaging-hierarchy.md`):
+>
+> 1. **Roast patterns, never persons.** The target is always a type's pattern the reader recognizes
+>    in themselves — never a named individual, a reply-guy, or "the crowd." The architecture of
+>    anchoring and flattening is the enemy; people are not.
+> 2. **Mean-girl accuracy with immediate hug** is the load-bearing half. Understanding over
+>    judgment survives the roast: the punchline lands because it decodes the pattern, not because
+>    it demeans the person carrying it.
+>
+> Product language, when it appears, uses the canonical lines ("Answer before the crowd," "One
+> question, nine perspectives") — never retired taglines.
+
 ---
 
 ## The Problem with Current Voice

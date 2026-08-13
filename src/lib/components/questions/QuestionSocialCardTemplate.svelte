@@ -52,7 +52,7 @@
 	<div class="content">
 		<div class="card-top">
 			<p class="brand">9takes</p>
-			<p class="tagline">One question &middot; Nine ways to see it</p>
+			<p class="tagline">One question &middot; Nine perspectives</p>
 		</div>
 		<div class="question-wrap">
 			<h2
@@ -67,7 +67,7 @@
 		<div class="card-bottom">
 			<span class="rule" aria-hidden="true"></span>
 			<p class="url">{displayUrl}</p>
-			<p class="strip">Answer first &middot; See all 9 takes</p>
+			<p class="strip">Answer before the crowd &middot; See all 9 takes</p>
 		</div>
 	</div>
 </div>

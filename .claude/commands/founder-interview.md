@@ -4,7 +4,14 @@
 
 # Founder Interview
 
-Interview DJ to capture his founder story, then draft `docs/brand/founder-story.md` — a canonical narrative plus a tagged tidbit bank that plugs into specific surfaces across 9takes.
+Interview DJ to capture his founder story, then draft `docs/brand/founder-story.md` — a tagged tidbit bank plus source narrative that plugs into specific surfaces across 9takes.
+
+> **Canon note (2026-08-13):** The public founder narrative now lives in
+> `docs/brand/9takes-manifesto.md` (mirrored at `/manifesto`), built on the hinge line "She was
+> afraid of my anger. I was angry at her fear." and the messaging hierarchy in
+> `docs/brand/messaging-hierarchy.md`. This command's output is **source material and tidbits**, not
+> a competing public narrative — do not fork the founder story; new material that changes the
+> public telling routes through the manifesto (doc + page updated in the same commit).
 
 ---
 

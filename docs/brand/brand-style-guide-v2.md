@@ -2,15 +2,22 @@
 
 # 9takes — Brand Voice & Style Guide (Revised)
 
-_Updated May 22 2025_
+_Updated May 22 2025 · Messaging superseded 2026-08-13_
 
-> **Primary positioning tagline**  
-> **See the emotions behind every take.**
+> **⚠️ MESSAGING SUPERSEDED (2026-08-13).** All positioning language in this document defers to
+> [`messaging-hierarchy.md`](./messaging-hierarchy.md) — the canonical, frozen five-level hierarchy:
 >
-> 9takes helps you **decode social dynamics, personality-max your EQ, and turn conflict into understanding** using the Enneagram.
-
-> **Secondary tagline**  
-> **One situation, 9 ways to see it.**
+> 1. **Movement belief:** The internet collapses nine perspectives into one winning take.
+> 2. **Brand promise:** See the emotions behind every take.
+> 3. **Product ritual:** Answer before the crowd.
+> 4. **Product explanation:** One question, nine perspectives.
+> 5. **Personal payoff:** Stop mistaking someone else's alarm for a defect.
+>
+> "Personality-maxing" and "open source conflict resolution" are **retired as positioning** (campaign
+> or internal vocabulary only). "One situation, 9 ways to see it" is retired in favor of "One
+> question, nine perspectives." This document remains authoritative for **voice, tone, and
+> linguistic style** only. Lead with the human situation; the Enneagram is the map, not the
+> protagonist.
 
 ---
 
@@ -20,8 +27,8 @@ _Updated May 22 2025_
 | -------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Emotional Foundation Mapping**       | _"Understand WHY people see things differently."_                    | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read and navigate.                                                |
 | **Give‑First Intelligence**            | _"Comment first, then see everyone else's take."_                    | The give‑first mechanic prevents groupthink and reveals your authentic perspective before outside influence kicks in.                                      |
-| **Personality‑Maxing**                 | _"Level up your EQ through tactical self‑knowledge."_                | Modern term for ancient wisdom: knowing your patterns and triggers gives you social advantages and personal power.                                         |
-| **Open Source Conflict Resolution**    | _"Turn conflict into understanding through crowd‑sourced wisdom."_   | Post your situation, get 9 different takes. What looks like unsolvable drama often has clear solutions when you see it through different emotional lenses. |
+| **Stop Mistaking Alarms for Defects**  | _"Someone else's emotional alarm is not a character flaw."_          | The personal payoff: understanding the alarm behind a reaction replaces judgment with comprehension — of others and of your own blind spots.               |
+| **One Question, Nine Perspectives**    | _"Same situation, nine coherent readings."_                          | What looks like unsolvable drama becomes legible when you see the emotional logic behind each take. The differences are the value, not a problem to fix.   |
 | **Ancient Wisdom, Modern Application** | _"Continuing a 2,500‑year tradition of understanding human nature."_ | From Plato's soul theory to modern psychology—the Enneagram bridges timeless insights with practical social navigation.                                    |
 
 ---
@@ -53,14 +60,15 @@ _Updated May 22 2025_
 
 ## 4. Key Concepts & Preferred Terms
 
-| Concept           | Use This                                             | Avoid                                  | Notes                                                         |
-| ----------------- | ---------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------- |
-| Main tagline      | **See the emotions behind every take**               | One situation, 9 ways to see it        | Primary positioning statement.                                |
-| Core mechanic     | **Give‑first unlock** or **Reveal through response** | comment‑first, bias‑proof practice     | Both work; emphasize authentic perspective before influence.  |
-| Growth approach   | **Personality‑maxing**                               | self‑improvement, personal development | Viral entry point that leads to deeper Enneagram work.        |
-| Social navigation | **Decode social dynamics**                           | improve relationships                  | Tactical framing for EQ development.                          |
-| Conflict approach | **Open source conflict resolution**                  | crowdsourced advice                    | Positions conflict as solvable through multiple perspectives. |
-| Content approach  | **Emotional foundation mapping**                     | EQ tips, personality insights          | Focus on WHY people behave, not just what they do.            |
+| Concept             | Use This                                                | Avoid                                                | Notes                                                                 |
+| ------------------- | ------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------- |
+| Brand promise       | **See the emotions behind every take**                  | One situation, 9 ways to see it                      | Level 2 of the hierarchy; bios, page furniture, closings.             |
+| Product description | **One question, nine perspectives**                     | nine ways to see it                                  | Level 4; the fast explanation of 9takes.                              |
+| Core mechanic       | **Answer before the crowd** (public)                    | give‑first, comment‑first, bias‑proof practice       | "Give‑first unlock" is internal/product‑strategy language only.       |
+| Personal payoff     | **Stop mistaking someone else's alarm for a defect**    | personality‑maxing, level up your EQ                 | Personality‑maxing is campaign vocabulary only, never the umbrella.   |
+| Conflict approach   | **See the emotions behind every take**                  | open source conflict resolution (in public copy)     | OSCR is an internal strategic metaphor, not a public message.         |
+| Social navigation   | **Decode social dynamics**                              | improve relationships                                | Voice-level verb framing; fine in copy, never the umbrella.           |
+| Content approach    | Lead with the human situation                           | Enneagram-terminology-first openings                 | The framework is the map that explains the story, not the opener.     |
 
 ---
 
@@ -141,8 +149,8 @@ _Updated May 22 2025_
 
 ### Homepage Hero
 
-> **H1**: _See the emotions behind every take_  
-> **Sub**: _Decode social dynamics, personality‑max your EQ, turn conflict into understanding._
+> **H1**: _One question, nine perspectives._  
+> **Sub**: _Answer before the crowd, then see the emotions behind every take._
 
 ### Social Media Hook
 
@@ -150,7 +158,7 @@ _Updated May 22 2025_
 
 ### Product Feature
 
-> **Give‑first unlock**: Comment before seeing others' takes. Get your authentic read before groupthink kicks in.
+> **Answer before the crowd**: Other answers stay hidden until you post yours. Your honest read, before the room can shape it.
 
 ---
 

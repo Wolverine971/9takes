@@ -633,7 +633,7 @@
 				name: '9takes',
 				url: 'https://9takes.com',
 				description:
-					'9takes helps people decode social dynamics, personality patterns, and emotional blind spots using the Enneagram.',
+					'One question, nine perspectives. 9takes is a Q&A platform where you answer before the crowd, then see the emotions behind every take — nine coherent readings of the same situation, mapped by the Enneagram.',
 				foundingDate: '2022',
 				founder: { '@id': AUTHOR_DJ_WAYNE_ID },
 				logo: {
@@ -671,7 +671,7 @@
 				name: '9takes',
 				url: 'https://9takes.com',
 				description:
-					'An Enneagram site for personality analysis, emotional intelligence, and understanding social dynamics.',
+					'One question, nine perspectives. Answer before the crowd, then see the emotions behind every take. Includes personality analysis, Enneagram guides, and anonymous Q&A.',
 				publisher: { '@id': PUBLISHER_ID },
 				inLanguage: 'en-US'
 			}

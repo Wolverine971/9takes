@@ -32,7 +32,7 @@ five levels rather than compete with it.
 
 **Primary Tagline:** See the emotions behind every take.
 
-**Secondary Tagline:** One situation, 9 ways to see it.
+**Secondary Tagline:** One question, nine perspectives.
 
 **Purpose:** We exist to help people understand themselves and others by revealing the emotional foundations that drive behavior, turning conflict into understanding through the Enneagram framework.
 
@@ -46,8 +46,8 @@ five levels rather than compete with it.
 | -------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | **Emotional Foundation Mapping**       | Understand WHY people see things differently     | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read |
 | **Give-First Intelligence**            | Comment first, then see everyone else's take     | Prevents groupthink; reveals authentic perspective before outside influence                   |
-| **Personality-Maxing**                 | Level up your EQ through tactical self-knowledge | Modern term for ancient wisdom: knowing your patterns gives you social advantages             |
-| **Open Source Conflict Resolution**    | Turn conflict into crowd-sourced wisdom          | Post your situation, get 9 different takes. Drama becomes solvable through different lenses   |
+| **Stop Mistaking Alarms for Defects**  | Someone else's emotional alarm is not a flaw     | The personal payoff: understanding the alarm behind a reaction replaces judgment             |
+| **One Question, Nine Perspectives**    | Same situation, nine coherent readings           | Drama becomes legible when you see the emotional logic behind each take                       |
 | **Ancient Wisdom, Modern Application** | Continuing a 2,500-year tradition                | From Plato's soul theory to modern psychology—timeless insights with practical navigation     |
 
 ---
@@ -60,7 +60,7 @@ five levels rather than compete with it.
 | **Pattern Recognition Over Guesswork** | Show the emotional logic              | "She's not 'being difficult'—Type 1s need things done right the first time" |
 | **Authentic Perspective First**        | Your take matters before the crowd's  | Give-first mechanic: comment before seeing others' responses                |
 | **Practical Application**              | Theory serves action                  | Every insight connects to a "try this tonight" moment                       |
-| **Genuine Curiosity**                  | The destination of personality-maxing | Foster interest in others' worldviews, not just understanding your own      |
+| **Genuine Curiosity**                  | The destination of self-knowledge     | Foster interest in others' worldviews, not just understanding your own      |
 
 ### Values in Action
 
@@ -182,10 +182,10 @@ five levels rather than compete with it.
 
 **Tagline Options:**
 
-- "See the emotions behind every take" (primary)
-- "One situation, 9 ways to see it" (secondary)
-- "Decode social dynamics"
-- "The mental gym for your EQ"
+- "See the emotions behind every take" (primary — brand promise)
+- "One question, nine perspectives" (secondary — product explanation)
+- "Answer before the crowd" (CTA — product ritual)
+- "Decode social dynamics" (supporting voice line, never the umbrella)
 
 ---
 
@@ -213,14 +213,15 @@ five levels rather than compete with it.
 
 ## Key Concepts & Preferred Terms
 
-| Concept           | Use This                                    | Avoid                                  | Notes                                            |
-| ----------------- | ------------------------------------------- | -------------------------------------- | ------------------------------------------------ |
-| Main tagline      | See the emotions behind every take          | —                                      | Primary positioning                              |
-| Core mechanic     | Give-first unlock / Reveal through response | comment-first, bias-proof              | Emphasize authentic perspective before influence |
-| Growth approach   | Personality-maxing                          | self-improvement, personal development | Viral entry point to deeper work                 |
-| Social navigation | Decode social dynamics                      | improve relationships                  | Tactical framing                                 |
-| Conflict approach | Open source conflict resolution             | crowdsourced advice                    | Positions conflict as solvable                   |
-| Content approach  | Emotional foundation mapping                | EQ tips, personality insights          | Focus on WHY not just WHAT                       |
+| Concept             | Use This                                             | Avoid                                            | Notes                                                          |
+| ------------------- | ---------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------- |
+| Brand promise       | See the emotions behind every take                   | One situation, 9 ways to see it                  | Level 2; bios, page furniture, closings                        |
+| Product description | One question, nine perspectives                      | nine ways to see it                              | Level 4; the fast explanation                                  |
+| Core mechanic       | Answer before the crowd (public)                     | give-first, comment-first (in public copy)       | "Give-first unlock" is internal/product-strategy language only |
+| Personal payoff     | Stop mistaking someone else's alarm for a defect     | personality-maxing (campaign vocabulary only)    | Level 5; stories about conflict, blind spots, recognition      |
+| Conflict approach   | See the emotions behind every take                   | open source conflict resolution (in public copy) | OSCR is an internal strategic metaphor                         |
+| Social navigation   | Decode social dynamics                               | improve relationships                            | Voice-level framing, never the umbrella                        |
+| Content approach    | Lead with the human situation                        | Enneagram-terminology-first openings             | The framework explains the story; it is not the opener         |
 
 ---
 

@@ -4,6 +4,11 @@
 
 _Captured 2026-06-14. A direction doc, not a spec. The implementation MVP that follows from it ("always-complete Nine + mirror") is tracked separately in the same folder._
 
+_Messaging note (2026-08-13): "The Chorus" is product-strategy vocabulary supporting the canonical
+hierarchy in `docs/brand/messaging-hierarchy.md` — public copy says "Answer before the crowd" /
+"One question, nine perspectives." This doc's north-star framing describes the product direction,
+not the brand's public master message._
+
 ## Start from the feeling
 
 Today 9takes reads as a very good content site with a clever Q&A bolted to the side. People arrive from Google, read a sharp analysis, and leave. The give-first mechanic, the actual soul of the thing, is a side room most visitors never enter.

@@ -53,14 +53,14 @@ Invoke `$capture-dj-personality-read` for Elon Musk. Start with one open invitat
 
 Every important point must retain these fields:
 
-| Field | Requirement |
-| --- | --- |
-| Observation | A public behavior, statement, decision, recurring pattern, or sourced moment |
-| Source | Link, clip, timestamp, document, or an explicit `source needed` marker |
-| DJ interpretation | What DJ believes the observation means |
-| Personality connection | Why it supports the proposed type or pattern |
+| Field                   | Requirement                                                                                      |
+| ----------------------- | ------------------------------------------------------------------------------------------------ |
+| Observation             | A public behavior, statement, decision, recurring pattern, or sourced moment                     |
+| Source                  | Link, clip, timestamp, document, or an explicit `source needed` marker                           |
+| DJ interpretation       | What DJ believes the observation means                                                           |
+| Personality connection  | Why it supports the proposed type or pattern                                                     |
 | Alternative explanation | Another type, role, context, culture, status, media training, neurotype, or non-type explanation |
-| Confidence | Low, medium, or high, with the reason |
+| Confidence              | Low, medium, or high, with the reason                                                            |
 
 Preserve DJ's holistic read as a labeled interpretation. Never rewrite a vibe as a verified fact.
 

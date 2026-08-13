@@ -630,7 +630,8 @@
 				<h2 id="final-cta-title">If you want first access, get on the waitlist.</h2>
 				<p>
 					If you want proof first, read the work. If the lens fits, join the list and I will email
-					you when the first sessions are ready.
+					you when the first sessions are ready. The goal is the same as everything at 9takes: stop
+					mistaking someone else's alarm for a defect — starting with the people closest to you.
 				</p>
 			</div>
 

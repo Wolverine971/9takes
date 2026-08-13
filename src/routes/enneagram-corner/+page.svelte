@@ -161,7 +161,7 @@
 			id: 'situations',
 			type: 'situational',
 			title: 'Real Life',
-			descriptor: 'The same moment, decoded nine different ways.',
+			descriptor: 'The same moment through nine perspectives.',
 			viewAllHref: '/enneagram-corner/subtopic/situational'
 		},
 		{

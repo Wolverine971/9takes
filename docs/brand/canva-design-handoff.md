@@ -532,16 +532,19 @@ If the asset has copy on it, the copy should sound like 9takes. Pull from `docs/
 - **Em dashes for sharp insights.** Minimal parentheses.
 - **No academic tone.** Read it aloud — if it sounds stiff, rewrite.
 
-### Taglines (use these exactly)
+### Taglines (use these exactly — updated 2026-08-13, source: `messaging-hierarchy.md`)
 
 - **Primary:** _See the emotions behind every take._
-- **Secondary:** _One situation, 9 ways to see it._
-- **Mission line:** _Decode social dynamics, personality-max your EQ, turn conflict into understanding._
+- **Secondary:** _One question, nine perspectives._
+- **CTA line:** _Answer before the crowd._
+
+Retired from assets: "One situation, 9 ways to see it", "personality-max your EQ", "open source
+conflict resolution".
 
 ### What NOT to say on assets
 
 - ❌ "personality test" → say "personality analysis" or "Enneagram read"
-- ❌ "self-improvement" → say "personality-maxing"
+- ❌ "self-improvement" / "personality-maxing" → anchor to the payoff: understanding, blind spots, seeing what you can't
 - ❌ "improve relationships" → say "decode social dynamics"
 - ❌ "users" → say "you"
 - ❌ "we believe" / "we think" → just make the claim

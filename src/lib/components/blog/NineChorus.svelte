@@ -1,6 +1,6 @@
 <!-- src/lib/components/blog/NineChorus.svelte -->
 <script lang="ts">
-	// NineChorus — "one question, nine ways to answer it."
+	// NineChorus — "one question, nine perspectives."
 	// The give-first threshold: you answer before you see how nine minds answer.
 	// The question is a real row in the `questions` table; this section is an entry
 	// point to its /questions/[slug] page. Sharing and "see everyone's answers"
@@ -112,9 +112,9 @@
 </script>
 
 {#if question}
-	<section class="chorus" bind:this={root} aria-label="One question, nine ways to answer it">
+	<section class="chorus" bind:this={root} aria-label="One question, nine perspectives">
 		<header class="chorus-head">
-			<span class="kicker">ONE QUESTION · NINE WAYS TO ANSWER IT</span>
+			<span class="kicker">ONE QUESTION · NINE PERSPECTIVES</span>
 		</header>
 
 		{#if phase === 'threshold'}

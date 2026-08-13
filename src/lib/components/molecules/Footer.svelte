@@ -9,6 +9,7 @@
 	const mainLinks = [
 		{ href: '/', label: 'Home' },
 		{ href: '/questions', label: 'Questions' },
+		{ href: '/manifesto', label: 'Manifesto' },
 		{ href: '/about', label: 'About' },
 		{ href: '/corpus-stats', label: 'Corpus Stats' }
 	];
@@ -61,10 +62,9 @@
 					/>
 					<span class="brand-name">9takes</span>
 				</div>
-				<!-- Locked brand one-liner (brand-positioning.md) — the previous blurb
-				     was the generic-SaaS voice the brand doc bans. -->
+				<!-- Locked brand one-liner (docs/brand/messaging-hierarchy.md) -->
 				<p class="brand-description">
-					See the emotions behind every take. One situation, nine ways to see it.
+					See the emotions behind every take. One question, nine perspectives.
 				</p>
 
 				<!-- Social Links -->

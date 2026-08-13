@@ -166,7 +166,7 @@ export const renderQuestionSocialCard = async ({
 
 	const taglinePath = buildTextPath({
 		font: boldFont,
-		text: 'ONE QUESTION · NINE WAYS TO SEE IT',
+		text: 'ONE QUESTION · NINE PERSPECTIVES',
 		size: 17,
 		x: 1142,
 		y: 77,

@@ -97,7 +97,7 @@ export interface CommunityPulse {
 /**
  * Whether the last 7 days are worth reporting as a pulse.
  *
- * The bar is the product's own claim — "one situation, nine ways to see it" —
+ * The bar is the product's own claim — "one question, nine perspectives" —
  * so a week counts when several *different* types showed up, not merely when
  * the take counter moved. Twenty takes from a single type is not a pulse, and
  * rendering it as one flatters the number while misrepresenting the room.
@@ -176,7 +176,7 @@ export function questionText(question: {
  * Ranking, in order:
  *   1. Questions the reader has not answered (hard filter — never re-ask).
  *   2. Questions where the reader's own type is absent from the thread. This is
- *      the whole pitch of the product ("one situation, nine ways to see it"),
+ *      the whole pitch of the product ("one question, nine perspectives"),
  *      and it gives the CTA a concrete reason: "no Type 5 has weighed in yet".
  *   3. Questions that already have takes, so the reader lands on a live thread
  *      rather than an empty one.

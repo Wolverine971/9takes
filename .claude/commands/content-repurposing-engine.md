@@ -203,7 +203,7 @@ Rate each idea on three dimensions (1-3 each):
 
 1. **Standalone strength** — Does this work without the full blog?
 2. **Engagement potential** — Will people reply, share, or save?
-3. **Brand alignment** — Does this reinforce 9takes positioning (decode, pattern recognition, personality-maxing)?
+3. **Brand alignment** — Does this reinforce 9takes positioning (the messaging hierarchy in `docs/brand/messaging-hierarchy.md`: answer before the crowd, one question nine perspectives, see the emotions behind every take)?
 
 **Total score = sum of three dimensions (max 9)**
 

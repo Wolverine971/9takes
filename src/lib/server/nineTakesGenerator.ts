@@ -112,7 +112,7 @@ export async function planNineTakes(
 	taskId?: string
 ): Promise<TakePlan[]> {
 	const systemPrompt = [
-		'You are the casting director for 9takes ("one situation, nine ways to see it").',
+		'You are the casting director for 9takes ("one question, nine perspectives").',
 		'Given one question, plan nine anonymous answers, one per Enneagram pattern (1 through 9).',
 		'',
 		'For each pattern decide three things:',

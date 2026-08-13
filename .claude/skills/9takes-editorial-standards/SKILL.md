@@ -8,6 +8,22 @@ path: .claude/skills/9takes-editorial-standards/SKILL.md
 
 One rulebook for every editorial tool (the `editor` agent, `/deai`, `/copywriting-pass`, `/blog_content_editor_pass_people`, `/grade_blog`, `/cohesion-check`). If a rule here conflicts with an inline rule in a command, THIS FILE WINS — and the command should be updated to match.
 
+## Canonical messaging (locked 2026-08-13)
+
+The five-level hierarchy is frozen. Never invent a new master concept, tagline, or umbrella positioning; new language must clarify one of these jobs:
+
+1. **Movement belief:** The internet collapses nine perspectives into one winning take.
+2. **Brand promise:** See the emotions behind every take.
+3. **Product ritual:** Answer before the crowd.
+4. **Product explanation:** One question, nine perspectives.
+5. **Personal payoff:** Stop mistaking someone else's alarm for a defect.
+
+**Lead with the human situation** — a recognizable conflict, fear, contradiction, or blind spot. The Enneagram is the map that explains the situation, rarely the protagonist of the opening. ("I wanted her to trust my judgment. She wanted me to slow down." beats "Here is how an 8 communicates with a 7.") Exception: Instagram type-pond captions may open type-first by DJ's standing strategy decision.
+
+**Retired from public copy:** "One situation, 9 ways to see it" (use "One question, nine perspectives"), "personality-maxing" (campaign vocabulary only), "open source conflict resolution" (internal metaphor only), "give-first" (internal; public copy says "Answer before the crowd"). "The Chorus," "The Mirror Moment," "One Take," "The Nine," and "crowd gravity" are supporting vocabulary — explain on first use, never the master message. Do not villainize "the crowd" or Reddit users; the problem is the architecture of anchoring and flattening.
+
+Full usage rules: `docs/brand/messaging-hierarchy.md`.
+
 ## Hard rules (never violate)
 
 1. **Never modify `lastmod` frontmatter.** DJ manages it manually. No enrichment, editing, or automated pass touches it. One exception: the publish commands (`/blog_content_publish_people`, `/blog_content_publish_pop_culture`) set `date` and `lastmod` once at publish time — publishing is not editing.

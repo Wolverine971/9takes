@@ -9,7 +9,6 @@ import { logger } from '$lib/utils/logger';
 import { z } from 'zod';
 import { checkDemoTime } from '../../../utils/api';
 import { mapDemoValues } from '../../../utils/demo';
-import { tagQuestion } from '../../../utils/server/openai';
 import type { Json } from '../../../../database.types';
 import type { Actions, PageServerLoad } from './$types';
 
@@ -230,45 +229,35 @@ export const actions: Actions = {
 				const inserted = insertedQuestion[0];
 				const questionId = inserted.id;
 
-				const postProcess = async () => {
-					let imagePath: string | null = null;
-
-					if (!demo_time && img_url) {
-						try {
-							const upload = await uploadQuestionImage({
-								supabase,
-								dataUrl: img_url,
-								questionUrl: url,
-								maxBytes: MAX_FORM_SIZE
-							});
-							imagePath = upload.path;
-							logger.info('Image uploaded to Supabase', {
-								path: imagePath,
-								userId: session.user.id
-							});
-						} catch (err) {
-							logger.error('Supabase image upload error', err as Error, {
-								userId: session.user.id,
-								url
-							});
-						}
+				// The image only exists in this request's payload, so it must be
+				// uploaded before the response returns — Vercel freezes the invocation
+				// after that and fire-and-forget work dies (every question 2026-06 →
+				// 2026-08 lost its post-processing this way). Tags + nine takes are
+				// re-creatable from the row, so they are owned by the
+				// /api/cron/postprocess-questions drain instead (picks up any
+				// non-chorus question with tagged != true within ~15 minutes).
+				if (!demo_time && img_url) {
+					try {
+						const upload = await uploadQuestionImage({
+							supabase,
+							dataUrl: img_url,
+							questionUrl: url,
+							maxBytes: MAX_FORM_SIZE
+						});
+						await supabase
+							.from(questionTable)
+							.update({ img_url: upload.path })
+							.eq('id', questionId);
+						logger.info('Image uploaded to Supabase', {
+							path: upload.path,
+							userId: session.user.id
+						});
+					} catch (err) {
+						logger.error('Supabase image upload error', err as Error, {
+							userId: session.user.id,
+							url
+						});
 					}
-
-					if (imagePath) {
-						await supabase.from(questionTable).update({ img_url: imagePath }).eq('id', questionId);
-					}
-
-					if (!demo_time) {
-						await tagQuestion(supabase, question, questionId);
-					}
-				};
-
-				const waitUntil =
-					(event as any)?.platform?.context?.waitUntil ?? (event as any)?.platform?.waitUntil;
-				if (typeof waitUntil === 'function') {
-					waitUntil(postProcess());
-				} else {
-					void postProcess();
 				}
 
 				logger.info('Question created successfully', {

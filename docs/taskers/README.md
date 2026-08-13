@@ -146,6 +146,28 @@ T-17 is a decision task. It must choose a sequence and stop conditions, not crea
 
 ---
 
+## New workstream: 2026-08-13 founder reasoning and interpretation product (T-19 to T-22)
+
+This workstream turns DJ's personal judgment into visible evidence, clarifies the founder-led offer, and defines the core 9takes product in plain situation, take, and interpretation language. The legacy musical label is not assumed as future user-facing terminology.
+
+| ID       | Tasker                                                                                                     | What it is                                                                                                                                                                                                                              | Est.                                |
+| -------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
+| **T-19** | [DJ personality reasoning card pilot](T-19-dj-personality-reasoning-card-pilot.md)                         | Use the new interview skill to capture DJ's Elon Musk reasoning, preserve observation versus interpretation, design one clean card, and pilot it only after DJ approves the artifact. Founder-led Reel outputs come from the same riff. | Interview plus one focused UI pilot |
+| **T-20** | [Book-session CTA and funnel audit](T-20-book-session-cta-funnel-audit.md)                                 | Audit the full founder-led offer path and produce an intent-matched CTA matrix before sending more traffic to the current waitlist. Research only.                                                                                      | 1 focused audit                     |
+| **T-21** | [Situations and interpretations product research](T-21-situations-and-interpretations-product-research.md) | Define the situation, take, and interpretation object model; compare product modes; explore search and categories; separate human and AI material; and specify one bounded experiment.                                                  | 1 product-research cycle            |
+| **T-22** | [Reddit situation discovery](T-22-reddit-situation-discovery-flow.md)                                      | Read-only research into how people describe ambiguous events and competing interpretations. Feeds real language and taxonomy evidence into T-21. No posting or outreach.                                                                | 1 bounded discovery cycle           |
+
+Recommended dependency order:
+
+1. Start T-19 with the Elon riff. The skill and editorial artifact do not depend on product implementation.
+2. Run T-22 before or alongside T-21 so the product taxonomy is grounded in real situation language.
+3. Complete T-21 before renaming mechanics, reshaping question categories, or building new search.
+4. Run T-20 after the reasoning-card proof is concrete enough to serve as trust material, or in parallel if it remains a read-only audit.
+
+Do not launch all four as implementation projects. T-19 has one gated pilot. T-20 and T-21 are decision tasks. T-22 is read-only discovery.
+
+---
+
 ## Notes
 
 - Six older taskers predate this folder and still live in their original locations: `docs/development/` (3), `docs/seo/` (1), `docs/design/` (1), `docs/planning/` (1). They were left in place rather than moved, since other work may link to them. Consolidating them here is a reasonable cleanup if you want it.
