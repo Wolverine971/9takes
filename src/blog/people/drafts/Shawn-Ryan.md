@@ -6,7 +6,7 @@ description: 'From Navy SEAL to CIA to drug spiral to podcasting. Inside the Typ
 author: 'DJ Wayne'
 date: '2026-02-06'
 loc: 'https://9takes.com/personality-analysis/shawn-ryan'
-lastmod: '2026-02-10'
+lastmod: '2026-08-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -42,9 +42,31 @@ same_as:
 citations:
   - 'https://en.wikipedia.org/wiki/Shawn_Ryan_(United_States_Navy)'
   - 'https://www.wikidata.org/wiki/Q131919780'
+  - 'https://shawnryanshow.com/pages/bio'
+  - 'https://shawnryanshow.com/blogs/the-shawn-ryan-show/shawn-ryans-psychedelic-experience'
+  - 'https://pmc.ncbi.nlm.nih.gov/articles/PMC10556383/'
+  - 'https://pubmed.ncbi.nlm.nih.gov/42228481/'
+  - 'https://www.youtube.com/watch?v=NSLm__BUnmI'
+  - 'https://www.youtube.com/watch?v=gcgC532OPhw'
+  - 'https://www.youtube.com/watch?v=hQyX3qGcE_g'
+  - 'https://media.defense.gov/2024/Mar/08/2003409233/-1/-1/0/HRR-VOL-I-REPORT-08-MARCH-2024.PDF'
+  - 'https://www.nasa.gov/wp-content/uploads/2023/09/uap-independent-study-team-final-report-0.pdf'
+  - 'https://x.com/ShawnRyan762/status/1999610792103010336'
+  - 'https://x.com/DanCrenshawTX/status/2006915744332919150'
+  - 'https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-127-president-donald-j-trump-make-america-great-again'
+  - 'https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-256-tucker-carlson'
+  - 'https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-259-mike-durant'
+  - 'https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-278-ro-khanna-why-is-congress-afraid-to-subpoena-every-name-in-the-epstein-files'
+  - 'https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-264-hunter-biden'
+  - 'https://www.justice.gov/opa/media/1407001/dl'
+  - 'https://www.justice.gov/opa/pr/department-justice-publishes-35-million-responsive-pages-compliance-epstein-files'
+  - 'https://www.whitehouse.gov/briefings-statements/2025/04/text-of-a-letter-from-the-president-to-the-speaker-of-the-house-of-representatives-and-the-president-pro-tempore-of-the-senate/'
+  - 'https://www.defense.gov/News/Transcripts/Transcript/Article/4222543/secretary-of-defense-pete-hegseth-and-chairman-of-the-joint-chiefs-of-staff-gen/'
+  - 'https://www.president.gov.ua/en/news/znayemo-vid-rozvidok-ta-partneriv-sho-rosiyani-prigotuvali-r-105577'
+  - 'https://media.defense.gov/2026/Apr/01/2003905658/-1/-1/1/OPERATION-EPIC-FURY-FACT-SHEET-APRIL-1-UPDATE.PDF'
 faqs:
   - question: "What is Shawn Ryan's personality type?"
-    answer: "Shawn Ryan is an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in his confession that 'I've hid my emotions for so long I don't even know how to access them anymore,' the interview style built on silence learned in therapy, the way he reconstructed his own suicide attempt from physical evidence like an incident report, the Colombia spiral where he mapped drug supply chains like an intelligence operation, and the off-grid Colorado property where he's happiest."
+    answer: "This profile tentatively reads Shawn Ryan as an Enneagram Type 5 (The Investigator), specifically a 5w6. The pattern shows in his confession that 'I've hid my emotions for so long I don't even know how to access them anymore,' the interview style built on silence learned in therapy, the way he reconstructed his own suicide attempt from physical evidence like an incident report, the Colombia spiral where he mapped drug supply chains like an intelligence operation, and the off-grid Colorado property where he's happiest."
     anchor: 'what-is-shawn-ryans-personality-type'
   - question: 'How did the Shawn Ryan Show get so big?'
     answer: "It launched Christmas 2019 in his attic, with his wife manually resetting 30-minute camera timers, and hit #2 on Spotify behind only Joe Rogan by late 2024. The secret weapon was three and a half years of twice-weekly therapy: his therapist Amy taught him that silence draws people out more than interrogation. He asks carefully chosen questions and gets out of the way — which is how DJ Shipley broke down on camera and Pete Scobell broke five years of silence about the Captain Phillips rescue."
@@ -53,10 +75,10 @@ faqs:
     answer: "After leaving the CIA, he spiraled into alcohol, cocaine, and prescription pills — close to two fifths of vodka a day — then moved to Medellin, where he approached the drug trade like an intelligence operation: 'I would find dealers and then I would find their dealers and then I would find where their dealers get their stuff.' He overdosed multiple times and Colombian federal police began surveilling him. A Mother's Day call to his mom triggered an escape-and-evasion protocol out of the country."
     anchor: 'the-colombia-spiral'
   - question: 'How did Shawn Ryan get sober?'
-    answer: "Through ibogaine and 5-MeO-DMT treatments facilitated by VETS, an organization helping Special Operations veterans. During the 12-hour ibogaine session he had to 'concentrate on not trying to concentrate' — surrendering the mental control that defines him — and afterward his brain reclassified substances as 'poison': he quit alcohol, Adderall, Ambien, and sugar at once with no cravings. His stated reason for doing it: 'be a better dad.'"
+    answer: "Ryan attributes his recovery to ibogaine and 5-MeO-DMT treatments facilitated by VETS. He reported that the experience reclassified substances as 'poison' and ended his cravings, but that is his account, not evidence of a universal or permanent cure. Research remains preliminary, relapse is possible, and ibogaine carries serious cardiac risks. His stated reason for seeking treatment was to 'be a better dad.'"
     anchor: 'the-surrender-a-type-5-fears-most'
-  - question: 'Why did Shawn Ryan turn against Trump?'
-    answer: "He hosted Trump in August 2024, called it 'the biggest interview of my career,' and supported his victory. Then he tracked results the way he once tracked threat patterns, and by late 2025 his assessment was blunt: 'Nothing I voted for happened' — citing the Ukraine war, the unreleased Epstein files, and new military engagements. It wasn't an ideological shift; he began hosting guests across the spectrum because limiting sources would compromise the investigation."
+  - question: 'Why did Shawn Ryan criticize Trump?'
+    answer: "Ryan hosted Trump in August 2024 and backed his return to office. By November 2025, he was saying, 'Nothing I voted for happened,' citing the continuing war in Ukraine, stalled Epstein transparency, and new U.S. military strikes. The record later changed: DOJ published nearly 3.5 million Epstein-related pages in January 2026, while disputes over redactions and completeness continued."
     anchor: 'the-political-reckoning'
 twitter: 'ShawnRyan762'
 instagram: 'shawnryan762'
@@ -90,15 +112,16 @@ FEEDBACK (2026-02-20):
 
 - NEEDS WORK: The "Where Shawn Ryan Goes From Here" section slightly drifts into summary/recap territory, though the advocacy for psychedelic therapy redeems it.
 - RETROFIT (2026-04-17): Added the opt-in Enneagram Rabbit Hole block and moved specialist analysis out of the main narrative.
+- POLISH PASS (2026-08-13): Implemented the priority fixes below and corrected time-sensitive political claims.
 
 - TO REACH A+: (1) Tighten the final section — cut the podcast stats recap (already covered) and end closer to "the man who lost access to his emotions is trying to raise kids who never have to." That's the real ending. (2) Consider whether the "When Data Overrides Loyalty" section could be restructured for even more impact — the Trump reckoning is the strongest beat there.
 -->
 
-<p class="firstLetter">On Joe Rogan's podcast, Shawn Ryan mentions his suicide attempt mid-sentence. "I was, I mean I tried to kill myself." Then he pivots to veteran statistics. No pause. No lingering. Just data.</p>
+<p class="firstLetter">On the September 26, 2024 episode of <a href="https://www.youtube.com/watch?v=gcgC532OPhw">The Joe Rogan Experience #2207</a>, Shawn Ryan mentions his suicide attempt mid-sentence. "I was, I mean I tried to kill myself." Then he pivots to veteran statistics. No pause. No lingering. Just data.</p>
 
 That moment tells you more about Shawn Ryan than any SEAL trident or podcast ranking ever could. He's not hiding the pain. He's processing it the way he processes everything: through observation, analysis, and carefully measured disclosure.
 
-That's the signature of an [Enneagram Type 5](/enneagram-corner/enneagram-type-5), "The Investigator." It runs through every chapter of his life.
+That's the signature of an [Enneagram Type 5](/enneagram-corner/enneagram-type-5), the Investigator. It runs through every chapter of his life.
 
 <details>
 <summary class="accordion">TL;DR: Why Shawn Ryan is an Enneagram Type 5</summary>
@@ -122,11 +145,11 @@ Type 5s are the most internally-focused type in the Enneagram. Their core fear: 
 
 Most people see Shawn Ryan and see a warrior. The SEAL trident. The CIA missions. The confrontational interviews.
 
-Look closer. What you're actually seeing is a deeply private man who processes the world by watching it before engaging with it. His greatest skill has always been intelligence-gathering, not brute force.
+Look closer. What you're actually seeing is a deeply private man who processes the world by watching it before engaging with it. His greatest skill has always been intelligence-gathering, not brute force. In the [June 26, 2023 Shawn Ryan Show #63 conversation with Katie](https://www.youtube.com/watch?v=hQyX3qGcE_g), he said:
 
 > "I've hid my emotions for so long I don't even know how to access them anymore."
 
-He spoke those words to his wife Katie on their podcast. Not emotional suppression. Actual loss of access to his own inner life. The observer who watched the world from the outside for so long that he forgot how to look inward.
+Not emotional suppression. Actual loss of access to his own inner life. The observer who watched the world from the outside for so long that he forgot how to look inward.
 
 ## The Observer Takes Shape
 
@@ -172,15 +195,15 @@ The next morning, over 100 Taliban fighters attacked. They held the compound fro
 
 His analytical mind had seen it coming. The system ignored him.
 
-### The CIA Chapter: Intelligence in Its Purest Form
+### The CIA Chapter: Intelligence Work and Its Costs
 
 After leaving the Navy in 2006, Shawn tried real estate. It didn't last. Not because he craved excitement, but because real estate didn't engage his mind. Nothing to study. Nothing to master. Nothing at stake.
 
 > "Everything that you've worked so hard to accomplish... you're at the Apex of what you do... and now nobody cares because you're not in that anymore. There goes my whole identity."
 
-He joined the CIA's Global Response Staff, the same type of paramilitary unit depicted in _13 Hours_ about the Benghazi attack. Operating under the Counterterrorism Mission Center through organizations like Blackwater, he spent nearly a decade on intelligence protection, threat assessment, and pattern analysis in hostile territory. Surveillance, liaison, and collection. The observer behind the operators.
+Ryan later described joining the CIA's Global Response Staff as a contractor. The show's [official biography](https://shawnryanshow.com/pages/bio) confirms 14 years of combined Navy and CIA service; the operational details in this profile remain largely his account. The work put surveillance, protection, threat assessment, and pattern analysis in service of lethal counterterrorism operations. It was not observation from a moral distance.
 
-Type 5s don't gravitate toward danger for the adrenaline. They gravitate toward complexity. And nothing is more complex than reading the intentions of people who want to kill you.
+The Type 5 reading is not that intelligence work was clean or uniquely noble. It is that the role rewarded the pattern this profile tracks: scanning for threats, limiting uncertainty, and trying to know more than the other side. Ryan would later question the system those skills served.
 
 ### From Hollywood to Camping Stoves
 
@@ -331,6 +354,8 @@ After the sessions, the healing came not as emotional catharsis but as informati
 
 His brain reclassified substances from "necessary" to "poison" and behavior changed instantly. He quit alcohol, Adderall, Ambien, and sugar, all at once, with zero effort. The analytical mind that had been serving his destruction simply updated its model.
 
+That is [Ryan's description of his experience](https://shawnryanshow.com/blogs/the-shawn-ryan-show/shawn-ryans-psychedelic-experience), not an established account of what ibogaine does to the brain. A [2023 systematic review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10556383/) found promising signals for withdrawal and craving, but the human evidence was dominated by small, uncontrolled studies and the review flagged cardiac toxicity and reported deaths. A [2026 review of three decades of clinical literature](https://pubmed.ncbi.nlm.nih.gov/42228481/) found no double-blind randomized trial demonstrating efficacy for opioid use disorder. His recovery matters as testimony; it does not establish an instant, relapse-proof cure, and ibogaine requires careful cardiac screening and medical monitoring.
+
 ## How Shawn Ryan Finds Faith
 
 Shawn's path to faith was not emotional surrender. It was an investigation.
@@ -371,7 +396,7 @@ His reason for seeking the most intense therapeutic experience of his life: "be 
 
 The father-son thread runs through Shawn's entire story. The military pharmacist in Chillicothe whose son couldn't make him proud. The kid at BUD/S who endured the worst training on earth because he couldn't face calling his parents with another failure. The addict in Colombia whose mother's voice was the only thing that cut through the drugs. The man whose father stood over his bed, tearing up, helpless.
 
-And now a father himself, choosing to homeschool his children because he believes being deeply involved in their lives matters more than convenience. The man who lost access to his emotions for decades is trying to raise kids who never have to.
+And now a father himself, choosing to homeschool his children because he believes being deeply involved in their lives matters more than convenience. He went to treatment, by his account, to become more present for them.
 
 ## When Data Overrides Loyalty
 
@@ -379,23 +404,27 @@ Shawn doesn't confront out of raw emotion. He confronts when analysis produces a
 
 ### Questioning Power
 
-In late 2025, Shawn publicly questioned Congressman Dan Crenshaw's personal wealth and suggested insider trading. When Crenshaw responded with what Shawn interpreted as a veiled threat referencing SEAL Team 6, Shawn didn't escalate. He published the receipts and held his position. Evidence over posturing.
+In late 2025, Shawn [questioned Congressman Dan Crenshaw's personal wealth, alleged insider trading, and described a private message mentioning SEAL Team 6 as a threat](https://x.com/ShawnRyan762/status/1999610792103010336). Crenshaw denied the allegations and the threat interpretation, then [published his own messages and production correspondence](https://x.com/DanCrenshawTX/status/2006915744332919150). The competing records establish a public dispute, not that either man's interpretation has been proved. Shawn held his position; readers should not confuse resolve with verification.
 
-After hosting abuse prevention advocate Elizabeth Carlock Phillips, whose brother was victimized at Kanakuk Kamps, Shawn repeated claims about systemic abuse. Attorneys sent a cease-and-desist. His lawyer welcomed legal discovery. Same pattern: follow the evidence, refuse intimidation, let the process validate the analysis.
+After hosting abuse prevention advocate Elizabeth Carlock Phillips, whose brother was victimized at Kanakuk Kamps, Shawn repeated claims about systemic abuse. Attorneys sent a cease-and-desist. His lawyer welcomed legal discovery. Same posture: refuse intimidation and invite a process that could test the claims.
 
 ### The Political Reckoning
 
-The most revealing confrontation has been with his own political tribe. In August 2024, Shawn hosted Donald Trump in what he called "the biggest interview of my career." The show finished 2024 in Spotify's top 10, partly on the strength of that episode. He supported Trump's victory.
+The most revealing confrontation has been with his own political tribe. In August 2024, Shawn [hosted Donald Trump](https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-127-president-donald-j-trump-make-america-great-again) in what he called "the biggest interview of my career" and told him, "I'm behind you."
 
-Then he started tracking results. By late 2025, the assessment was blunt:
+Then he started tracking results. On the [November 24, 2025 episode with Tucker Carlson](https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-256-tucker-carlson), the assessment was blunt:
 
 > "Nothing I voted for happened."
 
-He cataloged broken promises the way he once cataloged threat patterns: the Ukraine war Trump said he'd end before taking office, the Epstein files that were never released, new military engagements despite the "no new wars" pledge. He called the White House's handling of the Epstein files "botched" and accused them of "protecting pedophiles."
+His complaint had verifiable anchors: Russia's war in Ukraine had not ended, the [Justice Department's July 2025 review said no further Epstein disclosure was warranted](https://www.justice.gov/opa/media/1407001/dl), and U.S. forces had launched [large-scale strikes in Yemen](https://www.whitehouse.gov/briefings-statements/2025/04/text-of-a-letter-from-the-president-to-the-speaker-of-the-house-of-representatives-and-the-president-pro-tempore-of-the-senate/) and [Iran](https://www.defense.gov/News/Transcripts/Transcript/Article/4222543/secretary-of-defense-pete-hegseth-and-chairman-of-the-joint-chiefs-of-staff-gen/). Those facts do not settle the policy arguments, but they explain the break. In early 2026, while [interviewing Ro Khanna about redactions](https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-278-ro-khanna-why-is-congress-afraid-to-subpoena-every-name-in-the-epstein-files), Ryan went further and accused the White House of "protecting pedophiles."
+
+In the [December 2025 episode with Mike Durant](https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-259-mike-durant), he widened the indictment:
 
 > "Every time I have a politician, whether it's Trump or some congressman, they all lie."
 
-This isn't partisan disillusionment. It's what happens when Shawn gives someone the benefit of his analysis, watches the data come in, and updates his model. Tribal loyalty doesn't override evidence. He began hosting guests across the political spectrum, Democratic Congressman Ro Khanna, Hunter Biden, not because he shifted ideologically, but because limiting his sources would compromise the investigation.
+The record through August 13, 2026 is mixed. [Ukraine's government was still reporting Russian attacks and preparations for further mobilization](https://www.president.gov.ua/en/news/znayemo-vid-rozvidok-ta-partneriv-sho-rosiyani-prigotuvali-r-105577), and the Pentagon had opened [Operation Epic Fury against Iran](https://media.defense.gov/2026/Apr/01/2003905658/-1/-1/1/OPERATION-EPIC-FURY-FACT-SHEET-APRIL-1-UPDATE.PDF). But after Congress mandated disclosure, [DOJ published nearly 3.5 million Epstein-related pages in January 2026](https://www.justice.gov/opa/pr/department-justice-publishes-35-million-responsive-pages-compliance-epstein-files). Criticism of redactions or completeness can still be argued; "the files were never released" can no longer be stated as fact.
+
+This is political disillusionment, but it is also a test of method. Shawn expanded his sources to include [Democratic Congressman Ro Khanna](https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-278-ro-khanna-why-is-congress-afraid-to-subpoena-every-name-in-the-epstein-files) and [Hunter Biden](https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-264-hunter-biden). That broadening matters. It does not automatically make the resulting claims true.
 
 ### The Moral Reckoning
 
@@ -405,7 +434,9 @@ The deepest confrontation has been with his own career. After years of investiga
 
 A man who spent over a decade in service, ruthlessly reassessing his own framework because the data no longer supports it.
 
-Not everyone applauds these confrontations. Critics point to his coverage of UFOs and spiritual warfare as territory that undermines his credibility. His willingness to wade into conspiracy-adjacent topics alongside investigative work creates a split: supporters see fearlessness, detractors see recklessness. But the pattern holds. Follow the evidence. Say what you find.
+One episode tests the evidence-over-loyalty thesis more directly. In [Shawn Ryan Show #48 with Steven Greer](https://www.youtube.com/watch?v=NSLm__BUnmI), Greer alleged that hidden programs had recovered and reverse-engineered extraterrestrial craft, suppressed transformative energy technology, and operated beyond presidential or congressional control. Before examining any of it, Shawn introduced Greer as a leading expert, called his material "fascinating," and presented Greer's claims that he had briefed every president since Clinton and lost friends to assassination as established background. His questions mostly invited elaboration; he did not make Greer separate documents the audience could inspect from testimony, inference, and stories attributed to unnamed insiders.
+
+That missing distinction matters because the public evidence points the other way. The Pentagon's [All-domain Anomaly Resolution Office historical review](https://media.defense.gov/2024/Mar/08/2003409233/-1/-1/0/HRR-VOL-I-REPORT-08-MARCH-2024.PDF) reported no empirical evidence that the U.S. government or private companies had reverse-engineered extraterrestrial technology, while [NASA's independent study](https://www.nasa.gov/wp-content/uploads/2023/09/uap-independent-study-team-final-report-0.pdf) found no conclusive peer-reviewed evidence that UAP have an extraterrestrial origin. Neither report makes every unresolved sighting ordinary, and an official denial is not self-validating. But Shawn never put that evidentiary conflict in the room. The thesis survives only halfway: giving a contested witness time is open inquiry; treating extraordinary claims as credentials before testing them is amplification.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Shawn Ryan</summary>
@@ -429,7 +460,7 @@ Social sits second and carries the mission. The podcast, veteran advocacy, psych
 
 Under stress, Type 5 moves toward Type 7, and Shawn's Colombia spiral shows the scattered version: substances, dangerous places, drug-network mapping, gear reviews, alpacas, camping stoves, and restless searching for a new system to master. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> for how a depleted 5 can flip from withdrawal into frantic consumption and scattered activity.
 
-In growth, Type 5 moves toward Type 8. Shawn's healthier confrontations have that shape: publishing receipts instead of backing down, welcoming legal discovery, challenging politicians from his own tribe, and fighting publicly for veterans' access to treatments that saved his life. The best version is not merely observing. It is using what he knows to protect people.
+In growth, Type 5 moves toward Type 8. Shawn's healthier confrontations have that shape: making disputes public instead of backing down, welcoming legal discovery, challenging politicians from his own tribe, and fighting publicly for veterans' access to treatments that saved his life. The best version is not merely observing. It is using what he knows to protect people.
 
 ### Counterarguments: Why Shawn Ryan Might Not Be Type 5
 
@@ -442,19 +473,15 @@ The Type 7 case also exists: danger-seeking, substances, Colombia, conspiracy-ad
 
 ## Where Shawn Ryan Goes From Here
 
-The Shawn Ryan Show has surpassed one billion views on YouTube, grown past five million subscribers, and ranks in the top three podcasts on Spotify with over 300 episodes. His coverage of the fentanyl crisis, mapping the entire supply chain from Chinese precursor chemicals to Mexican cartels to American streets, has driven mainstream news coverage. His long-form conversations with veterans, intelligence operatives, and whistleblowers have created a new model: the interview as investigation.
+Where Shawn goes next is less a question of scale than standards. The show is already large. The harder task is keeping the spacious interview format without letting testimony masquerade as verification, especially when a guest's story fits his distrust of institutions.
 
-He advocates for psychedelic-assisted therapy for veterans, partnering with organizations like VETS. Not because he read about it. Because he experienced it, studied the science, connected his Green Beret friend to treatment (the man left his cane behind and went home to a normal life), and decided the evidence was too strong to stay quiet about.
+Ryan has advocated for psychedelic-assisted therapy for veterans and supported organizations like VETS. That case is strongest as an argument for rigorous, medically supervised research—not as proof that one dramatic recovery will generalize to everyone.
 
-> "Why can't you just let us get better? Everybody knows the 22 a day, which is actually like 40 something a day, veterans that are killing themselves and this stuff is a game changer."
+He has described his faith journey in similarly personal terms: small-group, investigative, resistant to institutional religion, and honest about where he still struggles.
 
-His faith journey continues at its own pace: small group, investigative, resistant to institutional religion, honest about where he still struggles. He still can't sleep properly. The one thing psychedelic therapy didn't resolve.
+Shawn Ryan's mind saved his life and nearly destroyed it. The [Enneagram Type 5](/enneagram-corner/enneagram-type-5) lens cannot explain all of that, but it maps the territory better than the tough-guy narrative ever could.
 
-> "I don't care what kind of stuff the government's throwing at me, I don't care what people try to shame me into believing in, I don't care anymore. I know I'm doing the right thing."
-
-Shawn Ryan's greatest strength, his mind, saved his life and nearly destroyed it. He hid his emotions so long he genuinely lost access to them, then sat in church crying every week, fighting it because he "just don't know any other way."
-
-The [Enneagram Type 5](/enneagram-corner/enneagram-type-5) lens doesn't explain all of that. But it maps the territory far better than the "tough guy" narrative ever could.
+His most important project is not another investigation. It is the one he named before treatment: being present at home. After a life spent learning to cut feeling away in order to function, the man who lost access to his emotions is trying to raise children who never have to.
 
 > **Disclaimer:** This analysis of Shawn Ryan's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Shawn Ryan.
 
@@ -464,6 +491,7 @@ FRESH-EYES ASSESSMENT — 2026-04-29 PASS 4 (Claude cold read)
 
 ONE-LINE VERDICT: Best piece in the batch — sustained Type 5 architecture, lets Shawn be partly indictable (Trump endorsement reckoning, "I don't think we're the good guys anymore"), and the addiction-as-intelligence-operation reframe is original.
 QUALITY-CEILING TIER: TOP
+STATUS (2026-08-13): The priority fixes below were implemented; this assessment is retained as historical review.
 
 STRONGEST SECTION: "When Data Overrides Loyalty" — the Trump reckoning ("Nothing I voted for happened") is the rare beat where the subject's own evidence-update is the analysis's evidence.
 WEAKEST SECTION: "Where Shawn Ryan Goes From Here" — slightly drifts into recap; the existing editor feedback already flagged this and the fix wasn't applied.
