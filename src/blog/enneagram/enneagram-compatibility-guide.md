@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/enneagram-compatibility-guide'
 lastmod: '2026-01-06'
 changefreq: 'monthly'
 priority: '0.9'
-published: true
+published: false
 type: ['relationships']
 blog: true
 pic: 'greek-statues-examining-compatibility-chart'

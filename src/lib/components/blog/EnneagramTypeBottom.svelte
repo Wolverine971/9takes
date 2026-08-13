@@ -182,8 +182,8 @@
 			>: how Type 2's anxious patterns show up in love
 		</li>
 		<li>
-			<a href="/enneagram-corner/enneagram-compatibility-guide">Enneagram Compatibility Guide</a>:
-			what Type 2 needs from each other type to feel safe
+			<a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram Compatibility Matrix</a>:
+			explore Type 2 pairing dynamics with every other type
 		</li>
 		<li>
 			<a href="/enneagram-corner/enneagram-mental-health-flags">Mental Health Flags by Type</a>:

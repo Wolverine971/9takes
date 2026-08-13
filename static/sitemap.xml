@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/community</loc>
@@ -223,13 +223,6 @@
     <lastmod>2026-01-18</lastmod>
     <image:image>
       <image:loc>https://9takes.com/blogs/greek-statue-giving-a-speech.webp</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://9takes.com/enneagram-corner/enneagram-compatibility-guide</loc>
-    <lastmod>2026-01-06</lastmod>
-    <image:image>
-      <image:loc>https://9takes.com/blogs/greek-statues-examining-compatibility-chart.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -4085,7 +4078,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-08-12</lastmod>
+    <lastmod>2026-08-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>

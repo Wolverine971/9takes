@@ -809,15 +809,9 @@ If they stay, you've earned a real chance to prove the change is real.
 
 A healthy Type 2 and healthy Type 5 can have a beautiful relationship where one brings warmth and the other brings depth. An unhealthy pairing of any combination will struggle.
 
-Research on 457 married couples found no "perfect" type pairing. What predicted success:
+An Enneagram pairing cannot predict whether a relationship will work. A type label does not measure communication, accountability, repair, safety, or either person's willingness to grow. Use compatibility material as a set of patterns to discuss, not as a verdict on the relationship.
 
-- Both partners' awareness of their patterns
-- Willingness to grow together
-- Ability to name dynamics without blame
-
-Your type doesn't doom or guarantee compatibility. Your growth orientation does.
-
-<a class="blog-link" href="/enneagram-corner/enneagram-compatibility-guide">Explore pairings: The truth about Enneagram compatibility</a>
+<a class="blog-link" href="/enneagram-corner/enneagram-compatibility-matrix">Explore all Enneagram pairings</a>
 
 ## Breaking the Pattern: A Realistic Timeline
 

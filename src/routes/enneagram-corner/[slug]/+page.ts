@@ -9,6 +9,7 @@ const permanentRedirectMap: Record<string, string> = {
 	'enneagram-communication-guide': '/enneagram-corner/relationship-communication-guide',
 	'enneagram-communication-styles': '/enneagram-corner/relationship-communication-guide',
 	'enneagram-communication-tips': '/enneagram-corner/relationship-communication-guide',
+	'enneagram-compatibility-guide': '/enneagram-corner/enneagram-compatibility-matrix',
 	'enneagram-types-being-direct': '/enneagram-corner/relationship-communication-guide',
 	'enneagram-types-overview': '/enneagram-corner/enneagram-tldr',
 	'enneagram-test': '/enneagram-corner/enneagram-test-comparison-2026',

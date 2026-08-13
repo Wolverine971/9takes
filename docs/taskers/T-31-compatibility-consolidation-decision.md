@@ -5,7 +5,7 @@
 **For:** SEO consolidation, evidence, and editorial decision agent  
 **Owner:** DJ  
 **Created:** 2026-08-13  
-**Status:** Ready for decision research, no redirect authorized  
+**Status:** Done 2026-08-13. DJ approved Option C; the guide is unpublished, its three inlinks now point directly to the matrix, the copied unsupported claim is removed, and a query-preserving 301 is configured.
 **Related:** `docs/taskers/T-05-compatibility-matrix-ctr-fix.md`, `docs/taskers/T-07-merge-and-301-consolidation-plan.md`, `docs/taskers/T-26-compatibility-content-helper-brief.md`, `docs/seo/2026-08-13-indexation-recovery-audit.md`
 
 ## 0. What and why
