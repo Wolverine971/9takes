@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Carl-Jung",
+	"review_dir": "docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001",
+	"verification_file": "docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "1fc5a8c291eca14d16aaae940c6e62bce7c2935bda3a4693c8fa69d8f4a67559",
+	"verified_content_sha256": "52310bf8a5ad204ba1463e94c7ff96c617b40fdac05f059f1945d1cc0cca8bcc",
+	"verified_at": "2026-08-13T08:04:05.000Z"
+}

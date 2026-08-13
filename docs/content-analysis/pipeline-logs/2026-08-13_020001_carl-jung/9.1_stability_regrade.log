@@ -1,0 +1,19 @@
+## Grading Complete — Carl-Jung (regrade after revision pass)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Carl-Jung | 9 | 9 | 9 | 9 | 9 | 9 | 9.0 | A |
+
+(Weighted: `(9×1.5 + 9×1.5 + 9×1.5 + 9 + 9 + 9×0.5) / 7 = 9.0`. Discoverability ≥ 7, no gate. First grade 8.6 B+ → regrade 9.0, stability delta 0.4.)
+
+### Key Observations
+
+- **This is the first A I've been willing to give under the recalibrated rubric, and I want to be transparent about why.** I graded against both anchors: it beats Matt-Smith (the true-B anchor) on every dimension — denser verified evidence, four critic-pressure anchors instead of two, real tonal range, no monocausal thesis — and it holds up against Peter Thiel's A-band criteria (novel thesis, multiple signature details, exceptional sourcing). I set `confidence: medium` because a single-grader A from this pipeline has a bad track record; a blind spot-check would be a reasonable veto step before publish.
+- **The revision pass earned the cap release.** The first grade capped Originality for ducking the Nazi-era record; the new closing paragraph of the shadow section (Bally's NZZ attack, the statute rewrite, the 1939 resignation, Scholem's "I slipped up" account) is sourced, both-columns, no-verdict, and type-free.
+- **Citability check passed without the Evidence-6 cap.** The source audit flags 2 untagged quotes ("all the necessary data for the diagnosis" and the closing "classification of individuals means nothing") but both are attributed within their own paragraphs (Freeman/BBC 1959; Houston 1957 via *C.G. Jung Speaking*) — a proximity limitation of the script, not a sourcing hole. The one genuinely vague slot is the #shadowwork TikTok stat credited only to "per trade coverage"; the sidecar names it.
+- **Sameness check clean.** Similarity scan clear (max 0.094, zero shared phrases); vs the three most recently graded drafts, only structural furniture is shared — no "The tell:" bullet, no scar-tissue empathy grammar, no return-to-the-wound closer. The empathy turn runs on Jung's own vocabulary ("menaced by a psychosis" → the flood as data).
+- **What keeps it from A+**: the argued-not-declared structure (correct for this subject per the entity-gap packet) trades away Thiel-style one-image thesis compression, and the essay would survive with the Five framework removed — the honest cost of foregrounding the 5w4-vs-9w1 contest. Details in the sidecar.
+
+Grade written to frontmatter (with the `first_overall: 8.6` / `regrade_overall: 9.0` pair recorded); sidecar created at `docs/content-analysis/grades/Carl-Jung.review.md`. No legacy QUALITY GRADE block existed in the draft.
+
+**Total graded this session: 1**

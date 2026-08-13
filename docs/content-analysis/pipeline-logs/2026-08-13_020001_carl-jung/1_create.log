@@ -1,0 +1,27 @@
+Draft complete and all gates pass. Carl Jung is written, saved, and verified against the deterministic tooling.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Carl-Jung.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (5 qualifying testimony quotes), Gate 2: pass (5 search-intent/hybrid H2s),
+       Gate 4: pass (no type-anaphora ending, no reference-library cadence),
+       Gate 5: pass (1 type-theory paragraph outside diagnosis/Rabbit Hole),
+       Gate 6: pass (0 strong contrast pairs, similarity scan clear, bespoke form, critic anchor,
+       empathy turn, legacy-now anchor, ending swap-test)
+LIMITATIONS: BBC quote wording follows transcript checked against C.G. Jung Speaking excerpts
+  (page-level cites open for production); Freud Moses/Joshua letter dated "January 1909" (sources
+  split on 17 vs 19); Red Book sales figures are as-reported (jungpage.org), not audited;
+  Nazi-era material omitted entirely per entity-gap packet.
+```
+
+**The thesis** (per the entity-gap packet, which scored Jung a PASS on the entity-gap model but green-lit the psychology-hub lane): the father of personality typing is the type system's unsolved case. The hook is the 1959 BBC scene where Freeman asks Jung his own question and Jung calls it "that painful question"; the ending is his 1957 Houston verdict, "The classification of individuals means nothing, nothing at all," followed by "Sixty-nine years later, we filed him anyway." The type is argued (5w4), never declared, with Riso-Hudson's 9w1 case given its full day in the diagnosis section and Rabbit Hole.
+
+**Evidence quality**: I pulled and locally pinned transcripts of the 1959 BBC Face to Face and the 1957 Houston interviews (`youtube-transcripts/carl-jung/`), and a research agent verified every book quote against the full text of Memories, Dreams, Reflections plus the published Freud/Jung letters. Five famous fake Jung quotes are on a do-not-use list in the research file; "Thank God I am Jung and not a Jungian" is deliberately absent (unverifiable). The durable evidence file is at `docs/content-analysis/research/Carl-Jung.md` for the perspective pipeline.
+
+**Deterministic checks**: blog-lint 0 fail / 1 warn (3 comparative more/less-than phrasings, reviewed and kept); same-type similarity clear at max 0.072 vs Christopher-Nolan after I rewrote two tripped phrasings; head-term PASS; type-answer block 50 words; no avoid-list Type 5 phrases.
+
+**Internal links (5)**: Type 5 pillar and the corpus-stats page in the diagnosis section, `enneagram-influences` on the Ichazo/Naranjo lineage clarification, Jordan Peterson in the legacy section, and the wings + subtypes guides inside the Rabbit Hole. Suggestions: Nietzsche, Peterson, Einstein, Tesla (all published).
+
+Next step when you're ready: review at `/admin/drafts/Carl-Jung`, then `/grade_blog` and the production handoff.

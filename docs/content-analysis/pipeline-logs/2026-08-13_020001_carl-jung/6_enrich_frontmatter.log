@@ -1,0 +1,20 @@
+Frontmatter enrichment complete: **Carl-Jung**
+
+The draft arrived mostly enriched from the creator pass — this was a verification-and-gap-fill run.
+
+**Fields filled:**
+- `wikidata_qid: 'Q41532'` — verified against the Wikidata entity (label "Carl Jung," Swiss psychiatrist 1875–1961, birth date matches the draft)
+- `imdb_id: 'nm2123939'` — cross-checked per the command's rule via Wikidata P345 **and** IMDb pages confirming Carl Gustav Jung (born Kesswil, July 26, 1875); he has real IMDb presence via the 1959 Face to Face interview, the Houston interviews, and archive-footage credits
+- `same_as` — appended the Wikidata and IMDb URLs in priority order (now 4 entries: Wikipedia, Wikidata, IMDb, Britannica)
+
+**Fields already present (preserved untouched):**
+- `wikipedia` (verified it describes this exact person), `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about` (6 real expertise areas, no templated backfill pattern), `keywords` (9), `citations` (5), and `faqs`
+
+**FAQs — preserved, not regenerated (6):** all six entries are substantive, body-derived Q&As with real anchors (personality type, did-he-create-the-Enneagram, INFJ-vs-INTP, the Freud split, Emma Jung, the Red Book). Strict idempotency applies, so I did not touch them.
+
+**Issues:**
+- The `faqs` block has 6 entries; the command's target is 3–5. Idempotency wins over trimming, but if you want it at 5, the Emma Jung entry is the weakest snippet competitor. Flagging only — no change made.
+- The body itself contains no inline external links; the existing `citations` list (5 Wikipedia URLs) was written by the creator pass rather than extracted from body links. Left as-is per the additive-only rule.
+- `lastmod` untouched, body and all HTML comment ledgers untouched.
+
+Sources: [Carl Jung — Wikidata (Q41532)](https://www.wikidata.org/wiki/Q41532), [Carl Gustav Jung — IMDb bio (nm2123939)](https://imdb.com/name/nm2123939/bio), [Carl Jung — Wikipedia](https://en.wikipedia.org/wiki/Carl_Jung)

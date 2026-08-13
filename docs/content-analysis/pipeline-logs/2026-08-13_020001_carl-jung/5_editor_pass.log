@@ -1,0 +1,15 @@
+Editor pass complete on `src/blog/people/drafts/Carl-Jung.md`, run in perspective-jury mode against the 2026-08-13_020001 synthesis (draft SHA verified against the frozen snapshot before editing).
+
+**All 4 P0s fixed:**
+- **P0-01** — Freud's age corrected to 50 in the March 1907 scene.
+- **P0-02** — FAQ 1 now cites the 9w1 typing to *The Wisdom of the Enneagram* (the only source-verified placement) and carries an as-of-2026 signal on the community-vote claim.
+- **P0-03** — The diagnosis tiebreaker no longer attributes testimony Jung never gave. Pillar 3 now disclaims the function stack as Enneagram evidence, acknowledges the self-portrait is self-report, anchors the tiebreak on the felt-goal reading, pins the motive to the actual "to find my own bearings" quote while conceding the Nine-advocate reading, and spends the verified [28:54] "all the necessary data for the diagnosis" rider. The same unsupported motive claim was also scrubbed from the Rabbit Hole, and FAQ 1 now leads with withdrawal-to-know.
+- **P0-04** — The childhood-causation law is particularized to Jung ("Jung's answer to a house he could not predict was rooms no one else could enter").
+
+**RQ-01 resolved as KEEP:** I found the verbatim MDR pin ("sometimes I worked from three in the morning till seven"), so the three-a.m. clause stays, now sourced.
+
+**All 16 accepted P1s applied**, including: the seven-boys fight staged in the childhood section (with the transcript's "didn't trust himself" beat), the murderess arc closed from MDR pp. 115–117 rather than trimmed, Burghölzli and wing glosses for newcomers, Type 4 seated at the counterargument table, the Houston close de-clipped so the instrumentarium qualification governs the final quote, the #shadowwork stat date-pinned to 2023 trade coverage, the key-stat relabeled as a dated house prior, and the social-last subtype claim reconciled with the presidencies named elsewhere. The recommended P2 (the *Man and His Symbols* sequel closing the Freeman bookend) is in, and the P2-02 refresh entry now exists at `docs/content-analysis/refresh-calendar.md`.
+
+**Exit checks:** blog-lint 0 fail (em-dash clean, **0 strong contrast pairs** at target 0; 2 kept comparatives, down from 3), all 9 protected hits verified verbatim by grep, and the social-card check confirmed nothing extracts the inner-thought line as a quotation. Two watch items: the extractable answer block is now exactly at the 60-word cap, and the body is at 4422/4500 words — thin headroom for the next refresh.
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/editor-resolution.md`. Nothing is left open at P0/RQ level; the unresolved section records only the key-stat render-binding engineering follow-up, the optional *Personality Types* page-check, and the items synthesis itself deferred. The draft reads production-ready to me — next step is `/blog_perspective_verify_people`, which independently checks the gate.

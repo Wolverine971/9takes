@@ -1,0 +1,37 @@
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Carl-Jung  (Type 5)
+src/blog/people/drafts/Carl-Jung.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "As a child I felt myself to be alone, and I am still, because I know things and must hint at things which others apparently know nothing of, and for the most part do not want to know."
+             year=1962  venue="memoir"
+
+### COLD OPEN
+  [INLINE  ] "Naturally I have devoted a great deal of attention to that painful question,"
+             outlet="BBC"  year=1921  venue="book"
+  [INLINE  ] "The type is nothing static. It changes in the course of life. … most certainly was characterized by thinking, … had a great deal of intuition too, … had a definite difficulty with feeling. … was not particularly brilliant."
+             outlet="BBC"  year=1959
+
+### DIAGNOSIS
+  [INLINE  ] "The word belief is a difficult thing for me, … I must have a reason for a certain hypothesis. Either I know a thing, and when I know it, I don't need to believe it."
+             outlet="BBC"  year=1959  venue="interview"
+  [UNTAGGED] "all the necessary data for the diagnosis."
+             — no outlet / year / venue —  (no attribution found)
+  [INLINE  ] "to find my own bearings,"
+             outlet="BBC"  year=1959  venue="book"
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  [INLINE  ] "You know how people are. They catch a word, and then everything is schematized. There is no such thing as a pure extravert or a pure introvert. Such a man would be in the lunatic asylum. … is merely a sort of orientation,"
+             outlet="C.G. Jung Speaking"  year=1977
+  [UNTAGGED] "The classification of individuals means nothing, nothing at all."
+             — no outlet / year / venue —  (no attribution found)
+
+------------------------------------------------------------------------
+SUMMARY: 8 load-bearing quote(s) — 6 inline, 0 vague, 2 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         YES
+------------------------------------------------------------------------

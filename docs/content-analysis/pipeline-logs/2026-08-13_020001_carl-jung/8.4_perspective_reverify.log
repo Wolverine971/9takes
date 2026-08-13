@@ -1,0 +1,12 @@
+Verification complete.
+
+- **Output:** `docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/verification-final.md`
+- **Status:** `pass`
+- **Open P0s:** 0
+- **Protected-hit regressions:** 0
+
+This was the rerun gate after the grader-driven revision pass modified the already-verified draft. Key findings: the frozen snapshot hashes to the supplied SHA; every diff hunk maps to an authorized synthesis repair or a logged, sourced revision edit; all 4 P0 acceptance tests re-pass; all 16 accepted P1s hold (one sub-detail — the wings-guide cross-link — was removed under a documented word-budget tradeoff, acceptance test unaffected); and all 9 protected hits survive with only permitted touches.
+
+The one thing worth knowing beyond the pass: I independently confirmed the revision's controversial retag — "to find my own bearings" is in the 1959 BBC Face to Face transcript ([27:37]–[27:48], asked by Freeman), not the Houston 1957 interviews. The grader sidecar and the synthesis's own pin were both wrong; the draft's new BBC tags are accurate. Also carried forward as a needs-human (non-blocking) item: the new sourced Nazi-era paragraph in the shadow section stands open for DJ's veto per synthesis Conflicts item 6 — deleting that one paragraph restores the omission if preferred.
+
+The deterministic gate script can now decide finalization from the artifact's frontmatter.

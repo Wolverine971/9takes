@@ -1,0 +1,23 @@
+The evidence packet is complete: `docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/evidence-packet.md`, with `packet_status: complete`, the subject and draft SHA verified against `context.json`.
+
+What the packet contains: a dated timeline, transcript-pinned first-person evidence (both local interview transcripts spot-checked this run), the Freud/Emma/Shamdasani testimony chain, a 16-entry claim inventory (CLM-01 through CLM-16), the 5w4-vs-9w1 hypothesis evidence laid out symmetrically, and a 22-source ledger. Notable verification results:
+
+- **One clean factual error found**: the draft's Vienna scene says "Freud was 51" at the March 1907 meeting — Freud (b. May 6, 1856) was 50. Logged as counterevidence on CLM-08, not fixed (per exit rules).
+- The internal corpus key-stat (33.3% of Authors & Thinkers = Type 5, biggest over-representation) verified exactly against `corpus-stats.json` (7 of 21, +24.9pp vs. next-highest +14.1pp).
+- Riso-Hudson's 9w1 typing, Drenth's 5w4 article, the PDB votes, Emma's 1911 letters to Freud, the NatGeo Shamdasani quote, the 1984 vault / Franz Jung reaction, the Listener letter date, and the March-1959-filming/October-1959-broadcast arithmetic all verified.
+
+**Largest unresolved evidence gap**: the FAQ attributes the 9w1 typing specifically to *Personality Types*, but the only independently confirmed placement is *The Wisdom of the Enneagram*'s 9w1 examples list — the *Personality Types* naming rests solely on the repo research file and would need the physical book to page-check. Runner-up gaps: the Red Book start-year (draft's 1914 vs. Wikipedia's sourced 1915 for the folio transcription) and the unaudited jungpage.org sales figures.
+
+Sources:
+- [Dangerous Minds — Face to Face with Carl Jung, BBC 1959](https://dangerousminds.net/comments/face_to_face_with_carl_jung_on_the_bbc_1959/)
+- [Personality Junkie — Enneagram 4, 5, or 9? Jung's Personality Type](https://personalityjunkie.com/08/enneagram-4-5-9-jung-personality-type/)
+- [Personality Database — Carl Jung profile](https://www.personality-database.com/profile/2162/carl-jung-psychology-neuroscience-mbti-personality-type)
+- [Heath Davis Havlick — Enneagram Type 9w1 (Riso-Hudson examples)](https://heathdavishavlick.com/enneagram-type-9w1/)
+- [Carl Jung Depth Psychology — the murderess passage (MDR pp. 115–117)](https://carljungdepthpsychologysite.blog/2020/07/10/murdered/)
+- [Carl Jung Depth Psychology — Emma Jung's letters to Freud](https://carljungdepthpsychologysite.blog/2020/03/14/letters-from-emma-jung-to-sigmund-freud/)
+- [Carl Jung Depth Psychology — The Listener letter, Jan 21, 1960](https://carljungdepthpsychologysite.blog/2020/05/15/broadcast/)
+- [Wikipedia — The Red Book (Jung)](https://en.wikipedia.org/wiki/The_Red_Book_(Jung))
+- [National Geographic — the women overshadowed by Freud and Jung](https://www.nationalgeographic.com/history/article/carl-jung-emma-jung-jungian-archetypes)
+- [MM+M — Examining 'shadow work,' TikTok's controversial therapy trend](https://www.mmm-online.com/home/channel/tiktok-shining-a-light-on-shadow-work-controversial-therapy-trend/)
+- [Princeton University Press — Dedicated to the Soul](https://press.princeton.edu/books/hardcover/9780691253275/dedicated-to-the-soul)
+- [Encyclopedia.com — Emma Jung-Rauschenbach](https://www.encyclopedia.com/psychology/dictionaries-thesauruses-pictures-and-press-releases/jung-rauschenbach-emma-1882-1955)

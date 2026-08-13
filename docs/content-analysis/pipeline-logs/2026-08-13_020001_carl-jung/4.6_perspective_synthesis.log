@@ -1,0 +1,9 @@
+Synthesis complete for Carl-Jung.
+
+- **Path:** `docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/synthesis.md`
+- **P0 items:** 4 — Freud's age (51→50), the FAQ's unverified *Personality Types* citation (re-anchor to *The Wisdom of the Enneagram*), the diagnosis tiebreaker attributing motive testimony Jung never gave plus the function-stack category slip, and one universal childhood-causation sentence that violates the standing etiology ban.
+- **Accepted P1 items:** 16, all clause-level (close de-clip, shadow-section fairness pair, Red Book dating, seven-boys staging, and a set of wording/durability/comprehension fixes).
+- **Research required:** 1 — pin or trim "sometimes at three" against MDR ch. 2.
+- **Most important protected hit:** the ending — the Houston quote paragraph into "Sixty-nine years later, we filed him anyway," on all six preserve lists, with only a framing-verb change permitted.
+
+Notable adjudications: all six reviews came back trust-intact and clear-hit (rare); four preserve-vs-repair conflicts were resolved with regression tests protecting the original passages; and the three-way inner-thought rendering concern was closed at synthesis by checking the repo CSS — the element renders as a distinct thought-bubble callout, so no recast is needed.

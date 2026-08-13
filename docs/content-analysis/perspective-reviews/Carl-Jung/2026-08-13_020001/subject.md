@@ -1,0 +1,100 @@
+---
+artifact: perspective-review
+schema_version: 1
+subject: Carl-Jung
+perspective: subject
+draft_sha256: 1fc5a8c291eca14d16aaae940c6e62bce7c2935bda3a4693c8fa69d8f4a67559
+review_status: complete
+trust: intact
+value: high
+delight: clear_hit
+recommendation: revise
+blockers: 0
+concerns: 6
+reviewed_at: 2026-08-13T07:01:43Z
+path: docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/subject.md
+---
+
+## Bottom-line verdict
+
+Judged as a fairness proxy for the subject: this draft represents Carl Jung fairly, and in several places it extends him a courtesy almost no typing content does — it lets him object to the entire enterprise, in his own recorded words, and closes on that objection. The piece is built overwhelmingly from his own testimony (MDR, the 1959 BBC film, the 1957 Houston interviews, the published letters), uses his own frames (No. 1/No. 2 is his vocabulary, not the writer's), visibly separates his reported behavior from others' inferred motives, honors his one documented public correction of a misquote, and states a falsifier for its own verdict. Trust is intact. The recommendation is **revise**, not pass, because of a small set of checkable accuracy slips (Freud's age, an exposed book attribution in the FAQ) and one framing move at the close that clips Jung's sentence in exactly the way he spent his last years guarding against.
+
+## What landed
+
+- **SUBJECT-H1 — The Listener correction beat.** "Three months after the broadcast he wrote to The Listener to correct the record, worried his most quoted moment had been misfiled: 'I did not say in the broadcast, "There is a God."' He was 84, and still could not leave a sentence unguarded." This is the deepest fairness gesture in the piece: it documents that Jung cared about being quoted precisely, and it honors that care by including his correction rather than milking the uncorrected version. It must survive revision because it is the article's proof that it takes the subject's own account of himself seriously.
+- **SUBJECT-H2 — His own frame, with his own qualifier.** "He named them No. 1 and No. 2, and insisted the pairing was ordinary: 'the play and counterplay between personalities No. 1 and No. 2, which has run through my whole life, has nothing to do with a "split" or dissociation in the ordinary medical sense.'" The section runs his life through _his_ organizing metaphor and carries forward the exact qualifier he attached to prevent pathologization. That is what representing someone in their own vocabulary looks like.
+- **SUBJECT-H3 — Motive contrast stated as contrast, not verdict.** "Riso and Hudson read his reconciling of opposites as a Nine keeping the peace. His own account of why he held opposites was cognitive: he wanted to know what each side knew." Observed behavior, rival inference, and the subject's own self-report are laid side by side and labeled. This is the visible behavior/inference separation the subject perspective demands.
+- **SUBJECT-H4 — The Red Book empathy turn.** "Watch the behavior instead of the reputation... he treated the flood as data." The most-mocked episode of his life is reframed through his own recorded fear ("menaced by a psychosis") and his own later verdict ("the most important in my life") — dignity restored without denying that the mockery happened or why.
+- **SUBJECT-H5 — Spielrein restraint.** "Bair goes only as far as the word 'intimate' and declines a verdict, which is exactly as far as the evidence goes." The draft refuses private-life certainty the public record cannot support. The packet confirms this is precisely the evidentiary ceiling.
+- **SUBJECT-H6 — Responsibility kept while explaining.** "Nothing in the pages above excuses that, and the empathy his framework extends to everyone else is owed to the two women who subsidized it." The shadow section explains the mechanism without laundering the conduct; the interpretation is signaled as interpretation.
+- **SUBJECT-H7 — The closing disclaimer.** "offered as an argument, never a diagnosis" — with the body's repeated "argued rather than declared" framing, the article never claims a certainty the subject could not be given.
+
+## What missed
+
+- **The "closed the door completely" beat overpromises finality.** The close stages Jung delivering an absolute last word — "Then he closed the door completely. 'The classification of individuals means nothing, nothing at all.'" — but the pinned Houston transcript continues in the same breath: "this is only the instrumentarium... [for the] practical psychologist, to explain for instance a husband to a wife or vice versa" (S2, [27:44]–[27:59]). The door was not closed completely; it was closed to classification-as-verdict and left open to classification-as-tool. The adjacent "merely a sort of orientation" quote partially carries the qualification, but the framing verb asserts a completeness the record contradicts. Detailed as SUBJECT-C1.
+- **The shadow section's sharpest sentence outruns its sourcing.** "arranged his household so his own never had to be discussed" lands as a documented fact of domestic silence, but the packet supports only the Bair arc (patient → collaborator → decades-long triangle Emma accommodated). An accommodated triangle is not necessarily an undiscussed one. Detailed as SUBJECT-C2.
+
+## What I expected
+
+- **His own vocabulary and frames** — delivered (No. 1/No. 2, individuation, the function-stack self-report, "painful question").
+- **Quotation fidelity and context** — delivered almost everywhere; I spot-checked the BBC self-typing cluster against the pinned transcript ([28:03]–[28:54]) and the draft's rendering is faithful, including the hedges ("The type is nothing static. It changes in the course of life"). The one context clip is the Houston close (SUBJECT-C1).
+- **Emma given standing before the affair is introduced** — delivered (married 1903 in the Vienna paragraph; her autumn-1911 letters to Freud in the rupture section), so the reader does not meet her for the first time as the accommodating wife.
+- **Criticism explained without erasure** — delivered in the shadow section, with one overreach (SUBJECT-C2).
+- **The subject's right to reject the exercise** — delivered better than expected: the article's final movement is his rejection, and "we filed him anyway" owns the imposition instead of hiding it.
+
+## What surprised me
+
+- **The stated falsifier.** "If new first-person evidence surfaced showing harmony, rather than knowledge, as the felt goal, the verdict here would have to move." Typing content almost never commits to conditions under which it would be wrong. This is a welcome, unearned-nowhere-else move.
+- **The fake-quote discipline is invisible but real.** Jung is among the most fake-quoted figures online; the draft contains none of the greatest hits ("Thank God I am Jung and not a Jungian" is absent), and the banned witness (van der Post) appears nowhere. A subject-aligned reader who knows the fake-quote ecosystem will notice what is _not_ here.
+- **The transcript continues in the draft's favor at [28:54].** After the self-typing answer, Jung adds "now that gives you all the necessary data for the diagnosis" — wry cooperation with being typed. The draft doesn't use it; it's a small unclaimed asset.
+
+## Red flags
+
+- **SUBJECT-C1 — The close clips Jung's sentence in the way he himself guarded against.** _Location:_ final section, "Then he closed the door completely: 'The classification of individuals means nothing, nothing at all.'" _Effect:_ stages Jung as more absolutist than the record; a reader who checks the Houston transcript finds the very next clause ("this is only the instrumentarium... practical psychologist") qualifying the quoted absolute — and the article has just spent a paragraph establishing that Jung wrote to The Listener over exactly this kind of clipped quotation. _Evidence:_ S2 pinned transcript [27:44]–[27:59]; packet CLM-14 nuance note. _Minimum repair:_ change the framing verb (e.g., stop asserting the door closed "completely") or let the sentence's qualification into the text in a subordinate clause; the "merely a sort of orientation" line can be repositioned to do this work explicitly. _Expected benefit:_ the ending keeps its force while becoming clip-proof; the piece stops doing to Jung the one thing it documents him objecting to. _Confidence:_ high. _Acceptance test:_ a reader holding the Houston transcript finds no clause adjacent to the quoted sentence that contradicts the draft's framing of it.
+- **SUBJECT-C2 — "Never had to be discussed" overclaims domestic silence.** _Location:_ shadow section, "the man who told the world to integrate its shadow arranged his household so his own never had to be discussed." _Effect:_ states as fact a totalizing claim about private household speech that the cited source doesn't establish; Bair documents an accommodated, openly maintained arrangement, which is compatible with years of discussion, confrontation, and negotiated terms. The next paragraph's mechanism ("decide what is known about you, and by whom") is the better-supported form of the same point. _Evidence:_ packet CLM-12 (Bair arc only; "Emma accommodated"); no source in the packet supports "undiscussed." _Minimum repair:_ reword toward what the record supports — confession/public accounting on his terms — e.g., the claim should be about controlled disclosure, not absence of discussion. _Expected benefit:_ the criticism keeps its bite and becomes unfalsifiable-proof; the subject is criticized for what the record shows. _Confidence:_ medium-high. _Acceptance test:_ every factual-shaped assertion in the shadow section can be matched to a packet-supported claim.
+- **SUBJECT-C3 — "Freud was 51" is arithmetically wrong.** _Location:_ rupture section, "Freud was 51 and had found his heir." _Effect:_ a clean, checkable error inside the draft's most heavily fact-checked scene; it invites distrust of the surrounding dates, which are otherwise excellent. _Evidence:_ Freud b. May 6, 1856 → 50 in March 1907; packet dispute 1 (the one clean factual error found in the research pass). _Minimum repair:_ change 51 to 50. _Expected benefit:_ removes the only outright factual error identified. _Confidence:_ high. _Acceptance test:_ date arithmetic against Freud's birth date passes for every age stated in the section.
+- **SUBJECT-C4 — The FAQ names a Riso-Hudson book the research did not confirm.** _Location:_ FAQ 1 answer: "Don Riso and Russ Hudson typed him 9w1 in Personality Types." _Effect:_ a named-author attribution any Enneagram-literate reader can check; the independently confirmed placement this run is _The Wisdom of the Enneagram_ (packet dispute 3), and the _Personality Types_ naming rests only on the repo research file. If wrong, it undermines the draft's otherwise meticulous sourcing exactly where the contested-typing frame needs credibility most. _Evidence:_ packet CLM-02 / dispute 3 / S10 limitations. _Minimum repair:_ name _The Wisdom of the Enneagram_, or drop the book title ("in their published type listings") until page-checked. _Expected benefit:_ the FAQ, the most-extracted surface of the page, carries no exposed attribution. _Confidence:_ high that the claim is exposed; medium that it is actually wrong. _Acceptance test:_ every book title paired with a named author in the FAQ is page-verified or removed.
+- **SUBJECT-C5 — The inner-thought line is invented interiority; keep it unmistakably a device.** _Location:_ Red Book section, `<p class="inner-thought">If I cannot stop this, I can record it. And if I can record it, I have not yet gone under.</p>` _Effect:_ words are placed in the subject's mind that he never wrote; the content stays inside his recorded account (the "menaced by a psychosis" self-diagnosis and his description of recording the flood), but if the rendered styling reads as quotation, it becomes a fabricated quote on the most fake-quoted figure online. _Evidence:_ MDR (S4) supports the sentiment, not the sentence. _Minimum repair:_ none to the text; verify the rendered element is visually distinct from quoted material on the people path and never picked up by quote-extraction surfaces (social cards, snippets). _Expected benefit:_ the house device keeps its effect with zero misattribution risk. _Confidence:_ medium (severity low). _Acceptance test:_ the rendered page shows the line without quotation marks in a style visibly distinct from the piece's real quotes, and no share/card surface renders it as a Jung quotation.
+- **SUBJECT-C6 — "He coined the vocabulary" slightly overclaims on "complex."** _Location:_ intro, "an 83-year-old man who had put words in all of our mouths. Introvert. Extravert. Complex. Persona. Archetype," followed two paragraphs later by "He coined the vocabulary." _Effect:_ "put words in our mouths" (popularization) is defensible for all five; "coined" is not — "complex" was Theodor Ziehen's coinage, popularized through Jung's word-association work (packet CLM-15). Pedantic-reader territory, but this page's audience is exactly the pedantic-reader demographic. _Minimum repair:_ soften "coined the vocabulary" (e.g., to ownership/popularization phrasing) or make the intro list only terms he strictly coined. _Expected benefit:_ zero footholds for the well-actually reply the page will otherwise collect. _Confidence:_ medium-high (severity low). _Acceptance test:_ every term the draft says Jung "coined" survives an etymology check.
+
+## Specific improvements
+
+Ordered by priority; repairs, benefits, and acceptance tests are specified per finding in Red flags above.
+
+1. **Fix the two hard accuracy items before anything else:** Freud's age (SUBJECT-C3, one-word fix) and the FAQ book attribution (SUBJECT-C4, one-phrase fix or a page-check). Both are cheap and both sit on the page's most checkable surfaces.
+2. **De-clip the close (SUBJECT-C1).** The ending's power ("we filed him anyway") does not depend on Jung being absolute; it depends on him objecting. Reframe so the quoted absolute carries its practical-tool qualification — the piece already owns the countermove ("merely a sort of orientation"); it just needs to sit where it governs the final quote. Consider spending the unclaimed [28:54] line ("now that gives you all the necessary data for the diagnosis") somewhere in the diagnosis or close: it is the single best evidence that Jung himself played along with being typed, and it makes the article's act of filing him gentler and better-earned.
+3. **Reword the household-silence sentence (SUBJECT-C2)** to the controlled-disclosure form the next paragraph already argues.
+4. **Verify the inner-thought rendering (SUBJECT-C5)** and the "coined" phrasing (SUBJECT-C6) as low-cost cleanups in the same pass.
+
+## Follow-on questions
+
+- **SUBJECT-Q1:** Which Riso-Hudson volume actually carries the Jung 9w1 placement — _Personality Types_, _The Wisdom of the Enneagram_, or both? _What the answer changes:_ the FAQ 1 wording (SUBJECT-C4). _Best source:_ the physical books; the _Wisdom_ 9w1 examples list is search-confirmed, the _Personality Types_ placement is not.
+- **SUBJECT-Q2:** Does Bair document explicit household discussion or negotiated terms of the Wolff arrangement (Emma's confrontations, conditions, the Sunday routine)? _What the answer changes:_ whether SUBJECT-C2's sentence needs softening (if discussion is documented) or can stand nearly as-is (if Bair supports silence). _Best source:_ Bair's chapters on the triangle years, which the repo cites only at arc level.
+- **SUBJECT-Q3:** What is the _C.G. Jung Speaking_ page-level wording for the BBC self-typing cluster and the Houston classification passage? _What the answer changes:_ micro-wording of the draft's quoted material if production wants print-citable quotes; the working notes already nominate S6 as wording of record. _Best source:_ the physical volume (McGuire & Hull, 1977).
+- **SUBJECT-Q4:** Should the FAQ's Red Book "beginning in 1914" be re-anchored to the Black Books (Nov 1913) or the folio transcription (1915)? _What the answer changes:_ one FAQ phrase; "some 16 years" survives either way (packet dispute 2). _Best source:_ Shamdasani's introduction to the 2009 facsimile.
+
+## Preserve list
+
+- The epigraph and its sourcing tag ("posthumous 1962 memoir") — his loneliest self-description, correctly framed as retrospective self-report.
+- "He was 84, and still could not leave a sentence unguarded." — the sharpest character beat, and the article's proof of good faith toward his words (SUBJECT-H1).
+- The full "Jung No. 1 and Jung No. 2" section, including the "nothing to do with a 'split'" qualifier and the Listener paragraph (SUBJECT-H2).
+- "Riso and Hudson read his reconciling of opposites as a Nine keeping the peace. His own account of why he held opposites was cognitive: he wanted to know what each side knew." (SUBJECT-H3)
+- The Red Book sequence from "Watch the behavior instead of the reputation" through "alone, in writing, behind a lock." (SUBJECT-H4) — the inner-thought line may stay, subject to the SUBJECT-C5 rendering check.
+- "Bair goes only as far as the word 'intimate' and declines a verdict, which is exactly as far as the evidence goes." (SUBJECT-H5)
+- "Nothing in the pages above excuses that, and the empathy his framework extends to everyone else is owed to the two women who subsidized it." (SUBJECT-H6)
+- The Rabbit Hole falsifier sentence ("If new first-person evidence surfaced showing harmony... the verdict here would have to move").
+- The closing disclaimer ("offered as an argument, never a diagnosis") and the final line "Sixty-nine years later, we filed him anyway." — the ending should be de-clipped per SUBJECT-C1, but the final line itself must survive verbatim.
+
+## Research log
+
+1. _Question:_ Does the Houston transcript's continuation after "the classification of individuals means nothing, nothing at all" qualify the draft's "closed the door completely" framing? _Source:_ pinned local transcript S2 (`youtube-transcripts/carl-jung/houston-1957-evans.md`, [26:56]–[27:59]). _Finding:_ yes — "this is only the instrumentarium... practical psychologist, to explain for instance a husband to a wife or vice versa." _Decision affected:_ SUBJECT-C1 raised; "What missed" first item.
+2. _Question:_ Is the BBC self-typing cluster quoted with fidelity as rendered in the intro and diagnosis? _Source:_ pinned local transcript S1 (`youtube-transcripts/carl-jung/face-to-face-1959-cc.md`, [28:03]–[28:58]). _Finding:_ faithful, hedges included; also surfaced the unused continuation "now that gives you all the necessary data for the diagnosis." _Decision affected:_ confirmed CLM-05; fed Specific improvement 2 and "What surprised me."
+3. All other checks reused the shared evidence packet (claim inventory CLM-01–16, disputes 1–10, source ledger). No web research was needed; no additional external sources consulted.
+
+## Limits of this review
+
+- This is a fairness proxy, not the subject's voice: Jung on record rejected classification-as-verdict, so no typing article could earn his agreement; per the role contract, agreement was not tested for — only fair representation.
+- The subject's "own account" here is largely MDR, which is posthumous, Jaffé-edited self-report at the end of life; the draft and packet both treat it as testimony rather than fact, and this review inherits that dependence.
+- BBC and Houston wordings rest on auto-captions checked against _C.G. Jung Speaking_ excerpts; micro-wording (articles, contractions) cannot be guaranteed at the transcript level, so quote-fidelity findings here are fidelity-to-the-pinned-transcript.
+- Nazi-era conduct and antisemitism accusations were omitted from the draft by governed scope decision (S19) and were not researched by the packet; this review takes no position on that material and did not weigh it in the fairness verdict. A future scope revisit is a strategy question, not a finding of this review.
+- No physical books were consulted; SUBJECT-Q1–Q3 mark where page-level verification would change wording.

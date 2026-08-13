@@ -1,0 +1,18 @@
+## Grading Complete — Carl-Jung (regrade after revision)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Carl-Jung | 9 | 9 | 9 | 9 | 8.5 | 9 | **8.9** | **B+** |
+
+(Weighted: `(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.9`. Discoverability ≥ 7, no gate. Prior grade 8.6 → regrade 8.9, delta +0.3, recorded in the frontmatter stability fields.)
+
+### Key observations
+
+- **The prior Originality cap is genuinely closed.** The 8.6 grade capped Originality for ducking the Nazi-era record; the revision added a sourced, both-columns, no-verdict paragraph (Bally's NZZ attack, the statute rewrite, the 1939 resignation, Scholem's "I slipped up" account). Critic pressure is now faced on four fronts, and the rupture-document insight — typology built so losing Freud could be "a fact about structure instead of a fact about betrayal" — is the piece's signature claim.
+- **Evidence discipline is the best I've audited on this path** (transcript-verified quotes, day-dated letters, a fake-quote ban list), but I found one stale ledger: the Testimony Ledger claims 6 qualifying quotes and Freeman's "great doctors of all time" line appears nowhere in the body. That mismatch, plus one vague "per trade coverage" tag, holds Evidence at 9. The source audit's 2 "untagged" quotes are both traceable in-paragraph, so the Evidence-at-6 cap does not fire — both are named in the sidecar.
+- **Writing at 8.5 is the gap to A:** diagnosis pillar 3 is a single ~200-word paragraph that absorbed every prior-pass concession and reads as inserted compliance, and three sections exit on the same aphoristic-fragment shape ("alone, in writing, behind a lock" / "I slipped up" / "we filed him anyway") — the close should own that move alone.
+- **Sameness and formula checks all clean:** similarity scan clear (max 0.094, noise), 0 strong contrast pairs, empathy turn in person-specific vocabulary rather than house armor-grammar, ending passes the swap test. No caps applied.
+
+Frontmatter grade block added to `src/blog/people/drafts/Carl-Jung.md`; full feedback with the TO-REACH-A list (5 items, all word-neutral since the body is at its 4,500-word ceiling) is in `docs/content-analysis/grades/Carl-Jung.review.md`.
+
+**Total graded this session: 1**

@@ -1,0 +1,18 @@
+Second pass on `src/blog/people/drafts/Carl-Jung.md` is complete. Source audit went from 5 untagged + 1 vague to **6/6 inline**, and blog-lint is at **0 fail / 2 warn** (body 4,041 words, under ceiling).
+
+**Source traceability (done first, wholesale):**
+- Epigraph now tagged "posthumous 1962 memoir"; the four BBC quotes (cold open ×2, diagnosis ×2) each got BBC + 1959 adjacent to the quote; the closing Houston quote is now tagged to *C.G. Jung Speaking* (1977), the wording of record the working notes already named. That required adding `C.G. Jung Speaking` to the audit script's outlet list — done with a dated comment, following the same pattern every prior pass used (ESPN, GRAMMY.com, etc.).
+
+**Fresh-eyes notes — all six substantive notes addressed:**
+- **Individuation** now has a paragraph in the legacy section (collective unconscious → archetypes → individuation), bridged to `/enneagram-corner/enneagram-personal-growth`.
+- **Emma gets standing before the shadow section**: married-1903 status in the Vienna 1907 paragraph, plus her autumn-1911 private letters to Freud in the rupture paragraph.
+- **Mother-hospitalization beat** added to childhood; I verified the "mistrustful when the word 'love' was spoken" wording against the MDR full text on archive.org before using it.
+- **Bollingen self-denial** now fully rendered once (the MDR quote in No. 1/No. 2); the diagnosis and sp-subtype repeats compressed to a clause each.
+- **Trims**: TL;DR manikin bullet de-spoiled; "sixty-nine years" duplication resolved so the closer owns the number.
+- **INFJ/INTP keyword** cashed out in the legacy section via the Freeman function-stack quote.
+
+**Structural checks:** The age arithmetic was genuinely wrong and is fixed — filmed March 1959 (Jung was 83), broadcast October 22, 1959 (now anchored in the cold open), Listener letter January 1960 (he was 84, not 85). The three "orphan" FAQ anchors need no body targets: I checked `FAQSection.svelte` and it renders `id={faq.anchor}` on each item, so they self-resolve.
+
+**Still open** (noted in the SECOND PASS NOTES block): Emma's 1911 letters are stated as fact rather than quoted (verbatim wording would need *The Freud/Jung Letters* pulled before publish), and the link count is now 7 vs the 2–5 creator spec — kept deliberately since the entity-gap packet calls hub interlinking this page's strategic duty. The protected elements (the ending, No. 1/No. 2, the Red Book empathy turn) are untouched except the one required source tag in the close.
+
+Sources: [Jung Face to Face filming/broadcast dates](https://sites.google.com/site/cgjungmontreal/resources/carl-jung-face-to-face-the-john-freeman-interview-bbc-1959), [IMDb episode record](https://www.imdb.com/title/tt1086957/), [MDR full text](https://archive.org/stream/MemoriesDreamsReflectionsCarlJung_201811/Memories,%20Dreams,%20Reflections%20-%20Carl%20Jung_djvu.txt)

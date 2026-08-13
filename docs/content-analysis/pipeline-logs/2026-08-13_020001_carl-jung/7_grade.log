@@ -1,0 +1,18 @@
+## Grading Complete — Carl-Jung
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Carl-Jung | 8.5 | 8 | 9 | 9 | 8.5 | 9 | 8.6 | B+ |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc ≥ 7, no gate.)
+
+### Key Observations
+
+- **This is a genuinely strong draft, graded against the Matt-Smith B anchor and clearly above it on every dimension I compared.** The "Jung No. 1 and Jung No. 2" section is bespoke (built on Jung's own frame, fails if transplanted), the Listener-correction beat ("still could not leave a sentence unguarded") is a real signature detail, and the empathy turn uses Jung's own vocabulary ("menaced by a psychosis" → "he treated the flood as data") rather than the house armor/scar-tissue grammar. Discoverability is near-perfect: 58-char meta_title on the head term, extractable 60-word answer block, six genuine search-intent FAQs.
+- **One cap applied — ducked critic pressure (Originality 9 → 8).** The Nazi-era conduct/antisemitism question, Jung's most serious public controversy, is omitted entirely by documented pipeline choice. The omission is most exposed in a section literally titled "The shadow of the man who mapped the shadow." This is the single highest-leverage revision: three sourced sentences there lifts the cap and puts the draft at 8.8.
+- **Citability hits (named in full in the sidecar):** the load-bearing "to find my own bearings" quote — anchor for the piece's sharpest original claim, that Psychological Types is a rupture document — floats with no outlet or date at either point of use (it's from the 1957 Houston interviews). Two more slots are untagged at sentence level but attributed in-paragraph. The draft's own second-pass ledger overclaims "6 inline, 0 vague, 0 untagged" against a live audit of 5/1/2 — stale ledger, restamp after fixing.
+- **Sameness check: no cap, one watch item.** Similarity scan clear (max 0.094 vs leonardo-da-vinci, no shared phrases). But the imperative reader-command pivot ("Watch the behavior…," "Read that origin story plainly") appears in all three most recently graded drafts too — the device is saturating the corpus. Also the four-section aphoristic-closer metronome, the same fingerprint the Nolan regrade just cut from four to two.
+
+Grade written to the draft frontmatter; full feedback at `docs/content-analysis/grades/Carl-Jung.review.md`.
+
+**Total graded this session: 1**

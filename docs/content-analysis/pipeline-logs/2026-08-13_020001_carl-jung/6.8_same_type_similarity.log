@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Carl-Jung (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/Carl-Jung.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 54
+Comparison set (last 8 other Type-5 drafts by date):
+  - Christopher-Nolan  (2026-08-12, 43 units)
+  - Yang-Zhilin  (2026-07-23, 46 units)
+  - pinkpantheress  (2026-07-19, 25 units)
+  - warren-buffett  (2026-07-08, 30 units)
+  - steve-martin  (2026-07-04, 38 units)
+  - leonardo-da-vinci  (2026-07-01, 18 units)
+  - john-d-rockefeller  (2026-06-22, 19 units)
+  - jerry-seinfeld  (2026-05-17, 25 units)
+
+Noise floor over 13176 unit pairs:  median=0  p90=0  p99=0.006  max=0.094
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.094 ####                 leonardo-da-vinci
+  0.067 ###                  steve-martin
+  0.067 ###                  Christopher-Nolan
+  0.042 ##                   pinkpantheress
+  0.035 #                    Yang-Zhilin
+  0.030 #                    warren-buffett
+  0.019 #                    john-d-rockefeller
+  0.019 #                    jerry-seinfeld
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.094   Carl-Jung  <->  leonardo-da-vinci
+   TARGET [diagnosis] The self-portrait he gave the BBC in 1959 is self-report at 83
+   OTHER  [diagnosis] He gave the world contact in small
+
+score 0.067   Carl-Jung  <->  steve-martin
+   TARGET [diagnosis] he poured his inner life into notebooks he showed almost no one.
+   OTHER  [diagnosis] and hid for decades doing quieter work almost no one asked him for.
+
+score 0.067   Carl-Jung  <->  Christopher-Nolan
+   TARGET [counter-typing] he described feeling as his deficit rather than his medium
+   OTHER  [counter-typing] evidence that confrontation is his default register rather than his 2020 exception.
+
+score 0.065   Carl-Jung  <->  Christopher-Nolan
+   TARGET [diagnosis] Thinkers category in the 9takes corpus landed on Type 5 as of mid-2026
+   OTHER  [diagnosis] TV figures profiled on 9takes who type as Fives as of August 2026
+
+score 0.042   Carl-Jung  <->  steve-martin
+   TARGET [diagnosis] plenty of Nines lead with thinking.
+   OTHER  [counter-typing] a Four leads with emotional intensity and specialness
+
+score 0.042   Carl-Jung  <->  pinkpantheress
+   TARGET [diagnosis] When Jung himself explained the types book
+   OTHER  [counter-typing] Type 1 also explains the perfectionism
+
+score 0.041   Carl-Jung  <->  steve-martin
+   TARGET [diagnosis] The full case against this verdict
+   OTHER  [diagnosis] The core stays 5. (The full Three case
+
+score 0.035   Carl-Jung  <->  Yang-Zhilin
+   TARGET [diagnosis] and a Jungian function stack is not an Enneagram center
+   OTHER  [diagnosis] Yang Zhilin is an Enneagram Type 5
+
+score 0.032   Carl-Jung  <->  leonardo-da-vinci
+   TARGET [diagnosis] he went looking for something to know.
+   OTHER  [diagnosis] Every commission became cover for something deeper.
+
+score 0.032   Carl-Jung  <->  steve-martin
+   TARGET [counter-typing] deep quiet) read like a Nine's homecoming.
+   OTHER  [diagnosis] They build competence like a moat
+
+score 0.030   Carl-Jung  <->  warren-buffett
+   TARGET [diagnosis] The pattern held for eighty years
+   OTHER  [diagnosis] Warren Buffett is the pattern made flesh. - The scarcity economy made literal.
+
+score 0.030   Carl-Jung  <->  Yang-Zhilin
+   TARGET [diagnosis] I don't need to believe it." That sentence is a working definition of the Five's relationship to safety
+   OTHER  [diagnosis] "I don't want to share control of my company" (via TechCrunch
+
+------------------------------------------------------------------------------
+Top pair scores 0.094 vs median 0  (~∞x the noise floor).

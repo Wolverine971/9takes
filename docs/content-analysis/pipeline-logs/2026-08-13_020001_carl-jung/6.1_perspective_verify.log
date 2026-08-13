@@ -1,0 +1,10 @@
+Verification complete — **pass**.
+
+- **Output:** `docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/verification-initial.md`
+- **Verification status:** `pass`
+- **Open P0:** 0
+- **Protected-hit regressions:** 0
+
+Summary of what was checked: the frozen snapshot hashes to exactly the supplied SHA, and a full diff of the live draft against it shows every reader-visible change maps to an authorized repair — all 4 P0s pass their acceptance tests (Freud's age, the *Wisdom of the Enneagram* re-anchor, the pillar-3 testimony rework, the particularized etiology sentence), all 16 accepted P1s plus RQ-01 and both P2s are completed, and all 9 protected hits survive verbatim except the explicitly permitted touches. I independently re-verified the new BBC quotes against the local transcripts (the seven-boys fight at [13:26] and "all the necessary data for the diagnosis" at [28:54] both check out) and confirmed the Houston close framing now matches the transcript's instrumentarium qualification. Current reader-visible hash: `42bdb218391d07da422ab0cccce3722fbb7b11f6ef93d114ba1e713efe3e3987`.
+
+Two non-blocking notes recorded in the artifact: the frontmatter picked up `wikidata_qid`/`imdb_id` metadata from a later pipeline stage (outside this review's scope), and the key-stat render-binding engineering follow-up remains logged for the people path generally. The deterministic gate script decides finalization from here.
