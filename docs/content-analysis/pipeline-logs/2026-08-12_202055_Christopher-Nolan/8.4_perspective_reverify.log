@@ -1,0 +1,19 @@
+Verification complete. Only `verification-final.md` was written; the draft is untouched.
+
+**Output path:** `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/verification-final.md`
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+Snapshot integrity held (`context.json` and `synthesis.md` both carry the supplied SHA; the frozen body hashes to the recorded `reader_visible_content_sha256`). The live draft's reader-visible hash is now `3c88c862…048b05`.
+
+This re-run was triggered by the 996-word length cut, so I re-applied every P0 acceptance test to the current text rather than trusting the prior pass. All ten P0s still resolve, all eight accepted P1s remain complete, and all twelve protected hits survive — each verified by exact string match, not by reading the revision log. `blog-lint` confirms 4,487 words, 0 fail, so the length blocker is genuinely cleared. I also re-verified the corpus stat myself: `corpus-stats.json` (regenerated 02:08 UTC) reports film-tv total 153 with Type 5 = 4, the lowest count in the domain.
+
+Two things the revision log did not record, both from the cut:
+
+- **P0-05 survived, but its main-body context did not.** The repair's decisiveness evidence lives in the Rabbit Hole, where the synthesis required it, so P0-05 is intact. But the cut removed the only main-body statement that Nolan left Warner Bros. for Universal, leaving "The freedom he won at Universal" (line 361) with no antecedent outside an accordion readers are told they may skip. That's the top item in Remaining work — a ~8-word fix.
+- **"as quoted above" (line 350) points forward, not back.** The stamina quote sits thirteen lines *below* the Rabbit Hole, in the *Odyssey* section.
+
+Three smaller items are listed too: the 2026 timeline row lost its "to date" qualifier during the cut (the one perishable superlative now carrying no date hedge), and two compressions dropped inline outlet tags on the Damon beat. Headroom is 13 words; items 1–4 net to about +7, so they fit — but only just.
+
+The deterministic gate script, not this report, decides whether the pipeline may finalize.

@@ -1,0 +1,23 @@
+Polished `src/blog/people/drafts/Christopher-Nolan.md` in perspective-jury mode against the frozen snapshot (SHA matched the review's `context.json` exactly).
+
+**Research first — both gating RQs resolved, and one changed a fact**
+
+- **RQ-01:** the draft's "he has never once answered it in words" was **false**. Nolan never answered Wilson, but a week after her review he told the Zhong Shu podcast that "to be able to identify the mechanism does not invalidate the mechanism," explicitly scoping it to *amateur* criticism. Replaced the false sentence with the accurate account — which also hands the subject his reply and happens to be a better sentence, since he made even his near-reply about the machine.
+- **RQ-02:** pinned the THR "efficiency buys creative freedom" quote to July 2026 (post-*Odyssey* interview). The Type 1 discriminator is now sourced instead of asserted.
+- Verified `corpus-stats.json` directly: film-TV total is 153, not 146.
+
+**All 10 P0 and all 8 accepted P1 items fixed.** The through-line was the critic's diagnosis — eight contested calls all breaking toward Nolan. Five are now re-decided or held open in the main body: cohort framing with Mendelsohn added, the dead-wives dispute left unresolved with Pajiba cited (not LARB, which 403s), Type 8 made to answer with its own disconfirmer, the AI "collector's contempt" clause cut, and intent no longer substituted for effect.
+
+**Language and flow:** contrast-pair engines went **0 strong / 0 comparative** (baseline had 1 comparative — it lived inside the sentence P0-01 rewrote anyway). No prose em-dashes; I also fixed four in the FAQ frontmatter, which is reader-visible through FAQPage schema. Cut the Ithaca coda so the protected Leicester Square close now lands last, which makes the ending hit rather than trail off.
+
+**All 26 protected fragments across all 12 PROTECT IDs verified present by string match.** All 10 testimony quotes still in the body — I over-cut Emma Thomas's during compression and restored her.
+
+**One thing I did not close: the body is 4,884 words against the 4,500 publish gate.**
+
+I cut 1,009 words from the post-repair draft — essentially the ~1,100 the synthesis asked for, taken from the four sources it nominated. The residual exists because the P0 repairs cost ~350 words rather than the 210 the synthesis budgeted, and RQ-01 added an unbudgeted passage. Closing the last 384 now means deleting protected hits or the evidence the P0s just required, which is the exact failure every reviewer warned about. So I left it as your call and itemized the candidates with costs in the artifact: the *Inception* paragraph (~110), *The Prestige* paragraph (~95), the knighthood/"Long" beat (~65), Kip Thorne (~60), the Apollo uncle (~45), the daily uniform (~40). Any four close it. The alternative is arguing the length via `BLOG_LINT_WORD_CEILING`, which the lint explicitly supports and whose own data arguably favours (corr(words, position) = 0.02).
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/editor-resolution.md`
+
+Also still open, both recorded there: the corpus denominator needs re-checking at publish time (that file regenerates on build), and RQ-03 stays unpinned — it gates only P2-08, which I didn't take, so nothing published depends on it.
+
+**Readiness:** the prose is production-ready. It doesn't need another substantive pass — it needs your decision on the length, then `/blog_perspective_verify_people`.

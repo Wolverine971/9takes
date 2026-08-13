@@ -5,7 +5,7 @@
 **For:** the agent adding a tasteful, optional way for an anonymous first commenter to request a reply email.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Local implementation complete; deployment verification pending
+**Status:** Production migration applied; app deployment verification pending
 **Related:** `docs/planning/experiment-a-anonymous-email-capture-2026-04-08.md`, [`../00-START-HERE.md`](../00-START-HERE.md)
 
 ## 0. What and why
@@ -133,6 +133,11 @@ Cover eligibility, successful persistence, dismissal memory, invalid email, supp
 - Added suppression checks and a transaction-scoped actor lock. Disposable PostgreSQL verification returned `subscribed`, then `already_subscribed` for a duplicate; a suppressed address returned `suppressed`, a forged fingerprint returned `ineligible`, and only one normalized row existed.
 - Added `reply_opt_in_*` events with bounded status fields and no PII.
 - Focused Vitest result: 18 tests passed across the component, server action, and analytics helper files. The final repository-wide `pnpm check` completed successfully.
+
+## Production migration update: 2026-08-12
+
+- The subscription schema is present in the production migration ledger. Delivery/return upgrades were applied in forward migration `20260813014408_reply_notification_delivery_and_return` rather than by amending an already-applied migration.
+- Production preflight found no queued notification rows, so the schema upgrade did not place any recipient into a delivery path. The app still needs deployment and the controlled anonymous first-answer smoke journey.
 
 ## Risks and gotchas
 

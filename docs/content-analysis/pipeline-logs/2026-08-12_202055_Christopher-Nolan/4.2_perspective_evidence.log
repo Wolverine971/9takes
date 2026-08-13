@@ -1,0 +1,12 @@
+Packet written. Draft SHA unchanged; only the one artifact was created.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/evidence-packet.md`
+
+All ten required H2 sections present, 14 claim IDs (CLM-01 through CLM-14), 41 ledger sources. Quotes were verified against three local YouTube transcripts plus web sources; four load-bearing problems surfaced that reviewers will each hit independently:
+
+- **CLM-02** — the "pockets of time where everybody usually jumps on their phone" quote is attributed to 60 Minutes but comes from The Telegraph (2026-07-10). It is not in the aired 60 Minutes transcript, which I read end to end.
+- **CLM-03** — Jonathan Nolan "co-write six of his films" is unsupported; four co-written screenplays, five films with any writing credit, and he is not credited on *The Odyssey*.
+- **CLM-04** — the "146 Film and TV figures" corpus stat is now 153 in the repo's own `corpus-stats.json` (regenerated yesterday). The "exactly four Fives" half is still correct.
+- **CLM-12** — the age-seven *2001* screening was standard 70mm, 60 Minutes says he first met IMAX at 16, and *The Odyssey* is IMAX 70mm. The TL;DR and the closing image assert a format continuity the sources don't cleanly support.
+
+**Largest unresolved evidence gap:** the draft frames Emily Wilson as "the one reader with standing to convict him," but Daniel Mendelsohn — who published his own Odyssey translation in 2025 — ran a mixed-to-negative NYRB review making a materially similar charge ("Nolan has merely remade Homer's hero in his own image"), and trade coverage records a broader scholarly pushback. Paired with the LARB piece arguing *The Odyssey*'s women are mirrors for the hero, this means both of the draft's Odyssey-reception judgments (Wilson as singular outlier, Loughrey as a "correction") rest on a record that is live rather than settled. Neither counter-source appears in the draft.

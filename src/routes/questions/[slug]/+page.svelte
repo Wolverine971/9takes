@@ -269,7 +269,9 @@
 		},
 		questionTags: data.questionTags,
 		flagReasons: data.flagReasons || [],
-		user: data.user
+		user: data.user,
+		replyNotificationReturn: data.replyNotificationReturn ?? null,
+		replyNotificationThread: data.replyNotificationThread ?? null
 	});
 
 	let formattedQuestionText = $derived(

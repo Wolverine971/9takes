@@ -8,6 +8,7 @@
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
+	import ReplyNotificationReturn from './ReplyNotificationReturn.svelte';
 	import type {
 		User,
 		AIComment,
@@ -159,6 +160,12 @@
 				>
 					<div class="question-content-section-inner">
 						{#if section === 'Comments'}
+							{#if data.replyNotificationReturn}
+								<ReplyNotificationReturn
+									context={data.replyNotificationReturn}
+									thread={data.replyNotificationThread ?? null}
+								/>
+							{/if}
 							{#if !data?.flags?.userHasAnswered}
 								<div class="locked-comments-shell">
 									{#if publicAiPreviewComments.length}

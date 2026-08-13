@@ -1,0 +1,13 @@
+Reviewed `src/blog/people/drafts/Christopher-Nolan.md` against the entity-gap packet. The old 2026-07-22 fresh-eyes block was superseded (its items had all been fixed in the second pass) and replaced with a new dated block at the bottom of the file. No body edits.
+
+**The two biggest issues:**
+
+1. **Every Odyssey number is four weeks stale.** The draft says "$264.1 million worldwide, the biggest debut of his career" at line 357 and in the FAQ at line 73. The film has since passed **$1.1B**, overtaken *The Dark Knight Rises* as his highest-grossing release ever, and become **IMAX's biggest release of all time at $289M** (past *Avatar*). Line 301's "$6 billion" career total is understated by about a film. This is the one fact a reader arrives already knowing — the packet flagged it as priority one and it's still open.
+
+2. **Emily Wilson's pan is missing, and the draft declares a verdict that isn't in.** The translator whose 2017 *Odyssey* Nolan named as his reference point published a viral LRB review titled "An Uncomplicated Man" — a direct inversion of her own famous first line, which he cited — saying she "would be ashamed to have written any part of this script," and charging that he strips Odysseus's interior life and moral complexity. That's Brody's "movie-length Wikipedia article" aimed at the current film by the most authoritative source alive. The section currently answers it with one rave and closes "the method never changed. The verdict did." Wilson's own ending (she's grateful the film exists because it sends people back to the poem) is the way to hold the tension instead of picking a side.
+
+Also flagged: **Inception is absent from the reverse timeline** (2008→2014 skips Inception, *TDKR*, and Dunkirk) despite being the draft's thesis in movie form — a heist inside a mind with a father's grief buried under the machinery. And the TL;DR spoils the Leicester Square ending while burying the catalyst that brought the reader here; those two should swap.
+
+Protected per the packet and noted as such: the 5w6 defense (the one claim that beats the aggregator INTJ/5w4 consensus — don't soften it), the Zimmer open, the timeline form, and the FAQ set's refusal to farm age/wife/net-worth queries.
+
+Sources: [Variety — $1.1B / IMAX record](https://variety.com/2026/film/box-office/the-odyssey-christopher-nolan-biggest-movie-imax-record-1236830867/) · [Deadline — highest-grossing all time](https://deadline.com/2026/08/box-office-the-odyssey-christopher-nolan-record-1237029568/) · [Emily Wilson, LRB](https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man) · [TheWrap on the Wilson review](https://www.thewrap.com/creative-content/movies/the-odyssey-emily-wilson-review-christopher-nolan-movie/)

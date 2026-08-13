@@ -124,6 +124,21 @@ export interface QuestionFlags {
 	userSignedIn: boolean;
 }
 
+export interface ReplyNotificationReturnContext {
+	outboxId: number;
+	subscriptionId: number;
+	questionId: number;
+	commentId: number;
+	replyCommentId: number;
+	targetStatus: 'available' | 'removed';
+	subscriptionStatus: 'active' | 'stopped';
+}
+
+export interface ReplyNotificationThread {
+	parent: Comment | null;
+	reply: Comment | null;
+}
+
 export interface QuestionPageData {
 	question: Question;
 	comments: Comment[];
@@ -137,6 +152,8 @@ export interface QuestionPageData {
 	links: Link[] | null;
 	links_count: number;
 	flagReasons: FlagReason[];
+	replyNotificationReturn?: ReplyNotificationReturnContext | null;
+	replyNotificationThread?: ReplyNotificationThread | null;
 }
 
 export interface QuestionsListData {

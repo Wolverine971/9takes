@@ -10,6 +10,7 @@ import {
 	logBestEffortTelemetryFailure,
 	runBestEffortTelemetry
 } from '$lib/server/bestEffortTelemetry';
+import { captureReplyNotificationEvent } from '$lib/server/posthogCapture';
 
 const HOME_URL = 'https://9takes.com';
 
@@ -65,7 +66,12 @@ export const GET: RequestHandler = async (event) => {
 		runBestEffortTelemetry(
 			event,
 			Promise.all([
-				updateClickTracking(locals.supabase, tracking_id, redirectTarget, request),
+				persistClickAndReplyNotificationAnalytics(
+					locals.supabase,
+					tracking_id,
+					redirectTarget,
+					request
+				),
 				exitReactivationSequenceForTrackedClick(tracking_id)
 			]),
 			(trackingError) => {
@@ -78,14 +84,54 @@ export const GET: RequestHandler = async (event) => {
 	return redirectResponse(redirectTarget);
 };
 
-async function updateClickTracking(
+async function persistClickAndReplyNotificationAnalytics(
 	supabaseClient: App.Locals['supabase'],
 	trackingId: string,
 	targetUrl: string,
 	request: Request
 ): Promise<void> {
+	const parsedTarget = new URL(targetUrl);
+	const isReplyReturn = parsedTarget.pathname.startsWith('/api/reply-notifications/return/');
+	const persistedTargetUrl = isReplyReturn
+		? `${parsedTarget.origin}/api/reply-notifications/return/[private]`
+		: targetUrl;
+	const tracked = await updateClickTracking(
+		supabaseClient,
+		trackingId,
+		persistedTargetUrl,
+		request
+	);
+	if (!tracked) return;
+	if (!isReplyReturn) return;
+
+	const { data, error: contextError } = await (supabaseClient as any).rpc(
+		'get_reply_notification_analytics_context',
+		{ p_tracking_id: trackingId }
+	);
+	if (contextError) throw contextError;
+	if (!data?.outbox_id) return;
+
+	await captureReplyNotificationEvent(
+		'reply_notification_clicked',
+		{
+			outboxId: Number(data.outbox_id),
+			subscriptionId: Number(data.subscription_id),
+			questionId: Number(data.question_id),
+			commentId: Number(data.comment_id),
+			replyCommentId: Number(data.reply_comment_id)
+		},
+		{ insertIdSuffix: 'first-click' }
+	);
+}
+
+async function updateClickTracking(
+	supabaseClient: App.Locals['supabase'],
+	trackingId: string,
+	targetUrl: string,
+	request: Request
+): Promise<boolean> {
 	if (!isUuid(trackingId)) {
-		return;
+		return false;
 	}
 
 	const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'unknown';
@@ -101,5 +147,5 @@ async function updateClickTracking(
 	});
 
 	if (trackingError) throw trackingError;
-	if (!tracked) return;
+	return Boolean(tracked);
 }

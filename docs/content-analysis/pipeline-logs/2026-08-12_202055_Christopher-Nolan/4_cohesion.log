@@ -1,0 +1,51 @@
+Prose body is clean (the only em-dash is the pre-existing quote-attribution line, which lint exempts).
+
+## Cohesion Audit: `src/blog/people/drafts/Christopher-Nolan.md`
+
+### Central Thesis
+Nolan is a Type 5 who starts every film with a feeling and then builds an enormous machine around it, so the thing people read as coldness is packaging, not absence.
+
+### Thread Map
+- **Intro (Zimmer letter)** → states the thesis as an anecdote and poses the driving question: why does a man who starts with the feeling spend $250M hiding where he keeps it?
+- **§1 Type 5 diagnosis** → answers *what kind of person does that*: attention/information/surprise budgeted like money, authority claimed through watching.
+- **§2 Childhood** → answers *where the budget came from*: an ocean from home, one device that obeyed him.
+- **§3 No smartphone** → the adult form of that device-loophole: refusals, and what they buy.
+- **§4 Guarding the story** → the same refusals aimed outward at the audience; names the fear underneath (demystification, "no great Oz").
+- **§5 Career backwards** → proves the pattern is constant, not acquired: $250M behaviors present at $6,000.
+- **§6 Inaudible dialogue** → what a pattern that constant costs him with critics, and his refusal to switch customers. Pays off the intro question via Inception.
+- **§7 Streaming war** → the one thing that breaks his composure: the room where the packages open.
+- **§8 The Odyssey** → the current stake, the strongest counter-verdict (Wilson), and the Leicester Square loop closing the intro question in images.
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 7/10 | 2 |
+| Section Transitions | 6/10 | 4 |
+| Internal Paragraph Flow | 8/10 | 1 |
+
+**Before: 7.5/10 → After: 9/10**
+
+Every section earns its place and the piece answers the question it opens with. The weakness was entirely at the seams: four of eight section boundaries opened cold, on a quote or a date, with the logical step left in the writer's head.
+
+### Changes Made (6)
+
+**Transition fixes (4):**
+- **Diagnosis → Childhood** (was *Broken*): §1 ended on his duty to give the audience "the fullest flavor"; §2 opened cold on a childhood quote. Added: *"He knows what that is worth from the receiving end, at seven, in a room he can still name."* Carries "audience" forward and sets up Leicester Square without spoiling the ending.
+- **Guarding → Career backwards** (was *Weak*): §4 ended on "forty-nine years trying to reproduce one," §5 opened on Memento. Added *"Forty-nine years leave a record."* so the timeline arrives as a consequence, not a new idea. Left the Apply/Start imperative set intact.
+- **Dialogue → Streaming** (was *Weak*): §6 ended on "packages happen to be 70 millimeters wide," §7 opened on his temperament. Added *"A package that wide only opens in one kind of room."* This plants the room the section later reveals was under attack.
+- **Streaming → Odyssey** (was *Weak*, worsened by the collapsed Rabbit Hole between them): §8 opened "He told Empire, in the film's first interview" with no antecedent. Added *"The freedom he won at Universal went into a three-thousand-year-old poem."* and changed "the film's" to "The Odyssey's."
+
+**Reader mental-model fixes (2):**
+- "The adult version of **that loophole**" → "**the camera loophole**." The antecedent was two paragraphs upstream, behind the Emma Thomas and Flora passages.
+- "**The thread** runs straight through to the films" → "**The family thread**." The nearest preceding thread was Emma's "every no," not fatherhood.
+
+### What Was Preserved
+- All frontmatter, ledgers, working notes, and review blocks
+- All Svelte/HTML components (TL;DR accordion, key-stat, inner-thought, pull-quote, timeline, Rabbit Hole)
+- All internal links
+- Transitions at Childhood→Smartphone, Smartphone→Guarding (the room/door handoff), and Career→Dialogue ("A pattern that constant collects critics") were already working and were left alone
+
+### Remaining Concerns
+- **Word count is still the blocker, and my fixes made it marginally worse.** The second-pass notes put the body ~920 words over the 4,500 ceiling; bridges added ~48. Cutting a section is the developmental call flagged for the editor pass, not this one. On cohesion grounds specifically: the streaming-war section is the most severable. Its Oppenheimer vindication now duplicates the Oppenheimer moral-cost beat in the dialogue section, and the "room" motif it establishes is carried independently by the Leicester Square ending. Losing it costs one integration-to-8 illustration, which the Rabbit Hole already makes in full.
+- **The dialogue section and the Odyssey section argue the same case twice** (does he engineer feeling or have it). They brace each other rather than repeat, since Wilson lands the charge on the current film, but if anything gets cut for length, that pairing is where the redundancy actually lives.

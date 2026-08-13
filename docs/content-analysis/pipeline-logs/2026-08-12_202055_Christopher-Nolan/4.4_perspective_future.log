@@ -1,0 +1,18 @@
+**Artifact:** `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/future.md` (SHA verified against `context.json` before reading; no other perspective file opened)
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **3 blockers, 8 concerns.**
+
+The piece passes the durability test I most expected it to fail: strip every 2026 fact and the thesis still stands, because it's built on the 2014 Zimmer letter, the boarding-school years, and decades of input minimization. *The Odyssey* is the doorway, not the foundation. What fails is narrower and entirely mechanical — three numbers a reader can check in ten seconds.
+
+**Strongest hit — FUTURE-H2, the reverse-chronology timeline is append-only.** A new Nolan film adds one row at the top; nothing below changes and the section's argument ("the same person keeps showing up at every budget") gets *stronger* with each addition. Bespoke forms usually cost durability. This one buys it, and the next update is a one-line edit. It reads as a stylistic flourish and functions as maintenance infrastructure.
+
+**Highest-priority concern — actually a blocker, FUTURE-R1: the box-office cluster is a running total on a film still in wide release.** China opened two days after the snapshot, Wikipedia already carried $1.156B on the packet's compile date, and two of the four locations (TL;DR L186, FAQ L73) state "$1.1 billion" with no as-of date at all. The decisive point isn't the number — it's that this draft has already suffered this exact failure once. Its own second-pass notes record the opening-weekend figure going stale in four weeks; the fix updated the values and re-armed the same trap at a higher number. The repair is floor verbs plus explicit as-of dates, not another chase.
+
+Two findings I'd flag for the synthesis pass as unusually cheap to fix:
+
+- **FUTURE-R2** is verified first-hand, not inferred: `src/lib/data/corpus-stats.json` (regenerated 40 minutes before this review directory was created) reports film-tv at **153**, while the draft says 146 and links directly to `/corpus-stats`. It's already wrong against its own citation, one click away, and the gap widens by construction.
+- **FUTURE-C1** has a date-certain falsification point: the 99th Academy Awards is **2027-03-14**, inside the window, and *The Odyssey* is eligible — which puts "the most decorated film of his career" (said of *Oppenheimer*'s seven Oscars) at risk. I flagged the date and the condition without assuming an outcome.
+
+The review includes a dated twelve-month refresh list and a preserve list written specifically to constrain the ~900-word cut the draft still owes, since the durable material is not where the fat is.
+
+Sources for the two role-specific searches: [DGA press release](https://www.dga.org/News/PressReleases/2025/250920_ChristopherNolanElectedDGAPresident_NationalBoardAndOfficersChosen), [Variety](https://variety.com/2025/film/news/christopher-nolan-directors-guild-elect-president-1236525332/), [Deadline](https://deadline.com/2025/09/christopher-nolan-dga-president-1236551695/) on the DGA election; [Variety](https://variety.com/2026/film/awards/oscars-2027-2028-ceremony-dates-march-1236710777/), [Deadline](https://deadline.com/2026/04/oscar-cermeony-dates-2027-2028-1236783778/), [Academy Press Office](https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr) on the ceremony dates.

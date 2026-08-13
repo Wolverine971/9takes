@@ -1,3 +1,4 @@
+// src/lib/admin/adminNavigation.ts
 import {
 	ChartNoAxesCombined,
 	FileCode2,
@@ -57,6 +58,7 @@ export const adminNavGroups: AdminNavGroup[] = [
 		items: [
 			{ href: '/admin/content-board', label: 'Content board', icon: FolderKanban },
 			{ href: '/admin/questions', label: 'Questions', icon: MessageCircle },
+			{ href: '/admin/question-distribution', label: 'Question distribution', icon: Target },
 			{ href: '/admin/categories', label: 'Categories', icon: Shapes },
 			{ href: '/admin/drafts', label: 'Drafts', icon: PenLine }
 		]

@@ -1,7 +1,8 @@
 // src/lib/types/email.ts
 // Email Management System Types
 
-export type RecipientSource = 'profiles' | 'signups' | 'coaching_waitlist';
+export type RecipientSource =
+	'profiles' | 'signups' | 'coaching_waitlist' | 'comment_reply_subscription';
 
 export interface EmailRecipient {
 	id: string;

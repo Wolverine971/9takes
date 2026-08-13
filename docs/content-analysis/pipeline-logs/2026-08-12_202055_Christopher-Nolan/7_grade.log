@@ -1,0 +1,27 @@
+## Grading Complete — Christopher Nolan (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Christopher-Nolan | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+`(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5 / 7 = 8.6`. Discoverability 9, so no gate. No caps triggered.
+
+Prior grade was 8.8 — I scored independently and landed at 8.6, delta 0.2.
+
+### Key observations
+
+**This is a genuinely strong draft** — clearly above the Matt-Smith B anchor on Evidence, Originality and Discoverability. The Zimmer cold open (one page, thick paper, no carbon copy) states the thesis as anecdote, the intro question gets paid off by the Leicester Square close, and the reverse-chronology "Run his career backwards" section is a bespoke form borrowed from Memento's own grammar that no other subject could use. The empathy turn is the model version: the mocked inaudible dialogue becomes understandable through his own wound-vocabulary, then the draft immediately refuses to excuse him.
+
+**Two things kept it off an A, both verification debt rather than craft:**
+
+1. **The last editor pass reopened a source-audit slot the prior grade recorded as clean.** Cutting 1,009 words left the Zimmer reply exchange in the cold open with a bare speech verb and no attribution. It's the thesis-bearing anecdote sitting in the one slot the source standard treats as disqualifying. One-line fix.
+
+2. **The named tiebreaker is an unverified auto-caption.** The draft's own working notes flag the 60 Minutes 2026 quotes as YouTube auto-caption verbatim — and that covers "in a sense I am the most important person on the set because I'm the audience," the single sentence the entire Type 5 argument turns on. Four load-bearing quotes rest on auto-captions of a multi-speaker program, which is a documented attribution trap in this pipeline. Worth spot-checking against video before publish.
+
+**Ledger drift is real here.** Two ledgers now misreport the body: SECOND PASS NOTES claim "0 untagged" (audit finds 1), and the FORMULA FINGERPRINT LEDGER claims the similarity scan is "clear — max 0.045... below 0.04 trip category" — internally contradictory, and the live scan now trips at 0.060 vs Yang-Zhilin on the corpus-stat sentence. Only one reused move, well under the cap threshold, but the ledgers need restamping.
+
+**Word count is still the unclosed developmental call** — 4,971 against a 4,500 ceiling. There's one clean cut that touches no protected beat: the streaming-war section's Oppenheimer victory lap now duplicates the moral-cost beat the second pass added to the dialogue section, where it does more work.
+
+Frontmatter block added after `path:`; sidecar written to `docs/content-analysis/grades/Christopher-Nolan.review.md` (replacing the deleted one). No legacy `QUALITY GRADE` block was present in the body.
+
+**Total graded this session: 1**

@@ -1,0 +1,23 @@
+Updated `src/blog/people/drafts/Christopher-Nolan.md`.
+
+**I verified the fresh-eyes claims before acting on them, and all three held up.** That mattered — the review was asserting specific numbers and a specific review existing.
+
+**Main changes:**
+
+- **Stale numbers fixed.** Every Odyssey figure led with the opening weekend ($264.1M), four weeks out of date on the one fact a reader arrives already knowing. Now: passed $1.1B in four weekends, overtook *The Dark Knight Rises* ($1.085B) as his biggest film ever, took the all-time IMAX record at $289M past *Avatar*'s $271M. Career total corrected $6B → $7B. Fixed in the body, the timeline entry, and the FAQ answer.
+
+- **Emily Wilson's LRB review added** — verified real ("An Uncomplicated Man," July 27, 2026). This was the best note in the review. Her standing is the whole point: Nolan cited her 2017 translation and took his Odysseus from her opening line, then she wrote that the film lacks "psychological, emotional, political and ethical depth" and that she'd "be ashamed to have written any part of this script." I kept her grateful turn (the UCL foundational-text line, which pays off a detail already sitting in the childhood section). Deleted "the method never changed. The verdict did" — no longer true.
+
+- **Oppenheimer moral-cost beat.** The draft treated his biggest film as logistics. Added the Hiroshima/Nagasaki omission, his "would betray the terms of the storytelling" defense, and Spike Lee and Cameron's attacks — landing on the method being both the design and the strongest case against it. It braces the Wilson material downstream.
+
+- **Timeline gaps filled** (Dunkirk, *TDKR*, Inception) and an **Inception paragraph** that answers the intro's question directly instead of leaving the spinning-top line as a throwaway.
+
+- **TL;DR no longer spoils the Leicester Square ending** — swapped for the current stake.
+
+**Source audit after the pass: 8 load-bearing quotes, 8 inline, 0 vague, 0 untagged.** No em-dashes, no banned phrases. `lastmod` untouched.
+
+**One thing I did not resolve, and it's the publish blocker:** the body is ~5,440 words against a 4,500 ceiling. That FAIL pre-existed (5,092 at HEAD), but I made it worse — I added ~640 words of verified substance and cut ~310 of flab, so it's ~350 over where it started. I cut what I could defend as flab (the Earl Grey aside, the "ambiguities aren't ambiguities" quote, the Christmas-presents quote, the UCL film-course quote, Murphy's loyalty line). Getting to 4,500 means deciding which *section* dies, which is a developmental call for the editor pass rather than a second pass. Best candidates are named in the notes: the streaming-war section (its Oppenheimer vindication now duplicates the new Oppenheimer beat) and the back half of the childhood section.
+
+I rejected one fresh-eyes suggestion: cutting the chair-ban debunk. I tightened it ~25 words instead — the myth-and-correction is the cleanest proof of "he declines to perform himself, so the vacuum fills with legend."
+
+Sources: [Variety](https://variety.com/2026/film/box-office/the-odyssey-christopher-nolan-biggest-movie-imax-record-1236830867/), [Deadline](https://deadline.com/2026/08/box-office-the-odyssey-christopher-nolan-record-1237029568/), [LRB](https://www.lrb.co.uk/the-paper/v48/n14/emily-wilson/an-uncomplicated-man), [TheWrap](https://www.thewrap.com/creative-content/movies/the-odyssey-emily-wilson-review-christopher-nolan-movie/)

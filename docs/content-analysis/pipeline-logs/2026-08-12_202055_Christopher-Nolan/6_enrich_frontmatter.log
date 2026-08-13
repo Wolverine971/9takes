@@ -1,0 +1,30 @@
+No changes needed — this draft was already fully enriched, and everything checks out against authoritative sources.
+
+**Frontmatter enrichment complete: Christopher-Nolan — no changes (fully enriched)**
+
+Fields already present (preserved, untouched):
+`wikipedia`, `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+Verification I ran rather than assuming:
+
+| Check | Result |
+|---|---|
+| `wikidata_qid: Q25191` | ✅ "Christopher Nolan — British-American filmmaker (born 1970)"; `enwiki` sitelink is `Christopher Nolan`, matching the `wikipedia` URL exactly |
+| `imdb_id: nm0634240` | ✅ Confirmed via Wikidata P345 (the command's required cross-check) |
+| `birth_date: 1970-07-30` | ✅ Confirmed via Wikidata P569 |
+| Britannica URL in `same_as` | ✅ Slug confirmed via Wikidata P1417 (`biography/Christopher-Nolan-British-director`). Live fetch returns 403 — Britannica bot-blocking, not a dead page |
+| Other `same_as` / `citations` | ✅ Wikipedia + IMDb URLs resolve 200/202 |
+| Templated-backfill pattern | ✅ Absent — no "with supporting context from", no occupation-copied `knows_about` (values are real craft areas: IMAX filmmaking, 70mm, practical effects, theatrical exhibition) |
+
+FAQs already present (5) — all five anchors resolve to real body headings:
+1. What is Christopher Nolan's personality type? → `#what-is-christopher-nolans-personality-type` (L191)
+2. Why doesn't Christopher Nolan have a phone? → `#why-christopher-nolan-doesnt-own-a-smartphone` (L232)
+3. Why can't you hear the dialogue in his movies? → `#why-you-cant-hear-the-dialogue-in-christopher-nolans-movies` (L313)
+4. Why is Christopher Nolan so secretive? → `#read-it-while-im-still-here-how-nolan-guards-a-story` (L242)
+5. Why did Christopher Nolan make The Odyssey? → `#why-christopher-nolan-made-the-odyssey` (L365)
+
+Per the idempotency rule, I left the existing FAQ block exactly as-is — the answers are body-derived with real sourced quotes, not machine-assembled.
+
+Issues: none. Sourcing is healthy (7 citations), and `lastmod` was not touched.
+
+One note for your queue, outside this command's scope: the draft is still `published: false` with `ready_for_production: false`, graded 8.8 / B+. Frontmatter is no longer the blocker — it's ready for the publish gate whenever you want to run it.

@@ -1,0 +1,15 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/unfamiliar.md`
+
+SHA verified against `context.json` and `--draft-sha` before reading. First read was unaided per the unfamiliar-reader exception; packet and one orientation search came after. `subject.md`, `fan.md`, and `critic.md` were present in the directory and were not opened.
+
+**Verdict:** trust intact · value high · delight clear_hit · **recommendation: revise**
+
+**Blockers: 0.** Concerns: 14. Nothing reached a substantiated trust break — the closest candidate (an invented interior monologue) is one stylised paragraph in a piece that otherwise attributes nearly every sentence to a named outlet and year, so I logged it as the top concern rather than manufacturing a blocker.
+
+**Strongest hit** — the Zimmer cold open. It's the rare intro that works with zero prior knowledge: a secret one-page letter with no title or genre, one day of work, and back comes the emotional core of a film that didn't exist yet. It states the thesis as an anecdote instead of a claim, and I understood it before I knew who either man was. Runner-up is the Type 5 definition ("Attention, energy, information, and surprise are finite, and all four should be budgeted like money") — jargon-free and usable on people I know before the paragraph ended.
+
+**Highest-priority concern (UNFAMILIAR-C1)** — the draft never says who Christopher Nolan is. First identification of any kind is paragraph 4 ("the most guarded major director alive"); "Batman" appears twice in 5,577 words, and *Inception* and *The Dark Knight* don't appear until a timeline more than halfway down. The intro's central move — "For twenty years the standard line on Nolan has been the opposite of that letter" — presumes I hold a standard line I don't have. Repair is one appositive at first mention.
+
+Three more are the same shape and equally cheap: **"the Stargate sequence"** is undefined and carries the article's single best psychological turn (my one search confirmed it's cinephile shorthand, not general vocabulary, and it collides with the unrelated *Stargate* franchise); **"Oppenheimer"** first lands as a bare proper noun ~1,100 words in, which leaves the Hiroshima passage — the piece's most serious ethical beat — unreadable on first pass; and the **spinning-top** paragraph doesn't parse without knowing *Inception*'s ending.
+
+Two findings sit outside my standpoint and are routed to follow-on questions rather than claimed: the packet's own disputes section flags "the one reader with standing to convict him" as a **disputed claim** (Mendelsohn's credentials are comparable and his verdict also negative), and it notes the $1.1B figure is "a floor, not a total" with China opening 2026-08-14 — a durability call for the `future` reviewer.

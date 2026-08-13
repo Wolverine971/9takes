@@ -1,0 +1,16 @@
+All eleven required H2s present, counts match the document (3 blockers / 7 concerns), and the frozen draft still hashes to the supplied SHA — unmodified.
+
+**Saved:** `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/subject.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. 3 blockers, 7 concerns.
+
+**Strongest hit:** the chair-ban correction (line 236). The draft raises Hathaway's viral "doesn't allow chairs" claim *only to dismantle it* with the spokesperson's correction, then converts the debunk into an insight — "It spread because Nolan declines to perform himself in public, and the vacuum fills with legend." Most profiles run that anecdote as color. This one reports it.
+
+**Highest-priority concern (SUBJECT-C1):** the article's central thesis — feeling first, machine second, with a boarding-school origin — is a reading Nolan has publicly resisted about himself (craftsman over "inner obsession"; per coverage of *The Nolan Variations*, he dislikes the idea his upbringing shaped his films). The draft never acknowledges he has said this. Overruling a subject's self-account is fair; doing it silently is not. I filed it as a concern rather than a blocker because my sourcing is secondary — LARB returned 403 and the quote traces only to an X archive — so `SUBJECT-Q1` specifies pinning it in *The Nolan Variations*, which also closes the packet's open CLM-13 check.
+
+The three blockers are all reach-exceeding-record, all cheap to fix:
+- **R1** — invented child's-interior line implying his father was a constraint ("not even his father, and for once that is the good news"). Nothing supports paternal antagonism; the record runs the other way. Delete one sentence.
+- **R2** — the "pockets of time" quote credited to 60 Minutes; it's The Telegraph. The draft's own FAQ gets it right, so body and frontmatter contradict each other.
+- **R3** — the typing linchpin re-staged. Nolan didn't volunteer "I am the most important person on the set"; he reframed the correspondent's own phrase back at them. The real exchange is *better* evidence for the draft's reading than the invented question.
+
+One thing worth flagging beyond my lane: I tested "he has never sounded uncertain about it" on the Hiroshima omission and it **holds** — no finding raised. But the packet's Mendelsohn and LARB material (CLM-10/CLM-11) suggests the draft presents a cohort verdict as a lone dissenter. That's the critic reviewer's call, and I deliberately left it undeveloped.

@@ -34,7 +34,9 @@ const {
 	shareQuestionInviteMock: vi.fn(),
 	shouldUseNativeQuestionShareMock: vi.fn(),
 	recordQuestionInviteCreatedMock: vi.fn(),
-	slideMock: vi.fn(() => ({ duration: 0 })),
+	slideMock: vi.fn((_node: Element, _options?: { duration?: number }) => ({
+		duration: 0
+	})),
 	fetchMock: vi.fn()
 }));
 

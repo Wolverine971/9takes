@@ -1,0 +1,26 @@
+Packet written to `docs/content-analysis/entity-gaps/Christopher-Nolan.md`.
+
+## Christopher Nolan — 47/100 — WATCHLIST → but ship the draft
+
+**This is not an Emerging Entity Gap, and it never will be.** The exact-name SERP is the strongest possible competitive set: four Wikipedia pages (main, filmography, cinematic style, disambiguation), Britannica, IMDb bio, Biography.com, EBSCO, Letterboxd. `Christopher Nolan biography` alone returns five dedicated substantial biographies. The −20 Wikipedia penalty applies unambiguously and drops a 67 subtotal to 47.
+
+**But two things cut the other way, and they're why the recommendation is still CREATE:**
+
+1. **The catalyst is enormous and still climbing.** *The Odyssey* (July 17) crossed **$1.008B in three weeks** and is days from becoming Nolan's highest-grossing film ever — 20/20 on demand trajectory.
+2. **A finished draft is already sitting unpublished.** 8,061 words, graded 8.8 (B+), `published = false` since 2026-07-22. The creation effort the ≥60 gate exists to ration is already spent; the marginal decision is publish-or-shelve.
+
+I flagged that override explicitly in the packet rather than inflating the score to clear the gate.
+
+**The genuinely weak slice** isn't biography — it's the personality-typing SERP, which is Quora, user-vote databases, and a hacked nail-salon domain. That's where the page can win, and the draft's **5w6 defense argues directly against the external 5w4/INTJ consensus** — a falsifiable, ownable thesis. Protect it; don't soften it.
+
+### One thing to fix before publish
+
+The draft is pinned to opening weekend: *"$264.1 million worldwide, the biggest debut of his career"* (line 357, and the Odyssey FAQ). That number is four weeks stale and understates reality by ~4x. The page's whole advantage is catalyst timing — shipping the one fact every arriving reader already knows to be wrong undercuts it. The `$6 billion` career total (line 301) is likewise now low.
+
+Also unresolved from the draft's own working notes: YouTube auto-caption quotes need video spot-checks, the *Nolan Variations* boarding-school quotes need page-level attribution, and the THR quote date is unpinned.
+
+### What the 47 should change
+
+Expectations, not the ship decision. Don't brief this as a biography play, don't measure it on exact-name position (it will sit at 30+ behind Britannica forever), and don't spend a second round broadening it toward general-interest coverage. I explicitly recommend **against** adding age/wife/net-worth FAQs — that's the SEO-fact-farm conversion, and it loses to Wikipedia anyway. Judge it on the personality cluster alone.
+
+Sources: [Variety — $1B](https://variety.com/2026/film/box-office/the-odyssey-surpasses-1-billion-christopher-nolan-1236830121/) · [Deadline — career record](https://deadline.com/2026/08/box-office-the-odyssey-billion-christopher-nolan-record-1237028708/) · [Britannica](https://www.britannica.com/biography/Christopher-Nolan-British-director) · [Wikipedia](https://en.wikipedia.org/wiki/Christopher_Nolan)

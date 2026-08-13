@@ -63,6 +63,24 @@ describe('captureCommentCreated', () => {
 		expect(captureMock).not.toHaveBeenCalled();
 	});
 
+	it('attributes homepage comment events to an active feature run', async () => {
+		await captureCommentCreated({
+			commentId: 124,
+			questionId: 812,
+			questionUrl: 'a-featured-question',
+			parentType: 'question',
+			commentKind: 'answer',
+			surface: 'homepage',
+			featureRunId: 44,
+			isAnonymous: true
+		});
+
+		expect(captureMock).toHaveBeenCalledWith(
+			'comment_created',
+			expect.objectContaining({ feature_run_id: 44 })
+		);
+	});
+
 	it('joins an invited first answer to the recipient funnel without content or identity data', async () => {
 		const inviteId = '11111111-1111-4111-8111-111111111111';
 

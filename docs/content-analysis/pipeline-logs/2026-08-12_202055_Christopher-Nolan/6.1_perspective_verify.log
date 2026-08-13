@@ -1,0 +1,13 @@
+**Output:** `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/verification-initial.md`
+
+- **verification_status:** `pass`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+
+All 10 P0 repairs resolve, all 8 accepted P1 items are complete, and all 12 protected hits survive — including the five the synthesis flagged as regression risks under the ~1,000-word cut.
+
+Two things I didn't take on trust. The editor's RQ-01 and RQ-02 repairs imported material that exists nowhere in the packet or the six reviews, so I researched both independently. Both check out: the Zhong Shu podcast quote is real (Beijing *Odyssey* promo, reported 2026-08-03 by Variety/Deadline/TheWrap), rendered accurately, and correctly scoped to amateur criticism — so replacing "he has never once answered it in words" was a genuine factual correction, not an invention. The Hollywood Reporter "efficiency buys creative freedom" quote pins to a syndication dated 2026-07-21, so the Type 1 discriminator is now sourced. I also re-verified the 60 Minutes transcript at 8:48 and `corpus-stats.json` (film-tv 153, Type 5 = 4) myself rather than accepting the resolution log.
+
+One item is open but outside this gate: the body is **4,884 words against the 4,500 publish ceiling** — `blog-lint`'s only failure. The editor escalated the last 384 words to you rather than closing it by deleting evidence the P0s had just required, which was the right call. If you take that cut, re-run this verification — six of the twelve protected hits sit in or beside the candidate paragraphs.
+
+Sources: [Variety](https://variety.com/2026/film/news/christopher-nolan-flaw-film-criticism-the-odyssey-1236826067/), [Deadline](https://deadline.com/2026/08/christopher-nolan-real-problem-amateur-film-criticism-1237015553/), [TheWrap](https://www.thewrap.com/creative-content/movies/christopher-nolan-explains-problem-film-criticism-today/), [Zhong Shu transcript](https://singjupost.com/transcript-christopher-nolan-interview-with-podcaster-zhong-shu/), [THR syndication](https://www.yahoo.com/entertainment/movies/articles/christopher-nolan-reveals-secret-finishing-061027150.html)

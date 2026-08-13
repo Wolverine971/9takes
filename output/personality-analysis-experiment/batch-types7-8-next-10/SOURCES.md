@@ -1,3 +1,5 @@
+<!-- output/personality-analysis-experiment/batch-types7-8-next-10/SOURCES.md -->
+
 # Type 7–8 portrait sources
 
 - Shakira — high-resolution studio-style portrait from Wallpapercat: https://wallpapercat.com/shakira-wallpapers
@@ -28,3 +30,13 @@ Person-specific instructions:
 - Jenna Marbles — preserved the reference-era facial identity, blonde hair, makeup, and smile shape; navy blazer and high-neck coral blouse; removed the microphone, award, podium, and hands.
 
 Shakira was processed directly from the high-resolution source with Apple Vision segmentation. The fixed purple overlay was extracted from `face-line-template.png` at x=324, y=428, width=433, height=125 and composited unchanged on every final portrait. Each person was rotated and scaled to match the overlay, with the detected eye midpoint placed at x=540, y=490 and an inter-eye target of 160 pixels.
+
+## Shakira and Travis Kelce replacements
+
+Replaced after visual review on 2026-08-12 using built-in Imagegen edit mode. The fixed overlay and alignment targets were not changed.
+
+- Shakira — replaced the original portrait with a current identity reference from her February 2025 Grammy Awards appearance: https://people.com/2025-grammys-shakira-rocks-sexy-dress-as-she-hits-red-carpet-on-her-birthday-8781231
+  - Prompt: preserve her exact current 2025 facial identity, natural facial structure and skin texture, center-parted honey-blonde curls, and Grammy-era makeup; reconstruct a centered, level-eyed, full-head-and-shoulders studio portrait in a black blazer and high-neck burnt-orange blouse; remove the raised hand and event setting; use a perfectly flat `#00FF00` background; no smoothing, generic beautification, props, text, or graphics.
+- Travis Kelce — replaced the older-looking portrait using Ryan McGinley's August 2025 GQ photographs as current identity and grooming references: https://www.gq.com/story/travis-kelce-september-cover-2025-interview-super-bowl-taylor-swift
+  - Prompt: preserve his exact 2025 identity, age, medium-length loose swept-over brown hair, fuller beard, blue-green eyes, facial proportions, and natural skin texture; explicitly avoid the older short slicked-back hairstyle and earrings; reconstruct a centered full-head-and-shoulders portrait in a contemporary charcoal-black suit and dark open-collar knit polo on flat `#00FF00`; no hands, animals, fur, hat, sunglasses, chains, magazine text, or scenery.
+  - A second tightly scoped edit straightened only the generated head and neck posture while preserving the new identity, hair, beard, wardrobe, crop, and lighting.

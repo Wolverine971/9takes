@@ -1,0 +1,14 @@
+**Synthesis written:** `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/synthesis.md`
+
+- **P0 items:** 10
+- **P1 accepted:** 8
+- **Research required:** 3
+- **Most important protected hit:** PROTECT-01 — the *Tenet* paragraph (line 339) through "He has never conceded the point." Named by four of six reviewers; it states a failure in money, states the moral criticism unsoftened, and refuses Nolan a rebuttal. It is the piece's proof it isn't working for its subject — and it sits inside the section nominated for the length cut, so it needs explicit protection.
+
+Three notes on the adjudication:
+
+I verified the two most consequential blockers myself rather than accepting the packet. The local 60 Minutes transcript at 8:48 confirms the correspondent said "I have the sense that you don't think of yourself as the most important person on the set" — so the draft's "Asked… how he runs a set" misstages the sentence it calls the typing linchpin. The same transcript returns zero hits for phone/pockets/train/airport/restaurant, confirming the "pockets of time" misattribution. I also confirmed `corpus-stats.json` (film-tv 153, not 146) and the Type 5 pillar at line 330 ("does not mean becoming aggressive or domineering"), which the Rabbit Hole's integration argument contradicts one click away.
+
+The critic's central finding held under my own re-check: eight contested calls, all eight breaking toward Nolan or the thesis, with no counterexample. That lean — not any single error — is what organizes the P0 list.
+
+The real constraint is arithmetic. I measured the reader-visible body at ~5,492 words against a 4,500 ceiling; the P0s net +80 and the P1s +130. **The repairs don't fund themselves** — the editor needs a ~1,100-word developmental cut, which is why the Protected hits section carries five `[TOUCHED]` regression checks and why I rejected four additive requests (including the critic's crew-asymmetry sentence and the unfamiliar reader's ask to surface counterarguments in the main body).

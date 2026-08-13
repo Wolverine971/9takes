@@ -1,20 +1,26 @@
+// src/routes/api/track/click/[tracking_id]/[encoded_url]/click.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { reactivationMocks, loggerMocks } = vi.hoisted(() => ({
+const { reactivationMocks, loggerMocks, captureReplyNotificationEventMock } = vi.hoisted(() => ({
 	reactivationMocks: {
 		exitReactivationSequenceForTrackedClick: vi.fn().mockResolvedValue(1)
 	},
 	loggerMocks: {
 		warn: vi.fn()
-	}
+	},
+	captureReplyNotificationEventMock: vi.fn().mockResolvedValue(true)
 }));
 
 vi.mock('$lib/server/reactivationRepermission', () => reactivationMocks);
 vi.mock('$lib/utils/logger', () => ({ logger: loggerMocks }));
+vi.mock('$lib/server/posthogCapture', () => ({
+	captureReplyNotificationEvent: captureReplyNotificationEventMock
+}));
 
 import { GET } from './+server';
 
 const TRACKING_ID = '550e8400-e29b-41d4-a716-446655440000';
+const RETURN_TOKEN = 'c2613ed2-aaaa-4bbb-8ccc-123456789abc';
 const HUMAN_USER_AGENT =
 	'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/150.0.0.0 Safari/537.36';
 
@@ -80,6 +86,54 @@ describe('GET /api/track/click/[tracking_id]/[encoded_url]', () => {
 		expect(reactivationMocks.exitReactivationSequenceForTrackedClick).toHaveBeenCalledWith(
 			TRACKING_ID
 		);
+	});
+
+	it('captures a privacy-safe reply-notification click when the tracking row matches', async () => {
+		const rpc = vi.fn(async (name: string) => {
+			if (name === 'track_email_event') return { data: true, error: null };
+			if (name === 'get_reply_notification_analytics_context') {
+				return {
+					data: {
+						outbox_id: 91,
+						subscription_id: 22,
+						question_id: 42,
+						comment_id: 100,
+						reply_comment_id: 101
+					},
+					error: null
+				};
+			}
+			throw new Error(`Unexpected RPC ${name}`);
+		});
+		const { event, waitUntil } = buildEvent({
+			rpc,
+			targetUrl: `https://9takes.com/api/reply-notifications/return/${RETURN_TOKEN}`
+		});
+
+		await GET(event as never);
+		await waitUntil.mock.calls[0][0];
+
+		expect(rpc).toHaveBeenCalledWith(
+			'track_email_event',
+			expect.objectContaining({
+				p_link_url: 'https://9takes.com/api/reply-notifications/return/[private]'
+			})
+		);
+		expect(captureReplyNotificationEventMock).toHaveBeenCalledWith(
+			'reply_notification_clicked',
+			{
+				outboxId: 91,
+				subscriptionId: 22,
+				questionId: 42,
+				commentId: 100,
+				replyCommentId: 101
+			},
+			{ insertIdSuffix: 'first-click' }
+		);
+		expect(JSON.stringify(captureReplyNotificationEventMock.mock.calls)).not.toMatch(
+			/email|token|fingerprint/i
+		);
+		expect(JSON.stringify(rpc.mock.calls)).not.toContain(RETURN_TOKEN);
 	});
 
 	it('redirects an obvious scanner without recording engagement', async () => {

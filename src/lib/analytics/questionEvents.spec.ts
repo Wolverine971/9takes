@@ -141,6 +141,22 @@ describe('question analytics', () => {
 		});
 	});
 
+	it('attributes homepage impressions to a feature run when one is active', async () => {
+		await captureQuestionImpression({
+			questionId: 812,
+			questionUrl: 'a-featured-question',
+			surface: 'homepage',
+			featureRunId: 44
+		});
+
+		expect(captureMock).toHaveBeenCalledWith('question_impression', {
+			question_id: 812,
+			question_url: 'a-featured-question',
+			surface: 'homepage',
+			feature_run_id: 44
+		});
+	});
+
 	it('requires half visibility for the full qualification duration', async () => {
 		const element = document.createElement('article');
 		const cleanup = observeQualifiedQuestionImpression(

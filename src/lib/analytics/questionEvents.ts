@@ -19,6 +19,7 @@ export type CaptureQuestionImpressionInput = {
 	sourcePath?: string;
 	position?: number;
 	campaign?: string;
+	featureRunId?: number | null;
 	questionCreatedAt?: string;
 	responsesVisibleBeforeImpression?: number;
 	isAnsweredByViewer?: boolean;
@@ -122,6 +123,9 @@ export function captureQuestionImpression(input: CaptureQuestionImpressionInput)
 		properties.position = Math.max(0, Math.trunc(input.position));
 	}
 	if (input.campaign) properties.campaign = input.campaign;
+	if (typeof input.featureRunId === 'number' && Number.isSafeInteger(input.featureRunId)) {
+		properties.feature_run_id = input.featureRunId;
+	}
 	if (input.questionCreatedAt) properties.question_created_at = input.questionCreatedAt;
 
 	const responseCount = normalizeCount(input.responsesVisibleBeforeImpression);

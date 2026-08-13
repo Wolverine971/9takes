@@ -1,0 +1,32 @@
+## Revised: `src/blog/people/drafts/Christopher-Nolan.md`
+
+**Triggered by:** grade B+ 8.6 (Evidence 8, Writing 8) + a `blog-lint` FAIL on body length. Perspective verification was already `pass` with 0 open P0s and 0 protected-hit regressions, so there was nothing to reopen there — the perspective work was the length gate the verifier left outside its own scope, plus a mandatory protected-hit re-check.
+
+### Fixes applied
+
+**Evidence (the grader's two NEEDS WORK items, both closed)**
+- The Zimmer cold-open reply exchange — the thesis-bearing anecdote sitting in the one slot the source standard disqualifies — now carries `Zimmer told The Hollywood Reporter`.
+- The bigger one: I found an **official CBS News 60 Minutes transcript**, which retires the auto-caption debt entirely. All four load-bearing quotes verified verbatim *with speaker attribution*: the audience/"most important person" exchange (correspondent is Scott Pelley, now named in the body), Jonathan Nolan's "it was like a door," Emma Thomas's "Every no that he got," and the one-word "Long."
+- Checking the Happy Sad Confused transcripts turned up **two real misquotes**: "You can't be reactive in your filmmaking" was a false-start rendering (he completed it as "you don't want to be"), and "I hate to be on anybody's set" was missing its conditional. Both corrected. The 2020 attribution on the Horowitz quotes is confirmed — they're in the flashback segment at 19:26 of the 2026-07-16 episode.
+- Haileybury quote independently corroborated as a *Nolan Variations* quote; page-level cite still open.
+
+**Length (lint FAIL): 4,884 → 4,487 words.** Cut the streaming-war vindication paragraph the grader named (the section now ends on the *Tenet* cost paragraph, which is stronger), the daily-uniform and Apollo-uncle beats, and the set-visit quote; compressed *Inception* to its spinning-top core and *The Prestige* to Caine's rule plus the stagecraft reframe, plus ~12 clause trims.
+
+**Ledgers restamped.** The source-audit claim ("8 inline, 0 vague, 0 untagged") was wrong; corrected in place with a do-not-restate warning. The similarity stamp was stale and self-contradictory — re-run it reads clear, and I cleared the 0.060 Yang-Zhilin trip at source by moving the `/corpus-stats` link out of the reused "(9takes corpus data)" phrasing into the key-stat label.
+
+**Metronome:** four aphoristic closers down to two; the survivors are both protected hits and sit far apart.
+
+### Rejected
+- Verifier advisory 4 (move the *Oppenheimer* gloss): means rewriting inside PROTECT-04's range for a wording nitpick during a length cut. Bad trade.
+- Deleting the Kip Thorne and knighthood/"Long" beats (both on the editor's candidate list) — Thorne is the only non-secrecy Type 5 evidence and a testimony-ledger quote; "Long" is now transcript-verified. Found the words elsewhere.
+- Trimming the Pajiba/Theron counter-reading: it's what resolves P0-04.
+
+### Two things worth your attention
+1. **The grader's arithmetic was optimistic.** It said cutting the vindication clause "gets most of the way there" — that clause is 32 words of a 394-word gap. The other 365 came from beats and compressions, so the next grade pass shouldn't read those as unrequested scope.
+2. **Headroom is 13 words.** Anything added later re-fails the lint; the next pass cuts first or argues `BLOG_LINT_WORD_CEILING`.
+
+**Lint: 0 fail, 1 warn** (the structural thin-headroom warn every draft in the 4,050–4,500 band gets). All 12 protected hits survive — three were touched and are disclosed individually in the artifact. `lastmod` and `content_quality` untouched; the pipeline will clear the consumed review sidecar and re-grade.
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/revision-resolution.md`. **`/blog_perspective_verify_people` must rerun** — the length cut is exactly the change the prior verification said would require one.
+
+Sources: [CBS News 60 Minutes transcript](https://www.cbsnews.com/news/christopher-nolan-making-most-extreme-version-of-story-possible-odyssey-60-minutes-transcript/), [CBS News segment writeup](https://www.cbsnews.com/news/director-christopher-nolan-odyssey-60-minutes/), [The Nolan Variations (Publishers Weekly)](https://www.publishersweekly.com/9780525655329), [LARB on Nolan's Haileybury years](https://lareviewofbooks.org/article/the-imperialist-anxieties-of-christopher-nolan/)

@@ -67,6 +67,10 @@
 			"schedule": "*/15 * * * *"
 		},
 		{
+			"path": "/api/cron/process-reply-notifications",
+			"schedule": "*/15 * * * *"
+		},
+		{
 			"path": "/api/cron/tag-chorus-questions",
 			"schedule": "*/15 * * * *"
 		}

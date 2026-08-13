@@ -15,6 +15,7 @@ export type CommentEventContext = {
 	surface: CommentCreatedSurface;
 	sourcePath?: string;
 	campaign?: string;
+	featureRunId?: number | null;
 	isAnonymous: boolean;
 };
 
@@ -106,6 +107,9 @@ function stableCommentContext(input: CommentEventContext): Record<string, unknow
 	if (input.questionUrl) properties.question_url = input.questionUrl;
 	if (input.sourcePath) properties.source_path = input.sourcePath;
 	if (input.campaign) properties.campaign = input.campaign;
+	if (typeof input.featureRunId === 'number' && Number.isSafeInteger(input.featureRunId)) {
+		properties.feature_run_id = input.featureRunId;
+	}
 
 	return properties;
 }

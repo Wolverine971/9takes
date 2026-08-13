@@ -22,6 +22,16 @@ import {
 } from '$lib/validation/questionSchemas';
 import { uploadQuestionImage } from '$lib/server/questionImages';
 import { buildQuestionCategorySlug } from '$lib/utils/questionCategorySlug';
+import {
+	REPLY_RETURN_COOKIE,
+	REPLY_RETURN_COOKIE_PATH,
+	verifyReplyNotificationReturn
+} from '$lib/server/replyNotificationReturn';
+import type {
+	Comment as PublicComment,
+	ReplyNotificationReturnContext,
+	ReplyNotificationThread
+} from '$lib/types/questions';
 import { z } from 'zod';
 
 import axios from 'axios';
@@ -119,10 +129,15 @@ export const load: PageServerLoad = async (event) => {
 		throw error(400, { message: 'No question found' });
 	}
 
-	const [userHasAnswered, questionTags] = await Promise.all([
+	const [viewerHasAnswered, questionTags] = await Promise.all([
 		checkUserAnswered(cookie, question.id, session?.user?.id),
 		getQuestionTags(question.id)
 	]);
+	const replyNotificationReturn = consumeReplyNotificationReturn(event, question.id);
+	const replyNotificationThread = replyNotificationReturn
+		? await getReplyNotificationThread(replyNotificationReturn, isDemoTime)
+		: null;
+	const userHasAnswered = Boolean(viewerHasAnswered || replyNotificationReturn);
 	const canEditTags =
 		!isDemoTime && Boolean(session?.user?.id && question.author_id === session?.user?.id);
 	const categoryEditor = canEditTags ? await getCategoryEditorData() : null;
@@ -142,20 +157,24 @@ export const load: PageServerLoad = async (event) => {
 
 		const commentCount = await getCommentCount(question.id, isDemoTime);
 		const aiComments = isDemoTime ? null : await getAIComments(question.id);
-		return createBaseResponse(
-			question,
-			[],
-			commentCount ?? 0,
-			0,
-			questionTags,
-			session,
-			userHasAnswered,
-			event,
-			aiComments,
-			undefined,
-			canEditTags,
-			categoryEditor
-		);
+		return {
+			...createBaseResponse(
+				question,
+				[],
+				commentCount ?? 0,
+				0,
+				questionTags,
+				session,
+				userHasAnswered,
+				event,
+				aiComments,
+				undefined,
+				canEditTags,
+				categoryEditor
+			),
+			replyNotificationReturn,
+			replyNotificationThread
+		};
 	}
 
 	const [comments, removedComments, links, aiComments, flagReasons] = await Promise.all([
@@ -166,25 +185,86 @@ export const load: PageServerLoad = async (event) => {
 		getFlagReasons()
 	]);
 
-	return createFullResponse(
-		question,
-		comments.data ?? [],
-		comments.count ?? 0,
-		removedComments.data ?? [],
-		removedComments.count ?? 0,
-		links.data,
-		links.count ?? 0,
-		questionTags,
-		session,
-		userHasAnswered,
-		event,
-		aiComments,
-		isDemoTime,
-		flagReasons?.data || [],
-		canEditTags,
-		categoryEditor
-	);
+	return {
+		...createFullResponse(
+			question,
+			comments.data ?? [],
+			comments.count ?? 0,
+			removedComments.data ?? [],
+			removedComments.count ?? 0,
+			links.data,
+			links.count ?? 0,
+			questionTags,
+			session,
+			userHasAnswered,
+			event,
+			aiComments,
+			isDemoTime,
+			flagReasons?.data || [],
+			canEditTags,
+			categoryEditor
+		),
+		replyNotificationReturn,
+		replyNotificationThread
+	};
 };
+
+function consumeReplyNotificationReturn(
+	event: RequestEvent,
+	questionId: number
+): ReplyNotificationReturnContext | null {
+	const signed = event.cookies.get(REPLY_RETURN_COOKIE);
+	if (!signed) return null;
+
+	event.cookies.delete(REPLY_RETURN_COOKIE, { path: REPLY_RETURN_COOKIE_PATH });
+	try {
+		const context = verifyReplyNotificationReturn(signed);
+		return context?.questionId === questionId ? context : null;
+	} catch (returnError) {
+		console.warn('Could not verify reply notification return context', returnError);
+		return null;
+	}
+}
+
+async function getReplyNotificationThread(
+	context: ReplyNotificationReturnContext,
+	isDemoTime: boolean
+): Promise<ReplyNotificationThread | null> {
+	if (isDemoTime) return null;
+	const { data, error: threadError } = await supabase
+		.from('comments')
+		.select(
+			`${PUBLIC_COMMENT_FIELDS}, removed, profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
+		)
+		.in('id', [context.commentId, context.replyCommentId]);
+
+	if (threadError) {
+		console.warn('Could not load reply notification thread');
+		return null;
+	}
+
+	const rows = (data ?? []) as PublicComment[];
+	const parent =
+		rows.find(
+			(comment) =>
+				comment.id === context.commentId &&
+				comment.parent_type === 'question' &&
+				comment.parent_id === context.questionId &&
+				comment.removed !== true
+		) ?? null;
+	const reply =
+		context.targetStatus === 'available'
+			? (rows.find(
+					(comment) =>
+						comment.id === context.replyCommentId &&
+						comment.parent_type === 'comment' &&
+						comment.parent_id === context.commentId &&
+						comment.removed !== true
+				) ?? null)
+			: null;
+
+	return { parent, reply };
+}
 
 async function createQuestionComment(event: RequestEvent) {
 	const { request, getClientAddress, locals } = event;

@@ -5,7 +5,7 @@
 **For:** the agent making the anonymous reply-notification promise work end to end.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** In progress; durable queue implemented, delivery worker pending
+**Status:** Production migration applied; app and delivery verification pending
 **Related:** `supabase/migrations/20260725_notifications.sql`, [`QC-03`](./QC-03-gentle-reply-opt-in.md)
 
 ## 0. What and why
@@ -82,11 +82,11 @@ Include stable IDs and bounded status properties only.
 - [x] A removed reply creates no outbox work; later moderation cancels pending work.
 - [x] A self-reply creates no outbox work where identity can be reconciled.
 - [x] Suppressed email creates no outbox work.
-- [ ] Unsubscribe prevents a later qualifying reply send.
-- [ ] The final HTML and plain-text links are safe and attributable.
-- [ ] No comment text or PII appears in PostHog.
-- [ ] Focused email, migration, and integration tests pass.
-- [ ] `pnpm check` passes.
+- [x] Unsubscribe prevents a later qualifying reply send.
+- [x] The final HTML and plain-text links are safe and attributable.
+- [x] No comment text or PII appears in PostHog.
+- [x] Focused email, migration, and integration tests pass.
+- [ ] `pnpm check` passes. QC-04 introduces no diagnostics; the repository remains blocked by the pre-existing `scripts/lib/perspectiveReview.js:48` error.
 
 ## Implementation update: 2026-08-12
 
@@ -95,11 +95,23 @@ Include stable IDs and bounded status properties only.
 - Made queueing best-effort so an email-system failure cannot roll back a valid reply.
 - Added moderation cleanup that cancels pending or failed work if the source reply is removed.
 - Disposable PostgreSQL verification produced exactly one pending row for the qualifying direct reply. Top-level, removed, suppressed, and reconciled self-reply cases produced none; removing the qualifying reply changed the pending row to `cancelled` with bounded category `removed`.
-- The next slice is the worker: claim rows safely, recheck suppression/removal immediately before send, create attributable HTML and plain text, update retry state, and add conversation-level one-click stop.
+- Added a cron worker that claims rows with `SKIP LOCKED`, rechecks consent, removal, and global suppression immediately before send, and uses the existing Gmail sender and tracking infrastructure.
+- Added narrow HTML and plain-text content with no author name or comment excerpt, a tracked exact-reply link, and a conversation-only stop URL. GET renders a calm confirmation page; POST performs the stop and supports one-click email-client semantics.
+- Added bounded safe retries for pre-provider and rate-limit failures. Provider-unavailable and stale in-flight Gmail attempts are marked `ambiguous` for review instead of automatically resent because Gmail supplies no idempotency key.
+- Added server-side `reply_notification_queued`, `sent`, `failed`, `clicked`, and `unsubscribed` capture with stable IDs, bounded categories, `$process_person_profile: false`, and no email address, fingerprint, comment text, or token.
+- Created and attached each shared `email_sends` tracking row atomically. Because the legacy table permits anonymous tracking lookups, stored HTML and plain text redact both private return and management URLs; only the actual provider payload contains them.
+- Disposable PostgreSQL verification covered queue dedupe, atomic tracking-row reuse, final pre-send gating, successful completion, conversation unsubscribe, prevention of later queueing, stale-processing quarantine, and anon/service-role boundaries.
+- Six focused delivery suites pass (23 tests), the opt-in component suite passes (6 tests), and the complete repository suite passes (140 files, 663 tests).
 
 ## Provider note
 
 The repository's current sender uses Gmail, not Resend. The queue provides durable application-level dedupe, but provider-level idempotency must be solved in the worker before automatic retries are enabled. Do not silently switch providers; either use a Gmail draft/send strategy with explicit ambiguous-delivery handling or make a deliberate Resend migration decision.
+
+## Production migration update: 2026-08-12
+
+- Applied `20260813014408_reply_notification_delivery_and_return` transactionally and recorded it in `supabase_migrations.schema_migrations` after the Supabase CLI could not use this checkout's unlinked project metadata and malformed `.env.local`.
+- Verified the production outbox upgrade, claim/delivery/return RPCs, anon/service-role privilege boundaries, and an empty outbox. No provider send was attempted.
+- The legacy click tracker now stores a redacted placeholder for private return links while preserving the real redirect target. Focused click tests confirm the return token is never sent to the tracking RPC.
 
 ## Risks and gotchas
 
@@ -110,8 +122,8 @@ The repository's current sender uses Gmail, not Resend. The queue provides durab
 
 ## Definition of done
 
-- [ ] Direct replies queue and send exactly one email.
-- [ ] Suppression and conversation-level stop work before and after send.
-- [ ] Failures are retryable and observable without duplication.
-- [ ] Clicks are attributable to a notification event.
-- [ ] QC-05 can identify the exact target reply.
+- [x] Direct replies queue and send exactly one email in local integration coverage; production provider verification remains.
+- [x] Suppression and conversation-level stop work before and after send.
+- [x] Failures are retryable and observable without duplication.
+- [x] Clicks are attributable to a notification event.
+- [x] QC-05 can identify the exact target reply.

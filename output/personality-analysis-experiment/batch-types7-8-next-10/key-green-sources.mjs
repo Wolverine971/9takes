@@ -1,7 +1,9 @@
+// output/personality-analysis-experiment/batch-types7-8-next-10/key-green-sources.mjs
 import sharp from 'sharp';
 
 const root = 'output/personality-analysis-experiment/batch-types7-8-next-10';
-const people = [
+const defaultPeople = [
+	'shakira',
 	'spencer-x',
 	'stavros-halkias',
 	'steve-irwin',
@@ -12,6 +14,8 @@ const people = [
 	'idris-elba',
 	'jenna-marbles'
 ];
+const requestedPeople = process.argv.slice(2);
+const people = requestedPeople.length ? requestedPeople : defaultPeople;
 
 for (const slug of people) {
 	const input = `${root}/${slug}/source.png`;

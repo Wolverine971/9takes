@@ -161,7 +161,7 @@ Guardrails:
 - `src/lib/email/sender.ts` and `src/lib/email/base-template.ts` already provide tracked email delivery and suppression plumbing.
 - `src/lib/email/welcome-sequence-content.ts` contains the currently proven question email.
 - `src/routes/questions/create/+page.server.ts` is the confirmed question write path.
-- `src/routes/+page.server.ts` currently hard-codes the homepage featured question.
+- `src/routes/+page.server.ts` now reads the homepage question from the QC-06 feature-run selector, with an explicit database fallback and a final application emergency fallback.
 
 The taskers extend these systems. They should not build a parallel notification or email framework.
 

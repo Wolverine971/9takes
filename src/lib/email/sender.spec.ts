@@ -1,3 +1,4 @@
+// src/lib/email/sender.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { gmailSend, gmailFactory, jwtConstructor } = vi.hoisted(() => ({
@@ -96,5 +97,55 @@ describe('sendEmail link handling', () => {
 
 		expect(rawMessage).toContain('<a href="https://9takes.com"');
 		expect(rawMessage).not.toContain('<a href="https://9takes.com?utm_source=welcome');
+	});
+
+	it('preserves a conversation-level unsubscribe URL on a tracked transactional email', async () => {
+		const unsubscribeUrl =
+			'https://9takes.com/api/reply-notifications/unsubscribe/43f280b0-1234-4abc-9def-123456789abc';
+
+		const result = await sendEmail({
+			to: 'recipient@example.com',
+			subject: 'Someone replied to your take on 9takes',
+			htmlContent: '<p><a href="https://9takes.com/questions/example">Read the reply</a></p>',
+			plainTextContent: 'Read the reply: https://9takes.com/questions/example',
+			trackingId: TRACKING_ID,
+			unsubscribeUrl,
+			includeFooter: false
+		});
+		const rawMessage = lastRawMessage();
+
+		expect(result.success).toBe(true);
+		expect(rawMessage).toContain(`List-Unsubscribe: <${unsubscribeUrl}>`);
+		expect(rawMessage).not.toContain(`/api/track/unsubscribe/${TRACKING_ID}`);
+	});
+
+	it('marks rate limiting as a safe retry but treats provider 5xx responses as ambiguous', async () => {
+		gmailSend.mockRejectedValueOnce(Object.assign(new Error('rate limited'), { code: 429 }));
+		const rateLimited = await sendEmail({
+			to: 'recipient@example.com',
+			subject: 'Reply',
+			htmlContent: '<p>Reply</p>'
+		});
+
+		expect(rateLimited).toMatchObject({
+			success: false,
+			errorCategory: 'provider_rate_limited',
+			providerAttempted: true,
+			retrySafe: true
+		});
+
+		gmailSend.mockRejectedValueOnce(Object.assign(new Error('unavailable'), { code: 503 }));
+		const unavailable = await sendEmail({
+			to: 'recipient@example.com',
+			subject: 'Reply',
+			htmlContent: '<p>Reply</p>'
+		});
+
+		expect(unavailable).toMatchObject({
+			success: false,
+			errorCategory: 'provider_unavailable',
+			providerAttempted: true,
+			retrySafe: false
+		});
 	});
 });

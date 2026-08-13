@@ -22,7 +22,7 @@ import type { EmailRecipient, EmailSend } from '$lib/types/email';
 
 const BASE_URL = 'https://9takes.com';
 
-interface SendEmailOptions {
+export interface SendEmailOptions {
 	to: string;
 	subject: string;
 	htmlContent: string;
@@ -35,10 +35,20 @@ interface SendEmailOptions {
 	includeFooter?: boolean;
 }
 
-interface SendEmailResult {
+export type EmailSendFailureCategory =
+	| 'configuration'
+	| 'provider_rate_limited'
+	| 'provider_rejected'
+	| 'provider_unavailable'
+	| 'unknown';
+
+export interface SendEmailResult {
 	success: boolean;
 	messageId?: string;
 	error?: string;
+	errorCategory?: EmailSendFailureCategory;
+	providerAttempted: boolean;
+	retrySafe: boolean;
 }
 
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -50,6 +60,38 @@ function normalizeSentBy(sentBy?: string | null): string | null {
 
 function sanitizeHeaderValue(value: string): string {
 	return value.replace(/[\r\n]+/g, ' ').trim();
+}
+
+function readProviderStatus(error: unknown): number | null {
+	if (!error || typeof error !== 'object') return null;
+	const candidate = error as {
+		code?: unknown;
+		status?: unknown;
+		response?: { status?: unknown };
+	};
+	for (const value of [candidate.response?.status, candidate.status, candidate.code]) {
+		const parsed = typeof value === 'number' ? value : Number.parseInt(String(value ?? ''), 10);
+		if (Number.isFinite(parsed)) return parsed;
+	}
+	return null;
+}
+
+function classifySendFailure(
+	error: unknown,
+	providerAttempted: boolean
+): { category: EmailSendFailureCategory; retrySafe: boolean } {
+	if (!providerAttempted) return { category: 'configuration', retrySafe: true };
+	const status = readProviderStatus(error);
+	if (status === 429) return { category: 'provider_rate_limited', retrySafe: true };
+	if (status !== null && status >= 400 && status < 500) {
+		return { category: 'provider_rejected', retrySafe: false };
+	}
+	if (status !== null && status >= 500) {
+		// Gmail has no idempotency key. A 5xx response can be ambiguous, so the
+		// notification worker must not automatically retry it.
+		return { category: 'provider_unavailable', retrySafe: false };
+	}
+	return { category: 'unknown', retrySafe: false };
 }
 
 /**
@@ -136,6 +178,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		includeFooter = true
 	} = options;
 
+	let providerAttempted = false;
 	try {
 		// Validate that the private key environment variable is set
 		if (!PRIVATE_gmail_private_key) {
@@ -196,7 +239,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 				);
 			}
 			trackingPixelUrl = getTrackingPixelUrl(trackingId, BASE_URL);
-			unsubscribeUrl = getUnsubscribeUrl(trackingId, BASE_URL);
+			unsubscribeUrl ??= getUnsubscribeUrl(trackingId, BASE_URL);
 		} else if (linkAttribution) {
 			// Admin test sends should show the same attributed destinations as a
 			// production send without creating analytics records for test clicks.
@@ -223,6 +266,7 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 		const resolvedPlainTextContent =
 			finalPlainTextContent ?? htmlToPlainText(renderEmailContent(finalHtmlContent, recipientName));
 
+		providerAttempted = true;
 		const response = await gmail.users.messages.send({
 			requestBody: {
 				raw: makeBody({
@@ -240,14 +284,20 @@ export async function sendEmail(options: SendEmailOptions): Promise<SendEmailRes
 
 		return {
 			success: true,
-			messageId: response.data.id || undefined
+			messageId: response.data.id || undefined,
+			providerAttempted: true,
+			retrySafe: false
 		};
 	} catch (e) {
 		const errorMessage = e instanceof Error ? e.message : JSON.stringify(e);
+		const failure = classifySendFailure(e, providerAttempted);
 		console.error('Failed to send email:', errorMessage);
 		return {
 			success: false,
-			error: errorMessage
+			error: errorMessage,
+			errorCategory: failure.category,
+			providerAttempted,
+			retrySafe: failure.retrySafe
 		};
 	}
 }
@@ -267,6 +317,7 @@ export async function sendEmailWithTracking(
 		sequenceEnrollmentId?: string;
 		sequenceStepNumber?: number;
 		linkAttribution?: EmailLinkAttribution;
+		unsubscribeUrl?: string;
 		sentBy?: string | null;
 		includeFooter?: boolean;
 	}
@@ -281,6 +332,7 @@ export async function sendEmailWithTracking(
 		sequenceEnrollmentId,
 		sequenceStepNumber,
 		linkAttribution,
+		unsubscribeUrl,
 		sentBy,
 		includeFooter = true
 	} = options;
@@ -323,6 +375,7 @@ export async function sendEmailWithTracking(
 		recipientName: recipient.name ?? undefined,
 		trackingId: emailSend.tracking_id,
 		linkAttribution,
+		unsubscribeUrl,
 		includeFooter
 	});
 

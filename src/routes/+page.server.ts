@@ -5,15 +5,10 @@ import {
 	runBestEffortTelemetry
 } from '$lib/server/bestEffortTelemetry';
 import { recordStrategicQuestionImpression } from '$lib/server/giveFirstFunnel';
-
-const featuredQuestion = {
-	id: 567,
-	question:
-		"What's something you do every day to seem 'fine' that nobody knows is costing you effort?",
-	url: 'whats-something-every-day-seem-fine-nobody-knows-costing-effort'
-} as const;
+import { getHomepageFeaturedQuestion } from '$lib/server/questionDistribution';
 
 export const load: PageServerLoad = async (event) => {
+	const featuredQuestion = await getHomepageFeaturedQuestion();
 	const fingerprint = event.cookies.get('9tfingerprint');
 
 	if (fingerprint) {

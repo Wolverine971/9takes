@@ -1,7 +1,8 @@
+// output/personality-analysis-experiment/batch-types7-8-next-10/export-production.mjs
 import sharp from 'sharp';
 
 const root = 'output/personality-analysis-experiment/batch-types7-8-next-10';
-const items = [
+const defaultItems = [
 	['Shakira', 'shakira', 7],
 	['Spencer-X', 'spencer-x', 7],
 	['Stavros-Halkias', 'stavros-halkias', 7],
@@ -13,10 +14,19 @@ const items = [
 	['Idris-Elba', 'idris-elba', 8],
 	['Jenna-Marbles', 'jenna-marbles', 8]
 ];
+const requestedPeople = process.argv.slice(2);
+const items = requestedPeople.length
+	? defaultItems.filter(([, slug]) => requestedPeople.includes(slug))
+	: defaultItems;
 
 for (const [name, slug, type] of items) {
 	const input = `${root}/${slug}/${name}-final.png`;
 	const outputDirectory = `static/types/${type}s`;
-	await sharp(input).webp({ quality: 92, alphaQuality: 100, smartSubsample: true }).toFile(`${outputDirectory}/${name}.webp`);
-	await sharp(input).resize(480, 480).webp({ quality: 88, alphaQuality: 100, smartSubsample: true }).toFile(`${outputDirectory}/s-${name}.webp`);
+	await sharp(input)
+		.webp({ quality: 92, alphaQuality: 100, smartSubsample: true })
+		.toFile(`${outputDirectory}/${name}.webp`);
+	await sharp(input)
+		.resize(480, 480)
+		.webp({ quality: 88, alphaQuality: 100, smartSubsample: true })
+		.toFile(`${outputDirectory}/s-${name}.webp`);
 }

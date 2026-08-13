@@ -129,14 +129,34 @@
 	let revealEl = $state<HTMLElement | null>(null);
 	let inviteCardVisible = $state(false);
 
-	function trackFeaturedQuestionImpression(node: HTMLElement) {
-		const destroy = observeQualifiedQuestionImpression(node, {
-			questionId: data.featuredQuestion.id,
-			questionUrl: data.featuredQuestion.url,
-			surface: 'homepage',
-			sourcePath: '/',
-			campaign: getCurrentUtmCampaign()
+	function recordFeatureRunImpression() {
+		if (!data.featuredQuestion.featureRunId) return;
+
+		void fetch('/api/questions/feature-impression', {
+			method: 'POST',
+			headers: { 'content-type': 'application/json' },
+			body: JSON.stringify({
+				featureRunId: data.featuredQuestion.featureRunId,
+				questionId: data.featuredQuestion.id
+			})
+		}).catch(() => {
+			// Exposure accounting is best effort and must never interrupt the homepage.
 		});
+	}
+
+	function trackFeaturedQuestionImpression(node: HTMLElement) {
+		const destroy = observeQualifiedQuestionImpression(
+			node,
+			{
+				questionId: data.featuredQuestion.id,
+				questionUrl: data.featuredQuestion.url,
+				surface: 'homepage',
+				sourcePath: '/',
+				campaign: getCurrentUtmCampaign(),
+				featureRunId: data.featuredQuestion.featureRunId
+			},
+			{ onCaptured: recordFeatureRunImpression }
+		);
 		return { destroy };
 	}
 
@@ -260,6 +280,7 @@
 					surface: 'homepage',
 					sourcePath: browser ? window.location.pathname : undefined,
 					campaign: getCurrentUtmCampaign(),
+					featureRunId: data.featuredQuestion.featureRunId,
 					isAnonymous: !data.user?.id,
 					...serverAnalytics
 				});
@@ -268,7 +289,8 @@
 			void capture('homepage_question_answered', {
 				question_url: data.featuredQuestion.url,
 				source_path: browser ? window.location.pathname : undefined,
-				campaign: getCurrentUtmCampaign()
+				campaign: getCurrentUtmCampaign(),
+				feature_run_id: data.featuredQuestion.featureRunId
 			});
 			await tick();
 			revealEl?.focus();
@@ -292,6 +314,7 @@
 			surface: 'homepage' as const,
 			sourcePath: browser ? window.location.pathname : undefined,
 			campaign: getCurrentUtmCampaign(),
+			featureRunId: data.featuredQuestion.featureRunId,
 			isAnonymous: !data.user?.id
 		};
 	}
@@ -311,7 +334,8 @@
 
 	function trackDiscussionOpen() {
 		void capture('homepage_discussion_opened', {
-			question_url: data.featuredQuestion.url
+			question_url: data.featuredQuestion.url,
+			feature_run_id: data.featuredQuestion.featureRunId
 		});
 	}
 </script>

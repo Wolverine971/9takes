@@ -2,13 +2,15 @@ import AppKit
 import Foundation
 import Vision
 
-let people = [
+let defaultPeople = [
     "shakira", "spencer-x", "stavros-halkias", "steve-irwin", "tana-mongeau",
     "travis-kelce", "bryce-hall", "duke-dennis", "idris-elba", "jenna-marbles",
 ]
+let requestedPeople = Array(CommandLine.arguments.dropFirst())
+let people = requestedPeople.isEmpty ? defaultPeople : requestedPeople
 let root = URL(fileURLWithPath: "output/personality-analysis-experiment/batch-types7-8-next-10")
 let pngSources = Set([
-    "spencer-x", "stavros-halkias", "steve-irwin", "tana-mongeau", "travis-kelce",
+    "shakira", "spencer-x", "stavros-halkias", "steve-irwin", "tana-mongeau", "travis-kelce",
     "bryce-hall", "duke-dennis", "idris-elba", "jenna-marbles",
 ])
 

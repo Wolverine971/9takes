@@ -1,8 +1,9 @@
+// output/personality-analysis-experiment/batch-types7-8-next-10/clean-cutouts.mjs
 import sharp from 'sharp';
 import { rename } from 'node:fs/promises';
 
 const root = 'output/personality-analysis-experiment/batch-types7-8-next-10';
-const people = [
+const defaultPeople = [
 	'shakira',
 	'spencer-x',
 	'stavros-halkias',
@@ -14,6 +15,8 @@ const people = [
 	'idris-elba',
 	'jenna-marbles'
 ];
+const requestedPeople = process.argv.slice(2);
+const people = requestedPeople.length ? requestedPeople : defaultPeople;
 
 for (const slug of people) {
 	const path = `${root}/${slug}/cutout-clean.png`;
@@ -44,7 +47,8 @@ for (const slug of people) {
 						visited[neighbor] ||
 						Math.abs(nx - px) + Math.abs(ny - py) !== 1 ||
 						data[neighbor * 4 + 3] <= 8
-					) continue;
+					)
+						continue;
 					visited[neighbor] = 1;
 					queue.push(neighbor);
 				}
@@ -61,5 +65,8 @@ for (const slug of people) {
 	const temporary = `${root}/${slug}/cutout-clean.tmp.png`;
 	await sharp(data, { raw: info }).png().toFile(temporary);
 	await rename(temporary, path);
-	console.log(slug, components.slice(0, 4).map((pixels) => pixels.length));
+	console.log(
+		slug,
+		components.slice(0, 4).map((pixels) => pixels.length)
+	);
 }
