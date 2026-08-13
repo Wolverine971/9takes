@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Christopher-Nolan",
+	"review_dir": "docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055",
+	"verification_file": "docs/content-analysis/perspective-reviews/Christopher-Nolan/2026-08-12_202055/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "05c68d661eb2c8f6744fda41a8f4d53bfc3b8bd6ff62b06c0b4969dd53ce6cab",
+	"verified_content_sha256": "3c88c862398e33f6f82c9ab250771fc8f74864d7d537ff6e99f5dac465048b05",
+	"verified_at": "2026-08-13T02:26:03.000Z"
+}

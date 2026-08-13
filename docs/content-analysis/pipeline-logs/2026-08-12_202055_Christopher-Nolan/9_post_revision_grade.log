@@ -1,0 +1,25 @@
+Graded. Lint still clean (0 fail, 1 warn — the pre-existing thin-headroom warning).
+
+## Grading Complete — Christopher Nolan (regrade after revision pass)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Christopher-Nolan | 8 | 9 | 9 | 9 | 8.5 | 9 | **8.7** | **B+** |
+
+`(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.7`. Discoverability 9, so no gate. No caps applied.
+
+**Stability:** 8.6 → 8.7 (delta 0.1). The revision pass fixed the two Evidence items the prior grade named (60 Minutes verified against the official CBS transcript with the correspondent identified; Zimmer cold-open tagged), closed the length FAIL, and halved the closer metronome. Those were real, but Evidence stayed at 8 because two *different* gaps survive that the source-audit script structurally cannot see.
+
+### What's driving the score
+
+**Up:** The Zimmer typewritten-fable cold open is a signature detail that inverts the twenty-year consensus on Nolan before the reader finishes the first screen, and the closing Leicester Square loop pays off the question it raises. Critic pressure is severe, multi-front, and deliberately left unresolved — Emily Wilson's "I would be ashamed to have written any part of this script," deployed with the detail that Nolan took his Odysseus from her opening line, and then never answered. The reverse-chronology timeline is a genuine bespoke form borrowed from Memento. The rabbit hole is the best in the corpus right now: all wing/subtype/arrow/counter-typing depth quarantined, with explicit "what would change our mind" falsifiers.
+
+**Down:** Two load-bearing third-party charges reach the reader with no source at all — James Cameron's "moral cop-out" on the Hiroshima omission, and Matt Damon's "if Chris Nolan called," which the testimony ledger dates to EW 2023 but the body attributes to nobody. Neither trips `blog-source-audit.mjs`, because neither occupies a tagged quote slot. That's the finding I'd flag beyond this one draft: **the audit script only inspects tagged slots, so a ledger entry can look verified while the reader-visible sentence is bare.** Five more inline outlets carry no date. Separately, the `citations` array is seven Wikipedia links on a piece actually built from THR, 60 Minutes, the LRB and the NYRB.
+
+Writing at 8.5: formally cleaner than the Matt-Smith anchor (0 contrast pairs, cut-to-black ending, strong visual variety), but monochrome — one register for 4,487 words, where the anchor earned its band partly on a real tonal shift.
+
+### To reach A
+
+Evidence is the entire gap and the cheapest fix on the page at 1.5× weight: source or cut the Cameron/Lee lines, give Damon his four-word attribution, date the five undated outlets, and swap the Wikipedia citations for the real primaries. That's ~8.9 without touching prose. Full detail in `docs/content-analysis/grades/Christopher-Nolan.review.md`.
+
+One constraint worth flagging: headroom is 13 words against the 4,500 ceiling, so anything added has to cut first. The two highest-value fixes (citations rework, splitting the Odyssey reception paragraph) are both free.

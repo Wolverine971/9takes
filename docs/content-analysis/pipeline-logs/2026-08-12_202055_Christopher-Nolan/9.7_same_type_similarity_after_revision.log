@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Christopher-Nolan (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/Christopher-Nolan.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-5 drafts by date):
+  - Yang-Zhilin  (2026-07-23, 46 units)
+  - pinkpantheress  (2026-07-19, 25 units)
+  - warren-buffett  (2026-07-08, 30 units)
+  - steve-martin  (2026-07-04, 38 units)
+  - leonardo-da-vinci  (2026-07-01, 18 units)
+  - john-d-rockefeller  (2026-06-22, 19 units)
+  - jerry-seinfeld  (2026-05-17, 25 units)
+  - ray-dalio  (2026-05-14, 12 units)
+
+Noise floor over 9159 unit pairs:  median=0  p90=0  p99=0.007  max=0.069
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.069 ###                  Yang-Zhilin
+  0.048 ##                   steve-martin
+  0.038 ##                   pinkpantheress
+  0.030 #                    jerry-seinfeld
+  0.024 #                    john-d-rockefeller
+  0.018 #                    warren-buffett
+  0.017 #                    ray-dalio
+  0.011                      leonardo-da-vinci
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.069   Christopher-Nolan  <->  Yang-Zhilin
+   TARGET [diagnosis] "I don't start writing a script until I am firmly in control of the structure of the piece
+   OTHER  [diagnosis] "I don't want to share control of my company" (via TechCrunch
+
+score 0.048   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] a Three by keeping the win in frame
+   OTHER  [diagnosis] A Three chases the applause and optimizes the win.
+
+score 0.041   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] The Type 6 case is the strongest neighbor
+   OTHER  [diagnosis] The honest counter-case is Type 3
+
+score 0.038   Christopher-Nolan  <->  pinkpantheress
+   TARGET [diagnosis] Nolan built his life around it.
+   OTHER  [diagnosis] PinkPantheress built that room from a Wii microphone
+
+score 0.038   Christopher-Nolan  <->  pinkpantheress
+   TARGET [counter-typing] the public war with Warner Bros.
+   OTHER  [diagnosis] The public pattern points to Enneagram Type 5
+
+score 0.036   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] When Scott Pelley suggested on 60 Minutes in 2026 that he did not seem to think of himself as the most important person on set
+   OTHER  [diagnosis] He did not feel the comedy and let it pour out.
+
+score 0.031   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] The Type 8 case is the one this portrait owes an answer
+   OTHER  [diagnosis] The honest counter-case is Type 3
+
+score 0.030   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] The Enneagram sorts people by motive rather than behavior
+   OTHER  [diagnosis] The Investigator temperament looks native rather than merely inflicted
+
+score 0.030   Christopher-Nolan  <->  jerry-seinfeld
+   TARGET [diagnosis] He re-engineered the job until it fit him.
+   OTHER  [diagnosis] the romantic part of the job is the cold part.
+
+score 0.029   Christopher-Nolan  <->  steve-martin
+   TARGET [counter-typing] Yet a Three optimizes for being seen
+   OTHER  [diagnosis] A Three chases the applause and optimizes the win.
+
+score 0.028   Christopher-Nolan  <->  steve-martin
+   TARGET [diagnosis] "I think of myself as the representative of the audience on set.
+   OTHER  [diagnosis] " and studied the audience's reaction like data.
+
+score 0.027   Christopher-Nolan  <->  Yang-Zhilin
+   TARGET [diagnosis] then spend the account in one dark room full of strangers.
+   OTHER  [counter-typing] Yang repeatedly spends the image to protect the work.
+
+------------------------------------------------------------------------------
+Top pair scores 0.069 vs median 0  (~∞x the noise floor).

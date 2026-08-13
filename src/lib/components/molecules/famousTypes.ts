@@ -272,7 +272,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'asmongold', link: true, hasImage: true, lastmod: '2026-05-08', personaTitle: 'Streaming\'s Feral Recluse', contentGrade: 9.4, types: ['creator', 'streamer'] },
 		{ name: 'bill-gates', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'The World-Scale Problem Solver', contentGrade: 9, types: ['techie', 'big-tech-founder'] },
 		{ name: 'christian-bale', link: true, hasImage: true, lastmod: '2026-04-21', personaTitle: 'Cinema\'s Vanishing Method Man', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] },
-		{ name: 'christopher-nolan', link: false, hasImage: true, lastmod: '2026-07-22', personaTitle: 'Cinema\'s Clockwork Architect', contentGrade: 8.8, types: ['celebrity', 'director'] },
+		{ name: 'christopher-nolan', link: true, hasImage: true, lastmod: '2026-08-12', personaTitle: 'Cinema\'s Clockwork Architect', contentGrade: 8.9, types: ['celebrity', 'director'] },
 		{ name: 'cillian-murphy', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Actor Who Cancels Reality', contentGrade: 8.8, types: ['celebrity', 'screen-icon'] },
 		{ name: 'daniel-day-lewis', link: false, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Cinema\'s Vanishing Craftsman', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'dario-amodei', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'AI\'s Reluctant Prometheus', contentGrade: 8.8, types: ['techie', 'entrepreneur', 'frontier-builder'] },

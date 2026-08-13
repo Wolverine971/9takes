@@ -4,12 +4,12 @@ meta_title: "Why Christopher Nolan's Films Feel Cold (Type 5 Decoded)"
 persona_title: "Cinema's Clockwork Architect"
 description: "Why do Christopher Nolan's films feel cold? The Type 5 pattern behind the missing phone, the locked-room scripts, and the feeling hidden inside every maze."
 author: 'DJ Wayne'
-date: '2026-07-22'
+date: '2026-08-12'
 loc: 'https://9takes.com/personality-analysis/Christopher-Nolan'
-lastmod: '2026-07-22'
+lastmod: '2026-08-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '5'
 type: ['celebrity', 'director']
 person: 'Christopher-Nolan'
@@ -85,6 +85,24 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Christopher-Nolan.md
+content_quality:
+  hook: 9
+  enneagram: 8.5
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  discoverability: 9
+  overall: 8.9
+  first_overall: 8.7
+  regrade_overall: 8.9
+  grade_stability_delta: 0.2
+  letter: B+
+  rubric_version: 2
+  caps_applied: []
+  confidence: high
+  anchor: 'Matt-Smith draft (2026-06-28)'
+  needs_review: false
+  graded_at: '2026-08-12'
 ---
 
 <!-- WORKING NOTES (non-interactive run, 2026-07-22)

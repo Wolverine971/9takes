@@ -1,0 +1,26 @@
+## Grading Complete — Christopher Nolan (stability regrade, stage 9.1)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Christopher-Nolan | 9 | 9 | 9 | 8.5 | 8.5 | 9 | **8.9** | **B+** |
+
+`(9×1.5 + 9×1.5 + 9×1.5 + 8.5 + 8.5 + 9×0.5) / 7 = 62.0 / 7 = 8.9`. Discoverability 9 → no gate. No caps triggered.
+
+**Stability: 8.7 → 8.9, delta 0.2.** I scored blind and wrote the frontmatter before opening the stage-9 log, so the delta is a real measurement.
+
+### Key observations
+
+- **Deterministic checks all clean.** 0 contrast pairs, head-term PASS, extractable answer block (56 words), same-type similarity clear (max 0.069 vs Yang-Zhilin, zero shared phrases), lint 0 fail / 1 warn (thin headroom at 4,487 of 4,500 words). Cross-draft sameness vs the three most recently graded drafts found no reused TL;DR skeleton, corpus-stat furniture, or closer shape.
+- **What earns the score:** the Zimmer typewritten-fable cold open, a bespoke reverse-chronology form borrowed from *Memento*, critic pressure from six named sources left deliberately unresolved (including Emily Wilson's "I would be ashamed to have written any part of this script," deployed with the detail that Nolan took his Odysseus from her opening line), and the strongest rabbit hole in the corpus — all typology quarantined, with explicit falsifiers.
+
+### The finding worth acting on
+
+The two graders split in opposite directions on Evidence and Enneagram, which is why the overall delta stayed small. On Evidence, **stage 9 was right and my blind pass was wrong.** I verified its claim rather than accepting it: three reader-visible third-party charges carry no source at all — Spike Lee and James Cameron's "moral cop-out" at line 315, and Damon's quoted `"if Chris Nolan called"` at line 361 (the ledger dates it; the sentence is bare). Plus six undated inline outlets. My corrected view is Evidence 8.5 → overall 8.8.
+
+I left the recorded score at the blind 8.9 so the stability measurement isn't retroactively contaminated, and documented the correction in the sidecar. **Treat true quality as ~8.8.**
+
+This generalizes past this draft: `blog-source-audit.mjs` only inspects tagged quote slots, so a Testimony Ledger entry can read as verified while the reader-visible sentence has no attribution. Any grader trusting a clean audit report will systematically miss prose charges of the form *"X called it Y."* Worth a script change — flag proper-noun attributions in the body with no outlet in the sentence.
+
+Files written: `content_quality` block in `src/blog/people/drafts/Christopher-Nolan.md` (YAML parses, lint still clean) and a new sidecar at `docs/content-analysis/grades/Christopher-Nolan.review.md`. No legacy `QUALITY GRADE` block existed in the body.
+
+**Total graded this session: 1**
