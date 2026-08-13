@@ -445,7 +445,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'theo-von', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'Comedy\'s Southern Mystic', contentGrade: 8.8, types: ['comedian', 'stand-up'] },
 		{ name: 'tim-dillon', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Comedy\'s Panic Prophet', contentGrade: 9.1, types: ['comedian', 'stand-up'] },
 		{ name: 'tom-holland', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Hollywood\'s Armored Enthusiast', contentGrade: 8.9, types: ['newMovieStar', 'rising-star'] },
-		{ name: 'travis-kelce', link: false, hasImage: true, lastmod: '2026-07-21', personaTitle: 'Football\'s Full-Send Showman', contentGrade: 8.6, types: ['celebrity', 'creator'] },
+		{ name: 'travis-kelce', link: true, hasImage: true, lastmod: '2026-08-13', personaTitle: 'Football\'s Full-Send Showman', contentGrade: 8.8, types: ['celebrity', 'creator'] },
 		{ name: 'xqc', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Streaming\'s Doomsday Escape Artist', contentGrade: 9, types: ['creator', 'streamer'] }
 	],
 	8: [

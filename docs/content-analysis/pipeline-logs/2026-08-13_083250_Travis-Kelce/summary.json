@@ -1,0 +1,19 @@
+{
+	"person": "Travis-Kelce",
+	"draft_path": "src/blog/people/drafts/Travis-Kelce.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/Travis-Kelce.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-13_083250_Travis-Kelce",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Travis-Kelce/2026-08-13_083250",
+	"perspective_initial_status": "fail",
+	"perspective_final_status": "needs_revision",
+	"completed": true,
+	"halt_reason": null,
+	"revised": false,
+	"lint_exit": 0,
+	"first_overall": null,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-13T14:14:35.021Z"
+}

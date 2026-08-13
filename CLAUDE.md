@@ -302,6 +302,7 @@ Brand docs are in `docs/brand/`:
 
 | File                               | Purpose                                            |
 | ---------------------------------- | -------------------------------------------------- |
+| `messaging-hierarchy.md`           | **Canonical frozen message hierarchy; read first** |
 | `README.md`                        | Quick brand reference (taglines, voice attributes) |
 | `BRAND-KIT.md`                     | Brand kit (colors, logos, typography)              |
 | `brand-positioning.md`             | Market positioning                                 |
@@ -316,6 +317,18 @@ Brand docs are in `docs/brand/`:
 - **Respectfully Provocative** - Challenge comfort zones
 - **Pattern-Recognition Focused** - Show emotional logic
 - **Results-Driven** - Focus on outcomes
+
+**Canonical message hierarchy (locked 2026-08-13):**
+
+1. Movement belief: "The internet collapses nine perspectives into one winning take."
+2. Brand promise: "See the emotions behind every take."
+3. Product ritual: "Answer before the crowd."
+4. Product explanation: "One question, nine perspectives."
+5. Personal payoff: "Stop mistaking someone else's alarm for a defect."
+
+Do not invent or promote a new master concept unless DJ explicitly replaces one of these five levels.
+Treat existing names such as The Chorus, The Mirror Moment, One Take, and Streetlamp Symposium as
+supporting vocabulary or format/design labels.
 
 **Writing Rhythm**: Hook → Insight → Action step
 

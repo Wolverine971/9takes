@@ -4,12 +4,12 @@ meta_title: 'Why Travis Kelce Almost Threw It All Away (Type 7)'
 persona_title: "Football's Full-Send Showman"
 description: 'Everyone thinks Travis Kelce lucked into greatness as a happy-go-lucky party guy. His Enneagram Type 7 wiring tells a stranger, more revealing story.'
 author: 'DJ Wayne'
-date: '2026-07-21'
+date: '2026-08-13'
 loc: 'https://9takes.com/personality-analysis/travis-kelce'
-lastmod: '2026-07-21'
+lastmod: '2026-08-13'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['celebrity', 'creator']
 person: 'Travis-Kelce'
@@ -106,21 +106,21 @@ production_pretext:
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 8
+  evidence: 8.5
   writing: 8.5
-  originality: 8.5
+  originality: 9
   discoverability: 9
-  overall: 8.6
+  overall: 8.8
+  first_overall: 8.8
+  regrade_overall: 8.8
+  grade_stability_delta: 0.0
   letter: B+
   rubric_version: 2
   caps_applied: []
   confidence: high
-  anchor: 'Matt-Smith draft (B anchor; this draft clears it into B+)'
+  anchor: 'Matt-Smith draft (A anchor; Travis is a strong B+ with comparable originality and slightly softer citation precision)'
   needs_review: false
-  first_overall: 8.6
-  regrade_overall: 8.6
-  grade_stability_delta: 0.0
-  graded_at: '2026-07-22'
+  graded_at: '2026-08-13'
 path: src/blog/people/drafts/Travis-Kelce.md
 ---
 
@@ -199,7 +199,7 @@ The Seven runs on momentum. Sevens walk into a dull room and start something in 
 
 Kelce has been doing this since before he could read a playbook. Deep into his thirties, years past the point where most players start counting down, he still described the game through its buzz. Asked on *The Rich Eisen Show* in September 2024 whether a third straight Super Bowl might be his last ride, he said retirement "didn't cross my mind one bit." The reason: "The excitement of the challenge of this year, and being able to maybe do it a third time in a row, that alone was all I needed to come back."
 
-He does not describe the work as work. "Once that camera's on, baby, you gotta go full send," he told Rich Eisen on the same visit, then offered the cleanest summary of the whole ride: "I got the seatbelt on, and I'm just riding this roller coaster. It's a good time."
+He does not describe the work as work. "Once that camera's on, baby, you gotta go full send," he told Rich Eisen on that September 2024 visit, then offered the cleanest summary of the whole ride: "I got the seatbelt on, and I'm just riding this roller coaster. It's a good time."
 
 That is the bright side of the wiring. But every hunger has a shadow, and Kelce's shadow has a paper trail. The same drive that makes him electric on a Sunday is the one that got him high around a college bowl trip and nearly cost him the sport. When he tells that story now, watch what his mind does with the pain. He does not sit in it. He converts it. Talking it over in 2025 on New Heights, the podcast he hosts with his brother, he called the suspension that almost ended everything something that "worked out perfect." On that same 2025 episode, when his brother used the actual word for what he got caught with, Kelce cut him off: "You saying 'marijuana' makes it sound so more intense. Why does that word sound so intense?"
 
@@ -454,4 +454,20 @@ Rejected (with reason):
 - Chasing recognized-outlet re-reports for the 5 podcast quotes: grader said sourcing the 3 stats "alone likely lifts Evidence to 9." All podcast quotes are already tagged to a named show + date with no cap triggered; adding weaker re-report links wasn't worth the risk.
 
 Lint: clean (0 fail, 0 warn)
+-->
+
+<!-- EDITOR PASS NOTES (2026-08-13, perspective-jury resolution)
+Worklist: docs/content-analysis/perspective-reviews/Travis-Kelce/2026-08-13_083250/synthesis.md
+Resolution artifact: same dir, editor-resolution.md
+
+Cleaned up:
+- P0-01: No. 87 origin now attributed to Travis's telling; Jason's Nov 2025 on-air dismissal added and cashed as reframe-reflex evidence; FAQ 3 matched. Section still ends on Jason.
+- RQ-01: all four Rich Eisen quotes VERIFIED verbatim against the Sept 3, 2024 episode transcript (saved to docs/content-analysis/youtube-transcripts-people/travis-kelce_rich-eisen_CbaIDysFUuQ.md). Kept as written. GQ 2025 pair verified via syndicated coverage.
+- RQ-02: Donna's "rule follower" line was MISATTRIBUTED to the Kelce doc — it's from Kylie's podcast (same episode as car keys); fixed + sourced. "Own worst critic"/"noise" verified (Sept 27, 2024 presser, B/R linked). Butch Jones inscription: KC Star attribution kept; existence + "one hell of a journey" phrase corroborated via Feb 2023 Democrat-Gazette syndication; full text still paywalled.
+- P1 sweep per synthesis: intro confession → verifiable pointing; age anchor fixed; Jones role named; New Heights glossed; doc named at first use; "cannot do"→"refuses"; aggression sequence added pre-empathy-turn; kicker agency restored; streaming/twelve-month fix; bracelet "as he told it" + Swift tease; below-market clause in ending; Rabbit Hole got w6 concession, loyalty anomaly, null-hypothesis discriminator, falsifier; shove removed from w8 list (owned by stress arrow); FAQs 1/3/4/5 matched.
+- Word budget: additions offset by trims (shy-kid third instance, breadth restatement, clause-level cuts). 4,496/4,500 — at ceiling, zero headroom for next refresh.
+
+Still open (needs human/pipeline):
+- Rendering-level: inner-thought panel visual marking (template-level, deferred by synthesis); faqs-enrich stage still unrun.
+- Next refresh triggers per future review: Oct 5 2026 birthday, Jan 2027 season stats, Feb-Mar 2027 retirement window, 87-dispute watch, Aug 2027 Wondery term.
 -->

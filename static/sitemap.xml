@@ -924,6 +924,10 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/manifesto</loc>
+    <lastmod>2026-06-13</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis</loc>
     <lastmod>2026-08-13</lastmod>
   </url>
@@ -3648,6 +3652,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/travis-kelce</loc>
+    <lastmod>2026-08-13</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Travis-Kelce.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/travis-scott</loc>
     <lastmod>2026-02-17</lastmod>
     <image:image>
@@ -3736,7 +3747,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-08-06</lastmod>
+    <lastmod>2026-08-13</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>

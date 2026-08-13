@@ -1,0 +1,100 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Travis-Kelce (Type 7)
+/Users/djwayne/9takes/src/blog/people/drafts/Travis-Kelce.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 51
+Comparison set (last 8 other Type-7 drafts by date):
+  - stavros-halkias  (2026-07-25, 30 units)
+  - lamine-yamal  (2026-07-19, 21 units)
+  - john-coogan  (2026-07-14, 31 units)
+  - Jeff-Goldblum  (2026-07-03, 23 units)
+  - Matt-Smith  (2026-07-03, 24 units)
+  - cathie-wood  (2026-07-02, 22 units)
+  - Jim-Carrey  (2026-06-30, 23 units)
+  - conan-obrien  (2026-06-30, 12 units)
+
+Noise floor over 9486 unit pairs:  median=0  p90=0  p99=0.008  max=0.122
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.122   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is the corrected portrait
+
+score 0.093   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is a believer who throws elbows.
+
+score 0.077   Travis-Kelce  <->  Jim-Carrey
+   TARGET [diagnosis] It's a good time." That is the bright side of the wiring.
+   OTHER  [diagnosis] His comedy was never a relaxed man having a good time.
+
+score 0.046   Travis-Kelce  <->  john-coogan
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] John Coogan's public record points most strongly to Enneagram Type 7
+
+
+Most similar drafts (max unit-pair score):
+  0.122 #####                cathie-wood
+  0.091 ####                 Jeff-Goldblum
+  0.077 ###                  Jim-Carrey
+  0.059 ##                   lamine-yamal
+  0.051 ##                   Matt-Smith
+  0.046 ##                   john-coogan
+  0.031 #                    stavros-halkias
+  0.018 #                    conan-obrien
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.122   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is the corrected portrait
+
+score 0.093   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] Cathie Wood is a believer who throws elbows.
+
+score 0.091   Travis-Kelce  <->  Jeff-Goldblum
+   TARGET [diagnosis] and the pursuit of a life that never goes dull.
+   OTHER  [diagnosis] or the flat gray of a life that has stopped moving.
+
+score 0.077   Travis-Kelce  <->  Jim-Carrey
+   TARGET [diagnosis] It's a good time." That is the bright side of the wiring.
+   OTHER  [diagnosis] His comedy was never a relaxed man having a good time.
+
+score 0.059   Travis-Kelce  <->  lamine-yamal
+   TARGET [diagnosis] then made him the Kansas City Chiefs' tight end for thirteen seasons
+   OTHER  [diagnosis] It also made him the youngest scorer in European Championship history.
+
+score 0.053   Travis-Kelce  <->  Jeff-Goldblum
+   TARGET [counter-typing] then re-sign reportedly below market to stay in the room.
+   OTHER  [counter-typing] and he is oddly indifferent to being the biggest star in the room.
+
+score 0.051   Travis-Kelce  <->  Matt-Smith
+   TARGET [counter-typing] He told GQ he does not want anyone saying anything negative about him
+   OTHER  [counter-typing] He does not perform suffering as identity.
+
+score 0.046   Travis-Kelce  <->  john-coogan
+   TARGET [diagnosis] Travis Kelce is an Enneagram Type 7
+   OTHER  [diagnosis] John Coogan's public record points most strongly to Enneagram Type 7
+
+score 0.043   Travis-Kelce  <->  Matt-Smith
+   TARGET [diagnosis] that alone was all I needed to come back." He does not describe the work as work.
+   OTHER  [counter-typing] He does not perform suffering as identity.
+
+score 0.039   Travis-Kelce  <->  Matt-Smith
+   TARGET [diagnosis] Why does that word sound so intense?" A man who can joke the word out of his own lowest moment is telling you exactly how he survives.
+   OTHER  [counter-typing] and was literally cast out of his first identity.
+
+score 0.037   Travis-Kelce  <->  cathie-wood
+   TARGET [diagnosis] It's a good time." That is the bright side of the wiring.
+   OTHER  [diagnosis] That is the rigorous research analyst she trained as for forty years.
+
+score 0.037   Travis-Kelce  <->  Matt-Smith
+   TARGET [diagnosis] Why does that word sound so intense?" A man who can joke the word out of his own lowest moment is telling you exactly how he survives.
+   OTHER  [counter-typing] Smith leaps out of his the instant the scene ends
+
+------------------------------------------------------------------------------
+Top pair scores 0.122 vs median 0  (~∞x the noise floor).

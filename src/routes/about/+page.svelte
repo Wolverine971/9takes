@@ -225,20 +225,26 @@
 			<h2 class="section-title">Why I built 9takes</h2>
 			<div class="founder-story">
 				<p>
-					In the Marines, I learned to suppress emotions and push forward. Great for combat.
-					Terrible for relationships.
+					Early in my marriage, I would see my wife worried and fearful and try to override it. I
+					was angry. I wanted to push through, get the decision over with, and move forward.
 				</p>
 				<p>
-					The Enneagram gave me language for something I kept seeing everywhere: people are not just
-					disagreeing about facts. They are processing the same situation through different fears,
-					defenses, hopes, and instincts.
+					The more forcefully I moved, the less safe she felt. The more fearful she became, the
+					angrier I became. She was afraid of my anger. I was angry at her fear.
 				</p>
 				<p>
-					9takes exists to replace snap judgment with useful curiosity. Give your real take. Then
-					look at the same moment through eight other lenses.
+					I wanted her to trust my judgment. She wanted me to slow down enough to address her
+					worries. We were responding to the same situation as though it contained two different
+					emergencies.
+				</p>
+				<p>
+					The Enneagram gave us language for what each of us was trying to protect. 9takes exists to
+					make those buried perspectives visible: answer before the crowd, then see the same moment
+					through eight other lenses.
 				</p>
 			</div>
 			<div class="social-links">
+				<Button href="/manifesto" variant="ghost">Read the Manifesto</Button>
 				<a href="https://twitter.com/djwayne3" target="_blank" rel="noreferrer" class="social-btn">
 					<img src={twitter} alt="Twitter icon" />
 					Twitter/X

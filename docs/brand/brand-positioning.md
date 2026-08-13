@@ -7,6 +7,25 @@ _Consolidated from existing brand materials - January 2026_
 
 ---
 
+## Canonical Message Hierarchy — Locked 2026-08-13
+
+The complete usage rules live in [`messaging-hierarchy.md`](./messaging-hierarchy.md). This hierarchy
+supersedes older attempts to make supporting phrases such as “personality-maxing,” “emotional
+foundation mapping,” or “open source conflict resolution” the umbrella positioning.
+
+| Level                   | Canonical language                                                  |
+| ----------------------- | ------------------------------------------------------------------- |
+| **Movement belief**     | **The internet collapses nine perspectives into one winning take.** |
+| **Brand promise**       | **See the emotions behind every take.**                             |
+| **Product ritual**      | **Answer before the crowd.**                                        |
+| **Product explanation** | **One question, nine perspectives.**                                |
+| **Personal payoff**     | **Stop mistaking someone else’s alarm for a defect.**               |
+
+Everything else in this document is supporting strategy and vocabulary. It must clarify one of these
+five levels rather than compete with it.
+
+---
+
 ## Brand Essence
 
 **One-liner:** Decode the emotional patterns that drive human behavior.

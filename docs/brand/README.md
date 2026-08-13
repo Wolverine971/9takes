@@ -2,28 +2,38 @@
 
 # Brand Resources
 
-_Last Updated: 2026-07-06_
+_Last Updated: 2026-08-13_
 
 ---
 
 ## Quick Brand Reference
 
-**Primary Tagline:** "See the emotions behind every take"
+The canonical message system is locked in
+[`messaging-hierarchy.md`](./messaging-hierarchy.md). Do not introduce a new master concept without
+an explicit decision to replace one of these levels.
 
-**Secondary Tagline:** "One situation, 9 ways to see it"
+| Level                   | Canonical language                                              |
+| ----------------------- | --------------------------------------------------------------- |
+| **Movement belief**     | The internet collapses nine perspectives into one winning take. |
+| **Brand promise**       | See the emotions behind every take.                             |
+| **Product ritual**      | Answer before the crowd.                                        |
+| **Product explanation** | One question, nine perspectives.                                |
+| **Personal payoff**     | Stop mistaking someone else’s alarm for a defect.               |
 
-**Positioning:** Decode social dynamics, personality-max your EQ, turn conflict into understanding using the Enneagram.
+**Positioning:** 9takes protects your honest first read, then shows how nine different emotional
+patterns interpret the same situation so you can understand yourself and others better.
 
 ---
 
 ## Files in This Folder
 
-| File                                                       | Purpose                                                 | When to Use                          |
-| ---------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------ |
-| [`brand-positioning.md`](./brand-positioning.md)           | **Strategic foundation** - purpose, values, positioning | Strategy, new initiatives, alignment |
-| [`brand-style-guide-v2.md`](./brand-style-guide-v2.md)     | Complete brand voice, tone, style                       | Writing any content                  |
-| [`BRAND-KIT.md`](./BRAND-KIT.md)                           | Archived purple-era asset library                       | Historical reference only            |
-| [`dj-communication-guide.md`](./dj-communication-guide.md) | Personal communication preferences                      | AI assistants working with DJ        |
+| File                                                       | Purpose                                                  | When to Use                          |
+| ---------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------ |
+| [`messaging-hierarchy.md`](./messaging-hierarchy.md)       | **Canonical message hierarchy** - frozen master language | Start every messaging task here      |
+| [`brand-positioning.md`](./brand-positioning.md)           | **Strategic foundation** - purpose, values, positioning  | Strategy, new initiatives, alignment |
+| [`brand-style-guide-v2.md`](./brand-style-guide-v2.md)     | Complete brand voice, tone, style                        | Writing any content                  |
+| [`BRAND-KIT.md`](./BRAND-KIT.md)                           | Archived purple-era asset library                        | Historical reference only            |
+| [`dj-communication-guide.md`](./dj-communication-guide.md) | Personal communication preferences                       | AI assistants working with DJ        |
 
 Current visual-design implementation guidance lives in
 [`../design-system.md`](../design-system.md). Superseded Solo Leveling and

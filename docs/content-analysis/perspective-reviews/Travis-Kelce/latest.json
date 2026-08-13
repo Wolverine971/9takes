@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Travis-Kelce",
+	"review_dir": "docs/content-analysis/perspective-reviews/Travis-Kelce/2026-08-13_083250",
+	"verification_file": "docs/content-analysis/perspective-reviews/Travis-Kelce/2026-08-13_083250/verification-initial.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "cd201318fe41057998f288e97d9c192ee9c1164b680a8ff7c27fdee86f8a438f",
+	"verified_content_sha256": "fc7f040ffb1c3c6311db7ed8421c8c12178f2e6535dbe777f0e92c4c3d35d1e9",
+	"verified_at": "2026-08-13T14:22:00.000Z"
+}

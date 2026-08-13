@@ -98,6 +98,12 @@ const ROUTE_FILES = {
 		'src/routes/blog/+layout.svelte'
 	],
 	about: ['src/routes/about/+page.svelte', 'src/routes/about/+page.server.ts'],
+	manifesto: [
+		'src/routes/manifesto/+page.svelte',
+		'src/routes/manifesto/+page.server.ts',
+		'src/routes/manifesto/+page.ts',
+		'docs/brand/9takes-manifesto.md'
+	],
 	bookSession: [
 		'src/routes/book-session/+page.svelte',
 		'src/routes/book-session/+page.server.ts',
@@ -475,6 +481,13 @@ export function buildStaticPages({
 			loc: `${SITE_URL}/about`,
 			lastmod: resolveStaticLastmod({
 				routePaths: ROUTE_FILES.about,
+				siteFallbackLastmod
+			})
+		},
+		{
+			loc: `${SITE_URL}/manifesto`,
+			lastmod: resolveStaticLastmod({
+				routePaths: ROUTE_FILES.manifesto,
 				siteFallbackLastmod
 			})
 		},

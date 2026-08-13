@@ -1,0 +1,9 @@
+stage=5_editor_pass exit=1 dur=1039s at=2026-08-13 10:14:21
+stage=5.05_perspective_editor_resolution_gate exit=1 dur=0s at=2026-08-13 10:14:21
+stage=6_enrich_frontmatter exit=1 dur=5s at=2026-08-13 10:14:26
+stage=6.1_perspective_verify exit=1 dur=4s at=2026-08-13 10:14:30
+stage=6.2_perspective_verification_gate exit=1 dur=0s at=2026-08-13 10:14:30
+stage=6.7_source_audit exit=1 dur=0s at=2026-08-13 10:14:30
+stage=6.8_same_type_similarity exit=1 dur=1s at=2026-08-13 10:14:31
+stage=7_grade exit=1 dur=3s at=2026-08-13 10:14:34
+stage=9.8_perspective_finalize exit=1 dur=0s at=2026-08-13 10:14:34
