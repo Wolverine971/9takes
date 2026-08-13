@@ -1,11 +1,11 @@
 {
 	"globalCssBytes": 307200,
 	"clientOutputBytes": 178257920,
-	"runtimeAssetBytes": 146800640,
+	"runtimeAssetBytes": 147849216,
 	"runtimeAssetsOver1MiB": 15,
 	"runtimeAssetsOver5MiB": 1,
 	"largestRuntimeAssetBytes": 5400000,
-	"portraitAssetBytes": 54729188,
-	"portraitAssetFiles": 1048,
+	"portraitAssetBytes": 58347902,
+	"portraitAssetFiles": 1088,
 	"blogPngMastersInStatic": 0
 }
