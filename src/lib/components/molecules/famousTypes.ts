@@ -200,6 +200,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'billie-eilish', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Pop\'s Unfinished Self-Portrait', contentGrade: 9.1, types: ['musician', 'pop-star'] },
 		{ name: 'bob-dylan', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Rock\'s Great Vanishing Act', contentGrade: 8.7, types: ['musician'] },
 		{ name: 'bobbi-althoff', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Podcasting\'s Awkward Alchemist', contentGrade: 9.2, types: ['creator', 'lifestyle-builder'] },
+		{ name: 'bryan-johnson', link: true, hasImage: true, lastmod: '2026-08-13', personaTitle: 'Longevity\'s Living Prototype', contentGrade: 9.2, types: ['entrepreneur', 'techie', 'creator'] },
 		{ name: 'casey-neistat', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Vlogging\'s Restless Artist', contentGrade: 8.6, types: ['creator', 'viral-entertainer'] },
 		{ name: 'charlie-puth', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Pop\'s Perfect-Pitch Romantic', contentGrade: 8.7, types: ['musician'] },
 		{ name: 'clavicular', link: true, hasImage: true, lastmod: '2026-05-13', personaTitle: 'Looksmaxxing\'s Beautiful Wound', contentGrade: 9.3, types: ['influencer', 'creator', 'streamer'] },

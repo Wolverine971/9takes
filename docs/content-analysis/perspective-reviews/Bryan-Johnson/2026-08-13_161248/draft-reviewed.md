@@ -64,12 +64,12 @@ faqs:
     answer: "PayPal acquired Braintree and Venmo for $800 million in 2013, and Johnson says he personally made a few hundred million. He was also burned out, chronically depressed, divorcing, leaving Mormonism, raising three young children, and losing his identity as a founder. He describes himself during that period as 'absolutely broken.'"
     anchor: 'how-800-million-emptied-his-life-out'
   - question: "What was Bryan Johnson's childhood like?"
-    answer: "After his parents divorced, Johnson lived with his mother and stepfather in Springville, Utah. He says he would wake at 5 a.m. for a promised 9 a.m. pickup from his father, then watch the street until 11 or 11:30 when the car did not arrive. He kept inviting his father and later wrote him weekly letters from his Mormon mission."
+    answer: 'After his parents divorced, Johnson lived with his mother and stepfather in Springville, Utah. He says he would wake at 5 a.m. for a promised 9 a.m. pickup from his father, then watch the street until 11 or 11:30 when the car did not arrive. He kept inviting his father and later wrote him weekly letters from his Mormon mission.'
     anchor: 'the-boy-who-stayed-at-the-window'
 production_pretext:
-  status: completed
+  status: draft
   handoff_from: blog_content_creator_people
-  reviewed: true
+  reviewed: false
   ready_for_production: false
   sync_mode: full
   requires:
@@ -78,33 +78,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-  last_attempted_at: '2026-08-13'
-  last_completed_at: '2026-08-13'
-  db_sync: success
-  db_verify: success
-  regenerate_famous_types: success
-  image_check: success
-  image_full: present
-  image_thumbnail: present
-content_quality:
-  hook: 9.2
-  enneagram: 9.1
-  evidence: 9.2
-  writing: 9.1
-  originality: 9.3
-  discoverability: 9.3
-  overall: 9.2
-  first_overall: 8.9
-  regrade_overall: 9.2
-  grade_stability_delta: 0.3
-  letter: A
-  rubric_version: 2
-  caps_applied: []
-  confidence: high
-  anchor: 'Carl-Jung (A, 9.0) exceeded through current first-person motive evidence and scientific pressure testing'
-  needs_review: false
-  graded_at: '2026-08-13'
-path: src/blog/people/drafts/Bryan-Johnson.md
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_161248/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -136,7 +110,7 @@ Locations: One body, five jobs
 <!-- FORMULA FINGERPRINT LEDGER
 Contrast-pair sentence engines: 0 strong / 0 comparative; scripts/blog-quality-report.mjs
 Counter-typing ladders in main body: 0; alternatives remain in diagnosis and Rabbit Hole
-Same-type similarity scan: clear against the eight most recent Type Four drafts; 0.066 maximum unit-pair score, no trip
+Same-type similarity scan: pending the final enriched Type Four review
 Bespoke section form: "One body, five jobs" maps Bryan's literal body to five simultaneous roles in a table that cannot transfer to another subject
 Critic-pressure anchor: Ross Douthat's N-of-1, commerce, sacrifice, and control objections in "The control problem inside Don't Die"
 Empathy turn: the mocked rigidity becomes legible as readiness learned by a child who waited hours for an absent father in "The boy who stayed at the window"
@@ -237,13 +211,13 @@ Johnson's body is doing more than one experiment at a time. Treating each functi
 
 <div class="scroll-table">
 
-| His body is a... | Its job in Blueprint |
-| --- | --- |
-| Laboratory | Produce measurements and expose possible interventions for deeper study |
-| Ledger | Make the cost of sleep, food, stress, and aging visible every day |
-| Manifesto | Carry the "Don't Die" value system in flesh rather than leave it as an essay |
-| Product demo | Test and market the foods, supplements, and routines his company sells |
-| Character | Play the first prototype in a story aimed at fans, haters, and the 25th century |
+| His body is a... | Its job in Blueprint                                                            |
+| ---------------- | ------------------------------------------------------------------------------- |
+| Laboratory       | Produce measurements and expose possible interventions for deeper study         |
+| Ledger           | Make the cost of sleep, food, stress, and aging visible every day               |
+| Manifesto        | Carry the "Don't Die" value system in flesh rather than leave it as an essay    |
+| Product demo     | Test and market the foods, supplements, and routines his company sells          |
+| Character        | Play the first prototype in a story aimed at fans, haters, and the 25th century |
 
 </div>
 

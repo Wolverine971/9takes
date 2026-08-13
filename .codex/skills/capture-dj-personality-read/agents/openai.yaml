@@ -1,0 +1,5 @@
+# .codex/skills/capture-dj-personality-read/agents/openai.yaml
+interface:
+  display_name: 'Capture DJ Personality Read'
+  short_description: 'Turn DJ riffs into evidence-led personality reads'
+  default_prompt: 'Use $capture-dj-personality-read to interview me about why I read a public figure a certain way and draft the reasoning card.'

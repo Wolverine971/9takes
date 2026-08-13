@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Bryan-Johnson.md -->
+
 # Bryan Johnson: durable research and Enneagram evidence packet
 
 **Compiled:** 2026-08-13  
@@ -68,6 +69,10 @@ constant management.
 - **2013:** PayPal acquired Braintree/Venmo for $800 million. Johnson says he personally made a few
   hundred million. At the same time, he was chronically depressed, burned out, divorcing, raising
   three young children, leaving his religion, and losing his professional identity.
+- **2013-2014:** Johnson says that within roughly a year he sold Braintree, divorced, left the church,
+  and emerged from a decade of depression. At a Brooklyn warehouse party soon afterward, he danced
+  for six or seven hours despite never having danced before and experienced an unfamiliar sense of
+  freedom in his body.
 - **2014:** Launched OS Fund with $100 million of personal capital.
 - **2016:** Founded brain-interface company Kernel, again investing $100 million personally.
 - **2021:** Publicly launched Project Blueprint, using extensive measurement and intervention to
@@ -80,6 +85,9 @@ constant management.
   repeat it. TIME also published scientific criticism from Eric Verdin and Nir Barzilai concerning
   age-assessment transparency, simultaneous interventions, safety, and lack of independent
   validation.
+- **2024:** Johnson stopped taking rapamycin after reporting side effects including skin infections,
+  elevated glucose and lipids, and a higher resting heart rate. The reversal became an important
+  example of both the value and the limitations of his public N-of-1 experimentation.
 - **2025:** Netflix released _Don't Die: The Man Who Wants to Live Forever_. Johnson published a
   film of his childhood home and an on-camera reconciliation with his father. He and Kate Tolo made
   their long-term romantic relationship public in December. The New York Times reported on broad
@@ -189,6 +197,65 @@ Venue/date: Bryan Johnson YouTube, 2025-01-29
 - The film ends with his father telling him, "I'm so proud of you in every way," and acknowledging,
   "I know I killed you." Johnson calls their conversation a lifetime-achievement moment.
 
+## Identity release and self-authorship evidence
+
+Full local transcript: `youtube-transcripts-people/bryan-johnson-diary-ceo.md`  
+Public source: https://www.youtube.com/watch?v=1yfoonW1InE  
+Venue/date: _The Diary of a CEO with Steven Bartlett_, 2023
+
+- **7:45:** Johnson calls Mormonism his "singular reality and identity of existence," not one belief
+  among many. Religion, marriage, family, community, and eternity were integrated into the same
+  authority structure.
+- **9:43-12:12:** He describes losing trust in the authorities responsible for his soul and then
+  trying to construct a stable reality outside the church and marriage. He frames the transition as
+  an existential reconstruction, not a lifestyle adjustment.
+- **15:31:** He says that within roughly one year he sold Braintree, divorced, left Mormonism, and his
+  decade-long depression lifted.
+- **16:03:** Soon afterward, he went to a Brooklyn warehouse party and danced for six or seven hours
+  even though he had never danced before. He recalls joy, freedom, and the release of suppressed
+  desire.
+- **16:33:** He began filtering work through the year 2500 and treating money only as a tool for
+  projects that might remain meaningful at that horizon.
+- **1:03:53:** He contrasts his earlier pursuit of society's prescribed objectives with his current
+  project, a game he chose for himself without seeking others' expectations or acceptance. This is
+  high-value Four-over-Three evidence because he explicitly locates motivation in self-authorship,
+  while the public execution still supports a Three wing.
+- **1:04:54:** He says attacks on him feel energizing, but describes sadness and shame when his father
+  was mocked after the family's plasma experiment. Criticism can be absorbed into the public
+  character; injury to a loved person crosses the boundary.
+
+## Family distance evidence
+
+Full local transcript: `youtube-transcripts-people/bryan-johnson-rich-roll.md`  
+Public source: https://www.youtube.com/watch?v=roHeUk7ApUo  
+Venue/date: _The Rich Roll Podcast_, 2024
+
+- **16:43:** Johnson says leaving Mormonism made him "other" to his children in the same structural
+  way his own father had been placed outside the community's trusted circle.
+- **16:43-19:19:** For six or seven years, he felt two of his children could not fully trust him. He
+  says he nearly lost them as children. This complicates the harmonious family picture presented by
+  Talmage and prevents one son's testimony from standing in for the whole family.
+- **19:19:** He says the authorities entrusted with his soul and community failed him, reinforcing
+  the theme of rebuilding identity and epistemic authority after institutional rupture.
+- **23:30:** He says he trusts data and numbers and returns to the basic claim that he does not want
+  to die. This is strong counterevidence for Five, Six, and One readings and should not be explained
+  away by the Four conclusion.
+
+## Scientific evidence and current limits
+
+- TIME's 2023 profile quotes Eric Verdin and Nir Barzilai on missing transparency, simultaneous
+  interventions, safety questions, and the absence of independent validation. These objections apply
+  to generalization, not to Johnson's sincerity or the value of collecting personal data.
+- A June 2026 _Nature_ report republished by _Scientific American_ places influencer-led longevity
+  programs inside what researchers call a "shadow phase two": interventions that are biologically
+  plausible but clinically unproven acquire public authority without conventional trials.
+- Johnson's reported 2024 rapamycin reversal is important evidence of intellectual openness. It is
+  also evidence that the experiment can impose real harms before a conclusion becomes visible.
+- Johnson's team argues that randomized controlled trials remain the gold standard for testing an
+  individual therapy while deep N-of-1 data can generate new signals. The most accurate editorial
+  conclusion preserves both sides: transparent self-experimentation can be useful, and a highly
+  visible personal result is not proof for a general population.
+
 ## Named third-party testimony
 
 ### Kate Tolo, Blueprint co-founder
@@ -290,11 +357,11 @@ Relevant hypotheses drawn from those sources, to be tested rather than assumed:
 - Counter-hypotheses: Type One control and reform, Type Three achievement/image, and Type Five
   investigation can each explain large parts of the observable persona.
 
-## Preliminary Enneagram analysis: Type 4 hypothesis (superseded but retained as countercase)
+## Detailed Enneagram analysis: Type 4 hypothesis
 
-### Initial call before independent reassessment
+### Adjudicated call after independent reassessment
 
-**Enneagram Type 4, probably self-preservation 4w3. Confidence: medium-high.**
+**Enneagram Type 4, probably self-preservation 4w3. Confidence: medium.**
 
 The core claim is not that Johnson is emotional, creative, or unusual. It is that his life repeatedly
 turns absence and collapse into authored identity. He lost a father, kept waiting, felt sadness
@@ -434,6 +501,10 @@ uses unusually artistic packaging. Public evidence cannot settle the private mot
   https://www.youtube.com/watch?v=db0ld37e2TI
 - Talmage Johnson on _Live Well Be Well_, 2025-04-23:
   https://www.youtube.com/watch?v=aqO-LIavXxk
+- Bryan Johnson on _The Diary of a CEO_, 2023:
+  https://www.youtube.com/watch?v=1yfoonW1InE
+- Bryan Johnson on _The Rich Roll Podcast_, 2024:
+  https://www.youtube.com/watch?v=roHeUk7ApUo
 
 ### Entity / reported background
 
@@ -446,6 +517,9 @@ uses unusually artistic packaging. Public evidence cannot settle the private mot
 - Sarah Todd, "Bryan Johnson's chronic disease is notoriously difficult to diagnose," STAT,
   2026-07-08:
   https://www.statnews.com/2026/07/08/bryan-johnson-autoimmune-gastritis-diagnosis-explained/
+- Mariana Lenharo, "Silicon Valley's Longevity Biohackers Are Engaged in a Dangerous Experiment,"
+  _Nature_ / _Scientific American_, 2026-06-20:
+  https://www.scientificamerican.com/article/silicon-valleys-longevity-biohackers-are-engaged-in-a-dangerous-experiment/
 - Bryan Johnson personal Wikipedia entry (used for basic dates, education, corporate timeline,
   public protocol history, and linked source discovery):
   https://en.wikipedia.org/wiki/Bryan_Johnson

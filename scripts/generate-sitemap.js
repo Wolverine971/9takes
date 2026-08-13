@@ -51,7 +51,7 @@ dotenv.config();
  * }} QuestionCategoryNode
  * @typedef {{ entries: SitemapEntry[], latestLastmod: string | null }} QuestionCategoryPages
  * @typedef {{ contentDates?: DateInput[], routePaths?: string[], fallbackLastmod?: DateInput, siteFallbackLastmod?: DateInput }} StaticLastmodOptions
- * @typedef {{ posts: ContentPost[], peoplePosts: ContentPost[], questions: QuestionRow[], questionCategoryLastmod?: DateInput }} StaticPageOptions
+ * @typedef {{ posts: ContentPost[], peoplePosts: ContentPost[], questions: QuestionRow[] }} StaticPageOptions
  * @typedef {ReturnType<typeof createClient>} SupabaseClient
  */
 
@@ -148,10 +148,6 @@ const ROUTE_FILES = {
 		'src/routes/questions/+page.svelte',
 		'src/routes/questions/+page.server.ts',
 		'src/routes/questions/+page.ts'
-	],
-	questionsCategories: [
-		'src/routes/questions/categories/+page.svelte',
-		'src/routes/questions/categories/+page.server.ts'
 	],
 	questionCategory: [
 		'src/routes/questions/categories/[slug]/+page.svelte',
@@ -422,12 +418,7 @@ function resolveStaticLastmod({
  * @param {StaticPageOptions} options
  * @returns {SitemapEntry[]}
  */
-export function buildStaticPages({
-	posts,
-	peoplePosts,
-	questions,
-	questionCategoryLastmod = null
-}) {
+export function buildStaticPages({ posts, peoplePosts, questions }) {
 	const latestAllPosts = getLatestItemDate(posts, (post) => post.lastmod ?? post.date);
 	const latestBlogContent = getLatestItemDate(posts, (post) =>
 		post.sourceCategory === 'community' ||
@@ -603,14 +594,6 @@ export function buildStaticPages({
 			lastmod: resolveStaticLastmod({
 				contentDates: [latestQuestions],
 				routePaths: ROUTE_FILES.questions,
-				siteFallbackLastmod
-			})
-		},
-		{
-			loc: `${SITE_URL}/questions/categories`,
-			lastmod: resolveStaticLastmod({
-				contentDates: [questionCategoryLastmod],
-				routePaths: ROUTE_FILES.questionsCategories,
 				siteFallbackLastmod
 			})
 		},
@@ -990,8 +973,7 @@ async function generateSitemap() {
 	const staticPages = buildStaticPages({
 		posts,
 		peoplePosts,
-		questions,
-		questionCategoryLastmod: questionCategoryPages.latestLastmod
+		questions
 	});
 
 	/** @type {SitemapEntry[]} */

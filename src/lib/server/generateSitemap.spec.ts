@@ -116,6 +116,19 @@ describe('buildStaticPages', () => {
 		);
 		expect(personalityIndex?.lastmod).toBe('2026-04-06');
 	});
+
+	it('keeps the browse-only question category index out of the sitemap', async () => {
+		const { buildStaticPages } = await loadModuleWithGitDates({});
+		const pages = buildStaticPages({
+			posts: [],
+			peoplePosts: [],
+			questions: []
+		});
+
+		expect(
+			pages.find((page) => page.loc === 'https://9takes.com/questions/categories')
+		).toBeUndefined();
+	});
 });
 
 describe('buildQuestionCategoryEntries', () => {
