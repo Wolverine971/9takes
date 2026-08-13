@@ -5,7 +5,7 @@
 **For:** Evidence audit and editorial repair agent  
 **Owner:** DJ  
 **Created:** 2026-08-13  
-**Status:** Ready for implementation  
+**Status:** Done 2026-08-13. Evidence repair and audit report implemented; `pnpm check` and production compilation passed.
 **Related:** `docs/content-analysis/2026-07-15_enneagram-blog-audit.md`, `docs/seo/2026-08-13-winners-and-declines-refresh.md`, `src/blog/enneagram/enneagram-strengths-and-weaknesses.md`
 
 ## 0. What and why
@@ -80,14 +80,14 @@ Implement the repair and create `docs/content-analysis/2026-08-13-strengths-weak
 
 ## Verification checklist
 
-- [ ] All nine fabricated named case studies are gone.
-- [ ] No unsupported percentage, multiplier, or causal outcome remains.
-- [ ] Visible article, FAQ, and structured data agree.
-- [ ] Search-relevant headings and fragments are preserved unless the report explains the change.
-- [ ] `lastmod`, slug, canonical, and publication state are unchanged.
-- [ ] Zero em dashes and no quality-comment markers remain.
-- [ ] Relevant content lint, formatting, `pnpm check`, and production compilation pass.
-- [ ] The report distinguishes facts, editorial interpretation, and hypothetical examples.
+- [x] All nine fabricated named case studies are gone.
+- [x] No unsupported percentage, multiplier, or causal outcome remains.
+- [x] Visible article, FAQ, and structured data agree.
+- [x] Search-relevant headings and fragments are preserved unless the report explains the change.
+- [x] `lastmod`, slug, canonical, and publication state are unchanged.
+- [x] Zero em dashes and no quality-comment markers remain.
+- [x] Relevant content lint, formatting, `pnpm check`, and production compilation pass.
+- [x] The report distinguishes facts, editorial interpretation, and hypothetical examples.
 
 ## Risks and gotchas
 
@@ -96,3 +96,15 @@ The page already ranks. A total rewrite can erase useful passage relevance while
 ## Definition of done
 
 The page still satisfies the strengths-and-weaknesses query, all fabricated evidence and invented outcomes are removed, the nine sections are materially less templated, checks pass, and the change log makes every evidence decision auditable.
+
+## What was actually done
+
+The nine fabricated case studies and their claimed outcomes were removed. Each type section now uses a concrete context, a shadow, an observable warning sign, and a bounded counter-move. Type 4 and Type 8 retain only clearly labeled hypothetical illustrations with no measured result. The inaccurate description and preview copy changed; title, headings, fragment anchors, links, URL, publication state, date, and `lastmod` stayed fixed.
+
+The full evidence inventory, retained source, before-and-after counts, current GSC passage baseline, field-level change log, and 28-day plan are in `docs/content-analysis/2026-08-13-strengths-weaknesses-evidence-repair.md`.
+
+Verification returned zero fabricated names, unsupported outcome markers, em dashes, en dashes, and article HTML comments. JSON-LD parses with seven FAQs. `pnpm check` passed with 0 errors and 132 pre-existing warnings. The production server and client builds passed. The final budget step reported a protected portrait library of 57.96 MiB against 57.60 MiB and 1,112 files against 1,110, an unrelated overage of 364.61 KiB and 2 files.
+
+DJ's subsequent portrait-budget pipeline fix in commit `9aa6e63c` accepted the intentional portrait baseline. The current full budget check passes.
+
+The flat `quality_*` metadata remains unchanged because T-03 prohibits editing it until DJ decides whether to delete or wire that schema.
