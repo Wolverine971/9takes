@@ -215,7 +215,7 @@ Jesse chose depth. Steve chose a different kind of excess. 905 Shooter got fired
 
 ## The Full Send Podcast and the Rooms It Opened
 
-The UFC brought NELK to Abu Dhabi for Khabib Nurmagomedov's final fight during the COVID bubble. That trip is where Kyle met Dana White for the first time. One week later, they were on Air Force One with Dana, meeting Donald Trump.
+The UFC brought NELK to Abu Dhabi for [Khabib Nurmagomedov's](/personality-analysis/Khabib-Nurmagomedov) final fight during the COVID bubble. That trip is where Kyle met Dana White for the first time. One week later, they were on Air Force One with Dana, meeting Donald Trump.
 
 The relationship with White became a mentorship. Kyle describes White as "the most loyal person," someone with a no-nonsense business approach who was "always ready to offer support." White advised on the Happy Dad launch and, in a moment that became internet lore, gifted Kyle $250,000 in cash.
 

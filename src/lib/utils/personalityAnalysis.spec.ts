@@ -50,6 +50,13 @@ describe('personalityAnalysis helpers', () => {
 		expect(buildPersonalityImagePath(3, 'john-travolta', 'thumbnail')).toBe(
 			'/types/3s/s-John-Travolta.webp'
 		);
+		expect(resolvePersonalityImageSlug('khabib-nurmagomedov')).toBe('Khabib-Nurmagomedov');
+		expect(buildPersonalityImagePath(8, 'khabib-nurmagomedov')).toBe(
+			'/types/8s/Khabib-Nurmagomedov.webp'
+		);
+		expect(buildPersonalityImagePath(8, 'khabib-nurmagomedov', 'thumbnail')).toBe(
+			'/types/8s/s-Khabib-Nurmagomedov.webp'
+		);
 	});
 
 	it('formats display names using the preserved asset casing when available', () => {

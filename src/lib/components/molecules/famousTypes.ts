@@ -479,9 +479,9 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'jocko-willink', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Discipline\'s Unresting Protector', contentGrade: 8.6, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'joe-rogan', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'The Interrogator Who Trusts His Gut', contentGrade: 9.3, types: ['creator', 'comedian', 'podcaster', 'stand-up'] },
 		{ name: 'jon-bernthal', link: true, hasImage: true, lastmod: '2026-04-12', personaTitle: 'Hollywood\'s Tender Brawler', contentGrade: 8.7, types: ['movieStar', 'screen-icon'] },
-		{ name: 'kabib', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'kara-swisher', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Tech\'s Unapologetic Inquisitor', contentGrade: 9, types: ['techie', 'author', 'tech-interpreter', 'business-interpreter'] },
 		{ name: 'katharine-hepburn', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
+		{ name: 'khabib-nurmagomedov', link: true, hasImage: true, lastmod: '2026-08-12', personaTitle: 'MMA\'s Obedient Titan', contentGrade: null, types: ['celebrity', 'athlete'] },
 		{ name: 'lisa-koshy', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
 		{ name: 'malcolm-x', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'Justice\'s Incorruptible Fire', contentGrade: 8.8, types: ['historical', 'movement-leader'] },
 		{ name: 'martin-luther-king-jr', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Pastor Who Weaponized Love', contentGrade: 8.9, types: ['politician', 'movement-leader'] },
@@ -506,7 +506,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'vladimir-putin', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Cornered Rat Who Became Czar', contentGrade: 9, types: ['politician', 'modern-leader'] },
 		{ name: 'winston-churchill', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Britain\'s Weeping Iron', contentGrade: null, types: ['politician', 'modern-leader'] },
 		{ name: 'xi-jinping', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'China\'s Iron Hand', contentGrade: 9, types: ['politician', 'modern-leader'] },
-		{ name: 'khabib-nurmagomedov', link: true, hasImage: true, lastmod: '2026-08-12', personaTitle: 'MMA\'s Obedient Titan', contentGrade: null, types: ['celebrity', 'athlete'] }
+		{ name: 'kabib', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] }
 	],
 	9: [
 		{ name: 'abraham-lincoln', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Melancholy Peacemaker', contentGrade: 9, types: ['historical', 'politician', 'historical-leader'] },

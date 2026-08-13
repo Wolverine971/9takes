@@ -4,9 +4,9 @@ meta_title: 'The Real Reason Khabib Retired at 29-0: Enneagram Type 8'
 persona_title: "MMA's Obedient Titan"
 description: 'Why would the most dominant fighter alive walk away at 29-0? Khabib Nurmagomedov''s Enneagram Type 8 pattern explains the control, the promise, and the exit.'
 author: 'DJ Wayne'
-date: '2026-08-12'
+date: '2026-08-13'
 loc: 'https://9takes.com/personality-analysis/Khabib-Nurmagomedov'
-lastmod: '2026-08-12'
+lastmod: '2026-08-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
