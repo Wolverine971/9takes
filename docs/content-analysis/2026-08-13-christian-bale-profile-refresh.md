@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/2026-08-13-christian-bale-profile-refresh.md -->
+
 # Christian Bale profile refresh
 
 Date: 2026-08-13  

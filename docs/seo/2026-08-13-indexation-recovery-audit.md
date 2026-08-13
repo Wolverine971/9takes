@@ -1,4 +1,5 @@
 <!-- docs/seo/2026-08-13-indexation-recovery-audit.md -->
+
 # Indexation Recovery Audit
 
 **Owner:** T-23 SEO indexation recovery  

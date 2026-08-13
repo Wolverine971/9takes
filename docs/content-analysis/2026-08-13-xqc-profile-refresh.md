@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/2026-08-13-xqc-profile-refresh.md -->
+
 # xQc Profile Refresh
 
 **Date:** 2026-08-13  

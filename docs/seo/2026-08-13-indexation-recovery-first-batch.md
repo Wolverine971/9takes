@@ -1,4 +1,5 @@
 <!-- docs/seo/2026-08-13-indexation-recovery-first-batch.md -->
+
 # Indexation Recovery First Batch Change Log
 
 **Date:** 2026-08-13  

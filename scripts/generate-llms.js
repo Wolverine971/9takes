@@ -1,3 +1,4 @@
+// scripts/generate-llms.js
 // Generates the short, curated static/llms.txt overview.
 //
 // The former llms-full.txt corpus manifest was intentionally retired. Search

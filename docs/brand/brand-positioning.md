@@ -42,25 +42,25 @@ five levels rather than compete with it.
 
 ## Brand Pillars
 
-| Pillar                                 | One-liner                                        | Why It Matters                                                                                |
-| -------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| **Emotional Foundation Mapping**       | Understand WHY people see things differently     | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read |
-| **Give-First Intelligence**            | Comment first, then see everyone else's take     | Prevents groupthink; reveals authentic perspective before outside influence                   |
-| **Stop Mistaking Alarms for Defects**  | Someone else's emotional alarm is not a flaw     | The personal payoff: understanding the alarm behind a reaction replaces judgment             |
-| **One Question, Nine Perspectives**    | Same situation, nine coherent readings           | Drama becomes legible when you see the emotional logic behind each take                       |
-| **Ancient Wisdom, Modern Application** | Continuing a 2,500-year tradition                | From Plato's soul theory to modern psychology—timeless insights with practical navigation     |
+| Pillar                                 | One-liner                                    | Why It Matters                                                                                |
+| -------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Emotional Foundation Mapping**       | Understand WHY people see things differently | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read |
+| **Give-First Intelligence**            | Comment first, then see everyone else's take | Prevents groupthink; reveals authentic perspective before outside influence                   |
+| **Stop Mistaking Alarms for Defects**  | Someone else's emotional alarm is not a flaw | The personal payoff: understanding the alarm behind a reaction replaces judgment              |
+| **One Question, Nine Perspectives**    | Same situation, nine coherent readings       | Drama becomes legible when you see the emotional logic behind each take                       |
+| **Ancient Wisdom, Modern Application** | Continuing a 2,500-year tradition            | From Plato's soul theory to modern psychology—timeless insights with practical navigation     |
 
 ---
 
 ## Brand Values
 
-| Value                                  | Meaning                               | How It Shows Up                                                             |
-| -------------------------------------- | ------------------------------------- | --------------------------------------------------------------------------- |
-| **Understanding Over Judgment**        | Explain behavior without shaming      | Content reveals WHY someone acts a way, not that they're "wrong"            |
-| **Pattern Recognition Over Guesswork** | Show the emotional logic              | "She's not 'being difficult'—Type 1s need things done right the first time" |
-| **Authentic Perspective First**        | Your take matters before the crowd's  | Give-first mechanic: comment before seeing others' responses                |
-| **Practical Application**              | Theory serves action                  | Every insight connects to a "try this tonight" moment                       |
-| **Genuine Curiosity**                  | The destination of self-knowledge     | Foster interest in others' worldviews, not just understanding your own      |
+| Value                                  | Meaning                              | How It Shows Up                                                             |
+| -------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------- |
+| **Understanding Over Judgment**        | Explain behavior without shaming     | Content reveals WHY someone acts a way, not that they're "wrong"            |
+| **Pattern Recognition Over Guesswork** | Show the emotional logic             | "She's not 'being difficult'—Type 1s need things done right the first time" |
+| **Authentic Perspective First**        | Your take matters before the crowd's | Give-first mechanic: comment before seeing others' responses                |
+| **Practical Application**              | Theory serves action                 | Every insight connects to a "try this tonight" moment                       |
+| **Genuine Curiosity**                  | The destination of self-knowledge    | Foster interest in others' worldviews, not just understanding your own      |
 
 ### Values in Action
 
@@ -213,15 +213,15 @@ five levels rather than compete with it.
 
 ## Key Concepts & Preferred Terms
 
-| Concept             | Use This                                             | Avoid                                            | Notes                                                          |
-| ------------------- | ---------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------------------- |
-| Brand promise       | See the emotions behind every take                   | One situation, 9 ways to see it                  | Level 2; bios, page furniture, closings                        |
-| Product description | One question, nine perspectives                      | nine ways to see it                              | Level 4; the fast explanation                                  |
-| Core mechanic       | Answer before the crowd (public)                     | give-first, comment-first (in public copy)       | "Give-first unlock" is internal/product-strategy language only |
-| Personal payoff     | Stop mistaking someone else's alarm for a defect     | personality-maxing (campaign vocabulary only)    | Level 5; stories about conflict, blind spots, recognition      |
-| Conflict approach   | See the emotions behind every take                   | open source conflict resolution (in public copy) | OSCR is an internal strategic metaphor                         |
-| Social navigation   | Decode social dynamics                               | improve relationships                            | Voice-level framing, never the umbrella                        |
-| Content approach    | Lead with the human situation                        | Enneagram-terminology-first openings             | The framework explains the story; it is not the opener         |
+| Concept             | Use This                                         | Avoid                                            | Notes                                                          |
+| ------------------- | ------------------------------------------------ | ------------------------------------------------ | -------------------------------------------------------------- |
+| Brand promise       | See the emotions behind every take               | One situation, 9 ways to see it                  | Level 2; bios, page furniture, closings                        |
+| Product description | One question, nine perspectives                  | nine ways to see it                              | Level 4; the fast explanation                                  |
+| Core mechanic       | Answer before the crowd (public)                 | give-first, comment-first (in public copy)       | "Give-first unlock" is internal/product-strategy language only |
+| Personal payoff     | Stop mistaking someone else's alarm for a defect | personality-maxing (campaign vocabulary only)    | Level 5; stories about conflict, blind spots, recognition      |
+| Conflict approach   | See the emotions behind every take               | open source conflict resolution (in public copy) | OSCR is an internal strategic metaphor                         |
+| Social navigation   | Decode social dynamics                           | improve relationships                            | Voice-level framing, never the umbrella                        |
+| Content approach    | Lead with the human situation                    | Enneagram-terminology-first openings             | The framework explains the story; it is not the opener         |
 
 ---
 

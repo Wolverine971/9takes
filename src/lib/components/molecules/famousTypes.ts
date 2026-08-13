@@ -286,7 +286,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'jack-dorsey', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'Tech\'s Silent Architect', contentGrade: 8.5, types: ['techie', 'big-tech-founder'] },
 		{ name: 'jerry-seinfeld', link: false, hasImage: true, lastmod: '2026-05-17', personaTitle: 'Comedy\'s Monastic Craftsman', contentGrade: 8.7, types: ['comedian', 'celebrity'] },
 		{ name: 'john-d-rockefeller', link: true, hasImage: true, lastmod: '2026-06-22', personaTitle: 'The Ledger\'s First Billionaire', contentGrade: 8.8, types: ['entrepreneur', 'historical', 'historical-artist', 'business-operator'] },
-		{ name: 'larry-page', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Silicon Valley\'s Vanishing Architect', contentGrade: 9, types: ['techie', 'entrepreneur', 'business-operator'] },
+		{ name: 'larry-page', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Silicon Valley\'s Quiet Systems Architect', contentGrade: 9, types: ['techie', 'entrepreneur', 'business-operator'] },
 		{ name: 'leonardo-da-vinci', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'History\'s Insatiable Observer', contentGrade: 8.6, types: ['historical', 'historical-scientist'] },
 		{ name: 'lex-fridman', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Podcasting\'s Holy Fool', contentGrade: 8.6, types: ['creator', 'techie', 'podcaster', 'tech-interpreter'] },
 		{ name: 'malcolm-gladwell', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Ideas\' Silent Architect', contentGrade: 8.6, types: ['author', 'strategy-writer'] },

@@ -23,13 +23,13 @@ _Updated May 22 2025 · Messaging superseded 2026-08-13_
 
 ## 1. Brand Essence
 
-| Pillar                                 | One‑liner                                                            | Why it matters                                                                                                                                             |
-| -------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Emotional Foundation Mapping**       | _"Understand WHY people see things differently."_                    | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read and navigate.                                                |
-| **Give‑First Intelligence**            | _"Comment first, then see everyone else's take."_                    | The give‑first mechanic prevents groupthink and reveals your authentic perspective before outside influence kicks in.                                      |
-| **Stop Mistaking Alarms for Defects**  | _"Someone else's emotional alarm is not a character flaw."_          | The personal payoff: understanding the alarm behind a reaction replaces judgment with comprehension — of others and of your own blind spots.               |
-| **One Question, Nine Perspectives**    | _"Same situation, nine coherent readings."_                          | What looks like unsolvable drama becomes legible when you see the emotional logic behind each take. The differences are the value, not a problem to fix.   |
-| **Ancient Wisdom, Modern Application** | _"Continuing a 2,500‑year tradition of understanding human nature."_ | From Plato's soul theory to modern psychology—the Enneagram bridges timeless insights with practical social navigation.                                    |
+| Pillar                                 | One‑liner                                                            | Why it matters                                                                                                                                           |
+| -------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Emotional Foundation Mapping**       | _"Understand WHY people see things differently."_                    | Social dynamics aren't random—they're driven by core emotional patterns you can learn to read and navigate.                                              |
+| **Give‑First Intelligence**            | _"Comment first, then see everyone else's take."_                    | The give‑first mechanic prevents groupthink and reveals your authentic perspective before outside influence kicks in.                                    |
+| **Stop Mistaking Alarms for Defects**  | _"Someone else's emotional alarm is not a character flaw."_          | The personal payoff: understanding the alarm behind a reaction replaces judgment with comprehension — of others and of your own blind spots.             |
+| **One Question, Nine Perspectives**    | _"Same situation, nine coherent readings."_                          | What looks like unsolvable drama becomes legible when you see the emotional logic behind each take. The differences are the value, not a problem to fix. |
+| **Ancient Wisdom, Modern Application** | _"Continuing a 2,500‑year tradition of understanding human nature."_ | From Plato's soul theory to modern psychology—the Enneagram bridges timeless insights with practical social navigation.                                  |
 
 ---
 
@@ -60,15 +60,15 @@ _Updated May 22 2025 · Messaging superseded 2026-08-13_
 
 ## 4. Key Concepts & Preferred Terms
 
-| Concept             | Use This                                                | Avoid                                                | Notes                                                                 |
-| ------------------- | ------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------- |
-| Brand promise       | **See the emotions behind every take**                  | One situation, 9 ways to see it                      | Level 2 of the hierarchy; bios, page furniture, closings.             |
-| Product description | **One question, nine perspectives**                     | nine ways to see it                                  | Level 4; the fast explanation of 9takes.                              |
-| Core mechanic       | **Answer before the crowd** (public)                    | give‑first, comment‑first, bias‑proof practice       | "Give‑first unlock" is internal/product‑strategy language only.       |
-| Personal payoff     | **Stop mistaking someone else's alarm for a defect**    | personality‑maxing, level up your EQ                 | Personality‑maxing is campaign vocabulary only, never the umbrella.   |
-| Conflict approach   | **See the emotions behind every take**                  | open source conflict resolution (in public copy)     | OSCR is an internal strategic metaphor, not a public message.         |
-| Social navigation   | **Decode social dynamics**                              | improve relationships                                | Voice-level verb framing; fine in copy, never the umbrella.           |
-| Content approach    | Lead with the human situation                           | Enneagram-terminology-first openings                 | The framework is the map that explains the story, not the opener.     |
+| Concept             | Use This                                             | Avoid                                            | Notes                                                               |
+| ------------------- | ---------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------- |
+| Brand promise       | **See the emotions behind every take**               | One situation, 9 ways to see it                  | Level 2 of the hierarchy; bios, page furniture, closings.           |
+| Product description | **One question, nine perspectives**                  | nine ways to see it                              | Level 4; the fast explanation of 9takes.                            |
+| Core mechanic       | **Answer before the crowd** (public)                 | give‑first, comment‑first, bias‑proof practice   | "Give‑first unlock" is internal/product‑strategy language only.     |
+| Personal payoff     | **Stop mistaking someone else's alarm for a defect** | personality‑maxing, level up your EQ             | Personality‑maxing is campaign vocabulary only, never the umbrella. |
+| Conflict approach   | **See the emotions behind every take**               | open source conflict resolution (in public copy) | OSCR is an internal strategic metaphor, not a public message.       |
+| Social navigation   | **Decode social dynamics**                           | improve relationships                            | Voice-level verb framing; fine in copy, never the umbrella.         |
+| Content approach    | Lead with the human situation                        | Enneagram-terminology-first openings             | The framework is the map that explains the story, not the opener.   |
 
 ---
 
