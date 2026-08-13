@@ -60,6 +60,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Check static asset budgets
+        run: pnpm check:budgets:static
+
       - name: Check types and Svelte
         run: pnpm check
 

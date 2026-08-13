@@ -25,6 +25,13 @@ Generate the full and thumbnail assets with the existing script:
 ./scripts/prepare-personality-image.sh /path/to/source.png 3 Person-Name
 ```
 
+When the command writes to the repository's `static/types` directory, it also updates the exact
+portrait byte and file-count baseline in `scripts/build-budgets.json`. The portrait byte delta is
+applied to the client-output and runtime-asset ceilings so their existing non-portrait headroom is
+preserved. This keeps intentional portrait additions on the production deploy path without
+weakening the other asset ratchets. Custom output roots used for tests or previews do not change
+the repository baseline.
+
 The command writes `static/types/3s/Person-Name.webp` and
 `static/types/3s/s-Person-Name.webp`. It keeps the established full/thumbnail naming contract used by
 the personality image resolver.

@@ -67,6 +67,13 @@ echo "Created personality image assets:"
 echo "  $full_output"
 echo "  $thumbnail_output"
 
+if [[ "$output_root" == "$repo_root/static/types" ]]; then
+	(
+		cd "$repo_root"
+		node scripts/check-build-budgets.mjs --accept-portrait-baseline
+	)
+fi
+
 if command -v sips >/dev/null 2>&1; then
 	sips -g pixelWidth -g pixelHeight "$full_output" "$thumbnail_output"
 fi

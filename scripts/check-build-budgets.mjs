@@ -1,5 +1,5 @@
 // scripts/check-build-budgets.mjs
-import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -11,6 +11,20 @@ const STATIC_DIR = path.join(ROOT, 'static');
 const MANIFEST_PATH = path.join(CLIENT_DIR, '.vite', 'manifest.json');
 const BUDGET_PATH = path.join(SCRIPT_DIR, 'build-budgets.json');
 const ASSET_POLICY_PATH = path.join(SCRIPT_DIR, 'static-asset-policy.json');
+const args = new Set(process.argv.slice(2));
+const supportedArgs = new Set(['--static-only', '--accept-portrait-baseline']);
+const unknownArgs = [...args].filter((arg) => !supportedArgs.has(arg));
+const acceptPortraitBaseline = args.has('--accept-portrait-baseline');
+const staticOnly = args.has('--static-only') || acceptPortraitBaseline;
+const staticBudgetKeys = new Set([
+	'runtimeAssetBytes',
+	'runtimeAssetsOver1MiB',
+	'runtimeAssetsOver5MiB',
+	'largestRuntimeAssetBytes',
+	'portraitAssetBytes',
+	'portraitAssetFiles',
+	'blogPngMastersInStatic'
+]);
 const RUNTIME_ASSET_EXTENSIONS = new Set([
 	'.avif',
 	'.gif',
@@ -28,7 +42,14 @@ const RUNTIME_ASSET_EXTENSIONS = new Set([
 	'.woff2'
 ]);
 
-if (!existsSync(MANIFEST_PATH)) {
+if (unknownArgs.length > 0) {
+	console.error(
+		`Unknown build-budget argument${unknownArgs.length === 1 ? '' : 's'}: ${unknownArgs.join(', ')}`
+	);
+	process.exit(1);
+}
+
+if (!staticOnly && !existsSync(MANIFEST_PATH)) {
 	console.error(
 		`Build budget check requires ${path.relative(ROOT, MANIFEST_PATH)}. Run pnpm build first.`
 	);
@@ -87,12 +108,9 @@ function findGlobalCss(manifest) {
 
 const budgets = JSON.parse(readFileSync(BUDGET_PATH, 'utf8'));
 const assetPolicy = JSON.parse(readFileSync(ASSET_POLICY_PATH, 'utf8'));
-const manifest = JSON.parse(readFileSync(MANIFEST_PATH, 'utf8'));
-const clientFiles = walkFiles(CLIENT_DIR);
 const runtimeAssets = walkFiles(STATIC_DIR).filter((file) =>
 	RUNTIME_ASSET_EXTENSIONS.has(path.extname(file).toLowerCase())
 );
-const globalCss = findGlobalCss(manifest);
 const runtimeAssetRows = runtimeAssets
 	.map((file) => ({ path: path.relative(ROOT, file), bytes: statSync(file).size }))
 	.sort((a, b) => b.bytes - a.bytes);
@@ -106,8 +124,6 @@ const blogPngMastersInStatic = runtimeAssets.filter((file) => {
 }).length;
 
 const metrics = {
-	globalCssBytes: globalCss.bytes,
-	clientOutputBytes: bytesIn(clientFiles),
 	runtimeAssetBytes: runtimeAssetRows.reduce((total, asset) => total + asset.bytes, 0),
 	runtimeAssetsOver1MiB: runtimeAssetRows.filter((asset) => asset.bytes > MIB).length,
 	runtimeAssetsOver5MiB: runtimeAssetRows.filter((asset) => asset.bytes > 5 * MIB).length,
@@ -116,6 +132,29 @@ const metrics = {
 	portraitAssetFiles: portraitAssetRows.length,
 	blogPngMastersInStatic
 };
+
+let globalCss = null;
+if (!staticOnly) {
+	const manifest = JSON.parse(readFileSync(MANIFEST_PATH, 'utf8'));
+	const clientFiles = walkFiles(CLIENT_DIR);
+	globalCss = findGlobalCss(manifest);
+	metrics.globalCssBytes = globalCss.bytes;
+	metrics.clientOutputBytes = bytesIn(clientFiles);
+}
+
+if (acceptPortraitBaseline) {
+	const previousBytes = budgets.portraitAssetBytes;
+	const previousFiles = budgets.portraitAssetFiles;
+	const portraitByteDelta = metrics.portraitAssetBytes - previousBytes;
+	budgets.clientOutputBytes += portraitByteDelta;
+	budgets.runtimeAssetBytes += portraitByteDelta;
+	budgets.portraitAssetBytes = metrics.portraitAssetBytes;
+	budgets.portraitAssetFiles = metrics.portraitAssetFiles;
+	writeFileSync(BUDGET_PATH, `${JSON.stringify(budgets, null, '\t')}\n`);
+	console.log(
+		`Accepted portrait baseline: ${formatBytes(previousBytes)} / ${previousFiles} files -> ${formatBytes(metrics.portraitAssetBytes)} / ${metrics.portraitAssetFiles} files`
+	);
+}
 
 const labels = {
 	globalCssBytes: 'Root/global CSS',
@@ -148,6 +187,7 @@ const staleLargeAssetReviews = [...reviewedLargeAssetPaths].filter(
 );
 
 for (const [key, maximum] of Object.entries(budgets)) {
+	if (staticOnly && !staticBudgetKeys.has(key)) continue;
 	const actual = metrics[key];
 	if (typeof actual !== 'number') throw new Error(`Unknown build-budget metric: ${key}`);
 
@@ -158,7 +198,7 @@ for (const [key, maximum] of Object.entries(budgets)) {
 	if (!passed) failures.push(`${labels[key]} exceeded its budget by ${format(actual - maximum)}`);
 }
 
-console.log(`  Global stylesheet: ${globalCss.path}`);
+if (globalCss) console.log(`  Global stylesheet: ${globalCss.path}`);
 if (runtimeAssetRows[0]) {
 	console.log(
 		`  Largest runtime asset: ${runtimeAssetRows[0].path} (${formatBytes(runtimeAssetRows[0].bytes)})`
