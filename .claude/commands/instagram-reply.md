@@ -62,7 +62,7 @@ Read these three things every pass — they are load-bearing:
 
 **Why this framing:** Past versions of this command pulled in 5-6 brand docs and drafts came out as generic Enneagram-coach wisdom: abstract, sage, neutral, indistinguishable from any other personality account. Those docs are mostly about original _posting_ (carousels, reels, captions), not _commenting on other accounts' posts_. The voice rules below — embedded in **The 9takes Voice for IG Comments** — are tuned specifically for the comment context. Treat them as the canonical source of voice truth for this pass; the brand docs above are supplemental only.
 
-If `/.claude/skills/instagram.skill.md` exists, also follow it for browser interaction. The most important browser-recovery rules are inlined below.
+Also read and follow `docs/instagram/instagram-browser-rules.md` for browser interaction. The most important browser-recovery rules are inlined below.
 
 ---
 

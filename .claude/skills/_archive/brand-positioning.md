@@ -9,6 +9,7 @@ triggers:
   - brand values
   - positioning statement
 allowed-tools: Read, Write, Edit, Grep, Glob, WebSearch, AskUserQuestion
+path: .claude/skills/_archive/brand-positioning.md
 ---
 
 # Brand Positioning Architect

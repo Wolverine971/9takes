@@ -66,6 +66,13 @@ product shells should start from a shared center container and the spacing scale
 Do not introduce a one-off `max-w-[1170px]`, `p-5`, `gap-7`, or bespoke side padding unless the
 audit documents why the surface needs a carve-out.
 
+The root layout defaults to the contained reading shell. A route that owns a broad marketing,
+index, or product canvas must opt into `pageShell: 'owned'` from its `+page` or `+layout` load,
+preferably through `withOwnedPageShell` in `src/lib/layout/pageShell.ts`. Keep route families on a
+parent layout where possible. Do not restore pathname allowlists in the root layout: they drift as
+new nested routes are added and make a page's effective width impossible to infer from its own
+route files.
+
 ---
 
 ## Hierarchy & Labels
@@ -225,6 +232,31 @@ Use `src/lib/components/atoms/Button.svelte`, `src/lib/components/atoms/Modal.sv
 it must still replicate the basics: clear label, keyboard operation, focus-visible ring, disabled/loading
 state, 44px-ish tap target where practical, and reduced-motion-safe transitions.
 
+Modal dialogs and modal navigation drawers must also provide the complete focus-boundary contract:
+
+- A descriptive accessible name through `name`/`aria-label` or `labelledBy`.
+- Initial focus inside the overlay, with an explicit selector when the first control is not the right target.
+- Tab and Shift+Tab wrapping within the active overlay.
+- An inert page background and a shared, reference-counted body scroll lock.
+- Escape-to-close where dismissal is allowed, plus focus restoration to the opener.
+- Inert, accessibility-hidden markup while a persistent portaled dialog is closed.
+
+Use `src/lib/utils/focusBoundary.ts` for shared focus discovery, trapping, background inerting, and focus
+restoration. Do not create another route-local focus-trap implementation.
+
+Public forms must also preserve their meaning when placeholder text disappears and when a toast times
+out:
+
+- Keep a persistent, visible `<label>` associated through `for`/`id`; placeholders are examples only.
+- Give help, counters, and errors stable IDs, then connect the relevant control with
+  `aria-describedby` and `aria-invalid`.
+- Keep validation and API failures in the form as durable `role="alert"` content. A toast may repeat
+  the message, but it cannot be the only error channel.
+- Use theme-aware text roles (`--success-text`, `--warning-text`, `--error-text`, `--info-text`) for
+  status copy. Reserve raw status/type hues for borders, fills, stripes, and data marks.
+- Filled destructive controls must pair `--danger-surface` with `--text-on-danger`; do not assume
+  white text is readable on every danger surface or theme.
+
 Do not edit canonical primitives during an audit unless DJ explicitly approves changing the system itself.
 
 ---
@@ -380,6 +412,76 @@ Use the same first and last color stops, clip to text, and disable motion under 
 ```
 
 Marketing/editorial only. Never app chrome. Confirm contrast in the live pass.
+
+---
+
+## Color Harmony
+
+### P19 - Budget The Brand Accent
+
+**Finding:** several neighboring elements all use fully saturated `--lamp-glow`, so the interface
+loses hierarchy and the sodium-amber identity reads as generic yellow UI chrome.
+
+Give the strongest amber to primary actions, focus indicators, active states, and compact
+`SectionKicker` illumination. Resting identity text and passive chrome should sit in the ink/marble
+family; borders and surface tints may mix a small amount of amber into stone.
+
+```css
+.brand-wordmark {
+	color: color-mix(in srgb, var(--ink-bright) 90%, var(--lamp-deep));
+}
+
+.brand-wordmark:hover {
+	color: color-mix(in srgb, var(--ink-bright) 72%, var(--lamp-glow));
+}
+
+.quiet-accent-border {
+	border-color: color-mix(in srgb, var(--lamp-glow) 18%, var(--stone-edge));
+}
+```
+
+Do not replace every amber usage mechanically. Judge the local accent budget: one dominant action,
+small illuminated labels, and quiet mixed borders can coexist; several solid yellow elements cannot.
+Color-only transitions do not require a reduced-motion fallback, but never attach glow movement or
+hover translation merely to make the quieter treatment noticeable.
+
+---
+
+### P20 - Contain Legacy Media Color
+
+**Finding:** a repeated accent baked into a protected image library competes with the current brand
+accent or semantic data colors, but rewriting every source asset would be destructive or impractical.
+
+Keep the source media unchanged and create an explicit, theme-aware presentation treatment. Put the
+image on a quiet semantic well, lower saturation/contrast only as much as needed, and keep surrounding
+frame chrome neutral. Callers must opt in by meaning; never infer the treatment from a URL or apply it
+to a shared card globally.
+
+```css
+:root {
+	--portrait-well: #2c1f28;
+	--portrait-filter: contrast(1.08) brightness(0.92) saturate(0.68);
+}
+
+:root.light {
+	--portrait-well: #f6f3fb;
+	--portrait-filter: contrast(1.02) brightness(0.99) saturate(0.58);
+}
+
+.portrait-well {
+	background: var(--portrait-well);
+}
+
+.portrait-image {
+	filter: var(--portrait-filter);
+	mix-blend-mode: normal;
+}
+```
+
+Preserve a predictable scrim wherever text overlaps the media (P10), and re-check the local accent
+budget afterward (P19). A static color filter needs no motion fallback. If hover movement or a filter
+transition is present, gate the movement with `prefers-reduced-motion` and ensure every hover/focus
+state retains the base treatment rather than snapping back to the source color.
 
 ---
 

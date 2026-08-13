@@ -10,7 +10,7 @@ One rulebook for every editorial tool (the `editor` agent, `/deai`, `/copywritin
 
 ## Hard rules (never violate)
 
-1. **Never modify `lastmod` frontmatter.** DJ manages it manually. No enrichment, editing, or automated pass touches it.
+1. **Never modify `lastmod` frontmatter.** DJ manages it manually. No enrichment, editing, or automated pass touches it. One exception: the publish commands (`/blog_content_publish_people`, `/blog_content_publish_pop_culture`) set `date` and `lastmod` once at publish time — publishing is not editing.
 2. **Em-dashes are banned in blog content.** Zero per article (the blog lint enforces this). Replace with commas, periods, or restructure. This supersedes any older "1–2 is fine" guidance.
 3. **Quality gate: overall grade ≥ 8.5 and discoverability ≥ 7** (per `/grade_blog`) before a draft is publish-eligible.
 4. **Perspective gate: current reader-visible copy must have a passing six-perspective verification.** The subject-fairness, informed-fan, fair-minded-critic, unfamiliar-reader, Enneagram-expert, and one-year-future proxies run independently from one frozen draft. Missing, unresolved, or stale verification blocks publishing.
@@ -72,7 +72,7 @@ Cut: same point restated back-to-back with nothing new, identical phrasing recur
 - **title** — works for humans (curiosity) AND search (key terms); specific, not generic
 - **description** — the meta description: ~120–155 chars, core value proposition, makes someone click
 - **published** — correct for the post's status (never flip without explicit approval)
-- **date** — accurate; **lastmod** — DO NOT TOUCH
+- **date** — accurate; **lastmod** — DO NOT TOUCH (publish commands set both once at publish time; that is the only exception)
 - **enneagram** — correct type number
 
 ## Quality bar (post-edit)

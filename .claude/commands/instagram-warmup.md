@@ -67,7 +67,7 @@ Three rules carried from the cluster doc:
 2. **Never diagnose a stranger.** Name the _pattern_, never "you're a Type X." (See [feedback: Instagram comment style].)
 3. **The Enneagram is the internal lens, not the public talking point.** (This is why visibility Level 0 is the default in these ponds.)
 
-If an Instagram browser automation skill exists at `/.claude/skills/instagram.skill.md`, read and follow it before interacting with Instagram.
+Read and follow the Instagram browser rules at `docs/instagram/instagram-browser-rules.md` before interacting with Instagram.
 
 ---
 

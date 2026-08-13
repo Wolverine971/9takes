@@ -19,7 +19,7 @@ You are auditing one 9takes surface with HyperPlexed's eye: alignment first, dec
 | `docs/design-system.md`                                                               | 9takes V5 source of truth: Streetlamp Symposium, tokens, radius, shadows, atoms          |
 | `docs/design/2026-06-09-design-audit.md` and `docs/design/2026-06-11-mobile-audit.md` | Broad prior audits; cross-reference overlapping findings                                 |
 
-If those docs are missing, fall back to `.claude/skills/hyperplexed-audit/references/` for the original playbook, fix patterns, tracker shape, examples, and transcripts.
+If those docs are missing, fall back to `.codex/skills/hyperplexed-audit/references/` for the original playbook, fix patterns, tracker shape, examples, and transcripts.
 
 ## If Invoked Without A Target
 

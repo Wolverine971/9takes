@@ -4,6 +4,7 @@ description: Turn messy notes, source files, research logs, or a topic into a co
 argument-hint: '<person, topic, file path, or notes>'
 context: fork
 agent: general-purpose
+path: .claude/skills/research-brief-builder/SKILL.md
 ---
 
 # Research Brief Builder
@@ -35,7 +36,7 @@ Load the minimum relevant context:
 
 If this is a people-analysis workflow, also load:
 
-- `.claude/commands/blog_content_creator_people.md`
+- `.claude/commands/blog_content_creator_people_v2.md`
 - `docs/blogs-famous-people/prompts/research-prompt.md`
 
 If an evidence log exists, use that before re-researching.

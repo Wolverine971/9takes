@@ -95,10 +95,10 @@ After implementation, run the local checks appropriate to the repo. Default for 
 ```bash
 pnpm check
 pnpm lint:radius
-pnpm format
+npx prettier --write <only the files you touched>
 ```
 
-Use `pnpm lint` for broader styling or multi-file work. State the results. If fixes are visual, note whether live before/after screenshots were captured at desktop and iPhone widths. If not captured, mark that as still owed.
+Never run repo-wide `pnpm format` — other agents and the user may have uncommitted work in parallel. Use `pnpm lint` for broader styling or multi-file work. State the results. If fixes are visual, note whether live before/after screenshots were captured at desktop and iPhone widths. If not captured, mark that as still owed.
 
 Update docs when the surface warrants it:
 

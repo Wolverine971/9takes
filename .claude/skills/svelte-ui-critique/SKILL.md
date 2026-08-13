@@ -2,6 +2,7 @@
 name: svelte-ui-critique
 description: Review a Svelte or SvelteKit route, component, or admin flow for hierarchy, mobile clarity, token usage, state design, and Svelte 5 fit. Use when critiquing product or admin UI before making design changes.
 argument-hint: '<route, component, or file path>'
+path: .claude/skills/svelte-ui-critique/SKILL.md
 ---
 
 # Svelte UI Critique
@@ -29,9 +30,8 @@ Examples:
 Load the minimum relevant context:
 
 - `CLAUDE.md`
-- `.claude/commands/design-update.md`
 - `docs/brand/README.md`
-- `docs/admin-style-audit.md`
+- `docs/design/admin-style-audit.md`
 
 If the target is not in admin, also load the most relevant design or CSS guide you can find under `docs/design/` or `docs/development/`.
 
@@ -95,8 +95,9 @@ Use the supporting template and adapt it to the target.
 - Findings first. Summary second.
 - Prioritize behavior, hierarchy, and clarity over aesthetic preferences.
 - Distinguish style drift from actual UX risk.
-- For admin surfaces, use `docs/admin-style-audit.md` as the baseline.
-- For implementation follow-up, prefer handing off to the existing `design-update` workflow unless the user explicitly wants this skill to continue into edits.
+- For admin surfaces, use `docs/design/admin-style-audit.md` as the baseline.
+- For implementation follow-up, prefer handing off to the `hyperplexed-audit` skill unless the user explicitly wants this skill to continue into edits.
+- Scope split with `hyperplexed-audit`: this skill is a fast, read-only critique pass (hierarchy, mobile, tokens, Svelte 5 fit). Use `hyperplexed-audit` when the task calls for the full HyperPlexed workflow — P-pattern recipes, implementation fixes, and tracker updates.
 
 ## Save Behavior
 

@@ -1,8 +1,9 @@
-# Instagram Browser Skill
+<!-- docs/instagram/instagram-browser-rules.md -->
+# Instagram Browser Rules
 
-Canonical rules for any command that drives a browser against Instagram (`/instagram-warmup`, `/instagram-reply`, `/distribute-instagram`, etc.).
+Canonical rules for any command that drives a browser against Instagram (`/instagram-warmup`, `/instagram-reply`, `/distribute-instagram`, etc.). (Formerly `.claude/skills/instagram.skill.md`; relocated 2026-08-13 because a flat file in `.claude/skills/` is not a discoverable skill.)
 
-The most important parts of this skill are also inlined into each command so the command is self-sufficient if this file is missed. If you change something here, mirror the change into the inline blocks in `.claude/commands/instagram-*.md`.
+The most important parts of this doc are also inlined into each command so the command is self-sufficient if this file is missed. If you change something here, mirror the change into the inline blocks in `.claude/commands/instagram-*.md`.
 
 ---
 

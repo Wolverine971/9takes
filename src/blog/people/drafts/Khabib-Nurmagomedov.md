@@ -9,7 +9,7 @@ loc: 'https://9takes.com/personality-analysis/Khabib-Nurmagomedov'
 lastmod: '2026-08-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '8'
 type: ['celebrity', 'athlete']
 person: 'Khabib-Nurmagomedov'

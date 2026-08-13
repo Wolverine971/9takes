@@ -7,7 +7,7 @@
 >
 > **Source:** 20 transcribed videos (the design-judgment "I Redesigned Popular Websites" series, the
 > bad-UI/good-UX commentary videos, and the signature interaction-effect tutorials) plus frame review
-> of two videos. Raw transcripts live in `.claude/skills/hyperplexed-audit/references/transcripts/`
+> of two videos. Raw transcripts live in `.codex/skills/hyperplexed-audit/references/transcripts/`
 > and `.codex/skills/hyperplexed-audit/references/transcripts/`. Corpus completed 2026-07-01.
 >
 > **Why this exists:** Hyperplexed is the clearest working demonstration of _front-end taste_ on YouTube —

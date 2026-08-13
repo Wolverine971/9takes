@@ -24,7 +24,7 @@ Create a daily engagement doc at:
 
 **REQUIRED:** Before interacting with Instagram in the browser, read and follow the workflows in:
 
-- `/.claude/skills/instagram.skill.md` - Contains proven click patterns, selectors, and URL patterns for Instagram automation
+- `docs/instagram/instagram-browser-rules.md` - Contains proven click patterns, selectors, and URL patterns for Instagram automation
 
 This skill file documents:
 
