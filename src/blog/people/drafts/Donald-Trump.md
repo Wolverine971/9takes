@@ -6,7 +6,7 @@ description: "Trump's Type 3 personality decoded: the image obsession, the fear 
 author: 'DJ Wayne'
 date: '2025-01-20'
 loc: 'https://9takes.com/personality-analysis/donald-trump'
-lastmod: '2026-02-20'
+lastmod: '2026-08-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -66,15 +66,31 @@ citations:
   - 'https://millercenter.org/president/trump'
   - 'https://www.britannica.com/biography/Donald-Trump'
   - 'https://www.whitehouse.gov/administration/donald-j-trump/'
+  - 'https://www.fec.gov/resources/cms-content/documents/2024presgeresults.pdf'
+  - 'https://www.archives.gov/electoral-college/2024'
+  - 'https://www.whitehouse.gov/remarks/2025/01/the-inaugural-address/'
+  - 'https://www.hoover.org/research/victor-davis-hanson-case-trump'
+  - 'https://www.cbsnews.com/news/trump-vance-official-portraits/'
+  - 'https://apnews.com/article/75bf67ef9e6e54bf455f2f9f03470be3'
+  - 'https://apnews.com/article/7f057fd1dba31dd4e357c8bf635ee009'
+  - 'https://www.pbs.org/newshour/politics/thousands-of-trump-bibles-were-printed-in-china-as-he-campaigned-against-trade-practices'
+  - 'https://www.wsj.com/politics/policy/trump-white-house-oval-office-gold-touches-6018016d'
+  - 'https://www.foxnews.com/politics/trump-gives-oval-office-gilded-makeover-covers-cost-himself'
+  - 'https://www.nato.int/en/multimedia/multimedia/audios/2025/06/25/remarks-by-the-nato-secretary-general-and-the-president-of-the-united-states'
+  - 'https://www.nato.int/en/news-and-events/events/transcripts/2025/06/25/closing-press-conference-sg'
+  - 'https://abcnews.com/Politics/nato-secretary-general-calls-trump-daddy/story?id=123197665'
+  - 'https://apnews.com/article/80685f5727628c64065da81525f8f0cf'
+  - 'https://apnews.com/article/1770204af103afa00ee9b5d97cd401c7'
+  - 'https://www.investing.com/news/world-news/trump-to-send-border-czar-homan-to-minnesota-4465191'
 faqs:
   - question: "What is Donald Trump's personality type?"
-    answer: "Donald Trump is an Enneagram Type 3 — The Achiever. Type 3s are driven, image-conscious, and adaptive, focused on success and how others perceive them. Beneath the polished exterior lies a terror of being worthless: the gold buildings, the name on every surface, the superlatives heaped on every accomplishment — it's all shame-prevention architecture."
+    answer: "This article makes a speculative case that Donald Trump fits Enneagram Type 3 — The Achiever. Type 3s are described as driven, image-conscious, and adaptive, with attention fixed on success and how others perceive them. Trump's gold buildings, name licensing, superlatives, and habit of converting setbacks into branded victories fit that pattern, but the typing is an interpretive lens, not a clinical diagnosis or a claim to know his private motives."
     anchor: 'what-is-donald-trumps-personality-type'
   - question: "How did Trump's childhood shape him into an Achiever?"
-    answer: "Growing up in Jamaica Estates, Queens, Donald lived under Fred Trump's three-word gospel: compete, win, be a killer. Fred's love was transactional — success rewarded, failure punished. When Donald was two, his mother became seriously ill and was effectively absent. The combination — impossible paternal standard plus maternal abandonment — is the classic Type 3 origin story."
+    answer: "Biographical accounts describe Fred Trump stressing competition, toughness, and winning, while Donald's mother was seriously ill when he was very young. Within the Enneagram framework, those accounts are consistent with a child learning to secure worth through achievement. They do not prove a single psychological cause, and family recollections differ in perspective and reliability."
     anchor: 'the-making-of-an-achiever-trumps-childhood'
   - question: 'What happens when Trump is under stress?'
-    answer: "Under stress, Type 3s move toward Type 9 disengagement — not literal withdrawal, but a shutdown of the performance engine. Trump's stress tells are stamina collapses at rallies, incoherent late-night posts, and retreat into grievance loops. When the image machine breaks down, the Type 3's unanswered question — if I'm not successful, am I anything at all? — leaks through."
+    answer: "This article reads Trump's public stress pattern as a shift from performing success to policing loyalty: criticism becomes betrayal, and aides or allies become loyal or disloyal according to whether they defend him. That is an Enneagram interpretation of public behavior, not a medical assessment."
     anchor: 'when-the-image-cracks-trump-under-stress'
 path: src/blog/people/drafts/Donald-Trump.md
 content_quality:
@@ -96,6 +112,12 @@ REVISION PASS (2026-04-19):
 - MOTIF REPETITION REDUCED. "Image machine" now lands once as section title; body uses "the performance held," "absorbed into the brand," "brand engine," etc. "Shame prevention architecture" appears a single time.
 - GILDED STAGE BRAIDED into a single argument about validation-at-geopolitical-scale. Three moments (Icart gold, Rutte "Daddy," Zelensky suit) now thread through one thesis, ending on: "The psychological structure that once ran a Queens child's bedroom was now setting the agenda of the West."
 - TYPE-8 COUNTERARGUMENT compressed by ~50%. The criticism-response tell is load-bearing; the rest was scaffolding.
+
+CURRENTNESS & BALANCE PASS (2026-08-13):
+- Corrected lastmod and time-sensitive second-term details, including the January 2025 inaugural portrait and the January 2026 Trump-Walz call.
+- Added the 2024 election result as a test of the Type 3 thesis and steelmanned Victor Davis Hanson's pro-Trump critique of elite psychologizing.
+- Added primary or authoritative inline sources for 2025-2026 claims and made the speculative, non-clinical status of the Enneagram reading explicit.
+- Trimmed repeated shame-engine paraphrases and repeated "not X, but Y" constructions while preserving the Sneaker Con hook, linguistic analysis, Fred Jr. payoff, and private-listener section.
 
 STANDOUT STRENGTHS:
 - Sneaker Con hook: "A court had just ruled his wealth was built on lies. His response was to sell a shinier version of the lie."
@@ -138,13 +160,13 @@ This is not a man driven by power. Or even money. It's something far more human,
 
 [Type 3s](/enneagram-corner/enneagram-type-3) are the performers of the Enneagram. Driven. Image-conscious. Adaptive. Focused on success and how others perceive them.
 
-Here's what most people miss about Type 3s: beneath the polished exterior lies a terror of being worthless. Their entire personality structure is built around one question: _"If I'm not successful, am I anything at all?"_
+This is a speculative typology claim, not a clinical diagnosis. Public behavior cannot prove a private motive. The useful question is narrower: does the Type 3 lens organize a recurring pattern without forcing every policy, relationship, and voter into the same explanation?
 
-Type 3 sits in the Heart triad alongside Types 2 and 4. The emotion running beneath all three is **shame** — the feeling of being fundamentally deficient, not enough, unworthy of love as you are.
+Enneagram theory places Type 3 in the Heart triad alongside Types 2 and 4 and describes **shame** as the shared underlying emotion: the feeling of being deficient, not enough, unworthy of love as you are.
 
-For Type 2, shame gets managed through helping. For Type 4, it gets aestheticized into identity. For Type 3, shame gets **outrun**. You sprint toward the next achievement so fast the feeling never catches up. The gold buildings, the name on every surface, the superlatives heaped on every accomplishment — it's all shame prevention architecture. Every accolade is another brick in the wall between Trump and the feeling that, without the achievements, there might be nothing there at all.
+Type 2 manages that feeling through helping; Type 4 aestheticizes it into identity; Type 3 tries to **outrun** it through achievement. The gold buildings, the name on every surface, the superlatives heaped on every accomplishment — taken together, they look like shame prevention architecture.
 
-This explains Trump in ways the "power-hungry bully" narrative never could.
+That lens catches something the familiar "power-hungry bully" account can miss: Trump's need to make success visible and have an audience certify it.
 
 No presidential candidate in living memory has built a campaign so exclusively on personal brand. His personality isn't part of his campaign. It _is_ the campaign. Every rally, every post, every "You're fired!" reinforces one message: Donald Trump is a winner.
 
@@ -204,9 +226,7 @@ McAdams describes Trump as a "truly authentic fake." He's not lying when he make
 
 "The features of Trump's strange personality can be fully appreciated and understood only if we realize that they revolve around the empty narrative core, the hollow inner space where the story should be, but never was."
 
-For Type 3s, this pattern makes psychological sense. When your identity is built on achievements and image rather than internal values, the self becomes a series of performances rather than a continuous story. You're not a character in your own story. You're a brand to be managed, moment to moment.
-
-This explains his relationships too. People aren't characters in his life story. They're supporting cast for his current performance. Useful or not useful. Loyal or disloyal. Contributing to the image or threatening it.
+Within a Type 3 reading, that "empty narrative core" helps explain why Trump so often presents a list of wins where another person might tell a story of change. It may also help explain his public tendency to cast people by their immediate function: useful or disloyal, validating or threatening.
 
 ## The Vocabulary of Shame: How Trump Speaks
 
@@ -258,7 +278,7 @@ The word choice reveals the wound. "Nasty" isn't an intellectual rebuttal. It is
 
 Every time Trump reaches for "nasty," he's telling you exactly what the question felt like to him. Not an intellectual challenge. A social injury. A wound to the image.
 
-The nicknames, the "many people are saying," the "nasty" — it forms a closed system. A language built not to describe reality, but to manage shame. To project it outward onto enemies. To pull validation inward from allies. One word at a time.
+The nicknames, the "many people are saying," the "nasty" — together they form a closed feedback loop: critics receive humiliating labels, claims arrive with an anonymous chorus, and challenges become violations of social loyalty. That pattern is evidence for the Type 3 reading. It is not proof that an outsider can see Trump's inner life.
 
 ## The USFL: Destroying a League for Personal Glory
 
@@ -278,7 +298,7 @@ A juror's assessment: "He was extremely arrogant and I thought that he was obvio
 
 Pearlman continued: "His entire goal was to get him an NFL team. He didn't care how he got it. He didn't give a shit about the other owners."
 
-The league was never the point. The image was the point. When that path closed, the league became disposable. Other owners' investments, players' careers, fans' passion: none of it mattered against the psychological need for status.
+NFL prestige was the point. When that path closed, the league became disposable. Other owners' investments, players' careers, and fans' passion were subordinated to the status of gaining an NFL franchise.
 
 ## The Apprentice: The Reinvention That Changed Everything
 
@@ -296,19 +316,17 @@ The show earned Trump somewhere between $214 million and $427 million, depending
 
 When the show's editors revealed the truth years later, the performance machinery became visible. Trump "would fire the absolute wrong person" and "had no idea what was going on, and he would just make something up." His decisions were based on "whom he liked or disliked personally, whether it be for looks or lifestyle," not merit. Editors performed "editorial gymnastics" to justify Trump's arbitrary choices.
 
-The entire competent-businessman persona was fabricated in post-production.
-
-Trump later admitted the show "was a different level of adulation, or respect, or celebrity. That really went to a different level." A 2016 SPARK Neuro study monitoring brain activity and skin conductance found Trump is "unique in his ability to keep the brain engaged," maintaining both attention and emotional arousal even when viewers disagree with him. The Apprentice didn't just rehabilitate Trump's image. It revealed what he'd always been: a performance artist whose medium is attention itself.
+Post-production manufactured the coherent boss that the raw footage did not reliably provide. Trump later said the show brought "a different level of adulation, or respect, or celebrity." A 2016 SPARK Neuro study monitoring brain activity and skin conductance found him "unique in his ability to keep the brain engaged," maintaining attention and emotional arousal even among viewers who disagreed. The show rehabilitated his image and demonstrated a real skill the editors did not invent: holding attention.
 
 ## The Image Machine Never Stops
 
-### From Mugshot to Presidential Portrait
+### From Mugshot to Inaugural Portrait
 
 On August 24, 2023, Trump was booked at Fulton County Jail in Georgia. He chose a defiant glare for his mugshot. His campaign raised $7.1 million in the days following — the highest-grossing stretch of his entire campaign. "WANTED for a second term" merchandise flooded the market overnight.
 
-Then, in January 2025, Trump's official presidential portrait deliberately echoed the mugshot: same stern expression, same dark shadows, same defiant glare. He broke the longstanding tradition of presidents smiling for their official portraits.
+Then, in January 2025, Trump's transition team released his second-term inaugural portrait. Its stern expression and harsh lighting drew immediate comparisons to the mugshot; the team advertised the new Trump and Vance images with two words: "They go hard" ([CBS News](https://www.cbsnews.com/news/trump-vance-official-portraits/)). The portrait carried the booking-photo defiance into the imagery of his return to office.
 
-Even a criminal booking had been absorbed into the brand. The moment engineered to produce shame came out the other side as merchandise. Then the official portrait of the President of the United States was styled to evoke the jail photo.
+Even a criminal booking had been absorbed into the brand. The moment engineered to produce shame came out the other side as merchandise, then supplied the visual language for Trump's return to the presidency.
 
 ### Performance Under Fire
 
@@ -318,23 +336,37 @@ He raised his fist.
 
 "Fight! Fight! Fight!" — with an American flag billowing behind him.
 
-Erik Bucy, a professor of strategic communication at Texas Tech University, described the image as revealing "an instinct about performance and maximizing the moment from a media point of view." The photo became a poster, a White House display, a special edition Bible ("The Day God Intervened"), and the defining image of his 2024 campaign.
+Erik Bucy, a professor of strategic communication at Texas Tech University, described the image as revealing "an instinct about performance and maximizing the moment from a media point of view." The raised fist became campaign art, the face of Trump's official memecoin, and the basis of a special-edition Bible stamped "The Day God Intervened" ([Associated Press](https://apnews.com/article/75bf67ef9e6e54bf455f2f9f03470be3); [PBS/AP](https://www.pbs.org/newshour/politics/thousands-of-trump-bibles-were-printed-in-china-as-he-campaigned-against-trade-practices)).
 
-Even with a bullet wound, the performance instinct activated before anything else. This isn't courage in the traditional sense. It's something more psychologically revealing: the image-management system runs deeper than conscious thought. The first instinct after nearly dying was to create a visual.
+Whatever courage the gesture showed, it also revealed how quickly Trump grasps the visual meaning of a moment. Seconds after being wounded, he created the image that would define his comeback campaign.
 
 ### The Self for Sale
 
-By his second term, Trump had turned himself into a literal product line: $399 gold sneakers, a $TRUMP memecoin (which hit $27 billion in market cap before falling 86%), $100,000 diamond-encrusted watches, a $59.99 "God Bless the USA" Bible printed in China, cologne, silver coins, NFT trading cards depicting him as astronaut, cowboy, and superhero.
+By the start of his second term, Trump had expanded an already broad product line to include gold sneakers, watches, Bibles, NFT trading cards depicting him as astronaut, cowboy, and superhero, and an official $TRUMP memecoin launched three days before his inauguration ([Associated Press](https://apnews.com/article/75bf67ef9e6e54bf455f2f9f03470be3)).
 
-You can buy a piece of Trump for $3.39 or $100,000. The man who couldn't describe an inner psychological life has externalized his interior and put it on sale. The brand _is_ the self. The self _is_ the brand. There's nothing behind the merchandise that isn't also merchandise.
+By August 2026, the boundary between brand and office had narrowed further. Truth Social introduced a service charging Wall Street firms as much as $100,000 a month for early access to Trump's policy posts; a federal lawsuit sought to stop the service, while Trump Media argued that it was offering the kind of subscription interface other platforms provide ([Associated Press, August 12, 2026](https://apnews.com/article/7f057fd1dba31dd4e357c8bf635ee009)). No legal conclusion is needed for the personality point: his face, defiance, campaign mythology, and even the speed of presidential communication had all become saleable units.
+
+## What the 2024 Victory Changes
+
+Any personality theory about Trump has to survive the voters who returned him to power.
+
+The official count gives the scale without telling us what was in each voter's head. Trump received 77,302,580 votes, 49.8% of ballots cast, and defeated Kamala Harris 312–226 in the Electoral College ([Federal Election Commission](https://www.fec.gov/resources/cms-content/documents/2024presgeresults.pdf); [National Archives](https://www.archives.gov/electoral-college/2024)). He was sworn in on January 20, 2025, and, as of this article's August 13, 2026 update, is serving his second nonconsecutive term ([White House](https://www.whitehouse.gov/administration/donald-j-trump/)).
+
+That victory falsifies the laziest version of the shame argument: that Trump is merely an insecure fraud and his voters are dupes. Seventy-seven million people cannot be collapsed into one man's childhood wound. They chose among policies, parties, economic memories, cultural commitments, and imperfect candidates. In his second inaugural address, Trump called the result a mandate to restore the people's "faith, their wealth, their democracy, and, indeed, their freedom" ([White House transcript](https://www.whitehouse.gov/remarks/2025/01/the-inaugural-address/)). His supporters hear the performance of winning as something done on their behalf.
+
+The strongest pro-Trump counterargument comes from conservative historian Victor Davis Hanson, author of _The Case for Trump_. Hanson concedes that Trump "can be cruel and even crude," then argues that coastal elites fixate on his comportment while missing the function of it. In Hanson's account, Trump offered unorthodox positions on trade, manufacturing, immigration, and foreign policy to voters neglected by both parties, and those voters wanted a fighter who would answer the opposition "blow for blow" rather than lose politely ([Hoover Institution interview](https://www.hoover.org/research/victor-davis-hanson-case-trump)).
+
+Steelmanned, the objection is devastating to any unfalsifiable armchair analysis. Calling Trump's gold, insults, and self-promotion "shame architecture" can become an elite way of pathologizing a democratic choice. His theatricality is also a political instrument: it attracts attention, signals combativeness, simplifies conflict, and lets supporters experience his status as their defiance. A nickname can reveal a sensitivity to humiliation and still work as effective campaign language. A gilded room can satisfy personal taste and still symbolize the "golden age" his voters were promised.
+
+The objection narrows the Type 3 thesis without erasing it. Electoral success does not reveal the private motive behind a performance; it does show that the performance is adaptive, shared, and politically useful. The defensible claim is that Trump's public identity repeatedly fuses worth with visible winning, and that he responds to image threats by converting them into counter-images: mugshot to merchandise, indictment to grievance, shooting to icon, defeat to a story of stolen victory. The 2024 result complicates the one-way picture of a man demanding validation from a crowd. The exchange is reciprocal: supporters lend him the verdict that he is a winner, and he gives their anger and ambition a winning face. That is consistent with a Type 3 reading. It is also compatible with voters having concrete, non-psychological reasons for choosing him.
 
 ## Relationships as Performance
 
-For Type 3s, relationships exist to support the image. Trump's three marriages and five children reveal this pattern.
+Through a Type 3 lens, public relationships can also become image-bearing. Trump's comments about his three marriages and five children sometimes reveal this pattern.
 
 When asked about his affair with Marla Maples while married to Ivana, Trump said: "My life was so great in so many ways... beautiful girlfriend, beautiful wife, beautiful everything."
 
-Not feelings. Not relationships. Possessions. Beautiful things he had.
+The sentence describes the people closest to him with the grammar of beautiful possessions.
 
 Marla's description of their subsequent marriage is haunting: "I felt like I was playing a role. That was what the job called for." Even his wife experienced the relationship as a performance she was cast in.
 
@@ -372,17 +404,17 @@ He'd privately told Bob Woodward that COVID was "more deadly than even your stre
 
 ## The Gilded Stage: Validation at Geopolitical Scale
 
-The second term revealed what happens when a Type 3's validation hunger runs on the largest stage on earth.
+The second term put the article's image-and-validation thesis on the largest stage on earth.
 
-Trump flew his personal "gold guy" — 70-year-old Florida cabinetmaker John Icart — to Washington on Air Force One to install 24-karat finishes throughout the Oval Office. Gilded cherubs now perch above the doorways. "It's angels," Trump said during a Fox News tour. "They say angels bring good luck."
+Trump brought his personal "gold guy," Florida cabinetmaker John Icart, to Washington on Air Force One to add custom gold finishes to the Oval Office ([Wall Street Journal](https://www.wsj.com/politics/policy/trump-white-house-oval-office-gold-touches-6018016d)). Gilded cherubs appeared above the doorways. "It's angels," Trump said during a Fox News tour. "They say angels bring good luck" ([Fox News](https://www.foxnews.com/politics/trump-gives-oval-office-gilded-makeover-covers-cost-himself)).
 
-The inner life Dan McAdams couldn't find in 2016 had become an exterior, literally gold-plated, eight years later.
+The inner life Dan McAdams couldn't find in 2016 had become a gilded exterior nearly nine years later.
 
-And the world learned to meet him where he lived. At the June 2025 NATO summit, Secretary-General Mark Rutte interjected during a bilateral meeting: "Daddy has to sometimes use strong language to get them to stop." Trump embraced it — "He did it very affectionately, 'Daddy, you're my Daddy'" — and the White House posted a montage of the visit set to Usher's "Hey Daddy (Daddy's Home)." The most powerful military alliance in history had arrived at a tactical consensus: the most reliable way to manage the President of the United States was flattery calibrated to a specific emotional wound.
+At the June 2025 NATO summit, Secretary-General Mark Rutte extended Trump's metaphor of Israel and Iran as fighting schoolchildren: "Daddy has to sometimes use strong language to get them to stop" ([NATO recording](https://www.nato.int/en/multimedia/multimedia/audios/2025/06/25/remarks-by-the-nato-secretary-general-and-the-president-of-the-united-states)). Trump later interpreted it personally: "He did it very affectionately, 'Daddy, you're my Daddy'" ([ABC News](https://abcnews.com/Politics/nato-secretary-general-calls-trump-daddy/story?id=123197665)). Rutte rejected the suggestion that his praise was demeaning and defended the substance of Trump's pressure on allies to spend more on defense ([NATO press-conference transcript](https://www.nato.int/en/news-and-events/events/transcripts/2025/06/25/closing-press-conference-sg)). The policy argument was real. So was Trump's delight in framing an ally's praise as affection for him.
 
-The inverse arrived four months earlier. When Ukrainian President Zelensky visited the Oval Office in February 2025, Trump's team asked him to wear a suit instead of his military uniform. Zelensky refused. Trump greeted him on camera: "He's all dressed up today." The meeting devolved. [JD Vance](/personality-analysis/jd-vance) demanded: "Have you said thank you once this entire meeting?" Lunch canceled. Joint press conference scrapped.
+Four months earlier, Trump greeted Ukrainian President Volodymyr Zelenskyy's military-style clothing with "He's all dressed up today." Inside the Oval Office, a pro-Trump reporter asked why Zelenskyy did not wear a suit. The meeting later broke down over substantive disagreements about diplomacy, leverage, and the war, but public gratitude became one of the explicit terms of the clash. [JD Vance](/personality-analysis/jd-vance) demanded, "Just say thank you." Trump told Zelenskyy, "You have to be thankful." The rest of the visit was canceled ([Associated Press transcript](https://apnews.com/article/80685f5727628c64065da81525f8f0cf)).
 
-Notice what the offense wasn't. Not policy. Not alliance. Not leverage. Zelensky refused to dress the part Trump had cast him in, and refused to perform sufficient gratitude on camera. A war Ukraine was losing turned, for a moment, on wardrobe and thank-yous. The psychological structure that once ran a Queens child's bedroom was now setting the agenda of the West.
+The scene does not prove that vanity caused a foreign-policy rupture. It shows something more defensible: Trump conducts statecraft partly through public performances of respect, strength, and gratitude. With Zelenskyy, the policy stakes and image stakes became entangled on camera. The psychological structure first learned in a Queens family was now one influence on how the President of the United States read the room.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Donald Trump</summary>
@@ -410,14 +442,14 @@ In growth, Type 3 moves toward Type 9. The private listening pattern is the coun
 
 ### Counterarguments: Why Donald Trump Might Not Be Type 3
 
-The strongest alternate is Type 8 — confrontational, control-seeking, comfortable being feared. But the tell is criticism. A core 8 can say, "I don't care what you think." Trump litigates, spins, merchandises, and demands praise. Humiliation must become winning content — the Access Hollywood response, the COVID optics, the mugshot-to-merchandise conversion, the fraud-ruling sneaker launch. That reflex is Achiever shame-management, not Challenger autonomy.
+The broader political objection to psychologizing Trump is addressed above. Within the Enneagram, the strongest alternate is Type 8 — confrontational, control-seeking, comfortable being feared. But the tell is criticism. A core 8 can say, "I don't care what you think." Trump litigates, spins, merchandises, and demands praise. Humiliation must become winning content — the Access Hollywood response, the COVID optics, the mugshot-to-merchandise conversion, the fraud-ruling sneaker launch. That reflex reads more like Achiever image-management than Challenger autonomy.
 
 </div>
 </details>
 
 ## When the Image Cracks: Trump Under Stress
 
-Shame and pride are Trump's constant operating system. But when that system gets overwhelmed — when the image faces a genuine threat it can't spin, brand, or outperform — something different takes over.
+When the winning persona faces a threat it cannot easily spin, brand, or outperform, Trump's public language changes.
 
 Trump stops managing his image and starts policing everyone else's loyalty.
 
@@ -427,7 +459,7 @@ The performer who normally asks "Am I winning?" suddenly starts asking a darker 
 
 When the performance is threatened, the tribal instinct sharpens. Jeff Sessions was loyal until he recused himself from the Russia investigation — an act that made Trump look unprotected. Michael Cohen was loyal until he testified against him. Mike Pence was loyal until he refused to overturn the election results. Bill Barr was loyal until he said there was no election fraud.
 
-Notice: none of these "betrayals" involved dishonesty or incompetence. Every single one involved publicly failing to protect Trump's image. Disloyalty isn't about character. It's about the image losing a defender.
+Whatever the underlying policy and legal disputes, each break became publicly legible when the person stopped protecting Trump's position. His rhetoric defined disloyalty by whether the image had lost a defender.
 
 The shift from achiever to loyalist is visible in the language too. Under normal conditions, Trump's vocabulary is about winning and losing — shame projected outward. Under stress, the vocabulary shifts to loyalty and betrayal — trust and suspicion. "Traitor." "Rat." "Disloyal." "Turncoat." The world shrinks from "am I the best?" to "who can I trust?"
 
@@ -439,7 +471,7 @@ There's a version of Donald Trump that almost nobody talks about.
 
 In _The Art of the Deal_, Trump describes his decision-making process: **"I ask and ask until I begin to get a gut feeling about something. And that's when I make a decision."**
 
-Not "I analyze the data." Not "I hire consultants." _I ask and ask._
+The emphasis is on repeated contact until intuition forms: _I ask and ask._
 
 He never used traditional market research firms. He walked construction sites and talked to workers. He rode in cabs and asked drivers about neighborhoods — crime, schools, which shops people actually wanted. He talked to building superintendents, restaurant owners, pedestrians on Fifth Avenue. "Don't waste too much money on market research and surveys," he wrote. "Get there on your own and talk to real people until you know the market by instinct."
 
@@ -453,13 +485,13 @@ Behind closed doors, a senior White House official described Trump's meeting app
 
 "I like conflict," Trump told reporters in 2018. "I like having two people with different points of view. I like watching it, I like seeing it, and I think it's the best way to go."
 
-This isn't dominance. It's the language of someone who creates friction deliberately so he can absorb the full range of opinion before deciding. The gut feeling that eventually drives the decision is body-based knowing replacing image-driven strategy.
+That can serve dominance, and it can also create friction deliberately so Trump absorbs a range of opinion before deciding. The gut feeling that eventually drives the decision is body-based knowing replacing image-driven strategy.
 
 Then there's his ability to sit across from his enemies.
 
 He called Kim Jong Un "Little Rocket Man." Kim called him a "mentally deranged dotard." Eighteen months later, Trump became the first sitting president to meet a North Korean leader. They exchanged 27 letters. "He wrote me beautiful letters," Trump said at a rally. "We fell in love."
 
-After publicly calling New York mayoral candidate [Zohran Mamdani](/personality-analysis/zohran-mamdani) a "communist lunatic," Trump met him in the Oval Office and emerged calling him "a very rational person." Minnesota Governor Tim Walz, after a private phone call, marveled: "It's hard to believe that's the same guy I watch on television."
+After publicly calling New York City mayor-elect [Zohran Mamdani](/personality-analysis/zohran-mamdani) a "communist lunatic," Trump met him in the Oval Office in November 2025 and emerged calling him "a very rational person" ([Associated Press](https://apnews.com/article/1770204af103afa00ee9b5d97cd401c7)). After months of public hostility with Minnesota Governor Tim Walz, a private January 2026 call produced conciliation from both sides: Trump said they seemed to be "on a similar wavelength," while Walz's office called the conversation productive ([Reuters](https://www.investing.com/news/world-news/trump-to-send-border-czar-homan-to-minnesota-4465191)).
 
 The public Trump sorts the world into winners and losers. The private Trump sits across from people he's publicly savaged and listens until he finds the angle. That private listening gives him something the performer normally lacks: the ability to stop performing long enough to actually take someone in.
 
@@ -485,10 +517,10 @@ In five hours of recorded interviews with biographer Michael D'Antonio, Trump wa
 
 "No," he said. "I don't want to think about it. I don't like to analyze myself because I might not like what I see."
 
-> **Disclaimer** This analysis of Donald Trump's Enneagram type is speculative, based on publicly available information, and may not reflect the actual personality type of Donald Trump.
+> **Disclaimer** This analysis of Donald Trump's Enneagram type is speculative, based on publicly available information, and may not reflect his actual personality type or private motivations. It is not a clinical diagnosis.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
+HISTORICAL FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read; priority issues addressed in the 2026-08-13 pass above)
 ============================================================
 
 ONE-LINE VERDICT: The most ambitious blog in the batch — original linguistic analysis (the shame-vocabulary / "nasty" / nicknames-as-presupposition section) sets it apart, and the Fred Jr. "opposite of me" line lands as a genuinely earned emotional payoff — but the front half thesis ("shame-prevention architecture") gets repeated past the point of insight.
