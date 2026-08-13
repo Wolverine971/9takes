@@ -16,7 +16,7 @@ _Note: Individual type pages (enneagram-type-1 through 9) excluded from link cou
 | Posts with 0 outgoing links | 28 |
 | Posts with 0 incoming links | 42 |
 | Completely isolated (0 in, 0 out) | 26 |
-| Total internal cross-links | 926 |
+| Total internal cross-links | 927 |
 | Average outgoing links per post | 4.9 |
 
 ---
@@ -99,7 +99,7 @@ These posts are "orphaned" - no other content links to them.
 
 | Post Title | Path | Outgoing Links |
 |------------|------|----------------|
-| Enneagram Type 9: Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` | 10 |
+| Enneagram Type 9: Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` | 11 |
 | Enneagram Type 2: Helper - The One-Way Mirror | `enneagram/enneagram-type-2.md` | 9 |
 | Enneagram Type 4: Individualist - The Missing Piece | `enneagram/enneagram-type-4.md` | 9 |
 | Enneagram Type 8: Challenger - Behind the Armor | `enneagram/enneagram-type-8.md` | 9 |
@@ -166,11 +166,11 @@ These posts are "orphaned" - no other content links to them.
 | 12 | 29 | The Party Test: What Your Social Style Reveals About Your Ty... | `enneagram/enneagram-types-at-party.md` |
 | 12 | 22 | Red Flags You Are Dating Each Enneagram Type (And What to Do... | `enneagram/red-flags-dating-each-enneagram-type.md` |
 | 11 | 6 | Is the Enneagram Real? 27 Questions Everyone Asks (Finally A... | `enneagram/enneagram-faqs.md` |
+| 11 | 0 | Enneagram Type 9: Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 11 | 18 | How Each Enneagram Type Manipulates (And How to Spot It) | `enneagram/how-each-enneagram-type-manipulates.md` |
 | 11 | 9 | How Your Enneagram Type Shapes Your Therapy Experience | `enneagram/mental-health/enneagram-therapy-guide.md` |
 | 10 | 7 | Why MBTI Failed and What to Use Instead | `community/mbti-vs-enneagram.md` |
 | 10 | 3 | Enneagram Dating Guide for Men: Blind Spots and Practical Mo... | `enneagram/enneagram-dating-guide-for-men.md` |
-| 10 | 0 | Enneagram Type 9: Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 10 | 8 | Enneagram and Addiction: Why Each Type Self-Medicates Differ... | `enneagram/mental-health/enneagram-addiction-recovery-guide.md` |
 | 10 | 8 | Enneagram and Neurodivergence: When Personality Meets Brain ... | `enneagram/mental-health/enneagram-neurodivergence-guide.md` |
 | 10 | 7 | When  | `enneagram/mental-health/enneagram-parenting-mental-health.md` |
@@ -226,15 +226,16 @@ Sorted by total connections (incoming + outgoing).
 | 14 | 6 | 8 | The Consensus on Human Nature | `community/consensus-on-human-nature.md` |
 | 14 | 9 | 5 | 9 Childhood Stereotypes Based on the Enneagram | `enneagram/enneagram-childhood-stereotypes.md` |
 | 14 | 10 | 4 | Enneagram Harmonic Approaches: How Each Type Handles Conflic... | `enneagram/enneagram-harmonic-approaches.md` |
+| 14 | 10 | 4 | Is the Enneagram Scientifically Valid? What Research Says | `enneagram/mental-health/enneagram-science-mental-health.md` |
 | 14 | 7 | 7 | Tech Titans Through the Enneagram: A Series on the Personali... | `pop-culture/tech-titans-enneagram-analysis.md` |
 | 13 | 3 | 10 | Enneagram Dating Guide for Men: Blind Spots and Practical Mo... | `enneagram/enneagram-dating-guide-for-men.md` |
-| 13 | 9 | 4 | Is the Enneagram Scientifically Valid? What Research Says | `enneagram/mental-health/enneagram-science-mental-health.md` |
 | 13 | 3 | 10 | Productivity Systems by Enneagram Type | `guides/productivity-systems-by-enneagram-type.md` |
 | 13 | 8 | 5 | Parasocial Relationships Through the Enneagram | `pop-culture/parasocial-relationships-enneagram-type.md` |
 | 12 | 6 | 6 | How Minds Actually Change | `community/how-minds-change-on-9takes.md` |
 | 12 | 4 | 8 | Introducing 9takes: Answer First, Then Compare Perspectives | `community/introducing-9takes.md` |
 | 12 | 6 | 6 | Enneagram Personal Growth: Why Type 3s Can | `enneagram/enneagram-personal-growth.md` |
 | 12 | 6 | 6 | Philosophy and Psychology Gave Birth to the Enneagram | `enneagram/philosophy-psychology-and-the-enneagram.md` |
+| 11 | 0 | 11 | Enneagram Type 9: Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 11 | 3 | 8 | The 9 Coworker Types: Each Enneagram as Boss, Peer, Report | `enneagram/enneagram-types-working-in-teams.md` |
 | 11 | 5 | 6 | The Enneagram | `enneagram/enneagram-vs-personality-frameworks-comparison.md` |
 | 11 | 2 | 9 | Why You Keep Sabotaging New Relationships (Your Enneagram Kn... | `enneagram/how-to-navigate-early-relationship-stages.md` |
@@ -246,7 +247,6 @@ Sorted by total connections (incoming + outgoing).
 | 10 | 3 | 7 | Enneagram Leadership: Why Your Approach Keeps Backfiring | `enneagram/enneagram-leadership.md` |
 | 10 | 3 | 7 | Enneagram Mental Health Red Flags: Early Warning Signs for A... | `enneagram/enneagram-mental-health-flags.md` |
 | 10 | 6 | 4 | Best Free Enneagram Tests (2026): An Honest Comparison | `enneagram/enneagram-test-comparison-2026.md` |
-| 10 | 0 | 10 | Enneagram Type 9: Peacemaker - Finding Your Voice | `enneagram/enneagram-type-9.md` |
 | 10 | 5 | 5 | Enneagram vs Myers-Briggs: Which Actually Explains You Bette... | `enneagram/enneagram-vs-meyers-briggs.md` |
 | 10 | 4 | 6 | Enneagram First Impressions: What Each Type Is Scanning For | `enneagram/first-impression-enneagram-playbook.md` |
 | 10 | 6 | 4 | Love Languages & Enneagram Types: The 45-Combination Compati... | `enneagram/love-languages-and-enneagram-types.md` |
