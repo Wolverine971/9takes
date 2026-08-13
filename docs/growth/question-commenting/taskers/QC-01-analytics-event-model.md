@@ -5,7 +5,7 @@
 **For:** the agent implementing the measurement foundation for question supply, exposure, commenting, and first-response speed.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Ready for deploy verification; production migration and browser smoke tests pending  
+**Status:** Production core verified; organic mutation payload follow-up pending
 **Related:** [`../00-START-HERE.md`](../00-START-HERE.md), [`../02-BASELINE-2026-08-12.md`](../02-BASELINE-2026-08-12.md)
 
 ## 0. What and why
@@ -140,7 +140,7 @@ Add focused tests for:
 
 - [x] `pnpm test -- src/lib/analytics`
 - [x] Focused analytics, route, API, and component tests pass; the full Vitest suite also passes.
-- [ ] `pnpm check`
+- [x] `pnpm check`
 - [ ] Local smoke test creates one question and produces exactly one `question_created` event.
 - [ ] Local smoke test holds a card below the threshold and produces no impression.
 - [ ] Local smoke test crosses the threshold and produces one impression.
@@ -165,6 +165,15 @@ Add focused tests for:
 - `pnpm check` reported no diagnostics in this workstream's changed files. The repository-wide command remains red on the unrelated existing `scripts/lib/perspectiveReview.js` string-index type error.
 - Production PostHog verification and browser smoke tests remain open; do not unblock QC-03 or QC-06 until those pass.
 
+## Production verification update: 2026-08-12
+
+- Confirmed the promoted production deployment was built from commit `eb53bc9d` and reached the `9takes.com` alias successfully.
+- Confirmed the production database has the analytics-aware `create_comment_atomic` function and the expected anonymous/authenticated execution grants.
+- Completed read-only browser smoke journeys on the questions index and a question detail page. The comment composer was opened and edited, then cleared without submitting public test content.
+- PostHog received one qualified `question_impression` and one `comment_started` under the controlled `qc01_deploy_verification_20260812` campaign, with the expected privacy-safe properties. The associated two pageviews were also attributable when test-account filtering was disabled.
+- The live application bundle contains the qualified-impression helper. A transient empty PostHog result was client batching/ingestion delay, not a missing bundle.
+- We intentionally did not create a fake public question or comment. Inspect the next organic `question_created` and `comment_created` payloads to close the remaining schema checkbox without polluting production.
+
 ## Risks and gotchas
 
 - SvelteKit client navigation can remount or reuse components. Dedupe cannot rely only on component-local state.
@@ -180,4 +189,5 @@ Add focused tests for:
 - [x] Comment start, failure, and server-derived precise success properties are tracked.
 - [x] Database queries reproduce supply and first-response metrics.
 - [x] Focused tests, database-boundary checks, and local payload inspection pass.
-- [ ] Production events are verified before QC-03 or QC-06 begins.
+- [x] Production impression/composer events and the server contract are verified; QC-03 and impression collection may begin.
+- [ ] The next organic question/comment mutation payloads are inspected in PostHog.

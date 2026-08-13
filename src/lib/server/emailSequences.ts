@@ -10,6 +10,10 @@ import {
 } from '$lib/email/sequences';
 import { sendEmailWithTracking } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
+import {
+	ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS,
+	ENNEAGRAM_TYPE_PROMPT_KEY
+} from '$lib/email/enneagram-type-prompt-content';
 import { getSupabaseAdminClient } from './supabaseAdmin';
 import { loadReactivationCandidateSummary } from './reactivationCandidates';
 
@@ -33,6 +37,14 @@ type ReactivationEnrollmentSummary = {
 	candidates: Record<ReactivationBucket, number>;
 	skipped: { reason: string; count: number }[];
 	errors: { email: string; reason: string }[];
+};
+
+type EnneagramPromptSendGuard = {
+	eligible: boolean;
+	reason: 'eligible' | 'enneagram_added' | 'recent_email' | 'profile_missing';
+	enneagram: string | null;
+	last_email_sent_at: string | null;
+	next_eligible_at: string | null;
 };
 
 const REACTIVATION_SEQUENCE_KEY_SET = new Set<string>(REACTIVATION_SEQUENCE_KEYS);
@@ -71,6 +83,40 @@ async function markEnrollmentErrored(enrollmentId: string, message: string) {
 		})
 		.eq('id', enrollmentId)
 		.eq('status', 'processing');
+}
+
+async function deferEnrollmentUntil(enrollmentId: string, nextSendAt: string, reason: string) {
+	const supabase = getSupabaseAdminClient() as any;
+	const { error } = await supabase
+		.from('email_sequence_enrollments')
+		.update({
+			status: 'active',
+			next_send_at: nextSendAt,
+			processing_started_at: null,
+			last_error: reason.slice(0, 1000),
+			updated_at: new Date().toISOString()
+		})
+		.eq('id', enrollmentId)
+		.eq('status', 'processing');
+
+	if (error) throw error;
+}
+
+async function loadEnneagramPromptSendGuard(
+	supabase: any,
+	row: SequenceSendRow
+): Promise<EnneagramPromptSendGuard> {
+	const { data, error } = await supabase.rpc('get_enneagram_type_prompt_send_guard', {
+		p_user_id: row.user_id,
+		p_email: row.recipient_email
+	});
+
+	if (error) throw error;
+	if (!data || typeof data !== 'object' || typeof data.eligible !== 'boolean') {
+		throw new Error('Invalid Enneagram prompt send guard response');
+	}
+
+	return data as EnneagramPromptSendGuard;
 }
 
 async function exitUserFromSequence(userId: string, sequenceKey: string, reason: string) {
@@ -237,6 +283,44 @@ async function processClaimedSequenceSends(
 				summary.errors++;
 			}
 			continue;
+		}
+
+		// The one-off has a final, fail-closed eligibility check immediately
+		// before delivery. This reads the current profile type and the most recent
+		// successful send instead of trusting enrollment-time audience data.
+		if (row.sequence_key === ENNEAGRAM_TYPE_PROMPT_KEY) {
+			try {
+				const guard = await loadEnneagramPromptSendGuard(supabase, row);
+
+				if (guard.reason === 'enneagram_added') {
+					await exitUserFromSequence(row.user_id, row.sequence_key, 'enneagram_added');
+					summary.skipped++;
+					continue;
+				}
+
+				if (guard.reason === 'recent_email' && guard.next_eligible_at) {
+					await deferEnrollmentUntil(
+						row.enrollment_id,
+						guard.next_eligible_at,
+						`Deferred until the ${ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS}-day email buffer clears`
+					);
+					summary.skipped++;
+					continue;
+				}
+
+				if (!guard.eligible) {
+					throw new Error(`Enneagram prompt blocked: ${guard.reason}`);
+				}
+			} catch (guardError) {
+				console.error('Enneagram prompt send guard failed closed', row.enrollment_id, guardError);
+				await supabase.rpc('retry_or_fail_sequence_send', {
+					p_enrollment_id: row.enrollment_id,
+					p_error:
+						guardError instanceof Error ? guardError.message : 'Enneagram prompt send guard failed'
+				});
+				summary.errors++;
+				continue;
+			}
 		}
 
 		const prepared = prepareSequenceSend(row);

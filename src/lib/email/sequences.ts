@@ -12,6 +12,11 @@ import {
 	REACTIVATION_HERO_URL,
 	type ReactivationSequenceContent
 } from './reactivation-sequence-content';
+import {
+	ENNEAGRAM_TYPE_PROMPT_KEY,
+	getEnneagramTypePromptContent,
+	type EnneagramTypePromptContent
+} from './enneagram-type-prompt-content';
 
 export { WELCOME_SEQUENCE_KEY };
 export {
@@ -97,12 +102,15 @@ function stripLeadingFirstNameFromSubject(subject: string): string {
 function getEffectiveManagedSequenceContent(
 	sequenceKey: string,
 	stepNumber: number
-): WelcomeSequenceContent | ReactivationSequenceContent | null {
+): WelcomeSequenceContent | ReactivationSequenceContent | EnneagramTypePromptContent | null {
 	if (isReactivationSequenceKey(sequenceKey)) {
 		return getReactivationStep(sequenceKey, stepNumber);
 	}
 
-	return getManagedSequenceContent(sequenceKey, stepNumber);
+	return (
+		getManagedSequenceContent(sequenceKey, stepNumber) ??
+		getEnneagramTypePromptContent(sequenceKey, stepNumber)
+	);
 }
 
 const REACTIVATION_PLACEHOLDER_BODY = 'Code-managed reactivation content';
@@ -225,7 +233,14 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 					campaign: 'welcome-sequence',
 					content: `${WELCOME_SEQUENCE_KEY}_step_${row.step_number}`
 				}
-			: undefined;
+			: row.sequence_key === ENNEAGRAM_TYPE_PROMPT_KEY
+				? {
+						source: 'enneagram-profile',
+						medium: 'email',
+						campaign: 'enneagram-type-prompt',
+						content: `${ENNEAGRAM_TYPE_PROMPT_KEY}_step_${row.step_number}`
+					}
+				: undefined;
 
 	return {
 		recipient: {
@@ -249,7 +264,8 @@ export function prepareSequenceSend(row: SequenceSendRow) {
 }
 
 function getPlainTextTemplate(
-	managedContent: WelcomeSequenceContent | ReactivationSequenceContent | null,
+	managedContent:
+		WelcomeSequenceContent | ReactivationSequenceContent | EnneagramTypePromptContent | null,
 	dbPlainText: string | null,
 	isReactivation = false,
 	hasReactivationHtmlOverride = false,

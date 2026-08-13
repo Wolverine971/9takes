@@ -25,6 +25,16 @@
 	import { capture } from '$lib/analytics/posthog';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
 	import {
+		captureReplyOptInDismissed,
+		captureReplyOptInFailed,
+		captureReplyOptInFocused,
+		captureReplyOptInShown,
+		captureReplyOptInSubmitted,
+		captureReplyOptInSucceeded,
+		type ReplyOptInContext,
+		type ReplyOptInFailureCategory
+	} from '$lib/analytics/replyOptInEvents';
+	import {
 		getRecipientQuestionInviteId,
 		recordQuestionInviteCreated,
 		shareQuestionInvite,
@@ -38,10 +48,11 @@
 		data: QuestionPageData | CommentType;
 		user: User | null;
 		questionId: number;
+		isDemo?: boolean;
 		oncommentAdded?: (comment: CommentType) => void;
 	}
 
-	let { parentType, data, user, questionId, oncommentAdded }: Props = $props();
+	let { parentType, data, user, questionId, isDemo = false, oncommentAdded }: Props = $props();
 
 	// Type guard to check if data is QuestionPageData
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
@@ -71,6 +82,13 @@
 	let voiceBusy = $state(false);
 	let textareaElement = $state<HTMLTextAreaElement | null>(null);
 	let voiceInsertionRange = { start: 0, end: 0 };
+	let replyOptInContext = $state<ReplyOptInContext | null>(null);
+	let replyOptInFingerprint = '';
+	let replyEmail = $state('');
+	let replyOptInLoading = $state(false);
+	let replyOptInSucceeded = $state(false);
+	let replyOptInMessage = $state('');
+	let replyOptInFocusedTracked = false;
 	let composerId = $derived(
 		parentType === 'question'
 			? `question-${questionId}`
@@ -83,6 +101,8 @@
 
 	const SHORT_ANSWER_THRESHOLD = 100;
 	const TEXTAREA_MAX_HEIGHT_PX = 320;
+	const REPLY_OPT_IN_DISMISSED_KEY = '9t-reply-opt-in-dismissed';
+	const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 	const depthPrompts = [
 		'What personal experience shaped your view on this?',
@@ -131,6 +151,13 @@
 		confirmShortSubmit = false;
 		commenting = parentType === 'question' && !userHasAnswered;
 		shareLoading = false;
+		replyOptInContext = null;
+		replyOptInFingerprint = '';
+		replyEmail = '';
+		replyOptInLoading = false;
+		replyOptInSucceeded = false;
+		replyOptInMessage = '';
+		replyOptInFocusedTracked = false;
 	});
 	let composerKindTitle = $derived(
 		`${composerKind.charAt(0).toUpperCase()}${composerKind.slice(1)}`
@@ -333,8 +360,9 @@
 		} else {
 			commentError = '';
 			const submittedKind = composerKind;
+			const wasAnonymousQuestionCommenter = isAnonymousQuestionCommenter();
 			notifications.success(`${composerKindTitle} posted`, 3000);
-			if (isAnonymousQuestionCommenter()) {
+			if (wasAnonymousQuestionCommenter) {
 				anonymousComment = true;
 			}
 			// Normalize result: RPC might return array, single object, or null
@@ -360,6 +388,12 @@
 				isAnonymous: !user?.id,
 				...serverAnalytics
 			});
+			maybeShowReplyOptIn({
+				commentData,
+				serverAnalytics,
+				submittedKind,
+				wasAnonymousQuestionCommenter
+			});
 			oncommentAdded?.(commentData);
 			comment = '';
 			commentStartedTracked = false;
@@ -376,6 +410,137 @@
 			}
 		}
 	};
+
+	function replyOptInWasDismissed(): boolean {
+		try {
+			return sessionStorage.getItem(REPLY_OPT_IN_DISMISSED_KEY) === '1';
+		} catch {
+			return false;
+		}
+	}
+
+	function rememberReplyOptInDismissal() {
+		try {
+			sessionStorage.setItem(REPLY_OPT_IN_DISMISSED_KEY, '1');
+		} catch {
+			// The current component state still prevents the tray from reappearing.
+		}
+	}
+
+	function maybeShowReplyOptIn(input: {
+		commentData: any;
+		serverAnalytics: { isFirstCommentEver?: boolean };
+		submittedKind: CommentCreatedKind;
+		wasAnonymousQuestionCommenter: boolean;
+	}) {
+		const commentId = Number(input.commentData?.id);
+		const questionUrl = isQuestionPageData(data) ? data.question.url : '';
+		if (
+			isDemo ||
+			parentType !== 'question' ||
+			input.submittedKind !== 'answer' ||
+			!input.wasAnonymousQuestionCommenter ||
+			input.serverAnalytics.isFirstCommentEver !== true ||
+			!Number.isFinite(commentId) ||
+			!questionUrl ||
+			replyOptInWasDismissed()
+		) {
+			return;
+		}
+
+		replyOptInFingerprint = getCommentFingerprint();
+		replyOptInContext = {
+			questionId,
+			questionUrl,
+			commentId,
+			surface: 'question_page',
+			isFirstCommentEver: true
+		};
+		replyEmail = '';
+		replyOptInMessage = '';
+		replyOptInSucceeded = false;
+		replyOptInFocusedTracked = false;
+		void captureReplyOptInShown(replyOptInContext);
+	}
+
+	function focusReplyOptIn() {
+		if (!replyOptInContext || replyOptInFocusedTracked) return;
+		replyOptInFocusedTracked = true;
+		void captureReplyOptInFocused(replyOptInContext);
+	}
+
+	function dismissReplyOptIn() {
+		if (!replyOptInContext) return;
+		void captureReplyOptInDismissed(replyOptInContext);
+		rememberReplyOptInDismissal();
+		replyOptInContext = null;
+		replyEmail = '';
+		replyOptInMessage = '';
+	}
+
+	function getReplyOptInStatus(result: any): string {
+		return (
+			result?.data?.replyOptIn?.status ??
+			result?.data?.status ??
+			result?.replyOptIn?.status ??
+			'failed'
+		);
+	}
+
+	function replyOptInFailureCopy(category: ReplyOptInFailureCategory): string {
+		if (category === 'invalid_email') return 'Enter a valid email address.';
+		if (category === 'suppressed') return 'That address is unsubscribed, so no email was added.';
+		if (category === 'ineligible') return 'This reply reminder is no longer available.';
+		return 'Your take is posted, but the email could not be saved. Try again if you’d like.';
+	}
+
+	async function submitReplyOptIn() {
+		if (!replyOptInContext || replyOptInLoading || replyOptInSucceeded) return;
+		const email = replyEmail.trim();
+		void captureReplyOptInSubmitted(replyOptInContext);
+
+		if (!EMAIL_PATTERN.test(email) || email.length > 320) {
+			replyOptInMessage = replyOptInFailureCopy('invalid_email');
+			void captureReplyOptInFailed(replyOptInContext, 'invalid_email');
+			return;
+		}
+
+		replyOptInLoading = true;
+		replyOptInMessage = '';
+		try {
+			const body = new FormData();
+			body.append('comment_id', String(replyOptInContext.commentId));
+			body.append('question_id', String(replyOptInContext.questionId));
+			body.append('fingerprint', replyOptInFingerprint);
+			body.append('email', email);
+
+			const response = await fetch('?/subscribeToCommentReplies', { method: 'POST', body });
+			const result = deserialize(await response.text());
+			const status = getReplyOptInStatus(result);
+			if (status === 'subscribed' || status === 'already_subscribed') {
+				replyOptInSucceeded = true;
+				replyOptInMessage = 'You’re set. We’ll only email if someone replies to this conversation.';
+				void captureReplyOptInSucceeded(replyOptInContext);
+				return;
+			}
+
+			const category: ReplyOptInFailureCategory =
+				status === 'suppressed'
+					? 'suppressed'
+					: status === 'invalid'
+						? 'invalid_email'
+						: status === 'ineligible'
+							? 'ineligible'
+							: 'server_error';
+			replyOptInMessage = replyOptInFailureCopy(category);
+			void captureReplyOptInFailed(replyOptInContext, category);
+		} catch {
+			replyOptInMessage = replyOptInFailureCopy('network_error');
+			void captureReplyOptInFailed(replyOptInContext, 'network_error');
+		} finally {
+			replyOptInLoading = false;
+		}
+	}
 
 	function getCommentEventContext() {
 		return {
@@ -715,6 +880,73 @@
 			</div>
 		</div>
 	{/if}
+
+	{#if replyOptInContext}
+		<section
+			class="reply-opt-in"
+			aria-labelledby="reply-opt-in-heading"
+			aria-live="polite"
+			in:slide={{ duration: reduceMotion ? 0 : 220 }}
+		>
+			<div class="reply-opt-in__copy">
+				<p class="reply-opt-in__eyebrow">OPTIONAL · THIS CONVERSATION ONLY</p>
+				<h3 id="reply-opt-in-heading">Want a note if someone replies?</h3>
+				<p>
+					Leave an email if you'd like. Your take stays anonymous, and we'll only email about this
+					conversation.
+				</p>
+			</div>
+
+			{#if replyOptInSucceeded}
+				<p class="reply-opt-in__status reply-opt-in__status--success" role="status">
+					{replyOptInMessage}
+				</p>
+			{:else}
+				<label class="reply-opt-in__label" for="reply-opt-in-email">Email</label>
+				<input
+					id="reply-opt-in-email"
+					class="reply-opt-in__input"
+					type="email"
+					inputmode="email"
+					autocomplete="email"
+					placeholder="you@example.com"
+					bind:value={replyEmail}
+					onfocus={focusReplyOptIn}
+					oninput={() => (replyOptInMessage = '')}
+					aria-invalid={replyOptInMessage ? 'true' : 'false'}
+					aria-describedby={replyOptInMessage ? 'reply-opt-in-status' : undefined}
+				/>
+				{#if replyOptInMessage}
+					<p id="reply-opt-in-status" class="reply-opt-in__status" role="status">
+						{replyOptInMessage}
+					</p>
+				{/if}
+				<div class="reply-opt-in__actions">
+					<Button
+						class="reply-opt-in__button"
+						variant="primary"
+						size="md"
+						type="button"
+						onclick={submitReplyOptIn}
+						disabled={replyOptInLoading}
+						loading={replyOptInLoading}
+					>
+						Keep me posted
+					</Button>
+					<Button
+						class="reply-opt-in__button"
+						variant="ghost"
+						size="md"
+						type="button"
+						onclick={dismissReplyOptIn}
+						disabled={replyOptInLoading}
+					>
+						Not now
+					</Button>
+				</div>
+			{/if}
+		</section>
+	{/if}
 </div>
 
 <style>
@@ -886,6 +1118,88 @@
 		font-size: 0.875rem;
 		font-weight: 600;
 		line-height: 1.45;
+	}
+
+	.reply-opt-in {
+		padding: 1rem;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
+		border-radius: 0.9rem;
+		background:
+			linear-gradient(135deg, color-mix(in srgb, var(--lamp-soft) 58%, transparent), transparent),
+			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
+		box-shadow: var(--shadow-sm);
+	}
+
+	.reply-opt-in__copy h3 {
+		margin: 0.2rem 0 0.35rem;
+		color: var(--ink-bright);
+		font-size: 1rem;
+		font-weight: 650;
+	}
+
+	.reply-opt-in__copy p:last-child,
+	.reply-opt-in__status {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 0.82rem;
+		line-height: 1.5;
+	}
+
+	.reply-opt-in__eyebrow {
+		margin: 0;
+		color: var(--lamp-glow);
+		font-family: 'JetBrains Mono', monospace;
+		font-size: 0.68rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+	}
+
+	.reply-opt-in__label {
+		display: block;
+		margin-top: 0.8rem;
+		color: var(--ink-bright);
+		font-size: 0.76rem;
+		font-weight: 600;
+	}
+
+	.reply-opt-in__input {
+		display: block;
+		width: 100%;
+		margin-top: 0.35rem;
+		padding: 0.7rem 0.8rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.55rem;
+		background: color-mix(in srgb, var(--night-deep) 88%, transparent);
+		color: var(--ink-bright);
+		font: inherit;
+		font-size: 16px;
+	}
+
+	:global(.reply-opt-in__input:focus-visible) {
+		border-color: var(--lamp-glow);
+		outline: 2px solid color-mix(in srgb, var(--lamp-glow) 36%, transparent);
+		outline-offset: 2px;
+	}
+
+	.reply-opt-in__status {
+		margin-top: 0.55rem;
+		color: var(--error-text);
+	}
+
+	.reply-opt-in__status--success {
+		padding-top: 0.7rem;
+		color: var(--lamp-light);
+	}
+
+	.reply-opt-in__actions {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.5rem;
+		margin-top: 0.75rem;
+	}
+
+	:global(.reply-opt-in__button) {
+		flex: 0 1 auto;
 	}
 
 	@media (max-width: 640px) {

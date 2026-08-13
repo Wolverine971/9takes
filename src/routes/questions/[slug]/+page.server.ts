@@ -2,7 +2,7 @@
 import { supabase } from '$lib/supabase';
 
 import type { Actions, PageServerLoad, RequestEvent } from './$types';
-import { error } from '@sveltejs/kit';
+import { error, fail } from '@sveltejs/kit';
 import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcomeSequenceGuards';
 import {
 	logBestEffortTelemetryFailure,
@@ -16,6 +16,7 @@ import {
 	createCommentSchema,
 	flagCommentSchema,
 	likeCommentSchema,
+	replyOptInSchema,
 	subscribeSchema,
 	updateQuestionImgSchema
 } from '$lib/validation/questionSchemas';
@@ -241,6 +242,41 @@ export const actions: Actions = {
 	// validation, authorization, side effects, and response shape stay identical.
 	createComment: createQuestionComment,
 	createCommentRando: createQuestionComment,
+
+	subscribeToCommentReplies: async ({ request, locals }) => {
+		if ((await checkDemoTime()) === true) {
+			return fail(422, { replyOptIn: { status: 'ineligible' } });
+		}
+		const formData = await request.formData();
+		const validationResult = replyOptInSchema.safeParse(Object.fromEntries(formData));
+		if (!validationResult.success) {
+			return fail(400, { replyOptIn: { status: 'invalid' } });
+		}
+
+		const input = validationResult.data;
+		const { data, error: subscriptionError } = await (locals.supabase as any).rpc(
+			'create_comment_reply_subscription',
+			{
+				p_comment_id: Number.parseInt(input.comment_id, 10),
+				p_question_id: Number.parseInt(input.question_id, 10),
+				p_fingerprint: input.fingerprint,
+				p_email: input.email
+			}
+		);
+
+		if (subscriptionError) {
+			console.error('Failed to create comment reply subscription', subscriptionError);
+			return fail(500, { replyOptIn: { status: 'failed' } });
+		}
+
+		const status =
+			typeof data?.status === 'string' ? data.status : typeof data === 'string' ? data : 'failed';
+		if (status === 'subscribed' || status === 'already_subscribed') {
+			return { replyOptIn: { status } };
+		}
+
+		return fail(status === 'invalid' ? 400 : 422, { replyOptIn: { status } });
+	},
 
 	likeComment: async ({ request, locals }) => {
 		const session = locals.session;

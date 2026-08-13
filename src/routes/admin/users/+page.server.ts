@@ -292,7 +292,6 @@ export const load: PageServerLoad = async (event) => {
 		profilesResult,
 		profileCountResult,
 		adminCountResult,
-		typedCountResult,
 		distribution,
 		unsubscribeCountResult
 	] = await Promise.all([
@@ -306,10 +305,6 @@ export const load: PageServerLoad = async (event) => {
 		}),
 		supabase.from(profileTable).select('id', { count: 'exact', head: true }),
 		supabase.from(profileTable).select('id', { count: 'exact', head: true }).eq('admin', true),
-		supabase
-			.from(profileTable)
-			.select('id', { count: 'exact', head: true })
-			.not('enneagram', 'is', null),
 		loadAdminEnneagramDistribution(supabase as any, {
 			demoTime: demo_time === true,
 			profilesTable: profileTable
@@ -321,18 +316,10 @@ export const load: PageServerLoad = async (event) => {
 	const { data: profiles, error: profilesError } = profilesResult;
 	const filteredProfileCount = profiles?.[0]?.total_rows ?? 0;
 
-	if (
-		profilesError ||
-		profileCountResult.error ||
-		adminCountResult.error ||
-		typedCountResult.error
-	) {
+	if (profilesError || profileCountResult.error || adminCountResult.error) {
 		logger.error(
 			'Failed to load paginated admin users',
-			(profilesError ||
-				profileCountResult.error ||
-				adminCountResult.error ||
-				typedCountResult.error) as Error
+			(profilesError || profileCountResult.error || adminCountResult.error) as Error
 		);
 		throw error(500, { message: 'Failed to load users' });
 	}
@@ -415,7 +402,7 @@ export const load: PageServerLoad = async (event) => {
 			profileStats: {
 				total: profileCountResult.count ?? 0,
 				admins: adminCountResult.count ?? 0,
-				withType: typedCountResult.count ?? 0,
+				withType: Object.values(distribution).reduce((sum, count) => sum + count, 0),
 				unsubscribed: unsubscribeCountResult.count ?? 0,
 				enneagramDistribution: distribution
 			},

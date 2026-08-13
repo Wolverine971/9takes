@@ -68,6 +68,7 @@ export const adminNavGroups: AdminNavGroup[] = [
 			{ href: '/admin/email-dashboard', label: 'Email', icon: Mail },
 			{ href: '/admin/welcome-sequence', label: 'Welcome sequence', icon: FileText },
 			{ href: '/admin/reactivation-sequence', label: 'Reactivation', icon: RefreshCw },
+			{ href: '/admin/enneagram-campaign', label: 'Enneagram campaign', icon: Target },
 			{ href: '/admin/marketing', label: 'Marketing', icon: Megaphone },
 			{ href: '/admin/transactional-emails', label: 'Email templates', icon: FileCode2 }
 		]

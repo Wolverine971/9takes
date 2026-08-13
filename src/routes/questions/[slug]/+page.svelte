@@ -812,6 +812,7 @@
 					data={dataForChild}
 					questionId={data.question.id}
 					parentType="question"
+					isDemo={data.demo_time === true}
 					oncommentAdded={addComment}
 					user={data?.user}
 				/>

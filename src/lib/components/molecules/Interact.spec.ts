@@ -18,6 +18,7 @@ const {
 	shareQuestionInviteMock,
 	shouldUseNativeQuestionShareMock,
 	recordQuestionInviteCreatedMock,
+	slideMock,
 	fetchMock
 } = vi.hoisted(() => ({
 	deserializeMock: vi.fn(),
@@ -33,6 +34,7 @@ const {
 	shareQuestionInviteMock: vi.fn(),
 	shouldUseNativeQuestionShareMock: vi.fn(),
 	recordQuestionInviteCreatedMock: vi.fn(),
+	slideMock: vi.fn(() => ({ duration: 0 })),
 	fetchMock: vi.fn()
 }));
 
@@ -74,9 +76,7 @@ vi.mock('$lib/analytics/questionInvites', async (importOriginal) => {
 });
 
 vi.mock('svelte/transition', () => ({
-	slide: vi.fn(() => ({
-		duration: 0
-	}))
+	slide: slideMock
 }));
 
 import Interact from './Interact.svelte';
@@ -85,6 +85,7 @@ describe('Interact', () => {
 	beforeEach(() => {
 		window.history.replaceState({}, '', '/');
 		window.localStorage.clear();
+		window.sessionStorage.clear();
 		deserializeMock.mockReset();
 		deserializeMock.mockReturnValue({
 			type: 'success',
@@ -129,6 +130,7 @@ describe('Interact', () => {
 		});
 		recordQuestionInviteCreatedMock.mockReset();
 		recordQuestionInviteCreatedMock.mockResolvedValue(undefined);
+		slideMock.mockClear();
 
 		fetchMock.mockReset();
 		fetchMock.mockResolvedValue({
@@ -143,6 +145,14 @@ describe('Interact', () => {
 	});
 
 	it('Should be able to add comment', async () => {
+		vi.stubGlobal(
+			'matchMedia',
+			vi.fn(() => ({
+				matches: true,
+				addEventListener: vi.fn(),
+				removeEventListener: vi.fn()
+			}))
+		);
 		const inviteId = '11111111-1111-4111-8111-111111111111';
 		window.history.replaceState(
 			{},
@@ -242,7 +252,161 @@ describe('Interact', () => {
 			expect.objectContaining({ id: 123 })
 		);
 		expect(captureCommentStartedMock).toHaveBeenCalledTimes(1);
-		expect(queryByRole('textbox')).toBeNull();
+		expect(queryByRole('textbox', { name: /your answer/i })).toBeNull();
+		expect(getByRole('heading', { name: 'Want a note if someone replies?' })).toBeTruthy();
+		const replyEmailInput = getByRole('textbox', { name: 'Email' });
+		expect(document.activeElement).not.toBe(replyEmailInput);
+		const replyTray = getByRole('region', { name: 'Want a note if someone replies?' });
+		expect(replyTray.getAttribute('aria-live')).toBe('polite');
+		await waitFor(() => {
+			expect(slideMock.mock.calls.some(([, options]) => options?.duration === 0)).toBe(true);
+		});
+		replyEmailInput.focus();
+		expect(document.activeElement).toBe(replyEmailInput);
+		expect(captureMock).toHaveBeenCalledWith(
+			'reply_opt_in_shown',
+			expect.objectContaining({
+				question_id: 85,
+				comment_id: 123,
+				is_first_comment_ever: true
+			})
+		);
+
+		await fireEvent.click(getByRole('button', { name: 'Not now' }));
+		expect(queryByRole('heading', { name: 'Want a note if someone replies?' })).toBeNull();
+		expect(window.sessionStorage.getItem('9t-reply-opt-in-dismissed')).toBe('1');
+		expect(captureMock).toHaveBeenCalledWith(
+			'reply_opt_in_dismissed',
+			expect.objectContaining({ comment_id: 123 })
+		);
+	});
+
+	it('saves a valid reply email separately from the already-posted answer', async () => {
+		const longComment =
+			'This is a detailed first answer that is long enough to post immediately while keeping reply consent as a separate action.';
+		const { getByRole, getByText } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				user: null,
+				oncommentAdded: vi.fn(),
+				data: {
+					question: {
+						id: 85,
+						question: 'what are you thinking about these days',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'what-are-you-thinking-about-these-days',
+						comment_count: 10,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 10,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: { userHasAnswered: false, userSignedIn: false },
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
+		});
+
+		await fireEvent.input(getByRole('textbox', { name: /your answer/i }), {
+			target: { value: longComment }
+		});
+		await fireEvent.click(getByRole('button', { name: /post answer/i }));
+		await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
+
+		deserializeMock.mockReturnValueOnce({
+			type: 'success',
+			data: { replyOptIn: { status: 'subscribed' } }
+		});
+		const emailInput = getByRole('textbox', { name: 'Email' });
+		await fireEvent.focus(emailInput);
+		await fireEvent.input(emailInput, { target: { value: 'Reader@Example.com' } });
+		await fireEvent.click(getByRole('button', { name: 'Keep me posted' }));
+
+		await waitFor(() => {
+			expect(getByText(/we’ll only email if someone replies/i)).toBeTruthy();
+		});
+		expect(fetchMock).toHaveBeenCalledTimes(2);
+		const replyRequest = fetchMock.mock.calls[1];
+		expect(replyRequest[0]).toBe('?/subscribeToCommentReplies');
+		expect((replyRequest[1]?.body as FormData).get('email')).toBe('Reader@Example.com');
+		expect((replyRequest[1]?.body as FormData).get('comment_id')).toBe('123');
+		expect(captureMock).toHaveBeenCalledWith(
+			'reply_opt_in_focused',
+			expect.objectContaining({ comment_id: 123 })
+		);
+		expect(captureMock).toHaveBeenCalledWith(
+			'reply_opt_in_submitted',
+			expect.objectContaining({ comment_id: 123 })
+		);
+		expect(captureMock).toHaveBeenCalledWith(
+			'reply_opt_in_succeeded',
+			expect.objectContaining({ comment_id: 123 })
+		);
+		expect(JSON.stringify(captureMock.mock.calls)).not.toContain('Reader@Example.com');
+	});
+
+	it('keeps the answer successful when the optional email is invalid', async () => {
+		const { getByRole, getByText } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				user: null,
+				oncommentAdded: vi.fn(),
+				data: {
+					question: {
+						id: 85,
+						question: 'a question',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'a-question',
+						comment_count: 0,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 0,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: { userHasAnswered: false, userSignedIn: false },
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
+		});
+
+		await fireEvent.input(getByRole('textbox', { name: /your answer/i }), {
+			target: { value: 'A long answer '.repeat(12) }
+		});
+		await fireEvent.click(getByRole('button', { name: /post answer/i }));
+		await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
+
+		await fireEvent.input(getByRole('textbox', { name: 'Email' }), {
+			target: { value: 'not-an-email' }
+		});
+		await fireEvent.click(getByRole('button', { name: 'Keep me posted' }));
+
+		expect(getByText('Enter a valid email address.')).toBeTruthy();
+		expect(fetchMock).toHaveBeenCalledTimes(1);
+		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
+		expect(captureMock).toHaveBeenCalledWith(
+			'reply_opt_in_failed',
+			expect.objectContaining({ failure_category: 'invalid_email' })
+		);
 	});
 
 	it('caps long answers and keeps the textarea internally scrollable', async () => {

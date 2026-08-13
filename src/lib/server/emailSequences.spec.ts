@@ -58,11 +58,19 @@ function createSupabaseMock(options?: {
 	specificClaimedRows?: Array<Record<string, unknown>>;
 	completeError?: { message: string } | null;
 	exitEmailError?: { message: string } | null;
+	promptGuard?: Record<string, unknown>;
 }) {
 	const claimedRows = options?.claimedRows ?? [];
 	const specificClaimedRows = options?.specificClaimedRows ?? [];
 	const completeError = options?.completeError ?? null;
 	const exitEmailError = options?.exitEmailError ?? null;
+	const promptGuard = options?.promptGuard ?? {
+		eligible: true,
+		reason: 'eligible',
+		enneagram: 'unknown',
+		last_email_sent_at: null,
+		next_eligible_at: null
+	};
 
 	const eqStatus = vi.fn().mockResolvedValue({ error: null });
 	const eqId = vi.fn().mockReturnValue({ eq: eqStatus });
@@ -81,6 +89,10 @@ function createSupabaseMock(options?: {
 				return { data: null, error: null };
 			case 'exit_email_from_sequence':
 				return { data: exitEmailError ? null : 1, error: exitEmailError };
+			case 'exit_user_from_sequence':
+				return { data: 1, error: null };
+			case 'get_enneagram_type_prompt_send_guard':
+				return { data: promptGuard, error: null };
 			default:
 				return { data: null, error: null };
 		}
@@ -132,6 +144,71 @@ describe('processPendingSequenceSends', () => {
 			p_sequence_key: 'welcome_sequence',
 			p_reason: 'unsubscribed'
 		});
+	});
+
+	it('skips the type prompt if the recipient has added a type before send time', async () => {
+		const supabase = createSupabaseMock({
+			claimedRows: [
+				makeRow({
+					sequence_key: 'enneagram_type_prompt',
+					enneagram: '7'
+				})
+			],
+			promptGuard: {
+				eligible: false,
+				reason: 'enneagram_added',
+				enneagram: '7',
+				last_email_sent_at: null,
+				next_eligible_at: null
+			}
+		});
+		getSupabaseAdminClientMock.mockReturnValue(supabase);
+
+		const result = await processPendingSequenceSends(10);
+
+		expect(result).toEqual({
+			claimed: 1,
+			sent: 0,
+			skipped: 1,
+			errors: 0
+		});
+		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+		expect(supabase.rpc).toHaveBeenCalledWith('exit_user_from_sequence', {
+			p_user_id: 'user-1',
+			p_sequence_key: 'enneagram_type_prompt',
+			p_reason: 'enneagram_added'
+		});
+	});
+
+	it('defers the type prompt until the seven-day email buffer clears', async () => {
+		const supabase = createSupabaseMock({
+			claimedRows: [makeRow({ sequence_key: 'enneagram_type_prompt', enneagram: 'unknown' })],
+			promptGuard: {
+				eligible: false,
+				reason: 'recent_email',
+				enneagram: 'unknown',
+				last_email_sent_at: '2026-08-10T12:00:00.000Z',
+				next_eligible_at: '2026-08-17T12:00:00.000Z'
+			}
+		});
+		getSupabaseAdminClientMock.mockReturnValue(supabase);
+
+		const result = await processPendingSequenceSends(10);
+
+		expect(result).toEqual({
+			claimed: 1,
+			sent: 0,
+			skipped: 1,
+			errors: 0
+		});
+		expect(sendEmailWithTrackingMock).not.toHaveBeenCalled();
+		expect(supabase._mocks.update).toHaveBeenCalledWith(
+			expect.objectContaining({
+				status: 'active',
+				next_send_at: '2026-08-17T12:00:00.000Z',
+				processing_started_at: null
+			})
+		);
 	});
 
 	it('finalizes successful sends with the tracked email id', async () => {

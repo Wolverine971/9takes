@@ -5,7 +5,7 @@
 **For:** the agent making the anonymous reply-notification promise work end to end.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Blocked by QC-03  
+**Status:** In progress; durable queue implemented, delivery worker pending
 **Related:** `supabase/migrations/20260725_notifications.sql`, [`QC-03`](./QC-03-gentle-reply-opt-in.md)
 
 ## 0. What and why
@@ -76,17 +76,30 @@ Include stable IDs and bounded status properties only.
 
 ## Verification checklist
 
-- [ ] One direct reply creates one outbox row.
-- [ ] Retry does not create a second row or send.
-- [ ] A non-reply comment creates no email.
-- [ ] A removed reply creates no email.
-- [ ] A self-reply creates no email where identity can be reconciled.
-- [ ] Suppressed email creates no send.
+- [x] One direct reply creates one outbox row.
+- [x] Replay-safe unique source keys prevent a second outbox row.
+- [x] A non-reply comment creates no outbox work.
+- [x] A removed reply creates no outbox work; later moderation cancels pending work.
+- [x] A self-reply creates no outbox work where identity can be reconciled.
+- [x] Suppressed email creates no outbox work.
 - [ ] Unsubscribe prevents a later qualifying reply send.
 - [ ] The final HTML and plain-text links are safe and attributable.
 - [ ] No comment text or PII appears in PostHog.
 - [ ] Focused email, migration, and integration tests pass.
 - [ ] `pnpm check` passes.
+
+## Implementation update: 2026-08-12
+
+- Added `reply_notification_outbox` as an RLS-protected durable queue keyed uniquely by subscription and reply comment. It stores stable IDs and delivery state but no recipient email or management token.
+- Added an `AFTER INSERT` comments trigger for direct replies only. The trigger rechecks active consent and global suppression, excludes current-fingerprint, claimed-comment, and first-touch-profile self-replies, and never performs network delivery inside the transaction.
+- Made queueing best-effort so an email-system failure cannot roll back a valid reply.
+- Added moderation cleanup that cancels pending or failed work if the source reply is removed.
+- Disposable PostgreSQL verification produced exactly one pending row for the qualifying direct reply. Top-level, removed, suppressed, and reconciled self-reply cases produced none; removing the qualifying reply changed the pending row to `cancelled` with bounded category `removed`.
+- The next slice is the worker: claim rows safely, recheck suppression/removal immediately before send, create attributable HTML and plain text, update retry state, and add conversation-level one-click stop.
+
+## Provider note
+
+The repository's current sender uses Gmail, not Resend. The queue provides durable application-level dedupe, but provider-level idempotency must be solved in the worker before automatic retries are enabled. Do not silently switch providers; either use a Gmail draft/send strategy with explicit ambiguous-delivery handling or make a deliberate Resend migration decision.
 
 ## Risks and gotchas
 

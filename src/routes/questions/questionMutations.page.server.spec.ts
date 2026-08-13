@@ -84,6 +84,19 @@ function buildReplyRequest() {
 	});
 }
 
+function buildReplyOptInRequest(email = 'reader@example.com') {
+	const formData = new FormData();
+	formData.append('comment_id', '123');
+	formData.append('question_id', '42');
+	formData.append('fingerprint', 'visitor-1');
+	formData.append('email', email);
+
+	return new Request('http://localhost/questions/example?/subscribeToCommentReplies', {
+		method: 'POST',
+		body: formData
+	});
+}
+
 function buildLikeRequest(userId: string) {
 	const formData = new FormData();
 	formData.append('parent_id', '77');
@@ -140,6 +153,9 @@ describe('question mutation identity binding', () => {
 					},
 					error: null
 				});
+			}
+			if (name === 'create_comment_reply_subscription') {
+				return Promise.resolve({ data: { status: 'subscribed' }, error: null });
 			}
 
 			throw new Error(`Unexpected rpc ${name}`);
@@ -210,6 +226,49 @@ describe('question mutation identity binding', () => {
 			status: 401
 		});
 		expect(rpcMock.mock.calls.some(([name]) => name === 'create_comment_atomic')).toBe(false);
+	});
+
+	it('persists reply consent through the validated RPC without returning private fields', async () => {
+		const event = buildActionEvent(buildReplyOptInRequest());
+
+		const result = await actions.subscribeToCommentReplies(event as any);
+
+		expect(result).toEqual({ replyOptIn: { status: 'subscribed' } });
+		expect(rpcMock).toHaveBeenCalledWith('create_comment_reply_subscription', {
+			p_comment_id: 123,
+			p_question_id: 42,
+			p_fingerprint: 'visitor-1',
+			p_email: 'reader@example.com'
+		});
+		expect(JSON.stringify(result)).not.toMatch(/email|fingerprint|token/i);
+	});
+
+	it('rejects invalid reply email without touching the persistence RPC', async () => {
+		const event = buildActionEvent(buildReplyOptInRequest('not-an-email'));
+
+		const result = await actions.subscribeToCommentReplies(event as any);
+
+		expect(result).toMatchObject({ status: 400, data: { replyOptIn: { status: 'invalid' } } });
+		expect(rpcMock.mock.calls.some(([name]) => name === 'create_comment_reply_subscription')).toBe(
+			false
+		);
+	});
+
+	it.each([
+		['already_subscribed', 200],
+		['suppressed', 422]
+	] as const)('returns the privacy-safe %s reply opt-in result', async (status, httpStatus) => {
+		rpcMock.mockResolvedValueOnce({ data: { status }, error: null });
+		const event = buildActionEvent(buildReplyOptInRequest());
+
+		const result = await actions.subscribeToCommentReplies(event as any);
+
+		if (httpStatus === 200) {
+			expect(result).toEqual({ replyOptIn: { status } });
+		} else {
+			expect(result).toMatchObject({ status: httpStatus, data: { replyOptIn: { status } } });
+		}
+		expect(JSON.stringify(result)).not.toMatch(/reader@example|fingerprint|token/i);
 	});
 
 	it('rejects likes submitted for a different user id', async () => {

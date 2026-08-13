@@ -27,6 +27,13 @@ export const createCommentSchema = z.object({
 	question_id: z.string().regex(/^\d+$/, 'Invalid question ID')
 });
 
+export const replyOptInSchema = z.object({
+	comment_id: z.string().regex(/^\d+$/, 'Invalid comment ID'),
+	question_id: z.string().regex(/^\d+$/, 'Invalid question ID'),
+	fingerprint: z.string().trim().min(1).max(100),
+	email: z.string().trim().email('Enter a valid email address').max(320)
+});
+
 export const likeCommentSchema = z.object({
 	parent_id: z.string().regex(/^\d+$/, 'Invalid comment ID'),
 	user_id: optionalClientUuidSchema,

@@ -8,6 +8,7 @@ import {
 } from './reactivation-sequence-content';
 import { generateEmailHtml } from './base-template';
 import { rewriteLinksForTracking, rewritePlainTextLinksForTracking } from './base-template';
+import { ENNEAGRAM_TYPE_PROMPT_KEY } from './enneagram-type-prompt-content';
 import { prepareSequenceSend, type SequenceSendRow, WELCOME_SEQUENCE_KEY } from './sequences';
 
 function makeSequenceRow(overrides: Partial<SequenceSendRow> = {}): SequenceSendRow {
@@ -72,6 +73,33 @@ describe('prepareSequenceSend', () => {
 			medium: 'email',
 			campaign: 'welcome-sequence',
 			content: 'welcome_sequence_step_4'
+		});
+	});
+
+	it('prepares the one-off Enneagram type prompt with campaign attribution', () => {
+		const prepared = prepareSequenceSend(
+			makeSequenceRow({
+				sequence_key: ENNEAGRAM_TYPE_PROMPT_KEY,
+				enneagram: 'unknown',
+				subject: 'Database fallback subject',
+				html_content: '<p>Database fallback body</p>',
+				plain_text: 'Database fallback text'
+			})
+		);
+
+		expect(prepared.subject).toBe('Do you know your Enneagram type?');
+		expect(prepared.preheader).toBe('Start with the three emotions behind the nine types.');
+		expect(prepared.htmlContent).toContain('Hi Alice,');
+		expect(prepared.htmlContent).toContain('<strong>Instinctual intelligence</strong> — anger');
+		expect(prepared.htmlContent).toContain(
+			'https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type'
+		);
+		expect(prepared.plainText).toContain('Emotional intelligence — shame');
+		expect(prepared.linkAttribution).toEqual({
+			source: 'enneagram-profile',
+			medium: 'email',
+			campaign: 'enneagram-type-prompt',
+			content: 'enneagram_type_prompt_step_1'
 		});
 	});
 

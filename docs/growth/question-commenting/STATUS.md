@@ -4,15 +4,15 @@
 
 Last updated: 2026-08-12
 
-| ID    | State                         | Owner      | Next gate                                                                            |
-| ----- | ----------------------------- | ---------- | ------------------------------------------------------------------------------------ |
-| QC-01 | Ready for deploy verification | Codex      | Apply migration, deploy app, then verify production payloads and browser smoke tests |
-| QC-02 | Ready for deploy verification | Codex      | Deploy attribution, run controlled test, and choose reactivation closeout option     |
-| QC-03 | Blocked by QC-01              | Unassigned | Approve final inline copy during implementation review                               |
-| QC-04 | Blocked by QC-03              | Unassigned | Delivery and suppression design review                                               |
-| QC-05 | Blocked by QC-04              | Unassigned | Exact-thread return UX review                                                        |
-| QC-06 | Blocked by QC-01              | Unassigned | One week of trustworthy impressions                                                  |
-| QC-07 | Blocked by QC-01 and QC-02    | Unassigned | Canonical events flowing in production                                               |
+| ID    | State                          | Owner      | Next gate                                                                         |
+| ----- | ------------------------------ | ---------- | --------------------------------------------------------------------------------- |
+| QC-01 | Production core verified       | Codex      | Observe the next organic `question_created` and `comment_created` payloads        |
+| QC-02 | Deployed; verification pending | Codex      | Run one controlled attributed journey and choose reactivation closeout option     |
+| QC-03 | Local implementation complete  | Codex      | Apply migration, deploy, then run an anonymous first-answer production smoke test |
+| QC-04 | In progress: outbox ready      | Codex      | Add the suppression-aware delivery worker and conversation-level one-click stop   |
+| QC-05 | Blocked by QC-04               | Unassigned | Exact-thread return UX review                                                     |
+| QC-06 | Collecting production data     | DJ / Codex | Accumulate one week of trustworthy qualified impressions                          |
+| QC-07 | Waiting for mature baseline    | Unassigned | Complete QC-02 verification and collect one week of canonical production events   |
 
 ## Decision log
 
@@ -29,6 +29,10 @@ Last updated: 2026-08-12
 - Kept QC-03 and QC-06 blocked until the migration and app are deployed and the live PostHog schema plus browser smoke journeys pass.
 - Completed QC-02's local attribution and reporting work without sending email or changing sequence state.
 - Recommended enforcing no new broad reactivation enrollment while the 75 active recipients finish their remaining 131 sends; closeout state changes still require DJ approval.
+- Verified the deployed QC-01 build on production: the expected Git commit and database RPC are live, the question index and question detail smoke journeys render, and PostHog received privacy-safe `question_impression` and `comment_started` events with the controlled campaign value. No fake public question or comment was created merely to manufacture mutation events.
+- Unblocked QC-03 on that production evidence while retaining a follow-up to inspect the next organic `question_created` and `comment_created` payloads.
+- Completed QC-03 locally: the polite post-comment tray, purpose-specific consent persistence, suppression, idempotency, and privacy-safe analytics are covered by focused tests and a disposable PostgreSQL migration exercise. Deployment remains a separate gate.
+- Started QC-04 with a durable, private outbox. Disposable PostgreSQL verification confirmed that a direct reply queues once while top-level comments, removed replies, globally suppressed recipients, and reconciled self-replies do not; later moderation cancels pending delivery.
 
 ## Update rule
 

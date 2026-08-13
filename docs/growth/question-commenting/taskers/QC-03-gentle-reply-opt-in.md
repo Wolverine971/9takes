@@ -5,7 +5,7 @@
 **For:** the agent adding a tasteful, optional way for an anonymous first commenter to request a reply email.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Blocked by QC-01  
+**Status:** Local implementation complete; deployment verification pending
 **Related:** `docs/planning/experiment-a-anonymous-email-capture-2026-04-08.md`, [`../00-START-HERE.md`](../00-START-HERE.md)
 
 ## 0. What and why
@@ -113,17 +113,26 @@ Cover eligibility, successful persistence, dismissal memory, invalid email, supp
 
 ## Verification checklist
 
-- [ ] Comment submission succeeds with no opt-in interaction.
-- [ ] The inline tray appears only after server confirmation.
-- [ ] The tray does not move focus or cover the thread.
-- [ ] `Not now` dismisses and remains dismissed.
-- [ ] A valid email creates one subscription.
-- [ ] Duplicate submission is idempotent.
-- [ ] Invalid or suppressed email does not affect the comment.
-- [ ] PostHog contains no PII.
-- [ ] Keyboard-only and screen-reader smoke tests pass.
-- [ ] Reduced-motion behavior passes.
-- [ ] Focused tests and `pnpm check` pass.
+- [x] Comment submission succeeds with no opt-in interaction.
+- [x] The inline tray appears only after server confirmation.
+- [x] The tray does not move focus or cover the thread.
+- [x] `Not now` dismisses and remains dismissed.
+- [x] A valid email creates one subscription in disposable-database verification.
+- [x] Duplicate submission is idempotent.
+- [x] Invalid or suppressed email does not affect the comment.
+- [x] Analytics payload tests confirm PostHog receives no email, fingerprint, or token.
+- [x] Semantic-region, polite live-region, focus, and native-control tests pass.
+- [x] Reduced-motion behavior passes.
+- [x] Focused tests and `pnpm check` pass.
+
+## Local implementation update: 2026-08-12
+
+- Added an inline, non-modal tray that appears only after a confirmed anonymous first top-level answer. It does not autofocus or scroll, uses `aria-live="polite"`, and reduces its 220 ms transition to zero for reduced-motion users.
+- Added a separate server action and security-definer RPC, so email validation or persistence failure cannot change the already-successful comment result.
+- Added a purpose-specific RLS-protected subscription table with normalized email, consent metadata, a private management token, unsubscribe state, and delivery counters. Anonymous/authenticated clients cannot read or insert directly.
+- Added suppression checks and a transaction-scoped actor lock. Disposable PostgreSQL verification returned `subscribed`, then `already_subscribed` for a duplicate; a suppressed address returned `suppressed`, a forged fingerprint returned `ineligible`, and only one normalized row existed.
+- Added `reply_opt_in_*` events with bounded status fields and no PII.
+- Focused Vitest result: 18 tests passed across the component, server action, and analytics helper files. The final repository-wide `pnpm check` completed successfully.
 
 ## Risks and gotchas
 
@@ -134,8 +143,8 @@ Cover eligibility, successful persistence, dismissal memory, invalid email, supp
 
 ## Definition of done
 
-- [ ] The post-comment inline treatment is implemented and accessible.
-- [ ] Consent is persisted safely and idempotently.
-- [ ] Every interaction is tracked without PII.
-- [ ] Comment completion remains independent of opt-in success.
-- [ ] QC-04 has a stable subscription record to consume.
+- [x] The post-comment inline treatment is implemented and accessible.
+- [x] Consent is persisted safely and idempotently.
+- [x] Every interaction is tracked without PII.
+- [x] Comment completion remains independent of opt-in success.
+- [x] QC-04 has a stable subscription record to consume.
