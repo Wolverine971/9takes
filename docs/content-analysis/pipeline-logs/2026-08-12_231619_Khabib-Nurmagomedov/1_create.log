@@ -1,0 +1,18 @@
+Draft complete and all gates pass. Here's the run summary.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Khabib-Nurmagomedov.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (12 qualifying testimony quotes), Gate 2: pass (5 of 7 H2s search-intent/hybrid), Gate 4: pass, Gate 5: pass (2 type-theory paragraphs, limit 4), Gate 6: pass (0 contrast engines, similarity clear, bespoke section, critic anchor, empathy turn, current anchor)
+LIMITATIONS: Free-Press-Kashmir claim that Islam/Usman also lost sponsorships is not second-sourced and was excluded; several quotes are Russian-to-English translation variants (one outlet's rendering cited each); rounds-lost stat phrased per media consensus (GiveMeSport) due to scorecard variance; faqs frontmatter enrichment is a downstream stage (lint WARN only)
+```
+
+**The profile.** Typed as 8w9, confidence high. The thesis follows the entity-gap packet's control-as-surrender lead: the most controlling fighter of his era (21 takedowns in one fight, two rounds conceded in nine years) never held final authority over his own life, and called that strength. The hook is the memory hole — the most emotional night of his life, weeping at UFC 254, is the one thing he told Mike Tyson he can't remember. The ending pays off the bear video: his father's three-word reply ("Bite him back") is withheld from the upbringing section and delivered only as the final line, with his own son now training "zero compromise" at six.
+
+**Evidence base.** Two full transcripts pulled and mined locally (PBD Aug 2023, Hotboxin' 2021 — saved in `youtube-transcripts/`), which produced the load-bearing quotes: "Love make your heart weak," the money-at-19 story ("okay. Because I don't have choice"), and "I was preparing for war... this is make me empty." A research agent verified 12 named third-party quotes (Abdulmanap, Mendez, White, Cormier, Gaethje, Islam, Ebanie Bridges) plus the Jan 2023 exit, the June 2024 UFC 302 corner return, and the Aug 2026 anchors. It also caught two traps: the Cormier "one mistake" headline is about never losing, not retiring on time, and the Miftaah Islam/Usman detail doesn't survive sourcing — both handled. Durable research file at `docs/content-analysis/research/Khabib-Nurmagomedov.md` for the perspective pipeline.
+
+**Deterministic checks:** blog-lint 0 fail / 1 warn, contrast pairs 0, head-term pass, answer block 42 words, same-type similarity clear (two early trips rewritten out), rabbit hole 522 words. Internal links (4): Conor McGregor cross-link, Type 8 pillar, wings guide + subtypes guide inside the Rabbit Hole. Per the packet, no wife name, no children count, no net worth anywhere in the draft.
+
+Next steps when you're ready: `/grade_blog Khabib-Nurmagomedov`, then human review before any `production_pretext: ready` promotion.

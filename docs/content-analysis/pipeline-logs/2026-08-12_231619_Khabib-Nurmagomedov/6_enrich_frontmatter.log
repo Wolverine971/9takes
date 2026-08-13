@@ -1,0 +1,24 @@
+Frontmatter enrichment complete: **Khabib-Nurmagomedov** (YAML validated, body and `lastmod` untouched).
+
+**Fields filled:**
+- `wikidata_qid` (Q3526023), `imdb_id` (nm5212228 — cross-checked via Wikidata P345, per command), `birth_date` (1988-09-20), `birth_place` ('Sildi, Dagestan ASSR, Soviet Union' — political naming at birth), `nationality` ('Russian'), `occupation` (3), `knows_about` (5), `keywords` (10), `same_as` (4), `citations` (7), `faqs` (5)
+
+**Fields already present (preserved):**
+- `wikipedia` — kept after verifying identity: the enwiki title resolves to Wikidata entity Q3526023, "Khabib Nurmagomedov, Russian professional mixed martial artist"
+- `twitter`, `instagram` (creator-owned, untouched)
+
+**FAQs generated (5):**
+1. What is Khabib Nurmagomedov's personality type? → `#what-is-khabib-nurmagomedovs-personality-type`
+2. Why did Khabib Nurmagomedov really retire at 29-0? → `#why-did-khabib-really-retire`
+3. Why did Khabib jump the cage after beating Conor McGregor? → `#the-two-octobers-that-explain-khabib`
+4. What does Khabib Nurmagomedov do now? → `#what-does-khabib-do-now`
+5. Is Khabib an Enneagram 8 or a 6? → `#counterarguments-why-khabib-might-not-be-type-8`
+
+All answers are drawn from the final body (including the 2023 plan-vs-promise distinction and the Rabbit Hole's 8-vs-6 tiebreaker), and I kept them em-dash-free per editorial standards.
+
+**Issues:**
+- The body contains zero external inline links (all links are internal), so `citations` was reconstructed from the research pass's verified sources matching the body's named references: UFCStats/FightMetric (Trujillo takedown record, URL from the evidence packet), Yahoo Sports (Abdulmanap RenTV quotes — both body quotes confirmed in that article; Cormier 2026; Usman free agency via MMA Junkie syndication), ESPN 2020 "Father's Plan" (Mendez 95% quote), and Siasat (Aug 2026 Miftaah remarks). Sources I could not pin to a verified URL (Fox News ring-girls, US Sun/Bridges, Submission Radio, CBS Sports Radio, Sherdog) were left out rather than guessed.
+- Britannica has no Khabib biography page, so `same_as` uses the verified UFC athlete profile as the fourth authority instead.
+- Nationality kept as the single string 'Russian': Wikidata also carries a UAE citizenship claim I couldn't confirm (reports suggest residency, not citizenship), so it was omitted rather than guessed.
+
+Sources: [Wikidata Q3526023](https://www.wikidata.org/wiki/Q3526023), [Yahoo Sports — Abdulmanap on UFC 229 punishment](https://sports.yahoo.com/article/khabib-nurmagomedovs-father-punishment-ufc-229-fiasco-will-hard-183505255.html), [ESPN — Father's Plan](https://www.espn.com/mma/story/_/id/30150919/ufc-254-father-plan-khabib-nurmagomedov-fight-strategy-homage-father-memory), [Siasat — Palestine remarks](https://www.siasat.com/khabib-nurmagomedov-says-supporting-palestine-has-cost-him-money-3522276/), [UFC athlete profile](https://www.ufc.com/athlete/khabib-nurmagomedov)

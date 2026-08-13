@@ -5,7 +5,7 @@
 **For:** the agent adding a tasteful, optional way for an anonymous first commenter to request a reply email.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Production migration applied; app deployment verification pending
+**Status:** Deployed; next eligible anonymous first-answer journey pending
 **Related:** `docs/planning/experiment-a-anonymous-email-capture-2026-04-08.md`, [`../00-START-HERE.md`](../00-START-HERE.md)
 
 ## 0. What and why

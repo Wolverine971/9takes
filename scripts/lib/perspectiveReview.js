@@ -38,10 +38,11 @@ export function sha256(value) {
  * does not create a false stale result. Whitespace remains significant so prose and
  * structural edits stale the review.
  * @param {string} markdown
- * @returns {string}
- */
+	* @returns {string}
+	*/
 export function getReaderVisiblePerspectiveBody(markdown) {
 	const parsed = matter(markdown);
+	/** @type {Record<string, unknown>} */
 	const reviewFrontmatter = {};
 	for (const field of PERSPECTIVE_REVIEW_FRONTMATTER_FIELDS) {
 		if (Object.prototype.hasOwnProperty.call(parsed.data, field)) {

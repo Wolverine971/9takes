@@ -1,0 +1,13 @@
+Second pass complete on `src/blog/people/drafts/Khabib-Nurmagomedov.md`. All three big fresh-eyes notes were valid and are now addressed; nothing was rejected.
+
+**What changed:**
+
+- **The mother is no longer a ghost.** A new paragraph at the Dana White seam in the retirement section reads her two-scene invisibility as the point: Abdulmanap earned authority publicly, rep by rep, while hers was never earned or performed and lives inside the same perimeter as his wife. Built entirely from quotes already in the draft, and per the packet she stays unnamed.
+- **The Jan 2023 exit reversal is now the control group, not a loose thread.** The "now" section draws the distinction directly: the coaching exit was a plan issued through a team statement and got walked back; the retirement was a promise to his mother and hasn't moved through five years of nine-figure offers. Corner reopened, cage stayed shut.
+- **Faith is load-bearing.** A paragraph after the wife-perimeter beat frames Islam as the structure above the father, the one that outlived him, which is why losing his one trusted human authority in 2020 didn't leave this 8 "dangerously free."
+- **Inheritance beat** closes the now-section: Islam's "if Khabib told me to stop, I'd listen" is the exact arrangement Khabib lived under, now pointed the other way, wired into the sons section. Plus the one-line UFC 209 weight-cut contrast in the October 24 section.
+- **Trims:** the duplicated "build a life on it," both Rabbit Hole quote repeats ($100M, supermarket), and two of the four verdict-cadence closers loosened (kept the two best).
+
+**Verification:** Source audit went from 1 inline / 5 vague to **3 inline / 4 vague / 0 untagged** — the epigraph is now inline (UFC 254 in-cage interview), and I verified the cold-open and supermarket quotes against the local Hotboxin' and PBD transcripts before pinning them. The remaining vague slots are primary podcast quotes with year and venue attached; no third-party outlet exists for them. `blog-lint` is **0 fail** (my first draft of the new section introduced 2 contrast-pair sentences; both rewritten).
+
+**Still open:** body is at 4,291 words against the 4,500 ceiling, so the next refresh has thin headroom, and the frontmatter-enrich stage (faqs) hasn't run yet.

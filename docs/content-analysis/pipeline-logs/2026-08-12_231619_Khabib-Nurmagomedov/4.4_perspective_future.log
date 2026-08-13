@@ -1,0 +1,11 @@
+Future-perspective review complete and saved.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Khabib-Nurmagomedov/2026-08-12_231619/future.md` (SHA verified against context.json and the supplied value)
+
+**Verdict:** pass — trust intact, value high, 0 blockers, 5 concerns.
+
+The draft is unusually durable by design: the thesis rests on frozen history (the two Octobers, 2018 and 2020), the perishable 2026 material is quarantined in a dated "now" section as pattern-confirmation rather than evidence, and the plan-vs-promise paragraph pre-absorbs the likeliest future news (another coaching move). I verified the two live risks by search: no comeback development exists as of August 2026 (he's still refusing ~$40M UFC and nine-figure boxing offers), and Usman's free agency is unresolved but expected to settle within weeks.
+
+**Strongest hit:** the "as of August 2026" anchor sits on exactly the most fleeting sentence in the piece (Usman's free agency), so it degrades to "dated" rather than "wrong" when the signing lands.
+
+**Highest-priority concern (FUTURE-R1/R2):** elapsed-time arithmetic written as prose — "has not been touched in thirteen years" and the three-sentence "five years" cluster silently go stale on every future read date; single-sentence re-anchoring fixes all of them. The one invalidation tripwire (a competitive comeback, FUTURE-R4) is low-probability but named, with the exact hostage sentences listed in the twelve-month refresh plan.

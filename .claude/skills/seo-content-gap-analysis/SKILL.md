@@ -4,7 +4,6 @@ description: Analyze a blog, keyword, draft, or route for search-intent gaps, me
 argument-hint: '<keyword, person, file path, or URL path>'
 context: fork
 agent: general-purpose
-disable-model-invocation: true
 path: .claude/skills/seo-content-gap-analysis/SKILL.md
 ---
 

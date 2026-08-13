@@ -5,7 +5,7 @@
 **For:** the agent replacing the hard-coded homepage question with a controlled, impression-aware distribution queue.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Production migration applied; app deployment pending
+**Status:** Deployed with verified fallback; first manual feature run pending
 **Related:** [`QC-01`](./QC-01-analytics-event-model.md), `src/routes/+page.server.ts`
 
 ## 0. What and why

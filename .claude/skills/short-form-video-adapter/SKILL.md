@@ -2,7 +2,6 @@
 name: short-form-video-adapter
 description: Adapt a blog, draft, person analysis, or topic into Reels and Shorts concepts with hooks, beat-by-beat scripts, on-screen text, captions, and CTAs. Use when turning long-form 9takes content into short-form video.
 argument-hint: '<person, topic, file path, or URL path>'
-disable-model-invocation: true
 ---
 
 # Short-Form Video Adapter

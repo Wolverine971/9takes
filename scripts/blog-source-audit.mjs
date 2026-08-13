@@ -383,7 +383,13 @@ const OUTLETS = [
 	'TheWrap',
 	'The Wrap',
 	'Dazed',
-	'W magazine'
+	'W magazine',
+	// Historical filmed-interview record (Carl-Jung pass, 2026-08-13). C.G. Jung
+	// Speaking (Princeton UP, 1977) is the published wording of record for the
+	// 1957 University of Houston filmed interviews and the era's other on-camera
+	// Jung material; no listed outlet covers a 1950s film series, so without it
+	// the close-slot Houston quote grades untagged no matter how well sourced.
+	'C.G. Jung Speaking'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

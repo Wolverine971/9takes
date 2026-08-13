@@ -2,7 +2,6 @@
 name: svelte-ui-critique
 description: Review a Svelte or SvelteKit route, component, or admin flow for hierarchy, mobile clarity, token usage, state design, and Svelte 5 fit. Use when critiquing product or admin UI before making design changes.
 argument-hint: '<route, component, or file path>'
-disable-model-invocation: true
 ---
 
 # Svelte UI Critique

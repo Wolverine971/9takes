@@ -52,8 +52,9 @@ pnpm build:vercel       # Build as Vercel runs it (with pre-generators)
 pnpm check              # svelte-kit sync + svelte-check
 pnpm lint               # Prettier check + ESLint
 pnpm format             # Prettier write
-pnpm test               # Playwright E2E
-pnpm test:unit          # Vitest unit tests (*.spec.ts)
+pnpm test               # Vitest unit tests, single run (*.spec.ts)
+pnpm test:unit          # Vitest in watch mode
+pnpm test:smoke         # Playwright smoke tests (e2e/)
 pnpm index:blogs        # Index MDsvex blogs into Supabase FTS
 pnpm gen:sitemap        # Regenerate sitemap
 ```
@@ -74,12 +75,12 @@ Corpus-wide numbers (type distribution, over-/under-representation by domain, pi
 
 ## Testing
 
-- **Unit**: Vitest. Specs live next to the code they test (`src/lib/server/*.spec.ts`, `src/routes/**/*.spec.ts`). Run `pnpm test:unit`.
-- **E2E**: Playwright. Run `pnpm test`.
+- **Unit**: Vitest. Specs live next to the code they test (`src/lib/server/*.spec.ts`, `src/routes/**/*.spec.ts`). Run `pnpm test` (single run) or `pnpm test:unit` (watch).
+- **Smoke**: Playwright specs in `e2e/`. Run `pnpm test:smoke`.
 
 ## Deployment
 
-The repo deploys on Vercel via `@sveltejs/adapter-vercel`. `pnpm build:vercel` runs the personality-image-map and sitemap generators before building, so they stay in sync in production.
+The repo deploys on Vercel via `@sveltejs/adapter-vercel`. `pnpm build:vercel` runs the personality-image-map, corpus-stats, sitemap, and llms.txt generators before building, so they stay in sync in production. `pnpm build` also enforces build budgets (`scripts/check-build-budgets.mjs`).
 
 Cron endpoints (`src/routes/api/cron/*`) are triggered on schedule and require a `CRON_SECRET` bearer. The `/api/update-questions` webhook requires `PRIVATE_WEBHOOK_AUTH`.
 

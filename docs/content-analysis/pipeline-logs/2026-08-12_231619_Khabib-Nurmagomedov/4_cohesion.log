@@ -1,0 +1,40 @@
+## Cohesion Check Complete: Khabib-Nurmagomedov.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Khabib is the rare Enneagram 8 who, instead of dismantling every authority, surrendered completely to one earned structure (his father, then the faith and family that outlived him), which is why the most controlling fighter alive could walk away at 29-0 and stay gone.
+
+### Thread Map
+
+Cold open (the tears he can't remember) → the paradox frames the thesis: control-obsessed fighter, operating inside a structure someone else built → **diagnosis** establishes the base type and pivots to the surrender-variant → **basement gym** shows who built the structure → **final say** shows why an 8 accepted it, ending on "built to outlive its builder" → **two Octobers** runs the controlled experiment (fury remembered, grief deleted) → **retirement** answers with the mother's word and the promise-as-territory mechanism → **now** hands the structure to Islam and distinguishes the 2023 plan from the 2020 promise → **sons** closes the loop with the bear-video reply withheld since the basement section. Every section serves the thesis; every planted thread (epigraph, "three words," memory hole, "two experiments running") pays off.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 8/10  | 2      |
+| Section Transitions     | 9/10  | 0      |
+| Internal Paragraph Flow | 9/10  | 1      |
+
+### Changes Made (2 total)
+
+**Internal Flow Fixes (1):**
+
+- Diagnosis section: "And the same verdict grammar cuts people when it misfires" asked the reader to reach backward over the Cormier quote (a different speaker) to find what "same" referred to. Now reads "The same verdict grammar that settled the supermarket line cuts people when it misfires," anchoring the pivot to the anecdote that coined the pattern.
+
+**Thread Fixes (1):**
+
+- The final-say section promises "the faith is also what decides the second half of this story," but the retirement section delivered its payoff only implicitly. The mother paragraph now reads "inside the perimeter the faith drew," a three-word wire connecting the tee-up to where it cashes out. This was the piece's one partially orphaned thread.
+
+### What Was Preserved
+
+- All frontmatter (including `lastmod`), all ledger comments, both accordions, all internal links
+- 7 of 8 section transitions untouched. They were already strong: "found one man... handed him everything" → the father section, "Everything above compresses into two nights" → the Octobers, "two experiments running... his own at home" → the sons section
+- Three adequate-but-deliberate constructions I judged riskier to touch than to leave: the "same fence" metaphor (resolves within its own sentence), the chronological basement→final-say handoff, and the objection-first ordering that opens "What does Khabib do now?"
+
+### Remaining Concerns
+
+None structural. The only judgment call worth flagging: the closing line "Bite him back. Then you can understand." slightly blurs whether the second sentence is the father's or the narrator's. I read that ambiguity as designed (both readings work) and it's a voice call, not a cohesion break, so I left it. Since this ran non-interactively, I applied the score-8+ tightening fixes per the pipeline defaults and logged the pass in the file's ledger.

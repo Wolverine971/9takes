@@ -5,7 +5,7 @@
 **For:** the agent making welcome-email participation attributable and closing the finite reactivation-list learning loop.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Ready for deploy verification and closeout approval  
+**Status:** Deployed; controlled attribution verification and closeout approval pending
 **Related:** [`../02-BASELINE-2026-08-12.md`](../02-BASELINE-2026-08-12.md)
 
 ## 0. What and why

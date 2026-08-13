@@ -12,13 +12,14 @@ Start with [`00-START-HERE.md`](./00-START-HERE.md), then use [`01-PRIORITIZED-P
 
 ## Working documents
 
-| Document                                                   | Purpose                                                             |
-| ---------------------------------------------------------- | ------------------------------------------------------------------- |
-| [`00-START-HERE.md`](./00-START-HERE.md)                   | Origin, goals, decisions, PostHog method, and operating rules       |
-| [`01-PRIORITIZED-PLAN.md`](./01-PRIORITIZED-PLAN.md)       | Ordered execution plan and dependency map                           |
-| [`02-BASELINE-2026-08-12.md`](./02-BASELINE-2026-08-12.md) | Evidence snapshot, corrected email attribution, and current caveats |
-| [`STATUS.md`](./STATUS.md)                                 | Small live tracker for task state and decisions                     |
-| [`taskers/README.md`](./taskers/README.md)                 | Tasker queue and ownership boundaries                               |
+| Document                                                                     | Purpose                                                             |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| [`00-START-HERE.md`](./00-START-HERE.md)                                     | Origin, goals, decisions, PostHog method, and operating rules       |
+| [`01-PRIORITIZED-PLAN.md`](./01-PRIORITIZED-PLAN.md)                         | Ordered execution plan and dependency map                           |
+| [`02-BASELINE-2026-08-12.md`](./02-BASELINE-2026-08-12.md)                   | Evidence snapshot, corrected email attribution, and current caveats |
+| [`05-POST-DEPLOY-AUDIT-2026-08-13.md`](./05-POST-DEPLOY-AUDIT-2026-08-13.md) | Production verification and first post-deploy signals               |
+| [`STATUS.md`](./STATUS.md)                                                   | Small live tracker for task state and decisions                     |
+| [`taskers/README.md`](./taskers/README.md)                                   | Tasker queue and ownership boundaries                               |
 
 ## Scope
 
@@ -35,6 +36,6 @@ This workstream owns:
 
 It does not own broad newsletter strategy, unrelated signup capture, general SEO, or a redesign of the entire questions product.
 
-## Current next task
+## Current next gates
 
-Start with [`QC-01`](./taskers/QC-01-analytics-event-model.md). Do not ship the email opt-in or distribution algorithm until its measurement contract is implemented and verified.
+The implementation is deployed. The next safe gates are to inspect the next organic confirmed comment, select the first manual 30-impression feature run, and complete one controlled reply-email return journey. Automatic rotation and the weekly retention dashboard remain intentionally off until the sample matures.

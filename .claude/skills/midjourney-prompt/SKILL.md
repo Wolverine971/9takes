@@ -5,7 +5,7 @@ description: >
   cyberpunk/neon aesthetics, tech/hacker themes, philosopher figures, community scenes, personal growth
   transformations, and cinematic styles. Uses proven templates from 73+ successful prompts with proper
   technical parameters, aspect ratios, and style weights.
-user-invokable: true
+user-invocable: true
 argument-hint: '<concept or blog title>'
 allowed-tools: Read, Write, AskUserQuestion
 ---
@@ -13,6 +13,13 @@ allowed-tools: Read, Write, AskUserQuestion
 # Midjourney Prompt Generator for 9takes
 
 Generate production-ready Midjourney prompts aligned with the 9takes brand. All prompts draw from proven templates derived from 73+ successful generations.
+
+## Model Version (V8.2)
+
+Prompts target the current default model — V8.2, default since July 2026:
+
+- `--quality` was **removed** in V8.x. Never append it. HD output (native 2K) is the default; add `--sd` only for cheap draft passes.
+- Detailed prompts work well in V8, but spend the words on concrete visual detail — subject, pose, expression, setting, lighting — not render-engine jargon. The "Unreal Engine, 32k, Super-Resolution, insane details" chains from the V4/V5 era are dead weight now; the historical versions are preserved in the reference doc.
 
 ## Usage
 
@@ -54,11 +61,8 @@ Match the user's request to the best template category:
 
 ```
 [EMOTION/SITUATION] greek statue [ACTION/POSE], [FACIAL_EXPRESSION], [SETTING],
-Unreal Engine, Cinematic, [COLOR_SCHEME], portrait Photography, Shot on 50mm lens,
-Ultra-Wide Angle, Depth of Field, hyper-detailed, beautifully color-coded,
-insane details, intricate details, beautifully color graded, 32k, Super-Resolution,
-Megapixel, [LIGHTING_STYLE], Global Illumination, Ray Tracing Global Illumination,
-hypermaximalist, elegant, hyper realistic, super detailed
+[COLOR_SCHEME], cinematic portrait photography, shot on 50mm lens, depth of field,
+detailed marble texture, [LIGHTING_STYLE], beautifully color graded, elegant, hyper realistic
 ```
 
 **Enneagram-specific patterns:**
@@ -76,24 +80,20 @@ hypermaximalist, elegant, hyper realistic, super detailed
 #### Cyberpunk & Neon
 
 ```
-[SUBJECT] [ACTION], cyberpunk, cyberpunk style, neon [COLORS],
-Unreal Engine, Cinematic, Color Grading, portrait Photography,
-Shot on 50mm lens, Ultra-Wide Angle, Depth of Field, hyper-detailed,
-beautifully color-coded, insane details, intricate details,
-beautifully color graded, [NEON_LIGHTING], Moody Lighting,
-Cinematic Lighting, Studio Lighting, Soft Lighting, Volumetric,
-Beautiful Lighting, Accent Lighting, Global Illumination,
-Ray Tracing Global Illumination, hyper realistic, super detailed
+[SUBJECT] [ACTION], cyberpunk style, neon [COLORS],
+cinematic portrait photography, shot on 50mm lens, depth of field,
+[NEON_LIGHTING], moody volumetric lighting, beautifully color graded,
+hyper-detailed, hyper realistic
 ```
 
 #### Tech/Hacker
 
 ```
 [TECH_SETTING] [CODING_ELEMENTS], hacker, [PROGRAMMING_LANGUAGE],
-computers, [TECH_GEAR], dark theme, 8k, cinematic,
+computers, [TECH_GEAR], dark theme, cinematic,
 [CYBERPUNK_ELEMENTS], moody lighting with neon accents,
 powerful atmosphere of intelligence, stealth, and precision,
-high detail, realistic textures --ar 16:9 --raw
+high detail, realistic textures
 ```
 
 #### Philosophers & Historical Figures
@@ -101,13 +101,9 @@ high detail, realistic textures --ar 16:9 --raw
 ```
 [PHILOSOPHER/FIGURE] [CONTEMPLATIVE_ACTION], [CLASSICAL_SETTING],
 ancient wisdom meets modern psychology, marble and gold tones,
-cinematic composition, Unreal Engine, Cinematic, Color Grading,
-portrait Photography, Shot on 50mm lens, Ultra-Wide Angle,
-Depth of Field, hyper-detailed, beautifully color-coded,
-insane details, intricate details, beautifully color graded,
-32k, Super-Resolution, Megapixel, [DRAMATIC_LIGHTING],
-Global Illumination, Ray Tracing Global Illumination,
-hypermaximalist, elegant, hyper realistic, super detailed
+cinematic composition, portrait photography, shot on 50mm lens,
+depth of field, [DRAMATIC_LIGHTING], beautifully color graded,
+elegant, hyper realistic, hyper-detailed
 ```
 
 #### Community & Group
@@ -115,14 +111,9 @@ hypermaximalist, elegant, hyper realistic, super detailed
 ```
 [GROUP_COMPOSITION] [SOCIAL_INTERACTION], [SETTING],
 [GROUP_DYNAMIC_DESCRIPTION], [EMOTIONAL_TONE],
-[VISUAL_STYLE], [LIGHTING_MOOD], cinematic composition,
-Unreal Engine, Cinematic, Color Grading, portrait Photography,
-Shot on 50mm lens, Ultra-Wide Angle, Depth of Field,
-hyper-detailed, beautifully color-coded, insane details,
-intricate details, beautifully color graded,
-32k, Super-Resolution, Megapixel, [LIGHTING_STYLE],
-Global Illumination, Ray Tracing Global Illumination,
-hypermaximalist, elegant, hyper realistic, super detailed
+[VISUAL_STYLE], cinematic composition, shot on 50mm lens,
+depth of field, [LIGHTING_MOOD], beautifully color graded,
+hyper-detailed, hyper realistic
 ```
 
 #### Personal Growth & Transformation
@@ -131,12 +122,9 @@ hypermaximalist, elegant, hyper realistic, super detailed
 [TRANSFORMATION_SEQUENCE] showing [GROWTH_CONCEPT],
 [PROGRESSION_DESCRIPTION], [SYMBOLIC_ELEMENTS],
 [EMOTIONAL_JOURNEY], [VISUAL_METAPHOR],
-Unreal Engine, Cinematic, Color Grading, Editorial Photography,
-Shot on 70mm lens, Depth of Field, DOF, Tilt Blur,
-Shutter Speed 1/1000, F/22, White Balance, 32k, Super-Resolution,
-Megapixel, [LIGHTING_PROGRESSION], Global Illumination,
-Ray Tracing Global Illumination, hypermaximalist, elegant,
-hyper realistic, super detailed
+cinematic editorial photography, shot on 70mm lens, shallow depth of field,
+[LIGHTING_PROGRESSION], beautifully color graded, elegant,
+hyper realistic, hyper-detailed
 ```
 
 ### Brand Color Palettes
@@ -162,12 +150,14 @@ Apply these based on content tone:
 
 Always append Midjourney-specific parameters at the end:
 
-| Parameter   | Options                                                                             | Default                                 |
-| ----------- | ----------------------------------------------------------------------------------- | --------------------------------------- |
-| `--ar`      | `16:9` (blog hero), `1:1` (social), `4:9` (vertical), `9:16` (story), `3:2` (photo) | `16:9`                                  |
-| `--stylize` | `0-1000` (higher = more artistic)                                                   | `200` for realistic, `750` for artistic |
-| `--quality` | `1` (standard), `2` (high detail)                                                   | `2`                                     |
-| `--raw`     | No value needed. Reduces Midjourney's default beautification                        | Include for photorealistic              |
+| Parameter   | Options                                                                                     | Default                                 |
+| ----------- | ------------------------------------------------------------------------------------------- | --------------------------------------- |
+| `--ar`      | `16:9` (blog hero), `1:1` (social), `4:5` (feed portrait), `9:16` (story), `3:2` (photo)    | `16:9`                                  |
+| `--stylize` | `0-1000` (higher = more artistic)                                                           | `200` for realistic, `750` for artistic |
+| `--raw`     | No value needed. Reduces Midjourney's default beautification                                | Include for photorealistic              |
+| `--sd`      | Standard-def output for cheap draft passes; HD (native 2K) is already the V8.1+ default     | Omit (HD)                               |
+
+Optional exploration: `--chaos 0-100` for grid variety, `--weird 0-3000` for offbeat looks. **Never append `--quality` / `--q`** — removed in V8.x; it will error or be ignored.
 
 ## Step 5: Output Format
 
@@ -175,13 +165,13 @@ Present the final prompt in a copyable code block. Always generate **3 prompt va
 
 ```
 ### Variation 1: [Brief label]
-[Full prompt here] --ar 16:9 --stylize 200 --quality 2
+[Full prompt here] --ar 16:9 --stylize 200
 
 ### Variation 2: [Brief label]
-[Full prompt here] --ar 16:9 --stylize 750 --quality 2
+[Full prompt here] --ar 16:9 --stylize 750
 
 ### Variation 3: [Brief label]
-[Full prompt here] --ar 16:9 --stylize 200 --quality 2 --raw
+[Full prompt here] --ar 16:9 --stylize 200 --raw
 ```
 
 After presenting the prompts:
@@ -193,7 +183,7 @@ After presenting the prompts:
 ## Rules
 
 1. **Never use generic stock-photo language** - no "diverse group of professionals" or "business meeting"
-2. **Always include the full technical parameter chain** - resolution, lighting, rendering engine
+2. **Keep the parameter chain current** - `--ar` + `--stylize`, plus `--raw`/`--sd` when warranted; never `--quality`
 3. **Stay on-brand** - greek statues and classical imagery are the 9takes signature aesthetic
 4. **Front-load the important elements** - Midjourney weighs early words more heavily
 5. **Be specific about expressions and poses** - "face full of curiosity" not just "curious"
@@ -202,5 +192,5 @@ After presenting the prompts:
 
 ## Reference
 
-Full template documentation with all successful examples is at:
+Full template documentation with all successful examples (including the legacy V4/V5-era render chains) is at:
 `docs/content-generation/midjourney_prompt_templates.md`

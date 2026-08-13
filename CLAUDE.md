@@ -22,14 +22,15 @@ Guidance for Claude Code when working with this repository.
 
 ```bash
 pnpm dev               # Start dev server (port 5173)
-pnpm build             # Production build
-pnpm build:vercel      # Vercel build (generates personality image map + sitemap first)
+pnpm build             # Production build + build-budget check
+pnpm build:vercel      # Vercel build (runs image-map, corpus-stats, sitemap, llms generators first)
 pnpm check             # svelte-kit sync + svelte-check type-check
 pnpm check:watch       # Type-check in watch mode
-pnpm lint              # Prettier check + ESLint
+pnpm lint              # Prettier + ESLint + custom lints (radius, retired color tokens, global component CSS)
 pnpm format            # Auto-format with Prettier
-pnpm test              # Playwright E2E tests
-pnpm test:unit         # Vitest unit tests (*.spec.ts alongside sources)
+pnpm test              # Vitest unit tests, single run (*.spec.ts alongside sources)
+pnpm test:unit         # Vitest in watch mode
+pnpm test:smoke        # Playwright smoke tests
 pnpm clean             # Remove .svelte-kit build output
 ```
 
@@ -116,9 +117,14 @@ src/
 - `personalitySimilarity.ts` / `personalityCategoryData.ts` - Related-person ranking
 - `questionCategoryTree.ts` / `questionCategoryIntro.ts` - Question category navigation
 - `adminAuth.ts` / `authProtection.ts` / `contentAccessGuard.ts` - Access control
-- `adminAnalytics.ts` / `cohortAnalytics.ts` / `retentionAnalytics.ts` - Analytics aggregations
+- `adminAnalytics.ts` / `retentionAnalytics.ts` - Analytics aggregations
+- `apiRateLimit.ts` - Per-subject API rate limiting (backed by `api_rate_limit_events`)
+- `nineTakes.ts` / `nineTakesGenerator.ts` / `nineTakesVoices.ts` - Per-type AI takes generation
+- `giveFirstFunnel.ts` - Give-first funnel event recording
 - `emailSequences.ts` / `emailAdminSequences.ts` - Drip sequence logic
 - `welcomeSequenceGuards.ts` / `welcomeSequenceReturns.ts` - Welcome flow guards
+- `reactivationCandidates.ts` / `reactivationRepermission.ts` - Reactivation sequence logic
+- `replyNotificationDelivery.ts` / `replyNotificationReturn.ts` - Reply-notification emails
 - `cronAuth.ts` - Cron endpoint auth (`CRON_SECRET`)
 - `supabaseAdmin.ts` - Service-role Supabase client (server-only)
 
@@ -159,11 +165,14 @@ All other blog routes use `import.meta.glob` to load markdown files at build tim
 | `/admin/content-board`                     | Famous people blog management (create, edit, publish)   |
 | `/admin/drafts`                            | Blog draft management                                   |
 | `/admin/email-dashboard`                   | Email campaign management (draft, schedule, send)       |
+| `/admin/enneagram-campaign`                | Enneagram-type-targeted email campaign builder          |
 | `/admin/links`                             | Link management (+ map-powered `[slug]`)                |
 | `/admin/marketing`                         | Marketing tools and templates                           |
 | `/admin/messages`                          | Message management                                      |
 | `/admin/poster-generator`                  | Legacy poster generator (prefer asset-generators)       |
+| `/admin/question-distribution`             | Question distribution review/tools                      |
 | `/admin/questions`                         | Question moderation and hierarchy                       |
+| `/admin/reactivation-sequence`             | Reactivation email sequence editor                      |
 | `/admin/search`                            | Search index management                                 |
 | `/admin/transactional-emails`              | Transactional template preview + ad-hoc admin sends     |
 | `/admin/users`                             | User management                                         |
@@ -176,20 +185,28 @@ Admin access is enforced by `src/lib/server/adminAuth.ts` and layout `+layout.se
 
 | Path                              | Purpose                                      |
 | --------------------------------- | -------------------------------------------- |
-| `api/adder/`                      | Internal content/row adders                  |
-| `api/admin/`                      | Admin-only endpoints                         |
-| `api/analytics/`                  | Page analytics ingest + retrieval            |
-| `api/blog/`                       | Blog read/write helpers                      |
-| `api/blog-versions/`              | Famous-people version history                |
-| `api/cron/process-sequences/`     | Cron: advance email drip sequences           |
-| `api/cron/send-scheduled-emails/` | Cron: send scheduled campaign emails         |
-| `api/person-suggestions/`         | Public POST: famous-person suggestions       |
-| `api/questions/typeahead/`        | Authenticated question typeahead (ES-backed) |
-| `api/questions/upload-image/`     | Question image upload                        |
-| `api/search/`                     | Universal search endpoint                    |
-| `api/signups/`                    | Public POST: waitlist/email signups          |
-| `api/track/`                      | Event tracking (analytics pings, etc.)       |
-| `api/update-questions/`           | Webhook-auth'd question bulk update          |
+| `api/adder/`                                | Internal content/row adders                     |
+| `api/admin/`                                | Admin-only endpoints                            |
+| `api/analytics/`                            | Page analytics ingest + retrieval               |
+| `api/auth-shell/`                           | Client auth-shell state (user + admin flag)     |
+| `api/blog/`                                 | Blog read/write helpers                         |
+| `api/blog-versions/`                        | Famous-people version history                   |
+| `api/cron/process-reply-notifications/`     | Cron: deliver reply-notification emails         |
+| `api/cron/process-sequences/`               | Cron: advance email drip sequences              |
+| `api/cron/send-scheduled-emails/`           | Cron: send scheduled campaign emails            |
+| `api/cron/tag-chorus-questions/`            | Cron: async tagging for chorus questions        |
+| `api/email/re-permission/`                  | Reactivation re-permission yes/no links         |
+| `api/nine/mirror/`                          | Chorus mirror endpoint (nine takes)             |
+| `api/notifications/`                        | Notification read/unread state                  |
+| `api/person-suggestions/`                   | Public POST: famous-person suggestions          |
+| `api/questions/typeahead/`                  | Authenticated question typeahead (ES-backed)    |
+| `api/questions/upload-image/`               | Question image upload                           |
+| `api/reply-notifications/`                  | Reply-notification return + unsubscribe links   |
+| `api/search/`                               | Universal search endpoint                       |
+| `api/signups/`                              | Public POST: waitlist/email signups             |
+| `api/track/`                                | Event tracking (analytics pings, etc.)          |
+| `api/transcribe/`                           | Audio transcription (OpenRouter, rate-limited)  |
+| `api/update-questions/`                     | Webhook-auth'd question bulk update             |
 
 Cron endpoints verify `CRON_SECRET`. The webhook endpoint verifies `PRIVATE_WEBHOOK_AUTH`.
 
@@ -234,42 +251,24 @@ This project uses **Svelte 5 runes**. New/edited components should use:
 
 **Migration status**: Newer components (search, questions, admin) use runes. Many legacy components (Header, Footer, blog internals) still use `export let` and `$:` — migrate when touching them.
 
-## API Route Patterns
+## Server Patterns
 
-```typescript
-// src/routes/api/[resource]/+server.ts
-import type { RequestHandler } from './$types';
-import { json, error } from '@sveltejs/kit';
+API routes (`+server.ts`) and page loads (`+page.server.ts`) share the same conventions:
 
-export const GET: RequestHandler = async ({ locals, url }) => {
-	const supabase = locals.supabase;
-
-	// Use RPC functions for optimized queries
-	const { data, error: err } = await supabase.rpc('get_data', { param: value });
-
-	if (err) return json({ error: err.message }, { status: 500 });
-	return json(data);
-};
-```
-
-## Page Server Load Pattern
+- Auth comes from `event.locals.session` and `event.locals.supabase` (wired in `src/hooks.server.ts`).
+- Use Supabase RPC functions when a query combines multiple tables/queries (reduces round trips).
+- API handlers return `json(data)` / `json({ error }, { status })` from `@sveltejs/kit`.
 
 ```typescript
 // +page.server.ts
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async (event) => {
-	const { supabase } = event.locals;
-	const session = event.locals.session;
-
-	// Use RPC functions when combining multiple queries
+	const { supabase, session } = event.locals;
 	const { data } = await supabase.rpc('get_page_data', {/* ... */});
-
 	return { data, user: session?.user ?? null };
 };
 ```
-
-Auth is exposed via `event.locals.session` and `event.locals.supabase` (wired in `src/hooks.server.ts`).
 
 ## Blog Content System
 
@@ -361,20 +360,27 @@ Run via `pnpm <alias>` where available:
 
 | Command                                         | Purpose                                    |
 | ----------------------------------------------- | ------------------------------------------ |
-| `pnpm gen:types`                                | Generate TS types from blog frontmatter    |
-| `pnpm gen:famous-types`                         | Generate famous-people type data           |
-| `pnpm gen:personality-image-map`                | Build personality → image slug map         |
-| `pnpm gen:sitemap`                              | Generate XML sitemap                       |
-| `pnpm gen:crosslinks`                           | Build internal cross-link report           |
-| `pnpm gen:search-index`                         | Index blogs into Supabase (guarded by env) |
-| `pnpm gen:all`                                  | Format + all generators + blog index       |
-| `pnpm gen:instagram-plan`                       | Build Instagram posting plan               |
-| `pnpm index:blogs` / `:dry` / `:force`          | Direct blog indexer (bypasses env guard)   |
-| `pnpm push:people`                              | Parse + push famous-people blog drafts     |
-| `pnpm regen:takes`                              | Regenerate per-type AI takes (comments_ai) |
-| `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB          |
-| `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links         |
-| `pnpm label-paths`                              | Annotate files with path comments          |
+| `pnpm gen:types`                                | Generate TS types from blog frontmatter          |
+| `pnpm gen:famous-types`                         | Generate famous-people type data                 |
+| `pnpm gen:personality-image-map`                | Build personality → image slug map               |
+| `pnpm gen:sitemap`                              | Generate XML sitemap                             |
+| `pnpm gen:llms`                                 | Generate llms.txt                                |
+| `pnpm gen:corpus-stats`                         | Generate corpus stats                            |
+| `pnpm gen:crosslinks`                           | Build internal cross-link report                 |
+| `pnpm gen:search-index`                         | Index blogs into Supabase (guarded by env)       |
+| `pnpm gen:all`                                  | Format + all generators + blog index             |
+| `pnpm gen:chorus` / `:force`                    | Generate chorus content                          |
+| `pnpm gen:instagram-plan`                       | Build Instagram posting plan                     |
+| `pnpm marketing:queue`                          | Check marketing content queue                    |
+| `pnpm index:blogs` / `:dry` / `:force`          | Direct blog indexer (bypasses env guard)         |
+| `pnpm push:people`                              | Parse + push famous-people blog drafts           |
+| `pnpm regen:takes`                              | Regenerate per-type AI takes (comments_ai)       |
+| `pnpm portrait:check`                           | Preflight personality portrait assets            |
+| `pnpm audit:people-seo` / `audit:people-corpus` | People SEO / corpus audits                       |
+| `pnpm audit:blog-enrichment`                    | Blog enrichment status report                    |
+| `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB                |
+| `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links               |
+| `pnpm label-paths`                              | Annotate files with path comments                |
 
 ## Common Tasks
 
@@ -387,13 +393,12 @@ Run via `pnpm <alias>` where available:
 
 ## Testing
 
-- **Unit tests** live alongside sources as `*.spec.ts` (see `src/lib/server/*.spec.ts`). Run with `pnpm test:unit`.
-- **E2E tests** use Playwright (`pnpm test`). Page-level specs sit next to routes (e.g., `src/routes/questions/*.page.server.spec.ts`).
+- **Unit tests** live alongside sources as `*.spec.ts` (see `src/lib/server/*.spec.ts`). Run with `pnpm test` (single run) or `pnpm test:unit` (watch). Page-level specs sit next to routes (e.g., `src/routes/questions/*.page.server.spec.ts`).
+- **Smoke tests** use Playwright: `pnpm test:smoke`.
 - Prefer server-side logic in `src/lib/server/*.ts` so it can be unit-tested without a browser.
 
 ## Important Notes
 
-- Always use Supabase RPC functions for complex queries (reduces round trips)
 - Blog search uses `search_all_blogs` RPC with Supabase FTS fallback
 - Question search uses Elasticsearch; the typeahead endpoint requires an authenticated session
 - Rate limiting: 5 comments per 60 seconds per fingerprint

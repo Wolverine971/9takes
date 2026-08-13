@@ -1,0 +1,53 @@
+## Cohesion Check Complete: Travis-Kelce.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Travis Kelce is a Type 7 whose appetite nearly destroyed his career and whose greatness runs on discipline he openly admits other people installed; the test of his life is whether a man built around exits can stay in one room.
+
+### Thread Map
+
+1. **Cold open (car keys)** → plants the appetite at age three and states the thesis promise: the discipline "was not his."
+2. **Diagnosis** → names Type 7, shows the bright side (momentum, full send), then the shadow: pain metabolized into a bit, which hands off directly to...
+3. **Cincinnati** → the appetite's paper trail; Jason saves him; punishment reframed into gratitude. Ends on the Butch Jones jersey.
+4. **No. 87** → opens on that exact jersey ("He pays Jason back every Sunday"), goes back to childhood to explain the debt. The number is a receipt.
+5. **The Discipline That Isn't His** → extends not-self-made from Jason to Reid/Veach; the one arena where the Seven went deep.
+6. **The Super Bowl shove** → what happens when the reframe machinery has nothing to work on; the stress pattern, resolved inside the section with the OT win.
+7. **Can't Do Just One Thing** → the appetite at full stretch in 2025; the cost; "I'm not going out like this" sets up the 14th season.
+8. **The Bracelet** → "the biggest yes of his life" carries the yes-to-everything keyword into the Swift arc; ends "even the altar was an arena."
+9. **The Only Room He Won't Leave** → resolves both threads: the man built around exits stayed (discipline thread) and now faces the one exit he can't reframe (appetite thread).
+
+The chain reads coherently top to bottom. Every section serves the thesis; removing any of 3–6 would collapse the argument.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 9/10  | 0      |
+| Section Transitions     | 9/10  | 0      |
+| Internal Paragraph Flow | 8/10  | 1      |
+
+**Overall Cohesion Score: 9/10**
+
+### Changes Made (1 total)
+
+**Internal Flow Fixes (1):**
+
+- "Travis Kelce Can't Do Just One Thing," paragraph 4: the pivot from the breadth question ("His life keeps refusing to answer cleanly") to the GQ image beat opened cold on "The party-boy caricature has one loose thread," presuming a caricature discussion the section hadn't been having. Added a bridge that carries the section's own "motion" keyword: "From the outside, all that motion looks like the party boy at full tilt. But the caricature has one loose thread." No banned patterns; matches the surrounding rhythm.
+
+### What Was Preserved
+
+- All frontmatter, ledger comments, and pass-note comment blocks
+- All Svelte-adjacent HTML (timeline, contrast panel, accordions, inner-thought)
+- All internal links and citations
+- 7 of 8 section transitions untouched. Standouts: Cincinnati → No. 87 (the jersey handoff) and Can't-Do-One-Thing → Bracelet (the "yes" carry) are the strongest bridges in the piece. Diagnosis → Cincinnati works because the diagnosis deliberately ends on the suspension reframe the next section unpacks.
+
+### Remaining Concerns
+
+- **Minor orphan, left intentionally:** "The showman is auditioning for respect" (GQ paragraph) is never picked up again. It's a closing texture beat rather than a raised question, and the ending's "got everything he ever chased" loosely absorbs it, so cutting or extending it is a writer's call, not a cohesion defect.
+- **Micro-drift, left intentionally:** the Mahomes "favorite teammate" quote in the Discipline section is about character, not discipline. It's framed as what the depth bought beyond stats, and it's one sentence, so I left it.
+- The Discipline → Shove transition re-invokes the "happy-go-lucky myth" the contrast panel already punctured, but it undoes the myth from the opposite direction (hidden volatility vs. hidden professional), so it holds as-is.
+
+One unrelated note: the second-pass notes' open item stands — the faqs-enrich pipeline stage still hasn't run on this draft, which is outside this check's scope.

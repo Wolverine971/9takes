@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-12T06:47:31Z",
+	"lastUpdated": "2026-08-13T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "carl-jung",
-			"displayName": "Carl Jung",
-			"type": null,
-			"priority": 59,
-			"priorityReason": "The personality-psychology adjacency play: evergreen search, natural internal-link hub between people blogs and the Enneagram corpus",
-			"estimatedTraffic": "high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "psychology-hub-cluster"
-		},
 		{
 			"name": "michael-jordan",
 			"displayName": "Michael Jordan",
@@ -1582,7 +1569,20 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "carl-jung",
+		"displayName": "Carl Jung",
+		"type": null,
+		"priority": 59,
+		"priorityReason": "The personality-psychology adjacency play: evergreen search, natural internal-link hub between people blogs and the Enneagram corpus",
+		"estimatedTraffic": "high",
+		"searchVolume": "very-high",
+		"personaTitle": null,
+		"addedToQueue": "2026-07-18",
+		"retryCount": 0,
+		"strategicValue": "psychology-hub-cluster",
+		"startedAt": "2026-08-13T06:00:00Z"
+	},
 	"skipped": [
 		{
 			"name": "jynxzi",

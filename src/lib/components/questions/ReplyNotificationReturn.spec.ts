@@ -115,4 +115,28 @@ describe('ReplyNotificationReturn', () => {
 			expect.anything()
 		);
 	});
+
+	it('softens the new-reply treatment after it has been visible', async () => {
+		vi.useFakeTimers();
+		vi.stubGlobal(
+			'matchMedia',
+			vi.fn(() => ({ matches: false, addEventListener: vi.fn(), removeEventListener: vi.fn() }))
+		);
+
+		try {
+			const { getByText, queryByText } = render(ReplyNotificationReturn, {
+				props: { context, thread }
+			});
+
+			await Promise.resolve();
+			await Promise.resolve();
+			expect(getByText('New reply')).toBeTruthy();
+
+			await vi.advanceTimersByTimeAsync(4_000);
+			expect(getByText('Reply')).toBeTruthy();
+			expect(queryByText('New reply')).toBeNull();
+		} finally {
+			vi.useRealTimers();
+		}
+	});
 });

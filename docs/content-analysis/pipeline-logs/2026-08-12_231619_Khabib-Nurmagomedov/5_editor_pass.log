@@ -1,0 +1,12 @@
+Editor pass complete on `src/blog/people/drafts/Khabib-Nurmagomedov.md`. All exit checks pass: **0 lint fails, 0 em-dashes in prose, 0 contrast-pair engines, 0 banned AI phrases**.
+
+The honest verdict: this draft arrived unusually clean. The fresh-eyes, second-pass, and cohesion stages had already done the heavy de-AI work, so the right move was surgical edits rather than a rewrite that would risk flattening a strong piece. What I changed:
+
+- **Broke a triplet pile-up in the diagnosis section.** Three consecutive three-beat lists ran back to back; the most formulaic one ("never softened it, never clarified it, never apologized") is now a pair, which also lets "The grammar has no setting for walking things back" land harder.
+- **Killed the last negative-parallelism tell.** "That asymmetry is not a gap in the record; it is the record" (the #1 AI pattern per the standards) is now the direct statement "That asymmetry is the record." My first attempt at an inversion actually tripped the contrast-pair regex, so the mechanical gate caught it and I cut to the direct form.
+- **Verified the protected material intact**: the cold open and its "the tape got burned" payoff, the fence-jump empathy turn, the UFC 254 inner-thought beat, both critic anchors (Abdulmanap's rebuke, Ebanie Bridges), the August 2026 current-tense anchors, and the bear-video bookend.
+- Added a brief `EDITOR PASS NOTES` block documenting the pass.
+
+**Final counts**: contrast pairs 0/0, body at 4,287 words. The two remaining lint warnings belong to later pipeline stages, not this one: `faqs` frontmatter (the enrich stage hasn't run) and thin word-count headroom for future refreshes.
+
+**Production-ready?** Prose-wise, yes — I'd call this one of the cleaner drafts to come through the pipeline. What's still ahead of it: the frontmatter-enrich stage, and the perspective gate. The review directory at `docs/content-analysis/perspective-reviews/Khabib-Nurmagomedov/2026-08-12_231619/` has all six perspective reviews but no `synthesis.md` yet, so the synthesis → editor-resolution → verify chain hasn't run. Since this command was invoked without `--perspective-review-dir`, I ran it as a standard polish; if you want the jury findings folded in, run the synthesis step and then re-invoke this command with the flag.

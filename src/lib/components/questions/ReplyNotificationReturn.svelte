@@ -53,7 +53,6 @@
 
 			const markVisible = () => {
 				if (!targetExists || labelSoftened) return;
-				labelSoftened = true;
 				actionReady = true;
 				try {
 					window.localStorage.setItem(viewedKey, '1');
@@ -61,9 +60,8 @@
 					// Storage is optional; return behavior must still work without it.
 				}
 				void captureReplyNotificationReturnEvent('reply_target_visible', context, { revisit });
-				if (!reduceMotion) {
-					softenTimer = setTimeout(() => (labelSoftened = true), 4_000);
-				}
+				if (reduceMotion) labelSoftened = true;
+				else softenTimer = setTimeout(() => (labelSoftened = true), 4_000);
 			};
 
 			if (targetExists && typeof IntersectionObserver === 'function') {
@@ -122,7 +120,7 @@
 			class:reply-return__reply--settled={labelSoftened || revisit}
 			aria-label="New reply"
 		>
-			<div class="reply-return__label">{revisit ? 'Reply' : 'New reply'}</div>
+			<div class="reply-return__label">{revisit || labelSoftened ? 'Reply' : 'New reply'}</div>
 			<p>{thread.reply.comment}</p>
 			<small>{actorLabel(thread.reply)}</small>
 		</article>

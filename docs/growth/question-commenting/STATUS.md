@@ -2,19 +2,29 @@
 
 # Workstream Status
 
-Last updated: 2026-08-12
+Last updated: 2026-08-13
 
-| ID    | State                          | Owner      | Next gate                                                                       |
-| ----- | ------------------------------ | ---------- | ------------------------------------------------------------------------------- |
-| QC-01 | Production core verified       | Codex      | Observe the next organic `question_created` and `comment_created` payloads      |
-| QC-02 | Deployed; verification pending | Codex      | Run one controlled attributed journey and choose reactivation closeout option   |
-| QC-03 | Database deployed; app pending | Codex      | Deploy, then run an anonymous first-answer production smoke test                |
-| QC-04 | Database deployed; app pending | Codex      | Deploy and run one controlled direct-reply delivery journey                     |
-| QC-05 | Database deployed; app pending | Codex      | Deploy with QC-04, then smoke-test exact return on mobile and desktop           |
-| QC-06 | Database deployed; app pending | DJ / Codex | Deploy, verify the fallback, then start the first manual feature run            |
-| QC-07 | Waiting for mature baseline    | Unassigned | Complete QC-02 verification and collect one week of canonical production events |
+| ID    | State                            | Owner      | Next gate                                                                       |
+| ----- | -------------------------------- | ---------- | ------------------------------------------------------------------------------- |
+| QC-01 | Production core verified         | Codex      | Observe the next organic `question_created` and `comment_created` payloads      |
+| QC-02 | Deployed; verification pending   | DJ / Codex | Run one controlled attributed journey and choose reactivation closeout option   |
+| QC-03 | Deployed; organic smoke pending  | DJ / Codex | Inspect the next eligible anonymous first-answer opt-in journey                 |
+| QC-04 | Deployed; delivery smoke pending | DJ / Codex | Run one controlled direct-reply delivery journey without creating public noise  |
+| QC-05 | Deployed; browser smoke pending  | DJ / Codex | Verify the exact-return journey on mobile and desktop with the controlled email |
+| QC-06 | Deployed; manual pilot pending   | DJ / Codex | Select a question and start the first manual 30-impression feature run          |
+| QC-07 | Waiting for mature baseline      | Unassigned | Collect one stable week of canonical production events                          |
 
 ## Decision log
+
+### 2026-08-13
+
+- Re-audited the deployed workstream against production, PostHog, the migration ledger, and the full unit suite. The detailed evidence is in [`05-POST-DEPLOY-AUDIT-2026-08-13.md`](./05-POST-DEPLOY-AUDIT-2026-08-13.md).
+- Confirmed that `question_impression` is now live: 40 qualified impressions from five PostHog people since the event first appeared. Thirty-seven were questions-index impressions across 30 questions, two were homepage impressions, and one was the tagged QC-01 verification impression.
+- Kept automatic distribution off. Production still has zero feature runs and zero durable feature-run impressions; the homepage remains on the explicit fallback until DJ selects the first manual pilot question.
+- Confirmed there has not yet been an organic post-deploy comment journey. The only new `comment_started` event is the tagged QC-01 verification event, and no `comment_created` event has arrived since the new outcome properties shipped.
+- Confirmed zero reply-email subscriptions and zero outbox rows. QC-03 through QC-05 are deployed but still require a real eligible or carefully controlled end-to-end journey.
+- Fixed the question-distribution page test fixture so the repository type checker evaluates it correctly.
+- Fixed the reply-return treatment so `New reply` remains visible briefly, then settles to `Reply`; reduced-motion visitors settle immediately.
 
 ### 2026-08-12
 

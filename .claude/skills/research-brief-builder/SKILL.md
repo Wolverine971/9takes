@@ -4,7 +4,6 @@ description: Turn messy notes, source files, research logs, or a topic into a co
 argument-hint: '<person, topic, file path, or notes>'
 context: fork
 agent: general-purpose
-disable-model-invocation: true
 ---
 
 # Research Brief Builder

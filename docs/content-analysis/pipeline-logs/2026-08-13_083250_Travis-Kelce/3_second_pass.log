@@ -1,0 +1,16 @@
+Second pass complete on `src/blog/people/drafts/Travis-Kelce.md`. All seven fresh-eyes notes (2026-08-13) checked out as sound, so nothing was rejected — every edit was verified before it went in.
+
+**What changed:**
+
+- **Super Bowl LVIII arc now resolves.** The section told the shove story but never said the Chiefs won that game. Added the overtime win and third ring right before the Reid reconciliation, so his grace lands between champions instead of leaving the reader hanging. Also fixed a broken NFL.com URL in that paragraph (`admits-he-cross-line` → `admits-he-crossed-line`).
+- **Plain identity facts added.** The diagnosis opener now says Kansas City Chiefs tight end, thirteen seasons, three-time Super Bowl champion — previously the team was first named mid-piece via the GM's title and the rings never appeared at all.
+- **Freshness pass finished.** Added the Aug 12 Variety quote to the bracelet section: "It was cool to live out my childhood dream of being in that venue, the mecca of all sports venues," plus the Knicks playoff-game line. Verified verbatim via the au.variety.com mirror (variety.com itself is tollbit-paywalled); Variety URL added to citations.
+- **Ending gains its September stake.** The close now names the 14th season as possibly his last ("may be" only, per the packet rule) — the one exit a Seven doesn't get to choose.
+- **Couple compatibility sentence.** One line naming Taylor Swift's on-site 3w4 typing (verified against her draft): the Achiever who turns wounds into albums married to the Enthusiast who turns them into bits. Serves the real "Taylor Swift enneagram Travis Kelce" search demand the packet flagged.
+- **Trims.** Shy-kid motif cut from 4 instances to 3 (epigraph + bracelet bookend preserved by design); FAQ 1 de-crammed from five proofs to three so it no longer pre-spoils the shove and showman sections.
+
+**Verification:** Source audit is clean — 7 load-bearing quotes, 1 inline, 6 vague, 0 untagged (the vague ones are podcast quotes the audit tool doesn't recognize as outlets; all real and dated). Blog-lint: 0 fail, 1 warn. I did introduce one lint failure mid-pass (the type-answer block hit 64 words) and fixed it.
+
+**Still open:** the faqs-enrich stage (age/spouse/parents FAQ metadata) hasn't run — that's the separate `blog_content_frontmatter_enrich_people` stage, and lint has warned on it since July. The 1 remaining warn is body length at 4,322 of 4,500 words, so the next refresh has thin headroom.
+
+Sources used for verification: [Variety (AU mirror)](https://au.variety.com/2026/more/news/travis-kelce-interview-taylor-swift-wedding-best-night-39346/), [Variety](https://variety.com/2026/music/news/travis-kelce-interview-taylor-swift-wedding-best-night-1236833147/)

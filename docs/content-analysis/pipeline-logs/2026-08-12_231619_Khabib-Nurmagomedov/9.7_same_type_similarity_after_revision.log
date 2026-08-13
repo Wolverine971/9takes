@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Khabib-Nurmagomedov (Type 8)
+/Users/djwayne/9takes/src/blog/people/drafts/Khabib-Nurmagomedov.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-8 drafts by date):
+  - Duke-Dennis  (2026-08-07, 40 units)
+  - Nara-Smith  (2026-08-04, 48 units)
+  - Tyler1  (2026-07-29, 17 units)
+  - gordon-ramsay  (2026-07-08, 43 units)
+  - nicki-minaj  (2026-06-29, 24 units)
+  - susan-sarandon  (2026-06-28, 24 units)
+  - ella-langley  (2026-06-01, 15 units)
+  - david-goggins  (2026-05-30, 37 units)
+
+Noise floor over 10664 unit pairs:  median=0  p90=0  p99=0.006  max=0.046
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.046 ##                   susan-sarandon
+  0.036 #                    gordon-ramsay
+  0.029 #                    Duke-Dennis
+  0.026 #                    nicki-minaj
+  0.024 #                    Nara-Smith
+  0.017 #                    Tyler1
+  0.016 #                    david-goggins
+  0.013 #                    ella-langley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.046   Khabib-Nurmagomedov  <->  susan-sarandon
+   TARGET [diagnosis] the gut type built around power
+   OTHER  [diagnosis] That is the gut center pointed outward.
+
+score 0.036   Khabib-Nurmagomedov  <->  gordon-ramsay
+   TARGET [diagnosis] this is a man who describes fight week as war and means it as a compliment to the opponent. 2 rounds judges scored against Khabib across his entire 13-fight UFC career (GiveMeSport
+   OTHER  [diagnosis] The American version is a reality show about a man who screams.
+
+score 0.029   Khabib-Nurmagomedov  <->  Duke-Dennis
+   TARGET [counter-typing] the kept promise all fit the Loyalist frame.
+   OTHER  [counter-typing] even the stay all fit on paper.
+
+score 0.027   Khabib-Nurmagomedov  <->  Duke-Dennis
+   TARGET [diagnosis] A single flat statement of what is true
+   OTHER  [diagnosis] seven years of fame without a single sit-down interview.
+
+score 0.027   Khabib-Nurmagomedov  <->  Duke-Dennis
+   TARGET [counter-typing] He walked into hostile arenas without a tremor
+   OTHER  [diagnosis] seven years of fame without a single sit-down interview.
+
+score 0.026   Khabib-Nurmagomedov  <->  nicki-minaj
+   TARGET [counter-typing] no perfectionism about anything except position off his back.
+   OTHER  [diagnosis] "I wish I could just make music and not worry about anything.
+
+score 0.025   Khabib-Nurmagomedov  <->  nicki-minaj
+   TARGET [diagnosis] The Enneagram Type 8 engine is control of the immediate territory
+   OTHER  [diagnosis] She refuses to hand off control of what she built
+
+score 0.024   Khabib-Nurmagomedov  <->  susan-sarandon
+   TARGET [diagnosis] and treat softness as a leak in the hull.
+   OTHER  [counter-typing] and treats her own appetites as nothing to apologize for.
+
+score 0.024   Khabib-Nurmagomedov  <->  Nara-Smith
+   TARGET [diagnosis] The Enneagram Type 8 engine is control of the immediate territory
+   OTHER  [diagnosis] The Enneagram sorts nine types by core motivation
+
+score 0.024   Khabib-Nurmagomedov  <->  Nara-Smith
+   TARGET [diagnosis] respect an honest opponent more than a flattering friend
+   OTHER  [diagnosis] An image-attuned type does not take a flattering frame and make it worse.
+
+score 0.023   Khabib-Nurmagomedov  <->  gordon-ramsay
+   TARGET [diagnosis] when the man underneath him was permitted to breathe.
+   OTHER  [diagnosis] The man who fills every room going suddenly still.
+
+score 0.023   Khabib-Nurmagomedov  <->  Duke-Dennis
+   TARGET [diagnosis] Khabib is the rarest variant of the type
+   OTHER  [counter-typing] and this analysis has already admitted the type doesn't explain it.
+
+------------------------------------------------------------------------------
+Top pair scores 0.046 vs median 0  (~∞x the noise floor).

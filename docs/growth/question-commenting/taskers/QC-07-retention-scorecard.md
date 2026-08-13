@@ -5,7 +5,7 @@
 **For:** the agent turning the canonical events and database rows into a small weekly operating view.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Blocked by QC-01 and QC-02  
+**Status:** Waiting for one stable week of canonical production data
 **Related:** [`../00-START-HERE.md`](../00-START-HERE.md), [`QC-01`](./QC-01-analytics-event-model.md)
 
 ## 0. What and why

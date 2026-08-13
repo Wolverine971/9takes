@@ -5,7 +5,7 @@
 **For:** the agent making the anonymous reply-notification promise work end to end.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Production migration applied; app and delivery verification pending
+**Status:** Deployed; controlled direct-reply delivery verification pending
 **Related:** `supabase/migrations/20260725_notifications.sql`, [`QC-03`](./QC-03-gentle-reply-opt-in.md)
 
 ## 0. What and why

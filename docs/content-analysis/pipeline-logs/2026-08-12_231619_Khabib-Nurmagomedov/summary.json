@@ -1,0 +1,19 @@
+{
+	"person": "Khabib-Nurmagomedov",
+	"draft_path": "src/blog/people/drafts/Khabib-Nurmagomedov.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/Khabib-Nurmagomedov.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-12_231619_Khabib-Nurmagomedov",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Khabib-Nurmagomedov/2026-08-12_231619",
+	"perspective_initial_status": "not_run",
+	"perspective_final_status": "reviews_incomplete",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.7,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-13T04:39:53.774Z"
+}

@@ -5,7 +5,7 @@
 **For:** the agent ensuring a reply-email click returns to the exact change and leads naturally to another meaningful action.  
 **Owner:** DJ  
 **Created:** 2026-08-12  
-**Status:** Production migration applied; app/browser verification pending
+**Status:** Deployed; controlled mobile and desktop return verification pending
 **Related:** [`QC-04`](./QC-04-reply-email-delivery.md)
 
 ## 0. What and why

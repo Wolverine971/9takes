@@ -17,7 +17,6 @@ vite.config.ts.timestamp-*
 
 unused-css-report.json
 unused-selectors-report.json
-unused-selectors-report.json
 .env*.local
 
 source-assets
@@ -26,4 +25,12 @@ videos
 
 .codex-tmp
 
-e2e
+# Playwright visual-regression snapshots + run state (specs in e2e/ ARE tracked)
+e2e/**/*-snapshots/
+test-results/
+
+tmp/
+
+# Local automation logs + image-experiment output (untracked 2026-08-13; files stay on disk)
+/logs/
+/output/

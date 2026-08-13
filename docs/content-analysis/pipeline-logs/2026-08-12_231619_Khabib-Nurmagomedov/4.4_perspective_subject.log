@@ -1,0 +1,13 @@
+Subject-perspective review complete and saved.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Khabib-Nurmagomedov/2026-08-12_231619/subject.md` (SHA verified against context.json and the supplied argument before review).
+
+**Verdict:** trust **strained**, value **high**, delight **clear_hit**, recommendation **revise** — overall one of the fairest subject treatments this pipeline has produced, but two quote-integrity breaks must be repaired before it's defensible line by line.
+
+**Blockers: 2**
+- **SUBJECT-B1** — "almost like my father's age" appears in quotation marks but exists in no primary source (only translated Tier-3 recaps), against the research file's explicit no-quote-marks instruction; the flanking "laughed along all summer" is unsourced.
+- **SUBJECT-B2** — The "I love you" exchange is compressed into a colder father than Khabib's own account: the PBD transcript (which I re-checked directly) shows his father said it "a lot" when he was small and that "we show our kids we love you," yet the draft frames the answer as "nearly impossible" and overrides his literal "I'm joking" with the flat verdict "He was not joking." The fix would actually strengthen the thesis — a father who said the words and then withdrew them at 15–16 as a rite of manhood is the sharper, truer story.
+
+**Strongest hit:** The article obeys the subject's own privacy perimeter — no wife's name, no mother's name, no net worth, "sons" only per his own count — an invisible-to-readers act of fairness that must survive every revision, alongside the verified cold open.
+
+**Highest-priority concern:** SUBJECT-C1 — "so the tape got burned" delivers a motivated-forgetting mechanism as narrated fact; the piece's best insight needs one interpretation marker to become attack-proof.

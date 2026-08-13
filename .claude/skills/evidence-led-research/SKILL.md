@@ -4,7 +4,6 @@ description: Build an evidence log for a public figure, topic, or draft before w
 argument-hint: '<person, topic, or file path>'
 context: fork
 agent: general-purpose
-disable-model-invocation: true
 ---
 
 # Evidence-Led Research

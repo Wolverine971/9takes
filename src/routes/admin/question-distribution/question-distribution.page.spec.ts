@@ -59,7 +59,8 @@ describe('/admin/question-distribution page', () => {
 					}
 				]
 			} as any,
-			form: null
+			form: null,
+			params: {}
 		});
 
 		expect(screen.getByText('Manual only')).toBeTruthy();
