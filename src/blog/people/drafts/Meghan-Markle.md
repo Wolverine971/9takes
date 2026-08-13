@@ -1,12 +1,12 @@
 ---
 title: "Meghan Markle: The Helper Who Couldn't Ask for Help"
-meta_title: 'Why Meghan Markle Keeps Giving Until It Hurts'
+meta_title: 'Meghan Markle Personality Type: Enneagram 2 Profile'
 persona_title: 'The Calligrapher Who Burned the Palace'
-description: "Meghan Markle's warmth, intensity, and public contradictions make more sense once you see how badly she needs love to feel safe and fairness to feel possible."
+description: 'A sourced Meghan Markle psychological profile exploring her personality type, the case for Enneagram Type 2, workplace criticism, and the Diana comparison.'
 author: 'DJ Wayne'
 date: '2023-03-09'
 loc: 'https://9takes.com/personality-analysis/meghan-markle'
-lastmod: '2026-04-29'
+lastmod: '2026-08-13'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -48,6 +48,8 @@ knows_about:
 keywords:
   - 'Meghan Markle Enneagram type'
   - 'Meghan Markle personality'
+  - 'Meghan Markle personality type'
+  - 'Meghan Markle psychological profile'
   - 'Meghan Markle Type 2'
   - 'Meghan Markle Duchess of Sussex personality'
   - 'Enneagram Type 2 Helper'
@@ -61,36 +63,42 @@ citations:
   - 'https://en.wikipedia.org/wiki/Meghan,_Duchess_of_Sussex'
   - 'https://www.britannica.com/biography/Meghan-Markle'
   - 'https://sussex.com/meghan-duchess-of-sussex/'
+  - 'https://about.netflix.com/en/news/archewell-productions-extends-creative-partnership-with-netflix'
+  - 'https://asever.com/'
+  - 'https://lemonadamedia.com/meghan-duchess-of-sussex-launches-new-podcast-with-lemonada-media/'
+  - 'https://apnews.com/article/britain-royals-charles-harry-family-hosted-ff016f33b49527efbcf0242449c6daa3'
 faqs:
   - question: "What is Meghan Markle's personality type?"
-    answer: 'Meghan Markle is an Enneagram Type 2, The Helper. The core wound shows up in her own words — leaving the royal family because everyone was obsessed with how it looks but not how it feels — a relational complaint about care, not a Type 3 complaint about blocked achievement.'
+    answer: 'This profile argues that Meghan Markle most closely resembles an Enneagram Type 2, The Helper. Her public crisis language centers care, belonging, and how the institution responded to her distress more than blocked achievement. That is a speculative Enneagram reading, not a clinical diagnosis.'
     anchor: 'what-is-meghan-markles-personality-type'
   - question: 'What did 11-year-old Meghan Markle do to change a commercial?'
     answer: "At age 11, Meghan wrote letters to four separate authority figures — including Hillary Clinton and soap-maker Procter & Gamble — protesting a sexist dish-soap ad. The company changed the commercial's wording. It was an early preview of the see-what's-wrong, make-yourself-the-person-who-fixes-it pattern that defines Type 2."
     anchor: 'the-11-year-old-who-changed-a-commercial'
   - question: 'Why did Meghan Markle leave the royal family?'
-    answer: "The breaking point wasn't career limits — it was the feeling that her suffering didn't matter to the institution. When she sought help for suicidal thoughts during pregnancy, she was told it wouldn't be good for the institution. For a Type 2, being told your pain is inconvenient is the worst wound possible."
+    answer: "In Meghan's account, the breaking point was not simply a career limit; it was the feeling that her suffering did not matter to the institution. She told Oprah that when she sought help for suicidal thoughts during pregnancy, she was told treatment would not be good for the institution. This profile reads that emphasis on care and abandonment as consistent with Type 2."
     anchor: 'the-royal-chapter-when-giving-isnt-enough'
 path: src/blog/people/drafts/Meghan-Markle.md
 ---
 
 <!-- QUALITY GRADE: B+ (8.9) — pre-revision baseline; pending re-grade after 2026-04-29 critic-engagement pass -->
 
-> "I never thought that this would have easy, but I thought it would be fair. And that's the part that's really hard to reconcile."
+> "I never thought that this would be easy, but I thought it would be fair. And that's the part that's really hard to reconcile."
+>
+> — Meghan, _Harry & Meghan: An African Journey_ ([ITV, 2019](https://www.itv.com/news/2019-10-20/harry-and-meghan-an-african-journey))
 
 <p class="firstLetter">Before she was a duchess, before she was a tabloid target, before she was the most polarizing woman in the English-speaking world, Meghan Markle was a freelance calligrapher.</p>
 
-She did Robin Thicke's wedding invitations. She did Dolce & Gabbana's holiday correspondence. She sat at a studio in Los Angeles, dipping nibs into ink and shaping each letter with the precision of someone who believed that getting the details right was a form of love.
+She wrote Robin Thicke and Paula Patton's wedding invitations. She also said she handled Dolce & Gabbana's holiday correspondence; [ABC News confirmed her calligraphy work with Paper Source](https://abcnews.com/amp/GMA/Culture/meghan-markle-worked-calligrapher-side-gig-learn/story?id=54049827). She sat at a studio in Los Angeles, dipping nibs into ink and shaping each letter with the precision of someone who believed that getting the details right was a form of love.
 
-Nobody leads with the calligraphy. They lead with the Oprah interview, the Netflix deal, the tabloid wars. But the studio is the key — because the same woman who will spend hours hand-lettering a stranger's wedding invite is the same woman whose former communications secretary, [Jason Knauf](https://www.thetimes.com/article/meghan-faces-bullying-claim-by-staff-at-kensington-palace-tk2v8mp9c), would later put in writing that she had "bullied" two of her PAs out of Kensington Palace. The warmth and the bruising both run on the same engine, and the engine has a name.
+Nobody leads with the calligraphy. They lead with the Oprah interview, the Netflix deal, the tabloid wars. But the studio is the key — because the same woman who spent hours hand-lettering invitations is the woman whose former communications secretary, [Jason Knauf](https://www.thetimes.com/article/meghan-faces-bullying-claim-by-staff-at-kensington-palace-tk2v8mp9c), would later put in writing that she had "bullied" two of her PAs out of Kensington Palace. The warmth and the bruising form the contradiction this profile reads through Enneagram Type 2.
 
 <details>
-<summary class="accordion">TL;DR: Why Meghan Markle is an Enneagram Type 2</summary>
+<summary class="accordion">TL;DR: The case for Meghan Markle as an Enneagram Type 2</summary>
 <div class="panel">
 <ul>
-<li><b>The giving came first:</b> Humanitarian fieldwork in Rwanda, UN speeches, soup kitchen volunteering — all before she met Harry. The helping isn't a brand strategy. It's her operating system.</li>
-<li><b>The crisis was relational, not professional:</b> She didn't tell Oprah "they blocked my career." She said "they didn't care how I felt." The wound is about love, not achievement.</li>
-<li><b>Under stress, she becomes a fighter:</b> The Oprah interview, the lawsuits, the confrontational staff behavior — the helper doesn't stay helpless.</li>
+<li><b>The giving came first:</b> Humanitarian fieldwork in Rwanda, UN speeches, soup kitchen volunteering — all before she met Harry. That history is part of the case that helping predates the post-royal brand.</li>
+<li><b>Her crisis language was relational:</b> In the Oprah interview, she emphasized loneliness, protection, and the refusal of help more than blocked achievement.</li>
+<li><b>Under stress, she becomes a fighter:</b> The Oprah interview, the lawsuits, and her response to staff allegations show that the helper does not stay helpless.</li>
 <li><b>The core question that drives everything:</b> Am I loved for who I am, or only when I'm giving?</li>
 </ul>
 </div>
@@ -134,21 +142,21 @@ Either way, the eleven-year-old was already executing the move that would organi
 
 ## What is Meghan Markle's Personality Type?
 
-### Meghan Markle is an Enneagram Type 2
+### Meghan Markle is an Enneagram Type 2 — in this reading
 
 Many Enneagram Twos carry a wound so deep they can barely name it: the suspicion that they are only loved for what they provide. Not for who they are. For what they give.
 
-This fear drives a pattern that looks, from the outside, like generosity. And it _is_ generosity — that's what makes it complicated. The helping is real. The warmth is real. The handwritten notes, the home-cooked meals, the 3 AM texts checking on a friend — all real. But underneath the giving is a question that never fully gets answered: _Is this enough? Am I enough?_
+This fear drives a pattern that looks, from the outside, like generosity. And the generosity can be real — that's what makes it complicated. But the Type 2 hypothesis asks whether a question sits underneath the giving: _Is this enough? Am I enough?_
 
 The evidence for Meghan as a Type 2 is not in her accomplishments. It's in what breaks her.
 
-- She didn't leave the Royal Family because they limited her career. She left because "everyone is obsessed with how it looks but not how it feels." That's a [Type 2](/enneagram-corner/enneagram-type-2) sentence. A Type 3 would say "they held me back." A Type 2 says "they didn't love me."
-- When she sought help for suicidal thoughts during pregnancy, the pain wasn't that the institution was dysfunctional. The pain was that she asked for care and was told her care didn't matter: "I was told it wouldn't be good for the institution."
-- Her first solo royal project wasn't a PR campaign or a charitable foundation announcement. It was a cookbook — _Together: Our Community Cookbook_ — where she personally visited a Grenfell Tower survivors' kitchen, asked "why isn't this open seven days a week?", and organized the project herself. It raised over £911,000. The Type 2 impulse in its purest form: see a need, make yourself the bridge.
+- She didn't frame leaving the Royal Family primarily as a career limit. She told Oprah that "everyone is obsessed with how it looks but not how it feels" ([CBS, 2021](https://www.cbsnews.com/live-updates/oprah-winfrey-interviews-meghan-markle-prince-harry/)). In the Enneagram framework, that emphasis sounds more like [Type 2](/enneagram-corner/enneagram-type-2) than Type 3: care and belonging are foregrounded over blocked achievement.
+- In that same interview, she said that when she sought help for suicidal thoughts during pregnancy, "I was told it wouldn't be good for the institution" ([CBS, 2021](https://www.cbsnews.com/live-updates/oprah-winfrey-interviews-meghan-markle-prince-harry/)). The account centers a request for care and the experience of refusal.
+- Her first solo royal project was _Together: Our Community Cookbook_. She had visited the Hubb Community Kitchen, asked "why isn't this open seven days a week?", and helped turn that need into a fundraising project ([Food52, 2018](https://food52.com/story/23214-meghan-markle-together-cookbook-grenfell-tower-fire)).
 
 The counter-argument is Type 3 — The Achiever. The case is reasonable: the acting career, the polished image, the media savvy, the upward trajectory from briefcase model to duchess to media mogul.
 
-But the diagnostic line is in the crisis, not the climb. She didn't say the Palace held back her success. She said the Palace didn't care how she felt. The pain is relational. The wound is about love. The polish, ambition, and career drive are real, but the core is Two. And the core is where the bleeding happens.
+But the interpretive line is in the crisis, not the climb. Her public account foregrounded loneliness, protection, and the refusal of help rather than a blocked career. In the Enneagram framework, that makes the case for Two stronger than the case for Three. The polish, ambition, and career drive are real, but this remains a reading of her public words, not a clinical judgment or a fact only she could confirm.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Meghan Markle</summary>
@@ -157,7 +165,7 @@ But the diagnostic line is in the crisis, not the climb. She didn't say the Pala
 
 ### Meghan Markle's Wing: 2w3
 
-Meghan reads as a 2w3: a helper with presentation, ambition, and brand fluency. The Two core is visible in the relational wound — "they didn't care how I felt" — while the Three side explains the polish. She knows how to package care: calligraphy, _The Tig_, the Grenfell cookbook, Archewell, podcasts, lifestyle shows, and public advocacy all turn warmth into a visible offering. In the <a href="/enneagram-corner/enneagram-wings-complete-guide">Enneagram wings</a> frame, that does not make her a Three. It means her helping comes with a camera-ready surface.
+Meghan reads as a 2w3: a helper with presentation, ambition, and brand fluency. The Two case rests on her repeated emphasis, including in the 2021 CBS interview, on care and how treatment felt; the Three side explains the polish. Calligraphy, _The Tig_, the Grenfell cookbook, Archewell, podcasts, lifestyle shows, and public advocacy all turn warmth into a visible offering. In the <a href="/enneagram-corner/enneagram-wings-complete-guide">Enneagram wings</a> frame, that does not make her a Three. It means her helping comes with a camera-ready surface.
 
 ### Meghan Markle's Instinctual Subtype: so/sx
 
@@ -167,11 +175,11 @@ Her likely stack is so/sx. Social comes first because her helping is routed thro
 
 The <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a> explain why the helper can become combative. Under pressure, Type 2 can pick up the forceful edge of Type 8. The Oprah interview, lawsuits, staff conflicts, and public break with palace etiquette all show the same move: when giving does not produce care, she stops pleading and starts confronting.
 
-Growth points toward Type 4: honest selfhood without earning love through usefulness. Meghan's census-form story matters because it asks a deeper question than "what can I do for you?" It asks, "what box can hold me?" Her healthiest path is not more output. It is a truer self that does not need every audience to answer back.
+Growth points toward Type 4: honest selfhood without earning love through usefulness. Meghan's census-form story shifts the question from usefulness to identity: what box can hold her? Her healthiest path is not more output. It is a truer self that does not need every audience to answer back.
 
 ### Counterarguments: Why Meghan Markle Might Not Be Type 2
 
-Type 3 is the obvious alternate. A Type 3 would emphasize blocked achievement: "They prevented my work. They didn't let me succeed." Meghan's crisis language is different: "They didn't care how I felt." The wound is relational.
+Type 3 is the obvious alternate. That reading would emphasize blocked achievement. Meghan's recorded crisis language instead emphasizes care, loneliness, and how the institution responded when she asked for help.
 
 Type 8 also has a case because she fights institutions and does not stay quiet. But the fighting appears after failed bids for care. The challenger is not the starting point. It is what emerges when the helper feels abandoned.
 
@@ -210,13 +218,13 @@ She completed a full schedule of royal engagements while pregnant. She launched 
 
 And the institution's response, as she experienced it, was: _We don't need you to be warm. We need you to be quiet._
 
-"I was the most trolled person in the entire world — male or female — in 2019," she said in the Netflix documentary. "Now, eight months of that, I wasn't even visible. I was on maternity leave or with a baby."
+"I'm told that in 2019 I was the most trolled person in the entire world — male or female," she said on the [*Teenager Therapy* podcast in 2020](https://www.theguardian.com/uk-news/2020/oct/11/meghan-im-told-i-was-the-most-trolled-person-in-the-world). "Now, eight months of that, I wasn't even visible. I was on maternity leave or with a baby."
 
-The British tabloids ran headlines comparing her unfavorably to Kate Middleton for identical behaviors — touching her pregnant belly, eating avocados. A coordinated harassment campaign drove millions of negative social media posts. The palace did not defend her.
+The British tabloids ran headlines comparing her unfavorably to Kate Middleton for identical behaviors — touching her pregnant belly, eating avocados. A 2021 [Bot Sentinel analysis of 114,000 tweets](https://botsentinel.com/reports/documents/duke-and-duchess-of-sussex/report-10-26-2021.pdf) identified 83 accounts as responsible for about 70 percent of the hateful content it studied and described their activity as coordinated. Meghan said the Palace did not defend her.
 
-For a Type 2, the institution's silence isn't bureaucratic failure. It's abandonment. _I gave you everything, and you won't even protect me._ The handwritten notes, the early mornings, the Hubb Community Kitchen visits, the careful adherence to protocol — none of it was enough to earn what she needed most: unconditional acceptance.
+Within the Type 2 frame, institutional silence can register not merely as bureaucratic failure but as abandonment: _I gave you everything, and you won't even protect me._ Meghan's public account places that unmet need for protection at the center of the rupture.
 
-"Not only was I not being protected," she told Oprah, "but they were willing to lie to protect other members of the family, but they weren't willing to tell the truth to protect me and my husband."
+"Not only was I not being protected," she told [Oprah in the 2021 CBS interview](https://www.cbsnews.com/live-updates/oprah-winfrey-interviews-meghan-markle-prince-harry/), "but they were willing to lie to protect other members of the family, but they weren't willing to tell the truth to protect me and my husband."
 
 ---
 
@@ -226,29 +234,29 @@ The lowest point came during her pregnancy with Archie.
 
 "I just didn't want to be alive anymore. And that was a very clear and real and frightening constant thought."
 
-She went to the institution for help. She was told she couldn't get treatment because "it wouldn't be good for the institution." She went to HR. She was told there was nothing they could do because she wasn't a paid employee.
+In [Meghan's account to Oprah](https://www.cbsnews.com/live-updates/oprah-winfrey-interviews-meghan-markle-prince-harry/), she went to the institution for help and was told treatment "wouldn't be good for the institution." She said HR told her there was nothing it could do because she was not a paid employee.
 
-A Type 2's deepest shame is needing help. Their entire identity is built on being the one who helps others. When Meghan finally admitted she was drowning, the institution told her that her drowning was inconvenient.
+A Type 2's deepest shame is needing help. Their identity can become organized around being the one who helps others. In this reading, the refusal Meghan described turned the act of asking into part of the wound.
 
-She was scared to tell Harry. The line she gave Oprah about why is the one to sit with: "I knew that if I didn't say it, that I would do it. I just didn't want to be alive anymore." She did not say *I was scared he would see I was weak*. She said she was scared she would die before she got the words out. The two fears are sitting on top of each other in the same sentence — the practical fear of dying, and underneath it the older Type 2 fear of being a person who had to be carried instead of the person doing the carrying.
+She was scared to tell Harry. The line she gave Oprah about why is the one to sit with: "I knew that if I didn't say it, that I would do it. I just didn't want to be alive anymore." The immediate fear in that sentence is the fear of dying. The Type 2 hypothesis is narrower: needing to be carried, after building an identity around carrying others, may have made asking for help harder.
 
-When she eventually told the world — on [Oprah](/personality-analysis/oprah-winfrey), watched by 49 million people — Tom Bower called it a strategically deployed grievance, "the calculated centerpiece of a counter-attack on the Windsors." The platform was, undeniably, a platform. But the disclosure she chose to lead with was not a tactical one. A career-minded counter-attack does not lead with the night you almost killed yourself. It leads with the night they made you take off the title.
+When she eventually told the world — on [Oprah](/personality-analysis/oprah-winfrey) — Tom Bower called it a strategically deployed grievance, "the calculated centerpiece of a counter-attack on the Windsors." The platform was, undeniably, a platform. The disclosure may have been sincere, strategic, or both. What the interview establishes is what Meghan chose to emphasize; it cannot prove the private motive behind that choice.
 
 ---
 
-## Eleven Publicists in Five Years
+## The Staff Question That Won't Go Away
 
-The staff turnover is the detail that won't go away. Eleven publicists in five years. Eighteen total departures from the working-royal household. The phrase "Sussex Survivors Club" was coined by former Palace staff and reported by *The Times* in 2021.
+The staff question cannot be waved away as tabloid noise. Former Palace employees used the phrase "Sussex Survivors Club," and *The Times* reported it in 2021. But the rolling departure counts repeated by royal-watch outlets mix Palace, Archewell, production, and personal staff across different periods. They are too unstable to carry the argument. The named complaint is the stronger evidence.
 
-The named complaint sits underneath the rumor. In October 2018, Jason Knauf — then communications secretary to the Cambridges and Sussexes — sent an email to Simon Case, the household's most senior aide. *The Times* later published it. Knauf wrote that "the Duchess was able to bully two PAs out of the household in the past year" and that her behavior was "totally unacceptable" and "seeking to undermine" the confidence of a third employee. Buckingham Palace launched an investigation. In 2022 the Palace confirmed it was complete and refused to publish the findings — to this day they have not released what the inquiry concluded, who interviewed whom, or what HR changes followed. Meghan's lawyers called the leaked email a "calculated smear campaign" and her side has consistently denied the allegations.
+In October 2018, Jason Knauf — then communications secretary to the Cambridges and Sussexes — sent an email to Simon Case, the household's most senior aide. [*The Times* later published it](https://www.thetimes.com/article/meghan-faces-bullying-claim-by-staff-at-kensington-palace-tk2v8mp9c). Knauf wrote that "the Duchess was able to bully two PAs out of the household in the past year" and that her behavior was "totally unacceptable" and was "seeking to undermine" the confidence of a third employee. Meghan's lawyers called the leak a "calculated smear campaign," and she has denied bullying anyone.
 
-The handling matters. The Palace's silence is its own data point. They neither cleared her nor named what they found. That gap has been filled, predictably, by everyone with an opinion about her — which is most of the English-speaking world.
+Buckingham Palace then commissioned an external review, but its scope matters: it examined the household's **handling** of the allegations, not whether each allegation was true. In 2022 the Palace said the review had led to changes in HR policies and procedures while [declining to publish its findings or identify participants](https://www.theguardian.com/uk-news/2022/jun/30/palace-not-publish-review-bullying-claims-meghan). The sealed result neither exonerates Meghan nor substantiates the allegations for the public.
 
-The honest read of the same period is that two things are documented at once. Former chief of staff Catherine St-Laurent called her time at Archewell "incredibly meaningful." Patrick J. Adams, her *Suits* co-star, described "a powerful woman with a deep sense of morality and a fierce work ethic." Abigail Spencer wrote about "the friend who insists on calling you on your birthday, who handwrites thank-you notes, who will do whatever it takes to make you feel special." And Knauf, who knew her professionally and not personally, wrote in a confidential email that he watched her drive other people out of jobs.
+The honest read of the same period is that two things are documented at once. Former chief of staff Catherine St-Laurent called her time at Archewell "incredibly meaningful." Patrick J. Adams, her *Suits* co-star, described "a powerful woman with a deep sense of morality and a fierce work ethic." Abigail Spencer wrote about "the friend who insists on calling you on your birthday, who handwrites thank-you notes, who will do whatever it takes to make you feel special." And Knauf, who worked with her professionally, raised a direct workplace allegation in writing.
 
-A diagnostic frame should hold both without dissolving either. The Type 2 read does that without rescuing her: Type 2s pour themselves into the people they perceive as *their* recipients — the Grenfell women, the podcast guests, the chosen friends. Staff are different. They are not recipients of the care. They are the infrastructure that lets the care reach the recipient. When that infrastructure fails to match the intensity of the mission, a Type 2 does not register a workplace disagreement. They register sabotage.
+The Type 2 frame can offer one hypothesis for how selective warmth and control might coexist: care flows easily toward the person being helped, while staff can become the infrastructure expected to execute that help. But the Enneagram cannot establish what happened inside a workplace, and it cannot turn pressure, humiliation, or bullying — if they occurred — into a personality quirk. Mission intensity is not an exemption from a manager's duty of care.
 
-That reading explains why she could be the friend who hand-writes the birthday notes and the boss whose PAs reportedly cried in bathrooms. It does not absolve the second one.
+That boundary is important. A handwritten birthday note is evidence of generosity toward a friend. It is not rebuttal evidence to a staff complaint. Knauf's email and Meghan's denial have to remain in view without using one to erase the other.
 
 ---
 
@@ -256,17 +264,17 @@ That reading explains why she could be the friend who hand-writes the birthday n
 
 Any honest reading has to take the named critics seriously, not just the institutional press. Three of them are worth sitting with by name.
 
-**Tom Bower** spent a year on *Revenge: Meghan, Harry and the War Between the Windsors* (2022). His thesis is not that Meghan is malicious. It is that she is a *narrative-builder* — that the throughline from the Northwestern undergrad to the Duchess to the Montecito proprietress is one consistent project of self-mythologizing in which inconvenient details are sanded off the autobiography. The eleven-year-old Hillary Clinton letter. A childhood Christmas-tree story he reports she rewrote later. The framing of her own career as one of consistent advocacy when much of it was the regular grind of a working actress. The Bower book has been called overheated by reviewers — *The Telegraph*'s Anita Singh wrote that its relentless negativity made it tedious rather than convincing — and that critique is fair. But his *core* argument is harder to swat away than his tone: that someone whose self-conception runs ahead of the documentary record will eventually collide with people who remember it differently. The Knauf email is one collision. The Thomas Markle rupture is another.
+**Tom Bower's** *Revenge: Meghan, Harry and the War Between the Windsors* (2022) casts Meghan as a narrative-builder who sands inconvenient details from her autobiography: the Hillary Clinton reply, a childhood Christmas story, the advocacy arc laid over the ordinary grind of acting. Reviewers have called the book's relentless negativity more tedious than persuasive. The tone weakens it. The core challenge remains: a polished self-story will eventually meet people who remember events differently. The Knauf email and Thomas Markle rupture are two such collisions.
 
-**Bill Simmons**, head of podcast innovation at Spotify when the $20 million Archetypes deal collapsed in 2023, called the couple "fucking grifters" on his own podcast. He framed the deal not as an artistic failure but as a unit-economics one — that the Sussexes wanted the platform and the money but did not want to do the actual labor of sitting in a studio. *Variety* and others reported that the Spotify deal produced one twelve-episode podcast in three years. The Archetypes show itself was a hit when it ran — number one on the Spotify chart in multiple countries — but the volume of output for the dollars committed was not what the platform expected. Simmons's "grifters" line was not a critique of Meghan's character; it was a critique of the warmth-as-product business model. That critique has weight.
+**Bill Simmons**, then Spotify's head of podcast innovation and monetization, called the couple "fucking grifters" after Spotify and Archewell ended their relationship in 2023. The insult came with no evidence about Meghan's motives. The output question underneath it is fairer: the multiyear deal, [reported at roughly $20 million](https://www.vanityfair.com/style/2023/06/meghan-and-harry-have-ended-their-partnership-with-spotify), produced a holiday special and one twelve-episode season of *Archetypes* before the companies said they had "mutually agreed to part ways." Whatever the show's reception, the volume was limited. That is a business critique, not proof of character.
 
-**Samantha Markle**, her estranged half-sister, sued Meghan for defamation over statements Meghan made on the Oprah interview and in *Harry & Meghan*. In 2024 Judge Charlene Honeywell of the Middle District of Florida dismissed the suit with prejudice — a $75,000 case, not the figures sometimes reported — finding that Samantha had identified no statements that could support a defamation claim and that what she described as falsehoods amounted to a disagreement with Meghan's *opinions*. Samantha is appealing. The dismissal does not end the larger family question, which is the harder one: the Markle side of Meghan's family — Thomas, Samantha, Thomas Jr. — is consistent that the woman they describe is materially different from the one she describes, and the corpus of public evidence does not yet adjudicate that.
+**Samantha Markle**, her estranged half-sister, sued Meghan for defamation over statements made in the Oprah interview and *Harry & Meghan*. In 2024 Judge Charlene Honeywell of the Middle District of Florida dismissed the suit with prejudice — a claim seeking more than $75,000, not the much larger figures sometimes reported — finding the challenged statements non-actionable. Samantha appealed, and the [Eleventh Circuit heard argument in September 2025](https://www.ca11.uscourts.gov/node/6455). The case does not settle the larger family rupture: the Markle relatives describe a materially different relationship from Meghan's account, and public evidence cannot resolve every private disagreement.
 
-None of these three indictments are dispositive. None of them are dismissable, either. The Type 2 read does not require pretending they are not there. It requires being clear about which parts of them the type explains and which parts it does not.
+None of these three critiques is dispositive, and they do not all carry the same evidentiary weight. Bower offers an interpretation of a life story. Simmons offered an insult attached to a measurable output question. Samantha's legal theory failed in district court. Knauf's email remains a direct allegation without a public finding.
 
-The Type 2 frame can hold this much: a person organized around being indispensable will rewrite small things in their own favor without noticing they are doing it; will burn out the staff who fail to keep pace with the mission; will treat critique of the brand as critique of the *self*, which is the same thing only when your self is a brand; and will fight back with a force that looks disproportionate from the outside because, from the inside, it is the helper finally refusing to be unloved one more time.
+At most, the Type 2 frame suggests why an identity built around giving might experience criticism as a threat to the self, and why service and presentation can become tightly joined. It cannot tell us whether Meghan embellished a memory intentionally, fulfilled a contract fairly, or met her duties as a manager. Those are evidence questions.
 
-What the Type 2 frame cannot do is decide for the reader whether any of that is forgivable. That is a separate question, and the corpus is not equipped to answer it.
+If workplace mistreatment occurred, "unhealthy Type 2" is not an answer to it. Explanation without accountability becomes excuse. Employees are entitled to professional treatment regardless of a leader's type, intentions, or public generosity.
 
 ---
 
@@ -274,33 +282,23 @@ What the Type 2 frame cannot do is decide for the reader whether any of that is 
 
 In January 2025, Meghan returned to Instagram after a five-year absence. Her first post: a video of herself running on a beach, writing "2025" in the sand. Filmed by Harry. Comments off.
 
-Comments off is the tell. She wants to be seen and not spoken to — the same compromise she has made with every public she has ever had.
+Comments off made the account a one-way channel: visibility without direct reply. That tension between invitation and control also runs through the post-royal brand.
 
-The relaunch sequence that followed — the *With Love, Meghan* Netflix show; the *Confessions of a Female Founder* podcast; the As Ever lifestyle brand selling out on launch day; appearances at Paris Fashion Week and the TIME100 Summit — reads less like a coherent comeback than a flood. The Netflix show was downgraded from a multi-year output deal to a first-look arrangement after season two underperformed. The volume keeps coming anyway.
+The rollout that followed is easier to understand when the contracts are separated from the headlines. *With Love, Meghan* debuted in March 2025. As Ever launched online the next month, and [Netflix said its first collection sold out in under an hour](https://about.netflix.com/en/news/archewell-productions-extends-creative-partnership-with-netflix). The [current store](https://asever.com/) now spans food, drink, home, and gift products, but in March 2026 As Ever and Netflix ended their consumer-products partnership. Their on-record statements described the first year as a launch phase and said [the brand would continue independently](https://abcnews.com/culture/story/netflix-meghan-markles-lifestyle-brand-announce-end-partnership/?id=130836828).
 
-That cadence is the diagnostic detail, not the products. A different type would have absorbed the Spotify ending and the Netflix downgrade, retrenched, taken a year. Meghan answered with more. The pattern repeats: when the giving fails to land, the next response is to give harder, faster, in more directions, until the room concedes.
+The screen relationship did not disappear. In August 2025, Archewell and Netflix announced a [multi-year first-look deal](https://about.netflix.com/en/news/archewell-productions-extends-creative-partnership-with-netflix); season two and a holiday special followed. Netflix has [announced no third season](https://www.netflix.com/tudum/articles/with-love-meghan-season-2-release-date-news). Meanwhile, Lemonada released a [first season](https://lemonadamedia.com/podcast-category/show-confessions-of-a-female-founder-with-meghan/) of *Confessions of a Female Founder* in spring 2025; no second season appears in Lemonada's show archive as of August 13, 2026.
+
+The result is a narrower post-royal portfolio: an independent consumer brand, a first-look production deal, and one completed season each of two podcasts across different partners. The Type 2 hypothesis belongs in how she packages care and hospitality as an offering. Sales drops and contract structures cannot prove why she does it.
 
 ---
 
 ## The Fault Line
 
-The most revealing development of 2025 had nothing to do with brands or ratings.
+In May 2025, Harry [said on the record](https://apnews.com/article/prince-harry-appeal-court-decision-security-detail-630e8b9fe427b300125da396ea37c4da) that he would "love reconciliation" with his family, while also saying the loss of automatic police protection made it unsafe to bring Meghan and their children to Britain. That was evidence of Harry's wishes and security concerns. It was not evidence that Meghan opposed him.
 
-Harry wants to go back to the UK.
+Late-2025 royal-watch stories filled that gap with unnamed sources and attributed a private resistance to Meghan. The sourcing could not carry the psychological interpretation built on top of it. Then events removed the premise: on July 10, 2026, Buckingham Palace confirmed that [Meghan, Harry, Archie, and Lilibet met Charles and Camilla at Highgrove](https://apnews.com/article/britain-royals-charles-harry-family-hosted-ff016f33b49527efbcf0242449c6daa3).
 
-That storyline first surfaced in the British and royal-watching press in late 2025 — *The Royal Observer*, *IBTimes UK*, *Geo News*, all citing unnamed sources close to the couple — and the Sussexes' camp has not confirmed it on the record. So this is reported, not adjudicated. With that caveat: the version of the story that has stabilized across outlets is that Harry, after a brief meeting with King Charles at Clarence House in September 2025 and amid concern about his father's health, has grown more urgent about repairing the relationship; that Meghan is the one resisting; and that her reported worry is the cleanest single piece of psychological data anyone has reported on her in years — that "if Harry's security issues are resolved, the expectation will be that she has no reason left to say no. And she's not sure she's ready for that — emotionally or psychologically."
-
-If that quote is roughly accurate, it is a Type 2 sentence. It is not "I won't go." It is "I won't be ready to be the person who says no when no is no longer the right answer." The fear is not of England. The fear is of being asked to give again, in the room where giving did not work the first time.
-
-Harry left an institution. Meghan was rejected by one. Returning means fundamentally different things to each of them.
-
-For Harry — a [Type 6](/enneagram-corner/enneagram-type-6) whose entire worldview revolves around trust and safety — repairing the relationship with his father is about healing the original wound. Diana died. The institution failed. But maybe, with enough work, safety can be rebuilt.
-
-For Meghan — a Type 2 who asked for love and was told her feelings were inconvenient — returning to the UK means walking back into the room that rejected her most completely. It means risking, again, the answer she fears most: _We want your performance. We don't want you._
-
-She told Harper's Bazaar in November 2025: "He loves me so boldly, fully. No one in the world loves me more than him, so I know he's always going to make sure that he has my back."
-
-The phrasing matters. She doesn't describe loving him. She describes being loved by him. The Type 2 tells on herself even in a love declaration — the need to be loved is the organizing principle, not the act of loving.
+The revealing fact is not that Meghan refused to return. She returned. Whether the visit represented reconciliation, compromise, duty, or strategy is private. The most responsible personality reading stops there. An Enneagram hypothesis should follow evidence; it should not convert palace gossip into evidence.
 
 ---
 
@@ -308,19 +306,19 @@ The phrasing matters. She doesn't describe loving him. She describes being loved
 
 Every analysis of Meghan eventually arrives at <a href="/personality-analysis/princess-diana">Princess Diana</a>.
 
-The parallels are obvious: both married into the Royal Family, both clashed with the institution, both used media as a weapon against it, both were vilified by the British press. Both were Type 2s — helpers who entered a system that valued protocol over warmth and discovered that their giving would never be enough.
+The parallels are obvious: both married into the Royal Family, both clashed with the institution, both used media against it, and both were vilified by the British press. This profile reads both as Type 2s — helpers who entered a system that valued protocol over warmth and came to believe that their giving would never be enough.
 
 But the differences reveal more.
 
-Diana was a Type 2 who internalized the rejection. She developed bulimia, self-harmed, and described feeling "so inadequate." When the institution told her she wasn't enough, she believed it. Her vulnerability was genuine and unstrategic — the Panorama interview was a Hail Mary from someone who had nothing left to lose.
+Diana's public account turned the rejection inward. She developed bulimia, self-harmed, and described feeling "so inadequate." In this comparison, the *Panorama* interview reads as the act of someone who had little left to lose.
 
-Meghan is a Type 2 who externalizes the rejection. When the institution told her she wasn't enough, she didn't collapse. She fought. The Oprah interview wasn't a Hail Mary — it was a tactical strike. The lawsuits, the Netflix documentary, the public disclosures — all of it came from the helper becoming the challenger.
+Meghan's public response turned outward. She left, spoke, sued, and produced a Netflix documentary. In the Type 2 framework, that is the helper taking on the challenger when bids for care have failed.
 
 Diana asked: _What did I do wrong?_
 
 Meghan asked: _What did they do wrong?_
 
-Same wound. Different defenses. The institution destroyed Diana slowly, from the inside. Meghan left before it could finish the job — and then fought it from the outside.
+Same wound. Different defenses. Diana narrated an inward collapse; Meghan left and fought the institution from outside it.
 
 ---
 
@@ -332,27 +330,27 @@ The fans call her a feminist icon. A barrier-breaker. A woman who exposed a raci
 
 Both miss the simpler truth.
 
-She is a woman who has been asking the same question since she was a biracial girl staring at a census form with no box to check. The question followed her to Northwestern, where she was rejected from the sorority she rushed. To Hollywood, where she was "the ethnically ambiguous woman" who wasn't quite right for any role. To a Jamaican beach wedding that ended in rings returned by mail. To Kensington Palace, where she was told her feelings wouldn't be good for the institution.
+She is a woman who has been asking the same question since she was a biracial girl staring at a census form with no box to check. In her own account, the question followed her into Hollywood, where the industry labeled her "ethnically ambiguous" and she was ["not Black enough for the Black roles" or white enough for the white ones](https://www.cbsnews.com/losangeles/news/who-is-meghan-markle/). It followed her through family ruptures and into Kensington Palace, where she said her request for help was refused.
 
 _Am I loved for who I am?_
 
-The answer, from almost every institution she's entered, has been some version of: _We love what you can do for us._ The Royal Family loved the modernization energy until it became inconvenient. Netflix loved the royal access until the ratings dropped. Spotify loved the celebrity until the contract expired. The British public loved the fairy tale until it stopped being a fairy tale.
+In Meghan's account, the answer from institutions has often felt like: _We value what you can do, not what you need._ That self-understanding is evidence about how she tells her story, not independent proof of every dispute. The Royal role ended amid accusations and counter-accusations. Spotify ended after one series. Netflix changed the structure of its screen deal, then separated from As Ever. Those outcomes can be measured without pretending outsiders know a single motive behind all of them.
 
-And Meghan keeps giving — the brand, the podcast, the show, the foundation, the wildfire volunteering, the handwritten notes, the home-cooked meals for friends — because stopping would mean sitting still long enough to hear what the silence has been trying to tell her since seventh grade.
+And Meghan keeps building new containers for the same offering — hospitality, advocacy, conversation, public service. The pattern supports a Type 2 reading. It does not make every offering selfless or every criticism unfair.
 
-In January 2025, she and Harry volunteered at a Pasadena evacuation center during the LA wildfires. They wore baseball caps and face masks. They served meals with World Central Kitchen. The Pasadena mayor said they came "anonymously" and "wanted to work." A teenage girl running a donation pop-up said Meghan spent hours styling displaced girls in new clothes and carrying people's bags to their cars. Former actress Justine Bateman, on Twitter, called them "ambulance chasers" and "disaster tourists."
+In January 2025, she and Harry volunteered during the Los Angeles wildfires. [World Central Kitchen recorded that they distributed food in Pasadena](https://wck.org/news/ca-update-1-16-2025/), and Meghan later [brought clothes, beauty products, and lunch](https://www.vanityfair.com/style/story/meghan-markle-volunteers-and-brings-lunch-to-teens-affected-by-california-wildfires) to a recovery effort for displaced teenage girls. Justine Bateman looked at the public footage and [called the couple "ambulance chasers" and "disaster tourists"](https://www.independent.co.uk/arts-entertainment/tv/news/meghan-markle-prince-harry-justine-backlash-b2679050.html).
 
-It is, at this point, the only kind of news cycle the Sussexes generate — useful labor performed in public, and a parallel chorus insisting that the labor cannot really be what it appears to be. The pattern has gone on long enough that even its critics seem to have stopped noticing what they are repeating, and Meghan has gone on long enough that she seems to have stopped noticing she is the variable being held constant.
+The scene captures why the public argument never settles. The labor was real enough for World Central Kitchen to document; the cameras were real too. Public service and image management can coexist. Declaring all of the work pure, or all of it fraudulent, turns analysis into fandom.
 
 Harry said the thing about it without meaning to. In *Harry & Meghan*: "She sacrificed everything she ever knew, the freedom she had, to join me in my world. And then pretty soon after that, I ended up sacrificing everything I knew to join her in hers."
 
-Two people who left everything. One because the institution could not be trusted. The other because the institution could not love her back. They live now in a $14 million house in Montecito with two children, a dog, a vegetable garden Meghan keeps photographs of on her phone, and a recurring fight about whether to ever go back to England. Harry wants to. Meghan does not. The conversation has been ongoing for a year and is, by all accounts, the unfinished argument of the marriage.
+Two people who left the institution now live in Montecito with their children. In July 2026, they took those children to Highgrove and sat down with Charles and Camilla. That visit does not resolve the family story. It does remove the right to write the marriage as a private tug-of-war using anonymous-source certainty.
 
-The freelance calligrapher is still in there. The Type 2 reading does not promise that her question gets answered. It says she will keep writing letters until the room arranges itself the way she has decided is fair, and that she will not stop writing them, and that this is both the best and the worst thing about her, and that those are not separate facts.
+The freelance calligrapher is still in there. The Type 2 reading does not promise that her question gets answered. It suggests that she will keep writing letters until the room arranges itself the way she has decided is fair, and that this persistence can be both a strength and a source of conflict.
 
 <!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read)
-STATUS: Priority fixes 1-3 addressed in 2026-04-29 revision (same day).
+FRESH-EYES ASSESSMENT — 2026-04-29 PASS 3 (Claude cold read; archived, superseded by 2026-08-13 currentness pass)
+STATUS: Priority fixes 1-3 addressed in 2026-04-29 revision (same day); brand/currentness and sourcing concerns revisited 2026-08-13.
   - Named critics (Bower, Knauf, Simmons, Samantha Markle, Vanity Fair fact-checkers) added inline and in new "The Case Against Her" section.
   - "The Brand That Is Also a Kitchen" cut ~50%, retitled "The Brand After the Royals", "389th most-watched" stat removed, unnamed "critics called it" cut.
   - Closing rhetorical-question rhythm replaced with grounded Montecito scene + Type 2 reading that refuses easy resolution.
