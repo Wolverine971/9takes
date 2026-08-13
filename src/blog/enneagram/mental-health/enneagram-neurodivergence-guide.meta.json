@@ -1,53 +1,57 @@
 {
-	"title": "Understanding Neurodivergence Through the Enneagram Lens",
+	"title": "Enneagram and Neurodivergence: ADHD, Autism, and Motivation",
 	"slug": "enneagram-neurodivergence-guide",
 	"category": "mental-health",
 	"primaryAudience": {
-		"name": "Neurodivergent individuals and their families",
-		"description": "People interested in neurodivergence with Enneagram awareness",
+		"name": "Neurodivergent readers and people seeking diagnostic clarity",
+		"description": "Readers who want to separate personality interpretation from attention, sensory, learning, movement, or communication needs",
 		"demographics": {
 			"ageRange": "25-55",
 			"interests": [
 				"enneagram",
-				"mental health",
-				"neurodivergence",
+				"neurodiversity",
+				"disability",
 				"ADHD",
 				"autism",
-				"different-abilities"
+				"learning disabilities"
 			],
-			"psychographics": "Self-aware individuals seeking personalized approaches to mental health challenges"
+			"psychographics": "Readers looking for a non-diagnostic framework that reduces shame and supports clearer questions"
 		}
 	},
-	"tags": [
-		"enneagram",
-		"mental-health",
-		"neurodivergence",
-		"ADHD",
-		"autism",
-		"different-abilities"
+	"tags": ["enneagram", "mental-health", "neurodivergence", "ADHD", "autism", "disability"],
+	"painPoints": [
+		"Confusing personality patterns with disability-related needs",
+		"Encountering unsupported type and diagnosis stereotypes",
+		"Finding function-based supports without self-diagnosing"
 	],
-	"painPoints": ["Feeling misunderstood", "Masking behaviors", "Finding accommodations"],
 	"topicsAddressed": [
-		"How each Enneagram type experiences neurodivergence",
-		"Type-specific strategies for neurodivergence",
-		"Practical tools and resources",
-		"When to seek professional help"
+		"Motivation versus neurological processing",
+		"Current meanings of commonly confused clinical and community terms",
+		"Questions for separating behavior, function, context, and interpretation",
+		"Function-based support and U.S. workplace accommodation boundaries"
 	],
 	"seo": {
-		"keywords": ["enneagram neurodivergence", "neurodivergence by personality type"],
+		"keywords": [
+			"enneagram and autism",
+			"enneagram autism",
+			"enneagram neurodivergence",
+			"enneagram and ADHD"
+		],
 		"targetQueries": [
-			"how does enneagram affect neurodivergence",
-			"neurodivergence help for my type"
+			"which enneagram is most likely to be autistic",
+			"can enneagram diagnose ADHD or autism",
+			"enneagram and neurodivergence"
 		]
 	},
 	"contentGoals": [
-		"Provide type-specific guidance for neurodivergence",
-		"Build understanding and reduce stigma",
-		"Connect people with appropriate resources"
+		"Make the non-clinical boundary unmistakable",
+		"Answer high-intent autism and Enneagram queries without naming a type",
+		"Give readers a function-based reflection tool rather than clinical prescriptions",
+		"Use current disability language and official workplace guidance"
 	],
 	"socialMediaFocus": {
-		"twitter": "Educational content about neurodivergence and type-specific tips",
-		"instagram": "Visual guides and supportive content about neurodivergence",
-		"reddit": "Community support and resource sharing in relevant subreddits"
+		"twitter": "Explain why similar behavior can come from different mechanisms and why Enneagram cannot diagnose neurodivergence",
+		"instagram": "Visualize behavior, function, context, and interpretation as four separate questions",
+		"reddit": "Invite discussion about support needs without soliciting diagnoses or type-condition mappings"
 	}
 }

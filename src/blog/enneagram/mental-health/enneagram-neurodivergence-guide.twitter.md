@@ -1,37 +1,23 @@
 <!-- src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.twitter.md -->
 
-# Twitter Content for "Understanding Neurodivergence Through the Enneagram Lens"
+# X content for "Enneagram and Neurodivergence"
 
-## Main Thread: Understanding Neurodivergence by Type
+## Main thread
 
-🧵 THREAD: How your Enneagram type affects your experience with neurodivergence
+1/ A Type 5 result cannot tell you that someone is autistic. A Type 7 result cannot tell you that someone has ADHD. The Enneagram is not a clinical assessment.
 
-Understanding your type can help you find strategies that actually work for YOU 👇
+2/ The useful distinction is motivation versus processing. Personality language asks what an action means to you. Clinical assessment asks about development, symptoms, functioning, context, and support needs.
 
-1/10 Your Enneagram type influences how you experience neurodivergence.
+3/ Two people can leave the same crowded room early. One may be overloaded by sound. Another may need processing time, want privacy, or avoid conflict. The exit looks the same. The mechanism may differ.
 
-This isn't about stereotypes—it's about understanding your unique patterns so you can get the support that actually helps.
+4/ Ask four separate questions: What happened? Which function was difficult? What did the environment demand? What meaning did I attach?
 
-Here's what each type might experience:
+5/ Choose support by function, not type. Written steps, lower sensory load, alternate formats, processing time, or clearer priorities should match the actual barrier.
 
-[Continue with type-specific insights...]
+6/ Popular terms also need boundaries. RSD is community shorthand, not a formal diagnosis. Twice exceptional is an education term. Sensory differences are real, but one sensory trait does not diagnose autism.
 
-## Standalone Tweets
+7/ The Enneagram may help you examine shame, self-image, avoidance, or control. It cannot diagnose, rule out, predict, or explain away neurodivergence.
 
-💡 Neurodivergence tip: Your Enneagram type affects what strategies work best for you.
+## Standalone post
 
-What works for others might not work for you—and that's okay. Find YOUR approach. 🎯
-
-## Resource Tweets
-
-📚 Resources for neurodivergence:
-
-- [List relevant resources]
-- [Professional organizations]
-- [Helplines or support]
-
-Your type matters, but support is available for everyone. 💙
-
-## Hashtags to Use
-
-#Neurodivergence #ADHD #Autism #Differentabilities #EnneagramMentalHealth #9takes
+Same behavior does not mean same mechanism. Separate motivation, processing, environment, and support before turning a hard moment into a personality story.

@@ -1,52 +1,25 @@
 <!-- src/blog/enneagram/mental-health/enneagram-neurodivergence-guide.reddit.md -->
 
-# Reddit Strategy for "Understanding Neurodivergence Through the Enneagram Lens"
+# Reddit discussion notes for "Enneagram and Neurodivergence"
 
-## Target Subreddits
+## Guardrails
 
-### Primary Communities
+- Do not present DJ as neurodivergent or write invented first-person experience.
+- Do not ask communities to map diagnoses to Enneagram types.
+- Do not recruit people to diagnose strangers from behavior.
+- Disclose the relationship to 9takes when linking the guide.
+- Center lived experience and support needs while keeping clinical claims tied to authoritative sources.
 
-- r/Enneagram - Type-specific discussions about neurodivergence
-- r/MentalHealth - General support and resource sharing
-- [Add specific subreddits related to neurodivergence]
+## Discussion prompt
 
-## Sample Posts
+**Title:** "When has the same outward behavior had two very different explanations?"
 
-### Educational Post
+**Body:**
 
-**Title:** "How I learned my Enneagram type affects my experience with neurodivergence"
+I helped revise a guide that separates four layers people often collapse: observable behavior, functional processing, environment, and the meaning a person attaches to the moment.
 
-**Content:**
-I've been dealing with neurodivergence for [time period] and recently learned about how personality types can influence our experiences.
+For example, leaving a crowded room could involve sensory overload, attention fatigue, a need for processing time, conflict avoidance, or several factors together. The behavior alone cannot settle the mechanism or a diagnosis.
 
-As a Type [X], I noticed these patterns:
+What distinctions have helped you ask for the right support without reducing yourself to a personality label or clinical stereotype?
 
-- [Pattern 1]
-- [Pattern 2]
-- [Pattern 3]
-
-What helped me:
-
-- [Strategy 1]
-- [Strategy 2]
-- [Strategy 3]
-
-Has anyone else noticed how their type affects their experience with neurodivergence?
-
-### Support Post
-
-**Title:** "Resources for neurodivergence that consider personality differences"
-
-**Content:**
-Sharing some resources I've found helpful that recognize that different people need different approaches to neurodivergence:
-
-[List of resources...]
-
-What resources have been most helpful for your type?
-
-## Community Engagement Strategy
-
-- Share personal experiences respectfully
-- Offer support and resources
-- Ask thoughtful questions
-- Build relationships over time
+If sharing the guide is allowed and useful, disclose: "I work on 9takes, which published the guide."
