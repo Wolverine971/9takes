@@ -141,3 +141,28 @@ persistent discussion-composer contract and compact mobile generic type dossier 
 - SvelteKit sync, `svelte-check` (0 errors, 143 existing warnings), three targeted personality test
   files (14 tests), ESLint, formatting, and diff whitespace checks pass. Radius lint remains blocked
   only by the unrelated existing `account/+page.svelte:1243` declaration.
+
+### 2026-08-14 BlogPurpose follow-up
+
+The mid-article capture and type explorer were compacted as one surface. The redundant explorer
+heading, secondary explorer link, email icon, and diagram-center ornament were removed. The origin
+story now uses a short promise-first hierarchy, while the signup states exactly what readers receive:
+new celebrity typings, relationship patterns, and practical Enneagram notes by email. The input and
+action share a row, and the nine archetype links use a compact three-column label grid. **Patterns:
+P1 + P2 + P3 + P6 + P11 + P19.**
+
+The distorted diagram geometry came from a global `.enneagram-container` collision that added card
+padding and clipping inside the component. The internal wrapper now has a component-specific name;
+all nine nodes explicitly own a square aspect ratio and the tooltip renders as a wider floating card
+with a two-column facts row. The diagram no longer waits for client mount, so links and labels are
+present in SSR output.
+
+- Local Elon Musk passed at 1440×1000 and 390×844 in dark and light mode.
+- All nine live nodes measured square; the compact label grid had no horizontal overflow.
+- Hover and keyboard focus both displayed the type card; the tested tooltip measured 292×199px on
+  desktop and 288×182px on mobile.
+- The redesigned component measured about 422px tall on desktop and 824px at 390px wide, with no page
+  overflow or browser console issues.
+- `pnpm check` passed with 0 errors and 132 existing warnings. Prettier, diff whitespace, and both
+  Svelte autofixer passes are clean. Radius lint reaches only two unrelated existing admin-page
+  violations.

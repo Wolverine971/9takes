@@ -1,22 +1,18 @@
 <!-- src/lib/components/blog/EnneagramDiagram.svelte -->
 <!-- Warm tech themed Enneagram Diagram -->
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import { fade, scale } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
+	import { resolve } from '$app/paths';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
 
 	// Props
 	interface Props {
 		size?: 'sm' | 'md' | 'lg';
 		showLabels?: boolean;
-		interactive?: boolean;
 	}
 
-	let { size = 'md', showLabels: showLabelsProp = true, interactive = true }: Props = $props();
+	let { size = 'md', showLabels: showLabelsProp = true }: Props = $props();
 
 	let hoveredType: number | null = $state(null);
-	let mounted = $state(false);
 	let showLabels = $derived(showLabelsProp);
 
 	// Type metadata (colors come from shared constants)
@@ -91,6 +87,7 @@
 	const enneagramTypes = [1, 2, 3, 4, 5, 6, 7, 8, 9].map((id) => ({
 		id,
 		name: ENNEAGRAM_TYPE_COLORS[id].name,
+		shortName: ENNEAGRAM_TYPE_COLORS[id].name.replace(/^The /, ''),
 		color: ENNEAGRAM_TYPE_COLORS[id].color,
 		...typeMetadata[id]
 	}));
@@ -131,23 +128,13 @@
 	];
 
 	// Get URL for each Enneagram type
-	function getTypeUrl(typeId: number) {
+	function getTypeUrl(typeId: number): `/enneagram-corner/enneagram-type-${number}` {
 		return `/enneagram-corner/enneagram-type-${typeId}`;
 	}
-
-	function handleTypeClick(typeId: number) {
-		if (interactive) {
-			window.location.href = getTypeUrl(typeId);
-		}
-	}
-
-	onMount(() => {
-		mounted = true;
-	});
 </script>
 
 <div class="diagram-wrapper" class:size-sm={size === 'sm'} class:size-lg={size === 'lg'}>
-	<div class="enneagram-container">
+	<div class="diagram-stage">
 		<!-- Ambient glow effects -->
 		<div class="glow-layer"></div>
 
@@ -214,46 +201,32 @@
 			{/each}
 		</svg>
 
-		<!-- Central icon -->
-		<div class="center-icon">
-			<div class="center-pulse"></div>
-			<span>◈</span>
-		</div>
-
 		<!-- Type Nodes -->
 		{#each enneagramTypes as type, index (type.id)}
-			{#if mounted}
-				<a
-					href={interactive ? getTypeUrl(type.id) : undefined}
-					class="type-node"
-					class:active={hoveredType === type.id}
-					class:non-interactive={!interactive}
-					style="
+			<a
+				href={resolve(getTypeUrl(type.id))}
+				class="type-node"
+				class:active={hoveredType === type.id}
+				style="
 						left: {typePositions[index].x}%;
 						top: {typePositions[index].y}%;
 						--node-color: {type.color};
 					"
-					onmouseenter={() => (hoveredType = type.id)}
-					onmouseleave={() => (hoveredType = null)}
-					onfocus={() => (hoveredType = type.id)}
-					onblur={() => (hoveredType = null)}
-					tabindex={interactive ? 0 : -1}
-					aria-label={`Type ${type.id}: ${type.name}`}
-				>
-					<span class="node-glow"></span>
-					<span class="node-number">{type.id}</span>
-				</a>
-			{/if}
+				onmouseenter={() => (hoveredType = type.id)}
+				onmouseleave={() => (hoveredType = null)}
+				onfocus={() => (hoveredType = type.id)}
+				onblur={() => (hoveredType = null)}
+				aria-label={`Type ${type.id}: ${type.name}`}
+			>
+				<span class="node-glow"></span>
+				<span class="node-number">{type.id}</span>
+			</a>
 		{/each}
 
 		<!-- Tooltip -->
-		{#if hoveredType && mounted && interactive}
+		{#if hoveredType}
 			{@const currentType = enneagramTypes[hoveredType - 1]}
-			<div
-				class="tooltip"
-				in:scale={{ duration: 150, opacity: 0, start: 0.95, easing: cubicOut }}
-				out:fade={{ duration: 100 }}
-			>
+			<div class="tooltip">
 				<div class="tooltip-header">
 					<div class="tooltip-badge" style="--badge-color: {currentType.color}">
 						<span>{hoveredType}</span>
@@ -263,17 +236,19 @@
 					</div>
 				</div>
 				<p class="tooltip-description">{currentType.description}</p>
-				<div class="tooltip-meta">
-					<span class="meta-label">Core:</span>
-					<span class="meta-value" style="color: {currentType.color}"
-						>{currentType.coreEmotion}</span
-					>
-				</div>
-				<div class="tooltip-meta">
-					<span class="meta-label">Stance:</span>
-					<span class="meta-value" style="color: {currentType.color}"
-						>{currentType.emotionalStance}</span
-					>
+				<div class="tooltip-facts">
+					<div class="tooltip-meta">
+						<span class="meta-label">Core</span>
+						<span class="meta-value" style="color: {currentType.color}"
+							>{currentType.coreEmotion}</span
+						>
+					</div>
+					<div class="tooltip-meta">
+						<span class="meta-label">Stance</span>
+						<span class="meta-value" style="color: {currentType.color}"
+							>{currentType.emotionalStance}</span
+						>
+					</div>
 				</div>
 				<div class="tooltip-stance-detail">
 					{currentType.stanceDetail}
@@ -283,26 +258,24 @@
 	</div>
 
 	<!-- Type Legend -->
-	{#if mounted && showLabels}
+	{#if showLabels}
 		<ul class="type-legend">
 			{#each enneagramTypes as type (type.id)}
 				<li>
 					<a
-						href={interactive ? getTypeUrl(type.id) : undefined}
+						href={resolve(getTypeUrl(type.id))}
 						class="legend-item"
 						class:dimmed={hoveredType !== null && hoveredType !== type.id}
 						class:active={hoveredType === type.id}
-						class:non-interactive={!interactive}
 						style="--node-color: {type.color};"
 						onmouseenter={() => (hoveredType = type.id)}
 						onmouseleave={() => (hoveredType = null)}
 						onfocus={() => (hoveredType = type.id)}
 						onblur={() => (hoveredType = null)}
-						tabindex={interactive ? 0 : -1}
 						aria-label={`Type ${type.id}: ${type.name}`}
 					>
 						<span class="legend-badge">{type.id}</span>
-						<span class="legend-name">{type.name}</span>
+						<span class="legend-name">{type.shortName}</span>
 					</a>
 				</li>
 			{/each}
@@ -334,7 +307,7 @@
 		width: 100%;
 		max-width: 22rem;
 		margin: 0 auto;
-		padding-bottom: 1rem;
+		padding-bottom: 0.25rem;
 		overflow: visible;
 		height: 100%;
 		container-type: inline-size;
@@ -342,18 +315,18 @@
 
 	.diagram-wrapper.size-sm {
 		max-width: 16rem;
-		padding-bottom: 0.75rem;
+		padding-bottom: 0.25rem;
 	}
 
 	.diagram-wrapper.size-lg {
 		max-width: 30rem;
-		padding-bottom: 1.5rem;
+		padding-bottom: 0.5rem;
 	}
 
 	/* ==========================================
 	   CONTAINER
 	   ========================================== */
-	.enneagram-container {
+	.diagram-stage {
 		position: relative;
 		width: 100%;
 		overflow: visible;
@@ -361,28 +334,14 @@
 
 	@media (max-width: 639px) {
 		.diagram-wrapper,
-		.enneagram-container {
+		.diagram-stage {
 			max-width: 100%;
 			min-width: 0;
-			overflow-x: hidden;
 		}
 
 		.glow-layer,
-		.center-pulse,
 		.node-glow {
 			display: none;
-		}
-
-		.center-icon,
-		.type-node {
-			overflow: hidden;
-		}
-
-		@supports (overflow-x: clip) {
-			.diagram-wrapper,
-			.enneagram-container {
-				overflow-x: clip;
-			}
 		}
 	}
 
@@ -467,71 +426,42 @@
 	}
 
 	/* ==========================================
-	   CENTER ICON
-	   ========================================== */
-	.center-icon {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		width: 2rem;
-		height: 2rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: linear-gradient(135deg, var(--lamp-glow) 0%, var(--lamp-glow) 100%);
-		border-radius: 50%;
-		box-shadow: 0 0 20px var(--lamp-glow-rgba);
-		z-index: 5;
-	}
-
-	.center-icon span {
-		font-size: 0.8rem;
-		color: var(--text-on-primary);
-	}
-
-	.center-pulse {
-		position: absolute;
-		inset: -6px;
-		border: 1.5px solid var(--shadow-ethereal);
-		border-radius: 50%;
-		animation: center-pulse 2.5s ease-in-out infinite;
-	}
-
-	@keyframes center-pulse {
-		0%,
-		100% {
-			transform: scale(1);
-			opacity: 0.5;
-		}
-		50% {
-			transform: scale(1.25);
-			opacity: 0;
-		}
-	}
-
-	/* ==========================================
 	   TYPE NODES
 	   ========================================== */
 	.type-node {
+		box-sizing: border-box;
 		position: absolute;
+		isolation: isolate;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2.25rem;
-		height: 2.25rem;
+		inline-size: 2.35rem;
+		block-size: 2.35rem;
+		min-inline-size: 2.35rem;
+		min-block-size: 2.35rem;
+		aspect-ratio: 1;
+		padding: 0 !important;
 		background: var(--night-deep);
-		border: 2px solid var(--node-color);
+		border: 2px solid transparent;
 		border-radius: 50%;
+		line-height: 1;
 		text-decoration: none;
 		cursor: pointer;
 		transform: translate(-50%, -50%);
-		transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+		transition:
+			box-shadow 0.18s ease,
+			transform 0.18s ease;
 		z-index: 10;
 	}
 
-	.type-node.non-interactive {
-		cursor: default;
+	.type-node::after {
+		content: '';
+		position: absolute;
+		inset: -2px;
+		border: 2px solid var(--node-color);
+		border-radius: 50%;
+		pointer-events: none;
+		z-index: 3;
 	}
 
 	.node-glow {
@@ -540,7 +470,9 @@
 		border-radius: 50%;
 		background: radial-gradient(circle, var(--node-color) 0%, transparent 70%);
 		opacity: 0.3;
+		pointer-events: none;
 		transition: opacity 0.25s ease;
+		z-index: 0;
 	}
 
 	.type-node:hover .node-glow,
@@ -570,12 +502,15 @@
 		font-weight: 700;
 		color: var(--node-color);
 		text-shadow: 0 0 10px var(--node-color);
+		z-index: 2;
 	}
 
 	@media (min-width: 640px) {
 		.type-node {
-			width: 2.5rem;
-			height: 2.5rem;
+			inline-size: 2.5rem;
+			block-size: 2.5rem;
+			min-inline-size: 2.5rem;
+			min-block-size: 2.5rem;
 		}
 
 		.node-number {
@@ -586,32 +521,33 @@
 	/* ==========================================
 	   TYPE LEGEND
 	   ========================================== */
-	.type-legend {
+	.diagram-wrapper .type-legend {
 		list-style: none;
-		margin: 1.25rem 0 0;
+		margin: 0.5rem 0 0;
 		padding: 0;
 		display: grid;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 0.375rem;
+		gap: 0.2rem 0.25rem;
 	}
 
-	/* Respond to the diagram's own width, not the viewport, so the names
-	   never get squeezed into 3 cramped columns inside a narrow panel. */
-	@container (min-width: 30rem) {
-		.type-legend {
+	@container (min-width: 18rem) {
+		.diagram-wrapper .type-legend {
 			grid-template-columns: repeat(3, minmax(0, 1fr));
 		}
 	}
 
-	.type-legend li {
+	.diagram-wrapper .type-legend li {
 		min-width: 0;
+		margin: 0;
+		line-height: 1;
 	}
 
-	.legend-item {
+	.diagram-wrapper .legend-item {
 		display: flex;
 		align-items: center;
-		gap: 0.5rem;
-		padding: 0.35rem 0.5rem;
+		gap: 0.25rem;
+		min-height: 1.75rem;
+		padding: 0.2rem;
 		border-radius: 0.625rem;
 		border: 1px solid transparent;
 		text-decoration: none;
@@ -621,7 +557,7 @@
 			opacity 0.2s ease;
 	}
 
-	.legend-item:not(.non-interactive):hover,
+	.legend-item:hover,
 	.legend-item.active {
 		background: color-mix(in srgb, var(--node-color) 12%, transparent);
 		border-color: color-mix(in srgb, var(--node-color) 45%, transparent);
@@ -637,33 +573,34 @@
 		opacity: 0.45;
 	}
 
-	.legend-item.non-interactive {
-		cursor: default;
-	}
-
 	.legend-badge {
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		flex-shrink: 0;
-		width: 1.4rem;
-		height: 1.4rem;
+		box-sizing: border-box;
+		inline-size: 1.125rem;
+		block-size: 1.125rem;
+		aspect-ratio: 1;
+		padding: 0 !important;
 		border-radius: 50%;
 		background: var(--night-deep);
 		border: 1.5px solid var(--node-color);
 		font-family: var(--font-mono);
-		font-size: 0.75rem;
+		font-size: 0.6rem;
 		font-weight: 700;
+		line-height: 1;
 		color: var(--node-color);
 	}
 
 	.legend-name {
 		font-family: var(--font-display);
-		font-size: 0.75rem;
+		font-size: 0.6rem;
 		font-weight: 600;
-		line-height: 1.15;
+		line-height: 1.1;
 		color: var(--text-pale);
 		min-width: 0;
+		white-space: nowrap;
 	}
 
 	.legend-item.active .legend-name {
@@ -674,18 +611,18 @@
 	   TOOLTIP
 	   ========================================== */
 	.tooltip {
+		box-sizing: border-box;
 		position: absolute;
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%, -50%);
-		background: linear-gradient(180deg, var(--night-deep) 0%, var(--night-deep) 100%);
-		border: 1px solid var(--lamp-glow-rgba);
+		width: calc(100% - 0.75rem);
+		max-width: 20rem;
+		background: color-mix(in srgb, var(--night-deep) 94%, var(--stone-warm));
+		border: 1px solid var(--stone-edge);
 		border-radius: 0.625rem;
-		padding: 1rem;
-		max-width: min(280px, 85%);
-		box-shadow:
-			0 0 30px var(--lamp-soft),
-			0 8px 24px rgba(0, 0, 0, 0.15);
+		padding: 0.875rem 1rem;
+		box-shadow: var(--shadow-lg);
 		z-index: 100;
 		pointer-events: none;
 	}
@@ -693,21 +630,23 @@
 	.tooltip-header {
 		display: flex;
 		align-items: center;
-		gap: 0.75rem;
-		margin-bottom: 0.75rem;
+		gap: 0.625rem;
+		margin-bottom: 0.5rem;
 	}
 
 	.tooltip-badge {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 2rem;
-		height: 2rem;
+		box-sizing: border-box;
+		inline-size: 1.75rem;
+		block-size: 1.75rem;
+		aspect-ratio: 1;
+		padding: 0 !important;
 		background: var(--night-deep);
 		border: 2px solid var(--badge-color);
 		border-radius: 50%;
 		flex-shrink: 0;
-		box-shadow: 0 0 15px color-mix(in srgb, var(--badge-color) 40%, transparent);
 	}
 
 	.tooltip-badge span {
@@ -724,24 +663,29 @@
 
 	.tooltip-title-sub {
 		font-family: var(--font-display);
-		font-size: 1rem;
+		font-size: 0.95rem;
 		font-weight: 700;
 		color: var(--text-pale);
 	}
 
-	.tooltip-description {
-		font-size: 0.8rem;
+	.diagram-wrapper .tooltip-description {
+		font-size: 0.76rem;
 		color: var(--text-mist);
-		line-height: 1.5;
-		margin: 0 0 0.75rem;
+		line-height: 1.45;
+		margin: 0 0 0.625rem;
+	}
+
+	.tooltip-facts {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.5rem;
 	}
 
 	.tooltip-meta {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
+		display: grid;
+		gap: 0.1rem;
 		font-family: var(--font-mono);
-		font-size: 0.7rem;
+		font-size: 0.66rem;
 	}
 
 	.meta-label {
@@ -753,12 +697,41 @@
 	}
 
 	.tooltip-stance-detail {
-		margin-top: 0.5rem;
-		padding-top: 0.5rem;
+		margin-top: 0.4rem;
+		padding-top: 0.4rem;
 		border-top: 1px solid var(--lamp-soft);
-		font-size: 0.75rem;
+		font-size: 0.7rem;
 		font-style: italic;
 		color: var(--text-mist);
-		text-align: center;
+		text-align: left;
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		.tooltip {
+			animation: tooltip-in 0.16s cubic-bezier(0.22, 1, 0.36, 1);
+		}
+
+		@keyframes tooltip-in {
+			from {
+				opacity: 0;
+				transform: translate(-50%, -48%) scale(0.97);
+			}
+			to {
+				opacity: 1;
+				transform: translate(-50%, -50%) scale(1);
+			}
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.glow-layer,
+		.node-glow {
+			display: none;
+		}
+
+		.type-node,
+		.legend-item {
+			transition: none;
+		}
 	}
 </style>
