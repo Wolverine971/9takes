@@ -68,6 +68,8 @@ async function resolveQuestionIdByUrl(questionUrl: string): Promise<number | nul
 		.from('questions')
 		.select('id')
 		.eq('url', questionUrl)
+		.not('removed', 'is', true)
+		.not('flagged', 'is', true)
 		.maybeSingle();
 
 	const id = typeof data?.id === 'number' ? data.id : null;

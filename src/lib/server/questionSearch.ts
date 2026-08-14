@@ -189,6 +189,7 @@ async function fallbackQuestionTypeahead(
 		.from('questions')
 		.select('id, url, question, question_formatted, comment_count, context')
 		.eq('removed', false)
+		.not('flagged', 'is', true)
 		.or(`question.ilike.${pattern},question_formatted.ilike.${pattern},context.ilike.${pattern}`)
 		.order('comment_count', { ascending: false })
 		.limit(limit);
@@ -224,6 +225,7 @@ async function fallbackQuestionSearch(
 			{ count: 'exact' }
 		)
 		.eq('removed', false)
+		.not('flagged', 'is', true)
 		.or(`question.ilike.${pattern},question_formatted.ilike.${pattern},context.ilike.${pattern}`)
 		.order('comment_count', { ascending: false })
 		.order('updated_at', { ascending: false })

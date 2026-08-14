@@ -30,13 +30,13 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 	try {
 		const query = supabase
 			.from('questions')
-			.select('id, url, question, question_formatted, img_url');
+			.select('id, url, question, question_formatted, img_url, flagged, removed');
 		const isNumericSlug = /^\d+$/.test(slug);
 		const { data: question, error: questionError } = await (isNumericSlug
 			? query.eq('id', Number(slug)).single()
 			: query.eq('url', slug).single());
 
-		if (questionError || !question) {
+		if (questionError || !question || question.flagged || question.removed) {
 			logger.warn('Question social card fallback: question not found', { slug });
 			return redirectWithCache(FALLBACK_SOCIAL_IMAGE);
 		}

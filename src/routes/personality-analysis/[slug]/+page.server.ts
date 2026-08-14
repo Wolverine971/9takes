@@ -23,6 +23,7 @@ import {
 	CONTENT_GUARD_CACHE_CONTROL,
 	CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
 } from '$lib/server/contentAccessGuard';
+import { isQuestionPubliclyEligible } from '$lib/server/questionEditorial';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
@@ -36,6 +37,7 @@ type RelatedPersonalityPayload = {
 	sameNichePosts: RelatedPersonalityCard[];
 	sameEnneagramPosts: RelatedPersonalityCard[];
 };
+type PublicChorusQuestion = { question: string | null; questionUrl: string | null };
 
 const PERSONALITY_ENRICHMENT_TIMEOUT_MS = 4_000;
 
@@ -125,13 +127,19 @@ export const load: PageServerLoad = async (event) => {
 	});
 	const postTypes = normalizePeopleTypes(personData.type);
 	const enneagramNum = parseEnneagramNumber(personData.enneagram);
-	const [userHasAnswered, { content, placeholders, headings }, relatedPosts, publishedRows] =
-		await Promise.all([
-			hasCommentedPromise,
-			processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
-			buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum),
-			getPersonalitySimilarityRows(supabase)
-		]);
+	const [
+		userHasAnswered,
+		{ content, placeholders, headings },
+		relatedPosts,
+		publishedRows,
+		publicChorus
+	] = await Promise.all([
+		hasCommentedPromise,
+		processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
+		buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum),
+		getPersonalitySimilarityRows(supabase),
+		resolvePublicChorusQuestion(supabase, personData)
+	]);
 	const suggestedPeople = buildSuggestedPeople(
 		personData.suggestions,
 		canonicalSlug,
@@ -163,6 +171,8 @@ export const load: PageServerLoad = async (event) => {
 		},
 		post: {
 			...(personData as FamousPersonRow),
+			chorus_question: publicChorus.question,
+			chorus_question_url: publicChorus.questionUrl,
 			slug: canonicalSlug,
 			title: personData.title ?? '',
 			author: personData.author ?? 'DJ Wayne',
@@ -187,6 +197,29 @@ export const load: PageServerLoad = async (event) => {
 		relatedPosts
 	};
 };
+
+async function resolvePublicChorusQuestion(
+	supabase: ServerSupabaseClient,
+	person: FamousPersonRow
+): Promise<PublicChorusQuestion> {
+	const questionUrl = person.chorus_question_url?.trim();
+	if (!questionUrl) return { question: null, questionUrl: null };
+
+	const { data: question, error: questionError } = await supabase
+		.from('questions')
+		.select('question, question_formatted, flagged, removed, data')
+		.eq('url', questionUrl)
+		.maybeSingle();
+
+	if (questionError || !question || !isQuestionPubliclyEligible(question)) {
+		return { question: null, questionUrl: null };
+	}
+
+	const publicQuestion = (question.question_formatted || question.question || '').trim();
+	return publicQuestion
+		? { question: publicQuestion, questionUrl }
+		: { question: null, questionUrl: null };
+}
 
 const RELATED_POSTS_CACHE_TTL_MS = 5 * 60 * 1000;
 type RelatedPostsCacheEntry = { value: RelatedPersonalityPayload; expiresAt: number };

@@ -10,6 +10,7 @@ import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { SmartLLMService } from '../../utils/server/smart-llm-service';
 import { enneagramTypeProfiles } from '$lib/data/enneagramTypeProfiles';
 import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+import { isQuestionPubliclyEligible } from '$lib/server/questionEditorial';
 
 export type NineTake = {
 	type: number; // 1..9
@@ -116,10 +117,10 @@ export async function getChorusForQuestion(questionUrl: string): Promise<ChorusD
 
 	const { data: q } = await (supabase as any)
 		.from('questions')
-		.select('id, question')
+		.select('id, question, question_formatted, flagged, removed')
 		.eq('url', questionUrl)
 		.maybeSingle();
-	if (!q?.id) return null;
+	if (!q?.id || q.flagged || q.removed) return null;
 
 	const { data: row } = await (supabase as any)
 		.from('nine_takes')
@@ -131,7 +132,7 @@ export async function getChorusForQuestion(questionUrl: string): Promise<ChorusD
 	const takes = Array.isArray(row?.takes) ? (row.takes as NineTake[]) : [];
 	if (takes.length !== 9) return null;
 
-	const question = clean(row?.situation) || clean(q.question);
+	const question = clean(row?.situation) || clean(q.question_formatted) || clean(q.question);
 	if (!question) return null;
 
 	return { question, questionUrl, questionId: q.id, takes };
@@ -147,9 +148,21 @@ export async function getChorus(subjectSlug: string): Promise<ChorusData | null>
 		.eq('person', subjectSlug)
 		.maybeSingle();
 
-	const question = clean(person?.chorus_question);
 	const questionUrl = clean(person?.chorus_question_url);
-	if (!question || !questionUrl) return null;
+	if (!questionUrl) return null;
+
+	const { data: questionRow } = await (supabase as any)
+		.from('questions')
+		.select('id, question, question_formatted, flagged, removed, data')
+		.eq('url', questionUrl)
+		.maybeSingle();
+	if (!questionRow?.id || !isQuestionPubliclyEligible(questionRow)) return null;
+
+	const question =
+		clean(questionRow.question_formatted) ||
+		clean(questionRow.question) ||
+		clean(person?.chorus_question);
+	if (!question) return null;
 
 	const { data: row } = await (supabase as any)
 		.from('nine_takes')
@@ -161,13 +174,7 @@ export async function getChorus(subjectSlug: string): Promise<ChorusData | null>
 	const takes = Array.isArray(row?.takes) ? (row.takes as NineTake[]) : [];
 	if (takes.length !== 9) return null;
 
-	const { data: q } = await (supabase as any)
-		.from('questions')
-		.select('id')
-		.eq('url', questionUrl)
-		.maybeSingle();
-
-	return { question, questionUrl, questionId: q?.id ?? null, takes };
+	return { question, questionUrl, questionId: questionRow.id, takes };
 }
 
 /** Capture the reader's take (typed corpus). Best-effort; never block the reveal. */

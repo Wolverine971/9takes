@@ -3,6 +3,7 @@ import { error, fail } from '@sveltejs/kit';
 import type { Actions, PageServerLoad } from './$types';
 
 import { guardAdminActions, requireAdmin } from '$lib/server/adminAuth';
+import { isQuestionEditoriallyApproved } from '$lib/server/questionEditorial';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 type FeatureQuestion = {
@@ -14,6 +15,7 @@ type FeatureQuestion = {
 	created_at: string;
 	flagged: boolean | null;
 	removed: boolean | null;
+	data: { source?: unknown; editorial_status?: unknown } | null;
 };
 
 function positiveInteger(value: FormDataEntryValue | null, fallback: number): number {
@@ -54,7 +56,9 @@ export const load: PageServerLoad = async (event) => {
 			.limit(25),
 		admin
 			.from('questions')
-			.select('id, question, question_formatted, url, comment_count, created_at, flagged, removed')
+			.select(
+				'id, question, question_formatted, url, comment_count, created_at, flagged, removed, data'
+			)
 			.order('created_at', { ascending: false })
 			.limit(250)
 	]);
@@ -79,6 +83,7 @@ export const load: PageServerLoad = async (event) => {
 		(question) =>
 			!question.removed &&
 			!question.flagged &&
+			isQuestionEditoriallyApproved(question.data) &&
 			Boolean((question.question_formatted || question.question)?.trim()) &&
 			Boolean(question.url?.trim())
 	);

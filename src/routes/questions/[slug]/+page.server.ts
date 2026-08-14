@@ -126,7 +126,7 @@ export const load: PageServerLoad = async (event) => {
 
 	const question = await getQuestion(event.params.slug, isDemoTime);
 	if (!question) {
-		throw error(400, { message: 'No question found' });
+		throw error(404, { message: 'No question found' });
 	}
 
 	const [viewerHasAnswered, questionTags] = await Promise.all([
@@ -1052,8 +1052,8 @@ async function getQuestion(slug: string, demo_time: boolean) {
 	);
 
 	const { data, error: findQuestionError } = await (Number.isInteger(parseInt(slug))
-		? query.eq('id', slug).single()
-		: query.eq('url', slug).single());
+		? query.eq('id', slug).not('removed', 'is', true).not('flagged', 'is', true).single()
+		: query.eq('url', slug).not('removed', 'is', true).not('flagged', 'is', true).single());
 
 	if (!data || findQuestionError) {
 		return null;

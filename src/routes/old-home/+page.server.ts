@@ -97,6 +97,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 				.select('url,question_formatted,comment_count')
 				.order('comment_count', { ascending: false })
 				.eq('removed', false)
+				.not('flagged', 'is', true)
 				.neq('id', 168)
 				.limit(9)
 				.abortSignal(signal);

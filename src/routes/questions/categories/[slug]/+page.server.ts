@@ -70,7 +70,7 @@ export const load: PageServerLoad = async (event) => {
 		{ data: recentQuestions, error: recentQuestionsError }
 	] = await Promise.all([
 		supabase.from('question_category_tags').select('question_id, tag_id'),
-		supabase.from(questionTable).select('id').eq('removed', false),
+		supabase.from(questionTable).select('id').eq('removed', false).not('flagged', 'is', true),
 		recentQuestionsPromise
 	]);
 
@@ -160,6 +160,7 @@ async function getCategoryQuestions(
 		)
 		.in('id', questionIds)
 		.eq('removed', false)
+		.not('flagged', 'is', true)
 		.order('updated_at', { ascending: false })
 		.order('created_at', { ascending: false });
 
