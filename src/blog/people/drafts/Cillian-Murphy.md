@@ -6,14 +6,14 @@ description: 'Why is Cillian Murphy so private offscreen? We decode the Type 5 p
 author: 'DJ Wayne'
 date: '2024-12-03'
 loc: 'https://9takes.com/personality-analysis/cillian-murphy'
-lastmod: '2026-04-03'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
 type: ['celebrity', 'screen-icon']
 person: 'cillian-murphy'
-suggestions: ['Robert-Oppenheimer', 'Tom-Hardy', 'Joaquin-Phoenix']
+suggestions: ['Christopher-Nolan', 'Robert-Oppenheimer', 'Tom-Hardy', 'Joaquin-Phoenix']
 wikipedia: 'https://en.wikipedia.org/wiki/Cillian_Murphy'
 wikidata_qid: 'Q202589'
 imdb_id: 'nm0614165'

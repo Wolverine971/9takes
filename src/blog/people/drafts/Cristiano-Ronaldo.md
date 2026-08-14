@@ -6,7 +6,7 @@ description: "Cristiano Ronaldo scored at a record six World Cups, then went hom
 author: 'DJ Wayne'
 date: '2025-06-25'
 loc: 'https://9takes.com/personality-analysis/cristiano-ronaldo'
-lastmod: '2026-04-29'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,7 +14,7 @@ enneagram: 3
 type: ['athlete']
 person: 'cristiano-ronaldo'
 suggestions:
-  ['Lionel-Messi', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Tom-Cruise', 'Alex-Hormozi']
+  ['Lionel-Messi', 'David-Beckham', 'Arnold-Schwarzenegger', 'Dwayne-Johnson', 'Tom-Cruise']
 wikipedia: 'https://en.wikipedia.org/wiki/Cristiano_Ronaldo'
 wikidata_qid: 'Q11571'
 imdb_id: 'nm1860184'

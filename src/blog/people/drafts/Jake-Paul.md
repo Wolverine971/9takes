@@ -6,12 +6,12 @@ description: "From suicidal thoughts to Olympic tears, Jake Paul's psychology ma
 author: 'DJ Wayne'
 date: '2023-06-21'
 loc: 'https://9takes.com/personality-analysis/jake-paul'
-lastmod: '2026-02-10'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['creator', 'viral-entertainer']
+type: ['creator', 'athlete', 'viral-entertainer']
 person: 'jake-paul'
 suggestions: ['Logan-Paul', 'Conor-McGregor', 'Alex-Hormozi', 'Donald-Trump']
 wikipedia: 'https://en.wikipedia.org/wiki/Jake_Paul'

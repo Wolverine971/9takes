@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
-type: ['entrepreneur', 'techie', 'creator']
+type: ['entrepreneur', 'techie', 'creator', 'business-creator', 'business-operator']
 person: 'Bryan-Johnson'
 suggestions: ['Andrew-Huberman', 'Peter-Thiel', 'Jack-Dorsey', 'Jeff-Bezos']
 wikipedia: 'https://en.wikipedia.org/wiki/Bryan_Johnson'

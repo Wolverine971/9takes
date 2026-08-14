@@ -6,14 +6,14 @@ description: 'Andrew Huberman had a childhood tic he could only control by learn
 author: 'DJ Wayne'
 date: '2025-12-21'
 loc: 'https://9takes.com/personality-analysis/andrew-huberman'
-lastmod: '2026-03-27'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 5
 type: ['creator', 'podcaster']
 person: 'andrew-huberman'
-suggestions: ['Lex-Fridman', 'Joe-Rogan', 'Jocko-Willink', 'Bill-Gates']
+suggestions: ['Bryan-Johnson', 'Lex-Fridman', 'Joe-Rogan', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Andrew_Huberman'
 wikidata_qid: 'Q26250970'
 imdb_id: 'nm12330957'

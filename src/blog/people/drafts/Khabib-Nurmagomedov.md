@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['celebrity', 'athlete']
+type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'Khabib-Nurmagomedov'
 suggestions: ['Conor-McGregor', 'David-Goggins', 'Jocko-Willink', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Khabib_Nurmagomedov'
@@ -362,4 +362,3 @@ Cleaned up:
 Verified, left intact: cold open + "tape got burned" payoff, fence-jump empathy turn, UFC 254 inner-thought beat, both critic anchors, Miftaah/Usman current-tense anchors, bear-video bookend. Draft arrived clean from second pass + cohesion; lint 0 fail (0 em-dashes, 0 contrast engines) before and after.
 Still rough: none at this pass's altitude. faqs frontmatter enrich + word-count headroom (4298/4500) remain for later stages.
 -->
-

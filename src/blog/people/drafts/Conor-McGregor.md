@@ -6,14 +6,14 @@ description: "The psychology behind Conor McGregor's rise, rage, and reinvention
 author: 'DJ Wayne'
 date: '2026-03-04'
 loc: 'https://9takes.com/personality-analysis/conor-mcgregor'
-lastmod: '2026-03-04'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
-type: ['celebrity', 'celebrity-image']
+type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'conor-mcgregor'
-suggestions: ['Andrew-Tate', 'Jake-Paul', 'Joe-Rogan', 'Dave-Portnoy']
+suggestions: ['Khabib-Nurmagomedov', 'Andrew-Tate', 'Jake-Paul', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Conor_McGregor'
 wikidata_qid: 'Q5162259'
 imdb_id: 'nm6135552'

@@ -6,14 +6,14 @@ description: "Ilona Maher reads as pure swagger. The truth is more interesting: 
 author: 'DJ Wayne'
 date: '2026-05-06'
 loc: 'https://9takes.com/personality-analysis/ilona-maher'
-lastmod: '2026-05-06'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['celebrity', 'influencer', 'celebrity-image', 'lifestyle-builder']
+type: ['celebrity', 'influencer', 'athlete', 'celebrity-image', 'lifestyle-builder']
 person: 'ilona-maher'
-suggestions: ['Chappell-Roan', 'Halsey', 'Beyonce-Knowles', 'Cardi-B', 'Naomi-Osaka', 'Alysa-Liu']
+suggestions: ['Caitlin-Clark', 'Naomi-Osaka', 'Alysa-Liu', 'Chappell-Roan', 'Halsey', 'Beyonce-Knowles']
 wikipedia: 'https://en.wikipedia.org/wiki/Ilona_Maher'
 wikidata_qid: 'Q106086464'
 imdb_id: 'nm14911129'
@@ -304,4 +304,3 @@ PRIORITY FIXES:
 3. Trim the 8w7 wing assertion. State it once in the diagnostic section, then let the metastasis (DWTS + skincare + podcast) prove it. Right now the wing gets named three times.
 
 ============================================================ -->
-

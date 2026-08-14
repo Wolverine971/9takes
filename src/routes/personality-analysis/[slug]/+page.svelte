@@ -586,12 +586,11 @@
 		</div>
 	</section>
 
-	<!-- =====================================================================
-	  §02 BREAKDOWN — long-form analysis body.
-	  Portrait lives in the case-file header above; this section is prose-first.
-	  ===================================================================== -->
-	<section class="breakdown">
-		<div class="breakdown-inner">
+	<!-- Article navigation belongs to the case-file prelude, before the divider
+	     that marks the beginning of the long-form analysis. Keeping it outside
+	     .breakdown prevents opening quotes from reading as part of the TOC card. -->
+	<aside class="article-navigation" aria-label="Article navigation">
+		<div class="article-navigation-inner">
 			<TableOfContents
 				{contentStore}
 				headings={data.headings}
@@ -599,7 +598,17 @@
 				renderMode="accordion-only"
 				accordionOpen={false}
 			/>
+		</div>
+	</aside>
 
+	<div class="article-divider" aria-hidden="true"></div>
+
+	<!-- =====================================================================
+	  §02 BREAKDOWN — long-form analysis body.
+	  Portrait lives in the case-file header above; this section is prose-first.
+	  ===================================================================== -->
+	<section class="breakdown">
+		<div class="breakdown-inner">
 			<!-- Prose, part 1 — runs up to the 3rd h2 (usually the personality-type
 			     section). The Type Dossier is lifted out of the article-body prose
 			     scope so the page's :global() typography never bleeds into it. -->
@@ -825,7 +834,7 @@
 	  ========================================================= */
 	.case-file {
 		position: relative;
-		padding: 96px 48px 72px;
+		padding: 96px 48px 48px;
 		background: var(--night-deep);
 		overflow: hidden;
 		border-top: 3px solid var(--type-stripe);
@@ -1134,16 +1143,56 @@
 		border-color: var(--stone-edge);
 	}
 
+	/* ---------- article prelude ----------
+	   The contents disclosure is page navigation, not essay content. Give it a
+	   dedicated band, then use an inset hairline to mark where the read begins. */
+	.article-navigation {
+		padding: 24px 48px;
+		background: var(--night-deep);
+
+		/* The prelude owns the whitespace around this route's TOC. Its resting
+		   state should read as quiet navigation, leaving the route's effects
+		   budget to NineChorus farther down the page. */
+		:global(.toc-accordion) {
+			margin: 0;
+			border-color: color-mix(in srgb, var(--stone-edge) 72%, transparent);
+			box-shadow: none;
+		}
+
+		:global(.toc-summary) {
+			min-height: 48px;
+			border-bottom-color: transparent;
+		}
+
+		:global(.toc-accordion[open] .toc-summary) {
+			border-bottom-color: color-mix(in srgb, var(--stone-edge) 58%, transparent);
+		}
+	}
+
+	.article-navigation-inner {
+		width: 100%;
+		max-width: 880px;
+		margin: 0 auto;
+		min-width: 0;
+	}
+
+	.article-divider {
+		width: calc(100% - 96px);
+		max-width: 1280px;
+		height: 1px;
+		margin: 0 auto;
+		background: color-mix(in srgb, var(--stone-edge) 72%, transparent);
+	}
+
 	/* =========================================================
 	  §02 BREAKDOWN — long-form body
 	  ========================================================= */
 	.breakdown {
-		padding: 64px 48px 96px;
+		padding: 48px 48px 96px;
 		background: var(--night-deep);
-		border-top: 1px solid var(--stone-edge);
 
 		@media (max-width: 768px) {
-			padding: 48px 20px 64px;
+			padding: 40px 20px 64px;
 		}
 	}
 
@@ -1214,6 +1263,13 @@
 		font-size: 18px;
 		line-height: 1.7;
 		color: var(--ink-bright);
+
+		/* The section padding establishes the article boundary. Remove content-
+		   specific top margins so an opening quote, paragraph, or heading all begin
+		   on the same deliberate baseline beneath the divider. */
+		> :global(:first-child) {
+			margin-top: 0;
+		}
 
 		/* Header styles for injected content */
 		:global(h2) {
@@ -1552,7 +1608,15 @@
 	  ========================================================= */
 	@include mobile {
 		.case-file {
-			padding: 48px 16px 40px;
+			padding: 48px 16px 32px;
+		}
+
+		.article-navigation {
+			padding: 20px 16px;
+		}
+
+		.article-divider {
+			width: calc(100% - 32px);
 		}
 
 		.case-file-name {
@@ -1565,7 +1629,7 @@
 		}
 
 		.breakdown {
-			padding: 40px 16px 56px;
+			padding: 32px 16px 56px;
 		}
 
 		.article-body {
@@ -1646,6 +1710,7 @@
 	}
 
 	@supports (overflow-x: clip) {
+		.article-navigation-inner,
 		.breakdown-inner,
 		.article-body,
 		.discussion,

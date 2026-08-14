@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['historical', 'author']
+type: ['historical', 'author', 'psychology', 'strategy-writer']
 person: 'Carl-Jung'
 suggestions: ['Friedrich-Nietzsche', 'Jordan-Peterson', 'Albert-Einstein', 'Nikola-Tesla']
 wikipedia: 'https://en.wikipedia.org/wiki/Carl_Jung'
@@ -453,6 +453,5 @@ Rejected (with reason):
 Lint: clean — 0 fail, 2 warn (2 kept comparatives; word-ceiling headroom). Similarity scan: clear (max 0.094, noise).
 Perspective resolution artifact: docs/content-analysis/perspective-reviews/Carl-Jung/2026-08-13_020001/revision-resolution.md
 -->
-
 
 

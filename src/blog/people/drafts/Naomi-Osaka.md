@@ -6,14 +6,14 @@ description: 'Naomi Osaka apologized to the crowd for beating Serena. Inside the
 author: 'DJ Wayne'
 date: '2026-05-10'
 loc: 'https://9takes.com/personality-analysis/naomi-osaka'
-lastmod: '2026-05-10'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '9'
-type: ['celebrity', 'celebrity-image']
+type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'naomi-osaka'
-suggestions: ['Alysa-Liu', 'Ilona-Maher', 'Taylor-Swift', 'Beyonce-Knowles']
+suggestions: ['Caitlin-Clark', 'Alysa-Liu', 'Ilona-Maher', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Naomi_Osaka'
 twitter: 'naomiosaka'
 instagram: 'naomiosaka'

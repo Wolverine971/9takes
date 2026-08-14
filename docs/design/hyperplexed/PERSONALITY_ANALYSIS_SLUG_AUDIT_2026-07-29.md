@@ -166,3 +166,26 @@ present in SSR output.
 - `pnpm check` passed with 0 errors and 132 existing warnings. Prettier, diff whitespace, and both
   Svelte autofixer passes are clean. Radius lint reaches only two unrelated existing admin-page
   violations.
+
+### 2026-08-14 article-boundary follow-up
+
+The inline contents disclosure moved out of the long-form `.breakdown` section and into a dedicated
+article-navigation prelude between the case-file header and the essay. A separate inset hairline now
+marks the beginning of the read, so articles that open with a quote no longer make the quote look
+attached to the contents card. Desktop and mobile use the same semantic order and align the contents,
+divider, and prose to the existing route shells. **Patterns: P3 + P4.**
+
+The follow-up spacing pass treats that transition as one composed region instead of three isolated
+bands: the case-file footer, TOC wrapper, and essay inset now use the V5 spacing scale; the route-local
+TOC drops its resting glow and closed-state inner hairline; and the first essay element has a normalized
+top margin so quotes, paragraphs, and headings share one start line. NineChorus remains the route's
+single effects moment. **Patterns: P3 + P4 + P19.**
+
+- Local Adela passed at 2048×1200, 1440×1000, and 390px widths in dark and light mode.
+- DOM geometry confirms one contents prelude followed by the divider and then the first essay element;
+  desktop uses a 72px portrait-to-TOC transition, 24px from TOC to divider, and 48px from divider to
+  the essay; mobile uses 60px, 20px, and 40px respectively.
+- All three checked widths have zero horizontal overflow and no browser console errors. The closed TOC
+  exposes 12 links when opened, remains overflow-safe, and returns cleanly to its closed state.
+- `pnpm check` passes with 0 errors and 132 existing warnings. Prettier and the Svelte autofixer report
+  no new findings. Radius lint remains blocked only by two unrelated existing admin-route violations.

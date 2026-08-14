@@ -66,6 +66,13 @@ describe('personBlogParser', () => {
 		expect(parsed._explicit_fields).toContain('nationality');
 	});
 
+	it('preserves registered component tags when parsing people drafts for Supabase', async () => {
+		const filePath = path.resolve(process.cwd(), 'src/blog/people/drafts/Elon-Musk.md');
+		const parsed = await parseMarkdownFile(filePath);
+
+		expect(parsed.content).toContain('<DJReadCard readId="elon-musk" />');
+	});
+
 	it('filters out templates and research helpers from full person pushes', () => {
 		expect(shouldProcessMarkdownFile('src/blog/people/person-template.md')).toBe(false);
 		expect(shouldProcessMarkdownFile('src/blog/people/drafts/Tom-Holland-research.md')).toBe(false);

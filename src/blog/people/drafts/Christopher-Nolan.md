@@ -11,7 +11,7 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '5'
-type: ['celebrity', 'director']
+type: ['celebrity', 'director', 'celebrity-image']
 person: 'Christopher-Nolan'
 suggestions: ['Cillian-Murphy', 'Christian-Bale', 'Matt-Damon', 'Anne-Hathaway']
 wikipedia: 'https://en.wikipedia.org/wiki/Christopher_Nolan'
@@ -361,7 +361,7 @@ The Type 1 case: the punctuality, the film-stock purism, the moral defense of th
 
 The freedom he won at Universal went into a three-thousand-year-old poem. "As a filmmaker, you're looking for gaps in cinematic culture, things that haven't been done before," he told Empire. What nobody had done was hand a director $250 million and let him film the poem straight. "It truly contains all stories," Nolan said. One image had been lodged in him since an abandoned Troy project: "the horse as a sort of failing monument that they have to drag into their city."
 
-The bet was the biggest of his career: $250 million, Matt Damon as Odysseus, and the first feature shot entirely on IMAX cameras, using a quieter model IMAX built because he asked. "Wanted to do a whole film on IMAX since I was a kid," he said in July 2026, "but the noise of the cameras always prevented us doing the intimate dialogue scenes that way." Damon, whose sabbatical carried exactly one exception, "if Chris Nolan called," said Nolan warned him twice that the film would be hard. It was. Nolan told Deadline in July 2026 that the shoot hit "the limits of my own stamina." It opened on July 17, 2026 and has passed $1.1 billion (Variety, August 2026).
+The bet was the biggest of his career: $250 million, [Matt Damon](/personality-analysis/matt-damon) as Odysseus, and the first feature shot entirely on IMAX cameras, using a quieter model IMAX built because he asked. "Wanted to do a whole film on IMAX since I was a kid," he said in July 2026, "but the noise of the cameras always prevented us doing the intimate dialogue scenes that way." Damon, whose sabbatical carried exactly one exception, "if Chris Nolan called," said Nolan warned him twice that the film would be hard. It was. Nolan told Deadline in July 2026 that the shoot hit "the limits of my own stamina." It opened on July 17, 2026 and has passed $1.1 billion (Variety, August 2026).
 
 The reviews split along the fault line his career runs on. Clarisse Loughrey of The Independent called The Odyssey "Nolan's best work to date. It deserves to be the film that defines him," and singled out its Penelope scenes: "It's the women who really dazzle." Ten years after the dead-wives inventory became critical shorthand, that sentence carries weight. Whether the pattern broke is still argued. Pajiba called the film his best effort with female characters to date, "but it's a low bar to clear," and rated Charlize Theron's Calypso the weakest, "rendered as a wistful figment."
 

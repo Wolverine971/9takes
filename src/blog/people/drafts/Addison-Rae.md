@@ -6,7 +6,7 @@ description: 'The internet called her cringe in 2021. By 2026, she was Grammy-no
 author: 'DJ Wayne'
 date: '2026-01-17'
 loc: 'https://9takes.com/personality-analysis/addison-rae'
-lastmod: '2026-01-17'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -14,7 +14,7 @@ enneagram: 3
 type: ['creator', 'musician', 'tiktoker', 'lifestyle-builder', 'music-crossover']
 person: 'addison-rae'
 suggestions:
-  ['Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Sydney-Sweeney', 'Hailey-Bieber']
+  ['Adela', 'Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Addison_Rae'
 wikidata_qid: 'Q83739405'
 imdb_id: 'nm11290905'

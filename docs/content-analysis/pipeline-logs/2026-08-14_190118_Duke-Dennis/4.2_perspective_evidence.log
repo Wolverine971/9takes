@@ -1,0 +1,14 @@
+Packet written and validated. Frontmatter matches `context.json`; all 10 required H2s present; snapshot untouched.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/evidence-packet.md`
+
+Built from the two repo transcripts (re-read in full), the prior 08-07 packet, the entity-gap brief, plus live checks: `yt-dlp` channel metadata and auto-captions from Duke's own channels, the official Streamer University 2026 staff pages, Wikipedia, Rolling Stone Canada, Spectrum News, Dexerto, and the repo's corpus stats. 20 claims inventoried with status, sources, counterevidence, and risk; 30-row source ledger with tiers and per-source limitations.
+
+Four findings that weren't in the prior packet:
+
+- **Streamer University 2025 role (CLM-01)** — the draft's new "he sat in the inaugural class as a student" is contradicted by first-party evidence: his own channel published *"Being A Professor At Streamer University"* on 2025-05-23 and Part 2 on 2025-05-26, inside the May 22–25 inaugural session. The 2025 class roster lists him among professors, and Speedy's questions to India Love place him there in a faculty capacity. Only Rolling Stone's 2026 preview copy ("acceptance into last year's inaugural class") supports the draft's version. This also corrects the prior packet.
+- **"The circle has billed him exactly once" (CLM-02)** — an August 2, 2025 arrest at a San Antonio mall during a hide-and-seek stunt *with Kai Cenat* (trespassing/evading, later dismissed via pretrial diversion), plus a civil suit reported June 17, 2026 naming AMP Entertainment, Duke Dennis and Kai Cenat and seeking over $1M. Recorded precisely and neutrally per the entity-gap's legal-risk constraint.
+- **Resolved two prior open questions** — the India Love episode is dated 2025-06-26 (not November), her "first time meeting him" quote is verified verbatim and unambiguously about Duke, and the meeting happened at Streamer University, not on the Complex show. RQ-01 also resolves: the 3.5M figure sits on the vlog channel (3.6M live), not the Deo-email 2K channel (2.0M).
+- **Two smaller drifts** — corpus stats regenerated 2026-08-14T21:00Z now read 46 Type 8s, not 45; and the dated upload record shows the "2026 world tour" run is mostly domestic, with the international trips in 2024–2025. Oktoberfest, by contrast, verified first-party ("October F[est]... October 5th" on tape).
+
+**Largest unresolved evidence gap:** the draft's two freshest claims (CLM-01, CLM-02) were both introduced or bounded during passes that were fixing *earlier* errors in those same two spots — and each repair was made against preview copy or a single secondary summary rather than the primary record. The article's most current-feeling material is where its sourcing is thinnest.

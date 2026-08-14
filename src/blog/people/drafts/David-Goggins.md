@@ -6,12 +6,12 @@ description: "Why David Goggins keeps pushing himself at 51, after world records
 author: 'DJ Wayne'
 date: '2026-05-30'
 loc: 'https://9takes.com/personality-analysis/david-goggins'
-lastmod: '2026-06-01'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
-type: ['celebrity', 'author', 'celebrity-image']
+type: ['celebrity', 'author', 'athlete', 'celebrity-image']
 person: 'david-goggins'
 suggestions: ['Jocko-Willink', 'Joe-Rogan', 'Andrew-Huberman', 'Tim-Ferriss']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Goggins'

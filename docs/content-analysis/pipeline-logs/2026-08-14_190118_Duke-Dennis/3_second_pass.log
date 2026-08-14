@@ -1,0 +1,28 @@
+Done. Both warnings are pre-existing in kind (I added one internal link at the packet's direction; word count is unchanged at 4267, under the 4500 ceiling).
+
+## Updated: `src/blog/people/drafts/Duke-Dennis.md`
+
+**Source audit after the pass:** 4 load-bearing quotes — 3 inline, 1 vague, 0 untagged. No untagged slots existed going in, so there was no wholesale traceability repair to do. The single vague slot is the 2018 self-published story time; I declined to fix it by adding his own YouTube channel to `blog-source-audit.mjs`'s outlet registry, since that would upgrade self-published sources to "inline" corpus-wide and weaken the tool. Honest ceiling, same call as the prior pass.
+
+**Lint:** 0 fail, 2 warn. YAML parses (6 FAQs). `lastmod` untouched.
+
+### Main changes
+
+- **Killed a false claim.** "The only legal mark on his first decade of fame" is untrue — the August 2025 San Antonio trespassing/evading incident sits inside that decade. Superlative dropped, the agency clause kept, and I did *not* retell San Antonio (the packet flags loose characterization as a legal-risk repeat of the Tobey incident).
+- **Cut unsourceable family claims.** "Raised by a single mother with two younger brothers" is gone — the farm sources actively contradict each other and only the 2019 Darius video is corroborated. That sentence now carries the birth date instead.
+- **Intro says what he does.** AMP, Kai Cenat, NBA 2K, and "Denzel Shaquille Dennis" now land in paragraph three. This was the packet's one named pre-publish gap, and it matters because a footballer collides with him on page one.
+- **Age served** — new FAQ (Feb 26, 1994; 32 as of Aug 2026), plus the birth date in the body instead of only as a meme correction in the last paragraph.
+- **Named the incumbent typing.** Counterarguments now open on "Personality Database and mbtilounge both file him as 3w2," which converts an abstract Type 3 counter-read into a falsifiable disagreement.
+- **Restructured the stress section** so Dee closes it with room to breathe (it was four sentences wedged between a flirting beat and a real-estate purchase). Door metaphors went 5 → 3.
+- **New material:** the 2026 travel-vlog run (present-tense anchor) and Germany revisited in October 2024 for Oktoberfest — the country that held his contract, re-entered on opposite terms.
+- **Trims:** third telling of the Speed snub and the fourth Rolling Stone mention cut from the wing paragraph; one "same X" engine varied.
+
+### One review note I rejected as factually wrong
+
+The review called its "single best unclaimed detail" the idea that Duke was faculty at Streamer University 2026 **while the rest of AMP enrolled as students**. I checked the official `streameruniversity2026.com` staff list: Agent00 is also a Professor, Fanum is Campus Police, Chrisnxtdoor is a Janitor. He was not grading his own crew. I wrote the true and better arc instead — he sat in the inaugural 2025 class as a *student* and returned as faculty in 2026.
+
+I also skipped the Druski body link (no verified connection; the suggestions frontmatter already renders it) and left the DeeBlock/D-Block "inconsistency" alone — the narration is already consistent, and "D-Block" survives only inside a verbatim quote.
+
+### Possibly worth an editor pass
+
+Two beats — the Germany return and the Dee shirt — rest on clip-tier sourcing (TikTok/YouTube/X) with no outlet write-up, the same ceiling as the Kai Veterans Day call. They're stated as fact with no fabricated quotes, and I named no woman from the Germany clips, since the packet bars the unsourced "Gina"/"Kali" churn. The 2026 travel run is written without naming countries because per-destination dates didn't resolve cleanly.

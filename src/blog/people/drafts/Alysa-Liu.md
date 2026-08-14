@@ -6,14 +6,14 @@ description: "She quit skating at 16 because it felt like a burden. She came bac
 author: 'DJ Wayne'
 date: '2026-06-03'
 loc: 'https://9takes.com/personality-analysis/alysa-liu'
-lastmod: '2026-06-28'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['celebrity', 'celebrity-image']
+type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'alysa-liu'
-suggestions: ['Naomi-Osaka', 'Ilona-Maher', 'Cristiano-Ronaldo', 'Chappell-Roan']
+suggestions: ['Caitlin-Clark', 'Naomi-Osaka', 'Ilona-Maher', 'Cristiano-Ronaldo']
 wikipedia: 'https://en.wikipedia.org/wiki/Alysa_Liu'
 wikidata_qid: 'Q55356854'
 imdb_id: 'nm10438384'
@@ -454,5 +454,4 @@ INTENTIONALLY SKIPPED:
 - Did not alter title, meta_title, slug, loc, H2 structure, or lastmod.
 
 -->
-
 

@@ -6,14 +6,14 @@ description: "What drives Jordan Peterson's relentless moral crusades? His Type 
 author: 'DJ Wayne'
 date: '2024-07-12'
 loc: 'https://9takes.com/personality-analysis/jordan-peterson'
-lastmod: '2026-02-18'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['psychology', 'strategy-writer']
 person: 'jordan-peterson'
-suggestions: ['Joe-Rogan', 'Lex-Fridman', 'Andrew-Tate', 'Andrew-Huberman']
+suggestions: ['Carl-Jung', 'Joe-Rogan', 'Lex-Fridman', 'Andrew-Tate', 'Andrew-Huberman']
 wikipedia: 'https://en.wikipedia.org/wiki/Jordan_Peterson'
 wikidata_qid: 'Q6276882'
 imdb_id: 'nm5266811'

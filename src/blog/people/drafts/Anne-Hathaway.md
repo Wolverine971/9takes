@@ -6,14 +6,14 @@ persona_title: 'The Actress They Hated for Trying'
 author: 'DJ Wayne'
 date: '2025-03-24'
 loc: 'https://9takes.com/personality-analysis/anne-hathaway'
-lastmod: '2026-03-27'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
 type: ['movieStar', 'screen-icon']
 person: 'anne-hathaway'
-suggestions: ['Natalie-Portman', 'Emma-Watson', 'Blake-Lively', 'Meryl-Streep']
+suggestions: ['Christopher-Nolan', 'Natalie-Portman', 'Emma-Watson', 'Blake-Lively', 'Meryl-Streep']
 wikipedia: 'https://en.wikipedia.org/wiki/Anne_Hathaway'
 wikidata_qid: 'Q36301'
 imdb_id: 'nm0004266'

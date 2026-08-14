@@ -6,14 +6,14 @@ description: "Why Lionel Messi is an Enneagram Type 9: the boy they called 'the 
 author: 'DJ Wayne'
 date: '2026-04-14'
 loc: 'https://9takes.com/personality-analysis/lionel-messi'
-lastmod: '2026-07-14'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
-type: ['celebrity', 'celebrity-image']
+type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'lionel-messi'
-suggestions: ['Cristiano-Ronaldo', 'Lamine-Yamal']
+suggestions: ['Cristiano-Ronaldo', 'David-Beckham', 'Lamine-Yamal']
 wikipedia: 'https://en.wikipedia.org/wiki/Lionel_Messi'
 wikidata_qid: 'Q615'
 imdb_id: 'nm2177779'

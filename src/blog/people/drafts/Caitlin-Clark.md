@@ -11,9 +11,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 1
-type: ['celebrity', 'athlete']
+type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'caitlin-clark'
-suggestions: ['Cristiano-Ronaldo', 'Naomi-Osaka', 'Anne-Hathaway', 'Blake-Lively']
+suggestions: ['Naomi-Osaka', 'Ilona-Maher', 'Alysa-Liu', 'Cristiano-Ronaldo']
 wikipedia: 'https://en.wikipedia.org/wiki/Caitlin_Clark'
 wikidata_qid: 'Q106298476'
 imdb_id: 'nm14710113'

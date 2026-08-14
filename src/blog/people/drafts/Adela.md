@@ -11,9 +11,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
-type: ['musician', 'dancer']
+type: ['musician', 'dancer', 'pop-star']
 person: 'adela'
-suggestions: ['Tate-McRae', 'Charli-XCX', 'Addison-Rae', 'Ariana-Grande']
+suggestions: ['Tate-McRae', 'Charli-XCX', 'Addison-Rae', 'Ariana-Grande', 'Lady-Gaga']
 wikipedia: 'https://en.wikipedia.org/wiki/Ad%C3%A9la_(singer)'
 wikidata_qid: 'Q131629817'
 imdb_id: 'nm15203885'
@@ -139,7 +139,7 @@ Ending swap test: the final image depends on PRIMA's ballet meaning, her Slovak 
 
 > "My 'now' is defined by ambition." — Adéla, [Harper's Bazaar, 2026](https://www.harpersbazaar.com/culture/art-books-music/a70884094/adela-debut-album-interview-2026/)
 
-<p class="firstLetter">After <i>Dream Academy</i> eliminated Adéla Jergová from HYBE x Geffen's global girl-group competition, she went home to Bratislava and looked around her childhood bedroom. Lady Gaga, Ariana Grande, Beyoncé, Rihanna, Madonna, and Britney Spears were still on the walls. The room held a version of her plan that the training program had almost erased.</p>
+<p class="firstLetter">After <i>Dream Academy</i> eliminated Adéla Jergová from HYBE x Geffen's global girl-group competition, she went home to Bratislava and looked around her childhood bedroom. <a href="/personality-analysis/lady-gaga">Lady Gaga</a>, <a href="/personality-analysis/ariana-grande">Ariana Grande</a>, Beyoncé, Rihanna, Madonna, and Britney Spears were still on the walls. The room held a version of her plan that the training program had almost erased.</p>
 
 She opened a Google Doc. Into it went colors, textures, images, sounds, references, and a definition of the entertainer she meant to become. Adéla later told [The Line of Best Fit in 2025](https://www.thelineofbestfit.com/features/interviews/adela-writing-destiny-her-own-terms) that the previous year had stripped away her identity. A document gave her somewhere to start assembling one.
 

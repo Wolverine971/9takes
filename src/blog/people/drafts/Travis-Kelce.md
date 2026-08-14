@@ -11,9 +11,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '7'
-type: ['celebrity', 'creator']
+type: ['celebrity', 'creator', 'entrepreneur', 'athlete', 'celebrity-image', 'business-creator']
 person: 'Travis-Kelce'
-suggestions: ['Taylor-Swift', 'Kevin-Hart', 'Conor-McGregor', 'Bad-Bunny']
+suggestions: ['Taylor-Swift', 'Kevin-Hart', 'David-Beckham', 'Caitlin-Clark']
 wikipedia: 'https://en.wikipedia.org/wiki/Travis_Kelce'
 wikidata_qid: 'Q7836292'
 imdb_id: 'nm7907935'

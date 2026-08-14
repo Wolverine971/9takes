@@ -6,7 +6,7 @@ persona_title: "Pop's Strategic Alchemist"
 author: 'DJ Wayne'
 date: '2023-07-29'
 loc: 'https://9takes.com/personality-analysis/taylor-swift'
-lastmod: '2026-02-18'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.8'
 published: true
@@ -14,7 +14,7 @@ enneagram: 3
 type: ['musician', 'entrepreneur', 'pop-star', 'business-operator']
 person: 'taylor-swift'
 suggestions:
-  ['Kim-Kardashian', 'Ariana-Grande', 'Sabrina-Carpenter', 'Olivia-Rodrigo', 'Tom-Cruise']
+  ['Travis-Kelce', 'Kim-Kardashian', 'Ariana-Grande', 'Sabrina-Carpenter', 'Olivia-Rodrigo']
 wikipedia: 'https://en.wikipedia.org/wiki/Taylor_Swift'
 wikidata_qid: 'Q26876'
 imdb_id: 'nm2357847'
@@ -116,7 +116,7 @@ Type 3s navigate careers [strategically](/enneagram-corner/enneagram-types-and-c
 
 <li><b>Business Instincts:</b> Forced Apple Music to change payment policies with one open letter. Turned the Eras Tour into an economic event that moved Federal Reserve metrics.</li>
 
-<li><b>Current Integration:</b> Engaged to Travis Kelce. Youngest woman in Songwriters Hall of Fame. Released a happy album and refused to apologize when critics wanted more tortured poetry.</li>
+<li><b>Current Integration:</b> Married to <a href="/personality-analysis/travis-kelce">Travis Kelce</a>. Youngest woman in Songwriters Hall of Fame. Released a happy album and refused to apologize when critics wanted more tortured poetry.</li>
 </ul>
 </div>
 </details>
@@ -318,7 +318,7 @@ For someone who has historically controlled every public moment, this casualness
 
 The engagement announcement ("Your English teacher and your gym teacher are getting married") got 14 million likes in its first hour.
 
-As of January 2026, wedding plans wait while Travis decides his NFL future. Old Swift might have pushed for the perfect wedding on the perfect timeline. Current Swift is letting him take his time.
+They married at Madison Square Garden on July 3, 2026, after the wedding plans had waited on Travis's NFL decision ([Associated Press](https://apnews.com/article/09fe20408ed795a47aeb600cc4adf2e8)). Old Swift might have pushed for the perfect wedding on the perfect timeline. This version let the relationship unfold on a shared one.
 
 ## Why Happiness Confused Everyone
 
@@ -394,7 +394,7 @@ Swift's current phase shows this:
 
 **Authenticity over image.** She's publicly happy despite critics finding it "less interesting." Private texts leaked showing unfiltered opinions. She's letting people see the person, not just the performer.
 
-**Commitment beyond career.** The engagement to Travis. Waiting on his NFL timeline rather than pushing for the perfect wedding.
+**Commitment beyond career.** The marriage to Travis. Letting the relationship unfold on a shared timeline rather than pushing for the perfect wedding.
 
 **Connection without performance.** Football games in the stands. Casual podcast conversations. Letting herself be seen rather than staging every appearance.
 
@@ -455,4 +455,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Engage one named human Showgirl critic by name and argument rather than framing critical reception as "expectations for female artists" — that's the corpus-tic of preferring institutional/cultural critics over named ones.
 
 ============================================================ -->
-

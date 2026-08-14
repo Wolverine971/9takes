@@ -11,9 +11,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: false
 enneagram: 3
-type: ['celebrity', 'athlete']
+type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'michael-jordan'
-suggestions: ['Michael-B-Jordan', 'Cristiano-Ronaldo', 'Caitlin-Clark', 'David-Beckham']
+suggestions: ['Caitlin-Clark', 'David-Beckham', 'Cristiano-Ronaldo', 'Travis-Kelce']
 wikipedia: 'https://en.wikipedia.org/wiki/Michael_Jordan'
 production_pretext:
   status: draft

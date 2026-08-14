@@ -11,9 +11,9 @@ changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '3'
-type: ['celebrity', 'entrepreneur']
+type: ['celebrity', 'entrepreneur', 'athlete', 'celebrity-image', 'business-operator']
 person: 'David-Beckham'
-suggestions: ['Cristiano-Ronaldo', 'Lionel-Messi', 'Taylor-Swift', 'Kim-Kardashian']
+suggestions: ['Cristiano-Ronaldo', 'Lionel-Messi', 'Travis-Kelce', 'Caitlin-Clark']
 wikipedia: 'https://en.wikipedia.org/wiki/David_Beckham'
 wikidata_qid: 'Q10520'
 imdb_id: 'nm0065743'

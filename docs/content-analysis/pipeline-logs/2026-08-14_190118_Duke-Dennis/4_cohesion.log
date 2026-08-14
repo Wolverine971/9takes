@@ -1,0 +1,52 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Duke-Dennis.md`
+
+**Before score: 7.5/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Duke Dennis is a Type 8 whose entire adult life is a sequence of walking out of arrangements other people set for him — the Army, the factory, and now every label the internet writes on his face.
+
+### Thread Map
+
+| Section | Contributes | Links to thesis |
+|---|---|---|
+| Intro (factory walk-out) | Two walks, one pattern | Establishes the walk |
+| What is Duke Dennis's personality type? | Type 8 diagnosis, "I don't like being told what to do" ×3 | Names the pattern |
+| Why the Army is his biggest regret | The arrangement he volunteered for and could not leave | The exception that stresses the thesis |
+| Empire on a borrowed email | Walked off the factory floor, sets his own flagship bar | Control regained |
+| Why AMP will never add a seventh | The one room he built and sealed | Inverts the pattern |
+| Why he hates the word rizz | A label handed to him daily = a shift bell | The thesis at present tense |
+| Professor Dennis's syllabus | Refuses labels, accepts rank; gives the map away | Authority on his own terms |
+| What stress does to him | Germany: what happens with no exit; then security as provision | Stress/security direction |
+| The name he never asked about | A definition is instructions for what to be | Closes the ring |
+
+The thread is genuinely strong. Nearly all the damage was at the seams, not in the argument.
+
+### Changes Made (8 total)
+
+**Transition Fixes (6):**
+- **Diagnosis → Army**: added `The arrangement he hates most, he volunteered for.` The section previously opened cold on a birth date after a counter-typing note.
+- **Empire → AMP**: added `Every room he has walked out of, somebody else arranged. This one he helped build.` This was the worst seam — solo physique to co-founding a crew with no stated logical step. It's also the piece's key inversion, which was previously left implicit.
+- **AMP → Rizz**: added `A ranking he can argue with. The word the internet actually files him under came out of his own house.` Carries Rolling Stone forward and hands off to Kai.
+- **Rizz → Professor**: added `One title he accepted.` The paragraph's own payoff line ("the man who refuses every label...") now has a setup instead of arriving late.
+- **Professor → Stress**: rewrote the topic sentence to `Every story so far ends with him walking out. Germany is where you see what pressure does to him when walking isn't on the table.` Carries the "walk" keyword from the intro and states the actual logical step.
+- **Stress → Closer**: added `The name he answers to was a gift too.` Bridges "Some tributes he accepts" into the aunt.
+
+**Internal Flow Fixes (1):**
+- Stress section: `Security shows just as clearly` was a false parallel — it pointed back at a stress discussion two paragraphs earlier, while the India Love / first-interview paragraph had already turned toward security. Replaced with `That open door is what safety looks like on him, and safety in Duke shows up as provision.`
+
+**Missing Setup (1):**
+- Rizz section: "Unc" and "the 1987 punchlines" were used before either was explained (the closer explains them ~40 lines later). Changed to `the aging jokes aimed at the oldest man in the house, the "Unc" of it all` — a non-fandom reader can now follow it, and the closer's reveal isn't spoiled.
+
+### What Was Preserved
+- All frontmatter, FAQs, anchors, ledgers, and working-notes comments
+- All Svelte/HTML blocks (TL;DR details, inner-thought, source-card, pull-quote, Rabbit Hole)
+- All internal links and all verbatim quotes
+- Em-dash count unchanged at 2 (epigraph attribution + an HTML comment; both lint-exempt and untouched)
+- 2 transitions already strong and left alone: Intro → Diagnosis, and Army → Empire ("The career started inside the contract" is the best bridge in the piece)
+
+### Remaining Concerns (your judgment, not fixed)
+
+1. **"What stress does to Duke Dennis" is over-loaded.** It carries Germany, the interview drought, the first interview, India Love, the mother's house, turning 30, the Germany return, and the Dee shirt. The internal pivot now reads cleanly, but more than half the section sits on the security side of a stress-titled H2. Options: rename the H2 (it is *not* an FAQ anchor, so nothing breaks), or split the security material into its own section. I didn't do either — both change structure beyond bridging.
+2. **"DeeBlock" vs "D-Block"** in the Army section: the narration spells it one way, his quote one sentence later the other. Copy fix, not cohesion, and I won't touch a quote.
+3. **Two setups pay off far downstream** and I left them as-is because they do land: "Germany deserves its own section" resolves five sections later, and "the fuller pressure test waits in the Rabbit Hole" resolves in the collapsed block. Both are deliberate; neither is orphaned.

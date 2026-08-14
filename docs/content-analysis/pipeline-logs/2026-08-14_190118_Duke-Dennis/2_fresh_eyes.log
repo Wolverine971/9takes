@@ -1,0 +1,17 @@
+Article body untouched (all 8 H2s, 4,164 words); only the review comment changed.
+
+## Reviewed: `src/blog/people/drafts/Duke-Dennis.md`
+
+Fresh-eyes notes added at the bottom as `FRESH EYES REVIEW (2026-08-14, entity-gap pass)`, replacing the stale 2026-08-07 block (whose items were already resolved by the second/editor/revision passes, which I left in place). I read it against the entity-gap packet as a reader-intent check, and made no body edits.
+
+**The two biggest issues:**
+
+1. **A factual claim the packet now contradicts.** The draft says Union Square was "the only legal mark on his first decade of fame." The packet documents a real August 2025 San Antonio mall incident (criminal trespassing, evading arrest) — his career starts in 2017, so that falls inside the same decade. This was logged as open `RQ-02` at the last pass, and the packet closes it against the draft. The fix is to drop the superlative, *not* to add the San Antonio material — the packet explicitly calls loose characterization there a legal-risk repeat of the Tobey incident.
+
+2. **The opening never says what he does.** A reader arriving from "Duke Dennis real name" gets a factory floor, "the smoothest presence in streaming," a ranking, then the rizz thesis. YouTuber, Twitch, AMP, and NBA 2K don't appear until section 3, and AMP only shows up earlier inside a collapsed TL;DR. This is the packet's single named pre-publish gap, and the page-one footballer name collision makes it cost more than usual.
+
+Also worth your attention before publish: the draft states a sibling count ("two younger brothers"), which is on the packet's never-assert list because the farm sources contradict each other — only the 2019 Darius video is corroborated. And there's still no age/birthday FAQ; the only birth year in the body is a meme correction in the final paragraph.
+
+The best unclaimed detail I found: per the packet, Duke was *faculty* at Streamer University 2026 while the rest of AMP enrolled as *students*. The oldest member — the one who says the crew's rule out loud — spent that week grading his own crew. Worth verifying against the Sportskeeda roster before anyone writes it in.
+
+I flagged the factory cold open, the aunt/name close, "His mother's sentence outlasted his own," the shift-bell empathy turn, and the gossip discipline as protected — that last one especially, so a later pass doesn't "helpfully" add a net worth or a girlfriend name.
