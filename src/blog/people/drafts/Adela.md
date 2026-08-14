@@ -4,12 +4,12 @@ meta_title: 'Adela (ADÉLA) Enneagram Type 3 Analysis'
 persona_title: 'The Pop Star Who Wrote Herself Back Into Focus'
 description: 'Why did Adéla answer public rejection with a mission statement? A Type 3w4 analysis of the ambition, sensitivity, and fierce discipline behind ADÉLA.'
 author: 'DJ Wayne'
-date: '2026-08-12'
+date: '2026-08-14'
 loc: 'https://9takes.com/personality-analysis/adela'
-lastmod: '2026-08-12'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['musician', 'dancer']
 person: 'adela'

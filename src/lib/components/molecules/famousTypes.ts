@@ -75,6 +75,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	3: [
 		{ name: 'adam-neumann', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Capital\'s Barefoot Prophet', contentGrade: 9, types: ['entrepreneur', 'techie', 'business-operator'] },
 		{ name: 'addison-rae', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Pop\'s Comeback Engineer', contentGrade: 8.5, types: ['creator', 'musician', 'tiktoker', 'lifestyle-builder', 'music-crossover'] },
+		{ name: 'adela', link: true, hasImage: true, lastmod: '2026-08-14', personaTitle: 'The Pop Star Who Wrote Herself Back Into Focus', contentGrade: 8.8, types: ['musician', 'dancer'] },
 		{ name: 'adin-ross', link: true, hasImage: true, lastmod: '2026-01-29', personaTitle: 'Streaming\'s Chaos Agent', contentGrade: 8.7, types: ['creator', 'streamer'] },
 		{ name: 'alex-hormozi', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Acquisition Architect', contentGrade: 9.2, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'alex-warren', link: true, hasImage: true, lastmod: '2026-07-27', personaTitle: 'Pop\'s Reassurance Machine', contentGrade: 8.9, types: ['musician', 'creator'] },
@@ -185,7 +186,6 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'will-smith', link: true, hasImage: true, lastmod: '2026-04-09', personaTitle: 'Hollywood\'s Manufactured Hero', contentGrade: 9, types: ['movieStar', 'musician', 'screen-icon'] },
 		{ name: 'xochitl-gomez', link: false, hasImage: true, lastmod: '2026-07-12', personaTitle: 'Hollywood\'s Rehearsed Sunshine', contentGrade: 8.4, types: ['newMovieStar', 'rising-star'] },
 		{ name: 'zara-larsson', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Pop\'s Unfiltered Achiever', contentGrade: 8.6, types: ['musician'] },
-		{ name: 'adela', link: false, hasImage: false, lastmod: '2026-08-12', personaTitle: 'The Pop Star Who Wrote Herself Back Into Focus', contentGrade: 8.8, types: ['musician', 'dancer'] },
 		{ name: 'dalton-cadwell', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['techie'] },
 		{ name: 'mel-robbins', link: false, hasImage: false, lastmod: '2026-08-12', personaTitle: 'Self-Help\'s Rock-Bottom Star', contentGrade: null, types: ['author', 'creator', 'entrepreneur'] }
 	],
