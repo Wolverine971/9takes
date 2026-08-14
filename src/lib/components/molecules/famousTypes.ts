@@ -187,7 +187,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'xochitl-gomez', link: false, hasImage: true, lastmod: '2026-07-12', personaTitle: 'Hollywood\'s Rehearsed Sunshine', contentGrade: 8.4, types: ['newMovieStar', 'rising-star'] },
 		{ name: 'zara-larsson', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Pop\'s Unfiltered Achiever', contentGrade: 8.6, types: ['musician'] },
 		{ name: 'dalton-cadwell', link: false, hasImage: false, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['techie'] },
-		{ name: 'mel-robbins', link: false, hasImage: false, lastmod: '2026-08-12', personaTitle: 'Self-Help\'s Rock-Bottom Star', contentGrade: null, types: ['author', 'creator', 'entrepreneur'] }
+		{ name: 'mel-robbins', link: false, hasImage: false, lastmod: '2026-08-12', personaTitle: 'Self-Help\'s Rock-Bottom Star', contentGrade: null, types: ['author', 'creator', 'entrepreneur'] },
+		{ name: 'michael-jordan', link: false, hasImage: false, lastmod: '2026-08-14', personaTitle: 'Basketball\'s Grievance Machine', contentGrade: null, types: ['celebrity', 'athlete'] }
 	],
 	4: [
 		{ name: 'adam-driver', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },

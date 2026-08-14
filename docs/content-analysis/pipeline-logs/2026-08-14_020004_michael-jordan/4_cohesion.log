@@ -1,0 +1,40 @@
+## Cohesion Check Complete: Michael-Jordan.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+Michael Jordan is an Enneagram Type 3 whose worth exists only while it's being proven in front of witnesses, which is why the most decorated winner in sports history spent five decades manufacturing doubters (some real, some invented) and still can't walk past a scoreboard.
+
+### Thread Map
+Cold open (2025 free throw nerves) → diagnosis (invented LaBradford insult as the engine, 3-vs-8 tiebreaker) → origin (the 1978 list) → mechanism (grievance ledger table, where truth was never the input) → the ledger read aloud (2009 HOF speech) → the machine at daily scale (teammates) → the one scoreboard he can't check (Father's Day 1996) → collapse without a scoreboard (gambling, 7-59 Bobcats) → the fuel at 63 with a growth turn (NASCAR, NBC) → return to the free throw and the list. Every section serves the thesis; the ending lands the exact argument the intro opened. No orphaned threads — the Crying Jordan meme, the "Republicans buy sneakers" line, and the NBC job all get picked back up (the NBC paragraph even quietly sets up the closing Tirico scene).
+
+| Check                  | Score | Issues |
+|------------------------|-------|--------|
+| Through-Line Clarity   | 9/10  | 0      |
+| Promise-Delivery Match | 9/10  | 0      |
+| Reader Mental Model    | 8/10  | 2 cold jumps |
+| Section Transitions    | 7/10  | 3 weak boundaries |
+| Internal Paragraph Flow| 8/10  | 1 suspended setup |
+
+### Changes Made (4 total, ~35 words)
+
+**Transition Fixes (3):**
+- Diagnosis → Childhood: the section ended on the 2020 George Floyd pledge, then jumped cold to "born in Brooklyn in 1963." Added "An engine like that gets built somewhere." — carries the diagnosis section's engine keyword across the 2020-to-1963 jump.
+- HOF speech → Teammate: ended on the Kobe memorial, then jumped to locker-room testimony. Added "The meter ran hottest at practice." — carries "the meter that tracks how he is seen never switched off" from the previous paragraph.
+- Scoreboards → NASCAR: the Bobcats passage ends on "the only lever he ever trusted, himself," then NASCAR opened cold on a date. Added "One lever still worked. He could pick the fight himself." — mirrors that closing line and frames the lawsuit as the machine finding its next fight, which the section then complicates.
+
+**Internal Flow Fixes (1):**
+- Charlotte paragraph: topic sentence promised Charlotte, then detoured through Washington/Pollin for three sentences. Extended it to "…and it started with a firing." so the reader knows the Wizards material is the road there.
+
+Also appended a COHESION PASS note to the file's working-notes trail, matching the FRESH EYES / SECOND PASS convention.
+
+### What Was Preserved
+- All frontmatter, ledger comments, accordions, the inner-thought beat, and internal links
+- The entity-disambiguation paragraph (protected per the gap packet) and the ending's last two sentences (protected per fresh-eyes)
+- Two boundaries left alone on purpose: Teammate → Father's Day (the divider plus the section heading do the bridging) and Father's Day → Scoreboards (the paired "scoreboard turned off" / "ran out of scoreboards" headings thread it)
+
+Lint confirms the additions are clean: 0 fail, same 2 pre-existing warns (no faqs frontmatter yet; body now 4,231 of 4,500 words).
+
+### Remaining Concerns
+None structural. The only watch-item is word-count headroom: this pass spent ~35 of the ~300 words left under the ceiling, so the next refresh pass should trim before it adds.

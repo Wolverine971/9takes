@@ -1,0 +1,104 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — michael-jordan (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Michael-Jordan.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 46
+Comparison set (last 8 other Type-3 drafts by date):
+  - adela  (2026-08-14, 20 units)
+  - David-Beckham  (2026-08-12, 36 units)
+  - Mel-Robbins  (2026-08-12, 32 units)
+  - chase-infiniti  (2026-08-11, 48 units)
+  - Tate-McRae  (2026-08-04, 34 units)
+  - stable-ronaldo  (2026-08-02, 49 units)
+  - Brooke-Monk  (2026-07-31, 40 units)
+  - KSI  (2026-07-31, 38 units)
+
+Noise floor over 13662 unit pairs:  median=0  p90=0  p99=0.006  max=1
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 1.000   michael-jordan  <->  chase-infiniti
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] Chase Infiniti is an Enneagram Type 3
+
+score 1.000   michael-jordan  <->  Tate-McRae
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] Tate McRae is an Enneagram Type 3
+
+score 1.000   michael-jordan  <->  stable-ronaldo
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] Stable Ronaldo is an Enneagram Type 3
+
+score 0.234   michael-jordan  <->  chase-infiniti
+   TARGET [counter-typing] the type does not explain everything.
+   OTHER  [counter-typing] which is the one behavior the type does not account for.
+
+score 0.052   michael-jordan  <->  Brooke-Monk
+   TARGET [diagnosis] he and Jordan Brand pledged $100 million over ten years to racial-justice organizations
+   OTHER  [counter-typing] Protecting audience trust is both the ethical move and the profitable one over ten years
+
+
+Most similar drafts (max unit-pair score):
+  1.000 ######################################## chase-infiniti
+  1.000 ######################################## Tate-McRae
+  1.000 ######################################## stable-ronaldo
+  0.063 ###                  KSI
+  0.059 ##                   David-Beckham
+  0.052 ##                   Brooke-Monk
+  0.039 ##                   adela
+  0.014 #                    Mel-Robbins
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 1.000   michael-jordan  <->  chase-infiniti
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] Chase Infiniti is an Enneagram Type 3
+
+score 1.000   michael-jordan  <->  Tate-McRae
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] Tate McRae is an Enneagram Type 3
+
+score 1.000   michael-jordan  <->  stable-ronaldo
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] Stable Ronaldo is an Enneagram Type 3
+
+score 0.234   michael-jordan  <->  chase-infiniti
+   TARGET [counter-typing] the type does not explain everything.
+   OTHER  [counter-typing] which is the one behavior the type does not account for.
+
+score 0.088   michael-jordan  <->  chase-infiniti
+   TARGET [diagnosis] the type whose worth exists only while it is being proven in front of witnesses.
+   OTHER  [diagnosis] in front of a new peer group
+
+score 0.073   michael-jordan  <->  chase-infiniti
+   TARGET [counter-typing] from the 1978 roster he kept re-reading to the 2025 free throw that made him shake in front of grandkids.
+   OTHER  [diagnosis] in front of a new peer group
+
+score 0.063   michael-jordan  <->  KSI
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] That sentence is an Enneagram Type 3 describing his own operating system with unusual honesty.
+
+score 0.059   michael-jordan  <->  David-Beckham
+   TARGET [counter-typing] and Jordan's has been crowd-issued for as long as the record runs
+   OTHER  [counter-typing] precision and Beckham's statement that everything must be perfect.
+
+score 0.052   michael-jordan  <->  Brooke-Monk
+   TARGET [diagnosis] he and Jordan Brand pledged $100 million over ten years to racial-justice organizations
+   OTHER  [counter-typing] Protecting audience trust is both the ethical move and the profitable one over ten years
+
+score 0.039   michael-jordan  <->  adela
+   TARGET [diagnosis] Michael Jordan is an Enneagram Type 3
+   OTHER  [diagnosis] Adéla appears to be an Enneagram Type 3
+
+score 0.037   michael-jordan  <->  David-Beckham
+   TARGET [counter-typing] honoring his murdered father's first dream
+   OTHER  [diagnosis] a quiet child adopts a father's plan
+
+score 0.032   michael-jordan  <->  KSI
+   TARGET [diagnosis] The popular counter-read types him an Eight
+   OTHER  [diagnosis] An Eight goes to war with the referee.
+
+------------------------------------------------------------------------------
+Top pair scores 1 vs median 0  (~∞x the noise floor).

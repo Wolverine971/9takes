@@ -48,6 +48,7 @@
 	import AuthorBio from '$lib/components/blog/AuthorBio.svelte';
 	import ArticleSources from '$lib/components/blog/ArticleSources.svelte';
 	import EvidenceFigure from '$lib/components/blog/EvidenceFigure.svelte';
+	import DJReadCard from '$lib/components/blog/DJReadCard.svelte';
 	import FAQSection from '$lib/components/blog/FAQSection.svelte';
 
 	export let data: PageData;
@@ -160,7 +161,8 @@
 		{ tag: 'PopCard', component: PopCard },
 		{ tag: 'BlogPurpose', component: BlogPurpose as Component<Record<string, any>> },
 		{ tag: 'QuickAnswer', component: QuickAnswer },
-		{ tag: 'EvidenceFigure', component: EvidenceFigure as Component<Record<string, any>> }
+		{ tag: 'EvidenceFigure', component: EvidenceFigure as Component<Record<string, any>> },
+		{ tag: 'DJReadCard', component: DJReadCard as Component<Record<string, any>> }
 	];
 	const mountedPlaceholders = new Map<string, ReturnType<typeof mount>>();
 

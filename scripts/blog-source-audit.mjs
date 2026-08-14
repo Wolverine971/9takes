@@ -342,6 +342,13 @@ const OUTLETS = [
 	// matter how precisely it was cited. Unambiguous all-caps acronym, same
 	// class as NPR / BBC / CNN already listed.
 	'ESPN',
+	// Broadcast primary record (Michael-Jordan pass, 2026-08-14). NBC's
+	// "MJ: Insights to Excellence" segments (Tirico, Oct 2025 onward) are this
+	// subject's only current long-form testimony — the free-throw story and the
+	// "magic pill" quote live nowhere else — so without an entry every quote
+	// from them grades vague/untagged no matter how precisely it is cited.
+	// Unambiguous all-caps acronym, same class as NPR / BBC / CNN / ESPN.
+	'NBC',
 	// Legacy-TV primary record (Noah-Wyle pass, 2026-08-09). Television Academy is
 	// the Academy's own editorial arm (emmy magazine) and holds this subject's
 	// volunteer-email recounting — same class as GRAMMY.com above. Gold Derby runs

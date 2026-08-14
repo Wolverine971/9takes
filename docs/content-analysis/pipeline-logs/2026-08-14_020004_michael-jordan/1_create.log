@@ -1,0 +1,31 @@
+Done. The Michael Jordan draft is written, gated, and saved.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Michael-Jordan.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (5 qualifying testimony quotes: Kerr, Perdue, Wojnarowski, Bird, Vancil)
+       Gate 2: pass (7 of 9 H2s search-intent/hybrid)
+       Gate 4: pass (zero "A [Type]" sentences in the ending; no reference-library cadence)
+       Gate 5: pass (1 type-theory paragraph outside diagnosis + Rabbit Hole)
+       Gate 6: pass (0 strong contrast pairs; similarity scan trips only on the mandated
+               identical H3; bespoke grievance-ledger section; Woj critic anchor; empathy
+               turn; 2025-26 current anchors; interior beat; ending passes swap test)
+LIMITATIONS: Jordan has no long-form podcast corpus, so primary voice comes from the 2009
+       HOF speech + NBC 2025-26 segments (both transcripts fetched and saved), The Last
+       Dance, and 60 Minutes 2005. Internal-lens pass: Type 3 pillar + connecting-lines
+       read in full, three other posts via targeted Type 3 extracts.
+```
+
+**The piece.** Typed **Enneagram 3** (engaging the external 3w4 consensus, with the Type 8 counter-case pressure-tested in the diagnosis and fully argued in the Rabbit Hole). The organizing thesis follows the entity-gap packet: earned greatness vs. manufactured grievance, with the aha that the Type 3's classic blind spot (deceit, the stories you tell yourself) is literally how Jordan fueled himself — he invented the LaBradford Smith insult and confessed it. The hook is new material: the 2025 NBC transcript where one backyard free throw for a stranger's grandkids made him "the most nervous I've been in years." The bespoke section is a grievance-ledger table (1978–2026) whose point is that the middle column — whether the slight was real — never changed the output. Ending cuts to black on the 1978 varsity list.
+
+**Packet compliance.** Personality-intent titles only (`meta_title: "Michael Jordan's Personality Type: Why He Invented Enemies"`, 58 chars, head-term check passes — no `head_term_exception` needed); entity locked to the athlete in the opening with a cross-link to the actor; biography facts appear only as evidence; the gambling-suspension conspiracy, clinical language, tabloid marriage material, and static net-worth numbers are all excluded.
+
+**Internal links (5):** the actor → `/personality-analysis/michael-b-jordan` · Type 3 explainer → `/enneagram-corner/enneagram-type-3` · stress patterns → `/enneagram-corner/enneagram-types-in-stress` · wings + subtypes guides inside the Rabbit Hole.
+
+**Artifacts also created:** durable research file at `docs/content-analysis/research/Michael-Jordan.md`, plus two transcript files in `youtube-transcripts/` (2009 HOF speech; NBC "MJ: Insights to Excellence" segments).
+
+**Deterministic checks:** blog-lint 0 fail / 1 warn (missing `faqs` — that's the downstream frontmatter-enrich stage); quality report: 0 contrast pairs, head-term pass, 52-word answer block; body 3,649 words; Rabbit Hole 484 words.
+
+**Follow-ups for later stages:** (1) the packet requires a *reciprocal* "looking for the athlete?" link on the published Michael B. Jordan page — that's a production/refresh task outside this command's scope; (2) `/grade_blog` owns the numeric grade; (3) frontmatter enrich will clear the faqs warning.

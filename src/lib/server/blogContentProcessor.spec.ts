@@ -115,4 +115,19 @@ Closing copy.`);
 		expect(result.content).toContain('CC BY-SA 3.0');
 		expect(result.content).toContain('resized, converted to WebP');
 	});
+
+	it("renders DJ's structured personality read before client mounting", async () => {
+		const result = await processBlogContent('<DJReadCard readId="elon-musk" />');
+
+		expect(result.placeholders[0]).toEqual({
+			id: 'component-djreadcard-0',
+			type: 'DJReadCard',
+			props: { readId: 'elon-musk' }
+		});
+		expect(result.content).toContain('data-dj-read-id="elon-musk"');
+		expect(result.content).toContain("DJ'S READ");
+		expect(result.content).toContain('Type 5w6');
+		expect(result.content).toContain('He makes uncertainty specific');
+		expect(result.content).toContain('See the evidence and full reasoning');
+	});
 });

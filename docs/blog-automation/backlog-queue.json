@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-13T06:00:00Z",
+	"lastUpdated": "2026-08-14T07:24:48Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "michael-jordan",
-			"displayName": "Michael Jordan",
-			"type": null,
-			"priority": 57,
-			"priorityReason": "Evergreen GOAT search volume that never decays; site covers Michael B. Jordan but not Michael Jordan — the definition of conspicuously missing",
-			"estimatedTraffic": "very-high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "sports-icon-cluster"
-		},
 		{
 			"name": "tyla",
 			"displayName": "Tyla",
@@ -255,6 +242,50 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "michael-jordan",
+			"displayName": "Michael Jordan",
+			"type": null,
+			"priority": 57,
+			"priorityReason": "Evergreen GOAT search volume that never decays; site covers Michael B. Jordan but not Michael Jordan — the definition of conspicuously missing",
+			"estimatedTraffic": "very-high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "sports-icon-cluster",
+			"startedAt": "2026-08-14T06:00:00Z",
+			"completedAt": "2026-08-14T07:24:48Z",
+			"contentGrade": "ungraded",
+			"letter": "?",
+			"discoverability": "?",
+			"duration": "~84 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": [
+				"missing_content_quality",
+				"missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume",
+				"missing_full_image",
+				"missing_thumbnail_image"
+			]
+		},
+		{
+			"name": "carl-jung",
+			"displayName": "Carl Jung",
+			"type": null,
+			"priority": 59,
+			"priorityReason": "The personality-psychology adjacency play: evergreen search, natural internal-link hub between people blogs and the Enneagram corpus",
+			"estimatedTraffic": "high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "psychology-hub-cluster",
+			"startedAt": "2026-08-13T06:00:00Z",
+			"completedAt": "2026-08-14T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "mel-robbins",
 			"displayName": "Mel Robbins",
@@ -1569,20 +1600,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "carl-jung",
-		"displayName": "Carl Jung",
-		"type": null,
-		"priority": 59,
-		"priorityReason": "The personality-psychology adjacency play: evergreen search, natural internal-link hub between people blogs and the Enneagram corpus",
-		"estimatedTraffic": "high",
-		"searchVolume": "very-high",
-		"personaTitle": null,
-		"addedToQueue": "2026-07-18",
-		"retryCount": 0,
-		"strategicValue": "psychology-hub-cluster",
-		"startedAt": "2026-08-13T06:00:00Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "jynxzi",

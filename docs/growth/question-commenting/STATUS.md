@@ -2,7 +2,7 @@
 
 # Workstream Status
 
-Last updated: 2026-08-13
+Last updated: 2026-08-14
 
 | ID    | State                            | Owner      | Next gate                                                                       |
 | ----- | -------------------------------- | ---------- | ------------------------------------------------------------------------------- |
@@ -15,6 +15,14 @@ Last updated: 2026-08-13
 | QC-07 | Waiting for mature baseline      | Unassigned | Collect one stable week of canonical production events                          |
 
 ## Decision log
+
+### 2026-08-14
+
+- Reconciled the first follow-up window in [`06-POST-DEPLOY-FOLLOW-UP-2026-08-14.md`](./06-POST-DEPLOY-FOLLOW-UP-2026-08-14.md). Cumulative qualified impressions increased from 40 to 102, but the gain remains concentrated: one non-bot visitor produced 44 of the 53 post-deployment human questions-index impressions.
+- Confirmed zero new production questions, comments, reply subscriptions, notification rows, feature runs, or durable run impressions. PostHog's missing comment and reply events match the database rather than indicating an ingestion failure.
+- Confirmed that `9takes.com` still serves ready commit `9aa6e63`. The attempted `f31661a` deployment failed its protected portrait budget before building, so its application changes are not live.
+- Local `main` subsequently advanced to `998d5196`, adding the Adela portrait and the complete 1,114-file portrait baseline. The current commit passes both budget gates and the Vite production build.
+- Confirmed 16 production migrations through `20260813213000_quarantine_failed_question_rewrites`. The database editorial reset is live and leaves 53 questions eligible for public browse; treat this as a fresh distribution boundary before selecting the first manual feature run.
 
 ### 2026-08-13
 

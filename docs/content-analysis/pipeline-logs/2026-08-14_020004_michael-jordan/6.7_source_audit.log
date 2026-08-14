@@ -1,0 +1,41 @@
+========================================================================
+LOAD-BEARING SOURCE AUDIT — michael-jordan  (Type 3)
+src/blog/people/drafts/Michael-Jordan.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "The game of basketball has been everything to me. My refuge. The place I've always gone when I needed to find comfort and peace."
+             outlet="Hall of Fame induction speech"  year=2009  venue="speech"
+
+### COLD OPEN
+  [INLINE  ] "It's the most nervous I've been in years."
+             outlet="NBC"  year=2025
+  [INLINE  ] "Those kids heard the stories from the parents about what I did 30 years ago, … So their expectation is 30 years prior, and I haven't touched a basketball."
+             outlet="NBC"  year=2025
+
+### DIAGNOSIS
+  [INLINE  ] "I wish I could take a magic pill, put on shorts and go out and play the game of basketball today, because that's who I am. That type of competition, that type of competitiveness is what I live for."
+             outlet="NBC"  year=1978
+  [INLINE  ] "Nice game, Mike."
+             outlet="CBS"  year=1993
+  [INLINE  ] "I didn't see Jordan after the game,"
+             outlet="ESPN"  year=1993
+  [INLINE  ] "and I took that personally,"
+             outlet="ESPN"  year=2020
+  [INLINE  ] "Republicans buy sneakers, too."
+             outlet="ESPN"  year=2020
+  [INLINE  ] "Black lives matter. This isn't a controversial statement"
+             outlet="Forbes"  year=2020  venue="statement"
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  [VAGUE   ] "One day you might look up and see me playing the game at 50, … Oh, don't laugh."
+             year=2009  venue="speech"
+
+------------------------------------------------------------------------
+SUMMARY: 10 load-bearing quote(s) — 9 inline, 1 vague, 0 untagged
+  untagged quote in epigraph OR cold open: no
+  any untagged load-bearing quote:         no
+------------------------------------------------------------------------

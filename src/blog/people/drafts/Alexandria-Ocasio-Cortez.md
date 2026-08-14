@@ -1,18 +1,30 @@
 ---
-title: 'Alexandria Ocasio-Cortez: The Insurgent Who Turns Fear Into Fight'
-meta_title: 'Why AOC Keeps Picking Fights With Power'
-description: 'Alexandria Ocasio-Cortez turned family instability, political vigilance, and public courage into a career built on confronting power in public.'
+title: 'Alexandria Ocasio-Cortez: Enneagram Type 6 Personality Analysis'
+meta_title: 'Alexandria Ocasio-Cortez: Type 6 Personality'
+description: "Why does Alexandria Ocasio-Cortez keep confronting power? This Enneagram Type 6 analysis follows the family story and vigilance behind AOC's fights."
 persona_title: "Congress's Vigilant Insurgent"
 author: 'DJ Wayne'
 date: '2024-05-06'
 loc: 'https://9takes.com/personality-analysis/alexandria-ocasio-cortez'
-lastmod: '2026-03-27'
+lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 6
 type: ['politician', 'campaign-politician']
 person: 'alexandria-ocasio-cortez'
+production_pretext:
+  status: ready
+  handoff_from: manual_editor
+  reviewed: true
+  ready_for_production: true
+  sync_mode: full
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
+  blockers: []
 suggestions:
   [
     'Ryan-Grim',
@@ -61,12 +73,29 @@ citations:
   - 'https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez'
   - 'https://ocasio-cortez.house.gov/'
   - 'https://www.britannica.com/biography/Alexandria-Ocasio-Cortez'
+  - 'https://time.com/5786180/alexandria-ocasio-cortez-standing-rock/'
+  - 'https://gonetrending.com/2020/11/05/aoc-star-trek-leadership-janeway/'
+  - 'https://www.goodmorningamerica.com/news/story/joke-republicans-lock-horns-medicaid-proposal-121803510'
+  - 'https://energycommerce.house.gov/posts/chairman-guthrie-op-ed-don-t-fall-for-the-lies-about-the-gop-s-plan-for-medicaid-we-re-actually-strengthening-it'
+  - 'https://www.congress.gov/bill/119th-congress/house-bill/3302/all-info'
+  - 'https://www.congress.gov/committee-report/119th-congress/house-report/219/1'
+  - 'https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-introduces-house-version-ai-data-center-moratorium-act'
+  - 'https://www.dsausa.org/statements/status-of-dsa-national-endorsement-for-rep-ocasio-cortez/'
+  - 'https://www.dsausa.org/statements/on-the-iron-dome-vote/'
+  - 'https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-joins-house-members-and-advocates-calling-block-bombs-israel'
+  - 'https://www.cityandstateny.com/politics/2026/04/dsa-forum-aoc-pledges-not-vote-any-military-aid-israel/412544/'
+  - 'https://scholars.unh.edu/survey_center_polls/983/'
+  - 'https://www.bxtimes.com/primary-results-aoc-and-ritchie-torres-reelected/'
+  - 'https://www.axios.com/2025/04/21/aoc-bernie-sanders-progressives-democrats'
+  - 'https://apnews.com/article/ocasiocortez-freezes-eggs-aoc-2028-7c6eb0517ac7ec2151f6822fd444bb0a'
+  - 'https://www.axios.com/2026/08/09/aoc-2028-president-schumer-senate'
+  - 'https://www.thedailybeast.com/alexandria-ocasio-cortez-longtime-romance-ends-in-secret-split/'
 faqs:
   - question: "What is Alexandria Ocasio-Cortez's personality type?"
-    answer: "AOC is an Enneagram Type 6 — the Loyal Skeptic. Type 6s commit deeply to their beliefs, anticipate problems before others see them, and show fierce loyalty to their communities. The core fear — being without support when everything falls apart — doesn't make AOC cautious; it makes her dangerous, because every policy she champions is a safety net thrown wider."
+    answer: "AOC is an Enneagram Type 6, the Loyal Skeptic. Type 6s commit deeply to their beliefs, anticipate problems before others see them, and show fierce loyalty to their communities. The core fear of being unsupported when everything falls apart makes her build safety nets for others."
     anchor: 'what-is-alexandria-ocasio-cortezs-personality-type'
   - question: 'How did AOC get from bartender to Congress?'
-    answer: 'AOC was tending bar at Flats Fix in Union Square when Brand New Congress recruited her to run against ten-term incumbent Joe Crowley. With no money, no establishment backing, and a shoestring volunteer operation, she beat him in the 2018 primary — one of the biggest upsets in modern congressional history — and became the youngest woman ever elected to Congress.'
+    answer: 'AOC was tending bar at Flats Fix in Union Square when Brand New Congress recruited her to run against ten-term incumbent Joe Crowley. With no money, no establishment backing, and a shoestring volunteer operation, she beat him in one of the biggest upsets in modern congressional history and became the youngest woman ever elected to Congress.'
     anchor: 'from-bartender-to-congress'
   - question: 'What did AOC study at Boston University?'
     answer: "At Boston University, Ocasio-Cortez studied international relations and economics and also worked in Senator Ted Kennedy's immigration office. Her father's death from lung cancer pushed her away from a pre-med path and toward public health, economics, and policy."
@@ -83,96 +112,106 @@ content_quality:
   graded_at: '2026-04-20'
 ---
 
-<!-- QUALITY GRADE: A (9.0)
-Hook: 9 | Enneagram: 9 | Evidence: 9 | Writing: 9 | Originality: 9
+<!-- TESTIMONY LEDGER
+1. "I will not yield... to disrespectful men" and the 13.7 million-viewer address: House Energy and Commerce markup, carried by C-SPAN, May 14, 2025.
+2. Standing Rock changed her willingness to take political risks: AOC's 2016 Facebook livestreams, reviewed by TIME in February 2020.
+3. Pelosi's "glass of water," "green dream," and "Twitter world" dismissals: New York Times reporting and Pelosi press remarks, 2019.
+4. "Senior members talk to me... people want to work together": AOC to Ryan Grim for The Squad, reported November 2023.
+5. Presidential and Senate options remain open while her focus stays on the midterms: ABC's This Week, August 9, 2026.
+Research limitation: public behavior supports a motive hypothesis, not a clinical or self-reported Enneagram diagnosis.
+-->
 
-FEEDBACK (2026-04-20):
-- SIGNATURE DETAIL WORKS: Sergio pointing at Captain Janeway, then at his daughter, back and forth — and Kate Mulgrew appearing at her final Bronx rally — is the small-moment callback that makes the whole analysis click. The closing "She seems to remember who was watching" is the piece in one line.
-- STRONG HOOK: The 3AM Weber/miscarriage scene is dated, specific, character-revealing, and it pays off the thesis question ("Why does she keep picking these fights?") inside four paragraphs. Model opening.
-- TYPE LENS EARNS ITS KEEP: "The Three asks: did we win? The Six asks: did we protect anyone?" is the Pelosi section in one line. The counterphobic-6 framing (courage toward danger) explains the pattern rather than labeling it.
-- RESEARCH DEPTH: "The Lost Decade" — NHI, Brook Avenue Press, Flint/Standing Rock road trip — is the connective tissue most profiles skip, and it does structural work.
+<!-- HEADING MIX LEDGER
+Search-intent: personality type; Boston University; Zuckerberg; legislation; 2028 trajectory.
+Signature: lost decade; Pelosi as an authority test; price of public confrontation; Gaza and DSA loyalty fault line.
+The sequence moves biography -> diagnosis -> behavioral tests -> critic pressure -> current trajectory.
+-->
 
-- NEEDS WORK — MINOR REPETITION: The Connolly 131-84 vote appears twice (in "The Fence-Mending" AND "What She's Building Next"). The Met Gala "Tax the Rich" dress appears in the rabbit-hole stress-arrow section AND "Price of This Kind of Fight." Each should live in one place only.
-- NEEDS WORK — RABBIT-HOLE DRAG: The "Counterarguments" subsection in the Enneagram Rabbit Hole is the closest the piece comes to insider baseball. Tighten to 2-3 sentences or cut — the stress/growth and subtype paragraphs already carry the load.
+<!-- DISTRIBUTION LEDGER
+Core type theory is concentrated in the diagnosis and Rabbit Hole. Outside those sections, the lens returns only where it changes the interpretation: private boundaries, preparation, Pelosi, coalition-building, Gaza/DSA, and 2028 de-escalation.
+Wing, subtype, arrows, and counter-typing remain inside the Rabbit Hole.
+-->
 
-TO REACH A+:
-  (1) Cut the Connolly repeat in "The Fence-Mending" — keep it in "What She's Building Next" where it functions as a pivot to her future plans.
-  (2) Collapse the Met Gala mention in the rabbit hole into the "Price of This Kind of Fight" paragraph so the stress-to-3 analysis lives with the actual incident.
-  (3) Trim "Counterarguments: Why AOC Might Not Be Type 6" to one tight paragraph.
-  (4) The TL;DR's Pelosi bullet ("loyalty without testing isn't loyalty") is the weakest of the five — sharpen or replace with a sharper tease (the Janeway pointing would work here).
-  (5) The disclaimer line at the very end blunts the Janeway cut-to-black. Consider moving the disclaimer to a footer or sidebar so the last image on the page is "back and forth."
+<!-- FORMULA FINGERPRINT LEDGER
+Contrast-pair engines: 0 strong / 0 comparative, verified with scripts/blog-quality-report.mjs on 2026-08-14.
+Critic-pressure anchors: House Ethics findings; Republican Medicaid rationale; DSA withdrawal and Iron Dome criticism.
+Empathy turn: fear is treated as the condition under which she acts and prepares, not proof that she lacks courage.
+Current-tense anchor: August 2026 ABC interview, early New Hampshire polling, egg-freezing disclosure, and reporting on the end of her engagement.
+Ending swap-test: pass. The Captain Janeway image is specific to Sergio Ocasio's final communication with his daughter and cannot transfer to another subject.
 -->
 
 <p class="firstLetter">Past 3AM. May 2025. The Energy and Commerce Committee is marking up the Republican tax bill. Most members are half-asleep. Alexandria Ocasio-Cortez leans into her microphone and asks whether women who suffer miscarriages would be exempt from proposed Medicaid work requirements.</p>
 
-Rep. Randy Weber, a Texas Republican on the committee, tells her to stop addressing the camera.
+Rep. Randy Weber, a Texas Republican on the committee, tells her to stop addressing the camera. The exchange is carried live by C-SPAN during the House Energy and Commerce markup on May 14, 2025.
 
-**"I will not yield because it was a terribly disrespectful comment, and I will not yield to disrespectful men."**
+> "I will not yield because it was a terribly disrespectful comment, and I will not yield to disrespectful men." — Alexandria Ocasio-Cortez, House Energy and Commerce markup, C-SPAN, May 14, 2025
 
-She turns directly to the lens: **"There are 13.7 million Americans on the other side of that screen right there... I'm talking to you because I work for you."**
+She turns directly to the lens.
+
+> "There are 13.7 million Americans on the other side of that screen right there... I'm talking to you because I work for you." — Alexandria Ocasio-Cortez, House Energy and Commerce markup, C-SPAN, May 14, 2025
+
+[Republican committee leaders argued](https://energycommerce.house.gov/posts/chairman-guthrie-op-ed-don-t-fall-for-the-lies-about-the-gop-s-plan-for-medicaid-we-re-actually-strengthening-it) that the work rules applied to able-bodied adults without dependents and exempted pregnant people. AOC's question was narrower: what happens after a pregnancy ends? That is what turned a policy dispute into a confrontation.
 
 The question about miscarriages and Medicaid isn't abstract for her. Her family nearly lost their home to medical debt when her father was dying. She knows what it costs to be one bill away from nothing.
 
 Weber apologized the next morning. She accepted.
 
-Why does she keep picking these fights — at 3AM over Medicaid, at noon grilling Zuckerberg over Facebook ads, at midnight daring the administration's top immigration enforcer to come after her?
+Why does she keep picking these fights: at 3AM over Medicaid, at noon grilling Zuckerberg over Facebook ads, before taking office challenging Nancy Pelosi?
 
 <details>
 <summary class="accordion">TL;DR: What the Type 6 Lens Reveals About AOC</summary>
 <div class="panel">
 <ul>
-<li><b>Why her courage runs <em>toward</em> danger, not away:</b> Type 6s can be the countertype — the version who charges what frightens them because standing still costs more.</li>
+<li><b>Why her courage runs <em>toward</em> danger:</b> Type 6s can be the countertype, the version who charges what frightens them because standing still costs more.</li>
 <li><b>The debt that built her policy agenda:</b> What a teenager learned from watching banks circle her dying father's house.</li>
-<li><b>The fight she picked before she was sworn in:</b> Sit-in at Pelosi's office, November 2018, as a congresswoman-elect. Not the warm-up — the thesis.</li>
+<li><b>The fight she picked before she was sworn in:</b> Sit-in at Pelosi's office, November 2018, as a congresswoman-elect. The thesis before the term had even begun.</li>
 <li><b>The ten years most profiles skip:</b> Brook Avenue Press. NHI. Flint and Standing Rock. The decade between bartender and Congress.</li>
-<li><b>What she sees when she looks at Nancy Pelosi:</b> Why loyalty without testing isn't loyalty to a Type 6 — it's obedience.</li>
+<li><b>The captain her father saw in her:</b> Why Sergio Ocasio pointed from Captain Janeway to his daughter, back and forth, when he could no longer speak.</li>
 </ul>
 </div>
 </details>
 
-## What is Alexandria Ocasio-Cortez's Personality Type?
+## What is Alexandria Ocasio-Cortez's personality type?
 
-### The Loyal Skeptic
+### Alexandria Ocasio-Cortez is an Enneagram Type 6
 
-AOC is an [Enneagram Type 6](/enneagram-corner/enneagram-type-6)—"The Loyal Skeptic." Type 6s commit deeply to their beliefs, anticipate problems before others see them, and show fierce loyalty to their communities.
+Alexandria Ocasio-Cortez is an [Enneagram Type 6](/enneagram-corner/enneagram-type-6), the Loyal Skeptic. Type 6s commit deeply to their beliefs, anticipate problems before others see them, and show fierce loyalty to their communities.
 
 But they're also driven by a core fear: being without support when everything falls apart.
 
-That fear doesn't make AOC cautious. It makes her dangerous. Every policy she champions — Medicare for All, the Green New Deal, economic justice — aims to build the safety net her own family never had.
+That fear doesn't make AOC cautious. It makes her dangerous. Every policy she champions, from Medicare for All to the Green New Deal, aims to build the safety net her own family never had.
 
-Most politicians calculate which fights to pick. AOC walks into rooms full of people who could end her career and picks fights anyway — grilling Zuckerberg, calling Musk "unintelligent" on a 92-minute livestream, demanding Trump's impeachment while her own party hedged. The pattern isn't recklessness. It's a survival instinct: neutralize threats before they neutralize you.
+Most politicians calculate which fights to pick. AOC walks into rooms full of people who could end her career and picks fights anyway: grilling Zuckerberg, calling Musk "unintelligent" on a 92-minute livestream, demanding Trump's impeachment while her own party hedged. The pattern is a survival instinct that tries to neutralize threats first.
 
-Her public style adds the rest of the story. Twitch streams, Instagram Lives, cooking sessions with constituents, the ability to make policy feel like a conversation rather than a lecture — this is not just strategy. It is how she builds safety through community. She doesn't stockpile security for herself. She builds systems that protect the group. Universal healthcare, living wages, the Green New Deal. Every policy is a safety net thrown wider.
+Her Twitch streams, Instagram Lives, and cooking sessions make policy feel communal. The same instinct drives the agenda: build systems that protect the group and throw the safety net wider.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Alexandria Ocasio-Cortez</summary>
 <div class="panel">
 
-<p><em>For Enneagram readers going deep on Alexandria Ocasio-Cortez. Skip if you're here for the story — the rest of the analysis stands on its own.</em></p>
+<p><em>Technical typing notes follow. The narrative works without them.</em></p>
 
 ### Alexandria Ocasio-Cortez's Wing: 6w7
 
-AOC reads as 6w7 — the Loyalist with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 6w5 version would be more withdrawn, research-heavy, and suspicious from a distance. AOC does the research, but she turns it outward: hearings, livestreams, Twitch streams, cooking sessions, and committee-room confrontations that make policy feel social.
+AOC reads as 6w7, the Loyalist with an Enthusiast <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a>. A 6w5 version would be more withdrawn, research-heavy, and suspicious from a distance. AOC does the research, but she turns it outward: hearings, livestreams, Twitch streams, cooking sessions, and committee-room confrontations that make policy feel social.
 
-The 7-wing explains the electricity around the vigilance. She is not only scanning for threats; she is gathering people around the response. The courage is still Type 6, but the delivery is fast, witty, communal, and media-native. She can explain Medicaid work requirements at 3AM and make millions feel like they are in the room.
+The 7-wing appears in her habit of turning vigilance into an invitation: gather the room, explain the threat, make the response social. The courage is still Type 6, but the delivery is fast, witty, communal, and media-native. She can explain Medicaid work requirements at 3AM and make millions feel like they are in the room.
 
 ### Alexandria Ocasio-Cortez's Instinctual Subtype: so/sp
 
-AOC reads as social-dominant with self-preservation second. The so-6 pattern seeks safety through group loyalty, shared risk, and trusted alliances. Her security language is communal: healthcare, housing, wages, climate, immigration rights, and organizing infrastructure. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> is visible in the way she treats policy as protection for the many, not advancement for the few.
+AOC reads as social-dominant with self-preservation second. The so-6 pattern seeks safety through group loyalty, shared risk, and trusted alliances. Her security language is communal: healthcare, housing, wages, climate, immigration rights, and organizing infrastructure. The <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinct stack</a> is visible in the way she treats policy as shared protection instead of personal advancement.
 
 Self-preservation sits second in the family story: medical debt, foreclosure pressure, bartending to keep the household afloat, and a private partner who does not add chaos. Sexual reads last. She can be intense in confrontation, but the dominant pattern is group safety backed by material survival.
 
 ### Stress and Growth Arrows
 
-Under stress, Type 6 moves toward Type 3. The Met Gala "Tax the Rich" gown shows the risk: protection becomes performance, the message becomes brand, and visibility creates an ethics problem that distracts from the cause.
+Under strain, the line to Type 3 makes public proof feel seductively reassuring: if the message travels, perhaps the coalition is safe. The risk is mistaking reach for security.
 
-In growth, Type 6 moves toward Type 9. See <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a> in her willingness to work inside structures she still challenges: voting for Pelosi, operating under Jeffries, passing bipartisan maternal-health legislation, and asking split-ticket constituents what they saw rather than dismissing them.
+In healthier states, the connection to Type 9 appears in her willingness to work inside structures she still challenges: voting for Pelosi, operating under Jeffries, passing bipartisan maternal-health legislation, and asking split-ticket constituents what they saw rather than dismissing them. The mechanics of those shifts are covered in <a href="/enneagram-corner/enneagram-connecting-lines">the connecting lines</a>.
 
 ### Counterarguments: Why Alexandria Ocasio-Cortez Might Not Be Type 6
 
-Type 8 is plausible because she confronts billionaires, presidents, and party leaders without flinching. But the fights are usually protective. She is not asserting dominance for its own sake; she is neutralizing threats to vulnerable people.
-
-Type 3 also has a case because AOC is media fluent and image-aware. But the image is a vehicle, not the engine. The engine is vigilance, loyalty, and the need to build a world where families like hers are not left unsupported when crisis hits.
+Type 8 is the strongest alternative because AOC confronts presidents, billionaires, and party leaders without flinching; Type 3 also fits her media fluency. But dominance and visibility are tools rather than motives. Her recurring questions are Six questions: Who is exposed, which authority can be trusted, and who will still be there when the system fails?
 
 </div>
 </details>
@@ -197,7 +236,7 @@ Banks circled. Foreclosure notices arrived. Blanca took two jobs, bus driver, ph
 
 Watch her advocate for universal healthcare and you're watching someone who lived the alternative. The system failed her family. She's been fighting systems ever since.
 
-There's one more detail. Near the end, when Sergio could no longer speak, he watched _Star Trek_ with his daughter. When Captain Janeway appeared on screen, he pointed at the captain, then at Alexandria. Back and forth.
+Her mother, Blanca, [later recalled one more detail](https://gonetrending.com/2020/11/05/aoc-star-trek-leadership-janeway/). Near the end, when Sergio could no longer speak, he watched _Star Trek_ with his daughter. When Captain Janeway appeared on screen, he pointed at the captain, then at Alexandria. Back and forth.
 
 Ten years later, Kate Mulgrew, who played Captain Janeway, appeared at AOC's final campaign rally in the Bronx.
 
@@ -209,9 +248,9 @@ But the pivotal experience was her internship in Senator Ted Kennedy's immigrati
 
 It was also at BU where she met Riley Roberts at a student town hall. They were both 19. After a college breakup and years apart, they reconnected. In April 2022, Roberts proposed in her family's hometown in Puerto Rico.
 
-Roberts built her early campaign website. He's a web developer who avoids cameras and interviews — four years after the engagement, no public wedding has been announced. One of the most visible politicians in America keeps this part of her life almost completely private.
+Roberts built her early campaign website. A web developer who avoided cameras and interviews, he remained largely outside her public political life.
 
-The pairing makes sense through an Enneagram lens. Type 6s don't need flashy partners. They need reliable ones. Someone who shows up, stays steady, and doesn't add chaos to an already combative public life. Roberts fits that pattern exactly.
+In August 2026, [reports surfaced](https://www.thedailybeast.com/alexandria-ocasio-cortez-longtime-romance-ends-in-secret-split/) that they had ended the engagement 18 months to two years earlier. AOC did not announce the breakup. Asked about Roberts, she said she does not comment on her private life; her office did not confirm the report. The accurate phrasing is "reported split": August 2026 dates the coverage, while the relationship reportedly ended much earlier. Maintaining that boundary is not Enneagram evidence.
 
 ## The Lost Decade
 
@@ -223,7 +262,7 @@ She also launched Brook Avenue Press, a publishing startup at a Bronx business i
 
 And through all of it, she bartended and waited tables at Flats Fix, a taqueria in Union Square, to help her mother fight foreclosure. She was still behind the bar in 2017 when she launched her campaign.
 
-Then came the road trip. After the 2016 election, she drove across the country — to Flint, Michigan, where families still couldn't drink their water, and to Standing Rock, North Dakota, where indigenous protesters were fighting the Dakota Access Pipeline.
+Then came the road trip. After the 2016 election, she drove across the country to Flint, Michigan, where families still couldn't drink their water, and to Standing Rock, North Dakota, where indigenous protesters were fighting the Dakota Access Pipeline.
 
 Standing Rock was the tipping point.
 
@@ -231,19 +270,7 @@ Standing Rock was the tipping point.
 
 Her brother Gabriel submitted her name to Brand New Congress, a PAC recruiting progressive candidates. They received 11,000 nominations. AOC was one of 12 selected. She was the only one who won.
 
-## From Bartender to Congress
-
-The 2018 primary wasn't supposed to be close.
-
-Joe Crowley had held the seat for a decade. He was fourth in House Democratic leadership. Nobody gave the 28-year-old bartender from the Bronx a chance.
-
-**"Women like me aren't supposed to run for office,"** AOC said during her campaign.
-
-She ran anyway. Knocked on doors. Made calls. Built an army of volunteers fueled by small donations. And on primary night, she beat a ten-term incumbent by 15 points.
-
-The political establishment was stunned.
-
-The documentary _Knock Down the House_ captured the journey. It introduced her to a national audience hungry for something different.
+In June 2018, the 28-year-old bartender beat ten-term incumbent Joe Crowley by 15 points.
 
 ## The AOC Way: Personality in Action
 
@@ -251,45 +278,29 @@ The documentary _Knock Down the House_ captured the journey. It introduced her t
 
 Politicians sand down their edges. AOC sharpens hers.
 
-**"I'm not a superhero. I'm not a villain. I'm just a person trying to do the right thing."**
+The confidence you see in committee hearings and livestreams sits on top of something less comfortable. She's talked openly about imposter syndrome: the feeling that she doesn't belong in Congress, that someone will figure out she's just a bartender from the Bronx who got lucky. She's described anxiety before major votes, the weight of knowing that one wrong move could validate every critic who said she wasn't qualified.
 
-The confidence you see in committee hearings and livestreams sits on top of something less comfortable. She's talked openly about imposter syndrome — the feeling that she doesn't belong in Congress, that someone will figure out she's just a bartender from the Bronx who got lucky. She's described anxiety before major votes, the weight of knowing that one wrong move could validate every critic who said she wasn't qualified.
-
-That's the part most people miss about AOC's courage. It isn't the absence of fear. It's the decision to move forward while the fear is still screaming. Every viral clip of AOC dismantling a witness in a hearing is also a person who prepared obsessively because she was terrified of being caught unprepared.
-
-### Platform Dominance
-
-AOC doesn't just use social media. She dominates it.
-
-Instagram Live cooking sessions. A 2020 Twitch stream playing _Among Us_ that hit 438,000 peak viewers and drove more traffic to IWillVote.com than any other source. In December 2024, she became the **first person to reach 1 million followers on Bluesky**, hitting 2 million by March 2025.
-
-Then there's the 92-minute unscripted Instagram Live in February 2025 where she called Musk **"one of the most unintelligent billionaires I have ever met"** and **"one of the most morally vacant"** people in government. No teleprompter. No staff approval. Just a congresswoman going live for an hour and a half to say what she thought about the world's richest man.
-
-9.6 million Instagram followers. 13.1 million on X. Most-followed politician on Bluesky. She meets people where they are — and she does it unfiltered, which is exactly what makes it work.
-
-The pattern started before she was sworn in. On the eve of her first day in Congress, an anonymous account resurfaced a clip of her dancing on a BU rooftop to Phoenix's "Lisztomania" — a student recreation of _The Breakfast Club_ — trying to embarrass her. Supporters thought it was charming. AOC posted a fresh video dancing outside her congressional office: **"I hear the GOP thinks women dancing are scandalous. Wait till they find out Congresswomen dance too!"** The intended takedown became her playbook. Don't retreat from the viral moment. Seize it.
+That's the part most people miss about AOC's courage. She moves while the fear is still screaming. Every viral clip of AOC dismantling a witness in a hearing is also a person who prepared obsessively because she was terrified of being caught unprepared.
 
 ### Off the Clock
 
 The warrior image is real, but it's not the whole picture.
 
-AOC's first passion was science, not politics. In high school, she placed second in the world at the Intel International Science and Engineering Fair for research on antioxidants and nematode lifespans. MIT named an asteroid after her — 23238 Ocasio-Cortez, a mile-wide rock orbiting between Mars and Jupiter. She started at BU as a science major before switching to economics.
+Before politics, AOC's first passion was science. In high school, she placed second in the world at the Intel International Science and Engineering Fair for research on antioxidants and nematode lifespans. MIT named asteroid 23238 Ocasio-Cortez after her. She started at BU as a science major before switching to economics.
 
 At home, she's a self-described "proud plant mama" with a French bulldog named Deco who she's brought to the Rules Committee room. Her best Instagram set piece: making black bean soup in her Instant Pot while answering constituent questions about tax policy. Most politicians broadcast. AOC invites people into the kitchen.
 
-That's the Type 6 move. You don't build trust by projecting authority. You build it by being the person who was already going to make dinner anyway — and happens to also be explaining the tax code while she stirs.
+She builds trust as the person who was already making dinner and happens to explain the tax code while she stirs.
 
 ### Relentless Preparation
 
 **"I prepare and prepare and prepare, and then I get up there and just let it rip."**
 
-Congressional hearings give you five minutes. AOC treats them like cross-examinations. The Zuckerberg clip. The 3AM Medicaid confrontation. The Homan standoff. Each one was surgical because the preparation happened long before the cameras rolled.
+Congressional hearings give you five minutes. AOC treats them like cross-examinations. The Zuckerberg clip and the 3AM Medicaid confrontation were surgical because the preparation happened long before the cameras rolled.
 
-## Taking on Titans
+## The Zuckerberg Confrontation
 
-### The Zuckerberg Confrontation
-
-October 2019. House Financial Services Committee. <a href="/personality-analysis/mark-zuckerberg">Mark Zuckerberg</a> faces questions about Facebook's political ad policies.
+October 2019. House Financial Services Committee. Mark Zuckerberg faces questions about Facebook's political ad policies.
 
 AOC gets her five minutes.
 
@@ -299,17 +310,9 @@ Zuckerberg hesitates. **"I think probably."**
 
 She pivots to Cambridge Analytica. Catches him in contradictions about when Facebook knew about the data breach. The clip resurfaces years later on TikTok. Over 1.3 million views.
 
-### The Homan Standoff
-
-February 2025. Trump's border czar Tom Homan threatened AOC on Fox News after she hosted a "Know Your Rights" webinar teaching constituents about their Fourth Amendment protections during ICE encounters. Homan said she'd **"be in trouble now"** and requested the Deputy AG investigate her.
-
-AOC wrote directly to Attorney General Pam Bondi asking if the DOJ had **"bowed to political pressure."** Her public response: **"The Fourth Amendment is clear and I am well within my duties to educate people of their rights."**
-
-The administration's top immigration enforcer told her to back down. She escalated instead.
-
 ## The Pelosi Dynamic: Type 6 Meets Type 3
 
-AOC's most complex relationship in Washington isn't with Republicans. It's with <a href="/personality-analysis/nancy-pelosi">Nancy Pelosi</a>.
+AOC's most complex relationship in Washington isn't with Republicans. It's with Nancy Pelosi.
 
 Their dynamic reveals something essential about how Type 6s navigate authority, especially when that authority is nominally on their side.
 
@@ -323,7 +326,7 @@ A purely cautious politician would never. AOC couldn't resist.
 
 ### The "Glass of Water" Dismissal
 
-Pelosi is an [Enneagram Type 3](/enneagram-corner/enneagram-type-3)—"The Achiever." Type 3s are driven by success, image, and results. They build coalitions, count votes, and protect the brand. They don't appreciate newcomers who threaten party unity.
+Pelosi reads here as an Enneagram Type 3, the Achiever. Type 3s are driven by success, image, and results. They build coalitions, count votes, and protect the brand. They don't appreciate newcomers who threaten party unity.
 
 So Pelosi pushed back. Hard.
 
@@ -361,25 +364,19 @@ When Pelosi stepped down from leadership in 2022, everything changed.
 
 **"Senior members talk to me. Chairs are nice to me. People want to work together,"** AOC told journalist [Ryan Grim](/personality-analysis/ryan-grim). The constant surveillance lifted.
 
-But the détente didn't last. In December 2024, when AOC ran for Oversight Committee ranking member, Pelosi was back on the phones, lobbying for Gerry Connolly. He won, 131-84.
-
 ### What This Reveals
 
-Pelosi saw AOC as a threat to party success. AOC saw Pelosi as an authority figure who needed testing. Neither was wrong. They share a goal — Democratic power — they just can't agree on what it's for. The Three asks: _did we win?_ The Six asks: _did we protect anyone?_
+Pelosi saw AOC as a threat to party success. AOC saw Pelosi as an authority figure who needed testing. Neither was wrong. They share a goal, Democratic power, but cannot agree on what it is for. The Three asks: _did we win?_ The Six asks: _did we protect anyone?_
 
 ## What She Actually Built
-
-### The Green New Deal
-
-The 2019 resolution was dismissed as naive. It changed the conversation anyway. Policies once considered fringe — universal healthcare, a living wage, aggressive climate action — now occupy mainstream Democratic discourse. She didn't just push for change. She expanded what change was possible.
 
 ### Legislation That Actually Passes
 
 The knock on AOC is that she's all rhetoric. The record complicates that.
 
-Consider the Bipartisan Healthy Start Reauthorization Act. She co-led it with Republican Rep. Nicole Malliotakis — her ideological opposite from the other end of New York City. The bill reauthorizes a federal program supporting mothers and infants in high-risk communities. It passed the Health Subcommittee, then the full Energy and Commerce Committee — **unanimously**. Every Republican voted yes. A progressive firebrand getting unanimous bipartisan support isn't supposed to happen, but AOC found the issue where protecting vulnerable families wasn't partisan. That's the Six instinct: find the shared threat and build the coalition around it.
+Consider the Bipartisan Healthy Start Reauthorization Act. She co-led it with Republican Rep. Nicole Malliotakis, her ideological opposite from the other end of New York City. The bill reauthorizes a federal program supporting mothers and infants in high-risk communities. In September 2025, the full Energy and Commerce Committee [ordered it reported to the House, 49-0](https://www.congress.gov/bill/119th-congress/house-bill/3302/all-info). It has not passed the House. The distinction matters: AOC found unanimous committee support, but building a coalition is different from getting a law enacted.
 
-She also introduced the High Court Gift Ban Act with Rep. Jamie Raskin, capping Supreme Court gifts at $50, and the AI Data Center Moratorium Act with Bernie Sanders in March 2026, targeting unchecked data center buildout that drove household electricity costs up 7% in 2025.
+She also introduced the High Court Gift Ban Act with Rep. Jamie Raskin, capping Supreme Court gifts at $50. In March 2026 she and Bernie Sanders announced a national pause on new AI data centers; on June 24, she [formally introduced the House bill](https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-introduces-house-version-ai-data-center-moratorium-act), tying further construction to federal safeguards on jobs, utility costs, privacy, and the environment.
 
 She picks high-profile fights and she does the committee grind. The combination is rarer than it looks.
 
@@ -387,31 +384,37 @@ She picks high-profile fights and she does the committee grind. The combination 
 
 The political fights are one story. The personal danger is another.
 
-AOC has described waking up to stacks of photos forwarded by Capitol Police — **"people who want to kill you today."** Death threats have targeted her mother, her brother, even her former college dean. During the January 6 Capitol breach, rioter Garret Miller tweeted **"Assassinate AOC."** He was later sentenced to over three years in federal prison.
+AOC has described waking up to stacks of photos forwarded by Capitol Police: **"people who want to kill you today."** Death threats have targeted her mother, her brother, even her former college dean. During the January 6 Capitol breach, rioter Garret Miller tweeted **"Assassinate AOC."** He was later sentenced to over three years in federal prison.
 
-On January 6 itself, AOC was in her office in the Cannon Building. She hid in her bathroom. She heard someone banging on the door demanding **"Where is she?"** In an emotional Instagram Live weeks later, she disclosed she's a survivor of sexual assault — and that the trauma flooded back as she hid, fearing not just death but violation.
+On January 6 itself, AOC was in her office in the Cannon Building. She hid in her bathroom. She heard someone banging on the door demanding **"Where is she?"** In an emotional Instagram Live weeks later, she disclosed she's a survivor of sexual assault. The trauma flooded back as she hid, fearing death and violation.
 
-The political saturation runs alongside the physical threat. Fox News mentioned her name **3,181 times** in a single six-week stretch in 2019 — 75 times per day. Host Stuart Varney admitted on air: **"We have an AOC segment every single day almost every single hour"** because **"she is good for our ratings."** She calls the network **"AOC TMZ."**
+The political saturation runs alongside the physical threat. Fox News mentioned her name **3,181 times** in six weeks in 2019, about 75 times per day. Host Stuart Varney acknowledged the near-hourly coverage and said she was good for ratings. She calls the network **"AOC TMZ."**
 
-None of it stops her. That's the part that matters. The courage isn't the absence of fear. It's the decision to act while knowing — in specific, documented, daily detail — exactly what you're risking.
+None of it stops her. She keeps acting while knowing in specific, documented, daily detail exactly what she is risking.
 
-Sometimes it tips the other way. The 2021 Met Gala **"Tax the Rich"** gown was the version of AOC that drifted toward message-as-brand. The House Ethics Committee closed the matter in 2025, ruling the violations unintentional, but she paid $3,000 for undervalued accessories. Under stress, Type 6 moves toward Type 3. Protection becomes performance. The cause becomes a costume. She knows it. She doesn't always avoid it.
+Sometimes it tips the other way. The 2021 Met Gala "Tax the Rich" gown was the version of AOC that drifted toward message-as-brand. In 2025, the [House Ethics Committee found](https://www.congress.gov/committee-report/119th-congress/house-report/219/1) that she had impermissibly accepted gifts connected to the event, including her partner's admission and underpriced apparel. It found no evidence that she intentionally underpaid, required a $250 donation and an additional $2,733.28 payment, and said no sanction was merited if she paid. Under stress, Type 6 moves toward Type 3. Protection becomes performance; the cause becomes a costume.
 
-### Criticism from the Left
+### The Fault Line on Her Left: Gaza, Iron Dome, and DSA
 
-Some progressives accuse her of shielding the establishment. She hasn't backed any push to unseat House Minority Leader Hakeem Jeffries, which frustrates voices further left. Her willingness to work within party structures while maintaining outsider rhetoric creates a tension she seems comfortable with.
+The hardest loyalty test in AOC's recent career has not involved Pelosi. It has involved Israel, Gaza, and the movement that helped elect her.
 
-Through the Type 6 lens: build alliances for security, keep the capacity to challenge. The alliances only work if the threat stays credible. She keeps it credible.
+In July 2024, the national Democratic Socialists of America [withdrew a conditional endorsement](https://www.dsausa.org/statements/status-of-dsa-national-endorsement-for-rep-ocasio-cortez/). The organization credited her for calling Israel's campaign in Gaza a genocide, but faulted her support for defensive systems such as Iron Dome and her participation in an antisemitism panel that critics believed blurred anti-Zionism with antisemitism.
+
+The conflict sharpened in July 2025. AOC voted against a Marjorie Taylor Greene amendment that would have removed $500 million for Iron Dome from a defense bill, then voted against the defense bill itself. DSA [condemned the first vote](https://www.dsausa.org/statements/on-the-iron-dome-vote/); AOC's response drew a line between offensive aid and defensive Iron Dome capacity. Two months later, she [backed the Block the Bombs Act](https://ocasio-cortez.house.gov/media/press-releases/ocasio-cortez-joins-house-members-and-advocates-calling-block-bombs-israel), targeting bombs, tank shells, and artillery rounds.
+
+By April 2026, under direct questioning at an NYC-DSA forum, she [committed to vote against all military aid to Israel](https://www.cityandstateny.com/politics/2026/04/dsa-forum-aoc-pledges-not-vote-any-military-aid-israel/412544/), including defensive systems. Critics can reasonably call that a belated concession to movement pressure; supporters can call it responsiveness. The Type 6 lens does not settle the policy dispute. It does clarify the bind: loyalty to vulnerable Palestinians, loyalty to a socialist coalition, civilian-security arguments, and the need to persuade House colleagues all pointed in different directions. She redrew the boundary slowly, defensively, and finally in public.
+
+The same tension appears inside the Democratic Party. She has not backed a push to unseat House Minority Leader Hakeem Jeffries, frustrating voices further left. Her outsider identity depends on an alliance with the institution she keeps testing. That alliance works only while her capacity to challenge it remains credible.
 
 ## The 2024 Election: Reading the Room
 
-<a href="/personality-analysis/donald-trump">Donald Trump</a> won. AOC's response: acknowledge the threat, then immediately build community.
+Donald Trump won. AOC's response: acknowledge the threat, then immediately build community.
 
 **"I'm not here to sugarcoat what we all are about to collectively experience. But what we can do to prepare is build community."**
 
 What surprised her: her own district swung toward Trump. 22% in 2020. 33% in 2024. Yet voters still backed her personally.
 
-She went directly to her constituents and asked why they split their tickets. The responses were revealing — many saw both her and Trump as outsiders against the establishment.
+She went directly to her constituents and asked why they split their tickets. The responses were revealing: many saw both her and Trump as outsiders against the establishment.
 
 **"I voted Trump, but I like you and Bernie. I don't trust either party's establishment politicians."**
 
@@ -421,78 +424,24 @@ A Type 6 hears that and doesn't dismiss it. She files it away. If voters are ang
 
 In December 2024, Pelosi was back on the phones. AOC was running for Oversight Committee ranking member. Pelosi lobbied members to vote for Gerry Connolly. He won, 131-84.
 
-AOC's public response on Bluesky: **"Tried my best. Sorry I couldn't pull it through everyone — we live to fight another day."**
+AOC apologized on Bluesky and said they would live to fight another day.
 
-She pivoted to Energy and Commerce in January 2025. Energy, healthcare, tech regulation, telecom — a broader portfolio than Oversight alone, and the policy surface area of a statewide or national run. The loss was the launchpad.
+She pivoted to Energy and Commerce in January 2025, gaining a broader portfolio across energy, healthcare, tech regulation, and telecom. The loss was the launchpad.
 
 What followed doesn't read like a House member's year.
 
-**$9.6 million** raised in Q1 2025 from 736,000 individual contributions averaging $20 apiece. No corporate PAC money. Ever. A hypothetical 2028 Senate matchup poll has her up 19 points on Chuck Schumer.
+Her campaign [raised a record $9.6 million](https://www.axios.com/2025/04/21/aoc-bernie-sanders-progressives-democrats) in the first quarter of 2025, more than double her previous best quarter. Then came the Fighting Oligarchy tour with Bernie Sanders. The red-state crowds were especially telling: 20,000 in Salt Lake City, 12,500 in Nampa, Idaho, and 7,500 in Missoula, Montana.
 
-When Schumer announced he'd vote for the Republican spending bill in March 2025, she called it **"a tremendous mistake"** and **"a huge slap in the face."** Colleagues privately urged her to primary him. NBC News ran the headline: **"Democrats are desperately searching for new leaders. AOC is stepping into the void."**
+When Schumer announced he would vote for the Republican spending bill in March 2025, she called it "a tremendous mistake" and "a huge slap in the face." Colleagues privately urged her to primary him. When Trump bombed Iranian nuclear sites without congressional authorization that June, she was among the first Democrats to call for impeachment. Trump called her "one of the 'dumbest' people in Congress." She did not back away.
 
-When Trump bombed Iranian nuclear sites without congressional authorization that June, she was among the first Democrats to say the word **"impeachment"** out loud. Trump called her **"one of the 'dumbest' people in Congress."** She didn't flinch.
+By summer 2026, the speculation had become measurable. AOC [won nearly 87%](https://www.bxtimes.com/primary-results-aoc-and-ritchie-torres-reelected/) of the vote in her Democratic primary. A July [University of New Hampshire poll](https://scholars.unh.edu/survey_center_polls/983/) put her at 22% in a hypothetical 2028 Democratic presidential primary, one point ahead of Pete Buttigieg. One early-state poll two years out is far too early to function as a prediction, but it suggests the crowds have become a constituency.
 
-Then there's the Fighting Oligarchy tour with Bernie Sanders. Fifteen states. The telling numbers aren't the blue-state crowds — they're the red ones: 20,000 in Salt Lake City. 12,500 in Nampa, Idaho. 7,500 in Missoula, Montana. Thousands showing up for a democratic socialist in counties that haven't gone blue in a generation.
+On August 9, 2026, ABC's Jonathan Karl asked her directly about 2028. She said she had not ruled out a presidential run and that "anything is possible" when he asked about challenging Schumer for Senate. Her stated focus remained the midterms. In the same interview, she sounded less interested in proving insurgent purity: she explained her decision to stay out of most House-incumbent primaries by saying that "politics is also a workplace," and said some rhetoric from 2020 is not rhetoric she would use now.
 
-Her advisers won't say what it's for. The crowds suggest they don't need to.
+That may be the most important update to the Type 6 read. The counterphobic insurgent who once treated every doubtful authority as a test is learning that not every boundary has to become a war. Growth toward Type 9 does not make a Six passive. It makes the choice of which fights matter less automatic.
 
-Her father pointed at Captain Janeway, then at his daughter. Back and forth. She seems to remember who was watching.
+One day earlier, she disclosed that she was freezing her eggs. On ABC's _This Week_, she said the choice gave her greater control over her life and acknowledged the political risk of discussing it. Reports about her ended engagement followed days later, but she has not said that the breakup caused this decision. Neither a fertility procedure nor a private separation is Enneagram evidence. What is public is the double standard she named: women with national ambitions are expected to narrate family timing while male presidential prospects rarely have to explain both.
 
 > **Disclaimer:** This analysis of Alexandria Ocasio-Cortez's Enneagram type is speculative, based on publicly available information, and may not reflect her actual personality type.
 
-<!-- ============================================================
-FRESH-EYES ASSESSMENT — 2026-04-29 PASS 2 (Claude cold read)
-============================================================
-
-ONE-LINE VERDICT: The strongest piece in this batch — the Janeway pointing detail and "the Three asks: did we win? The Six asks: did we protect anyone?" Pelosi line are the corpus at full extension; weakened mainly by ducking the most credible right-wing critiques and a few repetitions the prior in-file feedback already flagged.
-
-STRONGEST SECTION: "The Pelosi Dynamic: Type 6 Meets Type 3" — the framework actually does diagnostic work; "did we win? / did we protect anyone?" is the entire blog in one line and the relationship structure justifies the type call without textbook drops.
-WEAKEST SECTION: "Counterarguments: Why Alexandria Ocasio-Cortez Might Not Be Type 6" — the in-file 2026-04-20 review already flagged this as insider baseball; it remains the section that breaks the spell.
-
-STRENGTHS (3-5 bullets, specific):
-- Hook (3AM Weber miscarriage exchange) is dated, specific, character-revealing, pays off the thesis question in four paragraphs — model opening for the corpus.
-- Sergio pointing at Captain Janeway → Kate Mulgrew at the final Bronx rally is the single best small-detail callback in this batch; it makes the entire piece click.
-- "The Lost Decade" (NHI, Brook Avenue Press, Flint/Standing Rock) is the connective biographical tissue most AOC profiles skip and it does structural work.
-- Counter-phobic Six framing explains the pattern (charges what frightens her) instead of just labeling it; this is the corpus's best argument for why type theory earns its keep.
-- The "splits ticket" voter quote ("I voted Trump, but I like you and Bernie") is an unusual, sharp, current piece of evidence.
-
-WEAKNESSES (3-5 bullets, specific — name lines, phrases, sections):
-- Two "It is not X. It is Y." constructions: "It isn't recklessness. It's a survival instinct" and "The courage isn't the absence of fear. It's the decision to act…" — and the "courage isn't absence of fear" formulation appears twice.
-- The Connolly 131-84 vote appears in "The Fence-Mending" AND "What She's Building Next" (in-file feedback already flagged this — still unfixed).
-- The Met Gala "Tax the Rich" gown appears in the rabbit-hole section AND "Price of This Kind of Fight" (in-file feedback flagged — still unfixed).
-- The Riley Roberts paragraph "Type 6s don't need flashy partners. They need reliable ones." is a textbook drop in an otherwise show-don't-tell piece.
-- Bolded micro-thesis sentences mid-paragraph appear constantly (every quote bolded, plus thesis lines bolded) — the bolding loses signal-to-noise by halfway through.
-
-GAPS / MISSED OPPORTUNITIES (3-6 bullets — what a fan/critic would expect that's absent):
-- Israel / Gaza positioning — by far the most defining 2024-2026 fight on her left flank (DSA tensions, the "genocide" language, votes on Iron Dome) — completely absent.
-- The "Squad" itself as a coalition is barely named; her relationships with Tlaib, Omar, Bowman are missing.
-- Her 2020 endorsement of Bernie / strategic vote against Bowman primary opponent — none of the strategic-loyalty calculus that conservatives cite as her actual record.
-- No engagement with the right-flank critique that her policy specifics (Green New Deal cost, Medicare for All math) don't survive scrutiny — the whole "she does the work" claim is asserted rather than tested.
-- Her brief flirtation with the "Squad split" over Biden / "Genocide Joe" / endorsement reluctance — current-tense and absent.
-- $9.6M Q1 2025 fundraising is in the piece but no real engagement with her PAC infrastructure / ActBlue dependency.
-
-PATTERN HITS (DJ tropes that worked here):
-- Childhood-installs-mission structure (medical debt → universal healthcare advocacy) — used precisely; not over-leveraged.
-- The Janeway closing image is the corpus's signature small-detail-as-thesis move at its absolute best — and unlike the "child still doing what child did" closing, this one earns its sentimentality.
-- The "Three asks / Six asks" Pelosi line is the type-lens-as-diagnostic-tool ideal.
-
-PATTERN MISSES (DJ tropes that felt formulaic, recycled, or autopilot here):
-- The "It's not X. It's Y." construction (twice).
-- "The courage isn't the absence of fear. It's the decision to act while fear is screaming" — used twice in slightly different forms (once in "Unfiltered," once in "Price of This Kind of Fight").
-- TL;DR + bolded intro + typing section + rabbit-hole = thesis frontloaded four times.
-- Repetition of the Connolly vote and Met Gala (in-file feedback already flagged — autopilot leaving its tracks).
-- Pelosi gets typed as 3, AOC as 6, in-text neat-binary that risks being Enneagram-by-numbers.
-
-CRITIC-ENGAGEMENT: Names Pelosi's "glass of water" dismissal and lets it land — that's real. Names "criticism from the left" briefly (Jeffries primary). But never names a credible right-wing critic with a substantive policy objection, and the piece treats every conservative attack on her as proof of her power rather than potentially substantive.
-
-CURRENCY (2024-2026 anchor): Strong. May 2025 Weber exchange, March 2025 Schumer "huge slap in the face," Q1 2025 fundraising, June 2025 Iran impeachment line, Fighting Oligarchy tour numbers. Among the most current-anchored pieces in this batch.
-
-PARTISAN TILT: Clearly sympathetic to AOC's frame. Republican antagonists (Weber, Homan, Trump, Cruz indirectly) all appear as foils to be defeated; conservative critiques never land. The Pelosi conflict is the closest the piece comes to internal-Democratic critique, and even that resolves in AOC's favor.
-
-PRIORITY FIXES (numbered, in order of impact — 3 max):
-1. Add Israel/Gaza — this is the defining 2024-2026 left-flank political fight she's part of and skipping it makes the piece feel incomplete to anyone tracking her actual current career.
-2. Execute the in-file feedback that's still unfixed: cut Connolly repeat in "Fence-Mending," collapse Met Gala into the "Price" section, trim the Counterarguments rabbit-hole.
-3. Reduce inline bolding by ~60%; the technique loses force when every quote and every thesis sentence is bolded.
-
-============================================================ -->
+Her father pointed at Captain Janeway, then at his daughter. Back and forth. She seems to remember who was watching.
