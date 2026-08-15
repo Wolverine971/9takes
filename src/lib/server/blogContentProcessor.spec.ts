@@ -129,22 +129,27 @@ Closing copy.`);
 		expect(result.content).toContain('Kimbal Musk');
 		expect(result.content).toContain('Quote source');
 		expect(result.content).toContain('What Elon Musk Really Believes');
-		expect(result.content).toContain('CC BY-SA 3.0');
+		expect(result.content).toContain('CC BY-SA 4.0');
 		expect(result.content).toContain('edited for web');
 	});
 
-	it("renders DJ's structured personality read before client mounting", async () => {
-		const result = await processBlogContent('<DJReadCard readId="elon-musk" />');
+	it("treats DJ's structured read marker as editorial-only", async () => {
+		const result = await processBlogContent(
+			'## DJ\'s reasoning: his mind is his shelter\n\nLead paragraph.\n\n<DJReadCard readId="elon-musk" />\n\nClosing paragraph.'
+		);
 
-		expect(result.placeholders[0]).toEqual({
-			id: 'component-djreadcard-0',
-			type: 'DJReadCard',
-			props: { readId: 'elon-musk' }
+		expect(result.placeholders).not.toEqual(
+			expect.arrayContaining([expect.objectContaining({ type: 'DJReadCard' })])
+		);
+		expect(result.headings).toContainEqual({
+			level: 2,
+			text: 'How Elon Musk turns uncertainty into a map',
+			id: 'how-elon-musk-turns-uncertainty-into-a-map'
 		});
-		expect(result.content).toContain('data-dj-read-id="elon-musk"');
-		expect(result.content).toContain("DJ'S READ");
-		expect(result.content).toContain('Type 5w6');
-		expect(result.content).toContain('He makes uncertainty specific');
-		expect(result.content).toContain('See the evidence and full reasoning');
+		expect(result.content).toContain('Lead paragraph.');
+		expect(result.content).toContain('Closing paragraph.');
+		expect(result.content).not.toContain("DJ's reasoning");
+		expect(result.content).not.toContain('DJReadCard');
+		expect(result.content).not.toContain('data-dj-read-id');
 	});
 });

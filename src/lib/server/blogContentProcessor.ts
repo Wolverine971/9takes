@@ -4,7 +4,6 @@
 
 import { marked, type Tokens } from 'marked';
 import { getBlogEvidenceMedia } from '$lib/blogEvidenceMedia';
-import { getDJPersonalityRead } from '$lib/data/djPersonalityReads';
 import { ENNEAGRAM_TYPE_DOSSIER_SLOT_MARKER } from '$lib/utils/articleSlots';
 
 interface Placeholder {
@@ -56,8 +55,7 @@ const COMPONENT_TAGS = [
 	'BlogPurpose',
 	'MarqueeHorizontal',
 	'QuickAnswer',
-	'EvidenceFigure',
-	'DJReadCard'
+	'EvidenceFigure'
 ];
 
 /**
@@ -81,8 +79,15 @@ export async function processBlogContent(
 		return `<h${depth} id="${id}">${text}</h${depth}>\n`;
 	};
 
+	// Keep the older database-backed Elon heading aligned with the subject-led
+	// local draft until its next body sync.
+	const normalizedContent = content.replace(
+		/^## DJ's reasoning: his mind is his shelter\s*$/gm,
+		'## How Elon Musk turns uncertainty into a map'
+	);
+
 	// Parse markdown to HTML with custom renderer that adds IDs to headings
-	let htmlContent = await marked.parse(content, { renderer });
+	let htmlContent = await marked.parse(normalizedContent, { renderer });
 
 	// This is an article layout slot, not a client-mounted component placeholder.
 	// The personality page splits at this exact marker and server-renders the
@@ -96,6 +101,11 @@ export async function processBlogContent(
 			return ENNEAGRAM_TYPE_DOSSIER_SLOT_MARKER;
 		}
 	);
+
+	// DJ's structured read is an editorial source for the article, not a second
+	// public summary inside it. Strip older database-backed markers so deployed
+	// content follows the subject-led essay flow even before its next body sync.
+	htmlContent = htmlContent.replace(/<DJReadCard\b[^>]*(?:\/>|>\s*<\/DJReadCard>)/gi, '');
 
 	// Initialize placeholders array
 	const placeholders: Placeholder[] = [];
@@ -204,42 +214,9 @@ function renderComponentFallback(
 			return renderPopCardFallback(props);
 		case 'EvidenceFigure':
 			return renderEvidenceFigureFallback(props);
-		case 'DJReadCard':
-			return renderDJReadCardFallback(props);
 		default:
 			return normalizeFallbackContent(children);
 	}
-}
-
-function renderDJReadCardFallback(props: Record<string, any>): string {
-	const readId = stringProp(props.readId).trim();
-	const read = getDJPersonalityRead(readId);
-	if (!read) return '';
-
-	const claimsHtml = read.claims
-		.map(
-			(claim) => `<li>
-		<h4>${escapeHtml(claim.label)}</h4>
-		<p>${escapeHtml(claim.compactConnection)}</p>
-	</li>`
-		)
-		.join('');
-	const headingId = `dj-read-${read.id}`;
-
-	return `<section class="dj-read dj-read--ssr" aria-labelledby="${escapeHtmlAttribute(headingId)}" data-dj-read-id="${escapeHtmlAttribute(read.id)}">
-	<header class="dj-read__header">
-		<div><p class="dj-read__eyebrow">DJ'S READ &middot; FIRST-HAND REASONING</p><h3 id="${escapeHtmlAttribute(headingId)}">${escapeHtml(read.person)}</h3></div>
-		<span class="dj-read__type">${escapeHtml(read.proposedType)}</span>
-	</header>
-	<div class="dj-read__meta" aria-label="Reasoning summary">
-		<p><span>Confidence</span><strong>${escapeHtml(read.confidence)}</strong></p>
-		<p><span>Strongest alternative</span><strong>${escapeHtml(read.strongestAlternative)}</strong></p>
-	</div>
-	<p class="dj-read__thesis">${escapeHtml(read.thesis)}</p>
-	<ol class="dj-read__connections">${claimsHtml}</ol>
-	<div class="dj-read__hesitation"><span>What makes me hesitate</span><p>${escapeHtml(read.compactHesitation)}</p></div>
-	<a class="dj-read__link" href="#${escapeHtmlAttribute(read.reasoningAnchor)}">See the evidence and full reasoning</a>
-</section>`;
 }
 
 function renderEvidenceFigureFallback(props: Record<string, any>): string {

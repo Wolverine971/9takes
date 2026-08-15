@@ -74,16 +74,17 @@ compact treatment for quoted people.
 - [x] **Portrait hierarchy:** every quote-bearing evidence hook now uses one portrait-led composition.
       The image owns roughly two-thirds of the desktop card and becomes the full-width lead image on mobile;
       the quote, speaker relationship, context, and sources follow in a fixed priority order. → P4+P10
-- [x] **Speaker relevance:** Talulah Riley's dark group photograph was replaced with a clear 2009
-      portrait of Riley from Wikimedia Commons, with corrected CC BY-SA 2.0 attribution and crop metadata.
-      The Justine Musk, Kimbal Musk, and Walter Isaacson images already identify their speakers directly. →
-      P6+P10
+- [x] **Speaker relevance:** the final portrait pass replaces Talulah Riley's costume photograph with a
+      formal LIMS portrait, Justine Musk's domestic couch photograph with a 2014 speaking still, and
+      Kimbal Musk's casual restaurant image with a licensed official headshot. All three use face-first
+      4:5 crops and source-specific rights records. → P6+P10
 - [x] **Caption cleanup:** redundant labels were removed from quote cards. Attribution is now two quiet,
       human-readable lines (`Quote source` and `Photo`) with the publication year, license or fair-use
       status, and a concise `edited for web` change notice. The full rights ledger remains in the registry.
       → P4+P6
-- [x] **Responsive geometry:** portrait cards use a stable 768×512 desktop frame and a stacked mobile
-      fallback, preventing source-image aspect ratios from making cards arbitrarily tall. → P1+P2+P10
+- [x] **Responsive geometry:** portrait cards use a stable 800×544 maximum desktop frame and a stacked
+      mobile fallback. The picture remains the dominant region, quotes scale up to 1.7rem, and context
+      plus attribution step down to 0.7rem/0.65rem. → P1+P2+P4+P10
 
 ### Follow-up verification
 

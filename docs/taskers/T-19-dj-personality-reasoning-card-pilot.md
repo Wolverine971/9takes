@@ -5,7 +5,7 @@
 **For:** Editorial, product-design, and Svelte implementation agent
 **Owner:** DJ
 **Created:** 2026-08-13
-**Status:** Ready for the Elon Musk interview. Content approval gates implementation.
+**Status:** Pilot reviewed; structured read retained as editorial source material; public card retired.
 **Related:** `.codex/skills/capture-dj-personality-read/SKILL.md`, `src/blog/people/drafts/Elon-Musk.md`, `src/routes/personality-analysis/[slug]/+page.svelte`, `docs/growth/growth-log.md`, `docs/taskers/T-18-people-persona-title-quality-audit.md`
 
 ## 0. What and why
@@ -23,6 +23,21 @@ Build a repeatable workflow and one-person pilot that turns DJ's spoken riff int
 The pilot person is **Elon Musk**. Do not scale the UI or edit additional people until DJ approves the Elon reasoning artifact and the rendered card.
 
 This work must make one distinction explicit: DJ has original, first-party analysis of public source material. He does not have private or firsthand knowledge of the public figure. Observations, interpretations, holistic vibes, and type connections must remain distinguishable.
+
+### Pilot outcome — 2026-08-15
+
+DJ's review of the rendered Elon page supersedes the original public-card hypothesis. The structured
+read is useful for directing the article, preserving uncertainty, and supporting future editorial or
+founder-media work, but the standalone card repeats the essay and interrupts the subject-led reading
+flow.
+
+- Keep `src/lib/data/djPersonalityReads.ts` as the reviewable reasoning and source ledger.
+- Integrate approved judgments into the article's normal prose, with alternatives and uncertainty
+  stated where they matter.
+- Do not render a second `DJ's read` dashboard inside the published article.
+- Treat any older `<DJReadCard />` database marker as editorial-only until the body is next synced.
+- Any future public transparency surface needs a new placement and content review; this pilot does not
+  authorize a cross-corpus card rollout.
 
 ## 1. Required reading
 

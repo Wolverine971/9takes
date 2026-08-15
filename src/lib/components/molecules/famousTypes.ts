@@ -173,7 +173,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'stable-ronaldo', link: false, hasImage: true, lastmod: '2026-08-02', personaTitle: 'Twitch\'s Comeback Machine', contentGrade: 8.4, types: ['creator', 'streamer'] },
 		{ name: 'stephen-a-smith', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Sports Media\'s Self-Made Thunder', contentGrade: 8.7, types: ['celebrity', 'creator', 'celebrity-image', 'news-commentator'] },
 		{ name: 'steven-bartlett', link: true, hasImage: true, lastmod: '2026-05-11', personaTitle: 'Podcasting\'s Restless Architect', contentGrade: 8.8, types: ['entrepreneur', 'creator', 'business-creator', 'business-operator'] },
-		{ name: 'sydney-sweeney', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s pressure-tested architect', contentGrade: 9, types: ['newMovieStar', 'celebrity', 'rising-star'] },
+		{ name: 'sydney-sweeney', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s pressure-tested architect', contentGrade: 8.5, types: ['newMovieStar', 'celebrity', 'rising-star'] },
 		{ name: 'tate-mcrae', link: false, hasImage: true, lastmod: '2026-08-04', personaTitle: 'The Girl Who Built Tatiana', contentGrade: 8, types: ['musician'] },
 		{ name: 'taylor-swift', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Pop\'s Strategic Alchemist', contentGrade: 8.8, types: ['musician', 'entrepreneur', 'pop-star', 'business-operator'] },
 		{ name: 'ted-bundy', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },

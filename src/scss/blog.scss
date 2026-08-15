@@ -215,15 +215,15 @@ blockquote {
    component, so cited media remains useful without client JavaScript. */
 .blog-evidence {
 	display: grid;
-	width: min(100%, 48rem);
+	width: min(100%, 50rem);
 	margin: clamp(1.75rem, 4vw, 2.75rem) auto;
 	color: var(--ink-bright);
 	box-sizing: border-box;
 }
 
 .blog-evidence--portrait {
-	grid-template-columns: minmax(0, 1.35fr) minmax(17rem, 0.85fr);
-	height: clamp(30rem, 48vw, 32rem);
+	grid-template-columns: minmax(0, 1.42fr) minmax(18rem, 0.86fr);
+	height: clamp(31rem, 49vw, 34rem);
 	overflow: hidden;
 	border: 1px solid color-mix(in srgb, var(--stone-edge) 70%, transparent);
 	border-radius: 1rem;
@@ -231,7 +231,7 @@ blockquote {
 }
 
 .blog-evidence--portrait-right {
-	grid-template-columns: minmax(17rem, 0.85fr) minmax(0, 1.35fr);
+	grid-template-columns: minmax(18rem, 0.86fr) minmax(0, 1.42fr);
 }
 
 .blog-evidence--portrait-right .blog-evidence__media {
@@ -286,7 +286,7 @@ blockquote {
 
 .blog-evidence--portrait .blog-evidence__body {
 	justify-content: flex-end;
-	padding: 1.5rem;
+	padding: 1.6rem;
 }
 
 .blog-evidence .blog-evidence__label {
@@ -324,8 +324,10 @@ blockquote {
 }
 
 .blog-evidence--portrait .blog-evidence__quote p {
-	font-size: clamp(1.2rem, 2.25vw, 1.48rem);
-	line-height: 1.42;
+	font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+	font-weight: 610;
+	line-height: 1.34;
+	letter-spacing: -0.018em;
 }
 
 .blog-evidence .blog-evidence__speaker {
@@ -361,7 +363,7 @@ blockquote {
 
 .blog-evidence .blog-evidence__context {
 	margin: 0.6rem 0 0;
-	font-size: 0.74rem;
+	font-size: 0.7rem;
 	line-height: 1.48;
 	color: var(--ink-dim);
 }
@@ -371,12 +373,12 @@ blockquote {
 	min-width: 0;
 	flex-direction: column;
 	gap: 0.32rem;
-	margin-top: 1rem;
-	padding-top: 0.8rem;
+	margin-top: 0.9rem;
+	padding-top: 0.72rem;
 	border-top: 1px solid color-mix(in srgb, var(--stone-edge) 54%, transparent);
 	font-family: var(--font-mono);
-	font-size: 0.6875rem;
-	line-height: 1.5;
+	font-size: 0.65rem;
+	line-height: 1.55;
 	color: var(--ink-dim);
 }
 
@@ -468,7 +470,7 @@ blockquote {
 	}
 
 	.blog-evidence--portrait .blog-evidence__media {
-		height: clamp(20rem, 96vw, 24rem);
+		height: clamp(22rem, 108vw, 27rem);
 	}
 
 	.blog-evidence--portrait .blog-evidence__body {
@@ -666,255 +668,6 @@ blockquote {
 		font-size: 0.85rem;
 		font-style: normal;
 		color: var(--ink-dim);
-	}
-}
-
-/* DJ's first-hand reasoning card. Structured content is registered in
- * src/lib/data/djPersonalityReads.ts so this presentation can be reused across
- * the article, founder media, and future transparency surfaces. */
-.dj-read {
-	position: relative;
-	width: 100%;
-	margin: 2rem 0 3rem;
-	padding: clamp(1.1rem, 3vw, 1.75rem);
-	overflow: hidden;
-	border: 1px solid color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 45%, var(--stone-edge));
-	border-radius: 0.625rem;
-	background:
-		linear-gradient(
-			145deg,
-			color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 10%, var(--night-mid)) 0%,
-			var(--night-deep) 58%
-		),
-		var(--night-deep);
-	box-shadow: 0 1.25rem 3.5rem color-mix(in srgb, var(--night-deep) 55%, transparent);
-	color: var(--ink-bright);
-
-	&::before {
-		content: '';
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 3px;
-		background: var(--type-accent, var(--lamp-glow));
-	}
-}
-
-.dj-read__header {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-between;
-	gap: 1rem;
-	margin-bottom: 1rem;
-
-	h3 {
-		margin: 0 !important;
-		padding: 0 !important;
-		font-family: var(--font-display);
-		font-size: clamp(1.45rem, 4vw, 2rem) !important;
-		line-height: 1.05;
-		letter-spacing: -0.025em;
-		color: var(--ink-bright);
-	}
-}
-
-.dj-read__eyebrow {
-	margin: 0 0 0.45rem !important;
-	font-family: var(--font-mono);
-	font-size: 0.68rem !important;
-	font-weight: 700;
-	line-height: 1.3;
-	letter-spacing: 0.09em;
-	color: var(--type-accent, var(--lamp-glow)) !important;
-}
-
-.dj-read__type {
-	flex: none;
-	padding: 0.4rem 0.65rem;
-	border: 1px solid color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 50%, transparent);
-	border-radius: 999px;
-	background: color-mix(in srgb, var(--type-accent, var(--lamp-glow)) 12%, transparent);
-	font-family: var(--font-mono);
-	font-size: 0.72rem;
-	font-weight: 800;
-	letter-spacing: 0.04em;
-	color: var(--ink-bright);
-}
-
-.dj-read__meta {
-	display: grid;
-	grid-template-columns: minmax(7rem, 0.7fr) minmax(0, 2fr);
-	gap: 0.5rem;
-	margin: 0 0 1.15rem;
-
-	p {
-		display: flex;
-		flex-direction: column;
-		gap: 0.18rem;
-		min-width: 0;
-		margin: 0 !important;
-		padding: 0.65rem 0.75rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
-		border-radius: 0.375rem;
-		background: color-mix(in srgb, var(--stone-warm) 55%, transparent);
-	}
-
-	span {
-		font-family: var(--font-mono);
-		font-size: 0.62rem;
-		font-weight: 700;
-		letter-spacing: 0.07em;
-		text-transform: uppercase;
-		color: var(--ink-dim);
-	}
-
-	strong {
-		font-size: 0.84rem;
-		line-height: 1.35;
-		color: var(--ink-bright);
-	}
-}
-
-.dj-read__thesis {
-	margin: 0 0 1.35rem !important;
-	padding: 0 0 0 1rem;
-	border-left: 2px solid var(--type-accent, var(--lamp-glow));
-	font-family: var(--font-display);
-	font-size: clamp(1.05rem, 2.4vw, 1.22rem) !important;
-	font-weight: 650;
-	line-height: 1.55;
-	color: var(--ink-bright) !important;
-}
-
-.dj-read__connections {
-	display: grid;
-	grid-template-columns: repeat(2, minmax(0, 1fr));
-	gap: 0.75rem;
-	margin: 0 0 1rem !important;
-	padding: 0 !important;
-	list-style: none;
-	counter-reset: dj-read-claim;
-
-	li {
-		position: relative;
-		margin: 0 !important;
-		padding: 0.9rem;
-		border: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
-		border-radius: 0.5rem;
-		background: color-mix(in srgb, var(--night-mid) 78%, transparent);
-		counter-increment: dj-read-claim;
-	}
-
-	h4 {
-		display: flex;
-		align-items: baseline;
-		gap: 0.45rem;
-		margin: 0 0 0.65rem !important;
-		font-size: 0.98rem;
-		line-height: 1.3;
-		color: var(--ink-bright);
-
-		&::before {
-			content: '0' counter(dj-read-claim);
-			font-family: var(--font-mono);
-			font-size: 0.62rem;
-			color: var(--type-accent, var(--lamp-glow));
-		}
-	}
-
-	p {
-		margin: 0 !important;
-		font-size: 0.84rem !important;
-		line-height: 1.55;
-		color: var(--ink-mid) !important;
-	}
-}
-
-.dj-read__hesitation {
-	margin: 0 0 1rem;
-	padding: 0.85rem 0.95rem;
-	border-radius: 0.5rem;
-	background: color-mix(in srgb, var(--data-amber, var(--lamp-glow)) 8%, var(--night-mid));
-
-	> span {
-		display: block;
-		margin-bottom: 0.25rem;
-		font-family: var(--font-mono);
-		font-size: 0.62rem;
-		font-weight: 800;
-		letter-spacing: 0.07em;
-		text-transform: uppercase;
-		color: var(--data-amber, var(--lamp-glow));
-	}
-
-	p {
-		margin: 0 !important;
-		font-size: 0.8rem !important;
-		line-height: 1.55;
-		color: var(--ink-mid) !important;
-	}
-}
-
-.dj-read__link {
-	display: inline-flex;
-	align-items: center;
-	gap: 0.45rem;
-	font-family: var(--font-mono);
-	font-size: 0.7rem;
-	font-weight: 800;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	color: var(--type-accent, var(--lamp-glow)) !important;
-	text-decoration: none;
-
-	&::after {
-		content: '↓';
-		font-size: 0.9rem;
-	}
-
-	&:hover {
-		text-decoration: underline;
-		text-underline-offset: 0.22em;
-	}
-}
-
-@media (max-width: 680px) {
-	.dj-read {
-		padding: 1rem;
-	}
-
-	.dj-read__header {
-		flex-direction: column;
-	}
-
-	.dj-read__meta,
-	.dj-read__connections {
-		grid-template-columns: 1fr;
-		gap: 0;
-		border-top: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
-
-		li {
-			padding: 0.8rem 0;
-			border: 0;
-			border-bottom: 1px solid color-mix(in srgb, var(--ink-dim) 22%, transparent);
-			border-radius: 0;
-			background: transparent;
-		}
-
-		h4 {
-			margin-bottom: 0.35rem !important;
-			font-size: 0.92rem;
-		}
-
-		p {
-			font-size: 0.79rem !important;
-		}
-	}
-
-	.dj-read__thesis {
-		font-size: 1.02rem !important;
-		line-height: 1.5;
 	}
 }
 

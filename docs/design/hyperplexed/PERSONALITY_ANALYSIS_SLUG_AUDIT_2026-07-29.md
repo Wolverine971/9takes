@@ -200,13 +200,36 @@ inside the essay instead of a card inside another card. **Patterns: P4 + P6.**
 Placement is now author-controlled through an explicit `<EnneagramTypeDossier />` marker in each
 personality draft. A ten-profile review batch places the dossier inside the section that establishes
 the person's Enneagram type: Elon Musk, Donald Trump, Dua Lipa, Zendaya, Cristiano Ronaldo, Jordan
-Peterson, Lionel Messi, Adele, Selena Gomez, and Beyoncé Knowles. Elon's dossier and first-hand
-reasoning card are separated by a heading and several paragraphs so two feature modules never land
-back-to-back.
+Peterson, Lionel Messi, Adele, Selena Gomez, and Beyoncé Knowles. Elon's dossier is followed by a
+subject-led reasoning section rather than a second feature module.
 
 - Local Adela passed at 1440×1000 and 390×844 in dark mode. The dossier's direct parent computes with
   no background or border, and the 390px layout has no horizontal overflow.
 - A targeted parser test verifies exactly one dossier marker per reviewed profile, within the
-  profile's type-analysis section, plus the staggered Elon reasoning card.
+  profile's type-analysis section.
 - `pnpm check` passes with 0 errors and 132 existing warnings. The targeted parser suite passes all
   41 tests. Radius lint remains blocked only by the two unrelated existing admin-route violations.
+
+### 2026-08-15 reasoning-card editorial-flow follow-up
+
+The Elon pilot established that the structured reasoning is more useful as an authoring source than
+as a second public summary. The card repeated the article's thesis, Type 5 conclusion, alternative
+typing, and evidence chain; its separate Elon title and dashboard geometry created a page inside the
+page on desktop. The public component and global presentation styles are removed. Older database body
+markers are stripped during server processing so the interruption disappears before the next body
+sync. **Patterns: P4 + P6 + P8 + P19.**
+
+The underlying reasoning ledger remains intact for editorial review and future founder media. In the
+article, `DJ's reasoning: his mind is his shelter` becomes `How Elon Musk turns uncertainty into a
+map`, and nearby prose is rewritten in a subject-led voice while retaining the Type 8 alternative and
+the interpretive boundary. The legacy `#dj-reasoning` anchor remains to avoid breaking old links.
+
+- The database-backed local Elon route passes at 1440×1000 and 390×844 in light mode: the dossier
+  moves directly into the subject-led section, the desktop contents rail highlights the new heading,
+  and no reasoning-card shell appears.
+- Phone width measures 390px of document width against a 390px viewport, with zero horizontal
+  overflow; the public DOM contains zero `.dj-read` or `[data-dj-read-id]` elements.
+- The browser console is empty. The dedicated reasoning-processor case and all 31 parser tests pass;
+  `pnpm check` reports 0 errors and 132 existing warnings. Global-CSS lint, color lint, formatting,
+  and diff whitespace checks also pass.
+- Radius lint remains blocked only by the same two unrelated existing admin-route declarations.

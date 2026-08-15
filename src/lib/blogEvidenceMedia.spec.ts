@@ -42,8 +42,14 @@ describe('blog evidence media registry', () => {
 		expect(getBlogEvidenceMedia('elon-talulah-riley-childhood-quote')).toMatchObject({
 			presentation: { variant: 'portrait' },
 			image: {
-				src: '/blog-enrichment/elon-musk/talulah-riley-2009.webp',
-				rights: { license: 'CC BY-SA 2.0' }
+				src: '/blog-enrichment/elon-musk/talulah-riley-portrait-2024.webp',
+				rights: { status: 'fair-use' }
+			}
+		});
+		expect(getBlogEvidenceMedia('elon-justine-musk-intimacy-quote')).toMatchObject({
+			image: {
+				src: '/blog-enrichment/elon-musk/justine-musk-speaking-2014.webp',
+				height: 1200
 			}
 		});
 		expect(getBlogEvidenceMedia('missing-evidence')).toBeUndefined();

@@ -1,4 +1,8 @@
 // src/lib/data/djPersonalityReads.ts
+// Editorial source of truth for DJ's observations, interpretations, competing
+// explanations, and source trail. Public articles should integrate this
+// reasoning into their subject-led narrative rather than render it as a second
+// standalone summary card.
 export type DJReadConfidence = 'low' | 'medium' | 'high';
 
 export type DJReadSource = {

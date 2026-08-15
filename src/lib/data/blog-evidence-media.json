@@ -38,28 +38,35 @@
 			"id": "elon-talulah-riley-childhood-quote",
 			"blog_slug": "elon-musk",
 			"kind": "quote-portrait",
-			"label": "Talulah Riley · 2009",
+			"label": "Talulah Riley",
 			"image": {
-				"src": "/blog-enrichment/elon-musk/talulah-riley-2009.webp",
-				"alt": "Portrait of Talulah Riley on the set of St. Trinian's 2 in August 2009",
+				"src": "/blog-enrichment/elon-musk/talulah-riley-portrait-2024.webp",
+				"alt": "Talulah Riley photographed at the London Institute for Mathematical Sciences in 2024",
 				"width": 960,
-				"height": 1552,
-				"object_position": "50% 28%",
+				"height": 1200,
+				"object_position": "50% 38%",
 				"source": {
-					"name": "Talulah Riley on the set of St. Trinian's 2",
-					"url": "https://commons.wikimedia.org/wiki/File:TalulahRileyAug09.jpg",
-					"author": "rodwey2004",
-					"publisher": "Wikimedia Commons",
-					"date_published": "2009-08-27"
+					"name": "Welcome, Talulah",
+					"url": "https://lims.ac.uk/news/welcome-talulah/",
+					"author": "London Institute for Mathematical Sciences",
+					"publisher": "LIMS",
+					"date_published": "2024-08-16"
 				},
 				"rights": {
-					"status": "licensed",
-					"creator": "rodwey2004",
-					"license": "CC BY-SA 2.0",
-					"license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
-					"attribution": "rodwey2004, CC BY-SA 2.0, via Wikimedia Commons",
-					"modifications": ["resized", "converted to WebP"],
-					"retrieved_at": "2026-08-15"
+					"status": "fair-use",
+					"creator": "London Institute portrait",
+					"rights_holder": "No reusable license is stated on the London Institute source page",
+					"attribution": "London Institute for Mathematical Sciences; reproduced for editorial commentary",
+					"modifications": ["cropped to a 4:5 portrait", "resized", "converted to WebP"],
+					"retrieved_at": "2026-08-15",
+					"fair_use": {
+						"purpose": "The reduced portrait identifies Riley beside a sourced quotation about her relationship with Musk and replaces an unrelated costume image; it is used for biographical criticism and commentary.",
+						"nature": "A previously published institutional editorial portrait with creative elements, weighing against fair use more than a purely factual image would.",
+						"amount": "One cropped, reduced-resolution image is used without a gallery, download link, or reproduction of the surrounding photo feature.",
+						"market_effect": "The card credits and links to the London Institute source, is not a substitute for its article or a licensable high-resolution file, and uses only the resolution required for the inline analysis.",
+						"risk": "medium",
+						"legal_review": "recommended"
+					}
 				}
 			},
 			"quote": {
@@ -74,7 +81,7 @@
 					"date_published": "2023-09-12"
 				}
 			},
-			"context": "Riley photographed on the set of St. Trinian's 2 in August 2009.",
+			"context": "Riley photographed as a London Institute trustee in 2024.",
 			"presentation": { "variant": "portrait" }
 		},
 		{
@@ -83,26 +90,26 @@
 			"kind": "quote-portrait",
 			"label": "Kimbal Musk",
 			"image": {
-				"src": "/blog-enrichment/elon-musk/kimbal-musk-2012.webp",
-				"alt": "Kimbal Musk outside The Kitchen in Boulder in May 2012",
+				"src": "/blog-enrichment/elon-musk/kimbal-musk-headshot-2013.webp",
+				"alt": "Official portrait of Kimbal Musk wearing a white cowboy hat",
 				"width": 960,
-				"height": 627,
-				"object_position": "68% 38%",
+				"height": 1200,
+				"object_position": "50% 38%",
 				"source": {
-					"name": "Kimbal Musk outside The Kitchen",
-					"url": "https://commons.wikimedia.org/wiki/File:KimbalMusk.jpg",
-					"author": "Wikiupdate1019",
+					"name": "Kimbal Musk official headshot",
+					"url": "https://commons.wikimedia.org/wiki/File:KIMBAL_MUSK_OFFICIAL_HEADSHOT.jpg",
+					"author": "1000x2020",
 					"publisher": "Wikimedia Commons",
-					"date_published": "2012-05-15"
+					"date_published": "2013-02-21"
 				},
 				"rights": {
 					"status": "licensed",
-					"creator": "Wikiupdate1019",
-					"license": "CC BY-SA 3.0",
-					"license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-					"attribution": "Wikiupdate1019, CC BY-SA 3.0, via Wikimedia Commons",
-					"modifications": ["resized", "converted to WebP"],
-					"retrieved_at": "2026-07-26"
+					"creator": "1000x2020",
+					"license": "CC BY-SA 4.0",
+					"license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+					"attribution": "1000x2020, CC BY-SA 4.0, via Wikimedia Commons",
+					"modifications": ["cropped to a 4:5 portrait", "resized", "converted to WebP"],
+					"retrieved_at": "2026-08-15"
 				}
 			},
 			"quote": {
@@ -125,30 +132,30 @@
 			"kind": "quote-portrait",
 			"label": "Justine Musk",
 			"image": {
-				"src": "/blog-enrichment/elon-musk/justine-musk-2010.webp",
-				"alt": "Justine Musk seated in her Los Angeles home in 2010",
-				"width": 768,
-				"height": 512,
-				"object_position": "82% 45%",
+				"src": "/blog-enrichment/elon-musk/justine-musk-speaking-2014.webp",
+				"alt": "Justine Musk speaking onstage at TEDxOlympicBlvdWomen in 2014",
+				"width": 960,
+				"height": 1200,
+				"object_position": "50% 40%",
 				"source": {
-					"name": "I Was a Starter Wife: Inside America's Messiest Divorce",
-					"url": "https://www.marieclaire.com/sex-love/a5380/millionaire-starter-wife/",
-					"author": "Justine Musk",
-					"publisher": "Marie Claire",
-					"date_published": "2010-09-10"
+					"name": "The art of the deep yes",
+					"url": "https://www.youtube.com/watch?v=ptFYmNuRNyQ",
+					"author": "TEDx Talks",
+					"publisher": "YouTube",
+					"date_published": "2014-02-07"
 				},
 				"rights": {
 					"status": "fair-use",
-					"creator": "Lauren Greenfield",
-					"rights_holder": "Ownership not independently verified; credited by Marie Claire to Lauren Greenfield",
-					"attribution": "Lauren Greenfield / Marie Claire; reproduced for editorial commentary",
-					"modifications": ["used a 768px publisher rendition", "converted to WebP"],
-					"retrieved_at": "2026-07-26",
+					"creator": "TEDx Talks",
+					"rights_holder": "TEDxOlympicBlvdWomen / TEDx Talks; no reusable license is stated on the video",
+					"attribution": "TEDx Talks / YouTube; reproduced as a reduced-resolution speaking still for editorial commentary",
+					"modifications": ["cropped from a published video still", "resized", "converted to WebP"],
+					"retrieved_at": "2026-08-15",
 					"fair_use": {
-						"purpose": "The image identifies the first-person speaker beside analysis and criticism of her published account; it is contextual evidence, not decoration or a standalone gallery use.",
-						"nature": "A previously published editorial photograph with creative elements, weighing against fair use more than a purely factual image would.",
-						"amount": "One reduced-resolution rendition is used, with no gallery, download link, or reproduction of the full photo feature.",
-						"market_effect": "The card credits and links to the original Marie Claire feature and is not a substitute for the article, print publication, or a licensable high-resolution file.",
+						"purpose": "The speaking still identifies Justine Musk as the first-person source beside criticism and analysis of her published account; it directly answers the editorial need to show her communicating rather than posed in a domestic scene.",
+						"nature": "A frame from a previously published public talk with creative audiovisual elements, weighing against fair use more than a purely factual image would.",
+						"amount": "One tightly cropped, reduced-resolution frame from the full public talk is used, with no video excerpt, gallery, or download link.",
+						"market_effect": "The card credits and links to the full TEDx talk and is not a substitute for watching the video or licensing its original footage.",
 						"risk": "medium",
 						"legal_review": "recommended"
 					}
@@ -166,7 +173,7 @@
 					"date_published": "2010-09-10"
 				}
 			},
-			"context": "From her first-person account of their marriage.",
+			"context": "Justine Musk speaking in 2014, four years after her first-person Marie Claire essay.",
 			"presentation": { "variant": "portrait" }
 		},
 		{

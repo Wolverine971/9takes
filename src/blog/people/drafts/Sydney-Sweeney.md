@@ -77,37 +77,40 @@ path: src/blog/people/drafts/Sydney-Sweeney.md
 content_quality:
   hook: 9
   enneagram: 8
-  evidence: 8
+  evidence: 9
   writing: 8
   originality: 9
   discoverability: 9
-  overall: 8.5
+  overall: 8.7
   letter: B+
   rubric_version: 2
   caps_applied: ['enneagram_no_rabbit_hole']
   confidence: high
   anchor: 'Matt-Smith draft (2026-06-28) — B band'
   needs_review: false
+  first_overall: 8.5
+  regrade_overall: 8.7
+  grade_stability_delta: 0.2
   graded_at: '2026-08-15'
 ---
 
 <p class="firstLetter">She was trending on Twitter. Strangers were calling her ugly.</p>
 
-It was May 2021. Sydney Sweeney had spent the day on a Cosmopolitan lingerie shoot, dizzy and nauseous, vomiting between takes. She came home, opened Twitter, and found her name attached to thousands of posts dissecting her face and body.
+It was May 2021. Sweeney had spent that morning on a lingerie campaign shoot, dizzy and nauseous. "All of a sudden, I threw up in the middle of this shoot, everywhere," she told <a href="https://www.buzzfeednews.com/article/stephaniesoteriou/euphoria-sydney-sweeney-instagram-live-crying-ugly">Cosmopolitan</a> the following February. That night a friend texted to say she couldn't rely on her and didn't want to be her friend anymore. Then she opened Twitter and found her name attached to thousands of posts dissecting her face and body.
 
 **Based on her interviews and public record, Sydney Sweeney's clearest personality traits are relentless drive, preparation, privacy, image-awareness, and fear of failure. In Enneagram terms, those patterns fit Type 3w4, the achievement-focused type with a more private, artistic wing.**
 
 She went on Instagram Live and cried on camera.
 
-"Apparently I am trending on Twitter right now for being ugly. I know everyone says, 'You can't read things,' and 'You shouldn't read things,' but like, I'm a f---ing person." (<a href="https://www.eonline.com/news/1267576/euphorias-sydney-sweeney-breaks-down-in-tears-after-being-criticized-for-her-appearance">E! News</a>)
+"Apparently I am trending on Twitter right now for being ugly. I know everyone says, 'You can't read things,' and 'You shouldn't read things,' but like, I'm a f---ing person." (<a href="https://www.eonline.com/news/1267576/euphorias-sydney-sweeney-breaks-down-in-tears-after-being-criticized-for-her-appearance">E! News</a>, May 2021)
 
-What broke that night had been holding since she was twelve. Before every role, Sweeney spends hundreds of dollars at Michaels on craft supplies, cardstock, markers, and glue. She builds a handmade book for each character. Their whole life, birth to page one of the script. Relationships, memories, the world between scenes. She's done this since she was twelve.
+What broke that night had been holding since she was twelve. Before every role, Sweeney spends hundreds of dollars at Michaels on craft supplies, cardstock, markers, and glue. She builds a handmade book for each character. Their whole life, birth to page one of the script. Relationships, memories, the world between scenes.
 
-"I wanted to make sure that none of my own memories, my own personal life, was in the character." (<a href="https://www.backstage.com/magazine/article/sydney-sweeney-euphoria-audition-advice-70895/">Backstage</a>)
+"I wanted to make sure that none of my own memories, my own personal life, was in the character." (<a href="https://www.backstage.com/magazine/article/sydney-sweeney-euphoria-audition-advice-70895/">Backstage</a>, June 2020)
 
 She built one of the most emotionally raw careers in Hollywood while constructing an airtight system to keep her own feelings out of the frame. The system held through nudity controversies, a family bankruptcy, a broken engagement, and a $400 million box office hit.
 
-It cracked on a Tuesday night when her body was already failing and strangers decided she was ugly.
+It cracked on a night when her body was already failing and strangers decided she was ugly.
 
 Not a career setback. Not a bad review. The architecture of separation held until the body couldn't hold it anymore. That gap between the system and the person tells you everything about what drives Sydney Sweeney.
 
@@ -131,11 +134,11 @@ Not a career setback. Not a bad review. The architecture of separation held unti
 
 At twelve, Sydney Sweeney made three decisions that still govern her life.
 
-She created a PowerPoint presentation with a five-year business plan for her acting career. Not a wish list. A chain reaction: "If she auditioned for X short film, she'd be recruited by agents Y and Z, and then she'd book this film where she'll meet this well-connected producer, and so on." Auditions, agents, SAG card timeline, finances. She still has the PowerPoint. (<a href="https://www.cnbc.com/2022/02/20/euphoria-star-sydney-sweeney-wrote-a-5-year-career-plan-when-she-was-12.html">CNBC</a>; expanded in her Glamour Women of the Year 2024 cover story)
+She created a PowerPoint presentation with a five-year business plan for her acting career. Not a wish list. A chain reaction: "If she auditioned for X short film, she'd be recruited by agents Y and Z, and then she'd book this film where she'll meet this well-connected producer, and so on." Auditions, agents, SAG card timeline, finances. She still has the PowerPoint. (<a href="https://www.cnbc.com/2022/02/20/euphoria-star-sydney-sweeney-wrote-a-5-year-career-plan-when-she-was-12.html">CNBC</a>, February 2022; expanded in her Glamour Women of the Year 2024 cover story)
 
 She started building the character books.
 
-And she decided to only drink water. No coffee. No soda. Nothing else. As of her WSJ. Magazine interview in 2024, she had still never tried coffee in her life. "I just drink water," she said. When she needs energy, she reaches for Swedish Fish. (<a href="https://www.facebook.com/WSJ/videos/660556616438584/">WSJ. Magazine</a>)
+And she decided to only drink water. No coffee. No soda. Nothing else. As of her WSJ. Magazine interview in 2024, she had still never tried coffee in her life. "I just drink water," she said. When she needs energy, she reaches for Swedish Fish. (<a href="https://www.facebook.com/WSJ/videos/660556616438584/">WSJ. Magazine</a>, 2024)
 
 Three systems, all set in place by a child. All still running sixteen years later.
 
@@ -143,7 +146,7 @@ That same year, she auditioned for a role in John Carpenter's _The Ward_. The ch
 
 She asked her parents to lock her in the crawl space of their house.
 
-A twelve-year-old girl in Spokane, Washington, folded herself into the dark space beneath her family's floor. Dust, insulation, the smell of old wood. Her parents above her, waiting. She told them to leave her there as long as she could stand it. Their reaction, as she later told Backstage: "You're a strange child, but also, at the same time, this is kind of cool." (<a href="https://www.backstage.com/magazine/article/sydney-sweeney-euphoria-audition-advice-70895/">Backstage</a>)
+A twelve-year-old girl in Spokane, Washington, folded herself into the dark space beneath her family's floor. Dust, insulation, the smell of old wood. Her parents above her, waiting. She told them to leave her there as long as she could stand it. Their reaction, as she later told Backstage: "You're a strange child, but also, at the same time, this is kind of cool." (<a href="https://www.backstage.com/magazine/article/sydney-sweeney-euphoria-audition-advice-70895/">Backstage</a>, June 2020)
 
 She got the part.
 
@@ -153,7 +156,7 @@ At twelve, she was already making lifelong rules and locking herself in dark spa
 
 Before the systems could work, they had to be paid for. The currency was everything her family had.
 
-The Sweeneys had lived on a lakeside property in the Idaho panhandle for five generations. Sydney's great-grandparents had owned the home; her grandmother was born in it. Her mother Lisa was a criminal defense attorney. Her father Steven worked in hospitality. They discouraged electronics. Sydney spent her childhood swimming, skiing, building tree houses, and wakeboarding. The scar beside her eye is from a wakeboarding accident at age ten. "I tried to do a 360, but the tip of my board came up and sliced me in the face," she told W Magazine. "I had to get, like, 17 stitches." (<a href="https://www.wmagazine.com/culture/sydney-sweeney-cover-interview-the-housemaid-christy">W Magazine</a>)
+The Sweeneys had lived on a lakeside property in the Idaho panhandle for five generations. Sydney's great-grandparents had owned the home; her grandmother was born in it. Her mother Lisa was a criminal defense attorney. Her father Steven worked in hospitality. They discouraged electronics. Sydney spent her childhood swimming, skiing, building tree houses, and wakeboarding. The scar beside her eye is from a wakeboarding accident at age ten. "I tried to do a 360, but the tip of my board came up and sliced me in the face," she told W Magazine. "I had to get, like, 17 stitches." (<a href="https://www.wmagazine.com/culture/sydney-sweeney-cover-interview-the-housemaid-christy">W Magazine</a>, January 2026)
 
 When Sydney asked to pursue acting, the family started making 38-hour round trips between Spokane and Los Angeles for auditions. For nearly two years.
 
@@ -165,7 +168,7 @@ They sold the lakehouse.
 
 In Los Angeles, the money ran out. Steven lost his job during the Great Recession. The family of four moved into a Holiday Inn in Burbank.
 
-"We lived in one room. My mom and I shared a bed, and my dad and little brother shared a couch." (<a href="https://www.hollywoodreporter.com/tv/tv-features/sydney-sweeney-fame-emmys-euphoria-the-white-lotus-1235186681/">The Hollywood Reporter</a>)
+"We lived in one room. My mom and I shared a bed, and my dad and little brother shared a couch." (<a href="https://www.hollywoodreporter.com/tv/tv-features/sydney-sweeney-fame-emmys-euphoria-the-white-lotus-1235186681/">The Hollywood Reporter</a>, July 2022)
 
 The little brother on the couch was Trent, three years younger. He had his own acting auditions — reading for Ron Howard on _The Dark Tower_, testing for the lead in _Ender's Game_ — before enlisting in the Air Force in 2020. By August 2025 he had been promoted to Staff Sergeant. In March 2026, Sydney revealed he had been deployed overseas. (<a href="https://thehill.com/homenews/5802533-sydney-sweeney-reveals-younger-brother-deployed-overseas-thanks-troops/">The Hill</a>) Two kids who shared one hotel room. Different uniforms in the end.
 
@@ -177,7 +180,7 @@ In 2016, her parents filed for bankruptcy. The next year they divorced. The move
 
 A generational home. A marriage. Financial stability. All exchanged for a child's business plan.
 
-"My parents sacrificed so much to support my dream, and they lost so much during it. I just felt a responsibility to show them that it was worth it." (<a href="https://www.hollywoodreporter.com/tv/tv-features/sydney-sweeney-fame-emmys-euphoria-the-white-lotus-1235186681/">THR</a>)
+"My parents sacrificed so much to support my dream, and they lost so much during it. I just felt a responsibility to show them that it was worth it." (<a href="https://www.hollywoodreporter.com/tv/tv-features/sydney-sweeney-fame-emmys-euphoria-the-white-lotus-1235186681/">THR</a>, July 2022)
 
 Then the line that explains everything:
 
@@ -193,13 +196,13 @@ Before _Euphoria_, before the Twitter pile-on, Sweeney was already articulating 
 
 In 2018, at twenty, she filmed two simultaneous prestige dramas. In _The Handmaid's Tale_ she played Eden Spencer, the fifteen-year-old true-believer Gileadean girl forcibly married to Nick and eventually executed by drowning. In _Sharp Objects_, Jean-Marc Vallée's final completed work before his death, she played Alice, the self-harming teen patient who shares a room with Amy Adams's character in a psychiatric facility.
 
-About Eden's wardrobe, she told Brief Take: "Whenever I wore her costumes I was stripping everything of Sydney and everything of Eden was being put on me. The way that the costumes fit, it changes the way that Eden holds herself." (<a href="https://brieftake.com/interview-the-handmaids-tale-sydney-sweeney/">Brief Take</a>)
+About Eden's wardrobe, she told Brief Take: "Whenever I wore her costumes I was stripping everything of Sydney and everything of Eden was being put on me. The way that the costumes fit, it changes the way that Eden holds herself." (<a href="https://brieftake.com/interview-the-handmaids-tale-sydney-sweeney/">Brief Take</a>, 2018)
 
 About Alice, she told Nylon something even more direct:
 
-"I went to such a deep place, and that is scary. But because I made the book, I'm able to jump in and out of it." (<a href="https://www.nylon.com/articles/sharp-objects-sydney-sweeney-interview">Nylon</a>)
+"I went to such a deep place, and that is scary. But because I made the book, I'm able to jump in and out of it." (<a href="https://www.nylon.com/articles/sharp-objects-sydney-sweeney-interview">Nylon</a>, July 2018)
 
-That is the system, named on the record, at twenty. Three years before _Euphoria_. Before anyone was looking at her closely enough to ask. The architecture wasn't built in response to fame. Fame just made it visible.
+That is the method, named on the record, at twenty. Three years before _Euphoria_. Before anyone was looking at her closely enough to ask. It wasn't built in response to fame. Fame just made it visible.
 
 Six years later, on Ron Howard's _Eden_ — opposite Daniel Craig, Jude Law, Ana de Armas, and Vanessa Kirby — she would say something the twenty-year-old wouldn't have:
 
@@ -227,7 +230,7 @@ Type 3s come in two flavors. **3w2** is the charm-forward, relational Achiever �
 
 Sweeney is unmistakably 3w4. The tells are everywhere:
 
-- She names the gap between persona and self in almost every long-form interview. "I think women, no matter what field they're in, have to deal with this gap, between our public persona or society's expectations of us, and who we really are." (<a href="https://www.israelhayom.com/2025/12/03/sydney-sweeney-interview-fighter-spirit-hollywood-backlash/">Israel Hayom</a>)
+- She names the gap between persona and self in almost every long-form interview. "I think women, no matter what field they're in, have to deal with this gap, between our public persona or society's expectations of us, and who we really are." (<a href="https://www.israelhayom.com/2025/12/03/sydney-sweeney-interview-fighter-spirit-hollywood-backlash/">Israel Hayom</a>, December 2025)
 - She chooses dramatic range over the easier rom-com lane: _Reality_, _Christy_, _Eden_, _Echo Valley_. None of these were easy money.
 - She admits imposter syndrome on the record. A 3w2 would deflect; a 3w4 sits with it.
 - The dreams quote — the inability to remember whether she still dreams — is a 4-wing collapse, not a 2-wing collapse. A 2-wing 3 in stress goes hyper-helpful and burns out from over-giving. A 4-wing 3 in stress goes inward and loses access to feeling.
@@ -237,7 +240,7 @@ Sweeney is unmistakably 3w4. The tells are everywhere:
 Each Enneagram type has three [instinctual subtypes](/enneagram-corner/enneagram-concepts) — self-preservation (sp), social (so), and sexual (sx) — and one usually leads. Sweeney's sp dominance is the most over-determined finding in her public record.
 
 - **The water rule.** No coffee, no soda, no anything since age twelve. That is an sp signature — bodily control as identity management.
-- **The financial anxiety.** "If I wanted to take a six-month break, I don't have income to cover that. I don't have someone supporting me, I don't have anyone I can turn to, to pay my bills or call for help." (<a href="https://www.hollywoodreporter.com/tv/tv-features/sydney-sweeney-fame-emmys-euphoria-the-white-lotus-1235186681/">THR</a>) Not "I don't make enough money." _I don't have someone I can turn to._ That isn't 6-type worry, that's sp-3 fortress-thinking: the isolation is the wound, and achievement is the only safety net she trusts.
+- **The financial anxiety.** "If I wanted to take a six-month break, I don't have income to cover that. I don't have someone supporting me, I don't have anyone I can turn to, to pay my bills or call for help." (<a href="https://www.hollywoodreporter.com/tv/tv-features/sydney-sweeney-fame-emmys-euphoria-the-white-lotus-1235186681/">THR</a>, July 2022) Not "I don't make enough money." _I don't have someone I can turn to._ That isn't 6-type worry, that's sp-3 fortress-thinking: the isolation is the wound, and achievement is the only safety net she trusts.
 - **The producing company as financial defense.** Fifty-Fifty Films wasn't an art project; it was a hedge against losing control of her own income stream.
 - **The combat-sports background.** Weight class, bodily mastery, weld quality. Sp territory.
 
@@ -255,37 +258,35 @@ A 3-1-5 reads as the executive-craftsman-researcher. It tracks. The character bo
 
 The role that made Sweeney a cultural lightning rod was the one most opposite to her own psychology.
 
-Cassie Howard in _Euphoria_ is messy, uncontrolled, image-obsessed, desperate to be chosen. She's what a [Type 3 looks like when the architecture collapses](/enneagram-corner/enneagram-types-in-stress) — all the shame exposed, no system to manage it. Every cringe-inducing Cassie scene is the nightmare version of what Sweeney's character books are designed to prevent.
+Cassie Howard in _Euphoria_ is messy, uncontrolled, image-obsessed, desperate to be chosen. She's what a [Type 3 looks like when the scaffolding collapses](/enneagram-corner/enneagram-types-in-stress) — all the shame exposed, nothing left to manage it with. Every cringe-inducing Cassie scene is the nightmare version of what Sweeney's character books are designed to prevent.
 
 The craft required to play that collapse is invisible by design.
 
-For the Season 2 birthday party scene, Sweeney had a tube threaded through her costume and into her mouth, pumping fake vomit. She clamped down on a "horse bit" device while acting like nothing was happening, then opened her mouth on cue. CGI removed the pipe from her neck in post. (<a href="https://www.marieclaire.com/celebrity/sydney-sweeney-euphoria-hot-tub-scene/">Marie Claire</a>)
-
-"The most disgusting thing I ever experienced."
+For the Season 2 hot tub scene, Sweeney had a tube threaded through her costume and into her mouth, pumping fake vomit. She clamped down on a "horse bit" device while acting like nothing was happening, then opened her mouth on cue. CGI removed the pipe from her neck in post. She called it "the most disgusting thing I've ever experienced." (Hot Ones, January 2024, via <a href="https://www.hollywoodreporter.com/tv/tv-news/sydney-sweeney-details-euphoria-hot-tub-puking-scene-1235808586/">The Hollywood Reporter</a>)
 
 For the Season 2 finale, Cassie storms on stage in front of a live audience. Sweeney has terrible stage fright. The audience was real. Purpose-built auditorium, real people watching. (<a href="https://www.elle.com.au/culture/news/sydney-sweeney-euphoria-nervous-scene-27482/">Elle Australia</a>)
 
-A person with stage fright performing a character's emotional meltdown in front of a live crowd, while her own feelings are sealed inside a handmade book back in the trailer.
+A person with stage fright, performing a character's meltdown in front of a live crowd, with her own feelings sealed in cardstock back in the trailer.
 
 ## The body trap, and how she reclaimed the frame
 
 The role that made her career also built a cage around it.
 
-Cassie Howard required extensive nudity. Sweeney negotiated boundaries with Sam Levinson, telling him "I don't really think that's necessary here" and watching him pull the scene. (<a href="https://variety.com/2022/tv/news/sydney-sweeney-euphoria-nude-scenes-1235163094/">Variety</a>) But the public conversation never moved past the skin.
+Cassie Howard required extensive nudity. Sweeney negotiated boundaries with Sam Levinson, telling him "I don't really think that's necessary here" and watching him pull the scene. (<a href="https://variety.com/2022/tv/news/sydney-sweeney-euphoria-nude-scenes-1235163094/">Variety</a>, January 2022) But the public conversation never moved past the skin.
 
-"I'm very proud of my work in _Euphoria_. I thought it was a great performance. But no one talks about it because I got naked." (<a href="https://www.foxnews.com/entertainment/euphoria-sydney-sweeney-acting-white-lotus-naked-nude-scenes">Fox News</a>)
+She told The Independent in January 2022: "I'm very proud of my work in _Euphoria_. I thought it was a great performance. But no one talks about it because I got naked." (<a href="https://www.foxnews.com/entertainment/euphoria-sydney-sweeney-acting-white-lotus-naked-nude-scenes">via Fox News</a>)
 
-The wound predated the show. Promoting her own lingerie line, SYRN, in Fall 2025, she put it directly: "I was wearing a 32DD in sixth grade, and I never felt confident. I never had anything I felt good in, and I just wanted to hide." Playing Cassie gave her body confidence for the first time, then welded the sexualization permanently to her public identity. "Cassie is a sexualized character, and that became a mold that was then forced onto me as a human being." (<a href="https://www.israelhayom.com/2025/12/03/sydney-sweeney-interview-fighter-spirit-hollywood-backlash/">Israel Hayom</a>)
+The wound predated the show. Promoting SYRN, the lingerie line she launched in early 2026, she put it directly: "I grew up with boobs. I was wearing a 32DD in sixth grade, and I never felt confident." (Us Weekly, March 2026, via <a href="https://www.foxnews.com/entertainment/sydney-sweeney-admits-never-felt-confident-growing-up-curves-euphoria-changed-everything">Fox News</a>) Playing Cassie gave her body confidence for the first time, then welded the sexualization permanently to her public identity. "Cassie is a sexualized character, and that became a mold that was then forced onto me as a human being." (<a href="https://www.israelhayom.com/2025/12/03/sydney-sweeney-interview-fighter-spirit-hollywood-backlash/">Israel Hayom</a>, December 2025)
 
-Trolls screenshotted her nude scenes and tagged her family members on social media. "My cousins don't need that. It's completely disgusting and unfair." (<a href="https://variety.com/2022/tv/news/sydney-sweeney-fans-sent-euphoria-nudity-family-disgusting-1235430322/">Variety</a>) Her response: "It makes me want to play characters that piss people off more."
+Trolls screenshotted her nude scenes and tagged her family members on social media. "My cousins don't need that. It's completely disgusting and unfair." (<a href="https://variety.com/2022/tv/news/sydney-sweeney-fans-sent-euphoria-nudity-family-disgusting-1235430322/">Variety</a>, November 2022) Her response: "I'm an artist, I play characters. It makes me want to play characters that piss people off more."
 
-By 2024, she named the trap directly: "These characters are for everybody else, but then me as Sydney is not for me anymore. It's this weird relationship that people have with me that I have no control or say over."
+Weeks after hosting SNL, she named the trap directly: "These characters are for everybody else, but then me as Sydney is not for me anymore. It's this weird relationship that people have with me that I have no control or say over." (Variety, March 2024)
 
 Then she walked onto the SNL stage. March 2024. Live television. No character book, no second take. She'd posted on Instagram beforehand: "About to face my biggest fear. Stage fright."
 
 Her opening line: "I feel like people only see me as the girl on TV who screams, cries and has sex. Sometimes it's all three at the same time." She showed a mock PowerPoint, a callback to the real one she built at twelve, where "Plan B" simply read: "Boobs." (<a href="https://www.rollingstone.com/tv-movies/tv-movie-news/snl-monologue-sydney-sweeney-addresses-glen-powell-rumors-1234979655/">Rolling Stone</a>)
 
-In the same monologue, she pivoted to her engagement: "Me and my fiancé produced the movie together and he was there the entire shoot." It was the cleanest possible public correction of the press-tour ambiguity that had powered _Anyone But You_'s box office. The architecture, doing what it does best — naming the system out loud the moment the system threatens to spiral.
+In the same monologue, she pivoted to her engagement: "Me and my fiancé produced the movie together and he was there the entire shoot." It was the cleanest possible public correction of the press-tour ambiguity that had powered _Anyone But You_'s box office. Naming the thing out loud, on her own terms, the second it threatened to spiral.
 
 A person who built systems to keep herself out of the frame. Standing on live television, making the audience laugh at the thing that haunts her. No separation. No craft-supplies boundary. Just Sydney.
 
@@ -293,11 +294,11 @@ Afterward, at SXSW: "It was so scary my mouth dried up. I think it's important t
 
 ## What her directors and co-stars see up close
 
-The strongest evidence for the system comes from people who've worked with her.
+The best evidence comes from the people who've watched her work.
 
 Director **Michael Mohan** met Sweeney in 2017 on the Netflix series _Everything Sucks!_ She was nineteen. He went on to direct her in _The Voyeurs_ and _Immaculate_.
 
-"One of the things that people don't know about Sydney is that she loves the crew. Back when we made _Everything Sucks!_, she was 19 years old, and she would stay after we wrapped. She would shadow the first AC and try to learn about lenses, she would sit with the sound mixer and ask him questions about which microphones he was using." (<a href="https://www.hollywoodreporter.com/movies/movie-features/immaculate-director-sydney-sweeney-1235854844/">THR</a>)
+"One of the things that people don't know about Sydney is that she loves the crew. Back when we made _Everything Sucks!_, she was 19 years old, and she would stay after we wrapped. She would shadow the first AC and try to learn about lenses, she would sit with the sound mixer and ask him questions about which microphones he was using." (<a href="https://www.hollywoodreporter.com/movies/movie-features/immaculate-director-sydney-sweeney-1235854844/">THR</a>, March 2024)
 
 Mastery-seeking behavior when nobody's watching. Not performing interest. Acquiring competence.
 
@@ -307,19 +308,17 @@ On _Immaculate_, the final scene required Sweeney's character to give birth, bit
 
 One take. Her breath fogged up the lens. Mohan kept it.
 
-Director **Tina Satter**, who cast Sweeney as NSA whistleblower Reality Winner in HBO's _Reality_ (2023), described what she saw on a set built entirely from FBI transcript: a "remarkable ability to telegraph the micro-emotions Winner experienced while simultaneously trying to stay calm." (<a href="https://variety.com/2023/biz/news/reality-movie-sydney-sweeney-tina-satter-1235646734/">Variety</a>)
+Director **Tina Satter**, who cast Sweeney as NSA whistleblower Reality Winner in HBO's _Reality_ (2023), described what she saw on a set built entirely from FBI transcript: a "remarkable ability to telegraph the micro-emotions Winner experienced while simultaneously trying to stay calm." (<a href="https://variety.com/2023/biz/news/reality-movie-sydney-sweeney-tina-satter-1235646734/">Variety</a>, May 2023)
 
-Director **Paul Feig** (_The Housemaid_) called her "the most professional person I have ever met. She shows up on set and is ready to go, and is prepared, and brings such an extra level to everything she does."
-
-During _The Housemaid_ production, her engagement to Jonathan Davino — public since 2022 — was ending.
+Director **Paul Feig** got the closest look of all. During _The Housemaid_ production, Sweeney's engagement to Jonathan Davino — public since 2022 — was ending.
 
 Feig checked in on her. "Hey, are you OK?"
 
-"I'm fine, I'm great!" Not defensively, Feig noted. Just present. She was "completely present emotionally, just up for anything, and really didn't bring any issues to set." (<a href="https://www.eonline.com/news/1421421/sydney-sweeney-director-on-jonathan-davino-breakup">E! News</a>)
+"I'm fine, I'm great!" Not defensively, Feig noted. Just present. She was "completely present emotionally, just up for anything, and really didn't bring any issues to set." (<a href="https://www.eonline.com/news/1421421/sydney-sweeney-director-on-jonathan-davino-breakup">E! News</a>, 2025)
 
 Her engagement was disintegrating. She was delivering the performance of her career. The director couldn't tell.
 
-Co-lead **Julianne Moore** on _Echo Valley_ — Sweeney's first feature opposite a screen legend in a true two-hander — described her as "a great actor and a wonderful partner." Sweeney's framing of the work was telling: "Sometimes, to be honest, I don't really plan anything, or I don't like to think it through. I don't know if that's great, but for me, it's like, you don't really rehearse a conversation that you're gonna have." (<a href="https://variety.com/2025/film/features/sydney-sweeney-echo-valley-addiction-videos-1236436969/">Variety</a>) Seven years after _Sharp Objects_, the public language has shifted from "I made the book" to "I don't plan." The methodology hasn't changed — she watched dozens of YouTube interviews with Skid Row addicts to build the role — but the framing has moved closer to "natural" and further from "constructed." A 3w4 development arc: keep the system, change the story about the system.
+Co-lead **Julianne Moore** on _Echo Valley_ — Sweeney's first feature opposite a screen legend in a true two-hander — described her as "a great actor and a wonderful partner." Sweeney's framing of the work was telling: "Sometimes, to be honest, I don't really plan anything, or I don't like to think it through. I don't know if that's great, but for me, it's like, you don't really rehearse a conversation that you're gonna have." (<a href="https://variety.com/2025/film/features/sydney-sweeney-echo-valley-addiction-videos-1236436969/">Variety</a>) Seven years after _Sharp Objects_, the public language has shifted from "I made the book" to "I don't plan." The preparation hasn't changed — she watched dozens of YouTube interviews with Skid Row addicts to build the role — but the framing has moved closer to "natural" and further from "constructed." A 3w4 development arc: keep the system, change the story about the system.
 
 ## Reality (2023): the project where the character book couldn't help
 
@@ -329,7 +328,7 @@ Tina Satter's _Reality_ (HBO Films, 2023), adapted from her Off-Broadway play _I
 
 The character book methodology, by definition, could not work. There was nothing for Sweeney to invent. Winner was alive. Her own words were the script.
 
-"I tried to get my hands on as many live interviews with Reality as possible, so that I could see her mannerisms, the way she talked and moved and thought," Sweeney told THR. (<a href="https://www.hollywoodreporter.com/movies/movie-news/sydney-sweeney-interview-nsa-whistleblower-reality-winner-film-berlin-2023-1235323097/">THR</a>) "I was able to speak with Reality, and I filled in all the gaps that usually I create myself. I was able to take that groundwork, put it into my book, build up from that, and then hopefully embody Reality as much as I possibly could." (<a href="https://collider.com/reality-sydney-sweeney-tina-satter-interview/">Collider</a>)
+"I tried to get my hands on as many live interviews with Reality as possible, so that I could see her mannerisms, the way she talked and moved and thought," Sweeney told THR. (<a href="https://www.hollywoodreporter.com/movies/movie-news/sydney-sweeney-interview-nsa-whistleblower-reality-winner-film-berlin-2023-1235323097/">THR</a>, February 2023) "I was able to speak with Reality, and I filled in all the gaps that usually I create myself. I was able to take that groundwork, put it into my book, build up from that, and then hopefully embody Reality as much as I possibly could." (<a href="https://collider.com/reality-sydney-sweeney-tina-satter-interview/">Collider</a>)
 
 And the system's tell:
 
@@ -353,11 +352,9 @@ On SNL: "You definitely did not see me in Madame Web."
 
 Distance. Detach. Discard. The project wasn't hers. It doesn't count.
 
-**Christy** (2025): A boxing biopic about Christy Martin that she produced through Fifty-Fifty Films, trained for months for, gained 35 pounds for, took concussions and bloody noses for. She told her co-star Katy O'Brien: "If you break my nose, that's fine." (<a href="https://www.indiewire.com/news/general-news/sydney-sweeney-didnt-care-broke-nose-christy-martin-biopic-1235135721/">IndieWire</a>) Opening weekend: $1.3 million in 2,000+ theaters. One of the worst wide-release openings of the year. (<a href="https://variety.com/2025/film/box-office/sydney-sweeney-christy-box-office-flop-1236574163/">Variety</a>)
+**Christy** (2025): A boxing biopic about Christy Martin that she produced through Fifty-Fifty Films, trained for months for, gained 35 pounds for, took concussions and bloody noses for. She told her co-star Katy O'Brien: "If you break my nose, that's fine." (<a href="https://www.indiewire.com/news/general-news/sydney-sweeney-didnt-care-broke-nose-christy-martin-biopic-1235135721/">IndieWire</a>) Opening weekend: $1.3 million in 2,000+ theaters. One of the worst wide-release openings of the year. (<a href="https://variety.com/2025/film/box-office/sydney-sweeney-christy-box-office-flop-1236574163/">Variety</a>, November 2025)
 
-Sweeney's response: "We don't always just make art for numbers, we make it for impact. And Christy has been the most impactful project of my life." (<a href="https://www.newsweek.com/sydney-sweeney-speaks-out-movie-box-office-flop-11026736">Newsweek</a>)
-
-"We all signed on to this film with the belief that Christy's story could save lives."
+Sweeney answered in writing, on her own Instagram, where nobody could ask a follow-up: "We don't always just make art for numbers, we make it for impact. And Christy has been the most impactful project of my life." And: "We all signed on to this film with the belief that Christy's story could save lives." (<a href="https://www.newsweek.com/sydney-sweeney-speaks-out-movie-box-office-flop-11026736">Newsweek</a>, November 2025)
 
 Double down. Reframe. Defend.
 
@@ -365,7 +362,7 @@ She only fights for the failures connected to her authentic self-image. The ones
 
 This is Type 3 identity management operating in real time. The question isn't "did it succeed?" The question is "was it mine?"
 
-What makes _Christy_ a Type 3 case study and not just an actor's vanity project: Sweeney trained for three months in a boxing ring she built inside her grandmother's shed in Idaho. "I grew up in Idaho with my family, and my grandma's my neighbor, and I turned her shed into my 'Rocky' gym," she told ABC News. "I put flooring in and boxing bags, and I brought my trainers up there." (<a href="https://abcnews.com/GMA/Culture/sydney-sweeney-reveals-transformed-new-movie-christy/story?id=127165223">ABC News</a>) On set, she trained three times a day on top of fourteen-hour shoot days. (<a href="https://www.hollywoodreporter.com/movies/movie-features/sydney-sweeney-interview-christy-1236445274/">THR</a>) When she met the real Christy Martin, she said: "I was so nervous, like, 'Please be proud of me.' Christy's opinion is the only one that matters to me."
+What makes _Christy_ a Type 3 case study and not just an actor's vanity project: Sweeney trained for three months in a boxing ring she built inside her grandmother's shed in Idaho. "I grew up in Idaho with my family, and my grandma's my neighbor, and I turned her shed into my 'Rocky' gym," she told ABC News. "I put flooring in and boxing bags, and I brought my trainers up there." (<a href="https://abcnews.com/GMA/Culture/sydney-sweeney-reveals-transformed-new-movie-christy/story?id=127165223">ABC News</a>) On set, she trained three times a day on top of fourteen-hour shoot days. (<a href="https://www.hollywoodreporter.com/movies/movie-features/sydney-sweeney-interview-christy-1236445274/">THR</a>, December 2025) When she met the real Christy Martin, she said, "I was so nervous, like, 'Please be proud of me.'" Asked in the same interview about the reviews: "Christy's opinion is the only one that matters to me."
 
 A Type 3 who works fourteen-hour days plus six hours of training in her grandmother's shed isn't doing it for the box office. She's doing it for the only audience that matters in a 3w4 universe: the source person, who is the only one who can authorize the work as real.
 
@@ -389,29 +386,27 @@ Her public response was characteristically contained. She tagged Amanda Seyfried
 
 In December 2023, Sweeney's Fifty-Fifty produced _Anyone But You_, a $25 million R-rated rom-com co-starring Glen Powell. The film opened to soft reviews and built into a sleeper hit by Valentine's Day, eventually grossing more than $218 million worldwide. It is widely credited with reviving the theatrical rom-com after a decade of streaming-driven decline.
 
-What drove it: a press tour built on tabloid speculation that the leads were secretly together. Powell named the strategy directly to the New York Times in 2024:
+What drove it: a press tour built on tabloid speculation that the leads were secretly together. Powell named the strategy directly to The New York Times in April 2024:
 
 > "The two things that you have to sell a rom-com are fun and chemistry. Sydney and I have a ton of fun together, and we have a ton of effortless chemistry. That's people wanting what's on the screen off the screen, and sometimes you just have to lean into it a bit — and it worked wonderfully."
 
-A year later, in Variety, Sweeney denied the strategy:
+A year and a half later, in Variety, Sweeney denied the strategy:
 
-> "The press did it themselves. There was no leaning in, per se. The tabloids and journalists just created it and kept going."
+> "Honestly, the press did it themselves. There was no leaning in, per se. … Truly, the tabloids and journalists just created it and kept going." (Variety, October 2025)
 
 She was engaged to Davino the entire time. On SNL in March 2024 — at the peak of the speculation — she course-corrected mid-monologue: "Me and my fiancé produced the movie together and he was there the entire shoot."
 
-This is the Type 3 / 3w4 reading-the-room signature in its cleanest form: participate in the strategy that works, then refuse authorship of it, then quietly reset the record once the box office has banked. Powell — a [Type 7](/enneagram-corner/enneagram-type-7) who claims authorship of everything — names it on the record. Sweeney, the 3w4 who has spent her career separating the system from the self, names something else.
+This is the Type 3 / 3w4 reading-the-room signature in its cleanest form: participate in the strategy that works, then refuse authorship of it, then quietly reset the record once the box office has banked. Powell — a [Type 7](/enneagram-corner/enneagram-type-7) who claims authorship of everything — names it on the record. Sweeney, the 3w4 who has spent her career keeping the work and the self in separate rooms, names something else.
 
-### Other Fifty-Fifty projects
-
-Sweeney is also attached to a long-developing Barbarella remake at Sony, with Edgar Wright in talks to direct and Jane Goldman writing. (<a href="https://variety.com/2024/film/news/barbarella-edgar-wright-sydney-sweeney-1236001156/">Variety</a>) "Without doing 'Madame Web' I wouldn't have a relationship with the decision-makers over there," she said, naming the transactional logic of the Sony relationship out loud. Even the failure she distanced from gets metabolized into the next deal.
+Even the flop got metabolized. Sweeney is attached to a long-developing Barbarella remake at Sony, with Edgar Wright in talks to direct (<a href="https://variety.com/2024/film/news/barbarella-edgar-wright-sydney-sweeney-1236001156/">Variety</a>, 2024) — and she named the transactional logic out loud: "Without doing 'Madame Web' I wouldn't have a relationship with the decision-makers over there." The project she refused to own still bought her the room.
 
 ## Achievement without applause: the fighting and the cars
 
 She started training MMA at fourteen, sharing a mat at Gokor Hayastan's gym in North Hollywood with some of Ronda Rousey's coaches. "I grew up kickboxing and grappling," she has said. (<a href="https://www.wmagazine.com/culture/sydney-sweeney-mixed-martial-arts">W Magazine</a>) By eighteen she entered her first competitive grappling tournament — against men a weight class above her — and won first place. "Those guys were probably saying, 'Oh, we didn't want to hurt her,' but they were definitely trying. Everyone broke a sweat!" she told Marie Claire in 2018.
 
-Then acting contracts took it away. As she told Kelly Clarkson: "You sign a little piece of paper that says you're not to do X, Y, and Z and I am all of X, Y, and Z." The one physical outlet where she could be aggressive rather than performing — contractually removed.
+Then acting contracts took it away. As she told Kelly Clarkson in December 2023: "You sign a little piece of paper that says you're not to do X, Y, and Z and I am all of X, Y, and Z." The one physical outlet where she could be aggressive rather than performing — contractually removed.
 
-When _Christy_ came along, she rebuilt it. The boxing gym in her grandmother's shed in Idaho. Three months of training before filming. Concussions and bloody noses on set. The body as the character book that doesn't lie.
+_Christy_ was how she took it back, and the shed in Idaho was where.
 
 Then there are the cars. She runs a TikTok account, @syds_garage, where she rebuilds vintage Fords — a 1969 Bronco she restored from rust, welding the hood latch herself. The kind of mastery that doesn't require permission from a studio.
 
@@ -419,11 +414,11 @@ The cars and the fighting are measurable mastery in a world that doesn't care ab
 
 ## When the playbook stopped working
 
-Sweeney has weathered controversies before. In August 2022, photos surfaced from her mother's 60th birthday party in Idaho showing a guest in a thin-blue-line shirt and several "Make Sixty Great Again" caps designed for the milestone. The MAGA-pun read of the caps triggered a backlash. Her response was vintage 3w4 architecture: one statement, then keep shipping.
+Sweeney has weathered controversies before. In August 2022, photos surfaced from her mother's 60th birthday party in Idaho showing a guest in a thin-blue-line shirt and several "Make Sixty Great Again" caps designed for the milestone. The MAGA-pun read of the caps triggered a backlash. Her response was vintage 3w4: one statement, then keep shipping.
 
 "You guys this is wild. An innocent celebration for my moms milestone 60th birthday has turned into an absurd political statement, which was not the intention. Please stop making assumptions." (<a href="https://www.hollywoodreporter.com/news/general-news/sydney-sweeney-birthday-photo-political-statement-1235207213/">THR</a>)
 
-The system held. Then came American Eagle.
+It worked. Then came American Eagle.
 
 ### The campaign
 
@@ -445,13 +440,13 @@ Sweeney's reply:
 
 On Trump and Vance: "It was surreal to see the president and vice president speak about the ad. I knew at the end of the day what that ad was for, and it was great jeans."
 
-She was not cornered. Stoeffel framed the question carefully and invited engagement. Sweeney chose deflection to product literalism. She named the political involvement as "surreal." She never named the eugenics critique at all.
+She was not cornered. Stoeffel framed the question carefully and invited engagement. Sweeney chose product literalism. She named the political involvement as "surreal." She never named the eugenics critique at all.
 
 Four months later, on December 5 — two weeks before _The Housemaid_ went wide — she issued a fuller statement to People:
 
-> "I'm against hate and divisiveness. I was honestly surprised by the reaction. I did it because I love the jeans and love the brand. I don't support the views some people chose to connect to the campaign. Many have assigned motives and labels to me that just aren't true. Anyone who knows me knows that I'm always trying to bring people together. In the past my stance has been to never respond to negative or positive press, but recently I have come to realize that my silence regarding this issue has only widened the divide, not closed it." (<a href="https://variety.com/2025/tv/news/sydney-sweeney-against-hate-american-eagle-backlash-1236602028/">Variety</a>)
+> "I'm against hate and divisiveness. I was honestly surprised by the reaction. I did it because I love the jeans and love the brand. I don't support the views some people chose to connect to the campaign. Many have assigned motives and labels to me that just aren't true. Anyone who knows me knows that I'm always trying to bring people together. In the past my stance has been to never respond to negative or positive press, but recently I have come to realize that my silence regarding this issue has only widened the divide, not closed it." (<a href="https://variety.com/2025/tv/news/sydney-sweeney-against-hate-american-eagle-backlash-1236602028/">Variety</a>, December 2025)
 
-The timing — two weeks before a $35 million-budget rom-thriller went wide — is the architecture in plain view.
+The timing — two weeks before a $35 million-budget rom-thriller went wide — is the whole method in plain view.
 
 ### What the architecture couldn't answer
 
@@ -469,29 +464,29 @@ In Enneagram terms, [Type 3 moves toward Type 9 under stress](/enneagram-corner/
 
 In a W Magazine interview, Sweeney said something worth sitting with:
 
-"I used to be a really vivid dreamer. I could control my dreams. In the last year or two, I haven't really been able to dream." (<a href="https://www.wmagazine.com/culture/sydney-sweeney-cover-interview-the-housemaid-christy">W Magazine</a>)
+"I used to be a really vivid dreamer. I could control my dreams. In the last year or two, I haven't really been able to dream." (<a href="https://www.wmagazine.com/culture/sydney-sweeney-cover-interview-the-housemaid-christy">W Magazine</a>, January 2026)
 
 When asked again: "Recently, no. I don't even remember if I'm dreaming anymore."
 
 That is the clinical signature of a 3 disintegrating to 9 — not poetry, the textbook. When a Type 3 collapses under sustained pressure, access to the inner emotional life goes offline first. The work continues. The person quiets.
 
-Family and friends have urged her to slow down. "I hear it more from my family than myself," she said. "'Sydney, you need to slow down... you need to take a break.'" (<a href="https://www.israelhayom.com/2024/05/12/sydney-sweeney-talks-about-her-new-horror-film-immaculate/">Israel Hayom</a>)
+Family and friends have urged her to slow down. "I hear it more from my family than myself," she said. "'Sydney, you need to slow down... you need to take a break.'" (<a href="https://www.israelhayom.com/2024/05/12/sydney-sweeney-talks-about-her-new-horror-film-immaculate/">Israel Hayom</a>, May 2024)
 
-Her answer: "I'm in love with my work. I'm obsessive about each and every one of the projects I participate in... the truth is I function much better when I'm under pressure. I'm at a different level when I have tons of things to do, than when I'm sitting at home twiddling my thumbs waiting for something to happen." (<a href="https://www.israelhayom.com/2025/12/03/sydney-sweeney-interview-fighter-spirit-hollywood-backlash/">Israel Hayom</a>)
+Her answer: "I'm in love with my work. I'm obsessive about each and every one of the projects I participate in... the truth is I function much better when I'm under pressure. I'm at a different level when I have tons of things to do, than when I'm sitting at home twiddling my thumbs waiting for something to happen." (<a href="https://www.israelhayom.com/2025/12/03/sydney-sweeney-interview-fighter-spirit-hollywood-backlash/">Israel Hayom</a>, December 2025)
 
 Rest feels like danger. Stillness feels like the motel room.
 
-The small exception: her dog Tank, a pit-mix she adopted from a shelter while visiting her great-grandmother in Arizona. "Tank really is so important in my own self-care process. Whether it is just playing with her, taking her to the dog park or taking her on a walk, it just lets me take a moment and unplug from everything else." (<a href="https://www.huffpost.com/entry/sydney-sweeney-dog-tank-set_n_66bdb564e4b03da4fc0228bb">HuffPost</a>) "The moment we call action, she stops moving and doesn't make a sound." Even her dog is trained to the system.
+The small exception: her dog Tank, a pit-mix she adopted from a shelter while visiting her great-grandmother in Arizona. "Tank really is so important in my own self-care process. Whether it is just playing with her, taking her to the dog park or taking her on a walk, it just lets me take a moment and unplug from everything else." (<a href="https://www.huffpost.com/entry/sydney-sweeney-dog-tank-set_n_66bdb564e4b03da4fc0228bb">HuffPost</a>) "The moment we call action, she stops moving and doesn't make a sound." Even the dog knows the rules.
 
 In growth, Type 3 integrates toward [**Type 6**](/enneagram-corner/enneagram-type-6): grounded loyalty, letting trusted people matter more than the scoreboard. You can see this in the people she returns to. Michael Mohan across three films. The same inner circle from Spokane. The deliberate choice to stay close to people who knew her before all this.
 
 "I'm just Syd," she told GQ. (<a href="https://www.gq.com/video/watch/actually-me-sydney-sweeney-breaks-down-her-most-iconic-characters">GQ</a>)
 
-Amanda Seyfried, her co-star in _The Housemaid_, crocheted her a tiny bag. Sweeney called it "a very prized possession." About Seyfried: "She's made me feel more comfortable just being myself." (<a href="https://www.wmagazine.com/culture/sydney-sweeney-cover-interview-the-housemaid-christy">W Magazine</a>)
+Amanda Seyfried, her co-star in _The Housemaid_, crocheted her a tiny bag. Sweeney called it "a very prized possession." About Seyfried: "She's made me feel more comfortable just being myself." (<a href="https://www.wmagazine.com/culture/sydney-sweeney-cover-interview-the-housemaid-christy">W Magazine</a>, January 2026)
 
 That someone making her feel comfortable _being herself_ is worth mentioning tells you how rare the feeling is.
 
-After the engagement ended in early 2025, she framed the season as recalibration: "What I've learned this year is that I have a really, really amazing group of girlfriends and I am strong and independent and that I'm going to be OK." (<a href="https://www.eonline.com/news/1427951/sydney-sweeney-on-ex-fiance-jonathan-davino-breakup">E! News</a>)
+After the engagement ended in early 2025, she framed the season as recalibration: "What I've learned this year is that I have a really, really amazing group of girlfriends and I am strong and independent and that I'm going to be OK." (<a href="https://www.eonline.com/news/1427951/sydney-sweeney-on-ex-fiance-jonathan-davino-breakup">E! News</a>, 2025)
 
 For a Type 3, valuing identity separate from achievement — or from a partner — is the whole growth edge. _I'm going to be OK_ is the hardest sentence a person built on "I can never actually fail" will ever say.
 
@@ -499,7 +494,7 @@ For a Type 3, valuing identity separate from achievement — or from a partner �
 
 She's still spending hundreds at Michaels. Still building someone else's life on paper. Still stepping into that person on camera and stepping out the moment they call cut.
 
-"While I'm on set, I think like Christy and move like Christy. The moment they say cut, I go back to being Syd." (<a href="https://www.israelhayom.com/2024/05/12/sydney-sweeney-talks-about-her-new-horror-film-immaculate/">Israel Hayom</a>)
+"While I'm on set, I think like Christy and move like Christy. The moment they say cut, I go back to being Syd." (<a href="https://www.israelhayom.com/2024/05/12/sydney-sweeney-talks-about-her-new-horror-film-immaculate/">Israel Hayom</a>, May 2024)
 
 The character books keep the boundary clean. The performances land. The box office answers.
 

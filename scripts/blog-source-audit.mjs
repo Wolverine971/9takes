@@ -198,6 +198,11 @@ const OUTLETS = [
 	'Interview Magazine',
 	'PAPER',
 	'Hot Ones',
+	// Sydney-Sweeney pass, 2026-08-15. Backstage is the acting trade that carries
+	// primary craft interviews for this corpus; Israel Hayom is a major Israeli
+	// daily running syndicated cover interviews. Both named, dated, checkable.
+	'Backstage',
+	'Israel Hayom',
 	'Hollywood Authentic',
 	'SmartLess',
 	'So True',

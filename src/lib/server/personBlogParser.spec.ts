@@ -67,12 +67,11 @@ describe('personBlogParser', () => {
 		expect(parsed._explicit_fields).toContain('nationality');
 	});
 
-	it('preserves registered component tags when parsing people drafts for Supabase', async () => {
+	it('preserves public component tags when parsing people drafts for Supabase', async () => {
 		const filePath = path.resolve(process.cwd(), 'src/blog/people/drafts/Elon-Musk.md');
 		const parsed = await parseMarkdownFile(filePath);
 
 		expect(parsed.content).toContain('<EnneagramTypeDossier />');
-		expect(parsed.content).toContain('<DJReadCard readId="elon-musk" />');
 		expect(parsed.content).toContain('<EvidenceFigure evidenceId="elon-model-3-launch-2017" />');
 	});
 
@@ -112,21 +111,13 @@ describe('personBlogParser', () => {
 				`${file} slot should precede the next article section`
 			).toBeGreaterThan(slotIndex);
 		}
-
-		const elon = await parseMarkdownFile(
-			path.resolve(process.cwd(), 'src/blog/people/drafts/Elon-Musk.md')
-		);
-		expect(elon.content.indexOf('<DJReadCard readId="elon-musk" />')).toBeGreaterThan(
-			elon.content.indexOf('The BBC interview shows both the strength and the limit of this habit.')
-		);
 	});
 
 	it('does not strip authored component tags during content cleanup', () => {
 		const source = `<BlogPurpose />
-<QuickAnswer question="What type?">Type 5.</QuickAnswer>
-<EvidenceFigure evidenceId="example" />
-<DJReadCard readId="example" />
-<EnneagramTypeDossier />`;
+	<QuickAnswer question="What type?">Type 5.</QuickAnswer>
+	<EvidenceFigure evidenceId="example" />
+	<EnneagramTypeDossier />`;
 
 		expect(cleanupContent(source)).toBe(source);
 	});

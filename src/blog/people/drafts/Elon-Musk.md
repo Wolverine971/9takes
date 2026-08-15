@@ -185,23 +185,21 @@ Musk built a life where retreat should be impossible. His decisions reach factor
 
 <EnneagramTypeDossier />
 
-## DJ's reasoning: his mind is his shelter
+## How Elon Musk turns uncertainty into a map
 
 <span id="dj-reasoning"></span>
 
-What keeps standing out to me is the space before Musk answers. In long-form interviews, he often listens, pauses, maps the question internally, and then responds from several layers down. That pause is one input to my current interpretation. The important distinction is that intelligence alone does not make somebody a Type 5. I am looking at what knowledge appears to do for him.
+The revealing pattern begins in the space before Musk answers. In long-form interviews, he often listens, pauses, maps the question internally, and then responds from several layers down. Intelligence alone does not make somebody a Type 5. The more useful question is what knowledge appears to do for him.
 
 Musk has said he wants engineering and physics answers he can count on and that he tries to minimize being ["confidently wrong"](https://lexfridman.com/elon-musk-4-transcript). In another interview, he described an operating sequence that begins by questioning every requirement, then removing what should not exist before optimizing what remains. He also acknowledged that he has made the exact mistake he warns engineers against. [The algorithm is built to find the faulty assumption](https://lexfridman.com/?p=5969), including his own.
 
-The BBC interview shows both the strength and the limit of this habit. When the interviewer claimed hateful content had increased on Twitter, Musk repeatedly asked for one specific example. When none came, curiosity hardened into confrontation. Later in the same conversation, he acknowledged that the criticism of his leadership was hurtful, then almost immediately reframed it as a feedback loop he should not lose. [The exchange matters because it shows emotion becoming information](https://www.rev.com/transcripts/elon-musk-interview-with-the-bbc-4-11-23-transcript). I do not read Musk as somebody who feels nothing. I read him as somebody whose mind tries to make the feeling usable.
-
-<DJReadCard readId="elon-musk" />
+The BBC interview shows both the strength and the limit of this habit. When the interviewer claimed hateful content had increased on Twitter, Musk repeatedly asked for one specific example. When none came, curiosity hardened into confrontation. Later in the same conversation, he acknowledged that the criticism of his leadership was hurtful, then almost immediately reframed it as a feedback loop he should not lose. [The exchange matters because it shows emotion becoming information](https://www.rev.com/transcripts/elon-musk-interview-with-the-bbc-4-11-23-transcript). The pattern is not an absence of feeling. It is a mind trying to make feeling usable.
 
 His learning pattern has the same shape. Before SpaceX, he read technical books and questioned people with deep aerospace knowledge. In a [Tsinghua University dialogue](https://www.sem.tsinghua.edu.cn/en/info/1135/2367.htm), he walked backward from historical rocket costs to raw materials and reusability. Jim Cantrell, an early SpaceX executive, described Musk absorbing rocket-science texts and interrogating experts until he could work inside the field himself. [Books, experts, and experiments became one intensive map-building process](https://time.com/4033395/elon-musk-learning/).
 
 The Model 3 crisis provides the cleanest test. Musk admitted that Tesla had relied on too much automation and too much new technology at once. He removed machinery, took over the line, worked through the night, and slept at the factory. The revealing phrase was not the heroic factory-floor story. It was his admission that he had only recently gained a ["clear understanding of the path out of hell"](https://www.cbsnews.com/news/elon-musk-tesla-model-3-problems-interview-today-2018-04-13/). His confidence returned when the map became usable.
 
-That is why I land on Type 5. The pattern I see runs from uncertainty becoming specific, through knowledge restoring agency, to action accelerating once the system feels legible. His confrontational side makes Type 8 the strongest alternative. The tiebreaker for me is the refuge he reaches for first: analysis, structure, and work.
+That is why the evidence points to Type 5. The pattern runs from uncertainty becoming specific, through knowledge restoring agency, to action accelerating once the system feels legible. His confrontational side makes Type 8 the strongest alternative. The tiebreaker is the refuge he reaches for first: analysis, structure, and work.
 
 ## How retreat became Elon Musk's operating system
 

@@ -1,30 +1,80 @@
 <!-- docs/content-analysis/grades/Sydney-Sweeney.review.md -->
 # Grade feedback: Sydney Sweeney
 
-Grade: B+ (8.5), rubric v2
-Evidence: 8 | Originality: 9 | Discoverability: 9 | Enneagram: 8 | Writing: 8 | Hook: 9
+Grade: B+ (8.7), rubric v2 — revised 2026-08-15 (first pass 8.5, delta +0.2)
+Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 8 | Writing: 8 | Hook: 9
 Anchor: Matt-Smith draft (2026-06-28) — graded one band above it | Caps: enneagram_no_rabbit_hole | Needs review: false
-Source audit: 4 load-bearing slots — 0 inline, 3 vague, 1 untagged. Untagged: the Backstage character-book quote ("I wanted to make sure that none of my own memories, my own personal life, was in the character") reads as a script false positive (it carries a live article link) but has no date. Vague (outlet, no year): E! News Instagram Live quote; Israel Hayom public-persona-gap quote; THR six-month-break quote. Fully unsourced body quotes not caught by the audit: Paul Feig's "the most professional person I have ever met"; "The most disgusting thing I ever experienced"; the SYRN "I was wearing a 32DD in sixth grade" quote; "These characters are for everybody else, but then me as Sydney is not for me anymore"; "Christy's opinion is the only one that matters to me"; "We all signed on to this film with the belief that Christy's story could save lives"; the Kelly Clarkson "X, Y, and Z" quote; the Marie Claire 2018 grappling quote (year, no link); the Powell NYT and Sweeney Variety press-tour quotes (outlet, no link).
+Source audit: 5 load-bearing quotes — 5 inline, 0 vague, 0 untagged. Clean. (First pass: 0 inline, 3 vague, 1 untagged.)
 Interior line: "Rest feels like danger. Stillness feels like the motel room."
 Empathy turn: "American Eagle was the first crisis that asked an identity question: _what do you believe?_ The architecture of separation had no answer prepared."
 
-FEEDBACK (2026-08-15):
+## Revision pass, 2026-08-15
 
-- The "I could never actually fail because, I mean, on a very broad scale, my family did lose everything" reframe is the signature move of the piece. Reading it as _failure was already accomplished_ rather than as ordinary ambition is the insight a generic profile never reaches, and it's what makes the whole Type 3 case cohere. It earns the Originality 9 by itself.
-- The Reality (2023) section is the strongest structural decision in the draft, and it's rare in this corpus: it deliberately runs the thesis against the one project where the character-book system was structurally impossible, then refines the thesis instead of explaining the counter-evidence away ("The system has held across her career — except when the source material refuses to allow invention"). That is a self-disconfirming test, and most drafts in this pipeline duck it.
-- Critic pressure is genuinely faced, not managed. The American Eagle section quotes Stoeffel's full GQ opening, quotes the deflection in full, and then refuses the tidy resolution: "The question that started the controversy — _what does she actually believe?_ — has never been answered on the record." The Republican registration is named rather than buried. Compare the Matt-Smith anchor, which handles Morbius well but has nothing this live.
-- Collaborator testimony is the real Evidence strength: Mohan on the 19-year-old shadowing the first AC, Satter on the micro-emotions, Feig on the breakup she didn't bring to set, Moore on the two-hander. Four named directors on the record is well past the 3-quote bar.
+Two factual errors found and corrected during sourcing:
 
-- NEEDS WORK — NO RABBIT HOLE (this is the cap): the wing (3w2 vs 3w4), the full instinctual-subtype argument, the 3-1-5 tritype, the Type 8/1/6 counter-typing ladder, and both arrows are all in the main body, lines ~206–247 and ~460–470. There is no `<details class="enneagram-rabbit-hole">` anywhere in the file — the only `<details>` is the TL;DR. Under v2 that content is insider baseball that stops the narrative dead for a general reader, and its absence from the accordion caps Enneagram Integration at 8. Everything else about the Enneagram work here is 9-level: the type resolves a genuinely non-obvious contradiction (the most emotionally exposed performances in Hollywood, delivered by the most sealed-off person on set), the fear is felt rather than named, and the empathy turn uses her own vocabulary instead of the house "not X, it was armor" grammar.
-- NEEDS WORK — DATING: essentially no inline citation carries a date. Nearly every quote links to a live article, so a fact-checker can trace it, but the source audit returns 0 inline across all four load-bearing slots because outlet-plus-year is what makes a claim quotable by an answer engine. This is the single cheapest point of Evidence available.
+1. **Cold open was wrong.** The draft had her spending the day on "a Cosmopolitan lingerie shoot,
+   dizzy and nauseous, vomiting between takes." Sourcing shows the shoot was an unnamed lingerie
+   campaign; Cosmopolitan is where she _told the story_, in February 2022. She also threw up once,
+   not between takes. Corrected, and her verbatim account now carries the beat: "All of a sudden,
+   I threw up in the middle of this shoot, everywhere." The friend who cut her off by text that
+   same night — the detail that actually explains why this night broke her — was missing entirely
+   and has been restored.
+2. **"Tuesday night" was unsupported.** The Instagram Live was 8–9 May 2021, a weekend. Weekday cut.
+3. **SYRN launch date was wrong.** Draft said "Fall 2025"; the line launched in early 2026 and the
+   32DD quote is from Us Weekly, March 2026. Both corrected.
 
-- TO REACH A (9.0+):
-  1. **Build the rabbit hole.** Move lines 218–247 (the wing section, the subtype section, the tritype section) and the arrow _mechanics_ from "Where stress takes her" into a `<details class="enneagram-rabbit-hole">` accordion placed after the diagnosis, following the Matt-Smith pattern (`### Sydney Sweeney's Wing: 3w4` / `### Instinctual Subtype` / `### Stress and Growth Arrows` / `### Counterarguments: Why Sydney Sweeney Might Not Be Type 3`). Also move the Type 8/1/6 counter-typing ladder at line ~212. Keep in the body only: the one-line type answer, "her through-line is identity through achievement," and the _lived_ stress observation (the dreams quote and "Rest feels like danger") — that beat is narrative, not mechanics, and should stay. This alone lifts Enneagram 8 → 9.
-  2. **Date the load-bearing four.** Add year (ideally month) inline to: the Backstage character-book quote, the Nylon "because I made the book" quote, the E! News Instagram Live quote, and the THR six-month-break quote. Format them as the pipeline's inline standard — outlet plus date adjacent to the quote — and re-run `node scripts/blog-source-audit.mjs Sydney-Sweeney` until the load-bearing slots read INLINE.
-  3. **Source or cut the eight orphan quotes** listed in the Source audit line above. Feig's "most professional person I have ever met" and "Christy's opinion is the only one that matters to me" are the two most load-bearing of them; the standalone lines at 258 and 354 have no attribution on the line at all. Together (2) and (3) take Evidence 8 → 9.
-  4. **Trim the catalog stretches** to lift Writing 8 → 9. "Other Fifty-Fifty projects" is a two-paragraph stub that reads as a completeness obligation — fold the Barbarella/Sony line into the end of the Fifty-Fifty section and delete the heading. "Achievement without applause" compiles MMA, contracts, the shed gym, and the cars into one list; the shed gym is already told better in the Christy section, so cut the duplicate and let the section be about the cars and the fighting. At 7,326 words there is room to lose 600 without losing a single scene.
-  5. **Thin the metaphor cluster.** "The system," "the architecture," and "the book" appear 17 times across the piece. The image is excellent and should land at the cold open, at Reality, and at the close — not as a recurring section-closer cadence. Cutting roughly half the instances will make the surviving ones hit harder.
+Orphan quotes — all eight resolved:
 
-Note: this replaces a stale v1 grade (A / 9.0, graded 2026-04-03) that predates the Discoverability dimension, the weighted overall, and the rabbit-hole rule. The drop to B+ is a rubric change plus the rabbit-hole cap, not a regression in the draft.
+| Quote                                                                      | Resolution                                                                                                                                                                                                    |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Feig, "most professional person I have ever met"                           | **Cut.** Unsourceable to a single citable outlet, and redundant with the E!-sourced "completely present" beat two paragraphs down, which is the one that carries the argument. Section is tighter without it. |
+| "The most disgusting thing I ever experienced"                             | **Sourced** to Hot Ones, January 2024 (via THR). The passage had been mis-credited to Marie Claire.                                                                                                           |
+| "32DD in sixth grade"                                                      | **Sourced** to Us Weekly, March 2026 (via Fox News); quote restored to its fuller verbatim form.                                                                                                              |
+| "These characters are for everybody else…"                                 | **Sourced** to Variety, March 2024 (outlet + date; no verified URL, so no link).                                                                                                                              |
+| "Please be proud of me" / "Christy's opinion is the only one that matters" | **Sourced** to THR, December 2025; attribution restructured so it clearly governs both quotes.                                                                                                                |
+| "We all signed on to this film…"                                           | **Sourced** to her written Instagram statement, November 2025, and merged with the adjacent "art for numbers" quote from the same statement — they were being cited as if they were two separate occasions.   |
+| Kelly Clarkson "X, Y, and Z"                                               | **Sourced** to The Kelly Clarkson Show, December 2023.                                                                                                                                                        |
+| Powell NYT / Sweeney Variety denial                                        | **Sourced** to NYT April 2024 and Variety October 2025. Sweeney's denial had been silently stitched from two non-adjacent sentences; restored to verbatim with an ellipsis.                                   |
 
-Also flagged, non-scoring: `description` contains an em-dash ("image-aware personality—patterns"), and the body carries 55 em-dashes against the standing de-AI ban. Worth a pass, but it did not move any dimension.
+Also: "no one talks about it because I got naked" was credited to Fox News, which was re-reporting.
+Re-attributed to its origin, The Independent, January 2022, with the Fox copy kept as the live link.
+28 further citations gained inline dates.
+
+Catalog trims: the "Other Fifty-Fifty projects" stub heading is gone, with the Barbarella beat folded
+into the Fifty-Fifty section as an argument ("The project she refused to own still bought her the room")
+rather than a filmography obligation. The shed-gym recap in "Achievement without applause" was cut —
+it was already told better, and in full, in the Christy section.
+
+Metaphor cluster: "the system / the architecture / the book" reduced 17 → 13, with the pure cadence
+instances down to 9. It now lands at the cold open, at the Reality section, and at the American Eagle
+payoff, instead of closing sections on a loop.
+
+Net: 7,326 → 7,413 words. Body prose is meaningfully tighter; the count is up because ~30 citations
+gained dates.
+
+## Standing feedback
+
+- The "I could never actually fail because, I mean, on a very broad scale, my family did lose
+  everything" reframe is the signature move. Reading it as _failure was already accomplished_ rather
+  than as ordinary ambition is the insight a generic profile never reaches.
+- The Reality (2023) section is the strongest structural decision in the draft and is rare in this
+  corpus: it runs the thesis against the one project where the character-book method was structurally
+  impossible, then refines the thesis instead of explaining the counter-evidence away.
+- Critic pressure is faced, not managed. The American Eagle section quotes Stoeffel's full GQ opening,
+  quotes the deflection in full, names the Republican registration, and refuses the tidy resolution.
+
+- NEEDS WORK — NO RABBIT HOLE (the only remaining cap, deferred by DJ on 2026-08-15): the wing, the
+  instinctual-subtype argument, the 3-1-5 tritype, the Type 8/1/6 counter-typing ladder, and both
+  arrows all sit in the main body (lines ~206–247, ~460–470). There is no
+  `<details class="enneagram-rabbit-hole">` in the file — the only `<details>` is the TL;DR. This caps
+  Enneagram Integration at 8 and is the whole remaining distance to an A.
+
+- TO REACH A (9.0+): build the rabbit hole. Move the wing/subtype/tritype sections and the arrow
+  _mechanics_ into a `<details class="enneagram-rabbit-hole">` accordion after the diagnosis, following
+  the Matt-Smith pattern. Keep in the body only the one-line type answer, "her through-line is identity
+  through achievement," and the _lived_ stress beat (the dreams quote and "Rest feels like danger") —
+  that is narrative, not mechanics. Doing this lifts Enneagram 8 → 9 and Writing 8 → 9 (the 40-line
+  insider slab is the main thing still stopping the narrative), which computes to 9.0 exactly.
+
+Non-scoring: `description` still contains an em-dash, and the body still carries ~55 em-dashes against
+the standing de-AI ban. Untouched this pass — it is a separate mechanical sweep.
