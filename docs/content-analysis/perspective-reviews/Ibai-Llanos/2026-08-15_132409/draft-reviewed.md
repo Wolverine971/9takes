@@ -4,12 +4,12 @@ meta_title: "Ibai Llanos Enneagram: Why He Stages Fights He Won't Join"
 persona_title: "Streaming's Tranquil Giant"
 description: 'How does the man with the biggest live audience in internet history end up unable to climb five stairs? An Enneagram Type 9 reading of Ibai Llanos.'
 author: 'DJ Wayne'
-date: '2026-08-15'
+date: '2026-07-30'
 loc: 'https://9takes.com/personality-analysis/Ibai-Llanos'
-lastmod: '2026-08-15'
+lastmod: '2026-07-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: '9'
 type: ['creator', 'streamer']
 person: 'Ibai-Llanos'
@@ -111,7 +111,7 @@ content_quality:
   anchor: 'Matt-Smith draft (calibration B, 2026-06-28)'
   needs_review: false
   graded_at: '2026-07-30'
-path: src/blog/people/drafts/Ibai-Llanos.md
+path: docs/content-analysis/perspective-reviews/Ibai-Llanos/2026-08-15_132409/draft-reviewed.md
 ---
 
 <!-- WORKING NOTES (non-interactive run, 2026-07-30)
@@ -221,12 +221,12 @@ In August 2014, on the final day of auditions, Ibai and Ander walked into a cast
 
 <div class="scroll-table">
 
-| Year | What he earned                    | Who was listening                              |
-| ---- | --------------------------------- | ---------------------------------------------- |
-| 2014 | around 100 euros a month          | a few thousand League of Legends diehards      |
-| 2016 | 1,040 euros net, after moving city | hundreds of thousands per broadcast            |
-| 2018 | 2,400 euros a month               | the largest esports audience in Spain          |
-| 2021 | his own channel, his own terms    | 1.7 million concurrent on a single stream      |
+| Year | What he earned                     | Who was listening                         |
+| ---- | ---------------------------------- | ----------------------------------------- |
+| 2014 | around 100 euros a month           | a few thousand League of Legends diehards |
+| 2016 | 1,040 euros net, after moving city | hundreds of thousands per broadcast       |
+| 2018 | 2,400 euros a month                | the largest esports audience in Spain     |
+| 2021 | his own channel, his own terms     | 1.7 million concurrent on a single stream |
 
 </div>
 
@@ -389,4 +389,3 @@ Still rough:
 - Body at ~4,050 words, close to the 4,500 refresh ceiling (lint WARN).
 - faqs frontmatter enrichment stage not yet run (lint WARN).
 -->
-

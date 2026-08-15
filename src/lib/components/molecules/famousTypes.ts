@@ -529,7 +529,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'ed-sheeran', link: true, hasImage: true, lastmod: '2026-04-22', personaTitle: 'Pop\'s Invisible Stadium-Filler', contentGrade: 8.8, types: ['musician'] },
 		{ name: 'emma-myers', link: true, hasImage: true, lastmod: '2026-04-27', personaTitle: 'The Werewolf Who Wants to Disappear', contentGrade: 9, types: ['newMovieStar', 'celebrity', 'rising-star'] },
 		{ name: 'harrison-ford', link: true, hasImage: true, lastmod: '2026-05-29', personaTitle: 'Hollywood\'s Reluctant Carpenter', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
-		{ name: 'ibai-llanos', link: false, hasImage: true, lastmod: '2026-07-30', personaTitle: 'Streaming\'s Tranquil Giant', contentGrade: 8.6, types: ['creator', 'streamer'] },
+		{ name: 'ibai-llanos', link: true, hasImage: true, lastmod: '2026-08-15', personaTitle: 'Streaming\'s Tranquil Giant', contentGrade: 8.6, types: ['creator', 'streamer'] },
 		{ name: 'jane-goodall', link: false, hasImage: true, lastmod: '2026-05-17', personaTitle: 'The Quiet Witness Who Wouldn\'t Stay Quiet', contentGrade: 9.1, types: ['activist', 'historical', 'author'] },
 		{ name: 'jason-sudeikis', link: true, hasImage: true, lastmod: '2026-07-30', personaTitle: 'Comedy\'s Reluctant Peacekeeper', contentGrade: 8.5, types: ['comedian', 'movieStar'] },
 		{ name: 'jelly-roll', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Nashville\'s Reluctant Giant', contentGrade: 8.8, types: ['musician', 'singer-songwriter'] },
