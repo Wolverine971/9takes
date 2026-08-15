@@ -9,15 +9,69 @@ loc: 'https://9takes.com/personality-analysis/Phoebe-Bridgers'
 lastmod: '2026-08-14'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 4
 type: ['musician']
 person: 'Phoebe-Bridgers'
 suggestions: ['Taylor-Swift', 'SZA', 'Lana-Del-Rey', 'Billie-Eilish']
+wikipedia: 'https://en.wikipedia.org/wiki/Phoebe_Bridgers'
+wikidata_qid: 'Q24883319'
+imdb_id: 'nm5353667'
+birth_date: '1994-08-17'
+birth_place: 'Pasadena, California, United States'
+nationality: 'American'
+occupation:
+  - 'Singer-songwriter'
+  - 'Record producer'
+  - 'Record label founder'
+  - 'Musician'
+knows_about:
+  - 'Indie folk songwriting'
+  - 'Lyric writing and revision'
+  - 'Collaborative songwriting'
+  - 'Record production'
+  - 'Live performance'
+  - 'Artist development and label curation'
+keywords:
+  - 'Phoebe Bridgers Enneagram'
+  - 'Phoebe Bridgers personality type'
+  - 'Phoebe Bridgers Type 4'
+  - 'Phoebe Bridgers 4w3'
+  - 'Phoebe Bridgers personality analysis'
+  - 'Phoebe Bridgers boygenius personality'
+  - 'Phoebe Bridgers Lost Weekend'
+same_as:
+  - 'https://en.wikipedia.org/wiki/Phoebe_Bridgers'
+  - 'https://www.wikidata.org/wiki/Q24883319'
+  - 'https://www.imdb.com/name/nm5353667/'
+  - 'https://musicbrainz.org/artist/96855c21-b832-4366-ba12-0d2330c36a86'
+  - 'https://phoebebridgers.com/'
+citations:
+  - 'https://www.newyorker.com/culture/pop-music/inside-phoebe-bridgers-secret-show-at-madison-square-garden'
+  - 'https://www.newyorker.com/magazine/2020/05/25/phoebe-bridgers-frank-anxious-music'
+  - 'https://www.thefader.com/2018/09/06/phoebe-bridgers-cover-story-interview/'
+  - 'https://www.theringer.com/2020/06/19/music/phoebe-bridgers-punisher-interview-new-album'
+  - 'https://www.vogue.com/article/boygenius-oral-history-lucy-dacus-phoebe-bridgers-julien-baker'
+  - 'https://articulateshow.org/videos/finding-their-own-way/'
+  - 'https://www.wired.com/story/phoebe-bridgers-ditched-the-internet-to-hype-up-her-new-music-its-working/'
+  - 'https://apnews.com/article/990a783dab49cac683fe8581f3af8f3f'
+faqs:
+  - question: "What is Phoebe Bridgers's personality type?"
+    answer: "Phoebe Bridgers is best understood as an Enneagram Type 4, likely 4w3, with medium confidence. The case rests on songwriting as a way to discover an emotionally exact self, her resistance to a simplified sad persona, and the tension between creating public intimacy and protecting the person behind it. Type 6 is the strongest alternative."
+    anchor: 'what-is-phoebe-bridgerss-personality-type'
+  - question: "Why do Phoebe Bridgers's songs feel so personal?"
+    answer: "Bridgers writes slowly and revises heavily, sometimes understanding the feeling inside a lyric only after finishing it. She also leaves interpretive gaps rather than explaining every emotional connection. The result can feel intimate without making every narrator or detail literal autobiography."
+    anchor: 'the-song-knows-before-she-does'
+  - question: "Why are Phoebe Bridgers's concerts phone-free?"
+    answer: "Confidentiality around unreleased songs was the reported practical reason for her 2026 phone restrictions. The rule also created promotional scarcity and a more attentive room. This analysis interprets it as a boundary around capture, while recognizing that Bridgers has not publicly reduced the policy to one psychological motive."
+    anchor: 'why-phoebe-bridgers-made-an-arena-feel-like-a-living-room'
+  - question: "What is Phoebe Bridgers's album Lost Weekend?"
+    answer: "Lost Weekend is Bridgers's third solo album, released August 14, 2026, and her first since Punisher in 2020. It draws together grief, relationship changes, memory, and nonlinear time; a voicemail from her father appears on the record, which is dedicated to him."
+    anchor: 'lost-weekend-returns-on-her-terms'
 production_pretext:
   status: draft
   handoff_from: blog_content_creator_people
-  reviewed: false
+  reviewed: true
   ready_for_production: false
   sync_mode: full
   requires:
@@ -26,6 +80,24 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+content_quality:
+  hook: 9.2
+  enneagram: 8.9
+  evidence: 9.1
+  writing: 9.1
+  originality: 9.2
+  discoverability: 9.3
+  overall: 9.1
+  first_overall: 9.1
+  regrade_overall: 9.1
+  grade_stability_delta: 0.0
+  letter: A
+  rubric_version: 2
+  caps_applied: []
+  confidence: high
+  anchor: 'Bryan-Johnson (A, 9.2), one tenth higher on direct core-motive evidence'
+  needs_review: false
+  graded_at: '2026-08-14'
 path: src/blog/people/drafts/Phoebe-Bridgers.md
 ---
 
@@ -54,7 +126,8 @@ Locations: "The song knows before she does" and "The price of being everyone's p
 -->
 
 <!-- FORMULA FINGERPRINT LEDGER
-Contrast-pair sentence engines: pending deterministic scan
+Contrast-pair sentence engines: 0 strong, 0 comparative; deterministic lint and quality report clear
+Same-type argument similarity: clear; maximum unit-pair score 0.031 against a 0.04 trip threshold across the eight most recent Type 4 drafts
 Counter-typing ladders in main body: 0; alternatives remain in the Rabbit Hole
 Bespoke section form: "The access dial" timeline traces farmers-market indifference, pandemic bedroom access, arena-scale exposure, and the 2026 phone surrender. The sequence collapses if transferred to another subject.
 Critic-pressure anchor: WIRED's 2026 marketing analysis that scarcity is a powerful promotional tool, plus The Atlantic's criticism that Lost Weekend can feel strained and distant
@@ -96,11 +169,11 @@ The June show and the August 14, 2026 release of *Lost Weekend* reveal the patte
 
 ### Phoebe Bridgers is an Enneagram Type 4
 
-Phoebe Bridgers reads as [Enneagram Type 4](/enneagram-corner/enneagram-type-4), with medium confidence. Her strongest public pattern is the use of art to find and preserve an emotionally exact self. She keeps contradiction intact, resists identities built for market convenience, and wants recognition without being reduced to the persona that recognition creates.
+Phoebe Bridgers reads as [Enneagram Type 4](/enneagram-corner/enneagram-type-4), with medium confidence. Her strongest public pattern is the use of art to find and preserve an emotionally exact self. She keeps contradiction intact, resists identities built for market convenience, and seeks a form of being seen that leaves room beyond the stage character.
 
-Melancholy is the least useful evidence. Plenty of artists make sad music, and Bridgers has explicitly rejected the idea that sadness defines her ordinary personality. The stronger clue is the authority she gives a feeling once it becomes precise. A song can overrule the explanation she had been giving herself.
+The sad register tells us almost nothing by itself. Plenty of artists make mournful music, and Bridgers has explicitly rejected the idea that sadness defines her ordinary personality. The stronger clue is the authority she gives a feeling once it becomes precise. A song can overrule the explanation she had been giving herself.
 
-Bridgers told [*The New Yorker* in 2020](https://www.newyorker.com/magazine/2020/05/25/phoebe-bridgers-frank-anxious-music) that she had insisted one lyric was a thought experiment before recognizing, “I was telling the truth.” The work had located something her conscious account had missed.
+One lyric began, in Bridgers's account, as a supposed thought experiment. She later recognized the confession inside it. Her 2020 [*New Yorker* profile](https://www.newyorker.com/magazine/2020/05/25/phoebe-bridgers-frank-anxious-music) gives her verdict: “I was telling the truth.” The work had located something her conscious account had missed.
 
 That process appears across her interviews. She can spend months revising a song, change a word at the last possible moment, and understand what a finished lyric means long after writing it. Emotional honesty is a craft for her. The public self is also crafted, though she becomes wary whenever the craft hardens into a version she is expected to perform.
 
@@ -207,7 +280,7 @@ Type 6 is the strongest alternative. Bridgers has described anxiety, scanning fo
 
 Type 3 also has a serious case. Early ambition, strategic commercial work, image fluency, label leadership, famous collaborations, and award success can support 3w4. Type 4 stays ahead because Bridgers repeatedly limits strategies that require a false or simplified self. She rejected the marketable sad persona and retreated at the height of recognition, then returned under conditions that protected artistic agency. Type 5 explains withdrawal and controlled access, while Type 1 explains precision and moral directness. Neither gathers the full pattern as economically.
 
-Direct evidence of a Four's felt deficiency or envy remains limited, which keeps confidence at medium. Sustained first-person evidence that hard decisions center on threat, dependable support, and trust in her own judgment would move Type 6 ahead. Evidence that authenticity changes to match a winning audience, with achievement regulating worth, would move 3w4 ahead.
+Her interviews offer little direct access to the Four pattern of measuring oneself against an imagined wholeness in others, which keeps confidence at medium. The Type 6 call would take the lead if Bridgers repeatedly described consequential choices as attempts to secure dependable support, lower danger, or restore trust in her judgment. A 3w4 call would take the lead if her definition of authenticity changed with the winning audience and achievement regulated her sense of worth.
 
 </div>
 </details>
@@ -306,4 +379,15 @@ Applied all six accepted perspective repairs:
 - Added Type 6 and 3w4 falsifiers, named the missing direct deficiency/envy evidence, and recalibrated both arrow paragraphs so traits do not stand in for line movement.
 - Replaced floating release-day language and historicalized completed MSG facts versus announced Lost Tour terms.
 Protected the cold open, sad-brand refusal, songwriting mechanism, boygenius safe-failure room, WIRED and Atlantic pressure, complete four-room timeline, lighters image, medium confidence, and ending.
+-->
+
+<!-- REVISION PASS NOTES (2026-08-14)
+Triggered by: same-type-similarity scan tripped on two sentence formulations, including the house-like "Sustained first-person evidence that..." falsifier and a generic source-attribution construction.
+Repaired:
+- Rewrote the diagnosis's recognition/persona sentence in Phoebe-specific stage-character language.
+- Rebuilt the New Yorker thought-experiment evidence as a two-step scene while keeping outlet and year adjacent to the quote.
+- Replaced the generic deficiency/envy and "sustained first-person evidence" falsifier with distinct formulations for Four, Six, and 3w4.
+- Removed the residual stock interview-attribution clause and replaced a generic melancholy formulation; the final similarity scan cleared at 0.031 against a 0.04 threshold.
+Protected: type call, medium confidence, all evidence, the accepted perspective repairs, and every narrative section.
+This is the pipeline's single targeted revision pass.
 -->

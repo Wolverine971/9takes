@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Phoebe-Bridgers",
+	"review_dir": "docs/content-analysis/perspective-reviews/Phoebe-Bridgers/2026-08-14_223909",
+	"verification_file": "docs/content-analysis/perspective-reviews/Phoebe-Bridgers/2026-08-14_223909/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "5f3b5ec364ec3a01e3ffec0fbccb7570052323ba85e5839049b1c0e4b4dc7b3e",
+	"verified_content_sha256": "c88e04e50cf12bead26eca8424e767d658d44759371dad16da1fe9366cedffae",
+	"verified_at": "2026-08-15T03:15:00.000Z"
+}
