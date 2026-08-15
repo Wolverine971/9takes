@@ -174,7 +174,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'stable-ronaldo', link: false, hasImage: true, lastmod: '2026-08-02', personaTitle: 'Twitch\'s Comeback Machine', contentGrade: 8.4, types: ['creator', 'streamer'] },
 		{ name: 'stephen-a-smith', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Sports Media\'s Self-Made Thunder', contentGrade: 8.7, types: ['celebrity', 'creator', 'celebrity-image', 'news-commentator'] },
 		{ name: 'steven-bartlett', link: true, hasImage: true, lastmod: '2026-05-11', personaTitle: 'Podcasting\'s Restless Architect', contentGrade: 8.8, types: ['entrepreneur', 'creator', 'business-creator', 'business-operator'] },
-		{ name: 'sydney-sweeney', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s pressure-tested architect', contentGrade: 8.5, types: ['newMovieStar', 'celebrity', 'rising-star'] },
+		{ name: 'sydney-sweeney', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s pressure-tested architect', contentGrade: 8.7, types: ['newMovieStar', 'celebrity', 'rising-star'] },
 		{ name: 'tate-mcrae', link: false, hasImage: true, lastmod: '2026-08-04', personaTitle: 'The Girl Who Built Tatiana', contentGrade: 8, types: ['musician'] },
 		{ name: 'taylor-swift', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Pop\'s Strategic Alchemist', contentGrade: 8.8, types: ['musician', 'entrepreneur', 'pop-star', 'business-operator'] },
 		{ name: 'ted-bundy', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
@@ -449,7 +449,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'tim-dillon', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Comedy\'s Panic Prophet', contentGrade: 9.1, types: ['comedian', 'stand-up'] },
 		{ name: 'tom-holland', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'Hollywood\'s Armored Enthusiast', contentGrade: 8.9, types: ['newMovieStar', 'rising-star'] },
 		{ name: 'travis-kelce', link: true, hasImage: true, lastmod: '2026-08-13', personaTitle: 'Football\'s Full-Send Showman', contentGrade: 8.8, types: ['celebrity', 'creator'] },
-		{ name: 'xqc', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Streaming\'s Doomsday Escape Artist', contentGrade: 9, types: ['creator', 'streamer'] }
+		{ name: 'xqc', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Streaming\'s Doomsday Escape Artist', contentGrade: 9, types: ['creator', 'streamer'] },
+		{ name: 'tyla', link: false, hasImage: false, lastmod: '2026-08-15', personaTitle: 'Popiano\'s Uncageable Pioneer', contentGrade: 8.6, types: ['musician'] }
 	],
 	8: [
 		{ name: 'amy-poehler', link: true, hasImage: true, lastmod: '2026-01-06', personaTitle: 'Comedy\'s Warm-Hearted Enforcer', contentGrade: 9, types: ['comedian', 'celebrity', 'movieStar', 'tv-comedy-crossover', 'sketch-comic'] },
