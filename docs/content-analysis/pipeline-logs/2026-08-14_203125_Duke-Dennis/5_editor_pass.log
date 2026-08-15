@@ -1,0 +1,36 @@
+Done. Draft polished and the perspective gate work is complete.
+
+## What I polished
+
+`src/blog/people/drafts/Duke-Dennis.md`, in perspective-jury mode against `2026-08-14_203125`. SHA matched the live draft, so the synthesis was adjudicating the right bytes.
+
+**All 6 P0s resolved.** The dominant failure mode was exactly what the synthesis diagnosed — claims rendered one notch stronger than their sources:
+
+- **San Antonio** now carries the real disposition (charges dismissed after a pretrial diversion program, per Express-News court records reviewed June 2026) plus one allegations-only sentence on the June 2026 civil suit. I also **reordered** the paragraph to arrest → his answer → disposition → live suit, which fixed the chronology and the synthesis's complaint that the ledger closed on his unrebutted self-exculpation. The punch is attributed to AMP security, never to Duke.
+- **The Speedy source card** no longer edits out the two exceptions he names on tape. Both are in the quote now, and *Sneaker Shopping* is named in body prose (upload date verified first-hand: `yt-dlp` on `coql2j3ugo8` → 2023-05-29).
+- **The compliments beat** is restored to the counterarguments; "Duke declines it" was refuted by the same interview the piece quotes twelve times.
+- **The imputed inner-thought** is cut, and the close no longer implies the aunt is alive or forecasts his future.
+
+**One finding did not survive research.** P0-06 claimed the "risk my freedom" quote was misattributed to Vibe. It wasn't — the Yahoo syndication carries it verbatim (Preezy Brown, 2025-08-18). Packet CLM-11b was wrong, and Hollywood Unlocked only paraphrases it in a headline, so the recommended re-attribution would have *introduced* an error. I kept "per Vibe" and added the openable syndication to `citations:`.
+
+**One knock-on I caught mid-pass:** correcting the RDC example broke the 8w7 discriminator two sentences later, which still read "would have kept the friction running." Fixed to "would have let it escalate."
+
+## Final numbers
+
+- **Contrast pairs: 0 strong / 0 comparative** (unchanged from baseline)
+- Lint: **0 fail**, 2 pre-existing warns (7 internal links, thin headroom)
+- Body 4494 → **4495** against the 4,500 ceiling
+- All 20 protected hits verified intact by exact-match script; `lastmod` untouched
+
+The ceiling was the real constraint. The P0s alone cost ~+87 words net, so I cut ~150 words of restatement to seat them — the law-of-physics closer (its idea is carried by the Unc quote directly above it, and the quote survives in the FAQ), two superlative-singling constructions the fresh-eyes pass had flagged, and the third and fourth tellings of the mother's-house beat. No protected beat paid for anything.
+
+## Left for you
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/editor-resolution.md`
+
+- **P1-13's Type 7 clause** is the one accepted item I dropped, purely on budget (~30 words). Its diagnosis half shipped — the "on call 24/7" quote the enneagram evaluator called the cheapest quality gain in the draft.
+- **RQ-03** (is the aunt who died in July 2025 the aunt who named him) remains unresolvable and I did not attempt it. The close is branch-safe by design.
+- **P1-16's archiving** of the hoax citations needs a human — that means writing to a third-party archive service, which I didn't do unprompted.
+- Worth remembering when budget frees up: **"I would want them to look at me as like balance"** is verified on tape. In a piece about meanings assigned to him, it's the one meaning he chose for himself.
+
+The draft reads production-ready to me on evidence and prose. I'd hold the actual publish call until you've eyeballed the new legal paragraph, since it's the one place where a wording judgment about a real person's live litigation belongs to you rather than to me. `/blog_perspective_verify_people` still needs to independently confirm the gate — I haven't claimed it passed.

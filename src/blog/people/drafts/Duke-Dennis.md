@@ -60,15 +60,20 @@ citations:
   - 'https://www.vibe.com/news/entertainment/duke-dennis-breaks-silence-viral-arrest-livestream-1235096018/'
   - 'https://www.hotnewhiphop.com/838392-duke-dennis-youtuber-twitch-streaming-news'
   - 'https://www.primetimer.com/news/did-duke-dennis-get-arrested-for-murder-viral-mugshot-tweet-claim-debunked'
+  - 'https://www.yahoo.com/entertainment/articles/duke-dennis-breaks-silence-viral-162513312.html'
+  - 'https://www.yahoo.com/entertainment/celebrity/articles/security-officer-files-1m-suit-120000012.html'
+  - 'https://www.sportskeeda.com/us/streamers/news-where-speed-duke-dennis-slams-rolling-stone-including-ishowspeed-top-content-creators-year-list'
+  - 'https://www.youtube.com/watch?v=coql2j3ugo8'
+  - 'https://www.yahoo.com/entertainment/tv/articles/kai-cenat-streamer-university-back-180341069.html'
 faqs:
   - question: "What is Duke Dennis's personality type?"
-    answer: "Duke Dennis is an Enneagram Type 8 (the Challenger) with a 9 wing. The pattern shows in the 2018 story time where he repeated 'I don't like being told what to do' three separate ways, the factory job he walked out of mid-shift after twenty-nine days, the no-additions rule he enforces for AMP, and seven years of fame without a single sit-down interview."
+    answer: "Duke Dennis is an Enneagram Type 8 (the Challenger) with a 9 wing. The pattern shows in the 2018 story time where he repeated 'I don't like being told what to do' three separate ways, the factory job he walked out of mid-shift after twenty-nine days, the no-additions rule he states for AMP, and seven years without a sit-down interview, 2017 to 2024."
     anchor: 'what-is-duke-denniss-personality-type'
   - question: 'Why does Duke Dennis call the Army his biggest regret?'
     answer: "He says it himself: 'As soon as I got on that bus, I knew it was the worst decision I ever made in my life.' The Army meant four years of being told when to eat, sleep, and work, the exact arrangement he organizes his life against, yet he credits those years for the punctuality and discipline his career runs on. He stayed the full contract after openly asking to be sent home."
     anchor: 'why-duke-dennis-calls-the-army-his-biggest-regret'
   - question: 'Why does Duke Dennis hate the word rizz?'
-    answer: "In Complex's 2024 360 With Speedy interview, Duke estimated that 80 to 100 percent of the men who approach him say something rizz-related. A meme repeated at you on request stops being a joke and becomes a schedule. He already spent four years performing somebody else's script in the Army, so what fans mean as tribute he hears as a shift bell. His own law: 'People overdo and overuse everything they come in contact with. What starts off cool eventually turns corny.'"
+    answer: "In Complex's 2024 360 With Speedy interview, Duke estimated that 80 percent of the men who approach him say something rizz-related, and that on an Aspen trip it was all of them. A meme repeated at you on request stops being a joke and becomes a schedule. He already spent four years performing somebody else's script in the Army, so what fans mean as tribute he hears as a shift bell. His own law: 'People overdo and overuse everything they come in contact with. What starts off cool eventually turns corny.'"
     anchor: 'why-duke-dennis-hates-the-word-rizz'
   - question: 'How old is Duke Dennis?'
     answer: "Duke Dennis was born on February 26, 1994, in Greenville, South Carolina, which makes him 32 as of August 2026. He is the oldest member of AMP, which is where the 'Unc' jokes come from. The 1987 birth year that circulates online is part of that running bit, not a fact."
@@ -77,7 +82,7 @@ faqs:
     answer: 'His government name is Denzel Shaquille Dennis. An aunt started calling him Duke when he was a boy in Greenville, South Carolina, and he admits he has never asked her what she meant by it. He was born in 1994; the 1987 birth year the internet prints is a running joke, not a fact.'
     anchor: 'the-name-he-never-asked-about'
   - question: 'Why will AMP never add a seventh member?'
-    answer: "In Complex's 2024 360 With Speedy interview, Duke states the rule like a man reading a deed: 'Nobody else can join. If you move or add anybody, it'll just mess the whole thing up.' The six-man circle of Duke, Agent 00, ImDavisss, Fanum, Kai Cenat, and Chrisnxtdoor is sealed in both directions, and Duke, the oldest member, is the one who says the policy out loud."
+    answer: "In Complex's 2024 360 With Speedy interview, Duke states the rule like a man reading a deed: 'Nobody else can join. If you move or add anybody, it'll just mess the whole thing up.' The six-man core of Duke, Agent 00, ImDavisss, Fanum, Kai Cenat, and Chrisnxtdoor is sealed in both directions, and Duke, the oldest member, is the one who says the policy out loud."
     anchor: 'why-amp-will-never-add-a-seventh-member'
 twitter: 'ImDukeDennis'
 instagram: 'dukedennis'
@@ -94,29 +99,30 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Duke-Dennis.md
 content_quality:
   hook: 9
-  enneagram: 8
-  evidence: 7
+  enneagram: 9
+  evidence: 8
   writing: 8
   originality: 8
   discoverability: 9
-  overall: 8.1
-  first_overall: 8.5
-  regrade_overall: 8.1
-  grade_stability_delta: 0.4
+  overall: 8.4
+  first_overall: 8.6
+  regrade_overall: 8.4
+  grade_stability_delta: 0.2
   letter: B
   rubric_version: 2
   caps_applied: []
   confidence: high
-  anchor: 'Matt-Smith draft (B band, 2026-06-28)'
+  anchor: 'Matt-Smith draft (2026-06-28) — top of that band'
   needs_review: false
   graded_at: '2026-08-14'
 ---
 
 <!-- TESTIMONY LEDGER
-1. Speedy Morman: "If we had to rank in order of the guests we've had on 360, who's been the most on time, you might be number one." - 360 With Speedy, Complex, 2024
-2. Speedy Morman: "You don't have many interviews out there... sit-down interviews, I couldn't really find anything like that." - 360 With Speedy, Complex, 2024
+1. Speedy Morman: "If we had to rank... who's been the most on time, you might be number one." - 360 With Speedy, Complex, 2024
+2. Speedy Morman: "You don't have many interviews out there... you've done like maybe a podcast appearance here, you've done Sneaker Shopping on Complex, but that's it. Sit-down interviews, I couldn't really find anything like that." - 360 With Speedy, Complex, 2024 (quote extended 2026-08-14 editor pass per P0-02: the prior rendering elided the two exceptions Speedy names on tape)
 3. Rolling Stone: "His charm with the ladies has made him an almost mythic figure for teenage boys." - Rolling Stone, 25 Most Influential Creators of 2024, August 2024
 Total qualifying quotes: 3
 (India Love row removed 2026-08-14 second pass: the beat was cut when the provision section was
@@ -149,6 +155,19 @@ Locations: "What stress does to Duke Dennis" (behavioral stress-guide pointer on
 - Kai Cenat testimony gap: Veterans Day 2024 call exists on video but exact wording unverified in text sources; event stated as fact, no quote fabricated.
 - "Berry's plastic" rendered as Duke says it; corporate identity unverified.
 - Profanity in transcript quotes softened by omission, never rewritten.
+- SOURCING TRAIL (2026-08-14 revision pass, verified first-hand — do not re-flag):
+  * Subscriber scale: main channel UCO_RC-EuZVTkxm5e8ek1zvA read 3,600,000 via yt-dlp on 2026-08-14.
+    Twitch 3.3M is Wikipedia's tally (already in citations). Both now carry publisher + as-of date in body.
+  * The `citations` entry yahoo.com/.../security-officer-files-1m-suit-120000012.html IS the San Antonio
+    Express-News piece (Patrick Danner, 2026-06-17), syndicated. It carries the disposition verbatim:
+    "Those charges were later dismissed after he completed a pretrial diversion program, court records show."
+    expressnews.com blocks crawlers, so the openable syndication is the citation, same pattern as the
+    Vibe/Yahoo call in P0-06. The June 2026 disposition IS traceable from frontmatter. Not an unsourced claim.
+  * Streamer University 2026 faculty: Mashable (Olivia Tauber, 2026-07-07) via Yahoo syndication, added to
+    citations. Confirms the July 6 announcement date, Duke as professor, and Lizzo/Pokimane/Ludwig.
+    "teaching personal branding" still traces to Wikipedia (cited); the staff page words it differently.
+  * Sneaker Shopping: Complex, video coql2j3ugo8, upload_date 20230529 (yt-dlp). Transcript pulled and
+    quoted directly this pass — the third primary text, and the only one from inside the 2019-2023 window.
 -->
 
 > "I feel like my life didn't really start until I got out of the army."
@@ -158,16 +177,16 @@ Locations: "What stress does to Duke Dennis" (behavioral stress-guide pointer on
 
 He never went back. He told Speedy Morman that story on Complex's 360 With Speedy in 2024, seven years after surviving his Army contract. The factory got twenty-nine days.
 
-The internet knows a different man. Denzel Shaquille Dennis streams as Duke Dennis: a founding member of AMP, the six-man creator crew that includes Kai Cenat, and a YouTuber who built his following on NBA 2K first. A generation turned his face into shorthand for charisma itself. On stream he is loud, goofy, and laughing most of the time. The internet kept the still frame and threw the tape away. Gen Z pinned a dictionary word on him. He wants nothing to do with it.
+The internet knows a different man. Denzel Shaquille Dennis streams as Duke Dennis: a founding member of AMP, the six-man creator crew that includes Kai Cenat, and a YouTuber who built his following on NBA 2K, the basketball video game. On stream he is loud, goofy, and laughing most of the time. The internet kept the still frame and threw the tape away. Gen Z pinned "rizz" on him, Oxford's 2023 word of the year, clipped out of the middle of charisma. He wants nothing to do with it.
 
-Both walks are the same walk. Duke Dennis has spent his adult life leaving arrangements other people made for him, and the through-line runs from a barracks in Germany to a factory floor in South Carolina to the word "rizz." Once you see what he keeps walking away from, the calmest man in streaming gets a lot easier to read.
+Both walks are the same walk. Duke Dennis has spent his adult life leaving arrangements other people made for him, and the through-line runs from a barracks in Germany to a factory floor in South Carolina to the word "rizz."
 
 <details>
 <summary class="accordion">TL;DR: Why Duke Dennis is an Enneagram Type 8</summary>
 <div class="panel">
 <ul>
 <li><b>The hood name:</b> His aunt named him Duke. He never asked why, and the internet has tried to rename him ever since.</li>
-<li><b>The four-year regret:</b> The Army gave him the discipline his career runs on, and he called enlisting the worst decision of his life. Both facts are load-bearing.</li>
+<li><b>The four-year regret:</b> The Army gave him the discipline his career runs on, and he called enlisting the worst decision of his life.</li>
 <li><b>Twenty-nine days:</b> The length of his only civilian job, and the reason there was never a plan B.</li>
 <li><b>The sealed six:</b> Duke's rule for AMP: nobody joins, nobody leaves. He is the one who says it out loud.</li>
 </ul>
@@ -178,23 +197,23 @@ Both walks are the same walk. Duke Dennis has spent his adult life leaving arran
 
 ### Duke Dennis is an Enneagram Type 8
 
-An [Enneagram Type 8](/enneagram-corner/enneagram-type-8) organizes life around one requirement: nobody gets to run them. Money, muscle, competence, distance, all of it serves the same end of never again standing somewhere someone else sets the terms.
+An [Enneagram Type 8](/enneagram-corner/enneagram-type-8) organizes life around one requirement: nobody gets to run them. Money, muscle, competence, distance, all of it serves the same end of never again standing somewhere someone else sets the terms. That is one of the nine core motivations the Enneagram maps.
 
 Hurt and grief do not get their own channel in a man built this way. They surface as force or they surface as composure, and from the outside those look identical.
 
 Duke said it himself, years before anyone would have called it a diagnosis. In *Duke Dennis Story Time: My Army Experience, Basic Training and Why I Left the Army*, posted to his own YouTube channel on February 6, 2018, he kept circling one sentence. "The army wasn't for me because I don't like being told what to do. Being told when to eat, sleep, when to go to work... I just had bigger plans for myself." Then he pushed it past the military entirely: "I don't even like my girlfriend telling me what to do." "I just don't like people telling me what to do."
 
-Three repetitions in one story time. In the same 2018 video, he described discharge in escape vocabulary: "It was the best feeling of my life. Being free, it felt like I got out of jail or something."
+Three repetitions in one story time. In the same 2018 video, he described discharge in escape vocabulary: "It was the best feeling of my life. Being free, it felt like I got out of jail or something." Six years later he named the mechanism exactly: "the being on call 24/7 is what makes the Army... unbearable for me." The Army's sin was owning his availability.
 
 Freedom is the word he reaches for whenever he names what he actually wants. On money, he told Complex in 2024: "Waking up not having to worry about financial circumstances, I feel like that's one of the most slept-on freedoms." On work, same interview: "If you had the opportunity to be your own boss, I think everybody want to take that." He assumes everyone wants what he wants.
 
-Type 3, the polished achiever, is the read the internet settled on, and he hands you the ammunition: the physique, the brand, the command of the algorithm. Watch what he does with attention when it arrives. Seven years of fame without a sit-down interview. That case gets its full hearing at the bottom of this page.
+Type 3, the polished achiever, is the read the internet settled on, and he hands you the ammunition, including his own admission that he likes reading compliments. Watch what he does with attention at scale: no sit-down interview from 2017 to 2024. That case gets its full hearing at the bottom of this page.
 
 ---
 
 ## Why Duke Dennis calls the Army his biggest regret
 
-The arrangement he hates most, he volunteered for. He was born in Greenville, South Carolina, on February 26, 1994, and grew up in a neighborhood he calls DeeBlock. His exit plan was a handshake. He and a childhood friend, teammates on the Travelers Rest football team, agreed that if neither had a plan after graduation they would enlist together. "D-Block is not a place that you want to stay forever," he said in that same 2018 story time. He had small-college football offers and turned them down. "I was done with football and I was tired of school."
+The arrangement he hates most, he volunteered for. He was born in Greenville, South Carolina, on February 26, 1994, and grew up in a neighborhood he calls DeeBlock. His exit plan was a handshake. He and a childhood friend, teammates on the Travelers Rest football team, agreed that if neither had a plan after graduation they would enlist together. "DeeBlock is not a place that you want to stay forever," he said in that same 2018 story time. He had small-college football offers and turned them down. "I was done with football and I was tired of school."
 
 The bus left on December 31, 2013. "As soon as I got on that bus, I knew it was the worst decision I ever made in my life."
 
@@ -206,25 +225,25 @@ He borrowed the phone of the recruit beside him and called his mother: he'd made
 
 Basic training arrived like a kidnapping, recruits riding in with duffel bags pressed to their faces so nobody could see the route. A drill sergeant Duke clocked at LeBron size reduced the recruit beside him to tears at spitting distance, and Duke, watching a grown man cry, laughed. Twenty push-ups, and a reputation that followed him the rest of his contract.
 
-Germany came next. The moment that explains him best came the day he skipped work and napped under his own office desk while the entire chain of command searched the building, calling his name above his head. Summoned afterward, he got an offer delivered straight: "If you don't want to be here, just let me know and I'll send you home." Duke answered, "I don't want to be here."
+Germany came next. Then the day he skipped work and napped under his own office desk while the entire chain of command searched the building, calling his name above his head. Summoned afterward, he got an offer delivered straight: "If you don't want to be here, just let me know and I'll send you home." Duke answered, "I don't want to be here."
 
 Then the strangest fact in his biography: he stayed. One hour of talking later, the man who had just asked, out loud and to the correct person, to be sent home went on to finish the entire four-year contract. His mother's sentence outlasted his own. Nothing in the type explains this. He has never explained it either.
 
-The regret and the training were the same four years. "It definitely taught me some valuable traits, like being punctual and discipline," he told Speedy Morman in 2024, "but I feel like I wasted a lot of time." Speedy offered a ranking: "If we had to rank in order of the guests we've had on 360, who's been the most on time, you might be number one." The call time was 12:30. Duke got there early.
+The regret and the training were the same four years. "It definitely taught me some valuable traits, like being punctual and discipline," he told Speedy Morman in 2024, "but I feel like I wasted a lot of time." Speedy offered a ranking: "If we had to rank... who's been the most on time, you might be number one." The call time was 12:30. Duke got there early.
 
 ---
 
 ## How Duke Dennis built an empire on a borrowed email
 
-The career started inside the contract, on NBA 2K, the basketball video game. "When I got off at 5, I would just take my uniform off and play 2K until I went to sleep." He didn't know YouTube let regular people have channels; he thought it was "just music videos and fights." Learning you could post and get paid, he reposted a random clip, forgot about it, and checked back months later to find a couple hundred dollars waiting.
+The career started inside the contract, on NBA 2K. "When I got off at 5, I would just take my uniform off and play 2K until I went to sleep." He didn't know YouTube let regular people have channels; he thought it was "just music videos and fights." Learning you could post and get paid, he reposted a random clip, forgot about it, and checked back months later to find a couple hundred dollars waiting.
 
 The channel itself was a gift. His friend Deo ran a page that posted songs with lyrics on screen, 3,000 subscribers to Duke's 100, and handed it over: "I don't use mine, so you could just have this." Duke deleted his own channel and kept his friend's. That page became Duke Dennis Gaming, the 2K channel, and as of his 2024 telling it still ran on Deo's email address; the password changed, the email stayed. What became of Deo he has never said on record, and no reporting has filled it in.
 
 A few hundred dollars from a forgotten upload against a twelve-hour graveyard shift, and the math was over. His review of Berry's Plastic came down to one word that won't print here. The sentence after it was about YouTube: "I'm doing this."
 
-Nobody watched at first. He posted story-time videos to 400 views. "I had nobody to watch them, so I kind of stopped." He kept uploading NBA 2K daily anyway, and crossed 100,000 subscribers within a year of the factory floor.
+He posted story-time videos to 400 views. "I had nobody to watch them, so I kind of stopped." He kept uploading NBA 2K daily anyway, and crossed 100,000 subscribers within a year of the factory floor. His channel counter read 3.6 million in August 2026; Wikipedia puts his Twitch following at 3.3 million.
 
-The part that separates him from the content-farm generation: he has finished videos, edited them, and refused to put them on his main channel because they missed his own bar. "I just want to make a good video that tells a good story." The rejects get demoted to his live channel: "I know they want to see it, even though I don't want to drop it." What carries his name on the flagship is his call alone.
+The part that separates him from the content-farm generation: he has finished videos, edited them, and refused to put them on his main channel because they missed his own bar. "I just want to make a good video that tells a good story." The rejects get demoted to his live channel: "I know they want to see it, even though I don't want to drop it."
 
 What he grew into is stranger than gaming. The upload list on his own channel reads like a man testing rooms: a medieval Renaissance fair in May 2026, twenty-four hours at the Gathering of the Juggalos in August 2025, 2AM in South Carolina, 48 hours in Arizona, London, Switzerland. He walks into a subculture with nothing to do with him and the room does not move him an inch. That is why the 2K audience followed him to videos where nobody plays 2K. The appeal was never the jump shot. It was watching a man stay entirely himself somewhere he does not belong, from someone who spent four years being told which country he lived in.
 
@@ -234,17 +253,17 @@ What he grew into is stranger than gaming. The upload list on his own channel re
 
 AMP is the one room he helped build.
 
-In October 2019 he co-founded AMP, the Atlanta-based streamer collective he described to Speedy Morman in 2024 with genuine wonder: "Like Big Bang Theory. It was never supposed to happen." The original four were Duke, Agent 00, ImDavisss, and Fanum. Kai Cenat and Chrisnxtdoor made six.
+In October 2019 he co-founded AMP, the Atlanta-based streamer collective he described to Speedy Morman in 2024: "Like Big Bang Theory. It was never supposed to happen." The original four were Duke, Agent 00, ImDavisss, and Fanum. Kai Cenat and Chrisnxtdoor made six.
 
-Six is the number Duke says is final. In the same 2024 interview, Duke states the policy like a man reading a deed: "Nobody else can join. If you move or add anybody, it'll just mess the whole thing up. If you take away one member, the whole thing will fall apart."
+Six is the number Duke says is final. AMP has picked up affiliates since without opening that door. In the same 2024 interview, Duke states the policy like a man reading a deed: "Nobody else can join. If you move or add anybody, it'll just mess the whole thing up. If you take away one member, the whole thing will fall apart."
 
 [Kai Cenat](/personality-analysis/kai-cenat) became the biggest streamer on the planet from inside that house. Duke, the oldest member, gave his verdict in that 2024 Complex interview: "He's bigger than everybody and the group itself, but he still understands that you can't change or switch. Kai doesn't have an ego." From Kai's side: a Veterans Day call in November 2024, live on stream, thanking Duke for his service.
 
-The bills come due in public. When Kai's Union Square giveaway collapsed into a riot in August 2023, police arrested 65 people, 30 of them juveniles, and seven were hurt. Duke was charged alongside Kai. It took until May 2024, a public apology, and a restitution check before prosecutors dropped the case, a dismissal the Associated Press carried on May 8. He paid it. The arithmetic is his all the same: he was part of the draw that pulled that crowd into that square, and the crowd is the whole product.
+The bills come due in public. When Kai's Union Square giveaway collapsed into a riot in August 2023, police arrested 65 people, 30 of them juveniles, and seven were hurt. Duke was charged alongside Kai. It took until May 2024, a public apology from Kai, and a restitution check before prosecutors dropped the case, a dismissal the Associated Press carried on May 8. The arithmetic is his all the same: he was part of the draw that pulled that crowd into that square, and the crowd is the whole product.
 
-The next bill was his own. San Antonio police arrested Duke at the Shops at Rivercenter on the night of August 2, 2025, after a hide-and-seek shoot ran past closing, and booked him the next day on criminal trespassing and evading arrest, per NBC News and Spectrum News. Kai was there and was not arrested. No conviction has been reported. Duke returned to stream on August 17, called it a misunderstanding, then reached for the word he always reaches for. "Jail isn't a place that I would wish on anybody," he told viewers, per Vibe, and: "I'm not the type of content creator that's going to like risk my freedom for the content."
+The next bill was his own. San Antonio police arrested Duke at the Shops at Rivercenter on the night of August 2, 2025, after a hide-and-seek shoot ran past closing, and booked him the next day on criminal trespassing and evading arrest, per NBC News and Spectrum News. Kai was there and was not arrested. Duke returned to stream on August 17, called it a misunderstanding, then reached for the word he always reaches for. "Jail isn't a place that I would wish on anybody," he told viewers, per Vibe, and: "I'm not the type of content creator that's going to like risk my freedom for the content." The misdemeanor charges were later dismissed after he completed a pretrial diversion program, per court records the San Antonio Express-News reviewed in June 2026. That same month a mall security officer sued over that night, naming Duke among six defendants with Kai and AMP and seeking more than $1 million; the filing attributes the punch the officer alleges to a member of AMP's security team.
 
-The door policy runs outward too. In August 2024, Rolling Stone ranked Duke No. 5 on its 25 Most Influential Creators of 2024 list. [IShowSpeed](/personality-analysis/ishowspeed) hadn't made the list at all. Handed the honor, Duke spent it on stream asking about the omission: "Where is Speed, bruh? Why was Speed not one, two, three, four, or five?"
+The door policy runs outward too. In August 2024, Rolling Stone ranked Duke No. 5 on its 25 Most Influential Creators list. [IShowSpeed](/personality-analysis/ishowspeed) hadn't made the list at all. Handed the honor, Duke spent it on stream, per Sportskeeda, asking about the omission: "Where is Speed, bruh? Why was Speed not one, two, three, four, or five?"
 
 ---
 
@@ -256,19 +275,17 @@ On Complex's 360 With Speedy in 2024, Duke credited Kai with making "rizz" a glo
 
 The request underneath is always the same. "They ask me to teach them rizz, and I just think that's the craziest question you can ask," he said in that interview. His standing reply, worn smooth: "I say I don't got nothing to do with that."
 
-The flattening reading doesn't only come from fans. Rolling Stone, in the very write-up that ranked him No. 5, summed him up like this: "his charm with the ladies has made him an almost mythic figure for teenage boys." HotNewHipHop made the same read its headline that September, when Aron A. filed "Who Is Duke Dennis? The YouTuber Whose Rizz Has Mesmerized A Generation." And they have a point. The meme economy built his reach, his own blueprint teaches riding bigger waves by name, and a mythic figure sells sponsorships that a quiet 2K channel never could. He profits from the legend daily, and he knows it.
+The flattening reading doesn't only come from fans. Rolling Stone, in that same write-up, summed him up like this: "his charm with the ladies has made him an almost mythic figure for teenage boys." HotNewHipHop made the same read its headline that September: "Who Is Duke Dennis? The YouTuber Whose Rizz Has Mesmerized A Generation." And they have a point. The meme economy built his reach, his own blueprint teaches riding bigger waves by name, and a mythic figure sells sponsorships that a quiet 2K channel never could. He profits from the legend daily, and he knows it.
 
 So why bristle? Because a meme repeated at you every day stops being a joke and becomes a schedule. Somebody else wrote the bit; you perform it on request; the requests never stop. In the same Complex conversation, he compared it with the aging jokes aimed at the oldest man in the house, the "Unc" of it all, the 1987 punchlines: "It starts off cool, funny, and then it gets cringy, lame... we get it now... Let it go." He already spent four years of his life performing somebody else's script on somebody else's clock, and he has told us exactly how that felt. The fans handing him the rizz prompt mean it as tribute. What he hears is a shift bell.
 
-The label machine has since minted a bigger one: "aura," the internet's word for exactly his kind of composure. In 2024 a clip of him shaking grapes in his fist before eating them drew the follow-on charge of "aura farming," the accusation that the calm is a bit he runs for clout. Sportskeeda reported his answer on stream: "Nobody says that... in real life." He accepts calm as a description. He rejects the story that someone else is directing it.
-
-His theory of why the tribute sours is almost a law of physics: "People overdo and overuse everything they come in contact with. What starts off cool eventually turns corny."
+The label machine has since minted a bigger one: "aura." In 2024 a clip of him shaking grapes in his fist before eating them drew the follow-on charge of "aura farming," the accusation that the calm is a bit he runs for clout. Sportskeeda reported his answer on stream: "Nobody says that... in real life." He accepts calm as a description. He rejects the story that someone else is directing it.
 
 ---
 
 ## Professor Dennis's syllabus for blowing up
 
-One title he accepted. On July 6, 2026, Kai Cenat announced the faculty for that July's session of Streamer University, his livestreamed program where established creators teach up-and-comers the trade. On the professor list, alongside Lizzo, Pokimane, and Ludwig: Duke Dennis, teaching personal branding. He had taught the inaugural session too, and posted the proof to his own channel: "Being A Professor At Streamer University," May 2025. Every other label on this page got pinned on him by strangers. Professor is the one he took, twice, in a school built by a younger man out of his own house.
+On July 6, 2026, Kai Cenat returned to streaming and read out the faculty for Streamer University, his livestreamed program where established creators teach up-and-comers the trade. Mashable printed the roster the next day: alongside Lizzo, Pokimane, and Ludwig, Duke Dennis, teaching personal branding. He had taught the inaugural session too, and posted the proof to his own channel: "Being A Professor At Streamer University," May 2025. Every other label on this page got pinned on him by strangers. Professor is the one he took, and took again, in a school built by a younger man out of his own house.
 
 He has taught the course free for years. Asked on 360 With Speedy whether he could start from zero and blow up again, he laid out a curriculum:
 
@@ -280,47 +297,45 @@ He has taught the course free for years. Asked on 360 With Speedy whether he cou
 
 Unit 3 prescribes the exact meme economy that turned his own face into a daily prompt, taught without apology or irony. Unit 4 is where he hides the self-defense.
 
-**Unit 4, the posture.** Enter the frame as a peer, never as a fan. He states this one harder than anything else on the list.
+**Unit 4, the posture.** Enter the frame as a peer, never as a fan.
 
 <div class="pull-quote">"When you put somebody above you, you going to stay there forever."</div>
 
 **Final exam:** ninety days of consistency. Asked how fast he could rebuild everything, he said three months, then revised under his own scrutiny: "Maybe two."
 
-He hands the map out freely because he has priced the scarce input, and it isn't information. "They'll hear it, but they not going to put in the work for it... That's why I don't like giving people the advice, because I'm just talking. They ain't going to listen anyway." The plan is public; the labor remains scarce.
+He hands the map out freely because he has priced the scarce input, and it isn't information. "They'll hear it, but they not going to put in the work for it... That's why I don't like giving people the advice, because I'm just talking. They ain't going to listen anyway."
 
 ---
 
 ## What stress does to Duke Dennis
 
-The whole syllabus assumes he can leave. Germany is where you see what pressure does to him when walking isn't on the table. Stationed an ocean from Greenville, out-ranked and unable to quit, the most self-directed man in this story did not fight the system and did not charm it. He vanished inside it. "I was real lonely... I ended up staying in my room 24/7." A whole country outside, and he chose the four walls he could govern.
+The whole syllabus assumes he can leave. Germany is what pressure does to him when walking isn't on the table. Stationed an ocean from Greenville, out-ranked and unable to quit, he did not fight the system and did not charm it. He vanished inside it. "I was real lonely... I ended up staying in my room 24/7." A whole country outside, and he chose the four walls he could govern. The ordinary explanation covers a lot of it: a twenty-year-old with no friends, no car, and no language stays in his room.
 
-The act repeats wherever a fight can't be won: he shrinks the perimeter to what he can hold alone. The pattern is laid out in [how each type falls apart under stress](/enneagram-corner/enneagram-types-in-stress). Fame arrived in 2017, 2018, 2019. He gave it no interview a journalist could book.
+The act repeats wherever a fight can't be won: he shrinks the perimeter to what he can hold alone. The pattern is laid out in [how the types move along their connecting lines](/enneagram-corner/enneagram-connecting-lines). The audience arrived years before the press did.
 
-<div class="source-card">His first sit-down interview came seven years into his career: 360 With Speedy, Complex, February 1, 2024. Speedy Morman, who researched the episode: "You don't have many interviews out there... sit-down interviews, I couldn't really find anything like that." Duke's reply: "I think this is my first one."</div>
+<div class="source-card">His first sit-down interview came seven years into his career: 360 With Speedy, Complex, February 1, 2024. Speedy Morman, who researched the episode: "You don't have many interviews out there... you've done like maybe a podcast appearance here, you've done Sneaker Shopping on Complex, but that's it. Sit-down interviews, I couldn't really find anything like that." Duke's reply: "I think this is my first one."</div>
 
-The silence was never total, and that is what the empty-search-result reading misses. The Army story time went up in February 2018, at 83,000 subscribers by his own count on tape, six years before Speedy booked him. The bus, the borrowed phone, his mother's sentence, the desk nap: all of it was already public, published by the subject, on a day he picked. What he withheld was never the story. It was the microphone.
+The silence was never total. The *Sneaker Shopping* episode Speedy names ran in May 2023. The Army story time went up in February 2018, at 83,000 subscribers by his own count on tape, six years before Speedy booked him. The bus, the borrowed phone, his mother's sentence, the desk nap: all of it was already public, published by the subject, on a day he picked. What he withheld was never the story. It was the microphone.
 
 ---
 
 ## Why Duke Dennis bought his mother a house first
 
-Money he never withheld. It went out before it went anywhere near him. His first major purchase was a house for his mother in 2021, sequenced by principle: "Before I even started buying designer, cars, jewelry, I had to buy my house first... I just wouldn't feel right." The mentoring, the free blueprints, the professorship, the campaign for Speed's ranking: strength spent on somebody else's behalf is what his security looks like.
+"Before I even started buying designer, cars, jewelry, I had to buy my house first... I just wouldn't feel right." Money was the one thing he never withheld. His first major purchase was a house for his mother, in 2021. The mentoring, the free blueprints, the professorship, the campaign for Speed's ranking: strength spent on somebody else's behalf is what his security looks like.
 
 ### How old is Duke Dennis?
 
-He was born February 26, 1994, in Greenville, which makes him 32 and the oldest man in the AMP house. In March 2026 he posted a video to his own channel titled *I Turned 32*, which is its own flat correction to the 1987 birth year the internet keeps printing. The age is where the Unc jokes come from. Turning 30 produced no crisis at all: "I'm just happy to make it, because not everybody do."
-
-The other half of the Unc job gets no jokes. He watched a younger man in that house become the biggest streamer alive, and he is still the one who says out loud that nobody else gets in.
-
-<p class="inner-thought">Everybody in this house got bigger than me. I'm still the one who says who comes through the door.</p>
+He was born February 26, 1994, which makes him 32 as of August 2026 and the oldest man in the AMP house. He answered the 1987 birth year on Complex's camera in May 2023: "I was born in '94... I wasn't born in 1987." The age is where the Unc jokes come from. Turning 30 produced no crisis at all: "I'm just happy to make it, because not everybody do."
 
 ---
 
 ## Why Duke Dennis put his shades on mid-stream
 
-The heaviest package arrived without warning. Sportskeeda reported that in December 2024 a fan mailed Duke a shirt made in memory of his late cousin Dee. Readers reliably connect that name to DeeBlock, the neighborhood he came up on and later put on a channel. No public source establishes the link, and he has never addressed it.
+In December 2024 a box arrived from a fan. Inside was a shirt made in memory of his late cousin Dee, per Sportskeeda. DeeBlock, the neighborhood he came up on, carries the same name. Whether one was named for the other is not established anywhere on the record.
 
-He opened the package live, got visibly emotional, and put his shades on mid-stream. Hurt with no channel of its own, surfacing as composure. The clip traveled everywhere the rizz clips travel. This time there was no standing reply to hand back, no version of "I don't got nothing to do with that" that would fit. A stranger had assigned him something, and for once he kept it.
+He opened the package live, got visibly emotional, and put his shades on mid-stream. Hurt with no channel of its own, surfacing as composure. This time there was no standing reply to hand back. A stranger had assigned him something, and for once he kept it.
+
+He walks out of everything. He stayed four years on his mother's sentence, and he stayed on stream for a stranger's shirt. Nobody has explained the staying, least of all him.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Duke Dennis</summary>
@@ -329,19 +344,19 @@ He opened the package live, got visibly emotional, and put his shades on mid-str
 
 ### Duke Dennis's Wing: 8w9
 
-Duke runs the 9-wing version of the Eight: territorial, slow to light, immovable once set. The tell is not that he stays quiet, because he doesn't always. It is the shape of the discharge. The AMP-versus-RDC "beef" gets defused in one line ("we all on the same side anyway"); the aura-farming complaint sits unspoken, then arrives in a single burst he never returns to. That is the 8w9 rhythm: long silence, one unmistakable conversation, file closed. An 8w7 would have kept the friction running, because friction is content. The <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> also explains why fans read him as "chill" while everyone in his orbit defers to him anyway.
+Duke runs the 9-wing version of the Eight: territorial, slow to light, immovable once set. The tell is not that he stays quiet, because he doesn't always. It is the shape of the discharge. He keeps the RDC trash talk running and refuses to let anyone file it as real conflict ("we all on the same side anyway"): territory defended, war declined. The aura-farming complaint sits unspoken, then arrives in a single burst he never returns to. That is the 8w9 rhythm: long silence, one unmistakable conversation, file closed. An 8w7 would have let it escalate, because escalation is content. The <a href="/enneagram-corner/enneagram-wings-complete-guide">wing</a> also explains why fans read him as "chill" while everyone in his orbit defers to him anyway. The wing is a softer call than the type.
 
 ### Duke Dennis's Instinctual Subtype: sp/so
 
-Self-preservation leads. His money talk is survival talk, freedom-from-worry rather than display; his first purchase was his mother's house; his idea of luxury is a sealed private life in a public industry. The social instinct runs second as group guardianship: enforcing AMP's no-additions policy, auditing award lists for excluded friends, professor duty at Streamer University. The irony of his brand lives here: "rizz" is a label the group hangs on him, evidence about his standing in a crowd rather than about anything private. The third instinct the public record cannot honestly rank. See <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.
+Self-preservation leads. His money talk is survival talk, freedom-from-worry rather than display; his idea of luxury is a sealed private life in a public industry. The social instinct runs second, and it is the weaker call: group guardianship, stating AMP's no-additions policy, auditing award lists for excluded friends, professor duty at Streamer University. The irony of his brand lives here: "rizz" is a label the group hangs on him, evidence about his standing in a crowd rather than about anything private. The third instinct the public record cannot honestly rank. See <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>.
 
 ### Stress and Growth Arrows
 
-Under stress he moves toward Five: when the fight can't be won, the Challenger goes quiet and seals the doors. Germany is the best available example, and it needs a rule to count as one. Arrow behavior arrives under pressure and leaves with it; baseline behavior stays. The barracks isolation ended at discharge, the interview-free years never did, which is why they were cut from this list. The null hypothesis survives regardless: a twenty-year-old with no friends, no car, and no language stays in his room for ordinary reasons. In security he moves toward Two, the secure Eight turned provider: his mother's house before his own chain, mentorship delivered unprompted, visible warmth with the younger AMP members. The 2024 interview reads as an integration artifact, a guarded man deciding on his own schedule to be seen.
+Under stress he moves toward Five: when the fight can't be won, the Challenger goes quiet and seals the doors. Germany is the best available example, and it needs a rule. Arrow behavior arrives under pressure and leaves with it; baseline behavior stays. The barracks isolation ended at discharge; the 2017-to-2024 press silence ran through good years and bad, which is why it was cut from this list. In security he moves toward Two, the secure Eight turned provider: mentorship delivered unprompted, visible warmth with the younger AMP members. The 2024 interview reads as an integration artifact, a guarded man deciding on his own schedule to be seen.
 
 ### Counterarguments: Why Duke Dennis Might Not Be Type 8
 
-The incumbent internet answer is Type 3: as of mid-2026, Personality Database and mbtilounge both file him as 3w2, and the case behind it is real. He curates a physique, teaches personal branding, and holds encyclopedic algorithm knowledge. But Threes metabolize attention as fuel, and Duke declines it: finished videos demoted to his live channel for missing his bar, seven years without a sit-down interview (2017 to 2024; Speedy names the exceptions on tape), credit deflected to Kai and AMP, his own top-five moment spent on Speed's exclusion. The Type 6 case rests on the sealed circle, the enlistment pact, and the punctuality, yet his defining allergy is authority itself rather than uncertainty, and his decisions arrive instantly and unhedged. That case's best exhibit is the four-year stay, which this analysis has already conceded the type doesn't explain. The quietest alternative is 9w8: the chill affect, the RDC defusal, the Germany retreat, even the stay all fit on paper. The discriminator is what happens to arrangements he hates. A Nine accommodates them and calls it peace; Duke ends them in person, in one sentence, and never reopens the file. This call also cuts against our own shelf: across 409 people profiled on 9takes as of August 2026, the creator category leans Seven and Three while Eights sit at baseline, 11 of 90 (9takes corpus data). The typing would crack if the guardedness ever turned out to be staging: a leaked media-training playbook, a persona bible, any sign that the interview-free years were a rollout plan instead of a reflex.
+The incumbent internet answer is Type 3: as of mid-2026, Personality Database and mbtilounge both file him as 3w2. He curates a physique, teaches personal branding, and holds encyclopedic algorithm knowledge. Threes metabolize attention as fuel, and Duke takes some of it: asked his favorite part of the internet, he told Speedy it was reading compliments about himself, and that his audience had gone from 90 percent male to roughly 50/50. What he will not do is arrange the work around it. Finished videos get demoted to his live channel for missing his bar; no sit-down interview ran from 2017 to 2024; credit goes to Kai and AMP; his own top-five moment went to Speed's exclusion. The Type 6 case rests on the sealed circle, the enlistment pact, and the punctuality, yet his allergy is to authority itself, and his decisions arrive instantly and unhedged. Its best exhibit is the four-year stay, which this analysis has already conceded the type doesn't explain. The quietest alternative is 9w8: the chill affect, the refusal to escalate with RDC, the Germany retreat, even the stay all fit on paper. The discriminator is what happens to arrangements he hates. A Nine accommodates them and calls it peace; Duke ends them in person, in one sentence, and never reopens the file. This call also cuts against our own shelf: across 409 people profiled on 9takes as of August 2026, the creator category leans Seven and Three while Eights sit at baseline, 11 of 90 (9takes corpus data), though two of the creators we recommend beside him, IShowSpeed and Druski, are already typed 8. Seven is the category default and the easiest miss: Sevens keep options open; Duke shuts them. The typing would crack if the guardedness ever turned out to be staging: a leaked media-training playbook, a persona bible, any sign that the interview-free years were a rollout plan instead of a reflex.
 
 </div>
 </details>
@@ -352,21 +367,31 @@ The incumbent internet answer is Type 3: as of mid-2026, Personality Database an
 
 The name he answers to was a gift too. His government name is Denzel Shaquille Dennis. An aunt started calling him Duke when he was a boy in Greenville, and in his first sit-down interview, at age 29, he admitted he has no idea what she meant by it. "Just a hood name... my aunt gave it to me, but I never really asked why. Even still to this day."
 
-The internet has spent the years since doing the opposite. It put him in the dictionary beside a word he disowns. It renamed him Unc. It prints a fake birth year, 1987 for a man born in 1994, as a punchline. On August 4, 2026, an account on X recycled his San Antonio mugshot to announce he had been arrested for murder; the post cleared two million views before Primetimer debunked it. An entire meaning industry works his image around the clock. The labels he can answer, he answers the way he answered the Army, the factory, and the fans in Aspen: politely, firmly, no.
+The internet has spent the years since doing the opposite. It put him in the dictionary beside a word he disowns. It renamed him Unc. It prints a fake birth year, 1987, as a punchline. On August 4, 2026, an account on X recycled his San Antonio mugshot to announce he had been arrested for murder; the post cleared more than two million views before Primetimer debunked it. An entire meaning industry works his image around the clock. The labels he can answer, he answers the way he answered the Army, the factory, and the fans in Aspen: politely, firmly, no.
 
-Somewhere in South Carolina there's an aunt who knows exactly what "Duke" means. He has had three decades to ask. He hasn't, and there's no sign he ever will. A definition is just instructions for what to be. He'd rather keep the name the way she left it: a sound with no orders inside.
+The one label he never answered is the one his aunt gave him. He has had three decades to ask what she meant. He hasn't. A definition is just instructions for what to be. He'd rather keep the name the way she left it: a sound with no orders inside.
 
 <!-- FORMULA FINGERPRINT LEDGER
-Contrast-pair sentence engines: 0 strong / 0 comparative - re-verified from scripts/blog-quality-report.mjs 2026-08-14 after the editor pass (one engine introduced mid-pass at the Union Square close was rewritten as consequence); (2026-08-07 note: one strong engine inside a verbatim Duke quote was resolved by trimming the quote tail, never rewording his speech)
+Contrast-pair sentence engines: 0 strong / 0 comparative - re-verified from scripts/blog-quality-report.mjs 2026-08-14 after the perspective-jury editor pass; (2026-08-07 note: one strong engine inside a verbatim Duke quote was resolved by trimming the quote tail, never rewording his speech)
 Counter-typing ladders in main body: none (Type 3 pressure-test paragraph in diagnosis section only; full counter-typing quarantined in Rabbit Hole)
 Same-type similarity scan: clear at the 0.04 trip threshold after the 2026-08-14 revision; max pair 0.080, with the remaining matches limited to structural type-declaration language
 Bespoke section form: "Professor Dennis's syllabus for blowing up" - his real 360 With Speedy blueprint rendered as course units, anchored to his actual Streamer University professorship; collapses if transplanted to any other subject
-Critic-pressure anchor: Rolling Stone's own No. 5 write-up ("almost mythic figure for teenage boys") - concession that the meme economy built his reach, in "Why Duke Dennis hates the word rizz"; second anchor = the aura-farming accusation engaged rather than waved off; THIRD anchor added in the 2026-08-14 second pass = HotNewHipHop (Aron A., 2024-09-01) taking the same flattening read as a headline, which gives the section two dated real-publisher positions to disagree with instead of one
+Critic-pressure anchor: the San Antonio ledger now runs charge -> his answer -> disposition -> the live civil suit, so the paragraph no longer closes on his unrebutted self-exculpation (2026-08-14, P0-01); Rolling Stone's own No. 5 write-up ("almost mythic figure for teenage boys") - concession that the meme economy built his reach, in "Why Duke Dennis hates the word rizz"; second anchor = the aura-farming accusation engaged rather than waved off; THIRD anchor added in the 2026-08-14 second pass = HotNewHipHop (Aron A., 2024-09-01) taking the same flattening read as a headline, which gives the section two dated real-publisher positions to disagree with instead of one
 Empathy turn: the mocked bristling at rizz/Unc prompts reframed through his own clock/script/shift vocabulary (four years performing somebody else's script) - "Why Duke Dennis hates the word rizz"
-Current-tense anchor: July 6, 2026 Streamer University professor announcement during Kai Cenat's comeback stream - "Professor Dennis's syllabus for blowing up" (2025 professorship now first-party sourced to his own channel uploads, 2026-08-14); secondary anchor = the dated multi-year travel run (Dubai/Germany/China/London/Switzerland) in "How Duke Dennis built an empire on a borrowed email" - the "2026 world tour" framing was removed as unsupported by the upload record
-Interior beat: reception-night inner-thought (bald head, cold, no phone, "I'm the one who listened to the recruiter") - "Why Duke Dennis calls the Army his biggest regret"; SECOND interior beat added 2026-08-14 second pass, located in the present (the Unc job: outgrown by the house, still the one who holds the door) - "Why Duke Dennis bought his mother a house first"
+Current-tense anchor: July 6, 2026 Streamer University professor announcement during Kai Cenat's comeback stream (outlet named in body as Mashable + URL in citations, 2026-08-14 revision pass) - "Professor Dennis's syllabus for blowing up" (2025 professorship now first-party sourced to his own channel uploads, 2026-08-14); secondary anchor = the dated multi-year travel run (Dubai/Germany/China/London/Switzerland) in "How Duke Dennis built an empire on a borrowed email" - the "2026 world tour" framing was removed as unsupported by the upload record
+Interior beat: reception-night inner-thought (bald head, cold, no phone, "I'm the one who listened to the recruiter") - "Why Duke Dennis calls the Army his biggest regret". ONE interior beat by design as of 2026-08-14 perspective pass: the second beat (the Unc job) was CUT per P0-04, because it imputed status resentment toward six named living friends and was contradicted by his own on-tape praise of Kai two paragraphs earlier. Do not re-add an interior beat built from inference; every interior move must map to something he narrated on tape.
+Section-opener cadence: DELIBERATELY VARIED 2026-08-14 revision pass. The grader flagged four sections
+opening on the identical fronted-noun-phrase bridge ("A ranking he can argue with." / "One title he
+accepted." / "Money he never withheld." / "AMP is the one room he helped build."). Three were rebuilt:
+syllabus now opens cold on the July 6 announcement scene, the Dee section opens cold on the box, and the
+provision section opens on a Duke quote with the withheld hinge preserved inside it. Two bridges are kept
+on purpose (rizz, AMP) — the device is good once or twice. Do not restore a fourth.
 Section-closer metronome: broken in 4 of 10 sections (Army closes on a plain fact, AMP and rizz close on Duke quotes, name-section label inventory closes mid-inventory). Aphoristic closers deliberately kept on syllabus, stress, Dee and the ending.
 Craft/portrait beat (closes FAN-C4, deferred across three prior passes): the first-party upload inventory read as a portrait of the actual skill - Renaissance fair, Gathering of the Juggalos, 2AM in South Carolina - in "How Duke Dennis built an empire on a borrowed email". Titles and upload dates verified with yt-dlp against his own channel.
+Four-year-stay loop: the unexplained stay is now RE-ENGAGED late, in the Dee section ("He walks out of
+everything... Nobody has explained the staying, least of all him."), closing a tension the piece previously
+raised in the Army section and abandoned. Worded to avoid type mechanics on purpose, so the DISTRIBUTION
+LEDGER stays at 1. It is a callback to PROTECT-01, not a restatement of it; do not merge the two.
 Ending swap-test: pass - the aunt/name/definition close only works for Duke Dennis
 -->
 
@@ -478,6 +503,54 @@ Source audit (after pass):
 - Lint: 0 fail, 2 warn (internal links, word headroom). Same-type similarity clear. Contrast pairs 0.
 -->
 
+<!-- EDITOR PASS NOTES (2026-08-14, perspective-jury resolution, 2026-08-14_203125)
+Full log: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/editor-resolution.md
+All six reviews + synthesis present this time; SHA verified against the live draft before editing.
+
+All 6 P0s resolved. 14 of 16 accepted P1s applied.
+- P0-01 San Antonio: "No conviction has been reported" replaced with the dated disposition (charges dismissed
+  after a pretrial diversion program, per Express-News court-record reporting reviewed June 2026), plus one
+  allegations-only sentence for the June 2026 civil suit. Paragraph REORDERED to arrest -> his answer ->
+  disposition -> live suit, so it no longer closes on his own unrebutted defense. The punch is attributed to
+  AMP security, never to Duke; Clarke's separate felony trial deliberately not imported.
+- P0-02 the source card no longer elides the exceptions. Speedy names a podcast drop-in and Complex's own
+  Sneaker Shopping ON TAPE; both are now inside the quote, and the episode is named in body prose (upload
+  date verified first-hand, yt-dlp coql2j3ugo8 = 2023-05-29). Claim scoped to sit-down, 2017-2024, in body
+  and FAQ.
+- P0-03 the compliments beat is restored to the counterarguments. "Duke declines it" was refuted by the same
+  interview the piece quotes twelve times. It now reads as attention taken but not organized around.
+- P0-04 second inner-thought CUT. It imputed status resentment toward six named living friends and was
+  contradicted by his own praise of Kai two paragraphs up. Do not re-add an inferred interior beat.
+- P0-05 close trimmed of the availability implication and the forecast; final two sentences byte-identical.
+- P0-06 DID NOT SURVIVE RESEARCH: the Vibe attribution was already correct. The Yahoo syndication carries
+  both quotes verbatim (Preezy Brown, 2025-08-18); packet CLM-11b was wrong. Hollywood Unlocked only
+  paraphrases it in a headline, so re-attributing there would have introduced the error. Kept "per Vibe",
+  added the openable syndication to citations.
+
+Knock-on I caught and fixed: correcting the RDC example (P1-03) broke the 8w7 discriminator two sentences
+later, which still said an 8w7 "would have kept the friction running". Now "would have let it escalate".
+
+Budget: body 4494 -> 4495 (ceiling 4500). The P0s alone cost ~+87 words net, so ~150 words of restatement
+were cut to seat them: the law-of-physics closer (its idea is carried by the Unc quote in the paragraph
+above and the quote survives in the FAQ), the thesis-paragraph reader instruction, the RS No. 5 second
+telling, the money double-statement, two superlative-singling constructions, the mother's-house third and
+fourth tellings, the "empty-search-result" gloss, and line-level trims across the Rabbit Hole. No protected
+beat was cut to pay for anything.
+
+Left undone, deliberately:
+- P1-13's Type 7 clause (~30 words) is the one accepted item dropped for budget. Its diagnosis half shipped
+  (the "on call 24/7" quote, which the enneagram evaluator rated the cheapest quality gain in the draft).
+- P1-16's archiving of the hoax citations needs a human; the view count was softened to "more than".
+- P1-01 took the scoped version, not the shirt-detail version: Sportskeeda 405'd again.
+- RQ-03 (is the July 2025 aunt the naming aunt) remains unresolvable and was not attempted. P0-05 is
+  branch-safe by design. If it ever resolves against the draft, the close needs a rebuild, not a trim.
+- P2-02 is worth remembering when budget frees up: "I would want them to look at me as like balance" is
+  verified on tape, and it is the one meaning he chose for himself in a piece about assigned meanings.
+
+Lint after pass: 0 fail, 2 pre-existing warns (7 internal links, thin headroom). Contrast pairs 0 strong.
+No prose em-dashes. Answer block re-verified extractable at 46 words.
+-->
+
 <!-- EDITOR PASS NOTES (2026-08-07, perspective-jury resolution)
 Applied all 7 P0s + 10 P1s from docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/synthesis.md:
 - Drawer claim corrected to demoted-to-live-channel truth (3 locations); "ruined a generation" now rendered as the on-tape soften-then-re-own exchange; cold open seats him at the machine per transcript; Dee shirt verb at source strength with the shades detail; TL;DR army bullet past-anchored; India Love beat re-dated "In 2025" with the Duke-specific quote (ledger updated); ending marks 1987 as a fake birth year (born 1994).
@@ -544,51 +617,6 @@ Still open (needs a human or a re-run):
 - FAN-C4 (expand the 2K apprenticeship) and CRITIC-B2's fuller Union Square harm accounting were both
   judged worth doing but are blocked by the word ceiling. Revisit if a section gets cut.
 - The chain/RaKai episode (Nov 2025) rests on trade-outlet and clip sourcing only; not narrated.
--->
-
-<!-- REVISION PASS NOTES (2026-08-14)
-Triggered by: grade 8.4 B (Evidence 8, Originality 8, Writing 8), below the 8.5 bar. Lint was already
-clean (0 fail). No --perspective-review-dir supplied, so this is grader-feedback mode.
-
-Fixed:
-- NEEDS WORK / Evidence: the Army spine names its source inline at first use, "In *Duke Dennis Story
-  Time: My Army Experience, Basic Training and Why I Left the Army*, posted to his own YouTube channel
-  on February 6, 2018". Title + upload date verified from YouTube metadata (cslGptGMfJs, already in
-  citations). The Army section inherits it ("he said in that same 2018 story time"), so the mother's
-  line, the recruiter, the drill sergeant and the desk nap all trace to the tape.
-- NEEDS WORK / structure: "What stress does to Duke Dennis" split in two. Stress keeps Germany, the
-  sealed years and the first interview; provision material moved under a new H2, "Why Duke Dennis
-  bought his mother a house first". Heading Mix Ledger re-enumerated (9 H2s, 7 search-intent/hybrid).
-- NEEDS WORK / orphaned anchor: added H3 "How old is Duke Dennis?" under the new section. It resolves
-  the how-old-is-duke-dennis FAQ anchor and gives the stranded 30th-birthday one-liner a job. All 6
-  FAQ anchors now resolve; no duplicate ids.
-- TO REACH A: the sealed years now rest on evidence instead of absence of evidence. The Army story
-  time was published by the subject at 83,000 subscribers six years before Speedy booked him, so what
-  he withheld was the microphone, not the story. Reuses the source named for the Evidence fix.
-- TO REACH A: both similarity trips rewritten ("The fuller pressure test waits in the Rabbit Hole
-  below", 0.253 vs susan-sarandon; "The obvious counter-read is Type 3", 0.174 vs Nara-Smith) and the
-  reader-command "Sit with Unit 3 for a second" removed; same-type scan re-run clear. This reverses
-  PROTECT-06 from the 2026-08-07 pass, which the 2026-08-14 grader named explicitly.
-- Minor: twitter filled as ImDukeDennis (Wikidata P2002 on Q124466749, numeric-id qualifier 2568015567).
-- Word budget: additions paid for with restatement, not beats. Cut the twice-stated Union Square deal
-  terms, the Oktoberfest paragraph (already carried by the travel list, and its "his own dime" claim is
-  on the packet's could-not-verify list), a doubled math metaphor, platform-inventory sprawl, curriculum
-  throat-clearing, a TL;DR echo, a corpus-stat echo, a scout-report simile, and the reconstructed phone
-  gloss. Body 4495 -> 4482.
-
-Rejected (with reason):
-- FAN-C4 (expand the 2K apprenticeship) and CRITIC-B2 (fuller Union Square harm accounting) stay
-  deferred: this pass freed 18 words of headroom and both need a section-sized budget.
-- No second sourced beat chased for the interview-free years beyond the story time; the packet's
-  could-not-verify list covers the remaining candidates.
-
-Rule concern (flagged, not worked around):
-- scripts/blog-source-audit.mjs treats "youtube" as a VENUE_WORD and has no OUTLETS entry for
-  self-published channels, so a first-party video grades VAGUE however precisely it is cited. The two
-  Army-story-time slots are now title + exact-date + channel sourced and still read VAGUE. The fix
-  belongs in the script's OUTLETS table, not in the draft.
-
-Lint: clean (0 fail; 2 pre-existing WARNs, 7 internal links and word count)
 -->
 
 <!-- FRESH EYES REVIEW (2026-08-14, post-editor-pass / entity-gap rev 2)
@@ -718,4 +746,57 @@ What's already working:
 - Gossip discipline is clean and matches the packet's do-not-answer list exactly: no parents, no
   sibling count, no girlfriend name, no net worth. Do not let a later pass "helpfully" restore any of
   it. The arrest note above is the one legal item the packet now permits, and only as charges.
+-->
+
+<!-- REVISION PASS NOTES (2026-08-14, pass 2 - grader feedback + perspective mode)
+Replaces the earlier 2026-08-14 REVISION PASS NOTES block (its items are resolved or superseded).
+Triggered by: grade 8.6 B+ (Evidence 8 and Writing 8 are what hold it under 9.0), plus
+--perspective-review-dir=docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125,
+whose verification-initial.md PASSED the gate (0 open P0, 0 protected-hit regressions). Lint was
+already 0 fail. Resolution artifact: <review-dir>/revision-resolution.md
+
+Fixed:
+- TO REACH A #1, source the three claims. Subscriber scale verified FIRST-HAND (yt-dlp: main channel
+  UCO_RC-EuZVTkxm5e8ek1zvA = 3,600,000 on 2026-08-14), moved out of the cold open into the career
+  section with publisher + as-of date. Streamer University now names Mashable in body prose with the
+  URL in citations. The Express-News item needed no new URL: the yahoo security-officer link ALREADY
+  in citations IS the Express-News piece (Patrick Danner, 2026-06-17) and carries the disposition
+  verbatim. See SOURCING TRAIL in WORKING NOTES. Do not re-flag it as unsourced.
+- TO REACH A #2, widen the evidence base. Pulled the May 2023 Sneaker Shopping transcript (Complex,
+  coql2j3ugo8, upload 2023-05-29) and quoted him rebutting the 1987 joke on camera. Third primary
+  text, and the only one from inside the 2019-2023 hole. It REPLACED the weaker self-published
+  "I Turned 32" reference rather than adding a fourth 1987 mention to the body.
+- TO REACH A #3 / NEEDS WORK, opener cadence. Three sections rebuilt: syllabus opens cold on the
+  July 6 scene, Dee opens cold on the box, provision opens on a Duke quote. New Section-opener
+  cadence entry in the FORMULA FINGERPRINT LEDGER records which two bridges are kept on purpose.
+- TO REACH A #4, re-engage the four-year stay late. One short paragraph closing the Dee section.
+  Deliberately worded without type mechanics, so the DISTRIBUTION LEDGER stays at 1.
+- NEEDS WORK, the stat drop flattening the hook. Cut from the cold open. P1-05's as-of-stamped scale
+  beat is preserved, relocated and now sourced, so this is not a P1 regression.
+- P1-13 remainder (shipped partial at the editor pass, deferred for budget): the "why not a Seven"
+  discriminator is now seated in the Rabbit Hole counterarguments, ahead of the falsifier.
+
+Paid for with restatement, not beats:
+- The Unc coda in the provision section ("The other half of the Unc job gets no jokes...") - it
+  restated the AMP section and was the residue of the beat P0-04 cut for imputing status resentment.
+- The anti-Type-3 ammunition list in the diagnosis teaser, which the Rabbit Hole repeats verbatim.
+  P1-04 still holds: the compliments objection is still named in the teaser.
+- Body 4495 -> 4492 words. Net negative despite four additions.
+
+Rejected (with reason):
+- P1-16's archiving of the X post and Primetimer debunk to durable snapshots. The verifier correctly
+  classes this as a human pre-publish task, not a draft edit; it means writing to a third-party
+  archive service unprompted.
+- Internal links still 7 against the 2-5 spec (pre-existing WARN). Each link is doing work and
+  churning them was out of scope for a targeted revision, same call as the two prior passes.
+
+Open for the next refresh (NEW, and the cheapest remaining Evidence win):
+- The TESTIMONY LEDGER's note that "no third-party TESTIMONY exists" is now FALSE. The Sneaker
+  Shopping tape has Joe of Complex attesting to Duke's behaviour on the record (the two-hour drive to
+  re-authenticate the shoes at the same store that caught the fakes). Not seated this pass: it costs
+  ~30 words against a 4,500 ceiling and the Evidence critique is already answered by the third
+  primary text. Transcript is retrievable via youtube-transcript-api on coql2j3ugo8.
+
+Lint: 0 fail, 2 warn (both pre-existing). Corpus checks re-run after the edits: contrast pairs 0,
+same-type max pair 0.080, source audit unchanged (4 load-bearing quotes, 3 inline, 1 vague, 0 untagged).
 -->

@@ -1,0 +1,22 @@
+## Grading Complete — Duke Dennis
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Duke-Dennis | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+`(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6` · Discoverability 9, no gate · Caps applied: none · Anchor: Matt-Smith draft
+
+**Written to:** `src/blog/people/drafts/Duke-Dennis.md` (frontmatter) and `docs/content-analysis/grades/Duke-Dennis.review.md` (fresh sidecar, replacing the deleted one).
+
+### Key observations
+
+**Deterministic checks all clean.** Source audit: 4 load-bearing quotes, 0 untagged. Contrast pairs: 0 strong / 0 comparative. Same-type similarity: max pair 0.080 across 8 Type 8s — essentially noise. All six FAQ `anchor` values resolve to real headings. Ledgers spot-checked against the body and accurate, which is unusual for stage-5 output.
+
+**What earns the B+.** The thesis genuinely connects rather than restates: the barracks, the twenty-nine-day factory job, and the word "rizz" become one gesture, and the rizz section reframes a meme as an *order* ("a meme repeated at you every day stops being a joke and becomes a schedule"). The empathy turn concedes the critic's case first — "And they have a point... He profits from the legend daily, and he knows it" — and runs on his own wound-vocabulary, not house grammar. And the piece refuses to explain the four-year stay: "Nothing in the type explains this." Leaving that residue visible, with a falsifier in the rabbit hole, is editorially braver than anything else I've graded in this corpus.
+
+**What holds it off an A.** Two things, both fixable:
+
+1. **The evidence base is two texts.** The 2024 Complex interview and the 2018 self-published story time carry the whole spine; 2019–2023 is a hole. Third-party testimony is 3 quotes, two from the same interview — the ledger honestly admits no more exists. Plus three load-bearing claims the quote-level audit doesn't catch: the subscriber/follower metrics, the July 2026 Streamer University faculty announcement, and the San Antonio Express-News court records (attributed inline but missing from `citations`).
+2. **A visible opener cadence.** Eight of ten sections open with a hand-off bridge, four in the identical shape — "A ranking he can argue with." / "One title he accepted." / "Money he never withheld." / "AMP is the one room he helped build." Elegant once, a tic by the fourth. This is the main gap between the current Writing 8 and a 9; the prose itself is already at 9 ("The internet kept the still frame and threw the tape away").
+
+The sidecar has a concrete 4-step path to A, including one suggestion beyond sourcing: re-engage the four-year stay once more near the Dee-shirt section. Conceding it is right; abandoning it leaves the strongest tension in the biography unspent.

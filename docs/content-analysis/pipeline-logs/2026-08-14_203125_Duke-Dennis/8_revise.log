@@ -1,0 +1,36 @@
+Done. One block, no stacking. Here's what happened.
+
+## What triggered the loop
+
+Grade **8.6 B+** with Evidence 8 and Writing 8 as the two dimensions holding it under 9.0 (both weighted 1.5×). Lint was already clean. The supplied perspective verification had **passed** — 0 open P0, 0 protected-hit regressions — so the perspective work reduced to the two accepted P1s the verifier logged as *shipped partial*.
+
+The binding constraint was the body ceiling: **4,495 of 4,500 words, and 4,501 is a hard lint FAIL.** Every addition had to be paid for.
+
+## Fixes applied
+
+**Evidence (grader's TO REACH #1 and #2)**
+- Verified the subscriber count first-hand instead of trusting the packet — `yt-dlp` on the main channel returned 3,600,000, so the draft's 3.6M was right and the packet's 3.5M Wikipedia figure was the stale one. Moved the scale out of the cold open (which also fixes the "fact sheet interrupting a story" note) into the career section with publisher and as-of date.
+- Streamer University now names **Mashable** in prose, URL added to `citations`. That source independently confirms the July 6 date, Duke as professor, and Lizzo/Pokimane/Ludwig.
+- **The Express-News item needed no new URL.** The `yahoo.com/...security-officer-files-1m-suit` link already in `citations` *is* the Express-News piece (Patrick Danner, 2026-06-17), and it carries the disposition verbatim. The grader read the Yahoo domain as a different outlet — the same trap the verifier hit on P0-06. expressnews.com blocks crawlers, so the syndication is the correct citation. Documented in WORKING NOTES so it stops getting re-flagged.
+- Pulled the **May 2023 *Sneaker Shopping* transcript** (Complex, upload verified 2023-05-29) and quoted him rebutting the 1987 joke on camera. That's the third primary text and the only one from inside the 2019–2023 hole. It *replaced* the weaker self-published "I Turned 32" reference rather than adding a fourth 1987 mention.
+
+**Writing (TO REACH #3, #4)** — three openers rebuilt: syllabus opens cold on the July 6 scene, Dee opens cold on the box, provision opens on a Duke quote with the cohesion pass's withheld/released hinge preserved inside the new shape. The four-year stay is re-engaged at the close of the Dee section, worded without type mechanics so the distribution ledger stays at 1.
+
+**Perspective** — P1-13's dropped "why not a Seven" clause is now seated ahead of the falsifier.
+
+## Paid for with
+
+The Unc coda (restated the AMP section, and was the residue of the beat P0-04 cut for imputing status resentment) and the anti-Type-3 ammunition list in the diagnosis teaser, which the Rabbit Hole repeats verbatim. **Body went 4,495 → 4,492 — net negative despite four additions.**
+
+## Rejected
+
+- **P1-16 archiving** — snapshotting the X post and Primetimer debunk means writing to a third-party archive service unprompted; the verifier already classed it a human pre-publish task.
+- **Internal links at 7** vs the 2–5 spec — pre-existing WARN, each link is working, out of scope for a targeted pass.
+
+## Verification
+
+Lint **0 fail, 2 warn** (both pre-existing). All 28 protected strings and key repairs confirmed intact by exact match; one `inner-thought` block; Rabbit Hole still collapsed. Corpus checks re-run: contrast pairs 0, same-type max 0.080, source audit unchanged. YAML parses, `lastmod` and `content_quality` untouched.
+
+**One new finding worth your attention:** the testimony ledger's standing note that "no third-party testimony exists" is now false — the *Sneaker Shopping* tape has Joe of Complex attesting on the record to the two-hour drive to re-authenticate the shoes. I didn't seat it (≈30 words against a hard ceiling, and Evidence is already answered), but it's logged as the cheapest remaining Evidence win.
+
+Resolution artifact written to `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/revision-resolution.md`. It does not declare the gate passed — **`/blog_perspective_verify_people` must rerun against the edited draft**, and the pipeline will clear the consumed review sidecar and re-grade.

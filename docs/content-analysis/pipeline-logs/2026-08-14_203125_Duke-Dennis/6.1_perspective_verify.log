@@ -1,0 +1,11 @@
+**Output:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/verification-initial.md`
+
+**verification_status:** `pass` · **open_p0:** 0 · **protected_hit_regressions:** 0
+
+`final_content_sha256: 984b077ad1de35afdcafe6ffebc45e073cdd8e0e06517309d53ce41e5190d119`
+
+I didn't take the resolution log at face value on the four claims that were new relative to the evidence packet or that contradicted it. All four held up: the Vibe syndication does carry "risk my freedom for the content" verbatim (packet CLM-11b was wrong, so P0-06's finding correctly did not survive), the Don White suit and its six defendants check out with the punch attributed to Clarke rather than Duke, the diversion dismissal is confirmed, and `yt-dlp` puts *Sneaker Shopping* at 2023-05-29.
+
+One thing worth your eye: PROTECT-13's general-law sentence ("People overdo and overuse everything…") was cut from the body for word budget and was not one of the four payers the brief named. I scored it as surviving — the mechanism is still stated three ways in the same section and the quote lives on in FAQ 3 — but it's the item to watch if another pass trims there.
+
+The deterministic gate script decides whether the pipeline may finalize.

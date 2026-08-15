@@ -28,6 +28,7 @@
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import { splitAtEnneagramTypeDossierSlot } from '$lib/utils/articleSlots';
 	import { SectionKicker, Spinner } from '$lib/components/atoms';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
 	import NineChorus from '$lib/components/blog/NineChorus.svelte';
@@ -83,27 +84,6 @@
 				};
 			})
 			.filter((item): item is App.BlogPostFaq => Boolean(item));
-	}
-
-	// Split the rendered article HTML just before the Nth <h2> so the Type
-	// Dossier can be injected high in the read — typically right before the
-	// "What is <Person>'s Personality Type?" section. Falls back to the last
-	// available heading when fewer than `targetIndex` h2s exist, and to "no
-	// split" (dossier after the prose) when there are no h2s at all. Splitting
-	// at an h2 boundary keeps both halves as valid fragments and preserves the
-	// placeholder element IDs the page mounts components into.
-	function splitBeforeHeading(
-		html: string,
-		targetIndex: number
-	): { before: string; after: string } {
-		if (!html) return { before: '', after: '' };
-		const positions: number[] = [];
-		const re = /<h2[\s>]/gi;
-		let m: RegExpExecArray | null;
-		while ((m = re.exec(html)) !== null) positions.push(m.index);
-		if (positions.length === 0) return { before: html, after: '' };
-		const idx = positions[Math.min(targetIndex, positions.length) - 1];
-		return { before: html.slice(0, idx), after: html.slice(idx) };
 	}
 
 	function toEnneagramNumber(value: unknown): number | undefined {
@@ -212,11 +192,10 @@
 	// enneagram-corner type pillars while this (the actual dossier surface)
 	// was generic prose. Design audit 2026-06-10. CTA bridges to the pillar.
 	$: typeDossier = typeNum ? enneagramTypeProfiles[typeNum] : null;
-	// When a dossier exists, lift it into the prose before the 3rd h2; otherwise
-	// render the full article uninterrupted.
-	$: dossierSplit = typeDossier
-		? splitBeforeHeading(post.content, 3)
-		: { before: post.content, after: '' };
+	// The article author chooses the dossier's exact location with an
+	// <EnneagramTypeDossier /> element in the source markdown. Without that
+	// explicit slot, the article renders uninterrupted and no dossier appears.
+	$: dossierSplit = splitAtEnneagramTypeDossierSlot(post.content);
 	$: typeName = typeMeta?.name ?? '';
 	$: typeNameUpper = typeName ? typeName.toUpperCase() : '';
 	$: personaTitle = toStringValue(postMeta.persona_title).trim();
@@ -609,17 +588,17 @@
 	  ===================================================================== -->
 	<section class="breakdown">
 		<div class="breakdown-inner">
-			<!-- Prose, part 1 — runs up to the 3rd h2 (usually the personality-type
-			     section). The Type Dossier is lifted out of the article-body prose
-			     scope so the page's :global() typography never bleeds into it. -->
+			<!-- Prose, part 1 — runs to the author-placed dossier slot. The Type
+			     Dossier is lifted out of the article-body prose scope so the page's
+			     :global() typography never bleeds into it. -->
 			<div class="article-body">
 				{@html dossierSplit.before}
 			</div>
 
-			{#if typeDossier}
-				<!-- The dossier is injected mid-article. The block breaks out of the
-				     prose measure onto its own contrasting "shelf" so it reads as a
-				     distinct exhibit attached to the blog, not body copy slapped in. -->
+			{#if typeDossier && dossierSplit.hasSlot}
+				<!-- The author placed the dossier here in the markdown. The block
+				     breaks out of the prose measure onto its own contrasting "shelf"
+				     so it reads as a distinct exhibit attached to the blog. -->
 				<div class="type-dossier-block">
 					<SectionKicker
 						tone="data"

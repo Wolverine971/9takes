@@ -1,0 +1,31 @@
+The pipeline is live — `run-blog-pipeline.sh --resume` invoked me and is `tee`-ing my stdout into `6_enrich_frontmatter.log`, so this report becomes the log. No file write needed there.
+
+**Result: no changes — the draft is already fully enriched.** All 12 owned fields carry real values, so per the idempotency rule I verified rather than rewrote. Everything checked out:
+
+| Check | Result |
+|---|---|
+| Wikipedia URL | HTTP 200, resolves to "Denzel Shaquille Dennis… member of AMP" — correct person, not a namesake |
+| `wikidata_qid` Q124466749 | Label "Duke Dennis", `enwiki` sitelink matches |
+| `imdb_id` nm15242465 | **No P345 on Wikidata** — verified independently both directions via IMDb suggestion API → "Duke Dennis, Director, AMP (2020)" |
+| `birth_date` 1994-02-26 | Matches Wikidata P569 exactly |
+| `birth_place` | P19 → Q574192 = Greenville, SC ✓ |
+| `nationality` | P27 → Q30 (USA) ✓ |
+| 17 citations | **All 17 return HTTP 200** — zero link rot |
+| 6 FAQ anchors | All 6 resolve to real body headings under rehype-slug |
+| FAQ facts vs body | No contradictions (see below) |
+| Backfill telltale | 0 hits for "with supporting context from"; `knows_about` holds real expertise areas, not occupation copies |
+
+I spot-checked every load-bearing FAQ claim against the body: the twenty-nine-day factory job, "worst decision I ever made in my life," the 80-percent rizz estimate, "Nobody else can join," the six-man AMP roster (Duke, Agent 00, ImDavisss, Fanum, Kai Cenat, Chrisnxtdoor), and Denzel Shaquille Dennis. The age math holds too — born Feb 26 1994 makes him 32 in Aug 2026, and the body independently corroborates it with his March 2026 *I Turned 32* video, which is also what defuses the 1987 joke.
+
+**Two deviations from the command's stated ranges — flagged, not fixed:**
+
+1. **6 FAQs vs. the 3–5 guidance.** Strict idempotency says don't touch substantive existing FAQs, and these are genuinely body-derived. Trimming one is a content decision, not an enrichment one. Worth knowing the renderer only gates on `faqs.length >= 2`, so 6 ships fine.
+2. **17 citations vs. the 3–8 range.** The stage-5 editor log shows citations were deliberately grown during the editor pass (it added the Yahoo syndication after refuting P0-06). Trimming would discard sourcing that pass intentionally seated.
+
+Say the word if you want the FAQ block cut to 5 — I'd drop "What is Duke Dennis's real name?", since the name story is already covered in the type-2 slot and the closing section.
+
+One note for context, not a defect: the body contains **zero inline links**. The citations are grounded through named prose attribution instead (Complex ×8, 360 With Speedy ×5, Sportskeeda ×3, Rolling Stone ×2, plus NBC, Vibe, Spectrum, Primetimer, HotNewHipHop, AP). That's consistent with how this pipeline sources people drafts, so the `citations` list is legitimate — but it means Step 7's "extract from body links" can't be re-derived mechanically on this draft if you ever re-run enrichment from scratch.
+
+`lastmod` untouched, body untouched, all HTML comment ledgers untouched.
+
+The one thing standing between this and publish is outside my lane: `content_quality.overall` is **8.1 (B)**, below the 8.5 publish gate, with `published: false`.

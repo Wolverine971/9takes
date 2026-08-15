@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "subject": "Duke-Dennis",
-  "review_dir": "docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002",
-  "verification_file": "docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/verification-final.md",
+  "review_dir": "docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125",
+  "verification_file": "docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/verification-final.md",
   "verification_status": "pass",
-  "reviewed_snapshot_sha256": "b98e726c3df7db72dbd36a9aef2eb7220bef5b4aad2c4a1f2d8051df476b60bb",
-  "verified_content_sha256": "62070b713554b15d527b7c5dfebeb37178a18ac5be75dbe1fd612d9545552b78",
-  "verified_at": "2026-08-07T07:42:23.000Z"
+  "reviewed_snapshot_sha256": "d5bce426b94be999eaf53dde0ccba793f0041d9f946910448938ed294749ae93",
+  "verified_content_sha256": "1ef7b671a0edf03c0dcdd3d19cdb1e3fca4c4afeb12b402f2859a0cfae666f2c",
+  "verified_at": "2026-08-15T02:38:59.000Z"
 }

@@ -183,6 +183,8 @@ Musk built a life where retreat should be impossible. His decisions reach factor
 
 **My current read is [Enneagram Type 5](/enneagram-corner/enneagram-type-5), probably 5w6.** Myers-Briggs sites often call Musk an INTJ or INTP. My Enneagram claim goes beneath those labels: he seems to use competence as shelter from helplessness, dependence, and demands he cannot control.
 
+<EnneagramTypeDossier />
+
 <DJReadCard readId="elon-musk" />
 
 ## DJ's reasoning: his mind is his shelter

@@ -1,0 +1,24 @@
+## Grading Complete — Duke Dennis
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Duke-Dennis | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+(Weighted: `(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability 9 — no gate. No caps applied.)
+
+### Key observations
+
+**What earns the score.** The rizz reframe — *"a meme repeated at you every day stops being a joke and becomes a schedule"* — is a genuinely ownable insight that converts the internet's favorite Duke Dennis joke into the same object as the Army. The empathy turn uses his own vocabulary (script, clock, shift bell), not the house `not X, it was armor` grammar, so no `house_empathy_turn` cap. The closing image (the aunt-given name he never asked about, *"a sound with no orders inside"*) is a hard swap-test pass and retroactively organizes every label in the piece.
+
+**The rabbit hole is doing real work.** Its arrow section states a discipline rule and then uses it to *cut* evidence rather than pile it on, deploys the corpus stat *against* our own typing, and closes on a stated falsification condition. Body distribution verified clean at 1 type-theory pointer.
+
+**Deterministic checks.** Source audit: 4 load-bearing quotes, 0 untagged (the one "vague" flag is a false positive — the body names video title, platform, and upload date). Contrast pairs: 0 strong / 0 comparative. Same-type scan trips once at 0.059 on a boilerplate type-declaration clause — structural, not argument reuse. Sameness check against the three most recently graded drafts (Jon-Stewart, AOC, Travis-Kelce) found no reused house moves: no "The tell:" bullet, corpus-stat sentence unique and repurposed, no reader-command stack. **Ledgers spot-checked and not stale** — all three Testimony rows appear verbatim in the body, all 10 H2s exist, the section-opener claim matches the text.
+
+**The three things holding it off an A:**
+1. **The public Duke is never rendered.** "On stream he is loud, goofy, and laughing most of the time" is asserted once and never shown. Every scene is the grave man. The reader finishes without hearing a subject whose entire product is being funny be funny — which leaves "The internet knows a different man" as an unpaid promise and the tone monochrome.
+2. **The AMP section doesn't deliver its heading.** It answers the seventh-member question in three paragraphs, then absorbs Union Square, the San Antonio arrest, the disposition, and the $1M suit. The ledger admits the filing logic ("where the legal material already lives"). Good material, wrong room — and it's costing a search-intent H2.
+3. **Evidence concentration.** Strip the Feb 2024 Complex sitting and the piece collapses; it supplies the epigraph, factory story, Army beats, freedom quotes, AMP rule, the whole rizz section, the entire syllabus, and the name story. Third-party outlets are numerous and well-dated but carry news facts, not character evidence. That's why Evidence is 8 despite exemplary inline discipline.
+
+Written to `src/blog/people/drafts/Duke-Dennis.md` (frontmatter, YAML validated) and `docs/content-analysis/grades/Duke-Dennis.review.md` (fresh sidecar — the prior one was already deleted). No legacy `QUALITY GRADE` block was present in the body.
+
+**Total graded this session: 1**

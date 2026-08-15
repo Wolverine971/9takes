@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Duke-Dennis (Type 8)
+/Users/djwayne/9takes/src/blog/people/drafts/Duke-Dennis.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 49
+Comparison set (last 8 other Type-8 drafts by date):
+  - Khabib-Nurmagomedov  (2026-08-13, 43 units)
+  - Nara-Smith  (2026-08-04, 48 units)
+  - Tyler1  (2026-07-29, 17 units)
+  - gordon-ramsay  (2026-07-08, 43 units)
+  - nicki-minaj  (2026-06-29, 24 units)
+  - susan-sarandon  (2026-06-28, 24 units)
+  - ella-langley  (2026-06-01, 15 units)
+  - david-goggins  (2026-05-30, 37 units)
+
+Noise floor over 12299 unit pairs:  median=0  p90=0  p99=0.006  max=0.08
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.059   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] That is one of the nine core motivations the Enneagram maps.
+   OTHER  [diagnosis] The Enneagram sorts nine types by core motivation
+
+
+Most similar drafts (max unit-pair score):
+  0.080 ###                  susan-sarandon
+  0.061 ##                   Nara-Smith
+  0.060 ##                   Tyler1
+  0.039 ##                   david-goggins
+  0.038 ##                   Khabib-Nurmagomedov
+  0.035 #                    gordon-ramsay
+  0.025 #                    nicki-minaj
+  0.011                      ella-langley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.080   Duke-Dennis  <->  susan-sarandon
+   TARGET [diagnosis] An Enneagram Type 8 organizes life around one requirement
+   OTHER  [diagnosis] Susan Sarandon is an Enneagram Type 8
+
+score 0.061   Duke-Dennis  <->  Nara-Smith
+   TARGET [counter-typing] asked his favorite part of the internet
+   OTHER  [diagnosis] Aggression is the part of the Type 8 engine that shows up on camera and almost never the part that drives it.
+
+score 0.060   Duke-Dennis  <->  Tyler1
+   TARGET [diagnosis] An Enneagram Type 8 organizes life around one requirement
+   OTHER  [diagnosis] Tyler1 is best read as an Enneagram Type 8.
+
+score 0.059   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] That is one of the nine core motivations the Enneagram maps.
+   OTHER  [diagnosis] The Enneagram sorts nine types by core motivation
+
+score 0.042   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] "The army wasn't for me because I don't like being told what to do.
+   OTHER  [diagnosis] "I don't think a trad wife would be cooking in like Schiaparelli
+
+score 0.039   Duke-Dennis  <->  david-goggins
+   TARGET [diagnosis] Watch what he does with attention at scale
+   OTHER  [diagnosis] running underneath everything he does.
+
+score 0.038   Duke-Dennis  <->  Khabib-Nurmagomedov
+   TARGET [counter-typing] The incumbent internet answer is Type 3
+   OTHER  [diagnosis] The long answer is a variant the textbook never covers
+
+score 0.035   Duke-Dennis  <->  gordon-ramsay
+   TARGET [counter-typing] which this analysis has already conceded the type doesn't explain.
+   OTHER  [diagnosis] Ramsay doesn't just command kitchens
+
+score 0.034   Duke-Dennis  <->  Nara-Smith
+   TARGET [counter-typing] The incumbent internet answer is Type 3
+   OTHER  [diagnosis] 29 July 2026 The obvious alternative reading is Type 3.
+
+score 0.034   Duke-Dennis  <->  david-goggins
+   TARGET [counter-typing] credit goes to Kai and AMP
+   OTHER  [diagnosis] he gets furious and goes to war with it.
+
+score 0.033   Duke-Dennis  <->  Khabib-Nurmagomedov
+   TARGET [diagnosis] In Duke Dennis Story Time
+   OTHER  [diagnosis] In Khabib's telling on the PBD Podcast in 2023
+
+score 0.032   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] "I don't even like my girlfriend telling me what to do." "I just don't like people telling me what to do." Three repetitions in one story time.
+   OTHER  [diagnosis] "I don't think a trad wife would be cooking in like Schiaparelli
+
+------------------------------------------------------------------------------
+Top pair scores 0.08 vs median 0  (~∞x the noise floor).

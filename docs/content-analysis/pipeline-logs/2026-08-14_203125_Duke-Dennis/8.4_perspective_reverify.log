@@ -1,0 +1,15 @@
+Those two were the hung greps I killed — both had already been superseded by the `awk`-based ellipsis inventory and the direct route check, which completed successfully.
+
+**Output path:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/verification-final.md`
+
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+The revision pass held every P0 the editor pass closed, and P1-13's deferred Type 7 clause is now seated, bringing accepted P1s to 15 of 16 complete (P1-16's archiving is a human pre-publish task, not a draft edit). All fourteen protected hits verified by exact string match, including a byte-identical compare of the PROTECT-02 cold-open region — which was the item genuinely at risk, since the revision removed a stat from the opening movement. That edit landed after the protected boundary.
+
+I verified the three assertions the revision introduced rather than reading the resolution log: the new "born in '94… I wasn't born in 1987" quote is verbatim on the *Sneaker Shopping* tape, `coql2j3ugo8` is confirmed via `yt-dlp` as Complex's episode dated 2023-05-29, and the new Mashable attribution checks out (Olivia Tauber, 2026-07-07, names Duke Dennis alongside Lizzo/Pokimane/Ludwig, July 6 announcement).
+
+One new item in Remaining work worth your attention: the *Sneaker Shopping* transcript was quoted but never saved to `youtube-transcripts/`, so unlike the other two primary texts it isn't greppable by future passes — and the draft's TESTIMONY LEDGER still carries the now-false note that no third-party testimony exists.
+
+The deterministic gate script, not this prose, decides whether the pipeline may finalize.

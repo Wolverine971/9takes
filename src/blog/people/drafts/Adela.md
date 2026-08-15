@@ -173,6 +173,8 @@ Her artistic particularity complicates the call. She wants the result to carry h
 
 The public record cannot settle a private motivation with certainty. This is a high-confidence reading of the core pattern and a medium-confidence call on the wing. The Type 4 question gets a closer test in the technical section near the end.
 
+<EnneagramTypeDossier />
+
 ## The child who treated distance like homework
 
 Adéla's first career plan arrived before any industry invitation. Growing up in Slovakia, she watched *Hannah Montana* and wrote a private list that included fluent English, Los Angeles, Disney headquarters, and meeting Miley Cyrus. She kept much of it secret because the scale sounded absurd in her surroundings, according to her [2024 interview with Coco Mocoe](https://www.youtube.com/watch?v=VDhjDJybhsM).

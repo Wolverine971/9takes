@@ -5,6 +5,7 @@
 import { marked, type Tokens } from 'marked';
 import { getBlogEvidenceMedia } from '$lib/blogEvidenceMedia';
 import { getDJPersonalityRead } from '$lib/data/djPersonalityReads';
+import { ENNEAGRAM_TYPE_DOSSIER_SLOT_MARKER } from '$lib/utils/articleSlots';
 
 interface Placeholder {
 	id: string;
@@ -82,6 +83,19 @@ export async function processBlogContent(
 
 	// Parse markdown to HTML with custom renderer that adds IDs to headings
 	let htmlContent = await marked.parse(content, { renderer });
+
+	// This is an article layout slot, not a client-mounted component placeholder.
+	// The personality page splits at this exact marker and server-renders the
+	// dossier there with the profile matching the post's Enneagram type.
+	let dossierSlotFound = false;
+	htmlContent = htmlContent.replace(
+		/<EnneagramTypeDossier\s*(?:\/>|>\s*<\/EnneagramTypeDossier>)/gi,
+		() => {
+			if (dossierSlotFound) return '';
+			dossierSlotFound = true;
+			return ENNEAGRAM_TYPE_DOSSIER_SLOT_MARKER;
+		}
+	);
 
 	// Initialize placeholders array
 	const placeholders: Placeholder[] = [];

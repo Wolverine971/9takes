@@ -1,0 +1,21 @@
+## Grading Complete — Duke Dennis
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Duke-Dennis | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4` · Discoverability 9 — no gate. Caps applied: none.
+
+### Key observations
+
+**Deterministic checks:** contrast pairs 0 strong / 0 comparative (no Writing cap). Source audit 4 load-bearing quotes — 3 inline, 1 vague, **0 untagged**; the vague slot is the self-published 2018 story time, which the body dates and titles, so it's traceable in practice. Same-type similarity **TRIPPED** (max 0.080) but only on structural type-declaration boilerplate — note that the draft's own FORMULA FINGERPRINT LEDGER reports this scan as "clear," which is a stale claim worth correcting.
+
+**What earns the top of B:** sourcing discipline is top-decile for this corpus — the San Antonio paragraph runs charge → his answer → dismissal via court records → live civil suit, so it never closes on unrebutted self-exculpation, and the Kai Veterans Day call is stated as event with no quote invented. The empathy turn is the best-formed one I've graded: the rizz bristling becomes legible through his own clock/script vocabulary ("What he hears is a shift bell") without house grammar and without excusing him. Rabbit hole is exemplary, including a falsifiability condition.
+
+**What holds it at 8.4:** Evidence is capped by a testimony gap, not citation hygiene — nobody in Duke's orbit speaks on the page, and one 2024 Complex interview supplies ~12 quotes. The ledger says targeted search found zero third-party testimony, so it's a subject constraint, not a pipeline failure. Originality is capped by a monocausal thesis announced in paragraph 4 and then illustrated eight times; the staying behaviors (sealed AMP door, mother's house, the shirt he kept) are filed as instances rather than counterweight, and that's the un-mined material for a two-sided thesis.
+
+**Flagged for you, not the grader:** the closing section rests on an aunt he's never asked about; on the 2025-08-17 stream Duke said "my aunt passed away during July." No source establishes whether it's the same aunt. If it is, the ending is wrong. Only reporting or your call settles it — this is a pre-publish blocker regardless of the score.
+
+Frontmatter block added after `path:`; sidecar written to `docs/content-analysis/grades/Duke-Dennis.review.md`. No legacy `QUALITY GRADE` comment existed in the body to remove.
+
+**Total graded this session: 1**

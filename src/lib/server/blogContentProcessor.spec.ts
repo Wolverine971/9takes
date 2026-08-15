@@ -3,6 +3,22 @@ import { describe, expect, it } from 'vitest';
 import { processBlogContent } from './blogContentProcessor';
 
 describe('processBlogContent', () => {
+	it('turns an explicit Enneagram dossier element into one article slot', async () => {
+		const result = await processBlogContent(`Diagnosis copy.
+
+<EnneagramTypeDossier />
+
+<EnneagramTypeDossier />
+
+## Next section`);
+
+		expect(result.content.match(/data-article-slot="enneagram-type-dossier"/g)).toHaveLength(1);
+		expect(result.content).not.toContain('<EnneagramTypeDossier');
+		expect(result.placeholders).not.toContainEqual(
+			expect.objectContaining({ type: 'EnneagramTypeDossier' })
+		);
+	});
+
 	it('renders QuickAnswer fallback HTML for crawlers before client mounting', async () => {
 		const result = await processBlogContent(`<QuickAnswer question="What is Taylor Swift's type?">
 Taylor reads as **Type 3** because image, momentum, and achievement keep returning as the pattern.
