@@ -6,14 +6,14 @@ description: "Why does Tyler1 yell? This Enneagram Type 8 analysis traces the co
 author: 'DJ Wayne'
 date: '2026-07-29'
 loc: 'https://9takes.com/personality-analysis/Tyler1'
-lastmod: '2026-07-29'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '8'
 type: ['creator', 'streamer']
 person: 'Tyler1'
-suggestions: ['Asmongold', 'IShowSpeed', 'Kai-Cenat', 'Hasan-Piker']
+suggestions: ['Asmongold', 'IShowSpeed', 'Kai-Cenat', 'Hasan-Piker', 'xQc']
 wikipedia: 'https://en.wikipedia.org/wiki/Tyler1'
 wikidata_qid: 'Q56486675'
 imdb_id: 'nm9742524'

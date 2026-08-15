@@ -1,0 +1,16 @@
+All validation passes: 11 H2 headings exact and in order, declared counts match the document (0 blockers / 7 concerns / 7 red-flag entries), and every quoted passage verified verbatim against the frozen draft — the single grep miss was only an `<a>` tag wrapping "Sevens".
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/unfamiliar.md`
+
+**Verdict:** trust `intact` · value `high` · delight `clear_hit` · recommendation **revise**
+
+**Blockers: 0.** The draft passes this perspective's core test — after one unaided read I could state who Tyla is, why she matters, the thesis, and the type answer without outside homework.
+
+**Strongest hit:** the Nando's bookend paired with the nine-word thesis, *"Hand Tyla one word and she gives you back two."* The opener orients a total newcomer through an image needing zero background — a chicken shop she can't walk into — and the close pays it back without restating it. Runner-up is the structural choice to prove the thesis physically in the Bacardi section *before* any Enneagram vocabulary arrives.
+
+**Highest-priority concern (UNFAMILIAR-R1):** "amapiano" is never defined anywhere in reader-visible prose, despite carrying the genre argument, the coined term "popiano," and the album title. My one permitted orientation search settled that this is a draft omission rather than my own unfamiliarity — CNN and Rolling Stone still run general-audience "what is amapiano" explainers. Fix is one appositive clause, and defining it recovers a free thesis payoff the draft is currently leaving on the table: *amapiano* means "the pianos" in Zulu, and the draft already establishes Zulu ancestry — the genre she's accused of merely borrowing is named in one of her own ancestral languages.
+
+Two notes worth surfacing beyond the file:
+
+- **Routed to the verify lane, not adjudicated here:** the packet classes the "consensus settled around 73" claim as *Disputed* (CLM-06) — Metacritic reads 79, 7 positive / 0 negative. My finding is the reader-facing half only (an unnamed, unscaled number setting the album's reception), but if the figure moves, §7's "courteous and faintly disappointed" framing moves with it.
+- **Disclosure:** the snapshot contains a `FRESH EYES REVIEW` comment after the body. I'd finished reading the entire reader-visible body before overrunning into ~15 lines of it, stopped immediately, and flagged in the review the one place my findings sit adjacent to it rather than claiming independence I can't certify.

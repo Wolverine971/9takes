@@ -1,0 +1,13 @@
+**Artifact:** `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/evidence-packet.md`
+
+Frozen snapshot SHA re-verified unchanged; only the packet was written. All ten required H2 headings present, 21 claim IDs (CLM-01…CLM-21), 33 ledger sources.
+
+**Largest unresolved evidence gap: the British Vogue March 2025 cover story was never read in primary form.** It is the single highest-leverage document in the file and it is doing contradictory work. Every quotation the draft draws from it — the Nando's open and close, the entire primary-school origin sequence — reaches this packet only through Revolt, Uproxx, News24, and Fashionista. That same unread article is also where Uproxx reports she re-explained her identity at length *after* the 2024 Breakfast Club episode ("you can be both. And the people that care to learn, they understand now"), which is the direct counterevidence to the draft's structural claim that she answered once in 2023 and never again. The issue, byline (Funmi Fetto) and photographer are now confirmed; the body text is not. So one unread source simultaneously underwrites the draft's best material and undercuts its spine.
+
+Three other findings evaluators will want, since they cut against the draft rather than for it:
+
+- **"Popiano" predates the Sammy Soso conversation by ~4 years.** News24 (Mar 2024) credits producer Kooldrink and his team with coining "pop-piano" at "Getting Late" (2019), pre-Epic — contradicting the draft's "described a sound that did not have a name yet."
+- **The amapiano-authenticity beat cites the wrong OkayAfrica piece.** Paula Adhis (29 Oct 2024) frames Tyla positively; the log-drum skepticism the draft describes belongs to Dennis Ade Peter (15 Oct 2024), a different author two weeks earlier. The quote is accurate; the characterization attached to it is not.
+- **Metacritic reads 79/100 across 8 reviews — 7 positive, 1 mixed, 0 negative.** The draft's "consensus settled around 73" matches Metacritic's review *count* but not its score, and names no aggregator. AOTY (the repo's source for 73) returned HTTP 403 and could not be re-verified.
+
+One apparent contradiction resolved *in the draft's favor* and recorded so no one re-flags it: Time credits "Litchi" with the "Water" routine while the draft credits Lee-ché Janecke — they are the same person (Litchi Hov).

@@ -6,14 +6,14 @@ description: "xQc most plausibly reads as an Enneagram Type 7w6: novelty, escape
 author: 'DJ Wayne'
 date: '2025-01-07'
 loc: 'https://9takes.com/personality-analysis/xqc'
-lastmod: '2026-02-23'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 7
 type: ['creator', 'streamer']
 person: 'xqc'
-suggestions: ['Kai-Cenat', 'IShowSpeed', 'Ninja', 'Pokimane', 'Adin-Ross']
+suggestions: ['Kai-Cenat', 'IShowSpeed', 'Ninja', 'Pokimane', 'Adin-Ross', 'Tyler1']
 wikipedia: 'https://en.wikipedia.org/wiki/XQc'
 wikidata_qid: 'Q50716407'
 birth_date: '1995-11-12'

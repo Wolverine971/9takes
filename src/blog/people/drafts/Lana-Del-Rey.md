@@ -6,14 +6,14 @@ description: "Lana Del Rey built an empire out of longing. How the Enneagram Typ
 author: 'DJ Wayne'
 date: '2026-04-15'
 loc: 'https://9takes.com/personality-analysis/lana-del-rey'
-lastmod: '2026-04-15'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 4
 type: ['musician']
 person: 'lana-del-rey'
-suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Taylor-Swift', 'Chappell-Roan']
+suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Taylor-Swift', 'Chappell-Roan', 'Jack-Antonoff']
 wikipedia: 'https://en.wikipedia.org/wiki/Lana_Del_Rey'
 wikidata_qid: 'Q37150'
 imdb_id: 'nm4787894'
@@ -240,7 +240,7 @@ She gets "red light fever in the booth" when she records. The technical gear, th
 
 By 2019, something had shifted.
 
-_Norman Fucking Rockwell!_ — produced almost entirely with Jack Antonoff — abandoned the cinematic machinery. The vintage filter came down. What replaced it was rawer: direct address, a conversational intimacy that felt like overhearing her think. She wasn't constructing a myth anymore. She was reporting.
+_Norman Fucking Rockwell!_ — produced almost entirely with [Jack Antonoff](/personality-analysis/jack-antonoff) — abandoned the cinematic machinery. The vintage filter came down. What replaced it was rawer: direct address, a conversational intimacy that felt like overhearing her think. She wasn't constructing a myth anymore. She was reporting.
 
 "Mariners Apartment Complex" opens with her offering something rather than asking for something — a reversal of her entire aesthetic up to that point. The tragic heroine had crossed to the other side of the wound. She was someone who had survived long enough to offer steadiness.
 

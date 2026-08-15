@@ -5,7 +5,7 @@
 **For:** Editorial, product-design, and Svelte implementation agent
 **Owner:** DJ
 **Created:** 2026-08-13
-**Status:** Pilot reviewed; structured read retained as editorial source material; public card retired.
+**Status:** Pilot reviewed; card and structured read preserved for possible later integration; current article remains subject-led.
 **Related:** `.codex/skills/capture-dj-personality-read/SKILL.md`, `src/blog/people/drafts/Elon-Musk.md`, `src/routes/personality-analysis/[slug]/+page.svelte`, `docs/growth/growth-log.md`, `docs/taskers/T-18-people-persona-title-quality-audit.md`
 
 ## 0. What and why
@@ -26,18 +26,22 @@ This work must make one distinction explicit: DJ has original, first-party analy
 
 ### Pilot outcome — 2026-08-15
 
-DJ's review of the rendered Elon page supersedes the original public-card hypothesis. The structured
+DJ's review of the rendered Elon page supersedes the original card-placement hypothesis. The structured
 read is useful for directing the article, preserving uncertainty, and supporting future editorial or
-founder-media work, but the standalone card repeats the essay and interrupts the subject-led reading
-flow.
+founder-media work. The card itself remains a reusable asset, but its tested placement repeated the essay
+and interrupted the subject-led reading flow.
 
 - Keep `src/lib/data/djPersonalityReads.ts` as the reviewable reasoning and source ledger.
+- Keep the `DJReadCard` implementation available for a later, explicitly reviewed integration; the pilot
+  rejected its placement, not the component.
 - Integrate approved judgments into the article's normal prose, with alternatives and uncertainty
   stated where they matter.
-- Do not render a second `DJ's read` dashboard inside the published article.
+- Do not render a second `DJ's read` dashboard at the interruptive mid-article placement tested here.
 - Treat any older `<DJReadCard />` database marker as editorial-only until the body is next synced.
 - Any future public transparency surface needs a new placement and content review; this pilot does not
   authorize a cross-corpus card rollout.
+- Keep every ordinary heading, subtitle, dek, and narrative transition focused on the profiled person or
+  the evidence. DJ's reasoning may direct the piece without making DJ the subject.
 
 ## 1. Required reading
 
@@ -87,8 +91,8 @@ The completed artifact must answer:
 2. What did he infer?
 3. Why does that connect to the proposed type?
 4. What is the strongest competing explanation?
-5. What makes DJ hesitate?
-6. What would change his mind?
+5. What evidence weakens the case?
+6. What would change the analysis?
 7. Which primary material did DJ personally review?
 8. What did AI do and not do?
 
@@ -217,8 +221,9 @@ Do not create generic scripts that erase DJ's cadence or claim more certainty th
 - [ ] `git status --short` was recorded before work.
 - [ ] The skill let DJ riff before asking targeted questions.
 - [ ] Raw riff, edited synthesis, and sourced evidence remain distinguishable.
-- [ ] Every published-facing claim is sourced or clearly labeled as DJ's interpretation.
-- [ ] The strongest alternate read and what would change DJ's mind are visible.
+- [ ] Every published-facing claim is sourced or clearly framed as interpretation without making the author the section's subject.
+- [ ] No ordinary heading, subtitle, or dek begins with DJ, the author, `I`, or `my read`.
+- [ ] The strongest alternate read and the evidence that would change the analysis are visible.
 - [ ] AI assistance is described accurately and does not claim psychological verification.
 - [ ] DJ approved the Elon reasoning artifact before any UI implementation.
 - [ ] Required Svelte and design skills were loaded before component work.
@@ -242,4 +247,4 @@ Do not create generic scripts that erase DJ's cadence or claim more certainty th
 
 ## 7. Definition of done
 
-The task is done when DJ has approved a sourced Elon Musk reasoning artifact, a clean reusable card is rendered for the Elon pilot only, the extended reasoning and AI-method note are accessible, analytics can read card exposure and engagement, and the same approved riff has yielded a founder-video outline without changing any other person's page.
+The pilot is done when DJ has approved a sourced Elon Musk reasoning artifact, that reasoning directs a subject-led Elon profile, and the clean reusable card plus structured data remain available for a separately reviewed future integration. The article must not make DJ its subject, and no other person's page changes as part of the pilot.

@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Tyla (Type 7)
+/Users/djwayne/9takes/src/blog/people/drafts/Tyla.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 48
+Comparison set (last 8 other Type-7 drafts by date):
+  - Travis-Kelce  (2026-08-13, 51 units)
+  - stavros-halkias  (2026-07-25, 30 units)
+  - lamine-yamal  (2026-07-19, 21 units)
+  - john-coogan  (2026-07-14, 31 units)
+  - Jeff-Goldblum  (2026-07-03, 23 units)
+  - Matt-Smith  (2026-07-03, 24 units)
+  - cathie-wood  (2026-07-02, 22 units)
+  - Jim-Carrey  (2026-06-30, 23 units)
+
+Noise floor over 10800 unit pairs:  median=0  p90=0  p99=0.007  max=0.108
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.108   Tyla  <->  john-coogan
+   TARGET [diagnosis] " she told Ebro Darden in July 2026
+   OTHER  [diagnosis] given on Scott Galloway's Prof G podcast in July 2026
+
+
+Most similar drafts (max unit-pair score):
+  0.108 ####                 john-coogan
+  0.072 ###                  cathie-wood
+  0.046 ##                   Travis-Kelce
+  0.044 ##                   Jeff-Goldblum
+  0.028 #                    Matt-Smith
+  0.027 #                    Jim-Carrey
+  0.027 #                    stavros-halkias
+  0.012                      lamine-yamal
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.108   Tyla  <->  john-coogan
+   TARGET [diagnosis] " she told Ebro Darden in July 2026
+   OTHER  [diagnosis] given on Scott Galloway's Prof G podcast in July 2026
+
+score 0.072   Tyla  <->  cathie-wood
+   TARGET [counter-typing] The tiebreaker is what she does with material she did not choose.
+   OTHER  [diagnosis] The analyst is what she actually does between TV hits.
+
+score 0.046   Tyla  <->  Travis-Kelce
+   TARGET [diagnosis] "I still want to be a 24-year-old girl
+   OTHER  [counter-typing] and he has said he used to want to be known as the greatest tight end ever to play.
+
+score 0.046   Tyla  <->  Travis-Kelce
+   TARGET [counter-typing] She has wanted to be a pop star since childhood
+   OTHER  [counter-typing] and he has said he used to want to be known as the greatest tight end ever to play.
+
+score 0.044   Tyla  <->  Jeff-Goldblum
+   TARGET [counter-typing] a Nine's non-choice is an absent preference
+   OTHER  [counter-typing] A Nine case exists too
+
+score 0.034   Tyla  <->  Travis-Kelce
+   TARGET [counter-typing] a Nine's non-choice is an absent preference
+   OTHER  [diagnosis] Travis Kelce is an Enneagram Type 7
+
+score 0.031   Tyla  <->  cathie-wood
+   TARGET [diagnosis] Sevens are organized against confinement.
+   OTHER  [diagnosis] Sevens are usually painted as scattered — bouncing across novelties
+
+score 0.030   Tyla  <->  Jeff-Goldblum
+   TARGET [diagnosis] Underneath the genre sat the ambition.
+   OTHER  [diagnosis] Underneath the appetite for novelty is a quieter engine
+
+score 0.030   Tyla  <->  Travis-Kelce
+   TARGET [diagnosis] and the word she reaches for is the one about a locked room.
+   OTHER  [diagnosis] The same drive that makes him electric on a Sunday is the one that got him high around a college bowl trip and nearly cost him the sport.
+
+score 0.028   Tyla  <->  Matt-Smith
+   TARGET [diagnosis] the load-bearing word in every answer she has given is both .
+   OTHER  [counter-typing] buoyant and deflecting in every interview.
+
+score 0.028   Tyla  <->  Travis-Kelce
+   TARGET [diagnosis] I didn't get signed to do this
+   OTHER  [diagnosis] he said retirement "didn't cross my mind one bit." The reason
+
+score 0.028   Tyla  <->  cathie-wood
+   TARGET [counter-typing] Sevens are famously poor at long
+   OTHER  [diagnosis] Sevens are usually painted as scattered — bouncing across novelties
+
+------------------------------------------------------------------------------
+Top pair scores 0.108 vs median 0  (~∞x the noise floor).

@@ -1,0 +1,13 @@
+Counts and headings verify: 3 blockers, 10 concerns, 11 required H2s, SHA confirmed against `context.json` before reading.
+
+**Saved:** `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/subject.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. 3 blockers, 10 concerns.
+
+**Strongest hit:** the timeline reframed as a record of assignment, landing on *"Nobody in seventy-six years asks her what she is. Every entry is somebody telling her, and the two entries where she speaks are both replies."* Paired with the Population Registration Act framing, it's the rare treatment that explains the identity controversy without adjudicating her identity. Both must survive revision.
+
+**Highest-priority blocker (SUBJ-R1):** The draft's spine — *"She answered once, in writing. She has spent the three years since declining to answer again"* (L147), carried up into the `meta_title` *"Why Tyla Stopped Explaining Herself"* — is contradicted by the British Vogue March 2025 cover story, **the same story the draft mines twice** for its Nando's opener and its primary-school psychology. I pulled her actual words from two independent relays: *"even if you give the best explanation, people will still choose not to understand. But I'm at a point where I know who I am… the people that care to learn, they understand now. And that's enough for me."* The article took the wound from that interview and left the recovery, then published the resulting claim as the search headline under her name. The fix is cheap (one timeline entry, one sentence, one meta_title) and makes the empathy turn stronger — a person who explained twice and *then* stopped beats one who stopped after once — and it does not break the "every entry is a reply" reveal.
+
+Two other blockers worth flagging directly: her undisclosed March 2024 injury is made the *tiebreaker* for the type call plus given an invented first-person monologue, so she can't contest the reading without surrendering the privacy it's about (SUBJ-R2); and the Breakfast Club moment her publicist ended ("Can we not? Por favor," on a pre-declared off-limits topic) is written as her personal door-slam and then graded as 7w8 evidence (SUBJ-R3).
+
+Three of my findings land on material the snapshot's own second-pass notes record as already resolved. I read past those notes rather than anchoring on them.

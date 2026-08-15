@@ -1,0 +1,27 @@
+## Grading Complete — Tyla
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Tyla | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+(Weighted: `(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5/7 = 8.6`. Discoverability 9 ≥ 7, so no gate cap. No formula caps tripped.)
+
+### Key Observations
+
+**This is a genuinely strong draft, and it's strong for measurable reasons, not vibes.** Against the Matt-Smith anchor (which the human audit re-graded to the 8.0–8.4 band), Tyla clears it on every axis Matt-Smith was dinged for: no "The tell:" bullet, no corpus-stat sentence, no vague "he told the press" sourcing, no generic type exposition opening the diagnosis. Formula checks are clean by script — 0 strong contrast pairs, 0 counter-typing ladders in the body, same-type similarity max 0.108 against the last 8 Type-7 drafts (and that trip is a shared attribution phrase, not argument reuse).
+
+**Two things it does that this pipeline almost never does.** It concedes critic pressure *against* its own thesis rather than metabolizing it ("a refusal to choose stops being a refusal the moment it meets a routing spreadsheet… it lands exactly where the type is weakest"), and it attaches an explicit falsifier. The 1950→2026 timeline-as-assignment-record, with the reveal that nobody in seventy-six years ever asks her what she is, is a real structural invention.
+
+**The one finding worth your attention: the source-audit PASS is a false negative.** The script reports 0 untagged load-bearing quotes, but it only inspects five named slots. Outside those, **11 reader-visible quotes carry no outlet** — including two that the draft's own Testimony Ledger already has answers for (Zara Larsson → Rolling Stone 2026; Janecke → IOL 6 May 2025), stranded unattributed in the closing section. The worst one is the A*POP process quote the entire Type 3 differential rests on. That cluster is what holds Evidence at 8. All 11 are enumerated in the sidecar.
+
+**Second-order issue:** six of nine sections close on the same aphoristic beat shape, with a declarative-reversal cadence running underneath it ~5 times. Neither trips the contrast-pair script; both are audible on a read-through. That's what holds Writing at 8.
+
+Fixing the attributions alone takes this to 8.8; attributions plus breaking the closer metronome takes it to 9.0. Both are cheap — but the body is at 4,490 of 4,500 words, so each addition has to be paid for with a cut.
+
+**Grade stability:** the revision-pass notes record a prior grade of B+ (8.5); this regrade lands 8.6, a 0.1 delta. That's a healthy stability signal — the revision pass held its gains without the usual regrade collapse.
+
+Files written:
+- `src/blog/people/drafts/Tyla.md` — `content_quality` block added after `path:` (lint still 0 fail, 2 pre-existing warns)
+- `docs/content-analysis/grades/Tyla.review.md` — reviewer sidecar
+
+**Total graded this session: 1**

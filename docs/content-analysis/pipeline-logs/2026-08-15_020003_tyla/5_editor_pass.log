@@ -1,0 +1,22 @@
+Polished `src/blog/people/drafts/Tyla.md` in perspective-jury mode against the frozen snapshot (SHA matched exactly).
+
+**All 9 P0 items fixed, all 14 accepted P1 items fixed.** The synthesis was right that this was a precision problem, not a fairness problem — and the pattern it flagged was real: every loose claim leaned toward the more poignant version. The repairs that mattered most:
+
+- **She did answer again.** The 2025 British Vogue re-explanation is now in the intro, the timeline, and the answers list, and the meta title no longer asserts she stopped. I also caught two residual single-answer assertions the brief hadn't listed ("exactly one written answer"; "She answers in writing, once").
+- **The Type 3 differential was rebuilt** on interest-calibration vs audience-calibration. It no longer rests on the word "jail" (which our own Type 3 page uses freely) or on the undisclosed injury.
+- **The Breakfast Club moment** is now a publicist closing a pre-declared topic, not a personal door-slam, and the 7w8 case rests on first-person quotes instead.
+- **The injury paragraph** no longer asserts a diagnosis exists, no longer says "or where," and the guess-label moved inside the styled block.
+
+**Research resolved:** RQ-04 (Metacritic 79/0-negative for *A\*POP*, Wikipedia confirms the debut at 84 — so the stronger comparative version was available), RQ-02 (Afropop Worldwide, Tier 2: Bacardi is Pretoria, kwaito-descended, feeding *into* amapiano), and RQ-01 substantially (the Vogue passage corroborated across five outlets). RQ-03 stays open and doesn't block.
+
+**Final numbers:** `blog-lint` 0 fail, 2 warn. Contrast pairs **0 strong** (exit requirement met). The 1 comparative sits inside Dennis Ade Peter's verbatim quote, which P1-02 required adding, so it can't be rewritten. Source audit back to its exact pre-edit baseline: 7 inline, 0 vague, 0 untagged. `lastmod` untouched.
+
+Three things worth your call:
+
+1. **Word budget is spent** — 4,493 of 4,500. The repairs added ~500 words; I cut ~300 back out, mostly from the A\*POP section as the synthesis directed, plus a duplicated quote and a redundant hinge sentence. P2-01 is only half-taken: *Tyla* and *WWP* are now named, but there's still no sentence describing what *A\*POP* sounds like. That's the best remaining upgrade and it needs budget freed first.
+2. **I touched one file outside the draft.** `scripts/blog-source-audit.mjs` gained "The Source" to its ambiguous-outlet list — removing the unsourced "on Apple Music" left the keystone "jail" quote grading VAGUE because the only publication carrying it wasn't listed. Same precedent as this pipeline's African-outlets block, but flagging since it's shared tooling and the file already had uncommitted changes.
+3. **Two deliberate deviations**, both logged: I kept the "2020 Clip" heading (that year never expires and it's anchor-referenced) and declined the optional parents-H2 retitle. I also fixed a pre-existing broken FAQ anchor found along the way — `why-a-pop-...` never resolved, since github-slugger drops the asterisk in "A\*POP".
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/editor-resolution.md`.
+
+The draft reads production-ready to me and doesn't need another substantive pass — but I'm not the gate. `/blog_perspective_verify_people` checks the result independently.

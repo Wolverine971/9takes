@@ -6,14 +6,14 @@ description: "Why does Gracie Abrams hide that her dad directed Star Wars? Her E
 author: 'DJ Wayne'
 date: '2026-05-17'
 loc: 'https://9takes.com/personality-analysis/gracie-abrams'
-lastmod: '2026-05-17'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '4'
 type: ['musician', 'celebrity', 'celebrity-image', 'music-crossover']
 person: 'gracie-abrams'
-suggestions: ['Lana-Del-Rey', 'Olivia-Rodrigo', 'Taylor-Swift', 'Paul-Mescal', 'Sabrina-Carpenter']
+suggestions: ['Lana-Del-Rey', 'Olivia-Rodrigo', 'Taylor-Swift', 'Paul-Mescal', 'Sabrina-Carpenter', 'Phoebe-Bridgers']
 wikipedia: 'https://en.wikipedia.org/wiki/Gracie_Abrams'
 wikidata_qid: 'Q106301562'
 imdb_id: 'nm10956454'
@@ -174,7 +174,7 @@ The Type 4's deepest fear isn't being ordinary. It's being derivative: being see
 
 She did one thing about it. She built a private system.
 
-The journal started in third grade. The songs started at eight. She wrote on the drums in the family garage, "banging on the drums about losing my journal and how devastating that felt." She told _Apple Music_ that "minor," the song she wrote at seventeen, was the first time she felt she wasn't trying to emulate someone else's sound. Not Joni Mitchell, not Phoebe Bridgers, both of whom she loved. Nobody she had inherited.
+The journal started in third grade. The songs started at eight. She wrote on the drums in the family garage, "banging on the drums about losing my journal and how devastating that felt." She told _Apple Music_ that "minor," the song she wrote at seventeen, was the first time she felt she wasn't trying to emulate someone else's sound. Not Joni Mitchell, not [Phoebe Bridgers](/personality-analysis/phoebe-bridgers), both of whom she loved. Nobody she had inherited.
 
 Then in December 2022, _New York_ magazine put her on the "Year of the Nepo Baby" cover anyway, sorted into the "on the come-up" tier of celebrity children whose careers might or might not be their own. The exact wound the type fears most is the one that arrived in print.
 

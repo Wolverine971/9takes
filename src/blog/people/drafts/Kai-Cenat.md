@@ -5,7 +5,7 @@ description: "Why can't Kai Cenat slow down? We decode the Type 7 drive behind t
 author: 'DJ Wayne'
 date: '2025-03-25'
 loc: 'https://9takes.com/personality-analysis/kai-cenat'
-lastmod: '2026-04-03'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
@@ -13,7 +13,7 @@ enneagram: 7
 type: ['creator', 'streamer']
 person: 'kai-cenat'
 persona_title: "Streaming's Perpetual Motion Machine"
-suggestions: ['IShowSpeed', 'Ninja', 'Druski', 'xQc', 'Mr-Beast', 'Logan-Paul']
+suggestions: ['IShowSpeed', 'Ninja', 'Druski', 'xQc', 'Mr-Beast', 'Logan-Paul', 'Duke-Dennis']
 wikipedia: ''
 wikidata_qid: 'Q113818347'
 imdb_id: 'nm9411427'
@@ -263,7 +263,7 @@ A person built on endless options voluntarily honoring a constraint. A promise k
 
 ## AMP and the Brotherhood That Keeps Him Grounded
 
-In 2019, **Agent 00** had a vision: a content creator collective of rising streamers that could be more than the sum of its parts. He reached out to Davis, Fanum, and Duke Dennis first. Kai was the last one recruited; Fanum showed the group Kai's YouTube videos around 2021.
+In 2019, **Agent 00** had a vision: a content creator collective of rising streamers that could be more than the sum of its parts. He reached out to Davis, Fanum, and [Duke Dennis](/personality-analysis/duke-dennis) first. Kai was the last one recruited; Fanum showed the group Kai's YouTube videos around 2021.
 
 Kai's initial reaction revealed more than he probably intended: **"At first, I told Fanum I didn't want to. Their chemistry was so good. I said, 'I don't want to ruin it.'"**
 

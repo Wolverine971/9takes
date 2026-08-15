@@ -82,19 +82,23 @@ compact treatment for quoted people.
       human-readable lines (`Quote source` and `Photo`) with the publication year, license or fair-use
       status, and a concise `edited for web` change notice. The full rights ledger remains in the registry.
       → P4+P6
-- [x] **Responsive geometry:** portrait cards use a stable 800×544 maximum desktop frame and a stacked
+- [x] **Responsive geometry:** portrait cards use a stable 800×672 desktop frame and a stacked
       mobile fallback. The picture remains the dominant region, quotes scale up to 1.7rem, and context
       plus attribution step down to 0.7rem/0.65rem. → P1+P2+P4+P10
 
 ### Follow-up verification
 
 - Full Elon article preview passes in light mode at 1440×1000 and 390×844.
-- Desktop portrait cards render at 768×512 with a 470×510 image region; mobile renders a 324×374 lead
-  image above the caption.
-- All five evidence images load at natural dimensions after lazy scrolling; no duplicate IDs,
-  horizontal overflow, or browser warnings/errors.
-- Focused tests pass as part of the 693-test Vitest run; Svelte autofixer and `lint:colors` pass.
+- Desktop portrait cards render at 800×672 with a 497×683 dominant image region. At 390×844, quoted
+  people stack into a 342px card with a 340×421 lead image and a 1.35rem quote.
+- Justine, Talulah, and Kimbal all load their 960×1200 portraits after lazy scrolling. Each card's
+  source block stays inside its container, and the article has no horizontal overflow or runtime
+  browser warnings/errors.
+- Focused registry and server-renderer Vitest coverage passes: 12 tests across 2 files.
+- `svelte-check` passes with 0 errors; 132 pre-existing warnings in 40 unrelated files remain.
 - `lint:radius` remains blocked by two unrelated existing admin-page declarations in
   `admin/enneagram-campaign/+page.svelte` and `admin/question-distribution/+page.svelte`.
-- Captures: `/private/tmp/elon-evidence-editorial-desktop-light.png` and
-  `/private/tmp/elon-evidence-editorial-mobile-light.png`.
+- Captures: `/private/tmp/elon-evidence-portraits-desktop-light-final.png`,
+  `/private/tmp/elon-evidence-portraits-mobile-light.png`,
+  `/private/tmp/elon-evidence-talulah-mobile-light.png`, and
+  `/private/tmp/elon-evidence-kimbal-mobile-light.png`.

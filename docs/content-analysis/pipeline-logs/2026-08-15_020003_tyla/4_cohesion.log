@@ -1,0 +1,57 @@
+All edits landed correctly and lint passes.
+
+## Cohesion Check Complete: `src/blog/people/drafts/Tyla.md`
+
+**Before score: 7/10**
+**After score: 9/10**
+
+### Central Thesis
+Tyla's defining move is refusing to be narrowed to one category — identity, genre, body, calendar, album — and that refusal is Type 7 confinement-avoidance shaped by growing up in the one country that wrote everyone's category into law.
+
+### Thread Map
+
+| # | Section | Contribution | Transition in |
+|---|---------|--------------|---------------|
+| — | Intro (Nando's) | States the thesis: hand her one word, get two back | — |
+| 1 | Who Tyla Is / 2026 | Bio + stakes; "the year is still running" plants the open-door motif | Adequate (conventional bio drop) |
+| 2 | Bacardi Dance | Thesis proved on the body, zero type vocabulary | **Strong** |
+| 3 | What is Tyla's personality type? | Names it: Seven, "jail," four domains | **Strong** (was Weak) |
+| 4 | Parents Called Music a Hobby | Origin of buying open doors; the schoolyard verdict | **Strong** (was Broken) |
+| 5 | The 2020 Clip | The verdict at national scale; abuse; empathy turn | **Strong** (was Broken) |
+| 6 | Coachella | Same trade, higher price: spend the career, keep the word | **Strong** (was Weak) |
+| 7 | A\*POP | Arrows, conceded critiques, the VMA counter-beat | **Strong** (was Adequate) |
+| — | Rabbit Hole | Wing, subtype, Type 3 case | Skippable by design |
+| 8 | Twenty-Nine Cities | Chosen commitment vs. assigned; Nando's close | **Strong** (was Weak) |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 7/10 | 9/10 |
+| Reader Mental Model | 8/10 | 9/10 |
+| Section Transitions | 5/10 | 9/10 |
+| Internal Paragraph Flow | 7/10 | 9/10 |
+
+### Changes Made (9 total)
+
+**Transition fixes (5):**
+- Diagnosis → Parents: added "The first category anybody tried to put her in was a career." Carries *category* from the diagnosis into a section that previously started cold on her parents' names.
+- Parents → 2020 Clip: added "A schoolyard is one room with one jury. The verdict she has spent her adult life absorbing was issued by a country." Carries the *room/jury* language into the 1950 register.
+- 2020 Clip → Coachella: added "That is the same trade she made once before, at a much higher price." Names the link the draft assumed — she withholds and pays publicly for it in both sections.
+- Coachella → A\*POP: added "Two years on, she slowed down on purpose." Turns "Sevens are supposed to be the ones who cannot stand still" into the setup for the album section instead of a dangling closer.
+- A\*POP → Close: the close now opens "Every commitment she picked herself is off camera," so it connects to "allergic to having it assigned to them" rather than depending on the Rabbit Hole the reader was told to skip.
+
+**Internal flow fixes (2):**
+- Bacardi section: swapped the last two paragraphs so it closes on "she made the argument with her body before anybody had thought to ask her to make it with words," which hands straight into the diagnosis. The "not the best dancer" coda now sits with the process material.
+- Parents section: the spice-rack paragraph now links forward from "keep a second room available at all times" instead of reaching back past the schoolyard block to the crying beat.
+
+**Promise-delivery fixes (2):**
+- TL;DR bullet claimed "the reviews and the growth are the same event" — the body's second pass deliberately stopped claiming that. Bullet now reads "Critics heard caution on *A\*POP*: she heard herself finishing something at home. Both can be true."
+- "Type 3 gets a fair hearing further down" now says "in the rabbit hole below," since that hearing sits inside a box the reader is explicitly invited to skip.
+
+### What Was Preserved
+All frontmatter, all four ledgers, the timeline/key-stat/inner-thought components, all 5 internal links, the Nando's open and close, and the conceded critiques. `scripts/blog-lint.sh`: **0 fail, 1 warn** (word count only, pre-existing).
+
+### Remaining Concerns
+- **Word count**: 4,071 → 4,136 against the 4,500 ceiling. Still passing, but the next refresh has ~360 words of room.
+- **The "no boyfriend" paragraph** in the bio section is a genuine orphan — nothing picks it up. It's search-intent payload and self-labels as such ("since the search engines are full of guesses"), so I left it. Cut it only if you'd rather the FAQ carry that query alone.
+- **Intro → bio** is still the softest seam in the piece. It's the standard people-draft shape and fixing it means restructuring the bio section, which is outside a cohesion pass. Your call whether it's worth a rewrite.

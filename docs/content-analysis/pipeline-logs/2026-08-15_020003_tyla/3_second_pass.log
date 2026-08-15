@@ -1,0 +1,29 @@
+Second pass done on `src/blog/people/drafts/Tyla.md`.
+
+## Source audit (priority 1, fixed wholesale)
+
+Before: 6 load-bearing quotes — 1 inline, 2 vague, 3 untagged.
+After: **7 load-bearing quotes — 7 inline, 0 vague, 0 untagged.**
+
+- "jail" quote → Ebro Darden **on Apple Music, July 2026** (verified it was The Ebro Show / Apple Music 1, 23 July, not just "this July")
+- label-refusal quote → **Variety, 2025**
+- popiano quote → traced to producer **Sammy Soso via OkayAfrica, April 2024** (the draft had it mis-tagged to NME)
+- "We are all limitless" → **NME, 2026**
+- the duplicated "I'm both a Black woman and a coloured woman" quote was cut from the diagnosis rather than re-tagged, since it already runs in the timeline
+
+I also added an African-music outlet block to `scripts/blog-source-audit.mjs` (OkayAfrica, Notjustok, Revolt, MambaOnline, IOL, Music In Africa, British Vogue). The list had no African vertical, so correctly cited quotes on this corpus's first South African subject were grading vague no matter how precisely sourced. Follows the file's existing per-pass precedent.
+
+## Main content changes
+
+- **New H2 on the Bacardi dance** between bio and diagnosis — the biggest fresh-eyes hole. Time (Oct 2023) on the deliberate mismatch, Elite Daily (Nov 2023) on how it happened, two Janecke quotes from MambaOnline including "We knew the song was crazy. Did everybody else know the song was crazy? No." Zero type language by design; it proves the thesis on the body before the reader gets the vocabulary. Also the search-intent answer for "Tyla Water dance" (new FAQ + keywords).
+- **The body promise now cashes out** — the dance feeds the Coachella open and the close ("the instrument that made her career is the one subject she has never let anybody describe").
+- **A\*POP no longer resolves in her favor** — added the reading that critics are simply right and she made the weaker record while growing, plus the collaborator contrast (Liquideep, MaWhoo, Babalwa M on the album; 16 North American cities on the tour).
+- **The best new beat:** popiano is now contested (Paula Adhis, OkayAfrica, 2024) and then the Sept 2024 VMAs, where the subject who refuses to choose chose — "I come from South Africa and I represent amapiano and my culture" — on the stage handing her the wrong category.
+- **Racist abuse named** (Revolt), so the decision to stop answering reads as self-protection.
+- Primary school rendered from inside before the analysis; trims per the review (the "I'm both" quote 3x→1x, "opinionated and blunt" 2x→1x, the 7→1 arrow argued once, four reader-instruction directives cut).
+
+I rejected two review suggestions and noted why in the pass block: splitting the mean-girl paragraph into its own beat (it needs the timeline directly above it to land), and adding a sibling count (the research file flags Wikipedia's "five children" against the packet's "four" as unresolved).
+
+**Checks:** blog-lint 0 fail / 1 warn, contrast pairs 0 strong 0 comparative, frontmatter YAML parses clean, `lastmod` untouched.
+
+**Still open for an editor pass:** body is 4,077 words against a 4,500 ceiling, so headroom is thin for the next refresh; and the Tyla Yaweh / Tyla J. Pallas disambiguation still only lands via "Tyla Laura Seethal" in the bio H2, never in the frontmatter or cold open — I left the open alone rather than risk the Nando's hook.

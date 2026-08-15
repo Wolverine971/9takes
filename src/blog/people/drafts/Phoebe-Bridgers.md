@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['musician']
 person: 'Phoebe-Bridgers'
-suggestions: ['Taylor-Swift', 'SZA', 'Lana-Del-Rey', 'Billie-Eilish']
+suggestions: ['Taylor-Swift', 'SZA', 'Lana-Del-Rey', 'Billie-Eilish', 'Gracie-Abrams']
 wikipedia: 'https://en.wikipedia.org/wiki/Phoebe_Bridgers'
 wikidata_qid: 'Q24883319'
 imdb_id: 'nm5353667'

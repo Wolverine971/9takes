@@ -6,14 +6,14 @@ description: 'How Jelly Roll went from numbing himself through 40 arrests to bec
 author: 'DJ Wayne'
 date: '2026-03-03'
 loc: 'https://9takes.com/personality-analysis/jelly-roll'
-lastmod: '2026-03-03'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 9
 type: ['musician', 'singer-songwriter']
 person: 'jelly-roll'
-suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle', 'Ella-Langley']
+suggestions: ['Post-Malone', 'Snoop-Dogg', 'Dolly-Parton', 'Eminem', 'Dave-Chappelle', 'Ella-Langley', 'Alex-Warren']
 wikipedia: 'https://en.wikipedia.org/wiki/Jelly_Roll_(singer)'
 wikidata_qid: 'Q6176881'
 imdb_id: 'nm2000227'

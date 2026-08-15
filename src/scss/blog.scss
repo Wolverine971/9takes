@@ -223,7 +223,7 @@ blockquote {
 
 .blog-evidence--portrait {
 	grid-template-columns: minmax(0, 1.42fr) minmax(18rem, 0.86fr);
-	height: clamp(31rem, 49vw, 34rem);
+	height: 42rem;
 	overflow: hidden;
 	border: 1px solid color-mix(in srgb, var(--stone-edge) 70%, transparent);
 	border-radius: 1rem;
@@ -280,6 +280,7 @@ blockquote {
 	min-width: 0;
 	flex-direction: column;
 	justify-content: center;
+	margin: 0;
 	padding: 1.15rem 1.25rem;
 	font-style: normal;
 }
@@ -324,7 +325,9 @@ blockquote {
 }
 
 .blog-evidence--portrait .blog-evidence__quote p {
-	font-size: clamp(1.35rem, 2.5vw, 1.7rem);
+	/* Host article shells style every descendant paragraph; the quote owns its
+	   editorial type scale and must not collapse to the figcaption size. */
+	font-size: clamp(1.35rem, 2.5vw, 1.7rem) !important;
 	font-weight: 610;
 	line-height: 1.34;
 	letter-spacing: -0.018em;

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-14T07:24:48Z",
+	"lastUpdated": "2026-08-15T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "tyla",
-			"displayName": "Tyla",
-			"type": null,
-			"priority": 56,
-			"priorityReason": "One of the most talked-about pop artists globally right now; Grammy winner with active chart momentum",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "pop-icon-cluster"
-		},
 		{
 			"name": "simone-biles",
 			"displayName": "Simone Biles",
@@ -1600,7 +1587,20 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "tyla",
+		"displayName": "Tyla",
+		"type": null,
+		"priority": 56,
+		"priorityReason": "One of the most talked-about pop artists globally right now; Grammy winner with active chart momentum",
+		"estimatedTraffic": "high",
+		"searchVolume": "high",
+		"personaTitle": null,
+		"addedToQueue": "2026-07-18",
+		"retryCount": 0,
+		"strategicValue": "pop-icon-cluster",
+		"startedAt": "2026-08-15T06:00:00Z"
+	},
 	"skipped": [
 		{
 			"name": "jynxzi",

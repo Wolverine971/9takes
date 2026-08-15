@@ -1,0 +1,32 @@
+Draft complete and all gates clear.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Tyla.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 qualifying quotes) | Gate 2: pass (5 search-intent/hybrid H2s) | Gate 3: pass (no self-loop) | Gate 4: pass | Gate 5: pass (1 type-theory paragraph, limit 4) | Gate 6: pass
+LIMITATIONS: see below
+```
+
+**The thesis.** Tyla is an Enneagram Type 7, but not the catalog's Seven. The 66 existing Type 7 drafts run on motion — outrunning pain, chasing the next thing. Tyla's confinement is a *category*, not a calendar. She grew up in the one country that legally wrote down what everyone was, and asked what global fame costs she reaches for the word "jail." Every domain repeats the move: identity ("I'm both"), genre (she named popiano rather than pick), album ("I wanted to tailor pop to me instead").
+
+**The aha.** Critics called *A\*POP* cautious and said "her shine is starting to dim." That restraint is the Seven's growth arrow to Five — she went home, refused pitched material, finished one thing. The disappointing reviews and the personal growth are the same event, reported by people looking for different things.
+
+**Entity-gap packet honored:** biography-intent opening, sourced life/career spine, verified fact answers in FAQ metadata (age, parents, heritage, A\*POP), the sourced negative on relationship status, no net worth, no TikTok partner/pregnancy claims, "soloist" preserved in the 55-year Hot 100 stat, commercial scale stated honestly (No. 1 World Albums *and* 17,000 first-week US units), identity handled in her own words with the 1950 legal context attached.
+
+**Verification runs:**
+- `blog-lint.sh Tyla` — 0 fail, 0 warn
+- `blog-quality-report.mjs` — 0 strong / 0 comparative contrast pairs; head-term PASS
+- `same-type-similarity.mjs --n 8` — clear (0.046 vs 0.04 threshold). Two near-verbatim openers were caught and rewritten: a shared "Type 7 gets sold as the fun one" framing (0.230 vs Jim-Carrey) and "the fear underneath the type" (0.110 vs stavros-halkias).
+- Frontmatter YAML parsed — caught and fixed the `\''` escape bug that bundles bad drafts into the build.
+
+**Internal links (5):** Type 7 explainer, Trevor Noah (the other South African who had to explain that register), Zara Larsson (collaborator, testimony), wings guide + instinctual subtypes (Rabbit Hole).
+
+**Limitations:**
+- Rolling Stone, Billboard, and Variety originals sit behind `tollbit.*` (HTTP 402/307). Quotes from those outlets came from Yahoo syndication or search extracts and are flagged as such in the research file.
+- Sibling count conflicts (Wikipedia "third of five" vs. packet "one of four") — omitted from the draft rather than guessed.
+- Social handles omitted: `@tyla.official` surfaced but I could not confirm it as her verified primary account, and the entity rule is explicit-only.
+- British Vogue cover-story year not confirmed from the primary source (cited as "the March issue" in secondary coverage).
+
+Durable evidence file written to `docs/content-analysis/research/Tyla.md` for the downstream perspective stages. Next step is `/grade_blog`; this command does not grade.

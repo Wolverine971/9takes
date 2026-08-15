@@ -6,14 +6,14 @@ description: 'Milly Alcock''s Supergirl flopped and the backlash got personal. W
 author: 'DJ Wayne'
 date: '2026-07-19'
 loc: 'https://9takes.com/personality-analysis/milly-alcock'
-lastmod: '2026-07-19'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: '6'
 type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'milly-alcock'
-suggestions: ['Jennifer-Lawrence', 'Zendaya', 'Timothee-Chalamet', 'Millie-Bobby-Brown']
+suggestions: ['Jennifer-Lawrence', 'Zendaya', 'Timothee-Chalamet', 'Millie-Bobby-Brown', 'Matt-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Milly_Alcock'
 wikidata_qid: 'Q108816955'
 imdb_id: 'nm6854116'

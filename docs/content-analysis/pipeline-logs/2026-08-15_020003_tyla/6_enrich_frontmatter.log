@@ -1,0 +1,33 @@
+```
+Frontmatter enrichment complete: Tyla
+```
+
+**Fields filled (3 gaps closed):**
+- `wikidata_qid: 'Q118105408'`
+- `imdb_id: 'nm15179645'`
+- `same_as` — expanded 1 → 5 entries
+
+**Fields already present (preserved untouched):**
+`wikipedia`, `birth_date`, `birth_place`, `nationality`, `occupation` (3), `knows_about` (6), `keywords` (9), `citations` (17), `faqs` (6)
+
+**Verification done:**
+- Wikipedia URL confirmed as the correct Person entity — *Tyla Laura Seethal*, b. 30 Jan 2002, South African singer/songwriter. Not a namesake or disambiguation page.
+- IMDb ID double-confirmed: Wikidata P345 on Q118105408, **and** IMDb's own suggestion API returns `nm15179645` → "Tyla", credited on *Tyla: Water (2023)*.
+- All 5 `same_as` URLs return 200/202 live. MusicBrainz artist `45425c84…` independently cross-links to the same Wikidata QID and matches birth date + country.
+- Frontmatter re-parsed as valid YAML after the edit. `lastmod` untouched (`2026-08-15`).
+- Diff is exactly 6 added lines. Body, Testimony/Heading/Distribution/Formula ledgers, and `production_pretext` all unmodified.
+
+**FAQs (6, pre-existing — left as-is per idempotency rule):**
+1. What is Tyla's personality type? → `#what-is-tylas-personality-type`
+2. How old is Tyla and where is she from? → `#who-tyla-is-and-how-she-got-here`
+3. Who are Tyla's parents and what is her background? → `#the-2020-clip-that-followed-tyla-into-every-interview`
+4. Does Tyla have a boyfriend? → `#who-tyla-is-and-how-she-got-here`
+5. What is Tyla's album A\*POP? → `#why-apop-sounds-like-tyla-slowing-down`
+6. What is the Tyla "Water" dance called? → `#how-the-bacardi-dance-made-water-a-global-hit`
+
+All six anchors resolve to real H2s in the body. These are genuine body-derived FAQs, not the 2026 templated backfill pattern, so I left them alone.
+
+**Issues:**
+- **6 FAQs exceeds the 3–5 guideline.** The command's idempotency rule forbids rewriting existing substantive FAQs, so I did not trim. If you want it inside the guideline, #4 ("Does Tyla have a boyfriend?") is the weakest — it's a pure bio query whose answer is a negative, and it reuses an anchor already claimed by #2. Say the word and I'll drop it.
+- **Body contains zero inline hyperlinks.** Sources are attributed in prose by outlet + date ("OkayAfrica, 29 Oct 2024") rather than linked. The 17-URL `citations` list was assembled to match those named attributions, so sourcing is real — but a reader can't click through, and future enrichment passes will find nothing to extract from the body. Worth a decision on whether the people template should link inline.
+- `citations` at 17 is above the 3–8 guideline. Existing good values, so left intact — flagging only.

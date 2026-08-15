@@ -1,0 +1,32 @@
+Revised `src/blog/people/drafts/Tyla.md`. **Lint: 0 fail, 2 warn** (both pre-existing and documented).
+
+## What triggered the loop
+
+Grade **B+ (8.5)** with two NEEDS WORK items and five TO REACH A items. Lint was already clean, and the perspective gate had passed (`verification-initial.md`: 0 open P0, 0 protected-hit regressions), so the perspective work came from its **Remaining work** list rather than a P0 repair.
+
+## Fixes applied
+
+**Grader NEEDS WORK**
+- **NME attribution.** All four subject quotes tracing to NME, 31 Jul 2026 now carry the outlet in reader-visible text — the 2026 timeline row, the empathy turn's payoff ("I'm not meant to be correct 24/7"), the narratives line, and the essay's penultimate line. Those last two were the exact quotes the grader flagged as most liftable and least citable.
+- **British Vogue dated** to March 2025 across the cold open, the primary-school quotes, and the empathy turn (which now names the outlet instead of "a magazine").
+- **Tonal monochrome.** New H2 between Coachella and *A\*POP*: "What Tyla Is Like When Nobody Is Asking" — the only section that doesn't prove the thesis. The spice rack moved here from the parents section, where it was spent as a punchline; the Glamour "not the best dancer" quote is restored; it closes on "The refusal is not only a defense. Some of it is appetite."
+
+**TO REACH A** — epigraph cut; arrow mechanics moved out of *A\*POP* into the Rabbit Hole (type-theory paragraphs outside diagnosis/Rabbit Hole now **0**, which was the Enneagram-at-8 bleed); reader-command cut; Tyla Yaweh / Tyla J. Pallas disambiguation added inside the paragraph that already exists to correct search-engine guesses.
+
+**Perspective Remaining work** — `citations` grew by 8 URLs covering every assertion the verifier named; the unmandated Glamour deletion restored; word budget re-earned.
+
+Word ceiling was the binding constraint (4,493 of 4,500), so every addition was paid for with a cut first. Now 4,490. All ten `PROTECT-*` items verified verbatim; all nine P0 repairs re-greped intact.
+
+## Rejected
+
+- **Retitling the 2020 H2** to strip the year from its slug (P1-07 residual) — the date is the clip's own, can't expire, and FAQ 3 anchors to it. Left as DJ's reversible call.
+- **Cutting more of *A\*POP*** — every remaining paragraph is a PROTECT item, a P0 repair, or Testimony Ledger evidence. It came down ~70 words without losing an argument.
+- **Committing the `scripts/blog-source-audit.mjs` change** the audit's PASS depends on — outside a revision pass's scope, still owed before publish.
+
+## Notes
+
+- Load-bearing quote count fell 7 → 5 in the source audit, entirely from the two grader-directed cuts (Glamour epigraph, "We are all limitless"). Still 0 vague, 0 untagged — flagged in the artifact so the next verifier doesn't read it as evidence decay.
+- Resolution artifact written to `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/revision-resolution.md`. Targeted perspective verification must rerun; I did not declare the gate passed.
+- The pipeline will clear the consumed review sidecar and re-grade. `lastmod`, `date`, `published`, and `content_quality` untouched.
+
+Sources: [Afropop Worldwide — Bacardi Beats of Pretoria](https://www.afropop.org/audio-programs/bacardi-beats-of-pretoria)

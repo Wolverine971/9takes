@@ -1,6 +1,6 @@
 ---
 name: capture-dj-personality-read
-description: Interview DJ about why he reads a public figure as a particular personality or Enneagram type, preserve his unguided riff and voice, pressure-test the reasoning, separate observations from interpretations, document AI assistance, and draft a compact reasoning card plus an extended evidence-led section for a 9takes personality-analysis blog. Use when DJ wants to riff on a person, explain how he arrived at a typing, create or revise a "DJ's read" section, prepare a founder-led reasoning video or Reel, or turn his impressions and source observations into publishable structured analysis.
+description: Interview DJ about why he reads a public figure as a particular personality or Enneagram type, preserve his unguided riff and voice, pressure-test the reasoning, separate observations from interpretations, document AI assistance, and turn the result into a compact reasoning card plus person-first, evidence-led analysis for a 9takes personality blog. Use when DJ wants to riff on a person, explain how he arrived at a typing, create or revise a "DJ's read" artifact, prepare a founder-led reasoning video or Reel, or use his impressions and source observations to direct a published profile without making the author its subject.
 path: .codex/skills/capture-dj-personality-read/SKILL.md
 ---
 
@@ -17,6 +17,8 @@ Turn DJ's lived impressions, pattern recognition, and source observations into a
 - Do not manufacture quotations, motives, childhood causes, or source details.
 - Use AI to organize, challenge, source, and clarify. DJ owns the final read.
 - Preserve uncertainty and counterevidence. A persuasive read shows what would falsify it.
+- Keep published profiles person-first. DJ's riff is an editorial input, not the subject of the article.
+- Never lead an ordinary article heading, subtitle, or dek with DJ, the author, `I`, or `my read`. Author-forward language belongs only in an explicitly labeled reasoning card, methodology note, author bio, or founder-media script.
 - Never edit or publish a personality-analysis blog until DJ approves the reasoning artifact.
 - Preserve unrelated work and inspect current repository state before any later file edit.
 
@@ -44,6 +46,8 @@ After the riff, reflect it back in DJ's language using four buckets:
 - **Open loops:** claims needing an example, source, mechanism, counter-case, or clearer connection to a type.
 
 Ask DJ to correct the reflection before tightening it. Preserve distinctive phrases he may want to say on camera.
+
+Treat these bucket names as internal reasoning labels. Do not automatically turn `DJ's interpretations` or `Holistic read` into public article headings.
 
 ### 3. Interview in small adaptive rounds
 
@@ -103,9 +107,18 @@ Read `references/reasoning-card-contract.md`. Produce these artifacts in order:
 5. **AI-method note:** concise disclosure of AI assistance and DJ's role.
 6. **Optional founder media output:** only when requested, extract a 30-to-60-second Reel outline and a two-to-four-minute page-video outline from DJ's own phrases.
 
-Use first person where DJ is making a judgment: `I read this as...`, `What keeps standing out to me...`, `The part that makes me hesitate...`.
+Use first person in the private reasoning artifact, an explicitly labeled `DJ's read` card, or founder media when it clarifies that DJ is making a judgment: `I read this as...`, `The part that makes me hesitate...`.
 
-Avoid clinical certainty. Prefer `reads as`, `suggests`, `my current read`, and `the strongest public evidence I see` over `is`, `proves`, or `reveals the truth`.
+When integrating the approved reasoning into an ordinary article, translate it into subject-led editorial language:
+
+- `What keeps standing out to me` becomes `[Person]'s revealing pattern` or `How [Person] handles...`.
+- `Why I landed on Type 5` becomes `Why the evidence points to Type 5`.
+- `What would change my mind` becomes `What evidence would change the Type 5 case`.
+- `My current read is...` becomes `The strongest public-evidence fit is...`.
+
+Keep the person or the observed pattern as the grammatical subject. Preserve uncertainty with phrases such as `the public evidence suggests`, `the strongest alternative is`, and `this pattern reads as`; do not insert DJ merely to signal uncertainty. A reader should not need to know the author to understand why a section exists.
+
+Avoid clinical certainty. In published prose, prefer `reads as`, `suggests`, `the current evidence points to`, and `the strongest public evidence supports` over `is`, `proves`, or `reveals the truth`.
 
 ### 8. Approval gate
 
@@ -119,6 +132,8 @@ When DJ approves implementation:
 - Use the current 9takes tasker and Svelte instructions before editing UI.
 - Store structured reasoning separately from presentation when possible so the same approved material can support the page card, extended section, Reel, source trail, and future AI transparency UI.
 - Keep the compact card skimmable. Put nuance, the evidence ledger, and methodology in expandable or deeper sections.
+- Keep the article's headings, subtitle, dek, and ordinary narrative subject-led even when the reasoning originated with DJ.
+- Run `./scripts/blog-lint.sh <Person>` and resolve every author-framed analysis heading before a draft enters the publish path.
 - Preserve `lastmod` and all unrelated parallel work.
 
 ## Quality bar
@@ -131,5 +146,7 @@ The result succeeds when a skeptical reader can answer:
 - What is the best competing explanation?
 - How confident is he and why?
 - What did AI do, and what judgment remained DJ's?
+- Could a reader who does not know DJ follow every public heading without author context?
+- Does the published profile remain about the person rather than the person writing it?
 
 If any answer is unclear, continue the interview instead of polishing around the gap.

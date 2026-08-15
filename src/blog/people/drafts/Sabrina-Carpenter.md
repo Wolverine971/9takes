@@ -6,14 +6,14 @@ persona_title: "Pop's Winking Machine"
 author: 'DJ Wayne'
 date: '2024-08-23'
 loc: 'https://9takes.com/personality-analysis/sabrina-carpenter'
-lastmod: '2026-05-19'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 3
 type: ['musician', 'pop-star']
 person: 'sabrina-carpenter'
-suggestions: ['Taylor-Swift', 'Chappell-Roan', 'Ariana-Grande', 'Olivia-Rodrigo', 'Madison-Beer', 'Gracie-Abrams']
+suggestions: ['Taylor-Swift', 'Chappell-Roan', 'Ariana-Grande', 'Olivia-Rodrigo', 'Madison-Beer', 'Gracie-Abrams', 'Jack-Antonoff']
 wikipedia: 'https://en.wikipedia.org/wiki/Sabrina_Carpenter'
 wikidata_qid: 'Q7396400'
 imdb_id: 'nm4248775'
@@ -182,7 +182,7 @@ The critical split gets to the question underneath album seven. The Guardian cal
 
 Both readings can be true. The craft expanded while the character narrowed. That complicates the Type 3 case rather than disproving it. Control has made the work more distinctly hers, but success has also made the most legible version of her harder to leave. "Man's Best Friend" adds to her story as craft and subtracts from it as range.
 
-Her method runs title-first. She decides what a song is called, then writes outward from the punchline. "Manchild" was "Manchild" before it had a melody. "Please Please Please" came together in a single afternoon at Electric Lady Studios with Amy Allen and Jack Antonoff. They finished three songs that day, including the one that would become her first #1. Allen recalled the room: "It feels like two best friends sitting down. We have so many shared experiences." On recognizing Carpenter's talent in particular: "It's really hard to find somebody and be like, 'Oh, undoubtedly, you are the thing.'"
+Her method runs title-first. She decides what a song is called, then writes outward from the punchline. "Manchild" was "Manchild" before it had a melody. "Please Please Please" came together in a single afternoon at Electric Lady Studios with Amy Allen and [Jack Antonoff](/personality-analysis/jack-antonoff). They finished three songs that day, including the one that would become her first #1. Allen recalled the room: "It feels like two best friends sitting down. We have so many shared experiences." On recognizing Carpenter's talent in particular: "It's really hard to find somebody and be like, 'Oh, undoubtedly, you are the thing.'"
 
 The "Nonsense" outros, the city-by-city dirty rhymes that made her a viral phenomenon before "Espresso" did, started on opening night of the Emails I Can't Send Tour, September 29, 2022, in Atlanta. She made up a verse on stage: "Come over tonight my room is spotless / I'm sorry this outro is so chaotic / Atlanta it's official you're the hottest." It was, in her words, "a random decision two years ago" that "really changed the course of my daily schedule." The bit kept getting hornier and funnier for two years, became the most-screenshotted moment of her live show, and traveled with her onto the Eras Tour. She retired it for the Short n' Sweet Tour. Once a bit is a brand obligation, the joke stops being hers.
 

@@ -181,7 +181,7 @@ Musk built a life where retreat should be impossible. His decisions reach factor
 
 ### Elon Musk is an Enneagram Type 5
 
-**My current read is [Enneagram Type 5](/enneagram-corner/enneagram-type-5), probably 5w6.** Myers-Briggs sites often call Musk an INTJ or INTP. My Enneagram claim goes beneath those labels: he seems to use competence as shelter from helplessness, dependence, and demands he cannot control.
+**The strongest public-evidence fit is [Enneagram Type 5](/enneagram-corner/enneagram-type-5), probably 5w6.** Myers-Briggs sites often call Musk an INTJ or INTP. The Enneagram case goes beneath those labels: he seems to use competence as shelter from helplessness, dependence, and demands he cannot control.
 
 <EnneagramTypeDossier />
 
@@ -225,7 +225,7 @@ The logic reads almost like an engineering note:
 
 Activity restores capability. The original feeling never has to stay in the foreground. From the outside this can resemble limitless energy; from inside the pattern, stopping would mean meeting the demands without a technical task between him and them.
 
-His July 2026 admission about politics gives us a clean capacity marker. Musk said he had become too involved and needed to return his attention to the long term. He recognized the overextension himself.
+His July 2026 admission about politics provides a clean capacity marker. Musk said he had become too involved and needed to return his attention to the long term. He recognized the overextension himself.
 
 Yet 2026 also complicates the picture. Musk pulled rockets, satellites, social data, AI models, chips, robotaxis, and humanoid robots into one increasingly connected thesis. The roster stayed enormous while the conceptual map narrowed. Count the companies and he looks scattered. Count the ideas and he looks relentlessly focused.
 
@@ -296,15 +296,15 @@ Type 8 is the strongest alternative. Musk seeks conflict, control, and impact op
 
 The Type 5 call rests on refuge rather than style. Musk's confrontations usually follow a model, forecast, threat map, or first-principles analysis. When the pressure becomes intimate or depleting, he reaches for distance, structure, and work. A sustained pattern of seeking power for its own sake, especially without the prior analytical retreat, would strengthen the Type 8 case. Musk has never publicly identified his Enneagram type, so the conclusion remains an interpretation of observable behavior.
 
-### What would change my mind
+### What evidence would change the Type 5 case
 
-I would reconsider the Type 5 call if a sustained record showed Musk seeking control for its own sake without first retreating into analysis, threat-mapping, or technical mastery. Clear first-person evidence centering power and resistance to control as his organizing motives would strengthen the Type 8 case.
+The Type 5 case would need reconsideration if a sustained record showed Musk seeking control for its own sake without first retreating into analysis, threat-mapping, or technical mastery. Clear first-person evidence centering power and resistance to control as his organizing motives would strengthen the Type 8 case.
 
-I am not using the Zuckerberg fight, gaming, number of relationships, or any claimed private emotional sequence as deciding evidence. Those moments are colorful, but the public record cannot tell us exactly what he felt or why he acted. The strongest case rests on repeatable learning, correction, crisis, and attention patterns.
+The Zuckerberg fight, gaming, number of relationships, and any claimed private emotional sequence are not deciding evidence. Those moments are colorful, but the public record cannot establish exactly what he felt or why he acted. The strongest case rests on repeatable learning, correction, crisis, and attention patterns.
 
 ### How this analysis was made
 
-I supplied the observations, the holistic read, and the personality interpretation. AI helped search transcripts, locate source moments, organize the evidence, and pressure-test counterexamples. The linked sources support the public actions described; they do not verify the Enneagram conclusion. The final typing is my current judgment.
+The analysis began with human observations, a holistic read, and a personality interpretation. AI helped search transcripts, locate source moments, organize the evidence, and pressure-test counterexamples. The linked sources support the public actions described; they do not verify the Enneagram conclusion. The final typing remains an editorial judgment that cannot be verified as fact.
 
 </div>
 </details>

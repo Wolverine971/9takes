@@ -1,0 +1,24 @@
+Packet written to `docs/content-analysis/entity-gaps/Tyla.md` (resolves for the pipeline's lowercase `tyla.md` reference on this filesystem).
+
+## Verdict: Tyla — 40/100 — PASS
+
+**Not an Emerging Entity Gap.** She owns the bare `en.wikipedia.org/wiki/Tyla` slug with a full biographical article, plus Britannica, AllMusic, a Billboard artist hub, five-plus satellite Wikipedia articles across her discography and awards, and a saturated tier of bio-farm pages already answering every age/parents/ethnicity query. SERP weakness scored 4/25.
+
+**The arithmetic:** 15 demand + 4 SERP + 12 intent + 14 sources + 9 angle + 2 timing + 4 clarity = 60, minus the 20-point penalty for personal Wikipedia plus multiple authoritative biographies = **40**, below the 45 watchlist floor.
+
+**But the PASS is narrow, and this is the interesting part.** The gap thesis fails; the *profile* thesis doesn't. Two dimensions scored near the top:
+
+- **Source depth 14/15** — deep first-person record (Glamour SA, Numero, two rollingout fame interviews, Power 106, her own written identity statement) plus named third-party (The Hill, Revolt, Blog of the APA, BET).
+- **Angle 9/10** — the contradiction is unusually on-brand. Her selfhood was pre-assigned by law (Population Registration Act, 1950). When a resurfaced clip hit an American audience in 2023, the internet demanded she pick one identity. She refused to collapse: *"I'm both Coloured in South Africa and a Black woman."* The arc underneath it — hated herself at a white primary school, grew proud at a Black high school, then global fame re-imposed an external gaze at scale — gives a real spine: **externally assigned category → self-authored identity → externally assigned category again, from millions of strangers.** That is a person publicly refusing the exact collapse the 9takes movement belief names.
+
+Since `run-blog-pipeline.sh` treats this packet as advisory rather than a publication gate, the downstream stages get what they need to write well against an entrenched SERP.
+
+**Three things I flagged for the writing stages:**
+
+1. **The queue overstates her.** The backlog entry calls Tyla "one of the most talked-about pop artists globally right now." A\*POP (July 24, 2026) debuted at **No. 43 on the Billboard 200 with ~17K first-week units** — No. 5 R&B, No. 1 World Albums, but that is a moderate US commercial scale, not stadium-tier. The draft should not inherit the queue's framing.
+2. **A live misinformation hazard.** The `Tyla boyfriend` query family surfaces unverified TikTok claims that she is dating "Lovy Mashairi" and is pregnant. No reputable sourcing. The packet marks it do-not-repeat, and prescribes the sourced negative instead: no publicly confirmed partner.
+3. **Typology sources are contaminated.** Personality Database/Boo/MBTI Lounge crowd-vote her ESFP/3w2, and their result sets are polluted by Tyla Rattray, Tyla Dickinson, and Tyla-Jay Vlajnic. If the draft lands on a type it has to argue from primary evidence.
+
+No numeric demand claim is made — no Trends/volume/backlink tool was available, and there is zero local GSC signal (no Tyla page, no DB row, no draft).
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Tyla), [Britannica](https://www.britannica.com/biography/Tyla), [Billboard](https://www.billboard.com/artist/tyla/), [AllMusic](https://www.allmusic.com/artist/tyla-mn0004373880), [A\*Pop](https://en.wikipedia.org/wiki/A*Pop), [Complex](https://www.complex.com/music/a/backwoodsaltar/tyla-apop-album-release-2026), [RatingsGameMusic](https://ratingsgamemusic.com/2026/08/04/tyla-apop-billboard-200-debut-first-week-sales/), [The Hill](https://thehill.com/homenews/race-politics/4358721-tyla-racial-identity-black-colored-coloured/), [Revolt](https://www.revolt.tv/article/tyla-controls-her-narrative-in-music-and-race-debates), [Glamour SA](https://www.glamour.co.za/celebrity-news/tyla-unfiltered-on-fame-music-and-staying-true-to-her-south-african-identity-07065a5b-847a-4552-a6e0-dcc9428949ee), [rollingout](https://rollingout.com/2025/07/28/tyla-opens-up-fame-struggles/), [Blavity](https://blavity.com/tyla-parents)

@@ -5,14 +5,14 @@ description: "'I don't care if you like it.' Amy Poehler said it to Fallon's fac
 author: 'DJ Wayne'
 date: '2025-12-03'
 loc: 'https://9takes.com/personality-analysis/amy-poehler'
-lastmod: '2026-01-06'
+lastmod: '2026-08-15'
 changefreq: 'monthly'
 priority: '0.6'
 published: true
 enneagram: 8
 type: ['comedian', 'celebrity', 'movieStar', 'tv-comedy-crossover', 'sketch-comic']
 person: 'amy-poehler'
-suggestions: ['Tina-Fey', 'Aubrey-Plaza', 'Chelsea-Handler', 'Kevin-Hart']
+suggestions: ['Tina-Fey', 'Aubrey-Plaza', 'Chelsea-Handler', 'Kevin-Hart', 'Jason-Sudeikis']
 wikipedia: 'https://en.wikipedia.org/wiki/Amy_Poehler'
 twitter: 'amypoehler'
 instagram: 'amypoehler'

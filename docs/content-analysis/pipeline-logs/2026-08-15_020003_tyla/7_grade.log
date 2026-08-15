@@ -1,0 +1,25 @@
+## Grading Complete — Tyla
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Tyla | 8 | 9 | 9 | 8 | 8 | 9 | **8.5** | **B+** |
+
+`(8×1.5 + 9×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 59.5 / 7 = 8.5`. Disc 9 → no gate cap. No fingerprint caps triggered.
+
+### Key observations
+
+**What earns the score.** The timeline reframed as a record of *assignment* — with the reveal that in seventy-six years nobody ever asks her what she is, and both of her own entries are replies — is a real structural invention built from one fact unique to this subject (her country kept a literal racial register). Critic pressure is handled well above house norm: three critics conceded, the tour-routing concession aimed deliberately at the thesis's weakest joint, and a stated falsification test. The VMA beat ("She had an entire vocabulary available for not choosing and she had built most of it herself. She chose anyway, in the one room where choosing cost something") is what lifts this off the other 66 Type 7 drafts — the thesis becomes *assigned vs. chosen*, not *refusal vs. commitment*.
+
+**Two things holding it at B+.**
+
+1. **A false-clean source audit.** The script reports `0 untagged`, but it only scans the epigraph/cold-open/diagnosis slots — it returned "(no quoted material in slot)" for both the empathy turn and the close. Four subject quotes sourced in the research file to NME, 31 Jul 2026 run with **zero in-body attribution**, including the empathy-turn payoff ("I'm not meant to be correct 24/7") and the essay's penultimate line ("I can't change the world and I can't make the world like me"). Those are the two most quotable sentences in the piece and neither is citable as written. All British Vogue material is also undated — the pipeline's own RQ-01 flags the year unconfirmed and the primary text unread, while it carries the cold open *and* "I really hated myself."
+
+2. **Tonal monochrome.** Controlled and grave from epigraph to last line; all eight sections prove the same claim. The calibrated-B anchor (Matt-Smith) earns its band partly on a joy section that explicitly refuses to route everything through the wound. There's no equivalent here — one line in 4,493 words is allowed to be funny.
+
+**Cheapest path to A:** attach the NME date to those four quotes, then cut the A\*POP section (already the designated cut zone, carrying five arguments) by moving the 7→1/7→5 arrow *mechanics* paragraph into the rabbit hole — that removes the only real typology bleed holding Enneagram at 8 *and* frees budget for one register break where she's delighted rather than defending.
+
+**Note on verification:** the entire current-tense layer postdates my knowledge cutoff, so the factual layer is graded on pipeline artifacts. Those are unusually strong here — the perspective jury read metacritic.com directly and corrected the research file's unattributed "~73" to a properly-sourced "79 across eight reviews... against the 84 the debut drew."
+
+Frontmatter written to `src/blog/people/drafts/Tyla.md:100`; sidecar at `docs/content-analysis/grades/Tyla.review.md`. Lint is clean (0 fail, 2 warn — comparative pattern sits inside a verbatim quote; word count 4,493/4,500).
+
+**Total graded this session: 1**

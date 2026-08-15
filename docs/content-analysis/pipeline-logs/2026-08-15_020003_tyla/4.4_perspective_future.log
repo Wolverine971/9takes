@@ -1,0 +1,17 @@
+Saved: `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/future.md`
+
+**Verdict:** `revise` — trust strained, value high. 2 blockers, 7 concerns.
+
+**Durable argument, expiring frame.** I ran the removal test: delete every sentence about *A\*POP* and the tour and the thesis still stands on the Nando's open, the 1950–2026 assignment timeline, the Bacardi section, and the March 2024 cancellation. That's unusual for a profile pegged to a three-week-old album, and it's why this isn't a hold.
+
+**Strongest hit:** the metadata carries zero expiry — title, meta_title, description and slug contain no year, no album, no news peg. That's what makes the body refreshable without touching accumulated ranking. Runner-up: "The year is still running," the rare line that *gains* value with time.
+
+**Blockers:**
+- **FUTURE-B1** — the final H2 ("The Question Waiting in All Twenty-Nine Cities") and the closing sentence ("twenty-nine cities are booked") are future-tense about a tour that ends **9 Jan 2027**. I confirmed the itinerary (12 Oct 2026 Paris → 9 Jan 2027 Johannesburg, 34 dates) via Consequence, cross-checked against announcement coverage; Billboard was blocked by the tollbit paywall. For ~11 of the next 12 months the article's last impression is that it doesn't know what year it is.
+- **FUTURE-B2** — "she is twenty-four years old" (L180) is unstamped and false from 30 Jan 2027. The FAQ already does this correctly; the draft contains its own fix.
+
+**Highest-priority concern:** FUTURE-C1 — the relationship-status claim is a volatile negative, sourced to a quote the packet dates to 2025 but the draft leaves undated, and it's written specifically to be the answer a search engine surfaces. Dating the quote and adding an as-of downgrades it from "wrong" to "stale."
+
+Worth flagging for synthesis: the fingerprint ledger's ending swap-test certified the twenty-nine cities as the piece's most distinctive close — which is exactly the problem. Non-transplantable and non-durable are the same property here, and no check existed that would notice. Nando's and the East Rand pass that test identically and permanently.
+
+Sources: [Consequence — tour announcement](https://consequence.net/2026/07/tyla-announces-apop-world-tour/), [Wikipedia — Tyla Tour](https://en.wikipedia.org/wiki/Tyla_Tour), [Billboard — tour dates](https://www.billboard.com/music/rb-hip-hop/tyla-a-pop-world-tour-dates-1236303497/) (not consulted; paywall redirect).

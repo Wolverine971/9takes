@@ -1,0 +1,16 @@
+Headings, IDs, and counts all match the frontmatter.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/fan.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 7 concerns.**
+
+**Strongest hit:** the timeline rebuilt as a record of assignment — *"Nobody in seventy-six years asks her what she is. Every entry is somebody telling her, and the two entries where she speaks are both replies."* A fan already knows the 1950 Act, the 2020 clip, the 2023 statement and the Charlamagne refusal; nobody has stacked them as a register in which she is always the object. The VMA counter-beat and the Coachella trade are close behind.
+
+**Highest-priority concern (FAN-C1):** the section titled "Why Tyla Cancelled Coachella and Never Said Why" never records that she played Coachella on 11 and 18 April 2025 — opening with "Push 2 Start," closing with "Water," Becky G on "On My Body." Coverage framed it explicitly as the return from the 2024 cancellation. Two sentences fix it, and the return strengthens the trade rather than weakening it: the slot came back, the diagnosis never did.
+
+**The two blockers** are both cases where the draft makes her the origin of something that predates her — the error pattern a fan reads as an outsider tell, landing in the sections built to prove otherwise:
+
+- **FAN-R1** — "a sound that did not have a name yet." Kooldrink and his team coined "pop-piano" at "Getting Late" in 2019, four years before the Sammy Soso conversation and before the Epic signing. The repair actually improves the thesis leg: she had built the escape category before she needed it.
+- **FAN-R2** — "Bacardi… belongs to amapiano" inverts the lineage. Bacardi is a Pretoria form descended from kwaito in the early 2000s; amapiano producers draw on *it*. This answers the open question the packet logged at limitation 5.
+
+One note on process: the frozen snapshot embeds three prior pipeline artifacts (FRESH EYES, COHESION PASS, SECOND PASS NOTES) in HTML comments, which I hit while reading the body straight through. I've disclosed that in the limits section — no finding cites or relies on them, and each is anchored to reader-visible prose plus the packet or my own four searches.

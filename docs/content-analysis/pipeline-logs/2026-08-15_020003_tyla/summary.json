@@ -1,0 +1,19 @@
+{
+	"person": "tyla",
+	"draft_path": "src/blog/people/drafts/Tyla.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/tyla.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-15_020003_tyla",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003",
+	"perspective_initial_status": "pass",
+	"perspective_final_status": "pass",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.2,
+	"final_overall": 8.6,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.40000000000000036,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-15T08:25:26.249Z"
+}

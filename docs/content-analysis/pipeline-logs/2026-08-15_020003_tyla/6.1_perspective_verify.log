@@ -1,0 +1,11 @@
+**Output path:** `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/verification-initial.md`
+
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+Snapshot SHA matched (`ccbdb395…`), live reader-visible hash is `db9c980f…`. All nine P0 acceptance tests pass, all fourteen accepted P1 items are completed (P1-07's "no year in an H2 slug" half and P1-10's optional retitle were rejected with defensible reasons, not left silent), and all ten `PROTECT-*` passages survive — nine verbatim, PROTECT-02 widened in wording with the insight and its payoff intact.
+
+Three items carried to Remaining work for a human, none of them gate-blocking: `citations` didn't grow to cover six new factual assertions (Metacritic, British Vogue 2025, Bacardi lineage, amapiano gloss, Coachella return, the Notjustok title interview) even though `editor-resolution.md` records the trail; the Glamour "not the best dancer" quote was cut without being logged, and it was on the subject reviewer's own do-not-lose list; and the clean `blog-source-audit` result depends on uncommitted edits to `scripts/blog-source-audit.mjs`.
+
+The deterministic gate script decides whether the pipeline may finalize.

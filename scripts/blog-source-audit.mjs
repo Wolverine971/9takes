@@ -401,7 +401,24 @@ const OUTLETS = [
 	// 1957 University of Houston filmed interviews and the era's other on-camera
 	// Jung material; no listed outlet covers a 1950s film series, so without it
 	// the close-slot Houston quote grades untagged no matter how well sourced.
-	'C.G. Jung Speaking'
+	'C.G. Jung Speaking',
+	// African music press (Tyla pass, 2026-08-15). The list had grown up around
+	// US/UK subjects, so the entire African-music vertical was unrepresented: this
+	// corpus's first South African pop subject has her primary record in OkayAfrica
+	// (the Sammy Soso popiano interview, the VMAs speech, the tour-cancellation
+	// report), Notjustok (the load-bearing tour-routing critique), Revolt (the
+	// identity-backlash reporting), IOL and MambaOnline (the choreographer
+	// testimony). All bylined, dated, checkable publications; none is matched by
+	// OUTLET_SUFFIX. 'British Vogue' needs its own entry because AMBIGUOUS_OUTLETS
+	// only holds the bare token 'Vogue', which the ATTR_CUE regex cannot reach
+	// across the 'British' modifier.
+	'OkayAfrica',
+	'Notjustok',
+	'Revolt',
+	'MambaOnline',
+	'IOL',
+	'Music In Africa',
+	'British Vogue'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when
@@ -431,7 +448,13 @@ const AMBIGUOUS_OUTLETS = [
 	// Dictionary words that are also creator-press outlets (IShowSpeed pass,
 	// 2026-07-25). "Complex" and "Variety" only count next to an attribution cue.
 	'Complex',
-	'Variety'
+	'Variety',
+	// The Source (Tyla pass, 2026-08-15). The hip-hop title carries this corpus's
+	// only record of the Ebro interview that holds the draft's keystone "jail"
+	// quote. It sits in AMBIGUOUS_OUTLETS rather than OUTLETS because "source" is
+	// a dictionary word; case-sensitive matching plus the adjacent-cue rule keeps
+	// "according to a source" from counting.
+	'Source'
 ];
 const ATTR_CUE = '(?:told|to|in|for|on|per|via|according to|wrote (?:in|for)|said (?:in|to)|[—-])';
 

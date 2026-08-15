@@ -1,0 +1,12 @@
+**Output:** `docs/content-analysis/perspective-reviews/Tyla/2026-08-15_020003/verification-final.md`
+
+**verification_status:** `pass` · **open_p0:** 0 · **protected_hit_regressions:** 0
+
+The snapshot SHA matched, the live reader-visible body hashes to `d988d7c4…` (distinct from both the frozen snapshot and the state the initial gate cleared, so the revision's text is genuinely what was checked). All nine P0 acceptance tests still pass, all fourteen accepted P1 items hold with P1-07's second clause and P1-10's optional clause still rejected-with-reason, and all ten `PROTECT-*` passages survive. Every assertion the revision added traces to the packet or research file, and `citations` now covers the six trails the initial gate flagged. Lint 0 fail / 2 warn, source audit 5 inline / 0 vague / 0 untagged, all six FAQ anchors resolve.
+
+Two judgment calls worth your eye:
+
+- The revision cut `"Nairobi, Accra, Abidjan and Dar es Salaam get nothing"` from inside PROTECT-03 to buy word budget. I scored it as no regression — the routing numbers, the named African cities, Courage's full quote and the verbatim closing line all survive — but it's the only cut this pass made inside a protected passage, so it's recorded rather than passed silently. ~10 words to restore if headroom appears.
+- RQ-01 exposure went up: the revision attached "March 2025" to three reader-visible places while the primary British Vogue text is still unread. The trail is real but secondary.
+
+Unchanged human items before publish: the year in the `the-2020-clip-…` H2 slug (DJ's call), and the uncommitted `scripts/blog-source-audit.mjs` that the clean audit depends on — `git status` confirms it's still modified in the working tree.

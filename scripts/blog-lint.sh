@@ -143,6 +143,18 @@ else
   fail "missing required H3: '[Person] is an Enneagram Type X'"
 fi
 
+# --- person-first analysis headings ----------------------------------------
+# Works and quotations may legitimately begin with "I" (for example, "I Am Not
+# Your Guru"). This intentionally targets only author-framed analysis language.
+AUTHOR_LED_HEADINGS="$(grep -nEi "^#{2,6}[[:space:]]+(DJ([[:space:]]+Wayne)?(['’]s)?|The[[:space:]]+author(['’]s)?|Author(['’]s)?|My[[:space:]]+(current[[:space:]]+)?(read|take|analysis|reasoning|case|view|interpretation|thoughts|conclusion|typing|assessment|argument)|((Why|How|What)[[:space:]]+I[[:space:]]+(read|typed|landed|think|believe|see|interpret|changed|would))|What[[:space:]]+would[[:space:]]+change[[:space:]]+my[[:space:]]+mind|What[[:space:]]+makes[[:space:]]+me[[:space:]]+hesitate|What[[:space:]]+keeps[[:space:]]+standing[[:space:]]+out[[:space:]]+to[[:space:]]+me|The[[:space:]]+part[[:space:]]+that[[:space:]]+makes[[:space:]]+me[[:space:]]+hesitate)([^[:alnum:]_]|$)" <<<"$BODY_NOCOMMENT" || true)"
+if [[ -n "$AUTHOR_LED_HEADINGS" ]]; then
+  while IFS= read -r heading; do
+    fail "author-framed analysis heading; lead with the person, evidence, or pattern: $heading"
+  done <<<"$AUTHOR_LED_HEADINGS"
+else
+  pass "analysis headings remain person-first"
+fi
+
 # --- extractable type answer block -----------------------------------------
 # The first prose paragraph after the required type-answer H2/H3 must be short
 # enough for answer engines to lift. HTML wrappers are stripped for counting.
