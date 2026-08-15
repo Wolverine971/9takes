@@ -1,0 +1,15 @@
+Saved: `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/enneagram.md`
+
+Snapshot SHA verified against `context.json` and the supplied argument before review. Four sibling reviews (`subject`, `fan`, `critic`, `future`) were present in the directory and left unread.
+
+**Verdict:** trust `strained`, value `high`, delight `clear_hit`, recommendation **revise** — **2 blockers**, 4 concerns.
+
+The Type 8 call itself is sound and unusually disciplined. The defects are all in the apparatus built around it, and the central diagnosis is that the draft **smoothed the aggression out of an aggression-type profile, then argued a structural claim from the smoothness** — reader-visible text contains zero instances of "anger," while the house Type 8 page makes anger the type's converting mechanism.
+
+**Strongest hit:** the falsifier clause — *"The typing would crack if the guardedness ever turned out to be staging: a leaked media-training playbook, a persona bible, any sign that the interview-free decade was a rollout plan instead of a reflex."* It answers this perspective's central question in checkable terms and must stay in final position.
+
+**Highest-priority concern (ENN-C2), and the one I'd fix first because it's verifiable in one command:** the Rabbit Hole's *"of the 45 Type 8s profiled on 9takes... 11 are internet creators"* is stale by one **and statistically null**. From `corpus-stats.json` (regenerated two hours before the snapshot): 46 Type 8s; Eights are 12.22% of creator-media against an 11.25% baseline — **+0.98pp, no signal**. Meanwhile Type 3, the incumbent typing that paragraph is rejecting, runs **+5.73pp** among creators and Type 7 **+9.77pp**. The sentence reads as reassurance while the data quietly favors the alternative.
+
+Both blockers are repairable from evidence already in the packet and the site's own type pages — no new research needed:
+- **ENN-R1:** the 8w9 paragraph's "never as rants" is refuted by packet [S24] and [S1]; the house 8w9 profile ("the delayed explosion nobody saw loading") would turn both counterexamples into confirming evidence.
+- **ENN-R2:** the subtype paragraph calls sx "the seduction instinct" and links, in the same breath, to the house page whose FAQ explicitly disclaims that gloss.

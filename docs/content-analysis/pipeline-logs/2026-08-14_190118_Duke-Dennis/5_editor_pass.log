@@ -1,0 +1,18 @@
+Polished `src/blog/people/drafts/Duke-Dennis.md`.
+
+**First, the pipeline problem:** the perspective jury for this run **failed its gate**. `4.4_perspective_unfamiliar` exited 1, `unfamiliar.md` was never written, and no `synthesis.md` exists. The command was also invoked without `--perspective-review-dir`. So there was no adjudicated revision brief to work from. I read the five completed reviews directly and acted only on findings that 2+ reviewers raised independently or that I verified myself.
+
+**This draft was not just AI-flat — it had factual blockers.** All five reviewers converged:
+
+- **"He had sat in the inaugural class... as a student" was false.** I verified with `yt-dlp`: his own channel published *"Being A Professor At Streamer University"* (2025-05-23) and *Part 2* (2025-05-26). He was faculty in 2025. The claim traced to Rolling Stone preview copy. Rebuilt on the true fact, and the irony got better: Professor is the one label he took, twice.
+- **"The circle has billed him exactly once" was false and sat on live litigation.** Deleted. Repair is subtractive per 3 of 4 reviewers plus the packet's legal-risk constraint; San Antonio is not retold.
+- **His temperament was sanded down to fit the 8w9 read.** "He waved those off" replaced with the on-record aura-farming pushback; "never as rants" cut. The wing now argues from *discharge shape* (long silence, one burst, file closed), so the counterexamples confirm it instead of refuting it.
+- **The subtype paragraph defined the sexual instinct as seduction** — which the page it links to explicitly disclaims — and ranked it last from absence of evidence. Both removed.
+
+Also fixed: the FAQ asserted a *cause* for the four-year stay the body deliberately refuses to state (the body now says outright that nothing in the type explains it); an inaccurate omission promise around his mother's quote; a physical detail transposed from the drill sergeant to a recruit; a reconstructed private-partner quote; the "2026 world tour" re-anchored to dated destinations. The corpus stat was stale at 45 — I corrected it to the real data and **inverted the sentence**, because `corpus-stats.json` shows creators over-index on Sevens (+9.77pp) and Threes (+5.73pp) while Eights sit at baseline. Typing him Eight is a *departure* from our own pattern, which is the braver and truer sentence.
+
+**Exit checks:** `blog-lint.sh` 0 fail (contrast-pair engines 0 strong), `blog-quality-report` 0 contrast pairs, corpus drift none, no prose em-dashes, `lastmod` untouched.
+
+Two things worth flagging. The blocker repairs pushed the body to 4725 words against a 4500 ceiling, so I cut ~230 words of genuine restatement to pay for them — no protected beat was touched, but the piece is now at 4495/4500 with almost no headroom. And one reviewer conflict needed a judgment call: the subject reviewer protects "He owned his piece of it" while the critic showed no individual Duke apology is documented. I kept the accountability and dropped the inference from a compelled act; it's recorded in the artifact.
+
+**Not production-ready, for a reason unrelated to the prose:** `unfamiliar.md` is still missing, so this can't satisfy the perspective gate no matter how good the copy is. **The jury needs a re-run** — and against the post-edit draft, not the frozen one, since I changed load-bearing facts. I wrote the full log to `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/editor-pass-applied.md`. I deliberately did **not** name it `editor-resolution.md`, because that artifact asserts resolution against a synthesis that doesn't exist and would tell the verify command a gate passed that never ran.

@@ -1,0 +1,32 @@
+Revision pass complete on `src/blog/people/drafts/Duke-Dennis.md`.
+
+## What triggered the loop
+
+Grade **8.4 (B)** — below the 8.5 bar. Lint was already clean (0 fail), so this ran on grader feedback alone. No `--perspective-review-dir` was supplied, so no perspective-resolution artifact was written.
+
+## Fixes applied
+
+**NEEDS WORK — Army spine on an undated source.** The video is now named at first use: *Duke Dennis Story Time: My Army Experience, Basic Training and Why I Left the Army*, posted to his own YouTube channel on February 6, 2018. Title and upload date verified from YouTube metadata (`cslGptGMfJs`, already in `citations`). The Army section inherits it via "he said in that same 2018 story time," so the mother's line, the recruiter, the drill sergeant and the desk nap all trace to the tape.
+
+**NEEDS WORK — the seven-job section.** Split at the source card. `What stress does to Duke Dennis` keeps Germany, the sealed years, and the first interview. Provision material moved under a new H2, `Why Duke Dennis bought his mother a house first`. Heading Mix Ledger re-enumerated (9 H2s, 7 search-intent/hybrid — gate needs 2).
+
+**NEEDS WORK — orphaned anchor.** Added H3 `How old is Duke Dennis?` in the new section. All 6 FAQ anchors now resolve, no duplicate ids. I checked how the anchor is consumed (`FAQSection.svelte:37` renders it as the item's `id`) — repointing to `the-name-he-never-asked-about` would have put an identical id on two sibling `<details>`, so adding the heading was the correct branch. It also gives the stranded 30th-birthday one-liner a job.
+
+**TO REACH A — the public/private gap.** This is the change I'd point at. The interview-free years were absence of evidence doing the work of evidence; they now rest on the story time itself, published by the subject at 83,000 subscribers six years before Speedy booked him. What he withheld was the microphone, not the story. Same source as the Evidence fix, so it cost one citation and paid twice.
+
+**TO REACH A — similarity + reader-command.** Both trips rewritten; `same-type-similarity.mjs` re-run comes back **clear** (was TRIPPED at 0.253). Removing "Sit with Unit 3 for a second" reverses PROTECT-06 from the 2026-08-07 pass — the current grader named it explicitly, so the newer grade wins. Noted in the draft.
+
+**Minor.** `twitter: 'ImDukeDennis'`, verified against Wikidata P2002 on Q124466749 rather than guessed.
+
+**Word budget.** Additions were paid for with restatement, not beats: twice-stated Union Square deal terms, the Oktoberfest paragraph, a doubled math metaphor, inventory sprawl, curriculum throat-clearing, two echoes, a simile, and the reconstructed phone gloss. 4495 → 4483. The Oktoberfest cut also removed "his own dime," which is on the evidence packet's could-not-verify list.
+
+## Rejected
+
+- **FAN-C4** (expand the 2K apprenticeship) and **CRITIC-B2** (fuller Union Square harm accounting) stay deferred — this pass freed 18 words and both need a section-sized budget.
+- No second sourced beat chased for the interview-free years; the packet's could-not-verify list covers the remaining candidates.
+
+## One rule concern
+
+`scripts/blog-source-audit.mjs` treats `youtube` as a `VENUE_WORD` with no `OUTLETS` entry for self-published channels, so a first-party video grades **VAGUE** however precisely it's cited. The two Army slots now carry title + exact date + channel and still read VAGUE. The grader's actual ask — a fact-checker can get from text to tape — is satisfied; the tag can't move without editing the script's `OUTLETS` table. I left the script alone and flagged it in the draft rather than working around it.
+
+**Lint: clean** — 0 fail, 2 pre-existing warns (7 internal links, word headroom). `content_quality` and `lastmod` untouched; the pipeline will clear the consumed sidecar and re-grade.

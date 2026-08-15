@@ -1,0 +1,29 @@
+Frontmatter enrichment complete: **Duke-Dennis**
+
+The draft arrived already enriched — all 12 owned fields had real values. Rather than churn them, I verified each against authoritative sources, which surfaced one defect.
+
+**Fields verified (preserved, no changes):**
+
+| Field | Verification |
+|---|---|
+| `wikipedia` | HTTP 200; Wikidata `enwiki` sitelink = "Duke Dennis" ✓ |
+| `wikidata_qid` | Q124466749 = "American online streamer and YouTuber" ✓ |
+| `imdb_id` | **No P345 on Wikidata** — confirmed independently via IMDb suggestion API: `nm15242465` → Duke Dennis, Director, *AMP* (2020) ✓ |
+| `birth_date` | Matches Wikidata P569 (`+1994-02-26`) ✓ |
+| `birth_place` | Matches P19 → Q574192 = Greenville, county seat of Greenville County, SC ✓ |
+| `nationality` | Matches P27 → Q30 (USA) ✓ |
+| `occupation`, `knows_about`, `keywords`, `same_as`, `citations` | All in range; `knows_about` holds real expertise areas, not the occupation-copied backfill pattern ✓ |
+| `citations` | All 7 map to real body passages (AP/Tubefilter → Union Square at L232, Rolling Stone ×11, Sportskeeda → Dee shirt at L294) ✓ |
+
+**Change made (1 line):**
+
+FAQ #4 "How old is Duke Dennis?" carried `anchor: 'why-duke-dennis-calls-the-army-his-biggest-regret'` — a verbatim duplicate of FAQ #2's anchor. `FAQSection.svelte:38` renders `id={faq.anchor}` on each `<details>`, so this produced two elements with the same DOM id and deep-linked the age question to the Army-regret section. Changed to `'how-old-is-duke-dennis'`. All six anchors are now unique.
+
+I treated this as a data-integrity fix rather than an FAQ rewrite — question and answer text are untouched, and the strict-idempotency rule otherwise held (these are body-derived FAQs, not the templated backfill pattern). FAQPage JSON-LD is unaffected; `buildFAQSchema` (`src/lib/utils/schema.ts:9`) doesn't read `anchor`.
+
+**Issues for you to decide:**
+
+- **6 FAQs exceeds the 3–5 cap.** All six are substantive and body-sourced, so I didn't silently delete one — that's a content call. If you want to trim, "How old is Duke Dennis?" and "What is Duke Dennis's real name?" overlap heavily (both carry the 1987-vs-1994 correction); merging them lands you at 5.
+- **`twitter: ''` is empty** but Wikidata P2002 has `ImDukeDennis`. Social handles are outside this command's ownership, so I left it — worth filling before publish, since `instagram` and `tiktok` are both populated.
+
+`lastmod` untouched at `2026-08-07`. Body and all HTML comment blocks unchanged — full-file diff is the single line above. Backup at `/tmp/Duke-Dennis.bak.md`.

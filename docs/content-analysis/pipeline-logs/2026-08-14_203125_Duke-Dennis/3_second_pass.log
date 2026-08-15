@@ -1,0 +1,19 @@
+Done. Updated `src/blog/people/drafts/Duke-Dennis.md`.
+
+## What changed
+
+**The August 2025 arrest is in, and it turned out to be evidence rather than a patch.** The review called its absence the draft's largest credibility hole. I added it to the AMP section as charges only (criminal trespassing, evading arrest; Aug 2–3, 2025; Shops at Rivercenter; Kai present and not arrested; no conviction), sourced to NBC News and Spectrum News. The real find was his own response on stream Aug 17: *"I'm not the type of content creator that's going to like risk my freedom for the content."* **Freedom** is the exact word the diagnosis section already says he reaches for. The beat now pays the thesis. It also closes the packet's Evidence critique — Vibe is a named third-party outlet doing load-bearing work, so the argument no longer rests on two YouTube videos.
+
+**The craft gap is closed** (FAN-C4, deferred across three passes). I dropped the travel-destination inventory and built a portrait from his own upload list, verified with yt-dlp: a medieval Renaissance fair, 24 hours at the Gathering of the Juggalos, 2AM in South Carolina. The answer to "why did 2K viewers follow him to vlogs where nobody plays 2K" is now on the page, and it's a Type 8 answer — he walks into a subculture that has nothing to do with him and the room doesn't move him.
+
+**Also addressed:** the murder hoax (Aug 4, 2026, debunked by Primetimer) added to the label inventory; HotNewHipHop added as a second dated critic anchor; Dee given its own H2 so the emotional peak isn't filed under real estate; the DeeBlock/Dee connection stated plainly as not publicly established; a second interior beat located in the present (the Unc role); section-closer metronome broken in 4 of 10 sections; aura-farming re-dated to 2024 (it was wrong) and its quote now verified.
+
+**Rejected:** the Druski body link. The only verified hook is a 2024 "meets for the first time" vlog — an encounter, not a relationship — and links are already over spec at 7.
+
+**Source audit after the pass:** 4 load-bearing quotes, 3 inline, 1 vague, 0 untagged. Epigraph/cold-open blocker clear, unchanged. Lint 0 fail. Body 4480 against the 4500 ceiling; every addition was paid for by cutting restatement, not beats.
+
+## Two things still open
+
+**A hazard I could not resolve, and it may affect the ending.** In that same Aug 17 stream, Duke said *"my aunt passed away during July."* The closing section rests on an aunt who named him and is still around to ask. No source establishes whether it's the same aunt. I deliberately did not introduce the death (it would imply a link nothing supports) and did not touch the close. If those two aunts are the same person, the ending is factually wrong. That needs you or real reporting, not me.
+
+**The perspective jury still needs a re-run** — `unfamiliar.md` was never written in the `2026-08-14_190118` run, so the draft can't pass the perspective gate regardless of this pass. That, plus a regrade, is what stands between this and the 8.5 publish bar.

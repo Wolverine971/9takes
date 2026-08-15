@@ -1,0 +1,23 @@
+## Grading Complete — Duke-Dennis
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Duke-Dennis | 8 | 8.5 | 9 | 8.5 | 8 | 9 | 8.5 | B+ |
+
+Weighted per rubric: `(8×1.5 + 8.5×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7 = 8.46 → 8.5`. Discoverability 9, so no gate. No caps applied.
+
+### Key Observations
+
+**What carries it.** The thesis genuinely earns its keep — "Both walks are the same walk" fuses the Army exit, the 29-day factory walkout, and the rizz refusal into one motive, and "A definition is just instructions for what to be" converts a meme complaint into an authority complaint. More unusual: the piece refuses to smooth its own counter-evidence ("Nothing in the type explains this") rather than explaining away the four-year stay. That's the exact monocausal failure the Matt-Smith anchor was docked for. Discoverability is near-flawless — all six FAQ anchors resolve, extractable answer block verified PASS, full entity metadata.
+
+**The two real defects.**
+1. **The cold open has no inline source.** The factory scene opens the body, anchors a TL;DR bullet, and supplies half the thesis — yet never names where it came from. I verified it upstream (research memo line 50 → 360 With Speedy, 2024, verbatim; interview URL is in `citations`), so this is an attribution-*placement* gap on a checkable claim, not an unsourced assertion. That's the stated reason I set Evidence at 8 instead of applying the rubric's cap-at-6 rule. Same gap on the December 2024 Dee memorial-shirt beat.
+2. **The section closers are a metronome.** Eight of nine sections land on the same aphoristic mic-drop fragment. Each works alone; in sequence the reader hears the cadence instead of the content.
+
+**Verification notes.** The source audit's one VAGUE flag is a script artifact — `blog-source-audit.mjs` has no OUTLETS entry for self-published video, so the 2018 story time grades VAGUE despite carrying title + channel + exact upload date. The fix belongs in the script, not the draft. Similarity scan is clear; its three above-floor pairs are structural type-declaration boilerplate, not argument reuse. One stale ledger caught: the DISTRIBUTION LEDGER claims an "sp-8 baseline sentence" in the stress section that no longer exists.
+
+**Grade stability.** Prior sidecar recorded 8.4 pre-revision → 8.5 revised. This independent read also lands at 8.5, but via different dimension scores (Evidence 8 not 8.5; Originality/Enneagram higher) — convergent overall from a divergent path.
+
+Files written: `src/blog/people/drafts/Duke-Dennis.md` (frontmatter, YAML validated) and `docs/content-analysis/grades/Duke-Dennis.review.md`.
+
+**Total graded this session: 1**

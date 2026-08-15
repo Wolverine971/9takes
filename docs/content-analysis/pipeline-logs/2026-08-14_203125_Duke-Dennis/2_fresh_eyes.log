@@ -1,0 +1,9 @@
+Reviewed `src/blog/people/drafts/Duke-Dennis.md` against entity-gap packet revision 2. The stale fresh-eyes block (written against packet rev 1, all items since resolved) was removed and replaced with a single new `FRESH EYES REVIEW` block at the bottom. Article body untouched.
+
+**The two biggest flags:**
+
+1. **The packet is wrong, and acting on it would inject a false claim.** Entity-gap rev 2 instructs the pipeline to rebuild the Streamer University section on a "student in 2025 → professor in 2026" promotion arc. I re-verified with yt-dlp: Duke's own channel published *"Being A Professor At Streamer University"* (2025-05-23) and Part 2 (2025-05-26). He was faculty in 2025. The packet's own cited 2026 video title — "**Back** As A Professor" — confirms the draft, not the packet. The draft is correct as written; I flagged this at the top of the review because the packet normally outranks the draft in downstream passes.
+
+2. **The August 2025 arrest is now the draft's largest reader-expectation hole.** Packet rev 1 said omit it; rev 2 reverses that — NBC News, Vibe, and Spectrum News own the query, and it can be stated as charges only. The draft narrates Kai's Union Square arrest in full and is silent on Duke's own, which reads as management rather than discipline. Related: the Aug 4 2026 murder-arrest hoax (Primetimer-debunked, drove the biggest recent name-search spike) is the most on-thesis fact in his current record — the label machine at its most extreme — and the piece doesn't use it.
+
+Also open from the packet and still unaddressed: the section-closer metronome (8 of 9 sections land on the same aphoristic declarative — its requirement #3), and the free HotNewHipHop critic anchor that would cheaply reduce the two-YouTube-videos evidence concentration behind the Evidence 7 score.

@@ -1,0 +1,16 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/subject.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **revise** — 3 blockers, 6 concerns. Draft SHA verified against both `context.json` and the supplied argument before review.
+
+**Blocker count:** 3, all evidence-backed, two verified first-hand rather than taken from the packet.
+
+**Strongest hit** — the rizz empathy turn: *"The fans handing him the rizz prompt mean it as tribute. What he hears is a shift bell."* It converts the behavior he's most mocked for into a legible motive, grounded in a documented four years of performing someone else's script, without claiming trauma or asking for pity. It's the article's whole argument in two sentences and must survive revision byte-identical.
+
+**Highest-priority finding** — SUBJ-R1: the draft says he attended Streamer University 2025 *"as a student."* His own channel published **"Being A Professor At Streamer University"** (uploaded 2025-05-23) and **Part 2** (2025-05-26), inside the May 22–25 inaugural session, and the Class-of-2025 roster lists him under "Professors." I confirmed both independently via `yt-dlp` and a direct fetch. The sole support for the draft's version is Rolling Stone preview copy that search engines have since propagated. The article demotes a documented faculty credential to manufacture an irony it doesn't need — the true fact is stronger and fits the thesis better: the one institution he ever joined, he joined at the top.
+
+Two things worth flagging beyond the review itself:
+
+- **SUBJ-R2 touches live litigation.** *"The circle has billed him exactly once"* is false — there's a second arrest (Aug 2025, San Antonio, charges dismissed via pretrial diversion) and a pending >$1M civil suit naming him and AMP. The repair is subtraction only; the entity-gap packet explicitly warns against retelling the San Antonio matter.
+- **A pattern, not just three errors.** All three blockers sit on the draft's *newest* material, and two were introduced or bounded during earlier passes that were themselves correcting errors in the same two spots — each repair made against preview copy or a single secondary summary rather than the primary record. That's the packet's own conclusion and my independent checks confirm it.
+
+Two side findings from verifying in-repo: the FAQs **do** render to readers (`+page.svelte:650`, 6 of them), which promoted an FAQ causal claim into a reader-facing concern; and `.inner-thought` renders as an icon-marked interior-monologue block with no quotation marks, which downgraded a planned red flag about fabricated interiority into a hit.

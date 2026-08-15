@@ -1,0 +1,23 @@
+## Grading Complete — Duke Dennis
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Duke-Dennis | 7 | 8 | 9 | 8 | 8 | 9 | 8.1 | B |
+
+Weighted: `(7×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 8.07 → 8.1`. Discoverability 9, so no gate. No caps applied.
+
+### Key observations
+
+**What earns the score.** The piece refuses to close its own case — "he stayed... Nothing in the type explains this. He has never explained it either" — which is exactly the monocausal failure the Matt-Smith B anchor was docked for, deliberately avoided. "What he withheld was never the story. It was the microphone" is a genuinely original reversal of the obvious reclusive-streamer read. The syllabus section passes the swap test cleanly, and the discoverability package is near ceiling (54-char meta_title, 159-char description, script-verified 35-word extractable answer, six FAQs on real queries, full entity metadata).
+
+**Evidence 7 is the drag, and it's the highest-leverage fix.** Two YouTube videos carry nearly the whole piece, and the evidence packet itself calls the 2018 Army tape a heavily garbled single-source auto-transcript with an internal three-vs-four-year wobble — that's the thesis spine. Beyond the script's clean in-slot report, I found four untagged direct quotes: the Aspen percentages, the two rizz-teaching lines, and the aura-farming pushback whose wording the draft's own editor notes concede is unverified. The cold open — the piece's most memorable image — carries no attribution at all despite tracing cleanly to 360 With Speedy in the research memo. No Evidence cap: every claim the thesis collapses without resolves to a real named source. The failure is tagging and concentration.
+
+**Writing 8, held down by a section-closer metronome.** Eight of nine sections end on a short aphoristic declarative. Each works alone; in sequence the template becomes audible. Same tic that placed Alex-Warren in the C band.
+
+**Sameness check clear.** Against Jon-Stewart, AOC, and Travis-Kelce, the only genuinely reused non-structural move is that aphoristic closer — one, not three, so no Originality cap. The corpus-stat sentence is actually used well here (as a datapoint cutting against the piece's own conclusion) and none of the comparison drafts uses one. Similarity scan max 0.080, all top pairs being the mandated SEO type sentence.
+
+**Ledger drift found:** SECOND PASS NOTES claim a Germany/Oktoberfest beat "added to the security paragraph" — it isn't in the body; a later pass removed it. Other ledgers spot-checked and accurate (9 H2s match, all 4 testimony quotes present and attributed, 0 contrast pairs script-confirmed).
+
+Frontmatter block written (YAML validated) and `docs/content-analysis/grades/Duke-Dennis.review.md` replaced.
+
+**Total graded this session: 1**

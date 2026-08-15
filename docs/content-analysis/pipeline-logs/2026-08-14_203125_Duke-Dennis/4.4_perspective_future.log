@@ -1,0 +1,26 @@
+Counts match the frontmatter; all eleven required headings present in order.
+
+## Saved artifact
+
+`docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/future.md`
+
+SHA verified against `context.json` and the supplied `--draft-sha` before reading. No other perspective file was opened.
+
+## Verdict
+
+**trust: strained · value: high · delight: clear_hit · recommendation: hold_for_research**
+**2 blockers, 7 concerns**
+
+`hold_for_research` rather than `revise` because neither blocker can be repaired from what's on hand — both need primary court-record verification.
+
+## Strongest hit
+
+The falsifier clause, positioned last in the Rabbit Hole: *"The typing would crack if the guardedness ever turned out to be staging: a leaked media-training playbook, a persona bible, any sign that the interview-free years were a rollout plan instead of a reflex."* It converts future evidence into vindication instead of embarrassment. More broadly, the draft is unusually well-built for time — the thesis rests on 2013–2018 material, and it writes "Kai Cenat **became** the biggest streamer on the planet" where nearly every draft would write "is." Remove every post-2024 event and the argument is untouched.
+
+## Highest-priority concern
+
+The finding I'd actually lead with is a blocker, and it's specific: **the San Antonio passage is out of date in both directions.** Two independent outlets report Duke's criminal charges were **dismissed after he completed a pretrial diversion program** — the draft says "No conviction has been reported," which is literally true but reads as an open matter, leaving a real person under a cloud the record has lifted. Meanwhile a **civil suit seeking over $1M**, filed by the security officer from that night, names Duke, Kai Cenat, and AMP Entertainment — and the draft omits it while structuring the section as a settled ledger ("The bills come due in public… The next bill was his own"). The alleged assault is attributed to a member of AMP's security team, not to Duke; any repair must preserve that distinction.
+
+Two caveats I want to be plain about: Hoodline 403'd and the corroboration came via search summary, so this is enough to say the page is behind the record but **not** enough to print a disposition — verify against the Bexar County docket. And the sharpest thing I found isn't a fact but a pattern: the pipeline's own notes show it *knew* about the civil suit and used it solely to justify deleting a sentence. Verified current facts entered the process and exited as subtraction — which is why I filed a process concern (C7), since that will reproduce on the next subject.
+
+Top non-blocker: AMP has a formal affiliate tier (Rayasianboy 2024, 2xRakai 2025, Tota Mc 2025) that the "sealed at six" H2, FAQ, and TL;DR never mention. Nothing is false — the core six are intact — but a promotion falsifies three surfaces at once, and naming the porch actually sharpens the Eight read rather than hedging it.

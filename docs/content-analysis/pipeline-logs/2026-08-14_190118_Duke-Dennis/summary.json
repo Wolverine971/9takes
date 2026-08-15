@@ -1,0 +1,19 @@
+{
+  "person": "Duke-Dennis",
+  "draft_path": "src/blog/people/drafts/Duke-Dennis.md",
+  "entity_gap_brief": "docs/content-analysis/entity-gaps/Duke-Dennis.md",
+  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-14_190118_Duke-Dennis",
+  "perspective_review_dir": "docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118",
+  "perspective_initial_status": "not_run",
+  "perspective_final_status": "reviews_incomplete",
+  "completed": true,
+  "halt_reason": null,
+  "revised": true,
+  "lint_exit": 0,
+  "first_overall": 8.5,
+  "final_overall": 8.1,
+  "final_discoverability": 9,
+  "grade_stability_delta": 0.40000000000000036,
+  "has_stage_warnings": true,
+  "generated_at": "2026-08-15T00:29:00.209Z"
+}

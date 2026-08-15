@@ -1,0 +1,45 @@
+## Cohesion Audit: `src/blog/people/drafts/Duke-Dennis.md`
+
+### Central Thesis
+Duke Dennis is a Type 8 whose adult life is one repeated act — walking out of arrangements other people made for him — and the word "rizz" is just the latest arrangement he's refusing.
+
+### Thread Map
+| Section | Contributes | Connects because |
+|---|---|---|
+| Cold open | Factory walkout + Army as the same walk | States the thesis outright |
+| Personality type | Type 8 = nobody runs me; the 2018 anti-authority triple | Names the pattern the open showed |
+| Army regret | The one arrangement he volunteered for, and the four-year stay the type can't explain | The diagnosis quotes came from this story |
+| Borrowed email | Career built *inside* the contract; the walkout funded it | Carries "inside the contract" forward |
+| AMP's seventh member | The one room he built, and its bills | Career section ends on rooms that don't move him |
+| Rizz | The label the room produced, and why tribute reads as a shift bell | AMP section ends on a ranking he argues with |
+| Syllabus | The one title he accepted | Every other label was pinned on him |
+| Stress | What he does when walking isn't available | *(was the weak seam — now bridged)* |
+| Mother's house | Strength spent outward | *(was the weak seam — now bridged)* |
+| Shades mid-stream | The one assignment he kept | He controls the door; this arrived unannounced |
+| The name | The definition he never asked for | "A gift too" |
+
+| Check | Score |
+|---|---|
+| Through-Line Clarity | 9/10 |
+| Promise-Delivery Match | 9/10 |
+| Reader Mental Model | 9/10 |
+| Section Transitions | 7/10 → 9/10 |
+| Internal Paragraph Flow | 8/10 → 9/10 |
+
+**Before: 8/10 → After: 9/10**
+
+### Changes Made (4)
+1. **Syllabus → Stress** (the only genuinely weak seam): added *"The whole syllabus assumes he can leave."* The advice section now sets up "when walking isn't on the table" instead of dropping the reader into Germany.
+2. **Stress → Provision**: section now opens *"Money he never withheld."*, picking up the withheld/released axis the previous section closed on ("It was the microphone").
+3. **Orphaned thread closed**: the diagnosis promised that hurt "surfaces as force or composure" and never marked its payoff. The Dee-shirt beat now carries the callback — *"Hurt with no channel of its own, surfacing as composure."* The emotional peak reads as evidence, not anecdote.
+4. **Paid for with restatement, not beats**: cut *"and said little else about it"* from the Union Square paragraph (the restitution check already establishes payment).
+
+Seven other transitions were checked and left alone — they already carry keywords across the boundary ("inside the contract," "room," "a ranking he can argue with," "one title he accepted," "a gift too").
+
+### Verification
+`blog-lint`: 0 fail, 2 warn — the same two pre-existing warns (7 internal links, thin word headroom). Contrast-pair engines still 0, no em-dashes, no banned phrases. Body 4480 → 4494 words, ceiling 4500. All protected passages, frontmatter, ledgers and links untouched. Pass logged in a `COHESION PASS` comment block in the draft.
+
+### One thing left for you
+The stress section files the interview-free years alongside the Germany retreat, but the Rabbit Hole says those years were **cut** from the stress-arrow list precisely because they never ended. It isn't a reader break — most people won't open the accordion — but the two passages frame the same evidence differently. Resolving it means re-arguing arrow-vs-baseline in the body, which is outside a cohesion pass and would push the DISTRIBUTION LEDGER past its 1-paragraph cap. Your call.
+
+Separately: the draft still can't clear the perspective gate — `unfamiliar.md` was never written in the `2026-08-14_190118` run, so that jury needs a re-run regardless of this pass.

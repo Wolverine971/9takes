@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Duke-Dennis (Type 8)
+/Users/djwayne/9takes/src/blog/people/drafts/Duke-Dennis.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 46
+Comparison set (last 8 other Type-8 drafts by date):
+  - Khabib-Nurmagomedov  (2026-08-13, 43 units)
+  - Nara-Smith  (2026-08-04, 48 units)
+  - Tyler1  (2026-07-29, 17 units)
+  - gordon-ramsay  (2026-07-08, 43 units)
+  - nicki-minaj  (2026-06-29, 24 units)
+  - susan-sarandon  (2026-06-28, 24 units)
+  - ella-langley  (2026-06-01, 15 units)
+  - david-goggins  (2026-05-30, 37 units)
+
+Noise floor over 11546 unit pairs:  median=0  p90=0  p99=0.006  max=0.253
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.253   Duke-Dennis  <->  susan-sarandon
+   TARGET [diagnosis] The fuller pressure test waits in the Rabbit Hole below. ---
+   OTHER  [diagnosis] and that argument lives in the Rabbit Hole below.
+
+
+Most similar drafts (max unit-pair score):
+  0.253 ##########           susan-sarandon
+  0.174 #######              Nara-Smith
+  0.060 ##                   Tyler1
+  0.038 ##                   Khabib-Nurmagomedov
+  0.037 #                    david-goggins
+  0.033 #                    gordon-ramsay
+  0.025 #                    nicki-minaj
+  0.011                      ella-langley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.253   Duke-Dennis  <->  susan-sarandon
+   TARGET [diagnosis] The fuller pressure test waits in the Rabbit Hole below. ---
+   OTHER  [diagnosis] and that argument lives in the Rabbit Hole below.
+
+score 0.174   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] The obvious counter-read is Type 3
+   OTHER  [diagnosis] 29 July 2026 The obvious alternative reading is Type 3.
+
+score 0.079   Duke-Dennis  <->  susan-sarandon
+   TARGET [diagnosis] An Enneagram Type 8 organizes life around one requirement
+   OTHER  [diagnosis] Susan Sarandon is an Enneagram Type 8
+
+score 0.060   Duke-Dennis  <->  Tyler1
+   TARGET [diagnosis] An Enneagram Type 8 organizes life around one requirement
+   OTHER  [diagnosis] Tyler1 is best read as an Enneagram Type 8.
+
+score 0.042   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] "The army wasn't for me because I don't like being told what to do.
+   OTHER  [diagnosis] "I don't think a trad wife would be cooking in like Schiaparelli
+
+score 0.038   Duke-Dennis  <->  Khabib-Nurmagomedov
+   TARGET [counter-typing] The incumbent internet answer is Type 3
+   OTHER  [diagnosis] The long answer is a variant the textbook never covers
+
+score 0.037   Duke-Dennis  <->  david-goggins
+   TARGET [diagnosis] Watch what he does with attention when it arrives.
+   OTHER  [diagnosis] running underneath everything he does.
+
+score 0.037   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] The obvious counter-read is Type 3
+   OTHER  [counter-typing] What holds the Eight read is the handling
+
+score 0.036   Duke-Dennis  <->  Nara-Smith
+   TARGET [counter-typing] The incumbent internet answer is Type 3
+   OTHER  [diagnosis] 29 July 2026 The obvious alternative reading is Type 3.
+
+score 0.034   Duke-Dennis  <->  Tyler1
+   TARGET [counter-typing] yet his defining allergy is authority itself rather than uncertainty
+   OTHER  [diagnosis] His defining pattern is not simply anger.
+
+score 0.033   Duke-Dennis  <->  gordon-ramsay
+   TARGET [counter-typing] and this analysis has already admitted the type doesn't explain it.
+   OTHER  [diagnosis] Ramsay doesn't just command kitchens
+
+score 0.033   Duke-Dennis  <->  Nara-Smith
+   TARGET [diagnosis] "I don't even like my girlfriend telling me what to do." When she tells him the phone is too close to his face
+   OTHER  [diagnosis] "I don't think a trad wife would be cooking in like Schiaparelli
+
+------------------------------------------------------------------------------
+Top pair scores 0.253 vs median 0  (~∞x the noise floor).

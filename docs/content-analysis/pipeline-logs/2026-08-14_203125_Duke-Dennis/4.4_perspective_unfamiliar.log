@@ -1,0 +1,16 @@
+Counts match, all eleven required headings present, SHA verified against both `context.json` and the supplied argument.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **1 blocker, 9 concerns.**
+
+**Strongest hit (UNFAM-H4):** the shift-bell paragraph — *"The fans handing him the rizz prompt mean it as tribute. What he hears is a shift bell."* Before it I read his bristling as celebrity petulance; after it I understood the motive. That paragraph is the article's central act of translation and the reason the piece works on a stranger.
+
+**The blocker (UNFAM-B1):** the second inner-thought beat — *"Everybody in this house got bigger than me. I'm still the one who says who comes through the door."* It asserts an unevidenced private status comparison about named living friends, and the article's own evidence points the other way (it quotes Duke saying *"Kai doesn't have an ego"*). I checked `src/scss/blog.scss:592`: the device renders as an italic panel with an SVG thought-bubble icon and **no text label**, so a reader with no prior knowledge cannot tell construction from reporting. The companion 2013 beat is lower risk — every element in it is established as fact in the preceding paragraph.
+
+**Highest-priority concern (UNFAM-C1):** the article never sizes him. The largest audience number attached to Duke anywhere in the body is *100,000 subscribers, from 2018* — every figure in the piece is historical and small, which actively understates him. The packet has verified current figures (3.6M / 2.0M / 3.3M) and notes outright that the draft states no subscriber totals. Compounding it: the TL;DR is a bare `<details>` with no `open` attribute and nothing in the SCSS forcing it open, so the four orienting bullets are collapsed by default.
+
+Two notes worth flagging beyond the findings:
+
+- My one permitted orientation search **downgraded** a candidate blocker rather than adding one. "Rizz" is Oxford's 2023 Word of the Year and mainstream enough that many readers arrive knowing it — so the missing gloss is C2, not a blocker. It also surfaced the cheapest repair in the review: the word is clipped from the middle of *charisma*, and the intro already says *"shorthand for charisma itself"* without connecting them. The repairs are close to self-funding against the 4,500-word ceiling.
+- **Contamination, disclosed in the review:** my sequential first read ran past the reader-visible body into the trailing ledger comments, which contain a prior grade and other evaluators' finding IDs. I opened no peer review or synthesis, and every finding was formed from the body during the first read and verified independently — but the independence claim should be weighted accordingly, and it's recorded in Limits rather than buried.

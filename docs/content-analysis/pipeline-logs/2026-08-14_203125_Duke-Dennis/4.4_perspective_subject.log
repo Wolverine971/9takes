@@ -1,0 +1,14 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/subject.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **revise**
+
+**Blockers: 2** (concerns: 6)
+
+- **SUBJ-R1** — The closing beat ("Somewhere in South Carolina there's an aunt who knows exactly what 'Duke' means. He has had three decades to ask") asserts the aunt is alive and askable. A named outlet reports Duke told viewers on his 2025-08-17 return stream that his aunt died in July 2025 — he went to the funeral and straight back to streaming. No source connects or separates her from the aunt who named him, and it isn't resolvable from the public record. The article's most memorable line is a coin flip on a fact it can't check, in the position where being wrong lands hardest. The repair is subtractive and works under either branch: keep his verified on-tape fact, delete the availability implication, and do **not** introduce the death.
+- **SUBJ-R2** — The second `inner-thought` beat ("Everybody in this house got bigger than me") puts status resentment about six named living friends into his mouth in first person. He's on record praising exactly those people ("Kai doesn't have an ego… nobody would be where they are if it wasn't for AMP"), and the line is false on its literal terms — at 3.6M/3.3M he isn't smaller than every AMP member, only Kai.
+
+**Strongest hit:** the refusal to explain everything — *"Then the strangest fact in his biography: he stayed… Nothing in the type explains this. He has never explained it either."* A personality piece about a living person is dangerous because it can absorb any fact; this one stops, names the fact that breaks its own frame, and declines to invent a motive. Must survive byte-for-byte.
+
+**Highest-priority concern:** SUBJ-C1 — the Dee/DeeBlock sentence raises a connection about a dead relative only to disclaim it, and misstates the record twice: the draft's own cited source describes the shirt as carrying the cousin's face *and* the word "DeeBlock," and "he has never addressed it" is an unverifiable negative contradicted by clips of him telling that story on stream.
+
+Three things I verified first-hand that changed findings: the cold open's staging **is** supported by the tape ("I almost fell asleep… and I woke up pretty much like catching myself") so I dropped it; `.inner-thought` renders as a thought-bubble panel, not a quote, which shaped R2's repair toward cutting rather than re-marking; and he states his own desired public meaning on tape — *"I would want them to look at me as like balance"* — which the article never uses.

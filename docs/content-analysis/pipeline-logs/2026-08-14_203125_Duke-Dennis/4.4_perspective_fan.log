@@ -1,0 +1,16 @@
+All 11 required headings present in order, counts match, SHA verified.
+
+**Saved:** `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/fan.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · **recommendation: revise** · **1 blocker, 6 concerns**
+
+**Strongest hit (FAN-H1)** — the travel inventory read as a portrait of the skill: *"He walks into a subculture with nothing to do with him and the room does not move him an inch… from someone who spent four years being told which country he lived in."* It answers the most-asked fan question about his current era (why a 2K audience followed him to a Renaissance fair) using the Army, and it's built on verified first-party upload data. That's the "I knew those moments, but never connected them that way" test passed outright.
+
+**The blocker (FAN-R1)** — the stress section's source card proves "seven years without a sit-down interview" with a Speedy Morman quote whose ellipsis lands exactly where Speedy names the exceptions. I grepped the repo transcript: both fragments are verbatim, but the elision removes Speedy's own hedge ("maybe one of your first *big* interviews") **and two named exceptions** — a podcast appearance and *Sneaker Shopping*. Duke's *Sneaker Shopping* episode published 2023-05-29, same publisher, nine months before the interview being quoted, inside the claimed gap. The qualifier survives only inside a collapsed accordion, while the claim runs in the FAQ, diagnosis, stress section, and Rabbit Hole. This is worse than the shared packet knew — CLM-08 records one exception; the tape names two plus a hedge. Repair is one sentence.
+
+**Highest-priority concern (FAN-C1)** — the DeeBlock disclaimer ("No public source establishes the link") is contradicted by the draft's own cited Sportskeeda source, which reports the memorial shirt carried the cousin's face *and* the word "DeeBlock." I declined to promote it to a blocker because the narrow reading (the block being *named for* him) genuinely is unestablished at Tier 1–3.
+
+Two things worth surfacing beyond the artifact:
+
+- The **"Where is Speed, bruh?"** quote appears nowhere in the evidence packet — no claim ID, no source-ledger entry. I verified it independently and it's accurate, so I put it on the preserve list with a citation fix rather than flagging it. A verification pass working from the packet alone would likely strike a real quote.
+- I checked the **"worst decision I ever made"** line against the army tape expecting a problem and found it clean, so I dropped it rather than reporting it.

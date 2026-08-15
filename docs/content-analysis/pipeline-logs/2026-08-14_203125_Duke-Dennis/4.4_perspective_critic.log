@@ -1,0 +1,9 @@
+Saved: `docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/critic.md`
+
+**Verdict:** trust strained, value high, delight clear_hit, recommendation **revise**. 3 blockers, 10 concerns. SHA verified against `context.json` and the supplied `--draft-sha`.
+
+**Strongest hit:** CRITIC-H2, the Army section's `"Nothing in the type explains this. He has never explained it either."` A thesis that reports its own worst fact at full strength buys credibility everywhere else, and the packet confirms nothing in the record resolves the four-year stay. Preserve verbatim.
+
+**Highest-priority finding (CRITIC-B1, blocker, new relative to the evidence packet):** the San Antonio paragraph tells that night entirely in the subject's terms and stops at "No conviction has been reported." Omitted: Duke's misdemeanor charges were dismissed after he completed a **pretrial diversion program** (Express-News court-record review), and a mall security officer filed suit in **June 2026 for over $1M naming Duke Dennis as a defendant**, alleging the shoot exceeded the mall's filming permission and continued after closing, with an assault allegation against an AMP security member who now faces felony counts with a September trial. Verified by fetching Dexerto (2026-06-17) directly plus a second search route. The repair is two clauses in allegations-only framing; I flagged that a human should confirm against the Express-News piece or the Bexar County docket before publishing any of it.
+
+Two other blockers worth naming: the arrest paragraph closes on his unrebutted "I'm not the type of content creator that's going to risk my freedom for the content" and frames it as thesis proof (CRITIC-B2), and the counterargument section asserts "Duke declines it [attention]" while the draft cut the line where he tells Speedy his favorite part of the internet right now is "seeing like compliments about yourself" (CRITIC-B3, verified by grep against the repo transcript).
