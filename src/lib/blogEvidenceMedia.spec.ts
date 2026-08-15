@@ -28,13 +28,23 @@ describe('blog evidence media registry', () => {
 		}
 	});
 
+	it('uses the portrait-led presentation for every quoted person', () => {
+		const quotedPeople = getAllBlogEvidenceMedia().filter((item) => item.quote);
+
+		expect(quotedPeople.length).toBeGreaterThan(0);
+		expect(quotedPeople.every((item) => item.presentation?.variant === 'portrait')).toBe(true);
+	});
+
 	it('resolves the Elon pilot evidence by ID', () => {
 		const kimbal = getBlogEvidenceMedia('elon-kimbal-musk-empathy-quote');
 		expect(kimbal?.quote?.speaker).toBe('Kimbal Musk');
-		expect(kimbal?.presentation?.variant).toBe('compact');
+		expect(kimbal?.presentation?.variant).toBe('portrait');
 		expect(getBlogEvidenceMedia('elon-talulah-riley-childhood-quote')).toMatchObject({
-			presentation: { variant: 'feature' },
-			image: { rights: { license: 'CC BY 2.0' } }
+			presentation: { variant: 'portrait' },
+			image: {
+				src: '/blog-enrichment/elon-musk/talulah-riley-2009.webp',
+				rights: { license: 'CC BY-SA 2.0' }
+			}
 		});
 		expect(getBlogEvidenceMedia('missing-evidence')).toBeUndefined();
 	});

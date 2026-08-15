@@ -21,9 +21,11 @@
 	);
 	let imageCreditLabel = $derived(
 		evidence?.image.rights.status === 'fair-use'
-			? `${evidence.image.rights.creator} / ${evidence.image.source.publisher ?? 'source'} · editorial fair use`
-			: (evidence?.image.rights.attribution ?? '')
+			? `${evidence.image.rights.creator} / ${evidence.image.source.publisher ?? 'source'}`
+			: (evidence?.image.rights.creator ?? '')
 	);
+	let quoteSourceYear = $derived(evidence?.quote?.source.date_published?.slice(0, 4) ?? '');
+	let imageWasEdited = $derived(Boolean(evidence?.image.rights.modifications.length));
 </script>
 
 {#if evidence}
@@ -45,30 +47,20 @@
 		</div>
 
 		<figcaption class="blog-evidence__body">
-			{#if evidenceVariant !== 'compact'}
+			{#if !evidence.quote}
 				<p class="blog-evidence__label">{evidence.label}</p>
 			{/if}
 
 			{#if evidence.quote}
-				{#if evidenceVariant === 'compact'}
-					<p class="blog-evidence__speaker blog-evidence__speaker--lead">
-						<strong>{evidence.quote.speaker}</strong>
-						{#if evidence.quote.speaker_role}
-							<span>{evidence.quote.speaker_role}</span>
-						{/if}
-					</p>
-				{/if}
 				<blockquote class="blog-evidence__quote">
 					<p>“{evidence.quote.text}”</p>
 				</blockquote>
-				{#if evidenceVariant !== 'compact'}
-					<p class="blog-evidence__speaker">
-						<strong>{evidence.quote.speaker}</strong>
-						{#if evidence.quote.speaker_role}
-							<span>{evidence.quote.speaker_role}</span>
-						{/if}
-					</p>
-				{/if}
+				<p class="blog-evidence__speaker">
+					<strong>{evidence.quote.speaker}</strong>
+					{#if evidence.quote.speaker_role}
+						<span>{evidence.quote.speaker_role}</span>
+					{/if}
+				</p>
 			{:else if evidence.caption}
 				<p class="blog-evidence__caption">{evidence.caption}</p>
 			{/if}
@@ -77,30 +69,41 @@
 				<p class="blog-evidence__context">{evidence.context}</p>
 			{/if}
 
-			<div class="blog-evidence__sources">
+			<div class="blog-evidence__sources" aria-label="Sources and image credits">
 				{#if evidence.quote}
-					<!-- External registry URL: SvelteKit resolve() only accepts internal paths. -->
-					<a href={evidence.quote.source.url} target="_blank" rel="noopener noreferrer">
-						Source: {evidence.quote.source.name}
-					</a>
+					<p class="blog-evidence__source-line">
+						<span class="blog-evidence__source-kind">Quote source</span>
+						<!-- External registry URL: SvelteKit resolve() only accepts internal paths. -->
+						<a href={evidence.quote.source.url} target="_blank" rel="noopener noreferrer">
+							{evidence.quote.source.name}
+						</a>
+						{#if quoteSourceYear}
+							<span aria-hidden="true">·</span>
+							<span>{quoteSourceYear}</span>
+						{/if}
+					</p>
 				{/if}
-				<span class="blog-evidence__image-credit">
-					Photo:
+				<p class="blog-evidence__source-line blog-evidence__image-credit">
+					<span class="blog-evidence__source-kind">Photo</span>
 					<!-- External registry URL: SvelteKit resolve() only accepts internal paths. -->
 					<a href={evidence.image.source.url} target="_blank" rel="noopener noreferrer">
 						{imageCreditLabel}
 					</a>
 					{#if evidence.image.rights.license && evidence.image.rights.license_url}
-						·
+						<span aria-hidden="true">·</span>
 						<!-- External registry URL: SvelteKit resolve() only accepts internal paths. -->
 						<a href={evidence.image.rights.license_url} target="_blank" rel="license noopener">
 							{evidence.image.rights.license}
 						</a>
+					{:else if evidence.image.rights.status === 'fair-use'}
+						<span aria-hidden="true">·</span>
+						<span>editorial fair use</span>
 					{/if}
-					{#if evidence.image.rights.modifications.length}
-						<span>· {evidence.image.rights.modifications.join(', ')}</span>
+					{#if imageWasEdited}
+						<span aria-hidden="true">·</span>
+						<span>edited for web</span>
 					{/if}
-				</span>
+				</p>
 			</div>
 		</figcaption>
 	</figure>

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // scripts/people-corpus-audit.mjs
-// Reproducible, read-only inventory for the published people corpus.
+// Reproducible, read-only inventory for the people corpus.
 //
 // Joins live blogs_famous_people rows, local drafts, and the current GSC pages
 // export. It never calls insert/update/upsert/RPC. Deep editorial signals reuse
@@ -10,6 +10,7 @@
 //   node scripts/people-corpus-audit.mjs --output=/tmp/people-audit.json
 //   node scripts/people-corpus-audit.mjs --person=dua-lipa
 //   node scripts/people-corpus-audit.mjs --person=dua-lipa --skip-deep
+//   node scripts/people-corpus-audit.mjs --include-unpublished --skip-deep
 
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
@@ -37,6 +38,7 @@ const personFilter = normalizePersonalitySlug(personArg?.slice('--person='.lengt
 const outputPath = outputArg ? path.resolve(REPO_ROOT, outputArg.slice('--output='.length)) : null;
 const skipDeep = argv.includes('--skip-deep');
 const compact = argv.includes('--compact');
+const includeUnpublished = argv.includes('--include-unpublished');
 
 if (argv.includes('--help')) {
 	console.log(`Usage: node scripts/people-corpus-audit.mjs [options]
@@ -44,6 +46,8 @@ if (argv.includes('--help')) {
 Options:
   --person=<slug>   Audit one published person.
   --output=<path>   Write JSON to a file instead of stdout.
+  --include-unpublished
+                     Compare every live row, not only published rows.
   --skip-deep       Skip quality/source/same-type subprocesses.
   --compact         Emit compact JSON.`);
 	process.exit(0);
@@ -292,27 +296,27 @@ function createReadOnlySupabaseClient() {
 	return createClient(url, key);
 }
 
-async function loadPublishedRows() {
+async function loadLiveRows() {
 	let query = createReadOnlySupabaseClient()
 		.from('blogs_famous_people')
 		.select('*')
-		.eq('published', true)
 		.order('id', { ascending: true })
 		.range(0, 999);
+	if (!includeUnpublished) query = query.eq('published', true);
 	if (personFilter) query = query.ilike('person', personFilter);
 	const { data, error } = await query;
-	if (error) throw new Error(`Unable to read published people rows: ${error.message}`);
+	if (error) throw new Error(`Unable to read people rows: ${error.message}`);
 	return data || [];
 }
 
 const [liveRows, localDrafts, gsc] = await Promise.all([
-	loadPublishedRows(),
+	loadLiveRows(),
 	loadLocalDraftMap(),
 	loadGsc()
 ]);
 
 if (personFilter && liveRows.length === 0) {
-	throw new Error(`Published person not found: ${personFilter}`);
+	throw new Error(`Person not found: ${personFilter}`);
 }
 
 const rows = [];
@@ -334,6 +338,7 @@ for (const live of liveRows) {
 		id: live.id,
 		person: live.person,
 		canonical_slug: slug,
+		published: live.published === true,
 		local_draft: local ? path.relative(REPO_ROOT, local.filePath) : null,
 		gsc: gscReading,
 		parity: {
@@ -365,12 +370,28 @@ for (const live of liveRows) {
 	});
 }
 
+const liveSlugs = new Set(rows.map((row) => row.canonical_slug));
+const localOnly = [...localDrafts.entries()]
+	.filter(([slug]) => !liveSlugs.has(slug))
+	.map(([slug, local]) => ({
+		canonical_slug: slug,
+		local_draft: path.relative(REPO_ROOT, local.filePath)
+	}))
+	.sort((left, right) => left.canonical_slug.localeCompare(right.canonical_slug));
+const liveWithoutLocal = rows
+	.filter((row) => !row.local_draft)
+	.map((row) => ({
+		canonical_slug: row.canonical_slug,
+		published: row.published
+	}));
+
 const report = {
 	generated_at: new Date().toISOString(),
 	read_only: true,
 	filters: {
 		person: personFilter || null,
-		deep_signals: !skipDeep
+		deep_signals: !skipDeep,
+		include_unpublished: includeUnpublished
 	},
 	gsc: {
 		run_date: gsc.run_date,
@@ -379,7 +400,12 @@ const report = {
 		case_insensitive_aggregation: true
 	},
 	summary: {
-		published_rows: rows.length,
+		live_rows: rows.length,
+		published_rows: rows.filter((row) => row.published).length,
+		unpublished_rows: rows.filter((row) => !row.published).length,
+		local_drafts: localDrafts.size,
+		local_only: localOnly.length,
+		live_without_local: liveWithoutLocal.length,
 		local_content_matches: rows.filter((row) => row.parity.content_match).length,
 		local_metadata_matches: rows.filter((row) => row.parity.metadata_match).length,
 		lastmod_matches: rows.filter((row) => row.parity.lastmod_match).length,
@@ -392,6 +418,8 @@ const report = {
 			])
 		)
 	},
+	local_only: localOnly,
+	live_without_local: liveWithoutLocal,
 	rows
 };
 

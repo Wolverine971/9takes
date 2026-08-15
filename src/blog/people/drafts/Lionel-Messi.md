@@ -187,6 +187,8 @@ The evidence:
 
 That sentence is the Nine speaking. Not the athlete. The person who wants, above all else, to not disturb the peace.
 
+<EnneagramTypeDossier />
+
 ## The Reluctant King of Barcelona's Dressing Room
 
 Financial Times journalist Simon Kuper described the paradox: "He feels that, against his will, he's had to become a decision maker when he'd rather just be a player."

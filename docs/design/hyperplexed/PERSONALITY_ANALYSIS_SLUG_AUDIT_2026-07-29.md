@@ -189,3 +189,24 @@ single effects moment. **Patterns: P3 + P4 + P19.**
   exposes 12 links when opened, remains overflow-safe, and returns cleanly to its closed state.
 - `pnpm check` passes with 0 errors and 132 existing warnings. Prettier and the Svelte autofixer report
   no new findings. Radius lint remains blocked only by two unrelated existing admin-route violations.
+
+### 2026-08-15 explicit dossier-placement follow-up
+
+The route no longer adds a second shelf and duplicate type kicker around `EnneagramTypeDossier`.
+The dossier now owns its identity and visual surface; the route supplies only editorial spacing.
+This removes the repeated “Enneagram Type N” framing and makes the module read as a deliberate break
+inside the essay instead of a card inside another card. **Patterns: P4 + P6.**
+
+Placement is now author-controlled through an explicit `<EnneagramTypeDossier />` marker in each
+personality draft. A ten-profile review batch places the dossier inside the section that establishes
+the person's Enneagram type: Elon Musk, Donald Trump, Dua Lipa, Zendaya, Cristiano Ronaldo, Jordan
+Peterson, Lionel Messi, Adele, Selena Gomez, and Beyoncé Knowles. Elon's dossier and first-hand
+reasoning card are separated by a heading and several paragraphs so two feature modules never land
+back-to-back.
+
+- Local Adela passed at 1440×1000 and 390×844 in dark mode. The dossier's direct parent computes with
+  no background or border, and the 390px layout has no horizontal overflow.
+- A targeted parser test verifies exactly one dossier marker per reviewed profile, within the
+  profile's type-analysis section, plus the staggered Elon reasoning card.
+- `pnpm check` passes with 0 errors and 132 existing warnings. The targeted parser suite passes all
+  41 tests. Radius lint remains blocked only by the two unrelated existing admin-route violations.

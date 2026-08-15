@@ -7,6 +7,7 @@ import {
 	buildPublishCheckResult,
 	buildNonPublishUpdatePlan,
 	buildPeopleManagedSnapshot,
+	cleanupContent,
 	countPublishableSections,
 	countPublishableWords,
 	extractJsonLd,
@@ -70,7 +71,64 @@ describe('personBlogParser', () => {
 		const filePath = path.resolve(process.cwd(), 'src/blog/people/drafts/Elon-Musk.md');
 		const parsed = await parseMarkdownFile(filePath);
 
+		expect(parsed.content).toContain('<EnneagramTypeDossier />');
 		expect(parsed.content).toContain('<DJReadCard readId="elon-musk" />');
+		expect(parsed.content).toContain('<EvidenceFigure evidenceId="elon-model-3-launch-2017" />');
+	});
+
+	it('keeps the reviewed ten-profile dossier batch inside each type-analysis section', async () => {
+		const files = [
+			'Elon-Musk.md',
+			'Donald-Trump.md',
+			'Dua-Lipa.md',
+			'Zendaya.md',
+			'Cristiano-Ronaldo.md',
+			'Jordan-Peterson.md',
+			'Lionel-Messi.md',
+			'Adele.md',
+			'Selena-Gomez.md',
+			'Beyonce-Knowles.md'
+		];
+
+		for (const file of files) {
+			const parsed = await parseMarkdownFile(
+				path.resolve(process.cwd(), 'src/blog/people/drafts', file)
+			);
+			const slotIndex = parsed.content.indexOf('<EnneagramTypeDossier />');
+			const typeSectionIndex = parsed.content.lastIndexOf('\n## What is ', slotIndex);
+			const nextSectionIndex = parsed.content.indexOf('\n## ', slotIndex);
+
+			expect(slotIndex, `${file} should contain one dossier slot`).toBeGreaterThan(-1);
+			expect(
+				parsed.content.match(/<EnneagramTypeDossier\s*\/>/g),
+				`${file} should contain exactly one dossier slot`
+			).toHaveLength(1);
+			expect(
+				typeSectionIndex,
+				`${file} slot should follow its type-analysis heading`
+			).toBeGreaterThan(-1);
+			expect(
+				nextSectionIndex,
+				`${file} slot should precede the next article section`
+			).toBeGreaterThan(slotIndex);
+		}
+
+		const elon = await parseMarkdownFile(
+			path.resolve(process.cwd(), 'src/blog/people/drafts/Elon-Musk.md')
+		);
+		expect(elon.content.indexOf('<DJReadCard readId="elon-musk" />')).toBeGreaterThan(
+			elon.content.indexOf('The BBC interview shows both the strength and the limit of this habit.')
+		);
+	});
+
+	it('does not strip authored component tags during content cleanup', () => {
+		const source = `<BlogPurpose />
+<QuickAnswer question="What type?">Type 5.</QuickAnswer>
+<EvidenceFigure evidenceId="example" />
+<DJReadCard readId="example" />
+<EnneagramTypeDossier />`;
+
+		expect(cleanupContent(source)).toBe(source);
 	});
 
 	it('filters out templates and research helpers from full person pushes', () => {
@@ -574,6 +632,106 @@ TODO: add source.
 			});
 			expect(rpc).not.toHaveBeenCalled();
 			expect(from).toHaveBeenCalledTimes(1);
+		});
+
+		it('atomically syncs one explicit draft while preserving protected live fields', async () => {
+			const syncedEntry = {
+				...entry,
+				content: 'New body with <EnneagramTypeDossier />'
+			};
+			const verified = {
+				...existing,
+				title: syncedEntry.title,
+				content: syncedEntry.content
+			};
+			const blogLookup = {
+				ilike: vi.fn().mockReturnValue({
+					maybeSingle: vi.fn().mockResolvedValue({ data: existing, error: null })
+				}),
+				eq: vi.fn().mockReturnValue({
+					maybeSingle: vi.fn().mockResolvedValue({ data: verified, error: null })
+				})
+			};
+			const historyLookup: any = {};
+			historyLookup.eq = vi.fn().mockReturnValue(historyLookup);
+			historyLookup.order = vi.fn().mockReturnValue(historyLookup);
+			historyLookup.limit = vi.fn().mockReturnValue(historyLookup);
+			historyLookup.maybeSingle = vi.fn().mockResolvedValue({
+				data: { id: 1, new_content: syncedEntry.content, changed_at: '2026-08-15' },
+				error: null
+			});
+			const from = vi.fn((table: string) => ({
+				select: vi
+					.fn()
+					.mockReturnValue(table === 'blogs_famous_people_history' ? historyLookup : blogLookup)
+			}));
+			const rpc = vi.fn().mockResolvedValue({ error: null });
+
+			const result = await insertIntoSupabase([syncedEntry], {
+				sync: true,
+				supabase: { from, rpc } as any
+			});
+
+			expect(result).toMatchObject({ updated: 1, errors: [] });
+			expect(rpc).toHaveBeenCalledWith(
+				'update_blogs_famous_people_if_unchanged',
+				expect.objectContaining({
+					p_id: existing.id,
+					p_patch: {
+						title: syncedEntry.title,
+						content: syncedEntry.content
+					}
+				})
+			);
+			expect(verified.lastmod).toBe(existing.lastmod);
+		});
+
+		it('bulk syncs the corpus and inserts a missing draft as unpublished', async () => {
+			const matchingEntry = {
+				...existing,
+				enneagram: 3,
+				_has_content_quality: false,
+				_has_valid_content_quality: true,
+				_explicit_fields: ['content']
+			} as any;
+			const missingEntry = {
+				...matchingEntry,
+				id: undefined,
+				person: 'missing-person',
+				loc: 'https://9takes.com/personality-analysis/missing-person',
+				title: 'Missing person',
+				enneagram: 4,
+				content: 'New unpublished draft'
+			};
+			const insert = vi.fn().mockResolvedValue({ error: null });
+			const from = vi.fn(() => ({
+				select: vi.fn().mockReturnValue({
+					ilike: vi.fn((_field: string, person: string) => ({
+						maybeSingle: vi.fn().mockResolvedValue({
+							data: person === existing.person ? existing : null,
+							error: null
+						})
+					}))
+				}),
+				insert
+			}));
+			const rpc = vi.fn().mockResolvedValue({ error: null });
+
+			const result = await insertIntoSupabase([matchingEntry, missingEntry], {
+				syncAll: true,
+				supabase: { from, rpc } as any
+			});
+
+			expect(result).toMatchObject({
+				processed: 2,
+				updated: 0,
+				inserted: 1,
+				skipped: 1,
+				errors: []
+			});
+			expect(insert).toHaveBeenCalledWith(
+				expect.objectContaining({ person: 'missing-person', published: false })
+			);
 		});
 	});
 });

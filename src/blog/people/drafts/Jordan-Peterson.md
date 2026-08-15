@@ -134,6 +134,8 @@ Third, 99th percentile orderliness. This is the single most diagnostic Big Five 
 
 A necessary acknowledgment: Peterson is a personality psychologist who co-authored the Big Five Aspects Scale. He considers the Big Five the only framework with serious scientific backing and would almost certainly view the Enneagram as lacking psychometric rigor. Fair enough. What the Enneagram offers is a lens for examining motivational patterns and internal fears, the dynamics that factor-analytic models measure from the outside but that typological systems attempt to describe from the inside.
 
+<EnneagramTypeDossier />
+
 ## The Inner World: What Drives Peterson
 
 ### The Man Who Cries on Camera

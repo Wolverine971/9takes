@@ -1,6 +1,6 @@
 {
 	"schema_version": 1,
-	"updated_at": "2026-07-26",
+	"updated_at": "2026-08-15",
 	"items": [
 		{
 			"id": "elon-model-3-launch-2017",
@@ -38,28 +38,28 @@
 			"id": "elon-talulah-riley-childhood-quote",
 			"blog_slug": "elon-musk",
 			"kind": "quote-portrait",
-			"label": "Elon + Talulah · 2015",
+			"label": "Talulah Riley · 2009",
 			"image": {
-				"src": "/blog-enrichment/elon-musk/talulah-riley-elon-musk-2015.webp",
-				"alt": "Talulah Riley and Elon Musk standing together beside an illuminated robot at Musk's 2015 birthday party",
-				"width": 1000,
-				"height": 1277,
-				"object_position": "50% 44%",
+				"src": "/blog-enrichment/elon-musk/talulah-riley-2009.webp",
+				"alt": "Portrait of Talulah Riley on the set of St. Trinian's 2 in August 2009",
+				"width": 960,
+				"height": 1552,
+				"object_position": "50% 28%",
 				"source": {
-					"name": "Superhero or Supervillain? The Elon Musk interview",
-					"url": "https://commons.wikimedia.org/wiki/File:Superhero_or_Supervillain%3F_The_Elon_Musk_interview.jpg",
-					"author": "Steve Jurvetson",
+					"name": "Talulah Riley on the set of St. Trinian's 2",
+					"url": "https://commons.wikimedia.org/wiki/File:TalulahRileyAug09.jpg",
+					"author": "rodwey2004",
 					"publisher": "Wikimedia Commons",
-					"date_published": "2015-08-08"
+					"date_published": "2009-08-27"
 				},
 				"rights": {
 					"status": "licensed",
-					"creator": "Steve Jurvetson",
-					"license": "CC BY 2.0",
-					"license_url": "https://creativecommons.org/licenses/by/2.0/",
-					"attribution": "Steve Jurvetson, CC BY 2.0, via Wikimedia Commons",
+					"creator": "rodwey2004",
+					"license": "CC BY-SA 2.0",
+					"license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+					"attribution": "rodwey2004, CC BY-SA 2.0, via Wikimedia Commons",
 					"modifications": ["resized", "converted to WebP"],
-					"retrieved_at": "2026-07-26"
+					"retrieved_at": "2026-08-15"
 				}
 			},
 			"quote": {
@@ -74,8 +74,8 @@
 					"date_published": "2023-09-12"
 				}
 			},
-			"context": "Riley and Musk together at his 2015 birthday party. This is relationship-era context, not the night she describes.",
-			"presentation": { "variant": "feature" }
+			"context": "Riley photographed on the set of St. Trinian's 2 in August 2009.",
+			"presentation": { "variant": "portrait" }
 		},
 		{
 			"id": "elon-kimbal-musk-empathy-quote",
@@ -117,7 +117,7 @@
 					"date_published": "2022-04-25"
 				}
 			},
-			"presentation": { "variant": "compact" }
+			"presentation": { "variant": "portrait" }
 		},
 		{
 			"id": "elon-justine-musk-intimacy-quote",
@@ -167,7 +167,7 @@
 				}
 			},
 			"context": "From her first-person account of their marriage.",
-			"presentation": { "variant": "compact" }
+			"presentation": { "variant": "portrait" }
 		},
 		{
 			"id": "elon-walter-isaacson-conference-room-source",
@@ -210,7 +210,7 @@
 				}
 			},
 			"context": "Isaacson attributes the conference-room account to Jon McNeill, Tesla's president at the time.",
-			"presentation": { "variant": "compact" }
+			"presentation": { "variant": "portrait" }
 		}
 	]
 }

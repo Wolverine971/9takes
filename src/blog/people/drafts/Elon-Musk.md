@@ -185,8 +185,6 @@ Musk built a life where retreat should be impossible. His decisions reach factor
 
 <EnneagramTypeDossier />
 
-<DJReadCard readId="elon-musk" />
-
 ## DJ's reasoning: his mind is his shelter
 
 <span id="dj-reasoning"></span>
@@ -196,6 +194,8 @@ What keeps standing out to me is the space before Musk answers. In long-form int
 Musk has said he wants engineering and physics answers he can count on and that he tries to minimize being ["confidently wrong"](https://lexfridman.com/elon-musk-4-transcript). In another interview, he described an operating sequence that begins by questioning every requirement, then removing what should not exist before optimizing what remains. He also acknowledged that he has made the exact mistake he warns engineers against. [The algorithm is built to find the faulty assumption](https://lexfridman.com/?p=5969), including his own.
 
 The BBC interview shows both the strength and the limit of this habit. When the interviewer claimed hateful content had increased on Twitter, Musk repeatedly asked for one specific example. When none came, curiosity hardened into confrontation. Later in the same conversation, he acknowledged that the criticism of his leadership was hurtful, then almost immediately reframed it as a feedback loop he should not lose. [The exchange matters because it shows emotion becoming information](https://www.rev.com/transcripts/elon-musk-interview-with-the-bbc-4-11-23-transcript). I do not read Musk as somebody who feels nothing. I read him as somebody whose mind tries to make the feeling usable.
+
+<DJReadCard readId="elon-musk" />
 
 His learning pattern has the same shape. Before SpaceX, he read technical books and questioned people with deep aerospace knowledge. In a [Tsinghua University dialogue](https://www.sem.tsinghua.edu.cn/en/info/1135/2367.htm), he walked backward from historical rocket costs to raw materials and reusability. Jim Cantrell, an early SpaceX executive, described Musk absorbing rocket-science texts and interrogating experts until he could work inside the field himself. [Books, experts, and experiments became one intensive map-building process](https://time.com/4033395/elon-musk-learning/).
 

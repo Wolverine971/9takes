@@ -596,23 +596,14 @@
 			</div>
 
 			{#if typeDossier && dossierSplit.hasSlot}
-				<!-- The author placed the dossier here in the markdown. The block
-				     breaks out of the prose measure onto its own contrasting "shelf"
-				     so it reads as a distinct exhibit attached to the blog. -->
-				<div class="type-dossier-block">
-					<SectionKicker
-						tone="data"
-						label={typeNameUpper
-							? `ENNEAGRAM TYPE ${typeNum} · ${typeNameUpper}`
-							: `ENNEAGRAM TYPE ${typeNum}`}
-					/>
-					<EnneagramTypeDossier
-						{...typeDossier}
-						showCta={true}
-						ctaHref={`/enneagram-corner/enneagram-type-${typeNum}`}
-						ctaLabel={`Read the full Type ${typeNum} breakdown`}
-					/>
-				</div>
+				<!-- The component owns its complete visual hierarchy. The former route-level
+				     shelf repeated the type label and added a redundant third container. -->
+				<EnneagramTypeDossier
+					{...typeDossier}
+					showCta={true}
+					ctaHref={`/enneagram-corner/enneagram-type-${typeNum}`}
+					ctaLabel={`Read the full Type ${typeNum} breakdown`}
+				/>
 			{/if}
 
 			{#if dossierSplit.after}
@@ -1183,38 +1174,15 @@
 		overflow-x: hidden;
 	}
 
-	/* Display-case shelf. The dossier is injected mid-prose, and the card alone
-	   (warm-stone on the near-black section, or white on cream) barely separates
-	   from the page — it reads as more body content. Mounting it on a tinted tray
-	   creates three layers of depth (section → shelf → card) plus a labelled
-	   header, so the whole thing reads as a distinct exhibit attached to the
-	   article rather than copy slapped into the flow. */
-	.type-dossier-block {
-		display: flex;
-		flex-direction: column;
-		gap: 0.9rem;
+	/* The dossier already owns its border, surface, and type label. Give that
+	   single component a deliberate editorial pause without wrapping it in a
+	   second labelled shell. */
+	.breakdown-inner :global(.type-dossier) {
 		margin: 3.75rem 0;
-		padding: 1.75rem 1.75rem 2rem;
-		background: var(--night-mid);
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
-
-		/* The card carries its own outer margin for standalone use (enneagram-corner
-		   hero). On the shelf the tray padding supplies the spacing, so zero it. */
-		:global(.type-dossier) {
-			margin: 0;
-		}
 
 		@media (max-width: 768px) {
 			margin: 2.5rem 0;
-			padding: 1rem 1rem 1.25rem;
-			border-radius: 16px;
 		}
-	}
-
-	:global(html.light) .type-dossier-block {
-		box-shadow: 0 16px 40px rgba(120, 113, 108, 0.16);
 	}
 
 	/* Prose resumes after the injected dossier — the dossier already supplies

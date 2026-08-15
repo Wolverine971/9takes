@@ -140,6 +140,8 @@ Their core fear isn't losing. It's being seen as ordinary. Being exposed, despit
 
 This is why, at 41, with more than 970 goals already in the books, Ronaldo trains harder than teammates half his age. Why the most decorated player in Champions League history still claims he needs to prove critics wrong. The proof is never finished, because the wound it's covering doesn't fully close.
 
+<EnneagramTypeDossier />
+
 ## The Wound: Madeira, the Father, the Loss
 
 Cristiano Ronaldo dos Santos Aveiro was born February 5, 1985, in Funchal, the capital of the Portuguese island of Madeira. He was the fourth child of a working-class family that often skipped birthdays and Christmases. Four kids shared one bedroom. His mother, Maria Dolores, held down jobs as a cook and a cleaning woman. His father, José Dinis Aveiro, worked as a municipal gardener and a part-time kit man for the local football club.

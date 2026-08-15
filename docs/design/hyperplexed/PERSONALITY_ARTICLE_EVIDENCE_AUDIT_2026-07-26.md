@@ -63,3 +63,37 @@ the Elon Musk evidence set as its first proof.
 The local Elon draft contains the five component tags, but Supabase remains the live source of truth.
 The production article must be compared, synced, and visually rechecked before the enrichment tracker
 moves from `enriched-local` to `published`.
+
+## Editorial Portrait Follow-up — 2026-08-15
+
+A live-article review showed that the compact face-and-quote rows were too small at reading scale. The
+speaker image read as a thumbnail, the quote sat in a separate white strip, and the public attribution
+resembled implementation metadata rather than an editorial caption. This follow-up supersedes the
+compact treatment for quoted people.
+
+- [x] **Portrait hierarchy:** every quote-bearing evidence hook now uses one portrait-led composition.
+      The image owns roughly two-thirds of the desktop card and becomes the full-width lead image on mobile;
+      the quote, speaker relationship, context, and sources follow in a fixed priority order. → P4+P10
+- [x] **Speaker relevance:** Talulah Riley's dark group photograph was replaced with a clear 2009
+      portrait of Riley from Wikimedia Commons, with corrected CC BY-SA 2.0 attribution and crop metadata.
+      The Justine Musk, Kimbal Musk, and Walter Isaacson images already identify their speakers directly. →
+      P6+P10
+- [x] **Caption cleanup:** redundant labels were removed from quote cards. Attribution is now two quiet,
+      human-readable lines (`Quote source` and `Photo`) with the publication year, license or fair-use
+      status, and a concise `edited for web` change notice. The full rights ledger remains in the registry.
+      → P4+P6
+- [x] **Responsive geometry:** portrait cards use a stable 768×512 desktop frame and a stacked mobile
+      fallback, preventing source-image aspect ratios from making cards arbitrarily tall. → P1+P2+P10
+
+### Follow-up verification
+
+- Full Elon article preview passes in light mode at 1440×1000 and 390×844.
+- Desktop portrait cards render at 768×512 with a 470×510 image region; mobile renders a 324×374 lead
+  image above the caption.
+- All five evidence images load at natural dimensions after lazy scrolling; no duplicate IDs,
+  horizontal overflow, or browser warnings/errors.
+- Focused tests pass as part of the 693-test Vitest run; Svelte autofixer and `lint:colors` pass.
+- `lint:radius` remains blocked by two unrelated existing admin-page declarations in
+  `admin/enneagram-campaign/+page.svelte` and `admin/question-distribution/+page.svelte`.
+- Captures: `/private/tmp/elon-evidence-editorial-desktop-light.png` and
+  `/private/tmp/elon-evidence-editorial-mobile-light.png`.

@@ -212,6 +212,8 @@ At her healthiest — her integration toward Type 2 — the power becomes nurtur
 
 The protector and the wall are the same structure. One faces outward. The other faces in.
 
+<EnneagramTypeDossier />
+
 ## The Machine She Built Herself
 
 "I learned the power of saying no. I took control of my independence at 27 and started Parkwood Entertainment."

@@ -138,6 +138,8 @@ Zendaya runs the productive version of it. The scanning never stops. What change
 
 That single conversion dissolves most of what looks contradictory about her.
 
+<EnneagramTypeDossier />
+
 **Why does she seem so grounded at a level of fame that unbalances almost everyone?** Because acclaim is not what she is tracking. She is tracking what is still unsecured, and something always is.
 
 **Why does every career move look calculated?** Because she does not walk into a room she has not already mapped the exit from. She built the Disney exit at 17, and she booked the exit from 2026 before 2026 had finished happening.

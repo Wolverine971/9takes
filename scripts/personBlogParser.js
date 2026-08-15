@@ -1,7 +1,11 @@
 // scripts/personBlogParser.js
 //
 // Usage:
+//   node scripts/personBlogParser.js                       # Sync all local drafts; insert missing as unpublished
+//   node scripts/personBlogParser.js --insert-missing      # Insert missing drafts only
 //   node scripts/personBlogParser.js Malcolm-Gladwell   # Dry-run one existing person (default)
+//   node scripts/personBlogParser.js Malcolm-Gladwell --sync # Atomically sync reviewed draft fields
+//   node scripts/personBlogParser.js --sync-all            # Explicit form of the default bulk sync
 //   node scripts/personBlogParser.js --changed          # Dry-run changed drafts
 //   node scripts/personBlogParser.js --changed Malcolm-Gladwell
 //   node scripts/personBlogParser.js Malcolm-Gladwell --apply \
@@ -107,6 +111,8 @@ dotenv.config();
  * @typedef {{
  *   gradesOnly?: boolean,
  *   apply?: boolean,
+ *   sync?: boolean,
+ *   syncAll?: boolean,
  *   expectedContentHash?: string | null,
  *   approvedFields?: string[],
  *   publishSync?: boolean,
@@ -820,7 +826,10 @@ export function extractJsonLd(content) {
 }
 
 /**
- * Clean up HTML content by removing imported components and their HTML
+ * Clean up build-only markup while preserving authored custom component tags.
+ * Tags such as BlogPurpose, EvidenceFigure, DJReadCard, and
+ * EnneagramTypeDossier are interpreted later by blogContentProcessor and must
+ * reach Supabase unchanged so their author-selected positions survive.
  * @param {string} content - HTML content
  * @returns {string} - Cleaned HTML content
  */
@@ -830,9 +839,6 @@ export function cleanupContent(content) {
 
 	// Remove PopCard and other component HTML
 	cleanedContent = cleanedContent.replace(/<div\s+style="display: flex;[\s\S]*?<\/div>/g, '');
-
-	// Remove BlogPurpose component
-	cleanedContent = cleanedContent.replace(/<BlogPurpose\s*\/>/g, '');
 
 	// Remove HTML comments
 	cleanedContent = cleanedContent.replace(/<!--[\s\S]*?-->/g, '');
@@ -1766,9 +1772,12 @@ function previewPeopleFieldValue(value, field) {
 
 /**
  * @param {ReturnType<typeof buildNonPublishUpdatePlan>} plan
+ * @param {{ protectedDriftMode?: 'block' | 'preserve', approvalRequired?: boolean }} [options]
  * @returns {void}
  */
-export function printNonPublishUpdatePlan(plan) {
+export function printNonPublishUpdatePlan(plan, options = {}) {
+	const protectedDriftMode = options.protectedDriftMode || 'block';
+	const approvalRequired = options.approvalRequired !== false;
 	console.log(`\nPeople update preview: ${plan.person} (id=${String(plan.id)})`);
 	console.log(`Expected live content hash: ${plan.expectedContentHash}`);
 	console.log(`Local parsed content hash:  ${plan.localContentHash}`);
@@ -1776,7 +1785,9 @@ export function printNonPublishUpdatePlan(plan) {
 		`Protected fields: ${NON_PUBLISH_LOCKED_FIELDS.join(', ')} (preserved by code and RPC)`
 	);
 	if (plan.protectedDrift.length > 0) {
-		console.log('BLOCKED protected-field drift:');
+		console.log(
+			`${protectedDriftMode === 'preserve' ? 'PRESERVED' : 'BLOCKED'} protected-field drift:`
+		);
 		for (const drift of plan.protectedDrift) {
 			console.log(
 				JSON.stringify({
@@ -1801,7 +1812,13 @@ export function printNonPublishUpdatePlan(plan) {
 			})
 		);
 	}
-	console.log(`Approval token: --approve-fields=${plan.diff.map(({ field }) => field).join(',')}`);
+	if (approvalRequired) {
+		console.log(
+			`Approval token: --approve-fields=${plan.diff.map(({ field }) => field).join(',')}`
+		);
+	} else {
+		console.log('Reviewed sync will atomically apply these parser-managed fields.');
+	}
 }
 
 /**
@@ -1938,10 +1955,10 @@ function getInsertBlockReason(entry) {
 /**
  * Preview, insert, or atomically update blogs_famous_people rows.
  *
- * Insert-missing mode (the default for a bare `pnpm push:people`) creates rows for
- * drafts that have no row yet, always as `published: false`, and never touches a
- * row that already exists. Editing an existing person still requires the
- * fail-closed `--apply` path so live pages can't be overwritten by draft drift.
+ * The default bulk sync atomically updates parser-managed fields for every local
+ * draft and creates missing rows as `published: false`. Protected release and
+ * identity fields are never patched. `--insert-missing` retains the narrower
+ * create-only behavior, while `--sync` and `--apply` target one existing person.
  * @param {PersonBlogEntry[]} entries
  * @param {InsertIntoSupabaseOptions} [options={}]
  * @returns {Promise<InsertIntoSupabaseResult>}
@@ -1949,9 +1966,12 @@ function getInsertBlockReason(entry) {
 export async function insertIntoSupabase(entries, options = {}) {
 	const supabase = options.supabase || createSupabaseServiceClient();
 	const gradesOnly = options.gradesOnly === true;
-	const apply = options.apply === true;
+	const sync = options.sync === true;
+	const syncAll = options.syncAll === true;
+	const reviewedSync = sync || syncAll;
+	const apply = options.apply === true || reviewedSync;
 	const publishSync = options.publishSync === true;
-	const insertMissing = options.insertMissing === true;
+	const insertMissing = options.insertMissing === true || syncAll;
 	/** @type {InsertIntoSupabaseResult} */
 	const result = {
 		processed: entries.length,
@@ -1965,13 +1985,16 @@ export async function insertIntoSupabase(entries, options = {}) {
 		errors: []
 	};
 
-	if (apply && !publishSync && entries.length !== 1) {
+	if (apply && !publishSync && !syncAll && entries.length !== 1) {
 		throw new Error('Fail-closed apply requires exactly one person');
+	}
+	if (reviewedSync && publishSync) {
+		throw new Error('Reviewed draft sync cannot be combined with publish sync');
 	}
 	if (publishSync && !apply) {
 		throw new Error('Internal publish sync requires apply mode');
 	}
-	if (insertMissing && (apply || publishSync || gradesOnly)) {
+	if (insertMissing && ((apply && !syncAll) || publishSync || gradesOnly)) {
 		throw new Error(
 			'Insert-missing mode is standalone; do not combine it with apply/publish/grades'
 		);
@@ -1980,11 +2003,15 @@ export async function insertIntoSupabase(entries, options = {}) {
 		await assertBlogHistorySchemaCompatible(supabase);
 	}
 
-	const modeLabel = apply
-		? 'Applying'
-		: insertMissing
-			? 'Syncing new people from'
-			: 'Dry-run previewing';
+	const modeLabel = syncAll
+		? 'Bulk syncing'
+		: sync
+			? 'Syncing reviewed'
+			: apply
+				? 'Applying'
+				: insertMissing
+					? 'Syncing new people from'
+					: 'Dry-run previewing';
 	console.log(
 		`${modeLabel} ${entries.length} people blog entr${entries.length === 1 ? 'y' : 'ies'}...`
 	);
@@ -2054,20 +2081,41 @@ export async function insertIntoSupabase(entries, options = {}) {
 			}
 
 			// Insert-missing mode never edits a row that already exists; updating an
-			// existing person stays behind the fail-closed --apply gate.
-			if (insertMissing) {
+			// existing person stays behind an explicit single-person update mode.
+			if (insertMissing && !syncAll) {
 				result.existingUntouched += 1;
 				continue;
 			}
 
 			const plan = buildNonPublishUpdatePlan(existing, entry, { gradesOnly });
-			printNonPublishUpdatePlan(plan);
+			if (syncAll && plan.diff.length === 0) {
+				result.skipped += 1;
+				continue;
+			}
+			if (syncAll) {
+				console.log(`Syncing ${entry.person}: ${plan.diff.map(({ field }) => field).join(', ')}`);
+			} else {
+				printNonPublishUpdatePlan(plan, {
+					protectedDriftMode: sync ? 'preserve' : 'block',
+					approvalRequired: !sync
+				});
+			}
 			if (!apply) continue;
 
-			assertNonPublishPlanApproved(plan, {
-				expectedContentHash: options.expectedContentHash,
-				approvedFields: options.approvedFields
-			});
+			if (reviewedSync) {
+				if (plan.protectedDrift.length > 0) {
+					console.warn(
+						`Preserving protected live fields for ${entry.person}: ${plan.protectedDrift
+							.map(({ field }) => field)
+							.join(', ')}`
+					);
+				}
+			} else {
+				assertNonPublishPlanApproved(plan, {
+					expectedContentHash: options.expectedContentHash,
+					approvedFields: options.approvedFields
+				});
+			}
 			if (plan.diff.length === 0) {
 				console.log(`No-op verified: ${entry.person}`);
 				result.skipped += 1;
@@ -2153,6 +2201,9 @@ async function main() {
 		const jsonOutput = args.includes('--json');
 		const skipGenAll = args.includes('--skip-gen-all');
 		const apply = args.includes('--apply');
+		const sync = args.includes('--sync');
+		const syncAllRequested = args.includes('--sync-all');
+		const insertMissingOnly = args.includes('--insert-missing');
 		const explicitDryRun = args.includes('--dry-run');
 		const expectedContentHashArg = args.find((arg) => arg.startsWith('--expected-content-hash='));
 		const approvedFieldsArg = args.find((arg) => arg.startsWith('--approve-fields='));
@@ -2163,6 +2214,8 @@ async function main() {
 			.map((field) => field.trim())
 			.filter(Boolean);
 		const personFilter = args.find((arg) => !arg.startsWith('--')); // Optional: e.g. "Malcolm-Gladwell"
+		const syncAll =
+			syncAllRequested || args.length === 0 || (args.length === 1 && args[0] === '--skip-gen-all');
 		const normalizedPersonFilter = normalizePersonalitySlug(personFilter);
 		/** @type {PersonBlogEntry[]} */
 		let blogEntries = [];
@@ -2173,7 +2226,7 @@ async function main() {
 					`${publishCheck ? '--publish-check' : '--record-grade-stability'} requires a person slug`
 				);
 			}
-			if (publish || apply || gradesOnly || changedOnly) {
+			if (publish || apply || sync || syncAll || insertMissingOnly || gradesOnly || changedOnly) {
 				throw new Error('Publish checks and stability recording are standalone operations');
 			}
 			if (publishCheck) {
@@ -2210,7 +2263,15 @@ async function main() {
 			if (gradesOnly) {
 				throw new Error('--publish cannot be combined with --grades-only');
 			}
-			if (apply || explicitDryRun || expectedContentHashArg || approvedFieldsArg) {
+			if (
+				apply ||
+				sync ||
+				syncAll ||
+				insertMissingOnly ||
+				explicitDryRun ||
+				expectedContentHashArg ||
+				approvedFieldsArg
+			) {
 				throw new Error(
 					'--publish is a distinct release workflow; do not combine it with non-publish preview/apply flags'
 				);
@@ -2222,8 +2283,32 @@ async function main() {
 		if (apply && explicitDryRun) {
 			throw new Error('--apply cannot be combined with --dry-run');
 		}
+		if (sync && (apply || explicitDryRun || gradesOnly || changedOnly)) {
+			throw new Error('--sync is a standalone single-person update mode');
+		}
+		if (
+			syncAll &&
+			(sync || apply || explicitDryRun || gradesOnly || changedOnly || insertMissingOnly)
+		) {
+			throw new Error('--sync-all is a standalone whole-corpus update mode');
+		}
+		if (
+			insertMissingOnly &&
+			(apply || sync || explicitDryRun || gradesOnly || changedOnly || personFilter)
+		) {
+			throw new Error('--insert-missing is a standalone whole-corpus create-only mode');
+		}
 		if (apply && !personFilter) {
 			throw new Error('--apply requires an explicit single person slug');
+		}
+		if (sync && !personFilter) {
+			throw new Error('--sync requires an explicit single person slug');
+		}
+		if (syncAll && personFilter) {
+			throw new Error('--sync-all cannot be combined with a person slug');
+		}
+		if (sync && (expectedContentHashArg || approvedFieldsArg)) {
+			throw new Error('--sync performs its own atomic review; do not pass apply approval flags');
 		}
 		if (!apply && (expectedContentHashArg || approvedFieldsArg)) {
 			throw new Error(
@@ -2239,6 +2324,8 @@ async function main() {
 			}
 			console.log(`Found ${changedDraftFiles.length} changed draft files`);
 			blogEntries = await processBlogFiles(changedDraftFiles);
+		} else if (personFilter) {
+			blogEntries = await processBlogFiles([await findPersonDraftFile(personFilter)]);
 		} else {
 			const rootDir = 'src/blog/people/drafts';
 			blogEntries = await processBlogEntries(rootDir);
@@ -2255,15 +2342,17 @@ async function main() {
 			console.log(`Filtered to: ${normalizedPersonFilter}`);
 		}
 
-		// A bare `pnpm push:people` syncs drafts that have no row yet into the
-		// database as unpublished. --dry-run previews instead; --apply and --publish
-		// keep their existing fail-closed semantics for rows that already exist.
-		const insertMissing = !apply && !explicitDryRun && !gradesOnly;
+		// A bare `pnpm push:people` is the guarded whole-corpus sync. Missing rows
+		// are created unpublished, existing rows are atomically updated, and
+		// protected release/identity fields remain untouched.
+		const insertMissing = syncAll || insertMissingOnly;
 
 		console.log(`Found ${blogEntries.length} entries to process`);
 		const syncResult = await insertIntoSupabase(blogEntries, {
 			gradesOnly,
 			apply,
+			sync,
+			syncAll,
 			insertMissing,
 			expectedContentHash,
 			approvedFields
@@ -2274,8 +2363,11 @@ async function main() {
 
 		if (insertMissing) {
 			console.log('\n' + '='.repeat(60));
+			if (syncAll) console.log(`Updated existing: ${syncResult.updated}`);
 			console.log(`Inserted (unpublished): ${syncResult.inserted}`);
-			console.log(`Already in database, untouched: ${syncResult.existingUntouched}`);
+			if (insertMissingOnly) {
+				console.log(`Already in database, untouched: ${syncResult.existingUntouched}`);
+			}
 			console.log(`Blocked: ${syncResult.blocked.length}`);
 			for (const reason of syncResult.blocked) console.log(`  - ${reason}`);
 			console.log('='.repeat(60));
@@ -2290,6 +2382,11 @@ async function main() {
 				}
 			} else {
 				console.log('No new people to insert; famousTypes.ts already current.');
+			}
+			if (insertMissingOnly && syncResult.existingUntouched > 0) {
+				console.log(
+					'Existing rows were NOT updated. Sync one reviewed draft with: pnpm run push:people -- <Person> --sync'
+				);
 			}
 		}
 

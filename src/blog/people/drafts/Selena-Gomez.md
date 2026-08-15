@@ -126,6 +126,8 @@ For Selena, this manifests uniquely. She doesn't just _want_ peace; she **create
 
 But this peace-seeking nature was shaped long before fame found her.
 
+<EnneagramTypeDossier />
+
 ## The Roots: How Selena's Early Years Shaped Her Type 9 Core
 
 Born to teenage parents who divorced when she was just five, young Selena learned early to adapt. Named after Tejano singer Selena Quintanilla, she carried both the weight and inspiration of her namesake. This environment taught her a crucial Type 9 skill: **sensing emotional undercurrents** and adjusting accordingly.

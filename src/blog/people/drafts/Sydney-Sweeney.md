@@ -76,13 +76,19 @@ persona_title: "Hollywood's pressure-tested architect"
 path: src/blog/people/drafts/Sydney-Sweeney.md
 content_quality:
   hook: 9
-  enneagram: 9
-  evidence: 9
-  writing: 9
+  enneagram: 8
+  evidence: 8
+  writing: 8
   originality: 9
-  overall: 9.0
-  letter: A
-  graded_at: '2026-04-03'
+  discoverability: 9
+  overall: 8.5
+  letter: B+
+  rubric_version: 2
+  caps_applied: ['enneagram_no_rabbit_hole']
+  confidence: high
+  anchor: 'Matt-Smith draft (2026-06-28) — B band'
+  needs_review: false
+  graded_at: '2026-08-15'
 ---
 
 <p class="firstLetter">She was trending on Twitter. Strangers were calling her ugly.</p>

@@ -125,11 +125,12 @@ Closing copy.`);
 			props: { evidenceId: 'elon-kimbal-musk-empathy-quote' }
 		});
 		expect(result.content).toContain('data-evidence-id="elon-kimbal-musk-empathy-quote"');
-		expect(result.content).toContain('blog-evidence--compact');
+		expect(result.content).toContain('blog-evidence--portrait');
 		expect(result.content).toContain('Kimbal Musk');
-		expect(result.content).toContain('Source: What Elon Musk Really Believes');
+		expect(result.content).toContain('Quote source');
+		expect(result.content).toContain('What Elon Musk Really Believes');
 		expect(result.content).toContain('CC BY-SA 3.0');
-		expect(result.content).toContain('resized, converted to WebP');
+		expect(result.content).toContain('edited for web');
 	});
 
 	it("renders DJ's structured personality read before client mounting", async () => {

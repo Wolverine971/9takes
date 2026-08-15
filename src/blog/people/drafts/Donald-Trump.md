@@ -178,6 +178,8 @@ Trump has built his political campaigns unusually tightly around his personal br
 
 And the slogan that launched it all? _Make America Great Again._ Read through a Type 3 lens, it promises restoration of an image: return to greatness, win again. That interpretation does not exhaust the slogan's political meaning or explain why voters embraced it.
 
+<EnneagramTypeDossier />
+
 ## The Making of an Achiever: Trump's Childhood
 
 Biographers and relatives describe competition and toughness as central to Trump's upbringing, but no public account can reconstruct the emotional reality of his childhood with certainty.

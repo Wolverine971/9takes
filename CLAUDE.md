@@ -183,30 +183,30 @@ Admin access is enforced by `src/lib/server/adminAuth.ts` and layout `+layout.se
 
 ## API Routes (`src/routes/api/*`)
 
-| Path                              | Purpose                                      |
-| --------------------------------- | -------------------------------------------- |
-| `api/adder/`                                | Internal content/row adders                     |
-| `api/admin/`                                | Admin-only endpoints                            |
-| `api/analytics/`                            | Page analytics ingest + retrieval               |
-| `api/auth-shell/`                           | Client auth-shell state (user + admin flag)     |
-| `api/blog/`                                 | Blog read/write helpers                         |
-| `api/blog-versions/`                        | Famous-people version history                   |
-| `api/cron/process-reply-notifications/`     | Cron: deliver reply-notification emails         |
-| `api/cron/process-sequences/`               | Cron: advance email drip sequences              |
-| `api/cron/send-scheduled-emails/`           | Cron: send scheduled campaign emails            |
-| `api/cron/tag-chorus-questions/`            | Cron: async tagging for chorus questions        |
-| `api/email/re-permission/`                  | Reactivation re-permission yes/no links         |
-| `api/nine/mirror/`                          | Chorus mirror endpoint (nine takes)             |
-| `api/notifications/`                        | Notification read/unread state                  |
-| `api/person-suggestions/`                   | Public POST: famous-person suggestions          |
-| `api/questions/typeahead/`                  | Authenticated question typeahead (ES-backed)    |
-| `api/questions/upload-image/`               | Question image upload                           |
-| `api/reply-notifications/`                  | Reply-notification return + unsubscribe links   |
-| `api/search/`                               | Universal search endpoint                       |
-| `api/signups/`                              | Public POST: waitlist/email signups             |
-| `api/track/`                                | Event tracking (analytics pings, etc.)          |
-| `api/transcribe/`                           | Audio transcription (OpenRouter, rate-limited)  |
-| `api/update-questions/`                     | Webhook-auth'd question bulk update             |
+| Path                                    | Purpose                                        |
+| --------------------------------------- | ---------------------------------------------- |
+| `api/adder/`                            | Internal content/row adders                    |
+| `api/admin/`                            | Admin-only endpoints                           |
+| `api/analytics/`                        | Page analytics ingest + retrieval              |
+| `api/auth-shell/`                       | Client auth-shell state (user + admin flag)    |
+| `api/blog/`                             | Blog read/write helpers                        |
+| `api/blog-versions/`                    | Famous-people version history                  |
+| `api/cron/process-reply-notifications/` | Cron: deliver reply-notification emails        |
+| `api/cron/process-sequences/`           | Cron: advance email drip sequences             |
+| `api/cron/send-scheduled-emails/`       | Cron: send scheduled campaign emails           |
+| `api/cron/tag-chorus-questions/`        | Cron: async tagging for chorus questions       |
+| `api/email/re-permission/`              | Reactivation re-permission yes/no links        |
+| `api/nine/mirror/`                      | Chorus mirror endpoint (nine takes)            |
+| `api/notifications/`                    | Notification read/unread state                 |
+| `api/person-suggestions/`               | Public POST: famous-person suggestions         |
+| `api/questions/typeahead/`              | Authenticated question typeahead (ES-backed)   |
+| `api/questions/upload-image/`           | Question image upload                          |
+| `api/reply-notifications/`              | Reply-notification return + unsubscribe links  |
+| `api/search/`                           | Universal search endpoint                      |
+| `api/signups/`                          | Public POST: waitlist/email signups            |
+| `api/track/`                            | Event tracking (analytics pings, etc.)         |
+| `api/transcribe/`                       | Audio transcription (OpenRouter, rate-limited) |
+| `api/update-questions/`                 | Webhook-auth'd question bulk update            |
 
 Cron endpoints verify `CRON_SECRET`. The webhook endpoint verifies `PRIVATE_WEBHOOK_AUTH`.
 
@@ -371,29 +371,31 @@ RECAPTCHA_SECRET_KEY=
 
 Run via `pnpm <alias>` where available:
 
-| Command                                         | Purpose                                    |
-| ----------------------------------------------- | ------------------------------------------ |
-| `pnpm gen:types`                                | Generate TS types from blog frontmatter          |
-| `pnpm gen:famous-types`                         | Generate famous-people type data                 |
-| `pnpm gen:personality-image-map`                | Build personality → image slug map               |
-| `pnpm gen:sitemap`                              | Generate XML sitemap                             |
-| `pnpm gen:llms`                                 | Generate llms.txt                                |
-| `pnpm gen:corpus-stats`                         | Generate corpus stats                            |
-| `pnpm gen:crosslinks`                           | Build internal cross-link report                 |
-| `pnpm gen:search-index`                         | Index blogs into Supabase (guarded by env)       |
-| `pnpm gen:all`                                  | Format + all generators + blog index             |
-| `pnpm gen:chorus` / `:force`                    | Generate chorus content                          |
-| `pnpm gen:instagram-plan`                       | Build Instagram posting plan                     |
-| `pnpm marketing:queue`                          | Check marketing content queue                    |
-| `pnpm index:blogs` / `:dry` / `:force`          | Direct blog indexer (bypasses env guard)         |
-| `pnpm push:people`                              | Parse + push famous-people blog drafts           |
-| `pnpm regen:takes`                              | Regenerate per-type AI takes (comments_ai)       |
-| `pnpm portrait:check`                           | Preflight personality portrait assets            |
-| `pnpm audit:people-seo` / `audit:people-corpus` | People SEO / corpus audits                       |
-| `pnpm audit:blog-enrichment`                    | Blog enrichment status report                    |
-| `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB                |
-| `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links               |
-| `pnpm label-paths`                              | Annotate files with path comments                |
+| Command                                         | Purpose                                                             |
+| ----------------------------------------------- | ------------------------------------------------------------------- |
+| `pnpm gen:types`                                | Generate TS types from blog frontmatter                             |
+| `pnpm gen:famous-types`                         | Generate famous-people type data                                    |
+| `pnpm gen:personality-image-map`                | Build personality → image slug map                                  |
+| `pnpm gen:sitemap`                              | Generate XML sitemap                                                |
+| `pnpm gen:llms`                                 | Generate llms.txt                                                   |
+| `pnpm gen:corpus-stats`                         | Generate corpus stats                                               |
+| `pnpm gen:crosslinks`                           | Build internal cross-link report                                    |
+| `pnpm gen:search-index`                         | Index blogs into Supabase (guarded by env)                          |
+| `pnpm gen:all`                                  | Format + all generators + blog index                                |
+| `pnpm gen:chorus` / `:force`                    | Generate chorus content                                             |
+| `pnpm gen:instagram-plan`                       | Build Instagram posting plan                                        |
+| `pnpm marketing:queue`                          | Check marketing content queue                                       |
+| `pnpm index:blogs` / `:dry` / `:force`          | Direct blog indexer (bypasses env guard)                            |
+| `pnpm push:people`                              | Atomically sync all local people drafts; insert missing unpublished |
+| `pnpm push:people -- <Person> --sync`           | Atomically sync one reviewed existing people draft                  |
+| `pnpm push:people -- --insert-missing`          | Insert missing drafts without updating existing rows                |
+| `pnpm regen:takes`                              | Regenerate per-type AI takes (comments_ai)                          |
+| `pnpm portrait:check`                           | Preflight personality portrait assets                               |
+| `pnpm audit:people-seo` / `audit:people-corpus` | People SEO / corpus audits                                          |
+| `pnpm audit:blog-enrichment`                    | Blog enrichment status report                                       |
+| `pnpm supabase:normalize-personality-slugs`     | Normalize personality slugs in DB                                   |
+| `pnpm seo:normalize-internal-personality-links` | Rewrite internal personality links                                  |
+| `pnpm label-paths`                              | Annotate files with path comments                                   |
 
 ## Common Tasks
 

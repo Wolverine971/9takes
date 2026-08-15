@@ -262,36 +262,39 @@ function renderEvidenceFigureFallback(props: Record<string, any>): string {
 		.join(' ');
 	const imageCreditLabel =
 		evidence.image.rights.status === 'fair-use'
-			? `${evidence.image.rights.creator} / ${evidence.image.source.publisher ?? 'source'} · editorial fair use`
-			: evidence.image.rights.attribution;
+			? `${evidence.image.rights.creator} / ${evidence.image.source.publisher ?? 'source'}`
+			: evidence.image.rights.creator;
+	const quoteSourceYear = evidence.quote?.source.date_published?.slice(0, 4) ?? '';
 	const speakerHtml = evidence.quote
-		? `<p class="blog-evidence__speaker${evidenceVariant === 'compact' ? ' blog-evidence__speaker--lead' : ''}"><strong>${escapeHtml(evidence.quote.speaker)}</strong>${
+		? `<p class="blog-evidence__speaker"><strong>${escapeHtml(evidence.quote.speaker)}</strong>${
 				evidence.quote.speaker_role ? `<span>${escapeHtml(evidence.quote.speaker_role)}</span>` : ''
 			}</p>`
 		: '';
 	const quoteHtml = evidence.quote
-		? `${evidenceVariant === 'compact' ? speakerHtml : ''}<blockquote class="blog-evidence__quote"><p>&ldquo;${escapeHtml(evidence.quote.text)}&rdquo;</p></blockquote>${evidenceVariant === 'compact' ? '' : speakerHtml}`
+		? `<blockquote class="blog-evidence__quote"><p>&ldquo;${escapeHtml(evidence.quote.text)}&rdquo;</p></blockquote>${speakerHtml}`
 		: evidence.caption
 			? `<p class="blog-evidence__caption">${escapeHtml(evidence.caption)}</p>`
 			: '';
 	const quoteSourceHtml = evidence.quote
-		? `<a href="${escapeHtmlAttribute(evidence.quote.source.url)}" target="_blank" rel="noopener noreferrer">Source: ${escapeHtml(evidence.quote.source.name)}</a>`
+		? `<p class="blog-evidence__source-line"><span class="blog-evidence__source-kind">Quote source</span> <a href="${escapeHtmlAttribute(evidence.quote.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(evidence.quote.source.name)}</a>${quoteSourceYear ? ` <span aria-hidden="true">&middot;</span> <span>${escapeHtml(quoteSourceYear)}</span>` : ''}</p>`
 		: '';
 	const licenseHtml =
 		evidence.image.rights.license && evidence.image.rights.license_url
-			? ` &middot; <a href="${escapeHtmlAttribute(evidence.image.rights.license_url)}" target="_blank" rel="license noopener">${escapeHtml(evidence.image.rights.license)}</a>`
-			: '';
+			? ` <span aria-hidden="true">&middot;</span> <a href="${escapeHtmlAttribute(evidence.image.rights.license_url)}" target="_blank" rel="license noopener">${escapeHtml(evidence.image.rights.license)}</a>`
+			: evidence.image.rights.status === 'fair-use'
+				? ' <span aria-hidden="true">&middot;</span> <span>editorial fair use</span>'
+				: '';
 	const modificationsHtml = evidence.image.rights.modifications.length
-		? ` <span>&middot; ${escapeHtml(evidence.image.rights.modifications.join(', '))}</span>`
+		? ' <span aria-hidden="true">&middot;</span> <span>edited for web</span>'
 		: '';
 
 	return `<figure class="${classes}" data-evidence-id="${escapeHtmlAttribute(evidence.id)}" data-rights-status="${escapeHtmlAttribute(evidence.image.rights.status)}">
 	<div class="blog-evidence__media"><img src="${escapeHtmlAttribute(evidence.image.src)}" alt="${escapeHtmlAttribute(evidence.image.alt)}" width="${evidence.image.width}" height="${evidence.image.height}" loading="lazy" decoding="async" style="object-position:${escapeHtmlAttribute(evidence.image.object_position ?? '50% 50%')}" /></div>
 	<figcaption class="blog-evidence__body">
-		${evidenceVariant !== 'compact' ? `<p class="blog-evidence__label">${escapeHtml(evidence.label)}</p>` : ''}
+		${!evidence.quote ? `<p class="blog-evidence__label">${escapeHtml(evidence.label)}</p>` : ''}
 		${quoteHtml}
 		${evidence.context ? `<p class="blog-evidence__context">${escapeHtml(evidence.context)}</p>` : ''}
-		<div class="blog-evidence__sources">${quoteSourceHtml}<span class="blog-evidence__image-credit">Photo: <a href="${escapeHtmlAttribute(evidence.image.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(imageCreditLabel)}</a>${licenseHtml}${modificationsHtml}</span></div>
+		<div class="blog-evidence__sources" aria-label="Sources and image credits">${quoteSourceHtml}<p class="blog-evidence__source-line blog-evidence__image-credit"><span class="blog-evidence__source-kind">Photo</span> <a href="${escapeHtmlAttribute(evidence.image.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(imageCreditLabel)}</a>${licenseHtml}${modificationsHtml}</p></div>
 	</figcaption>
 </figure>`;
 }

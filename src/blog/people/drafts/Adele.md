@@ -183,7 +183,7 @@ Here's what the Enneagram makes visible about Adele that a standard biography mi
 - **The stage fright isn't separate from the talent.** The anxiety, the vomiting, the fire exit — these aren't flaws that exist alongside her gift. They're the cost of the gift. She writes from a place of total emotional exposure. Then she has to stand in front of thousands of people and _feel it again_. Every night. The fear isn't of performing. It's of being seen in the moment of feeling, by people who might not understand what they're seeing.
 - **The alter ego reveals the fracture.** When Adele met [Beyonce](/personality-analysis/beyonce-knowles) for the first time, she had a panic attack. "What would Sasha Fierce do?" she asked herself on a balcony, crying. And Sasha Carter was born — a character cobbled together from Beyonce's stage persona and June Carter's fire. The fact that Adele needs a different identity to perform the emotions she's already written tells you everything about the distance between the woman who writes and the woman who has to stand up and sing it.
 
----
+<EnneagramTypeDossier />
 
 ## Sasha Carter and the Fire Exit
 

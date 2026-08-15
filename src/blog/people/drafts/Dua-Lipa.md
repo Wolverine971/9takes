@@ -190,6 +190,8 @@ The feeling underneath the polish is shame, though Dua rarely uses that word. Sh
 
 That response can look like confidence from the outside. From the inside, it can feel like a contract that never ends: every room offers another test, and every test can become evidence of worth.
 
+<EnneagramTypeDossier />
+
 ## How Dua Lipa turns criticism into a work specification
 
 The 2018 criticism was harsh, viral, and partly useful. Dua's early live performances really were stiffer than the shows that followed. A good personality analysis has to let that be true. Turning the critic into a villain would erase the exact behavior that makes her interesting.

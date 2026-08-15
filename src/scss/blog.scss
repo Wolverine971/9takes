@@ -215,14 +215,15 @@ blockquote {
    component, so cited media remains useful without client JavaScript. */
 .blog-evidence {
 	display: grid;
-	width: min(100%, 42rem);
+	width: min(100%, 48rem);
 	margin: clamp(1.75rem, 4vw, 2.75rem) auto;
 	color: var(--ink-bright);
 	box-sizing: border-box;
 }
 
 .blog-evidence--portrait {
-	grid-template-columns: 9rem minmax(0, 1fr);
+	grid-template-columns: minmax(0, 1.35fr) minmax(17rem, 0.85fr);
+	height: clamp(30rem, 48vw, 32rem);
 	overflow: hidden;
 	border: 1px solid color-mix(in srgb, var(--stone-edge) 70%, transparent);
 	border-radius: 1rem;
@@ -230,7 +231,7 @@ blockquote {
 }
 
 .blog-evidence--portrait-right {
-	grid-template-columns: minmax(0, 1fr) 9rem;
+	grid-template-columns: minmax(17rem, 0.85fr) minmax(0, 1.35fr);
 }
 
 .blog-evidence--portrait-right .blog-evidence__media {
@@ -283,6 +284,11 @@ blockquote {
 	font-style: normal;
 }
 
+.blog-evidence--portrait .blog-evidence__body {
+	justify-content: flex-end;
+	padding: 1.5rem;
+}
+
 .blog-evidence .blog-evidence__label {
 	margin: 0 0 0.6rem;
 	font-family: var(--font-mono);
@@ -317,6 +323,11 @@ blockquote {
 	color: var(--ink-bright);
 }
 
+.blog-evidence--portrait .blog-evidence__quote p {
+	font-size: clamp(1.2rem, 2.25vw, 1.48rem);
+	line-height: 1.42;
+}
+
 .blog-evidence .blog-evidence__speaker {
 	display: flex;
 	min-width: 0;
@@ -327,15 +338,14 @@ blockquote {
 	line-height: 1.4;
 }
 
-.blog-evidence .blog-evidence__speaker--lead {
-	margin: 0 0 0.45rem;
-}
-
 .blog-evidence__speaker strong {
+	font-size: 0.88rem;
+	font-weight: 720;
 	color: var(--ink-bright);
 }
 
 .blog-evidence__speaker span {
+	font-size: 0.76rem;
 	color: var(--ink-mid);
 }
 
@@ -351,7 +361,7 @@ blockquote {
 
 .blog-evidence .blog-evidence__context {
 	margin: 0.6rem 0 0;
-	font-size: 0.78rem;
+	font-size: 0.74rem;
 	line-height: 1.48;
 	color: var(--ink-dim);
 }
@@ -359,13 +369,31 @@ blockquote {
 .blog-evidence__sources {
 	display: flex;
 	min-width: 0;
-	flex-wrap: wrap;
-	gap: 0.2rem 0.7rem;
-	margin-top: 0.65rem;
+	flex-direction: column;
+	gap: 0.32rem;
+	margin-top: 1rem;
+	padding-top: 0.8rem;
+	border-top: 1px solid color-mix(in srgb, var(--stone-edge) 54%, transparent);
 	font-family: var(--font-mono);
-	font-size: 0.6rem;
-	line-height: 1.45;
+	font-size: 0.6875rem;
+	line-height: 1.5;
 	color: var(--ink-dim);
+}
+
+.blog-evidence .blog-evidence__source-line {
+	display: flex;
+	min-width: 0;
+	flex-wrap: wrap;
+	gap: 0 0.3rem;
+	margin: 0;
+	font-size: inherit;
+	line-height: inherit;
+	color: inherit;
+}
+
+.blog-evidence__source-kind {
+	font-weight: 700;
+	color: var(--ink-mid);
 }
 
 .blog-evidence .blog-evidence__sources a {
@@ -376,7 +404,7 @@ blockquote {
 }
 
 .blog-evidence .blog-evidence__sources a:hover {
-	color: var(--ink-mid) !important;
+	color: var(--ink-bright) !important;
 }
 
 .blog-evidence__image-credit {
@@ -426,6 +454,7 @@ blockquote {
 	.blog-evidence--portrait,
 	.blog-evidence--portrait-right {
 		grid-template-columns: minmax(0, 1fr);
+		height: auto;
 	}
 
 	.blog-evidence {
@@ -439,7 +468,11 @@ blockquote {
 	}
 
 	.blog-evidence--portrait .blog-evidence__media {
-		height: 12rem;
+		height: clamp(20rem, 96vw, 24rem);
+	}
+
+	.blog-evidence--portrait .blog-evidence__body {
+		padding: 1.25rem;
 	}
 
 	.blog-evidence--feature .blog-evidence__media {
