@@ -248,7 +248,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'oliver-tree', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Music\'s Alien Boy', contentGrade: 8.8, types: ['musician', 'creator'] },
 		{ name: 'oscar-isaac', link: false, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Cinema\'s Grief Alchemist', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] },
 		{ name: 'paul-mescal', link: true, hasImage: true, lastmod: '2026-05-02', personaTitle: 'Cinema\'s Guarded Romantic', contentGrade: 8.9, types: ['movieStar', 'newMovieStar', 'rising-star'] },
-		{ name: 'phoebe-bridgers', link: false, hasImage: true, lastmod: '2026-08-14', personaTitle: 'The Intimacy Architect', contentGrade: 9.1, types: ['musician'] },
+		{ name: 'phoebe-bridgers', link: true, hasImage: true, lastmod: '2026-08-15', personaTitle: 'The Intimacy Architect', contentGrade: 9.1, types: ['musician'] },
 		{ name: 'prince', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'The Purple Individualist', contentGrade: 8.8, types: ['musician'] },
 		{ name: 'rick-rubin', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'The Producer of Missing Pieces', contentGrade: 9.1, types: ['musician', 'creator', 'music-crossover'] },
 		{ name: 'riz-ahmed', link: true, hasImage: true, lastmod: '2026-05-25', personaTitle: 'Cinema\'s Translated Outsider', contentGrade: 9, types: ['movieStar', 'musician', 'screen-icon'] },
