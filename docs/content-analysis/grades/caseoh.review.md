@@ -17,3 +17,10 @@ FEEDBACK (2026-07-26):
 - NEEDS WORK (Evidence, the gap to 9): the draft's most load-bearing material — "mortally depressed," the McDonald's event-horizon detail, the 5,000-sub bargain, and the dad phone call — carries only year-level inline attribution ("he said in 2024," "he recalled in 2024"); the Jynxzi Podcast is named two sections earlier and never again. Add outlet-inline tags in "The Six Jobs" and "The Phone Call" sections. Bigger: per the draft's own sourcing note, all first-party quotes are auto-caption-approximate and unverified against video timestamps. Until the verbatim pass happens, Evidence stays at 8 on principle — the quotes are traceable but not yet checkable word-for-word.
 - NEEDS WORK (Writing): the aphoristic two-beat section closers are still a visible house rhythm in sequence ("He didn't escape his childhood. He scaled it." / "For one clause, it looked over its shoulder." / "It always stays on."), and 4 imperative section-openers survive the editor pass (Listen / Now put / Say / Ask). Each is earned alone; serially they read as a device.
 - TO REACH A: (1) Run the verbatim-verification pass against the Jynxzi Podcast and Creature Feature timestamps and tighten the year-only attributions to outlet-inline in the Six Jobs + Phone Call sections. (2) Let one or two sections end on plain fact instead of a two-beat snap, and convert one more imperative opener to declarative. (3) If the other two of the six jobs ever surface on record, close the timeline gap the H2 promises.
+
+INDEPENDENT STABILITY REGRADE (2026-08-15):
+
+- Rubric v2: B+ (8.6). Hook 9 | Enneagram 9 | Evidence 8 | Writing 8 | Originality 9 | Discoverability 9.
+- Deterministic release evidence: lint 0 failures/2 warnings; source audit 7 inline, 0 vague, 0 untagged; head-term and 57-word answer block pass; same-type similarity clear.
+- The warnings are non-capping: two legitimate comparative constructions and 4,143 body words under the 4,500 ceiling. The unchanged draft remains publishable at 8.6.
+- Stability result: first 8.6, independent regrade 8.6, delta 0.0.

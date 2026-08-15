@@ -1,15 +1,15 @@
 ---
-title: 'CaseOh: The Enneagram Type 9 Behind Twitch''s Loudest Stream'
+title: "CaseOh: The Enneagram Type 9 Behind Twitch's Loudest Stream"
 meta_title: 'Why CaseOh Screams at Games but Never Fights: Enneagram 9'
 persona_title: "Twitch's Quietest Giant"
 description: "CaseOh screams for four hours a night, then goes home to total silence. An Enneagram Type 9 analysis of Twitch's loudest stream and its quietest star."
 author: 'DJ Wayne'
-date: '2026-08-15'
+date: '2026-07-26'
 loc: 'https://9takes.com/personality-analysis/caseoh'
-lastmod: '2026-08-15'
+lastmod: '2026-07-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 9
 type: ['creator', 'streamer']
 person: 'caseoh'
@@ -62,19 +62,19 @@ citations:
   - 'https://x.com/DramaAlert/status/1810511601054687718'
 faqs:
   - question: "What is CaseOh's personality type?"
-    answer: "CaseOh, born Case Baker, is an Enneagram Type 9, most defensibly a self-preservation 9w8. The record runs one direction: he stayed three and a half years in a rice mill job that left him, in his words, mortally depressed; he let his chat pick the day he could quit by setting a 5,000-subscriber bargain, and even then he could not deliver the news himself; and he has never been in a public feud despite four years at the top of a business that runs on them. The four loud hours a night are a manufactured product. The other twenty are silence."
+    answer: 'CaseOh, born Case Baker, is an Enneagram Type 9, most defensibly a self-preservation 9w8. The record runs one direction: he stayed three and a half years in a rice mill job that left him, in his words, mortally depressed; he let his chat pick the day he could quit by setting a 5,000-subscriber bargain, and even then he could not deliver the news himself; and he has never been in a public feud despite four years at the top of a business that runs on them. The four loud hours a night are a manufactured product. The other twenty are silence.'
     anchor: 'what-is-caseohs-personality-type'
   - question: 'Why does CaseOh scream at video games?'
-    answer: "Two reasons, one commercial and one psychological. Commercially, he has said the formula out loud: clips blow up, viewers arrive expecting that energy, and if the stream feels mundane they leave. Psychologically, a video game is the one opponent he can rage at without anyone getting hurt. Off stream he avoids friction so thoroughly that he had his father call his boss to quit his own job. The scream is conflict with the danger removed."
+    answer: 'Two reasons, one commercial and one psychological. Commercially, he has said the formula out loud: clips blow up, viewers arrive expecting that energy, and if the stream feels mundane they leave. Psychologically, a video game is the one opponent he can rage at without anyone getting hurt. Off stream he avoids friction so thoroughly that he had his father call his boss to quit his own job. The scream is conflict with the danger removed.'
     anchor: 'why-caseoh-screams-at-video-games-and-never-at-people'
   - question: 'What jobs did CaseOh work before streaming?'
-    answer: "He counted six on a February 2026 stream. The documented ones: maintenance man at an elderly housing facility alongside his dad, a lawn-mowing route he ran until 9 p.m. after work, three and a half years at a rice mill, and a stint at a water department. At 24 he had dropped 50 pounds and was preparing to join the military for 20 years when his NBA 2K TikToks took off in September 2022."
+    answer: 'He counted six on a February 2026 stream. The documented ones: maintenance man at an elderly housing facility alongside his dad, a lawn-mowing route he ran until 9 p.m. after work, three and a half years at a rice mill, and a stint at a water department. At 24 he had dropped 50 pounds and was preparing to join the military for 20 years when his NBA 2K TikToks took off in September 2022.'
     anchor: 'the-six-jobs-caseoh-worked-before-twitch'
   - question: 'Why does CaseOh still live in Arkansas?'
-    answer: "By choice, and the choice is total. He never left the state until age 25, says he will probably never board an airplane in his life, and the farthest he has ever traveled is Florida, once, with his dad driving all 16 hours each way. He lives in the woods with a cat named Kitty, goats, cows, horses, and a donkey. He describes getting homesick within days of leaving."
+    answer: 'By choice, and the choice is total. He never left the state until age 25, says he will probably never board an airplane in his life, and the farthest he has ever traveled is Florida, once, with his dad driving all 16 hours each way. He lives in the woods with a cat named Kitty, goats, cows, horses, and a donkey. He describes getting homesick within days of leaving.'
     anchor: 'why-caseoh-still-lives-in-the-arkansas-woods'
   - question: 'Is CaseOh actually okay with the fat jokes?'
-    answer: "His on-record answer is yes: he says he encourages the jokes and that they would absolutely never get to him. He added one qualifier in the same breath: maybe when he was younger. An unverified account presenting itself as his older brother has publicly said it will never believe he is content with that much negativity. CaseOh has never responded to it."
+    answer: 'His on-record answer is yes: he says he encourages the jokes and that they would absolutely never get to him. He added one qualifier in the same breath: maybe when he was younger. An unverified account presenting itself as his older brother has publicly said it will never believe he is content with that much negativity. CaseOh has never responded to it.'
     anchor: 'maybe-when-i-was-younger'
 production_pretext:
   status: draft
@@ -88,7 +88,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/caseoh.md
+path: docs/content-analysis/perspective-reviews/caseoh/2026-08-15_155243/draft-reviewed.md
 content_quality:
   hook: 9
   enneagram: 9

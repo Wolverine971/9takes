@@ -522,7 +522,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'brad-pitt', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'Hollywood\'s Peacekeeping Chameleon', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] },
 		{ name: 'brendan-fraser', link: false, hasImage: true, lastmod: '2026-06-29', personaTitle: 'The Giant Who Went Quiet', contentGrade: 7.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'britney-spears', link: true, hasImage: true, lastmod: '2026-07-29', personaTitle: 'Pop’s Quiet Rebel', contentGrade: 8.6, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
-		{ name: 'caseoh', link: false, hasImage: true, lastmod: '2026-07-26', personaTitle: 'Twitch\'s Quietest Giant', contentGrade: 8.6, types: ['creator', 'streamer'] },
+		{ name: 'caseoh', link: true, hasImage: true, lastmod: '2026-08-15', personaTitle: 'Twitch\'s Quietest Giant', contentGrade: 8.6, types: ['creator', 'streamer'] },
 		{ name: 'charli-damelio', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'TikTok\'s Vanishing Center', contentGrade: 8.9, types: ['tiktoker', 'lifestyle-builder'] },
 		{ name: 'clint-eastwood', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Cinema\'s Whispering Cowboy', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'dave-chappelle', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Comedy\'s Reluctant Lion', contentGrade: 9, types: ['comedian', 'celebrity', 'tv-comedy-crossover', 'stand-up'] },
