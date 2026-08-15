@@ -465,7 +465,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'denzel-washington', link: true, hasImage: true, lastmod: '2026-03-01', personaTitle: 'The Preacher Who Chose a Different Pulpit', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'dr-phil', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Television\'s Tough-Love Patriarch', contentGrade: 8.8, types: ['other'] },
 		{ name: 'druski', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Comedy\'s Self-Appointed CEO', contentGrade: 8.4, types: ['comedian', 'creator', 'viral-entertainer', 'internet-comic'] },
-		{ name: 'duke-dennis', link: false, hasImage: true, lastmod: '2026-08-07', personaTitle: 'Streaming\'s Unbossable Titan', contentGrade: 8.4, types: ['creator'] },
+		{ name: 'duke-dennis', link: true, hasImage: true, lastmod: '2026-08-15', personaTitle: 'Streaming\'s Unbossable Titan', contentGrade: 8.7, types: ['creator'] },
 		{ name: 'ella-langley', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'Alabama\'s Stubborn Wildflower', contentGrade: 8.9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'emily-ratajkowski', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'The Intellectual Provocateur', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
 		{ name: 'ernest-hemingway', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Literature\'s Armored Iceberg', contentGrade: 9, types: ['historical', 'author', 'historical-artist'] },
