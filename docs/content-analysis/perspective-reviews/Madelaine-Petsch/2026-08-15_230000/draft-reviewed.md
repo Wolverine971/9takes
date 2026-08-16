@@ -4,12 +4,12 @@ meta_title: "Why Madelaine Petsch Can't Stop Fixing People (Type 2)"
 persona_title: "Riverdale's Recovering Fixer"
 description: 'She was eight when she learned to talk her father down. The skill made her famous. Inside Madelaine Petsch, Enneagram Type 2, and the fixer job she quit.'
 author: 'DJ Wayne'
-date: '2026-08-15'
+date: '2026-07-09'
 loc: 'https://9takes.com/personality-analysis/Madelaine-Petsch'
-lastmod: '2026-08-15'
+lastmod: '2026-07-09'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: '2'
 type: ['newMovieStar', 'creator']
 person: 'Madelaine-Petsch'
@@ -102,7 +102,7 @@ content_quality:
   anchor: 'Matt-Smith (B anchor)'
   needs_review: false
   graded_at: '2026-08-15'
-path: src/blog/people/drafts/Madelaine-Petsch.md
+path: docs/content-analysis/perspective-reviews/Madelaine-Petsch/2026-08-15_230000/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -324,7 +324,7 @@ His stability arrived late, and its ease is the part that stings. "The only rese
 
 So they have one, on her terms. She calls him; he doesn't call her. Sometimes six months pass. "He wishes we spoke more," she says. "I'm doing what I can."
 
-Her mother's file is shorter and more tender. "Do you know people who are destined to be mothers? Like that's my mom's entire purpose on this planet," she told Cooper. But the protector's method left its own mark. Her mom kept "peace and tranquility" by keeping things from her, and when the three of them, mother, brother, daughter, compare memories now, whole events turn out to have been filed under *don't think about it*. "We'll be like, 'Wait, that's not what happened,'" Petsch says.
+Her mother's file is shorter and more tender. "Do you know people who are destined to be mothers? Like that's my mom's entire purpose on this planet," she told Cooper. But the protector's method left its own mark. Her mom kept "peace and tranquility" by keeping things from her, and when the three of them, mother, brother, daughter, compare memories now, whole events turn out to have been filed under _don't think about it_. "We'll be like, 'Wait, that's not what happened,'" Petsch says.
 
 The outbound-only rule covers her too. Being the gentler parent did not earn an exemption from the new phone policy.
 

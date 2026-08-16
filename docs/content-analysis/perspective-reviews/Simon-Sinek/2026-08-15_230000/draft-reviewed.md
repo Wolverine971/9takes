@@ -4,12 +4,12 @@ meta_title: "Simon Sinek Enneagram: Leadership's Loneliest Optimist"
 persona_title: "Leadership's Loneliest Optimist"
 description: "Simon Sinek teaches the world about belonging. So why is he lonely? Inside the Type 2 psychology of the man who found everyone's why but his own."
 author: 'DJ Wayne'
-date: '2026-08-15'
+date: '2026-03-28'
 loc: 'https://9takes.com/personality-analysis/simon-sinek'
-lastmod: '2026-08-15'
+lastmod: '2026-03-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 2
 type: ['author', 'entrepreneur', 'business-operator']
 person: 'simon-sinek'
@@ -97,7 +97,7 @@ content_quality:
   anchor: 'Matt-Smith (B anchor)'
   needs_review: false
   graded_at: '2026-08-15'
-path: src/blog/people/drafts/Simon-Sinek.md
+path: docs/content-analysis/perspective-reviews/Simon-Sinek/2026-08-15_230000/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
