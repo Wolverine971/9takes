@@ -1,0 +1,21 @@
+Revision pass complete on `src/blog/people/drafts/Simone-Biles.md`.
+
+**Triggered by:** grade B (8.0) with Evidence capped at 6 (`untagged_load_bearing_quotes`), a hard `blog-lint.sh` FAIL (4,842 words vs 4,500), and the perspective verifier's `needs_human` verdict on two blockers.
+
+**Fixes applied**
+
+- **H2 5 arithmetic** (grader item 1 + verifier blocker 2, inside PROTECT-05). Dropped "one was going home without a medal" — the US won team silver, which the page said itself three paragraphs later. Corrected "four other women" → three, and the same off-by-one recurring later as "four other people" → three, which the verifier missed. Rebuilt on grader option (b): "the arithmetic **she was running**", "**In her account** there was one window", and the no-drop-score quote now reads "what she **believed** that meant." The concession's content and its position ahead of the rebuttal are preserved.
+- **All eight untagged load-bearing slots** now carry outlet + year at point of use (hallway quote, Nellie/*Romper* 2021, "no idea where I would be", the whole Tokyo timeline, the Rio pull quote, "strong went before that word", the rebuild run, "they couldn't replace me"). Added the *Call Her Daddy* episode URL and the *Romper* piece to `citations` — CHD was the page's most-quoted source with no URL anywhere.
+- **Body 4,842 → 4,490.** Cuts taken from the grader-named and editor pre-costed lists, all enumerated in the draft notes; no P0 repair trimmed, MBTI section and Memmel concession kept.
+- P1-13(b) Loyalist gloss shipped; FAQ L'Équipe quote date-marked; six British spellings normalized (the grader's five plus "organising"); the one reader-command imperative removed; "Did I do it?" down from five reader-facing uses to four.
+- Corrected the wrong Wikidata QID in `evidence-packet.md` so it can't re-enter.
+
+**Rejected:** the TO-REACH-A ask for a second interior beat inside the Paris all-around final. No sourced interior moment from that final exists in the evidence packet, the command forbids reopening research, and the ceiling wouldn't absorb it. Logged for the next refresh with a funding source named.
+
+**Two self-inflicted regressions caught and reverted:** three of my lead-in compressions silently downgraded INLINE quotes to VAGUE in the source audit (they replaced outlet names with "the same episode"), and one introduced a strong `[X,-not-Y]` contrast pair in the cold open. Both fixed; the lesson is recorded in the draft notes.
+
+**Verification:** lint 0 fail (2 known-benign warns — the comparative-contrast hit is a verbatim Biles quote already in the fingerprint ledger; headroom is 10 words). Source audit 8 inline / 0 vague / 0 untagged. All 19 `PROTECT-*` items verified present by fixed-string match. `lastmod` and `content_quality` untouched.
+
+Resolution artifact written to `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/revision-resolution.md`. The pipeline will clear the consumed review sidecar and re-grade, and `/blog_perspective_verify_people` must rerun — this pass does not close the perspective gate.
+
+One thing worth your call: this is the second consecutive cycle finishing against the word ceiling with single-digit headroom. The page isn't bloated by accretion, it's expensive per argument, so the next substantive addition will need a structural cut rather than line-level compression.

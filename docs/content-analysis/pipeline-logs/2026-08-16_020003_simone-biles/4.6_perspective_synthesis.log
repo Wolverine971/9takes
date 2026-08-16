@@ -1,0 +1,17 @@
+Synthesis written and verified: frontmatter parses, all nine required H2 headings present in order, stable IDs assigned.
+
+**Path:** `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/synthesis.md`
+
+**P0 items:** 10
+**Accepted P1 items:** 19
+**Research-required:** 6 (one of the seven opened, RQ-04, I closed during adjudication — the Type 3 "who I am without gymnastics" line is verbatim in the pipeline's own *Call Her Daddy* transcript, so it became P1-14)
+
+**Most important protected hit:** PROTECT-01, the ground bookend — "She never looked. She just always knew where it was" through "She always knew where the ground was, and she never once looked at it. She was too scared to look." All six seats named it, it carries the meta_title, no repair in the brief touches it, and no future event decays it.
+
+Three things I verified myself rather than accepting on report, because they were load-bearing and contested:
+
+- **The evidence packet is wrong about the Tokyo team-final format.** CLM-09 certifies "two-up two-count" — sourced to Biles's own misstatement in the podcast transcript. The primary event record says the final was three-up, three-count. The fan seat caught it and correctly refused to defer to the packet. I also found that Jordan Chiles was already one of the four gymnasts competing in that final, so "let Jordan Chiles into the competition" misdescribes what happened — no seat stated that outright. Both the draft and the packet need fixing or it recurs.
+- **The Type 3 discriminator contradicts 9takes' own published Type 3 page** (`enneagram-type-3.md` L44, L199, L553). The tiebreaker sentence currently argues for the reading it is trying to defeat.
+- **Boorman's own gloss competes with the draft's referent for "did I do it?"** — "But it wasn't about the gold medal around her neck. It was about the process." The repair is to stop asserting the referent, which produces a stronger Six argument, not a weaker one.
+
+Two flags for whoever revises: the body is at 4,499 words against a 4,500 lint ceiling with zero headroom, and nearly every repair adds words — the brief names the funded cuts and says to drop P2 rather than trim a P0. And the phantom podcast name is committed to `scripts/blog-source-audit.mjs` OUTLETS, so the audit tool will keep grading the misattribution clean until that entry is removed.

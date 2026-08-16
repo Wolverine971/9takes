@@ -1,0 +1,25 @@
+All 7 FAQ anchors resolve to real body headings. YAML parses clean, body untouched.
+
+```
+Frontmatter enrichment complete: Simone-Biles
+```
+
+**Fields filled (2 changes):**
+
+- `imdb_id: 'nm6721217'` — added, confirmed by two independent sources (Wikidata P345 on Q7520267, and IMDb's own suggestion API returning "Simone Biles | Actress, Black-ish (2022)"). Corresponding `https://www.imdb.com/name/nm6721217/` added to `same_as`.
+- `wikidata_qid` — **corrected `Q7520786` → `Q7520267`**. The stored QID was dead: `Special:EntityData/Q7520786.json` returns *"No entity with ID Q7520786 was found."* The correct entity resolves two ways — Wikipedia `pageprops.wikibase_item` for "Simone Biles" and `wbsearchentities` both return Q7520267 ("Simone Biles, American artistic gymnast"). Same fix applied to the stale Wikidata URL in `same_as`.
+
+**Fields already present (preserved, all verified against Wikidata Q7520267):**
+
+- `wikipedia` (200, enwiki sitelink confirms this exact person), `birth_date` (P569 = 1997-03-14 ✓), `birth_place` (P19 = Q16567 Columbus ✓), `nationality`, `occupation` (P106 = artistic gymnast, athlete ✓), `knows_about` (5 real expertise areas — no backfill-template contamination), `keywords` (10), `citations` (15), `faqs` (7 substantive, body-derived — left untouched per idempotency)
+- `same_as` Britannica URL confirmed valid via Wikidata P1417; its 403 and olympics.com's curl failure are bot protection, not 404s (olympics.com athlete URL also appears in enwiki's external links)
+
+**FAQs generated (0 — 7 already present and substantive):**
+Verified all 7 anchors resolve to real H2/H3 slugs in the body.
+
+**Issues:**
+
+- **`faqs` has 7 entries; the spec caps at 5.** Left as-is under the strict-idempotency rule, but flagging: the creator pass overshot. If you want it trimmed, the two weakest candidates are "What are the twisties?" (definitional, competes with the Tokyo FAQ) and "Was Simone Biles adopted?" (biography, not analysis).
+- **Two FAQs share the anchor `what-is-simone-biless-personality-type`.** The MBTI FAQ deep-links to the main type heading even though a dedicated `what-about-simone-biless-mbti-type` heading exists at line 426. Not changed (existing substantive FAQ), but that's a one-word fix if you want it.
+- **Possible `nationality` gap:** Wikidata lists dual citizenship — Q30 (United States) *and* Q242 (Belize). Frontmatter has the string `'American'`. Left untouched per additive-only, but the spec does say to use a list for dual citizenship. Say the word and I'll make it `['American', 'Belizean']`.
+- `lastmod` untouched, as always.

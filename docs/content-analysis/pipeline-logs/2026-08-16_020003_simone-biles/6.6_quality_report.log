@@ -1,0 +1,9 @@
+blog-quality-report: Simone-Biles
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [looked-like] L277: I fear for what my life would have looked like."
+
+2.4 Head-term: PASS  meta_title=Why Simone Biles Never Looked at the Ground
+   answer-block: ok (35 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 416)

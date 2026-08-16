@@ -1,0 +1,27 @@
+## Grading Complete — Simone Biles (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Simone-Biles | 8 | 9 | 8 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 9×1.5 + 8×1.5 + 9 + 8 + 9×0.5) / 7 = 59.0 / 7 = 8.4`. Discoverability 8 → no gate. No caps applied.
+
+This is a regrade: `first_overall: 8.0` → `regrade_overall: 8.4`, delta 0.4. The revision pass earned it by clearing the Evidence cap (8/8 load-bearing quotes now inline, was 4 untagged of 5) and fixing the false "one was going home without a medal" claim inside PROTECT-05.
+
+### Key observations
+
+**What's genuinely strong.** The closing inversion — "She always knew where the ground was, and she never once looked at it. She was too scared to look" — re-reads her most-covered trait as fear, and it's bookended with the cold open. The hallway scene explains the mechanism before naming the type and then explicitly refuses monocausality ("Adria went through the same placement and came out someone else"). H2 8 exists to run the thesis against its hardest case rather than pile on another example — rare in this pipeline. Tooling confirms the formula discipline: 0 strong contrast pairs, 0 counter-typing ladders in the body, head-term PASS, 35-word answer block.
+
+**Three things holding it at B.**
+
+1. **Monochrome tone.** Every register is grave, and the 7-wing humor is told (in the rabbit hole) rather than shown. Matt-Smith — the B anchor — earned its band partly on a joy section; this has the refusal sentence with no scene behind it.
+2. **Metronomic section closers.** Seven of nine H2s land on the same compressed-epigram shape. Good individually, a tell serially, and it's the specific C-band trait in the rubric.
+3. **Sourcing gaps outside the audited slots.** Chellsie Memmel's spotter objection — a named person making a specific public argument — has no outlet, no date, and no citation anywhere in the file. The L'Équipe quote is self-flagged "of uncertain date" yet carries the current-tense anchor. Piers Morgan has no inline attribution.
+
+**Process flag.** The FORMULA FINGERPRINT LEDGER records the similarity scan as "top score 0.089 … threshold 0.04 → CLEAR." 0.089 already exceeds 0.04, and the actual run reports **0.159 vs noah-wyle → TRIPPED**. The trip pair is boilerplate counter-typing grammar, so it's one move and did *not* earn the 3-move Originality cap — but a ledger asserting a PASS its own threshold contradicts is worth fixing at the stage that writes it. TESTIMONY LEDGER entry 10 is similarly ledger-only.
+
+**SEO inconsistency.** `head_term_exception` argues the winnable surface is the typology-modifier sub-SERP, then ships a meta_title with no typology modifier. The title, H2/H3 and description rescue it, so it's a cost not a gate — but the bet is placed backwards from the stated strategy.
+
+Files written: `src/blog/people/drafts/Simone-Biles.md` (frontmatter block after `path:`) and `docs/content-analysis/grades/Simone-Biles.review.md`. No legacy `QUALITY GRADE` block existed in the body.
+
+**Total graded this session: 1**

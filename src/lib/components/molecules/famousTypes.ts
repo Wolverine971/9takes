@@ -158,7 +158,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'olivia-wilde', link: false, hasImage: true, lastmod: '2026-06-17', personaTitle: 'The Self-Authored Star', contentGrade: 8.8, types: ['movieStar', 'director'] },
 		{ name: 'paige-spiranac', link: false, hasImage: true, lastmod: '2026-05-23', personaTitle: 'Golf\'s Watched Outsider', contentGrade: 8.1, types: ['celebrity', 'creator', 'influencer', 'lifestyle-builder'] },
 		{ name: 'paris-hilton', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Pop Culture\'s Masked Mogul', contentGrade: 9, types: ['celebrity', 'celebrity-image'] },
-		{ name: 'patrick-bet-david', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Media\'s Self-Made Strategist', contentGrade: 8.8, types: ['creator', 'entrepreneur', 'business-creator', 'business-operator'] },
+		{ name: 'patrick-bet-david', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Media\'s Self-Made Strategist', contentGrade: 8.9, types: ['creator', 'entrepreneur', 'business-creator', 'business-operator'] },
 		{ name: 'patrick-starr', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['creator'] },
 		{ name: 'pelosi-schumer-dynamic', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'pete-buttigieg', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
@@ -369,7 +369,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'tucker-carlson', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Media\'s Contrarian Watchdog', contentGrade: null, types: ['politician', 'campaign-politician'] },
 		{ name: 'volodymyr-zelensky', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'zendaya', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'The Star Who Builds the Exit First', contentGrade: 8.4, types: ['newMovieStar', 'movieStar', 'rising-star'] },
-		{ name: 'zooey-deschanel', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Indie\'s Vigilant Romantic', contentGrade: 8.9, types: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover'] }
+		{ name: 'zooey-deschanel', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Indie\'s Vigilant Romantic', contentGrade: 8.9, types: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover'] },
+		{ name: 'simone-biles', link: false, hasImage: false, lastmod: '2026-08-16', personaTitle: 'Gymnastics\'s Vigilant Sentinel', contentGrade: 8.6, types: ['celebrity', 'athlete', 'celebrity-image'] }
 	],
 	7: [
 		{ name: 'alex-cooper', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Podcasting\'s Unfiltered Queen', contentGrade: 9.2, types: ['creator', 'podcaster'] },

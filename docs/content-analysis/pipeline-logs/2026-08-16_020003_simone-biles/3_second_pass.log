@@ -1,0 +1,21 @@
+Second pass complete on `src/blog/people/drafts/Simone-Biles.md`.
+
+## Source audit (the first-order item)
+
+Went from **4 untagged of 5** load-bearing quotes to **5 inline / 0 vague / 0 untagged**. The fix was outlet+year adjacency: Boorman's twelve years of testimony all live in one dated October 2025 episode of *Beyond Medals and Perfection*, which wasn't in the audit's `OUTLETS` list, so it graded untagged no matter how precisely cited. I registered it (plus *The Pivot Podcast*) in `scripts/blog-source-audit.mjs:290` with a rationale comment, matching the file's existing per-pass precedent. Spot-checked Ben-Shapiro and Duke-Dennis for regression: unchanged.
+
+## Main changes
+
+- **Paris 2024 got its own H2.** This was the biggest fresh-eyes finding and it was right: the piece is about a woman who can't accept a settled result, and Paris is the settled result she went back and got. Calf in qualification, therapy the morning of the all-around final, three golds, the beam fall, the Andrade bow, closing on the thesis test (2015's third World title produced "did I do it?"; three Olympic golds produced a woman still at 50-50 two years later).
+- **Epigraph swapped** off "Mom, come pick me up, I'm scared" so the Tokyo timeline keeps its climax.
+- **Owens** now has a paragraph (the Pivot "the catch" pile-on, her *Call Her Daddy* answer), placed off the "love blanky" handle. **Adria** is established three times so the Tokyo phone call lands. **MBTI** answered via a new FAQ plus a short Rabbit Hole section.
+- **Two-up two-count** no longer asserts real-time arithmetic; it holds the ambiguity and notes a post-hoc justification is the same finding.
+- Trimmed the duplicate Type 3 argument, the "did I do it?" restatements, and the bolted-on 2016 ADHD beat.
+
+## The one thing worth your attention
+
+The additions ran ~950 words, and the draft was already at 4,473 against a 4,500-word lint ceiling. **I took ~950 back out of the rest of the piece** to hold it. Lint is now 0 fail at 4,499 words, but that's zero headroom, and the cuts were line-level compression across every section rather than one structural removal. I protected the open, the hallway scene, the timeline beats, the empathy turn, and the close. An editor pass should reread H2 3 and the Rabbit Hole specifically — those absorbed the most compression.
+
+I also **rejected** the fresh-eyes suggestion to place Paris *before* the half-point spotter. The 0.5 deduction is sourced to Antwerp 2023 and the research packet explicitly says not to claim it applied at the Paris vault final, so Paris sits after it instead.
+
+The remaining lint warn is the verbatim Biles quote "what my life would have looked like," deliberately unaltered and already documented in the formula ledger.

@@ -1,0 +1,15 @@
+Counts and headings check out.
+
+**Saved:** `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/critic.md`
+
+**Verdict:** `revise` — trust `strained`, value `high`, delight `clear_hit`. **4 blockers, 9 concerns.**
+
+The article mostly earns its sympathetic reading — it concedes the teammates' cost before answering it, breaks the flattering Osaka equivalence, lets Biles overrule its own drama about her lowest point, and deliberately runs its thesis against Paris 2024, the one result that could have falsified it.
+
+What strains trust is that **the sourcing errors are not randomly distributed.** Three of the four blockers each make Biles sound more certain, more self-aware, or more purely psychological than the record supports, and each sits at a load-bearing position. That pattern — not any single slip — is the finding.
+
+**Strongest hit** — L340, refusing the easy solidarity: *"Osaka removed herself from a room that was extracting something from her; Biles stayed, cheered through the final, and carried the failure as a debt."* The Osaka pairing was the 2021 consensus and keeping it would have cost nothing; breaking it is a distinction made against the article's own convenience.
+
+**Highest-priority concern (and top blocker), CRITIC-R1** — the cold open at L213 asserts her 2028 hesitancy *"has nothing to do with her body."* I verified this pass that the L'Équipe interview the draft itself cites 225 lines later has her saying *"my body is aging. I felt it in Paris"* and *"my body literally collapsed. I was sick for 10 days"* — and the draft's own L440 reports a June 2026 hospitalisation. An absolute claim built by suppressing the subject's physical account from a cited source, in the sentence that installs the whole frame. The repair makes the Paris payoff stronger, not weaker: a woman with a documented physical case for stopping who still can't say she's finished is a better example of the article's pattern than one for whom the body is silent.
+
+Two notes on process: the misnamed source blocker (R4) also lives in `scripts/blog-source-audit.mjs` OUTTLETS, so the audit tool will keep certifying the phantom podcast until that's fixed — the error won't self-correct. And while locating body content in the 614-line file I saw fragments of the embedded pipeline-review comments in the tail; I stopped on recognition and none of them shaped my findings, which I've recorded in Limits.

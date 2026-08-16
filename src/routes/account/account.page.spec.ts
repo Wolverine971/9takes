@@ -79,7 +79,7 @@ describe('/account page', () => {
 	it('hydrates server notification preferences without a reactive update loop', async () => {
 		render(AccountPage, { data: baseData as any });
 
-		expect(await screen.findByRole('link', { name: 'Admin dashboard' })).toBeTruthy();
+		expect(await screen.findByRole('link', { name: 'Admin' })).toBeTruthy();
 		expect(
 			(screen.getByRole('checkbox', { name: 'Someone replies to my take' }) as HTMLInputElement)
 				.checked

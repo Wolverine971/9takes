@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-15T06:00:00Z",
+	"lastUpdated": "2026-08-16T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "simone-biles",
-			"displayName": "Simone Biles",
-			"type": null,
-			"priority": 55,
-			"priorityReason": "GOAT of gymnastics with evergreen volume plus an LA 2028 runway; mental-health arc is a natural personality-analysis fit",
-			"estimatedTraffic": "high",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "sports-icon-cluster"
-		},
 		{
 			"name": "charlize-theron",
 			"displayName": "Charlize Theron",
@@ -229,6 +216,23 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "tyla",
+			"displayName": "Tyla",
+			"type": null,
+			"priority": 56,
+			"priorityReason": "One of the most talked-about pop artists globally right now; Grammy winner with active chart momentum",
+			"estimatedTraffic": "high",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "pop-icon-cluster",
+			"startedAt": "2026-08-15T06:00:00Z",
+			"completedAt": "2026-08-16T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "michael-jordan",
 			"displayName": "Michael Jordan",
@@ -1588,18 +1592,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "tyla",
-		"displayName": "Tyla",
+		"name": "simone-biles",
+		"displayName": "Simone Biles",
 		"type": null,
-		"priority": 56,
-		"priorityReason": "One of the most talked-about pop artists globally right now; Grammy winner with active chart momentum",
+		"priority": 55,
+		"priorityReason": "GOAT of gymnastics with evergreen volume plus an LA 2028 runway; mental-health arc is a natural personality-analysis fit",
 		"estimatedTraffic": "high",
-		"searchVolume": "high",
+		"searchVolume": "very-high",
 		"personaTitle": null,
 		"addedToQueue": "2026-07-18",
 		"retryCount": 0,
-		"strategicValue": "pop-icon-cluster",
-		"startedAt": "2026-08-15T06:00:00Z"
+		"strategicValue": "sports-icon-cluster",
+		"startedAt": "2026-08-16T06:00:00Z"
 	},
 	"skipped": [
 		{

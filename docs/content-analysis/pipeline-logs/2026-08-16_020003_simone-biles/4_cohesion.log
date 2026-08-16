@@ -1,0 +1,38 @@
+## Cohesion Audit: `src/blog/people/drafts/Simone-Biles.md`
+
+### Central Thesis
+Biles is a Type 6 who navigates by a signal she cannot see and has spent her life verifying what is already settled, which is why she withdrew in Tokyo out of loyalty rather than weakness, and why three Paris golds still did not close the question.
+
+### Thread Map
+Cold open (she never looked at the ground) → **H2 1** diagnosis: she asks trusted people to certify measured results → **H2 2** where the checking started, age three in a foster home → **H2 3** the fear underneath it: letting people down → **H2 4** Tokyo, beat by beat → **H2 5** why stopping was loyalty, not quitting → **H2 6** why she stayed inside USA Gymnastics: the hallway scaled up → **H2 7** the rebuild, and the half-point she pays per vault → **H2 8** Paris, the thesis run against its hardest case → **H2 9** still 50-50, the locker photo, close.
+
+The skeleton is genuinely coherent. The problems were all at the seams.
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 6/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 6/10 | 9/10 |
+| Internal Paragraph Flow | 7/10 | 9/10 |
+
+**Overall: 7/10 → 9/10**
+
+### The five real fixes
+
+1. **H2 3's heading was unfulfilled.** It's titled *"Why Simone Biles asked her coach 'Did I do it?'"* and the section never mentioned it — the second pass trimmed the restatements out and left the heading writing a cheque the section no longer cashed. The safe-space-to-fail paragraph now closes on why Boorman was the person she asked.
+2. **H2 3 → H2 4 was a five-year jump with no bridge.** Added one line carrying "silent cries" into Tokyo. It avoids the word *weakness* in house voice, since the piece argues the opposite.
+3. **H2 5 → H2 6 was the worst seam** — a backward jump from post-Tokyo aftermath to January 2018 with no signal. New opener: *"She was in that stadium for a reason, and it starts three years earlier."*
+4. **"Which brings us to the half-point" was a false transition** — a connective claiming a link the Owens beat doesn't make. Replaced with a bridge that carries the H2 2 hallway language ("put her own body in the room") and the love-blanky beat into Landi standing on the mat. That stitch was the biggest available win: it ties three scenes across the whole piece.
+5. **"the twisties" was used before the body defined it** (only the FAQ did). First use now carries Boorman's cold-open phrasing.
+
+Plus: H2 9's paragraph order swapped so the section opens on the 50-50 that H2 8 sets up, rather than an NFL roster note — which also puts April/June/August back in chronological order.
+
+### The constraint
+The file was at 4,499 words against a hard 4,500 lint ceiling, so every bridge was paid for by a cut. All cuts were paraphrase-after-quote redundancy (the Rio paragraph said *nineteen/summit* three times; "She did not fire them" and "She left the gym repeatedly" each restated the line beside them). Net **4,499 → 4,492**, so the pass returned 7 words of headroom rather than spending it. Lint: **0 fail** (the one warn is the pre-existing verbatim Biles quote already documented in the ledger).
+
+### Preserved
+Frontmatter, FAQs, all ledgers, all internal links, and everything fresh-eyes flagged as untouchable — the cold open, the hallway scene, the Tokyo timeline form, the Kirk/Morgan concession, the spotter, and the close.
+
+### One thing left for you
+`"Owens is in Indianapolis now, ninth NFL season."` is still a one-clause orphan in H2 9 — nothing picks it up. I left it because the FORMULA FINGERPRINT LEDGER names Owens-with-the-Colts as part of the current-tense anchor set, but it's the cheapest 8 words on the page if the next refresh needs room.

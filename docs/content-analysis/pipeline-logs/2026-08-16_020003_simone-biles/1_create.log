@@ -1,0 +1,26 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Simone-Biles.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (8 qualifying quotes) | Gate 2: pass (6 of 8 H2s search-intent/hybrid)
+       Gate 3: pass (no self-loops) | Gate 4: pass | Gate 5: pass (2 type-theory paragraphs, ceiling 4)
+       Gate 6: pass (0 strong contrast pairs; similarity CLEAR at 0.089 vs 0.04 threshold)
+LIMITATIONS: see "Unresolved facts" in docs/content-analysis/research/Simone-Biles.md
+```
+
+**The thesis.** Aimee Boorman coached Biles for twelve years and saw her lose track in the air twice. Biles never looked at the ground on the way down — "That's scary. I don't want to look at it" — she navigated by a sound in her ears. In Tokyo the sound cut out. The page argues Type 6 and shows the work through two questions nobody has connected before: **"Did I do it?"** (to Boorman, after her *third* consecutive World all-around title) and **"Are we sure? Are we sure?"** (to her therapist, eight years later). Both asked privately, about results already settled.
+
+**What the research turned up that isn't in circulation.** I pulled the full 16,905-word *Call Her Daddy* transcript and two Boorman podcasts via yt-dlp, plus the verbatim Senate testimony. Highlights: the three-year-old in foster care who left her bed nightly to check her brother hadn't been moved; "Mom, come pick me up, I'm scared"; the standing 0.5-point spotter deduction she pays on the hardest vault in the world; and the Senate line that reframes Tokyo entirely — *"I worked incredibly hard to make sure that my presence could maintain a connection between the failures and the competition."*
+
+**The empathy turn** runs on the two-up two-count rule: she withdrew in the one window that let Jordan Chiles in, because an injury would have left the team unsubstitutable and medal-less. Kirk and Morgan are quoted and conceded before being answered.
+
+**Two things you should know:**
+- The entity-gap packet says "30-year-old." She's **29** (b. 1997-03-14). Corrected throughout and flagged in the research file.
+- I cut the closing disclaimer blockquote — only 2 of 514 drafts carry one, and it blunted the ending. That also cleared the 4,500-word ceiling (now 4,473).
+
+Two open warnings, both deliberate: one comparative contrast pattern sits inside a verbatim Biles quote, and word headroom is thin for a future refresh.
+
+Next step is `/grade_blog`, then human review before `blog_content_production_people`.

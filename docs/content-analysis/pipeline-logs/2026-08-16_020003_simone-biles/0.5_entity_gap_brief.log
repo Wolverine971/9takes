@@ -1,0 +1,18 @@
+**Simone Biles — 43/100 — PASS as an Emerging Entity Gap.** Packet saved to `docs/content-analysis/entity-gaps/Simone-Biles.md`, feeding the live pipeline run (pid 65059, step 0.5).
+
+**The verdict, plainly:** her exact-name SERP is the most-owned kind on the web — personal Wikipedia, Britannica (whose title literally carries *Height, Medals, Age, Olympics, Biography, Husband, Facts*), Olympics.com, Team USA, Academy of Achievement, EBSCO. Four-plus dedicated authoritative biographies on page one triggers the full −20 penalty. 9takes cannot become the biography of record here, and a draft that tries will be invisible.
+
+**But there's a real opportunity the rubric doesn't measure.** The *typology modifier* SERP is thin and self-contradicting — So Syncd says Enneagram 3w2, EnneagramUniverse says 6, Personality-Database crowd-votes ESFJ. And your own GSC proves you win that surface on saturated names: `/personality-analysis/lionel-messi` pulls **1,754 impressions** on typology queries (`messi personality type` at position 7.7, 1,393 impressions), with the same pattern on Gosling, Cruise, Watson, Carpenter. Messi is the near-exact analogue — global GOAT athlete, equally saturated name-SERP.
+
+So I recommended **CREATE on the typology thesis, explicitly not the biography thesis** — and flagged in the packet that this contradicts the 60-point gate on purpose, so you can veto it.
+
+**Three things that decide whether the draft works:**
+1. **The contradiction is unusually clean** — the most decorated gymnast in history became globally famous for the day she *stopped*. Medals are the setup; Tokyo is the reveal. Build the type argument on the withdrawal, not the medal count.
+2. **Commit to one type and name the disagreement.** The aggregators are split three ways; a sourced verdict that says so is the entire differentiator.
+3. **Osaka is both your best cross-link and your biggest duplication risk** — she withdrew for mental health weeks after Biles in 2021, and her page is already framed on apology/self-erasure. Biles needs a different frame.
+
+Source gate passes comfortably (15/15): memoir, Netflix docuseries, extensive first-person twisties/therapy quotes, self-disclosed ADHD, named third parties. Claims-to-avoid list is in the packet — no diagnosing, no net worth, ADHD only as her own words, and the Nassar material only with direct sourcing or not at all.
+
+No existing page, draft, or GSC history for her — this is net-new with nothing to protect. Failure signal to watch at 56 days (not 28): impressions on `simone biles` but not `simone biles personality type` means it got written as a biography.
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Simone_Biles), [Britannica](https://www.britannica.com/biography/Simone-Biles), [Olympics.com](https://www.olympics.com/en/athletes/simone-biles), [Team USA](https://www.teamusa.com/profiles/simone-biles), [CNN — LA 2028 "50-50"](https://www.cnn.com/2026/04/29/sport/simone-biles-2028-olympics-laureus), [SI — twisties](https://www.si.com/olympics/2021/07/30/simone-biles-addresses-accusations-of-quitting-answers-questions-about-twisties), [TODAY — parents](https://www.today.com/parents/simone-biles-parents-ronald-nellie-rcna148293), [TIME — ADHD](https://time.com/4490680/simone-biles-adhd-medication/)

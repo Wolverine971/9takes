@@ -173,13 +173,17 @@ Locations: "What stress does to Duke Dennis" (behavioral stress-guide pointer on
 > "I feel like my life didn't really start until I got out of the army."
 > — Duke Dennis, Complex's 360 With Speedy, 2024
 
-<p class="firstLetter">Twenty-nine days into his first civilian job, Duke Dennis woke up in front of a plastic-making machine. He was working the midnight-to-noon shift at a plant he calls Berry's Plastic, on no sleep, and sleep took him where he sat. He jolted awake catching himself, the roller turning in his face. Then he stood, walked out of the building, and walked home.</p>
+<p class="firstLetter">Twenty-nine days into his first civilian job, Duke Dennis fell asleep in front of a plastic-making machine. He had reported for a midnight-to-noon shift at a plant he calls Berry's Plastic without sleeping the night before. Two or three hours in, he woke with a start and caught himself, the machine's roller turning in front of his face. Then he walked out of the plant and walked home.</p>
 
-He never went back. He told Speedy Morman that story on Complex's 360 With Speedy in 2024, seven years after surviving his Army contract. The factory got twenty-nine days.
+He never went back. Seven years after finishing his Army contract, he told Speedy Morman the story on Complex's _360 With Speedy_ in 2024. The factory got twenty-nine days.
 
-The internet knows another Duke: the loud, goofy AMP co-founder whose videos about NBA 2K, the basketball game, grew into an audience that now follows him to Renaissance fairs and the Gathering of the Juggalos. Gen Z froze one still frame, pinned "rizz" on him, and turned the middle of charisma into Oxford's 2023 word of the year. He wants nothing to do with it.
+<div class="iframe-container">
+<iframe width="560" height="315" loading="lazy" src="https://www.youtube.com/embed/C8QOpUByFB8?start=207&amp;end=273" title="Duke Dennis tells Speedy Morman why he walked out of his factory job after 29 days" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-But Duke's story is not just about leaving. He bolts from rooms others arrange, then plants himself inside the ones he chooses: his mother's house before his own jewelry, six members after AMP could have expanded, one borrowed email after the channel became an empire.
+The internet knows another Duke: the loud, goofy co-founder of AMP, a six-man creator collective, whose NBA 2K videos grew into an audience that now follows him to Renaissance fairs and the Gathering of the Juggalos. Gen Z turned one still frame into a meme, pinned "rizz" to it, and watched the slang become Oxford's 2023 Word of the Year. Duke wants nothing to do with the label.
+
+But Duke's story is not simply about leaving. He rejects arrangements other people make for him, then commits hard to his own: he bought his mother a house before he bought himself jewelry, insists AMP stay at six members, and still runs the YouTube channel that became his empire through the email address of the friend who gave it to him.
 
 <details>
 <summary class="accordion">TL;DR: Why Duke Dennis is an Enneagram Type 8</summary>

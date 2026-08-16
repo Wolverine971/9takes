@@ -1,0 +1,25 @@
+## Grading Complete — Simone Biles (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Simone-Biles | 9 | 9 | 8 | 9 | 8 | 9 | **8.6** | **B+** |
+
+`(9×1.5 + 9×1.5 + 8×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability 8 ≥ 7, so no gate. Caps applied: none.
+
+This is a regrade — the pipeline's revision notes record a first grade of B (8.0) with Evidence capped at 6. `grade_stability_delta: 0.6`.
+
+### Key observations
+
+**The cap is genuinely cleared, not papered over.** `blog-source-audit.mjs` returns 8 load-bearing quotes, 8 inline, 0 vague, 0 untagged. Evidence 6 → 9 is a big swing, but the 6 was a cap on an already-dense evidence base, not an organic score.
+
+**What earns the 9s.** The bookend is the strongest move: Boorman's "No, that's scary. I don't want to look at it" in the cold open, flipped 4,400 words later into "She always knew where the ground was, and she never once looked at it." A fact every profile reports as a gift gets re-read as fear management. The three-year-old hallway → half-point spotter → August 2026 locker photo is one continuous mechanism, not three anecdotes. All three emotional-interior checks pass, and the empathy turn uses her own vocabulary rather than house `not X, it was armor` grammar.
+
+**Two findings the draft's own ledgers get wrong.** The FORMULA FINGERPRINT LEDGER claims the same-type scan is "0.089 → CLEAR." Re-running it today returns **0.159 vs noah-wyle, TRIPPED** — wrong number, and 0.089 would have tripped a 0.04 threshold anyway. The trip is a near-verbatim counter-typing stem ("The Type 3 case is argued up in..." vs Wyle's "The Type 3 case is the one a skeptic reaches for first"). Separately, TESTIMONY LEDGER entry 10 has never been in the body. Not enough to fire the Originality cap (one stem, not three architectural moves), but the ledgers are asserting compliance they don't have.
+
+**The one score holding it off A: `meta_title` carries no head term.** "Why Simone Biles Never Looked at the Ground" is a good title, and the `head_term_exception` argues SERP saturation credibly — but `meta_title` is the field this codebase renders as the SERP title, so the most visible search element contains no typology modifier. That's a bet, not an oversight, and it's the whole gap between 8 and 9 on Discoverability.
+
+**Writing 8** for a metronomic aphoristic-closer cadence across five sections, three reader-command imperatives (the same tic flagged on Tyla last week), a grab-bag H2 3 that doesn't answer its own heading, and one sentence compressed past parsing ("bought against what happens if she cannot") — the cost of 10 words of headroom against the lint ceiling.
+
+Frontmatter block added after `path:`; lint re-run clean (0 fail, 2 known-benign warns). Feedback with a 6-step path to A written to `docs/content-analysis/grades/Simone-Biles.review.md`.
+
+**Total graded this session: 1**

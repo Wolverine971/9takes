@@ -1,0 +1,25 @@
+## Grading Complete — Simone Biles
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Simone-Biles | 6 | 8 | 9 | 9 | 8 | 9 | **8.0** | **B** |
+
+(Weighted: `(6×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.0`. Discoverability 9 — no gate.)
+
+### Key observations
+
+**Two findings the pipeline's own checks missed:**
+
+1. **The empathy turn rests on arithmetic the rules contradict.** H2 5 argues that if Biles had been injured, "they couldn't replace me… We would have never won a medal." Tokyo ran 4-member teams, three-up three-count in the final — the fact this draft's *own editor pass* established when it killed the "two-up two-count" line. With Biles out, exactly three remained, which fills every lineup. Worse, the concession sentence says "An Olympic team is four other women… and one was going home without a medal" — the team was four total, and the US won silver, so every member medalled. The editor pass flagged that sentence as "worth a human read" and left it because it was protected. It's the load-bearing concession of the piece's central section.
+
+2. **`blog-source-audit.mjs` PASS is slot-limited and shouldn't be read as clean.** It reports 8 inline / 0 untagged, but only inspects epigraph, cold open, diagnosis, empathy turn and close. Hand-counted across the body, ~30 quotes carry no outlet at point of use — including the foster-care hallway quote (the most thesis-critical evidence on the page), the entire Tokyo timeline, and the Nellie Biles quote, whose source (Romper) exists only in a stripped HTML comment. And Call Her Daddy — which supplies the epigraph, the hallway scene, the therapy exchange and the whole timeline — appears nowhere in `citations`. That triggered the `untagged_load_bearing_quotes` cap on Evidence.
+
+**What's genuinely strong:** the bookend (never looked at the ground / was too scared to look) is the best in the recent drafts and passes the swap test decisively; "Did I do it?" is a real find mined from an unread coach podcast, and the sufficiency-vs-recurrence discriminator against Type 3 is the sharpest typing argument in the batch; discoverability is near corpus-top (7 valid FAQs, extractable answer block, complete entity metadata); rabbit hole is well-formed with only two type-theory paragraphs bleeding into the body. Sameness scan vs. the last three graded drafts: clear — no corpus-stat sentence, no "The tell:" bullet, 0 strong contrast pairs, bespoke timeline form.
+
+**Also live:** body is 4,848 words against the 4,500 lint ceiling (the editor pass logged this as BLOCKED, needs DJ), and five British spellings on an American subject.
+
+`needs_review: true` is set — the medal sentence and the substitution arithmetic both want your eyes before this moves.
+
+Files written: `src/blog/people/drafts/Simone-Biles.md` (frontmatter) and `docs/content-analysis/grades/Simone-Biles.review.md`.
+
+**Total graded this session: 1**

@@ -1,0 +1,18 @@
+All eleven required H2 headings present in order, frontmatter counts match the document (4 blockers, 9 concerns).
+
+**Saved:** `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/subject.md`
+
+**Verdict:** `revise` — trust *strained*, value *high*, delight *clear_hit*. 4 blockers, 9 concerns.
+
+The split is clean: the article gets the hard fairness things right and the easy sourcing things wrong. It lets Biles overrule its own structure on what her worst moment was, refuses to claim access to her mind when claiming it would pay, concedes her critics' strongest point, and defines the twisties as physiology rather than pathology. Then it breaks its own "nobody shows their work" promise four times.
+
+**Strongest hit — SUBJ-H1** (L366–368): "Ask her for the lowest point of the Tokyo era and she does not name Tokyo." The whole piece is built around Tokyo, and this paragraph tells the reader its subject disagrees. Handing the subject a veto over the article's center of gravity, in her own words, inside the article, is the clearest evidence she was listened to rather than arranged.
+
+**Highest-priority blocker — SUBJ-R1** (L440): the draft says she was hospitalized in June 2026 "for something she has never named… **Nothing further.** An open book about the facts, layers about the fear." She publicly posted about undergoing a procedure on **22 July 2026** and has said she'll explain "sooner or later." So the piece asserts a silence that was already broken three weeks before its own date, about the one topic where she drew an explicit boundary — and then reads that silence as a symptom. False fact plus the most invasive passage on the page.
+
+Two findings worth flagging beyond the review itself:
+
+- **I advanced the packet's largest open question.** It could not locate the quote attributed to *Simone Biles Rising* ("It wasn't at a point of weakness, it was a point of strength") and rated it possibly unsourced. It's real and verbatim — but attached to interview coverage, not the docuseries. That changes the repair from *cut* to *re-attribute*, and makes it the second instance of the same error class as the podcast misattribution.
+- **A tooling problem outlives this draft.** The nonexistent "*Beyond Medals and Perfection*" podcast is registered in `scripts/blog-source-audit.mjs` OUTLETS, so the audit tool will keep grading that misattribution as a clean citation on every future piece. The prose fix alone won't catch a recurrence.
+
+One caveat on my own process: the snapshot carries prior-pipeline commentary in trailing HTML comments, which I encountered reading the file end to end. My findings come from the reader-visible body and the packet — and notably, several blockers concern material those notes record as already resolved. I've disclosed this in the review's limits section.

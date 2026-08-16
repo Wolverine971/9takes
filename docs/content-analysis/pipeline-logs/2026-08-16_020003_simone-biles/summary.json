@@ -1,0 +1,19 @@
+{
+	"person": "simone-biles",
+	"draft_path": "src/blog/people/drafts/Simone-Biles.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/simone-biles.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-16_020003_simone-biles",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003",
+	"perspective_initial_status": "fail",
+	"perspective_final_status": "pass",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.4,
+	"final_overall": 8.6,
+	"final_discoverability": 8,
+	"grade_stability_delta": 0.1999999999999993,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-16T08:54:31.799Z"
+}

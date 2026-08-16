@@ -1,0 +1,14 @@
+**Output:** `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/verification-initial.md`
+
+- **verification_status:** `needs_human`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+
+All ten P0 acceptance tests hold against the current draft, and all nineteen `PROTECT-*` items survive by string match. Eighteen of nineteen accepted P1s are complete; P1-13(b) is deferred with a stated word-budget reason. Two independent re-verifications came back clean: the source audit re-run after the OUTLETS fix (8 load-bearing quotes, 8 inline, 0 vague, 0 untagged) and the P1-05 distance correction (Tokyo–Spring TX great circle = 10,706 km).
+
+The status is `needs_human` rather than `pass` because two publication blockers survive that the verifier cannot close:
+
+1. `blog-lint.sh` FAILs on length — 4,842 words against the 4,500 ceiling. Needs DJ's call on the documented ceiling exception versus the pre-costed cut list.
+2. A factual error inside PROTECT-05, confirmed this pass: the concession says a teammate "was going home without a medal," but the US won team silver — and the draft contradicts itself three paragraphs later with "The United States won silver." The same sentence also says "four other women" where Tokyo rosters were four total, so three others. The editor correctly declined to edit into a protected passage unilaterally.
+
+One additional find not in the resolution log: the frontmatter enrich stage changed `wikidata_qid` from `Q7520786` to `Q7520267`. I verified Q7520267 is the correct Simone Biles item, which means the evidence packet's L44 entry — recorded there as a `verified fact` — is wrong and should be corrected in the packet the way CLM-09 was, or it re-enters on the next refresh.

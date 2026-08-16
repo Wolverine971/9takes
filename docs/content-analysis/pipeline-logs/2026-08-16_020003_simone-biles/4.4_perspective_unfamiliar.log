@@ -1,0 +1,15 @@
+Counts verified: 2 blockers, 10 concerns, all 11 required headings present, SHA confirmed against `context.json`.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **Blockers: 2.**
+
+On the core test of this seat the draft passes: after one unaided read I could state who Biles is, why she matters, what the thesis claims, and the type answer, without leaving the page for any of that. Both blockers are quotation-reliability defects, not comprehension failures.
+
+**Strongest hit** — the ground bookend. The opening (`"No, that's scary. I don't want to look at it. That's scary."`) and the closing (*"She always knew where the ground was, and she never once looked at it. She was too scared to look."*) gave me the whole thesis as a physical image instead of a personality vocabulary. It's the reason the piece works for someone with no prior knowledge, and the withholding is the mechanism — it must survive revision intact, placement included.
+
+**Highest-priority concern (UNFAM-C1)** — Larry Nassar is used twice as the load-bearing element of H2 6 and never identified. It's the only point where I stopped reading and searched. The section's argument is that she stayed inside *the institution that failed her*, which requires knowing he operated inside USA Gymnastics; that's inferable from "a system that enabled" but never stated, and the scale — what makes staying remarkable — isn't conveyed at all. Every other weight-bearing name in the draft gets a gloss. Fix is a five-word appositive.
+
+Two notes on the blockers, since they sit partly in the critic/subject seats and the synthesis should reconcile the severity rather than take it from me: **B1** is a confirmed alteration inside quotation marks that the packet marks `verified fact` (source) vs `disputed claim` (draft) — `"And I think that was my anxiety talking"` rendered as `"But that was obviously my anxiety talking"`, which flips her hedge into certainty in the direction that helps the argument. **B2** is a quoted sentence attributed to *Simone Biles Rising* that the packet calls its own largest unresolved gap. I raised both from this seat specifically because a reader with no independent knowledge has quotation marks as their only instrument for telling reporting from interpretation — but B2 is fixable in revision by de-quoting, so it doesn't force a research hold.
+
+One objection I raised on first read and then withdrew: the "eight years later" span is correct — it measures from October 2015, not Tokyo, and my initial arithmetic used calendar-year subtraction. It's recorded in the research log as withdrawn rather than reported as a finding.

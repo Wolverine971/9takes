@@ -1,0 +1,15 @@
+All eleven required headings present, counts match frontmatter, snapshot SHA unchanged.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/fan.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **3 blockers, 8 concerns.**
+
+**Strongest hit (FAN-H3):** the half-point spotter — *"Half a point, in a sport decided by hundredths, on a vault she can land, bought against what happens if she cannot."* I knew the Antwerp deduction and had filed it as a safety footnote; reading it as a recurring, quantified purchase of reassurance is the "I had never connected them that way" moment. It's the one line I'd repeat to another gymnastics fan.
+
+**Highest-priority finding (FAN-R1):** the draft states the Tokyo team-final format incorrectly, in its own voice, twice reader-facing — *"Olympic team finals run two-up two-count: two gymnasts per apparatus, both scores count"* (L334, and again in the FAQ at L71). The Tokyo 2020 team final was **three-up, three-count**; I escalated past a muddled search result to the primary event record, which reads *"In the final, each team selected three gymnasts to compete on each apparatus. All scores on each apparatus were summed."* No Olympic team final has ever run two-up two-count.
+
+Two things make this worse than a stray fact. The draft's ellipsis in the Biles quote sits exactly where her own misstatement was in the transcript — so the article elided her error and then adopted it unquoted. And the shared evidence packet independently endorses the same error (CLM-09: "Two-up two-count is the correct Olympic team-final format"), so it can't be resolved by deferring to the packet. The underlying argument is sound and survives the correction intact.
+
+Two other blockers: the spotter passage describes Laurent Landi on the mat in habitual present tense, an arrangement that ended in December 2024 (both Landis now run Georgia together) — landing on the page's best argument; and the Boorman podcast is misnamed three times reader-facing (it's *The Art of Excellence* Ep. 122), so the article's most shareable material is un-findable, and the wrong name is registered in `scripts/blog-source-audit.mjs` where it will keep grading clean.
+
+Per the command contract, I stopped at the report and did not edit the draft.

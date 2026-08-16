@@ -288,6 +288,17 @@ const OUTLETS = [
 	// creator whose testimony lives in one long podcast grades untagged no
 	// matter how precisely it is cited.
 	'Call Her Daddy',
+	// Coach/athlete interview shows that publish full public episodes
+	// (Simone-Biles pass, 2026-08-16; corrected 2026-08-16 editor pass). Aimee
+	// Boorman's twelve years of first-hand testimony about Biles lives almost
+	// entirely in one dated October 2025 episode of The Art of Excellence
+	// (Glenn Zweig, Ep. 122 — "Beyond medals and perfection" is the EPISODE
+	// title, not a show, and was registered here in error); The Pivot Podcast
+	// is the primary record for the December 2023 Jonathan Owens interview.
+	// Without them a subject whose best third-party testimony sits in a long
+	// public podcast grades untagged no matter how precisely it is cited.
+	'The Art of Excellence',
+	'The Pivot Podcast',
 	// Streamer-run shows that publish full public episodes (CaseOh pass,
 	// 2026-07-26). Same class as the comedy podcasts above: for streamer
 	// subjects a named show + date IS the checkable primary record.

@@ -1,0 +1,15 @@
+Saved: `docs/content-analysis/perspective-reviews/Simone-Biles/2026-08-16_020003/future.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 8 concerns.**
+
+The split that defines this review: the argument survives twelve months, the reporting does not. The thesis rests almost entirely on fixed past evidence (2000, 2015, 2021, 2024), so deleting the entire final section leaves the article intact — rare for a comeback-shaped profile, and why this is revise rather than hold.
+
+**Strongest hit** — the bookend has zero temporal dependency: *"She never looked. She just always knew where it was,"* paid off by the close reversing air awareness into fear. It reads identically in 2027 or 2040, and it's what makes the perishable material safely cuttable.
+
+**Highest-priority concern** — the "50-50" frame is load-bearing in four places (meta description, FAQ answer, H2 9, the close), and its shelf life is far shorter than the draft assumes. The 2026 Worlds open in Rotterdam on 17 October 2026 with a women's team event — **ten weeks after publication**. Whatever she does about Rotterdam is itself an answer. The FAQ's bare "She has not decided" and the SERP-facing description are the most exposed sentences on the page.
+
+Two things are already wrong on publication day, both from the packet: **"Nothing further"** about her health is contradicted by her own 22 July 2026 procedure post (CLM-22), and it's the sentence proving the "open book about facts, layers about fear" reading. And **"When Biles performs it, Laurent Landi stands on the landing mat"** is a habitual present for a coach who left World Champions Centre in December 2024 (CLM-12) — that's the page's best compressed argument written in the one tense that guarantees it reads as stale.
+
+Cheapest high-value fix I'd flag for whoever edits: the H2 9 heading hard-codes her age into its anchor slug (`simone-biles-is-29-and-the-answer-is-still-50-50`), which the 2028 FAQ points at. She turns 30 on 14 March 2027 — inside the window. Free to fix now, a slug migration later.
+
+Left unresolved rather than guessed: whether the 2025–2028 women's code still carries the 0.5 spotter deduction (my search returned the men's code). Logged as FUTURE-Q1 with the primary FIG PDF as the source to pursue — the repair I recommend is correct either way, so it doesn't change the recommendation.
