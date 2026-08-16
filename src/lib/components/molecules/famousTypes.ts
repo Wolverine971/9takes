@@ -234,7 +234,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'lana-del-rey', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'Pop\'s Glamorous Exile', contentGrade: 9, types: ['musician'] },
 		{ name: 'lili-reinhart', link: true, hasImage: true, lastmod: '2026-05-15', personaTitle: 'Riverdale\'s Confessional Poet', contentGrade: 9.1, types: ['movieStar', 'author', 'screen-icon'] },
 		{ name: 'lily-allen', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'Pop\'s Honest Witness', contentGrade: 8.6, types: ['musician'] },
-		{ name: 'machine-gun-kelly', link: false, hasImage: true, lastmod: '2026-08-03', personaTitle: 'Cleveland\'s Beautiful Wreck', contentGrade: 8.7, types: ['musician', 'music-crossover'] },
+		{ name: 'machine-gun-kelly', link: true, hasImage: true, lastmod: '2026-08-16', personaTitle: 'Cleveland\'s Beautiful Wreck', contentGrade: 8.7, types: ['musician', 'music-crossover'] },
 		{ name: 'maddie-phillips', link: false, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Streaming\'s Tender Shapeshifter', contentGrade: 8.7, types: ['newMovieStar', 'celebrity', 'rising-star'] },
 		{ name: 'madison-beer', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Pop\'s Haunted Locket', contentGrade: 8.6, types: ['musician', 'lifestyleInfluencer', 'lifestyle-builder', 'music-crossover'] },
 		{ name: 'megan-fox', link: true, hasImage: true, lastmod: '2026-06-28', personaTitle: 'Hollywood\'s Unseen Exile', contentGrade: 8.6, types: ['movieStar', 'celebrity', 'screen-icon'] },

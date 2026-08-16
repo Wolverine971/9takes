@@ -4,12 +4,12 @@ meta_title: "Machine Gun Kelly's Personality Type: He Ruins It on Purpose"
 persona_title: "Cleveland's Beautiful Wreck"
 description: 'Why does Machine Gun Kelly wreck his life before every album? He says he does it on purpose. Inside the Type 4 wiring behind seven albums of wreckage.'
 author: 'DJ Wayne'
-date: '2026-08-16'
+date: '2026-08-03'
 loc: 'https://9takes.com/personality-analysis/machine-gun-kelly'
-lastmod: '2026-08-16'
+lastmod: '2026-08-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: '4'
 type: ['musician', 'music-crossover']
 person: 'machine-gun-kelly'
@@ -577,4 +577,3 @@ Flagged for whoever publishes:
 
 Lint: 0 fail, 1 warn (word-count headroom only; the faqs warn is cleared). Source audit: 7 load-bearing quotes, 6 inline, 1 vague, 0 untagged. Contrast pairs: 0 strong / 0 comparative.
 -->
-

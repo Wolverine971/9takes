@@ -1,11 +1,15 @@
 # Grade feedback: Machine Gun Kelly
 
-Grade: B+ (8.7), rubric v2
+Grade: B+ (8.7), rubric v2 — supervised final-text regrade stable at 8.7 (delta 0.0)
 Evidence: 8.5 | Originality: 8.5 | Discoverability: 9 | Enneagram: 9 | Writing: 8.5 | Hook: 9
 Anchor: Matt-Smith draft (B, 2026-06-28) | Caps: none | Needs review: false
 Source audit: 7 load-bearing quotes — 6 inline, 1 vague, 0 untagged. The one vague is the Feb 21, 2024 lyric ("I had a breakdown and tatted my entire body except one line"), dated in-body but the track is never named in reader-visible text — "don't let me go" appears only in the pipeline comments. Same gap on the miscarriage line ("the same song that admitted to the tattoo"). Untagged-but-checkable claims outside the audit's four slots: the 126,000 equivalent-album-units figure (no publisher tag), the Palisades fire / Michael B. Jordan's house / day-four-of-the-fast scene (no attribution; nearest tag is the Popcast two lines later), the Bob Dylan record-store clip and 2025 trailer narration, and Good Mourning's seven Razzie nominations / Worst Director win.
 Interior line: "The stairs are the whole reason. They make a sound. The sound arrives first, and after it there is time to arrange his face and decide where to put his hands."
 Empathy turn: "He was the kid nobody signed, the goofy in the borrowed fur coat."
+
+FINAL-TEXT STABILITY NOTE (2026-08-16):
+
+The prior 7.5 → 8.7 fields compared the pre-revision and post-revision articles, so they measured substantive improvement rather than grader disagreement. A fresh independent read of the unchanged final text confirms the same 8.7 result: Evidence 8.5, Originality 8.5, Discoverability 9, Enneagram 9, Writing 8.5, Hook 9. The current deterministic checks also pass: 4,448 words, zero strong or comparative contrast engines, zero prose em dashes, valid search-answer structure, zero untagged load-bearing quotations, and no same-type similarity trip. The valid stability pair is therefore 8.7 → 8.7 (delta 0.0).
 
 FEEDBACK (2026-08-03):
 
