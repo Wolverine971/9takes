@@ -5,7 +5,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	1: [
 		{ name: 'anna-wintour', link: true, hasImage: true, lastmod: '2026-05-13', personaTitle: 'Vogue\'s Cold Reformer', contentGrade: 9.1, types: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator'] },
 		{ name: 'anne-hathaway', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'The Actress They Hated for Trying', contentGrade: 9.1, types: ['movieStar', 'screen-icon'] },
-		{ name: 'ben-shapiro', link: false, hasImage: true, lastmod: '2026-05-03', personaTitle: 'Conservatism\'s Inner Prosecutor', contentGrade: 9.1, types: ['celebrity', 'politician', 'celebrity-image', 'campaign-politician'] },
+		{ name: 'ben-shapiro', link: true, hasImage: true, lastmod: '2026-08-15', personaTitle: 'Conservatism\'s Inner Prosecutor', contentGrade: 8.6, types: ['celebrity', 'politician', 'celebrity-image', 'campaign-politician'] },
 		{ name: 'bernie-sanders', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Politics\' Unsilenceable Conscience', contentGrade: 8.9, types: ['politician', 'campaign-politician'] },
 		{ name: 'blake-lively', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Immaculately Curated', contentGrade: 9.4, types: ['celebrity', 'screen-icon'] },
 		{ name: 'brene-brown', link: false, hasImage: true, lastmod: '2026-04-18', personaTitle: 'Vulnerability\'s Reluctant Researcher', contentGrade: 7.8, types: ['author', 'creator'] },

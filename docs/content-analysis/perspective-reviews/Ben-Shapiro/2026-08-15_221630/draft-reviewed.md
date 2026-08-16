@@ -4,12 +4,12 @@ meta_title: 'Ben Shapiro Enneagram: Why He Talks So Fast'
 persona_title: "Conservatism's Inner Prosecutor"
 description: 'Ben Shapiro reads as anger machine, but the engine underneath is Type 1 moralism. Inside the inner courtroom that runs his work, his Sabbath, and his fights.'
 author: 'DJ Wayne'
-date: '2026-08-15'
+date: '2026-05-03'
 loc: 'https://9takes.com/personality-analysis/ben-shapiro'
-lastmod: '2026-08-15'
+lastmod: '2026-05-03'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: '1'
 type: ['celebrity', 'politician', 'celebrity-image', 'campaign-politician']
 person: 'ben-shapiro'
@@ -59,7 +59,7 @@ faqs:
     answer: "Ben Shapiro is an Enneagram Type 1 (The Reformer), specifically a 1w2. The pattern shows in the public list he keeps of every dumb thing he has ever said, the twenty-five-hour Sabbath hard stop he bent a billion-dollar company around, the public self-conviction he posted the day after losing composure with Andrew Neil ('It's Neil 1, Shapiro 0'), and the Breitbart resignation that cost him over 7,400 antisemitic tweets' worth of organized harassment rather than stay silent on a principle."
     anchor: 'what-is-ben-shapiros-personality-type'
   - question: 'Why does Ben Shapiro talk so fast?'
-    answer: "The speed is trained, not tactical. For a Type 1, the worst case in any conversation is a bad argument landing uncorrected — so he names the error, names it again from another angle, and stacks a third frame on top. The form has a specific lineage: the Beit Midrash study hall of his yeshiva years, where paired students take Talmudic passages apart at speed, in voice, as a religious act. A Shapiro campus clip is recognizably that room exported into a theater."
+    answer: 'The speed is trained, not tactical. For a Type 1, the worst case in any conversation is a bad argument landing uncorrected — so he names the error, names it again from another angle, and stacks a third frame on top. The form has a specific lineage: the Beit Midrash study hall of his yeshiva years, where paired students take Talmudic passages apart at speed, in voice, as a religious act. A Shapiro campus clip is recognizably that room exported into a theater.'
     anchor: 'the-real-reason-ben-shapiro-talks-so-fast'
   - question: 'What happened in the Ben Shapiro BBC interview?'
     answer: "In May 2019, Andrew Neil pressed Shapiro on past columns on Politics Live; Shapiro lost composure, said 'I'm popular and no one has ever heard of you,' and walked off. The more revealing moment came the next day: 'It's Neil 1, Shapiro 0. I broke my own rule,' he posted, conceding he had misread Neil's antagonism as leftism. The Type 1 put himself on trial, returned a guilty verdict, and published it."
@@ -68,7 +68,7 @@ faqs:
     answer: "In March 2016, after Trump campaign manager Corey Lewandowski grabbed Breitbart reporter Michelle Fields and the site declined to defend her, Shapiro resigned as editor-at-large, calling Steve Bannon 'a bully' who had 'shaped the company into Trump's personal Pravda.' The cost: per the ADL's 2016 report, Shapiro became the single largest target of the alt-right's antisemitic harassment campaign — over 7,400 antisemitic tweets, roughly 38 percent of the tracked volume."
     anchor: 'why-ben-shapiro-walks-away-from-his-closest-allies'
   - question: 'Does Ben Shapiro work on the Sabbath?'
-    answer: "No. From Friday sundown to Saturday after dark he is fully offline — no travel, no technology, no tweets, no emergency calls. The Daily Wire, valued north of $1 billion by its 2023 raise, is structurally configured around its most valuable on-screen asset disappearing for twenty-five hours every week. The moral non-negotiable predates the company by twenty years."
+    answer: 'No. From Friday sundown to Saturday after dark he is fully offline — no travel, no technology, no tweets, no emergency calls. The Daily Wire, valued north of $1 billion by its 2023 raise, is structurally configured around its most valuable on-screen asset disappearing for twenty-five hours every week. The moral non-negotiable predates the company by twenty years.'
     anchor: 'how-ben-shapiro-built-the-daily-wire-around-his-sabbath'
 twitter: 'benshapiro'
 instagram: 'officialbenshapiro'
@@ -102,7 +102,7 @@ content_quality:
   anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: false
   graded_at: '2026-08-15'
-path: src/blog/people/drafts/Ben-Shapiro.md
+path: docs/content-analysis/perspective-reviews/Ben-Shapiro/2026-08-15_221630/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
