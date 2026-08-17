@@ -1,11 +1,15 @@
 # Grade feedback: Keira Knightley
 
-Grade: B+ (8.6), rubric v2 — regrade after the 2026-08-05 revision pass
+Grade: B+ (8.6), rubric v2 — supervised final-text regrade stable at 8.6 (delta 0.0)
 Evidence: 8.5 | Originality: 8.5 | Discoverability: 9 | Enneagram: 8.5 | Writing: 8.5 | Hook: 9
 Anchor: Matt-Smith draft (B, 2026-06-28) | Caps: none | Needs review: false
 Source audit: 5 load-bearing quotes — 4 inline, 1 vague, 0 untagged. The single vague slot is "I couldn't bear the rejection if he turned me down," pinned to BAFTA's A Life in Pictures, 2018 (named, dated, public audio on BAFTA's SoundCloud — human-traceable; the audit script just has no BAFTA outlet entry).
 Interior line: "Shoulders back. Chin up. Forty cameras, and every one of them allowed to be here this time. Wait for the flutter in the chest. Nothing yet. Keep smiling. It's working. It's working."
 Empathy turn: "What he took for a supermodel's retinue was the security perimeter a hunted teenager grew up and hired, now run by a woman with a PTSD diagnosis." — built on her own on-record vocabulary ("a sense of battle every day, leaving the house"); no armor/scar-tissue house grammar.
+
+FINAL-TEXT STABILITY NOTE (2026-08-17):
+
+The prior 7.4 → 8.6 fields compared the pre-revision and post-revision articles, measuring substantive improvement rather than disagreement about one text. A fresh independent read of the final article confirms the same 8.6 result: Evidence 8.5, Originality 8.5, Discoverability 9, Enneagram 8.5, Writing 8.5, Hook 9. Four legacy prose em dashes were converted to ordinary punctuation without changing wording or argument. Current checks now show 0 lint failures, 0 formula contrasts, a clear same-type similarity scan, 0 untagged load-bearing quotations, and a valid 58-word answer block. The final-text stability pair is 8.6 → 8.6 (delta 0.0).
 
 GRADE HISTORY: 8.9 B+ (2026-06-12, pipeline, pre-recalibration) → 7.4 C (2026-08-05 recalibration regrade, identical content; caps: untagged quotes, house furniture, contrast pairs, house empathy grammar) → 8.6 B+ (2026-08-05, after targeted revision). The revision earned the grade back by clearing every deterministic gate, not by re-scoring the same text.
 

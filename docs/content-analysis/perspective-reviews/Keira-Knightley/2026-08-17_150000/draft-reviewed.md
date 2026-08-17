@@ -4,12 +4,12 @@ meta_title: "Keira Knightley's Enneagram: Why She Fights What Scares Her"
 persona_title: "Cinema's Sword-Drawn Skeptic"
 description: "Why does Keira Knightley fight tabloids, Photoshop, and Disney? An Enneagram Type 6 analysis of the fear that drives period drama's most defiant star."
 author: 'DJ Wayne'
-date: '2026-08-17'
+date: '2026-06-12'
 loc: 'https://9takes.com/personality-analysis/keira-knightley'
-lastmod: '2026-08-17'
+lastmod: '2026-06-12'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: '6'
 type: ['movieStar']
 person: 'keira-knightley'
