@@ -429,7 +429,19 @@ const OUTLETS = [
 	'MambaOnline',
 	'IOL',
 	'Music In Africa',
-	'British Vogue'
+	'British Vogue',
+	// Long-form tech and comedy shows that publish full public episodes
+	// (Alexandr-Wang pass, 2026-08-18). Same class as Joe Rogan Experience /
+	// Flagrant / Call Her Daddy above. Theo Von's This Past Weekend is the
+	// primary record for this subject's entire childhood spine (the New Mexico
+	// math competition, Los Alamos, leaving MIT) and Core Memory (Ashlee Vance)
+	// carries his only sit-down about the Meta talent war; Rest of World is the
+	// bylined outlet of record for the March 2024 Remotasks cutoff. Without
+	// them a tech founder whose best first-person material lives in dated public
+	// podcasts grades untagged no matter how precisely it is cited.
+	'This Past Weekend',
+	'Core Memory',
+	'Rest of World'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

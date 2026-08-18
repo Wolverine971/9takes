@@ -1,0 +1,15 @@
+All ten required H2 headings present, frontmatter parseable, SHA matches `context.json`, 33 claim IDs, 36 ledger sources.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/evidence-packet.md`
+
+**Largest unresolved evidence gap:** whether the $500 million figure actually attaches to Project Thunderforge (CLM-13). The draft states it as fact and is faithful to its source — Forbes (Nieva, 2026-05-14) says in terms "it's led Project Thunderforge… with a $500 million contract." But the DIU's March 5, 2025 Thunderforge prime award carried **no published dollar value** across Defense Daily, UPI, CNBC, Breaking Defense and DIU's own release, while a **separate May 2026 CDAO contract** carried exactly $500M — described as 5× a $100M September 2025 deal. Two Pentagon offices, fourteen months apart. No primary contract record was retrieved to settle it, and the claim sits in the draft's most consequential section.
+
+A few other findings evaluators will want, in descending order of consequence:
+
+- **CLM-27** — "He has made every room he has ever been in by exactly one spot" is unsupported as written. One documented instance exists (fourth of four in New Mexico); nothing establishes narrow-margin entry to MIT, YC, billionaire status, or Meta, and the $14.3B deal is the opposite.
+- **CLM-18** — "two never formally started" isn't supported. Reporting names Verma alone as leaving before his start date; Knight is reported as having started and lasted under a month. The "at least eight" departures figure *is* supported.
+- **CLM-19** — material omission from the draft's own Forbes source: Google resumed its Scale work a few months later. The benchmark-table row and the rabbit-hole growth-arrow argument both lean on permanence.
+- **Resolved:** the prior research file's "I won it" ambiguity, which had a `do not claim he won` flag on it. The transcript reads as Von asking whether he won and Wang answering "I got fourth place, so I snuck in there." The spine is safe.
+- **Corrected:** the entity-gap packet dates Theo Von E563 to July 2025; it aired February 18, 2025. The draft has it right.
+- **Verified clean:** the Disney World spine, WaPo Remotasks figures, Lucy Guo's April 2025 Forbes ranking and its pre-deal chronology, the name-spelling detail (Fortune, verbatim), Terminal-Bench numbers and their vendor-reported framing, LeCun's quotes and interest declaration, the Core Memory rebuttal, and the revenue figures — where an aggregator-propagated $2B for 2025 turns out to be an April 2025 projection, not a result.
+- One internal inconsistency, not factual: the draft's TESTIMONY LEDGER lists the unnamed Scale manager quote under EXCLUDED with "do not add," and the rabbit hole quotes it anyway (CLM-32).

@@ -1,0 +1,24 @@
+**PASS — 43/100.** Packet written to `docs/content-analysis/entity-gaps/Alexandr-Wang.md`.
+
+## The call
+
+Alexandr Wang is a good subject sitting in a bad SERP position. Those are different things, and this command measures the second one.
+
+**What's strong:** demand is genuinely rising across three separate 2026 cycles (LeCun's FT attack in January, CNBC's one-year retrospective in June, Muse Code shipping Aug 5). The source record is one of the deepest I've surveyed — nine long-form first-person interviews with transcripts, a House Armed Services Committee witness bio, and four-plus named third-party voices. And there's a clean, ownable contradiction: Wang built a $29B company by industrializing *other people's* judgment, and is now being told by LeCun he was never an expert himself. Scored 14/15 on sources, 9/10 on angle.
+
+**What kills it:** the exact-name SERP is saturated. Personal Wikipedia page, Meta's own leadership page, Forbes, Fortune, The Week, Entrepreneur — all on page one. That's 6/25 on SERP weakness plus the automatic −20 Wikipedia penalty. 63 − 20 = 43.
+
+The command's own model names this exact case as *not* an entity gap. The only genuine weakness is the fact-query tail (age, parents, girlfriend), which is dominated by content farms — and that tail is low-value, partly unanswerable, and partly unsafe.
+
+## Two things worth keeping
+
+1. **`Alexandr Wang MBTI` returns personality-database.com.** That's a query family 9takes routinely beats, and it never touches the Wikipedia/Forbes biography SERP. Not an entity gap by this definition, but a real low-cost lane — recorded in the packet so it isn't lost.
+2. **Re-audit within 7 days if Meta ruptures.** If Wang exits or MSL restructures, Wikipedia lags a fast story by weeks and the window becomes genuinely contested.
+
+## Landmines flagged for the pipeline
+
+The gossip farms are propagating a stale "28" — he was born January 1997, so he's 29 now; the packet says write the birth month-year instead. No partner should ever be named: Kiernan Shipka and Lucy Guo both circulate with zero evidentiary basis (Guo is his co-founder — it looks like pure proximity invention). And LeCun's Llama 4 benchmark-fudging claim must stay attributed to him every time — he left to found a competitor and holds a prior architectural bias against LLMs.
+
+No blog, queue, or DB row was touched. I didn't apply the `−10` ambiguity penalty for the Alexander Wang fashion-designer collision, and said so explicitly in the packet — it's already priced into the 2/5 entity-clarity score, so charging it twice would have manufactured a lower number.
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Alexandr_Wang), [Meta leadership](https://www.meta.com/about/leadership/alexandr-wang/), [Forbes](https://www.forbes.com/profile/alexandr-wang/), [Fortune — Muse Spark](https://fortune.com/2026/07/09/meta-muse-spark-1-1-release-alexandr-wang-superintelligence-labs-mark-zuckerberg/), [CNBC](https://www.cnbc.com/2026/06/14/meta-hired-alexandr-wang-to-build-ai-its-zuckerbergs-job-to-sell-it.html), [Forkast — Muse Code](https://forkast.news/metas-superintelligence-labs-ships-its-first-product-and-the-contributor-tier-is-the-real-strategy/), [Windows Central — LeCun](https://www.windowscentral.com/artificial-intelligence/former-chief-ai-scientist-calls-metas-alexandr-wang-young-and-inexperienced), [Entrepreneur](https://www.entrepreneur.com/business-news/who-is-alexandr-wang-the-founder-of-scale-ai-joining-meta/493281), [House Armed Services bio](https://docs.house.gov/meetings/AS/AS35/20230718/116250/HHRG-118-AS35-Bio-WangA-20230718.pdf), [Theo Von E563 transcript](https://podscripts.co/podcasts/this-past-weekend/e563-ai-ceo-alexandr-wang), [WaPo Futurist Summit transcript](https://www.washingtonpost.com/washington-post-live/2023/10/26/transcript-futurist-summit-battlefields-ai/)

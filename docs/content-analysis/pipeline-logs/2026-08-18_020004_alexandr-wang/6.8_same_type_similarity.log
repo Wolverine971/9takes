@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — alexandr-wang (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Alexandr-Wang.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 30
+Comparison set (last 8 other Type-3 drafts by date):
+  - adela  (2026-08-14, 20 units)
+  - michael-jordan  (2026-08-14, 46 units)
+  - David-Beckham  (2026-08-12, 36 units)
+  - Mel-Robbins  (2026-08-12, 32 units)
+  - chase-infiniti  (2026-08-11, 48 units)
+  - Tate-McRae  (2026-08-04, 34 units)
+  - stable-ronaldo  (2026-08-02, 49 units)
+  - Brooke-Monk  (2026-07-31, 40 units)
+
+Noise floor over 9150 unit pairs:  median=0  p90=0  p99=0.006  max=0.071
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.071 ###                  Mel-Robbins
+  0.049 ##                   Tate-McRae
+  0.038 ##                   adela
+  0.034 #                    Brooke-Monk
+  0.031 #                    stable-ronaldo
+  0.027 #                    David-Beckham
+  0.023 #                    michael-jordan
+  0.016 #                    chase-infiniti
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.071   alexandr-wang  <->  Mel-Robbins
+   TARGET [counter-typing] and Wang has moved toward the market at every fork.
+   OTHER  [counter-typing] and Robbins has swapped standards about a dozen times
+
+score 0.049   alexandr-wang  <->  Tate-McRae
+   TARGET [diagnosis] Wang has been explicit about this since childhood without ever framing it as a confession.
+   OTHER  [counter-typing] Fours experience it as a birthright they're being denied.
+
+score 0.047   alexandr-wang  <->  Mel-Robbins
+   TARGET [diagnosis] He built a business whose product is the mobilization of expertise rather than the accumulation of his own.
+   OTHER  [diagnosis] Her reason for leaving was about the label rather than the labor.
+
+score 0.038   alexandr-wang  <->  adela
+   TARGET [counter-typing] Two findings would overturn the call.
+   OTHER  [diagnosis] Her artistic particularity complicates the call.
+
+score 0.037   alexandr-wang  <->  Mel-Robbins
+   TARGET [counter-typing] He built a company that assembles expertise instead of a research group that generates it.
+   OTHER  [diagnosis] and she meant it enough to start at Legal Aid instead of a firm.
+
+score 0.034   alexandr-wang  <->  Brooke-Monk
+   TARGET [counter-typing] Plenty of people read him as a quiet systems thinker.
+   OTHER  [diagnosis] and plenty of creators share the wiring.
+
+score 0.031   alexandr-wang  <->  stable-ronaldo
+   TARGET [counter-typing] A Five leaves the room to feel something.
+   OTHER  [diagnosis] The core desire is to feel valuable.
+
+score 0.027   alexandr-wang  <->  David-Beckham
+   TARGET [counter-typing] Plenty of people read him as a quiet systems thinker.
+   OTHER  [diagnosis] a quiet child adopts a father's plan
+
+score 0.027   alexandr-wang  <->  Brooke-Monk
+   TARGET [diagnosis] and the Type 5 investigator who is the archetype of this industry has plenty of it.
+   OTHER  [diagnosis] and plenty of creators share the wiring.
+
+score 0.025   alexandr-wang  <->  Mel-Robbins
+   TARGET [counter-typing] a decision where he chose knowing something over being seen to have delivered it.
+   OTHER  [counter-typing] Hers fastened onto competence and being seen through.
+
+score 0.024   alexandr-wang  <->  stable-ronaldo
+   TARGET [counter-typing] during a story he was telling about himself
+   OTHER  [diagnosis] A Seven metabolizes a humiliating moment into a story worth telling at dinner.
+
+score 0.024   alexandr-wang  <->  Tate-McRae
+   TARGET [diagnosis] Silicon Valley runs on ambition
+   OTHER  [counter-typing] and "nostalgia" runs on pre-emptive heartbreak
+
+------------------------------------------------------------------------------
+Top pair scores 0.071 vs median 0  (~∞x the noise floor).

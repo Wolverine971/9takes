@@ -1,0 +1,16 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/critic.md`
+
+**Verdict:** `revise` — trust strained, value useful, delight clear_hit. **4 blockers, 7 concerns.**
+
+The draft has a real thesis and unusually good epistemic manners (it declares LeCun's interest, refuses to invent a stress arrow, names its own falsifiers). But its closing exoneration — "a person doing the only thing that ever worked" — rests on four supports that don't hold.
+
+**Strongest hit:** *"Both men are describing the same person accurately. Only one of them thinks it is a problem."* The Alex Ren / LeCun pairing converts a he-said-he-said into an actual finding — the disagreement is about the value of a trait, not its existence. It's what keeps the LeCun section from being quote-and-rebut, and it must survive revision verbatim.
+
+**Highest-priority concern (blocker CRITIC-R1):** The labor section omits the one item where the public record attaches Wang's name to the harm. Scale AI, HireArt and executives **including then-CEO Alexandr Wang** are named defendants in a California misclassification class action (SF Superior Court, CGC-24-620481) that settled for **$12.5M** while denying liability, class period December 2020–February 2026, currently at preliminary approval with a final hearing October 30, 2026. The draft carries only the two journalism investigations, lets Scale's denial stand as the section's closing beat, and asks "Somebody wrote the rubric the taskers were graded against" three sentences after declining to say who. In an article whose thesis is that the people who set the criteria have more power than the people who meet them, that docket is the argument's best evidence, not an obstacle to it.
+
+Two things worth flagging beyond the report:
+
+- This finding came from research, not the packet — the packet's labor section stops at the WaPo and Rest of World reporting. Three searches surfaced the settlement, the lawsuits, the Oxford Fairwork assessment, and the DOL probe. If other perspectives are working from the packet alone, none of them will have it.
+- The counterweight ships with it: the DOL dropped its FLSA investigation in May 2025. A repair that adds the settlement without the dropped probe repeats the exact selectivity this review charges the draft with.
+
+The other three blockers: "he has made every room he has ever been in by exactly one spot" is contradicted by his own record (MOP, US Physics Team, USACO ×2, youngest self-made billionaire, a $14.3B acquisition to hire him) and it is the premise of the exoneration; the paragraph the draft labels "the harshest version of the case against him" contains no labor charge at all; and Thunderforge's "$500 million" appears to conflate two awards from two offices fourteen months apart.

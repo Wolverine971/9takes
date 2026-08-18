@@ -1,0 +1,19 @@
+All 11 required headings present, counts match the frontmatter.
+
+## Fan review complete
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/fan.md`
+(SHA verified against both `context.json` and the supplied `--draft-sha`; no other perspective files existed when I began.)
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit
+**Blockers:** 1 · **Concerns:** 7
+
+**Strongest hit (FAN-H4):** the closing move from the Muse Code contributor tier back to Scale's founding trade — *"That is Scale AI. Same machine, new building."* I'd followed the Muse Code pricing coverage and filed the contributor tier as a pricing story; I had not seen it as the same trade Wang has run since he was 19. That is the delight test passing cleanly, and it's why the piece earns a publish.
+
+**The blocker (FAN-R1):** *"He has made every room he has ever been in by exactly one spot."* Extrapolated from one sixth-grade data point and contradicted by the record a follower already carries — youngest self-made billionaire at 24 on ~15% of a $7.3B company, a $14.3B deal, DIU prime contractor. None of those are one-spot admissions. It lands exactly where the article cashes its emotional check. Repair is a cut, not a rewrite: the following sentence already does the real work.
+
+**Highest-priority concern (FAN-R2):** the LeCun section organizes itself around *"no experience with research or how you practice research"* and never mentions that Meta's institutional answer to precisely that charge was naming Shengjia Zhao, a ChatGPT/GPT-4 co-creator, as MSL chief scientist in July 2025 — nor that Nat Friedman co-leads the division the draft says Zuckerberg "built around him." This isn't only a gap; it's the best unused connection in the record: the man whose entire business is mobilizing other people's expertise answered "you're not a researcher" by hiring the researcher. That's the article's own thesis handing it a free paragraph.
+
+Two further research-backed notes worth flagging to whoever synthesizes: Scale hasn't led its own category on revenue since 2024 (Surge AI, ~$1.2B vs $870M, bootstrapped), which makes *"the supply chain underneath most of the industry"* the piece's one inherited-hype sentence — and also hands it a perfect foil it never uses. And the diagnosis section argues the Type 5 fork with a 19-year-old's MIT exit while skipping the adult version sitting in the company's own history: the pivot off autonomous-vehicle labeling into RLHF.
+
+Sources: [TechCrunch on Zhao](https://techcrunch.com/2025/07/25/meta-names-shengjia-zhao-as-chief-scientist-of-ai-superintelligence-unit) · [Forbes on Surge](https://www.forbes.com/sites/phoebeliu/2025/09/17/the-ai-billionaire-youve-never-heard-of/) · [Sacra: Surge AI](https://sacra.com/c/surge-ai/) · [Contrary Research: Scale](https://research.contrary.com/company/scale)

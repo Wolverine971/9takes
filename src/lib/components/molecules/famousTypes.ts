@@ -79,6 +79,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'adin-ross', link: true, hasImage: true, lastmod: '2026-01-29', personaTitle: 'Streaming\'s Chaos Agent', contentGrade: 8.7, types: ['creator', 'streamer'] },
 		{ name: 'alex-hormozi', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Acquisition Architect', contentGrade: 9.2, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'alex-warren', link: true, hasImage: true, lastmod: '2026-07-27', personaTitle: 'Pop\'s Reassurance Machine', contentGrade: 8.9, types: ['musician', 'creator'] },
+		{ name: 'alexandr-wang', link: true, hasImage: true, lastmod: '2026-08-18', personaTitle: 'Superintelligence\'s Fourth-Place Prodigy', contentGrade: 8.6, types: ['techie', 'entrepreneur', 'frontier-builder'] },
 		{ name: 'ali-abdaal', link: true, hasImage: true, lastmod: '2026-02-09', personaTitle: 'Productivity\'s Polished Polymath', contentGrade: 9.2, types: ['creator', 'business-creator'] },
 		{ name: 'amber-heard', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'The Image on Trial', contentGrade: 8.9, types: ['celebrity', 'screen-icon'] },
 		{ name: 'amelia-dimoldenberg', link: true, hasImage: true, lastmod: '2026-06-22', personaTitle: 'YouTube\'s Self-Made Deadpan Empire', contentGrade: 8.9, types: ['creator', 'celebrity', 'celebrity-image'] },

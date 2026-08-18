@@ -1,0 +1,33 @@
+Draft complete. Both deterministic reports and the lint pass clean.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Alexandr-Wang.md
+RESEARCH: /docs/content-analysis/research/Alexandr-Wang.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): pass — 6 named third-party quotes
+       Gate 2 (heading mix): pass — 5 of 6 H2s search-intent or hybrid
+       Gate 3 (self-loop): pass — lint verified
+       Gate 4 (anti-imitation): pass — no "A [Type]" sentence in the ending
+       Gate 5 (distribution): pass — 1 type-theory paragraph in body (limit 4)
+       Gate 6 (formula fingerprint): pass — 0 strong contrast pairs, similarity clear
+CHECKS: blog-lint.sh 0 fail / 1 warn (2 comparative patterns, held deliberately)
+        blog-quality-report.mjs 0 strong contrast-pair engines
+        same-type-similarity.mjs CLEAR (2 trips introduced and fixed mid-pass)
+        3,234 words · 5 internal links · rabbit hole 642 words
+```
+
+**The thesis:** Wang built a $29B company by industrializing other people's judgment, then got hired into a job where the judgment has to be his own. The hook and ending both hang on one line from the Theo Von interview — a sixth-grade math competition where the top four in New Mexico won a Disney World trip, and his own account of it: *"I got fourth place, so I snuck in there."* LeCun's January attack lands on exactly that nerve.
+
+**Bespoke section:** "Scoring Alexandr Wang the way Scale AI scores a model" — a benchmark card with a third column for what the score can't see. Scale's real business is model evals, so the form comes from his own company and collapses if transplanted.
+
+Three things worth your attention:
+
+1. **The entity-gap packet says don't do this page.** It scored 43/100, classification `pass`, action `watch` — Wikipedia, Meta's own leadership page, Forbes and Fortune already own the exact-name SERP. I wrote it as instructed and followed every content requirement in the packet, but this profile is unlikely to win general biography intent. Its realistic lane is the `Alexandr Wang MBTI`/personality query family the packet flagged as a legitimate low-cost side door.
+
+2. **I caught myself fabricating a number.** A first draft of the ending had a developer "paying thirty dollars a month" for Muse Code's contributor tier. That tier is priced per token, not monthly. Removed, along with a bare age and an inferred one (the packet forbids publishing a bare age — content farms are propagating a stale "28").
+
+3. **Research gaps are real and logged.** The House Armed Services witness bio returned 403 and is not quotable; the FT original wasn't accessed (LeCun quotes come from four consistent secondaries); six long-form first-person sources including Lightcone, CSIS and the WaPo Futurist Summit transcript went unmined. There is also no documented instance of Wang under stress-arrow disintegration, so the rabbit hole says that out loud rather than inventing one.
+
+Next step is `/grade_blog`, then human review before `blog_content_production_people`.

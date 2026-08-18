@@ -1,0 +1,19 @@
+Structure validated: all eleven required H2s present in order, counts match frontmatter (1 blocker, 8 concerns).
+
+**Saved:** `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/future.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. SHA `90b3e93…c3f2cea3` verified against `context.json` and the supplied `--draft-sha` before reading.
+
+**Blockers: 1**
+
+**FUTURE-R1** — The draft presents Scale's customer exodus as permanent in two places (benchmark table row 2, and the rabbit hole's growth-arrow paragraph), but its own cited source reports Google resumed work a few months later; OpenAI was the durable loss (packet CLM-19). This is already misleading on 2026-08-18, not merely at risk of becoming so, and it's load-bearing twice — the 3-to-6 arrow argument depends on the permanence of the bleeding. Fix is two clauses, and it makes the arrow case stronger rather than weaker.
+
+**Strongest hit**
+
+The thesis is anchored to a sixth-grade math competition, not a news cycle. Strip every 2026 event and the argument survives intact. Close behind it: the benchmark table's third column ("What the score cannot see") isolates the perishable data in one column and the durable judgment in another, so the section refreshes cell-by-cell without touching prose — the best durability structure I've seen in this pipeline, worth reusing on any fast-moving subject.
+
+**Highest-priority concern**
+
+**FUTURE-C1** — The ending, the piece's best asset, pins its payoff to a live **beta** pricing page in present tense and tells the reader to "Read the pricing page." I confirmed Muse Code shipped in beta; beta pricing is provisional by construction. The idea is durable, the artifact is not. Converting it to a dated historical observation and cutting the imperative costs nothing rhetorically.
+
+Two research notes worth passing to synthesis: I verified against Wikipedia's MSL article (updated 2026-08-15) that Wang **is** still Chief AI Officer, which downgraded a candidate blocker to a concern — and I rejected a widely-surfaced Medium post claiming a March 2026 reorg demoted him, as uncorroborated. Separately, my search **reduced** one packet risk: multiple outlets do render the contributor trade as "prompts and completions," so the draft's phrasing is better supported than packet dispute #4 suggests.

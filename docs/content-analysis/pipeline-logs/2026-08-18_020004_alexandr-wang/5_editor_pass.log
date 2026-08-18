@@ -1,0 +1,28 @@
+Polished `src/blog/people/drafts/Alexandr-Wang.md` in perspective-jury mode.
+
+**What this pass actually was.** The draft entered clean on the usual de-AI metrics (0 em-dashes, 0 strong contrast pairs, 0 lint fails), so almost none of the work was prose cleanup. The jury's finding was evidence handling: a piece that trains readers to expect outlet-and-date rigor, then breaks that contract in specific places. That's what I fixed.
+
+**The seven P0 repairs:**
+
+- **"Every room he has ever been in"** (all six perspectives flagged it) is now scoped to his self-account and set against his own record. The gap between what he says and what happened is stronger Type 3 evidence than the generalization was.
+- **LeCun's crediting clause restored** ("He learns fast, he knows what he doesn't know"). A witness who concedes that *and then* says he's never practiced research is more damaging, not less.
+- **"Twenty years"** was refuted by the article's own dates. Fixed in the body and in FAQ 1, which publishes standalone.
+- **Thunderforge's $500M** split into the two verified facts (DIU prime, no published value; CDAO $500M fourteen months later). The beat gained a growth curve instead of one contested number.
+- **The invented interior monologue** now runs *after* the sourced scene and is explicitly labelled as reconstruction. A cold reader had been misreading it as reportage.
+- **Customer attrition** was already false on the publication date: Google returned, OpenAI was the durable loss. Corrected in both the table and the growth arrow.
+- **The steelman now includes the labor charge**, and the concession admits the psychology does not dissolve it.
+
+All 14 P1s applied, including the Shengjia Zhao beat (the delight-target upgrade) and the benchmark table's third column now cutting against him twice — the contractor cell is the article's own thesis reappearing inside its own table.
+
+**Research I resolved:** LeCun's concession and reporting line, Scale's Washington Post response plus the Post's rebuttal (retires a second-pass open item), and the Muse Code contributor-tier terms (the draft's "prompts and completions" wording is correct). I took P2-01, the Surge AI foil — a Type 3 argument with no type theory in it.
+
+**Final numbers:** 0 strong contrast pairs (gate met), 0 lint fails, 4/4 load-bearing quotes inline, same-type similarity clear, all 14 protected hits verified present, `lastmod` untouched.
+
+**Two things for you:**
+
+1. Body is 4,406 words against a 4,500 ceiling. The length came from mandated repairs, not accretion, and I bought ~130 words back by trimming flab. But headroom for the next refresh is thin. The synthesis authorised dropping the Zhao beat if the section bloated — I kept it. That's the clean thing to cut if you'd rather bank the room.
+2. **RQ-01 is deliberately not done.** There's a reported $12.5M misclassification settlement that may name Wang individually. The synthesis said pull the SF Superior Court docket as separate work and don't write it from a law-firm summary. Nothing in this pass depends on it. Given this pipeline has shipped a legal-risk claim on thin sourcing before, I left it alone.
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/editor-resolution.md`.
+
+The draft reads production-ready to me and doesn't need another substantive pass. It does need `/blog_perspective_verify_people` to independently check the gate — I don't claim it passed.

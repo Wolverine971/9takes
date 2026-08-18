@@ -1,0 +1,18 @@
+Review complete and saved.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/unfamiliar.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **revise** — 3 blockers, 8 concerns.
+
+SHA verified against `context.json` and the supplied argument before reading. Protocol followed in order: unaided first read (no packet, no search), then the packet, then one orientation search.
+
+**Blockers (all detectable without leaving the page):**
+1. **"Twenty years"** — contradicted by the article's own dates. Born January 1997 + sixth grade ≈ 2008–09; the Theo Von interview is February 2025, about sixteen years. Worse in FAQ 1, which asserts he spent "the twenty years since" building the machinery — Scale was founded in 2016, so that's ten. Appears in the hook and in an FAQ answer that can surface standalone in search.
+2. **The `inner-thought` block** — invented interior monologue with no cue separating it from the meticulously sourced quotes around it. I read it as reportage and only afterwards realised nobody could know it; the piece's own attribution discipline is what makes it read as reported. Packet CLM-23 independently rates it "no evidentiary basis at all."
+3. **"He has made every room he has ever been in by exactly one spot"** — the climax rests on a claim the article already refuted: youngest self-made billionaire at 24, and $14.3B for 49% of his company. Packet CLM-27 flags the same sentence as unsupported.
+
+**Strongest hit:** *"Both men are describing the same person accurately. Only one of them thinks it is a problem."* — the moment an outsider who can't adjudicate Wang's qualifications is told they don't have to, and the whole dispute reframes as being about criteria. Along with the rabbit-hole fence, it's why this is readable cold.
+
+**Highest-priority concern (UNFAM-C1):** The paragraph that opens "Declare the interest, because it is large" omits the one interest a newcomer would find most explanatory — Meta's June 2025 reorg put LeCun, who had reported to the chief product officer, under Wang, and he left five months later. The packet carries his exit and competitor status but not the reporting line, so this is a gap in the research file, not just the draft. One clause fixes it, and it strengthens the thesis rather than weakening it.
+
+One disclosure recorded in the review's limits: the snapshot carries prior-pass commentary in trailing HTML comments. I read the file top to bottom so I saw it, but every finding was formed and recorded during the unaided prose read, and I neither adopted nor rebutted any prior evaluator's judgement.

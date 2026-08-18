@@ -1,0 +1,26 @@
+The second pass is complete.
+
+## What I updated
+
+`src/blog/people/drafts/Alexandr-Wang.md` (3,266 → 3,750 words)
+
+**Source audit — fixed first, wholesale.** Went from 1 inline / 2 vague / 1 untagged to **4 inline, 0 vague, 0 untagged**. The mathlete quote and both "snuck in there" slots now carry outlet + year adjacent to the quote. I registered `This Past Weekend`, `Core Memory`, and `Rest of World` in `scripts/blog-source-audit.mjs` OUTLETS, following the file's existing precedent for dated public-episode podcasts (Joe Rogan Experience, Flagrant, Call Her Daddy).
+
+**The biggest content fix was the review's first note: the labelers were missing.** The draft celebrated "the machinery that decides whose judgment is good enough" with nothing underneath it. Added the Washington Post Remotasks investigation (Aug 28, 2023 — 36 Filipino taskers, all but two with payments delayed or cancelled, 30 cents for four hours) and Rest of World on the March 2024 Kenya/Nigeria/Pakistan cutoff, with Scale's response carried in full. This also gave the MEI paragraph its landing: whoever writes the rubric outranks whoever is graded by it.
+
+**Other substantive additions:** the Core Memory "incorrect assumption" rebuttal (the man who prices human expertise arguing you can't read his hires off their price); Pentagon work promoted from a rabbit-hole list into the body; Lucy Guo extended to her own April 2025 Forbes ranking; the benchmark table rebuilt so three of four rows carry information the body doesn't.
+
+**Trims:** the corpus statistic (fourth wall), the duplicated Type 5 case, the "billionaire at 24" repeat, the net-worth deflection.
+
+**Two things I caught and corrected mid-pass:** the Lucy Guo ranking predates the Meta dividend by two months, so I removed the causal link; and I dropped "the data that targeting runs on" — Thunderforge is military *planning*, and the stronger claim wasn't supported.
+
+**I rejected one review suggestion:** naming the departed researchers in prose. Joelle Pineau announced her exit before Wang arrived, and Verma and Agarwal never formally started. The table row carries the shape without the misattribution.
+
+## Final state
+- Source audit: 4/4 inline
+- `blog-lint`: 0 fail, 1 warn (the pre-existing comparative, held deliberately)
+- Same-type similarity: clear — I introduced a 0.472 collision with chase-infiniti ("the full case is in the rabbit hole below") and rewrote it out
+- YAML parses; no `\'` build-break pattern
+
+## Worth an editor pass
+The Muse Code contributor tier and the new Remotasks material now rhyme hard — both are "cheap access in exchange for your judgment." I left that implicit rather than having the ending state it. An editor should decide whether the close names the parallel or trusts the reader. Also, Scale's response to the *Washington Post* piece specifically wasn't verified (only its Rest of World response is quoted), so I scoped the body language to what I could confirm.

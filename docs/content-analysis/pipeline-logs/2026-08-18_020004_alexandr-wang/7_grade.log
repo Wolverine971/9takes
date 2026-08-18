@@ -1,0 +1,21 @@
+## Grading Complete — Alexandr Wang
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Alexandr-Wang | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+`(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5/7 = 8.6`. Discoverability 9 → no gate. Cap applied: `contrast_pair_engines_writing_8`.
+
+### Key observations
+
+**Scores above the Matt-Smith anchor (true B, 8.0–8.4)** on evidence volume, critic pressure, rabbit-hole quality, and discoverability. Seven dated testimony quotes vs Matt-Smith's three, and it faces four separate critic pressures instead of one.
+
+**Two ledger claims failed spot-check** — this is what the caps came from, not the scripts:
+- The FORMULA FINGERPRINT LEDGER asserts "0 authorial not-X-but-Y moves" and instructs "Do not add a new one." The body has three main-body contrast-pair engines (`The tell is not the ambition…`, `It does not build models. It builds the substrate…`, `It does not answer LeCun… It answers the org chart`). `blog-quality-report.mjs` reports 0 strong / 1 comparative because it greps phrasing rather than the move — the hand-count was the thing that drifted. >2 uses → Writing capped at 8.
+- The source audit's clean 4/4-inline covers only its five defined slots. Four load-bearing claims sit outside them and are thin or bare. The worst is the ending: the Muse Code contributor tier — the fact the entire close rests on — carries no outlet or date in the body, and the trade coverage the editor pass says verified it isn't in `citations` either. That held Evidence at 8. I did not hard-cap at 6, because the claim is a checkable public fact with a launch-date citation present, but it's the #1 fix.
+
+**Genuinely strong, and not formula-driven:** the sixth-grade fourth-of-four spine is a real signature detail; the same-type similarity scan is clear (top 0.071, no shared phrase); the empathy turn avoids house grammar entirely; and the rabbit hole refuses to invent a stress-arrow instance while naming two findings that would overturn the typing. The confidence is `medium` only because several load-bearing facts are August-2026 events I can't verify from here.
+
+Written to `src/blog/people/drafts/Alexandr-Wang.md` (frontmatter) and `docs/content-analysis/grades/Alexandr-Wang.review.md` (sidecar). No legacy `QUALITY GRADE` block existed to remove.
+
+**Total graded this session: 1**

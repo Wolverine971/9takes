@@ -1,0 +1,23 @@
+Frontmatter enrichment complete: **Alexandr-Wang**
+
+**Fields filled (new):**
+- `wikidata_qid: 'Q112629173'` — verified via the Wikipedia page's `wikibase_item` pageprop
+- `same_as` — extended from 2 → 5 entries (added Wikidata, Meta's official executive bio, TIME100 AI 2023 profile)
+
+**Fields already present (preserved untouched):**
+- `wikipedia` — re-verified as the correct Person page (Alexandr Wang, Meta Chief AI Officer / Scale AI co-founder), not a namesake or company page
+- `birth_date` (`1997-01`), `birth_place`, `nationality`, `occupation` (2), `knows_about` (4), `keywords` (7), `citations` (13), `faqs` (4)
+
+**FAQs:** already substantive and body-derived — not the templated backfill pattern, so left exactly as-is per idempotency. All four anchors resolve to real H2s in the body:
+1. What is Alexandr Wang's personality type? → `#what-is-alexandr-wangs-personality-type`
+2. How old is Alexandr Wang and where is he from? → `#who-is-alexandr-wang-and-how-did-he-end-up-running-metas-ai`
+3. What does Alexandr Wang do at Meta? → same anchor
+4. Why did Yann LeCun criticize Alexandr Wang? → `#what-yann-lecun-said-about-alexandr-wang-and-what-he-got-right`
+
+**Issues:**
+- `imdb_id` deliberately omitted — Wikidata P345 is absent on Q112629173 and Wang has no film/TV credit presence. Writing one would have been a guess.
+- `birth_date` stays at month precision (`1997-01`). Both Wikipedia ("born January 1997") and Wikidata (precision 9, year-only) lack a day; no authoritative source gives one. Not padded to a fake `-01`.
+- Two FAQ entries share the same anchor. Legal, and both answers are biography-intent so the target section is right, but a future body pass could give "What does Alexandr Wang do at Meta?" its own section to deep-link.
+- Body untouched; `lastmod` untouched.
+
+Sources used for verification: [Wikipedia](https://en.wikipedia.org/wiki/Alexandr_Wang), [Wikidata Q112629173](https://www.wikidata.org/wiki/Q112629173), [Meta executive bio](https://about.meta.com/media-gallery/executives/alexandr-wang/), [TIME100 AI 2023](https://time.com/collections/time100-ai/6310631/alexandr-wang-2/), [Forbes profile](https://www.forbes.com/profile/alexandr-wang/)

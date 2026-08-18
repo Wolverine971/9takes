@@ -1,0 +1,17 @@
+Synthesis complete and validated: 9 required H2s in order, stable IDs, frozen and live drafts both untouched (sha256 still `90b3e93…3f2cea3`).
+
+**Path:** `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/synthesis.md`
+
+**P0 items:** 7
+**Accepted P1 items:** 14
+**Research required:** 3
+
+**Most important protected hit — PROTECT-01, the Disney World spine** (epigraph, opening paragraph, and the close "Top four in New Mexico. He came fourth."). Four of six preserve lists protect it, and it is the hit most exposed by this brief: three separate repairs pass directly through it.
+
+A few things worth flagging beyond the counts:
+
+- **The convergence is unusual.** All six perspectives independently reached `trust: strained` + `revise` + `delight: clear_hit`, and **all six flagged the same sentence** — "He has made every room he has ever been in by exactly one spot," which the article's own biography section refutes three thousand words earlier. That's P0-01 and the single most important repair.
+- **I verified rather than relayed on the three highest-stakes items.** The LeCun omission (P0-02) was new to the review — not in the evidence packet — so I confirmed "He learns fast, he knows what he doesn't know" against two independent FT relays before promoting it. I corroborated the Thunderforge dispute against the DIU award record, and read both linked 9takes Enneagram pages in-repo to confirm the rabbit hole contradicts them.
+- **Two P0s came from a single reviewer each** (the "twenty years" arithmetic, the curated charge sheet). Both are in that reviewer's home domain and both survived my own check, so I promoted them under the convergence-is-evidence-not-a-vote rule.
+- **I declined the critic's biggest ask.** It reports a $12.5M settlement naming Wang as a defendant, sourced to a law-firm summary rather than the docket. That's RQ-01, explicitly not shippable in this revision — a legally sensitive allegation about a living person, and this pipeline has published a thin legal claim before. The rest of that finding (contractor counts, date fusion, charge-sheet fix) is independent and ships now.
+- **Section 5 is carrying six of the twenty-one accepted items.** I flagged that as an editorial tradeoff and named P1-12 (the Shengjia Zhao addition) as the item to cut if it bloats.

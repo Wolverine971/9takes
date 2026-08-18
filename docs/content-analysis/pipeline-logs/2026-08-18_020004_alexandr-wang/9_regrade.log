@@ -1,0 +1,23 @@
+## Grading Complete — Alexandr Wang
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Alexandr-Wang | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+(Weighted: `(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7` = 60.5/7 = 8.6. Disc 9 → gate not triggered. No fingerprint caps applied.)
+
+Written to `src/blog/people/drafts/Alexandr-Wang.md` frontmatter (YAML verified) and `docs/content-analysis/grades/Alexandr-Wang.review.md`. No legacy `QUALITY GRADE` block existed to remove.
+
+### Key observations
+
+**Sits above the B anchor.** Compared dimension-by-dimension against the Matt-Smith draft: Wang carries 7 named-and-dated testimony quotes vs. 3, has 0 strong contrast-pair engines vs. 2, and 1 type-theory bleed paragraph vs. 2. Same-type scan is clear (top 0.071, Mel-Robbins, no shared phrase). Sameness check against the three most recently graded drafts found ≤2 of the seven listed reused moves — no Originality cap.
+
+**The Evidence gap is outside the audit script's blind spot.** `blog-source-audit.mjs` reports 4/4 inline, 0 vague, 0 untagged — but it only inspects five named slots. Independently tracing the load-bearing claims surfaced five untagged ones, all in the benchmark table and the close: the eight MSL departures, the Google drop-and-return, the Terminal-Bench figures ("Meta's reported figures" with no publication), Project Thunderforge, and — most consequentially — the Muse Code contributor tier, which the entire ending turns on and which is sourced only in a ledger comment. The section's own premise is that Scale sells evaluation, so the least-sourced part of the piece is the table. I did not apply the cap-at-6 rule: each claim is checkable in principle (Meta's own date-stamped price page, trade coverage), so these read as untagged rather than untraceable.
+
+**Two known defects survived the pipeline.** The cohesion pass explicitly flagged the "run on the man whose company sells them" antecedent error and marked it "writer's call, outside this pass"; the editor pass didn't pick it up, and it sits in the lede of the bespoke section. The SECOND PASS ledger also still records "Thunderforge ~$500M" after P0-04 superseded it — body correct, ledger stale. Spot-checking the other ledger claims against the body confirmed them (heading mix, distribution count, rabbit-hole quarantine all match).
+
+**Strongest non-obvious quality:** the empathy turn refuses to launder the labor charge — "the psychology does not reach the taskers at all" — which is the opposite of the usual failure mode where the type explanation quietly absolves the subject.
+
+**Main revision lever to reach A:** attribute the benchmark table and the contributor-tier close inline (Evidence 8→9 alone adds ~0.2), then cut three of the five stacked reader-command imperatives ("Read that twice," "Sit with that for a beat," "Watch him try to hold it," "Now put it next to…"), four of which cluster in the last two sections. Body is at 4,408 words against a 4,500 ceiling, so the next pass has to cut before it adds.
+
+**Total graded this session: 1**

@@ -1,0 +1,50 @@
+## Cohesion Audit: `src/blog/people/drafts/Alexandr-Wang.md`
+
+### Central Thesis
+Wang's whole identity is a placement on someone else's scoreboard — he "snuck in" fourth of four — so he built the machine that decides whose judgment qualifies, and when the field's highest authority ranked him and found him short, the charge landed because it agreed with him.
+
+### Thread Map
+
+| # | Section | Contributes | → Next because |
+|---|---|---|---|
+| — | Epigraph + intro + TL;DR | The fourth-place spine, the current stakes, LeCun teased | reader needs the life the spine runs through |
+| 1 | Who is Alexandr Wang | Los Alamos, competitions, MIT exit, Scale, Meta deal | the deal bought a person; what was actually bought? |
+| 2 | What is his personality type? | Type 3 verdict; the tell is *what survived* the competition (prize + placement, not the math); Type 5 fork settled by direction of motion | the fork was settled by a company, so look at the company |
+| 3 | Why he built a company out of other people's expertise | Scale industrializes human judgment; Remotasks labor; Pentagon; Lucy Guo ranked anyway; MEI; whoever writes the rubric outranks whoever is graded | "measured, then measuring" |
+| 4 | Scoring Wang the way Scale scores a model | His own product form turned on him; three rows resolve with data, one doesn't | the one that isn't a number is LeCun |
+| 5 | What Yann LeCun said | The charge, the declared interest, the friendly witness who said the same thing as praise, the checkbook rebuttal, heart-triad hinge, the all-hands tears, harshest case | juxtapose with the sixth-grader |
+| — | Rabbit Hole | Quarantined system detail | skippable by design |
+| 6 | Fourth place out of four | Muse Code's contributor tier = Scale, same machine, new building | close |
+
+| Check | Before | After | Issues |
+|---|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 9/10 | 0 |
+| Reader Mental Model | 6/10 | 8/10 | 2 fixed |
+| Section Transitions | 6/10 | 9/10 | 1 fixed |
+| Internal Paragraph Flow | 6/10 | 8/10 | 2 fixed |
+
+**Before: 7/10 → After: 8.5/10**
+
+### Changes Made (5)
+
+**Transition (1)**
+- **Diagnosis → Scale section** was the one real break. The diagnosis closed on "in January 2026 it acquired a price," a forward reference to LeCun *two sections downstream*, so the Scale AI section read as a 1,500-word detour off a promise it doesn't answer. Rewritten to point at the company that actually follows ("the company it produced is the most detailed thing he has ever said about himself"), which now hands directly to "Scale AI is a strange company to have chosen." LeCun is still set up twice: the intro, and the benchmark-table closer immediately before him.
+
+**Reader mental model (2)**
+- **LeCun section:** "Wang's own answer to the charge" answered a charge the piece hadn't stated. The Core Memory quote rebuts *"he bought his lab,"* not *"he has no research experience"* — the reader was silently asked to swap charges mid-paragraph. Charge now named one clause ahead.
+- **MEI paragraph** opened "Then in June 2024" right after an April 2025 paragraph — a temporal marker running backwards. Replaced with a conceptual bridge off Lucy Guo's ranking, which is the actual connection.
+
+**Internal flow (2)**
+- "The answers were specific" had an ambiguous antecedent (workers' interview answers vs. Scale's responses). Now "Scale's answers."
+- The relationship-status disclaimer was stapled onto the founding-of-Scale paragraph, breaking the bridge into "Scale grew into the supply chain." Given a connective so it reads as a beat.
+
+### What Was Preserved
+Frontmatter, FAQs, all ledger blocks, every internal link, the rabbit hole, the Disney World spine, the all-hands interior beat, the Alex Ren/LeCun pairing, the contributor-tier ending. Four transitions were already strong and untouched — "measured, then measuring" → the benchmark table is the best one in the piece.
+
+### Verification
+`blog-lint`: 0 fail, 1 warn (the pre-existing, deliberately held comparative). Same-type similarity: **clear** at the 0.04 threshold, top 0.071 vs Mel-Robbins, unchanged. Body 3,753 words. No em-dashes or banned phrases introduced. A `COHESION PASS (2026-08-18)` note was appended alongside the existing pass ledgers.
+
+### Remaining Concerns
+- "So here is the test, run on the man who sells **them**" — no plural antecedent ("the test"). Grammar, outside this pass's remit; one-word fix.
+- Two orphaned threads I left alone because they're intentional: the "at least eight researchers left" table row is never picked up in prose (the second-pass notes explain why — naming them would misattribute), and the Remotasks/contributor-tier rhyme is deliberately left implicit. Both are your call, not cohesion defects.

@@ -1,0 +1,11 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/subject.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. 3 blockers, 8 concerns. SHA verified against both `context.json` and the supplied `--draft-sha` before reading.
+
+**Strongest hit:** the LeCun interest declaration — "None of that makes the criticism false. It makes it interested, and interested criticism is often the sharpest kind." It gives the reader what they need to weigh the charge and then explicitly refuses to let the subject off with it. Paired with "Both men are describing the same person accurately. Only one of them thinks it is a problem," it's a genuinely fair-minded handling of the piece's central attack.
+
+**Highest-priority concern (a blocker):** LeCun's assessment is quoted half-way. In the same FT interview he said **"He learns fast, he knows what he doesn't know"** — verified through two independent relays today, and absent from the evidence packet's own source cluster, so this is new to the review. The draft carries four damaging fragments and drops the crediting clause, in the section built entirely around that criticism. The repair is one sentence, and it makes the article's argument *stronger*: a witness who concedes Wang learns fast and then says he has never practiced research is far more damaging than one who just calls him inexperienced.
+
+Two other blockers: "He has made every room he has ever been in by exactly one spot" is a whole-life claim resting on one sixth-grade competition and contradicted by the $14.3B deal; and the invented interior monologue at the all-hands runs flush against two real quotations with nothing marking which words are Wang's.
+
+Worth flagging for the synthesis stage: research also resolved two open packet questions — Scale *did* answer the Washington Post (spokesperson Anna Franko, with the Post rebutting her in the same piece), and no Wang response to LeCun exists anywhere, which clears the draft of suppressing a rebuttal. It also surfaced three contractor lawsuits and a class action against Scale that the draft omits entirely — unfavorable to the subject, but noted against interest, since a labor section that omits active litigation reads as pulled.
