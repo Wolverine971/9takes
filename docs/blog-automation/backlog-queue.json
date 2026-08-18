@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-16T06:00:00Z",
+	"lastUpdated": "2026-08-17T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "charlize-theron",
-			"displayName": "Charlize Theron",
-			"type": null,
-			"priority": 54,
-			"priorityReason": "In The Odyssey (opened July 17 2026); nearly every other major cast member is covered — she completes the internal-link web for the film's search wave",
-			"estimatedTraffic": "high",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "odyssey-cast-cluster"
-		},
 		{
 			"name": "alexandr-wang",
 			"displayName": "Alexandr Wang",
@@ -216,6 +203,23 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "simone-biles",
+			"displayName": "Simone Biles",
+			"type": null,
+			"priority": 55,
+			"priorityReason": "GOAT of gymnastics with evergreen volume plus an LA 2028 runway; mental-health arc is a natural personality-analysis fit",
+			"estimatedTraffic": "high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "sports-icon-cluster",
+			"startedAt": "2026-08-16T06:00:00Z",
+			"completedAt": "2026-08-17T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "tyla",
 			"displayName": "Tyla",
@@ -1592,18 +1596,18 @@
 		}
 	],
 	"inProgress": {
-		"name": "simone-biles",
-		"displayName": "Simone Biles",
+		"name": "charlize-theron",
+		"displayName": "Charlize Theron",
 		"type": null,
-		"priority": 55,
-		"priorityReason": "GOAT of gymnastics with evergreen volume plus an LA 2028 runway; mental-health arc is a natural personality-analysis fit",
+		"priority": 54,
+		"priorityReason": "In The Odyssey (opened July 17 2026); nearly every other major cast member is covered — she completes the internal-link web for the film's search wave",
 		"estimatedTraffic": "high",
-		"searchVolume": "very-high",
+		"searchVolume": "high",
 		"personaTitle": null,
 		"addedToQueue": "2026-07-18",
 		"retryCount": 0,
-		"strategicValue": "sports-icon-cluster",
-		"startedAt": "2026-08-16T06:00:00Z"
+		"strategicValue": "odyssey-cast-cluster",
+		"startedAt": "2026-08-17T06:00:00Z"
 	},
 	"skipped": [
 		{

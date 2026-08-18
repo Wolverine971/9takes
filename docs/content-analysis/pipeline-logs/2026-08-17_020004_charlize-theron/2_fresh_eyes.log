@@ -1,0 +1,15 @@
+Reviewed `src/blog/people/drafts/Charlize-Theron.md` against the entity-gap packet and appended a `FRESH EYES REVIEW` block at the bottom. No body edits.
+
+**The two biggest flags:**
+
+1. **Bombshell is missing, and it breaks the strongest section.** Theron played Megyn Kelly in *Bombshell* (2019), produced it through Denver and Delilah, and earned her third Best Actress nomination for it. Kelly watched a private screening, posted a 30-minute response video, and Theron called that reaction ["validating"](https://variety.com/2020/film/news/charlize-theron-megyn-kelly-bombshell-reaction-1203472190/). Six years later the draft uses Kelly's "have some class" as its critic-pressure anchor without ever noting that Theron wore her face. Anyone who knows Theron notices immediately — and it also strips the production-company section of its best proof.
+
+2. **The intro promises a claim the body never pays off.** "The beauty was a costume" is about her *face*, but every payoff in the body is about her *affect* — the happy-house alter ego, the smiling. The physical costume never gets cashed out because the modeling and ballet years are absent: ballet at 13, Milan at 16, Joffrey at 18, a knee injury that ended dancing. The body-as-currency thesis has no origin without it.
+
+Also flagged: cluster completion is 2 of 8 despite the packet calling internal links "half the point"; the draft says three times that no man is moving into her house and never mentions that [Gerda lives there and co-parents](https://www.sheknows.com/parenting/articles/1139079/charlize-theron-raising-kids-with-mom/); and the not-X-but-Y engine runs four times despite the lint reporting zero (it greps phrasing, not the move).
+
+What I told the next pass to protect: the Calypso/door ending, the "being done placating and being pleasant to work beside are different achievements" line, the damage-report table form, and the empathy turn.
+
+**Sources:**
+- [Charlize Theron: Megyn Kelly's 'Bombshell' Reaction Was 'Validating' — Variety](https://variety.com/2020/film/news/charlize-theron-megyn-kelly-bombshell-reaction-1203472190/)
+- [Charlize Theron Has The Most Qualified Co-parent to Help Raise Her Kids — SheKnows](https://www.sheknows.com/parenting/articles/1139079/charlize-theron-raising-kids-with-mom/)

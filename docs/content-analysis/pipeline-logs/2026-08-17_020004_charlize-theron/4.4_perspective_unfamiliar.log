@@ -1,0 +1,16 @@
+Counts match the frontmatter (2 blockers, 10 concerns) and all eleven required H2 headings are present in order.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. 2 blockers, 10 concerns.
+
+**Strongest hit:** "The woman telling Charlize Theron to have some class had once cried on camera watching Charlize Theron play her." It needs zero outside knowledge because the article builds both halves in front of you and then closes them — the rare celebrity-writing reversal that doesn't assume you already carry the context.
+
+**Highest-priority concern:** UNFAMILIAR-C2, which sits directly under that same line. The setup sentence puts the tears on "them" — the former Fox colleagues — so the payoff asserts a fact the article never established. I found this purely by reading two sentences against each other; the packet doesn't cover it. My one orientation search resolved it in the draft's favor on the facts (The Hill and Deadline both report Kelly herself tearing up), so the repair is to fix the setup, not cut the payoff — a net-zero-word edit that converts the article's best line from a claim into a conclusion.
+
+Two things worth flagging beyond that, since they're blockers rather than concerns:
+
+- **"both boys"** — one sentence in the family section misgenders Theron's two daughters, one of whom is publicly a transgender girl, and contradicts the article's own FAQ. Packet CLM-03, graded *contradicted*, "highest risk in the packet." I could not have caught this unaided, which is the finding: the reader with no prior knowledge has no defense against a confident false statement.
+- **"the Mask She Was Handed at Ten"** — the title's central image. Packet CLM-01 grades it *unsupported*; "ten" appears only in the title and TL;DR and nowhere in the body, whose anchored ages are 13, 15, and 16. I read the whole piece waiting for a scene that doesn't exist.
+
+The good news for the editor: items 1–6 on my ranked list are together roughly word-neutral against the draft's zero remaining budget, and they clear both blockers plus the top concern.

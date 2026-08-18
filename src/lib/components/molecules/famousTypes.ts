@@ -511,7 +511,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'tyler1', link: true, hasImage: true, lastmod: '2026-07-29', personaTitle: 'Streaming\'s Disciplined Brawler', contentGrade: 8.7, types: ['creator', 'streamer'] },
 		{ name: 'vladimir-putin', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Cornered Rat Who Became Czar', contentGrade: 9, types: ['politician', 'modern-leader'] },
 		{ name: 'winston-churchill', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Britain\'s Weeping Iron', contentGrade: null, types: ['politician', 'modern-leader'] },
-		{ name: 'xi-jinping', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'China\'s Iron Hand', contentGrade: 9, types: ['politician', 'modern-leader'] }
+		{ name: 'xi-jinping', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'China\'s Iron Hand', contentGrade: 9, types: ['politician', 'modern-leader'] },
+		{ name: 'charlize-theron', link: false, hasImage: false, lastmod: '2026-08-17', personaTitle: 'The Star Who Won\'t Be Handled', contentGrade: 8, types: ['movieStar', 'screen-icon', 'activist'] }
 	],
 	9: [
 		{ name: 'abraham-lincoln', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Melancholy Peacemaker', contentGrade: 9, types: ['historical', 'politician', 'historical-leader'] },

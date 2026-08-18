@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — charlize-theron (Type 8)
+/Users/djwayne/9takes/src/blog/people/drafts/Charlize-Theron.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 35
+Comparison set (last 8 other Type-8 drafts by date):
+  - Duke-Dennis  (2026-08-15, 49 units)
+  - Khabib-Nurmagomedov  (2026-08-13, 43 units)
+  - Nara-Smith  (2026-08-04, 48 units)
+  - Tyler1  (2026-07-29, 17 units)
+  - gordon-ramsay  (2026-07-08, 43 units)
+  - nicki-minaj  (2026-06-29, 24 units)
+  - susan-sarandon  (2026-06-28, 24 units)
+  - ella-langley  (2026-06-01, 15 units)
+
+Noise floor over 9205 unit pairs:  median=0  p90=0  p99=0.007  max=0.086
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.086 ###                  nicki-minaj
+  0.057 ##                   Nara-Smith
+  0.049 ##                   ella-langley
+  0.031 #                    Tyler1
+  0.031 #                    Duke-Dennis
+  0.025 #                    susan-sarandon
+  0.024 #                    Khabib-Nurmagomedov
+  0.022 #                    gordon-ramsay
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.086   charlize-theron  <->  nicki-minaj
+   TARGET [diagnosis] The eight is what she built on top of that girl
+   OTHER  [diagnosis] She refuses to hand off control of what she built
+
+score 0.068   charlize-theron  <->  nicki-minaj
+   TARGET [diagnosis] The eight is what she built on top of that girl
+   OTHER  [diagnosis] The most telling evidence is what she said about vulnerability
+
+score 0.057   charlize-theron  <->  Nara-Smith
+   TARGET [diagnosis] Now look at what she has built with the rest of her life.
+   OTHER  [diagnosis] Twice in the worst year of her life she skipped the deliberation
+
+score 0.049   charlize-theron  <->  ella-langley
+   TARGET [diagnosis] "waking up in the morning and not knowing what I was walking into.
+   OTHER  [diagnosis] The 7 wing shows up in the restlessness — the songs about leaving
+
+score 0.031   charlize-theron  <->  Tyler1
+   TARGET [diagnosis] The Type 8 core fear is not death
+   OTHER  [diagnosis] His defining pattern is not simply anger.
+
+score 0.031   charlize-theron  <->  Duke-Dennis
+   TARGET [diagnosis] The Type 8 core fear is not death
+   OTHER  [diagnosis] The Enneagram calls that the Challenger's core fear of being controlled.
+
+score 0.029   charlize-theron  <->  Nara-Smith
+   TARGET [diagnosis] the achiever who becomes whatever the room rewards.
+   OTHER  [diagnosis] a heart type would have read the room.
+
+score 0.028   charlize-theron  <->  nicki-minaj
+   TARGET [diagnosis] The eight is what she built on top of that girl
+   OTHER  [diagnosis] sometimes people take advantage of that.
+
+score 0.028   charlize-theron  <->  Nara-Smith
+   TARGET [diagnosis] A three works the room for a good verdict
+   OTHER  [diagnosis] a heart type would have read the room.
+
+score 0.026   charlize-theron  <->  Duke-Dennis
+   TARGET [diagnosis] "waking up in the morning and not knowing what I was walking into.
+   OTHER  [diagnosis] "Waking up not having to worry about financial circumstances
+
+score 0.025   charlize-theron  <->  Nara-Smith
+   TARGET [counter-typing] which is what twenty-five years of silence and going home early actually describe.
+   OTHER  [diagnosis] The eight months of silence run the same direction
+
+score 0.025   charlize-theron  <->  susan-sarandon
+   TARGET [diagnosis] including the cynical reading where deglamming is the strategy.
+   OTHER  [diagnosis] The strategy that grows out of it is to get strong
+
+------------------------------------------------------------------------------
+Top pair scores 0.086 vs median 0  (~∞x the noise floor).

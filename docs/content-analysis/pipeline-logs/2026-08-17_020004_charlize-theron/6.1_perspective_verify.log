@@ -1,0 +1,11 @@
+**Output path:** `docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/verification-initial.md`
+
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+Snapshot SHA matched `context.json` and `synthesis.md`; `draft-reviewed.md` re-hashed to the recorded reader-visible value, so the diff was against the true frozen text. Final reader-visible hash: `c0af4fe5be8c8829e9077548065911c0d43f2180b3d7a3fb4bab90f7d31542c4`.
+
+All nine P0s resolve, all fifteen accepted P1s completed (P1-13 and P1-15 with one-line gaps noted), all ten protected hits present by exact-string match. I spot-verified the three numbers the editor added that the packet does not carry — the *Æon Flux* eight-years-to-fusion timeline, the near-paralysis/shutdown details, and the Goellnicht 8-to-11 / hundred-thousand-per-minute account — and all three hold.
+
+Three things a human should see: RQ-06 (the *Call Her Daddy* transcript is still unarchived — I confirmed no Theron file exists) remains a pre-publication blocker by design; and I recorded, rather than silently applied, my adjudication that P0-04's acceptance test as literally worded is broader than P0-04's defect — about eighteen pre-existing Theron quotations lack inline outlet-and-date, none introduced by this revision.

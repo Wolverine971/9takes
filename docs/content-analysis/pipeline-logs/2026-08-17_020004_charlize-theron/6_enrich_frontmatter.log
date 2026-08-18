@@ -1,0 +1,28 @@
+Enrichment complete. The draft arrived mostly enriched — only two real gaps existed.
+
+## Frontmatter enrichment complete: Charlize-Theron
+
+**Fields filled (2):**
+- `wikidata_qid: 'Q80046'` — resolved via the Wikidata API on the enwiki sitelink, not guessed
+- `same_as` — expanded 2 → 4 items, reordered to spec priority (Wikipedia → Wikidata → IMDb → Britannica)
+
+**Fields already present (preserved untouched):**
+`wikipedia`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `citations`, `faqs`
+
+**Verification performed on existing values:**
+- `imdb_id: nm0000234` — **confirmed** against Wikidata claim P345 on Q80046 (the command's required cross-check)
+- `wikipedia` — **confirmed** as this exact person via the REST summary API: "South African-American actress (born 1975)"
+- `birth_date`, `birth_place`, `nationality` — all match Wikidata (P569 `+1975-08-07`, P19 → Q818106 "Benoni", P27 → Q258 South Africa + Q30 United States)
+
+**FAQs: unchanged (4 existing).** They are body-derived and substantive — no "with supporting context from" backfill markers, no frontmatter-assembled answers — so strict idempotency applied. All four anchors resolve to real H2s in the body:
+1. What is Charlize Theron's personality type? → `#what-is-charlize-therons-personality-type`
+2. How old is Charlize Theron and does she have a husband? → `#charlize-therons-family-age-and-the-husband-she-never-wanted`
+3. What happened to Charlize Theron's parents? → `#the-alter-ego-charlize-theron-built-before-hollywood-cast-her`
+4. Why does Charlize Theron keep transforming her body for roles? → `#the-damage-report-what-each-transformation-took-from-her-body`
+
+**Issues:**
+- **The body contains zero inline external links.** The 4 existing `citations` came from the research stage, not from body references, so Step 7's "extract from body" had nothing to draw on. I did not invent any. Worth noting for the grader: the Testimony Ledger cites ScreenRant, The Telegraph, and Deadline/Variety by name but never as URLs, so three usable sources are sitting uncaptured in the ledger.
+- The Britannica URL returns HTTP 403 to scripted requests (anti-bot, not a 404). It is not a guess from the person's name — it comes from Wikidata's P1417 claim, whose documented formatter URL produces exactly this path.
+- Unrelated to my fields, so left alone: `suggestions` lists Tom-Hardy and Margot-Robbie, but the body cross-links Zendaya, Tom-Holland, Anne-Hathaway, Lupita-Nyongo, Jon-Bernthal, and Robert-Pattinson instead. Flagging for whoever owns the publish gate.
+
+Body, Testimony Ledger, `production_pretext`, and `lastmod` are byte-identical to what I found. YAML re-parses cleanly at 28 keys.

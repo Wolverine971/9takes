@@ -1,0 +1,20 @@
+## Grading Complete — Charlize Theron (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Charlize-Theron | 6 | 8 | 9 | 9 | 8 | 9 | **8.0** | **B** |
+
+(Weighted: `(6×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7` = 56.0/7 = 8.0. Disc 9 — gate not triggered.)
+
+**Grade stability:** first 7.8 (C) → regrade 8.0 (B), delta 0.2. The revision pass cleared two of its three caps — cross-draft sameness is genuinely fixed (similarity scan clear; corpus-stat sentence and reader-command imperatives gone) — and Evidence improved substantially, but a different untraceable claim in the close re-triggered the same cap.
+
+### Key observations
+
+- **The evidence cap is a single fixable line, not a systemic problem.** The Calypso lotus quote in the closing section is unsourced, undated, and attributed by sentence construction to Nolan when the research file (`research/Charlize-Theron.md:130`) attributes it to Theron — and that same file explicitly says to treat it as reported, not verbatim-verified. The piece's final reframe rests entirely on it. Everything else in the draft is well-sourced; testimony density (Kormákur, Egerton, Miller, Hardy, Goellnicht, Kelly) is above the corpus norm.
+- **`blog-source-audit.mjs` has a blind spot.** It reported "CLOSE: no quoted material in slot" and 0 untagged quotes. There is quoted material in the close and it is the worst-sourced line in the draft. Worth a look if you want the script to keep gating Evidence — it passed a draft with an untraceable climax quote.
+- **The FORMULA FINGERPRINT LEDGER is wrong about the reversal count for the third pass running.** It says 4; the real count is ~7 once you include the `everybody does X; she does Y` variant. The ledger only greps explicit negations. That's what holds Writing at 8.
+- **Enneagram integration is the standout** — all three interior-check gates pass on material sourced from her own vocabulary, two interior beats, an empathy turn that avoids house grammar entirely, and a clean rabbit hole.
+
+Fix the Calypso attribution alone → **8.4**. Add the three missing outlets and retire two reversals → **8.6–8.7**.
+
+Also still open from the pipeline's own notes, and it matters before publish: RQ-06, the *Call Her Daddy* transcript is unarchived, and five-plus quotes including the thesis quote rest on a two-person auto-transcript — the host/guest attribution trap applies.

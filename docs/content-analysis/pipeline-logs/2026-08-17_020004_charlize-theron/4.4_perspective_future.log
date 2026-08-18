@@ -1,0 +1,17 @@
+Counts validated; frontmatter matches the document. Other jurors' files (`critic.md`, `fan.md`, `unfamiliar.md`) landed in the directory while I worked — I did not open them, per the independence contract.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/future.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 9 concerns.**
+
+The one-line finding: **the argument is durable, the architecture is not.** Strip *Apex*, *The Odyssey*, and the 2025 Kelly exchange and the Type 8 case still stands on Benoni, the Joffrey knees, the bank teller, and the damage report — but the piece loses its ending, its closing image, and its critic anchor. The elements the pipeline protects hardest are the ones that age fastest.
+
+**Strongest hit:** the absolute-dating discipline. A scripted scan of reader-visible text for `recently / currently / today / upcoming / at the moment / so far` returned exactly one offender, in a collapsed accordion. The draft writes "on July 3, 2025," "Sixteen years after those fitting rooms," "Five and a half years later" where a lesser piece would say "recently." That is a genuine craft choice and worth propagating to other people drafts. Runner-up: "Not Circe, whatever the early trades printed" — a general search today still returned the Circe error, so that sentence gets *more* valuable with time.
+
+**Highest-priority concern:** the corpus stat "Of the 158 film and television figures profiled on 9takes, only 16 read as Type 8" is stale the moment this page publishes — Theron makes it 159/17. I confirmed 158/16 in `src/lib/data/corpus-stats.json` and, by replaying `git log` on that file, that published profiles went 391 → 417 in 23 days (~1.1/day). Express it as a proportion and it stops needing a rebuild every publish.
+
+**Blockers:**
+1. The final sentence, "She still cannot wear a bra without it hurting," is an undated present-tense claim about a living person's body — narrator voice, no date, four months past its only evidence (April 2026 *Apex* press) at publication. The table quotes her and is fine; the closing line strips the attribution and the date.
+2. "has helped raise both boys" — her children are daughters, one publicly transgender, and the draft itself says "children" four times elsewhere. Out of my assigned lane and recorded thinly for the subject reviewer, but it fails my central question directly: it is inaccurate now and compounds while the page stays indexed.
+
+The review includes a dated twelve-month refresh table keyed to triggers that already exist on the calendar — the 24 Oct 2026 amfAR gala, the 99th Academy Awards (*The Odyssey* opened to $264.1M globally and is the cross-category front-runner), and her 52nd birthday on 7 Aug 2027, ten days inside the horizon. No outcomes predicted, only scheduled dates. One process note worth flagging beyond this page: if the pipeline has no lint that flags age-bearing sentences on a subject's birthday, this decay is corpus-wide across 417 profiles, not a Theron problem.

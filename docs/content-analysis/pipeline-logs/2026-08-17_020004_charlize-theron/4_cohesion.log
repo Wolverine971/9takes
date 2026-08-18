@@ -1,0 +1,39 @@
+## Cohesion Audit: `src/blog/people/drafts/Charlize-Theron.md`
+
+### Central Thesis
+Theron is a Type 8 because a childhood spent at the mercy of an unpredictable alcoholic father made control the organizing project of her life — and the agreeable, beautiful version of herself she was issued as a child is the thing she has spent thirty years taking apart, in her own body, on her own schedule.
+
+### Thread Map
+1. **Intro** — the beauty was a costume, worn before Hollywood ever saw her
+2. **Diagnosis** → the costume existed because the house was unpredictable; core fear is being at someone's whim
+3. **Alter ego** → the first costume she built herself, and the body that was her first career
+4. **Damage report** → she rebuilt on the same instrument and has been spending it down
+5. **Production company** → she bought the authority to decide who does the measuring
+6. **Breaks** → the same protective instinct turned inward becomes silence
+7. **Difficult** → she quit placating, and the world grades her for quitting
+8. **Family** → the fortress and the healthy choice are the same building
+9. **Calypso** → she holds the door now, and opens it
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 8/10 | 9/10 |
+| Promise-Delivery Match | 7/10 | 8/10 |
+| Reader Mental Model | 5/10 | 8/10 |
+| Section Transitions | 5/10 | 8/10 |
+| Internal Paragraph Flow | 7/10 | 9/10 |
+
+**Overall: 6.5/10 → 8.5/10**
+
+### The three real breaks
+
+**1. The gun had no referent.** The diagnosis section said "she does not say the gunshots" — the shooting isn't established until section 7 of 8. A cold reader hits a gun that was never mentioned. Now: "she does not say the night her mother shot her father." Full account still lives in the family section.
+
+**2. Four section boundaries were topic switches.** Damage report ended on "She was fifty when they shot it" and the next section opened "In 2003…" — a 23-year jump with no bridge. Same at production-company → breaks (amfAR award → breakdown) and family → Calypso. Six bridges added, each carrying a keyword or stating the causal step. The best one is breaks → difficult: the piece never said *why* Kelly attacked her, which is that Theron stopped hiding and started talking. Now it does.
+
+**3. "None of which" lost its antecedent.** The Rogen quote sat between the empathy turn and "None of which makes the War Rig fun for anyone else," so the pronoun pointed at Rogen being intimidated instead of the argument it was conceding. Moved Rogen up beside the Hardy wrap note — co-star testimony together, then the interpretation.
+
+### Word budget
+Bridges pushed it to 4545 and lint failed. Paid for all of it with restatement cuts and landed back at **4496, 0 fail** — same two documented warnings as before (link-count override, thin headroom). Cuts included the third "no man is moving into her house," the intro clause that spoiled Apex's "couldn't finish the last day," and the fitting-room re-explanation.
+
+### One thing I did not fix
+The title and TL;DR both say the mask was handed to her **"at ten."** Nothing in the body or in the research file establishes that age — the alter-ego section is anchored to high school. Either source it and put it in the body, or change the title. Frontmatter was off-limits for this pass, so it's flagged in a `COHESION PASS` note appended to the file's ledger.

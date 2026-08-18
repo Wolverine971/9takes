@@ -1,0 +1,29 @@
+Draft is done and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Charlize-Theron.md
+RESEARCH: /docs/content-analysis/research/Charlize-Theron.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 pass · Gate 2 pass · Gate 3 pass · Gate 4 pass · Gate 5 pass · Gate 6 pass
+LIMITATIONS: single transcript only (SmartLess not pulled); Beijing Calypso quote is single-outlet; 2019 trauma quotes are secondary (5 outlets, NPR/NYT not fetched directly)
+```
+
+**The thesis.** Theron didn't start destroying her beauty when Hollywood found her — she was already wearing the costume. In her own words on *Call Her Daddy* (July 2025), her childhood job was "learning how to placate or hide or defend and shield, and then go to school and pretend like this isn't ruining my entire life, and smiling and pretending I'm this like cute girl that is fine." Hollywood found her already in character and offered to pay. Every deglam role since is her taking that costume apart in public.
+
+The Type 8 call holds on her own damage report: she says the shooting wasn't the worst part, "waking up in the morning and not knowing what I was walking into… living at their whim" was. That's the Eight core fear stated in her own vocabulary, and everything after is her taking the controls. The Type 3 case (the alter ego, three transformations, three nominations) gets a real hearing — the tiebreaker is that a Three polishes an image and she detonates hers.
+
+**Gate detail worth knowing:**
+- **Testimony (5):** Kormákur's "how her strength is built out of vulnerability," Egerton's Bondi Beach line, Miller's "always the first one on set," Hardy's wrap note, Megyn Kelly's "Have some class." Patty Jenkins' famous "Don't fucking listen to that" was **excluded** — it's only relayed by Theron, so it fails the independent-attribution test.
+- **Bespoke form:** "The damage report" — the career told as an injury ledger, role by role, with what each one cost her body against what the industry said it bought.
+- **Critic pressure + empathy turn:** Megyn Kelly's attack and Miller's "there's no excuse for it" both concede real ground, then "difficult" gets reframed as a woman who was fired from the placating job at fifteen and won't take it back.
+- **Stats:** the corpus stat (16 of 158 Film & TV profiles read as Type 8) plus her own falsifiable numbers.
+
+**Two things I'd flag for you:**
+
+1. **Caught the YAML build-breaker.** The FAQ frontmatter had `\'s` escapes in two places — invalid in YAML single-quoted scalars, and drafts are bundled into the build, so it would have failed the whole deploy. Fixed and verified the frontmatter parses.
+
+2. **The entity-gap packet's link instruction conflicts with the command.** The packet says wiring all 8 Odyssey cluster pages is "half the point"; the command caps internal links at 2–5. I followed the command and used 5 (Nolan, Damon, Type 8 explainer, wings, subtypes). If cluster completion matters more than the cap, the remaining six castmates are an easy add — your call.
+
+The only remaining lint output is a WARN that the body is 4,052 words against a 4,500 ceiling, which just means thin headroom for a future refresh. No grade was assigned — that's `/grade_blog`'s job.

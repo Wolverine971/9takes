@@ -1,0 +1,35 @@
+Done. Revised `src/blog/people/drafts/Charlize-Theron.md`.
+
+**What triggered it:** grade C (7.8) with three caps. Lint was already clean, and perspective verification had already *passed* (0 open P0, 0 protected-hit regressions) — so the perspective work list was only the two P1 items the verifier marked "completed with a gap."
+
+## Fixes applied
+
+**Evidence (the cap, 6/10 — the only thing between this and a B+).** The draft sourced third-party testimony scrupulously and her own words barely at all. Two full sections ran on bare quotation marks. Fixed by scoping named source chains rather than tagging every quote inline, which is what the word ceiling allowed:
+- "breaks" section and family section → chains named to Cooper / July 2025, reinforced mid-section
+- Joffrey knees line (the hinge the body-as-currency thesis rests on) → `"she has said"` → `"she said in 2008"` (S-17)
+- *Apex* "emotionally and physically broken" → ScreenRant, April 2026 (S-06a)
+- "a centimeter off paralysis" → marked as her own claim, not asserted as medical fact in a table cell
+
+**One thing the grade didn't catch:** `"we don't hide this shit"` appears in *neither* the evidence packet nor the research file. It was an unsourced quotation in her mouth — the same defect class as the "hot lesbian movie" line P0-04 removed. Cut, replaced with the packet-verified `"I broke the cycle."`
+
+**Writing cap.** The negation-reversal engine went 13 → 4; ten retired to straight assertion. The FORMULA FINGERPRINT LEDGER had been asserting "3" since the second pass — it inherited a broken script's 0/0 and hand-counted wrong on top. Corrected to the real number with a do-not-restore list.
+
+**Originality cap.** Two house moves varied: "Sit with the second half of that" cut, and the corpus-stat sentence with its untested "plainest eight" superlative cut (payload merged upward). Also took the optional item — the counterphobic-6 tension is now in the body, one sentence built on PROTECT-07 rather than displacing it.
+
+**P1-13 / P1-15 gaps** both closed; bra quote no longer appears twice.
+
+## Rejected, with reasons
+
+- **The grade's one "vague" slot** (naming the outlet on "living at their whim"). Doing it trips the same-type similarity scan against Nara-Smith at 0.149; rephrasing still scored 0.058 against a 0.04 threshold. Nara-Smith uses the same podcast in its own diagnosis section, so *any* naming there trips — and the ledger had recorded this exact trip as previously fixed. Reverted; the epigraph already carries outlet and date.
+- **Retiring PROTECT-08's core-fear move** as the fourth negation. It's a jury protected hit verified by exact string; a grade suggestion doesn't outrank that. Held deliberately — which is why the surviving count is 4, not 3.
+
+## Verification
+
+Lint **clean (0 fail)**, 2 warns both pre-existing documented overrides. Word count **4479, down from 4494** — the pass paid for its attributions out of its own cuts, so headroom improved rather than degraded. Similarity **CLEAR** (0.086 vs nicki-minaj, matching baseline). **17/17 protected strings intact, 0 regressions**; all 9 P0 items re-checked, none reopened. `content_quality` and `lastmod` untouched.
+
+Resolution artifact written to `docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/revision-resolution.md`. The pipeline will clear the consumed review sidecar and re-grade, and targeted perspective verification must rerun — I did not declare the gate passed.
+
+**Two things need your call:**
+
+1. **RQ-06 got bigger, not smaller.** The *Call Her Daddy* transcript still isn't archived, and my Evidence repairs deliberately made the piece's reliance on that episode *more visible* — two sections now openly name it as their source chain. That's the right traceability outcome, but more of the article now rests on an unarchived two-person auto-transcript. This should close before publish, not at refresh.
+2. **A tooling gap worth fixing once instead of per-draft.** The corpus now has two Type-8 subjects whose psychological evidence comes from the same podcast, and the similarity scan can't distinguish "same source, honestly named" from "same phrasing, reused." It's currently penalizing correct attribution.

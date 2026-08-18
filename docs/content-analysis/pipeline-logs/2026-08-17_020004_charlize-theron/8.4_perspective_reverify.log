@@ -1,0 +1,14 @@
+Verification written. No files other than the output were modified.
+
+**Output path:** `docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/verification-final.md`
+**verification_status:** `needs_human`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+The counts are pass-shaped and the revision is otherwise clean — all nine P0s hold under re-run mechanical tests, all ten protected hits survive by exact string, and the two P1 gaps the initial verification left open (P1-13, P1-15) are now closed. I re-verified every date the revision added against the packet rather than trusting the log; all trace.
+
+One thing blocks it. The revision appended a sentence to the PROTECT-07 single-motherhood passage ending "**and the fortress went up after that**." The first half is sourced, but that closing clause is an unsourced chronology claim: no source in the packet or research file dates the relationship, and the draft's own dates (Jackson adopted 2012 at age 36; therapy "in her late thirties") point the opposite way. That's the step-6 check — a new factual assertion introduced by a repair without a source trail — and it landed in the passage the jury protected as the model for hedged register, where it also answers the question the protected sentence says nobody has thought to ask.
+
+Minimum fix is a five-word cut: end the sentence at "…rather than leaving him." That keeps the new observation and the grade's Originality gain, restores the hedge's last word, and drops the unverifiable ordering. I routed it as `needs_human` rather than `fail` because the alternatives (naming and dating the partner, or cutting the sentence outright) are editorial calls with real tradeoffs.
+
+Two carried items worth flagging: RQ-06 (the *Call Her Daddy* transcript is still unarchived, and this pass made the article's reliance on it more visible — correctly, but it's still a pre-publication blocker), and the remaining six quotes on contextual attribution, now a short enough list to close in one scoped pass.

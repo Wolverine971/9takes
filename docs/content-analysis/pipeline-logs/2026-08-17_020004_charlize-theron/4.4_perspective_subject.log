@@ -1,0 +1,17 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/subject.md`
+
+**Verdict:** trust `broken` · value `useful` · delight `clear_hit` · recommendation **revise** — 5 blockers, 8 concerns. Snapshot SHA verified against `context.json` and the supplied argument before reading.
+
+**Blockers (5).** They share one shape: wherever the record holds her own account of a contested moment, the draft reaches past it.
+
+- **SUBJ-R1** — The draft calls her two daughters "boys," misgendering a child Theron publicly identified as a transgender girl in 2019 — eight lines below her quoted request that her children be left to tell their own story. It also contradicts the draft's own primary source (*Call Her Daddy*, July 2025: "while my daughters are there") and is internally inconsistent: three other references say "children." Minimum repair is one word.
+- **SUBJ-R2** — The "difficult" section adjudicates her reputation using Hardy, Miller, and Rogen, and not one word from her. Her account is on the record: "…because I didn't feel safe." I verified through TheWrap that this is **her own recollection** (Buchanan's *Blood, Sweat & Chrome*, Vanity Fair excerpt, Feb 2022), not crew testimony — which is what promoted this from a gap to a blocker. The draft already sources Hardy's wrap note from that same book, so it took the unflattering artifact and left her stated reason behind, substituting an inferred motive.
+- **SUBJ-R3** — Miller's "There's no excuse for it" is framed as "did not hand her a pass" when the same passage calls her the most disciplined person on set — and that praise is relocated into the Rabbit Hole as 9-wing evidence.
+- **SUBJ-R4** — The title dates her concealment to age ten; no source supports it (packet-verified).
+- **SUBJ-R5** — An untraceable coarse quotation is placed in her mouth, in a draft that excluded a Patty Jenkins line for exactly that reason.
+
+**Strongest hit:** "Being done placating and being pleasant to work beside are different achievements, and she has one of them." It grants the cost to other people without withdrawing the understanding — the move this genre almost always fumbles. Must survive verbatim; every fix above is compatible with it.
+
+**Highest-priority concern (SUBJ-C1):** the piece is about her body and her childhood and almost never about her work. *North Country* — one of the three nominations it counts — is never named, and the only description of her craft in the entire article sits inside the Enneagram accordion as typology evidence. She would recognize every wound and almost nothing of the job. Moving Miller's discipline line into the body fixes this and part of R3 at once.
+
+One note for whoever schedules the fix: the draft is at 4496 of 4500 words, so C1 needs displacement — cutting R5's unsourced quotation frees the space, and the packet holds a verified stronger replacement (*Monster* was her first producer credit; she put her own salary toward finishing costs).

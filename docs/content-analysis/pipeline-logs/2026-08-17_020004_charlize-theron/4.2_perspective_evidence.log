@@ -1,0 +1,13 @@
+Packet written. Frontmatter parses, all ten required H2 headings present in order, and both the snapshot and live draft still hash to the context SHA (nothing edited).
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/evidence-packet.md`
+
+20 load-bearing claims inventoried (CLM-01…CLM-20), 32 sources ledgered across all four tiers, every entry labeled verified fact / attributed claim / interpretation / disputed claim / unresolved question.
+
+**Largest unresolved evidence gap:** the *Call Her Daddy* transcript (2 July 2025) was never archived to `docs/content-analysis/youtube-transcripts-people/`, despite the research file citing it with timestamped locators for video `zL6N55FJuYI`. That single episode is the source of nearly every psychological quotation the draft's thesis rests on — the alter ego, "living at their whim," "placate or hide or defend and shield," the avoidance admission, the single-motherhood material. Every one of those quotes is reproduced in this packet from the prior-stage research file rather than re-verified against audio, and the source is an unlabeled two-person auto-transcript with a known attribution trap. No evaluator can independently check the draft's core evidence without re-pulling it.
+
+Three findings worth flagging before the review stage, since they are checkable and adverse:
+
+- **CLM-03** — the draft says Gerda "has helped raise both boys." Theron's children are daughters; her own words in the very episode the draft quotes throughout are "no man's moving into our house while my daughters are there," and she said publicly in 2019, "I'm raising two beautiful, proud, black African girls." One of them is publicly transgender. The draft is also internally inconsistent — the FAQ and family section both say "children," and only that one sentence says "boys."
+- **CLM-02** — the article's first sentence dates the cracked molars to "In 2017, training for *Atomic Blonde*." Principal photography began 22 November 2015 after ~2.5 months of training, so the injury was ~autumn 2015. What happened in 2017 was the CinemaCon disclosure.
+- **CLM-01** — "the Mask She Was Handed at Ten" is in the title and TL;DR, and no source establishes age ten. The originating interview question was about high school. The draft's own cohesion pass flagged this and left it open; targeted searching found nothing to close it.

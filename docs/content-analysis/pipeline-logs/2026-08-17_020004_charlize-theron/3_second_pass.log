@@ -1,0 +1,27 @@
+Done. Updated `src/blog/people/drafts/Charlize-Theron.md`.
+
+## What changed
+
+**The review's #1 note was right and I acted on it.** Bombshell was missing from a piece that uses Megyn Kelly as its critic anchor. Theron produced it and played Kelly. It's now introduced in the production-company section as what she did with the authority she bought, and paid off in the "difficult" section — where the woman telling her to "have some class" turns out to be someone who cried on camera watching Theron play her. Both women handled the same story by refusing to be in the other's room.
+
+**The intro's "the beauty was a costume" claim now has an account behind it.** Added the ballet/Milan/Joffrey years at the end of the alter-ego section, feeding the bank-teller beat. Her first career *was* her body and her body fired her, which is the hinge the damage report was missing.
+
+Also: Gerda in the family section, the single-motherhood section now sits in the gap instead of skating past it, a second interior beat at Tully, the Rabbit Hole moved after "difficult," 8 verified Odyssey cluster links, and `suggestions` rewritten to the four people the body actually uses.
+
+## Two places the review was factually wrong
+
+- **"Gerda lives with her"** isn't supported. Theron's own words are "my mom up the street," and she bought Gerda a separate Studio City house. Written as co-parenting.
+- **Seth Rogen's "she still intimidates me sometimes,"** dated to Long Shot 2019, traces to no primary source. Replaced with the verifiable Dec 2022 THR line: *"literally physically intimidated to be around her, because she murders people in every movie she does."*
+
+I also caught two things nobody flagged: the Tully table said "the first depression of her life," which my own Joffrey addition contradicted, and the review's count of 4 not-X-but-Y constructions was actually 6. Three retired.
+
+## Results
+
+- **Source audit:** 3 load-bearing quotes, 2 inline, 1 vague, **0 untagged** — unchanged.
+- **blog-lint: 0 fail, 2 warn.** Both documented in the ledger.
+
+## Worth your attention
+
+The word budget is the real constraint. The pass added ~700 words of substance and I paid for all of it by cutting duplication — the draft sits at **4498 of 4500**. It has zero headroom, so anything an editor pass wants to add has to displace something. The one thing I'd restore first is the Charlene/Marliss beat, compressed from a paragraph to a sentence purely to make room.
+
+The 11-internal-links warning is a deliberate override — the entity-gap packet names cluster completion as a stated reason this page exists and lists those eight people. I noted it in the ledger so nobody "fixes" it by deleting castmates.

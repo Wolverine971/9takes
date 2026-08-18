@@ -1,0 +1,40 @@
+All gates pass. Here's what happened.
+
+## Draft polished
+`src/blog/people/drafts/Charlize-Theron.md` — perspective-jury mode against the frozen snapshot (SHA matched exactly).
+
+## What I actually fixed
+
+The synthesis's diagnosis was right: this wasn't a bad argument dressed in errors, it was a strong argument reaching one notch past its evidence, repeatedly, in the two positions a skeptical reader checks first. So the pass was less prose-polish than evidence-discipline.
+
+**The four that mattered most:**
+- **"both boys"** misgendered a child who is publicly a girl, eight lines after the article quotes Theron asking that her kids tell their own story. Fixed to "both children" — and I caught a *second* one I introduced myself in P1-10, where I'd written "she gives her daughters as the reason" in the narrator's voice. Now the only gendered reference lives inside her own quote.
+- **The "difficult" section named no conduct by her.** Every verb of agency belonged to someone else — Hardy is late, Theron waits, the set "turned." It now has the rant at Hardy, the demand he be fined, and her own reason ("because I didn't feel safe"), all placed before the empathy turn, which is what "None of which makes the War Rig fun for anyone else" needed as an antecedent.
+- **The damage report claimed completeness and skipped Æon Flux** — the most famous fact about her body. That row is also the only one where the payoff column is a loss, which is what converts the table from an argument into an accounting.
+- **The 8-vs-3 tiebreaker argued from image behaviour**, which is 3-compatible and therefore settled nothing. It now argues from what she bought.
+
+**Language/flow problems cleaned up:** "the entire diagnosis" and "a straight line" (clinical register and a causal claim the repo's own house rule forbids), the intro's date attached to a press conference rather than the injury, ~20 trims of quote fat and restatement, and two duplications my own repairs created — Miller's craft line was sitting in the Rabbit Hole when I moved it to the body, and the Rabbit Hole's Type 3 setup restated the new body paragraph.
+
+## Numbers
+- **Contrast pairs: 0** (strong 0, comparative 0) — unchanged from baseline
+- blog-lint: **0 fail**, 2 warn (both pre-existing and documented: the deliberate 11-link override, thin word headroom)
+- Word count **4494 / 4500** — every added word paid for by a cut, per the brief's sequencing
+- Same-type similarity: **clear** (my first counterphobic-6 phrasing tripped at 0.053 against Nara-Smith; rewritten)
+- 10/10 protected hits verified intact by exact-string match
+- `lastmod` untouched
+
+## Resolution artifact
+`docs/content-analysis/perspective-reviews/Charlize-Theron/2026-08-17_020004/editor-resolution.md`
+
+**All 9 P0s fixed**, 15 P1s applied. Three research items resolved rather than deferred: RQ-04 (her Fury Road quote pinned to Buchanan/Vanity Fair), RQ-05 (the "one of only two" count sourced to 2026 *Apex* press, which also killed the table's self-contradiction), and I verified the Æon Flux facts and Kelly's tears independently.
+
+Two corrections to the synthesis worth flagging: its proposed "fourteen months after the Oscar" for Æon Flux is wrong (~21 months), so I dropped the interval; and it assumed the body already carried 2017 for the CinemaCon disclosure — it didn't, so I added it.
+
+## Not production-ready yet — one blocker isn't editorial
+**RQ-06 is open and needs you.** The *Call Her Daddy* transcript was never archived to `docs/content-analysis/youtube-transcripts-people/`, so every timestamped quote from that episode — which supplies most of the draft's psychological evidence — is second-hand, against the known two-person auto-transcript attribution trap. That should be closed before publish, not at refresh. I can't fix it in an editing pass.
+
+Also deferred by budget: **P2-01 (Dior)**, the one P2 worth paying for — she's fronted J'adore since 2004, which makes "a face that pays for itself" literally true and completes the thesis rather than threatening it. First thing to add if room opens.
+
+Separately, worth a decision: the page declares `changefreq: monthly` at 4494/4500 words. That's a freshness promise it can't honour without cutting first.
+
+The perspective gate isn't something I can claim — `/blog_perspective_verify_people` checks that independently.

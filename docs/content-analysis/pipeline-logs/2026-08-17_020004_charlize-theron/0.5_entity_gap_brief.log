@@ -1,0 +1,20 @@
+Packet saved to `docs/content-analysis/entity-gaps/Charlize-Theron.md`.
+
+## Verdict: 40/100 — PASS as an entity gap, but proceed as a re-scoped create
+
+**Charlize Theron is the opposite of a Jordi Hays.** Her exact-name SERP is about as strong as a SERP gets: personal Wikipedia, a *second* Wikipedia page just for her filmography, Britannica, IMDb, Biography.com, TV Guide, Fandango, plus her own UN.org page. 5–6 of the top ten are dedicated substantial biographies. The −20 Wikipedia penalty applies squarely and drags a 60 subtotal down to 40.
+
+Everything else scores well — demand is genuinely sustained (Odyssey July 17, Apex April, amfAR award still ahead on Oct 24), source depth is excellent (Call Her Daddy 2025, SmartLess, her own 2019 account of the shooting, live Odyssey press from late July), and the contradiction is strong: the actress hired for her face who has spent thirty years destroying it on screen, and who narrates the worst night of her life without asking to be pitied for it.
+
+**Two things make the create still defensible, on narrower grounds than the rubric scores:**
+
+1. **Cluster completion** — 8 Odyssey castmates plus Nolan are already published. She's the hole in the internal-link web.
+2. **A weak typology sub-SERP** — `charlize theron enneagram` is served only by Boo (which has *two* competing profiles for her, diluting both), Personality Database, a 2010s Zimbio listicle, and thin generated pages. Nobody has argued a type from evidence.
+
+**The decision that matters:** your own GSC data forecasts this page almost exactly. The 8 comparable A-list film-star pages *never* appear for the bare name — every query they win carries a typology modifier, and CTR on those (2.8–7.9%) runs ~10× the broader personality queries. So write Theron as a typology page with a short biography section, and judge it on `charlize theron enneagram`, not her name. Expect ~10–15 clicks/month.
+
+**Kill criterion worth your attention:** if at 56 days the page can't crack the top 10 against Boo and Zimbio, the A-list movie-star niche isn't winnable for this domain at all — and the remaining A-listers in the queue (Jonathan Bailey, Bill Burr) should drop behind the creators and operators, where 9takes already ranks better.
+
+One factual trap flagged in the packet: several outlets misreported her Odyssey role as Circe. She plays **Calypso**; Samantha Morton is Circe.
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Charlize_Theron) · [Britannica](https://www.britannica.com/biography/Charlize-Theron) · [ComingSoon on the Calypso role](https://www.comingsoon.net/movies/news/2120869-the-odyssey-charlize-theron-role-calypso-circe-christopher-nolan) · [Call Her Daddy](https://podcasts.apple.com/us/podcast/charlize-theron-i-dont-need-a-man/id1418960261?i=1000715354417) · [E! on the shooting](https://www.eonline.com/news/1431104/charlize-theron-on-mom-gerda-shooting-dad-charles-theron-dead) · [Netflix Tudum on Apex](https://www.netflix.com/tudum/articles/apex-release-date-cast-news) · [Boo typology profile](https://boo.world/database/profile/3403/charlize-theron-personality-type)
