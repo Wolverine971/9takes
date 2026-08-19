@@ -1,0 +1,13 @@
+All 19 blocker claims from the six perspectives are adjudicated; none dropped.
+
+**Synthesis path:** `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/synthesis.md`
+
+- **P0 items:** 11
+- **Accepted P1 items:** 11
+- **Research-required:** 6
+
+**Most important protected hit:** PROTECT-01 — §5's two sentences that refuse to exonerate ("Cross has a real point and it deserves to stay on the table…" / "That is the reflex. It does not settle whether Cross is right about the money."). Three perspectives independently named these as where the article's honesty lives; they must survive verbatim, and they are the first thing at risk if an editor trims §5 to satisfy the word ceiling.
+
+Two things worth flagging beyond the counts. First, the P0 list has a *direction*: at eleven separate points the draft stops one clause before the place where the subject bounds, dates or defuses what the draft is building, and every cut runs the same way. Individually edits, collectively a thumb on the scale — and two of them sit in Ferriss transcripts the draft itself cites. Most restorations make the argument stronger, not weaker.
+
+Second, the binding constraint is real: the body is at ~4,510 words against a lint-gated 4,500 (`scripts/blog-lint.sh:354`). The brief therefore opens with a Step 0 of named funding cuts (~80 words freed) before any addition, so the ceiling is satisfiable without touching a protected hit.

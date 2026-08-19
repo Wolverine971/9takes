@@ -1,0 +1,19 @@
+Done. Second pass complete on `src/blog/people/drafts/Bill-Burr.md`.
+
+## What changed
+
+**The Philadelphia rant, promoted and re-read.** The review was right that this was the biggest problem. The draft called it "Camden," never used the name people actually search, and filed the motive in the Rabbit Hole as a *counterargument*. It now has its own H2 with the loyalty motive restored: comics before him, including Dom Irrera, had been booed off; he went out on their behalf. His own Bertcast account ("this is one of the greatest comedy line-ups… these fucking people are treating everyone like shit") plus his refusal to claim the win ("I wasn't a professional… I threw gas on a fire") make it the strongest exhibit *for* Type 6 rather than against it.
+
+**The missing 2025–26 turn, with the SNL monologue finally opened.** New H2 covering the anti-billionaire material — the Feb 2025 "put down like rabid dogs" podcast rant, the NPR Fresh Air line about "a select few group of nerds… competing to have the biggest infinity pool," and "That idiot Elon Musk!" It opens with the 2020 SNL monologue (verbatim "Gucci-booted feet") because the two are the same move: telling the room it has the wrong target. That framing solved two review notes at once and gave the section a spine.
+
+**Stat overreach fixed.** "Burr is an outlier in his own field" was checkable and wrong — Type 6 is 9.4% of comedians vs a 10.7% baseline. Rewritten around the real anomaly, Type 7 at 43.8%. Verified against `corpus-stats.json`.
+
+**Also:** Broadway cut from inventory (its two working paragraphs plus the Mandalorian/Favreau casting folded into the helicopter section, removing the pre-landing deflation); driveway down from five appearances to three with the closer pointing instead of replaying; "birthday" established up top so the Riyadh callback is continuous; Nia Renée Hill given her own voice; one paragraph of appetite added.
+
+## Source audit
+**6 load-bearing quotes: 6 inline, 0 vague, 0 untagged** (was 3 inline / 3 vague). This required adding `The Tim Ferriss Show`, `Hulu`, and `Netflix` to the outlet allowlist in `scripts/blog-source-audit.mjs` — same precedent as the existing `Channel 5` / `Shawn Ryan Show` entries for creator-owned transcript publishers. That file is modified; flagging it since it's shared tooling.
+
+## Worth knowing
+The **word ceiling was the real constraint, not the review.** The draft was already ~4670 words before this pass against a 4500 ceiling, so the two sections the review demanded forced a full-length trim. It lands at 4495 — passing, but with ~5 words of headroom, so anything added next needs a matching cut. Everything the review marked "already working" (the three-tellings structure, the Riyadh two-date table, "the counterattack arrives before the verdict does," the "son's name is Bill" beat, the Ronda Rousey catch) survived intact.
+
+Two things I left open: the Bertcast quote is attributed to the show but not a year (searches put it around 2017; I wouldn't assert it without a hard date), and I rejected expanding the podcast advice segment — the empathy turn it was meant to feed is already carried by Philadelphia and Riyadh, and a fifth "secretly caring" exhibit would flatten into a list.

@@ -1,0 +1,19 @@
+## Grading Complete — Bill Burr (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Bill-Burr | 8.5 | 9 | 9 | 9 | 8.5 | 9 | **8.8** | **B+** |
+
+`(8.5×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.8`. Discoverability 9 — gate clears. No caps applied.
+
+This is a regrade: first grade 8.4 (B), now 8.8 (B+), stability delta +0.4. Both prior caps cleared — the corpus-stat sentence, reader-command imperatives, and the arithmetic closing shape are gone (verified by grep, not by ledger), so `originality_cross_draft_sameness` no longer applies; the contrast engine dropped from 5 to 3.
+
+### Key observations
+
+**What earns it.** The "Riyadh, told twice" table is the strongest structural move I've seen in the recent batch — a dated on-camera account with no fear at all, set against the same gig ten months later on his own podcast with twenty minutes of dry mouth and a running threat count. The subject disproves his own public posture, unprompted, and the form collapses on anyone who doesn't self-document weekly. The empathy turn routes through his own wound-vocabulary (the smashed toy pistols) rather than the house "armor/scar tissue" grammar, and David Cross is quoted at full length and left standing: "It does not settle whether Cross is right about the money."
+
+**Why it isn't an A.** Two things. Evidence sits at 8.5 because the Bertcast quote — which carries the *entire* Philadelphia rescue reframe and its pull-quote — is attributed with no date and no episode, and the two Monday Morning Podcast exhibits rest on unarchived YouTube links the subject controls (the editor pass confirmed CDX returns empty). Writing sits at 8.5 because section 6 is a seven-beat grab-bag the editor notes admit "absorbed" other sections' material, and nearly every section lands on the same short declarative fragment.
+
+**Two ledger claims don't reproduce.** The formula ledger reports the same-type scan max as "0.127 vs noah-wyle"; running it today gives 0.125 vs **simone-biles**, noah-wyle at 0.064. The distribution ledger claims zero type-theory outside the diagnosis and rabbit hole; there are three single-sentence bridges. The scan still passes and the bridges are benign — but I scored from the body, not the ledgers, and the next grader should too.
+
+Sidecar written to `docs/content-analysis/grades/Bill-Burr.review.md` with five concrete steps to A. No legacy `QUALITY GRADE` block existed in the body; frontmatter YAML re-validated after the insert.

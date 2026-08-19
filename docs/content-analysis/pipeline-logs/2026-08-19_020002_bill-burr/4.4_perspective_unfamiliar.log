@@ -1,0 +1,18 @@
+All eleven required H2 headings present in order; counts match frontmatter (2 blockers, 9 concerns).
+
+**Saved:** `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 9 concerns.**
+
+SHA verified three ways (supplied arg, `context.json`, computed) before reading. First read was strictly unaided per the unfamiliar-reader exception; packet and one search came after.
+
+**Blockers**
+
+- **UNFAMILIAR-R1** — §3 says *F Is for Family* ran "Six seasons on Netflix." It ran **five** (44 episodes, renewed Oct 2020 "for a fifth and final season," finale 2021-11-25). Confirmed independently by search and marked FALSE in the packet at CLM-24. It sits one sentence after "The son's name is Bill" — the best emotional beat in the piece and the moment the article asks for the most trust on a claim the reader can't check. One-word fix.
+- **UNFAMILIAR-R2** — the closing image ("put him across from a person coming apart... talks them down") states as fact a therapeutic reading of a role in an unreleased film, while the article's own FAQ hedges the identical claim with "per the trailer." Trailer coverage points instead to crisis *communications* — a PR handler prepping Zuckerberg for congressional testimony. If that's right, the final paragraph isn't unproven, it's the wrong picture.
+
+**Strongest hit:** the three-tellings structure — THR 2022, Ferriss, *Drop Dead Years* 2025, closing on "Three tellings. One motive. Safety." It's the moment a cold reader converts: his own words, dated, falsifiable, conclusion drawn in four words. Runner-up is the two-row Riyadh table, which lets a newcomer catch the contradiction rather than be told about it.
+
+**Highest-priority concern (UNFAMILIAR-C1):** the only place the article ever explains *wing*, *subtype*, or Type 8 is inside a collapsed block that opens "Skip if you're not deep into the system" — and all three `/enneagram-corner/` links live in there too. Meanwhile the diagnosis sentence a search visitor lands on opens with three unglossed terms, then delivers the article's best plain-English gloss one sentence later. The order is backwards and the link fix is word-neutral.
+
+Two notes worth flagging beyond the findings: none of the three embedded pipeline passes in the snapshot caught either blocker, and C6 (the same Ferriss episode dated 2017 in one place and 2022 in two others) is a threat to the strongest structure in the piece rather than a criticism of it — it makes the "eight years" span underivable from the page's own dates.

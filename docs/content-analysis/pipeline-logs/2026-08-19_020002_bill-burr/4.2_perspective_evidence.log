@@ -1,0 +1,12 @@
+**Artifact:** `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/evidence-packet.md`
+
+40 claims (`CLM-01`–`CLM-40`), 44 ledgered sources, all 10 required H2 sections. Draft snapshot and live draft both still hash to `c279d288…` — nothing else was written or edited.
+
+**Largest unresolved evidence gap: the two ends of the article both rest on evidence that does not hold at full strength.**
+
+- **`CLM-12` — the Riyadh tiebreaker.** The dry-mouth quote is verified verbatim (I re-pulled both podcast transcripts). But the same passage frames Riyadh as *"one of my top three gigs of all fucking time"* and *"that one was a great one,"* inside a run of favorite international gigs — Italy, Germany, Budapest. The draft's private account is a war story told as a highlight with fear inside it, not a confession. Any evaluator can play the episode and hear this.
+- **`CLM-32` — the closing beat.** Wikipedia names Burr's *Social Reckoning* character "Charlie"; trade coverage calls him a crisis counselor; a trailer write-up calls him "the only PR guy willing to push back against Zuckerberg's stilted, awkward delivery," with reported dialogue about prepping Zuckerberg for congressional testimony. That reads as crisis *communications*, not the therapeutic reading the final paragraph is built on. The film is unreleased, so nobody can settle it.
+
+Also flagged as hard and checkable: `CLM-24` — *F Is for Family* ran **five** seasons, not six (Netflix renewed it for a "fifth and final" season in 2020). And `CLM-03` — the draft dates the same Ferriss interview as 2017 in one place and 2022 in two others; the transcript page states it was recorded for the 2017 *Fear{less}* show.
+
+The corpus statistics (`CLM-06`) verified exactly against `src/lib/data/corpus-stats.json`, including the "widest gap in any category" superlative.

@@ -1,0 +1,13 @@
+Reviewed `src/blog/people/drafts/Bill-Burr.md` — fresh-eyes notes appended at the bottom of the file.
+
+**The two biggest flags:**
+
+1. **The Philadelphia rant is both mis-named and mis-filed.** The draft calls it "Camden" and never uses the name readers and search actually know it by. More importantly, the motive is buried: he abandoned his set because Dom Irrera and the comics before him had been booed off, and he went to war on their behalf. That fact currently sits in the Rabbit Hole under *"What Type 6 does not fully explain"* — but protecting your people is the Six's engine. The single most famous piece of evidence about this man is shelved as a counterargument to the draft's own thesis when it should be its strongest exhibit.
+
+2. **The 2025–2026 anti-billionaire turn is missing entirely.** Burr built part of *Drop Dead Years* around Musk, said on his own podcast that billionaires "need to be put down like rabid dogs," and has been claimed by a populist audience that didn't exist for him five years ago. For a Type 6 read — who's the authority, who's the in-group, who earns trust — that's the biggest live material available, and there isn't a word of it.
+
+Also worth catching before the next pass: a stat overreach in §1. "Burr is an outlier in his own field" doesn't hold — Type 6 is 9.4% of the comedian set against a 10.71% corpus baseline, i.e. 1.3 points under, essentially average. The striking number is Type 7 at 43.8%. The rest of the corpus figures check out against `src/lib/data/corpus-stats.json`.
+
+Smaller notes in the block cover the driveway story appearing five times (the closer re-narrates it in full), the unopened 2020 SNL monologue, the missing *Mandalorian* credit, and the Broadway section deflating momentum right before the landing.
+
+Sources: [Slate on Burr's politics](https://slate.com/culture/2025/03/bill-burr-special-drop-dead-years-elon-musk-comedy-stand-up-politics.html), [Vice on the Philadelphia rant](https://www.vice.com/en/article/20-years-ago-bill-burr-roasted-an-entire-philadelphia-audience-for-12-minutes-straight/), [THR on the Mandalorian casting](https://www.hollywoodreporter.com/tv/tv-news/bill-burr-mocking-star-wars-fans-helped-land-mandalorian-role-1234996974/)

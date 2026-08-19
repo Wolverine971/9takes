@@ -1,0 +1,165 @@
+---
+artifact: perspective-verification
+schema_version: 1
+subject: Bill-Burr
+draft_sha256: c279d288f1395a0b96ec6c208186b19926202e563247907ae81fbfd50b37a55c
+final_content_sha256: fed6e46bbadcb9d602d095935fc796e73ff29d47588224a106910f79cf9b822a
+verification_status: pass
+open_p0: 0
+protected_hit_regressions: 0
+verified_at: 2026-08-19T08:20:32Z
+---
+
+## Verification verdict
+
+The frozen snapshot is confirmed. `shasum -a 256 draft-reviewed.md` returns
+`c279d288…0b37a55c`, matching the supplied SHA, and every artifact in this directory
+(`synthesis.md`, `editor-resolution.md`, `revision-resolution.md`, `verification-initial.md`, all six
+reviews, the packet) carries that same value in its frontmatter.
+`hashReaderVisiblePerspectiveBody(draft-reviewed.md)` reproduces `ebc99004…86ce36`, the
+`reader_visible_content_sha256` in `context.json`. The live draft now hashes to `fed6e46b…cf9b822a` —
+different from the `ecc3eafb…3aaf0311` recorded at `verification-initial.md`, confirming the revision
+pass changed reader-visible text after that gate ran.
+
+**All eleven P0 items are resolved. All ten protected hits survive. The gate passes.**
+
+This run is a second verification, not a repeat of the first. `verification-initial.md` already passed
+the jury gate; `revision-resolution.md` then ran a grade-driven pass (B / 8.4, caps
+`originality_cross_draft_sameness` + `contrast_pair_engine`) on top of it. The risk this pass exists to
+catch is a grade fix quietly regressing a jury repair. I diffed the two reader-visible bodies in full
+rather than reading the revision log and agreeing with it. **Every reader-visible delta from frozen to
+live traces to a named synthesis item or to a disclosed grade fix, and nothing in the revision pass
+touched a P0 acceptance test in the failing direction.** The revision was almost entirely subtractive:
+body 4,489 → 4,429 words against the 4,500 ceiling.
+
+Three findings from this pass are worth recording because they are not in the prior artifacts.
+
+First, **the one P0 whose resolution inverted a synthesis finding was re-verified from the source, not
+from the previous verifier's notes.** P0-05 turned on whether `"was a normal guy"` exists anywhere. I
+re-fetched `npr.org/transcripts/nx-s1-5311616` this session and the full broadcast transcript carries
+the draft's ordering verbatim:
+
+> GROSS: Your father, apparently, you know, from what I've heard you say, had real rage problems - real
+> anger problems. BURR: And I'll tell you this - **he was a normal guy.** He was normal, like all the
+> dad - the dads when I - in my neighborhood when I grew up, the dads were **frigging terrifying.**
+> Terrifying. They were just, you know, **buzz-cut lunatics.** This is when I was really young, early
+> '70s… So I don't want to just single out my dad, right?
+
+`normal guy` first, `frigging` (not `freaking`), `buzz-cut lunatics`, and the don't-single-him-out
+clause all present and in the draft's sequence. The packet's `freaking` came from the shorter
+syndication. The editor note telling future passes not to "correct" this back is right.
+
+Second, **P0-11 is now satisfied by deletion rather than by stamping**, which is a stronger outcome than
+the acceptance test asked for. The revision cut the corpus sentence outright per the grade sidecar
+(`grep -E '10\.7|9\.4%|43\.8|14\.3|420|32 comedians|widest gap'` → zero reader-visible hits). The
+surviving claim is unquantified and scoped — `"the comedians profiled here bear that out"` — and I
+checked it still holds: `corpus-stats.json` (generated 2026-08-19T04:46:01Z) gives comedy n=32 with
+Type 7 = 14 (43.75%), `top_over_represented` at +29.46pp. Publishing Burr makes it 14/33 and Type 7
+stays the plurality, so the sentence cannot age into falsity. The post-publish chore from
+`verification-initial.md` item 2 is genuinely closed, not deferred.
+
+Third, **PROTECT-10 lost half its sentence and I am passing it anyway.** That is the one judgment call
+in this artifact and it is stated in full under the protected-hit section below.
+
+Deterministic gates re-run this session: `bash scripts/blog-lint.sh src/blog/people/drafts/Bill-Burr.md`
+returns **0 fail, 1 warn** (body 4,429 words, the expected thin-headroom warning), 0 strong contrast
+pairs, 0 comparative patterns, 6 internal links, 6 FAQPage-eligible pairs. All six FAQ `anchor` values
+resolve to real H2 slugs in the current body, including the renamed
+`the-part-bill-burr-plays-in-october-2026`.
+
+## P0 resolution check
+
+| ID | Status | Verification against the current live draft |
+| --- | --- | --- |
+| **P0-01** | **resolved** | `grep "crisis counselor"` → three hits, all qualified: FAQ 6 and body L421 both read "Per the trailer…", the third is inside the swap-test ledger comment (not reader-visible). Zero unqualified occurrences. The invented staging (chair, person coming apart, talking down) is still gone. The revision reshaped this closer for the grade sidecar and it survives the test: the only actions now described are Sorkin's ("put… handed"), and the one thing attributed to Charlie is speech traceable to the released trailer line about the next round of congressional testimony. Safe under either RQ-01 outcome. |
+| **P0-02** | **resolved** | §5 carries `"one of my top three gigs of all fucking time"` in the Aug 10 2026 cell, ahead of the dry-mouth quote. No sentence asserts absent audience or absent incentive: the cell's Audience column reads "Unprompted, no interviewer, ten months later" and the paragraph reads "With nobody asking and nothing left to defend" — which is the synthesis's own prescribed replacement wording (P0-02 minimum repair, verbatim). The counterevidence is argued through, not around: "He files Riyadh as a career-best night and counts the people standing up in the same breath." Untouched by the revision pass. |
+| **P0-03** | **resolved** | `"I was onstage with the mindset of a 6-year-old from 23 to about 37."` present at L214, printed as its own dated quotation, and answered in the next clause: "Everything below is the case that the wiring outlasted the phase." |
+| **P0-04** | **resolved** | All four re-checked against the packet. (1) `"But it wasn't a big deal back then."` restored [CLM-33]. (2) The non-negotiable one: `Then, unprompted, the correction: "He never did it. It's just an empty threat."` present inline, and I confirmed the qualifier's exact wording against the packet at L175 and L504 [CLM-22]. (3) Helicopter: the previously unmarked cut is now `Living in the L.A. basin. … This place became really claustrophobic`, with the 2015 Inquirer corroboration added and cited [CLM-16 / S-14]. (4) `"Then the anger came back tenfold, for about three weeks."` No remaining quotation ends immediately before a de-escalating clause without a mark. |
+| **P0-05** | **resolved (finding inverted, re-confirmed from source this session)** | See the verdict. Both disputed strings verify verbatim in the NPR full broadcast transcript, which is in `citations`. Every other quoted string in §3 traces: the wall line and its qualifier to Ferriss [S-02], "Every way that you can be abused" and "he dialed down what was done to him" to Fresh Air [S-05/S-06] — both re-confirmed in the transcript I pulled — and the Frank Murphy blockquote to its RQ-05 trim (four corroborated sentences; the uncorroborated "scared of everything / Susan" payoff now runs outside quotation marks as the article's own line). |
+| **P0-06** | **resolved** | `grep "Six seasons"` → zero. Body reads "Five seasons on Netflix." Both credit instances read "which he co-created" (L186, L266). "Burr wrote that" → "Burr co-wrote that." |
+| **P0-07** | **resolved** | The negative half is gone; §4 closes "He swings hardest when the room turns on people he has decided are his." No sentence in the piece asserts what Burr never does, and §5's "and, underneath that, himself" no longer contradicts §4. |
+| **P0-08** | **resolved** | Deadline is named as a real outlet ("filed it under 'raises eyebrows'"); the evaluative claim is attributed to Burr ("name who he thinks the real threat is"); the disanalogy is conceded ("A demographic inside a civil-rights movement is not a class of billionaires. The reflex is the same anyway."). The revision folded the adjacent "are not a conversion. They are one move run twice" to the positive but left the concession and the attribution untouched — verified by literal grep, not by the log. |
+| **P0-09** | **resolved** | `grep "ISTP\|ESTP\|Myers\|SunSigns\|personalitylist\|MBTI"` → three hits, all inside HTML comments (the fingerprint ledger and the revision notes). Zero reader-visible hits, in body and in FAQ 1. The revision additionally dropped the `Bill Burr MBTI` keyword rather than answering it in the Rabbit Hole, which was the correct branch: the alternative remedy would have reopened this P0. |
+| **P0-10** | **resolved** | All eleven Ferriss references now read 2017 or are undated back-references; `grep "2022"` against Ferriss returns nothing. `"sixteen years"` → zero hits, `"eleven years"` present, and it is derivable from two dates printed in the same section (2006 in the Type 8 exhibit list, 2017 on the quote). PROTECT-02's eight-year span (2017 → 2022 → 2025) still checks. |
+| **P0-11** | **resolved (by deletion; see verdict)** | Zero corpus-derived figures remain reader-visible, so the as-of-scope requirement is satisfied vacuously and no inference is stated as a fact about comedians in general. The surviving Rabbit Hole claim is directional and scoped to profiled subjects, and I re-derived `corpus-stats.json` to confirm it is true now and stays true after Burr publishes. |
+
+## Accepted improvements check
+
+| ID | Status | Verification |
+| --- | --- | --- |
+| P1-01 | **completed** | "counterphobic: the kind that runs at what scares it instead of hiding" glossed at first use in §1; the phobic/counterphobic split is executed in the open body at §6 ("Philadelphia and Riyadh are the counterphobic half… This is the other half: the same fear with nothing to charge at"), so the test is satisfiable without opening the Rabbit Hole. |
+| P1-02 | **completed** | `/enneagram-corner/enneagram-type-6` links on first use in the open body; the wings and subtypes links remain in the Rabbit Hole where they belong. "self-preservation dominant, with a 7 wing" is out of the lead sentence. Lint: type-answer block extracts at 58 words. |
+| P1-03 | **completed** | Read as 2027-08-19: "turned 58 in 2026"; "twice a week now, every week since May 2007"; "More than a thousand episodes deep" with no publication-year duration; "Nineteen years in" (1992→2011, both printed); Rabbit Hole "every week, since 2007"; heading and FAQ anchor both carry October **2026**; FAQ tour line stamped "as of August 2026". |
+| P1-04 | **completed** | "ninety minutes" → "an hour of associative riffing"; cadence corrected to twice weekly. |
+| P1-05 | **completed** | "The comedian Dom Irrera was one of them; so was Patrice O'Neal." in §4, and the annual benefit named once in the Rabbit Hole. Two clauses inside existing sentences, not expanded into a section, as instructed. |
+| P1-06 | **completed** | Pull-quote reads "started as a rescue" — motive, not outcome, and consistent with PROTECT-07 three paragraphs later. |
+| P1-07 | **completed** | "a Philadelphia crowd on the Jersey side"; "The comedian Dom Irrera"; "The comedian David Cross". A reader with no US-Northeast geography can now state whose city was attacked. |
+| P1-08 | **deferred with reason — accepted, and the reason needs one correction** | Still not completed; the two YouTube citations are unchanged. Both prior passes recorded "no Wayback snapshot exists for either" from a CDX query. That is wrong for one of them: the availability API returns a 200 capture of `8NYGbY4Tmkc` at `web.archive.org/web/20260816013744/…`. I fetched it — 1.2MB, but the title renders as "- YouTube", with no description and no transcript, so **the capture preserves the page shell and not the utterance**. The deferral therefore still stands on its merits (the marquee exhibit remains dependent on a channel the subject controls), but the stated reason should be "no snapshot preserves the quoted material," not "no snapshot exists." Carried to Remaining work with the corrected framing. Does not fail the gate. |
+| P1-09 | **completed** | The unmeasurable superlative is gone; "She has been a subject of his act for a decade, including how strangers react to their interracial marriage" now pre-loads §8. |
+| P1-10 | **completed** | `grep "he does not know he has it"` → zero. The craft reading is conceded first ("The precision is the joke"), and PROTECT-05's beat is untrimmed. |
+| P1-11 | **completed** | "he argued in the monologue that white women had attached themselves to a Black civil-rights moment" precedes the quotation, describing the argument without endorsing it. The revision's one-word accuracy fix ("nearly five months into the George Floyd protests") is correct: May 25 → October 10 2020 is about four and a half months. |
+| P2-01 | completed (authorised) | §6 retitled "What Bill Burr's fear builds when there is nothing to fight"; heading ledger updated to match. |
+
+**New factual assertions introduced by repairs.** None added by the revision pass — it was subtractive
+except for one word ("nearly"), which is arithmetic against dates already on the page. The assertions
+added earlier by the editor pass (Inquirer 2015 helicopter line, NPR broadcast transcript, *Drop Dead
+Years* soliloquy) are each in `citations`; the Patrice O'Neal lineup and benefit facts were vouched by
+the synthesis itself (packet S-12; Boston Globe 2021), and the benefit is the one added fact with no
+matching entry in `citations` — noted below, not a gate item.
+
+## Protected-hit regression check
+
+All ten verified this session by literal `grep -F` against the live draft, independently of the revision
+log. **Zero regressions.**
+
+| Check | Result |
+| --- | --- |
+| PROTECT-01 | **Intact.** Both Cross sentences present verbatim; §5 was not trimmed for words. The RQ-06 restoration ("A boat? More sneakers?") is still in place. |
+| PROTECT-02 | **Intact.** "Three tellings. One motive. Safety." verbatim; three tellings in three formats; span derivable from printed dates. The grade sidecar listed its fragment-closer form under cross-draft sameness and the revision correctly declined to cut it. |
+| PROTECT-03 | **Intact.** `<div class="scroll-table">` with the header row and both dated rows. P0-02 was executed inside a cell, as instructed. |
+| PROTECT-04 | **Intact.** "The counterattack arrives before the verdict does." verbatim. The revision deleted the *preceding* reader-command "Watch the timing instead." — not protected, and the empathy turn still runs looks-like → what-is-actually-happening without it. |
+| PROTECT-05 | **Intact.** "Nobody asked. There was no scale in play." verbatim, with the full "six and a half" quotation. |
+| PROTECT-06 | **Intact.** "The son's name is Bill." verbatim, now on a five-season, co-created credit. |
+| PROTECT-07 | **Intact.** "…So, I came out and threw gas on a fire that was already going." verbatim, and no longer contradicted by §4. |
+| PROTECT-08 | **Intact.** Both "What would change our mind" and "What Type 6 does not fully explain" present and unedited. |
+| PROTECT-09 | **Intact.** "He did not describe wanting the room. He described wanting the room to stand down." verbatim, deliberately retained as one of the two permitted negate-then-assert engines. |
+| PROTECT-10 | **Intact — passed on function, and this is the one judgment call.** The revision deleted the negation half to satisfy the grade sidecar; the body now reads "He presents it as inheritance." The full two-sentence form survives only inside an HTML comment, which is not reader-visible. I am passing it for three reasons, in order of weight: (1) the synthesis's own Step 5 pass condition for PROTECT-10 is stated as `"He presents it as inheritance" intact`, and that string is verbatim; (2) the protected *function* — keeping the childhood section fair to a named living parent — survives in the retained clause plus the two sentences bracketing it ("I love my dad, man. He's hilarious." and "because he dialed down what was done to him"), so the insight is tightened, not deleted; (3) the same paragraph gained the P0-04 empty-threat qualifier, which pushes fairness to the father up, not down. A future pass that trims further here should treat the remaining clause as load-bearing. |
+
+## Remaining work
+
+None of the following is a P0 and none blocks the gate.
+
+1. **P1-08 — the two YouTube citations, with the reason corrected (needs DJ).** The Riyadh dry-mouth
+   exhibit and the Rousey half-point catch are the page's two best pieces of evidence and both resolve
+   only to the subject's own channel. A Wayback capture of `8NYGbY4Tmkc` does exist
+   (`web.archive.org/web/20260816013744/…`, 2026-08-16) but it preserves no title, description or
+   transcript, so adding it would look like archival coverage without providing any. `yHKqkVqa9mc` has
+   no capture at all. The move that actually closes this is a local artifact: save both fetched
+   transcripts into the review directory (or a docs path) and cite that, since the packet already
+   contains the verbatim strings. Outward-facing archiving remains DJ's call.
+2. **Citation gap, low severity.** The annual Patrice O'Neal benefit is the one repair-added fact with
+   no matching entry in `citations` (the synthesis vouched it from a 2021 Boston Globe piece not in the
+   ledger). One URL closes it at the next refresh.
+3. **The closer no longer names the driveway.** The synthesis's revision brief said "hedge the closer,
+   delete the invented staging, **keep the driveway landing**," and the grade pass cut the explicit
+   callback and its "Fifty-four years after…" arithmetic as a three-drafts-deep pattern. P0-01's
+   acceptance test does not require the callback and the image is still loaded one section earlier
+   ("two smashed plastic pistols in his hands"), so this is a defensible trade, disclosed in the
+   revision log — but it is the one place where a grade fix overrode an editorial instruction from the
+   jury, and DJ may want to read the last three paragraphs and decide.
+4. **RQ-01 — Charlie's occupation, checkpoint 2026-10-16.** The closer is written to survive both the
+   mental-health-counsellor and the crisis-comms readings. Refresh item, not pre-publish.
+5. **RQ-04 — is fear-narration a standing MMP register?** Still only partially answered; settling it
+   needs a grep across an MMP transcript corpus that does not exist locally. If it turns out to be
+   routine, PROTECT-08's falsification clause should fire in public.
+6. **RQ-05 residue.** "He's scared of everything. Gee, I wonder where he got that from, Susan?" was
+   dropped rather than disproved. Netflix closed captions for S1 "Bill Murphy's Day Off" would settle
+   whether it can return.
+7. **Word headroom, improved.** Body is 4,429 of 4,500 — headroom went from 11 words to 71. Lint is
+   0 fail, 1 warn. Any future addition still needs a matching cut, and the ten protected hits are not
+   where to find it.
+
+---
+
+**Output:** `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/verification-final.md`
+**Status:** `pass` · **open_p0:** 0 · **protected_hit_regressions:** 0

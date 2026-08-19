@@ -1,0 +1,23 @@
+Frontmatter enrichment complete: **Bill-Burr**
+
+The draft arrived largely enriched, so this was a gap-fill, not a rebuild. Two real gaps existed.
+
+**Fields filled (3 lines added, all in frontmatter):**
+- `wikidata_qid: 'Q13412374'` — verified against the live entity (label "Bill Burr", description "American comedian, actor, and writer (born 1968)", P569 birth `1968-06-10`, P19 Canton MA, P27 United States — all matching the draft's existing values)
+- `same_as` expanded 2 → 4 — added the Wikidata URL and `https://www.billburr.com/` (sourced from Wikidata P856, confirmed live)
+
+**Verified and preserved (not touched):**
+`wikipedia` (confirmed it's the comedian, not the NZ candidate or Bill Burrud), `imdb_id` (`nm0122987` cross-checked against Wikidata P345 — confirmed), `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about` (5 real expertise areas, not the occupation-copied backfill pattern), `keywords`, `citations`, `faqs`, `lastmod`.
+
+**FAQs:** none generated — the existing 6 are substantive and body-derived, with no "with supporting context from" backfill tells, so strict idempotency applied. All 6 anchors resolve to real H2/H3 headings in the body.
+
+**Issues:**
+- **6 FAQs, spec caps at 5.** Preserved under the idempotency rule rather than trimmed. Worth a look — the dilution risk is real but cutting one is your call, not mine to make silently.
+- **Two FAQs share one anchor** (`why-bill-burr-went-back-to-therapy-for-his-anger`): the "Who is Bill Burr's wife?" entry and the "Is Bill Burr actually an angry person?" entry. The second fits; the wife FAQ pointing at the therapy section is a loose deep-link. Left as-is per idempotency.
+- **`keywords` has 12 entries vs. the 5–10 guidance.** All are genuine search phrases, and the command is additive-only, so I left them.
+- **No Britannica entry exists for Burr** — the corpus pattern (e.g. Dave-Chappelle) uses Britannica as a fourth `same_as`, but search returned no dedicated page, so I used the official site instead rather than constructing a URL.
+- **Citations don't appear as inline body links** — I checked this before flagging it as thin sourcing, and it's the corpus norm: 10 of 12 sampled drafts have zero inline matches. At 23 citations Burr is well above corpus average. Not a gap.
+
+Body, HTML comment blocks, `production_pretext`, and `lastmod` are byte-identical — the diff is exactly the 3 inserted frontmatter lines, and the YAML parses clean.
+
+Sources: [Wikidata Q13412374](https://www.wikidata.org/wiki/Q13412374), [Wikipedia — Bill Burr](https://en.wikipedia.org/wiki/Bill_Burr), [billburr.com](https://billburr.com/)

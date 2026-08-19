@@ -1,0 +1,34 @@
+**Bill Burr — 42/100 — PASS on the entity-gap question, but write him anyway on a narrowed thesis.**
+
+Packet saved to `docs/content-analysis/entity-gaps/Bill-Burr.md`. No blog, queue, DB row, or generated file was touched.
+
+## The verdict
+
+Burr is not an Emerging Entity Gap and never will be. He has a ~15,000-word Wikipedia article with 150+ references, an IMDb bio, Broadway.com, an official site, and Ticketmaster. Five major outlets (Today, Parade, Vibe, Yahoo, AOL) own `bill burr wife`. The `-20` penalty for "personal Wikipedia plus several authoritative dedicated biographies" applies flatly: 62 subtotal − 20 = 42.
+
+**But the score answers a question the pipeline isn't asking tonight.** The general-biography surface is closed. The psychology surface is wide open, and there's local proof it converts:
+
+- `bill burr personality type` returns *only* database stubs — boo.world, So Syncd, sakinorva, PDB comments, SunSigns, a 2019 WordPress post. Not one argues its answer from evidence.
+- In the 2026-08-13 GSC window, `/personality-analysis/joe-rogan` pulled 947 impressions, and `joe rogan personality type` sat at **position 7.7, 1.39% CTR** — 9takes already competing page-one against exactly these incumbents.
+- The existing typing is *contested* (Boo says 6w7, SunSigns says ISTP, PDB argues ESTP), which is the ownable opening.
+
+So: `classification: pass`, `recommended_action: create`. Same divergence shape as the Nolan packet, with stronger source depth.
+
+## What makes it writable
+
+Source depth scored **15/15** — the strongest dimension. Nineteen years of weekly *Monday Morning Podcast* is likely the deepest first-person record of any working comedian, plus NPR/Fresh Air 2025 ("I am a mess of a human being"), THR long-form, the Conan Riyadh confrontation, HRW, and named peer critics (Cross, Maron, Gillis).
+
+The contradiction is documented, not inferred: the man filed as pure aggression is running a long fear-management program he's narrated in public — back in therapy specifically for anger, psilocybin for childhood emotional abuse, self-describing as *"walking around at a six."* His Riyadh reflex ("I don't give a f*** what these phony f***ing people are saying") reads counter-phobic, not detached.
+
+**Catalyst:** *The Social Reckoning* (Sorkin, Oct 9 2026) — Burr plays a crisis counselor opposite Jeremy Strong. ~7 weeks of index runway.
+
+## Two things that will bite the draft
+
+- **Do not publish net worth** — estimates span $8M to $120M across pure junk sources.
+- **Do not publish a sibling count** — farms say three *and* five, one names his parents wrong ("Bill senior and Brenda" vs Wikipedia's Robert and Linda Ann). Wikipedia is silent. Omit it.
+
+Also flagged for verification at draft time: the *Drop Dead Years* album release year, and whether Burr was personally an Emmy nominee vs. the special being nominated in craft categories.
+
+One note on the run: local GSC has **zero** Bill Burr signal, so `scripts/emerging-entity-gap-candidates.mjs` had nothing to say about him and wasn't used as a prefilter — every demand claim here rests on dated web evidence, labeled directional.
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Bill_Burr), [Deadline](https://deadline.com/2026/06/the-social-reckoning-trailer-aaron-sorkin-facebook-1236952527/), [Variety](https://variety.com/2026/film/news/social-reckoning-trailer-jeremy-strong-mark-zuckerberg-1236626411/), [Television Academy](https://www.televisionacademy.com/shows/bill-burr-drop-dead-years), [NPR/Houston Public Media](https://www.houstonpublicmedia.org/npr/2025/03/10/nx-s1-5311616/bill-burr-i-am-a-mess-of-a-human-being-but-it-makes-for-good-comedy/), [THR](https://www.hollywoodreporter.com/tv/tv-features/bill-burr-interview-career-snl-gina-carano-1235134000/), [Variety (Riyadh)](https://variety.com/2025/tv/news/bill-burr-defends-riyadh-comedy-festival-backlash-1236536805/), [Variety (Glengarry)](https://variety.com/2025/legit/news/glengarry-glen-ross-kieran-culkin-bob-odenkirk-bill-burr-recoups-investment-1236396047/), [KXLY](https://www.kxly.com/entertainment/bill-burr-added-to-the-2026-great-outdoors-comedy-festival-lineup/article_1e39b6df-bcfa-4981-b265-7abee0e93ff7.html)

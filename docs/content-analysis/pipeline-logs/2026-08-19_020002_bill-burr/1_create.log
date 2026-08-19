@@ -1,0 +1,29 @@
+Draft complete and all gates cleared.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Bill-Burr.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass | Gate 2: pass | Gate 3: pass | Gate 4: pass | Gate 5: pass | Gate 6: pass
+LIMITATIONS: see below
+```
+
+**The thesis.** Burr is typed Enneagram 6 (sp-dominant, 6w7), and the argument runs on his own tape rather than assertion. He has given the same origin story three times across eight years — THR 2022, Tim Ferriss 2017, and a voice-over inside his own 2025 Hulu special — each time saying he became a comedian so people would like him "so that no one would hurt me."
+
+**The evidence that makes the page.** The entity-gap packet said the moat is nineteen years of first-person podcast that no competitor mines. I pulled three 2026 Monday Morning Podcast transcripts directly and found the tiebreaker: Burr describes the *same Riyadh gig* two ways eleven months apart. On Conan's stage in October 2025 he called critics "sanctimonious c***s" and showed zero fear. On his own show on 2026-08-10, with nobody watching, he reports "dry mouth for like the first 20 minutes" and getting nervous "anytime anybody even moved." That two-date ledger is the bespoke section form and the empathy turn.
+
+**Gate detail.** Testimony: 4 qualifying quotes (Nia Renée Hill ×2, producing partner Mike Bertolina, critic David Cross). Headings: 6 of 8 search-intent or hybrid. Distribution: 0 type-theory paragraphs outside the diagnosis and the 698-word Rabbit Hole. Contrast-pair engines: **0 strong, 0 comparative**. `blog-lint.sh`: **0 fail**, 35 passing checks.
+
+**Things I cut or corrected rather than shipped:**
+- The packet's "walking around at a six" anger-scale quote **could not be verified anywhere** — dropped. I replaced it with a verified equivalent from the 8-17-26 episode where he spontaneously rates his own nervousness "on a level of 1 to 10... about a six and a half" mid-joke.
+- Siblings and net worth omitted entirely, per the packet's source gate.
+- Fixed a self-inflicted bug where I'd wired "Breaking Bad" to Dave Chappelle's page.
+- Caught a factual error in my own first pass: I wrote the post-psilocybin anger returned "sevenfold," conflating NPR's *tenfold* with the seven-day window.
+- Dropped three age calculations that straddled his June birthday, an unsourced "most Broadway plays never recoup" generalization, and a "his wife" reference in 2011 (he married in 2013).
+
+**Also written:** `docs/content-analysis/research/Bill-Burr.md` — a 339-line evidence log with the full quote bank, dated timeline, source ledger, and labeled type hypothesis, so the six downstream perspective evaluators don't redo this research.
+
+**Limitations:** THR and Variety both hit the tollbit paywall redirect, so Riyadh quotes come from cross-checked outlet reporting rather than first-party transcripts. MMP transcripts are YouTube auto-captions (solo show, so attribution risk is low). Outlets disagree on the Conan episode's exact air date, so the draft cites the month only. All recorded in the research file.
+
+One flag worth your attention: the similarity scan prints `TRIPPED` on this draft, but the sole shared phrase is the H3 heading the command itself mandates. I've saved a memory about that false positive since it will recur on every Type-N draft. The draft is at `status: draft` for your review — it does not auto-promote to `ready`.

@@ -1,0 +1,14 @@
+**Output:** `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/verification-initial.md`
+
+**verification_status:** `pass` · **open_p0:** 0 · **protected_hit_regressions:** 0
+
+All 11 P0 items resolved, all 10 protected hits intact, 10 of 11 accepted P1s completed (P1-08 deferred with a defensible reason — no Wayback snapshot exists and creating one is an outward-facing action left for you). `blog-lint.sh` returns 0 fail; body is 4,489/4,500 words.
+
+Two findings I verified independently rather than taking on the editor's word:
+
+- **P0-05 genuinely inverts.** I fetched the NPR full broadcast transcript this session — both `"he was a normal guy"` and `"frigging terrifying"` are verbatim there. Nothing was fabricated; the packet's `freaking` came from the shorter GPB syndication. The quotation marks correctly stay.
+- **The Frank Murphy blockquote corroborates** after the RQ-05 trim, including punctuation, which matters because P0-05's acceptance test covers every quoted string in §3.
+
+Non-blocking follow-ups, in order: archive the two YouTube citations (two `curl` saves — your call, it's outward-facing); regenerate `corpus-stats.json` after publishing, since Burr narrows the Type 7 superlative's lead to ~1.7pp; and one precision nit — "five months into the George Floyd protests" is closer to four and a half.
+
+Sources used for the targeted checks: [NPR transcript](https://www.npr.org/transcripts/nx-s1-5311616), [F Is for Family Wiki](https://f-is-for-family.fandom.com/wiki/Bill_Murphy%27s_Day_Off).

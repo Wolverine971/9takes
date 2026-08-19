@@ -1,0 +1,14 @@
+**Output:** `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/verification-final.md`
+**Status:** `pass` · **open_p0:** 0 · **protected_hit_regressions:** 0
+
+Frozen SHA confirmed (`c279d288…`); live reader-visible hash is `fed6e46b…`, changed from the `ecc3eafb…` recorded at `verification-initial.md`, so the grade-driven revision pass did alter reader-visible text after the first gate.
+
+I verified this as a second pass rather than re-reading the first one: full diff of the frozen vs. live reader-visible bodies, literal greps for all ten protected hits, and independent source re-checks on the two P0s whose resolutions changed a synthesis finding. Three things worth surfacing:
+
+- **P0-05 re-confirmed from source.** I re-fetched the NPR full broadcast transcript this session — `"he was a normal guy"`, `"frigging terrifying"`, `"buzz-cut lunatics"` and the don't-single-him-out clause are all verbatim, in the draft's order. The inversion holds.
+- **P0-11 is now satisfied by deletion.** The revision cut the corpus sentence outright; zero corpus figures remain reader-visible, and the surviving unquantified claim checks out against `corpus-stats.json` and stays true after Burr publishes. The post-publish chore from the first verification is genuinely closed.
+- **PROTECT-10 is the one judgment call.** The revision deleted the negation half ("He does not present it as an accusation") to clear a grade cap. I passed it: the synthesis's own Step 5 pass condition is the retained string, which is verbatim, and the protected function survives in the surrounding clauses. Flagged so a future pass treats what's left as load-bearing.
+
+One correction to the record in both prior artifacts: they report "no Wayback snapshot exists" for either YouTube citation. A 200 capture of `8NYGbY4Tmkc` does exist (2026-08-16), but I fetched it and it preserves no title, description or transcript — so P1-08's deferral still stands, on a different reason than the one given.
+
+Deterministic gates: `blog-lint.sh` 0 fail / 1 warn, body 4,429 of 4,500 (headroom up from 11 to 71 words). The gate script, not this prose, decides whether the pipeline finalizes.

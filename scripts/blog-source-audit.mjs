@@ -239,6 +239,14 @@ const OUTLETS = [
 	// Independent / creator-owned outlets that publish full transcripts (Hunter-Biden pass, 2026-07-25)
 	'Channel 5',
 	'Shawn Ryan Show',
+	// Same class: long-form interview shows that post dated, public, full-text
+	// transcripts, plus the streamers that are the publisher of record for a
+	// dated stand-up special (Bill-Burr pass, 2026-08-19). Without these, a
+	// quote pulled verbatim from a transcript or a special grades below a
+	// paraphrase in a trade write-up of the same quote.
+	'The Tim Ferriss Show',
+	'Hulu',
+	'Netflix',
 	// Checkable Chinese-language / China-coverage venues (Yang-Zhilin pass, 2026-07-23)
 	'Tencent Tech',
 	'Overseas Unicorn',

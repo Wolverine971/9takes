@@ -1,0 +1,23 @@
+## Grading Complete — Bill Burr
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Bill-Burr | 9 | 7 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(9×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability 9 — gate not triggered.
+
+### Key observations
+
+**The reporting is A-grade; the furniture is what's holding it at B.** The Riyadh section — his on-camera October 2025 account set against his own unprompted podcast account ten months later ("I had like fucking dry mouth for like the first 20 minutes") — is original work built from an asset no competitor has. The Philadelphia reframe inverts the canonical internet reading using his own Bertcast explanation. The source audit came back 7/7 inline, 0 vague, 0 untagged.
+
+**Two caps fired:**
+
+1. **Originality → 7 (cross-draft sameness).** Side-by-side against victoria-justice, Alexandr-Wang and Charlize-Theron, six of seven checklist moves are reused: the TL;DR bolded-label skeleton, the corpus-stat sentence with swapped numbers, the epigraph→cold-open→reframe-twist furniture, aphoristic-fragment closers, reader-command imperatives, and the return-to-the-wound closing with time arithmetic ("Fifty-four years after the driveway" ≈ Wang's "He came fourth" ≈ Theron's fifteen/fifty-one door).
+
+2. **Writing → 8 (contrast-pair engine).** `blog-quality-report` reports 0 contrast pairs and the draft's own ledger cites that as proof it's clean. It isn't — the piece runs negate-then-assert split across two sentences at least five times. The script only matches the single-sentence form, so the ledger's all-clear is a false negative worth knowing about beyond this draft.
+
+**Two smaller flags:** `Bill Burr MBTI` is in `keywords` but the editor pass cut all MBTI content from the body, so that query lands on nothing. And the two freshest exhibits (MMP 8-10-26, 8-17-26) cite YouTube URLs with no Wayback snapshot — traceable, so Evidence isn't capped, but unlistable by the subject.
+
+**Path to B+ is ~120 words of edits**, all furniture, none touching the reporting — detailed in `docs/content-analysis/grades/Bill-Burr.review.md`.
+
+**Total graded this session: 1**

@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Bill-Burr (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Bill-Burr.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-6 drafts by date):
+  - keira-knightley  (2026-08-17, 32 units)
+  - simone-biles  (2026-08-16, 42 units)
+  - noah-wyle  (2026-08-09, 57 units)
+  - samara-weaving  (2026-08-03, 29 units)
+  - Jack-Antonoff  (2026-07-30, 27 units)
+  - mila-kunis  (2026-07-29, 40 units)
+  - jensen-huang  (2026-07-28, 16 units)
+  - ninja  (2026-07-28, 43 units)
+
+Noise floor over 12298 unit pairs:  median=0  p90=0  p99=0.007  max=0.125
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.076   Bill-Burr  <->  mila-kunis
+   TARGET [diagnosis] Bill Burr is an Enneagram Type 6
+   OTHER  [diagnosis] Mila Kunis fits Enneagram Type 6
+
+
+Most similar drafts (max unit-pair score):
+  0.125 #####                simone-biles
+  0.085 ###                  ninja
+  0.076 ###                  mila-kunis
+  0.064 ###                  noah-wyle
+  0.059 ##                   samara-weaving
+  0.043 ##                   Jack-Antonoff
+  0.041 ##                   keira-knightley
+  0.037 #                    jensen-huang
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.125   Bill-Burr  <->  simone-biles
+   TARGET [counter-typing] What Type 6 does not fully explain.
+   OTHER  [diagnosis] A Type 6 does not doubt the evidence.
+
+score 0.085   Bill-Burr  <->  ninja
+   TARGET [diagnosis] " he told The Hollywood Reporter in 2022.
+   OTHER  [diagnosis] " he told the New York Times Magazine in January 2021.
+
+score 0.078   Bill-Burr  <->  ninja
+   TARGET [diagnosis] " he told The Tim Ferriss Show in 2017.
+   OTHER  [diagnosis] " he told the New York Times Magazine in January 2021.
+
+score 0.076   Bill-Burr  <->  mila-kunis
+   TARGET [diagnosis] Bill Burr is an Enneagram Type 6
+   OTHER  [diagnosis] Mila Kunis fits Enneagram Type 6
+
+score 0.064   Bill-Burr  <->  noah-wyle
+   TARGET [counter-typing] and Burr's life is a study in staying.
+   OTHER  [counter-typing] and Wyle's record keeps breaking that rule
+
+score 0.059   Bill-Burr  <->  samara-weaving
+   TARGET [counter-typing] It does not fully explain twelve unbroken minutes of offense against 10
+   OTHER  [counter-typing] It does not survive contact with her own material
+
+score 0.058   Bill-Burr  <->  noah-wyle
+   TARGET [counter-typing] and Burr's life is a study in staying.
+   OTHER  [counter-typing] and Wyle's giving runs toward institutions and groups
+
+score 0.057   Bill-Burr  <->  noah-wyle
+   TARGET [counter-typing] and Burr's life is a study in staying.
+   OTHER  [counter-typing] and Wyle's boldest moments arrive with sanction attached
+
+score 0.053   Bill-Burr  <->  noah-wyle
+   TARGET [diagnosis] Type 6 runs on managing fear
+   OTHER  [counter-typing] Sixes run phobic to counterphobic
+
+score 0.051   Bill-Burr  <->  noah-wyle
+   TARGET [diagnosis] The input is a man who says he learned to be funny so he would stop getting hit.
+   OTHER  [diagnosis] tempting as it is for a man who calls his show a love letter
+
+score 0.046   Bill-Burr  <->  noah-wyle
+   TARGET [counter-typing] Evidence that the fear talk is a bit.
+   OTHER  [counter-typing] evidence that the service record is publicity-managed (3).
+
+score 0.043   Bill-Burr  <->  Jack-Antonoff
+   TARGET [counter-typing] Evidence that the fear talk is a bit.
+   OTHER  [counter-typing] evidence that the safety language is aesthetic rather than lived.
+
+------------------------------------------------------------------------------
+Top pair scores 0.125 vs median 0  (~∞x the noise floor).

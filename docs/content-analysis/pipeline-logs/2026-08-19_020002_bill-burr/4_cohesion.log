@@ -1,0 +1,58 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Bill-Burr.md`
+
+**Before score: 7/10**
+**After score: 9/10**
+
+### Central Thesis
+Bill Burr's rage is the output of a Type 6 fear-management system, and every public detonation the internet reads as aggression is, in his own telling, protection.
+
+### Thread Map
+
+| Section | Contributes | Connects because |
+|---|---|---|
+| Cold open (driveway) | The wound, undated and concrete | Establishes the input the thesis names |
+| §1 Personality type | Diagnosis + three tellings + pressure test | Forward-announces §4, §5, §8 as the Type 8 exhibits |
+| §2 Became a comedian | The fear engineered the entry, not the ambition | "Came looking for cover" → how he built the runway |
+| §3 Canton childhood | Where the appeasement strategy was built | Ends on "going home" → the actual home |
+| §4 Philadelphia rant | Exhibit 1, reframed: rescue not conquest | First of the three loud things §1 promised |
+| §5 Riyadh, told twice | Exhibit 2 + the empathy turn | Same reflex, on camera vs off |
+| §6 Helicopter | The same wiring with no target present | The private half of the public detonations |
+| §7 Therapy | What he's doing about it; the vow | "Therapy arrived the same way the MRI did" |
+| §8 Billionaires | Exhibits 3 and 4: protection aimed outward | Public version of the §7 vow |
+| §9 Sorkin closer | The job, cast | "That is the job" echoes §7 |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 5/10 | 9/10 |
+| Internal Paragraph Flow | 7/10 | 9/10 |
+
+### Changes Made (11 total)
+
+**Transition fixes (3):**
+- **§3 → §4** *(was Weak — cartoon father to a 2006 tour date, no signal)*: added "The loudest thing that boy ever did runs against all of it." Carries "boy" forward, sets up "backwards."
+- **§5 → §6** *(was Broken — Riyadh ethics to helicopters)*: added "Philadelphia and Riyadh are the reflex with a target in the room. It also runs on nothing." This was the worst boundary in the piece: §6 is the only body section §1 doesn't forward-announce, and its organizing contrast ("a threat you can point at… the ambient kind is the one that gets you") only arrived in the section's *last* paragraph — so helicopter/money/MRI/Rousey read as four unrelated topics. The contrast now opens the section.
+- **§7 → §8** *(was Weak)*: added "The public version of that job does not read as protection," carrying "that job" from the "dies with me" pull quote into SNL.
+
+**Internal flow / logic fixes (4):**
+- §2: "What he found at the end of it was a room" implied the comedy club came *after* the age-37 plateau. It came at the start. Now "What he stayed for was the room."
+- §6: "He said so himself, unprompted" contradicted "Ferriss asked how he got into helicopters" two sentences up. Now "He volunteered that in one breath."
+- §1: "The corpus says something more useful than 'rare'" answered a claim the reader never saw. Replaced with the objection the stats actually rebut: comedians are supposed to be Sevens.
+- §1: cut the mechanical signpost "Now the pressure test, because…"
+
+**Cuts funding the additions (4)** — the file was at 4495/4500 words, so every bridge had to be paid for:
+- Intro: dropped the duplicated Broadway credit. Side benefit — the Monday Morning Podcast line now sits directly against "For nineteen years, more than a thousand episodes deep," which picks it up.
+- Intro: "first set on March 2, 1992" → "first set in 1992"; §2 tells that date as a scene.
+- §6: Bertolina credential trimmed (his 2025 Emmy nomination is already named in §1 via *Drop Dead Years*).
+- §7: "the mother of their two kids" repeated "after he became a father" one sentence earlier.
+
+### What Was Preserved
+All frontmatter, FAQs, ledgers, `<details>` blocks, pull-quotes, the scroll-table, all 5 internal links, and every element the fresh-eyes review marked as working (three-tellings structure, the Riyadh two-date table, "the counterattack arrives before the verdict does," the "son's name is Bill" beat, the Rousey half-point catch). §4→§5 left untouched — §1 forward-announces both and §5's own payoff closes the loop.
+
+### Verification
+`blog-lint`: **0 fail**, 2 warn (was 0 fail / 2 warn). Body 4500 words, exactly at ceiling. Comparative-contrast warnings dropped 2 → 1 as a side effect.
+
+### Remaining Concern
+§6's heading promises a helicopter; the section carries money, the MRI, Rousey, Mandalorian, Broadway and Bertolina. The new bridge plus the existing synthesis paragraph now hold it together, but it's still the widest section under the narrowest heading. Splitting it needs words the ceiling doesn't have — your call whether to buy them from elsewhere. Also note headroom is now **zero**: the next addition to this draft requires a matching cut.

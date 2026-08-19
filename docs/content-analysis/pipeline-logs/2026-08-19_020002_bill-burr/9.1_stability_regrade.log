@@ -1,0 +1,27 @@
+## Grading Complete — Bill Burr (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Bill-Burr | 9 | 9 | 9 | 9 | 8 | 9 | **8.9** | **B+** |
+
+`(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 62.0 / 7 = 8.9`. Discoverability 9 — no gate. Cap applied: `contrast_pair_engine`.
+
+This is the regrade half of a pair: `first_overall: 8.4` → `regrade_overall: 8.9`, delta 0.5. I re-tested both prior caps independently rather than taking the revision notes' word for it.
+
+### Key observations
+
+- **The sameness cap genuinely cleared.** Checked side-by-side against Alexandr-Wang, Keira-Knightley, and Charlize-Theron. The corpus-stat sentence is gone, both reader-command imperatives are gone (Alexandr-Wang still runs "Read that twice" and "Sit with that for a beat"), the return-to-the-wound arithmetic is gone, and the TL;DR labels are person-specific instead of the generic slot names the other two use. Only template-mandated furniture is shared.
+
+- **The contrast-pair cap did not clear, and the ledger undercounts it.** The Formula Fingerprint ledger claims 2 surviving negate-then-assert engines; hand count is 4–5. The ledger correctly caveats that `blog-quality-report`'s 0/0 only matches the single-sentence form — then undercounts the two-sentence form it was written to catch. Writing capped at 8 (would have been 8.5).
+
+- **One real evidence gap the source audit structurally cannot see.** The two Bertcast quotes carry the entire rescue-not-conquest thesis and are attributed as "Burr on Bert Kreischer's Bertcast" — no date, no Bertcast URL in `citations`. The audit reports 7/7 inline because that slot isn't one of the five tagged ones. Named in the sidecar as the top fix.
+
+- **What earns the B+:** the Riyadh two-tellings table (dated on-camera bravado vs. unprompted podcast dry-mouth, ten months apart) is original research and a form that collapses on any other subject. The Rousey "about a six and a half" gauge is a real signature detail. David Cross is quoted in full and the piece refuses to win the argument against him.
+
+- **What holds it under an A:** section 6 is eight items under one heading, and its stated thesis organizes about half of them. The billionaires section names the Type 6 mechanism instead of showing it, right after conceding the two episodes aren't equivalent.
+
+- **Flagged for you, not the pipeline:** the two MMP episodes backing the Riyadh ledger cite YouTube URLs on Burr's own channel with no Wayback snapshot. If those come down, the most original thing on the page becomes unverifiable.
+
+Files written: `src/blog/people/drafts/Bill-Burr.md` (frontmatter, YAML validated) and `docs/content-analysis/grades/Bill-Burr.review.md`. No legacy `QUALITY GRADE` blocks existed in the body.
+
+**Total graded this session: 1**

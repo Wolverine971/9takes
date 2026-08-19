@@ -1,0 +1,35 @@
+`lastmod` and `content_quality` are untouched (the pipeline strips and re-grades). Done.
+
+## What I revised and why
+
+**`src/blog/people/drafts/Bill-Burr.md`**, triggered by the grade sidecar (B / 8.4, caps `originality_cross_draft_sameness` + `contrast_pair_engine`). Lint was already clean at entry, and the perspective gate had already passed (`open_p0: 0`, `protected_hit_regressions: 0`), so this pass consumed the grader's feedback rather than the jury's.
+
+**Fixes applied** — all four TO REACH items, all word-negative:
+
+1. **Cut the corpus-stat sentence** entirely. The Type 7 objection survives unquantified. Bonus: this also closes the verifier's post-publish chore, since no printed figure or superlative can age once Burr makes the comedy set 33.
+2. **Negate-then-assert engine: 5 uses → 2**, clearing the `>2` threshold that capped Writing at 8.
+3. **Both reader-command imperatives gone** — "Read that as engineering" → "That is engineering"; "Watch the timing instead" deleted as redundant.
+4. **Closing shape varied** — the "N years after the wound" arithmetic (three drafts deep) and explicit driveway tag cut; it now ends on the Sorkin casting image, with the driveway still recalled a section earlier so the reader supplies it.
+
+Plus the MBTI keyword drop, and a one-word accuracy fix ("five months" → "nearly five months" into the George Floyd protests; May 26 → Oct 10 is ~4.5).
+
+**Two grader instructions collided with protected material, and I resolved both toward the protection:**
+
+- TO REACH #2 targets `"He does not present it as an accusation. He presents it as inheritance."` — that's **PROTECT-10**. I deleted only the negation half, because the synthesis pass condition is just `"He presents it as inheritance"` intact, and the fairness function is carried by the retained clause plus the quote after it.
+- The MBTI remedy offered "drop the keyword *or* add a Rabbit Hole note." I dropped the keyword — adding a note would have regressed **P0-09**, whose acceptance test is literally zero MBTI hits.
+
+I also **kept 2 of the 5 negate-then-assert pairs against the "kill three" instruction**: the PROTECT-09 pull-quote (the grader agrees it's the thesis) and the "A demographic inside a civil-rights movement is not a class of billionaires" concession — that one *is* the P0-08 repair, so cutting it would reopen a resolved P0.
+
+**Rejected:** the grader's sameness items 1 and 3 (TL;DR skeleton, epigraph→firstLetter cold open) are template-mandated and lint-*enforced* — they can't be varied at draft level without failing lint. That's a template concern worth raising separately. Item 4 (fragment closers) wasn't in TO REACH and its strongest instance sits on PROTECT-02.
+
+**Verification:** all ten protected hits confirmed intact by literal `grep -F`; the four resolved P0s my edits landed near re-checked for regression. Lint **0 fail**. Body 4,489 → 4,429 words, so headroom went from 11 to 71.
+
+**One thing needs you, not the pipeline:** P1-08 — the Riyadh dry-mouth and Rousey half-point exhibits, the page's two best artifacts, resolve only to YouTube URLs on a channel Burr controls, and Wayback CDX returns empty for both. Archiving is outward-facing so I left it. Two commands close it:
+
+```
+curl -sI "https://web.archive.org/save/https://www.youtube.com/watch?v=8NYGbY4Tmkc"
+curl -sI "https://web.archive.org/save/https://www.youtube.com/watch?v=yHKqkVqa9mc"
+```
+then add the snapshot URLs to `citations`.
+
+Resolution artifact written to `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/revision-resolution.md`. I did not declare the gate passed — `/blog_perspective_verify_people` must rerun against that directory, and the pipeline will clear the consumed review sidecar and re-grade.

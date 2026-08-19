@@ -1,0 +1,30 @@
+Polished `src/blog/people/drafts/Bill-Burr.md` in perspective-jury mode.
+
+**Exit gates:** `blog-lint` 0 fail / 1 warn (the warn is only "4487 words against a 4500 ceiling"). `blog-quality-report`: **0 contrast pairs, 0 strong, 0 comparative** — down from 1 comparative. `lastmod` untouched.
+
+## What the pass actually was
+
+Less prose polish than the command's usual shape. The synthesis's verdict was "the argument is right and the sourcing is not yet honest enough to carry it" — eleven separate places where the draft printed a source and stopped one clause before the subject bounded, defused or dated what the draft was building, all cutting the same direction. So the work was restoring words that already existed in cited sources, then paying for them.
+
+**All 11 P0s resolved.** Highlights: the Riyadh centerpiece now carries the framing it was omitting (Burr files that gig as "one of my top three gigs of all fucking time" three sentences from the dry-mouth line) and argues *through* it instead of around it; the load-bearing THR quote now prints the sentence where Burr scopes the condition to ages 23–37; the "empty threat" qualifier is back on the wall line, which was the one with a living person's reputation attached; §8 no longer asserts Burr's premise in the article's own voice.
+
+## Two research findings that inverted the brief
+
+- **P0-05 was wrong.** Both "disputed" strings verify verbatim in the NPR *full broadcast transcript* — the packet had only checked a shorter syndicated adaptation. Nothing was fabricated and "frigging" is correct as printed. The real defect was ordering: Burr leads with "he was a normal guy" as the frame, and the draft had him reaching for it defensively afterward. Fixed, transcript cited. I noted in the draft not to "correct" frigging→freaking later.
+- **RQ-03 upgraded the piece.** The *Drop Dead Years* soliloquy does carry a safety clause, and it's the stronger line: *"where's the place I have the least chance of being hurt?"* The weakest leg of the three-tellings structure now carries its own weight.
+
+RQ-05 and RQ-06 also resolved (Frank Murphy blockquote trimmed to the corroborated portion; the Cross quote's silently-elided "A boat? More sneakers?" restored — it's not a composite).
+
+## Word ceiling
+
+The body was at exactly 4500/4500 with ~80 words of mandatory additions coming. I took the synthesis's named funding cuts first, then trimmed the Rabbit Hole arrows, the TL;DR helicopter bullet (unfalsifiable as a skim item), and four AI-tell constructions — a negative-parallelism sentence in §4, a contrast-pair scaffold in §5, a statement-plus-restatement in the growth arrow, and a three-identical-sentences triplet in §9. **All ten protected hits verified by literal-string grep after every repair**; none was traded.
+
+## What I left for you
+
+**One thing needs your call:** P1-08 asked me to archive the two YouTube citations carrying the page's best material. No Wayback snapshot exists for either (CDX returns empty), so it can't be satisfied by adding a URL — it needs a save request to a third-party service, which is outward-facing and outside this command's approved operations. Two `curl` calls to `https://web.archive.org/save/<url>` close it. Until then the Riyadh dry-mouth exhibit and the Rousey catch are verifiable only through a channel Burr controls.
+
+Also open, neither blocking: RQ-01 (whether Charlie is a counsellor or a comms handler — the closer is now written to survive both, re-check 2026-10-16), and RQ-04 (only partially answered; the *same* MMP episode narrates fear about a gig in India, which supports the register framing I used, but settling whether it's a house register needs an MMP transcript grep and no corpus exists locally).
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/editor-resolution.md`
+
+**Readiness:** production-ready as far as this pass can take it. It does not need another substantive editorial pass. `/blog_perspective_verify_people` still has to check the result independently — I'm not claiming the perspective gate passed.
