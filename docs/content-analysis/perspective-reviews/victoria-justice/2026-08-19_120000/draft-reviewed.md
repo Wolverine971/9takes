@@ -4,12 +4,12 @@ meta_title: "Victoria Justice Enneagram Type 9: The Song She Didn't Want"
 persona_title: "Hollywood's Reluctant Headliner"
 description: 'Why did the lead of Victorious fade while her co-star Ariana Grande became a megastar? An Enneagram Type 9 look at Victoria Justice and her quiet self-erasure.'
 author: 'DJ Wayne'
-date: '2026-08-19'
+date: '2026-06-01'
 loc: 'https://9takes.com/personality-analysis/Victoria-Justice'
-lastmod: '2026-08-19'
+lastmod: '2026-06-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: '9'
 type: ['celebrity', 'movieStar', 'musician']
 person: 'Victoria-Justice'

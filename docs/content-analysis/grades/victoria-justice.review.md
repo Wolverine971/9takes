@@ -1,6 +1,7 @@
 # Grade feedback: Victoria Justice
 
 Grade: B+ (8.5), rubric v2 — regraded after the 2026-08-05 revision pass (was C/7.1 earlier the same day)
+Grade/regrade: first_overall 8.5 → regrade_overall 8.5 (stability delta 0.0). Both reads score the final revised reader-visible article; the earlier pre-revision 7.1 measured revision impact, not grade stability.
 Evidence: 8 | Originality: 8.5 | Discoverability: 9 | Enneagram: 8.5 | Writing: 8.5 | Hook: 9
 Anchor: Matt-Smith draft (B, 2026-06-28) | Caps: none | Needs review: false
 Source audit: 5 load-bearing quotes — 4 inline, 1 vague, **0 untagged**. Both blocker flags clear ("untagged quote in epigraph OR cold open: no"). The one vague slot is the epigraph, a social-media announcement dated May 2021 with no third-party outlet, which is honest attribution for a self-published primary source. Eleven distinct sources now carry the piece: Her Campus (2023), Marie Claire (May 2024), Forbes (Feb 2021), The Daily Beast (Apr 2021), E! News (Coachella 2023), People (2024), Us Weekly (2025), Mythical Kitchen *Last Meals* (2025), Billboard (2014 sales, Aug 2011 chart), Nick.com, Popstar! (2010).

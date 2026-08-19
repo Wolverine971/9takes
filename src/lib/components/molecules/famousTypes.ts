@@ -573,7 +573,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'steve-carell', link: true, hasImage: true, lastmod: '2026-04-14', personaTitle: 'Comedy\'s Invisible Lead', contentGrade: 9.1, types: ['celebrity', 'movieStar', 'comedian', 'screen-icon'] },
 		{ name: 'sundar-pichai', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Google\'s Quiet Shock Absorber', contentGrade: 8.8, types: ['techie', 'big-tech-founder'] },
 		{ name: 'travis-scott', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Hip-Hop\'s Quiet Architect', contentGrade: 9.3, types: ['musician', 'rapper'] },
-		{ name: 'victoria-justice', link: false, hasImage: true, lastmod: '2026-06-01', personaTitle: 'Hollywood\'s Reluctant Headliner', contentGrade: 8.5, types: ['celebrity', 'movieStar', 'musician'] },
+		{ name: 'victoria-justice', link: true, hasImage: true, lastmod: '2026-08-19', personaTitle: 'Hollywood\'s Reluctant Headliner', contentGrade: 8.5, types: ['celebrity', 'movieStar', 'musician'] },
 		{ name: 'zac-efron', link: false, hasImage: true, lastmod: '2026-07-02', personaTitle: 'Hollywood\'s Gentle Escape Artist', contentGrade: 8.3, types: ['movieStar', 'celebrity'] }
 	]
 };
