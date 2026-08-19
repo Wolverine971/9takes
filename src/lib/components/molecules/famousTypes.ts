@@ -371,6 +371,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'volodymyr-zelensky', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'zendaya', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'The Star Who Builds the Exit First', contentGrade: 8.4, types: ['newMovieStar', 'movieStar', 'rising-star'] },
 		{ name: 'zooey-deschanel', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Indie\'s Vigilant Romantic', contentGrade: 8.9, types: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover'] },
+		{ name: 'bill-burr', link: false, hasImage: false, lastmod: '2026-08-19', personaTitle: 'Comedy\'s Loudest Sentry', contentGrade: 8.9, types: ['comedian', 'celebrity', 'creator'] },
 		{ name: 'simone-biles', link: false, hasImage: false, lastmod: '2026-08-16', personaTitle: 'Gymnastics\'s Vigilant Sentinel', contentGrade: 8.6, types: ['celebrity', 'athlete', 'celebrity-image'] }
 	],
 	7: [

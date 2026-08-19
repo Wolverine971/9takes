@@ -4,12 +4,12 @@ meta_title: 'Why James Clear Turns Perfectionism Into Systems'
 persona_title: "Self-Help's Quiet Perfectionist"
 description: "Why does the man who preaches 1% better demand 100% of himself? Inside James Clear's perfectionism, near-death injury, and the psychology of Atomic Habits."
 author: 'DJ Wayne'
-date: '2026-04-06'
+date: '2026-08-19'
 loc: 'https://9takes.com/personality-analysis/james-clear'
-lastmod: '2026-04-06'
+lastmod: '2026-08-19'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['author', 'entrepreneur', 'business-operator']
 person: 'james-clear'
