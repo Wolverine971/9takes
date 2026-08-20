@@ -144,7 +144,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'leila-hormozi', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Business\'s Worthiness Machine', contentGrade: 8.6, types: ['business', 'business-operator'] },
 		{ name: 'logan-paul', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'The Redemption Entrepreneur', contentGrade: 8, types: ['creator', 'viral-entertainer'] },
 		{ name: 'madonna', link: false, hasImage: true, lastmod: '2026-07-18', personaTitle: 'Pop\'s Permanent Audition', contentGrade: null, types: ['musician'] },
-		{ name: 'margaret-qualley', link: false, hasImage: true, lastmod: '2026-07-23', personaTitle: 'Hollywood\'s Straight-A Wreck', contentGrade: 8.9, types: ['movieStar', 'newMovieStar'] },
+		{ name: 'margaret-qualley', link: true, hasImage: true, lastmod: '2026-08-20', personaTitle: 'Hollywood\'s Straight-A Wreck', contentGrade: 8.9, types: ['movieStar', 'newMovieStar'] },
 		{ name: 'marie-kondo', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['lifestyleInfluencer'] },
 		{ name: 'matt-rife', link: true, hasImage: true, lastmod: '2026-04-27', personaTitle: 'Comedy\'s Grief-Powered Charmer', contentGrade: 9.1, types: ['comedian'] },
 		{ name: 'mel-robbins', link: false, hasImage: true, lastmod: '2026-08-12', personaTitle: 'Self-Help\'s Rock-Bottom Star', contentGrade: null, types: ['author', 'creator', 'entrepreneur'] },

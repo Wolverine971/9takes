@@ -2,12 +2,15 @@
 
 # Grade feedback: Margaret Qualley
 
-Grade: B+ (8.9), rubric v2 — REGRADE after revision pass (first grade C 7.9, delta +1.0)
+Grade: B+ (8.9), rubric v2 — final release regrade after the revision and trim passes
+Grade/regrade: first_overall 8.9 → regrade_overall 8.9 (stability delta 0.0). Both reads score the same final reader-visible article; the earlier 7.9 measured the effect of a sourcing revision and is not a stability comparison.
 Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 8 | Hook: 9
 Anchor: Matt-Smith draft (2026-06-28), B band — this scores above it on Evidence and Discoverability | Caps: none | Needs review: false
 Source audit: 6 load-bearing quotes — 5 inline, 1 vague, 0 untagged. The vague slot is the cold-open "It was eight days. I know that doesn't seem like a lot." (recoverable from the LA Times attribution one paragraph up plus "that same interview"). Outside the audit's slot map, three further gaps: (1) "not losing my mind" — load-bearing (TL;DR bullet 5 + FAQ answer 1) but its section carries no outlet tag; recoverable only by inferring the Collider Substance roundtable named two sections earlier. (2) "reached an estimated 67 million households, and passed The Queen's Gambit" — a headline metric with no inline publisher (Deadline 2021-10 sits in FACT-CHECK STATUS but never reaches the reader). (3) "The suit wrecked her skin badly enough that by the end of production they could no longer shoot her face... It took roughly a year to physically recover" — asserted flat, no source anywhere in the ledgers. Also unsourced but low-stakes: the Center Stage / dance teacher's minivan detail.
 Interior line: "Say it cheerfully. Say it like it's nothing. Get to the door before anyone reads your face. This is the one thing in the building you are supposed to already be able to do."
 Empathy turn: "She learned at a ballet school that an assessment of her was coming regardless, and she would rather deliver the bad news herself than wait for the letter."
+
+RELEASE RECHECK (2026-08-20): The final article remains B+ (8.9). The three residual source gaps above are resolved: the Collider roundtable is named inline, Deadline is named on the 67-million-households metric, and the unsupported skin-recovery paragraph is removed. The article was trimmed from 4,767 to 4,374 words without changing its thesis, protected evidence, or section structure. Lint now passes with one thin-headroom warning; source audit remains 5 inline / 1 recoverable vague / 0 untagged; contrast-pair count remains zero. Paramount's June 11, 2027 release date for <em>Possession</em> was added from Variety's August 2026 report.
 
 Deterministic checks: contrast pairs 0 strong / 0 comparative; head-term PASS; answer block 48 words (≤60); same-type similarity CLEAR (max unit-pair 0.111 vs madonna, and that pair is the trivial phrase "the 4 wing"). Cross-draft sameness vs the three most recently graded drafts (Yang-Zhilin, Kacey-Musgraves, Travis-Kelce): shared house furniture only — epigraph → `firstLetter` cold open, bold-label TL;DR bullets, return-to-the-opening-image close. No near-verbatim reuse, no literal "The tell:" bullet, no corpus-stat sentence, no "not X, it was armor/scar tissue" empathy grammar. Below the 3-move cap threshold.
 

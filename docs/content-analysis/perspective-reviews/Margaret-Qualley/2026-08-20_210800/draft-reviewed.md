@@ -4,12 +4,12 @@ meta_title: 'Margaret Qualley Enneagram Type 3: Why She Breaks at Dance'
 persona_title: "Hollywood's Straight-A Wreck"
 description: 'Margaret Qualley survived eight days of panic attacks in a prosthetic suit, then fell apart in a dance class. A sourced Enneagram Type 3w4 analysis.'
 author: 'DJ Wayne'
-date: '2026-08-20'
+date: '2026-07-23'
 loc: 'https://9takes.com/personality-analysis/margaret-qualley'
-lastmod: '2026-08-20'
+lastmod: '2026-07-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: '3'
 type: ['movieStar', 'newMovieStar']
 person: 'margaret-qualley'
