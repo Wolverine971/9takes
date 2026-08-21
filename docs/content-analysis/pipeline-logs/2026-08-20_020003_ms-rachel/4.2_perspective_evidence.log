@@ -1,0 +1,17 @@
+All ten required H2 headings present in order, frontmatter parseable, and both the frozen snapshot and live draft still hash to the original SHA — nothing was edited.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/evidence-packet.md`
+
+32 claims inventoried (CLM-01…CLM-32) against 36 external sources plus the two reused repo artifacts. I reused the existing research file and entity-gap packet rather than re-deriving them, and went to the web only for gaps — with special attention to post-cutoff events (the March 2026 Emmy loss and June 2026 Capitol Hill visit), which rest entirely on retrieved sources.
+
+**Largest unresolved evidence gap: CLM-01, the four seconds.** No source establishes that Ms. Rachel waits four seconds, or any specific interval. The SLP literature describes a 3–5 second expectant pause as a general professional practice, and ASHA's guidance — which I verified verbatim — specifies no duration at all. The number carries the title, meta title, description, opening image, an entire second-by-second H2, the TL;DR, and the close, and the draft's own ledger names that timed section as its bespoke non-transplantable form. Settling it requires timing her videos directly, which this packet did not do.
+
+Other findings worth flagging to whoever routes the next stage:
+
+- **Two claims are contradicted, not just unverified.** The rabbit hole says she "testifies to legislators" — she visited ~10 Senate offices and delivered packets; no testimony occurred. And it has her wearing a dress printed with drawings from an exhibition that opened two months *after* the award ceremony (the gown was also embroidered, not printed).
+- **The Bondi referral date looks wrong.** Draft, research file, and Wikipedia all say May 2025; contemporaneous reporting points to early April. That's the paragraph carrying the entire type diagnosis.
+- **The designated critic anchor is the weakest-sourced thing in the piece.** The Sannes quote traces only to a third-party TikTok repost, and Sannes says elsewhere she doesn't consider herself a screen-time expert.
+- **A real omission with a dated arc consequence:** the Nov 30, 2025 "Antisemite of the Year" shortlist and her December response (threats, security, business-partner pressure). It's absent from a section that presents itself as an escalation arc — and her "it isn't who I am" line from January 2026 is arguably stronger evidence *for* the Type 2 hypothesis than what the draft actually uses.
+- **Things that checked out clean**, so no one re-litigates them: the Hafeez screen-time caveat is a genuine verbatim quotation (not author prose), the ASHA pause guidance is exact, the THR quotes are verbatim, the collaboration-refusal claim is verified, and the sibling/net-worth/Thomas-2018 do-not-assert rules are all correctly observed.
+
+One structural note the packet records but takes no position on: this draft exists against its own pipeline's PASS/35 entity-gap verdict, which said that if overridden, the piece must run as an essay on the contradiction rather than a biography. Evaluators should know that going in.

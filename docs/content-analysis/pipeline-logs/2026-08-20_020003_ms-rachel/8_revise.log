@@ -1,0 +1,17 @@
+Done. **`src/blog/people/drafts/Ms-Rachel.md`** — 35 lint checks pass, 0 fail.
+
+**Triggered by:** grade B (8.2), capped on `originality_cross_draft_sameness`; one lint FAIL (5,001 words vs 4,500 ceiling); perspective review at `2026-08-20_020003`, whose verification came back `pass` with 0 open P0s and 0 protected regressions — so the perspective work list was its six *Remaining work* items, not blockers.
+
+**Fixed**
+
+- **Word ceiling → 4,494.** No PROTECT-listed material deleted; all 14 protected hits and all 31 enumerated P0/P1 repair strings verified present by exact string match after the cut. The grader's plan (~250 from Gaza, ~100 from the Rabbit Hole) only reaches ~4,650 — the rest came from redundancy nobody had costed: the epigraph repeated the diagnosis quote verbatim (creator v2 says quotes appear once), the intro retold the Cameo beat in miniature, the intro's NYU clause restated the childhood section, and the Mister Rogers wading-pool beat restated the paragraph above it.
+- **Sameness, 3 of 4 moves varied** (the TO REACH B+ requirement): all reader-command imperatives cut including a fourth the grade missed ("Watch any episode and", inside PROTECT-07); epigraph gone; all six TL;DR labels rewritten as sentences.
+- **Two metronomic closers** replaced with ordinary endings — the only two on the grader's list of eight that aren't PROTECT-listed or explicit P1 keeps.
+- **Testimony:** Tareq Hailat landed in the founding section where Aron was the only witness; ledger re-enumerated to the three quotes actually in the body (Hafeez's row quoted a line the body doesn't use).
+- **Sourcing:** the 20.2M subscriber figure traced only to Wikipedia, so it's re-based on THR November 2025 (17.5M) with the Netflix superlative attributed to Netflix; Capitol Hill figures attributed to the Post; **the December 2025 statement is now quoted and dated Dec 8** rather than paraphrased, which puts the Rabbit Hole's stress-arrow argument on quoted text; inaugural committee given an outlet and date (ABC7 NY, Dec 24 2025).
+
+**Rejected:** TO REACH A #6, "break the closer's shape." That mirrored sentence *is* PROTECT-09, nominated by three perspectives and verified intact one pass ago — and TO REACH B+ only asks for three of the four sameness moves, which the other three supply.
+
+One thing worth flagging: mid-pass I removed the intro's three-to-five-second attribution as a duplication, which quietly unmoored "One second. Two. Three." from the sentence that keeps it from reading as a measurement of her pause. Caught and reverted, funded from throat-clearing elsewhere.
+
+Resolution artifact at `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/revision-resolution.md`; the pipeline will clear the consumed sidecar and re-grade, and **targeted perspective verification must rerun** — the length cut and the Dec 8 quotation are exactly what the prior verification said would require one.

@@ -1,0 +1,23 @@
+## Grading Complete — Ms. Rachel
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Ms-Rachel | 7 | 8 | 9 | 8 | 8 | 9 | **8.1** | **B** |
+
+`(7×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 8.1`. Discoverability 9, so no gate. Anchor: Matt-Smith.
+
+### Key observations
+
+**Discoverability is the standout (9).** Title/meta_title/description all in range and search-matched, five substantive FAQs an answer engine could lift whole, 7 of 9 H2s search-intent or hybrid (including "why is Ms. Rachel annoying" and "Ms. Rachel controversy"), complete entity metadata, extractable type answer. This is the strongest AEO frontmatter I've graded recently.
+
+**Evidence is what holds it at B (7).** The source-audit script reports 4/4 inline and clean — but it only scans five slots, and four load-bearing items sit outside them untagged. The worst: after the editor pass killed the unsourced "four seconds," the entire signature section was rebuilt on a 3–5 second expectant-pause window and a fifth-of-a-second turn-taking gap, and **neither number has a publisher**. ASHA is named in that section but for a different claim. Also untagged: `"I had waited for that for so long," she said`, the first assertion of the 32-month figure, and the April 2025 Bondi referral.
+
+**Sameness cap not applied** (the prior grade's cap was `originality_cross_draft_sameness`). Three shape-level moves are still shared with the last three graded drafts — aphoristic section closers, one surviving reader-command imperative, return-to-the-opening-image close — but none is near-verbatim, and the revision genuinely varied the three strongest markers (TL;DR bullets rewritten as sentences instead of the shared `<b>Label:</b>` skeleton, epigraph cut, no corpus-stat sentence).
+
+**One stale-ledger flag:** the revision notes claim all reader-command imperatives were cut. "Hold that against the pause." survives at line 276.
+
+**`needs_review: true`** — not a quality flag. The controversies section characterizes a live legal/political accusation against a living person, and two things want a human read before publish: "no investigation has been reported opened in the sixteen months since" is a claim about an absence, and the December 8 statement is quoted via Middle East Eye relaying an Instagram post the pipeline never retrieved. Separately, three of the best quotes come from a Washington Post piece that 403'd twice and was never read directly.
+
+Frontmatter block added; feedback written to `docs/content-analysis/grades/Ms-Rachel.review.md` with concrete B+ (four fixes, ~40 words, pull from the Gaza chronicle) and A paths.
+
+**Total graded this session: 1**

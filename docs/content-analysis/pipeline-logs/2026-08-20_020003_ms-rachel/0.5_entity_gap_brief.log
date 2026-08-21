@@ -1,0 +1,30 @@
+## Ms. Rachel — 35/100 — PASS
+
+Packet saved to `docs/content-analysis/entity-gaps/Ms-Rachel.md`. No blog, queue, or DB rows touched.
+
+**She's the inverse of the Jordi Hays pattern.** Demand is high and source depth is excellent — she'd score well on almost every dimension a normal scout checks. She fails on the one that defines an entity gap: there's nothing to be first at.
+
+| Dimension | Score |
+|---|---:|
+| Demand trajectory | 11/20 |
+| **Exact-name SERP weakness** | **3/25** |
+| Biography-intent breadth | 13/15 |
+| Source depth | 14/15 |
+| 9takes angle / niche fit | 7/10 |
+| Timing / index advantage | 2/10 |
+| Entity clarity | 5/5 |
+| Penalty: personal Wikipedia + authoritative bios | −20 |
+| **Total** | **35** |
+
+**What kills it:** a personal Wikipedia article with ~48 references, plus msrachel.com, Netflix, YouTube, Amazon's brand store, Penguin Random House, PBS, IMDb — and non-overlapping feature profiles from Hollywood Reporter (business), TODAY + PureWow (personal life), Democracy Now! + WBUR (activism), and National Catholic Reporter (faith). Every valuable slice is occupied. 9takes has zero local signal too: no `ms rachel` query in any GSC export through 08-13, and no kid-media or parenting cluster in the 420-person corpus to anchor her to.
+
+**The trap I'd flag specifically:** her `parents`/`background` SERP genuinely *is* weak — first page is AI slop (`biographyhive`, `celebicity`, `networthexplore`) that contradicts itself on her siblings. That's the most tempting-looking gap in the audit and it's the one we're forbidden to chase. Winning it means becoming the fact farm.
+
+**Two things worth keeping even on a pass:**
+
+1. **A factual landmine for any future pipeline run.** Content farms widely print "son Thomas born 2023." That's false — Thomas was born March 2018, and his speech delay is what motivated the 2019 channel launch. The daughter, Susannah, arrived April 2025 via surrogate (NBC News). Her parents/siblings are genuinely unestablished; don't assert.
+2. **A real contradiction, if the essay lane ever opens.** The woman whose whole brand is unconditional gentleness became one of the internet's most polarizing figures precisely by refusing to make that gentleness conditional — the Gaza advocacy isn't a departure from Songs for Littles, it's the same premise without a border. That's a legitimate pop-culture essay premise. It is not a biography-of-record play, and it shouldn't be measured on `ms rachel` impressions.
+
+I marked this **permanently closed for the entity-gap lane** — no re-audit trigger. Another Emmy or Netflix season won't move the SERP-weakness score; only Wikipedia disappearing would, and it won't.
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Ms._Rachel), [Hollywood Reporter](https://www.hollywoodreporter.com/tv/tv-news/inside-ms-rachel-studio-youtube-tv-kids-1236414213/), [NBC News](https://www.nbcnews.com/pop-culture/pop-culture-news/ms-rachel-welcomes-second-child-baby-girl-rcna200230), [Democracy Now!](https://www.democracynow.org/2025/8/13/ms_rachel), [WBUR](https://www.wbur.org/hereandnow/2025/06/03/ms-rachel-gaza), [National Catholic Reporter](https://www.ncronline.org/culture/unshakable-faith-ms-rachel), [TODAY](https://www.today.com/parents/toddlers/ms-rachel-husband-aron-accurso-rcna167768), [PureWow](https://www.purewow.com/family/is-ms-rachel-good-for-kids), [THR Emmy noms](https://www.hollywoodreporter.com/tv/tv-news/2026-childrens-family-emmy-awards-nominations-1236430568/)

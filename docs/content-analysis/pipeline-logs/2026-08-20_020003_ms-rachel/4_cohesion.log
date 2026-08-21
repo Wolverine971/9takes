@@ -1,0 +1,60 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Ms-Rachel.md`
+
+**Before score: 7/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Ms. Rachel turned a personality structure into a production technique — she gives every child on earth four seconds of unconditional, undivided attention, and she has no mechanism for extending that same patience to herself.
+
+### Thread Map
+
+| # | Section | Contribution | → next because |
+|---|---------|--------------|----------------|
+| — | Intro | The pause is the product; Thomas waited 32 months | states thesis, then dissects it |
+| 1 | Why She Waits Four Seconds | Times the method second by second, ends on "posture of her personality" | hands "personality" to the diagnosis |
+| 2 | What is her personality type? | Type 2 proved by *how she answers a money accusation* (with her heart) | the surplus needs an origin |
+| 3 | Maine Childhood / Trolley | A girl who blocked a TV to stop attention from ending | she then spent 20 years on the other side of that transaction |
+| 4 | Built Songs for Littles | The channel is the 32-month wait, industrialized; ends losing her voice | that voice is what adults hate |
+| 5 | Why Parents Find Her Unbearable | The mocked singsong is a register held into silence; Sannes conceded | that's the method critique; the loud fights weren't |
+| 6 | Controversies: Jules, Pride, Gaza | Escalation arc + the audience-side thesis | ends on her wanting time to vindicate her |
+| 7 | The Apology She Owed No One | Taking time for herself registers as a debt | so does a night that was actually hers |
+| 8 | Emmy Loss / Capitol Hill | Loses to Sesame Street, answers with someone else's children | closing callback |
+| 9 | Nobody Is Holding the Trolley | She built the show that never ends; nobody holds it for her | lands the thesis |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 8/10 | 8/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 6/10 | 9/10 |
+| Internal Paragraph Flow | 8/10 | 9/10 |
+
+### Changes Made (10 total)
+
+**Transition Fixes (5):**
+- **Diagnosis → Childhood** was broken (a rabbit-hole pointer, then a hard cut to Maine geography). Added `The surplus has a start date.` — carries the keyword from the paragraph above ("A surplus. Something extra they happen to carry") and frames the geography as setup for the trolley.
+- **Founding → Unbearable** was weak, and the keyword was sitting right there unused. The section ends on "She lost her voice. The instrument the entire enterprise runs on." Added `Millions of parents hear that instrument every morning.` The section's own reveal ("It is about the voice") still lands intact.
+- **Unbearable → Controversies** was broken by an orphan pronoun: the section opened "The first one had nothing to do with a war" with no antecedent in prose. Added `The fights that actually blew up were not about her method.` — gives "The first one" something to refer to and pivots from method-criticism to allegiance-criticism without softening the Sannes concession.
+- **Controversies → Apology** was broken. Section 6 ends on "I think, in time, what I'm doing won't seem as controversial." Added `Time is what she gives everyone else.` — carries "time" and sets up the permission problem the section argues.
+- **Apology → Emmy** was broken (permission problem → awards ceremony, no connection). Added `The industry did eventually give her a night of her own.` — makes the Emmy loss read as a continuation of the debt thread rather than a stapled-on news beat.
+
+**Reader Mental Model Fixes (2):**
+- **False transition.** "By the following summer she was losing two different constituencies" sat after a February 2023 anchor but introduced May–June **2024** events. Changed to `By the summer of 2024`.
+- **Contradicting numbers.** Intro says "20 million subscribers"; the founding section said "20.2 million." Dropped the second instance (the intro already established it, and both facts around it are new).
+
+**Internal Flow Fixes (3) — all self-spoilers:**
+- Intro's Cameo teaser ended "and she recorded until her voice gave out," pre-empting the founding section's climax ("She lost her voice"). Cut the payoff, kept the setup.
+- "Both Accursos came up through the BMI workshop, *which makes the division of labor between them genuinely surprising*" announced a surprise the section then delivers two paragraphs later ("Everyone assumes the woman doing a forty-minute take is the control freak"). Cut the announcement; the reversal lands harder.
+- Childhood section's sourcing hedge ended with "so the honest answer is that her family is not publicly established" — the same article-narrating-its-own-methodology pattern the second pass cut four instances of. Trimmed to the hedge itself; the "single mother" attribution to local Maine reporting is untouched.
+
+### What Was Preserved
+- All frontmatter, all four ledgers, both pass-notes blocks, the source-card div, the rabbit-hole accordion, the TL;DR, `<p class="inner-thought">`, `<p class="firstLetter">`, all 5 internal links.
+- The protected beats: the StopAntisemitism sequence, "Asked about money, she talks about her heart," the timed pause section, the Sannes/Hafeez concession, the Aron ships-it reversal.
+- Boundaries left alone (already working): intro → pause, pause → diagnosis, childhood → founding, Emmy → closing.
+
+**Lint:** 0 fail, 2 warn (both pre-existing: empty `faqs`, thin word headroom). Body is **4487 words**, one under where it started, so the 4500 ceiling still holds.
+
+### Remaining Concerns (your call)
+1. **The Cameo marathon is still told twice.** I removed the duplicated payoff, but "500 personalized videos at $100" appears verbatim in both the intro and the founding section. ~1,500 words apart, so it may be a deliberate restatement. Cutting the numbers from one would buy back ~8 words of headroom.
+2. **The business anomaly is raised in the body and resolved only in the accordion.** "Somebody in that building is very good at saying no. Nothing on the record establishes that it is her" is a live question the body never returns to; the rabbit hole answers it, but most readers won't open it. That's a genuine orphaned thread — either let the body concede it in a clause, or accept that the TL;DR promise ("the thing the type does not explain") is redeemed only for the nerds.
+3. **Chronology takes one bump at section 5.** The piece runs 2019→2024 (founding), then jumps to present-tense adult complaint, then back to Feb 2023 (Jules). It works because the complaint section is timeless, but a date-tracking reader feels it. Fixable only by reordering, which is a bigger call than a cohesion pass should make.

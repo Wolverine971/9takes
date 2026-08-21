@@ -1,0 +1,23 @@
+## Grading Complete — Ms. Rachel
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Ms-Rachel | 8 | 7 | 9 | 9 | 8 | 9 | 8.2 | B |
+
+Weighted: `(8×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.2`. Discoverability is 9, so no gate. One cap applied: `originality_cross_draft_sameness`.
+
+### Key observations
+
+**This is a strong draft held down by one thing.** Uncapped, Originality scores a 9 — the trolley (a small girl planting herself against the TV glass to stop Mister Rogers' trolley from leaving, inverted at the close into "she is still standing in front of the glass with her arms out, she is just on the other side of it") is a real signature detail that passes the swap test outright, and the audience-side thesis ("they had mistaken a disposition for a relationship") is something Wikipedia and THR structurally cannot say. The cap costs it two points and the letter grade.
+
+**The cross-draft sameness check tripped on four moves**, read against Alexandr-Wang (08-18), Bill-Burr (08-19), Keira-Knightley (08-17): reader-command imperatives ("Sit with the mechanics of that" vs. Wang's "Sit with that for a beat" — plus two more in this draft alone), the epigraph→cold-open furniture, the bolded-label TL;DR bullet skeleton, and the two-sentence return-to-the-wound close. Threshold is 3+; this hit 4. Note that the *automated* same-type scan came back clear (top 0.040 vs Benny-Blanco, at threshold) — the formula here is cross-**batch**, not cross-type, so the script can't see it.
+
+**Two findings the ledgers hid:**
+- The TESTIMONY LEDGER asserts 5 third-party quotes; only Aron Accurso's is actually in the body. Dobrow, Hailat ×2, and one Hafeez line are absent. That's the real evidence gap — a profile arguing "the care is real" has exactly one witness on the record, and the two quotes that would fix it (Hailat: "She is in real life as she is on screen") are already sitting in the ledger.
+- Editor notes flag the 5,001-word body as "the pass's one open decision." It's still open — the only lint failure. The sag is the controversies section, which stacks eight dated beats into a chronicle.
+
+**What's genuinely excellent:** the empathy turn is the cleanest in recent batches and uses none of the house `not X, it was armor` grammar, the AAP objection is put against the pause specifically and answered rather than dodged, and the rabbit hole holds all 803 words of wing/subtype/arrow depth with zero counter-typing ladders leaking into the body. Source audit is 5/5 inline, 0 vague, 0 untagged.
+
+Sidecar written to `docs/content-analysis/grades/Ms-Rachel.review.md` with concrete B+ and A paths.
+
+**Total graded this session: 1**

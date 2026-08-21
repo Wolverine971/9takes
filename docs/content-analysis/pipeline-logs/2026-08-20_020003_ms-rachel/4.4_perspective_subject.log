@@ -1,0 +1,15 @@
+Saved: `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/subject.md`
+
+**Verdict:** trust `strained`, value `useful`, delight `clear_hit`, recommendation `hold_for_research` — **5 blockers, 10 concerns**. Draft SHA verified against `context.json` before and after.
+
+**Strongest hit:** "Somebody in that building is very good at saying no. Nothing on the record establishes that it is her." The piece states an inference, marks it as one, and refuses to fill the gap — and the rabbit hole repeats the discipline ("plausible and unsourced"). That restraint, plus the two-decades-before-the-platform paragraph, is why the profile reads as honest rather than as prosecution.
+
+**Highest-priority concern (blocker SUBJECT-R2):** the draft says identity assertion is "the only [defense] she seems able to reach for," while omitting the one documented occasion she reached for a different one — her ~Dec 4, 2025 Instagram statement arguing her accusers acted "with no evidence" and describing threats, security, and pressure on business partners. The omission both overstates the diagnosis and drops her only on-record account of what the ordeal cost.
+
+Two findings came from research rather than the packet:
+- **SUBJECT-R1** — her Threads post of **July 31, 2025**, verified verbatim: *"I can't accept the Mister Rogers comparison because he's my hero and a saint to me."* The draft's `persona_title` is "Toddlerhood's Patient Saint," and it quotes the very sentence in which she declines the label, repurposed as a garnish on the Emmy loss. Cheap fix, high value.
+- **SUBJECT-C10** — that same post links the WaPo profile, so it was live by July 31; the draft's source card says August 8, 2025. That closes the packet's open dispute §D-05.
+
+I also cleared one candidate blocker: naming her son Thomas, his age, and the speech delay is within her own public disclosure (TODAY, People), so the draft is fine there.
+
+`hold_for_research` rather than `revise` because the four-second interval (title, meta title, description, an entire H2, the close) is unsourced and becomes the base for a claim about her self-denial — resolving it honestly means timing a stated sample of episodes, a short well-defined task, not open-ended research. Two other repairs need primaries pulled (her December 2025 post; NCR directly, which 403'd twice).

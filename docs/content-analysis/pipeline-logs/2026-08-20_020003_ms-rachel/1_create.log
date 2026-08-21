@@ -1,0 +1,30 @@
+Draft complete and saved. All hard gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Ms-Rachel.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (5 qualifying quotes) | Gate 2: pass (6 of 8 H2s search-intent/hybrid) | Gate 3: pass (no self-loop) | Gate 4: pass | Gate 5: pass (2 type-theory paragraphs, limit 4) | Gate 6: pass]
+LIMITATIONS: THR, WaPo, and NCR blocked by paywall/403 — quotes taken from Yahoo syndication of the same articles; Zeteo and PBS NewsHour not retrieved; no cast-member testimony located
+```
+
+**The call:** Enneagram Type 2, 2w1, so/sx — confidence high.
+
+**Tiebreaker that decided it:** StopAntisemitism asked the Attorney General to investigate whether she was funded by Hamas. That's a financial accusation with a paper trail. She answered it — in interview after interview — with *"I know who I am."* She answers factual accusations with identity claims, every time. Type 1 was the strongest alternative and it dies on her husband's own record: Aron Accurso says *he's* the perfectionist and Rachel is the one who ships imperfect work.
+
+**Core tension:** "I'll wait for you" vs. "I can't stop." Her signature move is a four-second on-camera silence. Off camera she recorded 500 Cameo videos until she lost her voice — because friends told her to keep them short and she couldn't stand a child opening a short one.
+
+**Best find:** *"I grew up loving Mr. Rogers, and I used to go up to the TV and try and block the trolley from leaving because I didn't want the show to end."* A small girl putting her body between a television and a departing trolley. That's the childhood→adult thread, it's fully sourced, and it closes the piece.
+
+**Three things worth your attention:**
+
+1. **I overrode the entity-gap PASS.** The packet scored her 35/100 and recommended not commissioning. `run-blog-pipeline.sh:467` explicitly says the packet is advisory, not a gate — so I wrote it and used the packet as research scaffolding instead. Its factual landmine warning paid off: content farms print "son Thomas born 2023," which is false (March 2018), and I'd have inherited that error.
+
+2. **I inverted the packet's head-term guidance.** The packet says `ms rachel` exact-name traffic is unwinnable — Wikipedia, Netflix, THR, and TODAY own every slice. So rather than adding a `head_term_exception`, I put the Enneagram head term *in* the meta_title, because `ms rachel enneagram` is the query 9takes can actually win. No exception field added.
+
+3. **Type 2 anchor for the IG type-pond gap.** The queue flagged her as a likely Type 2 anchor and the analysis independently landed there — so this fills one of the two missing type-pond anchors. `mr-rogers` is already published as a Type 2, which gave the piece its strongest internal cross-link.
+
+One honest anomaly I flagged rather than smoothed over, in the draft and the research file: Type 2s are characteristically bad at boundaries and monetization, and she built a hard-edged commercial operation (CAA, Netflix, toys, Penguin). The obvious explanation — Aron and CAA supply the boundary function — is plausible but unsourced, so I left it on the table.
+
+Next stage in the pipeline is `/blog_content_fresh_eyes_people`. No grade emitted; that's `/grade_blog`'s job.

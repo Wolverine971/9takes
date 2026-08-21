@@ -449,7 +449,19 @@ const OUTLETS = [
 	// podcasts grades untagged no matter how precisely it is cited.
 	'This Past Weekend',
 	'Core Memory',
-	'Rest of World'
+	'Rest of World',
+	// Public-media and morning-show primary record (Ms-Rachel pass, 2026-08-20).
+	// This subject's entire "accused of insincerity" spine — the load-bearing
+	// diagnosis quotes — lives in two dated public broadcasts: WBUR's Here & Now
+	// (June 3, 2025) and Democracy Now! (August 13, 2025, full public transcript).
+	// Good Morning America carries the co-star testimony on the 2023 pronoun
+	// backlash. All three are named, dated, checkable, and none is matched by
+	// OUTLET_SUFFIX, so every quote from them graded vague or untagged no matter
+	// how precisely it was cited. Same class as NPR / BBC / CNN / NBC above.
+	'WBUR',
+	'Here & Now',
+	'Democracy Now',
+	'Good Morning America'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

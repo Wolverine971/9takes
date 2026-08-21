@@ -1,0 +1,13 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/unfamiliar.md`
+
+`critic.md`, `fan.md`, and `future.md` already existed in the directory; per the independence contract I did not open them.
+
+**Verdict:** `revise` — trust `strained`, value `high`, delight `clear_hit`. **2 blockers, 9 concerns.**
+
+**Strongest hit:** the diagnosis paragraph — *"Asked about money, she talks about her heart. Asked about a funding trail, she says she knows who she is. That reflex is the whole diagnosis,"* closing on *"Nobody had asked whether she was faking."* This is where the Enneagram claim became an argument I could check rather than a label I had to accept, and it does that without a word of system jargon. Runner-up: *"None of which makes the criticism wrong"* — an article that declines to win its own argument is the only trust signal available to a reader who can't verify anything independently.
+
+**Highest-priority concern** (a blocker, UNFAM-R1): the four-second pause is presented as a measurement and isn't one. The section opens *"Here is the entire method, timed"* and runs decimal timestamps 0.0 → 4.0; I read it as an annotation of real footage, and it's the fact I'd have repeated to someone else. Packet CLM-01 rates it **unresolved — no source establishes a four-second interval**, and calls it "the single most important item in this packet." The number carries the title, meta title, description, hook, a full H2, and the close. Fix is cheap: time one named episode and cite it, or re-register the section around the attributed 3–5 second professional range and drop the decimals.
+
+The second blocker (UNFAM-R2) is the Hamas-funding referral — the draft omits that the accusers provided no public evidence, never tells the reader no investigation was opened, and dates it May 2025 when the packet says early April. Two clauses and a date fix repair it, and the argument gets *stronger*: "she answers a money question with her heart" is more striking once the reader knows there was nothing to answer.
+
+One process note worth passing to whoever runs the next round: the frozen snapshot still carries the `FRESH EYES REVIEW` and `SECOND PASS NOTES` blocks at the end of the file. I read through them in the course of the unaided pass and have disclosed it in *Limits* — my findings diverge from both — but the snapshot would honor the independence contract more cleanly with pipeline comments stripped.

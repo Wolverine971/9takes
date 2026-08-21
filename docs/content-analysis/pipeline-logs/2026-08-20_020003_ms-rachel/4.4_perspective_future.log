@@ -1,0 +1,20 @@
+Structure validated: all 11 required H2 headings in order, counts match (0 blockers / 9 concerns), SHA and perspective key correct.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/future.md`
+
+**Verdict:** `revise` — trust intact, value high, delight clear_hit. **0 blockers, 9 concerns.**
+
+The piece passes the durability test that matters most: its thesis rests on 1982–2020 biography (the trolley, the thirty-two months, the pause), not on the news cycle. Delete every 2025–26 event and the argument is untouched. What ages badly is the instrumentation, not the argument — and every fix is available from the evidence packet without new research.
+
+**Strongest hit (FUTURE-H2):** near-universal absolute dating. My scan of the 4,515-word reader-visible body found only two genuinely unanchored relative-time constructions. That practice, plus the dated source card, is why the piece survives its own controversy cycle.
+
+**Highest-priority concern (FUTURE-C1):** "She is 43" appears twice, including as the article's final beat. Born November 30, 1982, she turns 44 **102 days after publication** — the fastest-decaying claim in the piece sits on the last line, where a reader who checks one fact and finds it wrong discounts everything above it. The closing sentence loses nothing if the number is simply dropped.
+
+Two findings worth flagging to you directly:
+
+- **FUTURE-C4** is the highest-yield edit available. The packet establishes that "no investigation has been established as opened" on the Bondi/Hamas-funding referral, and the draft omits it. That negative only gets more firmly established with time — it converts the article's biggest dangling thread into a fact that ages *well*, and it protects her.
+- **FUTURE-C3** rests on live evidence, not speculation: the 5th Children's & Family Emmy Call for Entries went up in July 2026 with an eligibility window her Netflix output falls inside, so the next ceremony lands inside this article's refresh interval. The H2 "Ms. Rachel's Emmy Loss" is the fragile part; the body beat is dated and survives.
+
+I dropped one suspected finding as a false positive — the `/personality-analysis/mr-rogers` link matches the corpus convention (lowercase leads 1,588 to 82), so no link-rot concern is reported. I also deliberately made no `lastmod` recommendation, since that field is yours to manage.
+
+The review includes the required twelve-month refresh list as a dated trigger table, and stays in the temporal lane where findings overlap the fact-check or fairness perspectives.

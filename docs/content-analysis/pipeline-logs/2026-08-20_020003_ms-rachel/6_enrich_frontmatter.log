@@ -1,0 +1,29 @@
+Frontmatter enrichment complete: **Ms-Rachel**
+
+**Fields filled:**
+`wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved untouched):**
+`wikipedia` (verified: `en.wikipedia.org/wiki/Ms._Rachel` is the person's article, confirmed via Wikidata sitelink `enwiki` on Q117066641 — not the show), `instagram`, `tiktok`, plus all creator-owned fields including `lastmod`.
+
+**Verification notes:**
+- **Wikidata Q117066641** — "Ms. Rachel, American YouTuber and educator." Nationality Q30 (US) confirmed there.
+- **IMDb nm15083695** — double-confirmed: Wikidata P345 *and* a search returning IMDb pages for "Rachel Griffin-Accurso," born Nov 30 1982 in Biddeford, Maine. Both match the birth data.
+- **birth_date/birth_place** pulled from the Wikipedia infobox wikitext (`{{birth date and age|1982|11|30}}`, Biddeford, Maine), not from the content-farm figures the research packet flagged as unreliable.
+- Every citation URL was HTTP-checked; the Washington Post link 403s to curl, so I confirmed it separately by search (Caitlin Gibson, "Ms. Rachel on children's media, empathy and Mister Rogers's legacy," July 31, 2025 — matching the body's source-card date).
+
+**FAQs generated (5):**
+1. What is Ms. Rachel's personality type? → `#what-is-ms-rachels-personality-type`
+2. Why does Ms. Rachel stop talking after she asks a question? → `#why-ms-rachel-stops-talking`
+3. Why do some parents find Ms. Rachel annoying? → `#why-parents-find-ms-rachel-unbearable`
+4. What are the Ms. Rachel controversies about? → `#ms-rachels-controversies-jules-pride-and-gaza`
+5. Did Ms. Rachel win an Emmy? → `#ms-rachels-emmy-loss-and-the-suitcase-she-took-to-congress`
+
+All five anchors were slug-matched against the draft's actual H2s — every one resolves to a real section. Answers are drawn only from the body (the pause mechanics, the AAP objection, the Jules/Pride/Gaza escalation, the Emmy loss and Capitol Hill suitcase); no em-dashes, no type-label generalities.
+
+**Issues:**
+- **The body contains zero inline external links** — sources are named in prose ("The Washington Post, 2025") and in the `<div class="source-card">` rather than hyperlinked. I resolved `citations` from the run's verified source ledger (`docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/evidence-packet.md`), using only outlets the body actually names. Nothing was invented, but the body itself is not self-citing.
+- **Two body-named sources have no citable canonical URL** and were left out: the JTA piece on the Bibas post (ledger S-36, flagged there as "the weakest item in the ledger," no canonical URL captured) and NBC News June 2024 (captured only as an AOL syndication). Both are still named in the body's source card.
+- The draft is `published: false` and its `production_pretext` still reads `reviewed: false` / `ready_for_production: false` — unchanged by this pass, as scoped.
+
+Sources used for verification: [Wikidata Q117066641](https://www.wikidata.org/wiki/Q117066641), [Wikipedia](https://en.wikipedia.org/wiki/Ms._Rachel), [IMDb](https://www.imdb.com/name/nm15083695/), [Washington Post](https://www.washingtonpost.com/parenting/interactive/2025/ms-rachel-childrens-media/)

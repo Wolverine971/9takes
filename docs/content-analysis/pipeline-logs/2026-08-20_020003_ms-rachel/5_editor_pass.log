@@ -1,0 +1,24 @@
+Done. Here's where it landed.
+
+## Draft polished
+`src/blog/people/drafts/Ms-Rachel.md` — perspective-jury mode against `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003` (frozen SHA verified as matching the live draft before I touched anything).
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/editor-resolution.md` — all 13 P0 items, 15 accepted P1s, and 9 RQ items logged with acceptance-test self-checks, plus the 14 protected-hit regressions.
+
+## The big one: the four seconds
+P0-01 controlled the description, hook, TL;DR, an entire H2 and the close, and the synthesis said path (a) — measure it — was strictly better. So I ran it rather than defaulting to the fallback: word-level auto-caption timings via yt-dlp on two current episodes, every "can you say" prompt gap between **0.2 and 1.6 seconds**. Path (a) *failed* rather than went unrun. Caption timing is too coarse to publish as a competing number, but it's decisive against four. Took path (b): the section keeps its five-beat form (PROTECT-05) with the clock replaced by labeled beats, and the 3–5 second window is now attributed to the SLP literature. H2 is "Why Ms. Rachel Stops Talking."
+
+## Main repairs
+- **Fairness apparatus re-sourced at both ends.** Retrieved the AAP's actual "Watching Ms. Rachel" guidance page (confirmed title, June 2026 date, and all three lines) and made it the critic anchor, with the video-deficit objection put against the pause *specifically* and answered. Sannes stays as the substantive objector, paraphrased, disclaimer disclosed. Bibas post replaced with her attested January 2025 wording via JTA.
+- **Rabbit hole de-risked:** stress arrow pulled off her Gaza advocacy onto the December 2025 statement, growth-arrow chronology fixed and the claim honestly downgraded, Rahaf quotation removed along with the sx/sp ranking it was propping up.
+- **Absolutes narrowed:** the close no longer tells her about her own marriage, "the only one she seems able to reach for" now has its exception, "the whole diagnosis" is "the best evidence in the file," and a falsifier is stated.
+- **Prose:** cut ~330 words of genuine redundancy — the Cameo marathon told twice, the Netflix record stated twice, an unverified billion-view claim, a fifth instance of the article narrating its own structure, three Gaza quotes doing one job.
+
+## Final numbers
+- **Contrast pairs: 0 total (0 strong, 0 comparative)** — I introduced four while repairing and rewrote all four out.
+- Em-dashes 0, banned phrases 0, head-term PASS, `blog-lint` 1 fail / 1 warn.
+
+## Not production-ready — one open decision for you
+**Body is 5,001 words against the 4,500 ceiling.** This is the only lint FAIL. The accepted repair list is net additive by ~540 words; the synthesis's own named funding sources cover about a fifth of that, and I spent all of them plus the 330 words of redundancy on top. Closing the rest means deleting PROTECT-listed material, which is a worse trade than being long. Main body is 4,252; the Rabbit Hole is 760. Your call: raise `BLOG_LINT_WORD_CEILING` for this draft, or commission a Rabbit-Hole-only reduction pass.
+
+Also still open (both disclosed on the page where they matter): the WaPo original stayed 403-blocked, so four load-bearing quotes are syndication-confirmed only and the Type 1 discriminator now says out loud that it rests on one spousal account; and the December 2025 Instagram statement is paraphrased, not quoted. `faqs` frontmatter is still empty — enrich hasn't run.

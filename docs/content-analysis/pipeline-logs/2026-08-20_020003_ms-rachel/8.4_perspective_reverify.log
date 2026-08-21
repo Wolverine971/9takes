@@ -1,0 +1,16 @@
+**Output:** `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/verification-final.md`
+
+- **verification_status:** `pass`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+- **final_content_sha256:** `159716c8e72d05085244e0c8a2a49c488ea0e8833532ff0ebba99c7adf552f67`
+
+Two things worth surfacing beyond the gate numbers:
+
+**The publication blocker is closed.** `blog-lint` now reports 0 fail / 1 warn — 4,494 words against the 4,500 ceiling, down from 5,001 — and all fourteen protected hits survived the cut by exact string match. That was the one FAIL the initial verification escalated to you as a raise-the-ceiling-or-cut decision; the revision closed it without doing either badly.
+
+**One new error the revision introduced.** The draft now dates her Instagram statement "December 8, 2025" in three reader-visible places. The statement was made ~December 4. December 8 is when Middle East Eye published the live-blog update relaying it — that article is timestamped 8 December 06:49 GMT and describes her post as made "Thursday," and both the evidence packet and the synthesis's own P0-05 field say ~December 4. The quotations themselves I verified verbatim against the source, so this is a mis-dating, not a bad quote. It fails no P0 acceptance test and regresses no protected hit, so it doesn't move the gate, but it's a three-word fix in the prose (the source card's "Middle East Eye, December 8, 2025" is correct and should stay).
+
+Also flagged: Tareq Hailat is framed as corroboration "from outside the marriage" while the packet explicitly calls him interested testimony; and the PROTECT-07 paragraph-order question has now been deferred by three consecutive passes, each asking for a human read.
+
+The deterministic gate script, not this prose, decides whether the pipeline may finalize.

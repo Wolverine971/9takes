@@ -1,24 +1,11 @@
 {
-  "lastUpdated": "2026-08-19T06:00:00Z",
+  "lastUpdated": "2026-08-20T06:00:00Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
   "queue": [
-    {
-      "name": "ms-rachel",
-      "displayName": "Ms. Rachel",
-      "type": null,
-      "priority": 51,
-      "priorityReason": "One of the biggest YouTubers alive (Forbes Top Creators) with huge parent-demo search; likely Type 2 anchor the IG type-pond strategy is missing",
-      "estimatedTraffic": "high",
-      "searchVolume": "very-high",
-      "personaTitle": null,
-      "addedToQueue": "2026-07-18",
-      "retryCount": 0,
-      "strategicValue": "creator-economy-cluster"
-    },
     {
       "name": "jonathan-bailey",
       "displayName": "Jonathan Bailey",
@@ -177,6 +164,23 @@
     }
   ],
   "completed": [
+    {
+      "name": "bill-burr",
+      "displayName": "Bill Burr",
+      "type": null,
+      "priority": 52,
+      "priorityReason": "A-list stand-up (strong niche) with constant podcast clip virality and expanding film roles; conspicuous gap while Gillis, Schulz, Dillon and Von are covered",
+      "estimatedTraffic": "high",
+      "searchVolume": "high",
+      "personaTitle": null,
+      "addedToQueue": "2026-07-18",
+      "retryCount": 0,
+      "strategicValue": "comedy-cluster",
+      "startedAt": "2026-08-19T06:00:00Z",
+      "completedAt": "2026-08-20T06:00:00Z",
+      "needsReview": true,
+      "recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+    },
     {
       "name": "alexandr-wang",
       "displayName": "Alexandr Wang",
@@ -1615,18 +1619,18 @@
     }
   ],
   "inProgress": {
-    "name": "bill-burr",
-    "displayName": "Bill Burr",
+    "name": "ms-rachel",
+    "displayName": "Ms. Rachel",
     "type": null,
-    "priority": 52,
-    "priorityReason": "A-list stand-up (strong niche) with constant podcast clip virality and expanding film roles; conspicuous gap while Gillis, Schulz, Dillon and Von are covered",
+    "priority": 51,
+    "priorityReason": "One of the biggest YouTubers alive (Forbes Top Creators) with huge parent-demo search; likely Type 2 anchor the IG type-pond strategy is missing",
     "estimatedTraffic": "high",
-    "searchVolume": "high",
+    "searchVolume": "very-high",
     "personaTitle": null,
     "addedToQueue": "2026-07-18",
     "retryCount": 0,
-    "strategicValue": "comedy-cluster",
-    "startedAt": "2026-08-19T06:00:00Z"
+    "strategicValue": "creator-economy-cluster",
+    "startedAt": "2026-08-20T06:00:00Z"
   },
   "skipped": [
     {

@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Ms-Rachel (Type 2)
+/Users/djwayne/9takes/src/blog/people/drafts/Ms-Rachel.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 35
+Comparison set (last 8 other Type-2 drafts by date):
+  - Madelaine-Petsch  (2026-08-15, 33 units)
+  - simon-sinek  (2026-08-15, 24 units)
+  - Benny-Blanco  (2026-07-19, 42 units)
+  - mother-teresa  (2026-06-22, 28 units)
+  - bill-clinton  (2026-04-20, 41 units)
+  - hilary-duff  (2026-04-12, 37 units)
+  - sky-bri  (2026-04-09, 24 units)
+  - khloe-kardashian  (2026-04-04, 31 units)
+
+Noise floor over 9100 unit pairs:  median=0  p90=0  p99=0.005  max=0.038
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.038 ##                   Benny-Blanco
+  0.036 #                    simon-sinek
+  0.034 #                    mother-teresa
+  0.027 #                    sky-bri
+  0.027 #                    hilary-duff
+  0.026 #                    Madelaine-Petsch
+  0.013 #                    bill-clinton
+  0.009                      khloe-kardashian
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.038   Ms-Rachel  <->  Benny-Blanco
+   TARGET [counter-typing] It is the one behavior the typing does not cover
+   OTHER  [diagnosis] production is the one job in music where the deliverable is other people's best work.
+
+score 0.036   Ms-Rachel  <->  Benny-Blanco
+   TARGET [counter-typing] It is the one behavior the typing does not cover
+   OTHER  [diagnosis] The typing makes him a statistical oddity.
+
+score 0.036   Ms-Rachel  <->  simon-sinek
+   TARGET [diagnosis] The group produced no public evidence
+   OTHER  [counter-typing] This interpretation comes from public evidence and carries no diagnostic claim.
+
+score 0.034   Ms-Rachel  <->  mother-teresa
+   TARGET [diagnosis] Type 2s locate their identity inside the realness of their care
+   OTHER  [diagnosis] Type 2s help from a relational hunger.
+
+score 0.033   Ms-Rachel  <->  mother-teresa
+   TARGET [counter-typing] Type 2s are characteristically bad at boundaries and at charging money
+   OTHER  [diagnosis] Type 2s help from a relational hunger.
+
+score 0.033   Ms-Rachel  <->  mother-teresa
+   TARGET [counter-typing] It is the one behavior the typing does not cover
+   OTHER  [diagnosis] It is always the One I love does not want me.
+
+score 0.031   Ms-Rachel  <->  mother-teresa
+   TARGET [counter-typing] a credentialed educator with a reformer's vocabulary
+   OTHER  [diagnosis] with the moral exactness of a Reformer pulled in alongside.
+
+score 0.028   Ms-Rachel  <->  Benny-Blanco
+   TARGET [counter-typing] she is the one willing to ship something unfinished because the kids need it now.
+   OTHER  [diagnosis] production is the one job in music where the deliverable is other people's best work.
+
+score 0.027   Ms-Rachel  <->  sky-bri
+   TARGET [diagnosis] That reflex is the best evidence in the file.
+   OTHER  [diagnosis] The evidence in Sky Bri's story is overwhelming
+
+score 0.027   Ms-Rachel  <->  hilary-duff
+   TARGET [counter-typing] a documented instance of her negotiating hard for herself
+   OTHER  [diagnosis] She couldn't plan a day for herself.
+
+score 0.026   Ms-Rachel  <->  Madelaine-Petsch
+   TARGET [counter-typing] That rests on a single spousal account in one friendly profile
+   OTHER  [counter-typing] The Type 6 case rests on her security vocabulary
+
+score 0.025   Ms-Rachel  <->  Madelaine-Petsch
+   TARGET [diagnosis] She said the quiet part out loud in a trade profile about studio equipment.
+   OTHER  [diagnosis] a personality built around a trade struck young
+
+------------------------------------------------------------------------------
+Top pair scores 0.038 vs median 0  (~∞x the noise floor).

@@ -1,0 +1,16 @@
+Updated `src/blog/people/drafts/Ms-Rachel.md`.
+
+**Source audit (the first-order item): clean.** Was 3 inline / 1 vague / 1 untagged; now **5 inline, 0 vague, 0 untagged**. Both flagged diagnosis quotes got explicit outlet + year, and the Democracy Now! quote was extended to the fuller transcript wording. Both graded low partly because WBUR, *Here & Now*, Democracy Now! and Good Morning America weren't in the audit script's named-outlet list, so I registered them in `scripts/blog-source-audit.mjs` with a dated per-pass comment — that file's own documented convention (Victoria-Justice, Sydney-Sweeney, Bill-Burr passes all did the same). That's the one file I touched outside the draft.
+
+**Main changes:**
+
+- **Claimed the thesis the draft was declining.** The Gaza section no longer retreats twice. The replacement is the audience-side claim: parents mistook an unconditional disposition for a relationship addressed to them. It's a psychology claim about viewers, not about her politics, so it stays inside the packet's guardrail.
+- **Jules Hoffman is in, as beat one of a dated arc,** and the verified version is better than fresh-eyes assumed: Accurso *never publicly commented* on the pronoun backlash. She went dark and posted about love and never said his name. That's stronger evidence than defending him would have been.
+- **Corrected a fresh-eyes error.** It guessed the "2024 Pride boycott" was a compression of the 2023 Jules cycle. They're separate verified events — Feb 2023 pronoun campaign, June 1 2024 Pride video and Matt Walsh boycott call. Both are now in, dated, with her own anticipatory quote from inside the Pride video.
+- Susannah named (April 8, 2025, surrogate, her stated medical reason, nothing past it). Herbie named, with what the puppet is *for*. Commercial anomaly promoted out of the rabbit hole into the body, paying off the TL;DR's promise. Faith beat moved into the body. Sibling claim dropped per the entity-gap do-not-assert list.
+- **Ending rebuilt.** Cut the pull-quote that spoiled the final two sentences; the close now advances the trolley instead of restating the intro. Emmy loss + Capitol Hill split into their own section.
+- Cut four instances of the article narrating its own methodology, the duplicate Cameo retelling, and two duplicated stat dumps.
+
+`blog-lint`: **0 fail**, down from a 4630-word overflow mid-pass.
+
+Two things worth your call before an editor pass: the body is at **4488 words against a 4500 ceiling**, so anything added later needs an equal cut, and `faqs` frontmatter is still empty — the enrich stage hasn't run.

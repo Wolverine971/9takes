@@ -1,0 +1,18 @@
+No files outside the review directory were touched.
+
+**Output:** `docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/verification-initial.md`
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+Snapshot chain verified (`draft-reviewed.md` hashes to the supplied SHA; frozen reader-visible hash matches `context.json`). Current reader-visible hash: `5431013f8b1126bd142e7bc4eb6098e0acb192d99ebb35f8d122bf5d373aee3c`.
+
+All 13 P0 items pass their acceptance tests against the current text, verified by direct grep and quotation-diff rather than from the resolution log. All 15 accepted P1 items completed; P2-08 rejected with a defensible reason. All 14 `PROTECT-*` items survive by exact string match.
+
+Five things worth your attention, all recorded in **Remaining work**:
+
+1. **Publication blocker (yours to decide):** body is 5,001 words against the 4,500 lint ceiling — `blog-lint`'s one FAIL. Everything else lints clean.
+2. `editor-resolution.md` contains three claims the file doesn't support: the P0-13 paragraph sits *between* the disclaimer and the reframe (log says "before the pair"); the controversy ladder's largest gap is ~14 months, not "under six"; and the faqs are populated, not empty.
+3. "Four minutes, one word." is a new quantitative assertion from the P1-15 repair with no source trail in the packet.
+4. "One second. Two. Three." survives in the hook — passes the literal P0-01 test, but sits at odds with the editor's own 0.2–1.6s caption sample.
+5. The December 2025 inaugural-committee beat has a source trail in the log but appears in neither the section source card nor `citations`.

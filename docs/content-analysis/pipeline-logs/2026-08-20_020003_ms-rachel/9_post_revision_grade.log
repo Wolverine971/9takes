@@ -1,0 +1,29 @@
+## Grading Complete — Ms. Rachel
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Ms-Rachel | 8 | 9 | 9 | 8.5 | 8 | 9 | **8.6** | **B+** |
+
+*(Weighted: `(8×1.5 + 9×1.5 + 9×1.5 + 8.5 + 8 + 9×0.5) / 7`. Disc 9 ≥ 7, no gate. No caps applied.)*
+
+This is a **regrade** — the revision-pass notes record a first grade of B 8.2 capped for cross-draft sameness. Stability delta **+0.4**, recorded in frontmatter.
+
+### Key observations
+
+**The sameness cap lifted, legitimately.** Of the seven house moves I checked against Bill-Burr, Alexandr-Wang, and Keira-Knightley: TL;DR skeleton rewritten off the bolded-noun form, epigraph gone, reader-command imperatives gone, no corpus-stat sentence, empathy turn built from her own vocabulary rather than the `not X, it was armor` grammar. Two shared moves remain (aphoristic closers, mirrored return-to-the-wound ending) — under the 3+ trip threshold.
+
+**Deterministic checks are unusually clean:** 0 contrast pairs, 0 em dashes, 0 counter-typing ladders in the body, same-type similarity 0.038 vs 0.04 threshold, head-term PASS, answer block 10 words.
+
+**What holds it at B+, not A:**
+
+- **Evidence (8).** The script reports 4/4 inline and it's right about what it can see — but it only audits quoted material in named slots. Five load-bearing claims run bare, including the two the whole piece stands on: *"I had waited for that for so long," she said* (no outlet) and the two-years-eight-months first word (no source). The 3–5 second SLP window is attributed to a generic plural, and after the editor pass abandoned measuring her actual pause, that number now carries the entire opening section. Separately, six load-bearing items trace to one Washington Post profile the pipeline never retrieved (403 twice) — traceable, but a narrower base than the 11-item citation list implies.
+- **Writing (8).** ~13 sections and paragraphs land on the same aphoristic downbeat. The revision pass converted only two because the rest were PROTECT-listed — but protection isn't a quality argument when it's the fourth identical cadence in a row.
+- **Enneagram (8.5).** All three interior checks pass and the rabbit hole is well-formed with a stated falsifier. But there's one interior beat, and the reader feels her *giving* without ever feeling her *wanting* — the closer concedes as much ("whether it has ever occurred to her to want one of her own is not something the record answers"), which is honest and also a shrug where the Type 2's shame should land.
+
+**Standouts:** the diagnosis section earns the type on behavior ("Asked about money, she talks about her heart"); the audience-side thesis ("They had mistaken a disposition for a relationship") is the one thing only 9takes could write here; and the critic-pressure section refuses to let the empathy turn dissolve the criticism — rare in this pipeline.
+
+**Housekeeping:** the SECOND PASS and EDITOR PASS notes both still claim "faqs frontmatter still empty." They're populated — 5 questions, all anchored, all real search intent. Stale ledger, not a real gap. Body is 4,527 words against the 4,500 lint ceiling, so any addition needs an equal cut.
+
+Files written: `src/blog/people/drafts/Ms-Rachel.md` (frontmatter), `docs/content-analysis/grades/Ms-Rachel.review.md` (sidecar). No legacy `QUALITY GRADE` block existed to remove.
+
+**Total graded this session: 1**
