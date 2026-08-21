@@ -1,0 +1,53 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Jonathan-Bailey.md`
+
+**Before: 7/10 → After: 8.5/10**
+
+### Central Thesis
+A boy who quit the thing he loved most because of one silent reading of himself built a career out of giving rooms exactly what they want, and a fence around everything else.
+
+### Thread Map
+
+| Section | Contributes | Link to next |
+|---|---|---|
+| Cold open (leotard) | The injury, before the framework | promise: "he will not tell you who he loves" |
+| What is his personality type? | Names the mechanism: the self edited to match the room | evidence "across three decades" |
+| Childhood / raindrop | Origin: a missed cue, a clear boy going murky | poses "something happened between five and thirty" |
+| Three Times He Read the Room | Answers it: 13, 30, 37 | pricing what strangers see |
+| Why he won't say who he's dating | The fence, and the cynical read conceded | the fence in the work |
+| Richard II critics | Charm calibrates to a room; grief doesn't | seven months later he stopped |
+| Why he stopped acting for a year | Desirability converted to a budget | the year has a date at the end |
+| Barbican / Sondheim | Bookend + the Grande contrast | back to the present |
+| Still doing the dance | Applause stops, dance continues | volcanoes |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 6/10 | 8/10 |
+| Section Transitions | 5/10 | 8/10 |
+| Internal Paragraph Flow | 8/10 | 8/10 |
+
+### Changes Made (7)
+
+**Thread repairs (2)** — both were damage from the second pass, not original defects:
+- `"The tiebreaker is speed"` → `"What settles it is the speed."` The second pass correctly deleted the Seven/Four/One counter-typing ladder, which left "tiebreaker" with nothing to tie-break. (Bonus: "The tiebreaker" appears 29× across the people corpus; "What settles it" appears 2×.)
+- Closer: `"regardless of the headlines"` → `"regardless of the quitting headlines."` Inserting the Barbican section pushed the quits-acting story two sections back and stranded the referent, and the 2027 jump made "this year" ambiguous.
+
+**Transition bridges (5)**, one keyword-carrying sentence each:
+- Diagnosis → Childhood: *"Three decades is not a figure of speech here."*
+- Prompt book → Dating: *"The same calculation runs on much bigger things than a backflip."* This was the only near-broken boundary — a backflip entry ending on pricing, then a cold search-query answer.
+- Dating → Richard II: *"The fence shows up in the work too."* The link existed but was buried four paragraphs in; the keyword now arrives first so "the same border he polices offstage" reads as a payoff.
+- Richard II → Year off: opening now leads *"Seven months after he opened as Richard,"* breaking the third of four consecutive cold date-drop section openings.
+- Year off → Barbican: *"The year of hiring has a date at the far end of it."*
+
+### Verified after landing
+`blog-lint`: **0 fail**. Contrast pairs unchanged at **0 strong / 1 comparative** (the verbatim epigraph). `same-type-similarity`: unchanged, top pair 0.041 vs alexandr-wang. No em-dashes, no banned vocabulary, no new claims, no frontmatter/component/link touched.
+
+**One honest cost:** the +45 words tipped the body from 4,044 to 4,089, crossing blog-lint's 4,050 warn line (90% of the 4,500 ceiling). New warn, not a fail — lint went 2 warn → 3 warn.
+
+### Left for you
+1. **Double ending.** The Barbican section closes on *"he can still stand in the light without it costing him the thing behind it"* — a thesis-level landing. Then the Rabbit Hole, then the real close. The volcanoes still win, but they now have to win twice.
+2. **Age conflict.** Childhood puts the RSC/Nipper choice at six; the Barbican section says the RSC staged him at seven. Both can be true, but the piece doesn't say so and the bookend invites the reader to check.
+3. **Headroom.** If you want it back, the fresh-eyes review already named the source: the mic-drop section endings. That's a voice cut, not a cohesion cut, so I left it alone.
+
+I did not touch *"Then his co-star withdrew."* — it reads as a tense stumble after a future-tense paragraph, but the sequence is the joke (the musical is about the woman leaving; then the woman playing her left).

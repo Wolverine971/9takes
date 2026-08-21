@@ -1,0 +1,15 @@
+Saved: `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 16 concerns.** Snapshot SHA verified against `context.json` and the supplied hash before reading; unaided first read completed before opening the packet, and the packet resolved all three of my open questions so the permitted orientation search went unused.
+
+I could state the thesis and the type answer after one pass without outside homework, which is the central test — the draft passes it. Both blockers are one sentence of work each.
+
+**Strongest hit** — the *Fellow Travelers* gloss: "a devout young Senate staffer working through the McCarthy-era purge of gay employees while in love with a man neither of them can name out loud, opposite Matt Bomer, across eight hours of premium television." I'd never heard of the show and understood premise, era, stakes and personal significance in one sentence. It's the draft's own model for the fixes several concerns need.
+
+**Highest-priority concern beyond the blockers** — the section titled "What is Jonathan Bailey's personality type?" opens with "3w2 with a social-dominant instinct," and the glosses for *3w2*, *wing*, *instinct* and *"the image type"* all live inside the Rabbit Hole, which explicitly tells the reader to skip it. The main narrative borrows vocabulary from its own optional appendix, at exactly the moment the title promises a plain answer.
+
+The two blockers, briefly:
+- **UNFAM-R1** — the H2 "Why Jonathan Bailey Stopped Acting for a Year" asserts as fact what its own body calls a global misreport ("I'm not taking the whole of 2026 off") and what the closer contradicts outright. Headings are the scan path; the article is one of the quitting headlines it debunks.
+- **UNFAM-R2** — *Chicken Shop Date* is introduced only as "an episode of," so I weighted a comedy punchline equally against an *Evening Standard* interview and concluded Bailey had contradicted himself about his relationship status. The packet explicitly warns the format "cannot support any reconciliation."
+
+One process note for a future run: reading the file in one command put the production ledgers and pipeline notes in front of me before and after the body. I formed findings from the reader's side and cite none of that apparatus as support, but the read wasn't hermetically clean — extracting the reader-visible body first would fix it. Nine of my findings, including both blockers, have no counterpart in those notes.

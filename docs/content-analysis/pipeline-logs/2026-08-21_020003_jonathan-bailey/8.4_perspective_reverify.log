@@ -1,0 +1,16 @@
+Frontmatter parses, all five required H2s present, no other file touched.
+
+**Output path:** `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003/verification-final.md`
+
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+The gate item from `verification-initial.md` — P0-08 reproducing on the post-freeze `faqs` surface — is repaired, and passes its acceptance test on both the body and FAQ #2 independently. I re-ran the full sweep rather than trusting the delta, because the revision pass also consumed the grader sidecar and made edits beyond its four assigned items: 35 protected strings asserted, 35 present; 20 zero-hit sweeps all clean; the four structural counts hold. All nine P0s, ten accepted P1s, two P2s and three RQs stand.
+
+Two things worth your attention, neither gating:
+
+- **`five going on 29`** — the revision pass corrected this quote's rendering and added an attribution. I checked it directly since the packet doesn't carry the quote: the attribution is right, but the source reads *"about 5 going on 29"*, so spelling the 5 while leaving the 29 as a numeral still leaves an alteration inside quotation marks. One-character fix.
+- **The Barbican reorder** — the pass inverted the section so the bookend now resolves it, which is a genuine improvement and P0-09 passes. But it also appended "*which is either a very long joke at his expense or the most obvious casting of his career*" to the synopsis line, which now sits three paragraphs downstream of Ariana Grande's withdrawal, with the word "Dot" used for her in between. The joke's target is Bailey, so it passes the letter of the test — but it's the same borrowing P0-09 was raised against, in a comic register. That's a judgement call for you, not something I can adjudicate.
+
+The deterministic gate script decides whether the pipeline may finalize.

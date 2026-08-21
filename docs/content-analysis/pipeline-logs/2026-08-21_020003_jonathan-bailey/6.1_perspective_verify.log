@@ -1,0 +1,10 @@
+Written to `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003/verification-initial.md`.
+
+- **verification_status:** `fail`
+- **open_p0:** 1
+- **protected_hit_regressions:** 0
+- **final_content_sha256:** `0ffa2b30496173fbabae371e22569ee1f531ba50bb676961f51729b55d95051f`
+
+Eight of nine P0s resolved, two verified against live primaries (Time Out review fetched HTTP 200; the *Interview* epigraph confirmed word-for-word against the Wayback capture, one omission, correctly ellipsed). All 12 `PROTECT-*` items survive by exact string match; all 10 P1s, both P2s and all 3 RQs completed or defaulted as claimed.
+
+The one open P0 is not an editor failure: the enrichment stage added a five-entry `faqs` block after the jury froze the draft, and FAQ #2 reproduces the P0-08 defect — it presents the *Chicken Shop Date* line as a co-equal on-the-record statement with no comic-register gloss. That block is genuinely reader-visible on this path (`FAQSection` renders at ≥2 entries, `PeopleBlogPageHead` emits FAQPage JSON-LD, and the hash utility counts `faqs` inside the body). Fix is one clause in frontmatter.

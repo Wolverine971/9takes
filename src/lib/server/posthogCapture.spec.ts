@@ -7,7 +7,9 @@ vi.mock('$env/static/public', () => ({
 }));
 
 import {
+	buildRegistrationCompletedPostHogPayload,
 	buildReplyNotificationPostHogPayload,
+	captureRegistrationCompleted,
 	captureReplyNotificationEvent
 } from './posthogCapture';
 
@@ -63,5 +65,42 @@ describe('reply notification server analytics', () => {
 		const body = JSON.parse(String(request.body));
 		expect(body.properties.$process_person_profile).toBe(false);
 		expect(JSON.stringify(body)).not.toContain('@example.com');
+	});
+});
+
+describe('registration server analytics', () => {
+	beforeEach(() => vi.restoreAllMocks());
+
+	it('builds a deduplicated conversion without email or other request identifiers', () => {
+		const payload = buildRegistrationCompletedPostHogPayload({
+			userId: 'user-123',
+			enneagramType: 5
+		});
+
+		expect(payload).toMatchObject({
+			event: 'registration_completed',
+			properties: {
+				distinct_id: 'user-123',
+				$process_person_profile: true,
+				$insert_id: 'registration_completed:user-123',
+				enneagram_type: 5,
+				has_enneagram_type: true,
+				server_confirmed: true
+			}
+		});
+		expect(JSON.stringify(payload)).not.toMatch(/email|fingerprint|token|ip_address/i);
+	});
+
+	it('posts the registration conversion to PostHog', async () => {
+		const fetchImpl = vi.fn().mockResolvedValue({ ok: true, status: 200 });
+
+		await expect(
+			captureRegistrationCompleted({ userId: 'user-123' }, { fetchImpl: fetchImpl as never })
+		).resolves.toBe(true);
+
+		expect(fetchImpl).toHaveBeenCalledWith(
+			'https://us.i.posthog.com/capture/',
+			expect.objectContaining({ method: 'POST' })
+		);
 	});
 });

@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Jonathan-Bailey (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Jonathan-Bailey.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 36
+Comparison set (last 8 other Type-3 drafts by date):
+  - margaret-qualley  (2026-08-20, 30 units)
+  - alexandr-wang  (2026-08-18, 30 units)
+  - adela  (2026-08-14, 20 units)
+  - michael-jordan  (2026-08-14, 46 units)
+  - David-Beckham  (2026-08-12, 36 units)
+  - Mel-Robbins  (2026-08-12, 32 units)
+  - chase-infiniti  (2026-08-11, 48 units)
+  - Tate-McRae  (2026-08-04, 34 units)
+
+Noise floor over 9936 unit pairs:  median=0  p90=0  p99=0.007  max=0.058
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.058 ##                   alexandr-wang
+  0.036 #                    chase-infiniti
+  0.034 #                    Tate-McRae
+  0.030 #                    margaret-qualley
+  0.020 #                    adela
+  0.019 #                    michael-jordan
+  0.018 #                    Mel-Robbins
+  0.013 #                    David-Beckham
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.058   Jonathan-Bailey  <->  alexandr-wang
+   TARGET [diagnosis] What points to a Three is the direction he moved at thirteen.
+   OTHER  [diagnosis] What defines a Three is where their sense of existing comes from
+
+score 0.054   Jonathan-Bailey  <->  alexandr-wang
+   TARGET [diagnosis] What points to a Three is the direction he moved at thirteen.
+   OTHER  [diagnosis] and what settles it is the direction Wang moved every time he reached it.
+
+score 0.041   Jonathan-Bailey  <->  alexandr-wang
+   TARGET [diagnosis] "It was like a Tupperware box that had been locked down
+   OTHER  [diagnosis] "That was like a big part of my identity was being a mathlete." He was a nationally ranked mathlete through middle and high school
+
+score 0.036   Jonathan-Bailey  <->  chase-infiniti
+   TARGET [counter-typing] A Seven under threat escapes sideways into a new option.
+   OTHER  [diagnosis] in front of a new peer group
+
+score 0.034   Jonathan-Bailey  <->  Tate-McRae
+   TARGET [counter-typing] The prevailing internet reading is 7w8
+   OTHER  [diagnosis] The Type 3 reading is narrower and stranger
+
+score 0.032   Jonathan-Bailey  <->  alexandr-wang
+   TARGET [diagnosis] That a story arrived from outside and won.
+   OTHER  [counter-typing] during a story he was telling about himself
+
+score 0.031   Jonathan-Bailey  <->  chase-infiniti
+   TARGET [counter-typing] Twos build identity around being needed
+   OTHER  [counter-typing] and organizes her entire professional identity around authorities she trusts.
+
+score 0.030   Jonathan-Bailey  <->  margaret-qualley
+   TARGET [counter-typing] Twos build identity around being needed
+   OTHER  [diagnosis] Type 3s organize a life around being worth something
+
+score 0.025   Jonathan-Bailey  <->  chase-infiniti
+   TARGET [diagnosis] That a story arrived from outside and won.
+   OTHER  [counter-typing] A polished Six with a strong three-fixation would look almost identical from outside.
+
+score 0.023   Jonathan-Bailey  <->  Tate-McRae
+   TARGET [counter-typing] What sinks the Seven read is the shape of his worst moments.
+   OTHER  [diagnosis] The Type 3 reading is narrower and stranger
+
+score 0.023   Jonathan-Bailey  <->  Tate-McRae
+   TARGET [counter-typing] A Type 2 read is also available given the warmth and the philanthropy
+   OTHER  [diagnosis] The Type 3 reading is narrower and stranger
+
+score 0.021   Jonathan-Bailey  <->  Tate-McRae
+   TARGET [counter-typing] Or show the privacy guards his options rather than his story.
+   OTHER  [diagnosis] What they need is the receipt showing the effort worked
+
+------------------------------------------------------------------------------
+Top pair scores 0.058 vs median 0  (~∞x the noise floor).

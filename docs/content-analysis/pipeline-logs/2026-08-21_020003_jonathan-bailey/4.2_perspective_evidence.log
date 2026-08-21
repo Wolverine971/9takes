@@ -1,0 +1,15 @@
+Packet compiled.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003/evidence-packet.md`
+
+Frontmatter parses; subject and `draft_sha256` match `context.json`; the frozen snapshot is byte-identical to its recorded SHA and was not touched. All ten required H2 headings present in order. 25 claims inventoried (CLM-01 → CLM-25), 32 sources ledgered with tiers.
+
+Three findings worth naming up front, since they're checkable rather than interpretive:
+
+- **CLM-05 is contradicted by the live source.** The draft says Time Out's Lukowski "opened with 'Jonathan Bailey is a great stage actor'." He did not — the review opens on the Bridge Theatre ("a bit like excitedly running off to meet an old friend… okay but a bit stilted"), and the praise is a clause in the second paragraph. The quoted words are accurate; the praise-then-knife staging did not occur in that review.
+- **CLM-04 has live counterevidence the draft doesn't carry.** Bailey's "1p of every £100" figure sits against a published UK figure of **10p in every £100** (LGBT+ Consortium / Dr Cat Walker, Mar 2025) — an order of magnitude apart, different denominators, unresolved. The draft's "his own count, not a verified statistic" disclaimer is real mitigation, but it's in a `key-stat` display block.
+- **CLM-16 follows Wikipedia over the subject.** "A university place turned down at fifteen" vs his own account of having a place, travelling a year, deferring, auditioning for drama school, and deferring again.
+
+**Largest unresolved evidence gap:** the epigraph. `interviewmagazine.com` is HTTP 403, so the draft's most prominent quotation could only be checked against a Tier 4 fansite reproduction — which renders it with a full intervening sentence ("Longing comes before anything else, doesn't it?") between the two sentences the draft joins, plus a capitalisation change. So the piece's opening words are both **silently compressed** and **resting on a source tier that, by this pipeline's own rules, cannot carry a correction alone** — the packet can flag the discrepancy but cannot settle the canonical wording. The draft's FORMULA FINGERPRINT ledger inherits the problem, since it cites the epigraph's verbatim status to justify keeping its comparative construction past the contrast-pair gate.
+
+Secondary gap: no 2026 first-person source exists anywhere. The most recent substantial Bailey interview is November 2025, so every present-tense claim about his interior state is extrapolated across a nine-month source drought.

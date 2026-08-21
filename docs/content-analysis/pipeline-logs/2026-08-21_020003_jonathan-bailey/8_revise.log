@@ -1,0 +1,17 @@
+Done. One revision iteration on `src/blog/people/drafts/Jonathan-Bailey.md`.
+
+**What triggered it:** grade C (7.7) with two caps — `evidence_untraceable_load_bearing` and `originality_cross_draft_sameness` — plus one open perspective P0. Lint was already 0 fail.
+
+**The blocking gate item (P0-08)** was in the frontmatter, not the body. The enrichment stage added `faqs` *after* the jury froze the draft, so FAQ #2 reproduced the exact defect the body repair had removed: *Chicken Shop Date* equated with the Evening Standard statement, with no signal that one was a comedy bit. Fixed with the verifier's own prescribed clause. FAQ #1 also now carries the body's closeting confound, so both reader-visible surfaces argue the same thing.
+
+**Evidence cap** — the grader's #1 finding was that the source-audit script's 5/5 PASS was blind to the empathy turn, the childhood section and the rabbit hole. Sourced by hand: the empathy turn's two quotes are one sentence from the same Evening Standard interview of Dec 2023 that produced "a lovely man"; the childhood section's six quotes split between Interview magazine 2024 and People 2025; the staffing, Out and rabbit-hole quotes attributed. Two things surfaced while doing it — "cooperative of four brilliant women" had no primary behind it (packet CLM-20) and is cut, and "about five going on twenty-nine" was a house-style alteration inside quote marks, now rendered as reported. Added seven outbound links to a body that had zero; `citations` went 8 → 14.
+
+**Sameness cap** — TL;DR converted to sentence-shaped bullets with the "what the type misses" slot replaced; the confidence line reworded off Ms-Rachel's template; the Barbican section reordered so the Grande parallel opens it. The similarity scan also caught something the grader didn't: the editor pass's own "What points to a Three is the direction he moved at thirteen" scored 0.058 against alexandr-wang — the highest pair in the scan. Rewritten; back to 0.041.
+
+**Rejected three items,** all logged in the draft: dropping the epigraph (it was rebuilt hours earlier against a Wayback capture to close P0-03), replacing the closing return-to-the-wound (P1-04 moved it there this cycle to match PROTECT-06), and landing "the toolkit is not in doubt, the arrival time is" mid-thought (protected runner-up hit). Two closers landed instead of three.
+
+One thing worth flagging: a word-count trim briefly rephrased "Neither has been reconciled" inside PROTECT-05, which the synthesis protects "exactly as written." I reverted it and took the words from a decorative backflip clause instead — but it's a reminder that trimming near protected passages is where this pass could quietly break the gate.
+
+**Lint: 0 fail, 2 warn** (word-count headroom at 4,423/4,500; the single comparative contrast is the verbatim epigraph). All 31 protected strings re-verified by exact match — intact. Frontmatter YAML parses; `lastmod` and `content_quality` untouched.
+
+Resolution artifact written to `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003/revision-resolution.md`. It does not declare the gate passed — the pipeline needs to rerun `/blog_perspective_verify_people` against the current draft, and will clear the consumed review sidecar and re-grade.

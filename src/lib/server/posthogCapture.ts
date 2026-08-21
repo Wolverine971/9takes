@@ -32,6 +32,11 @@ type CaptureOptions = {
 	fetchImpl?: typeof fetch;
 };
 
+type RegistrationCompletedContext = {
+	userId: string;
+	enneagramType?: number | null;
+};
+
 const POSTHOG_HOST = (PUBLIC_POSTHOG_HOST || 'https://us.i.posthog.com').replace(/\/$/, '');
 
 export function buildReplyNotificationPostHogPayload(
@@ -89,6 +94,61 @@ export async function captureReplyNotificationEvent(
 		return true;
 	} catch {
 		console.warn('Reply-notification analytics capture failed', { event, status: 'network' });
+		return false;
+	}
+}
+
+export function buildRegistrationCompletedPostHogPayload(context: RegistrationCompletedContext) {
+	const properties: Record<string, string | number | boolean> = {
+		distinct_id: context.userId,
+		$process_person_profile: true,
+		$insert_id: `registration_completed:${context.userId}`,
+		flow: 'register',
+		account_state: 'pending_confirmation',
+		has_enneagram_type: context.enneagramType != null,
+		server_confirmed: true
+	};
+
+	if (
+		context.enneagramType != null &&
+		Number.isSafeInteger(context.enneagramType) &&
+		context.enneagramType >= 1 &&
+		context.enneagramType <= 9
+	) {
+		properties.enneagram_type = context.enneagramType;
+	}
+
+	return { api_key: PUBLIC_POSTHOG_KEY, event: 'registration_completed', properties };
+}
+
+export async function captureRegistrationCompleted(
+	context: RegistrationCompletedContext,
+	options: Pick<CaptureOptions, 'fetchImpl'> = {}
+): Promise<boolean> {
+	if (!PUBLIC_POSTHOG_KEY || !context.userId.trim()) return false;
+
+	const payload = buildRegistrationCompletedPostHogPayload(context);
+	const forbiddenKey = Object.keys(payload.properties).find((key) =>
+		/(email|fingerprint|token|ip_address|user_agent)/i.test(key)
+	);
+	if (forbiddenKey) {
+		console.warn('Skipped unsafe registration analytics payload', { forbiddenKey });
+		return false;
+	}
+
+	try {
+		const response = await (options.fetchImpl ?? fetch)(`${POSTHOG_HOST}/capture/`, {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify(payload)
+		});
+		if (!response.ok) {
+			console.warn('Registration analytics capture failed', { status: response.status });
+			return false;
+		}
+		return true;
+	} catch {
+		console.warn('Registration analytics capture failed', { status: 'network' });
 		return false;
 	}
 }

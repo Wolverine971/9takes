@@ -1,0 +1,36 @@
+All gates pass. `lastmod`, `date`, and `published` untouched.
+
+## What I did
+
+**Draft:** `src/blog/people/drafts/Jonathan-Bailey.md` — perspective-jury revision against `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003` (frozen SHA verified as a match before editing).
+
+**The jury's finding, in one line:** the draft improved on its sources at exactly the moments the improvement was most useful to it. Nine separate instances. Every one is now corrected against the transcript or the page underneath it.
+
+**All 9 P0s fixed:**
+- Time Out's review is no longer restaged as praise-then-knife (it wasn't); both critics' quotes and both three-star ratings untouched
+- The hiatus H2 stopped asserting the claim Bailey calls "an unfortunate misquote," and his correction is now the section's payoff
+- The epigraph was silently cut so a craft answer read as him confessing he's unworthy of love. **RQ-02 resolved, not defaulted** — a Wayback capture of the primary (403 live) returned the whole passage, so option (a) was available: frame restored, omission marked, capitalisation intact
+- The 1p stat now names the contradicting LGBT+ Consortium 10p figure and carries its true magnitude ("one hundredth of one percent")
+- The diagnosis named its closeting confound and gained a no-threat third exhibit (the backflip, cited not moved)
+- The presupposed hidden partner is gone from the cold open, the H2 and the section close
+- The inner-thought no longer puts body shame in a real thirteen-year-old's head
+- *Chicken Shop Date* is glossed as a comedy bit instead of equated with a newspaper interview
+- Ariana Grande's withdrawal is no longer the scoreboard for Bailey's resilience
+
+**All 10 P1s fixed**, plus P2-01 (partial, verified points only) and P2-08.
+
+**Contrast pairs: 0 strong / 1 comparative** — the comparative is "more often than not" inside Bailey's own epigraph quote, unaltered.
+
+**Two deliberate deviations, both logged in the artifact:** the hiatus heading says "Time Off," not the synthesis's "Year Off," because "the Year Off" is itself the paraphrase that item's acceptance test forbids; and P0-03 took option (a) rather than the recommended (b), because the GQ "murky" line is already spent in the childhood section.
+
+**Regression:** all 12 protected hits verified by exact string match, including the two the synthesis said to read last. PROTECT-01 is unsoftened and unmoved despite three repairs editing around it.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003/editor-resolution.md` (24 rows, all protected hits covered, unresolved decisions listed).
+
+## Still open
+
+- **`faqs` frontmatter is missing** — the enrich stage hasn't run. Separate blocker to publication.
+- **Word budget is tight.** 4,358 words against a 4,050 warn line and 4,500 ceiling. It briefly went over the ceiling; I funded the repairs by cutting the Grande scoreboard, flattening two mic-drop endings, and making about a dozen small redundancy cuts (a duplicated quote, three redundant "eight hours" mentions, a disputed university-place claim, an unsourced "most bookable" superlative). Deferred for budget: the remaining unfamiliar-reader glosses, the two opaque closer constructions, and the leftover Rabbit Hole concerns. None is a trust break.
+- **RQ-01 (LOEWE co-launch) deferred** — safe default taken, so P2-01 landed without it.
+
+The draft reads production-ready on trust and prose. It is not publish-eligible until the enrich stage runs and `/blog_perspective_verify_people` independently confirms the gate — I did not claim that pass myself.

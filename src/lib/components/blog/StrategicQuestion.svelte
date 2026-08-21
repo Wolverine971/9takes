@@ -16,6 +16,7 @@
 <script lang="ts">
 	import { tick } from 'svelte';
 	import { browser } from '$app/environment';
+	import { resolve } from '$app/paths';
 	import { capture } from '$lib/analytics/posthog';
 	import {
 		captureCommentCreated,
@@ -26,6 +27,11 @@
 		type CommentFailureStage
 	} from '$lib/analytics/commentEvents';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
+	import {
+		captureEmailSignupCompleted,
+		captureRevealCompleted,
+		captureTypeSelected
+	} from '$lib/analytics/marketingEvents';
 	import { Button } from '$lib/components/atoms';
 	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
@@ -71,18 +77,20 @@
 	let emailError = $state('');
 	let emailSubmitting = $state(false);
 	let honeypot = $state('');
+	let selectedType = $state<number | null>(null);
 	const loadedAt = Date.now();
+	const enneagramTypes = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
 
 	const wordCount = $derived(draft.trim() ? draft.trim().split(/\s+/).length : 0);
 
-	const questionHref = $derived.by(() => {
+	const questionSearchParams = $derived.by(() => {
 		const params = new URLSearchParams({
 			utm_source: 'blog',
 			utm_medium: 'strategic_question',
 			utm_campaign: campaign,
 			utm_content: blogSlug
 		});
-		return `/questions/${questionUrl}?${params.toString()}`;
+		return params.toString();
 	});
 
 	// Qualified impression: half visible for 750ms, once per tab and surface.
@@ -175,6 +183,14 @@
 				question_url: questionUrl,
 				campaign
 			});
+			void captureRevealCompleted({
+				surface: 'strategic_question',
+				sourcePath: browser ? window.location.pathname : `/enneagram-corner/${blogSlug}`,
+				campaign,
+				questionId,
+				questionUrl,
+				alreadyAnswered: Boolean(data?.alreadyAnswered)
+			});
 			await tick();
 			revealEl?.focus();
 		} catch (e) {
@@ -236,11 +252,18 @@
 			const result = (await res.json()) as { ok: boolean; code?: string; message?: string };
 			if (result.ok || result.code === 'already_exists') {
 				emailState = 'done';
-				void capture('strategic_question_email_signup', {
-					blog_slug: blogSlug,
-					question_url: questionUrl,
-					campaign
-				});
+				if (result.ok) {
+					void capture('strategic_question_email_signup', {
+						blog_slug: blogSlug,
+						question_url: questionUrl,
+						campaign
+					});
+					void captureEmailSignupCompleted({
+						surface: 'strategic_question',
+						sourcePath: browser ? window.location.pathname : `/enneagram-corner/${blogSlug}`,
+						campaign
+					});
+				}
 			} else {
 				emailError = result.message || 'We could not subscribe you. Please try again.';
 			}
@@ -249,6 +272,19 @@
 		} finally {
 			emailSubmitting = false;
 		}
+	}
+
+	function selectType(type: number) {
+		selectedType = type;
+		void captureTypeSelected({
+			surface: 'strategic_question_reveal',
+			sourcePath: browser ? window.location.pathname : `/enneagram-corner/${blogSlug}`,
+			campaign,
+			enneagramType: type,
+			questionId,
+			questionUrl,
+			postContribution: true
+		});
 	}
 
 	function typeColor(type: number) {
@@ -304,6 +340,7 @@
 	{#if phase === 'ask'}
 		<p class="sq-question">{question}</p>
 		<p class="sq-deal">Give your take. Then see how nine different minds answered it.</p>
+		<p class="sq-trust">Anonymous · no account required · your answer is added publicly.</p>
 		<form
 			class={[
 				'sq-composer',
@@ -380,10 +417,34 @@
 			</div>
 
 			<p class="sq-door">
-				<a href={questionHref} data-track="strategic-question-page-link">
+				<a
+					href={resolve(`/questions/${questionUrl}?${questionSearchParams}`)}
+					data-track="strategic-question-page-link"
+				>
 					See everyone's answers on the question page →
 				</a>
 			</p>
+
+			<div class="sq-type" role="group" aria-label="Optional Enneagram type">
+				<p class="sq-type-line">Optional: which type feels most like you?</p>
+				<div class="sq-type-options">
+					{#each enneagramTypes as type (type)}
+						<button
+							type="button"
+							class:selected={selectedType === type}
+							aria-pressed={selectedType === type}
+							onclick={() => selectType(type)}
+						>
+							{type}
+						</button>
+					{/each}
+				</div>
+				{#if selectedType}
+					<p class="sq-type-status" role="status">
+						Saved for this visit: {formatTypeLabel(selectedType)}
+					</p>
+				{/if}
+			</div>
 
 			{#if emailState !== 'dismissed'}
 				<div class="sq-email" role="group" aria-label="Get notified about new answers">
@@ -466,6 +527,12 @@
 	.sq .sq-deal {
 		font-size: 0.92rem;
 		color: var(--ink-mid);
+		margin: 0 0 0.35rem;
+	}
+
+	.sq .sq-trust {
+		font-size: 0.78rem;
+		color: var(--ink-dim);
 		margin: 0 0 1rem;
 	}
 
@@ -638,6 +705,48 @@
 
 	.sq .sq-door a:hover {
 		text-decoration: underline;
+	}
+
+	.sq .sq-type {
+		border-top: 1px solid var(--stone-edge);
+		padding: 1rem 0;
+	}
+
+	.sq .sq-type-line,
+	.sq .sq-type-status {
+		font-size: 0.85rem;
+		color: var(--ink-mid);
+		margin: 0 0 0.6rem;
+	}
+
+	.sq .sq-type-options {
+		display: grid;
+		grid-template-columns: repeat(9, minmax(2rem, 1fr));
+		gap: 0.35rem;
+	}
+
+	.sq .sq-type-options button {
+		appearance: none;
+		min-height: 2.35rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 999px;
+		background: transparent;
+		color: var(--ink-mid);
+		font: inherit;
+		font-weight: 700;
+		cursor: pointer;
+	}
+
+	.sq .sq-type-options button:hover,
+	.sq .sq-type-options button.selected {
+		border-color: var(--lamp-glow);
+		background: color-mix(in srgb, var(--lamp-glow) 16%, transparent);
+		color: var(--ink-bright);
+	}
+
+	.sq .sq-type-status {
+		margin: 0.6rem 0 0;
+		color: var(--ink-bright);
 	}
 
 	/* ---- email ask: quiet, below the nine ---- */

@@ -1,0 +1,27 @@
+YAML parses clean and the weighted math checks out (8.71 → 8.7).
+
+## Grading Complete — Jonathan Bailey
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jonathan-Bailey | 9 | 9 | 9 | 8 | 8 | 9 | 8.7 | B+ |
+
+*(Weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Discoverability 9 ≥ 7, so the gate does not fire. No caps applied.)*
+
+### Key Observations
+
+**Why the three weighted dimensions all landed at 9:**
+
+- **Evidence** — source audit is 5/5 inline, 0 vague, 0 untagged, with no untagged slot in the epigraph or cold open. Four distinct named people give dated testimony. Most notably, the unverifiable load-bearing stat (Bailey's "1p of every £100") is flagged as his own count, contradicted with the sourced 10p figure from LGBT+ Consortium, and the reason it isn't a refutation is named. That's the opposite of the failure mode this rubric was calibrated against.
+- **Originality** — the backflip is a real signature detail, and the draft disqualifies its two easier exhibits ("being closeted does most of that work on anybody") to make it load-bearing. That self-narrowing move doesn't appear elsewhere in the recent corpus.
+- **Discoverability** — meta_title 57 chars, description 155, answer block 37 words as a declarative H3, 5 FAQs on genuine query families, Wikidata + IMDb + LoC in `same_as`.
+
+**What holds it off an A:** the emotional interior is front-loaded. One `<p class="inner-thought">`, at thirteen — and the back ~1,400 words (quit-acting timeline, Barbican casting) run as reportage with the type parked. The Ariana Grande withdrawal is thematically perfect for the thesis and gets reported rather than argued. That's the Enneagram 8.
+
+**One concrete defect worth fixing before publish:** line 292 links anchor text `[Esquire]` to an `eonline.com` URL. The ledger discloses the syndication; the reader doesn't see the ledger. It's the only clean fact-checker trip in an otherwise exemplary sourcing record.
+
+**Sameness check: PASS, no cap.** Against Prince-Harry, Ms-Rachel, and Bill-Burr: no "The tell:" bullet, no corpus-stat sentence, no reader-command imperatives, and — checked by grep — no `armor`/`scar tissue` empathy grammar. One genuine overlap (return-to-the-childhood-wound close, shared with Ms-Rachel), well under the 3+ threshold. Deterministic scans agree: contrast pairs 1/0 strong, same-type-similarity CLEAR at 0.041.
+
+**Ledger spot-checks:** I verified the heading-mix count (6 search-intent/hybrid of 8), the distribution claim (2 type-theory paragraphs outside diagnosis/rabbit hole), and that the Seven/Four/One counter-typing ladder the second pass claims to have cut is actually gone. Ledgers are current rather than stale — uncommon in this pipeline.
+
+Files written: `src/blog/people/drafts/Jonathan-Bailey.md` (frontmatter block) and `docs/content-analysis/grades/Jonathan-Bailey.review.md` (sidecar). No legacy `QUALITY GRADE` block existed in the body to remove.

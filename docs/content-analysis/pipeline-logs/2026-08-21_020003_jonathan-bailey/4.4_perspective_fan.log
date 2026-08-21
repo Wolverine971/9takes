@@ -1,0 +1,15 @@
+All eleven required H2 headings present in order; frontmatter counts (1 blocker, 12 concerns) match the document.
+
+**Saved:** `docs/content-analysis/perspective-reviews/Jonathan-Bailey/2026-08-21_020003/fan.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. Snapshot SHA `beb6dbab…4907` verified against `context.json` and the supplied `--draft-sha` before reading.
+
+**Blockers: 1**
+
+`FAN-B1` — The draft stages the Time Out review as "Lukowski opened with 'Jonathan Bailey is a great stage actor'… and then landed the knife." The review doesn't open that way; the praise is in paragraph two, sharing a clause with Hytner. The packet fetched the live page and records this as its only flatly contradicted claim. Bailey's fanbase reads theatre criticism, the review is unpaywalled, and this is the section the draft designates as its critic-pressure anchor. One-sentence fix.
+
+**Strongest hit:** "Charm is a transaction with a room. Sorrow is not, and neither is love, which is the same border he polices offstage." That is the fan-delight test passed — the lukewarm Richard II notices and the refusal to name a partner are both familiar; fusing them is not. Preserve intact.
+
+**Highest-priority concern:** `FAN-C1` — the draft builds a mechanism claim that grief reaches him late, and never tests it against the two performances he's most decorated for reaching it in: Anthony's bee-sting/father's-death trauma in *Bridgerton* S2 (critics singled that register out for praise) and Tim Laughlin's death in *Fellow Travelers* — which the draft itself cites for an Emmy nomination two sections earlier. A fan raises this inside ten seconds. Repair is ~40 words, and conceding the counterexample makes the paragraph stronger than dodging it.
+
+Two research findings worth flagging beyond the file. My best lead half-broke on contact: Bailey did play Edgar to McKellen's Lear, but at **Chichester in 2017**, not the 2018 West End transfer (Luke Thompson replaced him) — so the tempting "came out the year he played Edgar" framing is wrong, and I wrote that warning into the repair note. The connection that survives is still the biggest unclaimed one in the record: the draft quotes the Attitude "Tupperware box" conversation four times without mentioning it was a conversation *with McKellen*, three years after they shared a stage. Separately, `FAN-C2` — the *Bridgerton* S4 absence the closer reads as a career tell is just the anthology format; Page left after S1 and Dynevor was absent from S3 and S4 the same way.

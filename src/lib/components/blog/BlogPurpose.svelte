@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import EnneagramDiagram from './EnneagramDiagram.svelte';
 	import { notifications } from '../molecules/notifications';
+	import { captureEmailSignupCompleted } from '$lib/analytics/marketingEvents';
 
 	type SignupResponse = { ok: boolean; code?: string; message?: string };
 
@@ -44,6 +45,10 @@
 			if (result.ok) {
 				submitted = true;
 				email = '';
+				void captureEmailSignupCompleted({
+					surface: 'blog_purpose',
+					sourcePath: typeof window !== 'undefined' ? window.location.pathname : undefined
+				});
 				notifications.success("You're subscribed", 3000);
 				notifications.info('Check your inbox for the welcome note.', 5000);
 			} else if (result.code === 'already_exists') {

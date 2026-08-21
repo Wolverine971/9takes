@@ -1,0 +1,9 @@
+blog-quality-report: Jonathan-Bailey
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [more/less-than] L164: And actually, if you long for someone, more often than not you don't think you are worthy of it.
+
+2.4 Head-term: PASS  meta_title=Jonathan Bailey Enneagram Type 3: The Boy Who Quit Ballet
+   answer-block: ok (37 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 421)

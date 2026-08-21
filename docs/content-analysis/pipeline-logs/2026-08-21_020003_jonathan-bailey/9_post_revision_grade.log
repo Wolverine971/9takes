@@ -1,0 +1,25 @@
+Frontmatter validates cleanly.
+
+## Grading Complete — Jonathan Bailey (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Jonathan-Bailey | 9 | 8 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+`(9×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability 9 clears the gate — no cap. **Caps applied: none.**
+
+### Key observations
+
+**This is a regrade, and the revision demonstrably worked.** The draft entered at C (7.7) with two caps — `evidence_untraceable_load_bearing` and `originality_cross_draft_sameness`. Both are now cleared, and cleared verifiably rather than by assertion: the source audit reports 5/5 load-bearing quotes inline, 0 vague, 0 untagged, and the body went from zero outbound source links to seven. Delta +0.9.
+
+**Evidence (9) is the standout.** It goes past attribution into fact-checking its own subject: the 1p-in-every-£100 charity stat is flagged as Bailey's unsourced count, and the contradicting LGBT+ Consortium 10p figure is named *with* the denominator caveat that stops it being a false refutation. The Testimony Ledger also holds out four quotes it couldn't trace to a primary.
+
+**The backflip argument is the reason this isn't just another compliant draft.** The diagnosis concedes that two of its three exhibits are contaminated by the closet, then rests the type call on the one with no threat in it. Auditing your own evidence and discarding the weak half is rare in this corpus.
+
+**Deterministic checks all clean:** 0 strong contrast pairs (the single comparative is inside a verbatim epigraph quote), head-term PASS, answer block 37 words, same-type similarity CLEAR at 0.041 vs `alexandr-wang` — noise floor. Body em-dash free; the four hits are all in ledgers or the epigraph attribution. Ledger spot-checks passed: all 5 testimony quotes are really in the body, both retitled H2s exist, and two issues the cohesion pass flagged as open (the six-vs-seven RSC age conflict, the double ending) were actually fixed downstream.
+
+**Why not an A.** Originality and Writing both sit at 8 for nameable reasons. Three house-formula moves still repeat across the corpus — the epigraph→`firstLetter` cold open, the return-to-the-childhood-wound penultimate beat (same shape as Ms-Rachel's trolley close), and six aphoristic section closers. None are near-verbatim, so the cap-at-7 doesn't fire, but they're the ceiling. The body is also at ~4,420 words against a 4,500 hard ceiling, and the Barbican section is where the flab is — the Ariana Grande withdrawal material borrows weight from someone else's news cycle.
+
+One flag worth your attention: the empathy turn escapes the `house_empathy_turn` cap only on a technicality. It's a not-X/is-Y construction, and the contrast-pair regex missed it purely because it's split across two sentences. It survives because the Y-term is this piece's own vocabulary rather than the stock armor/scar-tissue — but it's still house grammar.
+
+Sidecar written to `docs/content-analysis/grades/Jonathan-Bailey.review.md` with a concrete 5-step path to A. Per the rubric, I'm not making a publication call — that's downstream from these numbers.

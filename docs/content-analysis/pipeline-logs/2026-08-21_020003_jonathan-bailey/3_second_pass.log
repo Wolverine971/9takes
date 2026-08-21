@@ -1,0 +1,16 @@
+Second pass complete on `src/blog/people/drafts/Jonathan-Bailey.md`.
+
+**Source audit was the first-order fix.** It came in at 3 untagged + 1 vague and now reads **5/5 inline**. The cold-open pitch quote and the diagnosis "story and a narrative" line both trace to the same CBS Sunday Morning interview (Michelle Miller, Aug 2024) and are now tagged there. The Tupperware cluster needed `Attitude` registered in `scripts/blog-source-audit.mjs` — added to `AMBIGUOUS_OUTLETS` (it's a common noun, so the adjacent-cue rule applies), along with `Evening Standard` in `OUTLETS`. I also killed a phantom untagged slot by replacing a weak paraphrase about the Jon M. Chu meeting with what Bailey actually said about it.
+
+**Main content changes:**
+
+- **New H2 — "What Is Jonathan Bailey Doing Next? Sondheim at the Barbican."** The fresh-eyes review was right that this was the biggest live miss. It lands the Barbican bookend (RSC at seven → Georges at 39), Marianne Elliott and the *Company* Olivier, and Ariana Grande's 2 Aug 2026 withdrawal. I verified all of it before writing: Grande out via her rep's statement to People, Empire Street Productions' response, Bailey still in the role, summer 2027 as planned. It also retroactively earns the Rabbit Hole's "he keeps going back to Sondheim," which had been floating with nothing under it.
+- Anthony Bridgerton is now identified in the cold open — biography intent was going unanswered.
+- *Fellow Travelers* cashed out rather than passed by, and *Jurassic World Rebirth* + the real reason for the Bridgerton S4 absence now land in the closer.
+- Trims: the "Thirteen" prompt-book entry stopped re-staging the cold open; the Seven/Four/One counter-typing ladder is gone from diagnosis (the ledger claimed zero and was wrong); the Open University reveal is spent once, in the close.
+
+**One fresh-eyes item I rejected outright:** a second `<p class="inner-thought">` in the sabbatical section. There's no quote under his interior state at 37, so it would have been invented interiority.
+
+**One thing worth flagging:** the fresh-eyes note asked for the verbatim "It's not secret, but it's private." That sentence is a literal "not X, but Y" and trips blog-lint's hard contrast-pair gate — I confirmed it produced a FAIL. Rather than alter a quote or drop the beat, the distinction is carried at word level ("private" rather than "secret," Evening Standard, Dec 2023). Documented in the ledger.
+
+**Post-pass state:** blog-lint 0 fail / 2 warn, same-type-similarity CLEAR (0.041, unchanged), frontmatter parses, `lastmod` untouched. The two warns are the missing `faqs` frontmatter (enrich stage hasn't run — that's the one thing still blocking a full publish path) and the single comparative contrast, which is inside the verbatim epigraph.

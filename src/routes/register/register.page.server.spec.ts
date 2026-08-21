@@ -8,6 +8,9 @@ const {
 	recordAuthProtectionEventMock,
 	safelyEnrollMock,
 	safelyProcessMock,
+	captureRegistrationCompletedMock,
+	profileUpdateMock,
+	profileEqMock,
 	loggerMocks
 } = vi.hoisted(() => ({
 	verifyRecaptchaMock: vi.fn(),
@@ -16,6 +19,9 @@ const {
 	recordAuthProtectionEventMock: vi.fn(),
 	safelyEnrollMock: vi.fn(),
 	safelyProcessMock: vi.fn(),
+	captureRegistrationCompletedMock: vi.fn(),
+	profileUpdateMock: vi.fn(),
+	profileEqMock: vi.fn(),
 	loggerMocks: {
 		info: vi.fn(),
 		warn: vi.fn(),
@@ -38,6 +44,16 @@ vi.mock('$lib/server/welcomeSequenceGuards', () => ({
 	safelyProcessWelcomeSequenceEnrollmentNow: safelyProcessMock
 }));
 
+vi.mock('$lib/server/posthogCapture', () => ({
+	captureRegistrationCompleted: captureRegistrationCompletedMock
+}));
+
+vi.mock('$lib/server/supabaseAdmin', () => ({
+	getSupabaseAdminClient: () => ({
+		from: vi.fn(() => ({ update: profileUpdateMock }))
+	})
+}));
+
 vi.mock('$lib/utils/logger', () => ({
 	logger: loggerMocks
 }));
@@ -50,6 +66,7 @@ function buildRegisterRequest(overrides: Record<string, string> = {}) {
 	formData.append('password', overrides.password ?? 'Password1');
 	formData.append('form_extra', overrides.form_extra ?? '');
 	formData.append('g-recaptcha-response', overrides['g-recaptcha-response'] ?? 'token');
+	formData.append('enneagram', overrides.enneagram ?? '');
 
 	return new Request('http://localhost/register', {
 		method: 'POST',
@@ -97,6 +114,9 @@ describe('register action', () => {
 		});
 		safelyEnrollMock.mockResolvedValue('enrollment-1');
 		safelyProcessMock.mockResolvedValue(true);
+		captureRegistrationCompletedMock.mockResolvedValue(true);
+		profileEqMock.mockResolvedValue({ error: null });
+		profileUpdateMock.mockReturnValue({ eq: profileEqMock });
 	});
 
 	it('keeps successful registration working while enrolling in the welcome sequence', async () => {
@@ -117,6 +137,24 @@ describe('register action', () => {
 				enrollmentId: 'enrollment-1'
 			})
 		);
+		expect(captureRegistrationCompletedMock).toHaveBeenCalledWith({
+			userId: 'user-123',
+			enneagramType: null
+		});
+	});
+
+	it('stores an optional Enneagram type and includes it in the registration conversion', async () => {
+		const event = buildEvent(undefined, { enneagram: '5' });
+
+		const result = await actions.register(event as any);
+
+		expect(result).toEqual({ success: true });
+		expect(profileUpdateMock).toHaveBeenCalledWith({ enneagram: '5' });
+		expect(profileEqMock).toHaveBeenCalledWith('id', 'user-123');
+		expect(captureRegistrationCompletedMock).toHaveBeenCalledWith({
+			userId: 'user-123',
+			enneagramType: 5
+		});
 	});
 
 	it('still returns success when welcome-sequence enrollment fails internally', async () => {
@@ -147,6 +185,8 @@ describe('register action', () => {
 		expect(result).toEqual({ success: true });
 		expect(safelyEnrollMock).not.toHaveBeenCalled();
 		expect(safelyProcessMock).not.toHaveBeenCalled();
+		expect(captureRegistrationCompletedMock).not.toHaveBeenCalled();
+		expect(profileUpdateMock).not.toHaveBeenCalled();
 	});
 
 	it('only verifies reCAPTCHA after registration risk thresholds are hit', async () => {

@@ -9,6 +9,8 @@ import {
 	safelyEnrollUserInWelcomeSequence,
 	safelyProcessWelcomeSequenceEnrollmentNow
 } from '$lib/server/welcomeSequenceGuards';
+import { captureRegistrationCompleted } from '$lib/server/posthogCapture';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { z } from 'zod';
 
 // Validation schema
@@ -19,7 +21,8 @@ const registerSchema = z.object({
 		.min(8, 'Password must be at least 8 characters')
 		.regex(/[A-Z]/, 'Password must contain at least one uppercase letter')
 		.regex(/[a-z]/, 'Password must contain at least one lowercase letter')
-		.regex(/[0-9]/, 'Password must contain at least one number')
+		.regex(/[0-9]/, 'Password must contain at least one number'),
+	enneagram: z.enum(['1', '2', '3', '4', '5', '6', '7', '8', '9']).or(z.literal('')).optional()
 });
 
 export const load: PageServerLoad = async (event) => {
@@ -68,6 +71,9 @@ export const actions: Actions = {
 			// Validate input
 			const validatedData = registerSchema.parse(body);
 			const { email, password } = validatedData;
+			const enneagramType = validatedData.enneagram
+				? Number.parseInt(validatedData.enneagram, 10)
+				: null;
 			normalizedEmail = email.trim().toLowerCase();
 			const protectionState = await getAuthProtectionState({
 				flow: 'register',
@@ -160,6 +166,19 @@ export const actions: Actions = {
 
 			if (!isExistingConfirmedUser) {
 				const newUserId = signUpData.user?.id;
+				if (newUserId && enneagramType) {
+					const admin = getSupabaseAdminClient() as any;
+					const { error: profileTypeError } = await admin
+						.from('profiles')
+						.update({ enneagram: String(enneagramType) })
+						.eq('id', newUserId);
+					if (profileTypeError) {
+						logger.warn('Failed to save registration Enneagram type', {
+							userId: newUserId,
+							error: profileTypeError
+						});
+					}
+				}
 				const enrollmentId = await safelyEnrollUserInWelcomeSequence({
 					userId: newUserId,
 					email: normalizedEmail,
@@ -180,6 +199,12 @@ export const actions: Actions = {
 						});
 					}
 				});
+				if (newUserId) {
+					await captureRegistrationCompleted({
+						userId: newUserId,
+						enneagramType
+					});
+				}
 			}
 
 			await recordAuthProtectionEvent({

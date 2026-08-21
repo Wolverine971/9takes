@@ -94,9 +94,11 @@
 	let activeIndex = $state(-1);
 	let debounceTimer = $state<ReturnType<typeof setTimeout> | null>(null);
 	let internalLoading = $state(false);
+	let activeQuery = $state('');
 	const cachedResults = new Map<string, ComboBoxOption[]>();
 
 	let isLoading = $derived(loading || internalLoading);
+	let selectableResultCount = $derived(flattenOptions(list).length);
 
 	$effect(() => {
 		selectedValue = value;
@@ -258,6 +260,7 @@
 	}
 
 	async function showList(inputValue: string) {
+		activeQuery = inputValue.trim();
 		const cacheKey = inputValue || '';
 		if (cachedResults.has(cacheKey)) {
 			list = cachedResults.get(cacheKey) ?? [];
@@ -431,16 +434,21 @@
 				{:else}
 					{#if isLoading}
 						<li class="combobox__no-results" role="status">Searching...</li>
+					{:else if activeQuery.length < 2}
+						<li class="combobox__no-results" role="status">Type 2 or more characters to search</li>
 					{:else}
-						<li class="combobox__no-results" role="alert">No results available</li>
+						<li class="combobox__no-results" role="status">No matching results</li>
 					{/if}
 				{/each}
 			</ul>
 		{/if}
 
-		<div class="visually-hidden" role="status" aria-live="polite">
-			{list.length} results available.
-		</div>
+		{#if isListOpen && activeQuery.length >= 2 && !isLoading}
+			<div class="visually-hidden" role="status" aria-live="polite">
+				{selectableResultCount}
+				{selectableResultCount === 1 ? 'result' : 'results'} available.
+			</div>
+		{/if}
 
 		{#if error}
 			<div id="{id}-error" class="visually-hidden">{error}</div>

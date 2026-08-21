@@ -8,11 +8,12 @@
 	import { enhance } from '$app/forms';
 	import { goto, invalidateAll } from '$app/navigation';
 	import { fade, fly } from 'svelte/transition';
-	import { onMount, tick } from 'svelte';
+	import { onMount, tick, untrack } from 'svelte';
 	import { browser } from '$app/environment';
+	import { resolve } from '$app/paths';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { PUBLIC_RECAPTCHA_SITE_KEY } from '$env/static/public';
-	import { Button, Field, Input } from '$lib/components/atoms';
+	import { Button, Field, Input, Select } from '$lib/components/atoms';
 	import CaptchaFrame from '$lib/components/molecules/CaptchaFrame.svelte';
 	import {
 		ensureRecaptchaLoaded,
@@ -25,6 +26,7 @@
 
 	let email = $state('');
 	let password = $state('');
+	let enneagram = $state('');
 	let loading = $state(false);
 	let formError = $state('');
 
@@ -36,7 +38,7 @@
 		lower: /[a-z]/.test(password),
 		number: /[0-9]/.test(password)
 	});
-	let captchaRequired = $state(data.captchaRequired ?? false);
+	let captchaRequired = $state(untrack(() => data.captchaRequired ?? false));
 	let recaptchaTheme = $state<'light' | 'dark'>('dark');
 	let captchaContainer = $state<HTMLDivElement | null>(null);
 	let captchaWidgetId: number | null = null;
@@ -100,7 +102,7 @@
 			if (result.type === 'success') {
 				notifications.success('Account created! Please check your email.', 6000);
 				// Keep loading=true during navigation
-				await goto('/login');
+				await goto(resolve('/login'));
 				await invalidateAll();
 				// loading stays true since we're navigating away
 				return;
@@ -161,7 +163,7 @@
 		questions you follow in one place.
 	</p>
 	<p class="auth-switch" in:fly={{ y: -12, duration: 300, delay: 200 }}>
-		Already have an account? <a href="/login">Log in</a>
+		Already have an account? <a href={resolve('/login')}>Log in</a>
 	</p>
 	<form
 		action="?/register"
@@ -199,6 +201,15 @@
 				<li class:met={passwordChecks.number}>number</li>
 			</ul>
 		</Field>
+		<Field for="enneagram" label="Enneagram type" optional>
+			<Select id="enneagram" name="enneagram" bind:value={enneagram}>
+				<option value="">Not sure yet</option>
+				{#each Array.from({ length: 9 }, (_, index) => index + 1) as type (type)}
+					<option value={String(type)}>Type {type}</option>
+				{/each}
+			</Select>
+			<p class="type-help">Optional. Add it now so your future takes can carry the right lens.</p>
+		</Field>
 
 		{#if formError}
 			<div class="error-message" role="alert">{formError}</div>
@@ -227,7 +238,7 @@
 		</Button>
 	</form>
 	<div class="forgot-link" in:fly={{ y: 20, duration: 300, delay: 450 }}>
-		<a href="/forgotPassword">Forgot Password?</a>
+		<a href={resolve('/forgotPassword')}>Forgot Password?</a>
 	</div>
 </div>
 
@@ -305,6 +316,13 @@
 				content: '● ';
 			}
 		}
+	}
+
+	.type-help {
+		margin: 0.45rem 0 0;
+		color: var(--ink-dim);
+		font-size: 0.82rem;
+		line-height: 1.4;
 	}
 
 	.error-message {

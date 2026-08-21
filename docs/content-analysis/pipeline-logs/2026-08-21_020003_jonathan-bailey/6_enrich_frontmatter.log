@@ -1,0 +1,24 @@
+Frontmatter enrichment complete: **Jonathan-Bailey**
+
+**Fields filled:**
+`wikidata_qid`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved untouched):**
+`wikipedia`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation` — all independently verified against Wikidata `Q6272488` ("Jonathan Bailey, English actor"): P345 confirms `nm0047332` is this person, P569 confirms 1988-04-25, P19 resolves to Wallingford (Oxfordshire), P27 = United Kingdom. No correction needed. `lastmod` untouched.
+
+**FAQs generated (5)** — every anchor verified against real heading slugs by running the repo's own `github-slugger@2.0.0` over the H2/H3 set, so all five deep-link to a live section:
+
+1. What is Jonathan Bailey's personality type? → `#what-is-jonathan-baileys-personality-type`
+2. Is Jonathan Bailey dating anyone? → `#is-jonathan-bailey-dating-anyone-what-he-will-and-will-not-say`
+3. Did Jonathan Bailey quit acting? → `#did-jonathan-bailey-quit-acting-what-the-time-off-was-actually-for`
+4. Why did Jonathan Bailey stop doing ballet? → `#thirteen-the-friend-in-the-doorway`
+5. What did critics say about Jonathan Bailey's Richard II? → `#what-critics-said-about-jonathan-baileys-richard-ii`
+
+**Verification:** `blog-lint.sh` → **0 fail, 2 warn**. Both warnings are pre-existing body issues, not mine (the 1 comparative is the Bailey epigraph quote the FORMULA FINGERPRINT ledger already accounts for; the 4358-word count is the body). Lint confirms `faqs present and FAQPage-eligible (5 real Q/A pairs)` and `no templated FAQ filler`. Line delta is exactly +50, all inside the frontmatter block — body byte-identical.
+
+**Issues:**
+
+- **Body has zero inline external URLs.** All sources are named in prose ("CBS Sunday Morning, 2024", "Attitude, 2020") with no links, so `citations` could not be extracted per the normal rule. I rebuilt it from the outlets the body actually cites, cross-referenced against the verified URLs in the pipeline's own research artifacts, and HTTP-checked each: 7 of 8 return 200. The Interview magazine primary returns 403 to bots (the FORMULA FINGERPRINT ledger already documents this and used a Wayback capture); it's the canonical source for the epigraph and the "chemistry machine" quote, so I kept the primary URL.
+- **Date discrepancy in the body I could not fix (body is read-only):** the draft attributes the Tupperware box and "gay, but not too gay" quotes to "Attitude, 2020." I verified both quotes on the Attitude page, but it's Attitude issue 331 (February 2021, republished March 2022). Worth a correction on a body pass.
+- Could not locate a citable URL for the CBS Sunday Morning 2024 segment, which carries the load-bearing thirteen-year-old ballet quote. Not invented — omitted.
+- No Britannica entry exists (Wikidata has no P1417), so `same_as` runs Wikipedia / Wikidata / IMDb / Library of Congress name authority (`no2016088080`, confirmed via P244) — 4 items, matching the Einstein gold standard's depth.

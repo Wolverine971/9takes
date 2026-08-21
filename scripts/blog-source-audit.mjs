@@ -461,7 +461,15 @@ const OUTLETS = [
 	'WBUR',
 	'Here & Now',
 	'Democracy Now',
-	'Good Morning America'
+	'Good Morning America',
+	// UK national and LGBTQ+ press (Jonathan-Bailey pass, 2026-08-21). The
+	// Evening Standard carries this subject's load-bearing privacy quote ("It's
+	// not secret, but it's private," Dec 2023) and "Standard" is not in
+	// OUTLET_SUFFIX, so it graded vague however precisely it was cited. Both are
+	// named, dated, bylined publications. (Attitude, the UK's biggest gay
+	// magazine and the venue for his 2020 coming-out interview with Ian
+	// McKellen, is a dictionary word and sits in AMBIGUOUS_OUTLETS below.)
+	'Evening Standard'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when
@@ -497,7 +505,14 @@ const AMBIGUOUS_OUTLETS = [
 	// quote. It sits in AMBIGUOUS_OUTLETS rather than OUTLETS because "source" is
 	// a dictionary word; case-sensitive matching plus the adjacent-cue rule keeps
 	// "according to a source" from counting.
-	'Source'
+	'Source',
+	// Attitude (Jonathan-Bailey pass, 2026-08-21). The UK's biggest gay magazine
+	// holds this subject's entire closeted-twenties spine — the Tupperware box,
+	// the withdrawal, "they want you to be gay, but not too gay" — from the Dec
+	// 2020 Ian McKellen cover interview. It sits here rather than in OUTLETS
+	// because "attitude" is a common noun; the adjacent-cue rule keeps "his
+	// attitude to the work" from counting.
+	'Attitude'
 ];
 const ATTR_CUE = '(?:told|to|in|for|on|per|via|according to|wrote (?:in|for)|said (?:in|to)|[—-])';
 

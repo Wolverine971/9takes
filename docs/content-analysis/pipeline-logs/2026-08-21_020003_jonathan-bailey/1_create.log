@@ -1,0 +1,38 @@
+Draft is complete and all deterministic checks pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Jonathan-Bailey.md
+RESEARCH: /docs/content-analysis/research/Jonathan-Bailey.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 pass · Gate 2 pass · Gate 3 pass · Gate 4 pass · Gate 5 pass · Gate 6 pass
+```
+
+**Deterministic readings**
+
+| Check | Result |
+| --- | --- |
+| `blog-lint.sh` | 34 ok, **0 fail**, 2 warn |
+| `blog-quality-report` contrast pairs | **0 strong**, 1 comparative (inside a verbatim Bailey quote) |
+| Head-term | PASS |
+| Answer block | extractable, 37 words |
+| `same-type-similarity --n 8` | **clear** (top residual 0.041, a lexical coincidence between two unrelated quoted similes) |
+| Internal links | 5, no self-loop |
+
+**The call:** Enneagram Type 3, 3w2, social-dominant. The internet consensus is 7w8; I argue against it in the Rabbit Hole. The tiebreaker is his own account of quitting ballet at thirteen after catching one look from a friend across the studio — an image edit, not a Seven's sideways escape. His documented low period is numbness ("a Tupperware box that had been locked down"), which is the 3→9 arrow, and the charity he founded is called Shameless, which is the 3's core affect named on the door.
+
+**Four transcripts pulled** (CBS *Here Comes the Sun*, People SMOTY, *Chicken Shop Date*, Popcorn Podcast). The CBS one produced the whole spine — the ballet scene had not surfaced in any text source I searched.
+
+**Testimony:** 5 qualifying quotes, including a genuine critic-pressure anchor. Matt Wolf in The Arts Desk on his *Richard II*: *"will you weep for this Richard? As of my recent visit, I'd say no."* Time Out's Andrzej Lukowski made the same charge independently. That gets conceded before it gets answered.
+
+**Things you should know**
+
+1. **The entity-gap packet said PASS (31/100)** and the pipeline ran the create stage anyway. The verdict was about SERP saturation — Bailey has a personal Wikipedia page plus two dedicated Wikipedia satellites — not about evidence. Source depth scored 14/15 and that held up. I wrote this thesis-first per the packet's override conditions: no general biography, life-and-career only as evidence, partner question answered once as "not publicly established" and dropped. If you disagree with the override, the draft is unpublished and costs nothing to shelve.
+2. **Relationship status is deliberately unresolved.** Both contradictory data points are named (Evening Standard 2023 "a lovely man"; *Chicken Shop Date* July 2025 "I'm available") and neither is adjudicated. No partner is named or implied anywhere.
+3. **Four testimony quotes I gathered are not in the draft** — a Sondheim reaction via Marianne Elliott, an Elliott line, a Hytner line, a Jon M. Chu casting quote. All four appear only in search summaries; I could not reach a primary source, so they sit in a commented block for a later pass.
+4. **Access limitations:** Interview magazine returned 403, and Tollbit walled THR, Deadline and WWD. Those quotes were recovered via syndication and cross-checked across at least two reproductions each. Logged in the research file.
+5. **Least certain call:** the instinctual subtype. Social vs sexual is genuinely close and I say so in the Rabbit Hole rather than papering over it.
+6. `faqs` frontmatter is empty — that belongs to `blog_content_frontmatter_enrich_people`, which hasn't run.
+
+No grade was assigned; `/grade_blog` owns that.
