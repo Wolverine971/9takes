@@ -106,7 +106,7 @@ Each Enneagram type carries a core fear and a core desire. The love language is 
 
 ## Type 1: The Perfectionist's Love Language
 
-<a href="/blog/enneagram/enneagram-type-1">→ Learn more about Type 1: The Perfectionist</a>
+<a href="/enneagram-corner/enneagram-type-1">→ Learn more about Type 1: The Perfectionist</a>
 
 **Primary:** Acts of Service &nbsp;·&nbsp; **Secondary:** Words of Affirmation
 **Core wound it's healing:** The belief that if they stop maintaining the world, everything falls apart. Acts of Service is someone else picking up a corner of the load.
@@ -131,7 +131,7 @@ Name the specific effort, help them hit their standard instead of dismissing it,
 
 ## Type 2: The Helper's Love Language Paradox
 
-<a href="/blog/enneagram/enneagram-type-2">→ Learn more about Type 2: The Helper</a>
+<a href="/enneagram-corner/enneagram-type-2">→ Learn more about Type 2: The Helper</a>
 
 **Primary:** Words of Affirmation &nbsp;·&nbsp; **Secondary:** Physical Touch
 **Core wound it's healing:** The fear that they're only loved for what they give. Words of Affirmation are the proof their _existence_ is lovable, not just their usefulness.
@@ -160,7 +160,7 @@ Name what they are, not what they do. Catch them in the middle of _not_ helping 
 
 ## Type 3: The Achiever's Performance Love
 
-<a href="/blog/enneagram/enneagram-type-3">→ Learn more about Type 3: The Achiever</a>
+<a href="/enneagram-corner/enneagram-type-3">→ Learn more about Type 3: The Achiever</a>
 
 **Primary:** Receiving Gifts &nbsp;·&nbsp; **Secondary:** Words of Affirmation
 **Core wound it's healing:** The suspicion that they're only loved for their wins. A thoughtful, specific gift is evidence that someone saw _them_—their taste, their rhythm, their weird niche preferences—not just the highlight reel.
@@ -185,7 +185,7 @@ Catch them doing nothing and love them there. Celebrate their wins, yes—but al
 
 ## Type 4: The Individualist's Depth Connection
 
-<a href="/blog/enneagram/enneagram-type-4">→ Learn more about Type 4: The Individualist</a>
+<a href="/enneagram-corner/enneagram-type-4">→ Learn more about Type 4: The Individualist</a>
 
 **Primary:** Quality Time &nbsp;·&nbsp; **Secondary:** Receiving Gifts (when personalized)
 **Core wound it's healing:** The fear of being fundamentally missing something everyone else has. Quality Time is the one place where being deeply _seen_ is possible, and being seen is how they come to believe they're real.
@@ -210,7 +210,7 @@ Trade generic for specific every time. Ask the follow-up question. Say out loud 
 
 ## Type 5: The Investigator's Independent Love
 
-<a href="/blog/enneagram/enneagram-type-5">→ Learn more about Type 5: The Investigator</a>
+<a href="/enneagram-corner/enneagram-type-5">→ Learn more about Type 5: The Investigator</a>
 
 **Primary:** Acts of Service &nbsp;·&nbsp; **Secondary:** Quality Time (with space)
 **Core wound it's healing:** The fear of being overwhelmed and drained until nothing is left. Acts of Service done _without making a thing of it_ is love that costs them nothing—which, for a Type 5, is the only kind they can actually accept.
@@ -238,7 +238,7 @@ Their love can look like withdrawal. They'll retreat to process, then return, ex
 Do the practical thing quietly. Don't ask for a reaction. Give them space without taking it personally. And when they do open up, don't rush the window closed by asking for more than they've just offered.
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/enneagram-types-in-relationships" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/enneagram-types-in-relationships" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statues-on-a-date.webp`}
           showIcon={false}
@@ -251,7 +251,7 @@ Do the practical thing quietly. Don't ask for a reaction. Give them space withou
 
 ## Type 6: The Loyalist's Security Love
 
-<a href="/blog/enneagram/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
+<a href="/enneagram-corner/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
 
 **Primary:** Words of Affirmation &nbsp;·&nbsp; **Secondary:** Acts of Service
 **Core wound it's healing:** The constant low-grade anxiety that the floor is about to drop out. Words are the railing their inner committee grabs for when the stairs creak—a concrete, repeatable "I'm still here."
@@ -276,7 +276,7 @@ Reassure before they ask. Be boringly consistent. When they spiral, don't argue 
 
 ## Type 7: The Enthusiast's Adventure Love
 
-<a href="/blog/enneagram/enneagram-type-7">→ Learn more about Type 7: The Enthusiast</a>
+<a href="/enneagram-corner/enneagram-type-7">→ Learn more about Type 7: The Enthusiast</a>
 
 **Primary:** Quality Time (shared adventure) &nbsp;·&nbsp; **Secondary:** Physical Touch
 **Core wound it's healing:** The terror of being trapped in pain with nowhere to escape to. Shared adventure is Quality Time that keeps moving, so the inner "no exit" alarm never fires.
@@ -301,7 +301,7 @@ Match their pace, then slow it once in a while. Bring them adventures _and_ hold
 
 ## Type 8: The Challenger's Power Love
 
-<a href="/blog/enneagram/enneagram-type-8">→ Learn more about Type 8: The Challenger</a>
+<a href="/enneagram-corner/enneagram-type-8">→ Learn more about Type 8: The Challenger</a>
 
 **Primary:** Physical Touch &nbsp;·&nbsp; **Secondary:** Acts of Service
 **Core wound it's healing:** The belief that the world is hostile and softness is a weakness that gets you punished. Physical Touch bypasses language and hits the armor directly—it's the only dialect they can't argue with.
@@ -330,7 +330,7 @@ Don't flinch. Don't perform calm either—they can smell it. Match their weight 
 
 ## Type 9: The Peacemaker's Harmony Love
 
-<a href="/blog/enneagram/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
+<a href="/enneagram-corner/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
 
 **Primary:** Physical Touch (gentle) &nbsp;·&nbsp; **Secondary:** Quality Time
 **Core wound it's healing:** The belief that their presence disturbs the peace and their needs start fights. Gentle touch is connection that doesn't require them to assert anything—love that meets them where they already are.
@@ -559,7 +559,7 @@ Together, they tell you which gestures land and which ones slide off.
 ## Related Resources
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/enneagram-compatibility-matrix" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/enneagram-compatibility-matrix" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek_statues_in_a_circle_holding_hands.webp`}
           showIcon={false}

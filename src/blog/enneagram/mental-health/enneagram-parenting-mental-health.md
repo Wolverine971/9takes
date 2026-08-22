@@ -238,7 +238,7 @@ If you see any of the following, don't wait — reach out to a professional:
 <a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard 
       image="/blogs/greek-statue-babies.webp"
-      displayText="Find Professional Help"
+      displayText="Find Professional Therapy Support"
       showIcon={false}
       altText="Parenting mental health for Enneagram types"
       subtext="Professional support for children with different personality patterns"

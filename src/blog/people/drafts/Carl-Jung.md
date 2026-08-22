@@ -332,7 +332,7 @@ The typology was the least of what he claimed. Analytical psychology's larger ar
 
 Katharine Briggs and Isabel Myers built their indicator on Psychological Types, and every four-letter handle on a dating profile descends from it. The heirs still cannot settle his own four letters: the big voting sites file him INFJ, while the function stack he gave Freeman, thinking first and feeling last, reads closer to INTP or INTJ. The Enneagram's line runs elsewhere, through [Ichazo and Naranjo](/enneagram-corner/enneagram-influences), and its practitioners adopted Jung retroactively as their hardest case.
 
-His least scientific idea became the decade's therapy trend: the #shadowwork hashtag had passed 2.3 billion views on TikTok by 2023, per trade coverage, while [Jordan Peterson](/personality-analysis/Jordan-Peterson) has spent a decade filling arenas with Jung's maps.
+His least scientific idea became the decade's therapy trend: the #shadowwork hashtag had passed 2.3 billion views on TikTok by 2023, per trade coverage, while [Jordan Peterson](/personality-analysis/jordan-peterson) has spent a decade filling arenas with Jung's maps.
 
 The Freeman broadcast had a sequel of its own. By Freeman's account, the flood of mail it brought, together with a dream of addressing a listening crowd, persuaded Jung to write Man and His Symbols, his one book for the general public, his own chapter finished roughly ten days before his final illness began. The excavation is still running too: the private Black Books reached print in 2020, Emma's writings in 2024, nearly seven decades after her death.
 

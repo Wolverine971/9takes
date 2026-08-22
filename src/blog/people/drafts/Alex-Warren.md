@@ -241,7 +241,7 @@ That is also the shape of a Type 3 at their best. The Achiever's founding wound 
 
 His faith gives grief a practical architecture. Raised Catholic, Warren spent years furious at God. "After losing my dad, I constantly questioned a God that would take him from me," he told [_SPIN_ in June 2025](https://www.spinmagazine.com/2025/06/alex-warren-is-anything-but-ordinary/). His worship-influenced songwriting now keeps his parents present and puts his love for Kouvr in sacred-scale language. For an Achiever, prayer can become practice at devotion without measurement, a commitment whose value does not rise or fall with a chart.
 
-[Jelly Roll](/personality-analysis/Jelly-Roll), who joined him on "Bloodline," a song about refusing to inherit a family's addictions, put the shared project plainly onstage in [April 2025](https://holler.country/news/breaking/jelly-roll-alex-warren-inspiring-new-song-bloodline-chicago/): "I didn't let my bloodline determine who I was as a human." Two men who decided the story they were handed did not get the final say.
+[Jelly Roll](/personality-analysis/jelly-roll), who joined him on "Bloodline," a song about refusing to inherit a family's addictions, put the shared project plainly onstage in [April 2025](https://holler.country/news/breaking/jelly-roll-alex-warren-inspiring-new-song-bloodline-chicago/): "I didn't let my bloodline determine who I was as a human." Two men who decided the story they were handed did not get the final say.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Alex Warren</summary>

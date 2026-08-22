@@ -286,7 +286,7 @@ She is, by the count Guinness World Records keeps, the best-selling novelist of 
 
 And we keep re-opening her. Kenneth Branagh's _Murder on the Orient Express_ grossed $352.8 million in 2017 and launched a film trilogy that ran through _Death on the Nile_ and 2023's _A Haunting in Venice_. Every few years a new generation stages the same murders, as if the puzzles still owe us something.
 
-That puts Christie closer to [J.K. Rowling](/personality-analysis/j.k.-rowling) than a simple genre label suggests: both built fictional machinery durable enough to outgrow the author. The stranger neighbors are [Stephen Hawking](/personality-analysis/stephen-hawking) and [Friedrich Nietzsche](/personality-analysis/friedrich-nietzsche), private minds whose public myths became puzzles readers keep trying to solve.
+That puts Christie closer to [J.K. Rowling](/personality-analysis/jk-rowling) than a simple genre label suggests: both built fictional machinery durable enough to outgrow the author. The stranger neighbors are [Stephen Hawking](/personality-analysis/stephen-hawking) and [Friedrich Nietzsche](/personality-analysis/friedrich-nietzsche), private minds whose public myths became puzzles readers keep trying to solve.
 
 The reason her plots endure is the reason her disappearance does. Christie understood, better than almost any writer alive, that people are systems with hidden logic, that the quiet observer in the corner sees what the loud ones miss, and that the truth is usually held back by whoever is watching most and saying least. She built that principle into two detectives and sixty-six novels. Then she lived it out, one night in December, and left no solution.
 

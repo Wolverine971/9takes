@@ -51,6 +51,7 @@
 		"audit:people-seo": "node scripts/audit-people-seo.js",
 		"audit:people-corpus": "node scripts/people-corpus-audit.mjs",
 		"audit:people-crosslinks": "node scripts/audit-people-crosslinks.mjs --write",
+		"audit:internal-anchors": "node scripts/audit-internal-anchor-text.mjs --write",
 		"audit:blog-enrichment": "node scripts/blog-enrichment-status.mjs",
 		"supabase:normalize-personality-slugs": "node scripts/normalize-personality-slugs.js",
 		"seo:normalize-internal-personality-links": "node scripts/normalize-internal-personality-links.js",

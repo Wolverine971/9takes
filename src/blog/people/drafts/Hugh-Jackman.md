@@ -265,7 +265,7 @@ In May 2025, Furness filed for divorce. Her public statement cut through whateve
 
 One word in that sentence rewrites twenty-seven years. And it reframes the morning tea, the family decision-making framework, the public image of the guy who chose the older woman and stayed. Not as lies, necessarily — twenty-seven years is too long to be entirely performance. But as something more complicated than the story either of them had been telling.
 
-There is a [pattern that people who study personality](/enneagram-corner/attachment-styles-and-enneagram-types) recognize in the most devoted givers: they give and give and give, and the giving becomes so complete that neither they nor anyone around them can distinguish the giving from the person. "When I met Deb," Jackman once said, "I felt a complete trust with her to be exactly who I am. I don't have to be any other version of Hugh Jackman for her to love me."
+There is an [attachment pattern in the most devoted givers](/enneagram-corner/attachment-styles-and-enneagram-types): they give and give and give, and the giving becomes so complete that neither they nor anyone around them can distinguish the giving from the person. "When I met Deb," Jackman once said, "I felt a complete trust with her to be exactly who I am. I don't have to be any other version of Hugh Jackman for her to love me."
 
 But what if "exactly who I am" was itself a version? What if the warmest man in any room had been performing warmth so long and so well that even he couldn't find the seam? That's the shadow territory. Not dishonesty — something more subtle. A person so attuned to what others need that their own needs become invisible, even to themselves.
 

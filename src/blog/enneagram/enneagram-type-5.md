@@ -67,7 +67,7 @@ They wake each morning with a specific amount of capacity for human interaction.
 
 This creates a particular relationship with the world. Fives often feel like they are operating in a foreign country where everyone else knows the language and customs, while they must constantly translate, constantly expend effort.
 
-**Wing Influences:** A <a href="/blog/enneagram/enneagram-type-4">4 wing (5w4)</a> adds creative intensity. These Fives combine analysis with artistic expression. A <a href="/blog/enneagram/enneagram-type-6">6 wing (5w6)</a> adds practical caution. These Fives direct knowledge toward building reliable systems.
+**Wing Influences:** A <a href="/enneagram-corner/enneagram-type-4">4 wing (5w4)</a> adds creative intensity. These Fives combine analysis with artistic expression. A <a href="/enneagram-corner/enneagram-type-6">6 wing (5w6)</a> adds practical caution. These Fives direct knowledge toward building reliable systems.
 
 </section>
 
@@ -157,7 +157,7 @@ Most often, they simply disappear. Not dramatically. Just increasingly unavailab
 
 ## When the Fortress Crumbles: Fives Under Stress
 
-When overwhelmed, something unexpected happens. The usually controlled Five shifts toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-7">Type 7</a>. Their careful mental architecture fragments into chaos.
+When overwhelmed, something unexpected happens. The usually controlled Five shifts toward the unhealthy aspects of <a href="/enneagram-corner/enneagram-type-7">Type 7</a>. Their careful mental architecture fragments into chaos.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/7-5.png" class="arrow-img" alt="five going to seven in stress">
@@ -315,7 +315,7 @@ When they share something personal, recognize it as the gift it is. They are giv
 
 Learn to recognize their expressions of love: remembering something you mentioned once, researching solutions to your problems, being steadfastly present in crisis.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 5s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 5s connect with each type.
 
 </section>
 
@@ -327,7 +327,7 @@ The Five's growth journey is not about abandoning their fortress. It is about in
 
 ### Moving Toward Eight
 
-When Fives integrate, they move toward the healthy aspects of <a href="/blog/enneagram/enneagram-type-8">Type 8</a>. This does not mean becoming aggressive or domineering. It means discovering that knowledge without action is incomplete. Understanding without application is inert.
+When Fives integrate, they move toward the healthy aspects of <a href="/enneagram-corner/enneagram-type-8">Type 8</a>. This does not mean becoming aggressive or domineering. It means discovering that knowledge without action is incomplete. Understanding without application is inert.
 
 Integrated Fives learn to:
 
@@ -364,7 +364,7 @@ Integrated Fives discover that engaging with life generates resources rather tha
 
 The fortress that protected them in childhood becomes confining in adulthood. They do not need to demolish it. They need to transform it from a bunker into a lighthouse. Still elevated. Still protected. But now illuminating the world rather than hiding from it.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

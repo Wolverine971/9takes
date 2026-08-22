@@ -310,7 +310,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
           image={`/blogs/greek-statues-having-an-intense-conversation.webp`}
           showIcon={false}
           subtext=""
-          displayText="How Each Type Communicates (And Miscommunicates)"
+          displayText="Enneagram Relationship Communication Guide"
           scramble={false}
       />
     </a>

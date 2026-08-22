@@ -294,7 +294,7 @@ Daphne Dorman was a trans comedian from San Francisco. She opened for Chappelle 
 
 That fact is real. It is also not the whole story.
 
-In _The Closer_ (2021), Chappelle came back to the same material and went further. He aligned himself with [J.K. Rowling](/personality-analysis/j.k.-rowling): "I'm team TERF." He told the audience "gender is a fact." He used Daphne's friendship — and her family's defense of him after her death — as the argument that his jokes had not, in fact, harmed anyone.
+In _The Closer_ (2021), Chappelle came back to the same material and went further. He aligned himself with [J.K. Rowling](/personality-analysis/jk-rowling): "I'm team TERF." He told the audience "gender is a fact." He used Daphne's friendship — and her family's defense of him after her death — as the argument that his jokes had not, in fact, harmed anyone.
 
 That last move is where his critics drew the line, and they had names.
 

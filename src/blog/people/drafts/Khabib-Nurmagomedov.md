@@ -190,7 +190,7 @@ Everything above compresses into two nights, three years apart, that work like a
 
 ### October 6, 2018: the night the war got out
 
-The [Conor McGregor](/personality-analysis/Conor-McGregor) fight was the biggest in UFC history, and McGregor spent the buildup drilling for a nerve. In April 2018 he attacked a bus carrying Khabib and threw a hand truck through its window. At the press conferences he went after Khabib's faith, his country, his father. Khabib later ranked the wounds himself, in one breath: "He talked about my religion, he talked about my country, he talked about my father."
+The [Conor McGregor](/personality-analysis/conor-mcgregor) fight was the biggest in UFC history, and McGregor spent the buildup drilling for a nerve. In April 2018 he attacked a bus carrying Khabib and threw a hand truck through its window. At the press conferences he went after Khabib's faith, his country, his father. Khabib later ranked the wounds himself, in one breath: "He talked about my religion, he talked about my country, he talked about my father."
 
 For 25 minutes of fight time, nothing got in. Khabib took McGregor down at will, battered him from top position, and choked him out in the fourth round. Then, with the war won and the system idling, he threw his mouthpiece, climbed the fence, and launched himself at McGregor's cornerman Dillon Danis. A riot followed. Nevada suspended him and held his purse. His own father went on Russian television and sided with the commission: "I will be very hard on this. I warned him." And then the line that stings more for how reasonable it is: "You do whatever you want in the octagon, but outside this is the border of civilians, where there are children, women and strangers."
 

@@ -37,7 +37,7 @@ path: src/blog/pop-culture/epstein-psychology-part-2.md
 
 The same calculation made by scientists, politicians, billionaires, and royalty who orbited a convicted sex offender.
 
-[Part 1](/pop-culture/epstein-psychology-part-1) examined **who Epstein was**: the Type 2 "Dark Helper" psychology that drove him. This part examines **how he lured people**: two playbooks for two very different populations.
+[Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1) examined **who Epstein was**: the Type 2 "Dark Helper" psychology that drove him. This part examines **how he lured people**: two playbooks for two very different populations.
 
 <details>
 <summary class="accordion">TL;DR: The Two Playbooks</summary>
@@ -111,7 +111,7 @@ The Dark Helper's calculus: _the more someone needs, the more leverage I have._
 
 **Mentorship.** For girls lacking stable parental figures, Epstein offered attention, guidance, apparent care.
 
-**Maxwell's presence.** This was crucial. **A woman's involvement made victims feel safe.** Shopping trips, girl talk, apparent friendship. If a woman was part of it, how bad could it be? (See [Part 1](/pop-culture/epstein-psychology-part-1) for Maxwell's full psychology.)
+**Maxwell's presence.** This was crucial. **A woman's involvement made victims feel safe.** Shopping trips, girl talk, apparent friendship. If a woman was part of it, how bad could it be? (See [Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1) for Maxwell's full psychology.)
 
 ### The Grooming Progression
 
@@ -286,7 +286,7 @@ Beyond the enablers, there were the institutions themselves — and this speaks 
 
 Harvard accepted $8.9 million from Epstein between 1998 and 2007. ([CBS News](https://www.cbsnews.com/news/jeffrey-epstein-donated-8-9-million-to-harvard-university-says/)) MIT Media Lab secretly took his donations post-conviction — director Joi Ito marked them as anonymous to avoid controversy, with MIT officials agreeing that amounts below $5 million were acceptable. ([MIT News](https://news.mit.edu/2020/mit-releases-results-fact-finding-report-jeffrey-epstein-0110)) Both provided legitimacy: visiting fellowships, office space, event invitations. When you're a Harvard Visiting Fellow, you're not just "some guy." The university's reputation launders yours.
 
-The 2008 plea deal, where Epstein avoided a 53-page draft federal indictment and pleaded to state charges with just 13 months in county jail, suggests institutional leverage at work. (See [Part 1](/pop-culture/epstein-psychology-part-1) for details on the intelligence connections.)
+The 2008 plea deal, where Epstein avoided a 53-page draft federal indictment and pleaded to state charges with just 13 months in county jail, suggests institutional leverage at work. (See [Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1) for details on the intelligence connections.)
 
 ### The Accountability Gap
 
@@ -324,7 +324,7 @@ Congressman Ro Khanna captured the elite mindset:
 
 The answer isn't that elites are stupid. It's that they're smart enough to rationalize anything, and Epstein knew exactly how to provide the framework for that rationalization.
 
-**Who got out early?** Some people did recognize the trap. As detailed in [Part 1](/pop-culture/epstein-psychology-part-1), scientists who met Epstein at dinner parties saw through his intellectual pretensions immediately. Steven Pinker found him a "dilettante and a smartass," Eric Weinstein called him "a construct." But these weren't long-term targets. They had no ongoing need Epstein could fill.
+**Who got out early?** Some people did recognize the trap. As detailed in [Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1), scientists who met Epstein at dinner parties saw through his intellectual pretensions immediately. Steven Pinker found him a "dilettante and a smartass," Eric Weinstein called him "a construct." But these weren't long-term targets. They had no ongoing need Epstein could fill.
 
 The difference between falling and escaping wasn't intelligence. It was whether you needed something Epstein positioned himself to provide. Les Wexner needed social sophistication for New York high society — and, as the 2026 files suggest, may have needed more than that. Gates wanted philanthropic connections he couldn't build alone. Musk wanted release from the grind. The scientists just wanted intellectual conversation, and Epstein couldn't deliver.
 
@@ -366,7 +366,7 @@ But the 2026 document releases have shown just how far the web extended. Co-cons
 
 The psychology that made it all possible hasn't gone anywhere. People still have needs they can't fill publicly. Institutions still provide cover. Shame still keeps mouths shut.
 
-The Wexner relationship detailed in [Part 1](/pop-culture/epstein-psychology-part-1) shows what happens when the Dark Helper finds a willing partner. Now facing renewed scrutiny and congressional inquiry, Wexner's decades-long arrangement with Epstein looks less like manipulation and more like mutual benefit — the helper relationship turned symbiotic. The billionaire relationships in this article show the same playbook applied at scale.
+The Wexner relationship detailed in [Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1) shows what happens when the Dark Helper finds a willing partner. Now facing renewed scrutiny and congressional inquiry, Wexner's decades-long arrangement with Epstein looks less like manipulation and more like mutual benefit — the helper relationship turned symbiotic. The billionaire relationships in this article show the same playbook applied at scale.
 
 So what do you take from this?
 

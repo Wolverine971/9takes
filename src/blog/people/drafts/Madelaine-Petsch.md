@@ -230,7 +230,7 @@ The phone is one boundary. The calendar has never had one.
 
 The panic attacks came before the fame. "I used to get really bad panic attacks right before I booked Riverdale," she told Refinery29 in 2019, and once the show hit, "really bad social anxiety" followed it. Therapy helped her name both. It has never made her still. In September 2025 she counted exactly one day off in her next two months, then watched her team book something onto it.
 
-The volume predates the money. In her audition years she worked, by her own count, 249 jobs and kept journals for every job and audition. The streak broke with Riverdale in 2016, where she and [Lili Reinhart](/personality-analysis/Lili-Reinhart) went from unbooked audition-room friends to season-one roommates.
+The volume predates the money. In her audition years she worked, by her own count, 249 jobs and kept journals for every job and audition. The streak broke with Riverdale in 2016, where she and [Lili Reinhart](/personality-analysis/lili-reinhart) went from unbooked audition-room friends to season-one roommates.
 
 She frames the appetite as artistic range: "I just want to do everything. I want to try everything. Variety is the spice of life, especially for an artist," she told Luxury London in 2026. The plainer accounting came out on Call Her Daddy: "That's probably why I am successful, honestly, is because I did not want to be at home." For a Two, a packed calendar doubles as proof of position; every yes is one more person glad she showed up, and an empty day offers no evidence of anything.
 

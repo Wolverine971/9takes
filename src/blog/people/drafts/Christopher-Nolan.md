@@ -232,7 +232,7 @@ He told The New York Times in 2014 why he took over Interstellar: "The story spo
 
 The adult version of the camera loophole is a list of refusals with a yield. "I find I'm only able to advance my thinking on projects in those pockets of time where everybody usually jumps on their phone, waiting for a train, or in an airport, or sitting in a restaurant," he told The Telegraph in 2026. In the same interview he gave the reason, a self-diagnosis: "I know I'd become horribly addicted to them if I had one." The scripts that command $250 million budgets are composed on a device that cannot leak, ping, or interrupt.
 
-In 2020, [Anne Hathaway](/personality-analysis/Anne-Hathaway) made his set rules briefly famous on Variety's Actors on Actors: "[He] doesn't allow chairs. And his reasoning is: if you have chairs, people will sit, and if they're sitting, they're not working." She meant it admiringly, adding that his films come in "under schedule and under budget." His spokesperson corrected the record within days: the only things banned from his sets are "cell phones (not always successfully) and smoking (very successfully)" (IndieWire, 2020). There was a real detail underneath: the chairs at issue were "directors chairs clustered around the video monitor, allocated on the basis of hierarchy not physical need," and Chris "chooses not to use his." A seating hierarchy became a total ban in the retelling. It spread because Nolan declines to perform himself in public, and the vacuum fills with legend.
+In 2020, [Anne Hathaway](/personality-analysis/anne-hathaway) made his set rules briefly famous on Variety's Actors on Actors: "[He] doesn't allow chairs. And his reasoning is: if you have chairs, people will sit, and if they're sitting, they're not working." She meant it admiringly, adding that his films come in "under schedule and under budget." His spokesperson corrected the record within days: the only things banned from his sets are "cell phones (not always successfully) and smoking (very successfully)" (IndieWire, 2020). There was a real detail underneath: the chairs at issue were "directors chairs clustered around the video monitor, allocated on the basis of hierarchy not physical need," and Chris "chooses not to use his." A seating hierarchy became a total ban in the retelling. It spread because Nolan declines to perform himself in public, and the vacuum fills with legend.
 
 What the discipline buys, he has explained himself: "What I realized early on is that if I stayed on budget and on schedule, I got less interference," he told The Hollywood Reporter in July 2026. Staying on the right side of that line buys "a different type of creative freedom": nobody gets a reason to enter the room where he works.
 
@@ -291,7 +291,7 @@ Memento taught audiences to read a life in reverse. Apply the trick to its maker
 </div>
 <div class="timeline__item">
 <span class="timeline__year">2005</span>
-<span class="timeline__event">Batman Begins. Hands the cowl to <a href="/personality-analysis/Christian-Bale">Christian Bale</a> and revives a dead franchise with a script delivered door to door.</span>
+<span class="timeline__event">Batman Begins. Hands the cowl to <a href="/personality-analysis/christian-bale">Christian Bale</a> and revives a dead franchise with a script delivered door to door.</span>
 </div>
 <div class="timeline__item">
 <span class="timeline__year">2000</span>
@@ -338,7 +338,7 @@ Defending the room had already cost him that year, and the fight was not clean. 
 
 ### Christopher Nolan's Wing: 5w6
 
-The 6 wing separates Nolan from the idiosyncratic-artist Fives who build private worlds and dare audiences to follow. The 5w6 directs knowledge toward reliable systems and stays loyal to proven structures. He has kept Michael Caine, Hans Zimmer, and [Cillian Murphy](/personality-analysis/Cillian-Murphy) in rotation across decades, and channels his advocacy through institutions rather than manifestos: the Directors Guild, which elected him president in 2025, the National Film Preservation Board, the BFI. A 5w4 with his budgets would make stranger, more personal films and burn more bridges. The 5w6 builds a repertory company and a seat on the standards committee. Read more on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.
+The 6 wing separates Nolan from the idiosyncratic-artist Fives who build private worlds and dare audiences to follow. The 5w6 directs knowledge toward reliable systems and stays loyal to proven structures. He has kept Michael Caine, Hans Zimmer, and [Cillian Murphy](/personality-analysis/cillian-murphy) in rotation across decades, and channels his advocacy through institutions rather than manifestos: the Directors Guild, which elected him president in 2025, the National Film Preservation Board, the BFI. A 5w4 with his budgets would make stranger, more personal films and burn more bridges. The 5w6 builds a repertory company and a seat on the standards committee. Read more on how <a href="/enneagram-corner/enneagram-wings-complete-guide">wings</a> shade a core type.
 
 ### Christopher Nolan's Instinctual Subtype: Self-Preservation 5 (sp/sx)
 

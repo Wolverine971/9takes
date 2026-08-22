@@ -29,7 +29,7 @@ path: src/blog/pop-culture/masculinity-strength-and-the-enneagram.md
 Masculine strength is not one body type or dominance ranking. It can include physical self-care, competence, clear boundaries, emotional regulation, and responsiveness to other people. Different people value different traits, and no study identifies one quality that all women select for. The Enneagram can help men reflect on defensive patterns, but it is not validated research on attraction.
 </QuickAnswer>
 
-<p class="firstLetter">In <a href="/pop-culture/incel-blackpill-radicalization-enneagram">Part 1</a>, we mapped how shame, rejection, and misdirected anger can push young men toward the blackpill. Now we need to examine the claim at the center of that worldview: that appearance determines a man's romantic future.</p>
+<p class="firstLetter">In <a href="/pop-culture/incel-blackpill-radicalization-enneagram">Part 1: incel and blackpill radicalization</a>, we mapped how shame, rejection, and misdirected anger can push young men toward the blackpill. Now we need to examine the claim at the center of that worldview: that appearance determines a man's romantic future.</p>
 
 Appearance can shape first impressions. Rejection can hurt. Dating apps can intensify comparison. A message like "looks never matter" will not feel honest to someone watching matches cluster around a narrow set of photos.
 
@@ -243,7 +243,7 @@ The destination is not becoming the man every woman selects. No such man exists.
 
 The blackpill says it is over. The red pill says to hack the system. A more grounded response is: **know yourself, develop real skills, and stop outsourcing your worth to a ranking.**
 
-Start with [finding your type](/enneagram-corner/enneagram-types-overview). Then read the [dating guide](/enneagram-corner/enneagram-dating-guide-for-men) for your type's specific patterns. Then do the hardest part: [start growing](/enneagram-corner/enneagram-personal-growth).
+Start with the [beginner's guide to finding your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type). Then read the [Enneagram dating guide for men](/enneagram-corner/enneagram-dating-guide-for-men) for your type's specific patterns. Then do the hardest part: follow a [personal growth plan for your Enneagram type](/enneagram-corner/enneagram-personal-growth).
 
 The algorithm won't show you this path. You have to choose it.
 

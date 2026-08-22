@@ -345,7 +345,7 @@ _"I thought antidepressants would make me a happy robot. Instead, they gave me t
 <a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard 
       image="/blogs/greek-statue-taking-notes.webp"
-      displayText="Find Professional Help"
+      displayText="Find a Therapist or Psychiatrist for Your Type"
       showIcon={false}
       altText="Medication guidance for Enneagram types"
       subtext="Find the right therapist and psychiatrist for your type"

@@ -272,7 +272,7 @@ If anger is your live wire (or the emotion you work hardest to suppress), you li
 
 You don't need to get it right immediately. Read the descriptions with honest eyes. The type that makes you uncomfortable — not the one that flatters you — is usually the one that's yours.
 
-<a href="/enneagram-corner/enneagram-tldr">Start here: The Enneagram TL;DR</a>
+<a href="/enneagram-corner/enneagram-tldr">Read the 5-minute Enneagram type overview</a>
 
 <style lang="scss">
   blockquote {

@@ -241,9 +241,9 @@ All three types can be intensely self-critical. Here's how to tell them apart:
 
 **Type 3** asks: _"Am I successful?"_ The fear is worthlessness without achievement. The self-criticism focuses on performance, image, and results. A Three re-reads an email to check if it's impressive.
 
-**<a href="/blog/enneagram/enneagram-type-6">Type 6</a>** asks: _"Am I safe?"_ The fear is being without support or guidance. The self-criticism focuses on potential mistakes and worst-case scenarios. A Six re-reads an email to check if it could be misinterpreted.
+**<a href="/enneagram-corner/enneagram-type-6">Type 6</a>** asks: _"Am I safe?"_ The fear is being without support or guidance. The self-criticism focuses on potential mistakes and worst-case scenarios. A Six re-reads an email to check if it could be misinterpreted.
 
-The One's inner voice says "You should be better." The <a href="/blog/enneagram/enneagram-type-3">Three's</a> says "You should be winning." The Six's says "You should be careful."
+The One's inner voice says "You should be better." The <a href="/enneagram-corner/enneagram-type-3">Three's</a> says "You should be winning." The Six's says "You should be careful."
 
 </section>
 
@@ -255,7 +255,7 @@ The One's inner voice says "You should be better." The <a href="/blog/enneagram/
 
 ## When standards shatter: Ones under stress
 
-When overwhelmed, something shocking happens to the controlled Type 1. On the Enneagram map, they shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-4">Type 4, "The Individualist."</a>
+When overwhelmed, something shocking happens to the controlled Type 1. On the Enneagram map, they shift toward the unhealthy aspects of <a href="/enneagram-corner/enneagram-type-4">Type 4, "The Individualist."</a>
 
 The rational fortress floods with everything the court has been overruling for months.
 
@@ -377,7 +377,7 @@ Understand that their criticism of you runs at a fraction of the volume of their
 - Be specific. "This section needs work" triggers their inner prosecutor. "This paragraph could use a transition" gives them something actionable.
 - Acknowledge their effort explicitly. They've likely worked three times harder than you know.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 1s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 1s connect with each type.
 
 </section>
 
@@ -389,7 +389,7 @@ The One's growth journey was never about lowering standards. It's about discover
 
 ### Moving toward Seven: the recess
 
-When Ones integrate, they take on the healthy aspects of <a href="/blog/enneagram/enneagram-type-7">Type 7, "The Enthusiast."</a>
+When Ones integrate, they take on the healthy aspects of <a href="/enneagram-corner/enneagram-type-7">Type 7, "The Enthusiast."</a>
 
 Think about what a recess means. In court, a recess pauses the trial without dismissing the case or firing the judge. In childhood, recess is the one part of the day nobody grades. The move toward Seven is both meanings at once: a scheduled adjournment, and play you don't have to earn.
 
@@ -402,7 +402,7 @@ Ones in recess learn to:
 
 And then comes the discovery that makes it stick: the standards survive the day off. Nothing degrades. The bar was never load-bearing on the suffering.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

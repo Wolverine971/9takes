@@ -213,7 +213,7 @@ This scene plays out everywhere Twos work, and Twos are drawn to the fields wher
 
 ## When helpers snap: the collection
 
-When pushed past their limits, something shocking happens to the warmest person in the room. On the Enneagram map, stressed Twos shift toward the unhealthy aspects of <a href="/blog/enneagram/enneagram-type-8">Type 8</a>.
+When pushed past their limits, something shocking happens to the warmest person in the room. On the Enneagram map, stressed Twos shift toward the unhealthy aspects of <a href="/enneagram-corner/enneagram-type-8">Type 8</a>.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/8-2.png" class="arrow-img" alt="two going to eight in stress">
@@ -299,9 +299,9 @@ Warmth and helpfulness show up in several types. The differences live in the mot
 
 **Type 2 vs. Type 6**: Both are relational and attentive. Sixes help to build alliances and security: "Are we solid? Can I count on you?" Twos help to be needed: "Am I lovable?" Decline a Six's help and they wonder what it means about the alliance. Decline a Two's help and it lands like a rejection of them.
 
-**Type 2 vs. Type 9**: Both adapt to others and sidestep conflict. Nines merge to keep the peace and avoid the discomfort of asserting themselves. Twos adapt strategically, tracking everyone's needs to become indispensable. A <a href="/blog/enneagram/enneagram-type-9">Nine</a> forgets what they wanted. A Two suppresses what they wanted and files the sacrifice in the ledger.
+**Type 2 vs. Type 9**: Both adapt to others and sidestep conflict. Nines merge to keep the peace and avoid the discomfort of asserting themselves. Twos adapt strategically, tracking everyone's needs to become indispensable. A <a href="/enneagram-corner/enneagram-type-9">Nine</a> forgets what they wanted. A Two suppresses what they wanted and files the sacrifice in the ledger.
 
-**Type 2 vs. Type 3**: The trickiest one, especially for 2w3s. Both read rooms and want positive regard. <a href="/blog/enneagram/enneagram-type-3">Threes</a> want admiration for achievement: "Am I impressive?" Twos want appreciation for care: "Am I needed?" A Three's radar tracks status and results. A Two's radar tracks moods and needs.
+**Type 2 vs. Type 3**: The trickiest one, especially for 2w3s. Both read rooms and want positive regard. <a href="/enneagram-corner/enneagram-type-3">Threes</a> want admiration for achievement: "Am I impressive?" Twos want appreciation for care: "Am I needed?" A Three's radar tracks status and results. A Two's radar tracks moods and needs.
 
 If you want to see how a Two reads you within the first five minutes of meeting, the <a href="/enneagram-corner/first-impression-enneagram-playbook#type-2">first-impression playbook</a> maps the scan in real time.
 
@@ -361,10 +361,10 @@ Don't wait for them to ask for help. Offer proactively. Insist gently. Receiving
 
 And when the moment is right, ask the question almost nobody asks them: "You seem like the one who takes care of everyone. Who takes care of you?" Then hold still for the answer. You may be the first person to wait for it.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 2s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 2s connect with each type.
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/love-languages-and-enneagram-types" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/love-languages-and-enneagram-types" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek_statues_giving_and_receiving_love_in_different_ways.webp`}
           showIcon={false}
@@ -385,7 +385,7 @@ The Two's growth journey was never about giving less. It's about discovering tha
 
 ### Moving toward Four: lighting your side of the glass
 
-When Twos integrate and grow, they take on the healthy aspects of <a href="/blog/enneagram/enneagram-type-4">Type 4, "The Individualist."</a> Fours' native gift is interiority: knowing what they actually feel, want, and need, and saying so without apology. That's precisely the room that's gone dark in the Two.
+When Twos integrate and grow, they take on the healthy aspects of <a href="/enneagram-corner/enneagram-type-4">Type 4, "The Individualist."</a> Fours' native gift is interiority: knowing what they actually feel, want, and need, and saying so without apology. That's precisely the room that's gone dark in the Two.
 
 Remember the physics. A one-way mirror is ordinary glass with the lights off on one side. Your side has been dark for years, and that darkness is the entire trick. Turn the lights on in the booth, and the same glass becomes a window: two lit rooms, two visible people, seeing each other.
 
@@ -436,7 +436,7 @@ Start small. Tomorrow, when someone offers you something, say yes. Just yes. Not
 That strangeness is your side of the glass, lighting up.
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
           showIcon={false}

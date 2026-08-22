@@ -196,7 +196,7 @@ At six, the board gives you a merciless kind of certainty. Every piece has known
 
 That training does not prove a personality type. It does give Lonsdale's adult habits a native language. He evaluates threats, studies incentives, and asks whether the people beside him will hold their positions. For a Type 6, trust is a live calculation. Lonsdale spent childhood practicing the calculation on sixty-four squares.
 
-The board scaled. PayPal at nineteen. *Stanford Review* editor-in-chief at twenty. Then [Peter Thiel](/personality-analysis/Peter-Thiel)'s hedge fund, Clarium Capital, after college. Palantir at twenty-two, co-founded with Thiel, [Alex Karp](/personality-analysis/alex-karp), Stephen Cohen, and Nathan Gettings to build data tools for intelligence and defense.
+The board scaled. PayPal at nineteen. *Stanford Review* editor-in-chief at twenty. Then [Peter Thiel](/personality-analysis/peter-thiel)'s hedge fund, Clarium Capital, after college. Palantir at twenty-two, co-founded with Thiel, [Alex Karp](/personality-analysis/alex-karp), Stephen Cohen, and Nathan Gettings to build data tools for intelligence and defense.
 
 Thiel became one of Lonsdale's two most important mentors, alongside Karp. Lonsdale later published a list of [lessons he learned from Thiel](https://joelonsdale.com/lessons-peter-thiel/): concentrate on the dominant reason, value exceptional intelligence, and work from first principles. The relationship matters because Lonsdale's network is unusually continuous. *Stanford Review* contacts lead to Clarium; Clarium leads to Palantir; people from that orbit reappear across Addepar, 8VC, UATX, and the institutions that follow.
 

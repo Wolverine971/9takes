@@ -163,7 +163,7 @@ Even the calmest people have limits. When stress builds past a threshold, someth
 <img loading="lazy" src="/blogs/6-9.png" class="arrow-img" alt="nine going to six in stress">
 </p>
 
-In Enneagram terms, Nines under stress move toward the less helpful patterns of <a href="/blog/enneagram/enneagram-type-6">Type 6, "The Loyalist."</a> That easygoing trust that things will work out? It flips into worry about everything that could go wrong.
+In Enneagram terms, Nines under stress move toward the less helpful patterns of <a href="/enneagram-corner/enneagram-type-6">Type 6, "The Loyalist."</a> That easygoing trust that things will work out? It flips into worry about everything that could go wrong.
 
 This looks like:
 
@@ -227,9 +227,9 @@ Each style has its gifts and its particular way of forgetting yourself. Learn mo
 
 Your neighboring types add different flavors:
 
-**9w8 (The Referee):** With a <a href="/blog/enneagram/enneagram-type-8">Type 8 wing</a>, you have fire when something truly matters. There's a protective streak that surprises people who expect you to always go along. You'll stand your ground for others. The catch: you might still avoid conflict for yourself while fighting fiercely for someone else.
+**9w8 (The Referee):** With a <a href="/enneagram-corner/enneagram-type-8">Type 8 wing</a>, you have fire when something truly matters. There's a protective streak that surprises people who expect you to always go along. You'll stand your ground for others. The catch: you might still avoid conflict for yourself while fighting fiercely for someone else.
 
-**9w1 (The Dreamer):** With a <a href="/blog/enneagram/enneagram-type-1">Type 1 wing</a>, you have a stronger internal compass about right and wrong. More idealistic, more quietly principled, even if you don't voice it. The catch: you might judge yourself harshly for not living up to your own standards while being endlessly forgiving of others.
+**9w1 (The Dreamer):** With a <a href="/enneagram-corner/enneagram-type-1">Type 1 wing</a>, you have a stronger internal compass about right and wrong. More idealistic, more quietly principled, even if you don't voice it. The catch: you might judge yourself harshly for not living up to your own standards while being endlessly forgiving of others.
 
 </section>
 
@@ -283,7 +283,7 @@ The challenge: you might struggle to set firm boundaries, enforce consequences, 
 
 **What helps:** Healthy boundaries are a form of love. Your children benefit from seeing you have needs, opinions, and limits. Modeling self-advocacy teaches them it's okay to have a self.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">how each type shows up in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 9s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">how each type shows up in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 9s connect with each type.
 
 </section>
 
@@ -329,7 +329,7 @@ Growth for Nines isn't about becoming someone different. It's about becoming mor
 
 ### What Integration Looks Like
 
-In the Enneagram system, Nines in growth move toward the healthy qualities of <a href="/blog/enneagram/enneagram-type-3">Type 3, "The Achiever."</a> This doesn't mean becoming competitive or status-focused. It means discovering your own goals, your own drive, your own direction.
+In the Enneagram system, Nines in growth move toward the healthy qualities of <a href="/enneagram-corner/enneagram-type-3">Type 3, "The Achiever."</a> This doesn't mean becoming competitive or status-focused. It means discovering your own goals, your own drive, your own direction.
 
 **Day-to-day signs of a healthy Nine:**
 
@@ -378,7 +378,7 @@ When you start expressing yourself, when you start having opinions and needs and
 
 You matter. Not just as someone who keeps things smooth for others, but as yourself. That's not selfish. That's the truth.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

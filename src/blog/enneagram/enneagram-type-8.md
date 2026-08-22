@@ -170,9 +170,9 @@ This is why you regulate through physicality: heavy training, competitive sports
 
 ### Wings: two flavors of force
 
-With a <a href="/blog/enneagram/enneagram-type-7">Type 7 wing (8w7)</a>, force meets appetite. Faster, louder, more expansive, more visibly rebellious. The 7 wing hands you an exit-making machine: when the door is locked, you build another door. The motto: if the room is too small, break a wall. The risk is escalation without brakes, appetite without rest.
+With a <a href="/enneagram-corner/enneagram-type-7">Type 7 wing (8w7)</a>, force meets appetite. Faster, louder, more expansive, more visibly rebellious. The 7 wing hands you an exit-making machine: when the door is locked, you build another door. The motto: if the room is too small, break a wall. The risk is escalation without brakes, appetite without rest.
 
-With a <a href="/blog/enneagram/enneagram-type-9">Type 9 wing (8w9)</a>, force meets steadiness. Quieter, heavier, territorial. You might say four sentences in an entire meeting, and all four land like verdicts. The motto: do not mistake calm for permission. The risk is silent stubbornness and the delayed explosion nobody saw loading.
+With a <a href="/enneagram-corner/enneagram-type-9">Type 9 wing (8w9)</a>, force meets steadiness. Quieter, heavier, territorial. You might say four sentences in an entire meeting, and all four land like verdicts. The motto: do not mistake calm for permission. The risk is silent stubbornness and the delayed explosion nobody saw loading.
 
 ### The three subtypes
 
@@ -274,7 +274,7 @@ When you're always the strong one, who do you turn to? When you're always the pr
 
 ## The siege: 8s under stress
 
-Under extreme stress, something strange happens. The fighter goes quiet. You shift toward the unhealthy side of <a href="/blog/enneagram/enneagram-type-5">Type 5, "The Investigator."</a>
+Under extreme stress, something strange happens. The fighter goes quiet. You shift toward the unhealthy side of <a href="/enneagram-corner/enneagram-type-5">Type 5, "The Investigator."</a>
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/5-8.png" class="arrow-img" alt="eight going to five in stress">
@@ -359,7 +359,7 @@ And keep your own line: understanding why the armor exists doesn't obligate you 
 
 When an 8 finally lowers the guard, you'll find someone who was paying close attention the whole time. They noticed how you take your coffee, what your bad days look like, and what you needed before you asked.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 8s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 8s connect with each type.
 
 </section>
 
@@ -387,7 +387,7 @@ The question was never whether to lower your defenses. It's whether you want to 
 
 ### Moving toward Type 2
 
-When you integrate, you move toward the healthy side of <a href="/blog/enneagram/enneagram-type-2">Type 2, "The Helper."</a> Call the destination what it is: protective tenderness. Strength that can nurture without asking anyone to shrink.
+When you integrate, you move toward the healthy side of <a href="/enneagram-corner/enneagram-type-2">Type 2, "The Helper."</a> Call the destination what it is: protective tenderness. Strength that can nurture without asking anyone to shrink.
 
 What it looks like: the CEO who remembers every employee's kids' names. The tough negotiator who spends unpaid hours mentoring juniors. The fixer who stops solving problems _for_ people and starts sitting with them while they solve their own. The protector who lets someone else carry something, and doesn't book it as debt.
 
@@ -410,7 +410,7 @@ You don't have to stop being powerful. You have to stop being _only_ powerful. Y
 
 Strong enough to be tender on purpose. That's the destination.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

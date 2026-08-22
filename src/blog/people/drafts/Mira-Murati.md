@@ -169,7 +169,7 @@ She was the chief technology officer of OpenAI. Her team built the model. And on
 
 Those three seconds exposed the method behind her public life: lower the temperature, avoid the irreversible answer, keep the room from splitting.
 
-The woman who wouldn't plant a flag on training data is the same woman every warring faction inside OpenAI trusted to hold it together. Her private Slack messages became evidence in the case for firing [Sam Altman](/personality-analysis/Sam-Altman), and she then spent a frantic weekend fighting to bring him back. She spent childhood in a country that collapsed, raised two billion dollars to build her own lab, and watched former colleagues recruit pieces of it away.
+The woman who wouldn't plant a flag on training data is the same woman every warring faction inside OpenAI trusted to hold it together. Her private Slack messages became evidence in the case for firing [Sam Altman](/personality-analysis/sam-altman), and she then spent a frantic weekend fighting to bring him back. She spent childhood in a country that collapsed, raised two billion dollars to build her own lab, and watched former colleagues recruit pieces of it away.
 
 To understand Mira Murati, start with what the calm actually is: a strategy, built in childhood, for hiding both a fear and an edge.
 

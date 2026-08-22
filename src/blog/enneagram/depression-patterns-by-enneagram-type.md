@@ -62,7 +62,7 @@ A Type 1's depression looks like perfectionist paralysis and harsh self-criticis
 
 Understanding your type's depression patterns can help you spot warning signs and seek support sooner. When you recognize how your mind creates suffering, you can address the pattern alongside its symptoms.
 
-**Don't know your type yet?** If you see yourself in multiple patterns below, pay attention to which one creates the most visceral "that's me" reaction. Ignore which sounds worst; notice which one you'd least want others to read about you. That discomfort usually points to your core type. You can also [take our Enneagram quiz](/enneagram-corner/enneagram-types-overview) to find out.
+**Don't know your type yet?** If you see yourself in multiple patterns below, pay attention to which one creates the most visceral "that's me" reaction. Ignore which sounds worst; notice which one you'd least want others to read about you. That discomfort usually points to your core type. You can also [take our Enneagram test](/enneagram-test) to find out.
 
 **Important Note:** This article explores psychological patterns and is not a substitute for professional mental health care. If you're experiencing suicidal thoughts or severe depression, please contact a mental health professional or crisis hotline immediately. For comprehensive strategies on breaking depression patterns specific to your type, read our detailed guide: [The Pattern-Breaking Guide to Fighting Depression](/how-to-guides/guide-to-fighting-depression). If anxiety accompanies your depression, as it often does, explore [how each type experiences anxiety differently](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide).
 

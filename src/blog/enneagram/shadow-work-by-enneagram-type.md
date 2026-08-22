@@ -95,7 +95,7 @@ A conscious Type 8 chooses when intimidation is appropriate. An unconscious Type
 Let's map how shadow work looks for each type.
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/enneagram-mental-health-flags" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/enneagram-mental-health-flags" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statue-of-athena-with-red.webp`}
           showIcon={false}
@@ -108,7 +108,7 @@ Let's map how shadow work looks for each type.
 
 ## Type 1: The Perfectionist's Shadow
 
-<a href="/blog/enneagram/enneagram-type-1">→ Learn more about Type 1: The Perfectionist</a>
+<a href="/enneagram-corner/enneagram-type-1">→ Learn more about Type 1: The Perfectionist</a>
 
 ### The Light Side
 
@@ -154,7 +154,7 @@ When triggered by someone's "mistake," pause and ask: "How is this perfect for t
 
 ## Type 2: The Helper's Shadow
 
-<a href="/blog/enneagram/enneagram-type-2">→ Learn more about Type 2: The Helper</a>
+<a href="/enneagram-corner/enneagram-type-2">→ Learn more about Type 2: The Helper</a>
 
 ### The Light Side
 
@@ -198,7 +198,7 @@ Stop the passive-aggression. When you're frustrated, say so. "I feel angry when.
 
 ## Type 3: The Achiever's Shadow
 
-<a href="/blog/enneagram/enneagram-type-3">→ Learn more about Type 3: The Achiever</a>
+<a href="/enneagram-corner/enneagram-type-3">→ Learn more about Type 3: The Achiever</a>
 
 ### The Light Side
 
@@ -244,7 +244,7 @@ Schedule time for rest and reflection with no output goal. Meditation helps. So 
 
 ## Type 4: The Individualist's Shadow
 
-<a href="/blog/enneagram/enneagram-type-4">→ Learn more about Type 4: The Individualist</a>
+<a href="/enneagram-corner/enneagram-type-4">→ Learn more about Type 4: The Individualist</a>
 
 ### The Light Side
 
@@ -290,7 +290,7 @@ Make art from joy, curiosity, or love. Not just pain. Suffering isn't the only s
 
 ## Type 5: The Investigator's Shadow
 
-<a href="/blog/enneagram/enneagram-type-5">→ Learn more about Type 5: The Investigator</a>
+<a href="/enneagram-corner/enneagram-type-5">→ Learn more about Type 5: The Investigator</a>
 
 ### The Light Side
 
@@ -335,7 +335,7 @@ Show up fully for social commitments instead of minimizing them. Put away distra
 Ask for help instead of always being self-sufficient. Communicate your limits before you're overwhelmed, not after. Interdependence creates security. Isolation creates the scarcity you're trying to avoid.
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/toxic-traits-of-each-enneagram-type" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/toxic-traits-of-each-enneagram-type" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statue-showing-cracks.webp`}
           showIcon={false}
@@ -348,7 +348,7 @@ Ask for help instead of always being self-sufficient. Communicate your limits be
 
 ## Type 6: The Loyalist's Shadow
 
-<a href="/blog/enneagram/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
+<a href="/enneagram-corner/enneagram-type-6">→ Learn more about Type 6: The Loyalist</a>
 
 ### The Light Side
 
@@ -396,7 +396,7 @@ Move forward with 70% certainty instead of waiting for 100%. Set time limits for
 
 ## Type 7: The Enthusiast's Shadow
 
-<a href="/blog/enneagram/enneagram-type-7">→ Learn more about Type 7: The Enthusiast</a>
+<a href="/enneagram-corner/enneagram-type-7">→ Learn more about Type 7: The Enthusiast</a>
 
 ### The Light Side
 
@@ -442,7 +442,7 @@ Talk through problems completely before jumping to solutions. Ask "What is this 
 
 ## Type 8: The Challenger's Shadow
 
-<a href="/blog/enneagram/enneagram-type-8">→ Learn more about Type 8: The Challenger</a>
+<a href="/enneagram-corner/enneagram-type-8">→ Learn more about Type 8: The Challenger</a>
 
 ### The Light Side
 
@@ -487,7 +487,7 @@ Deliberately soften your voice and body language. Ask "What would love do here?"
 Apologize for times your intensity hurt others. Take responsibility for your impact, not just your intentions. Accountability strengthens your position. People trust those who own their mistakes more than those who never admit them.
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/enneagram-and-mental-illness" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/enneagram-and-mental-illness" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statue-2-sided-mask.webp`}
           showIcon={false}
@@ -500,7 +500,7 @@ Apologize for times your intensity hurt others. Take responsibility for your imp
 
 ## Type 9: The Peacemaker's Shadow
 
-<a href="/blog/enneagram/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
+<a href="/enneagram-corner/enneagram-type-9">→ Learn more about Type 9: The Peacemaker</a>
 
 ### The Light Side
 
@@ -770,7 +770,7 @@ What shadow pattern are you ready to face?
 ## Resources for Continued Shadow Work
 
 <div style="display: flex; justify-content: center; margin: 2rem auto; max-width: 400px;">
-    <a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="width: 100%;">
+    <a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="width: 100%;">
       <PopCard
           image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
           showIcon={false}

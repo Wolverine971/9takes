@@ -525,7 +525,7 @@ The Type 4 in full crisis experiences a certainty that no other type fully under
 <a href="/enneagram-corner/mental-health/enneagram-therapy-guide" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard 
       image="/blogs/greek-statues-who-are-stressed.webp"
-      displayText="Get Professional Crisis Support"
+      displayText="Find Enneagram-Informed Therapy"
       showIcon={false}
       altText="Crisis support for Enneagram types"
       subtext="Learn therapy approaches for crisis intervention"

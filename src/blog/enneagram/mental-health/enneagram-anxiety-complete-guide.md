@@ -308,7 +308,7 @@ Everything in this article describes personality-level anxiety patterns, the kin
 - You're using substances, overwork, or withdrawal to cope
 - You've stopped doing things you used to enjoy
 
-If this describes you, the type-specific strategies above are supplements, not replacements, for professional help. A therapist who understands personality dynamics can work with your patterns instead of against them. [Here's how to find one](/enneagram-corner/mental-health/enneagram-therapy-guide).
+If this describes you, the type-specific strategies above are supplements, not replacements, for professional help. A therapist who understands personality dynamics can work with your patterns instead of against them. Learn [how to find therapy that fits your Enneagram type](/enneagram-corner/mental-health/enneagram-therapy-guide).
 
 It's also worth knowing that anxiety and depression frequently travel together. If your anxiety pattern has started pulling you into sustained low mood, withdrawal, or hopelessness, read our guide on [how depression shows up differently by type](/enneagram-corner/depression-patterns-by-enneagram-type) — the overlap is real and understanding both patterns gives you a fuller picture.
 

@@ -78,9 +78,9 @@ When you combine them, you can see both the relationship pattern and the motive 
 
 For example:
 
-- Two people can both have anxious attachment, but a <a href="/blog/enneagram/enneagram-type-2">Type 2 (The Helper)</a> seeks reassurance by over-giving until you need them, while a <a href="/blog/enneagram/enneagram-type-6">Type 6 (The Loyalist)</a> seeks it through constant loyalty tests.
+- Two people can both have anxious attachment, but a <a href="/enneagram-corner/enneagram-type-2">Type 2 (The Helper)</a> seeks reassurance by over-giving until you need them, while a <a href="/enneagram-corner/enneagram-type-6">Type 6 (The Loyalist)</a> seeks it through constant loyalty tests.
 
-- Two people can both be avoidant, but a <a href="/blog/enneagram/enneagram-type-5">Type 5 (The Investigator)</a> creates distance to preserve emotional resources, while a <a href="/blog/enneagram/enneagram-type-8">Type 8 (The Challenger)</a> does it to avoid the vulnerability that once got them hurt.
+- Two people can both be avoidant, but a <a href="/enneagram-corner/enneagram-type-5">Type 5 (The Investigator)</a> creates distance to preserve emotional resources, while a <a href="/enneagram-corner/enneagram-type-8">Type 8 (The Challenger)</a> does it to avoid the vulnerability that once got them hurt.
 
 The distinction changes how you date, fight, and repair.
 

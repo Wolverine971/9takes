@@ -186,7 +186,7 @@ In one version, he's an underdog success story: welfare to champion, belief over
 
 Both are true. And the split is where the Enneagram becomes useful.
 
-**April 2018**: McGregor storms the Barclays Center in Brooklyn. He and his crew attack a bus carrying [Khabib Nurmagomedov](/personality-analysis/Khabib-Nurmagomedov) and other UFC fighters. McGregor hurls a steel dolly through the bus window. Fighters inside are injured. The incident is captured on camera and broadcast worldwide.
+**April 2018**: McGregor storms the Barclays Center in Brooklyn. He and his crew attack a bus carrying [Khabib Nurmagomedov](/personality-analysis/khabib-nurmagomedov) and other UFC fighters. McGregor hurls a steel dolly through the bus window. Fighters inside are injured. The incident is captured on camera and broadcast worldwide.
 
 He pled guilty to disorderly conduct. Five days of community service. An anger management evaluation.
 

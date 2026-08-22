@@ -96,7 +96,7 @@ FEEDBACK (2026-02-18):
 
 <p class="firstLetter">That's not the kind of thing you expect from someone with 35 million TikTok followers. But Dixie D'Amelio isn't what she appears to be. Behind the sarcastic humor and deadpan delivery is someone who spent her entire rise to fame questioning whether she deserved any of it.</p>
 
-While her younger sister [Charli D'Amelio](/personality-analysis/charli-d'Amelio) became TikTok's golden child, Dixie carved out a different path. Not the polished performer. Not the natural star. Something messier, more complicated, and harder to look away from.
+While her younger sister [Charli D'Amelio](/personality-analysis/charli-damelio) became TikTok's golden child, Dixie carved out a different path. Not the polished performer. Not the natural star. Something messier, more complicated, and harder to look away from.
 
 <details>
 <summary class="accordion">TL;DR: Why Dixie D'Amelio is an Enneagram Type 4</summary>

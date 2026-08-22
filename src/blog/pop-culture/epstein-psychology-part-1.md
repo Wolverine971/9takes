@@ -42,7 +42,7 @@ path: src/blog/pop-culture/epstein-psychology-part-1.md
 
 The financier who died in a Manhattan jail cell in 2019 left behind more than victims and unanswered questions. Cameras malfunctioning, guards asleep, cellmate transferred the day before. ([DOJ OIG](https://oig.justice.gov/news/doj-oig-releases-report-bops-custody-care-and-supervision-jeffrey-epstein-metropolitan); [AP/PBS](https://www.pbs.org/newshour/amp/nation/misconduct-by-federal-jail-guards-led-to-jeffrey-epsteins-suicide-doj-watchdog-says)) He left a psychological blueprint for a certain kind of predator: one who operates not through force, but through service.
 
-This is Part 1 of a two-part series examining the psychology behind Epstein's operation. This first part focuses on **who Epstein was**, the psychological patterns that drove him. [Part 2](/pop-culture/epstein-psychology-part-2) examines **how he lured people**, the specific tactics he used on the powerful and the vulnerable.
+This is Part 1 of a two-part series examining the psychology behind Epstein's operation. This first part focuses on **who Epstein was**, the psychological patterns that drove him. [Epstein psychology Part 2](/pop-culture/epstein-psychology-part-2) examines **how he lured people**, the specific tactics he used on the powerful and the vulnerable.
 
 ## A Note on Speculation
 
@@ -500,7 +500,7 @@ What followed:
 
 Yet the central irony persists: despite all of this — the files, the names, the depositions — **no new criminal indictments** have been issued in the United States as of February 2026. The system Epstein built to protect himself continues to protect the people he compromised.
 
-[Part 2](/pop-culture/epstein-psychology-part-2) examines the specific tactics Epstein used on different populations: how he lured the powerful with one playbook and the vulnerable with another.
+[Epstein psychology Part 2](/pop-culture/epstein-psychology-part-2) examines the specific tactics Epstein used on different populations: how he lured the powerful with one playbook and the vulnerable with another.
 
 ## What Epstein's Psychology Reveals
 
@@ -526,7 +526,7 @@ The boss who solves your problems and then owns your loyalty. The friend who doe
 
 **The arrangement you don't question.** A coworker offers to "handle" something complicated for you. A new friend starts picking up every check. A romantic partner takes over your finances "to help." The relationship benefits both sides, which is why neither side examines it too closely. The danger isn't being tricked. It's choosing not to ask what the help is costing — because the answer might [end the arrangement](/enneagram-corner/toxic-traits-of-each-enneagram-type).
 
-**The warning you dismiss because the help is too good.** Your business partner has connections that seem too useful to question. Your manager handles problems you don't want to look at too closely. Someone is solving things for you that you can't solve yourself — and the cost of asking how is losing the help. [That's the trap](/enneagram-corner/enneagram-and-mental-illness).
+**The warning you dismiss because the help is too good.** Your business partner has connections that seem too useful to question. Your manager handles problems you don't want to look at too closely. Someone is solving things for you that you can't solve yourself — and the cost of asking how is losing the help. That is [how personality-driven manipulation works](/enneagram-corner/how-each-enneagram-type-manipulates).
 
 **The escalation you rationalize.** The workplace mentor who starts with career advice, then does unsolicited favors, then tracks every one, then starts expecting loyalty that looks more like obedience. Each step seemed reasonable. By the time you see the full arc — the favors were investments, and the returns are now due — the dependency is already built. The pattern operates at [every scale](/enneagram-corner/toxic-traits-relationships-warning-signs).
 

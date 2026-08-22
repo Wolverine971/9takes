@@ -179,7 +179,7 @@ Here's the thing: noticing these patterns isn't about beating yourself up. It's 
 
 Here's something you might have noticed: when stress gets intense enough that your usual tactics stop working, you become someone almost unrecognizable.
 
-Under serious pressure, you shift toward the rigid side of <a href="/blog/enneagram/enneagram-type-1">Type 1, "The Perfectionist."</a>
+Under serious pressure, you shift toward the rigid side of <a href="/enneagram-corner/enneagram-type-1">Type 1, "The Perfectionist."</a>
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/1-7.png" class="arrow-img" alt="seven going to one in stress">
@@ -297,7 +297,7 @@ This isn't malicious. Emotional heaviness triggers your escape instinct. You wan
 
 Sometimes that's exactly what they need. Sometimes they need you to just stay without fixing anything. Learning the difference expands what you can offer.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 7s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 7s connect with each type.
 
 </section>
 
@@ -309,7 +309,7 @@ Here's where it gets good. Growth for you isn't about becoming less enthusiastic
 
 ### The Type 5 Upgrade
 
-When Sevens grow, they integrate the best qualities of <a href="/blog/enneagram/enneagram-type-5">Type 5, "The Investigator."</a> Think of it as adding depth mode to your possibility engine.
+When Sevens grow, they integrate the best qualities of <a href="/enneagram-corner/enneagram-type-5">Type 5, "The Investigator."</a> Think of it as adding depth mode to your possibility engine.
 
 **Sustained focus becomes a superpower.** You discover that going deep into one thing can be more thrilling than skimming across many. Real expertise. Actual mastery. The satisfaction of knowing something completely rather than knowing a little about everything.
 
@@ -339,7 +339,7 @@ This doesn't mean giving up on new experiences. It means adding a new gear. You 
 
 The satisfaction you get from depth isn't the same as the rush of something new. It's quieter. It lasts longer. And paradoxically, when you stop needing the next thing so urgently, the present moment gets more interesting.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

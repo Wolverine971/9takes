@@ -349,7 +349,7 @@ Sixes often struggle with anxiety and worst-case scenario thinking. This can lea
           image={`/blogs/greek-statue-2-sided-mask.webp`}
           showIcon={false}
           subtext=""
-          displayText="a face with 2 sides"
+          displayText="Enneagram and Mental Health"
           scramble={false}
       />
      </a>

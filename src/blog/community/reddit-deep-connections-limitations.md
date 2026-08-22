@@ -167,7 +167,7 @@ But if you're craving actual connection, not engagement, not acknowledgment, but
 
 The scroll never satisfies because it was never designed to.
 
-<a href="/community/introducing-9takes">Check out what we're building</a>: a platform where personality context shapes every interaction, where you contribute before you consume, and where the goal isn't to be first but to be understood.
+<a href="/community/introducing-9takes">See how 9takes is designed for deeper conversations</a>: a platform where personality context shapes every interaction, where you contribute before you consume, and where the goal isn't to be first but to be understood.
 
 ## Frequently Asked Questions
 

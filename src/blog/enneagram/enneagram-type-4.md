@@ -95,7 +95,7 @@ They seem to have received something essential that somehow never reached you.
 
 If you're reading this and wondering whether this is really you, here's a quick test.
 
-Fours are sometimes confused with <a href="/blog/enneagram/enneagram-type-2">Type 2s</a>, since both feel deeply. The key difference: **Type 2** feels deeply _about others_—their wound is feeling unworthy unless they earn love through giving. **Type 4** feels deeply _about their own inner experience_—your wound is feeling fundamentally incomplete. You don't want to be needed. You want to be understood.
+Fours are sometimes confused with <a href="/enneagram-corner/enneagram-type-2">Type 2s</a>, since both feel deeply. The key difference: **Type 2** feels deeply _about others_—their wound is feeling unworthy unless they earn love through giving. **Type 4** feels deeply _about their own inner experience_—your wound is feeling fundamentally incomplete. You don't want to be needed. You want to be understood.
 
 The telling sign: When hurt, Twos give more. When hurt, Fours withdraw into their inner world. If that withdrawal feels like returning to the only place that makes sense, keep reading.
 
@@ -117,13 +117,13 @@ When you're grounded in your wholeness, you become an **emotional alchemist** wh
 
 Your neighboring types shape how your Four-ness expresses itself in the world.
 
-**The 4w3 "The Aristocrat"**: If you lean toward your <a href="/blog/enneagram/enneagram-type-3">Type 3 wing</a>, you're more image-conscious, ambitious, and externally focused. You want to be seen as unique AND successful.
+**The 4w3 "The Aristocrat"**: If you lean toward your <a href="/enneagram-corner/enneagram-type-3">Type 3 wing</a>, you're more image-conscious, ambitious, and externally focused. You want to be seen as unique AND successful.
 
 You channel your intensity toward creative achievement. You're the Four who actually finishes projects and puts them out into the world. You crave recognition for your uniqueness through visible accomplishment.
 
 The shadow: you may perform authenticity rather than embody it, crafting an image of depth rather than simply being deep.
 
-**The 4w5 "The Bohemian"**: If you lean toward your <a href="/blog/enneagram/enneagram-type-5">Type 5 wing</a>, you're more withdrawn, intellectual, and internally focused. You dive deeper into solitude and philosophical exploration.
+**The 4w5 "The Bohemian"**: If you lean toward your <a href="/enneagram-corner/enneagram-type-5">Type 5 wing</a>, you're more withdrawn, intellectual, and internally focused. You dive deeper into solitude and philosophical exploration.
 
 You create in private, often for years, before (or without) sharing. You synthesize meaning through analysis and art.
 
@@ -153,7 +153,7 @@ But you also know your darkness. Probably better than this article can describe 
 
 You know this place. The one where your usual depths become a pit you can't climb out of.
 
-When overwhelmed, something unsettling happens. You shift toward the shadow side of <a href="/blog/enneagram/enneagram-type-2">Type 2, "The Helper"</a>. Your fierce independence dissolves into desperate clinging. The authenticity you built your identity around gets abandoned in a frantic search for someone, anyone, to prove you're not as alone as you feel.
+When overwhelmed, something unsettling happens. You shift toward the shadow side of <a href="/enneagram-corner/enneagram-type-2">Type 2, "The Helper"</a>. Your fierce independence dissolves into desperate clinging. The authenticity you built your identity around gets abandoned in a frantic search for someone, anyone, to prove you're not as alone as you feel.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/2-4.png" class="arrow-img" alt="four going to 2 in stress">
@@ -283,7 +283,7 @@ Their push-pull behavior isn't manipulation. It's genuine terror caught between 
 
 And know this: if a Four lets you truly see them, if they risk showing you their real self instead of the curated version, that is the greatest gift they can give. Honor it.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 4s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 4s connect with each type.
 
 </section>
 
@@ -405,7 +405,7 @@ It's about discovering that the missing piece was never missing.
 
 ### Moving Toward Wholeness
 
-When you integrate, you begin to access the healthy qualities of <a href="/blog/enneagram/enneagram-type-1">Type 1, "The Perfectionist."</a> This doesn't mean becoming rigid or self-critical (you already have enough of that). It means developing new capacities:
+When you integrate, you begin to access the healthy qualities of <a href="/enneagram-corner/enneagram-type-1">Type 1, "The Perfectionist."</a> This doesn't mean becoming rigid or self-critical (you already have enough of that). It means developing new capacities:
 
 **Principled action.** The ability to move from feeling into doing, to make values-based decisions even when your emotions are a tangled storm. You learn that you don't have to wait until you feel ready. You can act alongside the uncertainty.
 
@@ -453,7 +453,7 @@ Not because you found what was missing. Because you realized nothing was missing
 
 You were always home. You just couldn't see it through the longing.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

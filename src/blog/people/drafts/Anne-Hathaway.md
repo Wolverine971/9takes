@@ -186,7 +186,7 @@ Then came the line that marked the shift: "I've realized that I don't need valid
 
 Years later, at Elle's Women in Hollywood event, she named what the experience had actually done: "When your self-inflicted pain is suddenly somehow amplified back at you at, say, the full volume of the internet... it's a thing. I realized I had no desire to have anything to do with this line of energy, on any level. I would no longer create art from this place."
 
-Here's what mattered about this period: it broke the model. No amount of preparation, dedication, or good intentions could control how others perceived her. The usual approach — _work harder, be better_ — had failed. When Type 1s [hit that wall](/enneagram-corner/enneagram-types-in-stress), the emotional dam breaks. And for the first time, she had to sit with a problem that effort couldn't solve.
+Here's what mattered about this period: it broke the model. No amount of preparation, dedication, or good intentions could control how others perceived her. The usual approach — _work harder, be better_ — had failed. When [Type 1s hit their stress wall](/enneagram-corner/enneagram-types-in-stress), the emotional dam breaks. And for the first time, she had to sit with a problem that effort couldn't solve.
 
 ## Christopher Nolan and the Way Back
 

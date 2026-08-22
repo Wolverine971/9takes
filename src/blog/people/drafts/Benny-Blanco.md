@@ -219,7 +219,7 @@ An honest typing still has to take two rivals seriously. His anxiety, phobias, c
 
 ## Why Benny Blanco feeds pop stars before he records them
 
-Watch the method under pressure. At [Ed Sheeran](/personality-analysis/Ed-Sheeran)'s writing camp for *Divide*, songwriter Julia Michaels locked herself in a room, panicking. "He went to the kitchen, grabbed ice and put it in my hands," Michaels told Billboard in 2018, describing a grounding technique straight out of a clinician's office. Then he sealed the room: "OK, you and me, we're gonna do this together. We're gonna be in this room, no cameras, just you and me, you got this." The session produced Sheeran's "Dive."
+Watch the method under pressure. At [Ed Sheeran](/personality-analysis/ed-sheeran)'s writing camp for *Divide*, songwriter Julia Michaels locked herself in a room, panicking. "He went to the kitchen, grabbed ice and put it in my hands," Michaels told Billboard in 2018, describing a grounding technique straight out of a clinician's office. Then he sealed the room: "OK, you and me, we're gonna do this together. We're gonna be in this room, no cameras, just you and me, you got this." The session produced Sheeran's "Dive."
 
 The Sheeran friendship itself began with a confession. The first email Benny ever sent him read, in full, "I have to take a s***." Sheeran wrote back: "Me too." Benny's conclusion: "Okay, now I know I'm going to be friends with this guy" (The Howard Stern Show, 2024).
 
@@ -305,7 +305,7 @@ The studio method never clocks out; it just changes clients. The public has know
 
 ## Why the internet can't believe Selena Gomez married him
 
-The one room he cannot curate is the internet. When [Selena Gomez](/personality-analysis/Selena-Gomez) went public with him, it treated the match as an error in the simulation. His inclusion in People's Sexiest Man Alive issue drew a viral 6.8-million-view post asking, "Did we run out of men or something?" At the 2025 Golden Globes, Nikki Glaser introduced him as the man who was there "because of the genie who granted him that wish." In February 2026, his podcast premiere featured his bare feet on the couch, and the verdicts ran to "divorce him." He answered on Jimmy Kimmel Live by taking his shoe off on air.
+The one room he cannot curate is the internet. When [Selena Gomez](/personality-analysis/selena-gomez) went public with him, it treated the match as an error in the simulation. His inclusion in People's Sexiest Man Alive issue drew a viral 6.8-million-view post asking, "Did we run out of men or something?" At the 2025 Golden Globes, Nikki Glaser introduced him as the man who was there "because of the genie who granted him that wish." In February 2026, his podcast premiere featured his bare feet on the couch, and the verdicts ran to "divorce him." He answered on Jimmy Kimmel Live by taking his shoe off on air.
 
 Buried in the Glaser story is the detail that matters. She texted him the joke in advance, asking permission. He ran it by Selena, then cleared it ([Us Weekly, 2025](https://www.usmagazine.com/entertainment/news/nikki-glaser-got-permission-from-benny-blanco-for-selena-gomez-joke/)). The most mocked man in pop approves the jokes at his own expense, personally, before air.
 

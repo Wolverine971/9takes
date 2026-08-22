@@ -133,7 +133,7 @@ Mass media broke this. Radio, then television, then social media built an illusi
 
 What matters here is what happens when the parasocial relationship cracks.
 
-No commenter quoted in the BuzzFeed article has ever met any of the people they are denouncing. Not one. The relationship they had with [J.K. Rowling](/personality-analysis/j.k.-rowling) was the relationship a reader has with a book they loved at twelve. The relationship with Neil Gaiman was the relationship a college kid has with the man who hugged them at a signing. When the image cracks, what gets lost is the image — not the person. The person was never accessible in the first place.
+No commenter quoted in the BuzzFeed article has ever met any of the people they are denouncing. Not one. The relationship they had with [J.K. Rowling](/personality-analysis/jk-rowling) was the relationship a reader has with a book they loved at twelve. The relationship with Neil Gaiman was the relationship a college kid has with the man who hugged them at a signing. When the image cracks, what gets lost is the image — not the person. The person was never accessible in the first place.
 
 So the grief gets metabolized as denunciation. _I lost respect_ usually means _the construct in my head no longer matches the data, and I do not have a clean way to grieve the construct._ "I just see him as a sad, broken human being" is a sentence about Will Smith only on the surface. Underneath, it is the sound of a parasocial bond breaking and the speaker trying to keep their self-concept intact while it does.
 
@@ -202,7 +202,7 @@ BuzzFeed's list, viewed without flinching, is exactly this collapse at internet 
 - **A grandfather not knowing how to answer his grandson** (Snoop on _Lightyear_)
 - **Being weird on Twitter** (Grimes)
 - **Comedy material the writer did not enjoy** ([Dave Chappelle](/personality-analysis/dave-chappelle), Bill Burr)
-- **A legal position the UK Supreme Court agreed with** ([J.K. Rowling](/personality-analysis/j.k.-rowling))
+- **A legal position the UK Supreme Court agreed with** ([J.K. Rowling](/personality-analysis/jk-rowling))
 - **A mental health crisis, with brain-injury context that the subject and some clinicians have described and others contest** ([Kanye](/personality-analysis/kanye))
 
 It cheapens the heavy entries. The reader who skimmed past Cosby's name (entry #35) processed it at the same emotional temperature as Snoop's (entry #5) and Hugh Jackman's (entry #6).

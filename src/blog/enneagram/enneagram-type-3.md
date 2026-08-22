@@ -80,9 +80,9 @@ This isn't a moral failing. It's survival programming that worked brilliantly. U
 
 Your neighboring types dramatically shape how your 3 energy expresses.
 
-**The 3w2 ("The Charmer")**: With a <a href="/blog/enneagram/enneagram-type-2">Type 2 wing</a>, you become the politician, the salesperson, the magnetic networker. You achieve through people. Success means being liked as much as being impressive. You're warm, encouraging, genuinely invested in others' wins. Partly because their success reflects well on you. The 3w2 works a room like nobody else: remembering names, making everyone feel seen, building coalitions. The shadow? Your helpfulness becomes strategic. You blur the line between genuine care and calculated charm.
+**The 3w2 ("The Charmer")**: With a <a href="/enneagram-corner/enneagram-type-2">Type 2 wing</a>, you become the politician, the salesperson, the magnetic networker. You achieve through people. Success means being liked as much as being impressive. You're warm, encouraging, genuinely invested in others' wins. Partly because their success reflects well on you. The 3w2 works a room like nobody else: remembering names, making everyone feel seen, building coalitions. The shadow? Your helpfulness becomes strategic. You blur the line between genuine care and calculated charm.
 
-**The 3w4 ("The Professional")**: With a <a href="/blog/enneagram/enneagram-type-4">Type 4 wing</a>, you're the artist who needs to be the _best_ artist. Success alone isn't enough. It needs to be original, authentic, meaningful. You bring depth and emotional sophistication that 3w2s often lack. You're more introspective, more likely to question whether your success aligns with your "true self." The shadow? You become precious about your work, dismissing others' as derivative while your own projects stall in pursuit of impossible perfection.
+**The 3w4 ("The Professional")**: With a <a href="/enneagram-corner/enneagram-type-4">Type 4 wing</a>, you're the artist who needs to be the _best_ artist. Success alone isn't enough. It needs to be original, authentic, meaningful. You bring depth and emotional sophistication that 3w2s often lack. You're more introspective, more likely to question whether your success aligns with your "true self." The shadow? You become precious about your work, dismissing others' as derivative while your own projects stall in pursuit of impossible perfection.
 
 <div class="scroll-table">
 
@@ -208,7 +208,7 @@ You already know the downsides. You live them:
 
 ## When the Machine Breaks Down
 
-When overwhelmed, something disorienting happens. You shift toward the unhealthy patterns of <a href="/blog/enneagram/enneagram-type-9">Type 9</a>. Your drive evaporates into paralysis.
+When overwhelmed, something disorienting happens. You shift toward the unhealthy patterns of <a href="/enneagram-corner/enneagram-type-9">Type 9</a>. Your drive evaporates into paralysis.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/9-3.png" class="arrow-img" alt="three going to nine in stress">
@@ -300,7 +300,7 @@ Their achievement drive protects against deep unworthiness fears. When they can'
 
 Celebrate their non-achievements. Notice who they are when they're not performing. Love them hardest when they fail. Show them your love doesn't fluctuate with their success.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 3s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 3s connect with each type.
 
 </section>
 
@@ -350,7 +350,7 @@ Growth isn't about achieving less. It's about discovering you are not your achie
 
 ### What Integration Looks Like
 
-When growing, you move toward the healthy qualities of <a href="/blog/enneagram/enneagram-type-6">Type 6</a>. This doesn't mean becoming anxious or dependent. It means developing capacity for:
+When growing, you move toward the healthy qualities of <a href="/enneagram-corner/enneagram-type-6">Type 6</a>. This doesn't mean becoming anxious or dependent. It means developing capacity for:
 
 **Authentic collaboration.** Working with others rather than against them. Finding strength in interdependence instead of solo excellence.
 
@@ -400,7 +400,7 @@ Not impressive enough. Not successful enough. Just enough. As is. Without modifi
 
 The performance can finally end. The person can finally emerge.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

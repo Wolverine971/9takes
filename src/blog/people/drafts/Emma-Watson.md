@@ -270,7 +270,7 @@ The Type 1 fit is exact. The product cannot be casually wrong. Every input is ac
 
 ## The JK Rowling Rift
 
-The conflict with <a href="/personality-analysis/j.k.-rowling">JK Rowling</a> is the part of Emma Watson's life that most resists tidy interpretation, and the part where the Type 1 frame and her actual circumstances pull hardest in opposite directions.
+The conflict with <a href="/personality-analysis/jk-rowling">JK Rowling</a> is the part of Emma Watson's life that most resists tidy interpretation, and the part where the Type 1 frame and her actual circumstances pull hardest in opposite directions.
 
 ### Choosing the Position
 

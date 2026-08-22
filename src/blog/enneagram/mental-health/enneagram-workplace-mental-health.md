@@ -629,7 +629,7 @@ Many workplace mental health struggles have a job-fit component. You may not be 
 Stop trying to fix yourself. Start finding where you fit.
 
 Need crisis support? [Get help now](/enneagram-corner/mental-health/enneagram-crisis-management-guide).
-Dealing with workplace trauma? [Read this](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
+Dealing with workplace trauma? [Read the Enneagram trauma response guide](/enneagram-corner/mental-health/enneagram-trauma-response-guide).
 Considering medication? [Understand your options](/enneagram-corner/mental-health/enneagram-medication-mental-health).
 
 ## Frequently Asked Questions

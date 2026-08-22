@@ -122,7 +122,7 @@ But perpetual vigilance casts dark shadows. You know these:
 
 ## When Fear Becomes Frenzy: Under Stress
 
-When overwhelmed, something disturbing happens. You shift toward unhealthy <a href="/blog/enneagram/enneagram-type-3">Type 3</a> patterns. Your authenticity morphs into image management.
+When overwhelmed, something disturbing happens. You shift toward unhealthy <a href="/enneagram-corner/enneagram-type-3">Type 3</a> patterns. Your authenticity morphs into image management.
 
 <p style="display: flex; justify-content: center;">
 <img loading="lazy" src="/blogs/3-6.png" class="arrow-img" alt="six going to three in stress">
@@ -303,7 +303,7 @@ Your neighboring types add distinct flavors to your vigilance. Wing names descri
 
 ### 6w5: The Defender
 
-With a <a href="/blog/enneagram/enneagram-type-5">Type 5 wing</a>, you become more independent and cerebral. Your security strategy emphasizes competence and knowledge. You might spend hours researching before making a decision, building expertise as a hedge against uncertainty.
+With a <a href="/enneagram-corner/enneagram-type-5">Type 5 wing</a>, you become more independent and cerebral. Your security strategy emphasizes competence and knowledge. You might spend hours researching before making a decision, building expertise as a hedge against uncertainty.
 
 6w5s gravitate toward technical fields, security research, investigative journalism. Anywhere that rewards meticulous preparation and healthy skepticism. Less socially anxious than other Sixes, more comfortable working alone, more likely to trust your own analysis over others' reassurance.
 
@@ -311,7 +311,7 @@ The shadow: isolation that cuts you off from support you actually need. Withdraw
 
 ### 6w7: The Buddy
 
-With a <a href="/blog/enneagram/enneagram-type-7">Type 7 wing</a>, you balance anxiety with optimism and social energy. Your security strategy emphasizes connection and mobility. If this doesn't work out, there's always another option. Another group. Another adventure.
+With a <a href="/enneagram-corner/enneagram-type-7">Type 7 wing</a>, you balance anxiety with optimism and social energy. Your security strategy emphasizes connection and mobility. If this doesn't work out, there's always another option. Another group. Another adventure.
 
 6w7s are often the social glue in groups. Organizing gatherings, checking in on people, using humor to defuse tension. More outwardly warm than other Sixes, more comfortable taking social risks, more likely to manage anxiety through activity and connection than withdrawal.
 
@@ -411,7 +411,7 @@ Their questioning isn't accusation. It's how they create safety. Their "what-ifs
 
 Once a Six trusts you fully, they're with you through anything.
 
-Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/blog/enneagram/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 6s connect with each type.
+Learn more about <a href="/enneagram-corner/enneagram-types-in-relationships">other types in relationships</a> and explore the <a href="/enneagram-corner/enneagram-compatibility-matrix">Enneagram compatibility matrix</a> to understand how Type 6s connect with each type.
 
 </section>
 
@@ -435,7 +435,7 @@ This isn't naive optimism. It's evidence-based trust. You're still here. You nav
 
 ### Moving Toward Nine
 
-When you integrate, you move toward healthy <a href="/blog/enneagram/enneagram-type-9">Type 9</a> patterns. Not passivity or conflict-avoidance. The capacity for:
+When you integrate, you move toward healthy <a href="/enneagram-corner/enneagram-type-9">Type 9</a> patterns. Not passivity or conflict-avoidance. The capacity for:
 
 **Inner calm.** A still center that remains stable regardless of external circumstances. The storm can rage outside. You can be steady within.
 
@@ -499,7 +499,7 @@ Sixes often test as other types, especially early in their Enneagram journey.
 
 **6 Anxiety vs. Generalized Anxiety Disorder:** Type 6 anxiety has a specific flavor. It centers on trust, loyalty, authority, and worst-case scenarios involving betrayal or abandonment. GAD is more free-floating, attaching to anything and everything. Sixes can also have GAD, but the Enneagram pattern points to relationship and trust-based fear, not generalized worry about health, finances, or random catastrophes.
 
-<a href="/blog/enneagram/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
+<a href="/enneagram-corner/enneagram-personal-growth" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image={`/blogs/greek-statue-interested-in-personality-maxing.webp`}
       showIcon={false}

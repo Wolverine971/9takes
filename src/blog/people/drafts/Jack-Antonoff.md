@@ -175,7 +175,7 @@ Ending swap-test: pass — ends on the ragtime figure his father taught him, the
 
 This was the actual room, extracted whole from his parents' house, and Antonoff was in his thirties when he froze it. "It was literally exactly how I left it," he told Rolling Stone. "It speaks to how badly I want to enter the next phase of my life and how impossible it is for me to let go of what's gone."
 
-The man towing that bedroom now owns 13 Grammys. He won Producer of the Year three years straight (2022 through 2024), a run only Babyface had ever matched, and his fingerprints are on era-defining albums by [Taylor Swift](/personality-analysis/Taylor-Swift), [Lana Del Rey](/personality-analysis/Lana-Del-Rey), Lorde, St. Vincent, and Sabrina Carpenter.
+The man towing that bedroom now owns 13 Grammys. He won Producer of the Year three years straight (2022 through 2024), a run only Babyface had ever matched, and his fingerprints are on era-defining albums by [Taylor Swift](/personality-analysis/taylor-swift), [Lana Del Rey](/personality-analysis/lana-del-rey), Lorde, St. Vincent, and Sabrina Carpenter.
 
 The industry has spent a decade asking how one man got inside everybody's records. Nobody thought to ask why the most powerful producer in pop needs to bring his bedroom with him.
 

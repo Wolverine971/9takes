@@ -704,7 +704,7 @@ The honest answer: it's promising but not settled science. A <a  target="_blank"
 
 ### How is the Enneagram different from Myers-Briggs?
 
-The Enneagram focuses on core motivations, fears, and desires—_why_ you do what you do. Myers-Briggs (MBTI) focuses on cognitive preferences—_how_ you process information. The Enneagram includes growth paths and stress patterns that show how your type changes under different conditions, while MBTI types are more static. Many people find the Enneagram more useful for personal growth and relationships, while MBTI is popular in workplace settings. See our [full comparison](/enneagram-corner/enneagram-vs-meyers-briggs).
+The Enneagram focuses on core motivations, fears, and desires—_why_ you do what you do. Myers-Briggs (MBTI) focuses on cognitive preferences—_how_ you process information. The Enneagram includes growth paths and stress patterns that show how your type changes under different conditions, while MBTI types are more static. Many people find the Enneagram more useful for personal growth and relationships, while MBTI is popular in workplace settings. See our [Enneagram vs. Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs).
 
 ### Can my Enneagram type change over time?
 

@@ -31,7 +31,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "What's something you've improved lately that nobody noticed?"
 - **Never:** make an excuse. Own the mistake and the fix; they'll forgive almost anything else.
 
-[Type 1 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-1)
+[Type 1 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-1)
 
 ## Type 2: The Helper
 
@@ -41,7 +41,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "You seem like the one who takes care of everyone. Who takes care of you?"
 - **Never:** treat their warmth like room service. They notice, and they keep quiet score.
 
-[Type 2 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-2)
+[Type 2 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-2)
 
 ## Type 3: The Achiever
 
@@ -51,7 +51,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "What's the win you're chasing right now?"
 - **Never:** perform indifference. A 3 reads deliberate unimpressed-ness as a verdict on the whole meeting.
 
-[Type 3 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-3)
+[Type 3 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-3)
 
 ## Type 4: The Individualist
 
@@ -61,7 +61,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "What's something you noticed today that everyone else walked past?"
 - **Never:** say "you're so unique." Generic praise for their uniqueness proves you weren't paying attention.
 
-[Type 4 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-4)
+[Type 4 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-4)
 
 ## Type 5: The Investigator
 
@@ -71,7 +71,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "What rabbit hole are you down right now?"
 - **Never:** crowd them, touch them, or demand feelings. Space is the price of admission.
 
-[Type 5 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-5)
+[Type 5 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-5)
 
 ## Type 6: The Loyalist
 
@@ -81,7 +81,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "What's your read on this place?"
 - **Never:** say "trust me." Every unsolicited reassurance raises the alarm you meant to lower.
 
-[Type 6 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-6)
+[Type 6 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-6)
 
 ## Type 7: The Enthusiast
 
@@ -91,7 +91,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "If you had to leave on a trip in two hours, where are you going?"
 - **Never:** open with a complaint. Heaviness in the first minute files you under "drain."
 
-[Type 7 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-7)
+[Type 7 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-7)
 
 ## Type 8: The Challenger
 
@@ -101,7 +101,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "What's something everyone here is thinking but nobody's saying?"
 - **Never:** flatter or hedge. They would rather be challenged than managed.
 
-[Type 8 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-8)
+[Type 8 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-8)
 
 ## Type 9: The Peacemaker
 
@@ -111,7 +111,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **Ask:** "Zero stakes: if it were entirely up to you, what would you pick?"
 - **Never:** rush a decision. "Just pick something" closes the door you were trying to open.
 
-[Type 9 in depth →](/enneagram-corner/first-impression-enneagram-playbook#type-9)
+[Type 9 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-9)
 
 ## If you can't get a read
 

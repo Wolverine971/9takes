@@ -31,7 +31,7 @@ path: src/blog/pop-culture/ghislaine-maxwell-psychology.md
 </div>
 
 <div class="disclaimer">
-<p><strong>Last updated: February 26, 2026.</strong> Incorporates the July 2025 DOJ interview transcripts, the Bloomberg email cache (18,000+ messages), and the ongoing House Oversight Committee investigation. This article is a companion piece to our two-part Epstein psychology analysis (<a href="/pop-culture/epstein-psychology-part-1">Part 1</a>, <a href="/pop-culture/epstein-psychology-part-2">Part 2</a>).</p>
+<p><strong>Last updated: February 26, 2026.</strong> Incorporates the July 2025 DOJ interview transcripts, the Bloomberg email cache (18,000+ messages), and the ongoing House Oversight Committee investigation. This article is a companion piece to our two-part Epstein psychology analysis (<a href="/pop-culture/epstein-psychology-part-1">Epstein psychology Part 1</a>, <a href="/pop-culture/epstein-psychology-part-2">Epstein psychology Part 2</a>).</p>
 </div>
 
 > "Mother, you've forgotten me. I do exist."
@@ -166,7 +166,7 @@ Then she fled to New York for good.
 
 In a 2016 deposition, Ghislaine said she met Jeffrey Epstein in 1991 "through a mutual friend." This is likely an understatement.
 
-Steven Hoffenberg, Epstein's former business partner in the Towers Financial Ponzi scheme, claimed Robert Maxwell had introduced his daughter to Epstein in the late 1980s. Former Israeli intelligence official Ari Ben-Menashe places Epstein in Robert Maxwell's London office "several times" during this period. ([Middle East Eye](https://www.middleeasteye.net/news/how-jeffrey-epsteins-intelligence-ties-go-back-decades)) As we documented in [Part 1](/pop-culture/epstein-psychology-part-1), Epstein moved through Robert Maxwell's orbit during the mid-1980s "gap years" when he was building intelligence and arms-dealing connections.
+Steven Hoffenberg, Epstein's former business partner in the Towers Financial Ponzi scheme, claimed Robert Maxwell had introduced his daughter to Epstein in the late 1980s. Former Israeli intelligence official Ari Ben-Menashe places Epstein in Robert Maxwell's London office "several times" during this period. ([Middle East Eye](https://www.middleeasteye.net/news/how-jeffrey-epsteins-intelligence-ties-go-back-decades)) As we documented in [Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1), Epstein moved through Robert Maxwell's orbit during the mid-1980s "gap years" when he was building intelligence and arms-dealing connections.
 
 The timeline is important. Robert Maxwell dies in November 1991. Ghislaine endures a year of social and financial collapse. By 1992, she and Epstein are together. By 1993, staff described her as his "main girlfriend."
 
@@ -284,7 +284,7 @@ The pattern has continued. In a prison interview with journalist Daphne Barak, M
 
 Whether this represents genuine sociopathy or the hostage princess's final defense mechanism — _if I admit what I did, I lose whatever protection might still come from loyalty_ — is an open question. But the absence of remorse is consistent across every documented statement.
 
-Both the prosecution and defense contain partial truth. Epstein was a master manipulator who did exploit the people around him (see [Part 1](/pop-culture/epstein-psychology-part-1)). And Maxwell was an adult with agency. The framework holds both simultaneously: she was genuinely trapped in a psychological pattern of pathological attachment, AND she made choices within that pattern that caused devastating harm. Understanding the trap does not unlock the cage for the people who were locked inside it.
+Both the prosecution and defense contain partial truth. Epstein was a master manipulator who did exploit the people around him (see [Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1)). And Maxwell was an adult with agency. The framework holds both simultaneously: she was genuinely trapped in a psychological pattern of pathological attachment, AND she made choices within that pattern that caused devastating harm. Understanding the trap does not unlock the cage for the people who were locked inside it.
 
 ## The DOJ Interview: Loyalty's Last Gambit
 

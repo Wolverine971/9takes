@@ -257,7 +257,7 @@ This is also why his feud list is almost empty. Thirty-plus years in hip-hop, th
 
 The ability to not carry is not passivity. It's a skill Nines develop the hard way, usually after they notice that the thing they were carrying was hurting them more than the person who gave it to them. In Snoop's case, the lesson came from the Death Row year — the year his friend died, his boss tried to kill him, and his spirit, in his own words, broke. "It broke me, man. It broke my spirit. Win my murder case, Tupac get killed, Death Row want to kill me. That's all in the same year."
 
-A Type Nine who has been [that broken and come back](/enneagram-corner/enneagram-types-in-stress) does one of two things. They go numb, or they learn to put things down quickly. Snoop learned to put things down. It looks like ease. It's actually a survival skill dressed up as a personality.
+A [Type Nine recovering from severe stress](/enneagram-corner/enneagram-types-in-stress) does one of two things. They go numb, or they learn to put things down quickly. Snoop learned to put things down. It looks like ease. It's actually a survival skill dressed up as a personality.
 
 ---
 

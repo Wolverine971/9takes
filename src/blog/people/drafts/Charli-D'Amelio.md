@@ -305,7 +305,7 @@ They broke up briefly in May 2023 after "a huge argument," reconciled weeks late
 
 That's the Nine in relationships: merge deeply, withdraw when it gets painful, let the other person narrate the ending. "I don't have to post about my relationships with anyone to prove that they are still in my life."
 
-Her family remains the anchor. Her sister [Dixie](/personality-analysis/dixie-d'Amelio), once so distant they "didn't talk at all really" for weeks, is now her best friend and fiercest defender.
+Her family remains the anchor. Her sister [Dixie](/personality-analysis/dixie-damelio), once so distant they "didn't talk at all really" for weeks, is now her best friend and fiercest defender.
 
 ### Where She Is Now
 

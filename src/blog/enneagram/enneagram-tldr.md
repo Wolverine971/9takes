@@ -358,7 +358,7 @@ Online tests measure behavior. You need to map your core emotional patterns. **F
 ### Communication
 
 - [**Communication styles**](/enneagram-corner/relationship-communication-guide): Why nobody understands you (and how to fix it)
-- [**Scripts that work**](/enneagram-corner/relationship-communication-guide): Exact words to use with each type
+- [**Enneagram communication scripts that work**](/enneagram-corner/relationship-communication-guide): Exact words to use with each type
 - [**How each type manipulates**](/enneagram-corner/how-each-enneagram-type-manipulates): Recognize it in yourself and others
 - [**Relationship communication**](/enneagram-corner/relationship-communication-guide): The key to understanding your partner
 

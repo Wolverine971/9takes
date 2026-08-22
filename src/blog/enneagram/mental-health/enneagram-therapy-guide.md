@@ -47,7 +47,7 @@ Type 2s find therapists who let them take care of the session. Type 5s find ther
 
 The right approach changes everything. The wrong one? You waste years feeling like something is wrong with you when really, the match was wrong.
 
-Before choosing a modality, it helps to understand how your type resists therapy in the first place — [here's what your therapist actually sees](/enneagram-corner/mental-health/enneagram-therapy-resistance-guide).
+Before choosing a modality, it helps to understand [how each Enneagram type resists therapy](/enneagram-corner/mental-health/enneagram-therapy-resistance-guide) in the first place.
 
 ## Why Your Type Determines Your Therapy Success
 
@@ -124,7 +124,7 @@ Find someone who models self-compassion without being a pushover. They need to h
 <a href="/enneagram-corner/mental-health/enneagram-medication-mental-health" class="blog-link" style="display: flex; justify-content: center; margin: 1rem 0;">
   <PopCard
       image="/blogs/greek-statue-enneagram-coaching.webp"
-      displayText="Explore Treatment Options"
+      displayText="Enneagram Medication and Treatment Options"
       showIcon={false}
       altText="Therapy guide for Enneagram types"
       subtext="Find the right therapeutic approach for your type"

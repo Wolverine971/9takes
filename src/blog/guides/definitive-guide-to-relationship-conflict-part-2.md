@@ -186,7 +186,7 @@ The same fight. Different words. Same result.
 
 Here's what nobody tells you about relationship conflict: **knowing the right move isn't the same as being able to make it.** You can recite the advice, but when your body reads the moment as danger, your best skills go offline.
 
-This guide picks up where <a href="/how-to-guides/definitive-guide-to-relationship-conflict-part-1">Part 1</a> left off. Instead of just naming the Four Horsemen, you'll learn how to use the antidotes when it matters, mid-argument.
+This guide picks up where <a href="/how-to-guides/definitive-guide-to-relationship-conflict-part-1">Part 1 of the relationship conflict guide</a> left off. Instead of just naming the Four Horsemen, you'll learn how to use the antidotes when it matters, mid-argument.
 
 **In this guide you'll learn how to:**
 

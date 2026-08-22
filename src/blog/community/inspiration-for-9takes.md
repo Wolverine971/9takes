@@ -144,7 +144,7 @@ I was that person. I thought it was pseudo-science. I didn't get argued into cha
 
 ### Why the Enneagram over MBTI?
 
-We started with MBTI and it helped. The Enneagram goes deeper: it maps your core fears, motivations, and the emotional baggage you carry into every conversation. MBTI tells you how someone processes information. The Enneagram tells you _why_ they react the way they do when things get heated. For relationships, that "why" is everything. [Full comparison here.](/enneagram-corner/enneagram-vs-meyers-briggs)
+We started with MBTI and it helped. The Enneagram goes deeper: it maps your core fears, motivations, and the emotional baggage you carry into every conversation. MBTI tells you how someone processes information. The Enneagram tells you _why_ they react the way they do when things get heated. For relationships, that "why" is everything. Read the [full Enneagram vs. Myers-Briggs comparison](/enneagram-corner/enneagram-vs-meyers-briggs).
 
 <style lang="scss">
 </style>

@@ -70,7 +70,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'sky-bri', link: true, hasImage: true, lastmod: '2026-04-09', personaTitle: 'The Internet\'s Permanent Offering', contentGrade: 9, types: ['influencer', 'creator', 'lifestyle-builder'] },
 		{ name: 'tara-yummy', link: true, hasImage: true, lastmod: '2026-02-22', personaTitle: 'The Internet\'s Warm-Hearted Party Girl', contentGrade: 8.6, types: ['creator', 'influencer', 'lifestyle-builder'] },
 		{ name: 'tom-hiddleston', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'The Gentleman Behind the Mask', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
-		{ name: 'zohran-mamdani', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'New York\'s Devoted Outsider', contentGrade: 8.8, types: ['politician', 'campaign-politician'] }
+		{ name: 'zohran-mamdani', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'New York\'s Devoted Outsider', contentGrade: 8.8, types: ['politician', 'campaign-politician'] },
+		{ name: 'ms-rachel', link: false, hasImage: false, lastmod: '2026-08-20', personaTitle: 'The Woman Who Stops Talking', contentGrade: 8.1, types: ['creator', 'celebrity'] }
 	],
 	3: [
 		{ name: 'adam-neumann', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Capital\'s Barefoot Prophet', contentGrade: 9, types: ['entrepreneur', 'techie', 'business-operator'] },
@@ -189,7 +190,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'whitney-wolfe-herd', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Dating\'s Relentless Architect', contentGrade: 9.1, types: ['entrepreneur', 'techie', 'business-operator'] },
 		{ name: 'will-smith', link: true, hasImage: true, lastmod: '2026-04-09', personaTitle: 'Hollywood\'s Manufactured Hero', contentGrade: 9, types: ['movieStar', 'musician', 'screen-icon'] },
 		{ name: 'xochitl-gomez', link: false, hasImage: true, lastmod: '2026-07-12', personaTitle: 'Hollywood\'s Rehearsed Sunshine', contentGrade: 8.4, types: ['newMovieStar', 'rising-star'] },
-		{ name: 'zara-larsson', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Pop\'s Unfiltered Achiever', contentGrade: 8.6, types: ['musician'] }
+		{ name: 'zara-larsson', link: true, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Pop\'s Unfiltered Achiever', contentGrade: 8.6, types: ['musician'] },
+		{ name: 'jonathan-bailey', link: false, hasImage: false, lastmod: '2026-08-21', personaTitle: 'Theatre\'s Rehearsed Natural', contentGrade: 8.7, types: ['movieStar', 'celebrity'] }
 	],
 	4: [
 		{ name: 'adam-driver', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
@@ -356,7 +358,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'penelope-cruz', link: true, hasImage: true, lastmod: '2026-06-02', personaTitle: 'Cinema\'s Trembling Loyalist', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'peter-thiel', link: true, hasImage: true, lastmod: '2026-03-02', personaTitle: 'Silicon Valley\'s Vigilant Contrarian', contentGrade: 9.7, types: ['techie', 'investor'] },
 		{ name: 'pokimane', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Streaming\'s Fortress Builder', contentGrade: 9, types: ['creator', 'streamer'] },
-		{ name: 'prince-harry', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'The Spare Who Burned the Manual', contentGrade: 7.6, types: ['politician', 'royalty'] },
+		{ name: 'prince-harry', link: true, hasImage: true, lastmod: '2026-03-04', personaTitle: 'The Spare Who Kept an Exit Route', contentGrade: 8.8, types: ['politician', 'royalty'] },
 		{ name: 'ryan-grim', link: true, hasImage: true, lastmod: '2026-04-16', personaTitle: 'Media\'s Loyal Insurgent', contentGrade: 9, types: ['creator', 'author', 'news-commentator'] },
 		{ name: 'sadie-sink', link: false, hasImage: true, lastmod: '2026-07-24', personaTitle: 'The Guarded Ingénue', contentGrade: 8.3, types: ['newMovieStar', 'movieStar', 'celebrity'] },
 		{ name: 'samara-weaving', link: false, hasImage: true, lastmod: '2026-08-03', personaTitle: 'Horror\'s Off-Label Cure', contentGrade: 8.4, types: ['movieStar', 'newMovieStar'] },

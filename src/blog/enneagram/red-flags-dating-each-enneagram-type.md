@@ -399,7 +399,7 @@ Recognizing your own patterns is the most important step toward growth. Everyone
 
 **How do I know someone's Enneagram type?**
 
-Look for core motivations, not just surface behaviors. A person might seem controlling (Type 8 behavior) but actually be driven by fear of abandonment (Type 6 core). Watch for what triggers them, what they fear most, and what they chase compulsively. [This guide](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) can help you identify types. When in doubt, ask them—people often know their type, especially if they've done any personal development work.
+Look for core motivations, not just surface behaviors. A person might seem controlling (Type 8 behavior) but actually be driven by fear of abandonment (Type 6 core). Watch for what triggers them, what they fear most, and what they chase compulsively. [The beginner's guide to identifying Enneagram types](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) can help you spot the underlying motivations. When in doubt, ask them—people often know their type, especially if they've done any personal development work.
 
 ## The Bottom Line
 
