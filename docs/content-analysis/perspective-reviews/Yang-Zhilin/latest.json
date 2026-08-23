@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "subject": "Yang-Zhilin",
+  "review_dir": "docs/content-analysis/perspective-reviews/Yang-Zhilin/2026-08-22_205946",
+  "verification_file": "docs/content-analysis/perspective-reviews/Yang-Zhilin/2026-08-22_205946/verification-final.md",
+  "verification_status": "pass",
+  "reviewed_snapshot_sha256": "4b898509c0d3d4aada82a0ab76ff45f35e45eebc56ef14425224c8459fbc52a4",
+  "verified_content_sha256": "ea7b094b555d9f73f379a1ba1734bbfaf349afc854815cf4cd8d9fa07d49eacf",
+  "verified_at": "2026-08-23T01:12:10.000Z"
+}

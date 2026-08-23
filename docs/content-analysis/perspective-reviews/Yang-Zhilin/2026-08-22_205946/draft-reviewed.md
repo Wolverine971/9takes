@@ -4,12 +4,12 @@ meta_title: 'Why Yang Zhilin Hides: An Enneagram Type 5 in the Spotlight'
 persona_title: "AI's Far-Side Observer"
 description: "Why did China's most private AI researcher build its loudest company? Inside Yang Zhilin's Enneagram Type 5 pattern: lossless ideals, chosen losses, and Kimi."
 author: 'DJ Wayne'
-date: '2026-08-22'
+date: '2026-07-23'
 loc: 'https://9takes.com/personality-analysis/yang-zhilin'
-lastmod: '2026-08-22'
+lastmod: '2026-07-23'
 changefreq: 'monthly'
 priority: '0.6'
-published: true
+published: false
 enneagram: 5
 type: ['techie', 'entrepreneur']
 person: 'Yang-Zhilin'
@@ -98,15 +98,15 @@ content_quality:
   originality: 8.5
   discoverability: 9
   overall: 8.7
-  first_overall: 8.7
-  regrade_overall: 8.7
-  grade_stability_delta: 0.0
   letter: B+
   rubric_version: 2
   caps_applied: []
   confidence: high
   anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: false
+  first_overall: 7.9
+  regrade_overall: 8.7
+  grade_stability_delta: 0.8
   graded_at: '2026-07-23'
 ---
 
@@ -328,7 +328,7 @@ The 2024 ad blitz is the cleanest stress artifact on file: a Five disintegrating
 
 ### Counterarguments: Why Yang Zhilin Might Not Be Type 5
 
-The serious rival reading is Type 3. The resume is maximalist: first in his department, a four-year PhD, an XLNet paper cited more than 10,000 times. Add the ByteDance ambition, a launch timed just before the World Artificial Intelligence Conference, and an IPO sprint, and the Achiever case looks live. It dies on his conduct at image-critical moments: one procedural sentence against a press war, near-zero appearances between releases, and desire audited down to "even if you get it, it's nothing." A 3 protects the image; Yang repeatedly spends the image to protect the work. The base rates concur. Across all 422 published 9takes profiles, Fives are scarce at 8.5 percent; the tech-and-founders shelf is where they concentrate, holding 17 of its 75 subjects (<a href="/corpus-stats">9takes corpus data</a>). The honest anomaly on file: no textbook Five burns ¥200 million a month on advertising. Stress-7 explains part of it. The remainder we leave standing.
+The serious rival reading is Type 3. The resume is maximalist: first in his department, a four-year PhD, an XLNet paper cited more than 10,000 times. Add the ByteDance ambition, a launch timed just before the World Artificial Intelligence Conference, and an IPO sprint, and the Achiever case looks live. It dies on his conduct at image-critical moments: one procedural sentence against a press war, near-zero appearances between releases, and desire audited down to "even if you get it, it's nothing." A 3 protects the image; Yang repeatedly spends the image to protect the work. The base rates concur. Across all 391 published 9takes profiles, Fives are scarce at 8.4 percent; the tech-and-founders shelf is where they concentrate, holding nearly one in four of its 68 subjects (<a href="/corpus-stats">9takes corpus data</a>). The honest anomaly on file: no textbook Five burns ¥200 million a month on advertising. Stress-7 explains part of it. The remainder we leave standing.
 
 </div>
 </details>

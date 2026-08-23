@@ -312,7 +312,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'steve-martin', link: false, hasImage: true, lastmod: '2026-07-04', personaTitle: 'Comedy\'s Analytical Recluse', contentGrade: 8.5, types: ['comedian', 'movieStar', 'author'] },
 		{ name: 'tyler-cowen', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Economics\' Quiet Devourer', contentGrade: 8.9, types: ['techie', 'author'] },
 		{ name: 'warren-buffett', link: true, hasImage: true, lastmod: '2026-07-08', personaTitle: 'Omaha\'s Quiet Fortress', contentGrade: 8.8, types: ['entrepreneur', 'business-operator'] },
-		{ name: 'yang-zhilin', link: false, hasImage: true, lastmod: '2026-07-23', personaTitle: 'AI\'s Far-Side Observer', contentGrade: 8.7, types: ['techie', 'entrepreneur'] },
+		{ name: 'yang-zhilin', link: true, hasImage: true, lastmod: '2026-08-22', personaTitle: 'AI\'s Far-Side Observer', contentGrade: 8.7, types: ['techie', 'entrepreneur'] },
 		{ name: 'zach-king', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] }
 	],
 	6: [
