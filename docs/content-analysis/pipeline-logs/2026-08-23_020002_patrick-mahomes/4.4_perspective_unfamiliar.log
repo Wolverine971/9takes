@@ -1,0 +1,12 @@
+Counts match (1 blocker, 8 concerns), all eleven required H2s present. The other five jurors' files landed in the directory while I was writing; I did not open any of them.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/unfamiliar.md`
+
+**Verdict:** trust *strained* / value *high* / delight *clear_hit* / recommendation **revise** (light, clause-level). SHA verified against `context.json`.
+
+**Blocker count:** 1
+- **UNFAMILIAR-R1** — The walkthrough paragraph quotes *"I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes"* as Mahomes. I checked the New Heights EP15 transcript directly: the speaker hands off at "Travis was also like he got there five minutes before," and that sentence is Travis Kelce describing his own late arrival. Repair is a swap to Mahomes's own words from the same story ("there is no chance I'm walking through the defense late… feel like an idiot").
+
+**Strongest hit:** The Jason Kelce trap → "Mahomes did not argue. He confessed." → "if this doesn't work right here." The thesis lands in one exchange with no prior knowledge required; the wrist-strap coda ("The dread belongs to the waiting. It leaves the moment he has something to do.") is the line a newcomer walks away remembering.
+
+**Highest-priority concern:** **UNFAMILIAR-C1** — "the 2025 ESPN docuseries he co-produced." He holds no producer credit on *The Kingdom* (his company is one of four "in association with" partners). For a reader with no background, that clause sets how much to discount a third of the article's quotes, and it silently props the father's-arrest line "disclosed only when he controlled the room." Two-word fix. The remaining concerns are orientation gaps a general reader hits cold: the Kelces/*New Heights* never introduced, "counterphobic" never defined, "walked him to the safeties" untranslated, college and high school unnamed, the Dec 10, 2023 game with no opponent, Jason Kelce's sarcastic "needed those calls" printed as a concession, and one type sentence ("performing certainty he does not have") asserted rather than shown.

@@ -1,0 +1,20 @@
+All ten required H2 headings are present in order, the frontmatter is parseable, the snapshot SHA still matches `690cb7c2…`, and only the new packet was written (draft, snapshot, and research file untouched).
+
+## Artifact
+
+`docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/evidence-packet.md` — 58 claim entries (CLM-01…58), 60-row source ledger, every entry labeled verified / attributed / interpretation / disputed / unresolved.
+
+## What the verification turned up
+
+Every quotation attributed to a local transcript (New Heights, WHOOP, CBS Mornings, IMPAULSIVE, *The Kingdom* E1, McDuffie, both 2026 pressers) was grepped against the raw file; every reported claim was web-checked with URLs actually retrieved. Most of the draft holds. The findings evaluators will care about:
+
+- **One misattributed quote (CLM-27):** "I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes" is Travis Kelce describing his own late arrival that morning ("they're like 'were you with Pat last night?'"). The oversleep story itself is Mahomes's. The research file carried the same error.
+- **One hard contradiction (CLM-04):** Mahomes is not a credited EP of *The Kingdom*; 2PM Productions is an "in association with" partner. He *is* an EP on Netflix *Quarterback*.
+- **One two-sided record used one-sidedly (CLM-14):** "He did not ask Smith for advice. He shadowed him" vs. Alex Smith in E1: "It's a thousand questions."
+- **Brady's words (CLM-26)** exist only as Mahomes's relay; Reid confirmed the visit in 2019 but later recalled the sentence as "this is your league now."
+- **The "counterphobic" label** is unresolved against the house Type 6 page, whose counterphobic definition (challenges authority, picks fights) is contradicted by most evidence the draft cites (helmet, slide, won't ask Reid, "it's up to Coach Reid").
+- A dozen wording/attribution deltas (Aikman transcription, "I feel like" not "I felt like," Chiefs Wire not NFL.com, "red" underwear is Eli Manning's word, mbtilounge is 2w1 not 3, Bussin' episode Aug 4, venue is west of Tyler) — all logged per-claim.
+
+## Largest unresolved evidence gap
+
+*The Kingdom* E5/E6 — the father's-arrest segment and "one of the lowest points" — exist in the packet only through secondary transcriptions (Fox, Heavy, People, Inquirer), and Pat Sr.'s apology line has three published variants. The draft's sharpest paragraph ("order of operations") rests on those unverified-to-source quotes.

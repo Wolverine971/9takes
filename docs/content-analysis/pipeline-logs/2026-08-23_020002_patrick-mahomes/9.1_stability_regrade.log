@@ -1,0 +1,19 @@
+## Grading Complete — Patrick-Mahomes (stage-9.1 stability regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Patrick-Mahomes | 8 | 9 | 9 | 8.5 | 8.5 | 9 | **8.6** | **B+** |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc<7 caps at B — not triggered. No formula caps applied.)
+
+### Key observations
+
+- **Context:** this session *was* the pipeline's independent stability regrade (pid 47918 is still running `run-blog-pipeline.sh patrick-mahomes`; it cleared the prior grade block before invoking me). Pre-revision stage 7 scored 8.3 → this regrade 8.6, delta 0.3, recorded in the frontmatter as `first_overall` / `regrade_overall` / `grade_stability_delta`.
+- **What earns the B+:** 14/14 load-bearing quotes inline with outlet + year; 0 contrast pairs; the draft-night phone call as opener, type discriminator ("the thing he was afraid of losing was the coach"), and swap-test-proof close; the Kelce trap → "He confessed" → "if this doesn't work right here"; the untransplantable Alex Smith film-week timeline; critic pressure faced and conceded twice (flopping, the 2025 collapse); empathy turn in his own vocabulary, not house armor grammar; interior beat present. Ledgers spot-checked clean against the body.
+- **Confirmed factual error, still unfixed:** `src/blog/people/drafts/Patrick-Mahomes.md:273` says the Dec 10, 2023 Toney-offside game was "at Buffalo." It was Bills *at* Chiefs, at Arrowhead. The pipeline's own `verification-final.md` flagged this as Remaining work #1 and the revision pass didn't apply it. Zero-word fix ("at Arrowhead"). This is why Evidence is 8 not 9, and why I set `needs_review: true` — `personBlogParser.js --publish-check` now correctly reports `content_quality_needs_review` as a blocker.
+- **What holds it out of A:** three reader-command imperatives ("Notice the word," "Put that next to," "Read that sentence twice"), the intro kit shared with Ms-Rachel/Jonathan-Bailey, and a return-to-opening-image close in Ms-Rachel's shape. Shape reuse, not near-verbatim, so no Originality cap; it pins Writing at 8.5. Slight wing mention in the answer block pins Enneagram at 8.5.
+- Same-type scan TRIPPED only on the mandated H3 template sentence vs Bill-Burr (known false positive); next-highest 0.074.
+
+**Files written:** `content_quality` block in the draft frontmatter (no `path:` line exists, so inserted before the closing `---`; YAML parses, lint 0 fail / 1 warn on word headroom) and `docs/content-analysis/grades/Patrick-Mahomes.review.md` with the five-step TO REACH A list.
+
+**Total graded this session: 1**

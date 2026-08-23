@@ -1,0 +1,28 @@
+Lint is clean: 0 fail, 1 pre-existing warn (word-count headroom, body untouched at 4,477). The earlier "faqs" warn is gone.
+
+```
+Frontmatter enrichment complete: Patrick-Mahomes
+
+Fields filled:
+- wikidata_qid (Q19667998), imdb_id (nm8246270 — confirmed via Wikidata P345 + IMDb pages),
+  birth_date (1995-09-17), birth_place (Tyler, Texas, United States), nationality (American),
+  occupation (2), knows_about (6), keywords (10), same_as (6), citations (8), faqs (5)
+
+Fields already present (preserved):
+- wikipedia (verified against the Wikidata enwiki sitelink — same person, kept as-is)
+- twitter, instagram, tiktok, lastmod, production_pretext, all creator fields
+
+FAQs generated (5):
+1. What is Patrick Mahomes's personality type? → #what-is-patrick-mahomess-personality-type
+2. Is Patrick Mahomes's no-look pass improvised or practiced? → #how-patrick-mahomes-rehearses-a-no-look-pass
+3. Does Patrick Mahomes flop, and why does he wear that helmet? → #why-patrick-mahomes-wears-the-safest-helmet-in-the-nfl
+4. Is Patrick Mahomes playing in 2026 after his ACL injury? → #the-first-time-patrick-mahomess-body-said-no
+5. Who are Patrick Mahomes's wife, children, and parents? → #patrick-mahomess-childhood-in-major-league-clubhouses
+
+Issues:
+- none blocking. Body had 20 external links; I kept the 8 load-bearing ones (New Heights, CBS Mornings, ESPN ×2, SI, GQ, Fox flopping piece, KSHB Aug 22).
+- FAQ #4 is dated ("as of August 22, 2026 … up to Coach Reid"); when the post-Week-1 slot in the body gets filled on Sept 15, that answer needs the same one-line touch.
+- FAQ #5 honors the creator's "children by year only" rule and omits the parents' divorce (not in the body), per the packet's bio-FAQ list otherwise (born 1995, wife, children, parents, college).
+```
+
+Placement mirrors the Travis-Kelce athlete draft (QID/IMDb after `wikipedia`, biography block after `tiktok`, before `production_pretext`). Body, HTML ledgers, and review comments are byte-identical; `lastmod` unchanged. Next stage in the chain is `/grade_blog Patrick-Mahomes`.

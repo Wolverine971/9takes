@@ -1,0 +1,20 @@
+Frontmatter parses cleanly with the new block.
+
+## Grading Complete — Patrick Mahomes
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Patrick-Mahomes | 8 | 8 | 9 | 8 | 8 | 9 | 8.3 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc<7 caps at B.)
+
+### Key Observations
+
+- **What earns the grade:** the draft-night phone cold open (sourced to Randi Martin, *The Kingdom* 2025) is the best first line in the recent batch; the Jason Kelce trap → "if this doesn't work right here" is a real signature detail; the Alex Smith film-week timeline is bespoke and un-transplantable; critic pressure is faced twice and conceded first (flopping, 2025 collapse). Deterministic checks are clean: 14/14 load-bearing quotes inline, 0 contrast pairs, same-type scan trips only on the mandated H3 (known false positive), meta_title 54 / description 158 chars, 5 real FAQs.
+- **Why it's a B, not B+/A:** (1) *Evidence* — roughly fourteen reader-visible quotes carry a date/venue but no outlet (the Dr. Cooper clearance test, Brady's "doing it the right way," the Feb 2025 "hurt more than the wins feel good," the whole rehab back half); the ledger knows the sources, the reader doesn't. Not unsourceable, so no cap-6, but not a 9. (2) *Writing* — the house fingerprint is visible: four reader-command imperatives (Burr has one, Bailey none), aphoristic two-beat closers on nearly every section, and the identical epigraph → cold open → "Both are true" → "the directories cannot agree" furniture Burr and Bailey run. (3) *Enneagram* — the phobic/counterphobic domain-split and the Three/Seven/Six ladder are mechanics in the body, and the inner-thought's "in exchange the world stays knowable" is type theory in first person rather than Mahomes's vocabulary.
+- **Sameness check vs Bailey/Harry/Burr:** the opening/reframe skeleton is shared, but no 3+ near-verbatim reuse, so no Originality cap. Compared against the Matt-Smith anchor, Mahomes is stronger on sourcing density and critic pressure, similar on house furniture — consistent with a high B.
+- **Path to B+** is cheap: outlet-tag the untagged cluster (Cooper, Brady, Feb 2025 first), cut two of the four reader commands, and rewrite the inner-thought's second half in his own words. Full detail in `docs/content-analysis/grades/Patrick-Mahomes.review.md`.
+
+**Total graded this session: 1**
+
+Files changed: `content_quality` block added to `src/blog/people/drafts/Patrick-Mahomes.md:91-105` (no legacy grade comments existed to remove); new sidecar at `docs/content-analysis/grades/Patrick-Mahomes.review.md`. Publication decision is downstream of these numbers.

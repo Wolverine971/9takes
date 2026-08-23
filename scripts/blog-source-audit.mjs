@@ -366,6 +366,25 @@ const OUTLETS = [
 	// matter how precisely it was cited. Unambiguous all-caps acronym, same
 	// class as NPR / BBC / CNN already listed.
 	'ESPN',
+	// Sports primary record, second tranche (Patrick-Mahomes pass, 2026-08-23).
+	// Sports Illustrated runs the bylined, dated game reports and locker-room
+	// accounts that hold this corpus's NFL testimony (the 13-second game, the
+	// SB LIX foot-locker report). New Heights and the WHOOP Podcast are dated,
+	// public, full-episode interview shows, same class as Hot Ones / The Tim
+	// Ferriss Show above, and carry the subject's only first-person account of
+	// the rehearsed no-look and the 18 recovery score. The Pivot is the same
+	// class (Tyreek Hill's account of the receiver cuss-out lives only there).
+	'Sports Illustrated',
+	'New Heights',
+	'WHOOP Podcast',
+	'The Pivot',
+	// Local-broadcast primary record (Patrick-Mahomes editor pass, 2026-08-23).
+	// KSHB 41 (Kansas City NBC affiliate, bylined Tod Palmer) holds the only
+	// transcription of the Aug 22, 2026 sideline availability that closes the
+	// Mahomes piece ("they would not let me" / "It's up to Coach Reid"); the
+	// draft had been crediting ESPN for quotes ESPN never carried. Unambiguous
+	// call-sign acronym, same class as NBC / ESPN above.
+	'KSHB',
 	// Broadcast primary record (Michael-Jordan pass, 2026-08-14). NBC's
 	// "MJ: Insights to Excellence" segments (Tirico, Oct 2025 onward) are this
 	// subject's only current long-form testimony — the free-throw story and the

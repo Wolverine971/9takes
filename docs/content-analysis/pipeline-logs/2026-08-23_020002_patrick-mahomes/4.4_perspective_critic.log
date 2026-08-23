@@ -1,0 +1,13 @@
+Counts verified (2 blockers / 7 concerns match frontmatter, 11 required H2s present). Other jury reviews (`fan.md`, `future.md`, `subject.md`) landed while I worked; per the independence contract I did not open them.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/critic.md`
+
+**Verdict:** trust *strained*, value *high*, delight *clear_hit* → **revise** (then publish). SHA verified against `context.json` and the supplied hash.
+
+**Blockers: 2** — both quote-integrity failures, both ten-minute fixes, neither touches the thesis:
+- **CRITIC-R1** — "I'm in my head about it. Coach Reid is gonna kill me…" is Travis Kelce talking about his *own* late arrival (verified directly in the EP15 transcript: "I'm not gonna say I'm notorious for late… they're like were you with Pat last night"). Mahomes's own sentences from the same story ("no chance I'm walking through the defense late… feel like an idiot") support the point and should replace it.
+- **CRITIC-R2** — "Even Jason Kelce conceded… 'the Chiefs needed those calls'" inverts sarcasm into a concession. Full sentence (SI, Jan 22 2025): "…wide booty butt naked open for four quarters, *and yet* the Chiefs needed those calls. And I forgot to mention them boys had eight sacks."
+
+**Strongest hit:** the Kelce-trap → "He confessed" → "if this doesn't work right here" sequence — first-person, verbatim, on a friendly podcast; a skeptic can't get behind it.
+
+**Highest-priority concern (CRITIC-C1):** the helmet section folds the sideline flop into a thesis about *avoiding* contact, but the play Mahomes conceded involved slowing down to *invite* a hit for a flag — that's the piece's one act of motive laundering. The fix is also the opportunity: his own Jan 22, 2025 defense ("I was just trying to get out of the way of getting smoked… the smart way to stay in the football game") states the draft's thesis in his words and is currently unused, alongside the omitted "villain" lines the SP-3 alternative should have to face.

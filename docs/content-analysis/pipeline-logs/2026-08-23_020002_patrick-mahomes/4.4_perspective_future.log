@@ -1,0 +1,15 @@
+Counts match the frontmatter (2 blockers, 9 concerns) and all 11 required H2s are present.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/future.md` (SHA `690cb7c2…` verified against `context.json`).
+
+**Verdict:** trust strained, value high, delight clear_hit → **revise**.
+
+**Blockers: 2** (both outside the temporal lane but meeting the shared definition; I confirmed each against a primary source, not just the packet):
+- `FUTURE-R1` — "the 2025 ESPN docuseries he co-produced": Disney+ press credits list no Mahomes producer role; 2PM is only "in association with."
+- `FUTURE-R2` — "Coach Reid is gonna kill me… can't even look at this guy in his eyes" is Travis Kelce's sentence about himself in the New Heights transcript, printed as Mahomes.
+
+**Strongest hit:** the Dr. Cooper beat — "did not believe in his own knee until a doctor he trusted tried to break it and failed." It's the one injury-arc sentence that stays true and on-thesis whether he starts Week 1, plays 17 games, or re-injures. More broadly, the Type 6 case is built on 2021–2023 sources and loses almost nothing if every post-ACL sentence is removed.
+
+**Highest-priority concern:** `FUTURE-C3` — the final three paragraphs are a present-tense preview of September 14, 2026 ("the Broncos come to Arrowhead," "Whether he takes the first snap is… somebody else's call") sitting two sentences above the best close in the piece. Recast it as a dated August 22 scene and reserve a one-sentence insertion slot so the post-Week-1 update never touches "he is still checking the line." Secondary imminent flip: "both August preseason games" expires on August 28 (there are three).
+
+The review includes a twelve-month refresh list (Aug 28 game, Sept 14 opener, Feb 2027 honors line, April 2027 "nine years," 2026 scramble rate vs. the stress-arrow reading, E5/E6 *Kingdom* quote verification against the stream).

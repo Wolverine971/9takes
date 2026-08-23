@@ -1,0 +1,15 @@
+Fresh-eyes notes are in. Summary:
+
+**Reviewed:** `src/blog/people/drafts/Patrick-Mahomes.md` (5,827 words) against the entity-gap packet at `docs/content-analysis/entity-gaps/Patrick-Mahomes.md` (the path you passed was lowercase; the actual file is capitalized). No body edits; a single `FRESH EYES REVIEW (2026-08-23)` block now sits at the bottom of the draft.
+
+**The two biggest issues flagged:**
+
+1. **The strongest 2026 skeptical read is missing from the body.** Anyone landing on this in September wants the piece to face "is the dynasty over / was he part of the problem": the Super Bowl LIX blowout, the three-game collapse, "ran a little bit too much," the foot-locker scene. All of that is quarantined in the Rabbit Hole stress arrow where most readers never go, and the body's only critic pressure is flopping, which is the smaller charge. His own LIX words ("They hurt probably more than the wins feel good," "one of the lowest points in my career") are in the research file and unused.
+
+2. **The thesis is asserted, not shown on the field.** The TL;DR promises the anxious type is the calm one when the worst case arrives, but the only live crisis rendered is the Toney-flag meltdown, i.e., the opposite. The canonical proof (the 13-seconds drive vs Buffalo, Jan 2022) is absent from both the draft and the research file, so it needs one sourced quote before it can go in. Related: the single best first-person anxiety quote in the research, the 18% WHOOP recovery ("I wasn't sleeping well at night... too much visualizing"), is unused, so the interior leans on his mother's testimony more than it needs to.
+
+**Other notes in the block:** leadership/teammate beat is absent despite being the packet's one unserved intent (Kelce, McDuffie, Nagy quotes available); the Tyreek Hill cuss-out should be held as a contradiction rather than omitted; a setup/payoff mismatch in the diagnosis section ("what he plays for... it was neither" followed by a preparation quote); duplicate "first playoff miss since 2014"; the helmet section has two endings; FAQ frontmatter the packet requires is not present yet (handoff to the enrich step).
+
+**Protected as already working:** the draft-night phone bookend and its closing line, the Jason Kelce trap → confession, the borrowed Alex Smith week timeline, the flopping section's concede-then-turn with the inner-thought, and the Dr. Cooper payoff of "only trusts himself once someone he respects has tested him."
+
+Next step in the pipeline would be `/blog_content_revision_pass_people Patrick-Mahomes` to act on these notes.

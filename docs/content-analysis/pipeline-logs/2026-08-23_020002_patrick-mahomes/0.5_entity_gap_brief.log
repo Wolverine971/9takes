@@ -1,0 +1,19 @@
+Packet written: `docs/content-analysis/entity-gaps/Patrick-Mahomes.md` (single-subject mode, non-interactive, no queue/blog/DB edits).
+
+## Result: 43/100 → PASS on the entity-gap frame, not a veto on the pipeline run
+
+**What I found**
+
+- **No entity gap.** Exact-name and biography SERPs are owned outright: personal Wikipedia, Biography.com, ESPN, Pro-Football-Reference, Britannica, EBSCO, two print biographies, and GMA/ABC/SI for every wife/kids/parents query. Score 63 before the standard −20 Wikipedia-plus-biographies penalty — the same shape as Kelce (44 on 08-13).
+- **One thin lane.** `patrick mahomes enneagram / personality type` is crowd-vote directories only (enneagramuniverse says 7, mbtilounge says 3, Boo.world lists him and his father separately). No publisher argues a case. This is exactly where the site's athlete pages already earn: Messi gets 4,111 impressions/98 days, almost entirely on `messi personality type`, zero on exact name.
+- **Demand is real and rising.** ACL+LCL tear Dec 14, 2025 → cleared for camp → targeting the Sept 14 opener vs. Denver; 2025 was the Chiefs' first playoff miss since 2014. "Is the dynasty over?" carries all fall.
+- **Sources are bottomless.** Netflix *Quarterback*, ESPN's *The Kingdom* (first on-camera comments about his father's arrest), CBS sit-down, weekly rehab pressers, named testimony from Reid, Veach, Bieniemy, Kelce, both parents.
+- GSC baseline: zero Mahomes queries anywhere on 9takes in the 05-05→08-11 window.
+
+**What the packet gives the pipeline**
+
+- Three thesis-grade contradictions (improviser-vs-preparer; first real "no" from his body; controlled disclosure of the father story) — pick one.
+- FAQ-ready, sourced fact answers (born 1995, Brittany, three kids, Pat Sr./Randi Martin, Texas Tech) and a do-not-write list: no net worth, no 2025 record claim (unverified), no tabloid detail on Pat Sr., Brittany's controversies out, Week 1 availability never stated as fact.
+- Page strategy: personality-first title in the Kelce pattern, "why now" in the first 100 words, cross-link Kelce + Swift, tag `athlete` so the sports cluster grows, and a Sept-15 post-opener update hook.
+
+**Next** (the pipeline's, not mine): the `0.5_entity_gap_brief` stage can consume this packet; the backlog entry stays `inProgress` untouched.

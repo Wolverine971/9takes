@@ -1,0 +1,33 @@
+## Cohesion Check Complete: Patrick-Mahomes.md
+
+**Before score: 8/10**
+**After score: 9/10**
+
+### Central Thesis
+Mahomes looks like pure instinct from the couch, but he is a counterphobic Six: the improvisation is rehearsed worst-case management, the career is built around a short list of trusted authorities, and he only trusts himself once someone he respects has tested him.
+
+### Changes Made (5 total)
+
+**Transition Fixes (2):**
+- No-Look → Childhood (`src/blog/people/drafts/Patrick-Mahomes.md:170`): added "The shadowing did not start with Alex Smith." so the clubhouse section opens on the copying thread instead of a bare bio fact.
+- Helmet → Father's arrest (`:240`): added "Not every surprise arrives from the blind side." carrying the Helmet section's *surprise / blind side* keyword into the arrest, which is the same structure-trust rule applied inside the family.
+
+**Internal Flow Fixes (2):**
+- Helmet, paragraph 4 (`:204`): the second-pass Tyreek Hill insert left "That is a man... managing it with charm" pointing at a cuss-out. Rewrote to "Both halves are one man running a threat assessment on every snap. Read from the other sideline, the charm half is also the most criticized thing about him."
+- No-Look timeline lead-in (`:157`): cut "and which he says he has never changed," which was pre-empting the timeline's own closing item ("Every week, forever").
+
+**Reader Mental Model Fix (1):**
+- Childhood (`:178`): "the starting job opened up" → "Whitehouse's quarterback graduated" (per the research file's Brittany quote), so the "give it a shot" line reads correctly for a baseball kid.
+
+**Thread Fixes / Orphaned Threads:** none needed. Every setup resolves (phone → "still checking the line," "tested him" → Dr. Cooper, 18 on the wrist → WHOOP, Denver opener → final section).
+
+### What Was Preserved
+- All frontmatter, ledgers, review comments, Svelte/HTML blocks, timeline, inner-thought, Rabbit Hole, and internal links
+- Word ceiling: body is 4,494 / 4,500 (net +4); lint still 0 fail
+- 5 of 7 section boundaries untouched (already strong or carried by a deliberate device: the epigraph callback into the Helmet section, the "before the knee did" hook into the final section)
+- The draft-night bookend, Kelce trap → "He confessed," and "order of operations" paragraph all untouched
+
+### Remaining Concerns
+- Headroom is now 6 words. The second-pass notes already flag that the post-Week-1 update line (did he start Sept 14) will need a matching cut; the Kingsbury sentence in the Coach section is the cut the notes nominated.
+- Coach → Helmet relies entirely on the epigraph callback. It works, but if a later pass ever moves or changes the epigraph, that boundary goes cold and will need a real bridge.
+- Still open from earlier stages, not cohesion: `faqs` frontmatter absent (lint WARN); run `blog_content_frontmatter_enrich_people`.

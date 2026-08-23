@@ -1,0 +1,20 @@
+Frontmatter parses cleanly. Grading is done.
+
+## Grading Complete — Patrick Mahomes
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Patrick-Mahomes | 8.5 | 8.5 | 9 | 8.5 | 8.5 | 9 | **8.6** | **B+** |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc ≥ 7, no gate. No caps applied. Anchor: Matt-Smith B band — this draft clears it.)
+
+### Key observations
+
+- **One false fact is still in the body, and it's the reason for `needs_review: true`.** The helmet section says the Dec 10, 2023 Toney-offside game was "at Buffalo." It was a Chiefs home game at Arrowhead (Bills 20–17, Week 14); the road game at Buffalo was the Jan 21, 2024 playoff. The pipeline's own `verification-final.md` flagged this as "must not ship" and the live draft was never corrected. It's a two-word fix (`at Buffalo` → `at Arrowhead`) plus correcting `evidence-packet.md:60` so the refresh cycle doesn't re-import it. I did not touch the body — grader scope is frontmatter + sidecar — so this needs to happen before publish. (This is exactly the P1-error blind spot already noted in memory; it held.)
+- **Evidence is A-band apart from that.** 14/14 load-bearing quotes inline, 17 testimony quotes in the body, seven dated transcripts backing the first-person material. Four loosely tagged items outside the scanned slots (the 1-9 one-score record, the draft-advisory-board grade, "Kansas City radio" for the flopping concession, "told reporters" on Aug 8) are listed in the sidecar.
+- **What earns the B+:** the draft-night phone call as object-of-fear discriminator ("the thing he was afraid of losing was the coach"), the Kelce trap → confession → borrowed Alex Smith film-week timeline (untransplantable), critic pressure faced and conceded twice, empathy turn in his own vocabulary rather than house armor grammar, zero contrast pairs, zero counter-typing ladders in the body, current-tense anchor dated yesterday.
+- **What holds it out of A:** house shapes a serial reader will notice — two reader-command imperatives ("Read that sentence twice," "Notice the word"), a return-to-opening-image close in the same form as Ms-Rachel's (graded 08-20), the epigraph→cold-open→twist intro kit, and clipped aphoristic closers on most sections. Sameness check did **not** trigger the Originality cap (shape reuse, not near-verbatim), but it's what pins Originality and Writing at 8.5. The "TO REACH A" list in the sidecar is five concrete moves.
+
+**Files written:** `content_quality` block in `src/blog/people/drafts/Patrick-Mahomes.md` (inserted before the closing `---`; no `path:` line exists yet), and `docs/content-analysis/grades/Patrick-Mahomes.review.md`.
+
+**Total graded this session: 1**

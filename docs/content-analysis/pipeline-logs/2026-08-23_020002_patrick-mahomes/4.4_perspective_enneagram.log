@@ -1,0 +1,15 @@
+All 11 required H2s present, frontmatter counts (2 blockers / 6 concerns) match the body. Other jury files landed while I was working; I did not open any of them.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/enneagram.md` (SHA `690cb7c2…` verified against `context.json` and the supplied argument)
+
+**Verdict:** trust `strained`, value `high`, delight `clear_hit`, recommendation **revise**
+
+**Blockers: 2**
+- **ENNEAGRAM-R1** — "Counterphobic" is the wrong label for the evidence. The linked house Type 6 page defines counterphobic as moving toward fear and challenging authority; nearly every behavior the draft cites (safest helmet, early slide, complimenting rushers, won't ask Reid for a favor, "it's up to Coach Reid") is on the house page's *phobic* list. Worse, the Rabbit Hole uses the Chestnut subtype model, in which the counterphobic Six is the *Sexual* Six, and then says outright "a sexual Six attacks the threat head-on; Mahomes organizes around staying intact." The TL;DR also redefines the term as "calm when the worst case arrives," which is the prepared-phobic mechanism. Cheap fix either way: drop the word, or earn it with the verified "toeing that line / I like to push it" lines the draft left unused.
+- **ENNEAGRAM-R2** — The "specific dread" of Reid is illustrated with Travis Kelce's sentence ("Coach Reid is gonna kill me…"). Mahomes's own verified words ("no chance I'm walking through the defense late… feel like an idiot") are better type evidence anyway.
+
+**Strongest hit:** "He had a second or third-round grade… He went tenth. And the thing he was afraid of losing was the coach." The object of fear was the guide, not the platform — the best 6-vs-3 discriminator in the piece, and the draft doesn't even flag it as one. Close second: the Dr. Cooper payoff ("did not believe in his own knee until a doctor he trusted tried to break it and failed").
+
+**Highest-priority concern (R3):** the sp-3 alternative is named but not tested. Its two tiebreakers are defined away in the same paragraph (the "least image-driven Three" then loses on… image; "validated by the GOAT" is exactly what a Three wants), while the real discriminators already in the body (object of draft-night fear, the "buddies" choice, the promise to Alex Smith) go unused, and the strongest Three-favoring evidence (ownership portfolio + NFL-owner ambition, "they don't see that preparation," Pat Sr.'s "it kind of hurt him") is never engaged.
+
+One item outside this review's scope worth a separate ticket: `src/blog/enneagram/enneagram-instinctual-subtypes.md` line 372 states that the Self-Preservation 6 is the counterphobic countertype — that's backwards (it's the Sexual Six), and left uncorrected it could be cited to "confirm" the label R1 asks to fix.

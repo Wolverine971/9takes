@@ -1,0 +1,15 @@
+Review written and verified (frontmatter counts match the document, all eleven required H2s present, SHA matches `context.json`).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/fan.md`
+
+**Verdict:** trust *strained*, value *high*, delight *clear_hit* → **revise**. The thesis and evidence base hold up for an informed fan; the problems are credibility leaks, not argument failures.
+
+**Blockers: 2**
+- **FAN-R1** — "Coach Reid is gonna kill me… can't even look at this guy in his eyes" is Travis Kelce talking about his own late arrival (verified in `youtube-transcripts/mahomes/new-heights-ep15-mahomes.md`), but the draft puts it in Mahomes's mouth as proof of his "specific dread" of Reid. Mahomes's own words from the same story ("no chance I'm walking through the defense late… feel like an idiot") do the job.
+- **FAN-R2** — "Even Jason Kelce conceded… 'the Chiefs needed those calls'" inverts the quote. The SI source shows it's sarcasm defending the Chiefs ("and yet… eight sacks, eight"). Cut it or frame it as pushback.
+
+**Strongest hit:** the helmet + early slide + "great rush, dude" + the flops read as one threat-management behavior ("He would rather be mocked than unprotected… His is just televised"). That's the "I knew those moments, but never connected them that way" passage; preserve verbatim.
+
+**Highest-priority concern (FAN-C6):** a section titled "Why Patrick Mahomes Wears the Safest Helmet in the NFL" never names the helmet (Vicis Zero2) and skips the January 13, 2024 Miami wild-card game at −4°F where it shattered and he refused to come out. Two sentences fix it; fund them from the Rabbit Hole superstition list. Other concerns: "co-produced" *The Kingdom* (not an EP credit), "ten NFL seasons" (it was nine), Texas Tech never named, Brittany reduced to "the cheerleader," the Alex Smith "did not ask" motif contradicted by Smith's own "thousand questions," and the missing Buffalo trade-up / Pat Sr. "it kind of hurt him" on draft night.
+
+Research stayed within the cap (1 transcript grep, 1 fetched article, 2 search-summary checks), all logged in the file.

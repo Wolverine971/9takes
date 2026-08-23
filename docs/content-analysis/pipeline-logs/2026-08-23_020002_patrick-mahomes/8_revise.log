@@ -1,0 +1,20 @@
+Revision pass complete. `lastmod` and `content_quality` were not touched.
+
+## What I revised and why
+
+**Draft:** `src/blog/people/drafts/Patrick-Mahomes.md`, triggered by the B (8.3) grade. Lint was already clean and the perspective verification (`verification-initial.md`) had passed with 0 open P0s and 0 PROTECT regressions, so the work list was entirely the grader's NEEDS WORK / TO REACH items, executed under the jury's 17 PROTECT constraints and a 23-word ceiling.
+
+**Fixed (mapped to grader items):**
+- **Evidence (the big one, 1.5× weight):** every quote in the untagged back-half cluster now carries a reader-visible outlet or show: Cooper test + "hold myself back" → Aug 8, 2026 camp availability; Brady "right way" / "become a pro" / "A hundred percent not" / "Silky P" → the Kelces' *New Heights* episode; "hurt more than the wins feel good" → KCTV5; July 2026 "ran too much" → Yahoo Sports; brace → Sports Illustrated; "goals to get to" → Chiefs Wire; Dec 12, 2023 regret → ESPN; "You're different" → Netflix's *Quarterback*; UT "play safety" / buddies → WHOOP Podcast; Kingsbury → ESPN 2022. All pinned to the research file, packet source table, or local transcripts. This also closes the verifier's one P1-06 soft spot.
+- **Writing:** cut "Look at the order of operations." and the self-referential "in this section's own vocabulary"; the Coach section now ends on McDuffie's quote instead of the "set a clock by" aphorism.
+- **Enneagram:** the inner-thought's middle is now in his own phrase ("the moment is never bigger than what it is") rather than type theory in first person.
+- **Reframe beat:** the "personality directories… Seven… Three" intro furniture is gone; two sentences keep the phone callback, and the Seven/Three pressure test lives only in the diagnosis section.
+- Paid for the tags with four small trims, including "for the rest of the night," which the evidence packet had flagged as an inference.
+
+**Rejected, with reason:** the grader's asks to cut "Read that sentence twice," "Notice the word," and "Put that next to," and to flip two section closers to quotes, collide with PROTECT-05/06/07/08/09/11/12 (jury-protected verbatim). I cut the only unprotected imperative and flipped the only unprotected closer. The "to reach A" structural ask is outside one iteration.
+
+**Verification:** lint 0 fail / 1 warn (4,479 of 4,500 words, post-Week-1 slot still open); source audit 14/14 inline; all 32 PROTECT strings and all P0 acceptance greps pass.
+
+**Artifacts:** `revision-resolution.md` written in the review dir (status `complete`, no `needs_human` items); `REVISION PASS NOTES` block appended to the draft. The pipeline will clear the consumed grade sidecar, re-grade, and rerun `/blog_perspective_verify_people` on the new draft.
+
+One flag for DJ: if the house-fingerprint concern (reader-command imperatives) matters more than the jury's protection of those three lines, that's a human call; I defaulted to the jury.

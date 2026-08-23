@@ -1,0 +1,108 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Patrick-Mahomes (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Patrick-Mahomes.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 46
+Comparison set (last 8 other Type-6 drafts by date):
+  - Bill-Burr  (2026-08-19, 43 units)
+  - keira-knightley  (2026-08-17, 32 units)
+  - simone-biles  (2026-08-16, 42 units)
+  - noah-wyle  (2026-08-09, 57 units)
+  - samara-weaving  (2026-08-03, 29 units)
+  - Jack-Antonoff  (2026-07-30, 27 units)
+  - mila-kunis  (2026-07-29, 40 units)
+  - jensen-huang  (2026-07-28, 16 units)
+
+Noise floor over 13156 unit pairs:  median=0  p90=0  p99=0.007  max=1
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 1.000   Patrick-Mahomes  <->  Bill-Burr
+   TARGET [diagnosis] Patrick Mahomes is an Enneagram Type 6
+   OTHER  [diagnosis] Bill Burr is an Enneagram Type 6
+
+score 0.062   Patrick-Mahomes  <->  mila-kunis
+   TARGET [diagnosis] Patrick Mahomes is an Enneagram Type 6
+   OTHER  [diagnosis] Mila Kunis fits Enneagram Type 6
+
+score 0.044   Patrick-Mahomes  <->  simone-biles
+   TARGET [counter-typing] " then promised the starter he was drafted to replace that "I would never undercut him." What the Six read does not explain is the hunger for Brady's numbers
+   OTHER  [counter-typing] Any one of them and the Six reading loses its spine.
+
+score 0.041   Patrick-Mahomes  <->  samara-weaving
+   TARGET [counter-typing] " then promised the starter he was drafted to replace that "I would never undercut him." What the Six read does not explain is the hunger for Brady's numbers
+   OTHER  [diagnosis] What the fear reading does not cover is the second half of her
+
+score 0.041   Patrick-Mahomes  <->  mila-kunis
+   TARGET [counter-typing] The serious alternative is the self-preservation Three
+   OTHER  [diagnosis] Self-preservation shows up in money stories
+
+score 0.040   Patrick-Mahomes  <->  mila-kunis
+   TARGET [diagnosis] the mode that moves toward what it fears.
+   OTHER  [diagnosis] A healthier move toward Type 9 would look quieter
+
+
+Most similar drafts (max unit-pair score):
+  1.000 ######################################## Bill-Burr
+  0.074 ###                  samara-weaving
+  0.069 ###                  noah-wyle
+  0.062 ##                   mila-kunis
+  0.044 ##                   simone-biles
+  0.034 #                    keira-knightley
+  0.026 #                    jensen-huang
+  0.021 #                    Jack-Antonoff
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 1.000   Patrick-Mahomes  <->  Bill-Burr
+   TARGET [diagnosis] Patrick Mahomes is an Enneagram Type 6
+   OTHER  [diagnosis] Bill Burr is an Enneagram Type 6
+
+score 0.074   Patrick-Mahomes  <->  samara-weaving
+   TARGET [diagnosis] but they don't see that preparation." That is a Six talking
+   OTHER  [diagnosis] so I don't know." That is a baseline condition
+
+score 0.069   Patrick-Mahomes  <->  noah-wyle
+   TARGET [diagnosis] The Seven case is the highlight reel
+   OTHER  [counter-typing] The Type 3 case is the one a skeptic reaches for first
+
+score 0.062   Patrick-Mahomes  <->  mila-kunis
+   TARGET [diagnosis] Patrick Mahomes is an Enneagram Type 6
+   OTHER  [diagnosis] Mila Kunis fits Enneagram Type 6
+
+score 0.049   Patrick-Mahomes  <->  samara-weaving
+   TARGET [diagnosis] but they don't see that preparation." That is a Six talking
+   OTHER  [diagnosis] are they going to work just as hard?" That is a hiring criterion.
+
+score 0.044   Patrick-Mahomes  <->  simone-biles
+   TARGET [counter-typing] " then promised the starter he was drafted to replace that "I would never undercut him." What the Six read does not explain is the hunger for Brady's numbers
+   OTHER  [counter-typing] Any one of them and the Six reading loses its spine.
+
+score 0.043   Patrick-Mahomes  <->  noah-wyle
+   TARGET [diagnosis] I didn't care how it looked." The Three case is the hardware and the hunger
+   OTHER  [counter-typing] The Type 3 case is the one a skeptic reaches for first
+
+score 0.042   Patrick-Mahomes  <->  Bill-Burr
+   TARGET [diagnosis] " he said in 2022 on New Heights
+   OTHER  [diagnosis] " he told The Hollywood Reporter in 2022.
+
+score 0.041   Patrick-Mahomes  <->  samara-weaving
+   TARGET [counter-typing] " then promised the starter he was drafted to replace that "I would never undercut him." What the Six read does not explain is the hunger for Brady's numbers
+   OTHER  [diagnosis] What the fear reading does not cover is the second half of her
+
+score 0.041   Patrick-Mahomes  <->  mila-kunis
+   TARGET [counter-typing] The serious alternative is the self-preservation Three
+   OTHER  [diagnosis] Self-preservation shows up in money stories
+
+score 0.040   Patrick-Mahomes  <->  mila-kunis
+   TARGET [diagnosis] the mode that moves toward what it fears.
+   OTHER  [diagnosis] A healthier move toward Type 9 would look quieter
+
+score 0.037   Patrick-Mahomes  <->  mila-kunis
+   TARGET [diagnosis] the trusted voices he follows to the letter
+   OTHER  [diagnosis] Next comes the trusted unit
+
+------------------------------------------------------------------------------
+Top pair scores 1 vs median 0  (~∞x the noise floor).

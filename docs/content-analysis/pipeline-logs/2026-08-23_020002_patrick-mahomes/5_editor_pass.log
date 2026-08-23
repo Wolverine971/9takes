@@ -1,0 +1,27 @@
+Editor pass on **Patrick-Mahomes** is done, in perspective-jury mode.
+
+## What I polished
+`src/blog/people/drafts/Patrick-Mahomes.md` (frozen SHA matched the synthesis before I touched it). The draft's prose was already clean; the work here was the jury's trust repairs, then enough cutting to pay for them.
+
+**All five P0s fixed**
+- Travis Kelce's "Coach Reid is gonna kill me" swapped for Mahomes's own walkthrough words from the same EP15 transcript ("no chance I'm walking through the defense late... feel like an idiot").
+- Jason Kelce's sarcasm cut rather than re-rendered; Aikman and Roquan Smith carry the critique.
+- "Co-produced" and "controlled the room" gone; *The Kingdom* is now just "the 2025 ESPN docuseries."
+- "Counterphobic" earned instead of deleted: a new diagnosis paragraph gives the house-page domain split (phobic about the body, counterphobic about the throw, with his verified "toeing that line" quote), TL;DR bullet 4 matches, "Every Six" → "Most Sixes," and the subtype paragraph reconciles Chestnut's countertype.
+- The "Six under stress, performing certainty he does not have" sentence cut; the 2025 paragraph now ends on "The man who never takes a hit was taking them."
+
+**All twelve accepted P1s applied**, including the flop-turn rebuild (bait named as bait, his own "getting out of the way of getting smoked... the smart way to stay in the football game" defense, unification kept for the three behaviors that are one system), Alex Smith's "thousand questions," Pat Sr.'s "It kind of hurt him" in the opener, the rebuilt sp-3 counterargument, the ten-item quote-fidelity diff, year-stamped datelines with a marked post-Week-1 slot, and the orientation nouns (Texas Tech, Whitehouse High, the Kelces, "at Buffalo").
+
+**RQ-01** resolved with the safe interim: I fetched the People page and printed its verbatim rendering of Pat Sr.'s apology, cited inline. **RQ-02** excluded as instructed. Neither P2 taken; no headroom.
+
+## Numbers
+- `blog-quality-report`: **0 contrast pairs** (one appeared mid-pass inside a verbatim quote; splitting the quote into its two sentences cleared it).
+- `blog-lint`: 0 fail, 0 em-dashes, **4,477 words** (ceiling 4,500). Accepted items added ~330 words; I cut ~350 using Conflict 7's donor list first, then non-protected texture (Tigers phone-call quote, Kelce "favorite in the locker room," "chase my kids," the 91-recovery contrast, etc.). 23 words are reserved for the post-Week-1 sentence.
+- Source audit: 14/14 load-bearing quotes inline. I added `KSHB` to `scripts/blog-source-audit.mjs` OUTLETS (dated comment, same precedent as the second pass) because the close quotes were being credited to ESPN, which never carried them.
+- All 17 PROTECT hits grepped verbatim after the final edit.
+
+## Artifact
+`docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/editor-resolution.md` — one row per P0/RQ/P1, protected-hits section, unresolved list.
+
+## Verdict
+Production-ready pending `/blog_perspective_verify_people` and the frontmatter-enrich step (faqs still absent). Left for humans/research: the E5 stream check for exact wording (refresh), the ownership-stake motive (refresh), and a house fix outside this article: `enneagram-instinctual-subtypes.md` lines 372/420 call the Six countertype Self-Preservation; it's the Sexual Six.

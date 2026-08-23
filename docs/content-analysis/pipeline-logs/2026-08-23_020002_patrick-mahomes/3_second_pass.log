@@ -1,0 +1,25 @@
+Second pass on `src/blog/people/drafts/Patrick-Mahomes.md` is done. Lint: 0 fail. Source audit: 13/13 load-bearing quotes inline.
+
+## What changed
+
+**Source traceability first (was 1 inline / 6 vague / 3 untagged → 13 inline / 0 / 0)**
+- Epigraph reformatted to the `— Person, Outlet, Year` shape; Randi Martin's phone quote tagged to *The Kingdom*/ESPN 2025; draft-night nerves tagged; the "up to Coach Reid" close tagged to the Aug 22, 2026 ESPN/KSHB availability.
+- Added `Sports Illustrated`, `New Heights`, `WHOOP Podcast`, `The Pivot` to `scripts/blog-source-audit.mjs` OUTLETS with a dated comment (same precedent as the ESPN/NBC entries). Without this, every New Heights quote graded vague no matter how precisely cited.
+
+**Fresh-eyes notes addressed**
+- **Thesis now shown on the field**: the 13-second game (Jan 23, 2022) sits right after "Coach Reid puts us in those situations," sourced to ESPN (Reid's "be the Grim Reaper") and SI ("It wasn't hard to keep them focused. We believed.").
+- **First-person anxiety**: the 18 WHOOP recovery score ("too much visualizing before") added; the Logan Paul heart-rate line moved beside it, so the helmet section now closes on the inner-thought instead of having two endings.
+- **2025 collapse moved out of the Rabbit Hole** and opens the injury section (SB LIX 40-22, foot-locker report, 1-9 in one-score games, "I ran a little bit too much"). The ACL now reads as the second "no."
+- **Leadership paragraph** (Kelce, McDuffie) in the Coach section; **Tyreek Hill cuss-out** in the helmet section as the boundary of the charm.
+- Diagnosis setup/payoff mismatch fixed; Brittany + three children (years only) added in one sentence.
+
+**Rejected**
+- Nagy "yelled his first play" story: no verbatim quote anywhere in hand.
+- "stuff that I haven't done in the past" (red-zone throws): couldn't be sourced by web search, so I deleted it from the Rabbit Hole rather than promote it.
+
+**The trade-off worth knowing:** the draft was at 4,484 words before any additions, so everything above was paid for with cuts: Energizer Bunny paragraph, pass-protection/filing-cabinet paragraph, Bieniemy quote, Ertz rehab race, Jordan hop, A-Rod $300M line, the Pat/Patrick opener, a duplicate playoff-drought line, the TL;DR helmet bullet, and Rabbit Hole re-argument. Final: 4,490 words, 10 under the ceiling.
+
+## Still open
+- `faqs` frontmatter absent → run `/blog_content_frontmatter_enrich_people Patrick-Mahomes`.
+- Post-Week-1 update (did he start Sept 14) will need a matching cut to stay under 4,500.
+- An editor pass might want Bieniemy's "intestinal fortitude" back; the Kingsbury sentence is the cheapest trade.

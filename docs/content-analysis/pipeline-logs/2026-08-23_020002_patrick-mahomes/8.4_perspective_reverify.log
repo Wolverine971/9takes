@@ -1,0 +1,14 @@
+**Output:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/verification-final.md`
+**Status:** `pass` · **Open P0:** 0 · **Protected-hit regressions:** 0
+
+**What I verified**
+
+- Snapshot SHA `690cb7c2…a9a1` matches the supplied SHA and every artifact in the review dir; the live draft's full-file SHA matches what `revision-resolution.md` recorded, so nothing touched it after the revision pass. Live reader-visible hash: `6f23605e…d967`.
+- Word-diffed the live reader-visible body against the frozen snapshot and re-ran every acceptance test as greps or transcript/packet lookups. All five P0s hold after the revision; all twelve P1s remain completed (the revision even closed the initial verifier's P1-06 soft spot); all 17 PROTECT passages present verbatim (35/35 anchor strings). Lint: 0 fail, 1 warn (4,479/4,500 words).
+- Traced every new attribution the revision pass added ("told the Kelces," "per Yahoo Sports," "per Chiefs Wire," etc.) to a transcript, the research file, or a packet row — all check out.
+
+**One real problem, flagged as Remaining work #1**
+
+The P1-07 orientation repair wrote "On December 10, 2023, **at Buffalo**" for the Toney-offside game. It was at Arrowhead (home, L 17–20; the road game at Buffalo was the Jan 21, 2024 playoff). The editor followed the trail — the evidence packet's own timeline row (`evidence-packet.md:60`) says "At Buffalo" — so the error is inherited, not invented. It isn't a P0 or a PROTECT regression, so the gate's counts can't express it; I kept `pass` per the gate rule but put it first in Remaining work. It's a zero-word fix (`at Buffalo` → `at Arrowhead`) plus a packet-row correction so refresh doesn't re-import it. I did not edit the draft (read-only stage).
+
+**Next:** the pipeline's 8.45 gate will consume this artifact (I dry-ran it: exit 0). Someone needs to apply the two-word venue fix before this draft is pushed/published. I also saved a memory about the gate blind spot so it isn't re-diagnosed next time a packet row is wrong.

@@ -1,0 +1,12 @@
+Verification complete.
+
+**Output:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/verification-initial.md`
+**Status:** `pass` · **Open P0:** 0 · **Protected-hit regressions:** 0
+
+What I checked:
+- Frozen snapshot SHA `690cb7c2…a9a1` matches `context.json`, `synthesis.md`, and `editor-resolution.md`; the live draft's reader-visible hash is `09395ede…0d87e` (frontmatter now carries the enrich-step additions, which the hash ignores by design).
+- All five P0s pass their acceptance tests against the live body: the Travis Kelce misattribution is replaced by Mahomes's own words (located in the EP15 transcript before the speaker hand-off), the Jason Kelce "conceded" clause is cut, the co-producer/"controlled the room" claims are gone, "counterphobic" is now defined and domain-split with a verified Mahomes quote, and the "Six under stress, performing certainty" sentence is removed.
+- All 12 accepted P1s are completed; RQ-01/RQ-02 deferred with reasons; P2-01/P2-02 rejected for the word ceiling. Every new assertion (father's "it kind of hurt him," "getting smoked" defense, roster context, villain line, "thousand questions," "undercut" promise) traces to the packet, a review research log, or a local transcript.
+- All 17 `PROTECT-*` passages grep verbatim, each returning exactly one hit.
+
+Carried forward (not gate-blocking): the *Kingdom* E5 verbatim check at refresh, the ownership-stake motive research, the house subtypes-page countertype error, and the post-Week-1 slot. The deterministic gate script decides finalization from here.

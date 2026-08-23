@@ -1,0 +1,15 @@
+Counts match the frontmatter (1 blocker, 9 concerns), all eleven required H2s are present, and the SHA matches `context.json`.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/subject.md`
+
+**Verdict:** trust *strained* · value *high* · delight *clear_hit* · recommendation **revise**
+
+**Blockers:** 1
+
+- **SUBJECT-R1** — `draft-reviewed.md:192` prints *"I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes"* as Mahomes's words to illustrate his "specific dread" of Reid. I re-read the local New Heights EP15 transcript independently: that sentence is Travis Kelce describing his own late arrival ("I'm not gonna say I'm notorious for late… they're like 'were you with Pat last night'"). Another man's interior is printed under the subject's name in the one paragraph about his interior. The fix is cheap: Mahomes's own words from the same story are in the transcript ("there is no chance I'm walking through the defense late… I sit in the locker room… max fine… feel like an idiot").
+
+**Strongest hit:** the Jason Kelce trap → "He confessed." → *"if this doesn't work right here"* (`:142-148`). The article's central claim about him is made by him, unprompted, in his own vocabulary — the fairness model the rest of the piece mostly follows.
+
+**Highest-priority concern (SUBJECT-C1):** `:131` says he "co-produced" *The Kingdom* and `:246` builds on it ("disclosed only when he controlled the room"). ESPN's credits list four EPs; his company 2PM Productions is an "in association with" partner. The draft's own working notes already record this. The stage-managed-disclosure inference outruns the record; "He waited until he trusted the structure" (already in the draft) is the supportable version.
+
+One pattern worth the editor's attention across C3/C4/C8: in three places the writer supplies Mahomes's motive where he has already stated his own — most notably the flopping section, where his actual defense from the same Jan 2025 radio hit ("trying to get out of the way of getting smoked… the smart way to stay in the football game") *is* the article's threat-management thesis in his words, and goes unused.

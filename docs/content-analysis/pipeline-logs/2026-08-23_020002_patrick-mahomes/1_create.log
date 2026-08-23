@@ -1,0 +1,22 @@
+All link targets exist, YAML parses, lint is clean. Done.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Patrick-Mahomes.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass (15 qualifying quotes), Gate 2: pass (5 search-intent/hybrid of 7), Gate 3: pass (no self-loop), Gate 4: pass (scene hook, no "A Six…" ending), Gate 5: pass (0 type-theory paragraphs outside diagnosis/Rabbit Hole), Gate 6: pass (0 strong / 0 comparative contrast pairs; similarity trip is only the mandated H3 vs Bill-Burr)]
+LIMITATIONS: no first-person Mahomes quote exists on the divorce (fact stated only); which *Kingdom* episode holds the father's-arrest segment is unresolved (draft cites the series, not an episode); Pat Sr.'s sobriety claim is contested by 2026 reporting, so the draft says only "he said he made a vow"; GQ (June 2026) and Robb Report interviews were unretrievable; body sits at 4,484 words against a 4,500 ceiling (thin refresh headroom).
+```
+
+**What I did**
+
+- **Type call: Enneagram 6 (counterphobic, 7 wing, sp/so)**, rejecting both crowd reads (7 and 3) with sourced behavior. Thesis: the improvisation is rehearsed worst-case planning, and he only trusts himself after a trusted authority has tested him. Load-bearing first-person evidence: "I've for sure practiced… if this doesn't work right here" (New Heights), the Kobe "thousands of times to take once" line (CBS), the safest-helmet quote, "I needed someone like that coaching me" (The Kingdom), Brady's sentence that "validated everything," and Dr. Cooper's clearance test ("it wasn't like he was just going to clear me to clear me"). The hook is draft night: his mother's account of him asking "Mom, is your phone working?" between picks, set against his later "I didn't think about it at all."
+- **Sources**: pulled 9 transcripts to `youtube-transcripts/mahomes/` (New Heights EP15, IMPAULSIVE, WHOOP, *The Kingdom* S1E1, CBS Mornings, Aug 7/8 2026 pressers, McDuffie on Bussin'), plus two research-agent sweeps merged into `docs/content-analysis/research/Patrick-Mahomes.md` (timeline, 15+ named testimony quotes, critic pressure, source ledger, type memo).
+- **Current-tense anchor** is fully verified through Aug 22, 2026 (zero preseason snaps; "they would not let me"; Sept 14 MNF opener vs Denver) and the ending is built to take a one-line post-Week-1 update.
+
+**Corrections surfaced that live outside my scope (flagging, not edited):**
+- `src/blog/people/drafts/Travis-Kelce.md` ledger says the ACL tear was "Week 14"; it was Week 15.
+- The entity-gap packet's "Tigers 2016" (it was 2014), "recruited from age 15" (verbatim is "ninth-grader"), Reid's "ACL strength fully restored" (only on an SEO farm; real quote is different), and "executive-produced *The Kingdom*" (his company 2PM Productions is a producing partner; he isn't a credited EP).
+
+**Next**: `/grade_blog` for the numeric grade, then human review before `production_pretext` moves to `ready`. Frontmatter enrich still owes `faqs`/`keywords`/`same_as`/`citations` (lint warns, expected at this stage).
