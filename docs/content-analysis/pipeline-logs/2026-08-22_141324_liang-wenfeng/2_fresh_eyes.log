@@ -1,0 +1,17 @@
+The "changed on disk" notice is just my own append registering; the frontmatter and body are untouched, and the review block is confirmed present once.
+
+## Fresh-eyes review: Liang Wenfeng
+
+**Reviewed:** `src/blog/people/drafts/Liang-Wenfeng.md` (6,170 words), cross-checked against the entity-gap packet and the research memo at `docs/content-analysis/research/Liang-Wenfeng.md`. No body edits made; a `FRESH EYES REVIEW (2026-08-22)` block is now appended at the bottom of the draft.
+
+**The two biggest issues flagged:**
+
+1. **The best contradiction is buried in the accordion.** The 2023 "mainly driven by curiosity" vs. purported 2026 "what has the greatest return for me at this moment?" anomaly is the one tension the restraint thesis can't absorb, and it lives in the last paragraph of the Counterarguments Rabbit Hole. Meanwhile the diagnosis section declares "That resolves the contradiction" in paragraph 5, before the reader has seen Chengdu, the apology letter, or the critics. The piece picks a side too early and hides its most honest doubt.
+
+2. **Open weights are almost absent.** A Five who guards compute "the way he guarded the stamp money" gives the model weights away under MIT through V4. That hoarder-who-publishes-the-map paradox is a stronger amplifier than the pricing story and currently gets one subtype sentence inside the accordion.
+
+**Also flagged:** three verified research-memo items missing from the body (front row at Xi's Feb 2025 symposium, the "experienced people will tell you how it should be done" hiring doctrine, and the CEO-still-writes-code daily routine); the stamps motif run 15 times and "Tencent News" attribution 11 times; every section closing on a clipped aphorism (the formula fingerprint here despite zero contrast pairs); and fear never rendered from inside, with #37 "team stability is our only core interest" as the obvious place to do it.
+
+**Preserved as working:** the Yan Junjie restaurant cold open, the bespoke "Four of the 118 points" section (especially the charge-less-on-screen scene), the conceded-on-facts critic pressure, and the sourcing discipline around the purported transcript and marital status.
+
+**Next step in the pipeline** would be `/blog_content_revision_pass_people Liang-Wenfeng` to act on these notes.

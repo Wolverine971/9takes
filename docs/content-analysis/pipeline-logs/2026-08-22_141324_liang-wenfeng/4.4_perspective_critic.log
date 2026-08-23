@@ -1,0 +1,9 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/critic.md` (SHA verified against `context.json`; all 11 required H2s present; frontmatter counts match the body: 1 blocker, 10 concerns).
+
+**Verdict:** trust **strained**, value **useful**, delight **clear_hit**, recommendation **revise**.
+
+**Blocker count:** 1 — **CRITIC-R1.** The draft's own falsification test has already fired. DeepSeek announced a "significant" API price increase on Aug 6, 2026 and moved to peak/off-peak billing effective Aug 16; DeepSeek's own pricing page today shows peak at 2× off-peak, with another adjustment Aug 23. The draft is dated Aug 22 and still says the API is "set to pay back its servers and no more … when it could charge double," and closes on "If the API price goes up after the IPO, the restraint was a phase." Repair is one dated paragraph plus a restated test and a rewritten TL;DR bullet; the thesis can survive (the hike reads as compute rationing), the silence can't.
+
+**Strongest hit:** the concession paragraph in the catfish section — "A man who presents himself as restrained was, on the evidence, one of the most aggressive accumulators of GPUs in China. Those facts hold, and no personality lens dissolves them." A real steelman; must survive revision unchanged.
+
+**Highest-priority concern:** **CRITIC-C1**, motive laundering of the funding pause. Bloomberg reports the pause "stemmed in part from Liang's frustration over online reports"; the draft turns it into "The truth cost eleven days. He paid it" and uses "froze his own funding round rather than soften a transcript" as the decisive Type-5-vs-9 discriminator. Close behind: C2 (#117 "trillion-level companies" omitted while "takes less" is the title) and C6 (distillation allegation absent beneath the "imitation stops with him" empathy turn).

@@ -1,0 +1,9 @@
+blog-quality-report: Liang-Wenfeng
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [more/less-than] L292: "Open source is more of a cultural behavior than a commercial one, and contributing to it earns us respect."
+
+2.4 Head-term: PASS  meta_title=Why Liang Wenfeng Won't Take More: DeepSeek's Type 5 Founder
+   answer-block: ok (59 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 421)

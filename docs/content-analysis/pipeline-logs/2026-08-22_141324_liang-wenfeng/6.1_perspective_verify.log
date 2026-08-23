@@ -1,0 +1,14 @@
+Nothing further is needed — the verification file is written and the task is complete. No other file was modified.
+
+**Output:** `docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/verification-initial.md`
+**Status:** `pass` · **Open P0:** 0 · **Protected-hit regressions:** 0
+
+**What I checked**
+- SHA `90cbfd2f…8bf728` matches the frozen snapshot, `context.json`, synthesis, and editor-resolution. Current reader-visible hash: `d0a682af…0265`.
+- All 6 P0 acceptance tests pass on the stripped reader-visible body (greps for the forbidden phrases return 0; the falsifier now names a post-listing rise that hasn't happened; "Those facts hold" binds only to the V3 paper and Fire-Flyer cost; Bloomberg's "frustration" reason is in the body; the 50B figure is attributed to Chinese media with a dollar gloss).
+- All 12 P1s completed, P2-01 taken, RQ-03 deferred with reason. I re-verified RQ-01 myself: Engadget (Aug 14) and the-decoder (May 23) independently confirm V4-Pro output $0.87 → $1.98/$3.96, so printing the old rate was justified; the floor rose.
+- All 16 PROTECT passages present verbatim or in the pre-authorized reorder. Lint 0 fail (4,496 words), source audit 10/10 inline, similarity only the mandated-H3 false positive.
+
+**Non-blocking items left for the next pass** (all one-clause fixes, listed in the file): the TL;DR's unsourced "first increase" superlative (Feb 2025 promo-end was also a rise); "ruled out financing" overstates "no financing plans in the short term"; the "allocate resources more reasonably" quote is from DeepSeek's `/updates` changelog of Aug 13, not the `news260813` note cited — add the URL to `citations`. The `meta_title`/`persona_title` hedge remains DJ's call; the synthesis defaulted it to "stands."
+
+The deterministic gate script makes the final call on whether the pipeline finalizes.

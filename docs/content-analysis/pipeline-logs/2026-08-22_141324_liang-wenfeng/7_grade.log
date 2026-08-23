@@ -1,0 +1,23 @@
+Frontmatter parses cleanly (PyYAML; content_quality intact, 8 FAQs, enneagram 5). Grading is complete.
+
+## Grading Complete — Liang Wenfeng
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Liang-Wenfeng | 8 | 9 | 9 | 8 | 8 | 8 | **8.4** | **B** |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc<7 caps at B — not triggered. No caps applied.)
+
+### Key observations
+
+- **Anchor: Matt-Smith (B band).** This is very good pipeline output that sits at the top of the B band for a better reason than most: it names its own falsifier (a post-listing price rise capacity can't explain) and leaves the 2023-curiosity vs. 2026-"greatest return" anomaly genuinely unresolved. Critic pressure (Alexandr Wang's 50k H100s, Booth's $1.6B, the distillation allegation) is conceded on the facts before the lens is applied. "Four of the 118 points" is bespoke in form, not just content.
+- **Why Evidence is 8, not 9:** sourcing discipline is strong (10/10 inline, everything dated), but three of four TL;DR bullets, the key-stat, the interior beat and the fear beat all rest on a purported transcript DeepSeek has never confirmed. Two concrete fixes: the Li Qiang "export controls" remark is attributed to the WSJ with no date or URL (`src/blog/people/drafts/Liang-Wenfeng.md:286`) and is load-bearing in the Type 9 refutation; the Yan Junjie scene is credited to LatePost in the ledger but Tencent News in the body.
+- **Why Enneagram/Writing are 8:** the fear is argued in framework cadence ("Cards can be rebought. A fortune can be remade...") rather than felt; the Xi-symposium silence and football-on-the-$589B-day are reported in a clause each. Hedging apparatus is audible: "purported" ~12× in body, "(Tencent News edit, 2026)" 10×, four parentheticals in the diagnosis paragraph alone, and the August-pricing paragraph reads as the appended correction it is. Body is at the 4,500-word ceiling.
+- **Packaging tension for DJ:** meta_title "Won't Take More" / persona_title "The Quant Who Takes Less" now conflict with the body's own August 2026 paragraph (off-peak floor rose ~2.3×). The editor flagged this; I held Discoverability at 9 rather than 10 for it.
+- **Checks:** similarity scan TRIPPED only on the mandated-H3 false positive (0.083/0.077); 0 strong contrast pairs; sameness check vs. Jonathan-Bailey / Prince-Harry / Ms-Rachel found shared structural furniture only (epigraph→firstLetter), no near-verbatim move reuse.
+
+### Files written
+- `src/blog/people/drafts/Liang-Wenfeng.md` — `content_quality` block added before the closing `---` (no `path:` line existed); no legacy QUALITY GRADE block was present. YAML verified.
+- `docs/content-analysis/grades/Liang-Wenfeng.review.md` — full sidecar with 5 steps to B+ and 3 more to A.
+
+**Total graded this session: 1**

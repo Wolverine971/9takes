@@ -1,0 +1,16 @@
+Done. The packet is written and verified; nothing else is pending.
+
+## Recap
+
+**Wrote:** `docs/content-analysis/entity-gaps/Liang-Wenfeng.md` — frontmatter parses, and the pipeline's lowercase lookup (`liang-wenfeng.md`) resolves to it on this filesystem. `run-blog-pipeline.sh` treats the packet as advisory, not a publish gate, so the in-progress stage-1 create will still run; the packet tells it how.
+
+**Verdict: 40/100 — PASS, action `watch`.** Subtotal was 60 (CREATE-threshold), but the exact-name SERP is the strongest this command has audited: personal Wikipedia (49 refs), Britannica, Forbes, Bloomberg Billionaires, Washington Post, SCMP, Fortune. That's the model's named "not an entity gap" case, and the -20 penalty applies cleanly. Same shape as Alexandr Wang (43).
+
+**What's genuinely strong:**
+- Demand is rising into a scheduled spike — $7.4B round at ~$52B (June), Bloomberg IPO-prep report (Jul 14), leaked 3h44m investor transcript (Jul 23) that paused the second round for 11 days, Fortune's "no overtime, no KPIs" (Aug 1), richest AI-model founder at ~$36–38B.
+- The contradiction is ownable and untouched: a quant who got rich exploiting markets now refuses to exploit the one he built — "restraint is a strategy," won't raise prices despite inelastic demand, "money is not a problem," while sitting on ~80% of a $71B IPO.
+- The queue's "thin interview record" flag is half right: two deep 36Kr interviews (2023, 2024) plus the purported 2026 transcript clear the first-person gate. The real thinness is **named** third-party testimony — one clean on-record voice (Zihan Wang), one surname-only teacher, one pseudonymous classmate.
+
+**The one decision for you:** the only lane where a 9takes page deserves to rank is "what kind of person is he" (`Liang Wenfeng personality` = content farms + one 2025 Fortune feature; `MBTI/enneagram` = empty). The packet tells the pipeline to write that page, not a biography, and to expect zero biography-query traffic unless the IPO filing churns the SERP. If you'd rather not spend a pipeline run on a watchlist subject, pull him from `inProgress` — otherwise it proceeds on the personality lane with the claims-to-avoid list (no spouse, no birth date, every transcript quote marked *purported*, valuation/stake figures pinned to dated sources).
+
+**Re-audit trigger:** within 7 days of DeepSeek's A-share filing, or if DeepSeek confirms/repudiates the transcript.

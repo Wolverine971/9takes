@@ -1,0 +1,22 @@
+Second pass complete on `src/blog/people/drafts/Liang-Wenfeng.md`.
+
+**What changed**
+
+- **Best doubt moved into daylight.** The 2023 "mainly driven by curiosity" vs. purported 2026 "what has the greatest return for me" anomaly was buried in the Rabbit Hole; it's now the closing beat of "Four of the 118 points," left unresolved with the post-IPO price-hike test. The diagnosis no longer says "That resolves the contradiction"; it promises the other half instead.
+- **Open weights got its paragraph** in the critics section (MIT-licensed V3/R1/V4, "more of a cultural behavior than a commercial one," 36Kr 2024) as the publish-the-map / hide-the-engine split. TL;DR bullet swapped to match.
+- **Added, all verified against primary sources:** the Xi Jinping symposium (Feb 17, 2025), hiring doctrine ("Experienced people will tell you how something should be done without hesitation…"), the 2024 interviewer's "reading papers, writing code" routine, AGI named as the hypothesis at founding so the ending lands, football-on-the-$589B-day as its own sentence, a fear beat at #37 read against #42, one more apology-letter beat.
+- **One fresh-eyes fact corrected rather than copied:** it said Liang sat silent "while Jack Ma and Pony Ma spoke." Neither Ma spoke; the six speakers were Ren Zhengfei, Wang Chuanfu, Liu Yonghao, Yu Renrong, Wang Xingxing, Lei Jun. Written as "far end of the table, same end as Jack Ma, not among the six who spoke."
+- **Repetition cut:** transcript attribution tags 13→10, "ten months" 11→3, the mistaken-for-junior beat 4→2 placements (FT "nerdy guy" and 2018 thermos visit cut), postdoc callback and stamp-motif callbacks trimmed. Rabbit Hole moved after the 118-points section; corpus stat moved into its counterarguments; personal-life section reordered to build.
+
+**Checks after the pass**
+
+- Source audit: 10 load-bearing quotes, **10 inline, 0 vague, 0 untagged** (same as before; nothing regressed).
+- `blog-lint`: **0 fail, 2 warn.** Body is 4,495 words against the 4,500 ceiling (additions pushed it to 5,074; three trim rounds brought it back). The other WARN is a comparative inside Liang's own quote, noted in the fingerprint ledger rather than rewriting his sentence.
+- Em-dashes, banned phrases: clean.
+
+**Still open for an editor pass**
+
+- Zero headroom under the word ceiling; the next refresh must cut before adding.
+- The transcript stays "purported" throughout; if DeepSeek confirms or repudiates it, the cold-open and 118-points caveats each need a one-line update.
+
+I also saved a memory: people second passes routinely blow the 4,500 ceiling because it counts Rabbit Hole + TL;DR prose, so cuts should be planned before additions, and fresh-eyes factual asks need verifying first.

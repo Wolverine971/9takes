@@ -1,0 +1,33 @@
+Done. YAML parses cleanly, `lastmod` is untouched, and the body wasn't edited (all three replacements were exact-match frontmatter-only substitutions).
+
+```
+Frontmatter enrichment complete: Liang-Wenfeng
+
+Fields filled:
+- wikidata_qid: 'Q131847088' (verified via Wikidata API + Wikipedia REST summary; same entity as the /wiki/Liang_Wenfeng page: High-Flyer co-founder, DeepSeek founder/CEO)
+- birth_date: '1985-01-01' (year-only; see Issues)
+- same_as: expanded 1 → 6 (Wikipedia, Wikidata, Britannica biography, Bloomberg Billionaires profile, Forbes profile, TIME100 AI 2025 entry — each confirmed to describe the DeepSeek founder)
+
+Fields already present (preserved):
+- wikipedia (verified identity), birth_place, nationality, occupation, knows_about,
+  keywords (10), citations (32), faqs (8)
+
+Skipped:
+- imdb_id — no film/documentary presence; omitted rather than guessed
+
+FAQs generated: 0 (existing 8 are substantive and body-derived, left exactly as-is per idempotency rule)
+
+Issues:
+- birth_date false precision: Wikidata P569 is year-precision only, and the draft's own FAQ
+  states no reputable source has published his exact date. The DB column is Postgres `date`,
+  so a bare '1985' would fail on push; I followed the command's YYYY-01-01 rule (3 other drafts
+  do the same: Ice-Spice, Noah-Kahan, Yang-Zhilin). Consequence: Person JSON-LD will assert
+  birthDate "1985-01-01". If you'd rather not publish a made-up day, delete the line before
+  push — the JSON-LD builder simply omits birthDate when empty.
+- faqs count is 8, above the command's 5-FAQ ceiling. Not touched (idempotency wins), but
+  the last three (net worth / pricing / leaked transcript) are the ones to trim if you want
+  snippet focus.
+- citations is 32 entries vs. the 3–8 guidance. Left alone; it's an existing creator value.
+```
+
+Next step in the pipeline is `/grade_blog Liang-Wenfeng`, then the publish gate.

@@ -1,0 +1,19 @@
+{
+	"person": "liang-wenfeng",
+	"draft_path": "src/blog/people/drafts/Liang-Wenfeng.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/liang-wenfeng.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-22_141324_liang-wenfeng",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324",
+	"perspective_initial_status": "pass",
+	"perspective_final_status": "fail_after_revision",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.4,
+	"final_overall": null,
+	"final_discoverability": null,
+	"grade_stability_delta": null,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-22T20:22:31.969Z"
+}

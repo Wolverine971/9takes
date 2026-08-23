@@ -1,0 +1,21 @@
+Frontmatter parses cleanly (Python yaml; 8 FAQs, `status: draft`). Nothing else is pending; here is the completion report.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Liang-Wenfeng.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (10 named quotes; ≥2 required) · Gate 2: pass (6 of 8 H2s search-intent/hybrid) · Gate 3: pass (no self-loop) · Gate 4: pass (0 "A Five" sentences in ending; hook is a reported scene, not an object-reveal) · Gate 5: pass (0 type-theory paragraphs outside diagnosis/Rabbit Hole) · Gate 6: pass (0 strong / 0 comparative contrast pairs; bespoke "118 points" form; critic anchor = Alexandr Wang/Musk/TIME; empathy turn in his own imitation vocabulary; current anchor = July 23 leak → July 25 pause → Aug 5/6 restart; ending swap-test pass)
+LIMITATIONS: research_limitation: no_video_transcripts (no genuine audio/video of Liang exists; all "interviews" online are AI readings) · every 2026 quote is purported (Tencent News 118-point edit; NBD-corroborated, DeepSeek silent) · same-type-similarity trips only on the mandated "X is an Enneagram Type 5" sentence (shared phrases = `subj subj is`; documented false positive) · body 4,446 words, 54 under the 4,500 ceiling (lint WARN on headroom)
+```
+
+**What I did**
+
+- **Research** (3 parallel agents): pulled both 36Kr interviews verbatim, the purported transcript with per-outlet authenticity status, 9 named third-party voices the entity-gap packet didn't have (his full-name high-school teacher, MiniMax's Yan Junjie mistaking him for an assistant, Luo Yonghao's "postdoc who hasn't found a job"), and pinned every biographical fact with a tier label. Persisted to `docs/content-analysis/research/Liang-Wenfeng.md` (evidence and hypothesis kept separate).
+- **Type**: Enneagram 5, 5w6, sp/so, confidence high. Tiebreaker: "what excites you most? Verifying whether our hypotheses are correct" + Luo's "chases a question to the end." Type 9 and Type 1 cases argued in the Rabbit Hole only.
+- **Thesis**: a quant who got rich taking the difference, then built the most mispriced asset in AI and walked away from it. The Five's "need less so nothing can be taken" turned into corporate doctrine; the childhood signature is the sixth-grader who sold stamps to buy stamps so he'd never have to ask his father.
+- **Biography intent served honestly**: born 1985 (no date), both parents primary-school teachers, 806/900 Wuchuan top scorer, Zhejiang degrees, dated Bloomberg net worth, "roughly four-fifths" ownership, and an explicit "marital status not established" answer, in prose and in 8 FAQ schema entries.
+- **Internal links (5)**: Type 5 explainer, Alexandr Wang, Dario Amodei, wings guide, subtypes guide (Yang Zhilin is `link: false`, so referenced without a link).
+- **Memory saved**: the source-audit outlet-list gotcha for Chinese-sourced subjects.
+
+**Next**: human review, then `/grade_blog` (this command does not grade). Two judgment calls worth your veto: (1) the cold open uses "Tencent News" as the transcript attribution because the audit's outlet list doesn't recognize "Tencent Technology"; it is accurate but slightly less precise than the Chinese credit. (2) Headroom is thin (54 words); the next refresh should cut before it adds.

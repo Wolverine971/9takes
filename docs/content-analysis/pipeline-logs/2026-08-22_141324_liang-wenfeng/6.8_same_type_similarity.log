@@ -1,0 +1,96 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Liang-Wenfeng (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/Liang-Wenfeng.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 52
+Comparison set (last 8 other Type-5 drafts by date):
+  - Carl-Jung  (2026-08-13, 55 units)
+  - Christopher-Nolan  (2026-08-12, 43 units)
+  - Yang-Zhilin  (2026-07-23, 46 units)
+  - pinkpantheress  (2026-07-19, 25 units)
+  - warren-buffett  (2026-07-08, 30 units)
+  - steve-martin  (2026-07-04, 38 units)
+  - leonardo-da-vinci  (2026-07-01, 18 units)
+  - john-d-rockefeller  (2026-06-22, 19 units)
+
+Noise floor over 14248 unit pairs:  median=0  p90=0  p99=0.006  max=0.087
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.083   Liang-Wenfeng  <->  warren-buffett
+   TARGET [diagnosis] The type that fits Liang Wenfeng is the Enneagram Type 5
+   OTHER  [diagnosis] Warren Buffett is the pattern made flesh. - The scarcity economy made literal.
+
+score 0.077   Liang-Wenfeng  <->  Yang-Zhilin
+   TARGET [diagnosis] The type that fits Liang Wenfeng is the Enneagram Type 5
+   OTHER  [diagnosis] Yang Zhilin is an Enneagram Type 5
+
+score 0.057   Liang-Wenfeng  <->  Yang-Zhilin
+   TARGET [counter-typing] told the premier in January 2025 that his policy was the bottleneck
+   OTHER  [diagnosis] the DeepSeek founder whose open-weight model set off the first of these chip-stock panics in January 2025.
+
+
+Most similar drafts (max unit-pair score):
+  0.087 ###                  Carl-Jung
+  0.083 ###                  warren-buffett
+  0.082 ###                  Christopher-Nolan
+  0.077 ###                  Yang-Zhilin
+  0.039 ##                   pinkpantheress
+  0.039 ##                   john-d-rockefeller
+  0.031 #                    steve-martin
+  0.024 #                    leonardo-da-vinci
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.087   Liang-Wenfeng  <->  Carl-Jung
+   TARGET [diagnosis] " and then gave the explanation at the top of this page.
+   OTHER  [diagnosis] And the retrospective verdicts disagree at the top.
+
+score 0.083   Liang-Wenfeng  <->  warren-buffett
+   TARGET [diagnosis] The type that fits Liang Wenfeng is the Enneagram Type 5
+   OTHER  [diagnosis] Warren Buffett is the pattern made flesh. - The scarcity economy made literal.
+
+score 0.082   Liang-Wenfeng  <->  Christopher-Nolan
+   TARGET [diagnosis] What makes him a distinctive Five is what he did with the wealth.
+   OTHER  [counter-typing] The tiebreak is what he did when his own analysis collided with his institution in 2020
+
+score 0.077   Liang-Wenfeng  <->  Yang-Zhilin
+   TARGET [diagnosis] The type that fits Liang Wenfeng is the Enneagram Type 5
+   OTHER  [diagnosis] Yang Zhilin is an Enneagram Type 5
+
+score 0.057   Liang-Wenfeng  <->  Yang-Zhilin
+   TARGET [counter-typing] told the premier in January 2025 that his policy was the bottleneck
+   OTHER  [diagnosis] the DeepSeek founder whose open-weight model set off the first of these chip-stock panics in January 2025.
+
+score 0.044   Liang-Wenfeng  <->  Carl-Jung
+   TARGET [diagnosis] 2026) The other half is in the same document
+   OTHER  [diagnosis] in the same 1959 BBC interview
+
+score 0.039   Liang-Wenfeng  <->  pinkpantheress
+   TARGET [counter-typing] Liang builds it out of self-sufficiency
+   OTHER  [counter-typing] Her anxiety resolves through withdrawal and self-sufficiency
+
+score 0.039   Liang-Wenfeng  <->  john-d-rockefeller
+   TARGET [diagnosis] Most people who get rich expand.
+   OTHER  [diagnosis] Most people see a rapacious tycoon.
+
+score 0.039   Liang-Wenfeng  <->  warren-buffett
+   TARGET [diagnosis] 2026) The other half is in the same document
+   OTHER  [diagnosis] he lives in the same modest house
+
+score 0.033   Liang-Wenfeng  <->  Carl-Jung
+   TARGET [diagnosis] The type that fits Liang Wenfeng is the Enneagram Type 5
+   OTHER  [diagnosis] When Jung himself explained the types book
+
+score 0.033   Liang-Wenfeng  <->  Carl-Jung
+   TARGET [counter-typing] " cards bought before the ban.
+   OTHER  [diagnosis] six years of deference to Freud before the break.
+
+score 0.033   Liang-Wenfeng  <->  Yang-Zhilin
+   TARGET [counter-typing] curiosity in 2023 against "greatest return" in 2026
+   OTHER  [diagnosis] and told a Chinese interviewer in 2023
+
+------------------------------------------------------------------------------
+Top pair scores 0.087 vs median 0  (~∞x the noise floor).

@@ -1,0 +1,13 @@
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/future.md` (SHA verified against `context.json` and the supplied `--draft-sha`; all 11 required H2s present; frontmatter counts match the body).
+
+**Verdict:** `revise` — trust **strained**, value **high**, delight **clear_hit**. The Type 5 thesis is built on time-stable material (2023/2024 36Kr interviews, named hometown teachers, the 2021 apology, the GPU buildup); the July–August 2026 news is an appendix the draft presents as the spine. Fix is mostly tense and framing, not structure.
+
+**Blockers:** 1
+
+- **FUTURE-R1** — The draft's freshest behavioral proof, "priced to cost," was already false on its own publish date. DeepSeek's pricing page carried a "significant increase expected" note from Aug 6, the Aug 13 V4-Pro GA note set peak/off-peak billing effective Aug 16, and the live page (fetched today) shows peak rates at 2× off-peak (V4-Pro output $3.96 vs $1.98), with another rule change due Aug 23. Six present-tense passages assert cost-only pricing, and the draft's single falsification test — "If the API price goes up after the IPO, the restraint was a phase" — was partly triggered six days before the draft's date. The evidence packet flagged this exact risk (unresolved #8) and the draft shipped without chasing it. Repair: one dated paragraph reporting the August 2026 hike in the draft's own terms, five tense edits, a retitled FAQ 7, and a rewritten test that's still open.
+
+**Strongest hit (FUTURE-H1/H2):** the childhood evidence chain ("using stamps to fund stamps … barely spent his father's money") and the 2023 anchor quote ("Verifying whether our hypotheses are correct … He answered it with an experiment") — nothing in the 2027 news cycle can touch either.
+
+**Highest-priority concern (FUTURE-R3):** the second funding round is narrated as resolved ("back on," "cost eleven days and no money at all," "He paid it") while every source says it merely reopened with signing "expected late August"; the 50-billion-yuan figure is attributed to Bloomberg, which printed "at least 10 billion yuan"; and no August date in the 118-points section carries a year.
+
+The review also includes a 10-item twelve-month refresh list (pricing floor, round close, prospectus harvest for birth date/stake/marital status, transcript status, first on-camera appearance, rank/net-worth, model licenses, Nvidia record, corpus stat, team departures).

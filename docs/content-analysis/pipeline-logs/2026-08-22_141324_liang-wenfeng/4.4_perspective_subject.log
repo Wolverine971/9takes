@@ -1,0 +1,15 @@
+Escapes rendered correctly and all eleven required H2 headings are present in order. Review complete.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/subject.md` (SHA verified against `context.json` and the supplied hash; no other perspective files read).
+
+**Verdict:** trust `strained`, value `high`, delight `clear_hit`, recommendation `revise`.
+
+**Blockers: 2**
+- **SUBJECT-R1** — TL;DR and critics section say he has "never published" his GPU count, placed right beside Alexandr Wang's export-control accusation. The draft's own timeline reproduces the counts he gave 36Kr in 2023 and the 10,000-A100 figure from a paper he submitted. Repair: "no audited or current count," using the transcript moderator's own "don't spread … card quantities" warning as the honest evidence.
+- **SUBJECT-R2** — The "fifth point" quotes "what has the greatest return for me to do at this moment?" as a possible money-driven motive shift and omits the very next clause in the cited translation, where "return" is his reason for choosing AGI *over* products. Quote distortion by context, in the passage the draft calls its most honest.
+
+**Strongest hit:** the "Concede the core of it" paragraph through "Both can be true of the same lab" — the critics get the first word, the $5.6M one-run caveat is stated exactly, and the Amodei line balances it without laundering anything.
+
+**Highest-priority concern (SUBJECT-C2):** the funding pause is framed three times as the price of candor ("He paid it"; "froze his own funding round rather than soften a transcript"), and that framing is the Type 5-vs-9 discriminator. Bloomberg's only reported reason is "Liang's frustration over online reports"; nobody asked him to soften anything. Close behind: SUBJECT-C1 ("Those facts hold" folds the purported "non-compliant cards" line into fact, and "most aggressive accumulator in China" overreaches against his own "order of magnitude less than internet giants").
+
+Research: two external fetches (Fred Gao translation, Fortune/Bloomberg July 25), both logged with the decisions they affected; the "one piece … the piece I'm best at" quote and the ByteDance/watermelons example checked out as faithful.

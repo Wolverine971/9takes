@@ -1,0 +1,23 @@
+Nothing further is needed; all steps are complete and verified. Here's the recap.
+
+## Editor pass: Liang Wenfeng (perspective-jury mode)
+
+**Polished:** `src/blog/people/drafts/Liang-Wenfeng.md` (frozen SHA `90cbfd2f…` confirmed before editing; `lastmod` untouched).
+
+**The big repair (P0-01).** The draft's own falsification test had already fired: DeepSeek raised API prices on August 16, 2026, six days before the draft date, while the page said "priced to cost… and no more" in six places and named "a post-IPO price hike" as the disconfirmer. Every pricing line is now dated/attributed, and a new paragraph carries the August 6 warning, the August 16 peak/off-peak billing (cited to DeepSeek's own August 13 note), and the concrete move: V4-Pro output $0.87 → $1.98 off-peak / $3.96 peak. The test is re-specified from *whether* to *why*: a post-listing rise that capacity can't explain would change the call.
+
+**Research closed, both questions:**
+- **RQ-01** (did the floor rise?): Wayback is unreachable from this environment, so I settled it by convergence. Engadget, the-decoder/InfoWorld, and aipricing.guru's own analysis agree the floor rose ~2.3×. The jury split because trackers list undiscounted *list* rates while developers had been paying a 75% launch discount made permanent May 31. Old rates are now printed with that resolved.
+- **RQ-02** (Chinese original of "non-compliant cards"): 不合规的卡, export-control sense → P0-05 relabel/reorder, not a cut.
+
+**Other P0s fixed:** "never published" GPU count narrowed to post-2022; "greatest return" restored with its products-vs-AGI continuation and the real counterevidence (#117, 20-billion wish, two rounds); Bloomberg's "frustration" reason for the pause stated once, "He paid it" and "rather than soften" gone; concession paragraph reordered so "Those facts hold" binds only to verified costs; 50 billion yuan attributed to Chinese media with a dollar gloss.
+
+**All 12 P1s applied** (V3 license, six designated speakers, inner-thought on a call, Luo/Wang disclosures, Spring Festival + arch, Type 6 replaces Type 1, distillation allegation, crash cause, romanized outlets, as-of sweep, etc.) plus P2-01.
+
+**Exit checks:** lint 0 fail / 2 warn (the only comparative contrast is inside Liang's own quote; body 4,496/4,500 words, cut from a peak of 5,112 after the additions); quality report 0 strong contrast pairs; source audit 10/10 inline; similarity max 0.087; all 16 PROTECT hits verified present.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/editor-resolution.md` (full log, protected-hits check, unresolved decisions). Not claiming the perspective gate passed; `/blog_perspective_verify_people` does that.
+
+**Left for DJ (one decision):** `meta_title` "Won't Take More" / `persona_title` "The Quant Who Takes Less" stand by default, but since the price floor literally rose, you may want to hedge them (e.g., "Who Took Less"). The body now argues the rationing reading either way.
+
+**Readiness:** production-ready pending the verify pass and your title call. The next refresh must cut before adding; four words of headroom remain.

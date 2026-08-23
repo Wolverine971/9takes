@@ -1,0 +1,15 @@
+Verified: frontmatter parses, counts match the Red flags section (1 blocker, 7 concerns), all eleven H2 headings present in order. Other jurors' files have since appeared in the directory; per the independence contract I did not open any of them.
+
+## Report
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/fan.md` (SHA of `draft-reviewed.md` confirmed = `90cbfd2f…8bf728`)
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **revise**
+
+**Blockers:** 1
+
+**Strongest hit (FAN-H1):** "A quant fund exists to find mispriced things and take the difference. Liang got rich doing exactly that. Then he built the most mispriced asset in his industry… and walked away from the difference." Passes the fan delight test outright — known facts, never connected that way. Close second: the 2021 High-Flyer apology letter ("the machine reached for more, and the firm said sorry") read as DeepSeek's origin story.
+
+**Highest-priority finding (FAN-R1, blocker):** DeepSeek raised API prices on **August 16, 2026** — six days before this draft's date and before any IPO — to peak/off-peak billing. DeepSeek's own pricing page now shows V4-Pro output at $1.98 off-peak / $3.96 peak (press: prior flat rate $0.87), peak hours = Beijing working hours, stated reason "to allocate resources more reasonably." The draft's description, TL;DR, key-stat box, #91–93, FAQ, and ending all state the ten-month-payback pricing in the present tense, and the signature section ends on "If the API price goes up after the IPO, the restraint was a phase." The test the draft proposed has already fired, in a form that doesn't settle the question (congestion rationing is a resource-guarding move; an off-peak rate above 2× the old price is the "doubling" he said he wouldn't do). Repair is one dated paragraph plus tense edits; the thesis survives and likely sharpens.
+
+**Top concerns:** "never published the GPU count" contradicted by his own Fire-Flyer paper and the draft's timeline (FAN-R2); blanket "all MIT" wrong for original V3 (FAN-R3); football afternoon omits Spring Festival and the village's welcome arch, so "the one place the number did not follow" inverts the reporting (FAN-R4); missing the verified Sept 2025 V3.2 price cut that would carry the price story without the purported transcript (FAN-R7).

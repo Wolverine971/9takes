@@ -1,0 +1,15 @@
+Packet written and validated; nothing further to request. Wrapping up.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/evidence-packet.md` (frontmatter parses, all ten required H2s present, subject and SHA match `context.json`; `draft-reviewed.md` untouched).
+
+**What's in it:** 56 inventoried draft claims, 47 ledgered sources, and a timeline from the 2002 吴川报 gaokao record through the 2026-08-13 V4-Pro GA. The 36Kr quotes, named-teacher testimony (verified in Chinese), the Luo Yonghao and Yan Junjie anecdotes, the $589B Nvidia day, the V3 paper's one-run caveat, the 545% margin post, the 2021 apology letter's AI-risk sentence, and the Xi-symposium speaker list all check out. Every transcript line is labeled purported, with both translations (Fred Gao, Tencent/China Academy 118-point edit) cross-referenced by point number.
+
+**Discrepancies the evaluators should know about (all recorded, none resolved by me):**
+- The draft puts "50 billion yuan" inside a Bloomberg-sourced sentence; Bloomberg printed "at least 10 billion yuan." The 50B figure is Chinese-media via TechNode/BigGo.
+- "V3, R1, V4 all MIT" is imprecise: original V3 weights were under the DeepSeek Model License; MIT arrived with V3-0324.
+- "Never published the number of cards" is contradicted by his own 2023 count and the Fire-Flyer paper.
+- The Xi-symposium seating ("far end of the table with Jack Ma") is a footage reading; CNN places Ma in the front row.
+- The Yan Junjie dinner has no date in its source; "early 2023" is inferred.
+- The draft's "no genuine video exists" claim is well supported: the YouTube "recordings" self-disclose as AI TTS and the "exclusive interview" captions open as a two-host AI narration.
+
+**Largest unresolved evidence gap:** the authenticity of the May 20, 2026 transcript itself. The title phrase, the signature "118 points" section, the pricing scene, the team-stability fear beat, and the curiosity-vs-greatest-return anomaly all rest on a speaker-unlabeled ASR document that DeepSeek has neither confirmed nor denied, vouched for only by one anonymous investing institution via NBD. A close second: the draft's own falsification test (a post-IPO price hike) may already be partly answerable — August 2026 trade headlines reference DeepSeek API price-hike signals, which I did not verify and flagged for the evaluators.

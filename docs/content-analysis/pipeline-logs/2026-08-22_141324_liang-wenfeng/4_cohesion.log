@@ -1,0 +1,45 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Liang-Wenfeng.md`
+
+**Before score: 7.5/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Liang Wenfeng is a Type 5 quant who built the most mispriced asset in his industry and walked away from the difference, because for a Five every appetite is a leak and restraint is how the one thing he wants, verifying a hypothesis, gets protected.
+
+### Scores
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 8 | 9 |
+| Promise-Delivery Match | 8 | 8 |
+| Reader Mental Model | 7 | 9 |
+| Section Transitions | 6 | 8 |
+| Internal Paragraph Flow | 8 | 8 |
+
+The through-line was already solid (the diagnosis plants "half the puzzle," the 118-points section pays it off, the ending loops back to the quant). Every problem was at a seam.
+
+### Changes Made (17 total)
+
+**Transition fixes (8):**
+- Diagnosis → Childhood: closing now reads "It can wait. The first half starts with the stamp album," so the intro's stamp-album promise gets an explicit handoff instead of being interrupted by 500 words of type argument.
+- Chengdu → Chips: "The lab it announced sixteen months later already had the hardware to run on" motivates the rewind from 2023 back to the 2015 GPU timeline.
+- Chips → Catfish: opens "Less than a year old, in May 2024," carrying the founding date forward.
+- Inside Catfish: "The skeptics arrived just as fast" pointed at nothing (the previous paragraph was the Xi symposium). Now "Others had plenty to say about him," carrying "said nothing" forward.
+- Catfish → 118 points: opens "What the investors heard," picking up "The investors heard it" from the prior close. The dangling "read with the caveat above" (2,500 words after the caveat) now states it: "DeepSeek has not confirmed the document."
+- 118 points / Rabbit Hole → Personal life: this was the one broken seam, a cold jump from "if the price goes up after the IPO, the restraint was a phase" to "No video interview exists." Now "Until then, the record to test him against is thin," which also explains *why* the personal-life section exists.
+- Personal life: Zihan Wang's quote now says what it explains ("for the restraint").
+- Ending: the final H2 is titled "The watermelons behind Liang Wenfeng" but the body never said the word. Now "the watermelon behind all of it" names the hypothesis as the watermelon, resolving the title.
+
+**Trims (9, all restatements, to stay under the 4,500-word ceiling):** the bridges pushed the body to 4,550 (lint FAIL). Cut the duplicate lab-announcement sentence, the diagnosis GPU count the timeline repeats in full, "Liang was not among the six who spoke" (redundant beside "said nothing"), the gap-with-America lines re-summarized at the July leak, "The figures are Bloomberg's," the hiring-doctrine qualifier, Zihan Wang's Northwestern credential, and the subtype's "decade without a single video interview." **Body is now 4,490 words, lint 0 fail.**
+
+### What Was Preserved
+- All frontmatter, ledgers, Svelte/HTML components, internal links, `lastmod`
+- Source audit unchanged: 10 load-bearing quotes, 10 inline, 0 vague
+- No em-dashes or banned phrases introduced
+- Untouched seams: cold open → leak → puzzle; Childhood → "Then he disappeared" → Chengdu; everything inside the 118-points section; Rabbit Hole internals
+- A `COHESION CHECK NOTES (2026-08-22)` comment block was appended alongside the fresh-eyes and second-pass notes
+
+### Remaining Concerns
+- **Promise-delivery, template-bound:** the intro ends "The explanation starts with a stamp album" but the diagnosis section, not the childhood, comes next. The people template mandates that order; the new diagnosis close carries the handoff, but it's still a deferred payoff. Your call whether that intro line should instead point at the diagnosis.
+- **Ten words of headroom** under the 4,500 ceiling. The next refresh must cut before it adds.
+- The pre-existing comparative-contrast WARN is inside Liang's own 2024 quote and was deliberately left alone in the second pass.
