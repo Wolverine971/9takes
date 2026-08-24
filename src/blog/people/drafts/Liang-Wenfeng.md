@@ -4,12 +4,12 @@ meta_title: "Why Liang Wenfeng Won't Take More: DeepSeek's Type 5 Founder"
 persona_title: 'The Quant Who Takes Less'
 description: "Why did 2026's richest AI founder price DeepSeek to a ten-month payback and call restraint a strategy? Liang Wenfeng's Enneagram Type 5 pattern, decoded."
 author: 'DJ Wayne'
-date: '2026-08-22'
+date: '2026-08-24'
 loc: 'https://9takes.com/personality-analysis/liang-wenfeng'
-lastmod: '2026-08-22'
+lastmod: '2026-08-24'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['techie', 'entrepreneur', 'frontier-builder']
 person: 'Liang-Wenfeng'
@@ -123,6 +123,24 @@ production_pretext:
     - image_check
   blockers: []
 path: src/blog/people/drafts/Liang-Wenfeng.md
+content_quality:
+  hook: 8.5
+  enneagram: 8.5
+  evidence: 9
+  writing: 8.5
+  originality: 9
+  discoverability: 9
+  overall: 8.8
+  first_overall: 8.9
+  regrade_overall: 8.8
+  grade_stability_delta: 0.1
+  letter: B+
+  rubric_version: 2
+  caps_applied: []
+  confidence: high
+  anchor: 'Matt-Smith draft (2026-06-28) — clears it on evidence, critic pressure, and formula cleanliness'
+  needs_review: false
+  graded_at: '2026-08-24'
 ---
 
 <!-- TESTIMONY LEDGER
@@ -348,7 +366,7 @@ Under stress a Five slides toward 7: expansion, acquisition, more options. The p
 
 ### Counterarguments: Why Liang Wenfeng Might Not Be Type 5
 
-The serious rival is Type 9. "We have no organization," consensus-based authority, "unwilling to become adversaries with any internet giant": every phrase is a Nine's. The difference is what happens at the point of conflict. A Nine smooths it; Liang ignores it. He detonated a price war in 2024, told the premier in January 2025 that his policy was the bottleneck, and let a leaked transcript stand in July 2026 without retracting a line. Type 6 is the rival this page's own vocabulary invites: "insurance," backers selected for "the least hostility," cards bought before the ban. A Six builds security out of alliances; Liang builds it out of self-sufficiency: he declined the friend whose company became DJI, listed one university, took no outside equity until 2026, and the 2024 interview carries no threat language ("moats created by closed source are temporary"). Type 3 fails on image: mistaken for an assistant, no video, no PR, unfinished products he calls a culture. Type 1 fails on tolerance; a One could not call innovation "inherently expensive and inefficient, often accompanied by waste." Among the 74 tech founders and executives on 9takes, 16 type as Fives, well above the corpus-wide share, though Threes, at 19, remain the largest group ([corpus stats](/corpus-stats)); the room does not settle his case. Without the purported transcript, the call still stands on the verified 2023 and 2024 record: curiosity, "verifying whether our hypotheses are correct," no KPIs, the piano, the open weights. The honest anomaly, curiosity in 2023 against "greatest return" in 2026, and the falsifier, a post-listing rise that capacity cannot explain, are both argued in the body above.
+The serious rival is Type 9. "We have no organization," consensus-based authority, "unwilling to become adversaries with any internet giant": every phrase is a Nine's. The difference is what happens at the point of conflict. A Nine smooths it; Liang ignores it. He detonated a price war in 2024, told the premier in January 2025 that his policy was the bottleneck, and let a leaked transcript stand in July 2026 without retracting a line. Type 6 is the rival this page's own vocabulary invites: "insurance," backers selected for "the least hostility," cards bought before the ban. A Six builds security out of alliances; Liang builds it out of self-sufficiency: he declined the friend whose company became DJI, listed one university, took no outside equity until 2026, and the 2024 interview carries no threat language ("moats created by closed source are temporary"). Type 3 fails on image: mistaken for an assistant, no video, no PR, unfinished products he calls a culture. Type 1 fails on tolerance; a One could not call innovation "inherently expensive and inefficient, often accompanied by waste." Type 5 remains over-represented among the site's tech founders and executives, while Type 3 remains the largest group ([corpus stats](/corpus-stats)); the room does not settle his case. Without the purported transcript, the call still stands on the verified 2023 and 2024 record: curiosity, "verifying whether our hypotheses are correct," no KPIs, the piano, the open weights. The honest anomaly, curiosity in 2023 against "greatest return" in 2026, and the falsifier, a post-listing rise that capacity cannot explain, are both argued in the body above.
 
 </div>
 </details>

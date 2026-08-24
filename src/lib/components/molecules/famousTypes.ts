@@ -294,6 +294,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'larry-page', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Silicon Valley\'s Quiet Systems Architect', contentGrade: 9, types: ['techie', 'entrepreneur', 'business-operator'] },
 		{ name: 'leonardo-da-vinci', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'History\'s Insatiable Observer', contentGrade: 8.6, types: ['historical', 'historical-scientist'] },
 		{ name: 'lex-fridman', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Podcasting\'s Holy Fool', contentGrade: 8.6, types: ['creator', 'techie', 'podcaster', 'tech-interpreter'] },
+		{ name: 'liang-wenfeng', link: true, hasImage: true, lastmod: '2026-08-24', personaTitle: 'The Quant Who Takes Less', contentGrade: 8.8, types: ['techie', 'entrepreneur', 'frontier-builder'] },
 		{ name: 'malcolm-gladwell', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'Ideas\' Silent Architect', contentGrade: 8.6, types: ['author', 'strategy-writer'] },
 		{ name: 'marc-andreessen', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Tech\'s Fortress Philosopher', contentGrade: 9, types: ['techie', 'investor'] },
 		{ name: 'marie-curie', link: false, hasImage: true, lastmod: '2026-05-04', personaTitle: 'Science\'s Patient Excavator', contentGrade: 8.9, types: ['historical', 'historical-scientist'] },

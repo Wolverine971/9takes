@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "subject": "Liang-Wenfeng",
+  "review_dir": "docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324",
+  "verification_file": "docs/content-analysis/perspective-reviews/Liang-Wenfeng/2026-08-22_141324/verification-final.md",
+  "verification_status": "pass",
+  "reviewed_snapshot_sha256": "90cbfd2f54b76bb32e5af49e38cb26a6f8f1984ea949618feb979e2efd8bf728",
+  "verified_content_sha256": "6452f44a5734e7a7ccc14dc0a3d5cfe77d85e0c9e05a107ac88107278c32e184",
+  "verified_at": "2026-08-24T18:35:07.000Z"
+}
