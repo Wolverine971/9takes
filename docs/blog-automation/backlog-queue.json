@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T06:00:00Z",
+  "lastUpdated": "2026-08-24T09:21:30Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
@@ -16,8 +16,9 @@
       "searchVolume": "high",
       "personaTitle": null,
       "addedToQueue": "2026-07-18",
-      "retryCount": 0,
-      "strategicValue": "comedy-cluster"
+      "retryCount": 2,
+      "strategicValue": "comedy-cluster",
+      "recoveryNote": "Returned to queue by nightly-blog-cron after a dead launch (no draft, no live pipeline)."
     },
     {
       "name": "ryan-holiday",
@@ -125,6 +126,23 @@
     }
   ],
   "completed": [
+    {
+      "name": "patrick-mahomes",
+      "displayName": "Patrick Mahomes",
+      "type": null,
+      "priority": 48,
+      "priorityReason": "Face of the NFL with the season starting September — publish now so index age compounds into peak fall search",
+      "estimatedTraffic": "high",
+      "searchVolume": "very-high",
+      "personaTitle": null,
+      "addedToQueue": "2026-07-18",
+      "retryCount": 0,
+      "strategicValue": "sports-icon-cluster",
+      "startedAt": "2026-08-23T06:00:00Z",
+      "completedAt": "2026-08-24T06:07:23Z",
+      "needsReview": true,
+      "recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+    },
     {
       "name": "liang-wenfeng",
       "displayName": "Liang Wenfeng",
@@ -1641,20 +1659,7 @@
       "reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
     }
   ],
-  "inProgress": {
-    "name": "patrick-mahomes",
-    "displayName": "Patrick Mahomes",
-    "type": null,
-    "priority": 48,
-    "priorityReason": "Face of the NFL with the season starting September — publish now so index age compounds into peak fall search",
-    "estimatedTraffic": "high",
-    "searchVolume": "very-high",
-    "personaTitle": null,
-    "addedToQueue": "2026-07-18",
-    "retryCount": 0,
-    "strategicValue": "sports-icon-cluster",
-    "startedAt": "2026-08-23T06:00:00Z"
-  },
+  "inProgress": null,
   "skipped": [
     {
       "name": "jynxzi",

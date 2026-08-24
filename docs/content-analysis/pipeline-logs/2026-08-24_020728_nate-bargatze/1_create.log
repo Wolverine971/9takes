@@ -1,0 +1,2 @@
+Entity-gap stage failed on the prior run (computer slept mid-response, exit=1), so no packet exists. Per the command spec I'll continue and log that limitation. Starting research.
+API Error: Your computer went to sleep mid-response. The response above may be incomplete.
