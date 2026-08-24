@@ -4,25 +4,18 @@ import { z } from 'zod';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { pageViewSchema } from '$lib/validation/analyticsSchemas';
 import { classifyPath, shouldTrackPath } from '$lib/analytics/pageAnalytics';
+import { sanitizeExternalReferrerHost } from '$lib/analytics/attribution';
 import {
 	logBestEffortTelemetryFailure,
 	runBestEffortTelemetry
 } from '$lib/server/bestEffortTelemetry';
 
 function getReferrerHost(request: Request, bodyHost: string | null | undefined): string | null {
-	const candidate = bodyHost?.trim();
-	if (candidate) {
-		return candidate.slice(0, 255);
-	}
-
-	const referer = request.headers.get('referer');
-	if (!referer) return null;
-
-	try {
-		return new URL(referer).host.slice(0, 255);
-	} catch {
-		return null;
-	}
+	// The request Referer points to the first-party page that called this same-origin
+	// endpoint. Treating it as acquisition attribution created the 9takes.com
+	// self-referral spike. Only accept the browser's actual document.referrer,
+	// supplied in the validated body, and discard first-party hosts.
+	return sanitizeExternalReferrerHost(bodyHost, new URL(request.url).host);
 }
 
 export const POST = withApiLogging(async (event) => {

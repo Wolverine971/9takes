@@ -25,6 +25,7 @@ type TypeSelectedInput = SharedMarketingContext & {
 	questionId?: number;
 	questionUrl?: string;
 	postContribution?: boolean;
+	persistence?: 'profile' | 'take' | 'browser' | 'failed';
 };
 
 function sharedProperties(input: SharedMarketingContext): Record<string, unknown> {
@@ -78,6 +79,7 @@ export function captureTypeSelected(input: TypeSelectedInput): Promise<void> {
 		properties.question_id = input.questionId;
 	}
 	if (input.questionUrl?.trim()) properties.question_url = input.questionUrl.trim();
+	if (input.persistence) properties.persistence = input.persistence;
 
 	return capture('type_selected', properties);
 }

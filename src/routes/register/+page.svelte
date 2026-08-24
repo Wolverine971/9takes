@@ -21,6 +21,10 @@
 		renderRecaptchaWidget
 	} from '$lib/utils/recaptchaClient';
 	import type { PageData } from './$types';
+	import {
+		clearStoredEnneagramType,
+		readStoredEnneagramType
+	} from '$lib/enneagram/selfReportedType';
 
 	let { data }: { data: PageData } = $props();
 
@@ -67,6 +71,9 @@
 	}
 
 	onMount(() => {
+		const storedType = readStoredEnneagramType();
+		if (!enneagram && storedType) enneagram = String(storedType);
+
 		syncRecaptchaTheme();
 		const observer = new MutationObserver(() => {
 			syncRecaptchaTheme();
@@ -100,6 +107,7 @@
 			result: { type: string; data?: { error?: string; captchaRequired?: boolean } };
 		}) => {
 			if (result.type === 'success') {
+				clearStoredEnneagramType();
 				notifications.success('Account created! Please check your email.', 6000);
 				// Keep loading=true during navigation
 				await goto(resolve('/login'));

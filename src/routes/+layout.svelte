@@ -24,7 +24,10 @@
 		normalizePath,
 		shouldTrackPath
 	} from '$lib/analytics/pageAnalytics';
-	import { extractPageViewAttribution } from '$lib/analytics/attribution';
+	import {
+		extractExternalReferrerHost,
+		extractPageViewAttribution
+	} from '$lib/analytics/attribution';
 	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import {
 		beginUserIdentityResolution,
@@ -189,12 +192,8 @@
 	}
 
 	function getReferrerHost(): string | null {
-		if (!browser || !document.referrer) return null;
-		try {
-			return new URL(document.referrer).host;
-		} catch {
-			return null;
-		}
+		if (!browser) return null;
+		return extractExternalReferrerHost(document.referrer, window.location.host);
 	}
 
 	function getEngagedDelta(now: number, allowHidden = false): number {

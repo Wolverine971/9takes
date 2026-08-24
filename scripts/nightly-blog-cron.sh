@@ -25,6 +25,18 @@
 
 set -uo pipefail
 
+# Keep macOS awake while the unattended pipeline is running. `caffeinate` exits
+# when this script exits, so the sleep-prevention assertion is scoped to the job.
+if [[ "${NIGHTLY_BLOG_CAFFEINATED:-0}" != "1" && "${1:-}" != "--dry-run" ]]; then
+	if [[ ! -x /usr/bin/caffeinate ]]; then
+		echo "ERROR: /usr/bin/caffeinate is unavailable; refusing to start an unprotected nightly run." >&2
+		exit 1
+	fi
+
+	export NIGHTLY_BLOG_CAFFEINATED=1
+	exec /usr/bin/caffeinate -i "$0" "$@"
+fi
+
 REPO="/Users/djwayne/9takes"
 QUEUE="$REPO/docs/blog-automation/backlog-queue.json"
 OVERRIDE="$REPO/docs/blog-automation/override.json"

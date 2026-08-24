@@ -3,7 +3,6 @@ import { supabase } from '$lib/supabase';
 
 import type { Actions, PageServerLoad, RequestEvent } from './$types';
 import { error, fail } from '@sveltejs/kit';
-import { safelyExitWelcomeSequenceForCommentCreation } from '$lib/server/welcomeSequenceGuards';
 import {
 	logBestEffortTelemetryFailure,
 	runBestEffortTelemetry
@@ -301,16 +300,6 @@ async function createQuestionComment(event: RequestEvent) {
 			eventType: 'contribution',
 			questionId: Number(commentInput.parent_id),
 			userId: sessionUserId
-		});
-	}
-
-	if (!demo_time && commentData.author_id) {
-		await safelyExitWelcomeSequenceForCommentCreation({
-			userId: commentData.author_id,
-			parentType: commentData.parent_type,
-			onError: (sequenceError) => {
-				console.error('Failed to exit welcome sequence after comment creation:', sequenceError);
-			}
 		});
 	}
 

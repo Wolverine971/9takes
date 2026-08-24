@@ -1,7 +1,11 @@
 // src/lib/analytics/attribution.spec.ts
 import { describe, expect, it } from 'vitest';
 
-import { extractPageViewAttribution } from './attribution';
+import {
+	extractExternalReferrerHost,
+	extractPageViewAttribution,
+	sanitizeExternalReferrerHost
+} from './attribution';
 
 describe('extractPageViewAttribution', () => {
 	it('extracts utm values and preserves the raw landing query', () => {
@@ -45,5 +49,24 @@ describe('extractPageViewAttribution', () => {
 			click_id_type: null,
 			click_id_value: null
 		});
+	});
+});
+
+describe('referrer attribution', () => {
+	it('keeps a real external referrer', () => {
+		expect(
+			extractExternalReferrerHost('https://www.google.com/search?q=enneagram', '9takes.com')
+		).toBe('www.google.com');
+	});
+
+	it.each(['9takes.com', 'www.9takes.com', 'https://9takes.com/questions'])(
+		'drops a first-party referrer (%s)',
+		(referrer) => {
+			expect(sanitizeExternalReferrerHost(referrer, 'www.9takes.com')).toBeNull();
+		}
+	);
+
+	it('drops malformed referrers', () => {
+		expect(sanitizeExternalReferrerHost('not a valid host', '9takes.com')).toBeNull();
 	});
 });

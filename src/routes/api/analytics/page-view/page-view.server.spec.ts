@@ -32,11 +32,13 @@ const validPayload = {
 
 function buildEvent({
 	payload = validPayload,
+	referer,
 	rpc = vi
 		.fn()
 		.mockResolvedValue({ data: [{ session_id: 'session-id', visit_id: 1 }], error: null })
 }: {
 	payload?: Record<string, unknown>;
+	referer?: string;
 	rpc?: ReturnType<typeof vi.fn>;
 } = {}) {
 	const waitUntil = vi.fn();
@@ -45,7 +47,10 @@ function buildEvent({
 		event: {
 			request: new Request('https://9takes.test/api/analytics/page-view', {
 				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
+				headers: {
+					'Content-Type': 'application/json',
+					...(referer ? { Referer: referer } : {})
+				},
 				body: JSON.stringify(payload)
 			}),
 			locals: {
@@ -127,6 +132,35 @@ describe('POST /api/analytics/page-view', () => {
 					message: 'TypeError: fetch failed'
 				})
 			})
+		);
+	});
+
+	it('does not fall back to the analytics request Referer', async () => {
+		const { event, rpc, waitUntil } = buildEvent({
+			payload: { ...validPayload, referrer_host: null },
+			referer: 'https://9takes.test/personality-analysis/john-doe'
+		});
+
+		await POST(event as any);
+		await waitUntil.mock.calls[0][0];
+
+		expect(rpc).toHaveBeenCalledWith(
+			'upsert_page_analytics_visit',
+			expect.objectContaining({ p_referrer_host: null })
+		);
+	});
+
+	it('drops a first-party referrer supplied in the payload', async () => {
+		const { event, rpc, waitUntil } = buildEvent({
+			payload: { ...validPayload, referrer_host: 'www.9takes.test' }
+		});
+
+		await POST(event as any);
+		await waitUntil.mock.calls[0][0];
+
+		expect(rpc).toHaveBeenCalledWith(
+			'upsert_page_analytics_visit',
+			expect.objectContaining({ p_referrer_host: null })
 		);
 	});
 });

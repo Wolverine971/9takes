@@ -27,6 +27,7 @@
 		type CommentFailureStage
 	} from '$lib/analytics/commentEvents';
 	import { observeQualifiedQuestionImpression } from '$lib/analytics/questionEvents';
+	import { getOrCreateVisitorId } from '$lib/analytics/visitorIdentity';
 	import {
 		captureEmailSignupCompleted,
 		captureRevealCompleted,
@@ -35,6 +36,7 @@
 	import { Button } from '$lib/components/atoms';
 	import VoiceRecorder from '$lib/components/molecules/VoiceRecorder.svelte';
 	import { TYPE_COLOR_MAP, formatTypeLabel } from '$lib/constants/enneagramColors';
+	import { storeEnneagramType, type EnneagramType } from '$lib/enneagram/selfReportedType';
 
 	type Take = { type: number; archetype: string; take: string; source: 'ai' | 'human' };
 	type Mirror = { reflection: string; resonantType: number; resonantArchetype: string };
@@ -78,6 +80,8 @@
 	let emailSubmitting = $state(false);
 	let honeypot = $state('');
 	let selectedType = $state<number | null>(null);
+	let typeSaveState = $state<'idle' | 'saving' | 'profile' | 'take' | 'browser' | 'failed'>('idle');
+	let typeSaveRequestId = 0;
 	const loadedAt = Date.now();
 	const enneagramTypes = [1, 2, 3, 4, 5, 6, 7, 8, 9] as const;
 
@@ -135,7 +139,8 @@
 					subjectType: 'question',
 					questionUrl,
 					take: draft.trim(),
-					sourcePath: browser ? window.location.pathname : undefined
+					sourcePath: browser ? window.location.pathname : undefined,
+					fingerprint: browser ? getOrCreateVisitorId() : undefined
 				})
 			});
 			const data = await res.json().catch(() => null);
@@ -274,8 +279,43 @@
 		}
 	}
 
-	function selectType(type: number) {
+	async function selectType(type: EnneagramType) {
+		const requestId = ++typeSaveRequestId;
 		selectedType = type;
+		typeSaveState = 'saving';
+		const savedInBrowser = storeEnneagramType(type);
+		let persistence: 'profile' | 'take' | 'browser' | 'failed' = savedInBrowser
+			? 'browser'
+			: 'failed';
+
+		try {
+			const response = await fetch('/api/nine/type', {
+				method: 'POST',
+				headers: { 'content-type': 'application/json' },
+				body: JSON.stringify({
+					enneagramType: type,
+					questionUrl,
+					fingerprint: getOrCreateVisitorId()
+				})
+			});
+			const result = (await response.json().catch(() => null)) as {
+				savedToProfile?: boolean;
+				savedToTake?: boolean;
+			} | null;
+
+			if (response.ok && result?.savedToProfile) {
+				persistence = 'profile';
+			} else if (response.ok && result?.savedToTake) {
+				persistence = 'take';
+			}
+		} catch {
+			// Browser persistence still carries the selection into registration.
+		}
+
+		if (requestId === typeSaveRequestId) {
+			typeSaveState = persistence;
+		}
+
 		void captureTypeSelected({
 			surface: 'strategic_question_reveal',
 			sourcePath: browser ? window.location.pathname : `/enneagram-corner/${blogSlug}`,
@@ -283,7 +323,8 @@
 			enneagramType: type,
 			questionId,
 			questionUrl,
-			postContribution: true
+			postContribution: true,
+			persistence
 		});
 	}
 
@@ -433,7 +474,8 @@
 							type="button"
 							class:selected={selectedType === type}
 							aria-pressed={selectedType === type}
-							onclick={() => selectType(type)}
+							disabled={typeSaveState === 'saving' && selectedType === type}
+							onclick={() => void selectType(type)}
 						>
 							{type}
 						</button>
@@ -441,7 +483,17 @@
 				</div>
 				{#if selectedType}
 					<p class="sq-type-status" role="status">
-						Saved for this visit: {formatTypeLabel(selectedType)}
+						{#if typeSaveState === 'saving'}
+							Saving {formatTypeLabel(selectedType)}…
+						{:else if typeSaveState === 'profile'}
+							Saved to your profile: {formatTypeLabel(selectedType)}
+						{:else if typeSaveState === 'take'}
+							Saved with your take: {formatTypeLabel(selectedType)}
+						{:else if typeSaveState === 'browser'}
+							Saved in this browser: {formatTypeLabel(selectedType)}
+						{:else}
+							We couldn't save this yet. Try once more.
+						{/if}
 					</p>
 				{/if}
 			</div>

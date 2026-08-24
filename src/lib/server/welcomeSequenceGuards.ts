@@ -5,15 +5,6 @@ import {
 	processSequenceEnrollmentNow
 } from './emailSequences';
 
-export type WelcomeSequenceExitReason =
-	'created_question' | 'answered_question' | 'created_comment';
-
-export function getWelcomeSequenceExitReasonForComment(
-	parentType: string
-): WelcomeSequenceExitReason {
-	return parentType === 'question' ? 'answered_question' : 'created_comment';
-}
-
 export async function safelyEnrollUserInWelcomeSequence({
 	userId,
 	email,
@@ -72,29 +63,5 @@ export async function safelyExitWelcomeSequenceForQuestionCreation({
 	} catch (error) {
 		onError?.(error);
 		return false;
-	}
-}
-
-export async function safelyExitWelcomeSequenceForCommentCreation({
-	userId,
-	parentType,
-	onError
-}: {
-	userId?: string | null;
-	parentType: string;
-	onError?: (error: unknown, exitReason: WelcomeSequenceExitReason) => void;
-}): Promise<WelcomeSequenceExitReason | null> {
-	if (!userId) {
-		return null;
-	}
-
-	const exitReason = getWelcomeSequenceExitReasonForComment(parentType);
-
-	try {
-		await exitWelcomeSequenceForUser(userId, exitReason);
-		return exitReason;
-	} catch (error) {
-		onError?.(error, exitReason);
-		return null;
 	}
 }

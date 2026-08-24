@@ -18,24 +18,14 @@ vi.mock('./emailSequences', () => ({
 }));
 
 import {
-	getWelcomeSequenceExitReasonForComment,
 	safelyEnrollUserInWelcomeSequence,
 	safelyProcessWelcomeSequenceEnrollmentNow,
-	safelyExitWelcomeSequenceForCommentCreation,
 	safelyExitWelcomeSequenceForQuestionCreation
 } from './welcomeSequenceGuards';
 
 describe('welcomeSequenceGuards', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
-	});
-
-	it('maps top-level question answers to answered_question', () => {
-		expect(getWelcomeSequenceExitReasonForComment('question')).toBe('answered_question');
-	});
-
-	it('maps reply comments to created_comment', () => {
-		expect(getWelcomeSequenceExitReasonForComment('comment')).toBe('created_comment');
 	});
 
 	it('enrolls users without throwing back into registration flow', async () => {
@@ -102,32 +92,5 @@ describe('welcomeSequenceGuards', () => {
 
 		expect(result).toBe(true);
 		expect(exitWelcomeSequenceForUserMock).toHaveBeenCalledWith('user-1', 'created_question');
-	});
-
-	it('exits question answers with answered_question and swallows failures', async () => {
-		const onError = vi.fn();
-		exitWelcomeSequenceForUserMock.mockRejectedValue(new Error('rpc failed'));
-
-		const result = await safelyExitWelcomeSequenceForCommentCreation({
-			userId: 'user-1',
-			parentType: 'question',
-			onError
-		});
-
-		expect(result).toBeNull();
-		expect(exitWelcomeSequenceForUserMock).toHaveBeenCalledWith('user-1', 'answered_question');
-		expect(onError).toHaveBeenCalledWith(expect.any(Error), 'answered_question');
-	});
-
-	it('exits reply comments with created_comment', async () => {
-		exitWelcomeSequenceForUserMock.mockResolvedValue(1);
-
-		const result = await safelyExitWelcomeSequenceForCommentCreation({
-			userId: 'user-1',
-			parentType: 'comment'
-		});
-
-		expect(result).toBe('created_comment');
-		expect(exitWelcomeSequenceForUserMock).toHaveBeenCalledWith('user-1', 'created_comment');
 	});
 });

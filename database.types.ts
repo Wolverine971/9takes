@@ -2712,6 +2712,7 @@ export type Database = {
           fingerprint: string | null
           id: number
           resonant_type: number | null
+          self_reported_type: number | null
           subject_slug: string
           subject_type: string
           take: string
@@ -2722,6 +2723,7 @@ export type Database = {
           fingerprint?: string | null
           id?: number
           resonant_type?: number | null
+          self_reported_type?: number | null
           subject_slug: string
           subject_type: string
           take: string
@@ -2732,6 +2734,7 @@ export type Database = {
           fingerprint?: string | null
           id?: number
           resonant_type?: number | null
+          self_reported_type?: number | null
           subject_slug?: string
           subject_type?: string
           take?: string

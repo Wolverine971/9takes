@@ -5,7 +5,10 @@ import type { Database } from '../../../database.types';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
-type PersonPost = Pick<FamousPersonRow, 'person' | 'enneagram' | 'lastmod' | 'date'> & {
+type PersonPost = Pick<
+	FamousPersonRow,
+	'person' | 'enneagram' | 'persona_title' | 'lastmod' | 'date'
+> & {
 	slug: string;
 };
 
@@ -15,6 +18,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Morgan Freeman',
 		enneagram: '1',
+		persona_title: "Cinema's Voice of Conscience",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'morgan-freeman'
@@ -22,6 +26,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Princess Diana',
 		enneagram: '2',
+		persona_title: "The People's Wounded Caretaker",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'princess-diana'
@@ -29,6 +34,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Taylor Swift',
 		enneagram: '3',
+		persona_title: "Pop's Strategic Alchemist",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'taylor-swift'
@@ -36,6 +42,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Lady Gaga',
 		enneagram: '4',
+		persona_title: "Pop's Avant-Garde Mother",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'lady-gaga'
@@ -43,6 +50,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Elon Musk',
 		enneagram: '5',
+		persona_title: "Technology's Apocalyptic Engineer",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'elon-musk'
@@ -50,6 +58,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Marilyn Monroe',
 		enneagram: '6',
+		persona_title: "Hollywood's Armored Icon",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'marilyn-monroe'
@@ -57,14 +66,23 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Cathie Wood',
 		enneagram: '7',
+		persona_title: "Disruption's Pulpit Pioneer",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'cathie-wood'
 	},
-	{ person: 'Rihanna', enneagram: '8', lastmod: '2026-06-01', date: '2026-06-01', slug: 'rihanna' },
+	{
+		person: 'Rihanna',
+		enneagram: '8',
+		persona_title: "Pop's Unbothered Mogul",
+		lastmod: '2026-06-01',
+		date: '2026-06-01',
+		slug: 'rihanna'
+	},
 	{
 		person: 'Barack Obama',
 		enneagram: '9',
+		persona_title: "America's Composed Colossus",
 		lastmod: '2026-06-01',
 		date: '2026-06-01',
 		slug: 'barack-obama'
@@ -72,6 +90,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Michelle Obama',
 		enneagram: '1',
+		persona_title: 'The First Lady of Controlled Fire',
 		lastmod: '2026-05-25',
 		date: '2026-05-25',
 		slug: 'michelle-obama'
@@ -79,6 +98,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Sabrina Carpenter',
 		enneagram: '3',
+		persona_title: "Pop's Winking Machine",
 		lastmod: '2026-05-25',
 		date: '2026-05-25',
 		slug: 'sabrina-carpenter'
@@ -86,6 +106,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Agatha Christie',
 		enneagram: '5',
+		persona_title: "Crime's Private Observer",
 		lastmod: '2026-05-25',
 		date: '2026-05-25',
 		slug: 'agatha-christie'
@@ -93,6 +114,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Mr Beast',
 		enneagram: '8',
+		persona_title: "The Algorithm Monk Who Can't Stop Building",
 		lastmod: '2026-05-25',
 		date: '2026-05-25',
 		slug: 'mr-beast'
@@ -100,6 +122,7 @@ const FALLBACK_POSTS: PersonPost[] = [
 	{
 		person: 'Paul Rudd',
 		enneagram: '9',
+		persona_title: "Hollywood's Perpetual Nice Guy",
 		lastmod: '2026-05-25',
 		date: '2026-05-25',
 		slug: 'paul-rudd'
@@ -117,14 +140,15 @@ function withTimeout<T>(promise: PromiseLike<T>, ms: number, label: string): Pro
 
 export const load: PageServerLoad = async ({ locals }) => {
 	const supabase = locals.supabase;
-	let personData: Pick<FamousPersonRow, 'person' | 'enneagram' | 'lastmod' | 'date'>[] | null =
+	let personData:
+		Pick<FamousPersonRow, 'person' | 'enneagram' | 'persona_title' | 'lastmod' | 'date'>[] | null =
 		null;
 
 	try {
 		const result = await withTimeout(
 			supabase
 				.from('blogs_famous_people')
-				.select('person,enneagram,lastmod,date')
+				.select('person,enneagram,persona_title,lastmod,date')
 				.eq('published', true),
 			INDEX_QUERY_TIMEOUT_MS,
 			'personality-analysis index query'

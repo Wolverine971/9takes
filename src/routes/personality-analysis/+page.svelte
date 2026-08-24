@@ -219,7 +219,7 @@
 						href={buildPersonalityAnalysisPath(person.slug)}
 						title={displayName}
 						eyebrow={`TYPE ${typeNum} · ${typeMeta?.name?.toUpperCase() ?? 'TYPE'}`}
-						description={`The ${typeMeta?.name ?? ''} leads with ${typeMeta?.read ?? ''}.`}
+						description={person.persona_title ?? ''}
 						imageSrc={person.enneagram && person.slug
 							? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 							: null}
@@ -252,13 +252,12 @@
 			<CaseGrid columns={3} compactMobile>
 				{#each data.recentlyUpdated as person (person.slug)}
 					{@const typeNum = parseInt(person.enneagram ?? '0')}
-					{@const typeMeta = typeData[typeNum - 1]}
 					{@const displayName = formatPersonalityDisplayName(person.slug)}
 					<CaseCard
 						href={buildPersonalityAnalysisPath(person.slug)}
 						title={displayName}
 						eyebrow={`TYPE ${typeNum}`}
-						description={`The ${typeMeta?.name ?? ''}.`}
+						description={person.persona_title ?? ''}
 						imageSrc={person.enneagram && person.slug
 							? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 							: null}
@@ -303,7 +302,7 @@
 			</div>
 		{/if}
 
-		{#each typeData as t}
+		{#each typeData as t (t.num)}
 			{@const typePeople = peopleForType(t.num)}
 			{#if typePeople.length > 0}
 				{@const totalForType = typeCounts[String(t.num)] ?? 0}
@@ -327,7 +326,7 @@
 								href={buildPersonalityAnalysisPath(person.slug)}
 								title={displayName}
 								eyebrow={`TYPE ${t.num}`}
-								description={`The ${t.name}.`}
+								description={person.persona_title ?? ''}
 								imageSrc={person.enneagram && person.slug
 									? buildPersonalityImagePath(person.enneagram, person.slug, 'thumbnail')
 									: null}

@@ -6,15 +6,13 @@ const {
 	mapDemoValuesMock,
 	rpcMock,
 	recordGiveFirstEventMock,
-	runBestEffortTelemetryMock,
-	safelyExitWelcomeSequenceMock
+	runBestEffortTelemetryMock
 } = vi.hoisted(() => ({
 	checkDemoTimeMock: vi.fn(),
 	mapDemoValuesMock: vi.fn((value: unknown) => value),
 	rpcMock: vi.fn(),
 	recordGiveFirstEventMock: vi.fn(),
-	runBestEffortTelemetryMock: vi.fn(),
-	safelyExitWelcomeSequenceMock: vi.fn()
+	runBestEffortTelemetryMock: vi.fn()
 }));
 
 vi.mock('$lib/supabase', () => ({
@@ -22,10 +20,6 @@ vi.mock('$lib/supabase', () => ({
 		rpc: rpcMock,
 		from: vi.fn()
 	}
-}));
-
-vi.mock('$lib/server/welcomeSequenceGuards', () => ({
-	safelyExitWelcomeSequenceForCommentCreation: safelyExitWelcomeSequenceMock
 }));
 
 vi.mock('$lib/server/giveFirstFunnel', () => ({
@@ -129,7 +123,6 @@ describe('question mutation identity binding', () => {
 		checkDemoTimeMock.mockResolvedValue(false);
 		mapDemoValuesMock.mockImplementation((value: unknown) => value);
 		recordGiveFirstEventMock.mockResolvedValue(undefined);
-		safelyExitWelcomeSequenceMock.mockResolvedValue(undefined);
 		rpcMock.mockImplementation((name: string) => {
 			if (name === 'check_comment_rate_limit') {
 				return Promise.resolve({ data: true, error: null });
@@ -193,17 +186,13 @@ describe('question mutation identity binding', () => {
 		expect(runBestEffortTelemetryMock).toHaveBeenCalledTimes(1);
 	});
 
-	it('runs registered-user lifecycle cleanup through the shared comment action', async () => {
+	it('keeps registered contributors in the welcome sequence', async () => {
 		const event = buildActionEvent(buildCommentRequest(USER_ID), USER_ID);
 
 		const result = await actions.createCommentRando(event as any);
 
 		expect(result).toEqual(expect.objectContaining({ id: 123, _analytics: expect.any(Object) }));
-		expect(safelyExitWelcomeSequenceMock).toHaveBeenCalledWith({
-			userId: USER_ID,
-			parentType: 'question',
-			onError: expect.any(Function)
-		});
+		expect(rpcMock).not.toHaveBeenCalledWith('exit_user_from_sequence', expect.anything());
 	});
 
 	it('keeps the legacy and current action names on the same implementation path', () => {
