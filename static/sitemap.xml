@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1444,7 +1444,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-08-24</lastmod>
+    <lastmod>2026-08-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -3512,6 +3512,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/simone-biles</loc>
+    <lastmod>2026-08-25</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Simone-Biles.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/sky-bri</loc>
     <lastmod>2026-04-09</lastmod>
     <image:image>
@@ -3834,7 +3841,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-08-17</lastmod>
+    <lastmod>2026-08-25</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>

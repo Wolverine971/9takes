@@ -2,7 +2,7 @@
 
 # 9takes Corpus Stats
 
-_Generated: 2026-08-25T17:41:20.253Z_
+_Generated: 2026-08-25T19:13:46.004Z_
 
 Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM-citation-optimized content MUST pull from this file — no hand-waved statistics, no fabricated percentages.
 
@@ -10,8 +10,8 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 
 ## Corpus Totals
 
-- **Published profiles:** 423
-- **Drafts in pipeline:** 138
+- **Published profiles:** 424
+- **Drafts in pipeline:** 137
 
 > All stats below are computed against **published** profiles only.
 
@@ -19,13 +19,13 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 
 | Type | Name | Count | Share |
 | ---- | ---- | ----- | ----- |
-| 1 | Reformer | 26 | 6.2% |
-| 2 | Helper | 29 | 6.9% |
-| 3 | Achiever | 74 | 17.5% |
+| 1 | Reformer | 26 | 6.1% |
+| 2 | Helper | 29 | 6.8% |
+| 3 | Achiever | 74 | 17.4% |
 | 4 | Individualist | 61 | 14.4% |
-| 5 | Investigator | 37 | 8.8% |
-| 6 | Loyalist | 45 | 10.6% |
-| 7 | Enthusiast | 60 | 14.2% |
+| 5 | Investigator | 37 | 8.7% |
+| 6 | Loyalist | 46 | 10.8% |
+| 7 | Enthusiast | 60 | 14.1% |
 | 8 | Challenger | 47 | 11.1% |
 | 9 | Peacemaker | 44 | 10.4% |
 
@@ -33,21 +33,21 @@ Verifiable numbers from the `blogs_famous_people` database. Blog writers and LLM
 
 Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points above or below the corpus-wide baseline.
 
-### [Film & TV](/personality-analysis/categories/film-tv) (n=161)
+### [Film & TV](/personality-analysis/categories/film-tv) (n=162)
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 10 | 6.2% | +0.06 pp |
-| 2 — Helper | 15 | 9.3% | +2.46 pp |
-| 3 — Achiever | 25 | 15.5% | -1.97 pp |
-| 4 — Individualist | 19 | 11.8% | -2.62 pp |
+| 1 — Reformer | 10 | 6.2% | +0.04 pp |
+| 2 — Helper | 15 | 9.3% | +2.42 pp |
+| 3 — Achiever | 25 | 15.4% | -2.02 pp |
+| 4 — Individualist | 19 | 11.7% | -2.66 pp |
 | 5 — Investigator | 5 | 3.1% | -5.64 pp |
-| 6 — Loyalist | 23 | 14.3% | +3.65 pp |
-| 7 — Enthusiast | 23 | 14.3% | +0.1 pp |
-| 8 — Challenger | 16 | 9.9% | -1.17 pp |
-| 9 — Peacemaker | 25 | 15.5% | +5.13 pp |
+| 6 — Loyalist | 24 | 14.8% | +3.97 pp |
+| 7 — Enthusiast | 23 | 14.2% | +0.05 pp |
+| 8 — Challenger | 16 | 9.9% | -1.21 pp |
+| 9 — Peacemaker | 25 | 15.4% | +5.05 pp |
 
-**Most over-represented:** Type 9 (Peacemaker) at 15.5% (+5.13 pp above baseline, n=25)
+**Most over-represented:** Type 9 (Peacemaker) at 15.4% (+5.05 pp above baseline, n=25)
 
 **Most under-represented:** Type 5 (Investigator) at 3.1% (-5.64 pp, n=5)
 
@@ -55,109 +55,109 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 3 | 3.2% | -2.96 pp |
-| 2 — Helper | 5 | 5.3% | -1.54 pp |
-| 3 — Achiever | 21 | 22.3% | +4.85 pp |
-| 4 — Individualist | 12 | 12.8% | -1.65 pp |
-| 5 — Investigator | 5 | 5.3% | -3.43 pp |
-| 6 — Loyalist | 7 | 7.4% | -3.19 pp |
-| 7 — Enthusiast | 22 | 23.4% | +9.22 pp |
-| 8 — Challenger | 12 | 12.8% | +1.65 pp |
-| 9 — Peacemaker | 7 | 7.4% | -2.96 pp |
+| 1 — Reformer | 3 | 3.2% | -2.94 pp |
+| 2 — Helper | 5 | 5.3% | -1.52 pp |
+| 3 — Achiever | 21 | 22.3% | +4.89 pp |
+| 4 — Individualist | 12 | 12.8% | -1.62 pp |
+| 5 — Investigator | 5 | 5.3% | -3.41 pp |
+| 6 — Loyalist | 7 | 7.4% | -3.4 pp |
+| 7 — Enthusiast | 22 | 23.4% | +9.25 pp |
+| 8 — Challenger | 12 | 12.8% | +1.68 pp |
+| 9 — Peacemaker | 7 | 7.4% | -2.93 pp |
 
-**Most over-represented:** Type 7 (Enthusiast) at 23.4% (+9.22 pp above baseline, n=22)
+**Most over-represented:** Type 7 (Enthusiast) at 23.4% (+9.25 pp above baseline, n=22)
 
-**Most under-represented:** Type 5 (Investigator) at 5.3% (-3.43 pp, n=5)
+**Most under-represented:** Type 5 (Investigator) at 5.3% (-3.41 pp, n=5)
 
 ### [Musicians & Artists](/personality-analysis/categories/music) (n=79)
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 0 | 0.0% | -6.15 pp |
-| 2 — Helper | 5 | 6.3% | -0.53 pp |
-| 3 — Achiever | 16 | 20.3% | +2.76 pp |
-| 4 — Individualist | 30 | 38.0% | +23.55 pp |
-| 5 — Investigator | 1 | 1.3% | -7.48 pp |
-| 6 — Loyalist | 4 | 5.1% | -5.58 pp |
-| 7 — Enthusiast | 8 | 10.1% | -4.06 pp |
-| 8 — Challenger | 7 | 8.9% | -2.25 pp |
-| 9 — Peacemaker | 8 | 10.1% | -0.28 pp |
+| 1 — Reformer | 0 | 0.0% | -6.13 pp |
+| 2 — Helper | 5 | 6.3% | -0.51 pp |
+| 3 — Achiever | 16 | 20.3% | +2.8 pp |
+| 4 — Individualist | 30 | 38.0% | +23.59 pp |
+| 5 — Investigator | 1 | 1.3% | -7.46 pp |
+| 6 — Loyalist | 4 | 5.1% | -5.79 pp |
+| 7 — Enthusiast | 8 | 10.1% | -4.02 pp |
+| 8 — Challenger | 7 | 8.9% | -2.22 pp |
+| 9 — Peacemaker | 8 | 10.1% | -0.25 pp |
 
-**Most over-represented:** Type 4 (Individualist) at 38.0% (+23.55 pp above baseline, n=30)
+**Most over-represented:** Type 4 (Individualist) at 38.0% (+23.59 pp above baseline, n=30)
 
-**Most under-represented:** Type 5 (Investigator) at 1.3% (-7.48 pp, n=1)
+**Most under-represented:** Type 5 (Investigator) at 1.3% (-7.46 pp, n=1)
 
 ### [Politics & Public Figures](/personality-analysis/categories/politics-public) (n=58)
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 7 | 12.1% | +5.92 pp |
-| 2 — Helper | 10 | 17.2% | +10.39 pp |
-| 3 — Achiever | 9 | 15.5% | -1.98 pp |
-| 4 — Individualist | 6 | 10.3% | -4.08 pp |
-| 5 — Investigator | 7 | 12.1% | +3.32 pp |
-| 6 — Loyalist | 6 | 10.3% | -0.29 pp |
-| 7 — Enthusiast | 1 | 1.7% | -12.46 pp |
-| 8 — Challenger | 7 | 12.1% | +0.96 pp |
-| 9 — Peacemaker | 5 | 8.6% | -1.78 pp |
+| 1 — Reformer | 7 | 12.1% | +5.94 pp |
+| 2 — Helper | 10 | 17.2% | +10.4 pp |
+| 3 — Achiever | 9 | 15.5% | -1.94 pp |
+| 4 — Individualist | 6 | 10.3% | -4.04 pp |
+| 5 — Investigator | 7 | 12.1% | +3.34 pp |
+| 6 — Loyalist | 6 | 10.3% | -0.5 pp |
+| 7 — Enthusiast | 1 | 1.7% | -12.43 pp |
+| 8 — Challenger | 7 | 12.1% | +0.98 pp |
+| 9 — Peacemaker | 5 | 8.6% | -1.76 pp |
 
-**Most over-represented:** Type 2 (Helper) at 17.2% (+10.39 pp above baseline, n=10)
+**Most over-represented:** Type 2 (Helper) at 17.2% (+10.4 pp above baseline, n=10)
 
-**Most under-represented:** Type 7 (Enthusiast) at 1.7% (-12.46 pp, n=1)
+**Most under-represented:** Type 7 (Enthusiast) at 1.7% (-12.43 pp, n=1)
 
 ### [Tech, Founders & Business](/personality-analysis/categories/tech-business) (n=76)
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 5 | 6.6% | +0.43 pp |
-| 2 — Helper | 1 | 1.3% | -5.54 pp |
-| 3 — Achiever | 19 | 25.0% | +7.51 pp |
-| 4 — Individualist | 4 | 5.3% | -9.16 pp |
-| 5 — Investigator | 18 | 23.7% | +14.94 pp |
-| 6 — Loyalist | 8 | 10.5% | -0.11 pp |
-| 7 — Enthusiast | 11 | 14.5% | +0.29 pp |
-| 8 — Challenger | 8 | 10.5% | -0.58 pp |
-| 9 — Peacemaker | 2 | 2.6% | -7.77 pp |
+| 1 — Reformer | 5 | 6.6% | +0.45 pp |
+| 2 — Helper | 1 | 1.3% | -5.52 pp |
+| 3 — Achiever | 19 | 25.0% | +7.55 pp |
+| 4 — Individualist | 4 | 5.3% | -9.12 pp |
+| 5 — Investigator | 18 | 23.7% | +14.96 pp |
+| 6 — Loyalist | 8 | 10.5% | -0.32 pp |
+| 7 — Enthusiast | 11 | 14.5% | +0.32 pp |
+| 8 — Challenger | 8 | 10.5% | -0.56 pp |
+| 9 — Peacemaker | 2 | 2.6% | -7.75 pp |
 
-**Most over-represented:** Type 5 (Investigator) at 23.7% (+14.94 pp above baseline, n=18)
+**Most over-represented:** Type 5 (Investigator) at 23.7% (+14.96 pp above baseline, n=18)
 
-**Most under-represented:** Type 4 (Individualist) at 5.3% (-9.16 pp, n=4)
+**Most under-represented:** Type 4 (Individualist) at 5.3% (-9.12 pp, n=4)
 
 ### [Comedians](/personality-analysis/categories/comedy) (n=32)
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 0 | 0.0% | -6.15 pp |
-| 2 — Helper | 0 | 0.0% | -6.86 pp |
-| 3 — Achiever | 3 | 9.4% | -8.12 pp |
-| 4 — Individualist | 1 | 3.1% | -11.3 pp |
-| 5 — Investigator | 0 | 0.0% | -8.75 pp |
-| 6 — Loyalist | 3 | 9.4% | -1.26 pp |
-| 7 — Enthusiast | 14 | 43.8% | +29.57 pp |
-| 8 — Challenger | 4 | 12.5% | +1.39 pp |
-| 9 — Peacemaker | 7 | 21.9% | +11.47 pp |
+| 1 — Reformer | 0 | 0.0% | -6.13 pp |
+| 2 — Helper | 0 | 0.0% | -6.84 pp |
+| 3 — Achiever | 3 | 9.4% | -8.08 pp |
+| 4 — Individualist | 1 | 3.1% | -11.26 pp |
+| 5 — Investigator | 0 | 0.0% | -8.73 pp |
+| 6 — Loyalist | 3 | 9.4% | -1.47 pp |
+| 7 — Enthusiast | 14 | 43.8% | +29.6 pp |
+| 8 — Challenger | 4 | 12.5% | +1.42 pp |
+| 9 — Peacemaker | 7 | 21.9% | +11.5 pp |
 
-**Most over-represented:** Type 7 (Enthusiast) at 43.8% (+29.57 pp above baseline, n=14)
+**Most over-represented:** Type 7 (Enthusiast) at 43.8% (+29.6 pp above baseline, n=14)
 
-**Most under-represented:** Type 4 (Individualist) at 3.1% (-11.3 pp, n=1)
+**Most under-represented:** Type 4 (Individualist) at 3.1% (-11.26 pp, n=1)
 
 ### [Authors & Thinkers](/personality-analysis/categories/authors-thinkers) (n=23)
 
 | Type | Count | Share | Δ vs baseline |
 | ---- | ----- | ----- | ------------- |
-| 1 — Reformer | 3 | 13.0% | +6.9 pp |
-| 2 — Helper | 1 | 4.3% | -2.51 pp |
-| 3 — Achiever | 0 | 0.0% | -17.49 pp |
-| 4 — Individualist | 3 | 13.0% | -1.38 pp |
-| 5 — Investigator | 8 | 34.8% | +26.04 pp |
-| 6 — Loyalist | 3 | 13.0% | +2.41 pp |
-| 7 — Enthusiast | 1 | 4.3% | -9.84 pp |
-| 8 — Challenger | 4 | 17.4% | +6.28 pp |
-| 9 — Peacemaker | 0 | 0.0% | -10.4 pp |
+| 1 — Reformer | 3 | 13.0% | +6.91 pp |
+| 2 — Helper | 1 | 4.3% | -2.49 pp |
+| 3 — Achiever | 0 | 0.0% | -17.45 pp |
+| 4 — Individualist | 3 | 13.0% | -1.34 pp |
+| 5 — Investigator | 8 | 34.8% | +26.06 pp |
+| 6 — Loyalist | 3 | 13.0% | +2.19 pp |
+| 7 — Enthusiast | 1 | 4.3% | -9.8 pp |
+| 8 — Challenger | 4 | 17.4% | +6.31 pp |
+| 9 — Peacemaker | 0 | 0.0% | -10.38 pp |
 
-**Most over-represented:** Type 5 (Investigator) at 34.8% (+26.04 pp above baseline, n=8)
+**Most over-represented:** Type 5 (Investigator) at 34.8% (+26.06 pp above baseline, n=8)
 
-**Most under-represented:** Type 3 (Achiever) at 0.0% (-17.49 pp, n=0)
+**Most under-represented:** Type 3 (Achiever) at 0.0% (-17.45 pp, n=0)
 
 ## Most Common Domains per Enneagram Type
 
@@ -166,37 +166,37 @@ Only domains with ≥ 10 profiled figures are shown. "Δ pp" = percentage points
 - **Type 3 (Achiever)** (n=74): [Film & TV](/personality-analysis/categories/film-tv) (25, 33.8%), [Creators & Internet Personalities](/personality-analysis/categories/creator-media) (21, 28.4%), [Tech, Founders & Business](/personality-analysis/categories/tech-business) (19, 25.7%)
 - **Type 4 (Individualist)** (n=61): [Musicians & Artists](/personality-analysis/categories/music) (30, 49.2%), [Film & TV](/personality-analysis/categories/film-tv) (19, 31.1%), [Creators & Internet Personalities](/personality-analysis/categories/creator-media) (12, 19.7%)
 - **Type 5 (Investigator)** (n=37): [Tech, Founders & Business](/personality-analysis/categories/tech-business) (18, 48.6%), [Authors & Thinkers](/personality-analysis/categories/authors-thinkers) (8, 21.6%), [Politics & Public Figures](/personality-analysis/categories/politics-public) (7, 18.9%)
-- **Type 6 (Loyalist)** (n=45): [Film & TV](/personality-analysis/categories/film-tv) (23, 51.1%), [Tech, Founders & Business](/personality-analysis/categories/tech-business) (8, 17.8%), [Creators & Internet Personalities](/personality-analysis/categories/creator-media) (7, 15.6%)
+- **Type 6 (Loyalist)** (n=46): [Film & TV](/personality-analysis/categories/film-tv) (24, 52.2%), [Tech, Founders & Business](/personality-analysis/categories/tech-business) (8, 17.4%), [Creators & Internet Personalities](/personality-analysis/categories/creator-media) (7, 15.2%)
 - **Type 7 (Enthusiast)** (n=60): [Film & TV](/personality-analysis/categories/film-tv) (23, 38.3%), [Creators & Internet Personalities](/personality-analysis/categories/creator-media) (22, 36.7%), [Comedians](/personality-analysis/categories/comedy) (14, 23.3%)
 - **Type 8 (Challenger)** (n=47): [Film & TV](/personality-analysis/categories/film-tv) (16, 34.0%), [Creators & Internet Personalities](/personality-analysis/categories/creator-media) (12, 25.5%), [Tech, Founders & Business](/personality-analysis/categories/tech-business) (8, 17.0%)
 - **Type 9 (Peacemaker)** (n=44): [Film & TV](/personality-analysis/categories/film-tv) (25, 56.8%), [Musicians & Artists](/personality-analysis/categories/music) (8, 18.2%), [Creators & Internet Personalities](/personality-analysis/categories/creator-media) (7, 15.9%)
 
 ## Pipeline
 
-- **In the draft / review pipeline:** 138
-- **Published in the last 30 days:** 31
-- **Published in the last 90 days:** 72
-- **Average new profiles per month (trailing 90d):** 24
+- **In the draft / review pipeline:** 137
+- **Published in the last 30 days:** 32
+- **Published in the last 90 days:** 73
+- **Average new profiles per month (trailing 90d):** 24.3
 
 ## Freshness
 
-- **Updated in last 30 days:** 32
-- **Updated in last 90 days:** 97 (22.9%)
+- **Updated in last 30 days:** 34
+- **Updated in last 90 days:** 99 (23.4%)
 - **Missing `lastmod`:** 0
 
 ## Ready-to-Cite Claims
 
 Drop these into a blog verbatim — they are pre-computed from the live corpus and are safe to quote. Re-run this generator before citing to ensure freshness.
 
-- Across 423 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 17.5% of the corpus.
-- Among 161 profiles in the Film & TV category on 9takes, Type 9 (Peacemaker) is over-represented at 15.5% — +5.13 percentage points above the corpus baseline.
-- Among 94 profiles in the Creators & Internet Personalities category on 9takes, Type 7 (Enthusiast) is over-represented at 23.4% — +9.22 percentage points above the corpus baseline.
-- Among 79 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 38.0% — +23.55 percentage points above the corpus baseline.
-- Among 58 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 17.2% — +10.39 percentage points above the corpus baseline.
-- Among 76 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.7% — +14.94 percentage points above the corpus baseline.
-- Among 32 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 43.8% — +29.57 percentage points above the corpus baseline.
-- Among 23 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 34.8% — +26.04 percentage points above the corpus baseline.
-- 138 additional profiles are in the review pipeline, with ~24 new profiles shipping per month.
+- Across 424 published personality profiles on 9takes, Enneagram types are not evenly distributed — Type 3 (Achiever) is the most common at 17.4% of the corpus.
+- Among 162 profiles in the Film & TV category on 9takes, Type 9 (Peacemaker) is over-represented at 15.4% — +5.05 percentage points above the corpus baseline.
+- Among 94 profiles in the Creators & Internet Personalities category on 9takes, Type 7 (Enthusiast) is over-represented at 23.4% — +9.25 percentage points above the corpus baseline.
+- Among 79 profiles in the Musicians & Artists category on 9takes, Type 4 (Individualist) is over-represented at 38.0% — +23.59 percentage points above the corpus baseline.
+- Among 58 profiles in the Politics & Public Figures category on 9takes, Type 2 (Helper) is over-represented at 17.2% — +10.4 percentage points above the corpus baseline.
+- Among 76 profiles in the Tech, Founders & Business category on 9takes, Type 5 (Investigator) is over-represented at 23.7% — +14.96 percentage points above the corpus baseline.
+- Among 32 profiles in the Comedians category on 9takes, Type 7 (Enthusiast) is over-represented at 43.8% — +29.6 percentage points above the corpus baseline.
+- Among 23 profiles in the Authors & Thinkers category on 9takes, Type 5 (Investigator) is over-represented at 34.8% — +26.06 percentage points above the corpus baseline.
+- 137 additional profiles are in the review pipeline, with ~24.3 new profiles shipping per month.
 
 ---
 

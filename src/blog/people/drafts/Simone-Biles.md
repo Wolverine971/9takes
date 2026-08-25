@@ -4,12 +4,12 @@ meta_title: 'Why Simone Biles Never Looked at the Ground'
 persona_title: "Gymnastics's Vigilant Sentinel"
 description: 'Simone Biles never looked at the ground. Her coach recalls seeing her get lost in the air twice in twelve years. Inside the Enneagram Type 6 pattern.'
 author: 'DJ Wayne'
-date: '2026-08-16'
+date: '2026-08-25'
 loc: 'https://9takes.com/personality-analysis/simone-biles'
-lastmod: '2026-08-16'
+lastmod: '2026-08-25'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'simone-biles'
