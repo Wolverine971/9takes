@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Dolly-Parton",
+	"review_dir": "docs/content-analysis/perspective-reviews/Dolly-Parton/2026-08-25_145153",
+	"verification_file": "docs/content-analysis/perspective-reviews/Dolly-Parton/2026-08-25_145153/verification-initial.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "c4fa39340ec8248f30a862e39b7d758b6f43d6350b726e4e43cd99f4a68d72ab",
+	"verified_content_sha256": "9e7a147009bc3a556057e3a81fc21648040430081ef818331c38ee2e7548bc39",
+	"verified_at": "2026-08-25T19:03:00.000Z"
+}

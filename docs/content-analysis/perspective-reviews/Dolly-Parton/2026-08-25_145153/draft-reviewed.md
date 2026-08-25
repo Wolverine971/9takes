@@ -4,7 +4,7 @@ meta_title: "Dolly Parton's Enneagram Type 2: Steel Under the Sparkle"
 persona_title: 'The Book Lady with an Iron Spine'
 description: "Dolly Parton turned her father's illiteracy into 325M books and grief into song. Why her generosity, boundaries, and ambition point to Enneagram Type 2."
 author: 'DJ Wayne'
-date: '2026-08-25'
+date: '2026-02-04'
 loc: 'https://9takes.com/personality-analysis/dolly-parton'
 lastmod: '2026-08-25'
 changefreq: 'monthly'
@@ -70,20 +70,24 @@ faqs:
     answer: "Elvis Presley's manager, Colonel Tom Parker, required Parton to surrender half of the song's publishing rights. She wanted Elvis to record it and cried over the decision, then kept the copyright. Whitney Houston's 1992 cover later became a global hit. The episode captures Parton's signature combination of emotional warmth and firm ownership."
     anchor: 'dolly-parton-cried-and-still-told-elvis-no'
   - question: 'Why did Dolly Parton start the Imagination Library?'
-    answer: "Parton created the Imagination Library in 1995 to honor her father, Lee Parton, who could not read or write. It began by mailing one free book a month to young children in Sevier County, Tennessee. By June 2026, the program reported more than 325 million books gifted and over 3.5 million mailed each month across five countries."
+    answer: 'Parton created the Imagination Library in 1995 to honor her father, Lee Parton, who could not read or write. It began by mailing one free book a month to young children in Sevier County, Tennessee. By June 2026, the program reported more than 325 million books gifted and over 3.5 million mailed each month across five countries.'
     anchor: 'the-book-lady-built-a-system-bigger-than-herself'
   - question: "Who was Dolly Parton's husband, Carl Dean?"
     answer: "Carl Dean was Parton's husband from 1966 until his death on March 3, 2025. He ran an asphalt-paving business and protected his privacy while supporting her public career. Their marriage lasted nearly 59 years. Parton released 'If You Hadn't Been There' after his death and said she redirected her grief into the work he had always encouraged."
     anchor: 'carl-dean-gave-the-worlds-most-public-woman-a-private-life'
 production_pretext:
-  status: published
+  status: draft
   handoff_from: blog_content_revision_pass_people
-  reviewed: true
-  ready_for_production: true
+  reviewed: false
+  ready_for_production: false
   sync_mode: full
-  requires: []
+  requires:
+    - db_sync
+    - db_verify
+    - regenerate_famous_types
+    - image_check
   blockers: []
-path: src/blog/people/drafts/Dolly-Parton.md
+path: docs/content-analysis/perspective-reviews/Dolly-Parton/2026-08-25_145153/draft-reviewed.md
 content_quality:
   hook: 9.5
   enneagram: 9
@@ -91,10 +95,7 @@ content_quality:
   writing: 9
   originality: 9
   discoverability: 9
-  overall: 9.0
-  first_overall: 9.1
-  regrade_overall: 9.0
-  grade_stability_delta: 0.1
+  overall: 9.1
   letter: A
   rubric_version: 2
   caps_applied: []
@@ -153,7 +154,7 @@ On August 25, 2026, her official accounts carried a video from her nephew Bryan 
 
 Even the goodbye had a care plan. Her family would speak once, the public would receive words chosen ahead of time, and the private facts would remain private.
 
-Miley Cyrus described that architecture better than anyone. Her godmother, she told [*Harper's Bazaar* in November 2024](https://www.harpersbazaar.com/celebrity/latest/a62921779/miley-cyrus-dolly-parton-cover-story-interview/), "lets everyone in and no one in at the same time." Millions felt personally loved by Dolly Parton. Almost none of them ever saw her without the hair, makeup, jokes, songs, and story she had selected for the room.
+Miley Cyrus described that architecture better than anyone. Her godmother, she told [_Harper's Bazaar_ in November 2024](https://www.harpersbazaar.com/celebrity/latest/a62921779/miley-cyrus-dolly-parton-cover-story-interview/), "lets everyone in and no one in at the same time." Millions felt personally loved by Dolly Parton. Almost none of them ever saw her without the hair, makeup, jokes, songs, and story she had selected for the room.
 
 That combination is the key to her personality. The warmth was genuine. So was the control.
 
@@ -307,7 +308,7 @@ The Hall kept her on the ballot. Voters inducted her.
 
 False humility would be the easy diagnosis. It can also be a form of control: refuse the honor first, establish that you never presumed to belong, then accept once everyone insists. Twos often find gratitude safer than entitlement because gratitude keeps the relationship warm.
 
-Parton's next move complicates the cynical reading. She made a rock album. *Rockstar* arrived in 2023 with a crowded guest list and the sound of someone completing the qualification after the award. She converted discomfort about receiving into more work.
+Parton's next move complicates the cynical reading. She made a rock album. _Rockstar_ arrived in 2023 with a crowded guest list and the sound of someone completing the qualification after the award. She converted discomfort about receiving into more work.
 
 She had done something similar all her life. The exaggerated "dumb blonde" jokes let her name the stereotype before anyone could use it against her. The glitter invited people to underestimate the person tracking copyrights. The self-deprecation softened authority without giving it up.
 
@@ -362,7 +363,7 @@ Six days before her death, Parton's official site announced 82 new sales certifi
 
 The [Imagination Library's June report](https://dollyparton.com/imagination_library/dolly-partons-imagination-library-celebrates-a-summer-of-milestones) put its total above 325 million books. The program was designed to continue through local partners, funding networks, and the Dollywood Foundation. Its founder's absence changes the symbol while the delivery model remains in place.
 
-Her autobiographical musical, *DOLLY: A True Original Musical*, had announced Broadway previews beginning December 7, 2026, at the St. James Theatre and an opening night on January 19, 2027, what would have been her 81st birthday. The production includes her hits, new songs, and a book she co-wrote with Maria S. Schlatter. As of the family announcement, the production had not posted a public update about its schedule.
+Her autobiographical musical, _DOLLY: A True Original Musical_, had announced Broadway previews beginning December 7, 2026, at the St. James Theatre and an opening night on January 19, 2027, what would have been her 81st birthday. The production includes her hits, new songs, and a book she co-wrote with Maria S. Schlatter. As of the family announcement, the production had not posted a public update about its schedule.
 
 That uncertainty should remain visible. A tribute can harden a life into a completed story too quickly. Parton died with work on the calendar.
 

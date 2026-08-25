@@ -42,7 +42,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'benny-blanco', link: true, hasImage: true, lastmod: '2026-07-19', personaTitle: 'Pop\'s Barefoot Therapist', contentGrade: 8.5, types: ['musician', 'creator'] },
 		{ name: 'bill-clinton', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Politics\' Devoted Shapeshifter', contentGrade: 8.8, types: ['politician', 'modern-leader'] },
 		{ name: 'brene-brown', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['author'] },
-		{ name: 'dolly-parton', link: true, hasImage: true, lastmod: '2026-02-04', personaTitle: 'Country\'s Beloved Fairy Godmother', contentGrade: 8.1, types: ['musician', 'creator', 'singer-songwriter'] },
+		{ name: 'dolly-parton', link: true, hasImage: true, lastmod: '2026-08-25', personaTitle: 'The Book Lady with an Iron Spine', contentGrade: 9, types: ['musician', 'creator', 'singer-songwriter'] },
 		{ name: 'harry-styles', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Pop\'s Emotional First Responder', contentGrade: 9.3, types: ['musician', 'pop-star'] },
 		{ name: 'henry-cavill', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Superman Who Chose His Raid Party', contentGrade: 8.3, types: ['celebrity', 'movieStar', 'screen-icon'] },
 		{ name: 'hilary-duff', link: true, hasImage: true, lastmod: '2026-04-12', personaTitle: 'America\'s Sweetest Survivor', contentGrade: 8.6, types: ['celebrity', 'musician', 'celebrity-image', 'music-crossover'] },
@@ -579,6 +579,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'sundar-pichai', link: true, hasImage: true, lastmod: '2026-02-23', personaTitle: 'Google\'s Quiet Shock Absorber', contentGrade: 8.8, types: ['techie', 'big-tech-founder'] },
 		{ name: 'travis-scott', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Hip-Hop\'s Quiet Architect', contentGrade: 9.3, types: ['musician', 'rapper'] },
 		{ name: 'victoria-justice', link: true, hasImage: true, lastmod: '2026-08-19', personaTitle: 'Hollywood\'s Reluctant Headliner', contentGrade: 8.5, types: ['celebrity', 'movieStar', 'musician'] },
-		{ name: 'zac-efron', link: false, hasImage: true, lastmod: '2026-07-02', personaTitle: 'Hollywood\'s Gentle Escape Artist', contentGrade: 8.3, types: ['movieStar', 'celebrity'] }
+		{ name: 'zac-efron', link: false, hasImage: true, lastmod: '2026-07-02', personaTitle: 'Hollywood\'s Gentle Escape Artist', contentGrade: 8.3, types: ['movieStar', 'celebrity'] },
+		{ name: 'nate-bargatze', link: false, hasImage: false, lastmod: '2026-08-25', personaTitle: 'The Magician\'s Kid', contentGrade: 8.6, types: ['comedian', 'celebrity', 'entrepreneur'] }
 	]
 };
