@@ -1,0 +1,13 @@
+All eleven required H2 headings present in order; counts match (2 blockers, 7 concerns).
+
+**Saved:** `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/enneagram.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. 2 blockers, 7 concerns. SHA verified against `context.json` and the supplied argument before reading.
+
+**Strongest hit (ENN-H3):** the ADHD concession at line 226 — *"It covers the failed year at least as well as anything on this page does."* The draft introduces a competing non-type explanation, attributes it to him, and grants it may explain the evidence better than its own thesis. That is rare in typology writing and it earns credibility for everything around it. The four-second cold open (ENN-H1) is a close second: it demonstrates the mechanism before naming it.
+
+**Highest-priority concern (ENN-R2, blocker):** the article's designated discriminator — *"The receipt that settles it is the Emmys check"* — fails twice. The packet's first-ever direct pull of the primary *Nateland* audio (S-03, ~109:13) shows "it came from a real place of heart" is immediately followed by *"everybody at home loved it"* and an unprompted John Oliver comparison, which contradicts the draft's "gently, without arguing with anyone" and its claim that he "threw away the flattering version." The packet also calls the inference contestable outright. This matters structurally: everywhere else the Nine read absorbs all evidence in both directions, so the Emmys receipt is the only place the thesis is falsifiable — and it doesn't hold as written.
+
+The other blocker (ENN-R1) is cheaper to fix and worth flagging to whoever edits: line 172 states the Type 9 core fear as *"being the thing the room is looking at, judged directly"* — but 9takes' own Type 9 page, hyperlinked in that same sentence, states it as **"Loss, fragmentation, separation"** (`src/blog/enneagram/enneagram-type-9.md:86`). The error sits inside a claim that everyone else has the mechanism backwards, and the substituted exposure-fear quietly makes the draft's strongest *Type 3* evidence read as Nine evidence. The repair pays for itself: adding the gut/anger center gives the closer at line 375 the mechanism it currently lacks.
+
+Both blockers are desk-fixable with the packet and the site's own type page — no new research needed, which is why this is `revise` rather than `hold_for_research`.

@@ -1,0 +1,23 @@
+YAML valid, weighted overall verified at 8.6.
+
+## Grading Complete — Nate Bargatze
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nate-Bargatze | 8 | 9 | 9 | 9 | 8 | 9 | 8.6 | B+ |
+
+*(Weighted: `(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5/7 = 8.6`. Discoverability 9 ≥ 7, so no gate. No caps applied.)*
+
+### Key observations
+
+**Deterministic checks all clean.** 0 contrast pairs, head-term PASS, answer block 51 words, no corpus-count drift, same-type similarity CLEAR (max 0.098 vs threshold 0.04). Body ~3,865 words, under the ceiling. meta_title 56 chars, description 152 — both in band.
+
+**What earns the B+.** The Emmys section is real structural invention, not template — a running-balance scene autopsy that would collapse on any other subject. It produces the signature insight: *"a machine in which other people's self-indulgence visibly takes money from children, and it never once points at him."* The magician's-kid → misdirection thesis passes the swap test harder than anything graded this month, and the two-album-titles find (*Yelled at by a Clown*, *Full Time Magic*) is a genuine discovery. Critic pressure is faced at full strength rather than sanitized, including the AV Club charge that the cleanness *is* the defect. The rabbit hole is the best in the corpus — it argues the losing wing case first, flags its own confidence levels, gives a falsifiability condition, and admits what no type explains.
+
+**The one thing holding it out of A range is provenance, not prose.** The source audit's single "untagged" flag is a false positive (`"Washington's Dream"` is a sketch title), and all three "vague" slots resolve fine in the body. The real problem is that four load-bearing quotes across three clusters rest on mirrors, aggregators, or snippets — most seriously Stephen Bargatze's *"He just didn't show up,"* which carries the TL;DR bullet, FAQ 3, and the whole flunking section, and was read through a scraped Atlantic mirror. RQ-02 is still open by the draft's own admission. Closing that plus the UPtv and THR clusters moves Evidence 8→9 and the overall to **9.2**.
+
+Two notes on your known traps: the tollbit HTTP 402 on the THR cover story is the same paywall issue logged before — Yahoo/AOL syndication should carry the full text. And the closing line was already changed off the negative-existential shape after a prior grader flagged it against Jonathan-Bailey, so that fingerprint is fixed.
+
+Written to `src/blog/people/drafts/Nate-Bargatze.md` (frontmatter) and `docs/content-analysis/grades/Nate-Bargatze.review.md` (sidecar).
+
+**Total graded this session: 1**

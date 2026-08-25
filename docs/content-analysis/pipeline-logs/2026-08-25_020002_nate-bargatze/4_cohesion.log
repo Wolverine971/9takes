@@ -1,0 +1,55 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Nate-Bargatze.md`
+
+**Before score: 7/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Nate Bargatze learned his father's trade — pointing a room's attention at the hand where nothing is happening — and has spent twenty-four years running it on himself, which is why a man who insists his point does not matter is quietly financing a $350 million park alone.
+
+### Thread Map
+
+| Section | Contribution | Link to thesis |
+|---|---|---|
+| Cold open (19,365 tickets) | Demonstrates the move in four seconds before naming it | The whole argument, pre-argued |
+| H2 1 — Personality type | Names the Nine mechanism, pressure-tests Type 3 | The diagnosis the rest is evidence for |
+| H2 2 — Childhood | Where the misdirection was learned | Origin of the mechanism |
+| H2 3 — Flunked bowling | The stall as cost, with his ADHD account as competitor | The mechanism's downside |
+| H2 4 — Emmys scoreboard | $250K spent to stop a room feeling awkward | The mechanism under live pressure |
+| H2 5 — Breadwinner | Critics name the cleanness itself as the defect | The mechanism as career-limiting |
+| H2 6 — Theme park | Ambition admitted and covered inside one answer | The mechanism concealing scale |
+| H2 7 — The Trick | Names it outright and closes on Opryland | Thesis stated |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 7/10 | 8/10 |
+| Reader Mental Model | 6/10 | 9/10 |
+| Section Transitions | 5/10 | 8/10 |
+| Internal Paragraph Flow | 8/10 | 9/10 |
+
+### Changes Made (20 edits)
+
+**Transition fixes (4)** — the piece's real weakness was section seams, not thread:
+- **Flunked-out → Emmys** was the worst break: a 15-year jump from LA development hell to a CBS broadcast with nothing between. Added *"Then the industry that had never let him in handed him its biggest room."* — carries "let him in" directly out of *"Nobody let him in the building."*
+- **Breadwinner → theme park** was a hard topic switch made worse by the Rabbit Hole sitting between them. Added *"The movie was ninety minutes. The next thing is a hundred acres."*
+- **Diagnosis → childhood** had no stated logical step. Added *"He learned that position standing in his father's act."*
+- **Burr paragraph** arrived with no stated relation to the concealment paragraph above it. Added *"It works on his peers."*
+
+**Reader mental-model fixes (3):**
+- *"headlined Bridgestone **and felt nothing**"* asserted a fact never given to the reader. Replaced with *"nineteen years and 365 days in,"* which closes the loop on the cold open instead.
+- *"Take **them** seriously first"* — nearest antecedent was the CinemaScore audience, not the critics. Now names them.
+- *"sold it three times under one name"* / *"sold three separate ways"* both resolve to only two artifacts. Both now say twice.
+
+**Orphaned threads (2):** the A− is promised in the H2 and never picked up — tied it to the Deseret quote that already carries the audience's side. The clean-act origin was told in full twice, 50 lines apart; the second telling is now a backward reference.
+
+**Trims paying for the bridges (11):** "in fairness," "He tried to learn magic and failed," "Nate is now 47" (age already in the intro), "ten-year" (redundant with "Through the 2010s" *and* "A decade" in the same paragraph), "without a pause between them" (redundant with "Then, immediately" two lines up), two of four "twenty-four years," etc.
+
+### Verification
+`blog-lint`: **0 fail** (2 pre-existing warns: missing `faqs`, thin word headroom). Contrast engines still 0 strong / 0 comparative. Same-type similarity still clear (max 0.053, threshold 0.04). Body 4,486 → **4,490 words** — every bridge was paid for with a trim.
+
+### Remaining concerns (your call, all cost words the 4,500 ceiling doesn't have)
+1. **The game show never gets a beat.** A man whose thesis is averageness built a competition where the prize *is* the statistical average ($67,920). It's still one intro clause. Most on-the-nose artifact in the piece, structurally underused — fresh-eyes flagged this too.
+2. **The A− is connected now but still uncharacterized.** No reader is ever put behind that grade, and "why is nate bargatze so popular" stays untouched as a query.
+3. **"A Nashville studio" and "a branded cruise"** appear once in the intro list and never again.
+
+Logged the full pass as a `COHESION PASS (2026-08-25)` ledger comment at the foot of the file.

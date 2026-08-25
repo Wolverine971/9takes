@@ -1,0 +1,42 @@
+========================================================================
+LOAD-BEARING SOURCE AUDIT — Nate-Bargatze  (Type 9)
+src/blog/people/drafts/Nate-Bargatze.md
+========================================================================
+
+### EPIGRAPH
+  [INLINE  ] "I ride the line, you don't know what's a bit, what's not a bit. I'm very protected. No one can really tell what's going on."
+             outlet="New York Times"  year=2025
+
+### COLD OPEN
+  [INLINE  ] "And we sold 19,365 tickets, … which is 20 years. Isn't that crazy?"
+             outlet="This Past Weekend"  year=2026  venue="podcast"
+  [INLINE  ] "If you're into, I don't know. I'm not even into numbers."
+             outlet="This Past Weekend"  year=1979
+  [UNTAGGED] "Washington's Dream,"
+             — no outlet / year / venue —  (no attribution found)
+
+### DIAGNOSIS
+  [INLINE  ] "It's not to get my point across. My point does not matter. It's for you."
+             outlet="New York Times"  year=2025
+  [UNTAGGED] "It's a big belief to be, I am second, second to God, second to your family... second to everybody."
+             — no outlet / year / venue —  (bare speech verb, no outlet/year/venue)
+  [VAGUE   ] "I am honestly blown away and as surprised as the video shows,"
+             year=2026  venue="instagram"
+  [INLINE  ] "I'm trying to ride the line here... I want to be able to sell out a theater in San Francisco one week and Mobile, Alabama, the next week."
+             outlet="The Atlantic"  year=2021  venue="interview"
+  [VAGUE   ] "masking some surprisingly bold ambition."
+             venue="interview"
+  [UNTAGGED] "people think it's going to be like a shrine to me. It's not."
+             — no outlet / year / venue —  (no attribution found)
+
+### EMPATHY TURN
+  (no quoted material in slot)
+
+### CLOSE
+  (no quoted material in slot)
+
+------------------------------------------------------------------------
+SUMMARY: 10 load-bearing quote(s) — 5 inline, 2 vague, 3 untagged
+  untagged quote in epigraph OR cold open: YES (blocks A/B+ per source standard)
+  any untagged load-bearing quote:         YES
+------------------------------------------------------------------------

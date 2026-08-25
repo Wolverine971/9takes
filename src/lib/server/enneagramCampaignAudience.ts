@@ -1,3 +1,4 @@
+// src/lib/server/enneagramCampaignAudience.ts
 import type { User } from '@supabase/supabase-js';
 
 import { normalizeEmail } from '$lib/email/suppression';
@@ -254,30 +255,40 @@ export async function loadEnneagramCampaignAudience(
 	const recentEmailCutoff = new Date(
 		now.getTime() - ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS * DAY_MS
 	).toISOString();
-	const [profiles, authUsers, unsubscribes, legacyOptOuts, sequenceEnrollments, emailSends] =
-		await Promise.all([
-			loadAllRows(
-				supabase,
-				'profiles',
-				'id, email, first_name, last_name, username, enneagram, created_at, admin'
-			),
-			loadAllAuthUsers(supabase),
-			loadAllRows(supabase, 'email_unsubscribes', 'email'),
-			loadAllRows(supabase, 'signups', 'email', (query) =>
-				query.not('unsubscribed_date', 'is', null)
-			),
-			loadAllRows(supabase, 'email_sequence_enrollments', 'user_id, status', (query) =>
-				query.in('status', [...ACTIVE_SEQUENCE_STATUSES])
-			),
-			loadAllRows(supabase, 'email_sends', 'recipient_email, sent_at', (query) =>
-				query.not('sent_at', 'is', null).gt('sent_at', recentEmailCutoff)
-			)
-		]);
+	const [
+		profiles,
+		authUsers,
+		unsubscribes,
+		legacyOptOuts,
+		recordedBounces,
+		sequenceEnrollments,
+		emailSends
+	] = await Promise.all([
+		loadAllRows(
+			supabase,
+			'profiles',
+			'id, email, first_name, last_name, username, enneagram, created_at, admin'
+		),
+		loadAllAuthUsers(supabase),
+		loadAllRows(supabase, 'email_unsubscribes', 'email'),
+		loadAllRows(supabase, 'signups', 'email', (query) =>
+			query.not('unsubscribed_date', 'is', null)
+		),
+		loadAllRows(supabase, 'email_sends', 'recipient_email', (query) =>
+			query.or('bounced_at.not.is.null,status.eq.bounced')
+		),
+		loadAllRows(supabase, 'email_sequence_enrollments', 'user_id, status', (query) =>
+			query.in('status', [...ACTIVE_SEQUENCE_STATUSES])
+		),
+		loadAllRows(supabase, 'email_sends', 'recipient_email, sent_at', (query) =>
+			query.not('sent_at', 'is', null).gt('sent_at', recentEmailCutoff)
+		)
+	]);
 
 	return buildEnneagramCampaignAudience({
 		profiles: profiles as EnneagramCampaignProfile[],
 		authUsers,
-		unsubscribes: unsubscribes as SuppressionRow[],
+		unsubscribes: [...unsubscribes, ...recordedBounces] as SuppressionRow[],
 		legacyOptOuts: legacyOptOuts as SuppressionRow[],
 		sequenceEnrollments: sequenceEnrollments as SequenceEnrollment[],
 		emailSends: emailSends as EmailSendRow[],

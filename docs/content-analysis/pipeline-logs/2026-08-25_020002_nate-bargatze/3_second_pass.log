@@ -1,0 +1,27 @@
+Second pass complete on `src/blog/people/drafts/Nate-Bargatze.md`.
+
+## Source audit (priority 1)
+
+Went from **9 quotes / 2 inline / 1 vague / 6 untagged** → **8 quotes / 8 inline / 0 vague / 0 untagged**. The blocking condition (untagged quote in epigraph or cold open) is cleared. Both Theo Von cold-open lines and the "shrine" line now carry *This Past Weekend* + 2026; "I am second" carries NYT + 2025; "ride the line here" carries The Atlantic + 2021; the Grammy line carries Instagram + Deseret News + the 2026-02-02 clip date. Two false-positive "quotes" (a special title, a label in scare quotes) were de-quoted.
+
+## Main substantive changes
+
+- **ADHD, in his own voice.** THR's September 2025 cover story — a doctor's prescription, hyper-focus on comedy, a year carrying the pills untaken, *"Because what if ADHD is my superpower?"* — now sits directly under the Nine-stall read of the flunked college year. Attributed to him, no typology built on it. This was the draft's biggest trust liability.
+- **His mother speaks, and the faith frame is established.** Carol Bargatze's "Christianiest Christians" line plus the household rules now anchor the childhood section, so "I am second, second to God" no longer arrives from nowhere. One sentence names his refusal of the Christian-comedian label.
+- **The Breadwinner stops resolving.** New find: a Deseret News piece (May 19, 2026) gets him on record about what he built the movie for. The section now ends on the asymmetry rather than a tidy verdict — he took the Emmys apart on his own podcast in eleven days; on the film the on-record account is still the pre-release one.
+- **"I didn't want you to notice that I was clean"** (same Deseret piece) went into the closing misdirection section. It's the strongest addition in the pass: the clean act stated by him as a concealment.
+- MBTI/ISTJ named and argued against; second interior beat (the Grammy under a blanket); sobriety pulled into the body next to Stephen's alcoholic mother; game show given a real beat; RT consensus quoted in full with the snapshot cited (20% / 41 critics / 4.1 avg — the June 27% snapshot was not mixed in).
+- **Trims to pay for it:** $350M down from 5 body mentions to 3, hand metaphor from 5 swings to 3, "Watch the hand move" cut, the duplicated "cannot metabolize" pair collapsed, and the three fragment-form contrast engines in the closer rewritten.
+
+## Rejected, with reasons in the notes
+
+- **Laura's business role** — independent sourcing came back content-farm tier (bollywoodshaadis, celebsfact, pudelek) plus The Knot/AOL. Not good enough to build a "real absence" beat on.
+- **The "period when he wanted to quit stand-up entirely"** — the THR headline that flagged it is about future retirement plans ("I don't want to overstay my welcome"), not a past near-quit. No source for the moment as the review described it.
+
+## Checks
+
+`blog-lint`: **0 fail, 2 warn**. Contrast-pair engines back to 0 strong (my "not a marketing position" line tripped it and was rewritten). Answer block back inside 60 words. Same-type similarity: clear.
+
+## Still open for an editor pass
+
+Body is **4,486 words against a 4,500 ceiling** — there is effectively no headroom left, so any future addition has to be paid for by a cut. The Atlantic's three quotes are still second-hand through a mirror plus search confirmation, and *Big Dumb Eyes* still hasn't been read directly. `faqs` frontmatter is still missing (enrich stage hasn't run).

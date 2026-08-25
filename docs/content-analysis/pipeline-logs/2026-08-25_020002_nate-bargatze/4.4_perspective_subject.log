@@ -1,0 +1,16 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/subject.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **`hold_for_research`** · **6 blockers, 10 concerns**
+
+`hold_for_research` rather than `revise` because two blockers can't be closed by editing — they need sources three passes have now deferred: the memoir, and a reachable copy of the 2021 Atlantic profile.
+
+**Strongest hit:** the ADHD passage and the sentence that follows it — *"It covers the failed year at least as well as anything on this page does."* A typing page that names the subject's own competing explanation and then rates it above its own has given up the thing these pieces normally protect. That clause must survive any trim.
+
+**Highest-priority concern (a blocker, SUBJECT-R2):** the article's governing image — the child in the assistant's spot who gave away his father's signature trick — carries the persona title, a TL;DR bullet, "Sit with that image," and the closing paragraph, and rests on nothing better than AI-generated book summaries. My research made it weaker, not stronger: [Kirkus](https://www.kirkusreviews.com/book-reviews/nate-bargatze/big-dumb-eyes/) recounts the memoir's father-and-grandparents material in detail and never mentions it, and the [Boston.com review](https://www.boston.com/culture/books/2025/05/07/book-review-nate-bargatze-tries-to-bring-his-comedy-from-screen-to-page-with-big-dumb-eyes/) names its favorite chapter and doesn't either. A documented adult version of the story exists and is easy to conflate with it.
+
+Two things worth flagging beyond the review itself:
+
+- **My research corrects the shared evidence packet.** Kirkus reports the book saying "his paternal grandparents were alcoholics, the grandmother 'basically what these days they'd call abusive,' unforgiving of his father's speech impediment." So CLM-07's verdict — unsupported, gender transposed — is wrong. The draft's real problem there is selection plus adjacency: it names one of two alcoholic grandparents, drops what the memoir emphasizes, and then places his 2018 sobriety directly after with "two generations down," which manufactures an inherited-alcoholism explanation for a private decision. That changes the repair entirely.
+- **A pattern under the individual errors:** five separate small numeric claims are wrong — the 19-years-365-days cold open, "four seconds," "eleven days" (ten), "nine words" (fourteen), "trust… four times" (five) — and every one is wrong in the direction that makes the sentence land better. That's what turns correctable errors into a fairness problem.
+
+Sources consulted: [Kirkus](https://www.kirkusreviews.com/book-reviews/nate-bargatze/big-dumb-eyes/), [Boston.com](https://www.boston.com/culture/books/2025/05/07/book-review-nate-bargatze-tries-to-bring-his-comedy-from-screen-to-page-with-big-dumb-eyes/), [Nashville Banner profile of Stephen Bargatze](https://nashvillebanner.com/2025/10/05/stephen-bargatze-nate-dad-comedian-magician/) (HTTP 403, no content obtained).

@@ -1,0 +1,19 @@
+{
+	"person": "nate-bargatze",
+	"draft_path": "src/blog/people/drafts/Nate-Bargatze.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/nate-bargatze.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-25_020002_nate-bargatze",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002",
+	"perspective_initial_status": "fail",
+	"perspective_final_status": "pass",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.6,
+	"final_overall": 8.6,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-25T08:56:47.945Z"
+}

@@ -1,0 +1,12 @@
+The gate parses the artifact cleanly and fails on the intended reason (not a schema error).
+
+**Output:** `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/verification-initial.md`
+**Status:** `fail` — **open_p0: 1**, **protected_hit_regressions: 0**
+
+The snapshot SHA matches on all three artifacts, and the revision is real (reader-visible hash moved to `7c8b7f9d…`). Eleven of twelve P0s hold under their acceptance tests, all twelve protected hits survive as literal strings — including the two most likely trim casualties — and `blog-lint.sh` runs 0 fail / 1 warn at 4,483 words.
+
+**The one blocker is P0-03.** Its four literal test clauses pass, but the repair introduced a superlative wider than its source: the Guinness title certifies *most tickets on a single stand-up tour*, and the draft converts that into "Nobody in the history of the form has sold more tickets doing that" — a career claim no source supports, sitting in the block that answers the page's primary query. The intro compounds it with "there is a certificate for it now" attached to "biggest stand-up comedian in America." Two clauses fix both, net zero words. This is the same defect the jury convicted the draft on in P0-11, reintroduced by the repair meant to fix it.
+
+Three non-gating items worth the same pass: P1-15's acceptance test is a grep and it fails — the TL;DR and closer both assert unhedged present-tense self-funding, and the newly added `faqs` block adds a third instance in search-visible text while RQ-03 is open. P1-13's "that interview" points at The Atlantic when the quote is Marchese's own NYT piece. And two self-checks in `editor-resolution.md` are wrong (P1-15 recorded as PASS; "faqs still missing" when the same pass added five).
+
+The deterministic gate — not this prose — decides finalization, and it currently blocks.

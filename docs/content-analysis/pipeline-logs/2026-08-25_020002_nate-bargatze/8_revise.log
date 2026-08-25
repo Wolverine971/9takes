@@ -1,0 +1,31 @@
+Revision pass complete on `src/blog/people/drafts/Nate-Bargatze.md`.
+
+## What triggered the loop
+
+Grade **B+ (8.6)** with Evidence 8 / Writing 8, plus a perspective verification **FAIL** (`verification-initial.md`: 1 open P0, 2 incomplete P1s, 0 protected-hit regressions). Lint was already 0 fail on entry, so the work list was: unresolved P0 → incomplete P1s → grader NEEDS WORK → TO REACH.
+
+## Perspective gate items
+
+- **P0-03 (the one blocking item) — fixed.** The editor pass's repair had converted a single-tour Guinness record into a career claim: *"Nobody in the history of the form has sold more tickets doing that"* (false — Dunham sold 1,981,720 on one tour). Now *"He holds the world record for tickets sold on a single stand-up tour."* I took the verifier's second option for the intro and cut *"and there is a certificate for it now"* outright, so Guinness is no longer attached to "biggest stand-up comedian in America"; the tour sentence four lines down carries the credential.
+- **P1-15 — fixed.** All three unbounded self-funding surfaces (TL;DR, closer, and the `faqs` block the editor pass added after the snapshot) now carry his own hedge or a date. The synthesis's grep test passes.
+- **P1-13 — fixed.** "that interview" → "his own 2025 interview" (one word, also dates the "bold ambition" quote).
+- **All 12 PROTECT items verified verbatim** after every edit.
+
+## Grader items
+
+Callback antecedent fixed at zero cost — the packet transcript shows the epigraph and the closing pull-quote are one continuous NYT answer, so "one more clause in it" was already true; the defect was that "answer" reads as the H2 answer block, so it's now "quote." **"Nobody" cadence: 11 body instances → 4** (seven varied; the four left are PROTECT-01 and three jury-set strings). **Closing line reshaped** off the Jonathan-Bailey echo: "Nobody is looking at that hand." → "Everyone is still watching the eyes."
+
+TO REACH 1–5 all landed: Variety named as publisher in the lede; shrine quote re-tagged to Theo Von / *This Past Weekend* / May 2026; Kirkus re-fetched at the primary, dated, rendering confirmed verbatim; Carol Bargatze's episode dated; second interior beat added at the Bridgestone arrival, anchored by his own verbatim account on the next line.
+
+## Rejected
+
+- **Dropping the "Christianiest Christians" line** (grader offered "primary audio or drop"). Dropping regresses the fresh-eyes finding that the mother was absent from the draft, and she's load-bearing for the clean-act origin. Dated instead, with the second-hand route disclosed.
+- **Retiring the Atlantic mirror-scrape caveat.** I confirmed the article independently ("The Nicest Man in Stand-Up," Tim Alberta, *The Atlantic*, Sept 2021, via Alberta's own portfolio) and put the title in the body and FAQ 3 so a fact-checker can chase it — but theatlantic.com is unreachable from here and no secondary reproduces the three quotes. **RQ-02 stays open**; three load-bearing quotes still rest on a scrape.
+
+## Verification
+
+`./scripts/blog-lint.sh Nate-Bargatze` → **0 fail, 1 warn**. Contrast engines 0 strong / 0 comparative (my cadence edit introduced one strong `[X,-not-Y]`; caught and rewritten). Same-type similarity clear. **Body 4,483 → 4,458 words** — headroom 17 → 42, every addition paid for by a named trim. `content_quality` and `lastmod` untouched.
+
+One item needs the verifier's judgment rather than my assumption: the **second interior beat**. The grader asked for it by name and location; P0-08 killed the *Grammy* one as invasive. I added it under the same test that licensed the Emmys beat — anchored, with his own words directly beneath — and wrote a cut-if-contested instruction into both the ledger and the resolution artifact.
+
+Resolution artifact written to `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/revision-resolution.md`. I did not declare the gate passed — targeted perspective verification must rerun, and the pipeline will clear the consumed review sidecar and re-grade.

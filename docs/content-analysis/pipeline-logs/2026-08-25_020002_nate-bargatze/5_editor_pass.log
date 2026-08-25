@@ -1,0 +1,31 @@
+Done.
+
+## What I polished
+
+`src/blog/people/drafts/Nate-Bargatze.md`, in perspective-jury mode against `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002` (synthesis verified against the frozen SHA `5551c59a…`, which still matched the working file).
+
+**All 12 P0 items fixed, all 15 accepted P1s applied**, plus P2-02 and P2-06.
+
+The dominant problem wasn't prose, it was that a piece arguing this man notices arithmetic had six wrong numbers and three misattributed quotes. The repairs that mattered most:
+
+- **The closer was self-refuting.** It put the park "on the ground where he watched the trick get done"; the same article says a mall is there. Now "in the city where."
+- **The cold open's showcase coincidence doesn't exist.** 19,365 tickets decomposes to 19 years + 365 days, but he started in 2002 — that's twenty-one years, and the draft says 2002 itself. Cut the arithmetic; his own "which is 20 years" now sits directly against "I'm not even into numbers," which is the actual thesis.
+- **The tour clause was wrong three ways and omitted the Guinness record** set nine days before the draft date. Five of six perspectives caught the omission independently. It's now in the intro as fact and weighed in the counterargument section.
+- **Two quotes were credited to an aggregator that never conducted an interview**, one off by a year, and the closer's load-bearing quote had "try to" silently dropped. Re-attributed to The Christian Post and NYT/Marchese; "try to" restored.
+- **The stated Type 9 core fear was wrong**, inside the sentence accusing everyone else of getting the mechanism backwards. Now matches `enneagram-type-9.md`, and naming the gut center finally gives the anger closer its engine.
+- **Two invented-interiority and never-in-his-life problems** removed: the Grammy inner-thought contradicted his own posted account two lines above it.
+
+## Numbers
+
+- Contrast pairs: **0 total (0 strong, 0 comparative)** — I introduced one comparative mid-pass and rewrote it.
+- `blog-lint`: **0 fail, 2 warn** (both pre-existing: missing `faqs`, thin headroom).
+- Body: 4,490 → **4,483** words. Roughly 400 words of trims funded ~400 of repairs.
+- `lastmod` untouched.
+
+## Two things you should know
+
+**The trim target wasn't reachable.** The synthesis wanted ~4,350 banked before adding. I got to 4,483 against a 4,500 ceiling. Going lower meant cutting either a protected hit or the comedy beat, and the brief is explicit that protected hits aren't donors. All 12 protected hits verified intact, including the ADHD concession the brief flagged as the likeliest casualty and "Screaming Delta Demon," which is faithful reported speech, not a typo.
+
+**I deviated from the synthesis twice, deliberately.** The Guinness ticket count is printed in words ("more than two million") rather than as `2,045,040`, because BroadwayWorld's press-release figure and the Variety-syndicated wire disagree (2,045,040/129 venues vs 2,016,254/128). And the Tomatometer is dated at 19%/42 critics, not the suggested 20%/41 — the live number had already moved, so date-stamping the old one would have written a fresh dated error. Both are logged as regression traps in the ledger.
+
+**Still blocked for publication:** RQ-01 (*Big Dumb Eyes* unread — third pass deferring it) and RQ-02 (The Atlantic quotes). The draft no longer asserts anything depending on RQ-01, and RQ-02's fallback is in place, so the revision is complete — but the perspective gate is `/blog_perspective_verify_people`'s call, not mine. Resolution artifact at `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/editor-resolution.md`.

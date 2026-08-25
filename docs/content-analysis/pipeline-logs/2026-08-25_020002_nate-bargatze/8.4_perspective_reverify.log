@@ -1,0 +1,19 @@
+Verification complete. No files were modified except the output artifact.
+
+**Output path:** `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/verification-final.md`
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+Key results:
+
+- **SHA chain intact.** `context.json` and `synthesis.md` both carry the supplied `5551c59a…`, and `draft-reviewed.md` hashes to it byte-for-byte. Current reader-visible hash: `25e2725f4145401bc96f9b0dc83ede95905bd14f9de1241367d153e99a80b02b`. (`revision-resolution.md`'s `b17e1f84…` is the full-file SHA, which I confirmed is correct — a different metric, not a discrepancy.)
+- **P0-03, the one item that failed the initial gate, is fixed.** The superlative is bounded to what Guinness certified ("world record for tickets sold on a single stand-up tour"), and the intro's false "certificate for it now" attachment is deleted rather than restated.
+- **All 15 accepted P1s complete**, including P1-15 (the grep now passes across all four `his own money` surfaces plus the `faqs` block) and P1-13's antecedent.
+- **All 12 protected hits survive**, re-checked as literal strings — the revision cut seven of eleven "Nobody" constructions and trimmed inside the Emmys running balance without touching PROTECT-01 or PROTECT-03's structure.
+- **Adjudicated the escalated question:** the second interior beat the revision added is licensed. PROTECT-03's "the one interior beat" is a preservation instruction, not a global cap — reading it as a cap would also forbid the Emmys beat the synthesis mandates keeping. The Bridgestone beat inverts P0-08's failure mode: it paraphrases only a feeling he narrated himself, with his verbatim account on the next line.
+- **No repair introduced an unsourced assertion.** Traced every attribution the revision added back to packet sources.
+
+Seven non-gating items are in Remaining work. The two worth knowing about: the new interior beat says "for twenty years" — the exact phrasing the same pass retired at the Type 3 paragraph, and a reader can compute 21 from the page (defensible because it's his own round number, quoted verbatim twice, and sits in his first-person register); and a pre-existing connective in the park section misplaces its own quote relative to the transcript. Neither is a regression.
+
+The deterministic gate script decides whether the pipeline may finalize.

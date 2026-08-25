@@ -1,4 +1,4 @@
--- supabase/migrations/20260821153551_enforce_homepage_chorus_readiness.sql
+-- supabase/migrations/20260821153811_enforce_homepage_chorus_readiness.sql
 -- A homepage answer is submitted through /api/nine/mirror, which can only
 -- complete when the backing question has exactly nine cached takes. Keep the
 -- distributor's eligibility contract aligned with that endpoint so a public

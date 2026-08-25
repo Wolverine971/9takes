@@ -1,0 +1,20 @@
+**Artifact:** `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/evidence-packet.md`
+
+Frozen snapshot SHA re-verified and unchanged; only the packet was written.
+
+Two primary sources were pulled fresh that did not exist in the repo. The research file claimed the Theo Von transcript was "saved locally" — no such file exists anywhere in the tree. I pulled it, plus the *Nateland* Ep. #271 audio, which no pass had ever checked (its Emmys quotes were secondhand from TheWrap/Rolling Stone). All four Emmys quotes now verify against primary audio.
+
+The verification also closed several previously-open items and turned up defects the prior passes missed:
+
+- **Deseret News is an aggregation, not an interview.** Four quotes are misattributed. "I didn't want you to notice that I was clean" is from the **NYT, April 2025**, not Deseret 2026; the "pre-release" pair is from **The Christian Post, May 14** — fifteen days out, not ten. The draft's own second-pass ledger asserts the opposite.
+- **The tour clause carries three errors plus an omission.** It began April 2025 (not 2026) across 129 venues (not 62), and it *ended* on 2026-08-16 with a **Guinness World Record** — 2,045,040 tickets, the most for any stand-up tour ever — nine days before the draft was written. That's the most on-thesis current fact available and it's absent.
+- **"Four hour-long specials" is five.** *Full Time Magic* runs 1h04. Fresh-eyes flagged this as conditional; it's now resolved against the draft.
+- **The cold open's arithmetic doesn't hold.** 2002 → April 15, 2023 is ~21 years, not "nineteen years and 365 days." The 19,365 is a ticket count; Bargatze himself only says "20 years pretty much I think exactly."
+- **Opryland closed *after* his senior year** — closure revealed Oct 31, 1997, park closed Dec 31, months after his spring graduation. The draft inherited his own recollection as fact.
+- Also: the RT consensus fragment the draft calls "nine words" runs 14, and the box office ($20.2M vs $25M) is now verified against The Numbers, closing an item both prior passes left open.
+
+Two sourcing walls held: The Atlantic is still unreachable, and this time its quotes could **not** be re-confirmed via search snippets as the research file claimed — three ledger quotes plus the 266 rest on a never-cite mirror.
+
+**Largest unresolved gap:** CLM-08 — the claim that young Nate stood in his father's assistant spot and gave away the signature trick. Its only corroboration is Tier 4 AI book-summary content, while the *well-documented* Bargatze magic-mishap story is a different event: an adult Nate at a Des Moines magicians' convention, popping out of a box, revealing no secret. That image carries the persona title, a TL;DR bullet, and the final paragraph. Only reading *Big Dumb Eyes* — unread for three passes now — can settle it.
+
+A close second: CLM-07, "Stephen grew up with an alcoholic mother," has no locatable source, and the available record points to an abusive alcoholic *father*. That's a sensitive, flatly-stated claim about a real person's parent.

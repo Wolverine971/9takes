@@ -64,3 +64,17 @@ Implementation pass shipped after approval. Fixes applied to the PA index, root 
 - `src/lib/components/molecules/Email-Signup.svelte` now supports `embedded` mode and uses the Button atom for submit.
 - `src/routes/personality-analysis/+page.server.ts` now timeboxes the DB query and falls back to curated published-style rows.
 - `src/routes/personality-analysis/+page.svelte` now moves signup before the long type library, uses compact mobile grids, and uses label-only nested type kickers.
+
+## 2026-08-24 Persona-title follow-up
+
+- [profile cards] Featured cards repeated the same type-level sentence whenever two recently updated
+  people shared an Enneagram type; recent and by-type cards similarly repeated metadata already shown
+  in the eyebrow or section heading. Every card now uses the person's authored `persona_title`, while
+  type language stays in the eyebrow and section context. Missing persona titles omit the subtitle
+  instead of falling back to duplicate type copy. -> P4+P6
+- [server data] The index query, row type, and curated fallback rows now carry `persona_title`, with a
+  focused two-Type-5 regression test protecting distinct card subtitles.
+- [verification] Local SSR returned HTTP 200 and rendered Liang Wenfeng as “The Quant Who Takes Less”
+  and Yang Zhilin as “AI's Far-Side Observer”; the former repeated Investigator sentence was absent.
+  The focused test, Svelte autofixer, and `pnpm check` pass. `pnpm lint:radius` remains blocked by two
+  unrelated existing admin-route violations.

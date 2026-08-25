@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Nate-Bargatze (Type 9)
+/Users/djwayne/9takes/src/blog/people/drafts/Nate-Bargatze.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 54
+Comparison set (last 8 other Type-9 drafts by date):
+  - Victoria-Justice  (2026-08-19, 36 units)
+  - Ibai-Llanos  (2026-08-15, 41 units)
+  - caseoh  (2026-08-15, 34 units)
+  - penguinz0  (2026-08-01, 23 units)
+  - Jason-Sudeikis  (2026-07-30, 24 units)
+  - britney-spears  (2026-07-29, 35 units)
+  - Mira-Murati  (2026-07-28, 32 units)
+  - seth-rogen  (2026-07-04, 19 units)
+
+Noise floor over 13176 unit pairs:  median=0  p90=0  p99=0.006  max=0.098
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.098 ####                 seth-rogen
+  0.067 ###                  Jason-Sudeikis
+  0.054 ##                   Victoria-Justice
+  0.046 ##                   Mira-Murati
+  0.035 #                    penguinz0
+  0.030 #                    caseoh
+  0.027 #                    britney-spears
+  0.025 #                    Ibai-Llanos
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.098   Nate-Bargatze  <->  seth-rogen
+   TARGET [diagnosis] A Nine is a gut-center type
+   OTHER  [diagnosis] The core fear of a Nine is loss and fragmentation
+
+score 0.067   Nate-Bargatze  <->  Jason-Sudeikis
+   TARGET [counter-typing] If he starts defending the park in the language of what he wants rather than what he owes
+   OTHER  [counter-typing] The difference shows up in what he wants back.
+
+score 0.054   Nate-Bargatze  <->  Victoria-Justice
+   TARGET [counter-typing] Under real public failure a Three defends the image and a Six looks for who to blame.
+   OTHER  [counter-typing] And a Six interrogates authority even while obeying it
+
+score 0.047   Nate-Bargatze  <->  Victoria-Justice
+   TARGET [diagnosis] Both readings get the mechanism backwards
+   OTHER  [diagnosis] The mechanism is visible in a single decision.
+
+score 0.046   Nate-Bargatze  <->  Mira-Murati
+   TARGET [counter-typing] If he starts defending the park in the language of what he wants rather than what he owes
+   OTHER  [diagnosis] That is the language of someone whose deepest fear is the thing she loves coming apart in her hands.
+
+score 0.036   Nate-Bargatze  <->  Jason-Sudeikis
+   TARGET [diagnosis] The Emmys receipt says otherwise.
+   OTHER  [diagnosis] He won the Emmy for Lead Actor in a Comedy two years running
+
+score 0.035   Nate-Bargatze  <->  penguinz0
+   TARGET [diagnosis] A Nine is a gut-center type
+   OTHER  [diagnosis] He reported a gut feeling and rearranged his business around it.
+
+score 0.032   Nate-Bargatze  <->  Victoria-Justice
+   TARGET [diagnosis] and The Greatest Average American is an achievement frame wrapped around averageness
+   OTHER  [diagnosis] Victoria Justice is an Enneagram Type 9
+
+score 0.030   Nate-Bargatze  <->  caseoh
+   TARGET [diagnosis] and asserting a self is what splits a room.
+   OTHER  [diagnosis] most defensibly a self-preservation 9w8.
+
+score 0.029   Nate-Bargatze  <->  caseoh
+   TARGET [diagnosis] In February 2026 he won his first Grammy
+   OTHER  [diagnosis] " he said on the first episode of the Jynxzi Podcast in February 2024.
+
+score 0.028   Nate-Bargatze  <->  caseoh
+   TARGET [counter-typing] and the framing of the whole enterprise is responsibility rather than desire.
+   OTHER  [diagnosis] That word is the whole value system.
+
+score 0.027   Nate-Bargatze  <->  Jason-Sudeikis
+   TARGET [diagnosis] so the raw material underneath is anger
+   OTHER  [counter-typing] a series built so the ensemble could shine
+
+------------------------------------------------------------------------------
+Top pair scores 0.098 vs median 0  (~∞x the noise floor).

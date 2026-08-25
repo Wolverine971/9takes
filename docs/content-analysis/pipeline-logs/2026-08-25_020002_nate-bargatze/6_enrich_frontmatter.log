@@ -1,0 +1,28 @@
+Frontmatter enrichment complete: **Nate-Bargatze**
+
+**Fields filled:**
+`wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):**
+`wikipedia` (verified — `en.wikipedia.org/wiki/Nate_Bargatze` describes this exact person), `twitter`, `instagram`, `tiktok`, plus all creator-owned fields. `lastmod` untouched.
+
+**Identity verification:**
+- Wikidata `Q18704890` — sole match, "American comedian"
+- `imdb_id: nm2567088` — confirmed two ways: Wikidata P345 and Wikipedia's own reference list
+- `birth_date: 1979-03-25` — Wikidata P569 + Wikipedia lede agree (draft body only said "Born in 1979")
+- `birth_place: Old Hickory, Tennessee, United States` — Wikidata P19 → Q7084198
+
+**FAQs generated (5):**
+1. What is Nate Bargatze's personality type? → `#what-is-nate-bargatzes-personality-type`
+2. Is Nate Bargatze a Christian comedian? → `#nate-bargatzes-childhood-the-magicians-kid-who-never-got-the-hands`
+3. Why did Nate Bargatze flunk out of college? → `#why-nate-bargatze-flunked-a-bowling-class-he-was-good-at`
+4. Why did Nate Bargatze donate $250,000 at the 2025 Emmys? → `#the-emmys-scoreboard-anatomy-of-a-250000-decision`
+5. Why did critics pan The Breadwinner when audiences graded it A-? → `#why-critics-called-the-breadwinner-stale-while-audiences-gave-it-an-a`
+
+Every anchor was computed through the same `slugify()` in `src/lib/server/blogContentProcessor.ts:42` that generates the live heading IDs, so all five deep-link to real sections. Questions 2 and 5 target the "interpretive long-tail" family the entity-gap packet flagged as the one to watch first (`is nate bargatze a christian comedian`, `nate bargatze clean comedy why`, `nate bargatze breadwinner reviews why`).
+
+**Issues:**
+- **Body has zero inline external links** — every source is named in prose only (The Atlantic, NYT/Marchese, THR, A.V. Club, Rotten Tomatoes, The Christian Post, TIME, WSMV). I resolved and HTTP-verified canonical URLs for the eight load-bearing ones rather than inventing any. The NYT interview URL couldn't be fetched directly (403 on all paths), but it's confirmed verbatim in Wikipedia's own reference list for this person.
+- **Deseret News deliberately excluded** from citations — the editor-pass note records it as an aggregation with no original interview, no longer cited anywhere in the body.
+- Citations capped at the 8-item guideline; IndieWire (Foreman), Kirkus (Big Dumb Eyes), and the THR Emmys-donation piece are quoted or leaned on in the body but didn't make the cut.
+- Lint after the edit: **0 fail, 1 warn** — the pre-existing 4,483-word body against the 4,500 ceiling. Body word count is byte-identical to the editor pass's recorded figure, confirming nothing below the frontmatter moved.

@@ -1,0 +1,23 @@
+Counts match the frontmatter. Synthesis complete.
+
+**Path:** `docs/content-analysis/perspective-reviews/Nate-Bargatze/2026-08-25_020002/synthesis.md`
+
+**P0 items: 12 · P1 accepted: 15 · Research required: 6 · Protected hits: 12 · requires_revision: true**
+
+The verdict: the argument is right, the evidence layer failed. All six perspectives rated it a delight hit — nobody wants the thesis changed. But twelve claims are wrong, misattributed, unsourced, or shaped in the subject's favor, and the pattern that turns them from typos into a fairness problem is that **every numeric error errs in the direction that makes the sentence land better** (19y365d for 21 years, "nine words" for fourteen, "eleven days" for ten, four specials for five). A piece whose thesis is that this man notices arithmetic is not noticing arithmetic.
+
+Three findings drove the ranking:
+
+- **P0-01** — the closing sentence says the park is rising on the old Opryland ground; the article's own line 332 says a mall is there. The unfamiliar reader caught it unaided on a first read, in the payload position. The packet's claim ledger has no entry for it — it passed verification unexamined.
+- **P0-03** — the tour clause is wrong three ways and omits the Guinness world record set nine days before the draft date. **Five of six perspectives found this independently** — the strongest convergence in the jury.
+- **P0-09** — the stated Type 9 core fear contradicts 9takes' own Type 9 page (verified: `enneagram-type-9.md:86` says "Loss, fragmentation, separation"), inside the sentence accusing everyone else of getting the mechanism backwards. The practical cost is worse than the definitional one: substituting an exposure fear makes the draft's strongest *Type 3* evidence read as Nine evidence.
+
+Two adjudications worth flagging:
+
+I **overturned packet CLM-07**. It grades the alcoholism claim "unsupported" with the parent's gender transposed; the subject reviewer found Kirkus reporting from the memoir, and I verified it directly — the paternal grandparents were alcoholics, the grandmother abusive about his father's speech impediment. So the critic's recommended repair (cut the sentence) is wrong on the corrected record. The real defects are selective rendering and an adjacency that privately diagnoses Nate's 2018 sobriety as inherited.
+
+I resolved **revise vs. hold** against the critic and subject: both correctly identified that the memoir and The Atlantic can't be settled at the desk, but both have honest desk repairs — removing an unsupported assertion isn't improvising one. Blocking the whole revision on a library trip would strand eleven fixable P0s.
+
+The operational constraint that shapes the brief: the body is **4,497 words against a hard 4,500 ceiling** (reproduced with `blog-lint.sh`'s own method). Three words. Accepted additions total ~210, so banking headroom is step zero — and the second pass already declined a fix for exactly this reason, which is how currency fixes go unmade.
+
+Most important protected hit: **the ADHD paragraph and its concession** — "It covers the failed year at least as well as anything on this page does." Subject, enneagram, and unfamiliar each named it independently as the piece's largest trust-builder, and it's ~80 words sitting in the section a word-ceiling trim will look at first. The brief marks it explicitly as not a donor.

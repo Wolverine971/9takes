@@ -1,4 +1,6 @@
+<!-- src/routes/admin/enneagram-campaign/+page.svelte -->
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
 	import type { EnneagramCampaignStatus } from '$lib/server/enneagramCampaignAudience';
 	import type { PageData } from './$types';
@@ -50,7 +52,7 @@
 				A one-email invitation for registered users who have not added a valid Enneagram type.
 			</p>
 		</div>
-		<a class="back-link" href="/admin/email-dashboard">Email dashboard</a>
+		<a class="back-link" href={resolve('/admin/email-campaigns')}>All email campaigns</a>
 	</header>
 
 	<section class="safety-banner" aria-label="Campaign safety status">
@@ -156,10 +158,10 @@
 			<div class="copy-notes">
 				<strong>Message architecture</strong>
 				<ol>
-					<li>Notice the missing profile type without shaming the reader.</li>
-					<li>Teach anger, shame, and fear through the three intelligence centers.</li>
-					<li>Frame each type’s strategy as both a blind spot and a potential superpower.</li>
-					<li>Lead to the 10-minute typing guide, then the account and questions pages.</li>
+					<li>Lead with what becomes more useful after the reader adds their type.</li>
+					<li>Give one primary action: add the type on the account page.</li>
+					<li>Keep the typing guide as a secondary path for people who are unsure.</li>
+					<li>Measure saved profile types first and unique CTA clicks second.</li>
 				</ol>
 			</div>
 		</aside>

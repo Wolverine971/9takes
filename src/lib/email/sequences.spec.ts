@@ -87,14 +87,15 @@ describe('prepareSequenceSend', () => {
 			})
 		);
 
-		expect(prepared.subject).toBe('Do you know your Enneagram type?');
-		expect(prepared.preheader).toBe('Start with the three emotions behind the nine types.');
+		expect(prepared.subject).toBe('Make 9takes more useful to you');
+		expect(prepared.preheader).toBe('Add your Enneagram type in less than a minute.');
 		expect(prepared.htmlContent).toContain('Hi Alice,');
-		expect(prepared.htmlContent).toContain('<strong>Instinctual intelligence</strong> — anger');
+		expect(prepared.htmlContent).toContain('show you where the other types see it differently');
+		expect(prepared.htmlContent).toContain('class="button" href="https://9takes.com/account"');
 		expect(prepared.htmlContent).toContain(
 			'https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type'
 		);
-		expect(prepared.plainText).toContain('Emotional intelligence — shame');
+		expect(prepared.plainText).toContain('No quiz score gets to decide for you');
 		expect(prepared.linkAttribution).toEqual({
 			source: 'enneagram-profile',
 			medium: 'email',

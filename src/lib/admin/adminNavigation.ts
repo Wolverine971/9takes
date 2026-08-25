@@ -68,9 +68,9 @@ export const adminNavGroups: AdminNavGroup[] = [
 		description: 'Email, sequences, and campaigns',
 		items: [
 			{ href: '/admin/email-dashboard', label: 'Email', icon: Mail },
+			{ href: '/admin/email-campaigns', label: 'Email campaigns', icon: Target },
 			{ href: '/admin/welcome-sequence', label: 'Welcome sequence', icon: FileText },
 			{ href: '/admin/reactivation-sequence', label: 'Reactivation', icon: RefreshCw },
-			{ href: '/admin/enneagram-campaign', label: 'Enneagram campaign', icon: Target },
 			{ href: '/admin/marketing', label: 'Marketing', icon: Megaphone },
 			{ href: '/admin/transactional-emails', label: 'Email templates', icon: FileCode2 }
 		]
@@ -98,6 +98,11 @@ const detailRoutes: Array<{
 	label: string;
 	parentHref: string;
 }> = [
+	{
+		test: /^\/admin\/enneagram-campaign\/?$/,
+		label: 'Enneagram campaign',
+		parentHref: '/admin/email-campaigns'
+	},
 	{
 		test: /^\/admin\/search\/typeahead\/?$/,
 		label: 'Search typeahead',

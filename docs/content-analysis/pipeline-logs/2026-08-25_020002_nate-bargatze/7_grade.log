@@ -1,0 +1,25 @@
+## Grading Complete — Nate-Bargatze
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nate-Bargatze | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+`(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.6`. Discoverability 9 → no gate cap. No formula caps triggered (0 contrast pairs, 0 body counter-typing ladders, critic pressure faced, current-tense anchor present, ending passes swap test on content, empathy turn in his own vocabulary).
+
+### Key observations
+
+**This sits above the Matt-Smith B anchor and below the A band, and the gap is legible.** It beats that anchor decisively on Evidence (8 testimony quotes across NYT / Atlantic / THR / AV Club / IndieWire / TIME / Christian Post / Kirkus vs. Matt-Smith's 3), on Discoverability (five FAQs where each answer is independently citable with outlets and dates baked in), and on formula discipline (0 contrast-pair engines vs. 2).
+
+**What holds it off an A — three findings the pipeline's own checks missed:**
+
+1. **A broken callback on the most important line.** The final section opens *"The answer at the top of this page had one more clause in it, and it is the most revealing thing he has said in public"* — and that clause appears nowhere else in the draft. The epigraph is a different NYT quote. The piece points readers at something that isn't there.
+2. **An unsourced current-tense anchor.** The Guinness world record / "more than two million tickets in sixteen months" carries no publisher anywhere on the page. It's the lede's load-bearing superlative and the only such claim a fact-checker can't chase from the text.
+3. **A closing-fragment echo with Jonathan-Bailey, graded four days ago.** Bailey: "Nobody is going to photograph that." This: "Nobody is looking at that hand." Same grammar, and this draft uses a "Nobody" construction ten times in the body — so the closer reads as the tenth instance of a tic rather than a landing. The same-type similarity scan was otherwise CLEAR, and none of the other sameness moves (corpus-stat sentence, "The tell:" bullet, reader-command imperatives) are present, so this didn't reach the 3-move Originality cap.
+
+**Standouts worth keeping:** the two-album-titles observation (*Yelled at by a Clown*, *Full Time Magic*) is a genuine aha no generic profile connects; the Emmys Scoreboard section is the best-formatted thing in the corpus right now; and the anger-location read ("Point it at him and the line goes dead") is a gut-center insight that explains rather than describes.
+
+**Also flagged:** blog-lint passes 0 fail / 1 warn — body is 4,483 words against the 4,500 ceiling, so 17 words of headroom. Cut before adding. And the draft's own sourcing note says the three Atlantic quotes were read through a scraped mirror and never re-verified — the father's "He just didn't show up" is a TL;DR bullet and shouldn't rest on that.
+
+Frontmatter written to `src/blog/people/drafts/Nate-Bargatze.md:95`; feedback at `docs/content-analysis/grades/Nate-Bargatze.review.md`.
+
+**Total graded this session: 1**
