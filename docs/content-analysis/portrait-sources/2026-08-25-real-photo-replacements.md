@@ -25,3 +25,7 @@ off-center. No pixels were generated or reconstructed during the alignment pass.
 On 2026-08-26, Alexandr Wang's subject height was increased from 1280px to 1650px while retaining
 the same landmark anchors. This makes his face approximately 29% larger without changing the
 source photograph, template, or processing method.
+
+Also on 2026-08-26, Simone Biles's subject height was increased from 1320px to 1550px. Her face
+center remains at x=540, and her measured eye line is placed at y=510 inside the unchanged purple
+band. The authentic source photograph and all other processing constraints remain unchanged.
