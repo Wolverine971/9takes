@@ -16,3 +16,8 @@ grayscale/contrast adjustment, resizing, and compositing the repository's unchan
 
 The Jonathan Bailey asset remains in the portrait-approval staging area and is not marked as
 published. The other four replace the corresponding full and `s-` production assets.
+
+The 2026-08-25 alignment pass measures the largest photographed face and its eye landmarks with
+Apple Vision, then places the face center at x=540 and the eye line at y=490 on the 1080×1080
+master. This keeps asymmetric shoulders, hair, microphones, and gestures from pulling the face
+off-center. No pixels were generated or reconstructed during the alignment pass.

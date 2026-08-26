@@ -41,6 +41,24 @@ node scripts/compose-personality-portrait.mjs \
   --height 1200 --offset-y 0
 ```
 
+Do not center the whole silhouette: shoulders, hair, gestures, or microphones can pull the face
+off-axis. Measure the largest photographed face and its eye landmarks with Apple Vision:
+
+```sh
+swiftc -module-cache-path /tmp/9takes-swift-module-cache \
+  scripts/measure-photo-face.swift -o /tmp/measure-photo-face
+/tmp/measure-photo-face /path/to/cutout.png
+```
+
+Use the reported face `center.x` as `--anchor-x` and the reported eye `center.y` as `--anchor-y`.
+The compositor then places the face at x=540 and the eye line at y=490 by default:
+
+```sh
+node scripts/compose-personality-portrait.mjs \
+  /path/to/cutout.png /path/to/master.png \
+  --height 1200 --anchor-x 540 --anchor-y 420
+```
+
 Visually inspect the 1080×1080 master before generating the WebPs. The compositor uses
 `face-line-template.png` unchanged; placement flags adjust the photographed subject, not the
 template.

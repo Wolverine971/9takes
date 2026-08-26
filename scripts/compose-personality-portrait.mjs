@@ -20,6 +20,10 @@ Options:
   --erode <px>        Contract the alpha edge after resizing (default: 3)
   --brightness <n>    Subject brightness multiplier (default: 1)
   --contrast <n>      Subject contrast multiplier (default: 1.08)
+  --anchor-x <px>     Face-center x in the original cutout
+  --anchor-y <px>     Eye-center y in the original cutout
+  --target-x <px>     Face-center x on the final canvas (default: 540)
+  --target-y <px>     Eye-center y on the final canvas (default: 490)
   --template <path>   Overlay PNG (default: face-line-template.png)
 `);
 }
@@ -42,6 +46,10 @@ function parseArgs(argv) {
 		erode: 3,
 		brightness: 1,
 		contrast: 1.08,
+		anchorX: null,
+		anchorY: null,
+		targetX: 540,
+		targetY: 490,
 		template: path.join(REPO_ROOT, 'face-line-template.png')
 	};
 
@@ -65,6 +73,18 @@ function parseArgs(argv) {
 		} else if (argument === '--contrast') {
 			options.contrast = takeNumber(argv, index, argument);
 			index += 1;
+		} else if (argument === '--anchor-x') {
+			options.anchorX = takeNumber(argv, index, argument);
+			index += 1;
+		} else if (argument === '--anchor-y') {
+			options.anchorY = takeNumber(argv, index, argument);
+			index += 1;
+		} else if (argument === '--target-x') {
+			options.targetX = takeNumber(argv, index, argument);
+			index += 1;
+		} else if (argument === '--target-y') {
+			options.targetY = takeNumber(argv, index, argument);
+			index += 1;
 		} else if (argument === '--template') {
 			const templatePath = argv[index + 1];
 			if (!templatePath) throw new Error('--template requires a path');
@@ -80,6 +100,9 @@ function parseArgs(argv) {
 	}
 	if (options.erode < 0 || options.erode > 24) {
 		throw new Error('--erode must be between 0 and 24');
+	}
+	if ((options.anchorX === null) !== (options.anchorY === null)) {
+		throw new Error('--anchor-x and --anchor-y must be provided together');
 	}
 	return options;
 }
@@ -153,8 +176,23 @@ async function main() {
 		.toBuffer({ resolveWithObject: true });
 
 	const refinedData = erodeAlpha(data, info.width, info.height, options.erode);
-	const left = Math.round((CANVAS_SIZE - info.width) / 2 + options.offsetX);
-	const top = options.offsetY;
+	let left;
+	let top;
+	if (options.anchorX !== null && options.anchorY !== null) {
+		const trimLeft = Math.max(0, -(trimmedInfo.trimOffsetLeft ?? 0));
+		const trimTop = Math.max(0, -(trimmedInfo.trimOffsetTop ?? 0));
+		const scaleX = info.width / trimmedInfo.width;
+		const scaleY = info.height / trimmedInfo.height;
+		left = Math.round(
+			options.targetX - (options.anchorX - trimLeft) * scaleX + options.offsetX
+		);
+		top = Math.round(
+			options.targetY - (options.anchorY - trimTop) * scaleY + options.offsetY
+		);
+	} else {
+		left = Math.round((CANVAS_SIZE - info.width) / 2 + options.offsetX);
+		top = options.offsetY;
+	}
 	const sourceLeft = Math.max(0, -left);
 	const sourceTop = Math.max(0, -top);
 	const compositeLeft = Math.max(0, left);
