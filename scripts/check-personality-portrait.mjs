@@ -58,7 +58,9 @@ export function parsePortraitArgs(argv) {
 
 	for (let index = 0; index < argv.length; index += 1) {
 		const argument = argv[index];
-		if (argument === '--help' || argument === '-h') {
+		if (argument === '--') {
+			continue;
+		} else if (argument === '--help' || argument === '-h') {
 			help = true;
 		} else if (argument === '--json') {
 			json = true;

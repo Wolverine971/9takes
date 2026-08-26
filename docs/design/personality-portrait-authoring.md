@@ -10,14 +10,40 @@ data.
 
 ## Prepare The Source
 
-- Start with a legally usable, high-resolution portrait and keep the original outside
-  `static/types/`.
+- Start with a real, legally usable, high-resolution photograph and keep the original outside
+  `static/types/`. Do not use an AI-generated or face-reconstructed likeness as a personality
+  portrait.
+- Record the source page, author or photographer, license/rights status, source-file SHA-256, and
+  modifications in `docs/content-analysis/portrait-sources/` before publishing.
 - Prefer a transparent background or a controlled, quiet background with a clean silhouette.
 - Keep the established violet eye mark consistent enough to identify the portrait family. Do not
   recolor it to the person's type or to streetlamp amber.
 - Avoid clipped hair, blown highlights, crushed dark clothing, and a crop that depends on one card
   aspect ratio.
 - Use a filename-safe `Person-Name` slug without a leading `s-`.
+
+For a source photograph that needs its background removed, the repository includes a local,
+non-generative Apple Vision foreground-segmentation helper. It creates an alpha mask without
+retouching or reconstructing the subject:
+
+```sh
+swiftc -module-cache-path /tmp/9takes-swift-module-cache \
+  scripts/remove-photo-background.swift -o /tmp/remove-photo-background
+/tmp/remove-photo-background /path/to/source.jpg /path/to/cutout.png
+```
+
+Compose the approved cutout on black, convert it to grayscale, size it, and apply the exact purple
+template with the deterministic compositor:
+
+```sh
+node scripts/compose-personality-portrait.mjs \
+  /path/to/cutout.png /path/to/master.png \
+  --height 1200 --offset-y 0
+```
+
+Visually inspect the 1080×1080 master before generating the WebPs. The compositor uses
+`face-line-template.png` unchanged; placement flags adjust the photographed subject, not the
+template.
 
 Generate the full and thumbnail assets with the existing script:
 
