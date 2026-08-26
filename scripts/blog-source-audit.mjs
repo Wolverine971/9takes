@@ -488,7 +488,22 @@ const OUTLETS = [
 	// named, dated, bylined publications. (Attitude, the UK's biggest gay
 	// magazine and the venue for his 2020 coming-out interview with Ian
 	// McKellen, is a dictionary word and sits in AMBIGUOUS_OUTLETS below.)
-	'Evening Standard'
+	'Evening Standard',
+	// Mid-century broadcast and the Enneagram trade press (Frank-Lloyd-Wright
+	// pass, 2026-08-26). This subject's single load-bearing admission (arrogance
+	// as "a pretty brittle shell") lives only in ABC's The Mike Wallace Interview,
+	// filmed 1 and 28 Sept 1957, whose transcript is archived at the Harry Ransom
+	// Center and excerpted by the Frank Lloyd Wright Foundation. "Interview" is
+	// not in OUTLET_SUFFIX, so the exchange graded untagged however precisely it
+	// was cited. Enneagram Monthly is the named, dated trade publication carrying
+	// the only independent expert subtype call on this subject (Tim Vreeland,
+	// July 2024). S.C. Johnson's published company history is the source of
+	// record for the Wingspread "move your chair" exchange, told by Hib Johnson's
+	// son Sam, who was at the table.
+	'The Mike Wallace Interview',
+	'Mike Wallace Interview',
+	'Enneagram Monthly',
+	'S.C. Johnson'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

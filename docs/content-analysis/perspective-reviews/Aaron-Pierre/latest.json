@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Aaron-Pierre",
+	"review_dir": "docs/content-analysis/perspective-reviews/Aaron-Pierre/2026-08-26_143659",
+	"verification_file": "docs/content-analysis/perspective-reviews/Aaron-Pierre/2026-08-26_143659/verification-initial.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "f3affdfb0a9a7628abd118893585ce2cf7ef3aea24a254408cc666b418c864f7",
+	"verified_content_sha256": "2f28f322ca7ab39b060f9b8d68cdca7fb5e9de79d1270d34c2cabd17ea35d497",
+	"verified_at": "2026-08-26T18:48:00Z"
+}

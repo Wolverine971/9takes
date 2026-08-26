@@ -1,0 +1,13 @@
+Saved: `docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/critic.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **3 blockers, 10 concerns.**
+
+**Integrity note:** `draft-reviewed.md` no longer hashes to the declared `cae935d9…` (it's `362a406e…`). The live draft `src/blog/people/drafts/Frank-Lloyd-Wright.md` *does* match `context.json` and the supplied `--draft-sha`. A normalized diff is zero lines — Prettier rewrote quote chars, `*emphasis*`→`_emphasis_`, and the `path:` field in place. Cosmetic only; I proceeded and recorded it. The evidence packet caught the same thing independently.
+
+**Strongest hit —** the Okura telegram handled against interest: *"He did not add the missing words 'considerable damage notwithstanding.'"* The reframe thesis proved on externally documented behavior, with the damning half volunteered rather than hidden. That paragraph is why I read the rest in good faith.
+
+**Highest-priority finding (CRITIC-B2) —** the H2 that stages the piece's rebuttal asserts *"The cantilever was the achievement"* and nominates Hib Johnson's repeat commissions as *"the strongest available answer to Wright's critics"* — while omitting that Fallingwater's cantilever was under-reinforced by design, that Kaufmann's engineers proposed doubling the steel and Wright refused ("to hell with the whole thing"), that the contractor smuggled rebar in behind his back, that the slab dropped 1.75″ the day the formwork came off and ~7″ by 1994, and that a ~$4M post-tensioning rescue in 2002 stopped it. Fallingwater's own stewards call it *"errors in the design of their reinforcement."*
+
+The through-line worth passing to the editor: **every finding I raised makes the 7w8 case stronger, not weaker.** Rejecting a correction as a personal insult *is* the 8 wing, with a sixty-year consequence attached. Same for the Fellowship's documented labor record and the omitted wartime episode. The omissions aren't protecting the thesis — they're protecting Wright, which is a strange posture for a piece arguing that this man composed a flattering version of his own life.
+
+Two of the three blockers are one-line repairs: *"Wright never named another influence"* is false and the draft's own Froebel paragraph disproves it (fix sharpens the Sullivan argument to "the only human being he ever credited"), and *"three apprentices"* misdescribes a draftsman, a foreman, and a gardener murdered in 1914. The draft sits at 4,489 words against a 4,500 ceiling, so I costed each repair and named the Moses beat — the weakest-sourced passage in the piece — as the funding source.

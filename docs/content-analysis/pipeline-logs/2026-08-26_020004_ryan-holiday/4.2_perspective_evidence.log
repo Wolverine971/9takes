@@ -1,0 +1,17 @@
+Packet written and structurally validated: all ten required H2 headings in order, parseable frontmatter, SHA matching `context.json`, snapshot untouched, one artifact only.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/evidence-packet.md`
+
+**Method note.** The research stage's five YouTube transcripts were still on disk at `/tmp/rh-transcripts/`, so every first-person quotation in the draft was checked against raw transcript text rather than against the prior research file. That is what surfaced most of the findings below — the research file itself carries two of the errors.
+
+**Largest unresolved evidence gap: the evidentiary status of the Robert Greene 2018 quote.**
+
+It is the draft's single most load-bearing external testimony, and two structures rest on it — the diagnosis section and the entire father section. The transcript complicates both:
+
+- Greene is **illustrating a chapter concept** ("people have a self opinion… you Ryan have an idea of yourself"), using the person across from him as a live example. Whether that is testimony about Holiday specifically or a generic list is genuinely arguable, and no evidence settles it.
+- "I'm a good father" arrives immediately after Greene's audible **"I don't I don't know what else is"** — i.e. after he runs out of items. The father section's founding premise is the opposite reading: that he "put it last, which is where people tend to put the thing they are least willing to be wrong about."
+- Greene continues with a stock binary — *"extremely good with money and successful… buy a Mercedes… very conscientious and saintly… buy a Prius"* — which bears on the draft's "nothing in the list is about being ambitious or brilliant or successful" inference.
+
+Six checkable discrepancies are logged with sources in the claim inventory. The three most concrete: ESPN describes Mike Lombardi as "a 30-year front-office executive who spent the **previous season** with the New England Patriots," not "three decades a Patriots executive" (CLM-12); WTOP attributes "absurd on its face" to **ABC News**, not to itself (CLM-18, inherited from the research file); and the Doug Bates quote is reordered inside quotation marks — he wrote "More than anyone else, Holiday has turned Stoicism into a brand" (CLM-32, appears twice in the snapshot). Also flagged: an internal contradiction on the Naval Academy tenure (four years in the body, "five straight years" in the Rabbit Hole), and Holiday's own Daily Stoic property dating Stockdale's Marxism course to fall 1961 against the draft's 1960.
+
+Verified clean and worth noting for the evaluators: "Two Sides" re-fetched live with all six quoted lines verbatim; both Painted Porch curation quotes exact; the Pigliucci control case verbatim from his own site; the epigraph's re-attribution to *Meditations* 10.16 correct; and all six entity-gap landmines (net worth, copies sold, the 403'd Quora quote, Charney allegations) still avoided.

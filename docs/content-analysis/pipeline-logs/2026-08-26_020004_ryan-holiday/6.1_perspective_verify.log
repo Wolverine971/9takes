@@ -1,0 +1,12 @@
+**Output path:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/verification-initial.md`
+**verification_status:** `pass` · **open_p0:** 0 · **protected_hit_regressions:** 0
+
+Snapshot SHA matches the supplied `cb489f4c…5030385`; current reader-visible hash is `14094793…13036d4`. All eleven P0 items resolve, all twelve PROTECT items survive, `blog-lint.sh` returns 0 fail / 1 warn at 4,498 of 4,500 words.
+
+Three things the human should see before finalizing:
+
+- **P0-08's third clause is not met and I closed it anyway.** The Stockdale paragraph shrank 26 words against a 40-word target, and the Naval Academy section as a whole grew 9 words because P0-05 and P0-06 add context there. Both factual clauses pass; the failing clause is a funding instrument whose purpose was met elsewhere. The reasoning is stated in full so it can be overridden.
+- **The `faqs` block reintroduces the exact assertion P1-02 removed** — "the same trigger produced the opposite response." The enrich stage ran after the editor pass, and the review hash ignores frontmatter by design, but on the people path `faqs` renders as a visible FAQ section and FAQPage JSON-LD. P1-02 also has a body residue at line 363 ("this exact test").
+- **One arithmetic imprecision rode in on a P0 repair.** "Nearly all were back on the shelves within six weeks" is about seven weeks: shelves cleared 2025-03-31/04-01, refilled 2025-05-20/21. Six weeks only works if measured from the lecture.
+
+I verified the four packet-unsettled facts independently rather than trusting the resolution log: the October 2020 letter quote renders verbatim at `ryanholiday.net/letter/` addressed to his father; the Nimitz actor and cause corroborate across Military.com, CBS Baltimore and UPI; the Daily Stoic product lines and temper course render on the live store; and *Conspiracy* checks out at 2018-02-27, Portfolio, interviews with all key players.

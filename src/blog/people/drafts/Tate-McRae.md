@@ -2,7 +2,7 @@
 title: 'Tate McRae: Enneagram Type 3 and the Alter Ego She Named'
 meta_title: "Tate McRae's Enneagram Type 3: Safer Onstage Than at Dinner"
 persona_title: 'The Girl Who Built Tatiana'
-description: 'Why does Tate McRae feel safer in front of 20,000 people than four? Her Enneagram Type 3 pattern explains the alter ego, the crunches, and the crash.'
+description: 'Why does Tate McRae feel safer onstage than at dinner? Her Enneagram Type 3 pattern explains the alter ego, the 6 a.m. crunches, and the crash.'
 author: 'DJ Wayne'
 date: '2026-08-04'
 loc: 'https://9takes.com/personality-analysis/Tate-McRae'
@@ -56,23 +56,25 @@ citations:
   - 'https://www.grammy.com/news/tate-mcrae-i-used-to-think-i-could-fly-new-album-2022-interview'
   - 'https://www.rollingstone.com/music/music-features/tate-mcrae-big-year-so-close-to-what-tour-tit-for-tat-1235477968/'
   - 'https://variety.com/2026/music/features/tate-mcrae-interview-relationships-taylor-swift-sourdough-bread-1236825809/'
+  - 'https://variety.com/2025/music/news/tate-mcrae-looks-back-year-touring-performing-hitmakers-1236600182/'
   - 'https://www.youtube.com/watch?v=XpC0TQ42dZk'
   - 'https://vmagazine.com/article/v-girls-tate-mcrae/'
   - 'https://www.billboard.com/music/chart-beat/tate-mcrae-so-close-to-what-debuts-number-one-billboard-200-chart-1235913002/'
   - 'https://www.tmz.com/2021/02/02/morgan-wallen-n-word-nashville-neighbors/'
   - 'https://www.billboard.com/business/legal/morgan-wallen-arrested-felony-throwing-chair-roof-nashville-bar-1235651239/'
+  - 'https://ca.billboard.com/music/chart-beat/tate-mcrae-lollpalooza-set-new-era-streams-trending-up-1236315069/'
 faqs:
   - question: "What is Tate McRae's personality type?"
     answer: "Tate McRae is an Enneagram Type 3, the Achiever, with a 4 wing. The pattern shows in the 500 crunches she set a 6 a.m. alarm for at age eight, to be in better shape than her brother, with nobody watching. It shows in the stage persona she named Tatiana because neither she nor her family could account for who she became under lights. It shows in what she said after So Close to What entered the Billboard 200 at No. 1: 'why do I not feel satisfied with myself yet? Why do I not feel good enough yet?' And it shows in the sentence she gave GRAMMY.com in 2022: 'I have this vision that I'm not supposed to be there.'"
     anchor: 'what-is-tate-mcraes-personality-type'
   - question: 'Does Tate McRae lip-sync at her concerts?'
-    answer: "Partly, and she has never flatly denied it. On October 31, 2025, near the end of her 81-date Miss Possessive tour, she came out of a dance break holding the microphone upside down and the vocal kept playing; her reply four days later was a TikTok captioned 'Cuz apparently I don't sing in my shows :)'. The reason underneath is chronological, not cynical. Dancing arrived at six, in her mother's basement studio, as the thing that made an awkward kid feel capable in her own body, and singing arrived eight years later by accident. When the two compete for the same four minutes of stage time, she picks the older one."
+    answer: "A viral October 31, 2025 clip showed McRae holding her microphone upside down while a vocal remained in the mix, but that moment does not establish how much of the concert she sang live. Variety later called the clip deceptively edited and reported that she strongly disputed the lip-sync claim. Her November 4 response showed a live vocal clip under the caption 'Cuz apparently I don't sing in my shows :)'. Her 88-date Miss Possessive production did use backing tracks, as arena pop shows commonly do; the available evidence does not support a percentage claim about miming."
     anchor: 'two-octobers-the-booked-dance-studio-and-the-upside-down-mic'
   - question: 'Why does Tate McRae call her stage persona Tatiana?'
-    answer: "Because the behavior needed an explanation and she could not produce one. 'I started to black out onstage and become this person that I couldn't explain, nor could my family or my friends, and I needed a reason for it.' Tatiana carries the confidence and the sexual charge that the private version, who describes herself as 'very sensitive, very introverted' and talks to her mother around seven times a day, will not. The cost is that when the internet reacts to the body onstage, it is reacting to a character, and the woman who wrote 'purple lace bra' about being watched instead of heard absorbs the reaction anyway."
-    anchor: 'why-tate-mcrae-is-less-afraid-of-20000-people-than-of-four'
+    answer: "Because the behavior needed an explanation and she could not produce one. In Rolling Stone's December 2025 cover profile, she said: 'I started to black out onstage and become this person that I couldn't explain, nor could my family or my friends, and I needed a reason for it.' Tatiana carries the confidence and sexual charge that the private version, who describes herself as 'very sensitive, very introverted,' does not. The cost is that when the internet reacts to the character onstage, Tate absorbs the reaction anyway."
+    anchor: 'why-tate-mcrae-calls-her-alter-ego-tatiana'
   - question: 'Why did Tate McRae work with Morgan Wallen?'
-    answer: "Her first Hot 100 No. 1 was not a Tate McRae song. It was 'What I Want,' a feature on Morgan Wallen's I'm the Problem, which Billboard reported debuting at the top in May 2025 and arrived attached to the racial slur TMZ published video of him using in 2021 and his April 2024 arrest for throwing a chair off the roof of a Nashville bar. Fans who had defended her in the spring called her MAGA by the summer. Her explanation, given to Rolling Stone for its January 2026 cover, is the most revealing sentence in her public record: 'It was just about the song for me. I didn't realize how much a song would be connected to all the other factors, and it really shocked me.' She had evaluated the deliverable. That a song arrives welded to a person, and the person to a politics, was not a calculation she was running."
+    answer: "Her first Hot 100 No. 1 was 'What I Want,' a feature on Morgan Wallen's I'm the Problem. The collaboration arrived attached to Wallen's public record, including the racial slur TMZ recorded him using in 2021 and his 2024 arrest after he threw a chair from a Nashville bar's roof. McRae told Rolling Stone in December 2025: 'It was just about the song for me. I didn't realize how much a song would be connected to all the other factors, and it really shocked me.' She had evaluated the song; she had not calculated all the context attached to the singer."
     anchor: 'tate-mcraes-first-no-1-and-the-fans-who-turned-on-her'
   - question: 'Is Tate McRae an industry plant?'
     answer: "No, and her timeline is unusually well documented. She grew up in evening classes at her mother's Calgary dance studio, placed third on So You Think You Can Dance: The Next Generation at 13, and wrote her first song at 14 in her bedroom in about 20 minutes, on a day the studio she wanted to film choreography in was booked. That song, 'one day,' is why RCA signed her in 2019. Her own answer to Variety in 2023 was a work log: 'I've been grinding since 13 years old! I'm probably the furthest thing from an industry plant for how long I've been doing this.' A plant is somebody an executive installed. She installed herself, at 6 a.m., in a house where nobody was awake to see it."
@@ -124,7 +126,7 @@ H2 2: "Tate McRae's childhood and the black-and-white math" — hybrid
 H2 3: "Two Octobers: the booked dance studio and the upside-down mic" — signature
 H2 4: "Tate McRae's first No. 1 and the fans who turned on her" — hybrid (added 2026-08-04 second pass)
 H2 5: "Why Tate McRae gets compared to Britney Spears" — search-intent (split out of H2 4 in the 2026-08-04 revision pass, which was carrying five topics against a thin word-count ceiling)
-H2 6: "Why Tate McRae is less afraid of 20,000 people than of four" — hybrid (strong search-intent)
+H2 6: "Why Tate McRae calls her alter ego Tatiana" — search-intent
 H2 7: "What happens to Tate McRae when the tour stops" — hybrid
 H2 8: "The finish line Tate McRae keeps not crossing" — signature
 Search-intent + hybrid count: 6
@@ -203,7 +205,7 @@ Industry plant. Dance-first, voice-second. All surface. Those are the standing c
 <li><b>Tatiana:</b> She gave the onstage version of herself a separate name, because she could not otherwise explain who that person was.</li>
 <li><b>The dance came first:</b> Her whole music career exists because one studio was booked on one October afternoon.</li>
 <li><b>The No. 1 she didn't see coming:</b> Her first chart-topping single was a Morgan Wallen feature, and the backlash genuinely blindsided her.</li>
-<li><b>The list in the notebook:</b> At 22, with a No. 1 album, she started writing down her own favorite things so she'd have them on file.</li>
+<li><b>The list in the notebook:</b> At 23, with a No. 1 album, she started writing down her own favorite things so she'd have them on file.</li>
 <li><b>So close to what:</b> She named the album after the question, then told everyone she still doesn't have the answer.</li>
 </ul>
 </div>
@@ -229,7 +231,7 @@ She gave GRAMMY.com an image for it in 2022. "I have this vision that I'm not su
 
 The equation came from a house where the inputs were unusually clear. Her mother, Tanja Rosner, taught dance. Her father, Todd McRae, practiced law for oil and gas companies. When Tate was three the family moved to Oman for her father's work, and her mother taught classes there and pulled her daughter in. Back in Calgary, the evenings happened in a basement studio: contemporary, tap, hip hop, jazz, hours of it, most days.
 
-Dance Spirit described the arithmetic she ran as a kid. It was black and white to her. Hours in, result out. No ambiguity, no politics, no waiting to be chosen.
+In <a href="https://vmagazine.com/article/v-girls-tate-mcrae/">V Magazine</a>, she supplied the arithmetic herself: "In my head, it was very black and white to me: If I put in hours of training and if I worked super hard, I saw a result." Hours in, result out. No ambiguity, no politics, no waiting to be chosen.
 
 <p class="inner-thought">Two hundred. Tucker's still asleep. Two hundred and one. If I get to five hundred before the alarm goes off in his room, that counts. Two hundred and two.</p>
 
@@ -237,7 +239,7 @@ In interviews she keeps the blame off her parents. "I've always been hard on mys
 
 The other half of the childhood is less visible. School, she says flatly, "was traumatic for me." She wrote short stories she describes as "dark and twisted," featuring a girl locked in a mental battle, with plot twists borrowed from her dreams. That kid was already keeping two ledgers. One for what she could produce, one for what she actually felt, and only the first one was legible to anybody else.
 
-At 13, she went on *So You Think You Can Dance: The Next Generation* and placed third, further than any Canadian in the show's history, with no hometown votes available to her. Paula Abdul, judging: "I wish there was a word that would describe how much you touched me. That was perfection." A stranger on national television had handed a 13-year-old the highest grade available, for dancing, and nine years and three albums later no result has come back that clean again.
+At 13, she went on *So You Think You Can Dance: The Next Generation* and placed third, further than any Canadian in the show's history, with no hometown votes available to her. Paula Abdul, judging the show in 2016: "I wish there was a word that would describe how much you touched me. That was perfection." A stranger on national television had handed a 13-year-old the highest grade available, for dancing, and nine years and three albums later no result has come back that clean again.
 
 ---
 
@@ -253,11 +255,11 @@ Her entire music career is downstream of a room being unavailable.
 
 What came out of that bedroom is the part most people know. "you broke me first" landed in April 2020, detonated on TikTok across more than a million videos while she was stuck at home trying to finish high school, and passed a billion plays on Spotify's own counter. "greedy" landed in September 2023, peaked at No. 3 on Billboard's Hot 100, and did another billion on the same counter. If you know one Tate McRae song, it's one of those two. Neither would exist if that studio had been free.
 
-**October 31, 2025.** She's 22, near the end of an 81-date arena tour. She comes out of a dance break into "2 Hands" holding the microphone upside down, fixes it, and the vocal keeps playing anyway. The clip runs everywhere within hours. The charge from concertgoers is specific and not unreasonable: that she mimes most of the show because she has prioritized choreography and staging over singing it live. Her reply, four days later, was a TikTok captioned *"Cuz apparently I don't sing in my shows :)"*.
+**October 31, 2025.** She's 22, near the end of an 88-date worldwide tour. She comes out of a dance break into "2 Hands" holding the microphone upside down, fixes it, and a vocal remains in the mix. The clip runs everywhere within hours. It proves there was a track under the performance; it cannot prove how much of the concert she sang live. <a href="https://variety.com/2025/music/news/tate-mcrae-looks-back-year-touring-performing-hitmakers-1236600182/">Variety's December 2025 report</a> called the circulating clip "deceptively edited" and said McRae strongly disputed the lip-sync claim. Her own reply, four days after the show, was a live-vocal clip captioned *"Cuz apparently I don't sing in my shows :)"*.
 
-The critics have hold of something true. She did build a show designed to be watched. Then she wrote "purple lace bra" about how much it hurts to be watched instead of heard. "You're seeing these videos of me dancing and you're not listening to me as a songwriter, which is the most important part to me," she told Lowe. "That's my soul." The song's central line is a question: *would you hear me more if I whispered in your ear.* She engineered the spectacle. The spectacle now stands between her and the only part she says matters.
+The dispute still lands on something true. She did build a show designed to be watched. Then she wrote "purple lace bra" about how much it hurts to be watched instead of heard. "You're seeing these videos of me dancing and you're not listening to me as a songwriter, which is the most important part to me," she told Zane Lowe in their <a href="https://www.youtube.com/watch?v=XpC0TQ42dZk">February 2025 Apple Music interview</a>. "That's my soul." The song's central line is a question: *would you hear me more if I whispered in your ear.* She engineered the spectacle. The spectacle now stands between her and the only part she says matters.
 
-There's a second wound stacked under that one, and it's the one her audience has actually watched happen in real time. "I was feeling sexual and confident for the first time in my life," she told Rolling Stone for its January 2026 cover, "and then I would release something and feel sexualized, and feel like all of my work and effort was taken away from me." And: "People always want girls to put themselves out there. And the second they do, they get ripped apart for it."
+There's a second wound stacked under that one, and it's the one her audience has actually watched happen in real time. "I was feeling sexual and confident for the first time in my life," she told <a href="https://www.rollingstone.com/music/music-features/tate-mcrae-big-year-so-close-to-what-tour-tit-for-tat-1235477968/">Rolling Stone in December 2025</a>, "and then I would release something and feel sexualized, and feel like all of my work and effort was taken away from me." And: "People always want girls to put themselves out there. And the second they do, they get ripped apart for it."
 
 The end of that sentence is where it lands. Her noun for the injury is *work*; her verb is *taken away from me*. That is the vocabulary of theft, and what got stolen was labor.
 
@@ -269,11 +271,11 @@ The lip-syncing runs on a reason that stops short of an excuse. Dancing is older
 
 She makes that trade with her eyes open. The next hit came from a direction she wasn't watching. Her first Hot 100 No. 1 is not a Tate McRae song. It's "What I Want," a feature on [Morgan Wallen](/personality-analysis/morgan-wallen)'s *I'm the Problem*, which Billboard reported debuting atop the chart in May 2025. On the same chart "greedy" had stalled at No. 3 and "Sports car" got to 16. The biggest chart moment of her life arrived with somebody else's name first on it and somebody else's record attached: the racial slur TMZ published video of him using in February 2021, and the April 2024 arrest, reported by Billboard, for throwing a chair off the roof of a Nashville bar. Her own fans came for her. People who had spent the spring defending her from strangers spent the summer calling her MAGA.
 
-Her explanation, given to Rolling Stone for its January 2026 cover, is the most revealing sentence in her public record: "It was just about the song for me. I didn't realize how much a song would be connected to all the other factors, and it really shocked me."
+Her explanation, given to <a href="https://www.rollingstone.com/music/music-features/tate-mcrae-big-year-so-close-to-what-tour-tit-for-tat-1235477968/">Rolling Stone in December 2025</a>, is the most revealing sentence in her public record: "It was just about the song for me. I didn't realize how much a song would be connected to all the other factors, and it really shocked me."
 
 She had evaluated the deliverable. The song was good, the song was country, she has loved country music since she was a kid, so she took the song. That a song arrives welded to a person, and the person to a politics, was not a calculation she was running. Threes optimize whatever can be finished and graded. Context sits outside that frame, so getting hit for it doesn't land like a consequence. It lands like an ambush.
 
-Her defense was Three-shaped too. Asked about it by Variety in 2026, she skipped the politics and pointed at output: "I like to say my piece through organizations I support and the environment that I have on tour. I think it's pretty obvious what kind of person I am and the things I support."
+Her defense was Three-shaped too. Asked about it by <a href="https://variety.com/2026/music/features/tate-mcrae-interview-relationships-taylor-swift-sourdough-bread-1236825809/">Variety in August 2026</a>, she skipped the politics and pointed at output: "I like to say my piece through organizations I support and the environment that I have on tour. I think it's pretty obvious what kind of person I am and the things I support."
 
 The industry-plant charge dies the same way. Her answer to it, given to Variety in 2023, was a work log: "I've been grinding since 13 years old! I'm probably the furthest thing from an industry plant for how long I've been doing this." She's right, and she's underselling it. A plant is somebody an executive installed. What the record shows is a kid who installed herself at 6 a.m. in a house where nobody was awake to see it, years before a label knew her name. She isn't manufactured. She's self-manufactured, and that's the more unnerving version, because there's no A&R guy to blame for the setting she runs at.
 
@@ -285,41 +287,33 @@ The [Britney Spears](/personality-analysis/britney-spears) comparison is the sam
 
 ---
 
-## Why Tate McRae is less afraid of 20,000 people than of four
+## Why Tate McRae calls her alter ego Tatiana
 
-That count happened in a house where nobody was watching. The rooms that frighten her now are small and occupied. "It's so ironic that in front of 20,000 people I have way less fear than sitting in a small room. I feel safe on stage, and I feel like this is my moment, where I can take it as far as I want." The same fear, one size down: "You start to target why you feel nervous at a dinner party with four people."
+She calls the onstage version Tatiana because the behavior needed an explanation. "I started to black out onstage and become this person that I couldn't explain, nor could my family or my friends, and I needed a reason for it," she told <a href="https://www.rollingstone.com/music/music-features/tate-mcrae-big-year-so-close-to-what-tour-tit-for-tat-1235477968/">Rolling Stone in December 2025</a>. In the same interview she gave the split its scale: "I think it helps me grasp the strange theory of why I'm not nervous in front of 15,000 people, and why I can be nervous at a dinner party with four people."
 
-Then there's the name.
+The number changes with the room; the pattern does not. In <a href="https://variety.com/2026/music/features/tate-mcrae-interview-relationships-taylor-swift-sourdough-bread-1236825809/">Variety's August 2026 profile</a>, she said smaller rooms can make her more nervous than an audience of 20,000. Put her onstage to dance and sing, the profile observed, and she is at home. Put her onstage to accept an award and speak as herself, and the anxiety returns.
 
-She calls the onstage version Tatiana. The origin story is the most revealing thing she's said in public: "I started to black out onstage and become this person that I couldn't explain, nor could my family or my friends, and I needed a reason for it."
+She built a name because her family couldn't account for who she became under lights, and neither could she. Naming the change let her stop treating it as a contradiction that had to be solved.
 
-She built a name because the behavior required an explanation she couldn't otherwise produce. Her family couldn't account for who she became under lights. She couldn't either. So she gave it an identity and moved on. Tatiana, she says, "doesn't really give a s---."
+Tatiana also carries what the private version won't. The confidence, the sexual charge, the nerve that lets a woman who described herself to Rolling Stone as "very sensitive, very introverted" walk into an arena in a sheer bodysuit and own it. That's the arrangement, and it's a good one right up to the point where it fails. When the internet reacts to the body, it's reacting to a character. Tate gets the reaction anyway.
 
-Tatiana also carries what the private version won't. The confidence, the sexual charge, the nerve that lets a woman who calls herself "very sensitive, very introverted" walk into an arena in a sheer bodysuit and own it. That's the arrangement, and it's a good one right up to the point where it fails. When the internet reacts to the body, it's reacting to a character. The person who wrote "purple lace bra" wasn't the one standing there, and she gets the reaction anyway.
-
-Off the stage the ledger flips. She talks to her mother around seven times a day. Her circle is small on purpose. She has walked out of writing sessions with strangers by texting her mom to phone in a fake emergency, more than once. Asked why the co-writing speed-date format is so miserable, she gets to the bottom of it fast: "Everyone wants to get to know you immediately, and life isn't like that. I have a hard time opening up like that. I don't want to explain anything to you. Just let me sit in a corner for two hours and write about it, and then you can figure it out."
+Off the stage the ledger flips. She talks to her mother "around seven times a day," she told Variety in 2026, and keeps her circle small on purpose. Intimacy is easier after she has turned it into a finished object.
 
 The arithmetic is strange. She will put the feeling on a record for 137 million streams. She will go quiet about it at a table of four. The song works as a document she can hand over, which spares her from ever having to say any of it out loud.
 
-She needs it for herself, too. "I have to write the song in order to know what the hell I'm thinking, because I really don't know until I write it."
-
-One more thing about her, and it doesn't fit anywhere in the rest of this. She says she sees things before they happen. "I am a bit of a psychic sometimes, I will say that," she told Lowe in 2025. "I dream things, they happen. I see things, they happen, and this has been since I was a little kid." Her mother has it too, she says. She told Lowe she'd called a Super Bowl score back in 2023: Eagles 40, Chiefs 22. In February 2025 the Eagles beat the Chiefs 40 to 22.
-
-Nine numbers on a wheel describe how a person handles fear and worth. They do not account for a woman who keeps a running file of her own dreams and treats it as data. It stays in the picture anyway. A frame that explains everything about somebody has quietly stopped being a frame and started being a costume.
+She needs it for herself, too. "I have to write the song in order to know what the hell I'm thinking, because I really don't know until I write it," she told Lowe in their February 2025 Apple Music interview. A feeling she cannot explain at a table becomes legible once it has verses, a title, and an export date. Tatiana performs the file. Tate uses the file to find out what was inside her.
 
 ---
 
 ## What happens to Tate McRae when the tour stops
 
-The Miss Possessive tour, her first arena run, played 81 shows on the Live Nation itinerary, from Mexico City on March 18, 2025 to Inglewood on November 8. Then it ended, and Tatiana had nowhere to go.
+The Miss Possessive tour, her first arena run, grew to 88 dates worldwide. Then it ended, and Tatiana had nowhere to go.
 
-She's described the aftermath without softening it. Sleep gone. "I remember reading Sylvia Plath being like, I am her. My thoughts felt so dark at the time, and I felt so lonely." Then the request: "I wanted to go into a black room and not look in a mirror for six months."
+In <a href="https://variety.com/2026/music/features/tate-mcrae-interview-relationships-taylor-swift-sourdough-bread-1236825809/">Variety's August 2026 profile</a>, McRae described the comedown without softening it. She could not sleep. She felt lonely enough to identify with Sylvia Plath. After a year of seeing herself everywhere, she wanted "to go into a black room and not look in a mirror for six months."
 
-The mechanism had been running for a year before it broke her, and she'd already named it herself, talking about the promotional grind: "I'm sick of myself. I just can't look at myself... all I'm thinking about is every single flaw and imperfection and people watching. It feels really out of your body." Her whole system depends on standing outside herself to check the work. Run that loop for 81 nights with no off switch and the one doing the checking loses track of the one being checked.
+Her whole system depends on standing outside herself to check the work. Run that loop for 88 shows and the one doing the checking can lose track of the one being checked. Asked about the final Los Angeles concert, McRae drew a blank and joked that she could not remember anything that had happened to her. The biggest twelve months of her life, and no tape.
 
-She jokes about what the year cost her: "I have early signs of dementia, I think, because I can't remember anything that's ever happened to me." The biggest twelve months of her life, and no tape. So she started keeping a list.
-
-"You've gotta learn yourself. You have to write down: what are my favorite songs? What are my favorite colors?"
+So she started keeping a list. "You've gotta learn yourself," she told Variety. "You have to write down, 'What are my favorite songs? What are my favorite colors? What are my favorite references? What are my favorite movies?'"
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Tate McRae</summary>
@@ -343,6 +337,10 @@ The sexual instinct shows up second and almost entirely onstage, under the arran
 Under pressure, Threes take on Type 9 behavior: numbing, going flat, disappearing into inertia. Her post-tour account is that arrow almost verbatim. The black room, the mirror avoidance, the wish to not be perceived, and the memory gaps she jokes about. The Nine pattern in her registers as a person withdrawing consent to be a self for a while. Calm has nothing to do with it.
 
 In growth, Threes move toward Type 6: loyalty over image, and truth-telling to a small trusted group. That's visible in what she's built around her. The same mother on the phone all day, the same two or three collaborators, the refusal to speed-date writers, and the "era of no" she announced to Lowe. Her healthiest stretches are the ones where the circle gets smaller and the output gets more specific.
+
+### Where this typing stops
+
+McRae also says she sees events before they happen. "I am a bit of a psychic sometimes," she told Lowe in 2025, describing dreams that later happen and a trait she believes she shares with her mother. She also recalled predicting the exact 40–22 score of the Eagles' February 2025 Super Bowl win. The Enneagram can describe how she handles worth, fear, and performance; it cannot explain that belief. A frame that explains everything about somebody has stopped being a frame.
 
 ### Counterarguments: Why Tate McRae might not be Type 3
 
@@ -369,9 +367,9 @@ The last year handed her plenty of things that were supposed to make little mark
 
 It also handed her a breakup that ran through the press before she'd finished having it. She and The Kid LAROI split in mid-2025, and the songs came out on both sides. "It was really scary and overwhelming," she said of releasing "Tit for Tat." "I didn't realize how much it would affect me, the public knowing my private life, because no one knows the full story of anything, ever." Then the album leaked before release, and she cried harder than she had in five years, and her reason gives the whole pattern away. "These songs were actually stories about my life, and they meant so much. I didn't get to tell them the right way."
 
-She moved to New York. Her brother is moving in. She went back into a room with Amy Allen and Emile Haynie and started album four, and she still can't eat until the song is done. On the first two days of August 2026 she headlined Osheaga and then Lollapalooza, ended a set drenched in gold paint, and ran a wall of new visuals with no album attached yet. The machine is already back up.
+She moved to New York. Her brother is moving in. She went back into a room with Amy Allen and Emile Haynie and started album four, and she still can't eat until the song is done. On the first two days of August 2026 she headlined Osheaga and then Lollapalooza, ended a set drenched in gold paint, and ran a wall of new visuals with no album attached yet. <a href="https://ca.billboard.com/music/chart-beat/tate-mcrae-lollpalooza-set-new-era-streams-trending-up-1236315069/">Billboard, citing Luminate</a>, reported that her U.S. catalog drew 38.3 million on-demand streams in the five days after those sets, up 18 percent from the comparable five-day window a week earlier. The machine is already back up, and the audience came back with it.
 
-Somewhere in that apartment is a notebook with a list in it. Favorite songs. Favorite colors. Written out longhand by a 22-year-old with a No. 1 record, so she'd have somewhere to look it up.
+Somewhere in that apartment is a notebook with a list in it. Favorite songs. Favorite colors. Written out longhand by a 23-year-old with a No. 1 record, so she'd have somewhere to look it up.
 
 <!-- REVIEWER NOTES
 - Rolling Stone (January 2026 cover, published online Dec 11 2025) is paywalled. Its quotes here are as reported by secondary outlets (AOL/Yahoo aggregation of the cover story, Rolling Stone's own X posts). Wording of the sexualization quote and the Wallen quote cross-checked against two independent secondaries each. Confirm against the print/paywalled text before publish.

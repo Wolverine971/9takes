@@ -1,0 +1,24 @@
+## Grading Complete — Frank Lloyd Wright
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Frank-Lloyd-Wright | 9 | 8 | 9 | 8 | 8 | 9 | **8.5** | **B+** |
+
+`(9×1.5 + 8×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 8.5`. Discoverability 9 — gate not triggered. No caps applied.
+
+### Deterministic checks
+- **Source audit**: 5 load-bearing quotes, 5 inline, 0 vague, 0 untagged.
+- **Quality report**: 0 contrast pairs, head-term PASS, answer block 29 words, no corpus-count drift.
+- **blog-lint**: 0 fail / 1 warn (4,447 words, thin headroom under the 4,500 ceiling). 0 prose em-dashes, 0 banned phrases.
+- **same-type-similarity**: TRIPPED at 0.184 vs Tyla — but every trip pair is the mandated diagnosis sentence stating type + wing + instinct. Known structural false positive, no Originality cap.
+
+### Key observations
+- **Evidence is the standout (9).** Dense dated sourcing plus something rare in this corpus: the draft volunteers its own evidentiary limits four times — the Vreeland essay flagged as paywalled/title-only, the Fallingwater two-hour legend conceded as contested, the Imperial Hotel's real damage stated in the narrator's voice, the building count hedged with "tallies vary."
+- **Three quotes the audit script doesn't cover are untagged in the body**: Philip Johnson's jab (the critic anchor, no outlet/date despite the ledger having it), the Robert Moses line, and Wright's "live *with* the waterfall" to Kaufmann. Named speakers so nothing traceable is missing, but they're the gap between Evidence 9 and 10.
+- **The Rabbit Hole is pre-spent.** The diagnosis section runs the 8-wing and subtype mechanics, then the accordion runs them again near-verbatim. Line 303 also puts wing mechanics inside a narrative section. This is what holds Enneagram at 8 — the interior checks (felt interior, empathy turn, interior beat) all pass cleanly and would otherwise carry a 9.
+- **Ledgers overstate.** The Formula Fingerprint Ledger claims two pointer sentences; there are three. The Editor Pass claims the double Tafel introduction was fixed; it wasn't. Contrast-pair and em-dash claims did verify.
+- **Originality capped by monocausality, not formula.** Three genuinely fresh beats (the unmarked grave, Sullivan-as-unreframable, Johnson's checkbook answering the critics), but five of nine sections resolve to the same reframe engine — the same ceiling the Matt-Smith B anchor hit.
+
+Frontmatter written to `src/blog/people/drafts/Frank-Lloyd-Wright.md:118`; sidecar at `docs/content-analysis/grades/Frank-Lloyd-Wright.review.md`. No legacy `QUALITY GRADE` block existed to remove.
+
+**Total graded this session: 1**

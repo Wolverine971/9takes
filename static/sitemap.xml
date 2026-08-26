@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1444,7 +1444,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -2221,6 +2221,13 @@
     <lastmod>2026-07-28</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/6s/Jensen-Huang.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/jeremy-allen-white</loc>
+    <lastmod>2026-08-26</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/4s/Jeremy-Allen-White.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3833,7 +3840,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-26</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>

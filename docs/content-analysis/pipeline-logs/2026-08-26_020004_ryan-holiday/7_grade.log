@@ -1,0 +1,23 @@
+## Grading Complete — Ryan Holiday
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Ryan-Holiday | 8.5 | 9 | 9 | 9 | 8.5 | 9 | **8.8** | **B+** |
+
+(Weighted: `(8.5×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.8`. Disc 9 — no gate. Caps applied: none.)
+
+### Key observations
+
+**What carries it.** The "Two Sides" section — his own July 2011 blog post annotated line by line against what each line became — is a genuinely un-templatable form. It only exists because he published a self-diagnosis at 24 and left it online, and "the fear of simply *just being*" landing on *Stillness Is the Key* is the strongest single beat I've read in this pipeline this month. The core diagnosis is equally load-bearing: he strips every metric out of the one daily practice nobody watches, because the point is a verdict rather than a record.
+
+**Formula cleanliness is unusually good.** 0 contrast pairs (two scripts agree), 0 counter-typing ladders in the body, all Three/Five argument quarantined in the rabbit hole, and the empathy turn refuses the house "not laziness, it was scar tissue" grammar that the Matt-Smith B-anchor uses literally. It also skips the corpus-stat sentence entirely.
+
+**Two real gaps kept it off an A.** The Greene testimony carries the diagnosis, the TL;DR, and FAQ #1, but its venue is only "a filmed conversation about *The Laws of Human Nature*" — not something a fact-checker can go straight to. And the journaling interrogation quote has no attribution at all; the slot-based source audit misses it because it sits outside a designated slot. Separately, the two-beat section-closer tic survived the second pass — fresh eyes flagged seven, four were broken, five remain, and across nine sections you start hearing the writer instead of the subject. Three reader-command imperatives ("Read what he threw away there") compound it; the three most recently graded drafts have zero between them.
+
+**Sameness check: no cap.** The scanner is clear (max 0.046 on generic connective phrasing). Manual comparison against Nate-Bargatze, Dolly-Parton, and Liang-Wenfeng finds shared *architecture* — bolded-label TL;DR bullets, epigraph→cold-open→reframe furniture, return-to-the-wound close — but no near-verbatim content reuse. Two of those three are mandated structure. Worth watching across the next few Type 1s.
+
+**Path to A is all cuts, no additions** — which matters, since lint reports 4,498 words against the 4,500 ceiling (0 fail, 1 warn). Pin the two quotes, break three closers, drop two reader-commands.
+
+Written to `src/blog/people/drafts/Ryan-Holiday.md` (frontmatter) and `docs/content-analysis/grades/Ryan-Holiday.review.md`. Lint re-verified after the edit: 0 fail, 1 warn.
+
+**Total graded this session: 1**

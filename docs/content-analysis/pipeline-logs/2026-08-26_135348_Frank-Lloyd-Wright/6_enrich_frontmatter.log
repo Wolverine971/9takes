@@ -1,0 +1,47 @@
+Everything verified. No file changes were needed — the draft was already fully enriched, and each field held up under checking rather than just being non-empty.
+
+```
+Frontmatter enrichment complete: Frank-Lloyd-Wright
+
+Result: NO CHANGES — already fully enriched (all 12 owned fields populated with real values)
+
+Fields already present (preserved, and verified):
+- wikipedia      https://en.wikipedia.org/wiki/Frank_Lloyd_Wright  → 200, correct person
+- wikidata_qid   Q5604  → label "Frank Lloyd Wright", desc "American architect (1867-1959)"
+- imdb_id        nm0942394  → CONFIRMED via Wikidata P345 (not a guess)
+- birth_date     1867-06-08  → matches Wikidata P569
+- birth_place    Richland Center, Wisconsin, United States  → Q1569965 confirmed
+- nationality    American  → P27 = Q30 (United States)
+- occupation     4 items (Architect, Interior designer, Writer, Educator)
+- knows_about    7 real expertise areas (Organic architecture, Prairie Style, Usonian houses,
+                 Broadacre City, Taliesin Fellowship pedagogy, Cantilever construction,
+                 Froebel-derived geometric design) — NOT the occupation-copied backfill pattern
+- keywords       9 phrases, including the 5w4 counter-typing query
+- same_as        5 URLs, all resolve
+- citations      12 URLs, all resolve
+- faqs           4 entries, all substantive and body-derived
+
+FAQs present (4) — anchors checked against real body H2s:
+1. What is Frank Lloyd Wright's personality type?          → #what-is-frank-lloyd-wrights-personality-type ✓ (L202)
+2. Why did Wright tell a client to 'move his chair'?       → #what-wright-meant-when-he-told-a-client-to-move-his-chair ✓ (L308)
+3. How did Wright design Fallingwater in two hours?        → #how-fallingwater-happened-in-two-hours ✓ (L296)
+4. Why did Wright walk out on six children for Mamah?      → #why-wright-walked-out-on-six-children-for-mamah-borthwick ✓ (L250)
+
+All four resolve to actual headings. No templated-backfill markers
+("with supporting context from") anywhere in the block.
+
+Issues:
+1. Body has ZERO inline external links. The 12 citations were carried in from the
+   research/evidence packet, not extracted from the body. They're accurate and they
+   resolve, so nothing to fix in frontmatter — but the article itself cites no sources
+   to a reader. Worth knowing before the publish gate.
+2. citations has 12 entries vs the 3–8 guideline. Left as-is: the command is
+   additive-only and every one is a real, resolving, on-topic source. Trim only if
+   you want the JSON-LD leaner.
+3. invention.si.edu returned HTTP 403 on direct fetch — that's Cloudflare bot-blocking,
+   not a dead link. Confirmed live via Smithsonian search; the slug is exact.
+```
+
+Two notes worth your attention: `published: false` and `reviewed: false` are still set, so this hasn't gone through the publish gate. And `lastmod` is untouched at `2026-05-13` as you manage it.
+
+Sources: [Lincoln Logs Inventor John Lloyd Wright | Lemelson](https://invention.si.edu/invention-stories/lincoln-logs-inventor-john-lloyd-wright)

@@ -1,0 +1,28 @@
+**Frank Lloyd Wright — 40/100, PASS.** Packet saved to `docs/content-analysis/entity-gaps/Frank-Lloyd-Wright.md`.
+
+## The verdict
+
+Wright is the structural opposite of an entity gap. The exact-name SERP scored **2/25** — Wikipedia (Q5604), Britannica, *two* official foundations, Guggenheim, Fallingwater, National Trust, PBS/Ken Burns. We cannot become the biography of record for that man. Subtotal 60, minus the automatic −20 for personal-Wikipedia-plus-authoritative-biographies.
+
+I didn't bend the arithmetic to keep the pipeline moving.
+
+## But there's a real find underneath it
+
+The **typology lane is wide open**, and it's the only soft spot on the page:
+
+- Every free aggregator on page one (So Syncd, Sakinorva, MBTI Lounge) types him **5w4** with zero evidence.
+- The one substantive Enneagram essay — Tim Vreeland, *Enneagram Monthly*, July 2024 — independently types him a **self-preservation Seven**, matching our draft's 7w8. **It's paywalled.**
+
+So the free web has no defended argument about Wright's type, and the only expert who wrote one agrees with us.
+
+## What you already have
+
+`src/blog/people/drafts/Frank-Lloyd-Wright.md` — 42KB, complete, dated 2026-05-13, **unpublished** (DB row confirms `published: f`). Source gate passes easily: the 1957 Mike Wallace interviews, the autobiography, Secrest, Gill, Huxtable. The brittle-shell admission at ninety is a first-person contradiction, not an inference.
+
+**One decision for you:** the draft rebuts a Type 4 reading but **never mentions Type 5** — the exact answer a reader arrives holding. Shipping a 7w8 thesis that ignores the 5w4 consensus is the one way this page loses an argument it should win. Add that passage, then publishing is cheap and low-risk. Its ceiling is the long tail, not `frank lloyd wright`.
+
+Two things I flagged as unsafe to keep: the "world's greatest architect under oath" courtroom anecdote (repeated everywhere, sourced nowhere — your draft wisely uses the sentiment, not the anecdote), and the narcissism/psychopathy framing floating around Psychology Today and ResearchGate. Enneagram type is a pattern claim; NPD is a diagnosis, and we're not making one about a man dead since 1959.
+
+I did not touch the queue, DB, or any blog file — selection only, per the command's scope.
+
+Sources: [Britannica](https://www.britannica.com/biography/Frank-Lloyd-Wright), [FLW Foundation](https://franklloydwright.org/frank-lloyd-wright/), [Enneagram Monthly](https://enneagrammonthly.com/frank-lloyd-wright-1867-1959/), [So Syncd](https://www.sosyncd.com/database/frank-lloyd-wright-personality-type-zodiac-sign-enneagram/), [Smithsonian](https://www.smithsonianmag.com/smart-news/fallingwaters-roof-is-leaking-can-this-7-million-renovation-protect-frank-lloyd-wrights-masterpiece-180987288/), [Archinect](https://archinect.com/news/article/150534605/fallingwater-reopens-following-major-preservation-project), [Wallpaper\*](https://www.wallpaper.com/design-interiors/design-events/frank-lloyd-wright-martin-house-collecting-ourselves), [Psychology Today](https://www.psychologytoday.com/us/blog/fully-human/201910/anatomy-of-an-egotist)

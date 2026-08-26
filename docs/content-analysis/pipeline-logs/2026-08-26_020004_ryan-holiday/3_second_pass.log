@@ -1,0 +1,28 @@
+Second pass complete on `src/blog/people/drafts/Ryan-Holiday.md`.
+
+## Source audit (the first-order item)
+
+**Before:** 6 load-bearing quotes, 0 inline / 4 vague / **2 untagged** → pipeline gate would fail.
+**After:** 2 inline / 4 vague / **0 untagged** → `--fail-on-untagged-load-bearing` exits 0.
+
+- Greene's self-image quote (was untagged) now carries its 2018 date adjacent → **inline**.
+- "Stoicism is not a brand" (was untagged, bare speech verb) now carries the April 2026 date.
+- Epigraph re-attributed as *his rendering of Meditations 10.16* → **inline**, and this also fixes what fresh eyes correctly caught: the line is Marcus Aurelius with a swear added, and the audience for this page will know that.
+- The remaining 4 "vague" are all pinned to a named venue and date in prose. They grade vague only because `blog-source-audit.mjs`'s OUTLETS list doesn't know Mediaite, Diary of a CEO, or Daily Stoic. I did not edit the script — that's an editor-pass call, and the draft's write scope is the draft.
+
+## Main content changes
+
+- **The contradiction is now held open.** Section 4 was rebuilt and retitled "Did Ryan Holiday quit manipulating the media, or repoint it?" The settling clause ("restitution with an ISBN") is gone; it ends on restitution-or-laundering unresolved, which is what the entity-gap brief asked for.
+- **Sports adoption added**, anchored to ESPN's May 2020 feature. It's the best new evidence in the piece: the manipulator's next book became the operating manual of the NFL and Alabama, and ESPN narrated the American Apparel years in the same article.
+- **New father section**, ending on the counter-typing fact: the one place he refuses to hand the standard down.
+- **The Painted Porch** named with its posted curation rule, from the store's own site.
+- **New find, better than the fresh-eyes suggestion:** March 2015, Pigliucci's NYT op-ed on Stoicism goes viral, Holiday writes down that he felt jealousy, then emails the professor and publishes him. Same trigger as the Ivanka video, opposite response, eleven years apart. That's now the control case in the empathy turn, sourced to his own site and the NYT.
+- Trims: swim restatements cut, Greene down from four mentions to two, four two-beat section-closers broken.
+
+Two things I rejected and logged: fresh eyes' "spoke to both teams weeks before Super Bowl XLIX" contradicts ESPN's own chronology, and the "~750 titles" figure for the bookstore isn't verifiable.
+
+## Still worth an editor pass
+
+Body is **4,476 words against the 4,500 ceiling** — lint WARN, no FAIL, but there is no room left. Anything else added needs a cut first. Also: `faqs` frontmatter is still empty (enrich stage hasn't run), and search summaries claim Ivanka made her Marcus Aurelius remarks on Diary of a CEO — the same show carrying the swim quote, which would be a great connection, but I couldn't render it from a primary source so it isn't in the draft.
+
+Sources: [ESPN](https://www.espn.com/espn/story/_/id/29200293), [The Painted Porch](https://www.thepaintedporch.com/pages/about-us), [ryanholiday.net/Pigliucci](https://ryanholiday.net/an-interview-on-stoicism-with-massimo-pigliucci/), [Yahoo/Mediaite](https://www.yahoo.com/entertainment/celebrity/articles/daily-stoic-guru-fumes-ivanka-205034622.html)

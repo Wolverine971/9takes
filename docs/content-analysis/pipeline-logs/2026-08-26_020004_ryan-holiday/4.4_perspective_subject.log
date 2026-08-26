@@ -1,0 +1,16 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/subject.md`
+
+SHA verified against `context.json` and the supplied argument before reading. `future.md` was present in the directory and was not opened.
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation `revise` · **3 blockers, 8 concerns**
+
+**Blockers**
+- **SUBJ-R1** — The swim quote is cut in a way that reverses what it shows. The draft says he "ruled out every reason you would expect," but the transcript sentence immediately before the quotation supplies his reason: *"having something that gets you a win every day is a very underrated philosophical hack."* The page's self-declared cleanest evidence is built on a silence the article created.
+- **SUBJ-R2** — The father section's founding premise is a transcript artifact. "He put it last, which is where people tend to put the thing they are least willing to be wrong about" — but Greene's "I'm a good father" follows an audible *"I don't I don't know what else is."* An entire section about his fathering rests on his mentor's verbal filler.
+- **SUBJ-R3** — His childhood household is asserted, and his own published writing contradicts it.
+
+**Strongest hit:** the "note on the obvious objection." It states his quarrel with typology at full strength in his own words — *"That is a real argument with a site like this one"* — and answers it rather than routing around it. A subject who rejects the entire premise still gets argued with instead of processed. It should be the last thing cut.
+
+**Highest-priority concern (SUBJ-C1):** the article's best evidence for its own reading, and its best answer to its named critic, is missing. Holiday published open letters to his father in 2016 and 2020 (both live on ryanholiday.net). They contain the article's "silence gets filed as endorsement" mechanism in plain language — *"You told me that as a kid! That the bad prevail when good people do nothing"* — and they document him spending his own family relationship on this exact political disagreement years before the brand fight, which answers Doug Bates's brand-defense charge with evidence rather than the inference the draft currently uses. Repairing this makes the piece fairer and argumentatively stronger at once.
+
+Two caveats I put in the review and want visible here: the letters were read via WebFetch's summarizing layer, so the wording is **provisional** — an editor must render both pages directly and pin each quote verbatim before any of it enters the draft. And the frozen snapshot carries FRESH EYES and SECOND PASS commentary in HTML comments; I read it because it's in the file but reached my findings from the passages and packet. Both of those blocks treat the father section as a successful addition; neither flags its broken premise.

@@ -1,0 +1,38 @@
+Draft complete and all gates green.
+
+## MODE: non-interactive
+
+**DRAFT:** `src/blog/people/drafts/Ryan-Holiday.md` (3,930 words)
+**RESEARCH:** `docs/content-analysis/research/Ryan-Holiday.md`
+**STATUS:** `production_pretext.status = draft`
+**BLOCKERS:** none
+
+**GATES:** 1 pass · 2 pass · 3 pass · 4 pass · 5 pass · 6 pass
+`blog-lint: 0 fail, 1 warn` · contrast pairs **0 strong / 0 comparative** · head-term PASS · similarity scan **clear**
+
+### The read: Type 1, and the evidence is a swim
+
+The thesis is that his most-repeated line is the one he can't keep. He quotes *"tolerant with others, strict with yourself"* across at least three independent sources and glossed it himself on X in 2024. In **April 2026** he spent a week doing the opposite on camera, rolling his eyes and sticking his tongue out at Ivanka Trump over Marcus Aurelius.
+
+The tiebreaker against Type 3 is his daily exercise: *"I'm not training for a marathon. I'm not trying to set any records. I'm trying to make a promise to myself and keep that promise."* He strips out every metric and keeps the verdict. Corroborated by **Robert Greene**, who improvised Holiday's self-image to his face in 2018 and reached for *conscientious* and *a good person* — no achievement words at all.
+
+### Three things worth your attention
+
+**1. The packet's "best story is 16 months stale" is superseded.** I found the April 2026 Ivanka episode, corroborated across four outlets (Mediaite/Yahoo, The Bulwark, Ataraxia or Bust, The Federalist). It's a fresh current-tense anchor, the critic-pressure anchor, and the empathy turn in one.
+
+**2. I caught a misattribution before it shipped.** A search snippet credited a "Briggs Myers test" line to Holiday on his own site. Direct fetch shows it came from a **reader comment**, not him. Logged in the research file.
+
+**3. The typology quarrel is built on verified ground.** The Quora "personality tests are a complete waste of time" quote stayed 403 on direct fetch, so per the packet I did **not** ship it. The quarrel instead rests on his fetched April 2026 line — *"Stoicism is not a brand, it's a practice"* — which is a stronger argument anyway, and the draft answers it head-on.
+
+The unlock was a 2011 essay called "Two Sides" that he wrote at 24 and left up for fifteen years, in which he names his own split and ends: *"they are both equal parts fear, the fear of simply just being."* Eight years later he published *Stillness Is the Key*. That essay became the draft's bespoke section — an annotated document, each line paired with what it turned into.
+
+### Limitations
+
+- Pigliucci's "that's not Stoicism" quote had no locatable original outlet — **not used**; Doug Bates serves as the named critic instead.
+- CNN (451), PEN America (403), The Free Press (paywall) were unfetchable; Naval Academy facts rest on WTOP, the NYT excerpt, and convergent wire coverage.
+- Exact date of the Ivanka video is contested between sources — rendered as "April 2026" only.
+- Net worth and total-sales figures deliberately omitted or attributed, per the packet.
+- No inside-the-marriage testimony (the Daily Dad episode with Samantha Holiday was not obtained).
+- `faqs` frontmatter absent — that's the downstream enrich stage, not this command.
+
+One caveat worth keeping in view: the packet forecasts a **Robert Greene traffic outcome** (~4 clicks/quarter, invisible on the name). This page is cluster infrastructure and a link target for Marcus Aurelius, Greene, Ferriss, and Goggins — not traffic acquisition. Human review before production; I did not auto-promote to `ready`.

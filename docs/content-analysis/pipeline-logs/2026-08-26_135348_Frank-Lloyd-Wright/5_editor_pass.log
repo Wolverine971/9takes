@@ -1,0 +1,23 @@
+All edits landed cleanly. Final: **0 fail, 1 warn**; contrast pairs **0 strong / 0 comparative**; em-dashes 0; answer block back to 29 words.
+
+## What I polished
+
+**`src/blog/people/drafts/Frank-Lloyd-Wright.md`**
+
+The draft came in already clean on every mechanical gate — 0 contrast pairs, 0 em-dashes, ledgers present. So the real finding was a formula nobody had counted: with the contrast-pair engine gone, the piece had grown a **narrator pointer sentence** in its place. Six of them, four opening paragraphs — "That sentence is the Seven's reframe written in stone," "That line carries the man," "That is the strongest available answer to Wright's critics." Each one steps in front of the evidence and announces what it means, which is the same tell as "not X but Y" wearing a different coat.
+
+I kept the two that land at emotional peaks (Mamah's grave, the Wallace "end of the runway" line) and rewrote the other four so the fact delivers its own meaning. Same treatment on the "here's what everyone misses" opener, which fired five times; cut to three, keeping the cold-open pivot, the grave, and the honest Fallingwater-legend caveat.
+
+**One factual fix:** the 1953 "honest arrogance" quote was described as "twenty-six words." It's 24. Corrected, and the count now leads the sentence instead of trailing it as a flourish.
+
+Other cuts: an invented "three thousand pages"; "a failure of cantilever-comprehension"; a duplicate "volume" metaphor 70 lines apart; a mirror/mirror collision one clause apart in the conclusion; and two back-to-back symmetrical semicolon pairs in the Rabbit Hole Type 5 rebuttal (the contrast engine lint doesn't count). The conclusion still bookends the intro but now advances instead of repeating it near-verbatim.
+
+The full protect list survived — cold open, lieber Meister argument, Okura telegram, curtains-into-handkerchiefs, Philip Johnson concession, final paragraph. The Sullivan section lost its "the casual reading is X / the deeper one is Y" scaffolding, but the argument itself is untouched and hits sooner without it.
+
+Body went 4,488 → 4,447 words, so the pass paid for itself and returned ~41 words of headroom against the 4,500 ceiling.
+
+## Two things for you
+
+**Production-ready on prose, blocked on the gate.** There's a perspective-review directory at `docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/` with all six reviews written (subject, fan, critic, unfamiliar, enneagram, future) — but **no `synthesis.md`**. You also didn't pass `--perspective-review-dir`, so I ran standard editor mode and did not write an `editor-resolution.md`. Those six reviews have not been adjudicated into this draft. Per editorial-standards hard rule #4, that leaves the perspective gate open and publishing blocked. Next step is `/blog_perspective_synthesis_people` on that directory, then this command again with the flag.
+
+**Worth knowing:** the `FORMULA FINGERPRINT LEDGER` said "one 'Notice' construction retained" and the second-pass notes claimed narrator tics were handled — but the pointer-sentence tic that replaced them was invisible to every ledger and every lint check. I've updated the ledger and left an `EDITOR PASS NOTES` block flagging that the staccato-anaphora cadence ("He left Catherine. He left the six children.") now fires roughly a dozen times. Every instance I checked is earning it, so I left them, but it's the draft's dominant rhythm now and the next reader should re-count rather than assume.

@@ -1,0 +1,26 @@
+Polished `src/blog/people/drafts/Ryan-Holiday.md` in perspective-jury mode.
+
+**Exit checks:** `blog-lint.sh` 0 fail / 2 warn (4,498 words vs. 4,500 ceiling; no `faqs` yet). Contrast pairs **0 strong, 0 comparative**. Zero prose em-dashes. `lastmod` and `published: false` untouched.
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/editor-resolution.md`
+
+## What the pass fixed
+
+**All 11 P0 items are `fixed`** — none rejected, none left needing a human. The dominant pattern the jury found was quote-context distortion, so those got priority: the swim quote now carries his own framing ("a win every day") instead of a manufactured silence; Bates's clause order is restored in both places; the Stockdale material no longer reverses who taught whom; the journals absolute is replaced with his word ("extra"); the closer's "He was right" is hedged.
+
+**The research paid off more than expected.** Four of five RQs resolved against rendered primaries:
+
+- **RQ-01** (the one real publish blocker) closed on AP and ABC News. The Naval Academy section now names the actor and cause, and the `key-stat` says nearly all the books were back within six weeks.
+- **RQ-02 pinned**, and it converted P0-03 from a subtraction into the best addition on the page. I pulled `ryanholiday.net/letter/` as raw HTML and extracted locally rather than through a summariser, so the line is character-exact: *"You told me that as a kid! That the bad prevail when good people do nothing."* That replaces an inference about two private people with his own testimony.
+- **RQ-04** did not promote to P0 — the hinge quote renders verbatim at The Federalist.
+- **P1-05** turned up the best incidental find: Daily Stoic sells a ten-day course on controlling your temper. That's the concrete exhibit the critic wanted, sitting one paragraph from the week he lost his.
+
+**All 12 protected hits verified intact**, "Two Sides" diffed byte-for-byte against the frozen snapshot.
+
+## Three things you should know
+
+1. **RQ-03 is still open** and I can't close it here — `x.com` returns HTTP 402 and Wayback is unreachable. Everything indicates he left the video up and defended it, which would strengthen the argument, but nothing is pinnable, so nothing shipped.
+2. **The 2016 "Dear Dad" letter is verified but unused.** It's the strongest available answer to Bates's brand charge and it's sitting on the shelf purely because of the word ceiling.
+3. **P0-08's size clause came up short** — I trimmed the Stockdale paragraph 26 words against a 40-word target. Cutting deeper would have removed the stated reason for his refusal, which the brief itself warns makes P0-06 worse. I found the funding elsewhere instead.
+
+**Production-ready?** The trust repairs are done and the page is honestly evidenced. Two things stand between it and publish: `faqs` frontmatter (the enrich stage hasn't run) and the fact that `/blog_perspective_verify_people` needs to score this independently — I'm not claiming the gate passed.

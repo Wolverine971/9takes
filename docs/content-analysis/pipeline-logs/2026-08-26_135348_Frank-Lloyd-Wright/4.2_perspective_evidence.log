@@ -1,0 +1,23 @@
+Packet written.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/evidence-packet.md`
+
+31 claims inventoried (CLM-01…31), 12 disputes logged, 40 sources ledgered. Findings the six evaluators will need most:
+
+**Contradicted by the record**
+- **CLM-08** — "Wright never named another influence on his work" is false. Wright is standardly described as admitting three: Froebel, Sullivan, and the Japanese woodblock print — and wrote "If Japanese prints were to be deducted from my education, I don't know what direction the whole might have taken." It's also internally inconsistent with the draft's own Froebel section, and it sits in the passage fresh-eyes marked protected.
+- **CLM-10** — "It stayed bare for forty-five years, until… his widow Olgivanna set a headstone." Two of three sources put the marking in **1985**, at the exhumation, i.e. ~71 years. Olgivanna died 1 March 1985.
+- **CLM-11** — Brodelle, Brunker, and Lindblom were a draftsman, a foreman, and a gardener; no source calls them apprentices.
+- **CLM-14** — Research Tower was designed 1944 but **built 1947–1950**, not "1944 and 1951."
+
+**Unverified attributions**
+- **CLM-04** — the "honest arrogance" pull quote is credited to *The Future of Architecture* (1953); Wikiquote traces it no further than a 1981 anthology.
+- **CLM-03** — 1 and 28 Sept 1957 look like **broadcast** dates, not filming dates.
+- **CLM-13** — "live with the waterfall" is best attested as a 1935 *letter*, rendered in the draft as speech.
+- **CLM-24** — the source hedges "reputedly" and doesn't attribute the clothes detail to apprentices; the draft supplies "Apprentices later reported."
+
+Well-supported and worth protecting: the Wingspread reply (S.C. Johnson's own history, verbatim, Phoenix), both Wallace exchanges, the Okura telegram — where Wikipedia independently confirms Wright handed it to journalists and thereby spread a false legend, which is the packet's best externally-corroborated evidence for the reframe thesis.
+
+Two operational notes: **an external Prettier/label-paths run rewrote the frozen snapshot at 18:43Z**, so `draft-reviewed.md` no longer matches the SHA in `context.json`. I verified the change is cosmetic only (quote style, emphasis markers, `path:` field) — no prose or claim altered, line numbering intact — and documented it in Research limitations. The frontmatter carries the `context.json` SHA per the contract. Also, `britannica.com` and the Smithsonian/Lemelson page both returned 403, so the competing building count and two John Lloyd Wright details rest on search summaries.
+
+**Largest unresolved gap:** the provenance chain for Wright's own words. Five load-bearing quotations are attributed to specific books, years, or occasions, and not one of those attributions was confirmed against a primary text — for a piece arguing that Wright composed a better version of his own life, the packet can't currently certify where his sentences came from.

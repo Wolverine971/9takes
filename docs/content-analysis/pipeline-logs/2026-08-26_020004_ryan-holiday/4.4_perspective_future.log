@@ -1,0 +1,13 @@
+Counts match the document (1 blocker, 8 concerns) and all eleven required headings are present.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/future.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **1 blocker, 8 concerns.**
+
+**Strongest hit (FUTURE-H3):** the March 2015 Pigliucci control case. *"Same trigger both times... In 2015 he aimed the correction at himself and handed the other man a microphone. Eleven years later he stuck out his tongue."* It converts the April 2026 video from *the evidence* into one instance of a mechanism demonstrated three times across eleven years. I ran the swap test section by section: delete the video entirely and the Type 1 diagnosis survives untouched. That is the whole durability case for this page, and it was a deliberate second-pass decision.
+
+**The blocker (FUTURE-R1):** the `key-stat` block displays "381 books removed from the Nimitz Library" as an undated standing fact. Most of those books went back on the shelves in May 2025 — roughly five weeks after the cancellation and sixteen months before this draft's date (19th News and CBS Baltimore converge; CBS hedges the residual at ~20, so the repair should say "nearly all," not a number). This isn't twelve-month decay — it's already misleading at publication, which is why it's a blocker rather than a refresh item. The body's past-perfect sentence is fine and needs no change; the defect is the decontextualized pull-out. The packet couldn't catch this: all three of its Naval Academy sources are April 2025 incident-time records that predate the reversal. The fix is one dated clause and it *helps* the section — he refused to drop a slide about a removal that was itself reversed under exactly the kind of public naming he can't stop doing.
+
+**Highest-priority concern (FUTURE-C1):** "He is thirty-nine years old" in the closer expires on 2027-06-16 — 294 days after the review date, inside the window. It's the only claim on the page guaranteed to go false. I filed it as a concern rather than inflating it to a blocker because it isn't misleading today; it's a scheduled expiry, and the repair costs zero to three words.
+
+Two things worth flagging beyond the findings: the page ships at or fractionally over the 4,500-word lint ceiling (my count of the comment-stripped body: 4,510), so I paired every refresh item with a funding cut rather than assuming headroom. And the packet's own factual issues — Lombardi's tenure, the WTOP/ABC attribution, the reordered Bates quote — are correctness findings in other perspectives' lanes; I noted in *Limits* that my silence shouldn't be read as clearing them.

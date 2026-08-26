@@ -1,0 +1,24 @@
+## Grading Complete — Ryan Holiday
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Ryan-Holiday | 9 | 9 | 9 | 9 | 8.5 | 9 | **8.9** | **B+** |
+
+`(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.9`. Discoverability 9 → no gate. No caps applied.
+
+### Key observations
+
+**What earns the score.** The diagnostic move is genuinely non-obvious: reading the *absence* of metrics in his daily swim as the evidence — "He stripped out every number that would let it be an achievement and kept a ruling" — is what makes the Type 1 call survive the Type 3 counter-case. The "Two Sides" section, built as an annotated primary document from an essay he published at 24 and left online, is un-templatable; it only works because this subject has a pre-fame written record. And the piece refuses to resolve its own central contradiction in Holiday's favor ("Whether that counts as restitution or as laundering is not something the record settles"), which is the fresh-eyes review's biggest complaint fully addressed.
+
+**Deterministic checks all clean.** Lint 0 fail / 1 warn. Contrast pairs 0 strong, 0 comparative. Same-type similarity: clear (top pair 0.046 vs anna-wintour, below concern). Source audit: **0 untagged**. Ledgers spot-checked against the body and accurate rather than stale — unusual.
+
+**What holds it at B+.** Three things, all small:
+- The untimed swim recurs five times (TL;DR, diagnosis, objection note, morning section, empathy turn, closer). The v2 9–10 Writing band explicitly requires no repeated anecdote — this is the whole reason Writing is 8.5.
+- Six reader-command imperatives ("Read what he threw away," "Listen to how," "Hold this episode," "Concede the accurate parts") make the writer audible. This is also a house move that showed up in Nate-Bargatze last batch.
+- One unsourced clause sitting inside a `key-stat` callout: "Nearly all were back on the shelves within six weeks."
+
+**Two real sourcing gaps** (the other three "vague" audit hits are a tooling artifact — Mediaite and Diary of a CEO aren't in the audit's outlet list): the "underrated philosophical hack" quote free-floats one sentence ahead of its own venue anchor, and the March 2015 jealousy quote's source is only inferable from the following sentence.
+
+The draft is four small edits from the A band — but body is at 4,498/4,500 words, so any addition has to be funded by the swim trims first.
+
+**Total graded this session: 1**

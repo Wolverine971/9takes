@@ -1,0 +1,33 @@
+**Ryan Holiday — 35/100 — PASS.** Packet written to `docs/content-analysis/entity-gaps/Ryan-Holiday.md`.
+
+## The finding
+
+He's `inProgress` in the queue right now (started 06:00 today, priority 45). The source record is the best this command has audited — but the SERP is close to unwinnable, for a specific and slightly funny reason: **he's a professional media strategist who has spent fourteen years engineering his own name results.**
+
+All ten first-page results for `Ryan Holiday` are the subject himself or his Wikipedia article. Not one third-party page ranks. That's the SERP of the author of *Trust Me, I'm Lying: Confessions of a Media Manipulator*.
+
+| Dimension | Score |
+|---|---:|
+| Demand trajectory | 11/20 — evergreen but flat (book 10mo old, catalyst is a 3-city tour) |
+| SERP weakness | **3/25** |
+| Biography intent | 12/15 |
+| Source depth | **15/15** |
+| 9takes angle + niche fit | 9/10 |
+| Timing/index advantage | 2/10 |
+| Entity clarity | 3/5 |
+| Wikipedia + authoritative bios penalty | −20 |
+| **Total** | **35** |
+
+## The number that matters most
+
+Robert Greene — his own mentor, same niche, bigger author, graded **9.3** by our pipeline — returns **4 clicks, 2,355 impressions, position 9.0, and zero exact-name impressions** in the last GSC window. The queue's rationale ("strategy-writer niche performs, Robert Greene at 9.3") conflates content grade with traffic outcome. A Holiday page's realistic forecast is a Robert Greene outcome.
+
+## Two things worth your decision
+
+**1. There's still a real reason to write him — just not an SEO one.** He's the missing hub of a cluster you've already built (Greene, Ferriss, Huberman, Goggins published; Marcus Aurelius queued at p43 explicitly to pair with him). The packet includes an "if the pipeline writes him anyway" brief: write the psychological page, not the encyclopedia page, and value it as cluster infrastructure.
+
+**2. The angle is genuinely great, and one load-bearing quote isn't verified.** The contradiction — the man who wrote the manual for manufacturing outrage now sells stillness, using the machine he built — is clean and ownable. There's a second layer: he's apparently on record saying personality tests are "a complete waste of time," which would make him the rare subject who rejects the premise of the page. **That quote is unverified** — it came from a search-index summary and the Quora page 403'd on direct fetch. It's flagged as a hard gate in the packet: pin it to a fetchable primary before the draft ships.
+
+Also flagged: **do not publish a net worth** (sources range $8M–$50M, entire SERP is AI slop on hijacked .edu subdomains), and the "5 million vs 10 million copies sold" figures both trace to marketing copy — Wikipedia carries no total at all.
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Ryan_Holiday) · [RyanHoliday.net](https://ryanholiday.net/) · [Baltimore Sun — Naval Academy cancellation](https://www.baltimoresun.com/2025/04/19/naval-academy-cancels-lecture-ryan-holiday/) · [Scholars at Risk record](https://www.scholarsatrisk.org/report/2025-04-15-united-states-naval-academy/) · [Penguin Random House — *Wisdom Takes Work*](https://www.penguinrandomhouse.com/books/646522/wisdom-takes-work-by-ryan-holiday/) · [Daily Stoic Live tour](https://ryanholiday.net/tour/)

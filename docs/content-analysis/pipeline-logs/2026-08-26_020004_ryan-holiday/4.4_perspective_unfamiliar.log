@@ -1,0 +1,19 @@
+Validation passes — the `False` is my assertion being crude: it tested whether sibling files *exist*, not whether I read them. Three parallel reviews (`subject.md`, `fan.md`, `future.md`) landed at 03:07–03:08 while I was working. My opening `ls` confirms only `context.json`, `draft-reviewed.md`, and `evidence-packet.md` existed when I read; I opened none of the siblings. Independence intact.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **3 blockers, 8 concerns.**
+
+The draft passes this perspective's central test: after one unaided read I could state who Holiday is, the thesis, and the type answer without homework. It teaches Type One by demonstration rather than jargon and quarantines its technical vocabulary behind a skip line.
+
+**Strongest hit** — the Pigliucci control case ("Same trigger both times... In 2015 he aimed the correction at himself and handed the other man a microphone. Eleven years later he stuck out his tongue"). It's the one passage that lets a reader with zero prior knowledge *audit* the thesis instead of trusting it, and it pre-empts the objection that the whole argument was reverse-engineered from one viral video. It's why trust reads strained rather than broken.
+
+**Highest-priority concern** — UNFAM-R1: the Naval Academy section builds a large display callout around "381" and never says who removed those books or why. That section is where the article stakes its "his pattern cost him something real" claim, and I couldn't tell whether he refused to soften a slide about routine library weeding or a government censorship campaign — different acts of courage. I had to run a search, which is the failure condition for this role. Confirmed as a genuine omission: the evidence packet doesn't carry the cause either. Fix is one clause.
+
+Two things the search turned up that neither draft nor packet holds:
+- The removals followed a Secretary of Defense order implementing the January 2025 DEI executive order.
+- All but ~20 books were reportedly returned in May 2025 — fifteen months before this article's publication date, while the undated callout still reads as a standing fact (UNFAM-R2, medium confidence; I flagged verification as part of the acceptance test rather than asserting it).
+
+The third blocker is packet-confirmed: Lombardi is described as "three decades a Patriots executive" when ESPN says a 30-year NFL executive who spent *one* season there — and that appositive is the only thing orienting a non-football reader to why the handoff mattered.
+
+All three are local repairs in two sections. I left the packet's other flagged errors (WTOP/ABC attribution, Stockdale's 1960-vs-1961 date, the reversed parent lesson) to the subject and critic seats, since none affected what I could understand.

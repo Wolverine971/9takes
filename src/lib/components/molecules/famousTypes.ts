@@ -35,7 +35,9 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'ruth-bader-ginsburg', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'The Incremental Crusader', contentGrade: 8.9, types: ['politician'] },
 		{ name: 'steve-jobs', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Silicon Valley\'s Unforgiving Craftsman', contentGrade: 8.8, types: ['techie', 'entrepreneur', 'business-operator'] },
 		{ name: 'tim-cook', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Apple\'s Moral Metronome', contentGrade: 9.1, types: ['techie', 'big-tech-founder'] },
-		{ name: 'tim-ferriss', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Self-Help\'s Relentless Reformer', contentGrade: 9, types: ['creator', 'podcaster'] }
+		{ name: 'tim-ferriss', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'Self-Help\'s Relentless Reformer', contentGrade: 9, types: ['creator', 'podcaster'] },
+		{ name: 'aaron-pierre', link: false, hasImage: false, lastmod: '2026-08-26', personaTitle: 'The Loudest Quiet Man', contentGrade: 8.8, types: ['newMovieStar', 'movieStar', 'rising-star'] },
+		{ name: 'ryan-holiday', link: false, hasImage: false, lastmod: '2026-08-26', personaTitle: 'Stoicism\'s Restless Conscience', contentGrade: 8.9, types: ['author', 'creator', 'entrepreneur'] }
 	],
 	2: [
 		{ name: 'audrey-hepburn', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['movieStar'] },
@@ -224,7 +226,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'janelle-monae', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },
 		{ name: 'jared-leto', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'The Man With No Default Setting', contentGrade: 8.9, types: ['musician', 'music-crossover'] },
 		{ name: 'jennifer-coolidge', link: false, hasImage: true, lastmod: '2026-04-28', personaTitle: 'Comedy\'s Glamorous Recluse', contentGrade: 8, types: ['comedian', 'movieStar', 'screen-icon'] },
-		{ name: 'jeremy-allen-white', link: false, hasImage: true, lastmod: '2026-04-16', personaTitle: 'Brooklyn\'s Brooding Dancer', contentGrade: 9, types: ['newMovieStar', 'movieStar', 'rising-star'] },
+		{ name: 'jeremy-allen-white', link: true, hasImage: true, lastmod: '2026-08-26', personaTitle: 'The Actor Who Disappears Into Focus', contentGrade: 8.6, types: ['newMovieStar', 'movieStar', 'rising-star'] },
 		{ name: 'joaquin-phoenix', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Cinema\'s Grief-Struck Outsider', contentGrade: 8.8, types: ['movieStar'] },
 		{ name: 'john-lennon', link: true, hasImage: true, lastmod: '2026-04-18', personaTitle: 'Rock\'s Wounded Prophet', contentGrade: 9, types: ['musician', 'historical', 'historical-artist'] },
 		{ name: 'john-mayer', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Music\'s Haunted Virtuoso', contentGrade: 8.9, types: ['musician', 'singer-songwriter'] },

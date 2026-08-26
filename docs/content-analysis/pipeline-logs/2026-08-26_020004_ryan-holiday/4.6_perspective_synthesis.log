@@ -1,0 +1,19 @@
+All 13 evaluator blockers are carried through with an explicit status; none dropped.
+
+**Synthesis path:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/synthesis.md`
+
+- **P0 items: 11**
+- **Accepted P1 items: 12**
+- **Research-required: 5**
+
+**Most important protected hit — PROTECT-01, the "Two Sides" section, entire.** All six perspectives named it independently. It is a pre-fame, self-authored, still-live document used as an annotated exhibit rather than a memory, and the 2011 line *"the fear of simply just being"* landing on *Stillness Is the Key* is the beat the page exists for. It is simultaneously the least attackable material to a hostile reader and the highest-delight moment for the informed fan. Only one accepted repair touches it: a three-word disambiguation of the American Apparel sentence.
+
+Three things worth your attention:
+
+1. **One genuine publish blocker.** The Naval Academy section never says who pulled the 381 books or why, so a reader can't interpret the episode without leaving the page — and the `key-stat` displays the number undated, when two reviewers independently established the removal was substantially reversed in May 2025. The dating fix needs no research; the cause clause can't be improvised (RQ-01).
+
+2. **The recurring failure mode is quote handling, and it's on the subject's own words.** The swim quote is cut one clause before he says what the swim is for ("a win every day"), then the article tells the reader to read the silence — that's the page's primary Type 1-vs-3 discriminator. Three perspectives flagged it independently. Same class: Greene's verbal filler read as emphasis, Stockdale's parents' lesson reversed, Bates's clause order inverted inside quotation marks.
+
+3. **The budget is the real constraint.** The body is 4,483 words against the 4,500 ceiling — 17 words of headroom. The full accepted list lands near 4,600. The brief sequences cuts before additions and gives a drop order, but you have a call to make: find the remaining ~100 words of cuts (recommended), drop the bottom two P1s, or argue the ceiling up to ~4,700 via `BLOG_LINT_WORD_CEILING`, which lint documents as legitimate "when the length is argued for."
+
+I did not edit the frozen or live draft, and used none of the three permitted external sources — every adjudication rests on the draft, the packet, and repo verification.

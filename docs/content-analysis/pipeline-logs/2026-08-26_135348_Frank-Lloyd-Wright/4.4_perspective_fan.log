@@ -1,0 +1,16 @@
+Validation passes: all ten required H2 headings in order, declared counts match the document (2 blockers / 7 concerns), frontmatter carries the supplied SHA.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/fan.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 7 concerns.**
+
+**Strongest hit (FAN-H1):** the *lieber Meister* section. It takes two facts every Wright reader already owns — the lifelong reverence for Sullivan, the sixty-year revision of *form follows function* into *form and function are one* — and connects them into "the thing a Seven cannot reframe is the thing he could not afford to lose." That is the fan delight test passed exactly: I knew those moments, I had never connected them that way.
+
+**Highest-priority concern (FAN-R1, blocker):** four lines above that hit, the draft states "Wright never named another influence on his work." Wright named three — Froebel, Sullivan, and the Japanese print — and published an entire book of theory about the third (*The Japanese Print: An Interpretation*, 1912); the Wright Foundation calls him "an active dealer across his career." The draft also refutes itself eight lines earlier ("Wright credited those blocks for the rest of his life"). A flat, checkable falsehood sited in the one section the article cannot afford to lose.
+
+Second blocker (FAN-R2) is one the packet doesn't cover: the Taliesin Fellowship is explained entirely as Wright monetizing proximity, with "cynics called it a cult" raised and answered by an accounting non-sequitur. Olgivanna spent ~7 years with Gurdjieff, and Edgar Tafel — the apprentice this draft quotes twice — wrote that her training shaped the Fellowship's form from the beginning. The omission also inflates the self-preservation claim, since the compound offered as its cleanest evidence was substantially designed by someone else.
+
+Two process notes worth surfacing beyond the review:
+
+- **The freeze didn't hold.** `draft-reviewed.md` hashes to `362a406e…`, matching none of the three SHAs in play. I diffed rather than assumed: the entire delta versus the live draft is Prettier emphasis/quote normalization plus one `path:` line rewritten by label-paths tooling. Normalized, the files are byte-identical, so the audited content is provably correct — but git shows the snapshot modified after staging, so the hash gate is currently decorative.
+- **The snapshot leaks prior verdicts.** Lines 360–472 embed the fresh-eyes, second-pass, and cohesion notes, plus a self-assigned 9.3/A in frontmatter. I hit them while surveying the file, disclosed it, and treated none as findings — neither blocker appears anywhere in them. Future runs should strip these before freezing.

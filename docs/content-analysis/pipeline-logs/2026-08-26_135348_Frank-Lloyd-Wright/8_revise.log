@@ -1,0 +1,22 @@
+Revised `src/blog/people/drafts/Frank-Lloyd-Wright.md`. Lint entered clean, so the entire work list was the grader's B+ (8.5) feedback — all five TO REACH items plus the three NEEDS WORK findings.
+
+**Fixed**
+
+- **Untagged quotes (TO REACH 1).** Philip Johnson's "greatest architect of the nineteenth century" now carries *Hugh Howard, Architecture's Odd Couple (2016)* on the page, where the conclusion answers it. Moses is dated ("wrote to him around 1956"). Tafel's cape-and-cane line opens with *Years with Frank Lloyd Wright* (1979). Wright's waterfall line was a bare narrative quote — it's now the documented 1935 letter to the Kaufmanns, which I verified against The Art Newspaper (already a cited source).
+- **Wing/subtype mechanics spent twice (TO REACH 2 + NEEDS WORK).** Cut the comparative wing and subtype theory from the diagnosis, keeping the one-sentence type call and the person-first evidence. Also deleted "A pure Seven charms you out of complaining. The 8 wing dares you to keep complaining" from the narrative section, so the Johnson Wax turn now runs on the checkbook. Type-theory paragraphs outside diagnosis/Rabbit Hole: 4 → 3, and the Rabbit Hole is now the only place mechanics live.
+- **Restatement (TO REACH 3).** 8-wing-as-verdict is gone from FAQ 2 (replaced with the Research Tower fact); "move your chair" is gone from the TL;DR bullet, dropping it from five reader-visible appearances to two.
+- **Reframe monotony (TO REACH 4).** The lean years no longer resolve on type theory. The Type 4 line is replaced with the felt beat: two people deciding which windows the house could spare, and the interior turn is the omission itself — the man who published a murdered lover and a foreclosure left out the scissors.
+- **Third pointer sentence (TO REACH 5)** cut; grep confirms exactly two remain, both at structural peaks.
+- **Tafel double introduction** fixed — full intro at first mention, bare surname at the second.
+- **Ledgers corrected.** The grader's point that they asserted more than the body delivered was accurate; Distribution, Formula Fingerprint, and Testimony now record real counts and how they were verified.
+
+**Rejected**
+
+- Thinning "brittle shell" further — it's the thesis spine, the cold open is on the protect list, and a TL;DR restating the thesis is the accordion doing its job.
+- Quoting the Kaufmann letter in full. "not just to look at it, but…" trips the contrast-pair detector, which isn't quote-aware — it produced a real lint FAIL. Trimmed to the clause that carries the meaning and noted the trap in the ledger for future passes.
+
+**Lint: clean** — 0 fail, 1 pre-existing warn (word headroom). Body went 4,447 → 4,424 words, so the cuts paid for the new interior beat and four source tags and still returned headroom.
+
+The pipeline will clear the consumed review sidecar and re-grade. One thing worth flagging: the perspective-review directory at `docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/` has no `synthesis.md` or verification artifact, so that gate is still open — this pass ran in standard mode and did not adjudicate those six reviews.
+
+Sources: [The Art Newspaper](https://www.theartnewspaper.com/2026/03/16/fallingwater-endemic-leaking-problems-finally-come-to-an-end-frank-lloyd-wright)

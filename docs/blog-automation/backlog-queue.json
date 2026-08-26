@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-25T06:00:00Z",
+	"lastUpdated": "2026-08-26T08:02:24Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "ryan-holiday",
-			"displayName": "Ryan Holiday",
-			"type": null,
-			"priority": 45,
-			"priorityReason": "The face of modern Stoicism with a massive self-improvement audience; strategy-writer niche performs (Robert Greene at 9.3) and the audiences overlap",
-			"estimatedTraffic": "medium",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "self-improvement-cluster"
-		},
 		{
 			"name": "nara-smith",
 			"displayName": "Nara Smith",
@@ -112,6 +99,45 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "ryan-holiday",
+			"displayName": "Ryan Holiday",
+			"type": null,
+			"priority": 45,
+			"priorityReason": "The face of modern Stoicism with a massive self-improvement audience; strategy-writer niche performs (Robert Greene at 9.3) and the audiences overlap",
+			"estimatedTraffic": "medium",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "self-improvement-cluster",
+			"startedAt": "2026-08-26T06:00:00Z",
+			"completedAt": "2026-08-26T08:02:24Z",
+			"contentGrade": "8.9",
+			"letter": "B+",
+			"discoverability": "9",
+			"duration": "~122 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": ["missing_full_image", "missing_thumbnail_image"]
+		},
+		{
+			"name": "nate-bargatze",
+			"displayName": "Nate Bargatze",
+			"type": null,
+			"priority": 46,
+			"priorityReason": "The biggest clean comedian in America, arena tours and network hosting gigs; stand-up niche performs and he has zero coverage",
+			"estimatedTraffic": "medium",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 2,
+			"strategicValue": "comedy-cluster",
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated.",
+			"startedAt": "2026-08-25T06:00:00Z",
+			"completedAt": "2026-08-26T06:00:00Z",
+			"needsReview": true
+		},
 		{
 			"name": "patrick-mahomes",
 			"displayName": "Patrick Mahomes",
@@ -1639,21 +1665,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "nate-bargatze",
-		"displayName": "Nate Bargatze",
-		"type": null,
-		"priority": 46,
-		"priorityReason": "The biggest clean comedian in America, arena tours and network hosting gigs; stand-up niche performs and he has zero coverage",
-		"estimatedTraffic": "medium",
-		"searchVolume": "high",
-		"personaTitle": null,
-		"addedToQueue": "2026-07-18",
-		"retryCount": 2,
-		"strategicValue": "comedy-cluster",
-		"recoveryNote": "Returned to queue by nightly-blog-cron after a dead launch (no draft, no live pipeline).",
-		"startedAt": "2026-08-25T06:00:00Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "jynxzi",

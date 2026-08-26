@@ -1,0 +1,18 @@
+All eleven required H2 headings present in order, counts match frontmatter.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/unfamiliar.md`
+
+**Verdict:** `revise` — trust `strained`, value `high`, delight `clear_hit`. 1 blocker, 11 concerns.
+
+**Strongest hit:** the burial passage (`UNFAM-H4`) — "Then Wright took the shovel and filled the grave himself, alone, until the August light was gone," followed by "A marker is an address, and an address is a place you can be expected to return to and sit in." It needs zero background, and it's the only place the argument becomes a person. Runner-up is the Type 7 core-fear gloss at 12%, which is the sentence that makes the whole article legible to a newcomer.
+
+**Blocker (`UNFAM-R1`):** the draft contradicts itself 252 words apart. Word 1,229: "Wright credited those blocks for the rest of his life." Word 1,481: "Wright never named another influence on his work." I caught it unaided on the first read, and it sits inside the Sullivan section the pipeline treats as its best argument. The packet confirms it's also false externally (CLM-08, status *contradicted* — Wright named three influences, including Japanese prints). Repair is to narrow the universal: Sullivan was the only influence who was a man who could leave.
+
+**Highest-priority concern (`UNFAM-C1`):** "growth line to Five" is used once, undefined, at the exact pivot that resolves the Type 5 objection — and that objection is the draft's entire stated differentiator (`meta_title`: "Not a 5w4"). The plain-English rebuttal lands; the reconciliation ("Wright visited. He never moved in.") is opaque without the term. Nine words fixes it.
+
+Two process notes worth surfacing:
+
+- **The freeze isn't byte-stable.** The snapshot hashes `362a406e…`, not the contracted `cae935d9…`. I adjudicated it before reading: `cae935d9…` is the *live* draft's hash, and the snapshot has since been rewritten by Prettier plus label-paths (`*italic*`→`_italic_`, YAML quote style, and the `path:` line). Normalized diff confirms no substantive change. This will recur on every perspective run for every subject.
+- **My one permitted search overturned my own draft finding.** I had provisionally scored "the architect of Fallingwater" in sentence one as a top orientation blocker. Fallingwater turns out to draw 120k–181k visitors a year and was voted the AIA's best all-time work of American architecture — the name genuinely orients a general reader. I downgraded it to a concern-level note rather than keeping a finding that was actually my own ignorance.
+
+I also logged `UNFAM-Q4` rather than scoring it: the packet flags the "forty-five years" unmarked-grave figure as probably wrong (likely 71 years, marked in 1985). It's undetectable from this standpoint since the draft's internal arithmetic is self-consistent, but it sits inside the passage I named the strongest hit — so it's flagged for whichever juror owns factual verification.

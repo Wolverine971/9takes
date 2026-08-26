@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Ryan-Holiday (Type 1)
+/Users/djwayne/9takes/src/blog/people/drafts/Ryan-Holiday.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 37
+Comparison set (last 8 other Type-1 drafts by date):
+  - james-clear  (2026-08-19, 28 units)
+  - ben-shapiro  (2026-08-15, 38 units)
+  - caitlin-clark  (2026-08-12, 52 units)
+  - Judge-Judy  (2026-05-25, 23 units)
+  - hayao-miyazaki  (2026-05-21, 29 units)
+  - martha-stewart  (2026-05-16, 12 units)
+  - anna-wintour  (2026-05-13, 21 units)
+  - mahatma-gandhi  (2026-05-06, 14 units)
+
+Noise floor over 8029 unit pairs:  median=0  p90=0  p99=0.007  max=0.046
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.046 ##                   anna-wintour
+  0.038 ##                   caitlin-clark
+  0.034 #                    james-clear
+  0.025 #                    mahatma-gandhi
+  0.025 #                    Judge-Judy
+  0.021 #                    ben-shapiro
+  0.021 #                    hayao-miyazaki
+  0.012                      martha-stewart
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.046   Ryan-Holiday  <->  anna-wintour
+   TARGET [diagnosis] it demands accountability." That is a real argument with a site like this one.
+   OTHER  [diagnosis] That is a Type 1 explaining why the verdict came back guilty again.
+
+score 0.038   Ryan-Holiday  <->  caitlin-clark
+   TARGET [counter-typing] So far the record runs the other way
+   OTHER  [counter-typing] The anger runs the wrong direction
+
+score 0.034   Ryan-Holiday  <->  james-clear
+   TARGET [diagnosis] And it doesn't matter how badly the writing goes
+   OTHER  [diagnosis] he's naming the engine that drives the writing
+
+score 0.026   Ryan-Holiday  <->  caitlin-clark
+   TARGET [counter-typing] So far the record runs the other way
+   OTHER  [counter-typing] The other alternative worth naming is Type Eight
+
+score 0.025   Ryan-Holiday  <->  mahatma-gandhi
+   TARGET [diagnosis] he reached for conscientious and a good person
+   OTHER  [diagnosis] there is a right way and a wrong way
+
+score 0.025   Ryan-Holiday  <->  Judge-Judy
+   TARGET [counter-typing] and Holiday has spent well over a decade building three of them.
+   OTHER  [diagnosis] and Judy's authority always defers
+
+score 0.023   Ryan-Holiday  <->  caitlin-clark
+   TARGET [counter-typing] So far the record runs the other way
+   OTHER  [diagnosis] the records chased since high school
+
+score 0.022   Ryan-Holiday  <->  caitlin-clark
+   TARGET [diagnosis] In a filmed conversation about The Laws of Human Nature
+   OTHER  [diagnosis] asked about the line between competitiveness and obsessiveness
+
+score 0.022   Ryan-Holiday  <->  caitlin-clark
+   TARGET [counter-typing] The Three case is legitimate and should be stated at full strength.
+   OTHER  [counter-typing] The Three that competes here is the self-preservation Three
+
+score 0.021   Ryan-Holiday  <->  caitlin-clark
+   TARGET [counter-typing] sustained evidence that he abandons a standard when it stops paying.
+   OTHER  [counter-typing] evidence that she adjusts her self-presentation by audience
+
+score 0.021   Ryan-Holiday  <->  ben-shapiro
+   TARGET [diagnosis] And it doesn't matter how badly the writing goes
+   OTHER  [diagnosis] A 1w2 doesn't seethe quietly.
+
+score 0.021   Ryan-Holiday  <->  hayao-miyazaki
+   TARGET [counter-typing] and Holiday has spent well over a decade building three of them.
+   OTHER  [diagnosis] Miyazaki has been doing this for sixty years.
+
+------------------------------------------------------------------------------
+Top pair scores 0.046 vs median 0  (~∞x the noise floor).

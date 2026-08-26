@@ -1,0 +1,25 @@
+Second pass done on `src/blog/people/drafts/Frank-Lloyd-Wright.md`.
+
+## What changed
+
+**Source traceability (the first-order item).** All 5 load-bearing quotes are now `inline` — 0 vague, 0 untagged. That required adding four names to the `OUTLETS` list in `scripts/blog-source-audit.mjs` (`The Mike Wallace Interview`, `Enneagram Monthly`, `S.C. Johnson`), with a dated comment following the same practice as the Ms-Rachel and Jonathan-Bailey passes. Without them, ABC's 1957 broadcast graded untagged no matter how precisely it was cited.
+
+**Three factual errors the research turned up, which the fresh-eyes notes hadn't caught:**
+- Wingspread was completed in **1939**, not 1937 (designed from late 1936, built May 1938–39). The FAQ asserted 1937.
+- Wright took Johnson's call **in Arizona**, not at Taliesin.
+- The water came through the roof, not "the cantilevered roof" — Wingspread's roof is a three-tier clerestory. Removed the structural claim.
+- Also dropped "fired his son John **by cable**" from FAQ #4. The fresh-eyes version (collected the fee, deducted back wages, fired by cable) isn't supportable; the Smithsonian/Lemelson version is, so that's what ran.
+
+**The Mamah section is rebuilt.** The conclusion's "buried her at Taliesin… where he could keep her in the frame" was wrong and contradicted by the record. She was buried at Unity Chapel and Wright refused a marker for 45 years. The section now runs on that refusal, with the cut-garden burial from *An Autobiography* ("So I cut her garden down…") as the empathy turn the draft never had. Stronger evidence for the thesis than the four-month timeline was.
+
+**Type 5 rebuttal** added with its own H3 beside the Type 4 one, plus a growth-line-to-Five frame explaining what the 5w4 crowd is actually seeing. **Johnson Wax counter-turn** added inside the "move your chair" H2 (Administration Building 1936–39, sixty-ton column test, Research Tower 1944–51 — the client kept paying for fifteen years). **John Lloyd Wright** now pays off the six-children setup.
+
+**Lint: 5 fails → 0.** Rabbit Hole added, meta_title now carries the head term and names the 5w4 rival, prose em-dashes 47→0, contrast-pair engines 5→0, links 7→5, body 5,021→4,489 words.
+
+## Still open
+
+- The building-count discrepancy is one-sided. I could confirm the Foundation's 1,114/532 but not Britannica's lower figure, so the text says only that tallies vary.
+- The leak dinner has no firm year. The house was finished in 1939, Sam Johnson was thirteen at the table (b. 1928), which points at 1941–42 — but no source states a date, so the draft gives none.
+- Body sits 11 words under the ceiling. Lint still warns on headroom; the next refresh has to cut before it adds.
+
+One thing worth flagging: other files in the repo (`Tate-McRae.md`, `Jeremy-Allen-White.md`, `corpus-stats.md`, `famousTypes.ts`) picked up modifications during this session that aren't mine — something else is running in parallel. I left them alone.

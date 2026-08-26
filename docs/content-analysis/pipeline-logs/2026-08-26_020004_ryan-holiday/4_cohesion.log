@@ -1,0 +1,57 @@
+All edits verified. Here's the audit.
+
+## Cohesion Check Complete: `src/blog/people/drafts/Ryan-Holiday.md`
+
+**Before score: 7/10**
+**After score: 8.5/10**
+
+### Central Thesis
+Holiday's most-repeated rule — "tolerant with others, strict with yourself" — is a rule he can't keep, because the same wiring that produces the daily untimed swim also forces him to correct a wrong in public whether it costs him a Naval Academy stage or his composure on camera.
+
+### Thread Map
+
+| # | Section | Contribution | → next |
+|---|---------|--------------|--------|
+| 1 | Personality type | The swim strips every metric, so it yields a verdict, not a record | the demand has an origin |
+| 2 | Dropped out at 19 | Detective + principal household; he relocated the enforcer inward | he wrote it down himself |
+| 3 | Two Sides (2011) | Pre-fame self-diagnosis: the divided house, "the fear of simply just being" | the reckless half left a résumé |
+| 4 | Quit or repoint? | American Apparel → *Trust Me, I'm Lying* → NFL adoption; restitution-or-laundering left open | the machine bills him |
+| 5 | Naval Academy | 381 books, one hour, he declines; same mechanism, read as courage | the wiring needs daily maintenance |
+| 6 | Every morning | Swim, note cards, journals, Painted Porch: the structure that holds | (Rabbit Hole) |
+| 7 | What kind of father | Counter-case: the one place he withholds the standard | restraint at home ≠ restraint in public |
+| 8 | The week he could not be tolerant | Bates conceded; the leak; Pigliucci 2015 as control case | — |
+| 9 | The Court of One | Untimed swim + unread journals + the 2011 sentence | close |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 8/10 | 9/10 |
+| Promise-Delivery Match | 8/10 | 8/10 |
+| Reader Mental Model | 6/10 | 8/10 |
+| Section Transitions | 5/10 | 8/10 |
+| Internal Paragraph Flow | 8/10 | 9/10 |
+
+### Changes Made (11 total)
+
+**Transition fixes (4):**
+- **§4 → §5** was the worst break in the piece: "still living inside the question" → "For four years running, Holiday had gone to Annapolis." Added *"The machine costs him, though, and the clearest bill came due in Annapolis,"* carrying the section's own "machine" keyword across the boundary.
+- **§5 → §6** was broken: institutional confrontation → "He gets in the water." Added *"The rest of the time he holds, and the holding is daily work,"* which also pre-loads §8's payoff ("the structure gave").
+- **§3 → §4**: "The résumé from **those years**" had a dangling referent (the nearest antecedent was *Stillness Is the Key*, 2019). Now *"The half he called reckless left a résumé"* — anchors to the essay's own word and makes §4 read as continuation rather than a new topic.
+- **§7 → §8**: the real bridge (he can withhold the standard from his sons, not from a stranger) was unstated. Added *"The restraint he manages at home is the restraint that failed him in public."*
+
+**Orphaned thread (1):**
+- *"I'm good at quitting actually"* was dropped at a section break and never picked up, and it read as cutting against the section's own argument. Resolved in-place: *"He is, and he has quit everything except the demand."*
+
+**Internal flow / redundancy cuts (6):** removed three filler reader-directives ("Sit with that household for a second," "Notice what he did not do," and the announce-then-deliver "it deserves a straight answer. The answer is that"); cut the first of three consecutive "we won't settle this" statements inside §4; cut §5's restatement of its own opening ("a stage he had returned to for five years running"); cut the journals sentence that restated the Ruhle quote directly above it.
+
+### What Was Preserved
+- All frontmatter, all four ledgers, both review comment blocks, the Rabbit Hole `<details>`, `key-stat`, `source-card`, `inner-thought`, and TL;DR blocks
+- All 5 internal links, `lastmod` untouched
+- "Two Sides" and "A note on the obvious objection" untouched, per the fresh-eyes protect list
+- §1→§2, §6→§7, §8→§9 left alone — already strong
+
+### Verification
+`blog-lint.sh`: **0 fail, 2 warn** — same two pre-existing warns (missing `faqs`, thin word headroom). Body went **4,476 → 4,475 words**, so every bridge was paid for with a cut and the piece is one word under where it started.
+
+### Remaining Concerns
+1. **§5 sets up a payoff §8 delivers ~1,400 words later.** "Hold this episode next to the video that came a year later" asks the reader to hold a thread across the morning-routine section, the Rabbit Hole, and the father section. The two new bridges now make that interval read as *building* toward the return rather than detouring, but the cleanest structural fix would be moving §7 (father) ahead of §6 (morning routine) so the Rabbit Hole and the morning section sit adjacent to §8. That's a reordering call, not a bridging one, so I left it to you.
+2. **The title's rule goes dormant.** "Tolerant with others, strict with yourself" is named in the intro and not touched again until §8. §5 is the natural place for a half-sentence callback — the Naval Academy *is* him being strict with others — but the word ceiling gave me nothing to spend. Worth one sentence if you cut something first.

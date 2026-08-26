@@ -1,0 +1,14 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/future.md`
+
+**Verdict:** trust intact · value high · delight clear_hit · **recommendation: revise** · **0 blockers, 5 concerns**
+
+**Strongest hit (FUTURE-H1/H2):** The piece's one recent-news anchor — the March 2026 Fallingwater renovation — is both absolutely dated *and* constructed to report the project and a quoted characterization rather than an outcome. It never claims the leaks are fixed, which matters because the article's own thesis is that Wright's buildings leak. I ran the removal test: delete that sentence and the paragraph, section, and thesis all stand. The 2026 material is an appendix used as an appendix. Body-wide scan found zero unanchored "recently/currently/today/now/upcoming"; every "still" sits inside past-tense narration.
+
+**Highest-priority concern (FUTURE-C1):** The single most perishable claim is the only one with no source a reader can reach. `citations:` feeds both `ArticleSources.svelte` and `personJsonLd.ts` → `node.citation`, and its 12 entries include six Wikipedia links but no Art Newspaper, Smithsonian, Dezeen, or Archinect URL — the renovation sources live only in an HTML comment. The article names *The Art Newspaper* in prose as its authority and then gives no way to check it. One-line frontmatter fix.
+
+Runner-up (FUTURE-C2): *"If you have searched his type before, you probably arrived holding '5w4'"* is falsified by this page succeeding — the entity-gap packet names that exact query as its one open lane. Research downgraded my initial hypothesis here: the 5w4 field is static editorial pages, not vote-churned profiles, so the claim itself is durable; only the reader-state prediction expires. Net-zero-word repair.
+
+Two things to flag outside the review's findings:
+
+- **The freeze mechanism is leaky.** `draft-reviewed.md` on disk hashes to `362a406e…`, matching neither `context.json` nor the supplied SHA. I diffed rather than assumed: 56 differing lines, all cosmetic (quote style, `*`→`_`, the `path:` relabel). Normalizing those makes the files byte-identical to the live draft at `cae935d9…`, so the audited prose is correct — a Prettier/label-paths pass ran over the snapshot after freezing. Worth excluding `perspective-reviews/**` from that tooling before a real edit hides inside the same ambiguity.
+- **Unrelated to this task:** the `buildos` MCP server needs authorization (via claude.ai connector settings or `claude mcp` in an interactive session); it's unavailable in this non-interactive run.

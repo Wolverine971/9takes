@@ -1,0 +1,30 @@
+```
+Frontmatter enrichment complete: Ryan-Holiday
+```
+
+**Fields filled (new):**
+`wikidata_qid`, `citations`, `faqs` — plus 2 additions to the under-filled `same_as` list (was 2 items, now 4).
+
+**Fields already present (preserved untouched):**
+`wikipedia`, `birth_date`, `birth_place`, `nationality`, `occupation` (4), `knows_about` (5), `keywords` (10), `twitter`, `instagram`, `lastmod`, and everything creator-owned.
+
+**Verification:**
+- Wikipedia URL confirmed as this exact person via the MediaWiki API — `Q7384151`, "American author (born 1987)".
+- `imdb_id` **omitted deliberately.** Wikidata has no `P345` claim, and IMDb's suggestion index returns at least four separate "Ryan Holiday" name entries (`nm9692637` "Writer, Killing Gawker", `nm18682151`, `nm7465910`, `nm10202371`). Neither confirmation path cleared, so no guess written.
+- Every citation URL was resolved or corroborated. `ryanholiday.net/two-sides/`, `/letter/`, `/an-interview-on-stoicism-with-massimo-pigliucci/`, ESPN, and the Ataraxia or Bust piece all return 200 with matching content; PEN America and Mediaite return 403 to curl (bot blocking) but are the canonical URLs, with titles matching the quotes the body uses.
+- `openlibrary.org/authors/OL7099653A` is the author entity Wikidata itself points to (`P648`).
+
+**FAQs generated (5):**
+1. What is Ryan Holiday's personality type? → `#what-is-ryan-holidays-personality-type`
+2. Why did Ryan Holiday drop out of college? → `#why-ryan-holiday-dropped-out-of-college-at-19`
+3. Did Ryan Holiday really quit manipulating the media? → `#did-ryan-holiday-quit-manipulating-the-media-or-repoint-it`
+4. Why did the Naval Academy cancel Ryan Holiday's lecture? → `#why-the-naval-academy-canceled-ryan-holiday`
+5. Why did Ryan Holiday post the Ivanka Trump video? → `#the-week-ryan-holiday-could-not-be-tolerant`
+
+All five anchors were computed through the actual `slugify()` in `src/lib/server/blogContentProcessor.ts:42` against the draft's real H2s, so each deep-links to a live section. FAQ #3 and #5 preserve the body's unresolved tensions rather than settling them (restitution-or-laundering; Bates's brand read left standing).
+
+**Issues:**
+- **The body contains zero inline external links** — every source is named in prose only (Mediaite, ESPN, PEN America, *NYT* op-ed, Daily Stoic, Diary of a CEO). `citations` was therefore rebuilt by resolving those named sources to verified URLs rather than harvested from the markdown. Worth knowing this is the norm on the people path, not a Ryan-Holiday-specific gap.
+- The *New York Times* op-ed the body references ("a sequence he laid out afterward in a *New York Times* op-ed") is **not** in `citations`. nytimes.com is blocked to the search crawler and the research packet only ever fetched a Princetonians for Free Speech republication. The claim is corroborated by the PEN America and ESPN citations that are included.
+- `pnpm blog-lint` on the enriched file: **0 fail, 1 warn** — the pre-existing 4,498/4,500 word warning from the editor pass. New checks passed: "faqs present and FAQPage-eligible (5 real Q/A pairs)" and "no templated FAQ filler".
+- Both `SECOND PASS NOTES` and `EDITOR PASS NOTES` list "frontmatter `faqs` still missing (enrich stage has not run)" as open. That's now closed, but I left the comment blocks untouched per the command's constraints — the next stage will see stale notes there.

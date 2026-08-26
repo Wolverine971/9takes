@@ -1,0 +1,21 @@
+All eleven required H2 headings present in order, counts match the document (3 blockers, 6 concerns), SHA verified against both `context.json` and the supplied argument.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Ryan-Holiday/2026-08-26_020004/critic.md`
+
+**Verdict:** `revise` — trust strained, value useful, delight clear_hit. **3 blockers, 6 concerns.**
+
+**Strongest hit — CRITIC-H1, the Bates concession:**
+> "Concede the accurate parts, because most of them are accurate. He does run a brand. He projected a strict standard onto a person who never signed up for it, the specific error his own company has written newsletters warning against, and then he compounded it for days."
+
+It concedes the critic's substance in three clauses, adds an aggravating fact the critic didn't supply, and declines to soften "for days." That paragraph is why the page has standing to argue at all.
+
+**Highest-priority concern — CRITIC-R1 (blocker):** the article's load-bearing exculpatory move, *"That is not a strategy. That is a leak,"* fails three ways. It refutes a claim Bates didn't make (he claimed the *grievance* was territorial, not that the video was cold calculation — sincere fury and territorial fury are the same feeling). "Leak" is contradicted by the artifact: someone cut a split screen, left the eye-rolls in, and uploaded it, and the draft never crosses the gap between the smirk and the publication. And "he had a hundred cleaner moves" is refuted by the draft's own section 4, which spends 800 words establishing that this man wrote the manual on why messy outrage-shaped content outperforms clean content.
+
+Close behind, **CRITIC-R2:** the March 2015 Pigliucci "control case" isn't controlled. In 2015 Holiday had no Stoicism franchise to defend; by 2026 he owned the category — so the brand thesis *predicts* the divergence, and the beat the draft offers as its falsifier reads at least as well as confirmation. The draft's ledger claims this makes the reframe "falsifiable rather than exculpatory." It doesn't.
+
+Two things worth flagging beyond the review itself:
+
+- **CRITIC-R3 is a one-line fix, twice.** The packet caught it and I confirmed it: Bates wrote *"More than anyone else, Holiday has turned Stoicism into a brand"*; the draft prints those words rearranged inside quotation marks. Meaning intact, but it's a fabricated verbatim from the page's only named critic, on a public Substack one search away.
+- **CRITIC-C4 rests on research this session:** `store.dailystoic.com` sells $30 memento mori medallions, coin bundles, courses, and a $430 membership. The draft asks readers to adjudicate "brand vs. practice" without ever showing the brand. This sits *outside* the packet's landmine list — those bar unreliable net-worth and copies-sold figures, not published product lines.
+
+One research note: the widely circulated Pigliucci "that's not Stoicism" line surfaced again in search summaries with no locatable original outlet, exactly as the packet recorded. I declined to use it, and marked the stronger version of CRITIC-C6's repair conditional on future source-pinning — his site returned 403.

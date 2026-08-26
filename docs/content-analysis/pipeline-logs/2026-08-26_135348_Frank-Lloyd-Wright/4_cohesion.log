@@ -1,0 +1,35 @@
+## Cohesion Check Complete: `src/blog/people/drafts/Frank-Lloyd-Wright.md`
+
+**Before score: 7/10**
+**After score: 9/10**
+**Lint: 0 fail, 1 warn (pre-existing headroom warn). Body 4,489 → 4,488 words.**
+
+### Central Thesis
+Wright's genius and his cruelty ran on the same engine — a Self-Preservation Seven's refusal to sit still inside pain, weaponized by an 8 wing into verdicts instead of apologies — and at ninety he admitted on camera that the arrogance holding it up was a shell he knew was a shell.
+
+### Changes Made (9 total)
+
+**Transition Fixes (5):**
+- **§3 → §4**: section now opens on the Harlan House firing, so "a son finishing his father's sentence" hands off to Wright doing the leaving. Also deleted the duplicate re-explanation of the 1893 bootleg firing §3 already gave (−5 words) and a latent "setback / launch" contrast engine.
+- **§4 → §5**: added "Taliesin was three years old." Resets the clock after the John Lloyd Wright flash-forward to 1946 — the sharpest whiplash in the draft.
+- **§5 → §6**: added "Then the blueprints stopped selling." States the irony the joint was leaving to inference.
+- **§8 → §9**: opener is now "Moses got his way." The Guggenheim carries the joint instead of "The compound instinct never stopped," which was a non-sequitur after Moses and got abandoned one sentence later. Net −7 words.
+- **§9 internal**: "He kept building." echoes the prior paragraph's last words before the Philip Johnson rebuttal, which previously jumped from interior psychology to critical reputation with no step.
+
+**Internal Flow Fixes (3):**
+- §6: "The money went first" → "The lean stretch took the money first" (the Okura aside sits between it and its referent).
+- §8: Tafel re-introduced as if new; §7 already names him. Now a second reference.
+- Cold open: "America's most famous architect" → "the architect of Fallingwater" — net-zero swap that orients the Fallingwater-only reader in sentence one. Beat sequence untouched.
+
+**Thread Fixes (1):** §9 now delivers what its H2 promises instead of leading with a résumé beat.
+
+### What Was Preserved
+All frontmatter (YAML re-validated), FAQs, ledgers, Rabbit Hole, all 5 internal links, and the entire protect list: cold-open sequence, lieber Meister section, Okura telegram, curtains-into-handkerchiefs, Philip Johnson concession, final paragraph. Four transitions were already strong and untouched (§2→§3, §6→§7, §7→§8, and the intro→diagnosis handoff).
+
+### Two things for your call
+
+1. **The §9 rewrite dropped one clause**: "the Self-Pres Seven's good life trimmed to a middle-class budget," glossing the Usonian houses. The Usonians survive as a fact; the type gloss went. Self-pres compound is already evidenced in §1 and §6 and called back in §9, so the thread still closes — but restoring it costs ~11 words against 12 of headroom.
+
+2. **Not fixed, deliberately**: the H3 "Why Frank Lloyd Wright is not a Type 5" also houses the Type 4 rebuttal. The pivot sentence signals it, but the heading promises less than the section delivers. I left it because that heading is load-bearing for lint and the HEADING MIX LEDGER.
+
+One correction to the file's own record: the SECOND PASS NOTES "Still open" item says the body sits at 4,489. It's now 4,488 — I left that historical note intact and stated the current figure in the new COHESION PASS block instead.
