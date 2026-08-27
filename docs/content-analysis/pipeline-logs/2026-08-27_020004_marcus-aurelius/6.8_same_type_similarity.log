@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Marcus-Aurelius (Type 1)
+/Users/djwayne/9takes/src/blog/people/drafts/Marcus-Aurelius.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 44
+Comparison set (last 8 other Type-1 drafts by date):
+  - Ryan-Holiday  (2026-08-26, 37 units)
+  - aaron-pierre  (2026-08-26, 16 units)
+  - james-clear  (2026-08-19, 28 units)
+  - ben-shapiro  (2026-08-15, 38 units)
+  - caitlin-clark  (2026-08-12, 52 units)
+  - Judge-Judy  (2026-05-25, 23 units)
+  - hayao-miyazaki  (2026-05-21, 29 units)
+  - martha-stewart  (2026-05-16, 12 units)
+
+Noise floor over 10340 unit pairs:  median=0  p90=0  p99=0.005  max=0.082
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.082 ###                  hayao-miyazaki
+  0.042 ##                   james-clear
+  0.036 #                    caitlin-clark
+  0.035 #                    Ryan-Holiday
+  0.029 #                    ben-shapiro
+  0.025 #                    martha-stewart
+  0.025 #                    Judge-Judy
+  0.024 #                    aaron-pierre
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.082   Marcus-Aurelius  <->  hayao-miyazaki
+   TARGET [counter-typing] The strongest objection is not a rival type at all.
+   OTHER  [diagnosis] an artistic compromise is not a quality issue.
+
+score 0.079   Marcus-Aurelius  <->  hayao-miyazaki
+   TARGET [counter-typing] The strongest objection is not a rival type at all.
+   OTHER  [diagnosis] He is not a public crusader like Greta Thunberg.
+
+score 0.042   Marcus-Aurelius  <->  james-clear
+   TARGET [diagnosis] Book 5 carries an instruction he needed
+   OTHER  [diagnosis] Enneagram Ones carry an internal courtroom.
+
+score 0.037   Marcus-Aurelius  <->  hayao-miyazaki
+   TARGET [counter-typing] Ones are supposed to correct other people
+   OTHER  [diagnosis] Type Ones are sometimes called Reformers
+
+score 0.036   Marcus-Aurelius  <->  caitlin-clark
+   TARGET [counter-typing] The strongest objection is not a rival type at all.
+   OTHER  [counter-typing] The strongest case against is Type Three
+
+score 0.035   Marcus-Aurelius  <->  Ryan-Holiday
+   TARGET [counter-typing] and he builds the Five's ideal explicitly
+   OTHER  [counter-typing] The Five case is thinner but real
+
+score 0.030   Marcus-Aurelius  <->  Ryan-Holiday
+   TARGET [diagnosis] A Six in that position is managing danger.
+   OTHER  [diagnosis] His entire position is that character is a practice
+
+score 0.029   Marcus-Aurelius  <->  ben-shapiro
+   TARGET [counter-typing] evidence that the self-criticism was situational.
+   OTHER  [counter-typing] or that his public self-criticism functions mainly as reputation management.
+
+score 0.026   Marcus-Aurelius  <->  caitlin-clark
+   TARGET [diagnosis] With Marcus the room was always empty.
+   OTHER  [diagnosis] But a Three protects the visible outcome and manages the room to keep the image intact.
+
+score 0.026   Marcus-Aurelius  <->  hayao-miyazaki
+   TARGET [diagnosis] apologising to Fronto for an exercise he had not written
+   OTHER  [diagnosis] - Moral language for an aesthetic craft.
+
+score 0.026   Marcus-Aurelius  <->  caitlin-clark
+   TARGET [counter-typing] Type 1 is also among the rarest reads in the 9takes corpus (corpus stats).
+   OTHER  [counter-typing] Every discriminator above is also sp-Three behavior.
+
+score 0.025   Marcus-Aurelius  <->  martha-stewart
+   TARGET [counter-typing] Ones are supposed to correct other people
+   OTHER  [diagnosis] The 1w2 wants to fix the world by showing other people how to fix it
+
+------------------------------------------------------------------------------
+Top pair scores 0.082 vs median 0  (~∞x the noise floor).

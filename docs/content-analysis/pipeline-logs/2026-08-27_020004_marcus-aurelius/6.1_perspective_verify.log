@@ -1,0 +1,12 @@
+The deterministic gate accepts the artifact.
+
+**Output:** `docs/content-analysis/perspective-reviews/Marcus-Aurelius/2026-08-27_020004/verification-initial.md`
+**verification_status:** `pass`
+**open_p0:** 0
+**protected_hit_regressions:** 0
+
+All nine P0 repairs pass their own acceptance tests, checked against the primary sources rather than the editor's self-report. Two assertions entered the page as part of repairs without a packet trail — Long's 1877 Epictetus edition and the *Discourses* 3.10 wording — and I settled both independently (Wikisource text read whole; Bell and Sons, London, 1877 confirmed). All fourteen protected hits survive, including PROTECT-08's edition-of-record attributions, which the source audit confirms at 6 inline / 0 vague / 0 untagged.
+
+Two accepted P1s (P1-01 genre objection, P1-02 Med. 11.18) are deferred with reason — the draft is at 4,495 of 4,500 body words — and escalated to you as a `BLOG_LINT_WORD_CEILING` decision, which is where the synthesis put it. That does not fail the gate but it is Remaining work #1; the synthesis prefers P1-02 if only one is affordable.
+
+Sources: [Wikisource — Long's *Discourses of Epictetus*](https://en.wikisource.org/wiki/The_Discourses_of_Epictetus;_with_the_Encheiridion_and_Fragments), [Online Books Page — George Long](https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Long,+George,+1800-1879)

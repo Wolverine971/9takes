@@ -1,0 +1,12 @@
+Saved: `docs/content-analysis/perspective-reviews/Marcus-Aurelius/2026-08-27_020004/enneagram.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · **recommendation: revise**
+**Blockers: 3 · Concerns: 7** (SHA verified against `context.json` and the supplied `--draft-sha` before reading)
+
+**Strongest hit** — the diagnosis reaches motivation, not behavior, at the one place it matters: *"His worry is not that something bad will happen to him. It is that he may not deserve his own teacher."* That is the Six/One distinction (danger vs. desert) made from Marcus's own words with no type vocabulary, and it's rare in this genre. Two blocker repairs exist mainly to protect it.
+
+**Top blocker (ENN-R1)** — the draft's stated clincher, *"the marking continues in an empty room,"* describes a prescribed exercise, not a personality signature. Epictetus — whom this page itself credits as Marcus's entry into Stoicism — assigns exactly that nightly audit (*Discourses* 3.10.2–3, quoting the Golden Verses). As printed, the sentence that announces itself as decisive types the school rather than the man. The repair is word-neutral and stronger than what it replaces: the prescription has two columns — "blame what is wrong, in what is right rejoice" — and Marcus runs only one. Book 1 is seventeen entries of rejoicing with every line credited to somebody else. What's diagnostic isn't that he audited himself; it's that he couldn't perform the half that says rejoice.
+
+**Highest-priority concern (ENN-C3)** — the draft quotes Med. 11.18's nine-rule anger protocol and stops immediately before the passage where Marcus names *self-reproach* as the fourth aberration of the ruling faculty. That is the strongest disconfirming line in the corpus, it's in the section already cited, and its absence reads as avoidance. ~45 words fixes it, and the answer is itself a good insight: an instruction to stop reproaching yourself, filed privately among nine other corrections, is another correction.
+
+Also blocking: the 1w2 wing call is contradicted by the article's own thesis sentence ("taught nobody, built no school, published no doctrine") and by the 9takes wings page it hyperlinks, which defines 1w2 as teaching-oriented and outward; and the Type 6 rebuttal is declared "clean" on a letter whose opening line calls Fronto's praise a deliberate rhetorical device. Neither requires changing the type.

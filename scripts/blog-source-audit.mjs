@@ -503,7 +503,20 @@ const OUTLETS = [
 	'The Mike Wallace Interview',
 	'Mike Wallace Interview',
 	'Enneagram Monthly',
-	'S.C. Johnson'
+	'S.C. Johnson',
+	// Classical primary-source editions of record (Marcus-Aurelius pass,
+	// 2026-08-27). Before this the audit had no vocabulary for a pre-modern
+	// subject at all: the wording of record for a Roman emperor is a named
+	// scholarly translation, and "Loeb Classical Library vol. 1, p. 217" is a
+	// far more checkable citation than most magazine attributions, yet it
+	// graded untagged. Same class as C.G. Jung Speaking (Princeton UP) above.
+	// George Long is listed by name because a Meditations quotation is only
+	// traceable through the translator whose wording it is; the script already
+	// lists individual people as outlets of record (Zane Lowe, Kevin McCarthy).
+	'Loeb Classical Library',
+	'Historia Augusta',
+	'Roman History',
+	'George Long'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when
@@ -587,8 +600,13 @@ function hasOutlet(text) {
 	return null;
 }
 
+// Years: modern four-digit years, nineteenth-century publication dates (a
+// standard translation is dated by its edition, e.g. Long's Meditations of
+// 1862), and explicitly era-marked ancient years ("162 AD", "44 BC"). The
+// era marker is required for anything under four digits so bare counts and
+// page numbers cannot masquerade as dates (Marcus-Aurelius pass, 2026-08-27).
 function hasYear(text) {
-	const m = text.match(/\b(?:19|20)\d{2}\b/);
+	const m = text.match(/\b(?:18|19|20)\d{2}\b|\b\d{1,4}\s?(?:AD|BC|CE|BCE)\b/);
 	return m ? m[0] : null;
 }
 

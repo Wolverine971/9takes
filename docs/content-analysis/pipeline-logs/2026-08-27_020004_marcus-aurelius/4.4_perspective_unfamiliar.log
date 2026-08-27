@@ -1,0 +1,19 @@
+Frontmatter counts match the document; all eleven required H2s present and in order.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Marcus-Aurelius/2026-08-27_020004/unfamiliar.md`
+
+**Verdict:** `revise` — trust intact, value high, delight clear_hit. **0 blockers, 8 concerns.**
+
+The article passes my perspective's core test: I could state the thesis and the type answer unaided, and it explains the Enneagram claim through what Marcus did rather than through system vocabulary.
+
+**Strongest hit (UNFAM-H3):** "…the standard measures whether you are good at the root, and the marking continues in an empty room. With Marcus the room was always empty." That's the jargon-free definition the whole page's accessibility rests on. The Alsium/polecat cold open (H1) is the best zero-prerequisite entry point I've read in this corpus.
+
+**Highest-priority concern (UNFAM-C1):** In the bio section, "Marcus found the Stoics, through the man he thanks for it in his notebook…" never names the man. Fronto is named twice in the two preceding sentences, so a newcomer attaches the credit to Fronto — the reverse of the fact, and a contradiction of the clause right before it. It's *Meditations* 1.7, headed "From Rusticus." I found this on the unaided read; the packet reached it independently (CLM-02), and my one orientation search confirmed that naming Rusticus and glossing Epictetus is standard for general audiences, so it's a draft omission rather than my ignorance.
+
+I deliberately did **not** promote it to a blocker, and the reasoning matters: an unfamiliar reader's trust survives this error because they cannot detect it — which is exactly what makes it worth fixing pre-publication. Subject/fan/critic may reasonably escalate.
+
+Three notes on process worth surfacing:
+
+- The frozen snapshot embeds a prior **FRESH EYES REVIEW** and **SECOND PASS NOTES** in HTML comments. I've disclosed this in Limits. I derived every finding from my own read and verified each with my own counts before opening the packet — and where that block complained about something I found already fixed (the Book 8 quotation repetition), I checked and dropped the complaint rather than inheriting it.
+- UNFAM-C3 changed shape after the packet: the coy "register runs hotter" sentence is governed by a *binding no-romantic-claim handling rule*, so my repair is "name the subject of the dispute without adjudicating it," not "say what it is."
+- One item is outside my lane and routed rather than judged: "four of them before he was ever emperor" is a suspiciously precise number in the page's most emotional passage; the packet (CLM-13) finds the conventional list supports five or six. Logged as UNFAM-Q3 for whoever owns fact-checking.

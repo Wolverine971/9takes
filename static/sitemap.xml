@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-26</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1444,7 +1444,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -1857,6 +1857,13 @@
     <lastmod>2026-05-19</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Ernest-Hemingway.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/frank-lloyd-wright</loc>
+    <lastmod>2026-08-26</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Frank-Lloyd-Wright.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3617,6 +3624,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/tate-mcrae</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Tate-McRae.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/taylor-frankie-paul</loc>
     <lastmod>2026-05-01</lastmod>
     <image:image>
@@ -3836,7 +3850,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
@@ -3852,7 +3866,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-26</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>

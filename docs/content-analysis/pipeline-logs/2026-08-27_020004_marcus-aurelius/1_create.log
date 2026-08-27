@@ -1,0 +1,27 @@
+The draft is complete and all hard gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Marcus-Aurelius.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass · Gate 2: pass · Gate 3: pass · Gate 4: pass · Gate 5: pass · Gate 6: pass
+LIMITATIONS: no_transcripts (historical subject); britannica_403
+```
+
+**Thesis.** Marcus Aurelius is a Type 1, and the evidence is that his calm was maintained rather than owned. Two independent first-person archives thirty-three years apart file the same report on him: the Fronto letters (recovered from a palimpsest in the 19th century) and *Meditations*, which had no audience. The entity-gap packet's warning about collapsing into the Ryan Holiday essay is handled structurally — Holiday's page is hypocrisy-shaped; this one rules that reading out in the intro, because Marcus taught nobody and published nothing.
+
+**Research.** I pulled the Haines Loeb Fronto correspondence and a public-domain *Meditations* locally and grepped them, so every quote is verbatim with a Loeb page number or book/section. The best finds:
+
+- **Ariston letter, age 25:** *"time and time again does your pupil blush and is angry with himself… Therefore I do penance, am wroth with myself, am sad, compare myself with others, starve myself."* The whole typing in one paragraph, written by the subject.
+- **The Alsium holiday (162 AD)** — Marcus refuses to describe his own vacation in writing so Fronto won't scold him. Fronto scolds him anyway: *"It were easier to reconcile you to a polecat than to pleasure."* This is the hook.
+- **The reassurance test (143 AD)** — Fronto sends lavish praise; Marcus thanks him, says it proved Fronto's love, and reports the despondency is unchanged. That's the named tiebreaker against the Type 6 read.
+
+**Gate notes worth flagging:**
+
+- **Similarity scan first tripped at 0.044**, on "runs a standing audit on their own conduct" shared with caitlin-clark and "the strongest case against is Type X" shared with Ryan-Holiday. Both rewritten; now clear. The Type 1 pillar vocabulary (inner critic, inner courtroom, impossible standards) is 70%-saturated across T1 drafts, so the page runs entirely on Marcus's own words instead.
+- **Ryan Holiday cross-link is deferred, not skipped.** `ryan-holiday` is `link: false` in famousTypes.ts, so an inline link would render dead. He's in `suggestions` only, with a reviewer note telling production to add the body link once that page ships.
+
+**Two things for you to decide later:** the body is 4,055 words against a 4,500 lint ceiling, which is deliberate headroom — the second-pass and fresh-eyes stages historically blow that ceiling. And the entity-gap packet scored this a PASS (33/100) on biography intent, so exact-name ranking against Wikipedia/Britannica/Daily Stoic is not realistic; judge this page on the typology long-tail and the stoicism cluster instead.
+
+Durable evidence file is at `docs/content-analysis/research/Marcus-Aurelius.md` for the perspective-review stages. No grade was assigned — that's `/grade_blog`'s call.

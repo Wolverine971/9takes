@@ -1,0 +1,24 @@
+## Grading Complete — Marcus Aurelius
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Marcus-Aurelius | 9 | 9 | 9 | 9 | 8 | 9 | **8.9** | **B+** |
+
+`(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 62.0 / 7 = 8.9`. Discoverability 9, so no gate cap. **No formula-fingerprint caps fired.**
+
+### Key observations
+
+**What carries it.** The source-reliability discipline is genuinely unusual for this corpus — the draft doesn't just cite, it grades its own citations in front of the reader (Historia Augusta flagged unreliable every time it's used, Avidius Cassius's letter handed over as "a charge someone found plausible," death location left explicitly unsettled). For a subject dead 1,846 years with no transcripts, substituting two first-person archives was the right call and it's executed with 6/6 load-bearing quotes inline. The Lyon 177 paragraph faces the objection that actually threatens the subject and refuses to resolve it. And "He credits himself with nothing. Not one line." is a real signature detail — it's the mechanism that makes the beach refusal click, built from Marcus's own debt vocabulary rather than house armor grammar.
+
+**What holds it at B+.** Two Writing defects, both of which the pipeline knew about:
+
+1. **8 aphoristic one-line drops**, ~one per section — highest density in the recent batch (Ryan-Holiday 6, Aaron-Pierre 6, Frank-Lloyd-Wright 3). Fresh eyes flagged it; the second pass merged only two.
+2. **The billed signature section under-delivers.** "Two Archives, One Emperor" is the page's claim to non-transplantability and is its *shortest* analytic section — it asserts the payoff instead of demonstrating it. The second pass explicitly declined to expand it. That's what separates this from an A: the thing the page says makes it unique is the thing it spends the least time proving.
+
+The A path is a trade, not an addition — the body is at the 4,500-word ceiling. Cut three of the eight drops, spend the words demonstrating the 143-letter/Book-8 braid.
+
+**Verification notes.** I spot-checked the ledgers rather than trusting them: the Heading Mix Ledger's 9 H2s, the Distribution Ledger's "1 type-theory paragraph outside diagnosis and Rabbit Hole," and all 5 FAQ anchors resolving to real heading slugs all confirmed accurate. The same-type scan's 0.082 top pair is the known template false positive (zero shared phrases — it's scoring the bare "is not a" shape), not a real trip. The single comparative contrast pair sits inside a verbatim Fronto quotation, so no Writing cap.
+
+One thing worth your attention beyond the grade: the second pass patched `scripts/blog-source-audit.mjs` to handle pre-modern subjects at all — `hasYear` only matched 19xx/20xx, so "162 AD" and an 1862 translation both read as unsourced, and no classical edition was in `OUTLETS`. That's a class fix. **Every historical subject in the corpus was ungradeable on Evidence before it**, which means prior historical-figure Evidence scores are suspect and may be worth a regrade sweep.
+
+Files written: `src/blog/people/drafts/Marcus-Aurelius.md` (frontmatter block) and `docs/content-analysis/grades/Marcus-Aurelius.review.md`.

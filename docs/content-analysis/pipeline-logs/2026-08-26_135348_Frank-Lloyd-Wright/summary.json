@@ -1,0 +1,19 @@
+{
+	"person": "Frank-Lloyd-Wright",
+	"draft_path": "src/blog/people/drafts/Frank-Lloyd-Wright.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/Frank-Lloyd-Wright.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-26_135348_Frank-Lloyd-Wright",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348",
+	"perspective_initial_status": "not_run",
+	"perspective_final_status": "reviews_incomplete",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.4,
+	"final_overall": 8.4,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-26T19:38:40.098Z"
+}

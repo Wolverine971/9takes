@@ -1,0 +1,22 @@
+All eleven required H2 headings present in order, frontmatter parses, counts match (0 blockers / 6 concerns).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Marcus-Aurelius/2026-08-27_020004/future.md`
+
+**Verdict:** `revise` — trust intact, value high, **0 blockers, 6 concerns**. SHA `ae7bb1e0…` verified against both `context.json` and the supplied argument.
+
+**Strongest hit (FUTURE-H1/H3):** the page dates everything absolutely and holds its disputes open — "Ancient sources disagree about whether it was at Vindobona… and the dispute has never been settled." Strike every sentence referring to anything after 1920 and the thesis ("Thirty-three years, two languages, two readers, one report") doesn't move. For a durability lane this is close to a best case: two document archives that can't be retracted, editions of record from 1862/1919/1920, and zero dependence on a news cycle. Both rot-prone cited URLs I fetched (PolitiFact, Yale UP) resolve today.
+
+**Highest-priority concern (FUTURE-C1):** the only perishable sentence on the page is about 9takes, not Rome. The Rabbit Hole hardcodes "26 of 426 published profiles" directly beside a link to `/corpus-stats` — a page `scripts/generate-corpus-stats.js` rebuilds from Supabase on *every* Vercel deploy. Three findings compound it:
+
+- It's off by one on day one — Marcus is himself an unpublished Type 1, so shipping makes it 27 of 427.
+- At the site's own measured cadence (`avg_new_per_month: 24.7`, 138 drafts queued; 292→426 published since April), the denominator understates reality by ~40% within twelve months.
+- It's already precedented: `Benny-Blanco.md` is **published** and dated 2026-07-19 with three numbers now wrong (68/26/4 musicians·Fours·Twos vs. today's 79/30/5) — wrong in five and a half weeks on a live page.
+
+Repair is a five-word deletion using a construction already in the corpus (`Liang-Wenfeng.md` goes numberless and lets the link carry it).
+
+Two things worth flagging beyond the artifact, since they're outside this draft's scope:
+
+1. **This is a class defect, not a page defect.** Eight drafts link `/corpus-stats`; at least three hardcode counts and two are already stale. A grep-based lint check for `[0-9]+ of [0-9]+ published profiles` would catch the whole class cheaply — raised as FUTURE-Q1.
+2. **The page has ~8 words of headroom** (I measured 4,492 against the 4,500 ceiling at `scripts/blog-lint.sh:354`), while carrying a deferred Ryan Holiday cross-link that requires *adding* words and lives only in an HTML comment. Un-editability is arguably a bigger twelve-month risk here than any single fact — every repair I proposed is word-neutral or word-saving for that reason.
+
+I scoped `trust: intact` to durability only; the packet's flagged issues on Avidius Cassius (CLM-01), the unnamed source of the Epictetus discourses (CLM-02), and the "four children" arithmetic (CLM-13) belong to the critic, unfamiliar and subject lanes and I deliberately left them alone. The snapshot embeds prior fresh-eyes and second-pass notes as HTML comments — I've disclosed that in Limits and derived every number here independently.

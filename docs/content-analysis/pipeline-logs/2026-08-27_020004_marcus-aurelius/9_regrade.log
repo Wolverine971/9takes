@@ -1,0 +1,28 @@
+## Grading Complete — Marcus Aurelius
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Marcus-Aurelius | 9 | 9 | 9 | 9 | 9 | 9 | **9.0** | **A** |
+
+`(9×1.5 + 9×1.5 + 9×1.5 + 9 + 9 + 9×0.5) / 7 = 63.0 / 7 = 9.0`. No caps applied — discoverability is 9, so no gate.
+
+### Key observations
+
+**This is the highest grade issued in this corpus under v2**, so I ran both A-band re-checks independently rather than trusting the draft's own ledgers:
+
+- `blog-source-audit.mjs` → 6 load-bearing quotes, **6 inline, 0 vague, 0 untagged**
+- `same-type-similarity.mjs --n 8` → **clear** (top pair 0.082 vs 0.040 threshold, but zero shared phrases — it's scoring the bare "is not a" shape, not house grammar)
+- `blog-quality-report.mjs` → **0 strong contrast pairs**; the 1 comparative hit is inside a verbatim Fronto quotation
+- `blog-lint.sh` → 0 fail, 2 warn
+
+Ledger spot-checks came back accurate, which is unusual — the nine H2s match, the interior beat is where the ledger says, and the Fronto testimony is genuinely in the body.
+
+**What earns the A:** the Epictetus *Discourses* 3.10 split is a real novel thesis — Marcus ran the "blame what is wrong" half for thirty years and wrote the "in what is right rejoice" half as Book 1, assigning every item to somebody else. That produces the signature detail (Book 1 credits him with nothing) which produces the empathy turn (rest reads as spending borrowed money from dead lenders). Sourcing is page-pinned Loeb with every unreliable source graded on the page rather than laundered — the Lyon 177 martyrdoms get a full apparatus and land on "It does not resolve, and it should not be smoothed over." Tonal range is real: the polecat letter is funny, the seven buried children are devastating.
+
+**Two things stand between this and A+**, both in the sidecar: seven of nine sections close on an aphoristic declarative fragment (good individually, predictable serially — this is the pattern that reads as house-template across a batch), and the Lyon paragraph stacks seven sentences of qualification into one block while the rest of the piece breathes.
+
+**One flag for the pipeline:** the draft is at 4,495 of 4,500 words. Zero headroom — any future refresh has to cut before it adds.
+
+Files written: `content_quality` block in the draft frontmatter, and `docs/content-analysis/grades/Marcus-Aurelius.review.md`.
+
+**Total graded this session: 1**

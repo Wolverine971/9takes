@@ -1,0 +1,30 @@
+YAML parses, lint still 0 fail. Done.
+
+## Grading Complete — Frank Lloyd Wright
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Frank-Lloyd-Wright | 7 | 9 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+Weighted: `(7×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability 9, so no gate cap. No formula fingerprint caps triggered.
+
+### Key observations
+
+**A strong draft held down by one checkable sentence.** Line 233 says "Wright never named another influence on his work." Line 225 — same draft, eight lines earlier — says "Wright credited those blocks for the rest of his life." Wright also credited Japanese prints for sixty years. The sentence is false internally and externally, and it sits inside the piece's best section. I verified it against the file rather than taking the pipeline's word for it. Fixing that one sentence moves Evidence 7→8 and the piece to 8.6/B+ — the highest-leverage edit available.
+
+**Originality, Discoverability, and Enneagram all earned 9 independently.** The Sullivan thread ("The thing a Seven cannot reframe is the thing he could not afford to lose") turns the *absence* of a reframe into diagnostic evidence — a genuinely novel mechanism. The unmarked grave reading is a real signature detail. `meta_title` attacks the contested 5w4 query head-on at 58 chars, with a body H3 that answers it.
+
+**Formula hygiene verified, not trusted.** 0 contrast-pair engines, 0 reader-command imperatives, no corpus-stat sentence, no house "scar tissue" empathy grammar, no near-verbatim reuse against the three most recently graded drafts. The `same-type-similarity` trip at 0.184 is the mandated diagnosis declaration against Tyla — structural false positive, no Originality cap. Ledgers spot-checked against the body and found accurate, which is unusual.
+
+**Writing held at 8** for two independent reasons: the Wallace "brittle shell" quote appears four times, and staccato anaphora (~a dozen instances) has become the dominant rhythm.
+
+### Two things worth your attention
+
+1. **Stage 9 reported work it never did.** Its log says the frontmatter block was added and the sidecar written — neither existed when I ran. Worth checking whether other recent pipeline runs have the same silent write failure.
+2. **The perspective gate never closed** (4.5 exited 1, no `synthesis.md`, no verification). The editor pass flagged it and shipped anyway. The influence-sentence error is precisely the class of defect that gate exists to catch — this matches the P1-error blind spot pattern from the Mahomes run.
+
+**Stability:** stage 7 (pre-revision) 8.5 → stage 9 (post-revision) 8.4 → this regrade 8.4, delta 0.0. Five of six dimensions were scored blind before I looked at any stage log and converged exactly; Evidence was independently scored 8 and moved to 7 only after I verified the contradiction.
+
+Frontmatter block added (`needs_review: true`); feedback at `docs/content-analysis/grades/Frank-Lloyd-Wright.review.md`.
+
+**Total graded this session: 1**

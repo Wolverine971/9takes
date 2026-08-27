@@ -1,0 +1,25 @@
+The draft is untracked (new), which is why the diff was empty — `lastmod` is confirmed unchanged by direct inspection.
+
+## What I did
+
+**Polished:** `src/blog/people/drafts/Marcus-Aurelius.md`, in perspective-jury mode against `docs/content-analysis/perspective-reviews/Marcus-Aurelius/2026-08-27_020004`. Frozen-snapshot SHA verified matching before I touched anything.
+
+**All 9 P0s fixed. 9 of 11 accepted P1s applied.** The jury's diagnosis was right: the recurring defect was truncation with a direction — three load-bearing citations each stopping one clause before the complication, every omission cutting the same way. All three are restored (Med. 8.1's turn at the closing, Med. 5.9's "be content if the greater part," HA 21.5's games-of-Jupiter explanation). The Lyon paragraph now names its source correctly (a contemporary letter from the churches of Lyon and Vienne, not a late Eusebian composition) and carries the reported imperial order, counterweights in the same breath, still unadjudicated. The hostile witness is no longer welded from two HA documents thirteen years apart with a dead man speaking.
+
+**Three same-class sites the brief didn't list** carried framing the P0s had just refuted, and I repaired them too: the timeline's "Fronto sends lavish praise," the body's "He is moved by the praise," and the Rabbit Hole's Type 6 reassurance test. FAQ 2's `anchor` also needed repointing after the H2 changed from 55 to 54 — otherwise it would have shipped dead.
+
+**Final gates:** blog-lint 0 fail (2 pre-existing warns), contrast pairs **0 strong / 1 comparative** (the comparative is inside a verbatim Fronto quotation), source audit 6 inline / 0 vague / 0 untagged, similarity clear, frontmatter parses.
+
+## One thing needs your call
+
+The synthesis budgeted the P0 set at +85 words. Done with verbatim quotations rather than paraphrase — which is what this page's citation discipline and the acceptance tests require — it cost about **+250**. Landing under the ceiling took ~360 words of cuts instead of the ~106 budgeted. The body is at **4,495 of 4,500**.
+
+So **P1-01** (the genre objection plus a falsification clause that can actually fail) and **P1-02** (Med. 11.18's self-reproach line) are not in. They need ~+95 together and there is no room. These are the three-perspective items and together they're the page's answer to its own strongest objection. The synthesis says explicitly this is your call, not the editor's: raise `BLOG_LINT_WORD_CEILING` for this page with the reason recorded in-file, or ship without them. If only one fits, take P1-02.
+
+Two smaller things I'd flag: P1-09 shipped in its minimum form ("built no school of his own") because the richer Athens-chairs sentence cost words I didn't have, and I funded P0 repairs partly by cutting the Book 10 "be such" quotation and the "great sleeper" letter — texture the page could spare but didn't want to. If the ceiling moves, restore those before adding anything new.
+
+**Verdict:** production-ready as a draft, pending your ceiling decision and the independent `/blog_perspective_verify_people` gate. Resolution artifact is at `docs/content-analysis/perspective-reviews/Marcus-Aurelius/2026-08-27_020004/editor-resolution.md` with the full log, all 14 protected-hit checks, and the open decisions.
+
+One caught error worth naming: my first attempt at P1-06 spliced "Time was" *inside* the Fronto quotation marks, fabricating the quote — the exact sin this page condemns. I caught it in the same run and reverted; the frame now sits outside the quote and the quoted words are verbatim. It's recorded in the artifact.
+
+Sources: [Wikisource — Long's *Discourses of Epictetus*](https://en.wikisource.org/wiki/The_Discourses_of_Epictetus;_with_the_Encheiridion_and_Fragments), [George Long (scholar)](https://en.wikipedia.org/wiki/George_Long_(scholar))

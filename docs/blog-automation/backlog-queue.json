@@ -1,37 +1,11 @@
 {
-	"lastUpdated": "2026-08-26T08:02:24Z",
+	"lastUpdated": "2026-08-27T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "nara-smith",
-			"displayName": "Nara Smith",
-			"type": null,
-			"priority": 44,
-			"priorityReason": "Forbes Top Creators #33; Homemade cookbook + cast in Amazon MGM's Tyrant — multi-catalyst crossover moment",
-			"estimatedTraffic": "medium",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "creator-economy-cluster"
-		},
-		{
-			"name": "marcus-aurelius",
-			"displayName": "Marcus Aurelius",
-			"type": null,
-			"priority": 43,
-			"priorityReason": "Stoicism wave keeps him in evergreen demand; historical figures perform and he pairs with Ryan Holiday for a stoicism internal-link cluster",
-			"estimatedTraffic": "medium",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "self-improvement-cluster"
-		},
 		{
 			"name": "freddie-mercury",
 			"displayName": "Freddie Mercury",
@@ -1665,8 +1639,36 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "marcus-aurelius",
+		"displayName": "Marcus Aurelius",
+		"type": null,
+		"priority": 43,
+		"priorityReason": "Stoicism wave keeps him in evergreen demand; historical figures perform and he pairs with Ryan Holiday for a stoicism internal-link cluster",
+		"estimatedTraffic": "medium",
+		"searchVolume": "high",
+		"personaTitle": null,
+		"addedToQueue": "2026-07-18",
+		"retryCount": 0,
+		"strategicValue": "self-improvement-cluster",
+		"startedAt": "2026-08-27T06:00:00Z"
+	},
 	"skipped": [
+		{
+			"name": "nara-smith",
+			"displayName": "Nara Smith",
+			"type": null,
+			"priority": 44,
+			"priorityReason": "Forbes Top Creators #33; Homemade cookbook + cast in Amazon MGM's Tyrant — multi-catalyst crossover moment",
+			"estimatedTraffic": "medium",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "creator-economy-cluster",
+			"skippedAt": "2026-08-27T06:00:00Z",
+			"skipReason": "draft already exists"
+		},
 		{
 			"name": "jynxzi",
 			"displayName": "Jynxzi",

@@ -1,0 +1,17 @@
+Snapshot and live draft both still hash to `ae7bb1e0…`; only `evidence-packet.md` was written.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Marcus-Aurelius/2026-08-27_020004/evidence-packet.md`
+
+I re-verified every load-bearing quotation against the primary text rather than trusting the repository research file — the Haines Loeb Fronto (both volumes, Wikisource page-images), George Long's *Meditations*, Dio book 72 and the *Historia Augusta* on LacusCurtius, and Eusebius *EH* 5.1. The research file's Loeb page citations all checked out once I re-derived the scan-to-print offsets (vol. 1: djvu − 64; vol. 2: djvu − 16). Nearly all of the draft's quotations are verbatim-accurate.
+
+The re-check surfaced five things the research file does not record:
+
+- **CLM-01** — The Avidius Cassius slur is spliced from two different HA documents. "Philosophical old woman" is at *Avidius Cassius* 1.8, inside a letter attributed to **Lucius Verus** (who died in early 169) and generally judged spurious; the "wishes to be called merciful" clause is at 14.3, genuinely from 175. The draft dates the composite to the 175 revolt.
+- **CLM-02** — Med. 1.7's Epictetus quotation is the "From Rusticus" entry, but the draft leaves "the man" unnamed two sentences after naming Fronto twice. Fronto has his own separate entry at 1.11.
+- **CLM-03** — Med. 8.1 is quoted from mid-sentence; the dropped opening is "This reflection also tends to the removal of the desire of empty fame," and the section argues for detachment from reputation.
+- **CLM-07** — The Lyon account is a *contemporary* letter preserved by Eusebius, not Eusebius's own narrative, and at *EH* 5.1.47 it reports "Cæsar commanded that they should be put to death." Neither fact is on the page.
+- **CLM-10** — HA 21.5, the clause right after the five-days-of-mourning quote, supplies the biographer's own explanation: the games of Jupiter were in progress.
+
+Two findings run the other way: Dio independently corroborates the auction the draft sources to the HA alone, and Med. 11.18's numbered list checks out exactly as described. The packet also records verified-but-nuanced items (the 143 letter mixed praise with deliberate criticism; the Herodes letter reads as both plea *and* correction) and internal arithmetic that doesn't reconcile (CLM-13, CLM-14).
+
+**Largest unresolved evidence gap:** Marcus's responsibility for the Lugdunum killings of 177. The contemporary Lyon letter reports the governor writing to the emperor and receiving an order to execute those who confessed — the most damaging item in the entire record — while Tertullian, writing within a generation, calls Marcus a protector, no other contemporary source mentions the episode, Irenaeus in Lyon is silent, and the rescript Tertullian relies on is itself of disputed authenticity. Nothing available settles it, so any conclusion must stay qualified in both directions.

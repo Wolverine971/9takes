@@ -1,0 +1,22 @@
+Second pass complete on `src/blog/people/drafts/Marcus-Aurelius.md`.
+
+## What changed
+
+**Source audit (first priority, and it required a tooling fix).** The audit came back 0 inline / 3 vague / 3 untagged, including an untagged epigraph and cold open — an A/B+ blocker. The cause was partly structural: `scripts/blog-source-audit.mjs` had no vocabulary for a pre-modern subject at all. `hasYear()` only matched `19xx`/`20xx`, so "162 AD" and an 1862 translation date both read as *no year*, and no classical edition was in `OUTLETS`. I patched it in the same per-pass style the file already uses (added `Loeb Classical Library`, `Historia Augusta`, `Roman History`, `George Long`, plus era-marked and 19th-century years, with a dated comment). That's a class fix — every historical subject in the corpus was ungradeable before it. I spot-checked Frank-Lloyd-Wright, Carl-Jung and Simone-Biles: unchanged, no regressions.
+
+Then every load-bearing quote got its edition of record: Fronto to the Haines Loeb (vol. 1, 1919 / vol. 2, 1920), *Meditations* to George Long's 1862 translation — the text the research file actually verified against. **Result: 6 inline, 0 vague, 0 untagged.**
+
+**The fresh-eyes holes.** New H2 "Marcus Aurelius, Faustina, and the Children He Buried," built on newly verified material: Book 1.17's gratitude that his children were "not stupid nor deformed in body," HA 21.3-5 on his seven-year-old son Verus dying after a tumour operation and "for no more than five days did he mourn him" (flagged unreliable in-text), HA 26.4-9 on Faustina's death and the honours, and *Meditations* 10.34 / 11.34. Lyon 177 added to the critic-pressure section, handled like the Commodus dispute — named, sourced both ways, refused. And the "he wouldn't correct anyone but himself" objection was being laundered as 1w2 wing evidence; the Herodes letter now sits in Counterarguments read at its plain sense.
+
+I also found and fixed two things nobody flagged: FAQ anchors 2–5 were all truncated and matched no heading slug, and the cold open reproduced "You ever indulge in pleasu?" verbatim from a Wikisource transcription artifact, which reads as a typo and can't be explained inline.
+
+**Budget.** The draft opened at 4,055 of a 4,500 ceiling, so everything was paid for: ~230 words cut (duplicate Ariston tail in the timeline, two one-line paragraph drops merged, the unfulfilled "they do something no single source can do" promise). Final: 4,473 words, 0 lint failures.
+
+## Still open
+
+- **Ryan Holiday cross-link is still deferred** — his page is `published: false`, so an inline link would render dead. Unchanged from the creator pass.
+- **No headroom left.** At 4,473 of 4,500, an editor pass can trade but cannot add.
+- I **rejected two fresh-eyes suggestions** and said why in the notes: moving the figs/olives beat out of the Rabbit Hole (it's the growth arrow's only concrete evidence, and that section now carries Lyon), and expanding "Two Archives" (it is genuinely thin, but the budget went to the two actual holes rather than half-expanding something already working).
+- One lint WARN for a comparative contrast pair — it's inside a verbatim Fronto quotation, so repairing it would misquote the source. Logged in the fingerprint ledger.
+
+The one thing worth your judgment: I modified a shared script mid-pass. It only ever upgrades quotes that explicitly name those sources, and the alternative was leaving an ancient subject permanently ungradeable, but if you'd rather that live in its own commit, it's an isolated diff in `scripts/blog-source-audit.mjs`.

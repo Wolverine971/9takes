@@ -1,0 +1,9 @@
+blog-quality-report: Marcus-Aurelius
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [more/less-than] L200: It catches him young and unguarded, and a day without a letter from his teacher is unbearable: "To me this day seems, and will seem, longer 
+
+2.4 Head-term: PASS  meta_title=Marcus Aurelius Enneagram Type 1: The Calm He Rehearsed
+   answer-block: ok (40 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 426)

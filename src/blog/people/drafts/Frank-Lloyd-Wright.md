@@ -4,12 +4,12 @@ meta_title: "Why Frank Lloyd Wright Is an Enneagram Type 7w8, Not a 5w4"
 persona_title: "The Architect Who Designed Himself"
 description: "Why did Frank Lloyd Wright keep performing genius into his nineties? An Enneagram Type 7w8 analysis of the porkpie hat, the leaks, and the brittle shell."
 author: 'DJ Wayne'
-date: '2026-05-13'
+date: '2026-08-26'
 loc: 'https://9takes.com/personality-analysis/frank-lloyd-wright'
-lastmod: '2026-05-13'
+lastmod: '2026-08-26'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '7'
 type: ['historical', 'other', 'historical-artist']
 person: 'frank-lloyd-wright'
@@ -57,23 +57,30 @@ citations:
   - 'https://en.wikipedia.org/wiki/Wingspread'
   - 'https://en.wikipedia.org/wiki/Johnson_Wax_Headquarters'
   - 'https://scjohnson.com/en/news-stories/blog/wingspread-prairie-style-house'
+  - 'https://www.scjohnson.com/Home/Interacting-with-SC-Johnson/Tours-and-Architecture/Our-Architecture/Frank-Lloyd-Wright-designed-Administration-Building'
   - 'https://invention.si.edu/invention-stories/lincoln-logs-inventor-john-lloyd-wright'
   - 'https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/'
   - 'https://www.guggenheim.org/about-us/architecture/frank-lloyd-wright-and-the-guggenheim'
   - 'https://franklloydwright.org/a-man-100-years-ahead-of-his-time-excerpts-from-the-mike-wallace-interview/'
   - 'https://enneagrammonthly.com/frank-lloyd-wright-1867-1959/'
+  - 'https://www.theartnewspaper.com/2026/03/16/fallingwater-endemic-leaking-problems-finally-come-to-an-end-frank-lloyd-wright'
+  - 'https://fallingwater.org/learn/preservation-and-collections/preservation-history/'
+  - 'https://fallingwater.org/wp-content/uploads/2017/07/MediaResources-Fallingwater-Quotes.pdf'
+  - 'https://time.com/archive/6621515/art-wrights-might/'
+  - 'https://time.com/archive/6822757/art-made-in-japan-u-s-designed/'
+  - 'https://www.theartstory.org/artist/wright-frank-lloyd/'
 faqs:
   - question: "What is Frank Lloyd Wright's personality type?"
     answer: "Frank Lloyd Wright is an Enneagram Type 7w8 (The Enthusiast with an Eight wing), Self-Preservation subtype. The pattern shows in the brittle-shell admission he made to Mike Wallace at ninety, the unmarked grave he filled in himself after Mamah Borthwick's murder, the two-hour Fallingwater drawing after nine months of procrastination, the 'move your chair' reply to Hib Johnson about the leaking roof, and the autobiography that converted twelve fallow years into a chrysalis. Free typology aggregators mostly say 5w4; the record does not support a Five."
     anchor: 'what-is-frank-lloyd-wrights-personality-type'
   - question: "Why did Wright tell a client to 'move his chair' when the roof leaked?"
-    answer: "At a formal dinner at Wingspread, the Wisconsin house Wright completed for him in 1939, a thunderstorm sent water through the roof onto S.C. Johnson Wax CEO Herbert 'Hib' Johnson's head in front of his guests. Johnson phoned Wright in Arizona; Wright replied 'Well Hib, why don't you move your chair?' loud enough for the table to hear. For Wright the leak was a fact about weather, the cantilever was the achievement, and complaining was a failure of comprehension. Johnson kept hiring him anyway, commissioning the fourteen-story Research Tower after the wet dinner."
+    answer: "At a formal dinner at Wingspread, the Wisconsin house Wright completed for him in 1939, a thunderstorm sent water through the roof onto S.C. Johnson Wax CEO Herbert 'Hib' Johnson's head in front of his guests. Johnson phoned Wright in Arizona; Wright replied 'Well Hib, why don't you move your chair?' loud enough for the table to hear. For Wright the leak was a fact about weather, the cantilever was the achievement, and complaining was a failure of comprehension. Johnson kept hiring him anyway, commissioning the Research Tower in 1944, years after the wet dinner."
     anchor: 'what-wright-meant-when-he-told-a-client-to-move-his-chair'
   - question: 'How did Frank Lloyd Wright design Fallingwater in two hours?'
-    answer: "In autumn 1935, Edgar Kaufmann Sr. called Wright from Milwaukee to say he was driving over to Taliesin to check on the country home commissioned nine months earlier. Wright had not started. According to apprentice Edgar Tafel, Wright drew Fallingwater in roughly two hours, apprentices sharpening pencils as fast as he used them up, and signed the sheet in block capitals. The procrastination-then-flash pattern is the cleanest Seven work signature in modern biography, because Sevens cannot tolerate the slow in-between and deliver in a burst."
+    answer: "In autumn 1935, Edgar Kaufmann Sr. called Wright from Milwaukee to say he was driving over to Taliesin to check on the country home commissioned nine months earlier. Wright had not started. According to apprentice Edgar Tafel, Wright drew Fallingwater in roughly two hours, apprentices sharpening pencils as fast as he used them up, and signed the sheet in block capitals. Historians dispute how much of the scheme was already worked out in his head. Nobody disputes that he showed the client nothing for nine months and then produced a finished design in one morning, which is the Seven work pattern: intolerance of the slow in-between, then delivery in a burst."
     anchor: 'how-fallingwater-happened-in-two-hours'
   - question: 'Why did Wright walk out on six children for Mamah Borthwick?'
-    answer: "In September 1909, at the height of his Prairie Style career, Wright walked out of his Oak Park studio in the middle of three open commissions, met Mamah Borthwick Cheney (wife of a former client) and sailed for Europe. He left his wife Catherine, six children, the practice, the country. Sevens do not leave one room; they leave several at once. Mamah was the door. Catherine refused to grant a divorce for thirteen years. Wright later fired his own son John off the Imperial Hotel in a fight over unpaid wages."
+    answer: "In September 1909, at the height of his Prairie Style career, Wright walked out of his Oak Park studio in the middle of three open commissions, met Mamah Borthwick Cheney (wife of a former client) and sailed for Europe. He left his wife Catherine, six children, the practice, the country. Wright did not leave one room. He left several at once, and Mamah was the door. Catherine withheld the divorce for thirteen years while raising six children. Wright later fired his own son John off the Imperial Hotel in a fight over unpaid wages."
     anchor: 'why-wright-walked-out-on-six-children-for-mamah-borthwick'
 production_pretext:
   status: draft
@@ -91,29 +98,32 @@ path: src/blog/people/drafts/Frank-Lloyd-Wright.md
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 7
+  evidence: 9
   writing: 8
   originality: 9
   discoverability: 9
-  overall: 8.4
-  letter: B
+  overall: 8.9
+  first_overall: 8.6
+  regrade_overall: 8.9
+  grade_stability_delta: 0.3
+  letter: B+
   rubric_version: 2
   caps_applied: []
   confidence: high
   anchor: 'Matt-Smith draft (2026-06-28)'
-  needs_review: true
+  needs_review: false
   graded_at: '2026-08-26'
 ---
 
 <!-- TESTIMONY LEDGER (named third-party quotes about/to the subject)
 1. Mike Wallace, asking Wright on national television: "Arrogance can sometimes be a shell to protect the inner man too, can it not?" — The Mike Wallace Interview, ABC, September 1957
 2. Philip Johnson, on Wright's legacy: "[Wright is] the greatest architect of the 19th century." — c. 1955–59, attributed by Hugh Howard, "Architecture's Odd Couple," 2016
-3. Robert Moses (Wright's cousin by marriage), on the Guggenheim building-code fight: "I don't care how many rules you have to break. The Guggenheim must be built." — Moses to Wright, c. 1956
-4. Edgar Tafel (apprentice, 1932–41), on Wright at Taliesin: "unpredictable, cantankerous, a striking figure with white hair, cape and cane," an "individualistic spirit who delighted in acting out his own myth." — "Years with Frank Lloyd Wright: Apprentice to Genius," 1979
-5. Baron Kihachiro Okura, telegram to Wright after the 1923 Great Kantō earthquake: "Hotel stands undamaged as a monument of your genius hundreds of homeless provided by perfectly maintained service congratulations." — Sept 1923; Wright shared with American press
-6. Herbert "Hib" Johnson via his son Sam Johnson, on the Wingspread leak: Wright's reply "Well Hib, why don't you move your chair?" came through the receiver loud enough for the table to hear. — S.C. Johnson company history
-Total qualifying quotes: 6
-Inline-tagging status (2026-08-26 revision pass): quotes 2, 3 and 4 previously appeared in the body with no outlet or date. All three now carry their source on the page — Johnson via "Hugh Howard, Architecture's Odd Couple (2016)", Moses via "around 1956", Tafel via "In Years with Frank Lloyd Wright (1979)". Wright's own "live with the waterfall" line to the Kaufmanns is now dated to the 1935 letter (The Art Newspaper, Mar 2026, quotes it in full).
+3. "Years with Frank Lloyd Wright: Apprentice to Genius" (Edgar Tafel, apprentice 1932–41), on Wright at Taliesin: "unpredictable, cantankerous, a striking figure with white hair, cape and cane," an "individualistic spirit who delighted in acting out his own myth." — 1979. NOTE: attributed to the book, not to Tafel's testimony, per perspective RQ-02 (unresolved whether the "individualistic spirit" phrase is Tafel's text or the Dover edition's jacket copy). The "Delighted." pointer built on that one word is cut.
+4. Baron Kihachiro Okura, telegram to Wright after the 1923 Great Kantō earthquake: "Hotel stands undamaged as a monument of your genius hundreds of homeless provided by perfectly maintained service congratulations." — Sept 1923; Wright shared with American press
+5. Herbert "Hib" Johnson via his son Sam Johnson, on the Wingspread leak: Wright's reply "Well Hib, why don't you move your chair?" came through the receiver loud enough for the table to hear. — S.C. Johnson company history
+Total qualifying quotes: 5
+Inline-tagging status (2026-08-26 perspective-editor pass): all five carry their source on the page. Wright's own "live with the waterfall" line to the Kaufmanns is dated to the 1935 letter (The Art Newspaper, Mar 2026, quotes it in full).
+Removed this pass: the Robert Moses "I don't care how many rules you have to break" quotation, per synthesis P1-06 (no primary source located, D-05; third consecutive dominion anecdote). The "Wright's cousin by marriage" relationship claim went with it. Its ~47 words funded the Fallingwater cantilever paragraph (P1-01); the S8→S9 bridge it anchored was rewritten in the same edit, per conflict C-4.
 -->
 
 <!-- HEADING MIX LEDGER
@@ -127,16 +137,16 @@ H2 7: "How Fallingwater happened in two hours" — search-intent / hybrid
 H2 8: "What Wright meant when he told a client to move his chair" — signature
 H2 9: "What Wright admitted at ninety" — signature
 Search-intent + hybrid count: 5 of 9 (56%).
-H3 under H2 1: "Frank Lloyd Wright is an Enneagram Type 7" (required) and "Why Frank Lloyd Wright is not a Type 5" (counter-typing, added 2026-08-26 second pass).
+H3 under H2 1: "Frank Lloyd Wright is an Enneagram Type 7" (required) and "Why Frank Lloyd Wright is not a Type 5" (search-critical counter-typing, stated once; mechanics remain in the Rabbit Hole).
 -->
 
 <!-- DISTRIBUTION LEDGER
-Type-theory paragraphs (2+ consecutive sentences of system-level theory) outside the diagnosis section and Rabbit Hole: 3
+Type-theory paragraphs (2+ consecutive sentences of system-level theory) outside the diagnosis section and Rabbit Hole: 2
 Locations:
   1. "The grave Frank Lloyd Wright refused to mark" — paragraph beginning "This is the Seven's defense at full operating volume."
-  2. "How Fallingwater happened in two hours" — paragraph with "Sevens avoid the slow grind of structured thinking and then deliver in a burst…"
-  3. "What Wright admitted at ninety" — paragraph beginning "The cost of the Seven's defense…"
-All other type references are single-sentence bridges inside narrative paragraphs (six-kids walkout section, Welsh prophecy section, Sullivan section).
+  2. "How Fallingwater happened in two hours" — paragraph with "Sevens avoid the slow grind and then deliver in a burst…"
+Dropped to 2 in the 2026-08-26 perspective-editor pass: the conclusion's "cost of the Seven's defense" paragraph is now a single theory sentence followed by four person-specific ones (P1-12 replaced the women-graded sentence with what each of them did), and the walkout section's "Sevens do not leave one room; they leave several at once" became "Wright did not leave one room. He left several at once" (P1-11), which is biography rather than theory.
+All other type references are single-sentence bridges inside narrative paragraphs (Welsh prophecy section, Sullivan section).
 Re-verified 2026-08-26 revision pass: the wing-mechanics paragraph in the "move your chair" section ("A pure Seven charms you out of complaining. The 8 wing dares you to keep complaining.") was deleted, so that section's turn is now carried by Johnson's checkbook rather than by wing theory. The lean-years "breaks a Type 4" bridge was also cut and replaced with a felt interior beat, so the section no longer resolves on type theory at all.
 Under the gate limit (≤4). Rabbit Hole present and is now the ONLY place carrying wing and subtype mechanics.
 -->
@@ -144,9 +154,10 @@ Under the gate limit (≤4). Rabbit Hole present and is now the ONLY place carry
 <!-- FORMULA FINGERPRINT LEDGER
 Contrast-pair sentence engines ("not X but Y" / "wasn't X; it was Y"): 0 in body prose. Re-verified with scripts/blog-quality-report.mjs after the 2026-08-26 revision pass, not by hand. Note for future passes: the detector is not quote-aware, so a verbatim source quote containing "not just X, but Y" counts against you. The 1935 Kaufmann letter is quoted to the clause that carries it for that reason.
 Counter-typing ladders in main body: 1 (Type 4 and Type 5 rebuttals, adjacent, inside the diagnosis section). All wing/subtype/arrow mechanics live in the Rabbit Hole.
-Critic-pressure anchor: Philip Johnson's "greatest architect of the 19th century" jab conceded and answered in the conclusion, now attributed inline to Hugh Howard, "Architecture's Odd Couple," 2016.
+Critic-pressure anchor: two now. Philip Johnson's "greatest architect of the 19th century" jab, conceded and answered in the conclusion, attributed inline to Hugh Howard, "Architecture's Odd Couple," 2016. Plus the Fallingwater cantilever paragraph added this pass (synthesis P1-01): engineers called for double the steel, Wright refused, the slab sagged for sixty years, "Wright never conceded the point." That is the first Wright failure in the piece that Wright himself would not concede.
 Current-tense / legacy-now anchor: Fallingwater's $7M leak renovation completed March 2026 (The Art Newspaper, Smithsonian).
-Narrator-tic audit (re-run 2026-08-26 editor pass): all "Notice" constructions now removed, including the Tafel "delighted" one the second pass kept. Pointer sentences ("That is the X…", "That line carries the man"): 2, both at structural peaks (Mamah's grave, the Wallace runway line). The editor pass claimed two and the body actually carried three; the Welsh-prophecy one ("That is the house Anna's vision had to be load-bearing in") was cut in the 2026-08-26 revision pass and the count re-verified by grep, not by ledger. "Here's what everyone misses" openers cut from five to three.
+Narrator-tic audit (re-run 2026-08-26 perspective-editor pass): all "Notice" constructions removed, and the "*Delighted.*" one-word pointer went with the RQ-02 re-attribution. Pointer sentences ("That is the X…"): 2, both at structural peaks (Mamah's grave, the Wallace runway line). "Here's what everyone misses" openers: 3.
+Inference marking (added this pass, synthesis P0-03/P0-05): the two places the draft reported Wright's private beliefs as fact now mark themselves as the article's reading ("This piece reads it the other way"; "Whether he believed it himself is the question the record cannot close"), and the conclusion's childhood causation carries "by his own account" — the same hedge PROTECT-14 puts on the Welsh prophecy. Watch this in future passes: the pattern that keeps regrowing here is the narrator converting an attributed claim into a reported one.
 Ending swap-test: pass — names Wright, the porkpie hat, Mike Wallace, Fallingwater, the Guggenheim, and a specific dated moment (April 9, 1959).
 -->
 
@@ -162,11 +173,12 @@ Ending swap-test: pass — names Wright, the porkpie hat, Mike Wallace, Fallingw
 - Wikipedia — John Lloyd Wright ("My Father Who Is on Earth," 1946; Lincoln Logs 1918 market, patent 31 Aug 1920): https://en.wikipedia.org/wiki/John_Lloyd_Wright
 - Wikipedia — Wingspread (designed from late 1936, built May 1938–1939, elliptical chimney, three tiers of clerestory windows): https://en.wikipedia.org/wiki/Wingspread
 - SC Johnson — "Frank Lloyd Wright-Designed Wingspread Was Home to the Johnsons" (Sam Johnson's account of the leak dinner; Wright reached in Phoenix): https://scjohnson.com/en/news-stories/blog/wingspread-prairie-style-house
-- Wikipedia — Johnson Wax Headquarters (Administration Building built 1936–1939 for H.F. Johnson; Research Tower built 1944–1951; dendriform columns and the 60-ton load test): https://en.wikipedia.org/wiki/Johnson_Wax_Headquarters
+- Wikipedia — Johnson Wax Headquarters (Administration Building built 1936–1939 for H.F. Johnson; Research Tower built 1947–1950; dendriform columns and the 60-ton load test): https://en.wikipedia.org/wiki/Johnson_Wax_Headquarters
 - Wikipedia — Imperial Hotel, Tokyo (opened June 1923; survived Sept 1, 1923 Great Kantō earthquake; Baron Okura telegram): https://en.wikipedia.org/wiki/Imperial_Hotel,_Tokyo
 - Fallingwater.org — Designing Fallingwater: https://fallingwater.org/history/the-kaufmanns-fallingwater/designing-fallingwater/
 - Smithsonian Magazine — "Fallingwater's Roof Is Leaking" (Mar 2026): https://www.smithsonianmag.com/smart-news/fallingwaters-roof-is-leaking-can-this-7-million-renovation-protect-frank-lloyd-wrights-masterpiece-180987288/
 - Art Newspaper — Fallingwater renovation completion (Mar 2026): https://www.theartnewspaper.com/2026/03/16/fallingwater-endemic-leaking-problems-finally-come-to-an-end-frank-lloyd-wright
+- The Art Story — Frank Lloyd Wright profile (curtains cut into handkerchiefs; reputedly no new clothes for four years): https://www.theartstory.org/artist/wright-frank-lloyd/
 - Enneagram Monthly — Tim Vreeland, "Frank Lloyd Wright (1867–1959): The Life and Work of a Self-preservation Seven," July 2024 (PAYWALLED; title and preview only, cited as such): https://enneagrammonthly.com/frank-lloyd-wright-1867-1959/
 - Guggenheim Museum — Frank Lloyd Wright and the Guggenheim: https://www.guggenheim.org/about-us/architecture/frank-lloyd-wright-and-the-guggenheim
 - Hugh Howard — "Architecture's Odd Couple: Frank Lloyd Wright and Philip Johnson," 2016 (Philip Johnson quotes; International Style context)
@@ -184,20 +196,20 @@ Johnson got up. Walked to the phone. Called Wright in Arizona and told him the h
 
 Then he hung up.
 
-S.C. Johnson has told that story on itself ever since. Hib's son Sam was a boy at that table, in the house Wright finished for them in 1939, and the reply carried across the room.
+S.C. Johnson has told that story on itself ever since. Hib's son Sam was a boy at that table, in the house Wright finished for them in 1939.
 
 Most retellings stop on the punchline. Two decades later, at ninety, on national television, Wright gave an answer about ego that almost nobody quotes. Mike Wallace pressed him: "Arrogance can sometimes be a shell to protect the inner man too, can it not?"
 
 "Well," Wright said, "it's a pretty brittle shell." (The Mike Wallace Interview, 1957.)
 
-He had spent ninety years telling everyone he was the greatest architect who ever lived, and here he was conceding on camera that the whole thing was load-bearing. He did not believe it. He needed *you* to believe it, out loud, daily, because the day you stopped, the shell would have to do something it had never done. It would have to hold still. The cape is part of the costume, and so is the porkpie hat, the autobiography that turned every failure into a stepping stone, and the school he founded the year the profession declared him a relic.
+He had spent ninety years telling everyone he was the greatest architect who ever lived, and here he was conceding on camera that the whole thing was load-bearing. Wright's own explanation was that any man with real faith in himself gets called arrogant. This piece reads it the other way. He needed *you* to say it, out loud, daily, because the day you stopped, the shell would have to do something it had never done. It would have to hold still. The cape is part of the costume, and so is the porkpie hat, the autobiography that turned every failure into a stepping stone, and the school he founded the year the profession declared him a relic.
 
 <details>
 <summary class="accordion">TL;DR: Why Frank Lloyd Wright is an Enneagram Type 7w8</summary>
 <div class="panel">
 <ul>
 <li><b>The admission at ninety:</b> On television in 1957 he agreed his arrogance was a shell, then told Mike Wallace how thin it was. A Self-Preservation Seven can see the defense and keep running it.</li>
-<li><b>Motion as survival:</b> Both times Taliesin burned, he rebuilt. Months after his lover Mamah Borthwick was murdered, he was courting the woman who wrote his condolence letter.</li>
+<li><b>Motion as survival:</b> Both times his Wisconsin compound Taliesin burned, he rebuilt. Months after his lover Mamah Borthwick was murdered there with six others, he was courting the woman who wrote his condolence letter.</li>
 <li><b>The compound instinct:</b> Self-Preservation Sevens nest. Taliesin and Taliesin West were biospheres of apprentices, gardens, and theater: the good life, built so he could never be evicted from it.</li>
 <li><b>Reframe as a reflex:</b> Asked about arrogance, he renamed it "honest." Declared finished in 1932, he wrote an autobiography that turned his obituary into a prologue.</li>
 <li><b>The 8 wing:</b> The reframes arrive as verdicts rather than charm. He took what he wanted and never apologized for the wreckage.</li>
@@ -211,21 +223,19 @@ He had spent ninety years telling everyone he was the greatest architect who eve
 
 Wright is a Self-Preservation [Enneagram Type 7](/enneagram-corner/enneagram-type-7) with a strong 8 wing. The porkpie hat, the unmarked grave, and the two-hour Fallingwater drawing are all the same defense running.
 
-A Seven's core fear is being trapped: in pain, in limitation, in any state that cannot be escaped through the next thing. The defense is reframe. Wright never let it lapse. When his career died in the 1920s, he wrote an autobiography that recast the silence as preparation. When his lover was hatcheted to death in his own dining room, he rebuilt the dining room and was in love again before the year was out. The world kept handing Wright conditions Sevens cannot tolerate, and he kept refusing to feel them as conditions.
+A Seven's core fear is being trapped: in pain, in limitation, in any state that cannot be escaped through the next thing. The defense is reframe. Wright never let it lapse. When his career died in the 1920s, he wrote an autobiography that recast the silence as preparation. When his lover was hatcheted to death in his own dining room in 1914, one of seven killed there, he rebuilt the dining room and was answering a stranger's condolence letter before the year was out. The world kept handing Wright conditions Sevens cannot tolerate, and he kept refusing to feel them as conditions.
 
-The [8 wing](/enneagram-corner/enneagram-wings-complete-guide) is visible in how he carried the refusal. He confronted clients, steamrolled building codes, and signed his drawings in giant block capitals. He did not apologize for the leaks. He told you what the leaks meant.
+The [8 wing](/enneagram-corner/enneagram-wings-complete-guide) is visible in how he carried the refusal. He confronted clients, steamrolled building codes, and signed his drawings in giant block capitals. He never apologized for the leaks. He told you what they meant.
 
-The Self-Preservation instinct is what makes his particular Seven legible. Wright built *compounds*. Taliesin and Taliesin West were biospheres: gardens, music rooms, theaters, dormitories full of paying apprentices who cooked and cleaned and drew.
+The Self-Preservation instinct is what makes his particular Seven legible. Wright built *compounds*. Taliesin in Wisconsin and Taliesin West in Arizona were biospheres: gardens, music rooms, theaters, dormitories full of paying apprentices who cooked and cleaned and drew.
 
 That subtype call is not ours alone. In July 2024 *Enneagram Monthly* ran Tim Vreeland's "Frank Lloyd Wright (1867–1959): The Life and Work of a Self-preservation Seven." The essay is paywalled, so take it as corroboration of a label and nothing further. We have read only the title and the opening lines.
 
 ### Why Frank Lloyd Wright is not a Type 5
 
-If you have searched his type before, you probably arrived holding "5w4." That is what the free typology aggregators say, and none of them show their work. The Five withdraws to conserve, hoards competence in private, and treats attention as a tax on the reserve. Wright ran the opposite program for seventy years. He founded a school so people would pay him for proximity, and published a 400-page autobiography at the moment the profession stopped calling. A Five who lost twelve years of commissions goes quieter. Wright got louder and charged admission.
+Search his type and the answer that comes back is "5w4." The free typology aggregators agree on it, and none of them show their work. The Five withdraws to conserve, hoards competence in private, and treats attention as a tax on the reserve. Wright ran the opposite program for seventy years. He founded a school so people would pay him for proximity, and published a 400-page autobiography at the moment the profession stopped calling. A Five who lost twelve years of commissions goes quieter. Wright got louder and charged admission.
 
-What those readers are seeing is real: the drafting table, the geometric obsession, the ability to vanish into a problem and come out holding Fallingwater. In Enneagram terms that is the Seven's growth line to Five, where the appetite finally narrows to one thing. Wright visited. He never moved in.
-
-The other live alternative is Type 4. Wright dressed theatrically, called himself misunderstood, and built an identity on uniqueness. But Fours sit in their pain and Wright [outran his](/enneagram-corner/enneagram-types-in-stress). Fours write melancholy autobiographies; Wright wrote one where every defeat was retconned into a victory lap. A Four would have grieved Mamah for years. Wright was writing to a new woman inside four months.
+What those readers are seeing is real: the drafting table, the geometric obsession, the ability to vanish into a problem and come out holding Fallingwater. Sixteen years on the Guggenheim is the fact that strains the Seven reading hardest. The [Guggenheim's own history](https://www.guggenheim.org/about-us/architecture/frank-lloyd-wright-and-the-guggenheim) counts more than 700 sketches across six sets of working drawings. The commission remained a moving target of redesigns, regulators, and public fights. Wright could tolerate duration while the work kept generating novelty; stasis was the condition he fled. What would break the reading outright is competence hoarded instead of sold. The record has none of that.
 
 > "Early in life I had to choose between honest arrogance and hypocritical humility. I chose honest arrogance and have seen no occasion to change." — Frank Lloyd Wright, *The Future of Architecture*, 1953
 
@@ -237,7 +247,7 @@ Anna Lloyd Jones decided her son would be a great architect before he could read
 
 The prophecy reaches us almost entirely through Wright's *An Autobiography*, which matters, because a book whose whole subject is self-invention is exactly where you would expect an origin myth to live. By his account, Anna was a trained teacher from the Lloyd Joneses, a Welsh Unitarian clan that called its Wisconsin valley "the valley of the God-Almighty Joneses" without irony. While pregnant in 1867 she announced the boy would build beautiful buildings, and hung engravings of English cathedrals in the nursery so the unborn architect would have the right images waiting for him.
 
-When Frank was nine, Anna came home from the 1876 Philadelphia Centennial Exposition with Friedrich Froebel's "kindergarten gifts," smooth maple cubes and spheres and triangles meant to teach children the geometry of nature. Wright credited those blocks for the rest of his life. "The virtue of all this," he wrote, "lay in the awakening of the child-mind to rhythmic structures in Nature." Most kids forget the toys their parents thrust on them. Frank built Fallingwater out of his.
+When Frank was nine, Anna came home from the 1876 Philadelphia Centennial Exposition with Friedrich Froebel's "kindergarten gifts," smooth maple cubes and spheres and triangles meant to teach children the geometry of nature. Wright credited those blocks for the rest of his life. "The virtue of all this," he wrote in *An Autobiography*, "lay in the awakening of the child-mind to rhythmic structures in Nature." Most kids forget the toys their parents thrust on them. Frank built Fallingwater out of his.
 
 The prophecy worked because it was the only thing in the house that stayed put. William Cary Wright was a Baptist minister turned music teacher turned itinerant lawyer, gifted and restless and unable to hold a job, a town, or an income bracket. In 1881, when Frank was fourteen, Anna asked him to leave; the divorce came in 1885, and by his own account Frank never saw his father again. The future had to be brighter than the present, because the present contained a father who quit.
 
@@ -245,7 +255,7 @@ The prophecy worked because it was the only thing in the house that stayed put. 
 
 In 1887 the twenty-year-old Wright walked into the Chicago firm of Adler & Sullivan and talked Louis Sullivan into hiring him after two short interviews. Sullivan was at the height of his power. Within a year Wright was his chief draftsman.
 
-He called Sullivan *lieber Meister*, "beloved master," for the rest of his life. Even after they fell out catastrophically in 1893 over Wright's moonlighting on bootleg commissions. Even after twelve years of silence. Even after Sullivan died broke and alcoholic in a Chicago hotel room in 1924. Wright never named another influence on his work. He treated the mentorship the way medieval saints treated relics.
+He called Sullivan *lieber Meister*, "beloved master," for the rest of his life. Even after they fell out catastrophically in 1893 over Wright's moonlighting on bootleg commissions. Even after twelve years of silence. Even after Sullivan died broke and alcoholic in a Chicago hotel room in 1924. Wright named three influences: Froebel's blocks, Japanese prints, and Sullivan. Only Sullivan was a person. He treated the mentorship the way medieval saints treated relics.
 
 Sullivan taught him everything, and gratitude covers some of that. It does not cover a lifetime of it. Sullivan was the only adult man in Wright's biography who did not disappear. His father left. The Lloyd Jones uncles supplied land without affection. Sullivan stayed in the room for six years and handed the boy the keys to the kingdom. The German title is the giveaway. *Lieber Meister* is a phrase a child uses for a father. No colleague talks that way about a colleague. The falling-out was the second father-leaving of Wright's life, and this time Wright triggered it.
 
@@ -255,89 +265,97 @@ He revised him in exactly one place. Sullivan's credo was *form follows function
 
 ## Why Wright walked out on six children for Mamah Borthwick
 
-The bootleg commission was the Harlan House, taken in plain violation of his contract. Getting fired over it in 1893 was the making of him. Sixteen years later, when Wright ran off with Mamah, he was at the height of the career that firing started, and the head of a family of eight.
+The bootleg commission was the Harlan House, taken in plain violation of his contract. Getting fired over it in 1893 was the making of him. Sixteen years later, when Wright ran off with Mamah, he was at the height of the career that firing started.
 
-Wright opened a studio in Oak Park, Illinois, with his wife Catherine Tobin and the first of six children, and across the next sixteen years produced the Prairie Style: Unity Temple, the Robie House, low horizontal lines and broad eaves and open plans, buildings that belonged to the flat Midwest instead of imposing on it. By 1909 he was the most talked-about architect under fifty in America, and a father six times over.
+Wright opened a studio in Oak Park, Illinois, with his wife Catherine Tobin and the first of six children, and across the next sixteen years produced the Prairie Style: Unity Temple, the Robie House, low horizontal lines and broad eaves and open plans, buildings that belonged to the flat Midwest instead of imposing on it. By 1909 he was the most talked-about architect under fifty in America.
 
 In September 1909 he walked out the front door of the Oak Park studio in the middle of three open commissions, boarded a train, met Mamah Borthwick Cheney, the wife of a former client, and sailed for Europe. He left Catherine. He left the six children. He left the practice. He left the country.
 
-The trip had a working alibi. In Berlin he assembled the *Wasmuth Portfolio*, a hundred-odd lithographs that Gropius and Mies van der Rohe later credited for shaping the Bauhaus. On paper it was a publishing trip. On every other paper it was an abandonment.
+The trip had a working alibi. He assembled the *Wasmuth Portfolio* in Berlin and Fiesole, a hundred-odd plates that architectural historians credit with shaping the Bauhaus generation. On paper it was a publishing trip. On every other paper it was an abandonment.
 
-He came home in 1911 to a country that had decided he was a moral catastrophe. Catherine refused a divorce for thirteen years. Wright did not wait for the verdict. He bought land at Spring Green and built Taliesin for Mamah, a stage set for a relationship America called ineligible.
+He came home in 1911 to a country that had decided he was a moral catastrophe. Wright did not wait for the verdict. He bought land at Spring Green and built Taliesin for Mamah, a stage set for a relationship America called ineligible.
 
-Sevens do not leave one room; they leave several at once. Wright exited a wife, six children, a city, a reputation, a country, and the weight of what the Prairie Style had asked of him, which was to keep iterating on one idea for thirty years. Mamah was the door. The leaving was the act.
+Wright did not leave one room. He left several at once: a wife, six children, a city, a reputation, a country, and the weight of what the Prairie Style had asked of him, which was to keep iterating on one idea for thirty years. Mamah was the door. The leaving was the act.
 
 The children were the price, and one of them left a receipt. John Lloyd Wright spent sixteen months in Japan as his father's chief assistant on the Imperial Hotel. They argued over John's unpaid salary. Wright fired him, and John paid his own way back to Chicago, where he started selling wooden toys and in 1918 brought Lincoln Logs to market. Wright never wrote about him at length. John wrote a whole book about Wright in 1946 and called it *My Father Who Is on Earth*.
 
 ## The grave Frank Lloyd Wright refused to mark
 
-Taliesin was three years old. On August 15, 1914, Wright was in Chicago when a servant there named Julian Carlton served lunch to seven people, locked the dining room exits, doused the floor with gasoline, set the house on fire, and attacked the survivors with a hatchet as they fled. Mamah died on the lawn. Her two children died with her, along with three apprentices and a chore boy of thirteen.
+Taliesin was three years old. On August 15, 1914, Wright was in Chicago when a servant there named Julian Carlton served lunch to seven people, locked the dining room exits, doused the floor with gasoline, set the house on fire, and attacked the survivors with a hatchet as they fled. Mamah died on the lawn. Her two children died with her, along with his draftsman, his foreman, his gardener, and the carpenter's teenage son.
 
-Here is the part the retellings leave out. Wright came back to Spring Green, went into Mamah's garden, and cut all of it. "So I cut her garden down," he wrote, "and with the flowers filled a strong, plain box of fresh, white pine to overflowing." They carried her by wagon to the Lloyd Jones cemetery at Unity Chapel, in sight of the house. He and his son John and two cousins lowered the casket and covered it in her flowers. Then Wright took the shovel and filled the grave himself, alone, until the August light was gone.
+Here is the part the retellings leave out. Wright came back to Spring Green, went into Mamah's garden, and cut all of it. "So I cut her garden down," he wrote in *An Autobiography*, "and with the flowers filled a strong, plain box of fresh, white pine to overflowing." They carried her by wagon to the Lloyd Jones cemetery at Unity Chapel, in sight of the house. He and his son John and two cousins lowered the casket and covered it in her flowers. Then Wright took the shovel and filled the grave himself, alone, until the August light was gone.
 
-He left it unmarked. Not from neglect, and not because the family objected. He refused. "Why mark the spot," he wrote in *An Autobiography*, "where desolation ended and began?" It stayed bare for forty-five years, until after his death, when his widow Olgivanna set a headstone on it.
+<p class="inner-thought">"Why mark the spot," he later wrote in <em>An Autobiography</em>, "where desolation ended and began?"</p>
+
+He left it unmarked. Not from neglect, and not because the family objected. He refused. It stayed bare for decades, and was marked only long after his death.
 
 That is the whole man in a sentence he wrote about himself. A marker is an address, and an address is a place you can be expected to return to and sit in. He would fill the grave with his own hands and then make certain there was nowhere to go back to.
 
-Within weeks he was rebuilding. By the end of 1914 the residential wing stood again, and he was writing to a sculptor named Miriam Noel, who had sent him an admiring condolence letter. She was living in the rebuilt house within months.
+Within weeks he was rebuilding. By the end of 1914 the residential wing stood again, and he was writing to a sculptor named Miriam Noel, who had sent him an admiring condolence letter. They met within days. She was living with him by 1916.
 
-This is the Seven's defense at full operating volume. Sevens meet pain with a pre-emptive narrative override; by the time a loss is fully felt, the next chapter is already drafted. The reframe is a refusal to wait. He loved her, and he skipped the grief anyway, because sitting in that dining room with what had happened there was a condition he could not survive holding.
+This is the Seven's defense at full operating volume. Sevens meet pain with a pre-emptive narrative override; by the time a loss is fully felt, the next chapter is already drafted. He loved her, and he skipped the grief anyway, because sitting in that dining room with what had happened there was a condition he did not stay in long enough to feel.
 
-Taliesin burned again in 1925, from an electrical fire, and he rebuilt it again. Twice incinerated, twice resurrected, by a man who decided very young that the only response to catastrophe is another set of blueprints.
+Taliesin burned again in 1925, from an electrical fire, and he rebuilt it again.
 
 ## The years Wright cut his curtains into handkerchiefs
 
-Then the blueprints stopped selling. By the time the Roaring Twenties roared, Wright was finished, and that is the consensus reading of the period. Between 1922 and 1934 he completed almost no significant work. American architecture had moved to the International Style of Mies van der Rohe and Le Corbusier, who treated buildings as machines for living in, stripped of Wright's hand-laid stone and stained glass. The trade press called him a relic.
+Then the blueprints stopped selling. By the time the Roaring Twenties roared, Wright was finished. Between 1922 and 1934 he completed almost no significant work. American architecture had moved to the International Style of Mies van der Rohe and Le Corbusier, who treated buildings as machines for living in, stripped of Wright's hand-laid stone and stained glass. The trade press called him a relic.
 
-He had one publicity windfall in the lean stretch and used it the way only a Seven can. On September 1, 1923, three months after his Imperial Hotel opened in Tokyo, the Great Kantō earthquake leveled most of the city around it. The Imperial took real damage. The central section slumped, fans fell from the balconies, a kitchen fire started. But it was broadly still standing while its neighbors were rubble. Wright's patron Baron Kihachiro Okura cabled him: "Hotel stands undamaged as a monument of your genius hundreds of homeless provided by perfectly maintained service congratulations." Wright handed the telegram to the American press. He did not add the missing words "considerable damage notwithstanding." Catastrophe converted to marketing copy in one news cycle.
+He had a publicity windfall in the lean stretch and used it the way a Seven does. On September 1, 1923, three months after his Imperial Hotel opened in Tokyo, the Great Kantō earthquake leveled most of the city around it. The Imperial took real damage. The central section slumped, fans fell from the balconies, a kitchen fire started. But it was broadly still standing while its neighbors were rubble. A [1945 *Time* account](https://time.com/archive/6822757/art-made-in-japan-u-s-designed/) preserves the cable Wright's patron Baron Kihachiro Okura sent him: "Hotel stands undamaged as a monument of your genius hundreds of homeless provided by perfectly maintained service congratulations." Wright handed the telegram to the American press. He did not add the missing words "considerable damage notwithstanding." Catastrophe converted to marketing copy in one news cycle.
 
-The lean stretch took the money first. In October 1926 Wright was arrested under the Mann Act for transporting Olgivanna across state lines while still married to Miriam. The charges were dropped. The newspapers ran the story anyway. The Bank of Wisconsin foreclosed on Taliesin, and Wright and Olgivanna, married in 1928 once Miriam agreed to divorce, lived a barely respectable poverty in the wreckage. Apprentices later reported that the couple cut up curtains to make handkerchiefs, and that neither had bought new clothes in four years.
+The lean stretch took the money first. In October 1926 Wright was arrested under the Mann Act, a federal morals law, for crossing state lines with Olgivanna, his partner, while still married to Miriam. The charges were dropped. The newspapers ran the story anyway. The Bank of Wisconsin foreclosed on Taliesin, and Wright and Olgivanna, married in 1928 once Miriam agreed to divorce, lived a barely respectable poverty in the wreckage. The Art Story's [Wright profile](https://www.theartstory.org/artist/wright-frank-lloyd/) reports that they cut curtains into handkerchiefs and, reportedly, bought no new clothes for four years.
 
 A man who introduced himself in print as the greatest architect of the age, in his sixties, snipping window curtains into nose-rags. Somebody had to hold the cloth while somebody else worked the scissors, and the two of them had to decide which windows the house could spare.
 
-Wright never wrote that afternoon down. The apprentices did. The man who put a murdered lover, a foreclosure, and twelve fallow years into print left out the scissors.
+That profile preserves the scissors outside his own telling. They complicate the version Wright gave readers in *An Autobiography*, where a murdered lover, a foreclosure, and twelve fallow years all became material.
 
 Published in 1932, *An Autobiography* did the work a Seven does best. Twelve fallow years became a chrysalis, an empty studio became the world running late, and the wife who left, the lover who died, and the children in Oak Park all became material in one narrative whose moral was that Wright had been right the whole time.
 
-That same year he and Olgivanna founded the Taliesin Fellowship, where students paid Wright for the privilege of farming, cooking, drafting, and absorbing his presence. Cynics called it a cult. The accounting was unsentimental: at sixty-five, with roughly two commissions in eight years, he needed to keep the lights on, so he sold the only product still moving, which was proximity to himself. Build a nest, then fill it with people who pay you to be in it.
+That same year he and Olgivanna founded the Taliesin Fellowship, where apprentices paid tuition while farming, cooking, drafting, and maintaining the compound without wages. Olgivanna had spent roughly seven years with the mystic G.I. Gurdjieff from 1917, and Tafel wrote that her time there shaped the Fellowship's form from the beginning. Wright supplied the appetite for a compound. Olgivanna supplied the operating system. The accounting was unsentimental: at sixty-five, with roughly two commissions in eight years, he needed to keep the lights on, so he sold the one product nobody else could supply, which was proximity to himself. Build a nest, charge admission, and let the students keep it running.
 
 ## How Fallingwater happened in two hours
 
-In the autumn of 1935, Pittsburgh department-store millionaire Edgar Kaufmann Sr. came to Taliesin to check on the country home he had commissioned for a wooded site at Bear Run, Pennsylvania. Wright had taken the job nine months earlier. Wright had not started.
+In the autumn of 1935, Pittsburgh department-store millionaire Edgar Kaufmann Sr. called Taliesin from Milwaukee to say he was driving over to see the country home he had commissioned for a wooded site at Bear Run, Pennsylvania. Wright had taken the job nine months earlier. Wright had not started.
 
-Apprentices remember the morning Kaufmann called from Milwaukee to say he was driving over. Wright announced that the design was finished. He sat down with a roll of yellow tracing paper, a sharpened pencil, and the plot plan. According to apprentice Edgar Tafel, who was in the studio, Wright drew Fallingwater in roughly two hours, apprentices sharpening pencils as fast as he used them up, and signed the sheet in block capitals: FALLINGWATER. "A house has to have a name," he said.
+He announced that the design was finished. He sat down with a roll of yellow tracing paper, a sharpened pencil, and the plot plan. According to apprentice Edgar Tafel, who was in the studio, Wright drew Fallingwater in roughly two hours, apprentices sharpening pencils as fast as he used them up, and signed the sheet in block capitals: FALLINGWATER. Tafel recalled Wright's explanation: "A house has to have a name."
 
 The legend has been picked apart since. Wright had been turning the site over for months, and the sprint was performance as much as composition. But the procrastination-then-flash pattern is real, and it is one of the purest Type 7 work signatures on record. Sevens avoid the slow grind and then deliver in a burst. They are not lazy. They are intolerant of the *in-between*, the stretch where work is grinding but not yet generative.
 
-Kaufmann had asked for a house downstream, where the family could *see* the cascades through the living room window. Wright drew it *on top of* the falls and called the principle *organic architecture*, a building grown out of its site. "I want you to live with the waterfall," he wrote to the Kaufmanns in 1935, "not just to look at it." Sitting on the bank is where the pain catches up with you. Wright hung the house out over the drop.
+Kaufmann had asked for a house downstream, where the family could *see* the cascades from the window. Wright drew it *on top of* the falls and called the principle *organic architecture*, a building grown out of its site. Fallingwater's [quote archive](https://fallingwater.org/wp-content/uploads/2017/07/MediaResources-Fallingwater-Quotes.pdf) dates the line to Wright's 1935 letter to the Kaufmann family: "I want you to live *with* the waterfall." Looking *at* the falls is the life where you sit on the bank and let the pain catch up. Living *with* them is the one where you build something that keeps moving.
 
-Fallingwater put Wright on the cover of *Time* in January 1938, and the lean years vanished from the next edition of the autobiography. He was seventy, with two decades of work still ahead.
+Fallingwater put Wright on the cover of *Time* in January 1938, and the lean years vanished from the next edition of the autobiography.
 
 ## What Wright meant when he told a client to move his chair
 
-Wright's buildings leaked. They leaked badly. Fallingwater's leaks have been so persistent that in March 2026 the Western Pennsylvania Conservancy completed a roughly $7 million renovation to address what *The Art Newspaper* called "endemic leaking problems." Every Wright client has a version of the Wingspread dinner, and the answer was always some flavor of "all good architecture leaks." The leak was weather. The cantilever was the achievement. Complaining meant you had not understood the cantilever.
+Wright's buildings leaked. They leaked badly. Fallingwater's leaks have been so persistent that in March 2026 the Western Pennsylvania Conservancy completed a roughly $7 million renovation to address what *The Art Newspaper* called "endemic leaking problems." Every Wright client has a version of the Wingspread dinner. Wright treated the leak as weather and the cantilever as the achievement. Complaining meant you had not understood the cantilever.
 
-His apprentices watched him climb into that stance every morning. In *Years with Frank Lloyd Wright* (1979), Tafel described his teacher as "unpredictable, cantankerous, a striking figure with white hair, cape and cane," an "individualistic spirit who delighted in acting out his own myth." *Delighted.* The costume was work, and he enjoyed the work.
+Fallingwater's [preservation history](https://fallingwater.org/learn/preservation-and-collections/preservation-history/) records an under-reinforced cantilever. Kaufmann had it independently reviewed; the engineers cracked their test specimen and called for roughly double Wright's steel. Wright took that as an insult and refused. The contractor added steel behind his back anyway. The slab dropped an inch and three-quarters the day the formwork came off, sagged to nearly seven inches by 1994, and needed a $4 million post-tensioning rescue in 2002. Wright never conceded the point.
 
-What makes the Hib Johnson story more than a joke about arrogance is what Johnson did next. When the water hit Johnson's head, he was not a one-off client with a bad roof. He had already commissioned the S.C. Johnson Administration Building, built from 1936 to 1939, whose Great Workroom stands on dendriform concrete columns so improbable that Racine's inspectors made Wright load a test column with twelve tons before approving it. He loaded it with sixty. And after the leak, after the phone call, after the wet dinner jacket, Johnson came back and commissioned the fourteen-story Research Tower, built between 1944 and 1951. The client took the insult and kept writing checks for fifteen years.
+His apprentices watched him climb into that stance every morning. *Years with Frank Lloyd Wright* (1979) describes him as "unpredictable, cantankerous, a striking figure with white hair, cape and cane," an "individualistic spirit who delighted in acting out his own myth." The costume was work.
 
-No defense Wright wrote for himself lands as hard as Johnson's checkbook. The same wing bent New York a decade later. Deep in the Guggenheim's code fight, Robert Moses, the city's most feared regulator and Wright's cousin by marriage, wrote to him around 1956: "I don't care how many rules you have to break. The Guggenheim must be built."
+What makes the Hib Johnson story more than a joke about arrogance is what Johnson did next. When the water hit Johnson's head, he was not a one-off client with a bad roof. He had already commissioned the S.C. Johnson Administration Building, built from 1936 to 1939, whose Great Workroom stands on dendriform concrete columns. SC Johnson's [architecture history](https://www.scjohnson.com/Home/Interacting-with-SC-Johnson/Tours-and-Architecture/Our-Architecture/Frank-Lloyd-Wright-designed-Administration-Building) records the 1937 proof test regulators required before approving them.
+
+The required load was twelve tons. Hundreds watched as the crew stacked sandbags long past approval, until the column held sixty. Here the excess was play: a structural test turned into theater.
+
+After the leak, after the phone call, after the wet dinner jacket, Johnson came back and commissioned the Research Tower in 1944; it was dedicated in 1950. The client took the insult and kept writing checks for fourteen years.
+
+No defense Wright wrote for himself lands as hard as Johnson's checkbook.
 
 ## What Wright admitted at ninety
 
-Moses got his way. Wright was ninety by then, the Usonian houses behind him, the museum still unfinished. The Mike Wallace interviews were filmed on September 1 and September 28, 1957, eighteen months before his death and twenty-five months before the Guggenheim opened on October 21, 1959, after both he and his patron were in the ground.
+New York fought him over the Guggenheim and lost the same way. Wright was ninety by then, his affordable Usonian houses behind him, the museum still unfinished. The Mike Wallace interviews were filmed on September 1 and September 28, 1957, eighteen months before his death.
 
 Wallace pushed him on everything. Religion. Politics. Death. Ego. Wright was charming, evasive, theatrical, and twice he stopped performing. The first time gave us the brittle shell. The second came when Wallace asked whether age had cooled his rebellion. Wright's answer: "That I'm more so. Only more quiet about it."
 
 That is the Seven at the end of the runway, still moving. *More so.* At ninety. With the Guggenheim in scaffolding and apprentices doing his laundry in two states. *Only more quiet about it.*
 
-The cost of the Seven's defense is that the person inside the performance never quite gets met. Mamah is the one figure he could not write his way out of, and the proof is the shovel and the bare ground at Unity Chapel. Catherine, Miriam, and Olgivanna were each necessary and none of them enough. The shell held because it had to. The man inside it was a boy in a parsonage who watched his father fail to provide and his mother prophesy, and decided around age nine that the only safe thing to do was keep building.
+The cost of the Seven's defense is that the person inside the performance never quite gets met. Mamah is the one figure he could not write his way out of, and the proof is the shovel and the bare ground at Unity Chapel. Catherine raised six children through the thirteen years she withheld the divorce. Miriam wrote the condolence letter. Olgivanna ran the Fellowship. The shell held because he never once set it down. The man inside it, by his own account, was a boy in a parsonage who watched his father fail to provide and his mother prophesy.
 
-He kept building. Philip Johnson called him the greatest architect of the nineteenth century, a jab Hugh Howard collected in *Architecture's Odd Couple* (2016), and meant it the way a Type 3 means most things, as a critique dressed for dinner. Johnson was then the loudest evangelist for the International Style, machine-pure and indifferent to site, where Wright's vocabulary was hand-cut stone and Victorian dramatics. The jab had teeth. Its point was that he belonged to the century before this one. He knew it, kept performing anyway, and kept winning. The Frank Lloyd Wright Foundation counts 1,114 designs and 532 of them realized, though tallies vary by who is counting, and while Johnson's glass boxes went up on Park Avenue the Western Pennsylvania Conservancy was printing brochures for sixty more years of Fallingwater visitors.
+He kept building. Philip Johnson called him the greatest architect of the nineteenth century, a jab Hugh Howard collected in *Architecture's Odd Couple* (2016), and meant it as a critique dressed for dinner. Johnson was then the loudest evangelist for the International Style, machine-pure and indifferent to site, where Wright's vocabulary was hand-cut stone and Victorian dramatics. The jab had teeth. Its point was that he belonged to the century before this one. He knew it, kept performing anyway, and kept winning. The Frank Lloyd Wright Foundation counts 1,114 designs and 532 of them realized, though tallies vary by who is counting, and while Johnson's glass boxes went up on Park Avenue the Western Pennsylvania Conservancy was printing brochures for sixty more years of Fallingwater visitors.
 
-He never believed it himself. He only needed *you* to, and the collecting started fresh every morning. He saw it. He told Mike Wallace he saw it. Then he put the hat back on, the one he had shaped to echo his own cantilevered roofs, and went back to work while the country argued about whether he was a genius or a fraud.
+Whether he believed it himself is the question the record cannot close. He needed *you* to, and the collecting started fresh every morning. He knew what the costume was; he told Wallace the shell was brittle and wore it for another eighteen months anyway. Then he put the hat back on and went back to work while the country argued about whether he was a genius or a fraud.
 
-He died in Phoenix on April 9, 1959. The Guggenheim opened six months later. The crowd lined up at Fifth Avenue and 89th Street and climbed his spiral, looking *at* the paintings, which was wrong, while a building he had spent sixteen years fighting for held them up. He had finally built a room nobody could ever move their chair out of.
+He died in Phoenix on April 9, 1959. The Guggenheim opened six months later. The crowd lined up at Fifth Avenue and 89th Street and climbed his spiral, looking *at* the paintings, while a building he had spent sixteen years fighting for held them up. He had finally built a room nobody could ever move their chair out of.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Frank Lloyd Wright</summary>
@@ -346,21 +364,23 @@ He died in Phoenix on April 9, 1959. The Guggenheim opened six months later. The
 
 ### Frank Lloyd Wright's Wing: 7w8
 
-The 7w6 runs on charm and alliance. It wants the room on its side before it takes a risk. Wright never bought that insurance. He violated Sullivan's contract, ran off with a client's wife, made an inspector watch a column take sixty tons, and told a CEO with a wet head to move. The Eight side turns a Seven's reframe from an apology into a verdict.
+The 7w6 runs on charm and alliance, and wants the room on its side before it takes a risk. Wright never bought that insurance. The Eight side turns a Seven's reframe from an apology into a verdict.
 
 ### Frank Lloyd Wright's Instinctual Subtype: self-preservation
 
-Of the three <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>, self-pres is the one that builds walls around the good life. Two Taliesins, a farm, a theater, and a fellowship of apprentices who paid tuition to cook his meals is that instinct running fifty years without a break.
+Of the three <a href="/enneagram-corner/enneagram-instinctual-subtypes">instinctual subtypes</a>, self-pres builds a surrogate family of allies with itself in the privileged seat. A fellowship of apprentices who paid tuition to cook his meals is that instinct running fifty years without a break.
 
 ### Stress and Growth Arrows
 
-The <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a> explain the two Wrights people argue about. Under stress, Seven moves to One: rigid, moralizing, certain. That is the Wright of the lecture circuit and Broadacre City, scolding America about its taste. In growth, Seven moves to Five, and that is the Wright of the drafting table who put nine months of unspent thinking on paper in one morning.
+The <a href="/enneagram-corner/enneagram-connecting-lines">connecting lines</a> explain the two Wrights people argue about. Under stress, Seven moves to One: rigid, moralizing, certain. That is the Wright of the lecture circuit and Broadacre City. In growth, Seven moves to Five, the Wright of the drafting table who put nine months of unspent thinking on paper in one morning.
 
 ### Counterarguments
 
-**Type 5.** The most common alternate read online, and the weakest. Fives conserve; Wright spent. A Five guards the private reserve. Wright charged tuition for access to his. The Five-looking behavior sits on the growth arrow.
+**Type 4.** Wright dressed theatrically, called himself misunderstood, and built an identity on uniqueness. But Fours organize around identity and emotional truth; Wright turned every defeat into forward motion. Mamah was murdered in August. He was answering Miriam Noel's condolence letter before the year was out.
 
-**Type 3.** Philip Johnson was the Three in that rivalry. Threes adapt the product to the market; Wright watched the market leave for glass boxes and changed nothing, which is why the lean years lasted twelve years instead of two.
+**Type 8.** The strongest alternative, and the one the loudest evidence invites. The <a href="/enneagram-corner/enneagram-harmonic-approaches">harmonic approaches</a> separate delivery from motive: Eights are Reactive and want you to feel the problem, Sevens are Positive Outlook and reframe it away. "Move your chair" is delivered like an Eight and says what only a Seven would say, that the leak is not a problem. An Eight core would have made the leak somebody's fault.
+
+**Type 3.** Threes adapt the product to the market. Wright watched the market leave for glass boxes and changed nothing, which is why the lean years lasted twelve years instead of two.
 
 </div>
 </details>
@@ -408,7 +428,7 @@ Addressed:
 - Three factual errors fixed. Wingspread was completed in 1939, not 1937 (Wikipedia: designed from late 1936, built May 1938-1939), Wright took the call in Arizona rather than at Taliesin, and the water came through the roof, not "the cantilevered roof." FAQ #2 rewritten to match. FAQ #4 no longer says Wright fired John "by cable"; no source supports that detail.
 - The conclusion's "buried her at Taliesin... keep her in the frame" was wrong and is gone. Mamah was buried in the Lloyd Jones cemetery at Unity Chapel and Wright refused a marker for forty-five years. The section is rebuilt on that refusal, with the cut-garden burial ("So I cut her garden down…", An Autobiography) as the empathy turn the draft was missing.
 - Type 5 rebuttal added with its own H3 beside the Type 4 one, since 5w4 is what every free aggregator on page one says. The growth-line-to-Five framing explains what those readers are actually seeing.
-- Johnson Wax counter-turn added inside the "move your chair" H2: Administration Building 1936-39 (sixty-ton column test), Research Tower 1944-51. The client took the insult and kept paying for fifteen years.
+- Johnson Wax counter-turn added inside the "move your chair" H2: Administration Building 1936-39 (sixty-ton column test), Research Tower 1947-50. The client took the insult and kept paying for fourteen years.
 - John Lloyd Wright pays off the six-children setup: sixteen months on the Imperial Hotel, fired over unpaid salary, paid his own way home, wrote "My Father Who Is on Earth" (1946).
 - Anna's prophecy now attributed to An Autobiography. "Three hundred buildings left" replaced by the Foundation's 1,114/532 count, flagged as varying by source.
 - Lint: 5 fails to 0. Rabbit Hole added (7w8 wing, self-pres subtype, 7-to-1 stress and 7-to-5 growth arrows, Type 5 and Type 3 counterarguments), meta_title now carries the head term and names the 5w4 rival, prose em-dashes 47 to 0, contrast-pair engines 5 to 0, internal links 7 to 5, body 5,021 to 4,489 words.
@@ -479,60 +499,36 @@ promises less than the section delivers. Left alone because the heading is load-
 lint and the HEADING MIX LEDGER.
 -->
 
-<!-- EDITOR PASS NOTES (2026-08-26)
-Polish only. No new research, no structural moves, no frontmatter changes beyond the answer
-block. Lint entered this pass at 0 fail / 1 warn and leaves at 0 fail / 1 warn; contrast
-pairs were already 0 and still are. Body 4,488 -> 4,451 words, so the pass paid for itself
-and returned ~37 words of headroom.
+<!-- EDITOR PASS NOTES (2026-08-26, perspective-jury mode)
+Adjudicated feedback from docs/content-analysis/perspective-reviews/Frank-Lloyd-Wright/2026-08-26_135348/synthesis.md.
+Full row-by-row accounting in editor-resolution.md in that same directory. Read that, not this.
 
-The real finding: with the contrast-pair engine gone, the draft had grown a replacement
-formula nobody had counted. A narrator pointer sentence that steps in front of the evidence
-and announces what it means. Six of them, four opening paragraphs:
-  - "That sentence is the Seven's reframe written in stone." (1953 quote)
-  - "That is the whole man in a sentence he wrote about himself." (Mamah's grave)  KEPT
-  - "That is the kind of indignity that breaks a Type 4..." (curtains)
-  - "That line carries the man." (live with the waterfall)
-  - "That is the strongest available answer to Wright's critics..." (Johnson's checkbook)
-  - "That is the Seven at the end of the runway, still moving." (Wallace)            KEPT
-Kept the two that land at emotional peaks; rewrote the other four so the fact delivers its
-own meaning. Same move on the "here's what everyone misses" opener, which fired five times
-(cold open, Sullivan, Mamah walkout, Mamah grave, Fallingwater legend). Cut to three: the
-cold-open pivot and the grave are load-bearing, the Fallingwater one is an honest caveat.
-
-Also fixed:
-- FACTUAL: the 1953 "honest arrogance" quote was called "twenty-six words." It is 24. The
-  sentence now leads with the corrected count instead of burying it as a flourish.
-- "who would write three thousand pages on it" was an invented number doing the work of a
-  real one. Now "would still be writing about that humiliation a decade later."
-- "a failure of cantilever-comprehension" and "the Seven's reframe written in stone" were
-  both trying too hard. Plain now.
-- "Wright ran it at championship volume" duplicated "the Seven's defense at full operating
-  volume" 70 lines later. First one replaced.
-- Conclusion echoed the intro nearly verbatim ("He did not believe it. He needed *you* to
-  believe it"). Kept the bookend, reworded so it advances. Also killed a mirror/mirror
-  collision one clause apart ("in front of the mirror" / "shaped to mirror his roofs").
-- Rabbit Hole Type 5 rebuttal ran two symmetrical semicolon pairs back to back, which is the
-  contrast engine in clothing lint does not count. Broke the second.
-- "The case is straightforward once you know where to look" was confidence filler sitting in
-  the extractable answer block. Replaced with the three signature moments (porkpie hat,
-  unmarked grave, two-hour Fallingwater), which makes the snippet concrete instead of smug.
-
-Protect list honored in full: cold-open sequence, lieber Meister argument, Okura telegram,
-curtains-into-handkerchiefs, Philip Johnson concession, final paragraph. The Sullivan section
-lost its "The casual reading is X / The deeper one is Y" scaffolding but the argument itself
-is untouched and hits sooner without it.
+Cleaned up:
+- All 9 P0 repairs applied or verified (P0-01 and P1-15 were already live; not double-applied).
+  The through-line of the P0 block: the draft was harder on Wright in its scenes than in its
+  summaries, and it kept converting attributed claims into reported ones. Both intro and
+  conclusion now mark their reading as a reading, the way PROTECT-14 marks the Welsh prophecy.
+- Four checkable facts corrected: the 1914 victims' occupations, the Research Tower dates,
+  the Wasmuth crediting, and the Noel timeline. "Forty-five years" and the porkpie hat's
+  invented design intent are gone.
+- No person other than Wright is assigned an Enneagram type anywhere in reader-visible text.
+- The "move your chair" section now names the failure Wright would not concede: the cantilever
+  was under-reinforced, he refused the correction, and it sagged for sixty years. That was the
+  weakest section in the piece and it is now the strongest. Funded by cutting the Moses beat.
+- RQ-01 closed affirmatively: TIME, 9 Nov 1953, reviewing The Future of Architecture, prints
+  the "honest arrogance" line and names the book. The pull-quote citation stands as printed
+  and TIME is now in citations:. RQ-02/03/05/06 took their safe defaults.
 
 Still rough:
-- Word ceiling. 4,451 of 4,500. Any future pass still has to cut before it adds.
-- The staccato-anaphora cadence ("He left Catherine. He left the six children. He left the
-  practice.") fires roughly a dozen times. Every instance I checked is earning it, so I left
-  them, but it is now the draft's dominant rhythm and the next reader should re-count rather
-  than assume.
-- Heading "Why Frank Lloyd Wright is not a Type 5" still houses the Type 4 rebuttal too. The
-  cohesion pass flagged this and left it; I agree with leaving it. The heading is load-bearing
-  for lint and the entity gap, and splitting it costs words the draft does not have.
-- No synthesis.md existed in the 2026-08-26_135348 perspective-review dir when this pass ran,
-  so the six reviews were NOT adjudicated into this draft. Perspective gate is still open.
+- Word ceiling, harder than before: 4,497 of 4,500. The next pass has to cut before it adds,
+  and roughly 180 words of redundancy were already harvested in this one.
+- P2-01 (read the Guggenheim spiral as evidence for the man) did not fit. It is the one P2 that
+  discharges the promise in persona_title, and it is the first thing to take at the next refresh.
+  P2-02 (Julian Carlton's fate, <20 words) is second.
+- RQ-06 is the highest-value open research item: if Wright publicly reframed the 21 artists'
+  1956 objection, that belongs in the conclusion and beats the concession now standing there.
+- date/lastmod are 2026-05-13 on a draft rebuilt 2026-08-26. Not the editor's to change.
+  DJ's call at publish time. content_quality is likewise stale and wants a regrade.
 -->
 
 <!-- REVISION PASS NOTES (2026-08-26)
@@ -587,4 +583,31 @@ Rejected (with reason):
 Body 4,447 -> 4,424 words, so the pass paid for the new interior beat and four source tags
 out of the cuts and still returned headroom.
 Lint: clean (0 fail, 1 warn — word headroom, pre-existing).
+-->
+
+<!-- POST-VERIFICATION FIXES (2026-08-26)
+- Final grading repairs: attributed the Froebel quote to An Autobiography; linked the
+  Fallingwater cantilever paragraph to the Conservancy's preservation history; made the
+  Fellowship's tuition-funded unpaid labor explicit and sharpened its closing critique.
+- Source correction after verification: the curtains-into-handkerchiefs detail belongs to
+  The Art Story, not Aeon. The reader-visible attribution, citations list, and research
+  ledger now point to https://www.theartstory.org/artist/wright-frank-lloyd/.
+- Evidence follow-up: attributed the cut-garden quotation inline to An Autobiography and
+  moved The Art Story link ahead of the arrest, foreclosure, and handkerchief account it supports.
+- Rubric-v2 convergence pass: kept the search-critical Type 5 rebuttal once in the diagnosis,
+  removed its arrow mechanics, moved Type 4 into the Rabbit Hole, and removed the duplicate
+  Rabbit Hole Type 5 case. Reframed the sixty-ton column test as play, giving the piece a
+  second emotional color beyond defense and reframe.
+- Final source pass: linked the Okura telegram inline to Time's 1945 account and the Kaufmann
+  line to Fallingwater's quote archive. Expanded the sixty-ton column test into a short
+  standalone play beat rather than another defense reading.
+- Protected-rhyme repair: identified the waterfall line as a 1935 letter, then restored the
+  "looking at / living with" prose poles without restoring the lint-breaking contrast quote.
+- Final rubric closure: answered the sixteen-year Guggenheim objection with the museum's own
+  700-sketch record; rendered Wright's documented grave sentence as the interior beat; removed
+  the unsourced leaks quotation; attributed the house-name line to Tafel; and linked SC Johnson's
+  account of the twelve-to-sixty-ton column test.
+- Corrected stale research-ledger dates for the Johnson Wax Research Tower to 1947-1950 and
+  the repeat-commission span to fourteen years.
+- Current lint after these repairs: 0 failures, 1 headroom warning; body 4,482/4,500 words.
 -->

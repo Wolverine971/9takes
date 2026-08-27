@@ -1,0 +1,100 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — frank-lloyd-wright (Type 7)
+/Users/djwayne/9takes/src/blog/people/drafts/Frank-Lloyd-Wright.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-7 drafts by date):
+  - Tyla  (2026-08-15, 48 units)
+  - Travis-Kelce  (2026-08-13, 51 units)
+  - stavros-halkias  (2026-07-25, 30 units)
+  - lamine-yamal  (2026-07-19, 21 units)
+  - john-coogan  (2026-07-14, 31 units)
+  - Jeff-Goldblum  (2026-07-03, 23 units)
+  - Matt-Smith  (2026-07-03, 24 units)
+  - cathie-wood  (2026-07-02, 22 units)
+
+Noise floor over 10750 unit pairs:  median=0  p90=0  p99=0.007  max=0.184
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.184   frank-lloyd-wright  <->  Tyla
+   TARGET [diagnosis] Wright is a Self-Preservation Enneagram Type 7 with a strong 8 wing.
+   OTHER  [diagnosis] most likely 7w8 with a self-preservation dominant instinct.
+
+score 0.119   frank-lloyd-wright  <->  Matt-Smith
+   TARGET [diagnosis] A Seven's core fear is being trapped
+   OTHER  [diagnosis] His core fear is not death or even failure.
+
+score 0.094   frank-lloyd-wright  <->  Tyla
+   TARGET [diagnosis] The Life and Work of a Self-preservation Seven." The essay is paywalled
+   OTHER  [diagnosis] most likely 7w8 with a self-preservation dominant instinct.
+
+score 0.041   frank-lloyd-wright  <->  Tyla
+   TARGET [diagnosis] The Self-Preservation instinct is what makes his particular Seven legible.
+   OTHER  [diagnosis] most likely 7w8 with a self-preservation dominant instinct.
+
+
+Most similar drafts (max unit-pair score):
+  0.184 #######              Tyla
+  0.119 #####                Matt-Smith
+  0.056 ##                   Jeff-Goldblum
+  0.054 ##                   cathie-wood
+  0.039 ##                   john-coogan
+  0.027 #                    Travis-Kelce
+  0.023 #                    lamine-yamal
+  0.019 #                    stavros-halkias
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.184   frank-lloyd-wright  <->  Tyla
+   TARGET [diagnosis] Wright is a Self-Preservation Enneagram Type 7 with a strong 8 wing.
+   OTHER  [diagnosis] most likely 7w8 with a self-preservation dominant instinct.
+
+score 0.119   frank-lloyd-wright  <->  Matt-Smith
+   TARGET [diagnosis] A Seven's core fear is being trapped
+   OTHER  [diagnosis] His core fear is not death or even failure.
+
+score 0.094   frank-lloyd-wright  <->  Tyla
+   TARGET [diagnosis] The Life and Work of a Self-preservation Seven." The essay is paywalled
+   OTHER  [diagnosis] most likely 7w8 with a self-preservation dominant instinct.
+
+score 0.082   frank-lloyd-wright  <->  Tyla
+   TARGET [diagnosis] The 8 wing is visible in how he carried the refusal.
+   OTHER  [counter-typing] The sp instinct and the 8 wing cover part of it.
+
+score 0.074   frank-lloyd-wright  <->  Matt-Smith
+   TARGET [diagnosis] He founded a school so people would pay him for proximity
+   OTHER  [diagnosis] He found a version of himself that nobody could release at 16.
+
+score 0.056   frank-lloyd-wright  <->  Jeff-Goldblum
+   TARGET [diagnosis] A Seven's core fear is being trapped
+   OTHER  [diagnosis] I have to make sure everything is on the surface and ready to be drawn from." That is a Seven's entire theory of living
+
+score 0.054   frank-lloyd-wright  <->  cathie-wood
+   TARGET [diagnosis] Wright is a Self-Preservation Enneagram Type 7 with a strong 8 wing.
+   OTHER  [diagnosis] Cathie Wood is a believer who throws elbows.
+
+score 0.041   frank-lloyd-wright  <->  Tyla
+   TARGET [diagnosis] The Self-Preservation instinct is what makes his particular Seven legible.
+   OTHER  [diagnosis] most likely 7w8 with a self-preservation dominant instinct.
+
+score 0.039   frank-lloyd-wright  <->  john-coogan
+   TARGET [counter-typing] The Five-looking behavior sits on the growth arrow.
+   OTHER  [counter-typing] The Five case deserves respect.
+
+score 0.038   frank-lloyd-wright  <->  Jeff-Goldblum
+   TARGET [diagnosis] A Seven's core fear is being trapped
+   OTHER  [diagnosis] a bone-deep aversion to being trapped in pain
+
+score 0.036   frank-lloyd-wright  <->  Matt-Smith
+   TARGET [diagnosis] But Fours sit in their pain and Wright outran his.
+   OTHER  [counter-typing] Fours sit inside their melancholy and cultivate it
+
+score 0.036   frank-lloyd-wright  <->  john-coogan
+   TARGET [counter-typing] A Five guards the private reserve.
+   OTHER  [diagnosis] A Five withdraws to protect energy from exposure.
+
+------------------------------------------------------------------------------
+Top pair scores 0.184 vs median 0  (~∞x the noise floor).

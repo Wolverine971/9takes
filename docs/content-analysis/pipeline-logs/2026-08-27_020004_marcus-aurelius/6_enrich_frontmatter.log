@@ -1,0 +1,33 @@
+No changes were needed — the draft arrived fully enriched. My work here was verification rather than writing, and everything held up.
+
+```
+Frontmatter enrichment complete: Marcus-Aurelius
+Result: NO CHANGES — already fully enriched (idempotency over churn)
+```
+
+**Fields already present and verified (all preserved untouched):**
+
+| Field | Value / count | Verification |
+|---|---|---|
+| `wikipedia` | `.../Marcus_Aurelius` | HTTP 200; matches Wikidata `enwiki` sitelink |
+| `wikidata_qid` | `Q1430` | Label "Marcus Aurelius", desc "16th Roman Emperor… Stoic philosopher" |
+| `birth_date` | `0121-04-26` | Exact match to Wikidata P569 `+0121-04-26`, precision 11 |
+| `birth_place` | `Rome, Roman Empire` | Wikidata P19 = Q220 (Rome) |
+| `nationality`, `occupation` | Roman; 2 items | In range |
+| `knows_about` | 5 items | Real expertise areas, not the occupation-copied backfill pattern |
+| `keywords` | 9 | In range (5–10) |
+| `same_as` | 3 | All three HTTP 200, including the SEP entry |
+| `citations` | 7 | Each of the 7 URLs present in file; all correspond to sources the body names |
+| `faqs` | 5 | Substantive, body-derived, all 5 anchors match real H2 slugs |
+
+**`imdb_id` correctly omitted.** Worth flagging because it's a trap: Wikidata *does* carry P345 for him, but the value is `ch0002130` — a **character** ID, not an `nm` person ID. He has no filmography as a person, only actors portraying him. Writing that value would have linked the Person entity to a character record.
+
+**FAQ block left exactly as-is** per strict idempotency. I checked for the 2026 templated-backfill signature ("with supporting context from", answers assembled from frontmatter fields) — none present. Answers trace to real body text: the Arethas/Themistius transmission history to line 379, the marriage-and-children figures to line 347.
+
+**YAML parses cleanly.** I checked this specifically because this pipeline has previously emitted invalid `\'` escaping in FAQ frontmatter, and since drafts are bundled into the build, one bad draft fails the entire deploy. This one is safe.
+
+**Observations (no action taken):**
+
+1. **The body contains zero inline external links** — every URL in the file lives in frontmatter. `citations` was assembled from sources the body names in prose (Loeb, Historia Augusta, Cassius Dio, PolitiFact, Yale) rather than from hyperlinks. The citations are legitimate and traceable, but this deviates from Step 7's assumption that citations are harvested from inline links. Flagging in case the publish gate expects linked sourcing.
+2. **`same_as` sits at the 3-item floor** of the 3–6 range. Britannica is available and recorded in Wikidata P1417 (`biography/Marcus-Aurelius-Roman-emperor`), but a direct fetch returned 403 (bot-blocking, not a 404), so I could not independently confirm it resolves. I left the list untouched rather than add a URL I couldn't verify to an otherwise all-verified list — say the word if you want it appended.
+3. Minor: FAQ 4 ("How did Marcus Aurelius die, and how old was he?") anchors to the Commodus section, which holds the deathbed detail, while the date/age/location sit in H2 1. Defensible as-is, and covered by FAQ idempotency, so I left it.

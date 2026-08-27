@@ -3750,12 +3750,15 @@ export type Database = {
       }
       use_demo_table: {
         Row: {
+          id: number
           value: boolean | null
         }
         Insert: {
+          id?: number
           value?: boolean | null
         }
         Update: {
+          id?: number
           value?: boolean | null
         }
         Relationships: []

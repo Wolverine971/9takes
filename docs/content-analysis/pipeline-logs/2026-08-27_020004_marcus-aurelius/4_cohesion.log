@@ -1,0 +1,55 @@
+No FAILs. Both warnings are pre-existing and documented in the draft's ledgers.
+
+## Cohesion Audit: `src/blog/people/drafts/Marcus-Aurelius.md`
+
+### Central Thesis
+Marcus Aurelius's famous calm was not a temperament he had but a correction he ran on himself, privately, for thirty-three years without ever finishing it — the Type 1 signature of a man marking his own work in an empty room.
+
+### Thread Map
+| Section | Contributes | Connects because |
+|---|---|---|
+| Intro (Alsium) | The emperor who sells composure couldn't be talked into a beach; hypocrisy explicitly ruled out | Opens the question: what was the discipline aimed at? |
+| H2 1 Who he was | Bio spine, ends on Dio's outside verdict | Establishes the life the discipline ran inside |
+| H2 2 Two Archives | Two independent first-person records 33 years apart, same report | Supplies the evidence Dio can't: the inside view |
+| H2 3 Personality type | Diagnosis: Type 1, pressure-tested against 6 | Reads the verdict the archives just delivered |
+| H2 4 Holiday | Critic pressure → Book 1 debt ledger → refusal to absolve | The private case, seen from outside |
+| H2 5 Anger | The temper under the management | Answers what Fronto was pushing at |
+| H2 6 War funding | Standard applied to imperial money; still marking against Antoninus | Same standard, public stakes |
+| H2 7 Faustina/children | The audit didn't pause for his own funerals | The dead he was measuring against weren't all in the past |
+| H2 8 Commodus | The one decision he never audited | The son who lived, after the ones who didn't |
+| H2 9 The Book | Survival by accident; the modern misread | Closes on the unfinished marking |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 6/10 | 8/10 |
+| Section Transitions | 5/10 | 8/10 |
+| Internal Paragraph Flow | 7/10 | 8/10 |
+
+**Before: 7/10 → After: 8.5/10**
+
+The through-line was already strong — every section earns its place, nothing is a detour. The damage was all at the seams, which is what you'd expect from a draft that grew a whole H2 in a second pass.
+
+### Changes Made (11 total, net +21 words)
+
+**Transition fixes (6):**
+- **H2 6 → H2 7 was the broken one.** "He was still marking his work against a dead man" jumped cold into "He married Faustina the Younger in April 145." Added *"Antoninus was not the only person he had buried."* — carries "dead man" → "buried" straight into the section title.
+- **H2 5 → H2 6** (anger management → treasury) was the other hard switch. Added *"The same standard decided what he did with money."*
+- **H2 3 → H2 4**: "Rome noticed the joylessness" pointed at a referent 1,200 words back in the intro. Now *"That case ran privately. Rome noticed the joylessness anyway, and found it funny"* — carries "prosecuting the case" from the Type 6 paragraph directly above.
+- **H2 4 → H2 5**: added *"Fronto was pushing at something real"*, which picks up "Fronto was right to push" from the line before and sets up the Fronto anger quote that closes the section.
+- **H2 1 → H2 2**: added *"That is the outside view"* so Dio's external verdict hands off to the two first-person archives.
+- **H2 8 → H2 9**: "He wrote it in Greek" had a pronoun resolving only through the heading. Now "the notebook."
+
+**Internal flow fix (1):**
+- **H2 4, the Lyon jolt.** The martyrs paragraph ends "It does not resolve, and it should not be smoothed over" — and the very next line conceded that the discipline "made him worse company," which read as answering mass execution with bad-dinner-guest. Now *"The smaller charges do resolve. Concede what the critics get right: ..."*, so the concession is visibly aimed at the joylessness critics and Lyon stays unanswered on purpose.
+
+**Trims to pay for it (4):** the draft was at 4,473 of a 4,500 ceiling, so every bridge had to be funded. Cut "in a different register," "Historians argue it both ways" (redundant with "genuinely disputed" in the same paragraph), "the smallest share of any type" (redundant with "the rarest read"), and reworked the doubled "same behavior / same habit" echo in the circus-games paragraph.
+
+### What Was Preserved
+Frontmatter, all ledgers and review comments, the Alsium cold open, the timeline and key-stat components, the Rabbit Hole, every internal link and source attribution, and the closing paragraph. Transitions at intro→H2 1, H2 2→H2 3, and H2 7→H2 8 ("the son who lived") were already strong and untouched.
+
+### Remaining Concerns
+- **"Two Archives, One Emperor: Marcus Aurelius at 22 and at 55"** covers material from age 19 to 54. I left the heading alone because FAQ anchor `two-archives-one-emperor-marcus-aurelius-at-22-and-at-55` points at its slug — fixing it means fixing the anchor too. Your call whether it's worth the churn.
+- **Body is now 4,494 of 4,500.** Six words of headroom. A third pass cannot add anything.
+- The intro asks "what it was aimed at" and then spends ~450 words on bio spine before answering. That's the house format for people drafts, so I didn't touch it, but it is the one place the promise sits idle.

@@ -4,12 +4,12 @@ meta_title: "Tate McRae's Enneagram Type 3: Safer Onstage Than at Dinner"
 persona_title: 'The Girl Who Built Tatiana'
 description: 'Why does Tate McRae feel safer onstage than at dinner? Her Enneagram Type 3 pattern explains the alter ego, the 6 a.m. crunches, and the crash.'
 author: 'DJ Wayne'
-date: '2026-08-04'
+date: '2026-08-27'
 loc: 'https://9takes.com/personality-analysis/Tate-McRae'
-lastmod: '2026-08-04'
+lastmod: '2026-08-27'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['musician']
 person: 'Tate-McRae'
@@ -59,6 +59,8 @@ citations:
   - 'https://variety.com/2025/music/news/tate-mcrae-looks-back-year-touring-performing-hitmakers-1236600182/'
   - 'https://www.youtube.com/watch?v=XpC0TQ42dZk'
   - 'https://vmagazine.com/article/v-girls-tate-mcrae/'
+  - 'https://www.thelineofbestfit.com/features/interviews/tate-mcrae-on-the-rise'
+  - 'https://www.independent.co.uk/arts-entertainment/music/features/tate-mcrae-lyrics-album-kid-laroi-b2702379.html'
   - 'https://www.billboard.com/music/chart-beat/tate-mcrae-so-close-to-what-debuts-number-one-billboard-200-chart-1235913002/'
   - 'https://www.tmz.com/2021/02/02/morgan-wallen-n-word-nashville-neighbors/'
   - 'https://www.billboard.com/business/legal/morgan-wallen-arrested-felony-throwing-chair-roof-nashville-bar-1235651239/'
@@ -80,10 +82,10 @@ faqs:
     answer: "No, and her timeline is unusually well documented. She grew up in evening classes at her mother's Calgary dance studio, placed third on So You Think You Can Dance: The Next Generation at 13, and wrote her first song at 14 in her bedroom in about 20 minutes, on a day the studio she wanted to film choreography in was booked. That song, 'one day,' is why RCA signed her in 2019. Her own answer to Variety in 2023 was a work log: 'I've been grinding since 13 years old! I'm probably the furthest thing from an industry plant for how long I've been doing this.' A plant is somebody an executive installed. She installed herself, at 6 a.m., in a house where nobody was awake to see it."
     anchor: 'tate-mcraes-childhood-and-the-black-and-white-math'
 production_pretext:
-  status: draft
+  status: reviewed
   handoff_from: blog_content_creator_people
-  reviewed: false
-  ready_for_production: false
+  reviewed: true
+  ready_for_production: true
   sync_mode: full
   requires:
     - db_sync
@@ -91,25 +93,25 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Tate-McRae.md
 content_quality:
   hook: 9
   enneagram: 9
-  evidence: 6
+  evidence: 8
   writing: 8
-  originality: 8
+  originality: 9
   discoverability: 9
-  overall: 8.0
-  letter: B
+  overall: 8.6
+  letter: B+
   rubric_version: 2
-  caps_applied: ['evidence_capped_6_untraceable_load_bearing_quotes']
+  caps_applied: []
   confidence: high
-  anchor: 'Matt-Smith draft (B, 2026-06-28)'
+  anchor: 'Matt-Smith calibrated audit band (B, 2026-06-28)'
   needs_review: false
-  first_overall: 7.9
-  regrade_overall: 8.0
-  grade_stability_delta: 0.1
-  graded_at: '2026-08-04'
-path: src/blog/people/drafts/Tate-McRae.md
+  first_overall: 8.6
+  regrade_overall: 8.6
+  grade_stability_delta: 0.0
+  graded_at: '2026-08-27'
 ---
 
 <!-- TESTIMONY LEDGER
@@ -177,7 +179,7 @@ CORE TENSION: the second self she built to survive the first one.
 PRIMARY SOURCES
 - Zane Lowe / Apple Music interview, Feb 2025 (full transcript pulled via yt-dlp, /tmp/tate_zane_clean.txt)
 - Variety cover feature, 2026
-- Rolling Stone cover, Jan 2026 (paywalled; quotes sourced via secondary reporting)
+- Rolling Stone cover, published online Dec 11 2025 (direct article checked before publication)
 - GRAMMY.com interview, 2022
 - Variety Hitmakers Brunch remarks, 2025
 - Dance Spirit, Dance Informa, Billboard chart reporting
@@ -235,7 +237,7 @@ In <a href="https://vmagazine.com/article/v-girls-tate-mcrae/">V Magazine</a>, s
 
 <p class="inner-thought">Two hundred. Tucker's still asleep. Two hundred and one. If I get to five hundred before the alarm goes off in his room, that counts. Two hundred and two.</p>
 
-In interviews she keeps the blame off her parents. "I've always been hard on myself," she told Lowe, and then, unprompted, went looking for the earliest instance she could remember, which is how the crunches came up. She will not give the trait up: "I wouldn't ever wish for this part of me to go away, because I think that's what makes me have a motivation for life." In the next breath she prices it. "Some days I wake up and I'm like, oh, this is a pressure cooker of anxiety and feels terrible."
+In their February 2025 Apple Music interview, she kept the blame off her parents. "I've always been hard on myself," she told Lowe, and then, unprompted, went looking for the earliest instance she could remember, which is how the crunches came up. She will not give the trait up: "I wouldn't ever wish for this part of me to go away, because I think that's what makes me have a motivation for life." In the next breath she prices it. "Some days I wake up and I'm like, oh, this is a pressure cooker of anxiety and feels terrible."
 
 The other half of the childhood is less visible. School, she says flatly, "was traumatic for me." She wrote short stories she describes as "dark and twisted," featuring a girl locked in a mental battle, with plot twists borrowed from her dreams. That kid was already keeping two ledgers. One for what she could produce, one for what she actually felt, and only the first one was legible to anybody else.
 
@@ -263,13 +265,13 @@ There's a second wound stacked under that one, and it's the one her audience has
 
 The end of that sentence is where it lands. Her noun for the injury is *work*; her verb is *taken away from me*. That is the vocabulary of theft, and what got stolen was labor.
 
-The lip-syncing runs on a reason that stops short of an excuse. Dancing is older than singing for her. It arrived at six, in her mother's basement, as the thing that made an awkward kid feel cool in her own skin, and it worked, and it kept working, and it is still the only thing that reliably makes her okay inside her body in front of people. Singing arrived eight years later by accident, on a day the floor was booked. When those two compete for the same four minutes of stage time, she picks the older one. Every time. That doesn't refund anybody's ticket. It does name the trade she keeps making: absorb the accusation about the voice, keep the dancing. For a Three, the skill that first proved she belonged is the one she reaches for under pressure, years after better ones arrive.
+The lip-syncing runs on a reason that stops short of an excuse. Dancing is older than singing for her. It arrived at six, in her mother's basement, as the thing that made an awkward kid feel cool in her own skin, and it worked, and it kept working, and it is still the only thing that reliably makes her okay inside her body in front of people. Singing arrived eight years later by accident, on a day the floor was booked. Her arena production protects the older skill: choreograph the spectacle, support the vocal where the movement demands it, and accept that some listeners will hear the trade as evidence against the voice. That doesn't refund anybody's ticket. It does explain why the dancing remains non-negotiable. For a Three, the skill that first proved she belonged is the one she reaches for under pressure, years after better ones arrive.
 
 ---
 
 ## Tate McRae's first No. 1 and the fans who turned on her
 
-She makes that trade with her eyes open. The next hit came from a direction she wasn't watching. Her first Hot 100 No. 1 is not a Tate McRae song. It's "What I Want," a feature on [Morgan Wallen](/personality-analysis/morgan-wallen)'s *I'm the Problem*, which Billboard reported debuting atop the chart in May 2025. On the same chart "greedy" had stalled at No. 3 and "Sports car" got to 16. The biggest chart moment of her life arrived with somebody else's name first on it and somebody else's record attached: the racial slur TMZ published video of him using in February 2021, and the April 2024 arrest, reported by Billboard, for throwing a chair off the roof of a Nashville bar. Her own fans came for her. People who had spent the spring defending her from strangers spent the summer calling her MAGA.
+She makes that trade with her eyes open. The next hit came from a direction she wasn't watching. Her first Hot 100 No. 1 is not a solo Tate McRae single. It's "What I Want," a feature on [Morgan Wallen](/personality-analysis/morgan-wallen)'s *I'm the Problem*, which Billboard reported debuting atop the chart in May 2025. On the same chart "greedy" had stalled at No. 3 and "Sports car" got to 16. The biggest chart moment of her life arrived with somebody else's name first on it and somebody else's record attached: the racial slur TMZ published video of him using in February 2021, and the April 2024 arrest, reported by Billboard, for throwing a chair off the roof of a Nashville bar. Her own fans came for her. People who had spent the spring defending her from strangers spent the summer calling her MAGA.
 
 Her explanation, given to <a href="https://www.rollingstone.com/music/music-features/tate-mcrae-big-year-so-close-to-what-tour-tit-for-tat-1235477968/">Rolling Stone in December 2025</a>, is the most revealing sentence in her public record: "It was just about the song for me. I didn't realize how much a song would be connected to all the other factors, and it really shocked me."
 
@@ -363,7 +365,7 @@ She named it before it happened. *So Close to What* came out months before the t
 
 "You feel like sometimes you're working towards this never-ending finish line, or this finish line that actually doesn't exist. Life just kind of felt like this revolving door, this never-ending road. You have to define where you find your happiness, because life isn't going to do that for you. It doesn't make little marks, or, good job, you made it to this point."
 
-The last year handed her plenty of things that were supposed to make little marks. Her first No. 1 album. A No. 1 single with somebody else's name in front of hers. A headline arena run across two continents. [Hailey Bieber](/personality-analysis/hailey-bieber), asked about her by Variety in 2026, said: "I think she just stands out so distinctly. You can't help but want to listen and watch her. She works her ass off."
+The last year handed her plenty of things that were supposed to make little marks. Her first No. 1 album. A No. 1 single with somebody else's name in front of hers. An 88-date worldwide arena run. [Hailey Bieber](/personality-analysis/hailey-bieber), asked about her by Variety in 2026, said: "I think she just stands out so distinctly. You can't help but want to listen and watch her. She works her ass off."
 
 It also handed her a breakup that ran through the press before she'd finished having it. She and The Kid LAROI split in mid-2025, and the songs came out on both sides. "It was really scary and overwhelming," she said of releasing "Tit for Tat." "I didn't realize how much it would affect me, the public knowing my private life, because no one knows the full story of anything, ever." Then the album leaked before release, and she cried harder than she had in five years, and her reason gives the whole pattern away. "These songs were actually stories about my life, and they meant so much. I didn't get to tell them the right way."
 
@@ -372,7 +374,7 @@ She moved to New York. Her brother is moving in. She went back into a room with 
 Somewhere in that apartment is a notebook with a list in it. Favorite songs. Favorite colors. Written out longhand by a 23-year-old with a No. 1 record, so she'd have somewhere to look it up.
 
 <!-- REVIEWER NOTES
-- Rolling Stone (January 2026 cover, published online Dec 11 2025) is paywalled. Its quotes here are as reported by secondary outlets (AOL/Yahoo aggregation of the cover story, Rolling Stone's own X posts). Wording of the sexualization quote and the Wallen quote cross-checked against two independent secondaries each. Confirm against the print/paywalled text before publish.
+- Rolling Stone's January 2026 cover, published online Dec 11 2025, was checked directly before publication. The sexualization, Wallen, Tatiana, and 15,000-versus-four quotes match the article.
 - The concertgoer criticism quote is deliberately not counted toward Gate 1 (speaker unnamed). Gate 1 clears on Hailey Bieber and Paula Abdul.
 - Precognitive-dreams material moved INTO the body (section 5) on the 2026-08-04 second pass as the frame-limit beat. Super Bowl LIX final was Eagles 40, Chiefs 22 (Feb 9 2025); her call is on the Zane Lowe transcript, made in 2023.
 - "one day" view count (31M) sourced to The Line of Best Fit; verify current figure at publish time.
@@ -432,7 +434,7 @@ Rejected:
 - Fresh eyes suggested Wallen might be a third dated beat inside "Two Octobers." Rejected: the section's spine is two October days, and a May 2025 chart week has no business in it. Gave Wallen its own H2 instead, which also let the plant and Britney material land in the same place.
 
 Still open:
-- Rolling Stone's January 2026 cover is paywalled. Its two quotes here are cross-checked against two independent secondaries each, but exact wording should be confirmed against the paywalled text before publish.
+- Rolling Stone's January 2026 cover was checked directly before publication; its quoted wording and December 11, 2025 online publication date are confirmed.
 - Body is 4,292 words against a 4,500 ceiling. Thin headroom for the next refresh; a future editor pass adding material should trim first.
 - frontmatter enrich stage has not run (no faqs). [SUPERSEDED 2026-08-04 revision pass: five faqs are now in the frontmatter and all five anchors resolve to live headings. Do not re-report this as open.]
 
@@ -468,7 +470,7 @@ Protected (untouched):
 - All quotes verbatim. The single comparative contrast pattern the report flags sits inside a Tate McRae quote and is exempt.
 
 Still open (unchanged from second pass):
-- Rolling Stone January 2026 cover is paywalled; its two quotes need wording confirmed against the paywalled text before publish.
+- Rolling Stone's January 2026 cover was checked directly before publication; the quoted wording is confirmed.
 - frontmatter enrich stage has not run (no faqs). [SUPERSEDED 2026-08-04 revision pass: five faqs are present. Do not re-report this as open.]
 
 Exit checks at the time of this pass: blog-lint 0 fail, 3 warn (faqs, the exempt in-quote comparative, word-count headroom). blog-quality-report: 0 strong contrast pairs, 1 comparative (in-quote). No prose em-dashes. No banned phrases.
@@ -498,7 +500,7 @@ Rejected:
 - Nothing from the grader's list was rejected outright. The one partial: the grader's suggested replacement clause for the objectification close ("not *I felt objectified*, but the work and effort, taken away from her") still runs the negation-then-assertion engine the same feedback asks to cut to two. Kept the grader's intent, used a fully declarative construction instead.
 
 Still open (carried forward, not introduced by this pass):
-- Rolling Stone January 2026 cover remains paywalled. Its two quotes are cross-checked against two independent secondaries each; confirm exact wording against the paywalled text before publish. The grader repeated this and it is still the right call.
+- Rolling Stone's January 2026 cover was checked directly before publication; the quoted wording and publication date are confirmed.
 - Body is 4,265 words against the 4,500 ceiling (was 4,240; net +25 after the sourcing additions and the corpus-stat/tic cuts). Headroom is real but thin.
 
 Lint: clean. 0 fail, 2 warn, both pre-existing and both benign: the single comparative sits inside a verbatim Tate McRae quote and is exempt under the AI Language Ban, and the second is the word-count headroom note above.

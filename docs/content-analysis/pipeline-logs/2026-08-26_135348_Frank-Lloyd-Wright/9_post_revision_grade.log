@@ -1,0 +1,23 @@
+## Grading Complete — Frank Lloyd Wright
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Frank-Lloyd-Wright | 7 | 9 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+*(Weighted: `(7×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability 9, so no gate cap. No formula fingerprint caps triggered.)*
+
+### Key observations
+
+**This is a genuinely strong draft held down by one checkable sentence.** Originality, Discoverability, and Enneagram Integration all scored 9 on merit — the Sullivan thread (*form follows function* → *form and function are one*, "the edit reads like a son trying to finish his father's sentence") is the least Googleable argument in the corpus this month, the unmarked-grave reading is a real signature detail, and "the man who put a murdered lover, a foreclosure, and twelve fallow years into print left out the scissors" is an original mechanism, not a reused house move.
+
+**Evidence took the hit for a verified-false, self-contradicting claim.** Line 233 says "Wright never named another influence on his work." Line 225 — same body, eight lines earlier — says "Wright credited those blocks for the rest of his life." The evidence packet flags it as CLM-08: Wright standardly named three influences (Froebel, Sullivan, Japanese prints). It sits inside the piece's best section and the thesis doesn't need it. Fixing that one sentence moves this to 8.6 / B+.
+
+**The perspective gate never closed and this is what it would have caught.** The review directory has nine artifacts but no `synthesis.md`, no verification, no editor-resolution — the editor pass flagged that itself and shipped anyway. CLM-08 is precisely the class of error that gate exists for.
+
+**Formula hygiene verified, not trusted.** 0 contrast-pair engines, 2 pointer sentences (both at peaks), 0 reader-command imperatives, no corpus-stat sentence, empathy turn in Wright's own vocabulary rather than house "scar tissue" grammar. The `same-type-similarity` trip at 0.184 is the mandated diagnosis declaration against Tyla — structural false positive, no Originality cap. Ledgers spot-checked against the body and found accurate, which is unusual.
+
+**Writing held at 8** by the staccato anaphora — roughly a dozen instances, now the draft's dominant rhythm. The editor pass named it and declined to fix it.
+
+Frontmatter block added to the draft; feedback written to `docs/content-analysis/grades/Frank-Lloyd-Wright.review.md`. Flagged `needs_review: true` given the unresolved factual contradiction plus the open perspective gate.
+
+**Total graded this session: 1**

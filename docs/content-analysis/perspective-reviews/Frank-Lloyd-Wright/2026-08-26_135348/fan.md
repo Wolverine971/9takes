@@ -192,6 +192,12 @@ Neither blocker touches the emotional center. The Mamah section is the strongest
 - _Confidence:_ high.
 - _Acceptance test:_ the sentence gives 1944 as commission/design and 1947–1950 as construction, or gives the 1950 dedication; "fifteen years" is verified against whichever anchors are used.
 
+## Specific improvements
+
+1. Replace the false universal about Sullivan with the bounded three-influences formulation in FAN-R1; preserve the surrounding reframe-stall argument.
+2. Attribute Olgivanna's role in shaping the Taliesin Fellowship before using the institution as evidence for Wright's type, as specified in FAN-R2.
+3. Apply the factual, attribution, and date corrections in FAN-R3 through FAN-R9 without disturbing the ranked preserve list below.
+
 ## Follow-on questions
 
 **FAN-Q1 — How much of the Taliesin Fellowship's daily form is Gurdjieff, and how much is Wright?**
