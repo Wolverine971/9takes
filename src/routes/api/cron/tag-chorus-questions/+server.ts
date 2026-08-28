@@ -13,8 +13,14 @@ import { tagQuestion } from '../../../../utils/server/openai';
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
-const DEFAULT_BATCH = 20;
-const MAX_BATCH = 50;
+export const config = {
+	maxDuration: 300
+};
+
+// tagQuestion fans out to a director plus nine voice calls. Process one row on
+// the scheduled path and let the */15 cadence drain the queue safely.
+const DEFAULT_BATCH = 1;
+const MAX_BATCH = 3;
 
 async function run(request: Request, url: URL) {
 	if (!isAuthorizedCronRequest(request.headers.get('authorization'), [CRON_SECRET])) {
@@ -50,8 +56,12 @@ async function run(request: Request, url: URL) {
 	// Sequential to stay gentle on the LLM and within the function time budget.
 	for (const q of rows) {
 		try {
-			await tagQuestion(supabase, q.question, q.id);
-			tagged++;
+			const result = await tagQuestion(supabase, q.question, q.id);
+			if (result.success) {
+				tagged++;
+			} else {
+				errors.push({ id: q.id, error: result.error });
+			}
 		} catch (e) {
 			errors.push({ id: q.id, error: String(e) });
 		}

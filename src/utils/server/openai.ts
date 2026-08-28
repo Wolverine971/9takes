@@ -609,7 +609,7 @@ export const tagQuestion = async (
 			demo_time === true
 		);
 
-		await supabase
+		const { error: questionUpdateError } = await supabase
 			.from(questionTable)
 			.update({
 				tagged: true,
@@ -618,6 +618,10 @@ export const tagQuestion = async (
 				question_formatted: formattedQuestion ?? null
 			})
 			.eq('id', questionId);
+
+		if (questionUpdateError) {
+			throw questionUpdateError;
+		}
 
 		if (options.jobId) {
 			// A partial nine is surfaced as a failure so the admin retry
@@ -635,6 +639,8 @@ export const tagQuestion = async (
 					: {})
 			});
 		}
+
+		return { success: true as const, missingTakeTypes };
 	} catch (e) {
 		const error = e as Error;
 		const message = error?.message?.toLowerCase() || '';
@@ -662,6 +668,11 @@ export const tagQuestion = async (
 				error: error?.message || 'Unknown AI tagging error'
 			});
 		}
+
+		return {
+			success: false as const,
+			error: error?.message || 'Unknown AI tagging error'
+		};
 	}
 };
 

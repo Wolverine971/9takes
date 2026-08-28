@@ -10,8 +10,9 @@
 // Chorus questions are excluded: they are created dormant on purpose and are
 // tagged after their first answer by tag-chorus-questions instead.
 //
-// Each question costs ~11 LLM calls (1 metadata + director + 9 voices), so the
-// batch is small; at */15 cadence a new question has its takes within minutes.
+// Each question costs ~11 LLM calls (1 metadata + director + 9 voices), so each
+// scheduled invocation handles one question. The next invocation drains the
+// next row instead of risking a timeout midway through a sequential batch.
 
 import { CRON_SECRET } from '$env/static/private';
 import { isAuthorizedCronRequest } from '$lib/server/cronAuth';
@@ -20,8 +21,12 @@ import { tagQuestion } from '../../../../utils/server/openai';
 import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 
-const DEFAULT_BATCH = 3;
-const MAX_BATCH = 10;
+export const config = {
+	maxDuration: 300
+};
+
+const DEFAULT_BATCH = 1;
+const MAX_BATCH = 3;
 
 async function run(request: Request, url: URL) {
 	if (!isAuthorizedCronRequest(request.headers.get('authorization'), [CRON_SECRET])) {
@@ -62,10 +67,17 @@ async function run(request: Request, url: URL) {
 	// Sequential to stay gentle on the LLM and within the function time budget.
 	for (const q of rows) {
 		const text = (q.question_formatted || q.question || '').trim();
-		if (!text) continue;
+		if (!text) {
+			errors.push({ id: q.id, error: 'Question text is empty' });
+			continue;
+		}
 		try {
-			await tagQuestion(supabase, text, q.id);
-			processed++;
+			const result = await tagQuestion(supabase, text, q.id);
+			if (result.success) {
+				processed++;
+			} else {
+				errors.push({ id: q.id, error: result.error });
+			}
 		} catch (e) {
 			errors.push({ id: q.id, error: String(e) });
 		}
