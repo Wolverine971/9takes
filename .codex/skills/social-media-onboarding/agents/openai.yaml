@@ -1,0 +1,5 @@
+# .codex/skills/social-media-onboarding/agents/openai.yaml
+interface:
+  display_name: 'Social Media Onboarding'
+  short_description: 'Build the baseline for adaptive social strategy'
+  default_prompt: 'Use $social-media-onboarding to interview me and build the strategic baseline for my social media account.'

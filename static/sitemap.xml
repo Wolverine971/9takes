@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -1380,6 +1380,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/brooke-monk</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Brooke-Monk.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/bryan-johnson</loc>
     <lastmod>2026-08-13</lastmod>
     <image:image>
@@ -2046,6 +2053,13 @@
     <lastmod>2026-04-01</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/2s/Hugh-Jackman.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/hunter-biden</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/4s/Hunter-Biden.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -2987,6 +3001,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/nara-smith</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/8s/Nara-Smith.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/natalie-portman</loc>
     <lastmod>2026-03-24</lastmod>
     <image:image>
@@ -3033,6 +3054,13 @@
     <lastmod>2026-06-09</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/4s/Noah-Kahan.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/noah-wyle</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Noah-Wyle.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3386,6 +3414,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/sadie-sink</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Sadie-Sink.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/sam-altman</loc>
     <lastmod>2026-03-01</lastmod>
     <image:image>
@@ -3404,6 +3439,13 @@
     <lastmod>2026-03-27</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Sam-Parr.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/samara-weaving</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Samara-Weaving.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3551,6 +3593,13 @@
     <lastmod>2026-04-29</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/3s/Sofia-Vergara.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/stavros-halkias</loc>
+    <lastmod>2026-08-27</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/7s/Stavros-Halkias.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3854,7 +3903,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/5</loc>
@@ -3862,15 +3911,15 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/8</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-27</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>

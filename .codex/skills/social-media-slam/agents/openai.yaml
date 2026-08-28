@@ -1,0 +1,5 @@
+# .codex/skills/social-media-slam/agents/openai.yaml
+interface:
+  display_name: 'Social Media SLAM'
+  short_description: 'Navigate social growth from live context'
+  default_prompt: 'Use $social-media-slam to assess my current position, map the surrounding social landscape, clarify my destination, and recommend the next move.'
