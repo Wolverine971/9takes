@@ -13,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'naomi-osaka'
-suggestions: ['Caitlin-Clark', 'Alysa-Liu', 'Ilona-Maher', 'Taylor-Swift']
+suggestions: ['Simone-Biles', 'Caitlin-Clark', 'Alysa-Liu', 'Ilona-Maher']
 wikipedia: 'https://en.wikipedia.org/wiki/Naomi_Osaka'
 twitter: 'naomiosaka'
 instagram: 'naomiosaka'

@@ -13,7 +13,7 @@ published: true
 enneagram: '4'
 type: ['movieStar', 'newMovieStar', 'rising-star']
 person: 'paul-mescal'
-suggestions: ['Jacob-Elordi', 'Saoirse-Ronan', 'Robert-Pattinson']
+suggestions: ['Jeremy-Allen-White', 'Jacob-Elordi', 'Saoirse-Ronan', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Paul_Mescal'
 twitter: ''
 instagram: ''

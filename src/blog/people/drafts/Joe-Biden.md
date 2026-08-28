@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['politician', 'modern-leader']
 person: 'joe-biden'
-suggestions: ['Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Hillary-Clinton', 'Vladimir-Putin']
+suggestions: ['Hunter-Biden', 'Barack-Obama', 'Kamala-Harris', 'Donald-Trump', 'Hillary-Clinton']
 wikipedia: 'https://en.wikipedia.org/wiki/Joe_Biden'
 twitter: 'JoeBiden'
 instagram: 'joebiden'
@@ -441,4 +441,3 @@ PRIORITY FIXES (numbered, in order of impact — 3 max):
 3. Name one specific conservative critic and engage their argument — the Type 2 frame would predict specific failures (overpromising, breaking own rules for family, defensive when image is challenged) and the 2024 right-wing case actually maps onto these. Letting them argue would strengthen, not weaken, the analysis.
 
 ============================================================ -->
-

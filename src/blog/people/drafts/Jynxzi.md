@@ -13,7 +13,7 @@ published: false
 enneagram: 3
 type: ['creator', 'streamer']
 person: 'jynxzi'
-suggestions: ['Kai-Cenat', 'IShowSpeed', 'Ninja', 'Adin-Ross', 'Tfue']
+suggestions: ['CaseOh', 'Kai-Cenat', 'IShowSpeed', 'Ninja', 'Tfue']
 wikipedia: 'https://en.wikipedia.org/wiki/Jynxzi'
 wikidata_qid: 'Q124515827'
 birth_date: '2001-09-26'
@@ -396,7 +396,7 @@ It does not take a marathon to get him there. The worst second of his day is the
 
 > "As soon as you click the button, people are flooding in front of you." — Jynxzi, Jynxzi Podcast #2 with Moist Cr1tikal, February 2024
 
-Flooding. He picked the word for water. A room filling up around him faster than he can turn to face it. He mentioned to Charlie White that he had already talked it through with CaseOh, which is what you do about something that happens every night and never gets easier. Charlie told him he does not really get it, since he only ever makes things he felt like making. Jynxzi gets it every single night, right before the light goes on.
+Flooding. He picked the word for water. A room filling up around him faster than he can turn to face it. He mentioned to Charlie White that he had already talked it through with [CaseOh](/personality-analysis/caseoh), which is what you do about something that happens every night and never gets easier. Charlie told him he does not really get it, since he only ever makes things he felt like making. Jynxzi gets it every single night, right before the light goes on.
 
 Then there are the nights he does not go on. He was 22 when he tried to explain what those cost him, and the explanation kept circling back to his father.
 

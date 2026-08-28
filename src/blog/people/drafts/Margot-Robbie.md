@@ -12,7 +12,7 @@ published: true
 enneagram: 2
 type: ['movieStar', 'screen-icon']
 person: 'margot-robbie'
-suggestions: ['Robert-Downey-Jr', 'Will-Smith', 'Emily-Ratajkowski', 'Sydney-Sweeney']
+suggestions: ['Greta-Gerwig', 'Ryan-Gosling', 'Samara-Weaving', 'Will-Smith']
 wikipedia: 'https://en.wikipedia.org/wiki/Margot_Robbie'
 wikidata_qid: 'Q1924847'
 imdb_id: 'nm3053338'

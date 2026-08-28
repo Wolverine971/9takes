@@ -274,7 +274,7 @@ Which makes the swing from media manipulator to Stoicism's most successful evang
 
 A book about accepting what you cannot control became an operating manual for the most win-obsessed institutions in America.
 
-One item keeps running into the question. In February 2018 he published *Conspiracy*, the story of Peter Thiel secretly bankrolling Hulk Hogan's lawsuit until it put Gawker out of business, reported with the principals talking to him and told as tradecraft. The man who wrote the manual for manufacturing media outrage came back to the destruction of a media company as its chronicler.
+One item keeps running into the question. In February 2018 he published *Conspiracy*, the story of [Peter Thiel](/personality-analysis/peter-thiel) secretly bankrolling Hulk Hogan's lawsuit until it put Gawker out of business, reported with the principals talking to him and told as tradecraft. The man who wrote the manual for manufacturing media outrage came back to the destruction of a media company as its chronicler.
 
 That is the case for the prosecution and the case for the defense, and they are the same sentence. He learned exactly how attention gets manufactured, decided the machine was corrosive, and kept running it, at scale, for freight he believes in. Whether that counts as restitution or as laundering is not something the record settles, and he is still living inside the question.
 

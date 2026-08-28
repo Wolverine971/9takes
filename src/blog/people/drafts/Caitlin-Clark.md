@@ -13,7 +13,7 @@ published: true
 enneagram: 1
 type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'caitlin-clark'
-suggestions: ['Naomi-Osaka', 'Ilona-Maher', 'Alysa-Liu', 'Cristiano-Ronaldo']
+suggestions: ['Simone-Biles', 'Naomi-Osaka', 'Ilona-Maher', 'Alysa-Liu']
 wikipedia: 'https://en.wikipedia.org/wiki/Caitlin_Clark'
 wikidata_qid: 'Q106298476'
 imdb_id: 'nm14710113'

@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['newMovieStar', 'rising-star']
 person: 'millie-bobby-brown'
-suggestions: ['Zendaya', 'Sydney-Sweeney', 'Jenna-Ortega', 'Tom-Holland']
+suggestions: ['Sadie-Sink', 'Zendaya', 'Sydney-Sweeney', 'Jenna-Ortega', 'Tom-Holland']
 wikipedia: ''
 wikidata_qid: 'Q25936414'
 imdb_id: 'nm5611121'

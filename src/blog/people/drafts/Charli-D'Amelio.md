@@ -13,7 +13,7 @@ published: true
 enneagram: 9
 type: ['tiktoker', 'lifestyle-builder']
 person: "charli-d'Amelio"
-suggestions: ['Addison-Rae', "Dixie-D'Amelio", 'Bella-Poarch', 'Alix-Earle']
+suggestions: ['Addison-Rae', 'Brooke-Monk', "Dixie-D'Amelio", 'Bella-Poarch', 'Alix-Earle']
 wikipedia: 'https://en.wikipedia.org/wiki/Charli_D%27Amelio'
 wikidata_qid: 'Q83648587'
 imdb_id: 'nm11413612'

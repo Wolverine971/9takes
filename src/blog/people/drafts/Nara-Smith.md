@@ -13,7 +13,7 @@ published: false
 enneagram: '8'
 type: ['creator', 'lifestyleInfluencer', 'tiktoker']
 person: 'Nara-Smith'
-suggestions: ['Gordon-Ramsay', 'Emma-Chamberlain', 'Alix-Earle', 'Paris-Hilton']
+suggestions: ['Alex-Cooper', 'Gordon-Ramsay', 'Emma-Chamberlain', 'Alix-Earle', 'Paris-Hilton']
 wikipedia: 'https://en.wikipedia.org/wiki/Nara_Smith'
 wikidata_qid: 'Q124800984'
 birth_date: '2001-09-27'
@@ -172,7 +172,7 @@ Twelve million people watched Nara Smith make bread from scratch, cereal from sc
 
 She said nothing until July 2026. By then the treatment was over and Whimsy was already in remission; the confirmation post followed two weeks later. What the internet received was a completed story. Nothing left to watch.
 
-Twelve days after that confirmation she sat down with Alex Cooper for ninety-three minutes and took apart the word the internet had spent two years fastening to her.
+Twelve days after that confirmation she sat down with [Alex Cooper](/personality-analysis/alex-cooper) for ninety-three minutes and took apart the word the internet had spent two years fastening to her.
 
 Both of those are the same move.
 

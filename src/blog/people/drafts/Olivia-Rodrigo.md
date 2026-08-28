@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['musician', 'pop-star']
 person: 'olivia-rodrigo'
-suggestions: ['Taylor Swift', 'Billie Eilish', 'Sabrina Carpenter', 'Chappell Roan', 'Gracie Abrams']
+suggestions: ['Tate McRae', 'Taylor Swift', 'Billie Eilish', 'Sabrina Carpenter', 'Chappell Roan', 'Gracie Abrams']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Rodrigo'
 wikidata_qid: 'Q63243883'
 imdb_id: 'nm7111120'

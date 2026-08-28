@@ -132,6 +132,7 @@ content_quality:
 Total qualifying quotes: 5
 -->
 
+
 <!-- HEADING MIX LEDGER
 H2 1: "What is Stavros Halkias's personality type?" — search-intent (required pair)
 H2 2: "Why Stavros Halkias Didn't Know He Was Poor" — search-intent
@@ -215,7 +216,7 @@ He was also the eldest son of Greek immigrants who expected a lawyer. That fact 
 
 Ask him what the best part of the job is and he does not name a milestone.
 
-"A new joke in a shitty bar feels ten times better than selling out a 3,000 seat," he said on the Joe Rogan Experience in December 2023, the same month Netflix released _Fat Rascal_. Later in the episode he named the thing that actually scares him: "One day I'm going to run out of new ideas. One day I'm going to run out of new jokes."
+"A new joke in a shitty bar feels ten times better than selling out a 3,000 seat," he said on the [Joe Rogan](/personality-analysis/joe-rogan) Experience in December 2023, the same month Netflix released _Fat Rascal_. Later in the episode he named the thing that actually scares him: "One day I'm going to run out of new ideas. One day I'm going to run out of new jokes."
 
 That is [Type 7](/enneagram-corner/enneagram-type-7) stated plainly by a man with no interest in the framework. The Enthusiast's engine is appetite, and the fear underneath appetite is that the supply is finite. Achievement does not settle it, because a sold-out theater is a thing that already happened. Only the next unfamiliar thing proves the well still has water in it.
 
@@ -363,7 +364,7 @@ In October 2025, Seth Simons wrote at Humorism that "Halkias's politics contain 
 
 Simons is right about the effect. A popular leftist comic vouching for the good character of the biggest right-wing podcasters in the country provides cover, and no amount of sincerity elsewhere cancels that.
 
-That cover is being provided by a man who hedges nothing else. In the same weeks that piece ran, Halkias was working Zohran Mamdani's mayoral campaign in New York. The Baltimore Sun covered it on October 29, 2025: the "New York Is Not for Sale" rally in Queens alongside Bernie Sanders and Alexandria Ocasio-Cortez, Mamdani called a leader "for the people," an early-voting sticker posted with instructions to go do likewise. He has said comedy's job right now is "to stop fucking doing propaganda, to stop being a useful idiot for a horrible administration." He says the loud part with his name on it. He just will not do the subtraction.
+That cover is being provided by a man who hedges nothing else. In the same weeks that piece ran, Halkias was working [Zohran Mamdani's](/personality-analysis/zohran-mamdani) mayoral campaign in New York. The Baltimore Sun covered it on October 29, 2025: the "New York Is Not for Sale" rally in Queens alongside [Bernie Sanders](/personality-analysis/bernie-sanders) and Alexandria Ocasio-Cortez, Mamdani called a leader "for the people," an early-voting sticker posted with instructions to go do likewise. He has said comedy's job right now is "to stop fucking doing propaganda, to stop being a useful idiot for a horrible administration." He says the loud part with his name on it. He just will not do the subtraction.
 
 The harder charge is the one Simons never makes. Before the friendships there was the material. _Cum Town_ spent six years resurrecting long-deprecated slurs and passing racialized mock accents around a table, and Halkias was one of the three men doing it. Asked in 2025 whether any of it weighs on him, he declines to perform contrition: "Saying some fucked-up jokes did not weigh on me at all. But also, I do think it's really important for younger people to get fucked-up jokes out of their system in a healthy way." Then he gives Slate the sentence that is either the entire defense or the entire problem: "We had it good when it was comedians pretending to be Nazis as opposed to actual Nazis with the levers of power."
 
@@ -543,4 +544,3 @@ Rejected (with reason):
 
 Lint: clean (0 fail, 1 warn). Word count 4345 against the 4500 ceiling, so the warn persists and headroom is down to ~155 words. Contrast pairs 0 strong / 0 comparative, re-verified. same-type-similarity re-run: clear, top 0.053 vs Matt-Smith.
 -->
-

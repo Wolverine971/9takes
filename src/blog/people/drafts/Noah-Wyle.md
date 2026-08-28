@@ -13,7 +13,7 @@ published: false
 enneagram: 6
 type: ['movieStar', 'celebrity']
 person: 'noah-wyle'
-suggestions: ['Pedro-Pascal', 'Tom-Hanks', 'Keanu-Reeves', 'Jon-Stewart']
+suggestions: ['Pedro-Pascal', 'Tom-Hanks', 'Keanu-Reeves', 'Steve-Jobs']
 wikipedia: 'https://en.wikipedia.org/wiki/Noah_Wyle'
 wikidata_qid: 'Q315208'
 imdb_id: 'nm0001864'
@@ -98,6 +98,7 @@ production_pretext:
 4. R. Scott Gemmill: "A lot of times you're writing characters, you don't know who's going to play them, whereas here I was writing to Noah essentially, with his feedback." — Television Academy emmy magazine, 2025
 Total qualifying quotes: 4
 -->
+
 
 <!-- HEADING MIX LEDGER
 H2 1: "What is Noah Wyle's personality type?" — search-intent
@@ -194,7 +195,7 @@ That is the house he was formed in, as he reads it now. Love looked like compete
 
 ER made him famous at 23. He was the youngest of the original doctors, cast as the med student the audience learned the hospital through, and the show promptly became the biggest drama in America. Carter got stabbed, got addicted, got clean, and grew from terrified student into the conscience of the series. Emmy nominations came early. Wins never did. His last nomination for the role arrived in 1999, and then the academy stopped calling for two and a half decades.
 
-1999 also gave him the strangest gig of his career. He played Steve Jobs in Pirates of Silicon Valley, and Jobs phoned to say he hated the movie but thought Wyle was good in it. Then Jobs invited him to open the real Macworld keynote in New York by walking onstage as Steve Jobs, a prank on several thousand Apple faithful who believed it for a full beat. Wyle did it. The actor who calls impostor fear the ambient weather of his profession turned out to be delightful at literal imposture, the moment the real man authorized it.
+1999 also gave him the strangest gig of his career. He played [Steve Jobs](/personality-analysis/steve-jobs) in Pirates of Silicon Valley, and Jobs phoned to say he hated the movie but thought Wyle was good in it. Then Jobs invited him to open the real Macworld keynote in New York by walking onstage as Steve Jobs, a prank on several thousand Apple faithful who believed it for a full beat. Wyle did it. The actor who calls impostor fear the ambient weather of his profession turned out to be delightful at literal imposture, the moment the real man authorized it.
 
 He left ER as a regular in 2005 because, in the middle of the biggest job in television, he looked at his young son and thought, as he put it on Variety's Actors on Actors in 2026, "I want to be home with him." He named the arrangement that followed with lawyerly precision: "I called it a divorce with visitation rights," guest arcs in season 12 and the final season so Carter's story could end inside the show it started. He admits he has "questioned whether or not it was a good idea to leave." The sentence he puts after it settles what kind of ledger he keeps: "I don't question the time I spent with my son."
 
@@ -385,4 +386,3 @@ Supersedes the WORKING NOTES line about the directing nomination being unverifie
 Refresh triggers (not this pass): 2026-09-14 Emmy results; appellate ruling;
 January 2027 season 3 premiere; syndication link-rot re-check.
 -->
-

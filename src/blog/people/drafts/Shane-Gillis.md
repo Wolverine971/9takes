@@ -14,7 +14,7 @@ enneagram: 9
 type: ['comedian', 'stand-up']
 person: 'shane-gillis'
 suggestions:
-  ['Theo-Von', 'Tim-Dillon', 'Andrew-Schulz', 'Dave-Chappelle', 'Joe-Rogan', 'Pete-Davidson']
+  ['Stavros-Halkias', 'Theo-Von', 'Tim-Dillon', 'Andrew-Schulz', 'Dave-Chappelle', 'Joe-Rogan']
 wikipedia: 'https://en.wikipedia.org/wiki/Shane_Gillis'
 wikidata_qid: 'Q67464067'
 imdb_id: 'nm5805772'

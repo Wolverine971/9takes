@@ -13,7 +13,7 @@ published: true
 enneagram: '6'
 type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'simone-biles'
-suggestions: ['Naomi-Osaka', 'Caitlin-Clark', 'Ilona-Maher', 'Lionel-Messi']
+suggestions: ['Naomi-Osaka', 'Caitlin-Clark', 'Ilona-Maher', 'Alysa-Liu']
 wikipedia: 'https://en.wikipedia.org/wiki/Simone_Biles'
 wikidata_qid: 'Q7520267'
 imdb_id: 'nm6721217'
@@ -354,7 +354,7 @@ She is twenty-four, the most decorated gymnast alive, 10,700 kilometers from Spr
 
 ## Why Simone Biles didn't quit on her team in Tokyo
 
-Within hours Charlie Kirk was on his podcast calling her "very selfish, she's immature and she's a shame to the country," adding "she's totally a sociopath." Piers Morgan wrote that mental health had become the go-to excuse for poor performance in sport: "What a joke."
+Within hours Charlie Kirk was on his podcast calling her "very selfish, she's immature and she's a shame to the country," adding "she's totally a sociopath." [Piers Morgan](/personality-analysis/piers-morgan) wrote that mental health had become the go-to excuse for poor performance in sport: "What a joke."
 
 Neither made the argument that deserves answering, so here it is. An Olympic team is three other women who trained five years, and a decision Biles made in a hallway cost them the gold they were favored to win. That cost landed on real people, and Biles has never argued otherwise.
 

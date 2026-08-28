@@ -13,7 +13,7 @@ published: true
 enneagram: 1
 type: ['techie', 'entrepreneur', 'business-operator']
 person: 'steve-jobs'
-suggestions: ['Bill-Gates', 'Elon-Musk', 'Tim-Cook', 'Mark-Zuckerberg']
+suggestions: ['Bill-Gates', 'Elon-Musk', 'Tim-Cook', 'Mark-Zuckerberg', 'Noah-Wyle']
 wikipedia: 'https://en.wikipedia.org/wiki/Steve_Jobs'
 twitter: ''
 instagram: ''

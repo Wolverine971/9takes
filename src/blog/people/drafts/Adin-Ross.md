@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['creator', 'streamer']
 person: 'adin-ross'
-suggestions: ['Jake-Paul', 'Logan-Paul', 'Kai-Cenat', 'Mr-Beast']
+suggestions: ['N3on', 'Jake-Paul', 'Logan-Paul', 'Kai-Cenat', 'Mr-Beast']
 wikipedia: 'https://en.wikipedia.org/wiki/Adin_Ross'
 wikidata_qid: 'Q106626612'
 imdb_id: 'nm12914358'

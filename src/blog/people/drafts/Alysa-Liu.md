@@ -13,7 +13,7 @@ published: true
 enneagram: '7'
 type: ['celebrity', 'athlete', 'celebrity-image']
 person: 'alysa-liu'
-suggestions: ['Caitlin-Clark', 'Naomi-Osaka', 'Ilona-Maher', 'Cristiano-Ronaldo']
+suggestions: ['Simone-Biles', 'Caitlin-Clark', 'Naomi-Osaka', 'Ilona-Maher']
 wikipedia: 'https://en.wikipedia.org/wiki/Alysa_Liu'
 wikidata_qid: 'Q55356854'
 imdb_id: 'nm10438384'
@@ -101,6 +101,7 @@ FEEDBACK (2026-06-28):
 - MINOR (Discoverability): meta_title "Why Alysa Liu Quit Skating to Win the Olympic Gold" is CTR-strong but drops the enneagram/type keyword from the primary slot. The title field and keywords cover it, so the gate passes — but the highest-value SEO real estate is spent on narrative.
 - TO REACH A (9.0+): (1) Move the 7w6/7w8 wing contrast and the integration-to-5 mechanics out of the diagnosis section into a <details class="enneagram-rabbit-hole"> accordion; keep only the plain "she's a 7w6 and here's the felt why" in the body. That alone lifts Enneagram 8→9 and the overall into A range. (2) Optional: consider a meta_title variant that carries "enneagram/type 7" to push Discoverability 8.5→9.
 -->
+
 
 <!-- TESTIMONY LEDGER
 1. Phillip DiGuglielmo (coach): "Before she retired, she was your little model athlete. She did exactly what every coach ever asked her to. She tried as hard as she could. She succeeded at almost everything she tried. But I don't think that we ever got to see who Alysa Liu was. Now, when she's come back, the magic about her is that you get to see who she is as the athlete." — KQED / U.S. Figure Skating, 2026
@@ -454,4 +455,3 @@ INTENTIONALLY SKIPPED:
 - Did not alter title, meta_title, slug, loc, H2 structure, or lastmod.
 
 -->
-

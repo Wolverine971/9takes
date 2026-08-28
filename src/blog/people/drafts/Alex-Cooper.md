@@ -13,7 +13,7 @@ published: true
 enneagram: 7
 type: ['creator', 'podcaster']
 person: 'alex-cooper'
-suggestions: ['Alix-Earle', 'Bobbi-Althoff', 'Emma-Chamberlain', 'Brittany-Broski']
+suggestions: ['Nara-Smith', 'Alix-Earle', 'Bobbi-Althoff', 'Emma-Chamberlain', 'Brittany-Broski']
 wikipedia: 'https://en.wikipedia.org/wiki/Alex_Cooper_(podcaster)'
 wikidata_qid: 'Q109977530'
 imdb_id: 'nm10751676'

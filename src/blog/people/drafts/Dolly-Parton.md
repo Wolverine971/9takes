@@ -13,7 +13,7 @@ published: true
 enneagram: 2
 type: ['musician', 'creator', 'singer-songwriter']
 person: 'dolly-parton'
-suggestions: ['Oprah-Winfrey', 'Mr-Rogers', 'Taylor-Swift', 'Beyonce-Knowles']
+suggestions: ['Miley-Cyrus', 'Oprah-Winfrey', 'Mr-Rogers', 'Taylor-Swift']
 wikipedia: 'https://en.wikipedia.org/wiki/Dolly_Parton'
 wikidata_qid: 'Q180453'
 imdb_id: 'nm0000573'
@@ -153,7 +153,7 @@ On August 25, 2026, her official accounts carried a video from her nephew Bryan 
 
 Even the goodbye had a care plan. Her family would speak once, the public would receive words chosen ahead of time, and the private facts would remain private.
 
-Miley Cyrus described that architecture better than anyone. Her godmother, she told [*Harper's Bazaar* in November 2024](https://www.harpersbazaar.com/celebrity/latest/a62921779/miley-cyrus-dolly-parton-cover-story-interview/), "lets everyone in and no one in at the same time." Millions felt personally loved by Dolly Parton. Almost none of them ever saw her without the hair, makeup, jokes, songs, and story she had selected for the room.
+[Miley Cyrus](/personality-analysis/miley-cyrus) described that architecture better than anyone. Her godmother, she told [*Harper's Bazaar* in November 2024](https://www.harpersbazaar.com/celebrity/latest/a62921779/miley-cyrus-dolly-parton-cover-story-interview/), "lets everyone in and no one in at the same time." Millions felt personally loved by Dolly Parton. Almost none of them ever saw her without the hair, makeup, jokes, songs, and story she had selected for the room.
 
 That combination is the key to her personality. The warmth was genuine. So was the control.
 

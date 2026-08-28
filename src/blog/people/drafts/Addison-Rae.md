@@ -14,7 +14,7 @@ enneagram: 3
 type: ['creator', 'musician', 'tiktoker', 'lifestyle-builder', 'music-crossover']
 person: 'addison-rae'
 suggestions:
-  ['Adela', 'Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Hailey-Bieber']
+  ['Brooke-Monk', 'Adela', 'Alix-Earle', "Charli-D'Amelio", 'Emma-Chamberlain', 'Hailey-Bieber']
 wikipedia: 'https://en.wikipedia.org/wiki/Addison_Rae'
 wikidata_qid: 'Q83739405'
 imdb_id: 'nm11290905'

@@ -13,7 +13,7 @@ published: false
 enneagram: '4'
 type: ['author', 'celebrity']
 person: 'Hunter-Biden'
-suggestions: ['Joe-Biden', 'Frida-Kahlo', 'Demi-Lovato', 'Jackie-Kennedy']
+suggestions: ['Joe-Biden', 'Andrew-Callaghan', 'Shawn-Ryan', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Hunter_Biden'
 wikidata_qid: 'Q5944264'
 imdb_id: 'nm11045889'
@@ -124,6 +124,7 @@ Total qualifying quotes: 6
 Removed in second pass: Georges Bergès (CNN, April 2023) — dealer-speak carrying structural weight with no specific in it.
 -->
 
+
 <!-- HEADING MIX LEDGER
 H2 1: "What is Hunter Biden's personality type?" — search-intent (required structural pair)
 H2 2: "The 1972 crash rearranged Hunter Biden's family around him" — hybrid (strong search-intent: "Hunter Biden 1972 car crash")
@@ -168,7 +169,7 @@ In a federal courtroom in Wilmington the government pressed play. Twelve jurors 
 
 The most damaging witness against him was a book he chose to write, paid to publish, and read aloud into a microphone.
 
-Most people file Hunter Biden under things concealed. The laptop. The shell companies. The Burisma board seat he was never qualified for. Then you look at what he has actually done with the last five years, and it is one long act of handing material over. A memoir. Five hours with Shawn Ryan. Three hours with Andrew Callaghan. An average of twenty-three posts a day on X since May 2026, per NPR's count. In July 2026 he sat down with Nick Fuentes.
+Most people file Hunter Biden under things concealed. The laptop. The shell companies. The Burisma board seat he was never qualified for. Then you look at what he has actually done with the last five years, and it is one long act of handing material over. A memoir. Five hours with [Shawn Ryan](/personality-analysis/shawn-ryan). Three hours with [Andrew Callaghan](/personality-analysis/andrew-callaghan). An average of twenty-three posts a day on X since May 2026, per NPR's count. In July 2026 he sat down with Nick Fuentes.
 
 Ask him what all of that exposure did to him and he calls it a gift. "I was given the gift of being so publicly shamed and humiliated, and literally stripped bare, in some cases literally stripped naked in the public square," he told NPR's Scott Simon in July 2026. "I had nowhere to hide, nowhere left to hide."
 
@@ -760,4 +761,3 @@ Flagged for DJ, not fixed here:
 Lint: clean (0 fail; 1 warn is the comparative inside the verbatim Ryan quote, exempt by the AI
 Language Ban). Source audit: 5 load-bearing quotes, 5 inline, 0 vague, 0 untagged.
 -->
-

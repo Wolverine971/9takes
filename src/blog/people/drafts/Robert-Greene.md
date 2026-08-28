@@ -14,7 +14,7 @@ enneagram: 5
 type: ['author', 'strategy-writer']
 person: 'robert-greene'
 suggestions:
-  ['Friedrich-Nietzsche', 'Robert-Oppenheimer', 'Elon-Musk', 'Jordan-Peterson', 'Tony-Robbins']
+  ['Ryan-Holiday', 'Friedrich-Nietzsche', 'Elon-Musk', 'Jordan-Peterson', 'Tony-Robbins']
 wikipedia: 'https://en.wikipedia.org/wiki/Robert_Greene_(American_author)'
 wikidata_qid: 'Q1386992'
 birth_date: '1959-05-14'
@@ -376,4 +376,3 @@ PRIORITY FIXES (numbered, 3 max):
 3. Develop the skip-tracing job into the emotionally-immersive scene the existing internal note correctly flagged — a Type-5 using observation as weapon, lying to mothers to find debtors, is the missing Greene-in-action moment.
 
 ============================================================ -->
-

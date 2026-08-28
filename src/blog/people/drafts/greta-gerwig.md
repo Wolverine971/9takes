@@ -13,7 +13,7 @@ published: false
 enneagram: '6'
 type: ['movieStar', 'director']
 person: 'Greta-Gerwig'
-suggestions: ['Saoirse-Ronan', 'Margot-Robbie', 'Timothee-Chalamet', 'Noah-Baumbach']
+suggestions: ['Saoirse-Ronan', 'Margot-Robbie', 'Timothee-Chalamet', 'Ryan-Gosling']
 wikipedia: 'https://en.wikipedia.org/wiki/Greta_Gerwig'
 same_as:
   - 'https://en.wikipedia.org/wiki/Greta_Gerwig'
@@ -68,6 +68,7 @@ FEEDBACK (2026-05-30):
 - NEEDS WORK (Enneagram capped at 8): the arrow MECHANIC is named in the body ("Sixes have two arrows. Under stress they shoot to Type 3… In growth they move to Type 9"). Move the mechanic into the rabbit hole; keep only the person-first application (snub, on-set joy) in the body.
 - TO REACH A (9.0): (1) trim the two writing/enneagram caps above; (2) add a real `faqs` schema block on genuine search questions ("What is Greta Gerwig's Enneagram type?", "Is Greta Gerwig a 4 or a 6?", "What is Greta Gerwig's wing?") and fill entity metadata (`same_as`) to lift Discoverability toward 9; (3) verify the "B+ / not quite there" award-speech quote's exact venue/date before publish.
 -->
+
 
 <!-- TESTIMONY LEDGER
 1. Saoirse Ronan: "She invests in your performance like the actor she is. And for that reason, you feel understood and like there's someone on your team — resulting in a feeling of invincibility." — Ronan profile, 2019–2020
@@ -275,5 +276,3 @@ Kept as-is:
 Still open:
 - Exact venue/date of the "rule follower / grade movies / B+" quote not verified via search; kept soft "she has said" attribution. Confirm source before publish.
 -->
-
-

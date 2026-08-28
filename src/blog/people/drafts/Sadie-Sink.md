@@ -13,7 +13,7 @@ published: false
 enneagram: '6'
 type: ['newMovieStar', 'movieStar', 'celebrity']
 person: 'Sadie-Sink'
-suggestions: ['Timothee-Chalamet', 'Zendaya', 'Millie-Bobby-Brown', 'Jenna-Ortega']
+suggestions: ['Taylor-Swift', 'Millie-Bobby-Brown', 'Jenna-Ortega', 'Timothee-Chalamet', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Sadie_Sink'
 wikidata_qid: 'Q27452406'
 imdb_id: 'nm5584750'
@@ -105,6 +105,7 @@ path: src/blog/people/drafts/Sadie-Sink.md
 4. Taylor Swift (writer-director, All Too Well: The Short Film): said Sink and Dylan O'Brien were the only two she imagined in the roles and that she would not have made the film if Sink had declined. — Late Night with Seth Meyers, 2021
 Total qualifying quotes: 4
 -->
+
 
 <!-- HEADING MIX LEDGER
 H2 1: "What is Sadie Sink's personality type?" — search-intent
@@ -235,7 +236,7 @@ Here is a test. Line up the four performances that define her and look for the p
 
 None of them are relaxed. Every one is watchful, wounded, forced into early adulthood, sorting out who can be trusted. Sink has said the "growing up a little bit faster" theme is "always something I kind of related to." She is not stretching for these girls. She is recognizing them.
 
-One of the four was not even an audition. When Taylor Swift turned "All Too Well" into a short film, she wanted Sink so specifically that she has said she would not have made it if Sink had declined. For a lifelong Swiftie, being hand-picked by Taylor Swift to carry one of the most devastating songs in her catalog is the kind of anointing that could freeze a person. Sink turned it into an assignment. "I never thought of myself as someone who would even reach her desk," she told People, and having never been in love, she closed the gap the only way she trusts: she drew on "years of research as a Swiftie" to find the grief the part needed. Handed the thing she revered most, she answered with homework.
+One of the four was not even an audition. When [Taylor Swift](/personality-analysis/taylor-swift) turned "All Too Well" into a short film, she wanted Sink so specifically that she has said she would not have made it if Sink had declined. For a lifelong Swiftie, being hand-picked by Taylor Swift to carry one of the most devastating songs in her catalog is the kind of anointing that could freeze a person. Sink turned it into an assignment. "I never thought of myself as someone who would even reach her desk," she told People, and having never been in love, she closed the gap the only way she trusts: she drew on "years of research as a Swiftie" to find the grief the part needed. Handed the thing she revered most, she answered with homework.
 
 The casting is also where the skeptics get answered. When a young actor breaks out of a franchise, the industry quietly files them under "Netflix kid, ask again in five years." Sink heard that file open and went to work closing it. She took Ellie in Darren Aronofsky's The Whale, a film built like a play, rehearsed like a play, with nowhere to hide. Brendan Fraser, who won the Oscar off that movie, called it a "privilege" to watch her "win the game" on set every day. Then she carried a demanding new play, Kimberly Belflower's John Proctor Is the Villain, to a Tony nomination.
 
@@ -336,4 +337,3 @@ Rejected (with reason):
 Ledgers: Distribution note refreshed to match the new self-doubt prose. Testimony/Heading/Formula unchanged (Nylon lines are Sink's own words, not third-party testimony; contrast pairs still 0 via blog-quality-report).
 Lint: clean (0 fail, 0 warn).
 -->
-

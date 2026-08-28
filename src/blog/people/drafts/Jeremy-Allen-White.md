@@ -13,7 +13,7 @@ published: true
 enneagram: '4'
 type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'jeremy-allen-white'
-suggestions: ['Timothee-Chalamet', 'Paul-Mescal', 'Adam-Driver', 'Austin-Butler']
+suggestions: ['Timothee-Chalamet', 'Paul-Mescal', 'Jacob-Elordi', 'Austin-Butler']
 wikipedia: 'https://en.wikipedia.org/wiki/Jeremy_Allen_White'
 wikidata_qid: 'Q1411012'
 imdb_id: 'nm2087739'
