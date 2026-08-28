@@ -1,0 +1,17 @@
+Frontmatter enrichment complete: **Freddie-Mercury**
+
+**Fields filled:**
+- `wikidata_qid` (Q15869 — verified against the entity: "British singer, songwriter and musician, frontman of the rock band Queen (1946–1991)")
+- `imdb_id` (nm0006198 — cross-checked via Wikidata property P345, per the mandatory verification rule)
+- `birth_date` (1946-09-05), `birth_place` ('Stone Town, Sultanate of Zanzibar' — political naming at time of birth), `nationality` ('British')
+- `occupation` (Singer, Songwriter, Record producer)
+- `knows_about` (6 items — includes 'Graphic design', which the body itself supports via Ealing Art College and the self-drawn Queen crest)
+- `keywords` (9 phrases mirroring the title, the "Was Freddie Mercury shy" H2, and the Mary Austin / Great Pretender search surfaces)
+- `same_as` (Wikipedia, Wikidata, IMDb, plus freddiemercury.com — the official estate site, verified live)
+- `citations` (7 Wikipedia anchors, all verified returning 200)
+
+**Fields already present (preserved):** `wikipedia` (verified it resolves to the correct person), `instagram`, and the full `faqs` block — 5 substantive entries already written by the creator pass, left byte-for-byte untouched per idempotency. `lastmod` untouched. Body untouched.
+
+**Issues / notes:**
+- The body contains **zero inline external URLs** — all sourcing is by name (Wigg tapes, Dolezal film, Rolling Stone, OK! magazine, *Mercury and Me*, Freestone's YouTube). Per the gold-standard pattern (Einstein does the same), I built `citations` from verified Wikipedia pages for the body's load-bearing subjects rather than inventing links. Flagging the thin inline sourcing for the record, though the Testimony Ledger shows the quotes were audited upstream.
+- Jim Hutton, Peter Freestone, and *Mercury and Me* have **no standalone Wikipedia articles**, and `Mary_Austin` is a disambiguation page — all excluded from citations rather than guessed at. Britannica's Freddie Mercury page bot-blocked verification (HTTP 403), so it was left out of `same_as` in favor of the verified official estate site.

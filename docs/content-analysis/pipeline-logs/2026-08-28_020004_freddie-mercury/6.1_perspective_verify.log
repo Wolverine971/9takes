@@ -1,0 +1,10 @@
+Verification complete for Freddie-Mercury.
+
+- **Output:** `docs/content-analysis/perspective-reviews/Freddie-Mercury/2026-08-28_020004/verification-initial.md`
+- **Verification status:** `pass`
+- **Open P0:** 0 — all four resolved and independently re-tested (FAQ deathbed clause deleted; Munich gifts passage now transcript-true with "pawned"/"wanted the wallet" gone from reader-visible prose; "It's fun." reinstated and absorbed in Scene by Scene; Bohemian Rhapsody jury now the band's multitracked voices)
+- **Protected-hit regressions:** 0 — all ten PROTECT passages survive, confirmed by full snapshot diff
+
+Notable checks beyond the resolution log: I re-verified the three transcript anchors directly (the Fasching "flashing" caption garble, the gifts-returned line, the bricklayer universalizer), confirmed the residual "pawned"/"outlives" grep hits live only in the editor's HTML comment block, confirmed all six reviews' blockers map into the synthesis P0s, and re-ran lint (0 fail, 1 warn: the known 3-word headroom). The report carries the mandatory Conflicts §1 correction so no later pass cuts the supported Fasching quote or re-flags the packet-supported Hutton "in the house" sentence.
+
+The deterministic gate script decides finalization from here.

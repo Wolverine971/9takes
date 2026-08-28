@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/abraham-lincoln</loc>
@@ -1451,7 +1451,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -3393,6 +3393,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/ryan-holiday</loc>
+    <lastmod>2026-08-28</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/1s/Ryan-Holiday.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/ryan-reynolds</loc>
     <lastmod>2026-03-28</lastmod>
     <image:image>
@@ -3891,7 +3898,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/1</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/2</loc>
@@ -4260,7 +4267,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/advice-18-year-old-wants-go-college-doesnt-know-wants</loc>
@@ -4276,11 +4283,11 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/community-and-social-relationships</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/daily-routines</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/diplomacy</loc>
@@ -4288,7 +4295,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/education-and-development</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/elections-and-voting</loc>
@@ -4296,7 +4303,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/family-and-kinship</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/government-systems</loc>
@@ -4304,27 +4311,27 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/life-events</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-challenges</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-development</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-growth</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-interests-and-lifestyle</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/personal-life-and-wellness</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/political-ideologies</loc>
@@ -4332,7 +4339,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/political-social-and-economic-affairs</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/politics-and-policy</loc>
@@ -4344,7 +4351,7 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/relationships</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/romantic-relationships</loc>
@@ -4356,11 +4363,15 @@
   </url>
   <url>
     <loc>https://9takes.com/questions/categories/self-relationship</loc>
-    <lastmod>2026-07-19</lastmod>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/change-something-yourself-change</loc>
     <lastmod>2024-05-13</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/How-do-you-do</loc>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/how-do-you-figure-out-who-is-right</loc>
@@ -4383,6 +4394,10 @@
     <lastmod>2026-02-05</lastmod>
   </url>
   <url>
+    <loc>https://9takes.com/questions/if-you-could-truly-disappear-from-everything-and-everyone-you</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/questions/if-you-had-to-be-trapped-somewhere-where-would-you-choose</loc>
     <lastmod>2023-10-21</lastmod>
   </url>
@@ -4399,8 +4414,16 @@
     <lastmod>2023-12-21</lastmod>
   </url>
   <url>
+    <loc>https://9takes.com/questions/parents-encourage-toddler-boys-poo-grass-garden</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/questions/part-daily-routine-wish-started-sooner</loc>
     <lastmod>2026-04-07</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/s-something-say-don-t-mind-when-actually</loc>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/single-people-not-understand-married-people</loc>
@@ -4467,6 +4490,10 @@
     <lastmod>2023-12-02</lastmod>
   </url>
   <url>
+    <loc>https://9takes.com/questions/what-do-you-provide-so-that-you-never-have-to-ask</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/questions/what-is-something-you-would-change-about-yourself</loc>
     <lastmod>2023-12-03</lastmod>
   </url>
@@ -4495,8 +4522,20 @@
     <lastmod>2024-06-14</lastmod>
   </url>
   <url>
+    <loc>https://9takes.com/questions/whats-best-decision-youve-ever-made-life</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+  <url>
     <loc>https://9takes.com/questions/whats-biggest-lesson-youve-learned-year-2024</loc>
     <lastmod>2024-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/whats-criteria-considering-someone-friend</loc>
+    <lastmod>2026-08-28</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/whats-something-every-day-seem-fine-nobody-knows-costing-effort</loc>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/whats-something-overresearched-no-one-asked</loc>
@@ -4505,6 +4544,10 @@
   <url>
     <loc>https://9takes.com/questions/whats-your-biggest-fear</loc>
     <lastmod>2023-12-03</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/when-you-have-to-choose-between-going-along-with-the</loc>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/where-do-you-get-off</loc>
@@ -4517,6 +4560,10 @@
   <url>
     <loc>https://9takes.com/questions/who-do-you-look-up-to-and-why</loc>
     <lastmod>2023-10-21</lastmod>
+  </url>
+  <url>
+    <loc>https://9takes.com/questions/whos-influential-person-life</loc>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/why-people-2-phones-trying-find-answer-without-assuming-bf-anything-negative-people</loc>

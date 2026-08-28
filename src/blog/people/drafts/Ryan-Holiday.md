@@ -4,12 +4,12 @@ meta_title: "Ryan Holiday's Enneagram Type 1: The Rule He Can't Keep"
 persona_title: "Stoicism's Restless Conscience"
 description: "Ryan Holiday's most-quoted rule is tolerant with others, strict with yourself. In April 2026 he broke it on camera. An Enneagram Type 1 analysis."
 author: 'DJ Wayne'
-date: '2026-08-26'
+date: '2026-08-28'
 loc: 'https://9takes.com/personality-analysis/ryan-holiday'
-lastmod: '2026-08-26'
+lastmod: '2026-08-28'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['author', 'creator', 'entrepreneur']
 person: 'Ryan-Holiday'

@@ -1,0 +1,22 @@
+All gates pass and lint is clean. The run is complete.
+
+**Draft created: `src/blog/people/drafts/Freddie-Mercury.md`** — a Type 4w3 reading built around the Great Pretender contradiction, exactly the lane the entity-gap brief carved out (personality long-tail only; the biography head terms stay with Wikipedia). The thesis: the stadium showman and the man hiding his smile behind his hand were one gesture running in opposite directions. The type call is adjudicated from primary testimony rather than added as a tenth unsourced vote: the tiebreaker against the competing 3w4 and 7w6 readings is what he did when hurt (withdrew and aestheticized, per the 1985 Wigg transcript and the post-Munich retreat).
+
+Research highlights that made the draft:
+- **Fetched three YouTube transcripts** (Wigg Munich 1985, Freestone 2021 privacy talk, Freestone 2025 long interview), saved to `youtube-transcripts/`. The Wigg tape supplied the load-bearing quotes: "I have a lot of mirrors," "riddled with scars," and the untouchable-stadium-as-fantasy passage. The 1984 "Musical Prostitute" interview has captions disabled (logged as a limitation).
+- **Seven qualifying testimony quotes** (May, Elton John, Mary Austin, Hutton, Freestone ×2, Bowie), including the Tuke-painting story signed "Melina" that closes the piece.
+- Durable evidence file written to `docs/content-analysis/research/Freddie-Mercury.md` for the perspective-research stage.
+- Fact queries (real name, Mary Austin, Hutton, death, shyness) are serviced in `faqs` frontmatter per the brief; the contested "secret daughter" claim and unverifiable "I will be a legend" quote were excluded.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Freddie-Mercury.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (7 testimony quotes) | Gate 2: pass (8 of 9 H2s search-intent/hybrid) | Gate 4: pass (no type-sentence ending, no reference-library cadence) | Gate 5: pass (2 type-theory paragraphs outside diagnosis/Rabbit Hole) | Gate 6: pass (0 contrast engines, similarity scan 0.057 top pair, bespoke scene-autopsy section, Marsh 1979 critic anchor, silence-as-empathy-turn, Sept 5 2026 gala anchor)
+LIMITATIONS: 1984 interview transcript unavailable (captions disabled); "loneliest man" quote omitted (first-source attribution unpinned); Wigg quotes verified against auto-generated captions
+```
+
+Deterministic checks: `blog-lint.sh` 0 fail / 1 warn (4,301 words against the 4,500 ceiling — thin refresh headroom), contrast pairs 0/0, meta_title head-term pass, extractable 53-word answer block. Internal links (5): Type 4 pillar, Elton John, wings guide, instinctual subtypes, corpus-stats (the last three inside the Rabbit Hole).
+
+One timing note worth flagging: the brief's window is real — publishing before **September 5** catches the 80th-birthday long tail, and the window decays after the Montreux weekend (Sept 2–6). Next steps are `/grade_blog`, your review, then `blog_content_production_people`.

@@ -1,0 +1,9 @@
+Evidence packet written to `docs/content-analysis/perspective-reviews/Freddie-Mercury/2026-08-28_020004/evidence-packet.md` (`packet_status: complete`, SHA verified against `context.json`).
+
+What the compilation found, briefly:
+
+- **All transcript-anchored material held up.** Every Wigg 1985 and Freestone 2021/2025 quote the draft leans on was re-verified against the three on-file transcripts; the Dolezal 1987 "pretence" lines verified near-verbatim via Louder; Roger Taylor's disclosure quote pinned to Rolling Stone 2014; the corpus stat (80 musicians, 30 Fours) confirmed against `corpus-stats.json`.
+- **Largest unresolved evidence gap (CLM-07):** the FAQ's claim that Mary Austin **"was holding his hand when he died."** No checked source supports it — accounts put Dave Clark "reportedly at the bedside," Hutton present per his memoir, Freestone in the house, and several say Mary was *the first phoned after* his death. It appears to have ridden in from an unsourced "Mary Austin at bedside" line in the creator-stage research file's timeline. Recorded as a disputed claim in a SERP-surfaced FAQ answer.
+- **Smaller divergences logged for evaluators:** "Every day is Fasching for me" is attributed to Wigg but absent from the on-file Wigg transcript (reported-form only, unpinned); the Munich gifts were "returned **or pawned**" in the draft while the transcript supports only "I get them back"; the Dolezal pretence quote actually ends "**It's fun.**", omitted by the draft; and the Bowie quote's wording is solid but its "at the tribute concert in 1992" venue is unpinned.
+
+One housekeeping note: verifying the corpus stat required running the stats generator, which rewrote two tracked files with a timestamp-only diff — I restored both to their prior state, so the working tree is unchanged apart from the new packet.

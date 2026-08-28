@@ -1,0 +1,24 @@
+<!-- docs/content-analysis/grades/Freddie-Mercury.review.md -->
+
+# Grade feedback: Freddie Mercury
+
+Grade: A (9.0), rubric v2 — regrade after revision pass (first grade 8.7 B+, delta +0.3)
+Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 9 | Hook: 9
+Anchor: Matt-Smith draft (2026-06-28) | Caps: none | Needs review: false
+Source audit: 7 load-bearing quotes — 5 inline, 2 vague, 0 untagged. Vague slots: (1) Freestone "with his top lip or raised his hand" — carried only by "a 2016 interview," no outlet named; (2) "Somebody to Love" — a dated song title, not a quote (benign false positive). No untagged load-bearing quotes; epigraph/cold-open gate clear.
+Interior line: "Everyone here arrived knowing someone. I arrived knowing nobody. Whoever I am next starts now."
+Empathy turn: "The disease was attacking the one asset he had never sold: the private self he'd guarded since boarding school." — closed with "The verdict stands, and so does the bill: whatever a word from him in 1988 might have moved, other patients paid for not finding out." Uses his own vocabulary (scars, barriers, unsold privacy), not house armor/scar-tissue grammar. No house_empathy_turn cap.
+
+FEEDBACK (2026-08-28):
+
+- The teeth/hand-over-mouth open is the thesis in one image — "They are the same gesture, made in opposite directions" — and it's built on pinned sources (Dolezal 1987 for the pretence line, Freestone for the hand). Best cold open in the recent batch.
+- "The Great Pretender, Scene by Scene" is a genuinely bespoke form: an annotated autopsy of one interview that collapses if transplanted to any other subject. The reinstated "It's fun." beat keeps it honest instead of tragic-flattening.
+- The Mary Austin section cashes a real analytical claim ("quoted everywhere, analyzed in none of them"): "She was the one person whose love could not be explained by Freddie Mercury, because there was no Freddie Mercury empire when she signed up" is the draft's strongest original insight.
+- The Silence section handles the hardest critic pressure (activist criticism of his AIDS silence) without either ducking or acquitting — the "so does the bill" concession is what keeps the empathy turn from being a defense brief. Three distinct pressure points engaged (Marsh 1979, Sun City, the silence); nothing sanitized.
+- The Rabbit Hole counterarguments section is the best-formed in recent memory: names the 3w4 falsifier explicitly and self-reports the Type-4 musician base-rate (30 of 80) before arguing past it.
+- Grading transparency: this is a boundary A. Writing at 8 instead of 9 computes to 8.9 (B+). Writing got the 9 on direct anchor comparison — more formal daring (court-exhibit section, pull-quote deployment), denser memorable lines ("The song is a locked room, and the world sings along to the door"), real tonal range (mirrors joke, Fasching, the laughing paragraph, "Dear Sharon... Love, Melina"), and a stronger subject-locked ending than the Matt-Smith anchor. Deterministic checks corroborate: 0 contrast pairs, distribution ledger 0 (verified against the body), 0 untagged sources.
+- Cross-draft sameness (vs Tate-McRae, Marcus-Aurelius, Ryan-Holiday, the 3 most recently graded): no reused TL;DR skeleton, no "The tell:" bullet, no reader-command reuse, distinct empathy-turn grammar. One echo with the older machine-gun-kelly draft: the corpus-stat honesty sentence ("Of the 75/80 musicians profiled on 9takes...") is near-verbatim with swapped numbers. One move — below the 3-move cap, but on the board.
+- NEEDS WORK (next refresh, not blocking): (1) Aphoristic one-line section closers still land on ~6 of 9 sections ("The bid returned to sender." / "He had given the world 24 hours to know him." / "...kept the original self out of the frame."). Each is earned; the cadence is metronomic in aggregate. Vary 1–2 more. (2) The Freestone top-lip quote is the one vague-tier load-bearing source — verify it against his 1998 memoir and re-pin, per the second-pass note. (3) Vary the corpus-stat sentence phrasing away from the machine-gun-kelly shape.
+- TO REACH A+ (9.5): Reserve tier. The one substantive gap is the fresh-eyes point the word ceiling ate: the "catalog marinates in loss" claim is still asserted more than demonstrated — the Bo Rhap locked-room read is there, but a second in-song exhibit (the deferred "Mother Love" P2, or a two-sentence "Somebody to Love" read beyond the one-clause mention) would let the type touch the art twice. That needs a funding cut or a recorded word-ceiling exception (body is at 4,497/4,500). Pair it with the closer-cadence fix.
+
+REFRESH TRIGGERS (carried from working notes, do not lose): before any future edit, check the Mary Austin dependency (her status and the ashes secret — the ending depends on both) and re-verify the gala passages read cleanly post-September 2026.

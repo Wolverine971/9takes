@@ -1,0 +1,18 @@
+## Grading Complete — Freddie-Mercury
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Freddie-Mercury | 9 | 9 | 9 | 8 | 8 | 9 | 8.7 | B+ |
+
+(Weighted: `(9×1.5 + 9×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 8.7`. Discoverability ≥ 7, no gate. No formula caps applied.)
+
+### Key observations
+
+- **This clears the Matt-Smith B anchor on the merits, dimension by dimension.** Evidence is the separator: 8 intimate-witness sources (vs. the anchor's 3), with the load-bearing Wigg 1985 and Dolezal 1987 quotes traceable to mined transcripts sitting in `youtube-transcripts/`. Source audit: 5 inline, 2 vague, 0 untagged. It also avoids the anchor's two audited sins — the monocausal thesis (the Freestone "Freddie loved laughing" paragraph deliberately holds the ambivalence open) and the cherry-picked gallery (three critic pressures faced: Marsh's "fascist" review, Sun City, the AIDS-silence criticism, the last answered without acquittal).
+- **What kept it out of A range:** two type-theory paragraphs sit outside the diagnosis section and Rabbit Hole — the Munich paragraph names the stress arrow in the body ("Munich is that arrow with a street address"), which the rubric explicitly penalizes (Enneagram 8). Writing 8 for residual repetition (the "more I open up" quote runs verbatim in epigraph *and* diagnosis; gifts anecdote lands three times) and a faintly metronomic aphoristic-closer cadence.
+- **Two sourcing items the deterministic audit's slot windows missed**, named in the sidecar: the deathbed "I've left you the house" quote is unpinned ("he told her" — needs Austin's interview), and Brian May's "I'll fucking do it, darling" carries its outlet only in the ledger comment. Also flagged for transparency: the audit pass partly depends on Wigg/Dolezal being added to the script's OUTLETS list the same day — defensible (interviewers-of-record), but the gate did move.
+- **Sameness check passed:** only 2 reused house moves across the 8 most recent Type-4 drafts (corpus-stat sentence with swapped numbers, epigraph→cold-open furniture) — under the 3-move cap. The similarity-scan TRIP is the known diagnosis-sentence-template false positive. Interior beat and empathy turn both land in Mercury's own vocabulary, not house grammar.
+
+Grade block written to the draft's frontmatter; full feedback (including the concrete to-reach-A list) is in `docs/content-analysis/grades/Freddie-Mercury.review.md`.
+
+**Total graded this session: 1**

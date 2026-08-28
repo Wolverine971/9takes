@@ -1,0 +1,19 @@
+## Grading Complete — Freddie-Mercury
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Freddie-Mercury | 9 | 9 | 9 | 9 | 8 | 9 | 8.9 | B+ |
+
+(Weighted: `(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.9`. Discoverability ≥ 7, no gate. No caps applied.)
+
+### Key Observations
+
+- **This is top-of-distribution pipeline output, a strong B+ that stops just short of A on one dimension.** It beats the Matt-Smith calibration anchor on evidence depth (8 named, dated witnesses plus two primary transcripts mined in-repo vs. Matt's 3) and on critic pressure (Marsh's 1979 "fascist" review, Sun City, and the AIDS-silence criticism all faced, with a genuine concession: "The verdict stands, and so does the bill"). The Mary Austin insight — the one person whose love predated the empire — and the "untouchable" Live Aid reading are the original beats.
+- **Writing is the lone 8:** the house furniture is still visible (epigraph → cold open → "facts first" → TL;DR skeleton) and the reader-command imperative tic runs four deep ("Hold both images at once," "Read it like a court exhibit," "Look at when she arrived," "Believe him"). The court-exhibit device earns one of those; the rest are pipeline voice.
+- **Checks were clean:** 0 contrast pairs, 0 type-theory paragraphs in the body, source audit 5 inline / 2 vague / 0 untagged, sameness check found only 2 house moves (below the 3-move cap). One stale-ledger flag: the draft's fingerprint ledger claims a same-type top pair of 0.057 vs Phoebe-Bridgers, but the current scan shows 0.679 vs oliver-tree — all mandated diagnosis-phrasing false positives, but the ledger no longer matches the scan.
+- **Sourcing gap worth one fix:** the Garden Lodge kitchen announcement ("Look, I have AIDS…") anchors The Silence section but is attributed only "Per Freestone" with no dated telling — the one load-bearing quote the revision pass didn't pin.
+- This was a supervised regrade: prior pipeline grade 8.7, revision pass executed the TO REACH list, regrade 8.9 (stability delta 0.2 — recorded in frontmatter).
+
+Grade block added to the draft frontmatter; reviewer feedback written to `docs/content-analysis/grades/Freddie-Mercury.review.md`.
+
+**Total graded this session: 1**

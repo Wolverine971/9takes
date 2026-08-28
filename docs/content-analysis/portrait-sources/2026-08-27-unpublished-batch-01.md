@@ -1,5 +1,10 @@
 <!-- docs/content-analysis/portrait-sources/2026-08-27-unpublished-batch-01.md -->
+
 # Unpublished personality portraits — batch 01 (2026-08-27)
+
+> Historical record: the Ryan Holiday asset in this batch was superseded after visual review on
+> 2026-08-28. The active photograph and processing record are documented in
+> `2026-08-28-unpublished-refresh-batch-03.md`.
 
 This batch covers the five newest unpublished personality analyses that did not have production
 portrait pairs when the batch started. The order comes from `blogs_famous_people.lastmod` in

@@ -1,0 +1,19 @@
+## Grading Complete — Freddie-Mercury (regrade after revision)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Freddie-Mercury | 9 | 9 | 9 | 9 | 9 | 9 | 9.0 | A |
+
+(Weighted: `(9×1.5 + 9×1.5 + 9×1.5 + 9 + 9 + 9×0.5) / 7 = 9.0`. Discoverability gate clear. First grade was 8.7 B+; delta +0.3.)
+
+### Key observations
+
+- **The revision pass's asks were verifiably consumed.** The prior 8.7 hinged on Enneagram 8 (stress-arrow mechanics in the Munich body) and unpinned quotes. Both fixed: the distribution ledger's "0 type-theory paragraphs outside diagnosis/rabbit-hole" claim held on body inspection, and the Mary Austin deathbed line (OK! 2000) and Brian May line (Total Guitar) are now pinned inline. Deterministic checks corroborate: 0 contrast pairs, 0 untagged load-bearing sources (5 inline, 2 vague), answer block 58 words.
+- **This is a boundary A, and I said so in the sidecar.** Writing at 8 would compute to 8.9 B+. Writing got the 9 on direct comparison with the Matt-Smith anchor: the court-exhibit "Scene by Scene" section is a bespoke form, the tonal range is real (the mirrors joke, the laughing paragraph, "Dear Sharon... Love, Melina" against the grief), and the ashes-vs-gala ending is subject-locked. Confidence recorded as medium. Note: Matt-Smith's *in-file* grade is a 9.0 A from a June regrade, but the calibration table places that draft as the B reference per the independent audit — I anchored to the table, not the file.
+- **What earns the A on substance:** three critic pressures engaged without sanitizing (Marsh's "fascist rock band," Sun City, the AIDS-silence activist criticism — conceded with "so does the bill"), an empathy turn built from Mercury's own scars/barriers vocabulary rather than house armor-grammar, and the Mary Austin "only ground the fame never flooded" insight.
+- **Sameness check:** clean against the three most recently graded drafts (Tate-McRae, Marcus-Aurelius, Ryan-Holiday). One echo vs the older machine-gun-kelly draft — the corpus-stat honesty sentence with swapped numbers (flagged at 0.320 by the scan). One move, below the 3-move cap, named in feedback for the next refresh. The 0.679 oliver-tree trip is just the mandated diagnosis-sentence shape.
+- **Path to A+ (in sidecar):** the "catalog marinates in loss" claim still leans on one in-song exhibit (the Bo Rhap read); a second one was cut for the 4,497/4,500 word ceiling, so reaching 9.5 needs a funding cut or a recorded ceiling exception. Plus varying the still-metronomic one-line section closers.
+
+Grade block written to the draft frontmatter (with `first_overall: 8.7` / `regrade_overall: 9.0`), sidecar at `docs/content-analysis/grades/Freddie-Mercury.review.md`. No legacy QUALITY GRADE blocks were in the draft body.
+
+**Total graded this session: 1**

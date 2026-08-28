@@ -1,0 +1,112 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Freddie-Mercury (Type 4)
+/Users/djwayne/9takes/src/blog/people/drafts/Freddie-Mercury.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 44
+Comparison set (last 8 other Type-4 drafts by date):
+  - jeremy-allen-white  (2026-08-26, 53 units)
+  - machine-gun-kelly  (2026-08-16, 51 units)
+  - Phoebe-Bridgers  (2026-08-15, 39 units)
+  - Bryan-Johnson  (2026-08-13, 38 units)
+  - Hunter-Biden  (2026-07-25, 32 units)
+  - kacey-musgraves  (2026-07-23, 38 units)
+  - julia-fox  (2026-07-20, 30 units)
+  - oliver-tree  (2026-07-19, 37 units)
+
+Noise floor over 13992 unit pairs:  median=0  p90=0  p99=0.006  max=0.679
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.679   Freddie-Mercury  <->  oliver-tree
+   TARGET [diagnosis] Freddie Mercury was an Enneagram Type 4 with a 3 wing.
+   OTHER  [diagnosis] Oliver Tree was an Enneagram Type 4
+
+score 0.361   Freddie-Mercury  <->  kacey-musgraves
+   TARGET [diagnosis] Freddie Mercury was an Enneagram Type 4 with a 3 wing.
+   OTHER  [diagnosis] Kacey Musgraves is best read here as an Enneagram Type 4 with a 3 wing
+
+score 0.320   Freddie-Mercury  <->  machine-gun-kelly
+   TARGET [counter-typing] of the 80 musicians profiled on 9takes
+   OTHER  [diagnosis] Of the 75 musicians profiled on 9takes
+
+score 0.129   Freddie-Mercury  <->  jeremy-allen-white
+   TARGET [diagnosis] and the full wing-and-subtype case
+   OTHER  [diagnosis] The wing and subtype rest on much thinner ground.
+
+score 0.061   Freddie-Mercury  <->  julia-fox
+   TARGET [counter-typing] had he answered hurt with image-repair and harder performing instead of retreat
+   OTHER  [diagnosis] and a sexual-instinct intensity turns longing into performance instead of retreat.
+
+score 0.057   Freddie-Mercury  <->  Phoebe-Bridgers
+   TARGET [diagnosis] The Four pattern is identity as handmade object.
+   OTHER  [counter-typing] Her interviews offer little direct access to the Four pattern of measuring oneself against an imagined wholeness in others
+
+score 0.056   Freddie-Mercury  <->  julia-fox
+   TARGET [diagnosis] Freddie Mercury was an Enneagram Type 4 with a 3 wing.
+   OTHER  [diagnosis] Julia Fox is an Enneagram Type 4
+
+
+Most similar drafts (max unit-pair score):
+  0.679 ########################### oliver-tree
+  0.361 ##############       kacey-musgraves
+  0.320 #############        machine-gun-kelly
+  0.129 #####                jeremy-allen-white
+  0.061 ##                   julia-fox
+  0.057 ##                   Phoebe-Bridgers
+  0.029 #                    Hunter-Biden
+  0.023 #                    Bryan-Johnson
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.679   Freddie-Mercury  <->  oliver-tree
+   TARGET [diagnosis] Freddie Mercury was an Enneagram Type 4 with a 3 wing.
+   OTHER  [diagnosis] Oliver Tree was an Enneagram Type 4
+
+score 0.361   Freddie-Mercury  <->  kacey-musgraves
+   TARGET [diagnosis] Freddie Mercury was an Enneagram Type 4 with a 3 wing.
+   OTHER  [diagnosis] Kacey Musgraves is best read here as an Enneagram Type 4 with a 3 wing
+
+score 0.320   Freddie-Mercury  <->  machine-gun-kelly
+   TARGET [counter-typing] of the 80 musicians profiled on 9takes
+   OTHER  [diagnosis] Of the 75 musicians profiled on 9takes
+
+score 0.215   Freddie-Mercury  <->  machine-gun-kelly
+   TARGET [counter-typing] The 3w4 case is genuinely strong
+   OTHER  [counter-typing] The Type 3 case is strong and this piece already made it
+
+score 0.129   Freddie-Mercury  <->  jeremy-allen-white
+   TARGET [diagnosis] and the full wing-and-subtype case
+   OTHER  [diagnosis] The wing and subtype rest on much thinner ground.
+
+score 0.061   Freddie-Mercury  <->  julia-fox
+   TARGET [counter-typing] had he answered hurt with image-repair and harder performing instead of retreat
+   OTHER  [diagnosis] and a sexual-instinct intensity turns longing into performance instead of retreat.
+
+score 0.057   Freddie-Mercury  <->  Phoebe-Bridgers
+   TARGET [diagnosis] The Four pattern is identity as handmade object.
+   OTHER  [counter-typing] Her interviews offer little direct access to the Four pattern of measuring oneself against an imagined wholeness in others
+
+score 0.056   Freddie-Mercury  <->  julia-fox
+   TARGET [diagnosis] Freddie Mercury was an Enneagram Type 4 with a 3 wing.
+   OTHER  [diagnosis] Julia Fox is an Enneagram Type 4
+
+score 0.040   Freddie-Mercury  <->  Phoebe-Bridgers
+   TARGET [diagnosis] and the full wing-and-subtype case
+   OTHER  [counter-typing] Neither gathers the full pattern as economically.
+
+score 0.038   Freddie-Mercury  <->  machine-gun-kelly
+   TARGET [diagnosis] plus the strongest arguments against this typing
+   OTHER  [counter-typing] this typing gets easier to defend.
+
+score 0.037   Freddie-Mercury  <->  oliver-tree
+   TARGET [diagnosis] Wounded Sevens book the next adventure.
+   OTHER  [counter-typing] A Seven outruns pain by sprinting to the next thing.
+
+score 0.037   Freddie-Mercury  <->  Phoebe-Bridgers
+   TARGET [diagnosis] A Three fuses with the winning image and defends it as the self.
+   OTHER  [counter-typing] A 3w4 call would take the lead if her definition of authenticity changed with the winning audience and achievement regulated her sense of worth.
+
+------------------------------------------------------------------------------
+Top pair scores 0.679 vs median 0  (~∞x the noise floor).

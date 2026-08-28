@@ -1,0 +1,14 @@
+Revision pass complete on `src/blog/people/drafts/Freddie-Mercury.md`. The loop was grade-triggered (B+ 8.7 vs the 9.0 bar) — lint was already clean and the perspective verification had already passed with zero open P0s, so the perspective artifacts acted as guardrails rather than a work list.
+
+**Fixes applied, mapped to the grader's TO REACH items:**
+
+1. **Enneagram (8→9 ask):** The Munich stress-arrow paragraph is quarantined into the Rabbit Hole's stress/growth section — with the jury-praised sentence "Munich is that arrow with a street address" preserved verbatim there, reconciling the grader's quarantine directive with the ENNEAGRAM-H4 keep-note. The shy-section "withdrawn type working as designed" line is de-mechanized (insight kept, type jargon gone). Distribution ledger now reads 0 type-theory paragraphs outside sanctioned zones.
+2. **Epigraph:** trimmed to the scars sentence only, so "the more I open up the more I get hurt" now appears once, in the diagnosis quote.
+3. **Quote pins:** the deathbed "I've left you the house" line is pinned inline to Mary Austin's OK! magazine 2000 account (source verified in the evidence packet), and Brian May's "I'll fucking do it, darling" is pinned inline to Total Guitar.
+4. **Closer cadence:** the shy section no longer ends on the "loving the decoy" fragment (it now bridges into Scene by Scene), and the "street address" beat left the body — two of the three flagged cadences resolved. The TL;DR Munich bullet also gave up the returned-gifts punchline so the Munich section owns that reveal.
+
+**Rejected, with reasons:** "sings along to the door" was not varied (PROTECT-09 requires both song readings verbatim); the Live Aid "or return his gifts" callback stays (PROTECT-02 territory, previously adjudicated as intentional); the Hutton "in the house" sentence and the Fasching quote were left alone per the verifier's do-not-reflag ruling.
+
+**Verification:** lint is clean — 0 fail, with the word count cut from 4,497 to 4,485, widening headroom from 3 to 15 words. All ten PROTECT passages plus the ENNEAGRAM-H4 sentence were re-checked and survive.
+
+Wrote `revision-resolution.md` to the review directory (status: complete, no unresolved decisions). The pipeline should now clear the consumed grade sidecar and re-grade, and `/blog_perspective_verify_people` must rerun to close the gate — I have not declared it passed or graded anything myself.

@@ -1,0 +1,16 @@
+Critic review complete and saved.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Freddie-Mercury/2026-08-28_020004/critic.md` (SHA verified against context.json and the supplied value before review)
+
+**Verdict:** trust **strained**, value high, recommendation **revise** — the draft earns most of its sympathetic interpretation (it concedes the base rate, the band-loyalty anomaly, and the activist criticism up front), but its most emotionally persuasive beats are its least sourced.
+
+**Blockers: 3**
+1. **CRITIC-B1** — The Mary Austin FAQ asserts "she was holding his hand when he died," a SERP-surfaced deathbed detail the packet's own dispute record found no source for.
+2. **CRITIC-B2** — Munich section: "Every day is Fasching for me" is attributed verbatim to Wigg but absent from the on-file transcript, and "extravagant gifts... returned or pawned" inverts the transcript's "shitty things... I get them back" with an invented verb.
+3. **CRITIC-B3** — The load-bearing pretence quote drops its recorded closing clause "It's fun." at every occurrence, inside a section that tells the reader to treat the transcript as a court exhibit.
+
+**Strongest hit:** the Rabbit Hole's base-rate concession (30 of 80 corpus musicians are Fours, "so a musician defaulting to 4 should be suspected") — the draft hands the skeptic their best statistical argument and answers it behaviorally.
+
+**Highest-priority concern:** CRITIC-C1 — The Silence section promises "an answer... rather than a defense brief," then delivers a defense brief with zero concessions; paired with CRITIC-C2, where Freestone's witness-attested motive for the silence (protecting "the image of Queen") is the article's best 3w4 evidence and is never metabolized by the counterargument section. My one research pass also confirmed the Munich exit gloss "He simply came home" omits that AIDS was already killing that exact circle (Tony Bastin, Winnie Kirchberger, John Murphy).
+
+Sources consulted beyond the packet: [Barbara Valentin — Wikipedia](https://en.wikipedia.org/wiki/Barbara_Valentin), [Valentin's Daily Mirror interview (fan-site carrier)](http://www.mercury-and-queen.com/barbara_valentin_daily_mirror.htm), [Time on Mercury and the "poster boy" question](https://time.com/5440824/freddie-mercury-celebrity-aids-awareness/), [Euronews retrospective](https://www.euronews.com/2023/11/24/culture-re-view-how-freddie-mercurys-death-changed-aids-perceptions).

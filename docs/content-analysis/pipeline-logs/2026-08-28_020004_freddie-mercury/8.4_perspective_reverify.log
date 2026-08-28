@@ -1,0 +1,9 @@
+Verification complete — **pass**, with 0 open P0s and 0 protected-hit regressions.
+
+- **Output:** `docs/content-analysis/perspective-reviews/Freddie-Mercury/2026-08-28_020004/verification-final.md`
+- **Status:** `pass` · `open_p0: 0` · `protected_hit_regressions: 0`
+- **Final reader-visible hash:** `9ef16847…` (frozen snapshot `f0fb9928…` confirmed against both `synthesis.md` and `draft-reviewed.md`)
+
+What this pass covered: since the initial verification already passed, the new risk surface was the grade-triggered revision pass. I enumerated the full snapshot-to-current diff hunk by hunk — every change maps to a logged editor-resolution item, an authorized funding cut, or a logged revision-pass edit. The revision's only two new factual assertions (the Mary Austin quotes pinned to OK! magazine 2000, Brian May pinned to Total Guitar) both check out against the evidence packet, including the "same interview" construction. All four P0 acceptance tests re-pass, all 15 P1s hold, and all ten PROTECT passages survive — including "Munich is that arrow with a street address," which moved verbatim into the Rabbit Hole per the grader's quarantine ask. I also re-verified the two adjudicated transcript facts directly (the Fasching "flashing" caption garble and the gifts-returned line) and carried the mandatory CLM-08 correction forward. Lint: 0 fail, 1 warn (headroom now 4,485/4,500 — improved to 15 words after the revision's net cut).
+
+The deterministic gate script can now finalize the perspective review.

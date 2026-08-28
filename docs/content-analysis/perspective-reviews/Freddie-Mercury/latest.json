@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Freddie-Mercury",
+	"review_dir": "docs/content-analysis/perspective-reviews/Freddie-Mercury/2026-08-28_020004",
+	"verification_file": "docs/content-analysis/perspective-reviews/Freddie-Mercury/2026-08-28_020004/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "f0fb9928071271f8faea829e79114be609dd4bb7df81357ac4711d80bbbf7ba8",
+	"verified_content_sha256": "9ef168474360771cef1499327c05be12fecfb11861a778d650127f9bb51012c1",
+	"verified_at": "2026-08-28T07:47:43.000Z"
+}

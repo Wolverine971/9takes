@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-27T06:00:00Z",
+	"lastUpdated": "2026-08-28T07:59:02Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "freddie-mercury",
-			"displayName": "Freddie Mercury",
-			"type": null,
-			"priority": 42,
-			"priorityReason": "Evergreen music-icon search that never decays; historical-artist niche performs and the persona/private-self contradiction is a rich analysis",
-			"estimatedTraffic": "medium",
-			"searchVolume": "very-high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "music-icon-cluster"
-		},
 		{
 			"name": "demis-hassabis",
 			"displayName": "Demis Hassabis",
@@ -73,6 +60,45 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "freddie-mercury",
+			"displayName": "Freddie Mercury",
+			"type": null,
+			"priority": 42,
+			"priorityReason": "Evergreen music-icon search that never decays; historical-artist niche performs and the persona/private-self contradiction is a rich analysis",
+			"estimatedTraffic": "medium",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "music-icon-cluster",
+			"startedAt": "2026-08-28T06:00:00Z",
+			"completedAt": "2026-08-28T07:59:02Z",
+			"contentGrade": "9.0",
+			"letter": "A",
+			"discoverability": "9",
+			"duration": "~118 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": ["missing_full_image", "missing_thumbnail_image"]
+		},
+		{
+			"name": "marcus-aurelius",
+			"displayName": "Marcus Aurelius",
+			"type": null,
+			"priority": 43,
+			"priorityReason": "Stoicism wave keeps him in evergreen demand; historical figures perform and he pairs with Ryan Holiday for a stoicism internal-link cluster",
+			"estimatedTraffic": "medium",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "self-improvement-cluster",
+			"startedAt": "2026-08-27T06:00:00Z",
+			"completedAt": "2026-08-28T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "ryan-holiday",
 			"displayName": "Ryan Holiday",
@@ -1639,20 +1665,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "marcus-aurelius",
-		"displayName": "Marcus Aurelius",
-		"type": null,
-		"priority": 43,
-		"priorityReason": "Stoicism wave keeps him in evergreen demand; historical figures perform and he pairs with Ryan Holiday for a stoicism internal-link cluster",
-		"estimatedTraffic": "medium",
-		"searchVolume": "high",
-		"personaTitle": null,
-		"addedToQueue": "2026-07-18",
-		"retryCount": 0,
-		"strategicValue": "self-improvement-cluster",
-		"startedAt": "2026-08-27T06:00:00Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "nara-smith",

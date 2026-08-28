@@ -1,0 +1,30 @@
+## Cohesion Check Complete: Freddie-Mercury.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Freddie Mercury was an Enneagram Type 4w3 who hand-built "Freddie Mercury" as a pretence, guarded the person underneath, and withdrew when hurt — and every major life episode (boarding school, offstage shyness, Mary Austin, Munich, Live Aid, the four-year silence) is that one mechanism running.
+
+The thread is genuinely strong: every section serves the thesis, the intro's promises (gala, mirrors, Marsh's accusation, "a title he picked for himself") all pay off, and the ending closes on the same wall the cold open built. This draft had already been through fresh-eyes and second-pass work, and it shows.
+
+### Changes Made (8 total)
+
+**Transition fixes (2):** The only real findings, both across time-jumps.
+
+- **Great Pretender → Mary Austin**: The section ends on its heaviest beat ("He held that pose for four years"), then hard-cut across a part break to the mirrors one-liner. Added "Somewhere, the pose had to drop." — it carries "pose" over the break and frames Mary as the answer.
+- **Mary Austin → Munich**: The cats paragraph ends on affection-without-inspection in the late Garden Lodge era, then the piece rewound to 1979 with no signal. Added "The bought kind he had already tried." — it states the contrast and marks the flashback in six words.
+
+**Echo trims (6), which funded the bridges under the word ceiling:** The body was at 4,498 words against blog-lint's 4,500 ceiling, so I cut repeats before adding anything — "in Munich in 1985" (the source card two lines down carries provenance), the "July 13, 1985" repeat in Live Aid (the intro states it verbatim), one "to Wigg" attribution in Munich ("the same tapes" already anchors it — this also serves the fresh-eyes note about Wigg overexposure), "Freddie Mercury" → "him" in the Silence activist line, and "every single time" → "every time." Final count: **4,499 words, one under the ceiling**, verified with lint's exact counting method. No em-dashes or banned patterns introduced.
+
+### What Was Preserved
+
+- All frontmatter, FAQ metadata, ledger comments, source cards, and internal links
+- All protected elements from fresh-eyes: the teeth open, the Freestone "loved laughing" paragraph, the Mary "only ground" insight, the ashes-vs-gala ending
+- 8 of 10 section boundaries untouched — they were already strong (notably Live Aid → The Silence via "locked room" → "the pretence was retired," and The Silence → the ending via "gifts kept arriving")
+- A COHESION PASS ledger comment was appended to the file's pipeline trail documenting all of the above
+
+### Remaining Concerns
+
+None structural. One operational note for later passes: the draft now has exactly one word of headroom under the lint ceiling, so any future pass that adds prose must cut first (the remaining trim candidates are the source-card "18 minutes" texture line and the TL;DR bullets).

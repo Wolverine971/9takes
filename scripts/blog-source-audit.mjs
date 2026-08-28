@@ -516,7 +516,18 @@ const OUTLETS = [
 	'Loeb Classical Library',
 	'Historia Augusta',
 	'Roman History',
-	'George Long'
+	'George Long',
+	// Interviewers of record for the classic-rock vertical (Freddie-Mercury pass,
+	// 2026-08-28). David Wigg's taped sessions with Mercury (the 1985 Munich
+	// interview among them; transcript in youtube-transcripts/) are the primary
+	// first-person record for this subject — the scars, ladder, mirrors and
+	// untouchable-fantasy quotes live nowhere else. Rudi Dolezal filmed the 1987
+	// "Great Pretender" promo interview, Mercury's last on camera, whose wording
+	// is the record for the pretence and acting quotes. Same class as Zane Lowe /
+	// Kevin McCarthy above: named people whose dated, public filmed interviews
+	// are the checkable source.
+	'David Wigg',
+	'Rudi Dolezal'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when
