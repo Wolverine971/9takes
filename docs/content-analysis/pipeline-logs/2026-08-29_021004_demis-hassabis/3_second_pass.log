@@ -1,0 +1,15 @@
+Second pass on `src/blog/people/drafts/Demis-Hassabis.md` is done. The source audit went from 5 untagged load-bearing quotes to 7/7 inline, and blog-lint now passes with 0 fails (3,929 words, under the 4,500 ceiling).
+
+**Source traceability (fixed first, per the audit):**
+- Every load-bearing quote now carries outlet + year: the memo quotes anchor to Time (Aug 6, 2026), the three Lex Fridman quotes to 2025, Molyneux to Time 2023, and the Semafor quote to Semafor 2026.
+- Caught a misquote while verifying: Semafor's actual wording is "struggled to **get** satisfaction," not "gain" — corrected in both body instances and confirmed against the [Semafor exclusive](https://www.semafor.com/article/08/05/2026/demis-hassabis-was-shifting-away-from-deepmind-ceo-duties-for-a-year), whose URL is now in citations (fresh-eyes had flagged it missing).
+- Added `Lex Fridman` and `Semafor` to the audit script's outlet list with dated comments, following its established per-pass precedent — that benefits every future draft quoting either.
+
+**Substance changes from the fresh-eyes notes:**
+- **AlphaGo beat added** at the top of "The tanks on the lawn" — Seoul 2016, Move 37, framed as the peak the war interrupted, with a Liechtenstein callback so it pays off the games-as-laboratory thesis rather than resume-dumping.
+- **Weapons-pledge clause cashed out, and it's sharper than the reviewer guessed:** verification showed Google didn't just drop the pledge in February 2025 — the blog post announcing the reversal was co-signed by Hassabis himself ([CNBC](https://www.cnbc.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-surveillance.html), [CNN](https://www.cnn.com/2025/02/04/business/google-ai-weapons-surveillance)). The draft now says so: "The man who made a weapons ban the price of his company co-signed its repeal."
+- **"Church hall" was unattested** in the research file, so all three callbacks now anchor to Liechtenstein instead. Same for "unpaid" PhD — dropped in both spots rather than risk an error.
+- Sam Altman is now named and linked in the ChatGPT sentence (verified he's published via people-wall.json), and a one-line Thinking Game mention landed in the Nobel section with no viewership claim.
+- Trims: cut the third thesis restatement ("Four times, the same trade...") and compressed the Nobel section's Liechtenstein re-narration to one sentence.
+
+**Still open before publish:** the Mallaby book quotes (David Silver, "wartime") are still sourced via the LessWrong review's transcription rather than the book itself — that needs the fact-check pass the working notes already flagged. The two lint warns are pre-existing and benign (both comparatives are "looked like" instances; 2 of the 7 internal links are template-mandated).

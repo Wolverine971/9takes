@@ -4,12 +4,12 @@ meta_title: 'Was Freddie Mercury Shy? His Personality Type, Decoded'
 persona_title: 'Rock''s Great Pretender'
 description: 'Was Freddie Mercury shy? The man who ran Live Aid covered his mouth in candid photos. A sourced Enneagram Type 4 reading of rock''s Great Pretender.'
 author: 'DJ Wayne'
-date: '2026-08-28'
+date: '2026-08-29'
 loc: 'https://9takes.com/personality-analysis/Freddie-Mercury'
-lastmod: '2026-08-28'
+lastmod: '2026-08-29'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '4'
 type: ['musician', 'historical']
 person: 'Freddie-Mercury'

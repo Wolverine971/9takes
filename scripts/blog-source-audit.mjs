@@ -247,6 +247,10 @@ const OUTLETS = [
 	'The Tim Ferriss Show',
 	'Hulu',
 	'Netflix',
+	// Same class: lexfridman.com posts dated full-text transcripts of every
+	// episode, so a quote pulled verbatim from one is as checkable as a trade
+	// write-up (Demis-Hassabis pass, 2026-08-29).
+	'Lex Fridman',
 	// Checkable Chinese-language / China-coverage venues (Yang-Zhilin pass, 2026-07-23)
 	'Tencent Tech',
 	'Overseas Unicorn',
@@ -260,6 +264,10 @@ const OUTLETS = [
 	'Zhongguancun Forum',
 	'Yahoo Finance',
 	'CNBC',
+	// Tech/business outlet of record for the 2026 DeepMind step-down (the
+	// "struggled to get satisfaction" exclusive); non-dictionary name, safe as
+	// an unambiguous entry (Demis-Hassabis pass, 2026-08-29).
+	'Semafor',
 	// Creator-economy / streaming trade press (IShowSpeed pass, 2026-07-25).
 	// These are the outlets that actually cover this corpus's creator pages;
 	// without them every streamer quote grades untagged no matter how sourced.

@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-28T07:59:02Z",
+	"lastUpdated": "2026-08-29T06:10:02Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "demis-hassabis",
-			"displayName": "Demis Hassabis",
-			"type": null,
-			"priority": 41,
-			"priorityReason": "Nobel laureate running Google DeepMind through the AI race; frontier-builder niche (our strongest) with a deep interview record",
-			"estimatedTraffic": "medium",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "frontier-builder-cluster"
-		},
 		{
 			"name": "zach-bryan",
 			"displayName": "Zach Bryan",
@@ -1665,7 +1652,20 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "demis-hassabis",
+		"displayName": "Demis Hassabis",
+		"type": null,
+		"priority": 41,
+		"priorityReason": "Nobel laureate running Google DeepMind through the AI race; frontier-builder niche (our strongest) with a deep interview record",
+		"estimatedTraffic": "medium",
+		"searchVolume": "high",
+		"personaTitle": null,
+		"addedToQueue": "2026-07-18",
+		"retryCount": 0,
+		"strategicValue": "frontier-builder-cluster",
+		"startedAt": "2026-08-29T06:10:02Z"
+	},
 	"skipped": [
 		{
 			"name": "nara-smith",

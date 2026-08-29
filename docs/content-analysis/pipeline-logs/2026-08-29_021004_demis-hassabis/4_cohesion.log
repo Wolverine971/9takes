@@ -1,0 +1,36 @@
+## Cohesion Check Complete: Demis-Hassabis.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+Hassabis is a Type 5 whose defining move is converting every won position (chess, games, the CEO title) into uninterrupted time to think, a pattern planted by the Liechtenstein question at age eleven, which makes the August 2026 "demotion" his third deliberate walk-away rather than a coup.
+
+### Thread Map
+Intro (the puzzle: why give the crown away three times) → diagnosis (names the pattern) → Liechtenstein (origin, walk-away #1) → second workday (the asset the pattern protects) → Thiel party (knowledge as currency; the sale as another attention-buyback) → step-down (resolves the intro's puzzle via the exit timeline) → tanks on the lawn (the exception era, explicitly framed as such) → Nobel (the receipt for the Liechtenstein question) → solar chess computer (closes the loop on the epigraph and the opening scene).
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 9/10 | 1 |
+| Section Transitions | 8/10 | 1 |
+| Internal Paragraph Flow | 9/10 | 0 |
+
+### Changes Made (1 total)
+
+**Transition Fixes (1):**
+- [Liechtenstein] → [Second workday]: The old cut jumped thirty years, from "The plan, from Liechtenstein onward, was minds" straight to a present-day routine. Added one bridge sentence opening the section: "Thirty years on, the plan has a nightly time slot." It carries the "plan" keyword across the gap in the piece's own aphoristic voice, no banned language, no em-dash.
+
+Also appended a dated `COHESION CHECK` comment block after the second-pass notes, matching the file's pipeline-note convention.
+
+### What Was Preserved
+- All frontmatter, ledgers, Svelte-adjacent HTML (timeline, pull-quote, accordions), internal links, and the disclaimer
+- The Thiel-party and solar-chess-computer cold opens: intentional signature-scene openings, and fresh-eyes explicitly marked the Thiel autopsy preserve-as-is
+- The Nobel section's "official citation" cold open: the heading asks the question and the first line answers it before subverting it, which is a strong pairing; the Rabbit Hole accordion already cushions the cut from the tanks section
+- 6 of 7 section transitions untouched (the "There is one era that breaks the pattern" and "The pattern will, though" bridges are the strongest in the piece)
+
+**Verification:** blog-lint after the edit: 0 fail, same 2 pre-existing warns (comparative-contrast count, internal-link count), body at 3,939 words against the 4,500 ceiling.
+
+### Remaining Concerns
+Walk-away #2 (games industry → neuroscience PhD at twenty-eight) is billed in the intro as one of the three crown-hand-backs but is the only one never narrated: it lives in a timeline entry and the Elixir aside inside the Thiel section. Fixing it would mean adding new content, which is outside this pass's mandate. It reads as thin rather than broken, so it's DJ's call whether a two-sentence beat (Elixir's death, turning down studio jobs for the PhD) is worth the word budget; the note block in the file records this.

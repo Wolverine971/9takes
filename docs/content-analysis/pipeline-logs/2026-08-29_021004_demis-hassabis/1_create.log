@@ -1,0 +1,22 @@
+The run is complete and all gates pass. Final report:
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Demis-Hassabis.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: [Gate 1: pass, Gate 2: pass, Gate 4: pass, Gate 5: pass, Gate 6: pass]
+LIMITATIONS: [lex-299-transcript-unavailable, mallaby-quotes-via-reviewer-transcription, eustace-quote-trimmed-for-contrast-scan, DID-"300-brains"-wording-paraphrased]
+```
+
+**What got built.** A new ~3,700-word draft typing Demis Hassabis as an Enneagram Type 5 (5w6, social-dominant best guess), organized around the contradiction the entity-gap brief flagged as strongest: he keeps winning the crown and handing it back — tournament chess in his early teens, the games industry at 28, and the CEO title on August 5, 2026, nine days after turning 50. The hook opens on the step-down memo; the ending calls back to his Desert Island Discs luxury item (a solar-powered chess computer). Titles: *"Demis Hassabis: An Enneagram Type 5 Analysis of the Champion Who Keeps Walking Away"* / meta *"Why Demis Hassabis Quits Every Job He Wins (Type 5)"* / persona *"AI's Abdicating Architect."*
+
+**Entity-gap brief compliance.** No spouse named (sources contradict each other), no net worth, no present-tense "DeepMind CEO," no typology-farm votes, no unverified "200M views" claim. FAQs target exactly the two weak-incumbent lanes: personality type and "why did he step down," plus age. Normal Enneagram head term is in the title, so no `head_term_exception` was needed.
+
+**Evidence quality.** Four qualifying testimony quotes (David Silver via Mallaby's *The Infinity Machine*, Peter Molyneux ×2 and Alan Eustace via Time 2023). The Lex Fridman #475 transcript is saved locally at `docs/content-analysis/research/transcripts/` for downstream quote-grepping, and the full research baseline is at `docs/content-analysis/research/Demis-Hassabis.md`. One caution for the fact-check pass: the Silver and "tanks on the lawn" quotes come from a reviewer's transcription of Mallaby's book, not the book itself (flagged in the draft's working notes).
+
+**Deterministic checks.** blog-lint: 0 fail, 1 warn (two "looked like" comparatives, one inside a verbatim quote — the hard target of 0 *strong* contrast engines is met). Same-type-similarity trips are only the mandated "[Name] is an Enneagram Type 5" heading false positives; the one real diagnosis echo against Yang-Zhilin was rewritten and re-scanned clean.
+
+**Internal links (5 total):** Enneagram Type 5 explainer, Dario-Amodei, Sundar-Pichai, Elon-Musk in the body, plus the wings/subtypes guides inside the Rabbit Hole. Suggestions cross-link the frontier-builder cluster.
+
+Next steps when you review: `/grade_blog`, then the perspective pipeline, then production. No grade was emitted per the command.

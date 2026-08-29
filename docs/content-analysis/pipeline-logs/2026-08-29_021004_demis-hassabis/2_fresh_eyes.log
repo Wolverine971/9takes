@@ -1,0 +1,9 @@
+Fresh-eyes review complete on `src/blog/people/drafts/Demis-Hassabis.md`. The review block is appended at the bottom of the file, checked against the entity-gap packet at `docs/content-analysis/entity-gaps/Demis-Hassabis.md`. No body edits were made.
+
+The two biggest issues I flagged:
+
+1. **AlphaGo is missing from the main body.** The 2016 Lee Sedol match is the event most readers know Hassabis from, and it's the thematic payoff the piece keeps gesturing at — the board game he abandoned as a child, solved by the machine he built instead. Right now it exists only as David Silver's job title and one Rabbit Hole clause, leaving a hole in the career spine between the 2014 acquisition and the 2023 "wartime" era.
+
+2. **The sharpest skeptic fact is spent in a subordinate clause.** "The safety guarantees he extracted in 2014... dissolved inside Google years ago" deserves one or two sentences of cash-out (Google publicly dropped its no-weapons pledge in early 2025 — the exact condition he negotiated), instead of gliding past.
+
+Smaller flags: the "church hall" callback is never established in the Liechtenstein scene itself; the thesis gets three aphoristic restatements when two would do; Sam Altman is never named despite a whole section at war with OpenAI (and the packet wants that cluster cross-link); and Semafor is load-bearing in the body and FAQ but absent from the citations frontmatter. On the preserve side: the Thiel-party autopsy, the second-workday decode, and the solar-powered chess computer ending are the draft's strongest assets and shouldn't be touched in the next pass.

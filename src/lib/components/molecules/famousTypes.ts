@@ -218,7 +218,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'elton-john', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Rock\'s Sequined Loner', contentGrade: 8.6, types: ['musician'] },
 		{ name: 'emma-chamberlain', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Gen Z\'s Reluctant Aristocrat', contentGrade: 9, types: ['creator', 'lifestyleInfluencer', 'entrepreneur', 'business-creator', 'business-operator'] },
 		{ name: 'frank-ocean', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['musician'] },
-		{ name: 'freddie-mercury', link: false, hasImage: true, lastmod: '2026-08-28', personaTitle: 'Rock\'s Great Pretender', contentGrade: 9, types: ['musician', 'historical'] },
+		{ name: 'freddie-mercury', link: true, hasImage: true, lastmod: '2026-08-29', personaTitle: 'Rock\'s Great Pretender', contentGrade: 9, types: ['musician', 'historical'] },
 		{ name: 'frida-kahlo', link: true, hasImage: true, lastmod: '2026-04-06', personaTitle: 'Art\'s Unfinished Self-Portrait', contentGrade: 8.7, types: ['historical', 'historical-artist'] },
 		{ name: 'gracie-abrams', link: true, hasImage: true, lastmod: '2026-05-17', personaTitle: 'Pop\'s Hidden Heiress', contentGrade: 9, types: ['musician', 'celebrity', 'celebrity-image', 'music-crossover'] },
 		{ name: 'hozier', link: true, hasImage: true, lastmod: '2025-12-09', personaTitle: 'Ireland\'s Devotional Mourner', contentGrade: 8.3, types: ['musician', 'singer-songwriter'] },

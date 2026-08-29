@@ -10,6 +10,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-08-28 — Midweek pulse: answer activation improved; relationship formation, attribution, and distribution are now the constraints
+
+- Brief: [`docs/daily-briefs/2026-08-28_marketing-status.md`](../daily-briefs/2026-08-28_marketing-status.md). Manual off-cycle run after the wrapper's embedded Claude process returned `Not logged in`; production SQL, PostHog, repository state, OpenClaw state, and logs were inspected directly.
+- **Activation moved:** matched Monday-Friday comments **1 -> 4** and native gate conversion **3.3% -> 15.4%**. PostHog's dedicated question-page funnel moved from **11 -> 0 -> 0** to **7 -> 4 -> 4 (57.1%)**. The sample is small, but all four starts completed.
+- **The 08-24 findings were acted on that afternoon:** `fd61b4788` removed the contribution-based welcome exit and restored the affected enrollment, persisted the strategic reveal's type choice, fixed false self-referral, and wrapped the nightly pipeline in `caffeinate -i`. Dormant reactivation is now `draft`; zombies is `paused`.
+- **Identity began working:** two registrations reached PostHog and one profile supplied Type 9. The reveal persistence path has not yet received a qualifying post-change use.
+- **The leak moved to relationship formation:** all four first-time contributors saw the reply opt-in, but **0 focused, submitted, or subscribed**; the answers received 0 replies and none of the contributors returned. The registered contributor who answered exited welcome as `unsubscribed`, not through the removed guard.
+- **Traffic rose without a proven channel:** regular-human people **1,077 -> 1,289 (+19.7%)**, driven by direct/unknown (**504 -> 715**); organic people were flat/down (**562 -> 554**) and cross-week returners stayed **15 -> 15**. Direct/unknown question people rose 5 -> 24, but there is no UTM to identify the source.
+- **Content creation recovered, publishing did not:** four clean nightly drafts landed; disk published count **423 -> 429**. The people publisher has **29 consecutive errors**; today's eligible Ryan Holiday run failed because OpenClaw launched Node 26.5.0 against the repo's `<25` engine rule. Doctor reports Node 24 missing from the service PATH.
+- **Distribution remains inactive:** Instagram is 21 days dark with 0/10 approved and no execution cron; Quora is disabled and ~101 days dark; the GSC snapshot is 15 days stale. No external post, email, or campaign was fired during this audit.
+- **Next move:** redesign the post-answer reply/subscription promise first, then run one tagged question-distribution test. Repair the publisher runtime before the next morning run; decide whether Instagram is being restored or retired.
+
 ### 2026-08-24 — Unattended status brief: DJ shipped type capture 08-21 and the growth audit recorded it as unshipped; publisher autonomously dark 25 days; new host-sleep failure class; IG unscheduled for a 2nd week
 
 - Brief: [`docs/daily-briefs/2026-08-24_marketing-status.md`](../daily-briefs/2026-08-24_marketing-status.md). Covers 7 days.
@@ -286,6 +298,16 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-08-28 — Current blockers needing DJ / eng decision
+
+- **Post-answer relationship moment is now the earliest weak stage:** 4 reply-opt-in views produced 0 focus, submit, subscription, reply, or contributor return. Decide whether the promise should be reply notification, result delivery, or identity preservation; instrument one version and test it before adding more acquisition volume.
+- **Publisher runtime:** point the OpenClaw service at Node 24 (`/opt/homebrew/opt/node@24/bin`) before the next 06:00 publish. The job is at 29 consecutive errors and today proved an otherwise eligible draft cannot clear under Node 26.
+- **Attribution:** direct/unknown question traffic grew 5 -> 24 people and produced the four completions, but no UTM identifies it. Tag the next owned distribution link before interpreting this as a channel win.
+- **In-house funnel instrumentation:** 3 of 4 current contribution rows have `path IS NULL`; persist the originating path/surface so PostHog reconstruction is not required.
+- **Instagram decision is still unresolved:** no execution jobs, 21 days dark, 0/10 approved. Restore an executable cadence or formally retire the channel; reminders alone are not a workflow.
+- **Still open:** `enneagram_type_prompt` remains `draft`; perspective-review legacy backlog has no backfill path; GSC data is 15 days stale; Quora is disabled.
+- **Resolved since 08-24:** contribution no longer ejects welcome enrollments; reveal type capture persists; self-referral inflation is fixed; host-sleep protection is live; dormant/zombie reactivation sends are stopped.
+
 ### 2026-08-24 — Current blockers needing DJ / eng decision
 
 - **Activation return leg, and it is now the only unshipped half:** DJ shipped `/register` type capture 08-21, but `welcomeSequenceGuards.ts:8-15` still ejects contributors from the welcome sequence and `enneagram_type_prompt` (137 addressable untyped profiles) is still `draft`. Both are already built. One-line change plus a status flip.
@@ -371,6 +393,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-08-28](../daily-briefs/2026-08-28_marketing-status.md) — activation improved (matched comments 1 -> 4, gate 3.3% -> 15.4%; question-page funnel 7 -> 4 -> 4) and two registrations landed, one typed; the 08-24 welcome-exit, reveal persistence, attribution, sleep-protection, and reactivation fixes are live; the leak moved to post-answer relationship formation (4 opt-in views, 0 interactions/replies/returns); traffic +19.7% was direct/unknown while organic and returners were flat; four clean nightly drafts but publisher at 29 consecutive errors from a Node 26/engine mismatch; Instagram and Quora still dark.
 - [2026-08-24](../daily-briefs/2026-08-24_marketing-status.md) — growth did not compound (17 -> 3 comments, gate 12.0% -> 8.6%, 5th straight matured cohort at 0% return) and the return-leg defect was located in `welcomeSequenceGuards.ts`; **CORRECTION: DJ shipped `/register` + reveal type capture 08-21 (`e62c71c55`) and the audit recorded it as unshipped**, though the reveal half is measurement-only; auto-publisher autonomously dark 25 days (6 manual publishes, 417 -> 423, victoria-justice + keira-knightley finally closed); perspective backlog 89 -> 86 with zero backfill (all +9 dirs went to new drafts); image debt regressed 7 -> 12; NEW host-sleep failure class cost both 08-24 runs (~3h, nate-bargatze retry 2/3); Instagram unscheduled 2nd week with 15 overdue queue items; Quora 97 days dark.
 - [2026-08-03](../daily-briefs/2026-08-03_marketing-status.md) — growth reversed (contributions 14 → 4, gate 16.3% → 5.4%, contributor return corrects to 0%, 82% of registrants untyped); DJ broke the publish drought by hand (392 → 401 published, 9 manual with regrades) and it re-jammed in a day with image debt (54) overtaking stale grades (30); NEW create filename bug at `run-blog-pipeline.sh:109` burning retry 3/3 tonight; IG sourcing clean but zero comments posted 4+ sessions (agent escalated a fork) + new Claude weekly-cap failure mode; content-ops queue RED 0/10 approved; PA port blocked by NineChorus light-mode regression; Quora 76 days dark.
 - [2026-07-27](../daily-briefs/2026-07-27_marketing-status.md) — best contribution week ever (14 comments, 10 humans; gate 15-19%, homepage 18.8%) but 9/10 contributors evaporate unreached; publish jammed 7 days (0 since julia-fox; 92 drafts on v1 rubric, victoria-justice fastest unblock); create recovered to cap; IG session FIXED (dedicated profile live 07-26 PM) but replies still unposted; GSC refreshed 07-25; reactivation launched (50 enrolled, 0 clicks).
