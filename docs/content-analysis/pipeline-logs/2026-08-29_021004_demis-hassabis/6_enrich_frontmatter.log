@@ -1,0 +1,20 @@
+Frontmatter enrichment complete: **Demis-Hassabis**
+
+The draft arrived nearly fully enriched from the creator pass, so this was a verification-plus-top-up run rather than a full fill.
+
+**Fields filled (2 additive changes):**
+- `imdb_id: 'nm1514506'` — cross-checked via Wikidata P345 on Q3022141, applicable because of his documentary presence (*AlphaGo*, *The Thinking Game*)
+- `same_as` — extended from 2 to 4 entries: added his [IMDb page](https://www.imdb.com/name/nm1514506/) and the [Nobel Prize laureate facts page](https://www.nobelprize.org/prizes/chemistry/2024/hassabis/facts/) (URL confirmed via nobelprize.org site search; the direct fetch was bot-blocked with a 403, but the exact URL and title appear in Nobel's own index)
+
+**Fields already present (preserved, verified where identity-bearing):**
+- `wikipedia` and `wikidata_qid` — verified against Wikidata entity data: Q3022141 is "Demis Hassabis, British artificial intelligence researcher (born 1976)" with matching birth date and enwiki sitelink
+- `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords` (9 strong phrases), `citations` (16 URLs including Semafor, Time, Fortune, CNBC)
+- `faqs` — 3 substantive entries with real anchors already present; per strict idempotency I left them exactly as-is
+
+**FAQs (existing, untouched):**
+1. What is Demis Hassabis's personality type? → `#what-is-demis-hassabiss-personality-type`
+2. Why did Demis Hassabis step down as Google DeepMind CEO? → `#why-did-demis-hassabis-step-down-as-google-deepmind-ceo`
+3. How old is Demis Hassabis? → `#how-old-is-demis-hassabis`
+
+**Issues:**
+- None blocking. Body, comment ledgers, `lastmod`, and `production_pretext` untouched. The existing `production_pretext` blocker (RQ-01: verify Mallaby quotes against the printed book) remains the outstanding pre-publish gate, which belongs to the publish stage, not this pass.

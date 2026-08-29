@@ -13,6 +13,12 @@ Agent-directed work orders. One file per unit of work. A tasker is written so th
 - `enneagram-and-mental-illness` (287 clicks) is frozen: it may absorb other pages, never be absorbed, retitled, or reslugged.
 - Other agents and DJ edit this repo in parallel. Never `git stash`, never bulk-reset, never a wide operation that could clobber uncommitted work.
 
+## New workstream: The Social Reckoning and personalized reality
+
+| ID       | Tasker                                                                                                  | What it is                                                                                                                                                                                                                                                         | Status              |
+| -------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------- |
+| **T-37** | [Information diet campaign](T-37-social-reckoning-information-diet-campaign.md)                         | Turn DJ's insight about individualized feeds into one evidence-backed community article, a seven-day feed audit, and a focused social package timed to *The Social Reckoning*. The movie is the hook; personalized exposure and mistaken completeness are the evergreen idea. | Ready for execution |
+
 ---
 
 ## Current queue

@@ -1,0 +1,15 @@
+Revision pass complete on `src/blog/people/drafts/Demis-Hassabis.md`. The loop was triggered by the **grade (B 8.4 with the `sameness_originality_7` cap)** — the perspective gate had already passed (0 open P0s, 0 protected-hit regressions), so the perspective side only contributed one small polish the verifier had flagged as non-blocking.
+
+**Fixes applied**, mapped to the grader's feedback:
+
+- **Imperative drumbeat trimmed** (Originality item 2, the grader's "easiest wins"): cut "Sit with what that scene contains." and "Put the exits in one place:", and rewrote "Watch what he pays for. Watch what he refuses to pay for." and "Now run the contradiction through…" as declarative sentences. I kept "Look at the design of that ritual." because the jury's PROTECT-02 locks the entire second-workday section.
+- **Two section closers flattened** from aphoristic fragments to plain sentences (item 4): the diagnosis close and the tanks close ("In August 2026 he stopped spending it." is now folded into a normal compound sentence).
+- **Steve-martin rhyme broken** (TO REACH 3): the Rabbit Hole counter-typing line no longer uses the "a Three would have toured that victory" construction — same claim, new shape.
+- **"Worried for humanity" Lex quote now dated "in 2025"** (grader source-audit note) — verified against the local lex-475 transcript before adding.
+- **TL;DR bullet 2 tense anchored** ("he ran a second workday"), the exact one-word fix from the verifier's Remaining work #3.
+
+**Rejected, with reasons**: the grader's ask to break the "Here is the problem with the demotion story" reframe collides head-on with PROTECT-08 (the synthesis says "reword the scope, not the move"), and the return-to-Liechtenstein close it flagged is PROTECT-07 — the perspective verifier greps for both verbatim, so changing them would fail the gate. RQ-01 (verifying the two Mallaby quotes against the printed *Infinity Machine*) stays a `production_pretext` blocker; it needs the physical book and belongs to the publish decision.
+
+**Verification**: lint is clean — 0 fails, same 3 pre-existing warns (2 comparative contrasts, 7 internal links, 4445/4500 words). All 8 PROTECT items grep-verified verbatim after the edits, so the jury's hits are untouched.
+
+I wrote `revision-resolution.md` into the review directory (status `complete`; RQ-01 marked `research_needed`, P2-04 `needs_human` for the template owner) and replaced the draft's revision-note block. Since this pass edited reader-visible text, the pipeline needs to rerun `/blog_perspective_verify_people` against the new draft, and it will clear the consumed grade sidecar and re-grade — I have not touched `content_quality` or `lastmod`.

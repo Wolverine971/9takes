@@ -1,0 +1,12 @@
+**Verification: pass.** Open P0s: **0**. Protected-hit regressions: **0**.
+
+Output written to `docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004/verification-final.md`, with current reader-visible hash `18fd8579a437a04d1e46850b3599a5f65e5e079dd5109a0a1692c666fa32a9f` → (exact value in the artifact: `18fd8579…ffa32a9f`) computed via the repository utility.
+
+What this pass checked, since this is the reverify after the grade-driven revision:
+
+- **All six P0s still resolved** — the Liechtenstein his-telling framing, the restored Bullfrog competition beat, the honest exit-#2 scoping, the Zuckerberg sourced ground, the dropped "estranged," and the reworked meta title all survive the revision untouched.
+- **All twelve accepted P1s remain completed**, including the TL;DR bullet-2 tense fix the initial verifier flagged (now "he ran"). The P1-08 H2-tense sub-decision stays deferred-with-reason.
+- **All eight PROTECT items grep-verified verbatim.** The revision's seven edits (drumbeat cuts, flattened closers, the rhyme-breaking counter-typing reword, the "in 2025" dating) all landed adjacent to but outside protected sentences.
+- **No unsourced new facts** — I diffed the reviewed snapshot against the live draft hunk-by-hunk; every change traces to a resolution log. The one added assertion ("he told Lex Fridman in 2025") I verified directly against the local lex-475 transcript.
+
+Remaining non-blocking items carry forward unchanged: RQ-01 (Mallaby book check) stays a registered `production_pretext` blocker owned by the publish decision, RQ-02 (Althöfer full text) is a refresh-cycle item, and P2-04 is logged for the template owner. The deterministic gate script decides finalization from here.

@@ -1,0 +1,18 @@
+## Grading Complete — Demis-Hassabis
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Demis-Hassabis | 9 | 7 | 9 | 9 | 8 | 9 | 8.4 | B |
+
+(Weighted: `(9×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. Discoverability ≥ 7, so no gate cap.)
+
+### Key Observations
+
+- **This is a top-of-band B — "very good pipeline output" per the calibration anchors — and one cap away from an A.** The draft's own substance is A-grade: the abdication thesis (chess → games industry → CEO title as one lifelong trade) is genuinely fresh, the Thiel-party sixty-second autopsy is the best kind of bespoke section, critic pressure is faced head-on ("Concede all of it"), and all three emotional-interior checks pass with quotable lines. Sourcing discipline is the cleanest I've seen from this pipeline: 8/8 load-bearing quotes inline-tagged, hedges exactly where the ground is secondhand.
+- **The cap that cost it: cross-draft sameness (Originality 9 → 7).** Compared against the three most recently graded drafts (Freddie-Mercury, Tate-McRae, Marcus-Aurelius), four house moves recur near-verbatim: the epigraph→dated-cold-open→"Here is the problem with the demotion story" reframe furniture, reader-command imperatives ("Sit with what that scene contains," "Watch what he pays for" ≈ Tate-McRae's "Watch what she protects"), the return-to-the-wound closing (back to Liechtenstein + the "screaming" epigraph), and aphoristic closers on nearly every section. The same fingerprint holds Writing at 8. Also flagged: the Rabbit Hole's "a Three would have toured that victory for a decade" near-echoes steve-martin's "a Three would have monetized and extended the peak" — and steve-martin already owns a "Type 5 walks away at the peak" engine in this corpus.
+- **Pre-publish items** (in the sidecar): RQ-01 stands — both Mallaby marquee quotes still ride the LessWrong transcription, correctly listed as a production blocker; the "worried for humanity" Lex quote needs its year inline; and note the source-audit script mislabels the Molyneux quotes' outlet (script quirk, body attribution is correct).
+- Context check on my own calibration: the three most recent grades in the corpus are 8.6–9.0, which is the failed-distribution pattern the rubric warns about. This 8.4 is scored against the Matt-Smith B anchor, not against those.
+
+Grades written to the draft's frontmatter; full feedback at `docs/content-analysis/grades/Demis-Hassabis.review.md`.
+
+**Total graded this session: 1**

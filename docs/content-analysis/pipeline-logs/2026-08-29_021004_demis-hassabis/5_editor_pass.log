@@ -1,0 +1,20 @@
+Done. The editor pass on the Demis Hassabis draft is complete, with the full perspective-jury worklist applied and the resolution artifact written.
+
+**What was fixed (all six P0s):**
+- **Liechtenstein origin scene** now runs inside Hassabis's own telling ("Hassabis has told this story himself, in his introduction to the chess book *Game Changer* and on BBC radio…"), with the epiphany restaged to the next day per his attested account. The contested particulars (age eleven, "veteran Danish master") survive as his memory, not as checked history.
+- **Bullfrog entry** restored to the canonical version: second place in the win-a-job competition, a week's work experience converted into a job, elf quote staged at the office, bus dropped.
+- **Peak-claim overreach** scoped honestly: the intro now says he "walked out of an arena he could have kept winning in," names the 2005 exit as coming from a freshly dead studio, and "Almost nobody does the second three times" became "done it twice, with a stranger exit in between."
+- **Zuckerberg motive gloss** matched to the sourced ground; **"estranged"** dropped (it came from publisher marketing copy, not the book); **meta title** reworked to "Why Demis Hassabis Keeps Walking Away From the Top (Type 5)".
+
+**All 12 accepted P1s and 3 of 4 P2s** also landed: the retained-power counterargument is now answered in the Rabbit Hole with the 2005–2009 status trough, the arrow double-duty is resolved, his own "It's not about really beating the other person" quote anchors the Type 3 pressure test, the seven missing Elixir years are narrated, AlphaZero completes the chess circle, the 2017 ICO ruling and the pledge-repeal rationale sharpen the critic section, and four durability anchors (including the new "At fifty, he has finally cleared his calendar to listen" close) future-proof the piece.
+
+**Exit checks:** blog-lint passes with **0 fail** — 0 strong contrast engines, 0 em-dashes, no banned phrases, 4430 words under the 4500 ceiling. The 2 remaining comparatives are pre-existing and previously adjudicated (one is inside a verbatim quote). All eight protected passages verified verbatim by grep.
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004/editor-resolution.md`
+
+**Still open before publish:**
+- **RQ-01 (now a listed `production_pretext` blocker):** the "tanks on the lawn" pull quote and the Silver "Jedi-level charisma" quote still ride one reviewer's transcription of Mallaby's book — someone needs the printed *Infinity Machine* to verify them, or the attributions must be visibly softened at publish with the risk recorded.
+- **RQ-02:** the Althöfer full text stays 403-walled at Sage (search snippets confirm the Pieper-Emden/1989 details); the attribution repair is safe either way, so this is a refresh-cycle item.
+- The Thiel-section beats are hedged ("By Hassabis's account," "about £1.4 million") since CNBC and its syndications 403'd — unhedge if a fact-check pins them.
+
+The draft is production-ready pending the Mallaby book check and the independent `/blog_perspective_verify_people` run.

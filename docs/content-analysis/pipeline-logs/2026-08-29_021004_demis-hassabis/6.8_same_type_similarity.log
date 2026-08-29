@@ -1,0 +1,100 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Demis-Hassabis (Type 5)
+/Users/djwayne/9takes/src/blog/people/drafts/Demis-Hassabis.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 45
+Comparison set (last 8 other Type-5 drafts by date):
+  - Liang-Wenfeng  (2026-08-24, 58 units)
+  - Yang-Zhilin  (2026-08-22, 46 units)
+  - Carl-Jung  (2026-08-13, 55 units)
+  - Christopher-Nolan  (2026-08-12, 43 units)
+  - pinkpantheress  (2026-07-19, 25 units)
+  - warren-buffett  (2026-07-08, 30 units)
+  - steve-martin  (2026-07-04, 38 units)
+  - leonardo-da-vinci  (2026-07-01, 18 units)
+
+Noise floor over 14085 unit pairs:  median=0  p90=0  p99=0.007  max=1
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 1.000   Demis-Hassabis  <->  Yang-Zhilin
+   TARGET [diagnosis] Demis Hassabis is an Enneagram Type 5
+   OTHER  [diagnosis] Yang Zhilin is an Enneagram Type 5
+
+score 0.121   Demis-Hassabis  <->  Liang-Wenfeng
+   TARGET [diagnosis] Semafor's reporting on the August 2026 move found no push
+   OTHER  [diagnosis] The August 2026 price rise
+
+score 0.060   Demis-Hassabis  <->  Liang-Wenfeng
+   TARGET [diagnosis] Demis Hassabis is an Enneagram Type 5
+   OTHER  [diagnosis] The type that fits Liang Wenfeng is the Enneagram Type 5
+
+score 0.043   Demis-Hassabis  <->  warren-buffett
+   TARGET [diagnosis] Demis Hassabis is an Enneagram Type 5
+   OTHER  [diagnosis] Warren Buffett is the pattern made flesh. - The scarcity economy made literal.
+
+
+Most similar drafts (max unit-pair score):
+  1.000 ######################################## Yang-Zhilin
+  0.156 ######               steve-martin
+  0.121 #####                Liang-Wenfeng
+  0.043 ##                   warren-buffett
+  0.031 #                    Carl-Jung
+  0.031 #                    leonardo-da-vinci
+  0.030 #                    Christopher-Nolan
+  0.026 #                    pinkpantheress
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 1.000   Demis-Hassabis  <->  Yang-Zhilin
+   TARGET [diagnosis] Demis Hassabis is an Enneagram Type 5
+   OTHER  [diagnosis] Yang Zhilin is an Enneagram Type 5
+
+score 0.156   Demis-Hassabis  <->  steve-martin
+   TARGET [counter-typing] a Three would have toured that victory for a decade
+   OTHER  [counter-typing] a Three would have monetized and extended the peak
+
+score 0.121   Demis-Hassabis  <->  Liang-Wenfeng
+   TARGET [diagnosis] Semafor's reporting on the August 2026 move found no push
+   OTHER  [diagnosis] The August 2026 price rise
+
+score 0.100   Demis-Hassabis  <->  steve-martin
+   TARGET [diagnosis] because his life makes the argument better than the jargon does.
+   OTHER  [diagnosis] understand it better than the people performing it.
+
+score 0.060   Demis-Hassabis  <->  Liang-Wenfeng
+   TARGET [diagnosis] Demis Hassabis is an Enneagram Type 5
+   OTHER  [diagnosis] The type that fits Liang Wenfeng is the Enneagram Type 5
+
+score 0.043   Demis-Hassabis  <->  warren-buffett
+   TARGET [diagnosis] Demis Hassabis is an Enneagram Type 5
+   OTHER  [diagnosis] Warren Buffett is the pattern made flesh. - The scarcity economy made literal.
+
+score 0.039   Demis-Hassabis  <->  steve-martin
+   TARGET [counter-typing] every walk-away eventually landed him higher
+   OTHER  [diagnosis] Steve Martin walked away from the largest applause in America
+
+score 0.036   Demis-Hassabis  <->  Yang-Zhilin
+   TARGET [diagnosis] "He is an incredibly competitive person." Hassabis has his own account of what the competing is for.
+   OTHER  [diagnosis] Yang Zhilin is an Enneagram Type 5
+
+score 0.035   Demis-Hassabis  <->  Liang-Wenfeng
+   TARGET [diagnosis] The tiebreaker is what he does after the scoreboard settles.
+   OTHER  [diagnosis] What makes him a distinctive Five is what he did with the wealth.
+
+score 0.033   Demis-Hassabis  <->  steve-martin
+   TARGET [counter-typing] every walk-away eventually landed him higher
+   OTHER  [diagnosis] then often walk away from it once there is nothing left to understand.
+
+score 0.031   Demis-Hassabis  <->  Carl-Jung
+   TARGET [counter-typing] The answer to the second is 2005 to 2009
+   OTHER  [diagnosis] The second pillar is how he treated knowledge itself.
+
+score 0.031   Demis-Hassabis  <->  leonardo-da-vinci
+   TARGET [diagnosis] The tiebreaker is what he does after the scoreboard settles.
+   OTHER  [diagnosis] From his retreat after the sodomy accusation
+
+------------------------------------------------------------------------------
+Top pair scores 1 vs median 0  (~∞x the noise floor).

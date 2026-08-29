@@ -1,0 +1,20 @@
+## Grading Complete — Demis-Hassabis (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Demis-Hassabis | 9 | 8.5 | 9 | 9 | 8.5 | 9 | 8.8 | B+ |
+
+(Weighted: `(9×1.5 + 8.5×1.5 + 9×1.5 + 9 + 8.5 + 9×0.5) / 7 = 8.8`. Discoverability ≥ 7, no gate.)
+
+This was a supervised regrade: the prior grade was B 8.4 with the Originality-7 sameness cap, the revision pass addressed it, and the regrade lands at 8.8 — recorded as `first_overall: 8.4 / regrade_overall: 8.8 / delta: 0.4` in the frontmatter, with the sidecar at `docs/content-analysis/grades/Demis-Hassabis.review.md`.
+
+### Key observations
+
+- **The cap lifted on merit, not on the revision notes' say-so.** I re-ran the sameness check against the three most recently graded drafts (Freddie-Mercury, Tate-McRae, Marcus-Aurelius): no "The tell:" bullet, no corpus-stat sentence, and the empathy turn runs on Hassabis's own wound-vocabulary of *waste* rather than the house armor/scar-tissue grammar. Only two house-shaped moves remain (the reframe twist and the return-to-wound close), both jury-protected — under the 3+ threshold.
+- **Evidence is the draft's spine**: 8/8 load-bearing quotes inline and dated across seven outlets, testimony from Molyneux, Silver, and Eustace, and the critic pressure (demotion reading, ICO ruling, weapons-pledge co-sign) faced at full strength. The one real risk is that the two Mallaby marquee quotes — including the "tanks on the lawn" centerpiece — still ride the LessWrong transcription of the book. That's already the RQ-01 production blocker and it's what keeps this at B+ rather than A.
+- **Signature sections are genuinely un-transplantable**: the Thiel one-minute pitch autopsy and the 1 a.m. second-workday section both pass the swap test cold, and the solar-powered-chess-computer close is earned.
+- **Path to A (in the sidecar)**: verify RQ-01 against the printed book, convert two of the four remaining scene-direction imperatives, and split the dense critic paragraph in the tanks section. The protected reframe and closing should stay untouched.
+
+One note for the tooling backlog: `blog-source-audit.mjs` mis-attributed the two Time-2023 Molyneux quotes to "Lex Fridman" in its output — the body attributions are correct, so it's an extraction artifact, flagged in the sidecar so the next pass doesn't chase it.
+
+**Total graded this session: 1**

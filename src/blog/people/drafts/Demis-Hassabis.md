@@ -1,6 +1,6 @@
 ---
 title: 'Demis Hassabis: An Enneagram Type 5 Analysis of the Champion Who Keeps Walking Away'
-meta_title: 'Why Demis Hassabis Quits Every Job He Wins (Type 5)'
+meta_title: 'Why Demis Hassabis Keeps Walking Away From the Top (Type 5)'
 persona_title: "AI's Abdicating Architect"
 description: 'Nine days after turning 50, Demis Hassabis gave away the most coveted CEO title in AI. The Enneagram Type 5 pattern behind his career of walking away.'
 author: 'DJ Wayne'
@@ -16,6 +16,7 @@ person: 'Demis-Hassabis'
 suggestions: ['Dario-Amodei', 'Sam-Altman', 'Elon-Musk', 'Sundar-Pichai']
 wikipedia: 'https://en.wikipedia.org/wiki/Demis_Hassabis'
 wikidata_qid: 'Q3022141'
+imdb_id: 'nm1514506'
 twitter: 'demishassabis'
 instagram: ''
 tiktok: ''
@@ -46,6 +47,8 @@ keywords:
 same_as:
   - 'https://en.wikipedia.org/wiki/Demis_Hassabis'
   - 'https://www.wikidata.org/wiki/Q3022141'
+  - 'https://www.imdb.com/name/nm1514506/'
+  - 'https://www.nobelprize.org/prizes/chemistry/2024/hassabis/facts/'
 citations:
   - 'https://en.wikipedia.org/wiki/Demis_Hassabis'
   - 'https://lexfridman.com/demis-hassabis-2-transcript/'
@@ -59,12 +62,15 @@ citations:
   - 'https://www.penguinrandomhouse.com/books/752231/the-infinity-machine-by-sebastian-mallaby/'
   - 'https://www.lesswrong.com/posts/mKvwpTG2hq2ktcXRd/book-review-the-infinity-machine'
   - 'https://www.qebarnet.co.uk/life-is-so-rich-demis-hassabis-on-desert-island-discs/'
+  - 'https://www.sciencefocus.com/future-technology/far-from-being-just-a-game-chess-has-always-been-a-part-of-me'
+  - 'https://www.cnbc.com/2017/07/03/google-deepmind-nhs-deal-health-data-illegal-ico-says.html'
+  - 'https://www.france24.com/en/live-news/20250205-google-pledge-against-using-ai-for-weapons-vanishes'
 faqs:
   - question: "What is Demis Hassabis's personality type?"
     answer: 'Demis Hassabis reads as an Enneagram Type 5, the Investigator. The evidence is a lifelong pattern of converting every win into more room to think: he left tournament chess at master standard, left the games industry for a neuroscience PhD, sold DeepMind partly to escape fundraising, and in August 2026 gave up the CEO title to become a full-time scientist again.'
     anchor: 'what-is-demis-hassabiss-personality-type'
   - question: 'Why did Demis Hassabis step down as Google DeepMind CEO?'
-    answer: "On August 5, 2026, Hassabis became chair of Google DeepMind and chief scientist of Alphabet, handing daily operations to Koray Kavukcuoglu. His memo said AGI is 'close at hand' and that he wanted 'the time and space to focus on the big picture.' Semafor reported he was not pushed out but had struggled to enjoy the job's business duties. He still leads Isomorphic Labs."
+    answer: "On August 5, 2026, Hassabis became chair of Google DeepMind and chief scientist of Alphabet, handing daily operations to Koray Kavukcuoglu. His memo said AGI is 'close at hand' and that he wanted 'the time and space to focus on the big picture.' Semafor reported he was not pushed out but had struggled to get satisfaction from the job's business side. He kept his other role, CEO of Isomorphic Labs."
     anchor: 'why-did-demis-hassabis-step-down-as-google-deepmind-ceo'
   - question: 'How old is Demis Hassabis?'
     answer: "Demis Hassabis was born on July 27, 1976, in London, England. He turned 50 in July 2026, nine days before announcing he would step down as Google DeepMind's CEO."
@@ -80,8 +86,27 @@ production_pretext:
     - db_verify
     - regenerate_famous_types
     - image_check
-  blockers: []
+  blockers:
+    - 'RQ-01: verify the two Mallaby marquee quotes (wartime pull quote, Silver charisma passage), the sale motive, the Facebook-rejection ground, and the wartime staging against the printed Infinity Machine before publish; all currently ride the LessWrong review transcription'
 path: src/blog/people/drafts/Demis-Hassabis.md
+content_quality:
+  hook: 9
+  enneagram: 9
+  evidence: 9
+  writing: 8
+  originality: 8
+  discoverability: 9
+  overall: 8.6
+  first_overall: 8.8
+  regrade_overall: 8.6
+  grade_stability_delta: 0.2
+  letter: B+
+  rubric_version: 2
+  caps_applied: []
+  confidence: high
+  anchor: 'Matt-Smith (B, 2026-06-28)'
+  needs_review: false
+  graded_at: '2026-08-29'
 ---
 
 <!-- TESTIMONY LEDGER
@@ -110,11 +135,11 @@ Locations: "Why did Demis Hassabis step down as Google DeepMind CEO?" (the "Five
 -->
 
 <!-- FORMULA FINGERPRINT LEDGER
-Contrast-pair sentence engines: 0 strong / 2 comparative — from scripts/blog-quality-report.mjs 2026-08-29 (both comparatives are "looked like" instances: one inside the verbatim Molyneux quote, one a plain narrative clause; no rewrite needed at target 0 STRONG)
+Contrast-pair sentence engines: 0 strong / 2 comparative — re-verified after editor pass 2026-08-29 (both comparatives are "looked like" instances: one inside the verbatim Molyneux quote, one a plain narrative clause; no rewrite needed at target 0 STRONG)
 Counter-typing ladders in main body: 0 — the Type 3 pressure test is a single paragraph inside the diagnosis section; all other alternate-type discussion lives in the Rabbit Hole
 Same-type similarity scan: TRIPPED on mandated-template pairs only — "[Name] is an Enneagram Type 5" H3 sentence vs Yang-Zhilin (1.000), Liang-Wenfeng (0.063), warren-buffett (0.043), which the standing rule classifies as false positives; the one real echo ("treats understanding as..." vs Yang-Zhilin, 0.099) was rewritten and re-scanned. Nearest neighbor Liang-Wenfeng differentiated by engine (abdication/time-purchase vs. restraint/scarcity) and subtype argument (so/sp vs. sp/so)
 Bespoke section form: "One minute at Peter Thiel's party" — a beat-by-beat scene autopsy of a sixty-second pitch, built from his own telling; collapses if transplanted
-Critic-pressure anchor: the August 2026 demotion reading (Time/Fortune/Gizmodo: Gemini delays, Jeff Dean and John Jumper departures, morale) in "Why did Demis Hassabis step down"; plus Paris Marx's techno-solutionism critique (Time, 2023) and the February 2025 weapons-pledge repeal he co-signed (CNBC) in "The tanks on the lawn"
+Critic-pressure anchor: the August 2026 demotion reading (Time/Fortune/Gizmodo: Gemini delays, Jeff Dean and John Jumper departures, morale) in "Why did Demis Hassabis step down"; plus Paris Marx's techno-solutionism critique (Time, 2023), the July 2017 ICO/Royal Free ruling (CNBC/Digital Health; enforcement target was the NHS trust as data controller, phrased accordingly), and the February 2025 weapons-pledge repeal he co-signed with its stated democracies-should-lead rationale (CNBC/France24) in "The tanks on the lawn"
 Empathy turn: the doomsaying-while-racing charge, reframed through his own wound-vocabulary of waste ("Are we wasting our minds?", "I would be really worried for humanity... if I didn't know something like AI was coming down the line") — in "The tanks on the lawn"
 Current-tense anchor: the 2026-08-05 role change, the Mallaby biography (March 2026), and the Fortune work-routine interview (Feb 2026)
 Interior beat: inner-thought panel in "The eight-hour game" (Liechtenstein hall, age 11)
@@ -131,21 +156,21 @@ Ending swap-test: pass — solar-powered chess computer, Liechtenstein callback,
 
 > "I've always had this sort of screaming at me in my face and it's getting louder. It's like, what is going on here?" — Demis Hassabis, Lex Fridman Podcast, 2025
 
-<p class="firstLetter">On August 5, 2026, nine days after his fiftieth birthday, Demis Hassabis sent a memo giving away one of the most coveted jobs on earth. He kept the Nobel Prize. He kept the knighthood. The chief executive title at Google DeepMind, the lab he had spent sixteen years building into the most decorated research operation in AI, went to his longtime lieutenant Koray Kavukcuoglu. Hassabis told staff that AGI is "close at hand" and that he was changing roles "so that I have the time and space to focus on the big picture," Time reported on August 6, 2026.</p>
+<p class="firstLetter">On August 5, 2026, nine days after his fiftieth birthday, Demis Hassabis sent a memo giving away one of the most coveted jobs on earth. He kept the Nobel Prize. He kept the knighthood. The chief executive title at Google DeepMind, the lab he had spent sixteen years building into the most decorated research operation in AI, went to his longtime lieutenant Koray Kavukcuoglu. Hassabis told staff that AGI, artificial general intelligence, the machine that could match human thinking across the board, is "close at hand" and that he was changing roles "so that I have the time and space to focus on the big picture," Time reported on August 6, 2026.</p>
 
 The press mostly read it as a demotion in slow motion. Google had gone months without a new flagship model while rivals shipped. Senior talent was leaving. The man replacing him would carry a smaller title and report up to Google's CEO.
 
-Here is the problem with the demotion story: this is at least the third time Hassabis has walked away from the top of something. In his early teens, ranked among the best chess players of his age in the world, he stepped off the professional chess track. At twenty-eight, after co-creating a multimillion-selling game and running his own studio, he left the industry for a seat in a neuroscience lab. Now, at fifty, he has traded the biggest title in AI for the right to be a scientist again.
+Here is the problem with the demotion story: this is at least the third time Hassabis has walked out of an arena he could have kept winning in. In his early teens, ranked among the best chess players of his age in the world, he stepped off the professional chess track. At twenty-eight, with a multimillion-selling game on his resume and his own studio freshly dead, he left the industry for a seat in a neuroscience lab. Now, at fifty, he has traded the biggest title in AI for the right to be a scientist again.
 
-Win the crown, hand back the crown. Most brilliant careers manage the first. Almost nobody does the second three times. Once you see why he does it, the rest of his life snaps into focus.
+Win the crown, hand back the crown. Most brilliant careers manage the first. Almost nobody does the second, and he has done it twice, with a stranger exit in between. Once you see why he does it, the rest of his life snaps into focus.
 
 <details>
 <summary class="accordion">TL;DR: Why Demis Hassabis is an Enneagram Type 5</summary>
 <div class="panel">
 <ul>
-<li><b>The three walk-aways:</b> tournament chess in his early teens, the games industry at twenty-eight, the CEO title at fifty. Each exit came near a peak, and each one bought the same thing.</li>
-<li><b>The 1 a.m. shift:</b> for roughly a decade he has run a second workday from late evening to 4 a.m. What he does in those hours explains him better than any org chart.</li>
-<li><b>The Liechtenstein question:</b> an eight-hour loss at age eleven planted a question about wasted brainpower that still runs his career.</li>
+<li><b>The three walk-aways:</b> tournament chess in his early teens, the games industry at twenty-eight, the CEO title at fifty. Two came at a summit, one came out of a failure, and all three bought the same thing.</li>
+<li><b>The 1 a.m. shift:</b> for roughly a decade he ran a second workday from late evening to 4 a.m. What he does in those hours explains him better than any org chart.</li>
+<li><b>The Liechtenstein question:</b> an eight-hour tournament loss at eleven, as Hassabis tells the story, planted a question about wasted brainpower that still runs his career.</li>
 <li><b>The wartime exception:</b> there was one stretch where he acted against his own grain. He named it "wartime," and it cost him.</li>
 <li><b>What the Nobel was for:</b> the 2024 prize is the receipt for a question he carried out of a tournament hall at eleven.</li>
 </ul>
@@ -162,31 +187,33 @@ He has told us his conversion rate himself. Chess, which he started at four, was
 
 DeepMind's founding slogan makes the pattern explicit: step one, solve intelligence; step two, use it to solve everything else. That is a Five's life strategy dressed as a business plan. Acquire the master key first. Every door after that opens for free.
 
-A fair skeptic reads the same resume and sees a Type 3 achievement machine. Chess master at thirteen with an Elo rating of 2300, five Mind Sports Olympiad Pentamind world titles, a Nobel, a knighthood, and Peter Molyneux, who told Time in 2023: "He is an incredibly competitive person." The tiebreaker is what he does after the scoreboard settles. An achiever cashes a win in public and climbs to the next visible rung. Hassabis cashes his wins at 1 a.m., alone, reading research papers, and when a title starts taxing those hours he gives the title away. Semafor's reporting on the August 2026 move found no push; it found a man who "struggled to get satisfaction" from the business half of his own job.
+A fair skeptic reads the same resume and sees a Type 3 achievement machine. Chess master at thirteen with an Elo rating of 2300, five Mind Sports Olympiad Pentamind world titles, a Nobel, a knighthood, and his first boss, the game-design legend Peter Molyneux, telling Time in 2023: "He is an incredibly competitive person." Hassabis has his own account of what the competing is for. "It's not about really beating the other person," he told Lex Fridman in 2025. "It's about maximizing your own potential." He added, in the same breath, that of course you want to win. The tiebreaker is what he does after the scoreboard settles. An achiever cashes a win in public and climbs to the next visible rung. Hassabis cashes his wins at 1 a.m., alone, reading research papers, and when a title starts taxing those hours he gives the title away. Semafor's reporting on the August 2026 move found no push; it found a man who "struggled to get satisfaction" from the business half of his own job.
 
-The rest of this analysis mostly stays out of Enneagram vocabulary, because his life makes the argument better than the jargon does. Watch what he pays for. Watch what he refuses to pay for. The type is just the name for the pattern.
+The rest of this analysis mostly stays out of Enneagram vocabulary, because his life makes the argument better than the jargon does. The evidence is in what he pays for and what he refuses to pay for; the type is just the name for the pattern.
 
 ## The eight-hour game that ended Demis Hassabis's chess career
 
-Sometime around 1987, at a big international tournament in Liechtenstein, an eleven-year-old from North London sat across from a veteran Danish master for roughly eight hours. He fought the game to its edge, misjudged the ending, and resigned. His opponent then reached over and showed him the move that would have saved it.
+Hassabis has told this story himself, in his introduction to the chess book _Game Changer_ and on BBC radio, and it goes like this. At a big international tournament in Liechtenstein in the late 1980s, an eleven-year-old from North London sat across from a veteran Danish master for roughly eight hours. He fought the game to its edge, misjudged the ending, and resigned. His opponent then reached over and showed him the move that would have saved it.
 
-Hassabis walked out of the hall. Around him, hundreds of the strongest young players in Europe were bent over their boards, entire days of elite concentration pouring into sixty-four squares. Decades later, on BBC Radio's Desert Island Discs, he compressed what hit him into one question: "Are we wasting our minds?" He has since sharpened the thought further: aim that much brainpower at something real and you might cure a disease.
+The epiphany, in his telling, came the day after the loss. Back in the hall, he watched hundreds of the strongest young players in Europe bend over their boards, entire days of elite concentration pouring into sixty-four squares. Decades later, on BBC Radio's Desert Island Discs, he compressed what hit him into one question: "Are we wasting our minds?" He has since sharpened the thought further: aim that much brainpower at something real and you might cure a disease.
 
-<p class="inner-thought">Eight hours. I lost an eight-hour game I could have drawn. And every person in this hall is doing the same thing tomorrow. What else could all of this thinking do?</p>
+<p class="inner-thought">Eight hours. I lost an eight-hour game I could have drawn. And every person in this hall is back at it today. What else could all of this thinking do?</p>
 
 To feel how strange that reaction is, remember what chess was to him. He learned the game at four by watching his father and uncle play. At eight he spent his tournament winnings on a ZX Spectrum and taught himself to program it. He captained England junior teams. Chess was the family's one point of contact with his talent, because in most other ways he was the odd one out: his Greek Cypriot father was an aspiring singer-songwriter who at one point sold toys, his Chinese Singaporean mother worked in retail, and neither had the slightest interest in computers. He grew up, in his word, "bohemian," and credits his parents with one liberating lesson: "you don't have to be constricted by social norms."
 
 So the boy who was best in the room at the thing his family could see chose to leave that arena, on the grounds that the arena itself was too small for the minds inside it. He kept playing games his whole life, and kept winning them, taking the Pentamind world title five times as an adult. Games stayed his laboratory. Chess as a career died in Liechtenstein.
 
-By fifteen he had finished his A-levels two years early and talked his way into Bullfrog Productions, where Peter Molyneux met him on the bus to the company Christmas party. "He looked like an elf from Lord of the Rings," Molyneux told Time in 2023. "This little slender kid came in, who you would probably just walk past in the street and not even notice. But there was a sparkle in his eyes: the sparkle of intelligence." At seventeen, that kid co-designed and lead-programmed Theme Park, which sold several million copies. Then he left for Cambridge, because the plan had never been games. The plan, from Liechtenstein onward, was minds.
+By fifteen he had finished his A-levels two years early and entered a magazine's win-a-job competition at Bullfrog Productions. He came second. The prize was a week of work experience, and he converted the week into a job. Bullfrog cofounder Peter Molyneux remembers the day the new kid arrived at the office. "He looked like an elf from Lord of the Rings," he told Time in 2023. "This little slender kid came in, who you would probably just walk past in the street and not even notice. But there was a sparkle in his eyes: the sparkle of intelligence." At seventeen, that kid co-designed and lead-programmed Theme Park, which sold several million copies.
+
+Then he left for Cambridge, and after graduating went straight back into games anyway, founding his own studio, Elixir, in 1998. Seven years later it was gone. The games sold below their ambitions, and when Elixir closed in April 2005 his exit statement blamed an industry with "no room for small independent developers wanting to work on innovative and original ideas." He was twenty-eight, a proven hitmaker with studio doors still open to him, and he walked past all of them into a neuroscience lab. The plan, from Liechtenstein onward, was minds.
 
 ## Why Demis Hassabis starts a second workday at 10 p.m.
 
-Thirty years on, the plan has a nightly time slot. For about a decade, across the busiest stretch of his life, Hassabis has run two workdays. The first looks like any executive's: office around 10 a.m., meetings, decisions. Then home, dinner with his family, kids to bed. Around 10:30 or 11 p.m. the second day starts, and it runs until 3 or 4 in the morning. "I come alive at about 1 a.m.," he told Fortune in February 2026. Those hours go to reading papers, thinking about research, the "creative thinking" the daytime job crowds out.
+Thirty years on, the plan has a nightly time slot. For about a decade, through the CEO years, Hassabis ran two workdays. The first was any executive's day: office around 10 a.m., meetings, decisions. Then home, dinner with his family, kids to bed. Around 10:30 or 11 p.m. the second day started, and it ran until 3 or 4 in the morning. "I come alive at about 1 a.m.," he told Fortune in February 2026, six months before he handed the title back. Those hours went to reading papers, thinking about research, the "creative thinking" the daytime job crowds out.
 
-Look at the design of that ritual. The company gets the daylight. The family gets the evening. The mystery gets the part of the day when no one can schedule a meeting. He built a fortress out of hours instead of walls, and he has defended it for ten years, through the merger of two research divisions and the most expensive product race in corporate history.
+Look at the design of that ritual. The company gets the daylight. The family gets the evening. The mystery gets the part of the day when no one can schedule a meeting. He built a fortress out of hours instead of walls, and he defended it for ten years, through the merger of two research divisions and the most expensive product race in corporate history.
 
-The same protection extends to the people he loves. The public record on his family is close to a blank page by design. Wikipedia manages one sentence: he and his family live in North London. He has spent decades in front of cameras and journalists without handing over a single usable detail about his home life. Fives guard their inner rooms, and this one guards them so consistently that gossip sites, finding nothing, have simply invented contradictory answers.
+The same protection extends to the people he loves. The public record on his family is close to a blank page by design. As of 2026, Wikipedia manages one sentence: he and his family live in North London. He has spent decades in front of cameras and journalists without handing over a single usable detail about his home life. Fives guard their inner rooms, and this one guards them so consistently that gossip sites, finding nothing, have simply invented contradictory answers.
 
 The second workday is also the tell that decodes the resignations. Each thing he walked away from, the chess circuit, the games industry, the CEO title, was a claim on exactly those hours. He never quits the work. He quits whatever is billing time against the work.
 
@@ -198,11 +225,11 @@ August 2010, San Francisco. Hassabis has finagled an invitation to the afterpart
 
 **The move.** He does not pitch. He opens with a question about why chess, of all games, survived a thousand years, and answers it himself: "All the creative tension comes when you swap the bishop for the knight in certain positions." Two pieces of equal value with utterly different powers, and the whole drama of the game lives in that asymmetry.
 
-**The result.** "This intrigued him. He had never thought of that," Hassabis recalled to CNBC. "We secured our meeting." Thiel invited him back the next day, and within months had put £1.4 million into a company with no product, no revenue, and a mission statement about solving intelligence itself.
+**The result.** "This intrigued him. He had never thought of that," Hassabis recalled to CNBC. "We secured our meeting." By Hassabis's account, Thiel invited him back the next day, and within months had put about £1.4 million into the company Hassabis was founding with Shane Legg and Mustafa Suleyman: no product, no revenue, and a mission statement about solving intelligence itself.
 
 The pitch is the personality. Where a salesman brings enthusiasm, Hassabis brought a prepared insight, calibrated to one listener, deployed in under a minute. Knowledge as social currency; a conversation played like a position.
 
-The startup years that followed tested him in a way the pitch didn't, because running DeepMind meant permanent fundraising, and he had already watched the business side eat one company. His previous studio, Elixir, died in 2005, and his exit statement blamed an industry with "no room for small independent developers wanting to work on innovative and original ideas." So when Google came in 2014 with roughly $650 million, he took it, on conditions no acquirer had heard before: an ethics board, and a ban on military use of the technology. According to Sebastian Mallaby's 2026 biography _The Infinity Machine_, he was never excited about being acquired; he wanted the fundraising to stop. He had already turned down a richer offer from Facebook, judging that Mark Zuckerberg wanted the talent without understanding the mission. Alan Eustace, the Google executive who closed the deal, told Time in 2023 what made Hassabis unusual: "He was thoughtful enough to understand that the technology had long-term societal implications, and he wanted to understand those before the technology was invented."
+The startup years that followed tested him in a way the pitch didn't, because running DeepMind meant permanent fundraising, and he had already watched the business side eat Elixir. So when Google came in 2014 with roughly $650 million, he took it, on conditions no acquirer had heard before: an ethics board, and a ban on military use of the technology. According to Sebastian Mallaby's 2026 biography _The Infinity Machine_, he was never excited about being acquired; he wanted the fundraising to stop. He had already turned down a richer offer from Facebook, judging that Mark Zuckerberg could not see that AI mattered more than his other bets. Alan Eustace, the Google executive who closed the deal, told Time in 2023 what made Hassabis unusual: "He was thoughtful enough to understand that the technology had long-term societal implications, and he wanted to understand those before the technology was invented."
 
 Even the sale fits the pattern. He gave away ownership of his company to buy back the only asset he has ever hoarded: uninterrupted attention on the problem.
 
@@ -210,7 +237,7 @@ Even the sale fits the pattern. He gave away ownership of his company to buy bac
 
 The skeptical version writes itself, and parts of it are true. By August 2026, Google had gone since early in the year without a new flagship model while OpenAI and Anthropic kept releasing. Jeff Dean, Alphabet's chief scientist, had left to found a startup. John Jumper, the researcher Hassabis shared the Nobel with, had joined [Dario Amodei](/personality-analysis/dario-amodei)'s Anthropic. Reporting described morale problems inside the lab. And the new arrangement objectively shrinks the office: Kavukcuoglu runs daily operations as a senior vice president reporting to [Sundar Pichai](/personality-analysis/sundar-pichai), with no standalone CEO title at all. If you want to read August 5 as Google quietly taking the wheel, the org chart will not stop you.
 
-The pattern will, though. Put the exits in one place:
+The pattern will, though.
 
 <div class="timeline">
 	<div class="timeline__item">
@@ -223,7 +250,7 @@ The pattern will, though. Put the exits in one place:
 	</div>
 	<div class="timeline__item">
 		<span class="timeline__year">2014</span>
-		<span class="timeline__event">Sells DeepMind to Google, largely to make fundraising someone else's job</span>
+		<span class="timeline__event">Sells DeepMind to Google, reportedly in large part to make fundraising someone else's job</span>
 	</div>
 	<div class="timeline__item timeline__item--key">
 		<span class="timeline__year">2026</span>
@@ -231,17 +258,19 @@ The pattern will, though. Put the exits in one place:
 	</div>
 </div>
 
-Semafor's August 2026 reporting matches the pattern rather than the coup theory. He was not pushed; he had "struggled to get satisfaction" out of being a tech executive rather than a scientist, running the business machinery of a 6,000-person product organization. His own memo said the quiet part plainly: AGI is close, and he wanted "the time and space to focus on the big picture."
+Semafor's sourced account, two people close to the move, matches the pattern rather than the coup theory. By that reporting he was not pushed; he had "struggled to get satisfaction" out of being a tech executive rather than a scientist, running the business machinery of a 6,000-person product organization. His own memo said the quiet part plainly: AGI is close, and he wanted "the time and space to focus on the big picture."
 
 This is the move the Enneagram makes legible. A Five's scarcest resource is never status; it is the energy and attention that understanding runs on, and a Five will liquidate almost anything else to protect the reserve. The CEO title had become the most expensive object he owned.
 
-What does he want the space for? He has said it: a fifty percent chance of AGI "in the next five years, so by 2030," by his own estimate on Lex Fridman's podcast. He still runs Isomorphic Labs, his drug-discovery company. And he has been talking for years, with his mentor Paul Nurse, about building a complete virtual cell, starting with yeast. The man walked out of the war room because he thinks the interesting problems are finally in reach, and his whole life says where he goes to work on those: a quiet house, a clear calendar, 1 a.m.
+What does he want the space for? He has said it: a fifty percent chance of AGI "in the next five years, so by 2030," by his own estimate on Lex Fridman's podcast. He kept the CEO seat at Isomorphic Labs, his drug-discovery company, through the August 2026 rearrangement. And he has been talking for years, with his mentor Paul Nurse, about building a complete virtual cell, starting with yeast. The man walked out of the war room because he thinks the interesting problems are finally in reach, and his whole life says where he goes to work on those: a quiet house, a clear calendar, 1 a.m.
 
 ## The tanks on the lawn: Demis Hassabis at war with OpenAI
 
 There is one era that breaks the pattern, and it is the era everyone judges him by.
 
-Start with the peak the war interrupted. In March 2016, in a Seoul hotel, DeepMind's AlphaGo beat Lee Sedol, an eighteen-time world champion at Go, four games to one, and Hassabis staged the match as live global theater. In the second game the machine played Move 37, a stone so far outside human practice that commentators first read it as a mistake; professionals now study it. Sit with what that scene contains. The boy who walked out of Liechtenstein because elite minds were being spent on board games came back at thirty-nine and pointed a mind he had built at the board instead. Games as the laboratory of intelligence, the thesis he had been living since the ZX Spectrum, got its proof in front of the whole world.
+Start with the peak the war interrupted. In March 2016, in a Seoul hotel, DeepMind's AlphaGo beat Lee Sedol, an eighteen-time world champion at Go, four games to one, and Hassabis staged the match as live global theater. In the second game the machine played Move 37, a stone so far outside human practice that commentators first read it as a mistake; professionals now study it. The boy who walked out of Liechtenstein because elite minds were being spent on board games came back at thirty-nine and pointed a mind he had built at the board instead. Games as the laboratory of intelligence, the thesis he had been living since the ZX Spectrum, got its proof in front of the whole world.
+
+The next year the same approach came home to his first game: AlphaZero taught itself chess from scratch, and the style it invented is now studied by the game's elite. When the chess world wrote its book about the machine, _Game Changer_, Hassabis wrote the introduction. It is the same essay where he tells the Liechtenstein story.
 
 Then, in 2023, with [Sam Altman](/personality-analysis/sam-altman)'s ChatGPT detonating under Google's business model, Hassabis accepted the merger of Google Brain into DeepMind and took command of the combined lab. The scientist became a wartime general, shipping Gemini models on a product cadence, and he knew exactly what it looked like. He gave Mallaby the plainest account of his own state of mind in a decade:
 
@@ -249,13 +278,13 @@ Then, in 2023, with [Sam Altman](/personality-analysis/sam-altman)'s ChatGPT det
 "This is wartime, OpenAI and Microsoft have literally parked the tanks on the lawn."
 </div>
 
-The charge against him writes itself too, and smart critics have made it for years. This is the man who told Time in 2023, "I would advocate not moving fast and breaking things," while running one of the fastest movers on earth. Podcast host Paris Marx has argued, in that same Time profile, that Hassabis leans on technology to solve problems that are really about political will and profit incentives. And the safety guarantees he extracted in 2014 eroded for years, then vanished on the record: in February 2025, CNBC reported, Google deleted its pledge against building AI for weapons or surveillance, and the blog post announcing the reversal carried Hassabis's signature alongside James Manyika's. The man who made a weapons ban the price of his company co-signed its repeal. A man who calls AGI potentially existential kept building it at maximum speed. Concede all of it. The tension is real, and he lives inside it.
+The charge against him writes itself too, and smart critics have made it for years. This is the man who told Time in 2023, "I would advocate not moving fast and breaking things," while running one of the fastest movers on earth. Podcast host Paris Marx has argued, in that same Time profile, that Hassabis leans on technology to solve problems that are really about political will and profit incentives. There is one episode with real people on the receiving end: in July 2017, Britain's data regulator ruled that the NHS data deal DeepMind's health team was built on, which moved 1.6 million identifiable patient records, was unlawful on the hospital's side; patients were never properly told. And the safety guarantees he extracted in 2014 eroded for years, then vanished on the record: in February 2025, CNBC reported, Google deleted its pledge against building AI for weapons or surveillance, and the blog post announcing the reversal carried Hassabis's signature alongside that of James Manyika, a fellow Google executive. Their stated reason was that democracies should lead AI development in a hardening geopolitical race. The man who made a weapons ban the price of his company co-signed its repeal. A man who calls AGI potentially existential kept building it at maximum speed. Concede all of it. The tension is real, and he lives inside it.
 
-The wartime posture also has a history that explains its edge. The race he is running was, from his side of the table, started against him: Mallaby reports that when [Elon Musk](/personality-analysis/elon-musk) and Reid Hoffman helped launch OpenAI in 2015, drawing on concerns aired at a DeepMind safety gathering, Hassabis experienced it as a betrayal. The war years had casualties closer to home too. Mustafa Suleyman, the cofounder who once shared the mission, left under a cloud in 2019 after complaints about his management style and is described in Mallaby's book as estranged from him.
+The wartime posture also has a history that explains its edge. The race he is running was, from his side of the table, started against him: Mallaby reports that when [Elon Musk](/personality-analysis/elon-musk) and Reid Hoffman helped launch OpenAI in 2015, drawing on concerns aired at a DeepMind safety gathering, Hassabis experienced it as a betrayal. The war years had casualties closer to home too. Mustafa Suleyman, the cofounder who once shared the mission, left under a cloud in 2019 after complaints about his management style.
 
-Now run the contradiction through the thing that has driven him since Liechtenstein. His deepest alarm has never been machines; it is waste. Wasted minds, wasted decades, diseases unsolved while the smartest people alive push wood across boards. "I would be really worried for humanity," he told Lex Fridman, "given the other challenges that we have, climate, aging, resources, all of that if I didn't know something like AI was coming down the line. How would we solve all those other problems?" From inside that fear, stopping is the reckless act, and the only defensible seat is at the front of the race, steering. You can reject his math and still see that the doomsaying and the racing come from the same place. They are one worry, pointed in two directions.
+The contradiction reads differently against the thing that has driven him since Liechtenstein. His deepest alarm has never been machines; it is waste. Wasted minds, wasted decades, diseases unsolved while the smartest people alive push wood across boards. "I would be really worried for humanity," he told Lex Fridman in 2025, "given the other challenges that we have, climate, aging, resources, all of that if I didn't know something like AI was coming down the line. How would we solve all those other problems?" From inside that fear, stopping is the reckless act, and the only defensible seat is at the front of the race, steering. You can reject his math and still see that the doomsaying and the racing come from the same place. They are one worry, pointed in two directions.
 
-The cost shows up in the testimony of the people who know him best. David Silver, who led AlphaGo, put it this way in Mallaby's book: "When Demis talked about the influence of his mother and his horror of manipulating others, he meant it. But it was one thing to abhor the idea of controlling colleagues. Given his Jedi-level charisma, it was quite another to avoid it." The war made him spend the one currency he distrusts. In August 2026 he stopped spending it.
+The cost shows up in the testimony of the people who know him best. David Silver, who led AlphaGo, put it this way in Mallaby's book: "When Demis talked about the influence of his mother and his horror of manipulating others, he meant it. But it was one thing to abhor the idea of controlling colleagues. Given his Jedi-level charisma, it was quite another to avoid it." The war made him spend the one currency he distrusts, and he kept spending it right up until the August 2026 memo.
 
 <details class="enneagram-rabbit-hole">
 <summary class="accordion">🐇 Enneagram Rabbit Hole: Wings, Subtypes &amp; Connecting Lines for Demis Hassabis</summary>
@@ -272,11 +301,11 @@ Most Fives conserve themselves by avoiding the room. Hassabis works the room, th
 
 ### Stress and Growth Arrows
 
-Under sustained pressure, Fives pick up average-Seven behavior: scattered commitments, too many simultaneous projects, optimism as a coping style. The wartime years show traces, with Hassabis simultaneously running the merged lab, Isomorphic, product launches, and a public-diplomacy circuit. Security runs the other direction, borrowing the Eight's embodied, decisive command. AlphaGo's Seoul match, staged as a global spectacle with total confidence, and the 2023 decision to accept command of the merged lab are his Eight moments. The August 2026 step-back reads as a return from both arrows to home base.
+Under sustained pressure, Fives pick up average-Seven behavior: scattered commitments, too many simultaneous projects, optimism as a coping style. The wartime years are the exhibit, with Hassabis simultaneously running the merged lab, Isomorphic, product launches, and a public-diplomacy circuit; even the 2023 decision to take command of the merged lab belongs here, a coping move the main body frames as against his grain. Security runs the other direction, borrowing the Eight's embodied, decisive command, and the clean example is Seoul 2016: a match staged as a global spectacle from a position of total strength. The August 2026 step-back reads as a return from both arrows to home base.
 
 ### Counterarguments: Why Demis Hassabis Might Not Be Type 5
 
-The Type 3 case is the serious one: prodigy trajectory, world titles, a Nobel, a knighthood, real competitiveness, polished media presence. It founders on the after-victory behavior. Threes metabolize wins into visibility; Hassabis metabolizes them into privacy and research hours, and he has now surrendered the most enviable title in his industry while holding it securely. A Type 6 reading can point to "cautious optimism" and his alliance-building, but Sixes seek safety in the group and the authority structure, and Hassabis keeps exiting authority structures once they stop serving the question. If future reporting showed he sought the spotlight for its own sake, or that the step-down was forced and spun, the 3 case would deserve a rehearing.
+The Type 3 case is the serious one: prodigy trajectory, world titles, a Nobel, a knighthood, real competitiveness, polished media presence. A committed 3-advocate holds two stronger cards. First, the staging: Seoul 2016 was live global theater, produced by Hassabis himself. Second, the trajectory: every walk-away eventually landed him higher, the 2026 move kept the chair of Google DeepMind, the Alphabet chief-scientist title, and the Isomorphic CEO seat, and the transition had quietly run for a year before the memo. Read that way, the whole pattern is strategic repositioning. The answer to the first card is what followed Seoul. The obvious sequel was a decade of exhibition matches and keynote replays of Move 37; what the lab actually did next was aim itself at protein folding, a problem with no stage and no opponent. The answer to the second is 2005 to 2009, the stretch repositioning theory cannot price: a multimillion-selling designer spending four prime years as an anonymous doctoral student with no guaranteed payoff. What he sheds, each time, is the operational claim on his hours and the visibility that rides with it; what he keeps is access to the research. Threes metabolize wins into visibility; Hassabis metabolizes them into privacy and research hours. A Type 6 reading can point to "cautious optimism" and his alliance-building, but Sixes seek safety in the group and the authority structure, and Hassabis keeps exiting authority structures once they stop serving the question. If future reporting showed he sought the spotlight for its own sake, or that the step-down was forced and spun, the 3 case would deserve a rehearing.
 
 </div>
 </details>
@@ -293,7 +322,7 @@ In 2016, Desert Island Discs asked Hassabis to choose one luxury for a lifetime 
 
 Strip away the lab, the knighthood, the memo announcing his own succession, and this is what remains: a board, an opponent, and unlimited time to think.
 
-He is fifty. The hall in Liechtenstein emptied almost four decades ago, and the question he carried out of it has its first real answers sitting in a free protein database. The mystery, he says, is still screaming at him, louder now than ever. He has finally cleared his calendar to listen.
+The hall in Liechtenstein emptied almost four decades ago, and the question he carried out of it has its first real answers sitting in a free protein database. The mystery, he says, is still screaming at him, louder now than ever. At fifty, he has finally cleared his calendar to listen.
 
 ---
 
@@ -349,7 +378,38 @@ Source audit:
 -->
 
 <!-- COHESION CHECK (2026-08-29)
-Score 8.5/10 before, 9/10 after. One fix applied: bridge sentence opening the second-workday section ("Thirty years on, the plan has a nightly time slot.") carrying "the plan" across the Cambridge-to-present gap. Thiel and Nobel cold opens left intentionally untouched (signature sections). Known thin spot, not fixable without new content: walk-away #2 (games -> neuroscience PhD) is asserted in the intro but narrated only via the timeline entry and the Elixir aside in the Thiel section.
+Score 8.5/10 before, 9/10 after. One fix applied: bridge sentence opening the second-workday section ("Thirty years on, the plan has a nightly time slot.") carrying "the plan" across the Cambridge-to-present gap. Thiel and Nobel cold opens left intentionally untouched (signature sections). Known thin spot, not fixable without new content: walk-away #2 (games -> neuroscience PhD) is asserted in the intro but narrated only via the timeline entry and the Elixir aside in the Thiel section. [Editor pass 2026-08-29: thin spot closed — walk-away #2 now narrated at the chess-section close.]
+-->
+
+<!-- EDITOR PASS NOTES (2026-08-29, perspective-jury mode)
+Applied the full synthesis revision brief from docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004.
+Cleaned up:
+- All six P0s: Liechtenstein scene attributed to his Game Changer/BBC telling (next-day epiphany staging restored); Bullfrog competition beat restored, elf quote staged at the office; peak claims scoped to chess + CEO exits; Zuckerberg gloss matched to the sourced ground; "estranged" dropped (kept the verified 2019 record); meta title's false universal reworked.
+- P1s: retained-power counterargument + AlphaGo staging answered in Rabbit Hole; arrow double-duty resolved (Seoul carries Eight alone); line-678 competitiveness quote deployed in the pressure test; Elixir years narrated; AlphaZero sentence added; ICO 2017 episode added with controller-side precision; pledge-repeal rationale added; Semafor sourcing disclosed at the load-bearing use; four durability anchors (CEO-years tense, "As of 2026" Wikipedia, Isomorphic pinned to Aug 2026, "At fifty," close); AGI glossed at first use; Molyneux + Manyika identified; timeline motive row hedged. P2: founding trio named; FAQ Semafor verb aligned.
+- RQ-03 Thiel beats hedged ("By Hassabis's account", "about £1.4 million") — CNBC 2020 and syndications 403'd; £1.4M loosely corroborated (≈ "over two million dollars" in secondary coverage).
+Still rough / gates:
+- RQ-01 (Mallaby book check) is now a listed production_pretext blocker — the wartime pull quote and Silver quote still ride the LessWrong transcription.
+- RQ-02 (Althöfer full text) unresolved: Sage 403s; search snippets confirm Das Vaterland 1989-05-09 / Pieper-Emden / stalemate trap. Attribution repair is safe under every outcome; a records-vs-memory aside is a refresh decision.
+- Second-workday H2 stays in present tense (search surface); body is now dated to the CEO years.
+- P2-04 for the template owner: verify inner-thought panel renders distinct from quotes; check FAQ block placement vs. the intro reveal on the live template.
+- FUTURE's 12-month refresh list (future.md, "Twelve-month refresh list") should ride along to production notes; key dates 2027-07-27 (age) and 2027-08-05 (exit-narrative re-check).
+-->
+
+<!-- REVISION PASS NOTES (2026-08-29)
+Triggered by: grade B 8.4 (sameness_originality_7 cap); perspective gate had already passed (0 open P0, 0 PROTECT regressions).
+Fixed:
+- Imperative-drumbeat trimmed (grader Originality item 2): cut "Sit with what that scene contains."; cut "Put the exits in one place:" (protected "The pattern will, though." kept verbatim); "Watch what he pays for. Watch what he refuses to pay for." → declarative; "Now run the contradiction through…" → declarative bridge. "Look at the design of that ritual." kept — PROTECT-02 locks the second-workday section ("nothing else moves").
+- Two section closers flattened to plain sentences (grader item 4): diagnosis close, tanks close ("In August 2026 he stopped spending it." → integrated compound sentence).
+- Rabbit Hole Three-counterargument line rewritten to break the steve-martin rhyme (grader TO REACH 3); same claim, no "a Three would have [verbed] the victory" construction.
+- "worried for humanity" Lex quote now dated "in 2025" (verified vs. local lex-475 transcript) per grader source-audit note.
+- TL;DR bullet 2 tense anchored ("he ran") per verification-initial Remaining work #3.
+Rejected (with reason):
+- Breaking the "Here is the problem with the demotion story" reframe (grader TO REACH 2): PROTECT-08 protects it verbatim; synthesis: "Reword the scope, not the move."
+- Varying the return-to-wound close (grader Originality item 3): PROTECT-07 protects the Liechtenstein/"screaming" ending.
+- Flattening "Chess as a career died in Liechtenstein." / "He quits whatever is billing time against the work.": PROTECT-08 / PROTECT-02 verbatim sentences.
+- RQ-01 (Mallaby printed-book check): stays a production_pretext blocker; needs the physical book, outside this pass.
+Lint: clean (0 fail; 3 pre-existing warns: 2 comparative contrasts, 7 internal links, 4445 words). All 8 PROTECT items grep-verified verbatim post-edit.
+Perspective: revision-resolution.md written to docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004; targeted perspective verify must rerun.
 -->
 
 

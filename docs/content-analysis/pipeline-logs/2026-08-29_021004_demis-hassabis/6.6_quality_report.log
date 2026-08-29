@@ -1,0 +1,10 @@
+blog-quality-report: Demis-Hassabis
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 2 total  (strong 0, comparative 2)
+   compar. [looked-like] L96: "He looked like an elf from Lord of the Rings," he told Time in 2023.
+   compar. [looked-like] L257: The scientist became a wartime general, shipping Gemini models on a product cadence, and he knew exactly what it looked like.
+
+2.4 Head-term: PASS  meta_title=Why Demis Hassabis Keeps Walking Away From the Top (Type 5)
+   answer-block: ok (50 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 439)

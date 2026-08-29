@@ -1,0 +1,19 @@
+{
+  "person": "demis-hassabis",
+  "draft_path": "src/blog/people/drafts/Demis-Hassabis.md",
+  "entity_gap_brief": "docs/content-analysis/entity-gaps/demis-hassabis.md",
+  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-29_021004_demis-hassabis",
+  "perspective_review_dir": "docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004",
+  "perspective_initial_status": "pass",
+  "perspective_final_status": "pass",
+  "completed": true,
+  "halt_reason": null,
+  "revised": true,
+  "lint_exit": 0,
+  "first_overall": 8.8,
+  "final_overall": 8.6,
+  "final_discoverability": 9,
+  "grade_stability_delta": 0.20000000000000107,
+  "has_stage_warnings": true,
+  "generated_at": "2026-08-29T18:20:04.700Z"
+}

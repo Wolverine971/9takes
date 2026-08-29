@@ -1,0 +1,12 @@
+Verification complete.
+
+- **Output:** `docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004/verification-initial.md`
+- **Verification status:** `pass`
+- **Open P0:** 0
+- **Protected-hit regressions:** 0
+
+Summary of what the check found: the frozen SHA matched the synthesis and `context.json`; all six P0 acceptance tests pass against the live draft (Liechtenstein scene fully inside the his-telling frame with next-day epiphany staging, Bullfrog competition beat restored and the elf quote unfused from the bus, no 2005-peak claim anywhere, Zuckerberg gloss matched to the S-09 ground, "estranged" gone from reader-visible text, meta title reworked). All twelve P1s are completed — the only sub-decision not taken is the second-workday H2's present tense, which the editor deferred with a defensible search-surface reason. All eight PROTECT passages grep-verified verbatim, and every new factual assertion added in the revision carries a source trail (with the ICO, France24, and Science Focus URLs added to citations). Lint re-ran clean: 0 fail, 4,430 words.
+
+Three non-blocking notes went into Remaining work: the RQ-01 Mallaby book check is correctly registered as a `production_pretext` blocker (the deterministic gate owns it), the two "at eleven" callback shorthands are safe under the synthesis's own callback adjudication but should be revisited if RQ-02's full text lands, and TL;DR bullet 2 still has one unanchored "has run" that's a one-word durability fix at any future pass.
+
+The deterministic gate script decides finalization from here.
