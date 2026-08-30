@@ -66,6 +66,7 @@ description: |
   
   COMPLEX is a community of creators and curators, armed with the Internet, committed to surfacing and sharing the voices and conversations that define our new America. Our videos exemplify convergence culture, exploring topics that include music, sneakers, style, sports, and pop culture through original shows and Complex News segments. Featuring your favorite celebrities, authoritative commentary, and a unique voice, our videos make culture pop.
 transcribed_date: "2026-08-07"
+path: youtube-transcripts/duke-dennis-360-with-speedy-2024.md
 ---
 
 # Duke Dennis on Hating Word Rizz, Kai Cenat Brotherhood & How to Blow Up on YouTube | 360 With Speedy

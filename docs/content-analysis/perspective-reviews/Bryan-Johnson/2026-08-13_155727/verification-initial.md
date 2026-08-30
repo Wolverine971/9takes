@@ -8,6 +8,7 @@ verification_status: pass
 open_p0: 0
 protected_hit_regressions: 0
 verified_at: 2026-08-13T16:04:00Z
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_155727/verification-initial.md
 ---
 
 ## Verification verdict

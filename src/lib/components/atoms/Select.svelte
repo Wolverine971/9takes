@@ -1,3 +1,4 @@
+<!-- src/lib/components/atoms/Select.svelte -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import type { HTMLSelectAttributes } from 'svelte/elements';

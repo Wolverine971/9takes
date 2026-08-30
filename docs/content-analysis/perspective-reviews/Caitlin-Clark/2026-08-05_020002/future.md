@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 9
 reviewed_at: 2026-08-05T07:03:34Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/future.md
 ---
 
 <!-- docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/future.md -->
@@ -166,7 +167,7 @@ contract. It is correct: A'ja Wilson 26.6, Kelsey Mitchell 24.0, Clark 21.5, Bre
 Kahleah Copper 21.2. Clark is third. The packet's open question resolves in the draft's favor and I
 am not going to convert a verified-accurate claim into a red flag.
 
-What that check *did* surface is a durability finding rather than an accuracy one, recorded below as
+What that check _did_ surface is a durability finding rather than an accuracy one, recorded below as
 FUTURE-C4: the claim is true by one tenth of a point over the fourth-place player, which gives it a
 shelf life measured in single games.
 
@@ -349,6 +350,7 @@ itself is defensible, which is the packet's open question, not mine.
 ### FUTURE-C7 — Breakable records and league-relative superlatives in the timeless present
 
 **Passages.** Three instances, one repair pattern:
+
 - Box-score table: "Fastest to 200 career threes in league history, 74 games"
 - H2 3: "which Nielsen recorded as the most-watched basketball game at any level, men's or women's,
   since 2019"
@@ -361,7 +363,7 @@ untrue — the article's own argument is that she has improved substantially sin
 breakable by any future rookie. The second is breakable by any sufficiently watched game.
 
 **Evidence.** Packet CLM-23, CLM-10, CLM-24. Note that the article already demonstrates the correct
-form elsewhere: "No player in WNBA history *had ever* put up 40 and 10" (FUTURE-H4).
+form elsewhere: "No player in WNBA history _had ever_ put up 40 and 10" (FUTURE-H4).
 
 **Minimum viable repair.** Apply the H4 pattern. "Fastest to 200 career threes in league history"
 → "the fastest anyone had reached 200 career threes." "The most exacting player in the league is
@@ -442,15 +444,15 @@ as informational; it does not need to be actioned.
 Concrete, dated, and ordered by when they fire. Body copy only — I am making no recommendation about
 `lastmod` or any other frontmatter date field.
 
-| When | Trigger | What to update |
-| --- | --- | --- |
-| **~Sept 24, 2026** | 2026 regular season ends | Every live number in H2 9 becomes a final-season figure in the past tense: averages, team record, league ranks, POW count. The back-injury clause resolves one way or the other. |
-| **Sept 27 – Oct 2026** | 2026 postseason | If the Fever make a run, H2 9 needs one paragraph. Note the thesis is an asset here, not a liability: it predicts she stays unsettled whether she wins or loses, so either outcome confirms rather than threatens the read. Her own "I've played two playoff games" rationale for the six becomes obsolete and should be marked as a June 2026 statement. |
-| **Oct 2026** | Awards cycle (MVP, All-WNBA) | She was in the 2026 MVP conversation as this published. An MVP would be the strongest available test of the six-out-of-ten spine and probably belongs in the TL;DR if it happens. |
-| **Offseason 2026–27** | Coaching and roster | Verify Stephanie White is still the Fever head coach (see FUTURE-C5). |
-| **May–Sept 2027** | 2027 season | New statistical baseline. Re-check whether "fastest to 200 career threes" still stands and whether the 223-turnover record has moved. |
-| **Post-2027 season** | Restricted free agency + maximum-salary eligibility | Revisit the commercial-seam paragraph in H2 6 (FUTURE-C8). Her contract runs through 2027; the economics of "she also keeps the check" change after it. |
-| **Contingent** | If she wins a WNBA title | H2 3's heading, "Why Caitlin Clark never won a national championship," remains permanently true (it is a college claim), but add a clause distinguishing college from professional so a heading-scanner does not misread it as stale. |
+| When                   | Trigger                                             | What to update                                                                                                                                                                                                                                                                                                                                            |
+| ---------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **~Sept 24, 2026**     | 2026 regular season ends                            | Every live number in H2 9 becomes a final-season figure in the past tense: averages, team record, league ranks, POW count. The back-injury clause resolves one way or the other.                                                                                                                                                                          |
+| **Sept 27 – Oct 2026** | 2026 postseason                                     | If the Fever make a run, H2 9 needs one paragraph. Note the thesis is an asset here, not a liability: it predicts she stays unsettled whether she wins or loses, so either outcome confirms rather than threatens the read. Her own "I've played two playoff games" rationale for the six becomes obsolete and should be marked as a June 2026 statement. |
+| **Oct 2026**           | Awards cycle (MVP, All-WNBA)                        | She was in the 2026 MVP conversation as this published. An MVP would be the strongest available test of the six-out-of-ten spine and probably belongs in the TL;DR if it happens.                                                                                                                                                                         |
+| **Offseason 2026–27**  | Coaching and roster                                 | Verify Stephanie White is still the Fever head coach (see FUTURE-C5).                                                                                                                                                                                                                                                                                     |
+| **May–Sept 2027**      | 2027 season                                         | New statistical baseline. Re-check whether "fastest to 200 career threes" still stands and whether the 223-turnover record has moved.                                                                                                                                                                                                                     |
+| **Post-2027 season**   | Restricted free agency + maximum-salary eligibility | Revisit the commercial-seam paragraph in H2 6 (FUTURE-C8). Her contract runs through 2027; the economics of "she also keeps the check" change after it.                                                                                                                                                                                                   |
+| **Contingent**         | If she wins a WNBA title                            | H2 3's heading, "Why Caitlin Clark never won a national championship," remains permanently true (it is a college claim), but add a clause distinguishing college from professional so a heading-scanner does not misread it as stale.                                                                                                                     |
 
 **What remains valuable if the newest event is removed.** Nearly all of it. Strip the July 17, 2026
 Seattle game and the August 2026 anchor entirely and the article still has: the six-out-of-ten
@@ -464,32 +466,32 @@ the strongest durability signal available, and it is why this scores high on val
 ## Follow-on questions
 
 **FUTURE-Q1.** How did the Fever's 2026 postseason end?
-*What it changes:* whether H2 9 needs a new paragraph, and whether the "two playoff games" rationale
+_What it changes:_ whether H2 9 needs a new paragraph, and whether the "two playoff games" rationale
 for the six needs to be explicitly marked as a June 2026 statement rather than a standing fact.
-*Best source:* WNBA playoff results, available from approximately October 2026.
+_Best source:_ WNBA playoff results, available from approximately October 2026.
 
 **FUTURE-Q2.** Did the August 2026 back problem resolve, recur, or end her season?
-*What it changes:* whether FUTURE-C3's clause becomes "played through it," "cost her N games," or is
+_What it changes:_ whether FUTURE-C3's clause becomes "played through it," "cost her N games," or is
 cut entirely.
-*Best source:* Indiana Fever injury reports and team releases (the same channel as packet S-16 and
+_Best source:_ Indiana Fever injury reports and team releases (the same channel as packet S-16 and
 S-47).
 
 **FUTURE-Q3.** Did she win the 2026 MVP or make All-WNBA first team?
-*What it changes:* the six-out-of-ten spine gains its single best pressure test — a player rating
+_What it changes:_ the six-out-of-ten spine gains its single best pressure test — a player rating
 herself a six in the same season she is voted the league's best. That is a gift to the thesis and
 should be in the TL;DR if it happened.
-*Best source:* WNBA awards announcements, October 2026.
+_Best source:_ WNBA awards announcements, October 2026.
 
 **FUTURE-Q4.** What does her compensation look like after the 2027 season under maximum-salary
 eligibility and restricted free agency?
-*What it changes:* the factual footing of the commercial-seam paragraph, and possibly the phrase
+_What it changes:_ the factual footing of the commercial-seam paragraph, and possibly the phrase
 "one of the highest-earning athletes in women's sports."
-*Best source:* Spotrac contract page and CBA reporting.
+_Best source:_ Spotrac contract page and CBA reporting.
 
 **FUTURE-Q5.** Is Stephanie White still the Fever head coach?
-*What it changes:* one clause (FUTURE-C5), but in a load-bearing spot — she is half the two-coach
+_What it changes:_ one clause (FUTURE-C5), but in a load-bearing spot — she is half the two-coach
 corroboration.
-*Best source:* fever.wnba.com staff page.
+_Best source:_ fever.wnba.com staff page.
 
 ---
 
@@ -528,26 +530,28 @@ moving" — set the scope for this review and is the correct diagnosis.
 **RQ-F1: Is "third in the league in scoring" (CLM-29) accurate as of 2026-08-05?**
 The packet left this explicitly unresolved and recommended a leaderboard check before publication.
 Because an already-wrong temporal claim would be a blocker under this role's contract, I checked it.
-- *WebSearch*, 2026 WNBA scoring leaders — returned partial signal (Mitchell leading guards at 24.0,
+
+- _WebSearch_, 2026 WNBA scoring leaders — returned partial signal (Mitchell leading guards at 24.0,
   Clark third at 21.5) but no complete leaderboard.
-- *WebFetch*, basketball-reference.com 2026 WNBA leaders (packet S-49) — HTTP 403, could not read.
-- *WebFetch*, StatMuse 2026 WNBA PPG leaders (packet S-50) — returned the full top five: Wilson 26.6,
+- _WebFetch_, basketball-reference.com 2026 WNBA leaders (packet S-49) — HTTP 403, could not read.
+- _WebFetch_, StatMuse 2026 WNBA PPG leaders (packet S-50) — returned the full top five: Wilson 26.6,
   Mitchell 24.0, Clark 21.5, Stewart 21.4, Copper 21.2.
-*Decision affected:* killed my leading blocker candidate. The claim is accurate, so I recorded it as
-FUTURE-C4 — a margin-fragility concern (0.1 PPG over fourth place) rather than an error. This is the
-packet's open question #5 resolved, and it resolves in the draft's favor.
+  _Decision affected:_ killed my leading blocker candidate. The claim is accurate, so I recorded it as
+  FUTURE-C4 — a margin-fragility concern (0.1 PPG over fourth place) rather than an error. This is the
+  packet's open question #5 resolved, and it resolves in the draft's favor.
 
 **RQ-F2: What already-scheduled events in the next twelve months will date this article?**
 Deliberately scoped to known calendar items and existing contractual milestones, not forecasts.
-- *WebSearch*, 2026 WNBA schedule and Clark contract status — established: regular season ends
+
+- _WebSearch_, 2026 WNBA schedule and Clark contract status — established: regular season ends
   September 24, 2026; playoffs begin September 27, 2026; the Fever exercised her fourth-year option
   in April 2026, contracting her through the 2027 season; she becomes a restricted free agent after
   2027 and is eligible for the league's new maximum in 2027 under the new CBA, a year earlier than
   previously expected.
-*Decisions affected:* this is the backbone of FUTURE-C1 (the seven-week fuse and the unacknowledged
-postseason) and FUTURE-C8 (the commercial seam's moving footing), and it supplied the dated refresh
-list. Without it I would have written "these numbers will go stale eventually" instead of naming the
-week they do.
+  _Decisions affected:_ this is the backbone of FUTURE-C1 (the seven-week fuse and the unacknowledged
+  postseason) and FUTURE-C8 (the commercial seam's moving footing), and it supplied the dated refresh
+  list. Without it I would have written "these numbers will go stale eventually" instead of naming the
+  week they do.
 
 **Repo-side check.** Grepped the frozen snapshot's reader-visible body (lines 96–364) for relative-
 time vocabulary and for present-tense superlatives, to make the sweep systematic rather than

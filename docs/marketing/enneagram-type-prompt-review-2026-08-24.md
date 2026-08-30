@@ -1,4 +1,5 @@
 <!-- docs/marketing/enneagram-type-prompt-review-2026-08-24.md -->
+
 # Enneagram type prompt — independent launch review
 
 Date: 2026-08-24  

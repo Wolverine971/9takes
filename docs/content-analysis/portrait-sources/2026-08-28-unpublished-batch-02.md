@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/portrait-sources/2026-08-28-unpublished-batch-02.md -->
+
 # Unpublished personality portraits — batch 02 (2026-08-28)
 
 This batch covers every remaining unpublished personality analysis that did not have a production

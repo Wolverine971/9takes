@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 9
 reviewed_at: 2026-08-20T06:59:27Z
+path: docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/future.md
 ---
 
 ## Bottom-line verdict
@@ -62,7 +63,7 @@ survive revision: do not let a future editing pass smooth these into "a few year
 > "Losing an award is the kind of thing a career answers with a campaign. She answered it with
 > somebody else's children."
 
-The Emmy loss and the Capitol Hill visit arrive *after* the pattern is established, as
+The Emmy loss and the Capitol Hill visit arrive _after_ the pattern is established, as
 illustrations of it. They are not asked to carry the diagnosis. This is exactly the right load
 distribution for temporal durability — when these events stop being current, they degrade into
 dated examples rather than taking the argument down with them. Must survive revision.
@@ -78,7 +79,7 @@ oldest fact in the piece is the most durable ending available. Must survive revi
 **FUTURE-H5 — The dated source card.**
 
 > "Primary sources for this section: Good Morning America, March 2, 2023; NBC News, June 2024;
-> WBUR *Here & Now*, June 3, 2025; Democracy Now!, August 13, 2025; The Washington Post, August 8,
+> WBUR _Here & Now_, June 3, 2025; Democracy Now!, August 13, 2025; The Washington Post, August 8,
 > 2025."
 
 Outlet plus date on the most contested section in the piece. In twelve months this is what lets a
@@ -89,7 +90,7 @@ skeptical reader re-verify instead of bouncing. Must survive revision, including
 The promised effect of "here is the entire method, timed" is precision. The packet establishes that
 no source measures her pause at four seconds (CLM-01), and the 0.0/0.5/1.5/3.0/4.0 annotation is
 the draft's construction presented in the grammar of measurement. The effect that does not land is
-not credibility today — it reads well today — but *checkability later*. A number presented as
+not credibility today — it reads well today — but _checkability later_. A number presented as
 timed invites someone to time it, and that number is in the title.
 
 The second miss is the Bondi paragraph. It promises a resolution beat — "It was a financial
@@ -137,8 +138,8 @@ No blockers. Nine concerns, ordered by decay speed.
   rest of the refresh interval. A reader who checks one fact and finds the closing sentence wrong
   discounts the four thousand words above it.
 - **Evidence:** Packet, Identity and scope: born **November 30, 1982**. Publication date
-  2026-08-20 → she turns 44 in 102 days. Packet CLM-27 marks "She is 43" verified *as of the
-  review date* only.
+  2026-08-20 → she turns 44 in 102 days. Packet CLM-27 marks "She is 43" verified _as of the
+  review date_ only.
 - **Minimum viable repair:** Replace the bare age with a birth-year construction in both slots —
   the intro can carry "Born in 1982 in Biddeford, Maine," and the close can drop the number
   entirely without losing anything ("She is still standing in front of the glass with her arms
@@ -180,7 +181,7 @@ No blockers. Nine concerns, ordered by decay speed.
 
 - **Passage:** H2 "Ms. Rachel's Emmy Loss and the Folder She Took to Congress," and "In March 2026
   she went to the Children's and Family Emmys with the first two nominations of her career, and she
-  lost Outstanding Preschool Series to *Sesame Street*."
+  lost Outstanding Preschool Series to _Sesame Street_."
 - **Effect:** The body prose is dated and survives. The **H2 is not** — it announces a loss as the
   standing Emmy fact about her. If she is nominated or wins in the next cycle, a reader arriving on
   "Ms. Rachel Emmy" in 2027 lands on a heading that describes the previous year's result as the
@@ -215,7 +216,7 @@ No blockers. Nine concerns, ordered by decay speed.
   more firmly established with time — and the draft omits it.
 - **Minimum viable repair:** Add one sentence after the accusation: that the group provided no
   public evidence and that no investigation has been shown to have been opened. Source to S-16.
-- **Benefit:** Converts the article's biggest dangling thread into a fact that ages *well*. This is
+- **Benefit:** Converts the article's biggest dangling thread into a fact that ages _well_. This is
   the single highest-yield durability edit available.
 - **Confidence:** High.
 - **Acceptance test:** A reader finishes the diagnosis section able to state what came of the
@@ -233,7 +234,7 @@ No blockers. Nine concerns, ordered by decay speed.
 - **Evidence:** Packet, The pause §1: "`asha.org` now 301-redirects this page to
   `helpingyoucommunicate.org`, published by the **Communication Health Support Association**,
   displaying the ASHA logo. The guidance is ASHA-derived consumer content at a successor domain."
-  The packet confirms the draft's wording is otherwise *exact* and correctly attributes no
+  The packet confirms the draft's wording is otherwise _exact_ and correctly attributes no
   second-count to ASHA — the claim is right; the citation is moving under it.
 - **Minimum viable repair:** Keep the sentence and add a dated retrieval or archive reference in the
   source apparatus. No prose change needed.
@@ -273,7 +274,7 @@ No blockers. Nine concerns, ordered by decay speed.
   least persuasive move available and the only one she seems able to reach for."
 - **Effect:** Present continuous ("is being," "keeps trying") asserts an ongoing state with no
   as-of anchor. Compounding it, the controversy arc stops at January 2026 with no signal that this
-  is where the *reporting* ends rather than where the *story* ends — so the section implicitly
+  is where the _reporting_ ends rather than where the _story_ ends — so the section implicitly
   presents a January 2026 snapshot as the settled state of play.
 - **Evidence:** Packet §D-06 records two verified, dated beats the draft omits — the November 30,
   2025 "Antisemite of the Year" shortlist and her December 2025 response describing threats,
@@ -343,17 +344,17 @@ No blockers. Nine concerns, ordered by decay speed.
 
 Concrete triggers, in date order. Each is a specific thing to check, not a vague "review annually."
 
-| When | Trigger | What to check | Action if changed |
-| --- | --- | --- | --- |
-| **2026-11-30** | Her 44th birthday | Both "She is 43" instances | Already fixed if C1 applied; otherwise mandatory edit |
-| **~2026-11** | 5th Children's & Family Emmy nominations announced | Whether she is nominated again | Re-key the Emmy H2 (C3) |
-| **~2027-03** | 5th Children's & Family Emmy ceremony | Result | Update the Emmy beat; "first two nominations of her career" becomes a historical clause |
-| **Quarterly** | YouTube subscriber/view counts | 20M / 16.2B against current | Refresh inside the as-of clause; ~25M projected by 2027-08 |
-| **Any time** | StopAntisemitism / DOJ referral | Whether any investigation is ever opened or formally declined | Update the C4 sentence — this is the beat most likely to acquire a real answer |
-| **Any time** | Netflix relationship | Whether the licensing deal renews, expands, or lapses; whether a further season supersedes "the biggest kids launch" | Re-anchor the record claims (C2) |
-| **Any time** | Sannes quote availability | Whether the TikTok repost still resolves | Replace with a first-party citation (C6) |
-| **Any time** | ASHA / helpingyoucommunicate.org | Whether the successor domain still serves the guidance | Swap in an archive link (C5) |
-| **Any time** | Dilley processing center | Whether the facility closes; petition total moves past 324,000 | The June 2026 beat is dated and survives; add "as of June 2026" to the signature count if it drifts |
+| When           | Trigger                                            | What to check                                                                                                        | Action if changed                                                                                   |
+| -------------- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| **2026-11-30** | Her 44th birthday                                  | Both "She is 43" instances                                                                                           | Already fixed if C1 applied; otherwise mandatory edit                                               |
+| **~2026-11**   | 5th Children's & Family Emmy nominations announced | Whether she is nominated again                                                                                       | Re-key the Emmy H2 (C3)                                                                             |
+| **~2027-03**   | 5th Children's & Family Emmy ceremony              | Result                                                                                                               | Update the Emmy beat; "first two nominations of her career" becomes a historical clause             |
+| **Quarterly**  | YouTube subscriber/view counts                     | 20M / 16.2B against current                                                                                          | Refresh inside the as-of clause; ~25M projected by 2027-08                                          |
+| **Any time**   | StopAntisemitism / DOJ referral                    | Whether any investigation is ever opened or formally declined                                                        | Update the C4 sentence — this is the beat most likely to acquire a real answer                      |
+| **Any time**   | Netflix relationship                               | Whether the licensing deal renews, expands, or lapses; whether a further season supersedes "the biggest kids launch" | Re-anchor the record claims (C2)                                                                    |
+| **Any time**   | Sannes quote availability                          | Whether the TikTok repost still resolves                                                                             | Replace with a first-party citation (C6)                                                            |
+| **Any time**   | ASHA / helpingyoucommunicate.org                   | Whether the successor domain still serves the guidance                                                               | Swap in an archive link (C5)                                                                        |
+| **Any time**   | Dilley processing center                           | Whether the facility closes; petition total moves past 324,000                                                       | The June 2026 beat is dated and survives; add "as of June 2026" to the signature count if it drifts |
 
 Note on process: I am not recommending any change to `lastmod` — that field is managed by hand and
 is out of an evaluator's scope. The refresh triggers above are content-level.
@@ -380,32 +381,32 @@ is out of an evaluator's scope. The refresh triggers above are content-level.
 ## Follow-on questions
 
 **FUTURE-Q1 — Was the four-second interval ever measured, by anyone?**
-*What would change:* If a sourced measurement exists, C9 disappears entirely and the title is safe
+_What would change:_ If a sourced measurement exists, C9 disappears entirely and the title is safe
 permanently. If it is confirmed unmeasurable, the title should change before publication rather
-than after it accrues equity. *Best source:* direct timing of three or four representative *Songs
-for Littles* segments, documented in the research file — this is measurable in-house and does not
+than after it accrues equity. _Best source:_ direct timing of three or four representative _Songs
+for Littles_ segments, documented in the research file — this is measurable in-house and does not
 require anyone's cooperation.
 
 **FUTURE-Q2 — Was the Bondi referral ever acted on, declined, or closed?**
-*What would change:* A documented "no action" converts C4 from an omission into the paragraph's
+_What would change:_ A documented "no action" converts C4 from an omission into the paragraph's
 strongest and most durable sentence. A documented investigation would materially change the
-section's framing. *Best source:* DOJ/FARA registration unit public filings; failing that, a
+section's framing. _Best source:_ DOJ/FARA registration unit public filings; failing that, a
 contemporaneous Tier 1–2 outlet follow-up to the April 2025 NewsNation/The Hill report (S-16).
 
 **FUTURE-Q3 — Is the Bondi letter April or May 2025?**
-*What would change:* The date sits in the paragraph carrying the entire type diagnosis, and a wrong
-date never self-corrects — it becomes more checkable over time as archives stabilize. *Best
-source:* the StopAntisemitism letter itself, or Mediaite/The Hill originals; packet §D-01 notes
+_What would change:_ The date sits in the paragraph carrying the entire type diagnosis, and a wrong
+date never self-corrects — it becomes more checkable over time as archives stabilize. _Best
+source:_ the StopAntisemitism letter itself, or Mediaite/The Hill originals; packet §D-01 notes
 Wikipedia says May while all contemporaneous reporting says early April.
 
 **FUTURE-Q4 — Does the controversy arc have a beat after January 2026?**
-*What would change:* If the record continued past the liked-comment apology, the section's endpoint
+_What would change:_ If the record continued past the liked-comment apology, the section's endpoint
 is a reporting artifact and the present-tense framing in C7 is understating an active situation.
-*Best source:* packet S-25 and the 2026 Mamdani inaugural-committee listing, then a forward sweep
+_Best source:_ packet S-25 and the 2026 Mamdani inaugural-committee listing, then a forward sweep
 from January 2026.
 
 **FUTURE-Q5 — Is there a first-party, archivable version of the Sannes quotation?**
-*What would change:* Resolves C6 outright and secures the fairness turn. *Best source:* the Raise
+_What would change:_ Resolves C6 outright and secures the fairness turn. _Best source:_ the Raise
 Wildflowers site or Sannes's own primary accounts, rather than the third-party repost in S-34.
 
 ## Preserve list
@@ -445,7 +446,7 @@ Do not let a durability pass damage any of these:
    positive.** No link-durability concern is reported.
 5. **Web search — 5th Children's & Family Emmy cycle.** Found the official Call for Entries posted
    July 2026, eligibility June 1, 2025 – May 31, 2026. Decision affected: established C3 as a
-   *scheduled* decay point on documented evidence rather than speculation, and set the two Emmy
+   _scheduled_ decay point on documented evidence rather than speculation, and set the two Emmy
    rows in the refresh list.
 6. **Web search — forthcoming Netflix/Penguin releases.** Resolved nothing pinnable for 2027; a
    Netflix "Season 2" reference exists. Decision affected: I did **not** raise a
@@ -458,8 +459,8 @@ the 2–4 budget.
 
 ## Limits of this review
 
-- **I cannot see the future.** Every claim above is about what is *scheduled*, *unresolved*, or
-  *unanchored* as of 2026-08-20. I have not predicted any outcome — not the Emmy result, not the
+- **I cannot see the future.** Every claim above is about what is _scheduled_, _unresolved_, or
+  _unanchored_ as of 2026-08-20. I have not predicted any outcome — not the Emmy result, not the
   referral's disposition, not her subscriber count. The one extrapolation I made (≈25M subscribers
   by August 2027) is arithmetic on two packet-verified data points and is labeled as such.
 - **Durability only.** I did not grade prose quality, Enneagram reasoning, factual accuracy as

@@ -11,6 +11,7 @@ research_required: 5
 protected_hits: 11
 requires_revision: true
 synthesized_at: 2026-08-05T07:14:39Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/synthesis.md
 ---
 
 <!-- docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/synthesis.md -->
@@ -36,12 +37,12 @@ different contracts, each arrived at the same table: every time Clark pairs self
 self-assertion, this draft keeps the criticism and drops the assertion. I checked all four instances
 against the frozen text and the packet, and the pattern is real:
 
-| Where | What she said | What the draft carries |
-| --- | --- | --- |
+| Where                                       | What she said                                                                         | What the draft carries                                                                                                         |
+| ------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | ESPN 2026, obsession quote (H2 1, line 135) | "…because I want to be the best player in the world and I want to help this team win" | Excised mid-quote, no ellipsis — and the same sentence is truncated at the identical comma again in the Rabbit Hole (line 333) |
-| ESPN 2026, the six (cold open) | "We'll have to see," with a wry smile, seconds later | Absent |
-| TIME 2024, Olympic snub (H2 3, line 190) | She also maintained she was good enough; called it a "blessing" that "woke a monster" | Only "I gave them a lot of reasons to keep me off the team" |
-| ESPN 2026, her fire (H2 7, line 302) | "The fire and the passion, that's what makes me, me" | Only "I can always say allow myself grace, but…" |
+| ESPN 2026, the six (cold open)              | "We'll have to see," with a wry smile, seconds later                                  | Absent                                                                                                                         |
+| TIME 2024, Olympic snub (H2 3, line 190)    | She also maintained she was good enough; called it a "blessing" that "woke a monster" | Only "I gave them a lot of reasons to keep me off the team"                                                                    |
+| ESPN 2026, her fire (H2 7, line 302)        | "The fire and the passion, that's what makes me, me"                                  | Only "I can always say allow myself grace, but…"                                                                               |
 
 Individually each is arguable compression. Together they manufacture a more self-flagellating person
 than the record contains, in exactly the direction the thesis needs, at exactly the three points the
@@ -61,7 +62,7 @@ five cost a clause each. My arithmetic puts the P0-only revision at roughly 4,49
 where the ceiling actually bites — see **Conflicts and editorial tradeoffs**.
 
 Recommendation: **revise**. Do not restructure. Every P0 is a clause-to-sentence repair, and in five
-of the ten the accurate version is a *better* argument for Type 1 than the trimmed version — a One
+of the ten the accurate version is a _better_ argument for Type 1 than the trimmed version — a One
 who believes she is good enough and is still auditing is a more specific and more defensible claim
 than a One who only indicts herself.
 
@@ -110,12 +111,12 @@ than a One who only indicts herself.
 - **Adjudicated problem.** Two faults in one paragraph. (a) Of that scene, only "practice" and
   "technical" are sourced. No located source contains a scout team, a blue squad, reserves and
   walk-ons, a week's assignment, a mid-drill whistle, or a return to the floor. (b) The one named
-  account — Jan Jensen — says Bluder "kicked her out of practice and gave her a technical *and those
-  things*," plural and habitual, and Bluder separately describes practice technicals as a recurring
+  account — Jan Jensen — says Bluder "kicked her out of practice and gave her a technical _and those
+  things_," plural and habitual, and Bluder separately describes practice technicals as a recurring
   management tool she called herself from the bench when hired officials would not. The draft
   converts a standing habit into a single incident and adds an exculpatory detail ("back in for the
   next drill") that contradicts the sourced ejection. The SECOND PASS NOTES describe this rewrite as
-  an accuracy *correction*; it moved away from the only named source, in the flattering direction.
+  an accuracy _correction_; it moved away from the only named source, in the flattering direction.
 - **Evidence and confidence.** Packet CLM-05 (**disputed / partly unsourced**, "the packet's largest
   gap"), S-17, S-21, S-22, Disputes item 1. **Confidence: high** that the specifics are unsourced and
   that recurrence is the sourced framing.
@@ -125,13 +126,13 @@ than a One who only indicts herself.
   squad, the walk-ons, the mid-drill whistle, and the return. Make the H2 1 and Rabbit Hole
   references describe the same event as the repaired H2 7. If RQ-02 returns the scout-team detail
   from the podcast audio, the scene survives with attribution.
-- **Reader benefit.** The recurring version is *better evidence* for the thesis. A coach who builds a
+- **Reader benefit.** The recurring version is _better evidence_ for the thesis. A coach who builds a
   standing mechanism for one player's practice anger says more about how the anger works than one
   bad afternoon does. And the article's most vivid fact stops being its least sourced one.
 - **At risk.** The unfamiliar reviewer named the walk-on gloss as a must-survive hit
   (UNFAMILIAR-H4) — it is the clause that converts an insider noun into a moral fact. Sourcing wins:
   invented specificity about identifiable low-status people is the fairness failure a subject would
-  name first. If RQ-02 supports it, restore it verbatim. Otherwise the beat's *function* (the fire
+  name first. If RQ-02 supports it, restore it verbatim. Otherwise the beat's _function_ (the fire
   cost the room something real) survives on the recurring version.
 - **Acceptance test.** Every concrete noun in the revised passage — who she went at, what drill, what
   happened after — traces to a named source in the packet ledger, or is gone. The article states the
@@ -211,10 +212,10 @@ than a One who only indicts herself.
 - **Adjudicated problem.** Two layers. (a) Packet CLM-25 classifies this as the article's central
   resolving move and records that no located source has Clark describing her standard this way — yet
   it is written as a property of Clark, not as the writer's reading. (b) The enneagram reviewer
-  surfaced a first-person account of the same behavior that describes a *different* mechanism: "I
+  surfaced a first-person account of the same behavior that describes a _different_ mechanism: "I
   think the risk assessment thing, maybe it's a toxic part of me, but I always think it's going to go
   well, and I throw it and it doesn't go well," plus "that's just how I play." That is miscalibrated
-  outcome-*expectation*, self-labeled as a flaw and knowingly retained — which is a prediction about
+  outcome-_expectation_, self-labeled as a flaw and knowingly retained — which is a prediction about
   the ball arriving, the very thing the draft says she does not grade. Combined with P0-04, the
   reader has no remaining test: bad outcomes confirm the type, good outcomes confirm the type, and
   the stated falsifier is an invention.
@@ -245,7 +246,7 @@ than a One who only indicts herself.
   afterward that she had not realized it happened. The biggest number in the sport went by and she
   did not feel it**, because a career scoring total is an accounting somebody else keeps."
 - **Adjudicated problem.** Attributed as reported speech. Her actual answer, to whether she was aware
-  of the record *when she stepped to the line*: "Not really. When they announced it and everybody
+  of the record _when she stepped to the line_: "Not really. When they announced it and everybody
   screamed, that's when I knew." Not tracking a total while shooting a free throw is unremarkable for
   any shooter; the article converts it into "the record did not register," which is the entire
   evidentiary content of the paragraph. It also asserts an interior state ("she did not feel it") she
@@ -266,7 +267,7 @@ than a One who only indicts herself.
 - **Originating reviews.** CRITIC-C8, FAN-R3 (blocker), SUBJ-C7.
 - **Location.** H2 6, line 244.
 - **Quoted passage.** "> 'Those are **hella good** numbers. But, to me, that's not dominating.' —
-  Sheryl Swoopes, *Gil's Arena*, September 2024"
+  Sheryl Swoopes, _Gil's Arena_, September 2024"
 - **Adjudicated problem.** Indexed renderings give "helluva numbers" or "hell of a numbers." "Hella
   good" was not located anywhere by the packet or by three reviewers. This is a block quote
   attributed to a named living Hall of Famer whose credibility the article then adjudicates, inside
@@ -279,7 +280,7 @@ than a One who only indicts herself.
   `docs/content-analysis/research/Caitlin-Clark.md:128` carries "Those are hella good numbers"
   verbatim. The draft faithfully reproduced a bad research file. **Fix both files**, or the misquote
   returns on the next refresh and on every future piece built from that research.
-- **Minimum repair.** Use "helluva numbers" (or the *Gil's Arena* audio rendering if heard). Change
+- **Minimum repair.** Use "helluva numbers" (or the _Gil's Arena_ audio rendering if heard). Change
   "in the same breath" to "in the same appearance." Correct the research file at line 128.
 - **Reader benefit.** Removes a self-inflicted credibility wound in the article's most politically
   load-bearing paragraph, at a cost of one word.
@@ -317,14 +318,14 @@ than a One who only indicts herself.
 
 - **Originating reviews.** CRITIC-C6, SUBJ-I3, ENN-C4.
 - **Location.** H2 5, line 232 — inside the article's load-bearing paragraph.
-- **Quoted passage.** "Cynthia Cooper, asked about her by *Women's Sports Now* in 2026, **named the
+- **Quoted passage.** "Cynthia Cooper, asked about her by _Women's Sports Now_ in 2026, **named the
   same faculty from the outside**: 'She has a high level of basketball IQ.'"
 - **Adjudicated problem.** "The same faculty" claims a Hall of Famer independently corroborated
-  Clark's *self-grading of her own decisions*. I traced the quote to
+  Clark's _self-grading of her own decisions_. I traced the quote to
   `docs/content-analysis/research/Caitlin-Clark.md:133`, where its full context is: "What most
   impresses me about Caitlin is that she can get to the rim. She has a high level of basketball IQ.
   She can get to the rim and get other players involved, get to the free-throw line." That is rim
-  pressure and playmaking breadth — decision *quality*, not decision *auditing*. The overclaim is
+  pressure and playmaking breadth — decision _quality_, not decision _auditing_. The overclaim is
   confirmed-false regardless of whether the quote is verbatim. Separately, the packet could not
   independently confirm the sentence against the video (CLM-26, S-28).
 - **Evidence and confidence.** Packet CLM-26; repo research file traced this session; three reviewers.
@@ -357,7 +358,7 @@ than a One who only indicts herself.
   love. **Frequently mistyped as an 8.**" The same pillar gives the sp One as the variant where "anger
   runs most repressed." The draft's own body evidence is the opposite of repressed anger: Bluder
   naming three outward targets, anger leaking onto teammates, coaches and officials, a sports
-  psychologist intervening *specifically because* the outward discharge was damaging the room, and a
+  psychologist intervening _specifically because_ the outward discharge was damaging the room, and a
   coach calling technicals on her in practice. The draft then spends a Rabbit Hole paragraph refuting
   Type 8 — which the pillar names as the sx One's standard mistype. The article encountered the
   signature and read it as a reason to argue against Eight rather than as a reason to revisit the
@@ -420,8 +421,7 @@ them.
   21.5 points and 8.0 assists, third in the league in scoring and second in assists. The Fever **are**
   19-11. … while appearing on the injury report with a back that **keeps threatening** to sit her
   down."
-- **Adjudicated problem.** The 2026 regular season ends September 24 and the playoffs begin September
-  27. A section written in the present tense, seven weeks short of a postseason it never anticipates,
+- **Adjudicated problem.** The 2026 regular season ends September 24 and the playoffs begin September 27. A section written in the present tense, seven weeks short of a postseason it never anticipates,
   reads in October as an article that stopped watching. Four smaller instances share the defect:
   "third in scoring" is correct but held by 0.1 PPG over fourth place (verified by FUTURE against
   StatMuse on 2026-08-05: Wilson 26.6, Mitchell 24.0, Clark 21.5, Stewart 21.4); "who **now** coaches
@@ -436,7 +436,7 @@ them.
   Replace the ranks with "top three in scoring, top two in assists." Bind the injury: "appearing on
   the August injury report with a back problem." Replace "who now coaches her in Indiana" with "who
   took over as her head coach in Indiana in 2025." Apply the article's own past-perfect pattern
-  ("No player in WNBA history *had ever* put up 40 and 10") to the 200-threes line, and change the
+  ("No player in WNBA history _had ever_ put up 40 and 10") to the 200-threes line, and change the
   TL;DR to "also set its single-season turnover record," which is permanently true and sharper.
   Net cost: approximately zero.
 - **Reader benefit.** The section ages into archive rather than into error, and the piece stops
@@ -492,7 +492,7 @@ them.
 - **Adjudicated problem.** An internal contradiction, on an unsourced number, in the article's first
   and last beats. The bookend is the sentence readers would repeat, and the impression left is that
   the more dramatic number was chosen for the ending.
-- **Evidence and confidence.** Packet CLM-31: the *Full Court Press* home video establishes the event
+- **Evidence and confidence.** Packet CLM-31: the _Full Court Press_ home video establishes the event
   and the motive; no located source pins the age. **Confidence: high.**
 - **Minimum repair.** Drop the age from both places and keep the motive, which is sourced. The bookend
   carries on "his that morning" and "the gap was hers to close." ~3 words.
@@ -566,8 +566,8 @@ them.
 - **Location.** H2 4, line 218.
 - **Adjudicated problem.** I inspected the rendering: `.inner-thought` (`src/scss/blog.scss:592`)
   renders italic on a gradient panel with a stroked thought-bubble icon and **no attribution line**,
-  which distinguishes it from the em-dash-attributed block quotes but marks it as *what she was
-  thinking*, not as *what the writer imagines she was thinking*. The H2 8 block is partly rescued by
+  which distinguishes it from the em-dash-attributed block quotes but marks it as _what she was
+  thinking_, not as _what the writer imagines she was thinking_. The H2 8 block is partly rescued by
   the sentence after it ("Her own account of it, given to ESPN months later"), which implies the
   preceding block was not her account. The H2 4 block has no such cue and follows a table of verified
   statistics — the worst possible neighbor for an invented passage. The subject just told a national
@@ -615,7 +615,7 @@ them.
 - **Location.** H2 1 pressure-test (line 140) and Rabbit Hole → "Counterarguments" (line 345).
 - **Adjudicated problem.** Both rebuttals target an image-managing Three, and that Three was never in
   contention. The Three that competes is the self-preservation Three — the variant uncomfortable with
-  self-promotion, that wants to *be* good at the work rather than be seen as good, and the single
+  self-promotion, that wants to _be_ good at the work rather than be seen as good, and the single
   most common Three mistyped as a One. Every discriminator the draft offers is also sp-Three
   behavior: disclaiming the outcome, refusing to manage the room, self-criticizing on camera, saying
   the trophy does not keep her up at night. The counterargument section is therefore the least
@@ -623,8 +623,8 @@ them.
 - **Evidence and confidence.** ENN's reading against the house pillar; packet corroborates the
   narrowness of the pressure-testing ("covers Three and Eight and stops there"). **Confidence: high.**
 - **Minimum repair.** Discriminate on core fear rather than on room management — and the piece already
-  contains the discriminator. A Three's dread is worthlessness and attaches to *output*; a One's
-  dread is moral corruption and attaches to *character*. Clark's own filter in H2 6 shows output
+  contains the discriminator. A Three's dread is worthlessness and attaches to _output_; a One's
+  dread is moral corruption and attaches to _character_. Clark's own filter in H2 6 shows output
   criticism bouncing and character criticism landing. Point the counterargument section at that
   paragraph in two sentences. ~20 words, and it can partly replace existing text.
 - **Reader benefit.** Converts the article's weakest argument into a second use of its strongest one,
@@ -722,13 +722,13 @@ them.
 - **Exact source needed.** The ESPN broadcast segment / YouTube `arXekQ8W4_c`, watched at the question
   timestamp. Ten seconds of viewing settles it.
 - **What it decides.** If she answered deliberately, the cold open and TL;DR bullet 1 must be
-  re-hinged on the *content* of the answer (60 games, two playoff games, age 24 — an audit rendered as
+  re-hinged on the _content_ of the answer (60 games, two playoff games, age 24 — an audit rendered as
   a rationale), and PROTECT-08 fails with it. If she answered fast, the claim stays and should be
   logged with a timestamp. **Do not publish the tempo claim unverified.**
 
 ### RQ-02 — Does the Jensen podcast episode contain the scout-team detail?
 
-- **Question.** Does *Talkin' Hawks with The VandeBergs* (~July 2025, Jan Jensen episode) describe a
+- **Question.** Does _Talkin' Hawks with The VandeBergs_ (~July 2025, Jan Jensen episode) describe a
   scout team, a blue squad, a mid-drill technical, and a return to the floor — or only the plainer
   ejection?
 - **Why it cannot be improvised.** Both written sources refuse direct fetch (On3 HTTP 403, Sportskeeda
@@ -747,7 +747,7 @@ them.
 - **Why it cannot be improvised.** ENN reached it through aggregators (Pro Football Network,
   Basketball Network) and explicitly declined to treat its own rendering as citable. The packet has
   S-29 at headline level only.
-- **Exact source needed.** The Sue Bird podcast appearance (*Bird's Eye View*, 2024) — episode audio
+- **Exact source needed.** The Sue Bird podcast appearance (_Bird's Eye View_, 2024) — episode audio
   or a primary transcript.
 - **What it decides.** Whether P0-05's repair is the cheap version (mark the mechanism as inference)
   or the strong version (quote her and argue with her). The strong version would convert the piece's
@@ -757,11 +757,11 @@ them.
 
 ### RQ-04 — Verify the Cynthia Cooper sentence
 
-- **Question.** Does Cooper say "She has a high level of basketball IQ" in the *Women's Sports Now*
+- **Question.** Does Cooper say "She has a high level of basketball IQ" in the _Women's Sports Now_
   appearance?
 - **Why it cannot be improvised.** The quote traces only to `research/Caitlin-Clark.md:133`; the
   packet could not confirm it against the video (S-28, video not watched).
-- **Exact source needed.** The *Women's Sports Now* video, `BIY706euCLo`.
+- **Exact source needed.** The _Women's Sports Now_ video, `BIY706euCLo`.
 - **What it decides.** Whether the quote can appear at all. **Note: P0-09 has a safe no-research path**
   — cutting the sentence resolves both the overclaim and the verification question, and two reviewers
   say the paragraph is stronger without it. This RQ is only for an editor who wants to keep it.
@@ -770,7 +770,7 @@ them.
 
 - **Question.** How does Clark word her claim that she was good enough for the Olympic roster, and how
   close does it sit to the "tremendous point" concession?
-- **Why it cannot be improvised.** SUBJ's fetch returned TIME's *narration* ("She knew she was good
+- **Why it cannot be improvised.** SUBJ's fetch returned TIME's _narration_ ("She knew she was good
   enough to be on the team") plus the blessing/monster material, but not her verbatim assertion. The
   packet's own limitation 5 records that TIME was summarized rather than read line by line.
 - **Exact source needed.** `time.com/7200904` full text.
@@ -808,7 +808,7 @@ The critic argues the clause retires the question the paragraph claims to hold o
 contestable on the record (her critics say she could use the platform differently, which is an action
 available to her). Four perspectives — SUBJ-H3, ENN-H4, FUTURE-H3, UNFAMILIAR — name that exact
 sentence as a hit and ask for it verbatim. **Ruling: keep the clause.** The critic's reading is not
-wrong, but the sentence's value is that it declines to convict *or* exonerate on current information,
+wrong, but the sentence's value is that it declines to convict _or_ exonerate on current information,
 and three independent reviewers (including the fairness proxy and the durability proxy) tested it and
 found it does that. Rejected, logged below.
 
@@ -817,7 +817,7 @@ as the article settling, in its own voice, the exact question in dispute (whethe
 gave her standing and obligation). The subject reviewer names the same sentence as the clearest
 separation in the piece between her conduct and her fanbase's, and asks for it verbatim. **Ruling:
 keep the sentence, accept the other half of the critic's finding.** In context "argue with" reads as
-*dispute the facts of*, not *is powerless* — and the article's very next beat has her speaking. The
+_dispute the facts of_, not _is powerless_ — and the article's very next beat has her speaking. The
 critic's stronger, packet-supported point is the sequencing, which is accepted as P1-07.
 
 **4. CRITIC-C3 versus UNFAMILIAR-H5 — the Rabbit Hole's permission-to-skip line.** The critic wants
@@ -854,7 +854,7 @@ into the subtype argument) and option (b) is cheaper.
 
 **8. Where five reviewers converge on a repair that improves the argument.** Worth stating plainly so
 the editor does not treat this pass as damage control: in P0-01, P0-02, P0-03, P0-05 and P1-10, the
-accurate or fuller version is a *stronger* case for Type 1 than what the draft currently carries. A
+accurate or fuller version is a _stronger_ case for Type 1 than what the draft currently carries. A
 One who believes she is good enough and audits anyway; a coach who built a standing mechanism rather
 than had one bad afternoon; an argument that survives her naming an outcome goal; a mechanism marked
 as inference and then defended; a Three eliminated on core fear rather than on room management. The
@@ -879,10 +879,10 @@ repairs are not concessions.
   Six's dread is danger and misinterpretation, a One's is moral corruption — and Clark's stated dread
   is explicitly character-based. Adding a Six section would spend scarce words defending against an
   alternative no informed reader will raise, and the packet's open item 9 closes without research.
-  P1-10 aims the counterargument at the alternative that *does* compete.
+  P1-10 aims the counterargument at the alternative that _does_ compete.
 - **CRITIC's request for treatment of the Maravich record's contested framing as a fairness matter.**
   Reclassified, not rejected: the NCAA D-I claim is defensible as written (packet CLM-09), so this is
-  not a correction. It survives as P2-06 because the fan reviewer showed it is a *credibility*
+  not a correction. It survives as P2-06 because the fan reviewer showed it is a _credibility_
   opportunity — Bluder called Woodard's "the real record" — rather than an error.
 - **FUTURE-C9 — rewrite "the number is not going to move much."** Rejected, on the reviewer's own
   instruction ("Treat it as informational; it does not need to be actioned"). The next clause already
@@ -894,7 +894,7 @@ repairs are not concessions.
 **Out-of-scope demands: none.** No reviewer asked for praise, condemnation, subject approval, full
 biography, or more jargon. The fan explicitly declined to penalize missing canon under the word
 ceiling; the unfamiliar reader explicitly declined to ask for biography; the enneagram reviewer
-explicitly argued *against* adding a type section. Worth noting because it means nothing in the
+explicitly argued _against_ adding a type section. Worth noting because it means nothing in the
 review set needed to be discounted for role bias.
 
 ## Protected hits
@@ -942,7 +942,7 @@ Ordered, bounded worklist. Steps 1–2 are mandatory. Step 3 is bounded by the c
 conflict 1.
 
 **Step 0 — before editing.** Resolve RQ-01 (ten seconds of video) and RQ-02 (podcast audio). Both
-change what the repair *is* rather than whether to make it, and doing them first avoids reworking the
+change what the repair _is_ rather than whether to make it, and doing them first avoids reworking the
 cold open and H2 7 twice.
 
 **Step 1 — the ten P0 repairs, in this order.** Grouped so the directional-edit cluster is fixed as
@@ -955,12 +955,12 @@ one pass rather than four.
 3. **P0-06** Maravich — swap the paraphrase for her verbatim answer.
 4. **P0-08** TL;DR bullet 4 — replace the intent claim with the convergence claim.
 5. **P0-02** Practice scene — de-specify to Jensen and Bluder, restore recurrence, propagate to H2 1
-   and the Rabbit Hole. *(Or restore the scene with attribution if RQ-02 supports it.)*
+   and the Rabbit Hole. _(Or restore the scene with attribution if RQ-02 supports it.)_
 6. **P0-07** Swoopes wording — "helluva," "in the same appearance," **and fix
    `research/Caitlin-Clark.md:128`.**
 7. **P0-09** Cooper — cut the sentence (frees ~22 words for step 3).
-8. **P0-05** Turnover mechanism — mark as the article's inference and name a falsifier. *Handle with
-   care: PROTECT-01.*
+8. **P0-05** Turnover mechanism — mark as the article's inference and name a falsifier. _Handle with
+   care: PROTECT-01._
 9. **P0-04** Rabbit Hole falsification list — replace the invented Seattle datum.
 10. **P0-10** Subtype — delete the "single rival" definition, address the anger-direction evidence,
     choose ENN's path (a) or (b).
@@ -1010,7 +1010,7 @@ present and uncompressed:
 6. "The reframe changes what the behavior means without changing what it cost," upstream of H2 7's
    new ending.
 7. "Nobody has told her the gap closed."
-8. The cold open through "Six." *(re-verify against RQ-01's result)*.
+8. The cold open through "Six." _(re-verify against RQ-01's result)_.
 9. "It is August 2026" and the H2 8 heading.
 10. The Rabbit Hole's permission-to-skip line.
 11. The Goldman Sachs quote with "I mean, like, yes" intact.

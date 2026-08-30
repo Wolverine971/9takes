@@ -1,3 +1,5 @@
+<!-- docs/seo/2026-08-13-compatibility-consolidation-implementation.md -->
+
 # Compatibility Guide Retirement Implementation
 
 **Date:** 2026-08-13  

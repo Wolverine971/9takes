@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 6
 reviewed_at: 2026-08-12T05:27:03Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/unfamiliar.md
 ---
 
 ## Bottom-line verdict
@@ -103,9 +104,9 @@ I am recording zero rather than promoting the strongest concern to fill this sec
 ### UNFAMILIAR-C1 — Asserted interiority arrives before the disclaimer that governs it
 
 - **Location.** The `<p class="inner-thought">` block in "The father who took David Beckham out for hours," beginning "Nobody is watching, so what is he tidying for?" and ending "and he has never once tested what happens if he lets it."
-- **Reader effect.** This is the one place I stopped trusting the narrator. The article tells me what he is tidying for, what he cannot name, and what he has never once done — three claims about a living person's private mind, stated flat. Because the ITV quote and the "cannot establish a clinical diagnosis" paragraph both come *after*, the invasive reading gets to stand alone in my head for a full block first.
+- **Reader effect.** This is the one place I stopped trusting the narrator. The article tells me what he is tidying for, what he cannot name, and what he has never once done — three claims about a living person's private mind, stated flat. Because the ITV quote and the "cannot establish a clinical diagnosis" paragraph both come _after_, the invasive reading gets to stand alone in my head for a full block first.
 - **Evidence.** The paragraph asserts a never-event ("he has never once tested") about a private domestic routine. Nothing in the article's sourcing — the packet's first-person material is Beckham's own descriptions of the rituals, not of what he fears would happen if he stopped — can support it. The article's own standard, stated two paragraphs later, is that a television interview cannot establish what is going on inside this behavior.
-- **Minimum viable repair.** Two moves, no net words. (a) Move the block to *after* the ITV quote and the "Those are Beckham's words" paragraph, so it reads as the article's speculation on evidence already in view. (b) Convert the two hardest assertions to open questions or explicit speculation: keep "Nobody is watching, so what is he tidying for?" and end on a question rather than the never-event claim — cut "and he has never once tested what happens if he lets it," which is the single unsupportable clause.
+- **Minimum viable repair.** Two moves, no net words. (a) Move the block to _after_ the ITV quote and the "Those are Beckham's words" paragraph, so it reads as the article's speculation on evidence already in view. (b) Convert the two hardest assertions to open questions or explicit speculation: keep "Nobody is watching, so what is he tidying for?" and end on a question rather than the never-event claim — cut "and he has never once tested what happens if he lets it," which is the single unsupportable clause.
 - **Expected benefit.** The passage keeps its psychological reach while ceasing to read as claimed access. For a stranger, it converts the article's most invasive moment into its most curious one.
 - **Confidence.** High on the reader effect; high that the never-event clause is unsupportable.
 - **Acceptance test.** A reader with no prior knowledge, shown only this section, cannot point to a sentence that states as fact something only Beckham could know. The section still poses the question of what the ritual is for.

@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/perspective-reviews/README.md -->
+
 # People-blog perspective reviews
 
 This directory stores the independent audience-perspective gate run by `scripts/run-blog-pipeline.sh`.

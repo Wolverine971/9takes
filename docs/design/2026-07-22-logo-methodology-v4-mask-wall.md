@@ -1,3 +1,5 @@
+<!-- docs/design/2026-07-22-logo-methodology-v4-mask-wall.md -->
+
 # 9takes Logo Methodology V4 — The Mask Mosaic
 
 ## Reset

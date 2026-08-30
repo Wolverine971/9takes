@@ -14,6 +14,7 @@ description: |
   
   #TheKingdom2025 #PatrickMahomes #KansasCityChiefs #NFL #SuperBowl #ChiefsKingdom #Football #SportsDocumentary
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/the-kingdom-s1e1-family-business.md
 ---
 
 # The Kingdom 2025 S1E1 | Patrick Mahomes & Chiefs Begin Super Bowl Quest

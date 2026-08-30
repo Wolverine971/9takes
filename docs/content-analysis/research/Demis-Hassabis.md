@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Demis-Hassabis.md -->
+
 # Demis Hassabis — Research Evidence File
 
 Created: 2026-08-29 (creator baseline for `/blog_content_creator_people_v2`, non-interactive run).

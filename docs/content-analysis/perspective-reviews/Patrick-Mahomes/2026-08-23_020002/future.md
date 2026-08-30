@@ -12,13 +12,14 @@ recommendation: revise
 blockers: 2
 concerns: 9
 reviewed_at: 2026-08-23T07:20:02Z
+path: docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/future.md
 ---
 
 ## Bottom-line verdict
 
-Read twelve months out (August 2027), the thesis of this draft survives almost untouched: the Type 6 case is built on 2021–2023 podcast evidence (WHOOP, *New Heights*, CBS) and the 2025 *Kingdom* footage, none of which expires. The draft also did the single most important durability thing right: the ACL arc is an appendix that pays off one thesis beat (the Cooper test) rather than the spine. What does not survive is the wrapper. The intro and the final three paragraphs are written in the present tense of August 22, 2026 ("as of this writing," "In camp he is already," "He sat out both August preseason games," "On September 14 the Broncos come to Arrowhead," "Whether he takes the first snap is… somebody else's call"), and every one of those sentences flips within 22 days of the snapshot. The closing line, the best in the piece, carries a hard number ("Nine years after draft night") that goes stale in April 2027.
+Read twelve months out (August 2027), the thesis of this draft survives almost untouched: the Type 6 case is built on 2021–2023 podcast evidence (WHOOP, _New Heights_, CBS) and the 2025 _Kingdom_ footage, none of which expires. The draft also did the single most important durability thing right: the ACL arc is an appendix that pays off one thesis beat (the Cooper test) rather than the spine. What does not survive is the wrapper. The intro and the final three paragraphs are written in the present tense of August 22, 2026 ("as of this writing," "In camp he is already," "He sat out both August preseason games," "On September 14 the Broncos come to Arrowhead," "Whether he takes the first snap is… somebody else's call"), and every one of those sentences flips within 22 days of the snapshot. The closing line, the best in the piece, carries a hard number ("Nine years after draft night") that goes stale in April 2027.
 
-Two findings are outside the temporal lane but meet the shared blocker definition and I confirmed both against primary sources rather than the packet alone: the draft calls *The Kingdom* "the 2025 ESPN docuseries he co-produced" (he is not a credited producer; 2PM Productions is an "in association with" partner), and it prints Travis Kelce's "Coach Reid is gonna kill me" as a Mahomes quote. Both are one-line fixes; both are the kind of error that gets more checkable, not less, as the sources stay online.
+Two findings are outside the temporal lane but meet the shared blocker definition and I confirmed both against primary sources rather than the packet alone: the draft calls _The Kingdom_ "the 2025 ESPN docuseries he co-produced" (he is not a credited producer; 2PM Productions is an "in association with" partner), and it prints Travis Kelce's "Coach Reid is gonna kill me" as a Mahomes quote. Both are one-line fixes; both are the kind of error that gets more checkable, not less, as the sources stay online.
 
 Recommendation: revise. Fix the two factual items, convert the status cluster to dated scenes, and design the closer so it survives whichever way September 14 goes.
 
@@ -49,20 +50,20 @@ Recommendation: revise. Fix the two factual items, convert the status cluster to
 
 - **Welcome:** how little of the argument rests on 2025–2026. Remove every sentence that postdates the ACL tear and the Type 6 case loses only the Cooper-test echo. That is unusual for a people draft written against a news hook and it is why the value rating is high.
 - **Welcome:** the draft already refuses the two most dateable numbers (no final 2025 record, no contract figures) and names the children by birth year only. Those are durability choices, intentional or not.
-- **Jarring:** the "co-produced" credit. *The Kingdom* is a permanently streaming series with a public press-release credits block; this is the most checkable sentence in the diagnosis section and it is wrong. It also props up an interpretive line ("disclosed only when he controlled the room") that a reader will reasonably distrust once they see the credit is false.
+- **Jarring:** the "co-produced" credit. _The Kingdom_ is a permanently streaming series with a public press-release credits block; this is the most checkable sentence in the diagnosis section and it is wrong. It also props up an interpretive line ("disclosed only when he controlled the room") that a reader will reasonably distrust once they see the credit is false.
 - **Jarring:** a quote the draft uses to show Mahomes's "specific dread" of Reid belongs to Travis Kelce, three sentences after Travis says "Travis was also like he got there five minutes before." Auto-transcripts get cleaned and clipped over time, so this becomes easier for a fan to catch, not harder.
 
 ## Red flags
 
 ### FUTURE-R1 — "the 2025 ESPN docuseries he co-produced" (blocker; material factual error; outside temporal lane, confirmed)
 
-- **Location:** "What is Patrick Mahomes's personality type?" → paragraph beginning "The two crowd reads each have a case," the clause "he says in *The Kingdom*, the 2025 ESPN docuseries he co-produced."
+- **Location:** "What is Patrick Mahomes's personality type?" → paragraph beginning "The two crowd reads each have a case," the clause "he says in _The Kingdom_, the 2025 ESPN docuseries he co-produced."
 - **Reader effect:** a checkable credit is wrong, and it silently underwrites the later argument that he "waited until he trusted the structure" / "controlled the room it was disclosed in."
-- **Evidence:** Disney+ press release for *The Kingdom* (fetched 2026-08-23): executive producers Connor Schell, Jason Hehir, Libby Geist, Aaron Cohen; "Produced by Words + Pictures in association with Skydance Sports, NFL Films, 2PM Productions, and Foolish Club Studios." Mahomes is not credited. He is a credited EP on Netflix *Quarterback* (2023), which may be the source of the conflation. Packet CLM-04 agrees.
+- **Evidence:** Disney+ press release for _The Kingdom_ (fetched 2026-08-23): executive producers Connor Schell, Jason Hehir, Libby Geist, Aaron Cohen; "Produced by Words + Pictures in association with Skydance Sports, NFL Films, 2PM Productions, and Foolish Club Studios." Mahomes is not credited. He is a credited EP on Netflix _Quarterback_ (2023), which may be the source of the conflation. Packet CLM-04 agrees.
 - **Minimum viable repair:** replace "he co-produced" with a true description ("the 2025 ESPN docuseries made with his production company's participation" or simply "the 2025 ESPN docuseries"). If the "controlled the room" reading in the father's-arrest section is to stand, rest it on the on-camera setting and timing, not on a producer credit.
 - **Expected benefit:** removes the one factual claim in the diagnosis section that a fan can falsify in ten seconds.
 - **Confidence:** high.
-- **Acceptance test:** the body contains no producer/co-producer/executive-producer claim about *The Kingdom*; the Netflix *Quarterback* EP credit, if mentioned, is attached to *Quarterback* only.
+- **Acceptance test:** the body contains no producer/co-producer/executive-producer claim about _The Kingdom_; the Netflix _Quarterback_ EP credit, if mentioned, is attached to _Quarterback_ only.
 
 ### FUTURE-R2 — "I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes." (blocker; quote misattribution; outside temporal lane, confirmed)
 
@@ -156,7 +157,7 @@ Recommendation: revise. Fix the two factual items, convert the status cluster to
 
 ### FUTURE-C9 — Fragile citations under the sharpest paragraph (concern)
 
-- **Location:** "What Patrick Mahomes Said About His Father's Arrest" → the *Kingdom* quotes from Mahomes and Pat Sr. (E5), and "one of the lowest points in my career" (E6) in the final section.
+- **Location:** "What Patrick Mahomes Said About His Father's Arrest" → the _Kingdom_ quotes from Mahomes and Pat Sr. (E5), and "one of the lowest points in my career" (E6) in the final section.
 - **Reader effect:** the "order of operations" paragraph is the best interpretive paragraph in the piece and rests on secondary transcriptions; the packet records three published variants of Pat Sr.'s apology line and prints the draft's as a fourth. The series remains streaming, so over twelve months the primary only gets easier to check and any wording drift gets easier to catch.
 - **Evidence:** packet CLM-40, S12, S19; search 2026-08-23 found no second season and the series still listed on Disney+/ESPN.
 - **Minimum viable repair:** verify the E5 and E6 lines against the stream once (not three outlets) and lock the wording; the draft's meaning does not change.
@@ -179,7 +180,7 @@ Recommendation: revise. Fix the two factual items, convert the status cluster to
 - **FUTURE-Q1 — Did he start on September 14, 2026, and how much did he run?** Changes: the final three paragraphs (C3) and the stress reading (C7). Best source: the ESPN or KSHB game story plus Next Gen Stats scramble counts for Weeks 1–4 against his 2025 rate.
 - **FUTURE-Q2 — Has Mahomes described his weekly film routine as unchanged in any 2024–2026 interview?** Changes: whether "unchanged for nine years" can stand as written or must be bounded (C4). Best sources: the June 2026 GQ interview and 2026 Robb Report piece the packet lists as unretrieved; Chiefs presser transcripts around Week 1.
 - **FUTURE-Q3 — Did he play the August 28, 2026 preseason game against Seattle?** Changes: "both August preseason games" (C2). Best source: Chiefs.com inactives or KSHB.
-- **FUTURE-Q4 — Do the E5/E6 *Kingdom* quotes match the stream verbatim?** Changes: wording in the father's-arrest and final sections (C9). Best source: the episodes on Disney+/ESPN+, which remain available; no second season had been announced as of August 23, 2026.
+- **FUTURE-Q4 — Do the E5/E6 _Kingdom_ quotes match the stream verbatim?** Changes: wording in the father's-arrest and final sections (C9). Best source: the episodes on Disney+/ESPN+, which remain available; no second season had been announced as of August 23, 2026.
 - **FUTURE-Q5 — Does Kansas City win Super Bowl LXI or does Mahomes win a third MVP in February 2027?** Changes: the honors line (C6). Best source: NFL.com; schedule the check for the week after the Super Bowl.
 
 ## Preserve list
@@ -199,7 +200,7 @@ Recommendation: revise. Fix the two factual items, convert the status cluster to
 1. **Shared packet (`evidence-packet.md`, compiled 2026-08-23T07:12Z), read in full before any search.** Used for: the dated timeline (all status-sensitive dates), CLM-04, CLM-27, CLM-40, CLM-50, §Disputes 10, §Research limitations (the "nine years" inference). Decision affected: which claims are temporal vs. factual; C2, C4, C5, C9.
 2. **Question: has Week 1 / preseason status moved past the August 22 snapshot?** WebSearch 2026-08-23, two queries. Results: [KSN, "extremely confident" he'll play Week 1](https://www.ksn.com/sports/chiefs/patrick-mahomes-extremely-confident-hell-play-week-1-vs-broncos/); [SI Seahawks On SI, Chiefs likely resting starters vs Seattle](https://www.si.com/nfl/seahawks/onsi/nfl-preseason-chiefs-likely-resting-starters-against-seahawks); [Arrowhead Addict injury tracker](https://arrowheadaddict.com/patrick-mahomes-injury-tracker-latest-updates-return-timeline-and-projected-comeback-01kwppjtybt2). Athlon "return date" piece returned HTTP 403 and was not used. Decision: the snapshot's status claims are accurate as of today; the August 28 game and September 14 are the two imminent flip points (C2, C3). No new facts were added to the review.
 3. **Question: is "unchanged for nine years" supported by anything after 2022?** WebSearch 2026-08-23: [Newsweek, Feb 2023, week-of-superstitions piece](https://www.newsweek.com/patrick-mahomes-superstition-he-must-do-before-every-game-1779804) extends the routine claim to the 2022 season; nothing 2024–2026 surfaced. Decision: C4 bounds the claim to its source rather than calling it wrong.
-4. **Question: is a second *Kingdom* season or other first-person source forthcoming that would create an obvious refresh point?** WebSearch 2026-08-23: [ESPN Press Room premiere release](https://espnpressroom.com/us/press-releases/2025/07/espn-disney-and-skydance-sports-announce-premiere-date-and-unveil-new-trailer-for-the-kingdom-debuting-august-14-on-espn-espn-and-disney/); [Disney+ series page](https://www.disneyplus.com/explore/articles/the-kingdom-tv-show). No season 2 found. Decision: C9 treats the series as a stable primary to verify against; Q4.
+4. **Question: is a second _Kingdom_ season or other first-person source forthcoming that would create an obvious refresh point?** WebSearch 2026-08-23: [ESPN Press Room premiere release](https://espnpressroom.com/us/press-releases/2025/07/espn-disney-and-skydance-sports-announce-premiere-date-and-unveil-new-trailer-for-the-kingdom-debuting-august-14-on-espn-espn-and-disney/); [Disney+ series page](https://www.disneyplus.com/explore/articles/the-kingdom-tv-show). No season 2 found. Decision: C9 treats the series as a stable primary to verify against; Q4.
 5. **Verification of R1:** WebFetch of the [Disney+ press release](https://press.disneyplus.com/news/the-kingdom): EPs Schell, Hehir, Geist, Cohen; 2PM Productions "in association with." Decision: R1 promoted from packet note to confirmed blocker.
 6. **Verification of R2:** grep of `youtube-transcripts/mahomes/new-heights-ep15-mahomes.md` around "kill me"; speaker turn is Travis ("Travis was also like he got there five minutes before… were you with Pat last night"). Decision: R2 promoted from packet note to confirmed blocker.
 

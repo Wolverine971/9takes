@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 4
 reviewed_at: 2026-08-13T13:45:26Z
+path: docs/content-analysis/perspective-reviews/Travis-Kelce/2026-08-13_083250/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -23,21 +24,25 @@ Three problems keep it from passing clean. One is a blocker: the No. 87 origin s
 ## What landed
 
 **ENNEAGRAM-H1 — The marijuana-word deflection as live, discriminating evidence.**
+
 > "You saying 'marijuana' makes it sound so more intense. Why does that word sound so intense?" … "A man who can joke the word out of his own lowest moment is telling you exactly how he survives. He is a Seven. The pain gets metabolized into a bit before it can pin him down."
 
-This is the single most discriminating first-person datum in the piece: the 7's defense (rationalization, euphemism, reframing pain before it lands) caught operating in real time, on the record, about his own worst moment. It is also verified (packet S16, both beats confirmed), unlike much of the joy vocabulary. A Type 3 protects the image; a Type 8 owns the transgression as toughness; only the 7 pattern needs the *word itself* softened. This must survive revision because it is where the typing stops being a vibe and becomes an observation.
+This is the single most discriminating first-person datum in the piece: the 7's defense (rationalization, euphemism, reframing pain before it lands) caught operating in real time, on the record, about his own worst moment. It is also verified (packet S16, both beats confirmed), unlike much of the joy vocabulary. A Type 3 protects the image; a Type 8 owns the transgression as toughness; only the 7 pattern needs the _word itself_ softened. This must survive revision because it is where the typing stops being a vibe and becomes an observation.
 
 **ENNEAGRAM-H2 — The shove read as a failed reframe, not a tantrum.**
+
 > "A Seven's entire operating system is the conversion of a bad situation into a usable one. … That reflex needs a raw material to work on: a next move, a joke, a play to run. On that sideline he had none."
 
 This is correct use of the stress arrow (house material: "takes on rigid, critical qualities of Type 1" when "your usual reframing tactics stop working"), anchored to the draft's strongest verified first-person pillar ("those emotions get away from me… that's been the battle of my career," S2). It converts the most famous piece of anti-Kelce footage into a motivational insight a general reader can follow. The inner-thought panel earns its place: it renders the mechanism (appetite with nothing to spend it on) rather than inventing interiority.
 
 **ENNEAGRAM-H3 — The borrowed-discipline counter-thesis.**
+
 > "Rewired. By other people. The most honest thing Kelce has said about that process is how much effort it still costs."
 
 Reading the discipline as externally installed rather than self-made is a genuinely non-obvious motivational claim, it is type-relevant (Sevens outsourcing the structure they cannot generate), and it rests on verified third-party testimony (Veach and Reid via ESPN, S3, compressed renderings). It differentiates this piece from every "party guy who matured" profile in the SERP.
 
 **ENNEAGRAM-H4 — Core fear without jargon.**
+
 > "A Seven builds his whole life around the exits. Keep the options open, keep the fun coming, keep a door in reach in case the room stops being interesting."
 
 That is the house definition of the 7's core fear (being trapped, deprived, unfulfilled) rendered in twenty-six plain words, and the ending's reward-or-trap question is the core fear turned into a live dramatic stake. Person-first, accessible, accurate.
@@ -46,7 +51,7 @@ That is the house definition of the 7's core fear (being trapped, deprived, unfu
 
 **The null hypothesis is never tested.** The packet puts it precisely: all three stress incidents (the SB LVIII shove, the September 2025 spat, the 2023 camp punch) occur inside competition when Kelce is blocked from acting, which is consistent with the frustration-conversion story but equally consistent with garden-variety elite-athlete competitiveness. The draft never says what the type framework explains that "extremely competitive football player" does not. One sentence of contrast (the discriminator is off-field: the bracelet bit, the marijuana-word deflection, the reframe of his own punishment into gratitude — places competitiveness predicts nothing) would close this, and the draft already owns that evidence; it just never deploys it as the answer to the obvious skeptical question.
 
-**The typing machinery explains everything and therefore risks predicting nothing.** "He lives at both ends at once: Type 5 depth inside the building, Type 1 combustion when the plan breaks, and pure Type 7 buffet everywhere else" assigns every observed behavior a slot. Nowhere does the piece name an observation that would count *against* Type 7. The one behavior the packet flags as genuinely awkward for a novelty-first reading (thirteen seasons of one-franchise loyalty, re-signed below market) is narrated as a marvel and resolved entirely by the growth-arrow device, never conceded as tension.
+**The typing machinery explains everything and therefore risks predicting nothing.** "He lives at both ends at once: Type 5 depth inside the building, Type 1 combustion when the plan breaks, and pure Type 7 buffet everywhere else" assigns every observed behavior a slot. Nowhere does the piece name an observation that would count _against_ Type 7. The one behavior the packet flags as genuinely awkward for a novelty-first reading (thirteen seasons of one-franchise loyalty, re-signed below market) is narrated as a marvel and resolved entirely by the growth-arrow device, never conceded as tension.
 
 **The wing case ignores its own strongest counterevidence.** The Rabbit Hole dismisses 7w6 in one sentence: "A 7w6 would carry more anxiety and lean harder on the safety of the trusted circle. Kelce has the circle (his brother, the Chiefs building), and his default gear is still to push." But the entire article is a monument to circle-dependence: Jason's room, Reid the policeman, and Kelce's own verified "I know what I have here is special, and I can't get that anywhere else" (S3), which is practically a 7w6 exhibit. Crowd databases lean 7w6 (entity-gap audit). The w8 read is defensible on the documented aggression, but the argument as written waves off the strongest w6 datum while the rest of the piece supplies it.
 
@@ -59,21 +64,23 @@ That is the house definition of the 7's core fear (being trapped, deprived, unfu
 
 ## What surprised me
 
-- **Welcome:** the marijuana-word beat (H1) — I have not seen that used as typing evidence anywhere in the crowd-typing discourse, and it is the best datum in the piece. Also welcome: the draft resists etiology. The unstable-home material stays observational context for the brother bond and the audience-need; it is never claimed as the *cause* of the type, consistent with the site's standing do-not-write rules.
+- **Welcome:** the marijuana-word beat (H1) — I have not seen that used as typing evidence anywhere in the crowd-typing discourse, and it is the best datum in the piece. Also welcome: the draft resists etiology. The unstable-home material stays observational context for the brother bond and the audience-need; it is never claimed as the _cause_ of the type, consistent with the site's standing do-not-write rules.
 - **Jarring:** the same incident is spent twice under two different mechanisms. The Rabbit Hole's wing paragraph lists "the Super Bowl shove" as 8-wing evidence ("intensity spilling into confrontation: the Super Bowl shove, on-field jawing, a training-camp punch"), while the arrows section calls the same sideline "the cleanest film" of the 7→1 stress move. Both readings are individually defensible; deployed together without acknowledgment, they read as machinery flexed to fit.
 
 ## Red flags
 
 **ENNEAGRAM-R1 (BLOCKER) — The No. 87 origin story is stated as settled fact and its co-protagonist has publicly disputed it.**
+
 - **Passage:** "His jersey number is 87, and it has nothing to do with luck or the draft. It is the year his brother was born." … "The number on his back is a receipt." (section "Why Travis Kelce Wears No. 87") and FAQ 3: "The number has nothing to do with luck or the draft: 87 is the year his brother Jason was born."
-- **Evidence:** Jason Kelce, November 2025, on *New Heights* itself, called the origin story "the biggest load of bull****," said Travis "did not pick that number because of that" and "retroactively worked this in" (packet S8b, corroborated; packet Dispute #1). The NFL Films tribute quote is real; the *origin* claim is what is disputed.
+- **Evidence:** Jason Kelce, November 2025, on _New Heights_ itself, called the origin story "the biggest load of bull****," said Travis "did not pick that number because of that" and "retroactively worked this in" (packet S8b, corroborated; packet Dispute #1). The NFL Films tribute quote is real; the _origin_ claim is what is disputed.
 - **Reader effect:** any reader who heard that episode — of the subject's own nine-figure podcast — reads the section as credulous, and the FAQ serves the disputed version to search. The section's emotional load ("a receipt") and part of the borrowed-discipline evidence chain rest on it.
-- **Minimum viable repair:** one to two sentences acknowledging the dispute, and soften the FAQ. Critically, the repair *strengthens* the thesis: a tribute retrofitted onto a number after the fact is the Seven's reframe reflex operating on his own biography — the debt was real, and Kelce's wiring turned it into a better story. The draft already makes exactly this argument about the suspension ("He reframes even his own punishment into gratitude"); the 87 dispute is a free second instance.
+- **Minimum viable repair:** one to two sentences acknowledging the dispute, and soften the FAQ. Critically, the repair _strengthens_ the thesis: a tribute retrofitted onto a number after the fact is the Seven's reframe reflex operating on his own biography — the debt was real, and Kelce's wiring turned it into a better story. The draft already makes exactly this argument about the suspension ("He reframes even his own punishment into gratitude"); the 87 dispute is a free second instance.
 - **Expected benefit:** removes the piece's largest factual exposure and converts it into corroborating evidence.
 - **Confidence:** high (the dispute is documented; only the repair framing is judgment).
 - **Acceptance test:** neither the section nor FAQ 3 asserts the origin as unqualified fact; Jason's November 2025 dispute is acknowledged in some form; the tribute quote itself remains.
 
 **ENNEAGRAM-R2 (concern) — The diagnosis section's joy vocabulary rests on verbatim-unverified quotes.**
+
 - **Passage:** the four Rich Eisen 2024 quotes ("didn't cross my mind one bit," "excitement of the challenge… all I needed," "full send," "seatbelt… roller coaster") in the diagnosis section; also "I'm my own worst critic. … Everything outside of this building is just noise" (discipline section, no outlet given), which carries the growth-arrow evidence; also both GQ 2025 quotes underpinning the Type 3 rebuttal.
 - **Evidence:** packet CLM-05 (two targeted searches failed to verify any of the four Eisen quotes verbatim; appearance itself real, S27), Dispute #6, CLM-14.
 - **Reader effect:** the first-person voice that establishes the joy motivation, the growth-arrow seriousness, and the 3-rebuttal all carry paraphrase-drift risk; a single materially-off quote would damage the typing argument's credibility more than losing the quote would.
@@ -83,6 +90,7 @@ That is the house definition of the 7's core fear (being trapped, deprived, unfu
 - **Acceptance test:** every quote used as typing evidence is either verbatim-verified with a source or visibly framed as reported/paraphrased.
 
 **ENNEAGRAM-R3 (concern) — No falsifier; the null hypothesis is never addressed.**
+
 - **Passage:** the diagnosis section and the Rabbit Hole's "he lives at both ends at once: Type 5 depth inside the building, Type 1 combustion when the plan breaks, and pure Type 7 buffet everywhere else."
 - **Evidence/reasoning:** packet Dispute #5 and the "behavior the type does not explain" note: the stress incidents fit "elite competitor" equally well, and the loyalty anomaly is carried entirely by the growth arrow. As written, no observation could count against the typing.
 - **Reader effect:** theory-literate readers (the Rabbit Hole's own audience) recognize the explains-everything pattern and discount the whole argument.
@@ -92,6 +100,7 @@ That is the house definition of the 7's core fear (being trapped, deprived, unfu
 - **Acceptance test:** the Rabbit Hole names at least one concrete observation that would count against Type 7.
 
 **ENNEAGRAM-R4 (concern) — Wing certainty exceeds the evidence, and the FAQ hard-codes it.**
+
 - **Passage:** FAQ 1: "Travis Kelce is an Enneagram Type 7 (The Enthusiast), specifically a 7w8." Rabbit Hole: the one-sentence 7w6 dismissal quoted above.
 - **Evidence:** entity-gap audit: crowd databases lean 7w6, with the standing rule "present as argued analysis, never as consensus fact"; the article's own thesis (circle-dependence: Jason's room, Reid's policing, "I can't get that anywhere else") is the strongest public w6 evidence and goes unengaged.
 - **Reader effect:** typology-fluent readers who know the crowd lean see an unhedged minority call in the FAQ, the piece's most-scraped surface, with the counter-case never met on its best ground.
@@ -101,10 +110,11 @@ That is the house definition of the 7's core fear (being trapped, deprived, unfu
 - **Acceptance test:** FAQ no longer asserts the wing flat; the wing section explicitly weighs circle-dependence as w6 evidence.
 
 **ENNEAGRAM-R5 (concern) — The Super Bowl shove is double-counted as both 8-wing and 7→1 stress evidence.**
+
 - **Passage:** Rabbit Hole wing paragraph ("…intensity spilling into confrontation: the Super Bowl shove, on-field jawing, a training-camp punch") vs. the arrows paragraph ("the Super Bowl sideline is the cleanest film of it you will ever get").
 - **Reasoning:** one datum, two mechanisms, no acknowledgment. Wing and stress arrow can legitimately co-express, but the draft never says so; it simply lists the incident under each device that needs it.
 - **Reader effect:** reads as motivated reasoning to exactly the readers the Rabbit Hole is written for.
-- **Minimum viable repair:** either drop the shove from the w8 evidence list (the camp punch and jawing suffice) or add one clause reconciling the two ("the 8 wing is *how* his 1-ward stress move presents: hotter and more physical than the average Seven's").
+- **Minimum viable repair:** either drop the shove from the w8 evidence list (the camp punch and jawing suffice) or add one clause reconciling the two ("the 8 wing is _how_ his 1-ward stress move presents: hotter and more physical than the average Seven's").
 - **Expected benefit:** the theory usage reads as disciplined rather than opportunistic.
 - **Confidence:** high (the double-listing is on the page).
 - **Acceptance test:** the shove is claimed by one mechanism, or the wing/arrow interaction is stated explicitly.
@@ -112,12 +122,14 @@ That is the house definition of the 7's core fear (being trapped, deprived, unfu
 ## Specific improvements
 
 **ENNEAGRAM-I1 — Concede the loyalty anomaly inside the counterarguments block.**
+
 - **Passage:** the counterarguments section rebuts Types 3 and 8 but never names the behavior most awkward for Type 7: thirteen seasons, one franchise, a 2026 below-market re-signing ("reportedly declining more money elsewhere," packet S11) — for a type defined by keeping exits open.
-- **Reader effect / benefit:** the piece currently spends its honesty budget on alternative types while its own type's biggest hole goes unacknowledged; one concession converts the hole into demonstrated rigor and sharpens the ending (the man built around exits keeps *choosing* the same room, at a discount).
+- **Reader effect / benefit:** the piece currently spends its honesty budget on alternative types while its own type's biggest hole goes unacknowledged; one concession converts the hole into demonstrated rigor and sharpens the ending (the man built around exits keeps _choosing_ the same room, at a discount).
 - **Minimum viable repair:** one to two sentences in the counterarguments block naming the loyalty-at-a-discount fact as what a pure Seven reading least expects, and explicitly flagging the growth-arrow explanation as the draft's interpretation of it.
 - **Confidence:** medium-high. **Acceptance test:** the counterarguments block names the one-franchise/below-market fact as counterevidence, not only as marvel.
 
 **ENNEAGRAM-I2 — Fix the age/date slip in the diagnosis section.**
+
 - **Passage:** "At 36, a full decade past the age most players start counting down, he still described the game through its buzz," followed by quotes dated 2024 (when he was 34–35; packet internal note).
 - **Reader effect:** a small precision crack in the section making the biggest claims.
 - **Minimum viable repair:** re-date the frame ("At 35, asked in 2024 whether…") or move the "at 36" framing onto the verified 2026 re-signing.

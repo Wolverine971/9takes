@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 9
 reviewed_at: 2026-08-23T07:20:13Z
+path: docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/subject.md
 ---
 
 # Subject-aligned fairness review: Patrick Mahomes (snapshot 690cb7c2)
@@ -24,28 +25,32 @@ Fair in its architecture, unfaithful in one sentence. The article is built almos
 
 The trust break is specific and verified: the one paragraph that claims to show his private dread of Andy Reid illustrates it with a sentence Travis Kelce said about himself (`draft-reviewed.md:192`). That is another man's interior printed under the subject's name, in a section whose whole point is his interior. It must be fixed before publication; the fix is easy because Mahomes's own words from the same story exist in the local transcript.
 
-Beneath the blocker, a cluster of concerns share one shape: the writer occasionally supplies Mahomes's motive where Mahomes has already supplied his own, and then states the writer's version as observation. The flopping section, the 2025 "performing certainty" line, the "controlled the room" inference about the father's arrest, and the Dr. Cooper "did not believe in his own knee" reading all do this. In three of the four, his stated reason is on the record and would make the article's reading *stronger*, because it would be his.
+Beneath the blocker, a cluster of concerns share one shape: the writer occasionally supplies Mahomes's motive where Mahomes has already supplied his own, and then states the writer's version as observation. The flopping section, the 2025 "performing certainty" line, the "controlled the room" inference about the father's arrest, and the Dr. Cooper "did not believe in his own knee" reading all do this. In three of the four, his stated reason is on the record and would make the article's reading _stronger_, because it would be his.
 
 Recommendation: revise. One blocker, nine concerns, all repairable without touching the thesis or the structure.
 
 ## What landed
 
 **SUBJECT-H1. The Jason Kelce trap and the confession (`:142-148`).**
+
 > "For someone that doesn't care how it looks," Jason said, "you manage alright." / Mahomes did not argue. He confessed. / "I've for sure practiced… In the back of my head all I think about is, if this doesn't work right here…"
 
 Why it must survive: the article's central claim about him is made by him, on a friendly podcast, unprompted by any theory. No interiority is asserted that he did not volunteer. This is the fairness model for the whole piece.
 
 **SUBJECT-H2. Critic-first, concession-in-his-own-words (`:206`).**
+
 > Troy Aikman… "He's trying to draw the penalty." … Roquan Smith… "He flopped. Yeah, he flopped." … Mahomes half-agreed about one of them: "I probably shouldn't have done that."
 
 Why it must survive: the most criticized thing about him is stated at full strength by named critics, and his own admission is printed before the article offers any explanation. Responsibility is not erased. (See SUBJECT-C4 for the half that is missing.)
 
 **SUBJECT-H3. The Dec 10, 2023 outburst, closed with his own regret (`:210`).**
+
 > "I was still hot and emotional, but you can't do that, man…" / "Can't be that way towards officials, or really anybody in life."
 
 Why it must survive: the worst public moment of his temper is rendered plainly ("with an adjective in the middle" is the right amount of restraint), then handed back to him to judge. The article does not judge for him.
 
 **SUBJECT-H4. The father's arrest handled inside the family's own limits (`:240-248`).**
+
 > "It's a family matter, so I'll just keep it to the family." … Pat Sr. told his side… He said he made a vow about drinking.
 
 Why it must survive: the article respects the door he shut, gives the father his own apology in his own voice, declines to adjudicate the sobriety claim ("He said he made a vow"), and omits the February 2026 probation episode that the public record contains. That omission is a kindness within responsible limits, not an evasion; the packet confirms the tests came back clean and the revocation was withdrawn.
@@ -59,6 +64,7 @@ Why it must survive: this is the most recognizable sentence in the piece and it 
 Why it must survive: the article's inference (he treats praise as permission) is anchored to a word he chose, and the paragraph says so. This is how interiority should be argued throughout.
 
 **SUBJECT-H7. The ending (`:272-274`).**
+
 > Nine years after draft night, he is still checking the line. The difference is that he knows exactly who is on the other end.
 
 Why it must survive: it closes on trust rather than fear, which is the reading a subject could live with. It also turns on a quote that is verifiably his ("I have to trust that he's going to do right by me," Aug 22, 2026).
@@ -86,7 +92,7 @@ Why it must survive: it closes on trust rather than fear, which is the reading a
 - **Welcome:** the Tyreek Hill cuss-out is kept and used as the boundary of the charm rather than smoothed away (`:204`). A fairness proxy expects the hard edge to be cut for tidiness; it was not.
 - **Welcome:** the 13-second game is rendered with his flattest sentence ("It wasn't hard to keep them focused. We believed.") instead of a heroic paraphrase (`:139`).
 - **Jarring:** "I do the cards" in the inner-thought paragraph (`:212`) refers to nothing in the draft; the paragraph it pointed at was cut in the second pass. A ventriloquized thought should not contain a detail the article never established.
-- **Jarring:** the working notes (`:85`) record that he is not an EP on *The Kingdom*, and the body still says "he co-produced" (`:131`) and builds an inference on it (`:246`).
+- **Jarring:** the working notes (`:85`) record that he is not an EP on _The Kingdom_, and the body still says "he co-produced" (`:131`) and builds an inference on it (`:246`).
 
 ## Red flags
 
@@ -110,13 +116,13 @@ Why it must survive: it closes on trust rather than fear, which is the reading a
 - **Minimum viable repair:** `:131` → "the 2025 ESPN docuseries made with his production company"; `:246` → "disclosed only in a room he trusted" (the next sentence, "He waited until he trusted the structure," already says this and is supportable).
 - **Expected benefit:** the sharpest paragraph in the piece stops resting on an inference the record cannot carry, and the fairness reading (he chose a trusted venue) is preserved.
 - **Confidence:** high on the fact; medium on reader harm.
-- **Acceptance test:** the body contains no producer/co-producer credit for *The Kingdom*, and no sentence asserts that he controlled the disclosure.
+- **Acceptance test:** the body contains no producer/co-producer credit for _The Kingdom_, and no sentence asserts that he controlled the disclosure.
 
 ### SUBJECT-C2 (concern). One-sided "shadowed, did not ask"
 
 - **Passage:** `:155` "Mahomes did not ask Smith for advice. He shadowed him."
 - **Reader effect:** a flat factual assertion about how he learned, when the mentor remembers it differently.
-- **Evidence:** Alex Smith, *The Kingdom* E1 (local transcript): "It's a thousand questions. He worked hard." Mahomes's own phrasing is softer than the draft's: "I wasn't going around asking 'what are you doing here?' I would just follow him."
+- **Evidence:** Alex Smith, _The Kingdom_ E1 (local transcript): "It's a thousand questions. He worked hard." Mahomes's own phrasing is softer than the draft's: "I wasn't going around asking 'what are you doing here?' I would just follow him."
 - **Minimum viable repair:** attribute the characterization to him ("By his own account he did not pepper Smith with questions; he shadowed him") or add Smith's half in one clause. Either is fair to the subject; presenting his self-description as established fact against the mentor's memory is not.
 - **Expected benefit:** the motif survives (asking and following are both trust behaviors) without pretending the record is one-sided.
 - **Confidence:** high.
@@ -125,7 +131,7 @@ Why it must survive: it closes on trust rather than fear, which is the reading a
 ### SUBJECT-C3 (concern). "Performing certainty he does not have"
 
 - **Passage:** `:254` "The man who never takes a hit was taking them. That is what a Six under stress looks like, performing certainty he does not have."
-- **Reader effect:** a motive ("performing certainty") is stated as observation. His own accounting in the same paragraph is tactical, not psychological, and it is candid rather than performed ("I wasn't playing my best football," "I ran a little bit too much"). Read as a subject, this is the article telling him what he was really doing after he has already told the reader what he thinks he was doing. The 6→3 stress arrow also makes any Three-like behavior count *for* the Six reading, so nothing he did in 2025 could have counted against it; a subject proxy flags that as a closed loop rather than a fair test.
+- **Reader effect:** a motive ("performing certainty") is stated as observation. His own accounting in the same paragraph is tactical, not psychological, and it is candid rather than performed ("I wasn't playing my best football," "I ran a little bit too much"). Read as a subject, this is the article telling him what he was really doing after he has already told the reader what he thinks he was doing. The 6→3 stress arrow also makes any Three-like behavior count _for_ the Six reading, so nothing he did in 2025 could have counted against it; a subject proxy flags that as a closed loop rather than a fair test.
 - **Evidence:** packet §Enneagram, "Evidence against Type 6"; Yahoo/Epstein Jul 24, 2026 and the Jul 24 availability for the two quotes.
 - **Minimum viable repair:** either (a) mark it as inference ("One reading of that season is a Six under stress…") or (b) ground it in a sentence of his that shows the performance (none is in the packet; if none exists, use (a)). Keep his tactical admission as the primary accounting.
 - **Expected benefit:** the section stays critic-facing and honest without claiming to know his state of mind in a season he has described in his own terms.
@@ -134,7 +140,7 @@ Why it must survive: it closes on trust rather than fear, which is the reading a
 
 ### SUBJECT-C4 (concern). His defense of the flopping charge is missing; an ally's sarcasm is printed as a concession
 
-- **Passage:** `:206` "Even Jason Kelce conceded on *New Heights* that 'the Chiefs needed those calls.' Mahomes half-agreed about one of them: 'I probably shouldn't have done that.'" and `:208` "What they miss is where it comes from…"
+- **Passage:** `:206` "Even Jason Kelce conceded on _New Heights_ that 'the Chiefs needed those calls.' Mahomes half-agreed about one of them: 'I probably shouldn't have done that.'" and `:208` "What they miss is where it comes from…"
 - **Reader effect:** the article supplies his motive (threat management) as the writer's insight. His own stated motive, from the same radio appearance, is the same thing in his words: "I was just trying to get out of the way of getting smoked by the defensive lineman… I'll try to keep doing that and not take those hits because that's the smart way to stay in the football game." Omitting it makes the sympathetic turn look like the writer excusing him, when it is his position. Separately, "conceded" frames Kelce's line as an admission against Mahomes; the packet reads the register as sarcastic pushback ("and yet the Chiefs needed those calls," alongside calling the second roughing call "absolutely ridiculous").
 - **Evidence:** Fox News, Jan 22, 2025 (96.5 The Fan's "The Drive"), fetched for this review; packet S21 for Kelce's register.
 - **Minimum viable repair:** add one sentence of his defense after the concession; change "conceded" to a neutral verb ("said") or cut the Kelce clause, which adds little.
@@ -197,7 +203,7 @@ Why it must survive: it closes on trust rather than fear, which is the reading a
 
 ## Follow-on questions
 
-**SUBJECT-Q1. Does Mahomes use "nervous," "scared," or "anxious" about himself anywhere beyond draft night, the no-look confession ("scared to do" the behind-the-back), and the Cooper test?** If yes, the "most anxious type" framing rests on his vocabulary; if no, it rests on the writer's, and the TL;DR bullet should say "the type theory calls it" rather than imply he does. Best source: *The Kingdom* E2–E6 (not in local transcripts) and the full GQ 2026 interview (unretrieved; the one excerpt found says "it helps having people that I like who are pushing me").
+**SUBJECT-Q1. Does Mahomes use "nervous," "scared," or "anxious" about himself anywhere beyond draft night, the no-look confession ("scared to do" the behind-the-back), and the Cooper test?** If yes, the "most anxious type" framing rests on his vocabulary; if no, it rests on the writer's, and the TL;DR bullet should say "the type theory calls it" rather than imply he does. Best source: _The Kingdom_ E2–E6 (not in local transcripts) and the full GQ 2026 interview (unretrieved; the one excerpt found says "it helps having people that I like who are pushing me").
 
 **SUBJECT-Q2. Should Pat Sr.'s "it kind of hurt him. It really did." (670 The Score, Jan 2023) enter the draft-night paragraph?** It would change the "Both are true" turn from mother-versus-son to a three-way record and make the article's weighing of his self-report visibly even-handed. Best source: packet S27.
 
@@ -220,18 +226,18 @@ Why it must survive: it closes on trust rather than fear, which is the reading a
 
 ## Research log
 
-| # | Question | Source | Decision affected |
-| --- | --- | --- | --- |
-| 1 | Is the "Coach Reid is gonna kill me" line his? | `youtube-transcripts/mahomes/new-heights-ep15-mahomes.md` (local, primary) | SUBJECT-R1 confirmed as Travis Kelce's; Mahomes's own replacement sentence identified |
-| 2 | What is his full stated position on the flopping charge? | Fox News, Jan 22, 2025, "Patrick Mahomes addresses flopping and referee favoritism allegations" (96.5 The Fan's "The Drive") | SUBJECT-C4: his defense ("trying to get out of the way of getting smoked… the smart way to stay in the football game") exists and is unused |
-| 3 | Does he hold a producer credit on *The Kingdom*? | chiefs.com / ESPN Press Room premiere release (2025): EPs Schell, Hehir, Geist, Cohen; "in association with… 2PM Productions" | SUBJECT-C1: "co-produced" overstated; "controlled the room" unsupported |
-| 4 | Is there a 2026 long-form first-person self-description? | GQ 2026 excerpt via Pro Football Network ("It's a lot of work… it helps having people that I like who are pushing me") | SUBJECT-Q1 left open; excerpt is consistent with the trusted-circle reading but adds no new vocabulary about fear |
+| #   | Question                                                 | Source                                                                                                                        | Decision affected                                                                                                                           |
+| --- | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Is the "Coach Reid is gonna kill me" line his?           | `youtube-transcripts/mahomes/new-heights-ep15-mahomes.md` (local, primary)                                                    | SUBJECT-R1 confirmed as Travis Kelce's; Mahomes's own replacement sentence identified                                                       |
+| 2   | What is his full stated position on the flopping charge? | Fox News, Jan 22, 2025, "Patrick Mahomes addresses flopping and referee favoritism allegations" (96.5 The Fan's "The Drive")  | SUBJECT-C4: his defense ("trying to get out of the way of getting smoked… the smart way to stay in the football game") exists and is unused |
+| 3   | Does he hold a producer credit on _The Kingdom_?         | chiefs.com / ESPN Press Room premiere release (2025): EPs Schell, Hehir, Geist, Cohen; "in association with… 2PM Productions" | SUBJECT-C1: "co-produced" overstated; "controlled the room" unsupported                                                                     |
+| 4   | Is there a 2026 long-form first-person self-description? | GQ 2026 excerpt via Pro Football Network ("It's a lot of work… it helps having people that I like who are pushing me")        | SUBJECT-Q1 left open; excerpt is consistent with the trusted-circle reading but adds no new vocabulary about fear                           |
 
 Packet reused for: draft-night venue, Alex Smith's "thousand questions," Pat Sr.'s "it kind of hurt him," Kelce's register, quotation deltas, the Aug 8 presser wording, the 2026 probation episode.
 
 ## Limits of this review
 
-- I did not view *The Kingdom* E2–E6 or Netflix *Quarterback*; the father's-arrest quotes and "one of the lowest points" are accepted on the packet's secondary transcriptions.
+- I did not view _The Kingdom_ E2–E6 or Netflix _Quarterback_; the father's-arrest quotes and "one of the lowest points" are accepted on the packet's secondary transcriptions.
 - I did not test how `class="inner-thought"` renders on the live site; SUBJECT-C5's rendering half is a rendering question, not a verified defect.
 - I did not evaluate the Type 6 call, the counterphobic label, or the SP-3 alternative on their merits; those belong to the Enneagram perspective. Where typing touches fairness (SUBJECT-C3's closed loop), I flagged the fairness problem only.
 - The subject has made no public statement about this article or about personality typing; "fair representation" here is a proxy judgment from his public words, not his reaction.

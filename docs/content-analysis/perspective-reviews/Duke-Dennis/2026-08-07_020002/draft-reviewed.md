@@ -30,6 +30,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -304,4 +305,3 @@ Still open:
 Source audit:
 - After pass: 4 load-bearing quotes — 3 inline, 1 vague, 0 untagged. Epigraph/cold-open blocker cleared.
 -->
-

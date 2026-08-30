@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 2
 concerns: 9
 reviewed_at: 2026-08-19T07:22:17Z
+path: docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/unfamiliar.md
 ---
 
 ## Bottom-line verdict
@@ -25,7 +26,7 @@ catch the contradiction myself, and an unusual willingness to say what the argum
 prove.
 
 Trust is strained rather than intact for two reasons, both narrow and both fixable. The article
-states that *F Is for Family* ran six seasons; it ran five. That is a five-second check, and it
+states that _F Is for Family_ ran six seasons; it ran five. That is a five-second check, and it
 sits one sentence after the single best emotional beat in the piece, at the exact moment the
 article is asking me to extend it the most credit. And the closing image — Burr handed a chair
 and asked to talk down a person coming apart — asserts as fact a reading of a role in a film
@@ -41,14 +42,14 @@ in the article. The order is exactly backwards, and fixing it costs almost nothi
 ## What landed
 
 **UNFAMILIAR-H1 — the three tellings.** "He has said it three times over eight years, in three
-formats, in nearly the same words," followed by the THR, Ferriss and *Drop Dead Years* quotes,
+formats, in nearly the same words," followed by the THR, Ferriss and _Drop Dead Years_ quotes,
 closing on "Three tellings. One motive. Safety." This is where I stopped being skeptical. It
 needs zero background, it is his own words rather than the writer's inference, each telling is
 dated and attributed, and the conclusion is drawn in four words instead of a paragraph. It is
 also falsifiable, which is why it persuades. **Must survive revision intact** — and see
 UNFAMILIAR-C6, which is a threat to it, not a criticism of it.
 
-**UNFAMILIAR-H2 — "The son's name is Bill."** The *F Is for Family* beat: the Frank Murphy
+**UNFAMILIAR-H2 — "The son's name is Bill."** The _F Is for Family_ beat: the Frank Murphy
 speech, then "Burr wrote that... the joke at the center of it is a father calling a boy named
 Bill scared of everything." Complete payoff with no prerequisites at all. I did not need to have
 seen the show, know the character, or understand the Enneagram. **Preserve the beat and the
@@ -167,17 +168,17 @@ deliberate restraint rather than a flaw, which is why it is a question below and
 
 ## Red flags
 
-### UNFAMILIAR-R1 — "Six seasons on Netflix" is false; it was five *(blocker)*
+### UNFAMILIAR-R1 — "Six seasons on Netflix" is false; it was five _(blocker)_
 
-- **Location.** §3 "What Bill Burr's Canton childhood sounded like," final line of the *F Is for
-  Family* beat: "Burr wrote that. Six seasons on Netflix, and the joke at the center of it is a
+- **Location.** §3 "What Bill Burr's Canton childhood sounded like," final line of the _F Is for
+  Family_ beat: "Burr wrote that. Six seasons on Netflix, and the joke at the center of it is a
   father calling a boy named Bill scared of everything."
 - **Reader effect.** This is a Wikipedia-level fact a curious reader checks in five seconds, and
   it is wrong. It sits one sentence after "The son's name is Bill" — the article's strongest
   emotional payoff and the point at which it is asking me to extend the most trust to a
   psychological argument I cannot verify. Catching a hard error there does disproportionate
   damage: the implicit case for the whole thesis is "this writer is careful with evidence."
-- **Evidence.** *F Is for Family* ran five seasons, 44 episodes, 2015–2021. Netflix renewed it
+- **Evidence.** _F Is for Family_ ran five seasons, 44 episodes, 2015–2021. Netflix renewed it
   "for a fifth and final season" in October 2020; the final season premiered 2021-11-25.
   Confirmed independently by search (NME, Hollywood Reporter, Deadline, Variety). The shared
   packet marks this claim **FALSE** at CLM-24.
@@ -185,10 +186,10 @@ deliberate restraint rather than a flaw, which is why it is a question below and
 - **Expected benefit.** Removes the only hard factual error in reader-visible copy that a
   general reader is likely to catch unaided.
 - **Confidence.** High.
-- **Acceptance test.** The string "Six seasons" does not appear in the draft; the *F Is for
-  Family* credit reads five seasons; no other passage contradicts that count.
+- **Acceptance test.** The string "Six seasons" does not appear in the draft; the _F Is for
+  Family_ credit reads five seasons; no other passage contradicts that count.
 
-### UNFAMILIAR-R2 — the closing image asserts a contested reading of an unreleased film, and the body drops a hedge the FAQ keeps *(blocker)*
+### UNFAMILIAR-R2 — the closing image asserts a contested reading of an unreleased film, and the body drops a hedge the FAQ keeps _(blocker)_
 
 - **Location.** §9 "The part Bill Burr plays in October": "Bill Burr plays a crisis counselor. /
   Somebody handed the angriest man in comedy a chair, put him across from a person coming apart,
@@ -198,7 +199,7 @@ deliberate restraint rather than a flaw, which is why it is a question below and
   ("Fifty-four years after the driveway, that is the job"). As a reader with no outside
   knowledge I have no way to see that any of it is inference — the body states it flat while the
   article's own FAQ marks it as trailer-derived. If "crisis counselor" means crisis
-  *communications*, the closing scene is not merely unproven, it is the wrong picture, and the
+  _communications_, the closing scene is not merely unproven, it is the wrong picture, and the
   article's emotional landing is built on it.
 - **Evidence.** Packet CLM-32 and dispute #5: Wikipedia names the character "Charlie"; trade
   coverage of the June 2026 trailer says crisis counselor; a trailer write-up describes him as
@@ -223,9 +224,9 @@ deliberate restraint rather than a flaw, which is why it is a question below and
 
 ## Specific improvements
 
-Ordered by priority. Repairs marked *word-neutral* add no net length.
+Ordered by priority. Repairs marked _word-neutral_ add no net length.
 
-### UNFAMILIAR-C1 — the Enneagram glossary is behind a door labelled "skip this" *(highest priority concern)*
+### UNFAMILIAR-C1 — the Enneagram glossary is behind a door labelled "skip this" _(highest priority concern)_
 
 - **Location.** §1 first sentence, "Bill Burr is an Enneagram Type 6, self-preservation dominant,
   with a 7 wing," set against the Rabbit Hole preamble: "For the Enneagram nerds. Skip if you're
@@ -233,7 +234,7 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
 - **Reader effect.** The sentence a search visitor lands on carries three unglossed terms.
   "Type 6 runs on the management of fear" rescues one of them in the next sentence and does it
   well; "self-preservation dominant" and "7 wing" are noise to me and stay noise, because the
-  only place *wing* and *subtype* are ever explained is inside a collapsed block that opens by
+  only place _wing_ and _subtype_ are ever explained is inside a collapsed block that opens by
   telling me not to read it. All three Enneagram links on the page —
   `/enneagram-corner/enneagram-wings-complete-guide`,
   `/enneagram-corner/enneagram-instinctual-subtypes`, `/enneagram-corner/enneagram-type-6` —
@@ -241,7 +242,7 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
   no exit anywhere in the open body.
 - **Evidence.** Unaided read of the draft; no reader-visible body copy defines these terms.
 - **Minimum viable repair.** (a) Link "Enneagram Type 6" on first use in §1 to the Type 6 primer
-  — markup only, *word-neutral*. (b) Either move "self-preservation dominant, with a 7 wing" out
+  — markup only, _word-neutral_. (b) Either move "self-preservation dominant, with a 7 wing" out
   of the lead sentence and into the Rabbit Hole, where both terms are already explained, or
   trade those five words for five words of plain gloss. Note that §8 already contains the best
   one-line definition on the page — "Type 6 is the type that organizes itself around who can be
@@ -270,7 +271,7 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
   verified and worth keeping.
 - **Minimum viable repair.** Name the system once — "SunSigns and personalitylist reach for
   Myers-Briggs and say ISTP" — and drop the claim that the sources split three ways on one
-  question. Roughly *word-neutral*.
+  question. Roughly _word-neutral_.
 - **Expected benefit.** Removes the draft's densest comprehension stall and corrects a framing
   the shared packet independently flags as misleading.
 - **Confidence.** High.
@@ -332,7 +333,7 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
 
 - **Location.** §6 heading, "The helicopter Bill Burr learned to fly out of Los Angeles."
 - **Reader effect.** The heading promises a helicopter. The section delivers the helicopter, the
-  money philosophy, the avoided MRI, the Rousey nervousness scale, the *Mandalorian* casting,
+  money philosophy, the avoided MRI, the Rousey nervousness scale, the _Mandalorian_ casting,
   the Broadway debut, Bertolina's quote and the 2011 "I made it" line. On a scan path — how most
   people move through 4,500 words — that heading gives me no reason to enter, and
   UNFAMILIAR-H6, the sharpest single catch in the article, sits four topic changes deep inside
@@ -340,7 +341,7 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
 - **Evidence.** Unaided read; count of distinct subjects under one H2.
 - **Minimum viable repair.** Retitle to the organizing idea the section's own opening bridge
   already states — the reflex running with no target in the room. E.g. "What Bill Burr does when
-  there is nothing to be afraid of." *Word-neutral.* If words ever free up, moving the Rousey
+  there is nothing to be afraid of." _Word-neutral._ If words ever free up, moving the Rousey
   beat earlier in the section is the higher-value change.
 - **Expected benefit.** A scanning reader gets an accurate reason to enter the section carrying
   the article's most original observation.
@@ -411,7 +412,7 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
 - **Evidence.** Created by Bill Burr **and Michael Price** — confirmed in the fifth-season
   renewal coverage (Deadline, Variety, NME) during this review; packet CLM-26 rates the draft
   "imprecise."
-- **Minimum viable repair.** "which he co-created," both instances. *Word-neutral.*
+- **Minimum viable repair.** "which he co-created," both instances. _Word-neutral._
 - **Expected benefit.** Closes the second checkable gap in the same credit.
 - **Confidence.** High.
 - **Acceptance test.** Neither instance claims sole creation.
@@ -419,7 +420,7 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
 ### UNFAMILIAR-C9 — the invented interior monologue may read as a quotation
 
 - **Location.** §3: `<p class="inner-thought">Hold your face still. Take the sandwich. Say
-  nothing that makes it louder.</p>`
+nothing that makes it louder.</p>`
 - **Reader effect.** It sits directly beneath a block quotation of Burr's actual words and is
   styled as its own callout. A reader who does not know the house convention for `inner-thought`
   can take it as a continuation of the quotation — as something Burr said about his childhood
@@ -440,30 +441,30 @@ Ordered by priority. Repairs marked *word-neutral* add no net length.
 ## Follow-on questions
 
 **UNFAMILIAR-Q1 — Does the NPR "every way that you can be abused" quote refer to his father?**
-*What would change:* if it does, the article can say so in a clause instead of leaving me to
+_What would change:_ if it does, the article can say so in a clause instead of leaving me to
 infer it from adjacency to the "I'll put you through that wall" catchphrase; if the record does
 not specify, one clause saying so removes the ambiguity without adding a claim. Right now the
 article both implies it and quotes him defending his dad, and I cannot resolve which reading it
-intends. *Best source:* the full Fresh Air broadcast audio of 2025-03-10 — the packet notes the
+intends. _Best source:_ the full Fresh Air broadcast audio of 2025-03-10 — the packet notes the
 web adaptation is partial, and that a neighbouring quotation the draft prints ("was a normal
 guy") could not be located in any retrieved text source, so the audio is the outstanding gap for
 this whole passage.
 
-**UNFAMILIAR-Q2 — What is Burr's role in *The Social Reckoning* actually?**
-*What would change:* everything about UNFAMILIAR-R2. A therapeutic counselor vindicates the
-closer as written; a crisis-communications handler requires rebuilding the final image. *Best
-source:* production-side character description or press notes before release; failing that, the
+**UNFAMILIAR-Q2 — What is Burr's role in _The Social Reckoning_ actually?**
+_What would change:_ everything about UNFAMILIAR-R2. A therapeutic counselor vindicates the
+closer as written; a crisis-communications handler requires rebuilding the final image. _Best
+source:_ production-side character description or press notes before release; failing that, the
 film itself on 2026-10-09. Until one exists, the hedge is the answer.
 
 **UNFAMILIAR-Q3 — How does `inner-thought` render against `blockquote` on a phone?**
-*What would change:* resolves UNFAMILIAR-C9 in either direction at zero editorial cost. *Best
-source:* the rendered page on a mobile viewport.
+_What would change:_ resolves UNFAMILIAR-C9 in either direction at zero editorial cost. _Best
+source:_ the rendered page on a mobile viewport.
 
 **UNFAMILIAR-Q4 — Does a reader who has never heard of the Enneagram have anywhere to go from
-this page?** *What would change:* if Rabbit Hole opens are rare, then C1's link fix is not
+this page?** _What would change:_ if Rabbit Hole opens are rare, then C1's link fix is not
 cosmetic — it is the only route this article offers a newcomer into the rest of the site, and
-it currently sits behind a block captioned "skip if you're not deep into the system." *Best
-source:* the site's own engagement data for this template — Rabbit Hole open rate and outbound
+it currently sits behind a block captioned "skip if you're not deep into the system." _Best
+source:_ the site's own engagement data for this template — Rabbit Hole open rate and outbound
 clicks on the three `/enneagram-corner/` links, against the give-first gate conversion already
 instrumented elsewhere.
 
@@ -492,7 +493,7 @@ Do not lose these in revision. Each is listed with the reason it must survive.
 9. **"He does not present it as an accusation. He presents it as inheritance."** (§3). The line
    that keeps the heaviest material from becoming diagnosis. — UNFAMILIAR-H8
 10. **"Fifty-four years after the driveway, that is the job."** (§9). The callback arithmetic
-    works and the closer does not re-narrate the opening. Keep the *shape* of this ending even
+    works and the closer does not re-narrate the opening. Keep the _shape_ of this ending even
     while repairing UNFAMILIAR-R2 — the fix is to the staging two sentences above it, not to
     this line.
 
@@ -511,7 +512,7 @@ Do not lose these in revision. Each is listed with the reason it must survive.
    more confidently than the FAQ does.
 3. **Evidence packet**, read after the unaided pass: identity and scope, Philadelphia section,
    public record and controversies, the full draft claim inventory (CLM-01 – CLM-40), and
-   disputes 1–12. *Decisions affected:* promoted the *F Is for Family* season count from
+   disputes 1–12. _Decisions affected:_ promoted the _F Is for Family_ season count from
    unnoticed to blocker (CLM-24); promoted the closer from the hedge-mismatch concern I had
    found unaided to a blocker, on the strength of the PR-handler reading (CLM-32, dispute #5);
    added C6, the Ferriss dating inconsistency, which I could not have caught without the source
@@ -520,9 +521,9 @@ Do not lose these in revision. Each is listed with the reason it must survive.
    scope only, because CLM-06 verifies every figure exactly against `corpus-stats.json`.
 4. **One search**, per the unfamiliar-reader one-search limit, used on the potential factual
    blocker rather than on orientation: `"F Is for Family" Netflix how many seasons final fifth
-   season 2021`. Result: five seasons, 44 episodes; renewed October 2020 "for a fifth and final
+season 2021`. Result: five seasons, 44 episodes; renewed October 2020 "for a fifth and final
    season"; final season premiered 2021-11-25; created by Bill Burr **and Michael Price**.
-   *Decisions affected:* confirmed UNFAMILIAR-R1 as a real error rather than a packet
+   _Decisions affected:_ confirmed UNFAMILIAR-R1 as a real error rather than a packet
    transcription slip, and established UNFAMILIAR-C8.
    Sources: [NME](https://www.nme.com/news/tv/f-is-for-family-to-return-for-a-fifth-and-final-season-on-netflix-2768210),
    [The Hollywood Reporter](https://www.hollywoodreporter.com/tv/tv-news/f-is-for-family-to-end-with-season-5-on-netflix-4070008/),

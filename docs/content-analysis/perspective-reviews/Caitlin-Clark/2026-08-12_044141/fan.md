@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 4
 reviewed_at: 2026-08-12T05:10:00Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/fan.md
 ---
 
 ## Bottom-line verdict
@@ -47,6 +48,7 @@ I expected the piece to at least gesture at the "Clark effect" — the attendanc
 No blockers found. The two items below are concerns, not trust breaks — nothing here is factually wrong, unfair, or invented; both are recognition gaps that would make an informed fan trust the writer's fluency slightly less, not trust the article's claims less.
 
 **FAN-C1 — Missing the "logo three" name.**
+
 - Location: H2 3, "Threes from the Hawkeye logo at midcourt, with a hand in her face, taken before the defense had finished setting up."
 - Reader effect: An informed fan reads this as a description written by someone reconstructing the shot from footage/box scores rather than someone who has absorbed how the sport itself talks about it. It's the single most repeated nickname in Clark coverage (Fever broadcasts, the CBS 60 Minutes piece, her own interviews) and it never appears.
 - Evidence: Confirmed via CBS News ("Caitlin Clark breaks down her logo 3 signature three-pointer") and the Fever's own WNBA.com video titled "Clark Logo Three."
@@ -56,6 +58,7 @@ No blockers found. The two items below are concerns, not trust breaks — nothin
 - Acceptance test: The phrase "logo three" (or "logo 3") appears at least once in H2 3.
 
 **FAN-C2 — The Reese rivalry's origin scene is absent.**
+
 - Location: H2 6, the paragraph introducing "the Angel Reese rivalry, sold for two years as the sport's defining feud."
 - Reader effect: A fan who lived through 2023 expects the piece to at least name the "you can't see me" exchange — Clark's gesture at Louisville in the Elite Eight, Reese's reciprocal gesture and ring-finger point at Clark in the title game — before jumping to Clark's 2024 TIME quote calling the rivalry fabricated. Without it, the section argues about the rivalry's racialized aftermath while skipping the specific moment that actually launched it, which is the detail most likely to make a knowledgeable reader trust the rest of the section a little less.
 - Evidence: Multiple 2023 tournament reports (Andscape, contemporaneous ESPN/AP coverage) confirm the gesture exchange as the rivalry's origin point, distinct from and prior to the racialized commentary that followed.
@@ -65,6 +68,7 @@ No blockers found. The two items below are concerns, not trust breaks — nothin
 - Acceptance test: H2 6 references the 2023 gesture exchange (by name or clear description) before or alongside the "fabricated and made up" quote.
 
 **FAN-C3 — No concrete number behind "one of the highest-earning athletes."**
+
 - Location: H2 6, "Clark is one of the highest-earning athletes in women's sports, fluent inside commercial machinery that runs partly on the very rivalry she is calling fabricated."
 - Reader effect: The claim is true but unanchored; a fan expects at least one figure (ranking, sellout count, ratings record) given how central her commercial gravity is to the surrounding argument.
 - Evidence: n/a — this is a specificity gap, not a factual dispute.
@@ -74,6 +78,7 @@ No blockers found. The two items below are concerns, not trust breaks — nothin
 - Acceptance test: One specific, sourced number appears alongside the "highest-earning" claim.
 
 **FAN-C4 — Jersey number never explained.**
+
 - Location: Not present anywhere in the draft.
 - Reader effect: Minor. No. 22 (chosen at age five for her January 22 birthday, later retired by Iowa) is a small, widely known piece of Clark trivia that would cost almost nothing and add a human texture beat the piece is otherwise light on outside the childhood section.
 - Evidence: Confirmed via multiple outlets (EssentiallySports, CBS Sports on the Iowa retirement).

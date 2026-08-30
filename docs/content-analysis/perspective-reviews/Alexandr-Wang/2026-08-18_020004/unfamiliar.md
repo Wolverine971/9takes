@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 3
 concerns: 8
 reviewed_at: 2026-08-18T06:47:04Z
+path: docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/unfamiliar.md
 ---
 
 ## Bottom-line verdict
@@ -185,12 +186,12 @@ competitors" — dead last, the opposite of the article's point. See UNFAM-C6.
   paragraphs. Paragraph 1 says sixth grade; paragraph 2 dates the interview to February 2025;
   paragraph 3 says "He was born in January 1997." A reader born-in-1997 arithmetic gives sixth grade
   around 2008–09, which is about sixteen years before the interview, not twenty. The FAQ version is
-  worse than imprecise: he has spent *ten* years building that machinery, since founding Scale in
+  worse than imprecise: he has spent _ten_ years building that machinery, since founding Scale in
   2016, not twenty. For a reader deciding whether to trust an article dense with dates and dollar
   figures, a self-refuting number in the hook is the cheapest possible reason to stop believing the
   expensive ones.
 - **Evidence:** Draft's own text (¶1, ¶2, ¶3). Evidence packet confirms birth January 1997 (CLM-04,
-  verified) and the *This Past Weekend* episode aired 2025-02-18 (S-04), and
+  verified) and the _This Past Weekend_ episode aired 2025-02-18 (S-04), and
   confirms the sixth-grade framing is Wang's own ("I remember as a sixth grader," packet line 112).
 - **Minimum viable repair:** Replace both instances with a figure consistent with the article's own
   dates, or with a non-numeric construction. Body: "Sixteen years later Theo Von asked him about it."
@@ -214,7 +215,7 @@ competitors" — dead last, the opposite of the article's point. See UNFAM-C6.
   outlet and a date, often in the same sentence. That discipline is precisely what makes this block
   read as reported. It is only afterwards, on reflection, that I realised no one could know it. The
   sourced material that follows it ("I literally teared up," he told Forbes; an attendee heard him
-  ask "This is so stupid. Why am I doing this?") arrives *after* the invention, so by the time I
+  ask "This is so stupid. Why am I doing this?") arrives _after_ the invention, so by the time I
   learn what is actually on the record, I have already banked the invented version as fact.
 - **Evidence:** Evidence packet CLM-23 independently classifies this: "The `inner-thought` paragraph
   is authored interiority with no evidentiary basis at all." A returning 9takes reader may recognise
@@ -268,7 +269,7 @@ competitors" — dead last, the opposite of the article's point. See UNFAM-C6.
 - **Location:** LeCun section, the paragraph beginning "Declare the interest, because it is large."
 - **Reader effect:** The paragraph explicitly promises a full interest declaration and gives me two
   reasons, both abstract (a competing company, a decade-old architectural position). Neither explains
-  the *heat*. As a newcomer I finished the section knowing LeCun was hostile and not understanding
+  the _heat_. As a newcomer I finished the section knowing LeCun was hostile and not understanding
   why he was that hostile, and I assumed the article was either unaware of something or protecting
   Wang. It turns out the missing fact is the most human one available: Meta's reorganisation placed
   LeCun, who had reported to the chief product officer, underneath a man roughly thirty years his
@@ -321,7 +322,7 @@ competitors" — dead last, the opposite of the article's point. See UNFAM-C6.
   immediately before "The Type 3 is the Achiever."
 - **Reader effect:** "Enneagram" appears in the title, the meta description, the H2 and the TL;DR
   before anything tells me it is a nine-type system about motivation. The functional definition that
-  follows is excellent (UNFAM-H3) but it defines *a Three*, not *the thing a Three is one of*. The
+  follows is excellent (UNFAM-H3) but it defines _a Three_, not _the thing a Three is one of_. The
   only structural gloss in the whole piece — "Types 2, 3 and 4 sit at the center of feeling" — arrives
   in section 5, and it is the heart triad, not the system. Until then I was reading a confident claim
   in a framework I had not been told existed.
@@ -437,39 +438,39 @@ competitors" — dead last, the opposite of the article's point. See UNFAM-C6.
 
 **UNFAM-Q1 — Did Meta's June 2025 reorganisation place LeCun under Wang, and how long before his exit?**
 
-- *What would change:* If confirmed with a date, this becomes a one-clause addition to the interest
+- _What would change:_ If confirmed with a date, this becomes a one-clause addition to the interest
   declaration (UNFAM-C1) and materially strengthens the article's thesis — the man who industrialised
   ranking got ranked by someone he had outranked. If it turned out LeCun never reported to Wang, the
   current paragraph is already complete and UNFAM-C1 should be dropped.
-- *Best source:* CNBC's November 19, 2025 departure report, which states the reporting-line change
+- _Best source:_ CNBC's November 19, 2025 departure report, which states the reporting-line change
   directly; ideally corroborated against Meta's own June 2025 reorganisation announcement for the exact
   structure and date.
 
 **UNFAM-Q2 — What is the correct interval between the sixth-grade math competition and the February 2025 interview?**
 
-- *What would change:* Determines the replacement figure in UNFAM-R1. If the competition was not in the
+- _What would change:_ Determines the replacement figure in UNFAM-R1. If the competition was not in the
   school year I inferred from a January 1997 birth date, the corrected number changes but the error does
   not — twenty years is unreachable under any reading, and the FAQ's "twenty years since building the
   machinery" is wrong regardless, since Scale was founded in 2016.
-- *Best source:* The *This Past Weekend* transcript already in the packet (S-04) for whether he dates the
+- _Best source:_ The _This Past Weekend_ transcript already in the packet (S-04) for whether he dates the
   competition beyond "sixth grader"; otherwise derive from the verified January 1997 birth date (CLM-04).
 
 **UNFAM-Q3 — Is `inner-thought` used elsewhere on 9takes in a way a returning reader would already
 recognise as authorial reconstruction?**
 
-- *What would change:* If the device is consistently and visibly framed as imagined across the corpus,
+- _What would change:_ If the device is consistently and visibly framed as imagined across the corpus,
   UNFAM-R2's repair could be a site-level styling or caption convention rather than a change to this
   draft. If it is not, the inline framing clause is required here.
-- *Best source:* The 9takes people-draft corpus in `src/blog/people/` and whatever component renders
+- _Best source:_ The 9takes people-draft corpus in `src/blog/people/` and whatever component renders
   `class="inner-thought"`, checked for whether the rendered output carries any visual or textual marker.
 
 **UNFAM-Q4 — Does the FAQ block render on the published personality-analysis page, and is it eligible
 for search rich results?**
 
-- *What would change:* Raises or lowers the severity of the FAQ half of UNFAM-R1. If FAQ 1 renders and
+- _What would change:_ Raises or lowers the severity of the FAQ half of UNFAM-R1. If FAQ 1 renders and
   can surface standalone in search, an error there is worse than the same error in body prose, because
   no surrounding context defends it.
-- *Best source:* The personality-analysis route's page component and `BlogPageHead` JSON-LD handling in
+- _Best source:_ The personality-analysis route's page component and `BlogPageHead` JSON-LD handling in
   this repo.
 
 ## Preserve list
@@ -523,13 +524,13 @@ Protocol followed in order: unaided first read, then packet, then one orientatio
    independently that the `inner-thought` paragraph has "no evidentiary basis at all" (CLM-23), which
    raised UNFAM-R2 from a suspicion to a blocker; confirmed "every room… by exactly one spot" is
    "unsupported as written" (CLM-27), which did the same for UNFAM-R3; confirmed the packet carries
-   LeCun's November 2025 exit and competitor interest (lines 87, 253) but *not* the reporting-line
+   LeCun's November 2025 exit and competitor interest (lines 87, 253) but _not_ the reporting-line
    fact, which established that UNFAM-C1 is a genuine gap in the research file rather than an editing
    omission.
 4. **One orientation search** (the single search this perspective is permitted), query: LeCun leaving
    Meta / reporting to Alexandr Wang / reorganisation. Precise unresolved question stated beforehand:
-   *does the draft omit a relationship the reader will infer anyway — namely that Wang displaced
-   LeCun?* Result: CNBC (2025-11-19) and follow-on coverage establish that after the June 2025
+   _does the draft omit a relationship the reader will infer anyway — namely that Wang displaced
+   LeCun?_ Result: CNBC (2025-11-19) and follow-on coverage establish that after the June 2025
    reorganisation LeCun, who had reported to chief product officer Chris Cox, reported to Wang, and
    left roughly five months later. Decision affected: UNFAM-C1 promoted to highest-priority concern,
    and my "the interest declaration feels incomplete" reaction confirmed as a draft omission rather

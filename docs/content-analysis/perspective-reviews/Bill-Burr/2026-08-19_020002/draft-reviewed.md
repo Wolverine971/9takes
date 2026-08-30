@@ -67,13 +67,13 @@ citations:
   - 'https://www.youtube.com/watch?v=8NYGbY4Tmkc'
   - 'https://www.youtube.com/watch?v=yHKqkVqa9mc'
 faqs:
-  - question: 'What is Bill Burr''s Enneagram type?'
+  - question: "What is Bill Burr's Enneagram type?"
     answer: 'Type 6, self-preservation dominant, 6w7. The case rests on his own standing account of why he started: he told The Hollywood Reporter in 2022 that stand-up was "the easiest way to go into a room full of strangers and make them like me so that no one would hurt me." He repeated the same line in his 2025 Hulu special. Online databases split between 6w7, ISTP and ESTP, but none of them argue from evidence.'
     anchor: 'what-is-bill-burrs-personality-type'
   - question: 'How old is Bill Burr and where is he from?'
     answer: 'Bill Burr was born June 10, 1968 in Canton, Massachusetts, which makes him 58 as of August 2026. His father, Robert Burr, was a dentist and his mother, Linda Ann, was a nurse. He graduated from Canton High School in 1987, spent two semesters at North Carolina State, then transferred to Emerson College in Boston and earned a communications degree in 1993.'
     anchor: 'why-bill-burr-became-a-comedian'
-  - question: 'Who is Bill Burr''s wife?'
+  - question: "Who is Bill Burr's wife?"
     answer: 'Nia Renée Hill, an actress, writer and producer. They married in 2013 and have two children, a daughter born in 2017 and a son born in 2020. Hill appears regularly on his Monday Morning Podcast. Speaking to The Hollywood Reporter in 2022 she described him as "probably the loudest person I know," then added that at home "he''s just a goofy dad."'
     anchor: 'why-bill-burr-went-back-to-therapy-for-his-anger'
   - question: 'Is Bill Burr actually an angry person?'
@@ -97,6 +97,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -267,10 +268,10 @@ What happened next is the whole case, laid out by date.
 
 <div class="scroll-table">
 
-| Date | Venue | Audience | What he said about Riyadh |
-| --- | --- | --- | --- |
-| Oct 2025 | Conan O'Brien Needs a Friend, live at the Fonda Theater, Los Angeles | A theater, a camera, a national podcast | He did not "give a fuck what all these phony fucking people are saying," had "no fucking idea" it would be controversial, and dismissed his critics as "all of these sanctimonious c***s out there who don't really sincerely give a s***." Of the Saudi crowd: "They wanted it and they wanted you to push." |
-| Aug 10, 2026 | Monday Morning Podcast, episode 8-10-26 | Him, a microphone, no audience in the room | **"I had like fucking dry mouth for like the first 20 minutes."** Also: "standing there going, 'How in the fuck am I going to make these people laugh?'" Also: "worrying about getting arrested and then knowing full well that there's no way Donny boy is going to get me out." Also: "Anytime anybody even moved or got up, I would get nervous." |
+| Date         | Venue                                                                | Audience                                   | What he said about Riyadh                                                                                                                                                                                                                                                                                                                            |
+| ------------ | -------------------------------------------------------------------- | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Oct 2025     | Conan O'Brien Needs a Friend, live at the Fonda Theater, Los Angeles | A theater, a camera, a national podcast    | He did not "give a fuck what all these phony fucking people are saying," had "no fucking idea" it would be controversial, and dismissed his critics as "all of these sanctimonious c***s out there who don't really sincerely give a s***." Of the Saudi crowd: "They wanted it and they wanted you to push."                                        |
+| Aug 10, 2026 | Monday Morning Podcast, episode 8-10-26                              | Him, a microphone, no audience in the room | **"I had like fucking dry mouth for like the first 20 minutes."** Also: "standing there going, 'How in the fuck am I going to make these people laugh?'" Also: "worrying about getting arrested and then knowing full well that there's no way Donny boy is going to get me out." Also: "Anytime anybody even moved or got up, I would get nervous." |
 
 </div>
 

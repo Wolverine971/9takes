@@ -11,6 +11,7 @@ research_required: 0
 protected_hits: 12
 requires_revision: true
 synthesized_at: 2026-08-12T06:02:26Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/synthesis.md
 ---
 
 ## Executive verdict

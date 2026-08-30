@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 7
 reviewed_at: 2026-08-07T06:50:57Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/subject.md
 ---
 
 ## Bottom-line verdict
@@ -61,8 +62,9 @@ But seven concerns all lean the same direction: the draft repeatedly sharpens hi
 All seven are concerns; none independently breaks trust. Ordered by priority.
 
 **SUBJECT-C1 — "He ruined a generation" rendered as his flat verdict.**
+
 - **Passage:** Rizz section, opening: "Kai gets the credit for making 'rizz' a global word. Duke's assessment of that achievement: 'He ruined a generation.'"
-- **Effect:** On the 2024 tape, this is Speedy quoting Duke's *prior* statement back to him; Duke's first response is "I wouldn't say ruined it," and only when pressed ("you did say it") does he repeat it. The draft asserts as his standing assessment a line he explicitly softened in the same conversation — about his closest collaborator. This is precisely the words-in-my-mouth dynamic the article says he resents, applied to him by the article.
+- **Effect:** On the 2024 tape, this is Speedy quoting Duke's _prior_ statement back to him; Duke's first response is "I wouldn't say ruined it," and only when pressed ("you did say it") does he repeat it. The draft asserts as his standing assessment a line he explicitly softened in the same conversation — about his closest collaborator. This is precisely the words-in-my-mouth dynamic the article says he resents, applied to him by the article.
 - **Evidence:** Evidence packet, First-person evidence + CLM-10 [S1], transcript re-verified 2026-08-07.
 - **Minimum viable repair:** One clause acknowledging the shape — frame it as a line he has said, walked back, and re-upped laughing, or attribute the revival to Speedy's prompt.
 - **Expected benefit:** Keeps the joke, gains accuracy, and protects credibility with the many readers who have watched the exchange.
@@ -70,6 +72,7 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 - **Acceptance test:** A reader of the revised paragraph can tell the line is a recurring bit Duke has both delivered and disclaimed, not a settled verdict.
 
 **SUBJECT-C2 — "and cried" escalates his most vulnerable public moment.**
+
 - **Passage:** Stress section: "He opened the package live, in front of everybody, and cried."
 - **Effect:** Sources say "nearly teared up," "a little emotional," and that he put on shades [S14][S15]. For a man whose entire posture is control, the difference between tearing up behind shades and crying outright on camera is exactly the difference he manages. Overstating it is a dignity cost stated as fact.
 - **Evidence:** CLM-13; packet flags "'cried' outright is stronger than any source."
@@ -79,8 +82,9 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 - **Acceptance test:** The verb claims no more than the strongest sourced wording; the shades detail is present or the sentence is otherwise within sources.
 
 **SUBJECT-C3 — Present-tense "worst decision" outruns his 2024 stance.**
+
 - **Passage:** TL;DR bullet: "he still calls enlisting the worst decision of his life." (The H2 "Why Duke Dennis calls the Army his biggest regret" leans the same way but is defensible as search framing, since the body immediately supplies the 2024 balance.)
-- **Effect:** "Worst decision I ever made in my life" is his 2018 line about the day he boarded the bus; his 2024 considered stance is softer ("part of my journey... I feel like I wasted a lot of time"), and on the 2024 tape the "biggest regret" framing is introduced by Speedy as something Duke *has been quoted* as saying. Pinning a man to a framing he has since moderated is unfair in a small, checkable way.
+- **Effect:** "Worst decision I ever made in my life" is his 2018 line about the day he boarded the bus; his 2024 considered stance is softer ("part of my journey... I feel like I wasted a lot of time"), and on the 2024 tape the "biggest regret" framing is introduced by Speedy as something Duke _has been quoted_ as saying. Pinning a man to a framing he has since moderated is unfair in a small, checkable way.
 - **Evidence:** CLM-06 [S1][S2].
 - **Minimum viable repair:** TL;DR → past tense with placement: "he called enlisting the worst decision of his life — his words from the bus — and still counts the years as wasted."
 - **Expected benefit:** The bullet keeps its punch and matches both tapes.
@@ -88,8 +92,9 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 - **Acceptance test:** No present-tense sentence asserts "worst decision of his life" as his current stance.
 
 **SUBJECT-C4 — India Love beat: date likely wrong, quote referent unsettled.**
+
 - **Passage:** Stress section: "By late 2025 he was flirting on camera with India Love, who described the dynamic on the same Complex show...: 'We're friends, but we can get flirty and playful... it's for the entertainment of Twitch.'" Testimony ledger dates it November 2025.
-- **Effect:** The episode appears to date to mid-2025 (Complex's own June 2025 promo), and the quoted sentence covers her dynamics with *both* DDG and Duke — no source settles which man it describes [S16][S17]. This beat sits adjacent to the private life he deliberately keeps opaque; it should carry zero unforced errors.
+- **Effect:** The episode appears to date to mid-2025 (Complex's own June 2025 promo), and the quoted sentence covers her dynamics with _both_ DDG and Duke — no source settles which man it describes [S16][S17]. This beat sits adjacent to the private life he deliberately keeps opaque; it should carry zero unforced errors.
 - **Evidence:** CLM-15; packet Disputes #3.
 - **Minimum viable repair:** Date → "In 2025"; either swap to her verified Duke-specific line ("The whole thing with Duke... it just organically happened. That was my first time meeting him") or attribute the flirty-playful sentence to her description of her on-stream dynamics generally. Fix the testimony-ledger date to match.
 - **Expected benefit:** Removes a checkable dating error and a possible misattribution from a mood-setting beat that doesn't need either.
@@ -97,17 +102,19 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 - **Acceptance test:** No wording asserts the "flirty and playful" sentence is specifically about Duke unless the episode has been rewatched and confirms it; no date more precise than sources support.
 
 **SUBJECT-C5 — "It stays in the drawer" contradicts the same exchange's tail.**
+
 - **Passage:** Empire section: "The audience would watch it. He knows they would. It stays in the drawer."
 - **Effect:** On the same tape he adds, "but now I'm starting to put them on my live channel, just throw them over there." The draft misstates his current practice and overstates the declines-attention plank the typing partly rests on. He could read this and say, accurately, "that's not what I do."
 - **Evidence:** Packet First-person evidence (craft) [S1].
 - **Minimum viable repair:** "It stays off the main channel" — or add the live-channel tail as a half-sentence.
-- **Expected benefit:** Consistent with tape; the perfectionism point actually sharpens (the videos aren't good enough for the *main* channel).
+- **Expected benefit:** Consistent with tape; the perfectionism point actually sharpens (the videos aren't good enough for the _main_ channel).
 - **Confidence:** High.
 - **Acceptance test:** The passage is consistent with the full exchange, including the live-channel admission.
 
 **SUBJECT-C6 — "prints his birth year as a punchline" implies 1987 is real.**
+
 - **Passage:** Ending: "It renamed him Unc. It prints his birth year as a punchline."
-- **Effect:** The 1987 joke is a *fake* birth year the internet assigns him; he was born in 1994. As written, a reader can walk away believing the punchline is his actual birth year — repeating the internet's deliberate error as fact about him.
+- **Effect:** The 1987 joke is a _fake_ birth year the internet assigns him; he was born in 1994. As written, a reader can walk away believing the punchline is his actual birth year — repeating the internet's deliberate error as fact about him.
 - **Evidence:** Packet note on the Unc/1987 cluster [S1][S3].
 - **Minimum viable repair:** "It prints a fake birth year as a punchline."
 - **Expected benefit:** One word closes the misread.
@@ -115,8 +122,9 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 - **Acceptance test:** The revised line cannot be read as confirming 1987.
 
 **SUBJECT-C7 — Cold open adds physical details he never supplied.**
+
 - **Passage:** Cold open: "his body quit standing up. He caught himself inches from the roller."
-- **Effect:** Per the transcript he was *sitting* in front of the machine, "almost fell asleep... woke up pretty much catching myself." "Standing up," "inches," and "the roller" are the draft's inventions inside a self-reported story — in the sixty most prominent words of the piece, the section the packet flags as thesis-collapse risk if wrong (CLM-01). The subject's own telling is being dramatized past his telling.
+- **Effect:** Per the transcript he was _sitting_ in front of the machine, "almost fell asleep... woke up pretty much catching myself." "Standing up," "inches," and "the roller" are the draft's inventions inside a self-reported story — in the sixty most prominent words of the piece, the section the packet flags as thesis-collapse risk if wrong (CLM-01). The subject's own telling is being dramatized past his telling.
 - **Evidence:** CLM-01 [S1]; packet: "the draft's cold open ('his body quit standing up') is a stylized rendering."
 - **Minimum viable repair:** Render it as he told it: dozed off sitting in front of the machine, jolted awake catching himself. Keep the walk-out — "Then he stood, walked out of the building, and walked home" — exactly as written; that part is his.
 - **Expected benefit:** The opening image survives any fact-check against the tape and remains entirely his story.
@@ -126,15 +134,19 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 ## Specific improvements
 
 **SUBJECT-I1 — Intro overstates his relationship to the word "rizz."**
+
 - Passage: intro, "Gen Z built a dictionary word around him." Effect: implies the word was coined around Duke; the draft's own rizz section correctly credits Kai with making it global. Repair: "made him the face of a dictionary word" or "turned him into the word's daily exemplar." Benefit: intro stops contradicting its own later section. Confidence: high. Test: intro consistent with the rizz section's crediting of Kai.
 
 **SUBJECT-I2 — "No. 5 most influential creator alive."**
+
 - Passage: AMP section. Effect: the Rolling Stone list is "25 Most Influential Creators of 2024," not an all-time ranking; "alive" inflates his honor in a way he specifically would not ("Where is Speed?"). Repair: "of 2024." Confidence: high. Test: matches [S4][S5]. (The intro's "No. 5 most influential creator of 2024" is already correct.)
 
 **SUBJECT-I3 — "finish the entire four-year contract" precision.**
+
 - Passage: Army section. Effect: his own 2018 telling twice says he "stayed the whole three years" (likely meaning remaining years) while also saying "four years"; the draft's precision slightly exceeds the tape. Repair: "went on to finish the contract" — the four-year figure is already established two paragraphs earlier via consensus [S3]. Confidence: medium. Test: no precision the tape plus [S3] can't jointly support.
 
 **SUBJECT-I4 — "teaching personal branding" vs. the 2026 staff page.**
+
 - Passage: syllabus section. Effect: the 2026 Streamer University staff page reportedly frames his subject as live audience interaction; "personal branding" matches Wikipedia's general description. He'd care about his job being named right. Repair: verify the staff page wording, or hedge to "teaching personal branding and audience craft." Confidence: medium. Test: matches the strongest primary wording available.
 
 ## Follow-on questions
@@ -147,7 +159,7 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 
 ## Preserve list
 
-- The cold open's *structure* (repair the physical details per C7; do not cut the beat — the 29-days-vs-four-years contrast is the right door into him).
+- The cold open's _structure_ (repair the physical details per C7; do not cut the beat — the 29-days-vs-four-years contrast is the right door into him).
 - "His mother's sentence outlasted his own." (H1 — the draft's most honest sentence.)
 - The full rizz empathy turn, especially "What he hears is a shift bell." (H2.)
 - The aunt/name ending, verbatim. (H4.)
@@ -163,7 +175,7 @@ All seven are concerns; none independently breaks trust. Ordered by priority.
 ## Limits of this review
 
 - I am a fairness proxy, not the subject. Duke Dennis's actual reaction to this article — including to being typed at all — is unknowable from here, and this review does not require his approval or agreement.
-- The biography's spine is a two-source self-narration; fairness was judged against *his tellings*, not against independently established events, because no independent record exists.
+- The biography's spine is a two-source self-narration; fairness was judged against _his tellings_, not against independently established events, because no independent record exists.
 - I relied on the evidence packet's transcript re-verification rather than re-listening to the primary tapes; both source transcripts are noisy ASR output, and a handful of renderings rest on readings of garbled audio.
 - The India Love episode was not rewatched; C4's referent question remains open.
 - The `inner-thought` device (reception night: "I'm the one who listened to the recruiter") was judged acceptable because it is typographically marked and tightly tethered to his own recounting; a stricter reader could reasonably count invented first-person phrasing as a concern, and I note the disagreement rather than resolve it.

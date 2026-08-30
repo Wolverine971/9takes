@@ -7,6 +7,7 @@ score: 43
 biography_intent: true
 personal_wikipedia: true
 source_gate: 'pass'
+path: docs/content-analysis/entity-gaps/Alexandr-Wang.md
 ---
 
 # Emerging Entity Gap Packet: Alexandr Wang
@@ -14,7 +15,7 @@ source_gate: 'pass'
 **Verdict in one line:** excellent subject, terrible entity gap. Demand is real and rising, the source
 record is one of the strongest we have surveyed, and there is a genuinely ownable contradiction — but
 the exact-name SERP is already owned by Wikipedia, Meta's own leadership page, Forbes, and Fortune.
-This is the case the model explicitly names as *not* an entity gap.
+This is the case the model explicitly names as _not_ an entity gap.
 
 ## Why now
 
@@ -49,31 +50,31 @@ recorded — only first-page composition by result type, per guardrail.
 
 **`Alexandr Wang` / `"Alexandr Wang"` / `who is Alexandr Wang`**
 
-| Result type | Present |
-| --- | --- |
-| Official corporate profile | meta.com/about/leadership/alexandr-wang |
-| **Personal Wikipedia** | **en.wikipedia.org/wiki/Alexandr_Wang — yes, personal, not company** |
-| Dedicated reputable biography | Forbes profile; Fortune feature; The Week profile; Entrepreneur "Who is…" |
-| Social / official | LinkedIn; X (@alexandr_wang) |
-| Primary document | House Armed Services Committee witness bio (docs.house.gov, 2023) |
-| Name-collision | **Wikipedia "Alexander Wang" (fashion designer) surfaces inside the result set** |
+| Result type                   | Present                                                                          |
+| ----------------------------- | -------------------------------------------------------------------------------- |
+| Official corporate profile    | meta.com/about/leadership/alexandr-wang                                          |
+| **Personal Wikipedia**        | **en.wikipedia.org/wiki/Alexandr_Wang — yes, personal, not company**             |
+| Dedicated reputable biography | Forbes profile; Fortune feature; The Week profile; Entrepreneur "Who is…"        |
+| Social / official             | LinkedIn; X (@alexandr_wang)                                                     |
+| Primary document              | House Armed Services Committee witness bio (docs.house.gov, 2023)                |
+| Name-collision                | **Wikipedia "Alexander Wang" (fashion designer) surfaces inside the result set** |
 
 **`Alexandr Wang bio` / `background` / `age` / `parents`**
 
-| Result type | Present |
-| --- | --- |
+| Result type                             | Present                                                        |
+| --------------------------------------- | -------------------------------------------------------------- |
 | Thin people-search / celebrity-SEO farm | Goodreturns, StarsUnfolded, leaderbiography, millionairescript |
-| Personal Wikipedia | yes |
-| Dedicated reputable biography | Forbes; Entrepreneur; Gulf News; frederick.ai founder story |
-| Republished aggregator | baike.baidu.com English mirror |
+| Personal Wikipedia                      | yes                                                            |
+| Dedicated reputable biography           | Forbes; Entrepreneur; Gulf News; frederick.ai founder story    |
+| Republished aggregator                  | baike.baidu.com English mirror                                 |
 
 **`Alexandr Wang wife / girlfriend / spouse`**
 
-| Result type | Present |
-| --- | --- |
-| Thin gossip farm | essenceofsymbols, famouslovelife, myforeignhalf, StarsUnfolded |
-| Name-collision | "Is designer Alexander Wang married…"; Wikipedia "Cissy Wang" (unrelated) |
-| Reputable dedicated coverage | **none** |
+| Result type                  | Present                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------- |
+| Thin gossip farm             | essenceofsymbols, famouslovelife, myforeignhalf, StarsUnfolded            |
+| Name-collision               | "Is designer Alexander Wang married…"; Wikipedia "Cissy Wang" (unrelated) |
+| Reputable dedicated coverage | **none**                                                                  |
 
 ### The five questions, answered
 
@@ -86,7 +87,7 @@ recorded — only first-page composition by result type, per guardrail.
    owns net-worth intent, Wikipedia owns life-timeline intent, Meta owns role intent, Fortune and
    CNBC own the current-narrative intent.
 4. **Would a reader still need multiple searches after opening the current results?** Mostly no for
-   facts. Yes for *interpretation* — no top result explains what kind of operator Wang is or why the
+   facts. Yes for _interpretation_ — no top result explains what kind of operator Wang is or why the
    LeCun critique lands. That interpretive gap is real but it is not a biography gap.
 5. **Can 9takes offer the strongest general-interest page?** No. We cannot out-authority Wikipedia and
    Forbes on a subject they have covered since 2021.
@@ -126,7 +127,7 @@ self-made billionaire at 24; Meta June 2025. Strong, verifiable spine.
 
 **Gate: PASS.** This is among the deepest source records surveyed.
 
-*First-person, long-form (≥2 required, 9 found):*
+_First-person, long-form (≥2 required, 9 found):_
 
 - Lightcone Podcast, Jun 2025 — MIT dropout story, Scale's evolution, agents, China competition
 - This Past Weekend w/ Theo Von, E563, Jul 2025 — **full transcripts available** (happyscribe,
@@ -139,12 +140,12 @@ self-made billionaire at 24; Meta June 2025. Strong, verifiable spine.
 - CNBC, Sep 2025 — what successful CEOs do
 - Stanford eCorner / STVP, "Better AI Through Better Data"
 
-*Primary documents:*
+_Primary documents:_
 
 - House Armed Services Committee witness bio, 2023-07-18 (docs.house.gov PDF) — a sworn-context,
   self-authored professional record. High-value, rarely used by competitors.
 
-*Named third-party testimony (≥2 required, 4+ found):*
+_Named third-party testimony (≥2 required, 4+ found):_
 
 - **Yann LeCun** (FT, Jan 2026) — on the record, hostile, specific: "no experience with research or
   how you practice research"; "completely LLM-pilled"; "you certainly don't tell a researcher like me
@@ -153,10 +154,10 @@ self-made billionaire at 24; Meta June 2025. Strong, verifiable spine.
 - **Mark Zuckerberg** — public framing of the hire and the $14.3B/49% Scale transaction
 - Named researcher departures: Avi Verma, Ethan Knight, Rishabh Agarwal
 
-*Current source tied to catalyst:* Forkast (Aug 2026, Muse Code); Fortune (Jul 2026, Muse Spark 1.1);
+_Current source tied to catalyst:_ Forkast (Aug 2026, Muse Code); Fortune (Jul 2026, Muse Spark 1.1);
 CNBC (Jun 2026, one-year retrospective).
 
-*Signature contradiction:* **yes — and it is unusually clean.** Wang built a $29B company by
+_Signature contradiction:_ **yes — and it is unusually clean.** Wang built a $29B company by
 industrializing other people's judgment: Scale AI's core product is human labelers converted into
 machine-readable signal. His entire career is orchestrating expertise he does not personally hold.
 That is precisely the charge LeCun levels at him — the man who packaged the experts is now being told
@@ -212,28 +213,28 @@ Not applicable — no existing page.
 
 ## Scorecard and caveats
 
-| Dimension | Score | Basis |
-| --- | ---: | --- |
-| Demand trajectory | 17/20 | Three distinct 2026 news cycles (Jan LeCun, Jun CNBC, Aug Muse Code); durable, not a spike. Capped below 20 — no hard trend data, and much volume routes to Meta/Scale AI entity queries rather than person-biography queries. |
-| Exact-name SERP weakness | 6/25 | Core name query returns personal Wikipedia + Meta official + Forbes + Fortune + The Week + Entrepreneur. Partial credit only for the fact-query tail, where content farms dominate. |
-| Biography-intent breadth | 11/15 | Multiple real query families (who is / age / parents / education / Scale AI / Meta role). Docked: relationship intent is unanswerable, net worth is unchaseable. |
-| Source depth | 14/15 | 9 long-form first-person sources with transcripts, a House committee primary document, 4+ named third-party voices, current catalyst coverage. Exceptional. |
-| 9takes angle and niche fit | 9/10 | Clean, ownable contradiction (orchestrator vs. originator) that no competing page attempts. Frontier-builder cluster is a proven 9takes niche. |
-| Timing / index advantage | 4/10 | No existing URL to refresh; entering a SERP Wikipedia and Forbes have held since 2021. Late to a mature entity, not early to an emerging one. |
-| Entity clarity | 2/5 | "Alexander Wang" (fashion designer) surfaces inside the Alexandr Wang result set. The missing 'e' disambiguates for correct spellers only. |
-| **Subtotal** | **63** | |
-| Penalty: personal Wikipedia + several authoritative dedicated biographies | **-20** | Applies unambiguously. |
-| **Total** | **43/100** | **PASS** (below 45) |
+| Dimension                                                                 |      Score | Basis                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------- | ---------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Demand trajectory                                                         |      17/20 | Three distinct 2026 news cycles (Jan LeCun, Jun CNBC, Aug Muse Code); durable, not a spike. Capped below 20 — no hard trend data, and much volume routes to Meta/Scale AI entity queries rather than person-biography queries. |
+| Exact-name SERP weakness                                                  |       6/25 | Core name query returns personal Wikipedia + Meta official + Forbes + Fortune + The Week + Entrepreneur. Partial credit only for the fact-query tail, where content farms dominate.                                            |
+| Biography-intent breadth                                                  |      11/15 | Multiple real query families (who is / age / parents / education / Scale AI / Meta role). Docked: relationship intent is unanswerable, net worth is unchaseable.                                                               |
+| Source depth                                                              |      14/15 | 9 long-form first-person sources with transcripts, a House committee primary document, 4+ named third-party voices, current catalyst coverage. Exceptional.                                                                    |
+| 9takes angle and niche fit                                                |       9/10 | Clean, ownable contradiction (orchestrator vs. originator) that no competing page attempts. Frontier-builder cluster is a proven 9takes niche.                                                                                 |
+| Timing / index advantage                                                  |       4/10 | No existing URL to refresh; entering a SERP Wikipedia and Forbes have held since 2021. Late to a mature entity, not early to an emerging one.                                                                                  |
+| Entity clarity                                                            |        2/5 | "Alexander Wang" (fashion designer) surfaces inside the Alexandr Wang result set. The missing 'e' disambiguates for correct spellers only.                                                                                     |
+| **Subtotal**                                                              |     **63** |                                                                                                                                                                                                                                |
+| Penalty: personal Wikipedia + several authoritative dedicated biographies |    **-20** | Applies unambiguously.                                                                                                                                                                                                         |
+| **Total**                                                                 | **43/100** | **PASS** (below 45)                                                                                                                                                                                                            |
 
 **Penalties considered and not applied:**
 
-- *Attention peaked / non-durable (-15)* — not applied. Demand is rising and structurally recurring.
-- *Inadequate source trail (-15)* — not applied. Source trail is a strength, not a risk.
-- *Serious name/entity ambiguity (-10)* — **not applied, deliberately.** The Alexander Wang collision
+- _Attention peaked / non-durable (-15)_ — not applied. Demand is rising and structurally recurring.
+- _Inadequate source trail (-15)_ — not applied. Source trail is a strength, not a risk.
+- _Serious name/entity ambiguity (-10)_ — **not applied, deliberately.** The Alexander Wang collision
   is real but moderate, not serious: the spelling disambiguates for correct-spelling searchers and
   Google's knowledge graph separates the two entities cleanly. It is already priced into the 2/5
   entity-clarity score; applying the penalty as well would double-count the same defect.
-- *Gossip-primary intent (-10)* — not applied. Core intent is legitimate biography; only the tail is
+- _Gossip-primary intent (-10)_ — not applied. Core intent is legitimate biography; only the tail is
   gossip.
 
 **Why `pass` but `watch`.** 43 sits two points under the WATCHLIST line, and the classification is

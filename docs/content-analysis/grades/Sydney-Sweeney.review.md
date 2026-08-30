@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/grades/Sydney-Sweeney.review.md -->
+
 # Grade feedback: Sydney Sweeney
 
 Grade: B+ (8.7), rubric v2 — revised 2026-08-15 (first pass 8.5, delta +0.2)

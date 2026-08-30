@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 9
 reviewed_at: 2026-08-15T01:19:00Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/unfamiliar.md
 ---
 
 ## Bottom-line verdict
@@ -29,7 +30,7 @@ status comparison about named living friends into the subject's head. As the rea
 knowledge, I am precisely the person who cannot tell that apart from reporting.
 
 The comprehension problems are all orientation, and all cheap. The article never sizes him — the
-largest audience number attached to Duke anywhere in the body is *100,000 subscribers, from 2018* —
+largest audience number attached to Duke anywhere in the body is _100,000 subscribers, from 2018_ —
 never defines "rizz," and never says what the Enneagram is. Its most scannable orientation aid, the
 TL;DR, is inside a bare `<details>` element and is therefore **collapsed by default**. Every one of
 these is a sub-fifteen-word repair against facts the evidence packet has already verified.
@@ -127,7 +128,7 @@ that matters.
 **UNFAM-B1 — Invented interiority is presented to a newcomer as reported fact.**
 
 - **Exact passage:** `<p class="inner-thought">Everybody in this house got bigger than me. I'm still
-  the one who says who comes through the door.</p>` — in "Why Duke Dennis bought his mother a house
+the one who says who comes through the door.</p>` — in "Why Duke Dennis bought his mother a house
   first." (The companion beat, "Everybody in this room is saying goodbye to somebody. I'm the one who
   listened to the recruiter," in the Army section, is the same device but lower risk — see repair.)
 - **Reader effect / trust problem:** This is a first-person claim about how a living person privately
@@ -197,7 +198,7 @@ stating it.**
   own intro already says "A generation turned his face into shorthand for charisma itself" — the
   sentence and the etymology are the same fact, and the piece never connects them.
 - **Minimum viable repair:** Replace "a dictionary word" with the actual fact and gloss, ~10 words:
-  the 2023 Oxford word of the year, clipped from the middle of *charisma*. This resolves the
+  the 2023 Oxford word of the year, clipped from the middle of _charisma_. This resolves the
   definition and upgrades a vague gesture into a verifiable, dated hook in one move.
 - **Expected benefit:** Closes the comprehension gap and converts the intro's charisma line from
   assertion into wordplay the reader can see.
@@ -210,7 +211,7 @@ stating it.**
   gloss, "An [Enneagram Type 8](/enneagram-corner/enneagram-type-8) organizes life around one
   requirement..."
 - **Reader effect:** The article defines Type 8 beautifully (UNFAM-H2) but never says what the
-  Enneagram *is*. The word "nine" never appears in the body in reference to the system. A stranger
+  Enneagram _is_. The word "nine" never appears in the body in reference to the system. A stranger
   infers a numbered typology exists from "Type 3, the polished achiever" and "how each type falls
   apart under stress," but is never told it is a nine-type map of core motivation — and so has no way
   to judge whether this is a serious framework or astrology with numbers.
@@ -235,7 +236,7 @@ payment.**
   "no individual apology by Duke Dennis is documented in any source reviewed." Note: the packet also
   states the draft handles the apology correctly by not attributing it to him, and cautions evaluators
   not to push it either way. I am not asking anyone to add or remove responsibility — my finding is
-  that the *absence of an owner* causes an unfamiliar reader to supply Duke as the owner by default,
+  that the _absence of an owner_ causes an unfamiliar reader to supply Duke as the owner by default,
   which produces exactly the attribution the packet says is undocumented.
 - **Minimum viable repair:** Make the collectivity visible in the existing sentence — the apology and
   restitution as the group's terms rather than ownerless. No new claim, no added length. The following
@@ -401,31 +402,31 @@ trust, questions and exit points recorded above before any other input.
 omission from my own unfamiliarity with the site's conventions:
 
 1. `src/scss/blog.scss:592` — `.inner-thought` renders as an italic tinted panel with an SVG
-   thought-bubble icon and **no text label**. *Decision affected:* confirmed UNFAM-B1 as a blocker
+   thought-bubble icon and **no text label**. _Decision affected:_ confirmed UNFAM-B1 as a blocker
    rather than a styling question I could not judge; also confirmed the device is distinguishable
    from a quote, which is why the finding is scoped to unevidenced content rather than to
    misattribution.
-2. `src/scss/blog.scss:1200-1249` — no rule forces `<details>` open. *Decision affected:* upgraded
+2. `src/scss/blog.scss:1200-1249` — no rule forces `<details>` open. _Decision affected:_ upgraded
    UNFAM-C1 and generated UNFAM-Q1.
 3. `src/routes/personality-analysis/[slug]/+page.svelte:650` — FAQs render when `faqs.length >= 2`.
-   *Decision affected:* generated UNFAM-Q3; kept UNFAM-C6 at medium confidence.
+   _Decision affected:_ generated UNFAM-Q3; kept UNFAM-C6 at medium confidence.
 4. Text search of the stripped body for `rizz`, subscriber/follower/million, and `enneagram`.
-   *Decision affected:* established that rizz is never defined, that no present-day audience figure
+   _Decision affected:_ established that rizz is never defined, that no present-day audience figure
    exists anywhere in the body, and that the Enneagram is never described as a system — the factual
    basis for C1, C2 and C3.
 
 **Evidence packet.** Read after the unaided read, per the unfamiliar-reader exception. Relevant
 findings: verified present-day scale exists (3.6M main channel, 2.0M gaming channel via live
 `yt-dlp` 2026-08-15, S-11; 3.3M Twitch, S-01) with the packet's own note that "the draft states no
-subscriber totals" — *decision affected:* confirmed C1 is a draft omission, not my unfamiliarity, and
+subscriber totals" — _decision affected:_ confirmed C1 is a draft omission, not my unfamiliarity, and
 that the repair needs no new research. Union Square attribution detail (Cenat's apology, combined
-$57,000+ restitution, no documented individual apology by Dennis) — *decision affected:* grounded C4
+$57,000+ restitution, no documented individual apology by Dennis) — _decision affected:_ grounded C4
 and set its scope so as not to push the attribution in either direction, per the packet's caution.
 
 **Web — one orientation search** (the single search permitted): "rizz definition Oxford word of the
 year." Established that rizz is Oxford University Press's 2023 Word of the Year, defined as "style,
 charm, or attractiveness; the ability to attract a romantic or sexual partner," and that it is
-clipped from the middle of "charisma." *Decision affected:* **downgraded** the missing definition
+clipped from the middle of "charisma." _Decision affected:_ **downgraded** the missing definition
 from a candidate blocker to UNFAM-C2, since the word is mainstream enough that many 2026 readers
 arrive knowing it; and identified the specific repair, since the draft gestures at the dictionary
 fact twice without stating it while its own intro already invokes "charisma."
@@ -454,5 +455,5 @@ for instance, read to me as omissions at first and as discipline on reflection.
 packet contradicted or qualified it; I have no independent knowledge of Duke Dennis. My judgments
 about attention, momentum and abandonment are one reader's, not measured. And having now read the
 piece three times, I can no longer fully reconstruct the naive state — the orientation findings above
-were recorded during the first pass precisely to guard against that, but the estimate of *when* a
+were recorded during the first pass precisely to guard against that, but the estimate of _when_ a
 term becomes inferable is necessarily approximate.

@@ -65,7 +65,7 @@ faqs:
     answer: "Nara Smith is an Enneagram Type 8 (The Challenger), an 8w9 with a self-preservation dominant instinct. The pattern shows in the line she draws at the dishes on national radio, the decision to keep filming after a newborn that she says was never a conversation about permission, the eight months she held her daughter's cancer diagnosis and released only once the treatment had ended, and the clause-by-clause dismantling of the tradwife label on Call Her Daddy in July 2026. The engine is not aggression but a refusal to be placed anywhere by anybody else's hand."
     anchor: 'what-is-nara-smiths-personality-type'
   - question: 'Why does Nara Smith cook everything from scratch?'
-    answer: "The origin is medical, not ideological, and it has a name: lupus. Around her second pregnancy at 21 her eczema flared so badly she says she felt crippled by it, unable to use her hands or brush her hair. American dermatologists kept sending her home with steroid creams; at the worst of it she woke with her eyes swollen shut, stopped eating entirely out of fear of making it worse, and fell into a depression. She flew to Germany to find naturopaths and specialists, got the lupus diagnosis there, and published the whole account in December 2024, nineteen months before she sat down with Alex Cooper to fight the tradwife label. She concluded she would make everything from scratch because, in her words, that feels the safest to me. The bob was triage for curls she could no longer manage, and the whisper came from filming beside a baby she had just put down."
+    answer: 'The origin is medical, not ideological, and it has a name: lupus. Around her second pregnancy at 21 her eczema flared so badly she says she felt crippled by it, unable to use her hands or brush her hair. American dermatologists kept sending her home with steroid creams; at the worst of it she woke with her eyes swollen shut, stopped eating entirely out of fear of making it worse, and fell into a depression. She flew to Germany to find naturopaths and specialists, got the lupus diagnosis there, and published the whole account in December 2024, nineteen months before she sat down with Alex Cooper to fight the tradwife label. She concluded she would make everything from scratch because, in her words, that feels the safest to me. The bob was triage for curls she could no longer manage, and the whisper came from filming beside a baby she had just put down.'
     anchor: 'why-nara-smith-started-cooking-everything-from-scratch'
   - question: 'Why does Nara Smith reject the tradwife label?'
     answer: "On Call Her Daddy in July 2026 she read the definition aloud and went at it clause by clause: she does not prioritize being a homemaker, both she and her husband work, and she will not be filmed washing dishes. The sentence underneath it is about being sorted, not disliked, which is why she calls it concerning that women get put in narrow boxes to make sense of them. Critics including Tia Levings and TheGrio's Kay Wicker have the stronger case on impact, since she let the ambiguity run for two years while it was working and objected once it started costing her collaborations."
@@ -74,7 +74,7 @@ faqs:
     answer: "Her two-year-old, Whimsy Lou, was in chemotherapy at Yale New Haven from roughly November 2025 to July 2026 while Nara kept posting cooking videos and taking meetings. She said nothing until treatment was finished, disclosing the diagnosis in early July 2026 and confirming the remission on 17 July, so the story reached the public with its ending already attached. The family has never disclosed the type of cancer. The fear she names is not shame about the illness but a specific scenario: a stranger filming them in a hospital corridor and publishing it under someone else's caption."
     anchor: 'how-nara-smith-kept-filming-through-her-daughters-cancer'
   - question: 'What did Nara Smith say about her postpartum experience?'
-    answer: "After her fourth child was born in September 2025 she experienced depersonalization, describing it as feeling like a dream and asking her husband one night whether she had died. She did not tell her midwife, and three weeks later she was on location shooting photography for her cookbook. Her stated reason is that she wants to be seen as a collected strong woman and does not want people to think she is unwell. She has since rejected a widely admired postpartum photo of herself, noting she had been crying that morning and was wearing a diaper in it."
+    answer: 'After her fourth child was born in September 2025 she experienced depersonalization, describing it as feeling like a dream and asking her husband one night whether she had died. She did not tell her midwife, and three weeks later she was on location shooting photography for her cookbook. Her stated reason is that she wants to be seen as a collected strong woman and does not want people to think she is unwell. She has since rejected a widely admired postpartum photo of herself, noting she had been crying that morning and was wearing a diaper in it.'
     anchor: 'the-postpartum-picture-nara-smith-refuses-to-accept'
 production_pretext:
   status: draft
@@ -106,6 +106,7 @@ content_quality:
   regrade_overall: 8.7
   grade_stability_delta: 0.2
   graded_at: '2026-08-04'
+path: docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -271,14 +272,14 @@ The room she is building for those four children is not the room she puts on cam
 
 Here is what that meant, on the dates it meant it.
 
-| When | Inside the frame | Outside it |
-| --- | --- | --- |
-| Late 2023 | From-scratch videos go viral. Calm kitchen, calm voice. | She is pregnant with her third child and has not said so. |
-| 2024 | The Aritzia campaign, the Marc Jacobs bag, the viral peak. | The tradwife label attaches without her consent, and starts costing her collaborations. |
-| Late Sept 2025 | A birth announcement. Her fourth child, born on her own birthday. | She is weeks from no longer being sure the birth happened to a real person. |
-| Oct 2025 | Cookbook photography, on location, styled. | Three weeks postpartum, depersonalized, and she has not told her midwife. |
-| Nov 2025 to Jul 2026 | "Today my kids were…" stories. Dresses. Flights. Meetings. | Whimsy is in chemotherapy, and nobody outside the family knows. |
-| Early Jul 2026 | The diagnosis, finally. | Treatment already finished, remission confirmed on the 17th. The story arrived with its ending attached. |
+| When                 | Inside the frame                                                  | Outside it                                                                                               |
+| -------------------- | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Late 2023            | From-scratch videos go viral. Calm kitchen, calm voice.           | She is pregnant with her third child and has not said so.                                                |
+| 2024                 | The Aritzia campaign, the Marc Jacobs bag, the viral peak.        | The tradwife label attaches without her consent, and starts costing her collaborations.                  |
+| Late Sept 2025       | A birth announcement. Her fourth child, born on her own birthday. | She is weeks from no longer being sure the birth happened to a real person.                              |
+| Oct 2025             | Cookbook photography, on location, styled.                        | Three weeks postpartum, depersonalized, and she has not told her midwife.                                |
+| Nov 2025 to Jul 2026 | "Today my kids were…" stories. Dresses. Flights. Meetings.        | Whimsy is in chemotherapy, and nobody outside the family knows.                                          |
+| Early Jul 2026       | The diagnosis, finally.                                           | Treatment already finished, remission confirmed on the 17th. The story arrived with its ending attached. |
 
 Two years of footage, and the right-hand column never leaked.
 
@@ -661,4 +662,3 @@ Not attempted (out of scope for a revision pass):
 Lint: 0 fail, 1 warn (body 4384 / ceiling 4500). No prose em-dashes, no banned phrases, 0 strong
 contrast pairs, 5 internal links, 5 FAQPage-eligible pairs.
 -->
-

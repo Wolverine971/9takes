@@ -12,11 +12,12 @@ recommendation: revise
 blockers: 0
 concerns: 4
 reviewed_at: 2026-08-09T07:54:05Z
+path: docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207/unfamiliar.md
 ---
 
 ## Bottom-line verdict
 
-A reader who has never heard of Noah Wyle can finish this piece, state the thesis ("he's an Enneagram Type 6 — he manages fear by enlisting in service to chosen people and institutions, and The Pitt is him building a room where helpers like his nurse mother can finally speak"), and retell its best scene at dinner. The emotional architecture works with zero prior knowledge, which is rare for a celebrity analysis. But the piece leans on two facts it never gives the newcomer: it never says what *The Pitt* is before using it, and it never says who Michael Crichton is — which leaves the entire lawsuit section, a major structural beat, running on inference. Both are one-clause repairs. Recommendation: **revise** (surgical), not restructure.
+A reader who has never heard of Noah Wyle can finish this piece, state the thesis ("he's an Enneagram Type 6 — he manages fear by enlisting in service to chosen people and institutions, and The Pitt is him building a room where helpers like his nurse mother can finally speak"), and retell its best scene at dinner. The emotional architecture works with zero prior knowledge, which is rare for a celebrity analysis. But the piece leans on two facts it never gives the newcomer: it never says what _The Pitt_ is before using it, and it never says who Michael Crichton is — which leaves the entire lawsuit section, a major structural beat, running on inference. Both are one-clause repairs. Recommendation: **revise** (surgical), not restructure.
 
 ## What landed
 
@@ -34,7 +35,7 @@ A reader who has never heard of Noah Wyle can finish this piece, state the thesi
 
 ## What missed
 
-**UNFAMILIAR-M1 — *The Pitt* is used before it is ever introduced.** Its first body appearance is "His mother had been watching The Pitt, and it was bringing things up" (drawer section). At that point a first-time reader does not know The Pitt is Wyle's current show, a medical drama, or new — the piece has only said he "made television again at the highest level" with old collaborators, without naming the result. The show is not properly identified until two sections later ("he emailed Wells, and The Pitt is what came back"). The article's central artifact never gets a "what it is" sentence: no premiere year, no platform, no one-line premise anywhere reader-visible.
+**UNFAMILIAR-M1 — _The Pitt_ is used before it is ever introduced.** Its first body appearance is "His mother had been watching The Pitt, and it was bringing things up" (drawer section). At that point a first-time reader does not know The Pitt is Wyle's current show, a medical drama, or new — the piece has only said he "made television again at the highest level" with old collaborators, without naming the result. The show is not properly identified until two sections later ("he emailed Wells, and The Pitt is what came back"). The article's central artifact never gets a "what it is" sentence: no premiere year, no platform, no one-line premise anywhere reader-visible.
 
 **UNFAMILIAR-M2 — The cold open never says what the Emmy was for.** "Noah Wyle won his first Emmy in a tuxedo made of scrubs" — for what show, for what role? The scrubs imagery implies "doctor show," but the newcomer runs on inference for the entire opening stretch. Partly intentional mystery, and mostly fine — but combined with M1 it means the show's identity stays fuzzy for roughly the first third of the piece.
 
@@ -42,7 +43,7 @@ A reader who has never heard of Noah Wyle can finish this piece, state the thesi
 
 ## What I expected
 
-- A one-clause introduction of *The Pitt* at or near first mention: what it is, roughly when it arrived. Delivered nowhere in the reader-visible body (the FAQ block partially covers it, but only if FAQs render and only if the reader gets there).
+- A one-clause introduction of _The Pitt_ at or near first mention: what it is, roughly when it arrived. Delivered nowhere in the reader-visible body (the FAQ block partially covers it, but only if FAQs render and only if the reader gets there).
 - One clause identifying Michael Crichton as ER's creator before the lawsuit's stakes are argued. Not delivered.
 - A plain-language handle on the Enneagram claim. Delivered fully (H3).
 - Orientation for every named person and institution. Delivered for everyone except the two above (H6).
@@ -60,6 +61,7 @@ A reader who has never heard of Noah Wyle can finish this piece, state the thesi
 No blockers. Four concerns, none of which independently breaks trust:
 
 **UNFAMILIAR-C1 (concern, high confidence) — Crichton unidentified; lawsuit section runs on inference.**
+
 - Passage: "In August 2024, Michael Crichton's widow, Sherri Crichton, sued Warner Bros., John Wells, and Wyle..." (section "Is The Pitt Just ER? The Lawsuit He Calls Profoundly Sad").
 - Reader effect: a newcomer cannot evaluate the section's central conflict — why this estate can sue, why the omission of Crichton's name from The Pitt matters, what "the man ER came from" refers to. The section's payoff ("there is no colder charge") lands at half strength.
 - Evidence: unaided first read stalled exactly here; evidence packet confirms the suit rests on "Crichton's 1994 ER agreement" (packet S-12); orientation search confirmed Crichton created ER (CNN obituary; michaelcrichton.com; Wikipedia).
@@ -67,7 +69,8 @@ No blockers. Four concerns, none of which independently breaks trust:
 - Expected benefit: the section's stakes become legible on first pass; the late phrase "the man ER came from" turns from riddle into callback.
 - Acceptance test: a reader who has never heard of Crichton can answer "why does this estate get to sue?" immediately after the section's first paragraph.
 
-**UNFAMILIAR-C2 (concern, high confidence) — *The Pitt* used before introduced.**
+**UNFAMILIAR-C2 (concern, high confidence) — _The Pitt_ used before introduced.**
+
 - Passage: "His mother had been watching The Pitt, and it was bringing things up" (section "The Drawer Noah Wyle's Mother Never Opened") — first body mention; the show is not identified as his until "The Letters That Broke Noah Wyle's Vow."
 - Reader effect: momentary disorientation at a critical moment — the drawer scene's setup — plus a persistent low-grade fuzziness about what, exactly, the piece's central show is (nothing reader-visible ever says it's a new medical drama that arrived in 2025).
 - Evidence: unaided first read; evidence packet confirms The Pitt premiered January 2025 on Max (packet timeline) — a fact absent from the draft body.
@@ -76,6 +79,7 @@ No blockers. Four concerns, none of which independently breaks trust:
 - Acceptance test: at the drawer scene, a first-time reader knows the show his mother is watching is his.
 
 **UNFAMILIAR-C3 (concern, medium confidence) — the opening stretch never names the show or role the Emmy honors.**
+
 - Passage: cold open ("On September 14, 2025, Noah Wyle won his first Emmy in a tuxedo made of scrubs...") through the intro.
 - Reader effect: the newcomer spends the first several paragraphs inferring Wyle's identity from imagery. It mostly works as intentional mystery, and the "What is Noah Wyle's personality type?" section then supplies ER; but the win's own context (The Pitt, Dr. Robby) is never attached to it anywhere.
 - Evidence: unaided first read; the Emmy win's show is stated only in the evidence packet (Lead Actor, Drama, for The Pitt), never in the draft body.
@@ -84,6 +88,7 @@ No blockers. Four concerns, none of which independently breaks trust:
 - Acceptance test: by the end of the diagnosis section, a first-time reader can say what show the Emmy was for.
 
 **UNFAMILIAR-C4 (concern, medium confidence) — the invented interior monologue can read as reportage.**
+
 - Passage: `<p class="inner-thought">They became doctors because I pretended to be one. They're drowning, and they're writing to thank me. What do you do with a debt like that?</p>` (section "The Letters That Broke Noah Wyle's Vow").
 - Reader effect: a first-time reader of this site has no established convention for the device. Adjacent to genuine quotes, it risks being read as something Wyle said or thought on record — unearned certainty about a real person's inner life, in a piece whose credibility elsewhere comes from scrupulous inline sourcing.
 - Evidence: my own first read hesitated over whether this was a quote; the evidence packet independently classifies it as "authorial imagination [that] should not be evaluated as a quote."
@@ -126,7 +131,7 @@ No blockers. Four concerns, none of which independently breaks trust:
 1. **SHA verification** (shasum): draft-reviewed.md = `a5870ab6...3e3e5894`, matching both the supplied SHA and `context.json`. Decision: proceed.
 2. **Unaided first read** of `draft-reviewed.md` only (no packet, no web). Produced: thesis statement test (passed), hits H1–H6, misses M1–M3, the inner-thought hesitation, and the "number one" jargon note. All four concerns originate here.
 3. **Evidence packet** (`evidence-packet.md`): confirmed The Pitt = Max, premiered 2025-01 (timeline) — establishing C2/C3 as draft omissions, not my ignorance; confirmed the suit rests on Crichton's 1994 ER agreement (S-12); packet independently labels the inner-thought "authorial imagination," corroborating C4. Also noted packet items outside my lane (phone-ban attribution, "set of 300," arrest-quote nuance) and left them to other perspectives.
-4. **One orientation search** (per the unfamiliar-reader allowance): "Michael Crichton creator of ER" — confirmed Crichton created ER (wrote the pilot from his medical-school experience). Sources: [CNN obituary](https://www.cnn.com/2008/SHOWBIZ/books/11/05/obit.crichton/index.html), [michaelcrichton.com/works/er](https://michaelcrichton.com/works/er/), [Wikipedia: ER (TV series)](https://en.wikipedia.org/wiki/ER_(TV_series)). Decision affected: the C1 repair can safely identify Crichton as ER's creator.
+4. **One orientation search** (per the unfamiliar-reader allowance): "Michael Crichton creator of ER" — confirmed Crichton created ER (wrote the pilot from his medical-school experience). Sources: [CNN obituary](https://www.cnn.com/2008/SHOWBIZ/books/11/05/obit.crichton/index.html), [michaelcrichton.com/works/er](https://michaelcrichton.com/works/er/), [Wikipedia: ER (TV series)](<https://en.wikipedia.org/wiki/ER_(TV_series)>). Decision affected: the C1 repair can safely identify Crichton as ER's creator.
 
 ## Limits of this review
 

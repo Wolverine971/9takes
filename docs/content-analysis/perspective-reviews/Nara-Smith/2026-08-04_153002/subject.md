@@ -12,6 +12,7 @@ recommendation: hold_for_research
 blockers: 3
 concerns: 9
 reviewed_at: 2026-08-04T20:16:38Z
+path: docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/subject.md
 ---
 
 ## Bottom-line verdict
@@ -50,7 +51,7 @@ blocker costs her.
 This is the fairness engine of the whole piece. The mocked behavior — a young woman making everything
 from scratch in couture — is explained by a 21-year-old whose hands stopped working, who was sent
 home with steroid creams by dermatologist after dermatologist, and who bought her own plane ticket to
-get an answer. It uses her vocabulary (*crippled*, *defeated*, *safest*) rather than clinical or
+get an answer. It uses her vocabulary (_crippled_, _defeated_, _safest_) rather than clinical or
 armored language. **Must survive revision:** it is the only passage that converts a punchline into a
 person, and it does so without asking the reader to like her.
 
@@ -144,7 +145,7 @@ declines to explain everything is a framework I can trust about anything.
 
 **Jarring.** The two `<p class="inner-thought">` boxes. Verified in `src/scss/blog.scss:592` — they
 render as an italic tinted panel with a thought-bubble icon and no attribution line, immediately
-adjacent to blockquotes that *are* attributed. Nothing in the reader-visible layer states that these
+adjacent to blockquotes that _are_ attributed. Nothing in the reader-visible layer states that these
 words are invented. They are the only passages in the article written from inside her head, and they
 sit in the two most sensitive sections.
 
@@ -154,7 +155,7 @@ structured-data layer is harsher about her than the article is.
 
 ## Red flags
 
-### SUBJ-B1 — The thesis asserts an injury she has publicly contradicted *(BLOCKER)*
+### SUBJ-B1 — The thesis asserts an injury she has publicly contradicted _(BLOCKER)_
 
 - **Passage:** L299, "Being disliked never comes up. Being sorted does. That is the Eight's allergy";
   reinforced at L176 (TL;DR: "The injury she names is never being disliked"), L187 ("a flat refusal to
@@ -164,13 +165,13 @@ structured-data layer is harsher about her than the article is.
   universal, and using her own composure as the evidence. If she reads it, the sentence she stops at
   is "Being disliked never comes up," because it did come up, at length, in public, and she cried
   about it.
-- **Evidence:** *On Purpose with Jay Shetty*, episode published **9 July 2025**, titled with her own
+- **Evidence:** _On Purpose with Jay Shetty_, episode published **9 July 2025**, titled with her own
   words: "The Comments and the Hate Got to Me. I Was Crying Every Single Day." The episode is
   described as covering online criticism and self-worth, and she is quoted in coverage of it saying
   "all the comments and the hate got to me so bad." This is a long-form first-person source dated
   **twelve and a half months before the Cooper sitting** and it is not in the draft or the shared
   packet. It also reframes the draft's L200 quote — "I've kind of detached myself from what the public
-  perception is" — as a state she reached *after* a period of daily crying, not a constitutional
+  perception is" — as a state she reached _after_ a period of daily crying, not a constitutional
   trait. The draft presents it as constitutional.
 - **Minimum viable repair:** Two sentences in the diagnosis section acknowledging the 2025 account,
   and a scope change from "never" to what is actually defensible: that when she chose to fight, she
@@ -186,7 +187,7 @@ structured-data layer is harsher about her than the article is.
   the piece cites at least one dated pre-2026 first-person source about the emotional cost of the
   criticism.
 
-### SUBJ-B2 — Unverified hospitalization specifics about a named two-year-old *(BLOCKER)*
+### SUBJ-B2 — Unverified hospitalization specifics about a named two-year-old _(BLOCKER)_
 
 - **Passage:** Cold open L158 — "in a hospital bed in New Haven, five days out of roughly every
   sixteen, depending on her blood counts." And FAQ L74 — "in chemotherapy at Yale New Haven from
@@ -202,7 +203,7 @@ structured-data layer is harsher about her than the article is.
   additional information has been provided regarding the primary tumor, the extent of the disease, the
   chemotherapy regimen, or Whimsy's current clinical status." The packet reaches the same conclusion
   from the other direction: "Yale New Haven," the five-in-sixteen cadence, and "blood counts" rest
-  solely on a *Call Her Daddy* auto-transcript that no longer exists on disk and that no outlet
+  solely on a _Call Her Daddy_ auto-transcript that no longer exists on disk and that no outlet
   corroborates.
 - **Minimum viable repair:** Cut "Yale New Haven" from the FAQ and "in New Haven" plus the
   five-in-sixteen clause from the cold open, or re-verify them against a retrievable artifact first. A
@@ -216,7 +217,7 @@ structured-data layer is harsher about her than the article is.
 - **Acceptance test:** Every medical specific about Whimsy in body and frontmatter is either (a)
   present in a retrievable, citable source, or (b) removed. The FAQ names no hospital.
 
-### SUBJ-B3 — Invented interiority asserting an unestablished fact about her marriage *(BLOCKER)*
+### SUBJ-B3 — Invented interiority asserting an unestablished fact about her marriage _(BLOCKER)_
 
 - **Passage:** L385 — "She has cancer. I know she has. Nobody has said it. The room has said it. Now I
   carry it for a week, put dinner on the table, and **say nothing to anyone, including the person
@@ -250,12 +251,12 @@ structured-data layer is harsher about her than the article is.
 ### SUBJ-C1 — "She gave Forbes the feeling version" is a reporting relationship that did not exist
 
 L299. Forbes did not interview her; Dani Di Placido's 31 July 2026 piece is an explainer that
-re-reports her *Call Her Daddy* comments (packet CLM-06, resolved). **Repair:** "She put the feeling
+re-reports her _Call Her Daddy_ comments (packet CLM-06, resolved). **Repair:** "She put the feeling
 version on the record the same month" or "As Forbes summarized it." **Benefit:** removes a factual
 error about her press conduct in the one paragraph claiming an outside source. **Confidence:** high.
-**Acceptance test:** no sentence implies she spoke to Forbes. *(Ranked as a concern from this
+**Acceptance test:** no sentence implies she spoke to Forbes. _(Ranked as a concern from this
 standpoint — her words are accurately quoted and only the provenance is wrong — but a fact-focused
-perspective may reasonably grade it a blocker.)*
+perspective may reasonably grade it a blocker.)_
 
 ### SUBJ-C2 — The FAQ verb "hide" is harsher than the article and harsher than the record
 
@@ -272,7 +273,7 @@ The piece argues (L299, L331-333) that her specific injury is being sorted into 
 will not accept a correction — then titles her, files her under `enneagram: '8'`, and publishes it as
 permanent structured data with no correction mechanism. She has no way to answer it. The draft's
 nearest approach is "What the type lens adds is why the label lands as a violation instead of a
-mislabel," which is about *her* label, not ours. **Repair:** one clause somewhere in the diagnosis
+mislabel," which is about _her_ label, not ours. **Repair:** one clause somewhere in the diagnosis
 section conceding the irony and stating what makes this different in kind (a described pattern offered
 for testing, not an identity assigned). **Benefit:** converts the piece's most obvious hypocrisy
 charge into evidence of self-awareness; costs about fifteen words. **Confidence:** high. **Acceptance
@@ -337,7 +338,7 @@ instead of freezing the 2024 version. **Confidence:** medium — the shift may b
 
 ### SUBJ-C9 — Roughly 80% of her quotation cannot be re-verified
 
-The packet's limitation 1: the *Call Her Daddy* auto-transcript is speaker-unlabeled, the conversation
+The packet's limitation 1: the _Call Her Daddy_ auto-transcript is speaker-unlabeled, the conversation
 is two women, and no copy survives locally. The draft puts roughly thirty direct quotations in her
 mouth on that basis, about her child's illness, her postpartum dissociation, and her parents'
 marriage. One provenance error is already confirmed in the piece (SUBJ-C1). This repository has a
@@ -351,30 +352,30 @@ source ledger records which artifact was used.
 
 ## Follow-on questions
 
-**SUBJ-Q1 — What exactly did she say about the cost of the criticism on *On Purpose*, 9 July 2025?**
-*What it changes:* the scope and wording of the SUBJ-B1 repair, and possibly the diagnosis section's
+**SUBJ-Q1 — What exactly did she say about the cost of the criticism on _On Purpose_, 9 July 2025?**
+_What it changes:_ the scope and wording of the SUBJ-B1 repair, and possibly the diagnosis section's
 treatment of the Type 3 alternative — a woman who cried daily over public perception is evidence the
-draft currently does not weigh. *Best source:* the full episode (Spotify `4p5KvOXDIGq1Epaqvg3hVK`) or
+draft currently does not weigh. _Best source:_ the full episode (Spotify `4p5KvOXDIGq1Epaqvg3hVK`) or
 the podscripts.co transcript of it.
 
 **SUBJ-Q2 — Did she name a hospital or a treatment cadence in any retrievable source?**
-*What it changes:* whether SUBJ-B2's repair is "cut" or "cite." *Best source:* the singjupost
+_What it changes:_ whether SUBJ-B2's repair is "cut" or "cite." _Best source:_ the singjupost
 transcript of the 29 July 2026 episode, then her own July 2026 Instagram disclosure video.
 
 **SUBJ-Q3 — Has she said anything about how she wants Whimsy's illness discussed by others?**
-*What it changes:* whether the draft's medical specificity is merely unverified or actively against a
-stated wish; would move SUBJ-B2 from a sourcing failure to a dignity failure. *Best source:* her 1
+_What it changes:_ whether the draft's medical specificity is merely unverified or actively against a
+stated wish; would move SUBJ-B2 from a sourcing failure to a dignity failure. _Best source:_ her 1
 July 2026 and 17 July 2026 Instagram posts in full, and the GoFundMe text.
 
-**SUBJ-Q4 — Is her *Paper Pantry* Substack (26 April 2026, inside the concealment window) a better
+**SUBJ-Q4 — Is her _Paper Pantry_ Substack (26 April 2026, inside the concealment window) a better
 first-person source than the podcast for the cookbook and grandmother material?**
-*What it changes:* would let the oatmeal close and the cookbook material rest on her own written,
-retrievable words instead of the transcript. *Best source:*
+_What it changes:_ would let the oatmeal close and the cookbook material rest on her own written,
+retrievable words instead of the transcript. _Best source:_
 `naraaziza.substack.com/p/my-cookbook-homemade-is-finally-announced`.
 
 **SUBJ-Q5 — Has she ever publicly objected to being psychologically characterized?**
-*What it changes:* would determine whether SUBJ-C3's one-clause concession is sufficient or whether
-the piece needs a stronger framing of the type as hypothesis. *Best source:* the Shetty episode's
+_What it changes:_ would determine whether SUBJ-C3's one-clause concession is sufficient or whether
+the piece needs a stronger framing of the type as hypothesis. _Best source:_ the Shetty episode's
 self-worth segment; her own TikTok responses to the 2024 label coverage.
 
 ## Preserve list
@@ -401,13 +402,13 @@ before searching (hospital/cadence provenance; her stated boundaries on the illn
 publicly corrected characterizations of her interior). Four external sources consulted plus one
 verification pass on a potential blocker.
 
-| # | Source | Question | Decision it affected |
-| --- | --- | --- | --- |
-| 1 | Search: Whimsy cancer treatment / "Yale New Haven" (surfacing TODAY, E!, ABC, Complex) | Is the hospital or cadence in reportable record? | **Narrowed SUBJ-B2.** Chemotherapy IS externally confirmed (X-rays, ultrasounds, biopsy, "chemotherapy immediately"), so I did not flag it. Hospital appears only as "a children's hospital." Also surfaced outlet corroboration for "remission right after her birthday," which downgraded my bell-ringing finding from a draft error to a source conflict (SUBJ-C7). |
-| 2 | OncoDaily, "Nara Smith Opens Up About Her Two-Year-Old Daughter's Cancer Battle" | Same | **Confirmed SUBJ-B2.** Explicit: "No additional information has been provided regarding the primary tumor, the extent of the disease, the chemotherapy regimen, or Whimsy's current clinical status." Also supplied her stated motive for disclosing, which supports SUBJ-C2's repair. |
-| 3 | Search: her statements on being misunderstood / privacy boundaries | Has she publicly corrected characterizations of her? | **Surfaced SUBJ-B1's evidence** (the Shetty episode) and a published *Call Her Daddy* transcript at singjupost.com, which changed SUBJ-C9's repair from "re-pull from YouTube" to "spot-check against an existing artifact." Also confirmed the no-faces boundary quote the draft uses at L285. |
-| 4 | iHeart episode page, *On Purpose with Jay Shetty* | Date and wording of the hate/crying claim | **Established SUBJ-B1.** Published **9 July 2025** — twelve and a half months before the Cooper sitting, and outside the packet. Title quotes her: "The Comments and the Hate Got to Me. I Was Crying Every Single Day." |
-| 5 | Search: verification of that quote (Shortform, podscripts, Omny, Audible listings) | Is the title quote hers, or a publisher's headline? | **Held SUBJ-B1 at blocker but capped confidence on verbatim wording.** Coverage carries "all the comments and the hate got to me so bad" and describes the episode as centered on online criticism and self-worth. Substance established across multiple surfaces; exact wording is publisher-attributed. |
+| #   | Source                                                                                 | Question                                             | Decision it affected                                                                                                                                                                                                                                                                                                                                                   |
+| --- | -------------------------------------------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Search: Whimsy cancer treatment / "Yale New Haven" (surfacing TODAY, E!, ABC, Complex) | Is the hospital or cadence in reportable record?     | **Narrowed SUBJ-B2.** Chemotherapy IS externally confirmed (X-rays, ultrasounds, biopsy, "chemotherapy immediately"), so I did not flag it. Hospital appears only as "a children's hospital." Also surfaced outlet corroboration for "remission right after her birthday," which downgraded my bell-ringing finding from a draft error to a source conflict (SUBJ-C7). |
+| 2   | OncoDaily, "Nara Smith Opens Up About Her Two-Year-Old Daughter's Cancer Battle"       | Same                                                 | **Confirmed SUBJ-B2.** Explicit: "No additional information has been provided regarding the primary tumor, the extent of the disease, the chemotherapy regimen, or Whimsy's current clinical status." Also supplied her stated motive for disclosing, which supports SUBJ-C2's repair.                                                                                 |
+| 3   | Search: her statements on being misunderstood / privacy boundaries                     | Has she publicly corrected characterizations of her? | **Surfaced SUBJ-B1's evidence** (the Shetty episode) and a published _Call Her Daddy_ transcript at singjupost.com, which changed SUBJ-C9's repair from "re-pull from YouTube" to "spot-check against an existing artifact." Also confirmed the no-faces boundary quote the draft uses at L285.                                                                        |
+| 4   | iHeart episode page, _On Purpose with Jay Shetty_                                      | Date and wording of the hate/crying claim            | **Established SUBJ-B1.** Published **9 July 2025** — twelve and a half months before the Cooper sitting, and outside the packet. Title quotes her: "The Comments and the Hate Got to Me. I Was Crying Every Single Day."                                                                                                                                               |
+| 5   | Search: verification of that quote (Shortform, podscripts, Omny, Audible listings)     | Is the title quote hers, or a publisher's headline?  | **Held SUBJ-B1 at blocker but capped confidence on verbatim wording.** Coverage carries "all the comments and the hate got to me so bad" and describes the episode as centered on online criticism and self-worth. Substance established across multiple surfaces; exact wording is publisher-attributed.                                                              |
 
 Repository check (not an external source): `src/scss/blog.scss:592` — confirmed `.inner-thought`
 renders as an italic tinted panel with a thought-bubble icon and **no attribution line**, adjacent to
@@ -429,7 +430,7 @@ established no fact in this review.
   treat the title's "I was crying every single day" as the publisher quoting her rather than as an
   audited verbatim. The finding rests on the substance — that she has publicly described the criticism
   as emotionally costly — which is established. Anyone acting on it should pull the episode first.
-- I did not audit the *Call Her Daddy* transcript. SUBJ-C9 describes a structural risk, not a proven
+- I did not audit the _Call Her Daddy_ transcript. SUBJ-C9 describes a structural risk, not a proven
   distortion; I found no instance of a Cooper line attributed to Smith.
 - I did not evaluate the Enneagram argument on its theoretical merits, the draft's prose quality, its
   SEO performance, or its accuracy for a reader unfamiliar with her. Those belong to other lanes.

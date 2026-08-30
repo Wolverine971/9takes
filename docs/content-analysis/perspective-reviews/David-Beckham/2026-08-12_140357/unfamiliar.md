@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 6
 reviewed_at: 2026-08-12T18:31:41Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357/unfamiliar.md
 ---
 
 ## Bottom-line verdict
@@ -56,7 +57,7 @@ The highest-priority issue is **UNFAMILIAR-C1**. A reader can repeat the label b
 
 **UNFAMILIAR-U1 — Welcome surprise.** The beekeeping material is not celebrity-lifestyle garnish. The article turns Beckham's 4am assembly impulse into a test of whether attention can continue when effort no longer controls the timetable. That is both accessible and non-obvious.
 
-**UNFAMILIAR-U2 — Welcome surprise.** The Qatar section places the 2002 *Attitude* cover before the 2022 criticism. That chronology explains why the deal carried a particular breach-of-trust charge for some readers rather than treating all backlash as interchangeable.
+**UNFAMILIAR-U2 — Welcome surprise.** The Qatar section places the 2002 _Attitude_ cover before the 2022 criticism. That chronology explains why the deal carried a particular breach-of-trust charge for some readers rather than treating all backlash as interchangeable.
 
 **UNFAMILIAR-U3 — Jarring surprise.** The sentence about Ted and Sandra's separation appears to imply significance through placement (“during the stretch when their son's fame was most total”) while refusing a causal account. On first read it felt invasive rather than illuminating.
 
@@ -96,10 +97,10 @@ There are **0 blockers** and **6 concerns**.
 
 **UNFAMILIAR-C4 — Concern: “fashion house” is unclear and unestablished as David's self-authored venture.**
 
-- **Passage/location:** TL;DR “Fashion, the *Attitude* cover...”; diagnosis “Nobody assigned the fashion house”; Rabbit Hole “fashion house or *Attitude* cover.”
+- **Passage/location:** TL;DR “Fashion, the _Attitude_ cover...”; diagnosis “Nobody assigned the fashion house”; Rabbit Hole “fashion house or _Attitude_ cover.”
 - **Reader effect/trust problem:** A newcomer cannot tell which fashion house is meant, whether David founded it, or why it proves his authorship. Because the example is offered as deciding evidence against Type 9, the ambiguity weakens the type comparison.
 - **Evidence/reasoning:** Evidence packet dispute 2 says no David-founded fashion house is established and warns that Victoria Beckham's fashion house would not be self-authored evidence for David.
-- **Minimum viable repair:** Name and source a specific David-led venture, or remove “fashion house” and use verified examples already developed in the draft, such as the *Attitude* cover, Los Angeles, Miami, or Studio 99.
+- **Minimum viable repair:** Name and source a specific David-led venture, or remove “fashion house” and use verified examples already developed in the draft, such as the _Attitude_ cover, Los Angeles, Miami, or Studio 99.
 - **Expected benefit:** Every deciding example becomes both intelligible and traceable, strengthening the Type 3/Type 9 distinction.
 - **Confidence:** High.
 - **Acceptance test:** Every use of “fashion house” is either replaced or identifies a specific David-led entity with a supporting source; no evidence for his authorship depends on Victoria's enterprise.
@@ -162,7 +163,7 @@ There are **0 blockers** and **6 concerns**.
 
 **UNFAMILIAR-Q1 — What exact venture does “fashion house” mean?** If a David-founded or David-led fashion company is identified and sourced, **UNFAMILIAR-C4** would clear and the example could stay; if it refers to Victoria's company, the deciding evidence must change. Best source: official corporate/brand history or contemporaneous launch reporting naming David's role.
 
-**UNFAMILIAR-Q2 — Who speaks the salary-to-jeans line in the archival clip?** A speaker-identifiable primary record confirming Neville would clear **UNFAMILIAR-C5**; a different speaker would require corrected attribution. Best source: the official *Stick to Football* video at the exact clip timestamp or a speaker-labeled official transcript.
+**UNFAMILIAR-Q2 — Who speaks the salary-to-jeans line in the archival clip?** A speaker-identifiable primary record confirming Neville would clear **UNFAMILIAR-C5**; a different speaker would require corrected attribution. Best source: the official _Stick to Football_ video at the exact clip timestamp or a speaker-labeled official transcript.
 
 **UNFAMILIAR-Q3 — Did Beckham give a fuller contemporaneous public rationale for accepting the Qatar role?** A complete rationale could support a narrower “why he said he accepted” heading; if the full record contains only the access/safety defense, **UNFAMILIAR-C2** should be repaired by retitling. Best source: the uncut 4 October 2023 Sky Sports interview.
 

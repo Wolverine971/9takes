@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 2
 concerns: 8
 reviewed_at: 2026-08-19T07:19:47Z
+path: docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/fan.md
 ---
 
 ## Bottom-line verdict
@@ -22,7 +23,7 @@ the front of the story. I finished it with a connection I did not walk in with, 
 job.
 
 What strains trust is the other half of the fan test: the canon around the listening is handled
-like someone who read the Wikipedia page fast. *F Is for Family* ran five seasons and the draft
+like someone who read the Wikipedia page fast. _F Is for Family_ ran five seasons and the draft
 says six. The show is co-created and the draft says "which he created," twice. The podcast the
 piece stakes its entire evidentiary claim on is described as "ninety minutes" and "almost every
 week" when it runs about an hour and now drops twice a week. Each is small. Together they tell a
@@ -43,7 +44,7 @@ Revise. The spine is right and most of the repairs are one-line.
 This is the reason to publish the page. Every outlet covered Riyadh as an ethics story; nobody set
 his on-camera account against his own podcast ten months later. It is falsifiable, it is built from
 a source only a listener would have, and it is the one thing here I would send to another Burr fan.
-The *form* must survive revision even though its framing needs the fix in FAN-R2 — do not solve
+The _form_ must survive revision even though its framing needs the fix in FAN-R2 — do not solve
 that problem by deleting the table.
 
 **FAN-H2 — the Rousey half-point.** "at the beginning of the match, if her eyebrows were down, I
@@ -55,7 +56,7 @@ lines; this is minute-forty of a throwaway episode, and the observation about th
 self-quantify is the writer's, not borrowed. Preserve verbatim, including the "nobody asked" beat,
 which is what converts a quote into an argument.
 
-**FAN-H3 — "The son's name is Bill."** The *F Is for Family* passage earns its length. Fans know
+**FAN-H3 — "The son's name is Bill."** The _F Is for Family_ passage earns its length. Fans know
 Frank Murphy is drawn from that world; almost nobody states the thing plainly — Burr wrote a father
 calling a boy named Bill scared of everything. Keep the paragraph and keep the one-line ending.
 
@@ -80,10 +81,10 @@ made me trust the analysis section.
 ## What missed
 
 **Nothing in this piece is about his comedy.** Twelve specials exist. The draft names one
-(*Drop Dead Years*, 2025) and quotes zero jokes. Every word Burr says here he says in an interview
+(_Drop Dead Years_, 2025) and quotes zero jokes. Every word Burr says here he says in an interview
 chair or into a podcast mic — sincere, explaining himself, being analyzed. The man's primary text
 is the act, and a fan reads 4,500 words without encountering the thing that made any of us care.
-It also costs the argument evidence: *I'm Sorry You Feel That Way* (2014) is a special whose title
+It also costs the argument evidence: _I'm Sorry You Feel That Way_ (2014) is a special whose title
 is a non-apology, which is the draft's own "never concede an inch" thesis sitting there pre-written.
 
 **The podcast is described from the outside.** "No guest, no outline, no destination, ninety
@@ -93,16 +94,16 @@ strangers' problems carefully, Nia turning up to argue, the sign-off. The draft 
 two 2026 quotes and never conveys what it is. The empathy the piece is arguing for is audible in
 the advice segment weekly.
 
-**The intro credit block reads like a search result.** "Patrick Kuby on *Breaking Bad*. Frank
-Murphy on *F Is for Family*, which he created." Migs Mayfeld is the credit fans actually shout
+**The intro credit block reads like a search result.** "Patrick Kuby on _Breaking Bad_. Frank
+Murphy on _F Is for Family_, which he created." Migs Mayfeld is the credit fans actually shout
 about, and the draft does use the Favreau casting story later without ever naming the character.
 
 ## What I expected
 
 - **Patrice O'Neal**, somewhere. Not as trivia — as the load-bearing loyalty evidence. See FAN-C1.
 - **At least one special by name** other than the newest one, and ideally one joke.
-- **Migs Mayfeld** named in the *Mandalorian* beat.
-- **Michael Price** acknowledged, or the phrasing softened, on *F Is for Family*.
+- **Migs Mayfeld** named in the _Mandalorian_ beat.
+- **Michael Price** acknowledged, or the phrasing softened, on _F Is for Family_.
 - **Old Dads (2023)** — he co-wrote, directed and starred in a film about an aging, angry father,
   in a piece whose spine is anger and fatherhood. Its absence is conspicuous.
 - **The marriage as material**, not just as testimony. His marriage to Nia Renée Hill, who is
@@ -126,43 +127,43 @@ about, and the draft does use the Favreau casting story later without ever namin
 
 ### Blockers
 
-**FAN-R1 — "Six seasons on Netflix" is wrong. (§3, the *F Is for Family* paragraph: "Burr wrote
+**FAN-R1 — "Six seasons on Netflix" is wrong. (§3, the _F Is for Family_ paragraph: "Burr wrote
 that. Six seasons on Netflix…")**
 
-- *Reader effect:* this is the single most checkable claim in the article and it is on the credit
+- _Reader effect:_ this is the single most checkable claim in the article and it is on the credit
   fans know cold. It lands in the same paragraph as the piece's best emotional beat, so the doubt
   attaches to the strongest passage. If the season count of his own show is wrong, the "nineteen
   years of tape" claim reads as decoration.
-- *Evidence:* the show ran five seasons, 2015–2021; Netflix renewed it in October 2020 "for a fifth
+- _Evidence:_ the show ran five seasons, 2015–2021; Netflix renewed it in October 2020 "for a fifth
   and final season," which premiered 2021-11-25. Confirmed on Wikipedia's Bill Burr article and in
   the shared packet (CLM-24, [S-01][S-15]).
-- *Minimum viable repair:* change "Six seasons" to "Five seasons."
-- *Expected benefit:* removes the cheapest possible reason for a fan to stop believing the page.
-- *Confidence:* high.
-- *Acceptance test:* the string "Six seasons" does not appear in the draft; the sentence reads
+- _Minimum viable repair:_ change "Six seasons" to "Five seasons."
+- _Expected benefit:_ removes the cheapest possible reason for a fan to stop believing the page.
+- _Confidence:_ high.
+- _Acceptance test:_ the string "Six seasons" does not appear in the draft; the sentence reads
   "Five seasons on Netflix."
 
 **FAN-R2 — the Riyadh table omits that the same episode calls the gig a triumph. (§5, table row
 "Aug 10, 2026" and the paragraph beginning "On camera, the account contains no fear at all…",
 ending "It is the version he gives when nobody is grading him.")**
 
-- *Reader effect:* MMP is free and fans listen weekly. Anyone who plays 8-10-26 hears Burr rank
+- _Reader effect:_ MMP is free and fans listen weekly. Anyone who plays 8-10-26 hears Burr rank
   Riyadh among his top gigs of all time, inside a run about favorite international shows, with the
   fear woven through it. The draft presents that episode as the unguarded fear version against the
   armored on-camera version. A listener does not experience it as two registers — they experience
   it as one man telling a war story he is proud of. Discovering the omitted half makes the table
   feel curated rather than found, and the table is the page's whole competitive advantage.
-- *Evidence:* packet CLM-12, quoting the same transcript the draft cites ("one of my top three gigs
+- _Evidence:_ packet CLM-12, quoting the same transcript the draft cites ("one of my top three gigs
   of all fucking time," "that one was a great one"), flagged there as the highest-leverage omission
   [S-07].
-- *Minimum viable repair:* add one clause to the analysis paragraph acknowledging the boast, and let
+- _Minimum viable repair:_ add one clause to the analysis paragraph acknowledging the boast, and let
   the argument absorb it rather than dodge it — the point survives, and gets stronger, if the fear
-  and the pride are in the same breath. Roughly: he files it as a top-three gig *and* narrates
+  and the pride are in the same breath. Roughly: he files it as a top-three gig _and_ narrates
   twenty minutes of dry mouth inside the same story. Do not delete the table.
-- *Expected benefit:* the exhibit becomes unfalsifiable-by-playback; a fan who checks the source
+- _Expected benefit:_ the exhibit becomes unfalsifiable-by-playback; a fan who checks the source
   finds the article was straight with them.
-- *Confidence:* high.
-- *Acceptance test:* a reader who plays MMP 8-10-26 end to end encounters no material framing in the
+- _Confidence:_ high.
+- _Acceptance test:_ a reader who plays MMP 8-10-26 end to end encounters no material framing in the
   draft that the episode contradicts; the "top three gigs" characterization appears in the draft.
 
 ### Concerns
@@ -171,10 +172,10 @@ ending "It is the version he gives when nobody is grading him.")**
 (§4 "He went out there because a crowd was picking off his people one at a time"; Rabbit Hole
 subtype paragraph "the loyalty structures, All Things Comedy among them")**
 
-- *Reader effect:* for a Burr fan this is the loudest silence in the piece. The article's thesis is
+- _Reader effect:_ for a Burr fan this is the loudest silence in the piece. The article's thesis is
   that his aggression is protection of chosen people, and it never names the person he has most
   visibly chosen. "His people" stays abstract in the exact sentence where it should be a name.
-- *Evidence:* Patrice O'Neal was on the September 9, 2006 Traveling Virus bill at the Tweeter Center
+- _Evidence:_ Patrice O'Neal was on the September 9, 2006 Traveling Virus bill at the Tweeter Center
   alongside Burr, Dom Irrera, Jim Norton, Rich Vos and Tracy Morgan (Wikipedia, Traveling Virus
   Comedy Tour; the packet's own Vice source [S-12] lists him too and the draft does not use it).
   Burr and O'Neal met in the Boston clubs in the early 1990s and briefly performed as a two-man act;
@@ -182,128 +183,128 @@ subtype paragraph "the loyalty structures, All Things Comedy among them")**
   lunch, and has co-produced an annual benefit for O'Neal's family for roughly a decade with all
   proceeds going to them (Boston Globe, 2021; Comedy Matters). All Things Comedy — already named in
   the draft — partnered on the O'Neal documentary.
-- *Minimum viable repair:* two clauses, no new section. In §4, name Patrice in the wings list so
+- _Minimum viable repair:_ two clauses, no new section. In §4, name Patrice in the wings list so
   "his people" has a face. In the Rabbit Hole loyalty sentence, append the benefit — a man who has
   organized a yearly fundraiser for a dead friend's family since 2011 is the cleanest loyalty
   evidence available.
-- *Expected benefit:* converts the piece's weakest abstraction into its most concrete proof, and
+- _Expected benefit:_ converts the piece's weakest abstraction into its most concrete proof, and
   closes the gap most likely to make a fan say "this writer doesn't actually know him."
-- *Confidence:* high on the facts; medium on placement being the best use of the words.
-- *Acceptance test:* "Patrice" appears in §4 and the benefit appears once in the article; a fan
+- _Confidence:_ high on the facts; medium on placement being the best use of the words.
+- _Acceptance test:_ "Patrice" appears in §4 and the benefit appears once in the article; a fan
   reading §4 can name at least one specific person Burr was defending.
 
 **FAN-C2 — the act is missing. (Whole draft; acutely §1 intro line "a new hour every two or three
 years since")**
 
-- *Reader effect:* a stand-up profile in which no special is discussed and no joke is quoted reads
+- _Reader effect:_ a stand-up profile in which no special is discussed and no joke is quoted reads
   as psychology done on interview transcripts. It also leaves the piece open to the charge that it
   only takes him seriously when he is being sincere.
-- *Evidence:* twelve specials, 2003–2025 (Wikipedia). The draft names one.
-- *Minimum viable repair:* one sentence naming *I'm Sorry You Feel That Way* (2014) and using the
+- _Evidence:_ twelve specials, 2003–2025 (Wikipedia). The draft names one.
+- _Minimum viable repair:_ one sentence naming _I'm Sorry You Feel That Way_ (2014) and using the
   title as evidence — a man who names a special after the sentence people say when they refuse to
   apologize. It costs a line and pays the thesis directly.
-- *Expected benefit:* establishes the writer as someone who has watched the work, not just read
+- _Expected benefit:_ establishes the writer as someone who has watched the work, not just read
   about the man; adds a thesis exhibit at near-zero word cost.
-- *Confidence:* high on the gap; medium on that specific special being the best pick.
-- *Acceptance test:* at least one special other than *Drop Dead Years* is named in the body and does
+- _Confidence:_ high on the gap; medium on that specific special being the best pick.
+- _Acceptance test:_ at least one special other than _Drop Dead Years_ is named in the body and does
   argumentative work rather than sitting in a credit list.
 
 **FAN-C3 — the Monday Morning Podcast is mis-described twice. (Intro: "The Monday Morning Podcast
 almost every week since May 2007"; Rabbit Hole: "ninety minutes of associative riffing")**
 
-- *Reader effect:* the podcast is the page's proprietary evidence source and the thing regular
+- _Reader effect:_ the podcast is the page's proprietary evidence source and the thing regular
   listeners know best. Overstating length by 30–60% and undercounting cadence signals the writer
   sampled two episodes rather than knowing the show.
-- *Evidence:* the two episodes the draft cites run 67 minutes (8-10-26) and 56 minutes (8-17-26);
+- _Evidence:_ the two episodes the draft cites run 67 minutes (8-10-26) and 56 minutes (8-17-26);
   the show is now released twice weekly, Mondays and Thursdays, 1,364 episodes as of August 2026
   (packet CLM-35, CLM-36 [S-01][S-07][S-36]).
-- *Minimum viable repair:* "ninety minutes" → "an hour"; "almost every week" → "twice a week now,
+- _Minimum viable repair:_ "ninety minutes" → "an hour"; "almost every week" → "twice a week now,
   every week since May 2007" or similar.
-- *Expected benefit:* removes two outsider tells from the exact claim the page's authority rests on.
-- *Confidence:* high.
-- *Acceptance test:* no stated MMP runtime exceeds the runtime of the episodes cited; cadence
+- _Expected benefit:_ removes two outsider tells from the exact claim the page's authority rests on.
+- _Confidence:_ high.
+- _Acceptance test:_ no stated MMP runtime exceeds the runtime of the episodes cited; cadence
   reflects the twice-weekly schedule.
 
 **FAN-C4 — the closing image may be the wrong movie. (§9: "Bill Burr plays a crisis counselor." and
 "put him across from a person coming apart, and asked him to be the one who stays calm and talks
 them down.")**
 
-- *Reader effect:* this is the payoff, and it lands as a therapeutic scene. Trailer coverage points
+- _Reader effect:_ this is the payoff, and it lands as a therapeutic scene. Trailer coverage points
   at crisis communications — a handler prepping Zuckerberg for congressional testimony. Fans will
   watch the film on October 9 and, if it is a PR flack, the article's last line retroactively reads
   as a writer who needed an ending.
-- *Evidence:* packet CLM-32 — trade coverage says "crisis counselor," Wikipedia names the character
+- _Evidence:_ packet CLM-32 — trade coverage says "crisis counselor," Wikipedia names the character
   "Charlie," a SlashFilm trailer write-up describes him as "the only PR guy willing to push back
   against Zuckerberg's stilted, awkward delivery," with reported trailer dialogue about making Mark
   likable for testimony [S-29][S-44]. The film is unreleased; nobody can confirm the scene.
-- *Minimum viable repair:* keep the casting irony, drop the invented staging. The argument works on
+- _Minimum viable repair:_ keep the casting irony, drop the invented staging. The argument works on
   "Sorkin cast the angriest man in comedy as the one in the room whose job is to keep somebody calm"
   without the chair and the person coming apart. Alternatively hedge to what the trailer shows.
-- *Expected benefit:* the ending survives the movie either way.
-- *Confidence:* medium-high on the ambiguity; high that the current staging is unverifiable.
-- *Acceptance test:* every concrete detail in the final three sentences is traceable to released
+- _Expected benefit:_ the ending survives the movie either way.
+- _Confidence:_ medium-high on the ambiguity; high that the current staging is unverifiable.
+- _Acceptance test:_ every concrete detail in the final three sentences is traceable to released
   trailer footage or trade description; nothing describes a scene.
 
 **FAN-C5 — Nia Renée Hill gets a superlative and not the context. (§7: "She is the subject of more
 of his stand-up than anyone alive")**
 
-- *Reader effect:* the claim is unmeasurable and a fan will treat it as filler in a paragraph that
+- _Reader effect:_ the claim is unmeasurable and a fan will treat it as filler in a paragraph that
   otherwise does real work. Meanwhile the actual canonical fact about the marriage — that it is
   interracial, that Burr has built a decade of material on it, and that this is the context every
   fan brings to the SNL fight in the very next section — never appears.
-- *Evidence:* Hill is an actor, writer and producer; Burr's material on the marriage and on the
+- _Evidence:_ Hill is an actor, writer and producer; Burr's material on the marriage and on the
   reactions to it is longstanding across specials and the podcast (Today; Parade; Netflix special
   material on interracial relationships).
-- *Minimum viable repair:* replace the superlative with the specific: she has been a subject of his
+- _Minimum viable repair:_ replace the superlative with the specific: she has been a subject of his
   act for over a decade, including the material about how people react to the marriage. That earns
   the "who stays when it goes wrong" line that closes the paragraph and pre-loads §8.
-- *Expected benefit:* trades an unfalsifiable claim for canon that strengthens the next section.
-- *Confidence:* high on the superlative being unsupportable; medium on how much space the context
+- _Expected benefit:_ trades an unfalsifiable claim for canon that strengthens the next section.
+- _Confidence:_ high on the superlative being unsupportable; medium on how much space the context
   deserves.
-- *Acceptance test:* no unmeasurable "more than anyone alive"-class claim remains; a reader reaching
+- _Acceptance test:_ no unmeasurable "more than anyone alive"-class claim remains; a reader reaching
   the SNL monologue has been given the marriage context first.
 
 **FAN-C6 — chronology smudge in the intro. (§ intro: "first set in 1992, a new hour every two or
 three years since")**
 
-- *Reader effect:* reads as if he has been releasing specials since 1992. He spent eleven years
+- _Reader effect:_ reads as if he has been releasing specials since 1992. He spent eleven years
   grinding before the first one.
-- *Evidence:* first special *Emotionally Unavailable*, 2003 (Wikipedia); packet describes
+- _Evidence:_ first special _Emotionally Unavailable_, 2003 (Wikipedia); packet describes
   "nine-plus specials since 2003."
-- *Minimum viable repair:* "first set in 1992, specials every two or three years since 2003."
-- *Expected benefit:* preserves the eleven-year climb the piece later depends on in §2 (the age-37
+- _Minimum viable repair:_ "first set in 1992, specials every two or three years since 2003."
+- _Expected benefit:_ preserves the eleven-year climb the piece later depends on in §2 (the age-37
   plateau).
-- *Confidence:* high.
-- *Acceptance test:* the intro's cadence claim is anchored to 2003, not 1992.
+- _Confidence:_ high.
+- _Acceptance test:_ the intro's cadence claim is anchored to 2003, not 1992.
 
-**FAN-C7 — *Old Dads* (2023) is absent.**
+**FAN-C7 — _Old Dads_ (2023) is absent.**
 
-- *Reader effect:* a fan tracking the anger-and-fatherhood thread expects the film where he wrote,
+- _Reader effect:_ a fan tracking the anger-and-fatherhood thread expects the film where he wrote,
   directed and starred as an aging angry father, three years before this article argues that his job
   is making sure the anger dies with him.
-- *Evidence:* Wikipedia documents *Old Dads* (Netflix, 2023) as co-writer, director and star.
-- *Minimum viable repair:* one clause where the fatherhood material turns, or in the credits line.
+- _Evidence:_ Wikipedia documents _Old Dads_ (Netflix, 2023) as co-writer, director and star.
+- _Minimum viable repair:_ one clause where the fatherhood material turns, or in the credits line.
   If the word ceiling forbids it, this is the concern to drop.
-- *Expected benefit:* closes a credit gap and supplies on-theme evidence.
-- *Confidence:* medium — real gap, lowest priority of the eight.
-- *Acceptance test:* *Old Dads* appears once, or a deliberate decision is recorded not to include it.
+- _Expected benefit:_ closes a credit gap and supplies on-theme evidence.
+- _Confidence:_ medium — real gap, lowest priority of the eight.
+- _Acceptance test:_ _Old Dads_ appears once, or a deliberate decision is recorded not to include it.
 
 **FAN-C8 — the same Ferriss interview is dated two different ways. (Intro: "he told The Tim Ferriss
 Show in 2022"; §1: "Five years earlier, to Tim Ferriss"; §1: "he told The Tim Ferriss Show in
 2022")**
 
-- *Reader effect:* the three-tellings structure is the page's best evidence and it invites checking.
-  A fan who follows his interview circuit knows the driveway story comes from the *Fear{less}*
+- _Reader effect:_ the three-tellings structure is the page's best evidence and it invites checking.
+  A fan who follows his interview circuit knows the driveway story comes from the _Fear{less}_
   sit-down, and will find the article calling one episode 2017 and another 2022 when the recording
   years are the same.
-- *Evidence:* packet CLM-03 — the Ferriss #602 page states it is "my interview with Bill Burr from
+- _Evidence:_ packet CLM-03 — the Ferriss #602 page states it is "my interview with Bill Burr from
   my 2017 TV show Fear{less}," transcript published 2022-06-25 [S-02].
-- *Minimum viable repair:* pick one convention (interview year) and apply it everywhere, e.g. "told
+- _Minimum viable repair:_ pick one convention (interview year) and apply it everywhere, e.g. "told
   Tim Ferriss in 2017 (transcript published 2022)" once, then "Ferriss" thereafter.
-- *Expected benefit:* the structure stays checkable, which is its whole value.
-- *Confidence:* high on the inconsistency; the eight-year span claim itself still holds via THR 2022
+- _Expected benefit:_ the structure stays checkable, which is its whole value.
+- _Confidence:_ high on the inconsistency; the eight-year span claim itself still holds via THR 2022
   and the 2025 special.
-- *Acceptance test:* every reference to a Ferriss appearance uses the same dating convention and no
+- _Acceptance test:_ every reference to a Ferriss appearance uses the same dating convention and no
   two references date the same episode differently.
 
 ## Specific improvements
@@ -340,7 +341,7 @@ violent father?** If there is a clean example, it is the empathy evidence the pi
 arguing for by inference, in his own voice, from the source no competitor uses. Best source: MMP
 episode descriptions and transcripts, searched for advice-segment keywords.
 
-**FAN-Q3 — Is Burr's character in *The Social Reckoning* a mental-health professional or a crisis
+**FAN-Q3 — Is Burr's character in _The Social Reckoning_ a mental-health professional or a crisis
 communications operative?** Answer decides whether the last three sentences stand as written.
 Best source: the June 2026 trailer itself, plus any Sony production notes or cast interviews before
 the October 9 release.
@@ -378,14 +379,14 @@ Read the shared packet first, per protocol, then researched three unresolved que
    and Parade profiles of Nia Renée Hill; reporting on his special material about interracial
    relationships. **Decision affected:** FAN-C5 — moved from "cut the superlative" to "swap the
    superlative for the context that pre-loads §8."
-3. **Question:** Do the specials, the *F Is for Family* season count and *Old Dads* check out as I
+3. **Question:** Do the specials, the _F Is for Family_ season count and _Old Dads_ check out as I
    remembered them? **Source:** Wikipedia, "Bill Burr" (fetched directly). **Decision affected:**
    confirmed FAN-R1 independently of the packet, confirmed co-creation with Michael Price
    (improvement 9), supplied the 2003 first-special date for FAN-C6, and established FAN-C7.
 
 Packet reuse, no additional search needed: the Riyadh "top three gigs" omission (CLM-12), the
 Ferriss dating inconsistency (CLM-03), the MMP runtime and cadence figures (CLM-35, CLM-36), the
-*Social Reckoning* role dispute (CLM-32), the Frank Murphy quote verification status (CLM-25), and
+_Social Reckoning_ role dispute (CLM-32), the Frank Murphy quote verification status (CLM-25), and
 the corpus statistics (CLM-06, verified exactly).
 
 Fan discussion was used only as expectation evidence — what a Burr audience knows and would look
@@ -402,7 +403,7 @@ for — and never as proof of a fact.
   and formed every finding above against the packet and my own research; FAN-R1, FAN-C1, FAN-C2,
   FAN-C3, FAN-C6 and FAN-C7 were reached independently and confirmed against primary or tertiary
   sources named in the log.
-- I did not watch *Drop Dead Years*, listen to the two cited MMP episodes end to end, or view the
-  *Social Reckoning* trailer. FAN-R2 and FAN-C4 rest on the packet's transcript and trailer work,
+- I did not watch _Drop Dead Years_, listen to the two cited MMP episodes end to end, or view the
+  _Social Reckoning_ trailer. FAN-R2 and FAN-C4 rest on the packet's transcript and trailer work,
   not on my own playback — both are marked accordingly and both are cheap to settle at the source.
 - I have not seen the film that the article's last line depends on. Nobody has.

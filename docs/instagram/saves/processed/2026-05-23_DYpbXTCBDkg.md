@@ -11,7 +11,7 @@ collection: 'warmup_inline'
 content_type: 'reel'
 pillar_guess: 'Personality Patterns / Type-Specific Wirings'
 risk_level: 'normal'
-path: docs/instagram/saves/inbox/2026-05-23_DYpbXTCBDkg.md
+path: docs/instagram/saves/processed/2026-05-23_DYpbXTCBDkg.md
 ---
 
 # Saved Post: @vvanedwards — "Sometimes getting a B+ is actually the healthier option"

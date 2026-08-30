@@ -1,4 +1,5 @@
 <!-- docs/growth/question-commenting/05-QUESTION-WRITING-STANDARD.md -->
+
 # 9takes question-writing standard
 
 ## The standard

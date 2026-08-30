@@ -1,3 +1,4 @@
+<!-- src/lib/components/atoms/StatusState.svelte -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 

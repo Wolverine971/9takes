@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 7
 reviewed_at: 2026-08-18T06:46:03Z
+path: docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/fan.md
 ---
 
 ## Bottom-line verdict
@@ -263,8 +264,7 @@ the device stopped describing the man and started overruling him.
   data to self-driving teams"), and one sentence in the diagnosis section using the pivot as the
   adult instance of the fork: he had a profitable specialty and left it when the scoreboard moved.
 - **Expected benefit.** The Type 5 counterargument gets answered with career evidence rather than
-  adolescent evidence, and the "why he built this company" section stops reading like it starts in
-  2023.
+  adolescent evidence, and the "why he built this company" section stops reading like it starts in 2023.
 - **Confidence.** High.
 - **Acceptance test.** The diagnosis section cites at least one post-2020 decision as evidence for
   the market-over-mastery fork, and the biography names what Scale originally labeled.
@@ -481,11 +481,11 @@ Do not touch these in revision:
 Packet read in full before role research, per protocol. Three additional searches, inside the 2-4
 budget.
 
-| # | Unresolved question stated before searching | Source consulted | Decision affected |
-| --- | --- | --- | --- |
-| 1 | Was MSL publicly a leadership trio (Wang + Friedman + a chief scientist), making the draft's "built around him" and its LeCun section materially incomplete? | TechCrunch 2025-07-25 on Shengjia Zhao's appointment; Verdict and Yahoo Tech relays; CNBC's June 30 2025 memo text (already in packet as S-13) | Confirmed Zhao as MSL chief scientist and Friedman as co-lead. Directly produced FAN-R2 and the Nat Friedman item in "What I expected." Without this the LeCun section reads complete. |
-| 2 | Is "the supply chain underneath most of the industry" still accurate given Surge AI and Mercor? | Sacra company page; Forbes (Phoebe Liu) 2025-09-17; aggregated revenue comparisons | Confirmed Surge at roughly $1.2B in 2024 against Scale's $870M, bootstrapped, and treated as category revenue leader. Produced FAN-R4 and FAN-I1. |
-| 3 | Did Scale begin in autonomous-vehicle labeling before the RLHF pivot, and is the pivot documented? | Contrary Research company report; Sacra; Index Ventures perspective; TechCrunch 2020 lidar dataset coverage | Confirmed AV origin (Waymo, Cruise, Uber) and the generative-AI pivot. Produced FAN-R3, which is the substantive argument note rather than a fact-check note. |
+| #   | Unresolved question stated before searching                                                                                                                  | Source consulted                                                                                                                               | Decision affected                                                                                                                                                                      |
+| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Was MSL publicly a leadership trio (Wang + Friedman + a chief scientist), making the draft's "built around him" and its LeCun section materially incomplete? | TechCrunch 2025-07-25 on Shengjia Zhao's appointment; Verdict and Yahoo Tech relays; CNBC's June 30 2025 memo text (already in packet as S-13) | Confirmed Zhao as MSL chief scientist and Friedman as co-lead. Directly produced FAN-R2 and the Nat Friedman item in "What I expected." Without this the LeCun section reads complete. |
+| 2   | Is "the supply chain underneath most of the industry" still accurate given Surge AI and Mercor?                                                              | Sacra company page; Forbes (Phoebe Liu) 2025-09-17; aggregated revenue comparisons                                                             | Confirmed Surge at roughly $1.2B in 2024 against Scale's $870M, bootstrapped, and treated as category revenue leader. Produced FAN-R4 and FAN-I1.                                      |
+| 3   | Did Scale begin in autonomous-vehicle labeling before the RLHF pivot, and is the pivot documented?                                                           | Contrary Research company report; Sacra; Index Ventures perspective; TechCrunch 2020 lidar dataset coverage                                    | Confirmed AV origin (Waymo, Cruise, Uber) and the generative-AI pivot. Produced FAN-R3, which is the substantive argument note rather than a fact-check note.                          |
 
 Packet material relied on without further search: the Theo Von transcript quotes and the "did you
 win it" sequencing (S-04), the Remotasks reporting (S-07, S-08), the LeCun quotes and interest

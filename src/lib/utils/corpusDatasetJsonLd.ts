@@ -1,3 +1,4 @@
+// src/lib/utils/corpusDatasetJsonLd.ts
 export const SITE_URL = 'https://9takes.com';
 export const CORPUS_DATASET_URL = `${SITE_URL}/corpus-stats`;
 export const CORPUS_DATASET_ID = `${CORPUS_DATASET_URL}#dataset`;

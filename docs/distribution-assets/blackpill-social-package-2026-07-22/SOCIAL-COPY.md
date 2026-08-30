@@ -1,3 +1,5 @@
+<!-- docs/distribution-assets/blackpill-social-package-2026-07-22/SOCIAL-COPY.md -->
+
 # Blackpill downward spiral — social package
 
 ## Editorial north star

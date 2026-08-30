@@ -36,6 +36,7 @@ Purpose: durable evidence base for the personality-analysis draft. Evidence and 
 All from transcripts in repo: `youtube-transcripts/duke-dennis-360-with-speedy-2024.md` (Complex, 2024-02-01) and `youtube-transcripts/duke-dennis-army-story-time.md` (his channel "Duke Dennis Gaming", uploaded 2018-02-06).
 
 On the Army:
+
 - "It definitely taught me some valuable traits, like being punctual and discipline... but I feel like I wasted a lot of time. I feel like my life didn't really start until I got out of the army." (360, 2024)
 - "The army wasn't for me because I don't like being told what to do. Being told when to eat, sleep, when to go to work... I just had bigger plans for myself." (story time, ~2019)
 - "I don't even like my girlfriend telling me what to do. Whenever my girlfriend say 'Duke, phone too close,' I feel like she trying to be funny... I just don't like people telling me what to do." (story time)
@@ -47,10 +48,12 @@ On the Army:
 - Why he enlisted: "D-Block is not a place that you want to stay forever... we wanted to get out the hood. We made a plan to each other that if we ain't had no plan, we're gonna go to the army." (story time)
 
 On the factory:
+
 - "I was there for 29 days and that was it. Almost fell into the plastic-making machine... I woke up pretty much catching myself... so I just walked out. I walked home." (360, 2024)
 - First YouTube check (~$200–300): "Once I seen that it was up, like — oh, it's so [expletive] Berry's Plastic. I'm doing this." (360, 2024)
 
 On the name and image:
+
 - Origin of "Duke": "Just a hood name... my aunt gave it to me but I never really asked why. Even still to this day." (360, 2024)
 - On rizz: "They ask me to teach them rizz, and I just think that's the craziest question you can ask... I say I don't got nothing to do with that." (360, 2024)
 - "People overdo and overuse everything they come in contact with. What starts off cool eventually turns corny." (360, 2024)
@@ -58,10 +61,12 @@ On the name and image:
 - Favorite part of the internet right now: "Seeing compliments about yourself... my support system was 90% male... now it's like 50/50... it's rare to see somebody in there trolling now." (360, 2024)
 
 On AMP:
+
 - "Nobody else can join... if you move or add anybody it'll just mess the whole thing up. If you take away one member the whole thing will fall apart." (360, 2024)
 - On Kai: "He's bigger than everybody and the group itself, but he still understands that you can't change or switch... Kai doesn't have an ego." (360, 2024)
 
 On money/status:
+
 - "Before I even started buying designer, cars, jewelry, I had to buy my house first... I had to do that before I even got chained. I just wouldn't feel right." (360, 2024 — mom's house)
 - "Waking up not having to worry about financial circumstances — I feel like that's one of the most slept-on freedoms." (360, 2024)
 - "Nobody really wants to work for other people no more. If you had the opportunity to be your own boss, I think everybody want to take that." (360, 2024)
@@ -132,5 +137,6 @@ From the one-year-future proxy (docs/content-analysis/perspective-reviews/Duke-D
 - The "2021" date on the mother's-house purchase is Tier 4 only; soften or re-source if challenged.
 
 **Publish-time actions (from editor resolution 2026-08-07):**
+
 - P2-04: archive the clip-only source URLs (S14 Sportskeeda Dee shirt, S15 X clip, S18 Veterans Day TikTok) via archive.org and note capture links here.
 - RQ-02: run a news + court-record sweep before publish to protect "the only legal mark on his first decade of fame." Do NOT broaden "legal mark" to "controversy"; do NOT add the denied allegation cluster to the article.

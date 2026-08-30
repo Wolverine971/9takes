@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/grades/Alix-Earle.review.md -->
+
 # Grade feedback: Alix Earle
 
 Grade: B+ (8.6), rubric v2 — regrade after 2026-08-29 sourcing + fingerprint pass (first grade same day: C, 7.9; delta 0.7, fully explained by two rule caps that the fix pass resolved)

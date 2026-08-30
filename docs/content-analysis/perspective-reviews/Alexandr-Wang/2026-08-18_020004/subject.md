@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 3
 concerns: 8
 reviewed_at: 2026-08-18T06:46:31Z
+path: docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/subject.md
 ---
 
 ## Bottom-line verdict
@@ -177,7 +178,7 @@ as reading is the one place the piece forgets it is proposing something.
 
 ## Red flags
 
-### SUBJECT-R1 — LeCun's mixed assessment is carried as an unmixed one *(blocker)*
+### SUBJECT-R1 — LeCun's mixed assessment is carried as an unmixed one _(blocker)_
 
 - **Location.** H2 5, "What Yann LeCun said about Alexandr Wang, and what he got right," opening
   paragraph: "He called Wang 'young' and 'inexperienced.' Then the specific charge: 'no experience
@@ -204,7 +205,7 @@ as reading is the one place the piece forgets it is proposing something.
 - **Acceptance test.** The LeCun section quotes at least one qualifying clause from the same
   interview, and no sentence in the draft characterizes LeCun's verdict as wholly dismissive.
 
-### SUBJECT-R2 — "Every room he has ever been in" is a life-sized claim resting on one data point *(blocker)*
+### SUBJECT-R2 — "Every room he has ever been in" is a life-sized claim resting on one data point _(blocker)_
 
 - **Location.** H2 5: "He has made every room he has ever been in by exactly one spot. Ranked,
   seeded, cut lists, top four in the state."
@@ -227,15 +228,15 @@ as reading is the one place the piece forgets it is proposing something.
 - **Acceptance test.** Every narrow-margin entry the sentence claims is either sourced or removed,
   and the passage no longer generalizes beyond the documented instances.
 
-### SUBJECT-R3 — Invented interiority fused with two real quotations at my most exposed moment *(blocker)*
+### SUBJECT-R3 — Invented interiority fused with two real quotations at my most exposed moment _(blocker)_
 
 - **Location.** H2 5: `<p class="inner-thought">Don't do this. Not here. Not in front of them. Finish
-  the sentence, get to the part about the pool house, they'll laugh, you can sit down.</p>` —
+the sentence, get to the part about the pool house, they'll laugh, you can sit down.</p>` —
   immediately followed by "That was the Scale all-hands in June 2025."
 - **Trust problem.** Three evidential classes are stacked in one passage with no signal separating
   them: my own on-record account to Forbes ("I literally teared up"), an unnamed attendee's
   recollection of a self-directed line ("This is so stupid. Why am I doing this?"), and words no one
-  ever heard me think. The invented paragraph runs *first*, before the scene is located, so a reader
+  ever heard me think. The invented paragraph runs _first_, before the scene is located, so a reader
   encounters authored thoughts cold and carries them into the sourced material. The content is not
   neutral either — it attributes shame-management and social calculation to me in real time, which
   is the article's thesis restaged as my own inner voice. I have no objection to the device; I object
@@ -255,12 +256,12 @@ as reading is the one place the piece forgets it is proposing something.
 
 ## Specific improvements
 
-### SUBJECT-C1 — Carry Scale's answer to the Washington Post *(concern)*
+### SUBJECT-C1 — Carry Scale's answer to the Washington Post _(concern)_
 
 - **Location.** H2 3, the paragraph beginning "The judgment has to come from somewhere," through
   "Scale's answers were specific."
 - **Problem.** The draft details the Post's findings (36 taskers, all but two, 30 cents for four
-  hours) and then supplies a response only to the *Rest of World* matter. "Scale's answers were
+  hours) and then supplies a response only to the _Rest of World_ matter. "Scale's answers were
   specific" then sits after both, implying a rebuttal to the Post that the draft never carries. The
   second-pass notes acknowledge this was unverified; it is verifiable.
 - **Evidence.** Scale spokesperson Anna Franko told the Post the Remotasks pay system "is continually
@@ -273,10 +274,10 @@ as reading is the one place the piece forgets it is proposing something.
   response, including both makes the passage more damning, not less. Also retires the "still open"
   item in the draft's own second-pass notes.
 - **Confidence.** High. **Acceptance test.** Every investigation the draft details carries the
-  company's response to *that* investigation, and no sentence implies a response the draft has not
+  company's response to _that_ investigation, and no sentence implies a response the draft has not
   quoted.
 
-### SUBJECT-C2 — Let Wang speak in the section that is about him *(concern)*
+### SUBJECT-C2 — Let Wang speak in the section that is about him _(concern)_
 
 - **Location.** H2 3, between the Remotasks paragraph and "The customers were satisfied."
 - **Problem.** The thesis of the article is my relationship to other people's judgment. The section
@@ -296,7 +297,7 @@ as reading is the one place the piece forgets it is proposing something.
 - **Acceptance test.** The labor section contains at least one first-person Wang statement on the
   workers, and the article does not characterize my position on them without quoting it.
 
-### SUBJECT-C3 — Scope the transcript's opening move to what the exchange shows *(concern)*
+### SUBJECT-C3 — Scope the transcript's opening move to what the exchange shows _(concern)_
 
 - **Location.** ¶2: "He did not describe the math. He described the prize, and then his own margin";
   and the diagnosis section's "Then, unprompted:" before the mathlete quote.
@@ -314,9 +315,9 @@ as reading is the one place the piece forgets it is proposing something.
 - **Confidence.** High. **Acceptance test.** No sentence states or implies I volunteered the
   placement, and "unprompted" either has a verified transcript citation or is gone.
 
-### SUBJECT-C4 — Restore the rest of the talent-war answer *(concern)*
+### SUBJECT-C4 — Restore the rest of the talent-war answer _(concern)_
 
-- **Location.** H2 5, the *Core Memory* paragraph.
+- **Location.** H2 5, the _Core Memory_ paragraph.
 - **Problem.** I gave three reasons plus a process note; the draft quotes one and moves on. The
   sentence that follows correctly summarizes my meaning, which makes the truncation look like
   economy rather than intent — but the effect on a reader is that my defense of my own hires sounds
@@ -329,7 +330,7 @@ as reading is the one place the piece forgets it is proposing something.
 - **Confidence.** High. **Acceptance test.** The draft represents the shape of my answer, not one
   element of it.
 
-### SUBJECT-C5 — Attribute the MEI criticism and restore my qualifier *(concern)*
+### SUBJECT-C5 — Attribute the MEI criticism and restore my qualifier _(concern)_
 
 - **Location.** H2 3: "Critics read it as a rebranding of an old argument that ignores how bias
   actually operates in hiring."
@@ -345,7 +346,7 @@ as reading is the one place the piece forgets it is proposing something.
 - **Acceptance test.** The MEI criticism has a named carrier, and my own stated position on the
   meritocracy/diversity question appears alongside the criticism of it.
 
-### SUBJECT-C6 — Mark the closing interiority as a reading *(concern)*
+### SUBJECT-C6 — Mark the closing interiority as a reading _(concern)_
 
 - **Location.** H2 6, final long sentence: "…feeding a system built by a man who has never been sure
   he made the cut."
@@ -360,7 +361,7 @@ as reading is the one place the piece forgets it is proposing something.
 - **Confidence.** Medium-high — this is a judgment about register, not a factual error.
 - **Acceptance test.** The final paragraph does not assert my internal state as fact.
 
-### SUBJECT-C7 — Restore the dropped word in the Stanley quotation *(concern)*
+### SUBJECT-C7 — Restore the dropped word in the Stanley quotation _(concern)_
 
 - **Location.** H2 3, Cameron Stanley quote.
 - **Problem.** Forbes renders "make sense of that data, and **then** structure it"; the draft renders
@@ -373,7 +374,7 @@ as reading is the one place the piece forgets it is proposing something.
 - **Confidence.** High. **Acceptance test.** All direct quotations match their sources word for word
   or carry ellipses.
 
-### SUBJECT-C8 — Qualify the $500M Thunderforge figure *(concern)*
+### SUBJECT-C8 — Qualify the $500M Thunderforge figure _(concern)_
 
 - **Location.** H2 3: "Scale won Project Thunderforge, a military planning program worth roughly
   $500 million."
@@ -394,9 +395,9 @@ as reading is the one place the piece forgets it is proposing something.
 
 **SUBJECT-Q1 — Did Wang ever publicly answer LeCun?** I searched for this specifically and found
 nothing: no statement from me or from Meta responding to the January 2026 interview appears in the
-coverage. **What this changes:** it *clears* the draft on the fairness question I opened with — the
+coverage. **What this changes:** it _clears_ the draft on the fairness question I opened with — the
 article is not suppressing my rebuttal, because there isn't one. It also means the draft's use of the
-*Core Memory* quote to answer a different charge is honest, and it correctly names that second charge
+_Core Memory_ quote to answer a different charge is honest, and it correctly names that second charge
 first. If a response does surface, it belongs in the LeCun section and would be the single most
 important addition to the piece. **Best source:** the FT original (not read by anyone in this
 pipeline), and any Meta comms statement from the week of 2026-01-05.
@@ -417,7 +418,7 @@ themselves. This is properly the critic's territory to weigh; I note it only bec
 against the article's credibility, not mine.
 
 **SUBJECT-Q4 — Is the mathlete line actually unprompted?** **What this changes:** whether the word
-stays (SUBJECT-C3). **Best source:** the full HappyScribe transcript of *This Past Weekend* E563,
+stays (SUBJECT-C3). **Best source:** the full HappyScribe transcript of _This Past Weekend_ E563,
 read verbatim rather than summarized.
 
 **SUBJECT-Q5 — Does the Muse Code contributor tier consume "prompts and completions" or "code"?**
@@ -451,12 +452,12 @@ Revision must not damage any of these:
 Packet read in full before any role research, per protocol. SHA-256 of `draft-reviewed.md` computed
 locally and matched against both `context.json` and the supplied `--draft-sha` before reading.
 
-| # | Question | Source consulted | Decision it affected |
-| --- | --- | --- | --- |
-| 1 | Has Wang publicly answered LeCun's "no research experience" charge? | Web search, LeCun/Wang response cluster (CNBC, Yahoo Finance, AOL, dnyuz, mlq.ai, VnExpress) | No response found → cleared the draft of suppressing my rebuttal (SUBJECT-Q1). Surfaced the omitted qualifying clause instead. |
-| 2 | What exactly did LeCun say, in full? | VnExpress International relay of the FT interview (fetched 2026-08-18); corroborated by the Yahoo/AOL relay in the search cluster. AOL, mlq.ai and dnyuz returned 404/403 on direct fetch. | Established **"He learns fast, he knows what he doesn't know"** → SUBJECT-R1, the review's only new-evidence blocker. |
-| 3 | Did Scale respond to the Washington Post Remotasks investigation? | Web search, WaPo 2023-08-28 plus Techmeme, Business & Human Rights Centre, Metaverse Post relays | Found spokesperson Anna Franko's response and the Post's rebuttal of it → resolved packet unresolved-question 5, produced SUBJECT-C1. |
-| 4 | Has Wang personally answered the labor criticism? | Web search, Forbes "army of clickworkers" (Cai, 2023-04-11) plus Inc. and TechCrunch on the lawsuits | Found my on-record position on the workers → SUBJECT-C2. Also surfaced the omitted litigation → SUBJECT-Q3. |
+| #   | Question                                                            | Source consulted                                                                                                                                                                           | Decision it affected                                                                                                                  |
+| --- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Has Wang publicly answered LeCun's "no research experience" charge? | Web search, LeCun/Wang response cluster (CNBC, Yahoo Finance, AOL, dnyuz, mlq.ai, VnExpress)                                                                                               | No response found → cleared the draft of suppressing my rebuttal (SUBJECT-Q1). Surfaced the omitted qualifying clause instead.        |
+| 2   | What exactly did LeCun say, in full?                                | VnExpress International relay of the FT interview (fetched 2026-08-18); corroborated by the Yahoo/AOL relay in the search cluster. AOL, mlq.ai and dnyuz returned 404/403 on direct fetch. | Established **"He learns fast, he knows what he doesn't know"** → SUBJECT-R1, the review's only new-evidence blocker.                 |
+| 3   | Did Scale respond to the Washington Post Remotasks investigation?   | Web search, WaPo 2023-08-28 plus Techmeme, Business & Human Rights Centre, Metaverse Post relays                                                                                           | Found spokesperson Anna Franko's response and the Post's rebuttal of it → resolved packet unresolved-question 5, produced SUBJECT-C1. |
+| 4   | Has Wang personally answered the labor criticism?                   | Web search, Forbes "army of clickworkers" (Cai, 2023-04-11) plus Inc. and TechCrunch on the lawsuits                                                                                       | Found my on-record position on the workers → SUBJECT-C2. Also surfaced the omitted litigation → SUBJECT-Q3.                           |
 
 Four source clusters consulted, within the 2–4 budget. Community/crowd material (the MBTI debate on
 personality-database noted in the packet) was treated as expectation evidence only and carries no

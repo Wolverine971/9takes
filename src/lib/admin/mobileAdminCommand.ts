@@ -1,3 +1,4 @@
+// src/lib/admin/mobileAdminCommand.ts
 import { createContext } from 'svelte';
 
 type MobileAdminCommand = {

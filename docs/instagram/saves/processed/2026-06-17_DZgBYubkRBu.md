@@ -11,7 +11,7 @@ collection: 'warmup_inline'
 content_type: 'carousel'
 pillar_guess: 'Enneagram Type Content / Personality-by-type'
 risk_level: 'caution'
-path: docs/instagram/saves/inbox/2026-06-17_DZgBYubkRBu.md
+path: docs/instagram/saves/processed/2026-06-17_DZgBYubkRBu.md
 ---
 
 # Saved Post: @enneagramashton — "The Warning Label They Should Come With (by type)"

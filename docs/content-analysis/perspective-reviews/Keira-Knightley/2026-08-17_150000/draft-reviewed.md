@@ -75,16 +75,16 @@ faqs:
     answer: "In 2007 the Daily Mail ran a bikini photo of Knightley under a headline blaming images like it for a teenager's death from anorexia. Knightley sued for libel, testified that she did not have an eating disorder, and won. She donated the £3,000 damages to the eating disorder charity Beat and matched the sum from her own pocket. For her the verdict mattered more than the payout: it put on record, under oath, that the story the tabloid told about her body was false."
     anchor: 'why-keira-knightley-fights-the-things-that-scare-her'
   - question: 'What happened to Keira Knightley at 22?'
-    answer: "After five years of paparazzi pursuit that began when Bend It Like Beckham made her famous at 17, Knightley had a mental breakdown at 22 and was later diagnosed with post-traumatic stress disorder. She took a year off and did not leave her house for three months. When Atonement earned her a BAFTA nomination, she used hypnotherapy so she could stand on the red carpet without a panic attack."
+    answer: 'After five years of paparazzi pursuit that began when Bend It Like Beckham made her famous at 17, Knightley had a mental breakdown at 22 and was later diagnosed with post-traumatic stress disorder. She took a year off and did not leave her house for three months. When Atonement earned her a BAFTA nomination, she used hypnotherapy so she could stand on the red carpet without a panic attack.'
     anchor: 'the-breakdown-behind-the-pirate-money'
   - question: 'Why does Keira Knightley refuse Photoshop retouching?'
-    answer: "After the 2004 King Arthur poster enlarged her breasts without her consent, Knightley began policing how her body is altered on screen and in print. In 2014 she posed topless for Interview magazine on one condition: no retouching of any kind. Two decades into the fight, her rule has stayed simple: the body in the picture has to be the one she actually lives in."
+    answer: 'After the 2004 King Arthur poster enlarged her breasts without her consent, Knightley began policing how her body is altered on screen and in print. In 2014 she posed topless for Interview magazine on one condition: no retouching of any kind. Two decades into the fight, her rule has stayed simple: the body in the picture has to be the one she actually lives in.'
     anchor: 'why-keira-knightley-fights-the-things-that-scare-her'
   - question: 'Was Keira Knightley in Star Wars?'
     answer: "Yes. At 12, Knightley played Sabé, Queen Amidala's loyal decoy, in Star Wars: The Phantom Menace (1999). She was cast because she looked so much like Natalie Portman that even Portman's mother couldn't tell the two apart on set, and her lines were dubbed over with Portman's voice. Her first major film role was, literally, being looked at as somebody else."
     anchor: 'what-is-keira-knightleys-personality-type'
   - question: 'Is Keira Knightley in Black Doves season 2?'
-    answer: "Yes. Netflix confirms Knightley returns as spy Helen Webb in Black Doves season 2. The production filmed in and around London with Neve Campbell and Ambika Mod joining the cast; Netflix has not announced a release date. The first season premiered in December 2024 and was renewed before it even aired."
+    answer: 'Yes. Netflix confirms Knightley returns as spy Helen Webb in Black Doves season 2. The production filmed in and around London with Neve Campbell and Ambika Mod joining the cast; Netflix has not announced a release date. The first season premiered in December 2024 and was renewed before it even aired.'
     anchor: 'the-black-doves-era-keira-knightley-in-her-forties'
 production_pretext:
   status: draft
@@ -116,7 +116,7 @@ content_quality:
   anchor: 'Matt-Smith draft (B, 2026-06-28)'
   needs_review: false
   graded_at: '2026-08-17'
-path: src/blog/people/drafts/Keira-Knightley.md
+path: docs/content-analysis/perspective-reviews/Keira-Knightley/2026-08-17_150000/draft-reviewed.md
 ---
 
 <!-- WORKING NOTES (non-interactive run, 2026-06-12)

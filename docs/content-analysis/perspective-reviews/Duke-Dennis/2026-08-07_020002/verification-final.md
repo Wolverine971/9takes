@@ -8,6 +8,7 @@ verification_status: pass
 open_p0: 0
 protected_hit_regressions: 0
 verified_at: 2026-08-07T07:42:23Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/verification-final.md
 ---
 
 ## Verification verdict

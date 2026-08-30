@@ -85,6 +85,7 @@ description: |
   
   #patrickmahomes #loganpaul #ishowspeed
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/impaulsive-415-mahomes.md
 ---
 
 # Patrick Mahomes & iShowSpeed On Winning 3 Super Bowls, Travis Kelce Relationship, Meeting Messi: 415

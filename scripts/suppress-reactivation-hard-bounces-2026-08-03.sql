@@ -1,3 +1,4 @@
+-- scripts/suppress-reactivation-hard-bounces-2026-08-03.sql
 -- Suppress permanent failures from the July/August 2026 reactivation send.
 -- Evidence source: usersup@9takes.com Gmail delivery-status notices.
 --

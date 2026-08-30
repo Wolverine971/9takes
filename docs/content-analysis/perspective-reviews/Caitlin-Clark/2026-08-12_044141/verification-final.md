@@ -8,6 +8,7 @@ verification_status: pass
 open_p0: 0
 protected_hit_regressions: 0
 verified_at: 2026-08-12T06:38:54Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/verification-final.md
 ---
 
 ## Verification verdict

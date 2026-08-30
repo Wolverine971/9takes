@@ -77,7 +77,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Alexandr-Wang.md
+path: docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -222,12 +222,12 @@ Scale's other business is evaluation. When a lab wants to know whether its model
 
 <div class="scroll-table">
 
-| Benchmark | Result | What the score cannot see |
-| --- | --- | --- |
+| Benchmark                                             | Result                                                                                                                                                                      | What the score cannot see                                                                             |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Retention, first weeks of Meta Superintelligence Labs | At least eight researchers, engineers and product leads left Meta's AI org; of the announced hires, one lasted under a month in the core lab and two never formally started | Whether that is a Wang problem or the ordinary churn of a talent war fought with nine-figure packages |
-| Scale AI after he left it | Largest data customers cut ties within weeks over conflict-of-interest concerns; 200 employees, 14% of staff, laid off in July 2025 | Whether they left because of Meta or because of him |
-| Muse Spark 1.2 on Terminal-Bench 2.1 | 82.9%, against Claude Opus 5 at 86.7% (Meta's reported figures, August 2026) | Whether 3.8 points is a research gap or a calendar |
-| Research pedigree, as Yann LeCun scores it | "No experience with research or how you practice research" | What the man holding the scorecard has riding on the answer |
+| Scale AI after he left it                             | Largest data customers cut ties within weeks over conflict-of-interest concerns; 200 employees, 14% of staff, laid off in July 2025                                         | Whether they left because of Meta or because of him                                                   |
+| Muse Spark 1.2 on Terminal-Bench 2.1                  | 82.9%, against Claude Opus 5 at 86.7% (Meta's reported figures, August 2026)                                                                                                | Whether 3.8 points is a research gap or a calendar                                                    |
+| Research pedigree, as Yann LeCun scores it            | "No experience with research or how you practice research"                                                                                                                  | What the man holding the scorecard has riding on the answer                                           |
 
 </div>
 

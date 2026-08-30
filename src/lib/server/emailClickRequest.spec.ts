@@ -1,3 +1,4 @@
+// src/lib/server/emailClickRequest.spec.ts
 import { describe, expect, it } from 'vitest';
 import { isLikelyAutomatedEmailClick } from './emailClickRequest';
 

@@ -19,7 +19,7 @@
 
 Swept 2026-08-07 as a hoped-for Type 5 pond room and it is a miss on three counts:
 
-1. **Wrong audience for the 5 pond:** the account addresses the *partners* of avoidants — i.e., the anxious-attachment side (2/6 pond), not avoidants themselves. No 5s live here.
+1. **Wrong audience for the 5 pond:** the account addresses the _partners_ of avoidants — i.e., the anxious-attachment side (2/6 pond), not avoidants themselves. No 5s live here.
 2. **Sales-heavy coach feed:** top post is a "FREE WEBINAR ANYONE?" promo; grid alternates between webinar CTAs and "your avoidant partner is never going to change" urgency copy. Ad-like surface, thin conversation.
 3. **Tiny room:** 505 followers, 94 posts; comment sections not worth mining.
 
@@ -32,6 +32,6 @@ Swept 2026-08-07 as a hoped-for Type 5 pond room and it is a miss on three count
 
 ## Relationship History
 
-| Date       | Surface | Topic                       | Post Link | Action   | Status | Notes                                   |
-| ---------- | ------- | --------------------------- | --------- | -------- | ------ | --------------------------------------- |
+| Date       | Surface | Topic                                  | Post Link                                      | Action   | Status | Notes                                        |
+| ---------- | ------- | -------------------------------------- | ---------------------------------------------- | -------- | ------ | -------------------------------------------- |
 | 2026-08-07 | Profile | First grid sweep (5-pond roster check) | https://www.instagram.com/partnersofavoidants/ | Reviewed | Closed | Monitor only; removed from 5-pond candidates |

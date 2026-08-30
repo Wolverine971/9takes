@@ -1,7 +1,7 @@
 ---
 title: 'David Beckham: An In-Depth Enneagram Type 3 Analysis'
-meta_title: 'David Beckham''s Type 3 Mind: The Boy Who Built Himself'
-persona_title: 'Football''s Self-Made Idol'
+meta_title: "David Beckham's Type 3 Mind: The Boy Who Built Himself"
+persona_title: "Football's Self-Made Idol"
 description: 'Everyone calls David Beckham a golden boy who had it all handed to him. So why does he still clean the house at 2am? Inside the Type 3 who built himself.'
 author: 'DJ Wayne'
 date: '2026-07-13'
@@ -70,13 +70,13 @@ faqs:
     answer: "At the 1998 World Cup, a 23-year-old Beckham was sent off for flicking a boot at Argentina's Diego Simeone, and England went out on penalties. Overnight he became the most hated man in the country: an effigy hung outside a London pub, bullets were posted to Manchester United, and he was spat at in his own city. Victoria has said he was 'absolutely clinically depressed.' Those three years taught him that a person loved for one thing can be destroyed for one thing, and his Type 3 answer was to reply in the only language that had ever bought him safety: he delivered."
     anchor: 'why-an-entire-nation-turned-on-david-beckham'
   - question: 'Does David Beckham really have OCD?'
-    answer: "David Beckham has repeatedly described rituals that he calls obsessive-compulsive disorder, including arranging objects in lines or pairs and cleaning after his family goes to bed. Those are his own accounts in a 2006 ITV interview and the 2023 Netflix series Beckham; public interviews cannot establish a clinical diagnosis. This profile therefore does not treat OCD as proof of an Enneagram type."
+    answer: 'David Beckham has repeatedly described rituals that he calls obsessive-compulsive disorder, including arranging objects in lines or pairs and cleaning after his family goes to bed. Those are his own accounts in a 2006 ITV interview and the 2023 Netflix series Beckham; public interviews cannot establish a clinical diagnosis. This profile therefore does not treat OCD as proof of an Enneagram type.'
     anchor: 'the-father-who-took-david-beckham-out-for-hours'
   - question: 'Why did David Beckham take the Qatar World Cup money?'
-    answer: "Beckham has not publicly reduced the Qatar partnership to money. He said in October 2023 that he was proud of the World Cup role and believed engagement through sport mattered. Critics were unconvinced because Qatar criminalized same-sex relationships and faced documented migrant-worker abuses, while the ambassador fee was undisclosed and widely reported as substantial. The available record supports the controversy, but not a private motive stated as fact."
+    answer: 'Beckham has not publicly reduced the Qatar partnership to money. He said in October 2023 that he was proud of the World Cup role and believed engagement through sport mattered. Critics were unconvinced because Qatar criminalized same-sex relationships and faced documented migrant-worker abuses, while the ambassador fee was undisclosed and widely reported as substantial. The available record supports the controversy, but not a private motive stated as fact.'
     anchor: 'why-david-beckham-took-the-qatar-money'
   - question: 'Is David Beckham a Type 3 or a Type 9?'
-    answer: "Type 9 is the strongest alternate read because Beckham is calm, deferential, and soft-spoken. The stronger Type 3 evidence is the sustained ambition behind his reserve: years of extra practice, deliberate image-building, and a decade-long effort to bring an elite player to Inter Miami. His manner supports the Nine case; his repeated conversion of achievement into identity supports the Three call."
+    answer: 'Type 9 is the strongest alternate read because Beckham is calm, deferential, and soft-spoken. The stronger Type 3 evidence is the sustained ambition behind his reserve: years of extra practice, deliberate image-building, and a decade-long effort to bring an elite player to Inter Miami. His manner supports the Nine case; his repeated conversion of achievement into identity supports the Three call.'
     anchor: 'what-is-david-beckhams-personality-type'
 production_pretext:
   status: draft
@@ -90,7 +90,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/David-Beckham.md
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/draft-reviewed.md
 ---
 
 <!-- WORKING NOTES / TYPE-CHALLENGE MEMO

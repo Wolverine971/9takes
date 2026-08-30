@@ -59,15 +59,15 @@ Victoria Justice is an American actor and singer whose public career spans _Zoey
 
 ## Source ledger
 
-| ID | Source | Date | Use | Limit |
-| --- | --- | --- | --- | --- |
-| S-01 | Frozen draft and `context.json` | 2026-08-19 | Exact claims and hashes under review | Not independent evidence |
-| S-02 | Her Campus interview | 2023 | “Gold” preference and label pressure | Retrospective account |
-| S-03 | Marie Claire interview | 2024 | “Gold,” Schneider, and creative control | Promotional interview context |
-| S-04 | E! News | 2023 | Grande feud response | Brief entertainment interview |
-| S-05 | The Hollywood Reporter / People | 2024–2025 | Schneider response, meme history, Grande testimony | Secondary coverage and interview excerpts |
-| S-06 | Forbes / The Daily Beast | 2021 | Music self-doubt and learning to say no | Self-report in interview settings |
-| S-07 | Billboard | 2011–2014 | Soundtrack chart and “Gold” sales context | Commercial data does not establish motive |
-| S-08 | United By Pop / Justice announcement | 2021 | “Too F*ckin’ Nice” framing | Social announcement relayed through press |
-| S-09 | Us Weekly / release record | 2025 | “Love Zombie” history and release | Promotional context |
-| S-10 | Repository release audits | 2026-08-19 | Structure, sourcing, length, and corpus comparison | Editorial checks, not biographical proof |
+| ID   | Source                               | Date       | Use                                                | Limit                                     |
+| ---- | ------------------------------------ | ---------- | -------------------------------------------------- | ----------------------------------------- |
+| S-01 | Frozen draft and `context.json`      | 2026-08-19 | Exact claims and hashes under review               | Not independent evidence                  |
+| S-02 | Her Campus interview                 | 2023       | “Gold” preference and label pressure               | Retrospective account                     |
+| S-03 | Marie Claire interview               | 2024       | “Gold,” Schneider, and creative control            | Promotional interview context             |
+| S-04 | E! News                              | 2023       | Grande feud response                               | Brief entertainment interview             |
+| S-05 | The Hollywood Reporter / People      | 2024–2025  | Schneider response, meme history, Grande testimony | Secondary coverage and interview excerpts |
+| S-06 | Forbes / The Daily Beast             | 2021       | Music self-doubt and learning to say no            | Self-report in interview settings         |
+| S-07 | Billboard                            | 2011–2014  | Soundtrack chart and “Gold” sales context          | Commercial data does not establish motive |
+| S-08 | United By Pop / Justice announcement | 2021       | “Too F*ckin’ Nice” framing                         | Social announcement relayed through press |
+| S-09 | Us Weekly / release record           | 2025       | “Love Zombie” history and release                  | Promotional context                       |
+| S-10 | Repository release audits            | 2026-08-19 | Structure, sourcing, length, and corpus comparison | Editorial checks, not biographical proof  |

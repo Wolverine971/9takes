@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 6
 reviewed_at: 2026-08-09T07:54:31Z
+path: docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -36,7 +37,7 @@ The Type 6 call is well-argued at the correct level — motivation, not behavior
 
 **The Type 3 question is asked by the draft and answered nowhere.** The draft itself installs the 3 material — "competency mask," a 26-year comeback arc, an Emmys-season frame, the stress-arrow paragraph explicitly naming "Type 3 coloring" — and the packet flags that "a counter-phobic or 3-ish read is available." Yet the Counterarguments section covers only 2 and 9. For the type-literate reader this piece courts with a Rabbit Hole, "isn't a famous actor with a comeback narrative just a 3?" is the first objection, and the draft has the refuting evidence on hand (left the biggest job in television for his son; fifteen years of genre TV with no image management; anecdotes-over-trophies; self-describes worry, not winning — all in the internal memo's "Also considered" note) but never deploys it. This is the costliest miss.
 
-**The phobic/counterphobic spectrum is absent.** The draft's own counterevidence — handcuffed in the Capitol, gleefully impersonating Steve Jobs in front of thousands, thirty years fronting enormous productions — sits unabsorbed, and the draft half-notices: "The actor who calls impostor fear the ambient weather of his profession turned out to be delightful at literal imposture, the moment the real man authorized it." That last clause is an unnamed counterphobic/authorization read (fear becomes approachable when the authority sanctions it; some Sixes move *against* fear rather than away from it). One sentence naming the spectrum would convert the piece's residual counterevidence into support instead of leaving it for skeptics.
+**The phobic/counterphobic spectrum is absent.** The draft's own counterevidence — handcuffed in the Capitol, gleefully impersonating Steve Jobs in front of thousands, thirty years fronting enormous productions — sits unabsorbed, and the draft half-notices: "The actor who calls impostor fear the ambient weather of his profession turned out to be delightful at literal imposture, the moment the real man authorized it." That last clause is an unnamed counterphobic/authorization read (fear becomes approachable when the authority sanctions it; some Sixes move _against_ fear rather than away from it). One sentence naming the spectrum would convert the piece's residual counterevidence into support instead of leaving it for skeptics.
 
 ## What I expected
 
@@ -57,8 +58,9 @@ The Type 6 call is well-argued at the correct level — motivation, not behavior
 All six are concerns, not blockers. None breaks trust; each is a place an informed reader could catch the piece over- or under-claiming.
 
 **ENNEAGRAM-R1 — Confidence stated above what the evidence (and the draft's own memo) supports.**
+
 - Passage: "Confidence here is high on the type, moderate on the details" (end of diagnosis section).
-- Problem: The internal research memo (`docs/content-analysis/research/Noah-Wyle.md`) concludes "Confidence: medium-high." The draft silently upgrades to "high." Meanwhile the type tiebreaker — the "I volunteer" email — is self-reported wording of a private email (packet CLM-03, unverifiable in principle), and the entire fear framework (fear speech, competency mask, therapy) is his own articulate narration, nearly all of it delivered during an active Emmys cycle by a producer promoting a show whose theme *is* helpers under strain. The packet explicitly warns "the fear framework is entirely self-narrated."
+- Problem: The internal research memo (`docs/content-analysis/research/Noah-Wyle.md`) concludes "Confidence: medium-high." The draft silently upgrades to "high." Meanwhile the type tiebreaker — the "I volunteer" email — is self-reported wording of a private email (packet CLM-03, unverifiable in principle), and the entire fear framework (fear speech, competency mask, therapy) is his own articulate narration, nearly all of it delivered during an active Emmys cycle by a producer promoting a show whose theme _is_ helpers under strain. The packet explicitly warns "the fear framework is entirely self-narrated."
 - Effect: A skeptical type-literate reader discounts the whole diagnosis when the confidence claim exceeds the evidence class; certainty-proportionality is this perspective's core test.
 - Minimum viable repair: Either restore "medium-high" or keep "high" and add one honest clause, e.g. acknowledging that the inner-life evidence is his own telling and the behavioral record is what corroborates it.
 - Expected benefit: The diagnosis reads as calibrated rather than promotional; the falsifier sentence (H4) gains force.
@@ -66,8 +68,9 @@ All six are concerns, not blockers. None breaks trust; each is a place an inform
 - Acceptance test: The stated confidence either matches the memo or is accompanied by an explicit acknowledgment that the motivational evidence is self-narrated; no other confidence language changes.
 
 **ENNEAGRAM-R2 — The self-pres dismissal argues against a caricature.**
+
 - Passage: "A self-preservation-dominant Six would have spent his fame securing his own perimeter" (Rabbit Hole, subtype section).
-- Problem: In the standard subtype literature the sp6 presents as *warmth* — alliance-seeking, dependable, friendly, winning protection by being likable — which describes Wyle's affiliative set-dad style at least as well as social 6 does. "Securing his own perimeter" dismisses a caricature (bunker-building) rather than the real competing pattern. The correct discriminator is available: sp6 warmth is dyadic and protection-seeking for the self; Wyle's bonding runs to institutions, causes, and collectives, and his anxiety expresses as responsibility for the group — which is the social 6 signature.
+- Problem: In the standard subtype literature the sp6 presents as _warmth_ — alliance-seeking, dependable, friendly, winning protection by being likable — which describes Wyle's affiliative set-dad style at least as well as social 6 does. "Securing his own perimeter" dismisses a caricature (bunker-building) rather than the real competing pattern. The correct discriminator is available: sp6 warmth is dyadic and protection-seeking for the self; Wyle's bonding runs to institutions, causes, and collectives, and his anxiety expresses as responsibility for the group — which is the social 6 signature.
 - Effect: The one reader segment the Rabbit Hole exists for (subtype-literate) will catch the strawman and downgrade the section's authority.
 - Minimum viable repair: Replace the perimeter clause with the warmth-based dismissal above (one sentence).
 - Expected benefit: The so-dominant call becomes persuasive to exactly the audience it addresses.
@@ -75,15 +78,17 @@ All six are concerns, not blockers. None breaks trust; each is a place an inform
 - Acceptance test: The sp dismissal names warmth/alliance-seeking as the sp6 presentation and distinguishes it from group-responsibility; no caricature language remains.
 
 **ENNEAGRAM-R3 — The drawer anchor is type-agnostic evidence doing type-flavored work.**
+
 - Passage: "The program got installed early" (opening line of "The Drawer" section), through "built a career... out of the filing system."
-- Problem: The household story — love as competence, feelings filed so the family could eat — explains the piece's *theme* (who helps the helper, the competency mask) but does not discriminate type: a child of a stoic caretaking mother could plausibly grow into a 2, 3, 1, or 9 on the same facts, and the Rabbit Hole itself lists mother-identification as Type 2 evidence. Framing the household as installing "the program" quietly claims the 6 diagnosis before the diagnostic evidence (fear management, duty enlistment) has been separated from the biographical material.
+- Problem: The household story — love as competence, feelings filed so the family could eat — explains the piece's _theme_ (who helps the helper, the competency mask) but does not discriminate type: a child of a stoic caretaking mother could plausibly grow into a 2, 3, 1, or 9 on the same facts, and the Rabbit Hole itself lists mother-identification as Type 2 evidence. Framing the household as installing "the program" quietly claims the 6 diagnosis before the diagnostic evidence (fear management, duty enlistment) has been separated from the biographical material.
 - Effect: Monocausal flavor; a careful reader notices the anchor anecdote being spent twice, once for the thesis and once (in the counterarguments) for the strongest alternative.
-- Minimum viable repair: One clause at the section's top or bottom separating the two registers — the household explains where the *theme* comes from; what types him is how he manages fear and enlists, shown elsewhere. (No structural change; the scene itself is untouchable per its quality.)
+- Minimum viable repair: One clause at the section's top or bottom separating the two registers — the household explains where the _theme_ comes from; what types him is how he manages fear and enlists, shown elsewhere. (No structural change; the scene itself is untouchable per its quality.)
 - Expected benefit: Immunizes the piece's best material against the "this supports the 2 reading" objection the draft itself raises.
 - Confidence: high.
 - Acceptance test: A reader can state, from the text alone, which claims the drawer story supports (theme/formation) and which it does not (type diagnosis).
 
 **ENNEAGRAM-R4 — No Type 3 counterargument.**
+
 - Passage: Rabbit Hole, "Counterarguments: Why Noah Wyle Might Not Be a Type 6" — covers 2 and 9 only.
 - Problem: The draft names "Type 3 coloring" in its own stress-arrow paragraph and hangs the whole piece on "competency mask" — inviting the objection it never answers. The packet lists the 3 reading as live and supplies the falsifier ("evidence the service record is publicity-managed").
 - Effect: The most predictable skeptical reading of a famous comeback actor goes unrebutted; the counterargument section looks selectively brave.
@@ -93,6 +98,7 @@ All six are concerns, not blockers. None breaks trust; each is a place an inform
 - Acceptance test: The Rabbit Hole counterarguments address 2, 9, and 3, each with at least one piece of disconfirming-if-found evidence.
 
 **ENNEAGRAM-R5 — The phobic/counterphobic axis is missing.**
+
 - Passage: Absence — most visible where the draft writes "delightful at literal imposture, the moment the real man authorized it" (vow section) and in the Capitol arrest paragraphs.
 - Problem: The single piece of 6 theory that would absorb the boldness counterevidence (arrest, Macworld imposture, three decades fronting productions) is never named. The packet explicitly notes "a counter-phobic... read is available," and the draft's "authorized it" clause already contains the insight — sanctioned by authority, the feared act becomes performable — without surfacing it.
 - Effect: Counterevidence the draft itself displays is left for skeptics to weaponize, when one sentence would convert it into support.
@@ -102,6 +108,7 @@ All six are concerns, not blockers. None breaks trust; each is a place an inform
 - Acceptance test: A type-literate reader can find where the piece accounts for the arrest and the imposture inside the 6 frame, not just adjacent to it.
 
 **ENNEAGRAM-R6 — The Type 9 dismissal is totalizing and internally strained.**
+
 - Passage: "Nines do not get handcuffed in the Capitol rotunda or spend a career naming their anxieties in interviews" (Rabbit Hole counterarguments).
 - Problem: The first half is overbroad — social 9s do merge with causes and crowds, and the draft's own arrest description ("He is not the organizer. He is a body in the crowd") is compatible with 9-ish merging. The second half (a career of anxiety self-report) is the strong discriminator and can carry the dismissal alone.
 - Effect: A flat "Nines do not" is the kind of totalizing claim the system doesn't support; it also hands an attentive reader an internal contradiction.
@@ -128,7 +135,7 @@ All six are concerns, not blockers. None breaks trust; each is a place an inform
 
 **ENNEAGRAM-Q2 — Does the boldness appear without authorization or group cover?** The 6 read predicts his risk-taking rides on sanction (Jobs's invitation, an activist crowd, an ensemble). A documented instance of solo, unsanctioned, image-forward risk would push toward counterphobic-sx-6 or 3 and should soften the social-subtype call. Best source: contemporaneous accounts of the Macworld 1999 appearance and any solo career gambles in the wilderness years.
 
-**ENNEAGRAM-Q3 — Was he calm before he was senior?** The growth-arrow claim (H2) predicts ER-era Wyle was *not* the set's calm center — that the steadiness was built. ER-era castmate accounts describing a young Wyle as anxious/preparation-driven would confirm the integration story; accounts of the same unflappable calm at 23 would favor the 9 reading the draft dismisses. Best source: ER oral histories and 1990s castmate interviews.
+**ENNEAGRAM-Q3 — Was he calm before he was senior?** The growth-arrow claim (H2) predicts ER-era Wyle was _not_ the set's calm center — that the steadiness was built. ER-era castmate accounts describing a young Wyle as anxious/preparation-driven would confirm the integration story; accounts of the same unflappable calm at 23 would favor the 9 reading the draft dismisses. Best source: ER oral histories and 1990s castmate interviews.
 
 ## Preserve list
 

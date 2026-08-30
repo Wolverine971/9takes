@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// scripts/compose-personality-portrait.mjs
 
 import path from 'node:path';
 import process from 'node:process';
@@ -159,9 +160,7 @@ async function main() {
 		.png()
 		.toBuffer({ resolveWithObject: true });
 
-	const resizedWidth = Math.round(
-		(trimmedInfo.width / trimmedInfo.height) * options.height
-	);
+	const resizedWidth = Math.round((trimmedInfo.width / trimmedInfo.height) * options.height);
 	const { data, info } = await sharp(trimmedData)
 		.recomb([
 			[0.2126, 0.7152, 0.0722],
@@ -183,12 +182,8 @@ async function main() {
 		const trimTop = Math.max(0, -(trimmedInfo.trimOffsetTop ?? 0));
 		const scaleX = info.width / trimmedInfo.width;
 		const scaleY = info.height / trimmedInfo.height;
-		left = Math.round(
-			options.targetX - (options.anchorX - trimLeft) * scaleX + options.offsetX
-		);
-		top = Math.round(
-			options.targetY - (options.anchorY - trimTop) * scaleY + options.offsetY
-		);
+		left = Math.round(options.targetX - (options.anchorX - trimLeft) * scaleX + options.offsetX);
+		top = Math.round(options.targetY - (options.anchorY - trimTop) * scaleY + options.offsetY);
 	} else {
 		left = Math.round((CANVAS_SIZE - info.width) / 2 + options.offsetX);
 		top = options.offsetY;
@@ -228,9 +223,7 @@ async function main() {
 		.png({ compressionLevel: 9 })
 		.toFile(options.output);
 
-	console.log(
-		`Created ${options.output} (subject ${info.width}×${info.height} at ${left},${top})`
-	);
+	console.log(`Created ${options.output} (subject ${info.width}×${info.height} at ${left},${top})`);
 }
 
 main().catch((error) => {

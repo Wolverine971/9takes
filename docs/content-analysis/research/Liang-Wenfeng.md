@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Liang-Wenfeng.md -->
+
 # Liang Wenfeng: research evidence file
 
 Compiled 2026-08-22 by `/blog_content_creator_people_v2` (non-interactive run). Evidence only; interpretation is quarantined in the final two sections and labeled as hypothesis. Consumed downstream by `/blog_perspective_research_people`.

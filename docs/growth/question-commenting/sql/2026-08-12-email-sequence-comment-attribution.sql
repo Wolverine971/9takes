@@ -1,3 +1,4 @@
+-- docs/growth/question-commenting/sql/2026-08-12-email-sequence-comment-attribution.sql
 -- Privacy-safe email sequence -> question participation report.
 -- Run through ./scripts/db-query.sh. Results contain aggregates only.
 --

@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 3
 concerns: 7
 reviewed_at: 2026-08-05T07:03:35Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/enneagram.md
 ---
 
 <!-- docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/enneagram.md -->
@@ -59,7 +60,7 @@ falsifiable work: it predicts which criticisms she absorbs and which she goes on
 and the prediction matches the record (she has never litigated the Swoopes take; she did litigate
 the character coverage). It also happens to be the discriminator the piece needs elsewhere and
 does not use — see ENN-C6. It aligns exactly with the house pillar's core-fear framing
-(`src/blog/enneagram/enneagram-type-1.md:240`: "Type 1 asks: *Am I good?* The fear is moral
+(`src/blog/enneagram/enneagram-type-1.md:240`: "Type 1 asks: _Am I good?_ The fear is moral
 corruption. The self-criticism focuses on character, integrity, and doing things right").
 
 **ENN-H2 — Relocating the obsession from outcome to hours (H2 1).**
@@ -146,7 +147,7 @@ in one line what three paragraphs of theory would not.
 
 **Jarring:** the Rabbit Hole rules out the sexual instinct on the grounds that she has no single
 rival, then spends the next section explaining why she is not a Type 8. In the school this site
-publishes, the one-to-one One is *the* variant that gets mistyped as an 8. The draft encountered the
+publishes, the one-to-one One is _the_ variant that gets mistyped as an 8. The draft encountered the
 signature and interpreted it as a reason to argue against Eight rather than as a reason to revisit
 the instinct.
 
@@ -174,8 +175,8 @@ formatted as her thought.
   that's just how I play," and "You have to think you're better than you actually are at the end of
   the day." (Sue Bird podcast appearance, 2024; rendered by Pro Football Network — the packet's
   S-29, previously headline-level only — and by Basketball Network / Yahoo Sports.) Her account is
-  *outcome-expectation that is miscalibrated*, self-labeled as a flaw and knowingly retained. The
-  draft's account is *outcome-indifference*. Those are not the same claim: "I always think it's
+  _outcome-expectation that is miscalibrated_, self-labeled as a flaw and knowingly retained. The
+  draft's account is _outcome-indifference_. Those are not the same claim: "I always think it's
   going to go well" is a prediction about the ball arriving, which the draft says she does not
   grade.
 - **Why it matters for the typing specifically.** "That's just how I play" is a shrug at a
@@ -183,7 +184,7 @@ formatted as her thought.
   that never closes. That friction is interesting and probably survivable (a One can ring-fence one
   domain as constitutional), but it has to be argued, not skipped.
 - **Minimum viable repair.** Quote her, then argue with her. Two options, either acceptable:
-  (a) revise the mechanism to what she describes — she grades the *confidence*, not the outcome,
+  (a) revise the mechanism to what she describes — she grades the _confidence_, not the outcome,
   and "toxic part of me" is the auditor's verdict on her own optimism; or (b) keep the
   decision-grading read and explicitly reconcile it with "just how I play" in one sentence.
 - **Expected benefit.** Converts the piece's weakest-sourced paragraph into its best-sourced one,
@@ -212,7 +213,7 @@ formatted as her thought.
   conscientious, and hardest on themselves."
   The draft's own body evidence is the opposite of repressed anger: Bluder naming three outward
   targets, anger leaking onto teammates and officials, a sports psychologist intervening
-  *specifically because the outward discharge was damaging the room*, and a coach calling technical
+  _specifically because the outward discharge was damaging the room_, and a coach calling technical
   fouls on her in practice. That is the Zeal profile as this site defines it. The draft then
   devotes a Rabbit Hole paragraph to refuting Type 8 — which the pillar identifies as the sx One's
   standard mistype.
@@ -221,7 +222,7 @@ formatted as her thought.
   schedule; this evidence would return sp for all of them.
 - **Minimum viable repair.** Either (a) recall the subtype to sx-dominant and note that the
   8-mistype the draft already refutes is the expected artifact of that variant — which makes the
-  Eight counterargument *land harder*, not softer; or (b) keep sp/so but argue it against the Zeal
+  Eight counterargument _land harder_, not softer; or (b) keep sp/so but argue it against the Zeal
   profile on the anger-direction evidence, and delete the "single rival" definition either way.
 - **Expected benefit.** Removes a self-contradiction against the site's own pillar page, and
   option (a) turns two currently disconnected Rabbit Hole sections into one argument.
@@ -260,7 +261,7 @@ formatted as her thought.
   it in the following paragraph); add one sentence to the Olympic paragraph stating that she also
   insisted she was good enough; delete or qualify "no mechanism for pretending otherwise."
 - **Expected benefit.** The One read survives the fuller quotes — a One can want to be the best
-  player in the world and still locate the driver in the hours — and it survives *as an argument*
+  player in the world and still locate the driver in the hours — and it survives _as an argument_
   rather than as a selection. That is the difference between persuading an informed reader and
   losing one.
 - **Confidence.** High; both omissions are packet-verified.
@@ -310,7 +311,7 @@ formatted as her thought.
 - **Passage.** Rabbit Hole → "Caitlin Clark's Wing: 1w2," and its supporting quote: "Her work
   ethic, and her demanding excellence from herself, really created everybody else to demand that
   same kind of excellence."
-- **Problem.** That quote describes influence by example, which is the *social* One / exemplar
+- **Problem.** That quote describes influence by example, which is the _social_ One / exemplar
   pattern, not the 1w2 marker. The house pillar's 1w2 is interpersonal and hands-on
   (`enneagram-type-1.md:140`: "The judge who leaves the bench to fix your case personally"). Raising
   a program's standard by being demanding of yourself is what a 1w9 does too. Separately, this
@@ -330,8 +331,8 @@ formatted as her thought.
 
 - **Passage.** H2 5: "Cynthia Cooper, asked about her by Women's Sports Now in 2026, named the same
   faculty from the outside: 'She has a high level of basketball IQ.'"
-- **Problem.** "The same faculty" claims Cooper independently confirmed Clark's *self-grading of
-  decisions*. Basketball IQ is a claim about decision quality, not about how the player audits her
+- **Problem.** "The same faculty" claims Cooper independently confirmed Clark's _self-grading of
+  decisions_. Basketball IQ is a claim about decision quality, not about how the player audits her
   own decisions — those are different faculties, and the second is the one the section needs.
   Packet CLM-26 also reports the exact sentence was not independently confirmed and that Cooper's
   located remarks concern scoring craft and playmaking breadth.
@@ -353,7 +354,7 @@ formatted as her thought.
   seconds later — a One-flattering edit of a two-part exchange, and the third instance of the
   pattern in ENN-R3.
 - **Repair.** Watch the ESPN segment and either keep the tempo claim with the video cited, or
-  re-hinge the opening on the *content* of the answer (60 games, two playoff games, age 24 — an
+  re-hinge the opening on the _content_ of the answer (60 games, two playoff games, age 24 — an
   audit rendered as a rationale). Add "We'll have to see" somewhere; it costs one line and buys
   credibility.
 - **Benefit.** The opening stops depending on an unverifiable observation, and the piece stops
@@ -368,7 +369,7 @@ formatted as her thought.
   "Counterarguments: Why Caitlin Clark Might Not Be a Type 1."
 - **Problem.** Both rebuttals target an image-managing Three. The Three that actually competes here
   is the self-preservation Three — the variant that is uncomfortable with self-promotion, that
-  wants to *be* good at the work rather than be seen as good, and that is the single most common
+  wants to _be_ good at the work rather than be seen as good, and that is the single most common
   Three mistyped as a One. Every discriminator the draft offers is also sp-Three behavior:
   disclaiming the outcome, refusing to manage the room, self-criticizing on camera, saying the
   trophy does not keep her up at night. The pressure test therefore leaves the strongest
@@ -376,7 +377,7 @@ formatted as her thought.
   section is the least rigorous part of a rigorous piece.
 - **Repair.** Discriminate on the fear rather than on room management — and the piece already
   contains the discriminator that does it. A Three's dread is worthlessness and it attaches to
-  *output*; a One's dread is moral corruption and it attaches to *character*. Clark's own filter
+  _output_; a One's dread is moral corruption and it attaches to _character_. Clark's own filter
   (H2 6) shows output criticism bouncing and character criticism landing. Point the counterargument
   section at that paragraph in two sentences and the sp-Three is genuinely eliminated.
 - **Benefit.** Converts the article's weakest argument into a second use of its strongest one,
@@ -394,8 +395,8 @@ formatted as her thought.
   three-point margin to be unhappy about" as **interpretation only** — meaning a fabricated interior
   monologue is functioning as a One-versus-Three datum. Rendering check: `.inner-thought`
   (`src/scss/blog.scss:592`) styles these as an italic thought-bubble panel, which does distinguish
-  them from the cited block quotes, but a thought bubble reads as *what she was thinking*, not as
-  *what the author imagines she was thinking*. Nothing on the page marks the difference.
+  them from the cited block quotes, but a thought bubble reads as _what she was thinking_, not as
+  _what the author imagines she was thinking_. Nothing on the page marks the difference.
 - **Repair.** Keep the device — it is one of the better things in the piece — but ensure no
   discriminator depends on it. One clause of authorial framing before the Seattle block ("If the
   pattern holds, the tape session sounds something like this") costs six words and converts an
@@ -413,7 +414,7 @@ What would change: everything about ENN-R1's repair. If the quote is from the Su
 2024 with the "risk assessment" framing intact, the draft can quote it and argue with it. If the
 surrounding context shows her also describing decision-correctness, the draft's current mechanism is
 partly vindicated and needs only a citation. Best source: the Sue Bird podcast episode audio
-(*Bird's Eye View*, 2024); secondary renderings at Pro Football Network and Basketball Network
+(_Bird's Eye View_, 2024); secondary renderings at Pro Football Network and Basketball Network
 should not be the citation of record.
 
 **ENN-Q2 — In the June 2026 ESPN segment, how fast was the six, and what exactly does the "We'll
@@ -434,7 +435,7 @@ habit?**
 What would change: not the type, but how much weight the practice-technical scene can carry as a
 tiebreaker. If it is habitual (as Bluder's own framing in S-17/S-21 suggests), it is weaker evidence
 about a specific moment and stronger evidence about a standing pattern — which actually suits the
-thesis better. Best source: *Talkin' Hawks with The VandeBergs*, ~July 2025, episode audio.
+thesis better. Best source: _Talkin' Hawks with The VandeBergs_, ~July 2025, episode audio.
 
 **ENN-Q5 — Should Type 6 be pressure-tested at all?**
 The packet raises it as untested (disputes item 9). My assessment: no, and the draft is right to
@@ -464,12 +465,12 @@ the editor can close the packet's open item without research.
 
 ## Research log
 
-| # | Question | Source consulted | What it decided |
-| --- | --- | --- | --- |
-| 1 | What does the 9takes house pillar say the three Type 1 instinctual subtypes look like? | `src/blog/enneagram/enneagram-type-1.md:326-332` (repo) | Established ENN-R2. The one-to-one One ("Zeal") is hot outward reforming anger, "frequently mistyped as an 8"; the sp One has anger "most repressed." The draft's evidence is the former; its call is the latter. |
-| 2 | Does the house pillar's wing and arrow material match the draft's Rabbit Hole? | `src/blog/enneagram/enneagram-type-1.md:138-140, 240-244, 270` (repo) | Wing direction is defensible but the draft's supporting quote does not discriminate (ENN-C3); supplied the better Four-arrow datum for ENN-C2; supplied the One-vs-Six discriminator that closes ENN-Q5. |
-| 3 | Does Clark's own account of her turnovers match the draft's decision-grading mechanism? (packet had S-29 at headline level only) | Pro Football Network (direct fetch) + search-surfaced Basketball Network / Yahoo Sports renderings of the same Sue Bird podcast appearance | Established ENN-R1. Her mechanism is miscalibrated outcome optimism — "maybe it's a toxic part of me, but I always think it's going to go well" — plus "that's just how I play," not outcome-indifference. |
-| 4 | Does the `inner-thought` device visually mark itself as authorial? | `src/scss/blog.scss:592-617` (repo) | Downgraded ENN-C7 from blocker to concern: the styling separates these from cited quotes, but marks them as her thoughts rather than as the writer's inference. |
+| #   | Question                                                                                                                         | Source consulted                                                                                                                           | What it decided                                                                                                                                                                                                   |
+| --- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | What does the 9takes house pillar say the three Type 1 instinctual subtypes look like?                                           | `src/blog/enneagram/enneagram-type-1.md:326-332` (repo)                                                                                    | Established ENN-R2. The one-to-one One ("Zeal") is hot outward reforming anger, "frequently mistyped as an 8"; the sp One has anger "most repressed." The draft's evidence is the former; its call is the latter. |
+| 2   | Does the house pillar's wing and arrow material match the draft's Rabbit Hole?                                                   | `src/blog/enneagram/enneagram-type-1.md:138-140, 240-244, 270` (repo)                                                                      | Wing direction is defensible but the draft's supporting quote does not discriminate (ENN-C3); supplied the better Four-arrow datum for ENN-C2; supplied the One-vs-Six discriminator that closes ENN-Q5.          |
+| 3   | Does Clark's own account of her turnovers match the draft's decision-grading mechanism? (packet had S-29 at headline level only) | Pro Football Network (direct fetch) + search-surfaced Basketball Network / Yahoo Sports renderings of the same Sue Bird podcast appearance | Established ENN-R1. Her mechanism is miscalibrated outcome optimism — "maybe it's a toxic part of me, but I always think it's going to go well" — plus "that's just how I play," not outcome-indifference.        |
+| 4   | Does the `inner-thought` device visually mark itself as authorial?                                                               | `src/scss/blog.scss:592-617` (repo)                                                                                                        | Downgraded ENN-C7 from blocker to concern: the styling separates these from cited quotes, but marks them as her thoughts rather than as the writer's inference.                                                   |
 
 Packet reused rather than re-researched, per protocol: the Olympic TIME omission (CLM-13), the ESPN
 quote compression (CLM-03), the tempo gap (CLM-02), the Cooper attribution (CLM-26), the Swoopes

@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
-  "subject": "Machine-Gun-Kelly",
-  "review_dir": "docs/content-analysis/perspective-reviews/Machine-Gun-Kelly/2026-08-16_040000",
-  "verification_file": "docs/content-analysis/perspective-reviews/Machine-Gun-Kelly/2026-08-16_040000/verification-initial.md",
-  "verification_status": "pass",
-  "reviewed_snapshot_sha256": "ae590e7788fddd76fcbe979a1b1ce5fb86b6ef67a8825f11e3411593952fe03c",
-  "verified_content_sha256": "4b1e7dbae779a7ef10820806191cf72a7cbc717ec3a977760458cd18278a7485",
-  "verified_at": "2026-08-16T18:38:20.000Z"
+	"schema_version": 1,
+	"subject": "Machine-Gun-Kelly",
+	"review_dir": "docs/content-analysis/perspective-reviews/Machine-Gun-Kelly/2026-08-16_040000",
+	"verification_file": "docs/content-analysis/perspective-reviews/Machine-Gun-Kelly/2026-08-16_040000/verification-initial.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "ae590e7788fddd76fcbe979a1b1ce5fb86b6ef67a8825f11e3411593952fe03c",
+	"verified_content_sha256": "4b1e7dbae779a7ef10820806191cf72a7cbc717ec3a977760458cd18278a7485",
+	"verified_at": "2026-08-16T18:38:20.000Z"
 }

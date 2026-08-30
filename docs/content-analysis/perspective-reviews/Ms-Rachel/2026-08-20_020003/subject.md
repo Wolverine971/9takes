@@ -12,6 +12,7 @@ recommendation: hold_for_research
 blockers: 5
 concerns: 10
 reviewed_at: 2026-08-20T07:01:16Z
+path: docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/subject.md
 ---
 
 ## Bottom-line verdict
@@ -274,12 +275,12 @@ inside the same file.
   unsourced assertions about a living woman's marriage, her present-day support, and her interior
   capacity to ask for help. It is also the piece's own thesis eating its evidence. Forty lines
   earlier the draft reports that Aron Accurso spent seventeen years on Broadway, was associate
-  music director on *Aladdin*, left it to work on her project, and performs Herbie, whose entire
+  music director on _Aladdin_, left it to work on her project, and performs Herbie, whose entire
   narrative function the draft itself defines as "the one who answers Ms. Rachel." The article
   establishes a man who quit a career to stand on the far side of her screen and answer her, and
   then closes by telling the reader no such person exists.
 - **Evidence.** Internal: the draft's founding section. External: packet S-29 and S-19 verify
-  Aron's Broadway tenure, the *Aladdin* role, and the Herbie performance; S-18 records that
+  Aron's Broadway tenure, the _Aladdin_ role, and the Herbie performance; S-18 records that
   Susannah is named for Ms. Rachel's mother. Packet §D-08 records that no first-hand testimony about
   what she is like to work with exists at all, which means no source could support a claim about
   who does or does not hold things open for her.
@@ -363,7 +364,7 @@ inside the same file.
   Declining to name a target or a campaign is also the standard advice for not amplifying a
   harassment pile-on, and no source establishes that Hoffman experienced it as abandonment. The
   draft also omits that reporting found the premise false: no pronoun lesson ever appeared on
-  *Songs for Littles*, so the piece reports an accusation against her show without reporting that it
+  _Songs for Littles_, so the piece reports an accusation against her show without reporting that it
   was unfounded.
 - **Evidence.** Packet S-04 (she did not publicly comment), S-20 and §D-09 (the pronoun-lesson
   premise was false; the #cancelmsrachel push failed to trend), §D-08 (no cast testimony about her
@@ -546,7 +547,7 @@ inside the same file.
 **SUBJECT-Q1. Does any recorded Ms. Rachel segment actually contain a pause of roughly four
 seconds?** A measured answer either rescues the piece's title, description, signature H2 and close
 as written, or forces all four to be rebuilt on the SLP literature's 3 to 5 second professional
-range. Best source: direct frame-accurate timing of a stated sample of *Songs for Littles* or the
+range. Best source: direct frame-accurate timing of a stated sample of _Songs for Littles_ or the
 Netflix episodes, method disclosed in the piece; failing that, an on-record speech-language
 pathologist who has analyzed her footage.
 
@@ -600,15 +601,15 @@ Protect through revision, verbatim unless noted:
 
 Packet read in full before role-specific research, per protocol.
 
-| # | Source | Question it addressed | Decision it affected |
-| --- | --- | --- | --- |
-| 1 | WebSearch: her response to the Mister Rogers / saint comparison | SUBJ-Q1: has she publicly corrected how she is characterized? | Surfaced the July 31, 2025 Threads post. Directly produced SUBJECT-R1. |
-| 2 | WebSearch: whether she publicly names her son and how she handles her children's privacy | SUBJ-Q2: does the draft disclose a minor's name or diagnosis beyond her own disclosure? | **Cleared a potential blocker.** TODAY ("Ms. Rachel's inspiration are her kids, Thomas and Susannah") and People via AOL ("Ms. Rachel Says Son Thomas, 7...") confirm she and mainstream outlets name Thomas, his age, and the speech delay publicly. The draft's use of Thomas is within her own disclosure. No finding raised. |
-| 3 | WebFetch: threads.com/@msrachelforlittles post DMxmumMOeal | Verify the refusal verbatim and date it | Confirmed July 31, 2025 and the exact wording. Produced SUBJECT-R1 and, as a by-product, SUBJECT-C10 (the WaPo date, resolving packet §D-05). |
-| 4 | WebFetch: today.com TODAY exclusive on facing controversy | First-person statements on how she wants to be understood | **403 Forbidden.** No decision. |
-| 5 | WebFetch: ncronline.org "The unshakable faith of Ms. Rachel" | SUBJ: her own stated motive | **403 Forbidden.** No decision. |
-| 6 | WebSearch: NCR faith coverage, snippet extraction | Same question, after the 403 | Produced the Matthew 25 quotation and SUBJECT-C4, with an explicit caveat that the source must be pulled directly before use. |
-| 7 | Local: `grep` + `src/scss/blog.scss:630` | SUBJ-Q3: does `inner-thought` render as visible inference? | Confirmed it renders as an italic thought-bubble block with no inference label but visually distinct from quotations. Downgraded a candidate finding to the milder half of SUBJECT-C7. |
+| #   | Source                                                                                   | Question it addressed                                                                   | Decision it affected                                                                                                                                                                                                                                                                                                             |
+| --- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | WebSearch: her response to the Mister Rogers / saint comparison                          | SUBJ-Q1: has she publicly corrected how she is characterized?                           | Surfaced the July 31, 2025 Threads post. Directly produced SUBJECT-R1.                                                                                                                                                                                                                                                           |
+| 2   | WebSearch: whether she publicly names her son and how she handles her children's privacy | SUBJ-Q2: does the draft disclose a minor's name or diagnosis beyond her own disclosure? | **Cleared a potential blocker.** TODAY ("Ms. Rachel's inspiration are her kids, Thomas and Susannah") and People via AOL ("Ms. Rachel Says Son Thomas, 7...") confirm she and mainstream outlets name Thomas, his age, and the speech delay publicly. The draft's use of Thomas is within her own disclosure. No finding raised. |
+| 3   | WebFetch: threads.com/@msrachelforlittles post DMxmumMOeal                               | Verify the refusal verbatim and date it                                                 | Confirmed July 31, 2025 and the exact wording. Produced SUBJECT-R1 and, as a by-product, SUBJECT-C10 (the WaPo date, resolving packet §D-05).                                                                                                                                                                                    |
+| 4   | WebFetch: today.com TODAY exclusive on facing controversy                                | First-person statements on how she wants to be understood                               | **403 Forbidden.** No decision.                                                                                                                                                                                                                                                                                                  |
+| 5   | WebFetch: ncronline.org "The unshakable faith of Ms. Rachel"                             | SUBJ: her own stated motive                                                             | **403 Forbidden.** No decision.                                                                                                                                                                                                                                                                                                  |
+| 6   | WebSearch: NCR faith coverage, snippet extraction                                        | Same question, after the 403                                                            | Produced the Matthew 25 quotation and SUBJECT-C4, with an explicit caveat that the source must be pulled directly before use.                                                                                                                                                                                                    |
+| 7   | Local: `grep` + `src/scss/blog.scss:630`                                                 | SUBJ-Q3: does `inner-thought` render as visible inference?                              | Confirmed it renders as an italic thought-bubble block with no inference label but visually distinct from quotations. Downgraded a candidate finding to the milder half of SUBJECT-C7.                                                                                                                                           |
 
 Six external sources consulted, four productive. The count exceeds the standard ceiling of four by
 one because SUBJECT-R1 presented as a potential fairness blocker requiring first-party

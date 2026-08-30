@@ -1,3 +1,4 @@
+// scripts/lib/perspectiveReview.js
 import { createHash } from 'crypto';
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -38,8 +39,8 @@ export function sha256(value) {
  * does not create a false stale result. Whitespace remains significant so prose and
  * structural edits stale the review.
  * @param {string} markdown
-	* @returns {string}
-	*/
+ * @returns {string}
+ */
 export function getReaderVisiblePerspectiveBody(markdown) {
 	const parsed = matter(markdown);
 	/** @type {Record<string, unknown>} */

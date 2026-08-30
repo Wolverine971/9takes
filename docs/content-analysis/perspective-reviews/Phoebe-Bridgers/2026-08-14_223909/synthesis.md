@@ -51,7 +51,7 @@ trip harassment to Bridgers's catalogue or to her audience as a whole.
 **Source:** UNFAMILIAR-C1.
 
 - Identify Bridgers as a singer-songwriter.
-- Identify *Punisher* as her 2020 solo album.
+- Identify _Punisher_ as her 2020 solo album.
 - Identify boygenius as her trio and describe the 2023 album-and-tour cycle in plain language.
 
 **Acceptance test:** By the end of the third paragraph, a cold reader can identify the artist, album,
@@ -61,7 +61,7 @@ band, and significance of the 2026 return.
 
 **Source:** FAN-C1.
 
-- Add one or two sentences naming the 2017 debut *Stranger in the Alps* and the 2019 Better Oblivion
+- Add one or two sentences naming the 2017 debut _Stranger in the Alps_ and the 2019 Better Oblivion
   Community Center album with Conor Oberst.
 - Keep song narrators outside the biographical and typing evidence.
 
@@ -104,7 +104,7 @@ announced tour policy are grammatically distinct.
 ## P2 — optional opportunities
 
 - Revisit the phone-policy motive only if Bridgers gives a direct long-form explanation.
-- Check whether later *Lost Weekend* criticism converges on or rejects The Atlantic's distance claim.
+- Check whether later _Lost Weekend_ criticism converges on or rejects The Atlantic's distance claim.
 - Refresh the 2026 tour implementation and social-media/collaboration status in twelve months.
 - Seek direct evidence about felt deficiency, comparison, and concrete decision motives before
   raising type confidence or subtype certainty.

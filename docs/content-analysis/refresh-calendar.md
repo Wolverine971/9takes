@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/refresh-calendar.md -->
+
 # Content refresh calendar
 
 Dated refresh commitments created by the editorial pipeline. Append-only; add new entries under their due month. When a refresh is executed, mark the entry done with the execution date rather than deleting it.

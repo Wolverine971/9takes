@@ -100,7 +100,7 @@ That is the correct handling.
 
 **SUBJ-E3 — Responsibility without moral simplification.** The draft criticizes fan entitlement,
 credits the Community Justice Exchange and RAINN choices, and still allows WIRED's scarcity argument
-and *The Atlantic*'s artistic criticism to stand. It neither canonizes nor prosecutes its subject.
+and _The Atlantic_'s artistic criticism to stand. It neither canonizes nor prosecutes its subject.
 
 ## What surprised me
 
@@ -114,7 +114,7 @@ labor before it gives her vulnerability. That ordering resists the familiar narr
 is the only engine of her career.
 
 **SUBJ-U3 — Jarring:** the faux-interior hotel-room beat is visually framed as a thought, but every
-part of it is closely paraphrased from the immediately cited *Articulate* account. I do not flag it as
+part of it is closely paraphrased from the immediately cited _Articulate_ account. I do not flag it as
 a concern because the source boundary is visible; later revisions should not make it more private,
 specific, or first-person than it currently is.
 
@@ -142,7 +142,7 @@ Neither issue invalidates the thesis. Both have small, local repairs with no nee
   harass her and that her songs produced their entitlement. The later empathy turn places blame
   correctly, but the causal sentence arrives first and is more concrete.
 - **Evidence / reasoning:** evidence packet CLM-06 explicitly classifies the causal link between
-  pandemic accessibility and parasocial ownership as editorial. The 2026 *New Yorker* report supports
+  pandemic accessibility and parasocial ownership as editorial. The 2026 _New Yorker_ report supports
   the airport incident; it does not establish that Bridgers's catalogue caused the behavior. Public
   intimacy, celebrity scale, platform design, gossip markets, and individual misconduct remain
   separate possible causes.
@@ -181,7 +181,7 @@ rollout?**
 - **What answer would change:** a first-person statement that phone restrictions were primarily about
   unreleased-song control or theatrical surprise would narrow the article's privacy thesis. A statement
   directly connecting the policy to funeral-trip intrusion or perceived ownership would strengthen it.
-- **Best source to pursue:** a complete, recent long-form interview about *Lost Weekend* and The Lost
+- **Best source to pursue:** a complete, recent long-form interview about _Lost Weekend_ and The Lost
   Tour, preferably audio/video or an authorized transcript rather than marketing commentary.
 
 **SUBJ-Q2 — What distinction does she make between a stage persona and an inauthentic self?**
@@ -190,7 +190,7 @@ rollout?**
   playful roles with no identity threat, the proposed fear should be softened. If she consistently
   describes externally fixed personas as flattening, the Type 4 discriminator strengthens.
 - **Best source to pursue:** a first-person retrospective focused on performance, image, and the change
-  from the *Punisher* era through 2026.
+  from the _Punisher_ era through 2026.
 
 ## Preserve list
 
@@ -209,19 +209,19 @@ rollout?**
 
 ## Research log
 
-1. **Frozen snapshot** (`draft-reviewed.md`), SHA verified before review. *Affected:* all findings; no
+1. **Frozen snapshot** (`draft-reviewed.md`), SHA verified before review. _Affected:_ all findings; no
    live-draft text was consulted.
 2. **Shared evidence packet** (`evidence-packet.md`), read in full before role-specific evaluation.
-   *Affected:* CLM-06 set the boundary for SUBJ-C1; CLM-01 and the disputes section set the certainty
+   _Affected:_ CLM-06 set the boundary for SUBJ-C1; CLM-01 and the disputes section set the certainty
    boundary for SUBJ-C2; the packet's exclusion list prevented trauma and private-life material from
    being treated as missing evidence.
-3. **Packet summaries of Bridgers's first-person accounts** in *The FADER* (2018), *The New Yorker*
-   (2020), *Coup de Main* (2020), and *Articulate* (2022). *Question:* does her own language support the
-   draft's recognizability and public/private distinction? *Affected:* SUBJ-H1, SUBJ-H3, SUBJ-M2, and
+3. **Packet summaries of Bridgers's first-person accounts** in _The FADER_ (2018), _The New Yorker_
+   (2020), _Coup de Main_ (2020), and _Articulate_ (2022). _Question:_ does her own language support the
+   draft's recognizability and public/private distinction? _Affected:_ SUBJ-H1, SUBJ-H3, SUBJ-M2, and
    SUBJ-Q2. The packet answered the question, so no additional source was used to multiply the same
    evidence.
-4. **Packet summaries of the 2026 *New Yorker* report and WIRED analysis.** *Question:* does the record
-   establish Bridgers's motive for the phone-free return? *Affected:* SUBJ-H2, SUBJ-C1, and SUBJ-Q1.
+4. **Packet summaries of the 2026 _New Yorker_ report and WIRED analysis.** _Question:_ does the record
+   establish Bridgers's motive for the phone-free return? _Affected:_ SUBJ-H2, SUBJ-C1, and SUBJ-Q1.
    It establishes the policy, encounter, and marketing alternative, but not one dominant private
    motive.
 

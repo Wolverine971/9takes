@@ -1,4 +1,5 @@
 <!-- reddit/01-enneagram-organic-discussion.md -->
+
 # Organic r/Enneagram discussion
 
 - Subreddit: [r/Enneagram](https://www.reddit.com/r/Enneagram/)

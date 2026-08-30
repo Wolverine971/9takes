@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/grades/Keira-Knightley.review.md -->
+
 # Grade feedback: Keira Knightley
 
 Grade: B+ (8.6), rubric v2 — supervised final-text regrade stable at 8.6 (delta 0.0)

@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 3
 concerns: 7
 reviewed_at: 2026-08-05T07:01:57Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/fan.md
 ---
 
 <!-- docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/fan.md -->
@@ -77,7 +78,7 @@ never heard of.
 > year screaming at Swoopes never engaged the part that was."
 
 Clark-adjacent content does not do this. It is the sentence that made me trust the piece enough
-to keep reading past the Enneagram framing, and specifying *what* she was right about — the
+to keep reading past the Enneagram framing, and specifying _what_ she was right about — the
 adjustment timeline, not the ability — is the part that costs the writer something.
 
 **The Olympic frame, mechanically.** Setting an Eight ("makes somebody pay") against a Three
@@ -100,7 +101,7 @@ throws away a gift: its own coach source drawing a distinction the writer did no
 **The heading that does not answer itself.** "Why Caitlin Clark never won a national
 championship" tells me the losses and never tells me why. I know why. South Carolina's bench
 outscored Iowa's 37-0 in that game — four Gamecocks scored off the bench, more than the number
-of shots Iowa's reserves attempted. That fact is *the article's own thesis in box-score form*:
+of shots Iowa's reserves attempted. That fact is _the article's own thesis in box-score form_:
 the standard survives only if she personally carries it, and in the biggest game of her life she
 had literally nobody to hand it to. The section leaves its best evidence on the floor.
 
@@ -113,7 +114,7 @@ same gesture, two receptions — and it is missing.
 
 **The 2025 section knows only the inside.** The hotel room lands. But a fan reading it is holding
 a fact the piece never acknowledges: the Fever won their first playoff series in ten years
-without her. That complicates the grief in a way that is *interesting* — the thing she believes
+without her. That complicates the grief in a way that is _interesting_ — the thing she believes
 she is for turned out to be survivable by the team — and the draft has no view on it.
 
 **Coach register.** "Neither of them means it as a compliment" is wrong about how coaches talk.
@@ -135,7 +136,7 @@ good — look like it needs help it does not need.
 - Swoopes, Carter, the Reese discourse, the Olympic snub, the two title games. All present.
   Coverage is not the problem.
 - The scoring-record sequence including Woodard. **Missing** (FAN-C1).
-- Some accounting for *why* the Iowa teams lost. **Missing** (FAN-C2).
+- Some accounting for _why_ the Iowa teams lost. **Missing** (FAN-C2).
 - Clark's own position on the physicality season — she said in December 2024 that she did not
   think she was being targeted. **Missing**, and it is free thesis support: she declines the
   victim frame the same way she declines the winning frame (FAN-I3).
@@ -174,8 +175,8 @@ contradicts its own superlative.
   concrete scene, and it is referenced two more times (H2 1 diagnosis, Rabbit Hole wing). For a
   fan, vivid specificity is the signal that the writer did primary work. Discovering the
   specifics are unsourced inverts that signal across the whole piece.
-- **Evidence:** Packet CLM-05 and S-22. The only located account is Jan Jensen on *Talkin' Hawks
-  with The VandeBergs*: Bluder "kicked her out of practice and gave her a technical and those
+- **Evidence:** Packet CLM-05 and S-22. The only located account is Jan Jensen on _Talkin' Hawks
+  with The VandeBergs_: Bluder "kicked her out of practice and gave her a technical and those
   things" — plural and habitual. Bluder separately describes practice technicals as a recurring
   management tool (S-17, S-21), and Clark's own only comment is "That hasn't happened in a
   while," which also implies recurrence. No source mentions a scout team, a blue squad, reserves
@@ -185,7 +186,7 @@ contradicts its own superlative.
   called technicals on Clark in practice as a standing habit — from the bench herself when the
   hired officials would not — and on at least one occasion threw her out. Attribute the account
   to Jensen. Delete the blue squad, the walk-ons, the mid-drill whistle, and the return.
-- **Expected benefit:** The recurring version is *better evidence* for the thesis than the single
+- **Expected benefit:** The recurring version is _better evidence_ for the thesis than the single
   scene. A coach who has to build a standing mechanism for one player's practice anger says more
   about how the anger works than one bad afternoon does. The article loses a scene and gains an
   argument.
@@ -205,13 +206,13 @@ contradicts its own superlative.
   otherwise, reads as the evidence being trimmed to fit. This is the draft's own named tiebreaker
   between Type 1 and Type 3, so the trim lands on the load-bearing beam.
 - **Evidence:** Packet CLM-13 and S-08. In the same TIME interview Clark also maintained she was
-  good enough to have made the roster. The record is concession *plus* self-assertion. The packet
+  good enough to have made the roster. The record is concession _plus_ self-assertion. The packet
   additionally notes the same doubled shape at the six — "We'll have to see," with a smile,
   immediately after the humility beat (S-02).
 - **Minimum viable repair:** Add the second half and let the typing absorb it. One sentence:
   she conceded the roster math and, in the same interview, said she was good enough anyway. Then
   make the argument the doubling actually supports — a One agrees with a correctly-reasoned
-  verdict without conceding the underlying standard, which is a *stronger* discriminator against
+  verdict without conceding the underlying standard, which is a _stronger_ discriminator against
   Type 3 than pure self-indictment, because a Three would take the flattering half only.
 - **Expected benefit:** Removes the strongest "you cherry-picked" objection a fan can raise, and
   upgrades the tiebreaker from selective to genuinely discriminating.
@@ -232,13 +233,13 @@ contradicts its own superlative.
   Famer's diction inside quotation marks is not a typo-class error — it is the article doing to
   Swoopes a small version of what the section is criticizing.
 - **Evidence:** Packet CLM-15, S-27. No located source uses "hella good."
-- **Minimum viable repair:** Restore "helluva numbers," or the exact rendering from the *Gil's
-  Arena* episode audio if it can be heard.
+- **Minimum viable repair:** Restore "helluva numbers," or the exact rendering from the _Gil's
+  Arena_ episode audio if it can be heard.
 - **Expected benefit:** Removes a self-inflicted credibility wound in the article's most
   politically load-bearing paragraph, at a cost of one word.
 - **Confidence:** High.
 - **Acceptance test:** The block quote matches at least two independent indexed renderings of the
-  September 2024 *Gil's Arena* appearance.
+  September 2024 _Gil's Arena_ appearance.
 
 ### FAN-C1 — CONCERN — The scoring record is framed the way outsiders frame it, and skips the source the article already trusts
 
@@ -304,7 +305,7 @@ contradicts its own superlative.
   alternative-type test.
 - **Evidence:** Packet CLM-04 marks it an unfalsifiable type assertion presented as evidence.
   Nothing establishes it.
-- **Minimum viable repair:** Make the claim about *cost* rather than about category membership.
+- **Minimum viable repair:** Make the claim about _cost_ rather than about category membership.
   The point that survives is that she spent room-management capital on a closed practice where no
   audience existed, which is the opposite of image maintenance. Say that.
 - **Expected benefit:** Same argumentative work, no claim a reader can falsify from their own
@@ -337,10 +338,10 @@ contradicts its own superlative.
 - **Reader effect:** The closing is the article's best structural move and it turns on a number
   the article has already hedged. A fan re-reading catches it, and precision in the last line is
   the whole effect.
-- **Evidence:** Packet CLM-31. No located source pins the age; the *Full Court Press* home video
+- **Evidence:** Packet CLM-31. No located source pins the age; the _Full Court Press_ home video
   establishes the event and the motive but not the number.
 - **Minimum viable repair:** Since the age is unsourced, drop it from both places and keep the
-  motive, which *is* sourced. "She was small enough to need help onto it" or simply "the morning
+  motive, which _is_ sourced. "She was small enough to need help onto it" or simply "the morning
   her brother learned" preserves the bookend without asserting an unverifiable number twice.
 - **Expected benefit:** Removes an internal contradiction and an unsourced fact in one edit.
 - **Confidence:** High.
@@ -396,7 +397,7 @@ contradicts its own superlative.
   criticize her for it.
 - **Expected benefit:** Turns an assertion into a demonstration — same gesture, two receptions —
   and it is the single most shareable fact available to this section. It also does real work for
-  the article's fairness, because it shows Clark's own account of the rivalry being *correct*
+  the article's fairness, because it shows Clark's own account of the rivalry being _correct_
   rather than merely convenient.
 - **Cost:** ~30 words.
 - **Confidence:** High on the facts. Medium on placement — it may belong before the TIME quote
@@ -446,31 +447,31 @@ contradicts its own superlative.
 **FAN-Q1 — Was the six actually delivered fast?**
 The cold open's hinge is tempo: "None of it explains how fast the number came out" and "The speed
 is the interesting part." No text source characterizes her delivery.
-*What would change:* if the answer was deliberate, or preceded by "that's a great question" and a
+_What would change:_ if the answer was deliberate, or preceded by "that's a great question" and a
 pause — which the packet's own transcript rendering suggests it was — the opening's central claim
 is wrong and the first four paragraphs need rebuilding on the content of the answer rather than
-its speed. *Best source:* the ESPN video itself (S-01, `arXekQ8W4_c`). Ten seconds of watching
+its speed. _Best source:_ the ESPN video itself (S-01, `arXekQ8W4_c`). Ten seconds of watching
 settles it. Note the transcript in the packet renders her reply as "That's a great question. Um,
 honestly, I think I'm at a six, probably," which is not obviously fast.
 
 **FAN-Q2 — Does the VandeBergs episode contain the scout-team detail?**
-*What would change:* FAN-R1 drops from blocker to a sourcing-and-attribution fix. If it does not,
-the scene must be rebuilt on the recurring-technicals version. *Best source:* the *Talkin' Hawks
-with The VandeBergs* Jensen episode audio, ~July 2025. Both written sources for it (S-21, S-22)
+_What would change:_ FAN-R1 drops from blocker to a sourcing-and-attribution fix. If it does not,
+the scene must be rebuilt on the recurring-technicals version. _Best source:_ the _Talkin' Hawks
+with The VandeBergs_ Jensen episode audio, ~July 2025. Both written sources for it (S-21, S-22)
 refused direct fetch, so the audio is the only path.
 
 **FAN-Q3 — Is she second or third in scoring?**
-*What would change:* a factual line in the closing paragraph, and it is the kind of number a fan
-checks on their phone while reading. *Best source:* Basketball-Reference 2026 WNBA leaders
+_What would change:_ a factual line in the closing paragraph, and it is the kind of number a fan
+checks on their phone while reading. _Best source:_ Basketball-Reference 2026 WNBA leaders
 (S-49), checked the morning of publication. The packet flags the assists rank as confirmed and
 the scoring rank as not.
 
 **FAN-Q4 — Did Cynthia Cooper say "high level of basketball IQ"?**
-*What would change:* the turnover argument — the article's best idea — currently recruits Cooper
-as outside corroboration that Clark's *decision quality* is elite. The packet could not confirm
+_What would change:_ the turnover argument — the article's best idea — currently recruits Cooper
+as outside corroboration that Clark's _decision quality_ is elite. The packet could not confirm
 that sentence and notes Cooper's located remarks are about scoring craft and playmaking breadth.
 If the sentence is not there, the corroboration should be dropped rather than reworded; the
-paragraph is strong enough without it. *Best source:* the *Women's Sports Now* video (S-28,
+paragraph is strong enough without it. _Best source:_ the _Women's Sports Now_ video (S-28,
 `BIY706euCLo`).
 
 ## Preserve list
@@ -495,11 +496,11 @@ paragraph is strong enough without it. *Best source:* the *Women's Sports Now* v
 
 ## Research log
 
-| # | Unresolved question | Why the packet was insufficient | Source consulted | Decision affected |
-| --- | --- | --- | --- | --- |
-| 1 | Did Clark herself use the "you can't see me" gesture before Reese returned it, and did she defend Reese publicly? | Packet covers Clark calling the rivalry "fabricated" (S-08) but records no evidence bearing on whether that characterization is *correct*. | Web search, Aug 2026; SI (Apr 2 2023), CNN (Apr 3 2023), CBS News Minnesota ("Iowa's Clark: Don't criticize LSU's Reese for gesture") | Confirmed FAN-I2. Clark used the Cena gesture against Louisville in the Elite Eight; Reese returned it in the title game; Clark declined to criticize her. This is expectation-relevant *and* fact-relevant, so I am relying on the reporting, not on fan consensus. |
-| 2 | Why did Iowa lose the 2024 final — is there a causal fact the section could carry? | Packet gives the score, the Nielsen number, and South Carolina's 38-0 record, but no account of the game. | Web search, Aug 2026; CBS Sports ("Gamecocks' freshmen, bench depth step up"), ESPN game analysis, NCAA.com | Confirmed FAN-I1. Bench 37-0; four bench scorers vs three Iowa reserve shot attempts; Tessa Johnson 19. Chose this over a stylistic answer because it doubles as thesis support. |
-| 3 | What is the scoring-record sequence, and is the Woodard mark fan-canonical enough to require naming? | Packet flags the Maravich framing as disputed (CLM-09) and names Moore and Woodard, but does not give dates or establish how the moment was covered at the time. | Web search, Aug 2026; Washington Post ("breaks 'the real' scoring record"), Hawk Central ("Lisa Bluder: Caitlin Clark passed 'real record'"), CNN, ABC News (all Feb 28–29 2024) | Confirmed FAN-C1 and sharpened the repair. Plum's NCAA women's record earlier in February, Woodard's 3,649 on Feb 28 (Clark finished at 3,650), Maravich on Mar 3. The decisive find was Bluder — the article's own most-quoted source — calling Woodard's "the real record," which turns a framing quibble into a missed gift. |
+| #   | Unresolved question                                                                                               | Why the packet was insufficient                                                                                                                                  | Source consulted                                                                                                                                                                 | Decision affected                                                                                                                                                                                                                                                                                                               |
+| --- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Did Clark herself use the "you can't see me" gesture before Reese returned it, and did she defend Reese publicly? | Packet covers Clark calling the rivalry "fabricated" (S-08) but records no evidence bearing on whether that characterization is _correct_.                       | Web search, Aug 2026; SI (Apr 2 2023), CNN (Apr 3 2023), CBS News Minnesota ("Iowa's Clark: Don't criticize LSU's Reese for gesture")                                            | Confirmed FAN-I2. Clark used the Cena gesture against Louisville in the Elite Eight; Reese returned it in the title game; Clark declined to criticize her. This is expectation-relevant _and_ fact-relevant, so I am relying on the reporting, not on fan consensus.                                                            |
+| 2   | Why did Iowa lose the 2024 final — is there a causal fact the section could carry?                                | Packet gives the score, the Nielsen number, and South Carolina's 38-0 record, but no account of the game.                                                        | Web search, Aug 2026; CBS Sports ("Gamecocks' freshmen, bench depth step up"), ESPN game analysis, NCAA.com                                                                      | Confirmed FAN-I1. Bench 37-0; four bench scorers vs three Iowa reserve shot attempts; Tessa Johnson 19. Chose this over a stylistic answer because it doubles as thesis support.                                                                                                                                                |
+| 3   | What is the scoring-record sequence, and is the Woodard mark fan-canonical enough to require naming?              | Packet flags the Maravich framing as disputed (CLM-09) and names Moore and Woodard, but does not give dates or establish how the moment was covered at the time. | Web search, Aug 2026; Washington Post ("breaks 'the real' scoring record"), Hawk Central ("Lisa Bluder: Caitlin Clark passed 'real record'"), CNN, ABC News (all Feb 28–29 2024) | Confirmed FAN-C1 and sharpened the repair. Plum's NCAA women's record earlier in February, Woodard's 3,649 on Feb 28 (Clark finished at 3,650), Maravich on Mar 3. The decisive find was Bluder — the article's own most-quoted source — calling Woodard's "the real record," which turns a framing quibble into a missed gift. |
 
 No fourth search was needed. Community discussion was treated as evidence of what this audience
 expects, never as proof of fact; every factual claim above rests on the reporting cited.
@@ -518,7 +519,7 @@ expects, never as proof of fact; every factual claim above rests on the reportin
   finding above cites the passage and the evidence rather than the note. I did not read any other
   perspective review, and none existed in the directory when I started.
 - **I did not watch or listen to any primary video or audio.** The ESPN sit-downs, the Letterman
-  episode, the *Gil's Arena* appearance, the VandeBergs podcast, and the Cooper interview are all
+  episode, the _Gil's Arena_ appearance, the VandeBergs podcast, and the Cooper interview are all
   unheard by me, which is why FAN-Q1, FAN-Q2, and FAN-Q4 are questions rather than findings. My
   three blockers all rest on text sourcing, not on tape.
 - **Live statistics.** I did not re-check the August 2026 numbers in the closing section; the

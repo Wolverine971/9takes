@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 3
 concerns: 5
 reviewed_at: 2026-08-14T23:42:50Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/fan.md
 ---
 
 ## Bottom-line verdict
@@ -55,7 +56,7 @@ So: high value, strained trust. The thesis survives all three corrections — ar
 - **A line about the laugh**, or the bits, or literally anything about why people watch him for six hours.
 - **Which channel is which**, given that the Deo gift is a load-bearing anecdote.
 - **Some acknowledgment of what AMP actually does.** The article establishes AMP's membership rule in detail and never once describes the content. A reader finishes knowing the crew is sealed at six without knowing what the six do together.
-- **The Sneaker Shopping qualifier.** "Seven years of fame without a single sit-down interview" appears twice and carries anti-Type-3 weight, but Speedy names a prior podcast appearance and a Complex *Sneaker Shopping* episode in the same breath. Fans have seen the Sneaker Shopping one.
+- **The Sneaker Shopping qualifier.** "Seven years of fame without a single sit-down interview" appears twice and carries anti-Type-3 weight, but Speedy names a prior podcast appearance and a Complex _Sneaker Shopping_ episode in the same breath. Fans have seen the Sneaker Shopping one.
 
 ## What surprised me
 
@@ -144,7 +145,7 @@ So: high value, strained trust. The thesis survives all three corrections — ar
 **FAN-C5 — "Not a single sit-down interview" is repeated without the qualifier its own source supplies.**
 
 - **Passage:** Diagnosis section: "seven years of fame without a single sit-down interview"; stress section source-card, which quotes Speedy's version; FAQ 1, which repeats it as a type proof.
-- **Reader effect:** Fans have seen his Complex *Sneaker Shopping* episode. Repeating the absolute three times, and using it as anti-Type-3 evidence, invites the one correction that undermines an argument the piece needs.
+- **Reader effect:** Fans have seen his Complex _Sneaker Shopping_ episode. Repeating the absolute three times, and using it as anti-Type-3 evidence, invites the one correction that undermines an argument the piece needs.
 - **Evidence:** In the same passage the draft quotes, Speedy names prior appearances: "you've done like maybe a podcast appearance here, you've done sneaker shopping on Complex, but that's it" [S1]. Packet CLM-08 marks the claim sound only if "sit-down interview" is read strictly.
 - **Minimum viable repair:** Carry the qualifier once, at the source card where Speedy is already speaking — the strict claim survives and gets stronger for admitting the exceptions.
 - **Expected benefit:** Pre-empts the correction and makes the anti-Type-3 plank harder to knock over.
@@ -194,20 +195,24 @@ These are additive — things that would make the piece better for an informed f
 ## Follow-on questions
 
 **FAN-Q1 — Did Duke hold a faculty role at the 2025 inaugural Streamer University session, and did he hold it under the title "Professor"?**
-- *What the answer changes:* Whether the syllabus section's arc is student-to-teacher (as written, and false on current evidence) or a man accepting the same title twice — which is the better paragraph and the one the record supports.
-- *Best source:* His own uploads, 2025-05-23 "Being A Professor At Streamer University" and 2025-05-26 "Part 2" (youtube.com/watch?v=2BbLkW5piSc, ybktw-KV_s0), read against the Class-of-2025 roster [S14]. Rolling Stone's "acceptance into last year's inaugural class" [S13] should be treated as preview copy, not as a competing primary claim.
+
+- _What the answer changes:_ Whether the syllabus section's arc is student-to-teacher (as written, and false on current evidence) or a man accepting the same title twice — which is the better paragraph and the one the record supports.
+- _Best source:_ His own uploads, 2025-05-23 "Being A Professor At Streamer University" and 2025-05-26 "Part 2" (youtube.com/watch?v=2BbLkW5piSc, ybktw-KV_s0), read against the Class-of-2025 roster [S14]. Rolling Stone's "acceptance into last year's inaugural class" [S13] should be treated as preview copy, not as a competing primary claim.
 
 **FAN-Q2 — On the November 11, 2025 chain episode, what did Duke actually say and do, in his own footage?**
-- *What the answer changes:* Whether the 8w9 wing survives as written, needs rebuilding around a slow-fuse-then-final model, or points toward a more counterphobic Eight. It also determines whether the episode can be narrated in the body or only used to de-absolutise the wing claim.
-- *Best source:* The AMP house VOD or Duke's own upload from that date, plus the Sportskeeda "RaKai vs Duke Dennis drama explored" explainer for the timeline. Clip accounts and fan comments establish how the fandom read it, not what happened.
+
+- _What the answer changes:_ Whether the 8w9 wing survives as written, needs rebuilding around a slow-fuse-then-final model, or points toward a more counterphobic Eight. It also determines whether the episode can be narrated in the body or only used to de-absolutise the wing claim.
+- _Best source:_ The AMP house VOD or Duke's own upload from that date, plus the Sportskeeda "RaKai vs Duke Dennis drama explored" explainer for the timeline. Clip accounts and fan comments establish how the fandom read it, not what happened.
 
 **FAN-Q3 — What is the actual geography of the 2026 uploads at publish time?**
-- *What the answer changes:* Whether the present-tense freshness claim can stay attached to 2026 or must move to the 2024–2025 era.
-- *Best source:* `yt-dlp` per-video dates on `UCO_RC-EuZVTkxm5e8ek1zvA`, re-pulled at publish, not the MSN world-tour syndication [S27].
+
+- _What the answer changes:_ Whether the present-tense freshness claim can stay attached to 2026 or must move to the 2024–2025 era.
+- _Best source:_ `yt-dlp` per-video dates on `UCO_RC-EuZVTkxm5e8ek1zvA`, re-pulled at publish, not the MSN world-tour syndication [S27].
 
 **FAN-Q4 — Which channel currently carries the "live channel" reject uploads he describes?**
-- *What the answer changes:* Whether the demoted-videos anecdote — a load-bearing anti-Type-3 plank — can be stated with a channel name, which would make it checkable instead of anecdotal.
-- *Best source:* Channel About pages and recent upload patterns across both channels [S10]; the 2024 interview only says "my live channel."
+
+- _What the answer changes:_ Whether the demoted-videos anecdote — a load-bearing anti-Type-3 plank — can be stated with a channel name, which would make it checkable instead of anecdotal.
+- _Best source:_ Channel About pages and recent upload patterns across both channels [S10]; the 2024 interview only says "my live channel."
 
 ## Preserve list
 
@@ -229,9 +234,9 @@ Ranked. Each of these must survive revision byte-identical or near-identical.
 Packet read in full before any role-specific search. Four additional sources consulted; three searches and one fetch.
 
 1. **Packet, reused (no search needed):** the Streamer University 2025 role conflict [S10][S13][S14][S19], the San Antonio arrest and civil suit [S15][S16][S17], the aura-farming direct quote [S24], the 2026 upload geography [S10][S27], the two-channel structure [S10], the corpus count drift [S23], the Sneaker Shopping qualifier [S1], and the unused cheated-on detail [S2]. These answered FAN-C1, FAN-C2, FAN-C4, FAN-C5, FAN-I3 and FAN-I4 outright and supplied half of FAN-R2 and FAN-R3.
-2. **Unresolved question 1:** *Was Duke a professor or a student at the 2025 inaugural session?* The packet resolves it, but it is my highest-severity finding and rests on video titles, so I verified independently. WebSearch, `Duke Dennis "Being A Professor At Streamer University" 2025 inaugural` — returned both first-party uploads (watch?v=2BbLkW5piSc and ybktw-KV_s0) plus the 2026 "Back As A Professor" upload and the Rolling Stone preview containing the competing "acceptance into last year's inaugural class" phrasing. **Decision affected:** promoted FAN-R1 to blocker with high confidence, and characterised the Rolling Stone line as preview copy rather than a live dispute.
-3. **Unresolved question 2:** *What is Duke's recognizable register to people who watch him, as opposed to people who read about him?* The packet covers his quotes exhaustively but says nothing about fan-facing persona. WebSearch on his stream persona returned fan-discussion surfaces organised around the laugh, funny reactions, mukbangs and an "is annoying" discovery topic — audience-expectation evidence only, which is how I have used it. **Decision affected:** FAN-C3 and FAN-M1, both framed as recognizability rather than fact. The same search surfaced an unexpected lead: a November 2025 Duke/Tylil fight.
-4. **Unresolved question 3, unplanned:** *Does a documented escalation exist that contradicts the draft's "slow to escalate, never rants" wing argument?* WebFetch of the Yahoo report (fans-react-streamer-duke-dennis-043315298) established the setting, the chain, Tylil's demand, the physical pushing and pulling, and the fandom's staged-versus-real split. Because this became load-bearing, I confirmed it against a second pass: WebSearch `Duke Dennis RaKai chain snatched Tylil November 2025 stream` returned Sportskeeda's "RaKai vs Duke Dennis drama explored," Reality Tea (2025-11-12), a second Yahoo item, and TheCityCeleb, converging on 2025-11-11, the AMP house, the Kai-gifted Clover Boys chain reported around $100K, and no punches thrown. **Decision affected:** FAN-R3 promoted to blocker; FAN-I1 written; my overall trust rating moved from intact to strained, because this plus the professorship plus the legal count form a pattern rather than three isolated slips.
+2. **Unresolved question 1:** _Was Duke a professor or a student at the 2025 inaugural session?_ The packet resolves it, but it is my highest-severity finding and rests on video titles, so I verified independently. WebSearch, `Duke Dennis "Being A Professor At Streamer University" 2025 inaugural` — returned both first-party uploads (watch?v=2BbLkW5piSc and ybktw-KV_s0) plus the 2026 "Back As A Professor" upload and the Rolling Stone preview containing the competing "acceptance into last year's inaugural class" phrasing. **Decision affected:** promoted FAN-R1 to blocker with high confidence, and characterised the Rolling Stone line as preview copy rather than a live dispute.
+3. **Unresolved question 2:** _What is Duke's recognizable register to people who watch him, as opposed to people who read about him?_ The packet covers his quotes exhaustively but says nothing about fan-facing persona. WebSearch on his stream persona returned fan-discussion surfaces organised around the laugh, funny reactions, mukbangs and an "is annoying" discovery topic — audience-expectation evidence only, which is how I have used it. **Decision affected:** FAN-C3 and FAN-M1, both framed as recognizability rather than fact. The same search surfaced an unexpected lead: a November 2025 Duke/Tylil fight.
+4. **Unresolved question 3, unplanned:** _Does a documented escalation exist that contradicts the draft's "slow to escalate, never rants" wing argument?_ WebFetch of the Yahoo report (fans-react-streamer-duke-dennis-043315298) established the setting, the chain, Tylil's demand, the physical pushing and pulling, and the fandom's staged-versus-real split. Because this became load-bearing, I confirmed it against a second pass: WebSearch `Duke Dennis RaKai chain snatched Tylil November 2025 stream` returned Sportskeeda's "RaKai vs Duke Dennis drama explored," Reality Tea (2025-11-12), a second Yahoo item, and TheCityCeleb, converging on 2025-11-11, the AMP house, the Kai-gifted Clover Boys chain reported around $100K, and no punches thrown. **Decision affected:** FAN-R3 promoted to blocker; FAN-I1 written; my overall trust rating moved from intact to strained, because this plus the professorship plus the legal count form a pattern rather than three isolated slips.
 
 No source was used to prove a fact that only fan discussion supports. The "-1000 aura points" comment and the staged-versus-real dispute are cited as audience reaction only.
 

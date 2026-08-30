@@ -11,6 +11,7 @@ research_required: 0
 protected_hits: 7
 requires_revision: false
 synthesized_at: 2026-08-13T16:01:10Z
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_155727/synthesis.md
 ---
 
 ## Executive verdict

@@ -61,15 +61,15 @@ Keira Knightley is an English actor whose public career spans child acting, majo
 
 ## Source ledger
 
-| ID | Source | Date | Use | Limit |
-| --- | --- | --- | --- | --- |
-| S-01 | Frozen draft and `context.json` | 2026-08-17 | Exact claims under review and content hashes | Not independent evidence |
-| S-02 | The Hollywood Reporter, _Awards Chatter_ coverage | 2018 | Paparazzi, breakdown, PTSD, hypnotherapy | Podcast material partly accessed through coverage |
-| S-03 | BAFTA, _A Life in Pictures_ | 2018 | Joe Wright, rejection, early press | Retrospective memory |
-| S-04 | BBC, _The Graham Norton Show_ | 2014 | Autographs, singing, jokes, domesticity | Entertainment interview |
-| S-05 | CBC/court reporting | 2007 | _Daily Mail_ libel action and damages | Legal result does not prove every health claim |
-| S-06 | The Independent / Irish Times | 2016 | Carney criticism and apology | One director's account and later correction |
-| S-07 | Allure, Times, Time, HuffPost coverage | 2012–2014 | Retouching and body statements | Some quotations reproduced by secondary outlets |
-| S-08 | Variety | 2018, 2024 | Role selection and _Black Doves_ comments | Promotional context |
-| S-09 | Netflix Tudum | current 2026-08-17 | Season 2 production and cast status | No release date supplied |
-| S-10 | Deterministic repository audits | 2026-08-17 | Structure, attribution, originality, length | Editorial checks, not biographical proof |
+| ID   | Source                                            | Date               | Use                                          | Limit                                             |
+| ---- | ------------------------------------------------- | ------------------ | -------------------------------------------- | ------------------------------------------------- |
+| S-01 | Frozen draft and `context.json`                   | 2026-08-17         | Exact claims under review and content hashes | Not independent evidence                          |
+| S-02 | The Hollywood Reporter, _Awards Chatter_ coverage | 2018               | Paparazzi, breakdown, PTSD, hypnotherapy     | Podcast material partly accessed through coverage |
+| S-03 | BAFTA, _A Life in Pictures_                       | 2018               | Joe Wright, rejection, early press           | Retrospective memory                              |
+| S-04 | BBC, _The Graham Norton Show_                     | 2014               | Autographs, singing, jokes, domesticity      | Entertainment interview                           |
+| S-05 | CBC/court reporting                               | 2007               | _Daily Mail_ libel action and damages        | Legal result does not prove every health claim    |
+| S-06 | The Independent / Irish Times                     | 2016               | Carney criticism and apology                 | One director's account and later correction       |
+| S-07 | Allure, Times, Time, HuffPost coverage            | 2012–2014          | Retouching and body statements               | Some quotations reproduced by secondary outlets   |
+| S-08 | Variety                                           | 2018, 2024         | Role selection and _Black Doves_ comments    | Promotional context                               |
+| S-09 | Netflix Tudum                                     | current 2026-08-17 | Season 2 production and cast status          | No release date supplied                          |
+| S-10 | Deterministic repository audits                   | 2026-08-17         | Structure, attribution, originality, length  | Editorial checks, not biographical proof          |

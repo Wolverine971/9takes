@@ -58,7 +58,7 @@ citations:
   - 'https://www.britannica.com/biography/Caitlin-Clark'
 faqs:
   - question: "What is Caitlin Clark's personality type?"
-    answer: "Caitlin Clark is an Enneagram Type 1, the Reformer, specifically a 1w2. Both of her head coaches, Lisa Bluder at Iowa and Stephanie White in Indiana, independently describe her as a perfectionist. She rated herself a six out of ten in June 2026 after winning Rookie of the Year on 66 of 67 first-place ballots. Bluder called technical fouls on her in practice, and a sports psychologist at Iowa had to assign her smiling as homework."
+    answer: 'Caitlin Clark is an Enneagram Type 1, the Reformer, specifically a 1w2. Both of her head coaches, Lisa Bluder at Iowa and Stephanie White in Indiana, independently describe her as a perfectionist. She rated herself a six out of ten in June 2026 after winning Rookie of the Year on 66 of 67 first-place ballots. Bluder called technical fouls on her in practice, and a sports psychologist at Iowa had to assign her smiling as homework.'
     anchor: 'what-is-caitlin-clarks-personality-type'
   - question: 'Why did Caitlin Clark rate herself a six out of ten?'
     answer: "Because she grades herself on hours of work rather than outcomes, and the hours can never be complete. Asked by ESPN's Malika Andrews in June 2026 to rate herself against the best player she could be, Clark said 'Honestly, I think I'm at a six, probably,' then supplied the evidence unprompted: 60 games in the league, two playoff games, 24 years old. A ten would require the column of hours to be full, and tomorrow always has hours in it."
@@ -84,7 +84,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Caitlin-Clark.md
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/draft-reviewed.md
 ---
 
 <!-- TYPE-CHALLENGE MEMO (pre-write, working notes)
@@ -263,14 +263,14 @@ She runs the numbers on her best nights too. On July 17, 2026, Clark scored 45 p
 
 <div class="scroll-table">
 
-| The line               | What the record book saw                                   | Where she would go first                                                          |
-| ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 45 points              | Career high                                                | Fine. Next.                                                                        |
-| 17-of-19 from the line | 89 percent, most of it late                                | Two misses, and she can tell you which two.                                        |
-| 6 threes               | Got to 200 career threes in 74 games, faster than anyone in league history had | A byproduct. She was not counting.                              |
-| 10 assists             | First 40-point, 10-assist game the league has ever recorded | She would want to know how many of the ten were the right read versus a bailout.   |
-| 4 steals, 2 blocks     | A guard defending like that is unusual                      | Not the part she thinks about.                                                     |
-| **Final: 110-107**     | A win                                                       | **Three points. Against a 6-21 team. With 45 from her.**                           |
+| The line               | What the record book saw                                                       | Where she would go first                                                         |
+| ---------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| 45 points              | Career high                                                                    | Fine. Next.                                                                      |
+| 17-of-19 from the line | 89 percent, most of it late                                                    | Two misses, and she can tell you which two.                                      |
+| 6 threes               | Got to 200 career threes in 74 games, faster than anyone in league history had | A byproduct. She was not counting.                                               |
+| 10 assists             | First 40-point, 10-assist game the league has ever recorded                    | She would want to know how many of the ten were the right read versus a bailout. |
+| 4 steals, 2 blocks     | A guard defending like that is unusual                                         | Not the part she thinks about.                                                   |
+| **Final: 110-107**     | A win                                                                          | **Three points. Against a 6-21 team. With 45 from her.**                         |
 
 </div>
 
@@ -460,7 +460,6 @@ What's already working:
 - The bike bookend closes cleanly and passes the swap test — no other subject produces that ending.
 - The current-tense anchor checks out against reporting: Fever 19-11 through 30 games in early August 2026. Keep the specificity.
 -->
-
 
 <!-- SECOND PASS NOTES (2026-08-05)
 Addressed:

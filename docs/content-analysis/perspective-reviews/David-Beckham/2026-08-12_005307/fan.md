@@ -12,17 +12,18 @@ recommendation: revise
 blockers: 2
 concerns: 7
 reviewed_at: 2026-08-12T05:23:26Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_005307/fan.md
 ---
 
 ## Bottom-line verdict
 
-The writer understands the *man* well and the *footballer* thinly, and for this subject that gap is load-bearing.
+The writer understands the _man_ well and the _footballer_ thinly, and for this subject that gap is load-bearing.
 
-The best passages in this draft are real fan gifts. The Ferguson boot becoming the Alice-band photograph is a connection I have never seen made, and it renders the thesis as behaviour instead of asserting it. The Inter Miami clause — "a discount on a future he had not been given yet," sixteen years from clause to Messi — is the kind of thing I knew in pieces and had never assembled. The Qatar section is the informed version rather than the generic one, because it opens on the June 2002 *Attitude* cover and lets Lycett shred *that same cover*. Those earn the read.
+The best passages in this draft are real fan gifts. The Ferguson boot becoming the Alice-band photograph is a connection I have never seen made, and it renders the thesis as behaviour instead of asserting it. The Inter Miami clause — "a discount on a future he had not been given yet," sixteen years from clause to Messi — is the kind of thing I knew in pieces and had never assembled. The Qatar section is the informed version rather than the generic one, because it opens on the June 2002 _Attitude_ cover and lets Lycett shred _that same cover_. Those earn the read.
 
 But the article's central claim is that Beckham answers rejection with delivery, and it omits all three canonical football instances of exactly that: the 1999 treble eleven months after the effigy, with both Champions League final goals coming from his corners while he played centre midfield; the 2002 penalty against Argentina, the literal closing of the 1998 loop, scored past the team and in front of the man he was sent off for kicking; and the 2007 La Liga title won after Capello told him he would never play for Real Madrid again. The redemption timeline instead runs effigy → armband → Greece free kick. A fan reads that timeline and concludes the writer knows the story from documentaries and podcasts rather than from the football.
 
-Two passages break trust outright. The 2000 haircut is told twice in consecutive paragraphs, and the first telling — the staged on-pitch reveal that carries the section's image-management thesis — is contradicted by Beckham's own account and by the correct version sitting directly below it. And the 1998 section stages two scenes on *Stick to Football* (Keane watching footage, barely able to speak; Neville asking the question) that no available source supports, in a passage where the packet shows strong evidence the Keane words are Netflix documentary footage played as a clip.
+Two passages break trust outright. The 2000 haircut is told twice in consecutive paragraphs, and the first telling — the staged on-pitch reveal that carries the section's image-management thesis — is contradicted by Beckham's own account and by the correct version sitting directly below it. And the 1998 section stages two scenes on _Stick to Football_ (Keane watching footage, barely able to speak; Neville asking the question) that no available source supports, in a passage where the packet shows strong evidence the Keane words are Netflix documentary footage played as a clip.
 
 Revise. None of this requires abandoning the piece — the frame is good and the non-football research is genuinely careful. It requires a writer who has watched the football.
 
@@ -42,11 +43,11 @@ The MLS expansion option is known to fans as a piece of business trivia — the 
 
 **FAN-H3 — Qatar opened on the 2002 cover.** (Qatar H2, opening paragraph)
 
-Putting the *Attitude* cover and "It shouldn't matter what people are" *before* Human Rights Watch is what separates an informed critique from a template one. It makes the contradiction specifically his, and it converts Lycett's stunt from a random celebrity gesture into an argument with a chosen prop. A fan notices immediately that the writer knows why that cover mattered in 2002 English football.
+Putting the _Attitude_ cover and "It shouldn't matter what people are" _before_ Human Rights Watch is what separates an informed critique from a template one. It makes the contradiction specifically his, and it converts Lycett's stunt from a random celebrity gesture into an argument with a chosen prop. A fan notices immediately that the writer knows why that cover mattered in 2002 English football.
 
 **FAN-H4 — Keane as the witness to 1998.** (line 240, quote only)
 
-Using the least sentimental man in English football to establish the scale of the abuse is the correct instinct, and the quote does more than narration could. The *quote* is a hit; the staging around it is FAN-B2.
+Using the least sentimental man in English football to establish the scale of the abuse is the correct instinct, and the quote does more than narration could. The _quote_ is a hit; the staging around it is FAN-B2.
 
 **FAN-H5 — The insurance reframe.** (paragraph after the timeline)
 
@@ -80,7 +81,7 @@ This answers the eye-roll every fan has heard from non-fans about Beckham puttin
 
 ## What surprised me
 
-**Welcome.** The 2002 *Attitude* cover deployed as the setup for Qatar rather than as a trivia note. Most writers reach for the sarong; using the cover, and then having Lycett shred that specific object, is the version only someone who did the reading writes.
+**Welcome.** The 2002 _Attitude_ cover deployed as the setup for Qatar rather than as a trivia note. Most writers reach for the sarong; using the cover, and then having Lycett shred that specific object, is the version only someone who did the reading writes.
 
 **Welcome.** The refusal to convert the 2am cleaning into type evidence. A fan braced for the standard move — OCD as proof of perfectionism as proof of type — and the draft explicitly declines it twice. That earns credit for everything else the piece asserts.
 
@@ -105,7 +106,7 @@ This answers the eye-roll every fan has heard from non-fans about Beckham puttin
 - **Confidence.** High. Beckham's first-person account directly contradicts it and the draft contradicts itself.
 - **Acceptance test.** The brand section describes the 2000 Charity Shield exactly once; no sentence anywhere claims an on-pitch haircut reveal at that fixture; the word "mohawk" and the phrase "shaved his head in 2000" do not describe two different events.
 
-**FAN-B2 — Two scenes are staged on *Stick to Football* that no source supports.** (lines 240 and 244)
+**FAN-B2 — Two scenes are staged on _Stick to Football_ that no source supports.** (lines 240 and 244)
 
 - **Passage.** Line 240: "Years later, on Stick to Football, Roy Keane, a man with no taste for sentiment, watched the old footage of the abuse play back and could barely get a sentence out." Line 244: "When Neville asked him, decades on, how he functioned through it..."
 - **Reader effect.** Both sentences describe things the reader is invited to picture: Keane physically struggling to speak while footage rolls, and Neville personally putting the question to Beckham. A fan who has seen both the Netflix series and that podcast episode recognises the Keane line as the documentary's, and the illusion collapses — along with confidence in every other scene the draft narrates.
@@ -179,7 +180,7 @@ This answers the eye-roll every fan has heard from non-fans about Beckham puttin
 
 - **Passage.** "The free kick that seemed to bend on its own" (line 151); "hundreds of dead balls struck after everyone else had showered and gone home, the same run-up into the same corner until the motion stopped requiring a decision."
 - **Reader effect.** The second line is close — it is the draft's best attempt — but it stays generic. A piece whose whole argument is that the gift was manufactured never lets the reader see the manufactured object. The proof of "relentless application" remains Ferguson's testimony plus one 1996 lob.
-- **Evidence.** Ferguson's own quote is the draft's authority for practice-over-gift; the packet notes the citation to *Managing My Life* (1999) is unverified and rests on quote aggregators (CLM-02, S-03), which makes the absence of shown craft costlier — the claim leans entirely on a quote whose provenance is soft.
+- **Evidence.** Ferguson's own quote is the draft's authority for practice-over-gift; the packet notes the citation to _Managing My Life_ (1999) is unverified and rests on quote aggregators (CLM-02, S-03), which makes the absence of shown craft costlier — the claim leans entirely on a quote whose provenance is soft.
 - **Minimum viable repair.** Three or four specific sentences in the diagnosis section on the signature: the stutter run-up, the whipped contact with the outside of the instep, the near-post delivery that made him the best crosser of his era, and what repetition actually changed. Fund it by trimming the beekeeping H2, which is the piece's most expensive optional thread.
 - **Expected benefit.** Turns the thesis from testified to demonstrated, and reduces dependence on a quote the packet cannot fully source.
 - **Confidence.** High.
@@ -202,21 +203,21 @@ Ranked. The draft is at 4,442 words against a 4,500 ceiling, so each add is pair
 
 ## Follow-on questions
 
-**FAN-Q1 — Was the Keane "inhumane" quote spoken live on *Stick to Football*, or played as a Netflix clip?**
-*What changes:* if it is documentary footage, both the citation and the narrated scene at line 240 are wrong and the venue in the testimony ledger must change. If it is live studio speech, only the invented physical reaction has to go. Either way FAN-B2's repair holds.
-*Best source:* a speaker-labelled transcript or the video of The Overlap's October 2023 episode at the relevant timestamp, checked against Netflix *Beckham* episode 2. The packet's Research limitations flags this as the decisive unclosed question.
+**FAN-Q1 — Was the Keane "inhumane" quote spoken live on _Stick to Football_, or played as a Netflix clip?**
+_What changes:_ if it is documentary footage, both the citation and the narrated scene at line 240 are wrong and the venue in the testimony ledger must change. If it is live studio speech, only the invented physical reaction has to go. Either way FAN-B2's repair holds.
+_Best source:_ a speaker-labelled transcript or the video of The Overlap's October 2023 episode at the relevant timestamp, checked against Netflix _Beckham_ episode 2. The packet's Research limitations flags this as the decisive unclosed question.
 
 **FAN-Q2 — Who actually asked Beckham "how did you function through it," and got "I don't know. I honestly, I actually don't know"?**
-*What changes:* line 244 currently names Neville. If the audio is documentary footage, the questioner is director Fisher Stevens and the sentence invents an interlocutor.
-*Best source:* same as FAN-Q1.
+_What changes:_ line 244 currently names Neville. If the audio is documentary footage, the questioner is director Fisher Stevens and the sentence invents an interlocutor.
+_Best source:_ same as FAN-Q1.
 
-**FAN-Q3 — Does the Ferguson "relentless application" line actually appear in *Managing My Life* (1999)?**
-*What changes:* the citation under the draft's single most load-bearing quote. The wording is stable everywhere; only the book-and-year attribution is at risk. If it cannot be confirmed, attribute it to Ferguson without the book.
-*Best source:* the text of *Managing My Life* (Hodder & Stoughton, 1999), or a Tier 1–2 outlet quoting it with a page or chapter reference. Packet CLM-02 flags the current sourcing as aggregator-only.
+**FAN-Q3 — Does the Ferguson "relentless application" line actually appear in _Managing My Life_ (1999)?**
+_What changes:_ the citation under the draft's single most load-bearing quote. The wording is stable everywhere; only the book-and-year attribution is at risk. If it cannot be confirmed, attribute it to Ferguson without the book.
+_Best source:_ the text of _Managing My Life_ (Hodder & Stoughton, 1999), or a Tier 1–2 outlet quoting it with a page or chapter reference. Packet CLM-02 flags the current sourcing as aggregator-only.
 
 **FAN-Q4 — When exactly did Beckham first wear the mohawk in public?**
-*What changes:* if the repair for FAN-B1 wants to keep a staged-reveal beat, this supplies a real one. Reporting places it later that season on England duty.
-*Best source:* contemporary match reporting from the 2000–01 England fixtures, or Beckham's 2021 Sky Sports account (packet S-06), which is already in hand.
+_What changes:_ if the repair for FAN-B1 wants to keep a staged-reveal beat, this supplies a real one. Reporting places it later that season on England duty.
+_Best source:_ contemporary match reporting from the 2000–01 England fixtures, or Beckham's 2021 Sky Sports account (packet S-06), which is already in hand.
 
 ## Preserve list
 
@@ -225,7 +226,7 @@ Do not touch these in revision:
 - **Line 274, the boot-to-Alice-band sequence,** including the "whether he planned it or not" hedge. This is the article's best insight and the hedge is what makes it defensible.
 - **Line 278, "a discount on a future he had not been given yet"** and **"Sixteen years from clause to Messi: the same boy in the park, on a timeline he could not compress."**
 - **The insurance reframe** after the timeline, in full.
-- **The Qatar section's opening move** — *Attitude* June 2002 and the verbatim quote placed before Human Rights Watch, with Lycett shredding that same cover.
+- **The Qatar section's opening move** — _Attitude_ June 2002 and the verbatim quote placed before Human Rights Watch, with Lycett shredding that same cover.
 - **The Keane and Beckham quotes** at lines 240–244. The words stay; only the staging goes.
 - **The refusal to convert the 2am cleaning and the self-described OCD into type evidence**, in both the body and the Rabbit Hole.
 - **The Brooklyn passage's refusal to adjudicate**, and its final line about the one place the method has nothing to offer.
@@ -233,22 +234,22 @@ Do not touch these in revision:
 
 ## Research log
 
-Packet read in full before role-specific research, per protocol. Three additional searches, all directed at the same unresolved question: *the draft argues Beckham answers rejection with delivery — do the canonical football instances of that pattern exist as I recall them, and is the knighthood's contested history documented well enough that its absence is a fair complaint rather than my own assumption?*
+Packet read in full before role-specific research, per protocol. Three additional searches, all directed at the same unresolved question: _the draft argues Beckham answers rejection with delivery — do the canonical football instances of that pattern exist as I recall them, and is the knighthood's contested history documented well enough that its absence is a fair complaint rather than my own assumption?_
 
-| # | Question | Source consulted | What it decided |
-| --- | --- | --- | --- |
-| 1 | Did Beckham play centre midfield in the 1999 final and deliver both goal-scoring corners? | [UEFA 20-years-on retrospective](https://www.uefa.com/uefachampionsleague/news/0253-0d800ac7cffa-8147de94780e-1000--the-1999-champions-league-final-20-years-on-most-dramatic/); [Wikipedia, 1999 UEFA Champions League final](https://en.wikipedia.org/wiki/1999_UEFA_Champions_League_final) | Confirmed both: Keane and Scholes suspended, Beckham moved to the centre, both injury-time goals from his corners. Upgraded FAN-C1 from "a big game is missing" to "the thesis's best evidence is missing," and made the specific timeline-entry repair possible. |
-| 2 | Is the delayed-knighthood story (Football Leaks 2017, Ingenious tax case) documented enough to make its absence a fair fan complaint, and what is Beckham's response? | [LADbible on the email leak and its aftermath](https://www.ladbible.com/entertainment/celebrity/sir-david-beckham-knighthood-embarrassing-email-leak-667523-20251104); [Yahoo, "Inside David Beckham's 20-year campaign for a knighthood"](https://www.yahoo.com/news/inside-david-beckham-20-campaign-154935268.html) | Confirmed the leak, the alleged "unappreciative c***s" line, the reported use of humanitarian work in pursuit of the honour, the Ingenious case, the ~2021 clearance, and his denial (hacked / doctored / out of context). Turned a vague sense that the close was too clean into FAN-C4 with a bounded, fair, one-sentence repair. Note: these are Tier 3–4 outlets; the finding is that the material is *widely known to fans*, which is the fan test, not that the allegations are established. |
-| 3 | Did the 2002 Argentina penalty and the 2007 Capello freeze-out happen as recalled? | [The Set Pieces on England 1–0 Argentina 2002](https://thesetpieces.com/latest-posts/england-1-0-argentina-world-cup-2002-beckhams-revenge-simeones-rage/); [Beckham's own account of Capello's "you will never play for Real Madrid again"](https://m.allfootballapp.com/news/La-Liga/Beckham-reveals-how-Capello-told-him-he-would-NEVER-play-for-Real-Madrid-again/3191456); [UEFA on the Madrid exit](https://www.uefa.com/uefachampionsleague/news/01bd-0ea8932bd6d8-adc51f0c9616-1000--beckham-leaving-madrid-for-la) | Confirmed both, including Capello's reversal and the La Liga title won on the head-to-head tiebreaker weeks before the LA move. Produced FAN-C2 and FAN-C3 as separately actionable rather than a general "more football" complaint. |
+| #   | Question                                                                                                                                                              | Source consulted                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | What it decided                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Did Beckham play centre midfield in the 1999 final and deliver both goal-scoring corners?                                                                             | [UEFA 20-years-on retrospective](https://www.uefa.com/uefachampionsleague/news/0253-0d800ac7cffa-8147de94780e-1000--the-1999-champions-league-final-20-years-on-most-dramatic/); [Wikipedia, 1999 UEFA Champions League final](https://en.wikipedia.org/wiki/1999_UEFA_Champions_League_final)                                                                                                                                                                                                                              | Confirmed both: Keane and Scholes suspended, Beckham moved to the centre, both injury-time goals from his corners. Upgraded FAN-C1 from "a big game is missing" to "the thesis's best evidence is missing," and made the specific timeline-entry repair possible.                                                                                                                                                                                                                                  |
+| 2   | Is the delayed-knighthood story (Football Leaks 2017, Ingenious tax case) documented enough to make its absence a fair fan complaint, and what is Beckham's response? | [LADbible on the email leak and its aftermath](https://www.ladbible.com/entertainment/celebrity/sir-david-beckham-knighthood-embarrassing-email-leak-667523-20251104); [Yahoo, "Inside David Beckham's 20-year campaign for a knighthood"](https://www.yahoo.com/news/inside-david-beckham-20-campaign-154935268.html)                                                                                                                                                                                                      | Confirmed the leak, the alleged "unappreciative c***s" line, the reported use of humanitarian work in pursuit of the honour, the Ingenious case, the ~2021 clearance, and his denial (hacked / doctored / out of context). Turned a vague sense that the close was too clean into FAN-C4 with a bounded, fair, one-sentence repair. Note: these are Tier 3–4 outlets; the finding is that the material is _widely known to fans_, which is the fan test, not that the allegations are established. |
+| 3   | Did the 2002 Argentina penalty and the 2007 Capello freeze-out happen as recalled?                                                                                    | [The Set Pieces on England 1–0 Argentina 2002](https://thesetpieces.com/latest-posts/england-1-0-argentina-world-cup-2002-beckhams-revenge-simeones-rage/); [Beckham's own account of Capello's "you will never play for Real Madrid again"](https://m.allfootballapp.com/news/La-Liga/Beckham-reveals-how-Capello-told-him-he-would-NEVER-play-for-Real-Madrid-again/3191456); [UEFA on the Madrid exit](https://www.uefa.com/uefachampionsleague/news/01bd-0ea8932bd6d8-adc51f0c9616-1000--beckham-leaving-madrid-for-la) | Confirmed both, including Capello's reversal and the La Liga title won on the head-to-head tiebreaker weeks before the LA move. Produced FAN-C2 and FAN-C3 as separately actionable rather than a general "more football" complaint.                                                                                                                                                                                                                                                               |
 
-Packet material reused rather than re-researched: the 2000 haircut contradiction (S-06 / CLM-06), the Keane and Neville provenance dispute (S-04, S-05 / CLM-03–05), the Ferguson citation status (S-03 / CLM-02), the Inter Miami chain (S-12, S-13 / CLM-12), the *Attitude* cover and Lycett stunt (S-15 / CLM-14), and the knighthood citation itself (S-18 / CLM-15).
+Packet material reused rather than re-researched: the 2000 haircut contradiction (S-06 / CLM-06), the Keane and Neville provenance dispute (S-04, S-05 / CLM-03–05), the Ferguson citation status (S-03 / CLM-02), the Inter Miami chain (S-12, S-13 / CLM-12), the _Attitude_ cover and Lycett stunt (S-15 / CLM-14), and the knighthood citation itself (S-18 / CLM-15).
 
 No fan-community discussion was used to establish any fact. Where I have said "every fan knows" — the treble, the 2002 penalty, the No. 7 lineage, the Football Leaks emails — that is a claim about audience expectation, which is what this perspective is qualified to assess, and each underlying fact is separately sourced above or in the packet.
 
 ## Limits of this review
 
 - **I am a proxy for an informed non-stan fan, not a survey of fans.** Where I assert that a fan would notice something, I am reasoning from what is canonical in the public record, not from measured audience data.
-- **I did not resolve the *Stick to Football* provenance question** (FAN-Q1, FAN-Q2), and it cannot be resolved without a speaker-labelled transcript or the documentary footage. FAN-B2's repair is written to hold either way; the venue attribution itself remains open.
+- **I did not resolve the _Stick to Football_ provenance question** (FAN-Q1, FAN-Q2), and it cannot be resolved without a speaker-labelled transcript or the documentary footage. FAN-B2's repair is written to hold either way; the venue attribution itself remains open.
 - **I did not verify FAN-C4's underlying allegations,** and I am not asserting them. Beckham denied the emails as hacked and doctored. My finding is narrower: the story is well known to British fans and the draft's close reads as incomplete without one qualified acknowledgment. My two sources here are Tier 3–4 and would need better sourcing before anything is written into the draft.
 - **I did not check the Enneagram reasoning.** Type 3 is plausible on the evidence shown and I have no basis to contest it from this standpoint; the enneagram evaluator owns that.
 - **I did not audit the family, Qatar or OCD material for fairness** beyond noting where it landed with me as a reader. The subject and critic perspectives own those.

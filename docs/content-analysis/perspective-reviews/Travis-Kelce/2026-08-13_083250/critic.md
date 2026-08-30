@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 6
 reviewed_at: 2026-08-13T13:44:13Z
+path: docs/content-analysis/perspective-reviews/Travis-Kelce/2026-08-13_083250/critic.md
 ---
 
 # Critic Review — Travis Kelce (frozen draft 2026-08-13)
@@ -20,7 +21,7 @@ Central question applied: **has the article earned its sympathetic interpretatio
 
 ## Bottom-line verdict
 
-The article earns most of its sympathy honestly. Its central move — refusing the self-made-greatness myth and crediting Kelce's discipline to his brother and coaches — is anti-hagiographic in exactly the place celebrity profiles are usually softest, and the Super Bowl shove section leads with the prosecution (the internet's verdict, Jason's on-record rebuke, Kelce's own "unacceptable") before it turns. But the draft has one substantiated trust break: the "Why Travis Kelce Wears No. 87" section states as settled fact an origin story that its co-protagonist, Jason Kelce, publicly called "the biggest load of bull****" in November 2025 — nine months before this review date — and the draft never acknowledges the dispute, in a section whose entire emotional load ("The number on his back is a receipt") rests on the disputed claim. That is unfavorable evidence omitted precisely where it would most affect the argument. Six concerns follow, mostly about one-sided framing (the bracelet story), placement of the aggression record, and sympathetic weight resting on verbatim-unverified quotes. Verdict: **revise**. The fix for the blocker is one qualifying paragraph — and, notably, the dispute *strengthens* the Type 7 thesis rather than weakening it.
+The article earns most of its sympathy honestly. Its central move — refusing the self-made-greatness myth and crediting Kelce's discipline to his brother and coaches — is anti-hagiographic in exactly the place celebrity profiles are usually softest, and the Super Bowl shove section leads with the prosecution (the internet's verdict, Jason's on-record rebuke, Kelce's own "unacceptable") before it turns. But the draft has one substantiated trust break: the "Why Travis Kelce Wears No. 87" section states as settled fact an origin story that its co-protagonist, Jason Kelce, publicly called "the biggest load of bull****" in November 2025 — nine months before this review date — and the draft never acknowledges the dispute, in a section whose entire emotional load ("The number on his back is a receipt") rests on the disputed claim. That is unfavorable evidence omitted precisely where it would most affect the argument. Six concerns follow, mostly about one-sided framing (the bracelet story), placement of the aggression record, and sympathetic weight resting on verbatim-unverified quotes. Verdict: **revise**. The fix for the blocker is one qualifying paragraph — and, notably, the dispute _strengthens_ the Type 7 thesis rather than weakening it.
 
 ## What landed
 
@@ -50,7 +51,7 @@ The article earns most of its sympathy honestly. Its central move — refusing t
 
 ## What surprised me
 
-- **The dispute the draft omits would improve the draft.** Jason's counter-account — Travis was assigned 87 and "retroactively worked this in" — is *better* Type 7 evidence than the tribute story itself: a Seven retrofitting redemptive meaning onto an accident is the article's own "reframe reflex" thesis, live, with his brother as the on-record debunker. The draft is sitting on a thesis-strengthening fact and hiding from it as if it were damaging.
+- **The dispute the draft omits would improve the draft.** Jason's counter-account — Travis was assigned 87 and "retroactively worked this in" — is _better_ Type 7 evidence than the tribute story itself: a Seven retrofitting redemptive meaning onto an accident is the article's own "reframe reflex" thesis, live, with his brother as the on-record debunker. The draft is sitting on a thesis-strengthening fact and hiding from it as if it were damaging.
 - **The grade-inflation pattern I braced for mostly isn't here.** The breadth section's "the game show got made. The horror turn landed. The podcast became an empire" flirts with success-gloss, but it immediately poses the outrunning-depth question against itself. The draft argues with its subject more than most in this genre.
 - **The FAQ block is where the fact-hygiene is weakest.** Two of the five FAQ answers (No. 87, bracelet) state the disputed/one-sided versions even more flatly than the body does — and FAQs are exactly what gets extracted into search snippets stripped of any surrounding nuance.
 
@@ -119,7 +120,7 @@ The article earns most of its sympathy honestly. Its central move — refusing t
 ### CRITIC-C6 — "Network game show" and the 2024/2025 compression
 
 - **Passage:** Breadth section: "By 2025, football was no longer big enough to hold him. Kelce hosted a network game show. He made his dramatic acting debut in a Ryan Murphy horror series."
-- **Trust problem:** *Are You Smarter Than a Celebrity?* is Prime Video (streaming, not network) and premiered October 2024; *Grotesquerie* aired September–October 2024 (packet CLM-16). Small, checkable, and wrong — the kind of error that costs disproportionate credibility with exactly the informed readers the piece courts.
+- **Trust problem:** _Are You Smarter Than a Celebrity?_ is Prime Video (streaming, not network) and premiered October 2024; _Grotesquerie_ aired September–October 2024 (packet CLM-16). Small, checkable, and wrong — the kind of error that costs disproportionate credibility with exactly the informed readers the piece courts.
 - **Evidence:** Packet CLM-16, "contested characterizations" bullet.
 - **Minimum viable repair:** "streaming game show"; either shift the frame sentence to "By late 2024" or make the accumulation framing explicit ("Within a single twelve-month stretch…").
 - **Expected benefit:** Zero factual handholds left in the section.
@@ -140,9 +141,9 @@ Ranked by trust impact:
 
 ## Follow-on questions
 
-- **CRITIC-Q1:** Did Travis respond on-record to Jason's November 2025 dismissal of the 87 story (a later New Heights episode, or the March 2026 SportsTak corroboration the packet notes)? *What would change:* if Travis conceded or re-joked the retrofit, the repaired section can quote him directly and the dispute closes inside the piece. *Best source:* New Heights episodes November 2025–March 2026; SportsTak's 2026-03 item.
-- **CRITIC-Q2:** Does the September 2025 "Free 4" Rashee Rice shirt (verified this review via Pro Football Network and Yahoo coverage) belong in the loyalty file? *What would change:* if the synthesis judges the loyalty motif load-bearing, the cold side of loyalty (publicly backing a teammate whose alleged street-racing crash injured several people) is the one verified controversy in the 2024–25 record the draft never has to survive. Its omission is defensible in a personality analysis; a skeptical reader who knows it may find the loyalty passages curated. *Best source:* profootballnetwork.com and Yahoo Sports coverage, Sept 2025.
-- **CRITIC-Q3:** Can the Sept 3, 2024 Rich Eisen episode be audited directly (audio exists per packet S27)? *What would change:* four attributed quotes either graduate to verified (CLM-05 closes) or get rewritten as reported speech (CRITIC-C5 resolves by downgrade). *Best source:* the Apple Podcasts episode itself.
+- **CRITIC-Q1:** Did Travis respond on-record to Jason's November 2025 dismissal of the 87 story (a later New Heights episode, or the March 2026 SportsTak corroboration the packet notes)? _What would change:_ if Travis conceded or re-joked the retrofit, the repaired section can quote him directly and the dispute closes inside the piece. _Best source:_ New Heights episodes November 2025–March 2026; SportsTak's 2026-03 item.
+- **CRITIC-Q2:** Does the September 2025 "Free 4" Rashee Rice shirt (verified this review via Pro Football Network and Yahoo coverage) belong in the loyalty file? _What would change:_ if the synthesis judges the loyalty motif load-bearing, the cold side of loyalty (publicly backing a teammate whose alleged street-racing crash injured several people) is the one verified controversy in the 2024–25 record the draft never has to survive. Its omission is defensible in a personality analysis; a skeptical reader who knows it may find the loyalty passages curated. _Best source:_ profootballnetwork.com and Yahoo Sports coverage, Sept 2025.
+- **CRITIC-Q3:** Can the Sept 3, 2024 Rich Eisen episode be audited directly (audio exists per packet S27)? _What would change:_ four attributed quotes either graduate to verified (CLM-05 closes) or get rewritten as reported speech (CRITIC-C5 resolves by downgrade). _Best source:_ the Apple Podcasts episode itself.
 
 ## Preserve list
 
@@ -161,7 +162,7 @@ Ranked by trust impact:
 
 ## Limits of this review
 
-- I did not audit any podcast or broadcast audio directly; quote-verification statuses are inherited from the packet, whose own limitation is that primaries (New Heights, Rich Eisen, the *Kelce* documentary) were verified through secondary reporting and transcripts.
+- I did not audit any podcast or broadcast audio directly; quote-verification statuses are inherited from the packet, whose own limitation is that primaries (New Heights, Rich Eisen, the _Kelce_ documentary) were verified through secondary reporting and transcripts.
 - The community reaction to the shove ("diva/entitled") is treated as commentary establishing audience expectations, not as verified characterization — consistent with the packet's labeling.
 - I did not evaluate the Enneagram typing's correctness (that is the enneagram perspective's lane); C4 addresses only whether the argument's structure is falsifiable, not whether 7 is right.
 - Two web searches were run (logged above); the "no omitted major scandal" conclusion is bounded by those searches plus the packet — a US-based, single-day sweep, not an exhaustive adverse-media audit.

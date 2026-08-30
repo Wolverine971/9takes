@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/research/Alexandr-Wang.md -->
+
 # Research Evidence: Alexandr Wang
 
 Compiled 2026-08-18 for `blog_content_creator_people_v2`. Evidence and interpretation are kept
@@ -10,34 +12,34 @@ Entity-gap packet consumed: `docs/content-analysis/entity-gaps/Alexandr-Wang.md`
 
 ## 1. Dated timeline
 
-| Date | Event | Source |
-| --- | --- | --- |
-| Jan 1997 | Born, Los Alamos, New Mexico. Both parents Chinese-immigrant physicists at Los Alamos National Laboratory. | Wikipedia; Fortune 2025-07-23 |
-| 2012–2013 | USACO (US Computing Olympiad) finalist. | Wikipedia |
-| 2013 | Qualifies for the Math Olympiad Program. | Wikipedia |
-| 2014 | Qualifies for the US Physics Team. | Wikipedia |
-| ~2014 | Works as a software engineer at Addepar; programmer at Quora, as a teenager. | Wikipedia |
-| 2015–2016 | One year at MIT (CS/math); internship at Hudson River Trading. | Wikipedia; Theo Von E563 |
-| Mar 2016 | AlphaGo defeats Lee Sedol. Wang names this as the trigger to leave. | Theo Von E563 |
-| Jun 2016 | Co-founds Scale AI with Lucy Guo at 19, out of a Portola Valley pool house; Y Combinator. | Fortune 2025-07-23; frederick.ai |
-| 2018 | Lucy Guo leaves Scale (reported as fired). | Forbes 2026-05-14; Wikipedia |
-| 2018, 2021 | Forbes 30 Under 30. | Wikipedia |
-| 2021 | Scale valued at $7.3B; Wang (≈15% owner) becomes youngest self-made billionaire at 24. | Wikipedia; Forbes |
-| 2023-07-18 | Testifies before House Armed Services Subcommittee (witness bio on docs.house.gov). | docs.house.gov PDF (fetch 403 at draft time; existence confirmed via search index) |
-| 2023 | TED talk, "War, AI and the New Global Arms Race." | Singju Post transcript |
-| Jun 2024 | Publishes "Meritocracy at Scale," coining **MEI** (merit, excellence, and intelligence). | Wikipedia; Fortune 2024-06-24 |
-| Sep 2024 | a16z "frontier data foundries" conversation. | a16z, 2024-09-24 |
-| Jan 2025 | Attends Trump's second inauguration; meets Starmer, Modi, Macron on AI cooperation. | Wikipedia |
-| Feb 2025 | Theo Von, *This Past Weekend* E563. | podscripts / happyscribe transcripts |
-| Jun 2025 | Meta buys 49% of Scale AI for $14.3B, valuing Scale ~$29B. Wang becomes Meta's first Chief AI Officer, leads Meta Superintelligence Labs; steps down as Scale CEO, stays on Scale's board. | Wikipedia; CNBC 2025-06-30 |
-| 2025-06-30 | Zuckerberg memo announcing MSL. | CNBC 2025-06-30 |
-| Nov 2025 | Yann LeCun leaves Meta to found a startup. | FT via CNBC 2026-01-05 |
-| 2026-01-05 | FT interview: LeCun calls Wang "young" and "inexperienced." | CNBC / Semafor / Entrepreneur, 2026-01 |
-| 2026-04-08 | Meta debuts Muse Spark, first major model since the Scale deal. | CNBC 2026-04-08 |
-| 2026-05-14 | Forbes (Richard Nieva) on Scale's business after the Meta deal. | Forbes 2026-05-14 |
-| 2026-06-14 | CNBC one-year retrospective: "Zuckerberg has to sell it." | CNBC 2026-06-14 |
-| 2026-07-09 | Muse Spark 1.1; Meta enters the AI coding market. | CNBC 2026-07-09 |
-| 2026-08-05 | **Muse Code** (beta) ships on Muse Spark 1.2 — MSL's first commercial product. Includes a "contributor tier" (~$0.10/$0.20 per M tokens) that trades cheap access for use of user prompts and completions as training data. | CNBC 2026-08-05; MarkTechPost; explainx.ai |
+| Date       | Event                                                                                                                                                                                                                       | Source                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Jan 1997   | Born, Los Alamos, New Mexico. Both parents Chinese-immigrant physicists at Los Alamos National Laboratory.                                                                                                                  | Wikipedia; Fortune 2025-07-23                                                      |
+| 2012–2013  | USACO (US Computing Olympiad) finalist.                                                                                                                                                                                     | Wikipedia                                                                          |
+| 2013       | Qualifies for the Math Olympiad Program.                                                                                                                                                                                    | Wikipedia                                                                          |
+| 2014       | Qualifies for the US Physics Team.                                                                                                                                                                                          | Wikipedia                                                                          |
+| ~2014      | Works as a software engineer at Addepar; programmer at Quora, as a teenager.                                                                                                                                                | Wikipedia                                                                          |
+| 2015–2016  | One year at MIT (CS/math); internship at Hudson River Trading.                                                                                                                                                              | Wikipedia; Theo Von E563                                                           |
+| Mar 2016   | AlphaGo defeats Lee Sedol. Wang names this as the trigger to leave.                                                                                                                                                         | Theo Von E563                                                                      |
+| Jun 2016   | Co-founds Scale AI with Lucy Guo at 19, out of a Portola Valley pool house; Y Combinator.                                                                                                                                   | Fortune 2025-07-23; frederick.ai                                                   |
+| 2018       | Lucy Guo leaves Scale (reported as fired).                                                                                                                                                                                  | Forbes 2026-05-14; Wikipedia                                                       |
+| 2018, 2021 | Forbes 30 Under 30.                                                                                                                                                                                                         | Wikipedia                                                                          |
+| 2021       | Scale valued at $7.3B; Wang (≈15% owner) becomes youngest self-made billionaire at 24.                                                                                                                                      | Wikipedia; Forbes                                                                  |
+| 2023-07-18 | Testifies before House Armed Services Subcommittee (witness bio on docs.house.gov).                                                                                                                                         | docs.house.gov PDF (fetch 403 at draft time; existence confirmed via search index) |
+| 2023       | TED talk, "War, AI and the New Global Arms Race."                                                                                                                                                                           | Singju Post transcript                                                             |
+| Jun 2024   | Publishes "Meritocracy at Scale," coining **MEI** (merit, excellence, and intelligence).                                                                                                                                    | Wikipedia; Fortune 2024-06-24                                                      |
+| Sep 2024   | a16z "frontier data foundries" conversation.                                                                                                                                                                                | a16z, 2024-09-24                                                                   |
+| Jan 2025   | Attends Trump's second inauguration; meets Starmer, Modi, Macron on AI cooperation.                                                                                                                                         | Wikipedia                                                                          |
+| Feb 2025   | Theo Von, _This Past Weekend_ E563.                                                                                                                                                                                         | podscripts / happyscribe transcripts                                               |
+| Jun 2025   | Meta buys 49% of Scale AI for $14.3B, valuing Scale ~$29B. Wang becomes Meta's first Chief AI Officer, leads Meta Superintelligence Labs; steps down as Scale CEO, stays on Scale's board.                                  | Wikipedia; CNBC 2025-06-30                                                         |
+| 2025-06-30 | Zuckerberg memo announcing MSL.                                                                                                                                                                                             | CNBC 2025-06-30                                                                    |
+| Nov 2025   | Yann LeCun leaves Meta to found a startup.                                                                                                                                                                                  | FT via CNBC 2026-01-05                                                             |
+| 2026-01-05 | FT interview: LeCun calls Wang "young" and "inexperienced."                                                                                                                                                                 | CNBC / Semafor / Entrepreneur, 2026-01                                             |
+| 2026-04-08 | Meta debuts Muse Spark, first major model since the Scale deal.                                                                                                                                                             | CNBC 2026-04-08                                                                    |
+| 2026-05-14 | Forbes (Richard Nieva) on Scale's business after the Meta deal.                                                                                                                                                             | Forbes 2026-05-14                                                                  |
+| 2026-06-14 | CNBC one-year retrospective: "Zuckerberg has to sell it."                                                                                                                                                                   | CNBC 2026-06-14                                                                    |
+| 2026-07-09 | Muse Spark 1.1; Meta enters the AI coding market.                                                                                                                                                                           | CNBC 2026-07-09                                                                    |
+| 2026-08-05 | **Muse Code** (beta) ships on Muse Spark 1.2 — MSL's first commercial product. Includes a "contributor tier" (~$0.10/$0.20 per M tokens) that trades cheap access for use of user prompts and completions as training data. | CNBC 2026-08-05; MarkTechPost; explainx.ai                                         |
 
 ---
 
@@ -59,7 +61,7 @@ Entity-gap packet consumed: `docs/content-analysis/entity-gaps/Alexandr-Wang.md`
 > — Alexandr Wang, TED, 2023
 
 > "I grew up in this town called Los Alamos, where there's a national lab there."
-> — Alexandr Wang, *This Past Weekend w/ Theo Von* E563, Feb 2025
+> — Alexandr Wang, _This Past Weekend w/ Theo Von_ E563, Feb 2025
 
 > "All the New Mexico shots in Oppenheimer, that's exactly where I grew up."
 > — Theo Von E563, 2025
@@ -227,9 +229,9 @@ in there" material, which is unambiguous.
 
 - **Unnamed former Scale manager**, Fortune 2025-07-23: "There's probably a handful of people in the
   world that you bet on"; called Wang "a great recruiter, a really savvy commercial person."
-  *(Unnamed — does not satisfy the testimony gate.)*
-- **Cory Weinberg**, The Information, described Wang as a "crafty opportunist." *(Second-hand via
-  search summary; verify before quoting.)*
+  _(Unnamed — does not satisfy the testimony gate.)_
+- **Cory Weinberg**, The Information, described Wang as a "crafty opportunist." _(Second-hand via
+  search summary; verify before quoting.)_
 - Reported departures from Meta's AI research org during Wang's tenure: Joelle Pineau; Avi Verma;
   Ethan Knight; Rishabh Agarwal.
 
@@ -270,13 +272,13 @@ in there" material, which is unambiguous.
 **Primary / first-person**
 
 - TED 2023 talk transcript (singjupost.com) — high value, contains the Los Alamos → AI throughline.
-- *This Past Weekend w/ Theo Von* E563 (Feb 2025) — transcripts at podscripts.co and
+- _This Past Weekend w/ Theo Von_ E563 (Feb 2025) — transcripts at podscripts.co and
   podcasts.happyscribe.com. Most personal register available; source of the math-competition detail.
 - a16z conversation (2024-09-24) — the "marriage between human experts and humanity" thesis.
 - TIME interview (2025-06-22).
 - Lightcone Podcast (Jun 2025); CSIS AI Policy Podcast (May 2025); Washington Post Futurist Summit
   (Oct 2023); Accel "Spotlight On: AI"; Stanford eCorner "Better AI Through Better Data";
-  CNBC (Sep 2025). *Not individually mined this pass — available depth if the draft needs more.*
+  CNBC (Sep 2025). _Not individually mined this pass — available depth if the draft needs more._
 - House Armed Services Committee witness bio, 2023-07-18 (docs.house.gov). **Fetch returned HTTP 403
   on 2026-08-18; existence confirmed via search index only. Do not quote from it.**
 
@@ -302,7 +304,7 @@ in there" material, which is unambiguous.
 
 ### Preliminary type hypothesis: Enneagram Type 3 (Achiever), social subtype, 3w2
 
-*Hypothesis only. 9takes does not diagnose.*
+_Hypothesis only. 9takes does not diagnose._
 
 Supporting behavioral evidence:
 
@@ -328,7 +330,7 @@ substrate of intelligence, and the fact that Type 5 is the most over-represented
 tech-and-business cohort (16 of 73 profiles, 21.9%).
 
 Case against, and the named tiebreaker: a Five withdraws to master a domain privately before
-engaging. Wang left MIT one year in and flew to San Francisco *to sell*, then built a company whose
+engaging. Wang left MIT one year in and flew to San Francisco _to sell_, then built a company whose
 product is the mobilization of other people's expertise rather than the accumulation of his own. The
 tiebreaker behavior is the all-hands: the emotion surfaced in public, during a story he was telling
 about himself, and he corrected it in real time. LeCun's critique is, in effect, the industry

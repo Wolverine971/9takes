@@ -63,15 +63,15 @@ Yang Zhilin is a Chinese AI researcher and entrepreneur associated with Transfor
 
 ## Source ledger
 
-| ID | Source | Date | Use | Limit |
-| --- | --- | --- | --- | --- |
-| S-01 | Frozen draft and context | 2026-08-22 | Exact reviewed claims and hashes | Not independent evidence |
-| S-02 | The Wire China | 2025 | Biography, academic record, company history | Secondary profile |
-| S-03 | LessWrong translations of Yang interviews | 2024 material | First-person evidence | Translation, not original English |
-| S-04 | ChinaTalk translation | 2024 material | Scaling, AGI, and company philosophy | Translation, not original English |
-| S-05 | Moonshot official help center | 2026 | July 16 product launch and July 27 weight date | Company-authored |
-| S-06 | Kimi K3 technical report | 2026-07-27 | Model size, architecture, and released weights | Company research paper |
-| S-07 | AP / Reuters | 2026-07-20 | Subscription pause and demand | Dated reporting |
-| S-08 | SCMP | 2026-08-05 | Reported financing and IPO plans | Anonymous-source reporting; plans can change |
-| S-09 | Cursor Composer 2 report | 2026 | Kimi K2.5 base-model selection | Product-authored technical report |
-| S-10 | Repository audits | 2026-08-22 | Lint, source, structure, images | Editorial tooling only |
+| ID   | Source                                    | Date          | Use                                            | Limit                                        |
+| ---- | ----------------------------------------- | ------------- | ---------------------------------------------- | -------------------------------------------- |
+| S-01 | Frozen draft and context                  | 2026-08-22    | Exact reviewed claims and hashes               | Not independent evidence                     |
+| S-02 | The Wire China                            | 2025          | Biography, academic record, company history    | Secondary profile                            |
+| S-03 | LessWrong translations of Yang interviews | 2024 material | First-person evidence                          | Translation, not original English            |
+| S-04 | ChinaTalk translation                     | 2024 material | Scaling, AGI, and company philosophy           | Translation, not original English            |
+| S-05 | Moonshot official help center             | 2026          | July 16 product launch and July 27 weight date | Company-authored                             |
+| S-06 | Kimi K3 technical report                  | 2026-07-27    | Model size, architecture, and released weights | Company research paper                       |
+| S-07 | AP / Reuters                              | 2026-07-20    | Subscription pause and demand                  | Dated reporting                              |
+| S-08 | SCMP                                      | 2026-08-05    | Reported financing and IPO plans               | Anonymous-source reporting; plans can change |
+| S-09 | Cursor Composer 2 report                  | 2026          | Kimi K2.5 base-model selection                 | Product-authored technical report            |
+| S-10 | Repository audits                         | 2026-08-22    | Lint, source, structure, images                | Editorial tooling only                       |

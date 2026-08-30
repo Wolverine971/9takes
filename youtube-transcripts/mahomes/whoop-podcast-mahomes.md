@@ -46,6 +46,7 @@ description: |
   
   MB01US4LSUJC63Z
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/whoop-podcast-mahomes.md
 ---
 
 # NFL MVP Patrick Mahomes | WHOOP Podcast

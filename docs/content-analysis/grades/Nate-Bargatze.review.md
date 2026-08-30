@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/grades/Nate-Bargatze.review.md -->
+
 # Grade feedback: Nate Bargatze
 
 Grade: B+ (8.6), rubric v2

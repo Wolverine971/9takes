@@ -25,7 +25,7 @@ Madison Square Garden become four different arrangements of attention, each teac
 something about how much access a song requires.
 
 The article still needs one short discographic bridge. It jumps from a 2015 demo and early gigs to
-*Punisher*, leaving *Stranger in the Alps* and Better Oblivion Community Center outside the
+_Punisher_, leaving _Stranger in the Alps_ and Better Oblivion Community Center outside the
 reader-visible career story. For a personality analysis of a songwriter, the songs and records are
 surprisingly thin relative to rollout strategy. The draft also speaks too broadly about “the
 audience” being trained into entitlement. Those are revision-level concerns, not trust-breaking
@@ -60,8 +60,8 @@ material and keeps all three writers distinct.
 
 **FAN-H4 — The new album is allowed to frustrate people.**
 
-The *Lost Weekend* section does not treat privacy as an automatic artistic virtue. It includes *The
-Atlantic*'s distance critique and says “A listener can understand the need for distance and still miss
+The _Lost Weekend_ section does not treat privacy as an automatic artistic virtue. It includes _The
+Atlantic_'s distance critique and says “A listener can understand the need for distance and still miss
 the earlier access.” That is a credible fan stance rather than pre-emptive defense of every choice.
 
 **FAN-H5 — The ambition is finally inside the standard Phoebe portrait.**
@@ -72,10 +72,10 @@ fans can experience the meticulous career and the vulnerable songs as parts of o
 
 ## What missed
 
-**FAN-M1 — The solo career appears to begin twice: at the 2015 demo and with *Punisher*.**
+**FAN-M1 — The solo career appears to begin twice: at the 2015 demo and with _Punisher_.**
 
 The childhood section ends with early labor and the next reader-visible album is the 2020 breakthrough.
-The 2017 debut *Stranger in the Alps* never appears in the body, and the 2019 Better Oblivion Community
+The 2017 debut _Stranger in the Alps_ never appears in the body, and the 2019 Better Oblivion Community
 Center project appears only in the evidence packet. This removes the era in which the public first
 learned the voice the article is analyzing.
 
@@ -88,7 +88,7 @@ fans coexist.
 
 ## What I expected
 
-**FAN-E1 — The canonical solo records in a songwriter profile.** *Punisher* and *Lost Weekend* appear,
+**FAN-E1 — The canonical solo records in a songwriter profile.** _Punisher_ and _Lost Weekend_ appear,
 but the debut does not. This is not a request for an encyclopedic discography; one sentence would make
 the rise legible.
 
@@ -123,23 +123,23 @@ current details are useful; the imbalance is the issue.
 No blocker. The frozen draft's SHA matches both `context.json` and the supplied value:
 `5f3b5ec364ec3a01e3ffec0fbccb7570052323ba85e5839049b1c0e4b4dc7b3e`.
 
-- **FAN-C1, P1 concern:** the reader-visible chronology omits the debut and pre-*Punisher* bridge,
+- **FAN-C1, P1 concern:** the reader-visible chronology omits the debut and pre-_Punisher_ bridge,
   making a fan supply a defining career era from memory.
 - **FAN-C2, P2 concern:** two sentences generalize from intrusive people to “the audience,” weakening
   the article's otherwise thoughtful account of fans who respect the boundary.
 
 ## Specific improvements
 
-### FAN-C1 — P1 concern: add one canonical bridge between the 2015 demo and *Punisher*
+### FAN-C1 — P1 concern: add one canonical bridge between the 2015 demo and _Punisher_
 
 - **Location:** after “The child who expected music to work” or at the opening of “The song knows before
   she does.” The current sequence moves from John Strohm's 2015 demo testimony to general songwriting
-  process, while the introduction begins the album story with *Punisher*.
+  process, while the introduction begins the album story with _Punisher_.
 - **Reader effect / trust problem:** a fan recognizes a profile assembled from excellent interview
   details but with the center of the discography missing. A general reader cannot tell how the early
   labor became a solo career before the pandemic breakthrough.
-- **Evidence / reasoning:** the packet's dated timeline identifies *Stranger in the Alps* (2017),
-  Better Oblivion Community Center (2019), and *Punisher* (2020). The omission does not make any current
+- **Evidence / reasoning:** the packet's dated timeline identifies _Stranger in the Alps_ (2017),
+  Better Oblivion Community Center (2019), and _Punisher_ (2020). The omission does not make any current
   claim false, but it leaves the article's career thread with a five-year jump at precisely the point
   where the songwriter's public identity formed.
 - **Minimum viable repair:** add one or two sentences naming the 2017 debut and the 2019 Conor Oberst
@@ -150,8 +150,8 @@ No blocker. The frozen draft's SHA matches both `context.json` and the supplied 
   Boygenius section arrives as part of an intelligible collaboration history rather than the first
   major project after a demo.
 - **Confidence:** high.
-- **Acceptance test:** reader-visible body text names *Stranger in the Alps* with its 2017 release and
-  places Better Oblivion Community Center before *Punisher*; no added sentence treats a song narrator
+- **Acceptance test:** reader-visible body text names _Stranger in the Alps_ with its 2017 release and
+  places Better Oblivion Community Center before _Punisher_; no added sentence treats a song narrator
   as direct evidence of Bridgers's private life or Enneagram type.
 
 ### FAN-C2 — P2 concern: distinguish the audience from the people who violated the boundary
@@ -177,13 +177,13 @@ No blocker. The frozen draft's SHA matches both `context.json` and the supplied 
 
 ## Follow-on questions
 
-**FAN-Q1 — Which pre-*Punisher* work does Bridgers see as the first complete version of her artistic
+**FAN-Q1 — Which pre-_Punisher_ work does Bridgers see as the first complete version of her artistic
 voice?**
 
 - **What answer would change:** it would determine whether FAN-C1 should connect the thesis primarily to
-  *Stranger in the Alps*, Better Oblivion Community Center, or an earlier song. It could also show
+  _Stranger in the Alps_, Better Oblivion Community Center, or an earlier song. It could also show
   whether the draft's identity-through-revision idea spans eras or is mostly a later interview frame.
-- **Best source to pursue:** a first-person retrospective on *Stranger in the Alps* or a long-form
+- **Best source to pursue:** a first-person retrospective on _Stranger in the Alps_ or a long-form
   interview tracing her writing across the 2017, 2019, and 2020 releases.
 
 **FAN-Q2 — How did attendees experience the phone-free policy after more than one 2026 show?**
@@ -195,7 +195,7 @@ voice?**
 - **Best source to pursue:** reported venue coverage and first-person attendee accounts from multiple
   Lost Tour dates, cross-checked against the official tour policy.
 
-**FAN-Q3 — Does the collaboration arc continue into the way *Lost Weekend* was made?**
+**FAN-Q3 — Does the collaboration arc continue into the way _Lost Weekend_ was made?**
 
 - **What answer would change:** evidence that the album used a similarly safe, plural writing room
   would extend the boygenius insight; evidence of a deliberately isolated process would sharpen the
@@ -213,7 +213,7 @@ voice?**
    and deliberate revision.
 5. **FAN-P5:** Lucy Dacus's “super-creative idea machine” testimony and the safe-failure boygenius
    account.
-6. **FAN-P6:** the serious marketing explanation and *The Atlantic* criticism. Admiration is more
+6. **FAN-P6:** the serious marketing explanation and _The Atlantic_ criticism. Admiration is more
    convincing because neither is brushed aside.
 7. **FAN-P7:** medium confidence and the Type 6 / Type 3 alternatives. A fan does not need every
    recognizable behavior absorbed into Four.
@@ -222,19 +222,19 @@ voice?**
 
 ## Research log
 
-1. **Frozen snapshot** (`draft-reviewed.md`), read in full and SHA-verified. *Affected:* all findings;
+1. **Frozen snapshot** (`draft-reviewed.md`), read in full and SHA-verified. _Affected:_ all findings;
    the live draft was not consulted.
-2. **Shared evidence packet** (`evidence-packet.md`), read in full before fan evaluation. *Affected:*
+2. **Shared evidence packet** (`evidence-packet.md`), read in full before fan evaluation. _Affected:_
    the dated timeline established the missing 2017 and 2019 bridge for FAN-C1; CLM-06 and CLM-07 kept
    FAN-C2 focused on audience generalization rather than asserting one cause; the disputes section
    prevented phone-free marketing from being romanticized.
-3. **Packet chronology and source summaries for *The FADER* (2018), *Vogue* (2018), *The New Yorker*
-   (2020 and 2026), Pitchfork (2026), and AP (2026).** *Question:* are the recognizable eras, group
-   dynamics, and 2026 return represented accurately enough to support the fan insight? *Affected:*
+3. **Packet chronology and source summaries for _The FADER_ (2018), _Vogue_ (2018), _The New Yorker_
+   (2020 and 2026), Pitchfork (2026), and AP (2026).** _Question:_ are the recognizable eras, group
+   dynamics, and 2026 return represented accurately enough to support the fan insight? _Affected:_
    FAN-H1 through FAN-H5 and FAN-C1. The packet answered the factual question; no community source was
    used to establish a claim.
-4. **Official Grammy history as recorded in the packet.** *Question:* is the four-win statement and
-   boygenius/SZA split correct? *Affected:* no red flag raised; the draft's chronology matches the
+4. **Official Grammy history as recorded in the packet.** _Question:_ is the four-win statement and
+   boygenius/SZA split correct? _Affected:_ no red flag raised; the draft's chronology matches the
    official record summarized in the packet.
 
 ## Limits of this review
@@ -248,6 +248,6 @@ voice?**
 - The snapshot includes trailing creator and editorial comments. I encountered them because the task
   required a complete read, but the verdict and findings rest on the reader-visible article and shared
   packet, not those comments or their cohesion score.
-- *Lost Weekend* was released on the review date, so no durable fan consensus about the album or tour
+- _Lost Weekend_ was released on the review date, so no durable fan consensus about the album or tour
   yet exists. This review evaluates whether the draft frames that uncertainty fairly, not whether its
   artistic judgment will become consensus.

@@ -1,3 +1,4 @@
+-- supabase/migrations/20260812010900_enneagram_type_prompt_campaign.sql
 -- Stage a one-step, manual campaign for registered users who have not added
 -- a valid Enneagram type. It is intentionally created in draft status: draft
 -- sequences cannot enroll recipients and cannot be claimed by the email cron.

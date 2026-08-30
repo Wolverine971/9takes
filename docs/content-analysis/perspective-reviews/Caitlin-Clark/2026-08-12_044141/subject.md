@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 3
 concerns: 4
 reviewed_at: 2026-08-12T05:57:26Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/subject.md
 ---
 
 ## Bottom-line verdict
@@ -168,7 +169,7 @@ The commercial-seam paragraph also surprised me positively. “She also keeps th
 
 **Research question 1:** Did TIME present “a blessing that woke a monster” as one Clark phrase, or were these separate remarks? **Source:** TIME, “Caitlin Clark,” December 10, 2024, https://time.com/7200904/athlete-of-the-year-2024-caitlin-clark/. **Decision affected:** TIME reports separately that she told her coach the snub “woke a monster” and that she called the exclusion a “blessing.” This made SUBJ-R2 a blocker with a precise repair rather than a vague sourcing concern.
 
-**Research question 2:** Was McNutt's “larger sisterhood” criticism categorical, or did the omitted ending materially qualify it? **Source:** Complex, “Monica McNutt's Call for Caitlin Clark Accountability Ignited a Social Media Firestorm,” preserving the full *Women's Sports Sundays* statement, https://www.complex.com/sports/a/bernadette-giacomazzo/caitlin-clark-monica-mcnutt-under-fire. **Decision affected:** The source includes “if she sees it that way, in the WNBA,” confirming that the frozen draft removes a condition central to the criticism's meaning; SUBJ-R3 is therefore a blocker.
+**Research question 2:** Was McNutt's “larger sisterhood” criticism categorical, or did the omitted ending materially qualify it? **Source:** Complex, “Monica McNutt's Call for Caitlin Clark Accountability Ignited a Social Media Firestorm,” preserving the full _Women's Sports Sundays_ statement, https://www.complex.com/sports/a/bernadette-giacomazzo/caitlin-clark-monica-mcnutt-under-fire. **Decision affected:** The source includes “if she sees it that way, in the WNBA,” confirming that the frozen draft removes a condition central to the criticism's meaning; SUBJ-R3 is therefore a blocker.
 
 No additional search was needed. The evidence packet answered the H2 4 disclosure question and supplied sufficient primary/primary-adjacent material for the remaining findings.
 

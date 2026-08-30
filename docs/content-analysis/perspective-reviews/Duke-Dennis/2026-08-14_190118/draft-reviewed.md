@@ -106,6 +106,7 @@ content_quality:
   anchor: 'Matt-Smith draft (B, 2026-06-28)'
   needs_review: false
   graded_at: '2026-08-14'
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER

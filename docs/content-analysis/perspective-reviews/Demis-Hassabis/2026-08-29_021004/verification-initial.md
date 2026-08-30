@@ -8,6 +8,7 @@ verification_status: pass
 open_p0: 0
 protected_hit_regressions: 0
 verified_at: 2026-08-29T17:58:15Z
+path: docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004/verification-initial.md
 ---
 
 ## Verification verdict

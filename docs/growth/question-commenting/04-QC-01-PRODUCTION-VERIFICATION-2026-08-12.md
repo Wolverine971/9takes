@@ -1,3 +1,5 @@
+<!-- docs/growth/question-commenting/04-QC-01-PRODUCTION-VERIFICATION-2026-08-12.md -->
+
 # QC-01 Production Verification — 2026-08-12
 
 ## Outcome

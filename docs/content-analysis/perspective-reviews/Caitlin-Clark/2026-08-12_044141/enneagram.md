@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 4
 reviewed_at: 2026-08-12T05:10:00Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -20,9 +21,9 @@ This is one of the more disciplined Type 1 reads I've evaluated on this site: it
 
 ## What landed
 
-**ENNEAGRAM-H1 — The turnover-record mechanism is real Enneagram reasoning, not description dressed as diagnosis.** "Ones are not organized around avoiding mistakes. They are organized around doing the thing correctly... the reading here is that Clark grades correctness at the moment of decision. Whether the ball arrives is a separate question, settled a half-second later by four other people" (H2 5). This explains counterevidence (223 turnovers) through the *mechanism* of the type rather than around it, and it's explicitly labeled as this article's reading rather than a fact about Clark — exactly the certainty calibration a typing claim about a living, non-self-typed person should have.
+**ENNEAGRAM-H1 — The turnover-record mechanism is real Enneagram reasoning, not description dressed as diagnosis.** "Ones are not organized around avoiding mistakes. They are organized around doing the thing correctly... the reading here is that Clark grades correctness at the moment of decision. Whether the ball arrives is a separate question, settled a half-second later by four other people" (H2 5). This explains counterevidence (223 turnovers) through the _mechanism_ of the type rather than around it, and it's explicitly labeled as this article's reading rather than a fact about Clark — exactly the certainty calibration a typing claim about a living, non-self-typed person should have.
 
-**ENNEAGRAM-H2 — The piece states a falsifier and means it.** "So here is the test. Watch for the night she takes the safe pass to protect a number. This reading does not survive it" (H2 5). A public psychological-type article committing to a condition that would break its own thesis is rare. It also correctly identifies what *would* count as disconfirmation (outcome-protection) versus what wouldn't (more turnovers).
+**ENNEAGRAM-H2 — The piece states a falsifier and means it.** "So here is the test. Watch for the night she takes the safe pass to protect a number. This reading does not survive it" (H2 5). A public psychological-type article committing to a condition that would break its own thesis is rare. It also correctly identifies what _would_ count as disconfirmation (outcome-protection) versus what wouldn't (more turnovers).
 
 **ENNEAGRAM-H3 — The stress-arrow application is earned, not decorative.** The 2025 injury year is read through the One-to-unhealthy-Four shift: "Cut off from the work, Clark's language shifted from measurement to feeling... 'people didn't understand how I was wired.' It arrived the moment the thing she regulates with was taken away" (Rabbit Hole). This connects a documented behavior change (measurement language → feeling language, tied to a specific, verifiable trigger: the injury) to the mechanism of the arrow rather than just asserting the arrow applies. That's the standard the "stress arrow" claim needs to clear and usually doesn't.
 
@@ -47,6 +48,7 @@ I was also surprised the piece never engages Type 6 at all, given how much of it
 ## Red flags
 
 **ENNEAGRAM-R1 — Type 6 is a live alternative the piece never names or tests.**
+
 - **Passage:** The counterarguments subsection in the Rabbit Hole tests only Type 3 (specifically sp-Three) and Type 8. There is no mention of Type 6 anywhere in the draft.
 - **Effect:** A reader who knows the system will independently generate this alternative and notice the piece skipped it. Counterphobic Six (fear: being without support/guidance, coped with by challenging risk head-on rather than avoiding it) fits several load-bearing facts the piece already uses for the One read: the WNBA turnover record built on high-variance, risk-normalizing decisions ("Maybe it's a toxic part of me, but I always think it's going to go well... it's just how I play" — a counterphobic's relationship to risk, not obviously a One's); the chronic self-doubt that never resolves even after near-unanimous Rookie of the Year votes; and the sp-subtype note's own language — "the worry-and-warmth variant, the one who converts anxiety into preparation" — which describes a mechanism (anxiety → preparation as safety behavior) that is at least as native to Six as to One.
 - **Evidence/reasoning:** Per this repo's own Type 6 page (`src/blog/enneagram/enneagram-type-6.md`), the core fear is being without guidance or support, and counterphobic Sixes cope by "challenging threats, appearing aggressive, and refusing to back down" rather than avoiding risk — which describes Clark's stated relationship to her own highest-variance plays more directly than the piece's One reading does. The Type 1 pillar page's own "Am I a 1, a 3, or a 6?" section exists precisely because these three get confused, and this draft only resolves two of the three.
@@ -56,15 +58,17 @@ I was also surprised the piece never engages Type 6 at all, given how much of it
 - **Acceptance test:** The Rabbit Hole counterarguments section names Type 6, states its core fear, and gives at least one piece of Clark's own evidence that argues against it (not just for One).
 
 **ENNEAGRAM-R2 — The load-bearing Three discriminator resolves less cleanly than the piece claims.**
+
 - **Passage:** "So discriminate on the fear. A Three's dread is worthlessness and it attaches to output. A One's dread is corruption and it attaches to character. Her own filter, back in the race section, sorts incoming criticism on exactly that line: 'not dominating' bounces off her, and an accusation about who she is does not" (Rabbit Hole).
 - **Effect:** A reader who has internalized the "Threes protect the image" framing this same piece uses earlier (H2 1: "a Three protects the visible outcome and manages the room to keep the image intact") will notice the tension: for a Three whose income and platform depend on public image, a character accusation is not obviously less threatening than an output critique — it may be the more dangerous one, since brand and reputation are a Three's actual currency, arguably more central to "worth" than any single performance stat. The piece's own evidence (she is "one of the highest-earning athletes in women's sports," fluent in the commercial machine) makes this the harder case to dismiss, not the easier one.
-- **Evidence/reasoning:** Enneagram theory: for Three, worth = successful image maintained before an audience. A character attack ("you're not who you say you are") threatens the image directly. The piece's discriminator would be stronger if it argued from something Three specifically doesn't do rather than from fear-vocabulary alone — e.g., a Three under a character attack manages the narrative (statement, PR framing, image repair); Clark's response ("don't make accusations about my character... you don't know me") is a boundary claim about being *known* wrongly, not a narrative-management move. That's a real, available discriminator the piece doesn't quite make explicit.
-- **Minimum viable repair:** Add one sentence naming what a Three *would do* differently in the same moment (manage the narrative / control the frame) versus what Clark does (assert she is being misperceived, without offering a counter-narrative) — action-based, not just fear-labeled.
+- **Evidence/reasoning:** Enneagram theory: for Three, worth = successful image maintained before an audience. A character attack ("you're not who you say you are") threatens the image directly. The piece's discriminator would be stronger if it argued from something Three specifically doesn't do rather than from fear-vocabulary alone — e.g., a Three under a character attack manages the narrative (statement, PR framing, image repair); Clark's response ("don't make accusations about my character... you don't know me") is a boundary claim about being _known_ wrongly, not a narrative-management move. That's a real, available discriminator the piece doesn't quite make explicit.
+- **Minimum viable repair:** Add one sentence naming what a Three _would do_ differently in the same moment (manage the narrative / control the frame) versus what Clark does (assert she is being misperceived, without offering a counter-narrative) — action-based, not just fear-labeled.
 - **Expected benefit:** Converts the piece's weakest link in its own alternative-type test into its strongest, since the underlying evidence already supports a sharper version of the same claim.
 - **Confidence:** medium — this is an argument-quality issue, not a factual error; reasonable Enneagram readers could still find the fear-based version persuasive as written.
 - **Acceptance test:** The sp-Three discriminator paragraph includes at least one behavioral (not just fear-labeled) contrast between what a Three would do under a character attack and what Clark does.
 
 **ENNEAGRAM-C3 — The headline typing claim carries more certainty than the article's own production process assigns it.**
+
 - **Passage:** "Caitlin Clark is an Enneagram Type 1" (H3, stated flatly, no hedge) — compare to the working memo's own "Confidence: medium-high," visible only in the HTML production notes, never in reader-facing text.
 - **Effect:** A reader cannot tell, from the article itself, that this is one interpretive reading among several considered and partially resolved, rather than an established fact. This matters more for a living, non-self-typed public figure than for most subjects.
 - **Evidence/reasoning:** The piece is otherwise careful about hedging its mechanism-level claims ("the reading here is," "This reading does not survive it") — the inconsistency is that the top-level type claim doesn't carry the same discipline the sub-claims do.
@@ -74,6 +78,7 @@ I was also surprised the piece never engages Type 6 at all, given how much of it
 - **Acceptance test:** N/A unless the site's own house style is confirmed to require hedged headline claims, in which case: the H1/H3 type assertion carries a one-clause hedge consistent with site convention elsewhere.
 
 **ENNEAGRAM-C4 — The childhood section makes a causal claim the site's own Type 1 pillar page explicitly warns against making unqualified.**
+
 - **Passage:** "The lesson available in a house like that is quiet and durable: there is a correct amount of effort, everyone else is applying less of it, and the gap is yours to close. Which is why the pattern never confined itself to basketball" (H2 2).
 - **Effect:** Presents a specific childhood environment as sufficient explanation for the adult pattern, stated as settled ("which is why"), without the caveat this site's own reference material applies to the identical move.
 - **Evidence/reasoning:** `src/blog/enneagram/enneagram-type-1.md`, "The childhoods Ones describe": "none of these are required, and none of them prove anything. You can be a One without a single scene below, and you can have lived all three without being a One. The type describes where attention goes, and it should never be used to reverse-engineer someone's childhood." The Clark draft performs exactly the reverse-engineering move the pillar page warns against, with no equivalent caveat anywhere in the piece.
@@ -98,16 +103,16 @@ I was also surprised the piece never engages Type 6 at all, given how much of it
 ## Preserve list
 
 > "Ones are not organized around avoiding mistakes. They are organized around doing the thing correctly, and the reading here is that Clark grades correctness at the moment of decision. Whether the ball arrives is a separate question, settled a half-second later by four other people. If the skip pass is the right pass, it is the right pass on the possession it gets deflected and on the possession it gets a layup."
-— H2 5. This is the article's best piece of Enneagram reasoning: it resolves the strongest piece of counterevidence (223 turnovers) through the mechanism of the type rather than despite it, and it does so without overclaiming fact where it's offering a reading.
+> — H2 5. This is the article's best piece of Enneagram reasoning: it resolves the strongest piece of counterevidence (223 turnovers) through the mechanism of the type rather than despite it, and it does so without overclaiming fact where it's offering a reading.
 
 > "So here is the test. Watch for the night she takes the safe pass to protect a number. This reading does not survive it."
-— H2 5. A stated falsifier for a public psychological-type claim is rare and should survive any revision untouched.
+> — H2 5. A stated falsifier for a public psychological-type claim is rare and should survive any revision untouched.
 
 > "What separates her is the order. Bluder's list of her targets starts with 'mad at herself.'"
-— Rabbit Hole, subtype section. Precise, sourced, and uses the theory's actual discriminating machinery (direction and order of anger) rather than its intensity to rule out Eight.
+> — Rabbit Hole, subtype section. Precise, sourced, and uses the theory's actual discriminating machinery (direction and order of anger) rather than its intensity to rule out Eight.
 
 > "the highest-earning athletes in women's sports, fluent inside commercial machinery that runs partly on the very rivalry she is calling fabricated... Both are true, she has not solved it, and there may be no version of her career in which she can."
-— H2 6. The piece's explicit "what the type doesn't explain" — this should never be quietly resolved in a future pass. Forcing a resolution here would be a regression, not an improvement.
+> — H2 6. The piece's explicit "what the type doesn't explain" — this should never be quietly resolved in a future pass. Forcing a resolution here would be a regression, not an improvement.
 
 ## Research log
 

@@ -8,6 +8,7 @@ description: >
 user-invocable: true
 argument-hint: '<concept or blog title>'
 allowed-tools: Read, Write, AskUserQuestion
+path: .claude/skills/midjourney-prompt/SKILL.md
 ---
 
 # Midjourney Prompt Generator for 9takes
@@ -150,12 +151,12 @@ Apply these based on content tone:
 
 Always append Midjourney-specific parameters at the end:
 
-| Parameter   | Options                                                                                     | Default                                 |
-| ----------- | ------------------------------------------------------------------------------------------- | --------------------------------------- |
-| `--ar`      | `16:9` (blog hero), `1:1` (social), `4:5` (feed portrait), `9:16` (story), `3:2` (photo)    | `16:9`                                  |
-| `--stylize` | `0-1000` (higher = more artistic)                                                           | `200` for realistic, `750` for artistic |
-| `--raw`     | No value needed. Reduces Midjourney's default beautification                                | Include for photorealistic              |
-| `--sd`      | Standard-def output for cheap draft passes; HD (native 2K) is already the V8.1+ default     | Omit (HD)                               |
+| Parameter   | Options                                                                                  | Default                                 |
+| ----------- | ---------------------------------------------------------------------------------------- | --------------------------------------- |
+| `--ar`      | `16:9` (blog hero), `1:1` (social), `4:5` (feed portrait), `9:16` (story), `3:2` (photo) | `16:9`                                  |
+| `--stylize` | `0-1000` (higher = more artistic)                                                        | `200` for realistic, `750` for artistic |
+| `--raw`     | No value needed. Reduces Midjourney's default beautification                             | Include for photorealistic              |
+| `--sd`      | Standard-def output for cheap draft passes; HD (native 2K) is already the V8.1+ default  | Omit (HD)                               |
 
 Optional exploration: `--chaos 0-100` for grid variety, `--weird 0-3000` for offbeat looks. **Never append `--quality` / `--q`** — removed in V8.x; it will error or be ignored.
 

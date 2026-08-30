@@ -12,6 +12,7 @@ description: |
   
   Complete Chiefs Coverage: https://www.kshb.com/sports/football/chiefs
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/kshb-randi-martin-sb57.md
 ---
 
 # Momma Mahomes talks through emotions of Super Bowl LVII

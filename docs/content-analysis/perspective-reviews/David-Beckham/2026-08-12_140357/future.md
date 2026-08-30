@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 4
 reviewed_at: 2026-08-12T18:31:41Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357/future.md
 ---
 
 ## Bottom-line verdict
@@ -54,7 +55,7 @@ That formulation can accommodate later honors, charity work or criticism without
 
 **FUTURE-M3.** Several absence or status claims use wording that can expire without looking expired: “As of 2026,” “The fee was never disclosed,” “UNICEF records him as a Goodwill Ambassador,” and “the parents' side has not supplied a detailed answer.”
 
-**FUTURE-M4.** The opening and ending depend on quotations whose source trail is less durable than their rhetorical importance: the packet lacks an episode locator for the 2am scene and did not recover the exact direct *Country Life* passage for “peace.”
+**FUTURE-M4.** The opening and ending depend on quotations whose source trail is less durable than their rhetorical importance: the packet lacks an episode locator for the 2am scene and did not recover the exact direct _Country Life_ passage for “peace.”
 
 ## What I expected
 
@@ -68,9 +69,9 @@ That formulation can accommodate later honors, charity work or criticism without
 
 **FUTURE-U1.** The draft does not overclaim that beekeeping changed Beckham permanently. “The point is not that he escaped image-making” is an effective anti-hagiographic guardrail and substantially improves durability.
 
-**FUTURE-U2.** The article already dates most historical claims precisely. The timeline gives years, the family section gives January and April 2026, the *Country Life* material is tied to October 2025, and the Qatar answer is tied to 4 October 2023. This sharply reduces ambiguity compared with a narrative built around “recently” or “now.”
+**FUTURE-U2.** The article already dates most historical claims precisely. The timeline gives years, the family section gives January and April 2026, the _Country Life_ material is tied to October 2025, and the Qatar answer is tied to 4 October 2023. This sharply reduces ambiguity compared with a narrative built around “recently” or “now.”
 
-**FUTURE-U3.** A fresh status check found that the family paragraph was not false on the review date. The Guardian reported on 20 January 2026 that Beckham addressed children and mistakes only indirectly, not the allegations themselves. *El País* reported on 16 June 2026 that the positions remained far apart and that neither David nor Victoria had answered the allegations. That supports a concern and refresh gate, not a blocker.
+**FUTURE-U3.** A fresh status check found that the family paragraph was not false on the review date. The Guardian reported on 20 January 2026 that Beckham addressed children and mistakes only indirectly, not the allegations themselves. _El País_ reported on 16 June 2026 that the positions remained far apart and that neither David nor Victoria had answered the allegations. That supports a concern and refresh gate, not a blocker.
 
 ## Red flags
 
@@ -80,7 +81,7 @@ There are no blockers.
 
 - **Passage/location:** Opening: “an adult son whose consent cannot be produced on schedule”; TL;DR: “cannot ... compel reconciliation with Brooklyn”; family section: “The public fact is an unfinished relationship” and “the parents' side has not supplied a detailed answer”; conclusion: “His current public record” and “An adult son controls his own consent.”
 - **Reader effect/trust problem:** A later reconciliation, direct response or escalation could make the article sound as though it is asserting an enduring estrangement. Because the status is repeated across four locations, a future reader may mistake an August 2026 snapshot for a permanent fact.
-- **Evidence/reasoning:** The packet explicitly calls the family facts “contested and time-sensitive” and requires reverification if publication is delayed. The Guardian's 20 January 2026 report establishes an indirect David Beckham comment, not a detailed answer. *El País* reported on 16 June 2026 that the parties remained apart and that the parents still had not answered the allegations. The status was accurate at review, but plainly live.
+- **Evidence/reasoning:** The packet explicitly calls the family facts “contested and time-sensitive” and requires reverification if publication is delayed. The Guardian's 20 January 2026 report establishes an indirect David Beckham comment, not a detailed answer. _El País_ reported on 16 June 2026 that the parties remained apart and that the parents still had not answered the allegations. The status was accurate at review, but plainly live.
 - **Minimum viable repair:** In the body, state “As of 12 August 2026” before the no-detailed-answer/status sentence. In the opening, TL;DR and conclusion, frame the durable point as the structural fact that an adult family member controls their own account and consent, without presuming continuing estrangement or a desired reconciliation.
 - **Expected benefit:** One future update can be confined to the dated family paragraph, while the thesis survives any later family outcome.
 - **Confidence:** High.
@@ -98,10 +99,10 @@ There are no blockers.
 
 **FUTURE-C3 — Concern: two load-bearing scenes and one quoted denial rely on fragile source paths.**
 
-- **Passage/location:** Opening: “trimming spent candle wicks, resetting dimmers” and calling the ritual “exhausting”; beekeeping section: Beckham said the countryside gave his family “peace”; marriage section: the *Desert Island Discs* denial.
+- **Passage/location:** Opening: “trimming spent candle wicks, resetting dimmers” and calling the ritual “exhausting”; beekeeping section: Beckham said the countryside gave his family “peace”; marriage section: the _Desert Island Discs_ denial.
 - **Reader effect/trust problem:** If a streaming scene, commercial feature or secondary write-up becomes inaccessible, a future editor cannot efficiently verify the hook, closing insight or marriage quotation. The prose could remain online after its audit trail has disappeared.
-- **Evidence/reasoning:** The packet says the 2am scene lacks an episode-level locator, the exact *Country Life* passage for “peace” was not recovered, and the BBC News write-up associated with the marriage quote returned 404. These are source-resilience issues, not evidence that the statements are false.
-- **Minimum viable repair:** Add the Netflix episode and timestamp for the opening; secure the exact *Country Life* page/issue location for “peace”; cite the durable BBC Radio 4 episode page or audio timestamp; record access dates or archival copies for campaign/editorial pages where policy permits.
+- **Evidence/reasoning:** The packet says the 2am scene lacks an episode-level locator, the exact _Country Life_ passage for “peace” was not recovered, and the BBC News write-up associated with the marriage quote returned 404. These are source-resilience issues, not evidence that the statements are false.
+- **Minimum viable repair:** Add the Netflix episode and timestamp for the opening; secure the exact _Country Life_ page/issue location for “peace”; cite the durable BBC Radio 4 episode page or audio timestamp; record access dates or archival copies for campaign/editorial pages where policy permits.
 - **Expected benefit:** The article's most memorable passages remain independently auditable after ordinary link rot.
 - **Confidence:** High.
 - **Acceptance test:** A reviewer with only the published citations, and not this internal packet, can directly locate each quoted phrase and scene in its primary or durable authoritative source.
@@ -111,7 +112,7 @@ There are no blockers.
 - **Passage/location:** Type 3/Type 9 FAQ: “the fashion house”; diagnosis: “Nobody assigned the fashion house”; Rabbit Hole: “Miami club, fashion house or Attitude cover.”
 - **Reader effect/trust problem:** A future reader may reasonably infer that David founded or owned a fashion house, or may confuse his work with Victoria Beckham's company. Because the example is presented as deciding evidence for self-authorship, ambiguity weakens the durable type argument.
 - **Evidence/reasoning:** The packet verifies modeling, endorsements, image-building and brand ventures but identifies no David-founded fashion house. It explicitly lists this as unresolved and offers better-supported alternatives.
-- **Minimum viable repair:** Name and source the exact David Beckham venture and his role, or replace all three instances with a verified self-authored arena such as Studio 99, Miami, Los Angeles or the *Attitude* cover.
+- **Minimum viable repair:** Name and source the exact David Beckham venture and his role, or replace all three instances with a verified self-authored arena such as Studio 99, Miami, Los Angeles or the _Attitude_ cover.
 - **Expected benefit:** The countertyping argument remains specific and verifiable rather than relying on context a future reader may not share.
 - **Confidence:** High.
 - **Acceptance test:** Every reader-visible “fashion house” reference is removed, or each names a specific entity, David Beckham's documented role and a supporting source.
@@ -122,7 +123,7 @@ There are no blockers.
 
 - **Passage/location:** Opening, TL;DR, “Why the Beckham marriage survived its worst year,” and “The work that makes David Beckham wait.”
 - **Reader effect/trust problem:** The same live status can become stale in four places.
-- **Evidence/reasoning:** FUTURE-C1; packet S-20; The Guardian, 20 January 2026; *El País*, 16 June 2026.
+- **Evidence/reasoning:** FUTURE-C1; packet S-20; The Guardian, 20 January 2026; _El País_, 16 June 2026.
 - **Minimum viable repair:** Keep allegations, responses and relationship status in one explicitly dated paragraph. Elsewhere use outcome-neutral language about consent and competing accounts.
 - **Expected benefit:** A status change requires one bounded update and does not disturb the core thesis.
 - **Confidence:** High.
@@ -167,8 +168,8 @@ Complete this list by **12 August 2027**, or immediately before any later public
 3. Recheck current Qatari law and the article's labor-rights wording against authoritative legal/current human-rights sources; date the findings rather than implying a timeless present.
 4. Verify Beckham's current UNICEF Goodwill Ambassador and 7 Fund status on UNICEF's official record. If the role changed, preserve the historical tenure with start/end dates.
 5. Verify Beckham's Inter Miami ownership/title if it remains in metadata or present-tense biographical copy; do not rewrite the already dated 2007-23 chronology merely because later club events occur.
-6. Confirm the Netflix 2am episode/timestamp, the direct *Country Life* location for “peace,” the BBC Radio 4 marriage quote and the Neville salary-anecdote speaker. Remove or narrow anything still not directly locatable.
-7. Run a link check on Netflix/Tudum, YouTube, Visit Qatar, *Country Life*, CNN, BBC, Sky Sports, UNICEF and government citations. Replace redirects/404s with durable authoritative or archived links where permitted.
+6. Confirm the Netflix 2am episode/timestamp, the direct _Country Life_ location for “peace,” the BBC Radio 4 marriage quote and the Neville salary-anecdote speaker. Remove or narrow anything still not directly locatable.
+7. Run a link check on Netflix/Tudum, YouTube, Visit Qatar, _Country Life_, CNN, BBC, Sky Sports, UNICEF and government citations. Replace redirects/404s with durable authoritative or archived links where permitted.
 8. Update `lastmod` to the actual verification date, then search the reader-visible copy for “current,” “now,” “recently,” “as of,” “never,” “still,” “has not” and present-tense institutional/legal claims. Every hit must be historical, quoted, or tied to an exact date.
 9. Retest the newest-event removal rule: temporarily remove all post-2025 family material. The thesis, Type 3/Type 9 balance and conclusion must still stand without repairs elsewhere.
 
@@ -182,7 +183,7 @@ Complete this list by **12 August 2027**, or immediately before any later public
 
 **FUTURE-Q4.** What exact David Beckham venture does “fashion house” denote? **What would change:** whether the example can remain in the deciding Type 3 evidence or must be replaced. **Best source:** the named company's official ownership/history record or corporate filing.
 
-**FUTURE-Q5.** Can the exact 2am scene, “peace” wording and *Desert Island Discs* denial be located in durable primary sources? **What would change:** citation confidence for the hook, closing thread and marriage section; failure would require narrower wording or removal of the quotation marks. **Best source:** Netflix episode footage with timestamp, the October 2025 *Country Life* issue/page, and the BBC Radio 4 episode audio/page.
+**FUTURE-Q5.** Can the exact 2am scene, “peace” wording and _Desert Island Discs_ denial be located in durable primary sources? **What would change:** citation confidence for the hook, closing thread and marriage section; failure would require narrower wording or removal of the quotation marks. **Best source:** Netflix episode footage with timestamp, the October 2025 _Country Life_ issue/page, and the BBC Radio 4 episode audio/page.
 
 ## Preserve list
 

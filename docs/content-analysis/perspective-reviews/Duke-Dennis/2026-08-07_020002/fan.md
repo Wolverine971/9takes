@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 6
 reviewed_at: 2026-08-07T06:49:51Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/fan.md
 ---
 
 ## Bottom-line verdict

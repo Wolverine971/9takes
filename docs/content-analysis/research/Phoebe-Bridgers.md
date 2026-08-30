@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Phoebe-Bridgers.md -->
+
 # Phoebe Bridgers: durable research and Enneagram reasoning packet
 
 **Compiled:** 2026-08-14  

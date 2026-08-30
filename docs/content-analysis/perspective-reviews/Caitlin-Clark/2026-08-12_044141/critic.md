@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 4
 reviewed_at: 2026-08-12T05:10:00Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/critic.md
 ---
 
 ## Bottom-line verdict
@@ -40,6 +41,7 @@ The piece's own three-stage critic-pressure ledger (Swoopes → the racialized f
 ## Red flags
 
 **CRITIC-R1 — H2 6 anchors the "hardest test" on the more resolved incident and omits the harder one.**
+
 - Location: H2 6, paragraph beginning "On June 1, 2024, Chennedy Carter of the Chicago Sky hip-checked Clark to the floor..."
 - Reader effect: A reader is told this is "the hardest test of any read on Clark," then given an incident (a foul, upgraded to flagrant on review, universally condemned) that resolves cleanly rather than one that stayed contested and became a national media-ethics story.
 - Evidence: In the 2024 WNBA playoffs, DiJonai Carrington (then Connecticut Sun) poked Clark in the eye on a live-ball play; USA Today's Christine Brennan publicly asked Carrington whether it was intentional, and the WNBPA issued a statement accusing Brennan of fueling racist narratives about Black players being coded as aggressive. This is a materially harder test of "the war fought in her name" than the Carter foul, because it directly implicates media framing of Black players — the exact mechanism the section's own thesis is about — rather than a fan-abuse aftermath everyone agrees was wrong. [Fox News, Total Pro Sports, SI OnSI coverage of the Carrington/Brennan episode, via web search 2026-08-12]
@@ -49,6 +51,7 @@ The piece's own three-stage critic-pressure ledger (Swoopes → the racialized f
 - Acceptance test: A reader familiar with 2024 WNBA coverage, on finishing H2 6, does not think "they picked the easy one."
 
 **CRITIC-R2 — The turnover-record beat and the racialized-fandom beat never connect, though the same person sits at the center of both.**
+
 - Location: H2 5's key-stat ("223 turnovers... The record she broke was 137") and H2 6 (Carter hip-check onward).
 - Reader effect: The turnover record reads as a pure basketball-and-psychology fact, disconnected from the fact that the player whose record it was has publicly discussed being on the receiving end of exactly the fan behavior H2 6 describes.
 - Evidence: Alyssa Thomas, whose 137-turnover mark Clark broke, said in 2025 that she experienced racist comments from Indiana Fever fans she had "never experienced" in an 11-year career. [reporting on Thomas's 2025 comments, via web search 2026-08-12] The draft uses Thomas only as a number.
@@ -58,6 +61,7 @@ The piece's own three-stage critic-pressure ledger (Swoopes → the racialized f
 - Acceptance test: A reader who knows whose record Clark broke does not have to supply the racialized-fandom connection themselves.
 
 **CRITIC-R3 — The closing "filter" framework doesn't classify the criticism it's placed after.**
+
 - Location: End of H2 6, "Look at what survives the filter... 'You are not dominating' is a claim about output... 'You are a bad person' cannot be handled that way..."
 - Reader effect: The framework reads as a complete accounting of how Clark sorts incoming criticism, immediately after the McNutt quote ("room for a little bit more accountability and self-awareness... the larger sisterhood") — but McNutt's claim is neither a pure output claim nor a character attack; it's a claim about relational/institutional responsibility. The binary filter silently skips it.
 - Evidence: Textual — McNutt's quote sits between the filter's setup and its close, and the filter's own two categories (output / character) have no slot for "accountability to a group she benefits from."
@@ -67,6 +71,7 @@ The piece's own three-stage critic-pressure ledger (Swoopes → the racialized f
 - Acceptance test: A careful reader can say where each of the three criticisms discussed in H2 6 (Swoopes, the abuse/Carrington exchange, McNutt) lands on the filter, using only the text.
 
 **CRITIC-R4 — The "commercial seam" is framed as personal ambivalence and never tested against the institutional version of the same critique.**
+
 - Location: H2 6, "That is the seam in the whole picture... Clark is one of the highest-earning athletes in women's sports, fluent inside commercial machinery that runs partly on the very rivalry she is calling fabricated..."
 - Reader effect: The unresolved tension reads as Clark's personal moral weight to carry (she keeps the check, she assigns credit elsewhere), when a substantial body of sports-media criticism argues the tension is structural: WNBA sponsors and networks have a documented pattern of making white players (Lobo, Bird, Ionescu, now Clark) the league's commercial face regardless of statistical ranking against Black peers like A'ja Wilson. That's a claim about the machine, not about Clark's conscience, and the piece never puts it on the page even to test it.
 - Evidence: Multiple outlets (The Conversation's piece on Brennan and racial stereotypes in WNBA coverage; reporting on endorsement-value disparities between Clark and comparably or more decorated Black players) make this argument explicitly. [web search 2026-08-12]

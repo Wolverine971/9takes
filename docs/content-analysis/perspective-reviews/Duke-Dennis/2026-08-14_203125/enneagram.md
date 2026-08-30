@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 5
 reviewed_at: 2026-08-15T01:19:37Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -45,7 +46,7 @@ This is the Eight's vulnerability-denial mechanic stated in plain English, and i
 Type 8 page, whose stated core wound is "Vulnerability means being ownable." It then gets cashed as
 narrative at the Dee shirt ("Hurt with no channel of its own, surfacing as composure") rather than being
 asserted and abandoned. Setup-and-payoff across 3,000 words is the strongest structural move in the
-piece. It must survive revision because it is the only place the draft argues the *inward* half of the
+piece. It must survive revision because it is the only place the draft argues the _inward_ half of the
 type; delete it and the analysis becomes a portrait of a man who dislikes being bossed around.
 
 **ENN-H2 — the shift-bell paragraph: motivation, not behavior.**
@@ -77,8 +78,8 @@ followed by:
 > "The null hypothesis survives regardless: a twenty-year-old with no friends, no car, and no language
 > stays in his room for ordinary reasons."
 
-The draft states a rule for what counts as arrow evidence, applies it, and *disqualifies its own best
-example* (the interview-free years) for failing the rule. Then it concedes the ordinary-loneliness
+The draft states a rule for what counts as arrow evidence, applies it, and _disqualifies its own best
+example_ (the interview-free years) for failing the rule. Then it concedes the ordinary-loneliness
 explanation for the example it keeps. Isolation-as-arrow-proof is the most common error in Enneagram
 writing about anyone who has ever been alone; this passage is immune to it.
 
@@ -124,7 +125,7 @@ door opens onto the wrong room.
 
 **The "so" instinct claim does not do instinct-level work.** See ENN-C4. Group guardianship is what
 9takes' own Type 8 page lists as baseline Eight behavior ("Protect the people who can't protect
-themselves"), so citing it as evidence for a *secondary instinct* is citing the core type twice.
+themselves"), so citing it as evidence for a _secondary instinct_ is citing the core type twice.
 
 ## What I expected
 
@@ -171,13 +172,13 @@ themselves"), so citing it as evidence for a *secondary instinct* is citing the 
   sitting. That converts the draft's best epistemic asset — its willingness to state what it cannot
   explain — into selective quotation.
 - **Evidence / source:** Verified by direct grep of `youtube-transcripts/duke-dennis-360-with-speedy-2024.md`
-  (S-02, Complex *360 With Speedy*, 2024-02-01), not taken from the packet. The evidence packet
+  (S-02, Complex _360 With Speedy_, 2024-02-01), not taken from the packet. The evidence packet
   independently flags it as "the strongest single piece of pro-3 evidence in the corpus" and records that
   the draft cut the beat for word budget.
 - **Minimum viable repair:** Narrow the verb and absorb the counterexample in one clause. The claim that
-  survives the tape is not that he declines attention but that he declines *authored* attention — the
+  survives the tape is not that he declines attention but that he declines _authored_ attention — the
   interview, the sit-down, the format where someone else sets the questions. His own gloss on the
-  compliments is doing the work already: what he calls refreshing is the *absence of trolls* and a
+  compliments is doing the work already: what he calls refreshing is the _absence of trolls_ and a
   changed audience ratio, not being celebrated. Two sentences, e.g. concede the compliments line, then
   discriminate: a Three metabolizes being seen; Duke reports relief that the hostility stopped. Cost is
   roughly 35 words; the draft is at 4,494 against a 4,500 ceiling, so this must be paid for with a cut,
@@ -195,7 +196,7 @@ themselves"), so citing it as evidence for a *secondary instinct* is citing the 
 - **Exact passage:** Rabbit Hole → "Duke Dennis's Wing: 8w9" → "The AMP-versus-RDC 'beef' gets defused in
   one line ('we all on the same side anyway')… That is the 8w9 rhythm: long silence, one unmistakable
   conversation, file closed. An 8w7 would have kept the friction running, because friction is content."
-- **Reader effect / trust problem:** On tape, Duke defuses the *seriousness* of the beef, not the
+- **Reader effect / trust problem:** On tape, Duke defuses the _seriousness_ of the beef, not the
   friction, and says so explicitly: "the [trash] talking will never like cease… I'm still going to
   [talk] about [them] and vice versa." He then immediately runs a sustained competitive riff — "they suck
   at everything," "I don't see nothing they can beat us in nothing cross the board," followed by the
@@ -204,7 +205,7 @@ themselves"), so citing it as evidence for a *secondary instinct* is citing the 
   example (the aura-farming burst), and that one is sourced to a Tier-3 aggregator.
 - **Evidence / source:** Direct grep of `youtube-transcripts/duke-dennis-360-with-speedy-2024.md`; the
   RDC exchange runs continuously from "how real is this beef" through the Family Feud aside.
-- **Minimum viable repair:** Swap the example or split it honestly. The tape supports a *better* 8w9
+- **Minimum viable repair:** Swap the example or split it honestly. The tape supports a _better_ 8w9
   reading than the one printed: he refuses to let the banter be read as real conflict while cheerfully
   keeping the banter — territory defended, war declined. Either render it that way, or drop RDC and let
   the aura-farming burst carry the wing with an added acknowledgment that the wing call is the weaker
@@ -230,8 +231,8 @@ themselves"), so citing it as evidence for a *secondary instinct* is citing the 
 - **Minimum viable repair:** One or two sentences using evidence already on tape. The discriminators exist
   and are strong: the Seven's pressure response is escape into options, and Duke's is sealing the
   perimeter (Germany); the Seven resists closing options, and Duke closes them permanently ("nobody else
-  can join"); the Seven's freedom is freedom-*to*, and every one of Duke's three freedom statements is
-  freedom-*from*. The "on call 24/7" line (ENN-I1) settles it in his own words.
+  can join"); the Seven's freedom is freedom-_to_, and every one of Duke's three freedom statements is
+  freedom-_from_. The "on call 24/7" line (ENN-I1) settles it in his own words.
 - **Expected benefit:** Removes the strongest unaddressed objection at the cost of ~40 words, and the
   answer is favorable to the thesis.
 - **Confidence:** High that the omission is conspicuous; high that the discriminating evidence exists.
@@ -276,8 +277,8 @@ themselves"), so citing it as evidence for a *secondary instinct* is citing the 
 - **Evidence / source:** `src/blog/enneagram/enneagram-type-8.md` ("The math you learned early"). The
   internal subtypes page defines SO as "Community, status, contribution" and specifically the neglect of
   "Personal needs, intimacy."
-- **Minimum viable repair:** Replace one of the three items with something that reads on the *status /
-  belonging* axis rather than the protection axis — the draft's own better example is already in the
+- **Minimum viable repair:** Replace one of the three items with something that reads on the _status /
+  belonging_ axis rather than the protection axis — the draft's own better example is already in the
   paragraph's next sentence, that "rizz" is a label about his standing in a crowd. Alternatively state
   plainly that the second instinct is the weaker call. Zero-to-low word cost.
 - **Expected benefit:** The stacking claim becomes checkable rather than decorative.
@@ -319,8 +320,8 @@ themselves"), so citing it as evidence for a *secondary instinct* is citing the 
 - **The material:** On tape in the 2024 Complex interview — "the Army is a regular 9 to 5 except like the
   working out in the mornings… the being on call 24/7 is what makes the Army like unbearable for me."
   Verified by grep. Unused anywhere in the draft.
-- **Why it works:** He volunteers that the schedule was survivable and names *perpetual availability to
-  someone else's command* as the unbearable part. That is the Eight's non-domination motive stated as
+- **Why it works:** He volunteers that the schedule was survivable and names _perpetual availability to
+  someone else's command_ as the unbearable part. That is the Eight's non-domination motive stated as
   motive, not behavior, by the subject. It simultaneously answers ENN-C2, because a Seven's complaint
   would attach to the repetition and the closed options, not to being on call.
 - **Minimum viable version:** One sentence plus the quoted clause, roughly 30 words, placed where the
@@ -374,13 +375,13 @@ themselves"), so citing it as evidence for a *secondary instinct* is citing the 
 ## Follow-on questions
 
 **ENN-Q1 — Is there any recorded instance of Duke initiating and sustaining a confrontation?**
-Everything in the draft is an *exit*: the factory, the first sergeant, the fans in Aspen, the demoted
+Everything in the draft is an _exit_: the factory, the first sergeant, the fans in Aspen, the demoted
 videos. Exits are shared with Nines (withdrawal) and Fives (disengagement). The Eight's signature is
 confrontation — 9takes' own stress data gives the Eight's defense as "Resist, confront, and reclaim
 control." **What would change:** a documented instance of him escalating on someone with power over him
 would close the 9w8 alternative the draft currently calls "the quietest alternative" and leaves open on a
 discriminator (what happens to arrangements he hates) that the four-year stay already contradicts. Absence
-of any such instance across a decade of public streaming would be meaningful evidence *for* 9w8 and should
+of any such instance across a decade of public streaming would be meaningful evidence _for_ 9w8 and should
 be stated. **Best source:** his own live-channel archives and clip compilations around the RDC and
 aura-farming episodes; the Aug 17 2025 return stream.
 
@@ -427,16 +428,16 @@ Passages that must survive revision, and why:
 
 ## Research log
 
-| # | Source | Question it answered | Decision it affected |
-|---|---|---|---|
-| 1 | `evidence-packet.md` (shared, read first per protocol) | Baseline facts, tier discipline, what the draft cut | Framed RQ-E2; supplied the pointer to the compliments line, which I then verified independently |
-| 2 | `src/blog/enneagram/enneagram-type-8.md` | Does the draft's type framing match 9takes' own house theory? | ENN-H1 confirmed (core wound match); ENN-C4 raised (guardianship is baseline 8); Preserve item 8 |
-| 3 | `src/blog/enneagram/enneagram-types-in-stress.md` + `src/lib/data/enneagramStressLoops.ts` (type 8, L240–268) | Does the linked stress page describe withdrawal? | ENN-C3 raised — it describes confrontation. Also confirmed the Eight's alarm sentence is literally about freedom, supporting the draft's lexical spine |
-| 4 | `src/blog/enneagram/enneagram-connecting-lines.md` (L224–228) | Where does 8→5 actually live? | ENN-C3 repair target; the "sealed bunker" language is a near-verbatim match for the draft's Germany beat |
-| 5 | `src/blog/enneagram/enneagram-wings-complete-guide.md` + `enneagram-instinctual-subtypes.md` | Are 8w9 and the sp/so framing house-consistent? | Wing framing confirmed consistent (8w9 "The Bear," quiet intensity; 8w7 impulsive/overwhelming). Subtype page frames SX as one-to-one connection, not seduction — the draft's handling is correct |
-| 6 | `youtube-transcripts/duke-dennis-360-with-speedy-2024.md` (S-02, primary) | RQ-E2 verification; RDC context; interview qualifier; discriminating quotes | **ENN-B1 confirmed** (compliments line verbatim); **ENN-C1 confirmed** (RDC riff continues); ENN-C5 confirmed (Sneaker Shopping + podcast named on tape); **ENN-I1 discovered** ("on call 24/7") |
-| 7 | `youtube-transcripts/duke-dennis-army-story-time.md` (S-03, primary) | Context around the anti-authority triple | Confirmed "bigger plans for myself" sits in the same breath as the triple, which is what makes the Seven reading live — ENN-C2 |
-| 8 | `src/lib/data/corpus-stats.json` (via packet verification) | Is the 11-of-90 claim exact? | ENN-H6 confirmed |
+| #   | Source                                                                                                        | Question it answered                                                        | Decision it affected                                                                                                                                                                              |
+| --- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | `evidence-packet.md` (shared, read first per protocol)                                                        | Baseline facts, tier discipline, what the draft cut                         | Framed RQ-E2; supplied the pointer to the compliments line, which I then verified independently                                                                                                   |
+| 2   | `src/blog/enneagram/enneagram-type-8.md`                                                                      | Does the draft's type framing match 9takes' own house theory?               | ENN-H1 confirmed (core wound match); ENN-C4 raised (guardianship is baseline 8); Preserve item 8                                                                                                  |
+| 3   | `src/blog/enneagram/enneagram-types-in-stress.md` + `src/lib/data/enneagramStressLoops.ts` (type 8, L240–268) | Does the linked stress page describe withdrawal?                            | ENN-C3 raised — it describes confrontation. Also confirmed the Eight's alarm sentence is literally about freedom, supporting the draft's lexical spine                                            |
+| 4   | `src/blog/enneagram/enneagram-connecting-lines.md` (L224–228)                                                 | Where does 8→5 actually live?                                               | ENN-C3 repair target; the "sealed bunker" language is a near-verbatim match for the draft's Germany beat                                                                                          |
+| 5   | `src/blog/enneagram/enneagram-wings-complete-guide.md` + `enneagram-instinctual-subtypes.md`                  | Are 8w9 and the sp/so framing house-consistent?                             | Wing framing confirmed consistent (8w9 "The Bear," quiet intensity; 8w7 impulsive/overwhelming). Subtype page frames SX as one-to-one connection, not seduction — the draft's handling is correct |
+| 6   | `youtube-transcripts/duke-dennis-360-with-speedy-2024.md` (S-02, primary)                                     | RQ-E2 verification; RDC context; interview qualifier; discriminating quotes | **ENN-B1 confirmed** (compliments line verbatim); **ENN-C1 confirmed** (RDC riff continues); ENN-C5 confirmed (Sneaker Shopping + podcast named on tape); **ENN-I1 discovered** ("on call 24/7")  |
+| 7   | `youtube-transcripts/duke-dennis-army-story-time.md` (S-03, primary)                                          | Context around the anti-authority triple                                    | Confirmed "bigger plans for myself" sits in the same breath as the triple, which is what makes the Seven reading live — ENN-C2                                                                    |
+| 8   | `src/lib/data/corpus-stats.json` (via packet verification)                                                    | Is the 11-of-90 claim exact?                                                | ENN-H6 confirmed                                                                                                                                                                                  |
 
 No web research was required. Every finding in this review is checkable from the repository and the two
 primary transcripts, which is also why every repair is available without new reporting.

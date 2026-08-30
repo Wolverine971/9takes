@@ -11,6 +11,7 @@ research_required: 2
 protected_hits: 12
 requires_revision: true
 synthesized_at: 2026-08-09T08:03:04Z
+path: docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207/synthesis.md
 ---
 
 ## Executive verdict
@@ -26,7 +27,7 @@ Adjudication note on independence: five of six reviewers independently found the
 - **Originating reviews:** CRITIC-B1 (critic, blocker), SUBJECT-B2 (subject, blocker), FAN-C2 (fan), FUTURE-C2 (future)
 - **Location / passage:** "Is The Pitt Just ER?" section — "No personality framework settles a copyright case."
 - **Adjudicated problem:** The suit is pled as breach of contract (the 1994 ER agreement's derivative-works "Frozen Rights" provision), not copyright infringement — packet CLM-08 marks the draft's label **contradicted** (S-12, S-14). The error sits in the exact sentence performing legal carefulness, in the section the page's own keywords target.
-- **Evidence / confidence:** High. Four independent detections; packet-verified. One genuine conflict adjudicated: FUTURE-C2 notes Rolling Stone's ruling coverage describes the judge finding possible contract interference *and* copyright infringement, so the coverage itself renders the label inconsistently — which is why the repair below drops the label rather than swapping it.
+- **Evidence / confidence:** High. Four independent detections; packet-verified. One genuine conflict adjudicated: FUTURE-C2 notes Rolling Stone's ruling coverage describes the judge finding possible contract interference _and_ copyright infringement, so the coverage itself renders the label inconsistently — which is why the repair below drops the label rather than swapping it.
 - **Minimum repair:** "No personality framework settles a lawsuit." (Label-free. Do **not** substitute "contract case" — see Conflicts.)
 - **Expected reader benefit:** Removes the article's only sentence falsifiable by a court document; informed lawsuit-followers find nothing to catch.
 - **At risk:** The sentence is adjacent to the protected "motives and rights" guardrail (PROTECT-04) — change only the one word-cluster, nothing around it.
@@ -49,7 +50,7 @@ Adjudication note on independence: five of six reviewers independently found the
 - **Location / passage:** "Noah Wyle Went to the Capitol Twice," April 2012 beat — "Asked about it afterward, he said the arrest felt 'really good.'"
 - **Adjudicated problem:** Quote/context distortion. The sourced "really good" is about the ADAPT crowd's cheer as he was led away (AP, S-20); his sourced verdict on the arrest is "It was a good fight to fight and I was really glad I did it" (Disability Scoop, S-19). The draft inherits a THR headline compression (packet CLM-05) and makes a considered act of civil disobedience sound glib — in the piece's flagship bespoke section.
 - **Evidence / confidence:** High; packet-verified, three independent detections.
-- **Minimum repair:** Quote what he actually said — "a good fight to fight and I was really glad I did it" — and/or keep "really good" re-anchored to its true referent, the activists' cheer (which, as the fan review notes, is actually *better* evidence for the belonging-to-the-group argument).
+- **Minimum repair:** Quote what he actually said — "a good fight to fight and I was really glad I did it" — and/or keep "really good" re-anchored to its true referent, the activists' cheer (which, as the fan review notes, is actually _better_ evidence for the belonging-to-the-group argument).
 - **Expected reader benefit:** The section a fact-checker aims at first becomes quote-proof, and the 2012 beat gains a more vivid, correctly sourced detail.
 - **At risk:** The two-date case-file structure (PROTECT-05) — repair the quote inside it, do not restructure.
 - **Acceptance test:** Every quoted phrase in the 2012 beat matches a sourced sentence with its stated referent intact.
@@ -58,7 +59,7 @@ Adjudication note on independence: five of six reviewers independently found the
 
 - **Originating reviews:** CRITIC-C4 (critic), SUBJECT-C1 + SUBJECT-C3 (subject), FAN-C7 (fan), FUTURE-C4 (future)
 - **Location / passages:** Same section — (a) "**Spring 2025.**"; (b) "He tells them, 'You deserve to be seen and heard.'"; (c) "joined the board of Human Rights Watch"; (d) "a Macedonian refugee camp holding 10,000 people".
-- **Adjudicated problem:** Four packet-verified wobbles concentrated in the section where superfans have receipts: the trip was **June 10–12, 2025** (S-21) — and the section's whole authority is date precision; the quoted sentence is retrievable only as nurse.org's *headline framing*, not verified verbatim (S-22; packet dispute #4) — quote-fidelity breach if printed as direct speech; his documented HRW role is the **California/Los Angeles committee**, not the board (S-24, S-25) — a service-credential inflation inside the argument that his service record is authentic; the camp figure is disputed (10,000 per Psychology Today vs ~4,000 per Wyle's own account — packet dispute #2).
+- **Adjudicated problem:** Four packet-verified wobbles concentrated in the section where superfans have receipts: the trip was **June 10–12, 2025** (S-21) — and the section's whole authority is date precision; the quoted sentence is retrievable only as nurse.org's _headline framing_, not verified verbatim (S-22; packet dispute #4) — quote-fidelity breach if printed as direct speech; his documented HRW role is the **California/Los Angeles committee**, not the board (S-24, S-25) — a service-credential inflation inside the argument that his service record is authentic; the camp figure is disputed (10,000 per Psychology Today vs ~4,000 per Wyle's own account — packet dispute #2).
 - **Evidence / confidence:** High on (a) and (c); high on the sourcing gap in (b) (unverified, not disproven); medium on (d) (genuinely disputed).
 - **Minimum repair:** "**June 2025.**"; paraphrase the message or attribute it as reported framing (or substitute his verified CBS quote about the show being "a love letter to frontline workers… to let them feel very seen and heard"); "Human Rights Watch's Los Angeles committee"; "a camp holding thousands" or attribute the 10,000 to Psychology Today.
 - **Expected reader benefit:** The piece's only large body of non-self-narrated evidence — the thing the whole trust case leans on — becomes audit-proof.
@@ -72,7 +73,7 @@ Adjudication note on independence: five of six reviewers independently found the
 - **Adjudicated problem:** Castmate coverage attributes the ban's institution to executive producer John Wells; Wyle confirms, champions, and enforces it (packet CLM-14, **contradicted on attribution**; S-37). The overreach inflates the exact evidence the section argues from — and, as the subject review notes, hands a man whose signature is enlisting in others' institutions a founder's credit he doesn't claim.
 - **Evidence / confidence:** High; four independent detections, packet-verified.
 - **Minimum repair:** One verb-level reattribution: the set's no-phones policy — a Wells rule Wyle champions and enforces — with his verbatim "invasive energy" rationale and bonding riff untouched.
-- **Expected reader benefit:** The leadership case rests only on what is actually his; the reattribution incidentally *strengthens* the Loyalist thesis.
+- **Expected reader benefit:** The leadership case rests only on what is actually his; the reattribution incidentally _strengthens_ the Loyalist thesis.
 - **At risk:** Nothing protected; keep McCormack's testimony and the de-fearing speech as the section's spine.
 - **Acceptance test:** The article nowhere states or implies Wyle instituted the ban.
 
@@ -83,7 +84,7 @@ Adjudication note on independence: five of six reviewers independently found the
 - **Adjudicated problem:** Three gaps (packet CLM-07): R. Scott Gemmill — quoted admiringly elsewhere in the article — is a named defendant and is omitted from both lists; the February 2025 ruling was an anti-SLAPP denial under a minimal-merit prima facie screen, which "substantial enough" overstates; and the draft is silent on the live posture — defendants appealed October 2025, briefing completed May 2026 ("patently absurd," per their reply), undecided. The omissions tilt the legal picture and date the article's knowledge without saying so.
 - **Evidence / confidence:** High; four independent detections; packet S-12/S-13/S-14/S-15, corroborated by three reviewers' own searches finding nothing newer.
 - **Minimum repair:** Add Gemmill to both defendant lists; one clause qualifying the ruling as an early-dismissal screen; one as-of clause: the ruling is on appeal, briefed and undecided as of mid-2026.
-- **Expected reader benefit:** Any future outcome makes the article *incomplete* rather than *wrong*; informed readers tracking the case find nothing missing.
+- **Expected reader benefit:** Any future outcome makes the article _incomplete_ rather than _wrong_; informed readers tracking the case find nothing missing.
 - **At risk:** PROTECT-03 (steelman paragraph) and PROTECT-04 (guardrail) sit in this section — add around them, change nothing inside them. Keep the FAQ's "Legally that is contested" shape.
 - **Acceptance test:** Defendant roster matches the complaint's four names in body and FAQ; the appeal is stated as existing and unresolved; "let the case move ahead" is qualified as preliminary.
 
@@ -298,4 +299,3 @@ Consulted beyond the packet and reviews (within the three-source allowance), to 
 1. **FIGS partnership verification (adjudicating CRITIC-C1, a lone-reviewer P0 candidate resting on facts outside the shared packet):** FIGS IR / Business Wire, 2026-05-07 — "FIGS and Noah Wyle Launch Long-Term Partnership to Advocate for the Healthcare Workforce and Reduce Medical Debt" (https://ir.wearfigs.com/news/news-details/2026/FIGS-and-Noah-Wyle-Launch-Long-Term-Partnership-to-Advocate-for-the-Healthcare-Workforce-and-Reduce-Medical-Debt/default.aspx; syndicated at https://www.businesswire.com/news/home/20260507793975/en/). Confirms: formal long-term partnership, Wyle as brand ambassador, and the release's own framing that it "builds on" Wyle joining FIGS in Washington, D.C. in June 2025. Decision: CRITIC-C1 accepted and promoted to P0-07; residual timing question logged as RQ-01.
 2. **Internal repo checks (not external sources):** `src/scss/blog.scss:592` (`.inner-thought` renders as a distinct thought-bubble callout → UNFAMILIAR-C4 rejected as no-change-needed); `src/routes/personality-analysis/[slug]/+page.svelte` (FAQSection imported and wired → UNFAMILIAR-Q1 resolved; body orientation repairs stand).
 3. **Draft SHA verified** against `context.json` and the supplied argument before adjudication (`a5870ab6…3e3e5894`, match).
-

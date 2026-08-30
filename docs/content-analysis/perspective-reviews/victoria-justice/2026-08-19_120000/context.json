@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "subject": "victoria-justice",
-  "draft_path": "src/blog/people/drafts/victoria-justice.md",
-  "review_dir": "docs/content-analysis/perspective-reviews/victoria-justice/2026-08-19_120000",
-  "draft_sha256": "0399dfb5d122578e1b250ebaaef67ca4e8fe003d666b57f68d0daa2a182cc096",
-  "reader_visible_content_sha256": "3f61e6d9e2229b3f39271503b428dc4ba2e38dc1d878801e74aa3d0a43045c42",
-  "created_at": "2026-08-19T04:33:31.614Z"
+	"schema_version": 1,
+	"subject": "victoria-justice",
+	"draft_path": "src/blog/people/drafts/victoria-justice.md",
+	"review_dir": "docs/content-analysis/perspective-reviews/victoria-justice/2026-08-19_120000",
+	"draft_sha256": "0399dfb5d122578e1b250ebaaef67ca4e8fe003d666b57f68d0daa2a182cc096",
+	"reader_visible_content_sha256": "3f61e6d9e2229b3f39271503b428dc4ba2e38dc1d878801e74aa3d0a43045c42",
+	"created_at": "2026-08-19T04:33:31.614Z"
 }

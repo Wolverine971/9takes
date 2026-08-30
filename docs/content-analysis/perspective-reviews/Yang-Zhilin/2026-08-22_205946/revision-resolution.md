@@ -10,13 +10,13 @@ path: docs/content-analysis/perspective-reviews/Yang-Zhilin/2026-08-22_205946/re
 
 ## Resolution log
 
-| Item | Status | Resolution |
-| --- | --- | --- |
-| Post-publish corpus drift | resolved | Replaced the pre-release 391-profile baseline with the generated 422-profile baseline |
-| Type 5 corpus share | verified | 36 of 422 published profiles, rendered as 8.5% |
-| Tech/business share | verified | 17 Type 5 profiles among 75 tech/business subjects |
-| Argument impact | none | The sentence still supports the same limited base-rate context and changes no typing claim |
-| Other reader-visible changes | none | Final-hash comparison isolates the accepted statistic correction |
+| Item                         | Status   | Resolution                                                                                 |
+| ---------------------------- | -------- | ------------------------------------------------------------------------------------------ |
+| Post-publish corpus drift    | resolved | Replaced the pre-release 391-profile baseline with the generated 422-profile baseline      |
+| Type 5 corpus share          | verified | 36 of 422 published profiles, rendered as 8.5%                                             |
+| Tech/business share          | verified | 17 Type 5 profiles among 75 tech/business subjects                                         |
+| Argument impact              | none     | The sentence still supports the same limited base-rate context and changes no typing claim |
+| Other reader-visible changes | none     | Final-hash comparison isolates the accepted statistic correction                           |
 
 ## Protected hits checked
 

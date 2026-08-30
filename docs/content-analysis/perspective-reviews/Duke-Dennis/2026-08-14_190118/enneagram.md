@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 2
 concerns: 4
 reviewed_at: 2026-08-14T23:45:09Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -28,7 +29,7 @@ Two blockers, both inside the Rabbit Hole and both cheap to repair from evidence
 
 **Holding open what the type does not explain.** "That case's best exhibit is the four-year stay itself, and this analysis has already admitted the type doesn't explain it." A type claim that explains every fact is a type claim that explains nothing. The draft finds the one behavior that resists its thesis, hands it to the rival type as its best exhibit, and declines to resolve it. That single sentence does more for the credibility of the Eight call than any of the confirming evidence.
 
-**The attention discriminator.** "But watch what he does with attention when it arrives" — followed by the Rolling Stone beat, "he audits every ranking for who got left outside, including the ones with his name at the top." This is a genuinely non-obvious 3-versus-8 test. The usual anti-3 argument is "he avoids attention," which is weak and easily falsified. The draft instead asks what he *metabolizes* attention into, and finds that he converts his own honor into an audit of who was excluded. That is a discriminator I had not seen articulated this way, and it survives the packet's caveats (the shelved videos go to his live channel; the interview drought has qualifiers) because it does not depend on him declining attention at all.
+**The attention discriminator.** "But watch what he does with attention when it arrives" — followed by the Rolling Stone beat, "he audits every ranking for who got left outside, including the ones with his name at the top." This is a genuinely non-obvious 3-versus-8 test. The usual anti-3 argument is "he avoids attention," which is weak and easily falsified. The draft instead asks what he _metabolizes_ attention into, and finds that he converts his own honor into an audit of who was excluded. That is a discriminator I had not seen articulated this way, and it survives the packet's caveats (the shelved videos go to his live channel; the interview drought has qualifiers) because it does not depend on him declining attention at all.
 
 **Motivation-first, jargon-free entry.** "An Enneagram Type 8 organizes life around one requirement: nobody gets to run them. Money, muscle, competence, distance, all of it serves the same end." No triad vocabulary, no fixation names, no reader homework — and it is a correct rendering of the core motivation rather than a behavior list. This is the right altitude, and the Rabbit Hole correctly quarantines the technical layer for readers who want it.
 
@@ -36,7 +37,7 @@ Two blockers, both inside the Rabbit Hole and both cheap to repair from evidence
 
 ## What missed
 
-**The wing.** The 8w9 case is argued entirely from volume — "verdicts delivered at low volume, never as rants," an 8w7 "would have taken every microphone." The house Type 8 page says cold, stony withdrawal under threat is core Eight behavior, not wing behavior (`enneagram-type-8.md:189`). So the calm the draft cites is evidence for *Eight*, and carries no information about which wing. The wing conclusion may well be right; the argument offered does not reach it. Worse, the universal ("never as rants") is falsified by the packet's own [S24], which makes the paragraph's central claim checkable and false.
+**The wing.** The 8w9 case is argued entirely from volume — "verdicts delivered at low volume, never as rants," an 8w7 "would have taken every microphone." The house Type 8 page says cold, stony withdrawal under threat is core Eight behavior, not wing behavior (`enneagram-type-8.md:189`). So the calm the draft cites is evidence for _Eight_, and carries no information about which wing. The wing conclusion may well be right; the argument offered does not reach it. Worse, the universal ("never as rants") is falsified by the packet's own [S24], which makes the paragraph's central claim checkable and false.
 
 **The third instinct.** Ranking sx last is asserted from the absence of public evidence about the one area of his life the packet describes as deliberately sealed. Absence of evidence in a man who has given two long-form interviews in a decade is not evidence of a low instinct.
 
@@ -47,7 +48,7 @@ Two blockers, both inside the Rabbit Hole and both cheap to repair from evidence
 ## What I expected
 
 - A stated wing that discriminates on something the two wings actually differ on — territory, escalation appetite, expansion versus immovability — rather than on decibels.
-- The 2018 story time flagged for *why* it is the best evidence in the piece: it was published on his own channel at 83K subscribers, six years before the Complex interview and before there was an image worth managing. The draft uses the quote and never cashes its provenance, which is the single strongest available answer to the Type 3 reading.
+- The 2018 story time flagged for _why_ it is the best evidence in the piece: it was published on his own channel at 83K subscribers, six years before the Complex interview and before there was an image worth managing. The draft uses the quote and never cashes its provenance, which is the single strongest available answer to the Type 3 reading.
 - A rule for telling stress-withdrawal apart from self-preservation baseline, given that the draft claims both and the house material says they look alike.
 - Some account of anger in an Eight profile — not the word, not the theory, just an answer to "where does it go in this man."
 - The instinctual layer marked as the lowest-confidence layer. It is presented at the same confidence as the core type.
@@ -71,8 +72,8 @@ Two blockers, both inside the Rabbit Hole and both cheap to repair from evidence
 - **Passage:** Rabbit Hole, "Duke Dennis's Wing: 8w9" — "his complaints about the rizz economy arrive as verdicts delivered at low volume, never as rants." Compounded in the rizz section: "When it curdled into accusations of 'aura farming,' performing the calm for clout, he waved those off too."
 - **Reader effect / trust problem:** The wing paragraph stakes itself on a universal negative about his volume. A reader who has seen the aura-farming clip — a widely circulated moment — finds the draft asserting the opposite of what they watched, and downgrades the entire technical section. The main-body verb ("waved those off") independently misdescribes a sourced behavior.
 - **Evidence:** Packet [S24] quotes him directly and combatively: "You all nerd a** n***as talking about aura farming. Nobody says that s**t in real life!" Packet [S1] records unprompted, extended trash talk in the same segment as the RDC defusal the draft cites as proof of low volume: "they suck at everything... I don't see nothing they can beat us in, nothing," followed by a story about scoring 40 against them. The packet flags both explicitly as counterevidence to this exact sentence.
-- **Minimum viable repair:** Delete "never as rants." Replace the volume argument with the house 8w9 pattern, which *accommodates* both counterexamples instead of being refuted by them: `enneagram-wings-complete-guide.md:506` — 8w9s "make their displeasure unmistakably clear in a single conversation after months of silence"; `enneagram-type-8.md:175` — "The risk is silent stubbornness and the delayed explosion nobody saw loading." Then change "waved those off too" to a verb matching [S24]'s temperature.
-- **Expected benefit:** The wing argument gets *stronger*. Low-frequency, high-amplitude discharge predicts the aura-farming slam; "never rants" is contradicted by it. The two facts that currently break the paragraph become the two facts that confirm it.
+- **Minimum viable repair:** Delete "never as rants." Replace the volume argument with the house 8w9 pattern, which _accommodates_ both counterexamples instead of being refuted by them: `enneagram-wings-complete-guide.md:506` — 8w9s "make their displeasure unmistakably clear in a single conversation after months of silence"; `enneagram-type-8.md:175` — "The risk is silent stubbornness and the delayed explosion nobody saw loading." Then change "waved those off too" to a verb matching [S24]'s temperature.
+- **Expected benefit:** The wing argument gets _stronger_. Low-frequency, high-amplitude discharge predicts the aura-farming slam; "never rants" is contradicted by it. The two facts that currently break the paragraph become the two facts that confirm it.
 - **Confidence:** High. The counterevidence is in the packet, sourced and quoted.
 - **Acceptance test:** No universal negative about his volume survives the paragraph; the aura-farming sentence's verb matches [S24]; a reader shown the aura-farming clip finds the draft had already predicted it rather than denied it.
 
@@ -81,7 +82,7 @@ Two blockers, both inside the Rabbit Hole and both cheap to repair from evidence
 - **Passage:** Rabbit Hole, "Duke Dennis's Instinctual Subtype: sp/so" — "The sexual instinct trails, which is the quiet irony of his brand: the internet's avatar of 'rizz' runs his stack with the seduction instinct dead last. See instinctual subtypes."
 - **Reader effect / trust problem:** Two defects in one sentence. (1) The paragraph's punchline requires sx to mean seduction; the page it links to, in its own FAQ, says the opposite — and a reader who clicks is corrected on the sentence they just read. (2) The ranking itself is unsupportable: it infers a low instinct from the absence of public evidence in the one domain the packet describes as deliberately opaque. That is the certainty overreach this lens exists to catch.
 - **Evidence:** `src/blog/enneagram/enneagram-instinctual-subtypes.md:366` — "Despite the name, the Sexual (One-to-One) instinct refers to intensity and deep connection... Someone can be asexual and still have a dominant One-to-One instinct." Reinforced at `enneagram-type-8.md:157` — "In Enneagram terms, 'lust' doesn't mean sexual desire. It's a passion for _intensity_." On the ranking: packet Disputes #7 — "His relationship status is deliberately opaque and should stay unasserted." The draft's own body contains the India Love flirting beat, which sits awkwardly beside "dead last."
-- **Minimum viable repair:** Either (a) state sp/so and leave the third position unassigned, saying plainly that the public record cannot rank it; or (b) keep the irony and re-cash it on the correct definition — "rizz" is a *social* label applied by others, which is evidence for the social instinct running second, not for anything about the third. Option (b) preserves the paragraph's best line and makes it correct.
+- **Minimum viable repair:** Either (a) state sp/so and leave the third position unassigned, saying plainly that the public record cannot rank it; or (b) keep the irony and re-cash it on the correct definition — "rizz" is a _social_ label applied by others, which is evidence for the social instinct running second, not for anything about the third. Option (b) preserves the paragraph's best line and makes it correct.
 - **Expected benefit:** Removes a self-refuting internal link and an unsupportable ranking while keeping the paragraph's genuinely good sp/so evidence (money-as-survival, mother's house first, sealed private life, AMP guardianship, professor duty) fully intact.
 - **Confidence:** High on the definition (verifiable in the repo); high on the ranking being unsupported by the packet.
 - **Acceptance test:** Nothing in the paragraph defines sx as seduction; any third-position claim cites behavior rather than absence; the paragraph survives a reader following its own link.
@@ -142,9 +143,9 @@ Two blockers, both inside the Rabbit Hole and both cheap to repair from evidence
 
 **ENN-I2 — Name the one standing exception without resolving it.**
 
-- **Location:** Rabbit Hole, adjacent to the four-year-stay admission in the counterarguments section. Deliberately *not* the main narrative.
+- **Location:** Rabbit Hole, adjacent to the four-year-stay admission in the counterarguments section. Deliberately _not_ the main narrative.
 - **Current effect:** The draft holds two facts apart that belong in the same frame: his mother is the only authority whose instruction he obeyed against his own stated will (the four-year stay, after asking the right person to be sent home), and she is the first person he bought a house for, before anything for himself. The piece has both and never notices they are the same exception.
-- **Reasoning:** For a type organized against being told what to do, a single standing exception is more diagnostic than the rule — it locates the boundary of the pattern. This is also the honest way to hold ENN's central open question: the stay is not explained by the type, but it may be explained by *who gave the instruction*, and that is a question, not an answer.
+- **Reasoning:** For a type organized against being told what to do, a single standing exception is more diagnostic than the rule — it locates the boundary of the pattern. This is also the honest way to hold ENN's central open question: the stay is not explained by the type, but it may be explained by _who gave the instruction_, and that is a question, not an answer.
 - **Minimum viable repair:** One sentence naming the exception and explicitly declining to resolve it. No claim about the mother's character, the household, or his psychology toward her.
 - **Expected benefit:** Produces the non-obvious insight this lens tests for, frames the piece's most-cited weakness without pretending to solve it, and adds nothing the public record cannot support. The stay stays unexplained, which is the point.
 - **Confidence:** Medium. The line between "naming a pattern" and "diagnosing a family" is real, and this must stay on the near side of it. If it cannot be written without speculating about her, it should not be written.
@@ -152,13 +153,13 @@ Two blockers, both inside the Rabbit Hole and both cheap to repair from evidence
 
 ## Follow-on questions
 
-**ENN-Q1 — How does he *narrate* the post-basic-training betrayal in [S2]?**
+**ENN-Q1 — How does he _narrate_ the post-basic-training betrayal in [S2]?**
 The packet records it as present and unused: after basic training he called his girlfriend "only to find out that she had cheated on me." **What answer would change:** the framing, not the fact, is discriminating. Cold indifference and an immediately closed file corroborate the cold-anger, never-reopen-it pattern that the 9w8 rebuttal depends on. Rumination, reassurance-seeking, or repeated returns to it would strengthen the Type 6 reading that the draft currently dispatches on decisiveness alone. **Best source:** the transcript already in the repo, `youtube-transcripts/duke-dennis-army-story-time.md`, read for affect rather than for fact. **Tradeoff to respect:** even if it discriminates cleanly, it is a private betrayal, and the discrimination can be recorded in the working memo without going in the piece. The typing gets the benefit; the reader does not need the detail.
 
 **ENN-Q2 — Is there any documented instance of him escalating a conflict over time rather than ending it in one line?**
 **What answer would change:** this is the actual w9-versus-w7 discriminator, and it would settle ENN-R1 on evidence instead of on a rewrite. Sustained escalation, appetite for the fight, expansion of the conflict → w7. One-sentence verdict, immovability, no reopening → w9, which is where I would bet, but the draft has not established it. **Best source:** a systematic pass over the RDC segment in [S1] and the aura-farming stream, whose date the packet notes is unpinned [S24]; pinning that date would also let the piece place the slam in the timeline instead of floating it.
 
-**ENN-Q3 — Does he anywhere describe what he feels *before* the calm?**
+**ENN-Q3 — Does he anywhere describe what he feels _before_ the calm?**
 **What answer would change:** a single first-person line about what arrives and gets converted would move ENN-C3 from an inference of mine to evidence of his, and would let the Dee-shirt paragraph state its mechanic in his own vocabulary rather than the system's. **Best source:** the 2018 transcript [S2] first, as the least-managed material in the record, then the 2024 compliments passage in [S1] where he is already describing an interior state he did not expect.
 
 ## Preserve list

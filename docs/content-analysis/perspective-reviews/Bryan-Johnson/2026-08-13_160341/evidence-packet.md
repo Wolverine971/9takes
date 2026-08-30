@@ -5,6 +5,7 @@ subject: Bryan-Johnson
 draft_sha256: 8725b8f654d18e74d2e667d4f8aa9ae9ff7787fb4149dcc477c9932f032e8fbe
 packet_status: complete
 compiled_at: 2026-08-13T16:04:30Z
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_160341/evidence-packet.md
 ---
 
 ## Identity and scope
@@ -65,16 +66,16 @@ relationships, workplace reporting, scientific criticism, and 2026 autoimmune di
 
 ## Draft claim inventory
 
-| ID | Claim | Class | Status and limitation |
-| --- | --- | --- | --- |
-| CLM-01 | Johnson waited for failed childhood pickups | autobiographical memory | Attributed; frequency not independently verified |
-| CLM-02 | Best public fit is self-preservation/social 4w3 | psychological interpretation | Central hypothesis; Three is a strong alternative; confidence medium |
-| CLM-03 | Mythic ambiguity and charged criticism distinguish Four from Three | interpretive discriminator | Grounded in direct quotations; private motive remains unavailable |
-| CLM-04 | The body performs five jobs | editorial framework | Underlying activities are sourced; taxonomy belongs to the article |
-| CLM-05 | Blueprint lacks independent validation as a unified stack | methodological assessment | Supported by named scientists and Johnson's uncertainty |
-| CLM-06 | Former workers filed labor complaints | reported controversy | Attributed and disputed; irrelevant to typing |
-| CLM-07 | Tolo and Talmage describe warmth and patience | close testimony | Favorable and relationally invested |
-| CLM-08 | Johnson announced autoimmune gastritis and predicts cure | self-report and forecast | Medical outcome unresolved |
+| ID     | Claim                                                              | Class                        | Status and limitation                                                |
+| ------ | ------------------------------------------------------------------ | ---------------------------- | -------------------------------------------------------------------- |
+| CLM-01 | Johnson waited for failed childhood pickups                        | autobiographical memory      | Attributed; frequency not independently verified                     |
+| CLM-02 | Best public fit is self-preservation/social 4w3                    | psychological interpretation | Central hypothesis; Three is a strong alternative; confidence medium |
+| CLM-03 | Mythic ambiguity and charged criticism distinguish Four from Three | interpretive discriminator   | Grounded in direct quotations; private motive remains unavailable    |
+| CLM-04 | The body performs five jobs                                        | editorial framework          | Underlying activities are sourced; taxonomy belongs to the article   |
+| CLM-05 | Blueprint lacks independent validation as a unified stack          | methodological assessment    | Supported by named scientists and Johnson's uncertainty              |
+| CLM-06 | Former workers filed labor complaints                              | reported controversy         | Attributed and disputed; irrelevant to typing                        |
+| CLM-07 | Tolo and Talmage describe warmth and patience                      | close testimony              | Favorable and relationally invested                                  |
+| CLM-08 | Johnson announced autoimmune gastritis and predicts cure           | self-report and forecast     | Medical outcome unresolved                                           |
 
 ## Disputes and unresolved questions
 

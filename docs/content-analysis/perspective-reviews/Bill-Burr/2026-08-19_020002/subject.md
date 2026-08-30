@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 7
 concerns: 9
 reviewed_at: 2026-08-19T07:20:26Z
+path: docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/subject.md
 ---
 
 ## Bottom-line verdict
@@ -55,7 +56,7 @@ Type 8" post on the internet.
 > "He did not describe wanting the room. He described wanting the room to stand down."
 
 This is the whole argument in two sentences and it makes no claim about his interior that he has
-not made himself. It describes what he *said*, not what he secretly is. Preserve verbatim.
+not made himself. It describes what he _said_, not what he secretly is. Preserve verbatim.
 
 **SUBJ-H3 — The father is protected the way Burr protects him.**
 
@@ -80,7 +81,7 @@ respect. Most profiles would suppress it because it deflates the anecdote. Prese
 > "That is the reflex. It does not settle whether Cross is right about the money."
 
 This is the single most important sentence in the piece from a fairness standpoint, and it cuts
-*against* the subject. It means the page cannot be read as motive laundering: the childhood
+_against_ the subject. It means the page cannot be read as motive laundering: the childhood
 material explains a reflex, it does not discharge a choice. A subject proxy should want this
 line kept precisely because its absence would make every sympathetic passage suspect.
 
@@ -130,7 +131,7 @@ therapy section argues he changed; its psychological claims are phrased as if he
   draft stops. He continues: "that was only like a three-week thing because I kind of saw who I
   could be." Ending on the relapse leaves him worse off than he reported himself to be.
 - **Correct credit on his own show.** Five seasons, co-created with Michael Price. He publicly
-  attributes *F Is for Family* to a writers' room ("an amalgam of the writers' fathers" — the
+  attributes _F Is for Family_ to a writers' room ("an amalgam of the writers' fathers" — the
   draft even quotes this framing); "which he created" contradicts the humility the same paragraph
   reports.
 
@@ -150,7 +151,7 @@ worse-sounding one.
 there a gauge is always running and he can read it to a half-point" — preceded by "he does not
 know he has it." One section after praising him for narrating himself accurately for nineteen
 years, the article claims to know his mind better than he does. That is the one passage that
-reads as being performed *at* him rather than about him.
+reads as being performed _at_ him rather than about him.
 
 **Jarring.** The closer stages a scene from a film that has not been released, in an unqualified
 declarative: "Somebody handed the angriest man in comedy a chair, put him across from a person
@@ -160,10 +161,10 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 
 ### SUBJ-R1 — The page's central quotation is truncated at the point where he limits it (BLOCKER)
 
-- **Passage.** §1 "What is Bill Burr's personality type?": *"I became a comedian because by the
+- **Passage.** §1 "What is Bill Burr's personality type?": _"I became a comedian because by the
   time I was 23, I was so walled-off and fucked-up that doing stand-up was the easiest way to go
   into a room full of strangers and make them like me so that no one would hurt me," he told The
-  Hollywood Reporter in 2022.*
+  Hollywood Reporter in 2022._
 - **Trust problem.** The quotation ends mid-answer. The next sentence is **"I was onstage with the
   mindset of a 6-year-old from 23 to about 37."** Burr scoped the condition to a fourteen-year
   window that closed roughly twenty-one years ago. The draft uses the quote as the foundation for
@@ -171,14 +172,14 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   opens the source finds the subject himself supplying the expiry the article suppressed. The
   dropped opening clause — "I thought I became a comedian because I loved comedy and I liked
   making people laugh. But…" — is also the rhetorical setup the draft separately praises in the
-  *Drop Dead Years* soliloquy.
+  _Drop Dead Years_ soliloquy.
 - **Evidence.** THR, James Hibberd, 2022-04-28. Verified verbatim this session via Yahoo
   syndication of the same article the draft already cites twice (S-04). Packet lists the adjacent
   line as present in-source and unused; it does not flag the consequence.
 - **Minimum viable repair.** Print the following sentence, then let the page argue with it. One
   clause of concession is enough: he dates the phase's end to ~37; the draft's current-tense
   evidence (2026 MRI, the Rousey half-point) is the argument that the structure outlived the
-  phase. Making that argument explicitly is *stronger* than hiding the objection.
+  phase. Making that argument explicitly is _stronger_ than hiding the objection.
 - **Expected benefit.** Converts the page's biggest checkable vulnerability into its most
   rigorous passage, and removes the strongest thing a hostile reader (or Burr) could say about it.
 - **Confidence.** High.
@@ -188,8 +189,8 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 
 ### SUBJ-R2 — The Riyadh two-date table produces its contrast by editing both columns (BLOCKER)
 
-- **Passage.** §5 "Riyadh, told twice," the two-row table and the paragraph beginning *"On camera,
-  the account contains no fear at all."*
+- **Passage.** §5 "Riyadh, told twice," the two-row table and the paragraph beginning _"On camera,
+  the account contains no fear at all."_
 - **Trust problem.** Three distinct edits, all pushing the same direction:
   1. **Private cell.** The MMP 8-10-26 passage is not a confession. It sits inside a run of
      favorite international gigs (Italy, Germany, Budapest) and he calls Riyadh "one of my top
@@ -206,7 +207,7 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 - **Evidence.** Packet CLM-10, CLM-12 (flagged there as "highest-leverage omission in the draft"),
   S-07, S-33, S-36.
 - **Minimum viable repair.** (a) Add the "top three gigs of all time" framing to the private cell
-  or the paragraph beneath it, and make the point *sharper*: the fear surfaces inside a boast,
+  or the paragraph beneath it, and make the point _sharper_: the fear surfaces inside a boast,
   which is more interesting than a confession and harder to dismiss as promotion. (b) Add one
   clause carrying his isolation argument to the public cell. (c) Replace "nobody is grading him"
   with a claim the medium supports — the account he gives unprompted, ten months later, with no
@@ -224,9 +225,9 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   1. Intro, the driveway ("…gathered the pieces and carried them back into the house… She just
      made me a sandwich and that was it."). **Missing:** "But it wasn't a big deal back then. I
      remember you would just do shit in the neighborhoods and parents just watched."
-  2. §3 childhood: *"He also remembers the catchphrase: 'I'll put you through that wall.'"*
+  2. §3 childhood: _"He also remembers the catchphrase: 'I'll put you through that wall.'"_
      **Missing:** "He used to say that, right? He never did it. It's just an empty threat."
-  3. §7 therapy: *"Then the anger came back tenfold."* **Missing:** "that was only like a
+  3. §7 therapy: _"Then the anger came back tenfold."_ **Missing:** "that was only like a
      three-week thing because I kind of saw who I could be."
 - **Trust problem.** Individually each is a trim; together they are a pattern in which the subject
   is not permitted to set the severity of his own experience. Instance 2 is the serious one: the
@@ -250,18 +251,18 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 
 ### SUBJ-R4 — "was a normal guy" is a direct quotation with no located source (BLOCKER)
 
-- **Passage.** §3: *…then went out of his way to say his own dad "was a normal guy" he did not
-  want to single out.*
+- **Passage.** §3: _…then went out of his way to say his own dad "was a normal guy" he did not
+  want to single out._
 - **Trust problem.** Words inside quotation marks, attributed to him, about his father, in the
   paragraph where the abuse material is established. The packet could not locate the phrase in the
   NPR web adaptation, the fuller NPR page, or either Ferriss transcript. Separately, the draft
   prints "frigging terrifying" where NPR prints **"freaking"** — an alteration inside quotation
-  marks. Even when invented wording is *protective* of the subject, a fabricated quote in the most
+  marks. Even when invented wording is _protective_ of the subject, a fabricated quote in the most
   sensitive paragraph on the page is the single fastest way to lose him.
 - **Evidence.** Packet CLM-23, dispute #3, research limitation #5; S-06.
 - **Minimum viable repair.** Either verify against the Fresh Air broadcast audio (WHYY, 2025-03-10)
-  and cite it, or drop the quotation marks and paraphrase: *…then went out of his way not to
-  single out his own father.* Fix "frigging" → "freaking" or paraphrase out of quotation.
+  and cite it, or drop the quotation marks and paraphrase: _…then went out of his way not to
+  single out his own father._ Fix "frigging" → "freaking" or paraphrase out of quotation.
 - **Expected benefit.** Eliminates a fabrication risk on the page's highest-stakes paragraph at
   the cost of five words.
 - **Confidence.** High that it is unverified; unknown whether it is false.
@@ -270,8 +271,8 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 
 ### SUBJ-R5 — An unmarked deletion turns a bit into a symptom (BLOCKER)
 
-- **Passage.** §6, the helicopter blockquote: *"Paranoia of living in California. Living in the
-  L.A. basin. This place became really claustrophobic."*
+- **Passage.** §6, the helicopter blockquote: _"Paranoia of living in California. Living in the
+  L.A. basin. This place became really claustrophobic."_
 - **Trust problem.** Between "L.A. basin." and "This place became really claustrophobic" the
   source contains **"Enough conspiracy theory about nothing behind the dollar. Robots coming and
   all that type of shit."** — deleted with no ellipsis. The marked ellipsis later drops the
@@ -289,7 +290,7 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   then cite the 2015 Inquirer line, which makes the point sincerely and outside a comedy context.
   That single citation does the work the deletion was doing, legitimately.
 - **Expected benefit.** The strongest version of this argument is "he made the same claim as a bit
-  on a podcast *and* straight to a newspaper two years earlier." The draft owns that evidence and
+  on a podcast _and_ straight to a newspaper two years earlier." The draft owns that evidence and
   is not using it.
 - **Confidence.** High.
 - **Acceptance test.** Diff the draft blockquote against the Ferriss #265 transcript. Any deleted
@@ -297,12 +298,12 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 
 ### SUBJ-R6 — The closing image is invented from an unreleased film (BLOCKER)
 
-- **Passage.** §9: *"Bill Burr plays a crisis counselor. Somebody handed the angriest man in
+- **Passage.** §9: _"Bill Burr plays a crisis counselor. Somebody handed the angriest man in
   comedy a chair, put him across from a person coming apart, and asked him to be the one who stays
-  calm and talks them down. It is not obvious casting. It is very good casting."*
-- **Trust problem.** *The Social Reckoning* opens 2026-10-09 and nobody has seen it. "Crisis
+  calm and talks them down. It is not obvious casting. It is very good casting."_
+- **Trust problem.** _The Social Reckoning_ opens 2026-10-09 and nobody has seen it. "Crisis
   counselor" in a Sorkin film about Facebook and congressional testimony most plausibly means
-  crisis *communications*; a trailer write-up describes Burr as "the only PR guy willing to push
+  crisis _communications_; a trailer write-up describes Burr as "the only PR guy willing to push
   back against Zuckerberg's stilted, awkward delivery," and reported trailer dialogue is "These
   guys are counting on the next round of congressional testimony to make you likable, Mark."
   Wikipedia names the character "Charlie." The chair, the person coming apart, and the talking-down
@@ -310,8 +311,8 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   the role is a PR handler, the page's emotional payoff is not merely wrong, it is the kind of
   wrong that makes a subject distrust everything above it.
 - **Evidence.** Packet CLM-32, dispute #5; S-29, S-44.
-- **Minimum viable repair.** Cut the invented staging and qualify the role: *Per the trailer, Burr
-  plays a crisis counselor — the man in the room when someone is coming apart.* Or land the closer
+- **Minimum viable repair.** Cut the invented staging and qualify the role: _Per the trailer, Burr
+  plays a crisis counselor — the man in the room when someone is coming apart._ Or land the closer
   on something already true: the 1972 driveway against a man who now takes the calm-in-the-room
   jobs. The beat does not need the scene.
 - **Expected benefit.** The ending stops depending on a fact that October could falsify, and the
@@ -322,9 +323,9 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 
 ### SUBJ-R7 — "Six seasons on Netflix" is false (BLOCKER)
 
-- **Passage.** §3: *"Burr wrote that. Six seasons on Netflix, and the joke at the center of it is
-  a father calling a boy named Bill scared of everything."*
-- **Trust problem.** *F Is for Family* ran **five** seasons (2015–2021); Netflix's Oct 2020 renewal
+- **Passage.** §3: _"Burr wrote that. Six seasons on Netflix, and the joke at the center of it is
+  a father calling a boy named Bill scared of everything."_
+- **Trust problem.** _F Is for Family_ ran **five** seasons (2015–2021); Netflix's Oct 2020 renewal
   was explicitly "for a fifth and final season." This is a Wikipedia-level fact about the subject's
   own creation, in a paragraph that is otherwise the most emotionally loaded on the page. For the
   subject, a wrong number on his own show is the tell that nobody checked the parts he can check —
@@ -338,9 +339,10 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 ## Specific improvements
 
 **SUBJ-I1 — Add his own correction, in his own words, near the top.**
+
 - **Location.** §1, adjacent to "The culture files him under anger."
-- **Repair.** Quote THR 2022: *"That I'm an angry guy. People think, like, I'm just walking around
-  fuming, or they'll watch my act and take it literally."*
+- **Repair.** Quote THR 2022: _"That I'm an angry guy. People think, like, I'm just walking around
+  fuming, or they'll watch my act and take it literally."_
 - **Benefit.** The page's premise stops being the writer's contrarian claim and becomes the
   subject's own stated grievance, which the article then substantiates over 4,500 words. It is
   also, as far as this review can tell, absent from every competing page on that SERP.
@@ -350,7 +352,8 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   already exists in frontmatter.
 
 **SUBJ-I2 — Stop using "the angriest man in comedy" in the article's own voice.**
-- **Location.** §9 closer, *"Somebody handed the angriest man in comedy a chair."* (The intro's
+
+- **Location.** §9 closer, _"Somebody handed the angriest man in comedy a chair."_ (The intro's
   "The culture files him under anger" is correctly attributed and should stay.)
 - **Repair.** Attribute it or invert it: "the man the internet files under anger."
 - **Benefit.** The final paragraph currently re-asserts the label the whole page just dismantled,
@@ -360,8 +363,9 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   the label should not reappear undressed.
 
 **SUBJ-I3 — Soften one absolute into a claim the evidence supports.**
-- **Location.** §4, *"He does not swing when he is threatened. He swings when the room turns on
-  people he has decided are his."*
+
+- **Location.** §4, _"He does not swing when he is threatened. He swings when the room turns on
+  people he has decided are his."_
 - **Trust problem.** In the same Bertcast answer the draft quotes, Burr names a dispositional cause
   — "I'm a defensive, fucking angry dude anyways, so it was just the perfect storm." The absolute
   form both overstates the evidence and is more generous to him than he is to himself, which
@@ -374,11 +378,12 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   overstated.
 
 **SUBJ-I4 — Retire the claim to privileged access in the Rousey passage.**
-- **Location.** §6, *"The tell comes later in that same episode, and he does not know he has it"*
-  through *"a gauge is always running and he can read it to a half-point."*
+
+- **Location.** §6, _"The tell comes later in that same episode, and he does not know he has it"_
+  through _"a gauge is always running and he can read it to a half-point."_
 - **Trust problem.** "He does not know he has it" asserts a fact about his self-knowledge that
   nobody can hold, one section after the page's own case rests on how accurately he narrates
-  himself. And comic over-specificity is a craft move — "six and a half" is funny *because* the
+  himself. And comic over-specificity is a craft move — "six and a half" is funny _because_ the
   precision is absurd.
 - **Repair.** Concede the craft reading in a clause and keep the observation: the precision is a
   joke, and the joke required a scale to be sitting there already. Drop "he does not know he has
@@ -389,7 +394,8 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   "that's just how you write a specific joke."
 
 **SUBJ-I5 — Quantify or drop "half the internet."**
-- **Location.** §8, *"Half the internet called it misogyny."*
+
+- **Location.** §8, _"Half the internet called it misogyny."_
 - **Trust problem.** Contemporaneous coverage was genuinely split — Deadline framed it as "raises
   eyebrows," and outlets ran divided verdicts. The inflation makes the backlash against him larger
   than the record shows, in service of the article's symmetry.
@@ -398,14 +404,16 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 - **Confidence.** High. **Acceptance test.** Cite one source characterizing the reaction as
   majority-condemnatory; absent that, the claim is unmeasured.
 
-**SUBJ-I6 — Fix the *F Is for Family* credit.**
-- **Location.** Intro (*"Frank Murphy on F Is for Family, which he created"*) and §3.
+**SUBJ-I6 — Fix the _F Is for Family_ credit.**
+
+- **Location.** Intro (_"Frank Murphy on F Is for Family, which he created"_) and §3.
 - **Repair.** "co-created" — with Michael Price.
 - **Benefit.** Accurate, and consistent with the same paragraph's report that Burr credits the
   writers' room. **Confidence.** Certain. **Acceptance test.** Wikipedia creator field.
 
 **SUBJ-I7 — Fix "ninety minutes."**
-- **Location.** Rabbit Hole, *"ninety minutes of associative riffing."*
+
+- **Location.** Rabbit Hole, _"ninety minutes of associative riffing."_
 - **Repair.** "an hour of associative riffing." The two episodes the page cites run 67 and 56
   minutes.
 - **Benefit.** Removes a 30–60% overstatement in the one passage characterizing the primary source
@@ -413,7 +421,8 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 - **Confidence.** High. **Acceptance test.** Runtime of `8NYGbY4Tmkc` and `yHKqkVqa9mc`.
 
 **SUBJ-I8 — Mark the Cross quotation as reconstructed, or trim to the confirmed clauses.**
-- **Location.** §5, the Cross block beginning *"That people I admire, with unarguable talent…"*
+
+- **Location.** §5, the Cross block beginning _"That people I admire, with unarguable talent…"_
 - **Trust problem.** "with unarguable talent" and "Clearly you guys don't give a shit about what
   the rest of us think" were not independently confirmed in the packet's pass, and the two clauses
   may not be adjacent in the original Instagram post. A named critic's charge against a named
@@ -426,7 +435,8 @@ coming apart, and asked him to be the one who stays calm and talks them down."
   stitching fails.
 
 **SUBJ-I9 — Downgrade the Frank Murphy speech to what is verified.**
-- **Location.** §3 blockquote, *"Bill's a little pussy…"*
+
+- **Location.** §3 blockquote, _"Bill's a little pussy…"_
 - **Trust problem.** Only one clause is corroborated, on a fan wiki; the first three sentences and
   the ordering are unverified, yet it is set as an exact script quotation. Lower stakes than a
   real-person quote — it is fiction he co-wrote — but the beat it sets up ("The son's name is
@@ -439,37 +449,37 @@ coming apart, and asked him to be the one who stays calm and talks them down."
 ## Follow-on questions
 
 **SUBJ-Q1 — Does "was a normal guy" exist in the Fresh Air broadcast audio?**
-*What changes:* if yes, cite it and the quotation stands. If no, the quotation marks must come off
+_What changes:_ if yes, cite it and the quotation stands. If no, the quotation marks must come off
 today — it is currently an unsourced direct quote about a named private individual.
-*Best source:* WHYY/NPR *Fresh Air* broadcast audio, 2025-03-10 (the web adaptations do not carry
+_Best source:_ WHYY/NPR _Fresh Air_ broadcast audio, 2025-03-10 (the web adaptations do not carry
 it).
 
 **SUBJ-Q2 — What did Burr actually say, in full and in order, on the Conan live taping?**
-*What changes:* if the Daily Beast continuation is the true remainder, then his public account
+_What changes:_ if the Daily Beast continuation is the true remainder, then his public account
 contained a substantive argument and the draft's "no fear at all" framing needs the companion
 sentence "but not no reasoning." The two-column contrast narrows either way.
-*Best source:* *Conan O'Brien Needs a Friend*, Fonda Theatre live episode (released 2025-10-15) —
+_Best source:_ _Conan O'Brien Needs a Friend_, Fonda Theatre live episode (released 2025-10-15) —
 first-party audio, which no outlet in the packet consulted.
 
-**SUBJ-Q3 — Is Burr's *Social Reckoning* character a mental-health counselor or a crisis-comms
+**SUBJ-Q3 — Is Burr's _Social Reckoning_ character a mental-health counselor or a crisis-comms
 handler?**
-*What changes:* the closer. A PR handler makes the current final paragraph actively wrong.
-*Best source:* Sony/Columbia press kit or official character list; failing that, the film on
+_What changes:_ the closer. A PR handler makes the current final paragraph actively wrong.
+_Best source:_ Sony/Columbia press kit or official character list; failing that, the film on
 2026-10-09. Until then the staging cannot run as description.
 
 **SUBJ-Q4 — Has Burr ever responded publicly to being psychoanalyzed by press or fans?**
-*What changes:* he is on record objecting to the literal reading of his act; if he has also
+_What changes:_ he is on record objecting to the literal reading of his act; if he has also
 objected to childhood-trauma explanations of his comedy specifically, the article should quote
 that objection and answer it, which would make it the only page on the subject that does.
-*Best source:* *Monday Morning Podcast* episodes following the March 2025 Fresh Air appearance and
+_Best source:_ _Monday Morning Podcast_ episodes following the March 2025 Fresh Air appearance and
 the 2022 THR profile — he routinely reacts to his own press on the show.
 
 **SUBJ-Q5 — What is the true count of the origin-story tellings, and in how many distinct formats?**
-*What changes:* the page's headline evidence structure. Ferriss #265 and #602 are the same
-interviewer and both 2017; the *Drop Dead Years* soliloquy is sourced from reviews, not the
+_What changes:_ the page's headline evidence structure. Ferriss #265 and #602 are the same
+interviewer and both 2017; the _Drop Dead Years_ soliloquy is sourced from reviews, not the
 special. "Three tellings over eight years, in three formats" may need to become "four tellings
 across three interviewers" or similar.
-*Best source:* the *Drop Dead Years* special itself (Hulu) for the soliloquy's exact wording, plus
+_Best source:_ the _Drop Dead Years_ special itself (Hulu) for the soliloquy's exact wording, plus
 a decision on how to count the two Ferriss appearances.
 
 ## Preserve list
@@ -498,16 +508,16 @@ the source for SUBJ-R2 (CLM-10, CLM-12), SUBJ-R3 (CLM-22, CLM-30, CLM-33), SUBJ-
 dispute #3), SUBJ-R5 (CLM-16), SUBJ-R6 (CLM-32, dispute #5), SUBJ-R7 (CLM-24), and improvements
 I5–I9. No independent research was run where the packet already resolved a question.
 
-**Unresolved question taken to research (stated before searching):** *Has Bill Burr publicly
+**Unresolved question taken to research (stated before searching):** _Has Bill Burr publicly
 objected to, or corrected, psychological and "angry man" readings of himself — i.e., is there a
-documented statement of being misread?* The packet contains extensive first-person material but no
+documented statement of being misread?_ The packet contains extensive first-person material but no
 public correction, and my role contract makes that the primary lane.
 
-| # | Source | What it decided |
-| --- | --- | --- |
-| 1 | Web search, Burr on the "angry guy" perception | Surfaced a direct, on-record correction. Escalated to source 3 for verbatim confirmation. |
-| 2 | Web search, exact-phrase check on "biggest misconception" | Attributed the quote to THR 2022 — a source the draft already cites — making it a zero-cost addition. Also surfaced a claim that Burr objects to the word "rant," which became a candidate finding. |
-| 3 | THR 2022 (James Hibberd) via Yahoo syndication, `yahoo.com/amphtml/entertainment/bill-burr-ve-made-every-130010422.html` | **Decided three things.** (a) Confirmed verbatim: "That I'm an angry guy. People think, like, I'm just walking around fuming, or they'll watch my act and take it literally." → SUBJ-I1, and weight for SUBJ-R5. (b) Confirmed verbatim: "I was onstage with the mindset of a 6-year-old from 23 to about 37," immediately following the draft's load-bearing quotation → **SUBJ-R1**, this review's highest-priority finding. (c) **Refuted my own candidate finding on "rant."** THR does note Burr has "a whole not-a-rant about the hyperbolic use of that word," but the same article calls the 2006 Philadelphia monologue "a legit use of the word, in this case." The draft's heading, FAQ and keyword usage are therefore defensible and endorsed by the source. Dropped; recorded here so it is not re-raised downstream. |
+| #   | Source                                                                                                                   | What it decided                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| --- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Web search, Burr on the "angry guy" perception                                                                           | Surfaced a direct, on-record correction. Escalated to source 3 for verbatim confirmation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 2   | Web search, exact-phrase check on "biggest misconception"                                                                | Attributed the quote to THR 2022 — a source the draft already cites — making it a zero-cost addition. Also surfaced a claim that Burr objects to the word "rant," which became a candidate finding.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| 3   | THR 2022 (James Hibberd) via Yahoo syndication, `yahoo.com/amphtml/entertainment/bill-burr-ve-made-every-130010422.html` | **Decided three things.** (a) Confirmed verbatim: "That I'm an angry guy. People think, like, I'm just walking around fuming, or they'll watch my act and take it literally." → SUBJ-I1, and weight for SUBJ-R5. (b) Confirmed verbatim: "I was onstage with the mindset of a 6-year-old from 23 to about 37," immediately following the draft's load-bearing quotation → **SUBJ-R1**, this review's highest-priority finding. (c) **Refuted my own candidate finding on "rant."** THR does note Burr has "a whole not-a-rant about the hyperbolic use of that word," but the same article calls the 2006 Philadelphia monologue "a legit use of the word, in this case." The draft's heading, FAQ and keyword usage are therefore defensible and endorsed by the source. Dropped; recorded here so it is not re-raised downstream. |
 
 Three sources consulted, within the 2–4 budget. THR was reached through Yahoo syndication because
 direct fetches are tollbit-blocked, the same route the packet used for S-04.
@@ -531,8 +541,8 @@ direct fetches are tollbit-blocked, the same route the packet used for S-04.
   transcripts, but I did not independently re-fetch the Ferriss, NPR or MMP transcripts.
 - **Two findings are contingent on unavailable sources.** SUBJ-R4 turns on Fresh Air broadcast
   audio nobody in this chain has obtained, and SUBJ-R6 turns on a film that opens 2026-10-09. Both
-  have zero-research repairs, which is why the recommendation is *revise* rather than
-  *hold_for_research*.
+  have zero-research repairs, which is why the recommendation is _revise_ rather than
+  _hold_for_research_.
 - **The word ceiling is a real constraint I did not solve.** The draft is at 4,500/4,500. Most of
   my repairs are subtractive or clause-length, and SUBJ-I7 plus the SUBJ-R6 staging cut free
   enough room for SUBJ-I1 and the SUBJ-R1 restoration — but the editor, not this review, has to

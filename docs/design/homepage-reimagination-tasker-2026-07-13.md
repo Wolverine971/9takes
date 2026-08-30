@@ -1,3 +1,5 @@
+<!-- docs/design/homepage-reimagination-tasker-2026-07-13.md -->
+
 # 9takes Homepage Reimagination — Agent Tasker
 
 **Created:** July 13, 2026  

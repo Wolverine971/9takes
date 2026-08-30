@@ -1,4 +1,5 @@
 <!-- docs/product/account-page-roadmap.md -->
+
 # Account page: what shipped, and what it needs to become a real profile
 
 Written 2026-07-25. Answers part 2 of the account-page brief ("figure out what

@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
-  "subject": "Patrick-Mahomes",
-  "review_dir": "docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002",
-  "verification_file": "docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/verification-final.md",
-  "verification_status": "pass",
-  "reviewed_snapshot_sha256": "690cb7c2fe451d15af251942620493decee7b72ea803ded9130a53a98ee2a9a1",
-  "verified_content_sha256": "6f23605ee38c519003d62f823c9dee7b0c72044cd6cfeab4e5a72cdc7c7dd967",
-  "verified_at": "2026-08-23T08:16:54.000Z"
+	"schema_version": 1,
+	"subject": "Patrick-Mahomes",
+	"review_dir": "docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002",
+	"verification_file": "docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "690cb7c2fe451d15af251942620493decee7b72ea803ded9130a53a98ee2a9a1",
+	"verified_content_sha256": "6f23605ee38c519003d62f823c9dee7b0c72044cd6cfeab4e5a72cdc7c7dd967",
+	"verified_at": "2026-08-23T08:16:54.000Z"
 }

@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 8
 reviewed_at: 2026-08-18T06:47:16Z
+path: docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/future.md
 ---
 
 ## Bottom-line verdict
@@ -117,7 +118,7 @@ Present tense, no date on the pricing claim itself, plus an imperative telling t
 against a commercial page. My research confirmed Muse Code shipped **in beta** (the packet's own
 timeline says "(beta)"; trade coverage agrees). Beta pricing is provisional by construction. In twelve
 months the most likely states are: prices changed, tier renamed, beta ended with different terms. The
-*idea* — cheap access bought with your judgment — is durable and is the actual payoff. The *artifact*
+_idea_ — cheap access bought with your judgment — is durable and is the actual payoff. The _artifact_
 is not. See FUTURE-C1.
 
 Worth recording as a risk that got smaller: the packet flagged "prompts and completions" as more
@@ -173,7 +174,7 @@ inoculate every present-tense sentence downstream.
 **Perishable claims quarantined the way the type theory is.** The draft has a strict quarantine
 discipline for Enneagram system language — the DISTRIBUTION LEDGER shows it is tracked and enforced to
 a single bridging paragraph. I expected the same instinct applied to perishable facts: news-dependent
-claims concentrated where they can be updated, durable argument insulated from them. It is *partly*
+claims concentrated where they can be updated, durable argument insulated from them. It is _partly_
 there (the benchmark table is a good containment vessel), but the perishable material also sits in the
 intro's second paragraph and in the final four paragraphs — the two positions hardest to edit without
 disturbing the piece's best writing.
@@ -294,7 +295,7 @@ article's first orientation sentence is wrong, the FAQ answer is wrong, and the 
 published from `occupation` is wrong — three failures from one event, with no signal to the reader
 that the piece was written before it.
 
-**Evidence.** Verified current as of review: Wikipedia's *Meta Superintelligence Labs* article, last
+**Evidence.** Verified current as of review: Wikipedia's _Meta Superintelligence Labs_ article, last
 updated 2026-08-15, still lists Wang as Chief AI Officer leading MSL; the packet marks the board seat
 verified (CLM-10). But the same article documents MSL already reorganized into four groups with
 Friedman leading Products and Applied Research and Ramani leading Infra — the structure has changed
@@ -475,7 +476,7 @@ managed manually by DJ and is deliberately not part of this list.
 
 1. **Wang's role.** Is he still Meta's Chief AI Officer leading MSL? Update the intro status sentence,
    FAQ 3, and frontmatter `occupation` / `knows_about` together — they fail as a set. Sources: Meta
-   leadership page, Wikipedia *Meta Superintelligence Labs*.
+   leadership page, Wikipedia _Meta Superintelligence Labs_.
 2. **The Scale board seat.** FAQ 3 asserts "He remains on Scale AI's board." Verify independently of
    the Meta role; the two can diverge.
 3. **Muse Code's contributor tier.** Still live? Still beta? Prices unchanged? The closing section
@@ -504,31 +505,31 @@ heavier.
 ## Follow-on questions
 
 **FUTURE-Q1 — Does Wang still hold the Chief AI Officer title and MSL leadership at refresh time?**
-*What it changes:* the intro's orientation sentence, FAQ 3, and the structured data emitted from
-frontmatter — the three coupled claims in C2. *Best source:* Meta's own leadership page, cross-checked
+_What it changes:_ the intro's orientation sentence, FAQ 3, and the structured data emitted from
+frontmatter — the three coupled claims in C2. _Best source:_ Meta's own leadership page, cross-checked
 against Wikipedia's MSL article (which was current to 2026-08-15 when I checked).
 
 **FUTURE-Q2 — Did Google's resumption hold, and did OpenAI ever return?**
-*What it changes:* the blocker repair's wording, and how much weight the rabbit hole's 3-to-6 growth
+_What it changes:_ the blocker repair's wording, and how much weight the rabbit hole's 3-to-6 growth
 argument can carry. If both major customers eventually returned, the growth-arrow evidence largely
-dissolves and that subsection needs rethinking, not editing. *Best source:* full text of Forbes
+dissolves and that subsection needs rethinking, not editing. _Best source:_ full text of Forbes
 2026-05-14 (S-02), then subsequent Scale customer reporting.
 
 **FUTURE-Q3 — Is the Muse Code contributor tier a permanent pricing structure or a beta-period
 acquisition tactic?**
-*What it changes:* whether the ending is a durable observation about Wang's operating pattern or a
+_What it changes:_ whether the ending is a durable observation about Wang's operating pattern or a
 snapshot of a launch promotion. If it is a tactic that gets withdrawn, the "same machine, new building"
-claim is still true about Meta's intent but loses its live proof. *Best source:* Meta's Muse Code
+claim is still true about Meta's intent but loses its live proof. _Best source:_ Meta's Muse Code
 pricing and data-use documentation directly — the packet notes Meta's own blog did not carry the terms
 when fetched, so this needs a product-page read rather than trade coverage.
 
 **FUTURE-Q4 — Does the $500M attach to Thunderforge or to the separate CDAO award?**
-*What it changes:* one sentence in the body, and whether the article inherits a Forbes conflation.
-*Best source:* USAspending or DIU contract records (packet limitation #5).
+_What it changes:_ one sentence in the body, and whether the article inherits a Forbes conflation.
+_Best source:_ USAspending or DIU contract records (packet limitation #5).
 
 **FUTURE-Q5 — Has any of the six unmined long-form interviews surfaced a documented withdrawal under
 pressure?**
-*What it changes:* the type call itself, by the draft's own stated criteria. *Best source:* the
+_What it changes:_ the type call itself, by the draft's own stated criteria. _Best source:_ the
 Lightcone (Jun 2025), CSIS (May 2025), Washington Post Futurist Summit (Oct 2023, full official
 transcript), No Priors, Accel and Stanford eCorner sessions listed in packet limitation #4.
 
@@ -561,12 +562,12 @@ Items whose durability value would be lost if revision touched them:
 Protocol: packet read in full before role-specific research; three sources consulted beyond it, within
 the 2–4 allowance.
 
-| # | Question | Resolved by | Decision it affected |
-| --- | --- | --- | --- |
-| 1 | Which draft claims are dated, unresolved, status-sensitive, or fragile? | Evidence packet — dated timeline, claim inventory (CLM-01→33), disputes #4 and #10, limitations #6 and #9 | Established the whole finding set; no external research needed for most of it. Disputes #10 and CLM-19 came directly from the packet and became C6 and R1. |
-| 2 | Is Wang still Meta's Chief AI Officer, and is any reorg reported that makes the present-tense frame perishable within 12 months? | WebSearch (2026-08-18); then WebFetch of Wikipedia, *Meta Superintelligence Labs*, article updated 2026-08-15 | **Downgraded a candidate blocker to C2.** The role is current, so "Today he is Meta's first Chief AI Officer" is accurate at review time. The Wikipedia article also documents the four-group MSL structure, which supplies the churn evidence C2 rests on. |
-| 3 | Same query surfaced a Medium post ("The Meta Restructuring No One Is Talking About... Alexandr Wang is the First Casualty") claiming a March 2026 reorg stripped Wang's autonomy | Attempted corroboration via Wikipedia MSL — no mention of the claimed reorg, Maher Saba, or an Applied AI Engineering unit under Bosworth | **Rejected as evidence.** Tier-4 blog, uncorroborated. Recorded in C2 as explicitly not relied upon. Community discussion cannot prove facts. |
-| 4 | Is the Muse Code contributor tier introductory/beta pricing rather than a stable structure, and is "prompts and completions" the right characterization? | WebSearch (2026-08-18) returning Forbes 2026-08-06, MacRumors 2026-08-05, and several tool guides | **Confirmed beta status** → C1's core argument. Also **reduced** an unrelated risk: multiple outlets render the trade as "prompts and completions," so the draft's phrasing is better supported than packet dispute #4 suggests — recorded in What missed rather than raised as a finding. |
+| #   | Question                                                                                                                                                                         | Resolved by                                                                                                                               | Decision it affected                                                                                                                                                                                                                                                                       |
+| --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Which draft claims are dated, unresolved, status-sensitive, or fragile?                                                                                                          | Evidence packet — dated timeline, claim inventory (CLM-01→33), disputes #4 and #10, limitations #6 and #9                                 | Established the whole finding set; no external research needed for most of it. Disputes #10 and CLM-19 came directly from the packet and became C6 and R1.                                                                                                                                 |
+| 2   | Is Wang still Meta's Chief AI Officer, and is any reorg reported that makes the present-tense frame perishable within 12 months?                                                 | WebSearch (2026-08-18); then WebFetch of Wikipedia, _Meta Superintelligence Labs_, article updated 2026-08-15                             | **Downgraded a candidate blocker to C2.** The role is current, so "Today he is Meta's first Chief AI Officer" is accurate at review time. The Wikipedia article also documents the four-group MSL structure, which supplies the churn evidence C2 rests on.                                |
+| 3   | Same query surfaced a Medium post ("The Meta Restructuring No One Is Talking About... Alexandr Wang is the First Casualty") claiming a March 2026 reorg stripped Wang's autonomy | Attempted corroboration via Wikipedia MSL — no mention of the claimed reorg, Maher Saba, or an Applied AI Engineering unit under Bosworth | **Rejected as evidence.** Tier-4 blog, uncorroborated. Recorded in C2 as explicitly not relied upon. Community discussion cannot prove facts.                                                                                                                                              |
+| 4   | Is the Muse Code contributor tier introductory/beta pricing rather than a stable structure, and is "prompts and completions" the right characterization?                         | WebSearch (2026-08-18) returning Forbes 2026-08-06, MacRumors 2026-08-05, and several tool guides                                         | **Confirmed beta status** → C1's core argument. Also **reduced** an unrelated risk: multiple outlets render the trade as "prompts and completions," so the draft's phrasing is better supported than packet dispute #4 suggests — recorded in What missed rather than raised as a finding. |
 
 Packet material reused without re-research, per protocol: the Scale board seat (CLM-10), the CNBC
 stock/sentiment date (CLM-26/S-24), Google's resumption (CLM-19), the Thunderforge dispute (CLM-13),

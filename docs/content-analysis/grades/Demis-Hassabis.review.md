@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/grades/Demis-Hassabis.review.md -->
+
 # Grade feedback: Demis Hassabis
 
 Grade: B+ (8.6), rubric v2 — regrade after revision pass (first grade B 8.4, sameness cap; delta +0.2)

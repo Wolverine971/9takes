@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Nate-Bargatze.md -->
+
 # Research Evidence: Nate Bargatze
 
 > Durable evidence file for the 9takes people pipeline. Evidence and interpretation are kept

@@ -21,7 +21,7 @@ The personality thesis should remain valuable in August 2027. Its evidence spans
 early-career choices, songwriting practice, the 2018 formation of boygenius, the 2020 pandemic
 breakthrough, the 2023 cost of parasocial access, and a completed 2026 Madison Square Garden show.
 The newest event illustrates a durable pattern rather than carrying the entire argument. If
-*Lost Weekend* vanished from the article, the sad-brand refusal, song-as-self-discovery process,
+_Lost Weekend_ vanished from the article, the sad-brand refusal, song-as-self-discovery process,
 collaborative authorship, and public-character-versus-private-exhaustion material would still support
 the thesis.
 
@@ -42,14 +42,14 @@ erase the scene. The date and the surrendered-phone image must survive revision.
 **FUTURE-H2 — The personality pattern predates the release cycle.** “A song can overrule the
 explanation she had been giving herself” is supported by a 2020 interview, while the sad-brand
 refusal dates to her teens and the collaboration material begins in 2018. Preserve this distribution:
-it keeps *Lost Weekend* from becoming post hoc proof of a personality theory written on release day.
+it keeps _Lost Weekend_ from becoming post hoc proof of a personality theory written on release day.
 
 **FUTURE-H3 — The main current-event interpretation contains its own hedge.** “The strategic value
 does not cancel the emotional need. Both can operate together.” This line will age well if later
 reporting reveals a larger marketing rationale for the offline rollout. It must survive because it
 prevents one campaign tactic from becoming permanent psychological fact.
 
-**FUTURE-H4 — The newest criticism is dated and attributed.** “Writing in *The Atlantic* in 2026,
+**FUTURE-H4 — The newest criticism is dated and attributed.** “Writing in _The Atlantic_ in 2026,
 Spencer Kornhaber...” correctly preserves one critic's release-week assessment as a historical
 viewpoint. Later critical consensus can differ without making the sentence false. Preserve the
 attribution and year rather than rewriting it as consensus.
@@ -86,7 +86,7 @@ era and should remain the ending's anchor.
 
 ## What surprised me
 
-The welcome surprise is how little the Type 4 case depends on *Lost Weekend*. A launch-day profile
+The welcome surprise is how little the Type 4 case depends on _Lost Weekend_. A launch-day profile
 could easily treat one new record as a definitive psychological document. This one uses the album to
 pressure the intimacy thesis with an unfavorable review, then keeps the earlier career record doing
 most of the diagnostic work.
@@ -102,7 +102,7 @@ small repairs.
 
 **FUTURE-C1 (concern) — Launch-day relative language will become silently false or ambiguous.**
 
-- **Passages:** “The June show and today's release of *Lost Weekend* reveal the pattern”; and “That
+- **Passages:** “The June show and today's release of _Lost Weekend_ reveal the pattern”; and “That
   scene captures what Bridgers appears to want from fame now.”
 - **Reader effect / trust problem:** Any reader after August 14, 2026 encounters a false “today.” By
   August 2027, “now” invites the reader to treat the writer's 2026 inference as Bridgers's present
@@ -166,8 +166,8 @@ facts are grammatically and evidentially distinct.
 2. Check whether Bridgers resumed social accounts, collaborations, or a high-volume publicity cycle.
    Update only language that implies the 2024-2025 retreat is ongoing; do not erase the completed
    retreat.
-3. Check the official discography for any post-*Lost Weekend* solo release. “First solo album since
-   *Punisher*” remains historically true, but surrounding “return” language may need to become “2026
+3. Check the official discography for any post-_Lost Weekend_ solo release. “First solo album since
+   _Punisher_” remains historically true, but surrounding “return” language may need to become “2026
    return” if another era has begun.
 4. Sample later reviews and tour reporting only to test the unresolved claim that more privacy can
    produce emotional distance. Add context if a durable critical consensus materially reverses or
@@ -207,7 +207,7 @@ first-person accounts of why the conditions changed.
 
 - The absolute June 2026 date and completed MSG show in the opening.
 - The 2018, 2020, 2022, 2023, 2024, and August 14, 2026 anchors.
-- The pre-2026 evidence distribution; the profile must not become a *Lost Weekend* recap.
+- The pre-2026 evidence distribution; the profile must not become a _Lost Weekend_ recap.
 - “The strategic value does not cancel the emotional need. Both can operate together.”
 - The four-room timeline as a durable, appendable structure.
 - The Atlantic review as a dated dissenting view, including its unresolved status.
@@ -222,7 +222,7 @@ first-person accounts of why the conditions changed.
    deterministic relative markers, one ongoing-retreat ambiguity, and one paragraph that conflates
    completed MSG details with announced tour policy. **Decision affected:** FUTURE-C1 and C2.
 2. **Packet reuse:** Used the dated timeline, CLM-06 through CLM-08, and the unresolved note that
-   *Lost Weekend* criticism, tour practice, and public context may change quickly. The packet already
+   _Lost Weekend_ criticism, tour practice, and public context may change quickly. The packet already
    distinguishes the June show, the tour announcement, and the August release, so no additional web
    research was required.
 3. **Durability removal test:** Removed the 2026 album and show mentally from the argument. The

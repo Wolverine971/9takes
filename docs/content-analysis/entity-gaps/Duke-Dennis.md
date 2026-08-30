@@ -7,6 +7,7 @@ score: 69
 biography_intent: true
 personal_wikipedia: true
 source_gate: 'pass'
+path: docs/content-analysis/entity-gaps/Duke-Dennis.md
 ---
 
 # Emerging Entity Gap Packet: Duke Dennis
@@ -16,7 +17,7 @@ source_gate: 'pass'
 > the 8.5 publish gate; (b) a **second dedicated biography** was found (HotNewHipHop), so the "exactly
 > one — Wikipedia" finding was wrong; (c) the August 2025 arrest turns out to be covered by **NBC News,
 > Vibe, and Spectrum News**, which makes it answerable rather than off-limits; (d) a targeted hunt for
-> named third-party *testimony* came back **empty**, confirming the regrade's Evidence critique and
+> named third-party _testimony_ came back **empty**, confirming the regrade's Evidence critique and
 > forcing source depth down. Net: 74 → **69**. Still PROMISING, still CREATE.
 
 ## Why now
@@ -45,7 +46,7 @@ Secondary current signals:
 
 Trajectory: **just-peaked, settling into sustained.** Revision 1 called this "rising-to-sustained," which
 was too generous — the Streamer University event concluded July 20, roughly four weeks before this audit,
-and the largest August spike was a debunked hoax. What stays durable is the *credential* (professor is a
+and the largest August spike was a debunked hoax. What stays durable is the _credential_ (professor is a
 fact that outlives the event) and continuous AMP-orbit name search.
 
 Demand is **directional only**. No Trends values, keyword volumes, or result counts were available or are
@@ -60,17 +61,17 @@ device, and date; the composition below is the finding, not a ranking claim.
 
 **`Duke Dennis` — first page by result type**
 
-| Result | Type |
-| --- | --- |
-| TikTok @dukedennis | official/social profile |
-| Wikipedia — Duke Dennis | **dedicated, substantial biography** |
-| Famous Birthdays | database/people-search page |
-| Facebook @DukeDennis0034 | official/social profile |
-| Tubi — Duke Dennis series | video/streaming listing |
-| AMP (Any Means Possible) Fandom wiki | fan wiki |
-| YouTube channel (UCO_RC-EuZVTkxm5e8ek1zvA) | official/social profile |
-| DukeDennis LIVE — YouTube | official/social profile |
-| NUS — "mr dennis ooi" | **irrelevant / name collision** |
+| Result                                     | Type                                 |
+| ------------------------------------------ | ------------------------------------ |
+| TikTok @dukedennis                         | official/social profile              |
+| Wikipedia — Duke Dennis                    | **dedicated, substantial biography** |
+| Famous Birthdays                           | database/people-search page          |
+| Facebook @DukeDennis0034                   | official/social profile              |
+| Tubi — Duke Dennis series                  | video/streaming listing              |
+| AMP (Any Means Possible) Fandom wiki       | fan wiki                             |
+| YouTube channel (UCO_RC-EuZVTkxm5e8ek1zvA) | official/social profile              |
+| DukeDennis LIVE — YouTube                  | official/social profile              |
+| NUS — "mr dennis ooi"                      | **irrelevant / name collision**      |
 
 Note: the FotMob footballer result recorded in revision 1 did **not** appear on this check. Collisions
 are unstable run to run, not absent — Duke University pages (`today.duke.edu`), Kathryn Dennis, and
@@ -98,7 +99,7 @@ right person (returned Dennis Quaid, Dennis Dun, Duane Dennis, and two unrelated
    service (2013–2017, Germany), YouTube/NBA 2K career, Twitch, AMP, the Streamer University
    professorship, accolades, 14 citations.
 3. **Does a strong publisher own general biography intent?** **No — but the picture is less empty than
-   revision 1 said.** No dedicated Rolling Stone/Complex/NYT/Variety *profile* ranks for the general
+   revision 1 said.** No dedicated Rolling Stone/Complex/NYT/Variety _profile_ ranks for the general
    query; those outlets appear as list mentions. However **NBC News, Vibe, and Spectrum News own the
    arrest query outright** with dedicated, authoritative articles, and HotNewHipHop owns the "who is he"
    framing. General biography intent below Wikipedia still belongs to farms.
@@ -106,7 +107,7 @@ right person (returned Dennis Quaid, Dennis Dun, Duane Dennis, and two unrelated
    gives the flattering meme read. Neither explains motive — why he calls the Army his biggest regret,
    why AMP stays sealed at six, why he rejects the label the internet gave him.
 5. **Can 9takes offer the strongest general-interest page?** **No — Wikipedia holds that.** 9takes can
-   plausibly own the *interpretive* tier: the best page explaining why he behaves the way he does, and
+   plausibly own the _interpretive_ tier: the best page explaining why he behaves the way he does, and
    the only credible page in the personality lane.
 
 Backlink data: **unknown.** None available; none inferred.
@@ -138,7 +139,7 @@ citations, as charges and only charges. It is still not biography-defining and s
 
 **Fact queries — DO NOT ANSWER.** Each fails the reliability test:
 
-- **Parents/family:** sources actively contradict each other. Farms variously claim birth in *Chicago*
+- **Parents/family:** sources actively contradict each other. Farms variously claim birth in _Chicago_
   to "David and Lisa Dennis" (contradicts Wikipedia's Greenville SC), a mother "Mrs. Dennis" and
   stepfather "Mr. Melvin," "two brothers: Darius and one unnamed," and separately "five siblings." Only
   the 2019 video featuring his brother Darius is corroborated.
@@ -155,7 +156,7 @@ Where these must be addressed, the correct move is a sourced "not publicly estab
 
 **Source gate: PASS** — but by a narrower margin than revision 1 recorded.
 
-**First-person (2+, strong):** Complex *360 With Speedy* (2024) — long-form, the spine of the AMP origin,
+**First-person (2+, strong):** Complex _360 With Speedy_ (2024) — long-form, the spine of the AMP origin,
 the sealed-six rule, the blueprint, and the Kai verdict; the 2018 story time containing the "I don't like
 being told what to do" repetitions and the 29-day factory walkout; the ongoing stream/vlog record
 including "Back As A Professor At Streamer University."
@@ -169,11 +170,11 @@ Sportskeeda (Streamer University roster; the fan-shirt story honoring his late c
 **Current source tied to catalyst:** Streamer University 2026 professorship — roster revealed July 6,
 2026; event July 15–20, 2026, Hendrix College.
 
-**The gap, now confirmed by direct search: there is no named third-party *testimony*.** This audit
+**The gap, now confirmed by direct search: there is no named third-party _testimony_.** This audit
 searched specifically for a collaborator, a current or former AMP member, or anyone in his orbit
 speaking about him on the record, and found none. Every named third-party source above is either a
-*ranking* (Rolling Stone, Complex), *event coverage* (NBC, Vibe, Spectrum, Tubefilter, AP), *roster
-listing* (Ebony, BlackAmericaWeb), or *aggregation* (HotNewHipHop, Sportskeeda). None is a person on the
+_ranking_ (Rolling Stone, Complex), _event coverage_ (NBC, Vibe, Spectrum, Tubefilter, AP), _roster
+listing_ (Ebony, BlackAmericaWeb), or _aggregation_ (HotNewHipHop, Sportskeeda). None is a person on the
 record characterizing Duke Dennis.
 
 This independently confirms the 2026-08-14 regrade, which docked Evidence to 7 and wrote: "find one
@@ -198,7 +199,7 @@ anyway. "His mother's sentence outlasted his own." The regrade singles this out 
 
 **Contrarian angle, now with a named incumbent.** Personality Database and mbtilounge list him as
 **3w2**; the 9takes draft argues **8w9** and shows its work. Better still, HotNewHipHop's profile takes
-the exact *flattening* reading of rizz the draft argues against — "his charm with the ladies has made him
+the exact _flattening_ reading of rizz the draft argues against — "his charm with the ladies has made him
 an almost mythic figure for teenage boys," echoing Rolling Stone. The 9takes thesis now has a dated,
 citable, real-publisher position to disagree with rather than a vague internet consensus. That is a
 strengthening, not a threat.
@@ -246,8 +247,8 @@ of Evidence plus a point of Writing):
 6. **Trim the fourth Rolling Stone No. 5 mention.** It still appears four times (intro, AMP section, rizz
    concession, wing paragraph). The wing echo is the one to lose — the grade sidecar agrees.
 
-Structural requirements that already hold: H1 is the exact person name; meta_title follows *Name +
-falsifiable thesis* ("Why Duke Dennis Hates the Word Rizz: A Type 8 Analysis", 51 chars, name early);
+Structural requirements that already hold: H1 is the exact person name; meta_title follows _Name +
+falsifiable thesis_ ("Why Duke Dennis Hates the Word Rizz: A Type 8 Analysis", 51 chars, name early);
 one contradiction organizes the piece ("both walks are the same walk"); `same_as` links Wikipedia,
 Wikidata (Q124466749), and IMDb; entity disambiguation keeps "Denzel Shaquille Dennis," AMP, and NBA 2K
 early and prominent.
@@ -287,20 +288,20 @@ reading the result.
 
 ## Scorecard and caveats
 
-| Dimension | Score | Δ from rev 1 | Basis |
-| --- | ---: | :---: | --- |
-| Demand trajectory | 15/20 | — | Streamer University 2025 student → 2026 professor, far better documented than rev 1 recorded (Rolling Stone, Vibe, Ebony, BlackAmericaWeb, MSN, official site); 2026 travel vlogs; AMP orbit. Docked because the event concluded July 20 and the largest August spike is a debunked hoax |
-| Exact-name SERP weakness | 12/25 | **−2** | Still genuinely thin — farms, fan wikis, social profiles, collisions — but there are **two** dedicated biographies, not one: Wikipedia owns the head term and HotNewHipHop owns the "who is he / rizz" framing. NBC, Vibe, and Spectrum own the arrest query |
-| Biography-intent breadth | 13/15 | **+1** | Broad live intent; the arrest query moves from unanswerable to answerable on named authoritative sourcing. Parents, girlfriend, and net worth remain unanswerable |
-| Source depth | 11/15 | **−3** | First-person is strong (360 With Speedy + 2018 story time). Named third-party *coverage* clears the bar, but a targeted search found **zero third-party testimony** — no collaborator or AMP member on the record. Confirms the regrade's Evidence 7 and the "heavily garbled" single-source Army tape |
-| 9takes angle and niche fit | 10/10 | — | 8w9 vs. the incumbent 3w2 is falsifiable; HotNewHipHop supplies a dated real-publisher flattening read to argue against; six-node streamer cluster already published; rizz thesis passes the swap test |
-| Timing / index advantage | 5/10 | **−1** | No indexed URL; catalyst began July 6 and the event ended July 20, so 9takes is not first; and the draft now sits at 8.1, below the publish gate, so it cannot ship today |
-| Entity clarity | 3/5 | — | Collisions are unstable but persistent: NUS "mr dennis ooi," Duke University, Kathryn Dennis, Elizabeth Ann Duke, and the FotMob footballer on prior checks. Personality DBs resolve the wrong Dennis. Mitigated by "Denzel Shaquille Dennis" + AMP + NBA 2K |
-| **Subtotal** | **69** | **−5** | |
+| Dimension                  |  Score | Δ from rev 1 | Basis                                                                                                                                                                                                                                                                                                  |
+| -------------------------- | -----: | :----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Demand trajectory          |  15/20 |      —       | Streamer University 2025 student → 2026 professor, far better documented than rev 1 recorded (Rolling Stone, Vibe, Ebony, BlackAmericaWeb, MSN, official site); 2026 travel vlogs; AMP orbit. Docked because the event concluded July 20 and the largest August spike is a debunked hoax               |
+| Exact-name SERP weakness   |  12/25 |    **−2**    | Still genuinely thin — farms, fan wikis, social profiles, collisions — but there are **two** dedicated biographies, not one: Wikipedia owns the head term and HotNewHipHop owns the "who is he / rizz" framing. NBC, Vibe, and Spectrum own the arrest query                                           |
+| Biography-intent breadth   |  13/15 |    **+1**    | Broad live intent; the arrest query moves from unanswerable to answerable on named authoritative sourcing. Parents, girlfriend, and net worth remain unanswerable                                                                                                                                      |
+| Source depth               |  11/15 |    **−3**    | First-person is strong (360 With Speedy + 2018 story time). Named third-party _coverage_ clears the bar, but a targeted search found **zero third-party testimony** — no collaborator or AMP member on the record. Confirms the regrade's Evidence 7 and the "heavily garbled" single-source Army tape |
+| 9takes angle and niche fit |  10/10 |      —       | 8w9 vs. the incumbent 3w2 is falsifiable; HotNewHipHop supplies a dated real-publisher flattening read to argue against; six-node streamer cluster already published; rizz thesis passes the swap test                                                                                                 |
+| Timing / index advantage   |   5/10 |    **−1**    | No indexed URL; catalyst began July 6 and the event ended July 20, so 9takes is not first; and the draft now sits at 8.1, below the publish gate, so it cannot ship today                                                                                                                              |
+| Entity clarity             |    3/5 |      —       | Collisions are unstable but persistent: NUS "mr dennis ooi," Duke University, Kathryn Dennis, Elizabeth Ann Duke, and the FotMob footballer on prior checks. Personality DBs resolve the wrong Dennis. Mitigated by "Denzel Shaquille Dennis" + AMP + NBA 2K                                           |
+| **Subtotal**               | **69** |    **−5**    |                                                                                                                                                                                                                                                                                                        |
 
 **Penalties applied: 0.** Reasoning, stated explicitly so it can be challenged:
 
-- `-20` requires a personal Wikipedia page **and** *several* authoritative dedicated biographies.
+- `-20` requires a personal Wikipedia page **and** _several_ authoritative dedicated biographies.
   Wikipedia is present and a second dedicated profile now exists, but one aggregated mid-tier profile is
   not "several," and NBC/Vibe/Spectrum are event coverage rather than biographies. The conjunction still
   does not hold. Wikipedia's and HotNewHipHop's cost is priced into the 12/25 SERP score, not charged twice.

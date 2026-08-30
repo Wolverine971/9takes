@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/research/Ms-Rachel.md -->
+
 # Research Evidence: Ms. Rachel (Rachel Griffin Accurso)
 
 **Compiled:** 2026-08-20 · **For:** `/blog_content_creator_people_v2` pipeline run
@@ -10,47 +12,47 @@ verdict PASS/35 — advisory only, not a publication gate; see `scripts/run-blog
 
 ## 1. Dated timeline
 
-| Date | Event | Source |
-| ---- | ----- | ------ |
-| 1982-11-30 | Born Rachel Anne Griffin, Biddeford, Maine | Wikipedia |
-| — | Raised in Sanford/Springvale, Maine (John Street) | Sanford Springvale News (local outlet) |
-| — | Attends Sanford High School (theatre); family moves mid-high-school; graduates Marshwood High | Sanford Springvale News |
-| teens–20s | Summer program coordinator for disabled children; music teacher to refugee children via Boys & Girls Club, Maine | Wikipedia |
-| 2010 | Meets Aron Accurso at a Unitarian church in NYC | Washington Post 2025-08-08 |
-| — | Public preschool music teacher, New York City | Wikipedia |
-| 2016-07 | Marries Aron Accurso | Wikipedia |
-| 2016 | MA, Music Education, NYU | Wikipedia |
-| — | MA, Early Childhood Education, American College of Education (date not established) | Wikipedia |
-| 2018-03 | Son Thomas born (**NOT 2023** — see §7) | NBC/TODAY; entity-gap packet |
-| ~2020-11 | Thomas's first word, "mama," at 2 years 8 months | HuffPost UK 2023-01-11 |
-| 2019 | Launches YouTube channel (originally *Songs for Littles*) | Wikipedia |
-| 2020 | Audience explodes during COVID-19 | Wikipedia |
-| 2023-02 | Announces TikTok "mental health" break over hurtful comments | ABC News / Parade |
-| 2023-03 | Returns; caption "Love > fear" | CBS News |
-| 2023-03 | Signs with Creative Artists Agency | Wikipedia |
-| 2024-05 | Cameo fundraiser: 500 personalized videos at $100, sold out in ~1 hour, $50,000 to Save the Children emergency fund (Gaza, Sudan, Ukraine, DRC). **Loses her voice recording them.** | Romper; Washington Post 2025-08-08 |
-| 2024-05/06 | Backlash; NBC News reports she experienced bullying | NBC News 2024 |
-| 2024-08 | Toy line announced, incl. Ms. Rachel doll | Wikipedia |
-| 2025-01-09 | Last YouTube upload before hiatus | reporting via Yahoo/E! |
-| 2025-01-27 | Netflix premieres four compilation episodes | Wikipedia |
-| 2025-03-21 | Explains hiatus: "I'm sorry. We've had some family things to attend to." | Yahoo/People 2025-03-21 |
-| 2025-04-08 | Daughter Susannah born via surrogate | NBC News |
-| 2025-05 | StopAntisemitism asks AG Pam Bondi to investigate potential Hamas funding; Accurso calls it "absurd" and "patently false" | Wikipedia |
-| 2025-05 | Sings with Rahaf, 3-year-old double amputee from Gaza brought to US by PCRF | Wikipedia; Democracy Now |
-| 2025-06-03 | WBUR *Here & Now* interview | WBUR |
-| 2025-06-10 | Olivia Munn says kids' shows drive her "crazy," names Ms. Rachel; Accurso replies on the magazines' posts | Parents/People via Yahoo |
-| 2025-08-08 | Washington Post profile (Caitlin Gibson) | WaPo |
-| 2025-08-13 | Democracy Now! studio interview (one of her first live interviews) | Democracy Now |
-| 2025-09 | Netflix season 2 — biggest kids launch in platform history | THR 2025-11-03 |
-| 2025-11-03 | Hollywood Reporter studio profile | THR |
-| 2025 | Glamour Woman of the Year; wears dress printed with Gaza children's artwork | Glamour / New Arab |
-| 2025-11 | New York Times unsubscribe post, citing "biased and dehumanizing coverage of Palestinians" | Wikipedia |
-| 2025-11-20 | First-ever Children's & Family Emmy nominations (Outstanding Preschool Series; Writing) | THR |
-| 2026-01 | Apologizes for liking an antisemitic Instagram comment; says the like was accidental | Wikipedia; Fox News |
-| 2026-01 | Curates "Colours That Survived," Gaza children's artwork, Caelum Gallery, Manhattan | Wikipedia |
-| 2026-03-01/02 | Emmy ceremony, Jazz at Lincoln Center. **Loses Outstanding Preschool Series to *Sesame Street* (HBO Max).** | Variety / THR winners list |
-| 2026-06-09 | Visits Capitol Hill with letters and drawings from detained children; petition to close Dilley Immigration Processing Center passes 324,000 signatures | Wikipedia |
-| 2026-06-14 | 20.2M YouTube subscribers, 16.2B views | Wikipedia |
+| Date          | Event                                                                                                                                                                                | Source                                 |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- |
+| 1982-11-30    | Born Rachel Anne Griffin, Biddeford, Maine                                                                                                                                           | Wikipedia                              |
+| —             | Raised in Sanford/Springvale, Maine (John Street)                                                                                                                                    | Sanford Springvale News (local outlet) |
+| —             | Attends Sanford High School (theatre); family moves mid-high-school; graduates Marshwood High                                                                                        | Sanford Springvale News                |
+| teens–20s     | Summer program coordinator for disabled children; music teacher to refugee children via Boys & Girls Club, Maine                                                                     | Wikipedia                              |
+| 2010          | Meets Aron Accurso at a Unitarian church in NYC                                                                                                                                      | Washington Post 2025-08-08             |
+| —             | Public preschool music teacher, New York City                                                                                                                                        | Wikipedia                              |
+| 2016-07       | Marries Aron Accurso                                                                                                                                                                 | Wikipedia                              |
+| 2016          | MA, Music Education, NYU                                                                                                                                                             | Wikipedia                              |
+| —             | MA, Early Childhood Education, American College of Education (date not established)                                                                                                  | Wikipedia                              |
+| 2018-03       | Son Thomas born (**NOT 2023** — see §7)                                                                                                                                              | NBC/TODAY; entity-gap packet           |
+| ~2020-11      | Thomas's first word, "mama," at 2 years 8 months                                                                                                                                     | HuffPost UK 2023-01-11                 |
+| 2019          | Launches YouTube channel (originally _Songs for Littles_)                                                                                                                            | Wikipedia                              |
+| 2020          | Audience explodes during COVID-19                                                                                                                                                    | Wikipedia                              |
+| 2023-02       | Announces TikTok "mental health" break over hurtful comments                                                                                                                         | ABC News / Parade                      |
+| 2023-03       | Returns; caption "Love > fear"                                                                                                                                                       | CBS News                               |
+| 2023-03       | Signs with Creative Artists Agency                                                                                                                                                   | Wikipedia                              |
+| 2024-05       | Cameo fundraiser: 500 personalized videos at $100, sold out in ~1 hour, $50,000 to Save the Children emergency fund (Gaza, Sudan, Ukraine, DRC). **Loses her voice recording them.** | Romper; Washington Post 2025-08-08     |
+| 2024-05/06    | Backlash; NBC News reports she experienced bullying                                                                                                                                  | NBC News 2024                          |
+| 2024-08       | Toy line announced, incl. Ms. Rachel doll                                                                                                                                            | Wikipedia                              |
+| 2025-01-09    | Last YouTube upload before hiatus                                                                                                                                                    | reporting via Yahoo/E!                 |
+| 2025-01-27    | Netflix premieres four compilation episodes                                                                                                                                          | Wikipedia                              |
+| 2025-03-21    | Explains hiatus: "I'm sorry. We've had some family things to attend to."                                                                                                             | Yahoo/People 2025-03-21                |
+| 2025-04-08    | Daughter Susannah born via surrogate                                                                                                                                                 | NBC News                               |
+| 2025-05       | StopAntisemitism asks AG Pam Bondi to investigate potential Hamas funding; Accurso calls it "absurd" and "patently false"                                                            | Wikipedia                              |
+| 2025-05       | Sings with Rahaf, 3-year-old double amputee from Gaza brought to US by PCRF                                                                                                          | Wikipedia; Democracy Now               |
+| 2025-06-03    | WBUR _Here & Now_ interview                                                                                                                                                          | WBUR                                   |
+| 2025-06-10    | Olivia Munn says kids' shows drive her "crazy," names Ms. Rachel; Accurso replies on the magazines' posts                                                                            | Parents/People via Yahoo               |
+| 2025-08-08    | Washington Post profile (Caitlin Gibson)                                                                                                                                             | WaPo                                   |
+| 2025-08-13    | Democracy Now! studio interview (one of her first live interviews)                                                                                                                   | Democracy Now                          |
+| 2025-09       | Netflix season 2 — biggest kids launch in platform history                                                                                                                           | THR 2025-11-03                         |
+| 2025-11-03    | Hollywood Reporter studio profile                                                                                                                                                    | THR                                    |
+| 2025          | Glamour Woman of the Year; wears dress printed with Gaza children's artwork                                                                                                          | Glamour / New Arab                     |
+| 2025-11       | New York Times unsubscribe post, citing "biased and dehumanizing coverage of Palestinians"                                                                                           | Wikipedia                              |
+| 2025-11-20    | First-ever Children's & Family Emmy nominations (Outstanding Preschool Series; Writing)                                                                                              | THR                                    |
+| 2026-01       | Apologizes for liking an antisemitic Instagram comment; says the like was accidental                                                                                                 | Wikipedia; Fox News                    |
+| 2026-01       | Curates "Colours That Survived," Gaza children's artwork, Caelum Gallery, Manhattan                                                                                                  | Wikipedia                              |
+| 2026-03-01/02 | Emmy ceremony, Jazz at Lincoln Center. **Loses Outstanding Preschool Series to _Sesame Street_ (HBO Max).**                                                                          | Variety / THR winners list             |
+| 2026-06-09    | Visits Capitol Hill with letters and drawings from detained children; petition to close Dilley Immigration Processing Center passes 324,000 signatures                               | Wikipedia                              |
+| 2026-06-14    | 20.2M YouTube subscribers, 16.2B views                                                                                                                                               | Wikipedia                              |
 
 ---
 
@@ -83,7 +85,7 @@ verdict PASS/35 — advisory only, not a publication gate; see `scripts/run-blog
 
 > "It's really painful. And I have to remind myself that people don't know my heart, and people
 > try to tell you who you are, but you know who you are."
-> — WBUR *Here & Now*, 2025-06-03
+> — WBUR _Here & Now_, 2025-06-03
 
 > "That's really painful, because obviously it's not true… it is difficult to receive criticism,
 > but I know who I am, and that pain will never compare to the pain of not speaking out during a
@@ -155,7 +157,7 @@ verdict PASS/35 — advisory only, not a publication gate; see `scripts/run-blog
 
 > "I can be such a perfectionist. But we never would have gotten this off the ground if she hadn't
 > been like, at some point — 'Who cares if it's not perfect? It's for the kids.'"
-> — **Aron Accurso** (husband, composer, former associate music director of *Aladdin* on Broadway),
+> — **Aron Accurso** (husband, composer, former associate music director of _Aladdin_ on Broadway),
 > Washington Post, 2025-08-08
 
 > "She doesn't talk down to kids. She talks to children as they should be talked to — respectfully,
@@ -189,19 +191,19 @@ verdict PASS/35 — advisory only, not a publication gate; see `scripts/run-blog
   BS Family & Child Development), founder of Raise Wildflowers. Argument: Accurso uses
   research-backed techniques to hold infant attention while the screen-time research points away
   from screens for that age group. Also objects to the content being recommended to first-time
-  mothers of very young babies. Self-described position: *"I am not fear mongering, you should be
-  scared."* **This is the strongest non-political critic pressure and it is substantively fair:**
+  mothers of very young babies. Self-described position: _"I am not fear mongering, you should be
+  scared."_ **This is the strongest non-political critic pressure and it is substantively fair:**
   the business depends on toddlers watching screens.
 - **Olivia Munn** (2025-06-10): said kids' shows drive her "crazy" and that she does not let her
-  children watch Ms. Rachel. Accurso replied on the magazines' posts: *"I'd rather you cover my
-  advocacy for kids in Gaza,"* then clarified on Instagram that the criticism was of the outlets'
+  children watch Ms. Rachel. Accurso replied on the magazines' posts: _"I'd rather you cover my
+  advocacy for kids in Gaza,"_ then clarified on Instagram that the criticism was of the outlets'
   editorial choices, not of Munn.
 - **StopAntisemitism** (2025-05): asked AG Pam Bondi to investigate whether she was funded by
   Hamas. Accurso called the claim "absurd" and "patently false." No investigation established.
 - **Conservative boycott** (2024-06) after a Pride Month post.
 - **2026-01 antisemitic-comment like**: she apologized, said the like was accidental while trying
-  to delete the comment, and said *"I do not support language that targets or harms the Jewish
-  community."* On the record; omitting it would be a selective-narrative problem.
+  to delete the comment, and said _"I do not support language that targets or harms the Jewish
+  community."_ On the record; omitting it would be a selective-narrative problem.
 - **Counterevidence to a pure Type 2 read**: the commercial machine is hard-edged and
   well-bounded — CAA (2023), a toy line, Penguin Random House books, an Amazon brand store,
   Netflix licensing. Boundary-setting and monetization discipline are not typical Type 2
@@ -217,7 +219,7 @@ verdict PASS/35 — advisory only, not a publication gate; see `scripts/run-blog
 - 2023 Streamy (Kids & Family, won); 2025 Kids' Choice (Fan Favorite Kids' Creator, won);
   2024 NYU Dorothy Height Distinguished Alumni Award; 2025 Glamour Woman of the Year.
 - **2026 Children's & Family Emmys: two first-ever nominations, zero wins.** Lost Outstanding
-  Preschool Series to *Sesame Street*.
+  Preschool Series to _Sesame Street_.
 - Production: began editing in iMovie in their living room; moved to Final Cut Pro; now employs
   studio editors but stays closely involved in every video (THR). Aron plays the orange puppet
   Herbie. Cast includes Jules Hoffman, Keisha Gilles, Alexa Smith, Frida Matute (speech
@@ -232,13 +234,14 @@ verdict PASS/35 — advisory only, not a publication gate; see `scripts/run-blog
 **Leading: Enneagram Type 2, wing 2w1, social-dominant (so/sx).**
 
 Supporting evidence:
-- Identity is located in the care itself, and the care's *authenticity* is what she defends.
+
+- Identity is located in the care itself, and the care's _authenticity_ is what she defends.
   Accused of a financial crime (Hamas funding), her answer was not financial records but
-  *"I know who I am."* She answers factual accusations with identity claims — consistently,
+  _"I know who I am."_ She answers factual accusations with identity claims — consistently,
   across at least three separate interviews.
-- *"I can't fake being genuine"* — an unprompted defense of the realness of her love, offered
+- _"I can't fake being genuine"_ — an unprompted defense of the realness of her love, offered
   inside a trade profile about studio equipment. Nobody asked.
-- *"I think it might be a little abnormal, the amount of empathy I have"* — she has noticed
+- _"I think it might be a little abnormal, the amount of empathy I have"_ — she has noticed
   something is unusual and located it as a quantity.
 - The behavior predates the audience: summer program for disabled children, refugee children at
   the Boys & Girls Club, NYC public preschool music teacher — roughly two decades of choosing
@@ -250,8 +253,8 @@ Supporting evidence:
 ("not one is excluded"), a teacher's bearing, and a stated moral duty.
 **Disconfirming evidence for Type 1:** her husband, on the record, identifies himself as the
 perfectionist and identifies her as the one who ships imperfect work. A One defends the standard;
-Accurso defends the sincerity. Her injury response is *"people don't know my heart,"* not
-*"you are factually wrong."*
+Accurso defends the sincerity. Her injury response is _"people don't know my heart,"_ not
+_"you are factually wrong."_
 
 **Second alternative: Type 2w3 rather than 2w1.** The commercial scale (CAA, Netflix, toys,
 books, Amazon storefront) is real 2w3 evidence and should be conceded honestly. The counter is
@@ -284,8 +287,8 @@ offered in reply to a financial accusation.
   (National Catholic Reporter; her own Christian references) — that is different.
 - **Gaza advocacy and antisemitism accusations:** report attributed, do not adjudicate, and do not
   psychologize her political positions into a personality-type claim. The type lens may address
-  *how she responds to being disbelieved*; it must not be used to explain *why she holds a
-  political view*.
+  _how she responds to being disbelieved_; it must not be used to explain _why she holds a
+  political view_.
 - **University of Washington "parent-ese" study**: cited secondhand through a speech-therapy blog.
   Pull the primary study before citing any numbers. Not used in this run.
 - **American College of Education MA date**: not established.

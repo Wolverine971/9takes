@@ -7,6 +7,7 @@ score: 44
 biography_intent: true
 personal_wikipedia: true
 source_gate: 'pass'
+path: docs/content-analysis/entity-gaps/Travis-Kelce.md
 ---
 
 # Emerging Entity Gap Packet: Travis Kelce
@@ -37,13 +38,13 @@ the demand context here supports it.
 Checked 2026-08-13 via Claude WebSearch (US). Composition is directional, not a clean logged-out
 Google SERP; backlink data unknown.
 
-| Query | First-page composition |
-| --- | --- |
-| `Travis Kelce` / `"Travis Kelce"` | Personal Wikipedia, Pro-Football-Reference, Instagram, Facebook, fresh news wave (Fox, WaPo Times, ABC7, Euronews) |
-| `Travis Kelce bio` | Chiefs.com roster bio, Britannica, ESPN bio, FOX Sports bio, IMDb bio, Biography.com, Wikipedia — **seven dedicated authoritative biographies** |
-| `Travis Kelce age wife` | Wikipedia (Kylie Kelce collision), Yahoo, then thin fact-farms (factprofiles, thebiographybytes, biographykind) and SEO spam on a hacked .edu subdomain |
-| `Travis Kelce parents background` | Today.com, Donna Kelce's own Wikipedia page, EssentiallySports |
-| `Travis Kelce enneagram personality type` | **Weak:** Personality Database, Boo.world, getpersonality.com, TikTok discover pages — crowd-vote databases and zero substantive editorial analysis |
+| Query                                     | First-page composition                                                                                                                                  |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Travis Kelce` / `"Travis Kelce"`         | Personal Wikipedia, Pro-Football-Reference, Instagram, Facebook, fresh news wave (Fox, WaPo Times, ABC7, Euronews)                                      |
+| `Travis Kelce bio`                        | Chiefs.com roster bio, Britannica, ESPN bio, FOX Sports bio, IMDb bio, Biography.com, Wikipedia — **seven dedicated authoritative biographies**         |
+| `Travis Kelce age wife`                   | Wikipedia (Kylie Kelce collision), Yahoo, then thin fact-farms (factprofiles, thebiographybytes, biographykind) and SEO spam on a hacked .edu subdomain |
+| `Travis Kelce parents background`         | Today.com, Donna Kelce's own Wikipedia page, EssentiallySports                                                                                          |
+| `Travis Kelce enneagram personality type` | **Weak:** Personality Database, Boo.world, getpersonality.com, TikTok discover pages — crowd-vote databases and zero substantive editorial analysis     |
 
 Answers to the audit questions:
 
@@ -52,7 +53,7 @@ Answers to the audit questions:
 3. Strong publisher owns general biography intent: yes — several simultaneously.
 4. Would a reader need multiple searches? No for facts; **yes** for "what is he actually like /
    what type is he" — the only unmet intent.
-5. Could 9takes be the strongest general-interest page? No. Strongest *personality-analysis* page?
+5. Could 9takes be the strongest general-interest page? No. Strongest _personality-analysis_ page?
    Yes — current competition on that subfamily is directory-grade.
 
 ## Biography-intent map

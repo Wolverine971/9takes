@@ -1,3 +1,4 @@
+<!-- src/lib/components/admin/AdminMobileRouteRail.svelte -->
 <script lang="ts">
 	import { Command } from '@lucide/svelte';
 	import { getAdminRouteContext, isAdminNavActive } from '$lib/admin/adminNavigation';

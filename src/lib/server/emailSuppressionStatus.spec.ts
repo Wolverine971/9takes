@@ -1,3 +1,4 @@
+// src/lib/server/emailSuppressionStatus.spec.ts
 import { describe, expect, it, vi } from 'vitest';
 import { loadEmailSuppressionStatus } from './emailSuppressionStatus';
 

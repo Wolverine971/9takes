@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
-  "subject": "Demis-Hassabis",
-  "review_dir": "docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004",
-  "verification_file": "docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004/verification-final.md",
-  "verification_status": "pass",
-  "reviewed_snapshot_sha256": "e4da97083dbcdd623da5a8093ce678282f02d1f0faf27b150c6c61ee233cf8b0",
-  "verified_content_sha256": "18fd8579a437a04d1e46850b3599a5f65e5e079dd5109a0a1692c666ffa32a9f",
-  "verified_at": "2026-08-29T18:11:19.000Z"
+	"schema_version": 1,
+	"subject": "Demis-Hassabis",
+	"review_dir": "docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004",
+	"verification_file": "docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "e4da97083dbcdd623da5a8093ce678282f02d1f0faf27b150c6c61ee233cf8b0",
+	"verified_content_sha256": "18fd8579a437a04d1e46850b3599a5f65e5e079dd5109a0a1692c666ffa32a9f",
+	"verified_at": "2026-08-29T18:11:19.000Z"
 }

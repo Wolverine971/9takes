@@ -1,3 +1,4 @@
+// e2e/styleguide-components.spec.ts
 import { expect, test, type Locator, type Page } from '@playwright/test';
 
 const IGNORED_CONSOLE = [/\[vite\]/, /\[HMR\]/];

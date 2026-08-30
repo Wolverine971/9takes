@@ -11,6 +11,7 @@ research_required: 3
 protected_hits: 14
 requires_revision: true
 synthesized_at: 2026-08-18T07:00:15Z
+path: docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/synthesis.md
 ---
 
 # Perspective Synthesis: Alexandr Wang
@@ -49,7 +50,7 @@ Beneath that, the defects cluster into three families:
 2. **Selective evidence in both directions.** LeCun's crediting clause dropped from a section built
    on his criticism; Google's return dropped from a customer-exodus claim; Wang's three-part
    rebuttal cut to one part; Zuckerberg's interest undeclared while LeCun's is declared at length.
-   Notably the shaping runs *both* ways — toward Wang in the benchmark table, against him in the
+   Notably the shaping runs _both_ ways — toward Wang in the benchmark table, against him in the
    customer row — which tells me the tilt is arc-driven rather than sympathy-driven, and therefore
    likely to recur anywhere the arc needs a beat.
 3. **Checkable small errors in a piece whose credibility is built on checkability.** "Twenty years"
@@ -61,7 +62,7 @@ First, the draft does several things most profiles refuse to do — it declares 
 interest at length, it refuses to invent a disintegration instance the record does not contain, and
 it names two findings that would overturn its own call. Five of six preserve lists protect that
 refusal. It is the piece's trust credential and nothing in this brief touches it. Second, the fixes
-below almost all make the argument *stronger*, not gentler. LeCun conceding that Wang learns fast
+below almost all make the argument _stronger_, not gentler. LeCun conceding that Wang learns fast
 and then saying he has never practiced research is more damaging than LeCun merely calling him
 inexperienced. The gap between Wang's record and his self-account is better Type 3 evidence than the
 false generalization it replaces. The editor should not read this brief as a request to retreat.
@@ -103,7 +104,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   assertion; the following sentence ("A person who grows up on the qualifying side of a threshold
   learns something specific…") already carries the real work and survives the cut intact.
 - **Expected reader benefit.** The empathy turn keeps its full force and stops being falsifiable by
-  a fact the reader learned in this article. The gap between record and self-account is *stronger*
+  a fact the reader learned in this article. The gap between record and self-account is _stronger_
   Type 3 evidence than the generalization was, because it is exactly what the type predicts.
 - **Protected hit at risk.** PROTECT-02 and the payoff line "The man who industrialized the ranking
   of expertise got ranked, publicly, by the highest authority in his field, and came up short"
@@ -140,7 +141,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
 - **Minimum repair.** One sentence where the charge is introduced, immediately before "Then the
   specific charge." No restructuring.
 - **Expected reader benefit.** It strengthens the draft's own argument. A witness who concedes Wang
-  learns fast *and then* says he has never practiced research is far more damaging than one who
+  learns fast _and then_ says he has never practiced research is far more damaging than one who
   merely calls him inexperienced — and it makes "interested criticism is often the sharpest kind"
   pay off harder. Zero cost to the thesis.
 - **Protected hit at risk.** PROTECT-06 (the interest declaration) and PROTECT-03 (the Alex Ren
@@ -194,7 +195,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   hostile reader checks, and this one sits in the article's heaviest section — the one that places a
   sixth-grade competitor at the center of American military planning.
 - **Evidence and confidence.** Packet CLM-13 (`disputed`), S-09 versus S-02/S-12. **Source 3 of 3:**
-  my own WebSearch of the DIU/Thunderforge award record returned it consistently as a *prototype*
+  my own WebSearch of the DIU/Thunderforge award record returned it consistently as a _prototype_
   contract with no published value, described in trade press as "multimillion-dollar," with no
   $500M figure attached to Thunderforge anywhere in the March 2025 coverage. This corroborates the
   packet. **Confidence: high** that the flat statement is unsafe; medium on which reading is
@@ -217,7 +218,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   **Four perspectives.** Packet CLM-23.
 - **Location.** `draft-reviewed.md:252`, immediately preceding the all-hands scene at `:254`.
 - **Quoted passage.** `<p class="inner-thought">Don't do this. Not here. Not in front of them.
-  Finish the sentence, get to the part about the pool house, they'll laugh, you can sit down.</p>`
+Finish the sentence, get to the part about the pool house, they'll laugh, you can sit down.</p>`
 - **Adjudicated problem.** Three evidential classes are stacked with no signal separating them:
   Wang's own on-record account to Forbes ("I literally teared up"), an unnamed attendee's
   recollection of a self-directed line ("This is so stupid. Why am I doing this?"), and words no one
@@ -233,7 +234,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
 - **Evidence and confidence.** Packet CLM-23: "authored interiority with no evidentiary basis at
   all"; packet unresolved question 8. Confirmed by direct read of `:252`–`:256` — no cue exists.
   **Confidence: high** that it is unmarked; high that the repair is cheap.
-- **Minimum repair.** Two moves, both small. (1) Introduce the scene *before* the interior beat, so
+- **Minimum repair.** Two moves, both small. (1) Introduce the scene _before_ the interior beat, so
   the sourced material lands first and the invention arrives explicitly as the article's
   reconstruction. (2) In the rabbit-hole tiebreaker sentence only, attribute the self-directed line
   to the attendee account rather than letting it read as recorded. **Do not delete the device** — it
@@ -304,7 +305,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
 - **Minimum repair.** One clause in the harshest-case paragraph naming the labor charge — that the
   company was built on contractor judgment bought cheap, with the reporting already in the article
   behind it — so the exoneration has to survive it. If the writer's honest view is that the
-  psychological reading does *not* excuse the labor record, say so in the "That is not a defense of
+  psychological reading does _not_ excuse the labor record, say so in the "That is not a defense of
   him" paragraph, which currently concedes only the LeCun gap. **This repair does not depend on
   RQ-01** — the labor charge is already established in the article's own text.
 - **Expected reader benefit.** The empathy turn becomes earned rather than arranged. An exoneration
@@ -360,7 +361,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   free thesis payoff sitting in an unused cell — this is the highest-upside single edit in the P1
   list.
 - **At risk.** PROTECT-11 — "(Meta's reported figures, August 2026)" stays verbatim, and the third
-  column *header* and the closer "Three of those four will resolve with more data. The fourth is not
+  column _header_ and the closer "Three of those four will resolve with more data. The fourth is not
   a number" must survive; future explicitly protects both.
 - **Acceptance test.** At least two third-column cells state something the score hides that is worse
   for Wang than the number shown.
@@ -384,14 +385,14 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   prize and the placement, and the mathematics never appears — and drop the implication of
   volunteering. Delete "unprompted" unless a verbatim transcript read confirms it (see RQ note
   below).
-- **Benefit.** The spine gets *more* durable, not less: the surviving claim is fully supported and
+- **Benefit.** The spine gets _more_ durable, not less: the surviving claim is fully supported and
   no longer depends on a conversational sequence any reader can check.
 - **At risk.** PROTECT-01 and PROTECT-09. Do not weaken "The tell is not the ambition… The problem
   set is gone" (`:181`), which is protected and does not depend on who spoke first.
 - **Acceptance test.** No sentence states or implies Wang volunteered the placement; "unprompted"
   either carries a verified transcript citation or is gone; the body's account is consistent with
   FAQ 1's "Asked about."
-- **Optional upgrade path.** A verbatim read of the HappyScribe transcript of *This Past Weekend*
+- **Optional upgrade path.** A verbatim read of the HappyScribe transcript of _This Past Weekend_
   E563 around the math-competition exchange would let the stronger version be restored with
   citation. Deleting the word is the safe default and costs the argument nothing.
 
@@ -491,7 +492,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   **(b) Wing.** The draft says "a clean 3w2 does not usually cry at its own farewell," linking
   `/enneagram-corner/enneagram-wings-complete-guide`; that page states 3w2 is "**More emotionally
   available than 3w4**" and gives the 3w4 tell as being "moody about whether their achievements
-  actually mean anything." By the house framework, public tears cut *toward* 3w2. Separately, the
+  actually mean anything." By the house framework, public tears cut _toward_ 3w2. Separately, the
   same sentence calls the eight-character name spelling "a curated choice about how he lands" — but
   Fortune reports it as a Chinese-numerology naming decision, i.e. made at birth. You cannot read a
   subject's self-presentation off a decision made before he could speak, and the draft's own body at
@@ -645,13 +646,13 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   material. Three preserve lists protect them. Also PROTECT-13: "Somebody wrote the rubric the
   taskers were graded against" stays as written (see Rejected).
 - **Acceptance test.** Every investigation the draft details carries the company's response to
-  *that* investigation or does not imply one; no sentence fuses an event date with a publication
+  _that_ investigation or does not imply one; no sentence fuses an event date with a publication
   date; the contractor count appears wherever the employee layoff count does.
 
 ## P2 — optional opportunities
 
-- **P2-01 — The competitor who never wanted the ranking (FAN-I1).** *The one P2 that pays for
-  itself.* Surge AI runs the identical business, bootstrapped, out-earning Scale by 2024, its
+- **P2-01 — The competitor who never wanted the ranking (FAN-I1).** _The one P2 that pays for
+  itself._ Surge AI runs the identical business, bootstrapped, out-earning Scale by 2024, its
   founder profiled as the AI billionaire nobody has heard of. Same industry, same product, no
   scoreboard. That is a Type 3 argument made without a single sentence of type theory — exactly what
   the draft's own distribution ledger says it wants — and it simultaneously repairs FAN-R4 by
@@ -694,7 +695,7 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
   let the table point back at it, converting a device the writer chose into a device the subject
   invented.
 - **P2-10 — Two free contextual beats (FAN-I2, FAN-I3).** One clause identifying what kind of show
-  *This Past Weekend* is (a man arguing for the right rooms chose a comedy podcast — free evidence
+  _This Past Weekend_ is (a man arguing for the right rooms chose a comedy podcast — free evidence
   in a citation the article already uses six times), and one subordinate clause on why the Meta deal
   was 49% and non-voting rather than an acquisition.
 
@@ -770,11 +771,10 @@ section, the Alex Ren pairing, the stress-arrow honesty, and the ending all stan
 section. Both are right, and they resolve together.** CRITIC-R2 says the harshest-case paragraph
 omits the only charge with victims. SUBJECT-C2 says the labor section contains no first-person Wang
 material at all, so he is described but never answerable. These read as opposed and are not: adding
-the charge (P0-07) *and* letting him answer it is a higher standard than either alone. Readers judge
+the charge (P0-07) _and_ letting him answer it is a higher standard than either alone. Readers judge
 a subject who spoke; they suspect a writer who did not let him speak. I have accepted the charge
 addition as P0-07 and left the first-person addition to the editor's discretion, because the quote
-the subject proposes ("very, very important to the process of building powerful AI systems," Forbes
-2023) was not in the packet and I could not verify it. If it verifies cheaply, take both.
+the subject proposes ("very, very important to the process of building powerful AI systems," Forbes 2023) was not in the packet and I could not verify it. If it verifies cheaply, take both.
 
 **2. Naming Wang in the labor section: rejected on two independent grounds.** The critic asks that
 "Somebody wrote the rubric the taskers were graded against" become a named attribution to the CEO
@@ -796,7 +796,7 @@ appetite, it is the most defensible expansion in the P2 list.
 
 **4. The benchmark table is pulled in two directions at once, which is the useful finding.** The
 critic shows the third column exculpates four times out of four; the same critic shows the customer
-row (P0-06) overstates *against* Wang; the future reviewer protects the column header as the
+row (P0-06) overstates _against_ Wang; the future reviewer protects the column header as the
 durable half of a perishable section. Reading these together: the shaping is arc-driven, not
 sympathy-driven. That matters for the editor's posture — the fix is not "be harder on him" or "be
 softer on him," it is "stop letting the beat decide what the evidence says." P1-02 and P0-06 should
@@ -823,7 +823,7 @@ The critic's acceptance test extends to Sarah Guo (hosted the founding in her po
 Cameron Stanley (customer). Applying it to all five witnesses would add four hedging clauses to a
 piece that is already careful, and risks reading as defensive throat-clearing. My call: Zuckerberg
 is mandatory because his quote is the single most load-bearing piece of praise in the article and
-the asymmetry against LeCun is glaring. Sarah Guo's pool-house connection is *already* stated in the
+the asymmetry against LeCun is glaring. Sarah Guo's pool-house connection is _already_ stated in the
 same sentence as her quote (`:205`), so she is covered. Stanley is identified by his agency and
 title, which is a sufficient interest marker for a customer. Do Zuckerberg; leave the rest.
 
@@ -954,19 +954,19 @@ Ordered, bounded worklist. Items within a step are independent unless noted.
 
 **Step 3 — accepted P1 items.** Group by location to avoid re-entering the same passage repeatedly.
 
-11. *Section 5 pass (do as one deliberate sitting, watching total length):* P1-11 (LeCun reporting
+11. _Section 5 pass (do as one deliberate sitting, watching total length):_ P1-11 (LeCun reporting
     line), P1-04 (restore Wang's fuller answer, let the counterexample stand), P1-12 (Shengjia Zhao).
     Drop P1-12 if the section bloats — it is the most cuttable item in this brief.
-12. *Section 3 pass:* P1-05 (MEI: named critic, endorsers, Wang's qualifier), P1-14 (contractors,
+12. _Section 3 pass:_ P1-05 (MEI: named critic, endorsers, Wang's qualifier), P1-14 (contractors,
     date fusion, scope of "Scale's answers"), P1-09 (restore "then" in the Stanley quote, body and
     ledger).
-13. *Rabbit-hole pass:* P1-07 (cut the anonymous quote), P1-08 (fix both sub-calls that contradict
+13. _Rabbit-hole pass:_ P1-07 (cut the anonymous quote), P1-08 (fix both sub-calls that contradict
     their linked pages).
-14. *Table pass:* P1-02 (two cells must cut against him; add the beaten competitors; correct "two
+14. _Table pass:_ P1-02 (two cells must cut against him; add the beaten competitors; correct "two
     never formally started" to one). Do alongside P0-06, same table.
-15. *Spine and framing:* P1-03 (scope "unprompted" and the transcript-order framing), P1-01
+15. _Spine and framing:_ P1-03 (scope "unprompted" and the transcript-order framing), P1-01
     (Zuckerberg's interest), P1-06 ("first coding product" in all three locations).
-16. *Ending:* P1-10 (date-stamp the pricing observation, drop the imperative), P1-13 (hedge "never
+16. _Ending:_ P1-10 (date-stamp the pricing observation, drop the imperative), P1-13 (hedge "never
     been sure he made the cut" — one word; if it cannot be done without flattening the sentence,
     leave it and record the decision).
 

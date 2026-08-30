@@ -1,3 +1,4 @@
+// src/lib/components/blog/TableOfContents.spec.ts
 // @vitest-environment jsdom
 
 import { cleanup, render, screen } from '@testing-library/svelte';

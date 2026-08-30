@@ -12,6 +12,7 @@ recommendation: pass
 blockers: 0
 concerns: 0
 reviewed_at: 2026-08-13T16:05:10Z
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_160341/fan.md
 ---
 
 ## Bottom-line verdict

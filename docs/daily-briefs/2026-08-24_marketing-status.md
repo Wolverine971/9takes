@@ -18,13 +18,13 @@
 
 The last five audits ranked identity/type capture at or near the top. This week it partially shipped, and the two halves landed in opposite states.
 
-| Surface                                | What shipped 08-21                                               | Persists a type? | Weekly reach                          |
-| -------------------------------------- | ---------------------------------------------------------------- | ---------------- | ------------------------------------- |
-| `/register`                            | Optional `Select`, "Not sure yet" + Types 1–9                    | **Yes** — `profiles.enneagram` | ~1 fingerprint/week |
-| `StrategicQuestion` reveal             | "Optional: which type feels most like you?" 1–9 button group     | **No** — event only, "Saved for this visit" | 35 gate fps/week |
-| `marketingEvents.ts` (new)             | `reveal_completed`, `email_signup_completed`, `type_selected`     | n/a — instrumentation | all marketing surfaces |
-| `posthogCapture.ts` (new)              | Server-side capture path                                         | n/a              | n/a                                   |
-| `20260821153551_enforce_homepage_chorus_readiness.sql` | Homepage distributor can only feature questions with exactly 9 cached takes | n/a | homepage |
+| Surface                                                | What shipped 08-21                                                          | Persists a type?                            | Weekly reach           |
+| ------------------------------------------------------ | --------------------------------------------------------------------------- | ------------------------------------------- | ---------------------- |
+| `/register`                                            | Optional `Select`, "Not sure yet" + Types 1–9                               | **Yes** — `profiles.enneagram`              | ~1 fingerprint/week    |
+| `StrategicQuestion` reveal                             | "Optional: which type feels most like you?" 1–9 button group                | **No** — event only, "Saved for this visit" | 35 gate fps/week       |
+| `marketingEvents.ts` (new)                             | `reveal_completed`, `email_signup_completed`, `type_selected`               | n/a — instrumentation                       | all marketing surfaces |
+| `posthogCapture.ts` (new)                              | Server-side capture path                                                    | n/a                                         | n/a                    |
+| `20260821153551_enforce_homepage_chorus_readiness.sql` | Homepage distributor can only feature questions with exactly 9 cached takes | n/a                                         | homepage               |
 
 Read plainly: the product now has a typing step for the 0.03% of visitors who reach `/register`, and a demand test for the 0.88% who reach a gate. Growth's `enneagram_type_prompt` sequence — already built, sitting in `draft`, addressable list of **137 untyped profiles with an email** — would reach more people than both new surfaces combined and requires a status flip, not a build.
 
@@ -50,18 +50,18 @@ The half that did not ship is the one this week's audit located in code. `src/li
 - **All six publishes were manual.** Keira Knightley (08-17), Alexandr Wang (08-18), Victoria Justice (08-19), Margaret Qualley (08-20), Yang Zhilin (08-22), James Clear. Rate ~0.86/day, down from 1.7/day last week. The auto-publisher shipped nothing.
 - **Blocker movement 08-17 → 08-24:**
 
-| Blocker class                   | 08-17 | 08-24 | Read                                                          |
-| ------------------------------- | ----: | ----: | ------------------------------------------------------------- |
-| `missing_perspective_review`    |    89 |    86 | -3, entirely via publishes. No backfill occurred.             |
-| `source_standard_failed`        |    47 |    47 | Flat, second week.                                            |
-| `missing_grade_stability_delta` |    38 |    37 | Flat. Supervised-regrade class, unchanged ~5 weeks.           |
-| `content_quality_below_8.5`     |    34 |    35 | The 8.2–8.5 structural ceiling.                               |
-| `stale_grade_rubric_v1`         |    29 |    29 | Flat.                                                         |
-| `missing_content_quality`       |    14 |    15 | Ungraded drafts.                                              |
+| Blocker class                   | 08-17 |  08-24 | Read                                                                |
+| ------------------------------- | ----: | -----: | ------------------------------------------------------------------- |
+| `missing_perspective_review`    |    89 |     86 | -3, entirely via publishes. No backfill occurred.                   |
+| `source_standard_failed`        |    47 |     47 | Flat, second week.                                                  |
+| `missing_grade_stability_delta` |    38 |     37 | Flat. Supervised-regrade class, unchanged ~5 weeks.                 |
+| `content_quality_below_8.5`     |    34 |     35 | The 8.2–8.5 structural ceiling.                                     |
+| `stale_grade_rubric_v1`         |    29 |     29 | Flat.                                                               |
+| `missing_content_quality`       |    14 |     15 | Ungraded drafts.                                                    |
 | `missing_full_image`            | **7** | **12** | **Regressing.** +5 in a week — new drafts outrun the portrait step. |
-| `missing_thumbnail_image`       | **7** | **12** | **Regressing.**                                               |
+| `missing_thumbnail_image`       | **7** | **12** | **Regressing.**                                                     |
 
-- **Perspective-review arithmetic:** directories on disk 25 → **34** (+9), every one produced by the nightly pipeline for a *new* draft. 86 legacy drafts remain unreachable, and at 1 pipeline slot/night consumed by creates, the backfill rate is structurally zero. This is the second brief carrying the same unanswered fork.
+- **Perspective-review arithmetic:** directories on disk 25 → **34** (+9), every one produced by the nightly pipeline for a _new_ draft. 86 legacy drafts remain unreachable, and at 1 pipeline slot/night consumed by creates, the backfill rate is structurally zero. This is the second brief carrying the same unanswered fork.
 - **Create quality is strong.** Clean runs 08-18 → 08-23: Alexandr Wang 8.6 B+ pass, **Bill Burr 8.9 B+ pass** (best in weeks), Ms Rachel 8.1 B pass, Jonathan Bailey 8.7 B+ pass, Liang Wenfeng fail_after_revision (ungraded), Patrick Mahomes 8.6 B+ pass. Then 08-24 produced nothing.
 - **The Type 2 anchor arrived and does not clear the gate.** `ms-rachel` — flagged for four briefs as the missing Instagram type-pond anchor — graded **8.1 with a 0.5 instability delta** (first 8.6, regrade 8.1). It is below the 8.5 publish gate and would need a supervised regrade or revision pass.
 - **Closest to publish today** (08-24 log): `jonathan-bailey` and `simone-biles` — **images only**, no other blocker. Then six drafts at `content_quality_below_8.5:8.4` + `missing_perspective_review` (hunter-biden, jynxzi, ksi, penguinz0, plaqueboymax, rose-blackpink).

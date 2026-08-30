@@ -1,3 +1,4 @@
+<!-- src/lib/components/molecules/PerspectivePreviewCard.svelte -->
 <script lang="ts">
 	import { ENNEAGRAM_TYPE_COLORS, TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
 

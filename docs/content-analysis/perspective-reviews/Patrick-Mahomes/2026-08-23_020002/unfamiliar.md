@@ -12,13 +12,14 @@ recommendation: revise
 blockers: 1
 concerns: 8
 reviewed_at: 2026-08-23T07:20:44Z
+path: docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/unfamiliar.md
 ---
 
 ## Bottom-line verdict
 
-Read cold, with no packet and no research, this article does the job the unfamiliar reader needs: by the fourth paragraph I knew who Patrick Mahomes is (the NFL's best-known quarterback, Kansas City, born 1995, two MVPs, three championships), why he matters (the improvised style with its own vocabulary), and why now (a torn ACL in December 2025, cleared for camp, a September 14, 2026 opener nobody will promise). I could state the thesis in one sentence after one read: *the improviser is a rehearser; the calm is the product of having already imagined the worst; he trusts himself only after someone he trusts has tested him.* I could state the type answer (Enneagram Type 6) and roughly what that means without ever having opened an Enneagram book, because the draft glosses it in plain words ("the fear of being caught without support or a plan"; "the most anxious person in the room becomes the steadiest one when the crisis is real, because the crisis has been rehearsed").
+Read cold, with no packet and no research, this article does the job the unfamiliar reader needs: by the fourth paragraph I knew who Patrick Mahomes is (the NFL's best-known quarterback, Kansas City, born 1995, two MVPs, three championships), why he matters (the improvised style with its own vocabulary), and why now (a torn ACL in December 2025, cleared for camp, a September 14, 2026 opener nobody will promise). I could state the thesis in one sentence after one read: _the improviser is a rehearser; the calm is the product of having already imagined the worst; he trusts himself only after someone he trusts has tested him._ I could state the type answer (Enneagram Type 6) and roughly what that means without ever having opened an Enneagram book, because the draft glosses it in plain words ("the fear of being caught without support or a plan"; "the most anxious person in the room becomes the steadiest one when the crisis is real, because the crisis has been rehearsed").
 
-Trust on the cold read was intact. It became **strained** once the shared evidence packet, and then my own check of the New Heights transcript, showed that one quotation printed as Mahomes's own words ("I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes") is Travis Kelce talking about himself. It is used to illustrate Mahomes's "specific dread" of his coach. That is the single blocker. A second packet finding, that *The Kingdom* is not a series "he co-produced," is smaller but matters to this reader specifically, because "he co-produced" told me how much to discount every quote drawn from it.
+Trust on the cold read was intact. It became **strained** once the shared evidence packet, and then my own check of the New Heights transcript, showed that one quotation printed as Mahomes's own words ("I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes") is Travis Kelce talking about himself. It is used to illustrate Mahomes's "specific dread" of his coach. That is the single blocker. A second packet finding, that _The Kingdom_ is not a series "he co-produced," is smaller but matters to this reader specifically, because "he co-produced" told me how much to discount every quote drawn from it.
 
 Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce brothers and their podcast are never introduced before a section opens on them; his college is never named; "walked him to the safeties" is football shorthand that hides what the sentence means; "counterphobic," the one piece of Enneagram jargon the thesis actually hangs on, is used twice and defined nowhere. None of these stopped me reading. All of them are cheap.
 
@@ -48,7 +49,7 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 
 ## What missed
 
-**UNFAMILIAR-M1 — A section opens on two unknowns.** "Jason Kelce set the trap on *New Heights*." I did not know who Jason Kelce is or what *New Heights* is, and the draft never says (the earlier "the Kelce brothers on *New Heights* in 2022" assumes the same knowledge). The trap still reads, but the reader is doing inference work at the exact moment the article's best beat begins. See C2.
+**UNFAMILIAR-M1 — A section opens on two unknowns.** "Jason Kelce set the trap on _New Heights_." I did not know who Jason Kelce is or what _New Heights_ is, and the draft never says (the earlier "the Kelce brothers on _New Heights_ in 2022" assumes the same knowledge). The trap still reads, but the reader is doing inference work at the exact moment the article's best beat begins. See C2.
 
 **UNFAMILIAR-M2 — The college chapter is missing its nouns.** "Kliff Kingsbury, who offered him 'whenever I had no real offers'…" Offered what? Texas Tech is never named in the body; Kingsbury is never identified; "Whitehouse's quarterback graduated" assumes I know Whitehouse is his high school. See C5.
 
@@ -63,7 +64,7 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 ## What I expected
 
 - **Who / why / why now in the first screen.** Delivered by paragraph four. I would not move the phone anecdote to get it earlier.
-- **Every named person introduced before they are used.** Mostly delivered (Randi Martin, LaTroy Hawkins, Alex Smith, Brittany, Trent McDuffie, Roquan Smith, Dr. Cooper are all tagged on first use). Not delivered for Jason Kelce / *New Heights*, Kliff Kingsbury, Josh Allen, Whitehouse, and the unnamed Texas Tech.
+- **Every named person introduced before they are used.** Mostly delivered (Randi Martin, LaTroy Hawkins, Alex Smith, Brittany, Trent McDuffie, Roquan Smith, Dr. Cooper are all tagged on first use). Not delivered for Jason Kelce / _New Heights_, Kliff Kingsbury, Josh Allen, Whitehouse, and the unnamed Texas Tech.
 - **A plain-language version of the Enneagram claim.** Delivered in two places (the TL;DR and the "fear of being caught without support or a plan" paragraph). Expected, and did not get, one clause on "counterphobic."
 - **Controversy handled critic-first.** Delivered in the helmet section: Aikman, Roquan Smith, and Mahomes's own concession come before the reframe.
 - **The painful family material handled with restraint.** Delivered. "He said he made a vow about drinking" is exactly as far as the record goes, and the section is built on the father's own words.
@@ -82,7 +83,8 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 ### Blocker
 
 **UNFAMILIAR-R1 — A quotation printed as Mahomes's is Travis Kelce's.**
-- **Location:** "The Coach Patrick Mahomes Said He Needed," the walkthrough paragraph: *"I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes."*
+
+- **Location:** "The Coach Patrick Mahomes Said He Needed," the walkthrough paragraph: _"I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes."_
 - **Reader effect:** the paragraph's claim ("The flip side of that trust is a specific dread") is illustrated with a sentence that a named third party said about his own lateness. A reader who later learns this (the episode is public and the Kelce brothers' fans know it) will re-audit every other quote in the piece.
 - **Evidence:** New Heights EP15 transcript (`youtube-transcripts/mahomes/new-heights-ep15-mahomes.md`, ~offset 44,000). Mahomes finishes his story ("…I get like the max fine… feel like an idiot… the first question they asked me was were you with Travis"), then: "long story short uh Travis was also like he got there five minutes before… I'm not gonna say I'm notorious for late but I screwed up a few times before… so I'm in my head about it I'm like man coach Reed is gonna kill me man I can't even look at this guy in his eyes… and I walk into the building and they're like were you with Pat last night." The speaker is unmistakably Travis. The packet records the same (CLM-27, Dispute 6).
 - **Minimum viable repair:** replace the quote with Mahomes's own words from the same story, which carry the same dread: "there is no chance I'm walking through the defense late… I sit in the locker room and I'm just sitting there shaking my head… feel like an idiot." The surrounding paraphrase ("sat in the locker room rather than walk in late") already fits.
@@ -93,24 +95,27 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 ### Concerns
 
 **UNFAMILIAR-C1 — "the 2025 ESPN docuseries he co-produced."**
-- **Location:** diagnosis section, the sentence introducing *The Kingdom*.
-- **Reader effect:** for a newcomer this is the only credential given for the source of roughly a third of the article's quotes (draft night, the nerves, the father's arrest, "lowest points"). "He co-produced" tells me to read them as his own production; it also silently props the later line "disclosed only when he controlled the room it was disclosed in."
-- **Evidence:** packet CLM-04 / S19: Mahomes holds no producer credit on *The Kingdom*; his company 2PM Productions is one of four "in association with" partners. He *is* a credited EP on Netflix's *Quarterback*.
-- **Minimum viable repair:** change "he co-produced" to "made with his production company among its partners" (or simply drop the clause), and let "He waited until he trusted the structure" carry the father's-arrest paragraph instead of "controlled the room."
-- **Expected benefit:** the reader's calibration of every *Kingdom* quote is accurate; the sharpest paragraph in the piece no longer rests on an overstated credit.
-- **Confidence:** high on the fact; medium on how much a general reader weights it.
-- **Acceptance test:** the words "co-produced" and "controlled the room" do not appear; the *Kingdom* introduction matches the production credits in S19.
 
-**UNFAMILIAR-C2 — The Kelce brothers and *New Heights* are never introduced.**
-- **Location:** first use "he told the Kelce brothers on *New Heights* in 2022" (diagnosis section); section opener "Jason Kelce set the trap on *New Heights*."
-- **Reader effect:** two proper nouns with no handle at the top of the article's best section. Travis is linked on a later line, but nothing tells the reader that Travis is his teammate, that Jason is Travis's brother, or that *New Heights* is their podcast.
+- **Location:** diagnosis section, the sentence introducing _The Kingdom_.
+- **Reader effect:** for a newcomer this is the only credential given for the source of roughly a third of the article's quotes (draft night, the nerves, the father's arrest, "lowest points"). "He co-produced" tells me to read them as his own production; it also silently props the later line "disclosed only when he controlled the room it was disclosed in."
+- **Evidence:** packet CLM-04 / S19: Mahomes holds no producer credit on _The Kingdom_; his company 2PM Productions is one of four "in association with" partners. He _is_ a credited EP on Netflix's _Quarterback_.
+- **Minimum viable repair:** change "he co-produced" to "made with his production company among its partners" (or simply drop the clause), and let "He waited until he trusted the structure" carry the father's-arrest paragraph instead of "controlled the room."
+- **Expected benefit:** the reader's calibration of every _Kingdom_ quote is accurate; the sharpest paragraph in the piece no longer rests on an overstated credit.
+- **Confidence:** high on the fact; medium on how much a general reader weights it.
+- **Acceptance test:** the words "co-produced" and "controlled the room" do not appear; the _Kingdom_ introduction matches the production credits in S19.
+
+**UNFAMILIAR-C2 — The Kelce brothers and _New Heights_ are never introduced.**
+
+- **Location:** first use "he told the Kelce brothers on _New Heights_ in 2022" (diagnosis section); section opener "Jason Kelce set the trap on _New Heights_."
+- **Reader effect:** two proper nouns with no handle at the top of the article's best section. Travis is linked on a later line, but nothing tells the reader that Travis is his teammate, that Jason is Travis's brother, or that _New Heights_ is their podcast.
 - **Evidence:** cold read; packet S01 confirms the identities.
-- **Minimum viable repair:** one clause at first use, e.g. "on *New Heights*, the podcast his tight end Travis Kelce hosts with his brother Jason."
+- **Minimum viable repair:** one clause at first use, e.g. "on _New Heights_, the podcast his tight end Travis Kelce hosts with his brother Jason."
 - **Expected benefit:** the section opener reads as a scene instead of a citation.
 - **Confidence:** high that the gap exists; medium on how many 2026 readers need it (Travis Kelce is very widely known; Jason and the show less so).
-- **Acceptance test:** a reader who has never heard of the podcast can say, after the diagnosis section, who the Kelces are and what *New Heights* is.
+- **Acceptance test:** a reader who has never heard of the podcast can say, after the diagnosis section, who the Kelces are and what _New Heights_ is.
 
 **UNFAMILIAR-C3 — "counterphobic" is used twice and defined nowhere.**
+
 - **Location:** TL;DR bullet "Enneagram Type 6, counterphobic"; diagnosis "in its counterphobic form, with a Seven wing that supplies the grin."
 - **Reader effect:** the thesis's most specific word is jargon. The TL;DR bullet gives an implied gloss; the body gives none. Because the packet also reports that the house Type 6 page defines "counterphobic" differently from most of the draft's evidence (Dispute 1), the undefined word is doing more work than the reader can check.
 - **Evidence:** cold read; packet §"Phobic vs. counterphobic (unresolved)."
@@ -120,6 +125,7 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 - **Acceptance test:** a reader with no Enneagram background can paraphrase "counterphobic" after the diagnosis section without the link.
 
 **UNFAMILIAR-C4 — "walked him to the safeties."**
+
 - **Location:** childhood section, the University of Texas recruiting visit.
 - **Reader effect:** the sentence is the hinge of the paragraph ("the adults who were supposed to know the way did not all agree on it"), and a non-football reader cannot tell what happened. His own words in the source are plainer.
 - **Evidence:** packet S03: "they had kind of sent me over to play safety."
@@ -129,6 +135,7 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 - **Acceptance test:** a reader who does not know what a safety is can say what Texas's coaches thought he should play.
 
 **UNFAMILIAR-C5 — College, Kingsbury, and Whitehouse are used without introduction.**
+
 - **Location:** "Kliff Kingsbury, who offered him 'whenever I had no real offers'"; "the moment Whitehouse's quarterback graduated."
 - **Reader effect:** the reader never learns where he went to college (Texas Tech appears only inside a URL), who Kingsbury is, or that Whitehouse is his high school. "Offered him" has no object.
 - **Evidence:** cold read; packet timeline (2013-01-11 Kingsbury's Texas Tech offer; Whitehouse HS).
@@ -138,15 +145,17 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 - **Acceptance test:** the body names his college and his high school at least once each; "offered" has an object.
 
 **UNFAMILIAR-C6 — "Even Jason Kelce conceded … 'the Chiefs needed those calls.'"**
+
 - **Location:** helmet section, the flopping paragraph.
 - **Reader effect:** "conceded" tells a newcomer that a Kelce brother admitted the officials carried the Chiefs. The packet reports the opposite register: Jason's full line is "…the Texans left the all-time leading playoffs receiver wide booty butt naked open for four quarters, and yet the Chiefs needed those calls," which is sarcasm at the refs narrative. The reader is handed a named person's stance, inverted.
 - **Evidence:** packet CLM-36 / S21 (SI, Jan 22, 2025).
-- **Minimum viable repair:** cut the clause (the paragraph already has Aikman, Roquan Smith, and Mahomes's own concession), or recast it: "Jason Kelce's sarcastic version on *New Heights* was that the Chiefs, with Travis 'wide open for four quarters,' somehow 'needed those calls.'"
+- **Minimum viable repair:** cut the clause (the paragraph already has Aikman, Roquan Smith, and Mahomes's own concession), or recast it: "Jason Kelce's sarcastic version on _New Heights_ was that the Chiefs, with Travis 'wide open for four quarters,' somehow 'needed those calls.'"
 - **Expected benefit:** the critics' case stays critic-first without misrepresenting a third party; the article's careful handling of the flop controversy is not undercut by one inverted quote.
 - **Confidence:** medium-high (I am reading the register from the packet's excerpt, not the full clip).
 - **Acceptance test:** the word "conceded" is not attached to Jason Kelce, or the surrounding sentence makes the sarcasm visible.
 
 **UNFAMILIAR-C7 — The December 10, 2023 game has no opponent and an unintroduced name.**
+
 - **Location:** helmet section, "…found Josh Allen afterward to tell him it was the 'wildest' call he had ever seen."
 - **Reader effect:** the reader does not know the game was at Buffalo or that Josh Allen is Buffalo's quarterback, so "found Josh Allen afterward" is a stranger appearing in the last sentence of a scene. Buffalo has already been established as the opponent in the 13-second game, so the reader would welcome the connection.
 - **Evidence:** cold read; packet timeline 2023-12-10 "At Buffalo, 20-17 loss."
@@ -156,6 +165,7 @@ Beyond those, the misses are orientation gaps of the one-clause kind: the Kelce 
 - **Acceptance test:** the paragraph names the opponent and identifies Allen on first use.
 
 **UNFAMILIAR-C8 — "That is what a Six under stress looks like, performing certainty he does not have."**
+
 - **Location:** final section, after "I think I ran a little bit too much last season."
 - **Reader effect:** the only type sentence in the body whose evidence the reader cannot see. Everywhere else the lens is earned by a quote; here "ran too much" becomes "performing certainty" by assertion. For a newcomer it reads as the article reaching for its theory at the one moment the theory is hardest to apply (a bad season).
 - **Evidence:** cold read; the packet notes (§"Evidence against Type 6") that absorbing Three-like 2025 behavior into the Six read via the stress arrow is unfalsifiable unless a discriminator is stated.
@@ -177,9 +187,9 @@ Ordered by priority. Each is clause-level; together they add roughly 60–80 wor
 
 1. **UNFAMILIAR-I1 — Swap the misattributed quote (R1).** Passage: walkthrough paragraph. Effect: trust. Evidence: EP15 transcript. Repair: replace with "there is no chance I'm walking through the defense late… feel like an idiot." Benefit: first-person dread, honestly sourced. Confidence: high. Test: all quotes in the paragraph fall inside Mahomes's turn in the transcript.
 
-2. **UNFAMILIAR-I2 — Correct the production credit (C1).** Passage: diagnosis, *The Kingdom* introduction; father's-arrest "controlled the room." Repair: "made with his production company among its partners" / "He waited until he trusted the structure" alone. Benefit: accurate source calibration for the reader. Confidence: high. Test: "co-produced" absent; credit matches S19.
+2. **UNFAMILIAR-I2 — Correct the production credit (C1).** Passage: diagnosis, _The Kingdom_ introduction; father's-arrest "controlled the room." Repair: "made with his production company among its partners" / "He waited until he trusted the structure" alone. Benefit: accurate source calibration for the reader. Confidence: high. Test: "co-produced" absent; credit matches S19.
 
-3. **UNFAMILIAR-I3 — Introduce the Kelces and *New Heights* once (C2).** Passage: first use in the diagnosis section. Repair: "the podcast his tight end Travis Kelce hosts with his brother Jason." Benefit: the no-look section opens as a scene. Confidence: high. Test: a reader can identify both men and the show after the diagnosis section.
+3. **UNFAMILIAR-I3 — Introduce the Kelces and _New Heights_ once (C2).** Passage: first use in the diagnosis section. Repair: "the podcast his tight end Travis Kelce hosts with his brother Jason." Benefit: the no-look section opens as a scene. Confidence: high. Test: a reader can identify both men and the show after the diagnosis section.
 
 4. **UNFAMILIAR-I4 — Define "counterphobic" in one appositive (C3).** Passage: "in its counterphobic form." Repair: a plain-language appositive whose wording the enneagram juror confirms. Benefit: the thesis's key word is checkable. Confidence: high on the need; label correctness deferred. Test: a newcomer can paraphrase the term.
 
@@ -197,7 +207,7 @@ Ordered by priority. Each is clause-level; together they add roughly 60–80 wor
 
 **UNFAMILIAR-Q1 — Does the article intend "counterphobic" in the house sense, and does the evidence support it?** What would change: the wording of the TL;DR bullet, the diagnosis sentence, and the appositive in I4; possibly the label itself. Best source: the enneagram juror's read against `src/blog/enneagram/enneagram-type-6.md` (the packet's Dispute 1). This perspective can only report that the word is undefined.
 
-**UNFAMILIAR-Q2 — Did Mahomes ask Alex Smith "a thousand questions" or shadow him silently?** What would change: the sentence "Mahomes did not ask Smith for advice. He shadowed him." A newcomer takes it as settled; the packet (Dispute 3) shows Smith says the opposite. If both are true, "He asked, and then he watched" is stronger and safer. Best source: *The Kingdom* E1 transcript already in the repo (S04).
+**UNFAMILIAR-Q2 — Did Mahomes ask Alex Smith "a thousand questions" or shadow him silently?** What would change: the sentence "Mahomes did not ask Smith for advice. He shadowed him." A newcomer takes it as settled; the packet (Dispute 3) shows Smith says the opposite. If both are true, "He asked, and then he watched" is stronger and safer. Best source: _The Kingdom_ E1 transcript already in the repo (S04).
 
 **UNFAMILIAR-Q3 — Does the father's "it kind of hurt him. It really did." belong in the opening?** What would change: the "Both are true" pair would become a trio (mother's phone, father's memory, his own "didn't think about it"), which for a newcomer makes the puzzle sharper at no comprehension cost. Best source: 670 The Score, Jan 30, 2023 (packet S27).
 
@@ -225,7 +235,7 @@ Ordered by priority. Each is clause-level; together they add roughly 60–80 wor
 
 1. **SHA check.** `shasum -a 256 draft-reviewed.md` = `690cb7c2…e2a9a1`, matching `context.json` and the supplied argument.
 2. **Cold read (no packet, no web).** Full read of `draft-reviewed.md`; impressions written to a scratch file before opening the packet. The snapshot contains HTML comments (testimony/heading/formula ledgers, fresh-eyes notes, second-pass notes). I read them because they are in the file, did not treat them as evidence, and wrote my cold-read notes without reference to them. Decision affected: the hits, misses, and orientation gaps above are from the cold read.
-3. **Evidence packet** (`evidence-packet.md`, compiled 2026-08-23T07:12Z). Precise questions taken into it: (a) who are the Kelces / what is *New Heights*; (b) where did he go to college and who is Kingsbury; (c) what does "walked him to the safeties" mean; (d) who was the Dec 10, 2023 opponent; (e) is "blacks out" his word; (f) is "counterphobic" defined anywhere. Packet answered all six (a–d: draft omissions, not my unfamiliarity; e: his word, verified; f: undefined, and disputed against the house definition). Packet also surfaced CLM-27 (misattributed quote), CLM-04 (production credit), CLM-36 (Jason Kelce register), CLM-14 (Alex Smith dispute), CLM-06 (Burleson question). Decisions affected: R1, C1, C6, Q2, Q4.
+3. **Evidence packet** (`evidence-packet.md`, compiled 2026-08-23T07:12Z). Precise questions taken into it: (a) who are the Kelces / what is _New Heights_; (b) where did he go to college and who is Kingsbury; (c) what does "walked him to the safeties" mean; (d) who was the Dec 10, 2023 opponent; (e) is "blacks out" his word; (f) is "counterphobic" defined anywhere. Packet answered all six (a–d: draft omissions, not my unfamiliarity; e: his word, verified; f: undefined, and disputed against the house definition). Packet also surfaced CLM-27 (misattributed quote), CLM-04 (production credit), CLM-36 (Jason Kelce register), CLM-14 (Alex Smith dispute), CLM-06 (Burleson question). Decisions affected: R1, C1, C6, Q2, Q4.
 4. **Primary transcript check** (`youtube-transcripts/mahomes/new-heights-ep15-mahomes.md`, grep around "kill me" / "walking through the defense" / "were you with"). Confirmed the speaker turn: Mahomes's story ends at "were you with Travis… no no not at all"; "Travis was also like he got there five minutes before" hands off; "I'm in my head about it… coach Reed is gonna kill me… I can't even look at this guy in his eyes… they're like were you with Pat last night" is Travis. Decision affected: R1 elevated from packet finding to verified blocker; repair wording drawn from Mahomes's own turn.
 5. **Repo styling check** (`src/scss/blog.scss:630`, `.inner-thought`): italic callout with a thought-bubble icon. Decision affected: the inner-thought "is this a quote?" reaction downgraded from concern to preference.
 6. **Orientation web search: none used.** The single permitted search was reserved for distinguishing draft omission from personal unfamiliarity; the packet settled every such question, so no web source was consulted.

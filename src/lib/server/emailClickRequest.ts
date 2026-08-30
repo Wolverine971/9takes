@@ -1,3 +1,4 @@
+// src/lib/server/emailClickRequest.ts
 const AUTOMATED_CLICK_USER_AGENT_PATTERNS = [
 	/bot\b/i,
 	/crawl/i,

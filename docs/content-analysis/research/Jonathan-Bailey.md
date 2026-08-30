@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Jonathan-Bailey.md -->
+
 # Research Evidence: Jonathan Bailey
 
 **Compiled:** 2026-08-21 · **Stage:** creator (blog_content_creator_people_v2) · **Mode:** non-interactive

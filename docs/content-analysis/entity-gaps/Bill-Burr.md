@@ -57,8 +57,8 @@ Cathie Wood page — a different person, and a useful reminder that the spelling
 Checked **2026-08-19, US, via WebSearch** (non-personalized, no location refinement). Composition, not
 positions. Backlink data: **unknown** — no backlink tool available, and none inferred from search.
 
-| Query                          | First-page composition                                                                                                                                                     |
-| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Query                          | First-page composition                                                                                                                                                      |
+| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `Bill Burr`                    | IMDb, X/@billburr, Instagram/@wilfredburr, **billburr.com** (official), Facebook, **Ticketmaster**, YouTube channel, AllMusic, Time Out. (Wikipedia confirmed live, ranks.) |
 | `Bill Burr biography`          | **IMDb bio**, Fandango, **Broadway.com**, legit.ng, plus `billburr.org` (scalper site posing as "Official Biography") and a hijacked `.gov.ng` subdomain                    |
 | `Bill Burr wife`               | **Today.com**, **Parade**, **Vibe**, US Sun, Yahoo, AOL, IMDb (Nia Renée Hill), biographypedia                                                                              |
@@ -107,15 +107,15 @@ generated junk (siblings/parents/net worth), while the interpretation surface is
 
 **Fact queries** — answer only these, only in prose or FAQ metadata, only from the sources named.
 
-| Query          | Answerable?                | Source discipline                                                               |
-| -------------- | -------------------------- | -------------------------------------------------------------------------------- |
-| Age / birthday | **Yes** — 1968-06-10       | Wikipedia; he turned 58 in June 2026                                            |
-| Wife           | **Yes** — Nia Renée Hill   | Married 2013; she is an actress/writer/producer, founder of Tenderheaded Films   |
-| Children       | **Yes, carefully**         | Daughter b. Jan 2017, son b. June 2020. **Do not name the children.**            |
-| Parents        | **Yes** — Robert and Linda Ann Burr; father a dentist, mother a nurse | Wikipedia only              |
-| Education      | **Yes** — Emerson, 1993    | Wikipedia. Note: content farms say "radio degree"; Wikipedia says communications |
-| Siblings       | **NO — do not answer**     | Sources contradict flatly (three vs five; wrong parent names). Omit entirely.    |
-| Net worth      | **NO — do not answer**     | Estimates span $8M to $120M across junk sources. Nothing citable exists.         |
+| Query          | Answerable?                                                           | Source discipline                                                                |
+| -------------- | --------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| Age / birthday | **Yes** — 1968-06-10                                                  | Wikipedia; he turned 58 in June 2026                                             |
+| Wife           | **Yes** — Nia Renée Hill                                              | Married 2013; she is an actress/writer/producer, founder of Tenderheaded Films   |
+| Children       | **Yes, carefully**                                                    | Daughter b. Jan 2017, son b. June 2020. **Do not name the children.**            |
+| Parents        | **Yes** — Robert and Linda Ann Burr; father a dentist, mother a nurse | Wikipedia only                                                                   |
+| Education      | **Yes** — Emerson, 1993                                               | Wikipedia. Note: content farms say "radio degree"; Wikipedia says communications |
+| Siblings       | **NO — do not answer**                                                | Sources contradict flatly (three vs five; wrong parent names). Omit entirely.    |
+| Net worth      | **NO — do not answer**                                                | Estimates span $8M to $120M across junk sources. Nothing citable exists.         |
 
 ## Source inventory
 
@@ -173,7 +173,7 @@ and the local evidence is unusually concrete:
 - **The existing typing is contestable, which is the whole opportunity.** The databases split — Boo
   and So Syncd say **6w7**, SunSigns and personalitylist say **ISTP**, PDB commenters argue **ESTP**.
   None engages the evidence. The counter-phobic reading is available and defensible: _"I don't give a
-  f*** what these phony f***ing people are saying"_ is not detachment, it is a Six under pressure
+  f\*** what these phony f\***ing people are saying"_ is not detachment, it is a Six under pressure
   performing not-caring — and the therapy record underneath it is the tell.
 
 **Conclusion:** proceed, but on a narrowed target. Do not write "the definitive Bill Burr biography."
@@ -195,7 +195,7 @@ better read as the most frightened.
   evidence. A page that merely asserts a number is indistinguishable from boo.world.
 - **Use the Riyadh episode as the live character test**, held in tension rather than resolved.
   Present the HRW condemnation, the named peer criticism, and his own "People are cool. Governments
-  are the problem" defense. Do not adjudicate his morality; read the *pattern* — the immediate
+  are the problem" defense. Do not adjudicate his morality; read the _pattern_ — the immediate
   counterattack, the preemptive dismissal of critics as "phony," the refusal to be seen flinching.
 - **Answer only the safe fact queries**, in prose or FAQ metadata: age, wife, children (unnamed),
   parents, education. Skip siblings and net worth entirely.
@@ -214,7 +214,7 @@ better read as the most frightened.
   "Bill senior and Brenda," which contradicts Wikipedia's Robert and Linda Ann. Wikipedia is silent.
   If a sibling matters to a story beat, source it to a specific podcast episode or drop it.
 - **Do not name his children.** Birth months/years only, and only if the biography spine needs them.
-- **Do not diagnose.** "Emotional abuse" is *his* framing of *his* childhood — attribute it to him
+- **Do not diagnose.** "Emotional abuse" is _his_ framing of _his_ childhood — attribute it to him
   every time. Anger is not a disorder, therapy is not pathology, and psilocybin use is a disclosed
   personal detail, not a character claim.
 - **Do not launder the Riyadh episode in either direction.** Not "he was brave," not "he was bought."
@@ -250,18 +250,18 @@ For post-publication measurement, save the baseline as zero and track these sepa
 
 ## Scorecard
 
-| Dimension                | Score |                                                                                                                                                             |
-| ------------------------ | ----: | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Demand trajectory        | 12/20 | Real dated forward catalyst (Sorkin film, 2026-10-09) plus an active tour — but he is not emerging. Demand is durable and long-saturated, not rising.       |
-| Exact-name SERP weakness |  4/25 | Wikipedia (~15k words, 150+ refs), IMDb bio, Broadway.com, official site, Ticketmaster; five major outlets own `wife`. Only the psychology slice is thin.   |
-| Biography-intent breadth | 12/15 | Broad verified need — wife, kids, parents, age, education, net worth, projects. Breadth is high; capturability is near zero.                                |
-| Source depth             | 15/15 | Nineteen years of weekly first-person podcast, NPR/THR/CBS/Conan long-form, HRW plus named peer critics, Broadway co-stars, Television Academy.             |
-| 9takes angle / niche fit |  9/10 | Documented rage-vs-fear contradiction; contested typing no incumbent argues; comedian cluster exists with a proven page-one comparable in Rogan.            |
-| Timing / index advantage |  5/10 | ~7 weeks of runway before the film, no existing indexed URL, zero incumbency, closed biography surface.                                                     |
-| Entity clarity           |   5/5 | "Bill Burr" is unambiguous. Michael Burry and Aaron Burr are near-misses in spelling only.                                                                  |
-| **Subtotal**             |    62 |                                                                                                                                                             |
-| Penalty                  |   −20 | Personal Wikipedia **plus** several authoritative dedicated biographies. Applies flatly.                                                                    |
-| **Total**                |    42 | **PASS** on the Emerging Entity Gap question                                                                                                               |
+| Dimension                | Score |                                                                                                                                                           |
+| ------------------------ | ----: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Demand trajectory        | 12/20 | Real dated forward catalyst (Sorkin film, 2026-10-09) plus an active tour — but he is not emerging. Demand is durable and long-saturated, not rising.     |
+| Exact-name SERP weakness |  4/25 | Wikipedia (~15k words, 150+ refs), IMDb bio, Broadway.com, official site, Ticketmaster; five major outlets own `wife`. Only the psychology slice is thin. |
+| Biography-intent breadth | 12/15 | Broad verified need — wife, kids, parents, age, education, net worth, projects. Breadth is high; capturability is near zero.                              |
+| Source depth             | 15/15 | Nineteen years of weekly first-person podcast, NPR/THR/CBS/Conan long-form, HRW plus named peer critics, Broadway co-stars, Television Academy.           |
+| 9takes angle / niche fit |  9/10 | Documented rage-vs-fear contradiction; contested typing no incumbent argues; comedian cluster exists with a proven page-one comparable in Rogan.          |
+| Timing / index advantage |  5/10 | ~7 weeks of runway before the film, no existing indexed URL, zero incumbency, closed biography surface.                                                   |
+| Entity clarity           |   5/5 | "Bill Burr" is unambiguous. Michael Burry and Aaron Burr are near-misses in spelling only.                                                                |
+| **Subtotal**             |    62 |                                                                                                                                                           |
+| Penalty                  |   −20 | Personal Wikipedia **plus** several authoritative dedicated biographies. Applies flatly.                                                                  |
+| **Total**                |    42 | **PASS** on the Emerging Entity Gap question                                                                                                              |
 
 Penalties not applied: no `−15` for peaked attention (name demand is durable and enormous); no `−15`
 for source trail (15/15); no `−10` for ambiguity; no `−10` for gossip-only intent — net worth is the

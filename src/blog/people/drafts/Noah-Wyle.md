@@ -89,6 +89,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: src/blog/people/drafts/Noah-Wyle.md
 ---
 
 <!-- TESTIMONY LEDGER

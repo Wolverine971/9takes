@@ -11,6 +11,7 @@ research_required: 6
 protected_hits: 10
 requires_revision: true
 synthesized_at: 2026-08-19T07:31:27Z
+path: docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/synthesis.md
 ---
 
 ## Executive verdict
@@ -77,13 +78,13 @@ by trimming a protected hit.
   cast list gives "Bill Burr as Charlie" with no occupation. Trade trailer coverage describes him
   as "the only PR guy willing to push back against Zuckerberg's stilted, awkward delivery," with
   the only reported dialogue being "These guys are counting on the next round of congressional
-  testimony to make you likable, Mark" — crisis *communications*, not crisis *counseling*.
+  testimony to make you likable, Mark" — crisis _communications_, not crisis _counseling_.
   Confidence **high** that the claim is unverified and the staging unsourced; **moderate** on which
   reading the finished film supports, which is exactly the argument for qualifying it.
 - **Minimum repair.** Carry the FAQ's hedge into the body ("per the trailer"), delete the invented
   staging, and land the closer on the two things that are verified: Sorkin cast him, and the
   trailer shows him as the man in the room telling someone how the room is about to read them.
-  That reading is *on-thesis* — telling a person they have misjudged how they are landing is the
+  That reading is _on-thesis_ — telling a person they have misjudged how they are landing is the
   same move the draft traces through Philadelphia, SNL and the billionaires. Keep the driveway
   callback and "that is the job."
 - **Reader benefit.** The ending survives 2026-10-09 either way, and the article stops doing in its
@@ -123,7 +124,7 @@ by trimming a protected hit.
   one of his top three gigs of all time — and then **argue through it rather than around it**. The
   fear and the pride arriving in the same breath is the counterphobic signature and is a stronger
   claim than the one currently made. Replace "with nobody to perform invulnerability for" /
-  "when nobody is grading him" with a claim about *register* the evidence supports: the account he
+  "when nobody is grading him" with a claim about _register_ the evidence supports: the account he
   gives unprompted, ten months later, with no interviewer and nothing to defend. Fund the words by
   cutting "so this is no confession and no retraction," which the repaired passage makes obvious.
 - **Reader benefit.** The page's marquee exhibit becomes unfalsifiable-by-playback. A fan who
@@ -163,7 +164,7 @@ by trimming a protected hit.
 - **Reader benefit.** Converts the page's biggest checkable vulnerability into its most rigorous
   passage, and pre-empts the strongest thing a hostile reader — or Burr — could say about it.
 - **At risk.** PROTECT-02 (the three-tellings structure) sits three paragraphs later and must not be
-  softened by association. The repair concedes a *date*, not the *motive*.
+  softened by association. The repair concedes a _date_, not the _motive_.
 - **Acceptance test.** Paste the draft's THR quotation into the source and read the next sentence.
   "From 23 to about 37" appears on the page, and the article states somewhere why it argues the
   structure persisted past 37.
@@ -174,12 +175,12 @@ by trimming a protected hit.
   domains; I verified all four against the packet.
 - **Location and adjudicated problem.**
 
-  | Draft passage | Omitted next clause in source | Packet |
-  | --- | --- | --- |
-  | Intro L149, driveway: "She just made me a sandwich and that was it." | "**But it wasn't a big deal back then.** I remember you would just do shit in the neighborhoods and parents just watched." | CLM-33 |
-  | §3 L218: "He also remembers the catchphrase: 'I'll put you through that wall.'" | "He used to say that, right? **He never did it. It's just an empty threat.**" | CLM-22 |
-  | §6 L291, helicopter blockquote | Between "L.A. basin." and "This place became really claustrophobic," deleted with **no ellipsis**: "Enough conspiracy theory about nothing behind the dollar. Robots coming and all that type of shit." The marked ellipsis later drops the punchline: "When the zombies come, you just start it up… By the way, that does not work." | CLM-16 |
-  | §7 L315: "Then the anger came back tenfold." | "…that was only like a **three-week thing** because I kind of saw who I could be." | CLM-30 |
+  | Draft passage                                                                   | Omitted next clause in source                                                                                                                                                                                                                                                                                                         | Packet |
+  | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+  | Intro L149, driveway: "She just made me a sandwich and that was it."            | "**But it wasn't a big deal back then.** I remember you would just do shit in the neighborhoods and parents just watched."                                                                                                                                                                                                            | CLM-33 |
+  | §3 L218: "He also remembers the catchphrase: 'I'll put you through that wall.'" | "He used to say that, right? **He never did it. It's just an empty threat.**"                                                                                                                                                                                                                                                         | CLM-22 |
+  | §6 L291, helicopter blockquote                                                  | Between "L.A. basin." and "This place became really claustrophobic," deleted with **no ellipsis**: "Enough conspiracy theory about nothing behind the dollar. Robots coming and all that type of shit." The marked ellipsis later drops the punchline: "When the zombies come, you just start it up… By the way, that does not work." | CLM-16 |
+  | §7 L315: "Then the anger came back tenfold."                                    | "…that was only like a **three-week thing** because I kind of saw who I could be."                                                                                                                                                                                                                                                    | CLM-30 |
 
   Any one is defensible compression. Four, all removing the place where the subject limits the very
   claim the draft is building, is a directional edit. The second instance is the serious one: the
@@ -188,6 +189,7 @@ by trimming a protected hit.
   and Burr, in the same breath in the same interview, went out of his way to say it was not. That
   is an inference about a named, living, non-public family member that the subject explicitly
   declined to make.
+
 - **Evidence and confidence.** Packet CLM-16, CLM-22, CLM-30, CLM-33; sources S-02 (Ferriss #602),
   S-03 (Ferriss #265), S-05/S-06 (Fresh Air). Confidence **high** on all four omissions
   (packet-verified against transcripts) and **high** on the pattern reading given the uniform
@@ -201,7 +203,7 @@ by trimming a protected hit.
   doing illegitimately. The psilocybin bound can stay compressed if the other three are fixed;
   restoring it is four words and is the fairer call.
 - **Reader benefit.** Removes the strongest available "this article edits its sources" attack, and
-  the childhood section gets *more* accurate and *more* type-diagnostic, not less.
+  the childhood section gets _more_ accurate and _more_ type-diagnostic, not less.
 - **At risk.** PROTECT-10 ("He does not present it as an accusation. He presents it as
   inheritance") sits in the same paragraph as the wall repair and must survive verbatim. Also: do
   not over-concede. The gap between how lightly he tells the driveway and how heavily it reads is
@@ -224,14 +226,14 @@ by trimming a protected hit.
   terrifying" — an alteration inside quotation marks. Neither changes the meaning, which is
   precisely why they are so cheap to fix and so damaging to leave: a piece whose entire method is
   "here is what he said in his own words" cannot afford loose quotation marks. Even when the
-  invented wording is *protective* of the subject, a fabricated quote in the abuse paragraph is the
+  invented wording is _protective_ of the subject, a fabricated quote in the abuse paragraph is the
   fastest way to lose him.
 - **Evidence and confidence.** Packet CLM-23 (rated "**partly unverified**"), dispute #3, research
   limitation #5; source S-06. Confidence **high** that "normal guy" is unverified; **unknown**
   whether it is false. Confidence **certain** on freaking/frigging.
 - **Minimum repair.** Restore "freaking." Either source "was a normal guy" against the Fresh Air
-  broadcast audio and cite it (see RQ-02), or drop the quotation marks: *…then went out of his way
-  not to single out his own father.* Word-negative.
+  broadcast audio and cite it (see RQ-02), or drop the quotation marks: _…then went out of his way
+  not to single out his own father._ Word-negative.
 - **Reader benefit.** Eliminates a fabrication risk on the page's highest-stakes paragraph for the
   cost of five words.
 - **At risk.** Nothing. The paraphrase preserves the protective gesture the sentence exists to
@@ -240,12 +242,12 @@ by trimming a protected hit.
   cannot run inside quotation marks. Every quoted string in §3 matches a retrievable source
   verbatim.
 
-### P0-06 — Two wrong facts on *F Is for Family*, in the paragraph carrying the best beat in the piece
+### P0-06 — Two wrong facts on _F Is for Family_, in the paragraph carrying the best beat in the piece
 
 - **Origin.** FAN-R1 (fan), SUBJ-R7 (subject), UNFAMILIAR-R1 (unfamiliar), CRITIC-C7 (critic). Four
   perspectives; three filed it as a blocker.
 - **Location.** §3 L236 ("Burr wrote that. **Six seasons** on Netflix…"); intro L151 and §3 L232
-  ("*F Is for Family*, **which he created**").
+  ("_F Is for Family_, **which he created**").
 - **Adjudicated problem.** The show ran **five** seasons (2015–2021, 44 episodes); Netflix's October
   2020 announcement renewed it "for a fifth and final season," which premiered 2021-11-25. And it
   was created by **Bill Burr and Michael Price** — "which he created" reads as sole creation, and
@@ -279,8 +281,8 @@ by trimming a protected hit.
   the lineup **and, underneath that, himself.**" §5 says he swings when threatened; §4 says he does
   not. (3) **Contradicted by the source the draft prints in the same section**: Burr's own
   "I'm a defensive, fucking angry dude anyways, so it was just the perfect storm" (L248) is a
-  dispositional cause the draft quotes and then declines to let count. The absolute is also *more
-  generous to him than he is to himself*, which quietly removes the responsibility he assigned
+  dispositional cause the draft quotes and then declines to let count. The absolute is also _more
+  generous to him than he is to himself_, which quietly removes the responsibility he assigned
   himself two paragraphs earlier.
 - **Evidence and confidence.** Packet CLM-09: "The absolute framing ('does not swing when he is
   threatened') is not established by any source." Confidence **high** — the internal contradiction
@@ -313,7 +315,7 @@ by trimming a protected hit.
   **actually** dangerous" concedes Burr's premise as fact. "The only variable that changed was
   whether the room agreed" flattens a real disanalogy — an economic power class versus a
   demographic group inside a civil-rights movement — into audience taste. Separately, "half the
-  internet" is both unsourced *and* overstated: contemporaneous coverage was genuinely split
+  internet" is both unsourced _and_ overstated: contemporaneous coverage was genuinely split
   (Deadline "raises eyebrows"; Exclaim! and The Advocate ran divided verdicts), and overstating the
   backlash as mob noise makes it easier to dismiss than an argument would be.
 - **Evidence and confidence.** Packet CLM-27: "'Half the internet called it misogyny' is an
@@ -343,7 +345,7 @@ by trimming a protected hit.
 - **Adjudicated problem.** Three defects in one sentence, in the diagnosis section of an Enneagram
   authority page. (1) **Category error.** ISTP and ESTP are MBTI types; they are not competing
   answers to "what is his Enneagram type?" (2) **The split is backwards.** Boo and So Syncd each
-  carry *both* an MBTI type (ISTP) and an Enneagram type (6w7) — so the only two sources here that
+  carry _both_ an MBTI type (ISTP) and an Enneagram type (6w7) — so the only two sources here that
   state an Enneagram type state the draft's own answer. As to Enneagram sources the record shows
   **agreement**, not contest. (3) **Two named sources are unverified.** SunSigns and personalitylist
   appear nowhere in the packet's source ledger, whose verification pass covered Boo (S-39), So
@@ -376,7 +378,7 @@ by trimming a protected hit.
 - **Location.** Intro L149 and §1 L192 date Ferriss #602 as **2022**; §1 L182, §3 L222 and §6 L289
   date Ferriss material as **2017**. The derived claim at L192: "Someone operating from genuine
   invulnerability does not spend **sixteen years** wincing at it."
-- **Adjudicated problem.** Ferriss #602 is an interview **recorded in 2017** for the *Fear{less}* TV
+- **Adjudicated problem.** Ferriss #602 is an interview **recorded in 2017** for the _Fear{less}_ TV
   show, transcript published 2022-06-25 — the episode page says so plainly. Either convention is
   defensible alone; using both in one article is not. And the inconsistency is not cosmetic: "sixteen
   years" counts 2006→2022. On the interview date the correct figure is **eleven**. That wrong number
@@ -390,7 +392,7 @@ by trimming a protected hit.
   a decade later"). Word-neutral.
 - **Reader benefit.** The one structure the article asks readers to check survives being checked.
 - **At risk.** PROTECT-02. Note that the §1 three-tellings span itself is **fine** under the
-  corrected dating — Ferriss #265 (2017) → THR (2022) → *Drop Dead Years* (2025) is genuinely eight
+  corrected dating — Ferriss #265 (2017) → THR (2022) → _Drop Dead Years_ (2025) is genuinely eight
   years in three formats. Do not weaken the structure to fix the dating; only #602's two references
   and the derived number need to move. (The separate question of whether the third telling carries a
   safety clause is RQ-03, not this item.)
@@ -430,7 +432,7 @@ by trimming a protected hit.
   available.
 - **Reader benefit.** The one genuinely novel statistical move on the page stops being its most
   attackable sentence, and the numbers age into "accurate then" instead of "wrong now."
-- **At risk.** The Type 7 contrast is a good argument and the *reason* the paragraph exists (it
+- **At risk.** The Type 7 contrast is a good argument and the _reason_ the paragraph exists (it
   pre-empts "aren't comedians all Sevens?"). Keep it and keep "Burr came looking for cover." Cut
   the null result, not the finding.
 - **Acceptance test.** Every corpus-derived figure in the reader-visible body sits inside the scope
@@ -461,7 +463,7 @@ by trimming a protected hit.
 - **Reader benefit.** Resolves the page's central apparent paradox explicitly, gives the reader a
   portable concept, and adds an internal link to a pillar page.
 - **Tradeoff at risk.** Directly in tension with P1-02 (the newcomer's jargon load). Resolved in
-  *Conflicts*: introduce **one** new term, immediately glossed in plain English, and move two
+  _Conflicts_: introduce **one** new term, immediately glossed in plain English, and move two
   existing unglossed terms out of the lead sentence. Net jargon in §1 goes down, not up.
 - **Acceptance test.** A reader who finishes the article can say "counterphobic Six" and explain that
   Burr is counterphobic in public and phobic in private, citing one example of each — without opening
@@ -500,14 +502,14 @@ by trimming a protected hit.
 - **Origin.** FUTURE-R3, FUTURE-R4, FUTURE-R5, FUTURE-R7 (future).
 - **Location and repair.** All word-neutral or shorter:
 
-  | Location | Current | Repair |
-  | --- | --- | --- |
-  | L151 | "Bill Burr is 58 now" | "turned 58 in 2026" (he is 59 on 2027-06-10) |
-  | L153 | "For nineteen years, more than a thousand episodes deep" | "Since 2007, more than a thousand episodes deep" |
-  | L356 | "for nineteen years" | fixed endpoint |
-  | L297 | "That was 2017, and nine years on the machinery still runs" | "That was 2017, and the machinery still runs" |
+  | Location               | Current                                                                  | Repair                                                                                 |
+  | ---------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+  | L151                   | "Bill Burr is 58 now"                                                    | "turned 58 in 2026" (he is 59 on 2027-06-10)                                           |
+  | L153                   | "For nineteen years, more than a thousand episodes deep"                 | "Since 2007, more than a thousand episodes deep"                                       |
+  | L356                   | "for nineteen years"                                                     | fixed endpoint                                                                         |
+  | L297                   | "That was 2017, and nine years on the machinery still runs"              | "That was 2017, and the machinery still runs"                                          |
   | L383 heading + L86 FAQ | "The part Bill Burr plays in October" / "What is Bill Burr in **next**?" | year the heading; change the FAQ to a durable question ("What movie is Bill Burr in?") |
-  | L86 FAQ | "touring through 2026" | "as of August 2026" or "continues to tour" |
+  | L86 FAQ                | "touring through 2026"                                                   | "as of August 2026" or "continues to tour"                                             |
 
 - **Adjudicated problem.** Every one of these is correct today and wrong inside the twelve-month
   window. The heading is the worst of them: it renders in the TOC, in the FAQ anchor and potentially
@@ -572,12 +574,12 @@ by trimming a protected hit.
 ### P1-06 — Make the §4 pull-quote claim a motive, not an outcome
 
 - **Origin.** CRITIC-C4 (critic).
-- **Location.** §4 L254 pull-quote: *"The most feared act of aggression in his career was a rescue."*
+- **Location.** §4 L254 pull-quote: _"The most feared act of aggression in his career was a rescue."_
 - **Adjudicated problem.** The section's most quotable line is its least defensible sentence. He did
   not extract anyone — the comics who had been booed were already off. He attacked a city and 10,000
   individuals, most of whom did nothing personally. His own account gives a dispositional cause
   alongside the protective one, and he grades the result as making things worse. "Rescue" is
-  supported as *motive* and not as *act*. The draft's own prose two lines earlier already says
+  supported as _motive_ and not as _act_. The draft's own prose two lines earlier already says
   "started as a defense of somebody else" — the pull-quote just needs to match the sentence it came
   from.
 - **Evidence and confidence.** Packet CLM-09; source S-31. Confidence **high**.
@@ -637,7 +639,7 @@ by trimming a protected hit.
 ### P1-09 — Replace an unmeasurable superlative about Nia Renée Hill with the context that does work
 
 - **Origin.** FAN-C5 (fan).
-- **Location.** §7 L313: *"She is the subject of more of his stand-up than anyone alive."*
+- **Location.** §7 L313: _"She is the subject of more of his stand-up than anyone alive."_
 - **Adjudicated problem.** The claim is unmeasurable and reads as filler in a paragraph that is
   otherwise doing real work. Meanwhile the actual canonical fact about the marriage — that it is
   interracial, that Burr has built over a decade of material on it and on how people react to it —
@@ -658,13 +660,13 @@ by trimming a protected hit.
 ### P1-10 — Stop claiming privileged access to his self-knowledge in the Rousey passage
 
 - **Origin.** SUBJ-I4 and SUBJ-M3 (subject).
-- **Location.** §6 L299–301: *"The tell comes later in that same episode, **and he does not know he
+- **Location.** §6 L299–301: _"The tell comes later in that same episode, **and he does not know he
   has it**… because somewhere in there a gauge is always running and he can read it to a
-  half-point."*
+  half-point."_
 - **Adjudicated problem.** Two things. "He does not know he has it" asserts a fact about his
   self-knowledge that nobody can hold — one section after the page's entire case rests on how
   accurately he narrates himself. And comic over-specificity is a craft technique before it is a
-  symptom: "six and a half" is funny *because* the precision is absurd. A comedy writer can currently
+  symptom: "six and a half" is funny _because_ the precision is absurd. A comedy writer can currently
   answer the sharpest catch in the article with "that's just how you write a specific joke," and the
   article has no reply.
 - **Evidence and confidence.** Burr's verified statement that the misconception about him is people
@@ -674,7 +676,7 @@ by trimming a protected hit.
   already. Roughly word-neutral.
 - **Reader benefit.** Acknowledging the obvious rebuttal is what makes the catch hold instead of look
   credulous.
-- **Tradeoff at risk.** PROTECT-05. This is a repair *to protect* the piece's best original
+- **Tradeoff at risk.** PROTECT-05. This is a repair _to protect_ the piece's best original
   observation — three perspectives named it a hit. Do not trim the "Nobody asked. There was no scale
   in play" beat, which is what converts the quote into an argument.
 - **Acceptance test.** A comedy writer reading the paragraph cannot answer it with "that's just how
@@ -703,7 +705,7 @@ by trimming a protected hit.
 
 - **P2-01 — Retitle §6.** (UNFAMILIAR-C5) "The helicopter Bill Burr learned to fly out of Los
   Angeles" promises a helicopter and delivers the helicopter, the money philosophy, the MRI, the
-  Rousey scale, the *Mandalorian* casting, Broadway, Bertolina and the 2011 "I made it" line. On a
+  Rousey scale, the _Mandalorian_ casting, Broadway, Bertolina and the 2011 "I made it" line. On a
   scan path the heading gives no reason to enter the section holding the article's best evidence.
   Retitle to the organizing idea the section's own bridge already states — the reflex running with no
   target in the room. Word-neutral. **This is the highest-value P2 and the one the Revision brief
@@ -712,8 +714,8 @@ by trimming a protected hit.
   SUBJ-Q2) HRW's 2025-10-08 follow-up — that the participating comedians said nothing about detained
   activists — is the sharpest form of the case the draft says "deserves to stay on the table," and it
   is absent. So is Burr's own argument, "they're not gonna progress with isolation." Adding both makes
-  the section's claim to leaving the ethics on the table true in *both* directions and makes the
-  timing point stronger, not weaker: the defence arrived *alongside* the clap-back rather than instead
+  the section's claim to leaving the ethics on the table true in _both_ directions and makes the
+  timing point stronger, not weaker: the defence arrived _alongside_ the clap-back rather than instead
   of it. ~25 words; the section is already the longest on the page.
 - **P2-03 — Place Gina Carano between SNL and the billionaires.** (CRITIC-C2) March 2021, in the same
   THR interview the draft mines for its central quote, Burr defended Carano and said "the liberals
@@ -728,10 +730,10 @@ by trimming a protected hit.
   harm-shaped. One clause, word-neutral, and it turns ENN-C2's loose end into an asset.
 - **P2-05 — Re-point TL;DR bullet 1 at the strategy, not the injury.** (ENN-C6) Being disarmed by
   bigger kids is not evidence of a type; every type has a driveway. The body is careful about this and
-  argues from what he *built*. The skim block is not. Same length.
+  argues from what he _built_. The skim block is not. Same length.
 - **P2-06 — Name one earlier special that argues.** (FAN-C2) A stand-up profile that names one special
-  and quotes zero jokes reads as psychology done on interview transcripts. *I'm Sorry You Feel That
-  Way* (2014) is a title that is itself a non-apology — the draft's own "never concede an inch" thesis
+  and quotes zero jokes reads as psychology done on interview transcripts. _I'm Sorry You Feel That
+  Way_ (2014) is a title that is itself a non-apology — the draft's own "never concede an inch" thesis
   sitting there pre-written. One sentence that does argumentative work, not a credit-list entry.
 - **P2-07 — Move the stress-arrow specimen to the twelve years.** (ENN-C7) One combative talk-show
   appearance is thin proof of disintegration to Three. §3 already contains the textbook sustained
@@ -741,12 +743,12 @@ by trimming a protected hit.
 
 ## Research required before deciding
 
-### RQ-01 — What does Burr's character actually do in *The Social Reckoning*?
+### RQ-01 — What does Burr's character actually do in _The Social Reckoning_?
 
 - **Unresolved question.** Is Charlie a mental-health counsellor or a crisis-communications handler?
 - **Why it matters.** It decides whether P0-01's repair is a hedge or a rebuild. If Charlie is a
   comms adviser, the current closer is not merely unsupported but the wrong picture — and the adviser
-  reading is arguably *more* on-thesis (telling a person they have misjudged how they are landing is
+  reading is arguably _more_ on-thesis (telling a person they have misjudged how they are landing is
   the move the draft traces through Philadelphia, SNL and §8).
 - **Source needed.** Sony/Columbia press kit or official character list; failing that, the film on
   2026-10-09. The Deadline and Rolling Stone trailer pieces are tollbit-blocked — try Yahoo/AOL
@@ -754,20 +756,20 @@ by trimming a protected hit.
 - **Decision rule.** **Do not block publication on this.** P0-01's minimum repair is safe under both
   readings. Carry RQ-01 onto the refresh list with a 2026-10-16 checkpoint.
 
-### RQ-02 — Does "was a normal guy" exist in the *Fresh Air* broadcast audio?
+### RQ-02 — Does "was a normal guy" exist in the _Fresh Air_ broadcast audio?
 
 - **Unresolved question.** The phrase appears in no retrieved text source (NPR web adaptation, NPR
   full page, both Ferriss transcripts).
 - **Why it matters.** It is a direct quotation about a named living private individual in the abuse
   paragraph. If it exists, cite it and the sentence stands as written. If not, the quotation marks
   come off today.
-- **Source needed.** WHYY/NPR *Fresh Air* broadcast audio, 2025-03-10.
+- **Source needed.** WHYY/NPR _Fresh Air_ broadcast audio, 2025-03-10.
 - **Decision rule.** Resolvable cheaply and worth one attempt. If unresolved within one pass, execute
   P0-05's paraphrase — the protective gesture survives without the quotation marks.
 
 ### RQ-03 — Is the third telling verified, and does it carry a safety clause?
 
-- **Unresolved question.** The *Drop Dead Years* soliloquy is second-hand (traced to reviews, not the
+- **Unresolved question.** The _Drop Dead Years_ soliloquy is second-hand (traced to reviews, not the
   special), and as quoted it contains **no safety clause** — "make everybody like me," standing alone,
   is equally at home in Two, Three or Nine. So "Three tellings. One motive. Safety." is currently
   carried by two of three exhibits.
@@ -776,7 +778,7 @@ by trimming a protected hit.
   stronger, more type-discriminating line from the same soliloquy — "where's the place I have the
   least chance of being hurt?" — which would fix the leg outright if it verifies.
 - **Decision rule.** Highest-value research item on this list. If the special can be checked, do it
-  and use the stronger line. If not, either mark the *Drop Dead Years* line as reported by reviewers
+  and use the stronger line. If not, either mark the _Drop Dead Years_ line as reported by reviewers
   rather than quoted from the special, or substitute the verbatim-verified Ferriss #265 line ("I'm
   going to get on stage, show people that I'm a funny guy, and people will stop fucking with me") and
   restate the span honestly. **Do not dismantle the structure to fix the leg.**
@@ -784,15 +786,15 @@ by trimming a protected hit.
 ### RQ-04 — Is fear-narration a standing MMP register rather than a Riyadh-specific disclosure?
 
 - **Unresolved question.** Does Burr routinely narrate nerves about gigs he considers triumphs?
-- **Why it matters.** It decides whether the two-date contrast is an *audience* artifact (the draft's
-  claim) or a *topic* artifact (Conan asked about the controversy; the podcast recounted the
+- **Why it matters.** It decides whether the two-date contrast is an _audience_ artifact (the draft's
+  claim) or a _topic_ artifact (Conan asked about the controversy; the podcast recounted the
   performance). If it is a house register, §5 needs reframing rather than trimming, and the Rabbit
   Hole's falsification clause has partly fired.
 - **Source needed.** Three or four more MMP episodes recounting big international gigs. A grep of the
   auto-transcripts for "nervous," "dry mouth," "scared" would settle it cheaply — exactly the kind of
   check the corpus tooling makes nearly free, and the cheapest high-leverage research on this list.
-- **Decision rule.** P0-02's repair is safe either way (it narrows the claim to *register*, not
-  *audience*). If the grep shows the pattern is routine, upgrade: say so in the Rabbit Hole and let
+- **Decision rule.** P0-02's repair is safe either way (it narrows the claim to _register_, not
+  _audience_). If the grep shows the pattern is routine, upgrade: say so in the Rabbit Hole and let
   the falsification clause do its work in public, which would be the single most credible move
   available to this page.
 
@@ -822,10 +824,10 @@ by trimming a protected hit.
 
 ## Conflicts and editorial tradeoffs
 
-**1. Zero word headroom against a P0 list that adds words.** The body is at ~4,510 against a
+**1. Zero word headroom against a P0 list that adds words.** The body is at ~~4,510 against a
 lint-gated 4,500 (`scripts/blog-lint.sh:354`), and the cohesion pass recorded "zero headroom
-remains." Word-adding P0s: P0-02 (~+6), P0-03 (~+20), P0-04 (~+30), P0-08 (~net 0), plus P1-05
-(~+12) and P1-11 (~+10). **Named funding cuts, in order:** P0-11's Type 6 baseline sentence (~25
+remains." Word-adding P0s: P0-02 (~~+6), P0-03 (~~+20), P0-04 (~~+30), P0-08 (~~net 0), plus P1-05
+(~~+12) and P1-11 (~+10). **Named funding cuts, in order:** P0-11's Type 6 baseline sentence (~25
 words, and it is the sentence publication falsifies); P0-09's rewrite (~15 words net); P0-07's
 deleted half-sentence (~8); "and each runs the other way once you know what set it off" at L192
 (~13, per ENN-C1); "so this is no confession and no retraction" at L279 (~9, per ENN-R1); P1-04
@@ -837,7 +839,7 @@ cuts before making the additions.**
 "counterphobic Six" claimed; the newcomer wants fewer unglossed terms in the sentence a search
 visitor lands on. **Resolution:** introduce exactly one new term, glossed in plain English at first
 use, and move "self-preservation dominant, with a 7 wing" out of the lead sentence into the Rabbit
-Hole where both are already explained. Net jargon in §1 goes *down* by one term while the article
+Hole where both are already explained. Net jargon in §1 goes _down_ by one term while the article
 gains the concept that resolves its central paradox. I am **rejecting** the Enneagram reviewer's
 three other vocabulary asks (centers, projection, the Reactive harmonic group) on exactly this
 ground — the reviewer explicitly said they were not asking for all four.
@@ -845,7 +847,7 @@ ground — the reviewer explicitly said they were not asking for all four.
 **3. Preserve the Riyadh table vs. narrow its claim.** Four perspectives attacked §5's framing and
 three of the four volunteered, unprompted, that the table itself must survive. There is no real
 conflict here, but it is the most likely place for an editor under word pressure to over-correct.
-**Resolution:** the *form* is protected (PROTECT-03); the *interpretive overclaim* is P0-02. Adding
+**Resolution:** the _form_ is protected (PROTECT-03); the _interpretive overclaim_ is P0-02. Adding
 six words of triumph framing and swapping one clause about register is the entire repair.
 
 **4. How to repair the closer: hedge (critic) or rebuild on the handler reading (future).** The
@@ -865,7 +867,7 @@ helicopter elision and let the 2015 Philadelphia Inquirer corroboration carry th
 **6. Complicate the 2020↔2025 continuity claim (critic) vs. preserve it (fan).** The critic calls it
 the thinnest argument in the piece; the fan calls it a genuinely new connection that explains
 something about his audience the "conversion" takes never do. **Resolution:** both are right about
-different things. The *pattern* claim is good and stays. The article's *endorsement* of Burr's
+different things. The _pattern_ claim is good and stays. The article's _endorsement_ of Burr's
 premise ("who is actually dangerous") and its assertion that the only difference was audience
 agreement are the defects, and P0-08 removes exactly those. I am rejecting the critic's implied
 larger remedy — dismantling the continuity reading — as out of proportion to the finding.
@@ -873,7 +875,7 @@ larger remedy — dismantling the continuity reading — as out of proportion to
 **7. "Three tellings" under two simultaneous pressures.** ENN-C3 says the third leg has no safety
 clause; CRITIC-C5 says it is second-hand; P0-10 fixes the dating that makes the span checkable. Three
 findings, one structure, and that structure is PROTECT-02. **Resolution:** P0-10 (dating) is
-mandatory and does not touch the structure. The leg question is RQ-03 and must be resolved *before*
+mandatory and does not touch the structure. The leg question is RQ-03 and must be resolved _before_
 anyone rewrites the paragraph. Sequencing matters here — do not weaken the span in the same pass that
 fixes the dates.
 
@@ -887,49 +889,49 @@ improvising a repair from search snippets would violate rule 9.
 
 ## Rejected feedback
 
-- **CRITIC: dismantle the 2020↔2025 continuity reading.** *Rejected as framed; the narrow defect is
-  accepted as P0-08.* The pattern claim is the strongest original argument in §8 and the fan named it
+- **CRITIC: dismantle the 2020↔2025 continuity reading.** _Rejected as framed; the narrow defect is
+  accepted as P0-08._ The pattern claim is the strongest original argument in §8 and the fan named it
   as such independently. Removing the article's unattributed endorsement fixes the trust problem
   without discarding the insight.
 - **CRITIC: hedge the self-report method page-wide** ("nobody is grading him is an assertion about the
-  medium"). *Accepted narrowly inside P0-02; rejected as a general hedge.* The Rabbit Hole already
+  medium"). _Accepted narrowly inside P0-02; rejected as a general hedge._ The Rabbit Hole already
   publishes a falsification criterion, which is the honest instrument here. RQ-04 is the way to settle
   it empirically rather than by adding qualifiers.
-- **FAN: the act is missing — quote jokes, discuss the specials.** *Rejected at this scope; the narrow
-  version is P2-06.* At zero headroom, a joke-quoting pass would cost 150+ words and displace verified
+- **FAN: the act is missing — quote jokes, discuss the specials.** _Rejected at this scope; the narrow
+  version is P2-06._ At zero headroom, a joke-quoting pass would cost 150+ words and displace verified
   evidence. Naming one special whose title argues the thesis is the version that pays for itself.
-- **FAN: add *Old Dads* (2023).** *Deferred.* A real credit gap and on-theme, but the fatherhood thread
+- **FAN: add _Old Dads_ (2023).** _Deferred._ A real credit gap and on-theme, but the fatherhood thread
   is already carried by the therapy section and "that stuff dies with me." The fan ranked it lowest of
   eight and said to drop it first if the ceiling forbids. It does.
-- **FAN: name Migs Mayfeld in the *Mandalorian* beat.** *Deferred.* Fan-recognition value is real but
+- **FAN: name Migs Mayfeld in the _Mandalorian_ beat.** _Deferred._ Fan-recognition value is real but
   the beat's argumentative work (mocking Star Wars fans became the ticket in) does not need the
   character name.
-- **UNFAMILIAR: add a plain marker of scale** (how big is he?). *Deferred.* The reviewer also wrote
+- **UNFAMILIAR: add a plain marker of scale** (how big is he?). _Deferred._ The reviewer also wrote
   that a filmography dump, family tree, net worth and awards inventory are "correctly absent" and that
   the restraint is right. This piece is an argument, not a biography; adding stature inventory at the
   ceiling would trade verified evidence for résumé.
-- **UNFAMILIAR-C9: the `inner-thought` callout may read as a quotation.** *Deferred to a rendering
-  check, not a copy change.* The reviewer's own minimum repair is "none needed if `inner-thought`
+- **UNFAMILIAR-C9: the `inner-thought` callout may read as a quotation.** _Deferred to a rendering
+  check, not a copy change._ The reviewer's own minimum repair is "none needed if `inner-thought`
   renders unmistakably differently from `blockquote`." That is a CSS question, not an editorial one.
   Verify on mobile and desktop; only add framing words if it fails.
-- **ENNEAGRAM: name the centers, projection, and the Reactive harmonic group.** *Rejected.* Three more
+- **ENNEAGRAM: name the centers, projection, and the Reactive harmonic group.** _Rejected._ Three more
   system terms would fight P1-02 directly, and the reviewer said explicitly they were not asking for
   all four. Counterphobic is accepted (P1-01) because it resolves the article's central paradox rather
   than decorating it.
-- **ENN-C2: hedge the self-preservation subtype call.** *Deferred.* The observation is sharp — the
+- **ENN-C2: hedge the self-preservation subtype call.** _Deferred._ The observation is sharp — the
   draft's spine is protective and communal, which is evidence for the instincts it does not name
   dominant — but subtype is the least determinate layer of the system, the paragraph is in the Rabbit
   Hole where a nerd reader expects contestable calls, and the fix competes for words with P0 repairs.
   Drop "unusually concrete" if a free word appears.
-- **SUBJECT: acknowledge page-wide that he is a professional joke-writer.** *Accepted once (P1-10);
-  rejected as a standing hedge.* See Conflict 5.
-- **SUBJECT-I1: add Burr's own "biggest misconception" quote near the top.** *Deferred, reluctantly.*
+- **SUBJECT: acknowledge page-wide that he is a professional joke-writer.** _Accepted once (P1-10);
+  rejected as a standing hedge._ See Conflict 5.
+- **SUBJECT-I1: add Burr's own "biggest misconception" quote near the top.** _Deferred, reluctantly._
   It is a genuinely excellent idea — it would convert the article's premise from the writer's
   contrarian claim into the subject's own stated grievance, and it appears on no competing page. But
   it costs ~25 words at a ceiling where the P0 list already needs ~80, and P0-03 (which restores the
-  *next* sentence of the same THR answer) is the higher-priority use of that interview. Revisit at the
+  _next_ sentence of the same THR answer) is the higher-priority use of that interview. Revisit at the
   first refresh when the ceiling loosens.
-- **FUTURE-R7 (Bertcast date).** *Deferred to the refresh list.* The packet bounds the episode at
+- **FUTURE-R7 (Bertcast date).** _Deferred to the refresh list._ The packet bounds the episode at
   ≤2017-11-30 and instructs "attribute to the show, not a year," which the draft already does
   correctly. The second-pass notes flagged it as knowingly open. Nothing to repair; pin it if the
   episode is ever indexed.
@@ -946,7 +948,7 @@ improvising a repair from search snippets would violate rule 9.
   and RQ-03 touch its dates and its third leg; neither may dissolve the structure.
 - **PROTECT-03 — The Riyadh two-date table, as a form.** §5 L268–277. The page's competitive
   advantage and, per the future reviewer, its most durable structure — the argument is carried by the
-  *interval between two fixed dates*, a quantity that never changes. P0-02 narrows the claim above and
+  _interval between two fixed dates_, a quantity that never changes. P0-02 narrows the claim above and
   below it. **Do not delete the table.**
 - **PROTECT-04 — "The counterattack arrives before the verdict does."** §5 L281. The empathy turn, and
   the one interpretive line that explains the behaviour without excusing it or pathologising it.
@@ -1017,18 +1019,18 @@ the section holding the article's best evidence. Everything else in P2 waits for
 
 **Step 5 — Protected-hit regression checks.** Before declaring done, confirm all ten:
 
-| Check | Where | Pass condition |
-| --- | --- | --- |
-| PROTECT-01 | §5 | Both Cross sentences present, verbatim |
-| PROTECT-02 | §1 | Three tellings, three formats, span derivable from printed dates |
-| PROTECT-03 | §5 | The two-date table still exists as a table |
-| PROTECT-04 | §5 | "The counterattack arrives before the verdict does" intact |
-| PROTECT-05 | §6 | Rousey quote plus "Nobody asked. There was no scale in play" intact |
-| PROTECT-06 | §3 | "The son's name is Bill" intact, now on a five-season credit |
-| PROTECT-07 | §4 | "I wasn't a professional… threw gas on a fire" intact and no longer contradicted |
+| Check      | Where       | Pass condition                                                                     |
+| ---------- | ----------- | ---------------------------------------------------------------------------------- |
+| PROTECT-01 | §5          | Both Cross sentences present, verbatim                                             |
+| PROTECT-02 | §1          | Three tellings, three formats, span derivable from printed dates                   |
+| PROTECT-03 | §5          | The two-date table still exists as a table                                         |
+| PROTECT-04 | §5          | "The counterattack arrives before the verdict does" intact                         |
+| PROTECT-05 | §6          | Rousey quote plus "Nobody asked. There was no scale in play" intact                |
+| PROTECT-06 | §3          | "The son's name is Bill" intact, now on a five-season credit                       |
+| PROTECT-07 | §4          | "I wasn't a professional… threw gas on a fire" intact and no longer contradicted   |
 | PROTECT-08 | Rabbit Hole | Both "What would change our mind" and "What Type 6 does not fully explain" present |
-| PROTECT-09 | §1 | "wanting the room to stand down" intact |
-| PROTECT-10 | §3 | "He presents it as inheritance" intact after the P0-04 edit |
+| PROTECT-09 | §1          | "wanting the room to stand down" intact                                            |
+| PROTECT-10 | §3          | "He presents it as inheritance" intact after the P0-04 edit                        |
 
 **Final gates.** `bash scripts/blog-lint.sh` returns 0 fail and body ≤ 4,500 words; re-run the source
 audit and confirm no load-bearing quote is vague or untagged; after publish, regenerate

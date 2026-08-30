@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 3
 reviewed_at: 2026-08-12T04:50:00Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/unfamiliar.md
 ---
 
 ## Bottom-line verdict
@@ -22,7 +23,7 @@ The gap is narrower but real: the article assumes I already know who Angel Reese
 
 ## What landed
 
-**UNFAM-H1** — The turnover mechanism. "Ones are not organized around avoiding mistakes. They are organized around doing the thing correctly... If the skip pass is the right pass, it is the right pass on the possession it gets deflected and on the possession it gets a layup." (H2 5, "Why Caitlin Clark set the WNBA turnover record"). This is the section that made me believe the thesis rather than just read it. I arrived expecting a turnover record to be evidence *against* "perfectionist," and the piece anticipated that exact objection in its first sentence ("This is where most Enneagram readings of an athlete fall apart") before resolving it. That's the shape of a genuine insight, not an assertion.
+**UNFAM-H1** — The turnover mechanism. "Ones are not organized around avoiding mistakes. They are organized around doing the thing correctly... If the skip pass is the right pass, it is the right pass on the possession it gets deflected and on the possession it gets a layup." (H2 5, "Why Caitlin Clark set the WNBA turnover record"). This is the section that made me believe the thesis rather than just read it. I arrived expecting a turnover record to be evidence _against_ "perfectionist," and the piece anticipated that exact objection in its first sentence ("This is where most Enneagram readings of an athlete fall apart") before resolving it. That's the shape of a genuine insight, not an assertion.
 
 **UNFAM-H2** — The box-score table's last row: "**Final: 110-107** | A win | **Three points. Against a 6-21 team. With 45 from her.**" (H2 4). A 45-point, 10-assist historic game reduced to a three-point margin against a bad team, in her own reading. It's the clearest single demonstration of "the audit never closes" in the whole piece, and it's shown, not told.
 
@@ -38,23 +39,24 @@ The gap is narrower but real: the article assumes I already know who Angel Reese
 
 ## What I expected
 
-I expected — and got — a clean answer to "what type is she and why" inside the first section, without having to leave the page. The link out to `/enneagram-corner/enneagram-type-1` is exactly where I'd want to go *next*, not where I'd need to go *first*; the in-page explanation ("Type Ones run a standing audit on their own conduct, and the audit does not stop at the buzzer") was sufficient on its own.
+I expected — and got — a clean answer to "what type is she and why" inside the first section, without having to leave the page. The link out to `/enneagram-corner/enneagram-type-1` is exactly where I'd want to go _next_, not where I'd need to go _first_; the in-page explanation ("Type Ones run a standing audit on their own conduct, and the audit does not stop at the buzzer") was sufficient on its own.
 
 I also expected a piece about a WNBA player's personality to eventually touch the racial controversy around her fame, given how much of her actual public profile is defined by it (this is inferable even without prior knowledge, from the section heading itself). It's there, and it's handled with more nuance than I expected going in — the piece concedes the commercial contradiction ("She says the credit belongs to the Black women who built the place. She also keeps the check... there may be no version of her career in which she can [solve it]") rather than resolving it for her. That's a hit on tone, undercut by the orientation gap noted above.
 
 ## What surprised me
 
-The piece's willingness to let a critic be *partly right* surprised me, in a good way: "The take was mocked into the ground, and it was partly correct, and the fan base that spent a year screaming at Swoopes never engaged the part that was." A profile built around a subject's personality type has an obvious incentive to make every critic wrong. This one doesn't, and it made the whole piece more credible to me as an outsider with no stake in the fandom.
+The piece's willingness to let a critic be _partly right_ surprised me, in a good way: "The take was mocked into the ground, and it was partly correct, and the fan base that spent a year screaming at Swoopes never engaged the part that was." A profile built around a subject's personality type has an obvious incentive to make every critic wrong. This one doesn't, and it made the whole piece more credible to me as an outsider with no stake in the fandom.
 
 The Olympic-snub paragraph also surprised me structurally — I expected an article about a "perfectionist" athlete's snub to frame it as an injustice. Instead it's framed as her agreeing with the committee ("A point everybody was making was like, 'Who are you taking off the team?' And that was a tremendous point") while simultaneously not believing it. Holding both without resolving them read as honest rather than contradictory, likely because the piece had already established, in H2 1, that her self-grading and her self-belief run on separate tracks.
 
 ## What I expected but didn't get
 
-*(folded into What missed and Red flags per the specificity contract — no additional items beyond those logged there.)*
+_(folded into What missed and Red flags per the specificity contract — no additional items beyond those logged there.)_
 
 ## Red flags
 
 **UNFAM-R1** — Angel Reese is never introduced, despite being structurally load-bearing.
+
 - Passage: H2 6, "In the same profile she called the Angel Reese rivalry, sold for two years as the sport's defining feud, 'really fabricated and made up.'" This is the only sentence in the entire body that names Reese.
 - Reader effect: A reader with no prior knowledge cannot place who this person is, why a "rivalry" with her would be "sold... as the sport's defining feud," or why disclaiming it matters enough to appear in a paragraph about privilege and credit. The sentence reads as if the piece assumes I already watched two years of coverage.
 - Evidence: the evidence packet treats Reese as centrally connected to Clark's public narrative — she's the other Rookie of the Year vote (packet: "66 of 67 first-place votes (Angel Reese received the other)"), she played for the LSU team that beat Iowa in the 2023 championship game (packet: "2023-04-02 | LSU beats Iowa 102-85..."), and she was fined alongside Clark's foul controversy in the same news cycle the draft covers two paragraphs earlier. The draft's own H2 3 names "LSU" as the team that beat Iowa in 2023 without ever connecting that team to the player named three sections later — the two references to the same rivalry never meet.
@@ -64,6 +66,7 @@ The Olympic-snub paragraph also surprised me structurally — I expected an arti
 - Acceptance test: a reader with zero prior knowledge of WNBA/NCAA women's basketball, given only the draft, can explain in one sentence who Angel Reese is and why she's mentioned, without leaving the page.
 
 **UNFAM-R2** — Monica McNutt is quoted with no descriptor establishing her standing to render the verdict the section gives her.
+
 - Passage: H2 6, "Days later on ESPN's Women's Sports Sunday, Monica McNutt said there was 'room for a little bit more accountability and self-awareness' from Clark..."
 - Reader effect: her critique is positioned as the section's closing counter-pressure — the "harder pressure" the piece exists to sit with — but I can't weigh it because I don't know if she's a former player, a beat reporter, or a studio analyst. Swoopes gets "Hall of Famer" two paragraphs earlier; McNutt gets nothing, so the asymmetry reads like the second, harder critic is treated as less worth crediting.
 - Evidence: contract test for this perspective — "chronology, people, works, and cultural references introduced before use."
@@ -73,6 +76,7 @@ The Olympic-snub paragraph also surprised me structurally — I expected an arti
 - Acceptance test: reader can state McNutt's role/standing without inferring it purely from the fact that she was quoted.
 
 **UNFAM-R3** — "LSU" is used as a team name without ever being connected to the rivalry the piece later treats as central.
+
 - Passage: H2 3, "The year before, in the same game, LSU had beaten Iowa 102-85." No further identification.
 - Reader effect: minor on its own (readable as "another team"), but it's the missed setup for R1 — the piece had a natural, cost-free opportunity to plant Reese's name here and pay it off in H2 6, and didn't take it.
 - Minimum viable repair: covered by R1's repair if done at the earlier mention instead — this doesn't need a separate fix, just a decision about which of the two spots carries the introduction.

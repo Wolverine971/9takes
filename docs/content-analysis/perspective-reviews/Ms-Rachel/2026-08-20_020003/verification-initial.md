@@ -8,6 +8,7 @@ verification_status: pass
 open_p0: 0
 protected_hit_regressions: 0
 verified_at: 2026-08-20T07:51:00Z
+path: docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/verification-initial.md
 ---
 
 ## Verification verdict
@@ -147,7 +148,7 @@ All fifteen accepted P1 items are completed. Spot-verified against the current t
   their parents Yarden and Shiri would come home" — and "Jewish Telegraphic Agency, January 29,
   2025" is added to the section source card. The passage was re-sourced, not cut, as subject's
   preserve list required.
-- **P1-02 completed.** "a woman in a bow headband on YouTube" and "The songs on *Songs for Littles*"
+- **P1-02 completed.** "a woman in a bow headband on YouTube" and "The songs on _Songs for Littles_"
   both land in intro paragraph three, in prose, before the first H2.
 - **P1-03 completed.** "Born in 1982 in Biddeford, Maine." No bare present-tense age anywhere; the
   close ends on the image, not on a number.
@@ -170,7 +171,7 @@ All fifteen accepted P1 items are completed. Spot-verified against the current t
 - **P1-09 completed.** "the actress Olivia Munn"; "Accurso replied to the magazines about their
   framing"; "Munn spent the following week being defended by her husband against strangers making
   violent threats."
-- **P1-10 completed.** "Jules Hoffman, the singer-songwriter who performed on *Songs for Littles*
+- **P1-10 completed.** "Jules Hoffman, the singer-songwriter who performed on _Songs for Littles_
   and who uses they/them pronouns" — role before the targeted attribute, 2023 tense held.
 - **P1-11 completed.** PROTECT-02 now reads "because for thirty-two months, nobody had"; the
   Unbearable instance is "into a silence that had already lasted two years."
@@ -180,7 +181,7 @@ All fifteen accepted P1 items are completed. Spot-verified against the current t
 - **P1-14 completed.** "535 packets… delivered over two days to about ten Senate offices and to House
   members of both parties." H2 re-keyed to "Suitcase." "She answered it with somebody else's
   children." kept.
-- **P1-15 completed.** "The songs on *Songs for Littles* are written and arranged by a Broadway
+- **P1-15 completed.** "The songs on _Songs for Littles_ are written and arranged by a Broadway
   associate conductor and recorded with real horn players. It is a well-made show. The pause is the
   technology." Plus a segment description in the founding section. One clause in that addition lacks
   a source trail; see Remaining work.
@@ -199,22 +200,22 @@ prescribed behavior, not a shortfall.
 
 All fourteen survive. Verified by exact string match against the current file:
 
-| ID | Status | Evidence |
-| --- | --- | --- |
-| PROTECT-01 | intact, verbatim | both sentences byte-identical; only the following three words changed, as P1-08 licensed |
-| PROTECT-02 | intact | "A Broadway conductor gave up *Aladdin* to play the kid who talks back" present; only "in that living room" removed |
-| PROTECT-03 | intact | Aron's quote at full length, followed by "Her husband, on the record, says she is the one who ships." |
-| PROTECT-04 | intact and strengthened | empathy turn, Hafeez caveat and "still a teacher who arrives through a rectangle" all present; the criticism is harder than in the snapshot, not softer |
-| PROTECT-05 | intact | the section exists with five sequenced beats; the clock is gone, the form is not |
-| PROTECT-06 | intact | all three hedges present verbatim; two more added in the same register |
-| PROTECT-07 | function intact, placement deviates | thesis verbatim; disclaimer still precedes it — but with the P0-13 paragraph between them |
-| PROTECT-08 | intact | both sentences present with their specifics |
-| PROTECT-09 | intact | arms-out image present; "She is just on the other side of it." is the final reader-visible sentence |
-| PROTECT-10 | intact | `<p class="inner-thought">` block and the Cameo beat around it unchanged |
-| PROTECT-11 | intact | "The successor loses to the institution." present; only the heading re-keyed |
-| PROTECT-12 | intact | jargon sweep of the reader-visible body outside the Rabbit Hole: zero hits for passion, core fear, ledger, indispensability, instinct names, wing, subtype, integration. Every "Pride" is Pride Month. The gate sentence is present |
-| PROTECT-13 | intact | "It is the one behavior the typing does not cover, and it should stay on the table." unchanged |
-| PROTECT-14 | intact | no relative-date conversions (`grep` for "later that year/month", "the following year", "around that time" returns nothing); May→April corrected under RQ-05; Nov 30 2025 and Dec 2025 added |
+| ID         | Status                              | Evidence                                                                                                                                                                                                                            |
+| ---------- | ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PROTECT-01 | intact, verbatim                    | both sentences byte-identical; only the following three words changed, as P1-08 licensed                                                                                                                                            |
+| PROTECT-02 | intact                              | "A Broadway conductor gave up _Aladdin_ to play the kid who talks back" present; only "in that living room" removed                                                                                                                 |
+| PROTECT-03 | intact                              | Aron's quote at full length, followed by "Her husband, on the record, says she is the one who ships."                                                                                                                               |
+| PROTECT-04 | intact and strengthened             | empathy turn, Hafeez caveat and "still a teacher who arrives through a rectangle" all present; the criticism is harder than in the snapshot, not softer                                                                             |
+| PROTECT-05 | intact                              | the section exists with five sequenced beats; the clock is gone, the form is not                                                                                                                                                    |
+| PROTECT-06 | intact                              | all three hedges present verbatim; two more added in the same register                                                                                                                                                              |
+| PROTECT-07 | function intact, placement deviates | thesis verbatim; disclaimer still precedes it — but with the P0-13 paragraph between them                                                                                                                                           |
+| PROTECT-08 | intact                              | both sentences present with their specifics                                                                                                                                                                                         |
+| PROTECT-09 | intact                              | arms-out image present; "She is just on the other side of it." is the final reader-visible sentence                                                                                                                                 |
+| PROTECT-10 | intact                              | `<p class="inner-thought">` block and the Cameo beat around it unchanged                                                                                                                                                            |
+| PROTECT-11 | intact                              | "The successor loses to the institution." present; only the heading re-keyed                                                                                                                                                        |
+| PROTECT-12 | intact                              | jargon sweep of the reader-visible body outside the Rabbit Hole: zero hits for passion, core fear, ledger, indispensability, instinct names, wing, subtype, integration. Every "Pride" is Pride Month. The gate sentence is present |
+| PROTECT-13 | intact                              | "It is the one behavior the typing does not cover, and it should stay on the table." unchanged                                                                                                                                      |
+| PROTECT-14 | intact                              | no relative-date conversions (`grep` for "later that year/month", "the following year", "around that time" returns nothing); May→April corrected under RQ-05; Nov 30 2025 and Dec 2025 added                                        |
 
 **PROTECT-07, stated precisely.** The synthesis instruction was "do not separate it from the
 disclaimer." The current order is: disclaimer paragraph → P0-13 objection paragraph → reframe. The
@@ -244,7 +245,7 @@ Nothing here reopens a P0 or a protected hit. Ordered by consequence.
      controversy section runs Feb 2023 → Feb 27 2023 → May/June 2024 → Jan 2025 → Apr 2025 → Nov 30
      2025 → Dec 2025 → Jan 2026. The largest gap is Feb 2023 → May 2024, about fourteen months; the
      next is June 2024 → Jan 2025, seven months. The specific hole the clause was written to close
-     (June 2025 → Jan 2026) *is* closed, which is why I am passing the item — but the two surviving
+     (June 2025 → Jan 2026) _is_ closed, which is why I am passing the item — but the two surviving
      gaps correspond to stretches with no located events, and no reviewer flagged them. Minimum
      action: correct the log; no draft edit is required.
    - "faqs frontmatter is still empty." The live draft carries five FAQ pairs, added after the

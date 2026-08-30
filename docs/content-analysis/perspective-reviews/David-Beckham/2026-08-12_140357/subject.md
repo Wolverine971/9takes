@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 5
 reviewed_at: 2026-08-12T18:27:12Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357/subject.md
 ---
 
 ## Bottom-line verdict
@@ -52,7 +53,7 @@ This is criticism without motive laundering. Beckham's response, UNICEF record a
 
 > “The point is not that he escaped image-making by putting on a beekeeper's suit. It is that he stayed for the part he could not master in one night.”
 
-The October 2025 *Country Life* interview confirms his beginner question, the 4am assembly, continued care of 28 hives and his word “peace.” The profile turns those particulars into a fresh connection without claiming psychological conversion. This must survive revision because it shows a dimension of Beckham not exhausted by fame, controversy or type.
+The October 2025 _Country Life_ interview confirms his beginner question, the 4am assembly, continued care of 28 hives and his word “peace.” The profile turns those particulars into a fresh connection without claiming psychological conversion. This must survive revision because it shows a dimension of Beckham not exhausted by fame, controversy or type.
 
 ## What missed
 
@@ -62,7 +63,7 @@ The profile discloses Studio 99's role and his claim of no editorial control, bu
 
 ### SUBJECT-M2 — “Self-authorship” is sometimes proved by assertion
 
-“Nobody assigned” and “arenas nobody assigned him” are rhetorically decisive but not publicly verifiable. A June 2026 *Variety* interview offers useful counterevidence in Beckham's own vocabulary: he said that as a child all he wanted was to play for Manchester United and England, that later fame and admiration were not the plan, while also saying he still always wants to achieve more. The article can interpret later expansion as self-authorship, but it should not present the absence of other influences as fact.
+“Nobody assigned” and “arenas nobody assigned him” are rhetorically decisive but not publicly verifiable. A June 2026 _Variety_ interview offers useful counterevidence in Beckham's own vocabulary: he said that as a child all he wanted was to play for Manchester United and England, that later fame and admiration were not the plan, while also saying he still always wants to achieve more. The article can interpret later expansion as self-authorship, but it should not present the absence of other influences as fact.
 
 ### SUBJECT-M3 — The strongest disclaimers are followed by renewed interior certainty
 
@@ -84,10 +85,10 @@ The Qatar section also surprised me positively. It does not hide the long relati
 
 ### SUBJECT-R1 — BLOCKER: “fashion house” is unsupported deciding evidence
 
-- **Passage/location:** The FAQ says, “the sixteen-year pursuit of a Miami club, the fashion house and the *Attitude* cover.” The diagnosis says, “Nobody assigned the fashion house,” and the Rabbit Hole says, “nobody assigned him the Miami club, fashion house or *Attitude* cover.”
+- **Passage/location:** The FAQ says, “the sixteen-year pursuit of a Miami club, the fashion house and the _Attitude_ cover.” The diagnosis says, “Nobody assigned the fashion house,” and the Rabbit Hole says, “nobody assigned him the Miami club, fashion house or _Attitude_ cover.”
 - **Reader effect/trust problem:** The repeated phrase can misattribute Victoria Beckham's fashion house to David, erase her authorship, and make a central “self-authored arena” look factual when the packet does not establish it. Because these passages explicitly call the examples decisive against Type 9, the error reaches the core argument.
 - **Evidence/reasoning:** Evidence-packet dispute 2 and CLM-06 verify Beckham's modelling, endorsements, image work and brand ventures, but not a David-founded fashion house. The draft itself identifies Victoria as the person with a fashion brand.
-- **Minimum viable repair:** Remove “fashion house” from all three locations, or replace it with a precisely named, David-founded venture supported by a source. Existing verified examples such as Miami, Studio 99, the *Attitude* cover or the Los Angeles move can carry the contrast without a new claim.
+- **Minimum viable repair:** Remove “fashion house” from all three locations, or replace it with a precisely named, David-founded venture supported by a source. Existing verified examples such as Miami, Studio 99, the _Attitude_ cover or the Los Angeles move can carry the contrast without a new claim.
 - **Expected benefit:** Restores factual ownership, respects Victoria's work, and keeps the type comparison grounded in traceable acts.
 - **Confidence:** High.
 - **Acceptance test:** A text search finds no unqualified “fashion house” attributed to David, and every venture presented as deciding evidence has a source establishing David's role and the nature of that role.
@@ -96,8 +97,8 @@ The Qatar section also surprised me positively. It does not hide the long relati
 
 - **Passage/location:** Opening: “So does the form he chose: a finished account of a life built by finishing things.” Qatar section: “The revealing part ... is his preferred form of reply” and “he answered with a finished narrative.”
 - **Reader effect/trust problem:** A subject-aligned reader may feel the article has translated a difficult retrospective process into a brand-management tactic, despite claiming not to invent motives. “Preferred” and “answered” imply an intention the public record does not settle.
-- **Evidence/reasoning:** In Netflix's 6 October 2023 *Skip Intro* transcript, Beckham says he wanted to look back, experience the emotions, hear family and teammates' perspectives, and make the documentary for his family, children, future grandchildren and parents. Fisher Stevens says the project could not be “Brand Beckham,” describes correcting Beckham's remembered version off-camera, and says he had to draw out reflection over repeated sessions. This does not disprove the draft's form analysis, but it is strong first-person counterevidence to a single reputational motive.
-- **Minimum viable repair:** Keep the finished-object interpretation explicitly as the article's reading, add Beckham's stated family/retrospective purpose and the director's role, and replace “his preferred form of reply” with language about what the public form *can function as* regardless of private motive.
+- **Evidence/reasoning:** In Netflix's 6 October 2023 _Skip Intro_ transcript, Beckham says he wanted to look back, experience the emotions, hear family and teammates' perspectives, and make the documentary for his family, children, future grandchildren and parents. Fisher Stevens says the project could not be “Brand Beckham,” describes correcting Beckham's remembered version off-camera, and says he had to draw out reflection over repeated sessions. This does not disprove the draft's form analysis, but it is strong first-person counterevidence to a single reputational motive.
+- **Minimum viable repair:** Keep the finished-object interpretation explicitly as the article's reading, add Beckham's stated family/retrospective purpose and the director's role, and replace “his preferred form of reply” with language about what the public form _can function as_ regardless of private motive.
 - **Expected benefit:** Preserves the original insight while visibly separating public effect from claimed intention.
 - **Confidence:** High.
 - **Acceptance test:** The documentary discussion includes at least one specific first-person reason Beckham gave for making it and no sentence presents counter-narrative or reputation repair as his established motive.
@@ -116,7 +117,7 @@ The Qatar section also surprised me positively. It does not hide the long relati
 
 - **Passage/location:** Opening: “an adult son whose consent cannot be produced on schedule.” TL;DR: “it cannot ... compel reconciliation with Brooklyn.” Conclusion: “An adult son controls his own consent.”
 - **Reader effect/trust problem:** The repetition can imply that Beckham is trying to manufacture or schedule Brooklyn's consent and reconciliation. The record establishes Brooklyn's allegation and refusal to reconcile, not David's private aim or method of response. It also turns a living person's family boundary into a recurring proof-object for his father's typology.
-- **Evidence/reasoning:** The packet says no public source establishes David's motive or current private feeling. In the June 2026 *Variety* interview, Beckham declined to discuss the family strife because it was private. That boundary does not resolve the dispute, but it reinforces the need not to supply his side as a control strategy.
+- **Evidence/reasoning:** The packet says no public source establishes David's motive or current private feeling. In the June 2026 _Variety_ interview, Beckham declined to discuss the family strife because it was private. That boundary does not resolve the dispute, but it reinforces the need not to supply his side as a control strategy.
 - **Minimum viable repair:** Keep one restrained reference to the structural fact that adult relationships are not unilateral, remove “on schedule” and “compel” unless a source establishes such an attempt, and avoid using Brooklyn's name in the TL;DR type proof.
 - **Expected benefit:** Preserves the living-systems insight while reducing invasive implication and respecting both parties' agency.
 - **Confidence:** Medium-high.
@@ -127,7 +128,7 @@ The Qatar section also surprised me positively. It does not hide the long relati
 - **Passage/location:** Brand section: “Neville, who saved his wages, supplies the weekly budget,” followed by the blockquote attributed to Gary Neville.
 - **Reader effect/trust problem:** A potentially wrong name beneath a vivid comic quote undermines confidence in the testimony ledger and puts words in a close friend's mouth without speaker-level verification.
 - **Evidence/reasoning:** Evidence-packet CLM-18 and dispute 1 say the official episode contains the words, but the local transcript has no speaker labels and the nearby “me and Gary” wording leaves the speaker boundary unresolved. Secondary reporting is not enough to certify the current attribution at the packet's standard.
-- **Minimum viable repair:** Remove the speaker name and introduce it as an anecdote in archive shown on *Stick to Football*, or obtain a speaker-labelled transcript/video identification.
+- **Minimum viable repair:** Remove the speaker name and introduce it as an anecdote in archive shown on _Stick to Football_, or obtain a speaker-labelled transcript/video identification.
 - **Expected benefit:** Retains the useful anecdote without overstating quote fidelity.
 - **Confidence:** High.
 - **Acceptance test:** The quote is either supported by a speaker-identifying source recorded in the citation trail or is presented without naming Neville as speaker.
@@ -158,7 +159,7 @@ The Qatar section also surprised me positively. It does not hide the long relati
 
 - **Passage/location:** Opening paragraphs two and three; final two paragraphs of “Why David Beckham took the Qatar money.”
 - **Reader effect/trust problem:** The thesis currently sounds like a claim about why he made the series rather than what the series does in public.
-- **Evidence/reasoning:** Netflix *Skip Intro* records his retrospective and family reasons, other participants' perspectives, off-camera memory correction and Stevens's shaping role.
+- **Evidence/reasoning:** Netflix _Skip Intro_ records his retrospective and family reasons, other participants' perspectives, off-camera memory correction and Stevens's shaping role.
 - **Minimum viable repair:** Add a compact sentence naming those reasons, then label the reputational-counter-narrative reading as an effect or interpretation.
 - **Expected benefit:** More recognizable representation without surrendering the article's insight.
 - **Confidence:** High.
@@ -208,7 +209,7 @@ The Qatar section also surprised me positively. It does not hide the long relati
 
 ### SUBJECT-Q1 — What did Beckham say the documentary was for, in the fullest available first-person account?
 
-**What answer would change:** If a full, non-promotional interview shows Beckham explicitly describing reputation repair or answering old public images as a purpose, SUBJECT-C1 would weaken. If he consistently emphasizes family, reflection and multiple perspectives, the repair becomes more important. **Best source to pursue:** the complete *Skip Intro* audio/video and transcript with David Beckham and Fisher Stevens, followed by the full AP video interview from October 2023.
+**What answer would change:** If a full, non-promotional interview shows Beckham explicitly describing reputation repair or answering old public images as a purpose, SUBJECT-C1 would weaken. If he consistently emphasizes family, reflection and multiple perspectives, the repair becomes more important. **Best source to pursue:** the complete _Skip Intro_ audio/video and transcript with David Beckham and Fisher Stevens, followed by the full AP video interview from October 2023.
 
 ### SUBJECT-Q2 — Which specific David-led venture was intended by “fashion house”?
 
@@ -216,7 +217,7 @@ The Qatar section also surprised me positively. It does not hide the long relati
 
 ### SUBJECT-Q3 — Who speaks the salary-and-jeans line in the archived clip?
 
-**What answer would change:** Speaker-labelled evidence identifying Gary Neville would clear SUBJECT-C4; any other speaker would require immediate correction. **Best source to pursue:** the original labelled archive clip or direct video review of the official *Stick to Football* episode around the quoted passage.
+**What answer would change:** Speaker-labelled evidence identifying Gary Neville would clear SUBJECT-C4; any other speaker would require immediate correction. **Best source to pursue:** the original labelled archive clip or direct video review of the official _Stick to Football_ episode around the quoted passage.
 
 ### SUBJECT-Q4 — How does Beckham himself describe ambition after football?
 
@@ -249,4 +250,4 @@ No community discussion was used as factual evidence.
 
 This is a subject-aligned fairness proxy, not David Beckham's view and not a claim that he would approve the article or its typing. I cannot know his private motives, family relationships, mental-health status or response to the draft. I assessed recognizability, dignity, quotation fidelity and the separation of observation from inference; I did not grade the Enneagram theory or decide whether Type 3 is correct.
 
-I reviewed only the frozen `draft-reviewed.md` whose SHA-256 matches the supplied value and `context.json`, plus `context.json`, `evidence-packet.md` and the four additional sources recorded above. I did not read another perspective review, synthesis or prior grading artifact. I did not watch the Netflix series or the archived *Stick to Football* clip directly, consult private material, or retrieve a Beckham memoir; those limitations are why the documentary-motive and speaker-attribution findings ask for bounded verification rather than stronger conclusions.
+I reviewed only the frozen `draft-reviewed.md` whose SHA-256 matches the supplied value and `context.json`, plus `context.json`, `evidence-packet.md` and the four additional sources recorded above. I did not read another perspective review, synthesis or prior grading artifact. I did not watch the Netflix series or the archived _Stick to Football_ clip directly, consult private material, or retrieve a Beckham memoir; those limitations are why the documentary-motive and speaker-attribution findings ask for bounded verification rather than stronger conclusions.

@@ -1,4 +1,5 @@
 <!-- docs/content-research/2026-08-12_emerging-entity-gap-scout.md -->
+
 # Emerging Entity Gap Scout — 2026-08-12
 
 ## Top actions

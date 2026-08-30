@@ -5,6 +5,7 @@ subject: Ms-Rachel
 draft_sha256: 8ee388d721b2e6307aa099e626ddcf62566dd50a2cf633a8b95772dc0716c506
 resolution_status: complete
 resolved_at: 2026-08-20T08:18:49Z
+path: docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/revision-resolution.md
 ---
 
 This pass ran against a `verification-initial.md` that reported `verification_status: pass`,
@@ -42,7 +43,8 @@ residual came from redundancy neither pass had costed, principally:
 **Verifier remaining-work #2 — `editor-resolution.md` misreports three things — recorded, not
 edited.** I did not rewrite the editor's artifact; correcting it is outside this pass's write scope.
 Confirming the verifier's reading against the current file:
-- P0-13's paragraph does sit *between* the disclaimer and the reframe, not before the pair. Still
+
+- P0-13's paragraph does sit _between_ the disclaimer and the reframe, not before the pair. Still
   true after this pass; unchanged by it. Flagged again below.
 - P0-05's "largest gap is now under six months" is wrong. Feb 2023 → May 2024 is ~14 months. The
   specific hole the clause was written to close is closed.
@@ -52,15 +54,15 @@ Confirming the verifier's reading against the current file:
 
 **Verifier remaining-work #3 — "Four minutes, one word." unsourced (incomplete P1-15) — fixed.**
 Cut. The evidence packet carries no episode or segment length; everything else in that P1-15
-addition traces to S-10 and is untouched. The protected P1-15 sentences ("The songs on *Songs for
-Littles* are written and arranged by a Broadway associate conductor and recorded with real horn
+addition traces to S-10 and is untouched. The protected P1-15 sentences ("The songs on _Songs for
+Littles_ are written and arranged by a Broadway associate conductor and recorded with real horn
 players. It is a well-made show. The pause is the technology.") are intact in intro paragraph three.
 
 **Verifier remaining-work #4 — "One second. Two. Three." — deliberately retained.**
 The verifier marked this "not required for this gate" and the grader scored Hook 9 with it in place.
 I nearly broke it by accident: a compression pass removed the intro's in-prose attribution of the
 three-to-five-second professional window, which is the sentence that keeps the count from reading as
-a measurement of *her* pause. I caught it and reverted, funding the eleven words from throat-clearing
+a measurement of _her_ pause. I caught it and reverted, funding the eleven words from throat-clearing
 elsewhere. The attribution is back in intro paragraph three and the count still sits at the low end
 of a cited window. If a later pass wants it gone, cut the count, not the attribution.
 
@@ -85,16 +87,17 @@ and to `citations`. RQ-08 (the Washington Post original) remains open by design,
 disclosure untouched.
 
 **Grader cap — cross-draft sameness — three of four moves varied (TO REACH B+ #1).**
-1. *Reader-command imperatives:* all cut. "Sit with the mechanics of that", "Watch it once with the
+
+1. _Reader-command imperatives:_ all cut. "Sit with the mechanics of that", "Watch it once with the
    sound off", "the first two words are the ones worth reading twice", plus a fourth the grader did
    not catch, "Watch any episode and…" inside the PROTECT-07 paragraph (rewritten to "The sentence
    underneath every episode is…", thesis sentence untouched). A sweep confirms zero remain.
-2. *Opening machinery:* the epigraph is gone. The piece now opens cold on the `firstLetter`
+2. _Opening machinery:_ the epigraph is gone. The piece now opens cold on the `firstLetter`
    paragraph, which is the machinery the grader flagged minus one of its three components.
-3. *TL;DR:* all six bolded-noun-with-colon labels removed; every bullet is now a sentence. Bullet 3
+3. _TL;DR:_ all six bolded-noun-with-colon labels removed; every bullet is now a sentence. Bullet 3
    was also re-aligned to the P0-02 wording ("told she might be getting paid to post about Gaza"
    rather than "funded by a terror group").
-4. *Return-to-the-wound close:* **deliberately not varied — see Unresolved decisions.**
+4. _Return-to-the-wound close:_ **deliberately not varied — see Unresolved decisions.**
 
 **Grader — metronomic section closers — two sections now end ordinary.**
 "…and sold it to Netflix." is now "Her most characteristic posture is by now also a production
@@ -116,6 +119,7 @@ rule is ≥2. Dobrow and the Democracy Now! Hailat quote are moved to a "gathere
 body" block so a later pass with word headroom lands them first rather than re-researching them.
 
 **Grader TO REACH A #4 — the two unsourced load-bearing numbers — fixed by sourcing, not dropping.**
+
 - Subscribers/views: "20.2 million subscribers and 16.2 billion views" traced only to Wikipedia (S-01),
   which the packet itself says cannot carry a claim alone. Replaced with the figure a fact-checker can
   open: "By the time The Hollywood Reporter visited her studio in November 2025, the channel had 17.5
@@ -134,22 +138,22 @@ paragraph outside the diagnosis and the Rabbit Hole. `content_quality` and `last
 
 All fourteen verified by exact string match against the post-revision file, not by reading a log.
 
-| ID | Status | Note |
-| --- | --- | --- |
-| PROTECT-01 | intact, verbatim | both sentences byte-identical; surrounding paragraph untouched |
-| PROTECT-02 | intact, verbatim | Aron/Herbie sentence unchanged; only the preceding Herbie gloss was tightened by five words |
-| PROTECT-03 | intact | Aron's quote at full length plus the reversal, still one unit; Hailat lands *after* the pair, not between them |
-| PROTECT-04 | intact | empathy turn, "None of which makes the criticism wrong.", AAP, Sannes with her disclaimer, Hafeez caveat and the rectangle line all present. Compression here was four words total and touched no critical claim. The criticism is not softened |
-| PROTECT-05 | intact | five labeled beats survive; only the "Here is the entire method, in order." throat-clear above them was cut, and two beat bodies lost three words |
-| PROTECT-06 | intact | all three hedges verbatim |
-| PROTECT-07 | function intact, placement still deviates | thesis verbatim; "Watch any episode and" rewritten to a non-imperative inside the same paragraph. See Unresolved decisions |
-| PROTECT-08 | intact | both sentences present. The school roll-call I cut is not part of the protected specifics; the four-item career list that precedes the argument is intact |
-| PROTECT-09 | intact | arms-out image present; "She is just on the other side of it." is still the final reader-visible sentence |
-| PROTECT-10 | intact | `inner-thought` block and the whole Cameo beat unchanged. The intro's miniature retelling of it was removed, which strengthens rather than threatens the beat |
-| PROTECT-11 | intact | "The successor loses to the institution." present; the refusal quote kept; only an eight-word gloss trimmed |
-| PROTECT-12 | intact | jargon sweep of the reader-visible body outside the Rabbit Hole: zero hits. Gate sentence present. Every repair stayed inside the quarantine |
-| PROTECT-13 | intact, verbatim | anomaly still ends open; falsifier still stated |
-| PROTECT-14 | intact | no relative-date conversions. Two absolute dates *added* (December 8, 2025 in prose; December 24, 2025 on the source card) |
+| ID         | Status                                    | Note                                                                                                                                                                                                                                            |
+| ---------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PROTECT-01 | intact, verbatim                          | both sentences byte-identical; surrounding paragraph untouched                                                                                                                                                                                  |
+| PROTECT-02 | intact, verbatim                          | Aron/Herbie sentence unchanged; only the preceding Herbie gloss was tightened by five words                                                                                                                                                     |
+| PROTECT-03 | intact                                    | Aron's quote at full length plus the reversal, still one unit; Hailat lands _after_ the pair, not between them                                                                                                                                  |
+| PROTECT-04 | intact                                    | empathy turn, "None of which makes the criticism wrong.", AAP, Sannes with her disclaimer, Hafeez caveat and the rectangle line all present. Compression here was four words total and touched no critical claim. The criticism is not softened |
+| PROTECT-05 | intact                                    | five labeled beats survive; only the "Here is the entire method, in order." throat-clear above them was cut, and two beat bodies lost three words                                                                                               |
+| PROTECT-06 | intact                                    | all three hedges verbatim                                                                                                                                                                                                                       |
+| PROTECT-07 | function intact, placement still deviates | thesis verbatim; "Watch any episode and" rewritten to a non-imperative inside the same paragraph. See Unresolved decisions                                                                                                                      |
+| PROTECT-08 | intact                                    | both sentences present. The school roll-call I cut is not part of the protected specifics; the four-item career list that precedes the argument is intact                                                                                       |
+| PROTECT-09 | intact                                    | arms-out image present; "She is just on the other side of it." is still the final reader-visible sentence                                                                                                                                       |
+| PROTECT-10 | intact                                    | `inner-thought` block and the whole Cameo beat unchanged. The intro's miniature retelling of it was removed, which strengthens rather than threatens the beat                                                                                   |
+| PROTECT-11 | intact                                    | "The successor loses to the institution." present; the refusal quote kept; only an eight-word gloss trimmed                                                                                                                                     |
+| PROTECT-12 | intact                                    | jargon sweep of the reader-visible body outside the Rabbit Hole: zero hits. Gate sentence present. Every repair stayed inside the quarantine                                                                                                    |
+| PROTECT-13 | intact, verbatim                          | anomaly still ends open; falsifier still stated                                                                                                                                                                                                 |
+| PROTECT-14 | intact                                    | no relative-date conversions. Two absolute dates _added_ (December 8, 2025 in prose; December 24, 2025 on the source card)                                                                                                                      |
 
 ## Unresolved decisions
 

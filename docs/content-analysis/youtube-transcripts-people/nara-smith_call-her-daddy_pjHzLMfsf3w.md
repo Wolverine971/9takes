@@ -11,6 +11,7 @@ tool: youtube-transcript-api (python)
 speaker_labels: none (auto-generated captions; two-speaker conversation, Alex Cooper + Nara Smith)
 segments: 2651
 caution: Auto-transcript is speaker-unlabeled. Cross-check attribution against singjupost.com published transcript before quoting.
+path: docs/content-analysis/youtube-transcripts-people/nara-smith_call-her-daddy_pjHzLMfsf3w.md
 ---
 
 # Call Her Daddy - Nara Smith (auto-transcript, unlabeled)

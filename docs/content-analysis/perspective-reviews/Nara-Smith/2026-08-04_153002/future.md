@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 2
 concerns: 8
 reviewed_at: 2026-08-04T20:15:20Z
+path: docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/future.md
 ---
 
 ## Bottom-line verdict
@@ -62,7 +63,7 @@ survive revision unchanged, and it should be the model any future refresh copies
 > she sat down with Cooper to fight the label."
 
 Both ends of the interval are absolute dates, so the sentence computes identically in 2027 as it
-does today. More importantly, this is the one argument in the article that gets *stronger* as the
+does today. More importantly, this is the one argument in the article that gets _stronger_ as the
 news cycle recedes: when the Cooper episode is forgotten, the December 2024 post is still sitting
 there doing the anti-retcon work. If a future editor has to cut for length, this is the last thing
 that should go.
@@ -111,7 +112,7 @@ cancer should be built so that a bad turn makes it dated rather than callous. Se
 **The "one-man show" claim is stated as a standing fact and is the piece's fastest-decaying clause.**
 
 The key-stat block (L195-198) reads "Every video still shot, edited, and voiced by one person." The
-word *still* converts a 2026 observation into a live claim that the reader is invited to check.
+word _still_ converts a 2026 observation into a live claim that the reader is invited to check.
 Between a cookbook launch, a film credit, and a business scaling past 12M followers, this is the
 first sentence in the article likely to be false — and my research turned up same-episode reporting
 the draft does not reflect. See FUTURE-C3.
@@ -132,8 +133,8 @@ As the twelve-month proxy, I expected five things. The article delivers three.
 4. **Hedged verdicts on a live dispute.** Not delivered. "Her critics have the stronger case on
    impact" is stated flat, in body and in structured FAQ data, about an argument six days old
    (FUTURE-C6).
-5. **Survival of its newest event.** Partly delivered. The *thesis* survives removal of the Cooper
-   episode; the *evidence* does not, because ~80% of the quotation comes from it. That is inherent
+5. **Survival of its newest event.** Partly delivered. The _thesis_ survives removal of the Cooper
+   episode; the _evidence_ does not, because ~80% of the quotation comes from it. That is inherent
    to the subject rather than a defect, but it means the December 2024 material and the childhood
    section are carrying more future load than the draft seems to realize — another reason to protect
    FUTURE-H2.
@@ -252,7 +253,7 @@ disconfirm it. (Highest-priority concern.)**
   will judge this claim against a year of evidence the writer did not have — and the wing argument is
   the only place the article rests a type conclusion on a behavior window this short.
 - **Evidence:** the episode aired 29 July 2026 (packet S-05); the draft is dated 4 August 2026. My
-  search confirms the discourse did *not* go quiet in that window — Tyla (30 July, "her response is
+  search confirms the discourse did _not_ go quiet in that window — Tyla (30 July, "her response is
   sparking backlash"), TheRoot, SheKnows ("The Internet Responds to Nara Smith's 'Tradwife' Denial"),
   NewsNation, and a Yahoo piece framing "the tradwife economy going mainstream" via a Target
   placement, all after the episode. A cookbook press cycle lands 13 October 2026, at which point
@@ -260,8 +261,8 @@ disconfirm it. (Highest-priority concern.)**
   live, testable, and scheduled.
 - **Minimum viable repair:** date-bound the observation instead of generalizing it. "As of early
   August 2026 she had not returned to it" — or better, move the weight onto the durable version of
-  the same evidence, which the article already has: the *manner* of the rebuttal (one long sitting,
-  no escalation, no reply to Levings) rather than the *duration* of the silence after it.
+  the same evidence, which the article already has: the _manner_ of the rebuttal (one long sitting,
+  no escalation, no reply to Levings) rather than the _duration_ of the silence after it.
 - **Expected benefit:** the wing argument stops being falsifiable by a single podcast booking, and
   the piece keeps the observation without betting the analysis on it.
 - **Confidence:** high that the claim is fragile; the direction of any future disconfirmation is
@@ -274,13 +275,13 @@ its own citation does not support.**
 
 - **Passage (L195-198):** "12M+ TikTok followers. Every video still shot, edited, and voiced by one
   person. / Forbes, 31 July 2026"
-- **Reader effect:** three decay vectors in two lines. The follower count moves; *still* invites the
+- **Reader effect:** three decay vectors in two lines. The follower count moves; _still_ invites the
   reader to check a live claim about her production process; and the citation attributes both clauses
   to Forbes when Forbes supports only the count. In twelve months a reader who checks the Forbes URL
   finds one of the two claims missing, which reads as sourcing failure rather than as the ordinary
   aging of a number.
 - **Evidence:** packet CLM-18 — follower count VERIFIED via S-02; the solo-production clause is an
-  ATTRIBUTED CLAIM sourced to her own description on *Call Her Daddy*, not to Forbes. Separately, my
+  ATTRIBUTED CLAIM sourced to her own description on _Call Her Daddy_, not to Forbes. Separately, my
   search surfaced reporting on the same Cooper episode noting that her mother and hired help assist
   the household (Tyla, 30 July 2026). That does not contradict a claim about who shoots and edits the
   video — the two are compatible — but it means "one-man show" is already being read more broadly in
@@ -288,7 +289,7 @@ its own citation does not support.**
   draw a challenge.
 - **Minimum viable repair:** date-stamp the number and split the attribution. "12M+ TikTok followers
   as of July 2026. She shoots, edits, and voices the videos herself." with the Forbes credit scoped to
-  the count and the second clause credited to *Call Her Daddy*, 29 July 2026. Drop *still*.
+  the count and the second clause credited to _Call Her Daddy_, 29 July 2026. Drop _still_.
 - **Expected benefit:** the block ages into a dated observation rather than a wrong live claim, and
   the citation stops over-promising.
 - **Confidence:** high on the attribution split (packet-resolved); medium on how fast the solo claim
@@ -372,7 +373,7 @@ its own citation does not support.**
   - L327 "He models for Calvin Klein and Tom Ford and drums in a band with his three sisters" —
     present-tense career claims; modeling client relationships are point-in-time, and the packet marks
     the whole clause unverified in this pass (CLM-20). Repair: "has modeled for," and verify or cut.
-  - L277 table, 2024 row: "starts costing her collaborations" — a *dated row* implying a documented
+  - L277 table, 2024 row: "starts costing her collaborations" — a _dated row_ implying a documented
     2024 event, where the only source is her account of one unnamed, undated collaborator (packet,
     dispute 9). Repair: move it out of the dated column or mark it as her account.
   - L307 Ballerina Farm visit — no date at all, and the packet could locate none. The beat is the
@@ -434,17 +435,17 @@ from a body that has no headroom.
 Concrete triggers and check dates for the next editor. I have deliberately not prescribed any
 `lastmod` change — that field is DJ's to manage.
 
-| When | Check | What changes if it moved |
-| --- | --- | --- |
-| **13 October 2026** | Did *Homemade* publish on schedule? | Tense of L325; the "eleven weeks" interval breaks if the date slipped. |
-| **Oct–Dec 2026** | Book-tour press: did she address the tradwife label again? | The 8w9 "went quiet" evidence (L348) and "she had to say it once" (L333). Most likely single disconfirmation event in the horizon. |
-| **Any time** | Whimsy's health status. | The "completed story" framing (L162, L281). Handle with care; do not add medical detail beyond what the family discloses. |
-| **Quarterly** | Follower count. | Key-stat (L196). Re-stamp the as-of date rather than updating the number. |
-| **Quarterly** | Link health on @Katwiia, Levings Substack, Forbes contributor URL. | FUTURE-C5. Swap in archived snapshots on first failure. |
-| **Any time** | Does any outlet ever name the hospital, the modality, or a bell-ringing date? | FAQ 4's "chemotherapy at Yale New Haven" (L74) and L407 both become sourceable — or must be softened if reporting conflicts. |
-| **Any time** | Does she ever revise "lupus" vs. "an autoimmune disease"? | Title, meta_title, keywords, and FAQ 2 all foreground *lupus*, her December 2024 word. Defensible now; a change in her own characterization would strand the metadata. |
-| **Any time** | Is the Ballerina Farm visit ever dated? | L307 concession (FUTURE-C7). |
-| **On any correction request** | Is the transcript archived? | Everything. Do this first (FUTURE-C4). |
+| When                          | Check                                                                         | What changes if it moved                                                                                                                                               |
+| ----------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **13 October 2026**           | Did _Homemade_ publish on schedule?                                           | Tense of L325; the "eleven weeks" interval breaks if the date slipped.                                                                                                 |
+| **Oct–Dec 2026**              | Book-tour press: did she address the tradwife label again?                    | The 8w9 "went quiet" evidence (L348) and "she had to say it once" (L333). Most likely single disconfirmation event in the horizon.                                     |
+| **Any time**                  | Whimsy's health status.                                                       | The "completed story" framing (L162, L281). Handle with care; do not add medical detail beyond what the family discloses.                                              |
+| **Quarterly**                 | Follower count.                                                               | Key-stat (L196). Re-stamp the as-of date rather than updating the number.                                                                                              |
+| **Quarterly**                 | Link health on @Katwiia, Levings Substack, Forbes contributor URL.            | FUTURE-C5. Swap in archived snapshots on first failure.                                                                                                                |
+| **Any time**                  | Does any outlet ever name the hospital, the modality, or a bell-ringing date? | FAQ 4's "chemotherapy at Yale New Haven" (L74) and L407 both become sourceable — or must be softened if reporting conflicts.                                           |
+| **Any time**                  | Does she ever revise "lupus" vs. "an autoimmune disease"?                     | Title, meta_title, keywords, and FAQ 2 all foreground _lupus_, her December 2024 word. Defensible now; a change in her own characterization would strand the metadata. |
+| **Any time**                  | Is the Ballerina Farm visit ever dated?                                       | L307 concession (FUTURE-C7).                                                                                                                                           |
+| **On any correction request** | Is the transcript archived?                                                   | Everything. Do this first (FUTURE-C4).                                                                                                                                 |
 
 **Search-metadata note, low priority:** the keyword list includes `'Nara Smith Call Her Daddy'`, which
 is pegged to a single episode and will decay faster than the rest. The durable keywords are already
@@ -456,32 +457,32 @@ low-priority, and I would not spend words on it now.
 ## Follow-on questions
 
 **FUTURE-Q1 — Did Nara Smith address the tradwife label publicly after 29 July 2026?**
-*What it changes:* if yes, the 8w9 wing evidence at L348 needs rewriting, not just dating — a second
+_What it changes:_ if yes, the 8w9 wing evidence at L348 needs rewriting, not just dating — a second
 sustained rebuttal is affirmative counter-evidence for the "disengagement" read rather than merely
-an absent confirmation. *Best source:* her own Substack, *Paper Pantry* (`naraaziza.substack.com`),
+an absent confirmation. _Best source:_ her own Substack, _Paper Pantry_ (`naraaziza.substack.com`),
 which the packet notes is a first-party channel the draft never uses, plus book-tour interviews from
 October 2026 onward.
 
 **FUTURE-Q2 — Does the 13 October 2026 publication date hold?**
-*What it changes:* the "eleven weeks" arithmetic at L325. *Best source:* the HarperCollins product
+_What it changes:_ the "eleven weeks" arithmetic at L325. _Best source:_ the HarperCollins product
 page and the Amazon ISBN listing (9780063459083); both currently show the date and live preorders.
-*Status:* checked and holding as of 4 August 2026.
+_Status:_ checked and holding as of 4 August 2026.
 
 **FUTURE-Q3 — Is the `pjHzLMfsf3w` YouTube upload still live, and does an official transcript exist?**
-*What it changes:* whether FUTURE-C4's repair is "archive it now" or "the primary source is already
-lost." *Best source:* a direct `yt-dlp` / `youtube-transcript-api` pull, plus the Spotify episode
+_What it changes:_ whether FUTURE-C4's repair is "archive it now" or "the primary source is already
+lost." _Best source:_ a direct `yt-dlp` / `youtube-transcript-api` pull, plus the Spotify episode
 page for an official transcript. My attempted fetch was inconclusive — YouTube did not render — so
 this is unresolved and should be settled before publication, not after.
 
 **FUTURE-Q4 — Does any outlet ever date the bell-ringing or name the treating hospital?**
-*What it changes:* whether L407 and FAQ 4's "chemotherapy at Yale New Haven" become sourceable or
-must be softened. *Best source:* follow-on remission coverage and any future long-form interview.
-*Current status:* the packet located none; every outlet says only "treatment."
+_What it changes:_ whether L407 and FAQ 4's "chemotherapy at Yale New Haven" become sourceable or
+must be softened. _Best source:_ follow-on remission coverage and any future long-form interview.
+_Current status:_ the packet located none; every outlet says only "treatment."
 
 **FUTURE-Q5 — Does she ever address the driving rule or the 50/50 framing again?**
-*What it changes:* the article's most honest unresolved passage (L329, L350) either gains a resolution
+_What it changes:_ the article's most honest unresolved passage (L329, L350) either gains a resolution
 or hardens into a permanent open question. Either outcome is good for the piece; it is the one place
-where new evidence improves the article regardless of direction. *Best source:* the same book-tour
+where new evidence improves the article regardless of direction. _Best source:_ the same book-tour
 window as Q1. Worth noting the public conversation has already moved here — SheKnows' post-episode
 roundup led with a commenter arguing "It's Time for Lucky Blue to Step Up."
 
@@ -489,8 +490,7 @@ roundup led with a commenter arguing "It's Time for Lucky Blue to Step Up."
 
 These must survive revision. Each is durable for a stated reason.
 
-1. **The in-frame/out-of-frame table (L274-281).** Every row absolutely dated; reads identically in
-   2027. The best durability engineering in the piece and the model for fixing the rest.
+1. **The in-frame/out-of-frame table (L274-281).** Every row absolutely dated; reads identically in 2027. The best durability engineering in the piece and the model for fixing the rest.
 2. **"She volunteered the entire medical history in December 2024, unprompted, nineteen months before
    she sat down with Cooper to fight the label." (L227)** Anchored at both ends; the one argument that
    strengthens as the news cycle recedes. If length forces cuts, this goes last.
@@ -515,40 +515,40 @@ of what each source changed.
 **Packet read in full before any research.** It resolved several questions I would otherwise have
 searched: the cookbook date and publisher (S-23), Whimsy's birth date (S-09/S-10), the remission date
 (S-19/S-20), the Forbes non-interview (CLM-06), the transcript's absence from disk (limitation 1),
-and the *People* date discrepancy (CLM-07). I did not re-search any of these.
+and the _People_ date discrepancy (CLM-07). I did not re-search any of these.
 
-**Question 1: Is *Homemade*'s 13 October 2026 date still current?**
-*Why it mattered:* determined whether FUTURE-C1's repair could safely use an absolute date, or had to
+**Question 1: Is _Homemade_'s 13 October 2026 date still current?**
+_Why it mattered:_ determined whether FUTURE-C1's repair could safely use an absolute date, or had to
 hedge against a slip.
-*Source:* web search, HarperCollins UK product page / Amazon ISBN 9780063459083 / multiple August 2026
+_Source:_ web search, HarperCollins UK product page / Amazon ISBN 9780063459083 / multiple August 2026
 reports.
-*Result:* date holding, preorders live across Amazon, Target, Walmart, Books-A-Million; ~80-85 recipes.
-*Decision affected:* FUTURE-C1's repair now recommends the absolute date confidently, with a
+_Result:_ date holding, preorders live across Amazon, Target, Walmart, Books-A-Million; ~80-85 recipes.
+_Decision affected:_ FUTURE-C1's repair now recommends the absolute date confidently, with a
 conditional form only if the article might ship before 13 October.
-*Bonus finding, unsought:* a Yahoo headline framing "the tradwife economy going mainstream" via a
+_Bonus finding, unsought:_ a Yahoo headline framing "the tradwife economy going mainstream" via a
 Target placement — evidence that the label discourse is expanding commercially rather than resolving,
 which fed FUTURE-C6.
 
 **Question 2: Has Nara Smith or the controversy moved since 29 July 2026?**
-*Why it mattered:* this is the load-bearing question for FUTURE-C2. "She said it once and went quiet"
+_Why it mattered:_ this is the load-bearing question for FUTURE-C2. "She said it once and went quiet"
 is only meaningful if the silence is hers rather than the news cycle's.
-*Source:* web search returning Tyla (30 July 2026), TheRoot, SheKnows, NewsNation, Just Jared (29
+_Source:_ web search returning Tyla (30 July 2026), TheRoot, SheKnows, NewsNation, Just Jared (29
 July 2026), SiriusXM, AOL.
-*Result:* no located second statement from her; but the discourse plainly continued and intensified
-after the episode, and Just Jared's headline confirms outlets describe Whimsy as "2" *at the July 2026
-disclosure*, supporting FUTURE-R1's reading that the backward projection is the draft's own move.
-*Decision affected:* FUTURE-C2 upgraded to highest-priority concern and framed as "a prediction that
+_Result:_ no located second statement from her; but the discourse plainly continued and intensified
+after the episode, and Just Jared's headline confirms outlets describe Whimsy as "2" _at the July 2026
+disclosure_, supporting FUTURE-R1's reading that the backward projection is the draft's own move.
+_Decision affected:_ FUTURE-C2 upgraded to highest-priority concern and framed as "a prediction that
 is live, testable, and scheduled" rather than as an error. Also surfaced the Tyla detail that her
 mother and hired help assist the household, which fed FUTURE-C3 — noted carefully as compatible with
 the solo-video claim, not as a contradiction. Also fed FUTURE-Q5 (SheKnows' "Time for Lucky Blue to
 Step Up").
 
 **Question 3: Is the primary-source video still retrievable?**
-*Why it mattered:* determines whether FUTURE-C4's repair is "archive now" or "already lost."
-*Source:* direct fetch of `youtube.com/watch?v=pjHzLMfsf3w`.
-*Result:* **inconclusive** — the page did not render usable metadata. Availability unconfirmed in
+_Why it mattered:_ determines whether FUTURE-C4's repair is "archive now" or "already lost."
+_Source:_ direct fetch of `youtube.com/watch?v=pjHzLMfsf3w`.
+_Result:_ **inconclusive** — the page did not render usable metadata. Availability unconfirmed in
 either direction.
-*Decision affected:* FUTURE-C4's repair stated as a pre-publication action item, and the uncertainty
+_Decision affected:_ FUTURE-C4's repair stated as a pre-publication action item, and the uncertainty
 recorded honestly in FUTURE-Q3 rather than resolved by assumption.
 
 **Three sources consulted, within the 2-4 budget.** I did not research Nara Smith's biography, the
@@ -561,7 +561,7 @@ Enneagram, or the merits of the tradwife argument — all outside this perspecti
   draft, and I did not open `subject.md`, `fan.md`, `critic.md`, `unfamiliar.md`, `enneagram.md`, or
   `synthesis.md`. I anchored on no prior grade; the frontmatter's `content_quality: 8.7 / B+` and the
   embedded pass notes were treated as artifacts of the snapshot, not as findings to defer to.
-- **I cannot see the future and did not pretend to.** Every claim here is about the *fragility* of a
+- **I cannot see the future and did not pretend to.** Every claim here is about the _fragility_ of a
   statement, not about what will happen. I made no prediction about Whimsy's health, about whether
   Nara Smith will speak again, or about how the tradwife argument resolves.
 - **My horizon is twelve months from 2026-08-04.** Claims that decay on a longer arc — the durability
@@ -571,7 +571,7 @@ Enneagram, or the merits of the tradwife argument — all outside this perspecti
   errors that a fact-checking lens would also catch; I claim them because both are purely temporal and
   both worsen with age, but I did not originate the underlying birth-date arithmetic — the packet did
   (CLM-02, CLM-11), and I verified the reasoning rather than the source documents.
-- **I did not independently verify any *Call Her Daddy* quotation**, and per the packet's attribution
+- **I did not independently verify any _Call Her Daddy_ quotation**, and per the packet's attribution
   caution I treated all of them as unlocatable at the timestamp level. FUTURE-C4 is a statement about
   that condition, not a claim that any specific quote is wrong.
 - **Availability of the primary source is unresolved** (FUTURE-Q3). If the video is already gone, my

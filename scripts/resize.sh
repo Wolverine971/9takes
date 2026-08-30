@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# scripts/resize.sh
 # Backwards-compatible entry point. The maintained implementation has a descriptive name.
 
 set -euo pipefail

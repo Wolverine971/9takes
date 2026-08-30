@@ -64,15 +64,15 @@ Margaret Qualley is an American actor, former dancer, and model whose public wor
 
 ## Source ledger
 
-| ID | Source | Date | Use | Limit |
-| --- | --- | --- | --- | --- |
-| S-01 | Frozen draft and `context.json` | 2026-08-20 | Exact claims and hashes under review | Not independent evidence |
-| S-02 | Evening Standard | 2017 | Ballet measurement and letters | Retrospective interview |
-| S-03 | IndieWire | 2017 | Kenzo audition | Promotional retrospective |
-| S-04 | Netflix Tudum / Deadline | 2021–2022 | _Maid_ pitch and audience estimate | Platform reporting |
-| S-05 | Los Angeles Times / Entertainment Weekly | 2024 | Prosthetic and dance-rehearsal accounts | Film-promotion interviews |
-| S-06 | Collider / Happy Sad Confused / MTV | 2024–2025 | Ballet, self-grading, safety, and self-assessment | Interview testimony |
-| S-07 | The Hollywood Reporter / Rolling Stone / Harper's Bazaar | 2023–2025 | Critical and collaborator counterevidence | Individual judgments |
-| S-08 | TMZ / Yahoo / Just Jared / WWD | 2026 | Representative statement, handle history, and New Jersey set | Sensitive and partly entertainment reporting |
-| S-09 | Variety | 2026-08-12 | June 11, 2027 _Possession_ release date | Future schedule may change |
-| S-10 | Repository release audits | 2026-08-20 | Lint, source, length, and corpus checks | Editorial tooling, not biographical proof |
+| ID   | Source                                                   | Date       | Use                                                          | Limit                                        |
+| ---- | -------------------------------------------------------- | ---------- | ------------------------------------------------------------ | -------------------------------------------- |
+| S-01 | Frozen draft and `context.json`                          | 2026-08-20 | Exact claims and hashes under review                         | Not independent evidence                     |
+| S-02 | Evening Standard                                         | 2017       | Ballet measurement and letters                               | Retrospective interview                      |
+| S-03 | IndieWire                                                | 2017       | Kenzo audition                                               | Promotional retrospective                    |
+| S-04 | Netflix Tudum / Deadline                                 | 2021–2022  | _Maid_ pitch and audience estimate                           | Platform reporting                           |
+| S-05 | Los Angeles Times / Entertainment Weekly                 | 2024       | Prosthetic and dance-rehearsal accounts                      | Film-promotion interviews                    |
+| S-06 | Collider / Happy Sad Confused / MTV                      | 2024–2025  | Ballet, self-grading, safety, and self-assessment            | Interview testimony                          |
+| S-07 | The Hollywood Reporter / Rolling Stone / Harper's Bazaar | 2023–2025  | Critical and collaborator counterevidence                    | Individual judgments                         |
+| S-08 | TMZ / Yahoo / Just Jared / WWD                           | 2026       | Representative statement, handle history, and New Jersey set | Sensitive and partly entertainment reporting |
+| S-09 | Variety                                                  | 2026-08-12 | June 11, 2027 _Possession_ release date                      | Future schedule may change                   |
+| S-10 | Repository release audits                                | 2026-08-20 | Lint, source, length, and corpus checks                      | Editorial tooling, not biographical proof    |

@@ -123,6 +123,7 @@ content_quality:
   anchor: 'Matt-Smith draft (2026-06-28) — clears it on evidence and structure'
   needs_review: false
   graded_at: '2026-08-19'
+path: src/blog/people/drafts/Bill-Burr.md
 ---
 
 <!-- TESTIMONY LEDGER

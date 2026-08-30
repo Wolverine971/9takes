@@ -1,3 +1,4 @@
+// scripts/lint-radius-semantics.js
 import scss from 'postcss-scss';
 
 /** @typedef {'badge' | 'control' | 'card' | 'pill'} RadiusRole */

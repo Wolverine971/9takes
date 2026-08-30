@@ -1,3 +1,4 @@
+-- supabase/migrations/20260812235500_reply_notification_outbox.sql
 -- Durable, privacy-preserving outbox for the first version of anonymous
 -- direct-reply email notifications. The trigger only queues work; network
 -- delivery remains outside the comment transaction.

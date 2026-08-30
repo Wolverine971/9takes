@@ -12,6 +12,7 @@ recommendation: pass
 blockers: 0
 concerns: 0
 reviewed_at: 2026-08-13T16:00:30Z
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_155727/unfamiliar.md
 ---
 
 ## Bottom-line verdict

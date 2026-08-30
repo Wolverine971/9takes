@@ -1,4 +1,5 @@
 <!-- reddit/04-sideproject-weekly-thread.md -->
+
 # r/SideProject weekly-thread comment
 
 - Community: [r/SideProject](https://www.reddit.com/r/SideProject/)

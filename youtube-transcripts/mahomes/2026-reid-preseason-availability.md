@@ -13,6 +13,7 @@ description: |
   For more Local News from KCTV: https://www.kctv5.com/
   For more YouTube Content: https://www.youtube.com/channel/UCie7RmdcnvXA1FXHRJa7WtA
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/2026-reid-preseason-availability.md
 ---
 
 # Here's what Andy Reid said about preseason availability of Patrick Mahomes

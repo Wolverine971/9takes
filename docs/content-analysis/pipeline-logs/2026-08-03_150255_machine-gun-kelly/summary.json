@@ -1,15 +1,15 @@
 {
-  "person": "machine-gun-kelly",
-  "draft_path": "src/blog/people/drafts/Machine-Gun-Kelly.md",
-  "log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-03_150255_machine-gun-kelly",
-  "completed": true,
-  "halt_reason": null,
-  "revised": true,
-  "lint_exit": 0,
-  "first_overall": 8.9,
-  "final_overall": 8.7,
-  "final_discoverability": 9,
-  "grade_stability_delta": 0.20000000000000107,
-  "has_stage_warnings": true,
-  "generated_at": "2026-08-03T20:59:04.657Z"
+	"person": "machine-gun-kelly",
+	"draft_path": "src/blog/people/drafts/Machine-Gun-Kelly.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-08-03_150255_machine-gun-kelly",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.9,
+	"final_overall": 8.7,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.20000000000000107,
+	"has_stage_warnings": true,
+	"generated_at": "2026-08-03T20:59:04.657Z"
 }

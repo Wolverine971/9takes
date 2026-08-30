@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 4
 reviewed_at: 2026-08-12T18:31:47Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -67,7 +68,7 @@ The article is not ready to pass unchanged. Its explicit Type 3-versus-Type 9 de
 - **Exact passage/location:** FAQ “Is David Beckham a Type 3 or a Type 9?”: “the sixteen-year pursuit of a Miami club, the fashion house and the Attitude cover”; main diagnosis: “Nobody assigned the fashion house”; Rabbit Hole, “Counterarguments”: “Yet nobody assigned him the Miami club, fashion house or Attitude cover.”
 - **Reader effect/trust problem:** The reader is asked to accept an unverified and possibly misattributed business as evidence that Beckham moved from paternal compliance to self-authored recognition. Because this premise helps decide the core type, discovering that it may refer to Victoria Beckham's company would break trust in the comparison.
 - **Evidence/reasoning:** Evidence packet dispute 2 and CLM-06 state that no David-founded fashion house is established and specifically warn against using Victoria Beckham's venture as David's self-authored evidence.
-- **Minimum viable repair:** Remove “fashion house” from all three locations unless the intended David-controlled venture can be named and sourced. The argument already has verified alternatives: Los Angeles, the Miami franchise, the *Attitude* cover and choosing a Studio 99-produced documentary as a public form.
+- **Minimum viable repair:** Remove “fashion house” from all three locations unless the intended David-controlled venture can be named and sourced. The argument already has verified alternatives: Los Angeles, the Miami franchise, the _Attitude_ cover and choosing a Studio 99-produced documentary as a public form.
 - **Expected benefit:** The central Three/Nine comparison will rest only on attributable evidence while retaining its breadth across sport, business, image and media.
 - **Confidence:** High.
 - **Acceptance test:** The reader-visible draft contains no generic “fashion house” claim. If a specific venture replaces it, the text names the venture, establishes David Beckham's role and cites a source; otherwise each deciding list uses only packet-verified examples.
@@ -94,7 +95,7 @@ The article is not ready to pass unchanged. Its explicit Type 3-versus-Type 9 de
 
 ### ENNEAGRAM-C3 — Concern: wing and instinct stack are inferred from non-discriminating traits
 
-- **Exact passage/location:** Rabbit Hole “David Beckham's Wing: 3w2” and “David Beckham's Instinctual Subtype: Social (so), with a strong Self-Preservation (sp) second,” especially “Warmth, helpfulness and a wish to be liked support a Two wing” and “A social-first reading best fits the Alice band, the *Attitude* cover and the move to Real Madrid. Security and provision give self-preservation a plausible second place.”
+- **Exact passage/location:** Rabbit Hole “David Beckham's Wing: 3w2” and “David Beckham's Instinctual Subtype: Social (so), with a strong Self-Preservation (sp) second,” especially “Warmth, helpfulness and a wish to be liked support a Two wing” and “A social-first reading best fits the Alice band, the _Attitude_ cover and the move to Real Madrid. Security and provision give self-preservation a plausible second place.”
 - **Reader effect/trust problem:** The reader receives precision that the cited behaviors cannot reliably carry. Warmth and helpfulness are not unique to a Two wing, image display is not automatically social instinct, and nearly anyone can value security and provision.
 - **Evidence/reasoning:** The Narrative Enneagram defines social instinct around belonging, group membership and social institutions, social Three around prestige and approval within institutions, self-preservation Three around material security, and one-to-one Three around attractive gendered image. The draft's examples mix these domains and do not compare the live alternatives.
 - **Minimum viable repair:** Either mark wing and stack “unresolved from public evidence,” or give each hypothesis at least one discriminating example and one credible alternative reading. Miami's institutional prestige is stronger social evidence than the Alice band; the Alice band and fashion imagery may also fit core Three or one-to-one image. Do not assign self-preservation second without specific evidence of attention priority.
@@ -170,7 +171,7 @@ The article is not ready to pass unchanged. Its explicit Type 3-versus-Type 9 de
 
 - **ENNEAGRAM-Q2 — What exact venture does “the fashion house” mean, and what was David Beckham's role?** Proof that he founded, owned or directed a named fashion house would preserve the example; evidence that it is Victoria Beckham's venture would require removal and would slightly weaken, though not overturn, the self-authorship case. Best source: corporate filings or a contemporaneous official company announcement identifying ownership and operating role.
 
-- **ENNEAGRAM-Q3 — Does Beckham describe adapting his image to gain approval, or selecting images because he personally enjoys them?** The former would strengthen Three's identification and recognition mechanism; the latter would make several fashion examples non-discriminating. Best source: the full 2002 *Attitude* interview or another long-form first-person conversation specifically about image choices and public response.
+- **ENNEAGRAM-Q3 — Does Beckham describe adapting his image to gain approval, or selecting images because he personally enjoys them?** The former would strengthen Three's identification and recognition mechanism; the latter would make several fashion examples non-discriminating. Best source: the full 2002 _Attitude_ interview or another long-form first-person conversation specifically about image choices and public response.
 
 - **ENNEAGRAM-Q4 — Is the relational style closer to 3w2 or 3w4?** Evidence that helping, charm and accessibility are used to earn personal value would strengthen 3w2; repeated emphasis on expertise, distinction, taste and a more private professional identity would strengthen 3w4. Best source: sustained first-person material plus close collaborators' accounts, not endorsement copy or fan discussion.
 
@@ -201,4 +202,4 @@ The article is not ready to pass unchanged. Its explicit Type 3-versus-Type 9 de
 
 ## Limits of this review
 
-This is a non-dogmatic Enneagram evaluation of a public-evidence profile, not a diagnosis or a claim to know Beckham's private motives. No public source can establish a core type, wing, instinct stack or connecting-line movement. The evidence packet itself discloses that it did not directly review the Netflix footage, Beckham's memoir, Ted Beckham's autobiography, the full *Attitude* interview or private family material; this review inherits those limits. The four external sources were used only to test theory construction, not to type Beckham. I did not read any other perspective review, synthesis, editor resolution or prior grade, and I did not inspect or edit the live article.
+This is a non-dogmatic Enneagram evaluation of a public-evidence profile, not a diagnosis or a claim to know Beckham's private motives. No public source can establish a core type, wing, instinct stack or connecting-line movement. The evidence packet itself discloses that it did not directly review the Netflix footage, Beckham's memoir, Ted Beckham's autobiography, the full _Attitude_ interview or private family material; this review inherits those limits. The four external sources were used only to test theory construction, not to type Beckham. I did not read any other perspective review, synthesis, editor resolution or prior grade, and I did not inspect or edit the live article.

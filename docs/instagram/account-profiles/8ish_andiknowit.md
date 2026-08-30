@@ -33,9 +33,9 @@
 
 ## Relationship History
 
-| Date       | Surface | Topic                                                              | Post Link                                | Action   | Status | What We Said / Planned                                                     | Outcome | Source                           |
-| ---------- | ------- | ------------------------------------------------------------------ | ---------------------------------------- | -------- | ------ | --------------------------------------------------------------------------- | ------- | -------------------------------- |
-| 2026-08-07 | Collab  | 8+4 pairing post on @enneagram.life (4d, 101 likes; she commented) | https://www.instagram.com/p/Dbi-xDGmsb4/ | Reviewed | —      | No reply queued (4d, small room; 9+8 thread on same anchor is today's play) | —       | 2026-08-07_instagram-warmup-2.md |
+| Date       | Surface | Topic                                                              | Post Link                                | Action   | Status | What We Said / Planned                                                                      | Outcome | Source                           |
+| ---------- | ------- | ------------------------------------------------------------------ | ---------------------------------------- | -------- | ------ | ------------------------------------------------------------------------------------------- | ------- | -------------------------------- |
+| 2026-08-07 | Collab  | 8+4 pairing post on @enneagram.life (4d, 101 likes; she commented) | https://www.instagram.com/p/Dbi-xDGmsb4/ | Reviewed | —      | No reply queued (4d, small room; 9+8 thread on same anchor is today's play)                 | —       | 2026-08-07_instagram-warmup-2.md |
 | 2026-08-07 | Collab  | 9+8 pairing post on @enneagram.life (co-author)                    | https://www.instagram.com/p/DbtJ-atlBdO/ | Reviewed | Queued | Comment-level reply queued in that thread; she will likely see it (family cross-engagement) | Pending | 2026-08-07_instagram-warmup-2.md |
 
 ## Next Best Angles

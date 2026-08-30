@@ -1,4 +1,5 @@
 <!-- docs/growth/question-commenting/04-QUESTION-EDITORIAL-AUDIT-2026-08-13.md -->
+
 # Zero-answer question editorial audit — 2026-08-13
 
 ## Outcome

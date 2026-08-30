@@ -9,6 +9,7 @@ synthesis_available: false
 gate_status: FAILED (missing unfamiliar.md; 4.4 exit=1, 4.5 exit=1)
 resolution_status: not_a_resolution_artifact
 applied_at: 2026-08-14T23:59:28Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_190118/editor-pass-applied.md
 ---
 
 # Editor pass applied without a synthesis
@@ -26,19 +27,19 @@ raised independently**, or that **I verified first-hand**.
 
 ## Reviewer convergence
 
-| Finding | subject | fan | critic | future | enneagram | Action |
-| --- | --- | --- | --- | --- | --- | --- |
-| Streamer University "as a student" is false | R1 | R1 | B4 | B2 | C4 | **fixed** (verified first-hand) |
-| "circle has billed him exactly once" is false | R2 | R2 | B1 | B1 | - | **fixed** (subtractive) |
-| Temperament smoothed ("never as rants" / "waved off") | R3 | R3 | C1,C2 | - | R1 | **fixed** |
-| sx defined as seduction + ranked from absence | - | - | - | - | R2 | **fixed** (self-refuting internal link) |
-| FAQ asserts a cause for the four-year stay | C4b | - | C4 | - | - | **fixed** |
-| Corpus stat stale (45) | - | - | C7 | C4 | C2 | **fixed + inverted** |
-| Travel run is not a 2026 phenomenon | - | C1 | C7 | C3 | - | **fixed** |
-| Sit-down-interview qualifier missing | - | C5 | C3 | C6 | - | **fixed** (carried once) |
-| Basic-training physical detail transposed | C3 | - | C6 | - | - | **fixed** |
-| Union Square omits third-party cost | - | - | B2 | - | - | **partially fixed** (one clause; ceiling-bound) |
-| "He owned his piece of it" launders compelled act | H3 (protect) | - | B3 | - | - | **conflict, resolved below** |
+| Finding                                               | subject      | fan | critic | future | enneagram | Action                                          |
+| ----------------------------------------------------- | ------------ | --- | ------ | ------ | --------- | ----------------------------------------------- |
+| Streamer University "as a student" is false           | R1           | R1  | B4     | B2     | C4        | **fixed** (verified first-hand)                 |
+| "circle has billed him exactly once" is false         | R2           | R2  | B1     | B1     | -         | **fixed** (subtractive)                         |
+| Temperament smoothed ("never as rants" / "waved off") | R3           | R3  | C1,C2  | -      | R1        | **fixed**                                       |
+| sx defined as seduction + ranked from absence         | -            | -   | -      | -      | R2        | **fixed** (self-refuting internal link)         |
+| FAQ asserts a cause for the four-year stay            | C4b          | -   | C4     | -      | -         | **fixed**                                       |
+| Corpus stat stale (45)                                | -            | -   | C7     | C4     | C2        | **fixed + inverted**                            |
+| Travel run is not a 2026 phenomenon                   | -            | C1  | C7     | C3     | -         | **fixed**                                       |
+| Sit-down-interview qualifier missing                  | -            | C5  | C3     | C6     | -         | **fixed** (carried once)                        |
+| Basic-training physical detail transposed             | C3           | -   | C6     | -      | -         | **fixed**                                       |
+| Union Square omits third-party cost                   | -            | -   | B2     | -      | -         | **partially fixed** (one clause; ceiling-bound) |
+| "He owned his piece of it" launders compelled act     | H3 (protect) | -   | B3     | -      | -         | **conflict, resolved below**                    |
 
 ## First-hand verification
 

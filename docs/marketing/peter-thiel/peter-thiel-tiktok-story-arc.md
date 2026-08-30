@@ -1,4 +1,4 @@
-<!-- peter-thiel-tiktok-story-arc.md -->
+<!-- docs/marketing/peter-thiel/peter-thiel-tiktok-story-arc.md -->
 
 # Peter Thiel TikTok — Story Arc + Bare-Bones Slide Spine
 

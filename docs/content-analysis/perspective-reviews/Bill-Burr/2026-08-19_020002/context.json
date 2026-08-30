@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "subject": "Bill-Burr",
-  "draft_path": "src/blog/people/drafts/Bill-Burr.md",
-  "review_dir": "docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002",
-  "draft_sha256": "c279d288f1395a0b96ec6c208186b19926202e563247907ae81fbfd50b37a55c",
-  "reader_visible_content_sha256": "ebc99004202c80202144c1ce1b0b8cbe5b8a9a45d053b399b67c77cfbb86ce36",
-  "created_at": "2026-08-19T06:55:49.911Z"
+	"schema_version": 1,
+	"subject": "Bill-Burr",
+	"draft_path": "src/blog/people/drafts/Bill-Burr.md",
+	"review_dir": "docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002",
+	"draft_sha256": "c279d288f1395a0b96ec6c208186b19926202e563247907ae81fbfd50b37a55c",
+	"reader_visible_content_sha256": "ebc99004202c80202144c1ce1b0b8cbe5b8a9a45d053b399b67c77cfbb86ce36",
+	"created_at": "2026-08-19T06:55:49.911Z"
 }

@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 2
 concerns: 9
 reviewed_at: 2026-08-19T07:20:12Z
+path: docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -40,7 +41,7 @@ treating typologies as interchangeable labels.
 
 Both are repairs of a sentence or two. Underneath them the case is strong, and the strongest
 version of it is one the draft has not quite claimed: the site's own vocabulary for what Bill Burr
-is doing is *counterphobic Six*, and the word appears exactly once in 4,500 words, in the Rabbit
+is doing is _counterphobic Six_, and the word appears exactly once in 4,500 words, in the Rabbit
 Hole, describing a category rather than the man.
 
 ## What landed
@@ -63,7 +64,7 @@ supporting clause needs work — see ENN-R1 — but the move itself is the page'
 > already decided the verdict is coming and cannot afford to be caught standing still."
 
 This is a motivational read, not a behavioral one, and it discriminates: it distinguishes the
-Eight's post-hoc indifference from the Six's pre-emptive defense using *timing* rather than
+Eight's post-hoc indifference from the Six's pre-emptive defense using _timing_ rather than
 intensity. It is also person-first and jargon-free. Preserve exactly.
 
 **ENN-H3 — The Ronda Rousey half-point.** (§6)
@@ -90,7 +91,7 @@ a trait list. The wing is correctly framed as shading delivery, not driving the 
 
 > "He accepts that some of it does not come out, and commits to the work anyway."
 
-9takes' Type 6 page defines integration as "right action despite fear," explicitly *not* the
+9takes' Type 6 page defines integration as "right action despite fear," explicitly _not_ the
 elimination of fear. The draft's pairing of the inner-peace line with the NPR "I can't fix it …
 my job is that that stuff dies with me" is that definition instantiated in his own words. Most
 celebrity typings render growth as a redemption arc; this one renders it as a floor. Preserve.
@@ -110,7 +111,7 @@ lens produces on this subject.
 **The three-tellings structure has a weak third leg exactly where the type lives.** (§1, lines
 180–186) The argument is "Three tellings. One motive. Safety." Tellings one and two contain the
 safety clause — "so that no one would hurt me," "stop beating the shit out of me." Telling three,
-as quoted from *Drop Dead Years*, is:
+as quoted from _Drop Dead Years_, is:
 
 > "because that was the easiest way to walk into a room full of a bunch of people that I didn't
 > know and make everybody like me."
@@ -122,7 +123,7 @@ holds the fix.
 
 **The strongest evidence is not the evidence the draft leans on.** The Riyadh pair is rhetorically
 vivid but interpretively contested (ENN-R1). The 1992 year-long runway and the 2015 helicopter
-license are structurally better: both are *decisions*, not narrations; neither has an audience or a
+license are structurally better: both are _decisions_, not narrations; neither has an audience or a
 punchline at the moment it was made; and the helicopter is independently corroborated by a 2015
 newspaper interview ("the ultimate 'F--- this, I'm out'"), so it is not a podcast riff. The draft
 has both and frames neither as a discriminator.
@@ -189,7 +190,7 @@ next to a segment about garage doors."
 **Trust problem.** This pair is the article's designated Six-vs-Eight discriminator — the reason a
 reader should accept fear as the engine rather than the Type 8 reading the draft itself calls
 "real." The packet's verbatim transcript of MMP 8-10-26 shows the dry-mouth material embedded in a
-run of *favorite international gigs* (Saudi Arabia, Italy, Germany, Budapest), introduced with
+run of _favorite international gigs_ (Saudi Arabia, Italy, Germany, Budapest), introduced with
 "It's like one of my top three gigs of all [ __ ] time" and closed with "that one was a great one."
 The draft carries one hedge from that episode ("he still calls the criticism 'false flag outrage'")
 but omits the triumph framing, which is the part that changes what kind of utterance this is. A
@@ -207,12 +208,13 @@ medium."
 transcript, YouTube `8NYGbY4Tmkc`.
 
 **Minimum viable repair.** Two moves, both swap-shaped so they respect the zero word headroom:
+
 1. Add the triumph framing to the table cell or the paragraph beneath it — six words will do:
-   he calls it *one of his top three gigs of all time*. Then argue through it rather than around
+   he calls it _one of his top three gigs of all time_. Then argue through it rather than around
    it: the fear and the triumph coexisting is itself the counterphobic signature, and that is a
    stronger claim than the one currently made.
 2. Replace "with nobody to perform invulnerability for" / "when nobody is grading him" with a claim
-   about *register* rather than *audience* — the version he gives when he is not being asked to
+   about _register_ rather than _audience_ — the version he gives when he is not being asked to
    defend it. Fund the words by cutting the redundant "so this is no confession and no retraction,"
    which the repaired passage makes self-evident.
 
@@ -240,7 +242,7 @@ sentence asserting that Burr has no audience or no incentive on his own podcast.
    his Enneagram type?" Presenting them as one of three ways a typing question "splits" tells an
    Enneagram-literate reader that the writer treats typologies as interchangeable labels — on a
    site whose entire product is this one system.
-2. **The split is backwards.** Per the packet, Boo and So Syncd *each* carry both an MBTI type
+2. **The split is backwards.** Per the packet, Boo and So Syncd _each_ carry both an MBTI type
    (ISTP) and an Enneagram type (6w7). So the only two sources here that state an Enneagram type
    state the draft's own answer. The claim "this typing has competition" is, as to Enneagram
    sources, unsupported — the record shows agreement, not contest.
@@ -302,7 +304,7 @@ Burr is counterphobic in public and phobic in private, citing one example of eac
 
 **Location.** Rabbit Hole, line 360.
 **Problem.** "Self-preservation dominant, social secondary, and the evidence is unusually concrete
-for a subtype call." The sp evidence *is* canon-consistent — 9takes' subtypes page describes SP 6
+for a subtype call." The sp evidence _is_ canon-consistent — 9takes' subtypes page describes SP 6
 as people who "keep emergency kits, double-check locks, and plan for worst-case scenarios," which
 is the helicopter, the no-debt rule and the avoided MRI exactly. That part is right and should
 stay. The problem is the confidence and the stacking. The same canon page describes SX 6 as
@@ -325,12 +327,12 @@ sp dominance, and no longer describes its own evidence as unusually concrete.
 ### ENN-C3 — Repair the third telling, or stop calling it a third telling
 
 **Location.** §1, lines 184–186.
-**Problem.** As quoted, the *Drop Dead Years* soliloquy contains no safety clause, so "Three
+**Problem.** As quoted, the _Drop Dead Years_ soliloquy contains no safety clause, so "Three
 tellings. One motive. Safety." rests on two. The packet also flags this quote as second-hand
 (CLM-04): it was verified through reviews, not against the special's audio.
 **Repair, in order of preference.** (a) Use the stronger line multiple independent reviews carry
 from the same soliloquy — "where's the place I have the least chance of being hurt?" — which is a
-*strategy* statement and far more type-discriminating than "make everybody like me"; attribute it
+_strategy_ statement and far more type-discriminating than "make everybody like me"; attribute it
 carefully, since it too is review-sourced. (b) If (a) cannot be sourced to the writer's
 satisfaction, substitute the Ferriss #265 line, which is verbatim-verified and carries the clause:
 "I thought I'm going to get on stage, show people that I'm a funny guy, and people will stop
@@ -366,8 +368,7 @@ corpus in the same sentence that draws it.
 
 **Location.** §1, line 192: "Someone operating from genuine invulnerability does not spend sixteen
 years wincing at it."
-**Problem.** "Sixteen years" counts 2006 → 2022, which requires the Ferriss #602 interview to be
-2022. The packet (CLM-03) shows the Ferriss page states the interview is from his 2017 *Fear{less}*
+**Problem.** "Sixteen years" counts 2006 → 2022, which requires the Ferriss #602 interview to be 2022. The packet (CLM-03) shows the Ferriss page states the interview is from his 2017 _Fear{less}_
 show, transcript published 2022-06-25 — and the draft itself dates the same episode 2017 elsewhere
 ("Five years earlier, to Tim Ferriss"). On the 2017 reading the correct figure is eleven years.
 Either dating convention is defensible; using both in one article is not, and here the
@@ -388,7 +389,7 @@ and any duration computed from it matches that date.
 **Location.** TL;DR accordion, bullet 1, under the heading "Why Bill Burr is an Enneagram Type 6":
 "**The driveway:** at four, dressed as a gunslinger, disarmed before he reached the sidewalk."
 **Problem.** Being disarmed by bigger kids is not evidence of a type. Every type has a driveway.
-The body is careful about this — it argues from the *strategy* he built (appeasement, the runway,
+The body is careful about this — it argues from the _strategy_ he built (appeasement, the runway,
 the exit) rather than from the injury — but the summary a skimmer reads leads with the injury,
 which is the exact move that gives Enneagram writing its reputation for retrofitting childhood
 wounds to a number. The packet also notes Burr's own de-escalation of that memory ("But it wasn't
@@ -435,10 +436,10 @@ describes MMP as a weekly one-hour show). The detail is doing work — it is the
 **Location.** §1, line 188: "Type 6 runs on the management of fear."
 **Problem.** True but under-specified, and the under-specification costs the article its sharpest
 distinction. Fear of being hurt is universal; it does not pick a type out of nine. The Six's fear
-is specifically about being *without support* — no one reliable at your back — which is why the
+is specifically about being _without support_ — no one reliable at your back — which is why the
 type organizes around trust, alliance and who can be relied on. The draft's own best evidence is
 alliance-shaped and it reads it as harm-shaped. Its load-bearing quotation is "make them like me
-**so that no one would hurt me**" — safety obtained by *manufacturing allies*, not by escape. Add
+**so that no one would hurt me**" — safety obtained by _manufacturing allies_, not by escape. Add
 the club where he finally "fit in" and called it going home; the wife who is "publicly on his side"
 every time the internet comes for him, which the draft itself glosses as "a man whose operating
 system is the question of who stays when it goes wrong"; All Things Comedy; the friend whose push
@@ -453,39 +454,39 @@ that distinguishes Six from every other type — which also makes ENN-C2's prote
 asset instead of a loose end.
 **Confidence.** Medium-high. This is a refinement of a correct call, not a correction of a wrong
 one.
-**Acceptance test.** The article states, once, what the Six is afraid of *being without* — not only
+**Acceptance test.** The article states, once, what the Six is afraid of _being without_ — not only
 what he is afraid of happening — and at least one existing exhibit is read through it.
 
 ## Follow-on questions
 
-**ENN-Q1 — Does the *Drop Dead Years* soliloquy contain a safety clause in its own audio?**
+**ENN-Q1 — Does the _Drop Dead Years_ soliloquy contain a safety clause in its own audio?**
 The article's three-telling structure depends on it (ENN-C3), and every rendering in the chain is
-review-sourced. *What would change:* if the special says "where's the place I have the least chance
+review-sourced. _What would change:_ if the special says "where's the place I have the least chance
 of being hurt?" in or near the quoted passage, the third leg becomes the strongest of the three and
 ENN-C3 closes entirely; if the soliloquy really is only "make everybody like me," the structure
-should be recast as two tellings plus a restatement. *Best source:* the special itself on Hulu,
+should be recast as two tellings plus a restatement. _Best source:_ the special itself on Hulu,
 first three minutes — the only unwatched primary source in the chain.
 
 **ENN-Q2 — Is there any instance of Burr describing pre-performance fear on a promotional
 appearance?** This is the falsifier the Rabbit Hole itself proposes, and ENN-R1 shows the current
-private/public contrast is softer than stated. *What would change:* if the fear talk appears in
+private/public contrast is softer than stated. _What would change:_ if the fear talk appears in
 promo interviews too, the "only when ungraded" framing must go entirely and the type case should
 rest on the structural behaviors (1992 runway, helicopter license) instead — which are stronger
-anyway. *Best source:* the 2025 *Drop Dead Years* press run and the 2026 *Social Reckoning* press
+anyway. _Best source:_ the 2025 _Drop Dead Years_ press run and the 2026 _Social Reckoning_ press
 cycle once it starts.
 
 **ENN-Q3 — What did Burr say about the Riyadh fear at the time, not ten months later?**
-Both current accounts are retrospective. *What would change:* a contemporaneous September/October
+Both current accounts are retrospective. _What would change:_ a contemporaneous September/October
 2025 statement mentioning nerves would convert the register question from unresolved to settled and
-would materially strengthen the discriminator ENN-R1 currently weakens. *Best source:* MMP episodes
+would materially strengthen the discriminator ENN-R1 currently weakens. _Best source:_ MMP episodes
 from late September through October 2025, which are indexed and grep-able by the same method the
 packet used for 8-10-26.
 
-**ENN-Q4 — Does Burr's own account of the twelve minutes' *duration* exist anywhere?**
+**ENN-Q4 — Does Burr's own account of the twelve minutes' _duration_ exist anywhere?**
 The Rabbit Hole concedes stamina as unexplained by the type. If he has ever described what kept him
 up there — momentum, spite, fear of stopping — it would either close the concession or confirm it.
-*What would change:* a first-person account of the sustaining mechanism would let the article
-explain its most famous exhibit instead of setting it aside. *Best source:* the full Bertcast
+_What would change:_ a first-person account of the sustaining mechanism would let the article
+explain its most famous exhibit instead of setting it aside. _Best source:_ the full Bertcast
 episode (bounded at ≤2017-11-30 by PhillyVoice), which the chain has only ever read through
 secondary reporting.
 
@@ -517,14 +518,14 @@ Shared packet read in full before any role-specific research, per protocol. All 
 were run against 9takes' own canon rather than external theory sources, since the draft cites
 internal material as its authority and internal consistency is the standard that applies.
 
-| # | Question | Source consulted | What it decided |
-| --- | --- | --- | --- |
-| 1 | Does the 9takes Type 6 page actually draw the Six/Eight line the Rabbit Hole attributes to it, and do the three internal links resolve? | `src/blog/enneagram/enneagram-type-6.md` (line 498; published: true), `enneagram-wings-complete-guide.md`, `enneagram-instinctual-subtypes.md` | Citation **verified** — the page says "Eights feel inherently powerful. Counterphobic Sixes overcompensate for feeling inherently vulnerable." All three links are live published routes. Became preserve item 8. Also surfaced the counterphobic section (lines 201–226), which became ENN-C1, the highest-value improvement in this review. |
-| 2 | Does 9takes canon characterize SP 6 in a way that supports or contradicts the draft's survivalist evidence? | `enneagram-instinctual-subtypes.md` lines 217–241 | **Supports it** — SP 6 is described as emergency kits, double-checked locks, worst-case planning. Killed a finding I had drafted against the sp call. But the SX 6 ("fiercely protective of loved ones") and SO 6 ("devoted to teams, clubs") descriptions revealed the stacking tension that became ENN-C2. |
-| 3 | Are the arrow directions and the wing contrast canon-accurate? | `enneagram-connecting-lines.md` (lines 180, 186), `enneagram-type-6.md` (lines 123–128, 420–438), `enneagram-wings-complete-guide.md` (lines 107–108, 374–384) | All **verified**. 6→3 under stress ("act certain because uncertainty feels dangerous" ≈ the draft's "performed certainty"); 6→9 in growth; "right action despite fear" as integration; 6w5 "manage anxiety by researching it away" ≈ the draft's near-identical line. Produced hits ENN-H4 and ENN-H5, and confirmed there is **no theory error** in the arrows/wing material. |
-| 4 | Which external typology sources actually say what, and is the "split three ways" claim accurate? | Packet CLM-05 and ledger S-39/S-40/S-41 (reused — the packet already resolved this; no independent search run) | Became blocker **ENN-R2**. Boo and So Syncd each carry both ISTP and 6w7; SunSigns and personalitylist are absent from the verified ledger. |
-| 5 | Does the private Riyadh passage support "the version he gives when nobody is grading him"? | Packet CLM-12 and the S-07 verbatim transcript block (reused — the packet re-fetched and grepped the episode on 2026-08-19; re-fetching would add nothing) | Became blocker **ENN-R1**. The "top three gigs of all time" framing and the favorite-gigs run are verified and omitted from the draft. |
-| 6 | Is "counterphobic" applied to Burr anywhere in the draft, and are centers/defense/harmonic-group used? | Frozen draft, full-text grep | "counter-phobic" appears **once** (line 370), generically. No centers, no projection, no Reactive-group language anywhere. Became ENN-C1 and the "What I expected" section. |
+| #   | Question                                                                                                                                | Source consulted                                                                                                                                               | What it decided                                                                                                                                                                                                                                                                                                                                                                |
+| --- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | Does the 9takes Type 6 page actually draw the Six/Eight line the Rabbit Hole attributes to it, and do the three internal links resolve? | `src/blog/enneagram/enneagram-type-6.md` (line 498; published: true), `enneagram-wings-complete-guide.md`, `enneagram-instinctual-subtypes.md`                 | Citation **verified** — the page says "Eights feel inherently powerful. Counterphobic Sixes overcompensate for feeling inherently vulnerable." All three links are live published routes. Became preserve item 8. Also surfaced the counterphobic section (lines 201–226), which became ENN-C1, the highest-value improvement in this review.                                  |
+| 2   | Does 9takes canon characterize SP 6 in a way that supports or contradicts the draft's survivalist evidence?                             | `enneagram-instinctual-subtypes.md` lines 217–241                                                                                                              | **Supports it** — SP 6 is described as emergency kits, double-checked locks, worst-case planning. Killed a finding I had drafted against the sp call. But the SX 6 ("fiercely protective of loved ones") and SO 6 ("devoted to teams, clubs") descriptions revealed the stacking tension that became ENN-C2.                                                                   |
+| 3   | Are the arrow directions and the wing contrast canon-accurate?                                                                          | `enneagram-connecting-lines.md` (lines 180, 186), `enneagram-type-6.md` (lines 123–128, 420–438), `enneagram-wings-complete-guide.md` (lines 107–108, 374–384) | All **verified**. 6→3 under stress ("act certain because uncertainty feels dangerous" ≈ the draft's "performed certainty"); 6→9 in growth; "right action despite fear" as integration; 6w5 "manage anxiety by researching it away" ≈ the draft's near-identical line. Produced hits ENN-H4 and ENN-H5, and confirmed there is **no theory error** in the arrows/wing material. |
+| 4   | Which external typology sources actually say what, and is the "split three ways" claim accurate?                                        | Packet CLM-05 and ledger S-39/S-40/S-41 (reused — the packet already resolved this; no independent search run)                                                 | Became blocker **ENN-R2**. Boo and So Syncd each carry both ISTP and 6w7; SunSigns and personalitylist are absent from the verified ledger.                                                                                                                                                                                                                                    |
+| 5   | Does the private Riyadh passage support "the version he gives when nobody is grading him"?                                              | Packet CLM-12 and the S-07 verbatim transcript block (reused — the packet re-fetched and grepped the episode on 2026-08-19; re-fetching would add nothing)     | Became blocker **ENN-R1**. The "top three gigs of all time" framing and the favorite-gigs run are verified and omitted from the draft.                                                                                                                                                                                                                                         |
+| 6   | Is "counterphobic" applied to Burr anywhere in the draft, and are centers/defense/harmonic-group used?                                  | Frozen draft, full-text grep                                                                                                                                   | "counter-phobic" appears **once** (line 370), generically. No centers, no projection, no Reactive-group language anywhere. Became ENN-C1 and the "What I expected" section.                                                                                                                                                                                                    |
 
 No web research was performed. The packet answered every external-fact question this perspective
 raised (protocol point 3), and the remaining questions are ones no additional search can settle
@@ -533,16 +534,16 @@ today — they are listed as ENN-Q1 through ENN-Q4.
 ## Limits of this review
 
 - **Type attribution is not externally verifiable.** The packet says this outright and it is
-  correct. I graded the *reasoning* — whether the evidence supports the motivation claimed, whether
+  correct. I graded the _reasoning_ — whether the evidence supports the motivation claimed, whether
   the alternative is fairly treated, whether certainty matches evidence, whether the theory is used
   correctly — not whether Bill Burr is a Six. Nothing here should be read as confirming the type.
 - **I did not adjudicate facts outside the type argument.** Several packet-flagged issues
-  (*F Is for Family* seasons, "he was a normal guy" as an unsourced quotation, the "frigging"/
+  (_F Is for Family_ seasons, "he was a normal guy" as an unsourced quotation, the "frigging"/
   "freaking" rendering, the Frank Murphy speech's Tier-4 sourcing, the crisis-counselor reading of
-  *The Social Reckoning*) are real and serious but belong to the subject, critic and future lenses.
+  _The Social Reckoning_) are real and serious but belong to the subject, critic and future lenses.
   I raised the Ferriss dating only because a type-discriminating argument is computed from it.
 - **All primary evidence reached me through the packet.** I re-verified nothing against original
-  sources; I verified the *internal* theory citations directly, which is where my standpoint has
+  sources; I verified the _internal_ theory citations directly, which is where my standpoint has
   independent access.
 - **The draft is at exactly 4,500 of 4,500 words** per its own embedded notes, so every repair
   above is specified as a swap or a net-neutral rewrite. I have not re-counted; if that ceiling has

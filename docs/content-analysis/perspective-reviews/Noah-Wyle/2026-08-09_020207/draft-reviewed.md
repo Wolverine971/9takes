@@ -81,6 +81,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -339,4 +340,3 @@ Still open:
 Source audit:
 - 5 load-bearing quotes: 5 inline, 0 vague, 0 untagged. blog-lint: 0 fail, 1 warn (comparative-contrast review-only).
 -->
-

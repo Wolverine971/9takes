@@ -106,6 +106,7 @@ content_quality:
   anchor: 'Matt-Smith draft (2026-06-28, B band); exceeds it on sourcing and formula cleanliness'
   needs_review: true
   graded_at: '2026-08-23'
+path: src/blog/people/drafts/Patrick-Mahomes.md
 ---
 
 <!-- TESTIMONY LEDGER

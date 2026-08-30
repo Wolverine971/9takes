@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// scripts/generate-people-wall-email.mjs
 // Generates the reactivation-email people wall from the same curated data used
 // by /personality-analysis/map. The output is a compatibility-first JPEG: the
 // full image remains the route preview, while per-person JPEG cards assemble

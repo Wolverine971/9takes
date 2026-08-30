@@ -1,3 +1,4 @@
+-- supabase/migrations/20260812234500_comment_reply_subscriptions.sql
 -- Purpose-specific, privacy-preserving reply subscriptions for anonymous
 -- first commenters. Public clients can write only through the validated RPC;
 -- direct reads and writes remain closed by RLS.

@@ -25,6 +25,7 @@ description: |
   
   For video licensing inquiries, contact: licensing@veritone.com
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/cbs-mornings-dad-career-legacy.md
 ---
 
 # Chiefs quarterback Patrick Mahomes on being a dad, his career and his legacy

@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 6
 reviewed_at: 2026-08-15T01:21:34Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/fan.md
 ---
 
 ## Bottom-line verdict
@@ -26,7 +27,7 @@ follow.
 Trust is strained on one thing, and it is the thing a fan is uniquely positioned to catch. The
 article claims seven years of fame with no sit-down interview, repeats it in four places, and proves
 it with a source card whose ellipsis removes the exact moment where Speedy Morman names the
-exceptions on tape. One of those exceptions is Duke's Complex *Sneaker Shopping* episode, from the
+exceptions on tape. One of those exceptions is Duke's Complex _Sneaker Shopping_ episode, from the
 same publisher, nine months before the interview being quoted. I know that episode. So does anyone
 who follows him. The claim is survivable and probably still true as scoped, but as presented it looks
 like the counterevidence was edited out of the quote, and that is a bad look on the piece's most
@@ -183,7 +184,7 @@ for "What is Duke Dennis's personality type?" ("seven years of fame without a si
 interview"), and the Rabbit Hole ("seven years without a sit-down interview (2017 to 2024; Speedy
 names the exceptions on tape)").
 
-**Reader effect / trust problem.** An informed fan has seen Duke's *Sneaker Shopping* episode. When
+**Reader effect / trust problem.** An informed fan has seen Duke's _Sneaker Shopping_ episode. When
 the article's proof-of-claim card quotes Speedy with an ellipsis sitting exactly where Speedy names
 that episode, the fan does not conclude "carefully scoped claim." The fan concludes the writer cut
 the part that hurt. The single place the qualifier does appear is inside a collapsed `<details>`
@@ -202,13 +203,13 @@ primary evidence against the Type 3 reading, so the damage is not local.
 Both of the draft's fragments are verbatim Speedy, so this is elision, not fabrication. What the
 ellipsis removes is (a) Speedy's own hedge, "maybe one of your first **big** interviews," which is
 materially weaker than the article's flat claim, and (b) **two** named exceptions, a podcast
-appearance and *Sneaker Shopping*. Duke's *Sneaker Shopping* episode published **2023-05-29**
+appearance and _Sneaker Shopping_. Duke's _Sneaker Shopping_ episode published **2023-05-29**
 (Complex, filmed at Full Circle in Atlanta), nine months before the 360 sit-down and squarely inside
 the claimed seven-year gap, from the same publisher. Note this is worse than the shared packet knew:
 packet CLM-08 records one exception; the tape names two plus a hedge.
 
 **Minimum viable repair.** Extend the source-card quote through "you've done sneaker shopping on
-complex but that's it," and name *Sneaker Shopping* once in reader-visible body text. The claim then
+complex but that's it," and name _Sneaker Shopping_ once in reader-visible body text. The claim then
 stands as scoped rather than as trimmed. One sentence; no restructuring; the argument does not change.
 
 **Expected benefit.** The claim survives and gets stronger, because the writer is visibly the person
@@ -217,7 +218,7 @@ only real hostage to a fan correction in the comments.
 
 **Confidence.** High. First-party transcript plus the publisher's own episode page.
 
-**Acceptance test.** A reader who has seen Duke's Complex *Sneaker Shopping* episode can find it
+**Acceptance test.** A reader who has seen Duke's Complex _Sneaker Shopping_ episode can find it
 acknowledged in reader-visible body text, outside the collapsed Rabbit Hole, before the end of the
 stress section; and no quotation in the piece uses an ellipsis that removes a named counterexample to
 the sentence it is supporting.
@@ -236,9 +237,9 @@ emotional payoff, that the word he has said at the top of every video for a deca
 cousin's name, and disclaims it instead of stating precisely what is and is not known.
 
 **Evidence.** Packet DISP-03 / S-08. Sportskeeda, **the draft's own cited source for this beat**,
-describes the shirt as bearing the cousin's face *with the words "DeeBlock" written on it*. A public
+describes the shirt as bearing the cousin's face _with the words "DeeBlock" written on it_. A public
 source therefore does place both names on one object. What is unestablished at Tier 1 through 3 is
-only the narrower question of whether the block was *named for* him (Tier 4 only: Urban Dictionary,
+only the narrower question of whether the block was _named for_ him (Tier 4 only: Urban Dictionary,
 TikTok). "He has never addressed it" is also softly contradicted by Tier-4 clips titled "Duke
 Explaining How His Cousin Passed Away." Separately, the packet's alias list records DeeBlock as
 "neighborhood he came up on, **and a channel/brand name**," which the draft's phrasing undersells.
@@ -407,7 +408,7 @@ he does not have.
 ## Follow-on questions
 
 **FAN-Q1. Is the aunt who named him the same aunt who died in July 2025?**
-*What would change:* the entire closing movement. "Somewhere in South Carolina there's an aunt who
+_What would change:_ the entire closing movement. "Somewhere in South Carolina there's an aunt who
 knows exactly what 'Duke' means. He has had three decades to ask" reads as a graceful ending if they
 are different people and as something painful if they are not. This matters more for this perspective
 than for a general reader: the fan is exactly the person who watched the 2025-08-17 return stream,
@@ -415,21 +416,21 @@ where he attributed his month away to the arrest and to his aunt's death, and is
 likely reader to make the connection unaided. Per packet UNRES-01 this is unresolvable from the public
 record and needs a human decision, not more searching. Flagging it because the audience most exposed
 to it is mine.
-*Best source to pursue:* the full VOD or a complete transcript of the 2025-08-17 return stream, to see
+_Best source to pursue:_ the full VOD or a complete transcript of the 2025-08-17 return stream, to see
 whether he characterizes the aunt in any way that identifies or excludes her.
 
 **FAN-Q2. What is the podcast appearance Speedy references?**
-*What would change:* how tightly FAN-R1's repair can scope the claim. If the pre-2024 podcast
+_What would change:_ how tightly FAN-R1's repair can scope the claim. If the pre-2024 podcast
 appearance is a substantial sit-down, "no sit-down interview" needs more qualification than adding
-*Sneaker Shopping*; if it is a drop-in on a friend's show, the claim holds comfortably.
-*Best source to pursue:* the 360 tape names no title, so a targeted search of pre-2024 Duke Dennis
+_Sneaker Shopping_; if it is a drop-in on a friend's show, the claim holds comfortably.
+_Best source to pursue:_ the 360 tape names no title, so a targeted search of pre-2024 Duke Dennis
 podcast appearances, then the episode itself to judge format.
 
 **FAN-Q3. Has Duke ever connected DeeBlock to his cousin on stream?**
-*What would change:* FAN-C1's repair, and potentially the strongest emotional payoff available to
+_What would change:_ FAN-C1's repair, and potentially the strongest emotional payoff available to
 this article. A first-party statement would let the shades section state the connection outright
 instead of hedging it.
-*Best source to pursue:* trace the Tier-4 clips titled "Duke Explaining How His Cousin Passed Away"
+_Best source to pursue:_ trace the Tier-4 clips titled "Duke Explaining How His Cousin Passed Away"
 back to the originating stream VOD and check whether the naming question is addressed there.
 
 ## Preserve list
@@ -457,33 +458,33 @@ back to the originating stream VOD and check whether the naming question is addr
 ## Research log
 
 1. **Evidence packet** (`evidence-packet.md`, read in full before role-specific work, per protocol).
-   *Affected:* established the Sneaker Shopping exception existed (CLM-08), the DeeBlock hedge problem
+   _Affected:_ established the Sneaker Shopping exception existed (CLM-08), the DeeBlock hedge problem
    (DISP-03), the aunt hazard (UNRES-01), the professorship resolution (DISP-01), and that no
    third-party testimony exists (UNRES-02). Reused rather than re-researched wherever it answered the
    question.
 2. **`youtube-transcripts/duke-dennis-360-with-speedy-2024.md`** (S-02, first-party, repo).
-   *Question:* what exactly does Speedy say about interview scarcity, and does the draft's ellipsis
-   hide anything? *Affected:* FAN-R1, upgraded from the packet's "one exception, carried once" to
+   _Question:_ what exactly does Speedy say about interview scarcity, and does the draft's ellipsis
+   hide anything? _Affected:_ FAN-R1, upgraded from the packet's "one exception, carried once" to
    "two exceptions plus a hedge, removed from the proof card." Also confirmed the 2K material
    available and unused (FAN-C2).
-3. **`youtube-transcripts/duke-dennis-army-story-time.md`** (S-03, first-party, repo). *Question:* is
+3. **`youtube-transcripts/duke-dennis-army-story-time.md`** (S-03, first-party, repo). _Question:_ is
    "As soon as I got on that bus, I knew it was the worst decision I ever made in my life," quoted in
-   the body and the FAQ, actually on the tape? *Affected:* **no finding raised.** Verified as a
+   the body and the FAQ, actually on the tape? _Affected:_ **no finding raised.** Verified as a
    faithful reconstruction of "when I got on that bus to go to the army but I knew it was the worst
    decision I ever made in my life" plus "I already knew that I messed up as soon as I got on that
    bus." I had this queued as a possible red flag and dropped it.
 4. **Web search, Rolling Stone / Speed omission** (Sportskeeda headline article; Dexerto on X,
-   2024-08; Rolling Stone's own list post 2024-08-26). *Question:* is the "Where is Speed, bruh?" quote
-   real and locatable, given the packet has no entry for it? *Affected:* FAN-H5 and FAN-C4. Turned a
+   2024-08; Rolling Stone's own list post 2024-08-26). _Question:_ is the "Where is Speed, bruh?" quote
+   real and locatable, given the packet has no entry for it? _Affected:_ FAN-H5 and FAN-C4. Turned a
    suspected fabrication into a verified hit plus a citation gap. Direct fetch of the Sportskeeda
    article returned **HTTP 405**, matching the packet's documented access limitation, so wording came
    from search summaries corroborated across two outlets.
-5. **Web search, Complex *Sneaker Shopping*** (complex.com episode page; hiphopcanada). *Question:*
-   when did the episode Speedy names actually publish? *Affected:* FAN-R1. Established 2023-05-29,
+5. **Web search, Complex _Sneaker Shopping_** (complex.com episode page; hiphopcanada). _Question:_
+   when did the episode Speedy names actually publish? _Affected:_ FAN-R1. Established 2023-05-29,
    same publisher, nine months inside the claimed gap, which is what moves this from a scoping quibble
    to a blocker.
-6. **Web search, 2K-era career and DeeBlock brand.** *Question:* what does the origin fandom actually
-   associate with him, and is DeeBlock more than a neighborhood? *Affected:* FAN-C2 and the FAN-C1
+6. **Web search, 2K-era career and DeeBlock brand.** _Question:_ what does the origin fandom actually
+   associate with him, and is DeeBlock more than a neighborhood? _Affected:_ FAN-C2 and the FAN-C1
    framing, as **expectation evidence only**. One returned source (blessingsfusion.com) states his
    legal name incorrectly, contradicting the verified "Denzel Shaquille Dennis," so I treated the
    entire result set as unreliable for facts and used it only to characterize what the 2K audience
@@ -494,7 +495,7 @@ back to the originating stream VOD and check whether the naming question is addr
 
 - I am a fan-perspective proxy, not a member of this fandom. Where I claim "fans know this," I mean a
   reader who follows his uploads would plausibly know it, and I have kept those claims to items with
-  external corroboration (the *Sneaker Shopping* episode, the Speed callout, the 1987 bit).
+  external corroboration (the _Sneaker Shopping_ episode, the Speed callout, the 1987 bit).
 - Community discussion was used only as expectation evidence and never to establish a fact, per
   protocol. One search result set was discarded as factually unreliable and is labeled as such above.
 - I audited only the frozen snapshot, SHA verified against `context.json` and the supplied

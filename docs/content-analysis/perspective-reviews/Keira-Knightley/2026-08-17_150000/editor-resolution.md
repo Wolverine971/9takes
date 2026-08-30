@@ -10,15 +10,15 @@ path: docs/content-analysis/perspective-reviews/Keira-Knightley/2026-08-17_15000
 
 ## Resolution log
 
-| Item | Status | Resolution |
-| --- | --- | --- |
-| P0 blockers | none | No mandatory repair identified |
-| Current Netflix fact | resolved before snapshot | Removed unsupported 2026 arrival claim; official status says production with no announced release date |
-| Grade stability | resolved | Final text reads 8.6 → 8.6, delta 0.0 |
-| Length and formula gates | pass | 3,970 words, zero contrast-pair engines, zero prose em dashes |
-| Source threshold | pass | Four inline and one vague load-bearing quotations; zero untagged |
-| Same-type originality | pass | Clear; maximum unit-pair score 0.060 and no corpus-level trip |
-| Optional review ideas | deferred | Craft expansion, interior label, and instinct calibration belong to a later refresh |
+| Item                     | Status                   | Resolution                                                                                             |
+| ------------------------ | ------------------------ | ------------------------------------------------------------------------------------------------------ |
+| P0 blockers              | none                     | No mandatory repair identified                                                                         |
+| Current Netflix fact     | resolved before snapshot | Removed unsupported 2026 arrival claim; official status says production with no announced release date |
+| Grade stability          | resolved                 | Final text reads 8.6 → 8.6, delta 0.0                                                                  |
+| Length and formula gates | pass                     | 3,970 words, zero contrast-pair engines, zero prose em dashes                                          |
+| Source threshold         | pass                     | Four inline and one vague load-bearing quotations; zero untagged                                       |
+| Same-type originality    | pass                     | Clear; maximum unit-pair score 0.060 and no corpus-level trip                                          |
+| Optional review ideas    | deferred                 | Craft expansion, interior label, and instinct calibration belong to a later refresh                    |
 
 ## Protected hits checked
 

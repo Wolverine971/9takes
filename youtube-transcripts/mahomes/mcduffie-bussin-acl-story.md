@@ -30,6 +30,7 @@ description: |
   
   #BussinWithTheBoys #WillCompton #TaylorLewan
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/mcduffie-bussin-acl-story.md
 ---
 
 # Trent McDuffie Reveals Patrick Mahomes ACL Story + Chiefs Three-Peat Collapse | Bussin'

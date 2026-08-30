@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/pipeline-logs/2026-08-14_223909_Phoebe-Bridgers/manual-pipeline.md -->
+
 # Phoebe Bridgers manual blog pipeline
 
 The editorial pipeline was executed manually because `scripts/run-blog-pipeline.sh` delegates its language stages to `claude -p`, which the user explicitly prohibited. No Claude process was spawned.

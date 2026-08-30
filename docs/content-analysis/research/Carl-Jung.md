@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Carl-Jung.md -->
+
 # Carl Jung — Research Evidence File
 
 Created: 2026-08-13 (non-interactive creator run). Durable evidence file for the people pipeline.

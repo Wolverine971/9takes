@@ -1,3 +1,5 @@
+<!-- docs/security/AI-CONTENT-ACCESS-STRATEGY.md -->
+
 # 9takes AI Content Access Strategy
 
 **Owner:** 9takes  

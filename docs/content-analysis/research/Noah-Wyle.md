@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/research/Noah-Wyle.md -->
+
 # Noah Wyle — Research Evidence File
 
 Created: 2026-08-09 (blog_content_creator_people_v2, non-interactive pipeline run)

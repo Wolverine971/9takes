@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# scripts/prepare-personality-image.sh
 # Generate the full and thumbnail WebP assets for one personality analysis portrait.
 #
 # Usage:

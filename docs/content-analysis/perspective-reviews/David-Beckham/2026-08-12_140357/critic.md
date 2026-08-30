@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 4
 reviewed_at: 2026-08-12T18:27:08Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357/critic.md
 ---
 
 ## Bottom-line verdict
@@ -63,7 +64,7 @@ I also expected the article to distinguish effort from power. It does so in Miam
 - **Passage/location:** FAQ answer “the sixteen-year pursuit of a Miami club, the fashion house and the Attitude cover”; diagnosis paragraph “Nobody assigned the fashion house”; Rabbit Hole “nobody assigned him the Miami club, fashion house or Attitude cover.”
 - **Reader effect/trust problem:** A reader is told three times that a fashion house belongs among David's self-authored arenas and helps decide Type 3 over Type 9. If the intended referent is Victoria Beckham's company, the article converts a spouse's venture into evidence about David. If another venture is intended, it is unnamed.
 - **Evidence/reasoning:** Evidence packet dispute 2 and CLM-06 say the packet verifies fashion modelling, endorsements, and brand ventures, but not a David-founded or David-owned fashion house. Because the example is explicitly called deciding evidence, this is material rather than decorative.
-- **Minimum viable repair:** Delete “fashion house” in all three locations and rely on the already verified Los Angeles, Miami, *Attitude*, and Studio 99 examples, or name the exact David-owned/founded venture and add a reliable business source establishing his role.
+- **Minimum viable repair:** Delete “fashion house” in all three locations and rely on the already verified Los Angeles, Miami, _Attitude_, and Studio 99 examples, or name the exact David-owned/founded venture and add a reliable business source establishing his role.
 - **Expected benefit:** The central Type 3/Type 9 comparison will rest only on evidence actually attributable to Beckham.
 - **Confidence:** High.
 - **Acceptance test:** A full-text search finds no generic “fashion house” claim, unless each occurrence names a specific venture and the citation demonstrates David's ownership or founding role; the FAQ, diagnosis, and Rabbit Hole use the same verified example set.
@@ -138,14 +139,14 @@ I also expected the article to distinguish effort from power. It does so in Miam
 - **CRITIC-P2:** Preserve “Those are competing family accounts” and the refusal to adjudicate the Brooklyn dispute from public reporting.
 - **CRITIC-P3:** Preserve the Miami sentence refusing to invent Beckham's feelings during the delays.
 - **CRITIC-P4:** Preserve the disclosures that Studio 99 produced the series and Beckham says he lacked editorial control; revise only the excess agency built on top of them.
-- **CRITIC-P5:** Preserve the beekeeping disclosure that *Country Life* was guest-edited by Beckham and the refusal to call the hobby an escape from image-making.
+- **CRITIC-P5:** Preserve the beekeeping disclosure that _Country Life_ was guest-edited by Beckham and the refusal to call the hobby an escape from image-making.
 - **CRITIC-P6:** Preserve the ending's claims that critics owe no absolution and an adult son controls his own consent.
 
 ## Research log
 
-- **CRITIC-R1 — Shared packet, S-13 (Visit Qatar, Human Rights Watch, CNN, *Attitude*, Sky Sports/BBC), records through October 2023.** Question: did Beckham's strongest public response engage the documented structural criticism? Decision affected: supported CRITIC-H1 and CRITIC-C2. The packet showed that his response cited selected LGBTQ attendees' sense of safety and pride in participation, while leaving criminalization and labor abuses unanswered. No additional search was needed because the packet directly resolved the stated question.
+- **CRITIC-R1 — Shared packet, S-13 (Visit Qatar, Human Rights Watch, CNN, _Attitude_, Sky Sports/BBC), records through October 2023.** Question: did Beckham's strongest public response engage the documented structural criticism? Decision affected: supported CRITIC-H1 and CRITIC-C2. The packet showed that his response cited selected LGBTQ attendees' sense of safety and pride in participation, while leaving criminalization and labor abuses unanswered. No additional search was needed because the packet directly resolved the stated question.
 
-- **CRITIC-R2 — Shared packet, S-20 (Associated Press, 20 January 2026; Victoria Beckham/*Wall Street Journal* reporting, April 2026).** Question: does the draft fairly represent the strongest live family criticism and response? Decision affected: supported CRITIC-H2 and the preserve list. The sources establish competing attributed statements, not the private facts or David's motive.
+- **CRITIC-R2 — Shared packet, S-20 (Associated Press, 20 January 2026; Victoria Beckham/_Wall Street Journal_ reporting, April 2026).** Question: does the draft fairly represent the strongest live family criticism and response? Decision affected: supported CRITIC-H2 and the preserve list. The sources establish competing attributed statements, not the private facts or David's motive.
 
 - **CRITIC-R3 — Shared packet, S-05 (Studio 99, Netflix, AP and documented production research).** Question: what degree of documentary authorship is established? Decision affected: produced CRITIC-C4. The production association and Beckham's denial of editorial control are established; commissioning motive and control of the final narrative are not.
 

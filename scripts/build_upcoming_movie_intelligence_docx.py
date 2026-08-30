@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# scripts/build_upcoming_movie_intelligence_docx.py
 """Build the cited 9takes upcoming-movie intelligence DOCX."""
 
 from __future__ import annotations

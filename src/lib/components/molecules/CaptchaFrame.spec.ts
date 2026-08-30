@@ -1,3 +1,4 @@
+// src/lib/components/molecules/CaptchaFrame.spec.ts
 // @vitest-environment jsdom
 
 import { cleanup, render, screen } from '@testing-library/svelte';

@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/research/Nara-Smith.md -->
+
 # Nara Smith — Research Evidence File
 
 > Durable evidence for `/blog_perspective_research_people` and downstream perspective passes.
@@ -8,64 +10,64 @@
 
 ## 1. Identity and basic facts (evidence)
 
-| Fact | Value | Source |
-| --- | --- | --- |
-| Birth name | Nara Aziza Pellmann | Wikipedia |
-| Born | 27 September 2001, Bloemfontein, South Africa | Wikipedia |
-| Mother | Mosotho (Sotho people), South African | Wikipedia |
-| Father | German; works in finance | Wikipedia; TODAY |
-| Raised | Frankfurt, Germany, from infancy to age 18 | Wikipedia |
-| Moved to US | California, age 18 | Wikipedia |
-| Scouted | Age 14 (2015), IMG Models "We Love Your Genes" campaign | Wikipedia |
-| Met Lucky Blue Smith | Milan Fashion Week, 2019 | Wikipedia |
-| Married | February 2020, California; not a temple marriage | Wikipedia |
-| Religion | Associated with LDS Church early on; says she is "not Mormon" and not a "hardcore Mormon" | Wikipedia |
-| Children | 4 in 5 years: Rumble Honey (b. ~2020/21), Slim Easy, Whimsy Lou (b. ~2023), Fonnie/"Ponyie" (b. late Sept/Oct 2025) | Call Her Daddy 2026; People |
-| Residence | Connecticut area (treatment at Yale New Haven Children's Hospital); previously Dallas | Call Her Daddy 2026 |
-| TikTok followers | 12M+ (Forbes, July 2026); 11.8M–12M range across trackers | Forbes 2026-07-31 |
-| Instagram followers | 4M+ | Wikipedia |
-| Forbes ranking | #33, Forbes 2026 Top Creators list | Forbes |
-| Estimated net worth | ~$6M (Celebrity Net Worth, 2026 — **tabloid-grade estimate, do not treat as verified**) | Celebrity Net Worth |
-| Cookbook | *Homemade*, publication date 13 October 2026 | Call Her Daddy 2026 |
-| Film | Cast in *Tyrant*, April 2026 | Wikipedia |
-| Brand work | Marc Jacobs Mother's Day campaign (April 2025); Aritzia Sweatfleece (2024); SKIMS holiday shoot (late 2025) | Hypebae; Wikipedia; Call Her Daddy |
+| Fact                 | Value                                                                                                               | Source                             |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| Birth name           | Nara Aziza Pellmann                                                                                                 | Wikipedia                          |
+| Born                 | 27 September 2001, Bloemfontein, South Africa                                                                       | Wikipedia                          |
+| Mother               | Mosotho (Sotho people), South African                                                                               | Wikipedia                          |
+| Father               | German; works in finance                                                                                            | Wikipedia; TODAY                   |
+| Raised               | Frankfurt, Germany, from infancy to age 18                                                                          | Wikipedia                          |
+| Moved to US          | California, age 18                                                                                                  | Wikipedia                          |
+| Scouted              | Age 14 (2015), IMG Models "We Love Your Genes" campaign                                                             | Wikipedia                          |
+| Met Lucky Blue Smith | Milan Fashion Week, 2019                                                                                            | Wikipedia                          |
+| Married              | February 2020, California; not a temple marriage                                                                    | Wikipedia                          |
+| Religion             | Associated with LDS Church early on; says she is "not Mormon" and not a "hardcore Mormon"                           | Wikipedia                          |
+| Children             | 4 in 5 years: Rumble Honey (b. ~2020/21), Slim Easy, Whimsy Lou (b. ~2023), Fonnie/"Ponyie" (b. late Sept/Oct 2025) | Call Her Daddy 2026; People        |
+| Residence            | Connecticut area (treatment at Yale New Haven Children's Hospital); previously Dallas                               | Call Her Daddy 2026                |
+| TikTok followers     | 12M+ (Forbes, July 2026); 11.8M–12M range across trackers                                                           | Forbes 2026-07-31                  |
+| Instagram followers  | 4M+                                                                                                                 | Wikipedia                          |
+| Forbes ranking       | #33, Forbes 2026 Top Creators list                                                                                  | Forbes                             |
+| Estimated net worth  | ~$6M (Celebrity Net Worth, 2026 — **tabloid-grade estimate, do not treat as verified**)                             | Celebrity Net Worth                |
+| Cookbook             | _Homemade_, publication date 13 October 2026                                                                        | Call Her Daddy 2026                |
+| Film                 | Cast in _Tyrant_, April 2026                                                                                        | Wikipedia                          |
+| Brand work           | Marc Jacobs Mother's Day campaign (April 2025); Aritzia Sweatfleece (2024); SKIMS holiday shoot (late 2025)         | Hypebae; Wikipedia; Call Her Daddy |
 
 ---
 
 ## 2. Dated timeline (evidence)
 
-| Date | Event |
-| --- | --- |
-| 2001-09-27 | Born, Bloemfontein, South Africa |
-| ~2002 | Family relocates to Frankfurt, Germany |
-| 2015 | Scouted at 14 by IMG Models; begins traveling internationally for work |
-| 2019 | Moves to California; meets Lucky Blue Smith at Milan Fashion Week |
-| 2020-02 | Marries Lucky Blue Smith at 18 |
-| ~2020/21 | First child (Rumble Honey) born; Nara is 19 |
-| ~2022 | Second child (Slim Easy); autoimmune diagnosis + severe eczema flare follows |
-| Late 2023 | From-scratch TikTok content begins going viral; pregnant with third child |
-| 2024 | Viral peak; "tradwife" label attaches; Aritzia campaign; ~700% follower growth YoY |
-| 2025-04 | Marc Jacobs Mother's Day campaign |
-| 2025-07 | Jay Shetty *On Purpose* appearance — first sustained public pushback on the label |
-| 2025-08-21 | TikTok "marriage rules" video with Lucky (driving / gas / hot sauce rules) |
-| 2025-09-27/28 | Fourth child born on Nara's own birthday; severe postpartum anxiety, depersonalization |
-| ~2025-10 | Three weeks postpartum, shooting cookbook images on location |
-| ~2025-11/12 | Whimsy (2) diagnosed with an undisclosed cancer, already spread; chemo begins immediately at Yale New Haven Children's Hospital |
+| Date              | Event                                                                                                                                                                                    |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2001-09-27        | Born, Bloemfontein, South Africa                                                                                                                                                         |
+| ~2002             | Family relocates to Frankfurt, Germany                                                                                                                                                   |
+| 2015              | Scouted at 14 by IMG Models; begins traveling internationally for work                                                                                                                   |
+| 2019              | Moves to California; meets Lucky Blue Smith at Milan Fashion Week                                                                                                                        |
+| 2020-02           | Marries Lucky Blue Smith at 18                                                                                                                                                           |
+| ~2020/21          | First child (Rumble Honey) born; Nara is 19                                                                                                                                              |
+| ~2022             | Second child (Slim Easy); autoimmune diagnosis + severe eczema flare follows                                                                                                             |
+| Late 2023         | From-scratch TikTok content begins going viral; pregnant with third child                                                                                                                |
+| 2024              | Viral peak; "tradwife" label attaches; Aritzia campaign; ~700% follower growth YoY                                                                                                       |
+| 2025-04           | Marc Jacobs Mother's Day campaign                                                                                                                                                        |
+| 2025-07           | Jay Shetty _On Purpose_ appearance — first sustained public pushback on the label                                                                                                        |
+| 2025-08-21        | TikTok "marriage rules" video with Lucky (driving / gas / hot sauce rules)                                                                                                               |
+| 2025-09-27/28     | Fourth child born on Nara's own birthday; severe postpartum anxiety, depersonalization                                                                                                   |
+| ~2025-10          | Three weeks postpartum, shooting cookbook images on location                                                                                                                             |
+| ~2025-11/12       | Whimsy (2) diagnosed with an undisclosed cancer, already spread; chemo begins immediately at Yale New Haven Children's Hospital                                                          |
 | 2025-11 → 2026-07 | ~8 months of treatment; Whimsy in hospital 5 days out of roughly every 16, depending on blood counts. Nara continues posting cooking content throughout without disclosing the diagnosis |
-| 2026-04 | Cast in *Tyrant* |
-| ~2026-06/07 | Whimsy in remission "right after her birthday"; family rings the bell |
-| 2026-07-17 | Public disclosure of the diagnosis **and** the remission, in the same announcement |
-| 2026-07-29 | *Call Her Daddy* episode "Nara Smith: Stop Calling Me a Tradwife" (93 min) |
-| 2026-07-30 | Tia Levings publishes "Is Nara Smith Gaslighting Us?" |
-| 2026-07-31 | Forbes publishes "Nara Smith's 'Tradwife' Controversy, Explained" |
-| 2026-08-03 | TheGrio publishes analysis of why the debate resonates, incl. the race dimension |
-| 2026-10-13 | *Homemade* scheduled publication |
+| 2026-04           | Cast in _Tyrant_                                                                                                                                                                         |
+| ~2026-06/07       | Whimsy in remission "right after her birthday"; family rings the bell                                                                                                                    |
+| 2026-07-17        | Public disclosure of the diagnosis **and** the remission, in the same announcement                                                                                                       |
+| 2026-07-29        | _Call Her Daddy_ episode "Nara Smith: Stop Calling Me a Tradwife" (93 min)                                                                                                               |
+| 2026-07-30        | Tia Levings publishes "Is Nara Smith Gaslighting Us?"                                                                                                                                    |
+| 2026-07-31        | Forbes publishes "Nara Smith's 'Tradwife' Controversy, Explained"                                                                                                                        |
+| 2026-08-03        | TheGrio publishes analysis of why the debate resonates, incl. the race dimension                                                                                                         |
+| 2026-10-13        | _Homemade_ scheduled publication                                                                                                                                                         |
 
 ---
 
 ## 3. First-person quotations (evidence)
 
-All from *Call Her Daddy*, ep. "Nara Smith: Stop Calling Me a Tradwife," 29 July 2026, unless noted.
+All from _Call Her Daddy_, ep. "Nara Smith: Stop Calling Me a Tradwife," 29 July 2026, unless noted.
 Transcript source: YouTube video ID `pjHzLMfsf3w`; local copy pulled via `youtube-transcript-api` on 2026-08-04.
 
 > **Attribution caution:** the auto-generated YouTube transcript is unlabeled and this is a
@@ -90,7 +92,7 @@ Transcript source: YouTube video ID `pjHzLMfsf3w`; local copy pulled via `youtub
 - "There was no other option in my mind cuz if I do something, I do it."
 - "I'm a very ambitious and driven and hardworking woman to where there was no option but to film and get the video up. So, it wasn't even a conversation where I was asking for permission."
 - "Well, got to watch the kids, hun, cuz I got to film."
-- "A lot of what I do is tongue and cheek. I push buttons. I follow instincts." (from her book *Homemade*, quoted back to her by Alex Cooper)
+- "A lot of what I do is tongue and cheek. I push buttons. I follow instincts." (from her book _Homemade_, quoted back to her by Alex Cooper)
 
 ### On the tradwife label
 
@@ -187,12 +189,12 @@ Transcript source: YouTube video ID `pjHzLMfsf3w`; local copy pulled via `youtub
 
 ## 4. Named third-party testimony (evidence — feeds Gate 1)
 
-1. **Tia Levings** — author of the memoir *A Well-Trained Wife*, herself a former aspiring trad-wife influencer who had four children before 24 and a seriously ill child. Substack, "Is Nara Smith Gaslighting Us?", 30 July 2026:
+1. **Tia Levings** — author of the memoir _A Well-Trained Wife_, herself a former aspiring trad-wife influencer who had four children before 24 and a seriously ill child. Substack, "Is Nara Smith Gaslighting Us?", 30 July 2026:
    - "Intention does not negate impact."
    - "What's missing in this interview is an acknowledgment of complicity and harm."
    - "Your own content has bolstered that oppression."
    - "This gaslit interview doesn't ring true."
-2. **Alex Cooper** — host, *Call Her Daddy*, 29 July 2026, to Nara:
+2. **Alex Cooper** — host, _Call Her Daddy_, 29 July 2026, to Nara:
    - "You're also a businesswoman and you're fully aware of what you're doing and you're editing it, you're putting it together… then you're the whole package and we don't like that as a woman."
    - "It's very threatening."
 3. **Lucky Blue Smith** — husband, TikTok, 21 August 2025:
@@ -209,13 +211,15 @@ Transcript source: YouTube video ID `pjHzLMfsf3w`; local copy pulled via `youtub
 ## 5. Accomplishments, failures, controversies, counterevidence
 
 **Accomplishments**
+
 - Built a 12M-follower TikTok business she still executes solo (film, style, shoot, edit, voice).
 - #33 on Forbes' 2026 Top Creators list.
 - Marc Jacobs (2025), Aritzia (2024), SKIMS, Chanel and Burberry work.
-- Cookbook *Homemade* (Oct 2026), written and shot while postpartum and while her daughter was in treatment.
-- Film debut cast in *Tyrant* (2026).
+- Cookbook _Homemade_ (Oct 2026), written and shot while postpartum and while her daughter was in treatment.
+- Film debut cast in _Tyrant_ (2026).
 
 **Controversies and failures**
+
 - The tradwife label (2024 →), and the July 2026 backlash to her rejection of it. Accusations of retroactive rebranding once the label stopped being commercially useful.
 - Accusations of "glamorizing teen pregnancy" (married at 18, first child at 19).
 - Race dimension: as a Black woman fronting an aesthetic that historically excluded Black women, her content was read as legitimizing a movement hostile to her own interests (TheGrio, 3 Aug 2026).
@@ -223,6 +227,7 @@ Transcript source: YouTube video ID `pjHzLMfsf3w`; local copy pulled via `youtub
 - Twizzlers attempt failed.
 
 **Serious counterevidence to the "she is fully in control / not traditional" reading**
+
 - The publicly stated driving rule and Lucky's reason for it are not egalitarian, and she endorses the arrangement.
 - She says she does not touch dishes but also frames cooking for her husband's cravings as content premise.
 - She monetized the ambiguity for roughly two years before objecting to it publicly, which is the core of Levings' complicity charge.
@@ -232,17 +237,17 @@ Transcript source: YouTube video ID `pjHzLMfsf3w`; local copy pulled via `youtub
 
 ## 6. Source ledger
 
-| Source | Type | Notes |
-| --- | --- | --- |
-| *Call Her Daddy* ep. 2026-07-29 (YouTube `pjHzLMfsf3w`) | **Primary** | 93 min; full auto-transcript pulled locally. Unlabeled speakers — verify in context. |
-| Nara Smith TikTok/Instagram posts | **Primary** | Marriage-rules video 2025-08-21; remission announcement 2026-07-17 |
-| *Homemade* (cookbook, Oct 2026) | **Primary** | Not yet published; only quoted secondhand via Alex Cooper |
-| Wikipedia | Reported | Biography, dates, campaigns |
-| Forbes (DiPlacido, 2026-07-31) | Reported | Follower count, controversy summary |
-| People / E! / TODAY / Just Jared | Reported | Lucky quotes, family milestones, remission coverage |
-| Tia Levings Substack (2026-07-30) | Community/critic | Substantive named critique |
-| TheGrio (2026-08-03) | Reported | Race dimension of the debate |
-| Celebrity Net Worth | **Low confidence** | Net worth figure is an estimate; do not use as a hard stat |
+| Source                                                  | Type               | Notes                                                                                |
+| ------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------ |
+| _Call Her Daddy_ ep. 2026-07-29 (YouTube `pjHzLMfsf3w`) | **Primary**        | 93 min; full auto-transcript pulled locally. Unlabeled speakers — verify in context. |
+| Nara Smith TikTok/Instagram posts                       | **Primary**        | Marriage-rules video 2025-08-21; remission announcement 2026-07-17                   |
+| _Homemade_ (cookbook, Oct 2026)                         | **Primary**        | Not yet published; only quoted secondhand via Alex Cooper                            |
+| Wikipedia                                               | Reported           | Biography, dates, campaigns                                                          |
+| Forbes (DiPlacido, 2026-07-31)                          | Reported           | Follower count, controversy summary                                                  |
+| People / E! / TODAY / Just Jared                        | Reported           | Lucky quotes, family milestones, remission coverage                                  |
+| Tia Levings Substack (2026-07-30)                       | Community/critic   | Substantive named critique                                                           |
+| TheGrio (2026-08-03)                                    | Reported           | Race dimension of the debate                                                         |
+| Celebrity Net Worth                                     | **Low confidence** | Net worth figure is an estimate; do not use as a hard stat                           |
 
 ---
 
@@ -251,8 +256,9 @@ Transcript source: YouTube video ID `pjHzLMfsf3w`; local copy pulled via `youtub
 **Leading hypothesis: Enneagram Type 8, self-preservation dominant, 9 wing. Confidence: high.**
 
 Supporting evidence:
+
 - Gut-center certainty, twice, under maximum pressure: "there was this like weird gut feeling of being like, 'Oh, she has cancer. I know she has.'" She trusts an instant read over process, and was right.
-- Refusal to be defined. The specific injury she reports is not being disliked but being *categorized*: "we need to put women in very specific very narrow boxes in order to make sense of them."
+- Refusal to be defined. The specific injury she reports is not being disliked but being _categorized_: "we need to put women in very specific very narrow boxes in order to make sense of them."
 - She does not ask permission: "It wasn't even a conversation where I was asking for permission."
 - Refusal of the servile task: "I don't touch the dishes."
 - Direct confrontation over image repair: she read the dictionary definition on air and dismantled it clause by clause, then closed with "I'm not the issue. Something that is happening for you is the issue."
@@ -266,9 +272,10 @@ Supporting evidence:
 
 **Disconfirming evidence for Type 3:** her response to reputational damage was not adjustment but escalation — she leaned harder into the aesthetic ("I don't think a trad wife would be cooking in Schiaparelli") and detached from the audience's verdict ("let them think what they're going to think"). Threes recalibrate the image toward what the audience rewards. She refused the correction and reframed the argument as the audience's problem. She also declines the flattering read of her own postpartum photo rather than accepting the win.
 
-**Disconfirming evidence for Type 8 (name honestly):** the depth of the postpartum anxiety — depersonalization, intrusive thoughts, "did I die?" — reads more anxious-type than the textbook Eight. Two mitigations: it is a documented hormonal-crash phenomenon rather than a dispositional trait, and her *handling* of it (tell no one, keep working, present as collected) is the Eight pattern even if the symptom is not. Log as unresolved.
+**Disconfirming evidence for Type 8 (name honestly):** the depth of the postpartum anxiety — depersonalization, intrusive thoughts, "did I die?" — reads more anxious-type than the textbook Eight. Two mitigations: it is a documented hormonal-crash phenomenon rather than a dispositional trait, and her _handling_ of it (tell no one, keep working, present as collected) is the Eight pattern even if the symptom is not. Log as unresolved.
 
 **Arrows (Rabbit Hole material, not body):**
+
 - Stress 8 → 5: withdrawal, secrecy, information hoarding. "I kind of took a step back from the internet." "I kind of put myself in this little bubble." Concealing the pregnancy, the diagnosis, the anxiety.
 - Growth 8 → 2: opening after remission, seeking community in hospital corridors and on Reddit, disclosing in order to make other parents "feel less alone."
 
@@ -279,8 +286,8 @@ Supporting evidence:
 - **Whimsy's cancer type was never disclosed.** Do not name or imply one. Do not speculate about prognosis.
 - Exact diagnosis date is not public; inferred as ~Nov/Dec 2025 from her account of it following the holiday SKIMS shoot while she was nursing a newborn. Treat "about eight months of treatment" (reported) as the safer framing.
 - Birth years for Rumble Honey, Slim Easy, and Whimsy Lou are approximate; only Whimsy's age (2) and Rumble's (5) are confirmed for July 2026.
-- Her exact autoimmune diagnosis: reported as lupus in secondary coverage (News24, Dec 2024); on *Call Her Daddy* she says only "an autoimmune disease." **Prefer her own wording.**
+- Her exact autoimmune diagnosis: reported as lupus in secondary coverage (News24, Dec 2024); on _Call Her Daddy_ she says only "an autoimmune disease." **Prefer her own wording.**
 - Net worth figure is tabloid-grade. Not usable as a citation-grade stat.
 - No interview located in which she discusses being biracial in Germany or experiences of racism there. The race dimension of the tradwife debate is analyst commentary, not her own testimony. Do not put words in her mouth.
 - Her religious status is contested in the record: early association with the LDS Church, later explicit distancing. She treats the topic as an area of misreading ("the whole religious thing… you're actually misunderstanding things I put out"). Handle lightly or not at all.
-- *Homemade* is not yet published; every quote attributed to the book currently comes secondhand.
+- _Homemade_ is not yet published; every quote attributed to the book currently comes secondhand.

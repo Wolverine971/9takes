@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "subject": "Noah-Wyle",
-  "draft_path": "src/blog/people/drafts/Noah-Wyle.md",
-  "review_dir": "docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207",
-  "draft_sha256": "a5870ab69f657ac8cd2e75567849ae2d8cb17d4a0e05638ea30dda5a3e3e5894",
-  "reader_visible_content_sha256": "5a351424f1d8ce59246f78d1d581e1349c03dcc980e1e55a8c43949fc31c0bd4",
-  "created_at": "2026-08-09T07:38:12.927Z"
+	"schema_version": 1,
+	"subject": "Noah-Wyle",
+	"draft_path": "src/blog/people/drafts/Noah-Wyle.md",
+	"review_dir": "docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207",
+	"draft_sha256": "a5870ab69f657ac8cd2e75567849ae2d8cb17d4a0e05638ea30dda5a3e3e5894",
+	"reader_visible_content_sha256": "5a351424f1d8ce59246f78d1d581e1349c03dcc980e1e55a8c43949fc31c0bd4",
+	"created_at": "2026-08-09T07:38:12.927Z"
 }

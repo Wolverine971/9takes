@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/grades/Carl-Jung.review.md -->
+
 # Grade feedback: Carl Jung
 
 Grade: A (9.0), rubric v2 — regrade after revision pass (first grade 8.6 B+, delta +0.4)

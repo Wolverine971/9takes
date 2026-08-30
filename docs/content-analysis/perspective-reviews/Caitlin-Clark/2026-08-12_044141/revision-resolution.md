@@ -5,6 +5,7 @@ subject: Caitlin-Clark
 draft_sha256: 3d649ecec30f226cfeb43586cfe0c01d43596cd6f0ae8985afa21d81d36c505d
 resolution_status: complete
 resolved_at: 2026-08-12T06:35:32Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/revision-resolution.md
 ---
 
 # Perspective revision resolution — Caitlin Clark
@@ -21,14 +22,14 @@ reader-visible hash is
 
 ## Resolution log
 
-| Item | Status | Resolution |
-| --- | --- | --- |
-| Clean synthesis | complete | Deterministic synthesis gate passed: 3 P0, 10 accepted P1, 0 research-required, 12 protected hits. |
-| Reader-visible revision | complete | `editor-resolution.md` records every accepted edit. All three P0 repairs and all ten P1 actions are present in the live draft, including removal of the verifier-caught P1-03 unseen-effort gloss. |
-| First final rubric-v2 grade | complete | Independent 9.0/A; six dimensions at 9; no caps. |
-| Second final rubric-v2 grade | complete | Independent 9.0/A; six dimensions at 9; no caps. |
-| Grade stability | complete | Repository recorder stored first 9.0, regrade 9.0, delta 0.0. |
-| Post-grade reader-visible changes | none | The graders and recorder changed only grade metadata and the Caitlin Clark grade sidecar. |
+| Item                              | Status   | Resolution                                                                                                                                                                                         |
+| --------------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Clean synthesis                   | complete | Deterministic synthesis gate passed: 3 P0, 10 accepted P1, 0 research-required, 12 protected hits.                                                                                                 |
+| Reader-visible revision           | complete | `editor-resolution.md` records every accepted edit. All three P0 repairs and all ten P1 actions are present in the live draft, including removal of the verifier-caught P1-03 unseen-effort gloss. |
+| First final rubric-v2 grade       | complete | Independent 9.0/A; six dimensions at 9; no caps.                                                                                                                                                   |
+| Second final rubric-v2 grade      | complete | Independent 9.0/A; six dimensions at 9; no caps.                                                                                                                                                   |
+| Grade stability                   | complete | Repository recorder stored first 9.0, regrade 9.0, delta 0.0.                                                                                                                                      |
+| Post-grade reader-visible changes | none     | The graders and recorder changed only grade metadata and the Caitlin Clark grade sidecar.                                                                                                          |
 
 ## Protected hits checked
 

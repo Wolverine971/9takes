@@ -1,4 +1,5 @@
 <!-- docs/content-analysis/research/Zach-Bryan.md -->
+
 # Research: Zach Bryan
 
 Compiled 2026-08-30 by blog_content_creator_people_v2 (non-interactive run).

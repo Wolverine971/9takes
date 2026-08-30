@@ -10,14 +10,14 @@ path: docs/content-analysis/perspective-reviews/Machine-Gun-Kelly/2026-08-16_040
 
 ## Resolution log
 
-| Item | Status | Resolution |
-| --- | --- | --- |
-| P0 blockers | none | No mandatory repair identified |
-| Grade stability | resolved | Final text independently reads 8.7 → 8.7, delta 0.0 |
-| Length and formula gates | pass | 4,448 words, zero strong/comparative engines, zero prose em dashes |
-| Source threshold | pass | Zero untagged load-bearing quotations |
-| Intentionality caveat | preserved | Promotional confession is challenged and countertyping remains visible |
-| Current facts | scheduled maintenance | Refresh through normal evidence review after material developments |
+| Item                     | Status                | Resolution                                                             |
+| ------------------------ | --------------------- | ---------------------------------------------------------------------- |
+| P0 blockers              | none                  | No mandatory repair identified                                         |
+| Grade stability          | resolved              | Final text independently reads 8.7 → 8.7, delta 0.0                    |
+| Length and formula gates | pass                  | 4,448 words, zero strong/comparative engines, zero prose em dashes     |
+| Source threshold         | pass                  | Zero untagged load-bearing quotations                                  |
+| Intentionality caveat    | preserved             | Promotional confession is challenged and countertyping remains visible |
+| Current facts            | scheduled maintenance | Refresh through normal evidence review after material developments     |
 
 ## Protected hits checked
 

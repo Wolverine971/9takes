@@ -1,3 +1,4 @@
+<!-- src/lib/components/molecules/CaptchaFrame.svelte -->
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 

@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "subject": "Keira-Knightley",
-  "draft_path": "src/blog/people/drafts/Keira-Knightley.md",
-  "review_dir": "docs/content-analysis/perspective-reviews/Keira-Knightley/2026-08-17_150000",
-  "draft_sha256": "7f58e05ef037f6d1c7772484d8a4b5252148e1759212bd1ec4c19d978e8ba7f0",
-  "reader_visible_content_sha256": "84c4f5083285402039c81ed43ff5d89e01b05a1fbf245d1e6703053f126d3a7b",
-  "created_at": "2026-08-17T21:08:44.258Z"
+	"schema_version": 1,
+	"subject": "Keira-Knightley",
+	"draft_path": "src/blog/people/drafts/Keira-Knightley.md",
+	"review_dir": "docs/content-analysis/perspective-reviews/Keira-Knightley/2026-08-17_150000",
+	"draft_sha256": "7f58e05ef037f6d1c7772484d8a4b5252148e1759212bd1ec4c19d978e8ba7f0",
+	"reader_visible_content_sha256": "84c4f5083285402039c81ed43ff5d89e01b05a1fbf245d1e6703053f126d3a7b",
+	"created_at": "2026-08-17T21:08:44.258Z"
 }

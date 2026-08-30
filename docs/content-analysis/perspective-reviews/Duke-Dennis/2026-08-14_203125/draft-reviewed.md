@@ -112,6 +112,7 @@ content_quality:
   anchor: 'Matt-Smith draft (B band, 2026-06-28)'
   needs_review: false
   graded_at: '2026-08-14'
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -182,7 +183,7 @@ An [Enneagram Type 8](/enneagram-corner/enneagram-type-8) organizes life around 
 
 Hurt and grief do not get their own channel in a man built this way. They surface as force or they surface as composure, and from the outside those look identical.
 
-Duke said it himself, years before anyone would have called it a diagnosis. In *Duke Dennis Story Time: My Army Experience, Basic Training and Why I Left the Army*, posted to his own YouTube channel on February 6, 2018, he kept circling one sentence. "The army wasn't for me because I don't like being told what to do. Being told when to eat, sleep, when to go to work... I just had bigger plans for myself." Then he pushed it past the military entirely: "I don't even like my girlfriend telling me what to do." "I just don't like people telling me what to do."
+Duke said it himself, years before anyone would have called it a diagnosis. In _Duke Dennis Story Time: My Army Experience, Basic Training and Why I Left the Army_, posted to his own YouTube channel on February 6, 2018, he kept circling one sentence. "The army wasn't for me because I don't like being told what to do. Being told when to eat, sleep, when to go to work... I just had bigger plans for myself." Then he pushed it past the military entirely: "I don't even like my girlfriend telling me what to do." "I just don't like people telling me what to do."
 
 Three repetitions in one story time. In the same 2018 video, he described discharge in escape vocabulary: "It was the best feeling of my life. Being free, it felt like I got out of jail or something."
 
@@ -308,7 +309,7 @@ Money he never withheld. It went out before it went anywhere near him. His first
 
 ### How old is Duke Dennis?
 
-He was born February 26, 1994, in Greenville, which makes him 32 and the oldest man in the AMP house. In March 2026 he posted a video to his own channel titled *I Turned 32*, which is its own flat correction to the 1987 birth year the internet keeps printing. The age is where the Unc jokes come from. Turning 30 produced no crisis at all: "I'm just happy to make it, because not everybody do."
+He was born February 26, 1994, in Greenville, which makes him 32 and the oldest man in the AMP house. In March 2026 he posted a video to his own channel titled _I Turned 32_, which is its own flat correction to the 1987 birth year the internet keeps printing. The age is where the Unc jokes come from. Turning 30 produced no crisis at all: "I'm just happy to make it, because not everybody do."
 
 The other half of the Unc job gets no jokes. He watched a younger man in that house become the biggest streamer alive, and he is still the one who says out loud that nobody else gets in.
 

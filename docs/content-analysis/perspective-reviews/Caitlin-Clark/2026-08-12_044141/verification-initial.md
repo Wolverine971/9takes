@@ -8,6 +8,7 @@ verification_status: pass
 open_p0: 0
 protected_hit_regressions: 0
 verified_at: 2026-08-12T06:30:00Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/verification-initial.md
 ---
 
 ## Verification verdict
@@ -21,14 +22,17 @@ All three P0 items resolve under the amended synthesis's own re-adjudication. P0
 ## P0 resolution check
 
 **P0-01 — Invented first-person interiority, re-adjudicated under the binding H2 4 constraint.** RESOLVED.
+
 - H2 4 (box score, lines 279–281): unchanged from `draft-reviewed.md` — confirmed by direct diff against the frozen snapshot. Current text: `The imagined tape session sounds like this:` immediately followed (one blank line, no intervening prose) by `<p class="inner-thought">Forty-five, and it still came down to me at the line with seventeen seconds left...</p>`. This is exactly what the amended synthesis's acceptance test requires: "The H2 4 `inner-thought` block remains, immediately preceded verbatim by 'The imagined tape session sounds like this:' — its unchanged presence satisfies this item; it is not an open item." Confirmed satisfied.
 - H2 8 (hotel room, lines 379–382): resolved as in the prior verification. The invented block is gone; current text reads "She has never said what the night before Game 5 sounded like in her own head. Months later, her account to ESPN still could not get through the sentence cleanly," followed directly by the real, standing-alone ESPN block quote. No invented first-person text precedes it.
 - No new unsourced factual assertion was introduced by either half of this repair: the H2 8 replacement sentence is a plain acknowledgment of absence, not a new claim, and the H2 4 passage is unchanged text already covered by the original review cycle's sourcing determination.
 
 **P0-02 — Composite quote "a blessing that woke a monster."** RESOLVED.
+
 - Current text (line 254): "She never conceded the larger point. She told the same magazine she knew she was good enough for that roster and called the omission a blessing: it fueled her and gave her a break she needed. TIME also reported that she told Fever coach Christie Sides the snub 'woke a monster.'" The two TIME-sourced remarks are split exactly as the minimum repair specified; no sentence attributes them to Clark as one continuous utterance.
 
 **P0-03 — McNutt's hedge restored.** RESOLVED.
+
 - Current text (line 337): "...ESPN analyst Monica McNutt said there was 'room for a little bit more accountability and self-awareness' from Clark about her role in 'the larger sisterhood, if she sees it that way,' in the WNBA." The conditional is restored verbatim and McNutt is identified as an ESPN analyst (also satisfies P1-02).
 
 ## Accepted improvements check

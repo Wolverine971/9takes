@@ -60,13 +60,13 @@ citations:
   - 'https://en.wikipedia.org/wiki/Machine_Gun_Kelly_(musician)'
 faqs:
   - question: "What is Machine Gun Kelly's personality type?"
-    answer: "Machine Gun Kelly is an Enneagram Type 4, the Individualist, most likely a 4w3. The tell is not the sad songs, it is what a win does to him: a positive review of his first number one album made him angry, because catchy meant somebody had missed the point. He has said out loud that he ruins his own life before every album cycle, and the seven studio records are named after the condition rather than the recovery. Type 3 is the serious alternative, and the December 2023 blackout tattoo breaks it. An Achiever does not pay for seventy-eight hours of pain to erase the visual identity that made him famous."
+    answer: 'Machine Gun Kelly is an Enneagram Type 4, the Individualist, most likely a 4w3. The tell is not the sad songs, it is what a win does to him: a positive review of his first number one album made him angry, because catchy meant somebody had missed the point. He has said out loud that he ruins his own life before every album cycle, and the seven studio records are named after the condition rather than the recovery. Type 3 is the serious alternative, and the December 2023 blackout tattoo breaks it. An Achiever does not pay for seventy-eight hours of pain to erase the visual identity that made him famous.'
     anchor: 'what-is-machine-gun-kellys-personality-type'
   - question: 'Why did Machine Gun Kelly go to rehab?'
     answer: "He spent late November, December and New Year's of 2024 in a facility with no phone, weeks after separating from Megan Fox and with a daughter due in March. He described it on the New York Times Popcast in August 2025 and reported from inside it on track twelve of Lost Americana: 'Wrote this in room three, spending Christmas in rehabilitation.' Jelly Roll drove out on weekends and had lunch with him. He came home on January 6, 2025, started a water fast, and four days later stood at a neighbor's house watching the Palisades fire decide what he owned."
     anchor: 'room-three-what-happened-to-machine-gun-kelly-in-rehab'
   - question: 'Why do people call Machine Gun Kelly a sellout?'
-    answer: "Because the sequence looks damning: Hotel Diablo underperformed, the rap career plateaued, he picked up a guitar, and the next record went to number one on a pop-punk nostalgia wave. Corey Taylor of Slipknot said it out loud in February 2021, and MGK printed the insult on his next album cover. The sequence stops explaining him at the point where it worked. He left the genre after two number ones, spent two years on a follow-up, decided he could not stand it, and deleted the masters. Chart-chasers do not delete two years of finished work."
+    answer: 'Because the sequence looks damning: Hotel Diablo underperformed, the rap career plateaued, he picked up a guitar, and the next record went to number one on a pop-punk nostalgia wave. Corey Taylor of Slipknot said it out loud in February 2021, and MGK printed the insult on his next album cover. The sequence stops explaining him at the point where it worked. He left the genre after two number ones, spent two years on a follow-up, decided he could not stand it, and deleted the masters. Chart-chasers do not delete two years of finished work.'
     anchor: 'why-people-call-machine-gun-kelly-a-sellout'
   - question: 'What happened between Machine Gun Kelly and Megan Fox?'
     answer: "They met on a film set in early 2020 and Fox described the arrangement in Nylon that November, in month eight: 'he looks to me to avoid his own self destructive tendencies... on his own and left to his own devices I don't know how much interest he has in caring for himself.' She then worked that job for four more years, through his father's death, the paranoia, and the night he put a shotgun in his mouth with her on the phone. In November 2023 she disclosed a miscarriage in her poetry collection. They separated at the end of 2024. Their daughter Saga Blade was born March 27, 2025."
@@ -86,7 +86,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Machine-Gun-Kelly.md
+path: docs/content-analysis/perspective-reviews/Machine-Gun-Kelly/2026-08-16_040000/draft-reviewed.md
 content_quality:
   hook: 9
   enneagram: 9
@@ -256,15 +256,15 @@ Most artists name a record after a feeling they have moved past. Read his seven 
 
 <div class="scroll-table">
 
-| Album                  | Year | What the title admits                                                       |
-| ---------------------- | ---- | --------------------------------------------------------------------------- |
-| Lace Up                | 2012 | A promise to the outcasts, made by one                                      |
-| General Admission      | 2015 | The cheapest ticket in the building                                         |
-| Bloom                  | 2017 | Named for the part that has not happened yet                                |
-| Hotel Diablo           | 2019 | He booked a room in hell and printed the address                            |
-| Tickets to My Downfall | 2020 | He sold you a seat to watch him lose                                        |
-| Mainstream Sellout     | 2022 | He printed the insult on the cover before the critics could reach for it    |
-| Lost Americana         | 2025 | Even the reinvention gets filed under lost                                  |
+| Album                  | Year | What the title admits                                                    |
+| ---------------------- | ---- | ------------------------------------------------------------------------ |
+| Lace Up                | 2012 | A promise to the outcasts, made by one                                   |
+| General Admission      | 2015 | The cheapest ticket in the building                                      |
+| Bloom                  | 2017 | Named for the part that has not happened yet                             |
+| Hotel Diablo           | 2019 | He booked a room in hell and printed the address                         |
+| Tickets to My Downfall | 2020 | He sold you a seat to watch him lose                                     |
+| Mainstream Sellout     | 2022 | He printed the insult on the cover before the critics could reach for it |
+| Lost Americana         | 2025 | Even the reinvention gets filed under lost                               |
 
 </div>
 

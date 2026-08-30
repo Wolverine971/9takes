@@ -108,6 +108,7 @@ content_quality:
   anchor: 'Matt-Smith draft (2026-06-28) — B band'
   needs_review: false
   graded_at: '2026-08-04'
+path: src/blog/people/drafts/Nara-Smith.md
 ---
 
 <!-- TESTIMONY LEDGER

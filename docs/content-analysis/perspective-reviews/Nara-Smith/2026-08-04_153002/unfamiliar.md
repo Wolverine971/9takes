@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 2
 concerns: 9
 reviewed_at: 2026-08-04T20:16:04Z
+path: docs/content-analysis/perspective-reviews/Nara-Smith/2026-08-04_153002/unfamiliar.md
 ---
 
 ## Bottom-line verdict
@@ -97,7 +98,7 @@ I did not expect and do not want more biography. The article is right not to be 
 
 **Reader effect.** This is the one moment where the article shows me it went outside the single podcast. As a reader assessing how well-reported the piece is, that mattered to me — the density of "Call Her Daddy" stamps had already made me wonder how much rested on one sitting. If I click the Forbes link and find a controversy explainer that re-reports the same episode, the article has overstated its own reporting to me.
 
-**Evidence.** Packet CLM-06, "[DISPUTED / CONFIRMED MISATTRIBUTION]": "Forbes did **not** interview her. Dani Di Placido's 31 July 2026 piece is a controversy explainer that **re-reports** her comments from *Call Her Daddy*." The quote itself is real and correctly worded.
+**Evidence.** Packet CLM-06, "[DISPUTED / CONFIRMED MISATTRIBUTION]": "Forbes did **not** interview her. Dani Di Placido's 31 July 2026 piece is a controversy explainer that **re-reports** her comments from _Call Her Daddy_." The quote itself is real and correctly worded.
 
 **Minimum viable repair.** Change "She gave Forbes the feeling version on 31 July 2026" to "Forbes, re-reporting the episode on 31 July 2026, caught the feeling version" — or attribute it to Cooper directly. Two words to eight words.
 
@@ -105,7 +106,7 @@ I did not expect and do not want more biography. The article is right not to be 
 
 **Confidence.** High — resolved in the packet, not inferred.
 
-**Acceptance test.** No sentence in the body states or implies that any outlet other than *Call Her Daddy*, *People*, and her own posts obtained original comment from Nara Smith.
+**Acceptance test.** No sentence in the body states or implies that any outlet other than _Call Her Daddy_, _People_, and her own posts obtained original comment from Nara Smith.
 
 ### UNFAM-C1 — The political charge of "tradwife" is never supplied (highest-priority concern)
 
@@ -171,9 +172,9 @@ I did not expect and do not want more biography. The article is right not to be 
 
 **Reader effect.** Roughly 80% of what I learned came from one source I could not classify. "Sat down with Alex Cooper for ninety-three minutes" told me neither what the venue was nor who Cooper is. The FAQ then calls it national radio, which is a different medium from the podcast the body describes.
 
-**Evidence.** "Podcast" appears once in reader-visible prose (L348), inside the accordion. The packet identifies the source as *Call Her Daddy*, a podcast episode published 29 July 2026.
+**Evidence.** "Podcast" appears once in reader-visible prose (L348), inside the accordion. The packet identifies the source as _Call Her Daddy_, a podcast episode published 29 July 2026.
 
-**Minimum viable repair.** At L164, "she sat down with Alex Cooper for ninety-three minutes on *Call Her Daddy*, the biggest podcast in the country" (or whatever claim is supportable). In the FAQ at L65, replace "national radio" with "a podcast."
+**Minimum viable repair.** At L164, "she sat down with Alex Cooper for ninety-three minutes on _Call Her Daddy_, the biggest podcast in the country" (or whatever claim is supportable). In the FAQ at L65, replace "national radio" with "a podcast."
 
 **Expected benefit.** A newcomer can weigh the source. Also removes an internal inconsistency that would be visible if the FAQ renders on-page.
 
@@ -260,13 +261,13 @@ Items 2 and 9 fund items 3, 4, 5, 7, 8, 10 with room left over. The word budget 
 
 ## Follow-on questions
 
-**UNFAM-Q1 — Does the `faqs` frontmatter render on-page for personality-analysis, or only as FAQPage JSON-LD?** If it renders, the "national radio" error at L65 and the Yale New Haven / chemotherapy specificity at L74 are reader-visible and their severity rises. If it is structured data only, the same claims are still surfaced to search engines. *What would change:* whether UNFAM-C5's FAQ half is a body fix or a metadata fix, and whether CLM-12's single-sourced medical detail about a named minor needs qualifying language. *Best source:* the personality-analysis route's page component and `BlogPageHead`.
+**UNFAM-Q1 — Does the `faqs` frontmatter render on-page for personality-analysis, or only as FAQPage JSON-LD?** If it renders, the "national radio" error at L65 and the Yale New Haven / chemotherapy specificity at L74 are reader-visible and their severity rises. If it is structured data only, the same claims are still surfaced to search engines. _What would change:_ whether UNFAM-C5's FAQ half is a body fix or a metadata fix, and whether CLM-12's single-sourced medical detail about a named minor needs qualifying language. _Best source:_ the personality-analysis route's page component and `BlogPageHead`.
 
-**UNFAM-Q2 — What did Nara Smith's videos look like to the people who made them viral?** The article tells me what she cooked and how she sounded, never why twelve million people stayed. As a newcomer this is the one biographical thing I wanted and did not get, and it is load-bearing for the label question: whatever made the videos legible as "tradwife" is the mechanism the article's rebuttal is arguing against. *What would change:* it could add a short paragraph that strengthens UNFAM-C1's repair rather than competing with it. *Best source:* the 2024 Rolling Stone piece (S-24) and Forbes (S-02).
+**UNFAM-Q2 — What did Nara Smith's videos look like to the people who made them viral?** The article tells me what she cooked and how she sounded, never why twelve million people stayed. As a newcomer this is the one biographical thing I wanted and did not get, and it is load-bearing for the label question: whatever made the videos legible as "tradwife" is the mechanism the article's rebuttal is arguing against. _What would change:_ it could add a short paragraph that strengthens UNFAM-C1's repair rather than competing with it. _Best source:_ the 2024 Rolling Stone piece (S-24) and Forbes (S-02).
 
-**UNFAM-Q3 — Is there a bell-ringing date?** L407 says "Whimsy rang the bell in mid-2026, right after her birthday." Her birthday is 8 April; the article's own opening says treatment ran about eight months to July. *What would change:* if the packet's reading is right (CLM-11, "[UNRESOLVED / internally inconsistent with CLM-02]"), the closing beat of the cancer section contradicts the first sentence of the article, which for a reader tracking the timeline via the table is a visible break. *Best source:* re-pull the *Call Her Daddy* transcript — the packet records that no copy survives locally.
+**UNFAM-Q3 — Is there a bell-ringing date?** L407 says "Whimsy rang the bell in mid-2026, right after her birthday." Her birthday is 8 April; the article's own opening says treatment ran about eight months to July. _What would change:_ if the packet's reading is right (CLM-11, "[UNRESOLVED / internally inconsistent with CLM-02]"), the closing beat of the cancer section contradicts the first sentence of the article, which for a reader tracking the timeline via the table is a visible break. _Best source:_ re-pull the _Call Her Daddy_ transcript — the packet records that no copy survives locally.
 
-**UNFAM-Q4 — Where did the family live before Ridgefield?** After "She married into a Utah family" I assumed Utah, and nothing corrected me. *What would change:* one word in the L379 paragraph would close a small orientation gap at no cost. *Best source:* the Ridgefield Patch coverage (S-12).
+**UNFAM-Q4 — Where did the family live before Ridgefield?** After "She married into a Utah family" I assumed Utah, and nothing corrected me. _What would change:_ one word in the L379 paragraph would close a small orientation gap at no cost. _Best source:_ the Ridgefield Patch coverage (S-12).
 
 ## Preserve list
 
@@ -305,6 +306,6 @@ No community discussion was used to establish any fact.
 - **I am a proxy, not a sample.** One simulated first read cannot measure real abandonment. Where I claim an exit point or a re-read, that is a reasoned account of my own comprehension, not evidence about an audience.
 - **The unaided read was contaminated in one direction I could not prevent.** The snapshot embeds its own pipeline commentary, including a prior grade of 8.7 and detailed prior critiques. I read the file top to bottom before knowing where the commentary began. I excluded it from my evidence and my priorities, but I cannot claim my first read was as clean as a published page would give a real reader. A reader-visible-only snapshot would make this perspective sharper; `context.json` already computes a `reader_visible_content_sha256`.
 - **I judged prose, not the rendered page.** Apart from the one CSS check, I did not evaluate typography, images, mobile layout, scroll depth, internal-link placement, or how the FAQ renders. Scan-path claims are inferred from structure alone.
-- **I cannot assess accuracy.** UNFAM-B2 and UNFAM-C7 rest entirely on the packet's verification, not mine. Where the packet is uncertain — the *Call Her Daddy* transcript is speaker-unlabeled, unverifiable at the locator level, and no longer exists on disk, and it underlies roughly 80% of the article's quotation — my confidence inherits that uncertainty.
+- **I cannot assess accuracy.** UNFAM-B2 and UNFAM-C7 rest entirely on the packet's verification, not mine. Where the packet is uncertain — the _Call Her Daddy_ transcript is speaker-unlabeled, unverifiable at the locator level, and no longer exists on disk, and it underlies roughly 80% of the article's quotation — my confidence inherits that uncertainty.
 - **Out of my lane by design:** whether the Type 8 call is correct, whether the article is fair to its subject, whether the criticism is adequately steelmanned, and whether the piece will age. I evaluated only whether a stranger can understand it and trust it.
 - **One judgment I want visible.** I ranked the undefined political charge of "tradwife" (UNFAM-C1) above the age error and the source-stamp repetition, and I declined to promote it to a blocker. A reader who already knows the term loses nothing; a reader who does not loses the article's stakes. That trade-off is a call, and a different evaluator could reasonably rank it either higher or lower.

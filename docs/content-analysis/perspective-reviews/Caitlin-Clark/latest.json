@@ -1,10 +1,10 @@
 {
-  "schema_version": 1,
-  "subject": "Caitlin-Clark",
-  "review_dir": "docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141",
-  "verification_file": "docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/verification-final.md",
-  "verification_status": "pass",
-  "reviewed_snapshot_sha256": "3d649ecec30f226cfeb43586cfe0c01d43596cd6f0ae8985afa21d81d36c505d",
-  "verified_content_sha256": "01bc30b73f427f21caadc2359c8fb87d8b87981d9644c34a5bf0fb2c511aeac6",
-  "verified_at": "2026-08-12T06:38:54.000Z"
+	"schema_version": 1,
+	"subject": "Caitlin-Clark",
+	"review_dir": "docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141",
+	"verification_file": "docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "3d649ecec30f226cfeb43586cfe0c01d43596cd6f0ae8985afa21d81d36c505d",
+	"verified_content_sha256": "01bc30b73f427f21caadc2359c8fb87d8b87981d9644c34a5bf0fb2c511aeac6",
+	"verified_at": "2026-08-12T06:38:54.000Z"
 }

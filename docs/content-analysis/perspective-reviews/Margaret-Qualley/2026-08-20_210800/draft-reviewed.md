@@ -87,7 +87,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Margaret-Qualley.md
+path: docs/content-analysis/perspective-reviews/Margaret-Qualley/2026-08-20_210800/draft-reviewed.md
 content_quality:
   hook: 9
   enneagram: 9

@@ -1,3 +1,4 @@
+// src/lib/analytics/posthog.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { posthogMock, persistedUserId } = vi.hoisted(() => {

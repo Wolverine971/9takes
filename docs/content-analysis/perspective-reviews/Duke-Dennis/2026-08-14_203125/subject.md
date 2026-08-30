@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 2
 concerns: 6
 reviewed_at: 2026-08-15T01:19:36Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-14_203125/subject.md
 ---
 
 ## Bottom-line verdict
@@ -126,7 +127,7 @@ In the same Complex interview the draft mines for eight other things, he volunte
 he still advocates for young people going outside, he does not think they should be "cooped up on iPads
 and computers all day," and — his words — "I would want them to look at me as like balance." That is the
 subject telling an interviewer, unprompted, what he wants his public meaning to be. An article whose
-entire thesis is *other people keep assigning him meanings he did not choose* leaves out the one meaning
+entire thesis is _other people keep assigning him meanings he did not choose_ leaves out the one meaning
 he chose for himself. Verified in the transcript at
 `youtube-transcripts/duke-dennis-360-with-speedy-2024.md`.
 
@@ -199,7 +200,7 @@ he chose for himself. Verified in the transcript at
 
 - **Location:** "Why Duke Dennis bought his mother a house first," final line —
   `<p class="inner-thought">Everybody in this house got bigger than me. I'm still the one who says who
-  comes through the door.</p>`
+comes through the door.</p>`
 - **Reader effect / trust problem:** this is the article speaking in his voice about a private feeling he
   has never expressed, concerning six real, named, living friends. It is the only place in the draft that
   tells the reader what he privately feels rather than showing what he did.
@@ -334,24 +335,24 @@ he chose for himself. Verified in the transcript at
 
 ## Follow-on questions
 
-- **SUBJ-Q1 — Is the aunt who died in July 2025 the aunt who named him?** *What would change:* if yes, the
+- **SUBJ-Q1 — Is the aunt who died in July 2025 the aunt who named him?** _What would change:_ if yes, the
   closing movement must be rebuilt, not trimmed, and the piece probably owes the death a sentence
-  somewhere. If no, the current close is defensible once the availability implication is softened. *Best
-  source to pursue:* the full 2025-08-17 return VOD or clips of it (he speaks about her directly), or the
+  somewhere. If no, the current close is defensible once the availability implication is softened. _Best
+  source to pursue:_ the full 2025-08-17 return VOD or clips of it (he speaks about her directly), or the
   Greenville-area obituary record cross-referenced against the Dennis family. Neither is resolvable from
   the aggregator layer the packet was limited to.
-- **SUBJ-Q2 — Which outlet actually published "risk my freedom for the content"?** *What would change:*
-  the attribution in the arrest paragraph, or the quote's removal. *Best source:* Hollywood Unlocked's
+- **SUBJ-Q2 — Which outlet actually published "risk my freedom for the content"?** _What would change:_
+  the attribution in the arrest paragraph, or the quote's removal. _Best source:_ Hollywood Unlocked's
   2025-08-18 item, and HotNewHipHop (Bryson Paul, 2025-08-18), which the draft's own notes cite as
   independent corroboration.
-- **SUBJ-Q3 — Has he ever publicly said whether DeeBlock is named for his cousin?** *What would change:*
+- **SUBJ-Q3 — Has he ever publicly said whether DeeBlock is named for his cousin?** _What would change:_
   SUBJ-C1 resolves in either direction — either the draft can state the link with a source, or it should
-  drop the sentence entirely. *Best source:* the December 2024 shirt-opening VOD and the Sportskeeda
+  drop the sentence entirely. _Best source:_ the December 2024 shirt-opening VOD and the Sportskeeda
   report fetched directly rather than via search summary (it returned 405 for the packet).
 - **SUBJ-Q4 — Does he have any on-record response to being typed, psychoanalyzed, or personality-profiled
-  at all?** *What would change:* if he has ever objected to this genre, the article owes him that
+  at all?** _What would change:_ if he has ever objected to this genre, the article owes him that
   objection in the counterarguments section — it would be the strongest possible fairness move available
-  to it. *Best source:* stream clips around the PDB 3w2 listing; nothing surfaced in this pass.
+  to it. _Best source:_ stream clips around the PDB 3w2 listing; nothing surfaced in this pass.
 
 ## Preserve list
 
@@ -378,18 +379,18 @@ These must survive revision. Each is doing fairness work that is easy to lose in
 
 ## Research log
 
-| # | Question | Source consulted | What it decided |
-| - | -------- | ---------------- | --------------- |
-| 1 | SHA integrity | `shasum -a 256 draft-reviewed.md` vs `context.json` and supplied `--draft-sha` | All three match `d5bce426…`. Audited the frozen snapshot only. |
-| 2 | Does the tape support the cold open's "sleep took him where he sat," or only "almost fell asleep"? | `youtube-transcripts/duke-dennis-360-with-speedy-2024.md` (S-02), direct grep | **Supported.** He says "I almost fell asleep in front of the machine **and I woke up pretty much like catching myself**." Dropped as a finding — the draft's staging is his own account. |
-| 3 | Can a reader tell invented interior monologue from quotation? | `src/scss/blog.scss:592` + responsive block at 1339 | Renders as an italic panel with a thought-bubble icon, no quote marks. Mitigates misreading-as-quote; does not mitigate imputed feeling. Shaped SUBJ-R2's repair (cut, not re-mark). |
-| 4 | Is the neighborhood DeeBlock or D-Block? | `youtube-transcripts/duke-dennis-army-story-time.md`, grep | Auto-transcript garbles it as both "deep block" and "d-block." The quote's spelling is an artifact, not his. → SUBJ-C5. |
-| 5 | Rizz statistics as actually stated | S-02 transcript, direct read | 80% men / 90% white fans / 100% Aspen. Body correct, FAQ not. → SUBJ-C4. Also surfaced the dropped racial qualifier (noted, not raised as a violation). |
-| 6 | Interview-drought scope | S-02 transcript, direct read | Speedy names Sneaker Shopping as the exception. → SUBJ-C6. |
-| 7 | Does he state how he wants to be seen? | S-02 transcript, direct read | Yes — advocates young people go outside, "I would want them to look at me as like balance." Absent from the draft. → SUBJ-M3. |
-| 8 | Did Duke publicly report an aunt's death, and can she be identified? | WebSearch → Vibe (Preezy Brown, 2025-08-18) / Yahoo syndication | **Confirmed:** aunt died July 2025; he attended the funeral and returned straight to streaming. **No source identifies her relative to the naming aunt.** → SUBJ-R1 (blocker), SUBJ-Q1. |
-| 9 | Has he addressed his cousin Dee's death / the DeeBlock link? | WebSearch (aggregate + community results) | Clips and reporting show him telling the story of the cousin's death emotionally on stream; fan material links "Dee" and "DeeBlock" widely. Community material treated as expectation evidence only — which is itself why the draft should not assert the negative. → SUBJ-C1. |
-| 10 | Shared factual floor | `evidence-packet.md` (read before external research), esp. UNRES-01, CLM-06, CLM-10, CLM-11b, CLM-16 | Reused rather than re-derived where it answered the question. Independently re-verified CLM-06 and the cold-open wobble against the raw transcript. |
+| #   | Question                                                                                           | Source consulted                                                                                     | What it decided                                                                                                                                                                                                                                                                |
+| --- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | SHA integrity                                                                                      | `shasum -a 256 draft-reviewed.md` vs `context.json` and supplied `--draft-sha`                       | All three match `d5bce426…`. Audited the frozen snapshot only.                                                                                                                                                                                                                 |
+| 2   | Does the tape support the cold open's "sleep took him where he sat," or only "almost fell asleep"? | `youtube-transcripts/duke-dennis-360-with-speedy-2024.md` (S-02), direct grep                        | **Supported.** He says "I almost fell asleep in front of the machine **and I woke up pretty much like catching myself**." Dropped as a finding — the draft's staging is his own account.                                                                                       |
+| 3   | Can a reader tell invented interior monologue from quotation?                                      | `src/scss/blog.scss:592` + responsive block at 1339                                                  | Renders as an italic panel with a thought-bubble icon, no quote marks. Mitigates misreading-as-quote; does not mitigate imputed feeling. Shaped SUBJ-R2's repair (cut, not re-mark).                                                                                           |
+| 4   | Is the neighborhood DeeBlock or D-Block?                                                           | `youtube-transcripts/duke-dennis-army-story-time.md`, grep                                           | Auto-transcript garbles it as both "deep block" and "d-block." The quote's spelling is an artifact, not his. → SUBJ-C5.                                                                                                                                                        |
+| 5   | Rizz statistics as actually stated                                                                 | S-02 transcript, direct read                                                                         | 80% men / 90% white fans / 100% Aspen. Body correct, FAQ not. → SUBJ-C4. Also surfaced the dropped racial qualifier (noted, not raised as a violation).                                                                                                                        |
+| 6   | Interview-drought scope                                                                            | S-02 transcript, direct read                                                                         | Speedy names Sneaker Shopping as the exception. → SUBJ-C6.                                                                                                                                                                                                                     |
+| 7   | Does he state how he wants to be seen?                                                             | S-02 transcript, direct read                                                                         | Yes — advocates young people go outside, "I would want them to look at me as like balance." Absent from the draft. → SUBJ-M3.                                                                                                                                                  |
+| 8   | Did Duke publicly report an aunt's death, and can she be identified?                               | WebSearch → Vibe (Preezy Brown, 2025-08-18) / Yahoo syndication                                      | **Confirmed:** aunt died July 2025; he attended the funeral and returned straight to streaming. **No source identifies her relative to the naming aunt.** → SUBJ-R1 (blocker), SUBJ-Q1.                                                                                        |
+| 9   | Has he addressed his cousin Dee's death / the DeeBlock link?                                       | WebSearch (aggregate + community results)                                                            | Clips and reporting show him telling the story of the cousin's death emotionally on stream; fan material links "Dee" and "DeeBlock" widely. Community material treated as expectation evidence only — which is itself why the draft should not assert the negative. → SUBJ-C1. |
+| 10  | Shared factual floor                                                                               | `evidence-packet.md` (read before external research), esp. UNRES-01, CLM-06, CLM-10, CLM-11b, CLM-16 | Reused rather than re-derived where it answered the question. Independently re-verified CLM-06 and the cold-open wobble against the raw transcript.                                                                                                                            |
 
 Sources cited externally this pass:
 

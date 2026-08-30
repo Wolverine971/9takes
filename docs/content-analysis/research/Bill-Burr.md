@@ -5,6 +5,7 @@ updated: '2026-08-19'
 status: 'evidence-log'
 consumed_by: ['blog_content_creator_people_v2', 'blog_perspective_research_people']
 entity_gap_brief: 'docs/content-analysis/entity-gaps/Bill-Burr.md'
+path: docs/content-analysis/research/Bill-Burr.md
 ---
 
 # Research Evidence Log: Bill Burr
@@ -17,53 +18,53 @@ entity_gap_brief: 'docs/content-analysis/entity-gaps/Bill-Burr.md'
 Source discipline per the entity-gap packet: Wikipedia for vitals, named outlets for everything else.
 Siblings and net worth are **deliberately absent** (sources contradict flatly / no citable figure exists).
 
-| Fact | Value | Source |
-| --- | --- | --- |
-| Born | 1968-06-10, Canton, Massachusetts | Wikipedia |
-| Parents | Robert Burr (dentist), Linda Ann (nurse) | Wikipedia |
-| Education | Canton High School 1987; North Carolina State (2 semesters); Emerson College, BA Communications, 1993 | Wikipedia |
-| First stand-up set | 1992-03-02, age 23 | Wikipedia |
-| Moved to NYC | 1994 | Wikipedia |
-| Monday Morning Podcast | launched May 2007, weekly since | Wikipedia; billburr.libsyn.com |
-| All Things Comedy | co-founded 2012-10-01 with Al Madrigal | Wikipedia |
-| Married | Nia Renée Hill, 2013 | Wikipedia; Today.com |
-| Children | Daughter b. 2017; son b. 2020. **Names withheld.** | Wikipedia |
-| Breaking Bad | Patrick Kuby, seasons 4-5, 2011-2013 | Wikipedia |
-| F Is for Family | creator/star (Frank Murphy), Netflix, 2015-2021 | Wikipedia |
-| Broadway debut | Dave Moss, *Glengarry Glen Ross*, opened 2025-03-31, Palace Theatre; closed 2025-06-28 | Deadline; TheaterMania |
-| *Drop Dead Years* | Hulu, premiered 2025-03-14; filmed June 2024, Moore Theatre, Seattle | Television Academy; Rolling Stone |
-| Emmy noms 2025 | Outstanding Variety Special (Pre-Recorded) **and** Outstanding Editing for Variety Programming. Burr is a **named nominee on the Variety Special entry** alongside producers Mike Bertolina, Dave Becky, Ben Tishler, Matthew Schuler, Cameron Fife. | Television Academy |
-| *The Social Reckoning* | Aaron Sorkin, in theaters **2026-10-09**. Burr plays a **crisis counselor**. Cast: Jeremy Strong (Zuckerberg), Jeremy Allen White (Jeff Horwitz), Mikey Madison (Frances Haugen). | Deadline 2026-06; Variety 2026 |
-| Current tour | *Bill Burr Live* 2026, in progress. Great Outdoors Comedy Festival, One Spokane Stadium, 2026-08-30. | KXLY |
+| Fact                   | Value                                                                                                                                                                                                                                                | Source                            |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Born                   | 1968-06-10, Canton, Massachusetts                                                                                                                                                                                                                    | Wikipedia                         |
+| Parents                | Robert Burr (dentist), Linda Ann (nurse)                                                                                                                                                                                                             | Wikipedia                         |
+| Education              | Canton High School 1987; North Carolina State (2 semesters); Emerson College, BA Communications, 1993                                                                                                                                                | Wikipedia                         |
+| First stand-up set     | 1992-03-02, age 23                                                                                                                                                                                                                                   | Wikipedia                         |
+| Moved to NYC           | 1994                                                                                                                                                                                                                                                 | Wikipedia                         |
+| Monday Morning Podcast | launched May 2007, weekly since                                                                                                                                                                                                                      | Wikipedia; billburr.libsyn.com    |
+| All Things Comedy      | co-founded 2012-10-01 with Al Madrigal                                                                                                                                                                                                               | Wikipedia                         |
+| Married                | Nia Renée Hill, 2013                                                                                                                                                                                                                                 | Wikipedia; Today.com              |
+| Children               | Daughter b. 2017; son b. 2020. **Names withheld.**                                                                                                                                                                                                   | Wikipedia                         |
+| Breaking Bad           | Patrick Kuby, seasons 4-5, 2011-2013                                                                                                                                                                                                                 | Wikipedia                         |
+| F Is for Family        | creator/star (Frank Murphy), Netflix, 2015-2021                                                                                                                                                                                                      | Wikipedia                         |
+| Broadway debut         | Dave Moss, _Glengarry Glen Ross_, opened 2025-03-31, Palace Theatre; closed 2025-06-28                                                                                                                                                               | Deadline; TheaterMania            |
+| _Drop Dead Years_      | Hulu, premiered 2025-03-14; filmed June 2024, Moore Theatre, Seattle                                                                                                                                                                                 | Television Academy; Rolling Stone |
+| Emmy noms 2025         | Outstanding Variety Special (Pre-Recorded) **and** Outstanding Editing for Variety Programming. Burr is a **named nominee on the Variety Special entry** alongside producers Mike Bertolina, Dave Becky, Ben Tishler, Matthew Schuler, Cameron Fife. | Television Academy                |
+| _The Social Reckoning_ | Aaron Sorkin, in theaters **2026-10-09**. Burr plays a **crisis counselor**. Cast: Jeremy Strong (Zuckerberg), Jeremy Allen White (Jeff Horwitz), Mikey Madison (Frances Haugen).                                                                    | Deadline 2026-06; Variety 2026    |
+| Current tour           | _Bill Burr Live_ 2026, in progress. Great Outdoors Comedy Festival, One Spokane Stadium, 2026-08-30.                                                                                                                                                 | KXLY                              |
 
 ## 2. Dated timeline relevant to the thesis
 
-| Date | Event | Why it matters |
-| --- | --- | --- |
-| ~1972 | Age 4. Cowboy outfit; toy guns smashed by bigger kids before he reached the end of the driveway. Mother made him a sandwich. | The formative image: armed persona disassembled instantly; household does not process the feeling. |
-| 1970s | Neighborhood fathers he calls "frigging terrifying," "buzz-cut lunatics." Father's catchphrase: "I'll put you through that wall." | Ambient threat as baseline. |
-| 3rd grade | Paper route; does Eddie Murphy bits aloud while delivering. "I had a job ever since I've been working." | Rehearsal + self-provisioning both start early. |
-| 1987-1993 | NC State (2 semesters), then transfers to Emerson specifically because it was "more of a performance school." | Deliberate staged exposure. |
-| 1992-01-01 | New Year's resolution: get on stage at some point **during the calendar year**. Deliberately a year-long window. | Fear-managed planning, stated as such. |
-| 1992-03-02 | First set. Nick's Comedy Stop talent contest. Reports an out-of-body experience. | |
-| ~1993-2005 | Works in father's dental office while gigging; must call him "Dr. Burr" in front of patients. | |
-| 1994 | Moves to NYC. | |
-| 2006-09-09 | The Philadelphia/Camden rant. 12 minutes counterattacking a hostile crowd of ~10,000 on the Opie & Anthony Traveling Virus tour. | The signature aggression event. He later calls it embarrassing. |
-| May 2007 | Monday Morning Podcast begins. Weekly ever since. | The 19-year self-documented record. |
-| ~2000s | Therapy, after "one of the umpteen thousand poor women that ever came across me" told him to go. Describes ~12 prior years of "snapping about nothing." | |
-| 2011 | Buys a house with stand-up money. Tells his wife "I made it." | |
-| 2011-2013 | *Breaking Bad*. Credits Vince Gilligan for his acting career. | |
-| 2013 | Marries Nia Renée Hill. | |
-| 2015 | *F Is for Family* premieres. Frank Murphy is an amalgam of the writers' fathers. | |
-| 2017 | Daughter born. Returns to therapy for anger, per his account, prompted by family. | |
-| 2020-10 | Hosts SNL; monologue draws backlash. | |
-| 2025-03 | *Drop Dead Years* (Hulu) + Fresh Air interview: therapy, psilocybin, childhood abuse. | The most explicit self-account on record. |
-| 2025-03-31 | Broadway debut in *Glengarry Glen Ross*. No Tony nomination (Odenkirk got one). Production recouped its $7.5M. | |
-| 2025-09/10 | Riyadh Comedy Festival. HRW condemnation; named peer criticism. | The live character test. |
-| 2025-10-15 | Conan O'Brien Needs a Friend, live at the Fonda. Clap-back. | Public account of Riyadh. |
-| 2026-08-10 | MMP 8-10-26. **Private account of the same Riyadh gig**: dry mouth, fear of arrest, nervous whenever anyone moved. | The two-date contradiction. |
-| 2026-08-17 | MMP 8-17-26. Full-body MRI; spontaneous 1-to-10 nervousness scale. | Current-tense anchor. |
-| 2026-10-09 | *The Social Reckoning* opens. He plays a crisis counselor. | Forward catalyst. |
+| Date       | Event                                                                                                                                                   | Why it matters                                                                                     |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| ~1972      | Age 4. Cowboy outfit; toy guns smashed by bigger kids before he reached the end of the driveway. Mother made him a sandwich.                            | The formative image: armed persona disassembled instantly; household does not process the feeling. |
+| 1970s      | Neighborhood fathers he calls "frigging terrifying," "buzz-cut lunatics." Father's catchphrase: "I'll put you through that wall."                       | Ambient threat as baseline.                                                                        |
+| 3rd grade  | Paper route; does Eddie Murphy bits aloud while delivering. "I had a job ever since I've been working."                                                 | Rehearsal + self-provisioning both start early.                                                    |
+| 1987-1993  | NC State (2 semesters), then transfers to Emerson specifically because it was "more of a performance school."                                           | Deliberate staged exposure.                                                                        |
+| 1992-01-01 | New Year's resolution: get on stage at some point **during the calendar year**. Deliberately a year-long window.                                        | Fear-managed planning, stated as such.                                                             |
+| 1992-03-02 | First set. Nick's Comedy Stop talent contest. Reports an out-of-body experience.                                                                        |                                                                                                    |
+| ~1993-2005 | Works in father's dental office while gigging; must call him "Dr. Burr" in front of patients.                                                           |                                                                                                    |
+| 1994       | Moves to NYC.                                                                                                                                           |                                                                                                    |
+| 2006-09-09 | The Philadelphia/Camden rant. 12 minutes counterattacking a hostile crowd of ~10,000 on the Opie & Anthony Traveling Virus tour.                        | The signature aggression event. He later calls it embarrassing.                                    |
+| May 2007   | Monday Morning Podcast begins. Weekly ever since.                                                                                                       | The 19-year self-documented record.                                                                |
+| ~2000s     | Therapy, after "one of the umpteen thousand poor women that ever came across me" told him to go. Describes ~12 prior years of "snapping about nothing." |                                                                                                    |
+| 2011       | Buys a house with stand-up money. Tells his wife "I made it."                                                                                           |                                                                                                    |
+| 2011-2013  | _Breaking Bad_. Credits Vince Gilligan for his acting career.                                                                                           |                                                                                                    |
+| 2013       | Marries Nia Renée Hill.                                                                                                                                 |                                                                                                    |
+| 2015       | _F Is for Family_ premieres. Frank Murphy is an amalgam of the writers' fathers.                                                                        |                                                                                                    |
+| 2017       | Daughter born. Returns to therapy for anger, per his account, prompted by family.                                                                       |                                                                                                    |
+| 2020-10    | Hosts SNL; monologue draws backlash.                                                                                                                    |                                                                                                    |
+| 2025-03    | _Drop Dead Years_ (Hulu) + Fresh Air interview: therapy, psilocybin, childhood abuse.                                                                   | The most explicit self-account on record.                                                          |
+| 2025-03-31 | Broadway debut in _Glengarry Glen Ross_. No Tony nomination (Odenkirk got one). Production recouped its $7.5M.                                          |                                                                                                    |
+| 2025-09/10 | Riyadh Comedy Festival. HRW condemnation; named peer criticism.                                                                                         | The live character test.                                                                           |
+| 2025-10-15 | Conan O'Brien Needs a Friend, live at the Fonda. Clap-back.                                                                                             | Public account of Riyadh.                                                                          |
+| 2026-08-10 | MMP 8-10-26. **Private account of the same Riyadh gig**: dry mouth, fear of arrest, nervous whenever anyone moved.                                      | The two-date contradiction.                                                                        |
+| 2026-08-17 | MMP 8-17-26. Full-body MRI; spontaneous 1-to-10 nervousness scale.                                                                                      | Current-tense anchor.                                                                              |
+| 2026-10-09 | _The Social Reckoning_ opens. He plays a crisis counselor.                                                                                              | Forward catalyst.                                                                                  |
 
 ## 3. First-person quotations (verbatim, attributed)
 
@@ -73,13 +74,13 @@ Siblings and net worth are **deliberately absent** (sources contradict flatly / 
 > — Bill Burr, The Hollywood Reporter, 2022
 
 > "I always got kids to laugh and I moved around a little bit when I was a kid and just making kids laugh was a way to get people to stop beating the shit out of me or bigger kids wailing on you or whatever. So that's how I would make friends."
-> — Bill Burr, The Tim Ferriss Show #602 (*Fear{less}*), recorded 2017, transcript published 2022-06-25
+> — Bill Burr, The Tim Ferriss Show #602 (_Fear{less}_), recorded 2017, transcript published 2022-06-25
 
 > "I think a lot of the reasons why I started doing stand-up was I thought I'm going to get on stage, show people that I'm a funny guy, and people will stop fucking with me."
 > — Bill Burr, The Tim Ferriss Show #265, 2017-09-17
 
 > He did stand-up "because that was the easiest way to walk into a room full of a bunch of people that I didn't know and make everybody like me."
-> — Bill Burr, voice-over soliloquy in *Drop Dead Years* (Hulu, 2025)
+> — Bill Burr, voice-over soliloquy in _Drop Dead Years_ (Hulu, 2025)
 
 **Note:** he has now told this same origin story, in near-identical wording, across 2017, 2022, and in his own 2025 special. It is not an offhand remark; it is his standing account.
 
@@ -238,15 +239,15 @@ The spontaneous nervousness scale (riffing on dating Ronda Rousey):
 
 ## 4. Named third-party testimony
 
-| Speaker | Relationship | Quote | Source / year |
-| --- | --- | --- | --- |
-| Nia Renée Hill | wife | "He's probably the loudest person I know. But I know what he means. He can be very introverted." | The Hollywood Reporter, 2022 |
-| Nia Renée Hill | wife | "He has certain triggers, for sure... when he's home, he's just a goofy dad." | The Hollywood Reporter, 2022 |
-| Mike Bertolina | longtime producing partner; co-nominee on the 2025 Emmy | "He's most comfortable when things are uncomfortable, and you can see it in interviews." | The Hollywood Reporter, 2022 |
-| Mike Bertolina | producing partner | "What often dazzles me is how quickly he can take what's going on around him and convert it into material." | The Hollywood Reporter, 2022 |
-| David Cross | comedian; named critic of the Riyadh appearance | "I am disgusted, and deeply disappointed in this whole gross thing. That people I admire, with unarguable talent, would condone this totalitarian fiefdom for... what, a fourth house?" and "Clearly you guys don't give a shit about what the rest of us think, but how can any of us take any of you seriously ever again?" | Variety / Rolling Stone / THR, 2025-09-30 |
-| Patton Oswalt | comedian peer | "Go see Bill Burr twice. I might even skip my stupid show." | X/Twitter, 2015 |
-| Human Rights Watch | organization (not an individual) | Condemned the Riyadh festival as deflection from Saudi Arabia's "brutal repression of free speech." | 2025 |
+| Speaker            | Relationship                                            | Quote                                                                                                                                                                                                                                                                                                                         | Source / year                             |
+| ------------------ | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
+| Nia Renée Hill     | wife                                                    | "He's probably the loudest person I know. But I know what he means. He can be very introverted."                                                                                                                                                                                                                              | The Hollywood Reporter, 2022              |
+| Nia Renée Hill     | wife                                                    | "He has certain triggers, for sure... when he's home, he's just a goofy dad."                                                                                                                                                                                                                                                 | The Hollywood Reporter, 2022              |
+| Mike Bertolina     | longtime producing partner; co-nominee on the 2025 Emmy | "He's most comfortable when things are uncomfortable, and you can see it in interviews."                                                                                                                                                                                                                                      | The Hollywood Reporter, 2022              |
+| Mike Bertolina     | producing partner                                       | "What often dazzles me is how quickly he can take what's going on around him and convert it into material."                                                                                                                                                                                                                   | The Hollywood Reporter, 2022              |
+| David Cross        | comedian; named critic of the Riyadh appearance         | "I am disgusted, and deeply disappointed in this whole gross thing. That people I admire, with unarguable talent, would condone this totalitarian fiefdom for... what, a fourth house?" and "Clearly you guys don't give a shit about what the rest of us think, but how can any of us take any of you seriously ever again?" | Variety / Rolling Stone / THR, 2025-09-30 |
+| Patton Oswalt      | comedian peer                                           | "Go see Bill Burr twice. I might even skip my stupid show."                                                                                                                                                                                                                                                                   | X/Twitter, 2015                           |
+| Human Rights Watch | organization (not an individual)                        | Condemned the Riyadh festival as deflection from Saudi Arabia's "brutal repression of free speech."                                                                                                                                                                                                                           | 2025                                      |
 
 Also named as Riyadh critics: Marc Maron, Shane Gillis.
 
@@ -256,16 +257,18 @@ Burr on Vince Gilligan: "I owe Vince Gilligan my acting career... All the acting
 
 ## 5. Accomplishments, failures, controversies, counterevidence
 
-**Accomplishments:** Six-plus hour specials; *Drop Dead Years* two 2025 Emmy nominations plus a Grammy nomination for the companion album; *F Is for Family* (creator/star, 6 seasons); *Breaking Bad*; *The Mandalorian*; Broadway debut 2025 in a production that recouped $7.5M; All Things Comedy (co-founded 2012); Monday Morning Podcast running weekly since May 2007; Just for Laughs Stand-Up Comedian of the Year, 2014.
+**Accomplishments:** Six-plus hour specials; _Drop Dead Years_ two 2025 Emmy nominations plus a Grammy nomination for the companion album; _F Is for Family_ (creator/star, 6 seasons); _Breaking Bad_; _The Mandalorian_; Broadway debut 2025 in a production that recouped $7.5M; All Things Comedy (co-founded 2012); Monday Morning Podcast running weekly since May 2007; Just for Laughs Stand-Up Comedian of the Year, 2014.
 
 **Failures / pressure points:**
+
 - Stalled at 37, sleeping on a futon, "the phone wasn't ringing."
 - The 2006 Philadelphia rant, which the internet canonized and which he calls embarrassing.
 - The 2020 SNL monologue backlash.
-- No Tony nomination for *Glengarry Glen Ross* while co-star Bob Odenkirk received one.
+- No Tony nomination for _Glengarry Glen Ross_ while co-star Bob Odenkirk received one.
 - Riyadh, 2025: HRW condemnation, named peer criticism from David Cross, Marc Maron, Shane Gillis.
 
 **Serious counterevidence to the fear reading:**
+
 - The Philadelphia rant is a genuine 12-minute act of aggression under pressure, not a flinch.
 - He has repeatedly and publicly refused to apologize (SNL, Riyadh, Gina Carano commentary). That is not conflict-avoidant behavior.
 - He is physically confrontational in his comedy persona and unusually willing to be disliked.
@@ -274,21 +277,24 @@ Burr on Vince Gilligan: "I owe Vince Gilligan my acting career... All the acting
 ## 6. Source ledger
 
 **Primary (his own voice, on the record):**
+
 - The Tim Ferriss Show #265 (2017-09-17) — full transcript, tim.blog
-- The Tim Ferriss Show #602, *Fear{less}* (recorded 2017, transcript 2022-06-25) — full transcript, tim.blog
+- The Tim Ferriss Show #602, _Fear{less}_ (recorded 2017, transcript 2022-06-25) — full transcript, tim.blog
 - Monday Morning Podcast 8-10-26 (YouTube ID 8NYGbY4Tmkc) — transcript retrieved 2026-08-19
 - Monday Morning Podcast 8-17-26 (YouTube ID yHKqkVqa9mc) — transcript retrieved 2026-08-19
 - Monday Morning Podcast 7-16-26 (YouTube ID _2Z0glOVPzs) — transcript retrieved 2026-08-19
-- *Drop Dead Years* (Hulu, 2025) — voice-over soliloquy, quoted via reporting
+- _Drop Dead Years_ (Hulu, 2025) — voice-over soliloquy, quoted via reporting
 
 **Reported (major outlet, quoting him):**
+
 - NPR Fresh Air, 2025-03-10
 - The Hollywood Reporter, 2022 (career long-form) and 2025 (Riyadh)
 - Variety, Rolling Stone, Boston Globe, 2025 (Riyadh)
-- Deadline / Variety, 2026 (*The Social Reckoning*)
+- Deadline / Variety, 2026 (_The Social Reckoning_)
 - Television Academy (Emmy nominations of record)
 
 **Community / unreliable (used for nothing):**
+
 - boo.world, So Syncd, sakinorva, Personality Database, SunSigns, personalitylist — typology assertions with no evidence
 - Content farms on siblings, parents, net worth — contradictory; excluded per the entity-gap packet
 
@@ -297,6 +303,7 @@ Burr on Vince Gilligan: "I owe Vince Gilligan my acting career... All the acting
 **Leading hypothesis: Enneagram Type 6, self-preservation dominant, 6w7.** Confidence: **high.**
 
 **Strongest case for:**
+
 1. His own standing origin account, repeated verbatim across 2017, 2022, and his own 2025 special: he did stand-up so people would like him "so that no one would hurt me." That is a stated safety motive, not a stated power motive.
 2. The 1992 resolution: he engineered a year-long runway specifically to route around a panic he predicted in himself.
 3. Money behavior organized around not being broke and not carrying debt, plus the stated expectation that "eventually, this business is done with you."
@@ -310,9 +317,10 @@ The Philadelphia rant, the refusal to apologize, the "sanctimonious" clap-back, 
 
 **Named tiebreaker:** the same Riyadh gig, described two ways within eleven months. On camera at the Fonda (2025-10-15) he performs total indifference to critics. Alone with his own microphone (2026-08-10) he reports dry mouth for twenty minutes and nervousness whenever anyone in the crowd moved. An Eight who genuinely does not feel the threat has no reason to narrate the dry mouth privately. Per the internal 9takes Type 6 pillar: Eights feel inherently powerful; the counter-phobic variant of Six overcompensates for feeling inherently vulnerable.
 
-**One important behavior the type does not fully explain:** the sheer *duration* of the 2006 Philadelphia counterattack. Twelve sustained minutes of offense against 10,000 people is not a flinch or a panic response; it is stamina. Fear explains why he swung. It does not fully explain why he could keep swinging that long. His own explanation is that he was defending the comics who went before him, which is loyalty-shaped, but the endurance remains partly unaccounted for.
+**One important behavior the type does not fully explain:** the sheer _duration_ of the 2006 Philadelphia counterattack. Twelve sustained minutes of offense against 10,000 people is not a flinch or a panic response; it is stamina. Fear explains why he swung. It does not fully explain why he could keep swinging that long. His own explanation is that he was defending the comics who went before him, which is loyalty-shaped, but the endurance remains partly unaccounted for.
 
 **Internal 9takes posts that informed this (read in full):**
+
 - `/enneagram-corner/enneagram-type-6` (the phobic/counter-phobic split; the explicit "mistyped as Type 8" discriminator; stress arrow to 3; growth arrow to 9)
 - `/enneagram-corner/enneagram-types-in-stress`
 - `/enneagram-corner/anxiety-and-enneagram-types-guide`
@@ -320,6 +328,7 @@ The Philadelphia rant, the refusal to apologize, the "sanctimonious" clap-back, 
 - `/enneagram-corner/enneagram-type-8` (to pressure-test the alternate)
 
 **Emotional thesis, in his vocabulary:**
+
 - Core fear: being outnumbered and hit. "so that no one would hurt me"; "a way to get people to stop beating the shit out of me."
 - Core desire: a room where he belongs and cannot be jumped. "I never felt like I fit in anywhere until I went to a comedy club... it felt like in a weird way like you were going home."
 - Childhood message: manage the room and it stays smooth. "I had enough of people screaming and yelling... I would just adjust my behavior so then we would just be smooth."
@@ -328,11 +337,11 @@ The Philadelphia rant, the refusal to apologize, the "sanctimonious" clap-back, 
 
 ## 8. Unresolved facts and research limitations
 
-- **"Walking around at a six" anger-scale quote** cited in the entity-gap packet could **not be verified** in any searchable source. **Do not publish it.** What *is* verified is a structurally similar habit: on MMP 8-17-26 he spontaneously rates his own nervousness "on a level of 1 to 10... about a six and a half" while riffing about Ronda Rousey. Use the verified one only.
+- **"Walking around at a six" anger-scale quote** cited in the entity-gap packet could **not be verified** in any searchable source. **Do not publish it.** What _is_ verified is a structurally similar habit: on MMP 8-17-26 he spontaneously rates his own nervousness "on a level of 1 to 10... about a six and a half" while riffing about Ronda Rousey. Use the verified one only.
 - **Middle name** conflicts: the entity-gap packet says "Frederick"; Wikipedia renders "Frederic." Omitted from the draft.
 - **Siblings:** sources contradict flatly (three vs. five, wrong parent names). Omitted entirely per packet.
 - **Net worth:** estimates span $8M to $120M with no methodology. Omitted entirely per packet.
-- ***Drop Dead Years* album release year** not independently confirmed in this pass. The album drew a Grammy nomination (reported November 2025); the specific release date is not used in the draft.
+- **_Drop Dead Years_ album release year** not independently confirmed in this pass. The album drew a Grammy nomination (reported November 2025); the specific release date is not used in the draft.
 - **Riyadh Conan quotes** are taken from outlet reporting (THR, Variety, Rolling Stone, Boston Globe), not from a first-party transcript. The paywall/tollbit redirect blocked direct THR and Variety fetches; quotes are cross-checked across at least two outlets.
 - **MMP transcripts are YouTube auto-captions.** Profanity is masked as `[ __ ]` in the source. The Monday Morning Podcast is predominantly solo, so the podcast-attribution risk that applies to two-person shows is low, but wording is auto-transcribed and lightly cleaned for readability in the draft (fillers only; no substantive rewording).
 - **Human Rights Watch** statement is an organizational position, not an individual's quote, and does not satisfy the named-speaker testimony bar on its own.
@@ -340,4 +349,3 @@ The Philadelphia rant, the refusal to apologize, the "sanctimonious" clap-back, 
 - **Conan O'Brien Needs a Friend episode date** is inconsistent across outlets: one search result gives 2025-10-15, while the Boston Globe write-up is dated 2025-10-08. The draft cites the month only.
 - **The 2011 house purchase** is framed by The Hollywood Reporter as him telling "his wife," but he married Nia Renée Hill in 2013. The draft drops the relational claim and keeps only the quote.
 - **Middle name / "William Frederic" vs "Frederick"** remains unresolved and is omitted.
-

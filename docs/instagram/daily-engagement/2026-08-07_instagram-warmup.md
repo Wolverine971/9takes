@@ -30,11 +30,11 @@
 
 ## Reconciliation (yesterday's suggestions)
 
-| 08-06 target | Check | Result |
-| --- | --- | --- |
-| @typeishofficial DbsqrI9lgvq (#1, first-comment slot) | Thread read live at 1d | **Unposted.** Thread has exactly 1 comment (an emoji from @growingwiththeenneagram, 22h). First-comment slot gone; room still effectively empty. |
-| @vvanedwards DboxrpAvxST (#2 Penelope) | Not re-opened (2d, was durable) | Presumed unposted; superseded by promo-week posts on her grid. |
-| @thesecurerelationship DboSdaNklBb (#3) | Not re-opened | Presumed unposted (3d). |
+| 08-06 target                                          | Check                           | Result                                                                                                                                           |
+| ----------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| @typeishofficial DbsqrI9lgvq (#1, first-comment slot) | Thread read live at 1d          | **Unposted.** Thread has exactly 1 comment (an emoji from @growingwiththeenneagram, 22h). First-comment slot gone; room still effectively empty. |
+| @vvanedwards DboxrpAvxST (#2 Penelope)                | Not re-opened (2d, was durable) | Presumed unposted; superseded by promo-week posts on her grid.                                                                                   |
+| @thesecurerelationship DboSdaNklBb (#3)               | Not re-opened                   | Presumed unposted (3d).                                                                                                                          |
 
 **This is the ninth consecutive session with zero comments posted.** The v6 test condition from the reply-leg memory is met and exceeded: finished copy exists every day; posting remains the only unexecuted step.
 
@@ -42,11 +42,11 @@
 
 ## Priority Summary
 
-| #   | Account                   | Pond / Type                                | Topic                                  | Age  | Comments | Mode | Opp Type                                    | Level | Score | Profile                                                          | Queue     |
-| --- | ------------------------- | ------------------------------------------ | -------------------------------------- | ---- | -------- | ---- | ------------------------------------------- | ----- | ----- | ---------------------------------------------------------------- | --------- |
-| 1   | @alignedsoulco            | Enneagram-native (8 register, all nine)    | "Enneagram Red Flags" carousel + CTA   | 13m  | 1        | post | Warm re-approach on the exact surface flagged 08-06 | 2     | 99    | docs/instagram/account-profiles/alignedsoulco.md                 | Suggested |
-| 2   | @candicemichelleenneagram | Enneagram-native (5 slide = ACTIVE pond)   | "Kinda chic to surprise yourself"      | 11h  | 1        | post | **First touch after 13 zero-contact scans** | 2     | 91    | docs/instagram/account-profiles/candicemichelleenneagram.md      | Suggested |
-| 3   | @enneagram.life           | **peacemaker / Type 9** (+3)               | 3+9 pairing post, pop-culture CTA open | 2d   | 13       | post | Reactivated 65K anchor; 9-pond room         | 2     | 88    | docs/instagram/account-profiles/enneagram.life.md (created today) | Suggested |
+| #   | Account                   | Pond / Type                              | Topic                                  | Age | Comments | Mode | Opp Type                                            | Level | Score | Profile                                                           | Queue     |
+| --- | ------------------------- | ---------------------------------------- | -------------------------------------- | --- | -------- | ---- | --------------------------------------------------- | ----- | ----- | ----------------------------------------------------------------- | --------- |
+| 1   | @alignedsoulco            | Enneagram-native (8 register, all nine)  | "Enneagram Red Flags" carousel + CTA   | 13m | 1        | post | Warm re-approach on the exact surface flagged 08-06 | 2     | 99    | docs/instagram/account-profiles/alignedsoulco.md                  | Suggested |
+| 2   | @candicemichelleenneagram | Enneagram-native (5 slide = ACTIVE pond) | "Kinda chic to surprise yourself"      | 11h | 1        | post | **First touch after 13 zero-contact scans**         | 2     | 91    | docs/instagram/account-profiles/candicemichelleenneagram.md       | Suggested |
+| 3   | @enneagram.life           | **peacemaker / Type 9** (+3)             | 3+9 pairing post, pop-culture CTA open | 2d  | 13       | post | Reactivated 65K anchor; 9-pond room                 | 2     | 88    | docs/instagram/account-profiles/enneagram.life.md (created today) | Suggested |
 
 ---
 
@@ -214,11 +214,11 @@ The 3/9 dynamic in the thread is push-meets-immovable. The best-known pop-cultur
 
 ## Ready-to-Use Reply Suggestions
 
-| Priority | Account                   | Post                                                     | Mode | Exact suggestion                                                                                                                                                                                                    | Why it is specific                                                             | Status    |
-| -------- | ------------------------- | -------------------------------------------------------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------- |
-| 1        | @alignedsoulco            | https://www.instagram.com/alignedsoulco/p/DbvOnR0lolr/   | post | "Three of the 8 flags are loud but the shutdown one is the same move in reverse. If I can't steer the room I either flood it or leave it, and what I need in that moment is someone who doesn't flinch and doesn't leave." | Names the loud/silent inversion in her own 8 slide + answers her literal CTA   | Suggested |
-| 2        | @candicemichelleenneagram | https://www.instagram.com/p/DbuBcdKkZv5/                 | post | "The 5 one is the sneakiest on this list. From the inside, observing already feels like participating, so you can sit out a whole year and swear you were there for it."                                             | Responds to her exact slide-7 line ("picks participation as much as observation") | Suggested |
-| 3        | @enneagram.life           | https://www.instagram.com/p/DbnvrFTFPum/                 | post | "Ted and Rebecca in season one of Ted Lasso. She pushes all season and he never pushes back, he just smiles and doesn't move."                                                                                       | Answers the unanswered pop-culture-pairing CTA; dramatizes the thread's 9-stubbornness comment | Suggested |
+| Priority | Account                   | Post                                                   | Mode | Exact suggestion                                                                                                                                                                                                           | Why it is specific                                                                             | Status    |
+| -------- | ------------------------- | ------------------------------------------------------ | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------- |
+| 1        | @alignedsoulco            | https://www.instagram.com/alignedsoulco/p/DbvOnR0lolr/ | post | "Three of the 8 flags are loud but the shutdown one is the same move in reverse. If I can't steer the room I either flood it or leave it, and what I need in that moment is someone who doesn't flinch and doesn't leave." | Names the loud/silent inversion in her own 8 slide + answers her literal CTA                   | Suggested |
+| 2        | @candicemichelleenneagram | https://www.instagram.com/p/DbuBcdKkZv5/               | post | "The 5 one is the sneakiest on this list. From the inside, observing already feels like participating, so you can sit out a whole year and swear you were there for it."                                                   | Responds to her exact slide-7 line ("picks participation as much as observation")              | Suggested |
+| 3        | @enneagram.life           | https://www.instagram.com/p/DbnvrFTFPum/               | post | "Ted and Rebecca in season one of Ted Lasso. She pushes all season and he never pushes back, he just smiles and doesn't move."                                                                                             | Answers the unanswered pop-culture-pairing CTA; dramatizes the thread's 9-stubbornness comment | Suggested |
 
 **Posting order and spacing:** #1 first (13-minute catch on the warmest account — most perishable), #2 second, #3 last (2d thread, proven durable). 3–6 minutes between comments, never a burst. Verify the @9takesdotcom handle before each post. No links in any of the three. Optional before #2: follow @candicemichelleenneagram (the 08-02 standing order; still unexecuted).
 
@@ -226,20 +226,20 @@ The 3/9 dynamic in the thread is push-meets-immovable. The best-known pop-cultur
 
 ## Watch — No Reply Suggested
 
-| Account                | Post                                                              | Why it was interesting                                                                                  | Why no authentic reply cleared the gate                                                                                              |
-| ---------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| @thesecurerelationship | https://www.instagram.com/thesecurerelationship/reel/DbtQbONgf74/ | Fresh co-regulation reel (18h, 365 likes) — "not everyone feels co-regulated the same way" is on-thesis | Real comments are 1 joke + 12 single-letter spam posts from one account; the reel's actual mode list isn't readable, so nothing grounds |
-| @vvanedwards           | https://www.instagram.com/vvanedwards/p/DbtlkWWgOwu/              | "Everyone sees the keynote, nobody sees the 47 rehearsals" — good invisible-reps beat                    | Book pre-order promo; the room is congratulation-only, and anything additive reads as fan noise. Promo week likely continues — pause her as an engagement surface until the launch cycle passes |
-| @vvanedwards           | https://www.instagram.com/vvanedwards/reel/Dbqx6c7hz2_/           | Two commenters asked the same unanswered question ("example of the first five words?")                   | Answering requires the reel's formula, which isn't in the caption/DOM; also a comment-BOOK automation CTA post                        |
-| @typeishofficial       | https://www.instagram.com/typeishofficial/p/DbsqrI9lgvq/          | Yesterday's #1; thread still just 1 emoji comment at 1d                                                  | Already captured 08-06; not re-queued (7-day rule). Yesterday's drafted copy remains valid if DJ posts today                          |
+| Account                | Post                                                              | Why it was interesting                                                                                  | Why no authentic reply cleared the gate                                                                                                                                                         |
+| ---------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @thesecurerelationship | https://www.instagram.com/thesecurerelationship/reel/DbtQbONgf74/ | Fresh co-regulation reel (18h, 365 likes) — "not everyone feels co-regulated the same way" is on-thesis | Real comments are 1 joke + 12 single-letter spam posts from one account; the reel's actual mode list isn't readable, so nothing grounds                                                         |
+| @vvanedwards           | https://www.instagram.com/vvanedwards/p/DbtlkWWgOwu/              | "Everyone sees the keynote, nobody sees the 47 rehearsals" — good invisible-reps beat                   | Book pre-order promo; the room is congratulation-only, and anything additive reads as fan noise. Promo week likely continues — pause her as an engagement surface until the launch cycle passes |
+| @vvanedwards           | https://www.instagram.com/vvanedwards/reel/Dbqx6c7hz2_/           | Two commenters asked the same unanswered question ("example of the first five words?")                  | Answering requires the reel's formula, which isn't in the caption/DOM; also a comment-BOOK automation CTA post                                                                                  |
+| @typeishofficial       | https://www.instagram.com/typeishofficial/p/DbsqrI9lgvq/          | Yesterday's #1; thread still just 1 emoji comment at 1d                                                 | Already captured 08-06; not re-queued (7-day rule). Yesterday's drafted copy remains valid if DJ posts today                                                                                    |
 
 ---
 
 ## Saves Captured
 
-| #   | Shortcode   | Author                     | Why saved (one line)                                                                       | File                                                 |
-| --- | ----------- | -------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------- |
-| 1   | DbrcpkRkRzK | @candicemichelleenneagram  | "One person's helpful is another person's intrusive" — the 9takes thesis as a caption skeleton | docs/instagram/saves/inbox/2026-08-07_DbrcpkRkRzK.md |
+| #   | Shortcode   | Author                    | Why saved (one line)                                                                           | File                                                 |
+| --- | ----------- | ------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| 1   | DbrcpkRkRzK | @candicemichelleenneagram | "One person's helpful is another person's intrusive" — the 9takes thesis as a caption skeleton | docs/instagram/saves/inbox/2026-08-07_DbrcpkRkRzK.md |
 
 **Saves excluded by the reply-target rule:** DbvOnR0lolr (red-flags all-nine format), DbuBcdKkZv5 ("chic" countermove reframe), DbnvrFTFPum (pairing-post demand thread) all cleared the save bar on content but are today's reply targets, which Phase 7 excludes. If none get comments, tomorrow's warmup can save them clean — the red-flags "autopilot warning" reframe and the pairing-request thread ("do 6 and 9", "8&9", "4&6" = audience-validated content asks) are both worth keeping.
 
@@ -247,32 +247,32 @@ The 3/9 dynamic in the thread is push-meets-immovable. The best-known pop-cultur
 
 ## Profiles Created or Updated
 
-| Account                   | Profile                                                          | Action  | Why                                                                     |
-| ------------------------- | ---------------------------------------------------------------- | ------- | ----------------------------------------------------------------------- |
-| @alignedsoulco            | docs/instagram/account-profiles/alignedsoulco.md                 | Updated | Red-flags post queued as the planned fresh re-approach                  |
-| @candicemichelleenneagram | docs/instagram/account-profiles/candicemichelleenneagram.md      | Updated | New first-touch queued; slide-readability constraint falsified          |
-| @enneagram.life           | docs/instagram/account-profiles/enneagram.life.md                | Created | Queued today; reactivated 65K anchor previously marked dormant          |
-| @typeishofficial          | docs/instagram/account-profiles/typeishofficial.md               | Updated | 08-06 reconciliation: suggestion unposted, thread state logged          |
-| @thesecurerelationship    | docs/instagram/account-profiles/thesecurerelationship.md         | Updated | Co-regulation reel reviewed (spam thread, watch only)                   |
-| @vvanedwards              | docs/instagram/account-profiles/vvanedwards.md                   | Updated | Book-launch promo week — pause as engagement surface                    |
-| @partnersofavoidants      | docs/instagram/account-profiles/partnersofavoidants.md           | Created | First sweep (was never swept); verdict: Monitor only, wrong audience     |
+| Account                   | Profile                                                     | Action  | Why                                                                  |
+| ------------------------- | ----------------------------------------------------------- | ------- | -------------------------------------------------------------------- |
+| @alignedsoulco            | docs/instagram/account-profiles/alignedsoulco.md            | Updated | Red-flags post queued as the planned fresh re-approach               |
+| @candicemichelleenneagram | docs/instagram/account-profiles/candicemichelleenneagram.md | Updated | New first-touch queued; slide-readability constraint falsified       |
+| @enneagram.life           | docs/instagram/account-profiles/enneagram.life.md           | Created | Queued today; reactivated 65K anchor previously marked dormant       |
+| @typeishofficial          | docs/instagram/account-profiles/typeishofficial.md          | Updated | 08-06 reconciliation: suggestion unposted, thread state logged       |
+| @thesecurerelationship    | docs/instagram/account-profiles/thesecurerelationship.md    | Updated | Co-regulation reel reviewed (spam thread, watch only)                |
+| @vvanedwards              | docs/instagram/account-profiles/vvanedwards.md              | Updated | Book-launch promo week — pause as engagement surface                 |
+| @partnersofavoidants      | docs/instagram/account-profiles/partnersofavoidants.md      | Created | First sweep (was never swept); verdict: Monitor only, wrong audience |
 
 ---
 
 ## New Accounts Discovered
 
-| Account           | Followers | Pond / Type                   | Theme                                            | Content Type       | Suggested Tier | Why                                                                                                                        |
-| ----------------- | --------- | ----------------------------- | ------------------------------------------------ | ------------------ | -------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| @9ish_andiknowit  | unknown   | `[pond: peacemaker / Type 9]` | Type-9 persona account (@Nish_andiknowit family) | Collabs, stories   | Watch → review | Co-authored the enneagram.life 3+9 pairing post; a dedicated Type 9 account is the first stable room we've seen for the hardest pond. Family (2ish/3ish/4ish/7ish/8ish) already noted in targets intel; 9ish now has collab-level reach. Sweep its grid next warmup. |
+| Account          | Followers | Pond / Type                   | Theme                                            | Content Type     | Suggested Tier | Why                                                                                                                                                                                                                                                                  |
+| ---------------- | --------- | ----------------------------- | ------------------------------------------------ | ---------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @9ish_andiknowit | unknown   | `[pond: peacemaker / Type 9]` | Type-9 persona account (@Nish_andiknowit family) | Collabs, stories | Watch → review | Co-authored the enneagram.life 3+9 pairing post; a dedicated Type 9 account is the first stable room we've seen for the hardest pond. Family (2ish/3ish/4ish/7ish/8ish) already noted in targets intel; 9ish now has collab-level reach. Sweep its grid next warmup. |
 
 ---
 
 ## Hashtag/Search Performance
 
-| Surface                              | Checked | Quality Posts Found | Notes                                                                                                                       |
-| ------------------------------------ | ------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Keyword search "social battery"      | Yes     | 0 fresh             | Surface rendered (rare) but results are evergreen/corporate. Only 2 recent shortcodes: an app's marketing account (@clarify.focus, AuDHD angle, 5d) and a clinic chain (@lifestancehealth, 1w). No live 5-pond room found. |
-| Hashtags                             | No      | —                   | Structurally dead on web; 11+ warmups. Not attempted.                                                                        |
+| Surface                         | Checked | Quality Posts Found | Notes                                                                                                                                                                                                                      |
+| ------------------------------- | ------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Keyword search "social battery" | Yes     | 0 fresh             | Surface rendered (rare) but results are evergreen/corporate. Only 2 recent shortcodes: an app's marketing account (@clarify.focus, AuDHD angle, 5d) and a clinic chain (@lifestancehealth, 1w). No live 5-pond room found. |
+| Hashtags                        | No      | —                   | Structurally dead on web; 11+ warmups. Not attempted.                                                                                                                                                                      |
 
 ---
 

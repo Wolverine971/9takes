@@ -162,6 +162,7 @@ description: |
   
   #nfl #patrickmahomes #newheights #chiefs #eagles
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/new-heights-ep15-mahomes.md
 ---
 
 # Patrick Mahomes on QB Rivals, Brady Advice & Curry Comps | New Heights w/Jason & Travis Kelce |EP 15

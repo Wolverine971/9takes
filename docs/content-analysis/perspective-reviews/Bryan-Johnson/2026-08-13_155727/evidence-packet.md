@@ -5,6 +5,7 @@ subject: Bryan-Johnson
 draft_sha256: 153e766ddbf744c9feeb50ed9cef369c26f4aa4e4f40e96a8da2dd6f0e3f960c
 packet_status: complete
 compiled_at: 2026-08-13T15:59:00Z
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_155727/evidence-packet.md
 ---
 
 ## Identity and scope
@@ -71,16 +72,16 @@ gastritis announcement. Enneagram claims remain interpretations of public eviden
 
 ## Draft claim inventory
 
-| ID | Claim | Class | Status and limitation |
-| --- | --- | --- | --- |
-| CLM-01 | Johnson waited for failed childhood pickups | autobiographical memory | Attributed; exact frequency is not independently verified |
-| CLM-02 | The best public Enneagram fit is social/self-preservation 3w4 | psychological interpretation | Central hypothesis; Type Four is a strong alternative and confidence is medium |
-| CLM-03 | Role loss after Braintree preceded construction of a measurable public role | mixed fact and interpretation | The events and quotations are sourced; their motivational relationship is interpretive |
-| CLM-04 | Blueprint combines laboratory, character, manifesto, ledger, and product demo | editorial analysis | The underlying activities are sourced; the five-part map is the article's model |
-| CLM-05 | Blueprint lacks independent scientific validation as a unified intervention stack | methodological assessment | Supported by named researchers and Johnson's own uncertainty |
-| CLM-06 | Former workers filed labor complaints concerning confidentiality agreements | reported controversy | Attributed to NYT and WIRED; complaints are not adjudicated facts or typing evidence |
-| CLM-07 | Tolo and Talmage describe warmth and patience | close-witness testimony | Favorable and relationally invested; limitations are stated in the article |
-| CLM-08 | Johnson announced autoimmune gastritis and predicts a cure | medical self-report and forecast | Diagnosis and determination are attributed; medical outcome is unresolved |
+| ID     | Claim                                                                             | Class                            | Status and limitation                                                                  |
+| ------ | --------------------------------------------------------------------------------- | -------------------------------- | -------------------------------------------------------------------------------------- |
+| CLM-01 | Johnson waited for failed childhood pickups                                       | autobiographical memory          | Attributed; exact frequency is not independently verified                              |
+| CLM-02 | The best public Enneagram fit is social/self-preservation 3w4                     | psychological interpretation     | Central hypothesis; Type Four is a strong alternative and confidence is medium         |
+| CLM-03 | Role loss after Braintree preceded construction of a measurable public role       | mixed fact and interpretation    | The events and quotations are sourced; their motivational relationship is interpretive |
+| CLM-04 | Blueprint combines laboratory, character, manifesto, ledger, and product demo     | editorial analysis               | The underlying activities are sourced; the five-part map is the article's model        |
+| CLM-05 | Blueprint lacks independent scientific validation as a unified intervention stack | methodological assessment        | Supported by named researchers and Johnson's own uncertainty                           |
+| CLM-06 | Former workers filed labor complaints concerning confidentiality agreements       | reported controversy             | Attributed to NYT and WIRED; complaints are not adjudicated facts or typing evidence   |
+| CLM-07 | Tolo and Talmage describe warmth and patience                                     | close-witness testimony          | Favorable and relationally invested; limitations are stated in the article             |
+| CLM-08 | Johnson announced autoimmune gastritis and predicts a cure                        | medical self-report and forecast | Diagnosis and determination are attributed; medical outcome is unresolved              |
 
 ## Disputes and unresolved questions
 

@@ -43,14 +43,14 @@ Machine Gun Kelly, born Colson Baker, is an American rapper, singer, songwriter,
 
 ## Draft claim inventory
 
-| Claim | Class | Review boundary |
-| --- | --- | --- |
-| Type 4 is the best public fit | psychological interpretation | Strong editorial inference, not diagnosis |
-| A 3 wing explains output, competition, and demand for receipts | typology interpretation | Plausible, less certain than core type |
-| Wreckage functions as creative supply | first-person claim plus synthesis | Repeated pattern; intentionality remains disputed |
-| The blackout tattoo breaks the strongest Type 3 account | behavioral interpretation | Strong person-specific tiebreaker, not proof |
-| Album titles form a confession sheet | literary synthesis | Original editorial structure grounded in public titles |
-| Battle-rap training explains the combat reflex | countertyping inference | Plausible answer to a genuine gap in the Four reading |
+| Claim                                                          | Class                             | Review boundary                                        |
+| -------------------------------------------------------------- | --------------------------------- | ------------------------------------------------------ |
+| Type 4 is the best public fit                                  | psychological interpretation      | Strong editorial inference, not diagnosis              |
+| A 3 wing explains output, competition, and demand for receipts | typology interpretation           | Plausible, less certain than core type                 |
+| Wreckage functions as creative supply                          | first-person claim plus synthesis | Repeated pattern; intentionality remains disputed      |
+| The blackout tattoo breaks the strongest Type 3 account        | behavioral interpretation         | Strong person-specific tiebreaker, not proof           |
+| Album titles form a confession sheet                           | literary synthesis                | Original editorial structure grounded in public titles |
+| Battle-rap training explains the combat reflex                 | countertyping inference           | Plausible answer to a genuine gap in the Four reading  |
 
 ## Disputes and unresolved questions
 

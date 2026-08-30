@@ -36,10 +36,10 @@
 
 ## Relationship History
 
-| Date       | Surface | Topic                                                                                  | Post Link                                | Action   | Status | What We Said / Planned                                                                                       | Outcome | Source                            |
-| ---------- | ------- | -------------------------------------------------------------------------------------- | ---------------------------------------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------ | ------- | --------------------------------- |
-| 2026-08-07 | Reel    | "Netflix documentary / I don't care where we eat" (6d, 131+ likes, 4 comments)          | https://www.instagram.com/p/DbeoMxFKish/ | Reviewed | Saved  | Filter-B save (mock-doc format skeleton) — no reply queued; CTA "What would your Netflix documentary be?" open | —       | 2026-08-07_instagram-warmup-2.md  |
-| 2026-08-07 | Collab  | 9+8 pairing post on @enneagram.life (co-author; she also liked it)                      | https://www.instagram.com/p/DbtJ-atlBdO/ | Reviewed | Queued | Comment-level reply queued in @adtaylorlandry's thread (see enneagram.life profile + warmup-2 doc)            | Pending | 2026-08-07_instagram-warmup-2.md  |
+| Date       | Surface | Topic                                                                          | Post Link                                | Action   | Status | What We Said / Planned                                                                                         | Outcome | Source                           |
+| ---------- | ------- | ------------------------------------------------------------------------------ | ---------------------------------------- | -------- | ------ | -------------------------------------------------------------------------------------------------------------- | ------- | -------------------------------- |
+| 2026-08-07 | Reel    | "Netflix documentary / I don't care where we eat" (6d, 131+ likes, 4 comments) | https://www.instagram.com/p/DbeoMxFKish/ | Reviewed | Saved  | Filter-B save (mock-doc format skeleton) — no reply queued; CTA "What would your Netflix documentary be?" open | —       | 2026-08-07_instagram-warmup-2.md |
+| 2026-08-07 | Collab  | 9+8 pairing post on @enneagram.life (co-author; she also liked it)             | https://www.instagram.com/p/DbtJ-atlBdO/ | Reviewed | Queued | Comment-level reply queued in @adtaylorlandry's thread (see enneagram.life profile + warmup-2 doc)             | Pending | 2026-08-07_instagram-warmup-2.md |
 
 ## Next Best Angles
 

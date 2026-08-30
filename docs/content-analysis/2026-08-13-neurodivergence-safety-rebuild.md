@@ -1,3 +1,5 @@
+<!-- docs/content-analysis/2026-08-13-neurodivergence-safety-rebuild.md -->
+
 # Neurodivergence Guide Safety Rebuild
 
 **Date:** 2026-08-13

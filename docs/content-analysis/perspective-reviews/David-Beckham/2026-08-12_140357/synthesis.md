@@ -11,6 +11,7 @@ research_required: 2
 protected_hits: 9
 requires_revision: true
 synthesized_at: 2026-08-12T18:38:09Z
+path: docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357/synthesis.md
 ---
 
 ## Executive verdict
@@ -35,9 +36,9 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 
 - **Originating findings:** CRITIC-B1 (critic); FAN-C2 (fan); ENNEAGRAM-R1 (enneagram); SUBJECT-R1 (subject); UNFAMILIAR-C4 (unfamiliar); FUTURE-C4 (future).
 - **Exact location and quoted passage:** Frontmatter FAQ “Is David Beckham a Type 3 or a Type 9?”: “the sixteen-year pursuit of a Miami club, the fashion house and the Attitude cover”; diagnosis, final paragraph: “Nobody assigned the fashion house”; Rabbit Hole, Type 9 countercase: “nobody assigned him the Miami club, fashion house or Attitude cover.” The TL;DR's broader “Fashion” should also be checked for consistency.
-- **Adjudicated problem:** Accept. The packet establishes modelling, endorsements, image work, Los Angeles, Miami, the *Attitude* cover, and Studio 99, but it does not establish a David-founded or David-owned fashion house. The phrase appears at three decision points and may appropriate Victoria Beckham's venture as evidence about David. This is a material factual and subject-fairness failure inside the core thesis.
+- **Adjudicated problem:** Accept. The packet establishes modelling, endorsements, image work, Los Angeles, Miami, the _Attitude_ cover, and Studio 99, but it does not establish a David-founded or David-owned fashion house. The phrase appears at three decision points and may appropriate Victoria Beckham's venture as evidence about David. This is a material factual and subject-fairness failure inside the core thesis.
 - **Evidence and confidence:** Evidence-packet dispute 2 and CLM-06 expressly identify the gap; all six jurors detected it independently. **Confidence: high.**
-- **Minimum repair:** Delete “fashion house” in all three locations. Use a consistent set of already verified examples, preferably Los Angeles, Miami, the *Attitude* cover, and Beckham's documented Studio 99 production association. Do not research a replacement merely to preserve the phrase.
+- **Minimum repair:** Delete “fashion house” in all three locations. Use a consistent set of already verified examples, preferably Los Angeles, Miami, the _Attitude_ cover, and Beckham's documented Studio 99 production association. Do not research a replacement merely to preserve the phrase.
 - **Expected reader benefit:** The Three/Nine comparison rests only on acts attributable to Beckham, preserving fan and subject trust without narrowing the argument's range.
 - **Protected hit or tradeoff at risk:** Protect **PROTECT-01**, the self-authorship/finished-object thesis, and **PROTECT-06**, the live Type 9 countercase. Avoid implying that Studio 99 production association equals editorial control.
 - **Acceptance test:** Pass only if reader-visible text contains no generic “fashion house” attributed to David Beckham; the FAQ, diagnosis, TL;DR, and Rabbit Hole use a consistent verified example set; and every replacement describes Beckham's documented role accurately.
@@ -48,7 +49,7 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 - **Exact location and quoted passage:** “Neville, who saved his wages, supplies the weekly budget,” followed by “David used to get his salary on a Friday, spend it on a Saturday, then spend the next five days waiting for his next salary to get the jeans to match.” The blockquote credits Gary Neville.
 - **Adjudicated problem:** Accept and elevate to P0. The words occur in the official program, but the available auto-transcript has no speaker labels and a nearby “me and Gary” phrase leaves the speaker boundary unresolved. A vivid named quotation is an avoidable attribution-level trust break.
 - **Evidence and confidence:** Evidence-packet dispute 1, Third-party testimony, and CLM-18 confirm the wording but not the speaker. Four jurors independently identified the same defect. **Confidence: high that the attribution is unresolved; no finding that the words themselves are false.**
-- **Minimum repair:** Remove “Neville supplies” and the Gary Neville credit. Either introduce the words as an anecdote heard in archive shown on *Stick to Football*, or cut the quote while keeping Beckham's securely attributed M3, watches, clothes, and “look good for the paps” material. Do not hold the revision open for speaker research.
+- **Minimum repair:** Remove “Neville supplies” and the Gary Neville credit. Either introduce the words as an anecdote heard in archive shown on _Stick to Football_, or cut the quote while keeping Beckham's securely attributed M3, watches, clothes, and “look good for the paps” material. Do not hold the revision open for speaker research.
 - **Expected reader benefit:** Quotation precision becomes source-proportionate while the comic evidence and recognizable youthful excess can remain.
 - **Protected hit or tradeoff at risk:** Protect **PROTECT-09**, the humane comic texture. Do not accidentally delete the independently verified Neville “wasn't enough for him” testimony.
 - **Acceptance test:** Pass only if the salary-to-jeans wording is either unattributed to an individual or supported by a speaker-identifiable primary locator added to the citation trail; “Neville, who saved his wages, supplies” is absent unless that direct proof exists.
@@ -82,7 +83,7 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 - **Originating findings:** CRITIC-C4 (critic); SUBJECT-C1 (subject); related FUTURE-P5 (future).
 - **Exact location and quoted passage:** Opening: “So does the form he chose: a finished account”; Qatar section: “The revealing part for this profile is his preferred form of reply,” “allowing the crises of his career to be retold in his voice,” and “he answered with a finished narrative.”
 - **Adjudicated problem:** Accept. Studio 99's production role and Beckham's participation support analysis of the documentary as a finished public form. They do not establish sole authorship, final-cut control, a commissioning motive of reputation repair, or that every narrative choice was his. The present verbs partially outrun the adjacent no-editorial-control caveat.
-- **Evidence and confidence:** Packet S-05, CLM-02/03/30, and dispute 5 establish production association and Beckham's stated lack of editorial control. The subject review's logged Netflix *Skip Intro* transcript supplies Beckham's stated retrospective/family purposes and Fisher Stevens's shaping role. **Confidence: high that motive and control need separation; medium-high on exact replacement wording.**
+- **Evidence and confidence:** Packet S-05, CLM-02/03/30, and dispute 5 establish production association and Beckham's stated lack of editorial control. The subject review's logged Netflix _Skip Intro_ transcript supplies Beckham's stated retrospective/family purposes and Fisher Stevens's shaping role. **Confidence: high that motive and control need separation; medium-high on exact replacement wording.**
 - **Minimum repair:** State one compact first-person purpose Beckham gave, such as looking back for his family and hearing others' perspectives, and acknowledge the director's shaping role. Replace “preferred form of reply” and “he answered” with language about what the finished series can do in public regardless of private motive. Keep Studio 99 and no-editorial-control disclosures adjacent at first substantive use.
 - **Expected reader benefit:** The article keeps its best formal insight while representing Beckham's own explanation and the production process fairly.
 - **Protected hit or tradeoff at risk:** Protect **PROTECT-01** and **PROTECT-07**. Do not weaken the clear statement that the series should not be treated as false confession.
@@ -129,7 +130,7 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 - **Evidence and confidence:** Packet S-13 and CLM-28/29 establish the paid promotional role, undisclosed fee, HRW findings, and the limits of Beckham's answer. **Confidence: medium-high.**
 - **Minimum repair:** Add one compact sentence stating that Beckham lent a globally trusted name to Qatar's promotion and received an undisclosed financial benefit while migrant workers and LGBTQ people bore the cited legal and labor stakes. Then retain the existing distinction between his access/optimism response and the objections it did not answer. Do not allege a private motive or select an unconfirmed fee.
 - **Expected reader benefit:** The controversy is evaluated first through impact and institutional power, then used carefully as evidence about response form.
-- **Protected hit or tradeoff at risk:** Protect **PROTECT-04**, especially “The answer left the documented discriminatory laws and labor abuses untouched” and “It cannot cover it,” plus the *Attitude*-to-Qatar history.
+- **Protected hit or tradeoff at risk:** Protect **PROTECT-04**, especially “The answer left the documented discriminatory laws and labor abuses untouched” and “It cannot cover it,” plus the _Attitude_-to-Qatar history.
 - **Acceptance test:** Pass only if the promotional exchange and affected groups are named before the type/form pivot, no unconfirmed fee is stated as fact, and reputation loss is not framed as the controversy's principal harm.
 
 ### P1-07 — Correct the post-Madrid football chronology without turning the article into a career recap
@@ -192,7 +193,7 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 - **Status:** research_required.
 - **Originating findings:** FAN-Q4 (fan); UNFAMILIAR-Q4 (unfamiliar); FUTURE-C3/FUTURE-Q5 (future); evidence-packet dispute 3.
 - **Affected passage:** Opening: “trimming spent candle wicks, resetting dimmers” and “he called the ritual exhausting.”
-- **Exact unresolved question:** Which *Beckham* episode and timestamp contain each action and the “exhausting” characterization?
+- **Exact unresolved question:** Which _Beckham_ episode and timestamp contain each action and the “exhausting” characterization?
 - **Source needed:** The Netflix episode itself or an official time-coded transcript. Record episode title, release context, and timestamp.
 - **Why research is required:** The factual substance is supported in the review trail and no juror alleges contradiction, but the hook is load-bearing and currently cannot be directly located from the article's citation trail.
 - **Safe outcome rule:** If located, add the locator and keep the hook. If any detail cannot be located, narrow the opening to the directly verified actions rather than paraphrasing from memory.
@@ -203,7 +204,7 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 - **Status:** research_required.
 - **Originating findings:** FUTURE-C3/FUTURE-Q5 (future); evidence-packet S-16.
 - **Affected passage:** Marriage section: “Of course not. We stay together because we love each other.”
-- **Exact unresolved question:** Where in the 29 January 2017 BBC Radio 4 *Desert Island Discs* episode does Beckham give the quoted denial, and what durable BBC page or audio locator can a future verifier use?
+- **Exact unresolved question:** Where in the 29 January 2017 BBC Radio 4 _Desert Island Discs_ episode does Beckham give the quoted denial, and what durable BBC page or audio locator can a future verifier use?
 - **Source needed:** The BBC Radio 4 episode page/audio and an exact timestamp or official transcript. The packet notes that a related BBC News write-up now returns 404.
 - **Why research is required:** The quote is supported by the episode and multiple write-ups, but the current source path is fragile and the quotation is the principal first-person counterweight to the article's commercial reading of the marriage.
 - **Safe outcome rule:** If a primary locator is found, retain the quotation. If not, paraphrase the denial with precise attribution rather than presenting a hard-to-audit direct quote.
@@ -223,7 +224,7 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 
 6. **Theoretical “answers” versus documented chronology — mark the writer's lens.** The fan delights in the finished-answer connection, while critic and subject reviewers warn that later achievements were not proven intentional responses to 1998. P1-04 preserves the sequence and labels the causal reading as interpretation.
 
-7. **Source resilience conflict around “peace” — resolved, not research-required.** FUTURE-C3 inherited the packet's uncertainty about the direct *Country Life* passage. SUBJECT-H5 and the subject research log report that the 22 October 2025 *Country Life* article directly verifies “peace.” Preserve the quotation with the direct article citation; only the 2am scene and BBC denial remain RQ items.
+7. **Source resilience conflict around “peace” — resolved, not research-required.** FUTURE-C3 inherited the packet's uncertainty about the direct _Country Life_ passage. SUBJECT-H5 and the subject research log report that the 22 October 2025 _Country Life_ article directly verifies “peace.” Preserve the quotation with the direct article citation; only the 2am scene and BBC denial remain RQ items.
 
 ## Rejected feedback
 
@@ -239,7 +240,7 @@ No other review declared a blocker. The fan, future, and unfamiliar reviewers' m
 
 - **REJECT-06 — Add extensive Enneagram alternatives and jargon to the main article.** Reject the maximal form of ENNEAGRAM-E2/E3. P1-01 supplies the minimum accessible discriminator, and P1-08 calibrates the Rabbit Hole. More terminology would bloat the default fan reading.
 
-- **REJECT-07 — Treat the directly located “peace” quotation as unresolved.** Reject that portion of FUTURE-C3 because the subject review's logged direct *Country Life* article resolves the packet's earlier asymmetry. Preserve source disclosure that Beckham guest-edited the issue.
+- **REJECT-07 — Treat the directly located “peace” quotation as unresolved.** Reject that portion of FUTURE-C3 because the subject review's logged direct _Country Life_ article resolves the packet's earlier asymmetry. Preserve source disclosure that Beckham guest-edited the issue.
 
 - **REJECT-08 — Use honors or charity to answer Qatar.** No reviewer actually recommends this, but it is an important boundary implicated by the record. Preserve the existing refusal; do not revise toward exoneration in the name of balance.
 
@@ -257,11 +258,11 @@ Preserve Beckham's “I don't know,” his credit to the manager/team/teammates,
 
 ### PROTECT-03 — The hive as a limit, not redemption
 
-Preserve the 4am flat-pack-to-waiting progression, the disclosure that Beckham guest-edited the *Country Life* issue, “the part he could not master in one night,” and the ending: “Beckham can prepare, tend and return. He cannot make the season move.” This is the freshest second insight.
+Preserve the 4am flat-pack-to-waiting progression, the disclosure that Beckham guest-edited the _Country Life_ issue, “the part he could not master in one night,” and the ending: “Beckham can prepare, tend and return. He cannot make the season move.” This is the freshest second insight.
 
 ### PROTECT-04 — Qatar remains unanswered by access, charity, or honors
 
-Preserve the *Attitude*-to-Qatar history, “The answer left the documented discriminatory laws and labor abuses untouched,” “None of that rebuts the Qatar criticism,” and “It cannot cover it.” This is the clearest proof that sympathy is not excuse-making.
+Preserve the _Attitude_-to-Qatar history, “The answer left the documented discriminatory laws and labor abuses untouched,” “None of that rebuts the Qatar criticism,” and “It cannot cover it.” This is the clearest proof that sympathy is not excuse-making.
 
 ### PROTECT-05 — Miami's epistemic boundary
 

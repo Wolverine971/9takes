@@ -5,6 +5,7 @@ subject: Demis-Hassabis
 draft_sha256: e4da97083dbcdd623da5a8093ce678282f02d1f0faf27b150c6c61ee233cf8b0
 resolution_status: complete
 resolved_at: 2026-08-29T18:08:09Z
+path: docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004/revision-resolution.md
 ---
 
 ## Resolution log

@@ -11,6 +11,7 @@ research_required: 9
 protected_hits: 14
 requires_revision: true
 synthesized_at: 2026-08-20T07:11:13Z
+path: docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/synthesis.md
 ---
 
 ## Executive verdict
@@ -51,7 +52,7 @@ draft is at its weakest exactly where it reaches for a clean line.**
    text: "the only one she seems able to reach for," "there is not one now," and the persona_title
    that hands her a word she publicly refused eleven months before this draft was written.
 
-Nothing here is a rewrite. The biographical spine, the diagnosis, the bespoke timed *form*, the
+Nothing here is a rewrite. The biographical spine, the diagnosis, the bespoke timed _form_, the
 Unbearable section, and the trolley close all survive every repair below. Most P0 items are one
 clause. Two require a decision the editor cannot improvise (measure the pause or reframe it; source
 Sannes or paraphrase her), and both have an executable fallback that does not block publication.
@@ -78,7 +79,7 @@ item below names what it trades against.
   technique of a credentialed early childhood educator, and it is then used as the evidentiary base
   for a psychological claim ("she has never given herself the four seconds back"), which only works
   if the four seconds is real.
-- **Evidence and confidence:** Packet CLM-01, status *unresolved*: "No source establishes that Ms.
+- **Evidence and confidence:** Packet CLM-01, status _unresolved_: "No source establishes that Ms.
   Rachel waits exactly four seconds," flagged as the packet's single most important item. ASHA
   specifies no seconds (S-31). SLP sources describe a 3–5 second expectant pause as a professional
   range, with R-01 cautioning to "treat the range as a professional description, not a measured
@@ -94,12 +95,12 @@ item below names what it trades against.
     professional practice, replace the decimal timestamps with labeled beats, and rebuild `title`,
     `meta_title`, `description` and the close on the behavior rather than on a figure ("Why Ms.
     Rachel Stops Talking" / "The Pause Is the Product" were both proposed).
-  Path (a) is strictly better and is a bounded task, not open-ended research.
+    Path (a) is strictly better and is a bounded task, not open-ended research.
 - **Reader benefit:** The piece's most distinctive asset stops resting on a number a reader can
   disprove with a stopwatch, and the surrounding ASHA and turn-taking citations — which are correct
   — stop being guilty by association.
 - **Protected hit at risk:** PROTECT-05, the second-by-second form. Three reviewers explicitly said
-  the *form* must survive whatever happens to the *number*. Do not delete the section.
+  the _form_ must survive whatever happens to the _number_. Do not delete the section.
 - **Acceptance test:** Every second-count in the piece traces either to a stated measurement with a
   stated sample, or to a cited professional source. `title`, `meta_title`, and `description` contain
   no unsourced integer. No psychological claim depends on an unmeasured figure.
@@ -119,16 +120,16 @@ item below names what it trades against.
   documentary substance existed. (3) The date is packet-disputed and the characterization of her
   response is untraced.
 - **Evidence and confidence:** Packet Controversies §4 — "The group provided no public evidence
-  (S-16, S-17). No investigation has been established as opened." CLM-03: *disputed* — NewsNation/
+  (S-16, S-17). No investigation has been established as opened." CLM-03: _disputed_ — NewsNation/
   The Hill published April 9, 2025; StopAntisemitism's own post URL is dated 04/08; only Wikipedia
-  and R-01 say May. CLM-04: "Accurso called it absurd and patently false" is *unresolved*, traced
+  and R-01 say May. CLM-04: "Accurso called it absurd and patently false" is _unresolved_, traced
   only to Wikipedia/R-01; located responses use different language. **Confidence: high.**
 - **Minimum repair:** Two clauses and two corrections in the same paragraph — that the group offered
   no public evidence and that no investigation has been reported opened; April rather than May (or
   an explicit hedge); drop "with a paper trail attached"; drop or replace the "absurd and patently
   false" characterization and let the two dated interview quotes carry the contrast unaided.
 - **Reader benefit:** The reader can weigh the accusation instead of inheriting it — and the
-  argument gets *stronger*, not weaker. "She answers a money question with her heart" lands harder
+  argument gets _stronger_, not weaker. "She answers a money question with her heart" lands harder
   when the reader knows there was nothing to answer.
 - **Protected hit at risk:** PROTECT-01. The repair lands inside the piece's best passage. Fix the
   surrounding facts; do not touch "Asked about money, she talks about her heart."
@@ -178,11 +179,11 @@ item below names what it trades against.
   paragraph does not. It is also a theory error independent of the fairness problem.
 - **Evidence and confidence:** I verified the house canon directly.
   `src/blog/enneagram/enneagram-connecting-lines.md:106-108` defines the 2→8 move as being about the
-  Two's *own* unstated needs — "Old favors become evidence in a case: 'After everything I've done for
+  Two's _own_ unstated needs — "Old favors become evidence in a case: 'After everything I've done for
   you…'" — and states outright: **"Directness itself is not the problem. The stress pattern appears
   when care becomes leverage."** All four of the draft's examples are third-party advocacy; none
   involves an unmet need of hers. The draft's argument — that directness from a non-confrontational
-  person *is* the marker — is the exact error the house material names. Packet guardrail section:
+  person _is_ the marker — is the exact error the house material names. Packet guardrail section:
   R-01 and R-02 both prohibit psychologizing her political convictions. **Confidence: high.**
 - **Minimum repair:** Cut the four political examples. Then either drop the stress-arrow claim, or
   re-anchor it on the December 2025 Instagram statement (packet S-25), where she speaks on her own
@@ -194,7 +195,7 @@ item below names what it trades against.
 - **Protected hit at risk:** PROTECT-12, the Rabbit Hole quarantine. Keep the repair inside the
   Rabbit Hole; do not import the fix into the jargon-free body.
 - **Acceptance test:** The arrow paragraph cites no instance of her Gaza or political advocacy as
-  evidence. Every retained example is one in which Accurso asserts *her own* unmet need or
+  evidence. Every retained example is one in which Accurso asserts _her own_ unmet need or
   grievance. A reader who disagrees with her politics cannot read the paragraph as a diagnosis of
   her politics.
 
@@ -241,7 +242,7 @@ item below names what it trades against.
   'I revere him as a saint.'"
 - **Adjudicated problem:** The framing label the site attaches to her name is a word she reserved,
   in public and in religious earnest, for someone else. Worse, the draft possesses her refusal and
-  repurposes it: "what she thought of the comparison" is that she *cannot accept it*, and rendered
+  repurposes it: "what she thought of the comparison" is that she _cannot accept it_, and rendered
   as written the quote reads as modest admiration decorating a framing she rejected. That is a
   context distortion, which is a P0 class independent of the label question.
 - **Evidence and confidence:** Her Threads post, @msrachelforlittles, July 31, 2025, verified
@@ -255,7 +256,7 @@ item below names what it trades against.
   than her virtue — the piece's own vocabulary supplies options. (2) In the Emmy section, add one
   clause reporting that she has said she cannot accept the comparison, with the "he's my hero"
   reason, before the "I revere him as a saint" line.
-- **Reader benefit:** The beat gets stronger, not weaker. A woman who *refuses* the comparison
+- **Reader benefit:** The beat gets stronger, not weaker. A woman who _refuses_ the comparison
   losing to the institution is a better paragraph than a woman who accepts it graciously.
 - **Protected hit at risk:** PROTECT-11, "The successor loses to the institution." The repair sits
   one sentence away from it; keep that line intact.
@@ -270,11 +271,11 @@ item below names what it trades against.
   aesthetic. She curated an exhibition of children's artwork in a Manhattan gallery and wore a dress
   printed with those drawings to accept a Glamour award…"
 - **Adjudicated problem:** Two independent defects in one sentence. **Theory:** integration to Four
-  is defined by attention turning *inward*. The gallery, the gown, and the podium line are all
+  is defined by attention turning _inward_. The gallery, the gown, and the podium line are all
   focused on other people's children — "What do you need from me?" rendered aesthetically. The
   draft grabs a real surface marker (creativity) and drops the condition that defines it
   (self-reference). It also contradicts the article's own closing twenty lines later. **Fact:** the
-  Glamour award (Nov 4, 2025) *precedes* the exhibition (Jan 13–26, 2026), so the gown cannot show
+  Glamour award (Nov 4, 2025) _precedes_ the exhibition (Jan 13–26, 2026), so the gown cannot show
   "those" drawings; and the gown was embroidered/upcycled, not printed. This is the more damaging
   error because it is good writing, so it is the detail a reader remembers.
 - **Evidence and confidence:** House canon verified in-repo,
@@ -306,8 +307,8 @@ item below names what it trades against.
 - **Adjudicated problem:** The piece tells the reader where the personality came from, which the
   house material explicitly refuses and the project's standing do-not-write list prohibits. A reader
   who clicks the Type 2 link the draft itself provides lands on a page that contradicts the framing.
-  Separately, the draft substitutes a motive: her stated reason is *"I didn't want the show to
-  end."* The draft renders it as a man about to stop paying attention to *her* — the Type 2 fear of
+  Separately, the draft substitutes a motive: her stated reason is _"I didn't want the show to
+  end."_ The draft renders it as a man about to stop paying attention to _her_ — the Type 2 fear of
   not being wanted, invented and attached to a four-year-old on the strength of a single 38-year-old
   memory.
 - **Evidence and confidence:** Verified in-repo. `src/blog/enneagram/enneagram-type-2.md:59`: "Plenty
@@ -392,7 +393,7 @@ item below names what it trades against.
 - **Originating:** FAN-C1, CRITIC-C5, SUBJECT-C1 (three perspectives, independently).
 - **Location / passage:** Controversies section, line 233: "In February 2023 a TikTok creator who
   describes herself online as a traditional mother posted a video objecting to Jules Hoffman, a
-  *Songs for Littles* cast member who uses they/them pronouns."
+  _Songs for Littles_ cast member who uses they/them pronouns."
 - **Adjudicated problem:** The passage reports the objection without reporting that there was nothing
   to object to. A reader reasonably infers the show taught pronouns to toddlers. It did not. This is
   a fairness failure in three directions at once: it grants a harassment campaign a factual footing
@@ -401,15 +402,15 @@ item below names what it trades against.
   a named colleague absorbed the campaign alone. It is also the fan correction of February 2023,
   which means the informed reader most likely to share this piece is the one most likely to notice.
 - **Evidence and confidence:** Packet §D-09 and controversy item 1 (S-20, TODAY/Rolling Stone): no
-  pronoun lesson ever appeared on *Songs for Littles*; the rumor appears to have originated in
+  pronoun lesson ever appeared on _Songs for Littles_; the rumor appears to have originated in
   Hoffman's personal TikToks. The packet flags this as "a factual gap with fairness consequences in
   both directions." **Confidence: high.**
 - **Minimum repair:** One clause after the objection is described, noting that no such segment ever
   aired on the show, per contemporaneous reporting. Optionally one more clause noting Hoffman has not
   publicly criticized her handling of it (their quoted words to ABC are notably un-aggrieved).
-- **Reader benefit:** The subsequent Type 2 reading gets *stronger*: she went silent and posted about
+- **Reader benefit:** The subsequent Type 2 reading gets _stronger_: she went silent and posted about
   love in response to a campaign built on something that never happened, and still never named it.
-- **Protected hit at risk:** PROTECT-06, the hedging discipline. This repair *extends* that
+- **Protected hit at risk:** PROTECT-06, the hedging discipline. This repair _extends_ that
   discipline; it does not trade against it. Critic also asks to name the power asymmetry in "Someone
   in her care" — I am deferring that (see Rejected feedback), because critic's own preserve list
   protects that sentence verbatim.
@@ -427,7 +428,7 @@ item below names what it trades against.
 - **Adjudicated problem:** (1) asserts a formal proceeding that did not occur — and the main body
   gets it right ("in a congressional office with a folder"), so the rabbit hole contradicts the body
   on the same event. (2) states a private fact about an infant that the family did not disclose;
-  April 8 is the *announcement* date, and outlets describe the couple as having "quietly welcomed"
+  April 8 is the _announcement_ date, and outlets describe the couple as having "quietly welcomed"
   her.
 - **Evidence and confidence:** Packet CLM-21 (S-05): no testimony occurred; she visited ~10 Senate
   offices and House members and delivered packets. Packet CLM-26 (S-18): April 8 is the announcement;
@@ -455,7 +456,7 @@ item below names what it trades against.
   point the piece claims its most original insight.
 - **Evidence and confidence:** Internal to the draft; I confirmed the objection appears nowhere in
   the controversies section. I reject critic's stronger charge that the paragraph "adjudicates the
-  dispute it promises not to adjudicate" — the stated guardrail is about *her* conviction, and the
+  dispute it promises not to adjudicate" — the stated guardrail is about _her_ conviction, and the
   draft honors it; and the draft already scopes the claim to "a large share of her audience" rather
   than to all objectors. **Confidence: high on the omission; the totalizing charge is overstated.**
 - **Minimum repair:** One sentence stating the strongest non-parasocial version of the parents'
@@ -484,7 +485,7 @@ item below names what it trades against.
   sensitive material the piece handles, and the specific wording is unverified. If it is wrong, it is
   wrong in the one place where being wrong injures her in both directions.
 - **Evidence / confidence:** Packet CLM-18 and S-36, described by the packet as the weakest item in
-  its ledger, with no canonical URL captured. What *is* attested: she posted Kfir's photo on his
+  its ledger, with no canonical URL captured. What _is_ attested: she posted Kfir's photo on his
   birthday wishing the family "come home." **High confidence that it is under-sourced.**
 - **Repair:** Source the post directly and quote it (RQ-04), or restate only what is attested.
 - **Benefit:** The passage keeps its fairness function and gains a trail.
@@ -499,7 +500,7 @@ item below names what it trades against.
   views"). "YouTube" appears **zero times** in the entire draft — I verified this with `grep`.
 - **Problem:** The reader with no prior knowledge assembles the wrong model for the first third —
   a Netflix property with a social presence rather than a YouTube channel Netflix licensed. The show
-  title first appears in an H2, where a scanner cannot tell whether *Songs for Littles* is the show,
+  title first appears in an H2, where a scanner cannot tell whether _Songs for Littles_ is the show,
   the channel, or the company.
 - **Evidence / confidence:** Packet Identity and scope. This is a draft omission, not reviewer
   unfamiliarity. **High.**
@@ -519,7 +520,7 @@ item below names what it trades against.
 - **Problem:** She turns 44 on 2026-11-30. The article's last beat becomes wrong 102 days after
   publication and stays wrong for the rest of the refresh interval. A reader who checks one fact and
   finds the closing sentence wrong discounts the four thousand words above it.
-- **Evidence / confidence:** Packet CLM-27 marks "She is 43" verified *as of the review date only*.
+- **Evidence / confidence:** Packet CLM-27 marks "She is 43" verified _as of the review date only_.
   **High.**
 - **Repair:** Birth-year construction in the intro ("Born in 1982 in Biddeford, Maine"); drop the
   number entirely from the close — the closing line does not need an age to work.
@@ -572,7 +573,7 @@ item below names what it trades against.
   critic's "06/21/2026" date, the "no published research on Ms. Rachel videos" line, or the
   "95% of early-childhood YouTube videos carry ads" figure from the search result — see RQ-09.**
 - **Repair:** One paragraph. Anchor the objection on the AAP guidance, quoted and dated, and let the
-  article answer or concede it. The honest concession is available and is *better* for the piece than
+  article answer or concede it. The honest concession is available and is _better_ for the piece than
   silence: the pause is a demonstration aimed at the co-viewing adult as much as an interaction with
   the child — which explains why the AAP guidance and her method point the same direction.
 - **Benefit:** Converts the piece's most vulnerable passage into its most rigorous one, and retires
@@ -593,12 +594,12 @@ item below names what it trades against.
   the type's passion, the ledger, resentment, indispensability, or the core fear. Every "pride" in
   the body is Pride Month. A type claim supported only by admirable behavior has not been
   stress-tested — it is deep-sounding and under-tested. "Permission problem" is a softer mechanism
-  than the one the house pillar supplies: being the one who needs nothing *is* the identity.
+  than the one the house pillar supplies: being the one who needs nothing _is_ the identity.
 - **Evidence / confidence:** House pillar, quoted by the reviewer: "The provider, never the needer…
   Being the one who needs nothing and supplies everything is the identity, the currency, and the
   armor all at once." **High that the mechanism is absent; medium that one paragraph suffices.**
 - **Repair:** One paragraph extending or replacing "the rest is a permission problem," naming the
-  mechanism in plain language: she does not ask because needing nothing *is* the identity, not
+  mechanism in plain language: she does not ask because needing nothing _is_ the identity, not
   because she lacks permission.
 - **Benefit:** Converts the section's insight from description to explanation, and makes the type
   call falsifiable rather than only flattering.
@@ -621,11 +622,11 @@ item below names what it trades against.
   unaddressed; I share the reviewer's medium confidence that it is the strongest alternative — see
   Rejected feedback.**
 - **Repair:** Two sentences: name Type 9, say what it would explain better (the two withdrawals;
-  reframing instead of confronting), and say what defeats it (she answers accusations of *fake care*
+  reframing instead of confronting), and say what defeats it (she answers accusations of _fake care_
   specifically, every time — a Two's wound, not a Nine's). Add a clause noting the reframe move is
   group-level evidence.
 - **Benefit:** The differential stops looking rigged to the reader who can check it.
-- **At risk:** PROTECT — enneagram preserve #5 protects the *form* of the Type 1 differential ("A One
+- **At risk:** PROTECT — enneagram preserve #5 protects the _form_ of the Type 1 differential ("A One
   defends the standard"). Use that same construction for the Nine addition.
 - **Test:** The counterarguments section names at least one alternative besides Type 1 and states the
   specific evidence that would favor it.
@@ -634,9 +635,9 @@ item below names what it trades against.
 
 - **Originating:** ENNEAGRAM-C5.
 - **Location:** Line 139, "That reflex is the whole diagnosis"; and the anomaly paragraph, line 319.
-- **Problem:** The reflex is the *best* evidence, not the whole diagnosis — the draft itself supplies
+- **Problem:** The reflex is the _best_ evidence, not the whole diagnosis — the draft itself supplies
   four other strands. More importantly, the central obligation of a typing piece is never discharged:
-  no observation is named that would count *against* Type 2. The anomaly is left "on the table,"
+  no observation is named that would count _against_ Type 2. The anomaly is left "on the table,"
   which is good, but that is not a falsifier.
 - **Evidence / confidence:** Internal. **High.**
 - **Repair:** Replace "the whole diagnosis" with a phrase that does not claim totality; add one clause
@@ -673,7 +674,7 @@ item below names what it trades against.
 ### P1-10 — Jules Hoffman is defined solely by the attribute the campaign targeted
 
 - **Originating:** FAN-C3.
-- **Location:** Line 233, "Jules Hoffman, a *Songs for Littles* cast member who uses they/them
+- **Location:** Line 233, "Jules Hoffman, a _Songs for Littles_ cast member who uses they/them
   pronouns," then one truncated quote, then gone.
 - **Problem:** The show's most recognizable co-star enters as a controversy object rather than a
   performer. Introducing them by the exact attribute the harassment campaign targeted lets the
@@ -704,7 +705,7 @@ item below names what it trades against.
   two years" preserves the emotional claim without the contradiction.
 - **Benefit:** The piece's most affecting reframe stops being checkable against the piece's own facts.
 - **At risk:** PROTECT-02, the Aron/Herbie sentence, which contains one of the two instances. Rephrase
-  the duration clause; keep "A Broadway conductor gave up *Aladdin* to play the kid who talks back."
+  the duration clause; keep "A Broadway conductor gave up _Aladdin_ to play the kid who talks back."
 - **Test:** No sentence places the full 32 months inside the living room or inside the filming period.
 
 ### P1-12 — Family leave is recoded as "going dark under pressure"
@@ -732,7 +733,7 @@ item below names what it trades against.
 - **Location:** Rabbit hole, line 305: "Sexual second, **in the specific sense of** one-to-one
   intensity. Her actual method is dyadic. She talks to a single child through the lens…" And the
   sp-last argument.
-- **Problem:** Addressing a camera as though to one child is a *production format*, not an instinctual
+- **Problem:** Addressing a camera as though to one child is a _production format_, not an instinctual
   drive toward intimate bonding. The draft's own hedge — "in the specific sense of" — is the tell that
   the definition had to be narrowed to fit the evidence. Its only other support is the Rahaf line,
   which P0-03 removes. Separately, sp-last is argued from self-neglect, but the house subtype table
@@ -759,7 +760,7 @@ item below names what it trades against.
 - **Evidence / confidence:** Packet CLM-25 (S-05, S-01) — "verified but materially understated."
   **High.**
 - **Repair:** Use the real scale. It is the better sentence.
-- **Benefit:** Corrects the one error in the piece that *understates* her work, and strengthens the
+- **Benefit:** Corrects the one error in the piece that _understates_ her work, and strengthens the
   beat it was compressing.
 - **At risk:** The rhythm of the closing line "She answered it with somebody else's children." Keep
   that sentence; expand only the description above it.
@@ -779,7 +780,7 @@ item below names what it trades against.
 - **Evidence / confidence:** Packet S-10 (iMovie → Final Cut, editors, note cards, Broadway musicians
   and real horn sections at recordings); Aron's 17 Broadway years. **High.**
 - **Repair:** Replace "The songs are catchy. The puppets are fine." with the real version and let the
-  thesis beat *that*. Separately, one concrete sentence in the founding section describing what
+  thesis beat _that_. Separately, one concrete sentence in the founding section describing what
   happens, in order, in a few minutes of an actual segment. Two sentences total.
 - **Benefit:** The thesis wins a real fight, and the pause becomes a figure against a ground instead
   of a claim about a thing the reader cannot picture.
@@ -908,7 +909,7 @@ item below names what it trades against.
 - **Unresolved question:** Whether to incorporate the December 2025 appointment to Zohran Mamdani's
   inaugural committee, and if so how.
 - **Why it gates:** Critic identifies it as the single hardest fact for the draft's "she never made
-  that promise, she only ever said *a child is a child*" framing — it is an overt political alignment,
+  that promise, she only ever said _a child is a child_" framing — it is an overt political alignment,
   not a statement about children. That is a real objection to P0-13's reframe and it should be decided
   deliberately, not by omission.
 - **Source needed:** Haaretz (Dec 25, 2025), Jerusalem Post, Times of Israel — critic reports
@@ -947,7 +948,7 @@ item below names what it trades against.
 
 **1. The audience thesis: critic wants it hedged; enneagram and unfamiliar protect it.**
 CRITIC-R4 calls it unfalsifiable and totalizing; ENNEAGRAM preserve #2 says "do not weaken the
-claim"; UNFAM preserve #6 protects it *together with* the disclaimer paragraph and warns that
+claim"; UNFAM preserve #6 protects it _together with_ the disclaimer paragraph and warns that
 separating them turns it into a political claim. **Resolution:** I accepted only the additive half
 (P0-13) — state the objection before answering it — and declined the demand to downgrade the reframe.
 Critic's strongest point survives intact; the two preserve lists are not violated. I am recording
@@ -957,7 +958,7 @@ this as a partial rejection of a blocker rather than dropping it.
 want the quotation sourced or paraphrased. **Resolution:** minimum repair first (P0-10 — fix the
 citation), upgrade second (P1-05 — add the AAP as the institutional anchor and answer the video-deficit
 objection). I verified the AAP page exists and addresses her by name, which makes critic's swap a
-genuine upgrade rather than a preference. But Sannes's *substantive* objection — that she deploys
+genuine upgrade rather than a preference. But Sannes's _substantive_ objection — that she deploys
 research-backed techniques to hold the attention of the exact age band the research points away from —
 is real regardless of who said it, and four perspectives protect this section's structure. Keep the
 objection; fix the attribution.
@@ -973,7 +974,7 @@ P0-11, P0-13, P1-05, P1-06, and P1-15 all add. **Resolution:** the funding sourc
 little the piece loses — (a) the subtype paragraph, which P1-13 shrinks and which three reviewers
 independently named as the least secure block; (b) the BMI orphan sentence (P2-06); (c) the
 NYT-unsubscribe clause; (d) the redundant scale statistics in the intro. Motif density ("four
-seconds" ×4, trolley ×5) was *recorded but not promoted* by the unfamiliar reviewer, who read them as
+seconds" ×4, trolley ×5) was _recorded but not promoted_ by the unfamiliar reviewer, who read them as
 motif rather than repetition — do not trim them for words unless P0-01 path (b) forces it anyway.
 
 **5. Whether Type 9 is genuinely the strongest alternative.** The enneagram reviewer rates their own
@@ -993,21 +994,21 @@ P0-04.
 ## Rejected feedback
 
 - **CRITIC-R4's totalizing charge** ("adjudicates the dispute it promises not to adjudicate").
-  Rejected in part. The stated guardrail is about *her* conviction and the draft honors it; the draft
+  Rejected in part. The stated guardrail is about _her_ conviction and the draft honors it; the draft
   also already scopes the audience claim to "a large share of her audience," not to all objectors.
   Accepting the full demand would weaken a claim two other perspectives call a hit. The omission half
   is accepted as P0-13.
 - **CRITIC-R2's proposal to remove Sannes.** Rejected. Her substantive objection is the one the
   article most needs to survive, and four perspectives protect the section that contains it. The
   defect is the citation, not the critic. Accepted as P0-10 + P1-05 instead.
-- **CRITIC-C6's demand that the article entertain that she *is* the one saying no.** Rejected. The
+- **CRITIC-C6's demand that the article entertain that she _is_ the one saying no.** Rejected. The
   draft's "Somebody in that building is very good at saying no. Nothing on the record establishes that
   it is her" is on three separate preserve lists, and it is the honest position given packet §D-08
   (no first-hand testimony about working with her exists in any source). Speculating in the other
   direction would be the same unsourced move with the sign flipped. Only the narrow ad/merchandise
   observation is accepted, as P2-11.
 - **CRITIC-C5's "Someone in her care recasts a professional relationship as custodianship."**
-  Deferred. Critic's *own* preserve list protects that sentence verbatim. The false-premise half of
+  Deferred. Critic's _own_ preserve list protects that sentence verbatim. The false-premise half of
   the same finding is accepted as P0-11, which is where the real fairness gain is.
 - **SUBJECT-C4's claim that her stated reason for the advocacy is absent.** Rejected as stated. The
   body already carries "How can I help children? is just my prayer," "My deep care for children
@@ -1037,22 +1038,22 @@ P0-04.
 - **PROTECT-01 — "Asked about money, she talks about her heart. Asked about a funding trail, she says
   she knows who she is."** Nominated by five of six perspectives. The piece's earned center: the type
   call made out of two clauses of her own behavior, checkable by a skeptic, with no "as a Type 2,
-  she…" construction anywhere near it. Everything in P0-02 and P1-08 lands *around* this passage. Do
+  she…" construction anywhere near it. Everything in P0-02 and P1-08 lands _around_ this passage. Do
   not touch the two sentences themselves.
-- **PROTECT-02 — "A Broadway conductor gave up *Aladdin* to play the kid who talks back, because for
+- **PROTECT-02 — "A Broadway conductor gave up _Aladdin_ to play the kid who talks back, because for
   thirty-two months in that living room, nobody had."** The fan reviewer's single best line and "the
   reason to publish." P1-11 rephrases the duration clause only.
 - **PROTECT-03 — The perfectionist reversal.** "Everyone assumes the woman doing a forty-minute take
   of a nursery rhyme is the control freak in the marriage. Her husband, on the record, says she is the
   one who ships." Plus Aron's quote at full length — four perspectives note they are one unit and the
   quote does not land without the setup.
-- **PROTECT-04 — "Why Parents Find Ms. Rachel Unbearable" in full.** The empathy turn *and* the
+- **PROTECT-04 — "Why Parents Find Ms. Rachel Unbearable" in full.** The empathy turn _and_ the
   refusal to let it dissolve the criticism, including the Hafeez screen-time caveat and "The most
   patient teacher on the internet is still a teacher who arrives through a rectangle." Four
   perspectives. **Do not soften the criticism to protect the reframe; the section works because it
   refuses to.**
-- **PROTECT-05 — The timed second-by-second form.** Three perspectives insist the *form* survives
-  whatever happens to the *number*. It is the most distinctive thing in the draft and it collapses if
+- **PROTECT-05 — The timed second-by-second form.** Three perspectives insist the _form_ survives
+  whatever happens to the _number_. It is the most distinctive thing in the draft and it collapses if
   transplanted to any other subject.
 - **PROTECT-06 — The hedges.** "Nothing on the record establishes that it is her." "Local Maine
   reporting has her raised by a single mother." "A personality framework cannot explain why anyone
@@ -1098,27 +1099,27 @@ sourced 3–5 second range. Every other edit assumes this is settled.
 
 **Step 1 — P0 items, grouped so each file region is opened once.**
 
-*Frontmatter and title fields:* P0-01 (outcome of Step 0), P0-06 (`persona_title`).
+_Frontmatter and title fields:_ P0-01 (outcome of Step 0), P0-06 (`persona_title`).
 
-*Diagnosis section:* P0-02 (no public evidence; no investigation opened; April not May; drop "paper
+_Diagnosis section:_ P0-02 (no public evidence; no investigation opened; April not May; drop "paper
 trail"; drop or source "absurd and patently false"). Touch nothing else in the paragraph.
 
-*Childhood section:* P0-08 (two cuts, ~15 words).
+_Childhood section:_ P0-08 (two cuts, ~15 words).
 
-*Controversies section:* P0-11 (one clause — the premise was false), P0-13 (one sentence — state the
+_Controversies section:_ P0-11 (one clause — the premise was false), P0-13 (one sentence — state the
 objection), P0-05 (add the Nov 30 / Dec 2025 beat, or soften the absolute).
 
-*Apology section:* P0-12b (announced, not born).
+_Apology section:_ P0-12b (announced, not born).
 
-*Emmy section:* P0-06's second half (her refusal of the comparison, before "I revere him as a saint").
+_Emmy section:_ P0-06's second half (her refusal of the comparison, before "I revere him as a saint").
 
-*Rabbit hole:* P0-04 (cut the four political examples; re-anchor or drop), P0-07 (fix the gown
+_Rabbit hole:_ P0-04 (cut the four political examples; re-anchor or drop), P0-07 (fix the gown
 sequence and "printed"; drop or re-evidence the growth arrow), P0-03 (quote the Rahaf caption as
 attested; add the apposition), P0-12a ("testifies" → "delivers packets").
 
-*Close:* P0-09 (drop "there is not one now"; narrow or attribute the rest).
+_Close:_ P0-09 (drop "there is not one now"; narrow or attribute the rest).
 
-*Unbearable section:* P0-10 (source the Sannes quote or drop the quotation marks; disclose the
+_Unbearable section:_ P0-10 (source the Sannes quote or drop the quotation marks; disclose the
 expertise disclaimer if she is retained).
 
 **Step 2 — Research-required decisions that can be safely resolved now.**
@@ -1129,7 +1130,7 @@ RQ-06 and RQ-08 all have stated fallbacks — take the fallback rather than impr
 
 **Step 3 — Accepted P1 items, cheapest-first.**
 Free or near-free: P1-03 (age), P1-12 (separate the two absences), P1-10 (Jules's role), P1-09 (Munn),
-P1-11 (32 months), P1-14 (Capitol Hill scale), P1-13 (drop the sx/sp ranking — this one *buys* words).
+P1-11 (32 months), P1-14 (Capitol Hill scale), P1-13 (drop the sx/sp ranking — this one _buys_ words).
 One clause each: P1-02 (YouTube + show title), P1-04 (as-of clause), P1-08 ("the whole diagnosis" +
 falsifier), P1-01 (Bibas re-source), P1-07 (Type 9). Costs words, pay from the P1-13 and P2-06 savings:
 P1-05 (AAP anchor + video-deficit answer), P1-06 (the mechanism paragraph), P1-15 (the product).

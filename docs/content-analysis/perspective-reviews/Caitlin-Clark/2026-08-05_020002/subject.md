@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 3
 concerns: 7
 reviewed_at: 2026-08-05T07:02:45Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/subject.md
 ---
 
 <!-- docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/subject.md -->
@@ -30,12 +31,12 @@ immediately because it happens to her constantly: **every time Clark pairs self-
 self-assertion in a single breath, this draft keeps the criticism and drops the assertion.** It
 happens four separate times, in four different sources, always in the same direction:
 
-| Where | What she said | What the draft keeps |
-| --- | --- | --- |
-| ESPN 2026, the obsession quote | "…because I want to be the best player in the world and I want to help this team win" | Cut, unmarked, mid-quote |
-| ESPN 2026, the six | "We'll have to see" — she declines to cap herself at six | Absent |
-| TIME 2024, the Olympic snub | She knew she was good enough; the snub "woke a monster"; a "blessing" that "will definitely motivate me my entire career" | Only "I gave them a lot of reasons to keep me off the team" |
-| ESPN 2026, her fire | "The fire and the passion, that's what makes me, me"; "nobody should ever try to take that away from me" | Only "I can always say allow myself grace, but…" |
+| Where                          | What she said                                                                                                             | What the draft keeps                                        |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| ESPN 2026, the obsession quote | "…because I want to be the best player in the world and I want to help this team win"                                     | Cut, unmarked, mid-quote                                    |
+| ESPN 2026, the six             | "We'll have to see" — she declines to cap herself at six                                                                  | Absent                                                      |
+| TIME 2024, the Olympic snub    | She knew she was good enough; the snub "woke a monster"; a "blessing" that "will definitely motivate me my entire career" | Only "I gave them a lot of reasons to keep me off the team" |
+| ESPN 2026, her fire            | "The fire and the passion, that's what makes me, me"; "nobody should ever try to take that away from me"                  | Only "I can always say allow myself grace, but…"            |
 
 Individually each is arguable compression. Together they manufacture a more self-flagellating
 person than the record contains, and they do it in the direction the thesis needs. The article's
@@ -44,8 +45,8 @@ own subject went on national television three weeks before this draft's publicat
 quotes that line while performing a quieter version of the thing she is describing.
 
 The fix is unusually cheap: in every one of the four cases, the restoring material is already in the
-evidence packet or one fetch away, and in three of the four it makes the Type 1 read *harder-won
-and more credible*, not weaker. A One who believes she is good enough and is still auditing is a
+evidence packet or one fetch away, and in three of the four it makes the Type 1 read _harder-won
+and more credible_, not weaker. A One who believes she is good enough and is still auditing is a
 more interesting and more defensible claim than a One who only ever indicts herself.
 
 Trust is strained, not broken. Nothing here is defamatory, nothing alleges misconduct she did not
@@ -140,7 +141,7 @@ was the aggressor. See SUBJ-C4.
   about people not understanding "how I was wired" — all in the register of a problem. The
   self-claiming register exists, is recent, and is from a source already cited.
 - **The other half of the Olympic answer.** A subject who says "I gave them a lot of reasons to keep
-  me off the team" *and* "it woke a monster" is not being modest; she is doing something more
+  me off the team" _and_ "it woke a monster" is not being modest; she is doing something more
   interesting, and the draft only reports the first half.
 - **A marker on the invented interior monologue.** Two passages are written in her first person
   about her private thoughts on specific dated nights. See SUBJ-C5.
@@ -181,14 +182,14 @@ which is the safe and flattering answer. She corrects the premise instead. A pla
 winning can be paid off by a scoreboard. A player driven by hours cannot be paid off at all."
 
 **Evidence.** The packet's full transcript text (S-03, evidence packet "On what she is obsessed
-with") contains a sentence between the second and third sentences quoted above: *"I come in here
+with") contains a sentence between the second and third sentences quoted above: _"I come in here
 every single day and I want to put in the work and get everything done **because I want to be the
-best player in the world and I want to help this team win.**"* The draft excises it with no ellipsis
+best player in the world and I want to help this team win.**"_ The draft excises it with no ellipsis
 and no marker.
 
 **Why this is the strongest finding.** The excised clause states an outcome goal ("the best player
 in the world") and a team-result goal ("help this team win") — the two things the surrounding
-paragraph asserts she declined to say. And the draft *does* use that sentence: the Rabbit Hole
+paragraph asserts she declined to say. And the draft _does_ use that sentence: the Rabbit Hole
 subtype section (line 333) quotes "I come in here every single day and I want to put in the work and
 get everything done" and stops at the identical comma. The same sentence is quoted twice and
 truncated at the same point both times, both times removing the outcome language. That pattern is
@@ -198,7 +199,7 @@ what makes this a quotation-fidelity problem rather than ordinary compression.
 win an argument. The subject concludes she was made to say the opposite of what she said.
 
 **Minimum viable repair.** Restore the sentence inside the block quote, then absorb it — one clause
-is enough: she names the outcome goal and still locates the engine in the hours. That is a *better*
+is enough: she names the outcome goal and still locates the engine in the hours. That is a _better_
 version of the same argument, because it survives the disconfirming clause instead of deleting it.
 Fund the words from the unsourced superlative at line 103 (see SUBJ-C6 repair) and from "Threes do
 not get called for a T by their own coach at a closed practice. Ones do." (line 140), which is not
@@ -242,7 +243,7 @@ case for the people who cut her." The decisive evidence for the typing is a half
 
 **Minimum viable repair.** Add one sentence before "An Eight treats that as a slight": she also told
 TIME she believed she was good enough, and called the snub a blessing that woke a monster. Then
-adjust the conclusion from *she cannot pretend otherwise* to something the record supports: she
+adjust the conclusion from _she cannot pretend otherwise_ to something the record supports: she
 conceded the committee's arithmetic without conceding her own merit — the audit and the self-belief
 run simultaneously. Cut "she has no mechanism for pretending otherwise."
 
@@ -267,11 +268,11 @@ been on the team. No sentence in the section asserts she is incapable of defendi
 > She was back in for the next drill."
 
 **Evidence.** Per the packet (CLM-05, S-17/S-21/S-22), the only located account is Jan Jensen on
-*Talkin' Hawks with The VandeBergs*: Bluder "kicked her out of practice and gave her a technical and
+_Talkin' Hawks with The VandeBergs_: Bluder "kicked her out of practice and gave her a technical and
 those things" — plural and habitual. Bluder separately describes practice technicals as a recurring
 management tool. **No located source contains** the scout team, the "blue squad," reserves and
 walk-ons, the week's assignment, a mid-drill whistle, or a return for the next drill. The packet
-also notes the draft's SECOND PASS rewrite moved *away* from the one named source, which says she
+also notes the draft's SECOND PASS rewrite moved _away_ from the one named source, which says she
 was ejected, to "back in for the next drill." Clark's own only located comment on the practice
 technicals is "That hasn't happened in a while."
 
@@ -363,8 +364,8 @@ as hers rather than describing it as something she is managing or failing to man
 said afterward that she had not realized it happened. The biggest number in the sport went by and
 she did not feel it, because a career scoring total is an accounting somebody else keeps."
 
-**Evidence.** Packet CLM-08 / S-31. Asked whether she was aware of the record *when she stepped to
-the line*: "Not really. When they announced it and everybody screamed, that's when I knew." She was
+**Evidence.** Packet CLM-08 / S-31. Asked whether she was aware of the record _when she stepped to
+the line_: "Not really. When they announced it and everybody screamed, that's when I knew." She was
 not tracking it at the line; she knew immediately when it happened. Separately, the free throws came
 from a dead-ball technical on Ohio State's Cotie McMahon with 0.3 seconds left — the draft's "arrived
 on a free throw" omits the mechanism.
@@ -381,7 +382,7 @@ that replaced it, at no cost to the argument.
 
 **Confidence.** High.
 
-**Acceptance test.** The sentence describes what she was aware of *at the free-throw line*, not what
+**Acceptance test.** The sentence describes what she was aware of _at the free-throw line_, not what
 she felt about the record afterward.
 
 ### SUBJ-C4 — CONCERN — The childhood origin rests on the single harshest available family fragment
@@ -392,7 +393,7 @@ win.' It is quieter and more durable: there is a correct amount of effort, every
 less of it, and the gap is yours to close."
 
 **Evidence.** Packet CLM-32 / S-25 records brother Blake's account of the same episode as protective:
-in hot weather he had her wear the snow gear *so she would not feel* the balloons, and she wanted to
+in hot weather he had her wear the snow gear _so she would not feel_ the balloons, and she wanted to
 play with the brothers anyway. Clark's own framing, located this session, is reciprocal and warm:
 "They're two of my biggest supporters. And probably two of my biggest haters, too… They humbled me
 all the time," and on her own competitiveness, "No matter what I did… I wanted to win. I feel like
@@ -479,7 +480,7 @@ later that the draft does not mention — the fourth instance of the pattern in 
 six reads as a ceiling in this article; in the interview she explicitly declines to make it one.
 
 **Minimum viable repair.** Either watch the ESPN segment and keep the tempo claim if it holds, or
-re-hinge the open on something checkable — the *number* against the résumé is already strange enough
+re-hinge the open on something checkable — the _number_ against the résumé is already strange enough
 without the speed. Separately, add "We'll have to see" somewhere in the article; it costs six words
 and it is the difference between a self-critical player and a self-critical player who thinks she is
 going to be great. Cut "and had spent two years as the most-watched athlete in her sport" to fund it.
@@ -496,7 +497,7 @@ follow-up.
 ### SUBJ-C7 — CONCERN — A named Hall of Famer is block-quoted with wording no source uses
 
 **Passage.** H2 6, line 244: "Those are hella good numbers. But, to me, that's not dominating." —
-Sheryl Swoopes, *Gil's Arena*, September 2024.
+Sheryl Swoopes, _Gil's Arena_, September 2024.
 
 **Evidence.** Packet CLM-15 / S-27: indexed renderings give "helluva numbers" or "hell of a numbers."
 "Hella good" was not located anywhere. Separately, the draft's "in the same breath" (line 247) for
@@ -508,7 +509,7 @@ article puts non-verbatim words inside quotation marks around a named living per
 is asking the reader to trust its handling of quotations about Clark elsewhere. A single verifiable
 misquote undermines that.
 
-**Minimum viable repair.** Use "helluva numbers," or verify against the *Gil's Arena* episode. Change
+**Minimum viable repair.** Use "helluva numbers," or verify against the _Gil's Arena_ episode. Change
 "in the same breath" to "in the same appearance."
 
 **Expected benefit.** Removes a checkable error from a block quote at near-zero word cost.
@@ -528,8 +529,8 @@ which improve the piece by leaving: (a) "Threes do not get called for a T by the
 closed practice. Ones do." (line 140) — an unfalsifiable type assertion that the packet flags as
 non-evidence and that rests on the unsourced scene; (b) "and had spent two years as the most-watched
 athlete in her sport" (line 103) — unsourced superlative; (c) the "Neither of them means it as a
-compliment" clause (line 118) — misattributed intent. *Benefit:* funds SUBJ-R1, SUBJ-R2, SUBJ-C2 and
-SUBJ-C6 without touching anything that works. *Confidence:* high. *Acceptance test:* revised draft is
+compliment" clause (line 118) — misattributed intent. _Benefit:_ funds SUBJ-R1, SUBJ-R2, SUBJ-C2 and
+SUBJ-C6 without touching anything that works. _Confidence:_ high. _Acceptance test:_ revised draft is
 at or under 4500 words with all four restorations present.
 
 **SUBJ-I2 — Give the "false characterization" material one more inch, and let it be self-aware.**
@@ -538,67 +539,66 @@ article's purpose: "I get it, like as a reporter or as a blogger, you can write 
 that's your job and whatever. But at the same time, you don't know me. We've never had a
 conversation." A piece that is itself an opinion piece about her character, written by someone who
 has never had a conversation with her, gains real credibility by quoting that sentence in full rather
-than the trimmed version. *Benefit:* converts the article's structural vulnerability into a mark of
-good faith. *Confidence:* high; verified this session. *Acceptance test:* the section quotes the
+than the trimmed version. _Benefit:_ converts the article's structural vulnerability into a mark of
+good faith. _Confidence:_ high; verified this session. _Acceptance test:_ the section quotes the
 "you don't know me / we've never had a conversation" construction, and nothing in the surrounding
 paragraphs claims access to her interior that the article has not shown its work for.
 
 **SUBJ-I3 — Restore the Cooper quote or drop the corroboration claim.** H2 5 (line 232) recruits
-"She has a high level of basketball IQ" as outside confirmation that her *decision quality* is high,
+"She has a high level of basketball IQ" as outside confirmation that her _decision quality_ is high,
 which is the load-bearing move of the turnover argument. Packet CLM-26 could not independently
 confirm that sentence, and Cooper's located remarks are about scoring craft and playmaking breadth.
 The draft's own SECOND PASS notes say the quote was trimmed for length and should be restored if
-words free up. *Repair:* verify the sentence against the *Women's Sports Now* video, or replace with
+words free up. _Repair:_ verify the sentence against the _Women's Sports Now_ video, or replace with
 Cooper's confirmed "she gets her teammates involved, she can pass, she can shoot — man, she is the
 complete basketball player," and soften "named the same faculty from the outside" to a claim that
-quote can carry. *Benefit:* the article's best idea stops resting on its least-verified quote.
-*Confidence:* medium-high. *Acceptance test:* the corroborating quote is verbatim-confirmed against a
+quote can carry. _Benefit:_ the article's best idea stops resting on its least-verified quote.
+_Confidence:_ medium-high. _Acceptance test:_ the corroborating quote is verbatim-confirmed against a
 named source, or the sentence no longer claims outside corroboration of decision-grading.
 
 **SUBJ-I4 — Re-check the scoring rank before publish.** H2 9 (line 359): "third in the league in
 scoring and second in assists." Packet CLM-29 confirms the assists rank and flags the scoring rank as
 unconfirmed — one leaderboard snapshot put Kelsey Mitchell ahead at 24.03 PPG with Clark at 21.54,
-and whether A'ja Wilson also sits above her decides second vs third. *Repair:* one Basketball-Reference
-check on publish day. *Benefit:* the current-tense anchor is the most falsifiable paragraph in the
-piece and the easiest to get right. *Confidence:* high that it needs checking. *Acceptance test:* the
+and whether A'ja Wilson also sits above her decides second vs third. _Repair:_ one Basketball-Reference
+check on publish day. _Benefit:_ the current-tense anchor is the most falsifiable paragraph in the
+piece and the easiest to get right. _Confidence:_ high that it needs checking. _Acceptance test:_ the
 rank matches the league leaderboard on the publish date, or the sentence drops the rank and keeps the
 averages.
 
-**SUBJ-I5 — Reconcile the bike age.** H2 2 (line 153) says "three or four"; the closing bookend (line
-363) says "She was four years old when she got on the bike." Packet CLM-31: the event and the motive
-are established by the *Full Court Press* home video, the age is unsourced, and the bookend depends
-on the number. *Repair:* use the same formulation in both places, and prefer the hedged one — "barely
-out of toddlerhood" or "three or four" — since no source pins it. *Benefit:* removes an internal
-contradiction from the article's first and last beats. *Confidence:* high. *Acceptance test:* the two
+**SUBJ-I5 — Reconcile the bike age.** H2 2 (line 153) says "three or four"; the closing bookend (line 363) says "She was four years old when she got on the bike." Packet CLM-31: the event and the motive
+are established by the _Full Court Press_ home video, the age is unsourced, and the bookend depends
+on the number. _Repair:_ use the same formulation in both places, and prefer the hedged one — "barely
+out of toddlerhood" or "three or four" — since no source pins it. _Benefit:_ removes an internal
+contradiction from the article's first and last beats. _Confidence:_ high. _Acceptance test:_ the two
 passages agree, and neither asserts an age no source supports.
 
 ## Follow-on questions
 
 **SUBJ-Q1 — Does the VandeBergs Jensen episode actually contain the scout-team detail?**
-*What would change:* if Jensen describes the blue squad and the mid-drill technical, SUBJ-R3
+_What would change:_ if Jensen describes the blue squad and the mid-drill technical, SUBJ-R3
 downgrades from a fabrication to a citation gap and the scene survives nearly intact. If she does
 not, the paragraph must be rewritten to Jensen's plainer account, and the article loses its most
-vivid image. *Best source:* *Talkin' Hawks with The VandeBergs*, Jensen episode, ~July 2025 — audio,
+vivid image. _Best source:_ _Talkin' Hawks with The VandeBergs_, Jensen episode, ~July 2025 — audio,
 not the aggregator write-ups, both of which refuse direct fetch (403/405).
 
 **SUBJ-Q2 — How fast did she actually answer the six?**
-*What would change:* the cold open's hinge and TL;DR bullet 1. If the answer was deliberate, the
-opening needs a new hinge; if it was immediate, the claim is safe and should stay. *Best source:*
+_What would change:_ the cold open's hinge and TL;DR bullet 1. If the answer was deliberate, the
+opening needs a new hinge; if it was immediate, the claim is safe and should stay. _Best source:_
 the ESPN sit-down video (`arXekQ8W4_c`), watched at the question timestamp.
 
 **SUBJ-Q3 — Has Clark ever described her own standard as decision-quality rather than outcome?**
-*What would change:* this is the single most valuable unresolved item in the piece. The turnover
+_What would change:_ this is the single most valuable unresolved item in the piece. The turnover
 resolution (CLM-25) is the article's best idea and is currently pure interpretation with no
 first-person support. One quote of her grading a read rather than a result would convert the
-article's central move from a plausible reading into evidence. *Best source:* the body of the "toxic
+article's central move from a plausible reading into evidence. _Best source:_ the body of the "toxic
 part of me" turnover interview (S-29, headline-level only in the packet), plus 2024 postgame
 availabilities after high-turnover games.
 
 **SUBJ-Q4 — What is her full response to being called a perfectionist?**
-*What would change:* SUBJ-C2's repair. She engages the word directly in the May 2026 Yahoo cluster
+_What would change:_ SUBJ-C2's repair. She engages the word directly in the May 2026 Yahoo cluster
 ("you're a perfectionist, and then you get irritated when it doesn't go your way"), and the draft
 quotes only the resigned half. If she frames it as something she values, H2 7's ending changes again
-and improves. *Best source:* full text of the two Yahoo Sports pieces from that interview cluster
+and improves. _Best source:_ full text of the two Yahoo Sports pieces from that interview cluster
 (S-04, S-05).
 
 ## Preserve list
@@ -634,16 +634,16 @@ Packet read in full before role-specific research, per protocol. Three questions
 four additional sources were consulted (one over the standard ceiling, taken because SUBJ-R2 was a
 potential fairness blocker resting on a source the packet had only summarized).
 
-| # | Question | Source | What it decided |
-| --- | --- | --- | --- |
-| 1 | RQ-1: what does Clark say the false characterization *is*? | Web search, July 2026 ESPN/Andrews coverage cluster | Surfaced "The fire and the passion, that's what makes me, me" and the full "you don't know me / we've never had a conversation" construction → SUBJ-C2, SUBJ-I2 |
-| 2 | RQ-2: did she assert she was good enough for the Olympic roster? | Web search, TIME AOTY coverage | First indication of "woke a monster" / "blessing" / "motivate me my entire career" → escalated RQ-2 to blocker candidate |
-| 3 | RQ-2 verification | **TIME, Athlete of the Year, 2024-12-10 (primary, fetched)** | Confirmed "She knew she was good enough to be on the team," the blessing/monster/2028 material, **and** confirmed the draft's privilege-quote continuation is verbatim after all (resolves packet CLM-21 in the draft's favor) → SUBJ-R2 confirmed |
-| 4 | RQ-1 verification | Awful Announcing, July 2026 interview write-up | Confirmed "emotionally exhausting," **"draining," "makes your shoulders tense"** as real quotes (resolves packet CLM-20 in the draft's favor); supplied "nobody should ever try to take that away from me" → SUBJ-C2 |
-| 5 | RQ-3: her own account of the childhood | Web search, sibling/childhood coverage cluster | "Two of my biggest supporters… biggest haters… they humbled me all the time"; "No matter what I did… I wanted to win"; Colin's four-staples story with Clark as aggressor → SUBJ-C4 |
-| — | Attempted | College Sports Network, "false characterization" piece | HTTP 403; content reached only via search summary, corroborated by source 4 |
+| #   | Question                                                         | Source                                                       | What it decided                                                                                                                                                                                                                                    |
+| --- | ---------------------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | RQ-1: what does Clark say the false characterization _is_?       | Web search, July 2026 ESPN/Andrews coverage cluster          | Surfaced "The fire and the passion, that's what makes me, me" and the full "you don't know me / we've never had a conversation" construction → SUBJ-C2, SUBJ-I2                                                                                    |
+| 2   | RQ-2: did she assert she was good enough for the Olympic roster? | Web search, TIME AOTY coverage                               | First indication of "woke a monster" / "blessing" / "motivate me my entire career" → escalated RQ-2 to blocker candidate                                                                                                                           |
+| 3   | RQ-2 verification                                                | **TIME, Athlete of the Year, 2024-12-10 (primary, fetched)** | Confirmed "She knew she was good enough to be on the team," the blessing/monster/2028 material, **and** confirmed the draft's privilege-quote continuation is verbatim after all (resolves packet CLM-21 in the draft's favor) → SUBJ-R2 confirmed |
+| 4   | RQ-1 verification                                                | Awful Announcing, July 2026 interview write-up               | Confirmed "emotionally exhausting," **"draining," "makes your shoulders tense"** as real quotes (resolves packet CLM-20 in the draft's favor); supplied "nobody should ever try to take that away from me" → SUBJ-C2                               |
+| 5   | RQ-3: her own account of the childhood                           | Web search, sibling/childhood coverage cluster               | "Two of my biggest supporters… biggest haters… they humbled me all the time"; "No matter what I did… I wanted to win"; Colin's four-staples story with Clark as aggressor → SUBJ-C4                                                                |
+| —   | Attempted                                                        | College Sports Network, "false characterization" piece       | HTTP 403; content reached only via search summary, corroborated by source 4                                                                                                                                                                        |
 
-Two packet flags were resolved *in the draft's favor* by this pass and should not be re-raised by a
+Two packet flags were resolved _in the draft's favor_ by this pass and should not be re-raised by a
 later editor: the TIME privilege-quote continuation (CLM-21) is verbatim, and "draining" / "makes
 your shoulders tense" (CLM-20) are real quotes from the July 2026 interview.
 
@@ -653,7 +653,7 @@ your shoulders tense" (CLM-20) are real quotes from the July 2026 interview.
   should be described as an objection she has made. Where I cite her words about being
   mischaracterized, they are about press coverage generally, not about this draft.
 - I did not watch either ESPN sit-down (`arXekQ8W4_c`, `hNBUneM3YqM`), the Netflix Letterman
-  episode, the *Gil's Arena* Swoopes segment, or the *Talkin' Hawks* Jensen episode. Four findings
+  episode, the _Gil's Arena_ Swoopes segment, or the _Talkin' Hawks_ Jensen episode. Four findings
   (SUBJ-R3, SUBJ-C6, SUBJ-C7, SUBJ-Q1) would be resolved or dissolved by watching them, and two of
   the underlying write-ups refuse direct fetch.
 - The obsession-quote finding (SUBJ-R1) rests on the packet's rendering of an auto-generated YouTube
@@ -665,7 +665,7 @@ your shoulders tense" (CLM-20) are real quotes from the July 2026 interview.
   the packet's tier rules say cannot carry a correction alone. I have therefore recommended
   restoring **Clark's own** framing rather than Blake's.
 - I take no position on whether Type 1 is the right call. Whether the typing is correct is the
-  enneagram evaluator's question; mine was only whether the article's *route* to it treats her
+  enneagram evaluator's question; mine was only whether the article's _route_ to it treats her
   fairly. Notably, all three blockers would still need fixing if the typing is exactly right.
 - I did not evaluate SEO, structure, readability, word budget as a quality matter, or the draft's
   compliance with 9takes house rules except where a house device created a fairness question

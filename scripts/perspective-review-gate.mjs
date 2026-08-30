@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// scripts/perspective-review-gate.mjs
 
 import { promises as fs } from 'fs';
 import path from 'path';

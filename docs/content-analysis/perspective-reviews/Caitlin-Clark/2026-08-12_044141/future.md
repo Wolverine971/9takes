@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 5
 reviewed_at: 2026-08-12T05:10:00Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/future.md
 ---
 
 ## Bottom-line verdict

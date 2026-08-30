@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 6
 reviewed_at: 2026-08-19T07:19:33Z
+path: docs/content-analysis/perspective-reviews/Bill-Burr/2026-08-19_020002/future.md
 ---
 
 ## Bottom-line verdict
@@ -44,7 +45,7 @@ Revise. The blocker has a cheap, word-neutral repair, and the refresh list below
 This is the most durable structure in the piece and it should survive revision untouched. A weaker
 draft would have written "recently he admitted on his podcast that he was nervous" — a sentence
 that is unreadable in 2027 because "recently" has no referent. Instead the argument is carried by
-the *interval between two fixed dates*, which is a quantity that never changes. In August 2027 this
+the _interval between two fixed dates_, which is a quantity that never changes. In August 2027 this
 table reads exactly as it reads today. In 2030 it still reads correctly. Date-anchored comparison
 is the correct engineering choice for a claim built on a discrepancy, and the draft made it.
 
@@ -86,7 +87,7 @@ sees is the thing that was wrong.
 **Self-referential statistics are treated as facts rather than as measurements.** §1 quotes six
 corpus numbers with no as-of date. These are not facts about Bill Burr; they are readings off a
 dataset that this very repository regenerates and that grows by ~25 profiles/month. The draft
-stamps his *age* correctly in the FAQ ("58 as of August 2026") and then declines to stamp the
+stamps his _age_ correctly in the FAQ ("58 as of August 2026") and then declines to stamp the
 statistics, which are far more volatile than his birthday.
 
 **The "next" frame in the FAQ has a guaranteed expiry.** "What is Bill Burr in next?" answered with
@@ -110,8 +111,8 @@ test for — the FORMULA FINGERPRINT LEDGER names a "Current-tense anchor" and a
 The machinery to catch FUTURE-R1 existed; it just wasn't pointed at the release-date risk.
 
 **Jarring:** the evidence packet at `evidence-packet.md` dispute #5 states the problem in plain
-language — *"Burr's role in The Social Reckoning is unresolved… Any conclusion that reads the role
-as therapeutic must stay qualified"* — and the draft's closer does precisely the qualified-reading
+language — _"Burr's role in The Social Reckoning is unresolved… Any conclusion that reads the role
+as therapeutic must stay qualified"_ — and the draft's closer does precisely the qualified-reading
 the packet forbade. This is a documented instruction that was overridden somewhere between research
 and draft, which makes it a process finding as much as a content one.
 
@@ -141,25 +142,26 @@ retroactively distrust the evidence handling in the preceding 4,400 words, which
 draft that is otherwise scrupulous.
 
 **Evidence.** Three independent checks all decline to support "crisis counselor":
+
 1. `evidence-packet.md` dispute #5: character named "Charlie" (Wikipedia); "crisis counselor" per
    some trade coverage of the trailer; "a PR handler pushing back on Zuckerberg's delivery" per
-   another trailer write-up. Packet verdict: *"Any conclusion that reads the role as therapeutic
-   must stay qualified."*
-2. Wikipedia, *The Social Reckoning* cast list (fetched 2026-08-19): the entry is exactly
+   another trailer write-up. Packet verdict: _"Any conclusion that reads the role as therapeutic
+   must stay qualified."_
+2. Wikipedia, _The Social Reckoning_ cast list (fetched 2026-08-19): the entry is exactly
    "Bill Burr as Charlie" — no occupation given at all.
 3. Trade/trailer coverage (search, 2026-08-19): Burr plays "Charlie, an advisor of a sort to
-   Zuckerberg," whose trailer line is *"These guys are counting on the next round of congressional
-   testimony to make you likable, Mark."* Coaching a client on likability before testimony is
+   Zuckerberg," whose trailer line is _"These guys are counting on the next round of congressional
+   testimony to make you likable, Mark."_ Coaching a client on likability before testimony is
    crisis **communications**, not crisis **counseling** — adjacent words, opposite scenes. The
    draft's dramatization (someone "coming apart," being "talked down") matches neither.
 
-Note the draft's own FAQ hedges this correctly — *"Per the trailer, Burr plays a crisis counselor"*
+Note the draft's own FAQ hedges this correctly — _"Per the trailer, Burr plays a crisis counselor"_
 — so the body is also inconsistent with the frontmatter.
 
 **Minimum viable repair (word-neutral).** Replace the flat assertion and the therapeutic
 dramatization with the verified fact plus the reflex the piece has already established. The
 verified facts are: Sorkin cast him, the character is called Charlie, and in the trailer he is the
-man in the room telling Zuckerberg how the room will read him. That is *still* on-thesis — reading
+man in the room telling Zuckerberg how the room will read him. That is _still_ on-thesis — reading
 the room for threat and telling someone they have misjudged how they are about to land is the
 identical move the draft traces through Philadelphia, SNL and the billionaires section. The ending
 does not need the therapist; it is arguably stronger with the handler.
@@ -184,7 +186,7 @@ closer requires no edit.
 > 420 profiles… Type 7 takes 43.8% of the comedian set against 14.3% corpus-wide, the widest gap in
 > any category we track.
 
-Repeated in the Rabbit Hole (L372): *"Fourteen of the 32 comedians profiled here are Sevens."*
+Repeated in the Rabbit Hole (L372): _"Fourteen of the 32 comedians profiled here are Sevens."_
 
 **Reader effect / trust problem.** Every figure is stated in bare present tense. A 2027 reader who
 clicks through to the live corpus page finds different numbers and concludes the article was
@@ -198,6 +200,7 @@ question — the durability is. Same file: `pipeline.avg_new_per_month: 25`,
 420 profiles" is off by roughly 40% at the one-year mark.
 
 Three compounding fragilities:
+
 - **The superlative is the weakest link.** "The widest gap in any category we track" currently
   leads by 3.01pp (comedy Type 7 at +29.46pp vs authors-thinkers Type 5 at +26.45pp). Both
   denominators are tiny (n=32, n=23), so a handful of publications can flip it.
@@ -225,9 +228,9 @@ sentence in the article contradicts the regenerated file.
 
 ### FUTURE-R3 — CONCERN — The "next / October" frame decays to false-by-implication
 
-**Passages.** H2 (L383) *"The part Bill Burr plays in October"*; body (L385) *"On October 9, 2026,
-Aaron Sorkin's The Social Reckoning **opens**"*; FAQ (L86) *"**What is Bill Burr in next?** …in
-theaters October 9, 2026."*
+**Passages.** H2 (L383) _"The part Bill Burr plays in October"_; body (L385) _"On October 9, 2026,
+Aaron Sorkin's The Social Reckoning **opens**"_; FAQ (L86) _"**What is Bill Burr in next?** …in
+theaters October 9, 2026."_
 
 **Reader effect / trust problem.** In August 2027 the heading — which also renders in the TOC, in
 the FAQ `anchor`, and potentially in SERP snippets stripped of surrounding context — points at an
@@ -253,7 +256,7 @@ asserts a past event is forthcoming.
 
 ### FUTURE-R4 — CONCERN — Unstamped age in the body
 
-**Passage.** Cold open (L151): *"Bill Burr is 58 now."*
+**Passage.** Cold open (L151): _"Bill Burr is 58 now."_
 
 **Reader effect / trust problem.** He turns 59 on 2027-06-10 — ten weeks before the one-year mark —
 so this is wrong for the tail of the window. The FAQ handles the identical fact correctly ("58 as
@@ -275,9 +278,10 @@ incorrectly or without an as-of qualifier.
 ### FUTURE-R5 — CONCERN — Relative arithmetic pinned to publication date
 
 **Passages.**
-- Cold open (L153): *"For nineteen years, more than a thousand episodes deep…"*
-- Rabbit Hole, wing section (L356): *"…talking, for an hour, every week, for nineteen years."*
-- Helicopter section (L297): *"That was 2017, and nine years on the machinery still runs."*
+
+- Cold open (L153): _"For nineteen years, more than a thousand episodes deep…"_
+- Rabbit Hole, wing section (L356): _"…talking, for an hour, every week, for nineteen years."_
+- Helicopter section (L297): _"That was 2017, and nine years on the machinery still runs."_
 
 **Reader effect / trust problem.** All three compute against 2026. The podcast launched 2007-05, so
 "nineteen years" becomes twenty in May 2027, inside the window. "Nine years on" becomes ten in 2027.
@@ -300,7 +304,7 @@ no duration that is computed against the publication year rather than between tw
 ### FUTURE-R6 — CONCERN — The strongest section's only sources are two YouTube uploads
 
 **Passage.** The Riyadh table's Aug 10, 2026 row (the dry-mouth quote) and the Rousey "six and a
-half" catch, sourced to *Monday Morning Podcast* episodes 8-10-26 and 8-17-26; citations carry the
+half" catch, sourced to _Monday Morning Podcast_ episodes 8-10-26 and 8-17-26; citations carry the
 bare video IDs `8NYGbY4Tmkc` and `yHKqkVqa9mc`.
 
 **Reader effect / trust problem.** These two exhibits carry the piece's most distinctive claims —
@@ -325,9 +329,9 @@ controlled by the subject, or to an archival snapshot.
 
 ### FUTURE-R7 — CONCERN — Two status claims with known expiry, one permanently open citation
 
-**Passages.** FAQ (L86): *"He is also touring through 2026 on the 'Bill Burr Live' run."* Body
-(L262): the Riyadh festival described as "inaugural." Body: *"That is Burr on Bert Kreischer's
-Bertcast"* — no date.
+**Passages.** FAQ (L86): _"He is also touring through 2026 on the 'Bill Burr Live' run."_ Body
+(L262): the Riyadh festival described as "inaugural." Body: _"That is Burr on Bert Kreischer's
+Bertcast"_ — no date.
 
 **Reader effect / trust problem.** The tour line expires 2026-12-31 and then advertises a finished
 tour as current. "Inaugural" stays accurate even if the festival recurs, but a second edition inside
@@ -359,9 +363,9 @@ word-neutral or word-negative; none requires a funding cut.
 
 1. **Rewrite the closer off the trailer's verified content** (FUTURE-R1). Keep "Charlie," keep
    Sorkin, keep the driveway callback; drop the unsupported "crisis counselor" and the invented
-   therapeutic scene. Word-neutral. *Acceptance:* closer needs no edit after 2026-10-09.
+   therapeutic scene. Word-neutral. _Acceptance:_ closer needs no edit after 2026-10-09.
 2. **Add one as-of stamp to the §1 statistics paragraph and drop or stamp "the widest gap in any
-   category we track"** (FUTURE-R2). ~4 words in, ~8 out if the superlative goes. *Acceptance:*
+   category we track"** (FUTURE-R2). ~4 words in, ~8 out if the superlative goes. _Acceptance:_
    regenerated `corpus-stats.json` post-publish contradicts nothing on the page.
 3. **Year the closing H2 and de-recency the FAQ question** (FUTURE-R3). Word-neutral.
 4. **Fix the three relative-duration constructions and the unstamped age** (FUTURE-R4, R5).
@@ -372,17 +376,17 @@ word-neutral or word-negative; none requires a funding cut.
 
 ### Twelve-month refresh list (next review due ~2027-08-19; first checkpoint 2026-10-16)
 
-| When | Item | Action |
-| --- | --- | --- |
-| **2026-10-16** (1 wk post-release) | *The Social Reckoning* — Charlie's actual role | Verify against the released film; correct the closer; "opens" → "opened" |
-| 2026-10-16 | FAQ "What is Bill Burr in next?" | Re-point to the next scheduled project |
-| 2027-01 | "touring through 2026" | Update to the 2027 run or remove |
-| 2027-01 | Corpus stats (420 / 32 / 9.4% / 43.8% / superlative) | Re-read `corpus-stats.json`; re-stamp; re-check the superlative still holds |
-| 2027-05 | "nineteen years" (×2) — MMP anniversary | Becomes twenty; better, convert to "since 2007" now |
-| 2027-06-10 | "Bill Burr is 58" | Becomes 59 |
-| Watch | Riyadh Comedy Festival second edition; Burr's participation or absence | One sentence if it materially changes the section |
-| Watch | Bertcast episode date | Pin if it ever gets indexed |
-| Standing | MMP YouTube sources `8NYGbY4Tmkc`, `yHKqkVqa9mc` | Confirm still live; rely on archives if not |
+| When                               | Item                                                                   | Action                                                                      |
+| ---------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **2026-10-16** (1 wk post-release) | _The Social Reckoning_ — Charlie's actual role                         | Verify against the released film; correct the closer; "opens" → "opened"    |
+| 2026-10-16                         | FAQ "What is Bill Burr in next?"                                       | Re-point to the next scheduled project                                      |
+| 2027-01                            | "touring through 2026"                                                 | Update to the 2027 run or remove                                            |
+| 2027-01                            | Corpus stats (420 / 32 / 9.4% / 43.8% / superlative)                   | Re-read `corpus-stats.json`; re-stamp; re-check the superlative still holds |
+| 2027-05                            | "nineteen years" (×2) — MMP anniversary                                | Becomes twenty; better, convert to "since 2007" now                         |
+| 2027-06-10                         | "Bill Burr is 58"                                                      | Becomes 59                                                                  |
+| Watch                              | Riyadh Comedy Festival second edition; Burr's participation or absence | One sentence if it materially changes the section                           |
+| Watch                              | Bertcast episode date                                                  | Pin if it ever gets indexed                                                 |
+| Standing                           | MMP YouTube sources `8NYGbY4Tmkc`, `yHKqkVqa9mc`                       | Confirm still live; rely on archives if not                                 |
 
 **What survives if the newest event is removed entirely.** Delete the closer, the tour line and the
 2026 podcast episodes and roughly 90% of the page is intact: the driveway, the three-tellings
@@ -393,25 +397,25 @@ architecture; the closer is the only place it breaks.
 
 ## Follow-on questions
 
-- **FUTURE-Q1. What does Charlie actually do in *The Social Reckoning*?** If he is a PR/comms
+- **FUTURE-Q1. What does Charlie actually do in _The Social Reckoning_?** If he is a PR/comms
   adviser, the closer must be rewritten (and is arguably improved — the adviser reading maps onto
   the draft's own "tell the group it misidentified the threat" thesis). If a released-film synopsis
-  genuinely supports a counseling role, the current closer survives with a source added. *Best
-  source:* the film itself after 2026-10-09; before that, Sony's official synopsis or production
+  genuinely supports a counseling role, the current closer survives with a source added. _Best
+  source:_ the film itself after 2026-10-09; before that, Sony's official synopsis or production
   notes, which supersede trailer inference.
 - **FUTURE-Q2. Will "the widest gap in any category we track" still be true at the next refresh?**
-  If authors-thinkers overtakes comedy, the superlative must go. *Best source:* regenerate
+  If authors-thinkers overtakes comedy, the superlative must go. _Best source:_ regenerate
   `src/lib/data/corpus-stats.json` and compare `top_over_represented.delta_pp` across domains;
   today's margin is 3.01pp and publishing Burr alone cuts it to ~1.7pp.
 - **FUTURE-Q3. Does the Riyadh Comedy Festival recur, and does Burr return?** A second appearance
   would make the Aug 2026 dry-mouth account read as a prelude rather than a retrospective and would
-  need one sentence; a conspicuous absence is also evidence. *Best source:* festival announcements
+  need one sentence; a conspicuous absence is also evidence. _Best source:_ festival announcements
   and Burr's own MMP episodes, which is where he reliably self-documents first.
-- **FUTURE-Q4. Does *Drop Dead Years* accumulate awards language that ages the "Emmy-nominated"
+- **FUTURE-Q4. Does _Drop Dead Years_ accumulate awards language that ages the "Emmy-nominated"
   descriptor?** Checked this review: the 2025 Emmys produced nominations, not wins, so
-  "Emmy-nominated" is currently correct and durable. A later Grammy outcome for the *Drop Dead
-  Years* album (nominated Nov 2025) could add a descriptor but does not invalidate anything on the
-  page. *Best source:* Television Academy and Recording Academy records. **No action required —
+  "Emmy-nominated" is currently correct and durable. A later Grammy outcome for the _Drop Dead
+  Years_ album (nominated Nov 2025) could add a descriptor but does not invalidate anything on the
+  page. _Best source:_ Television Academy and Recording Academy records. **No action required —
   logged so a future reviewer does not re-litigate it.**
 
 ## Preserve list
@@ -419,7 +423,7 @@ architecture; the closer is the only place it breaks.
 Do not touch these during revision; they are the reason the page ages well.
 
 1. **The Riyadh two-date table**, including the explicit "Oct 2025" / "Aug 10, 2026" column. The
-   dating *is* the argument. Any rewrite toward "recently" or "more recently" destroys it.
+   dating _is_ the argument. Any rewrite toward "recently" or "more recently" destroys it.
 2. **"That is the reflex. It does not settle whether Cross is right about the money."** The one
    sentence that immunizes the page against every possible development in an unresolved
    controversy.
@@ -439,14 +443,14 @@ Do not touch these during revision; they are the reason the page ages well.
 
 Packet read in full before any role-specific research, per protocol.
 
-| # | Question | Source | Decision it affected |
-| --- | --- | --- | --- |
-| 1 | Is Burr's *Social Reckoning* role established? | `evidence-packet.md` dispute #5 (packet reused, no search needed) | Established that the packet already forbade the therapeutic reading — escalated FUTURE-R1 toward blocker |
-| 2 | How fast does the corpus that §1 cites actually grow, and do the figures verify? | `src/lib/data/corpus-stats.json` (repo, `generated_at` 2026-08-19T04:46Z) | All six figures verified accurate; `avg_new_per_month: 25` and the 3.01pp superlative margin established FUTURE-R2 as a durability rather than accuracy finding |
-| 3 | Does publishing Burr change his own article's statistics? | `corpus-stats.json` domain labels (`comedy.raw_labels: ["comedian"]`) vs draft frontmatter `type: ['comedian', …]` | Confirmed comedy 32→33 and Sixes 3→4 on publish; added the self-exclusion point to FUTURE-R2 |
-| 4 | Did *Drop Dead Years* win a 2025 Emmy, making "Emmy-nominated" stale? | Web search → Television Academy / IMDb awards | **No** — nominations only. "Emmy-nominated" is durable. Finding dropped; logged as FUTURE-Q4 so it is not re-checked |
-| 5 | Is 2026-10-09 still the release date, and how is Burr's character described? | Web search → TheWrap / Deadline / Rolling Stone / Boston Globe trailer coverage | Date holds. Role described as "Charlie, an advisor of a sort to Zuckerberg," trailer line about congressional testimony and likability — contradicts "crisis counselor" |
-| 6 | Does any authoritative cast listing assign Burr an occupation? | WebFetch → Wikipedia, *The Social Reckoning* | Cast line is exactly "Bill Burr as Charlie," no occupation; film unreleased. **Confirmed FUTURE-R1 as a blocker** |
+| #   | Question                                                                         | Source                                                                                                             | Decision it affected                                                                                                                                                    |
+| --- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Is Burr's _Social Reckoning_ role established?                                   | `evidence-packet.md` dispute #5 (packet reused, no search needed)                                                  | Established that the packet already forbade the therapeutic reading — escalated FUTURE-R1 toward blocker                                                                |
+| 2   | How fast does the corpus that §1 cites actually grow, and do the figures verify? | `src/lib/data/corpus-stats.json` (repo, `generated_at` 2026-08-19T04:46Z)                                          | All six figures verified accurate; `avg_new_per_month: 25` and the 3.01pp superlative margin established FUTURE-R2 as a durability rather than accuracy finding         |
+| 3   | Does publishing Burr change his own article's statistics?                        | `corpus-stats.json` domain labels (`comedy.raw_labels: ["comedian"]`) vs draft frontmatter `type: ['comedian', …]` | Confirmed comedy 32→33 and Sixes 3→4 on publish; added the self-exclusion point to FUTURE-R2                                                                            |
+| 4   | Did _Drop Dead Years_ win a 2025 Emmy, making "Emmy-nominated" stale?            | Web search → Television Academy / IMDb awards                                                                      | **No** — nominations only. "Emmy-nominated" is durable. Finding dropped; logged as FUTURE-Q4 so it is not re-checked                                                    |
+| 5   | Is 2026-10-09 still the release date, and how is Burr's character described?     | Web search → TheWrap / Deadline / Rolling Stone / Boston Globe trailer coverage                                    | Date holds. Role described as "Charlie, an advisor of a sort to Zuckerberg," trailer line about congressional testimony and likability — contradicts "crisis counselor" |
+| 6   | Does any authoritative cast listing assign Burr an occupation?                   | WebFetch → Wikipedia, _The Social Reckoning_                                                                       | Cast line is exactly "Bill Burr as Charlie," no occupation; film unreleased. **Confirmed FUTURE-R1 as a blocker**                                                       |
 
 Sources consulted beyond the packet: 3 (two searches, one fetch) — within the 2–4 budget; the third
 was spent under the potential-factual-blocker allowance to pin FUTURE-R1 before promoting it.

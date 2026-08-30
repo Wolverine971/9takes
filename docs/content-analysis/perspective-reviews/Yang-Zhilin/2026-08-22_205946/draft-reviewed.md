@@ -89,7 +89,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Yang-Zhilin.md
+path: docs/content-analysis/perspective-reviews/Yang-Zhilin/2026-08-22_205946/draft-reviewed.md
 content_quality:
   hook: 8.5
   enneagram: 9

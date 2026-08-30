@@ -110,6 +110,7 @@ content_quality:
   anchor: 'Matt-Smith draft (2026-06-28)'
   needs_review: true
   graded_at: '2026-08-20'
+path: src/blog/people/drafts/Ms-Rachel.md
 ---
 
 <!-- TESTIMONY LEDGER

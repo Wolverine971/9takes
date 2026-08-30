@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "subject": "Margaret-Qualley",
-  "draft_path": "src/blog/people/drafts/Margaret-Qualley.md",
-  "review_dir": "docs/content-analysis/perspective-reviews/Margaret-Qualley/2026-08-20_210800",
-  "draft_sha256": "a1abe7376118f9365a71e58751109ffea0a5aecdc06e5ad435d26ada19ee7779",
-  "reader_visible_content_sha256": "dd39c49db4cf73adf8e8506ddad6a3dc32b1d928ed92a9b22cc579f118eac029",
-  "created_at": "2026-08-20T21:08:29.869Z"
+	"schema_version": 1,
+	"subject": "Margaret-Qualley",
+	"draft_path": "src/blog/people/drafts/Margaret-Qualley.md",
+	"review_dir": "docs/content-analysis/perspective-reviews/Margaret-Qualley/2026-08-20_210800",
+	"draft_sha256": "a1abe7376118f9365a71e58751109ffea0a5aecdc06e5ad435d26ada19ee7779",
+	"reader_visible_content_sha256": "dd39c49db4cf73adf8e8506ddad6a3dc32b1d928ed92a9b22cc579f118eac029",
+	"created_at": "2026-08-20T21:08:29.869Z"
 }

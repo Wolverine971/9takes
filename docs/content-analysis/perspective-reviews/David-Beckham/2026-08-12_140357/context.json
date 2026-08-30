@@ -1,9 +1,9 @@
 {
-  "schema_version": 1,
-  "subject": "David-Beckham",
-  "draft_path": "src/blog/people/drafts/David-Beckham.md",
-  "review_dir": "docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357",
-  "draft_sha256": "36da819670b7816c013af055573d6ae652c32d664800eced55ed12ec478a5c71",
-  "reader_visible_content_sha256": "bb686a8089cb85989a28f60b2a906ccab7ef8528968d1636d8890d2302fab6d7",
-  "created_at": "2026-08-12T18:04:03.809Z"
+	"schema_version": 1,
+	"subject": "David-Beckham",
+	"draft_path": "src/blog/people/drafts/David-Beckham.md",
+	"review_dir": "docs/content-analysis/perspective-reviews/David-Beckham/2026-08-12_140357",
+	"draft_sha256": "36da819670b7816c013af055573d6ae652c32d664800eced55ed12ec478a5c71",
+	"reader_visible_content_sha256": "bb686a8089cb85989a28f60b2a906ccab7ef8528968d1636d8890d2302fab6d7",
+	"created_at": "2026-08-12T18:04:03.809Z"
 }

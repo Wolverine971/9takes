@@ -10,16 +10,16 @@ path: docs/content-analysis/perspective-reviews/Margaret-Qualley/2026-08-20_2108
 
 ## Resolution log
 
-| Item | Status | Resolution |
-| --- | --- | --- |
-| P0 blockers | none | Six perspectives found no mandatory publication repair |
-| Grade stability | resolved | Final reader-visible article scored 8.9 → 8.9, delta 0.0 |
-| Length | pass | Trimmed from 4,767 to 4,374 words; lint 0 fail / 1 thin-headroom warning |
-| Source standard | pass | Six load-bearing quotations; five inline, one recoverable vague, zero untagged |
-| Residual source gaps | resolved before snapshot | Collider and Deadline named inline; unsupported skin-recovery paragraph removed |
-| Current status | verified before snapshot | Variety reports a June 11, 2027 _Possession_ date; casting chronology remains explicit |
-| Images | pass | Full and thumbnail WebP files exist under `static/types/3s` |
-| Same-type diagnostic | acknowledged | Short generic clauses and a subject quote trip the diagnostic; no duplicated subject argument found |
+| Item                 | Status                   | Resolution                                                                                          |
+| -------------------- | ------------------------ | --------------------------------------------------------------------------------------------------- |
+| P0 blockers          | none                     | Six perspectives found no mandatory publication repair                                              |
+| Grade stability      | resolved                 | Final reader-visible article scored 8.9 → 8.9, delta 0.0                                            |
+| Length               | pass                     | Trimmed from 4,767 to 4,374 words; lint 0 fail / 1 thin-headroom warning                            |
+| Source standard      | pass                     | Six load-bearing quotations; five inline, one recoverable vague, zero untagged                      |
+| Residual source gaps | resolved before snapshot | Collider and Deadline named inline; unsupported skin-recovery paragraph removed                     |
+| Current status       | verified before snapshot | Variety reports a June 11, 2027 _Possession_ date; casting chronology remains explicit              |
+| Images               | pass                     | Full and thumbnail WebP files exist under `static/types/3s`                                         |
+| Same-type diagnostic | acknowledged             | Short generic clauses and a subject quote trip the diagnostic; no duplicated subject argument found |
 
 ## Protected hits checked
 

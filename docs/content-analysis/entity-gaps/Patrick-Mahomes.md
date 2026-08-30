@@ -7,6 +7,7 @@ score: 43
 biography_intent: true
 personal_wikipedia: true
 source_gate: 'pass'
+path: docs/content-analysis/entity-gaps/Patrick-Mahomes.md
 ---
 
 # Emerging Entity Gap Packet: Patrick Mahomes
@@ -46,14 +47,14 @@ All demand is directional (dated events + coverage volume); no Trends/volume too
 Checked 2026-08-23 via Claude WebSearch (US). Composition is directional, not a clean logged-out
 Google SERP; backlink data unknown.
 
-| Query | First-page composition |
-| --- | --- |
-| `Patrick Mahomes` | X, Instagram, Facebook (official/social ×3), Pro-Football-Reference, ESPN player page, fresh injury/news wave (Yahoo, Athlon, Fox4KC, Roundtable) |
-| `Patrick Mahomes biography` | Personal Wikipedia, Biography.com, EBSCO Research Starters, Britannica Kids, AllAmericanSpeakers bio, two published print biographies (Amazon, MIT Press Bookstore) — **six dedicated authoritative biographies** |
-| `Patrick Mahomes wife / age / parents` | GMA, ABC News, Hello!, The Knot, SI, Fox, Athlon, Heavy, StyleCaster, SCMP — mainstream publishers own every family fact; SEO spam on a hacked .edu subdomain (`cybercourse.isi.jhu.edu`) shows the long tail is already being farmed |
-| `Patrick Mahomes background Texas Tech baseball` | 247Sports, TexasTech.com roster, SI, MLB.com ("What if? Inside Mahomes' baseball career"), Baseball-Reference, CBS — fully served |
-| `Patrick Mahomes enneagram personality type` | **Weak:** enneagramuniverse (types him 7), Boo.world (separate entries for Patrick and his father), mbtilounge (types him 3), Personality Database, personalitylist — crowd-vote directories, zero editorial analysis |
-| `Patrick Mahomes personality` (no framework) | Boo.world, a Medium post, FanBuzz teammate roundup, sportpersonalities.com "EORC" page, Heavy/Yahoo quote pieces — thin; no publisher owns "what is he actually like" |
+| Query                                            | First-page composition                                                                                                                                                                                                                |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `Patrick Mahomes`                                | X, Instagram, Facebook (official/social ×3), Pro-Football-Reference, ESPN player page, fresh injury/news wave (Yahoo, Athlon, Fox4KC, Roundtable)                                                                                     |
+| `Patrick Mahomes biography`                      | Personal Wikipedia, Biography.com, EBSCO Research Starters, Britannica Kids, AllAmericanSpeakers bio, two published print biographies (Amazon, MIT Press Bookstore) — **six dedicated authoritative biographies**                     |
+| `Patrick Mahomes wife / age / parents`           | GMA, ABC News, Hello!, The Knot, SI, Fox, Athlon, Heavy, StyleCaster, SCMP — mainstream publishers own every family fact; SEO spam on a hacked .edu subdomain (`cybercourse.isi.jhu.edu`) shows the long tail is already being farmed |
+| `Patrick Mahomes background Texas Tech baseball` | 247Sports, TexasTech.com roster, SI, MLB.com ("What if? Inside Mahomes' baseball career"), Baseball-Reference, CBS — fully served                                                                                                     |
+| `Patrick Mahomes enneagram personality type`     | **Weak:** enneagramuniverse (types him 7), Boo.world (separate entries for Patrick and his father), mbtilounge (types him 3), Personality Database, personalitylist — crowd-vote directories, zero editorial analysis                 |
+| `Patrick Mahomes personality` (no framework)     | Boo.world, a Medium post, FanBuzz teammate roundup, sportpersonalities.com "EORC" page, Heavy/Yahoo quote pieces — thin; no publisher owns "what is he actually like"                                                                 |
 
 Answers to the audit questions:
 
@@ -62,13 +63,13 @@ Answers to the audit questions:
 3. Strong publisher owns general biography intent: yes, several simultaneously.
 4. Would a reader need multiple searches? No for facts. **Yes** for "what makes him tick / what type
    is he" — directories contradict each other and none argues a case.
-5. Could 9takes be the strongest general-interest page? No. Strongest *personality-analysis* page?
+5. Could 9takes be the strongest general-interest page? No. Strongest _personality-analysis_ page?
    Yes — the competition on that subfamily is directory-grade and internally inconsistent.
 
 ## Biography-intent map
 
 - **Core identity:** fully served. Do not chase, but the opening must still explain who he is and
-  why he matters *now* (ACL comeback, first playoff miss) before assuming fandom.
+  why he matters _now_ (ACL comeback, first playoff miss) before assuming fandom.
 - **Life and career:** fully served by Wikipedia/Biography.com/MLB.com. The draft needs a sourced
   spine, not a resume: son of an 11-season MLB reliever; raised partly in MLB clubhouses (godfather
   LaTroy Hawkins); parents divorced when he was about 11; Whitehouse HS three-sport athlete whose
@@ -84,34 +85,34 @@ Answers to the audit questions:
   - Parents: Pat Mahomes Sr. (MLB pitcher, Twins/Red Sox/Mets/Rangers/Cubs/Pirates) and Randi Martin.
   - College: Texas Tech (football and baseball).
 - **Unserved intent (the 9takes lane):** `patrick mahomes enneagram`, `patrick mahomes personality
-  type`, `patrick mahomes mbti`-adjacent, and "what is Mahomes like as a leader/teammate." Boo.world
+type`, `patrick mahomes mbti`-adjacent, and "what is Mahomes like as a leader/teammate." Boo.world
   listing both Patrick and Pat Sr. indicates searchers do reach these directories.
 
 ## Source inventory
 
 Gate: **pass** — depth is effectively unlimited.
 
-- **First-person (long-form):** Netflix *Quarterback* S1 (2023, mic'd up, at home, mid-season birth
-  of Bronze); ESPN/Disney+ *The Kingdom* (six episodes, Aug 2025, Ep. 1 "Family Business" — first
+- **First-person (long-form):** Netflix _Quarterback_ S1 (2023, mic'd up, at home, mid-season birth
+  of Bronze); ESPN/Disney+ _The Kingdom_ (six episodes, Aug 2025, Ep. 1 "Family Business" — first
   on-camera comments on his father's arrest: "knowing that it hurt me woke him up"); CBS News sit-down
   on fatherhood, career, legacy; weekly pressers; rehab-update availabilities May 28, 2026 (NFL.com
   video) and camp ("I feel stronger than I've ever felt"; "I want to be ready for Week 1").
 - **Named third-party:** Andy Reid (cleared him; "ACL strength fully restored"); Brett Veach (GM, on
   the Mahomes/Kelce decision); Eric Bieniemy ("just a competitive person… intestinal fortitude");
-  Creed Humphrey; Travis Kelce (years of *New Heights* episodes); Pat Mahomes Sr. ("most
-  embarrassing thing," sober since — in *The Kingdom*); Randi Martin; Brittany Mahomes; Tim Tadlock
+  Creed Humphrey; Travis Kelce (years of _New Heights_ episodes); Pat Mahomes Sr. ("most
+  embarrassing thing," sober since — in _The Kingdom_); Randi Martin; Brittany Mahomes; Tim Tadlock
   (Texas Tech baseball, recruited him from age 15); Tom Brady and Tyrann Mathieu (rehab calls).
 - **Current, catalyst-tied:** NFL.com camp clearance; ESPN camp intel; SI "Stronger Than I've Ever
   Felt"; Yahoo expectations piece; ESPN "lost 2025 season could be a blessing in disguise."
 - **Contradiction candidates for the thesis (pick one; do not stack):**
-  1. *Backyard improviser vs. obsessive preparer.* The no-look, sidearm, off-platform throws read as
+  1. _Backyard improviser vs. obsessive preparer._ The no-look, sidearm, off-platform throws read as
      pure play; the record (clubhouse apprenticeship, film habits, Reid's system mastery) says the
      improvisation is the output of preparation, not a substitute for it. Crowd directories split
      7 vs 3 precisely because they only see one half.
-  2. *The first real "no."* Never seriously hurt before 30; the ACL is the first time the body refused.
+  2. _The first real "no."_ Never seriously hurt before 30; the ACL is the first time the body refused.
      How he has narrated rehab ("hitting all the checkpoints," benchmarking against Brady/Mathieu) is
      fresh, on-record, and tells you how he meets adversity.
-  3. *Controlled disclosure.* "It's a family matter" (Feb 2024) → eighteen months of silence → a
+  3. _Controlled disclosure._ "It's a family matter" (Feb 2024) → eighteen months of silence → a
      curated on-camera reveal in a series he executive-produced. The pattern of how and when he lets
      pain be seen is itself the tell.
 
@@ -148,7 +149,7 @@ For the pipeline run now in progress:
   is stale within months).
 - Do not state the Chiefs' final 2025 record or call it a "losing season" — not verified in this
   audit. "First playoff miss since 2014" is verified.
-- Pat Sr.'s arrest: limit to what Patrick and Pat Sr. said on camera in *The Kingdom*. Do not reprint
+- Pat Sr.'s arrest: limit to what Patrick and Pat Sr. said on camera in _The Kingdom_. Do not reprint
   BAC, parole-violation, or name-dropping-video details from tabloid coverage.
 - Brittany Mahomes' political/social-media controversies are off-topic; leave them out entirely.
 - Children's names are public via parents' own announcements (SI, GMA); do not go beyond names and

@@ -11,7 +11,7 @@ collection: 'warmup_inline'
 content_type: 'post'
 pillar_guess: 'Relationship Patterns / Type Reactivity'
 risk_level: 'normal'
-path: docs/instagram/saves/inbox/2026-06-17_DZqvY3fkprX.md
+path: docs/instagram/saves/processed/2026-06-17_DZqvY3fkprX.md
 ---
 
 # Saved Post: @thesecurerelationship — "Common Conflict Patterns Between Anxious and Avoidant Partners"

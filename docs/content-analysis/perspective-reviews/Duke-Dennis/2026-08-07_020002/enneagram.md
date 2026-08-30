@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 4
 reviewed_at: 2026-08-07T06:49:20Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -57,42 +58,46 @@ The Type 8 call is well-evidenced and, more importantly, well-argued: the typing
 ## Red flags
 
 **ENNEAGRAM-C1 — Missing 9w8 counter-case in the counterarguments section.**
-- *Passage:* Rabbit hole, "Counterarguments: Why Duke Dennis Might Not Be Type 8" — covers Type 3 and Type 6 only.
-- *Reader effect:* An Enneagram-literate reader notices that every trait cited for the 9 wing (steady, slow to escalate, "chill," immovable), plus the Germany withdrawal and the four-year stay, assembles into a 9w8 case the draft never acknowledges. The typing memo (docs/content-analysis/research/Duke-Dennis.md) itself lists "could read 9 inertia" as counterevidence and never rebuts it; the evidence packet lists "Type 9 inertia" as an open alternative. The omission reads as a blind spot, and it is the single most likely comment-section objection from typology readers.
-- *Evidence/reasoning:* The discriminating data already exists in the draft: 9s under pressure merge and accommodate; Duke's exits are instant, unhedged, and verbally direct (walked out of the factory mid-shift; "I don't want to be here" to the first sergeant's face; enforcing the sealed-six policy as a stated rule). Nines do not typically issue standing policies or audit award lists for excluded friends.
-- *Minimum viable repair:* Add 2–3 sentences to the counterarguments block: name the 9w8 case (chill affect, conflict defusal, the stay, the withdrawal), then close it with the merge-vs-exit discriminator — a 9 endures arrangements by going along; Duke ends them by walking, on the record, in one sentence.
-- *Expected benefit:* Closes the most predictable typology objection and converts the wing evidence from vulnerability to support.
-- *Confidence:* High that the gap is real; high that the repair is sufficient.
-- *Acceptance test:* The counterarguments section names Type 9 (as core, not wing) and states at least one behavioral discriminator that separates 8w9 exit from 9w8 accommodation.
+
+- _Passage:_ Rabbit hole, "Counterarguments: Why Duke Dennis Might Not Be Type 8" — covers Type 3 and Type 6 only.
+- _Reader effect:_ An Enneagram-literate reader notices that every trait cited for the 9 wing (steady, slow to escalate, "chill," immovable), plus the Germany withdrawal and the four-year stay, assembles into a 9w8 case the draft never acknowledges. The typing memo (docs/content-analysis/research/Duke-Dennis.md) itself lists "could read 9 inertia" as counterevidence and never rebuts it; the evidence packet lists "Type 9 inertia" as an open alternative. The omission reads as a blind spot, and it is the single most likely comment-section objection from typology readers.
+- _Evidence/reasoning:_ The discriminating data already exists in the draft: 9s under pressure merge and accommodate; Duke's exits are instant, unhedged, and verbally direct (walked out of the factory mid-shift; "I don't want to be here" to the first sergeant's face; enforcing the sealed-six policy as a stated rule). Nines do not typically issue standing policies or audit award lists for excluded friends.
+- _Minimum viable repair:_ Add 2–3 sentences to the counterarguments block: name the 9w8 case (chill affect, conflict defusal, the stay, the withdrawal), then close it with the merge-vs-exit discriminator — a 9 endures arrangements by going along; Duke ends them by walking, on the record, in one sentence.
+- _Expected benefit:_ Closes the most predictable typology objection and converts the wing evidence from vulnerability to support.
+- _Confidence:_ High that the gap is real; high that the repair is sufficient.
+- _Acceptance test:_ The counterarguments section names Type 9 (as core, not wing) and states at least one behavioral discriminator that separates 8w9 exit from 9w8 accommodation.
 
 **ENNEAGRAM-C2 — Interview avoidance double-counted as baseline anti-3 evidence and 8→5 stress evidence.**
-- *Passage:* Stress section: "Duke's version kept running long after the uniform came off. Fame arrived in 2017, 2018, 2019. He gave it no doors." And rabbit hole, Stress and Growth Arrows: "Under stress he moves toward Five: the Germany barracks isolation, the seven interview-free years..." Versus diagnosis section and rabbit hole using the same seven years as evidence he "declines attention" (anti-3).
-- *Reader effect:* A careful reader asks: were 2017–2024 stress years or triumph years? If the interview-free decade is disintegration-to-Five, it cannot simultaneously be calm baseline evidence against Type 3. The theory claim becomes unfalsifiable — withdrawal proves 8 under stress, and the same withdrawal proves not-3 at baseline.
-- *Evidence/reasoning:* The packet flags the parallel issue ("a skeptic can read the same data as baseline introversion"). Standard theory supports the cleaner split the draft already half-makes: acute, situational withdrawal when the fight can't be won (Germany) is the 8→5 stress datum; durable privacy in success years is baseline self-preservation-8 territory, which the draft's own sp/so section describes as "a sealed private life in a public industry."
-- *Minimum viable repair:* In the arrows paragraph, drop "the seven interview-free years" from the stress-toward-Five list (keep Germany and the withhold-rather-than-confront reflex); in the stress section, one clause reframing the interview-free years as sp-8 baseline rather than a stress state continuing to "run."
-- *Expected benefit:* The stress arrow becomes falsifiable and the anti-3 argument keeps sole custody of the media avoidance.
-- *Confidence:* High.
-- *Acceptance test:* No single behavior appears in both the stress-arrow evidence list and the baseline typing/counter-typing evidence.
+
+- _Passage:_ Stress section: "Duke's version kept running long after the uniform came off. Fame arrived in 2017, 2018, 2019. He gave it no doors." And rabbit hole, Stress and Growth Arrows: "Under stress he moves toward Five: the Germany barracks isolation, the seven interview-free years..." Versus diagnosis section and rabbit hole using the same seven years as evidence he "declines attention" (anti-3).
+- _Reader effect:_ A careful reader asks: were 2017–2024 stress years or triumph years? If the interview-free decade is disintegration-to-Five, it cannot simultaneously be calm baseline evidence against Type 3. The theory claim becomes unfalsifiable — withdrawal proves 8 under stress, and the same withdrawal proves not-3 at baseline.
+- _Evidence/reasoning:_ The packet flags the parallel issue ("a skeptic can read the same data as baseline introversion"). Standard theory supports the cleaner split the draft already half-makes: acute, situational withdrawal when the fight can't be won (Germany) is the 8→5 stress datum; durable privacy in success years is baseline self-preservation-8 territory, which the draft's own sp/so section describes as "a sealed private life in a public industry."
+- _Minimum viable repair:_ In the arrows paragraph, drop "the seven interview-free years" from the stress-toward-Five list (keep Germany and the withhold-rather-than-confront reflex); in the stress section, one clause reframing the interview-free years as sp-8 baseline rather than a stress state continuing to "run."
+- _Expected benefit:_ The stress arrow becomes falsifiable and the anti-3 argument keeps sole custody of the media avoidance.
+- _Confidence:_ High.
+- _Acceptance test:_ No single behavior appears in both the stress-arrow evidence list and the baseline typing/counter-typing evidence.
 
 **ENNEAGRAM-C3 — "It stays in the drawer" is contradicted by the same exchange it cites.**
-- *Passage:* Empire section: "The audience would watch it. He knows they would. It stays in the drawer." Echoed in the rabbit hole's Type 3 rebuttal: "shelved finished videos."
-- *Reader effect:* Anyone who watches the source interview hears Duke immediately add that he now posts those videos to his live channel ("I know they want to see it, even though I don't want to drop it" — per the evidence packet's word-for-word verification). The overstated plank sits inside the rebuttal of the strongest alternative type, which is precisely where the draft can least afford overstatement; a Type-3 advocate would cite the tail of that exchange as attention being metabolized after all.
-- *Evidence/reasoning:* Evidence packet, First-person evidence, craft entry: counterevidence explicitly flagged as omitted by the draft.
-- *Minimum viable repair:* Replace the drawer line with the accurate, still-diagnostic version: the videos are demoted to the secondary channel because they miss his bar — the standard is his, not the audience's ("I just want to make a good video that tells a good story" carries the beat). Trim "shelved finished videos" in the rabbit hole to match, leaning on the intact planks (seven interview-free years, credit deflection, the Rolling Stone reaction spent on Speed).
-- *Expected benefit:* The anti-3 rebuttal survives contact with the primary tape.
-- *Confidence:* High (packet verification is word-for-word).
-- *Acceptance test:* No claim in the draft asserts the shelved videos remain unpublished; the anti-3 rebuttal cites only planks the transcript supports.
+
+- _Passage:_ Empire section: "The audience would watch it. He knows they would. It stays in the drawer." Echoed in the rabbit hole's Type 3 rebuttal: "shelved finished videos."
+- _Reader effect:_ Anyone who watches the source interview hears Duke immediately add that he now posts those videos to his live channel ("I know they want to see it, even though I don't want to drop it" — per the evidence packet's word-for-word verification). The overstated plank sits inside the rebuttal of the strongest alternative type, which is precisely where the draft can least afford overstatement; a Type-3 advocate would cite the tail of that exchange as attention being metabolized after all.
+- _Evidence/reasoning:_ Evidence packet, First-person evidence, craft entry: counterevidence explicitly flagged as omitted by the draft.
+- _Minimum viable repair:_ Replace the drawer line with the accurate, still-diagnostic version: the videos are demoted to the secondary channel because they miss his bar — the standard is his, not the audience's ("I just want to make a good video that tells a good story" carries the beat). Trim "shelved finished videos" in the rabbit hole to match, leaning on the intact planks (seven interview-free years, credit deflection, the Rolling Stone reaction spent on Speed).
+- _Expected benefit:_ The anti-3 rebuttal survives contact with the primary tape.
+- _Confidence:_ High (packet verification is word-for-word).
+- _Acceptance test:_ No claim in the draft asserts the shelved videos remain unpublished; the anti-3 rebuttal cites only planks the transcript supports.
 
 **ENNEAGRAM-C4 — "He ruined a generation" flattens an on-tape negotiation into a standing verdict.**
-- *Passage:* Rizz section: "Duke's assessment of that achievement: 'He ruined a generation.'"
-- *Reader effect:* The tape (per the packet) shows Speedy quoting Duke's earlier line back to him, Duke softening ("I wouldn't say ruined it"), then re-owning it when pressed. The draft's flat rendering slightly overstates the decisiveness that the wing section separately cites as typing evidence ("verdicts delivered at low volume"). Small, but this is a typing article; the shape of how he holds a position is data.
-- *Evidence/reasoning:* Evidence packet CLM-10 and Disputes item 7.
-- *Minimum viable repair:* One clause of setup: he said it before, walks it back a half-step on tape, then re-owns it when pressed — which is, if anything, better 8w9 evidence (non-escalating, but won't abandon the position under pressure) than the flat verdict.
-- *Expected benefit:* Quote fidelity and a marginally stronger wing datum at once.
-- *Confidence:* Medium-high (rests on the packet's transcript reading; I did not re-watch the tape).
-- *Acceptance test:* The rendering acknowledges the line predates the interview and that Duke qualified it before repeating it.
 
-**ENNEAGRAM-P1 (preference, recorded once, not promoted):** "the least seduction-driven subtype arrangement an Eight can run" — so/sp also puts the sexual instinct last, so sp/so is *a* least-sx stacking, not *the*. One-word fix ("a" for "the," or "with the sexual instinct last"). Cosmetic; the irony it sets up is worth keeping.
+- _Passage:_ Rizz section: "Duke's assessment of that achievement: 'He ruined a generation.'"
+- _Reader effect:_ The tape (per the packet) shows Speedy quoting Duke's earlier line back to him, Duke softening ("I wouldn't say ruined it"), then re-owning it when pressed. The draft's flat rendering slightly overstates the decisiveness that the wing section separately cites as typing evidence ("verdicts delivered at low volume"). Small, but this is a typing article; the shape of how he holds a position is data.
+- _Evidence/reasoning:_ Evidence packet CLM-10 and Disputes item 7.
+- _Minimum viable repair:_ One clause of setup: he said it before, walks it back a half-step on tape, then re-owns it when pressed — which is, if anything, better 8w9 evidence (non-escalating, but won't abandon the position under pressure) than the flat verdict.
+- _Expected benefit:_ Quote fidelity and a marginally stronger wing datum at once.
+- _Confidence:_ Medium-high (rests on the packet's transcript reading; I did not re-watch the tape).
+- _Acceptance test:_ The rendering acknowledges the line predates the interview and that Duke qualified it before repeating it.
+
+**ENNEAGRAM-P1 (preference, recorded once, not promoted):** "the least seduction-driven subtype arrangement an Eight can run" — so/sp also puts the sexual instinct last, so sp/so is _a_ least-sx stacking, not _the_. One-word fix ("a" for "the," or "with the sexual instinct last"). Cosmetic; the irony it sets up is worth keeping.
 
 ## Specific improvements
 
@@ -103,7 +108,7 @@ Ordered by priority; repairs, tests, and confidence are specified per finding in
 3. **ENNEAGRAM-C3:** Rewrite the "stays in the drawer" beat to the demoted-to-live-channel truth; align the rabbit hole's "shelved finished videos" plank.
 4. **ENNEAGRAM-C4:** Add the one-clause setup restoring the ruined-a-generation exchange's actual shape.
 5. **ENNEAGRAM-P1:** Soften the sp/so superlative by one word.
-6. *(Optional, from Q2 below)* One sentence in the wing or subtype section naming the exit-not-confrontation asymmetry and attributing it to the 9 wing + sp-first stacking — turns an unspoken vulnerability into stated analysis.
+6. _(Optional, from Q2 below)_ One sentence in the wing or subtype section naming the exit-not-confrontation asymmetry and attributing it to the 9 wing + sp-first stacking — turns an unspoken vulnerability into stated analysis.
 
 ## Follow-on questions
 

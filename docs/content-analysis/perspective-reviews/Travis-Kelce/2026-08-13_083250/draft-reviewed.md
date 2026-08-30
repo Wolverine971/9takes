@@ -72,19 +72,19 @@ citations:
   - 'https://podscripts.co/podcasts/not-gonna-lie-with-kylie-kelce/kylie-donna-kelce-on-girls-meeting-minnie-mouse-best-disney-rides-untold-jason-travis-story-ep-43'
 faqs:
   - question: "What is Travis Kelce's personality type?"
-    answer: "Travis Kelce is an Enneagram Type 7 (The Enthusiast), specifically a 7w8. The pattern shows in the three-year-old who studied his parents, climbed the drawers, and started the family car; the discipline he openly says his brother and Andy Reid installed rather than himself; and the Cincinnati drug suspension he now turns into a punchline and reframes as something that worked out perfectly."
+    answer: 'Travis Kelce is an Enneagram Type 7 (The Enthusiast), specifically a 7w8. The pattern shows in the three-year-old who studied his parents, climbed the drawers, and started the family car; the discipline he openly says his brother and Andy Reid installed rather than himself; and the Cincinnati drug suspension he now turns into a punchline and reframes as something that worked out perfectly.'
     anchor: 'what-is-travis-kelces-personality-type'
   - question: 'Why did Cincinnati kick Travis Kelce off the team?'
     answer: "Kelce failed a marijuana test around Cincinnati's January 2010 Sugar Bowl trip, costing him his scholarship and the entire 2010 season. His brother Jason vouched for him, moved him into his room, and helped him return in 2011 as a tight end. A later team-policy violation brought a second suspension before Kelce's final college season; this time coach Butch Jones required a 3.0 semester GPA, and Kelce earned a 3.2."
     anchor: 'the-year-cincinnati-kicked-travis-kelce-off-the-team'
   - question: 'Why does Travis Kelce wear No. 87?'
-    answer: "The number has nothing to do with luck or the draft: 87 is the year his brother Jason was born. \"You're the only reason I wear 87,\" Travis told him. \"You started the legacy.\" It is a uniform turned into a monument to the brother who caught him when his career nearly ended at Cincinnati."
+    answer: 'The number has nothing to do with luck or the draft: 87 is the year his brother Jason was born. "You''re the only reason I wear 87," Travis told him. "You started the legacy." It is a uniform turned into a monument to the brother who caught him when his career nearly ended at Cincinnati.'
     anchor: 'why-travis-kelce-wears-no-87'
   - question: 'Why did Travis Kelce shove Andy Reid at the Super Bowl?'
-    answer: "In the second quarter of Super Bowl LVIII, with the Chiefs losing and Kelce barely touching the ball, he screamed in his 65-year-old coach's face and bumped him off balance. A Seven survives by converting a bad situation into a usable one, but benched on the sideline he had no next move to work on, and when the reframe fails the Enthusiast goes rigid and hot (the stress move toward Type 1). Kelce named it himself: \"those emotions get away from me, and that's been the battle of my career.\""
+    answer: 'In the second quarter of Super Bowl LVIII, with the Chiefs losing and Kelce barely touching the ball, he screamed in his 65-year-old coach''s face and bumped him off balance. A Seven survives by converting a bad situation into a usable one, but benched on the sideline he had no next move to work on, and when the reframe fails the Enthusiast goes rigid and hot (the stress move toward Type 1). Kelce named it himself: "those emotions get away from me, and that''s been the battle of my career."'
     anchor: 'why-travis-kelce-shoved-his-own-coach-at-the-super-bowl'
   - question: 'How did Travis Kelce and Taylor Swift get together?'
-    answer: "At the July 2023 Eras Tour stop at his own Arrowhead Stadium, Kelce made Taylor Swift a friendship bracelet with his phone number beaded onto it and never got the chance to hand it over. Instead of pocketing the letdown, he broadcast it on the New Heights podcast, saying he \"took it personal.\" That is the Type 7 wiring exactly: put the want on a bracelet, go full send, and turn the disappointment into a bit, which is also how he got her attention. They married at Madison Square Garden on July 3, 2026."
+    answer: 'At the July 2023 Eras Tour stop at his own Arrowhead Stadium, Kelce made Taylor Swift a friendship bracelet with his phone number beaded onto it and never got the chance to hand it over. Instead of pocketing the letdown, he broadcast it on the New Heights podcast, saying he "took it personal." That is the Type 7 wiring exactly: put the want on a bracelet, go full send, and turn the disappointment into a bit, which is also how he got her attention. They married at Madison Square Garden on July 3, 2026.'
     anchor: 'the-bracelet-travis-kelce-made-for-taylor-swift'
 production_pretext:
   status: draft
@@ -116,7 +116,7 @@ content_quality:
   regrade_overall: 8.6
   grade_stability_delta: 0.0
   graded_at: '2026-07-22'
-path: src/blog/people/drafts/Travis-Kelce.md
+path: docs/content-analysis/perspective-reviews/Travis-Kelce/2026-08-13_083250/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -163,7 +163,7 @@ Ending swap-test: pass. The final image (a man built to leave who married the on
 
 <p class="firstLetter">He was three years old, and he had already cracked the locks.</p>
 
-Donna Kelce kept the car keys up high in the house, next to the knives. Her younger son had learned to climb the drawers, and he had watched, closely, how his parents got into the car and started it. One day he did it himself. "He knew exactly what to do," Donna said on [*Not Gonna Lie with Kylie Kelce*, episode 43, in 2025](https://podscripts.co/podcasts/not-gonna-lie-with-kylie-kelce/kylie-donna-kelce-on-girls-meeting-minnie-mouse-best-disney-rides-untold-jason-travis-story-ep-43), "and turned it on, and it jumped."
+Donna Kelce kept the car keys up high in the house, next to the knives. Her younger son had learned to climb the drawers, and he had watched, closely, how his parents got into the car and started it. One day he did it himself. "He knew exactly what to do," Donna said on [_Not Gonna Lie with Kylie Kelce_, episode 43, in 2025](https://podscripts.co/podcasts/not-gonna-lie-with-kylie-kelce/kylie-donna-kelce-on-girls-meeting-minnie-mouse-best-disney-rides-untold-jason-travis-story-ep-43), "and turned it on, and it jumped."
 
 Most toddlers want the shiny thing. This one studied the system, found the gap, and got the engine running before his feet could reach the pedals.
 
@@ -192,7 +192,7 @@ Travis Kelce is an Enneagram [Type 7](/enneagram-corner/enneagram-type-7), the E
 
 The Seven runs on momentum. Sevens walk into a dull room and start something in it. They hit a closed door and find seven others. A bad feeling shows up and gets talked out of the room before it can settle in. It looks like optimism, and it moves fast enough that most people never notice the machinery underneath: a mind that treats stimulation the way other people treat oxygen.
 
-Kelce has been doing this since before he could read a playbook. At 36, a full decade past the age most players start counting down, he still described the game through its buzz. Asked on *The Rich Eisen Show* in 2024 whether a third straight Super Bowl might be his last ride, he said retirement "didn't cross my mind one bit." The reason: "The excitement of the challenge of this year, and being able to maybe do it a third time in a row, that alone was all I needed to come back."
+Kelce has been doing this since before he could read a playbook. At 36, a full decade past the age most players start counting down, he still described the game through its buzz. Asked on _The Rich Eisen Show_ in 2024 whether a third straight Super Bowl might be his last ride, he said retirement "didn't cross my mind one bit." The reason: "The excitement of the challenge of this year, and being able to maybe do it a third time in a row, that alone was all I needed to come back."
 
 He does not describe the work as work. "Once that camera's on, baby, you gotta go full send," he told Rich Eisen in 2024. On the same show, he offered the cleanest summary of a life most people would find exhausting: "I got the seatbelt on, and I'm just riding this roller coaster. It's a good time."
 
@@ -233,11 +233,11 @@ Here is where the story stops being about Travis and starts revealing him. He di
 </div>
 </div>
 
-Jason did not just vouch. He added a second bed to his own room and moved his brother in, so he could keep a closer eye on him. Years later, on a 2025 episode of *New Heights*, Jason described the size of the debt plainly: "You probably got drafted an entire round later than you should have. Everybody who ever knew you knew you were a great kid. You just had a mess up with weed."
+Jason did not just vouch. He added a second bed to his own room and moved his brother in, so he could keep a closer eye on him. Years later, on a 2025 episode of _New Heights_, Jason described the size of the debt plainly: "You probably got drafted an entire round later than you should have. Everybody who ever knew you knew you were a great kid. You just had a mess up with weed."
 
 Sit with what Kelce did with all of this. A gifted athlete gets one of the harshest lessons available to a 20-year-old, and the story he carries out of it belongs to the people who rescued and reassigned him. His own reform barely features. The wildness that got him kicked out was still there. What changed is that people who loved him built a cage around it, and inside that cage, by accident, they found the position that fit him perfectly.
 
-He never let it curdle into resentment. Years later, [Butch Jones showed *The Kansas City Star*](https://www.kansascity.com/sports/spt-columns-blogs/sam-mcdowell/article311967028.html) the jersey Kelce had signed for him: "It's been one hell of a journey. From giving me a second chance in life, to pushing me every day to be great! I love ya like a father!"
+He never let it curdle into resentment. Years later, [Butch Jones showed _The Kansas City Star_](https://www.kansascity.com/sports/spt-columns-blogs/sam-mcdowell/article311967028.html) the jersey Kelce had signed for him: "It's been one hell of a journey. From giving me a second chance in life, to pushing me every day to be great! I love ya like a father!"
 
 The man who took everything from him became a father figure. Kelce does not nurse grievances. He reframes even his own punishment into gratitude, because holding the weight of it is the one thing his wiring cannot do.
 
@@ -251,7 +251,7 @@ Kelce paid Butch Jones back with a signed jersey. He pays Jason back every Sunda
 
 To understand why a grown man turns his uniform into a monument to his sibling, go back to Cleveland Heights, Ohio, where two boys grew up in a house built around their sports schedules, with little warmth left over between their parents. Ed Kelce sold industrial products. Donna was a bank executive who worked long hours. The marriage was functionally over long before it was legally over, and Travis figured it out young. "I would go have sleepovers at other houses, and the other parents are staying in the same room, and my parents didn't stay in the same room," he said in the family documentary. "I started making those connections when I was in middle school."
 
-Jason was the older one, the rule-follower, the son who listened. Travis was the other kind. "Travis isn't a rule follower," Donna said in the 2023 family documentary *Kelce*. He carried something else, too, the detail that reorganizes everything: a deep childhood shyness. The loud showman the world knows now was a quiet child who only came alive when a game started. Being watched, being fun, being the reason the room got louder, that was where the shyness dissolved and the joy took over.
+Jason was the older one, the rule-follower, the son who listened. Travis was the other kind. "Travis isn't a rule follower," Donna said in the 2023 family documentary _Kelce_. He carried something else, too, the detail that reorganizes everything: a deep childhood shyness. The loud showman the world knows now was a quiet child who only came alive when a game started. Being watched, being fun, being the reason the room got louder, that was where the shyness dissolved and the joy took over.
 
 So you have a younger brother, all hunger and motion, born into a home short on stability, who discovers that the field is the one place his personality is safe to spend. And you have an older brother who becomes, in every practical sense, his keeper. When the hunger finally overran the judgment at Cincinnati, it was Jason who caught him. The number on his back is a receipt.
 
@@ -298,7 +298,7 @@ Run the moment back slowly and something more human appears. A Seven's entire op
 
 <p class="inner-thought">There is nothing to turn into fun. There is nothing to fix. There is only the sideline, and the fumble, and the biggest night of my life going wrong, and I cannot get on the field to save it.</p>
 
-When the reframe fails, the Enthusiast does not go quiet. He goes rigid and hot. The optimist curdles into a critic, and the criticism has to land on someone. This is the stress pattern, and Kelce named it on the first *New Heights* episode after the game: "[Sometimes those emotions get away from me, man, and that's been the battle of my career](https://www.nfl.com/news/travis-kelce-admits-he-crossed-line-in-sideline-interaction-with-andy-reid-during-super-bowl-lviii)." Not a battle. The battle. The defining fight of his professional life is not against defenses. It is against his own intensity when the joy has nowhere to go.
+When the reframe fails, the Enthusiast does not go quiet. He goes rigid and hot. The optimist curdles into a critic, and the criticism has to land on someone. This is the stress pattern, and Kelce named it on the first _New Heights_ episode after the game: "[Sometimes those emotions get away from me, man, and that's been the battle of my career](https://www.nfl.com/news/travis-kelce-admits-he-crossed-line-in-sideline-interaction-with-andy-reid-during-super-bowl-lviii)." Not a battle. The battle. The defining fight of his professional life is not against defenses. It is against his own intensity when the joy has nowhere to go.
 
 The part the retellings leave out is that the night did not end there. Kelce came alive in the second half, the Chiefs won the Super Bowl in overtime, and the man who had been screaming at his coach in the second quarter finished it with a third ring. Which is what makes the aftermath worth watching. He owned it completely on that February 2024 podcast: "It's definitely unacceptable, and I immediately wish I would have took it back." And the man he shoved, the coach who has known him since asking on draft day whether he was going to screw this up, read it correctly. "He's emotional every game. I get it," Reid said after Super Bowl LVIII. "The part I love is he loves to play the game, and he wants to help his team win. It's not a selfish thing." Kelce agreed: "My passion comes out where it looks like negativity, but I'm grateful he knows it's all because I want to win this thing more than anything." [NFL.com's account](https://www.nfl.com/news/travis-kelce-admits-he-crossed-line-in-sideline-interaction-with-andy-reid-during-super-bowl-lviii) records the exchange and both men's responses.
 

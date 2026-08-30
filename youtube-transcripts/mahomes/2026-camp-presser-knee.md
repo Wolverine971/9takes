@@ -22,6 +22,7 @@ description: |
   --
   #nfl #ChiefsKingdom #ChiefsRumors #KansasCityChiefs #Chiefsnation #chiefsfootball #chiefsfan #kcchiefs #KansasCityChiefsNews #chiefsdailynews #patrickmahomes
 transcribed_date: "2026-08-23"
+path: youtube-transcripts/mahomes/2026-camp-presser-knee.md
 ---
 
 # PATRICK MAHOMES Camp Press Conference: How the Knee Feels, a Chippy Practice, PETER WOODS and More

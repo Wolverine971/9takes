@@ -5,6 +5,7 @@ subject: Caitlin-Clark
 draft_sha256: 3d649ecec30f226cfeb43586cfe0c01d43596cd6f0ae8985afa21d81d36c505d
 resolution_status: complete
 resolved_at: 2026-08-12T06:35:32Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-12_044141/editor-resolution.md
 ---
 
 # Editor resolution — Caitlin Clark
@@ -22,22 +23,22 @@ against the 4,500 ceiling; source audit **5 inline / 1 vague / 0 untagged**; qua
 
 ## Resolution log
 
-| ID | Status | Resolution |
-| --- | --- | --- |
-| P0-01 | fixed | Removed only the H2 8 invented first-person block. The replacement explicitly says Clark has not described what the night sounded like internally and leads directly into her attributed ESPN account. The task-protected H2 4 cue and passage remain untouched. |
-| P0-02 | fixed | Split TIME's two reports: Clark called the omission a blessing that fueled her and gave her a needed break; TIME separately reported that she told Fever coach Christie Sides the snub “woke a monster.” Her belief that she belonged on the roster remains. |
-| P0-03 | fixed | Restored McNutt's “if she sees it that way” condition, retained the accountability/sisterhood substance, and identified her as an ESPN analyst. |
-| P1-01 | fixed | Changed the H2 4 table heading from “Where she would go first” to “Where this reading predicts she would look first.” No row, cue, or protected passage changed. |
-| P1-02 | fixed | Recast the childhood mechanism as “One possible lesson” and the card game as evidence suggesting the pattern also appears beyond basketball, not proof of causation. |
-| P1-03 | fixed | Framed the stress-arrow material as theory, removed “unhealthy” as a label for Clark's injury grief, and removed the unseen-effort overclaim. |
-| P1-04 | fixed | Added “This article's reading is that” to FAQ 4 and FAQ 5 while preserving FAQ 1's direct answer and all FAQ/entity metadata. |
-| P1-05 | fixed | Named Clark's signature shot a “logo three” once in H2 3. |
-| P1-06 | fixed | Identified Angel Reese as Clark's LSU title-game opponent turned WNBA rookie-class rival. |
-| P1-07 | fixed | Added a compact Type 6 counterargument in the Rabbit Hole, including its safety/support fear and Clark-specific evidence against it. |
-| P1-08 | fixed | Added a behavioral sp-Three discriminator: narrative management versus Clark's boundary claim that strangers cannot know her. |
-| P1-09 | fixed | Named McNutt's community-accountability criticism as a third, unresolved category outside the protected output/character filter. |
-| P1-10 | fixed | Dated the live averages, assist rank, record, and forward-looking postseason snapshot “As of August 4”; preserved the same-day award/injury collision and final line. |
-| P2-01 through P2-03 | deferred | The gesture chronology, harder Carrington/Brennan/WNBPA episode, and commercial quantification would require new source work and expansion. The synthesis explicitly allows deferral; none is a gate item. |
+| ID                  | Status   | Resolution                                                                                                                                                                                                                                                       |
+| ------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| P0-01               | fixed    | Removed only the H2 8 invented first-person block. The replacement explicitly says Clark has not described what the night sounded like internally and leads directly into her attributed ESPN account. The task-protected H2 4 cue and passage remain untouched. |
+| P0-02               | fixed    | Split TIME's two reports: Clark called the omission a blessing that fueled her and gave her a needed break; TIME separately reported that she told Fever coach Christie Sides the snub “woke a monster.” Her belief that she belonged on the roster remains.     |
+| P0-03               | fixed    | Restored McNutt's “if she sees it that way” condition, retained the accountability/sisterhood substance, and identified her as an ESPN analyst.                                                                                                                  |
+| P1-01               | fixed    | Changed the H2 4 table heading from “Where she would go first” to “Where this reading predicts she would look first.” No row, cue, or protected passage changed.                                                                                                 |
+| P1-02               | fixed    | Recast the childhood mechanism as “One possible lesson” and the card game as evidence suggesting the pattern also appears beyond basketball, not proof of causation.                                                                                             |
+| P1-03               | fixed    | Framed the stress-arrow material as theory, removed “unhealthy” as a label for Clark's injury grief, and removed the unseen-effort overclaim.                                                                                                                    |
+| P1-04               | fixed    | Added “This article's reading is that” to FAQ 4 and FAQ 5 while preserving FAQ 1's direct answer and all FAQ/entity metadata.                                                                                                                                    |
+| P1-05               | fixed    | Named Clark's signature shot a “logo three” once in H2 3.                                                                                                                                                                                                        |
+| P1-06               | fixed    | Identified Angel Reese as Clark's LSU title-game opponent turned WNBA rookie-class rival.                                                                                                                                                                        |
+| P1-07               | fixed    | Added a compact Type 6 counterargument in the Rabbit Hole, including its safety/support fear and Clark-specific evidence against it.                                                                                                                             |
+| P1-08               | fixed    | Added a behavioral sp-Three discriminator: narrative management versus Clark's boundary claim that strangers cannot know her.                                                                                                                                    |
+| P1-09               | fixed    | Named McNutt's community-accountability criticism as a third, unresolved category outside the protected output/character filter.                                                                                                                                 |
+| P1-10               | fixed    | Dated the live averages, assist rank, record, and forward-looking postseason snapshot “As of August 4”; preserved the same-day award/injury collision and final line.                                                                                            |
+| P2-01 through P2-03 | deferred | The gesture chronology, harder Carrington/Brennan/WNBPA episode, and commercial quantification would require new source work and expansion. The synthesis explicitly allows deferral; none is a gate item.                                                       |
 
 After the first editor pass, P1-01's predictive table heading was added and the verifier caught the
 remaining P1-03 unseen-effort gloss. That unsupported inference was removed. The resulting article

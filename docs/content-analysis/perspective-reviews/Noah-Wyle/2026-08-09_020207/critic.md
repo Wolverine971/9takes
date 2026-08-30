@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 10
 reviewed_at: 2026-08-09T07:56:00Z
+path: docs/content-analysis/perspective-reviews/Noah-Wyle/2026-08-09_020207/critic.md
 ---
 
 ## Bottom-line verdict

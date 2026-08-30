@@ -68,6 +68,7 @@ description: |
   
   Unlock full access to New York Times podcasts and explore everything from politics to pop culture. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify.
 transcribed_date: "2026-08-13"
+path: youtube-transcripts-people/bryan-johnson-dont-die-podcast.md
 ---
 
 # Is Bryan Johnson’s Blueprint for a 150-Year Life Worth It? | Interesting Times with Ross Douthat

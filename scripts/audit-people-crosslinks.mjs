@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// scripts/audit-people-crosslinks.mjs
 
 /**
  * Audit the published personality-profile cross-link graph.

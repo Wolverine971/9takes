@@ -5,6 +5,7 @@ subject: Duke-Dennis
 draft_sha256: b98e726c3df7db72dbd36a9aef2eb7220bef5b4aad2c4a1f2d8051df476b60bb
 resolution_status: complete
 resolved_at: 2026-08-07T07:37:45Z
+path: docs/content-analysis/perspective-reviews/Duke-Dennis/2026-08-07_020002/revision-resolution.md
 ---
 
 ## Resolution log
@@ -13,14 +14,14 @@ The initial verification (`verification-initial.md`, 2026-08-07T07:26:55Z) retur
 
 The pass instead consumed the grader sidecar (`docs/content-analysis/grades/Duke-Dennis.review.md`, 8.5 B+) and applied grade-driven edits only, none of which touch a synthesis item:
 
-| Item | Status | Edit |
-| --- | --- | --- |
-| Grader: Evidence breadth (Union Square unnamed inline) | fixed | AP wire attribution added inline in the AMP section ("a dismissal the Associated Press carried on the wire on May 8"); AP, Tubefilter, and Sportskeeda URLs added to citations frontmatter |
-| Grader: typology bleed in stress section | fixed | Both arrow-mechanics sentences moved into the Rabbit Hole arrows section; body now behavioral; Distribution ledger updated 2 → 1 |
-| Grader: house cadence (3 reader-command imperatives) | fixed | "Read the body the way he reads money" cut; ending imperative made declarative; "Sit with Unit 3" kept per PROTECT-06 |
-| Grader: intro Rolling Stone repetition | fixed | Intro attribution trimmed to the bare ranking phrase; Rolling Stone now first named in the AMP section |
-| Grader TO REACH: RQ-01 count re-attachment | research_needed | Publish-time per verifier; About-page check must settle per-channel vs. aggregate phrasing first |
-| Grader TO REACH: archive S14/S15/S18 clip URLs | research_needed | Publish-time standing item P2-04; written sources added to citations this pass instead |
+| Item                                                   | Status          | Edit                                                                                                                                                                                       |
+| ------------------------------------------------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Grader: Evidence breadth (Union Square unnamed inline) | fixed           | AP wire attribution added inline in the AMP section ("a dismissal the Associated Press carried on the wire on May 8"); AP, Tubefilter, and Sportskeeda URLs added to citations frontmatter |
+| Grader: typology bleed in stress section               | fixed           | Both arrow-mechanics sentences moved into the Rabbit Hole arrows section; body now behavioral; Distribution ledger updated 2 → 1                                                           |
+| Grader: house cadence (3 reader-command imperatives)   | fixed           | "Read the body the way he reads money" cut; ending imperative made declarative; "Sit with Unit 3" kept per PROTECT-06                                                                      |
+| Grader: intro Rolling Stone repetition                 | fixed           | Intro attribution trimmed to the bare ranking phrase; Rolling Stone now first named in the AMP section                                                                                     |
+| Grader TO REACH: RQ-01 count re-attachment             | research_needed | Publish-time per verifier; About-page check must settle per-channel vs. aggregate phrasing first                                                                                           |
+| Grader TO REACH: archive S14/S15/S18 clip URLs         | research_needed | Publish-time standing item P2-04; written sources added to citations this pass instead                                                                                                     |
 
 ## Protected hits checked
 

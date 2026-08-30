@@ -1,3 +1,5 @@
+<!-- docs/distribution-assets/blackpill-social-package-2026-07-22/README.md -->
+
 # Blackpill downward spiral — social asset package
 
 This package translates the rewritten 9takes article into a 10-slide Instagram/LinkedIn carousel,

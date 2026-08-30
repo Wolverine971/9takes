@@ -64,7 +64,7 @@ faqs:
     answer: "PayPal acquired Braintree and Venmo for $800 million in 2013, and Johnson says he personally made a few hundred million. He was also burned out, chronically depressed, divorcing, leaving Mormonism, raising three young children, and losing his identity as a founder. He describes himself during that period as 'absolutely broken.'"
     anchor: 'how-800-million-emptied-his-life-out'
   - question: "What was Bryan Johnson's childhood like?"
-    answer: "After his parents divorced, Johnson lived with his mother and stepfather in Springville, Utah. He says he would wake at 5 a.m. for a promised 9 a.m. pickup from his father, then watch the street until 11 or 11:30 when the car did not arrive. He kept inviting his father and later wrote him weekly letters from his Mormon mission."
+    answer: 'After his parents divorced, Johnson lived with his mother and stepfather in Springville, Utah. He says he would wake at 5 a.m. for a promised 9 a.m. pickup from his father, then watch the street until 11 or 11:30 when the car did not arrive. He kept inviting his father and later wrote him weekly letters from his Mormon mission.'
     anchor: 'the-boy-who-stayed-at-the-window'
 production_pretext:
   status: draft
@@ -78,7 +78,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
-path: src/blog/people/drafts/Bryan-Johnson.md
+path: docs/content-analysis/perspective-reviews/Bryan-Johnson/2026-08-13_160341/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER
@@ -200,13 +200,13 @@ Johnson's body is doing more than one experiment at a time. Treating each functi
 
 <div class="scroll-table">
 
-| His body is a... | Its job in Blueprint |
-| --- | --- |
-| Laboratory | Produce measurements and expose possible interventions for deeper study |
-| Ledger | Make the cost of sleep, food, stress, and aging visible every day |
-| Manifesto | Carry the "Don't Die" value system in flesh rather than leave it as an essay |
-| Product demo | Test and market the foods, supplements, and routines his company sells |
-| Character | Play the first prototype in a story aimed at fans, haters, and the 25th century |
+| His body is a... | Its job in Blueprint                                                            |
+| ---------------- | ------------------------------------------------------------------------------- |
+| Laboratory       | Produce measurements and expose possible interventions for deeper study         |
+| Ledger           | Make the cost of sleep, food, stress, and aging visible every day               |
+| Manifesto        | Carry the "Don't Die" value system in flesh rather than leave it as an essay    |
+| Product demo     | Test and market the foods, supplements, and routines his company sells          |
+| Character        | Play the first prototype in a story aimed at fans, haters, and the 25th century |
 
 </div>
 

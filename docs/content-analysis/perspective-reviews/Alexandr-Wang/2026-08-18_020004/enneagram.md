@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 1
 concerns: 8
 reviewed_at: 2026-08-18T06:48:02Z
+path: docs/content-analysis/perspective-reviews/Alexandr-Wang/2026-08-18_020004/enneagram.md
 ---
 
 ## Bottom-line verdict
@@ -60,7 +61,7 @@ about Wang. Cutting or softening this makes every subsequent claim un-anchored.
 
 Must survive: my contract asks specifically whether ambition is being treated as type proof. Not
 only does the draft avoid it, it pre-empts it and supplies a genuine discriminator in its place —
-what the subject *retained* from a memory, which is motivational evidence rather than behavioral
+what the subject _retained_ from a memory, which is motivational evidence rather than behavioral
 evidence. The "problem set is gone" formulation is the single most efficient piece of type reasoning
 in the piece.
 
@@ -72,8 +73,8 @@ in the piece.
 Must survive: this derives cleanly from the type's basic fear (worthlessness) as the 9takes pillar
 states it — `src/blog/enneagram/enneagram-type-3.md:91` gives Basic fear: Worthlessness, and
 `enneagram-types-in-stress.md:188-192` frames it as "without a winning image, there may be nothing
-valuable underneath." It is also the article's whole reason to exist: it explains why *this*
-criticism from *this* man landed differently than ordinary criticism would. This is the lens
+valuable underneath." It is also the article's whole reason to exist: it explains why _this_
+criticism from _this_ man landed differently than ordinary criticism would. This is the lens
 producing something the reader could not have gotten from the news coverage. It is the delight hit.
 
 **ENNEAGRAM-H4 — the stress arrow refuses to invent evidence.**
@@ -121,7 +122,7 @@ equally consistent with the neighbor:
 
 - The 3w2 case cites Pentagon contracts, an inauguration seat, and meetings with Starmer, Modi and
   Macron. Those are prestige-arena facts. They are not warmth, and warmth is what the 2 wing is.
-  Worse, the subtype section two paragraphs later cites *the same facts* ("an inauguration, heads of
+  Worse, the subtype section two paragraphs later cites _the same facts_ ("an inauguration, heads of
   state") to prove the social subtype. Evidence that proves two different sub-calls proves neither.
 - The 3w4 counterweight argues that crying at a farewell cuts against a clean 3w2. The wings guide it
   links says the opposite (see ENNEAGRAM-C2).
@@ -131,7 +132,7 @@ equally consistent with the neighbor:
 alternative that goes untested is the one the draft's own best sentence describes.
 
 **Nothing is said about what Type 3 fails to explain.** The draft names two findings that would
-*overturn* the call, which is excellent, but never names anything in the existing record that the
+_overturn_ the call, which is excellent, but never names anything in the existing record that the
 call handles poorly. There is an obvious candidate sitting in the LeCun section (ENNEAGRAM-C8).
 
 **One generalization escapes the evidence entirely** (ENNEAGRAM-B1).
@@ -141,7 +142,7 @@ call handles poorly. There is an obvious candidate sitting in the LeCun section 
 - **A second alternative type, seriously argued.** Standard for this corpus (99/115 drafts) and
   standard for responsible typing. Type 5 is treated well; it is just not the only live option.
 - **The wing call to hinge on interpersonal evidence.** The draft actually has some — the 1-1 calls
-  with every hire is real 3w2 material and matches the house tell ("achieve *through* people,
+  with every hire is real 3w2 material and matches the house tell ("achieve _through_ people,
   genuinely care about developing others"). It is buried under a list of rooms.
 - **The subtype call to name all three variants.** The draft contrasts social against
   self-preservation and never mentions the one-to-one Three, while linking a page that describes all
@@ -220,7 +221,7 @@ biography.** Confidence: high.
   Naranjo/Chestnut lineage SP3 is the countertype, which "in denying the presence of vanity" avoids
   "the spotlight and self-promotion." So the theory is not the error; the collision is. The house page
   follows a material-security reading instead. Packet also notes no source distinguishes social from
-  self-preservation *motivation* for Wang — arena density is behavior.
+  self-preservation _motivation_ for Wang — arena density is behavior.
 - **Minimum viable repair:** One clause naming the framework, so the two pages read as different lenses
   rather than a contradiction: identify this as the countertype reading of the self-preservation Three
   (the variant that denies vanity and avoids obvious self-promotion). If that is unwanted, move the
@@ -239,7 +240,7 @@ naming decision Wang did not make.** Confidence: high.
 - **Trust problem:** Two separate defects in one sentence. (a) `enneagram-wings-complete-guide.md:234`
   states 3w2 is "**More emotionally available than 3w4**"; line 258 makes 3w4 "more emotionally
   intense." Public tears at a farewell for people he was leaving is availability, not intensity — so
-  by the house framework this cuts *toward* 3w2, and the draft claims it cuts away. The guide's actual
+  by the house framework this cuts _toward_ 3w2, and the draft claims it cuts away. The guide's actual
   3w4 tell is very different: "moody about whether their achievements actually mean anything." Wang's
   recorded self-correction ("This is so stupid. Why am I doing this?") is embarrassment at display,
   not doubt about meaning. (b) The spelling is reported by Fortune as the eight characters "associated
@@ -262,8 +263,8 @@ describing.** Confidence: medium-high.
 
 - **Passage** (Rabbit Hole, "Counterarguments: Why Alexandr Wang Might Not Be Type 3"): the section
   argues Type 5 and stops.
-- **Trust problem:** Type 5 is the field's archetype, which makes it the *expected* foil rather than
-  necessarily the *strongest* one. The draft's own hinge — that being told he has not earned his
+- **Trust problem:** Type 5 is the field's archetype, which makes it the _expected_ foil rather than
+  necessarily the _strongest_ one. The draft's own hinge — that being told he has not earned his
   position would land as agreement — describes chronic doubt about one's own standing, which is also
   the signature of Type 6. So does "he snuck in." So does building the substrate the whole industry
   depends on, and a career oriented toward national security. And the draft simultaneously assigns 6
@@ -299,7 +300,7 @@ draft does not say so.** Confidence: high.
   entire piece and it rests on the thinnest evidence in it."
 - **Minimum viable repair:** In the Rabbit Hole sentence only, mark the sourcing — attribute the
   self-directed line to the attendee account rather than letting it read as recorded. The body scene
-  can keep its shape; it is the *tiebreaker* claim that needs the hedge, because that is where it does
+  can keep its shape; it is the _tiebreaker_ claim that needs the hedge, because that is where it does
   diagnostic work.
 - **Expected benefit:** Certainty comes back into proportion at the exact point where the draft is
   currently most exposed, without weakening the scene's emotional effect.
@@ -317,7 +318,7 @@ draft does not say so.** Confidence: high.
   things. Prestige-arena access is subtype evidence; it says nothing about a 2 wing, because the 2
   wing is warmth and attention to individual people, not proximity to important ones. A reader tracking
   the argument sees the same facts doing double duty and correctly downgrades both conclusions.
-- **Evidence:** `enneagram-wings-complete-guide.md:232` gives the 3w2 tell as achieving *through*
+- **Evidence:** `enneagram-wings-complete-guide.md:232` gives the 3w2 tell as achieving _through_
   people and genuinely caring about developing them — which the draft actually has better evidence
   for and underuses.
 - **Minimum viable repair:** Move the arena list out of the wing paragraph entirely and let the wing
@@ -424,7 +425,7 @@ What would change: if the house page is following a material-security reading on
 is a framework-naming clause in the draft (ENNEAGRAM-C1) and nothing else. If it is simply an error,
 the pillar page should be corrected and the draft can keep its sentence as written. Best source:
 `src/blog/enneagram/enneagram-instinctual-subtypes.md` provenance/authorship, checked against
-Chestnut's *The Complete Enneagram* subtype chapter for Type 3.
+Chestnut's _The Complete Enneagram_ subtype chapter for Type 3.
 
 **ENNEAGRAM-Q2 — Does the full Theo Von transcript show the mathlete line as volunteered?**
 What would change: the draft says "Then, unprompted." If a host question preceded it, that word must
@@ -466,16 +467,16 @@ Do not let a revision pass touch any of these:
 
 ## Research log
 
-| # | Question | Source consulted | What it decided |
-| --- | --- | --- | --- |
-| 1 | Does the draft's heart-triad / shame / arrow framing match the 9takes pillar it links? | `src/blog/enneagram/enneagram-type-3.md` (lines 89-91, 151-167) | **Match.** Basic fear Worthlessness, stress 9, integration 6, "at the center of the heart triad, Type 3 stays furthest from feelings," shame outrun by achievement. Recorded as ENNEAGRAM-H7; removed a candidate concern about arrow direction. |
-| 2 | Does the stress page support the hinge sentence? | `src/blog/enneagram/enneagram-types-in-stress.md` (lines 185-199) | **Yes** — "without a winning image, there may be nothing valuable underneath," and "whether achievement is being used as evidence of worth." Upgraded ENNEAGRAM-H3 from plausible to house-grounded. |
-| 3 | Does the wings guide support the 3w2 case and the 3w4 counterweight? | `src/blog/enneagram/enneagram-wings-complete-guide.md` (lines 224-262) | **Split.** 3w2 tell ("achieve *through* people") supports the call; but line 234 makes 3w2 "more emotionally available than 3w4," contradicting the draft's tears argument. Generated ENNEAGRAM-C2 and reshaped ENNEAGRAM-C5. |
-| 4 | Does the subtypes page support the SP3-vs-SO3 discriminator? | `src/blog/enneagram/enneagram-instinctual-subtypes.md` (lines 133-158) | **Contradicts it.** SP3: "Often highlight tangible evidence of success." SO3 description does support the conclusion. Generated ENNEAGRAM-C1; also surfaced the unmentioned SX3 (preference note). |
-| 5 | Is the draft's SP3 reading wrong, or mainstream-but-different from the house page? | Web search: Chestnut/Naranjo self-preservation Three countertype ([PersonalityCafe summary of Chestnut](https://www.personalitycafe.com/threads/self-preservation-threes-according-to-beatrice-chestnut.345178/), [CP Enneagram Academy 27 subtypes](https://cpenneagram.com/subtypes), [iEQ9 27 subtypes](https://www.integrative9.com/enneagram/27-subtypes/)) | **Mainstream.** SP3 is the countertype, "in denying the presence of vanity… avoid the spotlight and self-promotion." Changed ENNEAGRAM-C1's repair from "fix the draft's theory" to "name the framework / move the link," and kept severity at concern. |
-| 6 | Is single-alternative counter-typing house convention? | Corpus scan of all 115 people drafts with a counter-typing section | **No.** 76 name two alternatives, 23 name three or more, 16 name one or zero. Converted ENNEAGRAM-C3 from taste to convention deviation. |
-| 7 | Is the competition-memory contrast fully volunteered? | Evidence packet CLM-03 + transcript-order finding (reused, not re-searched) | Prize framing volunteered; placement was an answer to Von's question. Generated ENNEAGRAM-C7 at medium confidence. |
-| 8 | What does the record hold against Type 3? | Evidence packet, "Evidence against, or unexplained by, Type 3" (reused) | Board loyalty, technical depth, and the money-motivated rebuttal. Generated ENNEAGRAM-C6 and ENNEAGRAM-C8. |
+| #   | Question                                                                               | Source consulted                                                                                                                                                                                                                                                                                                                                                 | What it decided                                                                                                                                                                                                                                         |
+| --- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Does the draft's heart-triad / shame / arrow framing match the 9takes pillar it links? | `src/blog/enneagram/enneagram-type-3.md` (lines 89-91, 151-167)                                                                                                                                                                                                                                                                                                  | **Match.** Basic fear Worthlessness, stress 9, integration 6, "at the center of the heart triad, Type 3 stays furthest from feelings," shame outrun by achievement. Recorded as ENNEAGRAM-H7; removed a candidate concern about arrow direction.        |
+| 2   | Does the stress page support the hinge sentence?                                       | `src/blog/enneagram/enneagram-types-in-stress.md` (lines 185-199)                                                                                                                                                                                                                                                                                                | **Yes** — "without a winning image, there may be nothing valuable underneath," and "whether achievement is being used as evidence of worth." Upgraded ENNEAGRAM-H3 from plausible to house-grounded.                                                    |
+| 3   | Does the wings guide support the 3w2 case and the 3w4 counterweight?                   | `src/blog/enneagram/enneagram-wings-complete-guide.md` (lines 224-262)                                                                                                                                                                                                                                                                                           | **Split.** 3w2 tell ("achieve _through_ people") supports the call; but line 234 makes 3w2 "more emotionally available than 3w4," contradicting the draft's tears argument. Generated ENNEAGRAM-C2 and reshaped ENNEAGRAM-C5.                           |
+| 4   | Does the subtypes page support the SP3-vs-SO3 discriminator?                           | `src/blog/enneagram/enneagram-instinctual-subtypes.md` (lines 133-158)                                                                                                                                                                                                                                                                                           | **Contradicts it.** SP3: "Often highlight tangible evidence of success." SO3 description does support the conclusion. Generated ENNEAGRAM-C1; also surfaced the unmentioned SX3 (preference note).                                                      |
+| 5   | Is the draft's SP3 reading wrong, or mainstream-but-different from the house page?     | Web search: Chestnut/Naranjo self-preservation Three countertype ([PersonalityCafe summary of Chestnut](https://www.personalitycafe.com/threads/self-preservation-threes-according-to-beatrice-chestnut.345178/), [CP Enneagram Academy 27 subtypes](https://cpenneagram.com/subtypes), [iEQ9 27 subtypes](https://www.integrative9.com/enneagram/27-subtypes/)) | **Mainstream.** SP3 is the countertype, "in denying the presence of vanity… avoid the spotlight and self-promotion." Changed ENNEAGRAM-C1's repair from "fix the draft's theory" to "name the framework / move the link," and kept severity at concern. |
+| 6   | Is single-alternative counter-typing house convention?                                 | Corpus scan of all 115 people drafts with a counter-typing section                                                                                                                                                                                                                                                                                               | **No.** 76 name two alternatives, 23 name three or more, 16 name one or zero. Converted ENNEAGRAM-C3 from taste to convention deviation.                                                                                                                |
+| 7   | Is the competition-memory contrast fully volunteered?                                  | Evidence packet CLM-03 + transcript-order finding (reused, not re-searched)                                                                                                                                                                                                                                                                                      | Prize framing volunteered; placement was an answer to Von's question. Generated ENNEAGRAM-C7 at medium confidence.                                                                                                                                      |
+| 8   | What does the record hold against Type 3?                                              | Evidence packet, "Evidence against, or unexplained by, Type 3" (reused)                                                                                                                                                                                                                                                                                          | Board loyalty, technical depth, and the money-motivated rebuttal. Generated ENNEAGRAM-C6 and ENNEAGRAM-C8.                                                                                                                                              |
 
 Sources 1-4 and 6 are repository files read directly. Source 5 is the only external search this review
 required; the packet answered everything else I needed about the factual record.
@@ -489,13 +490,13 @@ required; the packet answered everything else I needed about the factual record.
   cohesion pass). I read past them and did not treat their claims, praise, or self-assessments as
   evidence for or against anything here. Several of my findings sit in material those notes describe
   as resolved.
-- I am evaluating the *type reasoning*, not the factual record. Where the packet flags a factual
+- I am evaluating the _type reasoning_, not the factual record. Where the packet flags a factual
   dispute that does not bear on the type call — the Thunderforge $500M attribution, the revenue
   figure, the "two never formally started" table row, the Muse Code contributor-tier wording — I have
   left it entirely to the critic and future perspectives.
 - No Enneagram self-report by Wang exists, and no reputable third party has typed him. Every type
   claim in the draft and in this review is a hypothesis about a living person from public behavior.
-  My agreement with the Type 3 call is agreement about the *quality of the inference*, not a
+  My agreement with the Type 3 call is agreement about the _quality of the inference_, not a
   verification of the type.
 - ENNEAGRAM-C3's Type 6 case is my proposal, not a competing diagnosis. I am not claiming Wang is a
   Six; I am claiming the draft owes the reader the test, and that its own hinge sentence is what

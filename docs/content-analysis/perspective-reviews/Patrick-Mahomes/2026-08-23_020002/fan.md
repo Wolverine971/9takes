@@ -12,11 +12,12 @@ recommendation: revise
 blockers: 2
 concerns: 7
 reviewed_at: 2026-08-23T07:20:12Z
+path: docs/content-analysis/perspective-reviews/Patrick-Mahomes/2026-08-23_020002/fan.md
 ---
 
 # Fan review: Patrick Mahomes (snapshot 690cb7c2)
 
-Standpoint: an informed, non-stan NFL fan who has watched the Chiefs run since 2018, has seen *The Kingdom* and the New Heights episode, and knows the canon (Trubisky at 2, the Buffalo trade-up, 13 seconds, Jet Chip Wasp, the frozen helmet, the ten-year deal). Central question: did the writer understand this person well enough to show me something new?
+Standpoint: an informed, non-stan NFL fan who has watched the Chiefs run since 2018, has seen _The Kingdom_ and the New Heights episode, and knows the canon (Trubisky at 2, the Buffalo trade-up, 13 seconds, Jet Chip Wasp, the frozen helmet, the ten-year deal). Central question: did the writer understand this person well enough to show me something new?
 
 ## Bottom-line verdict
 
@@ -28,7 +29,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 
 ## What landed
 
-**FAN-H1. The Jason Kelce trap and the confession.** ("Jason Kelce set the trap on *New Heights*… Mahomes did not argue. He confessed." through "if this doesn't work right here… I make sure it's completed.") Fans remember this episode for the Kermit bit and the draft-night darts. Nobody I know remembers it for this exchange, and the draft is right that it is the load-bearing one. Must survive: it is the single passage where the thesis arrives in his own voice without the writer's help.
+**FAN-H1. The Jason Kelce trap and the confession.** ("Jason Kelce set the trap on _New Heights_… Mahomes did not argue. He confessed." through "if this doesn't work right here… I make sure it's completed.") Fans remember this episode for the Kermit bit and the draft-night darts. Nobody I know remembers it for this exchange, and the draft is right that it is the load-bearing one. Must survive: it is the single passage where the thesis arrives in his own voice without the writer's help.
 
 **FAN-H2. The borrowed week as a timeline.** ("Here is the week he copied, as he laid it out for the Kelces in 2022" through "I'm baseball-player superstitious.") "He learned from Alex" is a cliché every Chiefs fan has heard. The day-by-day (third-down cut-up on install day because Alex did it, then red zone, then goal line) is not, and the 8:45-waiting-for-a-9:00-arrival detail is exactly the kind of thing a fan will repeat. Must survive.
 
@@ -67,13 +68,14 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - **Welcome:** Trent McDuffie's "show up at a certain time, do a certain thing" from an August 2026 podcast, used as a leadership read. Fresh, and correctly dated to after his trade to the Rams.
 - **Welcome:** holding the Tyreek Hill cuss-out as the boundary of the charm rather than hiding it. Fans know Hill's "I thought he was trash" era; using the cuss-out to sharpen rather than soften the portrait is the right call.
 - **Jarring:** "the 2025 ESPN docuseries he co-produced." The credits list Connor Schell, Jason Hehir, Libby Geist, and Aaron Cohen as executive producers; 2PM Productions is one of four "in association with" partners. Fans who watched the credits will catch it, and it matters because the draft later leans on him controlling the room the disclosure happened in.
-- **Jarring:** "Mahomes did not ask Smith for advice. He shadowed him." In *The Kingdom* E1, which the draft cites elsewhere, Alex Smith says "It's a thousand questions." The draft prints only Mahomes's version.
+- **Jarring:** "Mahomes did not ask Smith for advice. He shadowed him." In _The Kingdom_ E1, which the draft cites elsewhere, Alex Smith says "It's a thousand questions." The draft prints only Mahomes's version.
 
 ## Red flags
 
 ### Blockers
 
 **FAN-R1. Misattributed quote used as psychological evidence.**
+
 - **Passage:** "The Coach Patrick Mahomes Said He Needed," the oversleep paragraph: "'I'm in my head about it. Coach Reid is gonna kill me. I can't even look at this guy in his eyes.'"
 - **Reader effect:** the paragraph's stated purpose is "a specific dread" of Reid; the sentence chosen to show it was spoken by Travis Kelce about himself.
 - **Evidence:** `youtube-transcripts/mahomes/new-heights-ep15-mahomes.md`. The speaker says "I'm not gonna say I'm notorious for late but I screwed up a few times before and have been late so I'm in my head about it I'm like man coach Reed is gonna kill me man I can't even look at this guy in his eyes… I walk into the building and they're like were you with Pat last night." That is Travis describing his own late arrival the same morning. Mahomes's own words in the same story: eight alarms, dead phone, "there is no chance I'm walking through the defense late to get to the offense… so I sit in the locker room… I get like the max fine… feel like an idiot… the first question they asked me was 'were you with Travis?'" (Packet CLM-27 reaches the same finding independently.)
@@ -83,7 +85,8 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - **Acceptance test:** grep the draft for "gonna kill me"; either it is gone or the sentence immediately before it names Travis Kelce as the speaker.
 
 **FAN-R2. Quote meaning inverted in the critic-pressure section.**
-- **Passage:** "Why Patrick Mahomes Wears the Safest Helmet in the NFL": "Even Jason Kelce conceded on *New Heights* that 'the Chiefs needed those calls.'"
+
+- **Passage:** "Why Patrick Mahomes Wears the Safest Helmet in the NFL": "Even Jason Kelce conceded on _New Heights_ that 'the Chiefs needed those calls.'"
 - **Reader effect:** the sentence tells the reader that the Chiefs' most sympathetic adjacent voice admitted officiating carried them. He said the opposite.
 - **Evidence:** Sports Illustrated, January 22, 2025 (the draft's own source): "Bro, the Texans left the all-time leading playoffs receiver wide booty butt naked open for four quarters, and yet the Chiefs needed those calls… And I forgot to mention them boys had eight sacks, eight." The "and yet" is sarcastic: his argument is that Houston's defense lost the game, not the flags. Packet CLM-36 flags the same register.
 - **Minimum viable repair:** either cut the Kelce clause (Aikman and Roquan Smith carry the critique on their own) or render it honestly: Jason Kelce mocked the narrative, which is itself evidence the narrative had reached the Chiefs' friends.
@@ -94,15 +97,17 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 ### Concerns
 
 **FAN-C1. "The 2025 ESPN docuseries he co-produced."**
-- **Passage:** diagnosis section, *The Kingdom* citation.
+
+- **Passage:** diagnosis section, _The Kingdom_ citation.
 - **Reader effect:** a fan who watched the credits reads an inflated claim; the father's-arrest section later argues the disclosure happened in a room "he controlled," which this sentence quietly supports.
-- **Evidence:** Disney+ press release (packet S19): EPs are Schell, Hehir, Geist, Cohen; 2PM Productions is "in association with." He is a credited EP on Netflix *Quarterback*, which may be where the conflation comes from.
+- **Evidence:** Disney+ press release (packet S19): EPs are Schell, Hehir, Geist, Cohen; 2PM Productions is "in association with." He is a credited EP on Netflix _Quarterback_, which may be where the conflation comes from.
 - **Minimum viable repair:** "the 2025 ESPN docuseries his production company helped produce" or simply "the 2025 ESPN docuseries."
 - **Expected benefit:** factual precision where the article is otherwise careful about credits.
 - **Confidence:** high.
 - **Acceptance test:** "co-produced" is gone or tied to 2PM Productions rather than to him personally.
 
 **FAN-C2. "For ten NFL seasons the body had held anyway."**
+
 - **Passage:** "The First Time Patrick Mahomes's Body Said No," paragraph three.
 - **Reader effect:** fans count seasons. 2017 through 2025 is nine; the ACL came in the ninth. The same paragraph lists the 2019 kneecap and the LVII ankle but skips the LV toe (he played Super Bowl LV on it and had surgery after), which is the injury fans most associate with him gutting out a game.
 - **Evidence:** arithmetic; packet timeline.
@@ -112,6 +117,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - **Acceptance test:** the sentence no longer says "ten."
 
 **FAN-C3. Texas Tech is never named.**
+
 - **Passage:** "The Coach Patrick Mahomes Said He Needed" (Kingsbury paragraph) and "Patrick Mahomes's Childhood in Major League Clubhouses" (the University of Texas visit).
 - **Reader effect:** the only college named in the piece is the one that wanted him at safety. A reader who does not already know could infer the wrong school; a fan reads it as an outsider tell.
 - **Evidence:** grep of the snapshot for "Texas Tech," "Lubbock," "Red Raider": zero hits.
@@ -121,6 +127,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - **Acceptance test:** "Texas Tech" appears in the body before or in the Kingsbury sentence.
 
 **FAN-C4. Brittany reduced to "the cheerleader."**
+
 - **Passage:** childhood section: "Brittany Matthews, a cheerleader he had been circling since sophomore year" and "He married the cheerleader."
 - **Reader effect:** accurate about high school, reductive about the person. Fans know her as a college soccer player, a pro in Iceland, and a co-owner of the Kansas City Current. The draft's own argument ("if I didn't have Brittany I wouldn't be in the position I am now") is stronger if she is not a prop.
 - **Evidence:** packet S31 (Us Weekly) and general record; no search was needed.
@@ -130,8 +137,9 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - **Acceptance test:** the second "the cheerleader" is gone or qualified.
 
 **FAN-C5. The Alex Smith motif uses one side of a two-sided record.**
+
 - **Passage:** no-look section: "Mahomes did not ask Smith for advice. He shadowed him."
-- **Reader effect:** *The Kingdom* E1, which fans have seen and the draft cites elsewhere, has Smith saying "It's a thousand questions. He worked hard." The flat "did not ask" will be contradicted by the reader's memory of the episode.
+- **Reader effect:** _The Kingdom_ E1, which fans have seen and the draft cites elsewhere, has Smith saying "It's a thousand questions. He worked hard." The flat "did not ask" will be contradicted by the reader's memory of the episode.
 - **Evidence:** `youtube-transcripts/mahomes/the-kingdom-s1e1-family-business.md`; packet CLM-14.
 - **Minimum viable repair:** soften to Mahomes's actual claim ("By his own account he did not pepper Smith with questions; he followed him") and, if space allows, let Smith disagree in a clause. Asking a thousand questions of a trusted senior is at least as consistent with the thesis as shadowing.
 - **Expected benefit:** the motif survives the reader's memory and gains a second witness.
@@ -139,6 +147,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - **Acceptance test:** the sentence no longer asserts as fact that he did not ask Smith for advice.
 
 **FAN-C6. The helmet section skips the helmet's most famous night and never names the helmet.**
+
 - **Passage:** "Why Patrick Mahomes Wears the Safest Helmet in the NFL," whole section; also the H2 itself.
 - **Reader effect:** a fan expects, in a section with this title, the January 13, 2024 wild-card game against Miami (minus four at kickoff, fourth-coldest game in league history) where his Vicis Zero2 shell cracked on a hit from DeShon Elliott, he did not want to come out, and the backup helmet was frozen solid. Its absence reads as the writer knowing the CBS quote but not the game. It also leaves "the safest helmet" unsupported by a name or the NFL/NFLPA lab rankings it refers to.
 - **Evidence:** Bleacher Report, CBS News, Yahoo Sports coverage of the January 2024 game (see Research log); Vicis statement that the Zero2 "did its job."
@@ -148,6 +157,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - **Acceptance test:** "Vicis" or "Zero2" and "January 2024" (or "Miami"/"Dolphins") appear in the helmet section.
 
 **FAN-C7. Draft-night context is thinner than fan canon.**
+
 - **Passage:** opener ("Nine teams had already passed") and diagnosis close ("He went tenth. And the thing he was afraid of losing was the coach.").
 - **Reader effect:** the draft asks the reader to feel the phone-check without supplying what every fan hears in "nine teams": Trubisky second to Chicago, and Kansas City trading 27, a third, and the next year's first to Buffalo to come get him. The "Both are true" paragraph also uses only the mother when the father has said, on record, that it hurt him.
 - **Evidence:** packet S32 (Tyler Morning Telegraph; traded up from 27) and S27 (670 The Score: "it kind of hurt him. It really did.").
@@ -167,6 +177,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 **FAN-I1. Fix the two quote problems first (FAN-R1, FAN-R2).** Both are one-sentence repairs and both sit in sections the article depends on. Acceptance tests above.
 
 **FAN-I2. Give the helmet section its night (FAN-C6).**
+
 - Location: after "I'm trying to protect myself for the long term."
 - Reader effect: the section's title claim gets a referent; the fan gets the event they were waiting for.
 - Evidence: January 2024 wild-card coverage (Research log).
@@ -175,6 +186,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 - Confidence: high. Acceptance test: see FAN-C6.
 
 **FAN-I3. Put the trade-up and the father's line into draft night (FAN-C7).**
+
 - Location: "He went tenth" and "Both are true."
 - Repair: one sentence each, as specified under FAN-C7.
 - Benefit: the opener's contradiction is complete (he says it did not bother him; his father says it hurt; his mother watched him check the phone) and the reader learns the coach he feared losing was trading a future first to get him.
@@ -185,6 +197,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 **FAN-I5. Let Alex Smith talk back (FAN-C5).** One clause. Acceptance test above.
 
 **FAN-I6. Consider the ten-year contract as evidence, without figures.**
+
 - Location: candidate for "The Coach Patrick Mahomes Said He Needed" or the Rabbit Hole counterargument.
 - Reader effect: the draft's SP-3 counterargument rests on praise-as-permission and the helmet. Fans know a third discriminator: in July 2020, at 24, he signed a ten-year extension, the first ten-year deal in the league since 2004 and the longest then in existence, rather than the short, reset-every-three-years structure that maximizes market value. The working notes bar dollar figures; the length and the date are not figures.
 - Evidence: NFL.com and The Ringer, July 6, 2020 (Research log). Caveat: it was also, at signing, the richest contract in sports, so it cuts both ways and should be offered as "what he chose about the shape of the deal," not as proof.
@@ -198,7 +211,7 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 
 **FAN-Q2. What did he say about the cracked helmet that night?** Fox News ran a "didn't want to come out of the game" piece after the Miami game (seen in search, not fetched). A first-person line there would let FAN-I2 be told in his words rather than the writer's. What would change: whether the helmet addition is a quote or a narration. Best source: the January 13, 2024 postgame presser transcript (Chiefs.com) or the Fox piece.
 
-**FAN-Q3. Is the film week really unchanged?** The Rabbit Hole says he has kept the copied week "unchanged for nine years"; his claim on New Heights (2022) covers five seasons. A 2025 or 2026 source saying the routine still holds would make the Seven-vs-Six discriminator current. What would change: whether "nine years" stays or becomes "since his rookie year, by his own account in 2022." Best source: *The Kingdom* E2–E4 (unseen by the packet), or the 2026 camp pressers.
+**FAN-Q3. Is the film week really unchanged?** The Rabbit Hole says he has kept the copied week "unchanged for nine years"; his claim on New Heights (2022) covers five seasons. A 2025 or 2026 source saying the routine still holds would make the Seven-vs-Six discriminator current. What would change: whether "nine years" stays or becomes "since his rookie year, by his own account in 2022." Best source: _The Kingdom_ E2–E4 (unseen by the packet), or the 2026 camp pressers.
 
 **FAN-Q4. What did Pat Sr. mean by "it kind of hurt him"?** The 670 The Score clip (January 2023) is the father's only on-record contradiction of "I didn't think about it at all." If the full segment specifies the Bears/Trubisky expectation in Mahomes's own reaction, it belongs in the opener. What would change: the strength of the "Both are true" setup. Best source: the Audacy audio (packet S27).
 
@@ -225,18 +238,19 @@ Recommendation: revise. Nothing here touches the thesis; everything here touches
 ## Research log
 
 Research questions stated before searching:
+
 1. Is the "Coach Reid is gonna kill me" line Mahomes's or Travis Kelce's? Answered from the local transcript (`youtube-transcripts/mahomes/new-heights-ep15-mahomes.md`); Travis, about himself. Affected: FAN-R1.
 2. Is Jason Kelce's "the Chiefs needed those calls" a concession or sarcasm? Source: Sports Illustrated, Jan 22, 2025, https://www.si.com/nfl/jason-kelce-chiefs-refs-patrick-mahomes-new-heights (fetched). Sarcasm ("and yet… eight sacks, eight"). Affected: FAN-R2.
 3. Did his helmet crack in the January 2024 Miami game, and which helmet? Sources seen in search results: Bleacher Report (https://bleacherreport.com/articles/10105380-patrick-mahomes-helmet-manufacturer-explains-video-of-shattered-helmet-vs-dolphins), CBS News (https://www.cbsnews.com/news/patrick-mahomes-helmet-shatters-frigid-playoff-game-chiefs-dolphins-taylor-swift), Yahoo Sports (https://sports.yahoo.com/nfl-wild-card-patrick-mahomes-cracked-helmet-causes-bizarre-pause-in-dolphins-chiefs-032544367.html). Vicis Zero2; hit from DeShon Elliott; minus four at kickoff; backup helmet frozen; Vicis statement. Affected: FAN-M3, FAN-C6, FAN-I2, FAN-Q2.
 4. Was the July 2020 extension a ten-year deal and the longest in the league? Sources seen in search results: NFL.com (https://www.nfl.com/news/chiefs-patrick-mahomes-agree-to-10-year-contract-extension), The Ringer (https://www.theringer.com/2020/07/06/nfl/patrick-mahomes-contract-extension). Ten years; first ten-year contract since 2004; longest in existence at signing. Affected: FAN-I6 (offered as optional, with the cuts-both-ways caveat).
 
-Packet reused without new search: trade-up from 27 (S32), Pat Sr. "it kind of hurt him" (S27), *The Kingdom* credits (S19), Alex Smith "a thousand questions" (S04), Brittany biography (S31), season count (timeline).
+Packet reused without new search: trade-up from 27 (S32), Pat Sr. "it kind of hurt him" (S27), _The Kingdom_ credits (S19), Alex Smith "a thousand questions" (S04), Brittany biography (S31), season count (timeline).
 
 Community discussion was used only for expectation (what a fan expects to see in a helmet section, a draft-night section, and a college mention), never as fact authority.
 
 ## Limits of this review
 
-- I did not view *The Kingdom* E5/E6 or Netflix *Quarterback*; the father's-arrest quotes and "You're different" are taken as the packet grades them (secondary transcriptions). A fan who has seen E5 may have a better sense of whether the apology line is printed accurately.
+- I did not view _The Kingdom_ E5/E6 or Netflix _Quarterback_; the father's-arrest quotes and "You're different" are taken as the packet grades them (secondary transcriptions). A fan who has seen E5 may have a better sense of whether the apology line is printed accurately.
 - I did not re-check the Aikman transcription beyond the packet; the wording note is recorded as a preference, not a finding.
 - The Jet Chip Wasp and cracked-helmet first-person quotes (FAN-Q1, FAN-Q2) were not sourced here; they are offered as leads, and the article should not add them without a verbatim line.
 - I have no view on phobic vs. counterphobic or Six vs. SP-3 beyond noting that the helmet-night and the ten-year contract are fan-known facts the Enneagram evaluator may want to weigh. Typing disagreement is not a red flag from this standpoint.

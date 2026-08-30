@@ -30,6 +30,7 @@ production_pretext:
     - regenerate_famous_types
     - image_check
   blockers: []
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/draft-reviewed.md
 ---
 
 <!-- TYPE-CHALLENGE MEMO (pre-write, working notes)
@@ -202,14 +203,14 @@ She runs the numbers on her best nights too. On July 17, 2026, Clark scored 45 p
 
 <div class="scroll-table">
 
-| The line               | What the record book saw                                   | Where she would go first                                                          |
-| ---------------------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 45 points              | Career high                                                | Fine. Next.                                                                        |
-| 17-of-19 from the line | 89 percent, most of it late                                | Two misses, and she can tell you which two.                                        |
-| 6 threes               | Fastest to 200 career threes in league history, 74 games   | A byproduct. She was not counting.                                                 |
-| 10 assists             | First 40-point, 10-assist game the league has ever recorded | She would want to know how many of the ten were the right read versus a bailout.   |
-| 4 steals, 2 blocks     | A guard defending like that is unusual                      | Not the part she thinks about.                                                     |
-| **Final: 110-107**     | A win                                                       | **Three points. Against a 6-21 team. With 45 from her.**                           |
+| The line               | What the record book saw                                    | Where she would go first                                                         |
+| ---------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| 45 points              | Career high                                                 | Fine. Next.                                                                      |
+| 17-of-19 from the line | 89 percent, most of it late                                 | Two misses, and she can tell you which two.                                      |
+| 6 threes               | Fastest to 200 career threes in league history, 74 games    | A byproduct. She was not counting.                                               |
+| 10 assists             | First 40-point, 10-assist game the league has ever recorded | She would want to know how many of the ten were the right read versus a bailout. |
+| 4 steals, 2 blocks     | A guard defending like that is unusual                      | Not the part she thinks about.                                                   |
+| **Final: 110-107**     | A win                                                       | **Three points. Against a 6-21 team. With 45 from her.**                         |
 
 </div>
 
@@ -394,7 +395,6 @@ What's already working:
 - The current-tense anchor checks out against reporting: Fever 19-11 through 30 games in early August 2026. Keep the specificity.
 -->
 
-
 <!-- SECOND PASS NOTES (2026-08-05)
 Addressed:
 - Source audit went 5/5 inline, 0 vague, 0 untagged. Epigraph was untagged and slightly misquoted; corrected to the verbatim Fever-practice line and attributed (Yahoo Sports, 2026). Cold open re-anchored to the real interview: Malika Andrews / ESPN, June 2026, with her verbatim "Honestly, I think I'm at a six, probably." Added 'ESPN' to the OUTLETS list in scripts/blog-source-audit.mjs — it was absent, so every dated ESPN citation on an athlete graded vague no matter how precise. DJ can veto that one-line script change; the draft's attributions are traceable either way.
@@ -463,4 +463,3 @@ Not fixed (needs a writer decision):
   arriving on that query gets an account of the losses, not a cause.
 - The commercial seam in H2 6 is unresolved by design per the FORMULA FINGERPRINT LEDGER. Left open.
 -->
-

@@ -8,6 +8,7 @@ verification_status: pass
 open_p0: 0
 protected_hit_regressions: 0
 verified_at: 2026-08-20T08:26:48Z
+path: docs/content-analysis/perspective-reviews/Ms-Rachel/2026-08-20_020003/verification-final.md
 ---
 
 ## Verification verdict
@@ -135,7 +136,7 @@ their repair strings, so I re-checked each rather than inheriting the initial ve
   rather than dodged, "debts get apologized for," the Type 9 differential, Munn's de-escalation,
   Hoffman's role-before-attribute apposition, "The 2023 disappearance was a harassment campaign.
   This one was a baby," and the social-dominant-only ranking are all present.
-- **P1-02 — completed.** "a woman in a bow headband on YouTube" and "*Songs for Littles*" both land
+- **P1-02 — completed.** "a woman in a bow headband on YouTube" and "_Songs for Littles_" both land
   in intro paragraph three, in prose, before the first H2. Survived the epigraph removal.
 - **P1-04 — completed, and better sourced than at initial verification.** The Wikipedia-only
   figure ("20.2 million subscribers and 16.2 billion views") is replaced by "By the time The
@@ -169,22 +170,22 @@ in one friendly profile") intact.
 
 All fourteen survive a 501-word cut. Verified by exact string match against the current file.
 
-| ID | Status | Evidence |
-| --- | --- | --- |
-| PROTECT-01 | intact, verbatim | both sentences byte-identical to the snapshot |
-| PROTECT-02 | intact | "A Broadway conductor gave up *Aladdin* to play the kid who talks back, because for thirty-two months, nobody had." — P1-11's licensed rephrase, nothing else |
-| PROTECT-03 | intact, unit preserved | Aron's quote at full length, immediately followed by the reversal. Hailat lands *after* the pair, not between them — the one-unit constraint four perspectives named is honored |
-| PROTECT-04 | intact, not softened | empathy turn, "None of which makes the criticism wrong.", AAP guidance answered against the pause, Sannes with her disclaimer, Hafeez caveat, and "still a teacher who arrives through a rectangle" all present. Nothing in the compression weakened the criticism |
-| PROTECT-05 | intact | five bolded beats confirmed by count; the "Here is the entire method, in order." throat-clear removed above them is not protected material |
-| PROTECT-06 | intact, verbatim | all three hedges byte-identical |
-| PROTECT-07 | function intact, placement still deviates | thesis verbatim. "Watch any episode and" rewritten to "The sentence underneath every episode is…" — non-imperative, same paragraph, same claim, thesis sentence untouched. Carried-forward placement issue below |
-| PROTECT-08 | intact | both sentences with their specifics; the four-item career list preceding the argument survives. The cut school roll-call is not protected material and carried no argument |
-| PROTECT-09 | intact | arms-out image present; "She is just on the other side of it." is the final reader-visible sentence (line 403, immediately before the comment blocks) |
-| PROTECT-10 | intact | `<p class="inner-thought">` block and the Cameo beat unchanged. Removing the intro's miniature retelling strengthens the beat rather than threatening it |
-| PROTECT-11 | intact | "The successor loses to the institution." present; the refusal quote kept |
-| PROTECT-12 | intact | jargon sweep of the reader-visible body outside the Rabbit Hole: zero true hits (the three `wing` matches are "following", "Viewing", "drawings"). Gate sentence present. Every repair stayed inside the quarantine |
-| PROTECT-13 | intact, verbatim | anomaly still open; falsifier still stated |
-| PROTECT-14 | intact, with one inaccurate addition | no relative-date conversions; `grep` for "later that year/month", "the following year", "around that time" returns nothing. No existing dateline was de-dated, so the item does not regress. Two absolute dates were added; one of them is wrong — see Remaining work #1 |
+| ID         | Status                                    | Evidence                                                                                                                                                                                                                                                                 |
+| ---------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| PROTECT-01 | intact, verbatim                          | both sentences byte-identical to the snapshot                                                                                                                                                                                                                            |
+| PROTECT-02 | intact                                    | "A Broadway conductor gave up _Aladdin_ to play the kid who talks back, because for thirty-two months, nobody had." — P1-11's licensed rephrase, nothing else                                                                                                            |
+| PROTECT-03 | intact, unit preserved                    | Aron's quote at full length, immediately followed by the reversal. Hailat lands _after_ the pair, not between them — the one-unit constraint four perspectives named is honored                                                                                          |
+| PROTECT-04 | intact, not softened                      | empathy turn, "None of which makes the criticism wrong.", AAP guidance answered against the pause, Sannes with her disclaimer, Hafeez caveat, and "still a teacher who arrives through a rectangle" all present. Nothing in the compression weakened the criticism       |
+| PROTECT-05 | intact                                    | five bolded beats confirmed by count; the "Here is the entire method, in order." throat-clear removed above them is not protected material                                                                                                                               |
+| PROTECT-06 | intact, verbatim                          | all three hedges byte-identical                                                                                                                                                                                                                                          |
+| PROTECT-07 | function intact, placement still deviates | thesis verbatim. "Watch any episode and" rewritten to "The sentence underneath every episode is…" — non-imperative, same paragraph, same claim, thesis sentence untouched. Carried-forward placement issue below                                                         |
+| PROTECT-08 | intact                                    | both sentences with their specifics; the four-item career list preceding the argument survives. The cut school roll-call is not protected material and carried no argument                                                                                               |
+| PROTECT-09 | intact                                    | arms-out image present; "She is just on the other side of it." is the final reader-visible sentence (line 403, immediately before the comment blocks)                                                                                                                    |
+| PROTECT-10 | intact                                    | `<p class="inner-thought">` block and the Cameo beat unchanged. Removing the intro's miniature retelling strengthens the beat rather than threatening it                                                                                                                 |
+| PROTECT-11 | intact                                    | "The successor loses to the institution." present; the refusal quote kept                                                                                                                                                                                                |
+| PROTECT-12 | intact                                    | jargon sweep of the reader-visible body outside the Rabbit Hole: zero true hits (the three `wing` matches are "following", "Viewing", "drawings"). Gate sentence present. Every repair stayed inside the quarantine                                                      |
+| PROTECT-13 | intact, verbatim                          | anomaly still open; falsifier still stated                                                                                                                                                                                                                               |
+| PROTECT-14 | intact, with one inaccurate addition      | no relative-date conversions; `grep` for "later that year/month", "the following year", "around that time" returns nothing. No existing dateline was de-dated, so the item does not regress. Two absolute dates were added; one of them is wrong — see Remaining work #1 |
 
 **PROTECT-07, restated.** Unchanged from the initial verification and not caused by this pass. The
 synthesis said "do not separate it from the disclaimer"; the order is disclaimer → P0-13 objection
@@ -219,7 +220,7 @@ Nothing here reopens a P0 or a protected hit. Ordered by consequence.
 
 2. **Hailat is presented as independent corroboration; the packet says he is not.** The new
    sentence reads "…told the Post the same thing **from outside the marriage**," which invites the
-   reader to weigh it as third-party confirmation. The packet's own note on him: "*Limitation:*
+   reader to weigh it as third-party confirmation. The packet's own note on him: "_Limitation:_
    Hailat leads the organization whose advocacy she amplifies. **Interested testimony, correctly
    attributed but not neutral.**" The `TESTIMONY LEDGER` inherits the framing ("Third party who
    dealt with her off camera") without the limitation. Nothing here is false — he is outside the

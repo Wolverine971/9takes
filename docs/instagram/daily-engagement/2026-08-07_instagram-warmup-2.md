@@ -32,11 +32,11 @@
 
 ## Reconciliation (morning targets, ~1h later)
 
-| AM target | Check | Result |
-| --- | --- | --- |
-| @alignedsoulco DbvOnR0lolr (#1) | Re-opened at 1h | **Slot still open and stronger:** 100 likes / still only 2 comments / 1 repost. The post is performing and the room is empty — the morning draft's value went UP. |
-| @candicemichelleenneagram DbuBcdKkZv5 (#2) | Not re-opened | 1-comment room at 11h was durable; unchanged assumption. |
-| @enneagram.life DbnvrFTFPum (#3) | Seen in feed | Unchanged (107/13). **Superseded for today** by the fresher 9+8 thread on the same account (below) — do not post both on her account the same day. |
+| AM target                                  | Check           | Result                                                                                                                                                            |
+| ------------------------------------------ | --------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| @alignedsoulco DbvOnR0lolr (#1)            | Re-opened at 1h | **Slot still open and stronger:** 100 likes / still only 2 comments / 1 repost. The post is performing and the room is empty — the morning draft's value went UP. |
+| @candicemichelleenneagram DbuBcdKkZv5 (#2) | Not re-opened   | 1-comment room at 11h was durable; unchanged assumption.                                                                                                          |
+| @enneagram.life DbnvrFTFPum (#3)           | Seen in feed    | Unchanged (107/13). **Superseded for today** by the fresher 9+8 thread on the same account (below) — do not post both on her account the same day.                |
 
 **This remains the tenth consecutive session window with zero comments posted.** Sourcing and drafting continue to outrun posting; nothing in this pass changes the standing recommendation (authorize the cron to post #1, or retire the comment leg).
 
@@ -44,9 +44,9 @@
 
 ## Priority Summary
 
-| #   | Account         | Pond / Type                    | Topic                             | Age | Comments | Mode          | Opp Type                                          | Level | Score | Profile                                           | Queue     |
-| --- | --------------- | ------------------------------ | --------------------------------- | --- | -------- | ------------- | ------------------------------------------------- | ----- | ----- | ------------------------------------------------- | --------- |
-| 1   | @enneagram.life | peacemaker/9 + challenger/8    | "Nine + Eight in relationship"    | 20h | ~18      | comment-level | Answer a liked open question in an anchor's thread | 2     | 95    | docs/instagram/account-profiles/enneagram.life.md | Suggested |
+| #   | Account         | Pond / Type                 | Topic                          | Age | Comments | Mode          | Opp Type                                           | Level | Score | Profile                                           | Queue     |
+| --- | --------------- | --------------------------- | ------------------------------ | --- | -------- | ------------- | -------------------------------------------------- | ----- | ----- | ------------------------------------------------- | --------- |
+| 1   | @enneagram.life | peacemaker/9 + challenger/8 | "Nine + Eight in relationship" | 20h | ~18      | comment-level | Answer a liked open question in an anchor's thread | 2     | 95    | docs/instagram/account-profiles/enneagram.life.md | Suggested |
 
 ---
 
@@ -92,10 +92,10 @@ The slide covers 8→9 impact thoroughly and gives the 9→8 direction one claus
 
 **Comment-Level Targets:**
 
-| #   | Commenter       | Action    | Why Support / Reply                                                                                     | Reply Angle (if Reply)                                    | Visibility |
-| --- | --------------- | --------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- |
-| a   | @adtaylorlandry | Reply     | Liked open question (2 likes) naming the slide's one-directional gap; the only reply so far is an 8 feeling indicted | Answer the 9→8 direction from the 8 side                   | 2          |
-| b   | @kellyjashinske | Like only | "I am 8, hubby is 9. We are unstoppable 🔥" (4 likes) — positive 8/9 energy worth amplifying, nothing to add | —                                                          | —          |
+| #   | Commenter       | Action    | Why Support / Reply                                                                                                  | Reply Angle (if Reply)                   | Visibility |
+| --- | --------------- | --------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ---------- |
+| a   | @adtaylorlandry | Reply     | Liked open question (2 likes) naming the slide's one-directional gap; the only reply so far is an 8 feeling indicted | Answer the 9→8 direction from the 8 side | 2          |
+| b   | @kellyjashinske | Like only | "I am 8, hubby is 9. We are unstoppable 🔥" (4 likes) — positive 8/9 energy worth amplifying, nothing to add         | —                                        | —          |
 
 > @adtaylorlandry: "What about how the nine impacts the 8?"
 
@@ -115,8 +115,8 @@ The slide covers 8→9 impact thoroughly and gives the 9→8 direction one claus
 
 ## Ready-to-Use Reply Suggestions
 
-| Priority | Account         | Post                                     | Mode          | Exact suggestion                                                                                                                                                                                     | Why it is specific                                                                          | Status    |
-| -------- | --------------- | ---------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | --------- |
+| Priority | Account         | Post                                     | Mode                                     | Exact suggestion                                                                                                                                                                                           | Why it is specific                                                                                                                 | Status    |
+| -------- | --------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------- |
 | 1        | @enneagram.life | https://www.instagram.com/p/DbtJ-atlBdO/ | comment-level (reply to @adtaylorlandry) | "From the 8 side, a 9 is the one person we're not on duty around, so the armor actually comes off. And 9s have more leverage than the slides let on. Going quiet is the one move an 8 can't push against." | Answers the thread's liked open question; names the direction slide 3 skips; softens the "8s are hard to live with" reply above it | Suggested |
 
 **Combined posting guidance (AM + PM queues):** DJ's actionable set for today is still three comments, now re-ranked:
@@ -131,18 +131,18 @@ The slide covers 8→9 impact thoroughly and gives the 9→8 direction one claus
 
 ## Watch — No Reply Suggested
 
-| Account           | Post                                     | Why it was interesting                                                                                     | Why no authentic reply cleared the gate                                                                                        |
-| ----------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| @enneagram.life   | https://www.instagram.com/p/Dbi-xDGmsb4/ | 8+4 pairing (4d, 101 likes) with an UNANSWERED pop-culture CTA ("comment one you think of from pop culture") | 4d old and third-in-line on the same account today; the CTA answer is bankable if the slot survives (her rooms stay open)        |
-| @9ish_andiknowit  | https://www.instagram.com/p/DbeoMxFKish/ | "Netflix documentary" reel — the 9's signature contradiction in one sentence; CTA "What would your Netflix documentary be?" open at 6d | DJ can't honestly answer as a 9, and an 8-register answer would be our third comment in one family's rooms today; captured as a save instead |
+| Account          | Post                                     | Why it was interesting                                                                                                                 | Why no authentic reply cleared the gate                                                                                                      |
+| ---------------- | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| @enneagram.life  | https://www.instagram.com/p/Dbi-xDGmsb4/ | 8+4 pairing (4d, 101 likes) with an UNANSWERED pop-culture CTA ("comment one you think of from pop culture")                           | 4d old and third-in-line on the same account today; the CTA answer is bankable if the slot survives (her rooms stay open)                    |
+| @9ish_andiknowit | https://www.instagram.com/p/DbeoMxFKish/ | "Netflix documentary" reel — the 9's signature contradiction in one sentence; CTA "What would your Netflix documentary be?" open at 6d | DJ can't honestly answer as a 9, and an 8-register answer would be our third comment in one family's rooms today; captured as a save instead |
 
 ---
 
 ## Saves Captured
 
-| #   | Shortcode   | Author            | Why saved (one line)                                                                        | File                                                 |
-| --- | ----------- | ----------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| 1   | DbeoMxFKish | @9ish_andiknowit  | "Preparing for the Netflix documentary on why I [type's contradiction]" — a 9-episode format skeleton | docs/instagram/saves/inbox/2026-08-07_DbeoMxFKish.md |
+| #   | Shortcode   | Author           | Why saved (one line)                                                                                  | File                                                 |
+| --- | ----------- | ---------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| 1   | DbeoMxFKish | @9ish_andiknowit | "Preparing for the Netflix documentary on why I [type's contradiction]" — a 9-episode format skeleton | docs/instagram/saves/inbox/2026-08-07_DbeoMxFKish.md |
 
 **Saves excluded by the reply-target rule:** DbtJ-atlBdO (9+8 pairing) cleared the save bar on content (audience-requested pairing + the megmikkalson comment as proof that one-directional pairing advice indicts the "strong" type) but is today's reply target. If the comment never posts, tomorrow's warmup can save it clean.
 
@@ -150,19 +150,19 @@ The slide covers 8→9 impact thoroughly and gives the 9→8 direction one claus
 
 ## Profiles Created or Updated
 
-| Account           | Profile                                              | Action  | Why                                                                          |
-| ----------------- | ---------------------------------------------------- | ------- | ---------------------------------------------------------------------------- |
-| @9ish_andiknowit  | docs/instagram/account-profiles/9ish_andiknowit.md   | Created | Carry-over sweep executed; first stable Type 9 room, hiatus-return confirmed |
-| @8ish_andiknowit  | docs/instagram/account-profiles/8ish_andiknowit.md   | Created | True-peer 8 persona account; co-author on today's reply target                |
-| @enneagram.life   | docs/instagram/account-profiles/enneagram.life.md    | Updated | 9+8 queued; series cadence + one-comment-per-day supersede rule recorded      |
+| Account          | Profile                                            | Action  | Why                                                                          |
+| ---------------- | -------------------------------------------------- | ------- | ---------------------------------------------------------------------------- |
+| @9ish_andiknowit | docs/instagram/account-profiles/9ish_andiknowit.md | Created | Carry-over sweep executed; first stable Type 9 room, hiatus-return confirmed |
+| @8ish_andiknowit | docs/instagram/account-profiles/8ish_andiknowit.md | Created | True-peer 8 persona account; co-author on today's reply target               |
+| @enneagram.life  | docs/instagram/account-profiles/enneagram.life.md  | Updated | 9+8 queued; series cadence + one-comment-per-day supersede rule recorded     |
 
 ---
 
 ## New Accounts Discovered
 
-| Account          | Followers | Pond / Type                    | Theme                             | Content Type              | Suggested Tier | Why                                                                                       |
-| ---------------- | --------- | ------------------------------ | --------------------------------- | ------------------------- | -------------- | ------------------------------------------------------------------------------------------ |
-| @8ish_andiknowit | 4,757     | `[pond: challenger / Type 8]`  | Type 8 persona account (Jodi)     | Pairing collabs, advice highlights | Tier 1 (Peer)  | True peer size, DJ's register, pairing-advice highlight architecture, family node into the 65K anchor |
+| Account          | Followers | Pond / Type                   | Theme                         | Content Type                       | Suggested Tier | Why                                                                                                   |
+| ---------------- | --------- | ----------------------------- | ----------------------------- | ---------------------------------- | -------------- | ----------------------------------------------------------------------------------------------------- |
+| @8ish_andiknowit | 4,757     | `[pond: challenger / Type 8]` | Type 8 persona account (Jodi) | Pairing collabs, advice highlights | Tier 1 (Peer)  | True peer size, DJ's register, pairing-advice highlight architecture, family node into the 65K anchor |
 
 (@9ish_andiknowit was discovered in the AM pass; this pass executed the sweep and promoted it to Tier 1 — see targets append.)
 
@@ -170,9 +170,9 @@ The slide covers 8→9 impact thoroughly and gives the 9→8 direction one claus
 
 ## Hashtag Performance
 
-| Hashtag  | Posts Checked | Quality Posts Found | Notes                                              |
-| -------- | ------------- | ------------------- | -------------------------------------------------- |
-| (none)   | 0             | —                   | Hashtag surface structurally dead on web; not attempted |
+| Hashtag | Posts Checked | Quality Posts Found | Notes                                                   |
+| ------- | ------------- | ------------------- | ------------------------------------------------------- |
+| (none)  | 0             | —                   | Hashtag surface structurally dead on web; not attempted |
 
 ---
 

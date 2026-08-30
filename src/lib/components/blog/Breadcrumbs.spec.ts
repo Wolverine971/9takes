@@ -1,3 +1,4 @@
+// src/lib/components/blog/Breadcrumbs.spec.ts
 // @vitest-environment jsdom
 
 import { render } from '@testing-library/svelte';

@@ -12,6 +12,7 @@ recommendation: revise
 blockers: 0
 concerns: 8
 reviewed_at: 2026-08-05T07:04:28Z
+path: docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/unfamiliar.md
 ---
 
 <!-- docs/content-analysis/perspective-reviews/Caitlin-Clark/2026-08-05_020002/unfamiliar.md -->
@@ -85,8 +86,8 @@ cost of the trait.
 
 **UNFAMILIAR-H5 — The Rabbit Hole quarantine.**
 
-> *For the Enneagram nerds. Skip if you're not deep into the system. The rest of the analysis stands
-> on its own.*
+> _For the Enneagram nerds. Skip if you're not deep into the system. The rest of the analysis stands
+> on its own._
 
 Explicit permission to skip, placed before the jargon rather than after it. I skipped it, came back,
 and lost nothing by reading it second. **Must survive:** this single italic line is why the article's
@@ -174,7 +175,7 @@ cruel. I am not manufacturing one to fill the section.
 ---
 
 **UNFAMILIAR-C1 — The article never says she became a professional, and crosses leagues mid-section
-without a marker. *(Highest priority.)***
+without a marker. _(Highest priority.)_**
 
 - **Location:** H2 3, "Why Caitlin Clark never won a national championship," final beat: "Two months
   later, on June 8, 2024, Team USA left her off the Olympic roster. She was 22, the most famous
@@ -206,12 +207,12 @@ without a marker. *(Highest priority.)***
 
 - **Locations and evidence:**
 
-| Person | First appearance | What the reader is given | Repair |
-| --- | --- | --- | --- |
-| Malika Andrews | Opening `firstLetter` paragraph — the article's first six words | Nothing. Identified as "ESPN's Malika Andrews" ~170 lines later, in H2 6 | Move the identifier to first use |
-| Lisa Bluder | H2 1, "Bluder ended up whistling her for a technical foul" | Role inferable one sentence later ("their own coach"), but never stated; she is the most-quoted source in the piece and is quoted at length before any identification | "her head coach at Iowa, Lisa Bluder" on first mention |
-| Cynthia Cooper | H2 5, "Cynthia Cooper, asked about her by Women's Sports Now in 2026" | Nothing at all — I cannot tell if she is a coach, a rival, or a reporter, and she is the section's only outside corroboration | Two words: "Hall of Famer," exactly as Swoopes is handled one section later |
-| Jan Jensen | H2 7, "Her successor at Iowa, Jan Jensen" | Broken referent — the nearest antecedent for "her" is Clark ("She was back in for the next drill"), so Jensen reads as a player who followed Clark. She is Bluder's successor as head coach, which is the entire basis of her authority | "Bluder's successor as Iowa's head coach, Jan Jensen" |
+| Person         | First appearance                                                      | What the reader is given                                                                                                                                                                                                                | Repair                                                                      |
+| -------------- | --------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Malika Andrews | Opening `firstLetter` paragraph — the article's first six words       | Nothing. Identified as "ESPN's Malika Andrews" ~170 lines later, in H2 6                                                                                                                                                                | Move the identifier to first use                                            |
+| Lisa Bluder    | H2 1, "Bluder ended up whistling her for a technical foul"            | Role inferable one sentence later ("their own coach"), but never stated; she is the most-quoted source in the piece and is quoted at length before any identification                                                                   | "her head coach at Iowa, Lisa Bluder" on first mention                      |
+| Cynthia Cooper | H2 5, "Cynthia Cooper, asked about her by Women's Sports Now in 2026" | Nothing at all — I cannot tell if she is a coach, a rival, or a reporter, and she is the section's only outside corroboration                                                                                                           | Two words: "Hall of Famer," exactly as Swoopes is handled one section later |
+| Jan Jensen     | H2 7, "Her successor at Iowa, Jan Jensen"                             | Broken referent — the nearest antecedent for "her" is Clark ("She was back in for the next drill"), so Jensen reads as a player who followed Clark. She is Bluder's successor as head coach, which is the entire basis of her authority | "Bluder's successor as Iowa's head coach, Jan Jensen"                       |
 
 - **Reader effect:** Cooper is the sharpest case — an unnamed-role authority is asked to corroborate
   the article's central psychological claim, and I have no way to weight the testimony. Jensen is the
@@ -293,7 +294,7 @@ introduced.**
 - **Expected benefit:** Keeps the rhetorical snap of the two-sentence pairing while removing the one
   place where the article's confidence visibly exceeds its evidence for a new reader.
 - **Confidence:** Medium-high on the reader effect; high that the sentence is categorical as written.
-- **Acceptance test:** No sentence in the diagnosis section asserts that a type *cannot* produce a
+- **Acceptance test:** No sentence in the diagnosis section asserts that a type _cannot_ produce a
   behavior.
 
 ---
@@ -382,7 +383,7 @@ arriving cold. Both are opportunities rather than defects.
   from confusing to merely bumpy — which is why it is an improvement, not a concern.
 - **Minimum viable repair:** One orienting clause at the top of H2 5 marking the turnover record as
   belonging to her first professional season. The date is already in the key-stat block; what is
-  missing is that it was *year one*.
+  missing is that it was _year one_.
 - **Expected benefit:** Lets a cold reader place the article's three most important scenes relative to
   each other.
 - **Confidence:** Medium-high.
@@ -393,27 +394,27 @@ arriving cold. Both are opportunities rather than defects.
 
 **UNFAMILIAR-Q1 — What do the actual search queries landing on `/personality-analysis` pages look
 like?**
-*What it would change:* the severity of UNFAMILIAR-C1 and UNFAMILIAR-C2. If the traffic is
+_What it would change:_ the severity of UNFAMILIAR-C1 and UNFAMILIAR-C2. If the traffic is
 overwhelmingly name-plus-Enneagram queries from people who already follow her, the orientation
 repairs stay worth making but drop to cosmetic. If a meaningful share is broad ("who is Caitlin
 Clark"), C1 becomes urgent rather than merely first-priority.
-*Best source:* `docs/data/gsc/latest.json` in this repo, filtered to personality-analysis paths.
+_Best source:_ `docs/data/gsc/latest.json` in this repo, filtered to personality-analysis paths.
 
 **UNFAMILIAR-Q2 — Did the "six" actually come out fast?**
-*What it would change:* the cold open's hinge, and by extension my UNFAMILIAR-H1 hit. I trusted
+_What it would change:_ the cold open's hinge, and by extension my UNFAMILIAR-H1 hit. I trusted
 "None of it explains how fast the number came out" as a reader because the article had given me no
 reason not to. The packet says no text source establishes the tempo (CLM-02) and that it is checkable
 only by watching. If the answer was measured or hesitant, the opening is asserting something it
 cannot show, and the strongest hook in the piece is resting on air.
-*Best source:* the ESPN / Malika Andrews June 2026 video itself, not a transcript.
+_Best source:_ the ESPN / Malika Andrews June 2026 video itself, not a transcript.
 
 **UNFAMILIAR-Q3 — Does the case-file header render for every published personality-analysis page,
 including on mobile and in feed or search previews?**
-*What it would change:* whether UNFAMILIAR-C1 is a first-priority concern or a blocker. The header
+_What it would change:_ whether UNFAMILIAR-C1 is a first-priority concern or a blocker. The header
 chrome is currently the only thing telling a cold reader this is basketball and the WNBA (see
 Research log). If that subhead is ever suppressed — a template change, a narrow viewport, a syndicated
 or AMP-style context — the body alone does not identify the sport until roughly 40% in.
-*Best source:* a rendered staging page at mobile width, plus
+_Best source:_ a rendered staging page at mobile width, plus
 `src/routes/personality-analysis/[slug]/+page.svelte` §01.
 
 ## Preserve list
@@ -442,17 +443,17 @@ Protocol for this perspective: unaided first read, then packet, then at most one
    C1, C2, C3, C5, C6, C7, C8 and every hit originate here.
 3. **Repo check — what the page renders around the body.**
    `src/routes/personality-analysis/[slug]/+page.svelte` §01 and
-   `+page.server.ts:72`. *Decision affected:* downgraded my strongest first-read finding. The
+   `+page.server.ts:72`. _Decision affected:_ downgraded my strongest first-read finding. The
    case-file header renders `persona_title` ("Basketball's Uncompromising Crusader") and the
-   `description` ("…the WNBA turnover record…") above the article body, so the sport and league *are*
+   `description` ("…the WNBA turnover record…") above the article body, so the sport and league _are_
    supplied to a cold reader by page chrome. That is why "the body never says this is basketball" is
    reported as a miss rather than a blocker, and why C1 narrowed to the college→professional seam,
    which chrome cannot fix. Also produced UNFAMILIAR-Q3.
-4. **Repo check — the `inner-thought` device.** `src/scss/blog.scss:592`. *Decision affected:* kept
+4. **Repo check — the `inner-thought` device.** `src/scss/blog.scss:592`. _Decision affected:_ kept
    UNFAMILIAR-C4 at concern rather than escalating it. The class renders italic with a thought-bubble
    icon and no attribution line, a real but unexplained signal; this is what let me answer the
    packet's open question at CLM-38 with a judgment instead of a shrug.
-5. **Shared evidence packet.** Read after the unaided pass, per the exception. *Decisions affected:*
+5. **Shared evidence packet.** Read after the unaided pass, per the exception. _Decisions affected:_
    confirmed C1's missing fact (drafted No. 1 overall by Indiana, 2024-04-15 — Identity and scope,
    Dated timeline), supplied the repair material for C3 (Reese at LSU; the 67th Rookie of the Year
    vote), corroborated C5 (CLM-04), C8 (CLM-31), and the delegated question behind C4 (CLM-38).
@@ -479,7 +480,7 @@ Protocol for this perspective: unaided first read, then packet, then at most one
   on the `<details>` element carrying no `open` attribute.
 - **This proxy is deliberately stricter than the median visitor.** Someone searching "Caitlin Clark
   Enneagram" almost certainly knows she plays basketball, which is why the sport-orientation gap is
-  reported as low-severity and the *internal* narrative seam (C1) as high — the latter costs a
+  reported as low-severity and the _internal_ narrative seam (C1) as high — the latter costs a
   knowledgeable reader too, because it is a discontinuity in the article's own story rather than a
   gap in the reader's background.
 - **UNFAMILIAR-H1 is contingent.** My strongest hit depends on a tempo claim that the packet says is

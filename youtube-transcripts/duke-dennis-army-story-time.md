@@ -46,6 +46,7 @@ description: |
   
   Nba 2k17, nba 2k17 gameplay, nba2k17 gameplay, nba2k17 dunks, nba2k17 park, nba 2k17, nba2k17 animations, nba2k17 mypark, 2k17, nba 2k17 first look, nba 2k17 best jumpshots, nba 2k17 best dunks, nba 2k17 best signature styles, nba2k17 best jumpshots, nba2k17 best dunks, nba2k17 animations, nba 2k17 jumpshots, nba2k17 all parks, nba2k17 rep, nba2k17 leaked gameplay, nba2k17 myteam, nba 2k17 myteam, nba2k17 myplayer, nba2k17 mycareer, nba 2k17 game, nba2k17 best jumpshot nba2k17 best jumpshot nba 2k17 best jumpshot nba2k17 best jumpshots, nba 2k17 best jumpshots nba 2k17 best jumpshot nba 2k17 best jumpshot nba 2k17 best myplayer build mna 2k17 best point guard build nba 2k17 best center build nba 2k17 best shooting guard build nba 2k17 best small forward build nba 2k17 best power forward build nba 2k17 best outside player build nba2k17 best balanced player build nba 2k17 mycareer
 transcribed_date: "2026-08-07"
+path: youtube-transcripts/duke-dennis-army-story-time.md
 ---
 
 # DUKE DENNIS STORY TIME: MY ARMY EXPERIENCE, BASIC TRAINING AND WHY I LEFT THE ARMY
