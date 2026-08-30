@@ -25,7 +25,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'krystal-ball', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Media\'s Moral Dissenter', contentGrade: 9, types: ['creator', 'news-commentator'] },
 		{ name: 'lea-michele', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'mahatma-gandhi', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'The Self-Experimenting Saint', contentGrade: 8.9, types: ['historical', 'politician', 'activist', 'movement-leader'] },
-		{ name: 'marcus-aurelius', link: false, hasImage: true, lastmod: '2026-08-27', personaTitle: 'The Emperor Who Graded Himself', contentGrade: 9, types: ['historical', 'author', 'politician'] },
+		{ name: 'marcus-aurelius', link: true, hasImage: true, lastmod: '2026-08-30', personaTitle: 'The Emperor Who Graded Himself', contentGrade: 9, types: ['historical', 'author', 'politician'] },
 		{ name: 'martha-stewart', link: false, hasImage: true, lastmod: '2026-05-17', personaTitle: 'Domestic Life’s Unforgiving Reformer', contentGrade: 8.8, types: ['lifestyleInfluencer', 'entrepreneur', 'celebrity'] },
 		{ name: 'matt-damon', link: true, hasImage: true, lastmod: '2026-04-07', personaTitle: 'Hollywood\'s Disciplined Everyman', contentGrade: 8.6, types: ['movieStar', 'screen-icon'] },
 		{ name: 'michael-seibel', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Silicon Valley\'s Principled Gatekeeper', contentGrade: 8.8, types: ['techie'] },
@@ -318,7 +318,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'tyler-cowen', link: true, hasImage: true, lastmod: '2026-04-19', personaTitle: 'Economics\' Quiet Devourer', contentGrade: 8.9, types: ['techie', 'author'] },
 		{ name: 'warren-buffett', link: true, hasImage: true, lastmod: '2026-07-08', personaTitle: 'Omaha\'s Quiet Fortress', contentGrade: 8.8, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'yang-zhilin', link: true, hasImage: true, lastmod: '2026-08-22', personaTitle: 'AI\'s Far-Side Observer', contentGrade: 8.7, types: ['techie', 'entrepreneur'] },
-		{ name: 'zach-king', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] }
+		{ name: 'zach-king', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
+		{ name: 'demis-hassabis', link: false, hasImage: false, lastmod: '2026-08-29', personaTitle: 'AI\'s Abdicating Architect', contentGrade: 8.6, types: ['techie', 'entrepreneur', 'frontier-builder'] }
 	],
 	6: [
 		{ name: 'alexandria-ocasio-cortez', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Congress\'s Vigilant Insurgent', contentGrade: 8.4, types: ['politician', 'campaign-politician'] },
@@ -528,7 +529,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'abraham-lincoln', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'America\'s Melancholy Peacemaker', contentGrade: 9, types: ['historical', 'politician', 'historical-leader'] },
 		{ name: 'adam-sandler', link: true, hasImage: true, lastmod: '2026-06-23', personaTitle: 'Comedy\'s Gentle Fortress', contentGrade: 8.6, types: ['comedian', 'movieStar', 'screen-icon'] },
 		{ name: 'alexis-bledel', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Television\'s Deliberate Ghost', contentGrade: 9, types: ['celebrity', 'screen-icon'] },
-		{ name: 'alix-earle', link: true, hasImage: true, lastmod: '2026-05-14', personaTitle: 'TikTok\'s Sleeping Empire', contentGrade: 9, types: ['influencer', 'creator', 'lifestyle-builder'] },
+		{ name: 'alix-earle', link: true, hasImage: true, lastmod: '2026-05-14', personaTitle: 'The Room Became the Show', contentGrade: 8.6, types: ['influencer', 'creator', 'lifestyle-builder'] },
 		{ name: 'austin-butler', link: true, hasImage: true, lastmod: '2026-05-28', personaTitle: 'Hollywood\'s Borrowed Voice', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'barack-obama', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'America\'s Composed Colossus', contentGrade: 8.9, types: ['politician', 'modern-leader'] },
 		{ name: 'bella-poarch', link: true, hasImage: true, lastmod: '2026-01-18', personaTitle: 'TikTok\'s Silent Survivor', contentGrade: 8.9, types: ['creator', 'tiktoker', 'lifestyle-builder'] },

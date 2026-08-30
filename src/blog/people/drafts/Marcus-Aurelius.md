@@ -4,12 +4,12 @@ meta_title: 'Marcus Aurelius Enneagram Type 1: The Calm He Rehearsed'
 persona_title: 'The Emperor Who Graded Himself'
 description: "Marcus Aurelius is quoted daily for his composure. His own private letters show a man who could not stop marking his own work. An Enneagram Type 1 analysis."
 author: 'DJ Wayne'
-date: '2026-08-27'
+date: '2026-08-30'
 loc: 'https://9takes.com/personality-analysis/marcus-aurelius'
-lastmod: '2026-08-27'
+lastmod: '2026-08-30'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 1
 type: ['historical', 'author', 'politician']
 person: 'Marcus-Aurelius'

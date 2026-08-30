@@ -1,0 +1,15 @@
+Editor pass on **Zach-Bryan** is complete. All 7 P0s are fixed, all 15 accepted P1s applied, and every protected hit survived. Exit checks: blog-lint **0 fail** (4,492/4,500 words, only the standing thin-headroom warn), **0 contrast pairs**, 0 prose em-dashes, source audit 7/7 quotes inline.
+
+**The trust repairs (P0s):**
+- **Springsteen composite dismantled** — the "real guilt / Why the fuck am I on stage?" confession is restaged to Rogan 2023, with Bryan still confessing it to Springsteen a year later in the Musicians on Musicians conversation (now with locator and the "Sandpaper" collaborator clause). Research win: I verified "It's just not reading like that, man" to that conversation via the Audacy syndication, so it stays; "Listen to your inner voice" could not be anchored anywhere and is cut.
+- **LaPaglia file no longer reads as dignified silence** — the date-pinned "as of this writing" replaces "never substantively responded," the since-deleted July 2025 TikTok mock and the "Skin" diss-track coverage are now in the file, "describes exactly" became a conditional, and the engine paragraph names the one rupture where the confession reflex never fired. The critic's unconfirmed private-texts element stayed out.
+- **Ticketmaster crusade gets its real ending** — one tour, then back to the machines with "one guy can't change the whole system" (Sept 2023), key-stat cap date-anchored. As the synthesis predicted, the true ending is more Type 6 than the crusader ending.
+- Plus the DiMaggio compression, Oologah at 1,300, and the diamond-club fix. Bonus from RQ-02: "Bad News" shipped with the ICE line intact, so the DHS arc now ends in defiance instead of an implied fold.
+
+**Funding trims** (word ceiling was the binding constraint): the Duncan Trussell waterfall image, the second Moreland quote, the "re-enlist emotionally" line, and connective tissue — no protected material.
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Zach-Bryan/2026-08-30_020003/editor-resolution.md`
+
+**Left open:** one standing pre-publish trigger — re-check the LaPaglia file for any response or legal development right before publish (checked today: nothing new). RQ-05 was deferred as designed; the alcohol-confound repair is scoped to the confession half.
+
+The draft is production-ready pending `/blog_perspective_verify_people`, which independently checks this work.

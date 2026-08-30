@@ -1,0 +1,16 @@
+Revision pass complete on `src/blog/people/drafts/Zach-Bryan.md`. The loop was triggered by the grade — 8.4 (B) with a cross-draft sameness cap on Originality — not by lint (already clean) or the perspective gate (verification had already passed with 0 open P0s and 0 regressions).
+
+**Fixes applied, mapped to grader items:**
+
+- **Imperative drumbeat (sameness element 2):** cut from 8 instances to 1. "Start with," "Then watch," "Listen to the words," "Line the fights up," "Give Moreland his due," "Leave her file open," and "Mark the limit of the lens" are all flattened into declaratives (e.g. "What he does with authority is stranger," "Lined up, the fights make one shape," "The lens has a limit"). Kept only "Keep both details," which earns its imperative by paying off later with Graham in the band.
+- **Corpus-stat sentence (sameness element 1):** the Rabbit Hole counterargument no longer opens with the Freddie-Mercury-shaped base-rate sentence; the 38.3%/81-musicians stat now rides as a trailing clause inside the Fours argument.
+- **Intro pivot (sameness element 3):** "Here is the part that doesn't add up" became "Except the outline is at war with itself" — a direct callback to "you know the outline" two sentences earlier, in the subject's own register.
+- **Inline JRE anchors:** the Master Chief bottle anecdote now carries "(Joe Rogan Experience, 2023)," the at-14 quote carries "as he told Rogan in 2023," and the rope-swing quote carries "he told Rogan." I grep-verified all three beats verbatim in the on-file transcript before anchoring.
+- **Verifier's carry-forward nit:** the impostor-syndrome quote is normalized to Audacy's rendering (period instead of exclamation, "impostor" spelling).
+- **Word-ceiling funding:** trimmed the fourth body mention of the attendance record, plus two smaller compressions, so the anchor additions fit. Body is 4,499/4,500.
+
+**Rejected:** the stadium section's "Here is what the machine looks like from the inside" was left alone — the grader named only the intro pivot, and this pass stays targeted.
+
+**Verification:** lint is clean (0 fail; only the pre-existing thin-headroom warn), and all 16 protected hits from the jury synthesis survive — I spot-checked the anchor strings after editing, since several flattened openers sat adjacent to protected passages (Moreland steelman, LaPaglia buffer, anxious-master-chief close).
+
+**Artifacts:** wrote `revision-resolution.md` in the review directory (noting there were no open perspective items to resolve, logging the grade-driven edits and the standing LaPaglia pre-publish trigger) and replaced the draft's revision-notes block. The pipeline should now clear the consumed review sidecar, rerun `/blog_perspective_verify_people` for the targeted re-check, and re-grade — with the sameness cap addressed, the grader projected ~8.7–8.9 on merits.

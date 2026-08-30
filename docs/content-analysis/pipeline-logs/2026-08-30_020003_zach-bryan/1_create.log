@@ -1,0 +1,25 @@
+The Zach Bryan draft is complete and every hard gate passes.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Zach-Bryan.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 qualifying testimony quotes) | Gate 2: pass (6 of 8 H2s search-intent/hybrid) | Gate 4: pass (no type-anaphora ending, no reference-library cadence) | Gate 5: pass (1 type-theory paragraph outside diagnosis/Rabbit Hole) | Gate 6: pass (0 contrast pairs, similarity scan CLEAR at 0.060 max, bespoke form, critic anchor, empathy turn, current-tense anchor)
+LIMITATIONS: TikTok-departure claim in the entity-gap packet could not be verified and was omitted; Navy service length phrased as "eight years (2013–2021)" per packet guidance (sources split 7/8/9); Rolling Stone is tollbit-blocked so RS quotes came via syndication; JRE quotes drawn from the auto-caption transcript (disclaimed in the draft); the $350M Warner deal and "final major-label album" reports are both attributed, not reconciled.
+```
+
+**The thesis:** Zach Bryan is an Enneagram Type 6 whose central contradiction is that the most anti-machine man in American music built the biggest machine in American music. The draft resolves it through devotion: three generations of Navy, a childhood whiskey bottle pre-labeled "Master Chief Bryan," a discharge he answered with "I'd rather not," and a career of removing every intermediary that failed his trust inspection. The tiebreaker evidence for the typing is his apology reflex (the next-morning arrest video: "I felt like a child... I don't think I'm above the law").
+
+**Key artifacts produced:**
+- Draft: `src/blog/people/drafts/Zach-Bryan.md` (4,061 words, lint 0 fail / 1 headroom warn)
+- Durable research file: `docs/content-analysis/research/Zach-Bryan.md` (timeline, 20+ sourced quotes, testimony, source ledger, type-challenge memo at high confidence)
+- Transcript: `youtube-transcripts/2023-08-23-zach-bryan-joe-rogan-2015.md` (JRE #2015, 3h06m — the research moat; it yielded the Master Chief bottle, the SEAL-package/mother's-death coincidence, and the "who's mad at him" waterfall line)
+
+**Entity-gap packet honored:** biography intent answered in prose plus 4 verified FAQ entries (type, wife, Navy, parents); Zachery Ty Bryan disambiguation is in the diagnosis section; marriage-status gossip and unsourced net-worth/height excluded; head terms present in both `title` and `meta_title`, so no `head_term_exception` needed.
+
+**Internal links (4):** Type 6 pillar, Kacey Musgraves, wings guide, instinctual subtypes (the latter two inside the Rabbit Hole per template).
+
+Next steps when you're ready: `/grade_blog Zach-Bryan`, then human review before `production_pretext` flips to `ready`.
+
+Sources: [Billboard — With Heaven on Top #1](https://www.billboard.com/music/chart-beat/zach-bryan-with-heaven-on-top-number-one-billboard-200-1236157357/), [Variety — $350M deals](https://variety.com/2025/music/news/zach-bryan-350-million-label-publishing-deals-1236387484/), [Variety — Moreland feud](https://variety.com/2025/music/news/zach-bryan-removes-track-john-moreland-collaborator-beef-1236393024/), [Pollstar — Michigan Stadium record](https://news.pollstar.com/2025/09/28/zach-bryan-makes-history-with-largest-us-ticketed-show-at-michigan-stadium/), [Rolling Stone — arrest apology](https://www.rollingstone.com/music/music-news/zach-bryan-explains-arrest-apology-1234820650/), [Rolling Stone — case closed](https://www.rollingstone.com/music/music-news/zach-bryan-criminal-case-oklahoma-closed-1235168844/), [ABC News — Bad News response](https://abcnews.com/US/love-country-zach-bryan-addresses-backlash-song-ice/story?id=126325347), [Variety — "neither radical side"](https://variety.com/2025/music/news/zach-bryan-responds-song-nonpartisan-neither-radical-sides-1236542711/), [Billboard — LaPaglia allegations](https://www.billboard.com/music/music-news/zach-bryan-ex-brianna-lapaglia-alleges-emotional-abuse-rejects-12-million-nda-offer-1235823179/), [NewsNation — sobriety post](https://www.newsnationnow.com/entertainment-news/zach-bryan-sober-mental-health/), [Yahoo — letter to his late mom](https://www.yahoo.com/entertainment/music/articles/zach-bryan-shares-message-mom-204842777.html), [Variety — Ticketmaster album](https://variety.com/2022/music/news/zach-bryan-live-album-all-my-homies-hate-ticketmaster-statement-ticket-costs-tour-1235472757/), [Audacy — Springsteen conversation](https://www.audacy.com/national/music/bruce-springsteen-and-zach-bryan-swap-songwriting-secrets), [American Songwriter — imposter syndrome](https://americansongwriter.com/bruce-springsteen-and-zach-bryan-discuss-writing-music-and-struggling-with-impostor-syndrome/)

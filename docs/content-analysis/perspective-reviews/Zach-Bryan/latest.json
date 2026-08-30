@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Zach-Bryan",
+	"review_dir": "docs/content-analysis/perspective-reviews/Zach-Bryan/2026-08-30_020003",
+	"verification_file": "docs/content-analysis/perspective-reviews/Zach-Bryan/2026-08-30_020003/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "376ea03744b7bb05438b007a24c1a07116c96dd0925984c374c903f7e6a9d438",
+	"verified_content_sha256": "a3802ec8ee3f8c5741c680fdd4f6d9e4e95ce61c50c51fcc8c65d940230ba952",
+	"verified_at": "2026-08-30T07:46:50.000Z"
+}

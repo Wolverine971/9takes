@@ -1,0 +1,37 @@
+## Cohesion Check Complete: Zach-Bryan.md
+
+**Before score: 9/10**
+**After score: 9/10**
+
+### Central Thesis
+
+Zach Bryan is a Type 6 Loyalist: the fights, the records, and the apologies are one long search for something that deserves his devotion, which is why the most anti-machine figure in American music runs the biggest machine in American music.
+
+### Thread Map
+
+The chain holds end to end. The intro poses the paradox (anti-machine man, biggest machine) → the diagnosis section names the type and, notably, roadmaps the whole piece in its first paragraph ("three generations of Navy service... the discharge he openly resisted... an apology reflex") → childhood supplies the devotion origin (the Master Chief bottle) → the SEAL section shows the rupture that rerouted devotion into music → the machines section shows the trust inspections every institution fails → the apologies section shows the morning-after half of each fight → the sobriety section shows the private cost, bridged into faith via "Sobriety is the newest thing he trusts. The oldest is stranger" → the stadium section shows the one institution that passes inspection (the crowd) → "The other bottle" closes the frame the childhood section opened.
+
+| Check                   | Score | Issues |
+| ----------------------- | ----- | ------ |
+| Through-Line Clarity    | 9/10  | 0      |
+| Promise-Delivery Match  | 9/10  | 0      |
+| Reader Mental Model     | 8/10  | 1      |
+| Section Transitions     | 9/10  | 0      |
+| Internal Paragraph Flow | 9/10  | 0      |
+
+### Changes Made (1 total)
+
+**Thread Fixes (1):**
+
+- Inner-thought in the stadium section: "Austin and Kramer" appeared with zero prior introduction anywhere in the piece. Added "his best friends" (verified against the Rogan transcript, where Bryan calls them "my best friends" at the sailor bar). Three words, so the 4,431-word body stays under the 4,500 lint ceiling.
+
+### What Was Preserved
+
+- All frontmatter, ledger comments, working notes, and the fresh-eyes/second-pass blocks
+- All Svelte-class markup, internal links, and the Rabbit Hole accordion
+- Every section boundary untouched. The transitions are already doing real work: the mother's daily-audit line feeds directly into her death in the SEAL section, "The drinking thread runs through everything above" is an explicit bridge, the post-Rabbit-Hole "Here is what the machine he built actually looks like from the inside" callbacks the thesis for accordion-skippers, and the docket's out-of-order dates are pre-signaled ("ordered by weight rather than date")
+- Threads that look orphaned but aren't: the rope-swing "charges at the scary thing" beat pays off in the apology section's fight-response reading, and "homies who clapped for him back when nobody else did" is the same bar scene the inner-thought names
+
+### Remaining Concerns
+
+None structural. This draft has already absorbed its fresh-eyes and second-pass cohesion notes (docket ordering signal, LaPaglia buffer sentence, wedding signpost), and they landed. The one judgment call I left alone: the childhood section opens on pure biography right after the type declaration, with the H2 and the diagnosis roadmap doing the bridging. That's the house format for these profiles and adding a bridge there would read as formula, not flow.

@@ -1,0 +1,100 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — zach-bryan (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Zach-Bryan.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 43
+Comparison set (last 8 other Type-6 drafts by date):
+  - simone-biles  (2026-08-25, 42 units)
+  - Patrick-Mahomes  (2026-08-23, 46 units)
+  - Bill-Burr  (2026-08-19, 43 units)
+  - keira-knightley  (2026-08-17, 32 units)
+  - noah-wyle  (2026-08-09, 57 units)
+  - samara-weaving  (2026-08-03, 29 units)
+  - Jack-Antonoff  (2026-07-30, 27 units)
+  - mila-kunis  (2026-07-29, 40 units)
+
+Noise floor over 13588 unit pairs:  median=0  p90=0  p99=0.005  max=1
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 1.000   zach-bryan  <->  Patrick-Mahomes
+   TARGET [diagnosis] Zach Bryan is an Enneagram Type 6
+   OTHER  [diagnosis] Patrick Mahomes is an Enneagram Type 6
+
+score 1.000   zach-bryan  <->  Bill-Burr
+   TARGET [diagnosis] Zach Bryan is an Enneagram Type 6
+   OTHER  [diagnosis] Bill Burr is an Enneagram Type 6
+
+score 0.091   zach-bryan  <->  keira-knightley
+   TARGET [diagnosis] The evidence runs from three generations of Navy service
+   OTHER  [diagnosis] The evidence runs deeper than the fights.
+
+score 0.061   zach-bryan  <->  mila-kunis
+   TARGET [diagnosis] Zach Bryan is an Enneagram Type 6
+   OTHER  [diagnosis] Mila Kunis fits Enneagram Type 6
+
+
+Most similar drafts (max unit-pair score):
+  1.000 ######################################## Patrick-Mahomes
+  1.000 ######################################## Bill-Burr
+  0.091 ####                 keira-knightley
+  0.061 ##                   mila-kunis
+  0.059 ##                   simone-biles
+  0.037 #                    noah-wyle
+  0.018 #                    Jack-Antonoff
+  0.018 #                    samara-weaving
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 1.000   zach-bryan  <->  Patrick-Mahomes
+   TARGET [diagnosis] Zach Bryan is an Enneagram Type 6
+   OTHER  [diagnosis] Patrick Mahomes is an Enneagram Type 6
+
+score 1.000   zach-bryan  <->  Bill-Burr
+   TARGET [diagnosis] Zach Bryan is an Enneagram Type 6
+   OTHER  [diagnosis] Bill Burr is an Enneagram Type 6
+
+score 0.091   zach-bryan  <->  keira-knightley
+   TARGET [diagnosis] The evidence runs from three generations of Navy service
+   OTHER  [diagnosis] The evidence runs deeper than the fights.
+
+score 0.061   zach-bryan  <->  mila-kunis
+   TARGET [diagnosis] Zach Bryan is an Enneagram Type 6
+   OTHER  [diagnosis] Mila Kunis fits Enneagram Type 6
+
+score 0.060   zach-bryan  <->  Bill-Burr
+   TARGET [diagnosis] and then he begs the room to understand that he respects the rules he just broke.
+   OTHER  [diagnosis] He described wanting the room to stand down.
+
+score 0.059   zach-bryan  <->  simone-biles
+   TARGET [diagnosis] " as he put it on the Joe Rogan Experience.
+   OTHER  [diagnosis] She told it on The Art of Excellence in 2025.
+
+score 0.039   zach-bryan  <->  simone-biles
+   TARGET [counter-typing] and why his charges aim at institutions instead of people.
+   OTHER  [diagnosis] aimed at a named future event
+
+score 0.038   zach-bryan  <->  keira-knightley
+   TARGET [diagnosis] to the apology reflex that trails the fights he picks.
+   OTHER  [diagnosis] The evidence runs deeper than the fights.
+
+score 0.037   zach-bryan  <->  noah-wyle
+   TARGET [diagnosis] different arrest record.) The tiebreaker is what happens after he blows up.
+   OTHER  [diagnosis] The tiebreaker came during COVID
+
+score 0.037   zach-bryan  <->  noah-wyle
+   TARGET [counter-typing] and Bryan spends his interviews insisting on the opposite
+   OTHER  [counter-typing] the opposite of a Nine's self-forgetting.
+
+score 0.028   zach-bryan  <->  simone-biles
+   TARGET [diagnosis] A person driven by image buries it.
+   OTHER  [diagnosis] and quieted only by a person she trusts.
+
+score 0.028   zach-bryan  <->  noah-wyle
+   TARGET [diagnosis] Fear is the native language of his inner life
+   OTHER  [diagnosis] nearly all of the inner-life evidence here is Wyle's own telling
+
+------------------------------------------------------------------------------
+Top pair scores 1 vs median 0  (~∞x the noise floor).

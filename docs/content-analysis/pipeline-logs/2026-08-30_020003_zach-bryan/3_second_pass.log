@@ -1,0 +1,18 @@
+Second pass complete on `src/blog/people/drafts/Zach-Bryan.md` — source audit now clean (7/7 load-bearing quotes inline, was 1 inline / 4 vague / 2 untagged) and lint passes with 0 fails.
+
+**Source traceability (first-order fixes):**
+- Both untagged quotes anchored to Billboard, after verifying Billboard actually carried them: the cold-open sobriety quote ("I really need some fucking help," from the Nov 2025 Instagram post) and the closing stage quote — which I also corrected to Billboard's fuller rendering, "Thank you *so much* for the best night of my life."
+- Swapped the Pollstar cite for Billboard (Pollstar isn't in the audit's outlet list) and upgraded all three diagnosis-section Rogan quotes to inline by naming the Joe Rogan Experience inside the script's attribution window.
+
+**Fresh-eyes notes addressed:**
+- **The missing becoming-famous beat**: new paragraph opening the machines section — *American Heartbreak* (May 2022, #5 Billboard 200) and "Something in the Orange." I verified the fresh-eyes "diamond-certified" claim before using it: the song is actually 12× platinum as of 2025, past diamond and one of only ~15 country songs ever there. The sound-of-his-music gap is covered with Rogan's verified "it's uniquely authentic. It's just very you."
+- **The $350M contradiction**: named head-on with Variety's "at least two more albums" clause, framed as the thesis in one move rather than an error.
+- **The faith thread**: new paragraph ending the sobriety section — "too grand and beautiful to not believe in God" moved from Rabbit Hole parenthetical into the body (Rabbit Hole de-duped), plus the full Miss Barnes story from the transcript. I corrected the fresh-eyes summary: John wasn't a stranger, he was the old mission contact who'd bought her house. The paragraph lands on the mother's-daily-calls echo: "his evidence for God is that somebody kept answering."
+- **Structural**: docket now signals it's "ordered by weight rather than date"; a buffer sentence keeps the empathy turn from reading as an answer to LaPaglia; the wedding got a signpost sentence (kept in place because the FAQ anchor points there).
+- **Trims to fund it**: intro discharge beat compressed to a clause, the 112,408 figure made implicit in the inner-thought, and the business-stats paragraph cut ~40%. Net result: 4,431 words against the 4,500 ceiling.
+
+**Rejected from fresh-eyes:** Springsteen's "relentless sincerity" isn't in the research file and couldn't be verified, so I didn't use it. I also kept "I'd rather not" in the diagnosis section despite the compress-repetition note — it's the load-bearing diagnosis-slot evidence; I cut repetition around it instead.
+
+**Still open** (noted in the SECOND PASS NOTES block): the "Revival"/DHS faith resonance was skipped for word budget and would need a source characterizing the song first; and the LaPaglia file should be re-checked for any response from Bryan before publish. The word-count headroom is thin (~70 words), so the next refresh should trim before adding.
+
+Sources: [Billboard — Michigan Stadium best moments](https://www.billboard.com/lists/zach-bryan-michigan-stadium-concert-2025-best-moments/), [Billboard — sobriety/therapy post](https://www.billboard.com/music/country/zach-bryan-therapy-panic-attacks-anxiety-2-months-sober-1236116635/), [Rolling Stone — Michigan Stadium record](https://www.rollingstone.com/music/music-live-reviews/zach-bryan-john-mayer-first-show-michigan-stadium-1235436838/), [Country Central — RIAA certifications](https://countrycentral.com/news/zach-bryan-earns-58-new-riaa-certifications/), [Country 102.5 — SITO 12× platinum](https://country1025.com/2025/08/08/zach-bryans-something-in-the-orange-goes-12x-platinum-smashes-billboard-record/)

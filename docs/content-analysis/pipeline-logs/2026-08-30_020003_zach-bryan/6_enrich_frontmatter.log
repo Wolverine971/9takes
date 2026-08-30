@@ -1,0 +1,20 @@
+Frontmatter enrichment complete: **Zach-Bryan**
+
+**Fields filled:**
+
+- `wikidata_qid: 'Q106770023'` — verified via the Wikidata entity (label "Zach Bryan," American country musician)
+- `imdb_id: 'nm9668246'` — cross-checked via Wikidata property P345, per the command's confirmation rule
+- `knows_about` (7) — Americana music, Alternative country, Red dirt music, Confessional songwriting, Record production, Stadium touring, Direct-to-fan ticketing
+- `keywords` (9) — enneagram/type-6/6w7 phrases plus signature-topic searches (Navy service, Ticketmaster feud, sobriety, Michigan Stadium record)
+- `same_as` (4) — Wikipedia, Wikidata, IMDb, and zachbryan.com (identity link only; the research file's do-not-cite flag is about the stale about-page facts, not entity identity)
+- `citations` (5) — Wikipedia plus verified article URLs for the body's load-bearing named sources: Billboard's Michigan Stadium record piece, Billboard's Nov 2025 sobriety story, Variety's $350M deal report, and Variety's Moreland track-removal story. All four were confirmed real via live search, not constructed.
+
+**Fields already present (preserved):** `wikipedia` (verified it's the musician's page, not Zachery Ty Bryan's), `birth_date`, `birth_place`, `nationality`, `occupation`, `instagram`, and all 4 substantive `faqs` — left exactly as-is per the idempotency rule. `lastmod` untouched. Body and all HTML comment ledgers untouched.
+
+**FAQs generated:** 0 (existing 4 are substantive, not templated backfill — preserved).
+
+**Issues:**
+
+- The body contains zero external inline links — its sourcing is all named attributions (Billboard, Variety, Rolling Stone, RIAA, JRE). I followed the Einstein gold-standard convention and built `citations` from the canonical URLs behind those named sources rather than leaving it empty.
+- Wikidata's birth-place claim (P19: DeQueen, Arkansas) contradicts Wikipedia and Bryan's own account (Okinawa, Japan). The draft's existing Okinawa value is correct and was left alone; the discrepancy lives on Wikidata's side.
+- YAML validated with the project's js-yaml after the edit — parses clean, so no deploy risk from this pass.

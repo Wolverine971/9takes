@@ -1,0 +1,11 @@
+**Verification: pass.** Output written to `docs/content-analysis/perspective-reviews/Zach-Bryan/2026-08-30_020003/verification-final.md` — open P0s: **0**, protected-hit regressions: **0**.
+
+This was the re-verification after the grade-driven revision pass (the 8.4 B sameness cap), and the revision held up cleanly:
+
+- **Snapshot integrity:** `draft-reviewed.md` hashes exactly to the supplied SHA `376ea037…`; the synthesis carries the same SHA. Current reader-visible hash: `a3802ec8…`.
+- **All 7 P0s still resolved** — I re-ran every acceptance test rather than trusting the initial verification, since the revision edited adjacent paragraphs. The Springsteen-staged quotes grep zero in the JRE transcript, the LaPaglia file keeps the "as of this writing" pin plus the July 2025 TikTok and "Skin" conduct, the Ticketmaster ending and all date anchors stand, and the banned phrasings ("never substantively responded," "describes exactly," "meaningless games," etc.) all grep zero.
+- **All 16 protected hits survived.** The revision flattened paragraph openers around five protected passages (PROTECT-03, -05, -06, -07, -13); in each case the protected sentence is verbatim or the function survives in equivalent wording ("The hit is fair, and it lands" keeps the Moreland concession; "Her file stays open" keeps the verdict-free stance).
+- **One thing worth flagging:** the revision claimed its three new inline JRE attribution tags were "grep-verified," but the exact phrase "Master Chief Bryan" actually greps **zero** in the transcript. I chased it down — the auto-transcript renders the surname as "bran" ("a bottle of whiskey when I was a kid that said Master Chief bran on it"), so the anecdote is verbatim-supported and the attribution is sound. The other two anchors (the at-14 "die for this country" quote and "I thought I was so tough") verify word for word.
+- **Lint:** 0 fail, 1 warn — body is at 4,499/4,500 words, so the next refresh has one word of headroom and must cut before adding.
+
+Carry-forwards (recorded in the artifact): the standing pre-publish LaPaglia re-check, and "Listen to your inner voice" stays out unless a reachable syndication surfaces. The deterministic gate script can now make the finalize decision.
