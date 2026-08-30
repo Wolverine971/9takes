@@ -213,7 +213,7 @@ async function main() {
 			width: CANVAS_SIZE,
 			height: CANVAS_SIZE,
 			channels: 4,
-			background: { r: 0, g: 0, b: 0, alpha: 1 }
+			background: { r: 0, g: 0, b: 0, alpha: 0 }
 		}
 	})
 		.composite([

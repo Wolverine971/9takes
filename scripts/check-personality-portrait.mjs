@@ -196,6 +196,7 @@ export async function inspectPortraitPair({
 		if (asset.format !== 'webp')
 			errors.push(`${label} must be WebP; found ${asset.format ?? 'unknown'}`);
 		if (!asset.width || !asset.height) errors.push(`${label} has unreadable dimensions`);
+		if (!asset.hasAlpha) errors.push(`${label} must preserve alpha transparency`);
 	}
 
 	if (full?.width && full.width > 1200) {

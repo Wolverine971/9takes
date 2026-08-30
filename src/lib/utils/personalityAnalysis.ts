@@ -8,6 +8,13 @@ const PERSONALITY_DISPLAY_NAME_OVERRIDES: Record<string, string> = {
 	ashby: 'Ashby Florence'
 };
 
+// These portraits were first requested before their files reached production.
+// Version their URLs once so browsers do not reuse that cached missing response.
+const PERSONALITY_IMAGE_CACHE_VERSIONS: Record<string, string> = {
+	'freddie-mercury': '20260830',
+	'marcus-aurelius': '20260830'
+};
+
 export function normalizePersonalitySlug(slug: string | null | undefined): string {
 	if (typeof slug !== 'string') return '';
 	return slug
@@ -81,7 +88,10 @@ export function buildPersonalityImagePath(
 	if (!enneagramValue || !resolvedSlug) return '';
 
 	const fileName = variant === 'thumbnail' ? `s-${resolvedSlug}.webp` : `${resolvedSlug}.webp`;
-	return `/types/${enneagramValue}s/${fileName}`;
+	const imagePath = `/types/${enneagramValue}s/${fileName}`;
+	const cacheVersion = PERSONALITY_IMAGE_CACHE_VERSIONS[normalizePersonalitySlug(slug)];
+
+	return cacheVersion ? `${imagePath}?v=${cacheVersion}` : imagePath;
 }
 
 export function buildPersonalityImageUrl(

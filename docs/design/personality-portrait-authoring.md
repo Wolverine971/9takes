@@ -32,8 +32,8 @@ swiftc -module-cache-path /tmp/9takes-swift-module-cache \
 /tmp/remove-photo-background /path/to/source.jpg /path/to/cutout.png
 ```
 
-Compose the approved cutout on black, convert it to grayscale, size it, and apply the exact purple
-template with the deterministic compositor:
+Compose the approved cutout on a transparent canvas, convert it to grayscale, size it, and apply the
+exact purple template with the deterministic compositor:
 
 ```sh
 node scripts/compose-personality-portrait.mjs \
