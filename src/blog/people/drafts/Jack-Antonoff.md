@@ -13,7 +13,7 @@ published: true
 enneagram: '6'
 type: ['musician', 'celebrity']
 person: 'Jack-Antonoff'
-suggestions: ['Taylor-Swift', 'Lana-Del-Rey', 'Sabrina-Carpenter', 'Gracie-Abrams']
+suggestions: ['Taylor-Swift', 'Lana-Del-Rey', 'Sabrina-Carpenter', 'Gracie-Abrams', 'Margaret-Qualley']
 wikipedia: 'https://en.wikipedia.org/wiki/Jack_Antonoff'
 wikidata_qid: 'Q151304'
 imdb_id: 'nm3054787'
@@ -310,7 +310,7 @@ The schedule exists because he once learned what happens off-schedule. In his tw
 
 Pressure bends him toward performance, and peace loosens him. In the anxious years he over-explained everything, drawing hard lines between Bleachers and his production work, working "beyond overtime" so nobody would misread him.
 
-The same machine the schedule manages at work used to run his relationships. He described every one before Margaret Qualley as a "chuntering, like tennis shoes in a laundry machine," a running scoreboard of pros and cons that never shut off. Meeting her on the roof of Electric Lady ended it mid-cycle. "I saw her, and I was like: got it. Nothing else matters. And I changed everything about my life to be ready for it." They married on Long Beach Island in 2023. In early 2026 he was still telling interviewers that the day he met her, a cynical part of him died, the part he called "the very Jewish, analytical, endlessly-weighing-everything part" (i-D).
+The same machine the schedule manages at work used to run his relationships. He described every one before [Margaret Qualley](/personality-analysis/margaret-qualley) as a "chuntering, like tennis shoes in a laundry machine," a running scoreboard of pros and cons that never shut off. Meeting her on the roof of Electric Lady ended it mid-cycle. "I saw her, and I was like: got it. Nothing else matters. And I changed everything about my life to be ready for it." They married on Long Beach Island in 2023. In early 2026 he was still telling interviewers that the day he met her, a cynical part of him died, the part he called "the very Jewish, analytical, endlessly-weighing-everything part" (i-D).
 
 Then, on July 8, 2026, People reported the two had quietly separated. He has said nothing publicly, which is his pattern: when his five-year relationship with Lena Dunham ended in 2018, she wrote essays and he wrote nothing. Whatever happens inside Jack Antonoff's rooms stays inside them, especially when they fall down.
 

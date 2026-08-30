@@ -13,7 +13,7 @@ published: true
 enneagram: 1
 type: ['author', 'creator', 'entrepreneur']
 person: 'Ryan-Holiday'
-suggestions: ['Robert-Greene', 'Tim-Ferriss', 'Jocko-Willink', 'David-Goggins']
+suggestions: ['Marcus-Aurelius', 'Robert-Greene', 'Tim-Ferriss', 'Jocko-Willink']
 wikipedia: 'https://en.wikipedia.org/wiki/Ryan_Holiday'
 wikidata_qid: 'Q7384151'
 twitter: 'RyanHoliday'
@@ -157,7 +157,7 @@ Ending swap-test: pass. The close depends on the four-virtue series, the untimed
 
 <p class="firstLetter">In April 2026, a man who had spent more than a decade teaching strangers to go easy on other people filmed himself sticking his tongue out at Ivanka Trump.</p>
 
-The video is a split screen. On one half she is describing what she took from Marcus Aurelius. On the other half Ryan Holiday smirks, rolls his eyes, and at one point gives a thumbs down while she is still talking. Mediaite transcribed the whole thing in May 2026, including the objection underneath the smirk: "She's totally right. That's exactly what Marcus Aurelius said... she's just not living or acting in accordance with it in any way."
+The video is a split screen. On one half she is describing what she took from [Marcus Aurelius](/personality-analysis/marcus-aurelius). On the other half Ryan Holiday smirks, rolls his eyes, and at one point gives a thumbs down while she is still talking. Mediaite transcribed the whole thing in May 2026, including the objection underneath the smirk: "She's totally right. That's exactly what Marcus Aurelius said... she's just not living or acting in accordance with it in any way."
 
 She is right. That is the part that bothers him.
 

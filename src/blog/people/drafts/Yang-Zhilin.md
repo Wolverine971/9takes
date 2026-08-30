@@ -13,7 +13,7 @@ published: true
 enneagram: 5
 type: ['techie', 'entrepreneur']
 person: 'Yang-Zhilin'
-suggestions: ['Dario-Amodei', 'Sam-Altman', 'Elon-Musk', 'Mark-Zuckerberg']
+suggestions: ['Liang-Wenfeng', 'Dario-Amodei', 'Sam-Altman', 'Elon-Musk']
 wikipedia: 'https://en.wikipedia.org/wiki/Yang_Zhilin'
 wikidata_qid: 'Q130865273'
 birth_date: '1992-01-01'

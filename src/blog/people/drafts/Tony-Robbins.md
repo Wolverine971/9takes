@@ -13,7 +13,7 @@ published: true
 enneagram: 3
 type: ['creator', 'entrepreneur', 'business-creator', 'business-operator']
 person: 'tony-robbins'
-suggestions: ['Alex-Hormozi', 'Oprah-Winfrey', 'Arnold-Schwarzenegger', 'Gary-Vee', 'Robert-Greene']
+suggestions: ['Simon-Sinek', 'Alex-Hormozi', 'Oprah-Winfrey', 'Arnold-Schwarzenegger', 'Gary-Vee']
 wikipedia: 'https://en.wikipedia.org/wiki/Tony_Robbins'
 wikidata_qid: 'Q380429'
 imdb_id: 'nm0730288'

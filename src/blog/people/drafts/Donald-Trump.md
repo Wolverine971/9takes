@@ -19,6 +19,7 @@ suggestions:
     'Kamala-Harris',
     'Hillary-Clinton',
     'JD-Vance',
+    'Jared-Kushner',
     'Pete-Hegseth',
     'Joe-Rogan',
     'Vladimir-Putin'

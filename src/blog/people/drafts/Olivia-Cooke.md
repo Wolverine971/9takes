@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Olivia-Cooke'
 lastmod: '2026-07-08'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['movieStar']
 person: 'Olivia-Cooke'
-suggestions: ['Anya-Taylor-Joy', 'Emma-Watson', 'Sydney-Sweeney', 'Billie-Eilish']
+suggestions: ['Anya-Taylor-Joy', 'Matt-Smith', 'Sydney-Sweeney', 'Emma-Watson']
 wikipedia: 'https://en.wikipedia.org/wiki/Olivia_Cooke'
 wikidata_qid: 'Q15069963'
 imdb_id: 'nm4972453'
@@ -225,7 +225,7 @@ Her most-seen film looks, at first, like the exception. In Steven Spielberg's _R
 
 Cory Finley, who directed her in _Thoroughbreds_, saw the machinery up close. She "takes a very extreme character and makes her very, very human," he said. He also watched her produce real tears on command, then drop straight into deadpan comedy, four takes in a row. "There were no fake tears," he marveled. Cooke can summon the interior weather at will because she lives in it. [Anya Taylor-Joy](/personality-analysis/anya-taylor-joy), her scene partner and closest friend from that shoot, put the intensity another way: "I can't slack in the slightest because I've got to hit her with exactly the amount of force that she's hitting me." By the end of the first day, Taylor-Joy said, "we became symbiotic, almost. I would tuck my hair behind my left ear, and she would be doing the exact same thing."
 
-The speed of that fusion is the tell. A Six does not collect acquaintances; she finds the one or two people who feel safe and bonds to them at the molecular level. With Taylor-Joy it showed up as synchronized hair-tucking. With the Bates Motel cast it became calling them "a family away from home." On House of the Dragon it means gravitating to the "naughty boys," the Rhys Ifanses and Matt Smiths, and egging them into mischief so the tension has somewhere to go.
+The speed of that fusion is the tell. A Six does not collect acquaintances; she finds the one or two people who feel safe and bonds to them at the molecular level. With Taylor-Joy it showed up as synchronized hair-tucking. With the Bates Motel cast it became calling them "a family away from home." On House of the Dragon it means gravitating to the "naughty boys," including Rhys Ifans and [Matt Smith](/personality-analysis/matt-smith), and egging them into mischief so the tension has somewhere to go.
 
 ## Why Olivia Cooke deleted her Instagram
 

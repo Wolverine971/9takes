@@ -13,7 +13,7 @@ published: true
 enneagram: '4'
 type: ['movieStar', 'author', 'screen-icon']
 person: 'lili-reinhart'
-suggestions: ['Billie-Eilish', 'Olivia-Rodrigo', 'Zendaya', 'Chappell-Roan']
+suggestions: ['Madelaine-Petsch', 'Billie-Eilish', 'Olivia-Rodrigo', 'Zendaya']
 wikipedia: 'https://en.wikipedia.org/wiki/Lili_Reinhart'
 wikidata_qid: 'Q28653501'
 imdb_id: 'nm3929887'

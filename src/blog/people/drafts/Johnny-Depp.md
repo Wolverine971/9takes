@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['movieStar', 'screen-icon']
 person: 'johnny-depp'
-suggestions: ['Joaquin-Phoenix', 'Jared-Leto', 'Lady-Gaga', 'Robert-Pattinson']
+suggestions: ['Keira-Knightley', 'Joaquin-Phoenix', 'Jared-Leto', 'Robert-Pattinson']
 wikipedia: 'https://en.wikipedia.org/wiki/Johnny_Depp'
 wikidata_qid: 'Q37175'
 imdb_id: 'nm0000136'

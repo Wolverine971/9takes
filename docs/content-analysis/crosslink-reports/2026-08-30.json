@@ -1,0 +1,256 @@
+{
+  "reportDate": "2026-08-30",
+  "recentDays": 21,
+  "totals": {
+    "profiles": 434,
+    "bodyEdges": 980,
+    "suggestionEdges": 1872,
+    "completeIsolates": 0,
+    "inboundOrphans": 53,
+    "drasticallyIsolated": 53,
+    "clusterless": 72,
+    "brokenBodyLinks": 0,
+    "unavailableSuggestions": 19
+  },
+  "recentPublished": [
+    "adela",
+    "alexandr-wang",
+    "ben-shapiro",
+    "bryan-johnson",
+    "caitlin-clark",
+    "carl-jung",
+    "christopher-nolan",
+    "david-beckham",
+    "dolly-parton",
+    "duke-dennis",
+    "frank-lloyd-wright",
+    "freddie-mercury",
+    "ibai-llanos",
+    "james-clear",
+    "jeremy-allen-white",
+    "keira-knightley",
+    "khabib-nurmagomedov",
+    "liang-wenfeng",
+    "machine-gun-kelly",
+    "madelaine-petsch",
+    "marcus-aurelius",
+    "margaret-qualley",
+    "phoebe-bridgers",
+    "ryan-holiday",
+    "simon-sinek",
+    "simone-biles",
+    "tate-mcrae",
+    "travis-kelce",
+    "yang-zhilin",
+    "caseoh",
+    "victoria-justice"
+  ],
+  "drasticallyIsolated": [
+    "alexis-bledel",
+    "hayao-miyazaki",
+    "ana-de-armas",
+    "ashby",
+    "bert-kreischer",
+    "bobby-lee",
+    "cathie-wood",
+    "david-corenswet",
+    "dr-phil",
+    "frank-lloyd-wright",
+    "ibai-llanos",
+    "james-clear",
+    "james-dyson",
+    "john-d-rockefeller",
+    "john-mcafee",
+    "john-travolta",
+    "keith-lee",
+    "leonardo-da-vinci",
+    "lily-allen",
+    "markiplier",
+    "meghan-trainor",
+    "mikey-madison",
+    "nancy-reagan",
+    "odessa-azion",
+    "oliver-tree",
+    "olivia-munn",
+    "penelope-cruz",
+    "rachel-mcadams",
+    "sarah-j-maas",
+    "sergey-brin",
+    "seth-rogen",
+    "sofia-vergara",
+    "tara-yummy",
+    "tobey-maguire",
+    "troye-sivan",
+    "carina-zavline",
+    "caseoh",
+    "andrew-ross-sorkin",
+    "charlie-puth",
+    "ellen-degeneres",
+    "lana-rhoades",
+    "marcello-hernandez",
+    "nicki-minaj",
+    "ruth-bader-ginsburg",
+    "samuel-l-jackson",
+    "tim-robinson",
+    "zara-larsson",
+    "julia-fox",
+    "adam-neumann",
+    "emma-myers",
+    "taylor-frankie-paul",
+    "teyana-taylor",
+    "corinna-kopf"
+  ],
+  "clusterless": [
+    "adele",
+    "agatha-christie",
+    "alex-warren",
+    "andrew-callaghan",
+    "benny-blanco",
+    "bert-kreischer",
+    "bob-dylan",
+    "carina-zavline",
+    "charlie-puth",
+    "chelsea-handler",
+    "cristiano-ronaldo",
+    "dalton-caldwell",
+    "demi-lovato",
+    "dr-phil",
+    "dua-lipa",
+    "duke-dennis",
+    "ed-sheeran",
+    "ellen-degeneres",
+    "elton-john",
+    "freddie-mercury",
+    "friedrich-nietzsche",
+    "garry-tan",
+    "hailee-steinfeld",
+    "hayao-miyazaki",
+    "jack-antonoff",
+    "jason-sudeikis",
+    "jimmy-carter",
+    "jimmy-fallon",
+    "joaquin-phoenix",
+    "john-ternus",
+    "julia-fox",
+    "justin-bieber",
+    "kaia-gerber",
+    "kanye",
+    "keira-knightley",
+    "kendrick-lamar",
+    "lady-gaga",
+    "lana-del-rey",
+    "lily-allen",
+    "madelaine-petsch",
+    "marcus-aurelius",
+    "margaret-qualley",
+    "matt-rife",
+    "matt-smith",
+    "michael-seibel",
+    "mira-murati",
+    "mr-rogers",
+    "morgan-freeman",
+    "nancy-reagan",
+    "neil-strauss",
+    "nicki-minaj",
+    "nicole-kidman",
+    "nikola-tesla",
+    "noah-kahan",
+    "oliver-tree",
+    "olivia-cooke",
+    "pete-hegseth",
+    "phoebe-bridgers",
+    "pinkpantheress",
+    "prince",
+    "queen-elizabeth-ii",
+    "ruth-bader-ginsburg",
+    "ryan-holiday",
+    "seth-rogen",
+    "sza",
+    "tate-mcrae",
+    "tina-fey",
+    "tom-hanks",
+    "tyler-cowen",
+    "victoria-justice",
+    "yang-zhilin",
+    "zara-larsson"
+  ],
+  "brokenBodyLinks": [],
+  "unavailableSuggestions": [
+    {
+      "source": "addison-rae",
+      "target": "brooke-monk"
+    },
+    {
+      "source": "adin-ross",
+      "target": "n3on"
+    },
+    {
+      "source": "alex-cooper",
+      "target": "nara-smith"
+    },
+    {
+      "source": "charli-damelio",
+      "target": "brooke-monk"
+    },
+    {
+      "source": "gordon-ramsay",
+      "target": "beyonce"
+    },
+    {
+      "source": "hayao-miyazaki",
+      "target": "stephen-king"
+    },
+    {
+      "source": "james-clear",
+      "target": "brene-brown"
+    },
+    {
+      "source": "joe-biden",
+      "target": "hunter-biden"
+    },
+    {
+      "source": "margot-robbie",
+      "target": "greta-gerwig"
+    },
+    {
+      "source": "margot-robbie",
+      "target": "samara-weaving"
+    },
+    {
+      "source": "matt-smith",
+      "target": "david-tennant"
+    },
+    {
+      "source": "matt-smith",
+      "target": "claire-foy"
+    },
+    {
+      "source": "matt-smith",
+      "target": "benedict-cumberbatch"
+    },
+    {
+      "source": "millie-bobby-brown",
+      "target": "sadie-sink"
+    },
+    {
+      "source": "riz-ahmed",
+      "target": "oscar-isaac"
+    },
+    {
+      "source": "shane-gillis",
+      "target": "stavros-halkias"
+    },
+    {
+      "source": "steve-jobs",
+      "target": "noah-wyle"
+    },
+    {
+      "source": "vincent-van-gogh",
+      "target": "edgar-allan-poe"
+    },
+    {
+      "source": "caseoh",
+      "target": "jynxzi"
+    }
+  ]
+}

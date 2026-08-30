@@ -13,7 +13,7 @@ published: true
 enneagram: 5
 type: ['techie', 'entrepreneur', 'frontier-builder']
 person: 'Liang-Wenfeng'
-suggestions: ['Dario-Amodei', 'Sam-Altman', 'Jensen-Huang', 'Alexandr-Wang']
+suggestions: ['Yang-Zhilin', 'Dario-Amodei', 'Sam-Altman', 'Jensen-Huang']
 wikipedia: 'https://en.wikipedia.org/wiki/Liang_Wenfeng'
 wikidata_qid: 'Q131847088'
 twitter: ''

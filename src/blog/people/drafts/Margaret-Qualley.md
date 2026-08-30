@@ -13,7 +13,7 @@ published: true
 enneagram: '3'
 type: ['movieStar', 'newMovieStar']
 person: 'margaret-qualley'
-suggestions: ['Emma-Stone', 'Sydney-Sweeney', 'Anya-Taylor-Joy', 'Jenna-Ortega']
+suggestions: ['Jack-Antonoff', 'Emma-Stone', 'Sydney-Sweeney', 'Anya-Taylor-Joy']
 wikipedia: 'https://en.wikipedia.org/wiki/Margaret_Qualley'
 wikidata_qid: 'Q17380672'
 imdb_id: 'nm4960279'
@@ -493,7 +493,7 @@ It is the loose thread in this reading, and it is the most human thing about her
 
 ## Sarah Margaret
 
-What came next she did not arrange. On July 3, 2026, Jack Antonoff attended Taylor Swift's wedding alone. Five days later, <em>People</em> reported that he and Qualley had separated. On July 10, a representative for Qualley gave <em>TMZ</em> the only on-record statement, denying the infidelity and trust narratives then circulating: "There was no infidelity or anything outside of respect and partnership in this relationship." Qualley herself has said nothing. Neither has Antonoff.
+What came next she did not arrange. On July 3, 2026, [Jack Antonoff](/personality-analysis/jack-antonoff) attended Taylor Swift's wedding alone. Five days later, <em>People</em> reported that he and Qualley had separated. On July 10, a representative for Qualley gave <em>TMZ</em> the only on-record statement, denying the infidelity and trust narratives then circulating: "There was no infidelity or anything outside of respect and partnership in this relationship." Qualley herself has said nothing. Neither has Antonoff.
 
 One change had already happened, quietly, months before any of this. She had been posting as **isimostar**, after a Bleachers song. In April she became **sarahmargaretqualley23**, her full legal birth name, with nothing attached to explain it. Nobody reported it at the time; it surfaced in July, when the news sent people back through her account (<em>Yahoo Entertainment</em>, July 2026).
 

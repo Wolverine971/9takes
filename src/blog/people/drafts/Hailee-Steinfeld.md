@@ -9,11 +9,11 @@ loc: 'https://9takes.com/personality-analysis/Hailee-Steinfeld'
 lastmod: '2026-06-15'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '3'
 type: ['movieStar', 'musician']
 person: 'Hailee-Steinfeld'
-suggestions: ['Ariana-Grande', 'Millie-Bobby-Brown', 'Olivia-Rodrigo', 'Natalie-Portman']
+suggestions: ['Ariana-Grande', 'Millie-Bobby-Brown', 'Olivia-Rodrigo', 'Victoria-Justice']
 wikipedia: 'https://en.wikipedia.org/wiki/Hailee_Steinfeld'
 wikidata_qid: 'Q231726'
 imdb_id: 'nm2794962'

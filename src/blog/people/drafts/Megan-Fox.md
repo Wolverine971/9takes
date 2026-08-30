@@ -13,7 +13,7 @@ published: true
 enneagram: 4
 type: ['movieStar', 'celebrity', 'screen-icon']
 person: 'megan-fox'
-suggestions: ['Billie-Eilish', 'Bella-Hadid', 'Johnny-Depp', 'Miley-Cyrus']
+suggestions: ['Machine-Gun-Kelly', 'Billie-Eilish', 'Johnny-Depp', 'Miley-Cyrus']
 wikipedia: 'https://en.wikipedia.org/wiki/Megan_Fox'
 wikidata_qid: 'Q80069'
 imdb_id: 'nm1083271'
@@ -289,7 +289,7 @@ The marriage was, by her own account, a reenactment. "I was so connected to her 
 
 The body remembers what the mind tries to rationalize.
 
-Then came Machine Gun Kelly.
+Then came [Machine Gun Kelly](/personality-analysis/machine-gun-kelly).
 
 "He's my twin soul, and there will always be a tether to him no matter what."
 

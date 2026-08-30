@@ -15,10 +15,10 @@ type:
   - musician
 person: elton-john
 suggestions:
+  - freddie-mercury
   - lady-gaga
   - chappell-roan
   - prince
-  - bob-dylan
 wikipedia: 'https://en.wikipedia.org/wiki/Elton_John'
 wikidata_qid: 'Q2808'
 imdb_id: 'nm0005056'

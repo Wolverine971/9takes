@@ -13,7 +13,7 @@ published: true
 enneagram: '9'
 type: ['celebrity', 'movieStar', 'musician']
 person: 'Victoria-Justice'
-suggestions: ['Ariana-Grande', 'Selena-Gomez', 'Zendaya', 'Demi-Lovato']
+suggestions: ['Ariana-Grande', 'Selena-Gomez', 'Hailee-Steinfeld', 'Demi-Lovato']
 wikipedia: 'https://en.wikipedia.org/wiki/Victoria_Justice'
 wikidata_qid: 'Q200194'
 imdb_id: 'nm1842439'

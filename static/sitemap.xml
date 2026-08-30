@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-08-29</lastmod>
+    <lastmod>2026-08-30</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -1986,6 +1986,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/hailee-steinfeld</loc>
+    <lastmod>2026-08-30</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Hailee-Steinfeld.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/hailey-bieber</loc>
     <lastmod>2026-04-03</lastmod>
     <image:image>
@@ -2179,6 +2186,13 @@
     <lastmod>2026-05-27</lastmod>
     <image:image>
       <image:loc>https://9takes.com/types/8s/Jamie-Dimon.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://9takes.com/personality-analysis/jared-kushner</loc>
+    <lastmod>2026-08-30</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/3s/Jared-Kushner.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -3120,6 +3134,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/olivia-cooke</loc>
+    <lastmod>2026-08-30</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/6s/Olivia-Cooke.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/olivia-munn</loc>
     <lastmod>2026-04-11</lastmod>
     <image:image>
@@ -3941,7 +3962,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/3</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-30</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/4</loc>
@@ -3953,7 +3974,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/6</loc>
-    <lastmod>2026-08-28</lastmod>
+    <lastmod>2026-08-30</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/7</loc>
