@@ -1,0 +1,4 @@
+PASS
+Independent same-version regrade: 8.6.
+First overall: 8.6. Regrade overall: 8.6. Stability delta: 0.0.
+Revision loop not triggered because overall >= 8.5, discoverability >= 7, and lint was clean.

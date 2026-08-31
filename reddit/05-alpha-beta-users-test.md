@@ -28,7 +28,7 @@ Test path — approximately 5 minutes:
 
 Test link:
 
-https://9takes.com/questions/what-do-you-provide-so-that-you-never-have-to-ask
+https://9takes.com/link/567
 
 I’d appreciate feedback on:
 
