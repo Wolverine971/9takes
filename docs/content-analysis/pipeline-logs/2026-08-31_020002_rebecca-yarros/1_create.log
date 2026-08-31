@@ -1,0 +1,27 @@
+All gates pass: lint 0 fails, head-term PASS, contrast pairs 0, answer block 58 words. The run is complete.
+
+---
+
+**Draft complete: Rebecca Yarros, Enneagram Type 6** — new draft written via the entity-gap-informed v2 workflow.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Rebecca-Yarros.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (4 named third-party quotes) | Gate 2: pass (5 search-intent/hybrid H2s) |
+       Gate 4: pass | Gate 5: pass (1 type-theory paragraph outside diagnosis/Rabbit Hole) |
+       Gate 6: pass (0 contrast engines; similarity trip = mandated-sentence false positive, real max 0.110)
+LIMITATIONS: Jason's deployment count varies by source (her "four combat" vs Task & Purpose "five");
+             Erivo quote anchored via event video recounted on The Book Hook; reverse cross-link on the
+             published sarah-j-maas page still needs a production/refresh pass (packet asks for both ways)
+```
+
+**The thesis:** the escape-fantasy queen who never escaped. Her creative engine is threat simulation in her own words ("I will never not walk down the street and think, 'What's the worst thing I could make happen to you?'"), and the piece opens on her signature object: the doorbell an Army wife learns to dread. Romance's guaranteed happy ending as "a contract... an assurance" is the certainty her life never offered; Fourth Wing's lying kingdom is her Army ambivalence in dragon costume. Type call is 6w7, high confidence, with the $105K re-enlistment letter as tiebreaker ("What is the point of life-changing money if he's not alive?").
+
+**What the run produced beyond the draft:**
+- Three new transcripts mined into `youtube-transcripts/` (The Book Hook 12/2025, Washington Post Live 11/2025, Library of Congress 9/2024) — these yielded the death-threats house move, the FBI contact, the desk-drawer manuscript she pets, the teenage government-Ebola novel, and Cynthia Erivo's on-stage "the world is not going to let you hide."
+- Durable evidence file at `docs/content-analysis/research/Rebecca-Yarros.md` for the downstream perspective stages.
+- Packet landmines respected: no net worth, no religion chatter, adopted daughter only via the One October framing, Gaelic apology kept separate from the genre-pivot backlash, Book 4 date labeled unknown.
+
+Deterministic checks: blog-lint 0 fail / 1 warn (missing `faqs` frontmatter — that's the enrich stage's job), body 3,774 words (ceiling 4,500), 0 prose em-dashes, avoid-list clean, description 157 chars, meta title 58 chars with head term. Grading is owned by `/grade_blog` downstream; human review is required before any promotion to `ready`.

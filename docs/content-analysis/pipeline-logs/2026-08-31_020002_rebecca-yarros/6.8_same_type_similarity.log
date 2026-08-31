@@ -1,0 +1,96 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Rebecca-Yarros (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Rebecca-Yarros.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 31
+Comparison set (last 8 other Type-6 drafts by date):
+  - zach-bryan  (2026-08-30, 43 units)
+  - simone-biles  (2026-08-25, 42 units)
+  - Patrick-Mahomes  (2026-08-23, 46 units)
+  - Bill-Burr  (2026-08-19, 43 units)
+  - keira-knightley  (2026-08-17, 32 units)
+  - noah-wyle  (2026-08-09, 57 units)
+  - samara-weaving  (2026-08-03, 29 units)
+  - Jack-Antonoff  (2026-07-30, 27 units)
+
+Noise floor over 9889 unit pairs:  median=0  p90=0  p99=0.006  max=1
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 1.000   Rebecca-Yarros  <->  zach-bryan
+   TARGET [diagnosis] Rebecca Yarros is an Enneagram Type 6.
+   OTHER  [diagnosis] Zach Bryan is an Enneagram Type 6
+
+score 1.000   Rebecca-Yarros  <->  Patrick-Mahomes
+   TARGET [diagnosis] Rebecca Yarros is an Enneagram Type 6.
+   OTHER  [diagnosis] Patrick Mahomes is an Enneagram Type 6
+
+score 1.000   Rebecca-Yarros  <->  Bill-Burr
+   TARGET [diagnosis] Rebecca Yarros is an Enneagram Type 6.
+   OTHER  [diagnosis] Bill Burr is an Enneagram Type 6
+
+
+Most similar drafts (max unit-pair score):
+  1.000 ######################################## zach-bryan
+  1.000 ######################################## Patrick-Mahomes
+  1.000 ######################################## Bill-Burr
+  0.110 ####                 samara-weaving
+  0.059 ##                   keira-knightley
+  0.052 ##                   noah-wyle
+  0.020 #                    simone-biles
+  0.019 #                    Jack-Antonoff
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 1.000   Rebecca-Yarros  <->  zach-bryan
+   TARGET [diagnosis] Rebecca Yarros is an Enneagram Type 6.
+   OTHER  [diagnosis] Zach Bryan is an Enneagram Type 6
+
+score 1.000   Rebecca-Yarros  <->  Patrick-Mahomes
+   TARGET [diagnosis] Rebecca Yarros is an Enneagram Type 6.
+   OTHER  [diagnosis] Patrick Mahomes is an Enneagram Type 6
+
+score 1.000   Rebecca-Yarros  <->  Bill-Burr
+   TARGET [diagnosis] Rebecca Yarros is an Enneagram Type 6.
+   OTHER  [diagnosis] Bill Burr is an Enneagram Type 6
+
+score 0.110   Rebecca-Yarros  <->  samara-weaving
+   TARGET [diagnosis] It collapses on contact with her relationship to attention
+   OTHER  [counter-typing] It does not survive contact with her own material
+
+score 0.078   Rebecca-Yarros  <->  Patrick-Mahomes
+   TARGET [diagnosis] " she said on The Book Hook podcast in December 2025.
+   OTHER  [diagnosis] " he said on the same New Heights episode
+
+score 0.059   Rebecca-Yarros  <->  keira-knightley
+   TARGET [diagnosis] and she told The Book Hook flatly in 2025
+   OTHER  [diagnosis] " she told the BBC's Graham Norton Show in 2014.
+
+score 0.057   Rebecca-Yarros  <->  zach-bryan
+   TARGET [counter-typing] and keeps writing the war she can't stop questioning.
+   OTHER  [diagnosis] a man who wants something worth his devotion and can't stop testing whether it will hold.
+
+score 0.052   Rebecca-Yarros  <->  noah-wyle
+   TARGET [diagnosis] Romance is the one genre where devotion comes with a guarantee
+   OTHER  [counter-typing] The Type 3 case is the one a skeptic reaches for first
+
+score 0.034   Rebecca-Yarros  <->  keira-knightley
+   TARGET [counter-typing] The counterphobic streak seals the six call
+   OTHER  [diagnosis] The counterphobic Six handles fear by attacking it
+
+score 0.032   Rebecca-Yarros  <->  noah-wyle
+   TARGET [counter-typing] But the Achiever needs the image to land
+   OTHER  [counter-typing] But Threes guard the image above all
+
+score 0.031   Rebecca-Yarros  <->  keira-knightley
+   TARGET [diagnosis] and she told The Book Hook flatly in 2025
+   OTHER  [diagnosis] the book she'd been obsessed with since she was seven.
+
+score 0.029   Rebecca-Yarros  <->  noah-wyle
+   TARGET [diagnosis] delivered at Washington Post Live in 2025
+   OTHER  [diagnosis] The wing and subtype case lives in the Rabbit Hole below
+
+------------------------------------------------------------------------------
+Top pair scores 1 vs median 0  (~∞x the noise floor).

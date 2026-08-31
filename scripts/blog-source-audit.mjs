@@ -535,7 +535,19 @@ const OUTLETS = [
 	// Kevin McCarthy above: named people whose dated, public filmed interviews
 	// are the checkable source.
 	'David Wigg',
-	'Rudi Dolezal'
+	'Rudi Dolezal',
+	// Primary records for the romantasy vertical (Rebecca-Yarros pass,
+	// 2026-08-31). The Book Hook's December 2025 full interview (transcript in
+	// youtube-transcripts/) is the first-person record for this subject's
+	// safety-hierarchy, media-training and Onyx Storm testimony; "Book" matches
+	// VENUE_WORDS, so its quotes graded vague however precisely they were
+	// cited. The Library of Congress National Book Festival main-stage event
+	// (Sept 2024, transcript in youtube-transcripts/) is the institutional
+	// record for the doorbell and fall-in-love quotes; no listed outlet covers
+	// a federal-library festival stage. Same class as The Mike Wallace
+	// Interview above: named, dated, publicly checkable filmed records.
+	'The Book Hook',
+	'Library of Congress'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when

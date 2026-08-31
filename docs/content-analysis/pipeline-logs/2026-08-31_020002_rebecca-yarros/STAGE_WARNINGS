@@ -1,0 +1,11 @@
+stage=4.4_perspective_subject exit=1 dur=17s at=2026-08-31 02:47:45
+stage=4.4_perspective_fan exit=1 dur=133s at=2026-08-31 02:49:41
+stage=4.4_perspective_critic exit=1 dur=142s at=2026-08-31 02:49:50
+stage=4.4_perspective_unfamiliar exit=1 dur=142s at=2026-08-31 02:49:50
+stage=4.4_perspective_enneagram exit=1 dur=142s at=2026-08-31 02:49:50
+stage=4.4_perspective_future exit=1 dur=142s at=2026-08-31 02:49:50
+stage=4.5_perspective_reviews_gate exit=1 dur=1s at=2026-08-31 02:49:51
+stage=5_editor_pass exit=1 dur=2s at=2026-08-31 02:49:53
+stage=6_enrich_frontmatter exit=1 dur=3s at=2026-08-31 02:49:56
+stage=6.8_same_type_similarity exit=1 dur=0s at=2026-08-31 02:49:57
+stage=7_grade exit=1 dur=3s at=2026-08-31 02:50:00

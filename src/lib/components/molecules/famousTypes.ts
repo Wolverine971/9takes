@@ -3,7 +3,7 @@
 export type FamousTypePerson = { name: string; link: boolean; hasImage: boolean; lastmod: string | null; personaTitle: string | null; contentGrade: number | null; types: string[] };
 export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	1: [
-		{ name: 'aaron-pierre', link: false, hasImage: true, lastmod: '2026-08-27', personaTitle: 'The Loudest Quiet Man', contentGrade: 8.8, types: ['newMovieStar', 'movieStar', 'rising-star'] },
+		{ name: 'aaron-pierre', link: true, hasImage: true, lastmod: '2026-08-31', personaTitle: 'The Loudest Quiet Man', contentGrade: 8.8, types: ['newMovieStar', 'movieStar', 'rising-star'] },
 		{ name: 'anna-wintour', link: true, hasImage: true, lastmod: '2026-05-13', personaTitle: 'Vogue\'s Cold Reformer', contentGrade: 9.1, types: ['celebrity', 'entrepreneur', 'celebrity-image', 'business-operator'] },
 		{ name: 'anne-hathaway', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'The Actress They Hated for Trying', contentGrade: 9.1, types: ['movieStar', 'screen-icon'] },
 		{ name: 'ben-shapiro', link: true, hasImage: true, lastmod: '2026-08-15', personaTitle: 'Conservatism\'s Inner Prosecutor', contentGrade: 8.6, types: ['celebrity', 'politician', 'celebrity-image', 'campaign-politician'] },

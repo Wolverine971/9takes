@@ -1,0 +1,11 @@
+The evidence packet is written to `docs/content-analysis/perspective-reviews/Rebecca-Yarros/2026-08-31_020002/evidence-packet.md`, with the subject and draft SHA confirmed against `context.json` (the snapshot hashes to `89c531f1…` exactly).
+
+What went into it: every load-bearing quote was re-verified against the three primary transcripts in `youtube-transcripts/` rather than trusted from the research file, and the external record (Circana sales records, the May 2026 Prime Video order, the 2026 release dates, the Task & Purpose letter, the militaryfamilies.com quotes, the She Reads epigraph, the Pelletier and Averill quotes) was re-anchored via web search. The claim inventory runs CLM-01 through CLM-22 with per-claim status labels.
+
+Three findings evaluators will care about, recorded as evidence rather than review judgments:
+
+- **"I write dragons. That's about it." is misattributed** — the draft's Rabbit Hole places it on the Library of Congress main stage; the transcript shows it's her Book Hook podcast self-intro, and the line is absent from the LoC transcript.
+- **The Gaelic critic was not at New York Comic Con** — Muireann is a Scottish BookToker who reacted on TikTok to a Popverse NYCC interview video; the draft frames her as calling Yarros out at NYCC. Her quote itself is verified, as is Yarros's Variety response ("I probably would have made different choices").
+- **"Cool ideas, mediocre writing" checks out** — it's the literal title of a July 2025 SFF Book Reviews critique of Iron Flame, though it's a single WordPress blog whose review is mixed rather than hostile.
+
+**Largest unresolved evidence gap:** the romance-backlash quote "the most blatant cash grab I've seen" (CLM-12) could not be located in any citable source — it exists only in the same-pipeline research file, labeled "Goodreads-borne" (Tier 4). If a reviewer or reader challenges that sentence, there is currently no source trail behind it. Secondary gaps: both Cynthia Erivo quotes reach us only secondhand (one via Yarros herself; event video unaudited), and Jason's deployment count remains genuinely disputed (her "four combat deployments" vs. Task & Purpose's five total).

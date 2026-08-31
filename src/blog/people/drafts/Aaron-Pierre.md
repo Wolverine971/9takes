@@ -4,12 +4,12 @@ meta_title: 'Aaron Pierre Enneagram: Why He Is a Type 1w9'
 persona_title: 'The Loudest Quiet Man'
 description: 'Why does Aaron Pierre speak so carefully? His work ethic, hidden hardship, sudden fame, fatherhood, and quiet power point to an Enneagram Type 1w9.'
 author: 'DJ Wayne'
-date: '2026-08-26'
+date: '2026-08-31'
 loc: 'https://9takes.com/personality-analysis/aaron-pierre'
-lastmod: '2026-08-26'
+lastmod: '2026-08-31'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '1'
 type: ['newMovieStar', 'movieStar', 'rising-star']
 person: 'aaron-pierre'

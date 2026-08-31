@@ -1,0 +1,31 @@
+## Cohesion Check Complete: Rebecca-Yarros.md
+
+**Before score: 8.5/10**
+**After score: 9/10**
+
+### Central Thesis
+
+The gap between Yarros's escapist product and her hypervigilant person closes once you see her Type 6 imagination as a threat simulator: she sells guaranteed happy endings because her own life never offered certainty.
+
+### Changes Made (1 total)
+
+**Internal Flow Fixes (1):**
+
+- "Why Rebecca Yarros writes 4,000 words a day": split the overloaded detonation paragraph at "The engine that built the book then turned on its author." The BookTok mechanism and the cost-of-the-grind arc are now separate paragraphs with the hinge sentence leading the second. No words were added, removed, or changed.
+
+### What Was Preserved
+
+- All frontmatter, ledger comments, working notes, and review-note comments
+- All Svelte-adjacent markup (timeline div, pull-quote, inner-thought, accordions) and internal links
+- "The $105,000 letter" untouched, per the fresh-eyes protect note
+- All 7 section boundaries left as written — 6 rated strong, 1 rated adequate (details below)
+
+### Why so little changed
+
+This draft's threading is genuinely strong. Three transitions deserve specific credit: the diagnosis section's closing line ("the grind has another engine, and it shows up long before anyone was watching") sets up the childhood section; the Kwong quote ("You're so much like your character") hands off directly into the Violet's-body section; and "Nobody grades an exit door on its prose" → "Then it stopped being about words" pivots the criticism thread into the doxxing beat cleanly. The intro's fourth paragraph quietly promises four threads and the body pays off every one.
+
+### Remaining Concerns (judgment calls, left alone)
+
+1. **Childhood → $105K letter** is a hard scene cut: the childhood section ends on the present-tense door-building metaphor, then the next section rewinds to a karaoke bar at 19. I rated it adequate rather than weak — the chronological-biography convention carries the reader, and any added bridge would dilute the scene-opening punch. Flagging it in case you feel the bump on a read-through.
+2. **"Which brings us to the thing readers mock her for"** (Book 4 paragraph) is the most formulaic bridge in the piece. It's earned by the preceding sequence, so I left it, but it's the one place a signature-voice replacement could upgrade a functional transition.
+3. The second-pass "still open" items (faqs frontmatter enrich, reverse cross-link to the Sarah J. Maas page) are pipeline tasks, not cohesion issues — no action taken here.

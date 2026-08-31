@@ -1,24 +1,11 @@
 {
-	"lastUpdated": "2026-08-30T07:55:50Z",
+	"lastUpdated": "2026-08-31T06:50:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
 	"queue": [
-		{
-			"name": "rebecca-yarros",
-			"displayName": "Rebecca Yarros",
-			"type": null,
-			"priority": 38,
-			"priorityReason": "Fourth Wing / Onyx Storm is the biggest fantasy franchise in publishing; author niche is weaker but Sarah J. Maas precedent (9.1) shows romantasy readers convert",
-			"estimatedTraffic": "medium",
-			"searchVolume": "high",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "romantasy-cluster"
-		},
 		{
 			"name": "naval-ravikant",
 			"displayName": "Naval Ravikant",
@@ -34,6 +21,33 @@
 		}
 	],
 	"completed": [
+		{
+			"name": "rebecca-yarros",
+			"displayName": "Rebecca Yarros",
+			"type": null,
+			"priority": 38,
+			"priorityReason": "Fourth Wing / Onyx Storm is the biggest fantasy franchise in publishing; author niche is weaker but Sarah J. Maas precedent (9.1) shows romantasy readers convert",
+			"estimatedTraffic": "medium",
+			"searchVolume": "high",
+			"personaTitle": null,
+			"addedToQueue": "2026-07-18",
+			"retryCount": 0,
+			"strategicValue": "romantasy-cluster",
+			"startedAt": "2026-08-31T06:00:00Z",
+			"completedAt": "2026-08-31T06:50:00Z",
+			"contentGrade": "ungraded",
+			"letter": "?",
+			"discoverability": "?",
+			"duration": "~49 min",
+			"needsReview": true,
+			"publishReady": false,
+			"publishBlockers": [
+				"missing_content_quality",
+				"missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume",
+				"missing_full_image",
+				"missing_thumbnail_image"
+			]
+		},
 		{
 			"name": "zach-bryan",
 			"displayName": "Zach Bryan",
