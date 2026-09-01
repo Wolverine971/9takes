@@ -2,11 +2,16 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
+	import { X } from '@lucide/svelte';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import EmailComposeModal from '$lib/components/email/EmailComposeModal.svelte';
 	import type { EmailRecipient } from '$lib/types/email';
+	import { tick } from 'svelte';
 	import type { PageData } from './$types';
+
+	const PERSON_DETAILS_MODAL_ID = 'consulting-person-details';
 
 	let { data }: { data: PageData } = $props();
 	type WaitlistEntry = PageData['recentWaitlist'][number];
@@ -125,17 +130,17 @@
 	function openPersonDetails(entry: WaitlistEntry) {
 		selectedPerson = entry;
 		showPersonModal = true;
+		void tick().then(() => {
+			getModal(PERSON_DETAILS_MODAL_ID)?.open(() => {
+				showPersonModal = false;
+				selectedPerson = null;
+			});
+		});
 	}
 
 	function closePersonDetails() {
-		showPersonModal = false;
-		selectedPerson = null;
-	}
-
-	function handleWindowKeydown(event: KeyboardEvent) {
-		if (event.key === 'Escape' && showPersonModal) {
-			closePersonDetails();
-		}
+		if (showPersonModal) getModal(PERSON_DETAILS_MODAL_ID)?.close(null);
+		else selectedPerson = null;
 	}
 
 	function emailSelectedPerson() {
@@ -310,8 +315,6 @@
 <svelte:head>
 	<title>Consulting Dashboard | 9takes Admin</title>
 </svelte:head>
-
-<svelte:window onkeydown={handleWindowKeydown} />
 
 <div class="consulting-dashboard" role="main" aria-label="Consulting Dashboard">
 	<!-- Skip Link for accessibility -->
@@ -1190,35 +1193,33 @@
 	</div>
 </div>
 
-{#if showPersonModal && selectedPerson}
-	<div
-		class="modal-overlay person-modal-overlay"
-		role="presentation"
-		tabindex="-1"
-		onclick={(event) => {
-			if (event.target === event.currentTarget) closePersonDetails();
-		}}
-		onkeydown={(event) => {
-			if (event.key === 'Escape') {
-				closePersonDetails();
-			}
-		}}
-	>
-		<div class="person-modal" role="dialog" aria-modal="true" aria-labelledby="person-modal-title">
+<Modal
+	id={PERSON_DETAILS_MODAL_ID}
+	labelledBy="person-modal-title"
+	initialFocus="#person-modal-close"
+	maxWidth="1080px"
+	contentPadding="0"
+	navTop
+	fullMobile
+>
+	{#if selectedPerson}
+		<div class="person-modal">
 			<div class="person-modal-header">
 				<div>
 					<p class="person-modal-kicker">9takes person record</p>
 					<h2 id="person-modal-title">{selectedPerson.name}</h2>
 					<p class="person-modal-email">{selectedPerson.email}</p>
 				</div>
-				<button
-					type="button"
-					class="close-btn"
+				<Button
+					id="person-modal-close"
+					class="person-modal-close"
+					variant="ghost"
+					size="sm"
 					onclick={closePersonDetails}
 					aria-label="Close details"
 				>
-					&times;
-				</button>
+					{#snippet icon()}<X size={19} strokeWidth={2} aria-hidden="true" />{/snippet}
+				</Button>
 			</div>
 
 			<div class="person-modal-body">
@@ -1436,8 +1437,8 @@
 				<Button onclick={closePersonDetails}>Close</Button>
 			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
+</Modal>
 
 <!-- Email Compose Modal -->
 <EmailComposeModal
@@ -2512,27 +2513,13 @@
 	/* ==========================================
 	   PERSON DETAILS MODAL
 	   ========================================== */
-	.modal-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.6);
-		backdrop-filter: blur(8px);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 1.5rem;
-		z-index: 1200;
-	}
-
 	.person-modal {
-		width: min(1080px, 100%);
-		max-height: calc(100vh - 3rem);
+		width: min(1080px, calc(100vw - 2rem));
+		height: min(85vh, calc(100vh - 2rem));
+		height: min(85dvh, calc(100dvh - 2rem));
 		display: flex;
 		flex-direction: column;
 		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 16px;
-		box-shadow: var(--shadow-xl);
 		overflow: hidden;
 	}
 
@@ -2566,18 +2553,11 @@
 		color: var(--ink-mid);
 	}
 
-	.close-btn {
-		background: none;
-		border: none;
-		color: var(--ink-mid);
-		font-size: 1.75rem;
-		line-height: 1;
+	:global(.person-modal-close) {
+		width: 44px;
+		height: 44px;
 		padding: 0;
-		cursor: pointer;
-	}
-
-	.close-btn:hover {
-		color: var(--ink-bright);
+		flex: 0 0 auto;
 	}
 
 	.person-modal-body {
@@ -2877,8 +2857,9 @@
 		}
 
 		.person-modal {
-			max-height: calc(100vh - 1.5rem);
-			border-radius: 1rem;
+			width: 100%;
+			height: min(85vh, calc(100vh - 2rem));
+			height: min(85dvh, calc(100dvh - 2rem));
 		}
 
 		.person-modal-header,
@@ -2973,10 +2954,6 @@
 			gap: 0.375rem;
 		}
 
-		.modal-overlay {
-			padding: 0.75rem;
-		}
-
 		.person-modal-header {
 			padding-top: 1rem;
 			padding-bottom: 1rem;
@@ -2988,6 +2965,14 @@
 
 		.person-modal-footer :global(.btn) {
 			width: 100%;
+		}
+	}
+
+	@media (max-width: 640px) {
+		.person-modal {
+			width: 100vw;
+			height: 100vh;
+			height: 100dvh;
 		}
 	}
 </style>

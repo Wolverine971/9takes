@@ -534,7 +534,7 @@
 		width: 100%;
 		box-sizing: border-box;
 		border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
-		border-radius: 0.55rem;
+		border-radius: 0.625rem;
 		padding: 0.65rem 0.75rem;
 		background: var(--surface, #fff);
 		color: inherit;
@@ -547,7 +547,7 @@
 	button {
 		width: fit-content;
 		border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
-		border-radius: 0.55rem;
+		border-radius: 0.625rem;
 		padding: 0.55rem 0.8rem;
 		background: var(--surface, #fff);
 		color: inherit;
@@ -569,7 +569,7 @@
 	}
 
 	.form-message {
-		border-radius: 0.6rem;
+		border-radius: 1rem;
 		padding: 0.75rem 0.9rem;
 	}
 

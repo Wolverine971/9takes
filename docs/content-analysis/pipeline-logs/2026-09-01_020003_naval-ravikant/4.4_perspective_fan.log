@@ -1,0 +1,13 @@
+`unfamiliar.md` exists but was not read, per the independence contract.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/fan.md`
+
+**Verdict:** `revise` — trust *strained*, value *high*, delight *clear_hit*. 3 blockers, 6 concerns. SHA verified against `context.json` and the supplied value before auditing.
+
+**Strongest hit (FAN-H1):** the decompression of "Desire is a contract you make with yourself to be unhappy until you get what you want" — specifically *"'A contract.' Not a feeling. A document. The metaphor arrives from a man who watched a document declare his shares worthless."* Every informed fan owns both facts separately; nobody has put them in one sentence. It also answers Brock's "compression without a decompression algorithm" charge by performing the decompression rather than arguing about it, and the form couldn't be ported to another subject. That paragraph is the reason to publish the page.
+
+**Highest-priority concern (FAN-R4/FAN-I1):** the article argues by inference what Naval states outright. I term-counted the reader-visible body (4,374 words, comments and frontmatter stripped): `specific knowledge` 0, `permissionless` 0, `productize yourself` 0, `leverage` 1 as an incidental noun. The thesis is "he publishes so he doesn't have to be in the room" — and Naval's own most famous artifact says *"Code and media are permissionless leverage"* and *"Productize yourself."* The repo's own research file gathered both lines; the draft dropped them. Net effect: a fan meets Naval's signature framework only through his critic's essay title, and the one canonical line that survives ("assets that earn while you sleep") appears twice — once behind the Enneagram-nerd accordion, once as gradient-background repost fodder.
+
+The three blockers all sit at the two most-read positions and are repairable from sources already in the draft's `citations`: the opening sentence gets his family wrong and the Queens section contradicts it three sections later; the closing pull-quote is misquoted and misdated (Podcast Notes wording, Feb 22 vs. the first-party Feb 19); and "he holds exactly one line" deletes the second interference point he names in the same episode — the humanizing one.
+
+Two research findings changed the review rather than confirming it: the permissionless-leverage omission (verified as *dropped*, not unavailable) and the meditation gap — the draft's Type 6 rebuttal rests on "sit alone and name it until it dissolves" with zero supporting evidence on the page, while navalmanack.com carries the 60-day practice and "mental inbox zero," which is the article's own "your mind shuts down" pull-quote restated as a rep count.

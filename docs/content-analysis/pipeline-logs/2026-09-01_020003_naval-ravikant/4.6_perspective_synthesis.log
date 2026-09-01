@@ -1,0 +1,18 @@
+Counts match the frontmatter, all nine required headings are present in order, and both the frozen snapshot and live draft are byte-identical to the input SHA — nothing was edited.
+
+**Synthesis path:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/synthesis.md`
+
+**P0 items: 8** · **P1 accepted: 14** · **Research required: 5** · **Requires revision: yes**
+
+All six reviewers returned the same three grades independently — `value: high`, `delight: clear_hit`, `trust: strained`. Nobody disputed the Type 5 call. The trust damage is a cluster of verified errors on the page's most checkable surfaces, and the critic's sharpest observation survived my check: all six confirmed inaccuracies lean the same direction, toward the sympathetic reading. That's fixed by a directional audit, not a softer thesis.
+
+The P0s, briefly: the closing pull-quote is an aggregator's condensation published as first-party verbatim with the wrong date (**flagged by all six perspectives**); the opening sentence rewrites the family's emigration and contradicts the draft's own Queens section; "he holds exactly one line" is contradicted by the cited episode; the plaintiff count is wrong in both the body and the FAQ that ships as JSON-LD; a Ferriss exchange is staged in reverse order; the FAQ names head-triad evidence as the clearest Type 5 evidence while the Rabbit Hole cites the same quote for Type 6; "twenty years of transcripts contain neither" asserts a search that was never run; and the H2 states an age that goes false 65 days after the publication date.
+
+Two judgment calls worth flagging to you:
+
+- I **downgraded two critic blockers to P1** with reasons on the record — the "full strength" Brock promise is a scoping/disclosure problem rather than a false claim, and the freeze-out is a precision problem inside a claim Hoffman supports verbatim.
+- The highest-value change isn't a repair. The page argues a Five for 4,333 words and never names the Five's passion (avarice) or virtue (non-attachment) — on a subject whose most famous doctrine *is* that virtue, and whose obvious counterexample ("Fives hoard; this one gave a million-selling book away") is what the packet calls the thesis's load-bearing weak joint. House canon and a worked corpus precedent in `Malcolm-Gladwell.md` both supply it. I merged three reviewers' separate findings into that one paragraph.
+
+**The binding constraint is arithmetic.** I verified the body at 4,333 words against the 4,500 ceiling — ~167 words of headroom against ~210 words of accepted additions. It doesn't fit without trims, so the brief opens with a Step 0 cut list (~98 words recovered) before anything gets added.
+
+**Most important protected hit: PROTECT-01, the Decompressing section** — named by all six perspectives, zero decay rate, answers the critic structurally rather than rhetorically, and would not survive being ported to another subject. If words have to be found, they must not be found there.

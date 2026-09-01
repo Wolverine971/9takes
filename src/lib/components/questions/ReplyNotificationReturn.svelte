@@ -150,7 +150,7 @@
 		padding: 1.125rem;
 		scroll-margin-top: 5.5rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 24%, var(--stone-edge));
-		border-radius: 0.875rem;
+		border-radius: 1rem;
 		background: color-mix(in srgb, var(--lamp-soft) 22%, var(--stone-warm));
 	}
 
@@ -241,7 +241,7 @@
 		min-height: 2.75rem;
 		display: inline-flex;
 		align-items: center;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		color: var(--ink-bright);
 		font-weight: 650;
 		text-decoration: underline;

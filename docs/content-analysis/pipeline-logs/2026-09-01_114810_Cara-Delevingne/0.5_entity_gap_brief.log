@@ -1,0 +1,18 @@
+**Verdict: PASS — 37/100. Cara Delevingne is not an Emerging Entity Gap.**
+
+Packet written to `docs/content-analysis/entity-gaps/Cara-Delevingne.md`. No blog, queue, or DB changes.
+
+**Why it dies:** the Wikipedia gate, decisively. Full personal biography — birth date, parents, siblings, Bedales, complete career timeline, personal-life section. Her sister Poppy and grandmother Angela have their *own* Wikipedia articles. Add official site, IMDb plus a separate IMDb bio page, BoF 500, TV Guide, Fandango, Instagram, TikTok, Spotify. At least five substantial dedicated biographies in the top ten. There's no fact-query exception either — the content farms in those SERPs are duplicating established facts, not filling a vacuum.
+
+**Why it's still interesting.** Two things the rubric doesn't score:
+
+- **The catalyst is genuinely live.** Debut Warner album, first-ever headline tour (11 cities, opened June 1, running ~6 months, some dates sold out), Rag & Bone fall 2026 campaign built around following her on that tour. This is a second-act launch, not nostalgia.
+- **The typology sub-SERP is weak and the crowd is probably wrong.** `cara delevingne enneagram` is served only by Personality Database (three competing profiles), Sakinorva, Boo, PersonalityCafe, MBTI Oracle. Consensus 7w6 — typed off the persona she has since publicly disowned.
+
+She's also the conspicuous hole in a cluster you've already finished: 18 adjacent people published, including her whole model cohort (Gigi, Bella, Kendall, Kaia, Emily Ratajkowski) and her *Suicide Squad* castmates.
+
+**The decision for you:** I logged this as `recommended_action: 'create'`, re-scoped — mirroring the Charlize Theron precedent (score 40, classification pass, action create). It is explicitly *not* an entity-gap endorsement. If you run it, it targets the typology query family and you accept that bare-name traffic will never come. A generic "who is Cara Delevingne" page is wasted effort. Say the word and I'll drop it to a hard pass instead.
+
+**The thesis if you do run it:** her commercial value in the 2010s was *legible spontaneity* — the goofy, unfiltered anti-model whose brand was that she wasn't performing. She's since said the paparazzi images of her at her worst were what sent her to rehab, and that sobriety was the "amazing catalyst" that finally let her make the music. The aristocrat from Belgravia built a career on being the chaotic un-posh one; the woman whose product was uninhibitedness found her voice only after she stopped. Sources are unusually deep — Vogue cover story, Rolling Stone music feature, Playboy, *Planet Sex*.
+
+Two guardrails I wrote into the packet, both load-bearing: depression/ADHD/substance use are **self-reported** and must be attributed as such every time — we don't diagnose. And the 2026 news layer is heavily body-and-outfit coverage ("sideboob," "sheer back"); those impressions are gossip-shaped and chasing them isn't a win.

@@ -1,0 +1,19 @@
+All ten required H2 headings present, frontmatter parseable, and both the frozen snapshot and live draft still hash to `e901dee5…a658f` — nothing was edited but the one new artifact.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/evidence-packet.md`
+
+30 load-bearing claims inventoried (CLM-01 → CLM-30), 20 sources tiered. I downloaded the Ferriss #97 PDF, the #788 transcript, and the nav.al page and grepped them locally rather than trusting retrieval summaries — which mattered, because two retrieval passes contradicted each other on load-bearing quotes.
+
+**Largest unresolved evidence gap: the article's closing quote (CLM-16).** The current-tense anchor the whole ending rests on is presented as a verbatim block quote from nav.al dated February 22, 2026. The first-party page contradicts both halves. It is dated **Feb 19 2026**, and Naval actually says:
+
+> "But now, for the first time, nothing is beyond me. Any math textbook, any physics **textbook**, any difficult concept, any scientific principle, any paper that just came out, I can have the AI break it down, and then break it down again, and illustrate it, and analogize it until I get the gist, and I understand it at the level that I want."
+
+The draft's wording ("any physics **paper**… until I understand it") and its date both match **Podcast Notes**, a Tier 4 aggregator, not the primary. Speaker attribution is correct — I confirmed the passage sits inside an unbroken `Naval:` turn, which clears the two-host risk since Nivi co-hosts that episode.
+
+Three other findings worth flagging to whoever acts on this:
+
+- **CLM-10 (high risk, checkable):** the draft says "Naval and three co-founders filed suit" — four founder-plaintiffs. SFGate, its Venture Intelligence reprint, and Eric Goldman's case note all report **three of five founders** sued. The *four* figure belongs to a different set: the founders who held 6M+ shares and blessed the merger. The error is repeated in structured FAQ frontmatter, so it would ship as schema data.
+- **CLM-06 and CLM-13:** the Ferriss "combatant" exchange is staged in reverse of the transcript order, and "he holds exactly one line" is contradicted by Naval naming *two* places he interferes in the same passage the quote comes from.
+- **CLM-27, internal:** REVIEWER NOTE 4 claims quotes avoid the transcript's typo spans; the draft quotes exactly that span and silently corrects "touch"→"tough."
+
+Two things I checked that came back clean, against expectation: the "somewhere between homeschooled and unschooled" quote is verbatim (one retrieval pass wrongly said it wasn't), and the Knowledge Project 2017 date holds. I did not retrieve the court docket, and SFGate blocked direct fetch — so the plaintiff count is settled only to converging contemporaneous journalism, not the primary record. No Naval transcripts exist in `youtube-transcripts-people/`, leaving his All-In, Rogan, and Williamson appearances unexamined, which is the main coverage gap for the draft's own falsification test.

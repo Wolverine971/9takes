@@ -43,9 +43,9 @@ test('portrait publishing fixture renders the checked pair in dark and light mod
 			)
 		)
 		.toBe(true);
-	const switchToLight = page.getByRole('button', { name: 'Switch to light mode' });
+	const switchToLight = page.locator('.sg-theme-toggle[aria-label="Switch to light mode"]');
 	if ((await switchToLight.count()) === 0) {
-		await page.getByRole('button', { name: 'Switch to dark mode' }).click();
+		await page.locator('.sg-theme-toggle[aria-label="Switch to dark mode"]').click();
 	}
 	await expect(switchToLight).toBeVisible();
 

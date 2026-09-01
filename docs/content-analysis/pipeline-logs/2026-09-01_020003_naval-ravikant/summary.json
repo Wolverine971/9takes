@@ -1,0 +1,19 @@
+{
+	"person": "naval-ravikant",
+	"draft_path": "src/blog/people/drafts/Naval-Ravikant.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/naval-ravikant.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-01_020003_naval-ravikant",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003",
+	"perspective_initial_status": "fail",
+	"perspective_final_status": "pass",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.8,
+	"final_overall": 8.1,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.7000000000000011,
+	"has_stage_warnings": true,
+	"generated_at": "2026-09-01T08:22:58.701Z"
+}

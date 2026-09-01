@@ -12,6 +12,10 @@ Dialog and radius findings are intentionally excluded from this backlog because 
 handled in a separate active workstream. Do not fold dialog or radius changes into the waves below
 without coordinating that work first.
 
+The user-authorized 2026-09-01 UI follow-up coordinated those workstreams. Its modal, form-ownership,
+and radius results are recorded below; the remaining hand-built admin dialogs stay in the dedicated
+dialog backlog.
+
 This backlog stacks on:
 
 - `docs/design-system.md`
@@ -93,13 +97,11 @@ maintenance signals, not rules that every distinct value is automatically wrong.
 
 - [x] Inventory literal and dynamic consumers of `src/scss/components.scss`. See
       `GLOBAL_COMPONENT_CSS_INVENTORY_2026-08-03.md`.
-- [ ] Migrate global form, modal, spinner, card, badge, tab, notification, and question-card classes to
-      owned Svelte components or explicitly scoped utilities. Public auth/booking forms, loading,
-      notification, the dead question family, both image-card systems, tabs, and badge/tag ownership
-      are complete. -> P13
-- [ ] Remove migrated sections from the global bundle instead of keeping compatibility copies. The
-      loading, notification, dead-question, header/navigation, image-card, tab, and badge/tag sections
-      are removed.
+- [x] Migrate global form, modal, spinner, card, badge, tab, notification, and question-card classes to
+      owned Svelte components or explicitly scoped utilities. The canonical modal now owns its shell;
+      remaining raw admin dialogs have local presentation pending lifecycle migration. -> P13
+- [x] Remove migrated sections from the global bundle instead of keeping compatibility copies.
+      `components.scss` is now comment-only and guarded against reintroducing retired families.
 - [x] Set and ratchet a global-CSS budget after the first removal wave.
 
 ### C. Make `/styleguide` executable documentation
@@ -199,15 +201,15 @@ Status: shipped in the working tree on 2026-08-03.
 
 ### Wave 3 - global CSS reduction
 
-Status: in progress. Inventory, seven ownership slices, and the 156-line ratchet shipped on 2026-08-04.
+Status: component-library migration complete. The final form/modal/card slice and 6-line ratchet
+shipped on 2026-09-01; bare-element cleanup in `index.scss` remains separate.
 
 1. Inventory `components.scss` consumers. **Complete.**
-2. Move form/card/loading rules first. **Loading, dead-question, public-form, header, listing-card,
-   PopCard, tab, and badge/tag ownership are complete. The Enneagram base card waits for radius
-   coordination; global form compatibility remains for email/admin dialog coordination.**
+2. Move form/card/loading rules first. **Complete. Loading, question, form, header, card, modal, tab,
+   badge/tag, and notification ownership is explicit.**
 3. Reduce bare-element layout styling in `index.scss`.
-4. Establish and lower a global-CSS budget. **Ratchet active and lowered from 781 to 156; retired
-   badge/tag selectors are rejected explicitly.**
+4. Establish and lower a global-CSS budget. **Ratchet active and lowered from 781 to 6; retired
+   badge/tag, form, modal, and base-card selectors are rejected explicitly.**
 
 ### Wave 4 - responsive and admin normalization
 
@@ -335,3 +337,22 @@ After Wave 3 ownership slices 1-7:
   status states, and zero bespoke specimen duplicates.
 - Fresh dark-mode mobile screenshots inspected for register, forgot-password, and the book-session
   waitlist panel; labels, optional/help copy, control hierarchy, and page containment render cleanly.
+
+After the 2026-09-01 coordinated form/modal/radius slice:
+
+- Migrated `EmailComposeModal` and the admin user-status field to the canonical form family. Compose
+  and nested AI generation now use stacked canonical dialogs with inline failure states, overflow-safe
+  recipients, dynamic viewport containment, and safe-area-aware mobile actions.
+- Replaced the styleguide's modal lookalike with the production `Modal`; refined the shared overlay,
+  scroll region, close action, explicit transitions, and reduced-motion behavior.
+- Removed the final global form, modal, base-card, and Enneagram-frame families. `components.scss` is
+  now 6 comment-only lines, down 880 lines (99.3%) from the 886-line baseline. The ratchet rejects
+  reintroducing those selector families.
+- Radius lint is green with zero role violations and a zero-item CSS backlog after normalizing touched
+  admin campaigns, invite/notification cards, and interaction controls.
+- All 15 public mobile smoke cases and all 4 styleguide production-component visual baselines pass.
+  The actual modal was visually inspected at 1440x1000 dark and 390x844 dark/light with zero overflow
+  or browser errors, correct focus/scroll lock, no inherited blur, and responsive 448px/340px sizing.
+- `pnpm check` passes with zero errors and the existing 133-warning baseline in 40 files. Focused
+  dialog tests, color/global-CSS/radius guards, targeted ESLint/Prettier, and `git diff --check` pass.
+  Authenticated admin visual verification remains owed.

@@ -1,0 +1,20 @@
+Polished `src/blog/people/drafts/Naval-Ravikant.md` in perspective-jury mode.
+
+**Final numbers:** `blog-lint` 0 fail, 1 warn (word count). `blog-quality-report` contrast pairs: **0 total, 0 strong, 0 comparative** — the required exit check passes. Cross-sentence negative-parallelism hand scan also 0. Body finished at **4,486 / 4,500 words**.
+
+**All 8 P0s fixed.** The one that mattered most: the closing pull-quote was an aggregator's condensation published as first-party verbatim with the wrong date. It now carries the real `nav.al` wording (the escalating "any… any… any…" is genuinely better) and February 19. The opening no longer contradicts the article's own Queens section about who emigrated. The Ferriss "combatant" exchange was staged as a challenge-and-escalation that never happened; the true order — Naval volunteering it first — is stronger evidence. Both parenting limits are named, the plaintiff count is de-counted in body *and* FAQ, the FAQ no longer nominates head-triad evidence as the clearest Type 5 proof, the falsification offer is scoped to transcripts actually searched, and the age-anchored heading (false as of November 5) is gone.
+
+**The biggest single change wasn't a repair.** The page argued a Five for 4,300 words and never named the type's passion or virtue, on a subject whose most famous doctrine *is* the virtue. There's now one paragraph answering "why does this Five give everything away": what he publishes is his understanding, what he hoards is himself, and the Almanack costs him nothing he actually protects.
+
+**Language work:** cut two totalizing population claims about Fives, a restatement paragraph that re-narrated the quote above it, a four-times-repeated set of library facts, and a Brock quote in a stack of four. Tightened the Kamal quote (which also removed the transcript-typo span the reviewer notes falsely claimed to avoid — I corrected that note).
+
+**Resolution artifact:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/editor-resolution.md` — 22 rows, all 10 protected hits verified by direct grep, none lost.
+
+**Left for you:**
+- **RQ-01** — x.com returns HTTP 402, so the two `@naval` "astrology for the overeducated class" posts stay unverified. The page carries the generic fallback and quotes neither tweet. A browser session would upgrade this to the strongest credibility move on the list.
+- **RQ-05** — if Naval funded or commissioned *The Sovereign Child*, that section owes a disclosure before publish. Nothing on the page depends on it yet.
+- **Budget** — 14 words of headroom. The synthesis's trim table under-projected badly (the P0 repairs cost ~+200, not +25), so I funded the gap with cuts the jury didn't itemize. Any addition in the verify pass has to be paid for first.
+
+One thing I'd flag: I caught myself introducing "he left August Capital" while rebuilding the 5w6 rebuttal — which asserts exactly the departure RQ-03 leaves unconfirmed. Corrected to "he sued Benchmark from inside August Capital." Worth a second look during verify, since that's the failure mode where a wrong fact rides a P1 repair into the draft and passes the gate.
+
+I did not claim the perspective gate passed; `/blog_perspective_verify_people` is the independent check.

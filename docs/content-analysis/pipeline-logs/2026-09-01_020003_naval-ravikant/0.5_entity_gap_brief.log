@@ -1,0 +1,28 @@
+## Naval Ravikant — 33/100, PASS
+
+**This is the anti-Jordi-Hays.** Everything that made Jordi a diamond is inverted here.
+
+**The killer: the SERP is saturated three ways over.** Naval has a real personal Wikipedia article (~2,000 words, 18 citations, Forbes/CNBC/NYT sourcing) — that alone triggers the −20 penalty. But worse, `navalmanack.com` is an *entire dedicated website plus a million-selling book about this one person*, and `nav.al` is his own primary-source archive. On the childhood query, navalmanack's "in his own words" page outranks everyone. The best source on Naval is Naval. SERP weakness scored **3/25**.
+
+**Demand is large but flat.** No 2026 catalyst survived checking: Airchat launched April 2024 and has faded, his podcast last posted Feb 18 2026, Forbes Self-Made 250 is a weak list placement. Evergreen ≠ emerging. **9/20.**
+
+**Two things score genuinely high**, which is why the action isn't a flat pass:
+
+- **Source depth 15/15** — the strongest of any packet in the corpus. Book-length first-person material, full Ferriss and Farnam Street transcripts, Eric Jorgenson as quasi-biographer, brother Kamal on record, and Mike Brock's critical essay as a real disconfirming voice.
+- **Niche fit 9/10** — 9takes has 15 published tech/thinker profiles Naval sits at the center of, several earning real impressions (sam-altman 2,436, elon-musk 2,874, alex-karp 1,453). The `david-sacks` page *already receives Naval-modified queries*.
+
+**The one winnable slice:** `naval ravikant personality type` / `mbti` / `enneagram`. That first page is nothing but crowd-voting aggregators whose votes contradict each other (INFJ 10 / ENFP 3 / INTJ 2 / INTP 2). And it's a proven shape for 9takes — `messi personality type` pulls 1,393 impressions at position 7.7.
+
+So the action is **`personality-lane-only`**, matching the Laura Loomer precedent. A 33 doesn't license a CREATE, and I didn't launder it into one.
+
+**Three things you should decide on:**
+
+1. **Naval is mid-run right now.** He's `inProgress` in the backlog queue as of 06:00 today, and this command *is* step 0.5 of that pipeline (the log file was empty). The packet is a scope constraint on a run already underway — narrowing or aborting is your call, not mine, so I left the queue untouched.
+2. **Net worth must be omitted entirely.** Estimates span $60M to $500M+. No defensible figure exists. Same for the marriage year — 2013 vs. 2014 across sources, all content farms.
+3. **Sameness risk is real.** If a Type 5 read holds, this is the *fifth* Type 5 in the tech cluster alongside Musk, Andreessen, and Dorsey. Worth checking before drafting.
+
+The thesis, if it's built, is his own contradiction: he defines desire as "a contract you make with yourself to be unhappy until you get what you want," then built a career as a professional accumulator of desires on other people's behalf. The man teaching non-attachment runs an angel fund, and his most viral artifact in history is called *How to Get Rich*. He supplies both halves — no speculation needed.
+
+Packet: `docs/content-analysis/entity-gaps/Naval-Ravikant.md` (270 lines, includes an explicit 56-day failure condition). Nothing else was modified.
+
+**Sources:** [Wikipedia](https://en.wikipedia.org/wiki/Naval_Ravikant) · [Almanack of Naval Ravikant](https://www.navalmanack.com/) · [Farnam Street](https://fs.blog/knowledge-project-podcast/naval-ravikant/) · [Tim Ferriss transcript](https://tim.blog/naval-ravikant-on-the-tim-ferriss-show-transcript/) · [nav.al](https://nav.al/) · [Crunchbase](https://www.crunchbase.com/person/naval-ravikant) · [Notes From the Circus critique](https://www.notesfromthecircus.com/p/the-man-who-productized-himself) · [Personality Database](https://www.personality-database.com/profile/67329/naval-ravikant-business-mbti-personality-type) · [TechCrunch on Airchat](https://techcrunch.com/2024/04/13/airchat-launch/embed/)

@@ -1,13 +1,15 @@
 <!-- src/routes/admin/content-board/personality-analysis/[slug]/+page.svelte -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { fade, fly } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
+	import { tick } from 'svelte';
 	import MarkdownEditor from '../../MarkdownEditor.svelte';
 	import MetadataSidebar from '../../MetadataSidebar.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import type { PageData } from './$types';
+
+	const UNSAVED_MODAL_ID = 'personality-analysis-unsaved-warning';
 
 	interface HistoryItem {
 		id: number;
@@ -24,6 +26,7 @@
 	let history = $state<HistoryItem[]>([]);
 	let stageName = $state<string | null>(null);
 	let showUnsavedWarning = $state(false);
+	let warningModalActive = $state(false);
 	let mobileTab = $state<'content' | 'metadata'>('content');
 
 	// Initialize data from server
@@ -33,6 +36,26 @@
 			originalData = { ...pageData.blog };
 			history = pageData.blog.history || [];
 			stageName = pageData.blog.stageName || null;
+		}
+	});
+
+	$effect(() => {
+		if (showUnsavedWarning && !warningModalActive) {
+			warningModalActive = true;
+			void tick().then(() => {
+				const controller = getModal(UNSAVED_MODAL_ID);
+				if (!controller) {
+					warningModalActive = false;
+					return;
+				}
+
+				controller.open(() => {
+					warningModalActive = false;
+					showUnsavedWarning = false;
+				});
+			});
+		} else if (!showUnsavedWarning && warningModalActive) {
+			getModal(UNSAVED_MODAL_ID)?.close(null);
 		}
 	});
 
@@ -64,8 +87,8 @@
 	}
 
 	// Save content
-	async function save() {
-		if (!isDirty || !blogId) return;
+	async function save(): Promise<boolean> {
+		if (!isDirty || !blogId) return true;
 
 		saving = true;
 		try {
@@ -84,9 +107,11 @@
 			blogData = result.data;
 			originalData = { ...result.data };
 			notifications.success('Content saved successfully');
+			return true;
 		} catch (error) {
 			console.error('Error saving content:', error);
 			notifications.danger('Failed to save content');
+			return false;
 		} finally {
 			saving = false;
 		}
@@ -94,15 +119,14 @@
 
 	// Save and go back
 	async function saveAndClose() {
-		if (isDirty) {
-			await save();
-		}
+		if (isDirty && !(await save())) return;
 		goBack();
 	}
 
 	// Navigate back to content board
 	function goBack() {
-		showUnsavedWarning = false;
+		if (warningModalActive) getModal(UNSAVED_MODAL_ID)?.close(null);
+		else showUnsavedWarning = false;
 		goto('/admin/content-board');
 	}
 
@@ -116,25 +140,25 @@
 	}
 
 	function discardAndClose() {
-		showUnsavedWarning = false;
 		goBack();
+	}
+
+	function dismissUnsavedWarning() {
+		if (warningModalActive) getModal(UNSAVED_MODAL_ID)?.close(null);
+		else showUnsavedWarning = false;
 	}
 
 	// Keyboard shortcuts
 	function handleKeydown(e: KeyboardEvent) {
-		if (e.key === 'Escape') {
+		if (e.key === 'Escape' && !showUnsavedWarning) {
 			e.preventDefault();
-			if (showUnsavedWarning) {
-				showUnsavedWarning = false;
-			} else {
-				attemptClose();
-			}
+			attemptClose();
 		}
 
-		if ((e.metaKey || e.ctrlKey) && e.key === 's') {
+		if (!showUnsavedWarning && (e.metaKey || e.ctrlKey) && e.key === 's') {
 			e.preventDefault();
 			if (isDirty) {
-				save();
+				void save();
 			}
 		}
 	}
@@ -245,20 +269,30 @@
 	</div>
 </div>
 
-<!-- Unsaved Changes Warning -->
-{#if showUnsavedWarning}
-	<div class="warning-overlay" transition:fade={{ duration: 150 }}>
-		<div class="warning-dialog" transition:fly={{ y: -10, duration: 200 }}>
-			<h3 class="warning-title">Unsaved Changes</h3>
-			<p class="warning-message">You have unsaved changes. What would you like to do?</p>
-			<div class="warning-actions">
-				<Button variant="secondary" onclick={() => (showUnsavedWarning = false)}>Cancel</Button>
-				<Button variant="danger" onclick={discardAndClose}>Discard Changes</Button>
-				<Button onclick={saveAndClose}>Save &amp; Close</Button>
-			</div>
+<Modal
+	id={UNSAVED_MODAL_ID}
+	labelledBy="personality-unsaved-title"
+	describedBy="personality-unsaved-message"
+	initialFocus="#personality-keep-editing"
+	maxWidth="420px"
+	contentPadding="0"
+	navTop
+>
+	<div class="warning-dialog">
+		<p class="warning-kicker">UNSAVED DRAFT</p>
+		<h3 id="personality-unsaved-title" class="warning-title">Keep your changes?</h3>
+		<p id="personality-unsaved-message" class="warning-message">
+			This draft has changes that have not been saved yet.
+		</p>
+		<div class="warning-actions">
+			<Button id="personality-keep-editing" variant="secondary" onclick={dismissUnsavedWarning}
+				>Keep editing</Button
+			>
+			<Button variant="danger" onclick={discardAndClose}>Discard</Button>
+			<Button onclick={saveAndClose} loading={saving}>Save &amp; close</Button>
 		</div>
 	</div>
-{/if}
+</Modal>
 
 <style lang="scss">
 	.editor-page {
@@ -275,7 +309,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 16px 24px;
-		border-bottom: 1px solid var(--stone-warm);
+		border-bottom: 1px solid var(--stone-edge);
 		background: var(--stone-warm);
 		flex-shrink: 0;
 		position: sticky;
@@ -397,7 +431,7 @@
 
 	.mobile-tabs {
 		display: none;
-		border-bottom: 1px solid var(--stone-warm);
+		border-bottom: 1px solid var(--stone-edge);
 		background: var(--stone-warm);
 
 		@media (max-width: 768px) {
@@ -487,28 +521,19 @@
 		}
 	}
 
-	.warning-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.75);
-		backdrop-filter: blur(4px);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 9999;
-		padding: 20px;
-	}
-
 	.warning-dialog {
 		background: var(--stone-warm);
-		border: 1px solid var(--stone-warm);
-		border-radius: 16px;
 		padding: 28px;
-		max-width: 420px;
 		width: 100%;
-		box-shadow:
-			0 25px 50px -12px rgba(0, 0, 0, 0.6),
-			var(--glow-md);
+	}
+
+	.warning-kicker {
+		margin: 0 0 6px;
+		color: var(--warning);
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
 	}
 
 	.warning-title {
@@ -536,19 +561,6 @@
 			:global(.btn) {
 				width: 100%;
 			}
-		}
-	}
-
-	.animate-spin {
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		from {
-			transform: rotate(0deg);
-		}
-		to {
-			transform: rotate(360deg);
 		}
 	}
 </style>

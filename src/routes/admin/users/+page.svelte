@@ -8,7 +8,7 @@
 	import { convertDateToReadable } from '../../../utils/conversions';
 	import StatCard from '$lib/components/charts/StatCard.svelte';
 	import EnneagramBarChart from '$lib/components/charts/EnneagramBarChart.svelte';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Select } from '$lib/components/atoms';
 	import { onDestroy } from 'svelte';
 	import EmailSubscriptionStatus from '$lib/components/admin/EmailSubscriptionStatus.svelte';
 
@@ -921,16 +921,25 @@
 			</div>
 		</div>
 
-		<div class="form-group">
-			<label for="isAdmin">Administrator Status</label>
-			<select name="isAdmin" id="isAdmin" bind:value={activeAdmin} class="form-select">
+		<Field
+			for="isAdmin"
+			label="Administrator status"
+			class="admin-status-field"
+			help={active?.id === data.user?.id
+				? 'Your own administrator access cannot be removed here.'
+				: undefined}
+		>
+			<Select
+				name="isAdmin"
+				id="isAdmin"
+				bind:value={activeAdmin}
+				density="compact"
+				aria-describedby={active?.id === data.user?.id ? 'isAdmin-help' : undefined}
+			>
 				<option value={true}>Administrator</option>
 				<option value={false} disabled={active?.id === data.user?.id}>Regular User</option>
-			</select>
-			{#if active?.id === data.user?.id}
-				<p class="field-hint">Your own administrator access cannot be removed here.</p>
-			{/if}
-		</div>
+			</Select>
+		</Field>
 
 		<div class="modal-actions">
 			<Button variant="secondary" onclick={() => getModal('user-modal').close()}>Cancel</Button>
@@ -1596,45 +1605,14 @@
 		font-weight: 700;
 	}
 
-	.form-group {
-		margin-bottom: 16px;
-	}
-
-	.form-group label {
-		display: block;
-		margin-bottom: 6px;
-		font-weight: 500;
-		color: var(--ink-bright);
-		font-size: 0.8125rem;
-	}
-
-	.form-select {
-		width: 100%;
-		padding: 10px 12px;
-		border: 1px solid var(--stone-warm);
-		border-radius: 0.625rem;
-		background: var(--stone-warm);
-		color: var(--ink-bright);
-		font-size: 0.8125rem;
-		cursor: pointer;
-	}
-
-	.form-select:focus {
-		outline: none;
-		border-color: var(--lamp-glow);
-	}
-
-	.field-hint {
-		margin: 0.5rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.75rem;
-		line-height: 1.5;
-	}
-
 	.modal-actions {
 		display: flex;
 		justify-content: flex-end;
 		gap: 10px;
+	}
+
+	:global(.admin-status-field) {
+		margin-bottom: 16px;
 	}
 
 	/* Mobile */

@@ -1,12 +1,15 @@
 <!-- src/lib/components/email/EmailComposeModal.svelte -->
 <script lang="ts">
-	import { createEventDispatcher, onDestroy } from 'svelte';
-	import { fade, scale } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
+	import { createEventDispatcher, tick } from 'svelte';
+	import { X } from '@lucide/svelte';
 	import type { EmailRecipient } from '$lib/types/email';
 	import HtmlPreviewFrame from '$lib/components/admin/HtmlPreviewFrame.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Input, Select, Textarea } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+
+	const COMPOSE_MODAL_ID = 'email-compose-modal';
+	const GENERATE_MODAL_ID = 'email-generate-modal';
 
 	// Props
 	export let open = false;
@@ -32,15 +35,18 @@
 	let minScheduleDateTime = '';
 	let isSending = false;
 	let showPreview = false;
+	let composeError = '';
 
 	// Generate modal state
 	let showGenerate = false;
 	let generateInstructions = '';
 	let generateTone: 'professional' | 'friendly' | 'casual' = 'professional';
 	let isGenerating = false;
-
-	// Body scroll management
-	let previousBodyOverflow = '';
+	let generateError = '';
+	let composeControllerOpen = false;
+	let generateControllerOpen = false;
+	let previousOpenState = false;
+	let previousGenerateState = false;
 
 	function toLocalDateTimeValue(date: Date): string {
 		const year = date.getFullYear();
@@ -59,8 +65,7 @@
 		return parsed.toISOString();
 	}
 
-	// Reset form when opened with new data
-	$: if (open) {
+	function resetForOpen() {
 		subject = initialSubject;
 		htmlContent = initialContent;
 		scheduledFor = initialScheduledFor;
@@ -68,28 +73,12 @@
 		minScheduleDateTime = toLocalDateTimeValue(new Date());
 		showPreview = false;
 		showGenerate = false;
-
-		if (typeof document !== 'undefined') {
-			previousBodyOverflow = document.body.style.overflow;
-			document.body.style.overflow = 'hidden';
-		}
-	} else {
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = previousBodyOverflow;
-		}
+		composeError = '';
+		generateError = '';
 	}
 
-	// Cleanup on destroy
-	onDestroy(() => {
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = previousBodyOverflow;
-		}
-	});
-
-	/**
-	 * Close modal and reset state
-	 */
-	function closeModal() {
+	function handleComposeControllerClose() {
+		composeControllerOpen = false;
 		open = false;
 		subject = '';
 		htmlContent = '';
@@ -97,29 +86,61 @@
 		draftId = undefined;
 		showPreview = false;
 		showGenerate = false;
+		composeError = '';
 		dispatch('close');
 	}
 
-	/**
-	 * Handle backdrop click
-	 */
-	function handleBackdropClick(event: MouseEvent) {
-		if (event.target === event.currentTarget) {
-			closeModal();
+	function handleGenerateControllerClose() {
+		generateControllerOpen = false;
+		showGenerate = false;
+		generateError = '';
+	}
+
+	function openComposeController() {
+		if (!open || composeControllerOpen) return;
+		const controller = getModal(COMPOSE_MODAL_ID);
+		if (!controller) return;
+		composeControllerOpen = true;
+		controller.open(handleComposeControllerClose);
+	}
+
+	function openGenerateController() {
+		if (!showGenerate || generateControllerOpen) return;
+		const controller = getModal(GENERATE_MODAL_ID);
+		if (!controller) return;
+		generateControllerOpen = true;
+		controller.open(handleGenerateControllerClose);
+	}
+
+	$: if (open !== previousOpenState) {
+		previousOpenState = open;
+		if (open) {
+			resetForOpen();
+			void tick().then(openComposeController);
+		} else if (composeControllerOpen) {
+			if (generateControllerOpen) getModal(GENERATE_MODAL_ID)?.close(null);
+			getModal(COMPOSE_MODAL_ID)?.close(null);
 		}
 	}
 
+	$: if (showGenerate !== previousGenerateState) {
+		previousGenerateState = showGenerate;
+		if (showGenerate) void tick().then(openGenerateController);
+		else if (generateControllerOpen) getModal(GENERATE_MODAL_ID)?.close(null);
+	}
+
 	/**
-	 * Handle keyboard events
+	 * Close modal and reset state
 	 */
-	function handleKeydown(event: KeyboardEvent) {
-		if (event.key === 'Escape') {
-			if (showGenerate) {
-				showGenerate = false;
-			} else {
-				closeModal();
-			}
-		}
+	function closeModal() {
+		if (generateControllerOpen) getModal(GENERATE_MODAL_ID)?.close(null);
+		if (composeControllerOpen) getModal(COMPOSE_MODAL_ID)?.close(null);
+		else handleComposeControllerClose();
+	}
+
+	function closeGenerateModal() {
+		if (generateControllerOpen) getModal(GENERATE_MODAL_ID)?.close(null);
+		else handleGenerateControllerClose();
 	}
 
 	/**
@@ -144,8 +165,10 @@
 	 * Send emails
 	 */
 	async function sendEmails() {
+		composeError = '';
 		if (!subject.trim() || !htmlContent.trim()) {
-			notifications.warning('Subject and content are required', 3000);
+			composeError = 'Add both a subject and email content before sending.';
+			notifications.warning(composeError, 3000);
 			return;
 		}
 
@@ -153,7 +176,8 @@
 		try {
 			const scheduledForIso = scheduledFor ? toISOFromLocalDateTime(scheduledFor) : null;
 			if (scheduledFor && !scheduledForIso) {
-				notifications.warning('Invalid scheduled date/time', 3000);
+				composeError = 'Choose a valid scheduled date and time.';
+				notifications.warning(composeError, 3000);
 				return;
 			}
 
@@ -212,11 +236,13 @@
 				}
 				closeModal();
 			} else {
-				notifications.danger(result.message || 'Failed to send emails', 5000);
+				composeError = result.message || 'Failed to send emails.';
+				notifications.danger(composeError, 5000);
 			}
 		} catch (error) {
 			console.error('Error sending emails:', error);
-			notifications.danger('Failed to send emails', 3000);
+			composeError = 'Failed to send emails. Try again.';
+			notifications.danger(composeError, 3000);
 		} finally {
 			isSending = false;
 		}
@@ -226,8 +252,10 @@
 	 * Generate email with AI
 	 */
 	async function generateEmail() {
+		generateError = '';
 		if (!generateInstructions.trim()) {
-			notifications.warning('Please provide instructions', 3000);
+			generateError = 'Add instructions for the email you want to generate.';
+			notifications.warning(generateError, 3000);
 			return;
 		}
 
@@ -255,11 +283,13 @@
 				generateInstructions = '';
 				notifications.success('Email generated successfully', 3000);
 			} else {
-				notifications.danger(result.message || 'Failed to generate email', 3000);
+				generateError = result.message || 'Failed to generate email.';
+				notifications.danger(generateError, 3000);
 			}
 		} catch (error) {
 			console.error('Error generating email:', error);
-			notifications.danger('Failed to generate email', 3000);
+			generateError = 'Failed to generate email. Try again.';
+			notifications.danger(generateError, 3000);
 		} finally {
 			isGenerating = false;
 		}
@@ -269,10 +299,12 @@
 	 * Save draft
 	 */
 	async function saveDraft() {
+		composeError = '';
 		try {
 			const scheduledForIso = scheduledFor ? toISOFromLocalDateTime(scheduledFor) : null;
 			if (scheduledFor && !scheduledForIso) {
-				notifications.warning('Invalid scheduled date/time', 3000);
+				composeError = 'Choose a valid scheduled date and time.';
+				notifications.warning(composeError, 3000);
 				return;
 			}
 
@@ -297,334 +329,319 @@
 				notifications.success('Draft saved', 3000);
 				dispatch('saveDraft', { id: draftId });
 			} else {
-				notifications.danger(result.message || 'Failed to save draft', 3000);
+				composeError = result.message || 'Failed to save draft.';
+				notifications.danger(composeError, 3000);
 			}
 		} catch (error) {
 			console.error('Error saving draft:', error);
-			notifications.danger('Failed to save draft', 3000);
+			composeError = 'Failed to save draft. Try again.';
+			notifications.danger(composeError, 3000);
 		}
 	}
 </script>
 
-<svelte:window on:keydown={handleKeydown} />
-
-{#if open}
-	<!-- Main Compose Modal -->
-	<div
-		class="modal-overlay"
-		role="dialog"
-		aria-modal="true"
-		aria-labelledby="compose-title"
-		tabindex="-1"
-		on:click|self={handleBackdropClick}
-		on:keydown={handleKeydown}
-		in:fade={{ duration: 200, easing: cubicOut }}
-		out:fade={{ duration: 150, easing: cubicOut }}
-	>
-		<div
-			class="compose-modal"
-			in:scale={{ duration: 200, easing: cubicOut, start: 0.95 }}
-			out:scale={{ duration: 150, easing: cubicOut, start: 0.95 }}
-		>
-			<div class="compose-header">
+<Modal
+	id={COMPOSE_MODAL_ID}
+	labelledBy="compose-title"
+	describedBy="compose-audience"
+	initialFocus="#compose-subject"
+	maxWidth="700px"
+	fullMobile={true}
+	navTop={true}
+	contentPadding="0"
+>
+	<div class="compose-shell">
+		<header class="compose-header">
+			<div class="compose-heading">
+				<p class="compose-kicker">EMAIL · COMPOSER</p>
 				<h2 id="compose-title">Compose Email</h2>
-				<button class="close-btn" aria-label="Close" on:click={closeModal}>&times;</button>
 			</div>
-
-			<div class="compose-body">
-				<!-- Recipients -->
-				<div class="form-group">
-					<span class="form-label">To: ({recipients.length} recipients)</span>
-					<div class="recipients-preview">
-						{#each recipients.slice(0, 5) as recipient}
-							<span class="recipient-chip">{recipient.email}</span>
-						{/each}
-						{#if recipients.length > 5}
-							<span class="recipient-chip more">+{recipients.length - 5} more</span>
-						{/if}
-					</div>
-				</div>
-
-				<!-- Subject -->
-				<div class="form-group">
-					<label for="compose-subject">Subject</label>
-					<input
-						id="compose-subject"
-						type="text"
-						bind:value={subject}
-						placeholder="Email subject..."
-						class="form-input"
-					/>
-				</div>
-
-				<!-- Content -->
-				<div class="form-group">
-					<div class="content-header">
-						<label for="compose-content">Content (HTML)</label>
-						<div class="content-actions">
-							<Button variant="secondary" size="sm" onclick={() => (showGenerate = true)}>
-								Generate with AI
-							</Button>
-							<Button variant="secondary" size="sm" onclick={() => (showPreview = !showPreview)}>
-								{showPreview ? 'Edit' : 'Preview'}
-							</Button>
-						</div>
-					</div>
-
-					{#if showPreview}
-						<HtmlPreviewFrame html={htmlContent} title="Email composition preview" />
-					{:else}
-						<textarea
-							id="compose-content"
-							bind:value={htmlContent}
-							placeholder="<h1>Hello {{ name }}!</h1><p>Your content here...</p> — Use {{
-								name
-							}} for personalization (defaults to 'there')"
-							class="form-textarea"
-							rows="12"></textarea>
-					{/if}
-				</div>
-
-				<!-- Schedule -->
-				<div class="form-group">
-					<label for="compose-schedule">Schedule (optional)</label>
-					<input
-						id="compose-schedule"
-						type="datetime-local"
-						bind:value={scheduledFor}
-						class="form-input"
-						min={minScheduleDateTime}
-					/>
-					<p class="field-hint">
-						Every sent email includes a footer unsubscribe link for compliance.
-					</p>
-				</div>
-			</div>
-
-			<div class="compose-footer">
-				<Button variant="secondary" onclick={saveDraft}>Save Draft</Button>
-				<Button onclick={sendEmails} loading={isSending}>
-					{#if isSending}
-						Sending...
-					{:else if scheduledFor}
-						Schedule
-					{:else}
-						Send Now
-					{/if}
-				</Button>
-			</div>
-		</div>
-	</div>
-
-	<!-- Generate Modal (nested) -->
-	{#if showGenerate}
-		<div
-			class="modal-overlay generate-overlay"
-			role="dialog"
-			aria-modal="true"
-			aria-labelledby="generate-title"
-			on:click|self={() => (showGenerate = false)}
-			tabindex="-1"
-			on:keydown={handleKeydown}
-			in:fade={{ duration: 150, easing: cubicOut }}
-			out:fade={{ duration: 100, easing: cubicOut }}
-		>
-			<div
-				class="generate-modal"
-				in:scale={{ duration: 150, easing: cubicOut, start: 0.95 }}
-				out:scale={{ duration: 100, easing: cubicOut, start: 0.95 }}
+			<button
+				type="button"
+				class="close-btn focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
+				aria-label="Close email composer"
+				onclick={closeModal}
 			>
-				<div class="compose-header">
-					<h2 id="generate-title">Generate Email with AI</h2>
-					<button class="close-btn" aria-label="Close" on:click={() => (showGenerate = false)}
-						>&times;</button
-					>
+				<X size={18} strokeWidth={2} aria-hidden="true" />
+			</button>
+		</header>
+
+		<div class="compose-body">
+			<section class="recipient-field" aria-labelledby="compose-audience">
+				<span id="compose-audience" class="form-label">
+					To · {recipients.length}
+					{recipients.length === 1 ? 'recipient' : 'recipients'}
+				</span>
+				<div class="recipients-preview">
+					{#each recipients.slice(0, 5) as recipient (recipient.email)}
+						<span class="recipient-chip">{recipient.email}</span>
+					{/each}
+					{#if recipients.length > 5}
+						<span class="recipient-chip more">+{recipients.length - 5} more</span>
+					{/if}
+				</div>
+			</section>
+
+			<Field for="compose-subject" label="Subject" required>
+				<Input
+					id="compose-subject"
+					type="text"
+					bind:value={subject}
+					placeholder="Email subject"
+					density="compact"
+					invalid={Boolean(composeError && !subject.trim())}
+					aria-describedby={composeError ? 'compose-error' : undefined}
+				/>
+			</Field>
+
+			<div class="content-field">
+				<div class="content-header">
+					<label class="form-label" for="compose-content">Content · HTML</label>
+					<div class="content-actions">
+						<Button variant="secondary" size="sm" onclick={() => (showGenerate = true)}>
+							Generate with AI
+						</Button>
+						<Button variant="secondary" size="sm" onclick={() => (showPreview = !showPreview)}>
+							{showPreview ? 'Edit HTML' : 'Preview'}
+						</Button>
+					</div>
 				</div>
 
-				<div class="compose-body">
-					<div class="form-group">
-						<label for="generate-instructions">What would you like the email to say?</label>
-						<textarea
-							id="generate-instructions"
-							bind:value={generateInstructions}
-							placeholder="Write a welcome email for new coaching waitlist signups. Mention the Enneagram personality system and encourage them to explore the platform..."
-							class="form-textarea"
-							rows="6"></textarea>
-					</div>
-
-					<div class="form-group">
-						<label for="generate-tone">Tone</label>
-						<select id="generate-tone" bind:value={generateTone} class="form-input">
-							<option value="professional">Professional</option>
-							<option value="friendly">Friendly</option>
-							<option value="casual">Casual</option>
-						</select>
-					</div>
-
-					<div class="context-info">
-						<p><strong>Audience:</strong> {getAudienceType()}</p>
-						<p><strong>Recipients:</strong> {recipients.length}</p>
-					</div>
-				</div>
-
-				<div class="compose-footer">
-					<Button variant="secondary" onclick={() => (showGenerate = false)}>Cancel</Button>
-					<Button onclick={generateEmail} loading={isGenerating}>
-						{isGenerating ? 'Generating...' : 'Generate'}
-					</Button>
-				</div>
+				{#if showPreview}
+					<HtmlPreviewFrame html={htmlContent} title="Email composition preview" />
+				{:else}
+					<Textarea
+						id="compose-content"
+						bind:value={htmlContent}
+						placeholder={'<h1>Hello {{ name }}!</h1><p>Your content here...</p>'}
+						class="html-editor"
+						rows={12}
+						invalid={Boolean(composeError && !htmlContent.trim())}
+						aria-describedby={composeError ? 'compose-error' : undefined}
+					/>
+				{/if}
+				<p class="field-hint">
+					Use <code>{'{{ name }}'}</code> for personalization; it falls back to “there.”
+				</p>
 			</div>
+
+			<Field
+				for="compose-schedule"
+				label="Schedule"
+				optional
+				help="Every sent email includes a footer unsubscribe link."
+			>
+				<Input
+					id="compose-schedule"
+					type="datetime-local"
+					bind:value={scheduledFor}
+					density="compact"
+					min={minScheduleDateTime}
+					aria-describedby="compose-schedule-help"
+				/>
+			</Field>
+
+			{#if composeError}
+				<p id="compose-error" class="form-error" role="alert">{composeError}</p>
+			{/if}
 		</div>
-	{/if}
-{/if}
+
+		<footer class="compose-footer">
+			<Button variant="secondary" onclick={saveDraft}>Save Draft</Button>
+			<Button onclick={sendEmails} loading={isSending}>
+				{scheduledFor ? 'Schedule' : 'Send Now'}
+			</Button>
+		</footer>
+	</div>
+</Modal>
+
+<Modal
+	id={GENERATE_MODAL_ID}
+	labelledBy="generate-title"
+	describedBy="generate-context"
+	initialFocus="#generate-instructions"
+	maxWidth="500px"
+	navTop={true}
+	contentPadding="0"
+>
+	<div class="generate-shell">
+		<header class="compose-header">
+			<div class="compose-heading">
+				<p class="compose-kicker">EMAIL · AI DRAFT</p>
+				<h2 id="generate-title">Generate with AI</h2>
+			</div>
+			<button
+				type="button"
+				class="close-btn focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
+				aria-label="Close email generator"
+				onclick={closeGenerateModal}
+			>
+				<X size={18} strokeWidth={2} aria-hidden="true" />
+			</button>
+		</header>
+
+		<div class="compose-body">
+			<Field for="generate-instructions" label="What should the email say?" required>
+				<Textarea
+					id="generate-instructions"
+					bind:value={generateInstructions}
+					placeholder="Write a welcome email for new coaching waitlist signups..."
+					rows={6}
+					invalid={Boolean(generateError && !generateInstructions.trim())}
+					aria-describedby={generateError ? 'generate-error' : undefined}
+				/>
+			</Field>
+
+			<Field for="generate-tone" label="Tone">
+				<Select id="generate-tone" bind:value={generateTone} density="compact">
+					<option value="professional">Professional</option>
+					<option value="friendly">Friendly</option>
+					<option value="casual">Casual</option>
+				</Select>
+			</Field>
+
+			<div id="generate-context" class="context-info">
+				<p><strong>Audience</strong><span>{getAudienceType()}</span></p>
+				<p><strong>Recipients</strong><span>{recipients.length}</span></p>
+			</div>
+
+			{#if generateError}
+				<p id="generate-error" class="form-error" role="alert">{generateError}</p>
+			{/if}
+		</div>
+
+		<footer class="compose-footer">
+			<Button variant="secondary" onclick={closeGenerateModal}>Cancel</Button>
+			<Button onclick={generateEmail} loading={isGenerating}>Generate</Button>
+		</footer>
+	</div>
+</Modal>
 
 <style>
-	/* Modal Overlay */
-	.modal-overlay {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(0, 0, 0, 0.5);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 1000;
-		padding: 1rem;
-	}
-
-	.generate-overlay {
-		z-index: 1001;
-		background: rgba(0, 0, 0, 0.3);
-	}
-
-	/* Compose Modal */
-	.compose-modal,
-	.generate-modal {
-		background: var(--stone-warm);
-		border-radius: var(--border-radius, 8px);
+	.compose-shell,
+	.generate-shell {
 		width: 100%;
-		max-width: 700px;
-		max-height: 90vh;
 		display: flex;
 		flex-direction: column;
-		box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+		max-height: calc(100vh - 2rem);
+		max-height: calc(100dvh - 2rem);
 	}
 
-	.generate-modal {
-		max-width: 500px;
+	.compose-heading {
+		min-width: 0;
 	}
 
 	.compose-header {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
 		padding: 1rem 1.5rem;
 		border-bottom: 1px solid var(--stone-edge);
+		background: var(--stone-warm);
 	}
 
 	.compose-header h2 {
 		margin: 0;
-		font-size: 1.125rem;
+		color: var(--ink-bright);
+		font-size: 1.25rem;
+		line-height: 1.2;
+		letter-spacing: -0.015em;
+	}
+
+	.compose-kicker,
+	.form-label {
+		font-family: var(--font-mono);
+		font-size: 0.75rem;
+		font-weight: 600;
+		line-height: 1.35;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+	}
+
+	.compose-kicker {
+		margin: 0 0 0.25rem;
+		color: var(--lamp-glow);
+	}
+
+	.form-label {
 		color: var(--ink-bright);
 	}
 
 	.close-btn {
-		background: none;
-		border: none;
-		font-size: 1.5rem;
-		cursor: pointer;
-		color: var(--ink-mid);
-		line-height: 1;
-		padding: 0;
-		width: 2rem;
-		height: 2rem;
 		display: flex;
+		width: 2.75rem;
+		height: 2.75rem;
+		flex: 0 0 auto;
 		align-items: center;
 		justify-content: center;
-		border-radius: 4px;
-		transition: all 0.2s;
+		padding: 0;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: var(--night-mid);
+		color: var(--ink-mid);
+		cursor: pointer;
+		transition:
+			background-color 180ms ease,
+			color 180ms ease,
+			border-color 180ms ease;
 	}
 
 	.close-btn:hover {
-		color: var(--ink-bright);
 		background: var(--stone-mid);
+		color: var(--ink-bright);
 	}
 
 	.compose-body {
-		padding: 1.5rem;
-		overflow-y: auto;
+		display: grid;
+		min-height: 0;
 		flex: 1;
+		gap: 1.25rem;
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		padding: 1.5rem;
 	}
 
 	.compose-footer {
 		display: flex;
+		flex: 0 0 auto;
+		align-items: center;
 		justify-content: flex-end;
 		gap: 0.75rem;
 		padding: 1rem 1.5rem;
 		border-top: 1px solid var(--stone-edge);
+		background: var(--stone-warm);
 	}
 
-	/* Form Elements */
-	.form-group {
-		margin-bottom: 1.25rem;
-	}
-
-	.form-group label,
-	.form-group .form-label {
-		display: block;
-		margin-bottom: 0.5rem;
-		font-weight: 500;
-		font-size: 0.875rem;
-		color: var(--ink-bright);
+	.recipient-field,
+	.content-field {
+		display: grid;
+		gap: 0.5rem;
 	}
 
 	.field-hint {
-		margin: 0.5rem 0 0;
-		font-size: 0.75rem;
+		margin: 0;
 		color: var(--ink-mid);
+		font-size: 0.8125rem;
+		line-height: 1.45;
 	}
 
-	.form-input,
-	.form-textarea {
-		width: 100%;
-		padding: 0.625rem 0.75rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: var(--border-radius, 8px);
-		font-size: 16px;
-		background: var(--night-deep);
-		font-family: inherit;
-		color: var(--ink-bright);
-	}
-
-	.form-textarea {
-		resize: vertical;
-		font-family: var(--font-mono);
-		font-size: 16px;
-	}
-
-	.form-input:focus,
-	.form-textarea:focus {
-		outline: none;
-		border-color: var(--lamp-glow);
-		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 20%, transparent);
-	}
-
-	/* Recipients Preview */
 	.recipients-preview {
 		display: flex;
+		min-width: 0;
 		flex-wrap: wrap;
 		gap: 0.375rem;
 	}
 
 	.recipient-chip {
-		background: var(--night-mid);
-		border: 1px solid var(--stone-edge);
+		max-width: 100%;
 		padding: 0.25rem 0.5rem;
+		border: 1px solid var(--stone-edge);
 		border-radius: 4px;
-		font-size: 0.75rem;
+		background: var(--night-mid);
 		color: var(--ink-bright);
+		font-size: 0.75rem;
+		overflow-wrap: anywhere;
 	}
 
 	.recipient-chip.more {
@@ -633,59 +650,82 @@
 		border-color: var(--lamp-glow);
 	}
 
-	/* Content Header */
 	.content-header {
 		display: flex;
-		justify-content: space-between;
 		align-items: center;
-		margin-bottom: 0.5rem;
-	}
-
-	.content-header label {
-		margin-bottom: 0;
+		justify-content: space-between;
+		gap: 0.75rem;
 	}
 
 	.content-actions {
 		display: flex;
+		flex-wrap: wrap;
 		gap: 0.5rem;
 	}
 
-	/* Context Info */
+	:global(.html-editor) {
+		min-height: 18rem;
+		font-family: var(--font-mono);
+	}
+
 	.context-info {
+		display: grid;
+		gap: 0.5rem;
+		padding: 0.75rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
 		background: var(--night-mid);
-		padding: 0.75rem 1rem;
-		border-radius: var(--border-radius, 8px);
 		font-size: 0.875rem;
 	}
 
 	.context-info p {
-		margin: 0.25rem 0;
+		display: flex;
+		justify-content: space-between;
+		gap: 1rem;
+		margin: 0;
 		color: var(--ink-bright);
 	}
 
-	/* Responsive */
-	@media (max-width: 640px) {
-		.compose-modal {
-			max-height: 100vh;
-			border-radius: 0;
-		}
+	.context-info span {
+		color: var(--ink-mid);
+		text-align: right;
+	}
 
-		.modal-overlay {
-			padding: 0;
+	.form-error {
+		margin: 0;
+		padding: 0.75rem;
+		border: 1px solid color-mix(in srgb, var(--error) 45%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--error) 8%, var(--stone-warm));
+		color: var(--error-text);
+		font-size: 0.875rem;
+		line-height: 1.45;
+	}
+
+	@media (max-width: 640px) {
+		.compose-shell {
+			max-height: 100vh;
+			max-height: 100dvh;
 		}
 
 		.content-header {
-			flex-direction: column;
 			align-items: flex-start;
-			gap: 0.5rem;
+			flex-direction: column;
 		}
 
 		.compose-footer {
 			flex-direction: column-reverse;
+			padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
 		}
 
 		.compose-footer :global(.btn) {
 			width: 100%;
+		}
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		.close-btn {
+			transition: none;
 		}
 	}
 </style>

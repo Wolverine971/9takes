@@ -1,0 +1,12 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/subject.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation `revise`
+
+**Blockers: 3**
+- **SUBJ-B1** — The opening sentence says "his mother moved him and his older brother from New Delhi," writing his father out of the family's emigration. His own account has the family emigrating together, his father working a NY hardware store, and the split coming after. The draft states the correct version ninety lines later, so the page contradicts itself in its first sentence.
+- **SUBJ-B2** — The closing block quotation attributed to `nav.al` is Podcast Notes' condensation, not his wording, and the date (Feb 22, 2026) is three days off the first-party page (Feb 19). It's the article's final image, presented as verbatim primary quotation.
+- **SUBJ-B3** — "He holds exactly one line: 'I insist on math and reading'" — he named *two* places he intervenes in that episode; the missing one is when his kids hit each other. The emphatic framing leaves readers thinking he permits that.
+
+**Strongest hit:** the restraint on private life is total and deliberate — no net worth, no spouse, no child named, no unsourced "radioactive mud," allegation framing preserved throughout the lawsuit section for the named third-party defendants. Every one of those was available and every one was declined. That's the structural reason the rest of the page reads as an argument rather than a scrape.
+
+**Highest-priority concern (SUBJ-C1):** the article performs a personality typing on a man who has twice posted from `@naval` that this genre is astrology ("Horoscopes for the educated classes"; "Myers-Briggs is astrology for the overeducated class") — and the Counterarguments paragraph reaches for anonymous MBTI crowd-votes while omitting the subject's own dismissal. Not a reason to withhold the typing; a reason to say it out loud in the paragraph already built to hold disagreement. ~40 words converts the page's most obvious vulnerability into its sharpest differentiator from the aggregators it competes with. Caveat recorded in the review: X returned HTTP 402, so the tweets are unverified at the verbatim level and need an editor check before quoting.

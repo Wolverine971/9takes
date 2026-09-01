@@ -309,7 +309,7 @@
 		gap: 0.35rem;
 		padding: 0.35rem 0.5rem;
 		border: 0;
-		border-radius: 0.5rem;
+		border-radius: 0.625rem;
 		background: transparent;
 		color: var(--ink-dim);
 		font: inherit;
@@ -350,7 +350,7 @@
 		margin-top: 0.85rem;
 		padding: 0.8rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 0.75rem;
+		border-radius: 1rem;
 		background: var(--night-deep);
 	}
 

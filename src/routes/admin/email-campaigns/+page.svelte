@@ -396,7 +396,7 @@
 	.primary-link,
 	.detail-link {
 		min-height: 42px;
-		border-radius: 7px;
+		border-radius: 10px;
 		font-size: 0.82rem;
 		font-weight: 700;
 		text-decoration: none;
@@ -422,7 +422,7 @@
 		margin-bottom: 1rem;
 		padding: 0.9rem 1rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 40%, var(--stone-edge));
-		border-radius: 8px;
+		border-radius: 16px;
 		background: color-mix(in srgb, var(--lamp-glow) 6%, var(--night-surface));
 		color: var(--lamp-glow);
 	}
@@ -451,7 +451,7 @@
 		gap: 0.7rem;
 		padding: 0.85rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 16px;
 		background: var(--night-surface);
 	}
 
@@ -460,7 +460,7 @@
 		width: 36px;
 		height: 36px;
 		place-items: center;
-		border-radius: 7px;
+		border-radius: 10px;
 		background: color-mix(in srgb, var(--lamp-glow) 10%, var(--night-deep));
 		color: var(--lamp-glow);
 	}
@@ -642,7 +642,7 @@
 		gap: 0.3rem;
 		padding: 0.8rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 7px;
+		border-radius: 16px;
 		background: var(--night-deep);
 	}
 
@@ -675,7 +675,7 @@
 		margin-bottom: 1.3rem;
 		padding: 0.65rem 0.75rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 7px;
+		border-radius: 16px;
 	}
 
 	.enrollment-strip span,
@@ -705,7 +705,7 @@
 		min-height: 9.5rem;
 		padding: 0.8rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 7px;
+		border-radius: 16px;
 		background: var(--night-deep);
 	}
 
@@ -755,7 +755,7 @@
 
 	.inspector {
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 16px;
 		background: var(--night-deep);
 		overflow: hidden;
 	}
@@ -773,7 +773,7 @@
 		flex: 0 0 auto;
 		padding: 0.2rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 7px;
+		border-radius: 10px;
 		background: var(--night-surface);
 	}
 
@@ -781,7 +781,7 @@
 		gap: 0.35rem;
 		padding: 0.45rem 0.6rem;
 		border: 0;
-		border-radius: 5px;
+		border-radius: 10px;
 		background: transparent;
 		color: var(--ink-dim);
 		font: inherit;
@@ -822,7 +822,7 @@
 		align-content: center;
 		gap: 0.5rem;
 		border: 1px dashed var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 16px;
 		color: var(--ink-dim);
 		text-align: center;
 	}

@@ -1,0 +1,25 @@
+Frontmatter parses cleanly, lint passes (0 fail / 1 warn).
+
+## Grading Complete — Naval Ravikant
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Naval-Ravikant | 9 | 9 | 9 | 9 | 8 | 8 | **8.8** | **B+** |
+
+`(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 8×0.5) / 7 = 8.8`. No caps applied — discoverability 9 clears the gate, contrast pairs are 0, counter-typing stays in the rabbit hole, critic pressure is faced, current-tense anchor present, ending passes the swap test, and the empathy turn avoids house armor-grammar.
+
+### Key observations
+
+**What earns the B+.** The bespoke section — "Decompressing Naval Ravikant's Most Famous Sentence" — is a form the subject generated: his method is compression, his sharpest critic charges that "the aphorism is compression without a decompression algorithm," and the section runs the decompression the critic says is missing. It collapses on any other subject. The avarice objection is answered rather than ducked ("what a Five hoards is himself… which is why no scene in this article puts him in a room with another living person"), and that answer is what retires the sameness risk of being the 17th tech Type 5 in the corpus.
+
+**Two real problems.**
+1. **The ledgers no longer match the body.** The TESTIMONY LEDGER claims 6 qualifying quotes; two of them (Shane Parrish's "voracious readers," Auren Hoffman's "deep thinker, philosopher, loner") never made the page. The FORMULA FINGERPRINT LEDGER calls the decompression sentence "19-word" when the body correctly says seventeen. And it reports cross-sentence negative parallelism at "0 remaining" while the empathy turn runs "Not a mentor… Not a network… A sentence."
+2. **"What Naval Ravikant Sounds Like Under Pressure" is the one assembled section.** It sets up two readings of the venture churn and then refuses to pick — "The record holds both" — in the position where the piece should be most decisive, then pivots to loneliness on a stitched hinge.
+
+**Sameness check** (vs Loomer 08-31, Zach-Bryan 08-30, Demis-Hassabis 08-29): no cap. Zero shared prose phrases; the 1.000 similarity trips are the mandated H3 heading, the known template false positive. The draft avoids the corpus-stat sentence, the "The tell:" bullet, and the scar-tissue empathy grammar. But the closing move near-collides with Demis-Hassabis three days earlier — "The hall in Liechtenstein emptied almost four decades ago" vs "Four decades after Queens." Same interval, same childhood-site callback, same type, same week. Worth varying next Type 5.
+
+**Also flagged:** no speculative-typing disclaimer (all three recent drafts have one, and this page discusses live litigation), and three metrics run without inline provenance — the Airchat "#23 US social apps" stat traces only to the entity-gap packet, not an outlet.
+
+Sidecar written to `docs/content-analysis/grades/Naval-Ravikant.review.md` with the concrete steps to A.
+
+**Total graded this session: 1**

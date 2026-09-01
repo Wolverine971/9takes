@@ -1,0 +1,25 @@
+Frontmatter parses, lint still clean (0 fail, 1 warn).
+
+## Grading Complete — Naval Ravikant
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Naval-Ravikant | 8 | 7 | 9 | 9 | 8 | 8 | **8.1** | **B** |
+
+`(8×1.5 + 7×1.5 + 9×1.5 + 9 + 8 + 8×0.5) / 7 = 57.0 / 7 = 8.1`. Discoverability is 9, so no gate.
+
+### Key observations
+
+**The cap is the whole story.** Originality scored **9 on merits** — real thesis (he publishes his understanding without limit and withholds his person; "almost every room in this article turns out to be a recording"), a signature detail that lands (*permissionless* as the exact word for a man whose injury was needing permission to see the numbers), critic pressure conceded rather than dodged, current-tense anchor, passes the swap test hard. Rubric step 6 capped it to 7 for four house moves reused against the last three graded drafts. That cap alone is the difference between B and B+ — uncapped this computes to 8.6.
+
+**The flagged reuse, in order of severity:** the return-to-the-wound close shares the literal *"four decades"* span construction with Demis-Hassabis, graded three days earlier — and Naval spends it twice, once in the cold open and once in the final paragraph. Then a reader-command imperative ("Now go back and read the first paragraph of this page"), aphoristic-fragment closers on all eight sections, and the epigraph→cold-open→reframe furniture.
+
+**Worth crediting:** this draft *did* beat the three highest-signal sameness moves. The corpus-stat sentence was cut outright, there's no "The tell:" bullet, and the empathy turn is built from his own formation vocabulary (library, closing time, nine addresses) instead of the house armor-or-scar-tissue grammar. The fix list is furniture-level, not substance-level — two varied moves flips it.
+
+**Two things the deterministic checks got wrong, corrected in the sidecar.** The source audit's 3 VAGUE flags are regex artifacts of attribution sitting in the *preceding* sentence — all three are traceable, 0 untagged, so no Evidence cap. Same-type similarity TRIPPED only on the mandated H3 heading scoring 1.000 against Demis-Hassabis and Yang-Zhilin — the known template false positive, with zero shared prose phrases. The real sourcing gap is non-quote: the Epinions money chain (~$45M raised, ~$620M eBay purchase) has no inline outlet and forces a fact-checker off the page.
+
+**Ledger audit:** all 8 H2s match the Heading Mix Ledger verbatim; the Testimony Ledger is accurate including its own negative claim (the Parrish quote really is absent). The Formula Fingerprint Ledger contains a self-correction retracting an earlier overstated "Verified 0 remaining" — right behavior, and lint independently confirms 0 contrast pairs.
+
+**Constraint on any revision:** the body is at 4,486 / 4,500 words. Every addition has to be funded by a cut, and there's already a sourced-but-unplaced Parrish quote waiting on headroom.
+
+Files written: `src/blog/people/drafts/Naval-Ravikant.md` (frontmatter) and `docs/content-analysis/grades/Naval-Ravikant.review.md`.

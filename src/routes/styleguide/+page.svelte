@@ -29,6 +29,7 @@
 		Spinner,
 		Textarea
 	} from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { applyTheme, themePreference, type ThemePreference } from '$lib/stores/theme';
 	// Listing + callout atoms (extracted 2026-06-10, design audit) — build rule:
 	// if it isn't on /styleguide, it doesn't exist.
@@ -67,6 +68,10 @@
 		const next = theme === 'dark' ? 'light' : 'dark';
 		themePreference.set(next);
 		applyTheme(next);
+	}
+
+	function openModalPreview() {
+		getModal('styleguide-modal-preview')?.open();
 	}
 
 	// ---------------------------------------------------------------------------
@@ -831,23 +836,42 @@
 				</div>
 
 				<!-- ----- Modal preview ----- -->
-				<h3 class="sg-h3">Modal preview</h3>
+				<h3 class="sg-h3">Modal</h3>
 				<div class="sg-modal-preview-stage">
-					<div class="sg-modal" role="dialog" aria-label="Modal preview (static)">
-						<header class="sg-modal-header">
-							<span class="mono sg-modal-eyebrow">MODAL · CANONICAL SPEC</span>
-							<h4 class="sg-modal-title">Drop your take first.</h4>
-						</header>
-						<p class="sg-modal-body">
-							This is a static preview — no overlay. Modals are <code>rounded-xl</code>, 1px
-							<code>--stone-edge</code> border, <code>--shadow-lg</code>, max-w-md.
+					<div class="sg-modal-launch-copy">
+						<span class="mono sg-modal-eyebrow">PRODUCTION PRIMITIVE</span>
+						<p>
+							Open the real modal to verify its overlay, focus boundary, theme, viewport sizing, and
+							action hierarchy.
 						</p>
-						<footer class="sg-modal-footer">
-							<Button variant="ghost">Cancel</Button>
-							<Button variant="primary">Continue</Button>
-						</footer>
 					</div>
+					<Button variant="primary" onclick={openModalPreview}>Open modal preview</Button>
 				</div>
+
+				<Modal
+					id="styleguide-modal-preview"
+					labelledBy="styleguide-modal-title"
+					describedBy="styleguide-modal-description"
+					maxWidth="448px"
+					fullMobile
+				>
+					<header class="sg-modal-header">
+						<span class="mono sg-modal-eyebrow">MODAL · CANONICAL SPEC</span>
+						<h2 id="styleguide-modal-title" class="sg-modal-title">Drop your take first.</h2>
+					</header>
+					<p id="styleguide-modal-description" class="sg-modal-body">
+						The production modal uses a 16px shell, one stone-edge border, viewport-safe scrolling,
+						and a contained action row.
+					</p>
+					<footer class="sg-modal-footer">
+						<Button variant="ghost" onclick={() => getModal('styleguide-modal-preview')?.close()}>
+							Cancel
+						</Button>
+						<Button variant="primary" onclick={() => getModal('styleguide-modal-preview')?.close()}
+							>Continue</Button
+						>
+					</footer>
+				</Modal>
 
 				<!-- ----- Empty state ----- -->
 				<h3 class="sg-h3">Empty state</h3>
@@ -2226,20 +2250,23 @@
 		border: 1px solid var(--stone-edge);
 		border-radius: 1rem;
 		display: flex;
-		justify-content: center;
+		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
 	}
 
-	.sg-modal {
-		width: 100%;
-		max-width: 28rem;
-		background: var(--stone-warm);
-		border: 1px solid var(--stone-edge);
-		border-radius: 1rem;
-		box-shadow: var(--shadow-lg);
-		padding: 20px;
+	.sg-modal-launch-copy {
+		max-width: 34rem;
 		display: flex;
 		flex-direction: column;
-		gap: 12px;
+		gap: 6px;
+	}
+
+	.sg-modal-launch-copy p {
+		margin: 0;
+		color: var(--ink-mid);
+		font-size: 14px;
+		line-height: 1.55;
 	}
 
 	.sg-modal-header {
@@ -2272,6 +2299,13 @@
 		justify-content: flex-end;
 		gap: 8px;
 		margin-top: 8px;
+	}
+
+	@media (max-width: 640px) {
+		.sg-modal-preview-stage {
+			align-items: stretch;
+			flex-direction: column;
+		}
 	}
 
 	/* ----- §11 empty / error state ----- */

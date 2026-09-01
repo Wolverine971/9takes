@@ -27,6 +27,7 @@
 
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import { X } from '@lucide/svelte';
 	import { onDestroy, tick } from 'svelte';
 	import {
 		focusInitialElement,
@@ -54,6 +55,7 @@
 	export let describedBy: string | null = null;
 	export let initialFocus: string | null = null;
 	export let contentPadding: string | null = null;
+	export let oncloseattempt: (() => void) | null = null;
 
 	function keyPress(ev: KeyboardEvent) {
 		const node = topDiv;
@@ -64,14 +66,18 @@
 			return;
 		}
 
-		if (ev.key === 'Escape' && !disableClose) {
+		if (ev.key === 'Escape') {
 			ev.preventDefault();
-			close(ev);
+			if (disableClose) oncloseattempt?.();
+			else close(ev);
 		}
 	}
 
 	function closeIfAllowed(retVal: any) {
-		if (disableClose) return;
+		if (disableClose) {
+			oncloseattempt?.();
+			return;
+		}
 		close(retVal);
 	}
 
@@ -138,9 +144,10 @@
 </script>
 
 <div
-	class="fixed inset-0 z-[300] flex items-center justify-center bg-black/70 backdrop-blur-sm transition-all duration-300 {visible
+	class="modal-overlay fixed inset-0 z-[300] flex items-center justify-center bg-black/70 transition-[opacity,visibility] duration-300 {visible
 		? 'opacity-100'
 		: 'invisible opacity-0'}"
+	class:full-mobile-overlay={fullMobile}
 	bind:this={topDiv}
 	use:portal
 	role="dialog"
@@ -155,33 +162,21 @@
 >
 	<!-- Modal content container -->
 	<div
-		class="modal-container relative w-[95%] max-w-[calc(100vw-20px)] transform overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] shadow-[var(--shadow-xl)] transition-all duration-300 sm:w-auto {visible
+		class="modal-container relative w-[95%] transform overflow-hidden rounded-xl border border-[var(--stone-edge)] bg-[var(--stone-warm)] shadow-[var(--shadow-xl)] transition-[opacity,transform] duration-300 sm:w-auto {visible
 			? 'scale-100 opacity-100'
 			: 'scale-95 opacity-0'}"
 		class:full-mobile={fullMobile}
-		style={maxWidth ? `max-width: min(${maxWidth}, calc(100vw - 20px))` : ''}
+		style:--modal-max-width={maxWidth || undefined}
 	>
 		{#if !navTop}
 			<button
 				type="button"
 				on:click={closeIfAllowed}
 				aria-label="Close dialog"
-				class="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center rounded-full bg-[var(--night-deep)] p-0 transition-all duration-200 hover:rotate-90 hover:bg-[var(--lamp-soft)]"
+				disabled={disableClose}
+				class="absolute right-3 top-3 flex h-11 w-11 cursor-pointer items-center justify-center rounded-md border border-[var(--stone-edge)] bg-[var(--night-mid)] p-0 text-[var(--ink-mid)] transition-colors duration-200 hover:bg-[var(--stone-mid)] hover:text-[var(--ink-bright)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--lamp-glow)] disabled:cursor-not-allowed disabled:opacity-50"
 			>
-				<svg
-					width="16"
-					height="16"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					class="text-[var(--ink-mid)]"
-				>
-					<line x1="18" y1="6" x2="6" y2="18"></line>
-					<line x1="6" y1="6" x2="18" y2="18"></line>
-				</svg>
+				<X size={18} strokeWidth={2} aria-hidden="true" />
 			</button>
 		{/if}
 		<div class="modal-scroll-region" style:padding={contentPadding || undefined}>
@@ -191,7 +186,13 @@
 </div>
 
 <style>
+	.modal-overlay {
+		padding: max(1rem, env(safe-area-inset-top, 0px)) max(1rem, env(safe-area-inset-right, 0px))
+			max(1rem, env(safe-area-inset-bottom, 0px)) max(1rem, env(safe-area-inset-left, 0px));
+	}
+
 	.modal-container {
+		max-width: min(var(--modal-max-width, calc(100vw - 20px)), calc(100vw - 20px));
 		max-height: calc(100vh - 2rem);
 		max-height: calc(100dvh - 2rem);
 	}
@@ -200,6 +201,7 @@
 		max-height: calc(100vh - 2rem);
 		max-height: calc(100dvh - 2rem);
 		overflow-y: auto;
+		overscroll-behavior: contain;
 		padding: 1.5rem;
 	}
 
@@ -212,6 +214,10 @@
 	}
 
 	@media (max-width: 640px) {
+		.modal-overlay.full-mobile-overlay {
+			padding: 0;
+		}
+
 		:global(.modal-container.full-mobile) {
 			width: 100vw;
 			max-width: 100vw;

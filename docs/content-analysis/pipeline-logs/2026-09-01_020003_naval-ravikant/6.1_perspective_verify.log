@@ -1,0 +1,11 @@
+**Output:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/verification-initial.md`
+
+- **verification_status:** `fail`
+- **open_p0:** 1
+- **protected_hit_regressions:** 0
+
+SHA chain verified (context, synthesis, editor-resolution and `draft-reviewed.md` all match `e901dee5…a658f`). Current reader-visible hash: `338c0cd7e098ddc860b455793d47b86596bdc8e07efb7661acd2e5b1479006b7`.
+
+Seven of eight P0s pass. **P0-01 remains open**: the closing blockquote was correctly rebuilt on the first-party `nav.al` wording and every date now reads February 19, 2026, but the repair left a *second, unmarked* elision — the draft reads "break it down … until I understand it at the level that I want," while the source reads "until I **get the gist, and** I understand it at the level that I want." The string still isn't contiguous at the cited source, which is the exact failure mode all six perspectives flagged. Fix is +4 words against 12 words of lint headroom.
+
+All fourteen P1s are complete or completed to the level their tests require, all ten protected hits survive verbatim, and `blog-lint.sh` returns 0 fail / 1 warn at 4,488 of 4,500 words. Remaining work also flags two unsourced assertions introduced by repairs ("plaintiffs by then" in the settlement bridge; "no scene in this article puts him in a room with another living person," which the new Deutsch line contradicts) — both free words rather than cost them.

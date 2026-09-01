@@ -2,9 +2,13 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { goto, invalidateAll } from '$app/navigation';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Field, Input, Select, Textarea } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { tick } from 'svelte';
 	import type { PageData } from './$types';
+
+	const CREATE_CLIENT_MODAL_ID = 'create-consulting-client';
 
 	let { data }: { data: PageData } = $props();
 
@@ -65,7 +69,7 @@
 		});
 	}
 
-	function closeModal() {
+	function resetCreateForm() {
 		showCreateModal = false;
 		newClientName = '';
 		newClientEmail = '';
@@ -75,11 +79,14 @@
 		newClientGoal = '';
 	}
 
-	function handleOverlayKeydown(event: KeyboardEvent) {
-		if (event.key === 'Escape' || event.key === 'Enter' || event.key === ' ') {
-			event.preventDefault();
-			closeModal();
-		}
+	function openCreateClientModal() {
+		showCreateModal = true;
+		void tick().then(() => getModal(CREATE_CLIENT_MODAL_ID)?.open(resetCreateForm));
+	}
+
+	function closeModal() {
+		if (showCreateModal) getModal(CREATE_CLIENT_MODAL_ID)?.close(null);
+		else resetCreateForm();
 	}
 
 	const statusLabels: Record<string, { label: string; color: string }> = {
@@ -105,7 +112,7 @@
 			<h1>Clients</h1>
 			<p class="subtitle">{data.totalClients} total clients</p>
 		</div>
-		<Button onclick={() => (showCreateModal = true)}>+ New Client</Button>
+		<Button onclick={openCreateClientModal}>+ New Client</Button>
 	</div>
 
 	<!-- Filters -->
@@ -153,7 +160,7 @@
 		{#if data.clients.length === 0}
 			<div class="empty-state">
 				<p>No clients found</p>
-				<Button onclick={() => (showCreateModal = true)}>Create your first client</Button>
+				<Button onclick={openCreateClientModal}>Create your first client</Button>
 			</div>
 		{:else}
 			<table class="clients-table desktop-clients-table">
@@ -313,99 +320,91 @@
 </div>
 
 <!-- Create Client Modal -->
-{#if showCreateModal}
-	<div
-		class="modal-overlay"
-		role="dialog"
-		aria-modal="true"
-		aria-labelledby="create-client-title"
-		tabindex="-1"
-		onclick={(e) => {
-			if (e.target === e.currentTarget) closeModal();
-		}}
-		onkeydown={handleOverlayKeydown}
-	>
-		<div class="modal">
-			<div class="modal-header">
-				<h2 id="create-client-title">New Client</h2>
-				<button class="close-btn" onclick={closeModal}>&times;</button>
+<Modal
+	id={CREATE_CLIENT_MODAL_ID}
+	labelledBy="create-client-title"
+	initialFocus="#client-name"
+	maxWidth="500px"
+	contentPadding="0"
+>
+	<div class="create-client-shell">
+		<header class="modal-header">
+			<p class="modal-kicker">CONSULTING · NEW RECORD</p>
+			<h2 id="create-client-title">New Client</h2>
+		</header>
+
+		<form
+			method="POST"
+			action="?/createClient"
+			use:enhance={() => {
+				isCreating = true;
+				return async ({ result }) => {
+					isCreating = false;
+					if (result.type === 'success') {
+						notifications.success('Client created successfully', 3000);
+						closeModal();
+						invalidateAll();
+					} else if (result.type === 'failure') {
+						notifications.danger(String(result.data?.error || 'Failed to create client'), 3000);
+					}
+				};
+			}}
+		>
+			<div class="form-grid">
+				<Field for="client-name" label="Name" required>
+					<Input id="client-name" name="name" bind:value={newClientName} required />
+				</Field>
+
+				<Field for="client-email" label="Email" required>
+					<Input id="client-email" name="email" type="email" bind:value={newClientEmail} required />
+				</Field>
+
+				<Field for="client-phone" label="Phone" optional>
+					<Input id="client-phone" name="phone" type="tel" bind:value={newClientPhone} />
+				</Field>
+
+				<Field for="client-enneagram-type" label="Enneagram type" optional>
+					<Select id="client-enneagram-type" name="enneagramType" bind:value={newClientType}>
+						<option value="">Unknown</option>
+						{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type (type)}
+							<option value={type.toString()}>Type {type}</option>
+						{/each}
+					</Select>
+				</Field>
+
+				<Field
+					for="client-source"
+					label="Acquisition source"
+					optional
+					help="Referral, blog, social media, or another channel."
+				>
+					<Input
+						type="text"
+						id="client-source"
+						name="source"
+						bind:value={newClientSource}
+						placeholder="Referral"
+					/>
+				</Field>
+
+				<Field for="client-initial-goal" label="Initial goal" optional class="full-width">
+					<Textarea
+						id="client-initial-goal"
+						name="initialGoal"
+						bind:value={newClientGoal}
+						rows={3}
+						placeholder="Their stated goal or reason for reaching out..."
+					/>
+				</Field>
 			</div>
 
-			<form
-				method="POST"
-				action="?/createClient"
-				use:enhance={() => {
-					isCreating = true;
-					return async ({ result }) => {
-						isCreating = false;
-						if (result.type === 'success') {
-							notifications.success('Client created successfully', 3000);
-							closeModal();
-							invalidateAll();
-						} else if (result.type === 'failure') {
-							notifications.danger(String(result.data?.error || 'Failed to create client'), 3000);
-						}
-					};
-				}}
-			>
-				<div class="form-grid">
-					<div class="form-group">
-						<label for="name">Name *</label>
-						<input type="text" id="name" name="name" bind:value={newClientName} required />
-					</div>
-
-					<div class="form-group">
-						<label for="email">Email *</label>
-						<input type="email" id="email" name="email" bind:value={newClientEmail} required />
-					</div>
-
-					<div class="form-group">
-						<label for="phone">Phone</label>
-						<input type="tel" id="phone" name="phone" bind:value={newClientPhone} />
-					</div>
-
-					<div class="form-group">
-						<label for="enneagramType">Enneagram Type</label>
-						<select id="enneagramType" name="enneagramType" bind:value={newClientType}>
-							<option value="">Unknown</option>
-							{#each [1, 2, 3, 4, 5, 6, 7, 8, 9] as type (type)}
-								<option value={type.toString()}>Type {type}</option>
-							{/each}
-						</select>
-					</div>
-
-					<div class="form-group">
-						<label for="source">How did they find you?</label>
-						<input
-							type="text"
-							id="source"
-							name="source"
-							bind:value={newClientSource}
-							placeholder="e.g., referral, blog, social media"
-						/>
-					</div>
-
-					<div class="form-group full-width">
-						<label for="initialGoal">What do they want to work on?</label>
-						<textarea
-							id="initialGoal"
-							name="initialGoal"
-							bind:value={newClientGoal}
-							rows="3"
-							placeholder="Their stated goal or reason for reaching out..."></textarea>
-					</div>
-				</div>
-
-				<div class="modal-footer">
-					<Button type="button" variant="secondary" onclick={closeModal}>Cancel</Button>
-					<Button type="submit" loading={isCreating}>
-						{isCreating ? 'Creating...' : 'Create Client'}
-					</Button>
-				</div>
-			</form>
-		</div>
+			<footer class="modal-footer">
+				<Button type="button" variant="secondary" onclick={closeModal}>Cancel</Button>
+				<Button type="submit" loading={isCreating}>Create Client</Button>
+			</footer>
+		</form>
 	</div>
-{/if}
+</Modal>
 
 <style>
 	.clients-page {
@@ -635,50 +634,34 @@
 		margin: 0 0 1rem;
 	}
 
-	/* Modal */
-	.modal-overlay {
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background: rgba(0, 0, 0, 0.5);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 1000;
-		padding: 1rem;
-	}
-
-	.modal {
-		background: var(--stone-warm);
-		border-radius: 1rem;
+	.create-client-shell {
 		width: 100%;
-		max-width: 500px;
-		max-height: 90vh;
-		overflow-y: auto;
+		background: var(--stone-warm);
 	}
 
 	.modal-header {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		padding: 1rem 1.5rem;
-		border-bottom: 1px solid var(--stone-warm);
+		display: block;
+		padding: 1.125rem 4.75rem 1rem 1.5rem;
+		border-bottom: 1px solid var(--stone-edge);
+	}
+
+	.modal-header h2,
+	.modal-kicker {
+		margin: 0;
 	}
 
 	.modal-header h2 {
-		margin: 0;
 		font-size: 1.125rem;
+		color: var(--ink-bright);
 	}
 
-	.close-btn {
-		background: none;
-		border: none;
-		font-size: 1.5rem;
-		cursor: pointer;
-		color: var(--ink-mid);
-		line-height: 1;
+	.modal-kicker {
+		margin-bottom: 0.25rem;
+		color: var(--lamp-glow);
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
 	}
 
 	.form-grid {
@@ -688,33 +671,8 @@
 		padding: 1.5rem;
 	}
 
-	.form-group {
-		display: flex;
-		flex-direction: column;
-		gap: 0.375rem;
-	}
-
-	.form-group.full-width {
+	:global(.full-width) {
 		grid-column: 1 / -1;
-	}
-
-	.form-group label {
-		font-size: 0.8rem;
-		font-weight: 500;
-	}
-
-	.form-group input,
-	.form-group select,
-	.form-group textarea {
-		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--stone-warm);
-		border-radius: 0.625rem;
-		font-size: 0.875rem;
-		font-family: inherit;
-	}
-
-	.form-group textarea {
-		resize: vertical;
 	}
 
 	.modal-footer {
@@ -722,7 +680,7 @@
 		justify-content: flex-end;
 		gap: 0.75rem;
 		padding: 1rem 1.5rem;
-		border-top: 1px solid var(--stone-warm);
+		border-top: 1px solid var(--stone-edge);
 	}
 
 	/* Button visuals now owned by the Button atom. */

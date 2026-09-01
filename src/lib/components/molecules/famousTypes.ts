@@ -133,7 +133,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'jennifer-lopez', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Bronx\'s Relentless Reinventor', contentGrade: 8.9, types: ['celebrity', 'musician', 'movieStar', 'screen-icon', 'music-crossover'] },
 		{ name: 'john-travolta', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Eternal Shapeshifter', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'jonah-hill', link: false, hasImage: true, lastmod: '2026-08-28', personaTitle: 'Hollywood\'s Perpetual Renovation', contentGrade: 8, types: ['movieStar', 'comedian', 'screen-icon'] },
-		{ name: 'jonathan-bailey', link: false, hasImage: true, lastmod: '2026-08-21', personaTitle: 'Theatre\'s Rehearsed Natural', contentGrade: 8.7, types: ['movieStar', 'celebrity'] },
+		{ name: 'jonathan-bailey', link: true, hasImage: true, lastmod: '2026-09-01', personaTitle: 'Theatre\'s Rehearsed Natural', contentGrade: 8.7, types: ['movieStar', 'celebrity'] },
 		{ name: 'jordi-hays', link: true, hasImage: true, lastmod: '2026-03-21', personaTitle: 'Tech\'s Serious Showman', contentGrade: 8.5, types: ['creator', 'entrepreneur', 'business-creator', 'business-operator'] },
 		{ name: 'josh-richards', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
 		{ name: 'julius-caesar', link: true, hasImage: true, lastmod: '2026-03-09', personaTitle: 'History\'s Relentless Conqueror', contentGrade: 8.8, types: ['historical', 'historical-leader'] },

@@ -61,6 +61,7 @@ citations:
   - 'https://en.wikipedia.org/wiki/David_Friedberg'
   - 'https://allin.com/about/david-friedberg'
   - 'https://en.wikipedia.org/wiki/The_Climate_Corporation'
+  - 'https://www.gettyimages.com/detail/news-photo/allison-broude-friedberg-director-at-smartstart-sf-and-news-photo/1155138145'
 faqs:
   - question: "What is David Friedberg's personality type?"
     answer: 'David Friedberg is an Enneagram Type 5, the Investigator. He leads with data, retreats into systems thinking, and consistently follows evidence past the emotional implications, including selling his climate company to a firm his own father called the most evil company in the world.'
@@ -71,6 +72,9 @@ faqs:
   - question: 'What is Friedberg trying to do at Ohalo Genetics?'
     answer: 'At Ohalo he is trying to double crop yields through polyploid plant breeding so the world can feed ten billion people without expanding farmland. It is a textbook Type 5 project, an under-the-radar systems-level bet that trusts compounding biological data more than the attention economy.'
     anchor: 'feeding-ten-billion'
+  - question: "Who is David Friedberg's wife?"
+    answer: "David Friedberg is married to Allison Broude Friedberg, a director at SmartStart SF, who has been photographed with him at the Allen & Company conference in Sun Valley. Beyond that he keeps his family almost entirely out of public view. Claims about his children that circulate on automated biography sites are not supported by any reliable published source."
+    anchor: 'what-is-david-friedbergs-personality-type'
 path: src/blog/people/drafts/David-Friedberg.md
 ---
 
@@ -192,7 +196,7 @@ Friedberg's entire career is a Five's biography.
 
 - **The knowledge-as-safety instinct**: Poker on the resume. Astrophysics at Berkeley. Weather modeling at a startup. Data science for agriculture. Gene editing for crop yields. Each leap goes deeper into more complex systems. A Five doesn't feel safe until they've understood the architecture.
 
-- **The privacy reflex**: Friedberg keeps his personal life almost entirely out of public view. He has a wife, Allison Broude Friedberg, and three children in San Francisco. You'd barely know from anything he's ever said publicly. His co-hosts on the All-In Podcast — [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya), [Jason Calacanis](/personality-analysis/jason-calacanis), [David Sacks](/personality-analysis/david-sacks) — are flamingly public personalities. Friedberg is the one who shows up with data.
+- **The privacy reflex**: What is publicly documented about Friedberg's family is close to nothing. He is married to Allison Broude Friedberg, a director at SmartStart SF, who has appeared alongside him at the Allen & Company conference in Sun Valley. That is roughly the entire public record, and the blank space is the tell. His co-hosts on the All-In Podcast — [Chamath Palihapitiya](/personality-analysis/chamath-palihapitiya), [Jason Calacanis](/personality-analysis/jason-calacanis), [David Sacks](/personality-analysis/david-sacks) — are flamingly public personalities. Friedberg is the one who shows up with data.
 
 Under stress, Fives move toward [Type 7](/enneagram-corner/enneagram-type-7) — becoming scattered, impulsive, chasing new stimulations to avoid the anxiety of not knowing enough. You can see this in Friedberg's portfolio: Climate Corporation, Metromile, Eatsa, Cana, Ohalo, The Production Board. The ventures multiply. The scope expands. When the tension between knowing and doing becomes unbearable, a Five starts more projects.
 

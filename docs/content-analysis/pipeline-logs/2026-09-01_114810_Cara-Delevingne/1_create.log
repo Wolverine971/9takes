@@ -1,0 +1,25 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Cara-Delevingne.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 pass (5 qualifying testimony quotes) | Gate 2 pass (5 of 7 H2s search-intent/hybrid) | Gate 3 pass (no self-loop) | Gate 4 pass | Gate 5 pass (1 type-theory paragraph, ceiling 4) | Gate 6 pass (0 contrast pairs, similarity clear)
+LIMITATIONS: Call Her Daddy quotes come from a third-party transcript, not audio; Rolling Stone US, CNN and Today.com were paywalled or blocked so quotes came from the RS Canada edition and syndicated copies; the W magazine issue behind the psoriasis quote is not pinned; the July 2026 Playboy interview named in the packet was not retrieved and is unused.
+```
+
+**The type call goes against the crowd.** Six crowd-vote databases have her at 7w6. The draft argues **Type 4, 4w3, sexual-dominant** and concedes the Seven case explicitly before breaking the tie. The tiebreaker is her own account of collecting broken bones: *"I broke my elbow, and being like, 'Oh, yay.' Like, I can finally have a cast and say, 'Ow, I'm hurting.'"* A Seven exits pain; she wanted a token she could point at. Her debut album is literally titled *Not Normal*.
+
+**What the packet asked for, and what it got.** The packet ruled this a typology-lane create, not a biography play — her general-name SERP is unwinnable. So the page opens by establishing who she is in 2026 (album 25 Sep, tour since 1 Jun, Rag & Bone), answers age/parents/school/partner in passing prose, and spends its weight on the one query family nobody credible owns.
+
+**The bespoke section is the strongest thing in it.** A sourced three-column ledger of six dated moments where her body produced visible evidence before she could speak: a hunger strike at seven, years in her sister's bed, the breakdown at fifteen, a year of fractures, psoriasis erupting on the Fashion Week schedule, and the 2022 airport photographs that finally got her help. Each row carries her own quote. That form collapses on any other subject.
+
+Two things worth your attention:
+
+1. **I cut a fabricated attribution.** My first pass had Bella Hadid saying the runway felt "like wearing a costume of herself." I made that up. It's gone, replaced with an unattributed cross-link.
+2. **The similarity scan caught real formula.** My counter-typing opener scored 0.259 against Freddie-Mercury ("The 3w4 case is genuinely strong") and the diagnosis opener matched kacey-musgraves. Both rewritten; scan is now clear.
+
+Also worth noting: the draft never had a TL;DR block on first write, and `blog-lint.sh` reported "TL;DR accordion present" anyway — it appears to match the rabbit hole's `<summary class="accordion">`. That check is a false pass; I caught the omission by eye, not from the lint.
+
+Research evidence persisted to `docs/content-analysis/research/Cara-Delevingne.md` for the downstream perspective-review stage. No grade emitted — that's `/grade_blog`'s job. Next step after your review is `/blog_content_production_people`.

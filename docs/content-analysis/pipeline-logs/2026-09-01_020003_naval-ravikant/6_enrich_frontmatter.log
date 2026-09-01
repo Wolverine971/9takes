@@ -1,0 +1,37 @@
+YAML parses clean, `lastmod` untouched, body byte-identical.
+
+```
+Frontmatter enrichment complete: Naval-Ravikant
+
+Fields filled:
+- wikidata_qid (Q84323677)
+- same_as (expanded 2 → 5)
+
+Fields already present (preserved untouched):
+- wikipedia, birth_date, birth_place, nationality, occupation,
+  knows_about, keywords, citations (10), faqs (4)
+
+FAQs generated: 0 — existing block is substantive and body-derived
+1. What is Naval Ravikant's personality type? → #what-is-naval-ravikants-personality-type
+2. What was Naval Ravikant's childhood like? → #the-queens-apartment-naval-ravikant-keeps-describing
+3. Why did Naval Ravikant sue Benchmark and August Capital? → #why-naval-ravikant-sued-the-investors-who-made-him
+4. What is Naval Ravikant famous for? → #how-naval-ravikant-turned-the-black-box-into-angellist
+
+Issues:
+- imdb_id intentionally omitted — Wikidata Q84323677 has no P345 claim and he has no film presence
+```
+
+Verification notes:
+
+- **Wikipedia identity confirmed** — the page is the biographical article for the AngelList co-founder (birth Nov 5 1974, New Delhi), not a namesake or company page.
+- **Wikidata QID** pulled from the entity JSON, label `Naval Ravikant`, description "Indian American entrepreneur and investor."
+- **New `same_as` entries verified individually**: Open Library `OL13626468A` returns HTTP 200 and redirects to `/Naval_Ravikant`; the Library of Congress record returns 403 to curl (bot-blocking) but its JSON authority record resolves with `authoritativeLabel: "Ravikant, Naval, 1974-"`. I skipped VIAF — the P214 value on Wikidata is a scaffold-style ID that doesn't resolve to a working cluster URL.
+
+Two things I left alone deliberately, both judgment calls worth flagging:
+
+- **`nationality: 'American'`** — Wikipedia describes him as "Indian-born American," which by the command's rule would argue for a list. But the existing value is a real, defensible value and the command is additive-only, so I didn't overwrite it. Say the word if you want it as `['Indian', 'American']`.
+- **`citations` has 10 items**, above the 3–8 guideline. All ten were already there and all are genuine body sources, so trimming would have been destructive for no gain.
+
+The four existing FAQs showed none of the 2026 backfill telltales ("with supporting context from", frontmatter-assembled answers) — they quote the body directly and their anchors all match real H2s in the file, so idempotency applied and I left the block byte-identical.
+
+Sources: [Wikipedia](https://en.wikipedia.org/wiki/Naval_Ravikant), [Wikidata Q84323677](https://www.wikidata.org/wiki/Q84323677), [LoC authority no2023087039](https://id.loc.gov/authorities/names/no2023087039), [Open Library](https://openlibrary.org/authors/OL13626468A)

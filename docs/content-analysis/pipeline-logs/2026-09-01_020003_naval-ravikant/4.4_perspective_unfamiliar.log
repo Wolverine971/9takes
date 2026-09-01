@@ -1,0 +1,19 @@
+All eleven required H2 headings present in order, counts match the document (3 blockers, 8 concerns), and the YAML parses.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. SHA verified against `context.json` and the supplied `--draft-sha` before reading; first read was strictly unaided per the unfamiliar-reader exception.
+
+**Blockers: 3**
+
+1. **UNFAM-R1** — The closing pull-quote ("nothing is beyond me…") is presented as verbatim primary quotation with a named source and date, and is neither. The nav.al primary reads longer and differently ("any physics *textbook*," not "physics paper"), and is dated Feb 19, not February 22. It's the article's emotional payoff, aimed at the reader least able to check it.
+2. **UNFAM-R2** — The first sentence says his mother moved the boys from New Delhi; the Queens section says the family emigrated together and the father worked a NY hardware store before the split. The only blocker detectable cold, without leaving the page.
+3. **UNFAM-R3** — Two Ferriss quotes from different parts of the transcript are staged as a live exchange ("said it to his face… took the read and raised it"). The causal arrow actually runs the other way: Naval supplied the word "combatant" first.
+
+**Strongest hit:** the ending — "what arrived is a thing that will explain any book to him, at any hour, and never closes" — reaching back to the library from paragraph one, 4,000 words later. It landed on me cold and survives the R1 repair untouched.
+
+**Highest-priority concern:** UNFAM-C1 — the bespoke centerpiece, the aphorism autopsy, builds its two best beats on a lawsuit the article doesn't tell for another two sections. A newcomer gets the gesture without the referent.
+
+Two notes worth flagging beyond my lane: the plaintiff-count error (C3) also ships inside FAQ structured data, and the Rabbit Hole asserts "twenty years of transcripts" contain no counterevidence over a corpus the packet says was never examined (Q3).
+
+One environment issue: the `supabase` MCP server failed to connect this session (`CONNECTION_CLOSED`), and `buildos` needs authorization via an interactive session. Neither blocked this review, but they'll matter if the next step touches the database.

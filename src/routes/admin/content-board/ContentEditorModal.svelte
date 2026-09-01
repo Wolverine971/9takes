@@ -1,12 +1,15 @@
 <!-- src/routes/admin/content-board/ContentEditorModal.svelte -->
 <script lang="ts">
-	import { onDestroy } from 'svelte';
-	import { fade, fly } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
+	import { tick } from 'svelte';
+	import { Check, Save, X } from '@lucide/svelte';
 	import MarkdownEditor from './MarkdownEditor.svelte';
 	import MetadataSidebar from './MetadataSidebar.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
-	import { Button } from '$lib/components/atoms';
+	import { Button, Spinner } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
+
+	const EDITOR_MODAL_ID = 'content-board-editor';
+	const UNSAVED_MODAL_ID = 'content-board-unsaved-warning';
 
 	interface HistoryItem {
 		id: number;
@@ -41,7 +44,8 @@
 	let stageName = $state<string | null>(null);
 	let showUnsavedWarning = $state(false);
 	let mobileTab = $state<'content' | 'metadata'>('content');
-	let previousOverflow = $state('');
+	let editorModalActive = $state(false);
+	let warningModalActive = $state(false);
 
 	// Check if this is database content (people) or file-based (enneagram, community, guides)
 	let isEditable = $derived(contentType === 'people' && blogId !== null);
@@ -93,21 +97,46 @@
 		}
 	});
 
-	// Body scroll lock
+	// Keep the bindable parent state and the shared modal controller in sync.
 	$effect(() => {
-		if (typeof document !== 'undefined') {
-			if (open) {
-				previousOverflow = document.body.style.overflow;
-				document.body.style.overflow = 'hidden';
-			} else {
-				document.body.style.overflow = previousOverflow;
-			}
+		if (open && !editorModalActive) {
+			editorModalActive = true;
+			void tick().then(() => {
+				const controller = getModal(EDITOR_MODAL_ID);
+				if (!controller) {
+					editorModalActive = false;
+					return;
+				}
+
+				controller.open(() => {
+					editorModalActive = false;
+					showUnsavedWarning = false;
+					open = false;
+					onclose?.();
+				});
+			});
+		} else if (!open && editorModalActive) {
+			getModal(EDITOR_MODAL_ID)?.close(null);
 		}
 	});
 
-	onDestroy(() => {
-		if (typeof document !== 'undefined') {
-			document.body.style.overflow = previousOverflow;
+	$effect(() => {
+		if (showUnsavedWarning && !warningModalActive) {
+			warningModalActive = true;
+			void tick().then(() => {
+				const controller = getModal(UNSAVED_MODAL_ID);
+				if (!controller) {
+					warningModalActive = false;
+					return;
+				}
+
+				controller.open(() => {
+					warningModalActive = false;
+					showUnsavedWarning = false;
+				});
+			});
+		} else if (!showUnsavedWarning && warningModalActive) {
+			getModal(UNSAVED_MODAL_ID)?.close(null);
 		}
 	});
 
@@ -157,8 +186,8 @@
 	}
 
 	// Save content
-	async function save() {
-		if (!isEditable || !isDirty) return;
+	async function save(): Promise<boolean> {
+		if (!isEditable || !isDirty) return true;
 
 		saving = true;
 		try {
@@ -178,9 +207,11 @@
 			originalData = { ...result.data };
 			notifications.success('Content saved successfully');
 			onsaved?.(data);
+			return true;
 		} catch (error) {
 			console.error('Error saving content:', error);
 			notifications.danger('Failed to save content');
+			return false;
 		} finally {
 			saving = false;
 		}
@@ -188,9 +219,7 @@
 
 	// Save and close
 	async function saveAndClose() {
-		if (isDirty && isEditable) {
-			await save();
-		}
+		if (isDirty && isEditable && !(await save())) return;
 		closeModal();
 	}
 
@@ -204,33 +233,38 @@
 	}
 
 	function closeModal() {
-		showUnsavedWarning = false;
-		open = false;
-		onclose?.();
+		if (warningModalActive) getModal(UNSAVED_MODAL_ID)?.close(null);
+		else showUnsavedWarning = false;
+
+		if (editorModalActive) getModal(EDITOR_MODAL_ID)?.close(null);
+		else {
+			open = false;
+			onclose?.();
+		}
 	}
 
 	function discardAndClose() {
-		showUnsavedWarning = false;
 		closeModal();
+	}
+
+	function dismissUnsavedWarning() {
+		if (warningModalActive) getModal(UNSAVED_MODAL_ID)?.close(null);
+		else showUnsavedWarning = false;
 	}
 
 	// Keyboard shortcuts
 	function handleKeydown(e: KeyboardEvent) {
 		if (!open) return;
 
-		if (e.key === 'Escape') {
+		if (e.key === 'Escape' && isDirty && !showUnsavedWarning) {
 			e.preventDefault();
-			if (showUnsavedWarning) {
-				showUnsavedWarning = false;
-			} else {
-				attemptClose();
-			}
+			attemptClose();
 		}
 
-		if ((e.metaKey || e.ctrlKey) && e.key === 's') {
+		if (!showUnsavedWarning && (e.metaKey || e.ctrlKey) && e.key === 's') {
 			e.preventDefault();
 			if (isEditable && isDirty) {
-				save();
+				void save();
 			}
 		}
 	}
@@ -238,38 +272,32 @@
 
 <svelte:window onkeydown={handleKeydown} />
 
-{#if open}
-	<!-- Backdrop -->
-	<div
-		class="modal-backdrop"
-		onclick={attemptClose}
-		onkeydown={() => {}}
-		transition:fade={{ duration: 200 }}
-		role="presentation"
-	></div>
-
-	<!-- Modal Container -->
-	<div
-		class="modal-container"
-		role="dialog"
-		aria-modal="true"
-		aria-labelledby="modal-title"
-		transition:fly={{ y: 20, duration: 300, easing: cubicOut }}
-	>
+<Modal
+	id={EDITOR_MODAL_ID}
+	labelledBy="content-editor-title"
+	initialFocus="#content-editor-close"
+	maxWidth="1440px"
+	contentPadding="0"
+	navTop
+	fullMobile
+	disableClose={isDirty}
+	oncloseattempt={attemptClose}
+>
+	<div class="editor-shell">
 		<!-- Header -->
 		<header class="modal-header">
 			<div class="header-left">
-				<button class="close-btn" onclick={attemptClose} aria-label="Close">
-					<svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M6 18L18 6M6 6l12 12"
-						/>
-					</svg>
-				</button>
-				<h2 id="modal-title" class="modal-title">
+				<Button
+					id="content-editor-close"
+					class="editor-close"
+					variant="ghost"
+					size="sm"
+					onclick={attemptClose}
+					aria-label="Close content editor"
+				>
+					{#snippet icon()}<X size={19} strokeWidth={2} aria-hidden="true" />{/snippet}
+				</Button>
+				<h2 id="content-editor-title" class="modal-title">
 					{displayTitle}
 					{#if isDirty}
 						<span class="dirty-indicator" title="Unsaved changes">●</span>
@@ -282,30 +310,23 @@
 
 			<div class="header-right">
 				{#if isEditable}
-					<Button variant="secondary" onclick={save} disabled={!isDirty} loading={saving}>
+					<Button
+						class="save-button"
+						variant="secondary"
+						size="sm"
+						onclick={() => void save()}
+						disabled={!isDirty}
+						loading={saving}
+					>
 						{#snippet icon()}
-							<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"
-								/>
-							</svg>
+							<Save size={16} strokeWidth={2} aria-hidden="true" />
 						{/snippet}
 						Save
 					</Button>
 				{/if}
-				<Button onclick={saveAndClose}>
+				<Button size="sm" onclick={saveAndClose} loading={saving}>
 					{#snippet icon()}
-						<svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M5 13l4 4L19 7"
-							/>
-						</svg>
+						<Check size={16} strokeWidth={2} aria-hidden="true" />
 					{/snippet}
 					Done
 				</Button>
@@ -317,6 +338,7 @@
 			<button
 				class="mobile-tab"
 				class:active={mobileTab === 'content'}
+				aria-pressed={mobileTab === 'content'}
 				onclick={() => (mobileTab = 'content')}
 			>
 				Content
@@ -324,6 +346,7 @@
 			<button
 				class="mobile-tab"
 				class:active={mobileTab === 'metadata'}
+				aria-pressed={mobileTab === 'metadata'}
 				onclick={() => (mobileTab = 'metadata')}
 			>
 				Metadata
@@ -334,23 +357,7 @@
 		<div class="modal-content">
 			{#if loading}
 				<div class="loading-state">
-					<svg class="h-8 w-8 animate-spin text-[var(--lamp-glow)]" viewBox="0 0 24 24">
-						<circle
-							class="opacity-25"
-							cx="12"
-							cy="12"
-							r="10"
-							stroke="currentColor"
-							stroke-width="4"
-							fill="none"
-						/>
-						<path
-							class="opacity-75"
-							fill="currentColor"
-							d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-						/>
-					</svg>
-					<span>Loading content...</span>
+					<Spinner size="md" label="Loading content">Loading content…</Spinner>
 				</div>
 			{:else}
 				<!-- Editor Panel -->
@@ -377,57 +384,59 @@
 			{/if}
 		</div>
 	</div>
+</Modal>
 
-	<!-- Unsaved Changes Warning -->
-	{#if showUnsavedWarning}
-		<div class="warning-overlay" transition:fade={{ duration: 150 }}>
-			<div class="warning-dialog" transition:fly={{ y: -10, duration: 200 }}>
-				<h3 class="warning-title">Unsaved Changes</h3>
-				<p class="warning-message">You have unsaved changes. What would you like to do?</p>
-				<div class="warning-actions">
-					<Button variant="secondary" onclick={() => (showUnsavedWarning = false)}>Cancel</Button>
-					<Button variant="danger" onclick={discardAndClose}>Discard Changes</Button>
-					<Button onclick={saveAndClose}>Save &amp; Close</Button>
-				</div>
-			</div>
+<Modal
+	id={UNSAVED_MODAL_ID}
+	labelledBy="unsaved-warning-title"
+	describedBy="unsaved-warning-message"
+	initialFocus="#keep-editing-button"
+	maxWidth="420px"
+	contentPadding="0"
+	navTop
+>
+	<div class="warning-dialog">
+		<p class="warning-kicker">UNSAVED DRAFT</p>
+		<h3 id="unsaved-warning-title" class="warning-title">Keep your changes?</h3>
+		<p id="unsaved-warning-message" class="warning-message">
+			This draft has changes that have not been saved yet.
+		</p>
+		<div class="warning-actions">
+			<Button id="keep-editing-button" variant="secondary" onclick={dismissUnsavedWarning}
+				>Keep editing</Button
+			>
+			<Button variant="danger" onclick={discardAndClose}>Discard</Button>
+			{#if isEditable}
+				<Button onclick={saveAndClose} loading={saving}>Save &amp; close</Button>
+			{/if}
 		</div>
-	{/if}
-{/if}
+	</div>
+</Modal>
 
 <style lang="scss">
-	.modal-backdrop {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.7);
-		backdrop-filter: blur(4px);
-		z-index: 9990;
-	}
-
-	.modal-container {
-		position: fixed;
-		top: 24px;
-		left: 24px;
-		right: 24px;
-		bottom: 24px;
+	.editor-shell {
+		width: calc(100vw - 3rem);
+		max-width: 1440px;
+		height: min(85vh, calc(100vh - 2rem));
+		height: min(85dvh, calc(100dvh - 2rem));
 		background: var(--stone-warm);
-		border: 1px solid var(--stone-warm);
-		border-radius: 1rem;
-		box-shadow:
-			0 25px 50px -12px rgba(0, 0, 0, 0.5),
-			var(--glow-sm);
-		z-index: 9991;
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
 		overflow: hidden;
 
 		@media (max-width: 768px) {
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			border-radius: 0;
-			border: none;
+			width: 100%;
+			height: min(85vh, calc(100vh - 2rem));
+			height: min(85dvh, calc(100dvh - 2rem));
+		}
+	}
+
+	@media (max-width: 640px) {
+		.editor-shell {
+			width: 100vw;
+			height: 100vh;
+			height: 100dvh;
 		}
 	}
 
@@ -436,7 +445,7 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 12px 16px;
-		border-bottom: 1px solid var(--stone-warm);
+		border-bottom: 1px solid var(--stone-edge);
 		background: var(--night-deep);
 		flex-shrink: 0;
 
@@ -458,29 +467,11 @@
 		}
 	}
 
-	.close-btn {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 36px;
-		height: 36px;
-		border: none;
-		background: none;
-		border-radius: 0.625rem;
-		color: var(--ink-mid);
-		cursor: pointer;
-		transition: all 0.15s ease;
-		flex-shrink: 0;
-
-		&:hover {
-			background: var(--stone-warm);
-			color: var(--ink-bright);
-		}
-
-		@media (max-width: 768px) {
-			width: 44px;
-			height: 44px;
-		}
+	:global(.editor-close) {
+		width: 44px;
+		height: 44px;
+		padding: 0;
+		flex: 0 0 auto;
 	}
 
 	.modal-title {
@@ -524,12 +515,16 @@
 
 		@media (max-width: 768px) {
 			gap: 6px;
+
+			:global(.save-button) {
+				display: none;
+			}
 		}
 	}
 
 	.mobile-tabs {
 		display: none;
-		border-bottom: 1px solid var(--stone-warm);
+		border-bottom: 1px solid var(--stone-edge);
 		background: var(--stone-warm);
 
 		@media (max-width: 768px) {
@@ -623,27 +618,19 @@
 		}
 	}
 
-	.warning-overlay {
-		position: fixed;
-		inset: 0;
-		background: rgba(0, 0, 0, 0.7);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 9992;
-		padding: 16px;
-	}
-
 	.warning-dialog {
 		background: var(--stone-warm);
-		border: 1px solid var(--stone-warm);
-		border-radius: 1rem;
 		padding: 24px;
-		max-width: 400px;
 		width: 100%;
-		box-shadow:
-			0 25px 50px -12px rgba(0, 0, 0, 0.5),
-			var(--glow-sm);
+	}
+
+	.warning-kicker {
+		margin: 0 0 6px;
+		color: var(--warning);
+		font-family: var(--font-mono);
+		font-size: 0.7rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
 	}
 
 	.warning-title {
@@ -670,19 +657,6 @@
 			:global(.btn) {
 				width: 100%;
 			}
-		}
-	}
-
-	.animate-spin {
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		from {
-			transform: rotate(0deg);
-		}
-		to {
-			transform: rotate(360deg);
 		}
 	}
 </style>

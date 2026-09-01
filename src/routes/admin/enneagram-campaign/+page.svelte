@@ -240,7 +240,7 @@
 		margin-bottom: 1.25rem;
 		padding: 1rem 1.25rem;
 		border: 1px solid color-mix(in srgb, var(--data-teal) 38%, var(--stone-edge));
-		border-radius: 8px;
+		border-radius: 16px;
 		background: color-mix(in srgb, var(--data-teal) 7%, var(--night-surface));
 	}
 
@@ -272,7 +272,7 @@
 	.metric,
 	.panel {
 		border: 1px solid var(--stone-edge);
-		border-radius: 8px;
+		border-radius: 16px;
 		background: var(--night-surface);
 	}
 
@@ -321,7 +321,7 @@
 		min-width: 13rem;
 		padding: 0.65rem 0.75rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 6px;
+		border-radius: 10px;
 		background: var(--night-deep);
 		color: var(--ink-bright);
 	}
@@ -345,7 +345,7 @@
 		max-height: 58rem;
 		overflow: auto;
 		border: 1px solid var(--stone-edge);
-		border-radius: 6px;
+		border-radius: 16px;
 	}
 
 	table {

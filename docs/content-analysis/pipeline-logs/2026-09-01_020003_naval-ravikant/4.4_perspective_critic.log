@@ -1,0 +1,13 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/critic.md`
+
+SHA verified against `context.json` and the supplied `--draft-sha` before auditing; snapshot only, no other perspective files opened.
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **4 blockers, 8 concerns.**
+
+**Strongest hit** — the draft refuses to let its own empathy turn acquit the subject: *"The boy who needed portable help grew up to manufacture it at scale, and he has an obvious interest in only one of those facts being discussed."* Paired with the decompression section, which answers Brock's "compression without a decompression algorithm" charge by *performing* the missing operation rather than arguing about it. That structural move is the reason this page beats an aggregator, and it must survive revision.
+
+**Highest-priority concern (CRITIC-C7):** the draft's verified inaccuracies are directional. Six independently confirmed in the shared packet all lean toward the sympathetic reading — the opening omits the father's emigration, the Ferriss steelman is a staged exchange, "exactly one line" of parenting is contradicted, the closing quote is condensed, Airchat's "peak" is a one-week snapshot, and Eric Jorgenson (a professional writer, later Scribe Media CEO) becomes "a reader." None is individually fatal; together they read as advocacy in analysis costume — which is Brock's charge against Naval, arriving one level up. Fixable with one audit pass at roughly forty words net, without touching the thesis.
+
+The four blockers: the false "at full strength rather than softened" promise about Brock (whose actual ideology charge is excised, leaving only the half a childhood story can answer); the closing quotation, which is a Tier-4 aggregator condensation presented as verbatim nav.al with the wrong date; the omitted VentureBeat line that the post-suit freeze-out "apparently evaporated" within months, taken from the same article the draft mines for supporting facts; and the unadjudicated lawsuit narrated as established fact everywhere except its one hedged sentence, with the plaintiff count wrong in both body and FAQ.
+
+Two findings came from research beyond the packet: CoinList's $1.2M OFAC sanctions settlement (the draft uses CoinList as an emblem of "ledgers anyone can audit"), and the absent luck/survivorship critique — which the draft's own Stuyvesant passage supplies the counterevidence for, then endorses the meritocratic reading of.

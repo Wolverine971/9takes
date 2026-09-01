@@ -1,0 +1,25 @@
+Lint still clean after the frontmatter edit (0 fail, 1 pre-existing word-count warn).
+
+## Grading Complete — Naval Ravikant
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Naval-Ravikant | 9 | 9 | 9 | 9 | 8 | 8 | **8.8** | **B+** |
+
+`(9×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 8×0.5) / 7 = 8.79 → 8.8`. No caps applied — Discoverability 9 clears the gate, 0 contrast-pair engines, counter-typing stays in the rabbit hole, critic pressure faced, current-tense anchor present (nav.al, Feb 19 2026), ending passes the swap test, empathy turn avoids house armor-grammar.
+
+### Key observations
+
+**This is the post-revision regrade.** First grade 8.8, regrade 8.8, stability delta 0.0. That's not a stalled revision — it fixed the blocking P0 (unmarked elision in the closing quote), the three stale ledger claims, and the assembled-section complaint. But all of those sat inside dimensions already at 9. What holds Writing at 8 is house furniture the perspective jury protected or the pass wasn't allowed to touch, so the number couldn't move.
+
+**What earns the B+:** the decompression section is a genuinely subject-generated form — it takes Naval's most-quoted seventeen words and runs them backward into biography *because* his sharpest critic charges that "the aphorism is compression without a decompression algorithm." It collapses on any other subject. The avarice objection is answered rather than ducked ("what a Five hoards is himself"), which is what retires the sameness risk of being the 17th tech Type 5 in the corpus. Source audit is clean: 11 load-bearing quotes, 8 inline, **0 untagged** — and the restraint (no net worth, no spouse, no "radioactive mud," the $4M walk-away flagged as his own telling) is worth more than more quotes would be.
+
+**Sameness check — 2 hits, not the 3 that would cap Originality at 7.** But both are worth naming because one is a direct repeat of the draft graded three days earlier: the "Here is the part that does not fit" reframe pivot echoes Demis-Hassabis's "Here is the problem with the demotion story," and the ending's four-decades-after-the-wound architecture rhymes closely with Demis's Liechtenstein close. Both Type 5, three days apart. Zach-Bryan and David-Beckham both had that pivot removed by their revision passes; this one kept it.
+
+**One item is your call, not the pipeline's.** "What Naval Ravikant Sounds Like Under Pressure" raises a real question and closes on "The record holds both." PROTECT-05 explicitly forbids a later pass tightening that into a verdict, so the revision correctly refused. Releasing it is a DJ decision — flagged in the sidecar with the pointer to `revision-resolution.md`, Unresolved #1.
+
+**Budget constraint on everything else:** body is 4,486/4,500. The four TO REACH A items are designed word-neutral for that reason, but nothing new can be added until something is cut — including Shane Parrish's "one of the most voracious readers I know," sourced since the second pass and still unplaced.
+
+Written to `src/blog/people/drafts/Naval-Ravikant.md` (frontmatter) and `docs/content-analysis/grades/Naval-Ravikant.review.md` (sidecar).
+
+**Total graded this session: 1**

@@ -811,3 +811,139 @@ unit and browser tests, static assets, and repository lint/type checks.
 Clean up authenticated admin modal semantics, calendar control labels, and stale Svelte warning
 suppressions in small component-by-component batches. Preserve the passing public-route and asset
 ratchets while doing so. -> P13+accessibility+performance
+
+---
+
+## 2026-09-01 Implementation Pass 10 - Modal, Shared-Control, and Responsive UI Audit
+
+Status: the repository-wide inventory and first high-leverage repair slice are shipped in the working
+tree. The pass covered 85 page components, 283 route/library Svelte components, shared control and
+dialog ownership, all mobile smoke routes, and representative live dark/light renders. Authenticated
+admin data states remain unavailable in the local browser session, so those claims stay static or
+test-backed rather than visual.
+
+### Tier 1 - fixed
+
+- **The canonical modal no longer inherits legacy global overlay CSS.** The hidden collision restored
+  old blur, spacing, alignment, and z-index declarations on every canonical dialog. The global family
+  is retired, the shell owns explicit viewport-safe presentation, and the close action is a stable
+  Lucide control with visible focus instead of a rotating glyph. -> P9+P11+P13
+- **The styleguide no longer documents a fake modal.** Its static lookalike is replaced by the real
+  production primitive, so overlay, focus, scroll lock, theme, and responsive behavior are executable
+  documentation. -> P11+P13
+- **The email composer uses the shared systems.** Compose and AI-generation dialogs now use canonical
+  stacked modal lifecycle plus `Field`, `Input`, `Textarea`, `Select`, and `Button`; durable inline
+  errors supplement toasts, long recipient addresses wrap, and the mobile composer fills the dynamic
+  viewport with safe-area-aware actions. -> P1+P11+P12+P13
+- **The admin user status field is canonical and labelled.** Its select/help relationship no longer
+  relies on the global form compatibility skin. -> P1+P13
+- **Radius drift is back to zero.** Touched admin campaign controls, notification/invite surfaces, and
+  interaction cards now use the documented chip/control/card radius roles. -> P2+P13
+- **The global component compatibility library is retired.** `components.scss` fell from 156 active
+  lines to 6 comment-only lines (886 to 6 across the full ownership program). The ratchet rejects
+  reintroduced badge/tag, form, modal, and base-card families. -> P3+P13
+
+### Tier 2 - remaining debt
+
+- Four admin surfaces still hand-build `role="dialog"`: consulting people, consulting clients, the
+  content-board editor, and the welcome-sequence preview. They own local presentation, but should move
+  to canonical focus, Escape, scroll-lock, inert-background, and focus-restoration behavior next.
+  -> P11+P12+P13
+- Authenticated admin surfaces still carry most of the repository warning backlog and cannot be
+  visually verified without an authenticated local session. Calendar semantics and stale scoped CSS
+  remain the next warning-cleanup batch. -> P13
+- The public route system is visually coherent; the remaining architecture debt is concentrated in
+  admin primitives, bare-element reach from `index.scss`, and route-local style volume rather than a
+  new brand or component direction. -> P3+P13
+
+### Live result
+
+- Home renders cleanly at 1440x1000 and 390x844 in dark mode with zero horizontal overflow.
+- The actual modal passes dark desktop plus dark/light 390x844 inspection. It measures 448px on
+  desktop and 340px inside the 390px viewport, uses a 16px shell, has no inherited backdrop blur,
+  locks body scroll, moves focus to Close, and produces zero page overflow or browser errors.
+- All 15 mobile SSR/overflow/console smoke cases pass across public hubs, auth/coaching, a question,
+  an article, and a personality dossier.
+
+### Verification
+
+- `pnpm check`: pass with zero errors and the existing 133-warning baseline in 40 files.
+- Focused Modal and EmailComposeModal tests: pass, 2 files and 7 tests, including stacked-dialog focus,
+  Escape, inert-background, scroll-lock, and cleanup behavior.
+- `pnpm exec playwright test e2e/mobile-smoke.spec.ts`: pass, all 15 cases.
+- `pnpm exec playwright test e2e/styleguide-components.spec.ts`: pass, all 4 dark/light ×
+  mobile/desktop production-component baselines.
+- `pnpm lint:colors`, `pnpm lint:global-css`, and `pnpm lint:radius`: pass; the radius backlog is zero
+  and the global component budget is 6/6 lines.
+- Targeted ESLint, Prettier, and `git diff --check`: pass.
+- The required Svelte autofixer is not installed locally. Its `npx` fetch was rejected by sandbox
+  policy, so compiler diagnostics, focused unit tests, browser checks, and formatting were used as
+  the safe fallback.
+
+### Next Highest-Priority Slice
+
+Migrate the four remaining raw admin dialogs to the canonical modal lifecycle one route at a time,
+starting with the welcome-sequence preview and content-board editor. Then use an authenticated session
+to verify the email composer, admin users, and all four migrated dialogs at desktop/mobile in both
+themes before burning down the calendar/accessibility warning batch. -> P11+P12+P13
+
+---
+
+## 2026-09-01 Implementation Pass 11 - Admin Dialog Lifecycle Convergence
+
+Status: the remaining admin dialog slice is shipped in the working tree. A follow-up overlay scan also
+found an unlabelled personality-editor warning that the original `role="dialog"` inventory missed; it
+is included here. Admin route-owned dialog, backdrop, and warning-overlay implementations are now at
+zero.
+
+### Tier 1 - fixed
+
+- **Welcome email previews use the canonical lifecycle.** Preview selection now opens the shared
+  modal with a labelled/described relationship, initial focus, background inerting, body scroll lock,
+  Escape handling, focus restoration, and a full-mobile shell. The route-owned overlay and duplicate
+  keyboard listeners are gone. -> P11+P12+P13
+- **The content-board editor and its unsaved warning are stacked canonical dialogs.** The editor
+  keeps its dense two-panel desktop layout and mobile content/metadata switcher while delegating
+  focus and scroll behavior to the shared primitive. Its warning is now a labelled nested dialog,
+  and the underlying editor becomes inert until the warning closes. -> P1+P11+P12+P13
+- **Failed saves no longer close either editor.** Both content-editor flows return a durable save
+  result and leave the current editor/warning in place when the request fails. This removes a data-loss
+  edge case from the former unconditional `saveAndClose` path. -> P8+P13
+- **Consulting person detail and client creation use shared dialogs and controls.** Person detail is
+  a viewport-safe full-mobile record sheet with canonical focus restoration. Client creation uses
+  `Field`, `Input`, `Select`, `Textarea`, and `Button` instead of another route-local form skin. ->
+  P1+P3+P11+P12+P13
+- **Guarded-close behavior is now a first-class modal contract.** `Modal` exposes a close-attempt
+  callback for Escape and backdrop requests while `disableClose` is active. This lets dirty editors
+  open their confirmation step without reimplementing the overlay lifecycle. -> P11+P13
+
+### Live result
+
+- The production modal specimen passes at 1440x900 dark and 390x844 dark/light. Focus lands on the
+  close control, body scroll locks, the desktop shell remains centered, the mobile shell measures
+  340px inside a 390px viewport, and light mode resolves to a white surface with dark ink.
+- The authenticated consulting route redirects to `/login` in the available local session. The
+  converted real-data admin dialogs therefore remain compiler-, source-, and unit-test verified;
+  authenticated visual captures are still owed rather than inferred.
+
+### Verification
+
+- `pnpm check`: pass with zero errors and the existing 133-warning baseline in 40 files.
+- Focused Modal, EmailComposeModal, and ContentEditorModal tests: pass, 3 files and 10 tests. Coverage
+  includes close-attempt routing, nested inert/focus restoration, scroll-lock stacking, and retaining
+  the editor after a failed save.
+- Admin overlay inventory: only the canonical `Modal.svelte` owns `role="dialog"`/`.modal-overlay`;
+  `MobileNavNew` retains its intentional navigation-dialog role. No admin route owns a backdrop or
+  warning overlay.
+- Targeted ESLint, Prettier, `git diff --check`, `pnpm lint:colors`, `pnpm lint:global-css`, and
+  `pnpm lint:radius` pass. Radius drift and global component CSS remain at zero and 6/6 lines.
+- The required Svelte autofixer is not installed or cached locally; its offline invocation fails with
+  `ENOTCACHED`. Compiler diagnostics, focused tests, browser checks, and formatting remain the safe
+  fallback.
+
+### Next Highest-Priority Slice
+
+Burn down the remaining admin accessibility warnings, starting with calendar day semantics and stale
+scoped CSS selectors, then audit the route-local bare `input`/`select` controls still bypassing the
+shared form atoms. Authenticated desktop/mobile dark/light verification remains a separate owed pass.
+-> P1+P3+P12+P13

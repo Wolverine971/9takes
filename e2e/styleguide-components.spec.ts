@@ -76,6 +76,41 @@ async function verifyProductionComponents(page: Page, theme: (typeof themes)[num
 		snapshotTheme
 	);
 
+	const modalLauncher = page.getByRole('button', { name: 'Open modal preview' });
+	await modalLauncher.focus();
+	await modalLauncher.click();
+
+	const modal = page.getByRole('dialog', { name: 'Drop your take first.' });
+	const modalShell = modal.locator('.modal-container');
+	await expect(modal).toBeVisible();
+	await expect(modal).toHaveAttribute('aria-modal', 'true');
+	await expect(page.getByRole('button', { name: 'Close dialog' })).toBeFocused();
+	expect(await page.locator('body').evaluate((body) => body.style.overflow)).toBe('hidden');
+
+	const modalGeometry = await modalShell.evaluate((shell) => {
+		const rect = shell.getBoundingClientRect();
+		return {
+			left: rect.left,
+			right: rect.right,
+			top: rect.top,
+			bottom: rect.bottom,
+			viewportWidth: window.innerWidth,
+			viewportHeight: window.innerHeight,
+			overflow: document.documentElement.scrollWidth - document.documentElement.clientWidth
+		};
+	});
+	expect(modalGeometry.left).toBeGreaterThanOrEqual(0);
+	expect(modalGeometry.right).toBeLessThanOrEqual(modalGeometry.viewportWidth);
+	expect(modalGeometry.top).toBeGreaterThanOrEqual(0);
+	expect(modalGeometry.bottom).toBeLessThanOrEqual(modalGeometry.viewportHeight);
+	expect(modalGeometry.overflow).toBe(0);
+	await expectFamilyScreenshot(modalShell, 'modal', snapshotTheme);
+
+	await page.keyboard.press('Escape');
+	await expect(modal).toBeHidden();
+	await expect(modalLauncher).toBeFocused();
+	expect(await page.locator('body').evaluate((body) => body.style.overflow)).toBe('');
+
 	expect(errors).toEqual([]);
 }
 

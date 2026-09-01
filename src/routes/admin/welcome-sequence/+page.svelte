@@ -2,8 +2,13 @@
 <script lang="ts">
 	import { enhance } from '$app/forms';
 	import { invalidateAll } from '$app/navigation';
+	import { Button } from '$lib/components/atoms';
+	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
+	import { tick } from 'svelte';
 	import type { PageData } from './$types';
+
+	const WELCOME_PREVIEW_MODAL_ID = 'welcome-email-preview';
 
 	let { data }: { data: PageData } = $props();
 
@@ -112,25 +117,19 @@
 		};
 	}
 
+	function openPreviewModal(stepNumber: number) {
+		expandedStep = stepNumber;
+		void tick().then(() => {
+			getModal(WELCOME_PREVIEW_MODAL_ID)?.open(() => {
+				expandedStep = null;
+			});
+		});
+	}
+
 	function closePreviewModal() {
-		expandedStep = null;
-	}
-
-	function handlePreviewKeydown(event: KeyboardEvent) {
-		if (event.key === 'Escape' && selectedPreviewStep) {
-			closePreviewModal();
-		}
-	}
-
-	function handleOverlayKeydown(event: KeyboardEvent) {
-		if ((event.key === 'Enter' || event.key === ' ') && selectedPreviewStep) {
-			event.preventDefault();
-			closePreviewModal();
-		}
+		getModal(WELCOME_PREVIEW_MODAL_ID)?.close(null);
 	}
 </script>
-
-<svelte:window onkeydown={handlePreviewKeydown} />
 
 <svelte:head>
 	<title>Welcome Sequence | Admin</title>
@@ -431,7 +430,7 @@
 						</div>
 					{/if}
 
-					<button class="toggle-content" onclick={() => (expandedStep = step.step_number)}>
+					<button class="toggle-content" onclick={() => openPreviewModal(step.step_number)}>
 						View email content
 					</button>
 				</div>
@@ -527,22 +526,18 @@
 	</section>
 {/if}
 
-{#if selectedPreviewStep}
-	<div
-		class="email-modal-overlay"
-		role="presentation"
-		onclick={closePreviewModal}
-		onkeydown={handleOverlayKeydown}
-	>
-		<div
-			class="email-modal"
-			role="dialog"
-			aria-modal="true"
-			aria-labelledby="email-preview-title"
-			tabindex="-1"
-			onclick={(event) => event.stopPropagation()}
-			onkeydown={(event) => event.stopPropagation()}
-		>
+<Modal
+	id={WELCOME_PREVIEW_MODAL_ID}
+	labelledBy="email-preview-title"
+	describedBy="email-preview-meta"
+	initialFocus="#welcome-preview-close"
+	maxWidth="1120px"
+	contentPadding="0"
+	navTop
+	fullMobile
+>
+	{#if selectedPreviewStep}
+		<div class="email-modal">
 			<header class="email-modal-header">
 				<div class="email-modal-title-group">
 					<div class="step-number">Step {selectedPreviewStep.step_number}</div>
@@ -551,12 +546,12 @@
 						<p>{selectedPreviewStep.preheader}</p>
 					{/if}
 				</div>
-				<button class="modal-close-button" type="button" onclick={closePreviewModal}>
-					Close
-				</button>
+				<Button id="welcome-preview-close" variant="secondary" size="sm" onclick={closePreviewModal}
+					>Close preview</Button
+				>
 			</header>
 
-			<div class="email-modal-meta">
+			<div class="email-modal-meta" id="email-preview-meta">
 				<span>
 					{#if selectedPreviewStep.delay_days_after_previous === 0}
 						Immediate send
@@ -581,8 +576,8 @@
 				></iframe>
 			</div>
 		</div>
-	</div>
-{/if}
+	{/if}
+</Modal>
 
 <style>
 	.empty-state {
@@ -973,26 +968,11 @@
 		background: white;
 	}
 
-	.email-modal-overlay {
-		position: fixed;
-		inset: 0;
-		z-index: 1000;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		padding: 16px;
-		background: rgba(0, 0, 0, 0.62);
-	}
-
 	.email-modal {
-		width: min(100%, 1120px);
-		max-height: calc(100vh - 32px);
+		width: 100%;
 		display: flex;
 		flex-direction: column;
-		border: 1px solid var(--stone-warm);
-		border-radius: 1rem;
 		background: var(--night-deep);
-		box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
 		overflow: hidden;
 	}
 
@@ -1002,7 +982,7 @@
 		justify-content: space-between;
 		gap: 16px;
 		padding: 18px 20px 14px;
-		border-bottom: 1px solid var(--stone-warm);
+		border-bottom: 1px solid var(--stone-edge);
 		background: var(--stone-warm);
 	}
 
@@ -1026,28 +1006,12 @@
 		overflow-wrap: anywhere;
 	}
 
-	.modal-close-button {
-		flex: 0 0 auto;
-		border: 1px solid var(--stone-warm);
-		border-radius: 0.625rem;
-		background: var(--night-deep);
-		color: var(--ink-bright);
-		font-size: 0.8125rem;
-		font-weight: 600;
-		padding: 7px 12px;
-		cursor: pointer;
-	}
-
-	.modal-close-button:hover {
-		background: var(--stone-warm);
-	}
-
 	.email-modal-meta {
 		display: flex;
 		gap: 10px;
 		flex-wrap: wrap;
 		padding: 10px 20px;
-		border-bottom: 1px solid var(--stone-warm);
+		border-bottom: 1px solid var(--stone-edge);
 		background: var(--night-deep);
 	}
 
@@ -1064,6 +1028,7 @@
 		margin-top: 0;
 		flex: 1 1 auto;
 		min-height: min(700px, calc(100vh - 190px));
+		min-height: min(700px, calc(100dvh - 190px));
 		border: 0;
 		border-radius: 0;
 		overflow: hidden;
@@ -1072,6 +1037,7 @@
 	.modal-preview-frame {
 		height: 100%;
 		min-height: min(700px, calc(100vh - 190px));
+		min-height: min(700px, calc(100dvh - 190px));
 	}
 
 	/* Enrollments Table */
@@ -1273,15 +1239,6 @@
 			max-width: none;
 		}
 
-		.email-modal-overlay {
-			align-items: stretch;
-			padding: 8px;
-		}
-
-		.email-modal {
-			max-height: calc(100vh - 16px);
-		}
-
 		.email-modal-header {
 			padding: 14px;
 		}
@@ -1293,6 +1250,7 @@
 		.modal-preview-shell,
 		.modal-preview-frame {
 			min-height: calc(100vh - 205px);
+			min-height: calc(100dvh - 205px);
 		}
 	}
 </style>

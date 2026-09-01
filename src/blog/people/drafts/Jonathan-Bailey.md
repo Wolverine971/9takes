@@ -4,12 +4,12 @@ meta_title: 'Jonathan Bailey Enneagram Type 3: The Boy Who Quit Ballet'
 persona_title: "Theatre's Rehearsed Natural"
 description: 'Jonathan Bailey quit ballet at 13 after one look from a friend. His Enneagram Type 3 pattern explains the privacy, the charity, and the quitting headlines.'
 author: 'DJ Wayne'
-date: '2026-08-21'
+date: '2026-09-01'
 loc: 'https://9takes.com/personality-analysis/jonathan-bailey'
-lastmod: '2026-08-21'
+lastmod: '2026-09-01'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 3
 type: ['movieStar', 'celebrity']
 person: 'Jonathan-Bailey'

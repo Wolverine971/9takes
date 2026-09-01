@@ -1,0 +1,24 @@
+Second pass done on `src/blog/people/drafts/Naval-Ravikant.md`.
+
+## Source audit (priority 1, done wholesale first)
+
+**Before:** 11 load-bearing quotes — 0 inline, 4 vague, 7 untagged, with untagged quotes in both the epigraph and cold open (an A/B+ blocker).
+**After:** 9 quotes — 8 inline, 1 vague, 0 untagged. Epigraph, cold open and diagnosis all clear.
+
+The lone vague is the thread title "How to Get Rich (Without Getting Lucky)" — a self-published artifact with a date and no outlet. No natural fix.
+
+## Main changes
+
+- **The Sovereign Child** (Ferriss #788, Jan 2025) added to the closing section, verified against the published tim.blog transcript. This was the fresh-eyes note worth the most: paragraph one establishes "the boys had keys and no supervision," and the piece never collected it. It also puts a second person in a page that otherwise never has Naval in a room with anyone.
+- **The Almanack earns him nothing.** Verified directly on navalmanack.com ("Naval does not earn any money from this project"). Stated as fact rather than quoted, so it doesn't create a new untagged cold-open quote. Strongest single fact for the "he publishes the answer key" thesis.
+- **"Under Pressure" rebuilt.** It was asserting stress-to-Seven and never meeting the counter-read. It now runs the churn list against the 2019 AngelList handoff to Avlok Kohli and the CoinList/MetaStable window-pane restatement, and refuses to resolve it. The Rabbit Hole stress-arrow paragraph no longer re-litigates Airchat.
+- **Loneliness and attachment-as-transaction** added — the page previously rendered a man who fears and publishes but is never lonely.
+- **Cut an unverified claim:** "he wanted to be a physicist" traced only to quote-aggregator farms.
+- **Trims to pay for it:** diagnosis inventory paragraph, corpus percentages, TL;DR bullet 3, the window-pane recap in "Decompressing," the Dartmouth line, the meditation beat, plus a tightened Brock re-concession. 4,119 → 4,259 words against the 4,500 ceiling.
+
+I introduced one cross-sentence negative parallelism ("That is not a man collecting rooms. It is a man opening them and walking out.") and rewrote it; a regex scan of the stripped body returns zero. `blog-lint` is 0 fail, 1 warn (the standing word-count warn).
+
+## Worth an editor pass
+
+- Shane Parrish's "one of the most voracious readers I know" is in the TESTIMONY LEDGER but has never actually been in the body, and compressing the inventory paragraph thinned the reader evidence further. ~240 words of headroom to place it.
+- One brittle dependency worth knowing: "The Knowledge Project" isn't in `blog-source-audit`'s OUTLETS list, so the "antisocial introvert" quote only grades inline because it sits within 120 characters of the pull-quote's `— Name, Source, Year` line. Adding prose between them drops it back to vague. I noted this in the second-pass block rather than editing the shared audit script.

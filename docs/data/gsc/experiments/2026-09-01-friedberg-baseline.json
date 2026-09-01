@@ -1,0 +1,521 @@
+{
+	"label": "2026-09-01-friedberg-baseline",
+	"captured_at": "2026-09-01T15:28:29.196Z",
+	"site": "sc-domain:9takes.com",
+	"window": {
+		"start_date": "2026-08-03",
+		"end_date": "2026-08-30",
+		"days": 28
+	},
+	"notes": [
+		"Case variants of the same document URL are consolidated by lowercase slug.",
+		"Fragment URLs are listed under page_variants but excluded from page and query-family metrics.",
+		"Query families are rule-based; inspect the retained query rows before drawing conclusions.",
+		"Search Console metrics are observational and can move with demand, rank, snippet, or seasonality."
+	],
+	"profiles": {
+		"david-friedberg": {
+			"page": {
+				"clicks": 9,
+				"impressions": 700,
+				"ctr_pct": 1.2857142857142856,
+				"position": 16.46
+			},
+			"families": {
+				"exact_name": {
+					"clicks": 2,
+					"impressions": 40,
+					"ctr_pct": 5,
+					"position": 23.925
+				},
+				"biography": {
+					"clicks": 1,
+					"impressions": 182,
+					"ctr_pct": 0.5494505494505495,
+					"position": 9.912087912087912
+				},
+				"personality": {
+					"clicks": 0,
+					"impressions": 0,
+					"ctr_pct": 0,
+					"position": null
+				},
+				"other": {
+					"clicks": 0,
+					"impressions": 69,
+					"ctr_pct": 0,
+					"position": 31.855072463768117
+				}
+			},
+			"queries": [
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wife",
+					"family": "biography",
+					"clicks": 1,
+					"impressions": 150,
+					"ctr_pct": 0.6666666666666667,
+					"position": 8.386666666666667
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg",
+					"family": "exact_name",
+					"clicks": 2,
+					"impressions": 40,
+					"ctr_pct": 5,
+					"position": 23.925
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "davidfriedberg arma",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 12,
+					"ctr_pct": 0,
+					"position": 38.166666666666664
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "is david friedberg married",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 9,
+					"ctr_pct": 0,
+					"position": 11.333333333333334
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg arma",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 39.6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg net worth",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 28.6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 5,
+					"ctr_pct": 0,
+					"position": 42.6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg age",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 20.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg children",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wife and kids",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 10.75
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg young",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 26.25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "where was david friedberg born",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 4,
+					"ctr_pct": 0,
+					"position": 10.25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "friedberg david",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 30
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "monsanto climate corp ceo",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 3,
+					"ctr_pct": 0,
+					"position": 21.666666666666668
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david freidberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 34
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg education",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 20.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wife angela",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 5.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg.",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 38.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedburg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 21.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "davidbfriedberg arma",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 2,
+					"ctr_pct": 0,
+					"position": 47.5
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "albert friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 27
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "all in friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 45
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "allison broude friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 10
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "dave friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 22
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david fridberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 38
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg all in",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 17
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg family",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 9
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg house",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 24
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg kids",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 11
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg net worth 2025",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 20
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg ohalo",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 69
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg where does he live",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 26
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "david friedberg wiki",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 12
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "freidburg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 43
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "friedberg net worth",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 49
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "how did david friedberg make his money",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 12
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "how old is david friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 29
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "iffland friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 68
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "is david friedberg a billionaire",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 25
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "ohalo david friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 67
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "ohalo founder",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 68
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "ohalo genetics david friedberg",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 56
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "parents profession",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 6
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "suche quellen",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 2
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "sultan of science",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 1
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "where does david friedberg live",
+					"family": "other",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 35
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"query": "where is david friedberg from",
+					"family": "biography",
+					"clicks": 0,
+					"impressions": 1,
+					"ctr_pct": 0,
+					"position": 38
+				}
+			],
+			"page_variants": [
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg",
+					"clicks": 9,
+					"impressions": 700,
+					"ctr_pct": 1.2857142857142856,
+					"position": 16.46
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#cape-town-to-los-angeles-with-nothing",
+					"clicks": 0,
+					"impressions": 106,
+					"ctr_pct": 0,
+					"position": 7.7075471698113205
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#what-is-david-friedbergs-personality-type",
+					"clicks": 0,
+					"impressions": 106,
+					"ctr_pct": 0,
+					"position": 7.7075471698113205
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#the-11-billion-education-in-humility",
+					"clicks": 0,
+					"impressions": 57,
+					"ctr_pct": 0,
+					"position": 7.807017543859649
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#the-astrophysicist-in-the-card-room",
+					"clicks": 0,
+					"impressions": 57,
+					"ctr_pct": 0,
+					"position": 7.807017543859649
+				},
+				{
+					"page": "https://9takes.com/personality-analysis/david-friedberg#watching-the-bike-hut-disappear",
+					"clicks": 0,
+					"impressions": 57,
+					"ctr_pct": 0,
+					"position": 7.807017543859649
+				}
+			]
+		}
+	}
+}

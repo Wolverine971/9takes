@@ -1,0 +1,26 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Naval-Ravikant.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1 (testimony): pass · Gate 2 (heading mix): pass · Gate 3 (self-loop): pass
+       Gate 4 (anti-imitation): pass · Gate 5 (distribution): pass · Gate 6 (formula fingerprint): pass
+LIMITATIONS: see below
+```
+
+**The thesis.** Naval is a Type 5 whose formation reads literally rather than metaphorically: nine or ten apartments in nine years, a library as the only fixed address, "my only real friends were books." He typed himself out loud in 2018 — *"90 percent of thoughts that I have are fear"* — and defines happiness as an absence: *"that state when nothing is missing. When nothing is missing, your mind shuts down."* The page argues "Desire is a contract you make with yourself to be unhappy" isn't wisdom he reached after money; it's the accounting policy of a kid who worked out that the safest number of things to want is one. The 2005 Epinions lawsuit is the hinge — told his shares were worth zero with no way to check, he sued his own firm, then spent fifteen years publishing the information he'd been denied.
+
+**Differentiator vs. the 16 other tech Type 5s** (Musk engineers, Andreessen fortifies, Dorsey disappears): Naval **publishes** — converting private understanding into a distributable artifact so he never has to be in the room.
+
+**Deterministic results:** blog-lint 0 fail / 35 pass; contrast-pair engines 0 strong, 0 comparative; same-type similarity clear of all prose trips (only the mandated `[Person] is an Enneagram Type 5` heading remains, the known template false positive); 4,119 words; prettier clean.
+
+**Two things worth your attention:**
+
+1. **I found a gate the tooling misses.** The regex catches inline contrast pairs but not *cross-sentence* negative parallelism ("X is not A. It is B."). My first pass had ten of them and lint passed anyway. All ten are rewritten, and it's noted in the ledger — but that's a real hole in `blog-quality-report.mjs` worth patching.
+2. **The entity-gap packet says PASS (33), action `personality-lane-only`.** I built to that constraint rather than skipping the run: no general biography, no net worth, no spouse/child section, Airchat in past tense. The packet's own note says the abort-or-narrow call is yours. If you'd rather kill it, the research file stands on its own.
+
+**Limitations:** Stuyvesant year conflicts across sources (1989 vs. 1991) so the draft names neither; "radioactive mud" has no named-speaker source and is off the page; the $4M walk-away is attributed as self-told; no new transcripts fetched — Ferriss #97 has a full published transcript, which beats an auto-generated one.
+
+Evidence file at `docs/content-analysis/research/Naval-Ravikant.md`. No grade emitted — that's `/grade_blog`'s call, and human review is required before `blog_content_production_people`.

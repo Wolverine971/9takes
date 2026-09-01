@@ -1123,11 +1123,10 @@
 	.reply-opt-in {
 		padding: 1rem;
 		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
-		border-radius: 0.9rem;
+		border-radius: 1rem;
 		background:
 			linear-gradient(135deg, color-mix(in srgb, var(--lamp-soft) 58%, transparent), transparent),
 			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
-		box-shadow: var(--shadow-sm);
 	}
 
 	.reply-opt-in__copy h3 {
@@ -1168,7 +1167,7 @@
 		margin-top: 0.35rem;
 		padding: 0.7rem 0.8rem;
 		border: 1px solid var(--stone-edge);
-		border-radius: 0.55rem;
+		border-radius: 0.625rem;
 		background: color-mix(in srgb, var(--night-deep) 88%, transparent);
 		color: var(--ink-bright);
 		font: inherit;

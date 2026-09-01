@@ -1,0 +1,56 @@
+## Cohesion Audit: `src/blog/people/drafts/Naval-Ravikant.md`
+
+### Central Thesis
+Naval is a Type 5 whose defining move is **publication**: he converts private understanding into a portable artifact so he never has to be in the room, which is why the man who calls desire a contract also published a guide to getting rich.
+
+### Thread Map
+| # | Section | Contributes | Links to next because |
+|---|---------|-------------|----------------------|
+| 0 | Cold open | Library kid → most-quoted man; plants the contradiction and the question "trap or plan?" | poses a type question |
+| 1 | Personality type | Type 5 via fear/quiet; Type 8 tiebreaker; differentiator = *Naval publishes* | the want-less policy needs an origin |
+| 2 | Queens apartment | Formation: window pane, library, Stuyvesant, Kamal | the amateur philosopher's output form is the aphorism |
+| 3 | Decompressing | Runs the famous sentence backward into biography; answers "trap or plan" | one word in it ("contract") has a source |
+| 4 | The lawsuit | The information asymmetry that made the contract metaphor literal | he responds by publishing what he wasn't told |
+| 5 | AngelList | Venture Hacks → AngelList → the thread → the Almanack: one motion at scale | repeated at scale, the motion looks like churn |
+| 6 | Under pressure | Stress-to-Seven read vs. "leaving is the job"; refuses to resolve; the budget reaches love | the outside view attacks the form itself |
+| 7 | *Rabbit Hole* | Wing/subtype/arrows/counterarguments (skippable aside) | — |
+| 8 | Advice annoys people | Brock's compression charge, conceded, then the empathy turn | the one place he stops compressing |
+| 9 | At fifty-one | Sovereign Child collects the latchkey payoff; AI as the library that never closes | — |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 6/10 | 9/10 |
+| Reader Mental Model | 6/10 | 9/10 |
+| Section Transitions | 5/10 | 9/10 |
+| Internal Paragraph Flow | 8/10 | 9/10 |
+
+**Overall: 7/10 → 9/10**
+
+The thesis was never the problem. Every section already earned its place; they just sat next to each other without touching. Five of the seven H2 boundaries were cold starts.
+
+### Fixes Applied (8)
+
+**Transitions (6)** — one bridge per boundary, each one only workable *here*:
+- **Diagnosis → Queens**: "The policy of wanting less was drafted long before there was money to want." Also fixes a dangling referent — the section opened on "this story" with no antecedent in the preceding paragraph.
+- **Queens → Decompressing**: "The amateur's format is the aphorism." Carries Kamal's "I'm just the amateur" into the compression thesis.
+- **Decompressing → Lawsuit**: "He got the metaphor somewhere."
+- **AngelList → Under Pressure**: "Repeated at that scale, the motion starts to look like something else."
+- **Under Pressure → Brock**: "The squeezing is where the objections start, and this page owes them a hearing."
+- **Brock → Fifty-One**: "There is one subject where he stops compressing." Turns the 2.5-hour Sovereign Child episode into a deliberate contrast with the compression argument above it.
+
+**Promise/orphan fixes (2)**:
+- The cold open asks "trap, or the plan?" and the piece only answered it by implication. Added in Decompressing: "It also answers the question this page opened with. Wanting is a line item, and he has set a ceiling on it."
+- Decompressing promised "we will get to them" about the critics; the Brock section paid it off but never marked it. The new Brock bridge collects it with the verbatim word "squeezing."
+
+**Referent (1)**: "The same arithmetic eventually reaches people" → "The same budget," which threads back to the Decompressing beat and forward to the self-preservation paragraph.
+
+### Preserved
+Frontmatter, all ledgers, Svelte/HTML blocks, all 5 internal links, the lawsuit sequencing, the decompression conceit, the Type 8 tiebreaker, and the closing image. No edits inside the diagnosis span the source-audit note protects (between the Knowledge Project pull-quote and the "antisocial introvert" sentence).
+
+`blog-lint`: 0 fail, 1 warn. Contrast-pair engines still 0, no prose em-dashes, no banned phrases.
+
+### One thing to know
+**Headroom is now ~160 words, not the ~230 the second pass logged.** I spent 81 on bridges. The still-open suggestion to place Shane Parrish's "one of the most voracious readers I know" in the diagnosis still fits, but only as a single sentence. I logged this in a `COHESION PASS` comment in the file.
+
+Kamal's divergence ("does not fully explain it") is technically an orphaned thread — raised, never resolved. I left it. It reads as restraint about a brother rather than a dropped stitch, and closing it would mean inventing an explanation Naval hasn't given.

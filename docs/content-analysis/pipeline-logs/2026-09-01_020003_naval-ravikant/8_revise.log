@@ -1,0 +1,31 @@
+Done. Revised `src/blog/people/drafts/Naval-Ravikant.md`.
+
+## What triggered the loop
+
+Grade **B+ (8.8)** with three NEEDS WORK items, plus a perspective verification **FAIL** (`open_p0: 1`). Lint was already 0 fail going in.
+
+## Fixed
+
+**The blocking P0.** The closing `nav.al` blockquote had a second, *unmarked* elision — it resumed at "until" and silently dropped "get the gist, and." Restored, so both surviving spans now appear contiguously at the source the page invites you to check. The February 19, 2026 attribution and the protected closing paragraph were not touched.
+
+**Six more verifier items**, four of which were defects the *previous* pass introduced: the "plaintiffs by then" appositive (a precise claim about plaintiff composition, in the legal section, inside the sentence P0-04 told the page to stop making precise claims in); the self-referential clause "no scene in this article puts him in a room with another living person," which a P1 repair had made checkable-false three sections later; "never with institutions," contradicted by the page's own account of Epinions and AngelList; and P1-07's missing second half, so the named defendants' position now appears in both the body and FAQ #3.
+
+**All three stale ledger claims.** The TESTIMONY LEDGER claimed six qualifying quotes; five are on the page, from three speakers. The FORMULA FINGERPRINT called the aphorism 19 words when the body says seventeen, and asserted "0 remaining" cross-sentence negative parallelism while the empathy turn runs three of them. That last one now records the instance as a deliberate, protected retention rather than a false compliance claim.
+
+**Four of six routes to A**: the interior beat thickened from inside his position, reader-command imperatives cut from four to two, the Airchat #23 stat cut outright (weakest provenance, least work), the other two metrics given inline outlets, and the speculative-typing disclaimer added in house form.
+
+## Rejected — and this one needs your call
+
+The grader's top route to A is "decide the pressure section: pick the reading the evidence supports and make the other one the objection you answer." **PROTECT-05 forbids exactly that** — "do not let a later pass 'tighten' the refusal to resolve into a verdict" — and it was named by four of the six perspectives. I can't regress a protected hit, so "The record holds both" stands.
+
+What I did instead was fix the unprotected half of the same complaint: the section was two half-sections sharing an H2. The loneliness and love-as-transaction material moved into "What Naval Ravikant Wants Now," where it follows the parenting beat and sets up the ending. "Under Pressure" is now three paragraphs on one subject. **If you want the verdict, PROTECT-05 has to be released first** — that's your decision, not the revision pass's.
+
+## Also
+
+RQ-01 advanced but not closed. I located both @naval typology-dismissal posts (status IDs `1127367372430426113`, `1434675499377127425`), but x.com still returns HTTP 402, so the wordings exist only as search-result titles and I did **not** put them on the page. The IDs and a "do not quote from the titles alone" instruction are recorded in the draft so a browser session closes this in one step.
+
+Body went 4,488 → 4,486: 52 words of required additions paid for by ~54 of trims. The word-count WARN is pre-existing and can't be cleared by a revision pass — it fires above 4,050, which would need a 435-word cut.
+
+**Lint: 0 fail.** All ten protected hits verified by grep. Resolution artifact at `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/revision-resolution.md`. The pipeline will clear the consumed review sidecar and re-grade, and `/blog_perspective_verify_people` must rerun — I did not declare the gate passed.
+
+Sources for the RQ-01 search: [x.com/naval/status/1127367372430426113](https://x.com/naval/status/1127367372430426113), [x.com/naval/status/1434675499377127425](https://x.com/naval/status/1434675499377127425)

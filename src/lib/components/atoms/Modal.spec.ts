@@ -2,7 +2,7 @@
 // @vitest-environment jsdom
 
 import { fireEvent, render, screen, waitFor } from '@testing-library/svelte';
-import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 import Modal, { getModal } from './Modal.svelte';
 
@@ -175,6 +175,32 @@ describe('Modal', () => {
 			expect(screen.queryByRole('dialog', { name: 'Escape test' })).toBeNull();
 		});
 		expect(background?.hasAttribute('inert')).toBe(true);
+		unmount();
+	});
+
+	it('routes blocked Escape and backdrop close requests to the owning surface', async () => {
+		const oncloseattempt = vi.fn();
+		const { unmount } = render(Modal, {
+			props: {
+				id: 'guarded-modal',
+				name: 'Guarded editor',
+				disableClose: true,
+				oncloseattempt
+			}
+		});
+
+		getModal('guarded-modal')?.open();
+		const dialog = await screen.findByRole('dialog', { name: 'Guarded editor' });
+
+		await fireEvent.keyDown(window, { key: 'Escape' });
+		expect(oncloseattempt).toHaveBeenCalledTimes(1);
+		expect(dialog.getAttribute('aria-hidden')).toBeNull();
+
+		await fireEvent.click(dialog);
+		expect(oncloseattempt).toHaveBeenCalledTimes(2);
+		expect(dialog.getAttribute('aria-hidden')).toBeNull();
+
+		getModal('guarded-modal')?.close(null);
 		unmount();
 	});
 });

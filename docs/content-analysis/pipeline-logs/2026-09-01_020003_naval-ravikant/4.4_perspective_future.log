@@ -1,0 +1,16 @@
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/future.md`
+
+SHA verified against `context.json` and the supplied value before reading. Independence held — `subject.md`, `fan.md`, and `unfamiliar.md` appeared in the directory while I worked and were not opened.
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 6 concerns.**
+
+**Blockers**
+
+1. **FUTURE-R1 — Age arithmetic hard-coded to the publication moment.** The H2 "Naval Ravikant at Fifty-One" stops being true on 5 November 2026, sixty-five days after the draft's own date; "a fifty-one-year-old man" and "Forty-two years later" fail on the same clock. The packet verifies the heading as correct *today* while also recording that he turns 52 in November — correct-on-publication and durable come apart inside the same quarter. The draft already contains its own fix in the final sentence: "Four decades after Queens."
+2. **FUTURE-R2 — The closing pull-quote's date and wording are contradicted by the first-party source.** It reads "nav.al, February 22, 2026"; the page reads Feb 19 2026 with a materially longer sentence, and the packet (CLM-16 / S-18) traces both the condensation and the date to Podcast Notes, a Tier 4 aggregator. This is the newest, most prominent, most one-click-checkable citation on a page whose entire pitch is that it does primary-source work the aggregators don't.
+
+**Strongest hit:** the decompression section — taking Naval's most-quoted sentence and running it backward into 1984 and 2005. Every input is a closed historical fact, so it has a zero decay rate; it would read identically in 2035, and it answers the page's own critic structurally rather than by assertion. It must not be where word count gets found for the repairs.
+
+**Highest-priority concern (FUTURE-C1):** the criticism section is anchored to a five-week-old Substack polemic, called "the sharpest," whose actual argument the page omits. I fetched Brock's essay directly: it's a political piece connecting Naval's aphorisms to Thiel's anti-democratic thought and Balaji's "exit" philosophy, occasioned by Naval's statements on democracy. The draft quotes it four times and extracts only the stylistic complaint. Fairness there belongs to the critic evaluator; the durability exposure is mine, and it's one-directional — if Naval's political profile grows at all, this section ages from balanced to conspicuously incurious without a word changing.
+
+Also worth flagging to the synthesis step: the recency dependency is structural. Strip the two 2026 artifacts and six of eight sections stand untouched with the thesis intact — but the article loses its ending entirely. The spine is unusually durable; the last third is a bet. A concrete eleven-item twelve-month refresh list is in the review (I flagged decay points only; `lastmod` is yours).

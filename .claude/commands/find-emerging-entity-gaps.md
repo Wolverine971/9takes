@@ -73,8 +73,52 @@ ls src/blog/people/drafts/*.md | sed 's#.*/##; s#\.md$##' | sort
 cat docs/blog-automation/backlog-queue.json
 ```
 
+Then read the existing packets, which are the record of what has already been decided and shipped:
+
+```bash
+for f in docs/content-analysis/entity-gaps/*.md; do
+  printf "%-24s %s %s %s\n" "$(basename "$f" .md)" \
+    "$(grep -m1 '^recommended_action:' "$f")" \
+    "$(grep -m1 'retrofit_applied_at:' "$f")" \
+    "$(grep -m1 'do_not_optimize:' "$f")"
+done
+```
+
+**Ship-state is read from `retrofit_applied_at`, then confirmed against git and the live DB.** Never
+infer it from `lastmod`, which the push script preserves by design, and never from the `title:`
+frontmatter field, which is not what renders as the page H1 — that comes from
+`formatPersonalityDisplayName()` in `src/lib/utils/personalityAnalysis.ts`, including its
+`PERSONALITY_DISPLAY_NAME_OVERRIDES` map. A 2026-09-01 scout wrongly reported three shipped retrofits
+as outstanding by reading `lastmod` and `title:` instead of the packets.
+
+Respect `do_not_optimize: true`. It marks pages whose incoming demand is gossip-driven and whose low
+CTR is the correct outcome. Do not resurface them as CTR-improvement candidates.
+
 In discovery mode, also use the current `/find-surging-people` research sweeps to generate names that
 9takes does not cover yet. Existing-page data alone cannot find tomorrow's new entity.
+
+## Step 1.5: The Wikipedia gate (run this before scoring anything)
+
+For every candidate, fetch `https://en.wikipedia.org/wiki/<Canonical_Name>` first.
+
+A personal article that is a full biography — birth date, family, education, career timeline — means
+the generic biography query is owned and this is **not** an Emerging Entity Gap. Record it and move
+on. Do not spend a scoring pass on it. A company, film, or collective article does not count; only a
+personal one.
+
+This gate exists because it is empirically where almost all candidates die. Of the first 30 packets
+written, 28 classified pass or watchlist, nearly always on this ground. In the 2026-09-01 sweep,
+Michael Truell, Nikita Bier, Fanum, Harry Stebbings, Brad Gerstner, Scott Wu, Joseph Zada, and Tom
+Rhys Harries were all eliminated by this single check. By 2026 the encyclopedia has caught up with
+almost anyone whose catalyst is large enough to matter.
+
+What survives the gate is people whose notability is real but institutionally unrecognised: niche
+authority figures, podcast co-hosts, character creators, analysts. That is the lane Jordi Hays,
+Ashby Florence, John Coogan, and Dylan Patel occupy. Prefer generating candidates there.
+
+Note the gate's one exception. A **fact-query gap** can exist even behind a strong Wikipedia article
+when a handful of private-life details are unestablished and content farms are the only results. Treat
+that as a much smaller prize with much larger editorial risk, and read the guardrails before acting.
 
 ## Step 2: Verify demand and timing
 
@@ -313,3 +357,17 @@ and CTR changes. A page can succeed by capturing expanding demand before its ave
 - Do not convert a personality profile into an SEO fact farm.
 - Do not publish speculation as biography.
 - A weak SERP is an opportunity only when the resulting page would deserve to rank.
+- **A SERP made only of content farms is a warning, not just an opening.** If every competing result
+  is a generated biography page, the likely reason is that no credible publisher has established the
+  fact. Assume it is unestablished until a primary source proves otherwise, and never let a farm claim
+  enter a 9takes page by way of a research summary that quietly repeated it.
+- **Private third parties are not fair game.** Spouses, partners, ex-partners, and children are
+  private people. Name one only from a primary source such as an on-record interview or an
+  attributable photo caption, keep it to what that source establishes, and never infer a count, an
+  age, or a residence.
+- **Low CTR is sometimes the correct outcome.** When the query behind the impressions is gossip or
+  rumor, raising CTR means promising the searcher more of it. Mark such pages `do_not_optimize: true`
+  in their packet and leave them alone.
+- **An audit finding is not automatically an editorial action.** Before recommending a change,
+  confirm the current live state from the packet, git, and the DB. Reporting shipped work as
+  outstanding wastes a cycle and damages the record's credibility.

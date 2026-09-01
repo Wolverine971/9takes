@@ -1,25 +1,11 @@
 {
-	"lastUpdated": "2026-08-31T06:50:00Z",
+	"lastUpdated": "2026-09-01T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
 		"completionRate": "74.8%"
 	},
-	"queue": [
-		{
-			"name": "naval-ravikant",
-			"displayName": "Naval Ravikant",
-			"type": null,
-			"priority": 37,
-			"priorityReason": "Tech-philosophy evergreen with cult following; deep audience overlap with 9takes tech/self-knowledge readers and a dense quote record",
-			"estimatedTraffic": "medium",
-			"searchVolume": "medium",
-			"personaTitle": null,
-			"addedToQueue": "2026-07-18",
-			"retryCount": 0,
-			"strategicValue": "tech-philosophy-cluster"
-		}
-	],
+	"queue": [],
 	"completed": [
 		{
 			"name": "rebecca-yarros",
@@ -1692,7 +1678,20 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": null,
+	"inProgress": {
+		"name": "naval-ravikant",
+		"displayName": "Naval Ravikant",
+		"type": null,
+		"priority": 37,
+		"priorityReason": "Tech-philosophy evergreen with cult following; deep audience overlap with 9takes tech/self-knowledge readers and a dense quote record",
+		"estimatedTraffic": "medium",
+		"searchVolume": "medium",
+		"personaTitle": null,
+		"addedToQueue": "2026-07-18",
+		"retryCount": 0,
+		"strategicValue": "tech-philosophy-cluster",
+		"startedAt": "2026-09-01T06:00:00Z"
+	},
 	"skipped": [
 		{
 			"name": "nara-smith",

@@ -1,0 +1,10 @@
+{
+	"schema_version": 1,
+	"subject": "Naval-Ravikant",
+	"review_dir": "docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003",
+	"verification_file": "docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/verification-final.md",
+	"verification_status": "pass",
+	"reviewed_snapshot_sha256": "e901dee508bd289461cfe4c1a6f897f8d172491151b8f830c35fb5c32d5a658f",
+	"verified_content_sha256": "6a9d8c78cf3a618c47ab56717e7c622662749e4842e24b83765ee51d71c61de0",
+	"verified_at": "2026-09-01T08:10:57.000Z"
+}

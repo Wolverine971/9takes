@@ -1,0 +1,13 @@
+All eleven required H2 headings present, counts match (3 blockers / 7 concerns), frontmatter parses.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Naval-Ravikant/2026-09-01_020003/enneagram.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. 3 blockers, 7 concerns.
+
+**Strongest hit (ENN-H1):** the honesty tiebreaker in the diagnosis section — "An Eight would defend blunt speech as strength. A Three would defend it as reputation. Naval defends it as overhead… He has described a memory leak in the register of ethics." Three types produce the same visible behavior and the type is read off the *reason given*. That's the page's one irreplaceable argument and the reason it beats the aggregators.
+
+**Highest-priority concern (ENN-C1):** the page argues a Five for 4,300 words without naming the Five's passion. Type 5's vice is avarice and its virtue is non-attachment — both are in this repo's own `enneagram-concepts.md` table and Type 5 pillar. Two consequences: the obvious in-type objection (*Fives hoard, this one gave a million-selling book away free*) is never met, and the piece walks past its best available insight — Naval's most famous doctrine, "desire is a contract you make with yourself to be unhappy," *is* his type's prescribed virtue, sold as a product. The corpus already has the resolution in `Malcolm-Gladwell.md`: avarice is "the hoarding of *self*." Naval publishes his understanding without limit and withholds himself completely — no net worth, no spouse, and by the draft's own construction not one scene where he's in a room with another person. ~100 words, and the cohesion pass left the headroom.
+
+The blockers, briefly: the FAQ calls the 90%-fear line "the clearest evidence" for Type 5 when it's a head-triad datum the article's own Rabbit Hole later cites *for* Type 6 (the body gets this right; the machine-extracted field does not); the falsification test closes on "Twenty years of transcripts contain neither" over a corpus the packet says was never searched, and it's aimed at Type 6 rather than Type 8, the alternative the page itself ranks strongest; and — cross-lane, packet-confirmed — the closing pull-quote's wording and date both track a Tier-4 aggregator rather than nav.al, which matters here because that quote is my lane's terminal type claim.
+
+One thing I did not use: a search synthesis claimed Naval funded the organization behind *The Sovereign Child*. The tim.blog episode page doesn't corroborate it, so it's recorded as an open question (ENN-Q1), not a finding.

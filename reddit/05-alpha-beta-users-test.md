@@ -8,36 +8,35 @@
 ## Title
 
 ```text
-[Web, Beta] Test an anonymous answer-first discussion flow — no signup needed
+[Web] I made a discussion site where you answer before seeing the crowd. Is that useful or annoying?
 ```
 
 ## Body
 
 ```text
-I’m testing 9takes, a web app where you answer a real question before seeing how everyone else responded.
+Once I read what other people wrote, I can feel it shaping my own answer.
 
-I’m specifically testing whether the answer-first interaction feels meaningful or whether it feels like an artificial content gate.
+I built 9takes around that problem. You answer one question before the rest of the discussion appears. No account required.
 
-Test path — approximately 5 minutes:
+I don't know whether that gives people room to answer for themselves or whether it just feels like I'm making them do work to unlock the page. That's what I need help testing.
 
-1. Open the question below.
-2. Write and submit one honest answer. No account is required.
-3. Explore the human discussion that unlocks.
-4. Try the sorting/filtering controls.
-5. Optionally open the separate AI perspectives section.
+If you have five minutes:
 
-Test link:
+1. Open this question.
+2. Submit one honest answer.
+3. Look through the discussion that appears.
 
 https://9takes.com/link/567
 
-I’d appreciate feedback on:
+The feedback I need most:
 
-- Device and browser
-- Whether you understood why the other answers were hidden
-- Whether anonymous posting felt trustworthy
-- Whether the reveal was worth the effort of answering
-- The exact point where you became confused or wanted to leave
-- Whether human and AI responses were clearly distinguished
+- Did you understand why the other answers were hidden?
+- Was seeing them worth writing your own answer first?
+- Did the reply notification option feel useful or like an account grab?
+- Where did you hesitate, get confused, or want to leave?
+- What device and browser did you use?
 
-I built the product, and negative feedback is more useful to me than encouragement. I’ll also test another project from this community and return the favor.
+If the whole thing feels annoying, say so. That's the main thing I need to know.
+
+I tested another project from this sub before posting, and I'm happy to return the favor.
 ```
