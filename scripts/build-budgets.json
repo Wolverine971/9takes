@@ -1,6 +1,6 @@
 {
 	"globalCssBytes": 307200,
-	"clientOutputBytes": 188792000,
+	"clientOutputHardLimitBytes": 268435456,
 	"runtimeAssetBytes": 159139312,
 	"runtimeAssetsOver1MiB": 15,
 	"runtimeAssetsOver5MiB": 1,

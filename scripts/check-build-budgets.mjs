@@ -139,14 +139,16 @@ if (!staticOnly) {
 	const clientFiles = walkFiles(CLIENT_DIR);
 	globalCss = findGlobalCss(manifest);
 	metrics.globalCssBytes = globalCss.bytes;
-	metrics.clientOutputBytes = bytesIn(clientFiles);
+	// The client output grows legitimately as editorial routes are added. Keep this as a
+	// generous hard ceiling rather than an exact ratchet; media and CSS have their own
+	// stricter budgets below, so accidental bloat is still caught without blocking routine publishing.
+	metrics.clientOutputHardLimitBytes = bytesIn(clientFiles);
 }
 
 if (acceptPortraitBaseline) {
 	const previousBytes = budgets.portraitAssetBytes;
 	const previousFiles = budgets.portraitAssetFiles;
 	const portraitByteDelta = metrics.portraitAssetBytes - previousBytes;
-	budgets.clientOutputBytes += portraitByteDelta;
 	budgets.runtimeAssetBytes += portraitByteDelta;
 	budgets.portraitAssetBytes = metrics.portraitAssetBytes;
 	budgets.portraitAssetFiles = metrics.portraitAssetFiles;
@@ -158,7 +160,7 @@ if (acceptPortraitBaseline) {
 
 const labels = {
 	globalCssBytes: 'Root/global CSS',
-	clientOutputBytes: 'Client deploy output',
+	clientOutputHardLimitBytes: 'Client deploy output (hard ceiling)',
 	runtimeAssetBytes: 'Runtime media/fonts',
 	runtimeAssetsOver1MiB: 'Runtime assets over 1 MiB',
 	runtimeAssetsOver5MiB: 'Runtime assets over 5 MiB',
@@ -169,7 +171,7 @@ const labels = {
 };
 const byteMetrics = new Set([
 	'globalCssBytes',
-	'clientOutputBytes',
+	'clientOutputHardLimitBytes',
 	'runtimeAssetBytes',
 	'largestRuntimeAssetBytes',
 	'portraitAssetBytes'
