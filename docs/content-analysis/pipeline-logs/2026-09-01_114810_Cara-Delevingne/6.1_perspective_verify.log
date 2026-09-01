@@ -1,0 +1,18 @@
+**Output:** `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/verification-initial.md`
+
+- **verification_status:** `fail`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+- **final_content_sha256:** `25ccc9adfb988eda2c1eb36f12ce22daf5994d286bc11f8260df3aafa157a389`
+
+All eleven P0 repairs pass their acceptance tests and all twelve protected hits survive — on the two counts the gate scores, the revision is clean. The `fail` rests on verification method step 6: three repairs introduced factual assertions with no source trail.
+
+1. **Topshop (L315)** — "the retailer she first designed for in 2017" is false. TheIndustry.fashion, WWD and Drapers describe the August 2026 capsule as Topshop's *first-ever co-designed* collection with her; her prior history is a 2014 campaign and a 2025 styling edit. P1-05 offered "establish the history or cut the word"; the repair invented the history.
+2. **Crowd votes (L148)** — "all cast in 2018" isn't supported for Boo, whose page shows no vote dates. I re-ran the lookup: Sakinorva's three votes are dated 2018 exactly as logged; Boo's single vote is undated, which is why the editor's own log gives dates for Sakinorva only.
+3. **The close (L323 vs L146)** — P1-11's durability recast put a 25 September 2026 release in the past tense in a piece dated 1 September, contradicting the hook's "arrives on 25 September."
+
+Each has a one-clause fix. Two softer items (an unlogged quotation swap in the age-7 table row, a new unmarked elision in the pull-quote) and the 4,127-word budget are recorded under Remaining work.
+
+Two things worth your attention beyond the draft: the editor pass finally listened to the *Call Her Daddy* audio, which closed RQ-01, caught a real misdate in RQ-02, and retrieved Playboy on the fourth attempt — that's the best work in this file. And a formatter has been rewriting the review directory after the snapshot phase, so `draft-reviewed.md` no longer hashes to the frozen `draft_sha256` and the gate never notices. Content is intact, but the freeze is advisory rather than enforced right now.
+
+The deterministic gate script, not this report, decides whether the pipeline may finalize.

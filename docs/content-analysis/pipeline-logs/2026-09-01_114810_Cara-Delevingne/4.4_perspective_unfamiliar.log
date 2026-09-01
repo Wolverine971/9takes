@@ -1,0 +1,17 @@
+All eleven required H2 headings present, in order; frontmatter counts match the document (3 blockers, 9 concerns).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/unfamiliar.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **`hold_for_research`**
+
+**Blockers: 3**
+
+- **UNFAMILIAR-R1** — The article's central metaphor (her body involuntarily "filing reports") may misdescribe self-harm. I hit the seam unaided: line 118 says she "collected casts" and "wanted a visible token" — choices — while line 160 says it "came out through her body" — involuntary. Packet CLM-01 explains why: the source passage sits inside a self-harm discussion ("So I just wanted to feel pain"), and "stopped counting them" is the draft's inference, not her words. My one orientation search confirmed the first page of results frames it as self-harm and danger-seeking — so this isn't a specialist nuance, it's what a curious reader finds in one search.
+- **UNFAMILIAR-R2** — The hotel-room `inner-thought` block (line 245) is unattributed first-person interiority at a suicidal moment, sandwiched between two real quotations, in an article that attributes everything else. I could not tell whether she said it. The house furniture guide confirms it's a writer's device, and the `.attribution` slot the CSS provides is unused — the corpus already solves this elsewhere by keying such blocks as authorial.
+- **UNFAMILIAR-R3** — "runs about six months across eleven cities" (line 85) sits in the paragraph answering *why now*, and per packet CLM-06 the itinerary was ~11 shows across ~6 cities, ending 26 June — two months before the publication date.
+
+**Strongest hit:** the "voice" reframe in section 5 — modelling took her voice, acting gave her a screenwriter's, *Cabaret* gave her someone else's songs, music is the first where the words are hers, so "the four careers are one request, refused three times and repeated anyway." It changed my mind in real time about a person I knew nothing about, using her own vocabulary, with *Cabaret* explained inside the sentence so I never needed prior knowledge.
+
+**Highest-priority concern:** UNFAMILIAR-C2 — the title stakes the piece on overturning an internet verdict ("Six different sites, roughly the same verdict"), but the databases are never named or sized. Packet CLM-14 notes Sakinorva's Type 7 rests on two votes against a competing 3w4. As an unfamiliar reader I have no way to calibrate the antagonist the whole article is arguing with — and the honest, thinner number would make the framing sharper, not weaker.
+
+One process note worth flagging: the frozen snapshot embeds the prior `FRESH EYES REVIEW` and `SECOND PASS NOTES`. I read them as part of the file but did not treat them as evidence or credit their claims about what was fixed; where my findings overlap theirs, I reached them on the unaided read first. I've disclosed this in Limits.

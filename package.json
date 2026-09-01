@@ -138,6 +138,7 @@
 		"rehype-slug": "^5.1.0",
 		"remark-abbr": "^1.4.2",
 		"remark-github": "^11.2.4",
+		"resend": "6.25.0",
 		"sharp": "^0.35.3",
 		"stemmer": "^2.0.1",
 		"stripe": "^11.18.0",

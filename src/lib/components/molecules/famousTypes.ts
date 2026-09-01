@@ -106,7 +106,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'cleopatra', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['historical'] },
 		{ name: 'corina-conf', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['other'] },
 		{ name: 'cristiano-ronaldo', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Football\'s Relentless Perfectionist', contentGrade: 8.7, types: ['athlete'] },
-		{ name: 'dalton-cadwell', link: false, hasImage: true, lastmod: '2026-08-30', personaTitle: null, contentGrade: null, types: ['techie'] },
+		{ name: 'dalton-cadwell', link: false, hasImage: true, lastmod: '2026-09-01', personaTitle: null, contentGrade: null, types: ['techie'] },
 		{ name: 'david-beckham', link: true, hasImage: true, lastmod: '2026-08-12', personaTitle: 'Football\'s Most Practised Idol', contentGrade: 8.5, types: ['celebrity', 'entrepreneur'] },
 		{ name: 'donald-trump', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'The Showman Who Became the Show', contentGrade: 9.6, types: ['politician', 'modern-leader'] },
 		{ name: 'drake', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Achiever Who Made Vulnerability Win', contentGrade: 9, types: ['musician', 'rapper'] },
@@ -273,7 +273,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'tyler-the-creator', link: true, hasImage: true, lastmod: '2026-03-30', personaTitle: 'Hip-Hop\'s Self-Made Outcast', contentGrade: null, types: ['musician', 'rapper'] },
 		{ name: 'vincent-van-gogh', link: true, hasImage: true, lastmod: '2026-04-29', personaTitle: 'Art\'s Sacred Arsonist', contentGrade: 9.8, types: ['historical', 'historical-artist'] },
 		{ name: 'zayn-malik', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'Pop\'s Reluctant Enigma', contentGrade: 8.7, types: ['musician', 'pop-star'] },
-		{ name: 'zoe-kravitz', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Hollywood\'s Beautiful Decoy', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] }
+		{ name: 'zoe-kravitz', link: true, hasImage: true, lastmod: '2026-03-24', personaTitle: 'Hollywood\'s Beautiful Decoy', contentGrade: 8.8, types: ['movieStar', 'screen-icon'] },
+		{ name: 'cara-delevingne', link: false, hasImage: false, lastmod: '2026-09-01', personaTitle: 'The Aristocrat Who Sold Freedom', contentGrade: 8.6, types: ['celebrity', 'musician', 'movieStar'] }
 	],
 	5: [
 		{ name: 'agatha-christie', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'Crime\'s Private Observer', contentGrade: 8.9, types: ['historical', 'author'] },
@@ -319,7 +320,8 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'warren-buffett', link: true, hasImage: true, lastmod: '2026-07-08', personaTitle: 'Omaha\'s Quiet Fortress', contentGrade: 8.8, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'yang-zhilin', link: true, hasImage: true, lastmod: '2026-08-22', personaTitle: 'AI\'s Far-Side Observer', contentGrade: 8.7, types: ['techie', 'entrepreneur'] },
 		{ name: 'zach-king', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
-		{ name: 'demis-hassabis', link: false, hasImage: false, lastmod: '2026-08-29', personaTitle: 'AI\'s Abdicating Architect', contentGrade: 8.6, types: ['techie', 'entrepreneur', 'frontier-builder'] }
+		{ name: 'demis-hassabis', link: false, hasImage: false, lastmod: '2026-08-29', personaTitle: 'AI\'s Abdicating Architect', contentGrade: 8.6, types: ['techie', 'entrepreneur', 'frontier-builder'] },
+		{ name: 'naval-ravikant', link: false, hasImage: false, lastmod: '2026-09-01', personaTitle: 'Silicon Valley\'s Library Kid', contentGrade: 8.1, types: ['techie', 'entrepreneur', 'author'] }
 	],
 	6: [
 		{ name: 'alexandria-ocasio-cortez', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Congress\'s Vigilant Insurgent', contentGrade: 8.4, types: ['politician', 'campaign-politician'] },
@@ -381,7 +383,10 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'tucker-carlson', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Media\'s Contrarian Watchdog', contentGrade: null, types: ['politician', 'campaign-politician'] },
 		{ name: 'volodymyr-zelensky', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['politician'] },
 		{ name: 'zendaya', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'The Star Who Builds the Exit First', contentGrade: 8.4, types: ['newMovieStar', 'movieStar', 'rising-star'] },
-		{ name: 'zooey-deschanel', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Indie\'s Vigilant Romantic', contentGrade: 8.9, types: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover'] }
+		{ name: 'zooey-deschanel', link: false, hasImage: true, lastmod: '2026-05-06', personaTitle: 'Indie\'s Vigilant Romantic', contentGrade: 8.9, types: ['celebrity', 'movieStar', 'musician', 'screen-icon', 'music-crossover'] },
+		{ name: 'laura-loomer', link: false, hasImage: false, lastmod: '2026-08-31', personaTitle: 'MAGA\'s Loyalty Sentinel', contentGrade: 8.6, types: ['politician', 'campaign-politician', 'creator', 'news-commentator'] },
+		{ name: 'rebecca-yarros', link: false, hasImage: false, lastmod: '2026-08-31', personaTitle: 'The Sentry Who Sells Escape', contentGrade: null, types: ['author'] },
+		{ name: 'zach-bryan', link: false, hasImage: false, lastmod: '2026-08-30', personaTitle: 'Country\'s Loyal Mutineer', contentGrade: 8.9, types: ['musician'] }
 	],
 	7: [
 		{ name: 'alex-cooper', link: true, hasImage: true, lastmod: '2026-04-01', personaTitle: 'Podcasting\'s Unfiltered Queen', contentGrade: 9.2, types: ['creator', 'podcaster'] },

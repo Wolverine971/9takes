@@ -1,0 +1,25 @@
+Lint clean, frontmatter valid.
+
+## Grading Complete — Cara Delevingne (regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Cara-Delevingne | 8 | 8 | 9 | 9 | 8 | 9 | **8.4** | **B** |
+
+`(8×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 8.4`. No caps applied; Discoverability 9 clears the gate. Prior grade 8.2 → 8.4, stability delta 0.2.
+
+**Bracket:** beats Alex-Warren (7.0–7.9) — that draft instructs the reader ("Read that twice") and resolves its critic pressure before the close; this one leaves the charge standing ("The album is not the test. The test is what she makes after the raw thing stops selling") and cut the house tells Alex-Warren still carries. Loses to Peter Thiel (9.0–9.4) — Thiel opens on a parachute on the 42nd floor, sourced to a named colleague at a timestamped link, then produces five more details of that class from a biographer, an investor, and the subject. Cara has one image of that calibre and a single podcast episode under most of the rest.
+
+### Key observations
+
+**What earned the score.** The somatic ledger is a genuinely non-transferable form — dated rows of moments the pain arrived where others could see it, each with her own account, closing on Van Nuys as "the one that finally worked." The hook pays off twice, as signature detail and as the tie-breaker against the Seven read. The final act refuses to resolve, turning the 4w3 shadow on the album itself. And the revision pass actually transcribed the Call Her Daddy audio, which caught a real misdate three prior passes had shipped.
+
+**What held it at B.**
+1. **A confirmed factual error is still on the page**, in the skeptic beat: "a retailer she had only modelled for since 2014." Your own `verification-final.md` holds the gate at `fail` on exactly this — TheIndustry.fashion records a 2025 styling edit and ambassador role. Deleting "only" closes it.
+2. **Source concentration.** One podcast carries the epigraph, cold open, thesis quote, pull-quote, tie-breaker, household rule, three table rows, and the suicidality account. Third-party testimony is three short non-load-bearing quotes. The critic anchor is Fashion Times quoting Reddit.
+3. **Strawman thesis.** The title fights "the 7 the internet assigned her"; the body then discloses that's three votes, two from 2018. The stronger opponent (the Vogue "you can't run" line) is already in the draft, buried in the Rabbit Hole.
+4. **Sameness drag.** Same-type scan tripped at 0.045 with two of three closest pairs being the diagnosis paragraph itself against Hunter-Biden. Not a cap — the reuse is shape, not verbatim, and two beats are lint-mandated — but the Type-4 diagnosis vocabulary is recycling.
+
+Sidecar: `docs/content-analysis/grades/Cara-Delevingne.review.md`. Source audit was clean (6/6 inline, 0 untagged), so the Evidence deduction is concentration and the Topshop error, not audit failures.
+
+**Total graded this session: 1**

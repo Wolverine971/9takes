@@ -429,3 +429,14 @@ export function getTrackingPixelUrl(trackingId: string, baseUrl: string): string
 export function getUnsubscribeUrl(trackingId: string, baseUrl: string): string {
 	return `${baseUrl}/api/track/unsubscribe/${trackingId}`;
 }
+
+/**
+ * RFC 8058 POST target. This is deliberately separate from the human-facing
+ * SvelteKit confirmation route so a provider POST never crosses browser CSRF
+ * handling or performs a state change through GET.
+ */
+export function getOneClickUnsubscribeUrl(trackingId: string, baseUrl: string): string {
+	const url = new URL('/api/one-click-unsubscribe', baseUrl);
+	url.searchParams.set('tracking_id', trackingId);
+	return url.toString();
+}

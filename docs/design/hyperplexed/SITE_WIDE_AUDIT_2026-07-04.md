@@ -947,3 +947,68 @@ Burn down the remaining admin accessibility warnings, starting with calendar day
 scoped CSS selectors, then audit the route-local bare `input`/`select` controls still bypassing the
 shared form atoms. Authenticated desktop/mobile dark/light verification remains a separate owed pass.
 -> P1+P3+P12+P13
+
+---
+
+## 2026-09-01 Implementation Pass 12 - Modal Verification and Responsive Hardening
+
+Status: the modal migration has now been exercised against authenticated real admin data as well as
+the public styleguide fixture. The pass found and fixed three defects that compiler-only verification
+did not expose.
+
+### Tier 1 - fixed
+
+- **Email composer SSR is restored.** Literal `{{ name }}` example markup in the HTML placeholder was
+  previously parsed as a Svelte expression, so any admin route mounting the composer returned HTTP
+  500 during SSR. The placeholder is now an explicit string expression, and a server-compiler
+  regression test protects it. -> P8+P13
+- **Full-mobile shells now override desktop width caps correctly.** `maxWidth` moved from an inline
+  `max-width` declaration to a custom property owned by the modal CSS. At 390px, full-mobile shells
+  now run from x=0 to x=390 instead of clipping a 390px child inside a 370px outer shell. The live
+  consulting record, welcome preview, content editor, and styleguide specimen inherit the fix. ->
+  P1+P11+P13
+- **Client creation header no longer collides with the close button.** The kicker/title stack reserves
+  the shared close-button lane; measured bounding boxes do not overlap at 390px. Controls remain 16px
+  and the form/footer remain contained. -> P1+P3+P11
+- **Mobile viewport and surface separators are explicit.** Welcome-preview sizing includes `dvh`, and
+  migrated modal headers/tabs/footers use `--stone-edge` rather than an invisible surface-on-surface
+  border. The personality editor also ignores save shortcuts while its warning is active. ->
+  P3+P9+P11+P13
+- **Dialog ownership is now a durable invariant.** A source-level Vitest guard scans every admin
+  Svelte route and fails on raw dialog roles or route-owned modal/backdrop/warning-overlay families.
+  -> P13
+
+### Live result
+
+- The canonical modal has four maintained screenshots: desktop/mobile in dark/light. Desktop remains
+  a balanced 448px dialog; mobile is a clean 390×844 full-screen shell with no clipped gutters.
+- Authenticated real-data checks pass for the consulting person record at desktop dark and mobile
+  light, client creation at mobile light, welcome email preview at mobile light, and the personality
+  editor warning at mobile light. Focus lands on the intended control, body scroll locks, Escape
+  closes and restores focus, and every measured state has zero horizontal overflow.
+- The create-client form renders one column at 390px, all controls compute to 16px, and its header and
+  footer separators resolve to the theme edge token. No form was submitted during visual QA.
+
+### Verification
+
+- Focused UI regressions: pass, 5 files and 12 tests (Modal, EmailComposeModal client + SSR compiler,
+  ContentEditorModal, and admin dialog inventory).
+- Browser suite: pass, all 20 tests. This includes 15 mobile SSR/overflow/console routes, the portrait
+  theme preflight, and four dark/light × desktop/mobile production-component baselines with modal
+  focus, scroll-lock, containment, Escape, and focus-restoration assertions.
+- `pnpm lint:radius`, `pnpm lint:colors`, `pnpm lint:global-css`, targeted ESLint, targeted Prettier,
+  and `git diff --check`: pass.
+- The first full repository run passed 157 files / 728 tests before concurrent content-pipeline edits.
+  A final rerun is blocked outside this UI slice by the active perspective-gate work:
+  `personBlogParser.spec.ts` has one fixture without `_source_path`, and `svelte-check` reports four
+  matching `_source_path` typing errors in `scripts/personBlogParser.js`. The UI-focused suite stays
+  green.
+- Production Vite compilation completed. The post-build deploy-size ratchet is 61.13 KiB over because
+  the dirty worktree adds a 62.71 KiB `Naval-Ravikant` content chunk; CSS and runtime asset budgets all
+  pass. The required Svelte autofixer remains unavailable offline (`ENOTCACHED`).
+
+### Next Highest-Priority Slice
+
+Burn down the remaining admin accessibility warnings, starting with calendar day semantics and stale
+scoped CSS selectors, then audit the remaining route-local bare controls. The modal lifecycle and
+mobile/theme layer no longer need structural work. -> P3+P12+P13

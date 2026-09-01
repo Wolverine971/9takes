@@ -7,10 +7,12 @@ import type { SendEmailResponse } from '$lib/types/email';
 import { sendBatchEmails } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 import { requireAdmin } from '$lib/server/adminAuth';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { adminSendEmailSchema } from '$lib/validation/adminEmailSchemas';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
-	const { session, supabase } = await requireAdmin(locals);
+	const { session } = await requireAdmin(locals);
+	const supabase = getSupabaseAdminClient();
 
 	try {
 		const parsed = adminSendEmailSchema.safeParse(await request.json().catch(() => null));
@@ -41,7 +43,9 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 			campaignId: campaign_id,
 			sentBy: session.user.id,
 			delayMs: 100, // 100ms delay between sends
-			includeFooter: true
+			includeFooter: true,
+			emailKind: 'marketing',
+			idempotencyScope: campaign_id ? `admin-campaign/${campaign_id}` : undefined
 		});
 
 		const response: SendEmailResponse = {

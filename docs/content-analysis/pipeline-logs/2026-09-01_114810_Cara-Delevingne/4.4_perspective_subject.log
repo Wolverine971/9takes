@@ -1,0 +1,16 @@
+All eleven required H2 headings present in order; counts match frontmatter (2 blockers, 9 concerns).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/subject.md`
+
+**Verdict:** trust `strained`, value `useful`, delight `clear_hit`, recommendation **revise**. Snapshot SHA verified against `context.json` and the supplied `--draft-sha`.
+
+**Blockers: 2**
+
+- **SUBJ-R1** — L245 writes Delevingne's first-person interior monologue at her suicidal crisis in a `.inner-thought` panel. I verified the rendering at `src/scss/blog.scss:630`: tinted, italic, thought-bubble icon, no attribution marker — and it sits immediately after two real quotes, so a reader will take it as a third. Nothing in the sourced record supports that chain of reasoning. Repair is deletion; the paragraph lands harder without it.
+- **SUBJ-R2** — The whole somatic frame ("What Cara Delevingne's body kept saying for her," "Her body had been filing reports for twenty-three years") recasts what she described as deliberate self-harm as her body acting without her. I pulled the verbatim from the draft's own transcript source: *"I also just started throwing myself off stuff… Because I was in pain inside, but I didn't know how to express it. So I just wanted to feel pain."* The draft quotes the middle clause and drops both the act and the motive. Critically, the fix strengthens the thesis — the draft's own tie-breaker, "a bid to be witnessed," is the accurate frame, and a deliberate bid is far better Type 4 evidence than an involuntary symptom, because symptoms have no motive.
+
+**Strongest hit:** the voice reframe at L227–231 — "the four careers are one request, refused three times and repeated anyway" — built entirely from her vocabulary and applied to the behavior she's most mocked for. That's the piece's dignity engine; preserve intact.
+
+**Highest-priority concern (SUBJ-C1):** L223's "Nobody handed her the Warner contract on a blind listen" is an unsourced factual claim about how she got a record deal, conceded on her behalf. She has an on-record concession of her own that's better and fairer — the Vogue 2023 "she's spoiled, there's nepotism… which I did, don't get me wrong. But life wasn't all that easy for other reasons." Swapping it fixes the sourcing and strengthens the concession.
+
+Two research notes worth flagging to the synthesis step: I **downgraded** one packet finding — CLM-03's "I'm not this" is real, located in the same continuous transcript passage, so a later editor should not strip it. And I **surfaced** a new one — Daily Front Row places the fractures adjacent to the age-7 hunger strike, which puts the draft's "Early modelling years" dating and the L81 bridge ("This was happening while she was one of the most photographed faces on the planet") in question. That's held at medium confidence and turns on one listen to the public episode audio, which would also settle the packet's own #1 dispute and the verbatim status of the thesis sentence.

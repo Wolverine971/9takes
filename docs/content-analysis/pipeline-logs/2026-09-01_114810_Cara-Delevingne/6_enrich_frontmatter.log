@@ -1,0 +1,28 @@
+Frontmatter enrichment complete: **Cara-Delevingne**
+
+**Fields filled:**
+`wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs`
+
+**Fields already present (preserved):**
+`wikipedia` (verified — resolves to the correct Person page, "English model and actress (born 1992)"), `instagram`, plus all creator-owned fields. `lastmod` untouched.
+
+**Verification done:**
+- QID `Q1395624` pulled from the Wikipedia page's `wikibase_item`, not guessed.
+- `imdb_id: nm5353321` confirmed via Wikidata claim P345 on that entity.
+- Birth data from Wikidata P569/P19/P27 (12 Aug 1992, Hammersmith, UK).
+- Every `same_as` and `citations` URL curl-checked for a 200 except `viaf.org` and `imdb.com`, which bot-block but whose IDs come straight from Wikidata claims (P214, P345).
+
+**FAQs generated (5):**
+1. What is Cara Delevingne's personality type? → `#what-is-cara-delevingnes-personality-type`
+2. Why is Cara Delevingne typed as a 4 and not a 7? → `#counterarguments-why-cara-delevingne-might-not-be-type-4`
+3. Why does Cara Delevingne say she didn't believe her own billboards? → `#why-cara-delevingne-never-believed-her-own-billboards`
+4. What made Cara Delevingne get sober? → `#what-cara-delevingnes-body-kept-saying-for-her`
+5. Is Cara Delevingne just collecting careers? → `#the-four-careers-cara-delevingne-gets-accused-of-collecting`
+
+All five anchors were checked against `github-slugger@2.0.0` output for the draft's actual headings — exact matches, no dead fragments.
+
+**Issues:**
+- **The body contains zero inline external links.** Every source is named in prose (Call Her Daddy, Vogue, W, PORTER, Rolling Stone, Fashion Times) with no URL, and the research/evidence-packet artifacts carry no URLs either. Rather than leave `citations` at one item, I resolved the body's named sources to canonical URLs and verified each one. That's a sourcing-hygiene gap worth fixing upstream — comparable drafts (kacey-musgraves, Phoebe-Bridgers) carry 27–39 body URLs.
+- **Vogue April 2023 could not be cited directly.** vogue.com is blocked to the search crawler and slug probing returned 404s, so I did not construct a URL. The cover story is cited via the ABC News/GMA report, which carries the exact "I hadn't slept. I was not OK" quote the body uses.
+- **FAQ 2's anchor points inside the Rabbit Hole `<details>` block.** Browsers auto-expand `details` on fragment navigation, so it resolves, but it's a slightly weaker deep-link than the main-body sections.
+- **Lint: 0 fail, 1 warn.** The FAQ warn is cleared (`faqs present and FAQPage-eligible (5 real Q/A pairs)`). The remaining warn is body length — 4,127 words against the 3,200–3,900 band, already documented and accepted in the editor pass's `editor-resolution.md`. Body untouched.

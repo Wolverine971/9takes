@@ -43,12 +43,21 @@
 		total_clicked: 0,
 		total_unsubscribed: 0,
 		total_bounced: 0,
+		total_complained: 0,
 		total_failed: 0,
 		total_open_count: 0,
 		total_click_count: 0,
 		open_rate: 0,
 		click_rate: 0,
-		unsubscribe_rate: 0
+		click_to_open_rate: 0,
+		unsubscribe_rate: 0,
+		raw_open_events: 0,
+		automated_open_events: 0,
+		unknown_open_events: 0,
+		raw_click_events: 0,
+		qualified_click_events: 0,
+		automated_click_events: 0,
+		unknown_click_events: 0
 	};
 	let analytics = $state<EmailAnalytics>({ ...analyticsDefaults, ...data.analytics });
 	let cronStatus = $state(data.cronStatus);
@@ -77,7 +86,9 @@
 	let sentPage = $state(1);
 	let sentIsLoading = $state(false);
 	let sentSearch = $state('');
-	let sentStatusFilter = $state<'all' | 'sent' | 'failed' | 'bounced'>('all');
+	let sentStatusFilter = $state<'all' | 'sent' | 'delayed' | 'failed' | 'bounced' | 'complained'>(
+		'all'
+	);
 	let sentSourceFilter = $state<'all' | 'profiles' | 'signups' | 'coaching_waitlist'>('all');
 	let sentDetailOpen = $state(false);
 	let sentDetailLoading = $state(false);
@@ -734,15 +745,27 @@
 			<span class="stat-label">Sent</span>
 			<span class="stat-num">{analytics.total_sent}</span>
 		</div>
-		<div class="stat-chip">
-			<span class="stat-label">Opened</span>
+		<div class="stat-chip stat-chip-detail">
+			<span class="stat-label">Pixel-loaded</span>
 			<span class="stat-num">{analytics.total_opened}</span>
-			<span class="stat-rate">{analytics.open_rate}%</span>
+			<span class="stat-rate">{analytics.open_rate}% raw</span>
+			<span class="stat-breakdown">
+				{analytics.raw_open_events} requests · {analytics.automated_open_events} known automated ·
+				{analytics.unknown_open_events} unknown
+			</span>
 		</div>
 		<div class="stat-chip">
-			<span class="stat-label">Clicked</span>
+			<span class="stat-label">Human clickers</span>
 			<span class="stat-num">{analytics.total_clicked}</span>
-			<span class="stat-rate">{analytics.click_rate}%</span>
+			<span class="stat-rate">{analytics.click_rate}% CTR</span>
+		</div>
+		<div class="stat-chip stat-chip-detail">
+			<span class="stat-label">Click events</span>
+			<span class="stat-num">{analytics.raw_click_events}</span>
+			<span class="stat-breakdown">
+				{analytics.qualified_click_events} human · {analytics.automated_click_events} automated ·
+				{analytics.unknown_click_events} pending
+			</span>
 		</div>
 		<div class="stat-chip">
 			<span class="stat-label">Unsubscribed</span>
@@ -752,6 +775,10 @@
 		<div class="stat-chip">
 			<span class="stat-label">Bounced</span>
 			<span class="stat-num">{analytics.total_bounced}</span>
+		</div>
+		<div class="stat-chip">
+			<span class="stat-label">Complaints</span>
+			<span class="stat-num">{analytics.total_complained}</span>
 		</div>
 		<div class="stat-chip">
 			<span class="stat-label">Failed</span>
@@ -1145,9 +1172,11 @@
 						class="filter-select"
 					>
 						<option value="all">All Statuses</option>
-						<option value="sent">Sent</option>
+						<option value="sent">Sent / Delivered</option>
+						<option value="delayed">Delayed</option>
 						<option value="failed">Failed</option>
 						<option value="bounced">Bounced</option>
+						<option value="complained">Complained</option>
 					</select>
 					<select
 						bind:value={sentSourceFilter}
@@ -1439,10 +1468,18 @@
 							<div class="empty-state">No tracking events yet</div>
 						{:else}
 							<div class="event-list">
-								{#each sentDetailEvents as event}
+								{#each sentDetailEvents as event (event.id)}
 									<div class="event-item">
-										<span class="event-type">{event.event_type}</span>
+										<div class="event-heading">
+											<span class="event-type">{event.event_type}</span>
+											<span class="event-classification event-{event.classification}">
+												{event.classification}
+											</span>
+										</div>
 										<span class="event-time">{formatDateTime(event.created_at)}</span>
+										{#if event.classification_reason}
+											<span class="event-reason">{event.classification_reason}</span>
+										{/if}
 										{#if event.link_url}
 											<a class="event-link" href={event.link_url} target="_blank" rel="noreferrer">
 												{event.link_url}
@@ -1588,6 +1625,17 @@
 		background: color-mix(in srgb, var(--success) 12%, transparent);
 		padding: 0.125rem 0.375rem;
 		border-radius: 4px;
+	}
+
+	.stat-chip-detail {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 0.2rem;
+	}
+
+	.stat-breakdown {
+		color: var(--ink-mid);
+		font-size: 0.7rem;
 	}
 
 	/* Cron Status */
@@ -1973,7 +2021,8 @@
 
 	.status-paused,
 	.status-exited,
-	.status-bounced {
+	.status-bounced,
+	.status-delayed {
 		background: rgba(234, 179, 8, 0.1);
 		color: rgb(202, 138, 4);
 	}
@@ -1990,7 +2039,8 @@
 		color: rgb(34, 197, 94);
 	}
 
-	.status-failed {
+	.status-failed,
+	.status-complained {
 		background: rgba(239, 68, 68, 0.1);
 		color: rgb(239, 68, 68);
 	}
@@ -2232,6 +2282,41 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.04em;
+		color: var(--ink-mid);
+	}
+
+	.event-heading {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.event-classification {
+		border-radius: 999px;
+		padding: 0.12rem 0.4rem;
+		font-size: 0.65rem;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+
+	.event-human {
+		background: color-mix(in srgb, var(--success) 14%, transparent);
+		color: var(--success-text);
+	}
+
+	.event-automated {
+		background: color-mix(in srgb, var(--warning) 14%, transparent);
+		color: var(--warning);
+	}
+
+	.event-unknown {
+		background: color-mix(in srgb, var(--ink-mid) 14%, transparent);
+		color: var(--ink-mid);
+	}
+
+	.event-reason {
+		font-family: var(--font-mono);
+		font-size: 0.68rem;
 		color: var(--ink-mid);
 	}
 

@@ -1,16 +1,22 @@
 // src/routes/api/track/unsubscribe/[tracking_id]/unsubscribe.server.spec.ts
 import { describe, expect, it, vi } from 'vitest';
 
-const { exitWelcomeSequenceForEmailMock, exitReactivationSequencesForEmailMock } = vi.hoisted(
-	() => ({
-		exitWelcomeSequenceForEmailMock: vi.fn(),
-		exitReactivationSequencesForEmailMock: vi.fn()
-	})
-);
+const {
+	exitWelcomeSequenceForEmailMock,
+	exitReactivationSequencesForEmailMock,
+	getSupabaseAdminClientMock
+} = vi.hoisted(() => ({
+	exitWelcomeSequenceForEmailMock: vi.fn(),
+	exitReactivationSequencesForEmailMock: vi.fn(),
+	getSupabaseAdminClientMock: vi.fn()
+}));
 
 vi.mock('$lib/server/emailSequences', () => ({
 	exitWelcomeSequenceForEmail: exitWelcomeSequenceForEmailMock,
 	exitReactivationSequencesForEmail: exitReactivationSequencesForEmailMock
+}));
+vi.mock('$lib/server/supabaseAdmin', () => ({
+	getSupabaseAdminClient: getSupabaseAdminClientMock
 }));
 
 import { GET, POST } from './+server';
@@ -25,6 +31,7 @@ function createSupabaseStub() {
 describe('/api/track/unsubscribe/[tracking_id]', () => {
 	it('returns 404 for malformed tracking IDs without querying Supabase on GET', async () => {
 		const supabase = createSupabaseStub();
+		getSupabaseAdminClientMock.mockReturnValue(supabase);
 
 		await expect(
 			GET({
@@ -39,6 +46,7 @@ describe('/api/track/unsubscribe/[tracking_id]', () => {
 
 	it('returns 404 for malformed tracking IDs without calling the unsubscribe RPC on POST', async () => {
 		const supabase = createSupabaseStub();
+		getSupabaseAdminClientMock.mockReturnValue(supabase);
 
 		await expect(
 			POST({
@@ -62,6 +70,7 @@ describe('/api/track/unsubscribe/[tracking_id]', () => {
 			from: vi.fn(),
 			rpc: vi.fn().mockResolvedValue({ data: recipientEmail, error: null })
 		};
+		getSupabaseAdminClientMock.mockReturnValue(supabase);
 		exitWelcomeSequenceForEmailMock.mockResolvedValue(1);
 		exitReactivationSequencesForEmailMock.mockResolvedValue(1);
 
@@ -93,6 +102,7 @@ describe('/api/track/unsubscribe/[tracking_id]', () => {
 			from: vi.fn(() => lookupQuery),
 			rpc: vi.fn()
 		};
+		getSupabaseAdminClientMock.mockReturnValue(supabase);
 		const consoleError = vi.spyOn(console, 'error').mockImplementation(() => undefined);
 
 		try {

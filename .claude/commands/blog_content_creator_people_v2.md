@@ -170,6 +170,15 @@ Every word must do work. Long paragraphs hide weak thinking. Compression signals
 - **Avoid (filler + meta-commentary):** "In this post, we'll explore how Taylor Swift's background shaped her career. It's important to note that, in many ways, her journey has been complex."
 - **Prefer (compressed):** "Taylor Swift wrote her first contract at 14. She has been re-writing them ever since."
 
+**Target length: 3,200–3,900 words of body prose.** This is the band to write toward. The 4,500 figure enforced by `./scripts/blog-lint.sh` is a **ceiling, not a target** — it exists to catch accretion across refreshes, and a draft that arrives at 4,480 words has aimed at the wrong number.
+
+Two things justify going above 3,900, and neither is "there was more to say":
+
+1. The subject genuinely has more load-bearing, independently-sourced material than the band holds (a Marcus Aurelius, a Freddie Mercury), **and** every section still survives the deletion test below.
+2. A specific section is doing work no other section does, and cutting it would remove an argument rather than a repetition.
+
+Length buys nothing on its own. Against 90 days of Search Console data the corpus shows corr(words, position) = 0.02 — no rank — while the longer half of every impression tier converts _worse_ at effectively identical rank. Aaron Pierre lands at 2,794 words and is among the strongest pieces in the corpus. If the draft is running long, the fix is never to trim evenly; find the section that re-proves a pattern the page already established and cut it to a clause.
+
 **Specific rules under this principle:**
 
 - **Kaplan's Law of Words** — cut every word, phrase, or sentence that doesn't earn its place. If a sentence can be deleted without loss, delete it.
@@ -1309,6 +1318,7 @@ Before finalizing any blog (new or updated). Every item must pass. Items marked 
 - [ ] **[H] No filler phrases** — scrub "it's important to note that," "at the end of the day," "in many ways," "needless to say."
 - [ ] **AI Language Ban clean** — no prose em-dashes (quote attributions exempt), none of the banned words/phrases/structures from the canonical list above. Verify mechanically: `./scripts/blog-lint.sh [Person-Name]` must not fail on em-dash or banned-phrase checks.
 - [ ] **[H] Kaplan's Law check** — every sentence earns its place. Cut any sentence that could be deleted without loss.
+- [ ] **[H] Length lands in the 3,200–3,900 band** — check with `./scripts/blog-lint.sh [Person-Name]` and read the reported body word count. Landing in the 4,400s means the draft aimed at the ceiling; go find the section that re-proves an established pattern and cut it. Above 3,900 requires one of the two justifications in "Compress ruthlessly" and a one-line note in the draft's Formula Fingerprint Ledger saying which.
 - [ ] **[H] Paragraph length** — no paragraph over ~4 lines unless the rhythm demands it. Dense blocks broken up.
 - [ ] **[H] First line sells second line** — the opening sentence creates enough pull that the reader wants the second. The second pulls into the third.
 

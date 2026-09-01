@@ -7,13 +7,15 @@ import { getSupabaseAdminClient } from './supabaseAdmin';
 
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
-type EmailSendRecipient = {
+export type EmailSendRecipient = {
 	recipient_email: string;
 	recipient_source: string;
 	recipient_source_id: string;
 };
 
-async function getEmailSendRecipient(trackingId: string): Promise<EmailSendRecipient | null> {
+export async function getReactivationRepermissionRecipient(
+	trackingId: string
+): Promise<EmailSendRecipient | null> {
 	if (!UUID_PATTERN.test(trackingId)) {
 		return null;
 	}
@@ -33,7 +35,7 @@ async function getEmailSendRecipient(trackingId: string): Promise<EmailSendRecip
 }
 
 export async function confirmReactivationRepermission(trackingId: string) {
-	const recipient = await getEmailSendRecipient(trackingId);
+	const recipient = await getReactivationRepermissionRecipient(trackingId);
 
 	if (!recipient) {
 		return null;
@@ -66,7 +68,7 @@ export async function confirmReactivationRepermission(trackingId: string) {
 }
 
 export async function declineReactivationRepermission(trackingId: string) {
-	const recipient = await getEmailSendRecipient(trackingId);
+	const recipient = await getReactivationRepermissionRecipient(trackingId);
 
 	if (!recipient) {
 		return null;
@@ -91,52 +93,4 @@ export async function declineReactivationRepermission(trackingId: string) {
 	}
 
 	return recipient;
-}
-
-export async function exitReactivationSequenceForTrackedClick(trackingId: string) {
-	if (!UUID_PATTERN.test(trackingId)) {
-		return 0;
-	}
-
-	const supabase = getSupabaseAdminClient() as any;
-	const { data: emailSend, error: emailSendError } = await supabase
-		.from('email_sends')
-		.select('id, recipient_email')
-		.eq('tracking_id', trackingId)
-		.maybeSingle();
-
-	if (emailSendError) {
-		throw emailSendError;
-	}
-
-	if (!emailSend?.id || !emailSend.recipient_email) {
-		return 0;
-	}
-
-	const { data: enrollments, error: enrollmentError } = await supabase
-		.from('email_sequence_enrollments')
-		.select('current_step_number, status, email_sequences!inner(key)')
-		.eq('last_email_send_id', emailSend.id)
-		.in('status', ['active', 'processing', 'paused']);
-
-	if (enrollmentError) {
-		throw enrollmentError;
-	}
-
-	const hasValueStepClick = (
-		(enrollments ?? []) as Array<{
-			current_step_number?: number | null;
-			email_sequences?: { key?: string | null } | null;
-		}>
-	).some((enrollment) => {
-		const sequenceKey = enrollment.email_sequences?.key ?? '';
-		const stepNumber = enrollment.current_step_number ?? 0;
-		return sequenceKey.startsWith('reactivation_') && stepNumber >= 1 && stepNumber <= 3;
-	});
-
-	if (!hasValueStepClick) {
-		return 0;
-	}
-
-	return exitReactivationSequencesForEmail(emailSend.recipient_email, 'reactivated_click');
 }

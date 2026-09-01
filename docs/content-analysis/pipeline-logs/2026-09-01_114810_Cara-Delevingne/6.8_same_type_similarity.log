@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Cara-Delevingne (Type 4)
+/Users/djwayne/9takes/src/blog/people/drafts/Cara-Delevingne.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 37
+Comparison set (last 8 other Type-4 drafts by date):
+  - Freddie-Mercury  (2026-08-29, 44 units)
+  - jeremy-allen-white  (2026-08-26, 53 units)
+  - machine-gun-kelly  (2026-08-16, 51 units)
+  - Phoebe-Bridgers  (2026-08-15, 39 units)
+  - Bryan-Johnson  (2026-08-13, 38 units)
+  - Hunter-Biden  (2026-07-25, 32 units)
+  - kacey-musgraves  (2026-07-23, 38 units)
+  - julia-fox  (2026-07-20, 30 units)
+
+Noise floor over 12025 unit pairs:  median=0  p90=0  p99=0.005  max=0.079
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.045   Cara-Delevingne  <->  Hunter-Biden
+   TARGET [counter-typing] sustained on-record framing of her own motive as escape from pain or reality full stop
+   OTHER  [counter-typing] The addiction and the serial reinvention both fit a Seven's escape from pain and appetite for motion.
+
+
+Most similar drafts (max unit-pair score):
+  0.079 ###                  julia-fox
+  0.071 ###                  jeremy-allen-white
+  0.070 ###                  Hunter-Biden
+  0.036 #                    kacey-musgraves
+  0.035 #                    Phoebe-Bridgers
+  0.033 #                    Freddie-Mercury
+  0.032 #                    machine-gun-kelly
+  0.024 #                    Bryan-Johnson
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.079   Cara-Delevingne  <->  julia-fox
+   TARGET [diagnosis] Ask a Type 4 what they want and the honest answer is to be seen accurately.
+   OTHER  [diagnosis] and its oldest hunger is to be seen and understood as exactly
+
+score 0.071   Cara-Delevingne  <->  jeremy-allen-white
+   TARGET [diagnosis] describing a decade of putting a face on a wall she did not recognize.
+   OTHER  [diagnosis] Fame had produced a Jeremy Allen White he did not recognize.
+
+score 0.070   Cara-Delevingne  <->  Hunter-Biden
+   TARGET [counter-typing] a decade of gregarious public affect.
+   OTHER  [counter-typing] A decade of board seats and consulting arrangements built on a surname is a poor fit for the type's instincts.
+
+score 0.070   Cara-Delevingne  <->  Hunter-Biden
+   TARGET [diagnosis] The Individualist lives with a running suspicion that the version of them everyone else is dealing with is a substitute
+   OTHER  [diagnosis] and a persistent conviction that the version of you other people are holding is a forgery.
+
+score 0.066   Cara-Delevingne  <->  Hunter-Biden
+   TARGET [diagnosis] A Seven's relationship to pain is exit.
+   OTHER  [counter-typing] The addiction and the serial reinvention both fit a Seven's escape from pain and appetite for motion.
+
+score 0.053   Cara-Delevingne  <->  Hunter-Biden
+   TARGET [diagnosis] describing a decade of putting a face on a wall she did not recognize.
+   OTHER  [counter-typing] A decade of board seats and consulting arrangements built on a surname is a poor fit for the type's instincts.
+
+score 0.045   Cara-Delevingne  <->  Hunter-Biden
+   TARGET [counter-typing] sustained on-record framing of her own motive as escape from pain or reality full stop
+   OTHER  [counter-typing] The addiction and the serial reinvention both fit a Seven's escape from pain and appetite for motion.
+
+score 0.036   Cara-Delevingne  <->  kacey-musgraves
+   TARGET [counter-typing] It falls short only because every account she gives of what she was running from is worded as an identity complaint.
+   OTHER  [diagnosis] So would a fuller explanation from Musgraves of what she means by Achiever beyond busyness.
+
+score 0.035   Cara-Delevingne  <->  Phoebe-Bridgers
+   TARGET [counter-typing] the career breadth that reads as option-keeping
+   OTHER  [diagnosis] Phoebe Bridgers reads as Enneagram Type 4
+
+score 0.033   Cara-Delevingne  <->  Freddie-Mercury
+   TARGET [counter-typing] A decade at that scale is genuinely gluttonous in the Seven sense
+   OTHER  [counter-typing] The 3w4 case is genuinely strong
+
+score 0.032   Cara-Delevingne  <->  machine-gun-kelly
+   TARGET [diagnosis] Ask a Type 4 what they want and the honest answer is to be seen accurately.
+   OTHER  [diagnosis] the core desire is to be understood as the genuine article.
+
+score 0.030   Cara-Delevingne  <->  jeremy-allen-white
+   TARGET [counter-typing] The crowd landed on Seven off real evidence
+   OTHER  [diagnosis] A different reader could reasonably land on 9w1 or 6w5.
+
+------------------------------------------------------------------------------
+Top pair scores 0.079 vs median 0  (~∞x the noise floor).

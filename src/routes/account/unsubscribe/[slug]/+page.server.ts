@@ -3,6 +3,7 @@ import { error, redirect } from '@sveltejs/kit';
 
 import type { Actions, PageServerLoad } from './$types';
 import { decrypt } from '../../../../utils/crypto';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 /** @type {import('./$types').PageLoad} */
 export const load: PageServerLoad = async (event) => {
@@ -80,12 +81,15 @@ export const actions: Actions = {
 			}
 
 			const sourceId = String(updatedSignup[0].id);
-			const { error: suppressionError } = await (supabase as any).rpc('unsubscribe_email_direct', {
-				p_email: normalizedSignupEmail,
-				p_source: 'signups',
-				p_source_id: sourceId,
-				p_reason: 'legacy_unsubscribe_page'
-			});
+			const { error: suppressionError } = await (getSupabaseAdminClient() as any).rpc(
+				'unsubscribe_email_direct',
+				{
+					p_email: normalizedSignupEmail,
+					p_source: 'signups',
+					p_source_id: sourceId,
+					p_reason: 'legacy_unsubscribe_page'
+				}
+			);
 
 			if (suppressionError) {
 				console.error('Failed to sync legacy unsubscribe into suppression list', suppressionError);

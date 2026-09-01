@@ -1,0 +1,32 @@
+Done. `src/blog/people/drafts/Cara-Delevingne.md` revised.
+
+## What triggered the loop
+
+Two inputs, both consumed:
+- **Grade B (8.2)**, with Evidence at 7 — the lowest weighted dimension, and the one the grade turned on.
+- **Perspective verification `fail`** (`open_p0: 0`, `protected_hit_regressions: 0`) on method step 6: the editor pass introduced new factual assertions without a source trail while making repairs.
+- Lint was 0 fail / 1 warn (word band) at the start.
+
+## Perspective repairs (all six draft-scoped items)
+
+| Item | Fix |
+|---|---|
+| RW-1 Topshop | Cut the invented "first designed for in 2017" history. Now "her first design credit at a retailer she had only modelled for since 2014," with Retail Gazette + the 25 Aug 2026 date. This sat inside PROTECT-01's ammunition. |
+| RW-2 vote dating | "all cast in 2018" scoped to Sakinorva in all three places it appeared — body, TL;DR, **and frontmatter FAQ 1**, which the verifier hadn't named but carried the same over-claim. |
+| RW-3 close tense | Forward construction restored; the close no longer asserts a 25 September release as past fact in a 1 September piece. |
+| RW-4 FAQ 1 motive | Replaced with the body's two-clause version, both clauses hers. |
+| RW-5 unmarked elision | "in my family" restored; the sentence that had been rewritten to match the cut restored too. |
+| RW-6 unlogged audio changes | Logged in `revision-resolution.md`. Checked the age-7 row still coheres — it does. |
+
+## Grade feedback
+
+- **Evidence:** every quotation in the album/recovery section now carries an outlet on the page, suicidality first (Rolling Stone 29 May 2026; Call Her Daddy June 2026). Rag & Bone cites WWD, Topshop cites Retail Gazette, Poppy cites PORTER Feb 2017, the "mum" quote gained its date. Cut the unsourced *Club Kid* "eight figures," kept A24 and the verified dates.
+- **Source concentration:** added Atwood and When The Horn Blows quoting the singles — the only third-party voices the packet supports on the music years, and the first anyone outside her own account vouching for the record.
+- **Word band:** 4,127 → 3,892, inside 3,200–3,900. Cuts came from the repeats the grader named plus a duplicated "I couldn't love, I couldn't receive love," the Rabbit Hole restating the diagnosis tie-breaker, and the unverified "roughly three years." None from a P0 repair, a PROTECT passage, a ledger, or the close.
+- **Ledger correction:** re-ran `same-type-similarity.mjs` — TRIPPED at 0.045 (Cara ↔ Hunter-Biden, on the stated falsifier), not CLEAR. Below the run's 0.079 noise max, so no Gate 6 block and no Originality cap. FORMULA FINGERPRINT and DISTRIBUTION ledgers updated.
+
+I rejected nothing from either reviewer. One item is **`needs_human`**: RW-8, the review directory's snapshot hash is no longer byte-verifiable because a formatter rewrote `context.json` and `draft-reviewed.md` after the freeze. That's a fix in `scripts/perspective-review-gate.mjs` or the formatter ignore list — not a draft edit — so I left both files untouched.
+
+**Verification:** lint clean (0 fail, 0 warn). All twelve PROTECT passages re-checked against the current draft; the load-bearing ones are byte-identical. Frontmatter YAML parses. `lastmod` and `content_quality` untouched.
+
+**Next:** the pipeline will clear the consumed review sidecar and re-grade. `/blog_perspective_verify_people` must rerun against the revised draft — this pass does not close the gate. Resolution artifact at `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/revision-resolution.md`.

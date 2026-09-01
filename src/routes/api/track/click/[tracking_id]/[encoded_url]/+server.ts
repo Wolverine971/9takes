@@ -2,10 +2,10 @@
 // Click tracking redirect
 
 import type { RequestHandler } from './$types';
-import { exitReactivationSequenceForTrackedClick } from '$lib/server/reactivationRepermission';
 import { isUuid } from '$lib/utils/uuid';
 import { isAllowedRedirectTarget } from '$lib/server/emailRedirect';
-import { isLikelyAutomatedEmailClick } from '$lib/server/emailClickRequest';
+import { classifyEmailRequest, isLikelyAutomatedEmailClick } from '$lib/server/emailClickRequest';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import {
 	logBestEffortTelemetryFailure,
 	runBestEffortTelemetry
@@ -28,7 +28,7 @@ function redirectResponse(location: string) {
 }
 
 export const GET: RequestHandler = async (event) => {
-	const { params, request, locals } = event;
+	const { params, request } = event;
 	const { tracking_id, encoded_url } = params;
 
 	// Decode the target URL
@@ -49,35 +49,35 @@ export const GET: RequestHandler = async (event) => {
 		return redirectResponse(HOME_URL);
 	}
 	const automatedClick = isLikelyAutomatedEmailClick(request);
+	const requestClassification = classifyEmailRequest(request);
 	const target = new URL(targetUrl);
 	target.protocol = 'https:';
 	const redirectTarget = target.toString();
 
-	// Never forward an automated scanner into a state-changing one-click
-	// re-permission action. Content links remain safe for scanners to inspect.
-	if (automatedClick && target.pathname.startsWith('/api/email/re-permission/')) {
-		return redirectResponse(HOME_URL);
-	}
-
-	// Vercel can return the redirect immediately while waitUntil keeps the
-	// analytics write alive. Obvious scanners and prefetchers still get the
-	// destination, but cannot inflate clicks or terminate a reactivation flow.
-	if (isUuid(tracking_id) && !automatedClick) {
+	// Retain every raw request. Unknown clicks wait through a behavioral
+	// holdback before they affect qualified aggregates or sequence state.
+	if (isUuid(tracking_id)) {
 		runBestEffortTelemetry(
 			event,
-			Promise.all([
+			Promise.resolve().then(() =>
 				persistClickAndReplyNotificationAnalytics(
-					locals.supabase,
+					getSupabaseAdminClient(),
 					tracking_id,
 					redirectTarget,
-					request
-				),
-				exitReactivationSequenceForTrackedClick(tracking_id)
-			]),
+					request,
+					requestClassification
+				)
+			),
 			(trackingError) => {
 				logBestEffortTelemetryFailure('Failed to persist email click', trackingError);
 			}
 		);
+	}
+
+	// Re-permission GETs are confirmation-only, but scanners still do not need
+	// to reach them. The raw event above has already been retained.
+	if (automatedClick && target.pathname.startsWith('/api/email/re-permission/')) {
+		return redirectResponse(HOME_URL);
 	}
 
 	// Redirect to target URL
@@ -88,7 +88,8 @@ async function persistClickAndReplyNotificationAnalytics(
 	supabaseClient: App.Locals['supabase'],
 	trackingId: string,
 	targetUrl: string,
-	request: Request
+	request: Request,
+	classification: ReturnType<typeof classifyEmailRequest>
 ): Promise<void> {
 	const parsedTarget = new URL(targetUrl);
 	const isReplyReturn = parsedTarget.pathname.startsWith('/api/reply-notifications/return/');
@@ -99,7 +100,8 @@ async function persistClickAndReplyNotificationAnalytics(
 		supabaseClient,
 		trackingId,
 		persistedTargetUrl,
-		request
+		request,
+		classification
 	);
 	if (!tracked) return;
 	if (!isReplyReturn) return;
@@ -128,7 +130,8 @@ async function updateClickTracking(
 	supabaseClient: App.Locals['supabase'],
 	trackingId: string,
 	targetUrl: string,
-	request: Request
+	request: Request,
+	classification: ReturnType<typeof classifyEmailRequest>
 ): Promise<boolean> {
 	if (!isUuid(trackingId)) {
 		return false;
@@ -143,7 +146,10 @@ async function updateClickTracking(
 		p_event_type: 'click',
 		p_link_url: targetUrl,
 		p_ip_address: ip,
-		p_user_agent: userAgent
+		p_user_agent: userAgent,
+		p_classification: classification.classification,
+		p_classification_reason: classification.reason,
+		p_classifier_version: 'email-event-v1'
 	});
 
 	if (trackingError) throw trackingError;

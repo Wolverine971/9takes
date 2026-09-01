@@ -1,14 +1,18 @@
 // src/routes/api/track/open/[tracking_id]/open.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { loggerMocks } = vi.hoisted(() => ({
+const { loggerMocks, getSupabaseAdminClientMock } = vi.hoisted(() => ({
 	loggerMocks: {
 		warn: vi.fn()
-	}
+	},
+	getSupabaseAdminClientMock: vi.fn()
 }));
 
 vi.mock('$lib/utils/logger', () => ({
 	logger: loggerMocks
+}));
+vi.mock('$lib/server/supabaseAdmin', () => ({
+	getSupabaseAdminClient: getSupabaseAdminClientMock
 }));
 
 import { GET } from './+server';
@@ -23,6 +27,7 @@ function buildEvent({
 	rpc?: ReturnType<typeof vi.fn>;
 } = {}) {
 	const waitUntil = vi.fn();
+	getSupabaseAdminClientMock.mockReturnValue({ rpc });
 
 	return {
 		event: {
@@ -66,7 +71,10 @@ describe('GET /api/track/open/[tracking_id]', () => {
 			p_event_type: 'open',
 			p_link_url: null,
 			p_ip_address: '203.0.113.10',
-			p_user_agent: 'test-email-client'
+			p_user_agent: 'test-email-client',
+			p_classification: 'unknown',
+			p_classification_reason: 'awaiting_behavioral_holdback',
+			p_classifier_version: 'email-event-v1'
 		});
 	});
 

@@ -117,6 +117,7 @@ dotenv.config();
  *   approvedFields?: string[],
  *   publishSync?: boolean,
  *   insertMissing?: boolean,
+ *   skipPerspectiveGate?: boolean,
  *   supabase?: ReturnType<typeof createSupabaseServiceClient>
  * }} InsertIntoSupabaseOptions
  */
@@ -941,7 +942,10 @@ export async function parseMarkdownFile(filePath) {
 		citations,
 		_has_content_quality: hasContentQualityField,
 		_has_valid_content_quality: hasValidContentQuality,
-		_explicit_fields: [...explicitFields]
+		_explicit_fields: [...explicitFields],
+		// Carried so the non-publish update paths can re-run the perspective gate
+		// against the draft they are about to push. Stripped before any DB write.
+		_source_path: filePath
 	};
 }
 
@@ -1726,6 +1730,57 @@ export function buildNonPublishUpdatePlan(existing, entry, options = {}) {
 	};
 }
 
+// Fields the six-perspective gate actually reviews: the visible body plus the
+// reader/search-facing editorial frontmatter that `getPerspectivePublishStatus`
+// folds into its hash. Touching any of these on a live row re-opens the jury's
+// question, so the update paths have to re-check the verification the same way
+// `--publish` does.
+const PERSPECTIVE_SENSITIVE_FIELDS = [
+	'content',
+	'title',
+	'meta_title',
+	'persona_title',
+	'description',
+	'enneagram',
+	'person',
+	'faqs'
+];
+
+/**
+ * The publish path gates on the perspective review, but `--sync` and `--apply`
+ * historically did not, so a post could publish clean, get rewritten, and be
+ * pushed back to production with the jury's verification pointing at text that
+ * no longer existed. Ten of the thirty most recent published posts reached
+ * production that way (2026-09-01 audit). This closes that path.
+ * @param {ReturnType<typeof buildNonPublishUpdatePlan>} plan
+ * @param {PersonBlogEntry} entry
+ * @param {{ published?: boolean | null }} existing
+ * @returns {Promise<void>}
+ */
+export async function assertPerspectiveGateForUpdate(plan, entry, existing) {
+	if (!existing?.published) return;
+	const touched = plan.diff
+		.map(({ field }) => String(field))
+		.filter((field) => PERSPECTIVE_SENSITIVE_FIELDS.includes(field));
+	if (touched.length === 0) return;
+
+	const sourcePath = entry?._source_path;
+	if (!sourcePath) {
+		throw new Error(
+			`Perspective gate could not run for ${plan.person}: no draft path on the parsed entry. Refusing to update reader-visible fields (${touched.join(', ')}).`
+		);
+	}
+
+	const status = await getPerspectivePublishStatus(sourcePath);
+	if (!status.valid) {
+		throw new Error(
+			`Perspective gate refused update for ${plan.person}: ${status.blocker || 'verification invalid'}. ` +
+				`This update changes reader-visible fields (${touched.join(', ')}) on a published row. ` +
+				`Re-run the six-perspective verification, or pass --skip-perspective-gate with an explicit reason.`
+		);
+	}
+}
+
 /**
  * Applying requires the reviewed hash and the exact changed-field set printed
  * by the dry run. Missing or extra approvals fail closed.
@@ -1902,6 +1957,7 @@ async function syncEntryForPublish(supabase, entry, result) {
 		_has_content_quality,
 		_has_valid_content_quality,
 		_explicit_fields: _explicitFields,
+		_source_path: _sourcePath,
 		...entryRecord
 	} = entry;
 	/** @type {BlogRecord} */
@@ -2052,6 +2108,7 @@ export async function insertIntoSupabase(entries, options = {}) {
 						_has_content_quality,
 						_has_valid_content_quality,
 						_explicit_fields: _explicitFields,
+						_source_path: _sourcePath,
 						...entryRecord
 					} = entry;
 					/** @type {BlogRecord} */
@@ -2100,7 +2157,16 @@ export async function insertIntoSupabase(entries, options = {}) {
 					approvalRequired: !sync
 				});
 			}
-			if (!apply) continue;
+			if (!apply) {
+				// Surface the perspective gate during the preview so a stale
+				// verification is visible before the apply cycle, not after it.
+				if (!options.skipPerspectiveGate) {
+					await assertPerspectiveGateForUpdate(plan, entry, existing).catch((error) => {
+						console.warn(`  would block: ${error.message}`);
+					});
+				}
+				continue;
+			}
 
 			if (reviewedSync) {
 				if (plan.protectedDrift.length > 0) {
@@ -2115,6 +2181,14 @@ export async function insertIntoSupabase(entries, options = {}) {
 					expectedContentHash: options.expectedContentHash,
 					approvedFields: options.approvedFields
 				});
+			}
+
+			if (options.skipPerspectiveGate) {
+				console.warn(
+					`Perspective gate SKIPPED for ${entry.person} by explicit flag. Reader-visible changes are going live without a matching six-perspective verification.`
+				);
+			} else {
+				await assertPerspectiveGateForUpdate(plan, entry, existing);
 			}
 			if (plan.diff.length === 0) {
 				console.log(`No-op verified: ${entry.person}`);
@@ -2205,6 +2279,7 @@ async function main() {
 		const syncAllRequested = args.includes('--sync-all');
 		const insertMissingOnly = args.includes('--insert-missing');
 		const explicitDryRun = args.includes('--dry-run');
+		const skipPerspectiveGate = args.includes('--skip-perspective-gate');
 		const expectedContentHashArg = args.find((arg) => arg.startsWith('--expected-content-hash='));
 		const approvedFieldsArg = args.find((arg) => arg.startsWith('--approve-fields='));
 		const firstOverallArg = args.find((arg) => arg.startsWith('--first-overall='));
@@ -2355,7 +2430,8 @@ async function main() {
 			syncAll,
 			insertMissing,
 			expectedContentHash,
-			approvedFields
+			approvedFields,
+			skipPerspectiveGate
 		});
 		if (syncResult.errors.length > 0) {
 			throw new Error(`People sync failed:\n${syncResult.errors.join('\n')}`);

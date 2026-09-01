@@ -3,6 +3,7 @@ import type { PageServerLoad } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import { getWelcomeSequenceOverview } from '$lib/server/emailAdminSequences';
 import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
@@ -25,6 +26,7 @@ export const load: PageServerLoad = async (event) => {
 	if (findUserError) {
 		throw error(404, { message: 'Error searching for user' });
 	}
+	const adminSupabase = getSupabaseAdminClient();
 
 	// Fetch initial data in parallel
 	const [
@@ -36,20 +38,20 @@ export const load: PageServerLoad = async (event) => {
 		welcomeSequenceResult
 	] = await Promise.all([
 		// Get first page of users
-		supabase.rpc('get_email_dashboard_users', {
+		adminSupabase.rpc('get_email_dashboard_users', {
 			p_source: 'all',
 			p_search: undefined,
 			p_limit: 50,
 			p_offset: 0
 		}),
 		// Get drafts
-		supabase
+		adminSupabase
 			.from('email_drafts')
 			.select('id, subject, recipients, scheduled_for, created_by, created_at, updated_at')
 			.order('updated_at', { ascending: false })
 			.limit(10),
 		// Get pending scheduled emails
-		supabase
+		adminSupabase
 			.from('scheduled_emails')
 			.select(
 				'id, draft_id, subject, recipients, campaign_id, scheduled_for, status, processed_at, emails_sent, emails_failed, created_by, created_at'
@@ -58,23 +60,23 @@ export const load: PageServerLoad = async (event) => {
 			.order('scheduled_for', { ascending: true })
 			.limit(10),
 		// Get overall analytics
-		supabase.rpc('get_email_analytics', {
+		adminSupabase.rpc('get_email_analytics', {
 			p_campaign_id: undefined,
 			p_from_date: undefined,
 			p_to_date: undefined
 		}),
 		// Get cron status (from view created by migration)
-		supabase
+		adminSupabase
 			.from('email_cron_status')
 			.select('api_endpoint, enabled, health_status, last_run_at, last_run_status, updated_at')
 			.single(),
-		getWelcomeSequenceOverview(supabase)
+		getWelcomeSequenceOverview(adminSupabase)
 			.then((data) => ({ data, error: null }))
 			.catch((error: unknown) => ({ data: null, error }))
 	]);
 
 	// Get total user count
-	const { data: totalCount, error: totalCountError } = await supabase.rpc(
+	const { data: totalCount, error: totalCountError } = await adminSupabase.rpc(
 		'count_email_dashboard_users',
 		{
 			p_source: 'all',
@@ -98,12 +100,21 @@ export const load: PageServerLoad = async (event) => {
 		total_clicked: 0,
 		total_unsubscribed: 0,
 		total_bounced: 0,
+		total_complained: 0,
 		total_failed: 0,
 		total_open_count: 0,
 		total_click_count: 0,
 		open_rate: 0,
 		click_rate: 0,
-		unsubscribe_rate: 0
+		click_to_open_rate: 0,
+		unsubscribe_rate: 0,
+		raw_open_events: 0,
+		automated_open_events: 0,
+		unknown_open_events: 0,
+		raw_click_events: 0,
+		qualified_click_events: 0,
+		automated_click_events: 0,
+		unknown_click_events: 0
 	};
 	const analyticsData =
 		analyticsResult.data &&

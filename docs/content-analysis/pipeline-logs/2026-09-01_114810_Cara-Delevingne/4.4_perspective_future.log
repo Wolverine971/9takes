@@ -1,0 +1,16 @@
+Counts verified: 2 blockers, 8 concerns, matching frontmatter.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/future.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 8 concerns.**
+
+Both blockers are things that are already wrong *now*, not in twelve months:
+
+- **FUTURE-R1** — L85 says the tour "runs about six months across eleven cities." It ran 1–26 June 2026, eleven shows across ~six cities. The packet had flagged this (CLM-06); I corroborated independently — the 22 August album-announcement coverage already describes the tour in past tense, "wrapping with sold out shows in both LA and Brooklyn." An article dated 1 September tells readers a tour is running that any ticketing site shows ended.
+- **FUTURE-R2** — the draft files acting as a closed chapter ("now recording artist") and claims "the one role that worked is the one nobody cites: Alice Banks." *Club Kid* (A24) premiered in Un Certain Regard at Cannes on 15 May 2026 — three and a half months before this draft's date — with a seven-minute ovation, Caméra d'Or and Queer Palm nominations, a $17M acquisition, and a reported November 2026 theatrical release. Verified across Variety, Deadline, THR and the festival's own listing. I scoped the finding to the framing, not to her performance, which I could not assess.
+
+**Strongest hit:** *"The album is not the test. The test is what she makes after the raw thing stops selling."* It converts the article's biggest structural liability — writing three weeks before the verdict — into a deliberate stance, and it's the reason this is `revise` rather than `hold_for_research`.
+
+**Highest-priority concern (FUTURE-C1):** the close rests on a negative fact with a scheduled expiry — "She has not explained the title" — and the release press cycle starts 24 days after publication. That instance also drops the year ("arrives on 25 September"), so the article's final argument reads in the future tense to a 2027 reader.
+
+The durable core is strong: strip out the album, tour and 2026 campaigns and a complete Type 4 argument still stands. The review includes a 12-item refresh list dated to 1 September 2027.

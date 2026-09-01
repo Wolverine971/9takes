@@ -1,0 +1,6 @@
+stage=6.2_perspective_verification_gate exit=1 dur=0s at=2026-09-01 13:42:54
+stage=6.8_same_type_similarity exit=1 dur=0s at=2026-09-01 13:42:55
+stage=8.45_perspective_reverification_gate exit=1 dur=0s at=2026-09-01 14:13:22
+stage=9.2_record_grade_stability exit=1 dur=0s at=2026-09-01 14:22:41
+stage=9.7_same_type_similarity_after_revision exit=1 dur=1s at=2026-09-01 14:22:42
+stage=9.8_perspective_finalize exit=1 dur=0s at=2026-09-01 14:22:42

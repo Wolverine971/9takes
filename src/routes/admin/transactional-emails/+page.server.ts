@@ -11,6 +11,7 @@ import { forgotPass, joinEmail, joinEmail2, signupEmail } from '../../../emails'
 import { sendBatchEmails, sendEmailWithTracking } from '$lib/email/sender';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 import { logger } from '$lib/utils/logger';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { emailTemplateSchema } from '$lib/validation/schemas';
 import { z } from 'zod';
 
@@ -45,7 +46,7 @@ async function assertAdmin(locals: App.Locals): Promise<void> {
 export const actions: Actions = {
 	emailTemplate: async ({ request, locals }) => {
 		await assertAdmin(locals);
-		const dbLocal = locals.supabase as any;
+		const dbLocal = getSupabaseAdminClient() as any;
 		const body = Object.fromEntries(await request.formData());
 
 		let validatedData;
@@ -108,7 +109,7 @@ export const actions: Actions = {
 
 	singleCustomEmail: async ({ request, locals }) => {
 		await assertAdmin(locals);
-		const dbLocal = locals.supabase as any;
+		const dbLocal = getSupabaseAdminClient() as any;
 		const body = Object.fromEntries(await request.formData());
 		const email = body.email.toString();
 		const emailToSend = body.emailToSend.toString();
@@ -143,7 +144,7 @@ export const actions: Actions = {
 
 	sendCustomEmailToEveryone: async ({ request, locals }) => {
 		await assertAdmin(locals);
-		const dbLocal = locals.supabase as any;
+		const dbLocal = getSupabaseAdminClient() as any;
 		const body = Object.fromEntries(await request.formData());
 		const subject = body.subject ? body.subject.toString() : 'TEST EMAIL for 9takes';
 		const emailToSend = body.emailToSend.toString();

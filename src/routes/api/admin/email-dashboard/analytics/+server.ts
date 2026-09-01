@@ -4,9 +4,11 @@
 import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { requireAdmin } from '$lib/server/adminAuth';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	const { supabase } = await requireAdmin(locals);
+	await requireAdmin(locals);
+	const supabase = getSupabaseAdminClient();
 
 	const campaignId = url.searchParams.get('campaign_id');
 	const fromDate = url.searchParams.get('from_date');
@@ -31,12 +33,21 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 				total_clicked: 0,
 				total_unsubscribed: 0,
 				total_bounced: 0,
+				total_complained: 0,
 				total_failed: 0,
 				total_open_count: 0,
 				total_click_count: 0,
 				open_rate: 0,
 				click_rate: 0,
-				unsubscribe_rate: 0
+				click_to_open_rate: 0,
+				unsubscribe_rate: 0,
+				raw_open_events: 0,
+				automated_open_events: 0,
+				unknown_open_events: 0,
+				raw_click_events: 0,
+				qualified_click_events: 0,
+				automated_click_events: 0,
+				unknown_click_events: 0
 			}
 		});
 	} catch (e) {

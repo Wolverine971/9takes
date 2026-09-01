@@ -308,7 +308,9 @@ export const POST: RequestHandler = async ({ request, cookies, getClientAddress 
 			preheader: 'A practical place to start: answer before reading the room.',
 			htmlContent: signupWelcomeEmail(),
 			sentBy: null,
-			includeFooter: true
+			includeFooter: true,
+			emailKind: 'marketing',
+			idempotencyKey: `signup-welcome/${insertedSignup.id}`
 		});
 
 		if (!result.success) {

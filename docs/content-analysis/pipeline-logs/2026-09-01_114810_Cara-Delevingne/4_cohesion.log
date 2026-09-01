@@ -1,0 +1,52 @@
+Applied and verified: lint back to **0 fail, 1 warn** (the pre-existing `faqs` warn from the un-run frontmatter-enrich stage), body back to exactly 3,898 words inside the 3,200–3,900 band.
+
+## Cohesion Audit: `src/blog/people/drafts/Cara-Delevingne.md`
+
+### Central Thesis
+Delevingne is a Type 4, not the Type 7 the crowd databases assigned, because for twenty-three years she could not say what was wrong and her body, her career switches, and now her album are all the same request to be seen accurately.
+
+### Thread Map
+| Section | Contributes | Links to next because |
+|---|---|---|
+| Hook + TL;DR | Casts as a sentence the body can say; crowd typed the gurning | Sets the 7-vs-4 question the diagnosis must settle |
+| 1. Personality type | Type 4 case, pressure-tests the 7, tie-breaker = seeking visible tokens of injury | Ends on "identity problem came first" → the decade where that identity was sold |
+| 2. Billboards | The product was performed authenticity she says she didn't believe; skin flares on schedule | Skin is talking → why she never learned to |
+| 3. The house | Mother's illness taught the rule: hold your distress | "Twenty-five years of held breath… It waits" → where it went |
+| 4. Body ledger | Six dated somatic events + her account of each; photos force treatment | Everyone could see it and nobody read it → what they read instead |
+| 5. Four careers | Concedes the sneer honestly, then reframes the sequence as one word: voice | Music is the first medium where the words are hers |
+| 6. Sobriety + album | Why she couldn't write anesthetized; Minke; then turns the 4w3 shadow on the album itself | Ends unresolved on what sells → close |
+| 7. The title | The one report she wrote instead of leaked | Lands the hook |
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 6/10 | 9/10 |
+| Internal Paragraph Flow | 8/10 | 9/10 |
+
+**Before: 7.5/10 → After: 9/10**
+
+### Changes Made (8)
+
+**Transition fixes (2)** — both boundaries were casualties of the second pass moving the household section ahead of the somatic ledger:
+
+1. **Billboards → The house** was broken. Section 2 ended on psoriasis erupting at Fashion Week; section 3 opened cold on "Delevingne's mother, Pandora, struggled with heroin addiction." Added: *"The skin was talking because she had not learned to. That habit was older than the job."* Carries the skin keyword forward and states the causal step the writer knew but hadn't written.
+2. **Body ledger → Four careers** was weak, and had a chronology whiplash (2023 sobriety, then back to the career sequence). Rewrote the opening line as *"People saw all of that and read none of it. What they read instead was the résumé: model, then actress…"* — which also re-arms the intro's "They typed the gurning."
+
+**Structural (1):**
+3. Moved the addiction-recovery-guide link paragraph from the end of the album section to the end of the recovery section, where the addiction content actually is. It was deflating the album section's deliberately unresolved ending ("The test is what she makes after the raw thing stops selling") into a service note right before the close. Boundary into the close is now strong on its own keyword carry: *stops selling* → *an industry that trades on her face*.
+
+**Trims to pay for the additions (5)** — the word band had 2 words of headroom, so every bridge was funded by cutting redundancy:
+4. Cut "and being paid extremely well for it" from the diagnosis; the load-bearing use of that phrase is in the billboards section.
+5. "a Good Day Sacramento segment went badly and the hosts scolded her" → "the hosts of a Good Day Sacramento segment scolded her" (the sentence already shows it went badly).
+6. Tightened the overlong Bedales clause.
+7. Cut "Here is the sequence, with her own account of each event beside it" — mechanical table lead-in that the table's own column headers already say. Also "Line the incidents up chronologically" → "Line them up."
+8. Cut "and this piece puts it" from the TL;DR; "is a live question" already carries the unresolved promise without the self-reference.
+
+### What Was Preserved
+All frontmatter, all four ledger comments, the fresh-eyes and second-pass note blocks, the TL;DR and Rabbit Hole `<details>` blocks, the somatic table, `<p class="inner-thought">`, all 5 internal links, all 8 inline-sourced quotes. Four transitions were already strong and untouched — notably "It waits." → "Held breath has to go somewhere," which is the best bridge in the piece.
+
+### Remaining Concerns
+- **Section 7 opens on Bella Hadid, not on the title its H2 promises.** The Hadid paragraph does bridge (it ends "made a thing the face cannot wear," which hands to "She has not explained the title"), so it works — but the reader gets a related-person comparison before the payoff the heading advertised. Moving it would blunt the ending, so I left it. Your call.
+- **The word band is now the binding constraint on this draft**, not cohesion. It sits at 3,898 of 3,900. Anything the frontmatter-enrich or publish stages want to add has to come out of the body first.

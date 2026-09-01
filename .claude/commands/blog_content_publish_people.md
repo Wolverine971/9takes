@@ -97,6 +97,8 @@ The script performs the publish checks. Do not duplicate those rules manually un
 
 The perspective-review gate hashes reader/search-facing editorial frontmatter (`title`, `meta_title`, `persona_title`, `description`, `enneagram`, `person`, and `faqs`) plus the visible body. It ignores grades, dates, production metadata, and editorial HTML comments. Any review-sensitive title, FAQ, prose, or structural edit requires reverification/finalization by the full blog pipeline.
 
+**The same gate now runs on the update paths.** Until 2026-09-01 it guarded only `--publish`, so a post could publish clean, get substantially rewritten, and be pushed back to production through `--sync` or `--apply` with its verification pointing at text that no longer existed. Ten of the thirty most recent published posts reached production that way, seven of them after rewrites touching 12–49% of the body. `--sync` and `--apply` now refuse to update reader-visible fields on a published row when the verification is stale or missing. A dry run prints `would block:` so you see it before the apply cycle. `--skip-perspective-gate` exists as a deliberate, logged override; it is not for getting past a stale gate you have not read.
+
 The script rejects candidates with:
 
 - Missing required frontmatter
@@ -131,7 +133,37 @@ Confirm:
 - `src/lib/components/molecules/famousTypes.ts` has `link: true`, `hasImage: true`, and today's `lastmod`
 - `static/sitemap.xml` includes the selected personality-analysis URL
 
-### Step 4: Report
+### Step 4: Attach the Chorus Question (REQUIRED)
+
+A personality-analysis page with no Chorus question has **no call to action at all**. The
+`NineChorus` component opens with `{#if question}`, so a missing question renders nothing — not a
+weaker ask, nothing. Between 2026-07-01 and the 2026-09-01 audit, 67 consecutive posts published
+this way and every one of them shipped with the give-first funnel switched off.
+
+Generate a candidate and show it to DJ:
+
+```bash
+node scripts/generate-chorus.mjs --slug=[person-slug]
+```
+
+This is read-only; it writes nothing. Print the winning question for approval. Once DJ approves the
+exact wording (his edit wins over the generated copy), publish it and its nine takes:
+
+```bash
+node scripts/generate-chorus.mjs --slug=[person-slug] \
+  --question="[exact approved copy]" --publish
+```
+
+Then confirm the row actually carries it:
+
+```bash
+./scripts/db-query.sh "SELECT person, chorus_question, chorus_question_url FROM blogs_famous_people WHERE person='[person-slug]'"
+```
+
+If `chorus_question_url` is null, the page has no CTA. **Report this as a blocker, not a warning.**
+The post is published but incomplete until the question is attached.
+
+### Step 5: Report
 
 Use this format:
 
@@ -143,6 +175,7 @@ Draft: src/blog/people/drafts/[Person].md
 Date/lastmod: YYYY-MM-DD
 Supabase: published=true
 Images: full + thumbnail present
+Chorus question: "[approved question]" -> /questions/[url]
 Generated files: pnpm gen:all completed
 
 Blockers:

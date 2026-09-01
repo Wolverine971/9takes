@@ -57,3 +57,27 @@ export function isLikelyAutomatedEmailClick(request: Request): boolean {
 		return Boolean(value && AUTOMATED_PURPOSE_PATTERN.test(value));
 	});
 }
+
+export function classifyEmailRequest(request: Request): {
+	classification: 'automated' | 'unknown';
+	reason: string;
+} {
+	const userAgent = request.headers.get('user-agent')?.trim() ?? '';
+	if (!userAgent) {
+		return { classification: 'automated', reason: 'missing_user_agent' };
+	}
+
+	if (AUTOMATED_CLICK_USER_AGENT_PATTERNS.some((pattern) => pattern.test(userAgent))) {
+		return { classification: 'automated', reason: 'known_automation_user_agent' };
+	}
+
+	const purposeHeader = PURPOSE_HEADERS.find((header) => {
+		const value = request.headers.get(header);
+		return Boolean(value && AUTOMATED_PURPOSE_PATTERN.test(value));
+	});
+	if (purposeHeader) {
+		return { classification: 'automated', reason: `automation_${purposeHeader}` };
+	}
+
+	return { classification: 'unknown', reason: 'awaiting_behavioral_holdback' };
+}

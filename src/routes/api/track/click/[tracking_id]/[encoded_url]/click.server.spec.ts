@@ -1,18 +1,20 @@
 // src/routes/api/track/click/[tracking_id]/[encoded_url]/click.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { reactivationMocks, loggerMocks, captureReplyNotificationEventMock } = vi.hoisted(() => ({
-	reactivationMocks: {
-		exitReactivationSequenceForTrackedClick: vi.fn().mockResolvedValue(1)
-	},
-	loggerMocks: {
-		warn: vi.fn()
-	},
-	captureReplyNotificationEventMock: vi.fn().mockResolvedValue(true)
-}));
+const { loggerMocks, captureReplyNotificationEventMock, getSupabaseAdminClientMock } = vi.hoisted(
+	() => ({
+		loggerMocks: {
+			warn: vi.fn()
+		},
+		captureReplyNotificationEventMock: vi.fn().mockResolvedValue(true),
+		getSupabaseAdminClientMock: vi.fn()
+	})
+);
 
-vi.mock('$lib/server/reactivationRepermission', () => reactivationMocks);
 vi.mock('$lib/utils/logger', () => ({ logger: loggerMocks }));
+vi.mock('$lib/server/supabaseAdmin', () => ({
+	getSupabaseAdminClient: getSupabaseAdminClientMock
+}));
 vi.mock('$lib/server/posthogCapture', () => ({
 	captureReplyNotificationEvent: captureReplyNotificationEventMock
 }));
@@ -41,6 +43,7 @@ function buildEvent({
 } = {}) {
 	const waitUntil = vi.fn();
 	const encodedUrl = encodeTarget(targetUrl);
+	getSupabaseAdminClientMock.mockReturnValue({ rpc });
 
 	return {
 		event: {
@@ -63,10 +66,9 @@ function buildEvent({
 describe('GET /api/track/click/[tracking_id]/[encoded_url]', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
-		reactivationMocks.exitReactivationSequenceForTrackedClick.mockResolvedValue(1);
 	});
 
-	it('redirects immediately and persists a human click through waitUntil', async () => {
+	it('redirects immediately and persists an unqualified raw click through waitUntil', async () => {
 		const { event, rpc, waitUntil, targetUrl } = buildEvent();
 
 		const response = await GET(event as never);
@@ -81,11 +83,11 @@ describe('GET /api/track/click/[tracking_id]/[encoded_url]', () => {
 			p_event_type: 'click',
 			p_link_url: targetUrl,
 			p_ip_address: '203.0.113.10',
-			p_user_agent: HUMAN_USER_AGENT
+			p_user_agent: HUMAN_USER_AGENT,
+			p_classification: 'unknown',
+			p_classification_reason: 'awaiting_behavioral_holdback',
+			p_classifier_version: 'email-event-v1'
 		});
-		expect(reactivationMocks.exitReactivationSequenceForTrackedClick).toHaveBeenCalledWith(
-			TRACKING_ID
-		);
 	});
 
 	it('captures a privacy-safe reply-notification click when the tracking row matches', async () => {
@@ -136,7 +138,7 @@ describe('GET /api/track/click/[tracking_id]/[encoded_url]', () => {
 		expect(JSON.stringify(rpc.mock.calls)).not.toContain(RETURN_TOKEN);
 	});
 
-	it('redirects an obvious scanner without recording engagement', async () => {
+	it('redirects an obvious scanner and retains it as automated raw telemetry', async () => {
 		const { event, rpc, waitUntil, targetUrl } = buildEvent({
 			userAgent: 'Proofpoint URL Defense Link Scanner'
 		});
@@ -144,9 +146,15 @@ describe('GET /api/track/click/[tracking_id]/[encoded_url]', () => {
 		const response = await GET(event as never);
 		expect(response.status).toBe(302);
 		expect(response.headers.get('location')).toBe(targetUrl);
-		expect(waitUntil).not.toHaveBeenCalled();
-		expect(rpc).not.toHaveBeenCalled();
-		expect(reactivationMocks.exitReactivationSequenceForTrackedClick).not.toHaveBeenCalled();
+		expect(waitUntil).toHaveBeenCalledTimes(1);
+		await waitUntil.mock.calls[0][0];
+		expect(rpc).toHaveBeenCalledWith(
+			'track_email_event',
+			expect.objectContaining({
+				p_classification: 'automated',
+				p_classification_reason: 'known_automation_user_agent'
+			})
+		);
 	});
 
 	it('does not forward a scanner into a state-changing re-permission action', async () => {
@@ -158,9 +166,12 @@ describe('GET /api/track/click/[tracking_id]/[encoded_url]', () => {
 		const response = await GET(event as never);
 		expect(response.status).toBe(302);
 		expect(response.headers.get('location')).toBe('https://9takes.com');
-		expect(waitUntil).not.toHaveBeenCalled();
-		expect(rpc).not.toHaveBeenCalled();
-		expect(reactivationMocks.exitReactivationSequenceForTrackedClick).not.toHaveBeenCalled();
+		expect(waitUntil).toHaveBeenCalledTimes(1);
+		await waitUntil.mock.calls[0][0];
+		expect(rpc).toHaveBeenCalledWith(
+			'track_email_event',
+			expect.objectContaining({ p_classification: 'automated' })
+		);
 	});
 
 	it('logs a durable-write failure without blocking the redirect', async () => {

@@ -51,7 +51,10 @@ export interface EmailSend {
 	html_content: string;
 	plain_text_content?: string;
 	tracking_id: string;
-	status: 'pending' | 'sent' | 'delivered' | 'bounced' | 'failed';
+	status: 'pending' | 'sent' | 'delivered' | 'delayed' | 'bounced' | 'complained' | 'failed';
+	provider?: 'gmail' | 'resend';
+	provider_message_id?: string;
+	idempotency_key?: string;
 	opened_at?: string;
 	open_count: number;
 	clicked_at?: string;
@@ -59,6 +62,9 @@ export interface EmailSend {
 	unsubscribed_at?: string;
 	bounced_at?: string;
 	bounce_reason?: string;
+	delivered_at?: string;
+	delivery_delayed_at?: string;
+	complained_at?: string;
 	sent_at?: string;
 	sent_by?: string;
 	created_at: string;
@@ -75,6 +81,10 @@ export interface EmailTrackingEvent {
 	user_agent?: string;
 	country?: string;
 	city?: string;
+	classification: 'human' | 'automated' | 'unknown';
+	classification_reason?: string;
+	classifier_version: string;
+	provider_event_id?: string;
 	created_at: string;
 }
 
@@ -104,6 +114,8 @@ export interface ScheduledEmail {
 	error_log?: Array<{ email?: string; error: string }> | null;
 	created_by?: string | null;
 	created_at?: string | null;
+	processing_started_at?: string | null;
+	claim_token?: string | null;
 }
 
 export interface EmailUnsubscribe {
@@ -121,12 +133,21 @@ export interface EmailAnalytics {
 	total_clicked: number;
 	total_unsubscribed: number;
 	total_bounced: number;
+	total_complained: number;
 	total_failed: number;
 	total_open_count: number;
 	total_click_count: number;
 	open_rate: number;
 	click_rate: number;
+	click_to_open_rate: number;
 	unsubscribe_rate: number;
+	raw_open_events: number;
+	automated_open_events: number;
+	unknown_open_events: number;
+	raw_click_events: number;
+	qualified_click_events: number;
+	automated_click_events: number;
+	unknown_click_events: number;
 }
 
 // API Request/Response types

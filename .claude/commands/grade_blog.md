@@ -157,6 +157,63 @@ that every draft is exceptional.
 
 Before scoring, read the actual text of the closest calibration anchor from the table above. Choose the anchor whose expected score band seems nearest after a skim, then open that draft and compare this blog against it dimension by dimension. Do not grade from memory of the anchor.
 
+### Anchor bracketing (REQUIRED — do this before you write any number)
+
+The instruction to "be strict" has been in this command since July and the distribution did not
+move: as of the 2026-09-01 audit, 373 of 404 graded published posts (92%) sit at or above 8.5 and
+the modal score is a flat 9.0. Exhortation does not calibrate a grader. Comparison does.
+
+So you may not produce a score in isolation. For every draft, you must **bracket it between two
+anchors** and write the bracket down before scoring:
+
+1. Name the anchor draft this blog **beats**. Open that anchor's actual text. Quote one specific
+   passage from the anchor and one from this draft, and say in one sentence why this draft is
+   better on a weighted dimension.
+2. Name the anchor draft this blog **loses to**. Same evidence requirement, in the other direction.
+3. The weighted `overall` must land strictly between those two anchors' score bands. If your
+   computed overall falls outside the bracket, the bracket or the dimension scores are wrong —
+   reconcile them and say which you changed.
+
+If you cannot name an anchor the draft loses to, you are claiming this is among the best work in a
+444-post corpus. That may occasionally be true. It requires an explicit line saying so, naming the
+specific thing no other post in the corpus does. Absent that line, the draft loses to the 9.0-9.4
+anchor by default and cannot score above 8.9.
+
+### Forced rank-ordering (REQUIRED for batches of 3 or more)
+
+Grading blogs one at a time is what lets every draft drift toward the same number. Before scoring
+any blog in a batch:
+
+1. Read all N drafts.
+2. **Rank them 1..N, strongest to weakest**, on the three 1.5×-weighted dimensions (Evidence,
+   Originality, Discoverability). Write the ranking and one clause of justification per position.
+3. Score only after the ranking exists. **Final `overall` scores must be monotonic with the
+   ranking** — rank 1 scores highest, rank N lowest. Ties are allowed only between adjacent ranks
+   and only with a stated reason.
+4. **Required spread:** the best and worst in the batch must differ by at least 0.6. A batch where
+   every draft lands within 0.4 of the others is a grader that has stopped discriminating, not a
+   uniformly excellent batch. If your scores compress, widen them by lowering the weaker half —
+   never by raising the stronger half.
+
+### Distribution stop (REQUIRED for batches of 4 or more)
+
+Count how many drafts in the batch landed ≥ 8.5. **If more than half did, stop and re-grade.**
+That distribution has been wrong every time it has been measured: an independent blind re-grade in
+July took six of nine drafts previously scored ≥ 8.5 and landed them at 7.0–7.9.
+
+The remedy is not a uniform deduction. Re-open the bottom half of your ranking, find the specific
+weakness in each that you were generous about (most often: a load-bearing claim you accepted without
+tracing it, or an "insight" that is really a restatement of the type description), and lower those
+scores with the reason named. Then re-check the distribution.
+
+Record the outcome in the sidecar: `calibration: {batch_size, ranked, spread, count_ge_8_5, regraded: true|false}`.
+
+**On knowing the number:** Scoring Rule 10 below tells you not to score toward a publication
+threshold, and that still holds — never round a draft up because it would otherwise miss a bar. The
+8.5 figure here is used only in the opposite direction, as a check on how many drafts may clear it,
+never as a floor to lift a draft to. If you notice yourself reaching for 8.5, that is the failure
+this section exists to catch.
+
 ### Scoring Rules:
 
 1. Read the blog in full without scoring first.
@@ -242,6 +299,8 @@ content_quality:
   caps_applied: []
   confidence: high|medium|low
   anchor: '[closest calibration anchor]'
+  beats_anchor: '[anchor this draft is better than]'
+  loses_to_anchor: '[anchor this draft is worse than, or "none — corpus-best claim" with justification]'
   needs_review: false
   first_overall: X.X # if this is the first grade in a supervised grade/regrade pair
   regrade_overall: X.X # if this is the regrade after revision
@@ -272,6 +331,8 @@ Use this Markdown shape. Do not wrap it in an HTML comment:
 Grade: [LETTER] ([OVERALL]), rubric v2
 Evidence: X | Originality: X | Discoverability: X | Enneagram: X | Writing: X | Hook: X
 Anchor: [closest calibration anchor] | Caps: [caps_applied or none] | Needs review: [true/false]
+Bracket: beats [anchor] because "[quoted evidence]" | loses to [anchor] because "[quoted evidence]"
+Calibration: batch [N], rank [i]/[N], batch spread [X.X], [n] of [N] scored >=8.5, regraded: [yes/no]
 Source audit: [inline/vague/untagged counts; name every untagged load-bearing slot]
 Interior line: "[exact line or missing]"
 Empathy turn: "[exact sentence or missing]"

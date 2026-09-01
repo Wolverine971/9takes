@@ -4,9 +4,11 @@
 import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { requireAdmin } from '$lib/server/adminAuth';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	const { supabase } = await requireAdmin(locals);
+	await requireAdmin(locals);
+	const supabase = getSupabaseAdminClient();
 
 	// Parse query parameters
 	const pageParam = Number.parseInt(url.searchParams.get('page') || '1', 10);
@@ -21,8 +23,10 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 	const status =
 		statusParam === 'sent' ||
 		statusParam === 'delivered' ||
+		statusParam === 'delayed' ||
 		statusParam === 'failed' ||
-		statusParam === 'bounced'
+		statusParam === 'bounced' ||
+		statusParam === 'complained'
 			? statusParam
 			: null;
 
@@ -60,7 +64,7 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 		let query = supabase
 			.from('email_sends')
 			.select(
-				'id, campaign_id, recipient_email, recipient_name, recipient_source, recipient_source_id, subject, tracking_id, status, opened_at, open_count, clicked_at, click_count, unsubscribed_at, bounced_at, sent_at, sent_by, created_at, error_message, retry_count',
+				'id, campaign_id, recipient_email, recipient_name, recipient_source, recipient_source_id, subject, tracking_id, status, provider, provider_message_id, opened_at, open_count, clicked_at, click_count, unsubscribed_at, bounced_at, delivered_at, delivery_delayed_at, complained_at, sent_at, sent_by, created_at, error_message, retry_count',
 				{ count: 'exact' }
 			)
 			.order('sent_at', { ascending: false, nullsFirst: false })
@@ -120,12 +124,21 @@ export const GET: RequestHandler = async ({ url, locals }) => {
 				total_clicked: 0,
 				total_unsubscribed: 0,
 				total_bounced: 0,
+				total_complained: 0,
 				total_failed: 0,
 				total_open_count: 0,
 				total_click_count: 0,
 				open_rate: 0,
 				click_rate: 0,
-				unsubscribe_rate: 0
+				click_to_open_rate: 0,
+				unsubscribe_rate: 0,
+				raw_open_events: 0,
+				automated_open_events: 0,
+				unknown_open_events: 0,
+				raw_click_events: 0,
+				qualified_click_events: 0,
+				automated_click_events: 0,
+				unknown_click_events: 0
 			},
 			pagination: {
 				total: count || 0,

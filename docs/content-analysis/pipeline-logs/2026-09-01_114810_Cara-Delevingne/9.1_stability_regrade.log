@@ -1,0 +1,27 @@
+## Grading Complete — Cara-Delevingne
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Cara-Delevingne | 8 | 9 | 9 | 9 | 8 | 9 | **8.6** | **B+** |
+
+Weighted: `(8×1.5 + 9×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 60.5/7 = 8.6`. Discoverability 9 — no gate. No caps applied.
+
+**Bracket:** beats Matt-Smith (B, 8.0–8.4) — Cara's empathy turn runs on her own repeated word ("voice"), where Matt-Smith's own note calls its best move "'It is what it is' reframed as scar tissue," the house grammar this rubric caps for; Matt-Smith also ships the literal "The tell:" bullet and 2 body type-theory paragraphs vs. 0 and 1 here. Loses to Peter-Thiel (A, 9.0–9.4) — Thiel carries half a dozen signature details and a type frame that's load-bearing in every section; Cara has one (the cast) plus one bespoke form, and the album section runs on biography rather than the Four.
+
+### Key observations
+
+**This is a regrade.** First grade 8.2 → 8.6, delta 0.4. The lift is entirely in Evidence and it's earned, not drift: the revision pass put outlets on every quotation in the album section, cut the unsourced "eight figures" Club Kid price and the unverified record duration, and added third-party voices. No other dimension moved.
+
+**Verification work is genuinely above corpus norm.** The editor pass transcribed the Call Her Daddy audio rather than trusting a third-party transcript, and that caught a real misdate — the fractures are childhood, not the modelling years — killing a manufactured causal claim against the fashion industry. Crowd-vote counts are verified and dated (Boo 1, Sakinorva 2, both 2018) instead of hand-waved.
+
+**Three things keep it off an A:**
+
+1. **Source concentration.** All six load-bearing quotes come from one podcast episode three months before an album release. The draft nearly admits this in its counterargument section, and the repair written for it (P2-01) was skipped in *both* the editor and revision passes. That's the Evidence ceiling.
+2. **Metronomic section closers.** Six consecutive sections end on the same short-declarative cadence. Fresh eyes caught this at the paragraph level; the revision cut three one-line tics but the pattern survived one level up.
+3. **Missing speculative disclaimer.** Naval-Ravikant, Laura-Loomer and Zach-Bryan all carry one; this draft has zero hits for "speculative." On a page with self-reported suicidality, addiction, and a named Weinstein allegation, that's a brand-risk gap, not a style nit.
+
+**Ledger spot-checks all pass** — Gomez and Besson do reach the body, Poppy cites PORTER Feb 2017 on the page, Bay-Schuck is genuinely cut, 3,892 words and 7 H2s as claimed. Same-type scan tripped at 0.045 (vs. Hunter-Biden, on the shared 4-vs-7 falsifier), below the run's 0.079 noise max — not a Gate 6 blocker, no Originality cap. Lint 0 fail / 0 warn.
+
+Files written: `src/blog/people/drafts/Cara-Delevingne.md` (frontmatter block after `path:`) and `docs/content-analysis/grades/Cara-Delevingne.review.md`.
+
+**Total graded this session: 1**

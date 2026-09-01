@@ -1,0 +1,33 @@
+Polished `src/blog/people/drafts/Cara-Delevingne.md` in perspective-jury mode.
+
+## What I fixed
+
+**All 11 P0 repairs applied.** The synthesis was right that they're one habit, not six errors: the piece kept supplying its own version of things it already had her version of. The fix was to use her words.
+
+The biggest one (P0-01): the article described her fractures as something her body did to her, then called that its strongest evidence. It now rests on the motive she states, keeps her own caveat that it wasn't conscious, and re-premises the somatic section so it's true of all five remaining rows.
+
+**I transcribed the source audio, which three prior passes had declined to do.** `yt-dlp` + `youtube-transcript-api` on the *Call Her Daddy* episode closed both open research questions in one fetch:
+
+- **RQ-01 resolved:** the cold-open thesis quotation is verbatim at 0:38:11. It stays in the cold open.
+- **RQ-02 resolved, and it was a real error.** She places the self-injury "around the time of the not eating" — childhood, roughly age 7. The draft dated it to "Early modelling years" and bridged it to peak fame, which manufactured an unearned causal claim against the fashion industry. Row re-dated, bridge cut.
+- **Bonus:** the audio contains her own words for the hotel-room moment, so the invented `<p class="inner-thought">` panel was replaced by a quotation rather than by a disclaimer. It also caught two tense errors in load-bearing quotes.
+
+**Also newly resolved:** RQ-03 (Boo carries 7w6 on *one* vote, Sakinorva on *two* plus a dissenting 3w4, all cast in 2018 — the "six sites" consensus is now stated honestly with counts and a date) and RQ-04, the Playboy cover story, retrieved on the fourth attempt after three passes of "still unretrieved."
+
+**12 of 13 accepted P1s applied.** P1-01 shipped compact rather than full, since resolving RQ-01 removed its main rationale.
+
+## Numbers
+
+- **Contrast pairs: 0 total (0 strong, 0 comparative).** Required exit check passes.
+- `blog-lint`: **0 fail**, 2 warns.
+- All twelve protected hits verified by reading, not by diff.
+
+## Two things to know
+
+**The word band is the one flagged tradeoff.** Body is 4,127 words — about 230 over the 3,200–3,900 target band, about 370 under the 4,500 ceiling. I cut roughly 730 words of existing prose to absorb 11 mandatory repairs onto a draft that was already 2 words under the band ceiling. Closing the rest would have meant cutting a P0 repair or damaging a protected passage. It's flagged in `editor-resolution.md` with the cheapest remaining ~250 words identified (album-section record-making detail, Rabbit Hole growth arrow — both unprotected) if you want it inside the band.
+
+**RQ-05 stays open.** No evidence she's addressed "I Feel Everything" in the 2026 press cycle, so I took the narrow fix the brief specifies: the 2017 song is stated as verified fact and every "first" claim is qualified, but nothing claims she's drawn a line between the two records.
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/editor-resolution.md`.
+
+**Readiness:** I'd call this production-ready pending the independent `/blog_perspective_verify_people` check — not another substantive pass. `lastmod` and `published` untouched.

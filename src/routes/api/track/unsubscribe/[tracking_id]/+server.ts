@@ -8,6 +8,7 @@ import {
 	exitWelcomeSequenceForEmail
 } from '$lib/server/emailSequences';
 import { isUuid } from '$lib/utils/uuid';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 function escapeHtml(value: string): string {
 	return value.replace(/[&<>"']/g, (char) => {
@@ -180,9 +181,9 @@ async function unsubscribeWithTrackingId(
 	return { recipientEmail, unsubscribeError };
 }
 
-export const GET: RequestHandler = async ({ params, locals }) => {
+export const GET: RequestHandler = async ({ params }) => {
 	const { tracking_id } = params;
-	const recipientEmail = await getRecipientEmailByTrackingId(locals.supabase, tracking_id);
+	const recipientEmail = await getRecipientEmailByTrackingId(getSupabaseAdminClient(), tracking_id);
 
 	if (!recipientEmail) {
 		throw error(404, 'Email not found');
@@ -208,11 +209,11 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 	});
 };
 
-export const POST: RequestHandler = async ({ params, request, locals }) => {
+export const POST: RequestHandler = async ({ params, request }) => {
 	const { tracking_id } = params;
 
 	const { recipientEmail, unsubscribeError } = await unsubscribeWithTrackingId(
-		locals.supabase,
+		getSupabaseAdminClient(),
 		tracking_id,
 		request
 	);

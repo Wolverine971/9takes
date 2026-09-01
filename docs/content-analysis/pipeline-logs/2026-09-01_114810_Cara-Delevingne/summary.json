@@ -1,0 +1,19 @@
+{
+	"person": "Cara-Delevingne",
+	"draft_path": "src/blog/people/drafts/Cara-Delevingne.md",
+	"entity_gap_brief": "docs/content-analysis/entity-gaps/Cara-Delevingne.md",
+	"log_dir": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-01_114810_Cara-Delevingne",
+	"perspective_review_dir": "docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810",
+	"perspective_initial_status": "fail",
+	"perspective_final_status": "fail_after_revision",
+	"completed": true,
+	"halt_reason": null,
+	"revised": true,
+	"lint_exit": 0,
+	"first_overall": 8.4,
+	"final_overall": 8.6,
+	"final_discoverability": 9,
+	"grade_stability_delta": 0.1999999999999993,
+	"has_stage_warnings": true,
+	"generated_at": "2026-09-01T18:22:42.170Z"
+}

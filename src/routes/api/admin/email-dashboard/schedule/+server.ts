@@ -5,13 +5,15 @@ import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { getSuppressedEmailSet, normalizeEmail } from '$lib/email/suppression';
 import { requireAdmin } from '$lib/server/adminAuth';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import {
 	adminScheduledEmailStatusSchema,
 	adminScheduleEmailSchema
 } from '$lib/validation/adminEmailSchemas';
 
 export const POST: RequestHandler = async ({ request, locals }) => {
-	const { session, supabase } = await requireAdmin(locals);
+	const { session } = await requireAdmin(locals);
+	const supabase = getSupabaseAdminClient();
 
 	try {
 		const parsed = adminScheduleEmailSchema.safeParse(await request.json().catch(() => null));

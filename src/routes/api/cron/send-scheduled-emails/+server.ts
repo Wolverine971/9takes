@@ -11,10 +11,11 @@ import { isAuthorizedCronRequest } from '$lib/server/cronAuth';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 type ScheduledRecipient = {
+	id?: string;
 	email: string;
 	name?: string | null;
 	source: 'profiles' | 'signups' | 'coaching_waitlist';
-	source_id: string;
+	source_id?: string | null;
 };
 
 type ScheduledEmailRow = {
@@ -24,6 +25,7 @@ type ScheduledEmailRow = {
 	html_content: string | null;
 	campaign_id: string | null;
 	created_by: string | null;
+	claim_token: string;
 };
 
 const scheduledEmailsTable = (supabaseClient: any) =>
@@ -46,13 +48,12 @@ async function processScheduledEmails(request: Request) {
 	}
 
 	try {
-		// Get pending scheduled emails that are due
-		const { data: scheduledEmailsData, error: fetchError } = await scheduledEmailsTable(supabase)
-			.select('id, recipients, subject, html_content, campaign_id, created_by')
-			.eq('status', 'pending')
-			.lte('scheduled_for', new Date().toISOString())
-			.order('scheduled_for', { ascending: true })
-			.limit(5); // Process 5 at a time to avoid timeout
+		// Claim due work atomically. The RPC uses FOR UPDATE SKIP LOCKED and also
+		// recovers abandoned claims after a timeout.
+		const { data: scheduledEmailsData, error: fetchError } = await supabase.rpc(
+			'claim_due_scheduled_emails',
+			{ p_limit: 5 }
+		);
 		const scheduledEmails = (scheduledEmailsData ?? []) as ScheduledEmailRow[];
 
 		if (fetchError) {
@@ -61,6 +62,7 @@ async function processScheduledEmails(request: Request) {
 		}
 
 		if (!scheduledEmails || scheduledEmails.length === 0) {
+			await recordCronHeartbeat(supabase, 'success_no_work');
 			return json({ message: 'No emails to send', processed: 0 });
 		}
 
@@ -72,17 +74,14 @@ async function processScheduledEmails(request: Request) {
 		}> = [];
 
 		for (const scheduled of scheduledEmails) {
-			// Mark as processing
-			await scheduledEmailsTable(supabase).update({ status: 'processing' }).eq('id', scheduled.id);
-
 			try {
 				const recipients = Array.isArray(scheduled.recipients) ? scheduled.recipients : [];
 				const mappedRecipients = recipients.map((r) => ({
-					id: r.source_id,
+					id: r.id || r.source_id || r.email,
 					email: r.email,
 					name: r.name,
 					source: r.source,
-					source_id: r.source_id
+					source_id: r.source_id || r.id || r.email
 				}));
 				const suppressedEmails = await getSuppressedEmailSet(
 					supabase,
@@ -102,11 +101,14 @@ async function processScheduledEmails(request: Request) {
 						.update({
 							status: 'completed',
 							processed_at: new Date().toISOString(),
+							processing_started_at: null,
+							claim_token: null,
 							emails_sent: 0,
 							emails_failed: 0,
 							error_log: suppressionLog
 						})
-						.eq('id', scheduled.id);
+						.eq('id', scheduled.id)
+						.eq('claim_token', scheduled.claim_token);
 
 					results.push({
 						id: scheduled.id,
@@ -125,7 +127,9 @@ async function processScheduledEmails(request: Request) {
 					campaignId: scheduled.campaign_id ?? undefined,
 					sentBy: scheduled.created_by ?? undefined,
 					delayMs: 100,
-					includeFooter: true
+					includeFooter: true,
+					emailKind: 'marketing',
+					idempotencyScope: `scheduled-email/${scheduled.id}`
 				});
 
 				// Collect errors
@@ -142,11 +146,14 @@ async function processScheduledEmails(request: Request) {
 					.update({
 						status: 'completed',
 						processed_at: new Date().toISOString(),
+						processing_started_at: null,
+						claim_token: null,
 						emails_sent: result.sent,
 						emails_failed: result.failed,
 						error_log: [...suppressionLog, ...sendErrors]
 					})
-					.eq('id', scheduled.id);
+					.eq('id', scheduled.id)
+					.eq('claim_token', scheduled.claim_token);
 
 				results.push({
 					id: scheduled.id,
@@ -162,9 +169,12 @@ async function processScheduledEmails(request: Request) {
 					.update({
 						status: 'failed',
 						processed_at: new Date().toISOString(),
+						processing_started_at: null,
+						claim_token: null,
 						error_log: [{ error: err instanceof Error ? err.message : 'Unknown error' }]
 					})
-					.eq('id', scheduled.id);
+					.eq('id', scheduled.id)
+					.eq('claim_token', scheduled.claim_token);
 
 				results.push({
 					id: scheduled.id,
@@ -175,6 +185,7 @@ async function processScheduledEmails(request: Request) {
 			}
 		}
 
+		await recordCronHeartbeat(supabase, `success_processed_${results.length}`);
 		return json({
 			message: `Processed ${results.length} scheduled emails`,
 			processed: results.length,
@@ -182,7 +193,23 @@ async function processScheduledEmails(request: Request) {
 		});
 	} catch (e) {
 		console.error('Error in cron job:', e);
+		await recordCronHeartbeat(supabase, 'failed');
 		throw error(500, 'Cron job failed');
+	}
+}
+
+async function recordCronHeartbeat(supabase: any, status: string) {
+	const { error: heartbeatError } = await supabase
+		.from('email_cron_config')
+		.update({
+			last_run_at: new Date().toISOString(),
+			last_run_status: status,
+			updated_at: new Date().toISOString()
+		})
+		.eq('id', 1);
+
+	if (heartbeatError) {
+		console.error('Failed to record scheduled email cron heartbeat:', heartbeatError);
 	}
 }
 

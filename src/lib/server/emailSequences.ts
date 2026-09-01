@@ -337,7 +337,9 @@ async function processClaimedSequenceSends(
 				sequenceStepNumber: row.step_number,
 				linkAttribution: prepared.linkAttribution,
 				sentBy: null,
-				includeFooter: true
+				includeFooter: true,
+				emailKind: 'marketing',
+				idempotencyKey: `sequence/${row.enrollment_id}/step/${row.step_number}`
 			});
 
 			if (!sendResult.success) {

@@ -7,6 +7,7 @@ import {
 	appendEmailFooterToPlainText,
 	generateEmailHtml,
 	htmlToPlainText,
+	getOneClickUnsubscribeUrl,
 	rewriteLinksForTracking,
 	rewritePlainTextLinksForTracking
 } from './base-template';
@@ -51,6 +52,12 @@ describe('base email template helpers', () => {
 		expect(text).toContain('Body');
 		expect(text).toContain('9takes - See the emotions behind every take');
 		expect(text).toContain('Unsubscribe: https://9takes.com/unsubscribe/test');
+	});
+
+	it('builds a dedicated RFC 8058 endpoint separate from the human confirmation URL', () => {
+		expect(getOneClickUnsubscribeUrl(TRACKING_ID, BASE_URL)).toBe(
+			`https://9takes.com/api/one-click-unsubscribe?tracking_id=${TRACKING_ID}`
+		);
 	});
 
 	it('converts simple email html to readable plain text', () => {

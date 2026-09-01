@@ -1938,6 +1938,45 @@ export type Database = {
           },
         ]
       }
+      email_provider_events: {
+        Row: {
+          event_id: string
+          event_type: string
+          id: string
+          occurred_at: string
+          payload: Json
+          processed_at: string | null
+          processing_error: string | null
+          provider: string
+          provider_message_id: string
+          received_at: string
+        }
+        Insert: {
+          event_id: string
+          event_type: string
+          id?: string
+          occurred_at: string
+          payload: Json
+          processed_at?: string | null
+          processing_error?: string | null
+          provider: string
+          provider_message_id: string
+          received_at?: string
+        }
+        Update: {
+          event_id?: string
+          event_type?: string
+          id?: string
+          occurred_at?: string
+          payload?: Json
+          processed_at?: string | null
+          processing_error?: string | null
+          provider?: string
+          provider_message_id?: string
+          received_at?: string
+        }
+        Relationships: []
+      }
       email_sends: {
         Row: {
           bounce_reason: string | null
@@ -1945,13 +1984,19 @@ export type Database = {
           campaign_id: string | null
           click_count: number | null
           clicked_at: string | null
+          complained_at: string | null
           created_at: string | null
+          delivered_at: string | null
+          delivery_delayed_at: string | null
           error_message: string | null
           html_content: string
           id: string
+          idempotency_key: string | null
           open_count: number | null
           opened_at: string | null
           plain_text_content: string | null
+          provider: string | null
+          provider_message_id: string | null
           recipient_email: string
           recipient_name: string | null
           recipient_source: string
@@ -1973,13 +2018,19 @@ export type Database = {
           campaign_id?: string | null
           click_count?: number | null
           clicked_at?: string | null
+          complained_at?: string | null
           created_at?: string | null
+          delivered_at?: string | null
+          delivery_delayed_at?: string | null
           error_message?: string | null
           html_content: string
           id?: string
+          idempotency_key?: string | null
           open_count?: number | null
           opened_at?: string | null
           plain_text_content?: string | null
+          provider?: string | null
+          provider_message_id?: string | null
           recipient_email: string
           recipient_name?: string | null
           recipient_source: string
@@ -2001,13 +2052,19 @@ export type Database = {
           campaign_id?: string | null
           click_count?: number | null
           clicked_at?: string | null
+          complained_at?: string | null
           created_at?: string | null
+          delivered_at?: string | null
+          delivery_delayed_at?: string | null
           error_message?: string | null
           html_content?: string
           id?: string
+          idempotency_key?: string | null
           open_count?: number | null
           opened_at?: string | null
           plain_text_content?: string | null
+          provider?: string | null
+          provider_message_id?: string | null
           recipient_email?: string
           recipient_name?: string | null
           recipient_source?: string
@@ -2266,6 +2323,9 @@ export type Database = {
       email_tracking_events: {
         Row: {
           city: string | null
+          classification: string
+          classification_reason: string | null
+          classifier_version: string
           country: string | null
           created_at: string | null
           email_send_id: string
@@ -2273,10 +2333,14 @@ export type Database = {
           id: string
           ip_address: string | null
           link_url: string | null
+          provider_event_id: string | null
           user_agent: string | null
         }
         Insert: {
           city?: string | null
+          classification?: string
+          classification_reason?: string | null
+          classifier_version?: string
           country?: string | null
           created_at?: string | null
           email_send_id: string
@@ -2284,10 +2348,14 @@ export type Database = {
           id?: string
           ip_address?: string | null
           link_url?: string | null
+          provider_event_id?: string | null
           user_agent?: string | null
         }
         Update: {
           city?: string | null
+          classification?: string
+          classification_reason?: string | null
+          classifier_version?: string
           country?: string | null
           created_at?: string | null
           email_send_id?: string
@@ -2295,6 +2363,7 @@ export type Database = {
           id?: string
           ip_address?: string | null
           link_url?: string | null
+          provider_event_id?: string | null
           user_agent?: string | null
         }
         Relationships: [
@@ -3513,6 +3582,7 @@ export type Database = {
       scheduled_emails: {
         Row: {
           campaign_id: string | null
+          claim_token: string | null
           created_at: string | null
           created_by: string | null
           draft_id: string | null
@@ -3522,6 +3592,7 @@ export type Database = {
           html_content: string
           id: string
           processed_at: string | null
+          processing_started_at: string | null
           recipients: Json
           scheduled_for: string
           status: string | null
@@ -3529,6 +3600,7 @@ export type Database = {
         }
         Insert: {
           campaign_id?: string | null
+          claim_token?: string | null
           created_at?: string | null
           created_by?: string | null
           draft_id?: string | null
@@ -3538,6 +3610,7 @@ export type Database = {
           html_content: string
           id?: string
           processed_at?: string | null
+          processing_started_at?: string | null
           recipients: Json
           scheduled_for: string
           status?: string | null
@@ -3545,6 +3618,7 @@ export type Database = {
         }
         Update: {
           campaign_id?: string | null
+          claim_token?: string | null
           created_at?: string | null
           created_by?: string | null
           draft_id?: string | null
@@ -3554,6 +3628,7 @@ export type Database = {
           html_content?: string
           id?: string
           processed_at?: string | null
+          processing_started_at?: string | null
           recipients?: Json
           scheduled_for?: string
           status?: string | null
@@ -4312,6 +4387,10 @@ export type Database = {
         Args: { p_min_interval?: string; p_now?: string; p_task_name: string }
         Returns: boolean
       }
+      claim_due_scheduled_emails: {
+        Args: { p_limit?: number }
+        Returns: Database["public"]["Tables"]["scheduled_emails"]["Row"][]
+      }
       cleanup_blogs_famous_people_history: {
         Args: { p_famous_people_id: number; p_keep_count?: number }
         Returns: undefined
@@ -5053,10 +5132,25 @@ export type Database = {
         Returns: string
       }
       parse_json_with_escapes: { Args: { json_text: string }; Returns: Json }
+      process_email_provider_event: {
+        Args: {
+          p_event_id: string
+          p_event_type: string
+          p_occurred_at: string
+          p_payload: Json
+          p_provider: string
+          p_provider_message_id: string
+        }
+        Returns: Json
+      }
       process_scheduled_emails: { Args: never; Returns: undefined }
       promote_waitlist_to_client: {
         Args: { waitlist_id_input: string }
         Returns: string
+      }
+      qualify_pending_email_clicks: {
+        Args: { p_limit?: number; p_min_age?: string }
+        Returns: Json
       }
       question_category_display_text: {
         Args: { p_question_id: number }
@@ -5270,6 +5364,10 @@ export type Database = {
           id: string
         }[]
       }
+      reprocess_email_provider_events: {
+        Args: { p_limit?: number }
+        Returns: Json
+      }
       show_limit: { Args: never; Returns: number }
       show_trgm: { Args: { "": string }; Returns: string[] }
       slugify_question_category_name: {
@@ -5279,6 +5377,9 @@ export type Database = {
       text_array_search_text: { Args: { p_values: string[] }; Returns: string }
       track_email_event: {
         Args: {
+          p_classification?: string
+          p_classification_reason?: string
+          p_classifier_version?: string
           p_event_type: string
           p_ip_address?: string
           p_link_url?: string

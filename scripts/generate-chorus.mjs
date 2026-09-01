@@ -120,16 +120,28 @@ Failed examples (do not imitate or lightly paraphrase them):
 ${FAILED_PATTERN_EXAMPLES.map((example) => `- "${example.question}" — ${example.reason}`).join('\n')}`;
 }
 
-function buildQuestionUserPrompt(person) {
+function buildQuestionUserPrompt(person, avoidQuestions = []) {
 	// The model never sees the profile name, biography, occupation, persona title,
 	// or Enneagram type. The old generator leaked those signals into the premise.
 	const sceneDeck = sceneSeedsFor(person.person)
 		.map((scene, index) => `${index + 1}. ${scene}`)
 		.join('\n');
+	// The model never sees who the subject is, and the scene deck is drawn from a
+	// fixed pool, so without this list separate runs converge on the same wording.
+	// A 2026-09-01 batch of 87 returned 22 word-for-word duplicates and put 23 of
+	// 87 behind the same "What do you..." opening. These questions are the only
+	// call to action on their pages and readers meet them serially, so repeats
+	// read as a canned mechanic.
+	const avoidBlock = avoidQuestions.length
+		? `\n\nAlready in use on other pages. Do NOT reproduce any of these, and do not
+open with the same first four words as any of them. Vary the opening verb and the
+grammatical shape, not just the noun:\n${avoidQuestions.map((q) => `- ${q}`).join('\n')}`
+		: '';
+
 	return `Ordinary scene seeds:
 ${sceneDeck}
 
-Write exactly one candidate for each numbered scene. Each question may zoom in on one detail or adjacent behavior, but it must remain ordinary, specific, and open. JSON only.`;
+Write exactly one candidate for each numbered scene. Each question may zoom in on one detail or adjacent behavior, but it must remain ordinary, specific, and open. JSON only.${avoidBlock}`;
 }
 
 function buildQuestionReviewSystemPrompt() {
@@ -286,10 +298,10 @@ async function reviewQuestionCandidates(candidates, scenes) {
 	};
 }
 
-async function generateQuestion(person) {
+async function generateQuestion(person, avoidQuestions = []) {
 	const scenes = sceneSeedsFor(person.person);
 	const parsed = await withRetries(() =>
-		callOpenRouter(buildQuestionSystemPrompt(), buildQuestionUserPrompt(person), {
+		callOpenRouter(buildQuestionSystemPrompt(), buildQuestionUserPrompt(person, avoidQuestions), {
 			temperature: 0.7,
 			maxTokens: 3600,
 			model: QUESTION_MODEL
@@ -383,8 +395,9 @@ async function generateTakes(question) {
 	return takes;
 }
 
-async function generate(person, reviewedQuestion = null) {
-	if (!reviewedQuestion) return { ...(await generateQuestion(person)), takes: null };
+async function generate(person, reviewedQuestion = null, avoidQuestions = []) {
+	if (!reviewedQuestion)
+		return { ...(await generateQuestion(person, avoidQuestions)), takes: null };
 
 	const question = reviewedQuestion.trim();
 	assertQuestionQuality(question);
@@ -549,6 +562,22 @@ async function main() {
 
 	const authorId = await getAuthorId();
 
+	// Seed the avoid-list with every question already in use, then accumulate the
+	// ones chosen during this run so later people in the batch cannot repeat
+	// earlier ones. Capped because the prompt has to stay readable; the most
+	// recent are the ones most likely to collide with the current scene pool.
+	const { data: liveQuestions } = await supabase
+		.from('blogs_famous_people')
+		.select('chorus_question')
+		.eq('published', true)
+		.not('chorus_question', 'is', null);
+	const avoidQuestions = (liveQuestions || [])
+		.map((row) => String(row.chorus_question || '').trim())
+		.filter(Boolean);
+	const AVOID_PROMPT_CAP = Number(process.env.CHORUS_AVOID_CAP) || 60;
+	const recentAvoid = () => avoidQuestions.slice(-AVOID_PROMPT_CAP);
+	console.log(`Avoid-list seeded with ${avoidQuestions.length} question(s) already in use.`);
+
 	console.log(
 		`Chorus editorial generation — ${people.length} person(s)` +
 			` [question: ${QUESTION_MODEL}; review: ${REVIEW_MODEL}; takes: ${TAKES_MODEL}]` +
@@ -560,6 +589,8 @@ async function main() {
 
 	let ok = 0;
 	let failed = 0;
+	/** @type {Map<string, string>} person slug -> chosen question, dry runs only */
+	const chosen = new Map();
 	for (let i = 0; i < people.length; i += CONCURRENCY) {
 		const batch = people.slice(i, i + CONCURRENCY);
 		await Promise.all(
@@ -573,8 +604,9 @@ async function main() {
 					let candidates = null;
 					let scenes = null;
 					if (needGen) {
-						const chorus = await generate(person, reviewedQuestion);
+						const chorus = await generate(person, reviewedQuestion, recentAvoid());
 						questionText = chorus.question;
+						if (chorus.question) avoidQuestions.push(chorus.question);
 						takes = chorus.takes;
 						candidates = chorus.candidates;
 						scenes = chorus.scenes;
@@ -602,6 +634,7 @@ async function main() {
 								if (candidate.risk) console.log(`        Risk: ${candidate.risk}`);
 							}
 						}
+						chosen.set(person.person, questionText);
 						console.log(`  REVIEW ${person.person}\n     Q: ${questionText}`);
 						return;
 					}
@@ -614,6 +647,80 @@ async function main() {
 				}
 			})
 		);
+	}
+
+	// Concurrency means everyone in a wave sees the same avoid-list snapshot, so
+	// same-wave collisions survive the prompt-level guard. Sweep them up here:
+	// regenerate one at a time, with the full accumulated list, until the batch is
+	// distinct. Dry runs only — a --publish run handles one reviewed slug.
+	if (!PUBLISH && chosen.size > 1) {
+		// Two checks, because they catch different failures. Matching openings make
+		// the corpus feel templated even when the questions differ. Matching content
+		// words mean two pages are literally asking the same thing, which happens
+		// when both subjects drew the same scene seed — the reworded result passes
+		// an opening check while still being the same question.
+		const STOPWORDS = new Set(
+			'a an the you your yours do does did doing done what when where who whom how why is are was were be been being to of in on at for with about after before that this it its as and or but if then so from they them their there here just really actually first thing things something someone else out up down off over under again more most some any not no yes i me my we us our'.split(
+				' '
+			)
+		);
+		const tokensOf = (q) =>
+			String(q || '')
+				.toLowerCase()
+				.replace(/[^a-z ]/g, '')
+				.split(' ')
+				.filter((w) => w && !STOPWORDS.has(w));
+		const openingOf = (q) =>
+			String(q || '')
+				.toLowerCase()
+				.replace(/[^a-z ]/g, '')
+				.split(' ')
+				.filter(Boolean)
+				.slice(0, 4)
+				.join(' ');
+		const jaccard = (a, b) => {
+			const setA = new Set(a);
+			const setB = new Set(b);
+			if (!setA.size || !setB.size) return 0;
+			let shared = 0;
+			for (const token of setA) if (setB.has(token)) shared += 1;
+			return shared / (setA.size + setB.size - shared);
+		};
+		const NEAR_DUPLICATE = Number(process.env.CHORUS_NEAR_DUPLICATE) || 0.6;
+
+		for (let round = 1; round <= 3; round += 1) {
+			const seen = new Map();
+			const keptTokens = [];
+			const collided = [];
+			for (const [slug, question] of chosen) {
+				const key = openingOf(question);
+				const tokens = tokensOf(question);
+				const nearDuplicate = keptTokens.some((prior) => jaccard(prior, tokens) >= NEAR_DUPLICATE);
+				if (seen.has(key) || nearDuplicate) {
+					collided.push(slug);
+				} else {
+					seen.set(key, slug);
+					keptTokens.push(tokens);
+				}
+			}
+			if (!collided.length) break;
+			console.log(
+				`\nDedupe round ${round}: ${collided.length} question(s) share an opening with another in this batch. Regenerating.`
+			);
+			for (const slug of collided) {
+				const person = people.find((p) => p.person === slug);
+				if (!person) continue;
+				try {
+					const regenerated = await generate(person, null, avoidQuestions.slice(-AVOID_PROMPT_CAP));
+					if (!regenerated.question) continue;
+					chosen.set(slug, regenerated.question);
+					avoidQuestions.push(regenerated.question);
+					console.log(`  REVIEW ${slug}\n     Q: ${regenerated.question}`);
+				} catch (e) {
+					console.error(`  ✗ dedupe ${slug}: ${e.message}`);
+				}
+			}
+		}
 	}
 
 	console.log(`\nDone. ${ok} succeeded, ${failed} failed.`);

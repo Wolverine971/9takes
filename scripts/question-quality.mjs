@@ -138,12 +138,41 @@ export function sceneSeedFor(key) {
  * @returns {string[]}
  */
 export function sceneSeedsFor(key, count = 8) {
+	const total = QUESTION_SCENE_SEEDS.length;
+	const limit = Math.min(Math.max(Number(count) || 1, 1), total);
 	const first = QUESTION_SCENE_SEEDS.indexOf(sceneSeedFor(key));
-	const limit = Math.min(Math.max(Number(count) || 1, 1), QUESTION_SCENE_SEEDS.length);
+
+	// This used to take `count` CONSECUTIVE seeds from the hashed offset, which
+	// gave only `total` distinct decks — 20. Across 87 people that put roughly
+	// four subjects on an identical deck, and because the model deliberately
+	// never sees who the subject is, identical decks produced word-for-word
+	// identical questions: a 2026-09-01 batch of 87 came back with 22 exact
+	// duplicates. Walking the ring by a coprime stride turns the deck into a
+	// combination rather than a window, so distinct decks scale with
+	// total × (number of valid strides) instead of total.
+	const value = String(key || 'question');
+	let strideHash = 7;
+	for (const character of value) strideHash = (strideHash * 131 + character.charCodeAt(0)) >>> 0;
+
+	const coprimeStrides = [];
+	for (let candidate = 1; candidate < total; candidate += 1) {
+		if (greatestCommonDivisor(candidate, total) === 1) coprimeStrides.push(candidate);
+	}
+	const stride = coprimeStrides[strideHash % coprimeStrides.length];
+
 	return Array.from(
 		{ length: limit },
-		(_, index) => QUESTION_SCENE_SEEDS[(first + index) % QUESTION_SCENE_SEEDS.length]
+		(_, index) => QUESTION_SCENE_SEEDS[(first + index * stride) % total]
 	);
+}
+
+/**
+ * @param {number} a
+ * @param {number} b
+ * @returns {number}
+ */
+function greatestCommonDivisor(a, b) {
+	return b === 0 ? a : greatestCommonDivisor(b, a % b);
 }
 
 /**

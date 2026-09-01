@@ -1,0 +1,29 @@
+Frontmatter clean, lint unchanged (0 fail, same 1 word-count warn).
+
+## Grading Complete — Cara Delevingne
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Cara-Delevingne | 7 | 8 | 9 | 9 | 8 | 9 | **8.2** | **B** |
+
+`(7×1.5 + 8×1.5 + 9×1.5 + 9 + 8 + 9×0.5) / 7 = 57.5 / 7 = 8.2`. Discoverability 9 → no gate cap. No formula caps applied.
+
+**Bracket:** beats Alex-Warren (C, 7.0–7.9) — its somatic ledger is a *form* that collapses on any other subject, where Alex-Warren narrates a generic childhood. Loses to Peter Thiel (A, 9.0–9.4) on Evidence — Thiel lands on a named biographer, a named investor, and a dated encounter with a checkable outcome; this draft's emotional climax runs on unattributed "she has said."
+
+### What's genuinely strong
+- **Hook (9)** — "As a child, Cara Delevingne started throwing herself off things," then the elbow and the cast. It returns as the tie-breaking evidence against the crowd's Type 7, so it isn't decoration.
+- **Enneagram (9)** — the type resolves a real contradiction (why the most exuberant face in fashion isn't a 7), the rabbit hole holds all wing/subtype/arrow mechanics, and the empathy turn is built from her own word — *voice* — not house grammar.
+- **Discoverability (9)** — meta_title 49 chars, description 152, 5 real FAQ pairs with anchors, full `same_as`/entity block, extractable 48-word type answer.
+- Refuses its own redemption arc: rebuts the career-collecting sneer, then reopens the charge against the album itself and declines to resolve it.
+
+### The real problems
+1. **Sourcing collapses in the section that needs it most.** Five consecutive subject quotes in the recovery/album section carry no outlet — including "I was so close to ending my life." Both sources (Call Her Daddy June 2026, Rolling Stone May 2026) are already named elsewhere in the piece. The pipeline's own unfamiliar-reader review flagged this by name and it survived. That's the whole reason Evidence is a 7.
+2. **Source concentration.** Call Her Daddy is named 11 times, Vogue 6, everything else once. Only three third-party voices reach the body. Structurally it's one podcast episode with excellent scaffolding.
+3. **4,127 words vs. the 3,200–3,900 band.** Broken bones appear five times, psoriasis twice. Three consecutive "Now the —" pivots show the outline.
+4. **Stale ledger:** the Formula Fingerprint Ledger claims the similarity scan is "CLEAR." Re-run today it reports **TRIPPED at 0.045** (Cara ↔ Hunter-Biden, on the Seven-escape counter-typing). Below the run's noise max of 0.079, so no Originality cap — but the ledger is wrong and shouldn't be trusted next pass.
+
+One prior error was caught and fixed upstream: the tour is now correctly "six cities between 1 and 26 June 2026," past tense, not the "eleven cities / six months" the entity-gap packet had propagated.
+
+Files written: `src/blog/people/drafts/Cara-Delevingne.md` (frontmatter) and `docs/content-analysis/grades/Cara-Delevingne.review.md`.
+
+**Total graded this session: 1**

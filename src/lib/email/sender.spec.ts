@@ -1,15 +1,20 @@
 // src/lib/email/sender.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { gmailSend, gmailFactory, jwtConstructor } = vi.hoisted(() => ({
+const { gmailSend, gmailFactory, jwtConstructor, privateEnv } = vi.hoisted(() => ({
 	gmailSend: vi.fn().mockResolvedValue({ data: { id: 'gmail-message-1' } }),
 	gmailFactory: vi.fn(),
-	jwtConstructor: vi.fn(function MockJwt() {})
+	jwtConstructor: vi.fn(function MockJwt() {}),
+	privateEnv: {
+		EMAIL_FOOTER_ADDRESS: '123 Example Street, New York, NY 10001',
+		EMAIL_MARKETING_PROVIDER: 'gmail'
+	}
 }));
 
 vi.mock('$env/static/private', () => ({
 	PRIVATE_gmail_private_key: JSON.stringify({ privateKey: 'test-private-key' })
 }));
+vi.mock('$env/dynamic/private', () => ({ env: privateEnv }));
 
 vi.mock('googleapis', () => {
 	gmailFactory.mockReturnValue({ users: { messages: { send: gmailSend } } });
@@ -42,6 +47,8 @@ describe('sendEmail link handling', () => {
 		vi.clearAllMocks();
 		gmailSend.mockResolvedValue({ data: { id: 'gmail-message-1' } });
 		gmailFactory.mockReturnValue({ users: { messages: { send: gmailSend } } });
+		privateEnv.EMAIL_FOOTER_ADDRESS = '123 Example Street, New York, NY 10001';
+		privateEnv.EMAIL_MARKETING_PROVIDER = 'gmail';
 	});
 
 	it('applies production-equivalent UTMs to untracked admin test sends', async () => {
@@ -117,6 +124,48 @@ describe('sendEmail link handling', () => {
 		expect(result.success).toBe(true);
 		expect(rawMessage).toContain(`List-Unsubscribe: <${unsubscribeUrl}>`);
 		expect(rawMessage).not.toContain(`/api/track/unsubscribe/${TRACKING_ID}`);
+	});
+
+	it('uses the isolated endpoint for marketing one-click headers and keeps the human footer URL', async () => {
+		const result = await sendEmail({
+			to: 'recipient@example.com',
+			subject: 'One question worth answering',
+			htmlContent: '<p><a href="https://9takes.com/questions/example">Answer</a></p>',
+			trackingId: TRACKING_ID,
+			emailKind: 'marketing',
+			idempotencyKey: `email-send/${TRACKING_ID}`,
+			providerCorrelationId: TRACKING_ID
+		});
+		const rawMessage = lastRawMessage();
+
+		expect(result.success).toBe(true);
+		expect(rawMessage).toContain(
+			`List-Unsubscribe: <https://9takes.com/api/one-click-unsubscribe?tracking_id=${TRACKING_ID}>`
+		);
+		expect(rawMessage).toContain('List-Unsubscribe-Post: List-Unsubscribe=One-Click');
+		expect(rawMessage).toContain(`/api/track/unsubscribe/${TRACKING_ID}`);
+		expect(rawMessage).toContain(privateEnv.EMAIL_FOOTER_ADDRESS);
+	});
+
+	it('fails closed before provider delivery when the marketing postal address is absent', async () => {
+		privateEnv.EMAIL_FOOTER_ADDRESS = '';
+
+		const result = await sendEmail({
+			to: 'recipient@example.com',
+			subject: 'Marketing message',
+			htmlContent: '<p>Body</p>',
+			trackingId: TRACKING_ID,
+			emailKind: 'marketing',
+			idempotencyKey: `email-send/${TRACKING_ID}`,
+			providerCorrelationId: TRACKING_ID
+		});
+
+		expect(result).toMatchObject({
+			success: false,
+			errorCategory: 'configuration',
+			providerAttempted: false
+		});
+		expect(gmailSend).not.toHaveBeenCalled();
 	});
 
 	it('marks rate limiting as a safe retry but treats provider 5xx responses as ambiguous', async () => {

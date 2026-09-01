@@ -1,0 +1,18 @@
+Written `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/verification-final.md`. No other file touched.
+
+**Verification status: `fail` · open_p0: 0 · protected_hit_regressions: 0**
+
+Both gate counters are clean. All eleven P0s stay resolved after the trim, all twelve protected hits survive, and the four ledgers are current — including the two the ~290-word cut would have staled. Lint is 0 fail / 0 warn at 3,892 words. All six draft-scoped items from the initial verification are genuinely fixed, including the three that caused the prior `fail`.
+
+The `fail` is on verification method step 6, in the same sentence as last time, though much smaller:
+
+**The Topshop clause.** RW-1 correctly deleted the invented "first designed for in 2017," but replaced it with "her first design credit at a retailer she had **only modelled for since 2014**." The headline claim is right and cited. The appended characterisation isn't — TheIndustry.fashion records a 30-piece **styling** edit in 2025 and says her Topshop connection has "long gone beyond modelling," and 2014 is her first *solo campaign*, not the start of the relationship. The packet only carries the 2026 capsule (CLM-21/S-08), so the clause has no source trail.
+
+It's a two-word fix — "a retailer she has fronted since 2014" clears it. I flagged it rather than waving it through because it sits inside PROTECT-01's ammunition, the skeptic beat where a checkable error costs most, and it's the third iteration of the exact habit this review was convened to catch.
+
+Two things worth your attention beyond that:
+
+- **"Sold-out nights in Los Angeles and Brooklyn"** (L166) entered as part of the P0-02 repair and the packet doesn't support the qualifier. The prior pass quoted that sentence and passed it, so I didn't reopen P0-02 — recorded only.
+- **RW-8 stays `needs_human`** and is yours: a formatter rewrote `draft-reviewed.md` and `context.json` after the snapshot phase, so the freeze no longer hashes. The content is intact (I diffed the full body against it), but the freeze is advisory until you either exclude `docs/content-analysis/perspective-reviews/**` from the formatter or have the gate re-hash at each phase.
+
+The deterministic gate script, not this report, decides whether the pipeline may finalize.

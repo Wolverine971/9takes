@@ -1,0 +1,17 @@
+**Artifact:** `docs/content-analysis/perspective-reviews/Cara-Delevingne/2026-09-01_114810/evidence-packet.md`
+
+Snapshot SHA verified against `context.json` before and after; `draft-reviewed.md` unchanged. All ten required H2 sections present, frontmatter parses. 30 claims inventoried as CLM-01…CLM-30, 30 sources ledgered across four tiers.
+
+## Largest unresolved evidence gap
+
+**Whether Delevingne's fractures were sustained or sought.** The broken-bones material is the draft's hook, its somatic ledger, and the named tie-breaker that carries the entire Type 4 argument against the crowd's Type 7. The quotation itself is corroborated — but contemporaneous coverage of the same *Call Her Daddy* passage (Daily Front Row) places it **inside a discussion of self-harm**, quoting her as saying "So I just wanted to feel pain." The draft renders the same material as involuntary somatic expression: her body "filing reports," saying what she could not put into words.
+
+If that framing is wrong, three things move at once: the accuracy of the article's central metaphor, the strength of the type tie-breaker built on it, and the handling of self-reported mental-health material that the entity-gap packet flags as requiring strict attribution. Nothing in the packet settles it — the episode audio would, and it was not accessed in this pass.
+
+## Three confirmed problems evaluators will each hit independently
+
+- **CLM-06 (tour).** "Runs about six months across eleven cities" — the published itinerary is 11 shows in ~6 cities, 1–26 June 2026, under four weeks. Four ticketing aggregators show no autumn dates. The "six months" figure originates in the entity-gap packet with no dated support and propagated into the research file and then the draft. An article dated 1 September describes as ongoing a tour that appears to have ended 26 June.
+- **CLM-09 (Vogue).** "By the time Vogue's April 2023 cover story ran she was four months sober" — she was four months sober at the **January 2023 interview**; the story published 8 March.
+- **CLM-12 (internal citation).** The draft attributes a 4w3 shadow definition to the 9takes wings guide it hyperlinks. The guide does call 4w3 "The Aristocrat," but `grep` returns zero hits for "performing authenticity," "embodying," or "image of depth." That wording exists in the corpus only in the Lady-Gaga draft. The wing argument and the final-act skeptic beat both rest on it.
+
+Two claims the draft made with **no repository source trail** — the Topshop co-designer role and the Rag & Bone "Baby's All Right" campaign detail — both verified externally and hold. The W magazine psoriasis attribution, flagged unresolved in prior research, is now pinned.

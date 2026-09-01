@@ -350,15 +350,21 @@ fi
 # Deliberate exceptions: export BLOG_LINT_WORD_CEILING=<n> for the run. Use it when
 # the length is argued for, never to silence an unexamined page.
 # Counts prose only: frontmatter, HTML comments (ledgers) and tags are excluded.
+#
+# 2026-09-01: the ceiling became a target. July median was 3,279 words; August
+# median was 4,370, with 11 of 30 published posts landing within 20 words of the
+# limit. That is a generator filling a quota, not writing finding its length. The
+# band below is the number drafts should aim at; the ceiling stays where it was.
 BODY_WORDS=$(sed -E 's/<[^>]+>/ /g' <<<"$BODY_NOCOMMENT" | wc -w | tr -d ' ')
 BODY_WORD_CEILING="${BLOG_LINT_WORD_CEILING:-4500}"
-BODY_WORD_WARN=$(( BODY_WORD_CEILING * 90 / 100 ))
+BODY_WORD_TARGET_MAX="${BLOG_LINT_WORD_TARGET_MAX:-3900}"
+BODY_WORD_TARGET_MIN="${BLOG_LINT_WORD_TARGET_MIN:-3200}"
 if (( BODY_WORDS > BODY_WORD_CEILING )); then
   fail "body is $BODY_WORDS words (ceiling $BODY_WORD_CEILING). Cut before you add: news that only re-proves a pattern the page already established belongs in a clause, not a section"
-elif (( BODY_WORDS > BODY_WORD_WARN )); then
-  warn "body is $BODY_WORDS words (ceiling $BODY_WORD_CEILING) — thin headroom for the next refresh"
+elif (( BODY_WORDS > BODY_WORD_TARGET_MAX )); then
+  warn "body is $BODY_WORDS words (target band $BODY_WORD_TARGET_MIN-$BODY_WORD_TARGET_MAX, ceiling $BODY_WORD_CEILING) — over target; find the section that re-proves an established pattern and cut it to a clause"
 else
-  pass "body length $BODY_WORDS words (ceiling $BODY_WORD_CEILING)"
+  pass "body length $BODY_WORDS words (target band $BODY_WORD_TARGET_MIN-$BODY_WORD_TARGET_MAX)"
 fi
 
 # --- em-dashes (policy resolved 2026-06-10: banned in prose) ------------------

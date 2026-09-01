@@ -71,6 +71,14 @@
 			"schedule": "*/15 * * * *"
 		},
 		{
+			"path": "/api/cron/send-scheduled-emails",
+			"schedule": "*/5 * * * *"
+		},
+		{
+			"path": "/api/cron/process-email-events",
+			"schedule": "*/5 * * * *"
+		},
+		{
 			"path": "/api/cron/tag-chorus-questions",
 			"schedule": "*/15 * * * *"
 		},

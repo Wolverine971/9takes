@@ -5,6 +5,7 @@ import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import type { EmailRecipient, RecipientSource } from '$lib/types/email';
 import { requireAdmin } from '$lib/server/adminAuth';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 const ALL_SOURCES: RecipientSource[] = ['profiles', 'signups', 'coaching_waitlist'];
 const PAGE_SIZE = 1000;
@@ -67,7 +68,8 @@ function parseRequestedSources(raw: string | null): RecipientSource[] {
 }
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	const { supabase } = await requireAdmin(locals);
+	await requireAdmin(locals);
+	const supabase = getSupabaseAdminClient();
 
 	const requestedSources = parseRequestedSources(url.searchParams.get('sources'));
 

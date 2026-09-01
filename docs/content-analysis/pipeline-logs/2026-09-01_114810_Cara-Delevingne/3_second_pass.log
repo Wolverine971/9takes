@@ -1,0 +1,21 @@
+Second pass complete on `src/blog/people/drafts/Cara-Delevingne.md`.
+
+## Source audit (the priority-1 item)
+
+Went from **3 inline / 1 vague / 2 untagged** → **8 of 8 inline, 0 vague, 0 untagged**. Tagged the "It wasn't me" line, the pull-quote, the drug-escape line, and the Vogue "you can't run" line with outlet + year at the quote itself.
+
+## Main changes
+
+**Restored her queerness.** This was the review's sharpest catch and it was right. The pull-quote is now the full sentence including "I knew I was a little queer kid running around," and section 2 carries her account of Weinstein ("You can't be gay") plus her stated reason for declining a formal coming out. Attributed strictly as her account, no narration around it. It turns the billboard thesis from an abstraction into a documented instruction: paid to be the model too honest to pose, by an industry telling her to keep the truest thing off the record.
+
+**Put a skeptic in the final act.** The biggest structural upgrade. The album section now turns the 4w3 shadow on *Not Normal* itself: a record sold on rawness released inside a Rag & Bone fall 2026 campaign shot backstage on the tour (I verified this via WWD — the campaign literally follows her through soundcheck and dressing rooms), plus the Topshop co-design. Left unresolved on purpose. The piece no longer resolves into a clean redemption arc.
+
+**Other substantive additions:** Minke in the recovery story (so "the opposite of addiction is connection" finally has a referent); Only Murders + SAG + the Gomez quote and the warm-professional-reviews vs. Reddit split, so the concession stops reading as agreement with "she has no talents"; Sally Bowles named in the voice ladder; suicidality in her own words; the pit-of-anger thread paid off on the album's processed production. Moved the household section ahead of the somatic ledger so the table reads as consequence.
+
+**On the title:** I searched and could not source where *Not Normal* came from. Rather than keep asserting what it means, the close now makes the absence of an explanation the point.
+
+## Worth flagging
+
+Another process edited `scripts/blog-lint.sh` mid-pass, tightening the word target from a 4,050 warn line to a 3,200–3,900 band. I left their change alone and cut to comply — final body is 3,898 words, **0 lint failures**. The only remaining warn is `no faqs in frontmatter`, which is the frontmatter-enrich stage that hasn't run yet.
+
+Still open for an editor pass: the *Call Her Daddy* quotes still come from a third-party transcript rather than audio, and the Playboy summer 2026 interview named in the entity-gap packet was never retrieved.

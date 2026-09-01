@@ -5,9 +5,11 @@ import { error, isHttpError, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import type { FetchUsersResponse, EmailRecipient } from '$lib/types/email';
 import { requireAdmin } from '$lib/server/adminAuth';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 export const GET: RequestHandler = async ({ url, locals }) => {
-	const { supabase } = await requireAdmin(locals);
+	await requireAdmin(locals);
+	const supabase = getSupabaseAdminClient();
 
 	// Parse query parameters
 	const sourceParam = url.searchParams.get('source') || 'all';
