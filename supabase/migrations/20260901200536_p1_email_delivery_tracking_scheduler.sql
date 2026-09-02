@@ -1,4 +1,4 @@
--- supabase/migrations/20260901200535_p1_email_delivery_tracking_scheduler.sql
+-- supabase/migrations/20260901200536_p1_email_delivery_tracking_scheduler.sql
 -- P1 email delivery, truthful engagement metrics, and atomic scheduling.
 
 -- ---------------------------------------------------------------------------
