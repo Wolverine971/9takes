@@ -8,10 +8,11 @@ const PERSONALITY_DISPLAY_NAME_OVERRIDES: Record<string, string> = {
 	ashby: 'Ashby Florence'
 };
 
-// These portraits were first requested before their files reached production.
-// Version their URLs once so browsers do not reuse that cached missing response.
+// Version portraits that were added or replaced after their original URLs reached
+// production so browsers do not reuse a cached missing or stale response.
 const PERSONALITY_IMAGE_CACHE_VERSIONS: Record<string, string> = {
-	'freddie-mercury': '20260830',
+	'demis-hassabis': '20260902d',
+	'freddie-mercury': '20260902b',
 	'marcus-aurelius': '20260830'
 };
 

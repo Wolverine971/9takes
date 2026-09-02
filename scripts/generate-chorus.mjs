@@ -17,6 +17,7 @@
 //   node scripts/generate-chorus.mjs --limit=20       # dry-run candidate batch
 //   CHORUS_QUESTION_MODEL=anthropic/claude-sonnet-4 node scripts/generate-chorus.mjs
 
+import { readFileSync } from 'fs';
 import dotenv from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
 import {
@@ -52,6 +53,15 @@ const REVIEWED_QUESTION = args
 	?.slice('--question='.length);
 const PUBLISH = args.includes('--publish');
 const LIMIT = Number(args.find((a) => a.startsWith('--limit='))?.split('=')[1]) || Infinity;
+// Restrict a batch run to an explicit set, so a partially-completed backfill can
+// be resumed without regenerating the people already done.
+const ONLY = (args.find((a) => a.startsWith('--only='))?.slice('--only='.length) || '')
+	.split(',')
+	.map((slug) => slug.trim())
+	.filter(Boolean);
+// Extra questions the model must not reproduce, one per line. Used to carry
+// already-chosen copy from a previous partial run into this one's avoid-list.
+const AVOID_FILE = args.find((a) => a.startsWith('--avoid-file='))?.slice('--avoid-file='.length);
 const CONCURRENCY = Number(process.env.CHORUS_CONCURRENCY) || 3;
 
 if (PUBLISH && (!SLUG || !REVIEWED_QUESTION?.trim())) {
@@ -558,6 +568,12 @@ async function main() {
 
 	// Default run: people who do not yet have a backing question page.
 	if (!FORCE && !SLUG) people = people.filter((p) => !p.chorus_question_url);
+	if (ONLY.length) {
+		const wanted = new Set(ONLY);
+		people = people.filter((p) => wanted.has(p.person));
+		const missing = ONLY.filter((slug) => !people.some((p) => p.person === slug));
+		if (missing.length) console.warn(`--only: no eligible row for ${missing.join(', ')}`);
+	}
 	people = people.slice(0, LIMIT);
 
 	const authorId = await getAuthorId();
@@ -574,6 +590,14 @@ async function main() {
 	const avoidQuestions = (liveQuestions || [])
 		.map((row) => String(row.chorus_question || '').trim())
 		.filter(Boolean);
+	if (AVOID_FILE) {
+		const extra = readFileSync(AVOID_FILE, 'utf8')
+			.split('\n')
+			.map((line) => line.trim())
+			.filter(Boolean);
+		avoidQuestions.push(...extra);
+		console.log(`Avoid-list extended with ${extra.length} question(s) from ${AVOID_FILE}.`);
+	}
 	const AVOID_PROMPT_CAP = Number(process.env.CHORUS_AVOID_CAP) || 60;
 	const recentAvoid = () => avoidQuestions.slice(-AVOID_PROMPT_CAP);
 	console.log(`Avoid-list seeded with ${avoidQuestions.length} question(s) already in use.`);

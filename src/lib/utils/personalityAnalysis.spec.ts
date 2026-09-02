@@ -41,11 +41,17 @@ describe('personalityAnalysis helpers', () => {
 	});
 
 	it('maps lowercase slugs back to the existing mixed-case image assets', () => {
+		expect(buildPersonalityImagePath(5, 'demis-hassabis')).toBe(
+			'/types/5s/Demis-Hassabis.webp?v=20260902d'
+		);
+		expect(buildPersonalityImagePath(5, 'demis-hassabis', 'thumbnail')).toBe(
+			'/types/5s/s-Demis-Hassabis.webp?v=20260902d'
+		);
 		expect(buildPersonalityImagePath(4, 'freddie-mercury')).toBe(
-			'/types/4s/Freddie-Mercury.webp?v=20260830'
+			'/types/4s/Freddie-Mercury.webp?v=20260902b'
 		);
 		expect(buildPersonalityImagePath(4, 'freddie-mercury', 'thumbnail')).toBe(
-			'/types/4s/s-Freddie-Mercury.webp?v=20260830'
+			'/types/4s/s-Freddie-Mercury.webp?v=20260902b'
 		);
 		expect(buildPersonalityImagePath(1, 'marcus-aurelius')).toBe(
 			'/types/1s/Marcus-Aurelius.webp?v=20260830'
