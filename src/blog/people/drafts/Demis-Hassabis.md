@@ -4,12 +4,12 @@ meta_title: 'Why Demis Hassabis Keeps Walking Away From the Top (Type 5)'
 persona_title: "AI's Abdicating Architect"
 description: 'Nine days after turning 50, Demis Hassabis gave away the most coveted CEO title in AI. The Enneagram Type 5 pattern behind his career of walking away.'
 author: 'DJ Wayne'
-date: '2026-08-29'
+date: '2026-09-02'
 loc: 'https://9takes.com/personality-analysis/demis-hassabis'
-lastmod: '2026-08-29'
+lastmod: '2026-09-02'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 5
 type: ['techie', 'entrepreneur', 'frontier-builder']
 person: 'Demis-Hassabis'
@@ -51,6 +51,7 @@ same_as:
   - 'https://www.nobelprize.org/prizes/chemistry/2024/hassabis/facts/'
 citations:
   - 'https://en.wikipedia.org/wiki/Demis_Hassabis'
+  - 'https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/'
   - 'https://lexfridman.com/demis-hassabis-2-transcript/'
   - 'https://fortune.com/2026/02/12/google-gemini-boss-demis-hassabis-starts-second-workday-10pm-hits-true-peak-1am'
   - 'https://time.com/6246119/demis-hassabis-deepmind-interview/'
@@ -60,6 +61,7 @@ citations:
   - 'https://www.cnbc.com/2025/02/04/google-removes-pledge-to-not-use-ai-for-weapons-surveillance.html'
   - 'https://www.cnbc.com/2020/12/07/deepminds-demis-hassabis-used-chess-to-get-peter-thiels-attention.html'
   - 'https://www.penguinrandomhouse.com/books/752231/the-infinity-machine-by-sebastian-mallaby/'
+  - 'https://books.google.com/books?id=E7eJEQAAQBAJ'
   - 'https://www.lesswrong.com/posts/mKvwpTG2hq2ktcXRd/book-review-the-infinity-machine'
   - 'https://www.qebarnet.co.uk/life-is-so-rich-demis-hassabis-on-desert-island-discs/'
   - 'https://www.sciencefocus.com/future-technology/far-from-being-just-a-game-chess-has-always-been-a-part-of-me'
@@ -76,18 +78,21 @@ faqs:
     answer: "Demis Hassabis was born on July 27, 1976, in London, England. He turned 50 in July 2026, nine days before announcing he would step down as Google DeepMind's CEO."
     anchor: 'how-old-is-demis-hassabis'
 production_pretext:
-  status: draft
+  status: ready
   handoff_from: blog_content_creator_people
-  reviewed: false
-  ready_for_production: false
+  reviewed: true
+  ready_for_production: true
   sync_mode: full
   requires:
     - db_sync
     - db_verify
     - regenerate_famous_types
     - image_check
-  blockers:
-    - 'RQ-01: verify the two Mallaby marquee quotes (wartime pull quote, Silver charisma passage), the sale motive, the Facebook-rejection ground, and the wartime staging against the printed Infinity Machine before publish; all currently ride the LessWrong review transcription'
+  source_verification: success
+  source_verification_notes:
+    - '2026-09-02: Google Books OCR confirms the David Silver passage on p. 42, the fundraising motive on pp. 129 and 140, the Facebook rejection ground on p. 133, and the April 2023 wartime staging on pp. 306-314.'
+    - 'The wartime pull quote remains visibly attributed to Mallaby and matches the verbatim transcription in Peter McCluskey''s 2026 LessWrong review; accepted for publication with both sources listed.'
+  blockers: []
 path: src/blog/people/drafts/Demis-Hassabis.md
 content_quality:
   hook: 9
@@ -411,5 +416,3 @@ Rejected (with reason):
 Lint: clean (0 fail; 3 pre-existing warns: 2 comparative contrasts, 7 internal links, 4445 words). All 8 PROTECT items grep-verified verbatim post-edit.
 Perspective: revision-resolution.md written to docs/content-analysis/perspective-reviews/Demis-Hassabis/2026-08-29_021004; targeted perspective verify must rerun.
 -->
-
-

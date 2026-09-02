@@ -290,6 +290,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'dario-amodei', link: true, hasImage: true, lastmod: '2026-03-23', personaTitle: 'AI\'s Reluctant Prometheus', contentGrade: 8.8, types: ['techie', 'entrepreneur', 'frontier-builder'] },
 		{ name: 'david-corenswet', link: true, hasImage: true, lastmod: '2026-05-02', personaTitle: 'The Sunbeam Superman', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
 		{ name: 'david-friedberg', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Quiet Systems Builder', contentGrade: 8.5, types: ['techie', 'entrepreneur', 'investor'] },
+		{ name: 'demis-hassabis', link: true, hasImage: true, lastmod: '2026-09-02', personaTitle: 'AI\'s Abdicating Architect', contentGrade: 8.6, types: ['techie', 'entrepreneur', 'frontier-builder'] },
 		{ name: 'elon-musk', link: true, hasImage: true, lastmod: '2026-02-18', personaTitle: 'Technology\'s Apocalyptic Engineer', contentGrade: 8.9, types: ['techie', 'big-tech-founder'] },
 		{ name: 'friedrich-nietzsche', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'The Hermit Who Killed God', contentGrade: 8.8, types: ['historical'] },
 		{ name: 'george-rr-martin', link: true, hasImage: true, lastmod: '2025-12-21', personaTitle: 'Fantasy\'s Fortress Gardener', contentGrade: 8.9, types: ['author', 'novelist'] },
@@ -320,7 +321,6 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'warren-buffett', link: true, hasImage: true, lastmod: '2026-07-08', personaTitle: 'Omaha\'s Quiet Fortress', contentGrade: 8.8, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'yang-zhilin', link: true, hasImage: true, lastmod: '2026-08-22', personaTitle: 'AI\'s Far-Side Observer', contentGrade: 8.7, types: ['techie', 'entrepreneur'] },
 		{ name: 'zach-king', link: false, hasImage: true, lastmod: '2025-06-25', personaTitle: null, contentGrade: null, types: ['tiktoker'] },
-		{ name: 'demis-hassabis', link: false, hasImage: false, lastmod: '2026-08-29', personaTitle: 'AI\'s Abdicating Architect', contentGrade: 8.6, types: ['techie', 'entrepreneur', 'frontier-builder'] },
 		{ name: 'naval-ravikant', link: false, hasImage: false, lastmod: '2026-09-01', personaTitle: 'Silicon Valley\'s Library Kid', contentGrade: 8.1, types: ['techie', 'entrepreneur', 'author'] }
 	],
 	6: [
