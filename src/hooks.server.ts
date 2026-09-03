@@ -1,5 +1,7 @@
 // src/hooks.server.ts
 import { dev } from '$app/environment';
+import { applySecurityHeaders as setSecurityHeaders } from '$lib/server/securityHeaders';
+const applySecurityHeaders = (headers: Headers) => setSecurityHeaders(headers, dev);
 import { createServerClient } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_PUBLISHABLE_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
 import type { Database } from '../database.types';
@@ -58,11 +60,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 	if (canonicalSeoLocation) {
 		const redirectUrl = new URL(event.url);
 		redirectUrl.pathname = canonicalSeoLocation;
+		const redirectHeaders = new Headers({ location: redirectUrl.toString() });
+		applySecurityHeaders(redirectHeaders);
 		return new Response(null, {
 			status: 308,
-			headers: {
-				location: redirectUrl.toString()
-			}
+			headers: redirectHeaders
 		});
 	}
 
@@ -215,6 +217,14 @@ export const handle: Handle = async ({ event, resolve }) => {
 		);
 	}
 
+	if (
+		user ||
+		/^(?:\/admin|\/account|\/login|\/register|\/resetPassword|\/forgotPassword|\/api\/auth-shell)(?:\/|$)/.test(
+			event.url.pathname
+		)
+	) {
+		response.headers.set('Cache-Control', 'private, no-store');
+	}
 	applySecurityHeaders(response.headers);
 
 	return response;
@@ -289,15 +299,6 @@ function getCanonicalSeoLocation(pathname: string): string | null {
 }
 
 function getClientIp(event: Parameters<Handle>[0]['event']): string {
-	const forwardedFor =
-		event.request.headers.get('x-forwarded-for') ??
-		event.request.headers.get('x-real-ip') ??
-		event.request.headers.get('cf-connecting-ip');
-
-	if (forwardedFor) {
-		return forwardedFor.split(',')[0]?.trim() || 'unknown';
-	}
-
 	try {
 		return event.getClientAddress();
 	} catch {
@@ -411,20 +412,6 @@ function getAnonCookieOptions() {
 		secure: !dev,
 		maxAge: CONTENT_ACCESS_ANON_COOKIE_MAX_AGE_SECONDS
 	};
-}
-
-function applySecurityHeaders(headers: Headers) {
-	headers.set(
-		'Content-Security-Policy',
-		"default-src 'self' https: data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https: blob:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https: wss:; frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self' https:;"
-	);
-	headers.set('X-Frame-Options', 'SAMEORIGIN');
-	headers.set('X-Content-Type-Options', 'nosniff');
-	headers.set('Referrer-Policy', 'strict-origin-when-cross-origin');
-	headers.set(
-		'Permissions-Policy',
-		'accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(self), payment=(), usb=()'
-	);
 }
 
 function appendVary(headers: Headers, value: string) {

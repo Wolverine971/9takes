@@ -41,7 +41,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 
 		const { data: question, error: questionError } = await supabase
 			.from(questionTable)
-			.select('id, author_id')
+			.select('id, author_id, url')
 			.eq('id', questionId)
 			.single();
 
@@ -64,7 +64,7 @@ export const POST: RequestHandler = async ({ request, locals }) => {
 		const upload = await uploadQuestionImage({
 			supabase,
 			dataUrl: validated.img_url,
-			questionUrl: validated.url,
+			questionUrl: question.url || String(question.id),
 			maxBytes: MAX_IMAGE_BYTES,
 			variant: validated.variant
 		});

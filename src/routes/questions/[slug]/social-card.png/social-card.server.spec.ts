@@ -1,17 +1,19 @@
 // src/routes/questions/[slug]/social-card.png/social-card.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { renderQuestionSocialCardMock, uploadQuestionImageBufferMock, loggerMocks } = vi.hoisted(
-	() => ({
+const { renderQuestionSocialCardMock, uploadQuestionImageBufferMock, loggerMocks, getAdminMock } =
+	vi.hoisted(() => ({
 		renderQuestionSocialCardMock: vi.fn(),
+		getAdminMock: vi.fn(),
 		uploadQuestionImageBufferMock: vi.fn(),
 		loggerMocks: {
 			info: vi.fn(),
 			warn: vi.fn(),
 			error: vi.fn()
 		}
-	})
-);
+	}));
+
+vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: getAdminMock }));
 
 vi.mock('$env/static/public', () => ({
 	PUBLIC_SUPABASE_URL: 'https://demo.supabase.co'
@@ -40,6 +42,7 @@ function makeSupabase(question: any) {
 	const eqUpdate = vi.fn().mockResolvedValue({ error: null });
 	const update = vi.fn().mockReturnValue({ eq: eqUpdate });
 
+	getAdminMock.mockReturnValue({ from: vi.fn().mockReturnValue({ update }) });
 	return {
 		from: vi.fn().mockReturnValue({ select, update }),
 		_mocks: {

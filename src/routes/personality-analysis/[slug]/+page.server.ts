@@ -4,6 +4,7 @@ import { dev } from '$app/environment';
 import type { Actions } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import type { Database } from '../../../../database.types';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import {
 	rankSimilarPeople,
@@ -102,7 +103,7 @@ export const load: PageServerLoad = async (event) => {
 				.eq('author_id', user?.id)
 				.abortSignal(AbortSignal.timeout(PERSONALITY_ENRICHMENT_TIMEOUT_MS))
 				.maybeSingle()
-		: supabase
+		: getSupabaseAdminClient()
 				.from('blog_comments')
 				.select('id')
 				.in('blog_link', commentSlugCandidates)

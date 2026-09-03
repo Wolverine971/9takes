@@ -3,7 +3,18 @@ import { supabase } from '$lib/supabase';
 import type { Database } from '../../database.types';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
-type ParentCommentRow = Database['public']['Tables']['comments']['Row'];
+type ParentCommentRow = Pick<
+	Database['public']['Tables']['comments']['Row'],
+	| 'id'
+	| 'comment'
+	| 'author_id'
+	| 'parent_id'
+	| 'parent_type'
+	| 'created_at'
+	| 'modified_at'
+	| 'comment_count'
+	| 'like_count'
+>;
 
 export const convertDateToReadable = (date: string): string => {
 	const dateObj = new Date(date);
@@ -57,7 +68,9 @@ export const getCommentParents = async <T extends CommentWithParent>(
 	if (commentParentIds.length) {
 		const { data: parentCommentsData, error: parentCommentsError } = await supabase
 			.from('comments')
-			.select('*')
+			.select(
+				'id, comment, author_id, parent_id, parent_type, created_at, modified_at, comment_count, like_count'
+			)
 			.in('id', commentParentIds);
 
 		if (parentCommentsError) {

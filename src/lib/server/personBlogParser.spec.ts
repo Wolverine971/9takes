@@ -1,5 +1,6 @@
 // src/lib/server/personBlogParser.spec.ts
 import path from 'path';
+import * as perspectiveReview from '../../../scripts/lib/perspectiveReview.js';
 import { describe, expect, it, vi } from 'vitest';
 
 import {
@@ -625,9 +626,13 @@ TODO: add source.
 			expect(from).toHaveBeenCalledTimes(1);
 		});
 
-		it('atomically syncs one explicit draft while preserving protected live fields', async () => {
+		it('atomically syncs one verified draft while preserving protected live fields', async () => {
+			const review = vi
+				.spyOn(perspectiveReview, 'getPerspectivePublishStatus')
+				.mockResolvedValue({ valid: true } as any);
 			const syncedEntry = {
 				...entry,
+				_source_path: '/test/verified-draft.md',
 				content: 'New body with <EnneagramTypeDossier />'
 			};
 			const verified = {
@@ -663,6 +668,8 @@ TODO: add source.
 				supabase: { from, rpc } as any
 			});
 
+			expect(review).toHaveBeenCalledWith('/test/verified-draft.md');
+			review.mockRestore();
 			expect(result).toMatchObject({ updated: 1, errors: [] });
 			expect(rpc).toHaveBeenCalledWith(
 				'update_blogs_famous_people_if_unchanged',

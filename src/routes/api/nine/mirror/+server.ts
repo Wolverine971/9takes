@@ -1,4 +1,6 @@
 // src/routes/api/nine/mirror/+server.ts
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+// src/routes/api/nine/mirror/+server.ts
 //
 // The "mirror": a reader answers the evergreen question (give-first). We reflect
 // the emotional logic back, return the nine takes, AND record their answer as a
@@ -158,24 +160,23 @@ export const POST: RequestHandler = async ({ request, locals, cookies, getClient
 		let commentAnalytics: unknown = null;
 
 		// Record the answer as a real comment on the backing question, using the
-		// reader's own client so give-first identity rules apply. This is the
+		// server client after deriving identity and IP from the request. This is the
 		// primary action, so it happens before the optional generated reflection.
 		// a duplicate (one-per-fingerprint) means the reader already answered and
 		// is already unlocked, so it counts as success and they get the reveal.
 		let alreadyAnswered = false;
 		if (chorus.questionId && (fingerprint || userId)) {
 			try {
-				const { data: commentRecord, error: commentError } = await (locals.supabase.rpc as any)(
-					'create_comment_atomic',
-					{
-						p_comment: take,
-						p_parent_id: chorus.questionId,
-						p_author_id: userId,
-						p_parent_type: 'question',
-						p_fingerprint: fingerprint,
-						p_ip: getClientAddress()
-					}
-				);
+				const { data: commentRecord, error: commentError } = await (
+					getSupabaseAdminClient().rpc as any
+				)('create_comment_atomic', {
+					p_comment: take,
+					p_parent_id: chorus.questionId,
+					p_author_id: userId,
+					p_parent_type: 'question',
+					p_fingerprint: fingerprint,
+					p_ip: getClientAddress()
+				});
 
 				if (!commentError) {
 					answerRecorded = true;

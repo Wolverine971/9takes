@@ -21,6 +21,14 @@ vi.mock('$lib/utils/logger', () => ({
 import { getAuthProtectionState } from './authProtection';
 
 describe('authProtection', () => {
+	it('fails closed if the abuse counter is unavailable', async () => {
+		fromMock.mockImplementation(() => {
+			throw new Error('Unavailable');
+		});
+		const result = await getAuthProtectionState({ flow: 'login', ipAddress: '192.0.2.1' });
+		expect(result).toEqual({ captchaRequired: true, rateLimited: true, retryAfterSeconds: 60 });
+		loggerErrorMock.mockClear();
+	});
 	it('does not count rate_limited outcomes toward fresh threshold checks', async () => {
 		fromMock.mockImplementation(() => {
 			const builder = {

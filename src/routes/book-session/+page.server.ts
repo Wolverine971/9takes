@@ -1,4 +1,6 @@
 // src/routes/book-session/+page.server.ts
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+// src/routes/book-session/+page.server.ts
 import { fail } from '@sveltejs/kit';
 import type { Actions } from './$types';
 import { isHoneypotTriggered, verifyRecaptcha } from '$lib/utils/recaptcha';
@@ -143,13 +145,14 @@ export const actions: Actions = {
 			const cutoffTime = new Date();
 			cutoffTime.setHours(cutoffTime.getHours() - RATE_LIMIT_WINDOW_HOURS);
 
-			const { count, error: countError } = await locals.supabase
+			const { count, error: countError } = await getSupabaseAdminClient()
 				.from('coaching_waitlist_metadata')
 				.select('*', { count: 'exact', head: true })
 				.eq('ip_address', ipAddress)
 				.gte('created_at', cutoffTime.toISOString());
 
-			if (!countError && count !== null && count >= RATE_LIMIT_COUNT) {
+			if (countError || count === null) throw new Error('Waitlist rate limit unavailable');
+			if (count >= RATE_LIMIT_COUNT) {
 				console.log(
 					`[BOT DETECTED] Rate limit exceeded for IP: ${ipAddress} (${count} submissions)`
 				);
@@ -163,8 +166,15 @@ export const actions: Actions = {
 				});
 			}
 		} catch (e) {
-			// Don't block if rate limit check fails
 			console.error('Rate limit check error:', e);
+			return fail(503, {
+				success: false,
+				message: 'Please try again in a few minutes.',
+				name,
+				email,
+				enneagramType,
+				sessionGoal: sessionGoalInput
+			});
 		}
 
 		// ============ STANDARD VALIDATION ============
@@ -230,7 +240,7 @@ export const actions: Actions = {
 
 		try {
 			// Insert into coaching_waitlist table
-			const { data: waitlistData, error: waitlistError } = await locals.supabase
+			const { data: waitlistData, error: waitlistError } = await getSupabaseAdminClient()
 				.from('coaching_waitlist')
 				.insert([{ name, email, enneagram_type: enneagramType, session_goal: sessionGoal }])
 				.select('id')
@@ -285,17 +295,19 @@ export const actions: Actions = {
 
 			// Insert metadata
 			if (waitlistData?.id) {
-				await locals.supabase.from('coaching_waitlist_metadata').insert([
-					{
-						waitlist_id: waitlistData.id,
-						source,
-						ip_address: ipAddress,
-						user_agent: userAgent,
-						utm_campaign: utmCampaign,
-						utm_medium: utmMedium,
-						utm_content: utmContent
-					}
-				]);
+				await getSupabaseAdminClient()
+					.from('coaching_waitlist_metadata')
+					.insert([
+						{
+							waitlist_id: waitlistData.id,
+							source,
+							ip_address: ipAddress,
+							user_agent: userAgent,
+							utm_campaign: utmCampaign,
+							utm_medium: utmMedium,
+							utm_content: utmContent
+						}
+					]);
 			}
 
 			// Set a cookie to remember the user signed up

@@ -2,6 +2,8 @@
 
 # Security and Improvements Todo List
 
+This is a historical checklist. Use the [September 3, 2026 audit](./2026-09-03-security-audit.md) for verified findings, live changes, validation results, and remaining work. Items below are not a current security attestation.
+
 ## 🔴 CRITICAL SECURITY FIXES
 
 ### 1. Rotate Credentials ⚠️ ACTION REQUIRED

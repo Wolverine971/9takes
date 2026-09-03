@@ -1,4 +1,6 @@
 // src/routes/questions/[slug]/social-card.png/+server.ts
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+// src/routes/questions/[slug]/social-card.png/+server.ts
 import { PUBLIC_SUPABASE_URL } from '$env/static/public';
 import type { RequestHandler } from './$types';
 import { logger } from '$lib/utils/logger';
@@ -82,7 +84,7 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 		});
 
 		const upload = await uploadQuestionImageBuffer({
-			supabase,
+			supabase: getSupabaseAdminClient(),
 			buffer: cardBuffer,
 			contentType: 'image/png',
 			questionUrl: question.url,
@@ -96,7 +98,7 @@ export const GET: RequestHandler = async ({ params, locals, request }) => {
 			path: upload.path
 		});
 
-		const { error: updateError } = await supabase
+		const { error: updateError } = await getSupabaseAdminClient()
 			.from('questions')
 			.update({ img_url: upload.path })
 			.eq('id', question.id);

@@ -15,6 +15,8 @@ const {
 	runBestEffortTelemetryMock: vi.fn()
 }));
 
+vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: () => ({ rpc: rpcMock }) }));
+
 vi.mock('$lib/supabase', () => ({
 	supabase: {
 		rpc: rpcMock,

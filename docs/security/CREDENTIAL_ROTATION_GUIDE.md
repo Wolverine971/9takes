@@ -6,22 +6,24 @@
 
 This guide will walk you through rotating all credentials for the 9takes application. Follow each step carefully and update your `.env` file as you go.
 
+For current evidence and priorities, see the [September 3, 2026 audit](./2026-09-03-security-audit.md). The database password needs rotation after exposure in an audit-tool error. The historical leaked service JWT was rejected with HTTP 401 during verification. Provider notes below are a historical inventory, not confirmation that every listed integration is active.
+
 ## 1. Supabase Credentials
 
 ### Steps:
 
-1. Go to [https://app.supabase.com](https://app.supabase.com)
-2. Select your 9takes project
-3. Go to Settings → API
-4. Click "Regenerate anon key" - Copy the new `SUPABASE_ANON_KEY`
-5. Click "Regenerate service role key" - Copy the new `SUPABASE_SERVICE_KEY`
-6. The `SUPABASE_URL` remains the same
+1. Open the **9takes** project in the [Supabase Dashboard](https://supabase.com/dashboard/project/nhjjzcsnmyotyhykbajc).
+2. For the exposed database password, use the database password settings. Inventory direct database clients, rotate the password, and update their connection settings through a secret manager or private environment file. Do not paste the password into chat, a command argument, a Git file, or a screenshot.
+3. For API-key rotation, use Settings → API Keys. Prefer separately rotatable publishable and secret keys when compatible with every client. The application uses `PUBLIC_SUPABASE_PUBLISHABLE_KEY` and server-only `SUPABASE_SERVICE_KEY`.
+4. Deploy and verify consumers of a replacement secret key before revoking the old one. A public/publishable key is intentionally included in browsers; database policies provide its access boundary.
+5. Legacy `anon` and `service_role` JWT keys depend on the project's legacy JWT signing secret. Do not assume they can be regenerated independently. Follow the current [Supabase API-key rotation documentation](https://supabase.com/docs/guides/getting-started/api-keys) and account for session/client impact when rotating signing keys.
+6. Update local and deployed environments consistently, then verify that the retired credential is rejected. The project URL does not change.
 
 ### Update in .env:
 
 ```
-PUBLIC_SUPABASE_URL=your-project-url.supabase.co
-PUBLIC_SUPABASE_ANON_KEY=new_anon_key_here
+PUBLIC_SUPABASE_URL=https://your-project-ref.supabase.co
+PUBLIC_SUPABASE_PUBLISHABLE_KEY=new_publishable_key_here
 SUPABASE_SERVICE_KEY=new_service_key_here
 ```
 

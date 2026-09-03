@@ -37,7 +37,7 @@ export const load: PageServerLoad = async (event) => {
 	const db = event.locals.supabase as any;
 
 	const { data: user, error: findUserError } = (await db
-		.from(profileTable)
+		.from(`public_${profileTable}`)
 		.select('id, enneagram, external_id, created_at, first_name')
 		.eq('external_id', event.params.externalId)
 		.single()) as { data: ProfileSummary | null; error: unknown };
@@ -51,6 +51,7 @@ export const load: PageServerLoad = async (event) => {
 	// Fetch last sign-in from auth
 	let lastSignIn: string | null = null;
 	try {
+		if (event.locals.user?.id !== user.id) throw new Error('Private account activity');
 		const adminClient = getSupabaseAdminClient();
 		const { data: authUser } = await adminClient.auth.admin.getUserById(user.id);
 		lastSignIn = authUser?.user?.last_sign_in_at ?? null;
@@ -112,12 +113,10 @@ export const actions: Actions = {
 			const last_name = String(body.lastName ?? '');
 			const enneagram = String(body.enneagram ?? '');
 
-			const email = String(body.email ?? '');
-
 			const { error: updateUserError } = await db
 				.from(profileTable)
 				.update({ first_name, last_name, enneagram })
-				.eq('email', email);
+				.eq('id', session.user.id);
 			// insert(userData);
 			if (!updateUserError) {
 				return { success: true };

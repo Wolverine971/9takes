@@ -1,4 +1,7 @@
 // svelte.config.js
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
+// svelte.config.js
 import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
@@ -22,6 +25,16 @@ const pruneLegacyJsonLdPreprocess = {
 		return code === content ? undefined : { code };
 	}
 };
+
+// Hash the existing theme bootstraps so cached editorial pages need no reusable nonce.
+const themeScripts = [
+	...readFileSync(new URL('./src/app.html', import.meta.url), 'utf8').matchAll(
+		/<script>([\s\S]*?)<\/script>/g
+	),
+	...readFileSync(new URL('./src/routes/+layout.svelte', import.meta.url), 'utf8').matchAll(
+		/\{@html `<script>([\s\S]*?)<\/script>`\}/g
+	)
+].map((match) => `sha256-${createHash('sha256').update(match[1]).digest('base64')}`);
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -51,6 +64,55 @@ const config = {
 		}),
 		paths: {
 			relative: false
+		},
+		csp: {
+			mode: 'hash',
+			directives: {
+				'default-src': ['self'],
+				'script-src': [
+					'self',
+					...themeScripts,
+					'https://www.googletagmanager.com',
+					'https://www.google.com/recaptcha/',
+					'https://www.gstatic.com/recaptcha/',
+					'https://us-assets.i.posthog.com',
+					'https://api.mapbox.com',
+					'https://cdn.ampproject.org',
+					'https://cdn.jsdelivr.net/npm/medium-editor@5.23.3/dist/js/medium-editor.min.js'
+				],
+				'script-src-attr': ['none'],
+				'style-src': ['self', 'unsafe-inline', 'https:'],
+				'img-src': ['self', 'data:', 'blob:', 'https:'],
+				'font-src': ['self', 'data:', 'https:'],
+				'connect-src': [
+					'self',
+					'https://nhjjzcsnmyotyhykbajc.supabase.co',
+					'wss://nhjjzcsnmyotyhykbajc.supabase.co',
+					'https://*.posthog.com',
+					'https://*.i.posthog.com',
+					'https://*.google-analytics.com',
+					'https://*.analytics.google.com',
+					'https://www.google.com',
+					'https://www.googletagmanager.com',
+					'https://api.mapbox.com',
+					'https://events.mapbox.com',
+					'https://vitals.vercel-insights.com'
+				],
+				'frame-src': [
+					'self',
+					'https://www.google.com',
+					'https://www.youtube.com',
+					'https://www.youtube-nocookie.com',
+					'https://open.spotify.com',
+					'https://player.vimeo.com'
+				],
+				'media-src': ['self', 'blob:', 'https:'],
+				'worker-src': ['self', 'blob:'],
+				'frame-ancestors': ['self'],
+				'object-src': ['none'],
+				'base-uri': ['none'],
+				'form-action': ['self']
+			}
 		},
 		csrf: {
 			trustedOrigins: []

@@ -22,6 +22,8 @@ const {
 	}
 }));
 
+vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: () => ({ rpc: rpcMock }) }));
+
 vi.mock('$lib/server/apiRateLimit', () => ({
 	consumeApiRateLimit: consumeApiRateLimitMock,
 	resolveRateLimitSubject: ({

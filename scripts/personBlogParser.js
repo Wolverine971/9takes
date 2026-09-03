@@ -103,7 +103,8 @@ dotenv.config();
  * @typedef {BlogRecord & {
  *   _has_content_quality: boolean,
  *   _has_valid_content_quality: boolean,
- *   _explicit_fields: string[]
+ *   _explicit_fields: string[],
+ *   _source_path?: string
  * }} PersonBlogEntry
  */
 

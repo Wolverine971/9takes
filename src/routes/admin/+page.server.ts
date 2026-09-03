@@ -26,6 +26,7 @@ import {
 import { buildAdminDataStatus } from '$lib/server/adminDataStatus';
 import { loadEmailSuppressionStatus } from '$lib/server/emailSuppressionStatus';
 import { normalizeEmail } from '$lib/email/suppression';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 
 type QuestionRow = Database['public']['Tables']['questions']['Row'];
 
@@ -377,7 +378,7 @@ export const load: PageServerLoad = async (event) => {
 	let activeContributors = retentionSummary.activeContributorsThisWeek;
 	if (!retentionSummary.available) {
 		activeContributors = await countRecentActiveContributors(
-			supabase as any,
+			getSupabaseAdminClient() as any,
 			sevenDaysAgo.toISOString()
 		);
 		retentionSummary.activeContributorsThisWeek = activeContributors;

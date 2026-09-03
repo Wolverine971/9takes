@@ -7,11 +7,10 @@ import { json } from '@sveltejs/kit';
 import { z } from 'zod';
 import { personSuggestionEmail } from '../../../emails';
 import { sendEmail as sendManagedEmail } from '$lib/email/sender';
-import { supabase } from '$lib/supabase';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { consumeApiRateLimit } from '$lib/server/apiRateLimit';
 import { emailSubmissionSchema } from '$lib/validation/schemas';
 import { logger } from '$lib/utils/logger';
-
-const db = supabase as any;
 
 async function readBody(request: Request): Promise<Record<string, unknown>> {
 	const contentType = request.headers.get('content-type') || '';
@@ -22,7 +21,17 @@ async function readBody(request: Request): Promise<Record<string, unknown>> {
 	return Object.fromEntries(form);
 }
 
-export const POST: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request, getClientAddress }) => {
+	const db = getSupabaseAdminClient() as any;
+	const rate = await consumeApiRateLimit({
+		bucket: 'person_suggestion',
+		subject: `ip:${getClientAddress()}`
+	});
+	if (!rate.allowed)
+		return json(
+			{ ok: false, code: 'rate_limited', message: 'Please try again later.' },
+			{ status: 429, headers: { 'Retry-After': String(rate.retryAfterSeconds) } }
+		);
 	const body = await readBody(request);
 
 	let validatedData;
@@ -52,7 +61,10 @@ export const POST: RequestHandler = async ({ request }) => {
 
 	if (countError) {
 		logger.error('Failed to check rate limit', countError, { email: normalizedEmail });
-		// Continue with submission if rate limit check fails
+		return json(
+			{ ok: false, code: 'unavailable', message: 'Please try again later.' },
+			{ status: 503 }
+		);
 	} else if (count !== null && count >= 3) {
 		logger.warn('Rate limit exceeded for person suggestion', { email: normalizedEmail, count });
 		return json(

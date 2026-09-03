@@ -348,7 +348,7 @@ export async function loadCommunityPulse(
 				.eq('comment_count', 0),
 			db
 				.from(tables.comments)
-				.select(`author_id, ${tables.profiles} (enneagram)`)
+				.select(`author_id, ${tables.profiles}:public_${tables.profiles} (enneagram)`)
 				.eq('removed', false)
 				.gt('created_at', since)
 				.limit(500)
@@ -624,7 +624,9 @@ export async function loadQuestionOfTheDay(
 			.limit(120),
 		db
 			.from(tables.comments)
-			.select(`parent_id, author_id, created_at, ${tables.profiles} (enneagram)`)
+			.select(
+				`parent_id, author_id, created_at, ${tables.profiles}:public_${tables.profiles} (enneagram)`
+			)
 			.eq('parent_type', 'question')
 			.eq('removed', false)
 			.limit(1000)

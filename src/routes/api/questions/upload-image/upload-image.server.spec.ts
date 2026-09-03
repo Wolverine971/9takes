@@ -35,7 +35,7 @@ function buildSupabaseMock() {
 	const singleMock = vi
 		.fn()
 		.mockResolvedValueOnce({
-			data: { id: 101, author_id: 'user-123', es_id: 'es-101' },
+			data: { id: 101, author_id: 'user-123', url: 'some-question', es_id: 'es-101' },
 			error: null
 		})
 		.mockResolvedValueOnce({ data: { es_id: 'es-101' }, error: null });
@@ -78,7 +78,7 @@ describe('POST /api/questions/upload-image', () => {
 		const response = await POST({
 			request: buildRequest({
 				questionId: '101',
-				url: 'some-question',
+				url: 'another-users-question',
 				img_url: 'data:image/png;base64,abcd',
 				variant: QUESTION_SOCIAL_CARD_VARIANT
 			}),
@@ -102,7 +102,7 @@ describe('POST /api/questions/upload-image', () => {
 		const response = await POST({
 			request: buildRequest({
 				questionId: '101',
-				url: 'some-question',
+				url: 'another-users-question',
 				img_url: 'data:image/png;base64,abcd'
 			}),
 			locals: {

@@ -85,7 +85,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 		const { data: questionComments, error: questionCommentsError } = (await supabase
 			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select(
-				`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)`
+				`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo:public_profiles_demo' : 'profiles:public_profiles'} ( external_id, enneagram)`
 			)
 			.eq('parent_id', parentId)
 			.eq('parent_type', parentType)
@@ -117,7 +117,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 				const { data: commentComments, error: commentError } = (await supabase
 					.from(demo_time === true ? 'comments_demo' : 'comments')
 					.select(
-						`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo' : 'profiles'} ( external_id, enneagram)`
+						`${PUBLIC_COMMENT_FIELDS}, ${demo_time === true ? 'profiles_demo:public_profiles_demo' : 'profiles:public_profiles'} ( external_id, enneagram)`
 					)
 					.in('parent_id', questionCommentIds)
 					.eq('parent_type', parentType)

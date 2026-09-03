@@ -3,6 +3,7 @@
 // This keeps the marked library out of the client bundle
 
 import { marked, type Tokens } from 'marked';
+import { sanitizeArticleHtml } from './sanitizeArticleHtml';
 import { getBlogEvidenceMedia } from '$lib/blogEvidenceMedia';
 import { ENNEAGRAM_TYPE_DOSSIER_SLOT_MARKER } from '$lib/utils/articleSlots';
 
@@ -132,7 +133,7 @@ export async function processBlogContent(
 
 			// Add children content if any
 			if (children.trim()) {
-				propsObj.children = children;
+				propsObj.children = sanitizeArticleHtml(children);
 			}
 
 			placeholders.push({
@@ -185,7 +186,7 @@ export async function processBlogContent(
 		}
 	}
 
-	return { content: htmlContent, placeholders, headings };
+	return { content: sanitizeArticleHtml(htmlContent), placeholders, headings };
 }
 
 function renderComponentPlaceholder({

@@ -38,7 +38,7 @@ Body copy.`);
 		expect(result.placeholders[0].props).not.toHaveProperty('is');
 		expect(result.content).toContain('data-ssr-fallback');
 		expect(result.content).toContain('itemscope itemtype="https://schema.org/Question"');
-		expect(result.content).toContain('What is Taylor Swift&#39;s type?');
+		expect(result.content).toContain("What is Taylor Swift's type?");
 		expect(result.content).toContain('Taylor reads as **Type 3**');
 	});
 

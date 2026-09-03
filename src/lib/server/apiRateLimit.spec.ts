@@ -68,7 +68,7 @@ describe('consumeApiRateLimit', () => {
 		expect(args.p_subject_hash).not.toContain('1.2.3.4');
 	});
 
-	it('degrades to per-instance limiting instead of unlimited spend when the DB fails', async () => {
+	it('denies metered work when the shared counter is unavailable', async () => {
 		rpc.mockResolvedValue({ data: null, error: new Error('unreachable') });
 
 		const rule = RATE_LIMIT_RULES.transcribe;
@@ -79,7 +79,7 @@ describe('consumeApiRateLimit', () => {
 
 		// Calls that reached the failing DB report the degraded fallback...
 		expect(results.slice(0, rule.limit).every((r) => r.degraded)).toBe(true);
-		expect(results.slice(0, rule.limit).every((r) => r.allowed)).toBe(true);
+		expect(results.slice(0, rule.limit).every((r) => !r.allowed)).toBe(true);
 		// ...and past the limit the local tier denies without consulting the DB,
 		// so those decisions are not "degraded" — they are simply over budget.
 		expect(results[rule.limit].allowed).toBe(false);

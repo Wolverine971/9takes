@@ -33,7 +33,8 @@ import type {
 } from '$lib/types/questions';
 import { z } from 'zod';
 
-import axios from 'axios';
+import { fetchPublicHtml } from '$lib/server/safeExternalFetch';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { load as cheerioLoad } from 'cheerio';
 
 // =============================================================================
@@ -49,10 +50,6 @@ const DEFAULT_LINKS_LIMIT = 10;
 const PUBLIC_COMMENT_FIELDS =
 	'id, comment, author_id, parent_id, parent_type, comment_count, created_at, modified_at, like_count';
 
-// Request timeout for external fetches (ms)
-const EXTERNAL_FETCH_TIMEOUT = 5000;
-const MAX_CONTENT_LENGTH = 1024 * 1024; // 1MB
-const MAX_REDIRECTS = 3;
 const MAX_IMAGE_SIZE_BYTES = 10 * 1024 * 1024; // 10MB
 const TAGGABLE_LEAF_LEVEL = 3;
 const MAX_CATEGORIES_PER_QUESTION = 3;
@@ -123,13 +120,13 @@ export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
 	const cookie = event.cookies.get('9tfingerprint');
 
-	const question = await getQuestion(event.params.slug, isDemoTime);
+	const question = await getQuestion(event.params.slug, isDemoTime, event.locals.supabase);
 	if (!question) {
 		throw error(404, { message: 'No question found' });
 	}
 
 	const [viewerHasAnswered, questionTags] = await Promise.all([
-		checkUserAnswered(cookie, question.id, session?.user?.id),
+		checkUserAnswered(cookie, question.id, session?.user?.id, event.locals.supabase),
 		getQuestionTags(question.id)
 	]);
 	const replyNotificationReturn = consumeReplyNotificationReturn(event, question.id);
@@ -233,7 +230,7 @@ async function getReplyNotificationThread(
 	const { data, error: threadError } = await supabase
 		.from('comments')
 		.select(
-			`${PUBLIC_COMMENT_FIELDS}, removed, profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
+			`${PUBLIC_COMMENT_FIELDS}, removed, profiles:public_profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
 		)
 		.in('id', [context.commentId, context.replyCommentId]);
 
@@ -242,7 +239,7 @@ async function getReplyNotificationThread(
 		return null;
 	}
 
-	const rows = (data ?? []) as PublicComment[];
+	const rows = (data ?? []) as unknown as PublicComment[];
 	const parent =
 		rows.find(
 			(comment) =>
@@ -291,6 +288,12 @@ async function createQuestionComment(event: RequestEvent) {
 	await assertCommentAccess(commentInput, sessionUserId, demo_time);
 	const commentData = await createCommentData(commentInput, ip, sessionUserId);
 	const record = await handleCommentCreation(db, commentData, commentInput.parent_type, demo_time);
+	if (!demo_time && commentInput.parent_type === 'question') {
+		// Enrich only an accepted comment, using its validated parent question.
+		void parseUrls(commentInput.comment, commentInput.parent_id).catch(() => {
+			console.warn('Background URL parsing failed');
+		});
+	}
 
 	// Give-first contribution: log it (fingerprint-keyed) so it joins to the
 	// gate_shown event for the wall-hit -> contribution funnel.
@@ -406,7 +409,12 @@ export const actions: Actions = {
 		}
 
 		const cookie = cookies.get('9tfingerprint');
-		const userHasAnswered = await checkUserAnswered(cookie, questionId, locals.session?.user?.id);
+		const userHasAnswered = await checkUserAnswered(
+			cookie,
+			questionId,
+			locals.session?.user?.id,
+			locals.supabase
+		);
 		if (!userHasAnswered) {
 			throw error(403, { message: 'You must answer the question before sorting comments.' });
 		}
@@ -447,7 +455,7 @@ export const actions: Actions = {
 		}
 
 		const { comment_id, reason_id, description } = validationResult.data;
-		await flagComment(session.user.id, comment_id, reason_id, description || '');
+		await flagComment(locals.supabase, session.user.id, comment_id, reason_id, description || '');
 
 		return { success: true };
 	},
@@ -670,16 +678,15 @@ async function checkRateLimit(fingerprint: string | undefined, ip: string): Prom
 		});
 
 		if (rpcError) {
-			// Log error but allow the comment (fail open for availability)
+			// Keep the posting limit enforced when its backing store is unavailable.
 			console.error('Rate limit check failed:', rpcError);
-			return true;
+			return false;
 		}
 
 		return data === true;
 	} catch (err) {
-		// Fail open - if rate limiting is broken, still allow comments
 		console.error('Rate limit check error:', err);
-		return true;
+		return false;
 	}
 }
 
@@ -748,17 +755,11 @@ async function createCommentData(
 	ip: string,
 	sessionUserId: string | null
 ): Promise<CommentData> {
-	const question_id = input.question_id;
 	const comment = input.comment;
 	const parent_id = input.parent_id;
 	const parent_type = input.parent_type;
 	const fingerprint = input.fingerprint;
 	const author_id = resolveCommentAuthorId(input.author_id, sessionUserId);
-
-	// Parse URLs in background - don't block comment creation on external HTTP fetch
-	parseUrls(comment, question_id).catch((err) => {
-		console.error('Background URL parsing failed:', err);
-	});
 
 	return {
 		comment,
@@ -780,7 +781,9 @@ async function handleCommentCreation(
 	// For demo mode, use regular insert (demo tables don't have the atomic RPC)
 	if (demo_time) {
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const { data: record, error: addCommentError } = await (db.from('comments_demo') as any)
+		const { data: record, error: addCommentError } = await (
+			getSupabaseAdminClient().from('comments_demo') as any
+		)
 			.insert(commentData)
 			.select(PUBLIC_COMMENT_FIELDS)
 			.single();
@@ -795,14 +798,17 @@ async function handleCommentCreation(
 
 	// For production, use atomic RPC that handles insert + count increment in one transaction
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data: record, error: rpcError } = await (db.rpc as any)('create_comment_atomic', {
-		p_comment: commentData.comment,
-		p_parent_id: commentData.parent_id,
-		p_author_id: commentData.author_id || null,
-		p_parent_type: parent_type,
-		p_fingerprint: commentData.fingerprint || null,
-		p_ip: commentData.ip
-	});
+	const { data: record, error: rpcError } = await (getSupabaseAdminClient().rpc as any)(
+		'create_comment_atomic',
+		{
+			p_comment: commentData.comment,
+			p_parent_id: commentData.parent_id,
+			p_author_id: commentData.author_id || null,
+			p_parent_type: parent_type,
+			p_fingerprint: commentData.fingerprint || null,
+			p_ip: commentData.ip
+		}
+	);
 
 	if (rpcError) {
 		console.error('Atomic comment creation failed:', rpcError);
@@ -825,7 +831,7 @@ async function addLike(db: any, parent_id: string, user_id: string) {
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	await (db.rpc as any)('increment_like_count', { comment_id: parent_id });
+	// Like counts are maintained atomically by the database trigger.
 	return record;
 }
 
@@ -842,7 +848,7 @@ async function removeLike(db: any, parent_id: string, user_id: string, demo_time
 	}
 
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	await (db.rpc as any)('decrement_like_count', { comment_id: parent_id });
+	// Like counts are maintained atomically by the database trigger.
 	return null;
 }
 
@@ -891,13 +897,14 @@ async function incrementLinkClicks(linkId: string) {
 }
 
 async function flagComment(
+	db: any,
 	userId: string,
 	commentId: string,
 	reasonId: string,
 	description: string
 ) {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { error: flagCommentError } = await (supabase.from('flagged_comments') as any).insert({
+	const { error: flagCommentError } = await (db.from('flagged_comments') as any).insert({
 		flagged_by: userId,
 		comment_id: parseInt(commentId),
 		reason_id: parseInt(reasonId),
@@ -930,43 +937,8 @@ interface OGData {
 
 async function fetchOGData(url: string): Promise<OGData> {
 	try {
-		// Validate URL to prevent SSRF attacks
-		const parsedUrl = new URL(url);
-
-		// Block internal IPs and localhost
-		const blockedHosts = ['localhost', '127.0.0.1', '0.0.0.0', '::1', '169.254.169.254'];
-		const hostname = parsedUrl.hostname.toLowerCase();
-
-		if (blockedHosts.includes(hostname)) {
-			console.warn('Blocked request to internal host:', hostname);
-			return {};
-		}
-
-		// Block private IP ranges (basic check)
-		if (
-			hostname.startsWith('10.') ||
-			hostname.startsWith('192.168.') ||
-			hostname.startsWith('172.')
-		) {
-			console.warn('Blocked request to private IP range:', hostname);
-			return {};
-		}
-
-		// Only allow HTTP/HTTPS
-		if (!['http:', 'https:'].includes(parsedUrl.protocol)) {
-			console.warn('Blocked non-HTTP(S) protocol:', parsedUrl.protocol);
-			return {};
-		}
-
-		const response = await axios.get(url, {
-			timeout: EXTERNAL_FETCH_TIMEOUT,
-			maxContentLength: MAX_CONTENT_LENGTH,
-			maxRedirects: MAX_REDIRECTS,
-			headers: {
-				'User-Agent': '9takes-bot/1.0'
-			}
-		});
-		const $ = cheerioLoad(response.data);
+		const html = await fetchPublicHtml(url);
+		const $ = cheerioLoad(html);
 
 		const ogData: OGData = {};
 		$('meta[property^="og:"]').each((_, element) => {
@@ -1001,7 +973,7 @@ async function parseUrls(comment: string, questionId: string): Promise<void> {
 
 async function upsertDomain(domain: string): Promise<number> {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data, error: upsertError } = await (supabase.from('link_domains') as any)
+	const { data, error: upsertError } = await (getSupabaseAdminClient().from('link_domains') as any)
 		.upsert({ domain, updated_at: new Date().toISOString() })
 		.select('id')
 		.single();
@@ -1019,7 +991,7 @@ async function upsertLink(
 	ogData: OGData
 ): Promise<void> {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { error: upsertError } = await (supabase.from('links') as any).upsert({
+	const { error: upsertError } = await (getSupabaseAdminClient().from('links') as any).upsert({
 		url,
 		domain_id: domainId,
 		updated_at: new Date().toISOString(),
@@ -1032,11 +1004,11 @@ async function upsertLink(
 	if (upsertError) throw new Error(`Failed to upsert link: ${upsertError.message}`);
 }
 
-async function getQuestion(slug: string, demo_time: boolean) {
+async function getQuestion(slug: string, demo_time: boolean, db: any = supabase) {
 	const table = demo_time ? 'questions_demo' : 'questions';
 	const subscriptions = demo_time ? 'subscriptions_demo' : 'subscriptions';
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const query = (supabase.from(table) as any).select(
+	const query = (db.from(table) as any).select(
 		`id, question, question_formatted, url, context, data, author_id, created_at, updated_at, comment_count, es_id, img_url, ${subscriptions} (id, question_id, user_id)`
 	);
 
@@ -1053,10 +1025,11 @@ async function getQuestion(slug: string, demo_time: boolean) {
 async function checkUserAnswered(
 	cookie: string | undefined,
 	questionId: number,
-	userId: string | undefined
+	userId: string | undefined,
+	db: any = supabase
 ) {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
-	const { data } = await (supabase.rpc as any)('can_see_comments_3', {
+	const { data } = await (db.rpc as any)('can_see_comments_3', {
 		userfingerprint: cookie,
 		questionid: questionId,
 		userid: userId || null
@@ -1094,7 +1067,7 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 	const { data, count, error } = await supabase
 		.from(table)
 		.select(
-			`${PUBLIC_COMMENT_FIELDS}, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`,
+			`${PUBLIC_COMMENT_FIELDS}, ${profiles}:public_${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`,
 			{
 				count: 'exact'
 			}
@@ -1136,7 +1109,7 @@ async function getSortableComments(questionId: number, demo_time: boolean) {
 	const { data, error: commentsError } = await supabase
 		.from(table)
 		.select(
-			`${PUBLIC_COMMENT_FIELDS}, ${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`
+			`${PUBLIC_COMMENT_FIELDS}, ${profiles}:public_${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`
 		)
 		.eq('parent_id', questionId)
 		.eq('parent_type', 'question')

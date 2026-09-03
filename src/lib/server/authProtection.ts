@@ -164,8 +164,9 @@ export async function getAuthProtectionState({
 		});
 
 		return {
-			captchaRequired: !!rule.alwaysRequireCaptcha,
-			rateLimited: false
+			captchaRequired: true,
+			rateLimited: true,
+			retryAfterSeconds: 60
 		};
 	}
 }

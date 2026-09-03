@@ -12,16 +12,15 @@
 //      serverless instances a burst of traffic spreads over, and it survives
 //      cold starts.
 //
-// The in-memory tier is kept in front of the database as a cheap fast path and
-// as the fallback if the database is unreachable, so a blip degrades to
-// per-instance limiting rather than to no limiting at all.
+// The in-memory tier is a cheap rejection path. Shared-store outages fail
+// closed so a burst across serverless instances cannot bypass the budget.
 
 import { createHash } from 'node:crypto';
 
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { logger } from '$lib/utils/logger';
 
-export type RateLimitBucket = 'transcribe' | 'chorus_mirror';
+export type RateLimitBucket = 'transcribe' | 'chorus_mirror' | 'person_suggestion';
 
 export type RateLimitRule = {
 	limit: number;
@@ -30,13 +29,14 @@ export type RateLimitRule = {
 
 export const RATE_LIMIT_RULES: Record<RateLimitBucket, RateLimitRule> = {
 	transcribe: { limit: 8, windowMs: 5 * 60 * 1000 },
-	chorus_mirror: { limit: 20, windowMs: 10 * 60 * 1000 }
+	chorus_mirror: { limit: 20, windowMs: 10 * 60 * 1000 },
+	person_suggestion: { limit: 3, windowMs: 24 * 60 * 60 * 1000 }
 };
 
 export type RateLimitDecision = {
 	allowed: boolean;
 	retryAfterSeconds: number;
-	/** True when the database was unreachable and only the local tier ran. */
+	/** True when the shared counter was unavailable and the request was denied. */
 	degraded: boolean;
 };
 
@@ -92,6 +92,10 @@ function consumeLocal(key: string, windowMs: number): number {
 	const current = localCounters.get(key);
 
 	if (!current || now - current.windowStartedAt >= windowMs) {
+		if (!current && localCounters.size >= LOCAL_MAX_ENTRIES) {
+			const oldestKey = localCounters.keys().next().value;
+			if (oldestKey !== undefined) localCounters.delete(oldestKey);
+		}
 		localCounters.set(key, { count: 1, windowStartedAt: now });
 		return 1;
 	}
@@ -132,15 +136,15 @@ export async function consumeApiRateLimit({
 
 		if (error) throw error;
 
-		const used = Number(data ?? 0);
+		const used = Number(data);
+		if (!Number.isSafeInteger(used) || used < 1) throw new Error('Invalid rate limit counter');
 		return { allowed: used <= rule.limit, retryAfterSeconds, degraded: false };
 	} catch (error) {
-		// Degrade to the local tier rather than to unlimited spending.
-		logger.error('Durable rate limit unavailable, falling back to local tier', error as Error, {
+		logger.error('Durable rate limit unavailable, denying metered request', error as Error, {
 			bucket
 		});
 
-		return { allowed: localUsed <= rule.limit, retryAfterSeconds, degraded: true };
+		return { allowed: false, retryAfterSeconds, degraded: true };
 	}
 }
 

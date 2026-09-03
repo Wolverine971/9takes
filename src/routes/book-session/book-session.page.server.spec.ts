@@ -1,11 +1,16 @@
 // src/routes/book-session/book-session.page.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { verifyRecaptchaMock, isHoneypotTriggeredMock, sendEmailMock } = vi.hoisted(() => ({
-	verifyRecaptchaMock: vi.fn(),
-	isHoneypotTriggeredMock: vi.fn(),
-	sendEmailMock: vi.fn()
-}));
+const { verifyRecaptchaMock, isHoneypotTriggeredMock, sendEmailMock, getAdminMock } = vi.hoisted(
+	() => ({
+		verifyRecaptchaMock: vi.fn(),
+		getAdminMock: vi.fn(),
+		isHoneypotTriggeredMock: vi.fn(),
+		sendEmailMock: vi.fn()
+	})
+);
+
+vi.mock('$lib/server/supabaseAdmin', () => ({ getSupabaseAdminClient: getAdminMock }));
 
 vi.mock('$lib/utils/recaptcha', () => ({
 	verifyRecaptcha: verifyRecaptchaMock,
@@ -85,6 +90,7 @@ function buildSupabaseMocks(options?: {
 		throw new Error(`Unexpected table: ${table}`);
 	});
 
+	getAdminMock.mockReturnValue({ from });
 	return {
 		supabase: { from },
 		waitlistInsert,
