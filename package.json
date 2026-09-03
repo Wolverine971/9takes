@@ -137,7 +137,7 @@
 		"postcss-scss": "^4.0.9",
 		"posthog-js": "^1.425.1",
 		"qrcode": "^1.5.4",
-		"rehype-slug": "^5.1.0",
+		"rehype-slug": "^6.0.0",
 		"remark-abbr": "^1.4.2",
 		"remark-github": "^11.2.4",
 		"resend": "6.25.0",
