@@ -82,7 +82,7 @@
 		"eslint-config-prettier": "^10.1.8",
 		"eslint-plugin-svelte": "^3.23.0",
 		"fast-glob": "^3.3.3",
-		"flowbite": "^2.5.1",
+		"flowbite": "^4.0.2",
 		"jsdom": "^29.1.1",
 		"mdsvex": "^0.12.8",
 		"postcss": "^8.5.26",
