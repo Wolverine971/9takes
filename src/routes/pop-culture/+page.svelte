@@ -32,21 +32,20 @@
 	const MIN_VISIBLE_SUBCATEGORIES = 4;
 
 	const categoryLabels = $derived.by(() => {
-		const labels = new Map<string, string>();
-		for (const group of data.categoryGroups) {
-			labels.set(group.category.slug, group.category.title);
-		}
-		return labels;
+		return Object.fromEntries(
+			data.categoryGroups.map((group) => [group.category.slug, group.category.title])
+		);
 	});
 
 	const subcategoryLabels = $derived.by(() => {
-		const labels = new Map<string, string>();
-		for (const group of data.categoryGroups) {
-			for (const subcategoryGroup of group.subcategories) {
-				labels.set(subcategoryGroup.subcategory.slug, subcategoryGroup.subcategory.title);
-			}
-		}
-		return labels;
+		return Object.fromEntries(
+			data.categoryGroups.flatMap((group) =>
+				group.subcategories.map((subcategoryGroup) => [
+					subcategoryGroup.subcategory.slug,
+					subcategoryGroup.subcategory.title
+				])
+			)
+		);
 	});
 
 	// ------------------------------------------------------------------
@@ -75,9 +74,8 @@
 		const subcategory = post.popCulture?.subcategory;
 		const category = post.popCulture?.category;
 
-		if (subcategory && subcategoryLabels.has(subcategory))
-			return subcategoryLabels.get(subcategory)!;
-		if (category && categoryLabels.has(category)) return categoryLabels.get(category)!;
+		if (subcategory && subcategoryLabels[subcategory]) return subcategoryLabels[subcategory];
+		if (category && categoryLabels[category]) return categoryLabels[category];
 		return 'POP CULTURE';
 	}
 
@@ -133,7 +131,7 @@
 	description="Explore the psychology of pop culture through the Enneagram. From serial killers and the Dark Triad to celebrity breakdowns and fictional characters. Deep dives into famous scandals, criminal psychology, and cultural phenomena."
 	canonical="https://9takes.com/pop-culture"
 	twitterCardType="summary_large_image"
-	ogImage="https://9takes.com/pop-culture-card.webp"
+	ogImage="https://9takes.com/blogs/pop-queens-enneagram-analysis-composite.webp"
 	additionalMeta={[
 		{
 			name: 'keywords',

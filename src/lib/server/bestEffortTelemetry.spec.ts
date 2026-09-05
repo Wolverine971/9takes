@@ -1,5 +1,5 @@
 // src/lib/server/bestEffortTelemetry.spec.ts
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 
 const { loggerMocks } = vi.hoisted(() => ({
 	loggerMocks: {
@@ -17,9 +17,21 @@ import {
 	toLoggableError
 } from './bestEffortTelemetry';
 
+const requestContextSymbol = Symbol.for('@vercel/request-context');
+
+function setVercelRequestContext(waitUntil: (promise: Promise<unknown>) => void) {
+	(globalThis as Record<symbol, unknown>)[requestContextSymbol] = {
+		get: () => ({ waitUntil })
+	};
+}
+
 describe('bestEffortTelemetry', () => {
 	beforeEach(() => {
 		vi.clearAllMocks();
+	});
+
+	afterEach(() => {
+		delete (globalThis as Record<symbol, unknown>)[requestContextSymbol];
 	});
 
 	it('normalizes Error instances for logging', () => {
@@ -41,6 +53,19 @@ describe('bestEffortTelemetry', () => {
 			Promise.reject(failure),
 			onFailure
 		);
+
+		expect(waitUntil).toHaveBeenCalledTimes(1);
+		await waitUntil.mock.calls[0][0];
+		expect(onFailure).toHaveBeenCalledWith(failure);
+	});
+
+	it('uses the Vercel request context when the SvelteKit platform has no waitUntil', async () => {
+		const failure = new Error('network down');
+		const onFailure = vi.fn();
+		const waitUntil = vi.fn();
+		setVercelRequestContext(waitUntil);
+
+		runBestEffortTelemetry({}, Promise.reject(failure), onFailure);
 
 		expect(waitUntil).toHaveBeenCalledTimes(1);
 		await waitUntil.mock.calls[0][0];

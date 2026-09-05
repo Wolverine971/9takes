@@ -15,16 +15,19 @@ async function handleSequenceCron(request: Request) {
 	try {
 		const summary = await processPendingSequenceSends(10);
 		console.info('Processed email sequence cron run', summary);
-		return json({
-			message:
-				summary.claimed === 0
-					? 'No sequence emails to process'
-					: `Processed ${summary.claimed} sequence enrollment${summary.claimed === 1 ? '' : 's'}`,
-			processed: summary.claimed,
-			sent: summary.sent,
-			skipped: summary.skipped,
-			errors: summary.errors
-		});
+		return json(
+			{
+				message:
+					summary.claimed === 0
+						? 'No sequence emails to process'
+						: `Processed ${summary.claimed} sequence enrollment${summary.claimed === 1 ? '' : 's'}`,
+				processed: summary.claimed,
+				sent: summary.sent,
+				skipped: summary.skipped,
+				errors: summary.errors
+			},
+			{ status: summary.errors > 0 ? 500 : 200 }
+		);
 	} catch (processingError) {
 		console.error('Error processing email sequences:', processingError);
 		throw error(500, 'Failed to process email sequences');

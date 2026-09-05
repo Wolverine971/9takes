@@ -780,9 +780,9 @@
 
 	.hero-grid {
 		display: grid;
-		grid-template-columns: minmax(19rem, 0.78fr) minmax(34rem, 1.32fr);
+		grid-template-columns: minmax(19rem, 0.82fr) minmax(34rem, 1.28fr);
 		align-items: center;
-		gap: clamp(3rem, 6vw, 6.5rem);
+		gap: clamp(4rem, 8vw, 8rem);
 	}
 
 	.hero-copy {
@@ -1798,8 +1798,8 @@
 
 	@media (max-width: 72rem) {
 		.hero-grid {
-			grid-template-columns: minmax(17rem, 0.72fr) minmax(30rem, 1.28fr);
-			gap: 3rem;
+			grid-template-columns: minmax(17rem, 0.76fr) minmax(30rem, 1.24fr);
+			gap: 3.5rem;
 		}
 
 		.proof-layout {

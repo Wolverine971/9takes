@@ -52,6 +52,11 @@ const config = {
 	resolve: {
 		preserveSymlinks: false
 	},
+	ssr: {
+		// Vercel's runtime cannot require htmlparser2's ESM entry from sanitize-html.
+		// Bundle the CommonJS caller so Rollup converts that require to an ESM import.
+		noExternal: ['sanitize-html']
+	},
 
 	define: {
 		// Public variables (accessible in client-side code)

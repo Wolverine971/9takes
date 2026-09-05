@@ -189,6 +189,21 @@
 			"permanent": true
 		},
 		{
+			"source": "/types/3s/John-Coogan.webp",
+			"destination": "/types/7s/John-Coogan.webp",
+			"permanent": true
+		},
+		{
+			"source": "/types/3s/s-John-Coogan.webp",
+			"destination": "/types/7s/s-John-Coogan.webp",
+			"permanent": true
+		},
+		{
+			"source": "/types/8s/s-rupert-murdoch.webp",
+			"destination": "/types/8s/s-Rupert-Murdoch.webp",
+			"permanent": true
+		},
+		{
 			"source": "/sitemap_index.xml",
 			"destination": "/sitemap.xml",
 			"permanent": true

@@ -1,4 +1,5 @@
 // src/lib/server/bestEffortTelemetry.ts
+import { waitUntil as vercelWaitUntil } from '@vercel/functions';
 import { logger } from '$lib/utils/logger';
 
 type WaitUntilPlatform = {
@@ -65,5 +66,5 @@ export function runBestEffortTelemetry(
 		return;
 	}
 
-	void handledPromise;
+	vercelWaitUntil(handledPromise);
 }

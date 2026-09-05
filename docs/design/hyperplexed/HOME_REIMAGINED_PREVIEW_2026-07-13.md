@@ -283,6 +283,18 @@ ready.` The final `What do you see that everyone else misses?` invitation is unc
   motion. The 2026-07-22 captures are `/private/tmp/9takes-doublecheck-home-dark-desktop.png` and
   `/private/tmp/9takes-doublecheck-home-light-mobile.png`.
 
+## Desktop hero breathing-room refinement - 2026-09-04
+
+- A wide light-mode screenshot showed the unbroken `Nine perspectives.` line visually consuming the
+  nominal grid gutter and nearly touching the time-mirror image. Rebalanced the desktop columns and
+  increased the responsive gutter while preserving the headline size, copy, shared `86rem` shell,
+  and image treatment. The intermediate two-column breakpoint received the same proportional
+  adjustment; the mobile one-column composition is unchanged. -> P3
+- Fresh live checks passed at 1920x1000, 1367x711, 1152x800, 977x900, 976x900, and 390x844. The
+  measured headline-to-image gap is 38px at 1920, 46px at 1152, and 41px immediately before the
+  stack breakpoint. Light and dark desktop captures remain balanced, every checked width has zero
+  horizontal overflow, and the mobile content order is unchanged.
+
 ## Screenshots
 
 - `docs/design/screenshots/home-reimagined-desktop-dark-2026-07-13.png`
