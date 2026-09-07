@@ -19,28 +19,20 @@
 		Comment as CommentType,
 		QuestionPageData
 	} from '$lib/types/questions';
-	import { excludePinnedComments, type NextStarterLink } from './curatedReveal';
+	import type { NextStarterLink } from './curatedReveal';
 
 	interface Props {
 		data: QuestionPageData;
 		user: User | null;
 		oncommentAdded?: () => void;
 		/** Curated reveal trio (array order), rendered before the community list. */
-		pinnedComments?: CommentType[];
 		/** Next "Start here" question by rank; null when this is the last one or not a starter. */
 		nextStarter?: NextStarterLink | null;
 		/** Server-resolved ?reply=<id> target (signed-in reply email landing). */
 		replyFocus?: ReplyFocusThreadData | null;
 	}
 
-	let {
-		data,
-		user,
-		oncommentAdded,
-		pinnedComments = [],
-		nextStarter = null,
-		replyFocus = null
-	}: Props = $props();
+	let { data, user, oncommentAdded, nextStarter = null, replyFocus = null }: Props = $props();
 
 	// Local state
 	let selectedTab = $state('Comments');
@@ -71,43 +63,10 @@
 	let displayComments = $derived(sortedComments || _data.comments);
 	let displayCommentCount = $derived(sortedComments?.length ?? _data.comment_count);
 
-	// Curated reveal: pinned takes render first and are hidden from the
-	// community list (Comments keeps them in its paging math, only hides them).
-	// Like/edit updates on a pinned card are kept in an id-keyed override map so
-	// a server refresh never resurrects stale state.
-	let pinnedOverrides = $state<Record<number, CommentType>>({});
+	// A reply-focus thread renders its parent take at the top, so the community
+	// list hides that one row (Comments keeps it in its paging math).
 	let replyFocusParentId = $derived(replyFocus?.parent?.id ?? null);
-	let pinnedDisplay = $derived(
-		(pinnedComments ?? [])
-			// A reply-focus thread already shows this take at the top.
-			.filter((comment) => comment.id !== replyFocusParentId)
-			.map(
-				(comment) =>
-					JSON.parse(JSON.stringify(pinnedOverrides[comment.id] ?? comment)) as CommentType
-			)
-	);
-	let pinnedIds = $derived(pinnedDisplay.map((comment) => comment.id));
-	let hasPinned = $derived(pinnedDisplay.length > 0);
-	// Everything rendered above the community list is hidden from it (Comments
-	// keeps these rows in its paging math, only hides them).
-	let hiddenFromCommunity = $derived(
-		replyFocusParentId === null ? pinnedIds : [...pinnedIds, replyFocusParentId]
-	);
-	let visibleCommunityCount = $derived(
-		excludePinnedComments(displayComments ?? [], hiddenFromCommunity).length
-	);
-	let pinnedLabel = $derived(
-		pinnedDisplay.length >= 3
-			? "Three takes that don't agree"
-			: pinnedDisplay.length === 2
-				? "Two takes that don't agree"
-				: 'One take worth reading first'
-	);
-
-	function updatePinnedComment(comment: CommentType) {
-		if (!comment?.id) return;
-		pinnedOverrides = { ...pinnedOverrides, [comment.id]: comment };
-	}
+	let hiddenFromCommunity = $derived(replyFocusParentId === null ? [] : [replyFocusParentId]);
 	let validAiComments = $derived((_data.aiComments ?? []).filter(hasValidAiType));
 	let publicAiPreviewComments = $derived(validAiComments.slice(0, 3));
 
@@ -328,37 +287,10 @@
 									/>
 								{/if}
 
-								{#if hasPinned && browser}
-									<section class="pinned-takes" aria-labelledby="pinned-takes-title">
-										<header class="pinned-takes__head">
-											<span class="pinned-takes__kicker">Read these first</span>
-											<h3 id="pinned-takes-title" class="pinned-takes__title">{pinnedLabel}</h3>
-											<p class="pinned-takes__copy">
-												Picked because they see it differently, not because they're the best.
-											</p>
-										</header>
-										<div class="pinned-takes__list">
-											{#each pinnedDisplay as comment (comment.id)}
-												<div class="pinned-takes__item">
-													<Comment
-														questionId={_data.question.id}
-														{comment}
-														{user}
-														parentData={_data}
-														on:commentUpdated={(e) => updatePinnedComment(e.detail)}
-													/>
-												</div>
-											{/each}
-										</div>
-									</section>
-
-									{@render nextQuestionNudge()}
-								{/if}
-
 								<header class="community-discussion-head">
 									<div>
 										<span>Community discussion</span>
-										<h3>{hasPinned ? 'Everyone else' : 'What people actually said'}</h3>
+										<h3>What people actually said</h3>
 									</div>
 									<p>Real answers from people who responded before reading the room.</p>
 								</header>
@@ -378,15 +310,7 @@
 									on:commentAdded={handleCommentAdded}
 								/>
 
-								{#if hasPinned && visibleCommunityCount === 0}
-									<p class="community-discussion-empty">
-										Nothing else yet. The takes above are the whole room so far.
-									</p>
-								{/if}
-
-								{#if !hasPinned}
-									{@render nextQuestionNudge()}
-								{/if}
+								{@render nextQuestionNudge()}
 
 								{#if validAiComments.length}
 									<details class="ai-perspectives-disclosure">
@@ -575,61 +499,6 @@
 		color: var(--ink-mid);
 		font-size: 0.8rem;
 		line-height: 1.5;
-	}
-
-	.community-discussion-empty {
-		margin: 0.75rem 1rem 0;
-		color: var(--ink-dim);
-		font-size: 0.85rem;
-		line-height: 1.5;
-	}
-
-	/* Curated reveal: the pinned trio sits above the community thread with
-	   the same card grammar, framed by one amber hairline so it reads as the
-	   host's pick without becoming a second product. */
-	.pinned-takes {
-		margin: 0 1rem 1.5rem;
-		padding: 1rem 0 0;
-		border-top: 2px solid var(--lamp-glow);
-	}
-
-	.pinned-takes__head {
-		margin-bottom: 0.85rem;
-	}
-
-	.pinned-takes__kicker {
-		display: block;
-		color: var(--lamp-glow);
-		font-family: 'JetBrains Mono', ui-monospace, monospace;
-		font-size: 0.64rem;
-		letter-spacing: 0.07em;
-		text-transform: uppercase;
-	}
-
-	.pinned-takes__title {
-		margin: 0.3rem 0 0;
-		color: var(--ink-bright);
-		font-size: 1.15rem;
-		font-weight: 700;
-		letter-spacing: -0.015em;
-	}
-
-	.pinned-takes__copy {
-		margin: 0.3rem 0 0;
-		color: var(--ink-mid);
-		font-size: 0.8rem;
-		line-height: 1.5;
-	}
-
-	.pinned-takes__list {
-		display: flex;
-		flex-direction: column;
-		gap: 0.75rem;
-		min-width: 0;
-	}
-
-	.pinned-takes__item {
-		min-width: 0;
 	}
 
 	.next-question {
@@ -982,9 +851,7 @@
 			margin-inline: 0.8rem;
 		}
 
-		.pinned-takes,
-		.next-question,
-		.community-discussion-empty {
+		.next-question {
 			margin-inline: 0.8rem;
 		}
 

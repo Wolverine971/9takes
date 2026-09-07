@@ -1,8 +1,9 @@
 // src/routes/questions/curatedReveal.page.server.spec.ts
 //
-// /questions/[slug] load: the curated reveal (pinned trio first, in
-// pinned_comment_ids order) and the next-starter nudge, plus the give-first
-// rule that pinned human takes never travel before the visitor answers.
+// /questions/[slug] load: boosted takes lead the ONE community list (in
+// pinned_comment_ids order, de-duplicated against the newest page), the
+// next-starter nudge, and the give-first rule that boosted human takes never
+// travel before the visitor answers.
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 type Call = { method: string; args: unknown[] };
@@ -159,7 +160,7 @@ describe('/questions/[slug] load: curated reveal', () => {
 		state.checkDemoTimeMock.mockResolvedValue(false);
 	});
 
-	it('returns pinned takes first in pinned_comment_ids order and the next starter by rank', async () => {
+	it('leads the single list with boosted takes in pinned_comment_ids order, then the rest, and returns the next starter', async () => {
 		const newest = [comment(1000), comment(661), comment(999), comment(375)];
 		state.resolver = buildResolver({
 			curation: { starter_rank: 1, pinned_comment_ids: [375, 372, 661] },
@@ -178,7 +179,6 @@ describe('/questions/[slug] load: curated reveal', () => {
 		const result = (await load(buildEvent(true) as any)) as any;
 
 		expect(result.flags.userHasAnswered).toBe(true);
-		expect(result.pinnedComments.map((row: { id: number }) => row.id)).toEqual([375, 372, 661]);
 		expect(result.starterRank).toBe(1);
 		expect(result.nextStarter).toEqual({
 			id: 119,
@@ -186,13 +186,16 @@ describe('/questions/[slug] load: curated reveal', () => {
 			question: 'If you had to be trapped somewhere, where?',
 			starter_rank: 2
 		});
-		// The newest-first page is untouched; de-dup happens at render time so
-		// Comments' infinite-scroll offsets stay correct.
-		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([1000, 661, 999, 375]);
+		// One list: boosted first in curated order, then the newest page with
+		// the boosted ids removed so nothing renders twice. No separate payload.
+		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([
+			375, 372, 661, 1000, 999
+		]);
+		expect(result.pinnedComments).toBeUndefined();
 		expect(result.comment_count).toBe(4);
 	});
 
-	it('drops pinned ids the database no longer returns (removed or moved)', async () => {
+	it('drops boosted ids the database no longer returns (removed or moved)', async () => {
 		state.resolver = buildResolver({
 			curation: { starter_rank: 5, pinned_comment_ids: [702, 703, 719] },
 			pinnedRows: [comment(719), comment(702)],
@@ -202,12 +205,12 @@ describe('/questions/[slug] load: curated reveal', () => {
 
 		const result = (await load(buildEvent(true) as any)) as any;
 
-		expect(result.pinnedComments.map((row: { id: number }) => row.id)).toEqual([702, 719]);
+		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([702, 719]);
 		expect(result.nextStarter).toBeNull();
 		expect(result.starterRank).toBe(5);
 	});
 
-	it('never sends pinned human takes before the visitor answers (give-first)', async () => {
+	it('never sends boosted human takes before the visitor answers (give-first)', async () => {
 		const fetchedTables: string[] = [];
 		const base = buildResolver({
 			curation: { starter_rank: 1, pinned_comment_ids: [375, 372, 661] },
@@ -223,7 +226,6 @@ describe('/questions/[slug] load: curated reveal', () => {
 
 		expect(result.flags.userHasAnswered).toBe(false);
 		expect(result.comments).toEqual([]);
-		expect(result.pinnedComments).toEqual([]);
 		expect(fetchedTables).toEqual([]);
 		// The nudge target is safe to preload: it is a question, not an answer.
 		expect(result.nextStarter?.url).toBe('next');
@@ -238,7 +240,6 @@ describe('/questions/[slug] load: curated reveal', () => {
 
 		const result = (await load(buildEvent(true) as any)) as any;
 
-		expect(result.pinnedComments).toEqual([]);
 		expect(result.starterRank).toBeNull();
 		expect(result.nextStarter).toBeNull();
 		expect(result.comments).toHaveLength(2);

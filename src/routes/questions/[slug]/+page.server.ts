@@ -185,7 +185,6 @@ export const load: PageServerLoad = async (event) => {
 			),
 			replyNotificationReturn,
 			replyNotificationThread,
-			pinnedComments: [] as PublicComment[],
 			starterRank: curation.starterRank,
 			nextStarter,
 			replyFocus: null as ReplyFocusThread | null
@@ -200,8 +199,8 @@ export const load: PageServerLoad = async (event) => {
 		getFlagReasons(),
 		getQuestionCuration(question.id, isDemoTime)
 	]);
-	const [pinnedComments, nextStarter, replyFocus] = await Promise.all([
-		getPinnedComments(question.id, curation.pinnedCommentIds),
+	const [boostedComments, nextStarter, replyFocus] = await Promise.all([
+		getBoostedComments(question.id, curation.pinnedCommentIds),
 		getNextStarter(curation.starterRank),
 		getReplyFocusThread(
 			question.id,
@@ -210,10 +209,20 @@ export const load: PageServerLoad = async (event) => {
 		)
 	]);
 
+	// Editorial boost: curated takes lead the default order, inside the one
+	// community list (no separate section). A boosted take that also sits in
+	// the newest page is de-duplicated so it appears once. Until the ranked
+	// default order ships (docs/product/comment-ranking-spec.md) this is the
+	// whole boost mechanism.
+	const orderedComments = mergeBoostedComments(
+		boostedComments,
+		(comments.data ?? []) as unknown as PublicComment[]
+	);
+
 	return {
 		...createFullResponse(
 			question,
-			comments.data ?? [],
+			orderedComments as any,
 			comments.count ?? 0,
 			removedComments.data ?? [],
 			removedComments.count ?? 0,
@@ -231,7 +240,6 @@ export const load: PageServerLoad = async (event) => {
 		),
 		replyNotificationReturn,
 		replyNotificationThread,
-		pinnedComments,
 		starterRank: curation.starterRank,
 		nextStarter,
 		replyFocus
@@ -1118,7 +1126,7 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 }
 
 // =============================================================================
-// Curation: "Start here" starters + pinned reveal trio
+// Curation: "Start here" starters + boosted takes (default-order head)
 // (columns added in supabase/migrations/20260906120100_question_starters_and_pins.sql)
 // =============================================================================
 type QuestionCuration = {
@@ -1158,8 +1166,8 @@ async function getQuestionCuration(
 	};
 }
 
-/** Pinned comments in `pinned_comment_ids` order; removed or foreign ids are dropped. */
-async function getPinnedComments(questionId: number, pinnedIds: number[]) {
+/** Boosted comments in `pinned_comment_ids` order; removed or foreign ids are dropped. */
+async function getBoostedComments(questionId: number, pinnedIds: number[]) {
 	if (!pinnedIds.length) return [] as PublicComment[];
 
 	const { data, error: pinnedError } = await supabase
@@ -1173,11 +1181,18 @@ async function getPinnedComments(questionId: number, pinnedIds: number[]) {
 		.eq('removed', false);
 
 	if (pinnedError) {
-		console.warn('Could not load pinned comments', pinnedError.message ?? pinnedError);
+		console.warn('Could not load boosted comments', pinnedError.message ?? pinnedError);
 		return [] as PublicComment[];
 	}
 
 	return orderPinnedComments(pinnedIds, (data ?? []) as unknown as PublicComment[]);
+}
+
+/** Boosted takes first (in curated order), then the rest of the page with those ids removed. */
+function mergeBoostedComments(boosted: PublicComment[], page: PublicComment[]): PublicComment[] {
+	if (!boosted.length) return page;
+	const boostedIds = new Set(boosted.map((comment) => comment.id));
+	return [...boosted, ...page.filter((comment) => !boostedIds.has(comment.id))];
 }
 
 /** The next starter by rank, for the "Try another" nudge after the reveal. */

@@ -58,7 +58,11 @@
 			const newComments = await response.json();
 
 			if (Array.isArray(newComments) && newComments.length) {
-				_comments = [..._comments, ...newComments];
+				// Boosted takes are already at the head of the list; skip them when
+				// the date-keyed page reaches them so nothing renders twice.
+				const seen = new Set(_comments.map((c) => c.id));
+				const fresh = newComments.filter((c: CommentType) => !seen.has(c.id));
+				_comments = [..._comments, ...fresh];
 				comments = _comments; // Update parent array reference
 				onCommentsUpdate?.(_comments);
 			}

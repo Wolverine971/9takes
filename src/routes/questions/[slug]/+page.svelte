@@ -874,7 +874,6 @@
 					<QuestionContent
 						data={dataForChild}
 						user={data?.user}
-						pinnedComments={(data.pinnedComments ?? []) as Comment[]}
 						nextStarter={data.nextStarter ?? null}
 						replyFocus={data.replyFocus ?? null}
 						oncommentAdded={() => addComment()}

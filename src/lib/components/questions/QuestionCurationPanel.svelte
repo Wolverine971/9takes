@@ -2,7 +2,7 @@
 <!--
   Admin-only curation for one question:
     * starter_rank        position in the /questions "Start here" block (blank = not a starter)
-    * pinned_comment_ids  up to three top-level answers shown first after the reveal, in order
+    * pinned_comment_ids  up to three top-level answers boosted to the head of the default order
   Saves through /admin/questions?/curate (service-role RPC set_question_curation,
   guarded by requireAdmin). Mounted inside AdminQuestionItem's details view.
 -->
@@ -145,8 +145,9 @@
 	<div class="curation__head">
 		<h3 id="curation-title-{questionId}" class="curation__title">Curation</h3>
 		<p class="curation__copy">
-			Starter rank puts this question in the "Start here" block on /questions. Pinned answers show
-			first after the reveal, in the order listed. Pick three that see it differently.
+			Starter rank puts this question in the "Start here" block on /questions. Boosted answers lead
+			the default order after the reveal, inside the one list, in the order given. No separate
+			section. Once the ranked order ships they become the early boost.
 		</p>
 	</div>
 
@@ -171,7 +172,7 @@
 
 		<Field
 			for="curation-pins-{questionId}"
-			label="Pinned answer ids"
+			label="Boosted answer ids"
 			help={`Comma-separated comment ids, max ${MAX_PINNED_COMMENTS}. Order = display order.`}
 		>
 			<Input
@@ -240,7 +241,7 @@
 
 	<div class="curation__actions">
 		<span class="curation__status">
-			{selectedPinnedIds.length}/{MAX_PINNED_COMMENTS} pinned
+			{selectedPinnedIds.length}/{MAX_PINNED_COMMENTS} boosted
 			{#if rankInput.trim()}
 				· starter #{rankInput.trim()}
 			{:else}
