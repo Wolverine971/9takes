@@ -258,6 +258,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'andrew-ross-sorkin', link: true, hasImage: true, lastmod: '2026-07-03', personaTitle: 'Wall Street\'s Loyal Skeptic', contentGrade: 8.5, types: ['author', 'creator', 'news-commentator'] },
 		{ name: 'aubrey-plaza', link: true, hasImage: true, lastmod: '2026-02-17', personaTitle: 'Comedy\'s Deadpan Skeptic', contentGrade: 9, types: ['comedian', 'movieStar', 'tv-comedy-crossover', 'sketch-comic'] },
 		{ name: 'ben-horowitz', link: true, hasImage: true, lastmod: '2026-04-25', personaTitle: 'Silicon Valley\'s Wartime Watchman', contentGrade: 9.1, types: ['techie', 'entrepreneur', 'author', 'business-operator'] },
+		{ name: 'bill-burr', link: true, hasImage: true, lastmod: '2026-09-07', personaTitle: 'Comedy\'s Loudest Sentry', contentGrade: 8.9, types: ['comedian', 'celebrity', 'creator'] },
 		{ name: 'dalton-caldwell', link: true, hasImage: true, lastmod: '2026-04-20', personaTitle: 'Silicon Valley\'s Devoted Skeptic', contentGrade: 8.8, types: ['techie'] },
 		{ name: 'david-sacks', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Silicon Valley\'s Vigilant Architect', contentGrade: 8.9, types: ['techie', 'investor'] },
 		{ name: 'ellen-degeneres', link: true, hasImage: true, lastmod: '2025-03-24', personaTitle: 'Daytime\'s Anxious Sovereign', contentGrade: 8.9, types: ['celebrity'] },

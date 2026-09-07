@@ -3,28 +3,28 @@
 	import { onMount } from 'svelte';
 	import { fly, scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
-	import { deserialize } from '$app/forms';
 	import SlidersIcon from '$lib/components/icons/slidersIcon.svelte';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import { Button } from '$lib/components/atoms';
 	import Modal, { getModal } from '$lib/components/atoms/Modal.svelte';
-	import type { Comment as CommentType, QuestionPageData } from '$lib/types/questions';
+	import type { QuestionPageData } from '$lib/types/questions';
 
 	interface Props {
 		data: QuestionPageData;
 		size?: 'large' | 'medium' | 'small';
-		oncommentsSorted?: (comments: CommentType[]) => void;
+		value?: SortOrder;
+		types?: string[];
+		onfilterChange?: (filters: { sort: SortOrder; types: string[] }) => void;
 	}
 
-	let { data, size = 'large', oncommentsSorted }: Props = $props();
+	let { data, size = 'large', value = 'ranked', types, onfilterChange }: Props = $props();
 
 	// State variables
-	let sortLoading = $state(false);
 	let reduceMotion = $state(false);
 
 	type EnneagramTypeOption =
 		'1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 'unknown' | 'rando';
-	type SortOrder = 'newest' | 'oldest' | 'likes';
+	type SortOrder = 'ranked' | 'newest' | 'oldest' | 'likes';
 
 	import { TYPE_COLOR_MAP } from '$lib/constants/enneagramColors';
 
@@ -76,49 +76,42 @@
 		'rando'
 	];
 	let selected = $state<EnneagramTypeOption[]>([...typeOptions]);
-	let sortBy = $state<SortOrder>('newest');
+	let sortBy = $state<SortOrder>('ranked');
 
 	// Derived state for filter status
-	let hasActiveFilters = $derived(selected.length !== typeOptions.length || sortBy !== 'newest');
+	let hasActiveFilters = $derived(
+		(types?.length ?? typeOptions.length) !== typeOptions.length || value !== 'ranked'
+	);
+	let currentSortLabel = $derived(
+		value === 'ranked'
+			? data.commentRankingEnabled
+				? 'Ranked'
+				: 'Default'
+			: value === 'likes'
+				? 'Likes'
+				: value === 'newest'
+					? 'Newest'
+					: 'Oldest'
+	);
 
 	onMount(() => {
 		reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 	});
 
-	// Apply sorting and filtering
-	const applyFilters = async () => {
+	// Draft controls only commit when Apply is pressed. All work stays in memory.
+	function openFilters() {
+		selected = (types ?? typeOptions).filter((type): type is EnneagramTypeOption =>
+			typeOptions.includes(type as EnneagramTypeOption)
+		);
+		sortBy = value;
+		getModal('sorter').open();
+	}
+
+	function applyFilters() {
 		if (!canSort()) return;
-
-		sortLoading = true;
-
-		try {
-			const body = new FormData();
-			body.append('enneagramTypes', selected.join(','));
-			body.append('questionId', data.question.id.toString());
-			body.append('sortBy', sortBy);
-
-			const resp = await fetch('?/sortComments', {
-				method: 'POST',
-				body
-			});
-
-			const result: any = deserialize(await resp.text());
-
-			if (result.error) {
-				console.error('Error applying filters:', result.error);
-				notifications.danger('Error applying filters', 3000);
-			} else if (result.data) {
-				oncommentsSorted?.(result?.data);
-				getModal('sorter').close();
-				notifications.info('Comments filtered and sorted', 2000);
-			}
-		} catch (error) {
-			console.error('Error sorting comments:', error);
-			notifications.danger('Failed to sort comments', 3000);
-		} finally {
-			sortLoading = false;
-		}
-	};
+		onfilterChange?.({ sort: sortBy, types: [...selected] });
+		getModal('sorter').close();
+	}
 
 	// Check if user can sort (must have answered the question)
 	function canSort() {
@@ -164,12 +157,12 @@
 	variant="ghost"
 	size={size === 'large' ? 'md' : 'sm'}
 	class={`filter-btn-atom ${size === 'large' ? 'filter-btn-atom--large' : 'filter-btn-atom--compact'}`}
-	onclick={() => getModal('sorter').open()}
+	onclick={openFilters}
 	aria-label="Filter and sort comments"
 	title="Filter and sort comments"
 	icon={filterIcon}
 >
-	Filter
+	{currentSortLabel} · Filter
 	{#if hasActiveFilters}
 		{#if size === 'large'}
 			<span
@@ -250,6 +243,7 @@
 						style="--type-color: {typeColors[type]}"
 						onclick={() => toggleType(type)}
 						title={typeNames[type]}
+						aria-pressed={isSelected}
 					>
 						<span class="type-chip__number">{typeLabels[type]}</span>
 						{#if isSelected}
@@ -282,7 +276,19 @@
 				<button
 					type="button"
 					class="sort-option"
+					class:sort-option--selected={sortBy === 'ranked'}
+					aria-pressed={sortBy === 'ranked'}
+					onclick={() => (sortBy = 'ranked')}
+				>
+					<span class="sort-option__icon" aria-hidden="true">↕</span>
+					<span class="sort-option__label">{data.commentRankingEnabled ? 'Ranked' : 'Default'}</span
+					>
+				</button>
+				<button
+					type="button"
+					class="sort-option"
 					class:sort-option--selected={sortBy === 'newest'}
+					aria-pressed={sortBy === 'newest'}
 					onclick={() => (sortBy = 'newest')}
 				>
 					<span class="sort-option__icon">
@@ -301,6 +307,7 @@
 					type="button"
 					class="sort-option"
 					class:sort-option--selected={sortBy === 'oldest'}
+					aria-pressed={sortBy === 'oldest'}
 					onclick={() => (sortBy = 'oldest')}
 				>
 					<span class="sort-option__icon">
@@ -319,6 +326,7 @@
 					type="button"
 					class="sort-option"
 					class:sort-option--selected={sortBy === 'likes'}
+					aria-pressed={sortBy === 'likes'}
 					onclick={() => (sortBy = 'likes')}
 				>
 					<span class="sort-option__icon">
@@ -331,7 +339,7 @@
 							/>
 						</svg>
 					</span>
-					<span class="sort-option__label">Most Liked</span>
+					<span class="sort-option__label">Likes</span>
 				</button>
 			</div>
 		</div>
@@ -353,8 +361,7 @@
 				size="md"
 				fullWidth
 				onclick={applyFilters}
-				disabled={sortLoading || !data?.flags?.userHasAnswered}
-				loading={sortLoading}
+				disabled={!data?.flags?.userHasAnswered}
 				icon={applyIcon}
 			>
 				Apply

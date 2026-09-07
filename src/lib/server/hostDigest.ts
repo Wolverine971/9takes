@@ -7,16 +7,14 @@
 
 import { createHmac, timingSafeEqual } from 'node:crypto';
 import { PRIVATE_ADMIN_EMAIL, SUPABASE_SERVICE_KEY } from '$env/static/private';
-import { env } from '$env/dynamic/private';
+import { resolveHostUserId } from './hostIdentity';
+export { DEFAULT_HOST_USER_ID, resolveHostUserId } from './hostIdentity';
 import { sendEmail, type SendEmailResult } from '$lib/email/sender';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { HOST_VOICE_GUIDE, renderHostVoiceSamples } from '$lib/server/hostVoice';
 import { SmartLLMService, type JSONRequestOptions } from '../../utils/server/smart-llm-service';
 
 const BASE_URL = 'https://9takes.com';
-
-// DJ's profiles.id. Override with PRIVATE_HOST_USER_ID when the host changes.
-export const DEFAULT_HOST_USER_ID = '9ce7ff91-d7f8-4397-b00d-8716e335aaee';
 
 export const HOST_DESK_TOKEN_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 export const HOST_REPLY_MAX_CHARS = 5000; // same ceiling as createCommentSchema
@@ -30,11 +28,6 @@ const FALLBACK_DRAFT_A = 'what made you go with that one?';
 const FALLBACK_DRAFT_B = 'dang. what is the story behind that?';
 const FALLBACK_LOW_EFFORT_A = "lol what's the real one?";
 const FALLBACK_LOW_EFFORT_B = 'nice';
-
-export function resolveHostUserId(): string {
-	const configured = env.PRIVATE_HOST_USER_ID?.trim();
-	return configured || DEFAULT_HOST_USER_ID;
-}
 
 // ---------------------------------------------------------------------------
 // Types
@@ -496,6 +489,8 @@ ${olderNote}<p style="font-size:13px;color:#69707a;">Full desk: <a href="${baseU
 // ---------------------------------------------------------------------------
 
 export type HostReplyDraftRow = {
+	low_effort?: boolean;
+	take_rank_at_post?: number | null;
 	id: number;
 	comment_id: number;
 	question_id: number | null;
@@ -717,6 +712,7 @@ export async function runHostDigest(deps: HostDigestDependencies = {}): Promise<
 				draft_a: drafts.draftA,
 				draft_b: drafts.draftB,
 				model: drafts.model,
+				low_effort: candidate.low_effort,
 				status: 'pending'
 			})
 			.select('id')

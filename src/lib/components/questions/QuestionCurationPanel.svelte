@@ -20,6 +20,11 @@
 		created_at: string | null;
 		like_count: number;
 		reply_count: number;
+		view_count: number;
+		round: number;
+		quality: number;
+		belowFloor: boolean;
+		rank: number;
 	};
 
 	interface Props {
@@ -34,6 +39,9 @@
 	let rankInput = $state('');
 	let pinnedInput = $state('');
 	let saving = $state(false);
+	let resetting = $state(false);
+	let confirmReset = $state(false);
+	let rankingEnabled = $state(false);
 	let loadingAnswers = $state(false);
 	let answers = $state<AnswerOption[] | null>(null);
 	let answersError = $state('');
@@ -47,6 +55,7 @@
 		pinnedInput = (pinnedCommentIds ?? []).join(', ');
 		answers = null;
 		answersError = '';
+		confirmReset = false;
 	});
 
 	let selectedPinnedIds = $derived(
@@ -65,7 +74,7 @@
 			return;
 		}
 		if (atPinLimit) {
-			notifications.warning(`Only ${MAX_PINNED_COMMENTS} answers can be pinned.`, 3000);
+			notifications.warning(`Only ${MAX_PINNED_COMMENTS} answers can be boosted.`, 3000);
 			return;
 		}
 		pinnedInput = [...selectedPinnedIds, id].join(', ');
@@ -84,6 +93,7 @@
 				answersError = payload?.error ?? 'Could not load answers.';
 				return;
 			}
+			rankingEnabled = payload.rankingEnabled === true;
 			answers = (payload.items ?? []) as AnswerOption[];
 		} catch {
 			answersError = 'Could not load answers.';
@@ -127,10 +137,30 @@
 				notifications.success('Curation saved', 3000);
 			}
 			oncurationSaved?.(saved);
+			if (answers) await loadAnswers();
 		} catch {
 			notifications.danger('Could not save curation.', 5000);
 		} finally {
 			saving = false;
+		}
+	}
+
+	async function resetViews() {
+		resetting = true;
+		try {
+			const body = new FormData();
+			body.append('questionId', String(questionId));
+			const response = await fetch('/admin/questions?/resetViews', { method: 'POST', body });
+			const result: any = deserialize(await response.text());
+			if (result.type !== 'success' || result.data?.resetViews?.error)
+				throw new Error('Reset failed');
+			confirmReset = false;
+			notifications.success('Views reset and recorded in the audit log.', 3000);
+			await loadAnswers();
+		} catch {
+			notifications.danger('Could not reset views.', 4000);
+		} finally {
+			resetting = false;
 		}
 	}
 
@@ -143,11 +173,11 @@
 
 <section class="curation" aria-labelledby="curation-title-{questionId}">
 	<div class="curation__head">
-		<h3 id="curation-title-{questionId}" class="curation__title">Curation</h3>
+		<h3 id="curation-title-{questionId}" class="curation__title">Boosts and exposure</h3>
 		<p class="curation__copy">
-			Starter rank puts this question in the "Start here" block on /questions. Boosted answers lead
-			the default order after the reveal, inside the one list, in the order given. No separate
-			section. Once the ranked order ships they become the early boost.
+			Starter rank places this question in "Start here". Boosts give an answer a head start within
+			its exposure round. It still rotates after being seen. Boost order applies to questions with
+			nine or fewer takes.
 		</p>
 	</div>
 
@@ -173,7 +203,7 @@
 		<Field
 			for="curation-pins-{questionId}"
 			label="Boosted answer ids"
-			help={`Comma-separated comment ids, max ${MAX_PINNED_COMMENTS}. Order = display order.`}
+			help={`Comma-separated comment ids, max ${MAX_PINNED_COMMENTS}. Order applies at nine or fewer takes.`}
 		>
 			<Input
 				id="curation-pins-{questionId}"
@@ -203,6 +233,11 @@
 		{#if answersError}
 			<p class="curation__error" role="alert">{answersError}</p>
 		{:else if answers}
+			<p class="curation__copy">
+				{rankingEnabled
+					? 'Ranked ordering is enabled.'
+					: 'Collecting views. Ranked positions below preview the next rollout phase.'}
+			</p>
 			{#if answers.length === 0}
 				<p class="curation__empty">No live top-level answers yet.</p>
 			{:else}
@@ -226,6 +261,10 @@
 										id {answer.id} · {answer.anonymous ? 'anon' : 'member'} · {answer.like_count}
 										{answer.like_count === 1 ? 'like' : 'likes'} · {answer.reply_count}
 										{answer.reply_count === 1 ? 'reply' : 'replies'}
+										· {answer.view_count} views · round {answer.round} · quality {answer.quality.toFixed(
+											3
+										)}
+										· rank #{answer.rank}{answer.belowFloor ? ' · below floor' : ''}
 										{#if formatAnswerDate(answer.created_at)}
 											· {formatAnswerDate(answer.created_at)}
 										{/if}
@@ -239,6 +278,19 @@
 		{/if}
 	</div>
 
+	<div class="curation__actions">
+		{#if confirmReset}
+			<span class="curation__copy"
+				>Reset all take views on this question? Browser dedupe stays in place.</span
+			>
+			<Button variant="secondary" size="sm" onclick={resetViews} disabled={resetting}
+				>Confirm reset</Button
+			>
+			<Button variant="ghost" size="sm" onclick={() => (confirmReset = false)}>Cancel</Button>
+		{:else}
+			<Button variant="ghost" size="sm" onclick={() => (confirmReset = true)}>Reset views</Button>
+		{/if}
+	</div>
 	<div class="curation__actions">
 		<span class="curation__status">
 			{selectedPinnedIds.length}/{MAX_PINNED_COMMENTS} boosted

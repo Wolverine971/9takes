@@ -2,7 +2,7 @@
 
 # Comment ranking: the default order on a question page
 
-**Status:** v2 approved by DJ 2026-09-07 (browser ranking, 100-take fetch cap, nine-take threshold, blind view increments). Decisions 4 to 8 in section 9 stand as recommended unless DJ says otherwise. Phases 2 to 4 are not built.
+**Status:** v2 approved by DJ 2026-09-07 (browser ranking, 100-take fetch cap, nine-take threshold, blind view increments). Decisions 4 to 8 in section 9 stand as recommended unless DJ says otherwise. Phases 2 and 3 implemented locally 2026-09-07; database migration applied to 9takes 2026-09-07; application deployment and the observation gates below are pending. Phase 4 remains an experiment backlog.
 **Owner:** DJ
 **Replaces:** the separate "Three takes that don't agree" block (removed 2026-09-07). Curation survives as a backend boost only.
 
@@ -242,3 +242,18 @@ Phase 2 is one column and one endpoint. Phase 3 is one pure function, one query 
 6. **Below-floor takes stay visible, at the end.** Alternative: hide them behind a "show short answers" toggle. I recommend visible; hiding is a moderation decision and this is a ranking system.
 7. **The viewer's own take stays out of the ranked list** and keeps rendering under their name at the top.
 8. **The order is frozen per visit.** Re-rank on the next load, never mid-read.
+
+## 10. Implementation and rollout operations (2026-09-07)
+
+- Applied `supabase/migrations/20260907175553_comment_ranking.sql` to the 9takes database (`nhjjzcsnmyotyhykbajc`) at 2026-09-07 17:55:53 UTC. Verified the columns, service-only functions, rank trigger, audit RLS, and live take/ranking RPCs on question 118 (35 takes). The application can now be deployed against this schema.
+- Deploy with `PRIVATE_COMMENT_RANKING_ENABLED=false` (also the default when unset). Views are collected; the default remains boosted then newest. Sorting and local paging use the complete fetched set during this phase.
+- After a week of plausible starter impressions, set `PRIVATE_COMMENT_RANKING_ENABLED=true` and redeploy to enable Ranked, including the nine-take threshold. Turning it off returns to the previous default while retaining view counts. The actual activation date, not the implementation date, is the answer-length baseline.
+- `/admin/questions` → Boosts and exposure shows the proposed ranked positions in both modes. Save boosts and reload answers to refresh their metrics. Reset views is an explicit two-step admin operation, written transactionally to `comment_view_reset_audit`. Browser dedupe remains intact; use a fresh test browser or remove that question's `9takes:comment-views:<id>` localStorage entry when testing another impression after a reset.
+- `/admin/host-desk` can set or clear a persistent low-effort flag. A posted host reply clears the moderation penalty; the text floor still applies until boosted. The rank at reply is captured transactionally for future posts from both admin and signed digest links; historical posts show a dash because their past exposure cannot be reconstructed.
+- Weekly SQL and snapshot instructions are in `docs/growth/question-commenting/sql/comment-ranking-README.md`.
+
+Implementation details: the one take fetch is a service-only `get_question_take_data` RPC. It returns the newest 100 plus the viewer's own takes outside the cap, with public profile/like data, an `is_own` boolean and a moderation boolean. It never returns fingerprints, IPs or host draft text. Only unlocked requests call it. Overflow uses a `(created_at, id)` cursor, and duplicates are dropped in the browser. The 10-card initial page grows by ten on scroll; already-read cards remain mounted so the list does not move while reading.
+
+The view counter itself adds only `comments.view_count`; supporting SQL also supplies atomic increment/reset functions, a private reset audit, and two fields on the existing host-draft table. No per-viewer view table or phase 4 tuning has been added. `get_question_take_ranking` is for admin history and reports; public rendering ranks in the browser. The exact formulas in section 3 take precedence over the illustrative day-zero prose (liked takes can already be in later rounds at zero real views).
+
+Validation: pure ranking and visibility timer tests, endpoint and page-load regressions, Svelte component flow tests, type checking and production build. `scripts/tests/comment-ranking-db.mjs` executes the migration in an isolated PostgreSQL WASM runtime, including role permissions, ownership/gate rejection, deduped increments, cursor boundaries, cap/own-take handling, moderation, rank snapshots and transactional reset auditing. Install `@electric-sql/pglite` in a temporary directory and pass its `dist/index.js` path to run it without adding a runtime dependency to the app.

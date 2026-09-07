@@ -9,6 +9,8 @@ import {
 	normalizePinnedCommentIds
 } from '$lib/components/questions/curatedReveal';
 import { mapDemoValues } from '../../../utils/demo';
+import { getQuestionTakes, isCommentRankingEnabled } from '$lib/server/questionTakes';
+import { rankTakes, takeRankingMetrics } from '$lib/components/questions/commentRanking';
 import type { Database } from '../../../../database.types';
 
 // Helper functions to reduce repetition
@@ -254,6 +256,19 @@ const curateSchema = z.object({
 const listAnswersSchema = z.object({ questionId: questionIdSchema });
 
 export const actions: Actions = guardAdminActions({
+	resetViews: async ({ request, locals }) => {
+		const parsed = listAnswersSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) return fail(400, { resetViews: { error: 'Invalid question id' } });
+		const { data, error: resetError } = await (getSupabaseAdminClient().rpc as any)(
+			'reset_question_comment_views',
+			{
+				p_question_id: parsed.data.questionId,
+				p_actor_id: locals.session?.user?.id
+			}
+		);
+		if (resetError) return fail(500, { resetViews: { error: 'Could not reset views' } });
+		return { resetViews: { questionId: parsed.data.questionId, count: data } };
+	},
 	/** Save starter_rank + pinned_comment_ids through the service-role RPC. */
 	curate: async ({ request }) => {
 		const parsed = curateSchema.safeParse(Object.fromEntries(await request.formData()));
@@ -301,24 +316,46 @@ export const actions: Actions = guardAdminActions({
 			return fail(400, { answers: { error: 'Invalid question id' } });
 		}
 
-		const { data, error: answersError } = await getSupabaseAdminClient()
-			.from('comments')
-			.select('id, comment, author_id, created_at, like_count, comment_count')
-			.eq('parent_type', 'question')
-			.eq('parent_id', parsed.data.questionId)
-			.eq('removed', false)
-			.order('created_at', { ascending: false })
-			.limit(200);
-
-		if (answersError) {
-			console.error('Could not list answers for curation', answersError);
+		let rows;
+		let pinnedIds: number[];
+		let totalCount: number;
+		try {
+			const [page, curation] = await Promise.all([
+				getQuestionTakes(parsed.data.questionId),
+				(getSupabaseAdminClient() as any)
+					.from('questions')
+					.select('pinned_comment_ids')
+					.eq('id', parsed.data.questionId)
+					.single()
+			]);
+			if (curation.error) throw curation.error;
+			rows = page.data;
+			totalCount = page.count;
+			pinnedIds = normalizePinnedCommentIds(curation.data?.pinned_comment_ids);
+			const ranked = rankTakes(rows, { boostedIds: pinnedIds, totalCount });
+			// Match the public cap: rank the newest 100, then append overflow by date.
+			while (rows.length < totalCount) {
+				const last = rows.at(-1);
+				if (!last) break;
+				const next = await getQuestionTakes(parsed.data.questionId, {
+					before: last.created_at,
+					beforeId: last.id
+				});
+				if (!next.data.length) break;
+				rows = [...rows, ...next.data];
+				ranked.push(...next.data);
+			}
+			rows = ranked;
+		} catch (answersError) {
+			console.error('Could not list answers for boosts', answersError);
 			return fail(500, { answers: { error: 'Could not load answers' } });
 		}
 
 		return {
 			answers: {
 				questionId: parsed.data.questionId,
-				items: (data ?? []).map((row) => {
+				rankingEnabled: isCommentRankingEnabled(),
+				items: rows.map((row, index) => {
 					const text = String(row.comment ?? '')
 						.replace(/\s+/g, ' ')
 						.trim();
@@ -331,7 +368,10 @@ export const actions: Actions = guardAdminActions({
 						anonymous: !row.author_id,
 						created_at: row.created_at,
 						like_count: row.like_count ?? 0,
-						reply_count: row.comment_count ?? 0
+						reply_count: row.comment_count ?? 0,
+						view_count: row.view_count ?? 0,
+						rank: index + 1,
+						...takeRankingMetrics(row, { boostedIds: pinnedIds, totalCount })
 					};
 				})
 			}

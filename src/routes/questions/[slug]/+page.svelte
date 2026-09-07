@@ -264,6 +264,11 @@
 		removedComments: data.removedComments,
 		removed_comment_count: data.removed_comment_count,
 		comments: mergedComments,
+		ownComments: data.ownComments ?? [],
+		pinnedCommentIds: data.pinnedCommentIds ?? [],
+		commentRankingEnabled: data.commentRankingEnabled ?? false,
+		commentViewsEnabled: data.commentViewsEnabled ?? false,
+		commentsReady: Boolean(data.flags?.userHasAnswered),
 		comment_count: Math.max(data.comment_count || 0, mergedComments.length),
 		aiComments: data.aiComments,
 		links: data.links,
@@ -467,7 +472,7 @@
 
 		// Optimistic update - immediately add comment to UI
 		if (newComment && typeof newComment === 'object' && 'id' in newComment) {
-			optimisticComments = [newComment, ...optimisticComments];
+			optimisticComments = [{ ...newComment, is_own: true }, ...optimisticComments];
 		}
 		// Always mark as answered so the gate opens immediately
 		if (isFirstComment) {

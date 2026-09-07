@@ -1,7 +1,6 @@
 // src/routes/questions/curatedReveal.page.server.spec.ts
 //
-// /questions/[slug] load: boosted takes lead the ONE community list (in
-// pinned_comment_ids order, de-duplicated against the newest page), the
+// /questions/[slug] load: one newest-first snapshot for browser ranking, the
 // next-starter nudge, and the give-first rule that boosted human takes never
 // travel before the visitor answers.
 import { beforeEach, describe, expect, it, vi } from 'vitest';
@@ -139,6 +138,15 @@ function buildResolver(options: {
 function buildEvent(answered: boolean) {
 	state.rpcMock.mockImplementation(async (name: string) => {
 		if (name === 'can_see_comments_3') return { data: answered, error: null };
+		if (name === 'get_question_take_data') {
+			const page = state.resolver?.('comments', [
+				{ method: 'eq', args: ['removed', false] }
+			]) as any;
+			return {
+				data: { takes: page?.data ?? [], own_takes: [], total_count: page?.count ?? 0 },
+				error: null
+			};
+		}
 		return { data: null, error: null };
 	});
 
@@ -160,7 +168,7 @@ describe('/questions/[slug] load: curated reveal', () => {
 		state.checkDemoTimeMock.mockResolvedValue(false);
 	});
 
-	it('leads the single list with boosted takes in pinned_comment_ids order, then the rest, and returns the next starter', async () => {
+	it('sends one newest-first snapshot plus boost IDs for browser ranking and returns the next starter', async () => {
 		const newest = [comment(1000), comment(661), comment(999), comment(375)];
 		state.resolver = buildResolver({
 			curation: { starter_rank: 1, pinned_comment_ids: [375, 372, 661] },
@@ -186,11 +194,15 @@ describe('/questions/[slug] load: curated reveal', () => {
 			question: 'If you had to be trapped somewhere, where?',
 			starter_rank: 2
 		});
-		// One list: boosted first in curated order, then the newest page with
-		// the boosted ids removed so nothing renders twice. No separate payload.
-		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([
-			375, 372, 661, 1000, 999
-		]);
+		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([1000, 661, 999, 375]);
+		expect(result.pinnedCommentIds).toEqual([375, 372, 661]);
+		expect(state.rpcMock).toHaveBeenCalledWith(
+			'get_question_take_data',
+			expect.objectContaining({ p_limit: 100, p_question_id: 118 })
+		);
+		expect(
+			state.rpcMock.mock.calls.filter(([name]) => name === 'get_question_take_data')
+		).toHaveLength(1);
 		expect(result.pinnedComments).toBeUndefined();
 		expect(result.comment_count).toBe(4);
 	});
@@ -205,7 +217,7 @@ describe('/questions/[slug] load: curated reveal', () => {
 
 		const result = (await load(buildEvent(true) as any)) as any;
 
-		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([702, 719]);
+		expect(result.comments.map((row: { id: number }) => row.id)).toEqual([702]);
 		expect(result.nextStarter).toBeNull();
 		expect(result.starterRank).toBe(5);
 	});
@@ -226,6 +238,10 @@ describe('/questions/[slug] load: curated reveal', () => {
 
 		expect(result.flags.userHasAnswered).toBe(false);
 		expect(result.comments).toEqual([]);
+		expect(state.rpcMock.mock.calls.some(([name]) => name === 'get_question_take_data')).toBe(
+			false
+		);
+		expect(result.ownComments).toBeUndefined();
 		expect(fetchedTables).toEqual([]);
 		// The nudge target is safe to preload: it is a question, not an answer.
 		expect(result.nextStarter?.url).toBe('next');

@@ -4,12 +4,12 @@ meta_title: "Bill Burr's Enneagram Type 6: The Fear Under the Rage"
 persona_title: "Comedy's Loudest Sentry"
 description: 'Why does the angriest man in comedy keep quietly describing his own fear? An Enneagram Type 6 read on Bill Burr: his childhood, his anger, his therapy.'
 author: 'DJ Wayne'
-date: '2026-08-19'
+date: '2026-09-07'
 loc: 'https://9takes.com/personality-analysis/Bill-Burr'
-lastmod: '2026-08-19'
+lastmod: '2026-09-07'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['comedian', 'celebrity', 'creator']
 person: 'Bill-Burr'
@@ -109,7 +109,7 @@ content_quality:
   hook: 9
   enneagram: 9
   evidence: 9
-  writing: 8
+  writing: 8.5
   originality: 9
   discoverability: 9
   overall: 8.9
@@ -118,11 +118,11 @@ content_quality:
   grade_stability_delta: 0.1
   letter: B+
   rubric_version: 2
-  caps_applied: ['contrast_pair_engine']
+  caps_applied: []
   confidence: high
   anchor: 'Matt-Smith draft (2026-06-28) — clears it on evidence and structure'
   needs_review: false
-  graded_at: '2026-08-19'
+  graded_at: '2026-09-07'
 path: src/blog/people/drafts/Bill-Burr.md
 ---
 
@@ -155,11 +155,11 @@ Locations: none. All wing/subtype/arrow/counter-typing material is inside the Ra
 
 <!-- FORMULA FINGERPRINT LEDGER
 Contrast-pair sentence engines: 0 strong / 0 comparative from scripts/blog-quality-report.mjs.
-CAVEAT (do not cite that 0 as an all-clear): the script only matches the SINGLE-sentence form. The
-two-sentence negate-then-assert engine ran five times in the graded draft. The revision pass cut it
-to two, and both survivors are load-bearing: the PROTECT-09 pull-quote (the thesis) and the P0-08
-disanalogy concession in the billionaires section. Neither can be cut without regressing a protected
-hit or a resolved P0.
+CAVEAT (do not cite that 0 as an all-clear): the script only matches the SINGLE-sentence form. A hand
+scan of the graded draft found five candidates beyond that detector. Release prep retired the two
+lowest-value negate-then-assert uses identified by the grader, leaving two explicit engines. Both
+survivors are load-bearing: the PROTECT-09 pull-quote (the thesis) and the P0-08 disanalogy concession
+in the billionaires section. Neither can be cut without regressing a protected hit or a resolved P0.
 Counter-typing ladders in main body: 0 — none. MBTI labels were cut entirely in the editor pass (P0-09); the Type 8 pressure test is confined to the diagnosis paragraph and the Rabbit Hole
 Same-type similarity scan: PASS. Highest unit pair 0.127 (vs noah-wyle) and the only shared-phrase trip is 0.076 vs mila-kunis, whose shared phrase is "subj subj" — i.e. the mandated H3 template "[Person] is an Enneagram Type X" after name normalization. Every other top pair has shared_phrases: []. No diagnosis or counter-typing argument overlaps.
 Bespoke section form: "Riyadh, told twice" — a two-date evidence ledger built from the one thing no competitor has, nineteen years of his own weekly tape set against a dated press appearance. The form collapses on any subject who does not self-document weekly.
@@ -184,7 +184,7 @@ Bigger kids came down the street, pulled the guns out of his holster, and smashe
 
 "My mother's like, 'Who did that? Who did that?'" he told The Tim Ferriss Show in 2017. "I was like, 'Big kids.' And she's like, I can't remember. She just made me a sandwich and that was it. But it wasn't a big deal back then."
 
-He tells it as nothing. He also keeps telling it.
+He shrugs the story off every time he tells it, then returns to it again.
 
 Bill Burr turned 58 in 2026, and for most of two decades he has been the loudest man in American stand-up. Born in Canton, Massachusetts in 1968, first set in 1992, a new hour every two or three years since. Patrick Kuby on _Breaking Bad_. Frank Murphy on _F Is for Family_, which he co-created. The Monday Morning Podcast, twice a week now, every week since May 2007.
 
@@ -313,7 +313,7 @@ What happened next is the whole case, laid out by date.
 
 Same gig, same man, ten months apart.
 
-On camera, the account contains no fear at all. With nobody asking and nothing left to defend, the same gig arrives with twenty minutes of dry mouth and a running threat assessment of everyone who stood up in an 8,000-seat room. He is not recanting. He still calls the criticism "false flag outrage" in that same episode. He files Riyadh as a career-best night and counts the people standing up in the same breath, and holding both at once is what the type looks like from the inside.
+On camera, the account contains no fear at all. With nobody asking and nothing left to defend, the same gig arrives with twenty minutes of dry mouth and a running threat assessment of everyone who stood up in an 8,000-seat room. He keeps calling the criticism "false flag outrage" in that same episode. He files Riyadh as a career-best night and counts the people standing up in the same breath, and holding both at once is what the type looks like from the inside.
 
 This is the behavior people mock him for, and it is the one worth understanding. The clap-back looks like arrogance. The counterattack arrives before the verdict does. Burr gets out in front of criticism and destroys the standing of the people delivering it, which is what you do when you have already decided the verdict is coming and cannot afford to be caught standing still. He has been running this play since a birthday afternoon in Canton with two smashed plastic pistols in his hands. In Philadelphia the people he was covering stood next to him. Here they were the fifty comedians on the lineup and, underneath that, himself.
 

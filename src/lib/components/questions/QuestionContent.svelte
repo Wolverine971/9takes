@@ -1,13 +1,15 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
-	import { onMount } from 'svelte';
+	import { onDestroy, onMount, setContext } from 'svelte';
 	import { browser } from '$app/environment';
+	import { resolve } from '$app/paths';
 	import { fade } from 'svelte/transition';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
-	import Comment from '$lib/components/molecules/Comment.svelte';
 	import Comments from '$lib/components/molecules/Comments.svelte';
-	import SortComments from '$lib/components/molecules/SortComments.svelte';
+	import RankedComments from './RankedComments.svelte';
+	import { createCommentViewTracker } from '$lib/browser/commentViews';
+	import { getExistingVisitorId } from '$lib/analytics/visitorIdentity';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
 	import ReplyNotificationReturn from './ReplyNotificationReturn.svelte';
@@ -25,7 +27,6 @@
 		data: QuestionPageData;
 		user: User | null;
 		oncommentAdded?: () => void;
-		/** Curated reveal trio (array order), rendered before the community list. */
 		/** Next "Start here" question by rank; null when this is the last one or not a starter. */
 		nextStarter?: NextStarterLink | null;
 		/** Server-resolved ?reply=<id> target (signed-in reply email landing). */
@@ -51,20 +52,38 @@
 		Articles: PostIcon
 	};
 
-	// Local sorted comments state (for when user sorts)
-	let sortedComments = $state<CommentType[] | null>(null);
+	let displayCommentCount = $derived(_data.comment_count);
 
-	// Sort comments handler
-	function sortCommentsHandler(newSortedComments: CommentType[]) {
-		sortedComments = JSON.parse(JSON.stringify(newSortedComments)) as CommentType[];
+	// One observer lifecycle covers every take, including a focused reply thread.
+	// Comment attaches only its card body; replies and removed/own takes are
+	// rejected by the tracker before any visibility timer starts.
+	let viewTracker: ReturnType<typeof createCommentViewTracker> | undefined;
+	let trackerIdentity: string | undefined;
+	function observeTake(node: Element, take: CommentType) {
+		if (
+			!data.flags.userHasAnswered ||
+			data.commentViewsEnabled === false ||
+			data.ownComments?.some((own) => own.id === take.id)
+		)
+			return;
+		const identity = `${data.question.id}:${user?.id ?? 'anonymous'}`;
+		if (trackerIdentity !== identity) {
+			viewTracker?.destroy();
+			viewTracker = undefined;
+			trackerIdentity = identity;
+		}
+		viewTracker ??= createCommentViewTracker({
+			questionId: data.question.id,
+			unlocked: true,
+			viewerId: user?.id ?? null,
+			viewerFingerprint: getExistingVisitorId()
+		});
+		return viewTracker.observe(node, take);
 	}
+	setContext('9takes:comment-view-observer', observeTake);
+	onDestroy(() => viewTracker?.destroy());
 
-	// Get the comments to display (sorted if user sorted, otherwise from data)
-	let displayComments = $derived(sortedComments || _data.comments);
-	let displayCommentCount = $derived(sortedComments?.length ?? _data.comment_count);
-
-	// A reply-focus thread renders its parent take at the top, so the community
-	// list hides that one row (Comments keeps it in its paging math).
+	// A reply-focus thread renders its parent above the community list.
 	let replyFocusParentId = $derived(replyFocus?.parent?.id ?? null);
 	let hiddenFromCommunity = $derived(replyFocusParentId === null ? [] : [replyFocusParentId]);
 	let validAiComments = $derived((_data.aiComments ?? []).filter(hasValidAiType));
@@ -131,61 +150,65 @@
 	<nav class="next-question" aria-label="Next question">
 		<span class="next-question__kicker">Next</span>
 		{#if nextStarter?.url}
-			<a class="next-question__link" href={`/questions/${nextStarter.url}`}>
+			<a
+				class="next-question__link"
+				href={resolve(`/questions/${nextStarter.url}` as `/questions/${string}`)}
+			>
 				Try another: <span class="next-question__question">{nextStarter.question}</span>
 			</a>
 		{:else}
-			<a class="next-question__link" href="/questions">
+			<a class="next-question__link" href={resolve('/questions')}>
 				Try another: <span class="next-question__question">pick from the open questions</span>
 			</a>
 		{/if}
 	</nav>
 {/snippet}
 
-<div class="question-content-shell">
-	<!-- Tabs Navigation -->
-	<div class="question-content-nav scrollbar-hide" role="tablist" aria-label="Question sections">
-		{#each tabs as tab (tab)}
-			{@const IconComponent = iconComponents[tab]}
-			{@const contentCount = getContentCount(tab)}
-			<button
-				id={getTabId(tab)}
-				role="tab"
-				aria-selected={selectedTab === tab}
-				aria-controls={getPanelId(tab)}
-				class="question-tab"
-				class:is-active={selectedTab === tab}
-				onclick={() => {
-					selectedTab = tab;
-					scrollToSection(getPanelId(tab));
-				}}
-			>
-				<span class="question-tab__icon" aria-hidden="true">
-					<IconComponent
-						iconStyle=""
-						height="1.25rem"
-						fill="currentColor"
-						type={tab === 'Comments' ? 'multiple' : undefined}
-					/>
-				</span>
-				<span class="question-tab__copy">
-					<span class="question-tab__count">{contentCount.count}</span>
-					<span class="question-tab__label">{contentCount.label}</span>
-				</span>
-			</button>
-		{/each}
-	</div>
+{#key data.question.id}
+	<div class="question-content-shell">
+		<!-- Tabs Navigation -->
+		<div class="question-content-nav scrollbar-hide" role="tablist" aria-label="Question sections">
+			{#each tabs as tab (tab)}
+				{@const IconComponent = iconComponents[tab]}
+				{@const contentCount = getContentCount(tab)}
+				<button
+					id={getTabId(tab)}
+					role="tab"
+					aria-selected={selectedTab === tab}
+					aria-controls={getPanelId(tab)}
+					class="question-tab"
+					class:is-active={selectedTab === tab}
+					onclick={() => {
+						selectedTab = tab;
+						scrollToSection(getPanelId(tab));
+					}}
+				>
+					<span class="question-tab__icon" aria-hidden="true">
+						<IconComponent
+							iconStyle=""
+							height="1.25rem"
+							fill="currentColor"
+							type={tab === 'Comments' ? 'multiple' : undefined}
+						/>
+					</span>
+					<span class="question-tab__copy">
+						<span class="question-tab__count">{contentCount.count}</span>
+						<span class="question-tab__label">{contentCount.label}</span>
+					</span>
+				</button>
+			{/each}
+		</div>
 
-	<!-- Tab Content -->
-	<div class="question-content-body">
-		{#each tabs as section (section)}
-			{#if selectedTab === section}
+		<!-- Tab Content -->
+		<div class="question-content-body">
+			{#each tabs as section (section)}
 				<div
 					in:fade={{ duration: reduceMotion ? 0 : 200 }}
 					id={getPanelId(section)}
 					role="tabpanel"
 					class:selected={selectedTab === section}
 					class="question-content-section"
+					hidden={selectedTab !== section}
 					aria-labelledby={getTabId(section)}
 				>
 					<div class="question-content-section-inner">
@@ -294,21 +317,15 @@
 									</div>
 									<p>Real answers from people who responded before reading the room.</p>
 								</header>
-								<div class="content-toolbar">
-									<SortComments data={_data} oncommentsSorted={sortCommentsHandler} size="medium" />
-								</div>
-
-								<Comments
-									questionId={_data.question.id}
-									comments={displayComments}
-									comment_count={displayCommentCount}
-									excludeIds={hiddenFromCommunity}
-									parentType="question"
-									parentData={_data}
-									{user}
-									key={displayCommentCount}
-									on:commentAdded={handleCommentAdded}
-								/>
+								{#key data.commentsReady !== false}
+									<RankedComments
+										data={_data}
+										{user}
+										excludeIds={hiddenFromCommunity}
+										active={selectedTab === 'Comments'}
+										oncommentAdded={handleCommentAdded}
+									/>
+								{/key}
 
 								{@render nextQuestionNudge()}
 
@@ -358,10 +375,10 @@
 						{/if}
 					</div>
 				</div>
-			{/if}
-		{/each}
+			{/each}
+		</div>
 	</div>
-</div>
+{/key}
 
 <style>
 	/* The thread follows the flat reading-list grammar used by /questions.
@@ -458,16 +475,12 @@
 		display: block;
 	}
 
-	.question-content-section-inner {
-		padding: 1.4rem 0 1.6rem;
+	.question-content-section[hidden] {
+		display: none;
 	}
 
-	.content-toolbar {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		margin-bottom: 1rem;
-		padding: 0 1rem;
+	.question-content-section-inner {
+		padding: 1.4rem 0 1.6rem;
 	}
 
 	.community-discussion-head {
@@ -839,10 +852,6 @@
 
 		.question-content-section-inner {
 			padding: 1.15rem 0 1.25rem;
-		}
-
-		.content-toolbar {
-			padding: 0 0.8rem;
 		}
 
 		.community-discussion-head {

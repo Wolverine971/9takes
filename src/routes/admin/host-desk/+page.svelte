@@ -107,7 +107,7 @@
 
 						<blockquote class="take">
 							{draft.take?.text ?? '(take unavailable)'}
-							{#if isLowEffort(draft.take?.text)}
+							{#if draft.low_effort || isLowEffort(draft.take?.text)}
 								<span class="status-pill low">low effort</span>
 							{/if}
 							{#if draft.take?.removed}
@@ -136,6 +136,13 @@
 							</button>
 						</div>
 
+						<form method="POST" action="?/markLowEffort" use:enhance>
+							<input type="hidden" name="draftId" value={draft.id} />
+							<input type="hidden" name="lowEffort" value={draft.low_effort ? 'false' : 'true'} />
+							<Button type="submit" size="sm" variant="ghost"
+								>{draft.low_effort ? 'Clear low-effort flag' : 'Mark low effort'}</Button
+							>
+						</form>
 						<form class="post-form" method="POST" action="?/post" use:enhance>
 							<input type="hidden" name="draftId" value={draft.id} />
 							<Textarea
@@ -176,6 +183,7 @@
 							<th>When</th>
 							<th>Status</th>
 							<th>Take</th>
+							<th>Rank at reply</th>
 							<th>Reply</th>
 						</tr>
 					</thead>
@@ -198,6 +206,7 @@
 										{draft.take?.text ?? '(take unavailable)'}
 									{/if}
 								</td>
+								<td>{draft.take_rank_at_post ? `#${draft.take_rank_at_post}` : '—'}</td>
 								<td>{draft.posted_text ?? '—'}</td>
 							</tr>
 						{/each}

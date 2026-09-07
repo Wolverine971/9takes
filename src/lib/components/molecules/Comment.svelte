@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/Comment.svelte -->
 <script lang="ts">
-	import { createEventDispatcher, onMount } from 'svelte';
+	import { createEventDispatcher, getContext, onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { resolve } from '$app/paths';
 	import { ChevronRight, EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
@@ -38,6 +38,8 @@
 	// Deep links (?reply=<id>) need the thread open on first paint: show
 	// pre-loaded replies immediately, otherwise run the same load the toggle does.
 	export let autoExpandReplies = false;
+	export let observeTake: ((node: Element, take: CommentType) => void | (() => void)) | undefined =
+		getContext('9takes:comment-view-observer');
 
 	// State variables
 	let likes: CommentLike[] = [];
@@ -218,6 +220,7 @@
 			}
 
 			_commentComment.comment_like = likes;
+			_commentComment.like_count = likes.length;
 			dispatch('commentUpdated', _commentComment);
 		} catch (error) {
 			console.error('Error liking comment:', error);
@@ -305,7 +308,9 @@
 
 			// Add the new comment to the list
 			if (result?.data) {
-				_commentComment.comments = [result.data, ..._commentComment.comments];
+				_commentComment.comments = [..._commentComment.comments, createdReply].sort(
+					(a, b) => a.created_at.localeCompare(b.created_at) || a.id - b.id
+				);
 			}
 
 			dispatch('commentAdded', result?.data);
@@ -469,7 +474,11 @@
 		style="--comment-type-color: var(--type-{_commentComment?.profiles?.enneagram ??
 			0}-color, var(--stone-edge))"
 	>
-		<div class="comment-card__main" id="comment-box{_commentComment.id}">
+		<div
+			class="comment-card__main"
+			id="comment-box{_commentComment.id}"
+			{@attach (node) => observeTake?.(node, comment)}
+		>
 			<!-- Like the /questions index, the answer is the row's primary content. -->
 			<div class="relative w-full">
 				<div

@@ -34,9 +34,13 @@
 	// Create a reactive deep copy to avoid mutation issues
 	$: _comments = comments ? (JSON.parse(JSON.stringify(comments)) as CommentType[]) : [];
 	$: excludedIdSet = new Set(excludeIds ?? []);
-	$: visibleComments = excludedIdSet.size
-		? _comments.filter((comment) => !excludedIdSet.has(comment.id))
-		: _comments;
+	$: filteredComments = _comments.filter((comment) => !excludedIdSet.has(comment.id));
+	$: visibleComments =
+		parentType === 'comment'
+			? [...filteredComments].sort(
+					(a, b) => a.created_at.localeCompare(b.created_at) || a.id - b.id
+				)
+			: filteredComments;
 
 	let loading = false;
 	let initialLoading = false;

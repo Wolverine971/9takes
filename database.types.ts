@@ -712,6 +712,7 @@ export type Database = {
           parent_id: number | null
           parent_type: string | null
           removed: boolean
+          view_count: number
           removed_at: string | null
         }
         Insert: {
@@ -728,6 +729,7 @@ export type Database = {
           parent_id?: number | null
           parent_type?: string | null
           removed?: boolean
+          view_count?: number
           removed_at?: string | null
         }
         Update: {
@@ -744,6 +746,7 @@ export type Database = {
           parent_id?: number | null
           parent_type?: string | null
           removed?: boolean
+          view_count?: number
           removed_at?: string | null
         }
         Relationships: [

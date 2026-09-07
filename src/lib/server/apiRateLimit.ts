@@ -1,13 +1,12 @@
 // src/lib/server/apiRateLimit.ts
 //
-// Rate limiting for metered endpoints — the ones that spend money per call
-// (OpenRouter transcription, the chorus mirror).
+// Shared rate limiting for metered endpoints and best-effort comment impressions.
 //
 // Two rules make this different from the old in-memory limiter:
 //
-//   1. The subject is server-derived (session user id, else client IP). It is
-//      never a client-supplied fingerprint, because a caller can rotate a
-//      cookie or a request-body field to mint themselves a fresh budget.
+//   1. Paid endpoints use a server-derived subject (session user id, else IP).
+//      Comment views deliberately use the give-first viewer key; fingerprint
+//      rotation is the accepted, low-impact tradeoff in the ranking spec.
 //   2. The counter lives in Postgres, so it is shared across the concurrent
 //      serverless instances a burst of traffic spreads over, and it survives
 //      cold starts.
@@ -20,7 +19,8 @@ import { createHash } from 'node:crypto';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import { logger } from '$lib/utils/logger';
 
-export type RateLimitBucket = 'transcribe' | 'chorus_mirror' | 'person_suggestion';
+export type RateLimitBucket =
+	'transcribe' | 'chorus_mirror' | 'person_suggestion' | 'comment_views';
 
 export type RateLimitRule = {
 	limit: number;
@@ -30,6 +30,7 @@ export type RateLimitRule = {
 export const RATE_LIMIT_RULES: Record<RateLimitBucket, RateLimitRule> = {
 	transcribe: { limit: 8, windowMs: 5 * 60 * 1000 },
 	chorus_mirror: { limit: 20, windowMs: 10 * 60 * 1000 },
+	comment_views: { limit: 30, windowMs: 60 * 1000 },
 	person_suggestion: { limit: 3, windowMs: 24 * 60 * 60 * 1000 }
 };
 

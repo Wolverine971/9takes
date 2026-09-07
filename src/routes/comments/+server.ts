@@ -1,8 +1,10 @@
 // src/routes/comments/+server.ts
-import { error, json } from '@sveltejs/kit';
+import { error, json, isHttpError } from '@sveltejs/kit';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
 import type { Database } from '../../../database.types';
+
+import { getQuestionTakes } from '$lib/server/questionTakes';
 
 import { checkDemoTime } from '../../utils/api';
 
@@ -32,9 +34,11 @@ const PUBLIC_COMMENT_FIELDS =
 
 // Validation schemas
 const getCommentsSchema = z.object({
-	parentId: z.string().transform(Number),
+	parentId: z.coerce.number().int().positive().safe(),
 	type: z.enum(['question', 'comment']).default('question'),
-	range: z.string().transform(Number).default('0')
+	range: z.coerce.number().int().nonnegative().max(100000).default(0),
+	before: z.string().datetime({ offset: true }).nullable().default(null),
+	beforeId: z.coerce.number().int().positive().safe().nullable().default(null)
 });
 
 const postCommentSchema = z.object({
@@ -50,10 +54,14 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 		const params = {
 			parentId: url.searchParams.get('parentId') ?? '0',
 			type: url.searchParams.get('type') ?? 'question',
-			range: url.searchParams.get('range') ?? '0'
+			range: url.searchParams.get('range') ?? '0',
+			before: url.searchParams.get('before'),
+			beforeId: url.searchParams.get('beforeId')
 		};
 
 		const validatedParams = getCommentsSchema.parse(params);
+		if (Boolean(validatedParams.before) !== Boolean(validatedParams.beforeId))
+			throw error(400, 'A complete cursor is required');
 		const demo_time = await checkDemoTime(supabase);
 		const cookie = cookies.get('9tfingerprint');
 
@@ -82,6 +90,17 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			}
 		}
 
+		if (parentType === 'question' && demo_time !== true) {
+			const result = await getQuestionTakes(parentId, {
+				viewerId: user?.id,
+				fingerprint: cookie,
+				limit: 10,
+				before: validatedParams.before,
+				beforeId: validatedParams.beforeId
+			});
+			return json(result.data);
+		}
+
 		const { data: questionComments, error: questionCommentsError } = (await supabase
 			.from(demo_time === true ? 'comments_demo' : 'comments')
 			.select(
@@ -90,8 +109,9 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			.eq('parent_id', parentId)
 			.eq('parent_type', parentType)
 			.eq('removed', false)
-			.order('created_at', { ascending: false })
-			.range(range, range + 10)) as { data: CommentWithProfile[] | null; error: any };
+			.order('created_at', { ascending: parentType === 'comment' })
+			.order('id', { ascending: parentType === 'comment' })
+			.range(range, range + 9)) as { data: CommentWithProfile[] | null; error: any };
 
 		if (questionCommentsError) {
 			logger.error('Failed to retrieve comments', questionCommentsError, {
@@ -121,11 +141,12 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 					)
 					.in('parent_id', questionCommentIds)
 					.eq('parent_type', parentType)
-					.order('created_at', { ascending: false })) as {
+					.order('created_at', { ascending: parentType === 'comment' })
+					.order('id', { ascending: parentType === 'comment' })) as {
 					data: CommentWithProfile[] | null;
 					error: any;
 				};
-				// .range(range, range + 10)
+				// .range(range, range + 9)
 
 				interface ICommentMap {
 					[key: string]: CommentWithProfile[];
@@ -163,6 +184,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 
 		return json(questionComments);
 	} catch (e) {
+		if (isHttpError(e)) throw e;
 		if (e instanceof z.ZodError) {
 			logger.warn('Invalid request parameters', {
 				errors: e.errors

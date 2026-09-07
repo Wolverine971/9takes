@@ -3,17 +3,24 @@
 # Grade feedback: Bill Burr
 
 Grade: B+ (8.9), rubric v2
-Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 8 | Hook: 9
-Anchor: Matt-Smith draft (2026-06-28) — clears it decisively on evidence density and structural invention | Caps: contrast_pair_engine | Needs review: false
+Evidence: 9 | Originality: 9 | Discoverability: 9 | Enneagram: 9 | Writing: 8.5 | Hook: 9
+Anchor: Matt-Smith draft (2026-06-28) — clears it decisively on evidence density and structural invention | Caps: none | Needs review: false
 Source audit: 7 load-bearing quotes — 7 inline, 0 vague, 0 untagged. No untagged load-bearing slots. Two citability gaps sit OUTSIDE the audited slots and are named below.
 Interior line: "Hold your face still. Take the sandwich. Say nothing that makes it louder."
 Empathy turn: "Burr gets out in front of criticism and destroys the standing of the people delivering it, which is what you do when you have already decided the verdict is coming and cannot afford to be caught standing still. He has been running this play since a birthday afternoon in Canton with two smashed plastic pistols in his hands."
 
-This is a regrade following the revision pass (first_overall 8.4 → 8.9, delta 0.5). Both prior caps
-(originality_cross_draft_sameness, contrast_pair_engine) were re-tested independently; the sameness cap
-is cleared, the contrast-pair cap is not.
+Release regrade (2026-09-07): the grade remains 8.9. The two low-value constructions named by the
+August grader were rewritten as direct prose: "He tells it as nothing. He also keeps telling it" and
+"He is not recanting. He still calls…" The protected thesis pull-quote and the P0-08 disanalogy
+concession remain intact. Writing rises to 8.5 and the contrast-pair cap clears. Deterministic lint
+still reports 0 strong / 0 comparative engines; the source audit reports 7 inline, 0 vague, 0
+untagged load-bearing quotes.
 
-FEEDBACK (2026-08-19):
+The August 19 regrade followed the revision pass (first_overall 8.4 → 8.9, delta 0.5). At that point,
+both prior caps (originality_cross_draft_sameness, contrast_pair_engine) were re-tested independently;
+the sameness cap cleared while the contrast-pair cap remained.
+
+HISTORICAL FEEDBACK (2026-08-19):
 
 - The Riyadh two-tellings table is the best structural invention in the recent batch. Setting the
   October 2025 Conan appearance ("all of these sanctimonious c***s") against the unprompted August 10,

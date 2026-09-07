@@ -82,6 +82,21 @@ export const load: PageServerLoad = async (event) => {
 };
 
 const actionHandlers: Actions = {
+	markLowEffort: async ({ request }) => {
+		const form = await request.formData();
+		const draftId = requiredInteger(form.get('draftId'));
+		if (!draftId) return fail(400, { action: 'markLowEffort', message: 'Missing draft id.' });
+		const { error: updateError } = await (getSupabaseAdminClient() as any)
+			.from('host_reply_drafts')
+			.update({
+				low_effort: form.get('lowEffort') === 'true',
+				updated_at: new Date().toISOString()
+			})
+			.eq('id', draftId);
+		if (updateError)
+			return fail(500, { action: 'markLowEffort', message: 'Could not update the quality flag.' });
+		return { action: 'markLowEffort', success: true, message: 'Quality flag updated.' };
+	},
 	post: async ({ request, getClientAddress }) => {
 		const formData = await request.formData();
 		const draftId = requiredInteger(formData.get('draftId'));

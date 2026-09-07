@@ -1,5 +1,7 @@
 // src/routes/questions/[slug]/+page.server.ts
 import { supabase } from '$lib/supabase';
+import { TAKE_FETCH_LIMIT } from '$lib/components/questions/commentRanking';
+import { getQuestionTakes, isCommentRankingEnabled } from '$lib/server/questionTakes';
 
 import type { Actions, PageServerLoad, RequestEvent } from './$types';
 import { error, fail } from '@sveltejs/kit';
@@ -33,7 +35,6 @@ import type {
 } from '$lib/types/questions';
 import {
 	normalizePinnedCommentIds,
-	orderPinnedComments,
 	type NextStarterLink
 } from '$lib/components/questions/curatedReveal';
 import type { ReplyFocusThread } from '$lib/components/questions/newReplyTreatment';
@@ -192,15 +193,16 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	const [comments, removedComments, links, aiComments, flagReasons, curation] = await Promise.all([
-		getComments(question.id, isDemoTime, false),
+		isDemoTime
+			? getComments(question.id, true, false)
+			: getQuestionTakes(question.id, { viewerId: session?.user?.id, fingerprint: cookie }),
 		getComments(question.id, isDemoTime, true),
 		getQuestionLinks(question.id),
 		isDemoTime ? null : getAIComments(question.id),
 		getFlagReasons(),
 		getQuestionCuration(question.id, isDemoTime)
 	]);
-	const [boostedComments, nextStarter, replyFocus] = await Promise.all([
-		getBoostedComments(question.id, curation.pinnedCommentIds),
+	const [nextStarter, replyFocus] = await Promise.all([
 		getNextStarter(curation.starterRank),
 		getReplyFocusThread(
 			question.id,
@@ -209,20 +211,10 @@ export const load: PageServerLoad = async (event) => {
 		)
 	]);
 
-	// Editorial boost: curated takes lead the default order, inside the one
-	// community list (no separate section). A boosted take that also sits in
-	// the newest page is de-duplicated so it appears once. Until the ranked
-	// default order ships (docs/product/comment-ranking-spec.md) this is the
-	// whole boost mechanism.
-	const orderedComments = mergeBoostedComments(
-		boostedComments,
-		(comments.data ?? []) as unknown as PublicComment[]
-	);
-
 	return {
 		...createFullResponse(
 			question,
-			orderedComments as any,
+			comments.data ?? [],
 			comments.count ?? 0,
 			removedComments.data ?? [],
 			removedComments.count ?? 0,
@@ -242,7 +234,11 @@ export const load: PageServerLoad = async (event) => {
 		replyNotificationThread,
 		starterRank: curation.starterRank,
 		nextStarter,
-		replyFocus
+		replyFocus,
+		pinnedCommentIds: curation.pinnedCommentIds,
+		ownComments: 'ownComments' in comments ? comments.ownComments : [],
+		commentViewsEnabled: !isDemoTime,
+		commentRankingEnabled: !isDemoTime && isCommentRankingEnabled()
 	};
 };
 
@@ -439,39 +435,6 @@ export const actions: Actions = {
 			return await addSubscription(db, parent_id, sessionUserId, demo_time);
 		}
 		return await removeSubscription(db, parent_id, sessionUserId, demo_time);
-	},
-
-	sortComments: async ({ request, locals, cookies }) => {
-		const { body, demo_time } = await getRequestData(request);
-
-		const questionId = Number(body.questionId);
-		if (!Number.isFinite(questionId)) {
-			throw error(400, { message: 'Invalid questionId' });
-		}
-
-		const cookie = cookies.get('9tfingerprint');
-		const userHasAnswered = await checkUserAnswered(
-			cookie,
-			questionId,
-			locals.session?.user?.id,
-			locals.supabase
-		);
-		if (!userHasAnswered) {
-			throw error(403, { message: 'You must answer the question before sorting comments.' });
-		}
-
-		const sortByRaw = (body.sortBy as string) || 'newest';
-		const sortBy: 'newest' | 'oldest' | 'likes' =
-			sortByRaw === 'oldest' || sortByRaw === 'likes' ? sortByRaw : 'newest';
-
-		const enneagramTypesRaw = (body.enneagramTypes as string) || '';
-		const selectedTypes = parseEnneagramTypes(enneagramTypesRaw);
-
-		const comments = await getSortableComments(questionId, demo_time);
-		const filtered = filterCommentsByEnneagram(comments, selectedTypes);
-		const sorted = sortCommentsBy(filtered, sortBy);
-
-		return sorted;
 	},
 
 	saveLinkClick: async ({ request }) => {
@@ -1116,7 +1079,7 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 		.eq('parent_id', questionId)
 		.eq('parent_type', 'question')
 		.eq('removed', removed)
-		.limit(DEFAULT_COMMENTS_LIMIT)
+		.limit(removed ? DEFAULT_COMMENTS_LIMIT : TAKE_FETCH_LIMIT)
 		.order('created_at', { ascending: false });
 
 	if (error) {
@@ -1164,35 +1127,6 @@ async function getQuestionCuration(
 		starterRank: Number.isInteger(rank) && rank > 0 ? rank : null,
 		pinnedCommentIds: normalizePinnedCommentIds(data.pinned_comment_ids)
 	};
-}
-
-/** Boosted comments in `pinned_comment_ids` order; removed or foreign ids are dropped. */
-async function getBoostedComments(questionId: number, pinnedIds: number[]) {
-	if (!pinnedIds.length) return [] as PublicComment[];
-
-	const { data, error: pinnedError } = await supabase
-		.from('comments')
-		.select(
-			`${PUBLIC_COMMENT_FIELDS}, profiles:public_profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
-		)
-		.in('id', pinnedIds)
-		.eq('parent_id', questionId)
-		.eq('parent_type', 'question')
-		.eq('removed', false);
-
-	if (pinnedError) {
-		console.warn('Could not load boosted comments', pinnedError.message ?? pinnedError);
-		return [] as PublicComment[];
-	}
-
-	return orderPinnedComments(pinnedIds, (data ?? []) as unknown as PublicComment[]);
-}
-
-/** Boosted takes first (in curated order), then the rest of the page with those ids removed. */
-function mergeBoostedComments(boosted: PublicComment[], page: PublicComment[]): PublicComment[] {
-	if (!boosted.length) return page;
-	const boostedIds = new Set(boosted.map((comment) => comment.id));
-	return [...boosted, ...page.filter((comment) => !boostedIds.has(comment.id))];
 }
 
 /** The next starter by rank, for the "Try another" nudge after the reveal. */
@@ -1282,92 +1216,6 @@ async function getReplyFocusThread(
 		replyId,
 		parent: { ...(parent as unknown as PublicComment), comments: rows }
 	};
-}
-
-const DEFAULT_ENNEAGRAM_TYPES = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'unknown', 'rando'];
-
-function parseEnneagramTypes(raw: string): string[] {
-	const normalized = raw
-		.split(',')
-		.map((value) => value.trim())
-		.filter(Boolean);
-
-	if (!normalized.length) {
-		return [...DEFAULT_ENNEAGRAM_TYPES];
-	}
-
-	const allowed = new Set(DEFAULT_ENNEAGRAM_TYPES);
-	const filtered = normalized.filter((value) => allowed.has(value));
-	return filtered.length ? filtered : [...DEFAULT_ENNEAGRAM_TYPES];
-}
-
-async function getSortableComments(questionId: number, demo_time: boolean) {
-	const table = demo_time ? 'comments_demo' : 'comments';
-	const profiles = demo_time ? 'profiles_demo' : 'profiles';
-	const commentLike = demo_time ? 'comment_like_demo' : 'comment_like';
-
-	const { data, error: commentsError } = await supabase
-		.from(table)
-		.select(
-			`${PUBLIC_COMMENT_FIELDS}, ${profiles}:public_${profiles} (external_id, enneagram), ${commentLike} (id, comment_id, user_id)`
-		)
-		.eq('parent_id', questionId)
-		.eq('parent_type', 'question')
-		.eq('removed', false);
-
-	if (commentsError) {
-		console.error('Failed to fetch comments for sorting', commentsError);
-		throw error(500, { message: 'Failed to load comments for sorting' });
-	}
-
-	const comments = data ?? [];
-	return demo_time ? comments.map(mapDemoComment) : comments;
-}
-
-function getCommentTypeKey(comment: any): string {
-	if (!comment?.author_id) {
-		return 'rando';
-	}
-
-	const enneagram = comment?.profiles?.enneagram?.toString();
-	if (!enneagram) {
-		return 'unknown';
-	}
-
-	return enneagram;
-}
-
-function filterCommentsByEnneagram(comments: any[], selectedTypes: string[]) {
-	if (!selectedTypes.length) {
-		return comments;
-	}
-
-	const selected = new Set(selectedTypes);
-	return comments.filter((comment) => selected.has(getCommentTypeKey(comment)));
-}
-
-function sortCommentsBy(comments: any[], sortBy: 'newest' | 'oldest' | 'likes') {
-	const getTime = (comment: any) =>
-		comment?.created_at ? new Date(comment.created_at).getTime() : 0;
-	const getLikes = (comment: any) => comment?.like_count ?? 0;
-
-	const sorted = [...comments];
-
-	if (sortBy === 'oldest') {
-		sorted.sort((a, b) => getTime(a) - getTime(b));
-		return sorted;
-	}
-
-	if (sortBy === 'likes') {
-		sorted.sort((a, b) => {
-			const likeDiff = getLikes(b) - getLikes(a);
-			return likeDiff !== 0 ? likeDiff : getTime(b) - getTime(a);
-		});
-		return sorted;
-	}
-
-	sorted.sort((a, b) => getTime(b) - getTime(a));
-	return sorted;
 }
 
 async function getQuestionLinks(questionId: number) {

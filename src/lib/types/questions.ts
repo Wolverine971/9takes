@@ -38,6 +38,9 @@ export interface Comment {
 	fingerprint?: string | null;
 	comment_count: number;
 	like_count?: number | null;
+	view_count?: number;
+	ranking_low_effort?: boolean;
+	is_own?: boolean;
 	ip?: string;
 	profiles?: Profile | null;
 	profiles_demo?: Profile | null;
@@ -142,6 +145,11 @@ export interface ReplyNotificationThread {
 export interface QuestionPageData {
 	question: Question;
 	comments: Comment[];
+	ownComments?: Comment[];
+	pinnedCommentIds?: number[];
+	commentRankingEnabled?: boolean;
+	commentViewsEnabled?: boolean;
+	commentsReady?: boolean;
 	removedComments: Comment[];
 	comment_count: number;
 	removed_comment_count: number;
