@@ -1,4 +1,4 @@
-// api/one-click-unsubscribe.spec.ts
+// vercel-functions/one-click-unsubscribe.spec.ts
 import { describe, expect, it, vi } from 'vitest';
 
 import { handleOneClickUnsubscribe } from './one-click-unsubscribe';

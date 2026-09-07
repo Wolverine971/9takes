@@ -10,6 +10,19 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-09-07 — Unattended weekly brief (10-day window; 08-31 brief lost to a credit blackout): DJ shipped the whole post-answer loop, the welcome sequence has been dead in prod since 09-02 on a missing env var, and the content engine is stalled at both ends
+
+- Brief: [`docs/daily-briefs/2026-09-07_marketing-status.md`](../daily-briefs/2026-09-07_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-09-07`, audit exit 0 at 06:08); headline + biggest leak folded verbatim. Supabase MCP down this session; no DB re-query.
+- **Growth headline (verbatim):** _"the loop fix shipped four hours after the week closed, the Reddit alpha's only answer was "Pooopin", and the welcome sequence has been silently dead in production since 09-02."_ Cohort 08-31: 4,489 new visitors, 0 signups, 2 typed profiles, 4 comments, gate 29 -> 3 = 10.3%, welcome 3/1/0 with 4 failed; contributor return **0 / 28 across six matured cohorts**.
+- **Biggest leak (verbatim):** _"the only channel that has produced substantive answers is dead in production, and the fix for the standing leak is live but unmeasured."_ `src/lib/email/sender.ts:327` (commit `0f702b7ee`, 09-01) throws on missing `EMAIL_FOOTER_ADDRESS`; set locally, not in Vercel. 4/4 welcome enrollments `errored` at `failure_count = 3`. The same guard blocks `enneagram_type_prompt` and the founding-circle weekly-question email.
+- **Shipped by DJ (`7db255b8e`, 09-07 00:21):** logged-in reply email default-on + one-click unsubscribe, 5 starter questions with 3 pins each, election q98/q168 flagged out, index pagination fixed, host desk + `/api/cron/host-digest` (13:00 UTC, first run today), `/admin/host-desk`, founding-circle tasker + 4 weekly-question drafts (0 invites). Closes 08-28 Rec #1 and the standing growth bet #1. Running, unmeasured.
+- **Content engine stalled both ends.** Create: `backlog-queue.json` `"queue": []`, six nights (09-02 -> 09-07) produced nothing. Publish: eligible drafts selected 08-29/30/31/09-01 (Freddie Mercury, Marcus Aurelius, Aaron Pierre, Jonathan Bailey) all died on Node 26.5.0 at `pnpm gen:all`; DJ hand-published all four plus five more. Streak **29 -> 39**. `.nvmrc`=`22` added 09-03 but `scripts/daily-blog-publisher.sh` still calls bare `node` — fix unverified.
+- **People:** disk **429 -> 438** published (all 9 by hand); DB corpus 447. 7 new drafts (Cara Delevingne, Demis Hassabis, Freddie Mercury, Laura Loomer, Naval Ravikant, Rebecca Yarros, Zach Bryan). Blockers: `missing_perspective_review` 83 -> 71, images 14 -> 9, `content_quality_below_8.5` 35 -> 26. Perspective-review dirs 34 -> 49, **all +8 to new drafts, zero backfill (4th brief)**. Closest: `zach-bryan` 8.9 images-only.
+- **Reddit is now a live channel, previously unlogged here.** `reddit/` (08-30): 8 sequenced drafts + README with positioning guardrails. #05 r/alphaandbetausers fired ~09-03 (`utm_campaign=alpha_beta_answer_first_20260831`, `/link/567`): 6 fps -> 1 contribution ("Pooopin"); 4 bounced <=5s; 1 hit `/register` twice and failed. 7 of 8 unfired.
+- **Still dark:** Instagram 31 days (queue RED 0/10, frozen 30 days, zero execution crons; 4th restore-or-retire ask), Quora 111 days, Twitter since 05-19, 14 distribution assets (oldest 194 days), outreach 34 days, One Take ep 1 44 days, GSC snapshot 25 days stale (a targeted Friedberg pull on 09-01 proves access works), pop-culture 21 unpublished (17 of 18 real drafts 3+ months).
+- **Also new:** T-37 information-diet campaign tasker (08-29) + community draft `the-world-is-burning-shared-agency.md` (2,382 words); 09-01 entity-gap scout (Dylan Patel CREATE on hold at DJ's direction; Friedberg unsourced claim fixed; Ashby/Coogan/Hormozi retrofit read due ~09-09); `.codex/skills/social-media-slam` + `social-media-onboarding`; security audit + 3 migrations 09-03; Resend sender/webhook + `process-email-events` cron 09-01.
+- **Next move (ranked):** (1) set `EMAIL_FOOTER_ADDRESS` in Vercel, re-arm the 4 errored enrollments, add an errored-enrollment alarm; (2) refill the create queue + pin Node in the publisher wrapper in one sitting; (3) send founding-circle invites in a 48-hour window and run the loop as one named 4-week experiment, fixing `contribution.path` in the same change. Hold the 7 remaining Reddit drafts until (3) is running.
+
 ### 2026-08-28 — Midweek pulse: answer activation improved; relationship formation, attribution, and distribution are now the constraints
 
 - Brief: [`docs/daily-briefs/2026-08-28_marketing-status.md`](../daily-briefs/2026-08-28_marketing-status.md). Manual off-cycle run after the wrapper's embedded Claude process returned `Not logged in`; production SQL, PostHog, repository state, OpenClaw state, and logs were inspected directly.
@@ -298,6 +311,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-09-07 — Current blockers needing DJ / eng decision
+
+- **`EMAIL_FOOTER_ADDRESS` missing in Vercel production:** welcome sequence dead since 09-02 06:15 UTC, 4/4 enrollments `errored`, cron no longer retrying. One env var + re-arm SQL (growth bet #1). Also gates `enneagram_type_prompt` and the weekly-question email.
+- **Create queue empty:** `docs/blog-automation/backlog-queue.json` `"queue": []`; six nights lost. Needs a refill source decision (`/find-surging-people`, 09-01 scout, or hand list; Dylan Patel on hold).
+- **Publisher runtime, 10 days unresolved, 4 autonomous publishes lost:** pin Node in `scripts/daily-blog-publisher.sh` or fix the OpenClaw gateway PATH. `.nvmrc` alone does not reach the wrapper.
+- **Founding circle send is DJ-gated:** copy + candidate query ready in `docs/growth/founding-circle/00-TASKER.md`; 0 invites; depends on the env-var fix for the weekly question.
+- **`contribution.path` still NULL on 2 of 4 events:** the 4-week loop readout will be hand-built unless fixed with the founding-circle change.
+- **Reddit:** 7 of 8 drafts unfired; growth recommends waiting for bets 1+2 and landing the next alpha on q118. The r/alphaandbetausers thread may owe a follow-up reply.
+- **Weekly wrapper credit blackouts (08-10, 08-31):** no pre-flight check or fallback model; the 08-31 brief was never produced.
+- **Carried:** Instagram restore-or-retire (4th brief; 31 days dark, 0 execution crons); perspective-review backfill fork (4th brief; 71 unreachable drafts); GSC snapshot refresh + first `seo-content-strategist` run (retrofit read due ~09-09); `ms-rachel` Type 2 anchor at 8.1 (5th brief); Quora 111 days; 14 distribution assets; pop-culture 21; One Take ep 1.
+- **Resolved since 08-28:** post-answer relationship moment (reply email + host desk + pins shipped 09-07); Instagram/Quora unchanged; publisher runtime NOT resolved despite `.nvmrc`.
+
 ### 2026-08-28 — Current blockers needing DJ / eng decision
 
 - **Post-answer relationship moment is now the earliest weak stage:** 4 reply-opt-in views produced 0 focus, submit, subscription, reply, or contributor return. Decide whether the promise should be reply notification, result delivery, or identity preservation; instrument one version and test it before adding more acquisition volume.
@@ -365,6 +390,13 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Decisions
 
+### 2026-09-07 — Observed from artifacts (not stated to the PM directly)
+
+- DJ shipped the full post-answer loop (`7db255b8e`) rather than the narrower opt-in rewrite proposed on 08-28: reply email default-on for logged-in users, curated starter set with pinned answers, and a host reply desk with a daily digest. Design rationale in `docs/product/2026-09-06-engagement-brainstorm-response.md`.
+- DJ opened Reddit as a distribution channel (`reddit/`, 08-30) and fired the r/alphaandbetausers post first, pointing at q567 via `/link/567` with a campaign UTM. This was the first tagged external distribution in the project's history.
+- Dylan Patel (entity-gap scout #1, score 83) is on hold at DJ's direction (recorded in the 09-01 scout).
+- Election-cycle questions q98/q168 are flagged out of browse; homepage fallback stays q567 until q118 has a chorus.
+
 ### 2026-06-11 — Agent overhaul: merged editors, merged growth analysts, weekly automation, GSC + DB data access
 
 - **`editor` agent** replaces `content-editor` + `content-polish` (both archived at `docs/archives/agents/`). One editor with three depths: diagnose / line edit / developmental edit. Calibrates first; honors an explicit depth as a hard ceiling. Shared rulebook extracted to `.claude/skills/9takes-editorial-standards/SKILL.md` (also now governs `/deai`, `/copywriting-pass`, `/blog_content_editor_pass_people`); hard rules codified: never touch `lastmod`, zero em-dashes, 8.5 grade gate.
@@ -393,6 +425,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-09-07](../daily-briefs/2026-09-07_marketing-status.md) — 10-day window (08-31 brief lost to a credit blackout). Growth gate passed; headline: loop fix shipped four hours after the week closed, Reddit alpha's only answer was "Pooopin", welcome sequence dead in prod since 09-02 (`EMAIL_FOOTER_ADDRESS` unset in Vercel, 4/4 enrollments errored; 0/28 contributor return across six matured cohorts). DJ shipped reply email + starters/pins + host desk + founding-circle drafts (`7db255b8e`), unmeasured. Content engine stalled both ends: create queue empty six nights, publisher lost 4 eligible drafts to Node 26 (streak 39), 9 hand publishes (429 -> 438 disk, DB 447). Reddit live as a channel (1 of 8 fired). Instagram 31 days / Quora 111 days dark; GSC 25 days stale.
 - [2026-08-28](../daily-briefs/2026-08-28_marketing-status.md) — activation improved (matched comments 1 -> 4, gate 3.3% -> 15.4%; question-page funnel 7 -> 4 -> 4) and two registrations landed, one typed; the 08-24 welcome-exit, reveal persistence, attribution, sleep-protection, and reactivation fixes are live; the leak moved to post-answer relationship formation (4 opt-in views, 0 interactions/replies/returns); traffic +19.7% was direct/unknown while organic and returners were flat; four clean nightly drafts but publisher at 29 consecutive errors from a Node 26/engine mismatch; Instagram and Quora still dark.
 - [2026-08-24](../daily-briefs/2026-08-24_marketing-status.md) — growth did not compound (17 -> 3 comments, gate 12.0% -> 8.6%, 5th straight matured cohort at 0% return) and the return-leg defect was located in `welcomeSequenceGuards.ts`; **CORRECTION: DJ shipped `/register` + reveal type capture 08-21 (`e62c71c55`) and the audit recorded it as unshipped**, though the reveal half is measurement-only; auto-publisher autonomously dark 25 days (6 manual publishes, 417 -> 423, victoria-justice + keira-knightley finally closed); perspective backlog 89 -> 86 with zero backfill (all +9 dirs went to new drafts); image debt regressed 7 -> 12; NEW host-sleep failure class cost both 08-24 runs (~3h, nate-bargatze retry 2/3); Instagram unscheduled 2nd week with 15 overdue queue items; Quora 97 days dark.
 - [2026-08-03](../daily-briefs/2026-08-03_marketing-status.md) — growth reversed (contributions 14 → 4, gate 16.3% → 5.4%, contributor return corrects to 0%, 82% of registrants untyped); DJ broke the publish drought by hand (392 → 401 published, 9 manual with regrades) and it re-jammed in a day with image debt (54) overtaking stale grades (30); NEW create filename bug at `run-blog-pipeline.sh:109` burning retry 3/3 tonight; IG sourcing clean but zero comments posted 4+ sessions (agent escalated a fork) + new Claude weekly-cap failure mode; content-ops queue RED 0/10 approved; PA port blocked by NineChorus light-mode regression; Quora 76 days dark.
@@ -410,6 +443,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 ## Experiment + campaign log
 
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
+
+### 2026-09-03 — Reddit alpha: r/alphaandbetausers post on q567 (`alpha_beta_answer_first_20260831`)
+
+- First tagged external distribution. 6 real fingerprints -> 2 reached the gate -> 1 contribution ("Pooopin", 20 s after landing); 1 read to 100% and hit `/register` twice without registering. Attribution criterion met (100% tagged); volume (6 vs >=15) and completion (1 vs >=2) missed. Growth's verdict: re-run only after the welcome fix and the loop experiment, landing on q118 not q567. Detail: `docs/growth/growth-log.md` `### 2026-09-07`; drafts in `reddit/`.
+
+### 2026-09-07 — Post-answer loop experiment (reply email + starters + pins + host digest), shipped `7db255b8e`
+
+- Cross-link only. Readout spec (4 weeks or 10 first-time contributors: >=8/10 host reply within 24h, >=2/10 return >24h in 7d, >=1 second contribution, q567 share <50%; guardrail gate >=10%, reply-email unsubscribes <=1) lives in `docs/growth/growth-log.md` `### 2026-09-07` bet #2. Founding-circle invites are the intended volume source; 0 sent as of this entry.
 
 ### 2026-04-08 — Full-stack growth audit (`growth-analyst-2`)
 

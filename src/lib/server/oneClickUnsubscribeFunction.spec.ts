@@ -1,7 +1,7 @@
 // src/lib/server/oneClickUnsubscribeFunction.spec.ts
 import { describe, expect, it, vi } from 'vitest';
 
-import { handleOneClickUnsubscribe } from '../../../api/one-click-unsubscribe';
+import { handleOneClickUnsubscribe } from '../../../vercel-functions/one-click-unsubscribe';
 
 const TRACKING_ID = '550e8400-e29b-41d4-a716-446655440000';
 

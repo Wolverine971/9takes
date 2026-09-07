@@ -69,8 +69,10 @@ const config = {
 			'src/**/**/*.{test,spec}.{js,ts}',
 			'src/**/**/**/*.{test,spec}.{js,ts}',
 			// Standalone Vercel functions live outside src/ so they bypass
-			// SvelteKit's CSRF guard (see api/one-click-unsubscribe.ts).
-			'api/**/*.{test,spec}.{js,ts}'
+			// SvelteKit's CSRF guard. They must NOT live in a root api/ folder:
+			// Vercel treats that as its own functions dir and 404s every dynamic
+			// /api/* SvelteKit route (see scripts/vercel-add-standalone-functions.mjs).
+			'vercel-functions/**/*.{test,spec}.{js,ts}'
 		]
 	},
 	css: {
