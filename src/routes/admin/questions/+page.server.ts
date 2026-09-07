@@ -1,6 +1,13 @@
 // src/routes/admin/questions/+page.server.ts
-import type { PageServerLoad } from './$types';
-import { error, redirect } from '@sveltejs/kit';
+import type { Actions, PageServerLoad } from './$types';
+import { error, fail, redirect } from '@sveltejs/kit';
+import { z } from 'zod';
+import { guardAdminActions } from '$lib/server/adminAuth';
+import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import {
+	MAX_PINNED_COMMENTS,
+	normalizePinnedCommentIds
+} from '$lib/components/questions/curatedReveal';
 import { mapDemoValues } from '../../../utils/demo';
 import type { Database } from '../../../../database.types';
 
@@ -19,6 +26,52 @@ type AdminTagOption = {
 };
 
 const QUESTION_PAGE_SIZE = 100;
+const ANSWER_SNIPPET_LENGTH = 60;
+
+type QuestionCurationRow = {
+	id: number;
+	starter_rank: number | null;
+	pinned_comment_ids: number[];
+};
+
+/**
+ * Best-effort read of the curation columns (starter_rank, pinned_comment_ids)
+ * for the loaded page of questions. Isolated from the main select so the admin
+ * page still loads if 20260906120100_question_starters_and_pins.sql has not
+ * been applied yet.
+ */
+async function loadCurationByQuestionId(
+	db: any,
+	questionIds: number[]
+): Promise<Map<number, QuestionCurationRow>> {
+	const curationById = new Map<number, QuestionCurationRow>();
+	if (!questionIds.length) return curationById;
+
+	const { data, error: curationError } = await db
+		.from('questions')
+		.select('id, starter_rank, pinned_comment_ids')
+		.in('id', questionIds);
+
+	if (curationError) {
+		console.warn('Question curation columns unavailable', curationError.message ?? curationError);
+		return curationById;
+	}
+
+	for (const row of (data ?? []) as Array<{
+		id: number;
+		starter_rank: number | null;
+		pinned_comment_ids: unknown;
+	}>) {
+		const rank = Number(row.starter_rank);
+		curationById.set(row.id, {
+			id: row.id,
+			starter_rank: Number.isInteger(rank) && rank > 0 ? rank : null,
+			pinned_comment_ids: normalizePinnedCommentIds(row.pinned_comment_ids)
+		});
+	}
+
+	return curationById;
+}
 
 async function validateAdmin(
 	session: App.Locals['session'],
@@ -127,15 +180,25 @@ export const load: PageServerLoad = async (event) => {
 			{}
 		);
 
+		const curationById = isDemo
+			? new Map<number, QuestionCurationRow>()
+			: await loadCurationByQuestionId(db, questionIds);
+
 		const questionsWithKeywords = (questions ?? []).map((question: any) => {
 			const keywordRow = questionKeywordsMap[question.id];
+			const curation = curationById.get(question.id);
+			const decorated = {
+				...question,
+				starter_rank: curation?.starter_rank ?? null,
+				pinned_comment_ids: curation?.pinned_comment_ids ?? []
+			};
 			if (keywordRow) {
 				return {
-					...question,
+					...decorated,
 					keywords: (keywordRow.keywords ?? '').split(',').filter(Boolean)
 				};
 			}
-			return question;
+			return decorated;
 		});
 
 		return {
@@ -158,3 +221,120 @@ export const load: PageServerLoad = async (event) => {
 		throw error(500, { message: 'An unexpected error occurred' });
 	}
 };
+
+// =============================================================================
+// Curation actions ("Start here" rank + pinned reveal trio)
+// Guarded by guardAdminActions (requireAdmin runs before any handler).
+// =============================================================================
+const questionIdSchema = z
+	.string()
+	.regex(/^\d+$/, 'Invalid question id')
+	.transform((value) => Number.parseInt(value, 10));
+
+const curateSchema = z.object({
+	questionId: questionIdSchema,
+	starterRank: z
+		.string()
+		.trim()
+		.transform((value) => (value === '' ? null : Number.parseInt(value, 10)))
+		.refine(
+			(value) => value === null || (Number.isInteger(value) && value >= 1 && value <= 999),
+			'Starter rank must be blank or a whole number from 1 to 999'
+		),
+	pinnedCommentIds: z.string().transform((value) =>
+		normalizePinnedCommentIds(
+			value
+				.split(/[,\s]+/)
+				.map((part) => part.trim())
+				.filter(Boolean)
+		)
+	)
+});
+
+const listAnswersSchema = z.object({ questionId: questionIdSchema });
+
+export const actions: Actions = guardAdminActions({
+	/** Save starter_rank + pinned_comment_ids through the service-role RPC. */
+	curate: async ({ request }) => {
+		const parsed = curateSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) {
+			return fail(400, {
+				curation: { error: parsed.error.errors[0]?.message ?? 'Invalid curation payload' }
+			});
+		}
+
+		const { questionId, starterRank, pinnedCommentIds } = parsed.data;
+		const { data, error: rpcError } = await (getSupabaseAdminClient().rpc as any)(
+			'set_question_curation',
+			{
+				p_question_id: questionId,
+				p_starter_rank: starterRank,
+				p_pinned_comment_ids: pinnedCommentIds.slice(0, MAX_PINNED_COMMENTS)
+			}
+		);
+
+		if (rpcError) {
+			console.error('set_question_curation failed', rpcError);
+			return fail(500, {
+				curation: { error: rpcError.message ?? 'Could not save curation' }
+			});
+		}
+
+		const saved = (data ?? {}) as { starter_rank?: number | null; pinned_comment_ids?: unknown };
+		const savedPinned = normalizePinnedCommentIds(saved.pinned_comment_ids);
+		const dropped = pinnedCommentIds.filter((id) => !savedPinned.includes(id));
+
+		return {
+			curation: {
+				questionId,
+				starterRank: saved.starter_rank ?? null,
+				pinnedCommentIds: savedPinned,
+				droppedCommentIds: dropped
+			}
+		};
+	},
+
+	/** Top-level, non-removed answers on a question with a short snippet, for picking pins. */
+	listAnswers: async ({ request }) => {
+		const parsed = listAnswersSchema.safeParse(Object.fromEntries(await request.formData()));
+		if (!parsed.success) {
+			return fail(400, { answers: { error: 'Invalid question id' } });
+		}
+
+		const { data, error: answersError } = await getSupabaseAdminClient()
+			.from('comments')
+			.select('id, comment, author_id, created_at, like_count, comment_count')
+			.eq('parent_type', 'question')
+			.eq('parent_id', parsed.data.questionId)
+			.eq('removed', false)
+			.order('created_at', { ascending: false })
+			.limit(200);
+
+		if (answersError) {
+			console.error('Could not list answers for curation', answersError);
+			return fail(500, { answers: { error: 'Could not load answers' } });
+		}
+
+		return {
+			answers: {
+				questionId: parsed.data.questionId,
+				items: (data ?? []).map((row) => {
+					const text = String(row.comment ?? '')
+						.replace(/\s+/g, ' ')
+						.trim();
+					return {
+						id: row.id,
+						snippet:
+							text.length > ANSWER_SNIPPET_LENGTH
+								? `${text.slice(0, ANSWER_SNIPPET_LENGTH - 1).trimEnd()}…`
+								: text,
+						anonymous: !row.author_id,
+						created_at: row.created_at,
+						like_count: row.like_count ?? 0,
+						reply_count: row.comment_count ?? 0
+					};
+				})
+			}
+		};
+	}
+});

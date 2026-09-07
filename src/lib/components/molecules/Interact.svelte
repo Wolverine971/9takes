@@ -50,9 +50,19 @@
 		questionId: number;
 		isDemo?: boolean;
 		oncommentAdded?: (comment: CommentType) => void;
+		/** Lets the page mirror the anonymous reply-email tray state (host promise copy). */
+		onreplyOptInChange?: (state: 'shown' | 'dismissed' | 'subscribed') => void;
 	}
 
-	let { parentType, data, user, questionId, isDemo = false, oncommentAdded }: Props = $props();
+	let {
+		parentType,
+		data,
+		user,
+		questionId,
+		isDemo = false,
+		oncommentAdded,
+		onreplyOptInChange
+	}: Props = $props();
 
 	// Type guard to check if data is QuestionPageData
 	const isQuestionPageData = (d: QuestionPageData | CommentType): d is QuestionPageData => {
@@ -461,6 +471,7 @@
 		replyOptInSucceeded = false;
 		replyOptInFocusedTracked = false;
 		void captureReplyOptInShown(replyOptInContext);
+		onreplyOptInChange?.('shown');
 	}
 
 	function focusReplyOptIn() {
@@ -476,6 +487,7 @@
 		replyOptInContext = null;
 		replyEmail = '';
 		replyOptInMessage = '';
+		onreplyOptInChange?.('dismissed');
 	}
 
 	function getReplyOptInStatus(result: any): string {
@@ -521,6 +533,7 @@
 				replyOptInSucceeded = true;
 				replyOptInMessage = 'You’re set. We’ll only email if someone replies to this conversation.';
 				void captureReplyOptInSucceeded(replyOptInContext);
+				onreplyOptInChange?.('subscribed');
 				return;
 			}
 

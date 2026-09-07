@@ -47,6 +47,7 @@
 		created_at: string;
 		tag_id?: number;
 		tag_name?: string;
+		starter_rank?: number | null;
 		category_paths?: QuestionCategoryPath[];
 	};
 
@@ -117,6 +118,9 @@
 		return out;
 	}
 
+	// Curated "Start here" set (rank order, page 1 only). The RPC keeps these
+	// out of the archive list, so nothing renders twice.
+	let starterQuestions = $derived(dedupeById([...(data.starters ?? [])] as QuestionRow[]));
 	let questionsList = $state<QuestionRow[]>(
 		untrack(() => dedupeById([...(data.questionsAndTags ?? [])] as QuestionRow[]))
 	);
@@ -251,6 +255,23 @@
 	function questionCategoryLeafLabel(categoryPath: QuestionCategoryPath): string {
 		const path = questionCategoryDisplayPath(categoryPath);
 		return path.at(-1)?.category_name ?? categoryPath.category_name;
+	}
+
+	const SMALL_NUMBER_WORDS = [
+		'Zero',
+		'One',
+		'Two',
+		'Three',
+		'Four',
+		'Five',
+		'Six',
+		'Seven',
+		'Eight',
+		'Nine'
+	];
+
+	function numberWord(count: number): string {
+		return SMALL_NUMBER_WORDS[count] ?? String(count);
 	}
 </script>
 
@@ -414,6 +435,76 @@
 			</div>
 		</div>
 
+		{#snippet questionRow(q: QuestionRow, position: number)}
+			<li class="question-row" use:trackQuestionRow={{ question: q, position }}>
+				<a href={`/questions/${q.url}`} class="question-row-link">
+					<span class="question-row-text">
+						{q.question_formatted ?? q.question}
+					</span>
+					<span class="mono question-row-meta">
+						{#if q.category_paths?.length}
+							<span class="question-row-cats">
+								{#each q.category_paths.slice(0, 1) as categoryPath (`${categoryPath.id}-${categoryPath.path_label}`)}
+									<span
+										class="question-row-cat-path"
+										title={categoryPath.path_label}
+										aria-label={categoryPath.path_label}
+									>
+										<span class="question-row-cat-part question-row-cat-part--leaf">
+											{questionCategoryLeafLabel(categoryPath)}
+										</span>
+									</span>
+								{/each}
+								{#if q.category_paths.length > 1}
+									<span
+										class="question-row-cat-more"
+										aria-label={`${q.category_paths.length - 1} more categories`}
+									>
+										+{q.category_paths.length - 1}
+									</span>
+								{/if}
+							</span>
+							<span class="question-row-sep" aria-hidden="true">·</span>
+						{:else if q.tag_name}
+							<span class="question-row-cat">{q.tag_name.toUpperCase()}</span>
+							<span class="question-row-sep" aria-hidden="true">·</span>
+						{/if}
+						<span class="question-row-takes">
+							{q.comment_count ?? 0} TAKE{(q.comment_count ?? 0) === 1 ? '' : 'S'}
+						</span>
+						<span class="question-row-sep" aria-hidden="true">·</span>
+						<span class="question-row-time">{relativeTime(q.created_at)}</span>
+					</span>
+				</a>
+			</li>
+		{/snippet}
+
+		{#if starterQuestions.length}
+			<section class="start-here" aria-labelledby="start-here-title">
+				<header class="start-here-head">
+					<p class="mono start-here-kicker">START HERE</p>
+					<h3 id="start-here-title" class="start-here-title">
+						{starterQuestions.length === 1
+							? 'One question you can answer in a sentence.'
+							: `${numberWord(starterQuestions.length)} questions you can answer in a sentence.`}
+					</h3>
+					<p class="start-here-sub">Answer one, then see how differently other people saw it.</p>
+				</header>
+				<ol class="question-list question-list--starters">
+					{#each starterQuestions as q, position (q.id)}
+						{@render questionRow(q, position)}
+					{/each}
+				</ol>
+			</section>
+		{/if}
+
+		{#if starterQuestions.length}
+			<header class="archive-head">
+				<p class="mono archive-kicker">THE ARCHIVE</p>
+				<p class="archive-sub">Everything else, newest first.</p>
+			</header>
+		{/if}
+
 		{#if questionsList.length === 0}
 			<div class="empty-state">
 				<p class="mono empty-state-label">NO OPEN QUESTIONS</p>
@@ -425,47 +516,7 @@
 		{:else}
 			<ul class="question-list">
 				{#each questionsList as q, position (q.id)}
-					<li class="question-row" use:trackQuestionRow={{ question: q, position }}>
-						<a href={`/questions/${q.url}`} class="question-row-link">
-							<span class="question-row-text">
-								{q.question_formatted ?? q.question}
-							</span>
-							<span class="mono question-row-meta">
-								{#if q.category_paths?.length}
-									<span class="question-row-cats">
-										{#each q.category_paths.slice(0, 1) as categoryPath (`${categoryPath.id}-${categoryPath.path_label}`)}
-											<span
-												class="question-row-cat-path"
-												title={categoryPath.path_label}
-												aria-label={categoryPath.path_label}
-											>
-												<span class="question-row-cat-part question-row-cat-part--leaf">
-													{questionCategoryLeafLabel(categoryPath)}
-												</span>
-											</span>
-										{/each}
-										{#if q.category_paths.length > 1}
-											<span
-												class="question-row-cat-more"
-												aria-label={`${q.category_paths.length - 1} more categories`}
-											>
-												+{q.category_paths.length - 1}
-											</span>
-										{/if}
-									</span>
-									<span class="question-row-sep" aria-hidden="true">·</span>
-								{:else if q.tag_name}
-									<span class="question-row-cat">{q.tag_name.toUpperCase()}</span>
-									<span class="question-row-sep" aria-hidden="true">·</span>
-								{/if}
-								<span class="question-row-takes">
-									{q.comment_count ?? 0} TAKE{(q.comment_count ?? 0) === 1 ? '' : 'S'}
-								</span>
-								<span class="question-row-sep" aria-hidden="true">·</span>
-								<span class="question-row-time">{relativeTime(q.created_at)}</span>
-							</span>
-						</a>
-					</li>
+					{@render questionRow(q, position)}
 				{/each}
 			</ul>
 		{/if}
@@ -920,6 +971,123 @@
 		line-height: 1.55;
 		color: var(--ink-mid);
 		max-width: 580px;
+	}
+
+	/* ---------- Start here (curated starters) ---------- */
+	.start-here {
+		position: relative;
+		z-index: 1;
+		width: min(100%, 880px);
+		margin: 0 auto 36px;
+		padding: 18px 16px 6px;
+		border: 1px solid color-mix(in srgb, var(--lamp-glow) 26%, var(--stone-edge));
+		border-radius: 0.625rem;
+		background:
+			linear-gradient(
+				180deg,
+				color-mix(in srgb, var(--lamp-soft) 38%, transparent) 0%,
+				transparent 100%
+			),
+			var(--stone-warm);
+
+		@media (max-width: 540px) {
+			padding: 14px 10px 4px;
+			margin-bottom: 28px;
+		}
+	}
+
+	.start-here-head {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+		padding: 0 14px 14px;
+
+		@media (max-width: 540px) {
+			padding: 0 10px 12px;
+		}
+	}
+
+	.start-here-kicker {
+		color: var(--lamp-glow);
+	}
+
+	.start-here-title {
+		font-family: var(--font-display);
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 1.3;
+		letter-spacing: -0.01em;
+		color: var(--ink-bright);
+
+		@media (max-width: 540px) {
+			font-size: 18px;
+		}
+	}
+
+	.start-here-sub {
+		font-family: var(--font-display);
+		font-size: 15px;
+		line-height: 1.5;
+		color: var(--ink-mid);
+	}
+
+	.question-list--starters {
+		counter-reset: starter;
+
+		.question-row-link {
+			position: relative;
+			padding-left: 44px;
+
+			@media (max-width: 540px) {
+				padding-left: 36px;
+			}
+		}
+
+		.question-row-link::before {
+			counter-increment: starter;
+			content: counter(starter, decimal-leading-zero);
+			position: absolute;
+			left: 14px;
+			top: 14px;
+			font-family: var(--font-mono);
+			font-size: 11px;
+			letter-spacing: 0.06em;
+			color: var(--lamp-glow);
+
+			@media (max-width: 540px) {
+				left: 10px;
+				top: 12px;
+			}
+		}
+
+		.question-row:last-child {
+			border-bottom: 0;
+		}
+	}
+
+	.archive-head {
+		position: relative;
+		z-index: 1;
+		width: min(100%, 880px);
+		margin: 0 auto 10px;
+		display: flex;
+		align-items: baseline;
+		gap: 10px;
+		padding: 0 14px;
+
+		@media (max-width: 540px) {
+			padding: 0 10px;
+		}
+	}
+
+	.archive-kicker {
+		color: var(--lamp-glow);
+	}
+
+	.archive-sub {
+		font-family: var(--font-display);
+		font-size: 14px;
+		color: var(--ink-dim);
 	}
 
 	.question-list {

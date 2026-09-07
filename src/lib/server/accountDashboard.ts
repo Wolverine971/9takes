@@ -709,6 +709,8 @@ export interface NotificationPreferences {
 	take_on_answered_question: boolean;
 	like_on_take: boolean;
 	email_digest: boolean;
+	/** Transactional "someone replied to your take" email. Default ON. */
+	email_replies: boolean;
 }
 
 export const DEFAULT_NOTIFICATION_PREFERENCES: NotificationPreferences = {
@@ -716,7 +718,8 @@ export const DEFAULT_NOTIFICATION_PREFERENCES: NotificationPreferences = {
 	take_on_your_question: true,
 	take_on_answered_question: true,
 	like_on_take: true,
-	email_digest: true
+	email_digest: true,
+	email_replies: true
 };
 
 export async function loadNotificationPreferences(
@@ -724,16 +727,27 @@ export async function loadNotificationPreferences(
 	userId: string
 ): Promise<NotificationPreferences> {
 	try {
+		// Select * and pick, rather than naming columns, so a column added by a
+		// later migration (email_replies, 20260906120000) does not turn the whole
+		// read into an error before that migration is applied.
 		const { data, error } = await supabase
 			.from('notification_preferences')
-			.select(
-				'reply_to_take, take_on_your_question, take_on_answered_question, like_on_take, email_digest'
-			)
+			.select('*')
 			.eq('user_id', userId)
 			.maybeSingle();
 
 		if (error || !data) return { ...DEFAULT_NOTIFICATION_PREFERENCES };
-		return data as NotificationPreferences;
+		const row = data as Partial<Record<keyof NotificationPreferences, boolean | null>>;
+		const pick = (key: keyof NotificationPreferences) =>
+			typeof row[key] === 'boolean' ? (row[key] as boolean) : DEFAULT_NOTIFICATION_PREFERENCES[key];
+		return {
+			reply_to_take: pick('reply_to_take'),
+			take_on_your_question: pick('take_on_your_question'),
+			take_on_answered_question: pick('take_on_answered_question'),
+			like_on_take: pick('like_on_take'),
+			email_digest: pick('email_digest'),
+			email_replies: pick('email_replies')
+		};
 	} catch {
 		return { ...DEFAULT_NOTIFICATION_PREFERENCES };
 	}

@@ -1,6 +1,6 @@
 <!-- src/lib/components/molecules/Comment.svelte -->
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher, onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { resolve } from '$app/paths';
 	import { ChevronRight, EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
@@ -35,6 +35,9 @@
 	export let comment: CommentType;
 	export let parentData: QuestionPageData | CommentType;
 	export let questionId: number;
+	// Deep links (?reply=<id>) need the thread open on first paint: show
+	// pre-loaded replies immediately, otherwise run the same load the toggle does.
+	export let autoExpandReplies = false;
 
 	// State variables
 	let likes: CommentLike[] = [];
@@ -160,6 +163,15 @@
 			loadingComments = false;
 		}
 	}
+
+	onMount(() => {
+		if (!autoExpandReplies || !(_commentComment.comment_count > 0)) return;
+		if (_commentComment.comments?.length) {
+			showReplies = true;
+		} else {
+			void loadNestedComments();
+		}
+	});
 
 	// Toggle replies visibility
 	function toggleReplies() {
@@ -698,7 +710,7 @@
 							<ChevronRight
 								size={16}
 								strokeWidth={1.75}
-								class="reply-chevron text-[var(--ink-dim)] transition-transform duration-200 group-hover/toggle:text-[var(--ink-bright)] {showReplies
+								class="reply-chevron group-hover/toggle:text-[var(--ink-bright)] text-[var(--ink-dim)] transition-transform duration-200 {showReplies
 									? 'rotate-90'
 									: ''}"
 							/>
@@ -707,7 +719,7 @@
 
 					<!-- Reply count -->
 					<span
-						class="text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200 group-hover/toggle:text-[var(--ink-bright)]"
+						class="group-hover/toggle:text-[var(--ink-bright)] text-sm font-medium text-[var(--ink-mid)] transition-colors duration-200"
 					>
 						{_commentComment.comment_count}
 						{_commentComment.comment_count === 1 ? 'reply' : 'replies'}

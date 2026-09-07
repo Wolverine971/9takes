@@ -447,6 +447,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'mikey-madison', link: true, hasImage: true, lastmod: '2026-04-03', personaTitle: 'The Shy Girl\'s Vanishing Act', contentGrade: 9.2, types: ['newMovieStar', 'rising-star'] },
 		{ name: 'mira-murati', link: true, hasImage: true, lastmod: '2026-07-28', personaTitle: 'AI\'s Center of Gravity', contentGrade: 8.6, types: ['techie', 'entrepreneur'] },
 		{ name: 'naomi-osaka', link: true, hasImage: true, lastmod: '2026-05-10', personaTitle: 'Tennis\'s Apologetic Champion', contentGrade: 9.16, types: ['celebrity', 'celebrity-image'] },
+		{ name: 'nate-bargatze', link: true, hasImage: true, lastmod: '2026-09-06', personaTitle: 'The Magician\'s Kid', contentGrade: 8.6, types: ['comedian', 'celebrity', 'entrepreneur'] },
 		{ name: 'paul-rudd', link: true, hasImage: true, lastmod: '2026-01-23', personaTitle: 'Hollywood\'s Perpetual Nice Guy', contentGrade: 7.8, types: ['movieStar', 'screen-icon'] },
 		{ name: 'pete-davidson', link: true, hasImage: true, lastmod: '2026-02-10', personaTitle: 'Comedy\'s Lovable Mess', contentGrade: 9, types: ['celebrity', 'comedian', 'tv-comedy-crossover', 'sketch-comic'] },
 		{ name: 'post-malone', link: true, hasImage: true, lastmod: '2026-02-20', personaTitle: 'Music\'s Tattooed Ghost', contentGrade: 8.6, types: ['musician', 'rapper'] },

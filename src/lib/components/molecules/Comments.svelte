@@ -20,6 +20,9 @@
 	export let parentData: QuestionPageData | CommentType;
 	export let key: number = 0; // Used to force re-render
 	export let onCommentsUpdate: ((comments: CommentType[]) => void) | undefined = undefined;
+	// Ids rendered elsewhere (the pinned reveal trio). They stay in `_comments`
+	// so pagination offsets and counts are untouched; they are only hidden here.
+	export let excludeIds: number[] = [];
 
 	// Track the date of last comment for pagination
 	$: lastDate = comments?.length ? comments[comments.length - 1]?.created_at || null : null;
@@ -30,6 +33,10 @@
 
 	// Create a reactive deep copy to avoid mutation issues
 	$: _comments = comments ? (JSON.parse(JSON.stringify(comments)) as CommentType[]) : [];
+	$: excludedIdSet = new Set(excludeIds ?? []);
+	$: visibleComments = excludedIdSet.size
+		? _comments.filter((comment) => !excludedIdSet.has(comment.id))
+		: _comments;
 
 	let loading = false;
 	let initialLoading = false;
@@ -91,8 +98,11 @@
 		}
 	};
 
-	// Update a single comment in the array
-	function handleCommentUpdate(comment: any, index: number) {
+	// Update a single comment in the array (matched by id: the rendered list
+	// can be a filtered view of `_comments`, so indexes are not stable).
+	function handleCommentUpdate(comment: any) {
+		const index = _comments.findIndex((existing) => existing.id === comment?.id);
+		if (index === -1) return;
 		_comments[index] = comment;
 		_comments = [..._comments]; // Create new array to trigger reactivity
 		comments = _comments; // Update parent
@@ -132,7 +142,7 @@
 			class:comment-list--root={parentType === 'question'}
 			class:comment-list--nested={parentType === 'comment'}
 		>
-			{#each _comments as comment, index (comment.id)}
+			{#each visibleComments as comment, index (comment.id)}
 				<div
 					class="comment-list__item"
 					in:fade={{ duration: 300, delay: Math.min(index * 20, 100) }}
@@ -143,7 +153,7 @@
 						{user}
 						{parentData}
 						on:commentAdded={refreshComments}
-						on:commentUpdated={(e) => handleCommentUpdate(e.detail, index)}
+						on:commentUpdated={(e) => handleCommentUpdate(e.detail)}
 					/>
 				</div>
 			{/each}

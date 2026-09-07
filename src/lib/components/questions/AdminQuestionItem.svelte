@@ -4,6 +4,7 @@
 	import { notifications } from '$lib/components/molecules/notifications';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import XmarkIcon from '$lib/components/icons/xmarkIcon.svelte';
+	import QuestionCurationPanel from './QuestionCurationPanel.svelte';
 	import { onDestroy } from 'svelte';
 
 	export let questionData: any;
@@ -126,6 +127,18 @@
 		Object.assign(questionData, nextQuestion);
 		questionData = { ...questionData };
 		selectedTags = [...(nextQuestion?.question_tag || [])];
+		emitQuestionUpdated(questionData);
+	}
+
+	function applyCurationUpdate(curation: {
+		starterRank: number | null;
+		pinnedCommentIds: number[];
+	}) {
+		questionData = {
+			...questionData,
+			starter_rank: curation.starterRank,
+			pinned_comment_ids: [...curation.pinnedCommentIds]
+		};
 		emitQuestionUpdated(questionData);
 	}
 
@@ -523,6 +536,15 @@
 							>
 						{/each}
 					</div>
+				</div>
+
+				<div class="question-detail-modal__section">
+					<QuestionCurationPanel
+						questionId={questionData.id}
+						starterRank={questionData.starter_rank ?? null}
+						pinnedCommentIds={questionData.pinned_comment_ids ?? []}
+						oncurationSaved={applyCurationUpdate}
+					/>
 				</div>
 			</section>
 

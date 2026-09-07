@@ -176,7 +176,8 @@ export const actions: Actions = {
 				p_take_on_your_question: flag('take_on_your_question'),
 				p_take_on_answered_question: flag('take_on_answered_question'),
 				p_like_on_take: flag('like_on_take'),
-				p_email_digest: flag('email_digest')
+				p_email_digest: flag('email_digest'),
+				p_email_replies: flag('email_replies')
 			}
 		);
 

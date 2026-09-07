@@ -2,6 +2,12 @@
 <script lang="ts">
 	import { onMount, tick } from 'svelte';
 	import { captureReplyNotificationReturnEvent } from '$lib/analytics/replyNotificationReturnEvents';
+	import {
+		prefersReducedMotion,
+		scrollToNewReply,
+		softenNewReply,
+		whenNewReplyVisible
+	} from './newReplyTreatment';
 	import type {
 		ReplyNotificationReturnContext,
 		ReplyNotificationThread
@@ -41,14 +47,14 @@
 		}
 
 		void captureReplyNotificationReturnEvent('reply_notification_landed', context, { revisit });
-		let observer: IntersectionObserver | null = null;
-		let softenTimer: ReturnType<typeof setTimeout> | null = null;
+		let stopObserving: (() => void) | null = null;
+		let cancelSoften: (() => void) | null = null;
 		let cancelled = false;
 
 		void tick().then(() => {
 			if (cancelled) return;
-			const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
-			target?.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+			const reduceMotion = prefersReducedMotion();
+			scrollToNewReply(target, reduceMotion);
 			heading?.focus({ preventScroll: true });
 
 			const markVisible = () => {
@@ -60,23 +66,11 @@
 					// Storage is optional; return behavior must still work without it.
 				}
 				void captureReplyNotificationReturnEvent('reply_target_visible', context, { revisit });
-				if (reduceMotion) labelSoftened = true;
-				else softenTimer = setTimeout(() => (labelSoftened = true), 4_000);
+				cancelSoften = softenNewReply(reduceMotion, () => (labelSoftened = true));
 			};
 
-			if (targetExists && typeof IntersectionObserver === 'function') {
-				observer = new IntersectionObserver(
-					(entries) => {
-						if (entries.some((entry) => entry.isIntersecting && entry.intersectionRatio >= 0.5)) {
-							markVisible();
-							observer?.disconnect();
-						}
-					},
-					{ threshold: [0.5] }
-				);
-				observer.observe(target);
-			} else if (targetExists) {
-				markVisible();
+			if (targetExists) {
+				stopObserving = whenNewReplyVisible(target, markVisible);
 			} else {
 				actionReady = true;
 			}
@@ -84,8 +78,8 @@
 
 		return () => {
 			cancelled = true;
-			observer?.disconnect();
-			if (softenTimer) clearTimeout(softenTimer);
+			stopObserving?.();
+			cancelSoften?.();
 		};
 	});
 </script>

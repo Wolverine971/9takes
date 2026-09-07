@@ -2,7 +2,7 @@
 
 # Workstream Status
 
-Last updated: 2026-08-14
+Last updated: 2026-09-06
 
 | ID    | State                            | Owner      | Next gate                                                                       |
 | ----- | -------------------------------- | ---------- | ------------------------------------------------------------------------------- |
@@ -15,6 +15,14 @@ Last updated: 2026-08-14
 | QC-07 | Waiting for mature baseline      | Unassigned | Collect one stable week of canonical production events                          |
 
 ## Decision log
+
+### 2026-09-06
+
+- Diagnosed the loop from production data and a code trace; write-up in [`docs/product/2026-09-06-engagement-brainstorm-response.md`](../../product/2026-09-06-engagement-brainstorm-response.md). Since 2026-08-14: zero reply-email opt-ins, zero outbox rows, one DJ reply, one person who contributed and returned in a later week. Logged-in users had no email leg at all (in-app row only).
+- Built, verified locally against a copy of the production schema, and left UNAPPLIED pending DJ's go: `20260906120000` (reply email for logged-in users, default on, GET-confirm + POST unsubscribe), `20260906120100` (starter_rank + pinned_comment_ids, index pagination fix, flags 98/168), `20260906120200` (host reply desk: drafts table, digest candidates, post-as-host RPC), `20260906121000` (data: five starters, three pins each, four more time-bound questions flagged, four junk comments on starter pages soft-deleted).
+- App changes: `/questions` "Start here" block; pinned trio first at the reveal with host promise line and next-question nudge; `?reply=` deep link that pre-expands the reply; daily host digest cron (`/api/cron/host-digest`, 13:00 UTC) emailing two drafted replies per take with a phone page at `/host-desk/[token]` (GET renders, POST posts); `/admin/host-desk` and curation panel in `/admin/questions`. 834 tests pass, 0 type errors.
+- QC-03/04/05 remain unverified by a real journey; the new logged-in leg supersedes their importance for account holders. QC-06 fallback stays 567 until 118 has a chorus (`is_question_chorus_ready(118)` is false).
+- Founding circle tasker and four weekly-question drafts in [`docs/growth/founding-circle/`](../founding-circle/00-TASKER.md). Nothing sent.
 
 ### 2026-08-14
 

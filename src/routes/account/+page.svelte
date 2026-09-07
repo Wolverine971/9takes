@@ -74,7 +74,8 @@
 		take_on_your_question: true,
 		take_on_answered_question: true,
 		like_on_take: true,
-		email_digest: true
+		email_digest: true,
+		email_replies: true
 	};
 
 	let { data }: { data: PageData } = $props();
@@ -887,6 +888,26 @@
 						     job; prefs.email_digest still round-trips and defaults true,
 						     so nobody's stored choice is lost in the meantime. -->
 
+						<!-- The email rides on the in-app reply_to_take notification row, so
+						     it cannot fire while that switch is off. Disabling (not hiding)
+						     keeps the stored choice intact. -->
+						<label class="toggle toggle-group-heading">
+							<input
+								type="checkbox"
+								bind:checked={prefs.email_replies}
+								disabled={!prefs.reply_to_take}
+							/>
+							<span>Email me when someone replies to my take</span>
+						</label>
+						<p class="muted small">
+							{#if prefs.reply_to_take}
+								One email per direct reply, with a link straight to the conversation. Every email
+								has a one-click off switch.
+							{:else}
+								Turn on "Someone replies to my take" above to get these emails.
+							{/if}
+						</p>
+
 						<Button
 							type="button"
 							variant="secondary"
@@ -1627,6 +1648,16 @@
 		width: 1rem;
 		height: 1rem;
 		accent-color: var(--lamp-glow);
+	}
+
+	/* A little air above the email toggle so it reads as its own group, not a
+	   fifth in-app switch. */
+	.toggle-group-heading {
+		margin-top: 0.75rem;
+	}
+
+	.settings-section .toggle + .muted.small {
+		margin-top: 0;
 	}
 
 	.field-grid {

@@ -3,7 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://9takes.com</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/about</loc>
@@ -11,7 +11,7 @@
   </url>
   <url>
     <loc>https://9takes.com/blog</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/book-session</loc>
@@ -135,7 +135,7 @@
   </url>
   <url>
     <loc>https://9takes.com/corpus-stats</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/enneagram-corner</loc>
@@ -922,7 +922,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/aaron-pierre</loc>
@@ -1458,7 +1458,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories</loc>
-    <lastmod>2026-09-02</lastmod>
+    <lastmod>2026-09-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/categories/authors-thinkers</loc>
@@ -3085,6 +3085,13 @@
     </image:image>
   </url>
   <url>
+    <loc>https://9takes.com/personality-analysis/nate-bargatze</loc>
+    <lastmod>2026-09-06</lastmod>
+    <image:image>
+      <image:loc>https://9takes.com/types/9s/Nate-Bargatze.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://9takes.com/personality-analysis/neil-strauss</loc>
     <lastmod>2026-04-25</lastmod>
     <image:image>
@@ -4007,7 +4014,7 @@
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/type/9</loc>
-    <lastmod>2026-08-19</lastmod>
+    <lastmod>2026-09-06</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/personality-analysis/victoria-justice</loc>
@@ -4116,7 +4123,7 @@
   </url>
   <url>
     <loc>https://9takes.com/pop-culture</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis</loc>
@@ -4483,10 +4490,6 @@
     <lastmod>2023-12-02</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/main-fear-trump-getting-elected</loc>
-    <lastmod>2024-09-06</lastmod>
-  </url>
-  <url>
     <loc>https://9takes.com/questions/one-best-times-life</loc>
     <lastmod>2023-12-21</lastmod>
   </url>
@@ -4517,14 +4520,6 @@
   <url>
     <loc>https://9takes.com/questions/tell-parents-knew-wouldnt-angry-upset</loc>
     <lastmod>2024-03-07</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/think-feel-murder-charlie-kirk</loc>
-    <lastmod>2025-09-15</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/think-real-objective-us-war-iran-public-isnt-told</loc>
-    <lastmod>2026-03-04</lastmod>
   </url>
   <url>
     <loc>https://9takes.com/questions/tips-recent-highschool-grad-wants-become-politician</loc>
@@ -4603,10 +4598,6 @@
     <lastmod>2026-08-28</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/whats-biggest-lesson-youve-learned-year-2024</loc>
-    <lastmod>2024-06-14</lastmod>
-  </url>
-  <url>
     <loc>https://9takes.com/questions/whats-criteria-considering-someone-friend</loc>
     <lastmod>2026-08-28</lastmod>
   </url>
@@ -4631,10 +4622,6 @@
     <lastmod>2024-05-05</lastmod>
   </url>
   <url>
-    <loc>https://9takes.com/questions/who-are-you-voting-for-next-election</loc>
-    <lastmod>2023-10-01</lastmod>
-  </url>
-  <url>
     <loc>https://9takes.com/questions/who-do-you-look-up-to-and-why</loc>
     <lastmod>2023-10-21</lastmod>
   </url>
@@ -4645,9 +4632,5 @@
   <url>
     <loc>https://9takes.com/questions/why-people-2-phones-trying-find-answer-without-assuming-bf-anything-negative-people</loc>
     <lastmod>2024-05-06</lastmod>
-  </url>
-  <url>
-    <loc>https://9takes.com/questions/will-kamala-harris-good-president</loc>
-    <lastmod>2024-07-24</lastmod>
   </url>
 </urlset>

@@ -60,6 +60,11 @@
 	// Local state for optimistic updates
 	let optimisticComments = $state<Comment[]>([]);
 	let optimisticUserHasAnswered = $state(false);
+	// Host promise: shown only for a take submitted in this page session.
+	// `justAnswered` survives the post-submit invalidateAll (which resets the
+	// optimistic flag) so the line stays put while the reveal loads.
+	let justAnswered = $state(false);
+	let replyOptInState = $state<'hidden' | 'shown' | 'dismissed' | 'subscribed'>('hidden');
 	let inviteCardVisible = $state(false);
 	let inviteSource = $state<QuestionInviteSource>('question-answer');
 	let recipientInviteId = $state<string | null>(null);
@@ -362,6 +367,19 @@
 	// meta badge tells the truth once comments are revealed.
 	let commentsUnlocked = $derived(data.flags?.userHasAnswered || optimisticUserHasAnswered);
 
+	// Host promise. DJ replies to every sincere take through the daily host
+	// digest; "You'll hear back" is only promised where a reply can actually
+	// reach the person: signed-in users (account email) or anonymous users who
+	// are being offered / have accepted the reply-email tray.
+	let hostPromiseCopy = $derived.by(() => {
+		if (data.demo_time === true) return '';
+		const canHearBack =
+			Boolean(data.user?.id) || replyOptInState === 'shown' || replyOptInState === 'subscribed';
+		return canHearBack
+			? "DJ reads every take and replies. You'll hear back."
+			: 'DJ reads every take.';
+	});
+
 	function normalizeText(value?: string | null): string {
 		return String(value ?? '')
 			.replace(/\s+/g, ' ')
@@ -454,6 +472,7 @@
 		// Always mark as answered so the gate opens immediately
 		if (isFirstComment) {
 			optimisticUserHasAnswered = true;
+			justAnswered = true;
 			showQuestionInvite('question-answer');
 		}
 
@@ -816,8 +835,12 @@
 					parentType="question"
 					isDemo={data.demo_time === true}
 					oncommentAdded={addComment}
+					onreplyOptInChange={(state) => (replyOptInState = state)}
 					user={data?.user}
 				/>
+				{#if justAnswered && hostPromiseCopy}
+					<p class="host-promise" role="status">{hostPromiseCopy}</p>
+				{/if}
 			</div>
 
 			<div class="open-case-coords mono">
@@ -851,6 +874,9 @@
 					<QuestionContent
 						data={dataForChild}
 						user={data?.user}
+						pinnedComments={(data.pinnedComments ?? []) as Comment[]}
+						nextStarter={data.nextStarter ?? null}
+						replyFocus={data.replyFocus ?? null}
 						oncommentAdded={() => addComment()}
 					/>
 				</div>
@@ -1136,6 +1162,17 @@
 
 	.open-case-interact {
 		margin: 4px 0 4px;
+	}
+
+	/* Host promise: one quiet line under the composer after a take is posted. */
+	.host-promise {
+		margin: 10px 0 0;
+		padding-left: 14px;
+		border-left: 2px solid var(--lamp-glow);
+		color: var(--ink-mid);
+		font-family: var(--font-display);
+		font-size: 14px;
+		line-height: 1.5;
 	}
 
 	.open-case-floor {

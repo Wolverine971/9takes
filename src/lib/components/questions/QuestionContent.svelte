@@ -1,28 +1,46 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 	import { fade } from 'svelte/transition';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
 	import PostIcon from '$lib/components/icons/postIcon.svelte';
+	import Comment from '$lib/components/molecules/Comment.svelte';
 	import Comments from '$lib/components/molecules/Comments.svelte';
 	import SortComments from '$lib/components/molecules/SortComments.svelte';
 	import AIComments from '$lib/components/molecules/AIComments.svelte';
 	import ArticleLinks from '$lib/components/molecules/Links.svelte';
 	import ReplyNotificationReturn from './ReplyNotificationReturn.svelte';
+	import ReplyFocusThread from './ReplyFocusThread.svelte';
+	import type { ReplyFocusThread as ReplyFocusThreadData } from './newReplyTreatment';
 	import type {
 		User,
 		AIComment,
 		Comment as CommentType,
 		QuestionPageData
 	} from '$lib/types/questions';
+	import { excludePinnedComments, type NextStarterLink } from './curatedReveal';
 
 	interface Props {
 		data: QuestionPageData;
 		user: User | null;
 		oncommentAdded?: () => void;
+		/** Curated reveal trio (array order), rendered before the community list. */
+		pinnedComments?: CommentType[];
+		/** Next "Start here" question by rank; null when this is the last one or not a starter. */
+		nextStarter?: NextStarterLink | null;
+		/** Server-resolved ?reply=<id> target (signed-in reply email landing). */
+		replyFocus?: ReplyFocusThreadData | null;
 	}
 
-	let { data, user, oncommentAdded }: Props = $props();
+	let {
+		data,
+		user,
+		oncommentAdded,
+		pinnedComments = [],
+		nextStarter = null,
+		replyFocus = null
+	}: Props = $props();
 
 	// Local state
 	let selectedTab = $state('Comments');
@@ -52,6 +70,44 @@
 	// Get the comments to display (sorted if user sorted, otherwise from data)
 	let displayComments = $derived(sortedComments || _data.comments);
 	let displayCommentCount = $derived(sortedComments?.length ?? _data.comment_count);
+
+	// Curated reveal: pinned takes render first and are hidden from the
+	// community list (Comments keeps them in its paging math, only hides them).
+	// Like/edit updates on a pinned card are kept in an id-keyed override map so
+	// a server refresh never resurrects stale state.
+	let pinnedOverrides = $state<Record<number, CommentType>>({});
+	let replyFocusParentId = $derived(replyFocus?.parent?.id ?? null);
+	let pinnedDisplay = $derived(
+		(pinnedComments ?? [])
+			// A reply-focus thread already shows this take at the top.
+			.filter((comment) => comment.id !== replyFocusParentId)
+			.map(
+				(comment) =>
+					JSON.parse(JSON.stringify(pinnedOverrides[comment.id] ?? comment)) as CommentType
+			)
+	);
+	let pinnedIds = $derived(pinnedDisplay.map((comment) => comment.id));
+	let hasPinned = $derived(pinnedDisplay.length > 0);
+	// Everything rendered above the community list is hidden from it (Comments
+	// keeps these rows in its paging math, only hides them).
+	let hiddenFromCommunity = $derived(
+		replyFocusParentId === null ? pinnedIds : [...pinnedIds, replyFocusParentId]
+	);
+	let visibleCommunityCount = $derived(
+		excludePinnedComments(displayComments ?? [], hiddenFromCommunity).length
+	);
+	let pinnedLabel = $derived(
+		pinnedDisplay.length >= 3
+			? "Three takes that don't agree"
+			: pinnedDisplay.length === 2
+				? "Two takes that don't agree"
+				: 'One take worth reading first'
+	);
+
+	function updatePinnedComment(comment: CommentType) {
+		if (!comment?.id) return;
+		pinnedOverrides = { ...pinnedOverrides, [comment.id]: comment };
+	}
 	let validAiComments = $derived((_data.aiComments ?? []).filter(hasValidAiType));
 	let publicAiPreviewComments = $derived(validAiComments.slice(0, 3));
 
@@ -111,6 +167,21 @@
 		return `${tab.toLowerCase()}-panel`;
 	}
 </script>
+
+{#snippet nextQuestionNudge()}
+	<nav class="next-question" aria-label="Next question">
+		<span class="next-question__kicker">Next</span>
+		{#if nextStarter?.url}
+			<a class="next-question__link" href={`/questions/${nextStarter.url}`}>
+				Try another: <span class="next-question__question">{nextStarter.question}</span>
+			</a>
+		{:else}
+			<a class="next-question__link" href="/questions">
+				Try another: <span class="next-question__question">pick from the open questions</span>
+			</a>
+		{/if}
+	</nav>
+{/snippet}
 
 <div class="question-content-shell">
 	<!-- Tabs Navigation -->
@@ -248,10 +319,46 @@
 									{/if}
 								</div>
 							{:else}
+								{#if replyFocus && browser}
+									<ReplyFocusThread
+										thread={replyFocus}
+										questionId={_data.question.id}
+										{user}
+										parentData={_data}
+									/>
+								{/if}
+
+								{#if hasPinned && browser}
+									<section class="pinned-takes" aria-labelledby="pinned-takes-title">
+										<header class="pinned-takes__head">
+											<span class="pinned-takes__kicker">Read these first</span>
+											<h3 id="pinned-takes-title" class="pinned-takes__title">{pinnedLabel}</h3>
+											<p class="pinned-takes__copy">
+												Picked because they see it differently, not because they're the best.
+											</p>
+										</header>
+										<div class="pinned-takes__list">
+											{#each pinnedDisplay as comment (comment.id)}
+												<div class="pinned-takes__item">
+													<Comment
+														questionId={_data.question.id}
+														{comment}
+														{user}
+														parentData={_data}
+														on:commentUpdated={(e) => updatePinnedComment(e.detail)}
+													/>
+												</div>
+											{/each}
+										</div>
+									</section>
+
+									{@render nextQuestionNudge()}
+								{/if}
+
 								<header class="community-discussion-head">
 									<div>
 										<span>Community discussion</span>
-										<h3>What people actually said</h3>
+										<h3>{hasPinned ? 'Everyone else' : 'What people actually said'}</h3>
 									</div>
 									<p>Real answers from people who responded before reading the room.</p>
 								</header>
@@ -263,12 +370,23 @@
 									questionId={_data.question.id}
 									comments={displayComments}
 									comment_count={displayCommentCount}
+									excludeIds={hiddenFromCommunity}
 									parentType="question"
 									parentData={_data}
 									{user}
 									key={displayCommentCount}
 									on:commentAdded={handleCommentAdded}
 								/>
+
+								{#if hasPinned && visibleCommunityCount === 0}
+									<p class="community-discussion-empty">
+										Nothing else yet. The takes above are the whole room so far.
+									</p>
+								{/if}
+
+								{#if !hasPinned}
+									{@render nextQuestionNudge()}
+								{/if}
 
 								{#if validAiComments.length}
 									<details class="ai-perspectives-disclosure">
@@ -457,6 +575,104 @@
 		color: var(--ink-mid);
 		font-size: 0.8rem;
 		line-height: 1.5;
+	}
+
+	.community-discussion-empty {
+		margin: 0.75rem 1rem 0;
+		color: var(--ink-dim);
+		font-size: 0.85rem;
+		line-height: 1.5;
+	}
+
+	/* Curated reveal: the pinned trio sits above the community thread with
+	   the same card grammar, framed by one amber hairline so it reads as the
+	   host's pick without becoming a second product. */
+	.pinned-takes {
+		margin: 0 1rem 1.5rem;
+		padding: 1rem 0 0;
+		border-top: 2px solid var(--lamp-glow);
+	}
+
+	.pinned-takes__head {
+		margin-bottom: 0.85rem;
+	}
+
+	.pinned-takes__kicker {
+		display: block;
+		color: var(--lamp-glow);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.64rem;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.pinned-takes__title {
+		margin: 0.3rem 0 0;
+		color: var(--ink-bright);
+		font-size: 1.15rem;
+		font-weight: 700;
+		letter-spacing: -0.015em;
+	}
+
+	.pinned-takes__copy {
+		margin: 0.3rem 0 0;
+		color: var(--ink-mid);
+		font-size: 0.8rem;
+		line-height: 1.5;
+	}
+
+	.pinned-takes__list {
+		display: flex;
+		flex-direction: column;
+		gap: 0.75rem;
+		min-width: 0;
+	}
+
+	.pinned-takes__item {
+		min-width: 0;
+	}
+
+	.next-question {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.5rem 0.75rem;
+		margin: 0 1rem 1.5rem;
+		padding: 0.75rem 0;
+		border-top: 1px solid var(--stone-edge);
+		border-bottom: 1px solid var(--stone-edge);
+	}
+
+	.next-question__kicker {
+		color: var(--lamp-glow);
+		font-family: 'JetBrains Mono', ui-monospace, monospace;
+		font-size: 0.64rem;
+		letter-spacing: 0.07em;
+		text-transform: uppercase;
+	}
+
+	.next-question__link {
+		min-width: 0;
+		color: var(--ink-mid);
+		font-size: 0.9rem;
+		line-height: 1.45;
+		text-decoration: none;
+	}
+
+	.next-question__link:hover .next-question__question,
+	.next-question__link:focus-visible .next-question__question {
+		color: var(--lamp-glow);
+	}
+
+	.next-question__link:focus-visible {
+		outline: 2px solid var(--lamp-glow);
+		outline-offset: 2px;
+	}
+
+	.next-question__question {
+		color: var(--ink-bright);
+		font-weight: 600;
+		overflow-wrap: anywhere;
 	}
 
 	.ai-perspectives-disclosure {
@@ -763,6 +979,12 @@
 		.community-discussion-head {
 			grid-template-columns: 1fr;
 			gap: 0.45rem;
+			margin-inline: 0.8rem;
+		}
+
+		.pinned-takes,
+		.next-question,
+		.community-discussion-empty {
 			margin-inline: 0.8rem;
 		}
 

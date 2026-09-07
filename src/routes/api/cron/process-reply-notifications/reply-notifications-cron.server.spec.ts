@@ -1,13 +1,18 @@
 // src/routes/api/cron/process-reply-notifications/reply-notifications-cron.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-const { processReplyNotificationOutboxMock } = vi.hoisted(() => ({
-	processReplyNotificationOutboxMock: vi.fn()
-}));
+const { processReplyNotificationOutboxMock, processAccountReplyNotificationEmailsMock } =
+	vi.hoisted(() => ({
+		processReplyNotificationOutboxMock: vi.fn(),
+		processAccountReplyNotificationEmailsMock: vi.fn()
+	}));
 
 vi.mock('$env/static/private', () => ({ CRON_SECRET: 'cron-test-secret' }));
 vi.mock('$lib/server/replyNotificationDelivery', () => ({
 	processReplyNotificationOutbox: processReplyNotificationOutboxMock
+}));
+vi.mock('$lib/server/accountReplyNotificationEmail', () => ({
+	processAccountReplyNotificationEmails: processAccountReplyNotificationEmailsMock
 }));
 
 import { GET } from './+server';
@@ -23,6 +28,13 @@ describe('/api/cron/process-reply-notifications', () => {
 			ambiguous: 0,
 			skipped: 0
 		});
+		processAccountReplyNotificationEmailsMock.mockResolvedValue({
+			claimed: 2,
+			sent: 1,
+			failed: 0,
+			suppressed: 0,
+			skipped: 1
+		});
 	});
 
 	it('fails closed without the cron secret', async () => {
@@ -32,6 +44,7 @@ describe('/api/cron/process-reply-notifications', () => {
 			} as any)
 		).rejects.toMatchObject({ status: 401 });
 		expect(processReplyNotificationOutboxMock).not.toHaveBeenCalled();
+		expect(processAccountReplyNotificationEmailsMock).not.toHaveBeenCalled();
 	});
 
 	it('processes a bounded worker run when authorized', async () => {
@@ -42,7 +55,12 @@ describe('/api/cron/process-reply-notifications', () => {
 		} as any);
 
 		expect(response.status).toBe(200);
-		expect(await response.json()).toMatchObject({ processed: 1, sent: 1 });
+		expect(await response.json()).toMatchObject({
+			processed: 1,
+			sent: 1,
+			account: { claimed: 2, sent: 1, skipped: 1 }
+		});
 		expect(processReplyNotificationOutboxMock).toHaveBeenCalledWith(10);
+		expect(processAccountReplyNotificationEmailsMock).toHaveBeenCalledWith({ limit: 10 });
 	});
 });

@@ -67,7 +67,10 @@ const config = {
 		include: [
 			'src/**/*.{test,spec}.{js,ts}',
 			'src/**/**/*.{test,spec}.{js,ts}',
-			'src/**/**/**/*.{test,spec}.{js,ts}'
+			'src/**/**/**/*.{test,spec}.{js,ts}',
+			// Standalone Vercel functions live outside src/ so they bypass
+			// SvelteKit's CSRF guard (see api/one-click-unsubscribe.ts).
+			'api/**/*.{test,spec}.{js,ts}'
 		]
 	},
 	css: {

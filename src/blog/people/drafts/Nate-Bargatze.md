@@ -4,12 +4,12 @@ meta_title: "Nate Bargatze's Enneagram Type 9: Acting Dumb on Purpose"
 persona_title: "The Magician's Kid"
 description: "He says his point does not matter, then personally guarantees a $350M theme park. An Enneagram Type 9 read on Nate Bargatze's Emmys check and his movie."
 author: 'DJ Wayne'
-date: '2026-08-25'
+date: '2026-09-06'
 loc: 'https://9takes.com/personality-analysis/nate-bargatze'
-lastmod: '2026-08-25'
+lastmod: '2026-09-06'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '9'
 type: ['comedian', 'celebrity', 'entrepreneur']
 person: 'Nate-Bargatze'
@@ -288,7 +288,7 @@ That is the whole act, start to finish.
 
 Born in 1979, from Old Hickory on the east side of Nashville, he is the biggest stand-up comedian in America. Deadpan, monotone, clean enough that a ten-year-old can wander into the room mid-special. Five hour-long specials, two turns hosting _Saturday Night Live_, a night hosting the 77th Primetime Emmys in September 2025. A number one _New York Times_ bestseller called _Big Dumb Eyes: Stories from a Simpler Mind_, written by a man who says he does not read books. The _Big Dumb Eyes_ world tour closed in Toronto in August 2026 with more than two million tickets sold in sixteen months, a Guinness world record for a stand-up tour, first reported by _Variety_. In the middle of it he released his first feature film, which critics buried.
 
-The delivery is the instrument. In "Washington's Dream," the _SNL_ sketch with 25 million views and a sequel, he plays George Washington in a flat monotone, laying out a system of measurement where nothing converts into anything else. Sixteen ounces in a pound, three feet in a yard. He builds a rule the room cannot follow and waits for it to work.
+The delivery is the instrument. In the _SNL_ sketch _Washington's Dream_, with 25 million views and a sequel, he plays George Washington in a flat monotone, laying out a system of measurement where nothing converts into anything else. Sixteen ounces in a pound, three feet in a yard. He builds a rule the room cannot follow and waits for it to work.
 
 The brand is unremarkableness, and he has put the same name on it twice. His 2021 special was _The Greatest Average American_. So is the ABC game show that premiered in February 2026, where the grand prize is $67,920 because that is what ABC says the average American earns. He built a competition you win by being typical.
 

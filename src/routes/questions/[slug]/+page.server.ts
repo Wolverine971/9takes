@@ -31,6 +31,12 @@ import type {
 	ReplyNotificationReturnContext,
 	ReplyNotificationThread
 } from '$lib/types/questions';
+import {
+	normalizePinnedCommentIds,
+	orderPinnedComments,
+	type NextStarterLink
+} from '$lib/components/questions/curatedReveal';
+import type { ReplyFocusThread } from '$lib/components/questions/newReplyTreatment';
 import { z } from 'zod';
 
 import { fetchPublicHtml } from '$lib/server/safeExternalFetch';
@@ -47,6 +53,8 @@ const RATE_LIMIT_WINDOW_SECONDS = 60;
 // Pagination defaults
 const DEFAULT_COMMENTS_LIMIT = 10;
 const DEFAULT_LINKS_LIMIT = 10;
+// ?reply=<id> deep links pre-load the parent take's replies so the reply exists on first paint.
+const REPLY_FOCUS_REPLIES_LIMIT = 50;
 const PUBLIC_COMMENT_FIELDS =
 	'id, comment, author_id, parent_id, parent_type, comment_count, created_at, modified_at, like_count';
 
@@ -151,8 +159,15 @@ export const load: PageServerLoad = async (event) => {
 			});
 		}
 
-		const commentCount = await getCommentCount(question.id, isDemoTime);
-		const aiComments = isDemoTime ? null : await getAIComments(question.id);
+		const [commentCount, aiComments, curation] = await Promise.all([
+			getCommentCount(question.id, isDemoTime),
+			isDemoTime ? null : getAIComments(question.id),
+			getQuestionCuration(question.id, isDemoTime)
+		]);
+		const nextStarter = await getNextStarter(curation.starterRank);
+		// Give-first integrity: pinned human takes are never sent before the
+		// visitor answers. Only the starter position (for the next-question
+		// nudge) travels with the locked payload.
 		return {
 			...createBaseResponse(
 				question,
@@ -169,16 +184,30 @@ export const load: PageServerLoad = async (event) => {
 				categoryEditor
 			),
 			replyNotificationReturn,
-			replyNotificationThread
+			replyNotificationThread,
+			pinnedComments: [] as PublicComment[],
+			starterRank: curation.starterRank,
+			nextStarter,
+			replyFocus: null as ReplyFocusThread | null
 		};
 	}
 
-	const [comments, removedComments, links, aiComments, flagReasons] = await Promise.all([
+	const [comments, removedComments, links, aiComments, flagReasons, curation] = await Promise.all([
 		getComments(question.id, isDemoTime, false),
 		getComments(question.id, isDemoTime, true),
 		getQuestionLinks(question.id),
 		isDemoTime ? null : getAIComments(question.id),
-		getFlagReasons()
+		getFlagReasons(),
+		getQuestionCuration(question.id, isDemoTime)
+	]);
+	const [pinnedComments, nextStarter, replyFocus] = await Promise.all([
+		getPinnedComments(question.id, curation.pinnedCommentIds),
+		getNextStarter(curation.starterRank),
+		getReplyFocusThread(
+			question.id,
+			parseReplyFocusParam(event.url.searchParams.get('reply')),
+			isDemoTime
+		)
 	]);
 
 	return {
@@ -201,7 +230,11 @@ export const load: PageServerLoad = async (event) => {
 			categoryEditor
 		),
 		replyNotificationReturn,
-		replyNotificationThread
+		replyNotificationThread,
+		pinnedComments,
+		starterRank: curation.starterRank,
+		nextStarter,
+		replyFocus
 	};
 };
 
@@ -1082,6 +1115,158 @@ async function getComments(questionId: number, demo_time: boolean, removed: bool
 		console.log(`No ${removed ? 'removed ' : ''}comments for question`, error);
 	}
 	return { data, count };
+}
+
+// =============================================================================
+// Curation: "Start here" starters + pinned reveal trio
+// (columns added in supabase/migrations/20260906120100_question_starters_and_pins.sql)
+// =============================================================================
+type QuestionCuration = {
+	starterRank: number | null;
+	pinnedCommentIds: number[];
+};
+
+const EMPTY_CURATION: QuestionCuration = { starterRank: null, pinnedCommentIds: [] };
+
+/**
+ * Best-effort read of the curation columns. Kept as its own small query so
+ * the question page keeps working exactly as before if the schema migration
+ * has not been applied yet (the select fails, we return the empty state).
+ */
+async function getQuestionCuration(
+	questionId: number,
+	demo_time: boolean
+): Promise<QuestionCuration> {
+	if (demo_time) return EMPTY_CURATION;
+
+	const { data, error: curationError } = await (supabase.from('questions') as any)
+		.select('starter_rank, pinned_comment_ids')
+		.eq('id', questionId)
+		.maybeSingle();
+
+	if (curationError || !data) {
+		if (curationError) {
+			console.warn('Question curation unavailable', curationError.message ?? curationError);
+		}
+		return EMPTY_CURATION;
+	}
+
+	const rank = Number(data.starter_rank);
+	return {
+		starterRank: Number.isInteger(rank) && rank > 0 ? rank : null,
+		pinnedCommentIds: normalizePinnedCommentIds(data.pinned_comment_ids)
+	};
+}
+
+/** Pinned comments in `pinned_comment_ids` order; removed or foreign ids are dropped. */
+async function getPinnedComments(questionId: number, pinnedIds: number[]) {
+	if (!pinnedIds.length) return [] as PublicComment[];
+
+	const { data, error: pinnedError } = await supabase
+		.from('comments')
+		.select(
+			`${PUBLIC_COMMENT_FIELDS}, profiles:public_profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
+		)
+		.in('id', pinnedIds)
+		.eq('parent_id', questionId)
+		.eq('parent_type', 'question')
+		.eq('removed', false);
+
+	if (pinnedError) {
+		console.warn('Could not load pinned comments', pinnedError.message ?? pinnedError);
+		return [] as PublicComment[];
+	}
+
+	return orderPinnedComments(pinnedIds, (data ?? []) as unknown as PublicComment[]);
+}
+
+/** The next starter by rank, for the "Try another" nudge after the reveal. */
+async function getNextStarter(starterRank: number | null): Promise<NextStarterLink | null> {
+	if (starterRank === null) return null;
+
+	const { data, error: nextError } = await (supabase.from('questions') as any)
+		.select('id, question, question_formatted, url, starter_rank')
+		.gt('starter_rank', starterRank)
+		.not('removed', 'is', true)
+		.not('flagged', 'is', true)
+		.order('starter_rank', { ascending: true })
+		.limit(1)
+		.maybeSingle();
+
+	if (nextError || !data?.url) return null;
+
+	return {
+		id: Number(data.id),
+		url: String(data.url),
+		question: String(data.question_formatted || data.question || '').trim(),
+		starter_rank: Number(data.starter_rank)
+	};
+}
+
+// =============================================================================
+// ?reply=<id> deep link (signed-in reply-notification email)
+// =============================================================================
+function parseReplyFocusParam(raw: string | null): number | null {
+	if (!raw || !/^\d{1,15}$/.test(raw.trim())) return null;
+	const id = Number.parseInt(raw, 10);
+	return Number.isSafeInteger(id) && id > 0 ? id : null;
+}
+
+/**
+ * Resolve a reply id to its parent take on this question. Anything that does
+ * not line up (unknown id, removed reply or parent, parent on another
+ * question) resolves to null and the param is ignored silently.
+ */
+async function getReplyFocusThread(
+	questionId: number,
+	replyId: number | null,
+	demo_time: boolean
+): Promise<ReplyFocusThread | null> {
+	if (replyId === null || demo_time) return null;
+
+	const replySelect = `${PUBLIC_COMMENT_FIELDS}, profiles:public_profiles (external_id, enneagram)`;
+
+	const { data: reply, error: replyError } = await supabase
+		.from('comments')
+		.select(replySelect)
+		.eq('id', replyId)
+		.eq('parent_type', 'comment')
+		.eq('removed', false)
+		.maybeSingle();
+	if (replyError || !reply?.parent_id) return null;
+
+	const { data: parent, error: parentError } = await supabase
+		.from('comments')
+		.select(
+			`${PUBLIC_COMMENT_FIELDS}, profiles:public_profiles (external_id, enneagram), comment_like (id, comment_id, user_id)`
+		)
+		.eq('id', reply.parent_id)
+		.eq('parent_type', 'question')
+		.eq('parent_id', questionId)
+		.eq('removed', false)
+		.maybeSingle();
+	if (parentError || !parent) return null;
+
+	const { data: replies, error: repliesError } = await supabase
+		.from('comments')
+		.select(replySelect)
+		.eq('parent_type', 'comment')
+		.eq('parent_id', parent.id)
+		.eq('removed', false)
+		.order('created_at', { ascending: false })
+		.limit(REPLY_FOCUS_REPLIES_LIMIT);
+	if (repliesError) return null;
+
+	const rows = (replies ?? []) as unknown as PublicComment[];
+	if (!rows.some((row) => row.id === replyId)) {
+		// Older than the pre-loaded window: still make sure the anchor exists.
+		rows.push(reply as unknown as PublicComment);
+	}
+
+	return {
+		replyId,
+		parent: { ...(parent as unknown as PublicComment), comments: rows }
+	};
 }
 
 const DEFAULT_ENNEAGRAM_TYPES = ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'unknown', 'rando'];

@@ -13,6 +13,10 @@ import {
 	type QuestionCategoryTreeNode
 } from '$lib/server/questionCategoryTree';
 import { searchQuestionsTypeahead } from '$lib/server/questionSearch';
+import {
+	parseStarterQuestions,
+	type StarterQuestionRow
+} from '$lib/components/questions/curatedReveal';
 import { z } from 'zod';
 
 import type { Actions } from './$types';
@@ -45,19 +49,14 @@ type QuestionCategoryContext = {
 };
 
 // Type for the RPC response
+type QuestionsPageRow = StarterQuestionRow;
+
 interface QuestionsPageData {
 	canAskQuestion: boolean;
 	categories: Array<{ id: number; category_name: string; slug?: string | null }>;
-	questions: Array<{
-		id: number;
-		url: string;
-		question: string;
-		question_formatted?: string;
-		comment_count: number;
-		created_at: string;
-		tag_id?: number;
-		tag_name?: string;
-	}>;
+	/** Curated "Start here" questions, rank order. Only present on page 1 with no category filter. */
+	starters?: QuestionsPageRow[] | null;
+	questions: QuestionsPageRow[];
 	totalQuestions: number;
 	totalAnswers: number;
 }
@@ -145,16 +144,20 @@ export const load: PageServerLoad = async (event) => {
 
 		const pageData = rawPageData as QuestionsPageData | null;
 		const pageQuestions = pageData?.questions ?? [];
+		const starterQuestions = page === 1 ? parseStarterQuestions(pageData?.starters) : [];
 		const categoryContext =
 			demo_time === true
 				? null
 				: await loadQuestionCategoryContext(supabase, 'questions', {
-						questionIds: pageQuestions.map((question) => question.id)
+						questionIds: [...starterQuestions, ...pageQuestions].map((question) => question.id)
 					});
 		const visibleBrowseCategories = pageData?.categories ?? [];
 		const questions = demo_time
 			? mapDemoValues(pageQuestions)
 			: decorateQuestionsWithCategoryPaths(pageQuestions, categoryContext);
+		const starters = demo_time
+			? mapDemoValues(starterQuestions)
+			: decorateQuestionsWithCategoryPaths(starterQuestions, categoryContext);
 
 		// Process the data
 		const processedData = {
@@ -162,6 +165,7 @@ export const load: PageServerLoad = async (event) => {
 			canAskQuestion: pageData?.canAskQuestion || false,
 			categoryTree: [],
 			subcategoryTags: visibleBrowseCategories,
+			starters,
 			questionsAndTags: questions,
 			totalQuestions: pageData?.totalQuestions || 0,
 			totalAnswers: pageData?.totalAnswers || 0,

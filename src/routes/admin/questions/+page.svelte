@@ -334,6 +334,16 @@
 										{question.question_formatted || question.question}
 									</h3>
 									<div class="status-badges">
+										{#if question.starter_rank}
+											<span class="status-badge starter-badge"
+												>Starter #{question.starter_rank}</span
+											>
+										{/if}
+										{#if question.pinned_comment_ids?.length}
+											<span class="status-badge pinned-badge">
+												{question.pinned_comment_ids.length} pinned
+											</span>
+										{/if}
 										{#if hasAssignedTags(question)}
 											<span class="status-badge tagged">Has Tags</span>
 										{:else}
@@ -862,6 +872,16 @@
 	.status-badge.removed-badge {
 		background: color-mix(in srgb, var(--error) 16%, transparent);
 		color: var(--error-text);
+	}
+
+	.status-badge.starter-badge {
+		background: color-mix(in srgb, var(--lamp-glow) 20%, transparent);
+		color: var(--lamp-glow);
+	}
+
+	.status-badge.pinned-badge {
+		background: color-mix(in srgb, var(--lamp-glow) 10%, transparent);
+		color: var(--ink-mid);
 	}
 
 	.category-tags {
