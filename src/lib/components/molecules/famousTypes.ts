@@ -67,7 +67,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 	3: [
 		{ name: 'adam-neumann', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Capital\'s Barefoot Prophet', contentGrade: 9, types: ['entrepreneur', 'techie', 'business-operator'] },
 		{ name: 'addison-rae', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'Pop\'s Comeback Engineer', contentGrade: 8.5, types: ['creator', 'musician', 'tiktoker', 'lifestyle-builder', 'music-crossover'] },
-		{ name: 'adela', link: true, hasImage: true, lastmod: '2026-08-14', personaTitle: 'The Pop Star Who Wrote Herself Back Into Focus', contentGrade: 8.8, types: ['musician', 'dancer'] },
+		{ name: 'adela', link: true, hasImage: true, lastmod: '2026-08-14', personaTitle: 'The Pop Star Who Wrote Herself Back Into Focus', contentGrade: 8.5, types: ['musician', 'dancer'] },
 		{ name: 'adin-ross', link: true, hasImage: true, lastmod: '2026-01-29', personaTitle: 'Streaming\'s Chaos Agent', contentGrade: 8.7, types: ['creator', 'streamer'] },
 		{ name: 'alex-hormozi', link: true, hasImage: true, lastmod: '2026-02-19', personaTitle: 'The Acquisition Architect', contentGrade: 9.2, types: ['entrepreneur', 'business-operator'] },
 		{ name: 'alex-warren', link: true, hasImage: true, lastmod: '2026-07-27', personaTitle: 'Pop\'s Reassurance Machine', contentGrade: 8.9, types: ['musician', 'creator'] },
