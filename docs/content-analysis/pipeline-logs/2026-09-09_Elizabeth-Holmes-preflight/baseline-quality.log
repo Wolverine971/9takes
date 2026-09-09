@@ -1,0 +1,10 @@
+blog-quality-report: Elizabeth-Holmes
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 1, comparative 0)
+   strong  [X,-not-Y] L301: But the dominant engine is the charmer who collects patrons, not the artist who curates apartness.
+
+2.4 Head-term: FAIL  meta_title=The Real Reason Elizabeth Holmes Couldn't Stop Performing
+   → add enneagram / "type N" / "personality type" to meta_title, or set head_term_exception
+   answer-block: WARN (63 words; >60, not snippet-friendly)
+
+1.4 Corpus-count drift: none (corpus total = 449)

@@ -1,0 +1,15 @@
+[alexandr-wang] rejected non-ISO date: 1997-01
+Processed: src/blog/people/drafts/Elizabeth-Holmes.md
+Filtered to: elizabeth-holmes
+Found 1 entries to process
+Dry-run previewing 1 people blog entry...
+
+People update preview: elizabeth-holmes (id=1044)
+Expected live content hash: ee470da3f839a308c011995f58371946
+Local parsed content hash:  573a992ca596801945345747ba40fc1e
+Protected fields: date, loc, lastmod, published, enneagram, type, person (preserved by code and RPC)
+Field-by-field diff:
+{"field":"content","before":{"hash":"ee470da3f839a308c011995f58371946","characters":21632},"after":{"hash":"573a992ca596801945345747ba40fc1e","characters":21631}}
+Approval token: --approve-fields=content
+  would block: Perspective gate refused update for elizabeth-holmes: missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume. This update changes reader-visible fields (content) on a published row. Re-run the six-perspective verification, or pass --skip-perspective-gate with an explicit reason.
+Processing complete!

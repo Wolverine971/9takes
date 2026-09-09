@@ -1,0 +1,39 @@
+ok    frontmatter field present: title
+ok    frontmatter field present: meta_title
+ok    frontmatter field present: persona_title
+ok    frontmatter field present: description
+ok    frontmatter field present: author
+ok    frontmatter field present: date
+ok    frontmatter field present: enneagram
+ok    frontmatter field present: person
+ok    frontmatter field present: suggestions
+ok    frontmatter field present: production_pretext
+ok    description length 152 chars
+ok    meta_title length 57 chars
+FAIL  meta_title missing searchable head term (needs enneagram, type N, or personality type)
+ok    meta_title contains a person-name token
+ok    required H2 'What is [Person]'s personality type?' present
+ok    required H3 '[Person] is an Enneagram Type X' present
+ok    analysis headings remain person-first
+FAIL  type-answer opening block is 63 words (must be <=60)
+ok    Enneagram Rabbit Hole block present (exactly one)
+ok    TL;DR accordion present
+ok    firstLetter intro paragraph present
+ok    ledger present: TESTIMONY LEDGER
+ok    ledger present: HEADING MIX LEDGER
+ok    ledger present: DISTRIBUTION LEDGER
+FAIL  missing ledger comment: FORMULA FINGERPRINT LEDGER (creator v2 hard gates require it)
+ok    no self-loop links
+ok    no visible FAQ section in body
+ok    no templated FAQ filler
+ok    no unfinished markers
+ok    faqs present and FAQPage-eligible (4 real Q/A pairs)
+FAIL  contrast-pair sentence engines: 1 strong (target <= 0; run node scripts/blog-quality-report.mjs Elizabeth-Holmes)
+ok    no comparative contrast patterns detected
+ok    internal link count: 6
+WARN  published: true while production_pretext.status: draft — states disagree
+ok    body length 3547 words (target band 3200-3900)
+FAIL  36 prose em-dashes in body (banned; quote attributions are exempt) — rewrite with periods, commas, or colons
+ok    no banned AI phrases
+
+blog-lint: Elizabeth-Holmes — 5 fail, 1 warn

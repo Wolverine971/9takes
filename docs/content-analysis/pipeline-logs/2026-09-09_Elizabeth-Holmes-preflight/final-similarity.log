@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — elizabeth-holmes (Type 3)
+/Users/djwayne/.codex/worktrees/f793/9takes/src/blog/people/drafts/Elizabeth-Holmes.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 11
+Comparison set (last 8 other Type-3 drafts by date):
+  - Jonathan-Bailey  (2026-09-01, 35 units)
+  - Tate-McRae  (2026-08-27, 34 units)
+  - margaret-qualley  (2026-08-20, 30 units)
+  - alexandr-wang  (2026-08-18, 30 units)
+  - adela  (2026-08-14, 20 units)
+  - michael-jordan  (2026-08-14, 46 units)
+  - David-Beckham  (2026-08-12, 36 units)
+  - Mel-Robbins  (2026-08-12, 32 units)
+
+Noise floor over 2893 unit pairs:  median=0  p90=0  p99=0.008  max=0.038
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.038 ##                   Tate-McRae
+  0.038 ##                   michael-jordan
+  0.037 #                    David-Beckham
+  0.020 #                    adela
+  0.017 #                    Jonathan-Bailey
+  0.017 #                    margaret-qualley
+  0.014 #                    Mel-Robbins
+  0.011                      alexandr-wang
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.038   elizabeth-holmes  <->  Tate-McRae
+   TARGET [diagnosis] The case for reading Elizabeth Holmes as an Enneagram Type 3 rests on her pursuit of recognition as a medical innovator and the work she put into sustaining that identity.
+   OTHER  [diagnosis] Tate McRae is an Enneagram Type 3
+
+score 0.038   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] The case for reading Elizabeth Holmes as an Enneagram Type 3 rests on her pursuit of recognition as a medical innovator and the work she put into sustaining that identity.
+   OTHER  [diagnosis] Michael Jordan is an Enneagram Type 3
+
+score 0.037   elizabeth-holmes  <->  David-Beckham
+   TARGET [diagnosis] Her public choices support that hypothesis
+   OTHER  [diagnosis] Those public choices are the strongest support for a self-authored Type 3 reading
+
+score 0.035   elizabeth-holmes  <->  Tate-McRae
+   TARGET [diagnosis] Holmes has not confirmed this typing
+   OTHER  [counter-typing] Watch for the one behavior that would break this typing
+
+score 0.020   elizabeth-holmes  <->  adela
+   TARGET [diagnosis] and the wing and instinctual subtype remain uncertain.
+   OTHER  [diagnosis] This is a high-confidence reading of the core pattern and a medium-confidence call on the wing.
+
+score 0.018   elizabeth-holmes  <->  adela
+   TARGET [diagnosis] The case for reading Elizabeth Holmes as an Enneagram Type 3 rests on her pursuit of recognition as a medical innovator and the work she put into sustaining that identity.
+   OTHER  [diagnosis] Adéla appears to be an Enneagram Type 3
+
+score 0.017   elizabeth-holmes  <->  Jonathan-Bailey
+   TARGET [diagnosis] Admitting that a blood test failed would also puncture the promise attached to her name.
+   OTHER  [diagnosis] That a story arrived from outside and won.
+
+score 0.017   elizabeth-holmes  <->  margaret-qualley
+   TARGET [diagnosis] Admitting that a blood test failed would also puncture the promise attached to her name.
+   OTHER  [counter-typing] She reverted her Instagram handle to her full legal birth name.
+
+score 0.017   elizabeth-holmes  <->  margaret-qualley
+   TARGET [diagnosis] Correcting the technology required her to risk some of the standing she had gained by promoting it.
+   OTHER  [counter-typing] She declines to correct the public record about herself at all
+
+score 0.016   elizabeth-holmes  <->  Jonathan-Bailey
+   TARGET [diagnosis] The emotional pressure in this reading is shame
+   OTHER  [counter-typing] The prevailing internet reading is 7w8
+
+score 0.016   elizabeth-holmes  <->  David-Beckham
+   TARGET [diagnosis] Her public choices support that hypothesis
+   OTHER  [counter-typing] Type 1 draws support from discipline
+
+score 0.015   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] the specific threat would be losing the identity of the exceptional founder who could solve a problem established medicine had failed to solve.
+   OTHER  [diagnosis] so on nights the league failed to supply one
+
+------------------------------------------------------------------------------
+Top pair scores 0.038 vs median 0  (~∞x the noise floor).

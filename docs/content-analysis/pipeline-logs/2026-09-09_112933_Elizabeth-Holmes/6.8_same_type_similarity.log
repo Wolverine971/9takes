@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — elizabeth-holmes (Type 3)
+/Users/djwayne/.codex/worktrees/f793/9takes/src/blog/people/drafts/Elizabeth-Holmes.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 7
+Comparison set (last 8 other Type-3 drafts by date):
+  - Jonathan-Bailey  (2026-09-01, 35 units)
+  - Tate-McRae  (2026-08-27, 34 units)
+  - margaret-qualley  (2026-08-20, 30 units)
+  - alexandr-wang  (2026-08-18, 30 units)
+  - adela  (2026-08-14, 20 units)
+  - michael-jordan  (2026-08-14, 46 units)
+  - David-Beckham  (2026-08-12, 36 units)
+  - Mel-Robbins  (2026-08-12, 32 units)
+
+Noise floor over 1841 unit pairs:  median=0  p90=0  p99=0.008  max=0.162
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.095   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] Type 3 is the Achiever — the type whose worth has fused with their performance
+   OTHER  [diagnosis] the type whose worth exists only while it is being proven in front of witnesses.
+
+
+Most similar drafts (max unit-pair score):
+  0.162 ######               adela
+  0.095 ####                 michael-jordan
+  0.083 ###                  alexandr-wang
+  0.032 #                    margaret-qualley
+  0.025 #                    Mel-Robbins
+  0.024 #                    Tate-McRae
+  0.021 #                    David-Beckham
+  0.009                      Jonathan-Bailey
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.162   elizabeth-holmes  <->  adela
+   TARGET [diagnosis] The defining tell is what she does when the costume fails.
+   OTHER  [diagnosis] The Type 3 claim concerns what she does when identity
+
+score 0.095   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] Type 3 is the Achiever — the type whose worth has fused with their performance
+   OTHER  [diagnosis] the type whose worth exists only while it is being proven in front of witnesses.
+
+score 0.083   elizabeth-holmes  <->  alexandr-wang
+   TARGET [diagnosis] The defining tell is what she does when the costume fails.
+   OTHER  [diagnosis] The tell is what survived from the math competition.
+
+score 0.032   elizabeth-holmes  <->  margaret-qualley
+   TARGET [diagnosis] She doesn't return to a self underneath.
+   OTHER  [diagnosis] and so it kind of doesn't matter." — Margaret Qualley
+
+score 0.026   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] whose deepest fear is being unimpressive.
+   OTHER  [diagnosis] the type whose worth exists only while it is being proven in front of witnesses.
+
+score 0.025   elizabeth-holmes  <->  Mel-Robbins
+   TARGET [diagnosis] The defining tell is what she does when the costume fails.
+   OTHER  [diagnosis] and when the room stops recognizing that version
+
+score 0.024   elizabeth-holmes  <->  Tate-McRae
+   TARGET [diagnosis] The defining tell is what she does when the costume fails.
+   OTHER  [counter-typing] and describes her own interiority as the real thing and the persona as the costume.
+
+score 0.022   elizabeth-holmes  <->  adela
+   TARGET [diagnosis] Type 3 is the Achiever — the type whose worth has fused with their performance
+   OTHER  [diagnosis] Type 3 is often reduced to wanting praise.
+
+score 0.021   elizabeth-holmes  <->  Mel-Robbins
+   TARGET [diagnosis] She doesn't return to a self underneath.
+   OTHER  [diagnosis] They chase a version of themselves that is legible to a room
+
+score 0.021   elizabeth-holmes  <->  David-Beckham
+   TARGET [diagnosis] She doesn't return to a self underneath.
+   OTHER  [diagnosis] Those public choices are the strongest support for a self-authored Type 3 reading
+
+score 0.011   elizabeth-holmes  <->  Mel-Robbins
+   TARGET [diagnosis] whose self-concept rises and falls with the room's reaction
+   OTHER  [diagnosis] but I don't ever want to answer the question 'What do you do for a living?' with the words 'I'm an attorney.'" — Mel Robbins
+
+score 0.011   elizabeth-holmes  <->  margaret-qualley
+   TARGET [diagnosis] The defining tell is what she does when the costume fails.
+   OTHER  [diagnosis] The 4 wing governs what she volunteers to be graded on.
+
+------------------------------------------------------------------------------
+Top pair scores 0.162 vs median 0  (~∞x the noise floor).

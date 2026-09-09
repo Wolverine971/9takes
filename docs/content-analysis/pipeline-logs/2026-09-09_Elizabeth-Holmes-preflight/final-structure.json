@@ -1,0 +1,60 @@
+{
+  "draft": "src/blog/people/drafts/Elizabeth-Holmes.md",
+  "sha256": "efd29607bf19032fd6393784fedfd141a5ef04a116263371d364070d5928b789",
+  "parsedContentHash": "84a25980407795ceb0ab7d17227de37a",
+  "mdsvexCompile": "passed",
+  "protectedFieldsPreserved": {
+    "title": true,
+    "date": true,
+    "loc": true,
+    "lastmod": true,
+    "published": true,
+    "enneagram": true,
+    "type": true,
+    "person": true
+  },
+  "faqAnchors": [
+    {
+      "anchor": "what-is-elizabeth-holmess-personality-type",
+      "resolves": true
+    },
+    {
+      "anchor": "what-elizabeth-holmess-voice-can-tell-us",
+      "resolves": true
+    },
+    {
+      "anchor": "why-the-sunny-balwani-relationship-resists-a-simple-explanation",
+      "resolves": true
+    },
+    {
+      "anchor": "what-elizabeth-holmes-does-in-prison",
+      "resolves": true
+    },
+    {
+      "anchor": "what-you-can-see-everything-adds",
+      "resolves": true
+    }
+  ],
+  "externalBodySources": 20,
+  "citationsMissing": [],
+  "commentsStripped": true,
+  "staleGradeAbsent": true,
+  "productionPretext": {
+    "status": "blocked",
+    "handoff_from": "blog_refresh_people",
+    "reviewed": false,
+    "ready_for_production": false,
+    "sync_mode": "full",
+    "requires": [
+      "db_sync",
+      "db_verify",
+      "regenerate_famous_types",
+      "image_check"
+    ],
+    "blockers": [
+      "external_claude_pipeline_approval_pending",
+      "fresh_same_version_grades_missing",
+      "six_perspective_review_missing"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "person": "Elizabeth-Holmes",
+  "draft_path": "src/blog/people/drafts/Elizabeth-Holmes.md",
+  "entity_gap_brief": "docs/content-analysis/entity-gaps/Elizabeth-Holmes.md",
+  "log_dir": "/Users/djwayne/.codex/worktrees/f793/9takes/docs/content-analysis/pipeline-logs/2026-09-09_112933_Elizabeth-Holmes",
+  "perspective_review_dir": "docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-09_112933",
+  "perspective_initial_status": "not_run",
+  "perspective_final_status": "packet_invalid",
+  "completed": true,
+  "halt_reason": null,
+  "revised": false,
+  "lint_exit": 1,
+  "first_overall": null,
+  "final_overall": null,
+  "final_discoverability": null,
+  "grade_stability_delta": null,
+  "has_stage_warnings": true,
+  "generated_at": "2026-09-09T15:30:02.933Z"
+}
