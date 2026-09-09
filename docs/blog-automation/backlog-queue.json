@@ -1,11 +1,90 @@
 {
-  "lastUpdated": "2026-09-02T06:00:00Z",
+  "lastUpdated": "2026-09-09T15:29:18Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
-  "queue": [],
+  "queue": [
+    {
+      "name": "arthur-mensch",
+      "displayName": "Arthur Mensch",
+      "type": null,
+      "priority": 90,
+      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Mistral's Sept. 8 Series D follows August partnership activity; strongest frontier-builder prior and substantial founder interviews. Company attention is verified; person-search growth remains directional.",
+      "estimatedTraffic": "high",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 0,
+      "strategicValue": "frontier-builder-cluster"
+    },
+    {
+      "name": "austin-abrams",
+      "displayName": "Austin Abrams",
+      "type": null,
+      "priority": 89,
+      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Official lead roles in Resident Evil Sept. 18 and Whalefall Oct. 16 create two press windows; substantive craft interview exists. Demand is a calendar forecast, not measured name-search growth.",
+      "estimatedTraffic": "high",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 0,
+      "strategicValue": "rising-screen-horror-cluster"
+    },
+    {
+      "name": "joseph-zada",
+      "displayName": "Joseph Zada",
+      "type": null,
+      "priority": 88,
+      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Sunrise on the Reaping Nov. 20 offers index runway; August Interview feature supplies a first-person evidence base. Expand source breadth and run entity-gap audit; forecast demand only.",
+      "estimatedTraffic": "high",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 0,
+      "strategicValue": "hunger-games-rising-star-cluster"
+    },
+    {
+      "name": "tom-rhys-harries",
+      "displayName": "Tom Rhys Harries",
+      "type": null,
+      "priority": 87,
+      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Official Clayface lead with Oct. 23 US release and July EW cover/interview trail; six weeks of runway. Run entity-gap audit; do not derive type from his fictional role.",
+      "estimatedTraffic": "medium",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 0,
+      "strategicValue": "dcu-rising-star-cluster"
+    },
+    {
+      "name": "rod-wave",
+      "displayName": "Rod Wave",
+      "type": null,
+      "priority": 86,
+      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Aug. 28 album followed by Sept. 12-Nov. 19 arena tour, label-reported added shows, and fresh first-person interviews. Weaker music-crossover prior; no verified Google name-volume figure.",
+      "estimatedTraffic": "medium",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 0,
+      "strategicValue": "music-creator-business-cluster"
+    },
+    {
+      "name": "ben-shelton",
+      "displayName": "Ben Shelton",
+      "type": null,
+      "priority": 20,
+      "priorityReason": "DJ explicitly deprioritized athletes on 2026-09-09; low-priority reserve behind non-athlete subjects. Direct Google Trends name query at 500K+ in the Sept. 9 US past-24-hours snapshot after US Open quarterfinal win; confirmed Sept. 25-27 Laver Cup and substantive interview trail. Recheck event timing before creation.",
+      "estimatedTraffic": "high",
+      "searchVolume": "very-high",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 0,
+      "strategicValue": "tennis-culture-cluster"
+    }
+  ],
   "completed": [
     {
       "name": "naval-ravikant",
