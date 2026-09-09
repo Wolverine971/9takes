@@ -87,10 +87,14 @@ describe('prepareSequenceSend', () => {
 			})
 		);
 
-		expect(prepared.subject).toBe('Make 9takes more useful to you');
-		expect(prepared.preheader).toBe('Add your Enneagram type in less than a minute.');
+		expect(prepared.subject).toBe('What do you notice that other people miss?');
+		expect(prepared.preheader).toBe(
+			'Add your Enneagram type to compare your perspective with the other eight.'
+		);
 		expect(prepared.htmlContent).toContain('Hi Alice,');
-		expect(prepared.htmlContent).toContain('show you where the other types see it differently');
+		expect(prepared.htmlContent).toContain(
+			'put your answers alongside the other eight perspectives'
+		);
 		expect(prepared.htmlContent).toContain('class="button" href="https://9takes.com/account"');
 		expect(prepared.htmlContent).toContain(
 			'https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type'

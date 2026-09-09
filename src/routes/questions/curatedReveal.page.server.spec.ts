@@ -168,6 +168,25 @@ describe('/questions/[slug] load: curated reveal', () => {
 		state.checkDemoTimeMock.mockResolvedValue(false);
 	});
 
+	it.each([true, false])(
+		'preserves the gate without a visitor cookie (signed in: %s)',
+		async (signedIn) => {
+			state.resolver = buildResolver({ newest: [comment(1)] });
+			const event: any = buildEvent(signedIn);
+			event.cookies.get = () => undefined;
+			event.locals.session = signedIn ? { user: { id: 'reader' } } : null;
+			const result = (await load(event)) as any;
+			const gateCall = state.rpcMock.mock.calls.find(([name]) => name === 'can_see_comments_3');
+			expect(JSON.parse(JSON.stringify(gateCall?.[1]))).toEqual({
+				questionid: 118,
+				userid: signedIn ? 'reader' : null,
+				userfingerprint: null
+			});
+			expect(result.flags.userHasAnswered).toBe(signedIn);
+			expect(result.comments).toEqual(signedIn ? [comment(1)] : []);
+		}
+	);
+
 	it('sends one newest-first snapshot plus boost IDs for browser ranking and returns the next starter', async () => {
 		const newest = [comment(1000), comment(661), comment(999), comment(375)];
 		state.resolver = buildResolver({

@@ -6,6 +6,7 @@ import { ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS } from '$lib/email/enneagram-ty
 
 const DAY_MS = 24 * 60 * 60 * 1000;
 const ACTIVE_SEQUENCE_STATUSES = new Set(['active', 'processing', 'paused']);
+const HELD_SEQUENCE_STATUSES = [...ACTIVE_SEQUENCE_STATUSES, 'errored'];
 
 export const ENNEAGRAM_CAMPAIGN_HOLD_LABELS = {
 	ready: 'Ready now',
@@ -14,6 +15,7 @@ export const ENNEAGRAM_CAMPAIGN_HOLD_LABELS = {
 	admin: 'Admin account',
 	recent: 'Joined in the last 7 days',
 	active_sequence: 'Already in an email sequence',
+	errored_sequence: 'Stalled sequence needs review',
 	recent_email: 'Emailed in the last 7 days',
 	invalid_email: 'Invalid email address',
 	duplicate_email: 'Duplicate email address'
@@ -84,6 +86,7 @@ function emptyCounts(): Record<EnneagramCampaignStatus, number> {
 		admin: 0,
 		recent: 0,
 		active_sequence: 0,
+		errored_sequence: 0,
 		recent_email: 0,
 		invalid_email: 0,
 		duplicate_email: 0
@@ -127,6 +130,11 @@ export function buildEnneagramCampaignAudience({
 			.map((enrollment) => enrollment.user_id)
 	);
 	const lastEmailSentAtByEmail = new Map<string, string>();
+	const erroredSequenceUserIds = new Set(
+		sequenceEnrollments
+			.filter((enrollment) => enrollment.status === 'errored')
+			.map((row) => row.user_id)
+	);
 	for (const send of emailSends) {
 		const email = normalizeEmail(send.recipient_email);
 		if (!email || !send.sent_at) continue;
@@ -173,6 +181,8 @@ export function buildEnneagramCampaignAudience({
 			status = 'recent';
 		} else if (activeSequenceUserIds.has(profile.id)) {
 			status = 'active_sequence';
+		} else if (erroredSequenceUserIds.has(profile.id)) {
+			status = 'errored_sequence';
 		} else if (
 			lastEmailSentTime >
 			now.getTime() - ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS * DAY_MS
@@ -255,41 +265,46 @@ export async function loadEnneagramCampaignAudience(
 	const recentEmailCutoff = new Date(
 		now.getTime() - ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS * DAY_MS
 	).toISOString();
-	const [
-		profiles,
-		authUsers,
-		unsubscribes,
-		legacyOptOuts,
-		recordedBounces,
-		sequenceEnrollments,
-		emailSends
-	] = await Promise.all([
+	const [profiles, authUsers, sequenceEnrollments, emailSends] = await Promise.all([
 		loadAllRows(
 			supabase,
 			'profiles',
 			'id, email, first_name, last_name, username, enneagram, created_at, admin'
 		),
 		loadAllAuthUsers(supabase),
-		loadAllRows(supabase, 'email_unsubscribes', 'email'),
-		loadAllRows(supabase, 'signups', 'email', (query) =>
-			query.not('unsubscribed_date', 'is', null)
-		),
-		loadAllRows(supabase, 'email_sends', 'recipient_email', (query) =>
-			query.or('bounced_at.not.is.null,status.eq.bounced')
-		),
 		loadAllRows(supabase, 'email_sequence_enrollments', 'user_id, status', (query) =>
-			query.in('status', [...ACTIVE_SEQUENCE_STATUSES])
+			query.in('status', HELD_SEQUENCE_STATUSES)
 		),
 		loadAllRows(supabase, 'email_sends', 'recipient_email, sent_at', (query) =>
 			query.not('sent_at', 'is', null).gt('sent_at', recentEmailCutoff)
 		)
 	]);
+	// Use the same normalized, current suppression sources as delivery. Fail
+	// closed instead of advertising a ready audience when this lookup fails.
+	const emails = [
+		...new Set(
+			(profiles as EnneagramCampaignProfile[])
+				.filter((profile) => !hasValidEnneagramType(profile.enneagram))
+				.map((profile) => normalizeEmail(profile.email))
+				.filter(Boolean)
+		)
+	];
+	const suppressed: SuppressionRow[] = [];
+	for (let offset = 0; offset < emails.length; offset += 200) {
+		const { data, error } = await supabase.rpc('get_suppressed_emails', {
+			p_emails: emails.slice(offset, offset + 200)
+		});
+		if (error) throw error;
+		if (!Array.isArray(data))
+			throw new Error('Email suppression lookup did not return an audience');
+		suppressed.push(...data);
+	}
 
 	return buildEnneagramCampaignAudience({
 		profiles: profiles as EnneagramCampaignProfile[],
 		authUsers,
-		unsubscribes: [...unsubscribes, ...recordedBounces] as SuppressionRow[],
-		legacyOptOuts: legacyOptOuts as SuppressionRow[],
+		unsubscribes: suppressed,
+		legacyOptOuts: [],
 		sequenceEnrollments: sequenceEnrollments as SequenceEnrollment[],
 		emailSends: emailSends as EmailSendRow[],
 		now

@@ -1,7 +1,7 @@
 <!-- src/routes/account/+page.svelte -->
 <script lang="ts">
-	import { enhance } from '$app/forms';
-	import { goto } from '$app/navigation';
+	import { deserialize, enhance } from '$app/forms';
+	import { goto, invalidateAll } from '$app/navigation';
 	import { resolve } from '$app/paths';
 	import { Button } from '$lib/components/atoms';
 	import { notifications as toast } from '$lib/components/molecules/notifications';
@@ -105,7 +105,9 @@
 	let markingRead = $state(false);
 	let savingPrefs = $state(false);
 	let profileSnapshot = $state<ProfileSnapshot>({ firstName: '', lastName: '', enneagram: '' });
-	let lastLoadedSignature = $state('');
+	// A comparison cache, not UI state. Updating it after a save must not
+	// re-run hydration with the previous server data and erase the saved type.
+	let lastLoadedSignature = '';
 
 	// Local copies so mark-as-read and preference toggles feel instant without a
 	// full invalidation round trip.
@@ -302,9 +304,14 @@
 		body.append('email', userEmail);
 
 		try {
-			const response = await fetch('?/updateAccount', { method: 'POST', body });
+			const response = await fetch('?/updateAccount', {
+				method: 'POST',
+				body,
+				headers: { accept: 'application/json', 'x-sveltekit-action': 'true' }
+			});
+			const result = deserialize(await response.text());
 
-			if (!response.ok) {
+			if (!response.ok || result.type !== 'success' || result.data?.success !== true) {
 				throw new Error(`Failed to update account (${response.status})`);
 			}
 
@@ -321,6 +328,7 @@
 			showTypePicker = false;
 
 			toast.success('Account updated', 3000);
+			await invalidateAll();
 		} catch (error) {
 			console.error('Error updating account:', error);
 			toast.danger('Failed to update account', 3000);
@@ -428,6 +436,7 @@
 	}
 
 	function selectType(num: number) {
+		showTypePicker = true;
 		enneagram = String(num);
 	}
 </script>
@@ -527,7 +536,7 @@
 				</div>
 
 				<div class="type-grid" role="radiogroup" aria-label="Enneagram type">
-					{#each enneagramTypes as type}
+					{#each enneagramTypes as type (type.num)}
 						<button
 							type="button"
 							role="radio"

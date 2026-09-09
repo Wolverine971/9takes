@@ -1,3 +1,4 @@
+// src/routes/comments/comments.server.spec.ts
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 const { gate, loadTakes, demo } = vi.hoisted(() => ({
 	gate: vi.fn(),
@@ -25,6 +26,26 @@ beforeEach(() => {
 	loadTakes.mockResolvedValue({ data: [{ id: 1 }], count: 105 });
 });
 describe('comment overflow API', () => {
+	it.each([true, false])(
+		'checks a reader without a visitor cookie (signed in: %s)',
+		async (signedIn) => {
+			const request = event();
+			request.cookies.get = () => undefined;
+			if (!signedIn) request.locals.session = null;
+			gate.mockImplementation(async (_name, args) => {
+				// PostgREST requires all three named arguments, including a null fingerprint.
+				const body = JSON.parse(JSON.stringify(args));
+				expect(body).toEqual({
+					questionid: 118,
+					userid: signedIn ? 'reader' : null,
+					userfingerprint: null
+				});
+				return { data: signedIn, error: null };
+			});
+			expect(await (await GET(request)).json()).toEqual(signedIn ? [{ id: 1 }] : []);
+			expect(loadTakes).toHaveBeenCalledTimes(signedIn ? 1 : 0);
+		}
+	);
 	it('never calls the service projection for a locked reader', async () => {
 		gate.mockResolvedValue({ data: false, error: null });
 		expect(await (await GET(event())).json()).toEqual([]);

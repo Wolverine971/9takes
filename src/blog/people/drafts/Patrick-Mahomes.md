@@ -4,12 +4,12 @@ meta_title: 'Why Patrick Mahomes Rehearses Chaos (Enneagram Type 6)'
 persona_title: "Football's Prepared Improviser"
 description: 'Patrick Mahomes looks like pure instinct. His own words say the no-look is rehearsed, the helmet is the safest one made, and the draft-night nerves were real.'
 author: 'DJ Wayne'
-date: '2026-08-23'
+date: '2026-09-08'
 loc: 'https://9takes.com/personality-analysis/patrick-mahomes'
-lastmod: '2026-08-23'
+lastmod: '2026-09-08'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: '6'
 type: ['celebrity', 'athlete']
 person: 'Patrick-Mahomes'
@@ -71,7 +71,7 @@ faqs:
     answer: "He has conceded part of the charge. After Troy Aikman said on air during the January 2025 Houston playoff game that Mahomes slowed down near the sideline to draw a flag, Mahomes told Kansas City radio 'I probably shouldn't have done that.' The article reads the helmet he calls 'the most safe helmet you could possibly have,' the early slide, and the 'great rush, dude' compliments to pass rushers as one threat-management habit: a man who removes surprise from every other part of his life treating the blind-side hit as the last surprise left. He would rather be mocked than unprotected."
     anchor: 'why-patrick-mahomes-wears-the-safest-helmet-in-the-nfl'
   - question: 'Is Patrick Mahomes playing in 2026 after his ACL injury?'
-    answer: "Mahomes tore the ACL and LCL in his left knee on December 14, 2025, against the Chargers, the night Kansas City was eliminated from playoff contention. After surgery in Dallas with Dr. Dan Cooper and a rehab Andy Reid described as seven hours a day, he was cleared for training camp in late July 2026, but only after Cooper ran a test built to exhaust the leg and then make him cut and jump on it. He sat out the first two August 2026 preseason games on Reid's orders and said on August 22, 2026 that the call on the September 14 Monday night opener against Denver is 'up to Coach Reid.'"
+    answer: "Mahomes tore the ACL and LCL in his left knee on December 14, 2025, against the Chargers, the night Kansas City was eliminated from playoff contention. After surgery in Dallas with Dr. Dan Cooper and a rehab Andy Reid described as seven hours a day, he was cleared for training camp in late July 2026, but only after Cooper ran a test built to exhaust the leg and then make him cut and jump on it. He sat out the preseason on Reid's orders. On September 8, 2026, Reid said Mahomes had a 'pretty good chance' to start the September 14 Monday night opener against Denver, barring a setback."
     anchor: 'the-first-time-patrick-mahomess-body-said-no'
   - question: "Who are Patrick Mahomes's wife, children, and parents?"
     answer: "Mahomes, born in 1995 in Tyler, Texas, is married to Brittany Mahomes (née Matthews), his girlfriend from Whitehouse High School; they have three children, born in 2021, 2022, and 2025. His father, Pat Mahomes Sr., pitched eleven seasons in the majors, so Patrick grew up in big-league clubhouses copying his godfather LaTroy Hawkins and Alex Rodriguez; his mother, Randi Martin, is the one he kept asking 'is your phone working?' on draft night in 2017. He played football and baseball at Texas Tech after the Detroit Tigers drafted him in the 37th round in 2014."
@@ -104,7 +104,7 @@ content_quality:
   caps_applied: []
   confidence: high
   anchor: 'Matt-Smith draft (2026-06-28, B band); exceeds it on sourcing and formula cleanliness'
-  needs_review: true
+  needs_review: false
   graded_at: '2026-08-23'
 path: src/blog/people/drafts/Patrick-Mahomes.md
 ---
@@ -289,7 +289,7 @@ The case against Mahomes is that he games the whistle. In the [January 2025 play
 
 The critics are describing something real. The sideline slow-down was bait for a flag, and he has said so. The fall that drew the roughing call is a different play, and he defended it [on the same radio hit](https://sports.yahoo.com/patrick-mahomes-dismisses-talk-chiefs-222819925.html): "I was just trying to get out of the way of getting smoked by the defensive lineman running in... that's the smart way to stay in the football game." Set the bait aside and what is left, the helmet, the early slide and the "great rush, dude," is one behavior. A man whose method is to remove surprise from his life has found the one place surprise still lives, a 280-pound lineman arriving from the blind side, and he is using every tool he has to make that moment smaller. Including tools that make him look soft. He would rather be mocked than unprotected. Most Sixes make some version of that trade. His is just televised.
 
-And when the structure he leans on fails him, the calm goes with it. On [December 10, 2023](https://www.nfl.com/news/chiefs-qb-patrick-mahomes-hc-andy-reid-take-issue-with-offensive-offsides-call-i), at Buffalo, an offside flag on Kadarius Toney erased a Kelce lateral that would have put Kansas City ahead late. Mahomes slammed his helmet, had to be held back on the sideline, and found Bills quarterback Josh Allen afterward to tell him it was the "wildest" call he had ever seen, with an adjective in the middle. Two days later, as ESPN reported: "I was still hot and emotional, but you can't do that, man." Then the line that explains it: "Can't be that way towards officials, or really anybody in life."
+And when the structure he leans on fails him, the calm goes with it. On [December 10, 2023](https://www.nfl.com/news/chiefs-qb-patrick-mahomes-hc-andy-reid-take-issue-with-offensive-offsides-call-i), at Arrowhead, an offside flag on Kadarius Toney erased a Kelce lateral that would have put Kansas City ahead late. Mahomes slammed his helmet, had to be held back on the sideline, and found Bills quarterback Josh Allen afterward to tell him it was the "wildest" call he had ever seen, with an adjective in the middle. Two days later, as ESPN reported: "I was still hot and emotional, but you can't do that, man." Then the line that explains it: "Can't be that way towards officials, or really anybody in life."
 
 <p class="inner-thought">The rules are supposed to hold. That is the deal. I do the film, I do the third-down cut-up, I do the red zone and the goal line until it is perfect, and the moment is never bigger than what it is. So what am I supposed to do with a flag that just erased the best play I have ever seen?</p>
 
@@ -348,6 +348,8 @@ Read that sentence twice. The most gifted quarterback of his generation did not 
 At the same August 8, 2026 availability he was already a problem for his own caution. "I'm trying to hold myself back... all of a sudden I'm running and cutting back and trying to pitch the ball... I'm not going to lose who I am. But I'm going to try to keep myself smart." He sat out the first two August preseason games on Reid's orders. "I really wanted to play today," he told [KSHB](https://www.kshb.com/sports/football/chiefs/they-would-not-let-me-play-chiefs-qb-patrick-mahomes-eager-to-play-again) after the second one, "but they would not let me."
 
 The interview turned to the Monday night opener on September 14, 2026, against the Broncos, the team that took the division while he sat on a table. Would he take the first snap? "It's up to Coach Reid," he told KSHB on August 22, 2026, "and I have to trust that he's going to do right by me."
+
+On [September 8, 2026](https://sports.yahoo.com/articles/patrick-mahomes-play-chiefs-season-181939035.html), Yahoo Sports reported that Reid gave Mahomes a "pretty good chance" to start, barring a setback.
 
 <!-- POST-WEEK-1 SLOT: one dated sentence on whether he started the September 14, 2026 opener goes here, before the closing two lines. -->
 

@@ -11,6 +11,7 @@
 	const filters: Array<{ value: 'all' | EnneagramCampaignStatus; label: string }> = [
 		{ value: 'ready', label: 'Ready now' },
 		{ value: 'active_sequence', label: 'In another sequence' },
+		{ value: 'errored_sequence', label: 'Stalled sequence' },
 		{ value: 'recent_email', label: 'Emailed in last 7 days' },
 		{ value: 'recent', label: 'Brand-new accounts' },
 		{ value: 'unconfirmed', label: 'Unconfirmed' },
@@ -72,6 +73,27 @@
 		</p>
 	</section>
 
+	<section class="safety-banner" aria-label="Email delivery status">
+		<div>
+			<strong>{data.delivery.configured ? 'Sender configured' : 'Delivery blocked'}</strong>
+		</div>
+		{#each data.delivery.blockers as blocker (blocker)}
+			<p>{blocker}</p>
+		{/each}
+		{#if data.delivery.stoppedEnrollments > 0}
+			<p>
+				{data.delivery.stoppedEnrollments} enrollment{data.delivery.stoppedEnrollments === 1
+					? ''
+					: 's'}
+				in active sequences stopped after errors. Review them in the
+				<a href={resolve('/admin/email-campaigns')}>email campaigns dashboard</a> before resuming.
+			</p>
+		{/if}
+		<p>
+			Provider: {data.delivery.provider}. Confirm inbox delivery before the first 10-person pilot.
+		</p>
+	</section>
+
 	<section class="metric-grid" aria-label="Audience summary">
 		<article class="metric primary">
 			<span>Eligible to send</span>
@@ -116,6 +138,7 @@
 				<span>Suppressed <strong>{data.audience.counts.suppressed}</strong></span>
 				<span>Unconfirmed <strong>{data.audience.counts.unconfirmed}</strong></span>
 				<span>Other sequence <strong>{data.audience.counts.active_sequence}</strong></span>
+				<span>Stalled sequence <strong>{data.audience.counts.errored_sequence}</strong></span>
 				<span>Recent email <strong>{data.audience.counts.recent_email}</strong></span>
 				<span>New <strong>{data.audience.counts.recent}</strong></span>
 				<span>Admins <strong>{data.audience.counts.admin}</strong></span>

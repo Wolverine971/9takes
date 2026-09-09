@@ -31,13 +31,14 @@ vi.mock('$lib/utils/logger', () => ({
 	logger: loggerMocks
 }));
 
-import { actions } from './+page.server';
+import { actions, load } from './+page.server';
 
 function buildLoginRequest(overrides: Record<string, string> = {}) {
 	const formData = new FormData();
 	formData.append('email', overrides.email ?? 'user@example.com');
 	formData.append('password', overrides.password ?? 'Password1');
 	formData.append('g-recaptcha-response', overrides['g-recaptcha-response'] ?? 'token');
+	if (overrides.returnTo) formData.append('returnTo', overrides.returnTo);
 
 	return new Request('http://localhost/login', {
 		method: 'POST',
@@ -75,6 +76,52 @@ describe('login action', () => {
 			rateLimited: false
 		});
 		verifyRecaptchaMock.mockResolvedValue(true);
+	});
+
+	it('returns an email recipient to their account after successful login', async () => {
+		const event = buildEvent();
+		event.request = buildLoginRequest({ returnTo: '/account?utm_source=email' });
+		await expect(actions.login(event as any)).rejects.toMatchObject({
+			status: 303,
+			location: '/account?utm_source=email'
+		});
+	});
+
+	it.each([
+		'https://evil.example/account',
+		'//evil.example/account',
+		'/account/../logout',
+		'/account\\evil',
+		'/login',
+		'/account\n'
+	])('rejects an unsafe return destination: %s', async (returnTo) => {
+		const event = buildEvent();
+		event.request = buildLoginRequest({ returnTo });
+		await expect(actions.login(event as any)).rejects.toMatchObject({
+			status: 303,
+			location: '/questions'
+		});
+	});
+
+	it('retains the account destination when showing the login form again', async () => {
+		const event = {
+			...buildEvent(),
+			url: new URL('http://localhost/login?/login&returnTo=%2Faccount%3Futm_source%3Demail')
+		};
+		await expect(load(event as any)).resolves.toMatchObject({
+			returnTo: '/account?utm_source=email'
+		});
+	});
+
+	it('returns an already signed-in visitor directly to their account', async () => {
+		const event = buildEvent();
+		await expect(
+			load({
+				...event,
+				url: new URL('http://localhost/login?returnTo=%2Faccount'),
+				locals: { ...event.locals, user: { id: 'user-123' } }
+			} as any)
+		).rejects.toMatchObject({ status: 303, location: '/account' });
 	});
 
 	it('steps up to CAPTCHA after repeated failed logins', async () => {

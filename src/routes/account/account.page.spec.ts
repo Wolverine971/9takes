@@ -10,10 +10,14 @@ const { gotoMock, setUnreadMock } = vi.hoisted(() => ({
 }));
 
 vi.mock('$app/forms', () => ({
+	deserialize: JSON.parse,
 	enhance: () => ({ destroy: vi.fn() })
 }));
 
-vi.mock('$app/navigation', () => ({ goto: gotoMock }));
+vi.mock('$app/navigation', () => ({
+	goto: gotoMock,
+	invalidateAll: vi.fn().mockResolvedValue(undefined)
+}));
 
 vi.mock('$app/paths', () => ({ resolve: (path: string) => path }));
 
@@ -76,6 +80,44 @@ afterEach(() => {
 });
 
 describe('/account page', () => {
+	it('keeps Save type visible after choosing a first type and persists the selection', async () => {
+		const fetchMock = vi.fn().mockResolvedValue({
+			ok: true,
+			text: async () => JSON.stringify({ type: 'success', data: { success: true } })
+		});
+		vi.stubGlobal('fetch', fetchMock);
+		render(AccountPage, {
+			data: { ...baseData, user: { ...baseData.user, enneagram: 'unknown' } } as any
+		});
+		await fireEvent.click(await screen.findByRole('radio', { name: /analytical, reserved/i }));
+		const saveButton = screen.getByRole('button', { name: 'Save type' });
+		expect((saveButton as HTMLButtonElement).disabled).toBe(false);
+		await fireEvent.click(saveButton);
+		await waitFor(() => expect(fetchMock).toHaveBeenCalled());
+		expect(fetchMock.mock.calls[0][1].body.get('enneagram')).toBe('5');
+		await waitFor(() => expect(screen.queryByRole('button', { name: 'Save type' })).toBeNull());
+	});
+
+	it('keeps an unsaved type available for retry when the action fails', async () => {
+		vi.stubGlobal(
+			'fetch',
+			vi.fn().mockResolvedValue({
+				ok: true,
+				text: async () => JSON.stringify({ type: 'failure', data: { error: 'Could not save' } })
+			})
+		);
+		render(AccountPage, {
+			data: { ...baseData, user: { ...baseData.user, enneagram: 'unknown' } } as any
+		});
+		await fireEvent.click(await screen.findByRole('radio', { name: /analytical, reserved/i }));
+		await fireEvent.click(screen.getByRole('button', { name: 'Save type' }));
+		await waitFor(() =>
+			expect(
+				(screen.getByRole('button', { name: 'Save type' }) as HTMLButtonElement).disabled
+			).toBe(false)
+		);
+		expect(screen.getByText('Unsaved')).toBeTruthy();
+	});
 	it('hydrates server notification preferences without a reactive update loop', async () => {
 		render(AccountPage, { data: baseData as any });
 

@@ -4,9 +4,9 @@ meta_title: "Zach Bryan's Personality Type: Why He Fights Every Machine"
 persona_title: "Country's Loyal Mutineer"
 description: 'Why does the man who fought Ticketmaster, left the majors, and packed 112,408 into Michigan Stadium keep apologizing? Zach Bryan, decoded as a Type 6.'
 author: 'DJ Wayne'
-date: '2026-08-30'
+date: '2026-09-09'
 loc: 'https://9takes.com/personality-analysis/zach-bryan'
-lastmod: '2026-08-30'
+lastmod: '2026-09-09'
 changefreq: 'monthly'
 priority: '0.6'
 published: false
@@ -371,6 +371,5 @@ Rejected (with reason):
 Protected hits: all 16 checked after edits — openers changed around PROTECT-03/-05/-06/-07/-13 but each protected sentence/function intact; PROTECT-05 steelman concession preserved in "The hit is fair, and it lands."
 Lint: clean (0 fail; word-count warn only, 4,499/4,500)
 -->
-
 
 

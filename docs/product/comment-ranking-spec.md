@@ -2,7 +2,7 @@
 
 # Comment ranking: the default order on a question page
 
-**Status:** v2 approved by DJ 2026-09-07 (browser ranking, 100-take fetch cap, nine-take threshold, blind view increments). Decisions 4 to 8 in section 9 stand as recommended unless DJ says otherwise. Phases 2 and 3 implemented locally 2026-09-07; database migration applied to 9takes 2026-09-07; application deployment and the observation gates below are pending. Phase 4 remains an experiment backlog.
+**Status:** v2 approved by DJ 2026-09-07 (browser ranking, 100-take fetch cap, nine-take threshold, blind view increments). Decisions 4 to 8 in section 9 stand as recommended unless DJ says otherwise. Phases 2 and 3 implemented 2026-09-07; database migration applied to 9takes 2026-09-07. Phase 2 is deployed and verified live 2026-09-08; Ranked remains off pending the observation gate. The verification found a missing-cookie permission-check edge case, fixed locally and awaiting redeployment. Phase 4 remains an experiment backlog. See [deployment verification](comment-ranking-verification-2026-09-08.md).
 **Owner:** DJ
 **Replaces:** the separate "Three takes that don't agree" block (removed 2026-09-07). Curation survives as a backend boost only.
 
@@ -245,8 +245,8 @@ Phase 2 is one column and one endpoint. Phase 3 is one pure function, one query 
 
 ## 10. Implementation and rollout operations (2026-09-07)
 
-- Applied `supabase/migrations/20260907175553_comment_ranking.sql` to the 9takes database (`nhjjzcsnmyotyhykbajc`) at 2026-09-07 17:55:53 UTC. Verified the columns, service-only functions, rank trigger, audit RLS, and live take/ranking RPCs on question 118 (35 takes). The application can now be deployed against this schema.
-- Deploy with `PRIVATE_COMMENT_RANKING_ENABLED=false` (also the default when unset). Views are collected; the default remains boosted then newest. Sorting and local paging use the complete fetched set during this phase.
+- Applied `supabase/migrations/20260907175553_comment_ranking.sql` to the 9takes database (`nhjjzcsnmyotyhykbajc`) at 2026-09-07 17:55:53 UTC. Verified the columns, service-only functions, rank trigger, audit RLS, and live take/ranking RPCs on question 118 (35 takes). Deployment was confirmed live on 2026-09-08; the earliest retained production view batch is 2026-09-07 20:00:52 UTC.
+- Keep `PRIVATE_COMMENT_RANKING_ENABLED=false` (also the default when unset). Live public controls show Default, and the admin panel confirms collection mode. Views are collected; the default remains boosted then newest. Sorting and local paging use the complete fetched set during this phase.
 - After a week of plausible starter impressions, set `PRIVATE_COMMENT_RANKING_ENABLED=true` and redeploy to enable Ranked, including the nine-take threshold. Turning it off returns to the previous default while retaining view counts. The actual activation date, not the implementation date, is the answer-length baseline.
 - `/admin/questions` → Boosts and exposure shows the proposed ranked positions in both modes. Save boosts and reload answers to refresh their metrics. Reset views is an explicit two-step admin operation, written transactionally to `comment_view_reset_audit`. Browser dedupe remains intact; use a fresh test browser or remove that question's `9takes:comment-views:<id>` localStorage entry when testing another impression after a reset.
 - `/admin/host-desk` can set or clear a persistent low-effort flag. A posted host reply clears the moderation penalty; the text floor still applies until boosted. The rank at reply is captured transactionally for future posts from both admin and signed digest links; historical posts show a dash because their past exposure cannot be reconstructed.

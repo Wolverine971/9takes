@@ -288,6 +288,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'noah-wyle', link: true, hasImage: true, lastmod: '2026-08-27', personaTitle: 'Television\'s Trusted Attending', contentGrade: null, types: ['movieStar', 'celebrity'] },
 		{ name: 'olivia-cooke', link: true, hasImage: true, lastmod: '2026-08-30', personaTitle: 'Hollywood\'s Anxious Understudy', contentGrade: 8.3, types: ['movieStar'] },
 		{ name: 'olivia-munn', link: true, hasImage: true, lastmod: '2026-04-11', personaTitle: 'Hollywood\'s Counterphobic Sentinel', contentGrade: 9, types: ['movieStar', 'screen-icon'] },
+		{ name: 'patrick-mahomes', link: true, hasImage: true, lastmod: '2026-09-08', personaTitle: 'Football\'s Prepared Improviser', contentGrade: 8.6, types: ['celebrity', 'athlete'] },
 		{ name: 'pedro-pascal', link: true, hasImage: true, lastmod: '2026-05-19', personaTitle: 'Hollywood\'s Anxious Guardian', contentGrade: 9.4, types: ['movieStar', 'screen-icon'] },
 		{ name: 'penelope-cruz', link: true, hasImage: true, lastmod: '2026-06-02', personaTitle: 'Cinema\'s Trembling Loyalist', contentGrade: 9.3, types: ['movieStar', 'celebrity', 'screen-icon'] },
 		{ name: 'peter-thiel', link: true, hasImage: true, lastmod: '2026-03-02', personaTitle: 'Silicon Valley\'s Vigilant Contrarian', contentGrade: 9.7, types: ['techie', 'investor'] },

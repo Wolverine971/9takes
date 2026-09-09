@@ -1034,7 +1034,7 @@ async function checkUserAnswered(
 ) {
 	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const { data } = await (db.rpc as any)('can_see_comments_3', {
-		userfingerprint: cookie,
+		userfingerprint: cookie ?? null,
 		questionid: questionId,
 		userid: userId || null
 	});

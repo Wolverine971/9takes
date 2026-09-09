@@ -26,17 +26,20 @@ export type EnneagramTypePromptVariant = {
 export const ENNEAGRAM_TYPE_PROMPT_CONTENT: EnneagramTypePromptContent = {
 	sequenceKey: ENNEAGRAM_TYPE_PROMPT_KEY,
 	stepNumber: 1,
-	subject: 'Make 9takes more useful to you',
-	preheader: 'Add your Enneagram type in less than a minute.',
+	subject: 'What do you notice that other people miss?',
+	preheader: 'Add your Enneagram type to compare your perspective with the other eight.',
 	htmlContent: `<p>Hi {{first_name}},</p>
-<p>9takes gets more interesting when the same question is answered from nine different perspectives. If we know your Enneagram type, we can place your take in that conversation and show you where the other types see it differently.</p>
+<p>Two people can leave the same conversation with completely different reads. What felt direct to one felt harsh to the other. Your Enneagram type gives you a starting point for noticing those patterns in yourself.</p>
+<p>On 9takes, add your type to put your answers alongside the other eight perspectives. See what you notice first—and what someone else picks up that you missed.</p>
 <p>If you already know your number, adding it takes less than a minute.</p>
 <p style="margin:20px 0;"><a class="button" href="https://9takes.com/account">Add my type</a></p>
 <p>Not sure yet? Use the <a href="https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">10-minute guide to finding your starting point</a>. No quiz score gets to decide for you—choose the pattern you recognize in yourself.</p>
 <p>DJ<br />9takes</p>`,
 	plainText: `Hi {{first_name}},
 
-9takes gets more interesting when the same question is answered from nine different perspectives. If we know your Enneagram type, we can place your take in that conversation and show you where the other types see it differently.
+Two people can leave the same conversation with completely different reads. What felt direct to one felt harsh to the other. Your Enneagram type gives you a starting point for noticing those patterns in yourself.
+
+On 9takes, add your type to put your answers alongside the other eight perspectives. See what you notice first—and what someone else picks up that you missed.
 
 If you already know your number, adding it takes less than a minute.
 
@@ -49,7 +52,7 @@ https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagra
 No quiz score gets to decide for you—choose the pattern you recognize in yourself.
 
 DJ
-	9takes`
+9takes`
 };
 
 const ENNEAGRAM_TYPE_PROMPT_RECOGNITION_CONTENT: EnneagramTypePromptContent = {

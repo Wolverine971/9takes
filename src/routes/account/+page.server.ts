@@ -26,7 +26,8 @@ export const load: PageServerLoad = async (event) => {
 	const session = event.locals.session;
 
 	if (!session?.user?.id) {
-		throw redirect(302, '/questions');
+		const returnTo = `/account${event.url.search}`;
+		throw redirect(303, `/login?returnTo=${encodeURIComponent(returnTo)}`);
 	}
 	if (!session.user.email) {
 		throw error(400, 'No account email found for current session');
@@ -132,6 +133,9 @@ export const actions: Actions = {
 			const last_name = body.lastName as string;
 			const enneagram = body.enneagram as string;
 			const email = body.email as string;
+			if (enneagram !== '' && !/^[1-9]$/.test(enneagram ?? '')) {
+				throw error(400, 'Choose an Enneagram type from 1 to 9');
+			}
 
 			// Verify the email matches the authenticated user to prevent privilege escalation
 			if (email !== session.user.email) {

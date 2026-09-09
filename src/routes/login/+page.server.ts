@@ -2,6 +2,7 @@
 import { AuthApiError } from '@supabase/supabase-js';
 import { fail, redirect } from '@sveltejs/kit';
 import { establishSessionFromAuthRedirect } from '$lib/server/authCallback';
+import { getAccountReturnTo } from '$lib/server/accountReturnTo';
 import { getAuthProtectionState, recordAuthProtectionEvent } from '$lib/server/authProtection';
 import { logger } from '$lib/utils/logger';
 import { verifyRecaptcha } from '$lib/utils/recaptcha';
@@ -18,6 +19,7 @@ const loginSchema = z.object({
 });
 
 export const load: PageServerLoad = async (event) => {
+	const returnTo = getAccountReturnTo(event.url.searchParams.get('returnTo'));
 	// Email confirmation links redirect here with a PKCE `?code=` (or
 	// `?token_hash=&type=signup`). Completing the exchange signs the new user in.
 	const redirectResult = await establishSessionFromAuthRedirect(event);
@@ -32,7 +34,7 @@ export const load: PageServerLoad = async (event) => {
 
 	// redirect user if logged in (also covers a just-confirmed signup)
 	if (user?.id) {
-		throw redirect(303, '/');
+		throw redirect(303, returnTo ?? '/');
 	}
 
 	const protectionState = await getAuthProtectionState({
@@ -41,6 +43,7 @@ export const load: PageServerLoad = async (event) => {
 	});
 
 	return {
+		returnTo,
 		captchaRequired: protectionState.captchaRequired,
 		confirmationError: redirectResult.failed
 	};
@@ -53,6 +56,7 @@ export const actions: Actions = {
 		try {
 			const formData = await request.formData();
 			const body = Object.fromEntries(formData);
+			const returnTo = getAccountReturnTo(formData.get('returnTo'));
 
 			// Validate input
 			const validatedData = loginSchema.parse(body);
@@ -152,6 +156,10 @@ export const actions: Actions = {
 				userId: data.user?.id,
 				isAdmin: normalizedEmail === PRIVATE_ADMIN_EMAIL
 			});
+
+			if (returnTo) {
+				throw redirect(303, returnTo);
+			}
 
 			if (normalizedEmail === PRIVATE_ADMIN_EMAIL) {
 				throw redirect(303, '/admin');

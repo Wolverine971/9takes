@@ -76,7 +76,7 @@ export const GET = withApiLogging(async ({ url, locals, cookies }) => {
 			const { data: userHasAnswered, error: canSeeCommentsError } = await supabase.rpc(
 				'can_see_comments_3',
 				{
-					userfingerprint: cookie,
+					userfingerprint: cookie ?? null,
 					questionid: parentId,
 					userid: user?.id || null
 				}

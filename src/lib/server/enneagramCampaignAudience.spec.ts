@@ -1,10 +1,11 @@
 // src/lib/server/enneagramCampaignAudience.spec.ts
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import type { User } from '@supabase/supabase-js';
 
 import {
 	buildEnneagramCampaignAudience,
 	hasValidEnneagramType,
+	loadEnneagramCampaignAudience,
 	type EnneagramCampaignProfile
 } from './enneagramCampaignAudience';
 
@@ -97,6 +98,7 @@ describe('Enneagram campaign audience', () => {
 			admin: 1,
 			recent: 1,
 			active_sequence: 1,
+			errored_sequence: 0,
 			recent_email: 1,
 			invalid_email: 1,
 			duplicate_email: 1
@@ -109,4 +111,65 @@ describe('Enneagram campaign audience', () => {
 		expect(result.rows.find((row) => row.id === 'ready')?.status).toBe('ready');
 		expect(result.rows.find((row) => row.id === 'duplicate-b')?.status).toBe('duplicate_email');
 	});
+
+	it('holds an errored enrollment for review instead of contacting it through another sequence', () => {
+		const result = buildEnneagramCampaignAudience({
+			profiles: [profile('stalled')],
+			authUsers: [authUser('stalled')],
+			unsubscribes: [],
+			legacyOptOuts: [],
+			sequenceEnrollments: [{ user_id: 'stalled', status: 'errored' }],
+			emailSends: [],
+			now: NOW
+		});
+		expect(result.counts.ready).toBe(0);
+		expect(result.counts.errored_sequence).toBe(1);
+	});
+
+	it.each([false, true])(
+		'uses delivery suppression and fails closed on lookup errors (%s)',
+		async (fails) => {
+			const rpc = vi
+				.fn()
+				.mockResolvedValue(
+					fails
+						? { data: null, error: new Error('suppression unavailable') }
+						: { data: [{ email: 'bounced@example.com' }], error: null }
+				);
+			const supabase = {
+				rpc,
+				auth: {
+					admin: {
+						listUsers: vi
+							.fn()
+							.mockResolvedValue({ data: { users: [authUser('bounced')] }, error: null })
+					}
+				},
+				from: vi.fn((table: string) => {
+					const result = { data: table === 'profiles' ? [profile('bounced')] : [], error: null };
+					const query: any = {
+						select: () => query,
+						range: () => query,
+						in: () => query,
+						not: () => query,
+						gt: () => query,
+						then: (resolve: (value: unknown) => unknown) => Promise.resolve(result).then(resolve)
+					};
+					return query;
+				})
+			};
+			if (fails)
+				await expect(loadEnneagramCampaignAudience(supabase)).rejects.toThrow(
+					'suppression unavailable'
+				);
+			else {
+				const audience = await loadEnneagramCampaignAudience(supabase);
+				expect(audience.counts.ready).toBe(0);
+				expect(audience.counts.suppressed).toBe(1);
+			}
+			expect(rpc).toHaveBeenCalledWith('get_suppressed_emails', {
+				p_emails: ['bounced@example.com']
+			});
+		}
+	);
 });

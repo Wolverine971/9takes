@@ -152,12 +152,13 @@
 		</div>
 	{/if}
 	<form
-		action="?/login"
+		action={data.returnTo ? `?/login&returnTo=${encodeURIComponent(data.returnTo)}` : '?/login'}
 		method="POST"
 		class="auth-form"
 		use:enhance={handleSubmit}
 		in:fly={{ y: 20, duration: 300, delay: 300 }}
 	>
+		<input type="hidden" name="returnTo" value={data.returnTo ?? ''} />
 		<Field for="email" label="Email" required>
 			<Input
 				type="email"

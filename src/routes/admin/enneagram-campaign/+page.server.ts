@@ -9,12 +9,14 @@ import { generateEmailHtml } from '$lib/email/base-template';
 import { requireAdmin } from '$lib/server/adminAuth';
 import { loadEnneagramCampaignAudience } from '$lib/server/enneagramCampaignAudience';
 import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
+import { loadEmailDeliveryHealth } from '$lib/server/emailDeliveryHealth';
 
 export const load: PageServerLoad = async ({ locals }) => {
 	await requireAdmin(locals);
 	const adminSupabase = getSupabaseAdminClient() as any;
-	const [audience, sequenceResult] = await Promise.all([
+	const [audience, delivery, sequenceResult] = await Promise.all([
 		loadEnneagramCampaignAudience(adminSupabase),
+		loadEmailDeliveryHealth(adminSupabase),
 		adminSupabase
 			.from('email_sequences')
 			.select('id, key, display_name, description, status, updated_at')
@@ -24,6 +26,7 @@ export const load: PageServerLoad = async ({ locals }) => {
 
 	return {
 		audience,
+		delivery,
 		sequence: sequenceResult.error ? null : sequenceResult.data,
 		sequenceLoadError: sequenceResult.error?.message ?? null,
 		campaign: ENNEAGRAM_TYPE_PROMPT_CONTENT,
