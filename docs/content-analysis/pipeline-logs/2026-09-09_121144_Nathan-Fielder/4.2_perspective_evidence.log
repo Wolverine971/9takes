@@ -1,0 +1,18 @@
+**Artifact:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/evidence-packet.md`
+
+Schema validates: frontmatter parses, all ten required H2s in order, 27 stable claim IDs. The frozen snapshot and `context.json` were not modified, and no other file was written.
+
+**What the packet establishes.** Subject and SHA matched context. I reused the six existing research artifacts rather than redoing baseline work, then independently verified the load-bearing claims — including re-opening the local caption caches (still present in `/private/tmp`), which let me confirm several second-pass repairs held: the pilot's two motives are genuinely given together and unranked, the memorization routine really is Jack Black's, the event really was free, and the Variety "awful, awful person" line really is delivered by an actor (K. Todd Freeman, credited "Fake Kor"), with the correction text confirming it. Emma Stone's two TIME quotations verified verbatim, resolving a prior retrieval failure.
+
+Six claims did not survive:
+
+- **CLM-02** "Before making a series about aviation, he earned a pilot's license" — his own account places the decision at the point he had the basic idea for the show; training ran ~2 years *during* production.
+- **CLM-03** the closing quotation is inexact ("really struggling" vs. "I really am struggling… in this") and names no outlet — the exact defect the research packet pre-flagged.
+- **CLM-04** "loved in 1963" has no source; every accessible one says only "50 years ago."
+- **CLM-05** Summit Ice's causal order is inverted — VHEC says the Holocaust-education purpose was the founding motive.
+- **CLM-06** "Survived the law" — the trademark defense was never adjudicated; Starbucks declined to sue.
+- **CLM-25** two quote budgets fail (Variety 43, Skeete 26 against a 25-word cap).
+
+**Correction worth flagging:** my first count of those budgets excluded the retained comment blocks and understated Variety at 18. A parallel supervisory countercheck of the same snapshot landed mid-run with stricter numbers; I re-derived independently, confirmed the higher figures, and corrected the packet. The cause is that the FRESH EYES and SECOND PASS comments still reproduce "You've ruined the whole thing for me" twice and "I felt insecure" once — both declared removed. The prose removals happened; the comments were left.
+
+**Largest unresolved evidence gap:** the Type 6 tiebreaker itself. The draft's discriminator — preparation that arrives with a witness attached — cannot be separated from an artifact of the evidence base. Nearly all first-person material comes from promotional appearances about public projects, which structurally over-samples audience-facing behavior, and the one place he explains a credential directly, he names understanding and credibility together without ranking them. No additional sourcing in this packet corrects that bias, and the house's own 5-vs-6 discriminator (`enneagram-types-in-stress`) is a different test the draft never applies. Type 5 remains live on the evidence available.

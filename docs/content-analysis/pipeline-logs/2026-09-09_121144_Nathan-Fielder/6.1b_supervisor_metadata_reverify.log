@@ -1,0 +1,14 @@
+Verification complete. Draft unmodified (hash stable), only the output file written.
+
+**Output path:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/verification-initial.md`
+**Verification status:** `pass`
+**Open P0:** 0
+**Protected-hit regressions:** 0
+
+All twelve P0 acceptance tests pass against the current text; sixteen accepted P1s completed, two deferred with defensible reasons (P1-10, RQ-03). All ten `PROTECT-*` items survive — six byte-identical, four (PROTECT-01, -02, -05, -10) preserved in function under the synthesis's function-preservation allowance, including the supervising editor's rewrite of the persona-gap reframe and the empathy turn, which I assessed on the actual text rather than the editor's claim.
+
+Independently recounted rather than taken on report: reader-visible body 3,757 words (band 3,200–3,900), seven H2s, every source's whole-file direct-quote total at or under 25 words (highest: GQ/Skeete 23), all four Rabbit Hole links resolving to files that contain the paraphrased mechanic, and every name the revision added traced back to the evidence packet or the two supervisor research files.
+
+One thing worth your eye before publication: P0-06 instructed the editor not to touch the Dumb Starbucks punchline — "He was taken out by the one credential he had not thought to acquire" — and it's gone. It isn't a numbered `PROTECT-*` item and the deletion has a real source reason (ABC7 and TheWrap record Fielder publicly arguing an art gallery needed no permit, which undercuts "had not thought to acquire"), so it doesn't fail the gate. But the section traded its best sentence for "Preparation did not settle the argument." The irony is restorable without the mental-state claim; that's item 1 in Remaining work.
+
+The deterministic gate script, not this verdict, decides whether the pipeline may finalize.

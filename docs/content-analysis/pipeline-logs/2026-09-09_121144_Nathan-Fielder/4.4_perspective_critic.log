@@ -1,0 +1,16 @@
+All eleven required H2 headings present in order; frontmatter counts match the document (3 blockers, 8 concerns).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/critic.md`
+
+**Verdict:** trust `strained`, value `useful`, delight `clear_hit`, recommendation **`hold_for_research`** — not `revise`, because the top blocker cannot be repaired from the evidence packet, which contains neither line of omitted criticism.
+
+**Blockers: 3**
+- **CRITIC-R1** — The strongest criticism of the subject is absent while the TL;DR claims the pushback has been canvassed. Richard Brody's New Yorker critique ("cruel and arrogant gaze," "a condescending vanity show") and the entire child-performer storyline from *The Rehearsal* S1 appear **zero times** in the file — including inside the hidden ledger that certifies the critic-pressure anchor as complete. So does "Angela," the participant D'Addario actually named.
+- **CRITIC-R2** — "Before making a series about aviation, he earned a pilot's license" is contradicted by the record (training ran *during* production, revealed in the finale). It's one of three beats establishing the credential-before-the-stake pattern, which is the article's whole argument for Type 6 over Type 5 — and the draft's own pilot section thirty lines later contradicts it.
+- **CRITIC-R3** — "Survived the law" is a premature exoneration: Starbucks never sued, the fair-use defence was never adjudicated, and legal opinion doubted it. The closure that supplies the ledger's punchline is also stated flatly despite the county having no record of the action.
+
+**Strongest hit:** line 222 — *"Whether that is accountability or the most elegant available way of avoiding it is the question the show declines to settle."* The draft discovers that the harshest verdict on Fielder in the premiere is one he commissioned and edited in, and then refuses to bank it as exoneration. That's the best critical thinking in the piece and it must survive revision.
+
+**Highest-priority concern:** CRITIC-C3 — the tiebreaker between 6 and 5 ("his preparation keeps arriving with an audience attached") is drawn almost entirely from promotional Q&As about public work, a corpus structurally incapable of surfacing private preparation. The draft states its own falsifier in the Rabbit Hole and reports an instance of it 3,000 words earlier ("set-dressing standards reach details no camera will ever find") without connecting the two.
+
+Two research limits worth flagging: `newyorker.com` is blocked to this session's fetcher and LA Review of Books returned 403, so the Brody article title is medium-confidence and routed to the editor as CRITIC-Q1 rather than asserted.

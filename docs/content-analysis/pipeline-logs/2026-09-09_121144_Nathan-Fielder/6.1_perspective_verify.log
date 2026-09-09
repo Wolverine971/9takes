@@ -1,0 +1,11 @@
+**Output path:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/verification-initial.md`
+
+**verification_status:** `needs_human`
+**open_p0:** 2
+**protected_hit_regressions:** 1
+
+Frozen SHA matched. Ten of twelve P0 acceptance tests pass outright; the two open ones are single-clause gaps with one-line remedies (LA Times line missing from the testimony ledger; an unanchored "Years later," at L145). Body is 3,700 words inside the 3,200–3,900 band, `blog-lint.sh` returns 0 fail / 0 warn, every per-source direct-quote total is at or under 25 words, and every new assertion introduced by a repair traces to the packet or a research artefact.
+
+The blocker is PROTECT-01: the persona-gap reframe survives clause-for-clause but has been converted from an assertion into a hedged reading, losing the two formulations that made it land. It is `needs_human` rather than `fail` because the supervising editor's own countercheck independently instructed that hedging — it postdates the synthesis, so two authoritative instructions now contradict each other on the same paragraph.
+
+The deterministic gate script, not this report, decides whether the pipeline may finalize.

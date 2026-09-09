@@ -1,0 +1,16 @@
+Headings match the required set exactly, and the counts match the document (3 `FAN-R*`, 8 `FAN-C*`).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/fan.md`
+
+**Verdict:** `revise` — trust strained, value useful, delight clear_hit. SHA verified against `context.json` before reading.
+
+**Blockers: 3**
+- **FAN-R1** — Summit Ice's origin is inverted. The draft says it "began as a gag" and declines the Jewish-upbringing connection because "he has not said so"; the Vancouver Holocaust Education Centre (first-party recipient) says he founded it *after* learning the jacket he wore filming was linked to a Holocaust denier. The motive is on the record — only the Talmud Torah link isn't.
+- **FAN-R2** — The Variety "openly derisive" quotation is deployed just ahead of the Kor Skeete material, but D'Addario's named target is Angela, who appears nowhere in the article.
+- **FAN-R3** — "a woman he had loved in 1963" is unsourced precision in the most fan-scrutinised episode in the catalogue; sources say only "50 years ago."
+
+**Strongest hit:** the Dumb Starbucks inversion — *"He anticipated the fight he expected, with Starbucks' lawyers, and armoured against it in advance and in writing. He was taken out by the one credential he had not thought to acquire."* That is a decade-old famous fact doing genuinely new work, and it clears the delight test on its own.
+
+**Highest-priority concern (FAN-C1):** the article gives a full H2 to "Why Nathan Fielder Got a Real Commercial Pilot's License" and never says what he did with it. He flew a real Boeing 737 in the season 2 finale — the payoff of the section's own headline and the purest available evidence for the article's thesis. Season 2 is never named or described anywhere in the piece.
+
+One note on method: the frozen snapshot embeds prior `FRESH EYES` / `SECOND PASS` / `COHESION` pipeline comments. I read them as part of the file but anchored every finding to reader-visible text plus the packet or my own sources — and I disagree with those notes on Summit Ice, which they record as settled.

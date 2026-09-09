@@ -1,0 +1,47 @@
+Lint clean: **0 fail, 1 warn** (the pre-existing missing-`faqs` warning, owned by the frontmatter-enrich stage). Body 3,893 words by lint's counter, inside the 3,200–3,900 band.
+
+## Cohesion Audit: `src/blog/people/drafts/Nathan-Fielder.md`
+
+### Central Thesis
+Fielder's elaborate preparation isn't self-sufficiency, it's a purchase order for someone else's confirmation — which is why no single confirmation ever closes the question, from a woman on a Westwood sidewalk to a theatre full of strangers at Telluride.
+
+### Thread Map
+
+| § | Contributes | Links forward because |
+|---|---|---|
+| Intro | The twenty dollars: he hedged a curse he doesn't believe in, then went back for a verdict | Poses the real question: what does the preparation buy, from whom |
+| 1. Personality type | Type 6 diagnosis; Type 5 pressure-test; tiebreaker is *direction* (his prep arrives with an audience attached) | Direction needs an origin story |
+| 2. Vancouver / the degree | Record supplies no childhood mechanism; the degree is the first real credential | Credential makes the shows possible; shows produce the persona |
+| 3. Persona (search-primary) | The awkwardness is real, and the preparation gap is what *produces* it | The persona is an angle he chose — next, a room that sets its own entry price |
+| 4. Pilot's license | Stress line: credential as proof of safety, then counterphobic argument with the FAA | Acquisition → the full ledger of acquisitions |
+| 5. Acquisitions ledger | Dumb Starbucks: armoured against the fight he expected, killed by the permit he didn't think to get | Summit Ice keeps an obligation to a *cause* |
+| 6. The people inside | The harder obligation is to persons; D'Addario, Skeete, the empathy turn, then the growth line | He gives authorship away — and then made something that wasn't a set |
+| 7. Holmes documentary | Every instrument pointed at one person for three years, and he came out asking a room to explain it to him | Lands the intro's promise |
+
+| Check | Score | Issues |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 0 |
+| Promise-Delivery Match | 9/10 | 0 |
+| Reader Mental Model | 7/10 | 1 broken referent, 1 cold open |
+| Section Transitions | 5/10 | 1 broken, 3 weak, 1 mechanical |
+| Internal Paragraph Flow | 7/10 | 5 restatement bumps |
+
+**Before: 7/10 → After: 9/10**
+
+The through-line was never the problem — this draft has a genuinely strong argument and the intro's promise ("what the preparation is meant to purchase, from whom, and why one confirmation is never the last one he needs") is delivered in full by the close. The problem was entirely at the seams: three of the seven section boundaries were cold jumps, an artifact of the second pass reordering H2s and bolting on new material.
+
+### The one real defect
+Section 4 opened **`He explained this at a June 2025 Q&A...`** — where *"this"* had no antecedent in the prose. It pointed at the H2 heading. A reader who parses headings as navigation rather than sentences hits a dangling pronoun on the first word of a section.
+
+### Changes made (11)
+
+**Bridges added (6)** — diagnosis→childhood (section 2 had no topic sentence at all), the show-descriptions→persona reset, the broken referent above, ledger→ethics (carrying the "obligation" keyword out of Summit Ice), plus a forward pointer at the end of section 6 so the Holmes cold open isn't a jump across the Rabbit Hole block. One mechanical writer's-note topic sentence ("It is worth saying plainly what the shows are, because the personality argument is drawn from them") was replaced with one that carries the degree forward.
+
+**Redundancy trimmed (5)** — the draft was at 3,907 words against a 3,900 band top, so bridges had to be paid for. I cut only sentences that restate the sentence beside them, including one stress-line summary the Rabbit Hole already repeats. Net: 3,907 → 3,900.
+
+**Preserved verbatim** as fresh-eyes required: the empathy turn, the refusal to make the social-worker parents a wound, Skeete's broken-off sentence, the acquisitions-ledger form, the Westwood open and the close. No frontmatter, links, table rows, or Rabbit Hole content touched.
+
+A `COHESION PASS (2026-09-09)` note is appended in the file's existing stage-log convention.
+
+### Left for you
+TL;DR bullet 3 still spends the persona section's punchline ("what is staged is the emptiness of his hands") roughly 2,000 words before the body earns it. Fresh eyes flagged it; the second pass didn't act. Rewriting a summary bullet to pose rather than answer is a content call, not a cohesion fix, so I didn't touch it.

@@ -1,0 +1,19 @@
+All eleven required H2 headings present in order; counts match frontmatter (2 blockers, 7 concerns).
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. SHA verified against `context.json` and the supplied value before reading.
+
+**Blockers: 2**
+
+1. **UNFAMILIAR-R1 — the autism dangle.** "Autism" appears exactly once in the article, attached to Fielder via Rep. Cohen's complaint, with no antecedent and no consequent. "Fielder answered both on air" announces a reply and withholds it. Read cold — after pages describing his flat affect and difficulty with unstructured social time — the only available inference is that someone raised a question about Fielder's own neurology. The article disciplines itself against diagnosis everywhere else and then smuggles one in by implication. The packet has the fix: his on-air answer was about *autism masking and pilot communication*, i.e. the show's argument, not his person. Roughly fifteen words.
+
+2. **UNFAMILIAR-R2 — an entire H2 argues about an unnamed show.** The pilot's-licence section spends ~450 words on a work never named, dated, or placed. Worse than a hole: section 2 stops to say "you know what the shows are" and lists three, while the diagnosis says "two seasons of prestige television" — so the text supplies a plausible *wrong* answer. I mapped the aviation project onto *The Rehearsal* season 1 and had no way to check. It's season 2 (2025). This also strands the article's only named-institution criticism (FAA, Cohen, Goglia).
+
+**Strongest hit:** the persona reframe — "Over-preparing is not what he does instead of being socially uneasy. It is one of the things producing it, and then the camera finds it." It landed as a genuinely new idea on someone who has never seen his work, because it's about how preparation and awkwardness relate in general. That's the reason the piece is worth a stranger's time.
+
+**Highest-priority concern (C1):** Elizabeth Holmes is never identified — no Theranos, no offence, no reason for prison — in the section that is both the climax and the article's entire "why now." A24's own synopsis, quoted in the packet, supplies a gloss for three words.
+
+Every repair is additive and already sourced in the packet, with one exception: I spent my single orientation search confirming Fielder is a credited executive producer on *How To with John Wilson* (the packet doesn't carry it), so C4 is flagged for fact-check confirmation rather than asserted.
+
+One process note worth surfacing: reading the snapshot to the end put four prior pipeline comment blocks in front of me. My unaided read and full findings list were formed and recorded before I reached them, and I've disclosed this in Limits.

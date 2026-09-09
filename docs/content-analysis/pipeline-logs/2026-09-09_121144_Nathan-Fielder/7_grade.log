@@ -1,0 +1,23 @@
+## Grading Complete — Nathan Fielder
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Nathan-Fielder | 8 | 7 | 9 | 8 | 8 | 9 | **8.1** | **B** |
+
+`(8×1.5 + 7×1.5 + 9×1.5 + 8 + 8 + 9×0.5) / 7 = 56.5/7 = 8.1`. Discoverability 9, so no gate.
+
+**Bracket:** beats Alex-Warren (C) — Warren's critic pressure is one self-doubt beat; this draft stands in front of five named critics with dates and links and answers none of them cheaply. Loses to Peter Thiel (A) — Thiel's Tolkien thread reorganizes the subject, while this draft's organizing insight is applied to public artifacts the reader already knows, and the rabbit hole itself concedes "neither can this profile turn every hesitation into proof of the same motive."
+
+### Key observations
+
+**What's genuinely strong.** The Westwood curse cold open is a real signature detail that earns its keep — it establishes the mechanism, carries the piece's only interior beat, and pays off 3,500 words later at Telluride ("a theatre is under no obligation to answer"). Critic pressure is faced rather than survived: the observation that the premiere's "an awful, awful person" verdict is a line Fielder commissioned and edited in, plus the Variety correction, is original and refuses to resolve itself. Sourcing hygiene is excellent — all five Testimony Ledger quotes verified in-body with outlet, date and link; source audit clean (2 load-bearing, 2 inline, 0 untagged); 0 contrast pairs; no same-type trip; 3,719 words, inside the band.
+
+**Why it's a B, not a B+.** Originality is capped at 7 by the cross-draft sameness check. Against Bill-Burr (09-07), Naval-Ravikant (09-01) and Cara-Delevingne (09-01), five house moves recur near-verbatim: the TL;DR bolded-label bullet skeleton, epigraph→`firstLetter` furniture, the return-to-the-cold-open close, reader-command imperatives, and aphoristic-fragment section closers. Bill-Burr's own pipeline notes already flag two of these as known sameness items — they were flagged and then reused unchanged. That's the pattern the cap exists to catch, and it's the whole distance between B and B+ here.
+
+**The systemic finding worth your attention.** The perspective-verify pipeline has left forensic scar tissue on the prose: 17 hedge constructions in 3,719 words, clustered at paragraph ends where the insight should land. The epistemic caution is *correct* — this draft is admirably unwilling to invent a childhood wound or assert private motive — but it's being paid for at full price in every paragraph instead of consolidated into one note. The cost lands on Enneagram Integration: the Type 6 fear gets named and explained more than felt, because every approach to Fielder's interior is followed by a disclaimer pulling the reader back out.
+
+**Evidence is the real ceiling for A.** The two structurally most important sections — the cold open and the entire pilot's-license H2 — rest on paraphrase of auto-captioned YouTube Q&As with no direct line quoted from either. The Westwood story in Fielder's own words would be the single highest-value addition to this draft.
+
+Frontmatter written to `src/blog/people/drafts/Nathan-Fielder.md:86`; sidecar at `docs/content-analysis/grades/Nathan-Fielder.review.md`.
+
+**Total graded this session: 1**

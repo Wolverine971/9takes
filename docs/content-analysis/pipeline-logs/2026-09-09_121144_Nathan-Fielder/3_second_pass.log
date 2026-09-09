@@ -1,0 +1,34 @@
+Updated `src/blog/people/drafts/Nathan-Fielder.md`.
+
+## What I changed
+
+**Two publication-blocking attribution errors, both confirmed against sources rather than taken on the reviewers' word:**
+
+1. **The three-day memorization protocol was Jack Black's, not Fielder's.** Two independent audits place it at 14:11–16:46 of the Black Q&A, with Fielder asking and Black answering. It was carrying four things: a ledger row, the ledger section's climax, a persona-section beat, and the Rabbit Hole's Type 1 rebuttal. All four are gone. The Type 1 counter is rebuilt on set-detail perfectionism (rightness-held-unwitnessed vs. believability-to-a-room), which is sourced.
+
+2. **"You've ruined the whole thing for me" is performed dialogue.** I fetched the Variety review directly: an actor Fielder hired to play the participant delivers the premiere's verdict, and Variety ran a correction on exactly this. The draft had presented it as the emotional centerpiece and doubled down ("That is not a critic's inference"). Replaced with the true version, which is better — the harshest line about Fielder in the episode is one he commissioned, staged and edited in.
+
+**The replacement climax is Dumb Starbucks**, which fresh eyes correctly flagged as absent. It pre-armored against the fight he expected (a fair-use FAQ taped inside for Starbucks' lawyers) and was closed by the LA County Health Department over a permit he hadn't thought to get. That is a stronger version of the article's own argument than what it replaced.
+
+**Other corrections:** un-ranked the pilot motives (the source gives both together); Emma Stone's role (she stars opposite him and has been directed by him, not a co-director); dropped the invented sidewalk inner monologue that was carrying Safdie's later observation; removed "unlimited access," "paying audience," the invented "ten percent," the "four years" at UVic, the unasserted Humber year, and a Type 3 counter-test built on a stereotype. The unverified caption fragment "I felt insecure" is removed rather than carried forward — the transcript notes never sanctioned it.
+
+**Rewrote the close on real reporting:** Holmes invited the crew 34 days before prison, Fielder moved into the San Diego house, Emma Stone moderated the Telluride Q&A, A24 releases October 16. His line there — that he's struggling to understand what he experienced and wants the audience to help him — is the twenty dollars again, at scale.
+
+Also moved the persona H2 from slot 5 to 3, expanded it with the harder read (the preparation gap *is* the awkwardness, not a layer under it), added ~200 words of plain-language description of the shows, and connected Summit Ice to Vancouver Talmud Torah without asserting causation.
+
+## Verification after the pass
+
+- **Source audit:** 2 load-bearing quotes, 2 inline, 0 vague, 0 untagged.
+- **blog-lint:** 0 fail, 1 warn (missing frontmatter `faqs`, owned by the enrich stage).
+- **Body: 3,900 words**, top of the 3,200–3,900 band. Ledger quotes were cut to short slices to bring four over-budget sources under the 25-word cap.
+- **Same-type similarity:** clear, top pair down from 0.129 to 0.066.
+
+## Rejected
+
+Fresh eyes suggested folding the pilot narrative into the ledger table. That would delete the piece's only critic-pressure anchor (FAA, Rep. Cohen, Goglia's partial support), so I removed the duplicated table row instead and kept the H2.
+
+## Still open
+
+The three Q&A sources remain unlabeled auto-captions. Everything drawn from them is now paraphrase and no caption-derived quotation survives, but **the audio listening check has still never been performed** — that's what let another person's biography into the draft in the first place. Any future pass wanting verbatim quotation from those Q&As has to do that check first. The Hollywood Reporter (2024) and Rolling Stone (2025) interviews still return 402 and are unread.
+
+Given the scale of what the audits caught, this is worth an editor pass before it goes near `--publish`.

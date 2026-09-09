@@ -1,0 +1,25 @@
+Polished `src/blog/people/drafts/Nathan-Fielder.md` against the perspective synthesis at `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144` (frozen SHA verified matching).
+
+**What got fixed.** The synthesis diagnosed a narrow, systematic failure: about a dozen points where the record was thinner than the sentence needed, and the draft filled the gap in the direction that flattered the thesis. All twelve P0 items are repaired:
+
+- The pilot's licence no longer precedes the aviation project (it was earned inside it, and the draft contradicted itself thirty lines apart).
+- Summit Ice's causal order is reversed in both prose and table — the Holocaust-education motive was the founding trigger, not a bit that acquired a conscience.
+- The Telluride quotation is restored to the exact LA Times wording and now names its outlet.
+- The Cohen sentence says whose team set the topic and gives Fielder's masking/pilot-communication answer, so "autism" no longer arrives as an implied diagnosis of a living person.
+- D'Addario's named target is back, and Skeete is explicitly marked as a different participant instead of standing in as a rebuttal.
+- "Survived the law" is gone (the defence was never tested), "1963" is gone, "Twenty years on" is gone, the release date has a year and correct attribution, *The Curse* is out of the persona argument's evidence base, and the aviation season is finally named.
+
+**Language and flow.** Cut the "evidence is easy to point at" self-contradiction, de-jargoned "the Three's playbook," broke a "not X, not Y" pattern I'd briefly introduced, swapped the Rabbit Hole's load-bearing link to the page that actually contains the mechanic, and stopped the article arguing against itself on the growth line. Deleted the two stale comment blocks that were re-quoting strings the second pass claimed to have removed — that was pushing Variety to 43 words against a 25-word cap.
+
+**Contrast-pair count: 0 total (0 strong / 0 comparative).** Lint: 0 fail, 1 warn (missing frontmatter `faqs`, owned by the enrich stage). Body 3,899 words, inside the 3,200–3,900 band. All ten protected hits verified — eight byte-identical by grep, two structurally. `lastmod` untouched.
+
+**Verdict: production-ready on substance**, pending the frontmatter-enrich stage and the perspective verify gate.
+
+Resolution artifact: `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/editor-resolution.md`
+
+**Left open, deliberately:**
+- **RQ-03** — vulture.com is unreachable from this session, so Fielder's own on-record answer to the exploitation charge is still absent and that section supplies his motive in the writer's voice. A search snippet corroborated the line; I didn't use it. This is the biggest remaining fairness upgrade and it's cheap in words.
+- **RQ-01/RQ-02** — scoped follow-ons, as the synthesis routed them. Neither corrects a false statement.
+- **P1-14 and P1-10 deferred on word budget, not rejected.** The band had roughly one word of headroom after the mandatory P0 set. P1-14 is the more valuable: it's the only item that would give the piece residue against its own thesis. It needs ~65 words, so something has to come out first.
+- **RQ-04 needs one more page load before publish.** A24's own page still read "2026 (TBD)" when I checked today, which is why the sentence attributes October 16 to reporting rather than to A24.
+- **P1-16 caveat:** HBO Max lists Fielder in the producer block without splitting out the EP tier. The "executive producer" wording rests on TheWrap and Variety reporting HBO's announcement; `press.wbd.com` returned 403.

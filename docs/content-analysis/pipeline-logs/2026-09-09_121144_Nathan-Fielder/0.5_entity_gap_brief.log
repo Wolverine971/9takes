@@ -1,0 +1,19 @@
+Packet refreshed and saved: `docs/content-analysis/entity-gaps/Nathan-Fielder.md`
+
+## Verdict: PASS as an Emerging Entity Gap — but the profile is still writable
+
+Nathan Fielder fails the Wikipedia gate about as clearly as a candidate can. The [personal article](https://en.wikipedia.org/wiki/Nathan_Fielder) has birth date (May 12, 1983), named parents, two schools, a degree, a sectioned career timeline, and a personal-life section — plus a second encyclopedia ([The Canadian Encyclopedia](https://thecanadianencyclopedia.ca/en/article/nathan-fielder)) and two major magazine profiles. Per Step 1.5, recorded and dropped without a scoring pass. `score: 0` is the unscored sentinel, not a computed score.
+
+This says *don't write it expecting an uncontested biography SERP*. It doesn't cancel your instruction to produce the profile — the source gate passes.
+
+**Why I re-ran this:** the existing packet was a stopgap written after stage 0.5 hit a usage limit, and it explicitly asked for an independent refresh. Three things actually changed:
+
+**1. The catalyst is now pinned.** *You Can See Everything* premiered at Telluride and A24 releases it theatrically **October 16, 2026**. Trailer is out, Deadline and IndieWire have reviewed, Variety is framing it as an awards-race event. Worth noting A24's own page still reads "2026 (TBD)" — the distributor lags the reporting, so attribute the date to reporting, not to A24.
+
+**2. The festival-date ambiguity is resolved.** The prior packet flagged a conflict between Vanity Fair's "Sunday night" screening and September 7 reporting, and warned against asserting the 7th. **September 6, 2026 was a Sunday** — so the 7th was just the article date. That earlier caution was right; the date is now settled at September 6.
+
+**3. The private-life queries are a content-farm trap, not an opening.** This is the finding that most affects the draft. Every result naming an ex-partner or girlfriend is a farm or aggregator — soapcentral, legit.ng, amomama, briefly.co.za, a half-dozen generated "magazine" domains, syndicated Yahoo copies. Zero reputable outlets. Three signals say the facts are unestablished: Wikipedia names his *parents* but deliberately withholds the ex-partner's name (a BLP judgment we should match); the farms contradict each other on the divorce year; and the girlfriend claim is self-labeled "alleged." The packet instructs: do not name her, do not imply a current partner, and don't let a farm claim reach the draft through a research summary that quietly repeated it. One fact survives — the 2014 divorce date, because it comes from Fielder's own 2015 interview rather than a farm.
+
+**The decision worth your attention:** the winnable ground here is *not* biography. Competing with Wikipedia on "who is Nathan Fielder" is unwinnable and beside the point. The uncontested question is persona-versus-person — is the awkwardness real — where no reference work competes and the reader need is genuine. I've written the packet to steer the creator stage there and away from a head-term biography play.
+
+No blog, queue, DB row, or generated file was touched.

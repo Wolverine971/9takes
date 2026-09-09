@@ -1,0 +1,33 @@
+Done. Everything verified.
+
+## Nathan Fielder revision pass — complete
+
+**Triggered by:** grade **B (8.1)** with Originality capped at 7 by the cross-draft sameness check. Lint was already clean and the perspective gate had already passed (`verification_status: pass`, 0 open P0, 0 protected regressions), so this was a purely grader-driven pass — the perspective artifacts acted as constraints, not as a work list.
+
+### Fixed
+
+| Grader item | Fix |
+|---|---|
+| **Originality cap** (5 reused house moves) | Broke two outright: TL;DR rewritten from the `<li><b>Label:</b>` skeleton into declarative sentences, and all three reader-command imperatives removed. Third move partially addressed. |
+| **Writing + Enneagram** (17 hedges as "forensic scar tissue") | Six paragraph-final hedges consolidated into one italic standing-limits note at the end of the diagnosis section. Fixed all four paragraphs the grader named. |
+| **Enneagram** (fear named, not felt) | Second interior beat added in the pilot's-licence section, rendered from his own stated expectation of pilots' skepticism. |
+| **Discoverability** (2 FAQs hedge themselves out) | FAQ 1 and FAQ 5 rewritten to lead with a committed sentence. Paraphrase only, so no quote allowance moves. |
+| **MINOR** (ledger corruption) | All seven missing-space defects fixed. |
+
+**Bonus catch:** `same-type-similarity --fail-on-trip` was actually *tripping* at 0.064 on inherited text — the grade sidecar recorded that number as "no trip." Reworded the answer block's `This interpretation rests on…` and it now exits clean.
+
+### Rejected
+
+- **"Change the closing shape so it doesn't return to the cold open"** — PROTECT-04 names the Westwood opening *and its callback* as a 5-perspective protected hit. The jury outranks the grader here.
+- **Break the epigraph/`firstLetter` furniture** — both are mandated by the creator v2 skeleton, and `firstLetter` is a lint check. Not this draft's choice to make.
+- **TO REACH A: pull verbatim Q&A lines** — `synthesis.md:650` bars quotation from caption sources until audio verification. I checked both uploads with `yt-dlp --list-subs`: automatic captions only, no manual track. **Blocked, not declined** — this is the single highest-value unlock left and it needs someone to listen to `70xdc3T3oqk` at 18:21–19:54.
+- **TO REACH A: second competing engine from the Wilson/Safdie material** — developmental-scale work, outside a targeted revision iteration. Flagged as the next pass's biggest lever.
+
+### Verification
+
+- **Lint: clean** (0 fail, 0 warn). Body 3,787 words, inside the 3,200–3,900 band.
+- All **12 protected strings** grep byte-identical; acquisitions table still 5 rows / 4 columns; P0-06's outcome sentence untouched.
+- `content_quality` and `lastmod` not touched.
+- Resolution artifact written to `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/revision-resolution.md`, tracing each edit against the jury's constraints — including where each relocated hedge now lives.
+
+The pipeline will clear the consumed review sidecar and re-grade, and **targeted perspective verification must rerun** against the post-revision file (`1e76f341…`) — I don't declare that gate passed.

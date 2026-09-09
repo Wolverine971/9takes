@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "subject": "Nathan-Fielder",
+  "purpose": "Observe reader-visible draft plus editorial frontmatter at the start of each grading stage using the repository hash utility.",
+  "started_at": "2026-09-09T17:12:32.816Z",
+  "inputs": [
+    {
+      "label": "7_grade.log",
+      "observed_at": "2026-09-09T18:29:45.831Z",
+      "reader_visible_sha256": "bdb5d3fafee123ea20ec87c88f2fac1c029e75789b1fe39cdcb034395dc155bb",
+      "full_file_sha256": "8498051a262468fa8a4c277677bdcdf8ba624d6f6613dd81aa2e0713f6618df4"
+    },
+    {
+      "label": "9_post_revision_grade.log",
+      "observed_at": "2026-09-09T18:50:38.242Z",
+      "reader_visible_sha256": "faa5a3253a90900f0354b46abac86acfa53c7cfefeee77bc48e0dd4ee75b4c14",
+      "full_file_sha256": "ccdd02a5020edec4afa2641ca2c47f63eea90a4ed657f3e8004b42af85a5e608"
+    },
+    {
+      "label": "9.1_stability_regrade.log",
+      "observed_at": "2026-09-09T18:55:15.263Z",
+      "reader_visible_sha256": "faa5a3253a90900f0354b46abac86acfa53c7cfefeee77bc48e0dd4ee75b4c14",
+      "full_file_sha256": "ccdd02a5020edec4afa2641ca2c47f63eea90a4ed657f3e8004b42af85a5e608"
+    }
+  ],
+  "status": "complete",
+  "final": {
+    "label": "pipeline_exit",
+    "observed_at": "2026-09-09T18:59:59.780Z",
+    "reader_visible_sha256": "faa5a3253a90900f0354b46abac86acfa53c7cfefeee77bc48e0dd4ee75b4c14",
+    "full_file_sha256": "78f9f38cd9bc39c225b6a29b1ec8fa3a28229294d5f7860abde4aba8992ba17e"
+  }
+}

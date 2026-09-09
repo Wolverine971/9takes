@@ -1,0 +1,10 @@
+**Output:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/verification-final.md`
+
+- **verification_status:** `pass`
+- **open_p0:** 0
+- **protected_hit_regressions:** 0
+- **final_content_sha256:** `faa5a3253a90900f0354b46abac86acfa53c7cfefeee77bc48e0dd4ee75b4c14`
+
+This was a full re-verification, not a delta check — the revision pass changed the file after the prior reports, so all twelve P0 acceptance tests, the accepted P1s, and all ten `PROTECT-*` items were re-applied to the current text. Body is 3,747 words (band 3,200–3,900), net −102 from the frozen draft.
+
+Three items in Remaining work, none gating: `revision-resolution.md`'s recorded post-revision file sha doesn't match the current file; the Dumb Starbucks punchline was deleted rather than repaired (defensible, recorded, but the section lost its climax); and the Jack Black audio verification plus the RQ-04 A24 re-check remain owed.

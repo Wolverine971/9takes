@@ -1,0 +1,18 @@
+All eleven required H2 headings present, IDs C1–C9 unique, counts match frontmatter.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/enneagram.md`
+
+**Verdict:** trust intact · value high · delight clear_hit · **recommendation: revise** · **0 blockers, 9 concerns**
+
+The Type 6 call is sound and I would not overturn it. The draft does the rare things: real hearing for Type 5, its decisive move marked as "a reading rather than a proof," a falsifier stated out loud, and an in-text refusal to turn two social-worker parents into a childhood mechanism. Nothing rises to a trust break, and I did not manufacture one.
+
+**Strongest hit** — the persona reframe (L168–170): *"Over-preparing is not what he does instead of being socially uneasy. It is one of the things producing it, and then the camera finds it."* It replaces the internet's mask-or-face binary with a causal loop, and a reader who's never heard of the Enneagram still gets it. Must survive verbatim.
+
+**Highest-priority concern (ENNEAGRAM-C1)** — the same event is read in opposite directions ~600 words apart. The Rabbit Hole (L244) cites the release of *You Can See Everything* as growth toward Nine; the close (L265) cites the same release as proof the pattern hasn't moved in twenty years. House doctrine makes these mutually exclusive on that exact axis: `enneagram-connecting-lines.md:180` defines growth as "stop polling everyone for certainty," and the close is a portrait of polling scaled to a theatre. Repair is one clause deletion.
+
+Two other findings worth flagging to whoever synthesizes:
+
+- **C2 is mechanically verified, not inherited.** The piece's load-bearing type mechanic (credentials as proof of safety) is paraphrased near-verbatim from `enneagram-connecting-lines.md:186-188`, but the only link offered points to `enneagram-types-in-stress`, where a grep returns zero matches. One-line link swap.
+- **C3 + C5 travel together.** The 5-vs-6 tiebreaker rests on two anecdotes from promotional Q&As — a source pool that over-produces witness-attached preparation for *any* subject. The house corpus already has a sturdier discriminator the draft never uses: *"Have **we** found the danger and made this safe?"* His method is collective by construction, which is public record rather than self-report.
+
+One process note: I drafted a concern that a social-dominant read sits awkwardly with the counterphobic FAA episode, then checked `enneagram-type-6.md:226` and found house doctrine explicitly makes counterphobia domain-variable. I dropped the objection and reclassified the passage as a hit. That reversal is logged in the research log.

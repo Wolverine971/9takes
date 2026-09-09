@@ -1,0 +1,28 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Nathan-Fielder.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (7 quotes) | Gate 2: pass (4 search-intent/hybrid) | Gate 3: pass | Gate 4: pass | Gate 5: pass (2 ≤ 4) | Gate 6: pass
+LIMITATIONS: caption-derived material paraphrased only; gq.com blocked (Skeete via reproduction); social handles omitted
+```
+
+**Type call: Enneagram 6 (6w5, social).** Medium-high confidence with a named tiebreaker. The Five case is real and got a full paragraph; what settles it is the *direction* of the preparation. He explained on camera why he got a commercial pilot's license: he expected pilots to dismiss him as unserious. "I felt insecure." A Five accumulates to need no one. Fielder accumulates so a specific room will let him in.
+
+**Thesis:** He buys proof. Twenty dollars to close out a curse he doesn't believe in, a commerce degree, a pilot's rating, replica sets dressed in details no camera reaches. The persona question everyone argues about has the wrong target — the awkwardness is real but narrow; what he *performs* is unpreparedness.
+
+**Notable in the research:**
+- **The hook is the best thing here.** New to LA, a woman on a Westwood sidewalk says she's cursing him. He doesn't believe in curses, walks to an ATM anyway, comes back, pays, asks if it's lifted. Safdie's response is the thesis: he was lucky she was still there, or he'd never have known.
+- **Verified Emma Stone's TIME 100 tribute directly** — the prior countercheck had flagged it as unretrievable and excluded it.
+- The three-day memorization protocol ("baking," a term he admitted he doesn't usually say out loud) is the thesis in miniature — and what enrages him is a rewrite that invalidates the prep retroactively.
+- **Critic pressure is unusually strong:** Variety's D'Addario, a participant saying "you've ruined the whole thing for me," Kor Skeete's unresolved ambivalence, plus the FAA and a congressman on the record against him.
+
+**Two judgment calls you should know about:**
+1. **I declined the childhood-causation story.** Two social-worker parents raising a man who stages interventions on strangers is a very tidy sentence. Nothing sources it, so the draft says so explicitly rather than inventing a wound.
+2. **Internal links = 6, command says 2–5.** Three are body links; three are pillar links the Rabbit Hole spec mandates one per subsection. `blog-lint.sh` accepts it. Flagging rather than dropping a required link.
+
+The entity-gap packet's guidance shaped this: Fielder fails the Wikipedia gate outright, so the draft doesn't pretend to be a biography of record — it competes on the persona-versus-person question, which is where no reference work is playing. No partner is named anywhere; that whole query family is content-farm sourced and I treated it as a trap, per the packet.
+
+Research file at `docs/content-analysis/research/Nathan-Fielder.md` now carries the verified quote bank and the type-challenge memo, so the perspective jury won't re-do this work. Nothing was published, synced, or queued — next step is human review, then `/grade_blog`.

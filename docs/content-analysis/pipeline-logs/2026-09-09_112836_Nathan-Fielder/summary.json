@@ -1,0 +1,19 @@
+{
+  "person": "Nathan-Fielder",
+  "draft_path": "src/blog/people/drafts/Nathan-Fielder.md",
+  "entity_gap_brief": "docs/content-analysis/entity-gaps/Nathan-Fielder.md",
+  "log_dir": "/Users/djwayne/.codex/worktrees/b722/9takes/docs/content-analysis/pipeline-logs/2026-09-09_112836_Nathan-Fielder",
+  "perspective_review_dir": null,
+  "perspective_initial_status": "not_run",
+  "perspective_final_status": "not_run",
+  "completed": false,
+  "halt_reason": "draft_missing_after_stage_1_create",
+  "revised": false,
+  "lint_exit": 0,
+  "first_overall": null,
+  "final_overall": null,
+  "final_discoverability": null,
+  "grade_stability_delta": null,
+  "has_stage_warnings": true,
+  "generated_at": "2026-09-09T15:28:56.966Z"
+}

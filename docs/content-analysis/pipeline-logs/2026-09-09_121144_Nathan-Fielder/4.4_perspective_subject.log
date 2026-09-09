@@ -1,0 +1,19 @@
+Counts and headings match the frontmatter.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Nathan-Fielder/2026-09-09_121144/subject.md`
+
+**Verdict:** `revise` — trust **strained**, value **useful**, delight **clear_hit**. Snapshot SHA verified against `context.json` and the supplied `--draft-sha` before reading; no other perspective file was opened.
+
+**Blockers: 5** (concerns: 6)
+
+- **SUBJ-R1** — Summit Ice causal inversion. VHEC (the recipient org) records he founded it *after* learning his jacket brand was linked to a Holocaust denier; the draft says it "began as a gag… and became an actual not-for-profit," then claims restraint about a motive that is on the record. It converts a deliberate ethical act into a lucky accident in the piece's one paragraph of unambiguous moral credit.
+- **SUBJ-R2** — The autism passage. Three defects compound: "his team" reads as Cohen's when CNN says it was Fielder's; his substantive reply (autism masking → cockpit communication) is compressed to "Fielder answered both on air"; and this is the article's *only* use of the word, so a reader concludes he used a disability as a door-opener. My research established the missing context — autism, including the speculation about himself, was a sustained on-camera subject of *The Rehearsal* season 2.
+- **SUBJ-R3** — The closing quotation is altered inside quotation marks ("I … am" and "in this" dropped) and names no outlet, while carrying the article's final movement.
+- **SUBJ-R4** — Invented first-person interior monologue in a styled block, in a piece that elsewhere makes a virtue of not putting words in his mouth.
+- **SUBJ-R5** — "On screen in all three, playing a version of himself" folds the scripted Asher into the real man, contradicting the sentence directly before it.
+
+**Strongest hit:** the paragraph refusing to turn two social-worker parents into a childhood wound — it shows the reader a flattering-to-the-thesis move being declined, and it earns more trust than any evidence in the article. Must survive verbatim.
+
+**Highest-priority concern:** SUBJ-C1 — the frame explains everything, including his generosity. Backing John Wilson, rebuilding a character around a performer, reshooting a failed scene: all absorbed as type-evidence via the growth line, though the packet lists exactly these under "behaviour the type does not explain." No behaviour is left that could disconfirm.
+
+Two notes on my own limits: the Vulture line in SUBJ-M2/Q2 came from a search summary, not a direct read, and needs verification before use; and the curse anecdote that opens and closes the article still rests on unlabeled auto-captions no one has audio-verified.

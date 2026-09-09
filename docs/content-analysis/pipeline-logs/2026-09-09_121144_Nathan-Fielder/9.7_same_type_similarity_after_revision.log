@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Nathan-Fielder (Type 6)
+/Users/djwayne/.codex/worktrees/b722/9takes/src/blog/people/drafts/Nathan-Fielder.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 28
+Comparison set (last 8 other Type-6 drafts by date):
+  - zach-bryan  (2026-09-09, 43 units)
+  - Patrick-Mahomes  (2026-09-08, 46 units)
+  - Bill-Burr  (2026-09-07, 43 units)
+  - Rebecca-Yarros  (2026-08-31, 31 units)
+  - laura-loomer  (2026-08-31, 25 units)
+  - simone-biles  (2026-08-25, 42 units)
+  - keira-knightley  (2026-08-17, 32 units)
+  - noah-wyle  (2026-08-09, 57 units)
+
+Noise floor over 8932 unit pairs:  median=0  p90=0  p99=0.007  max=0.062
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.062 ##                   zach-bryan
+  0.049 ##                   noah-wyle
+  0.044 ##                   laura-loomer
+  0.030 #                    Patrick-Mahomes
+  0.023 #                    Rebecca-Yarros
+  0.022 #                    Bill-Burr
+  0.016 #                    simone-biles
+  0.015 #                    keira-knightley
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.062   Nathan-Fielder  <->  zach-bryan
+   TARGET [diagnosis] all of it reads as an Investigator gathering competence before engaging.
+   OTHER  [diagnosis] afraid of artificial intelligence ("I'm scared of all of it")
+
+score 0.049   Nathan-Fielder  <->  noah-wyle
+   TARGET [diagnosis] and the shows are honest enough to keep showing the rehearsals failing.
+   OTHER  [counter-typing] and the show's stated theme is helpers who cannot ask for help.
+
+score 0.044   Nathan-Fielder  <->  laura-loomer
+   TARGET [diagnosis] The opening anecdote fits that reading
+   OTHER  [diagnosis] Loomer's public record fits that second pattern.
+
+score 0.044   Nathan-Fielder  <->  laura-loomer
+   TARGET [diagnosis] and it cannot establish a private motive.
+   OTHER  [diagnosis] It cannot diagnose Loomer or establish facts about her private mind.
+
+score 0.041   Nathan-Fielder  <->  zach-bryan
+   TARGET [diagnosis] The strongest competing read is Type 5
+   OTHER  [counter-typing] The strongest rival reading is Type 4.
+
+score 0.041   Nathan-Fielder  <->  noah-wyle
+   TARGET [diagnosis] Another piece of evidence is an object
+   OTHER  [counter-typing] One more piece of Six theory belongs here
+
+score 0.030   Nathan-Fielder  <->  Patrick-Mahomes
+   TARGET [diagnosis] Another piece of evidence is an object
+   OTHER  [diagnosis] The evidence is the preparation underneath the improvisation
+
+score 0.029   Nathan-Fielder  <->  laura-loomer
+   TARGET [diagnosis] the public record here is performed and edited.
+   OTHER  [diagnosis] Loomer's public record fits that second pattern.
+
+score 0.026   Nathan-Fielder  <->  noah-wyle
+   TARGET [diagnosis] It puts the method in public view
+   OTHER  [diagnosis] Wyle has been running that program in public since 1994.
+
+score 0.023   Nathan-Fielder  <->  Rebecca-Yarros
+   TARGET [diagnosis] all of it reads as an Investigator gathering competence before engaging.
+   OTHER  [diagnosis] A security system moonlighting as an imagination.
+
+score 0.022   Nathan-Fielder  <->  Bill-Burr
+   TARGET [diagnosis] It can show what Fielder built and what he told interviewers about it.
+   OTHER  [diagnosis] " he told The Hollywood Reporter in 2022.
+
+score 0.021   Nathan-Fielder  <->  Bill-Burr
+   TARGET [diagnosis] It can show what Fielder built and what he told interviewers about it.
+   OTHER  [diagnosis] " he told The Tim Ferriss Show in 2017.
+
+------------------------------------------------------------------------------
+Top pair scores 0.062 vs median 0  (~∞x the noise floor).

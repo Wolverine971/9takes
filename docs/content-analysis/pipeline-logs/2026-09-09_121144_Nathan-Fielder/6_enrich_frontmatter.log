@@ -1,0 +1,34 @@
+Enrichment complete and lint-verified.
+
+```
+Frontmatter enrichment complete: Nathan-Fielder
+
+Fields filled:
+- wikidata_qid, imdb_id, birth_date, birth_place, nationality,
+  occupation, knows_about, keywords, same_as, citations, faqs
+
+Fields already present (preserved):
+- wikipedia (verified: en.wikipedia.org/wiki/Nathan_Fielder resolves to this
+  exact person — "Canadian filmmaker, actor, and comedian", wikibase Q16207915)
+
+FAQs generated (5):
+1. What is Nathan Fielder's personality type? → #what-is-nathan-fielders-personality-type
+2. Is Nathan Fielder's awkward persona real? → #is-nathan-fielders-awkward-persona-real
+3. Why did Nathan Fielder get a real commercial pilot's license? → #why-nathan-fielder-got-a-real-commercial-pilots-license
+4. Was Dumb Starbucks actually legal? → #the-things-nathan-fielder-buys-to-prove-he-belongs
+5. Is The Rehearsal exploitative of its participants? → #the-people-inside-nathan-fielders-rehearsals
+```
+
+**Verification done:**
+- `wikidata_qid: Q16207915` — from the Wikipedia REST summary's own `wikibase_item`, not a name guess.
+- `imdb_id: nm2358709` — double-confirmed: Wikidata claim P345 **and** IMDb's own suggestion API returning "Nathan Fielder | Writer, The Curse".
+- `birth_date: 1983-05-12` — Wikidata P569, agrees with the body's "May 12, 1983." Television Academy lists "May 12" without a year, so Wikidata carries the year.
+- `birth_place` / `nationality` — Wikidata P19 (Vancouver) and P27 (Canada).
+- All 5 FAQ anchors run through the repo's actual `github-slugger@2.0.0` against the body's H2 text — every one matches a real heading ID.
+- Every `same_as` and `citation` URL HTTP-checked; the Television Academy page was content-verified (its JSON-LD carries `birthDate: May 12`, `birthPlace: Vancouver, Canada`).
+- `blog-lint.sh` now reports **0 fail, 0 warn** (was 1 warn for pending FAQs), body still 3,700 words — the body is untouched.
+
+**Issues:**
+1. **Thin inline sourcing.** The body names ~12 outlets (GQ, Variety, CNN, TheWrap, ABC7, LA Times, Vanity Fair, NBC San Diego, Bullseye, UVic, Ontario Arts Foundation) but only **3 of them are actual links**: the Nolan Q&A on YouTube and two New Yorker pieces. I filled `citations` to 5 with the verified Wikipedia and Television Academy URLs — the latter is explicitly the body's cited source for the birth date. I did not invent URLs for the unlinked outlets. Worth a linking pass before publish.
+2. **Britannica skipped.** `britannica.com/biography/Nathan-Fielder` returned 403, which is likely a bot block rather than a 404 — but since I couldn't confirm the page exists, I left it out of `same_as` rather than guess.
+3. **Stale ledger counter (body — did not touch).** The FORMULA FINGERPRINT LEDGER still reads "blog-lint.sh: 0 fail, 1 warning (FAQs pending the next pipeline stage)." That warning is now cleared, so the line is out of date. It's inside a comment block this command must not edit — flagging it for whichever pass owns the body.
