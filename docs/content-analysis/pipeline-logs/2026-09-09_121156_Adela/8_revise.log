@@ -1,0 +1,20 @@
+Lint is clean. Here's the summary.
+
+**Revised:** `src/blog/people/drafts/Adela.md`
+
+**What triggered this pass:** The grade sidecar (C, 7.8) and the supplied perspective review dir. On inspection, the perspective side was a non-event — `verification-initial.md` already showed `verification_status: pass`, 0 open P0s, 0 protected-hit regressions, and all 10 accepted P1s at a terminal status. So the real work was the grader's three `TO REACH B` items (the sidecar's feedback was written against the already-perspective-resolved draft).
+
+**Fixes applied, mapped to grader feedback:**
+1. **"Interior beat is reported, not dramatized"** → added a `<p class="inner-thought">` scene to the Feet beat, rendering the nightly foot-stretching ritual from inside the moment. Grounded it directly in the same Coco Mocoe transcript timestamp the jury's P0-01 fix was verified against, so it reinforces her stated pride/toughness rather than risking the exact "inverted interior wound" problem that P0-01 already had to fix once. The verified P0-01 sentence itself was left untouched.
+2. **"Originality solid but cautious"** → sharpened the opening thesis from a generic list ("work supplies energy, structure, attention...") to a specific causal claim about manufactured attention. First attempt tripped the strong contrast-pair lint check ("not X so much as Y"), so I rewrote it as a plain declarative.
+3. **"No second aha beyond the Google Doc and the vote"** → added one sentence to the indie-rock-detour beat: the rejection had to be total before the ambition could feel chosen rather than assigned.
+
+Also updated the FORMULA FINGERPRINT LEDGER's "Interior beat" line, which was stale (said no dramatized scene existed).
+
+**Rejected feedback:** none — all three TO REACH B items were actionable and in-scope.
+
+**Lint:** clean, 0 fail (1 pre-existing warn about `published`/`production_pretext.status` disagreement, unrelated to this pass).
+
+**Perspective mode:** wrote `revision-resolution.md` in the supplied review dir documenting that no P0/P1 action was needed and flagging PROTECT-05 (the Feet beat sits inside it) for the next perspective-verification pass to re-check. Per the command spec, that pass — not this one — closes the gate.
+
+The pipeline will clear the consumed grade sidecar and re-grade from here.

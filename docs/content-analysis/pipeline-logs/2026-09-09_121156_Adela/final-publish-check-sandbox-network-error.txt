@@ -1,0 +1,4 @@
+Error processing blog entries: Error: Unable to read blogs_famous_people publish states: TypeError: fetch failed
+    at getDbPublishedStatusMap (file:///Users/djwayne/.codex/worktrees/4385/9takes/scripts/personBlogParser.js:1159:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async main (file:///Users/djwayne/.codex/worktrees/4385/9takes/scripts/personBlogParser.js:2311:26)

@@ -1,0 +1,9 @@
+stage=0.5_entity_gap_brief exit=1 dur=29s at=2026-09-09 12:10:39
+stage=1_refresh exit=1 dur=3s at=2026-09-09 12:10:42
+stage=2_fresh_eyes exit=1 dur=3s at=2026-09-09 12:10:45
+stage=4_cohesion exit=1 dur=3s at=2026-09-09 12:10:48
+stage=4.2_perspective_evidence exit=1 dur=3s at=2026-09-09 12:10:52
+stage=4.3_perspective_packet_gate exit=1 dur=0s at=2026-09-09 12:10:52
+stage=5_editor_pass exit=1 dur=3s at=2026-09-09 12:10:55
+stage=6_enrich_frontmatter exit=1 dur=3s at=2026-09-09 12:10:58
+stage=7_grade exit=1 dur=4s at=2026-09-09 12:11:03

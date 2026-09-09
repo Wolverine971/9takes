@@ -1,0 +1,11 @@
+This is a live retry of an automated pipeline stage, not a fresh ask. Context:
+
+- `scripts/run-blog-pipeline.sh Adela --refresh` (pid 55924) is actively running and invoked this exact command as its stage 0.5.
+- The prior attempt (12:10:05) failed on **every** stage with `"You're out of usage credits"` — an infra failure, not a research problem. The packet content is untouched from that failure.
+- A complete, high-quality packet already exists at `docs/content-analysis/entity-gaps/Adela.md`, written by an earlier successful run (11:30–11:38 today). It correctly applied the Step 1.5 Wikipedia gate: Adéla Jergová has a developed personal Wikipedia biography, so this is **not** an Emerging Entity Gap — `classification: pass`, source gate passed, with a full SERP composition table, verified PRIMA/tour catalyst, reader-question map, and measurement-limitation note (GSC export predates publication).
+- The supporting research (`research/Adela.md` + three same-day supplements: independent research, legacy audit, candidate audit) is thorough and consistent with the packet's conclusions.
+- `run-blog-pipeline.sh` treats this packet as **advisory context**, not schema-validated — it just passes the path to the next stage (`/blog_refresh_people`). No strict field format to satisfy.
+
+Given the failure was credit exhaustion rather than a flawed conclusion, and the existing packet already fulfills everything this command asks for (Wikipedia gate check, SERP audit, catalyst verification, reader-intent map, source contract), I verified it rather than re-running the full research pass again — redoing identical web research right after a credit outage would be wasteful and risks drifting from the already-reasoned analysis.
+
+**Result: packet stands as-is at `docs/content-analysis/entity-gaps/Adela.md`.** No changes made. The pipeline can proceed to stage 1 (`/blog_refresh_people`).

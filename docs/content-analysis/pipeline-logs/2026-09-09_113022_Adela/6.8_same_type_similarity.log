@@ -1,0 +1,92 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — adela (Type 3)
+/Users/djwayne/.codex/worktrees/4385/9takes/src/blog/people/drafts/Adela.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 20
+Comparison set (last 8 other Type-3 drafts by date):
+  - Jonathan-Bailey  (2026-09-01, 35 units)
+  - Tate-McRae  (2026-08-27, 34 units)
+  - margaret-qualley  (2026-08-20, 30 units)
+  - alexandr-wang  (2026-08-18, 30 units)
+  - michael-jordan  (2026-08-14, 46 units)
+  - David-Beckham  (2026-08-12, 36 units)
+  - Mel-Robbins  (2026-08-12, 32 units)
+  - chase-infiniti  (2026-08-11, 48 units)
+
+Noise floor over 5820 unit pairs:  median=0  p90=0  p99=0.005  max=0.095
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.069   adela  <->  margaret-qualley
+   TARGET [diagnosis] The public record cannot settle a private motivation with certainty.
+   OTHER  [counter-typing] She declines to correct the public record about herself at all
+
+score 0.040   adela  <->  David-Beckham
+   TARGET [diagnosis] The public record cannot settle a private motivation with certainty.
+   OTHER  [diagnosis] Public evidence cannot settle Beckham's motive.
+
+
+Most similar drafts (max unit-pair score):
+  0.095 ####                 Tate-McRae
+  0.095 ####                 michael-jordan
+  0.095 ####                 chase-infiniti
+  0.069 ###                  margaret-qualley
+  0.040 ##                   David-Beckham
+  0.036 #                    alexandr-wang
+  0.031 #                    Jonathan-Bailey
+  0.023 #                    Mel-Robbins
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.095   adela  <->  Tate-McRae
+   TARGET [diagnosis] Adéla appears to be an Enneagram Type 3
+   OTHER  [diagnosis] Tate McRae is an Enneagram Type 3
+
+score 0.095   adela  <->  michael-jordan
+   TARGET [diagnosis] Adéla appears to be an Enneagram Type 3
+   OTHER  [diagnosis] Michael Jordan is an Enneagram Type 3
+
+score 0.095   adela  <->  chase-infiniti
+   TARGET [diagnosis] Adéla appears to be an Enneagram Type 3
+   OTHER  [diagnosis] Chase Infiniti is an Enneagram Type 3
+
+score 0.069   adela  <->  margaret-qualley
+   TARGET [diagnosis] The public record cannot settle a private motivation with certainty.
+   OTHER  [counter-typing] She declines to correct the public record about herself at all
+
+score 0.040   adela  <->  David-Beckham
+   TARGET [diagnosis] The public record cannot settle a private motivation with certainty.
+   OTHER  [diagnosis] Public evidence cannot settle Beckham's motive.
+
+score 0.036   adela  <->  alexandr-wang
+   TARGET [diagnosis] Her artistic particularity complicates the call.
+   OTHER  [counter-typing] Two findings would overturn the call.
+
+score 0.031   adela  <->  Jonathan-Bailey
+   TARGET [diagnosis] a defined next step makes the self feel available again.
+   OTHER  [diagnosis] make the core type a safe call.
+
+score 0.023   adela  <->  Mel-Robbins
+   TARGET [diagnosis] identity rebuilt through a career blueprint
+   OTHER  [counter-typing] sustained evidence that she stayed with one mission through a period when it cost her audience.
+
+score 0.023   adela  <->  Tate-McRae
+   TARGET [diagnosis] Read beside the post-elimination mission statement and her uncertainty about ever feeling achievement
+   OTHER  [diagnosis] Applause is beside the point for a Three.
+
+score 0.022   adela  <->  margaret-qualley
+   TARGET [diagnosis] and a finish line that keeps moving after each success.
+   OTHER  [diagnosis] The 4 wing explains the filmography that keeps confusing people.
+
+score 0.020   adela  <->  Jonathan-Bailey
+   TARGET [diagnosis] This is a high-confidence reading of the core pattern and a medium-confidence call on the wing.
+   OTHER  [diagnosis] make the core type a safe call.
+
+score 0.020   adela  <->  margaret-qualley
+   TARGET [diagnosis] The Type 3 claim concerns what she does when identity
+   OTHER  [diagnosis] The 4 wing governs what she volunteers to be graded on.
+
+------------------------------------------------------------------------------
+Top pair scores 0.095 vs median 0  (~∞x the noise floor).

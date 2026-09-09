@@ -1,0 +1,27 @@
+All three bridges are in place. Frontmatter, Svelte components, ledger comments, and links were untouched.
+
+## Cohesion Check Complete: Adela.md
+
+**Before score: 7/10**
+**After score: 8/10**
+
+### Central Thesis
+Adéla's competence-equals-value pattern (Type 3) runs from childhood assignments through Dream Academy's rejection into a solo career, where PRIMA delivers the payoff without resolving the underlying doubt.
+
+### Changes Made (3 total)
+
+**Transition Fixes (3):**
+- Diagnosis → "The child who treated distance like homework": added a bridge carrying "competence and value" forward and previewing the three-part structure that follows.
+- "How Adéla built a solo career" → "Why ADÉLA is a character": added a bridge linking "several moods" to "a name in capital letters."
+- "PRIMA is a rank" → "Who gets to hear the applause?": added a bridge turning the mother's support into the open question the closing section answers.
+
+### What Was Preserved
+- All frontmatter, ledgers, Svelte components (`<EnneagramTypeDossier />`), and the Rabbit Hole accordion
+- All internal links and citations
+- 6 of 9 section transitions, which were already strong (notably the "feet"/ballet callback into PRIMA and the "clarity" carry-through in the solo-career section)
+
+### Remaining Concerns
+These are content gaps, not thread breaks, so I left them for the writer's judgment (or a different pass):
+- The Provocateur EP is cited as a source but never named/dated in the body — the timeline jumps from Homewrecked (2024) to PRIMA (2026) without it.
+- "Ain't in LA" is discussed as a single but its relationship to PRIMA (is it a track on the album?) is never made explicit.
+- KATSEYE/HYBE x Geffen isn't named until well into the piece; the intro only gestures at "a prospective girl group." Not a logic break, but a delayed hook — already flagged in the file's own Fresh Eyes review.

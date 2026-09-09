@@ -1,0 +1,10 @@
+All three key identifiers check out: Wikidata Q131629817 matches "Adéla Jergová, Slovak singer, songwriter and dancer, born 2003-11-27" and its P345 claim confirms `imdb_id: nm15203885` — exactly what's already in the frontmatter. The Wikipedia URL, birth date, birth place, nationality, and occupation all align with verified data.
+
+Every owned field is already filled with real, specific, non-placeholder values (`faqs` are bespoke and drawn from the body, not templated backfill; `knows_about` is specific, not occupation-copied; `citations` are pulled from body links). No gaps to fill.
+
+**Frontmatter enrichment complete: Adéla**
+
+No changes — fully enriched. All owned fields already have real values, verified against Wikidata:
+- `wikipedia`, `wikidata_qid` (Q131629817), `imdb_id` (nm15203885 — cross-confirmed via Wikidata P345), `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`, `citations`, `faqs` — all present, specific, and body-grounded.
+
+Issues: none.

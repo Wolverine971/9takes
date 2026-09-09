@@ -1,0 +1,14 @@
+## Grading Complete — Adéla
+
+| Blog  | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+| ----- | ---- | ---- | ---- | ----- | ------- | ---- | ------- | ----- |
+| Adéla | 8.5  | 8.5  | 9    | 8     | 8.5     | 7.5  | 8.5     | B+    |
+
+**Key observations:**
+- Discoverability is close to airtight — clean title/meta/description lengths, 4 real FAQs, full entity metadata, direct extractable type answer.
+- Evidence is clean: `blog-source-audit.mjs` found 3/3 load-bearing quotes inline-tagged with no vague or untagged claims, and the *PRIMA* critic split (Guardian vs. Pitchfork) is a genuine, unresolved critic-pressure anchor rather than a ducked one.
+- The empathy turn (the Manon comment) earns its own vocabulary instead of the "scar tissue"-style house grammar that shows up in some corpus anchors.
+- Ceiling on this draft is Writing/Hook, not sourcing: the opening scene-sets for three paragraphs before stating its tension, and the interior beats (foot-stretching, the Google Doc) are procedural rather than visceral compared to the Type-3 corpus anchor (Alex-Warren, B+/8.9).
+- `same-type-similarity.mjs` came back clear (well under the 0.04 trip threshold) — no formula reuse against the last 8 Type-3 drafts.
+
+Frontmatter and the reviewer sidecar (`docs/content-analysis/grades/Adela.review.md`) are written. Single-blog grade, so no batch distribution check applies. Let me know if you want me to continue with anything else on Adéla.

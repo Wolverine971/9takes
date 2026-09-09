@@ -1,10 +1,10 @@
 {
-	"schema_version": 1,
-	"subject": "Adela",
-	"review_dir": "docs/content-analysis/perspective-reviews/Adela/2026-08-12_Adela",
-	"verification_file": "docs/content-analysis/perspective-reviews/Adela/2026-08-12_Adela/verification-initial.md",
-	"verification_status": "pass",
-	"reviewed_snapshot_sha256": "f21b668d4b0adad9b8dfffe8129a70b7a757d0f929afbffda6353c493eb70107",
-	"verified_content_sha256": "1115dddf33bdf4ad68a046b3fc3a08590498cb183b0f48ddb8cebef3d2bcfb54",
-	"verified_at": "2026-08-12T16:16:00Z"
+  "schema_version": 1,
+  "subject": "Adela",
+  "review_dir": "docs/content-analysis/perspective-reviews/Adela/2026-09-09_121156",
+  "verification_file": "docs/content-analysis/perspective-reviews/Adela/2026-09-09_121156/verification-final.md",
+  "verification_status": "pass",
+  "reviewed_snapshot_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+  "verified_content_sha256": "d377748e06f23c45baa8259ec21e9234e8fd291708ebbc00bd40d4188c93e948",
+  "verified_at": "2026-09-09T17:31:27.000Z"
 }

@@ -1,0 +1,19 @@
+{
+  "person": "Adela",
+  "draft_path": "src/blog/people/drafts/Adela.md",
+  "entity_gap_brief": "docs/content-analysis/entity-gaps/Adela.md",
+  "log_dir": "/Users/djwayne/.codex/worktrees/4385/9takes/docs/content-analysis/pipeline-logs/2026-09-09_121005_Adela",
+  "perspective_review_dir": "docs/content-analysis/perspective-reviews/Adela/2026-09-09_121005",
+  "perspective_initial_status": "not_run",
+  "perspective_final_status": "packet_invalid",
+  "completed": true,
+  "halt_reason": null,
+  "revised": false,
+  "lint_exit": 0,
+  "first_overall": null,
+  "final_overall": null,
+  "final_discoverability": null,
+  "grade_stability_delta": null,
+  "has_stage_warnings": true,
+  "generated_at": "2026-09-09T16:11:03.256Z"
+}

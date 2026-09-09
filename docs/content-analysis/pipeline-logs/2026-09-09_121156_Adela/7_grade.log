@@ -1,0 +1,20 @@
+Grading complete.
+
+## Grading Complete — Adéla (single blog)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Adéla | 8 | 7 | 9 | 7.5 | 7.5 | 7 | 7.8 | C |
+
+(Overall is weighted: `(8×1.5 + 7×1.5 + 9×1.5 + 7.5 + 7.5 + 7×0.5) / 7 = 7.8`. Discoverability 9 clears the ≥7 gate, so no cap applied.)
+
+### Key observations
+- **Discoverability is the standout dimension** (near 9-10): search-intent titling, a direct extractable type answer confirmed by `blog-quality-report.mjs`, real FAQ schema, complete entity metadata.
+- **Evidence is strong**: `blog-source-audit.mjs` confirms all 3 load-bearing quotes are inline-tagged with outlet + year — zero vague or untagged sourcing.
+- **The Manon/Dream Academy empathy turn is the best moment in the piece** — it names a real ethical lapse on Adéla's part without excusing it, then explains it through her own effort-vocabulary rather than the corpus's overused "armor/scar tissue" grammar.
+- **What's holding it at a C, not a B+**: the interior beat is reported rather than dramatized (no scene rendered from inside a felt moment, unlike Matt-Smith's physio-room or Alex Warren's father-and-Ferrari beats), and Originality is careful/competent rather than surprising — the core thesis is a well-earned but expected Type 3 pattern, missing a second genuine "aha" beyond the Google Doc detail.
+- Bracketed against the current corpus: beats the Jim-Carrey draft on Evidence (inline-sourced vs. assertion-driven), loses to the Nikki-Glaser draft on Originality (Glaser's addiction-transfer thesis is a sharper, less expected causal claim).
+
+Full feedback with actionable "TO REACH B" steps is in `docs/content-analysis/grades/Adela.review.md`. Frontmatter `content_quality` block added to the draft.
+
+**Total graded this session: 1**

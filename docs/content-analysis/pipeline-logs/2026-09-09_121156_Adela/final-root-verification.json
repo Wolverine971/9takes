@@ -1,0 +1,122 @@
+{
+  "checked_at": "2026-09-09T17:42:04.013Z",
+  "reader_sha256": "d377748e06f23c45baa8259ec21e9234e8fd291708ebbc00bd40d4188c93e948",
+  "perspective": {
+    "valid": true,
+    "blocker": null,
+    "manifestPath": "/Users/djwayne/.codex/worktrees/4385/9takes/docs/content-analysis/perspective-reviews/Adela/latest.json",
+    "manifest": {
+      "schema_version": 1,
+      "subject": "Adela",
+      "review_dir": "docs/content-analysis/perspective-reviews/Adela/2026-09-09_121156",
+      "verification_file": "docs/content-analysis/perspective-reviews/Adela/2026-09-09_121156/verification-final.md",
+      "verification_status": "pass",
+      "reviewed_snapshot_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+      "verified_content_sha256": "d377748e06f23c45baa8259ec21e9234e8fd291708ebbc00bd40d4188c93e948",
+      "verified_at": "2026-09-09T17:31:27.000Z"
+    },
+    "currentContentSha256": "d377748e06f23c45baa8259ec21e9234e8fd291708ebbc00bd40d4188c93e948"
+  },
+  "final_pair": {
+    "first": {
+      "hook": 7,
+      "enneagram": 7.5,
+      "evidence": 7.5,
+      "writing": 7.5,
+      "originality": 7.5,
+      "discoverability": 8,
+      "overall": 7.6,
+      "letter": "C",
+      "rubric_version": 2,
+      "caps_applied": [],
+      "confidence": "high",
+      "anchor": "Matt-Smith draft (2026-06-28)",
+      "beats_anchor": "Nick-Offerman draft (regraded 2026-07-22, C/7.5) — clean load-bearing sourcing vs. Offerman's untagged quotes",
+      "loses_to_anchor": "Naval-Ravikant draft (regraded 2026-09-01, B/8.1) — sharper, less-hedged cold open and thesis statement",
+      "needs_review": false,
+      "graded_at": "2026-09-09"
+    },
+    "last": {
+      "hook": 7.5,
+      "enneagram": 8,
+      "evidence": 8.5,
+      "writing": 8.5,
+      "originality": 8.5,
+      "discoverability": 9,
+      "overall": 8.5,
+      "first_overall": 7.6,
+      "regrade_overall": 8.5,
+      "grade_stability_delta": 0.9,
+      "letter": "B+",
+      "rubric_version": 2,
+      "caps_applied": [],
+      "confidence": "high",
+      "anchor": "Alex-Warren draft (B+, 8.9, 2026-07-27)",
+      "beats_anchor": "Matt-Smith draft (calibrated B, 8.0-8.4 despite self-claimed A)",
+      "loses_to_anchor": "Alex-Warren draft (B+, 8.9)",
+      "needs_review": false,
+      "graded_at": "2026-09-09"
+    },
+    "first_reader_sha256": "d377748e06f23c45baa8259ec21e9234e8fd291708ebbc00bd40d4188c93e948",
+    "last_reader_sha256": "d377748e06f23c45baa8259ec21e9234e8fd291708ebbc00bd40d4188c93e948",
+    "same_version": true,
+    "calculated_delta": 0.9,
+    "stability_threshold": 0.3,
+    "stable": false,
+    "weighted_first": 7.6,
+    "weighted_last": 8.5
+  },
+  "protected_metadata": {
+    "person": "adela",
+    "date": "2026-08-14",
+    "lastmod": "2026-08-14",
+    "published": true,
+    "type": [
+      "musician",
+      "dancer"
+    ],
+    "production_pretext": {
+      "status": "draft",
+      "handoff_from": "blog_content_creator_people",
+      "reviewed": false,
+      "ready_for_production": false,
+      "sync_mode": "full",
+      "requires": [
+        "db_sync",
+        "db_verify",
+        "regenerate_famous_types",
+        "image_check"
+      ],
+      "blockers": []
+    }
+  },
+  "image_files": [
+    {
+      "path": "static/types/3s/Adela.webp",
+      "exists": true
+    },
+    {
+      "path": "static/types/3s/s-Adela.webp",
+      "exists": true
+    }
+  ],
+  "final_handoff_checked_at": "2026-09-09T17:44:08.178Z",
+  "final_reader_sha256": "d377748e06f23c45baa8259ec21e9234e8fd291708ebbc00bd40d4188c93e948",
+  "final_reader_matches_pair": true,
+  "dry_run": {
+    "exit_code": 0,
+    "expected_live_content_hash": "5c7476c1c3b84f293cb396cdcc3614f7",
+    "local_parsed_content_hash": "ff0168bc542e975f77d4a3db86581e3e",
+    "approve_fields": "description,content,content_quality,faqs,citations",
+    "protected_drift": false,
+    "database_write": false
+  },
+  "publish_check": {
+    "exit_code": 2,
+    "local_editorial_gates": "blocked",
+    "blockers": [
+      "grade_unstable:0.9_delta",
+      "already_published"
+    ]
+  }
+}

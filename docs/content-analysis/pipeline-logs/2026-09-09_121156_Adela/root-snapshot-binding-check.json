@@ -1,0 +1,37 @@
+{
+  "observed_at": "2026-09-09T17:13:14.666Z",
+  "frozen_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+  "reviews": [
+    {
+      "reviewer": "subject",
+      "draft_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+      "matches_frozen": true
+    },
+    {
+      "reviewer": "fan",
+      "draft_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+      "matches_frozen": true
+    },
+    {
+      "reviewer": "critic",
+      "draft_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+      "matches_frozen": true
+    },
+    {
+      "reviewer": "unfamiliar",
+      "draft_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+      "matches_frozen": true
+    },
+    {
+      "reviewer": "enneagram",
+      "draft_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+      "matches_frozen": true
+    },
+    {
+      "reviewer": "future",
+      "draft_sha256": "e5826421633c8cd5b7eb46818d6f2ce8fdc6bc844e4046bea3da8a7d3e764af8",
+      "matches_frozen": true
+    }
+  ],
+  "current_reader_sha256": "e1bdedb0a72e5f3bec0f89f0720f0efd9ce9a399a85d0bce8fb2f952cf30ea67"
+}

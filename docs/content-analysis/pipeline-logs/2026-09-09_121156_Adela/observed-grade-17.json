@@ -1,0 +1,21 @@
+{
+  "hook": 7.5,
+  "enneagram": 8,
+  "evidence": 8.5,
+  "writing": 8.5,
+  "originality": 8.5,
+  "discoverability": 9,
+  "overall": 8.5,
+  "first_overall": 7.6,
+  "regrade_overall": 8.5,
+  "grade_stability_delta": 0.9,
+  "letter": "B+",
+  "rubric_version": 2,
+  "caps_applied": [],
+  "confidence": "high",
+  "anchor": "Alex-Warren draft (B+, 8.9, 2026-07-27)",
+  "beats_anchor": "Matt-Smith draft (calibrated B, 8.0-8.4 despite self-claimed A)",
+  "loses_to_anchor": "Alex-Warren draft (B+, 8.9)",
+  "needs_review": false,
+  "graded_at": "2026-09-09"
+}

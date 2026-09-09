@@ -1,0 +1,16 @@
+Clean: 0 fail, 0 strong contrast-pair engines, 0 em-dashes, 0 banned phrases. The one WARN (published/production_pretext.status mismatch) predates this pass and is unrelated.
+
+**Summary:**
+
+I polished `src/blog/people/drafts/Adela.md` per the six-perspective jury synthesis at `docs/content-analysis/perspective-reviews/Adela/2026-09-09_121156/`:
+
+- **Both P0s fixed**: the ballet feet-stretching passage no longer inverts Adéla's own framing (she told it as pride in toughness, not a wound, per direct transcript verification); the Manon/Emily close now scopes the redemptive beat to the documentary's footage instead of implying the relationship is settled.
+- **All 10 accepted P1s applied**: Adele disambiguation, Dream Academy/KATSEYE gloss, hedged the "had believed" inference, replaced the generic Manon-pushback line with her actual quote, named/dated/quoted the indie-rock detour (new Rolling Stone citation added to frontmatter), named *The Provocateur* EP, extended the "I'm basically myself" quote, tested Type 3 against the site's deceit marker and Type 4 against the envy/incompleteness marker (plus FAQ tightening), and publication-anchored the tour sentence.
+- **P2-01** (name the Red Bottoms Tour) and the discretionary **P2-02** (vary "complicates") both applied.
+- All 9 protected hits verified intact.
+
+Fixing the new sentences tripped the contrast-pair lint (5 strong hits from "not X but Y" constructions I'd introduced, including one inside a trimmed direct quote), so I rewrote each to hold the same meaning without the negative-parallelism pattern — lint now passes clean at 0.
+
+Wrote the required `editor-resolution.md` and updated the draft's stale `FRESH EYES REVIEW` comment to point to it. Word count grew from 2,341 to 2,659 (still under the lint's 3,200–3,900 band). One P1 (the Manon-audience-appeal detail) is only partially resolved — logged honestly in the resolution artifact rather than fabricated, since the fuller fact isn't in the frozen evidence packet and new general research wasn't authorized for a P1 item.
+
+The draft looks production-ready pending `/blog_perspective_verify_people`, which independently checks the perspective gate.

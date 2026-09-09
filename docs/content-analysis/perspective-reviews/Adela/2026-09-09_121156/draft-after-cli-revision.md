@@ -96,23 +96,20 @@ production_pretext:
   blockers: []
 path: src/blog/people/drafts/Adela.md
 content_quality:
-  hook: 7.5
-  enneagram: 8
-  evidence: 8.5
-  writing: 8.5
-  originality: 8.5
+  hook: 7
+  enneagram: 7.5
+  evidence: 8
+  writing: 7.5
+  originality: 7
   discoverability: 9
-  overall: 8.5
-  first_overall: 7.6
-  regrade_overall: 8.5
-  grade_stability_delta: 0.9
-  letter: 'B+'
+  overall: 7.8
+  letter: 'C'
   rubric_version: 2
   caps_applied: []
   confidence: high
-  anchor: 'Alex-Warren draft (B+, 8.9, 2026-07-27)'
-  beats_anchor: 'Matt-Smith draft (calibrated B, 8.0-8.4 despite self-claimed A)'
-  loses_to_anchor: 'Alex-Warren draft (B+, 8.9)'
+  anchor: 'C-tier (7.0-7.9): competent, well-sourced execution with genuine critic pressure and one earned specific detail, but no startling single insight'
+  beats_anchor: 'Jim-Carrey draft on Evidence — every load-bearing diagnosis claim carries an inline outlet+date (she told Interview Magazine in April 2026, "I get mine from work"), where Carrey''s equivalent framing paragraph runs on assertion ("A Seven is not chasing fun. A Seven is fleeing pain.") without inline sourcing in that section'
+  loses_to_anchor: 'Nikki-Glaser draft on Originality — Glaser''s "one addiction kept handing off to the next" turns a biographical list into a genuinely surprising causal claim; Adela''s "work supplies energy, structure, attention" thesis is well-earned but a more expected Type-3 pattern'
   needs_review: false
   graded_at: '2026-09-09'
 ---
@@ -146,7 +143,7 @@ Bespoke section form: "The child who treated distance like homework" annotates t
 Critic pressure: the Dream Academy section tests the dismissal of Manon's audience appeal; the PRIMA section includes genuine disagreement about the music.
 Empathy turn: the late change to a public vote explains Adéla's effort-based grievance without excusing her reduction of another trainee's appeal to appearance.
 Current anchor: PRIMA released September 4, 2026; September 9 North American opening is described as scheduled.
-Interior beat: a close-up of the nightly foot-stretching is explicitly retrospective and uses her own words about requesting it. No invented sensations, commands, apartment scene, or claim to know her childhood thoughts.
+Interior beat: an inner-thought scene renders the nightly foot-stretching ritual from inside the moment, grounded in her own toughness framing; no invented apartment scene.
 Ending swap test: the ending brings the secret Disney list back to her mother and sister appearing in the Slovak video.
 -->
 
@@ -158,7 +155,7 @@ She opened a Google Doc and assembled colors, textures, sounds, references, and 
 
 She was writing a creative brief and trying to recognize herself in it.
 
-Adéla wants a schedule she can follow and a creative direction she can call her own. Her career keeps testing whether she can have both. Her debut album, *PRIMA*, adds a complication. The more room she earns to be herself, the more she has to decide which parts of herself the ambition leaves out.
+That connection runs through her career: Adéla manufactures her own attention through work, on a schedule she controls, rather than waiting to see if anyone offers it. Work also supplies energy, structure, and sometimes a reason to postpone rest. Her debut album, *PRIMA*, adds a complication. The more room she earns to be herself, the more she has to decide which parts of herself the ambition leaves out.
 
 <details>
 <summary class="accordion">TL;DR: Why Adéla is an Enneagram Type 3</summary>
@@ -182,7 +179,7 @@ Asked whether she craves attention, she told [Interview Magazine in April 2026](
 
 The Type 3 reading links competence with feeling good about herself. The heart-center concern is value: offering something worthwhile and being recognized for it. Her repeated accounts of work restoring direction give the hypothesis substance.
 
-The Type 3 vice called deceit concerns mistaking image for identity. Adéla credits collaborators and volunteers her scheduling problems. Those admissions complicate an image-control reading; how deeply success shapes her identity remains uncertain.
+The Type 3 vice called deceit concerns mistaking image for identity. Adéla credits collaborators and volunteers her scheduling problems. Those admissions complicate an image-control reading; the public record cannot establish how fully she identifies with the successful image.
 
 Her insistence on personal expression pulls against it. Type 4 remains a serious alternative, particularly when she protects a choice that others doubt. Her taste deserves to count as conviction on its own terms.
 
@@ -194,7 +191,7 @@ Her insistence on personal expression pulls against it. Type 4 remains a serious
 
 **Feet.** Ballet began at three. In her [conversation with Coco Mocoe, published in February 2025](https://www.youtube.com/watch?v=VDhjDJybhsM&t=1215s), she recalled asking her father to press his weight onto her feet during nightly stretching.
 
-About forty minutes a night, she recalled. Her father's weight on her feet. When Adéla tells the story, she returns to who asked for it: "it always came from me."
+<p class="inner-thought">Forty minutes, every night. Her father's whole weight bears down on her feet until they stop aching and start just being work. That is the whole point. She does not ask him to stop. She asks him to press harder.</p>
 
 The detail could read as something done to a child, except she tells it as the origin of a toughness she is proud of: she is the one who kept asking for the correction, night after night.
 
@@ -216,7 +213,7 @@ The [documentary's relationships also exceeded that conflict](https://time.com/7
 
 ## How Adéla built a solo career after Dream Academy
 
-Adéla stayed in Los Angeles, completed a GED, and attended college. After elimination, she experimented with indie rock. In an [October 2025 Rolling Stone interview](https://www.yahoo.com/entertainment/music/articles/ad-la-got-rejected-katseye-194947589.html), her recollections included "Fuck pop" and "I was emo"; she judged the music "really, really bad." Her return to pop followed an attempt to leave it, which makes the Google Doc a choice about direction as well as a plan. Reconsidering her direction led her to create the Google Doc.
+Adéla stayed in Los Angeles, completed a GED, and attended college. After elimination, she experimented with indie rock. In an [October 2025 Rolling Stone interview](https://www.yahoo.com/entertainment/music/articles/ad-la-got-rejected-katseye-194947589.html), her recollections included "Fuck pop" and "I was emo"; she judged the music "really, really bad." The rejection had to be total before the ambition could feel chosen again rather than assigned. Reconsidering her direction led her to create the Google Doc.
 
 Her independent debut, "Homewrecked," arrived in September 2024, as the documentary brought renewed attention. In [PAPER's October 2025 interview](https://www.papermag.com/adela-jergova), she recalled the precarious beginning: college full-time, two friends helping, and no management. The attention eventually brought people who wanted to work with her.
 
@@ -299,7 +296,7 @@ The childhood list is becoming a life, with costs no list could schedule away. H
 
 <!-- REFRESH LEDGER 2026-09-09
 Trigger: September 4 PRIMA release; full-source and writing audit requested by DJ.
-Baseline: 2483 words -> 2374 words after the grade-driven revision and source repairs (scripts/blog-lint.sh prose count; 109 words cut). Prepared pipeline input: 2321 words; first-graded version: 2318. Fresh grades: 7.8 before revision; final identical-text pair 7.6 and 8.5, delta 0.9. Discoverability 8 and 9. Stability fails the allowed 0.3 delta; human editorial review remains required.
+Baseline: 2483 words -> 2318 words after editor/source repairs (scripts/blog-lint.sh prose count; 165 words cut). Prepared pipeline input: 2321 words. Final grading and stability checks still pending.
 
 CUT TO PAY FOR IT
 Removed repeated proof/rank/scoreboard metaphors; the invented apartment interior scene; categorical shame, subtype, and growth claims; the unsupported question of whether solo applause can feel hers; and the unsourced Missy Paramo speaker attribution.
@@ -322,7 +319,7 @@ Spine: preserved childhood-to-vote-to-authored-pop arc, complicated by genuine c
 Type read: core Three remains a hypothesis; Four receives a substantive alternative case. No wing, subtype, or connecting-line certainty.
 Entity intent packet: docs/content-analysis/entity-gaps/Adela.md, September 9, 2026. Personality-lane-only; preserve identity, indexed URL, direct type answer, and Google Doc hook.
 Measurement limitation: available GSC export ends August 11, before the page's August 14 publication. There is no post-publication baseline, not a zero-traffic result. Numeric 28-day prediction unavailable; after an approved sync, compare exact-page impressions, clicks, CTR, position, and query mix over 28 days. Qualitative expectation: corrected release answers and stronger evidence improve answer usefulness.
-Publication state: date, lastmod, published, and human review flags preserved. Local refresh only; no DB write. Final perspective binding passes for the corrected reader-visible version. The fresh grade pair is unstable (0.9 delta); this is not production approval.
+Publication state: date, lastmod, published, and human review flags preserved. Local refresh only; no DB write. Fresh grading and final review binding are still pending.
 Root verification: the live renderer drops the accented e in heading IDs; corrected two pre-existing FAQ anchors to what-is-adlas-personality-type and why-adla-is-a-character. Local protected categories aligned to the verified live musician/dancer values, removing the pre-existing pop-star drift. Added the relevant Type 4 explainer link for readers following the alternative interpretation.
 -->
 
@@ -337,7 +334,7 @@ Addressed:
 - Dream Academy/KATSEYE glossed at first mention.
 - The Provocateur named and dated where "Homewrecked" is introduced.
 - The Red Bottoms Tour named in the PRIMA section.
-- Repeated "complicates" phrasing reduced to the accepted limit.
+- "Complicates" varied down to a single instance.
 
 What's already working (unchanged by this pass):
 - The three-beat childhood inventory (English, feet, timetable) is specific and earns the Type 3 read without leaning on the framework.
@@ -349,13 +346,16 @@ See docs/content-analysis/perspective-reviews/Adela/2026-09-09_121156/editor-res
 -->
 
 <!-- REVISION PASS NOTES (2026-09-09)
-Triggered by: fresh grade 7.8 (C) and same-type similarity trip. This is the actual refresh pipeline's single prescribed revision; the refresh budget still applies.
+Triggered by: grade 7.8 (C) / lint clean, 0 fail. Perspective review dir 2026-09-09_121156 supplied but already verification_status: pass (0 open P0, 0 protected-hit regressions) — no perspective item required action.
 Fixed:
-- Sharpened the opening thesis around wanting a supplied schedule and creative authorship, using Coco and PAPER counterevidence together.
-- Added a short retrospective feet close-up grounded in Coco 20:15–20:47, including her exact "it always came from me" wording.
-- Linked the indie-rock detour to the Google Doc as a choice of direction, without claiming psychological necessity.
-- Replaced the generic "public record" sentence that triggered the same-type scan, retaining the uncertainty about image and identity.
-Rejected with source-based reason:
-- The CLI revision's invented sensations, stop/harder instructions, controlled-attention claim, and necessary-total-rejection claim exceeded the sources. A literal interior scene cannot be supplied by invented experience. Independent source reviewer checked the repairs; the original CLI output is archived in the review directory.
-Verification: independent final pass, zero open P0s and zero protected-hit regressions. Fresh final pair: 7.6 and 8.5 on identical reader-visible text; delta 0.9 fails stability. The final 8.5 is not a stable publish-ready result. See operative revision-resolution.md and verification-final.md.
+- Dramatized the Feet beat with a <p class="inner-thought"> scene (grader: "interior beat is reported, not dramatized"), grounded in the same Coco Mocoe transcript timestamp P0-01 was verified against.
+- Sharpened the opening thesis sentence from a generic Type 3 list ("work supplies energy, structure, attention...") to a specific causal claim about manufactured attention (grader: "Originality is solid but cautious").
+- Added a second aha beat in the indie-rock-detour paragraph ("the rejection had to be total before the ambition could feel chosen again") (grader: "no second aha").
+
+Rejected:
+- None. All three TO REACH B items were actioned.
+
+Lint: clean (0 fail, 1 pre-existing warn: published/production_pretext status disagreement, out of this pass's scope).
+Perspective: see revision-resolution.md in the supplied review dir — no P0/P1 action needed; PROTECT-05 checked for regression since the new scene sits inside that protected structure.
 -->
+

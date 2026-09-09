@@ -1,0 +1,5 @@
+Publish ready: no
+Local editorial gates: blocked
+Published in Supabase: yes
+- grade_unstable:0.9_delta
+- already_published

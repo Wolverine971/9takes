@@ -1,0 +1,17 @@
+## Grading Complete — Adéla
+
+| Blog  | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+| ----- | ---- | ---- | ---- | ----- | ------- | ---- | ------- | ----- |
+| Adéla | 7.5  | 7.5  | 8.0  | 7.5   | 7.5     | 7.0  | 7.6     | C     |
+
+(Overall = weighted per formula; no discoverability gate triggered — 8.0 clears the ≥7 floor.)
+
+### Key observations
+
+- **Clean sourcing, no gate hits.** `blog-source-audit.mjs` found all 3 load-bearing quotes inline/tagged/dated — the piece explicitly avoided the untagged-quote trap that capped Nick-Offerman's Evidence at 6. Same-type-similarity scan came back clear (max 0.095, all boilerplate diagnosis-sentence overlap, no trip).
+- **Real signature detail** (the Google Doc as identity-recovery artifact) and a well-quarantined rabbit hole — 0 type-theory bleed into the body, confirmed by direct re-read.
+- **The gap to B/B+ is hedging, not sourcing.** The piece names Enneagram mechanics ("the heart-center concern is value") rather than dramatizing them the way the Alex Warren (B+) and Naval Ravikant (B) anchors do, and systemic hedges ("appears," "may," "could," "remains uncertain") blunt both the thesis and the FAQ's AI-extractability. Full reasoning, quotes, and a 4-point path to B are in the sidecar.
+
+Frontmatter `content_quality` added and `docs/content-analysis/grades/Adela.review.md` written (replacing the deleted prior sidecar). No legacy in-body `QUALITY GRADE` comment was present to strip.
+
+**Total graded this session: 1**

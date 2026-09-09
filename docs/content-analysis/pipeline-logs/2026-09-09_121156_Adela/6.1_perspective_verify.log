@@ -1,0 +1,8 @@
+Verification complete.
+
+- **Output path:** `docs/content-analysis/perspective-reviews/Adela/2026-09-09_121156/verification-initial.md`
+- **Verification status:** pass
+- **Open P0 count:** 0
+- **Protected-hit regressions:** 0
+
+Both P0 repairs (the feet-stretching passage's inverted framing, and the Manon/Emily close's implied resolution) checked out against the primary transcript and the synthesis's minimum-repair guidance. All ten accepted P1s reached a terminal state — nine completed, one (P1-03) legitimately rejected-with-reason by root after an independent source audit caught an unsupported chronology claim in the CLI editor's attempt, which doesn't fail the gate. All nine protected hits are intact. No new unsourced factual claims were introduced. Two minor non-blocking observations are noted in "Remaining work" for a future pass.

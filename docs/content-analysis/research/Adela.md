@@ -2,195 +2,192 @@
 
 # Adéla research packet
 
-Subject: Adéla Jergová, professionally styled ADÉLA  
-Prepared: 2026-08-12  
-Purpose: evidence baseline for a new 9takes personality-analysis draft
+Subject: Adéla Jergová, professionally ADÉLA, the Slovak singer-songwriter and dancer. This is not Adele.
+Original packet: 2026-08-12. Refreshed and source-audited: 2026-09-09.
+Purpose: durable evidence for the existing `/personality-analysis/adela` article. Psychological readings are editorial hypotheses about a selected public record, not established private facts.
 
-## Identity and scope
+## Refresh records
 
-- Slovak singer, songwriter, dancer, and former _Dream Academy_ trainee, born November 27, 2003, in Bratislava.
-- This packet distinguishes Adéla from Adele. The canonical draft slug should be `Adela` so the URL is ASCII-safe while the reader-visible name keeps the accent.
-- The Enneagram call below is an editorial hypothesis based only on public behavior and statements. It is not a clinical assessment or a claim about her private self.
+- [Independent current-source research](Adela-2026-09-09-independent.md): current interviews, release/tour verification, named testimony, contrasting criticism, and alternative type explanations.
+- [Independent legacy audit](Adela-2026-09-09-legacy-audit.md): source attribution, chronology, documentary context, and overreach in the August draft.
+- [Independent checks during pipeline editing](Adela-2026-09-09-editor-source-audit.md): newly surfaced indie-rock interview, chronological limits, and corrections to the pipeline's evidence packet.
+- Initial run and live baseline: `docs/content-analysis/pipeline-logs/2026-09-09_113022_Adela/`.
+- Original draft body: 2,483 words. Original August quality score is invalidated by this refresh; no score is implied by this research packet.
+- Local and live publication state was checked on September 9: published, `lastmod: 2026-08-14`. Local production remains draft/unreviewed/not ready. Do not change these fields as a research or writing action.
 
-## Central contradiction
+## Central question and limits
 
-**A performer who says fame is a separate character, yet uses work as the place where attention, energy, and self-belief become real.**
+**When work supplies attention and a sense of direction, what happens when success also asks her to repeat a version of herself she has outgrown?**
 
-Adéla repeatedly separates the private daughter and sister from the public artist. She also says she gets attention from work, gains energy by working hard and doing well, and may never recognize the point at which she has achieved enough. The public character is a boundary, but it is also a scoreboard.
+The recurring evidence concerns her emotional investment in doing the job well, recovering identity through a solo project, and worrying about audience expectations after an initial success. The later evidence also resists a tidy achievement-only explanation: she needs help with schedules, increasingly invites collaborators, defends personal taste, and says the new album had no overarching manifesto.
 
-## Timeline
+The grade-driven revision sharpens this into a sourced distinction: she wants a supplied schedule and creative direction she can call her own. Coco supports the first; PAPER supports the second. This is an editorial thesis, not a claim that she controls attention or that rejecting pop was psychologically necessary. The source audit also rejects invented pain, commands, or thoughts in a childhood scene.
 
-- **2003:** Born in Bratislava, Slovakia.
-- **c. 2006:** Began ballet in Moscow at age three. She later described asking her father to put his body weight on her feet during nightly flexibility work.
-- **c. 2008:** Watching _Hannah Montana_ gave her an early model of the American pop-star career she wanted.
-- **c. 2011:** Began teaching herself English from American television and YouTube, partly because she believed an American-sounding voice would move her closer to that career.
-- **Age 14:** Moved to Vienna for the Vienna State Opera Ballet Academy.
-- **Age 15:** Moved to London after auditioning for the English National Ballet School.
-- **2022:** Moved to Los Angeles for HYBE x Geffen training and development.
-- **September 2023:** Eliminated after the first _Dream Academy_ mission when she placed last in public voting. The Netflix documentary later showed the staff had rated her professionalism and work highly.
-- **2023-2024:** Stayed in Los Angeles, completed a GED, attended college, took writing sessions, and developed a solo identity. A visit to her childhood bedroom in Slovakia prompted a written ADÉLA mission statement and a return to pop after an indie-rock detour.
-- **September 2024:** Independently released “Homewrecked,” timing the release to the attention around _Pop Star Academy: KATSEYE_.
-- **October 2024:** Released “Superscar.”
-- **February 2025:** Released the Grimes co-produced “MachineGirl.”
-- **May 2025:** Signed with Capitol Records and Polydor.
-- **August 22, 2025:** Released debut EP _The Provocateur_.
-- **2026:** Opened for Demi Lovato, released “KGB,” “Red Bottoms,” and “Ain’t In LA,” and performed at Lollapalooza Chicago.
-- **September 4, 2026:** Debut album _PRIMA_ is scheduled for release via Capitol. The title links “first” with prima ballerina, the top-ranked dancer in a company.
+Keep the Google Doc and the ballet detail. Their force depends on what Adéla says they meant to her; neither professional planning nor hard work independently proves Type 3. The staged ADÉLA character is an amplified performance identity. It is not evidence of deceit, an empty private self, or inability to feel that praise belongs to her. Her own account of solo attention feeling personal must remain available as contrary evidence.
 
-## Signature details
+## Timeline: event dates versus publication dates
 
-1. **The childhood list:** she wrote a detailed plan that included fluent English, Los Angeles, Disney headquarters, and meeting Miley Cyrus. She hid the scale of the plan because she knew how implausible it sounded.
-2. **The American accent as a project:** she used dubbed television, YouTube, and interviews to teach herself English without a Slovak accent. This began years before an American opportunity existed.
-3. **Her father pressing her feet:** as a child ballerina, she asked her father to place his weight on her feet for roughly 40 minutes at night to improve her lines.
-4. **The mission-statement Google Doc:** after an institution had spent almost two years shaping her for a group, she rebuilt a solo identity through a document covering colors, textures, sounds, images, references, and purpose.
-5. **Rhinestones at 3 a.m.:** while enrolled in college full-time, she and Emily Kelavos rhinestoned gloves the night before a self-funded shoot while assignments were due the next day.
-6. **Rest converted back into output:** in 2026 she said downtime matters because thoughts and feelings need space to arrive, then admitted she values rest partly because it produces more work.
-7. **Home as an anti-fame room:** she describes returning to Slovakia, speaking Slovak, and becoming someone’s daughter and little sister around relatives who are unimpressed by the career character.
-8. **The album title as a ranking:** _PRIMA_ means first and evokes the top ballerina. She describes the record as her first step toward becoming “the prima ballerina of pop.”
+| Event | Evidence and precision |
+| --- | --- |
+| Born November 27, 2003, Bratislava | Existing identity metadata, consistent with current personal Wikipedia biography; use primary interviews for psychological evidence. |
+| Childhood ballet, later Vienna and London training | Coco Mocoe interview and 2025 profiles. Avoid turning a remembered painful stretch into a verified injury or a universal lesson about her family. |
+| Self-taught English and a childhood list of American goals | The Line of Best Fit, June 30, 2025. The secret list was incorrectly attributed to Coco Mocoe in the old draft. |
+| HYBE x Geffen training beginning in 2022; opening-mission elimination in September 2023 | Vogue, August 23, 2025, directly supports the 2022 relocation; Teen Vogue, October 14, 2024, and documentary episode transcripts support the competition account. She was one of the first eliminated pair, after the lowest first public vote. Avoid inconsistent approximate durations when dates suffice. |
+| Identity exploration, college, independent songs, a later return home and solo manifesto | Teen Vogue 2024, The Line of Best Fit 2025, Vogue 2025. The bedroom visit followed a period of exploration; do not stage it immediately after elimination. |
+| “Homewrecked” independent debut, September 2024 | Teen Vogue 2024. The 2024 documentary release gave her a launch deadline; the competition itself was in 2023. |
+| Coco Mocoe conversation | Recorded November 2024; original episode published February 16, 2025. The local transcript preserves upload metadata. A later 2026 reissue is not a new conversation. |
+| The Provocateur EP, August 22, 2025 | [Apple Music release listing](https://music.apple.com/us/album/the-provocateur/1832914844), independently checked September 9. Vogue is dated August 23 and says "released today," so it is not the exact-date authority. |
+| PRIMA creative process, discussed during 2026 | PAPER May 18, Vogue CS August 24, V September 8. V was published in September but recorded before Lollapalooza; do not call it a post-release reaction. |
+| PRIMA released September 4, 2026, Capitol, 11 tracks | Universal Music Canada September 4 release announcement; Blake Slatkin and Dylan Brady co-executive produced. |
+| September 9, 2026, Detroit | Announced opening of the Red Bottoms Tour's North American leg at Saint Andrew's Hall. The ticket page confirms scheduled doors; it does not prove the concert has happened. Earlier headline shows and a London tour date preclude “first-ever headline show.” |
 
-## First-person evidence
+## Source register
 
-Short quotations are kept separate from interpretation. Longer passages should be reopened at the cited source before publication.
+Tiers describe what a source can substantiate, not a blanket credibility ranking. Interviews are first-person accounts, edited and retrospective; named witnesses are attributable outside testimony; label announcements are strong for their own release plans but promotional about success; reviews establish criticism, not private motivation.
 
-| Evidence                                                               | Source                                                                                                                                  |
-| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| “I want to be huge.”                                                   | Harper’s Bazaar, 2025: https://www.harpersbazaar.com/culture/art-books-music/a68281421/adela-music-interview-provocateur-ep-first-tour/ |
-| “I’m not going to let myself not do well.”                             | PAPER, 2025: https://www.papermag.com/adela-jergova                                                                                     |
-| “It was the worst year of my life.”                                    | The Line of Best Fit, 2025: https://www.thelineofbestfit.com/features/interviews/adela-writing-destiny-her-own-terms                    |
-| “I didn’t know who the fuck I was.”                                    | PAPER, 2025: https://www.papermag.com/adela-jergova                                                                                     |
-| “I get mine from work.”                                                | Interview Magazine, 2026: https://www.interviewmagazine.com/music/adela-is-an-open-book-just-ask-her-therapist                          |
-| “Working very hard and subsequently doing well at my job.”             | Interview Magazine, 2026: https://www.interviewmagazine.com/music/adela-is-an-open-book-just-ask-her-therapist                          |
-| “Maybe it’s not going to come.”                                        | PAPER, 2026: https://www.papermag.com/adela-new-album                                                                                   |
-| “I have a long way to go.”                                             | PAPER, 2026: https://www.papermag.com/adela-new-album                                                                                   |
-| “My ‘now’ is defined by ambition.”                                     | Harper’s Bazaar, 2026: https://www.harpersbazaar.com/culture/art-books-music/a70884094/adela-debut-album-interview-2026/                |
-| “This doesn’t matter because it’s not real life.”                      | NOTION video, 2025: https://www.youtube.com/watch?v=ITJaq1MWU_A                                                                         |
-| “I think I’m about to be big.”                                         | NOTION video, 2025: https://www.youtube.com/watch?v=ITJaq1MWU_A                                                                         |
-| “I’ll work myself to the bone.”                                        | Coco Mocoe interview, 2024: https://www.youtube.com/watch?v=VDhjDJybhsM                                                                 |
-| “I’ve always pushed people’s buttons and enjoyed doing so.”            | The FADER, 2025: https://www.thefader.com/2025/08/25/adela-pop-star-academy-grimes-sex-interview                                        |
-| “Humor is how I deal with shitty things.”                              | Vogue, 2025: https://www.vogue.com/article/adela-the-provocateur-ep-interview                                                           |
-| “I was heartbroken ... but I wasn’t shattered to my core.”             | Teen Vogue, 2024: https://www.teenvogue.com/story/adela-jergova-pop-star-academy-katseye-drama-going-solo-interview                     |
-| “There are always doubts in your brain.”                               | Teen Vogue, 2024: https://www.teenvogue.com/story/adela-jergova-pop-star-academy-katseye-drama-going-solo-interview                     |
-| “I always felt like my Slovak-ness was something that made me lesser.” | Vogue, 2025: https://www.vogue.com/article/adela-the-provocateur-ep-interview                                                           |
-| “I want this album to sound exactly like a 22-year-old girl.”          | The FADER, 2026: https://www.thefader.com/2026/07/23/adela-album-announcement-prima-release-date-album-art-details                      |
+### S01 — The Line of Best Fit, June 30, 2025
 
-## Named third-party testimony
+[ADÉLA is writing destiny on her own terms](https://www.thelineofbestfit.com/features/interviews/adela-writing-destiny-her-own-terms), Sam Franzini. Tier: first-person interview. Events: childhood and 2023–25 recovery.
 
-These are independently attributable statements by people other than Adéla and can support the creator pipeline’s testimony gate.
+Supports the private childhood list, rejection and identity uncertainty, experimentation, and the written mission statement. Attribute the link between the document and recovering identity to her. It does not prove that every subsequent career decision followed a fixed plan or that identity depended exclusively on work.
 
-1. **Missy Paramo, HYBE x Geffen T&D project manager:** “Adéla brings a level of professionalism that we don’t have in anyone else.” Source: _Pop Star Academy: KATSEYE_, episode 1 transcript, 2024: https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e01&tv-show=pop-star-academy-katseye-2024
-2. **Grimes, collaborator:** “Adéla is so talented, and a friend.” She also called her a “future reigning popstar.” Source: Grimes post reported by Stereogum, February 28, 2025: https://stereogum.com/2298068/grimes-shares-previously-unreleased-demos-i-dont-give-a-fuck-im-insane-the-fool/music
-3. **Chris Horan, stylist and creative collaborator:** “I watched the Netflix show and immediately was like, ‘This girl is such a star.’” Source: Vogue, August 23, 2025: https://www.vogue.com/article/adela-the-provocateur-ep-interview
-4. **Chris Horan:** “She is so clear in her vision of what she is creating.” Source: Vogue, August 23, 2025: https://www.vogue.com/article/adela-the-provocateur-ep-interview
-5. **Nadia Hallgren, documentary director, on Adéla comforting Emily after the final lineup:** “The way they hug at the end, I even have chills now.” Source: TIME, August 23, 2024: https://time.com/7014036/pop-star-academy-katseye-explained-netflix/
+### S02 — Vogue, August 23, 2025
 
-## Accomplishments and positive contributions
+[Adéla Was Born to Be a Pop Star](https://www.vogue.com/article/adela-the-provocateur-ep-interview), Liam Hess. Tier: first-person profile plus named collaborator testimony. Events: pre-debut work, later childhood-bedroom visit, 2025 collaboration.
 
-- Sustained elite ballet training across Moscow, Vienna, London, and Los Angeles from early childhood.
-- Helped other trainees with choreography and emotional steadiness even while competing against them.
-- Built the opening chapter of a solo career independently, including writing, vocal production, visual direction, distribution, social promotion, and self-funded videos.
-- Turned a low public vote and early elimination into a distinct artistic identity instead of merely re-auditioning for another group.
-- Maintained friendships with several KATSEYE members and publicly supported their career after the competition.
-- Used “MachineGirl” and _The Provocateur_ to critique how entertainment systems turn young women into audience targets.
-- Moved from club-sized headline dates to a major-label deal, a Demi Lovato opening slot, and Lollapalooza in roughly two years.
+Supports the bedroom imagery, late-night rhinestoning with Emily Kelavos, discomfort about her Slovak origins, and Chris Horan's account of her specific creative vision. Horan's direct quote is a qualifying outside voice. His work relationship is relevant context; he does not independently confirm an Enneagram motivation. Do not fuse the bedroom scene with an immediate post-elimination return.
 
-## Failures, controversy, and counterevidence
+### S03 — Coco Mocoe, February 16, 2025 release
 
-- **Dream Academy elimination:** despite strong internal scores and staff praise, she placed last in public voting. The project later said it saw her as a solo artist.
-- **Manon criticism:** viewers read her comments about Manon’s attendance and popularity as bitterness or a “mean girl” attack. The best skeptical reading is that Adéla’s work-based fairness standard made her dismiss context she did not possess.
-- **Post-show framing:** she has sometimes answered criticism with a combative persona that can turn a valid grievance into promotional fuel. Her art knowingly amplifies the most confrontational slice of her feelings.
-- **Grimes collaboration:** the association generated criticism because of Grimes’s controversies. The collaboration still matters as third-party validation and an early creative partnership.
-- **Type counterevidence:** her insistence on authenticity, attraction to discomfort, outsider identity, emotional sensitivity, and rejection of broad approval support a Type 4 reading. Her bluntness and control needs can also resemble Type 8.
+[Adéla Wants to be Polarizing](https://www.youtube.com/watch?v=VDhjDJybhsM). Tier: first-person video interview; local timestamped transcript at `youtube-transcripts-people/adela-coco-mocoe-interview.md`. Event: November 2024 recording.
 
-## Public/private gap
+Around 20:15–20:47, she describes asking her father to press her feet during ballet stretching. Around 39:30–41:04, she describes poor time management, the usefulness of lists, and preference for a supplied schedule. Keep that counterevidence beside claims about discipline. The transcript has not been independently retranscribed in this refresh. No literal broken-bone claim is warranted.
 
-- Public: sexually confrontational, blunt, highly controlled, “provocateur,” willing to be hated.
-- Private: says she is sensitive and emotional, gets secrets out through therapy and open conversation, shuts down by having dinner with her boyfriend, stays close with family, and lets home reduce her to daughter and sister.
-- The separation is intentional. She describes ADÉLA as a character distinct from family life, yet her best material comes from experiences the character was built to carry.
+The subject-perspective reviewer and independent source audit checked the surrounding account: she presents the requested correction with pride as part of becoming tough. Preserve her own framing rather than assigning her an unstated wound or distressed memory. Reader discomfort can be acknowledged as the reader's response.
 
-## Crisis response
+### S04 — Teen Vogue, October 14, 2024
 
-The key crisis is the year after _Dream Academy_. She had left school, been shaped for a group, lost the outcome to a public vote, and no longer knew how to translate the training into a solo self. Her response was sequential:
+[Adéla Jergová on Pop Star Academy, Drama, and Going Solo](https://www.teenvogue.com/story/adela-jergova-pop-star-academy-katseye-drama-going-solo-interview), Sara Delgado. Tier: first-person interview/reporting. Events: 2022–24.
 
-1. stayed in Los Angeles rather than retreating permanently to Slovakia;
-2. completed her GED and entered college;
-3. attended writing sessions without a public profile to trade on;
-4. tested an indie-rock identity and discarded it;
-5. wrote a detailed solo mission statement;
-6. used the delayed Netflix release as a deadline for an independent debut.
+Supports her account of rejection without destroyed confidence, reservations about the program before elimination, changed selection expectations, and the solo launch. The 2023 competition and the 2024 documentary must remain distinct. Her account of the program is attributable, not a comprehensive adjudication of every trainee's conduct.
 
-This is the strongest Type 3 evidence because pain became a work plan before it became a settled feeling.
+### S05 — Pop Star Academy: KATSEYE, 2024
 
-## Internal Enneagram lens brief
+[Episode 1 transcript](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e01&tv-show=pop-star-academy-katseye-2024), [episode 4](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e04&tv-show=pop-star-academy-katseye-2024), [episode 5](https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e05&tv-show=pop-star-academy-katseye-2024). Tier: third-party episode transcription of edited documentary footage. Events: training and competition in 2022–23.
 
-Internal posts read:
+The professionalism quotation exists, but the transcript lacks speaker labels. The old packet's attribution to Missy Paramo is not independently established by this text alone; avoid counting it as verified named testimony without audiovisual confirmation. Later episodes establish the late disclosure of the survival-show format and real staff concerns about attendance. Fair criticism can address reducing another trainee's audience appeal to appearance; the old draft overclaimed what Adéla knew and ignored.
 
-- `src/blog/enneagram/first-impression-cheat-sheet.md`
-- `src/blog/enneagram/enneagram-childhood-stereotypes.md`
-- `src/blog/enneagram/situations-change-emotions-dont.md`
-- Type 3 reference checked in `src/blog/enneagram/enneagram-type-3.md`
+**Attribution resolved for the Manon comments:** [Sheldon Pearce's NPR reporting, syndicated by Georgia Public Broadcasting, April 27, 2026](https://www.gpb.org/news/2026/04/27/young-pop-stars-are-burning-out-and-singing-through-it), directly names Adéla as the speaker of both the effort/attendance criticism and the appearance-based explanation. This supports attribution without relying solely on an unlabelled transcript. It does not establish whether her explanation of Manon's popularity was fair or complete. No fresh audiovisual verification is claimed.
 
-Working lenses:
+The 2023 voting audience had performance-focused public material, not months of the later documentary's behind-the-scenes footage. Teen Vogue's October 2024 interview explicitly distinguishes those viewing contexts; episode 5 begins with the trainees becoming public before the first vote. A pipeline editor introduced the contrary claim, which the independent source audit caught and root removed before verification. The documentary premiered August 21, 2024; August 23 is the TIME article's publication date, as confirmed by [the label's August 16 announcement](https://www.universalmusic.ca/2024/08/16/katseyes-debut-ep-sis-soft-is-strong-is-out-today/).
 
-- **Type 3 hypothesis:** visible goals, rankings, discipline, audience response, and career progress provide self-organization. Feelings become material after they can be converted into songs, character, or action.
-- **Type 4 counter-hypothesis:** the outsider experience, artistic singularity, and insistence on being fully herself may be primary rather than a wing influence.
-- **Type 8 counter-hypothesis:** bluntness, refusal to submit, and reclaiming power can look 8-ish, but her attention repeatedly returns to recognition, performance quality, professional proof, and being “big.”
-- **Stress lens:** Type 3’s movement toward Type 9 may appear in the lost, depressed, directionless year after elimination. Evidence is suggestive, not conclusive.
-- **Growth lens:** movement toward Type 6 may appear in loyalty to the trainees, collaboration, family grounding, and learning to trust a team after building the EP alone.
-- **Relationship lens:** she often frames care as mutual work and steadfast presence. Her strongest friendships formed through shared training and shared professional pressure.
+### S06 — TIME, August 23, 2024
 
-## Pre-write type challenge memo
+[How Pop Star Academy made KATSEYE](https://time.com/7014036/pop-star-academy-katseye-explained-netflix/). Tier: documentary-director interview. Event: final selection, recounted in 2024.
 
-1. **Strongest case for Type 3:** ambition appears before opportunity, work supplies attention and energy, she responds to rejection by building a new scoreboard, and her own next-goal language makes arrival nearly impossible.
-2. **Strongest case against Type 3:** she openly tolerates dislike and builds around personal taste, which resists the stereotype of a person who optimizes for approval. Her obsession may be artistic self-expression first.
-3. **Tiebreaker:** after calling the program identity-stripping, she regained identity by writing an entertainer mission statement and executing it against a release deadline. The self became legible again through a defined professional product.
-4. **Behavior the type does not explain:** her genuine moral and aesthetic interest in sexual expression, Eastern European identity, and women’s treatment in media. Those convictions have content beyond career utility.
-5. **Confidence:** high for Type 3 core, medium for 3w4, medium-low for instinctual subtype.
+Director Nadia Hallgren discusses the embrace between Adéla and Emily after the final lineup. Supports a specific instance of care within competition. It cannot establish her behavior in every friendship or prove a growth arrow.
 
-## Emotional thesis
+### S07 — PAPER, October 22, 2025
 
-- **Core fear in her vocabulary:** being the talented girl from a small country whose work can still be rendered irrelevant by nationality, an audience edit, or somebody else’s decision.
-- **Core desire in her vocabulary:** to become “big” on work she recognizes as hers, then know that the room is reacting to her vision rather than a molded version.
-- **Childhood message:** distance can be closed by training. English can be learned, feet can be stretched, a foreign industry can be studied, and an improbable life can be reduced to a list.
-- **Core tension:** self-expression vs. self-construction.
-- **Psychological question:** if the character succeeds exactly as planned, will the private person feel that the win belongs to her?
+[ADÉLA Talks Her Debut EP](https://www.papermag.com/adela-jergova). Tier: first-person interview. Events: retrospective recovery, solo work, family visits.
 
-## Candidate crystallizing lines
+Supports separating stage and home roles. Crucially, she describes solo attention as feeling hers because it comes from self-expression. The old article's repeated doubt about whether applause can belong to the private person cannot ignore this answer. Home grounding does not mean every relative is indifferent to her success.
 
-- Adéla escaped one machine by becoming the person who could design the next one.
-- Rejection took away the role; the mission statement gave her a measurable self again.
-- She says the public character is separate, then describes work as the place where attention and energy arrive.
-- The girl who learned English to sound American is now naming an album after the top rank in ballet.
+### S08 — Interview Magazine, April 29, 2026
 
-## Source ledger
+[Adéla Is an Open Book. Just Ask Her Therapist.](https://www.interviewmagazine.com/music/adela-is-an-open-book-just-ask-her-therapist). Tier: first-person questionnaire. Event: contemporaneous self-report.
 
-### Primary and first-person
+The brief work-attention answer is verified in context. She also names doing her job well as energizing and describes a comparatively relaxed private self. This is stronger evidence than aesthetics or stage bravado, but its stylized format and her stated lack of habitual comparison limit a totalizing rank-based interpretation.
 
-- Coco Mocoe interview, 2024 transcript: `youtube-transcripts-people/adela-coco-mocoe-interview.md`
-- NOTION video interview, 2025 transcript: `youtube-transcripts-people/adela-notion-interview.md`
-- Teen Vogue, October 14, 2024: https://www.teenvogue.com/story/adela-jergova-pop-star-academy-katseye-drama-going-solo-interview
-- The Line of Best Fit, June 30, 2025: https://www.thelineofbestfit.com/features/interviews/adela-writing-destiny-her-own-terms
-- Vogue, August 23, 2025: https://www.vogue.com/article/adela-the-provocateur-ep-interview
-- PAPER, October 22, 2025: https://www.papermag.com/adela-jergova
-- PAPER, May 18, 2026: https://www.papermag.com/adela-new-album
-- Harper’s Bazaar, April 8, 2026: https://www.harpersbazaar.com/culture/art-books-music/a70884094/adela-debut-album-interview-2026/
-- Interview Magazine, April 29, 2026: https://www.interviewmagazine.com/music/adela-is-an-open-book-just-ask-her-therapist
-- Vanity Fair, April 20, 2026: https://www.vanityfair.com/style/story/adela-kgb-interview
-- Album announcement, July 23, 2026: https://www.thefader.com/2026/07/23/adela-album-announcement-prima-release-date-album-art-details
+### S09 — PAPER, May 18, 2026
 
-### Reported and third-party
+[Coolest Person in the Room: Adéla](https://www.papermag.com/adela-new-album), Joan Summers. Tier: first-person interview. Event: PRIMA writing period.
 
-- _Pop Star Academy: KATSEYE_ episode transcripts, 2024: https://www.springfieldspringfield.co.uk/view_episode_scripts.php?episode=s01e01&tv-show=pop-star-academy-katseye-2024
-- TIME interview with director Nadia Hallgren, August 23, 2024: https://time.com/7014036/pop-star-academy-katseye-explained-netflix/
-- Stereogum report of Grimes’s endorsement, February 28, 2025: https://stereogum.com/2298068/grimes-shares-previously-unreleased-demos-i-dont-give-a-fuck-im-insane-the-fool/music
-- Official artist site: https://www.adelaxo.com/
+Supports the uncertainty about ever recognizing arrival, rest being valued partly for its effect on work, and a concrete shift toward asking specialists for help. Preserve her expressed pride and satisfaction alongside the moving finish line. Advice attributed to Slatkin, Brady, or Julia Michaels through Adéla remains her account, not their direct testimony.
 
-### Community perspective
+### S10 — Harper's Bazaar, April 8, 2026
 
-- Reddit criticism and debate around the Manon conflict were reviewed for the critic-pressure case. They are not used as factual authority.
+[Debut album interview](https://www.harpersbazaar.com/culture/art-books-music/a70884094/adela-debut-album-interview-2026/). Tier: first-person profile. Event: album preparation.
 
-## Research limitations and unresolved facts
+Supports the ambition epigraph. Promotional ambition is contextual evidence and must be read beside conduct, choices, and contrary statements. It cannot independently settle her type.
 
-- The MTV Push video exposed translated subtitle tracks but no English transcript through the repository script. The resulting metadata-only file is `youtube-transcripts-people/adela-mtv-push-interview.md`.
-- Exact family history behind “Homewrecked” should stay at the level Adéla has publicly described: childhood experience of family infidelity and hurt. Do not infer identities or private wrongdoing.
-- The instinctual subtype call is uncertain. Public material favors social ambition and sexual/one-to-one magnetism; private resource and attachment patterns are thin.
-- Her career is changing quickly. Recheck _PRIMA_ release status and post-release details after September 4, 2026.
+### S11 — Vanity Fair, April 20, 2026
+
+[KGB interview](https://www.vanityfair.com/style/story/adela-kgb-interview). Tier: first-person interview. Event: single campaign.
+
+Supports her description of the song as a character-building introduction, with immigration, work, ballet, humor, and origins in its conception. The song's historical references and persona are not a reliable general history of Slovakia or literal evidence of private conduct.
+
+### S12 — Teen Vogue, August 12, 2026
+
+[Adéla Ascending](https://www.teenvogue.com/story/adela-prima-cover-interview), Amalie MacGowan. Tier: first-person cover profile. Event: pre-release conversation.
+
+Supports her explicit limit on what strangers know about her private relationships and her account of learning patience and compassion. Use this as a boundary on the article's claims, not a diagnosis. The profile also contains historical shorthand about the USSR; do not repeat that shorthand as verified geopolitical history.
+
+### S13 — Vogue CS, August 24, 2026
+
+[September cover interview, official English edition](https://www.vogue.cz/clanek/vogue-cs-in-english/tereza-patockova/the-baddest-bitches-ain-t-in-la-they-re-in-vogue-cover-star-of-the-september-issue-adela-by-michal-pudelka), Tereza Patočková. Tier: edited first-person interview in English translation. Event: album-writing reflections.
+
+Supports an intentionally varied album without a grand manifesto plan, solitary idea generation followed by collaborative development, and tolerating bad work while creating. These are meaningful qualifications of the earlier blueprint story. Cultural directness and convictions about queer Slovaks have explanatory weight beyond branding or an Enneagram label.
+
+### S14 — W Magazine, September 1, 2026
+
+[Adéla Is Building Her Own American Dream](https://www.wmagazine.com/wyouth/adela-prima-album-interview-katseye-nicole-kidman), Claire Valentine McCartney. Tier: first-person profile. Event: pre-release interview and music-video production.
+
+Supports the mother's poster-wall story, the family appearing in “Ain't in LA,” and her mother's active enthusiasm for Adéla's work. This extends the childhood-wall motif while contradicting categorical claims that family is unimpressed. The song values where people come from; she still lives in and likes Los Angeles.
+
+### S15 — V Magazine, September 8, 2026
+
+[Adela Checks In](https://vmagazine.com/article/adela-checks-in/), Rachel Sennott conversation, text by Elyssa Goodman. Tier: first-person interview and named close-witness testimony. Event: recorded before Lollapalooza, not after PRIMA's release.
+
+Supports Sennott's title credit; Adéla's initial fear about audience reception; her account of defending “Ain't in LA”; and direct Sennott observations of studio work and live audiences. The personal-taste decision is serious counterevidence to an approval-only theory. Sennott is a friend and early listener. One apparent speaker-label error makes the collaborator-vision question unsuitable as independently attributed testimony. Use correctly labeled direct remarks instead.
+
+### S16 — Universal Music Canada, September 4, 2026
+
+[ADÉLA releases debut album PRIMA](https://www.universalmusic.ca/2026/09/04/adela-releases-debut-album-prima/). Tier: official label announcement. Event: same-day release, announced tour itinerary.
+
+Reliable for the release, label, producers, track list, and announced dates. Its sellout statement must be attributed; promotional superlatives, chart peaks, and illness context are not independently established here. Do not reproduce its inaccurate first-ever-headline-tour shorthand.
+
+[Ticketmaster Detroit event](https://www.ticketmaster.com/adela-the-red-bottoms-tour-detroit-michigan-09-09-2026/event/080064B4A1775F26): primary listing, accessed September 9, confirms the scheduled September 9 opening of the North American leg. It does not confirm completed performance or independently establish a whole-tour sellout.
+
+### S17 — Independent PRIMA criticism
+
+- [Slant, Dylan Bedsaul, September 3, 2026](https://www.slantmagazine.com/music/adela-prima-album-review/): values humor and storytelling while observing familiar pop references.
+- [The Guardian, Alexis Petridis, September 3, 2026](https://www.theguardian.com/music/2026/sep/03/adela-prima-review-polydor): favorable review of the songwriting and industry commentary.
+- [Rolling Stone AU/NZ, Larisha Paul, September 5, 2026](https://au.rollingstone.com/music/music-album-reviews/adela-prima-album-review-100689/): favorable critical reading, including family distance in “Therapy.”
+- [Pitchfork, Walden Green, September 9, 2026](https://pitchfork.com/reviews/albums/adela-prima/): questions whether the songs consistently deliver on the persona and origin story. Its career-insecurity explanation is the critic's interpretation.
+
+These are reviews of artistic work. Attribute the judgments and avoid presenting either praise or criticism as a finding about her personality. Do not quote lyrics, infer family facts from them, or use a numeric review score that was not verified on the primary page.
+
+### S18 — Rolling Stone / Yahoo syndication, October 31, 2025
+
+[Adéla Got Rejected From Katseye. Now She's Pop's Next Obsession](https://www.yahoo.com/entertainment/music/articles/ad-la-got-rejected-katseye-194947589.html), Tomás Mier. Tier: first-person interview, syndicated by Yahoo. Event: retrospective discussion of post-elimination experimentation, before the September 2024 debut; October 2025 dates the interview, not that phase.
+
+Supports her indie-rock/emo detour and her later negative assessment of the music. The fan reviewer fetched the syndication during this run; a separate source reviewer confirmed its indexed text, author, and date while direct access later returned 429/402. PAPER's October 22, 2025 interview independently supports the experimentation, home visit, document creation, and subsequent solo debut. Do not claim a released or definitively unreleased indie-rock project, an exact duration, or a pre-existing Google Doc she resumed. Keep separate quote fragments visibly separate.
+
+## Type challenge
+
+**Type 3 remains the lead hypothesis.** Repeated work-attention language, recovery through a self-authored project, and uncertainty about recognizing achievement are the strongest supports. A desire for fame or technical competence alone is insufficient.
+
+**Type 4 is a serious alternative.** She protects aesthetic authorship and origins, welcomes unflattering or unpopular material, and resists being trapped in a successful first persona. Avoid the unfalsifiable move of calling approval-seeking and rejecting approval equally decisive proof of 3. Her public account can support both motives.
+
+**Type 1:** ballet correction and fairness are compatible with conscientiousness. Evidence is thin on moral rightness organizing her life independently of achievement. **Type 8:** directness and autonomy matter, but performance aggression and cultural candor are competing explanations. Neither alternative should be dismissed with a stock surface/depth formula.
+
+Wing 4 is plausible, not confirmed. No firm instinctual stacking is warranted. Her public creative relationships do not establish a private social-first instinct. The stress period does not prove a 3-to-9 pattern or a mental-health diagnosis. Later collaboration can be discussed as a provisional illustration of trust, with ordinary professional necessity preserved as an explanation.
+
+## Refresh triage and protected strengths
+
+**Cut first:** repeated scoreboard explanations; invented apartment interior; overcertain shame and parental-role claims; incomplete survival-show framing; stale future tense; the suggestion that Sennott's title originated with Adéla; the unresolved-applause question where her own account already answers it.
+
+**T1 additions/corrections:** a changed collaborative process; personal taste versus reception fears; private-self boundaries; family imagery and distance; correctly attributed competing reviews. **T2:** release/date/tour status in a concise clause. **T3 rejected:** track-by-track recap, unverified chart peaks, full itineraries, marketing superlatives, unrelated controversies.
+
+Protect the later childhood-bedroom/Google Doc opening, source-corrected childhood list, the feet-stretching memory, homemade gloves, work-attention quote, and a fair criticism-to-understanding turn. Each must do different argumentative work.
+
+## Open limits and publication controls
+
+- No self-confirmed Enneagram type found. This is an interpretation of edited public evidence.
+- No independently re-transcribed video in this refresh; use timestamped local records with that limitation.
+- MTV transcript at `youtube-transcripts-people/adela-mtv-push-interview.md` is metadata-only and excluded from quote evidence. The NOTION transcript remains historical context, not necessary load-bearing evidence.
+- Direct witness testimony and producer advice relayed by Adéla must not be counted interchangeably.
+- No new private allegations inferred from lyrics, family stories, fan threads, or stage characters.
+- GSC exports predate this page's publication; 28-day performance predictions are unavailable rather than zero.
+- Final grades, perspective binding, human review, and database sync are separate from this evidence packet. A failed pipeline process reaching its end is not proof of passing quality gates.

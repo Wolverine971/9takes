@@ -1,0 +1,29 @@
+Confirmed: `production_pretext` mismatch is pre-existing (unrelated to this refresh), `content_quality` block was correctly cleared per Step 6, and the deleted `grades/Adela.review.md` was the stale prior grade — its removal is exactly what "clear the content_quality block" invalidates. Everything checks out. Here's the refresh report:
+
+## Adéla refresh — verification complete, not shipped
+
+**Word count:** 2,483 → 2,321 words (174 cut), well under the 4,500 ceiling and at/near the original baseline per the entity-gap packet's instruction not to exceed it.
+
+**Tier triage** (from the ledger already written into the draft):
+- **Admitted (T1, prose):** PAPER May 2026 (control shift), V Sept 8 (single-choice-before-approval, Sennott testimony, title credit — the strongest complication of the Type 3 read), PAPER Oct 2025 (corrects an inherited "solo applause feels alien" implication), W Sept 1 + Rolling Stone Sept 5 (cost of family distance), Guardian/Pitchfork reviews (tests artistic distinction rather than assuming triumph), Coco scheduling correction (fixes a prior factual error about the vote reveal).
+- **Admitted (T2, clause only):** PRIMA release + tour opening folded into the existing PRIMA section.
+- **Rejected (T3):** chart positions, promo superlatives, celebrity cameos, full tour itinerary — none of it revealed anything about who she is.
+- **Cut for sourcing/legal reasons:** literal lyric-based family/medical claims, an unverified claimed concert completion, a mislabeled V collaborator question, an unverified Pitchfork numerical rating, and an unsupported speaker attribution to "Missy Paramo." Also cut: an invented apartment-interior scene and several repeated proof/rank metaphors that were padding, not evidence.
+
+**Type read impact:** Not a rubber-stamp confirmation. Core Type 3 stands, but Type 4 now carries a substantive alternative case (protecting artistic identity over approval) rather than being a token mention — that's the honest complication this refresh surfaced.
+
+**Verification results:**
+- `blog-lint.sh`: **0 fail, 1 warn** — the warn (`published: true` vs `production_pretext.status: draft` disagreement) is pre-existing in the last committed version, not introduced by this refresh.
+- `blog-quality-report.mjs`: PASS — head-term ok, 0 contrast-pair issues, no corpus-count drift.
+- `blog-source-audit.mjs --fail-on-untagged-load-bearing`: 3/3 load-bearing quotes inline-tagged, 0 untagged, 0 vague.
+- `personBlogParser.js` dry run: **lastmod untouched** (still `2026-08-14`), protected fields (`date`, `loc`, `lastmod`, `published`, `enneagram`, `type`, `person`) all preserved.
+
+**Dry-run shipping token** (for when a human approves):
+```
+Expected live content hash: 5c7476c1c3b84f293cb396cdcc3614f7
+Local parsed content hash:  d504b994fe72169d5ca430c41706a7ec
+Approval token: --approve-fields=description,content,faqs,citations
+```
+One blocker the dry run surfaced: the parser's perspective gate refuses this update as-is — `perspective_review_stale: reader-visible draft changed after verification` — because content/faqs/description changed after the last perspective-review run. Shipping needs either a fresh perspective verification pass or an explicit `--skip-perspective-gate` reason; neither is something I should decide.
+
+**Nothing has been written to the live DB.** This is report-only — a human approves the push.

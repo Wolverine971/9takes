@@ -1,0 +1,16 @@
+{
+  "filesAudited": 1,
+  "audits": [
+    {
+      "relativePath": "src/blog/people/drafts/Adela.md",
+      "slug": "adela",
+      "score": 0,
+      "wordCount": 3065,
+      "internalLinks": 4,
+      "peopleLinks": 2,
+      "faqCount": 4,
+      "qualityOverall": 8.5,
+      "issues": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": 1122,
+  "person": "adela",
+  "date": "2026-08-14",
+  "lastmod": "2026-08-14",
+  "published": true,
+  "published_at": "2026-08-14T04:01:09.865+00:00",
+  "type": [
+    "musician",
+    "dancer"
+  ],
+  "content_quality": {
+    "hook": 8.5,
+    "anchor": "Matt-Smith draft (2026-06-28)",
+    "letter": "B+",
+    "overall": 8.8,
+    "writing": 8.7,
+    "evidence": 8.5,
+    "enneagram": 8.8,
+    "graded_at": "2026-08-12",
+    "confidence": "high",
+    "originality": 9,
+    "needs_review": false,
+    "first_overall": 8.8,
+    "rubric_version": 2,
+    "discoverability": 9,
+    "regrade_overall": 8.8,
+    "grade_stability_delta": 0
+  },
+  "faqs": [
+    {
+      "anchor": "what-is-adelas-personality-type",
+      "answer": "Adéla appears to be an Enneagram Type 3w4. Her childhood goals became trainable tasks, she rebuilt direction after Dream Academy with a solo mission statement, she says work supplies attention, and she named her debut album for the top rank in ballet. Type 4 remains the closest alternative because originality and outsider identity carry genuine weight in her art.",
+      "question": "What is Adéla's personality type?"
+    },
+    {
+      "anchor": "when-effort-lost-the-vote",
+      "answer": "Adéla trained in the HYBE x Geffen program for almost two years, earned unusually strong staff praise for her professionalism, then placed last in the first public vote and was eliminated after the opening mission. She stayed in Los Angeles, completed a GED, attended college, wrote songs, and used the documentary release as the deadline for an independent solo debut.",
+      "question": "What happened to Adéla on Dream Academy?"
+    },
+    {
+      "anchor": "prima-is-a-rank",
+      "answer": "PRIMA means first and refers to the prima ballerina, the highest-ranked dancer in a ballet company. For Adéla, who began ballet at three, the title connects her first album with her stated goal of becoming the prima ballerina of pop. The album is scheduled for September 4, 2026.",
+      "question": "Why is Adéla's debut album called PRIMA?"
+    },
+    {
+      "anchor": "why-adela-is-a-character",
+      "answer": "The public character lets Adéla enlarge personal material through provocation, humor, choreography, and styling while keeping family life in a different room. Her song KGB shows the method: immigration, work ethic, self-taught English, Slovak history, and ballet become a deliberately abrasive introduction.",
+      "question": "Why does Adéla treat ADÉLA as a character?"
+    }
+  ]
+}
