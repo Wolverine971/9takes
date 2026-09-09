@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — glen-powell (Type 3)
+/Users/djwayne/.codex/worktrees/df88/9takes/src/blog/people/drafts/Glen-Powell.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 14
+Comparison set (last 8 other Type-3 drafts by date):
+  - Jonathan-Bailey  (2026-09-01, 35 units)
+  - Tate-McRae  (2026-08-27, 34 units)
+  - margaret-qualley  (2026-08-20, 30 units)
+  - alexandr-wang  (2026-08-18, 30 units)
+  - adela  (2026-08-14, 20 units)
+  - michael-jordan  (2026-08-14, 46 units)
+  - David-Beckham  (2026-08-12, 36 units)
+  - Mel-Robbins  (2026-08-12, 32 units)
+
+Noise floor over 3682 unit pairs:  median=0  p90=0  p99=0.006  max=0.045
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.045 ##                   alexandr-wang
+  0.030 #                    Tate-McRae
+  0.030 #                    michael-jordan
+  0.029 #                    margaret-qualley
+  0.026 #                    adela
+  0.016 #                    Jonathan-Bailey
+  0.016 #                    David-Beckham
+  0.014 #                    Mel-Robbins
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.045   glen-powell  <->  alexandr-wang
+   TARGET [diagnosis] Plenty of actors work hard.
+   OTHER  [counter-typing] Plenty of people read him as a quiet systems thinker.
+
+score 0.035   glen-powell  <->  alexandr-wang
+   TARGET [diagnosis] Plenty of actors work hard.
+   OTHER  [diagnosis] and the Type 5 investigator who is the archetype of this industry has plenty of it.
+
+score 0.030   glen-powell  <->  Tate-McRae
+   TARGET [diagnosis] Our read is that Glen Powell fits Enneagram Type 3
+   OTHER  [diagnosis] Tate McRae is an Enneagram Type 3
+
+score 0.030   glen-powell  <->  michael-jordan
+   TARGET [diagnosis] Our read is that Glen Powell fits Enneagram Type 3
+   OTHER  [diagnosis] Michael Jordan is an Enneagram Type 3
+
+score 0.029   glen-powell  <->  margaret-qualley
+   TARGET [diagnosis] The tension is between those two kinds of success
+   OTHER  [diagnosis] and so it kind of doesn't matter." — Margaret Qualley
+
+score 0.026   glen-powell  <->  adela
+   TARGET [diagnosis] Plenty of actors work hard.
+   OTHER  [diagnosis] "I get mine from work." She described the energizing combination as working hard and doing her job well.
+
+score 0.022   glen-powell  <->  Tate-McRae
+   TARGET [diagnosis] Type 3 becomes useful here when it explains the pressure behind the effort.
+   OTHER  [diagnosis] What they need is the receipt showing the effort worked
+
+score 0.021   glen-powell  <->  margaret-qualley
+   TARGET [diagnosis] Our read is that Glen Powell fits Enneagram Type 3
+   OTHER  [diagnosis] is that there really isn't a right way to do something
+
+score 0.019   glen-powell  <->  margaret-qualley
+   TARGET [diagnosis] His career choices and accounts of self-doubt support that interpretation.
+   OTHER  [diagnosis] Her own account of why she left dance for acting says the rest.
+
+score 0.019   glen-powell  <->  margaret-qualley
+   TARGET [diagnosis] Type 3 becomes useful here when it explains the pressure behind the effort.
+   OTHER  [diagnosis] The 4 wing explains the filmography that keeps confusing people.
+
+score 0.017   glen-powell  <->  margaret-qualley
+   TARGET [diagnosis] His career choices and accounts of self-doubt support that interpretation.
+   OTHER  [counter-typing] If her account of quitting ballet were about the form erasing her rather than about placing
+
+score 0.016   glen-powell  <->  Jonathan-Bailey
+   TARGET [diagnosis] Our read is that Glen Powell fits Enneagram Type 3
+   OTHER  [counter-typing] The prevailing internet reading is 7w8
+
+------------------------------------------------------------------------------
+Top pair scores 0.045 vs median 0  (~∞x the noise floor).

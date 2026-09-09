@@ -1,0 +1,28 @@
+{
+  "draft": "Glen-Powell",
+  "contrast_pairs": {
+    "strong": 0,
+    "comparative": 0,
+    "total": 0,
+    "hits": {
+      "strong": [],
+      "comparative": []
+    }
+  },
+  "head_term": {
+    "meta_title": "Glen Powell Enneagram Type 3: The Work Behind the Charm",
+    "ok": true,
+    "exception": null,
+    "name_present": true
+  },
+  "answer_block": {
+    "found": true,
+    "words": 42,
+    "ok": true,
+    "preview": "Our read is that Glen Powell fits Enneagram Type 3, the Achiever: someone who can tie bein"
+  },
+  "corpus_count_drift": {
+    "corpus_total": 449,
+    "findings": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file": "/Users/djwayne/.codex/worktrees/df88/9takes/src/blog/people/drafts/Glen-Powell.md",
+  "person": "glen-powell",
+  "enneagram": "3",
+  "slots": {
+    "epigraph": {
+      "slot": "epigraph",
+      "hasQuotedMaterial": false,
+      "items": []
+    },
+    "coldOpen": {
+      "slot": "cold open",
+      "hasQuotedMaterial": true,
+      "items": [
+        {
+          "quote": "hope demand would follow,",
+          "classification": "inline",
+          "signals": {
+            "outlet": "Interview Magazine",
+            "year": "2024",
+            "venue": "interview"
+          }
+        }
+      ]
+    },
+    "diagnosis": {
+      "slot": "diagnosis",
+      "hasQuotedMaterial": false,
+      "items": []
+    },
+    "empathyTurn": {
+      "slot": "empathy turn",
+      "reframeSentence": null,
+      "hasQuotedMaterial": false,
+      "items": []
+    },
+    "close": {
+      "slot": "close",
+      "hasQuotedMaterial": true,
+      "items": [
+        {
+          "quote": "Life's a lot better when they're around,",
+          "classification": "vague",
+          "signals": {
+            "outlet": null,
+            "year": "2026",
+            "venue": "interview"
+          }
+        }
+      ]
+    }
+  },
+  "summary": {
+    "quotes_total": 2,
+    "inline": 1,
+    "vague": 1,
+    "untagged": 0,
+    "untagged_in_epigraph_or_cold_open": false,
+    "any_untagged_load_bearing_slot": false
+  }
+}

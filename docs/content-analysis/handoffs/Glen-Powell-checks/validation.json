@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-09-09T16:13:29.495Z",
+  "file": "src/blog/people/drafts/Glen-Powell.md",
+  "draft_sha256": "5816a11fadf8f91852cf3f96ecda27b99fab54977ecdc5c26bbefee5c03a386f",
+  "parser_word_count": 2019,
+  "section_count": 6,
+  "faqs": [
+    {
+      "anchor": "what-is-glen-powells-personality-type",
+      "resolves": true
+    },
+    {
+      "anchor": "glen-powells-possible-wing-3w2",
+      "resolves": true
+    },
+    {
+      "anchor": "the-flask-in-the-boot",
+      "resolves": true
+    },
+    {
+      "anchor": "the-work-behind-powells-charm",
+      "resolves": true
+    },
+    {
+      "anchor": "why-glen-powell-moved-back-to-austin",
+      "resolves": true
+    }
+  ],
+  "image_status": {
+    "fullPath": "/Users/djwayne/.codex/worktrees/df88/9takes/static/types/3s/Glen-Powell.webp",
+    "thumbnailPath": "/Users/djwayne/.codex/worktrees/df88/9takes/static/types/3s/s-Glen-Powell.webp",
+    "fullExists": true,
+    "thumbnailExists": true
+  },
+  "local_publish_check": {
+    "person": "glen-powell",
+    "filePath": "src/blog/people/drafts/Glen-Powell.md",
+    "eligible": false,
+    "localEligible": false,
+    "published": false,
+    "overall": null,
+    "blockers": [
+      "missing_content_quality",
+      "missing_perspective_review:run scripts/run-blog-pipeline.sh <Person> --resume"
+    ]
+  },
+  "production": {
+    "status": "draft",
+    "handoff_from": "blog_content_creator_people",
+    "reviewed": false,
+    "ready_for_production": false,
+    "sync_mode": "full",
+    "requires": [
+      "db_sync",
+      "db_verify",
+      "regenerate_famous_types",
+      "image_check"
+    ],
+    "blockers": [
+      "pipeline_external_model_approval_required",
+      "missing_content_quality",
+      "missing_perspective_review",
+      "missing_grade_stability"
+    ]
+  },
+  "comments_removed": true,
+  "lastmod": "2026-04-06"
+}

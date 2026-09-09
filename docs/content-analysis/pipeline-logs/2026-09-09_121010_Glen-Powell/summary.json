@@ -1,0 +1,19 @@
+{
+  "person": "Glen-Powell",
+  "draft_path": "src/blog/people/drafts/Glen-Powell.md",
+  "entity_gap_brief": "docs/content-analysis/entity-gaps/Glen-Powell.md",
+  "log_dir": "/Users/djwayne/.codex/worktrees/df88/9takes/docs/content-analysis/pipeline-logs/2026-09-09_121010_Glen-Powell",
+  "perspective_review_dir": "docs/content-analysis/perspective-reviews/Glen-Powell/2026-09-09_121010",
+  "perspective_initial_status": "not_run",
+  "perspective_final_status": "packet_invalid",
+  "completed": true,
+  "halt_reason": null,
+  "revised": false,
+  "lint_exit": 0,
+  "first_overall": null,
+  "final_overall": null,
+  "final_discoverability": null,
+  "grade_stability_delta": null,
+  "has_stage_warnings": true,
+  "generated_at": "2026-09-09T16:10:41.727Z"
+}
