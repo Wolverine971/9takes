@@ -10,7 +10,7 @@ describe('Enneagram type prompt variants', () => {
 	it('keeps three distinct review variants with Variant A as the sendable pilot', () => {
 		expect(ENNEAGRAM_TYPE_PROMPT_VARIANTS.map((variant) => variant.id)).toEqual(['a', 'b', 'c']);
 		expect(ENNEAGRAM_TYPE_PROMPT_VARIANTS.map((variant) => variant.content.subject)).toEqual([
-			'What do you notice that other people miss?',
+			'Why we read people differently',
 			'Which Enneagram pattern feels most like you?',
 			'Do you already know your Enneagram type?'
 		]);

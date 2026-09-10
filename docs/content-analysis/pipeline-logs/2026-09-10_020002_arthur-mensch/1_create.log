@@ -1,0 +1,24 @@
+Draft complete and all gates pass.
+
+```
+MODE: non-interactive
+DRAFT: /src/blog/people/drafts/Arthur-Mensch.md
+STATUS: production_pretext.status = draft
+BLOCKERS: none
+GATES: Gate 1: pass (7 testimony quotes) | Gate 2: pass (6 search-intent/hybrid H2s) | Gate 4: pass | Gate 5: pass (1 type-theory para) | Gate 6: pass
+LIMITATIONS: type confidence medium-high (not high); Le Point not read directly; no long-form personal-history interview exists in English
+```
+
+**Type call: 6w5, social-dominant.** The tiebreaker against Type 5 (which three of the four other frontier-builders in the corpus are typed as): a Five answering commoditization withdraws and minimizes exposure. Mensch took on maximum exposure to remove dependency — owning the physical layer *and* open-sourcing the weights so nobody can revoke them. Ownership plus non-revocability is a security architecture, not a competence strategy.
+
+**Three finds the entity-gap packet didn't have:**
+
+1. **Le Figaro (2025-09-21, Adrien Bez)** — carries all three PhD supervisors on the record. This single source resolved the packet's testimony worry completely. Julien Mairal's line is the best quote in the piece: *"He is very scientifically honest. That's a real difference from other AI entrepreneurs."*
+2. **The CNRS story.** He applied for a permanent French public research post, was rejected and "frankly disappointed," applied again, was accepted — and by then DeepMind had made an offer, so he declined. The institution that formed him told him no first, then said yes a year too late. That's the childhood→adult thread and the interior beat.
+3. **Chinchilla.** He co-authored the compute-optimal scaling paper at DeepMind, before he had a company to defend. That's what rescues the piece from the obvious critic charge that his commoditization thesis is self-serving — the belief arrived before the incentive.
+
+**Packet guardrails honored in full:** parents' occupations omitted entirely (actively contradicted, not load-bearing), fatherhood/spouse/children omitted including hedged forms, ethnicity and religion untouched, net worth qualified once as a reported estimate. The "taught to code in middle school" detail was farm-sourced only and cut.
+
+**One thing I fixed that's worth flagging:** the similarity scan caught my Rabbit Hole opening — "The strongest counter-case is Type 5" — colliding with yesterday's Nathan-Fielder draft, which opens "The strongest competing read is Type 5." Same house sentence two days running. Rewrote both framings. The one remaining trip (0.072 vs zach-bryan) is the shared `profiled on 9takes` corpus-citation idiom, below the scan's own noise-floor max, and not a diagnosis argument.
+
+Body is 3,821 words, inside the 3,200–3,900 band rather than drifting at the 4,500 ceiling. Grading is `/grade_blog`'s job, so no numeric score here. Human review before production — I'd particularly want your eye on the Type 6 vs Type 5 call, since the cluster gravity pulls hard toward Five.

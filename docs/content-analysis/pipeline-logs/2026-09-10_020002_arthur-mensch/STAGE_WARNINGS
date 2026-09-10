@@ -1,0 +1,8 @@
+stage=6.8_same_type_similarity exit=1 dur=1s at=2026-09-10 04:05:35
+stage=8_revise exit=1 dur=445s at=2026-09-10 04:17:44
+stage=8.2_perspective_revision_resolution_gate exit=1 dur=0s at=2026-09-10 04:17:44
+stage=8.4_perspective_reverify exit=1 dur=2s at=2026-09-10 04:17:46
+stage=8.45_perspective_reverification_gate exit=1 dur=1s at=2026-09-10 04:17:47
+stage=9_post_revision_grade exit=1 dur=2s at=2026-09-10 04:17:49
+stage=9.7_same_type_similarity_after_revision exit=1 dur=1s at=2026-09-10 04:17:50
+stage=9.8_perspective_finalize exit=1 dur=0s at=2026-09-10 04:17:50

@@ -1,0 +1,19 @@
+Done. Updated `src/blog/people/drafts/Arthur-Mensch.md` (plus one fix to `scripts/blog-source-audit.mjs`).
+
+## Main changes
+
+**The Microsoft episode, which was missing entirely.** The fresh-eyes reviewer was right and the gap was worse than flagged: February 2024 wasn't in the research file either. I verified it independently and it's now the spine of "What Arthur Mensch does when the pressure lands," which previously had no scene — the autumn-2023 Brussels lobbying fronted by Cédric O, France breaking the AI Act deal in November, the closed flagship shipping first on Azure eleven weeks later, the Green MEP referral, Corporate Europe Observatory's "Trojan horses" report, his "creative interpretations" reply, the UK CMA declining in May, and Mistral Large 2's weights going out that July. It's referenced once in the critic section and once in the Rabbit Hole rather than retold. The Rabbit Hole's falsifier now actually gets tested against it instead of being named and walked past.
+
+**Other reviewer notes I took:** alliance density promoted into the diagnosis tiebreaker (Lample and Lacroix are now named in the body); phobic/counterphobic replacing the work-ethic read of "almost shy" vs "bulldozer"; the Mixtral 8x7B magnet link as non-revocability shown rather than argued; neuroimaging read as a way of seeing rather than a CV line; VivaTech/Macron as a state-dependency objection; Alexandr Wang swapped into `suggestions:` and linked; the age-FAQ anchor bug fixed. I also added a Feb 2024 row to the on-the-record table so it can't read as a highlight reel.
+
+**One note rejected:** the "revocability pair appears three times" claim. It appears twice in prose — the diagnosis (load-bearing) and a TL;DR bullet that paraphrases rather than quotes, which is what a teaser does. The third instance is a FAQ, which is structured data.
+
+## Source audit
+
+**7 inline / 0 vague / 0 untagged** (was 0 / 5 / 1). Getting there required a script fix: `blog-source-audit.mjs` didn't know Le Figaro, Le Monde, Financial Times, Big Technology Podcast or École Polytechnique, and its `TIME` entry was listed as `Time` — matching is case-sensitive, so every TIME-sourced quote in this vertical graded vague. I re-ran four other drafts to confirm no regression. Worth knowing for future passes: the attribution window is 120 characters before the quote, so an outlet named earlier in a long sentence silently doesn't count.
+
+`blog-lint`: 0 fail, 0 warn. 3,897 words, inside the 3,200–3,900 band, and contrast pairs went from 0 strong / 1 comparative to 0 / 0. Getting back under the ceiling took real cutting — I added roughly 650 words and had to find about the same again, mostly from duplicated anecdotes (Chinchilla was explained twice, "never showed off" appeared twice, the deflation inventory stacked five items) and two summarizing paragraphs around the table.
+
+## Worth an editor's eye
+
+Type confidence stays medium-high, and now for a sharper reason: February 2024 is genuine disconfirming pressure on the sovereignty-as-conviction reading, and the July weights release is the rebuttal. Whether I've struck that balance fairly rather than protectively is a human call. The Microsoft stake is also reported as ~€15M by Euronews/FT and ~$16M elsewhere; the draft hedges with "reported at around."

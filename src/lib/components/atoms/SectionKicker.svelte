@@ -2,19 +2,21 @@
 <script lang="ts">
 	// src/lib/components/atoms/SectionKicker.svelte
 	//
-	// The `§NN · LABEL` mono kicker pattern V5 uses everywhere. Locked spec at
-	// /styleguide §11. Renders mono, uppercase, tracked, in `--lamp-glow`.
+	// Optional descriptive micro-label. Decorative section numbering was
+	// retired at DJ's request on 2026-09-10. Omit the whole label when it
+	// only repeats the heading below it.
 	//
 	// Usage:
-	//   <SectionKicker num="04" label="THE 9 IN 9 LINES" />
-	//   <SectionKicker num="0008" label="TYPE 8 · THE CHALLENGER" />          // works with multi-segment labels
-	//   <SectionKicker tone="data" num="03" label="STATUS · ACTIVE" />        // tone="data" for tech-spec teal kickers
+	//   <SectionKicker label="FEATURED" />
+	//   <SectionKicker label="TYPE 8 · THE CHALLENGER" />
+	//   <SectionKicker tone="data" label="STATUS · ACTIVE" />
 	//   <SectionKicker><slot/></SectionKicker>                                 // freeform via children
 	import type { Snippet } from 'svelte';
 
 	type Tone = 'lamp' | 'data' | 'dim';
 
 	type Props = {
+		/** @deprecated Section numbers are decorative and no longer rendered. */
 		num?: string | number;
 		label?: string;
 		tone?: Tone;
@@ -23,31 +25,18 @@
 		children?: Snippet;
 	};
 
-	let {
-		num,
-		label,
-		tone = 'lamp',
-		size = 'sm',
-		class: extraClass = '',
-		children
-	}: Props = $props();
+	let { label, tone = 'lamp', size = 'sm', class: extraClass = '', children }: Props = $props();
 
 	const klass = $derived(
 		['kicker', `kicker--${tone}`, `kicker--${size}`, extraClass].filter(Boolean).join(' ')
 	);
 </script>
 
-<span class={klass}>
-	{#if children}
-		{@render children()}
-	{:else if num !== undefined && label}
-		§{num} · {label}
-	{:else if label}
-		{label}
-	{:else if num !== undefined}
-		§{num}
-	{/if}
-</span>
+{#if children || label}
+	<span class={klass}>
+		{#if children}{@render children()}{:else}{label}{/if}
+	</span>
+{/if}
 
 <style lang="scss">
 	.kicker {

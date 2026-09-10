@@ -309,7 +309,7 @@
 			<div class="anatomy-top">
 				<div class="anatomy-text">
 					<div class="anatomy-eyebrow">
-						<span class="mono">§01 · OBSERVATION</span>
+						<span class="mono">OBSERVATION</span>
 					</div>
 
 					<h1 class="display-xl">See the emotions behind every take.</h1>
@@ -361,13 +361,13 @@
 			<!-- V5 EDIT 2 — §02 two-column NO|YES path split (replaces V4 branched trunk) -->
 			<div class="path-split" aria-label="Do you know the Enneagram?">
 				<div class="path-split-kicker">
-					<span class="mono region-label">§02 · DO YOU KNOW THE ENNEAGRAM?</span>
+					<span class="mono region-label">DO YOU KNOW THE ENNEAGRAM?</span>
 				</div>
 
 				<div class="path-split-grid">
 					<!-- LEFT — NO panel -->
 					<div class="path-panel path-panel--no">
-						<span class="mono path-label path-label--no">§02A · NO</span>
+						<span class="mono path-label path-label--no">NO</span>
 						<p class="path-body">
 							Never heard of it. That&rsquo;s most people. The Enneagram is a 2,500-year-old
 							framework that maps 9 ways emotions drive behavior. Once you see the patterns, you
@@ -382,7 +382,7 @@
 
 					<!-- RIGHT — YES panel -->
 					<div class="path-panel path-panel--yes">
-						<span class="mono path-label path-label--yes">§02B · YES</span>
+						<span class="mono path-label path-label--yes">YES</span>
 						<p class="path-body">
 							You know the rabbit hole. 9takes uses it to break down real situations &mdash; yours,
 							others&rsquo;, public figures&rsquo;. The give-first mechanic keeps every comment
@@ -404,7 +404,7 @@
 	  ============================================================ -->
 	<section id="primer" class="primer">
 		<header class="primer-header">
-			<span class="mono section-tag">§04 · THE 9 IN 9 LINES</span>
+			<span class="mono section-tag">THE 9 IN 9 LINES</span>
 			<h2 class="display-md">The 9 in 9 lines.</h2>
 			<p class="primer-sub">
 				each type leads with a different emotional read of the same situation.
@@ -443,7 +443,7 @@
 		<div class="flow-pool" aria-hidden="true"></div>
 
 		<header class="flow-header">
-			<span class="mono section-tag">§05 · THE FLOW</span>
+			<span class="mono section-tag">THE FLOW</span>
 			<h2 class="display-md">How a situation becomes 9 reads.</h2>
 			<p class="flow-sub">One moment in. Give-first lock. 9 typed reads out. Then the pattern.</p>
 		</header>
@@ -774,7 +774,7 @@
 	<section id="open-question" class="open-floor">
 		<div class="open-floor-pool" aria-hidden="true"></div>
 		<header class="open-floor-header">
-			<span class="mono section-tag">§06 · THE FLOOR IS OPEN</span>
+			<span class="mono section-tag">THE FLOOR IS OPEN</span>
 			<h2 class="display-md">{timeWindow.title}.</h2>
 			<p class="mono open-floor-kicker">
 				OPEN · {timeWindow.kicker} · {dateLabel} · {data.questionOfTheDay?.comment_count ?? 0} RESPONSES
@@ -823,7 +823,7 @@
 	  ============================================================ -->
 	<section class="comparison">
 		<header class="comparison-header">
-			<span class="mono section-tag">§07 · WHY 9 NOT 1</span>
+			<span class="mono section-tag">WHY 9 NOT 1</span>
 			<h2 class="display-md">9 perspectives, not 1 generic answer.</h2>
 			<p class="comparison-sub">
 				The shape of an answer changes everything. Here is the same question, three places.
@@ -892,7 +892,7 @@
 	  ============================================================ -->
 	<section class="library">
 		<header class="library-header">
-			<span class="mono section-tag">§08 · CASE FILES</span>
+			<span class="mono section-tag">CASE FILES</span>
 			<h2 class="display-md">The Library.</h2>
 			<p class="library-sub">
 				1,247 personality breakdowns. Public figures. Fictional characters. Athletes. Founders. Read
@@ -942,7 +942,7 @@
 	<section class="compiled">
 		<div class="compiled-pool" aria-hidden="true"></div>
 		<header class="compiled-header">
-			<span class="mono section-tag">§09 · CORPUS</span>
+			<span class="mono section-tag">CORPUS</span>
 			<h2 class="display-md">By the numbers.</h2>
 		</header>
 
@@ -964,7 +964,7 @@
 		<div class="dossier-pool" aria-hidden="true"></div>
 
 		<header class="dossier-header">
-			<span class="mono section-tag">§10 · DEEP ZOOM</span>
+			<span class="mono section-tag">DEEP ZOOM</span>
 			<h2 class="display-md">Inside one breakdown.</h2>
 		</header>
 
@@ -1013,9 +1013,9 @@
 					</div>
 
 					<aside class="dossier-annotations" aria-label="Cross-references">
-						<span class="mono">§3.2 SHADOW TRIAD</span>
-						<span class="mono">§4.1 STRESS LINE → 5</span>
-						<span class="mono">§4.2 GROWTH LINE → 2</span>
+						<span class="mono">SHADOW TRIAD</span>
+						<span class="mono">STRESS LINE → 5</span>
+						<span class="mono">GROWTH LINE → 2</span>
 					</aside>
 
 					<div class="dossier-cta-row">

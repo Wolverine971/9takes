@@ -146,19 +146,21 @@ Bespoke section form: "The child who treated distance like homework" annotates t
 Critic pressure: the Dream Academy section tests the dismissal of Manon's audience appeal; the PRIMA section includes genuine disagreement about the music.
 Empathy turn: the late change to a public vote explains Adéla's effort-based grievance without excusing her reduction of another trainee's appeal to appearance.
 Current anchor: PRIMA released September 4, 2026; September 9 North American opening is described as scheduled.
-Interior beat: a close-up of the nightly foot-stretching is explicitly retrospective and uses her own words about requesting it. No invented sensations, commands, apartment scene, or claim to know her childhood thoughts.
+Interior beat: the nightly foot-stretching close-up now opens the article and is explicitly retrospective; the "Feet" beat keeps her own words about requesting it. No invented sensations, commands, apartment scene, or claim to know her childhood thoughts.
 Ending swap test: the ending brings the secret Disney list back to her mother and sister appearing in the Slovak video.
 -->
 
 > "My 'now' is defined by ambition." — Adéla, [Harper's Bazaar, 2026](https://www.harpersbazaar.com/culture/art-books-music/a70884094/adela-debut-album-interview-2026/)
 
-<p class="firstLetter">In her childhood bedroom in Bratislava, the Slovak singer Adéla Jergová (not to be confused with the British singer Adele) still had pop stars on the walls. <a href="/personality-analysis/lady-gaga">Lady Gaga</a>, <a href="/personality-analysis/ariana-grande">Ariana Grande</a>, Beyoncé, Rihanna. She returned after <i>Dream Academy</i>, the competition that formed KATSEYE, and a detour into indie rock. In <a href="https://www.vogue.com/article/adela-the-provocateur-ep-interview">Vogue's August 2025 account</a>, the posters reminded her what she had wanted before either.</p>
+<p class="firstLetter">Most nights of her childhood, the Slovak singer Adéla Jergová (not to be confused with the British singer Adele) had her father press his weight down onto her feet, about forty minutes at a time. She was the one who asked him to do it. In her <a href="https://www.youtube.com/watch?v=VDhjDJybhsM&t=1215s">February 2025 conversation with Coco Mocoe</a>, that is the part she keeps coming back to: the correction came from her.</p>
 
-She opened a Google Doc and assembled colors, textures, sounds, references, and a definition of the entertainer she wanted to become. In [The Line of Best Fit's June 2025 interview](https://www.thelineofbestfit.com/features/interviews/adela-writing-destiny-her-own-terms), she connected that document to recovering her identity.
+There is a whole theory of a person in that image. Effort is a lever. Discomfort you requested is progress. An accent, a body, the country you happened to be born in: all correctable, provided you keep asking to be corrected.
 
-She was writing a creative brief and trying to recognize herself in it.
+Then a competition changed the measure. Adéla placed last in the first public vote at _Dream Academy_, the HYBE x Geffen program that formed KATSEYE, and went out in the first pair of eliminations. Whatever else fed that decision, part of it now sat with an audience, and there is no stretch you can ask for that makes strangers pick you.
 
-Adéla wants a schedule she can follow and a creative direction she can call her own. Her career keeps testing whether she can have both. Her debut album, *PRIMA*, adds a complication. The more room she earns to be herself, the more she has to decide which parts of herself the ambition leaves out.
+She went back to the childhood bedroom in Bratislava, where the pop stars were still on the walls: <a href="/personality-analysis/lady-gaga">Lady Gaga</a>, <a href="/personality-analysis/ariana-grande">Ariana Grande</a>, Beyoncé, Rihanna. In <a href="https://www.vogue.com/article/adela-the-provocateur-ep-interview">Vogue's August 2025 account</a>, the posters reminded her what she had wanted before the program and before a detour into indie rock. She opened a Google Doc and assembled colors, textures, sounds, references, and a definition of the entertainer she wanted to become. In [The Line of Best Fit's June 2025 interview](https://www.thelineofbestfit.com/features/interviews/adela-writing-destiny-her-own-terms), she connected that document to recovering her identity.
+
+She was writing a creative brief and trying to recognize herself in it. Her debut album, _PRIMA_, is what came of it, and it sharpens the problem rather than settling it: the more room she earns to be herself, the more she has to decide which parts of herself the ambition leaves out.
 
 <details>
 <summary class="accordion">TL;DR: Why Adéla is an Enneagram Type 3</summary>
@@ -192,9 +194,7 @@ Her insistence on personal expression pulls against it. Type 4 remains a serious
 
 **English.** Adéla's childhood list included fluency, Los Angeles, Disney headquarters, and meeting Miley Cyrus. She concealed it from her parents because she feared their disbelief might weaken hers. American television became a language classroom, according to [The Line of Best Fit](https://www.thelineofbestfit.com/features/interviews/adela-writing-destiny-her-own-terms). She practiced her accent too; [Vogue's August 2025 profile](https://www.vogue.com/article/adela-the-provocateur-ep-interview) connects that effort with her childhood feeling of being lesser because she was Slovak.
 
-**Feet.** Ballet began at three. In her [conversation with Coco Mocoe, published in February 2025](https://www.youtube.com/watch?v=VDhjDJybhsM&t=1215s), she recalled asking her father to press his weight onto her feet during nightly stretching.
-
-About forty minutes a night, she recalled. Her father's weight on her feet. When Adéla tells the story, she returns to who asked for it: "it always came from me."
+**Feet.** Ballet began at three, and the nightly stretching followed. Telling [Coco Mocoe about it in February 2025](https://www.youtube.com/watch?v=VDhjDJybhsM&t=1215s), Adéla keeps returning to who asked for it: "it always came from me."
 
 The detail could read as something done to a child, except she tells it as the origin of a toughness she is proud of: she is the one who kept asking for the correction, night after night.
 
@@ -216,7 +216,7 @@ The [documentary's relationships also exceeded that conflict](https://time.com/7
 
 ## How Adéla built a solo career after Dream Academy
 
-Adéla stayed in Los Angeles, completed a GED, and attended college. After elimination, she experimented with indie rock. In an [October 2025 Rolling Stone interview](https://www.yahoo.com/entertainment/music/articles/ad-la-got-rejected-katseye-194947589.html), her recollections included "Fuck pop" and "I was emo"; she judged the music "really, really bad." Her return to pop followed an attempt to leave it, which makes the Google Doc a choice about direction as well as a plan. Reconsidering her direction led her to create the Google Doc.
+Adéla stayed in Los Angeles, completed a GED, and attended college. After elimination, she experimented with indie rock. In an [October 2025 Rolling Stone interview](https://www.yahoo.com/entertainment/music/articles/ad-la-got-rejected-katseye-194947589.html), her recollections included "Fuck pop" and "I was emo"; she judged the music "really, really bad." Her return to pop followed an attempt to leave it, which makes the Google Doc a choice about direction as well as a plan.
 
 Her independent debut, "Homewrecked," arrived in September 2024, as the documentary brought renewed attention. In [PAPER's October 2025 interview](https://www.papermag.com/adela-jergova), she recalled the precarious beginning: college full-time, two friends helping, and no management. The attention eventually brought people who wanted to work with her.
 
@@ -324,6 +324,40 @@ Entity intent packet: docs/content-analysis/entity-gaps/Adela.md, September 9, 2
 Measurement limitation: available GSC export ends August 11, before the page's August 14 publication. There is no post-publication baseline, not a zero-traffic result. Numeric 28-day prediction unavailable; after an approved sync, compare exact-page impressions, clicks, CTR, position, and query mix over 28 days. Qualitative expectation: corrected release answers and stronger evidence improve answer usefulness.
 Publication state: date, lastmod, published, and human review flags preserved. Local refresh only; no DB write. Final perspective binding passes for the corrected reader-visible version. The fresh grade pair is unstable (0.9 delta); this is not production approval.
 Root verification: the live renderer drops the accented e in heading IDs; corrected two pre-existing FAQ anchors to what-is-adlas-personality-type and why-adla-is-a-character. Local protected categories aligned to the verified live musician/dancer values, removing the pre-existing pop-star drift. Added the relevant Type 4 explainer link for readers following the alternative interpretation.
+-->
+
+<!-- HOOK PASS 2026-09-09 (post-jury, logged for the verifier)
+Trigger: /grade_blog feedback "TO REACH A (1) Open on a single specific, ironic beat instead of the
+posters-on-the-wall scene." Scope: the lede only, plus one dedup elsewhere to pay for it.
+
+Changed:
+- Lede now opens on the nightly foot-stretching and its "the correction came from her" framing, pivots
+  on the Dream Academy vote, and lands on the bedroom posters and the Google Doc. Tension is stated by
+  paragraph two instead of paragraph four.
+- PROTECT-06 preserved: the posters remain the opening frame image the ending calls back to.
+- PROTECT-09 preserved: the concealed-list passage and the Google Doc "recovering her identity"
+  framing are unchanged and still in the lede.
+- P0-01 framing preserved: the "Feet" beat keeps her own words ("it always came from me") and the
+  could-read-as/except-she-tells-it structure. The beat was shortened only where the lede now carries
+  the duration-and-weight close-up, so the detail is not printed twice.
+
+Rejected in this pass, after the independent verifier flagged them (verification-final.md, items 1-2):
+- "lay on the floor" — posture appears in no source; cut. The transcript and evidence-packet CLM-04
+  record duration and her father's weight only.
+- "Ballet wants the arch, and the stretching buys it." — the purpose of the stretching is in no source
+  and "arch" appears nowhere; cut rather than replaced, since her own stated reason (the lines, the
+  artistry) belongs to a passage the synthesis asked to keep marked as inference.
+- The lede's first draft restated the Teen Vogue work-ethic/monthly-scores/fan-vote sentence already
+  carried by "When effort lost the vote"; cut. The vote line was also reframed ("Whatever else fed
+  that decision, part of it now sat with an audience") so it no longer reads as an automatic
+  last-place dismissal, per Adela-2026-09-09-legacy-audit.md line 65.
+
+Paid for with cuts, per the SOURCE QA NOTE budget:
+- Removed the duplicated causal sentence in "How Adéla built a solo career after Dream Academy"
+  ("Reconsidering her direction led her to create the Google Doc"), carried forward unmerged from
+  verification-initial.md.
+- blog-lint body count 2473 words, at or below the binding 2,483 ceiling. Lint 0 fail / 1 pre-existing
+  warn; quality report PASS; source audit 3/3 inline, 0 untagged; same-type-similarity clear.
 -->
 
 <!-- SOURCE QA NOTE 2026-09-09

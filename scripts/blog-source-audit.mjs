@@ -547,7 +547,27 @@ const OUTLETS = [
 	// a federal-library festival stage. Same class as The Mike Wallace
 	// Interview above: named, dated, publicly checkable filmed records.
 	'The Book Hook',
-	'Library of Congress'
+	'Library of Congress',
+	// French papers of record and the tech-interview show of record for the
+	// European-AI vertical (Arthur-Mensch pass, 2026-09-10). Le Figaro's
+	// 2025-09-21 profile (Adrien Bez) is the ONLY source carrying this subject's
+	// three PhD supervisors on the record plus the CNRS account, and Le Monde
+	// 2026-01-09 is the record for the origin-myth refusal; neither "Figaro" nor
+	// "Monde" is an OUTLET_SUFFIX word, so every quote from the richest
+	// third-party source on the subject graded vague. Big Technology Podcast
+	// publishes dated full-text transcripts (podscripts.co) and is the primary
+	// first-person record for the commoditization thesis — same class as Lex
+	// Fridman / The Tim Ferriss Show above. École Polytechnique publishes the
+	// dated institutional interview on polytechnique.edu that is the record for
+	// the electrician frame; same class as Library of Congress and S.C. Johnson,
+	// an institution that is the publisher of its own dated transcript.
+	'Le Figaro',
+	'Le Monde',
+	'Financial Times',
+	'Big Technology Podcast',
+	'Big Technology',
+	'École Polytechnique',
+	'Ecole Polytechnique'
 ];
 
 // Common dictionary words that are ALSO outlets: only counted as an outlet when
@@ -590,7 +610,14 @@ const AMBIGUOUS_OUTLETS = [
 	// 2020 Ian McKellen cover interview. It sits here rather than in OUTLETS
 	// because "attitude" is a common noun; the adjacent-cue rule keeps "his
 	// attitude to the work" from counting.
-	'Attitude'
+	'Attitude',
+	// TIME styles itself in all caps and the corpus cites it that way
+	// ("he told TIME in 2024", "TIME's Harry Booth wrote"). Matching is
+	// case-SENSITIVE, so the existing 'Time' entry never fired on it and every
+	// TIME-sourced quote in the tech vertical graded vague (Arthur-Mensch pass,
+	// 2026-09-10). Kept ambiguous rather than in OUTLETS: "TIME" also appears as
+	// a shouted common noun, so the adjacent-cue rule still has to earn it.
+	'TIME'
 ];
 const ATTR_CUE = '(?:told|to|in|for|on|per|via|according to|wrote (?:in|for)|said (?:in|to)|[—-])';
 

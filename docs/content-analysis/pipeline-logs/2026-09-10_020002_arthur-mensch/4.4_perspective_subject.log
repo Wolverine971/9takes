@@ -1,0 +1,20 @@
+Counts and headings verified.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/subject.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · **recommendation: revise** — 6 blockers, 11 concerns.
+
+The portrait itself is fair, and that's the important finding. It's built from his own vocabulary, it credits his scientific record, it keeps his private life out, and it explicitly refuses to weld the CNRS rejection into a causal origin wound ("Both happened, in that order"). He'd recognize himself. The thesis survives every repair I propose.
+
+What's broken is fidelity, and all of it is checkable:
+
+**Strongest hit** — `Both happened, in that order, and what he built afterward is a company whose fate no institution above it can decide.` It asserts sequence, not cause, at the single most sensitive inferential moment in the piece. That restraint is what makes the CNRS material evidence rather than psychoanalysis, and it must survive revision verbatim.
+
+**Highest-priority concern (SUBJ-B1)** — the draft truncates his Polytechnique quote "You're always in a weak position when you're the seller," deletes the three reasons he actually gave (doing the work, getting tired, facing criticism), and substitutes the one the thesis needs: "The buyer is the one who can end it." Then it introduces that as "the line that gives the game away." A subject's most legitimate complaint isn't *you misread me* — it's *you edited me until I agreed with you*, and this is that, in the section whose own claim is that he responds to pressure with specifics.
+
+Two things worth your attention beyond the report:
+
+- **I confirmed a live arithmetic error independently.** Wikipedia's infobox reads "17 July 1992 (age 34)" — he turned 34 seven weeks before the round. The draft says 33 in its opening sentence *and* in FAQ #2 structured data. Related: "a company that did not exist thirty months earlier" is ~40 months, and thirty months before the round Mistral had already shipped Mixtral and Mistral Large. Both errors were inherited from upstream artifacts rather than computed, so the research file needs fixing too or the next pass reproduces them.
+- **One source the packet missed.** On 2026-05-12 Mensch testified before a National Assembly commission of inquiry into digital dependency — this article's exact subject — and said *"The army is sovereign, it has a democratic legitimacy that we do not have,"* declining a right of oversight over military use of his own technology. He also frames sovereignty as negotiating leverage, not autarky. A piece closing on "a company whose fate no institution above it can decide" is flattening him into authority-aversion when the real distinction (foreign vendor control vs. legitimate democratic authority) is both more accurate and more flattering. Corroborated across independent sources plus the Assembly's own hearing video, which should be checked before anything is quoted.
+
+Reading the paywalled Le Figaro profile once would resolve or remove four of my findings — it's the sole source for the CNRS spine, the marathon, the "almost shy" line, and the contested Mairal clause.

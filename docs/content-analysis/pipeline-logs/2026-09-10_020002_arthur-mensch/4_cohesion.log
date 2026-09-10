@@ -1,0 +1,52 @@
+## Cohesion Audit: `src/blog/people/drafts/Arthur-Mensch.md`
+
+### Central Thesis
+Arthur Mensch is a Type 6 whose entire career is one move repeated at every scale — converting arrangements someone else can revoke into ground nobody can take back — which is why the man who says AI models are easy to build raised €3B to own the physical layer and gave the models away.
+
+### Thread Map
+
+| Section | What it contributes | Links to thesis via |
+|---|---|---|
+| Intro | The contradiction: deflates the tech, raises €3B | Poses the puzzle |
+| Personality type | Names the engine (non-revocability) + Type 5 tiebreaker | States the thesis |
+| CNRS job | The formative proof: institution said no, then yes too late | Where the engine came from |
+| Electrician | How he sees the work; fMRI → Chinchilla; phobic/counterphobic | The engine's operating vocabulary |
+| On the record | Dated ledger: said small / spent big | The contradiction, evidenced |
+| Gives away the models | Refuses a myth, ships a magnet link | The thesis, shown |
+| Pressure lands | Feb 2024 Microsoft: the month it failed | The thesis, stress-tested |
+| Case against | Self-serving charge + state dependency + Chinchilla rebuttal | The thesis, adversarially checked |
+| The wires | France said no, then yes, then watched him leave | Lands the thesis |
+
+The outline reads coherently top to bottom. The through-line was never the problem — the joints were.
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 9/10 | 9/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 7/10 | 9/10 |
+| Section Transitions | 6/10 | 9/10 |
+| Internal Paragraph Flow | 6/10 | 9/10 |
+
+**Overall: 7.5/10 → 9/10.** Lint stayed 0 fail / 0 warn; body went 3,897 → 3,893 words, so every bridge was paid for with a cut rather than eating the 3-word headroom you had left.
+
+### The seven fixes
+
+**Broken transitions (3)**
+1. **CNRS → electrician** was a bare topic switch: institutional independence to tradesman self-description, no bridge. Added *"He went back to one of those institutions in January 2026."* — carries "institution" from the previous close, and the alma-mater fact is already in the intro.
+2. **Table → open weights** was the worst joint in the piece. The heading promises why Mistral gives models away; the section opened cold on a Le Monde car-accident story with no link backward *or* to its own heading. Added *"Before the weights, a smaller thing he gave back."* The second pass's scene-first order is preserved, and *gives away / gave back / handed it back* now thread through the section, which already closed on "he gave it back."
+3. **Referent collision before the table.** "He states both halves himself" arrived immediately after "The manner is phobic. The moves are not," so a reader binds "both halves" to phobic/counterphobic, not to said/spent. Now "He puts both columns on the record himself," pointing forward at the table.
+
+**Internal flow (2)**
+4. **CNRS paragraph** jumped from "the lab worked in a way he would not accept" to "he says out loud what he owes the state" — with the loyalty premise sitting one paragraph *below* the jump it existed to explain. Moved it up; the closer now carries only "Both happened, in that order…" Pure reorder, net zero words. Also killed a stray double blank line.
+5. **Marathon → "almost shy"** had no connective at all. Added *"The same restraint shows up in person."* so the phobic/counterphobic resolution lands on a setup.
+
+**Orphan + duplication (2)**
+6. *"You're always in a weak position when you're the seller"* was a strong line with zero follow-through. Tied it to the spine: *"The buyer is the one who can end it."* I cut the "90% struggle and 10% success" quote in the same paragraph — it's about founding generally, not pressure response, and it was wedged between the section's best beat ("Nobody made it do that") and the seller line. **This is the one content removal; flagging it explicitly for your veto.**
+7. The "sour grapes / cannot outspend the Americans" objection was argued in the empathy turn and then again as the opening move of the critic section. Compressed the first instance to a hinge (49 → 33 words); the critic section keeps the full argument.
+
+Untouched because already strong: intro → diagnosis, diagnosis → CNRS, table close, critic → conclusion, and every internal transition inside the diagnosis and critic sections. Frontmatter, `lastmod`, all components, all six internal links, and the four ledgers are unchanged — my additions are cohesion bridges, not type-theory paragraphs, so the DISTRIBUTION LEDGER count of 2 still holds.
+
+### One judgment call for you
+"Why Mistral gives away the models it sells" is carrying three jobs under a search-intent heading: the origin-myth refusal, the empathy turn, and the open-weights argument. The bridge makes it legible, but if you ever want to split it the seam is at "Look at what he actually protects." Not a defect — a load question.
+
+A `COHESION PASS (2026-09-10)` note is appended in the file's existing convention, so the next stage sees what moved and why.

@@ -104,6 +104,7 @@ declare global {
 			authShell?: 'server' | 'client';
 			flags?: string[];
 			pageShell?: 'contained' | 'owned';
+			pageChrome?: 'default' | 'owned';
 		}
 
 		// interface Platform {}

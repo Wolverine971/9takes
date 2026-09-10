@@ -306,6 +306,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'tom-hanks', link: true, hasImage: true, lastmod: '2026-07-01', personaTitle: 'America\'s Anxious Dad', contentGrade: 8.9, types: ['movieStar'] },
 		{ name: 'trevor-noah', link: true, hasImage: true, lastmod: '2026-03-03', personaTitle: 'Comedy\'s Stateless Ambassador', contentGrade: 9, types: ['comedian', 'celebrity', 'tv-comedy-crossover', 'satire-host'] },
 		{ name: 'tucker-carlson', link: true, hasImage: true, lastmod: '2026-03-27', personaTitle: 'Media\'s Contrarian Watchdog', contentGrade: null, types: ['politician', 'campaign-politician'] },
+		{ name: 'zach-bryan', link: true, hasImage: true, lastmod: '2026-09-10', personaTitle: 'Country\'s Loyal Mutineer', contentGrade: 8.9, types: ['musician'] },
 		{ name: 'zendaya', link: true, hasImage: true, lastmod: '2026-01-17', personaTitle: 'The Star Who Builds the Exit First', contentGrade: 8.4, types: ['newMovieStar', 'movieStar', 'rising-star'] }
 	],
 	7: [

@@ -1,0 +1,23 @@
+**Frontmatter enrichment complete: Arthur-Mensch**
+
+The draft arrived from the creator already carrying most rich fields, so this was a gap-fill rather than a full pass.
+
+**Fields filled (3 gaps):**
+
+- `wikidata_qid: 'Q123758735'` — verified via the Wikipedia page's `wikibase_item` prop
+- `imdb_id: 'nm16931529'` — double-confirmed (Wikidata P345 + IMDb suggestion API returning "Arthur Mensch | Self, 20 heures le journal")
+- `same_as` — expanded 2 → 4 (was below the 3–6 minimum); added the Wikidata and IMDb entity URLs in priority order
+
+**Fields already present (preserved, untouched):**
+`wikipedia`, `birth_date`, `birth_place`, `nationality`, `occupation` (3), `knows_about` (6), `keywords` (9), `citations` (14), `faqs` (5)
+
+**Identity verification:** the existing `wikipedia` URL resolves to the correct person — pageid 79196161, "French artificial intelligence researcher and entrepreneur... co-founder and CEO of Mistral AI (born 1992)." Wikidata independently corroborates every biographical field already in the draft: birth date `+1992-07-17`, birth place Q206493 = Sèvres, citizenship Q142 = France, Scholar ID `F8riAN8AAAAJ`, X handle `arthurmensch`. Nothing needed correcting.
+
+**FAQs: not regenerated (5 existing, idempotency held).** They're genuinely body-derived — no "with supporting context from" backfill markers, no frontmatter-assembled answers — and all five anchors resolve to real H2s in the body. `knows_about` likewise holds real expertise areas (compute-optimal scaling, functional MRI analysis), not the occupation-copied backfill pattern.
+
+**Issues:**
+
+- Two FAQs share the anchor `the-cnrs-job-arthur-mensch-wanted-got-and-turned-down` (the "how old" and "what did he do before Mistral" entries). Both facts do live in that section, so the deep links aren't broken — just redundant. Left alone under the strict no-rewrite rule on existing FAQs; flagging in case you want the age FAQ pointed elsewhere on a later pass.
+- Citations are unusually deep at 14 — well clear of the 3–8 guidance, no sourcing thinness here.
+
+Body, HTML comment blocks (Testimony Ledger), `production_pretext`, and `lastmod` are all untouched — verified by a post-edit YAML parse plus a heading count (13) against the original.

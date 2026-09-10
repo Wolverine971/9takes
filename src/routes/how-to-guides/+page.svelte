@@ -274,7 +274,7 @@
 	  §05 FAQ — preserved component (drives the FAQPage JSON-LD too)
 	  ===================================================================== -->
 	<section class="faq">
-		<FAQSection faqs={guidesFAQs} title="About Our Guides" num="05" />
+		<FAQSection faqs={guidesFAQs} title="About Our Guides" />
 	</section>
 
 	<!-- =====================================================================

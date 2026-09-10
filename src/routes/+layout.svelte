@@ -77,6 +77,7 @@
 	let isAdminPage = false;
 	let shouldShowMaxWidth = true;
 	let shouldUseOwnedShell = false;
+	let shouldUseOwnedChrome = false;
 	let showBackButton = false;
 
 	// Track swipe gestures for mobile
@@ -439,6 +440,7 @@
 		const pageShell = resolvePageShell($page.data);
 		shouldShowMaxWidth = pageShell === 'contained';
 		shouldUseOwnedShell = pageShell === 'owned';
+		shouldUseOwnedChrome = $page.data.pageChrome === 'owned';
 		showBackButton = !isHomePage && !isCategoryPage && !isAdminPage && !isQuestionSlugPage;
 	}
 
@@ -695,12 +697,14 @@
 		>
 			Skip to main content
 		</a>
-		<div class="sticky top-0 z-50">
-			<Header />
-		</div>
+		{#if !shouldUseOwnedChrome}
+			<div class="sticky top-0 z-50">
+				<Header />
+			</div>
+		{/if}
 		<Toast />
 
-		{#if showBackButton}
+		{#if showBackButton && !shouldUseOwnedChrome}
 			<BackNavigation wide={shouldUseOwnedShell} />
 		{/if}
 
@@ -721,7 +725,7 @@
 			<slot />
 		</main>
 
-		<Footer />
+		{#if !shouldUseOwnedChrome}<Footer />{/if}
 	</div>
 {/if}
 

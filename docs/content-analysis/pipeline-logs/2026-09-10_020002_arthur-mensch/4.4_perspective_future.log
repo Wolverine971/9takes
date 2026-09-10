@@ -1,0 +1,18 @@
+All eleven required H2 headings present in order, YAML parses, counts match the document, SHA verified.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/future.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **2 blockers, 7 concerns.**
+
+**Blockers** — both are already-wrong temporal claims, and both were *inherited* from upstream artifacts rather than computed from dates the draft itself contains:
+
+- **FUTURE-R1** — He was **34** at the September 2026 round, not 33. I recomputed from the birth date rather than taking the packet's word. It's in the opening clause *and* in FAQ #2, which ships as structured data answering "How old is Arthur Mensch?"
+- **FUTURE-R2** — "Thirty months" is wrong under every disputed founding month (41/40/39 from Apr/May/Jun 2023). It appears twice, once as the intro's punchline and once as load-bearing rhetoric in the phobic/counterphobic resolution.
+
+**Strongest hit:** the thesis is outcome-independent. "Everything he says makes the technology smaller. Everything he signs makes his position bigger." The article never bets on commoditization actually happening — it reads a documented gap between dated statements and dated conduct. If Mistral triples or collapses by 2027, that sentence holds. Combined with the CNRS spine being closed 2018–2020 history, roughly two-thirds of the body cannot decay. This is far more durable than a profile pegged to a two-day-old funding round has any right to be.
+
+**Highest-priority concern (FUTURE-C1):** the present-tense section "Why Mistral gives away the models it sells" is argued entirely with a December 2023 torrent and a July 2024 release — and that 2024 release shipped under the *Mistral Research License*, non-commercial only, which is precisely the kind of switch the thesis says he refuses to let anyone hold. Meanwhile the fact that actually makes the heading true in 2026 is absent. I verified it first-party at `mistral.ai/news/mistral-3/`: **Mistral Large 3, 2025-12-02, 675B, Apache 2.0, Mistral's flagship.** It's the strongest proof available, the only one that still holds in 2027, and the draft never names it.
+
+Two other findings worth your attention: the "largest round in European history" appears once *undated* inside the Type 6 tiebreaker, and that record demonstrably churns within single calendar years — Mistral's own September cadence makes it the likeliest breaker. And the draft opens a European Commission referral, then closes it with a *UK* regulator's ruling; I could not locate any published Commission decision, so "the record then went quiet in his favor" implies a resolution the record doesn't contain.
+
+The review includes an 11-row twelve-month refresh list, flagging rows 5 and 7 as the two where a change breaks an *argument* rather than dating a fact.

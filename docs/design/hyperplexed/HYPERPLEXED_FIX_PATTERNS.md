@@ -95,13 +95,15 @@ is the last resort, not the first.
 
 **Finding:** uppercase section labels are hand-rolled with drifting tracking, color, size, or punctuation.
 
-Use the existing 9takes section-kicker vocabulary: JetBrains Mono, amber `--lamp-glow`, compact caps,
-and the `§NN · LABEL` pattern where the surface is editorial or dossier-like. Prefer an existing
-`SectionKicker`/local kicker component when present. Otherwise keep the markup simple:
+Use JetBrains Mono, amber `--lamp-glow`, and compact caps only when a label adds useful context.
+DJ retired decorative section markers such as `§01` on 2026-09-10. Do not add section numbers,
+separators, or redundant labels above headings. Preserve numbers that carry meaning, such as
+Enneagram types and actual process steps. Prefer an existing `SectionKicker` component for a
+useful label; it renders the label without a numbered prefix. Otherwise keep the markup simple:
 
 ```svelte
 <p class="font-mono text-xs font-bold uppercase tracking-[0.08em] text-[var(--lamp-glow)]">
-	§03 · Question Thread
+	Question Thread
 </p>
 ```
 

@@ -5,6 +5,8 @@
 
 export const ENNEAGRAM_TYPE_PROMPT_KEY = 'enneagram_type_prompt';
 export const ENNEAGRAM_TYPE_PROMPT_EMAIL_BUFFER_DAYS = 7;
+export const ENNEAGRAM_TYPE_PROMPT_IMAGE_URL =
+	'https://9takes.com/email/enneagram-type-prompt/your-personality-v1.png';
 
 export type EnneagramTypePromptContent = {
 	sequenceKey: typeof ENNEAGRAM_TYPE_PROMPT_KEY;
@@ -26,33 +28,46 @@ export type EnneagramTypePromptVariant = {
 export const ENNEAGRAM_TYPE_PROMPT_CONTENT: EnneagramTypePromptContent = {
 	sequenceKey: ENNEAGRAM_TYPE_PROMPT_KEY,
 	stepNumber: 1,
-	subject: 'What do you notice that other people miss?',
-	preheader: 'Add your Enneagram type to compare your perspective with the other eight.',
-	htmlContent: `<p>Hi {{first_name}},</p>
-<p>Two people can leave the same conversation with completely different reads. What felt direct to one felt harsh to the other. Your Enneagram type gives you a starting point for noticing those patterns in yourself.</p>
-<p>On 9takes, add your type to put your answers alongside the other eight perspectives. See what you notice first—and what someone else picks up that you missed.</p>
-<p>If you already know your number, adding it takes less than a minute.</p>
-<p style="margin:20px 0;"><a class="button" href="https://9takes.com/account">Add my type</a></p>
-<p>Not sure yet? Use the <a href="https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type">10-minute guide to finding your starting point</a>. No quiz score gets to decide for you—choose the pattern you recognize in yourself.</p>
-<p>DJ<br />9takes</p>`,
-	plainText: `Hi {{first_name}},
+	subject: 'Why we read people differently',
+	preheader: 'One question for your next tense conversation. A note from DJ at 9takes.',
+	htmlContent: `<p>Life is hard. It's harder when you don't understand people, and it's even harder if you don't understand yourself.</p>
+<p>I'm DJ, the person behind 9takes. You created an account, so I wanted to share the idea behind it.</p>
+<p>Learning the Enneagram has helped me see the emotions underneath people's actions, what motivates them, and the worldview they're acting from—including my own.</p>
+<p>Next time a conversation gets tense, try asking yourself: <strong>What am I trying to protect right now?</strong> My independence, my connection with someone, or my sense of safety?</p>
+<p>On 9takes, you can ask questions anonymously and compare answers by Enneagram type. You share your own take before seeing everyone else's. One question, nine perspectives.</p>
+<p>Already know your type? Add it to your profile so people can see the perspective behind your answers.</p>
+<p style="margin:20px 0;"><a class="button" href="https://9takes.com/account" style="background-color:#F59E0B;color:#0A0807 !important;border-radius:10px;">Add my type</a></p>
+<!-- personality-asset:start -->
+<p style="margin:24px 0;"><a href="https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" style="text-decoration:none;"><img src="${ENNEAGRAM_TYPE_PROMPT_IMAGE_URL}" width="520" alt="Your personality? Instinctual — anger triad (8, 9, 1). Intellectual — fear triad (7, 6, 5). Emotional — shame triad (2, 3, 4). Explore your Enneagram type." style="display:block;width:100%;max-width:520px;height:auto;border:0;" /></a></p>
+<!-- personality-asset:end -->
+<p>Your perspective matters, and your take matters.</p>
+<p>I'd love to get your takes.</p>
+<p>DJ<br />9takes</p>
+<p>P.S. Still figuring out your type? <a href="https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type" style="color:#B45309;">Start with this guide.</a></p>`,
+	plainText: `Life is hard. It's harder when you don't understand people, and it's even harder if you don't understand yourself.
 
-Two people can leave the same conversation with completely different reads. What felt direct to one felt harsh to the other. Your Enneagram type gives you a starting point for noticing those patterns in yourself.
+I'm DJ, the person behind 9takes. You created an account, so I wanted to share the idea behind it.
 
-On 9takes, add your type to put your answers alongside the other eight perspectives. See what you notice first—and what someone else picks up that you missed.
+Learning the Enneagram has helped me see the emotions underneath people's actions, what motivates them, and the worldview they're acting from—including my own.
 
-If you already know your number, adding it takes less than a minute.
+Next time a conversation gets tense, try asking yourself: What am I trying to protect right now? My independence, my connection with someone, or my sense of safety?
+
+On 9takes, you can ask questions anonymously and compare answers by Enneagram type. You share your own take before seeing everyone else's. One question, nine perspectives.
+
+Already know your type? Add it to your profile so people can see the perspective behind your answers.
 
 Add my type:
 https://9takes.com/account
 
-Not sure yet? Use the 10-minute guide to finding your starting point:
-https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type
+Your perspective matters, and your take matters.
 
-No quiz score gets to decide for you—choose the pattern you recognize in yourself.
+I'd love to get your takes.
 
 DJ
-9takes`
+9takes
+
+P.S. Still figuring out your type? Start with this guide:
+https://9takes.com/enneagram-corner/beginners-guide-to-determining-your-enneagram-type`
 };
 
 const ENNEAGRAM_TYPE_PROMPT_RECOGNITION_CONTENT: EnneagramTypePromptContent = {
@@ -115,7 +130,7 @@ export const ENNEAGRAM_TYPE_PROMPT_VARIANTS: EnneagramTypePromptVariant[] = [
 	{
 		id: 'a',
 		label: 'Variant A',
-		angle: 'Product payoff',
+		angle: 'DJ’s invitation to understand people and share your take',
 		state: 'pilot',
 		content: ENNEAGRAM_TYPE_PROMPT_CONTENT
 	},

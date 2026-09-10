@@ -1,0 +1,19 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/unfamiliar.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. Snapshot SHA verified against `context.json` before reading; first read was unaided per the unfamiliar-reader exception.
+
+**Blockers: 2** — both arithmetic, both in the article's opening sentence, both caught cold and then independently corroborated by the packet's own claim inventory (CLM-01, CLM-02, each graded high-risk) — meaning they were flagged upstream and shipped anyway:
+
+1. **Age is wrong.** Draft says "33-year-old"; born 1992-07-17, the round closed 2026-09-08, so he was 34. It also appears in FAQ #2, which renders on-page (the ≥2-FAQ threshold fires at `+page.svelte:618`; this draft has 5) *and* emits as structured data — on a page targeting the query "Arthur Mensch age."
+2. **"Thirty months" understates Mistral's age by ~10 months.** May 2023 → Sept 2026 is 40 months. This one is self-detectable: the draft's own timeline (DeepMind late 2020, "roughly two and a half years," left 2023) contradicts it, and thirty months back from the raise lands *after* the Mixtral release the article narrates later.
+
+**Strongest hit:** the Mixtral torrent passage — *"A torrent has no owner… He did not describe non-revocability that week. He shipped it."* It's where the abstract thesis became physical and I stopped taking it on faith. The CNRS section and its thought-bubble panel run a close second; I checked the CSS and the panel reads clearly as an imagined thought, so I dropped a provisional concern about it reading as a fabricated quote.
+
+**Highest-priority concern:** the article never says what Mistral actually makes. "Model," "weights" and "the product he sells" carry 3,900 words with no product ever named — no assistant, no API, nothing a reader can picture. My one permitted orientation search confirmed this is a real draft omission, not my unfamiliarity: the packet doesn't name the product either. One clause in the intro fixes it.
+
+Two things worth your attention beyond my lane:
+
+- **UNFAM-C6** — the critic section's "few dozen enterprise and government relationships" is graded **CONTRADICTED** in the packet (100+ per FT, 125+ per Mistral's own Series D materials). I flagged it transparently as inherited, not detected — the critic and verify seats own it — but it's the only scale fact a novice reader gets, and it sits in the section whose whole job is to look unimpeachable.
+- **UNFAM-C5** — the only confidence hedge ("medium-high… treat the Five case as live") lives inside the Rabbit Hole, which explicitly tells general readers to skip it, while the main body reads as settled. The reader least able to calibrate is the one most reliably steered past the calibration.
+
+One process note: the frozen snapshot carries prior-pass commentary (FRESH EYES, SECOND PASS NOTES, ledgers) that an independence-contract review arguably shouldn't see. I formed findings before reaching them and didn't adopt their framing — but both blockers survived a pass whose notes report "blog-lint: 0 fail, 0 warn," which is a fair reminder that lint doesn't do arithmetic.

@@ -537,7 +537,7 @@
 	  §05 FAQ — preserved component (drives the FAQPage JSON-LD too)
 	  ===================================================================== -->
 	<section class="faq">
-		<FAQSection faqs={enneagramFAQs} title="Enneagram Questions Answered" num="05" />
+		<FAQSection faqs={enneagramFAQs} title="Enneagram Questions Answered" />
 	</section>
 
 	<!-- =====================================================================

@@ -1,0 +1,13 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/fan.md`
+
+Snapshot SHA verified against `context.json` and the supplied argument before reading; draft unmodified.
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation `revise` — **3 blockers, 8 concerns**
+
+**Strongest hit (FAN-H3):** the neuroimaging paragraph — *"three years of pulling faint signal out of functional MRI scans, a field where most of what looks like structure is noise and the win comes from a better estimator, never a bigger machine."* Every other Mensch profile treats the doctorate as a credential; this one treats it as an epistemology and uses it to explain Chinchilla. That is the fan delight test passing outright. The CNRS spine (FAN-H1) is a close second and is genuinely absent from the English-language record.
+
+**Highest-priority concern — actually a blocker (FAN-R3):** the open-weights argument leans on the wrong release. Mistral Large 2 (July 2024) shipped under the Mistral Research License — research and non-commercial only, commercial self-deployment still requiring Mistral's permission — and the draft deploys it three times as the vindicating proof that "the weights went back out anyway," including as the Rabbit Hole's falsifier-defeater. Meanwhile Mistral Large 3 (Dec 2025, 675B MoE, **Apache 2.0**, free commercial self-hosting) — the flagship in force at publication and the clean proof of the thesis — never appears. The section title is present tense; its evidence is not.
+
+Two further blockers are pure arithmetic in the opening paragraph: he was **34**, not 33, at the September 8 round (also wrong in FAQ structured data), and Mistral was **~40 months** old, not thirty (twice, once as the intro punchline). Both are checkable by exactly this reader in the first four sentences.
+
+One finding runs the other way and is worth flagging to the pipeline: the packet marked the Mixtral *"refuses to elaborate"* quote **UNVERIFIED / high fabrication risk** after four search angles. It's real — Eric Jang on X, `status/1733164335084814578`, dated to the day of the drop. **CLM-07 can be closed.** The same search established that Mistral 7B was also a bare magnet-link release in September 2023, which makes the draft's Mixtral scene the sequel rather than the origin (FAN-C1).

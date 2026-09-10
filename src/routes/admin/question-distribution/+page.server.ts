@@ -130,7 +130,7 @@ const actionHandlers: Actions = {
 			});
 		}
 
-		return { success: true, action: 'start', message: 'The new homepage feature run is active.' };
+		return { success: true, action: 'start', message: 'The feature run has been saved.' };
 	},
 	control: async (event) => {
 		const formData = await event.request.formData();
@@ -186,7 +186,7 @@ const actionHandlers: Actions = {
 			});
 		}
 
-		return { success: true, action: 'setFallback', message: 'Homepage fallback updated.' };
+		return { success: true, action: 'setFallback', message: 'Saved fallback updated.' };
 	}
 };
 

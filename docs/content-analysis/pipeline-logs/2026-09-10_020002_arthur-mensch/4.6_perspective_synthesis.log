@@ -1,0 +1,20 @@
+Synthesis written and verified — all nine required headings present, IDs stable, frontmatter counts match the body.
+
+**`docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/synthesis.md`**
+
+- **P0 items: 12** — open
+- **Accepted P1 items: 16**
+- **Research required: 5**
+- **Most important protected hit: PROTECT-01, the CNRS spine and its inner-thought panel** — flagged by five of six perspectives, the one thing on this page no other Mensch coverage in English has, and the passage most at risk because the only accepted repair that touches it (P1-10) edits a clause inside it. Its form, placement and the "Both happened, in that order" sequence-not-cause discipline are protected; only the causal clause changes.
+
+Adjudication notes worth your attention:
+
+**All six evaluators returned the same triple:** trust strained, delight clear_hit, revise. Nobody disputes the Type 6 reading — the defects are the record underneath it.
+
+**One packet blocker discharged.** CLM-07, the Mixtral quotation the evidence packet graded as fabricated-quote exposure, was independently attributed to Eric Jang by the critic and the fan seats working blind. Two converging attributions with a permalink beat one artifact's failed search, so the fabrication charge is retired — but neither opened the link, so P0-07 ships a safe fallback plus RQ-01.
+
+**One lone-reviewer blocker promoted, and I verified it myself.** The critic alone caught that "own the physical layer outright" omits that the wires are $830M of seven-bank debt running on ~13,800 Nvidia GB300s. I checked it externally: confirmed across CNBC, TechCrunch, TNW and DataCenterDynamics. It sits in the load-bearing Five/Six tiebreaker.
+
+**Two Enneagram blockers verified in the repo.** `enneagram-type-6.md:226` (and its FAQPage JSON-LD at :616) says "Most Sixes contain both tendencies"; the draft's section payoff says "Most Sixes lean one way." And the tiebreaker's "Fives work alone by preference" is refuted by `Demis-Hassabis.md:301` — typed 5w6, credited with "the Six's instinct for alliances, institutions" — which the same paragraph links to.
+
+**The binding constraint is words, not facts.** Body is at ~3,893–3,924 in a 3,200–3,900 band; the accepted repairs net-add ~230 words. The brief names the funding cuts explicitly, because this pipeline has already let the ceiling become the target once.

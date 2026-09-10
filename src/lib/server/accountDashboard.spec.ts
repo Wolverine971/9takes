@@ -287,3 +287,29 @@ describe('dayIndex', () => {
 		expect(nextDay).toBe(morning + 1);
 	});
 });
+
+// Regression: canonical article URLs are lowercase, while portrait filenames
+// preserve their registered spelling on case-sensitive production hosts.
+describe('loadSharedTypePeople portraits', () => {
+	it.each([
+		['8', 'emily-ratajkowski', 'Emily-Ratajkowski'],
+		['3', 'taylor-swift', 'Taylor-Swift'],
+		['2', 'dolly-parton', 'Dolly-Parton']
+	])('resolves a real Type %s portrait for %s', async (type, person, imageSlug) => {
+		const { loadSharedTypePeople } = await import('./accountDashboard');
+		const query = {
+			select: () => query,
+			eq: () => query,
+			order: () => query,
+			limit: async () => ({
+				data: [{ person, persona_title: 'A personality profile' }],
+				error: null
+			})
+		};
+		const people = await loadSharedTypePeople({ from: () => query } as any, type, 0, 0);
+		expect(people[0].slug).toBe(person);
+		expect(people[0].imagePath).toBe(`/types/${type}s/${imageSlug}.webp`);
+		const { existsSync } = await import('node:fs');
+		expect(existsSync(`static${people[0].imagePath}`)).toBe(true);
+	});
+});

@@ -231,7 +231,7 @@
 	};
 	const displaySample = 'See the emotions behind every take.';
 	const bodySample = 'The give-first mechanic keeps every comment honest.';
-	const monoSample = '§04 · DOSSIER · LAB-LOG · 2026-05-04';
+	const monoSample = 'DOSSIER · LAB-LOG · 2026-05-04';
 	const typeScale: TypeScaleRow[] = [
 		{
 			token: 'display-xl',
@@ -426,7 +426,6 @@
 					{#each sections as s}
 						<li>
 							<a class="mono" href={`#${s.id}`}>
-								<span class="sg-toc-num">§{s.num}</span>
 								<span class="sg-toc-label">{s.label}</span>
 							</a>
 						</li>
@@ -443,7 +442,7 @@
 			  §00 — HEADER / TITLE
 			===================================================== -->
 			<section id="s00" class="sg-section sg-section--hero">
-				<span class="mono sg-kicker">§00 · STYLEGUIDE</span>
+				<span class="mono sg-kicker">STYLEGUIDE</span>
 				<h1 class="sg-wordmark">9takes</h1>
 				<p class="mono sg-hero-mono">DESIGN SYSTEM · STREETLAMP SYMPOSIUM · V5 LOCK · 2026-05-04</p>
 				<p class="sg-hero-lede">
@@ -456,7 +455,7 @@
 			  §01 — BRAND FOUNDATIONS
 			===================================================== -->
 			<section id="s01" class="sg-section">
-				<span class="mono sg-kicker">§01 · BRAND</span>
+				<span class="mono sg-kicker">BRAND</span>
 				<h2 class="sg-h2">Brand foundations</h2>
 
 				<div class="sg-brand-grid">
@@ -492,7 +491,7 @@
 			  §02 — V5 BRAND PALETTE (canonical)
 			===================================================== -->
 			<section id="s02" class="sg-section">
-				<span class="mono sg-kicker">§02 · COLOR · V5 (CANONICAL)</span>
+				<span class="mono sg-kicker">COLOR · V5 (CANONICAL)</span>
 				<h2 class="sg-h2">V5 brand palette</h2>
 				<p class="sg-section-lede">
 					The canonical Streetlamp Symposium palette. New code uses these. Swatches preview the
@@ -511,7 +510,7 @@
 			  §03 — PRE-V5 COLOR ARCHIVE
 			===================================================== -->
 			<section id="s03" class="sg-section">
-				<span class="mono sg-kicker">§03 · COLOR · ARCHIVE</span>
+				<span class="mono sg-kicker">COLOR · ARCHIVE</span>
 				<h2 class="sg-h2">Pre-V5 palette archive</h2>
 				<div class="sg-deprecated">
 					<p class="mono sg-deprecated-tag">HISTORICAL ONLY · DO NOT USE</p>
@@ -520,7 +519,7 @@
 						aliases are retired. Their swatches are intentionally absent so this live styleguide
 						cannot be mistaken for an available token menu. Historical values remain in
 						<code>docs/design/2026-05-04-streetlamp-symposium-v5.md</code>; production code uses the
-						role-based tokens in §02 and §04.
+						role-based tokens in the brand palette and semantic sections.
 					</p>
 				</div>
 			</section>
@@ -529,7 +528,7 @@
 			  §04 — SEMANTIC PALETTE
 			===================================================== -->
 			<section id="s04" class="sg-section">
-				<span class="mono sg-kicker">§04 · SEMANTIC</span>
+				<span class="mono sg-kicker">SEMANTIC</span>
 				<h2 class="sg-h2">Semantic palette</h2>
 				<p class="sg-section-lede">
 					Functional/status colors. Same in both modes — these are state signals, not brand.
@@ -541,7 +540,7 @@
 			  §05 — ENNEAGRAM TYPE COLORS
 			===================================================== -->
 			<section id="s05" class="sg-section">
-				<span class="mono sg-kicker">§05 · ENNEAGRAM</span>
+				<span class="mono sg-kicker">ENNEAGRAM</span>
 				<h2 class="sg-h2">Enneagram type colors</h2>
 				<p class="sg-section-lede">
 					Data-only colors. Used to differentiate types in charts, stripes, badges. Never used as UI
@@ -563,7 +562,7 @@
 			  §06 — TYPOGRAPHY
 			===================================================== -->
 			<section id="s06" class="sg-section">
-				<span class="mono sg-kicker">§06 · TYPOGRAPHY</span>
+				<span class="mono sg-kicker">TYPOGRAPHY</span>
 				<h2 class="sg-h2">Type scale</h2>
 				<p class="sg-section-lede">
 					Inter Variable (weights 400–800) + JetBrains Mono. No serif. No third sans. Locked
@@ -596,7 +595,7 @@
 			  §07 — SPACING SCALE
 			===================================================== -->
 			<section id="s07" class="sg-section">
-				<span class="mono sg-kicker">§07 · SPACING</span>
+				<span class="mono sg-kicker">SPACING</span>
 				<h2 class="sg-h2">Spacing scale</h2>
 				<p class="sg-section-lede">
 					Seven tokens. Bias smaller when in doubt — 9takes is information-dense. Arbitrary values (<code
@@ -622,7 +621,7 @@
 			  §08 — RADIUS SCALE
 			===================================================== -->
 			<section id="s08" class="sg-section">
-				<span class="mono sg-kicker">§08 · RADIUS</span>
+				<span class="mono sg-kicker">RADIUS</span>
 				<h2 class="sg-h2">Radius scale</h2>
 				<p class="sg-section-lede">
 					Stamped-and-soft. Locked 2026-04-27 and lint-enforced (<code>pnpm lint:radius</code>).
@@ -663,7 +662,7 @@
 			  §09 — SHADOW SYSTEM
 			===================================================== -->
 			<section id="s09" class="sg-section">
-				<span class="mono sg-kicker">§09 · SHADOW</span>
+				<span class="mono sg-kicker">SHADOW</span>
 				<h2 class="sg-h2">Shadow system</h2>
 				<p class="sg-section-lede">
 					Default position: shadows are mostly OFF. Borders do the work. Shadows are reserved for
@@ -694,14 +693,14 @@
 			  §10 — MOTION (placeholder)
 			===================================================== -->
 			<section id="s10" class="sg-section">
-				<span class="mono sg-kicker">§10 · MOTION</span>
+				<span class="mono sg-kicker">MOTION</span>
 				<h2 class="sg-h2">Motion</h2>
 				<div class="sg-callout sg-callout--note">
 					<span class="mono sg-callout-tag">⏸ NOT YET LOCKED</span>
 					<p>
 						Motion tokens (durations, easings, reduced-motion rules) are still open. The proposal
-						lives in <code>docs/design-system.md</code> §10. This section reserves the slot — don&rsquo;t
-						demo motion until the tokens are ratified.
+						lives in <code>docs/design-system.md</code>, under Motion. This section reserves the
+						slot — don&rsquo;t demo motion until the tokens are ratified.
 					</p>
 				</div>
 			</section>
@@ -710,7 +709,7 @@
 			  §11 — BASE COMPONENTS
 			===================================================== -->
 			<section id="s11" class="sg-section">
-				<span class="mono sg-kicker">§11 · COMPONENTS</span>
+				<span class="mono sg-kicker">COMPONENTS</span>
 				<h2 class="sg-h2">Base components</h2>
 				<p class="sg-section-lede">
 					Production atoms rendered from the same components used across 9takes. Buttons and cards
@@ -905,7 +904,8 @@
 				<h3 class="sg-h3">Section kicker</h3>
 				<p class="sg-section-lede">
 					The canonical <code>&lt;SectionKicker&gt;</code> atom for the
-					<code>§NN · LABEL</code> mono pattern V5 uses across public surfaces.
+					<code>LABEL</code> mono pattern. Use it only when the label adds context; omit decorative section
+					numbers and labels that repeat a heading.
 				</p>
 				<div class="sg-kicker-stack">
 					{#each sectionKickerExamples as k}
@@ -969,8 +969,8 @@
 				<!-- ----- IndexHero (2026-06-10 extraction) ----- -->
 				<h3 class="sg-h3">IndexHero</h3>
 				<p class="sg-section-lede">
-					The §01 OBSERVATION hero for listing pages: grain, amber pool, scale-marker, statue frame
-					with vignette + mono caption. Snippets: <code>actions</code> (CTAs) and
+					The shared hero for listing pages: grain, amber pool, scale-marker, statue frame with
+					vignette + mono caption. Snippets: <code>actions</code> (CTAs) and
 					<code>meta</code> (Published / Updated row). The statue column hides below 968px — at this demo
 					width it may render text-only.
 				</p>
@@ -996,7 +996,7 @@
 			  §12 — BRAND VOCAB / IMAGERY
 			===================================================== -->
 			<section id="s12" class="sg-section">
-				<span class="mono sg-kicker">§12 · VOCAB</span>
+				<span class="mono sg-kicker">VOCAB</span>
 				<h2 class="sg-h2">Brand vocab &amp; imagery</h2>
 				<p class="sg-section-lede">
 					The visual anchors. Greek statues and the Enneagram diagram are the recurring symbols; the
@@ -1077,7 +1077,7 @@
 			  §13 — PERSONALITY PORTRAIT TREATMENT
 			===================================================== -->
 			<section id="s13" class="sg-section">
-				<span class="mono sg-kicker">§13 · PORTRAITS</span>
+				<span class="mono sg-kicker">PORTRAITS</span>
 				<h2 class="sg-h2">Contained-violet portrait treatment</h2>
 				<p class="sg-section-lede">
 					Violet stays inside the image, type color stays data, and amber remains reserved for
@@ -1470,11 +1470,6 @@
 				outline-offset: 2px;
 			}
 		}
-	}
-
-	.sg-toc-num {
-		color: var(--lamp-glow);
-		font-weight: 600;
 	}
 
 	.sg-toc-foot {

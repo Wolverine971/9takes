@@ -47,9 +47,11 @@
 
 	<div class="hero-inner">
 		<div class="hero-text">
-			<div class="hero-eyebrow">
-				<SectionKicker {num} {label} />
-			</div>
+			{#if label && label !== 'OBSERVATION'}
+				<div class="hero-eyebrow">
+					<SectionKicker {num} {label} />
+				</div>
+			{/if}
 
 			{#if headingLevel === 'h4'}
 				<h4 class="hero-title">{title}</h4>

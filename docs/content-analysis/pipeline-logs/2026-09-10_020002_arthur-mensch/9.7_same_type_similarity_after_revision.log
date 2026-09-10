@@ -1,0 +1,88 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — Arthur-Mensch (Type 6)
+/Users/djwayne/9takes/src/blog/people/drafts/Arthur-Mensch.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 48
+Comparison set (last 8 other Type-6 drafts by date):
+  - Nathan-Fielder  (2026-09-09, 28 units)
+  - zach-bryan  (2026-09-09, 43 units)
+  - Patrick-Mahomes  (2026-09-08, 46 units)
+  - Bill-Burr  (2026-09-07, 43 units)
+  - Rebecca-Yarros  (2026-08-31, 31 units)
+  - laura-loomer  (2026-08-31, 25 units)
+  - simone-biles  (2026-08-25, 42 units)
+  - keira-knightley  (2026-08-17, 32 units)
+
+Noise floor over 13920 unit pairs:  median=0  p90=0  p99=0.006  max=0.089
+Trip threshold: 0.04  →  TRIPPED
+
+TRIP PAIRS:
+------------------------------------------------------------------------------
+score 0.043   Arthur-Mensch  <->  Rebecca-Yarros
+   TARGET [counter-typing] December 2025 is the better test
+   OTHER  [diagnosis] " she said on The Book Hook podcast in December 2025.
+
+
+Most similar drafts (max unit-pair score):
+  0.089 ####                 zach-bryan
+  0.060 ##                   simone-biles
+  0.050 ##                   Patrick-Mahomes
+  0.043 ##                   Rebecca-Yarros
+  0.033 #                    laura-loomer
+  0.032 #                    keira-knightley
+  0.032 #                    Bill-Burr
+  0.029 #                    Nathan-Fielder
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.089   Arthur-Mensch  <->  zach-bryan
+   TARGET [counter-typing] and the tiebreaker is argued in the body above.
+   OTHER  [diagnosis] different arrest record.) The tiebreaker is what happens after he blows up.
+
+score 0.060   Arthur-Mensch  <->  simone-biles
+   TARGET [diagnosis] both of whom left Meta's LLaMA team to do it.
+   OTHER  [counter-typing] and going back to the site of her worst public failure to do it again.
+
+score 0.050   Arthur-Mensch  <->  Patrick-Mahomes
+   TARGET [diagnosis] That is a reading of public evidence rather than a diagnosis
+   OTHER  [diagnosis] but they don't see that preparation." That is a Six talking
+
+score 0.043   Arthur-Mensch  <->  Rebecca-Yarros
+   TARGET [counter-typing] December 2025 is the better test
+   OTHER  [diagnosis] " she said on The Book Hook podcast in December 2025.
+
+score 0.043   Arthur-Mensch  <->  simone-biles
+   TARGET [counter-typing] released under Apache 2.0 at the point of maximum incentive to keep it.
+   OTHER  [counter-typing] The reason to keep it is that both questions were asked privately
+
+score 0.042   Arthur-Mensch  <->  simone-biles
+   TARGET [diagnosis] Sixes interrogate every promise to find out which part of it is load-bearing.
+   OTHER  [diagnosis] "I really need to find out who I am without gymnastics." In that same 2024 Call Her Daddy interview she finds the attention baffling.
+
+score 0.036   Arthur-Mensch  <->  simone-biles
+   TARGET [diagnosis] Later in that same January 2026 Big Technology conversation he followed the logic to its end
+   OTHER  [diagnosis] "I really need to find out who I am without gymnastics." In that same 2024 Call Her Daddy interview she finds the attention baffling.
+
+score 0.036   Arthur-Mensch  <->  simone-biles
+   TARGET [counter-typing] and the tiebreaker is argued in the body above.
+   OTHER  [counter-typing] The Type 3 case is argued up in the diagnosis section
+
+score 0.033   Arthur-Mensch  <->  laura-loomer
+   TARGET [diagnosis] That is a reading of public evidence rather than a diagnosis
+   OTHER  [diagnosis] Public evidence supports this interpretation.
+
+score 0.033   Arthur-Mensch  <->  simone-biles
+   TARGET [counter-typing] An Eight expands from felt power.
+   OTHER  [counter-typing] An Eight comes in hard because the fear is absent
+
+score 0.032   Arthur-Mensch  <->  keira-knightley
+   TARGET [counter-typing] and the classic mistyping for a counterphobic Six.
+   OTHER  [diagnosis] The counterphobic Six handles fear by attacking it
+
+score 0.032   Arthur-Mensch  <->  Bill-Burr
+   TARGET [diagnosis] He built an institution positioned so that no institution above it can dissolve it
+   OTHER  [diagnosis] I was so walled-off and fucked-up that doing stand-up was the easiest way to go into a room full of strangers and make them like me so that no one would hurt me
+
+------------------------------------------------------------------------------
+Top pair scores 0.089 vs median 0  (~∞x the noise floor).

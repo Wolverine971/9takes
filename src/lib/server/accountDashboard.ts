@@ -15,7 +15,11 @@
 // 20260725_notifications.sql is applied.
 
 import type { SupabaseClient } from '@supabase/supabase-js';
-import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
+import {
+	buildPersonalityImagePath,
+	formatPersonalityDisplayName,
+	normalizePersonalitySlug
+} from '$lib/utils/personalityAnalysis';
 
 /**
  * Demo mode swaps every table for a *_demo twin at runtime, so table names here
@@ -303,21 +307,13 @@ export async function loadSharedTypePeople(
 			const slug = normalizePersonalitySlug(row.person);
 			return {
 				slug,
-				name: displayNameFromSlug(slug),
+				name: formatPersonalityDisplayName(row.person),
 				personaTitle: row.persona_title,
-				imagePath: `/types/${enneagram}s/s-${slug}.webp`
+				imagePath: buildPersonalityImagePath(enneagram, row.person)
 			};
 		});
 
 	return rotateByDay(pool, limit, seed, day);
-}
-
-function displayNameFromSlug(slug: string): string {
-	return slug
-		.split('-')
-		.filter(Boolean)
-		.map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-		.join(' ');
 }
 
 export async function loadCommunityPulse(

@@ -1,0 +1,17 @@
+**Arthur Mensch: PASS — 37/100. Not an Emerging Entity Gap.**
+
+He died at the Wikipedia gate. The personal article is a ~3,500–4,000 word, nine-section biography with birth date, birthplace, both parents' occupations, full education timeline, and career timeline. Generic biography intent is owned.
+
+**The pattern worth your attention:** he's the *fifth consecutive* frontier-AI-founder to fail this rubric the exact same way — Amodei 34, Liang 40, Wang 43, Hassabis 44, Mensch 37. The reason is structural: the catalyst big enough to create name-search demand is the same catalyst that triggers the Wikipedia article. I'd stop routing AI founders through this command expecting a diamond and generate them as cluster creates instead. The lane that still works is Jordi Hays / Ashby / Coogan — real notability, no institutional recognition.
+
+**I did not veto the create.** He's `inProgress` at priority 90, approved 09-09, and that's your call above this rubric. So the packet redefines the page's job instead: don't chase biography intent, win the psychology long-tail and the frontier-builder cross-links.
+
+**Two things you should actually decide on:**
+
+1. **There's a live fact trap the pipeline would have walked into.** Analytics Insight ranks page one for "Arthur Mensch biography" and says his father was a mathematician and mother a computer scientist — **uncited, and contradicted by Wikipedia's *Le Point*-sourced "businessman father, physics teacher mother."** Separately, the French private-life SERP (`couple`, `fortune`, `parents`) is *entirely* content farms, and one page speculates about whether he's Jewish based on his surname. I've marked all of it blocking in the pipeline log. Worth noting I could not read *Le Point* directly — it's paywalled — so the family detail should be obtained before use or cut.
+
+2. **The angle is genuinely good if you proceed.** He states both halves of the contradiction himself: *"Inherently, this is a technology that is going to get commoditized... it's actually not hard to build"* — then raised €3B at €21B+, the largest private tech round in European history, to build exactly that. The resolution is that he's betting on the delivery layer, not the model, and his own metaphor gives it away: *"transform megawatts into intelligence"* — an electrician, not an oracle. That's a deflationary self-concept in an industry selling transcendence, and it predicts every strategic move he's made.
+
+Source depth is excellent (14/15) — full transcripts from Big Technology, three CNBC sits, and a candid Polytechnique student interview. The problem was never evidence; it was that Wikipedia got there first.
+
+Written: `docs/content-analysis/entity-gaps/Arthur-Mensch.md` and the brief into the pipeline's waiting `0.5_entity_gap_brief.log`. I didn't touch the queue, DB, or any draft.

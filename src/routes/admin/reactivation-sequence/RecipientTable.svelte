@@ -360,7 +360,7 @@
 <section class="recipient-section">
 	<div class="section-header">
 		<div>
-			<p class="section-kicker">§06 · RECIPIENT PIPELINE</p>
+			<p class="section-kicker">RECIPIENT PIPELINE</p>
 			<h2>Reactivation Recipients</h2>
 			<p class="info-note">
 				Eligible profiles, queued sends, sequence progress, and response signals in one view. Select

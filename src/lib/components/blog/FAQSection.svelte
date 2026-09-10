@@ -2,30 +2,16 @@
 <!-- FAQSection.svelte - Reusable FAQ component for cluster/index pages -->
 <script lang="ts">
 	import type { FAQItem } from '$lib/types/faq';
-	import SectionKicker from '$lib/components/atoms/SectionKicker.svelte';
 
 	export let faqs: FAQItem[];
 	export let title: string = 'Frequently Asked Questions';
 	export let sectionId: string = 'faq';
-	// §NN kicker number. Listing pages run a numbered-section grammar
-	// (§01–§06); FAQ used to render without one, so the sequence visibly
-	// skipped a number (design audit 2026-06-09). When set, the standard
-	// kicker replaces the old "?" icon badge.
-	export let num: string = '';
 </script>
 
 <section class="faq-section" id={sectionId}>
 	<div class="section-header">
 		<div class="section-title-group">
-			{#if !num}
-				<span class="section-icon">?</span>
-			{/if}
 			<div>
-				{#if num}
-					<div class="faq-kicker">
-						<SectionKicker {num} label="FAQ" />
-					</div>
-				{/if}
 				<h2>{title}</h2>
 				<p class="section-subtitle">Quick answers to common questions</p>
 			</div>
@@ -74,24 +60,6 @@
 		display: flex;
 		align-items: center;
 		gap: 0.75rem;
-	}
-
-	.faq-kicker {
-		margin-bottom: 0.4rem;
-	}
-
-	.section-icon {
-		font-size: 1.25rem;
-		width: 2.25rem;
-		height: 2.25rem;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		background: var(--lamp-soft);
-		border-radius: 0.625rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
-		color: var(--lamp-glow);
-		font-weight: 700;
 	}
 
 	.section-title-group h2 {

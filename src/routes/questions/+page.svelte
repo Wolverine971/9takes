@@ -303,10 +303,6 @@
 
 		<div class="hero-inner">
 			<div class="hero-text">
-				<div class="hero-eyebrow">
-					<SectionKicker num="01" label="OBSERVATION" />
-				</div>
-
 				<h1 class="display-xl">Drop a situation. Get nine reads.</h1>
 
 				<p class="hero-subhead">
@@ -692,10 +688,6 @@
 
 	.hero-text {
 		max-width: 680px;
-	}
-
-	.hero-eyebrow {
-		margin-bottom: 14px;
 	}
 
 	.hero-subhead {

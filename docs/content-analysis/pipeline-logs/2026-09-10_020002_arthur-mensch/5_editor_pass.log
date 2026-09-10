@@ -1,0 +1,23 @@
+All checks green. Final state verified.
+
+**Draft polished:** `src/blog/people/drafts/Arthur-Mensch.md` (perspective-jury mode, review dir `2026-09-10_020002`, frozen SHA matched).
+
+**What I fixed.** The synthesis's diagnosis was right: the interpretation was fine, the record under it wasn't. Three failure classes:
+
+- **Derived numbers inherited rather than computed.** He was 34, not 33 — in the opening sentence *and* in the FAQ that answers "How old is Arthur Mensch?" as structured data. Mistral was ~40 months old, not thirty (now "three-year-old," which is Mistral's own phrasing and can't decay). The marathon restatement said four hours for a sub-3:30 time. I corrected the research file's "~28 months" too, so the next pass doesn't reproduce it.
+- **Adverse facts closed out by moves that didn't answer them.** A UK merger-control finding was standing in for a lobbying ruling nobody issued. The Rabbit Hole's own falsifier rested on Mistral Large 2 — a research-and-non-commercial release, the one where Mistral kept exactly the switch the thesis says he refuses to let anyone hold — while Mistral Large 3 (Apache 2.0, Dec 2025) was absent from the article entirely. And the seller quote was cut before its because-clause, with the thesis's reason installed in place of his. All three repaired; the falsifier now rests on Large 3.
+- **The critic section was the weakest section.** Two objections were factually wrong *against* him ("a few dozen" customers, contradicted by Mistral's own Series D release; "most public benchmarks"), and the strongest available objection was missing. It now names the $830M seven-bank debt, 13,800 Nvidia GB300s in a hall another company runs, his own "for now we are relying on Nvidia," the sales-positioning-not-psychology objection, and one behavior Type 6 doesn't explain.
+
+Two Enneagram internal contradictions are gone: the phobic/counterphobic payoff no longer calls rare what the T6 pillar calls typical, and the Five/Six tiebreaker no longer rests on "Fives work alone," which the Hassabis page it links to refutes.
+
+**Research resolved.** Both in-scope RQs came back affirmative. RQ-01: x.com returns HTTP 402 to fetchers, but the snowflake ID decodes to 2023-12-08T16:39:12Z, matching the claim, and the search index carries that exact permalink with the full text — so Eric Jang is named and the permalink is cited. RQ-02: I found a full credited reproduction of the paywalled Le Figaro profile; the Mairal comparative clause **is** in the printed text (so it stays), and the same read confirmed Le Figaro credits the GAFAM line to the Wall Street Journal, which fixed the translation-chain claim.
+
+**Final numbers:** contrast pairs **0 strong / 0 comparative**; blog-lint **0 fail, 0 warn**; body **3,899 words**, inside the 3,200–3,900 band; 0 prose em-dashes; source audit back to **7 inline / 0 vague / 0 untagged**; all **15 protected hits verified present** by exact-string grep.
+
+**On the budget** — this was the real editorial decision. Repairs added ~400 words against 7 of headroom, partly because several P1s the synthesis costed at "~0" have acceptance tests requiring real substance, and one named funding source (the five-item deflation inventory) had already been trimmed away in the second pass. I paid for it with ~400 words of cuts rather than dropping repairs: the seller beat, a near-verbatim restatement of the protected core-fear line, the miracle/electricity coda, the deflation inventory folded to a clause, the Rabbit Hole's wing/subtype/arrow paragraphs, the corpus arithmetic, and the diagnosis trim Conflicts #3 licensed.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/editor-resolution.md` — all 12 P0s `fixed`, 16 P1s applied, P2-01/03/04/05/06/07 taken, P2-02 rejected on budget, all 15 protected hits checked individually.
+
+**Left for a human:** RQ-03 (the National Assembly hearing) is still unmined — out of scope by the brief and nothing depends on it, but it's the one source that could justify reopening whether the closing section's absolutism needs qualifying. RQ-04 (any Commission answer) is unresolved; the article states the negative as of publication so it updates rather than contradicts. And there's a genuine source conflict: the research file records him saying Mistral *« doit beaucoup à la France »*, while the synthesis adjudicated that no verified quote uses debt language. The draft is now safe under either reading, but someone should read that Le Figaro sentence in context.
+
+My read: production-ready. The remaining items are enrichment, not defects.

@@ -65,10 +65,7 @@
 		<div>
 			<span class="eyebrow">Comment growth / controlled pilot</span>
 			<h1>Question distribution</h1>
-			<p>
-				Choose one homepage question, give it a fair exposure window, and review the result before
-				choosing the next one.
-			</p>
+			<p>Manage saved feature runs, fallback settings, and historical exposure results.</p>
 		</div>
 		<div class="automation-state">
 			<span>Automation</span>
@@ -76,6 +73,11 @@
 			<small>Automatic queue advancement is off.</small>
 		</div>
 	</header>
+
+	<p class="form-message">
+		The current homepage uses private practice. These saved feature runs and fallback settings do
+		not change it or receive homepage impressions.
+	</p>
 
 	{#if form?.message}
 		<p class={['form-message', form.success ? 'success' : 'error']} role="status">
@@ -86,7 +88,7 @@
 	<section class="current-card" aria-labelledby="current-feature-heading">
 		<div class="section-heading">
 			<div>
-				<span class="eyebrow">Live homepage selection</span>
+				<span class="eyebrow">Saved feature selection</span>
 				<h2 id="current-feature-heading">
 					{data.current?.is_fallback ? 'Fallback question' : 'Active feature run'}
 				</h2>
@@ -142,12 +144,12 @@
 				</form>
 			{:else}
 				<p class="fallback-note">
-					No pilot is active. The explicit fallback remains live until an operator starts a run.
+					No saved run is active. The fallback remains selected in these settings.
 				</p>
 			{/if}
 		{:else}
 			<p class="empty-state">
-				No eligible database selection is available. The application emergency fallback is in use.
+				No eligible database selection is available. These settings use the emergency fallback.
 			</p>
 		{/if}
 	</section>
@@ -227,12 +229,12 @@
 			<div class="section-heading">
 				<div>
 					<span class="eyebrow">Safe idle state</span>
-					<h2 id="fallback-heading">Homepage fallback</h2>
+					<h2 id="fallback-heading">Saved fallback</h2>
 				</div>
 			</div>
 			<p class="panel-copy">
-				This question appears when no run is active, paused runs included. Changing it does not
-				start a feature run.
+				This question is selected in these settings when no run is active, paused runs included.
+				Changing it does not start a feature run or change the current homepage.
 			</p>
 			<form class="stacked-form" method="POST" action="?/setFallback" use:enhance>
 				<label>

@@ -323,7 +323,7 @@
 	  §05 FAQ — preserved component (drives the FAQPage JSON-LD too)
 	  ===================================================================== -->
 	<section class="faq">
-		<FAQSection faqs={communityFAQs} title="About 9takes" num="05" />
+		<FAQSection faqs={communityFAQs} title="About 9takes" />
 	</section>
 
 	<!-- =====================================================================

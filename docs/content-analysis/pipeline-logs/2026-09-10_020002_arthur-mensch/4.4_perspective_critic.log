@@ -1,0 +1,17 @@
+All eleven required headings present, counts match the document.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/critic.md`
+
+**Verdict:** `revise` — trust strained, value useful, delight clear_hit. **4 blockers, 7 concerns.**
+
+The article admits its adverse facts but does not survive them. Every one is admitted and then closed out by a move that doesn't answer it — which is a worse failure than omission, because it's concentrated in the sections built to prove fairness is happening.
+
+**Strongest hit** — the depreciation rebuttal (line 331): *"A rented cluster and an owned cluster lose value on the same schedule. Only one can be taken away from you."* It anticipated my hardest economic objection, refused the easy dodge, and converted it into evidence. Must survive verbatim.
+
+**Highest-priority concern (CRITIC-C1):** the hinge of the whole diagnosis — *"As a description of what a person is afraid of, it is the whole man"* — is an inference from a CEO's enterprise-sales vocabulary, delivered to buyers on a technology podcast, and the draft never once tests it against the obvious deflationary reading that this is vendor positioning any open-weights company would produce. The critic section attacks whether his commoditization claim is sincere; it never attacks whether the leap from sales script to psychology is licensed.
+
+Three things worth flagging beyond the file:
+
+- **Two blockers came from my own checks, not the packet.** Mistral Large 2 — the draft's designated rebuttal to its own falsifier — shipped under a research/non-commercial licence (so Mistral kept exactly the switch the thesis says he refuses to let anyone hold) *and* landed one day after Llama 3.1 405B, which guts "Nobody made it do that." The stronger fact the draft needed (Mistral Large 3, Apache 2.0, Dec 2025) exists and is unused. Separately, the "own the physical layer outright" claim omits ~$830M of seven-bank debt and ~13,800 Nvidia GB300s, with Mensch himself saying his own chips "may come."
+- **A packet flag is discharged in the draft's favor.** CLM-07 marked the Mixtral "refuses to elaborate" quotation UNVERIFIED with fabricated-quote exposure. It's real — Eric Jang, X, 2023-12-08. I raised no finding and moved it to the preserve list.
+- **The critic section's two factual errors run *harsh* on the subject** ("a few dozen" customers vs. 125+; "most public benchmarks"), which still helps him — an objection a reader can refute dies on contact, and one of them gets converted into a compliment about his candour.

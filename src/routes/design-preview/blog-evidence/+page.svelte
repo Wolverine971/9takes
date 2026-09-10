@@ -19,7 +19,7 @@
 
 <main class="evidence-preview">
 	<header class="evidence-preview__header">
-		<p>§01 · COMPONENT PROOF</p>
+		<p>COMPONENT PROOF</p>
 		<h1>Elon Musk evidence cards</h1>
 		<span>Five local visual hooks. No Supabase data is changed by this preview.</span>
 		<a class="full-preview-link" href="/design-preview/blog-evidence/elon-musk">

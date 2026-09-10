@@ -4,12 +4,12 @@ meta_title: "Zach Bryan's Personality Type: Why He Fights Every Machine"
 persona_title: "Country's Loyal Mutineer"
 description: 'Why does the man who fought Ticketmaster, left the majors, and packed 112,408 into Michigan Stadium keep apologizing? Zach Bryan, decoded as a Type 6.'
 author: 'DJ Wayne'
-date: '2026-09-09'
+date: '2026-09-10'
 loc: 'https://9takes.com/personality-analysis/zach-bryan'
-lastmod: '2026-09-09'
+lastmod: '2026-09-10'
 changefreq: 'monthly'
 priority: '0.6'
-published: false
+published: true
 enneagram: 6
 type: ['musician']
 person: 'zach-bryan'

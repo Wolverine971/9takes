@@ -98,6 +98,7 @@ export const load: PageServerLoad = async (event) => {
 	}
 
 	return {
+		pageShell: 'owned' as const,
 		user: mapDemoValues(user),
 		enneagram,
 		subscriptions: mapDemoValues(subscriptionsResult.data ?? []),

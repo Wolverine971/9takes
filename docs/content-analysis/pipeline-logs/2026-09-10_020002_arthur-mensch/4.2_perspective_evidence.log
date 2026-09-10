@@ -1,0 +1,19 @@
+Packet written and validated. Frontmatter parses, subject and SHA match `context.json`, all ten required H2 headings present, and both the snapshot and live draft still hash to `f8e2e957…8556f3` — nothing else was edited.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/evidence-packet.md`
+
+36 sources (S-01–S-36), 25 claim IDs (CLM-01–CLM-25), each labeled verified fact / attributed claim / interpretation / disputed claim / unresolved question.
+
+**Largest unresolved evidence gap: the July 2024 Mistral Large 2 rebuttal (CLM-04).**
+
+The draft's Rabbit Hole names its own falsifier — that sovereignty conviction might be downstream of positioning — points it at February 2024, and then defeats it with one fact: "that July… Mistral published the weights of Mistral Large 2. Nobody made it do that." Mistral's own announcement shows those weights shipped under the **Mistral Research License**, research and non-commercial only, with commercial self-deployment requiring a separate licence Mistral grants. So a paying customer still could not run it "on their own terms" — which is exactly the switch the draft's thesis says Mensch refuses to let anyone hold. The rebuttal is literally defensible and thesis-wise weaker than it reads, and it carries the falsifier test, a critic-section paragraph, and FAQ #5.
+
+Compounding it: the fact that *would* carry the argument is missing. **Mistral Large 3 (2025-12-02) is a 675B flagship released under Apache 2.0** — permissive commercial use, no permission needed. It's what actually makes the present-tense section title "Why Mistral gives away the models it sells" true in 2026, and the draft never mentions it.
+
+Three other findings evaluators will want early:
+
+- **CLM-01 — he was 34, not 33.** Born 1992-07-17; the round closed 2026-09-08. The error sits in the opening sentence *and* in FAQ #2, which is emitted as structured data answering "How old is Arthur Mensch?" It traces back through the entity-gap packet to accurate September 2025 French coverage that went stale.
+- **CLM-02 — ~40 months, not thirty.** Founded April/May 2023. Appears twice in reader-visible copy, once as a narrative punchline; the research file's "~28 months" has the same error.
+- **CLM-07 — an unverified quotation.** The sentence attributed to "One researcher" about the 87GB torrent and refusing to elaborate could not be located across four search angles plus a direct read of Nathan Lambert's contemporaneous piece. The surrounding facts (Dec 8, 87GB, bare magnet link) all verify; the quoted sentence does not.
+
+One process note worth carrying forward: the February 2024 Microsoft block — spine of two sections plus the falsifier — entered during the second pass and, by the draft's own admission, never passed through the research file. It largely holds under independent checking, but two attributions drifted: the Green MEP letter asked about ethics and conflicts of interest rather than "whether Mistral served as a lobbying vehicle," and the "Trojan horses" report is joint work by three organizations, not Corporate Europe Observatory alone. That's the same second-pass blind spot pattern as the Mahomes case — a repair can carry unlogged evidence into the draft ahead of the gate.

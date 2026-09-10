@@ -123,7 +123,7 @@ is implementation consolidation rather than choosing a new visual direction.
 
 - Pools of warm light against deep stone (chiaroscuro composition)
 - Greek statue imagery as illuminated subject, not decorative texture
-- Mono labels as section markers (`§NN · LABEL`) and dossier annotations
+- Optional mono labels for useful context and dossier annotations. Decorative section codes such as `§01` were retired by DJ on 2026-09-10; remove labels that merely repeat the heading. Meaningful type numbers and process steps remain.
 - 1px stone-edge borders as the elevation workhorse — shadows reserved for floating UI
 - Sodium-amber primary glow — never neon, never gradient-drenched
 - Negative space treated as deep night, not empty white
@@ -252,10 +252,10 @@ Cut from six to two:
 
 **Type system:** Inter (variable, weights 400–800) + JetBrains Mono. **No serif. No third sans-serif.**
 
-| Family             | Use                                                                            | Loaded via                                                        |
-| ------------------ | ------------------------------------------------------------------------------ | ----------------------------------------------------------------- |
-| **Inter**          | Display, headlines, body — every size from 12px to 80px                        | `@fontsource-variable/inter` (Phase 2 swap from Google Fonts CDN) |
-| **JetBrains Mono** | Section kickers (`§NN · LABEL`), dossier annotations, stat values, coordinates | Already loaded globally                                           |
+| Family             | Use                                                                     | Loaded via                                                        |
+| ------------------ | ----------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Inter**          | Display, headlines, body — every size from 12px to 80px                 | `@fontsource-variable/inter` (Phase 2 swap from Google Fonts CDN) |
+| **JetBrains Mono** | Useful unnumbered labels, dossier annotations, stat values, coordinates | Already loaded globally                                           |
 
 **Drop in Phase 2:** Rajdhani, Space Grotesk. Inter at weight 800 with -0.04em letter-spacing handles the gravitas role Rajdhani used to do. (Noticia Text files in `static/fonts/` are **kept intentionally** — the question social-card renderer (`renderQuestionSocialCard.ts`) loads the TTFs at runtime, and question-print/social-card templates use the family. Exempt asset skin, not UI chrome.)
 

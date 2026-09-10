@@ -1,0 +1,16 @@
+All eleven required headings present, counts match, snapshot SHA verified against `context.json` and the supplied argument.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/enneagram.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **revise**
+
+**Blockers: 2** — both are theory errors against 9takes' own published pages, not disputes with the Type 6 call itself:
+
+- **ENN-R1** — "Most Sixes lean one way. Mensch runs both" contradicts `enneagram-type-6.md:226` ("Most Sixes contain both tendencies, shifting between them depending on domain"), which the pillar also ships as FAQ structured data. The draft asserts as rare what the house calls typical, as a section payoff.
+- **ENN-R2** — The Five/Six tiebreaker's second half ("Fives work alone by preference") is refuted by the corpus's own flagship Five in the paragraph that links to him: the Hassabis page types him **5w6**, credits him with "the Six's instinct for alliances, institutions," says he "built a durable institution rather than a lone-genius practice," and rejects a Six reading on a *different* ground — exiting authority structures. Mensch is 6w5; alliance density cannot discriminate the two. The repair uses a sentence already in the draft's CNRS section.
+
+**Strongest hit:** the Mixtral 8x7B magnet link — "A torrent has no owner… He did not describe non-revocability that week. He shipped it." A costly, unforced, non-commercial act with no one being sold to. It's the best type evidence in the piece precisely because it's behavior, not speech.
+
+**Highest-priority concern (ENN-C1):** the diagnostic hinge — "As a description of what a person is afraid of, it is the whole man" — reads enterprise procurement vocabulary as fear structure, using quotes from a podcast whose audience is buyers. The packet calls this "the hinge of the entire diagnosis." I found the fix is concrete rather than aspirational: Mensch's 2026-05-12 National Assembly testimony is published in full verbatim, on-theme, and unmined — with sharper language than anything the draft uses ("you're in a vassal state position"), in a room with no customers. I flagged the honest caveat too: a hearing before his own regulator isn't disinterested, it just clears the specific sales confound.
+
+One note for whoever synthesizes: the passage I most want preserved (ENN-H2) contains the packet's CLM-07, an unsourced quotation. Preserve the beat, resolve the attribution.

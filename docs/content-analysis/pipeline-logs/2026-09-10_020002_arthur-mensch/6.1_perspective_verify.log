@@ -1,0 +1,12 @@
+Verification complete. The draft was not modified — its hash is unchanged.
+
+**Output path:** `docs/content-analysis/perspective-reviews/Arthur-Mensch/2026-09-10_020002/verification-initial.md`
+**Verification status:** `pass`
+**Open P0:** 0
+**Protected-hit regressions:** 0
+
+All twelve P0 items resolve against their own acceptance tests, all sixteen accepted P1 items are completed (none rejected or deferred), and all fifteen protected hits survive — thirteen by exact string, two structurally. The two cross-page contradictions were re-verified directly in the repo rather than taken from the resolution log: `enneagram-type-6.md:226` now agrees with the phobic/counterphobic passage, and the tiebreaker's second half runs on the same authority-structure discriminator `Demis-Hassabis.md:313` uses.
+
+Three non-blocking items are logged under Remaining work. The one worth your attention: P0-05's negative finding shipped as "no published Commission ruling **to date**" in the body and with no temporal qualifier at all in FAQ #5, where the acceptance test asked for an explicit date — the editor's self-check claimed "as of publication," which isn't what the text says. Nothing false ships today, but FAQ #5 is structured data with no date context. A four-word fix. The other two are a citation/research-file gap on the new $830M / 13,800-GPU infrastructure figures (the trail exists in `synthesis.md` but doesn't travel with the article), and the four decisions already carried forward from the editor resolution.
+
+The deterministic gate script, not this report, decides whether the pipeline may finalize.

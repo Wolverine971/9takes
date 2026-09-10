@@ -21,7 +21,7 @@
 	</div>
 
 	<header class="article-preview__header">
-		<p>§01 · PERSONALITY CASE FILE</p>
+		<p>PERSONALITY CASE FILE</p>
 		<h1>{data.title}</h1>
 		{#if data.description}
 			<span>{data.description}</span>

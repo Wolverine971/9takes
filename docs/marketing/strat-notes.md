@@ -1,5 +1,11 @@
 <!-- docs/marketing/strat-notes.md -->
 
+##
+
+can you visualize it
+can you falsify it
+what can no one else say
+
 ## why is audience valuable
 
 because they are going to be dealing with people's differences for years to come

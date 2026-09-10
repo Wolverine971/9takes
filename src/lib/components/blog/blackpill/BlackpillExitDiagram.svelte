@@ -46,7 +46,7 @@
 
 <section class="exit-map" aria-labelledby="exit-map-title">
 	<header class="map-header">
-		<p class="kicker">§02 · Breaking the loop</p>
+		<p class="kicker">Breaking the loop</p>
 		<h2 id="exit-map-title">You do not have to solve your whole life. Break one link.</h2>
 		<p>
 			The first move is seeing the spiral while it is happening. The second is testing one part of

@@ -57,7 +57,7 @@
 
 <section class="pipeline-map" aria-labelledby="pipeline-map-title">
 	<header class="map-header">
-		<p class="kicker">§01 · The downward spiral</p>
+		<p class="kicker">The downward spiral</p>
 		<h2 id="pipeline-map-title">Pain is real. The story turns it into fate.</h2>
 		<p>
 			The blackpill does not begin as one bad idea. It forms as pain, blame, community, and behavior

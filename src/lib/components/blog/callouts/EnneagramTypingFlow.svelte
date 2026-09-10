@@ -16,7 +16,7 @@
 
 <figure class="typing-flow" aria-labelledby="typing-flow-title">
 	<figcaption class="typing-flow__caption">
-		<span class="typing-flow__tag">§ THE FRAMEWORK · MOTIVATION OVER BEHAVIOR</span>
+		<span class="typing-flow__tag">THE FRAMEWORK · MOTIVATION OVER BEHAVIOR</span>
 		<h3 id="typing-flow-title" class="typing-flow__title">How a behavior becomes a type.</h3>
 		<p class="typing-flow__sub">
 			One pattern in. The "why" question. Three emotion centers. Nine typed lessons. One type out.

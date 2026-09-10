@@ -178,9 +178,9 @@ The [Enneagram Type 3](/enneagram-corner/enneagram-type-3) reading asks a specif
 
 ### Elizabeth Holmes is an Enneagram Type 3, in this interpretation
 
-The case for reading Elizabeth Holmes as an Enneagram Type 3 rests on her pursuit of recognition as a medical innovator and the work she put into sustaining that identity. Confidence is moderate. Her behavior supports an interpretation; Holmes has not confirmed this typing, and the wing and instinctual subtype remain uncertain.
+The case for reading Elizabeth Holmes as an Enneagram Type 3 rests on her pursuit of recognition as a medical innovator and the work she put into sustaining that identity. Confidence is moderate. Holmes has never confirmed a typing, and neither her wing nor her instinctual subtype can be settled from what is on the record.
 
-The emotional pressure in this reading is shame: the possibility that admitting a limit will make the whole person seem inadequate. For Holmes, the specific threat would be losing the identity of the exceptional founder who could solve a problem established medicine had failed to solve. Her public choices support that hypothesis; she has not confirmed it.
+The emotional pressure in this reading is shame: the possibility that admitting a limit will make the whole person seem inadequate. For Holmes, the specific threat would be losing the identity of the exceptional founder who could solve a problem established medicine had failed to solve. That reading is inferred from what she did in public. She has never described the pressure herself.
 
 It helps explain why confidence might become so difficult to surrender. Admitting that a blood test failed would also puncture the promise attached to her name. Correcting the technology required her to risk some of the standing she had gained by promoting it.
 
@@ -315,6 +315,41 @@ Both shortcuts let us stop looking. The blood test needed evidence. So does the 
 ---
 
 _This unaffiliated personality analysis uses public records, interviews and reporting._
+
+<!-- IN-SESSION QA PASS 2026-09-09 (not a six-perspective certificate)
+Context: the 2026-09-09 pipeline run for this refresh never executed. Every external stage exited in
+about three seconds with "Not logged in · Please run /login" (see
+docs/content-analysis/pipeline-logs/2026-09-09_112933_Elizabeth-Holmes/1_refresh.log). The frozen
+snapshot in perspective-reviews/Elizabeth-Holmes/2026-09-09_112933/ is the PRE-rewrite article and
+must not be bound to this copy. This pass is a direct editorial and deterministic check only. It does
+NOT supply an evidence packet, six isolated jury reviews, a synthesis, or fresh grades, so the publish
+and sync gates still correctly refuse this draft.
+
+Verified in this pass:
+- All eight external citation URLs spot-checked return HTTP 200, including the abcnews.com host used
+  four times (it redirects to abcnews.go.com).
+- The March 2026 sentence reduction was confirmed against the Volokh Conspiracy's reproduction of the
+  order: 11.25 years to 10.25 years (135 to 123 months), Judge Edward Davila, order dated March 27,
+  2026, under the retroactive two-level reduction at U.S.S.G. 4C1.1. The draft's narrower wording is
+  accurate as written.
+
+Repaired in this pass:
+- scripts/same-type-similarity.mjs TRIPPED at 0.092 against the adela draft, contradicting the
+  handoff's recorded "clear, max 0.038". The handoff's scan ran at 11:29; adela's own refresh landed
+  at 12:11 and moved the text underneath it. The shared units were diagnosis boilerplate
+  ("Her public choices support that hypothesis" / "Her public interviews support that reading", and
+  two near-identical "remain uncertain" hedges). Rewrote the Holmes side, which carries no perspective
+  binding. Scan is now clear.
+- That rewrite introduced one strong [X,-not-Y] contrast engine, which blog-lint rejects; rewritten
+  again. Final: lint 0 fail / 0 warn, contrast pairs 0, head-term PASS, answer block 56 words,
+  source audit 0 untagged, same-type-similarity clear.
+
+Still unverified, carried forward:
+- The September 2026 New York Times report that Holmes and Billy Evans dispute how she was quoted in
+  Amy Chozick's 2023 profile. nytimes.com cannot be fetched from this session and a web search did not
+  independently surface the 2026 dispute. The draft's wording is already bounded ("The report does not
+  identify every disputed line"), so it stands as an attributed claim with a recorded limitation.
+-->
 
 <!-- REFRESH LEDGER 2026-09-09
 Trigger: A24's You Can See Everything; full-source audit of existing published analysis.

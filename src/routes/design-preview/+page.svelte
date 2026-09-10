@@ -86,7 +86,7 @@
 		<div class="hero-grid">
 			<div class="hero-text">
 				<div class="dossier-eyebrow">
-					<span class="mono">§01 · OBSERVATION</span>
+					<span class="mono">OBSERVATION</span>
 				</div>
 
 				<h1 class="display-xl">See the emotions behind every take.</h1>
@@ -143,7 +143,7 @@
 	<section class="hook">
 		<div class="hook-grid">
 			<div class="hook-left">
-				<span class="mono section-tag">§02 · DIAGNOSIS</span>
+				<span class="mono section-tag">DIAGNOSIS</span>
 				<h2 class="display-md">Most people walk around blind to their own patterns.</h2>
 			</div>
 
@@ -167,7 +167,7 @@
 		<div class="dossier-pool" aria-hidden="true"></div>
 
 		<header class="dossier-header">
-			<span class="mono section-tag">§03 · CASE FILES</span>
+			<span class="mono section-tag">CASE FILES</span>
 			<h2 class="display-md">We don't write personality articles. We compile dossiers.</h2>
 		</header>
 
@@ -216,9 +216,9 @@
 					</div>
 
 					<aside class="dossier-annotations" aria-label="Cross-references">
-						<span class="mono">§3.2 SHADOW TRIAD</span>
-						<span class="mono">§4.1 STRESS LINE → 5</span>
-						<span class="mono">§4.2 GROWTH LINE → 2</span>
+						<span class="mono">SHADOW TRIAD</span>
+						<span class="mono">STRESS LINE → 5</span>
+						<span class="mono">GROWTH LINE → 2</span>
 					</aside>
 
 					<div class="dossier-cta-row">
@@ -240,7 +240,7 @@
 		<div class="meetup-pool" aria-hidden="true"></div>
 
 		<header class="meetup-header">
-			<span class="mono section-tag">§04 · THE ROOM</span>
+			<span class="mono section-tag">THE ROOM</span>
 			<h2 class="display-md">It's like a 2 AM conversation with people who actually get it.</h2>
 			<p class="meetup-sub">
 				Drop your situation. Comment first — that's the give-first unlock. Then see how each of the
