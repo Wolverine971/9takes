@@ -34,6 +34,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+	isArgumentToken,
+	informativePhraseFeature as hasArgumentPhrase
+} from './lib/blogSimilarity.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -275,7 +279,7 @@ function featureSet(text, subjectTokens) {
 	for (const t of rawTokens) {
 		if (!STOP.has(t) && t.length > 1) {
 			features.add('u:' + t);
-			nContent++;
+			if (isArgumentToken(t, STOP)) nContent++;
 		}
 	}
 	// Bigrams + trigrams (stopwords kept) capture verbatim PHRASING — a shared
@@ -386,10 +390,7 @@ function similarity(a, b) {
 }
 
 function informativePhraseFeature(f) {
-	if (!f.startsWith('b:') && !f.startsWith('t:')) return false;
-	const terms = f.slice(2).split(' ');
-	const contentTerms = terms.filter((t) => !STOP.has(t) && !/^type[1-9]$/.test(t) && t.length > 1);
-	return contentTerms.length >= 2;
+	return hasArgumentPhrase(f, STOP);
 }
 
 function sharedInformativePhrases(a, b) {

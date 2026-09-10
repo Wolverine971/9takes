@@ -79,7 +79,7 @@ Identify which of the rich fields are:
 
 You are **additive only**. Never overwrite an existing good value.
 
-**Strict idempotency on `faqs`:** if the draft already has 1 or more FAQ entries with substantive `question`/`answer`/`anchor`, leave the `faqs` list exactly as-is. Do NOT rewrite, expand, or "improve" existing FAQs. Only generate FAQs when the `faqs:` field is missing or empty.
+**Evidence-bound idempotency on `faqs`:** preserve substantive FAQs whose claims and anchors still agree with the final article. When a refresh or revision changes supporting claims, update only the affected answers and anchors. Generate FAQs when missing or empty; never preserve a stale answer merely because it is substantive.
 
 **Exception — templated backfill FAQs (audit 2026-06-10):** a 2026 bulk backfill wrote machine-assembled FAQ answers (telltale: "…with supporting context from [occupation list]" or answers that restate the occupation/type fields instead of the body's analysis). These do NOT count as substantive. If any FAQ answer contains "with supporting context from" or is plainly assembled from frontmatter fields rather than the article, **replace the entire `faqs` block** with freshly generated FAQs per Step 9. The same backfill wrote occupation-copied `knows_about` values (e.g. `'Business Executive'`, `'Manager'`) — replace those with real expertise areas per Step 5 when you see that pattern.
 
@@ -138,7 +138,7 @@ If a category of ID does not exist for this person, omit the field. Do not write
 
 From Wikipedia / Wikidata, extract:
 
-- **`birth_date`** — YYYY-MM-DD format. If only year is known historically (rare for modern figures), use YYYY-01-01 and note the limitation in working notes.
+- **`birth_date`** — YYYY-MM-DD only when the full date is supported. If only the year is known, omit this field and retain the known year in working notes; never invent January 1.
 - **`birth_place`** — "City, Region, Country" using the political naming at time of birth (e.g. Einstein: `'Ulm, Württemberg, German Empire'`).
 - **`nationality`** — string for a single nationality (`'American'`), list for multiple (`['German', 'Swiss', 'American']`). Use lists for naturalized citizens or dual citizenship.
 - **`occupation`** — list of 2–5 primary professional roles (`['Theoretical physicist', 'Author']`). Capitalize first letter. Skip honorifics like "Dr.".

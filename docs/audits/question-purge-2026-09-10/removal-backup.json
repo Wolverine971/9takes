@@ -1,0 +1,593 @@
+{
+	"saved_at": "2026-09-10T19:41:52.149Z",
+	"purpose": "Restore the four approved removals and the nine affected category records if needed.",
+	"questions": [
+		{
+			"id": 86,
+			"question": "What are you thinking about",
+			"created_at": "2023-09-23T04:15:45.541297+00:00",
+			"updated_at": "2023-10-01T02:43:25.776+00:00",
+			"data": null,
+			"name": null,
+			"author_id": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"context": "",
+			"url": "what-are-you-thinking",
+			"img_url": "images/what-are-you-thinking/social-card-v3.png",
+			"es_id": "YJA5TpkBwcs7vPv6Uikl",
+			"comment_count": 1,
+			"tagged": true,
+			"flagged": false,
+			"question_formatted": "What are you thinking about?",
+			"removed": false,
+			"last_comment_date": null,
+			"search_vector": "'ethic':9B 'growth':11B 'person':10B 'think':4A,8A",
+			"starter_rank": null,
+			"pinned_comment_ids": []
+		},
+		{
+			"id": 132,
+			"question": "What is the longest you have stayed awake working on a project you were passionate about",
+			"created_at": "2023-12-02T05:54:17.573547+00:00",
+			"updated_at": "2023-12-02T05:54:41.069+00:00",
+			"data": null,
+			"name": null,
+			"author_id": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"context": "",
+			"url": "longest-stayed-awake-working-project-passionate-9",
+			"img_url": "images/longest-stayed-awake-working-project-passionate-9/social-card-v3.png",
+			"es_id": "SpA5TpkBwcs7vPv6SSnx",
+			"comment_count": 2,
+			"tagged": true,
+			"flagged": false,
+			"question_formatted": "What is the longest you have stayed awake working on a project you were passionate about?",
+			"removed": false,
+			"last_comment_date": null,
+			"search_vector": "'awak':8A,23A 'ethic':31B 'growth':33B 'longest':4A,19A 'passion':15A,30A 'person':32B 'project':12A,27A 'stay':7A,22A 'work':9A,24A",
+			"starter_rank": null,
+			"pinned_comment_ids": []
+		},
+		{
+			"id": 166,
+			"question": "Whats the biggest lesson youve learned this year 2024",
+			"created_at": "2024-06-14T22:43:44.077857+00:00",
+			"updated_at": "2024-06-14T22:44:05.119+00:00",
+			"data": null,
+			"name": null,
+			"author_id": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"context": "",
+			"url": "whats-biggest-lesson-youve-learned-year-2024",
+			"img_url": "images/whats-biggest-lesson-youve-learned-year-2024/social-card-v3.png",
+			"es_id": "OJA5TpkBwcs7vPv6Qilp",
+			"comment_count": 1,
+			"tagged": true,
+			"flagged": true,
+			"question_formatted": "What's the biggest lesson you've learned this year 2024?",
+			"removed": false,
+			"last_comment_date": null,
+			"search_vector": "'2024':11A,20A 'biggest':4A,14A 'ethic':21B 'event':24B 'friendship':22B 'growth':26B 'learn':8A,17A 'lesson':5A,15A 'life':23B 'person':25B 've':7A 'what':12A 'year':10A,19A 'youv':16A",
+			"starter_rank": null,
+			"pinned_comment_ids": []
+		},
+		{
+			"id": 172,
+			"question": "What is your main fear with Trump getting elected",
+			"created_at": "2024-09-06T04:43:10.762725+00:00",
+			"updated_at": "2024-09-06T04:43:43.439+00:00",
+			"data": null,
+			"name": null,
+			"author_id": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"context": "",
+			"url": "main-fear-trump-getting-elected",
+			"img_url": "images/main-fear-trump-getting-elected/social-card-v3.png",
+			"es_id": "VpA5TpkBwcs7vPv6TimF",
+			"comment_count": 1,
+			"tagged": true,
+			"flagged": true,
+			"question_formatted": "What is your main fear with Trump getting elected?",
+			"removed": false,
+			"last_comment_date": null,
+			"search_vector": "'affair':34B 'econom':33B 'elect':9A,18A,19B 'fear':5A,14A 'get':8A,17A 'govern':22B 'ideolog':29B 'life':25B 'main':4A,13A 'person':24B 'polit':28B,30B 'scienc':36B 'social':31B 'system':23B 'technolog':35B 'trump':7A,16A 'univers':39B 'vote':21B 'well':27B",
+			"starter_rank": null,
+			"pinned_comment_ids": []
+		}
+	],
+	"categories": [
+		{
+			"id": 34,
+			"category_name": "Political Ideologies",
+			"parent_id": 8,
+			"level": 3,
+			"intro_markdown": "Political Ideologies explores the beliefs and values people use to understand power, government, parties, and public life. Questions here ask what people fear or hope for in political leadership, where parties fall short, and what evidence or experience might change a political opinion.\n\nRather than treating ideology as a label alone, this category looks at the assumptions underneath a take: how much trust someone places in institutions, which outcomes they prioritize, and how personal experience shapes reactions to candidates, conflict, and social change. Browse the questions to compare perspectives, explain your own reasoning, and notice where people with different political commitments may still share concerns.",
+			"intro_description": "Explore questions about political beliefs, parties, leadership, public trust, changing minds, and the values behind different political viewpoints.",
+			"intro_status": "completed",
+			"intro_source": "manual",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": null,
+			"intro_updated_at": "2026-07-19T19:51:59.482+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T19:52:05.983+00:00",
+			"intro_context": {
+				"path": [
+					"Political, Social, and Economic Affairs",
+					"Politics and Policy",
+					"Political Ideologies"
+				],
+				"model": "openrouter/fast-json-fallback",
+				"failedAt": "2026-07-19T19:48:46.505Z",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T19:52:05.983Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"contextHash": "2c011031b57f4863d4b08c5d784e2653762b99650ee9ec6c5712d91f218fe622",
+				"semanticTerms": [
+					"\"career in politics tips\"",
+					"\"community tragedy\"",
+					"\"legal implications\"",
+					"\"networking for politicians\"]",
+					"\"political science education\"",
+					"\"social impact\"]",
+					"[\"charlie kirk murder\"",
+					"[\"recent high school grad\""
+				],
+				"childCategories": [],
+				"manuallyUpdatedAt": "2026-07-19T19:51:59.482Z",
+				"sampleQuestionIds": [206, 197, 180, 172, 168, 167, 156, 117],
+				"directQuestionCount": 8,
+				"sampleQuestionTitles": [
+					"What do you think the real objective of the US war with Iran is that the public isn't being told?",
+					"What do you think and feel about the murder of Charlie Kirk?",
+					"What tips do you have for a recent high school grad who wants to become a politician?",
+					"What is your main fear with Trump getting elected?",
+					"Will Kamala Harris make a good president?",
+					"What would it take for you to change your mind politically?",
+					"What are the problems of each political party?",
+					"What is the best part about being out of highschool?"
+				],
+				"subtreeQuestionCount": 8
+			},
+			"slug": "political-ideologies"
+		},
+		{
+			"id": 57,
+			"category_name": "Personal Growth",
+			"parent_id": 14,
+			"level": 3,
+			"intro_markdown": "Personal Growth is about the ways people examine their habits, beliefs, and choices\u2014and decide what they want to change. Questions here invite reflection on routines, stress, disagreements, advice, ambition, and the experiences that reshape a person\u2019s direction.\n\nGrowth does not look the same for everyone. Some people focus on practical habits; others reconsider a long-held opinion, learn from a difficult relationship, or make sense of a turning point. Browse the questions to share lessons that have stayed with you, name what you are working on now, and compare how different personalities approach self-awareness, resilience, and change. The aim is honest reflection, not a single formula for becoming your \u201cbest self.\u201d",
+			"intro_description": "Explore questions about personal growth, habits, self-awareness, stress, life lessons, changing your mind, resilience, and intentional change.",
+			"intro_status": "stale",
+			"intro_source": "ai_edited",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": "2026-03-29T22:13:15.983+00:00",
+			"intro_updated_at": "2026-07-19T19:57:18.873+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T19:57:26.815+00:00",
+			"intro_context": {
+				"path": [
+					"Personal Life and Wellness",
+					"Personal Interests and Lifestyle",
+					"Personal Growth"
+				],
+				"model": "openai/gpt-5-mini",
+				"staleAt": "2026-08-28T07:17:55.807Z",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T19:57:26.815Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"completedAt": "2026-03-29T22:13:15.983Z",
+				"contextHash": "2f09ee309973f7873f10b5f27a8d070e1498a3a791a6b7f1c78b7ab7092224a3",
+				"semanticTerms": [
+					"self-reflection",
+					"personal development",
+					"emotional intelligence",
+					"habit formation",
+					"mindset shifts",
+					"life lessons",
+					"self-awareness"
+				],
+				"childCategories": [],
+				"manuallyUpdatedAt": "2026-07-19T19:57:18.873Z",
+				"sampleQuestionIds": [198, 180, 174, 167, 166, 165, 164, 163],
+				"directQuestionCount": 26,
+				"sampleQuestionTitles": [
+					"What is your ideal morning routine? Not your real one, your ideal one.",
+					"What tips do you have for a recent high school grad who wants to become a politician?",
+					"How do you typically handle disagreements with close friends or family?",
+					"What would it take for you to change your mind politically?",
+					"What's the biggest lesson you've learned this year 2024?",
+					"What's the best advice you've ever received about business?",
+					"How do you handle stress?",
+					"If you could change something about yourself, what would you change?"
+				],
+				"subtreeQuestionCount": 26
+			},
+			"slug": "personal-growth"
+		},
+		{
+			"id": 33,
+			"category_name": "Elections and Voting",
+			"parent_id": 8,
+			"level": 3,
+			"intro_markdown": "This collection explores how people engage with electoral democracy, from casting ballots to building careers in public service. Questions touch on voter decision-making, leadership assessments, and practical pathways for young people entering government and policy work.\n\nDiscussions reflect individual perspectives on candidate evaluation, civic participation, and the mechanics of representation\u2014from grassroots organizing to national races. Whether examining specific political figures or broader themes of accountability and representation, these conversations capture how citizens think about their role in shaping political outcomes.",
+			"intro_description": "Explore questions about voting choices, political candidates, election concerns, civic participation, public leadership, and careers in government.",
+			"intro_status": "completed",
+			"intro_source": "ai_edited",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": "2026-07-19T20:52:37.441+00:00",
+			"intro_updated_at": "2026-07-19T20:54:32.18+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T20:55:21.185+00:00",
+			"intro_context": {
+				"path": [
+					"Political, Social, and Economic Affairs",
+					"Politics and Policy",
+					"Elections and Voting"
+				],
+				"model": "openrouter/fast-json-fallback",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T20:55:21.185Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"completedAt": "2026-07-19T20:52:37.441Z",
+				"contextHash": "42258cea055f85b8e16ddc826a9bf34894871301de353d1a3d1875d8a7005779",
+				"semanticTerms": [
+					"voter behavior",
+					"candidate evaluation",
+					"political career",
+					"civic participation",
+					"electoral democracy",
+					"leadership assessment",
+					"public service"
+				],
+				"childCategories": [],
+				"manuallyUpdatedAt": "2026-07-19T20:54:32.180Z",
+				"sampleQuestionIds": [180, 172, 168, 98],
+				"directQuestionCount": 4,
+				"sampleQuestionTitles": [
+					"What tips do you have for a recent high school grad who wants to become a politician?",
+					"What is your main fear with Trump getting elected?",
+					"Will Kamala Harris make a good president?",
+					"Who are you voting for next election?"
+				],
+				"subtreeQuestionCount": 4
+			},
+			"slug": "elections-and-voting"
+		},
+		{
+			"id": 35,
+			"category_name": "Government Systems",
+			"parent_id": 8,
+			"level": 3,
+			"intro_markdown": "Government Systems explores how people understand political leadership, parties, elections, and the decisions made in the public's name. Questions here invite discussion about presidential candidates, foreign-policy motives, the strengths and failures of political parties, and the fears that shape people's reactions to political change.\n\nThe category also asks how political beliefs develop and what evidence, experience, or conversation might cause someone to reconsider a position. For people interested in public service, it includes practical reflection on beginning a political career. Browse the questions to compare assumptions, explain the values behind a viewpoint, and examine how trust, uncertainty, and accountability influence judgments about government.",
+			"intro_description": "Explore questions about political leadership, parties, elections, public policy, changing views, civic careers, and government accountability.",
+			"intro_status": "completed",
+			"intro_source": "manual",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": null,
+			"intro_updated_at": "2026-07-19T20:06:13.323+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T20:06:25.363+00:00",
+			"intro_context": {
+				"path": [
+					"Political, Social, and Economic Affairs",
+					"Politics and Policy",
+					"Government Systems"
+				],
+				"model": "openrouter/fast-json-fallback",
+				"failedAt": "2026-07-19T20:01:57.583Z",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T20:06:25.363Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"contextHash": "9fb414127e9ef2b292fa22172fc98f9a0c83ab37eb9b04ea57d4d4e4116f96f9",
+				"semanticTerms": [
+					"\"career in politics tips\"",
+					"\"networking for politicians\"]",
+					"\"political science education\"",
+					"[\"recent high school grad\"",
+					"adjusting political standpoint",
+					"altering political stance",
+					"anxieties about trump becoming president",
+					"apprehensions about trump taking office"
+				],
+				"childCategories": [],
+				"manuallyUpdatedAt": "2026-07-19T20:06:13.323Z",
+				"sampleQuestionIds": [206, 180, 172, 168, 167, 156],
+				"directQuestionCount": 6,
+				"sampleQuestionTitles": [
+					"What do you think the real objective of the US war with Iran is that the public isn't being told?",
+					"What tips do you have for a recent high school grad who wants to become a politician?",
+					"What is your main fear with Trump getting elected?",
+					"Will Kamala Harris make a good president?",
+					"What would it take for you to change your mind politically?",
+					"What are the problems of each political party?"
+				],
+				"subtreeQuestionCount": 6
+			},
+			"slug": "government-systems"
+		},
+		{
+			"id": 60,
+			"category_name": "Life Events",
+			"parent_id": 14,
+			"level": 3,
+			"intro_markdown": "Life brings moments that shape who we become, from seasonal celebrations to transformative milestones. This collection explores the questions that arise during pivotal transitions\u2014whether you're reflecting on lessons learned over the past year, navigating holiday traditions, or standing at the crossroads of major life decisions.\n\nYou'll find conversations around educational pathways and career uncertainty for young adults, alongside wisdom for raising children and building family connections. These discussions capture the essence of human experience: growth through challenge, celebration of achievements, and the continuous search for meaningful guidance during life's most significant chapters.",
+			"intro_description": "Explore questions about yearly lessons, holidays, college and career decisions, parenting advice, milestones, transitions, and personal growth.",
+			"intro_status": "stale",
+			"intro_source": "ai_edited",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": "2026-07-19T20:52:38.727+00:00",
+			"intro_updated_at": "2026-07-19T20:54:01.072+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T20:54:11.656+00:00",
+			"intro_context": {
+				"path": ["Personal Life and Wellness", "Personal Interests and Lifestyle", "Life Events"],
+				"model": "openrouter/fast-json-fallback",
+				"staleAt": "2026-08-28T06:33:47.995Z",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T20:54:11.656Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"completedAt": "2026-07-19T20:52:38.727Z",
+				"contextHash": "2a2ed5b1d91e0b8105e36e046aeacc5ed7e152f231a5d35108cd14066d58eab3",
+				"semanticTerms": [
+					"major life transitions",
+					"seasonal celebrations",
+					"career guidance",
+					"parenting wisdom",
+					"personal milestones",
+					"reflective growth",
+					"family decisions"
+				],
+				"childCategories": [],
+				"manuallyUpdatedAt": "2026-07-19T20:54:01.072Z",
+				"sampleQuestionIds": [166, 150, 113, 110],
+				"directQuestionCount": 4,
+				"sampleQuestionTitles": [
+					"What's the biggest lesson you've learned this year 2024?",
+					"What are you doing for the holidays?",
+					"What advice you have for an 18 year old that wants to go to college but doesnt know what he wants to do?",
+					"What is the best parenting advice you ever received?"
+				],
+				"subtreeQuestionCount": 4
+			},
+			"slug": "life-events"
+		},
+		{
+			"id": 14,
+			"category_name": "Personal Interests and Lifestyle",
+			"parent_id": 3,
+			"level": 2,
+			"intro_markdown": "Personal Interests and Lifestyle explores the choices, routines, challenges, and experiences that shape how people live. Questions range from ideal mornings and habits you wish you had started sooner to the lessons, decisions, and turning points that change how you see yourself.\n\nBrowse four related areas: Personal Growth, Daily Routines, Personal Challenges, and Life Events. Together, they invite reflection on self-awareness, stress, ambition, resilience, and the advice people carry into new stages of life. Share the practices that help you, describe what you are still figuring out, and compare how different people approach growth without assuming there is one right way to build a meaningful life.",
+			"intro_description": "Explore questions about personal growth, daily routines, life challenges, turning points, self-awareness, stress, habits, and meaningful choices.",
+			"intro_status": "stale",
+			"intro_source": "ai_edited",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": "2026-03-29T22:11:26.342+00:00",
+			"intro_updated_at": "2026-07-19T19:56:39.304+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T19:56:48.327+00:00",
+			"intro_context": {
+				"path": ["Personal Life and Wellness", "Personal Interests and Lifestyle"],
+				"model": "openai/gpt-5-mini",
+				"staleAt": "2026-08-28T07:17:55.807Z",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T19:56:48.327Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"completedAt": "2026-03-29T22:11:26.342Z",
+				"contextHash": "32f235afa310387810cae32e68bcd9db68ef25327c4d613740cfd75b7fd53683",
+				"semanticTerms": [
+					"self-reflection",
+					"personal development",
+					"daily habits",
+					"life transitions",
+					"emotional intelligence",
+					"resilience",
+					"self-awareness",
+					"intentional living"
+				],
+				"childCategories": [
+					{
+						"id": 57,
+						"name": "Personal Growth",
+						"directQuestionCount": 26,
+						"subtreeQuestionCount": 26
+					},
+					{
+						"id": 58,
+						"name": "Daily Routines",
+						"directQuestionCount": 7,
+						"subtreeQuestionCount": 7
+					},
+					{
+						"id": 59,
+						"name": "Personal Challenges",
+						"directQuestionCount": 4,
+						"subtreeQuestionCount": 4
+					},
+					{
+						"id": 60,
+						"name": "Life Events",
+						"directQuestionCount": 4,
+						"subtreeQuestionCount": 4
+					}
+				],
+				"manuallyUpdatedAt": "2026-07-19T19:56:39.304Z",
+				"sampleQuestionIds": [198, 180, 174, 167, 166, 165, 164, 163],
+				"directQuestionCount": 0,
+				"sampleQuestionTitles": [
+					"What is your ideal morning routine? Not your real one, your ideal one.",
+					"What tips do you have for a recent high school grad who wants to become a politician?",
+					"How do you typically handle disagreements with close friends or family?",
+					"What would it take for you to change your mind politically?",
+					"What's the biggest lesson you've learned this year 2024?",
+					"What's the best advice you've ever received about business?",
+					"How do you handle stress?",
+					"If you could change something about yourself, what would you change?"
+				],
+				"subtreeQuestionCount": 31
+			},
+			"slug": "personal-interests-and-lifestyle"
+		},
+		{
+			"id": 8,
+			"category_name": "Politics and Policy",
+			"parent_id": 1,
+			"level": 2,
+			"intro_markdown": "Politics and Policy brings together questions about elections, political beliefs, government, and diplomacy. Explore how people interpret leaders and parties, what shapes voting decisions, and which fears or priorities influence political opinions.\n\nThe questions also invite practical and personal perspectives: what might change someone\u2019s mind, how government systems earn trust, and what it takes to pursue a career in politics. Browse the related topics to compare viewpoints on Elections and Voting, Political Ideologies, Government Systems, and Diplomacy. The goal is not to settle every debate, but to make the assumptions, values, and lived experiences behind political takes easier to understand.",
+			"intro_description": "Explore questions about elections, political beliefs, government systems, diplomacy, voting decisions, public trust, and changing political views.",
+			"intro_status": "completed",
+			"intro_source": "ai_edited",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": "2026-07-19T19:48:42.071+00:00",
+			"intro_updated_at": "2026-07-19T19:49:53.091+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T19:50:03.825+00:00",
+			"intro_context": {
+				"path": ["Political, Social, and Economic Affairs", "Politics and Policy"],
+				"model": "openrouter/fast-json-fallback",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T19:50:03.825Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"completedAt": "2026-07-19T19:48:42.071Z",
+				"contextHash": "d5b50e3478fcaf2d5e2aa4be90c643e530770a006a07c0369aa88128f6e5ba72",
+				"semanticTerms": [
+					"electoral processes",
+					"governance structures",
+					"political philosophy",
+					"foreign policy",
+					"civic engagement",
+					"constitutional design",
+					"diplomatic relations"
+				],
+				"childCategories": [
+					{
+						"id": 33,
+						"name": "Elections and Voting",
+						"directQuestionCount": 4,
+						"subtreeQuestionCount": 4
+					},
+					{
+						"id": 34,
+						"name": "Political Ideologies",
+						"directQuestionCount": 8,
+						"subtreeQuestionCount": 8
+					},
+					{
+						"id": 35,
+						"name": "Government Systems",
+						"directQuestionCount": 6,
+						"subtreeQuestionCount": 6
+					},
+					{
+						"id": 36,
+						"name": "Diplomacy",
+						"directQuestionCount": 4,
+						"subtreeQuestionCount": 4
+					}
+				],
+				"manuallyUpdatedAt": "2026-07-19T19:49:53.091Z",
+				"sampleQuestionIds": [206, 197, 180, 172, 168, 167, 156, 117],
+				"directQuestionCount": 0,
+				"sampleQuestionTitles": [
+					"What do you think the real objective of the US war with Iran is that the public isn't being told?",
+					"What do you think and feel about the murder of Charlie Kirk?",
+					"What tips do you have for a recent high school grad who wants to become a politician?",
+					"What is your main fear with Trump getting elected?",
+					"Will Kamala Harris make a good president?",
+					"What would it take for you to change your mind politically?",
+					"What are the problems of each political party?",
+					"What is the best part about being out of highschool?"
+				],
+				"subtreeQuestionCount": 9
+			},
+			"slug": "politics-and-policy"
+		},
+		{
+			"id": 1,
+			"category_name": "Political, Social, and Economic Affairs",
+			"parent_id": null,
+			"level": 1,
+			"intro_markdown": "Political, Social, and Economic Affairs gathers questions about how public decisions, cultural forces, and working life shape what people believe and fear. There are no questions filed directly under this broad category yet; the conversation lives in its Politics and Policy, Society and Culture, and Economy and Work sections.\n\nAcross those sections, people wrestle with elections, political persuasion, party conflict, war, public violence, legal consequences, social impact, career paths in politics, and the pressures surrounding work and the economy. The goal here is not to settle those debates, but to reveal the motives, loyalties, anxieties, and values beneath different positions. Browse the questions below to compare how nine personality perspectives interpret power, community, risk, fairness, and change.",
+			"intro_description": "Explore questions about politics, society, culture, work, and the economy through nine personality perspectives on power, fear, fairness, and change.",
+			"intro_status": "stale",
+			"intro_source": "manual",
+			"intro_prompt_version": null,
+			"intro_generated_at": null,
+			"intro_updated_at": "2026-07-19T18:49:09.879+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T18:49:22.177+00:00",
+			"intro_context": {
+				"staleAt": "2026-08-28T07:17:55.807Z",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T18:49:22.177Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"manuallyUpdatedAt": "2026-07-19T18:49:09.879Z"
+			},
+			"slug": "political-social-and-economic-affairs"
+		},
+		{
+			"id": 3,
+			"category_name": "Personal Life and Wellness",
+			"parent_id": null,
+			"level": 1,
+			"intro_markdown": "Personal Life and Wellness brings together questions about the habits, relationships, and choices that shape everyday life. Explore how people build routines, handle stress, pursue interests, and reflect on the experiences that influence who they are.\n\nThe category connects three broad areas: Personal Interests and Lifestyle, Relationships, and Health and Wellness. Across them, questions invite honest perspectives on personal growth, family and friendship, self-awareness, communication, and the tension between the life someone has and the life they want. Browse the related topics to share what has helped you, compare different approaches, and understand how other people define balance, connection, and well-being.",
+			"intro_description": "Explore questions about daily habits, relationships, personal growth, stress, self-awareness, communication, lifestyle choices, and well-being.",
+			"intro_status": "stale",
+			"intro_source": "ai_edited",
+			"intro_prompt_version": "question-category-intro-v1",
+			"intro_generated_at": "2026-03-29T22:11:49.738+00:00",
+			"intro_updated_at": "2026-07-19T19:56:04.762+00:00",
+			"intro_updated_by": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+			"intro_reviewed_at": "2026-07-19T19:56:10.932+00:00",
+			"intro_context": {
+				"path": ["Personal Life and Wellness"],
+				"model": "openai/gpt-5-mini",
+				"staleAt": "2026-08-28T07:17:55.807Z",
+				"lastError": null,
+				"reviewedAt": "2026-07-19T19:56:10.932Z",
+				"reviewedBy": "9ce7ff91-d7f8-4397-b00d-8716e335aaee",
+				"completedAt": "2026-03-29T22:11:49.738Z",
+				"contextHash": "de6eed2e6fbad0e2396741d78b232d1c227516cacd3856946ba2d087c0a0cbf0",
+				"semanticTerms": [
+					"self-reflection",
+					"personal growth",
+					"lifestyle design",
+					"relationship dynamics",
+					"wellness practices",
+					"daily habits",
+					"self-awareness"
+				],
+				"childCategories": [
+					{
+						"id": 14,
+						"name": "Personal Interests and Lifestyle",
+						"directQuestionCount": 0,
+						"subtreeQuestionCount": 31
+					},
+					{
+						"id": 15,
+						"name": "Health and Wellness",
+						"directQuestionCount": 0,
+						"subtreeQuestionCount": 1
+					},
+					{
+						"id": 16,
+						"name": "Relationships",
+						"directQuestionCount": 0,
+						"subtreeQuestionCount": 24
+					}
+				],
+				"manuallyUpdatedAt": "2026-07-19T19:56:04.762Z",
+				"sampleQuestionIds": [198, 197, 180, 174, 173, 167, 166, 165],
+				"directQuestionCount": 0,
+				"sampleQuestionTitles": [
+					"What is your ideal morning routine? Not your real one, your ideal one.",
+					"What do you think and feel about the murder of Charlie Kirk?",
+					"What tips do you have for a recent high school grad who wants to become a politician?",
+					"How do you typically handle disagreements with close friends or family?",
+					"What do single people not understand about married people?",
+					"What would it take for you to change your mind politically?",
+					"What's the biggest lesson you've learned this year 2024?",
+					"What's the best advice you've ever received about business?"
+				],
+				"subtreeQuestionCount": 36
+			},
+			"slug": "personal-life-and-wellness"
+		}
+	]
+}

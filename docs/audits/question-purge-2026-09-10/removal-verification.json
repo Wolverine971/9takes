@@ -1,0 +1,95 @@
+{
+	"verified_at": "2026-09-10T19:42:59.557Z",
+	"public_question_count": 46,
+	"page_rpc_question_count": 46,
+	"question_144_visible": true,
+	"public_category_count": 58,
+	"category_counts": [
+		{
+			"id": 57,
+			"name": "Personal Growth",
+			"count": 33
+		},
+		{
+			"id": 14,
+			"name": "Personal Interests and Lifestyle",
+			"count": 37
+		},
+		{
+			"id": 3,
+			"name": "Personal Life and Wellness",
+			"count": 41
+		},
+		{
+			"id": 33,
+			"name": "Elections and Voting",
+			"count": 1
+		},
+		{
+			"id": 60,
+			"name": "Life Events",
+			"count": 3
+		}
+	],
+	"http": [
+		{
+			"id": 86,
+			"path": "/questions/what-are-you-thinking",
+			"expected": 404,
+			"status": 404,
+			"title": "Page not found | 9takes"
+		},
+		{
+			"id": 132,
+			"path": "/questions/longest-stayed-awake-working-project-passionate-9",
+			"expected": 404,
+			"status": 404,
+			"title": "Page not found | 9takes"
+		},
+		{
+			"id": 166,
+			"path": "/questions/whats-biggest-lesson-youve-learned-year-2024",
+			"expected": 404,
+			"status": 404,
+			"title": "Page not found | 9takes"
+		},
+		{
+			"id": 172,
+			"path": "/questions/main-fear-trump-getting-elected",
+			"expected": 404,
+			"status": 404,
+			"title": "Page not found | 9takes"
+		},
+		{
+			"id": 144,
+			"path": "/questions/what-is-something-you-would-change-about-yourself",
+			"expected": 200,
+			"status": 200,
+			"title": "What is something you would change about yourself if you could? | 9takes"
+		},
+		{
+			"id": "category-57",
+			"path": "/questions/categories/personal-growth",
+			"expected": 200,
+			"status": 200,
+			"title": "9takes Question Categories | Personal Growth",
+			"text": "Home /Questions /Categories /Personal Life and Wellness /Personal Interests and Lifestyle /Personal Growth CATEGORY Personal Growth 33 QUESTIONS Sign up to ask → ← Browse all categories ABOUT THIS CATEGORY Personal Growth is about the ways people examine their habits, beliefs, and choices—and decide what they want to change. Questions here invite reflection on routines, stress, disagreements, advice, ambition, and the experiences that reshape a person’s direction. Growth does not look the same for everyone. Some people focus on practical habits; others reconsider a long-held opinion, learn from a difficult relationship, or make sense of a turning point. Browse the questions to share lessons that have stayed with you, name what you are working on now, and compare how different personalities approach self-awareness, resilience, and change. The aim is honest reflection, not a single formula for becoming your “best self.” QUESTIONS Questions in this category. 33 QUESTIONS HERE Every question is read by all 9 personality types. Answer first to unlock everyone else's takes. How do you do? 3 TAKES · POSTED OCT 12Who's the most influential person in your life? 2 TAKES · POSTED FEB 5What's "
+		},
+		{
+			"id": "category-33",
+			"path": "/questions/categories/elections-and-voting",
+			"expected": 200,
+			"status": 200,
+			"title": "9takes Question Categories | Elections and Voting",
+			"text": "Home /Questions /Categories /Political, Social, and Economic Affairs /Politics and Policy /Elections and Voting CATEGORY Elections and Voting 1 QUESTION Sign up to ask → ← Browse all categories ABOUT THIS CATEGORY Elections and Voting currently has one discussion: advice for a recent high school graduate who wants to become a politician. It is a starting point for talking about entering public life and what someone should learn along the way. Share what you wish you had known when considering public service, or an experience that changed how you think about a political career. QUESTIONS Questions in this category. 1 QUESTION HERE Every question is read by all 9 personality types. Answer first to unlock everyone else's takes. What tips do you have for a recent high school grad who wants to become a politician? 2 TAKES · POSTED OCT 6"
+		},
+		{
+			"id": "category-60",
+			"path": "/questions/categories/life-events",
+			"expected": 200,
+			"status": 200,
+			"title": "9takes Question Categories | Life Events",
+			"text": "Home /Questions /Categories /Personal Life and Wellness /Personal Interests and Lifestyle /Life Events CATEGORY Life Events 3 QUESTIONS Sign up to ask → ← Browse all categories ABOUT THIS CATEGORY Life Events brings together questions about decisions and advice that matter at different stages of life. The current discussions cover choosing a college direction, lessons from parenting, and looking back on the best decision you have made. Share an experience that changed your direction or advice that helped when the next step was uncertain. Different people can face a similar choice and value very different things about the outcome. QUESTIONS Questions in this category. 3 QUESTIONS HERE Every question is read by all 9 personality types. Answer first to unlock everyone else's takes. What's the best decision you've ever made in your life? 2 TAKES · POSTED FEB 6What is the best parenting advice you ever received? 2 TAKES · POSTED OCT 12What advice you have for an 18 year old that wants to go to college but doesnt know what he wants to do? 2 TAKES · POSTED OCT 12"
+		}
+	]
+}

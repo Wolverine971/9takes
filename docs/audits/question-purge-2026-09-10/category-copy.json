@@ -1,0 +1,32 @@
+[
+	{
+		"id": 60,
+		"intro": "Life Events brings together questions about decisions and advice that matter at different stages of life. The current discussions cover choosing a college direction, lessons from parenting, and looking back on the best decision you have made.\n\nShare an experience that changed your direction or advice that helped when the next step was uncertain. Different people can face a similar choice and value very different things about the outcome.",
+		"description": "Questions about college uncertainty, parenting advice, and the decisions that change a life."
+	},
+	{
+		"id": 33,
+		"intro": "Elections and Voting currently has one discussion: advice for a recent high school graduate who wants to become a politician. It is a starting point for talking about entering public life and what someone should learn along the way.\n\nShare what you wish you had known when considering public service, or an experience that changed how you think about a political career.",
+		"description": "Share advice for a recent high school graduate who wants to become a politician."
+	},
+	{
+		"id": 35,
+		"intro": "Government Systems brings together questions about the problems with political parties, what could change a political opinion, and advice for someone considering a career in politics.\n\nThese discussions start with personal judgments and experiences. Explain what you think parties get wrong, which evidence would make you reconsider your position, or what a young person should understand before entering public life. Comparing the reasons behind those answers can reveal different expectations of government and public service.",
+		"description": "Questions about political parties, changing your mind politically, and beginning a career in public service."
+	},
+	{
+		"id": 34,
+		"intro": "Political Ideologies gathers questions about political parties, changing political beliefs, and starting a career in public life. The discussions invite you to explain where your views come from and what might make you reconsider them.\n\nDescribe a problem you see in a political party, an experience that challenged an opinion, or advice you would give someone interested in politics. The useful differences often lie in the reasons behind an answer: what people trust, what they prioritize, and what they have lived through.",
+		"description": "Explore political beliefs through questions about parties, changing your mind, and advice for an aspiring politician."
+	},
+	{
+		"id": 8,
+		"intro": "Politics and Policy brings together questions about political parties, changing political beliefs, and finding a path into public service. Browse the related categories to compare how people explain their views and what they would tell someone considering a political career.\n\nAn answer can start with a problem you see, a moment that changed your opinion, or something you learned through experience. The aim is to understand the reasons behind different takes and make room for a thoughtful response.",
+		"description": "Explore questions about political parties, changing political beliefs, and starting a career in public service."
+	},
+	{
+		"id": 1,
+		"intro": "Political, Social, and Economic Affairs collects discussions about public life and the ways people relate to one another. The current questions are in Politics and Policy and Society and Culture. They include the problems with political parties and social media, what could change a political opinion, and advice for someone interested in becoming a politician.\n\nBrowse those discussions to share an experience, explain a judgment, or consider why someone else sees the same issue differently.",
+		"description": "Questions about political beliefs, social media, public life, and the experiences behind different opinions."
+	}
+]

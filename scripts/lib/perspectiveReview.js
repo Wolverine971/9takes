@@ -3,6 +3,7 @@ import { createHash } from 'crypto';
 import { promises as fs } from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
+import { getEditorialPublishStatus, isV3 } from './blogEditorial.js';
 
 export const PERSPECTIVE_REVIEW_SCHEMA_VERSION = 1;
 export const PERSPECTIVE_REVIEW_NAMES = Object.freeze([
@@ -42,7 +43,7 @@ export function sha256(value) {
  * @returns {string}
  */
 export function getReaderVisiblePerspectiveBody(markdown) {
-	const parsed = matter(markdown);
+	const parsed = matter(markdown, {});
 	/** @type {Record<string, unknown>} */
 	const reviewFrontmatter = {};
 	for (const field of PERSPECTIVE_REVIEW_FRONTMATTER_FIELDS) {
@@ -120,6 +121,17 @@ export function resolveContainedPerspectiveReviewDir(reviewDir, repoRoot = proce
  */
 export async function getPerspectivePublishStatus(filePath, repoRoot = process.cwd()) {
 	const markdown = await fs.readFile(filePath, 'utf8');
+	const data = matter(markdown, {}).data;
+	if (isV3(data)) return getEditorialPublishStatus(filePath, repoRoot);
+	if (data.editorial_workflow || data.content_quality?.rubric_version === 3) {
+		return {
+			valid: false,
+			blocker: 'editorial_v3:invalid_workflow_marker',
+			manifestPath: '',
+			manifest: null,
+			currentContentSha256: ''
+		};
+	}
 	const currentContentSha256 = hashReaderVisiblePerspectiveBody(markdown);
 	const expectedSubject = path.basename(filePath, path.extname(filePath));
 	const manifestPath = path.join(getPerspectiveSubjectRoot(filePath, repoRoot), 'latest.json');
@@ -190,7 +202,7 @@ export async function getPerspectivePublishStatus(filePath, repoRoot = process.c
 	}
 
 	try {
-		const verification = matter(await fs.readFile(resolvedVerificationFile, 'utf8')).data;
+		const verification = matter(await fs.readFile(resolvedVerificationFile, 'utf8'), {}).data;
 		if (
 			verification?.artifact !== 'perspective-verification' ||
 			verification?.schema_version !== PERSPECTIVE_REVIEW_SCHEMA_VERSION ||

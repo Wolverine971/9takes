@@ -138,3 +138,83 @@ The key remaining question is whether writing an answer makes the comparison mor
 The approved homepage retains private practice and clearly links to public questions afterward. Measure completed real contributions and useful return visits separately from practice reveals; this implementation does not establish conversion lift or retention. Contextual article invitations and follow-up notifications from the original marketing audit remain subsequent work.
 
 To reopen locally if the server stops: `pnpm dev --host 127.0.0.1 --port 5197 --strictPort`.
+
+## Separate Harry Dry V2 comparison
+
+DJ requested applying the follow-up [Harry Dry landing-page guide](https://marketingexamples.com/landing-page/guide) review to a new page while preserving the approved homepage. The independent copy lives at `/design-preview/harry-dry-v2`; its header links to the current-version preview. The six original homepage, content, and preview files match their pre-V2 SHA-256 checksums. V2 stays noindex/nofollow and has not been deployed.
+
+### Tier 1 — offer clarity and action labels
+
+- **Hero → P6+P8:** explains the question-and-answer community and the progression from private practice to a real conversation. The explanation remains visible on mobile. The approved numeral headline, branching visual, and three step labels remain.
+- **Input → P4+P6+P13:** places “Write yours first, before another take shapes it” beside the exercise, with accessible input help. The visible disclosure says the 9 examples are AI-written, fixed, and unaffected by the private answer.
+- **Reveal and closing invitation → P6+P13:** makes joining a real conversation the primary action after a reveal; trying another private question becomes secondary. The handoff explicitly says the practice answer will not carry over.
+
+### Tier 2 — real activity and founder context
+
+- **Community → P3+P4+P6:** replaces the large decorative image with three real public questions and response counts. A compact total links to this section from the hero. These are activity figures, not distinct people or customer-outcome claims. Real outcome testimonials are still a future research task.
+- **Loading → P8+P13:** the exercise renders immediately. One fixed same-origin GET after mount requests optional public activity, using the existing public question-index RPC with a three-second timeout. The endpoint only returns normalized counts and question titles/slugs; it does not fetch gated replies. Invalid data or a failed request produces a useful question-browsing fallback without invented numbers. Reserved hero space prevents a shift when the totals appear.
+- **Founder story → P3+P6:** brings the existing About-page marriage story onto the page, explains the conflicting needs behind the same situation, and links to the full story. It is founder context rather than a customer endorsement.
+
+### Tier 3 — verification and polish
+
+- **Mobile density → P1+P3+P8:** V2 locally resets inherited heading padding and section margins. At 390×844, the reveal button ends around 765px and its AI disclosure around 813px. The 320px layout and 600-character unbroken answers have no horizontal overflow.
+- **Independent technical review:** the reviewer identified the initial optional-data render delay. Moving activity to an after-mount request resolved it; the final review found no material issue in the public endpoint, private-answer handling, fallbacks, or metadata. Browser testing also caught an unsuccessful streaming approach before the final implementation; global CSP settings were left intact.
+- **Browser:** desktop 1280×800 and mobile 390×844 in dark/light themes; mobile founder and desktop community sections inspected; empty input focuses validation, reveal focuses its heading, both answer copies remain capture-blocked, editing preserves the draft, the next question clears it, and refresh resets practice. The public friendship handoff opens the correct page with normal chrome and no copied private answer. Real totals and three public question cards appeared. Inspected V2 browser logs were empty.
+- **Checks:** 12 tests pass across four focused files, including public-data filtering, failure fallback, fixed-URL fetch privacy, action priority, comparison link, noindex, and current-homepage/page-shell regression checks. Scoped Svelte check has 0 errors and two existing ThemeToggle selector warnings. Targeted ESLint/Prettier and radius/color/global-CSS checks pass. Full-project `pnpm check` currently has 70 errors in unrelated blog scripts (`blogEditorial.js` and `personBlogParser.js`); no V2 diagnostics.
+
+V2 is a comparison candidate, not evidence of conversion lift. The next useful comparison is whether unfamiliar visitors can explain the offer and move from practice into a real contribution.
+
+V2 captures:
+
+- [Desktop dark](screenshots/harry-dry-2026-09-10/v2/desktop-dark.png) · [desktop light](screenshots/harry-dry-2026-09-10/v2/desktop-light.png)
+- [Mobile dark](screenshots/harry-dry-2026-09-10/v2/mobile-dark.png) · [mobile light](screenshots/harry-dry-2026-09-10/v2/mobile-light.png)
+- [Mobile reveal](screenshots/harry-dry-2026-09-10/v2/mobile-reveal-dark.png) · [desktop community](screenshots/harry-dry-2026-09-10/v2/desktop-community-dark.png)
+- [Desktop founder story](screenshots/harry-dry-2026-09-10/v2/desktop-founder-dark.png) · [mobile founder story](screenshots/harry-dry-2026-09-10/v2/mobile-founder-dark.png)
+
+### V2 follow-up — the thoughts behind “I’m fine”
+
+DJ requested a more visual conversation and miniature thought clouds. **Hero illustration → P3+P4+P6+P8:** “How are you?” now precedes “I’m fine,” which branches into the retained “Give me space” and “Please notice I’m not” meanings. Eight small rounded bubbles show possible unspoken thoughts, including the requested blunt “Fuck off,” difficulty opening up, too much to explain, and “Please help me.” “Could mean” and “You won’t know until you ask” keep the illustration conditional. The branches and bubbles are accessible HTML text with a decorative SVG connector; no image or animation dependency was added.
+
+The full visual remains visible on mobile. This intentionally adds height above the exercise; the earlier first-screen CTA measurements no longer describe this revision. Desktop 1280×900 and mobile 390×844 were checked in both themes, plus 320px wrapping with no overflow or offscreen bubbles. Browser diagnostics are empty. Scoped Svelte, ESLint, Prettier, and radius checks pass (the two pre-existing ThemeToggle selector warnings remain). V1 is unchanged.
+
+- [Desktop dark](screenshots/harry-dry-2026-09-10/v2/thought-bubbles/desktop-dark.png) · [desktop light](screenshots/harry-dry-2026-09-10/v2/thought-bubbles/desktop-light.png)
+- [Mobile dark](screenshots/harry-dry-2026-09-10/v2/thought-bubbles/mobile-dark.png) · [mobile light](screenshots/harry-dry-2026-09-10/v2/thought-bubbles/mobile-light.png)
+
+### V2 follow-up — a conversation brought to life
+
+DJ requested another visual to break up the copy, suggesting Greek statues or modern young people in a circle. **Community entrance → P3+P8+P10:** added a new wide illustration of nine young adults listening and talking in a courtyard under amber streetlamp light. Modern people connect the community offer to everyday life; the stone courtyard and lamplight retain the symposium mood. It sits after the three steps, above the community copy and real question cards. A small illustration credit distinguishes the imagined scene from actual community evidence.
+
+The complete 2:1 scene is preserved at every breakpoint, without cropping people or placing text over faces. Intrinsic dimensions reserve the image area, lazy loading avoids competing with the hero, and two WebP sources weigh about 264KB and 100KB. [Asset paths, provenance, and complete built-in generation prompt](HARRY_DRY_V2_COMMUNITY_IMAGE.md).
+
+Verified at 1280×900 and 390×844 in dark/light themes, plus 320px: image loaded, the narrow viewport selected the smaller WebP, mobile order is illustration then copy then questions, and there is no horizontal overflow. Inspected browser diagnostics are empty. Scoped Svelte has 0 errors and the same two existing ThemeToggle warnings; targeted ESLint, Prettier, and radius checks pass. This is a visual-only V2 addition; the current homepage is unchanged.
+
+- [Desktop dark](screenshots/harry-dry-2026-09-10/v2/community-scene/desktop-dark.png) · [desktop light](screenshots/harry-dry-2026-09-10/v2/community-scene/desktop-light.png)
+- [Mobile dark](screenshots/harry-dry-2026-09-10/v2/community-scene/mobile-dark.png) · [mobile light](screenshots/harry-dry-2026-09-10/v2/community-scene/mobile-light.png)
+
+### V2 image revision — cel-shaded neo-noir
+
+DJ found the first scene too visibly AI-generated and supplied `docs/visual-style/cel-shaded-neo-noir`. **Community artwork → P10:** regenerated the scene using that guide's unchanged master style prompt, its two visual references, and the previous scene as the composition target. The replacement has confident black outlines, crisp angular shading, cool navy/slate surroundings, and restrained amber lamplight. The nine-person circle, image placement and page layout remain intact. Previous assets are retained; the page now requests new `community-circle-neo-noir-v2` WebP filenames.
+
+Fresh desktop 1280×900 and mobile 390×844 checks in both themes confirm the replacement loads, the smaller source is selected on mobile, the full group remains visible, and there is no horizontal overflow. Inspected console logs are empty; targeted formatting passes. This revision changes only image URLs and alt text in the component. [Current asset sizes, source files and full regeneration prompt](HARRY_DRY_V2_COMMUNITY_IMAGE.md#current-assets--cel-shaded-neo-noir).
+
+- [Desktop dark](screenshots/harry-dry-2026-09-10/v2/community-neo-noir/desktop-dark.png) · [desktop light](screenshots/harry-dry-2026-09-10/v2/community-neo-noir/desktop-light.png)
+- [Mobile dark](screenshots/harry-dry-2026-09-10/v2/community-neo-noir/mobile-dark.png) · [mobile light](screenshots/harry-dry-2026-09-10/v2/community-neo-noir/mobile-light.png)
+
+### V2 follow-up — five conversation scenes
+
+DJ approved the four variations and requested adding them to the page with a slight transition. **Community slideshow → P3+P8+P11+P13:** the original college-age scene now cycles through Gen Z, older adults, Athens and Vienna circa 1910. Each stays for eight seconds and transitions with a 700ms opacity fade. The complete 2:1 compositions remain visible without cropping or layout movement. A compact scene name, five accessible selection controls and a play/pause button let visitors choose and linger; selecting or focusing a scene control stops automatic cycling.
+
+Rotation stops when the illustration leaves the viewport or the tab is hidden. Reduced-motion preferences disable automatic rotation and the fade while preserving manual selection. An image must load before it replaces the current one; cached images are recognized on mount, failed images are skipped, and pending manual selections retain the previous picture. Every scene has responsive WebP sources, with the four new 888px versions totaling about 454KB. Images remain lazy-loaded below the hero.
+
+Verification: 16 tests pass across five focused files, including timing, offscreen/hidden-tab behavior, manual selection, pause/resume, reduced motion and failed-image handling. Scoped Svelte check has 0 errors and the same two existing ThemeToggle selector warnings; targeted ESLint/Prettier and radius checks pass. Desktop 1280×900 and mobile 390×844 were inspected in both themes, with a 320px control/overflow check. Browser playback advanced and wrapped from Vienna to College after resuming; all controls retain 44px targets. V1 remains unchanged.
+
+- [Desktop dark](screenshots/harry-dry-2026-09-10/v2/slideshow/desktop-dark.png) · [desktop light](screenshots/harry-dry-2026-09-10/v2/slideshow/desktop-light.png)
+- [Mobile dark](screenshots/harry-dry-2026-09-10/v2/slideshow/mobile-dark.png) · [mobile light](screenshots/harry-dry-2026-09-10/v2/slideshow/mobile-light.png)
+
+### V2 follow-up — uninterrupted two-second loop
+
+DJ requested an image-only loop, with Vienna before Athens and the Greek statues last. **Community artwork → P3+P4+P11:** removed the scene-name row, selection dots, playback controls and caption/credit row. The sequence is now College → Gen Z → older adults → Vienna circa 1910 → Athens → College, changing every two seconds with the existing 700ms fade. Descriptive illustration alt text remains. Reduced motion shows the initial still image; offscreen and hidden-tab suspension, load gating and failed-image fallback remain.
+
+Verification: all 16 focused tests pass, including the new order, exact two-second interval and wraparound, empty visible metadata, loading, failures and reduced motion. Scoped Svelte check reports 0 errors and the two existing ThemeToggle selector warnings. Desktop 1280×900 and mobile 390×844 checks confirm the full illustration remains visible, the metadata area is gone, and neither layout overflows.
+
+- [Desktop](screenshots/harry-dry-2026-09-10/v2/slideshow-loop/desktop-dark.png) · [mobile](screenshots/harry-dry-2026-09-10/v2/slideshow-loop/mobile-dark.png)

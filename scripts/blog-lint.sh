@@ -38,6 +38,11 @@ else
 fi
 
 BASE="$(basename "$FILE" .md)"
+# V3 has an outcome-based structural contract; legacy furniture checks remain
+# unchanged for older drafts. Publication additionally validates release.json.
+if node "$REPO_ROOT/scripts/blog-editorial-check.mjs" "$FILE" --is-v3; then
+  exec node "$REPO_ROOT/scripts/blog-editorial-check.mjs" "$FILE"
+fi
 FAILS=0
 WARNS=0
 CONTRAST_TARGET="${BLOG_LINT_CONTRAST_TARGET:-0}"

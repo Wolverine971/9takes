@@ -38,6 +38,7 @@ if [[ "${NIGHTLY_BLOG_CAFFEINATED:-0}" != "1" && "${1:-}" != "--dry-run" ]]; the
 fi
 
 REPO="/Users/djwayne/9takes"
+cd "$REPO" || exit 1
 QUEUE="$REPO/docs/blog-automation/backlog-queue.json"
 OVERRIDE="$REPO/docs/blog-automation/override.json"
 DRAFTS="$REPO/src/blog/people/drafts"
@@ -132,8 +133,14 @@ if [[ -n "$in_progress_name" ]]; then
     log INFO "Nightly blog cron finished"
     exit 0
   fi
-  # No live pipeline. Draft present → finished but never reconciled; absent → dead launch.
-  if set_resolved_draft "$in_progress_name"; then
+  # An intentional research/editorial hold is distinct from a dead launch.
+  recovered_status="$(node "$REPO/scripts/blog-pipeline-status.mjs" "$in_progress_name")"
+  if [[ "$(jq -r '.run_status // empty' <<< "$recovered_status")" == "held" ]]; then
+    log WARN "RECONCILING HOLD: $in_progress_name needs editorial/research attention"
+    [[ "$DRY_RUN" -eq 1 ]] || queue_update --arg now "$NOW_ISO" --argjson result "$recovered_status" \
+      '.held = ((.held // []) + [.inProgress + {heldAt: $now, needsReview: true, pipelineResult: $result}])
+        | .inProgress = null | .lastUpdated = $now'
+  elif set_resolved_draft "$in_progress_name"; then
     log WARN "RECONCILING: $in_progress_name has a draft but was never moved to completed (wrapper likely killed post-pipeline). Moving to completed with needsReview."
     [[ "$DRY_RUN" -eq 1 ]] || queue_update \
       --arg now "$NOW_ISO" \
@@ -180,8 +187,8 @@ if [[ -n "$force_next" ]]; then
   [[ "$DRY_RUN" -eq 1 ]] || override_update '.forceNext = null'
 else
   while IFS= read -r candidate; do
+    candidate_retry_count="$(jq -r --arg name "$candidate" '.queue[] | select(.name == $name) | .retryCount // 0' "$QUEUE")"
     if set_resolved_draft "$candidate"; then
-      candidate_retry_count="$(jq -r --arg name "$candidate" '.queue[] | select(.name == $name) | .retryCount // 0' "$QUEUE")"
       if (( candidate_retry_count > 0 )); then
         person="$candidate"
         resume_pipeline=1
@@ -195,6 +202,9 @@ else
       continue
     fi
     person="$candidate"
+    if (( candidate_retry_count > 0 )); then
+      resume_pipeline=1
+    fi
     break
   done < <(jq -r '.queue | sort_by(-.priority) | .[].name' "$QUEUE")
 fi
@@ -247,6 +257,16 @@ log INFO "Pipeline exited code=$pipeline_exit after ${duration_min} min"
 
 # ── Verify + reconcile queue ────────────────────────────────────────────────
 NOW_ISO="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+pipeline_status="$(node "$REPO/scripts/blog-pipeline-status.mjs" "$person")"
+if [[ "$pipeline_exit" -eq 2 && "$(jq -r '.run_status // empty' <<< "$pipeline_status")" == "held" ]]; then
+  queue_update --arg now "$NOW_ISO" --argjson result "$pipeline_status" \
+    '.held = ((.held // []) + [.inProgress + {heldAt: $now, needsReview: true, pipelineResult: $result}])
+      | .inProgress = null | .lastUpdated = $now'
+  log WARN "EDITORIAL HOLD: $person — $(jq -r '.editorial_status' <<< "$pipeline_status")"
+  notify "⚠️ 9takes nightly blog: $display_name held for editorial/research attention. See $(jq -r '.run_dir' <<< "$pipeline_status")."
+  log INFO "Nightly blog cron finished"
+  exit 0
+fi
 draft="$DRAFTS/$person.md"
 if set_resolved_draft "$person"; then
   draft="$RESOLVED_DRAFT"
@@ -270,6 +290,10 @@ if [[ -f "$draft" ]]; then
     publish_ready="false"
     publish_blockers='["publish_check_failed"]'
     log WARN "Publish-readiness check returned invalid JSON (exit=$publish_check_exit)"
+  fi
+  if [[ "$pipeline_exit" -ne 0 ]]; then
+    publish_ready="false"
+    publish_blockers="$(jq -c --arg code "$pipeline_exit" '. + ["pipeline_operational_failure:" + $code]' <<< "$publish_blockers")"
   fi
   if [[ "$publish_ready" != "true" ]]; then
     needs_review="true"

@@ -32,6 +32,7 @@ import {
 	normalizePersonalitySuggestions
 } from './lib/personalitySeo.js';
 import { getPerspectivePublishStatus } from './lib/perspectiveReview.js';
+import { isV3, priorBlockers, checkDraft } from './lib/blogEditorial.js';
 
 dotenv.config();
 
@@ -47,6 +48,8 @@ dotenv.config();
  *   writing?: number,
  *   originality?: number,
  *   discoverability?: number,
+ *   durability?: number,
+ *   content_sha256?: string,
  *   overall?: number,
  *   letter?: string,
  *   rubric_version?: number,
@@ -103,6 +106,7 @@ dotenv.config();
  * @typedef {BlogRecord & {
  *   _has_content_quality: boolean,
  *   _has_valid_content_quality: boolean,
+ *   _requires_editorial_v3?: boolean,
  *   _explicit_fields: string[],
  *   _source_path?: string
  * }} PersonBlogEntry
@@ -402,6 +406,10 @@ export function normalizeContentQuality(raw) {
 	if (writing !== null) normalized.writing = writing;
 	if (originality !== null) normalized.originality = originality;
 	if (discoverability !== null) normalized.discoverability = discoverability;
+	const durability = normalizeScore(qualityInput.durability);
+	if (durability !== null) normalized.durability = durability;
+	if (typeof qualityInput.content_sha256 === 'string')
+		normalized.content_sha256 = qualityInput.content_sha256;
 	if (rubricVersion !== null) normalized.rubric_version = rubricVersion;
 	if (overall !== null) normalized.overall = overall;
 	if (letter !== null) normalized.letter = letter;
@@ -943,6 +951,8 @@ export async function parseMarkdownFile(filePath) {
 		citations,
 		_has_content_quality: hasContentQualityField,
 		_has_valid_content_quality: hasValidContentQuality,
+		_requires_editorial_v3:
+			Boolean(data.editorial_workflow) || normalizedContentQuality?.rubric_version === 3,
 		_explicit_fields: [...explicitFields],
 		// Carried so the non-publish update paths can re-run the perspective gate
 		// against the draft they are about to push. Stripped before any DB write.
@@ -1065,16 +1075,18 @@ function runPublishSourceAudit(filePath) {
 export async function readPublishCandidate(filePath) {
 	const fileContent = await fs.readFile(filePath, 'utf8');
 	const { data, content } = matter(fileContent);
+	const workflowV3 = isV3(data);
 	const entry = await parseMarkdownFile(filePath);
 	const imageStatus = await getPublishImageStatus(entry);
 	const qualityOverall = normalizeScore(entry.content_quality?.overall);
-	const wordCount = countPublishableWords(content);
+	const wordCount = workflowV3 ? checkDraft(fileContent).words : countPublishableWords(content);
 	const sectionCount = countPublishableSections(content);
 	const unfinishedMarkers = findUnfinishedDraftMarkers(content);
 	const missingFields = getMissingPublishFrontmatterFields(data);
 	const sourceAudit = runPublishSourceAudit(filePath);
 	const perspectiveReview = await getPerspectivePublishStatus(filePath);
 	const blockers = [];
+	blockers.push(...priorBlockers(fileContent).map((blocker) => `creator_blocker:${blocker}`));
 
 	if (missingFields.length > 0) {
 		blockers.push(`missing_frontmatter:${missingFields.join(',')}`);
@@ -1103,27 +1115,33 @@ export async function readPublishCandidate(filePath) {
 			blockers.push('content_quality_needs_review');
 		}
 		const gradeStabilityDelta = getGradeStabilityDelta(entry.content_quality);
-		if (gradeStabilityDelta === null) {
+		if (!workflowV3 && gradeStabilityDelta === null) {
 			blockers.push('missing_grade_stability_delta:run supervised grade/regrade');
-		} else if (gradeStabilityDelta > 0.3) {
+		} else if (!workflowV3 && gradeStabilityDelta !== null && gradeStabilityDelta > 0.3) {
 			blockers.push(`grade_unstable:${gradeStabilityDelta.toFixed(1)}_delta`);
 		}
 	}
-	if (!sourceAudit) {
+	// V3 verifies all inventoried load-bearing sources in its shared release gate.
+	// The older outlet/attribution heuristic remains a diagnostic for those drafts.
+	if (!workflowV3 && !sourceAudit) {
 		blockers.push('source_audit_unavailable:run scripts/blog-source-audit.mjs');
-	} else if (sourceAudit.untagged_in_epigraph_or_cold_open === true) {
-		blockers.push('source_standard_failed:untagged_epigraph_or_cold_open');
+	} else if (
+		!workflowV3 &&
+		(sourceAudit?.any_untagged_load_bearing_slot === true ||
+			sourceAudit?.untagged_in_epigraph_or_cold_open === true)
+	) {
+		blockers.push('source_standard_failed:untagged_load_bearing_quote');
 	}
 	if (!perspectiveReview.valid && perspectiveReview.blocker) {
 		blockers.push(perspectiveReview.blocker);
 	}
-	if (wordCount < PUBLISH_MIN_WORD_COUNT) {
+	if (!workflowV3 && wordCount < PUBLISH_MIN_WORD_COUNT) {
 		blockers.push(`too_short:${wordCount}_words`);
 	}
-	if (sectionCount < PUBLISH_MIN_SECTION_COUNT) {
+	if (!workflowV3 && sectionCount < PUBLISH_MIN_SECTION_COUNT) {
 		blockers.push(`too_few_sections:${sectionCount}`);
 	}
-	for (const marker of unfinishedMarkers) {
+	for (const marker of workflowV3 ? [] : unfinishedMarkers) {
 		blockers.push(`unfinished_marker:${marker}`);
 	}
 	if (!imageStatus.fullExists) {
@@ -1746,6 +1764,28 @@ const PERSPECTIVE_SENSITIVE_FIELDS = [
 	'person',
 	'faqs'
 ];
+const V3_EDITORIAL_SENSITIVE_FIELDS = [
+	...PERSPECTIVE_SENSITIVE_FIELDS,
+	'author',
+	'type',
+	'suggestions',
+	'wikipedia',
+	'twitter',
+	'instagram',
+	'tiktok',
+	'jsonld_snippet',
+	'keywords',
+	'same_as',
+	'wikidata_qid',
+	'imdb_id',
+	'birth_date',
+	'birth_place',
+	'nationality',
+	'occupation',
+	'knows_about',
+	'citations',
+	'content_quality'
+];
 
 /**
  * The publish path gates on the perspective review, but `--sync` and `--apply`
@@ -1760,9 +1800,12 @@ const PERSPECTIVE_SENSITIVE_FIELDS = [
  */
 export async function assertPerspectiveGateForUpdate(plan, entry, existing) {
 	if (!existing?.published) return;
+	const sensitiveFields = entry._requires_editorial_v3
+		? V3_EDITORIAL_SENSITIVE_FIELDS
+		: PERSPECTIVE_SENSITIVE_FIELDS;
 	const touched = plan.diff
 		.map(({ field }) => String(field))
-		.filter((field) => PERSPECTIVE_SENSITIVE_FIELDS.includes(field));
+		.filter((field) => sensitiveFields.includes(field));
 	if (touched.length === 0) return;
 
 	const sourcePath = entry?._source_path;

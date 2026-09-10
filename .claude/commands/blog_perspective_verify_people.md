@@ -40,7 +40,7 @@ Compute the current reader-visible content hash with the repository utility, not
 node --input-type=module -e "import {readFileSync} from 'fs'; import {hashReaderVisiblePerspectiveBody} from './scripts/lib/perspectiveReview.js'; console.log(hashReaderVisiblePerspectiveBody(readFileSync('<draft-path>','utf8')))"
 ```
 
-This hash intentionally ignores frontmatter and editorial HTML comments, which later pipeline stages may change.
+This legacy hash includes title, meta_title, persona_title, description, enneagram, person, faqs, and the reader-visible body. It excludes other frontmatter (including grades and publication bookkeeping) and editorial HTML comments. Changing a covered field requires reverification. Workflow 3 uses the broader editorial hash documented in `docs/writing-system/people-profile-standard.md`.
 
 ## Required output
 

@@ -1,6 +1,10 @@
+<!-- .claude/commands/blog_content_production_people.md -->
+
 # Blog Content Production
 
 You are tasked with taking a reviewed celebrity personality draft that already contains a `production_pretext` block and moving it through the production workflow. This command exists to execute the operational steps that happen after review and before publishing.
+
+**Workflow 3:** A draft marked `editorial_workflow.version: 3` must pass `node scripts/blog-editorial-check.mjs <draft-path> --release` before production. This shared gate replaces legacy review/grade-stability requirements for v3; do not independently regrade or remove its marker. A passing pipeline sets a compatible ready production handoff. Image and publishing responsibilities remain separate.
 
 ## Pre-Approved Operations
 
@@ -90,7 +94,7 @@ Do **not** run production unless all of the following are true:
 - `status: ready`
 - `reviewed: true`
 - `ready_for_production: true`
-- `handoff_from: blog_content_creator_people`
+- `handoff_from: blog_content_creator_people` (or `blog_pipeline_v3` for a v3 draft with a valid release)
 - `sync_mode: full`
 
 If any of these are missing or false, stop and send the draft back to `blog_content_creator_people`.

@@ -8,6 +8,8 @@ path: .claude/skills/9takes-editorial-standards/SKILL.md
 
 One rulebook for every editorial tool (the `editor` agent, `/deai`, `/copywriting-pass`, `/blog_content_editor_pass_people`, `/grade_blog`, `/cohesion-check`). If a rule here conflicts with an inline rule in a command, THIS FILE WINS — and the command should be updated to match.
 
+**People-profile workflow 3 exception:** Commands ending `_people_v3` and drafts marked `editorial_workflow.version: 3` follow `docs/writing-system/people-profile-standard.md` for research, structure, independent review and grading. It permits two independent reviews on ordinary profiles, requires the expanded jury for explicit risk flags, uses a five-year durability test, and makes presentation furniture optional. It replaces the older profile-specific templates and grade/regrade ritual only for v3. People profiles need no action step or body CTA. Authentic quotations retain their punctuation, including em dashes; the author-prose ban still applies. Existing legacy drafts retain the six-perspective gate.
+
 ## Canonical messaging (locked 2026-08-13)
 
 The five-level hierarchy is frozen. Never invent a new master concept, tagline, or umbrella positioning; new language must clarify one of these jobs:
