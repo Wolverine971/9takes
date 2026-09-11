@@ -1,7 +1,7 @@
-// src/routes/design-preview/harry-dry-v2/community/+server.ts
+// src/routes/api/homepage/community/+server.ts
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
-import { parseCommunityProof } from '../communityProof';
+import { parseCommunityProof } from '$lib/data/homepageCommunity';
 
 export const GET: RequestHandler = async ({ locals }) => {
 	// Same public index as /questions. Return only titles, slugs, and counts.

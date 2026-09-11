@@ -218,3 +218,28 @@ DJ requested an image-only loop, with Vienna before Athens and the Greek statues
 Verification: all 16 focused tests pass, including the new order, exact two-second interval and wraparound, empty visible metadata, loading, failures and reduced motion. Scoped Svelte check reports 0 errors and the two existing ThemeToggle selector warnings. Desktop 1280×900 and mobile 390×844 checks confirm the full illustration remains visible, the metadata area is gone, and neither layout overflows.
 
 - [Desktop](screenshots/harry-dry-2026-09-10/v2/slideshow-loop/desktop-dark.png) · [mobile](screenshots/harry-dry-2026-09-10/v2/slideshow-loop/mobile-dark.png)
+
+
+## V2 promoted to the main homepage
+
+DJ approved V2 as the main homepage. **Homepage ownership → P3+P6+P13:** `/` now renders `src/lib/components/marketing/HomeLandingV2.svelte`, preserving the approved offer, thought bubbles, private practice, founder story, live question cards and two-second five-scene image loop. The production header restores Questions, Explore and Account and removes V2/comparison labels. The former homepage is preserved at `/design-preview/harry-dry`; the V2 preview uses the same promoted component with its own preview header.
+
+**SEO and data → P6+P13:** `/` has an index/follow robots policy, the production title, the existing root canonical and a WebPage JSON-LD entity linked to the site's WebSite graph. Both comparison routes remain noindex/nofollow. Public activity now loads from `/api/homepage/community`; the unchanged bounded RPC call, normalization and failure fallback have moved out of the preview namespace. Practice content and conversation imagery are shared library modules, so the homepage no longer imports implementation from preview routes. The earlier V1 component and content remain intact.
+
+Verification:
+
+- All **16 focused tests across five files** pass, including production metadata/navigation, private draft isolation, live handoff, preview metadata, public-data filtering/fallback and slideshow behavior.
+- Scoped Svelte check covers the homepage, preview, shared components, data and API: **0 errors**, two existing ThemeToggle selector warnings. Targeted ESLint/Prettier and radius checks pass. The previously recorded unrelated full-project blog-script errors were not changed in this promotion.
+- Browser: desktop 1280×900 and mobile 390×844 in light/dark themes, plus 320px navigation/overflow. One canonical and indexable robots tag; WebPage schema links correctly to the global graph; three real public questions and totals load. Empty submission focuses validation; reveal focuses its heading; both answer copies remain capture-blocked; refresh clears practice. The live friendship link opens the expected public question with normal site chrome. All five images load at `/` and keep cycling without visible metadata. Both comparison routes render and retain their preview navigation.
+- No deployment or conversion claim is made by this local promotion.
+
+[Desktop dark](screenshots/harry-dry-2026-09-10/v2/promotion/desktop-dark.png) · [desktop light](screenshots/harry-dry-2026-09-10/v2/promotion/desktop-light.png) · [mobile dark](screenshots/harry-dry-2026-09-10/v2/promotion/mobile-dark.png) · [mobile light](screenshots/harry-dry-2026-09-10/v2/promotion/mobile-light.png)
+
+
+### Homepage follow-up — retain the existing site navbar
+
+DJ clarified that V2 should retain the existing navbar. **Header ownership → P3+P13:** the main homepage now uses the unchanged shared `Header.svelte` through the root layout, including search, Library, session-aware account controls and the mobile menu. The compact V2 header only renders on its comparison route. A typed `pageChrome: 'header'` option restores the site header while preserving V2's existing page ending. No header or mobile-navigation component was redesigned.
+
+Verification: 13 focused homepage, public-data, preview, Header and MobileNav tests pass. Scoped Svelte check reports 0 errors and five existing warnings across ThemeToggle, BackNavigation and the layout touch handler. Changed route/component/types/tests pass targeted ESLint; ESLint cannot parse the layout's pre-existing JSON-LD template at line 628, while its Svelte compiler check passes. Formatting passes. Desktop 1280×900 and mobile 390×844 show the original navbar; Library expands on desktop and the mobile menu opens with focus on its close control. The homepage has one shared header, retains V2 content and has no horizontal overflow.
+
+[Desktop navbar](screenshots/harry-dry-2026-09-10/v2/shared-navbar/desktop-dark.png) · [mobile navbar](screenshots/harry-dry-2026-09-10/v2/shared-navbar/mobile-dark.png)

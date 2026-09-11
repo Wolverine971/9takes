@@ -1,4 +1,4 @@
-// src/routes/design-preview/harry-dry-v2/communityProof.ts
+// src/lib/data/homepageCommunity.ts
 // Public question metadata only. Never serialize RPC author IDs or answer text.
 export type CommunityProof = {
 	totalQuestions: number;

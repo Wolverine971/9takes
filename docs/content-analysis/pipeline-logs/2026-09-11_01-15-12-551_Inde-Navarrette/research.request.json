@@ -1,0 +1,15 @@
+{
+  "schema_version": 3,
+  "subject": "Inde-Navarrette",
+  "mode": "create",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_research_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_01-15-12-551_Inde-Navarrette/baseline-reader.md"
+  },
+  "outputs": {
+    "evidence.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_01-15-12-551_Inde-Navarrette/evidence.json"
+  }
+}

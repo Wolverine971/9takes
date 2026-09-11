@@ -104,7 +104,8 @@ declare global {
 			authShell?: 'server' | 'client';
 			flags?: string[];
 			pageShell?: 'contained' | 'owned';
-			pageChrome?: 'default' | 'owned';
+			// 'header' uses the shared site header while the page owns its footer.
+			pageChrome?: 'default' | 'owned' | 'header';
 		}
 
 		// interface Platform {}

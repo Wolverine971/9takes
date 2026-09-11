@@ -2,4 +2,4 @@
 import type { PageLoad } from './$types';
 import { withOwnedPageShell } from '$lib/layout/pageShell';
 
-export const load: PageLoad = () => withOwnedPageShell({ pageChrome: 'owned' as const });
+export const load: PageLoad = () => withOwnedPageShell({ pageChrome: 'header' as const });

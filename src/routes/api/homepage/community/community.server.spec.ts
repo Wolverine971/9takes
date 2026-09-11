@@ -1,8 +1,8 @@
-// src/routes/design-preview/harry-dry-v2/communityProof.spec.ts
+// src/routes/api/homepage/community/community.server.spec.ts
 import { describe, expect, it, vi } from 'vitest';
-import { GET } from './community/+server';
-import { load } from './+page';
-import { parseCommunityProof } from './communityProof';
+import { GET } from './+server';
+import { load } from '../../../+page';
+import { parseCommunityProof } from '$lib/data/homepageCommunity';
 
 const raw = {
 	totalQuestions: 4,
@@ -26,7 +26,7 @@ const raw = {
 	comments: ['must-not-serialize']
 };
 
-describe('V2 public community proof', () => {
+describe('homepage public community proof', () => {
 	it('returns only safe public metadata, without duplicates, hidden rows, or invented counts', () => {
 		expect(parseCommunityProof(raw)).toEqual({
 			totalQuestions: 4,
@@ -52,10 +52,10 @@ describe('V2 public community proof', () => {
 	});
 
 	it('renders the page without waiting for public activity', () => {
-		expect(load()).toEqual({ pageChrome: 'owned', pageShell: 'owned' });
+		expect(load({} as never)).toEqual({ pageChrome: 'header', pageShell: 'owned' });
 	});
 
-	it('keeps the preview usable when the public data request fails or throws', async () => {
+	it('keeps the homepage usable when the public data request fails or throws', async () => {
 		for (const response of [
 			() => Promise.resolve({ data: raw, error: { message: 'unavailable' } }),
 			() => Promise.reject(new Error('timeout'))

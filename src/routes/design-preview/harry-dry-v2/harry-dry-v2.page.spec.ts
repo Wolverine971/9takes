@@ -29,12 +29,12 @@ afterEach(() => {
 });
 
 describe('Harry Dry V2', () => {
-	it('identifies V2, stays noindex, and links back to the unchanged version', async () => {
+	it('identifies V2, stays noindex, and links to the preserved V1 comparison', async () => {
 		const { container } = render(Page);
 		expect(document.head.querySelector('meta[name="robots"]')?.getAttribute('content')).toMatch(
 			/^noindex, nofollow/
 		);
-		expect(screen.getByRole('link', { name: 'Compare current' }).getAttribute('href')).toBe(
+		expect(screen.getByRole('link', { name: 'Compare V1' }).getAttribute('href')).toBe(
 			'/design-preview/harry-dry'
 		);
 		expect(screen.getByRole('heading', { level: 1 }).textContent).toBe(
@@ -62,7 +62,7 @@ describe('Harry Dry V2', () => {
 		await fireEvent.click(screen.getByRole('button', { name: 'Reveal 9 perspectives' }));
 		await waitFor(() => expect(container.querySelector('.comparison')).toBeTruthy());
 		expect(fetch).toHaveBeenCalledTimes(1);
-		expect(fetch).toHaveBeenCalledWith('/design-preview/harry-dry-v2/community', {
+		expect(fetch).toHaveBeenCalledWith('/api/homepage/community', {
 			signal: expect.any(AbortSignal)
 		});
 		const copies = [...container.querySelectorAll('blockquote')].filter(

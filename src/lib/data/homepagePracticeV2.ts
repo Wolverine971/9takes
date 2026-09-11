@@ -1,4 +1,4 @@
-// src/routes/design-preview/harry-dry-v2/practiceContent.ts
+// src/lib/data/homepagePracticeV2.ts
 // Snapshot for V2; edits here do not alter the current homepage.
 // AI-written editorial examples for a private, browser-only practice exercise.
 // These are possible motivations, never participant responses or a type assessment.

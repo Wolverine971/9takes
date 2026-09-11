@@ -1,6 +1,6 @@
 <!-- src/routes/+page.svelte -->
 <script lang="ts">
-	import HomeLanding from '$lib/components/marketing/HomeLanding.svelte';
+	import HomeLandingV2 from '$lib/components/marketing/HomeLandingV2.svelte';
 </script>
 
-<HomeLanding />
+<HomeLandingV2 />

@@ -1,0 +1,30 @@
+{
+  "schema_version": 3,
+  "subject": "Inde-Navarrette",
+  "mode": "create",
+  "started_at": "2026-09-11T01:33:50.736Z",
+  "stages": {
+    "research": {
+      "status": "running",
+      "started_at": "2026-09-11T01:33:50.738Z",
+      "cache_key": "c1e31b7c0d350782684fe5669a700b1a705087d90ba65a280c5abdaf0d07519c",
+      "input_hashes": {
+        "baseline": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "project_instructions": "0eeecafd72f8d6129c91e5523d5b78e49121192fbe06044b50c2a8dd8e494cfe",
+        "project_local_settings": "71d03b589826f647e87c642d87b3d4b2482dd132355c98a0daf5ae2ec6d8e8c1",
+        "user_settings": "4d5834724a75cddc20a36c71256785e18ab00f15d7c5f4808ac436cf1dd1fce6",
+        "command": "961aba5e7001672392f90715fb56ac94e38969654ad6d730cd838065425f7aa4",
+        "standard": "c5a11610a5249881e367276b5319c0c6ea0d9600c517795018fc60d216186c25",
+        "contract": "2e33f9feeca0a4ca14c78f1e58a40046b98f091981402947caca5ee1aa24ec51",
+        "runner": "d271c3425282fdb439e39ecd0c5fee0e38fc6dda5ca3b244c854dedb27fc7c26"
+      },
+      "model": "CLI default"
+    }
+  },
+  "baseline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "materialized_sha256": null,
+  "expanded": false,
+  "run_status": "running",
+  "editorial_status": "pending",
+  "current_stage": "research"
+}
