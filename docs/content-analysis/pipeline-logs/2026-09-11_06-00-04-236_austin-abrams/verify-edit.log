@@ -1,0 +1,30 @@
+I've written the verification file, and it holds the Austin Abrams draft back: **the result is `revise`**, not pass. It's the only file I changed in the repo; my working files are in `/tmp`, and nothing was published.
+
+**How I checked:** I fetched fresh copies of all 34 sources the claims rely on and ran a script matching every quote against them. All quotes but one matched, and that one was a spacing difference in the page. Dates and context mostly check out too, except the ET date below. The six reviewers' 45 findings were resolved well: I accepted 44 of the editor's fixes, and all 17 passages they protected survived. When I ran the release gate on the result, it said not eligible.
+
+**Two problems block release:**
+- **A sentence the editor added is wrong.** The draft says Abrams "took *Wolfs* after reading a script that kept him in his underwear." His own interviews point the other way. IndieWire says he first got only one scene ("All I got was the interrogation scene"), and Collider's question places his reading of the script after he knew he'd work with Pitt and Clooney. This was supposed to answer a reviewer's request to say he signed on knowing little; it says the opposite, so I didn't accept that fix.
+- **The social-media claim contradicts itself.** The body and the "Why is he not on social media?" FAQ say he "had never had" an account. The very next sentence says he had Facebook at 13, which he mentions in the same 2019 interview where he says "I've never had it."
+
+**Smaller fixes, which don't block release on their own:**
+- A 2025 quote used to argue for Type 9 is cut so a hedged "it just depends" reads as a flat no.
+- The type answer and first FAQ say he "at times borrows his drive from people he admires"; the body says he's done so once.
+- "Three, four weeks" is from IndieWire but credited to Screen Rant.
+- The ET Online article is dated February 20, 2022, not the 21st.
+- A few loose ends in the claim records.
+
+**Scores:** 7.9 overall against the 8.5 bar.
+
+| Dimension | Score | Bar to pass |
+| --- | --- | --- |
+| Evidence | 7.5 | 8 |
+| Enneagram | 7.5 | 8 |
+| Originality | 8.5 | — |
+| Writing | 7.5 | — |
+| Durability | 8.5 | 8 |
+| Hook | 9.0 | — |
+| Discoverability | 7.5 | 7 |
+
+Evidence goes back up once the two errors are fixed. The Enneagram score won't: the Type 4 comparison is honest and well argued, but the positive case for Type 9 rests on something he doesn't say about himself rather than on choices that cost him something. The draft admits this, calling Nine's lead "narrow."
+
+The fixes are all wording, well within the one targeted repair the workflow allows before a hold. None of them changes the type call, so the six reviewers don't need to run again.

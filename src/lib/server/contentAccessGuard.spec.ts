@@ -48,7 +48,8 @@ describe('contentAccessGuard', () => {
 			'CCBot/2.0',
 			'Google-Extended/1.0',
 			'Applebot-Extended/1.0',
-			'meta-externalagent/1.1'
+			'meta-externalagent/1.1',
+			'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Reflectionbot/1.0; +https://reflection.ai/bot) Chrome/151.0.0.0 Safari/537.36'
 		]) {
 			expect(
 				getHardBlockedReason({
@@ -95,6 +96,9 @@ describe('contentAccessGuard', () => {
 			'Claude-SearchBot/1.0',
 			'PerplexityBot/1.0',
 			'meta-webindexer/1.1',
+			'Mozilla/5.0 (compatible; ExaSearchBot/1.0; +https://crawler.exa.ai/)',
+			'Mozilla/5.0 (compatible; Qwantbot/1.0; +https://help.qwant.com/bot/)',
+			'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
 			'ChatGPT-User/1.0',
 			'Claude-User/1.0',
 			'Perplexity-User/1.0',
@@ -175,6 +179,14 @@ describe('contentAccessGuard', () => {
 				method: 'GET',
 				pathname: '/community/kantian-filters-and-nine-perspectives',
 				userAgent: 'crawler/1.0'
+			})
+		).toBe('unknown_bot_user_agent');
+		// Sogou's user agent arrives from unverifiable cloud IPs and sends no referrals.
+		expect(
+			getHardBlockedReason({
+				method: 'GET',
+				pathname: '/personality-analysis/margot-robbie',
+				userAgent: 'Sogou web spider/4.0'
 			})
 		).toBe('unknown_bot_user_agent');
 	});

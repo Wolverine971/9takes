@@ -1,0 +1,23 @@
+I wrote the subject review for the Joseph Zada draft to `review-subject.json`. It passes the review schema, the hashes match the request, and all 8 finding passages and 5 protected passages appear word for word in the draft. I didn't touch any other file or publish anything.
+
+**Overall:** the draft is fair to a young living subject. It states up front that almost every source is a promotional interview, attributes quotes where they appear, and refuses to invent a childhood wound. The problems are in specific passages:
+
+1. **Heritage (major):** The draft says Wikipedia's version of his ancestry differs from his, so "the lineage here is his account." But in the same Interview Magazine answer he says his grandmother is "Australian Indigenous and also Afghan." That fits Wikipedia's Afghan-Aboriginal heritage, so there is no conflict. The draft leaves out his statement of Indigenous heritage and presents a non-conflict as a discrepancy.
+2. **Leaving school (major):** The draft says it won't choose between his two accounts, then does. It calls the exit his "solo act," says the GQ version is "the more flattering telling" (which implies spin), and uses that version as evidence in the Type 3 section. The GQ interview was never opened.
+3. **Overclaim (major):** "Good news registers first as an obligation he could fail" rests on one joked-about reaction to winning Haymitch. The same certainty is repeated in the type answer, the FAQ and the meta description.
+4. **Missing response (major):** The draft says nothing explains the gap between his "I don't want anyone to know anything about me" and his open interviews. The quote it uses gives his reason: "now I'm in these situations where I do have to talk about it."
+5. **Four minor findings:**
+   - Lind's "He just gets what he wants" is read without its affectionate framing, and ordinary casting confidentiality is called "secrecy."
+   - The "child actors… unattainable" line is over-read. In context he was praising the young IT: Welcome to Derry cast.
+   - The draft names "Hal" as his audition partner, but the source says only "my older brother."
+   - The two loneliness quotes are about eight and a half months apart, not the "fourteen months" the draft says.
+
+**Risk flags:** contested typing and historical source uncertainty are true, which triggers the full six-reviewer panel. There are no allegations of wrongdoing.
+
+**Source checks:**
+- **Opened:** Behind The Blinds, HERO, Flaunt and Wikipedia.
+- **Proxy only:** Interview Magazine blocked direct access, so I read it through a reader proxy. That tool returns summarized text, so the editor should confirm the exact heritage wording before quoting it.
+- **Not reopened:** The Hollywood Reporter redirected to a paywall, so Lind's quote was judged from the excerpt in the evidence file.
+- **Metadata gap:** The FAQ's "spiritual connection" is in the source, but it's missing from the claim list.
+
+**Similarity:** the check against recent drafts didn't trip (0.028 against a 0.04 threshold). The closest matches share only generic type wording, so there is no reuse finding.

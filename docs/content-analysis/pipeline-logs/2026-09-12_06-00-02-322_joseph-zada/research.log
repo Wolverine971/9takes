@@ -1,0 +1,23 @@
+Research stage complete. Only `evidence.json` was written; nothing else in the repo was touched (temp files went to `/tmp`).
+
+## What I did
+
+Cold start — the baseline was empty and there was no prior Zada material in the repo. I gathered 17 opened sources and recorded 3 that I could not reach, then built 44 claims and a challenged type hypothesis.
+
+**Opened primaries** (read in full, not snippets): Interview Magazine's Elle Fanning conversation (Aug 2026, the richest), Behind The Blinds with Esther McGregor (Jul 2025), HERO with Mckenna Grace (Mar 2026), Flaunt, Polyester, Variety AU's on-set Invisible Boys visit (Feb 2025), Concrete Playground, Deadline, People-via-Yahoo, Brit+Co. Plus named third-party testimony from Emily Alyn Lind, E. Lockhart, Nina Jacobson and Mckenna Grace.
+
+Publisher blocks forced workarounds: Interview Magazine 403'd both WebFetch and curl, so I read it through a reader proxy; WebFetch's summarizer was truncating quotes to under 125 characters, so I pulled raw HTML and extracted text myself to get verbatim excerpts with real locators.
+
+## The finding
+
+**Leading: Type 6, medium confidence.** The discriminator is his reaction to winning. At the 7 a.m. call telling him he was Haymitch he went straight to dread — *"Now I have to do this and it's going to be really hard"* — and confirmed to Fanning he was *more* scared after finding out. Then he turned a one-scene audition ask into a three-week shoot and flew from New Zealand to Australia so his brother and father could work it with him. Success raising anxiety, discharged into preparation and alliance, is what the alternative can't produce.
+
+**Strongest alternative: Type 9**, and it's genuinely strong — "I'm chilling," "you've just got to roll with it," Flaunt's "uncommonly zen," and a reporter finding him "remarkably upbeat" after a week of crying scenes.
+
+## Three things worth flagging to you
+
+- **I set `contested_typing: true`**, which escalates this to the six-role jury rather than the two-reviewer default. He's 21, and essentially every source is a promotional interview inside a release window — where nervousness, humility and "the cast became a family" are the house register. Several supporting claims are individually worthless for that reason, and I said so in `against` rather than burying it.
+- **A biographical conflict I could not resolve.** He told Variety on set he "ended up being kicked out" of school; he told GQ Australia he dropped out to do an audition. Those assign agency in opposite directions, and GQ is hard-blocked by News Corp to both direct and proxy requests. Logged as `disputed`/`unresolved` with a review trigger, and it's the top research task.
+- **Both defining performances are unreleased** — East of Eden on 1 Oct 2026, Sunrise on the Reaping on 20 Nov 2026. There's no reception for either yet, which is a real durability constraint on whatever gets drafted.
+
+Status is `ready`, not a hold — there's a defensible sourced discriminator and costly behavioural evidence, not just vocabulary. But I attached seven research tasks anyway, since the schema allows it and the draft stage will be better for them.

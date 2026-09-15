@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "f2d9087bff40b60d7105a9c44b45b88ffb4d28ed616db296e80713931a6a08a7",
+	"evidence_sha256": "c35ed25f0d9a051c78a92b6e9068fc9267b77ba155294908eda7311e8e042e36",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": true,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-U01",
+			"severity": "major",
+			"passage": "Lind's line comes from the least performative setting in the record, a private call in the middle of the callbacks",
+			"problem": "This misplaces the quote. The evidence excerpt for S09 shows that \"He just gets what he wants\" is Lind's own summary, told to People in a June 2025 promotional interview (\"'He just gets what he wants,' she said of Zada\"). She said it after he was cast, not on the FaceTime call. What she reports from the private call is narrower: the secrecy (\"You can't tell anyone\") and his naming of big rivals. The hook paragraph has the same problem. It runs \"spoke to him on FaceTime during the callbacks and summed him up this way\" into the quote, so a new reader assumes she said the line on the call. The article's biggest open piece of counterevidence gets extra credibility from a setting it didn't come from. C26 in the evidence file makes the same mix-up.",
+			"acceptance_test": "Both the hook paragraph and the Type 3 section keep two things apart: (a) what Lind says happened on the private call (secrecy, naming rivals), and (b) her summary line, said to People in a June 2025 promotional interview. The \"least performative setting\" framing applies only to (a). C26's inference matches the corrected wording. The Type 3 argument still holds, or is scaled back, on the corrected weight."
+		},
+		{
+			"id": "unfamiliar-U02",
+			"severity": "major",
+			"passage": "His answer was one word: \"Yes.\"",
+			"problem": "The hook dramatizes this answer. According to the evidence file (S01 context, C12, C59), his reply goes on: \"Yes. Then the announcement came out a day after, so everyone found out at the same time as me. It was pretty full-on.\" He answered a laughing question and moved on to logistics. That is not a terse one-word confession. Calling it \"one word\" makes the article's key discriminator look heavier than the transcript supports. The opening line has a smaller version of the same problem: \"knew what it meant before anyone said it\" is stronger than his \"so I more or less knew immediately\" after a call from his entire team.",
+			"acceptance_test": "The hook no longer calls the answer \"one word\" or implies that \"Yes\" was all he said. It may quote \"Yes\" and note that he moved straight on to the announcement. The opening line's certainty matches \"more or less knew immediately.\" Every quotation in the first paragraph still matches S01."
+		},
+		{
+			"id": "unfamiliar-U03",
+			"severity": "major",
+			"passage": "He had won the role of young Haymitch Abernathy in _The Hunger Games: Sunrise on the Reaping_.",
+			"problem": "A reader who doesn't already know him gets the verdict before the stakes. The first three paragraphs never say that he was a newcomer with two released credits, that Haymitch is the older mentor Woody Harrelson played in the original films, that Sunrise on the Reaping is a prequel to a huge franchise, that Elle Fanning is his co-star interviewing him, or that the search reviewed hundreds of actors. Harrelson first appears around 2,000 words in (\"meaning Woody Harrelson\"). Fanning is first identified as a co-star in the fourth H2 section. Glenn Close and Ralph Fiennes first appear in the methods caveat. The hook's surprise, being more scared after winning, only works if the reader knows how big the win was.",
+			"acceptance_test": "By the end of the third paragraph, a reader with no prior knowledge can answer, from sourced prose: roughly how new he was to screen work when cast, who Haymitch is and that Harrelson played him, that Sunrise on the Reaping is a Hunger Games prequel, that Fanning is a Sunrise co-star conducting the Interview conversation, and how competitive the search was (S14's \"auditioning hundreds\" is available). No unsourced detail is added. The paragraph still opens on the 7 a.m. call."
+		},
+		{
+			"id": "unfamiliar-U04",
+			"severity": "major",
+			"passage": "Any one of these trips is ordinary.",
+			"problem": "The draft keeps making the same move: admit an item is ordinary, then claim it back. It happens at least eleven times: \"A new credit name is ordinary\", \"Grabbing readers for an urgent tape is common\", \"Casting statements are marketing\", \"Read quickly, the swearing is a joke\", \"Avoiding a predecessor's performance is standard craft advice\", \"It is a neat line\", \"a reader could fairly stop there\", \"Any 20-year-old living abroad for months gets lonely. What carries weight\", \"Any one of these trips is ordinary\", \"junket boilerplate\", \"Each is an expected press courtesy on its own\". Each caveat is honest. Together they become a rhythm the reader learns to predict, and momentum stalls in the middle. \"Getting inside the circle\", the longest section at about 594 words, is mostly stacked quotes with this pattern attached. The body runs about 4,080 words, above the standard's 2,000–3,500 target. The \"A limit shapes everything below\" paragraph already makes the press-register point for the whole piece.",
+			"acceptance_test": "The general caveat about press language is made once, in the limit paragraph, rather than repeated for each routine quote. The item-by-item \"ordinary, but\" move appears no more than about three times, and only for load-bearing evidence such as the swearing and \"Yes\", Jacobson's statement, Lind, and the mid-2025 hedges. \"Afraid of the people he admires\" and \"Getting inside the circle\" each add a distinct step instead of more examples of the same point. The body is at or near 3,500 words. The Type 9 and Type 3 tests, inference-limit labels, attributions and the unexplained-contradictions section all stay."
+		},
+		{
+			"id": "unfamiliar-U05",
+			"severity": "major",
+			"passage": "A Nine's steadiness would be expected to absorb good news, yet Zada's most consequential good news made him more afraid.",
+			"problem": "The main discriminator doesn't make sense to a newcomer, for two reasons. First, Type 6 and Type 3 get plain-language motive definitions (\"security, trust and the question of who can be relied on\"; \"organized around achievement\"), but Type 9 gets only a link and a list of evidence. A reader who doesn't know that a Nine is organized around keeping inner and outer peace and avoiding disruption can't judge \"absorb good news\", \"he does not drift\" or \"the family trips are nesting\". Once they do learn it, the obvious objection is that a life-changing role is itself a disruption a Nine might dread, and the draft doesn't address that. Second, the article discounts this evidence and then leans on it. \"The three-week audition\" says the swearing was a joke told to a friendly co-star a year later, valuable only for its \"fit with the rest of the record\". \"The case for Type 9\" then opens with \"The first is the win itself\", and the title, meta_title, persona_title and description all rest on the same moment.",
+			"acceptance_test": "\"The case for Type 9\" opens with one plain sentence defining the Nine's core motive. The discriminator paragraph explains why fear raised by winning separates Six from Nine even though a big new obligation disrupts a Nine too, or it softens the claim. The article gives the win one consistent weight throughout: either the Type 9 rebuttal presents it as part of a pattern (three-week tape, pre-shoot nerves, \"once I step on set and meet everyone\") rather than standing alone, or \"The three-week audition\" explains why the joke still counts as evidence. The title and description claim no more than the body supports."
+		},
+		{
+			"id": "unfamiliar-U06",
+			"severity": "minor",
+			"passage": "Across three thresholds, the teenage sessions with Hal, the flight home for the Haymitch tape and Berlin, the same people appear right before the plunge.",
+			"problem": "A new reader can't keep the family straight. The article mentions an \"older brother\" who came back from America, uses the Cumpston name and helped with the tape. It mentions \"Hal Cumpston\", introduced only as the Bilched star and Wikipedia's \"half-brother\". Berlin adds a \"little brother\" and the call scene adds a \"younger sister\". It never says the older brother is Hal, yet this sentence assumes it. \"The same people\" also overstates the pattern. The tape involved his older brother, his father and friends. Berlin involved an older brother, his father and his little brother. For the teenage sessions the draft names only his brother. (This reviewer checked Hal Cumpston's Wikipedia page: it lists Joseph Zada as a half-brother and says Hal wrote Bilched, which their father helped fund and direct. The Bilched sentence is consistent with that.)",
+			"acceptance_test": "At the first mention of \"my older brother\", the draft either identifies him as Hal, citing a source that makes the link, or stops using \"Hal\" in the thresholds sentence. \"The same people\" is replaced with what the three scenes actually share, which is his older brother and, at two of them, his father."
+		},
+		{
+			"id": "unfamiliar-U07",
+			"severity": "minor",
+			"passage": "The sharpest solo act in his record is also the least settled.",
+			"problem": "The section says \"This profile does not choose between them or build a psychological claim on either\", but its first sentence already picks one. Calling leaving school a \"solo act\" assumes the GQ dropout version; being \"kicked out\" isn't an act. The section then links the episode to his later fears (\"It does share a structure with what comes later\"). The Type 3 section counts \"the GQ account of leaving school for an audition\" as evidence without mentioning the other version. A newcomer is told a 424-word story won't be used and then sees it used twice.",
+			"acceptance_test": "The section's first sentence doesn't assume either account. Anywhere else the school exit is used, including the Type 3 section, it is marked as disputed, with both versions or a pointer back. The section's length matches how little the article builds on it."
+		},
+		{
+			"id": "unfamiliar-U08",
+			"severity": "minor",
+			"passage": "family-built audition and fear of admired peers point to Enneagram Type 6.",
+			"problem": "The description contradicts the body's mechanism. The body says he fears admired authorities (\"the cast and the filmmakers. These are people I really admire\", Glenn Close \"of such stature\"). It also says his confidence arrived \"once the people he feared had been reclassified as peers.\" \"Fear of admired peers\" states the opposite. \"After winning Haymitch\" is also shorthand a searcher won't parse; they'll look for the role or the film.",
+			"acceptance_test": "The description names the fear as being about how admired collaborators or established co-stars would see him, not peers. It refers to the Haymitch role or the Hunger Games film clearly. It stays between 120 and 170 characters and matches the FAQ answers."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "He had made the process harder on purpose.",
+			"reason": "This is the paragraph where the story takes off. Seven plain words turn the call scene into a question and lead straight to the three-week tape and the flight home. It is the strongest single piece of behavioral evidence, placed where a newcomer will feel it."
+		},
+		{
+			"passage": "So this reading leans on what he did, especially when it cost him something, and on statements that repeat across years and interviewers.",
+			"reason": "It gives an unfamiliar reader, early on, a clear rule for weighing everything that follows. It is also what lets the article cut its repeated per-quote caveats (see U04) without losing honesty."
+		},
+		{
+			"passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+			"reason": "This is the most distinctive insight in the piece. It turns what looks like counterevidence (\"toe to toe with anyone now\") into a sharper mechanism, using his own explanation."
+		},
+		{
+			"passage": "What repeats is the sequence: keep the looming authority out of the room while working, then receive its approval afterward.",
+			"reason": "It is a specific, memorable pattern drawn from two documented episodes (the 1955 East of Eden and Harrelson) that a reader couldn't get from type boilerplate."
+		},
+		{
+			"passage": "The Six reading predicts that fame will not settle him, and that at the next threshold he will again bring his people with him before he jumps into the deep end.",
+			"reason": "The ending makes a falsifiable prediction tied to dated releases, echoes his own \"deep end\" line, and gives readers a reason to come back. That is good for durability and for the story."
+		}
+	],
+	"assessment": "Read cold, the article teaches something real and specific. It argues that success raises Zada's alarm, that he meets pressure by gathering family and trusted collaborators, and that his named fear is how admired authorities will see him. It backs this with behavior (the three-week tape, the flight home) and ends on a prediction that can be checked. The sourcing honesty and the unresolved contradictions (\"unattainable\", the stated reticence set against his openness) keep him a person rather than a type sketch. Most reader problems are about orientation and pacing. The stakes of the casting aren't explained until well after the verdict (U03). The hook turns an answer that kept going into \"one word\" (U02). Type 9 is tested without being defined, and the win is discounted in one section and relied on in another (U05). The honest \"ordinary, but\" caveat repeats about eleven times across a roughly 4,080-word body, which drains momentum through the middle sections (U04). U01 is a context error: Lind's \"He just gets what he wants\" came from a People press interview, not the private FaceTime call, and fixing it lowers the weight of the main open counterevidence. Risk flags: contested_typing is true because the Type 9 case is strong and the discriminator needs work. historical_source_uncertainty is true because the school-exit and \"through the ringer\" quotations rest on relays of unopened primary sources (S18, S19), and the source base is almost entirely promotional. No sensitive allegations; no thesis change is proposed. Similarity check: not tripped (max 0.028 against a 0.04 threshold, noise-floor p99 0.007). The top pairs only share generic type phrasing, such as \"people and structures that have earned trust\" matching the Mahomes and Loomer definitions, and \"A limit shapes everything below\" matching Bill Burr's \"Everything below\". Neither is reused argument. The Nine definition added under U05 should avoid copying other drafts' type definitions. Hashes were recomputed with editorialHash and the parsed evidence hash, and match the request."
+}

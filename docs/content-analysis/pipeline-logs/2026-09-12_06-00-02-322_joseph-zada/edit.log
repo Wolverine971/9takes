@@ -1,0 +1,36 @@
+I finished the Joseph Zada edit stage and wrote the three requested files. Nothing was published and no other files were touched. The other changes that show in `git status` were already there before I started.
+
+**What changed in the article** (`edit.md`)
+- **Reviews:** all 51 findings from the six reviewers are marked fixed. Before accepting or rejecting the factual ones, I reopened Interview Magazine, Behind The Blinds, HERO, Flaunt, Variety Australia, THR and Wikipedia.
+- **Factual errors fixed:**
+  - The Variety Australia set interview was given during the early-2024 *Invisible Boys* shoot, not in February 2025 (that's when it was published). Stan's March 12, 2024 press release confirms the filming dates.
+  - The two loneliness quotes were published about eight months apart, not fourteen.
+  - "His answer was one word" was wrong; he kept talking.
+  - The line about him crediting producer Nina Jacobson had no source, so it's gone.
+  - "He just gets what he wants" was co-star Emily Alyn Lind's comment to People magazine, not something she said on the private FaceTime call.
+- **Heritage:** the draft doubted his family history without cause. He says his grandmother is Australian Indigenous and Afghan, and Wikipedia agrees. The piece now quotes him and drops the implied conflict.
+- **Type argument:**
+  - Getting scared after winning Haymitch is no longer treated as the main proof of Type 6.
+  - The case now rests on what calms his nerves (trusted people becoming reliable), with dated quotes.
+  - It adds a June 2026 quote where the fear of admired actors comes back ("I'm shit scared of working with them").
+  - It argues against Type 9 with examples of him holding his own line, not the stereotype that Nines don't work hard.
+  - It says plainly that the record lacks some typical Six traits, which is why confidence stays medium.
+- **Reader orientation:** the first paragraphs now explain who Haymitch is, how big the casting search was, who Fanning and Grace play, his role as Cal Trask, and that his older brother is Hal.
+- **Metadata:** the meta title, persona title, description and FAQs no longer present "more scared after winning" as fact. The casting date (April 2025) is added. "He has not publicly named a type" is removed, because nothing documents that anyone checked.
+- **Length:** 3,707 words, down from 4,079. Machine checks show no blockers.
+- **Unchanged:** date, lastmod, published (false), person and loc are preserved, and no grade fields were set.
+
+**Evidence file** (`evidence-edit.json`): 93 claims and 25 sources, and it passes `validateEvidence`, so every claim's text matches the article exactly.
+- Fifteen claims tied to cut passages were removed, and new claims were added for the new material.
+- Four sources are new: Deadline's casting announcement, Stan's press release, and the Wikipedia pages for Hal Cumpston and *Invisible Boys*.
+- The research notes had three wrong "not found" entries, which are now corrected: the coaches line, the Hal co-writing project and the David Morse passage do exist.
+- The closing prediction is now tracked, with a trigger to recheck it after the October and November 2026 releases.
+
+**Resolution file** (`resolution-edit.json`): records a decision for every finding and 20 protected passages (14 kept word for word, 6 changed).
+- Each change keeps what the reviewer valued and removes only an inaccurate part, such as "more flattering telling" or "what repeats is the sequence".
+- There were no earlier blockers to resolve.
+
+**For the verifier:**
+- **Length:** the body is still above the ~3,500-word target from one reviewer, because other findings required adding context.
+- **Stale research note:** the old claim C29 (Harrelson voice/coaches) was deleted with its cut passage rather than corrected. The corrected coaches wording is in the Interview Magazine source notes.
+- **Still unverified:** the GQ Australia, Swooon and Star Observer originals couldn't be opened, and those tasks stay in the research list.

@@ -1,0 +1,30 @@
+I finished the repair stage. The article, evidence record and resolution record are written, and all three pass the pipeline's schema and draft checks. I changed nothing else in the run folder and published nothing.
+
+**The two major findings are fixed:**
+- **Wrong claim about his earlier leads.** The article said *Invisible Boys* was his only released lead, but he was one of four credited stars of *The Speedway Murders*, released June 21, 2024. The opening now says "only released lead in a series," which matches what he told Mckenna Grace. The closing paragraph names the film and its release date, linked to Deadline and a WIBC report I opened. Wikipedia lists him first as Dan, but Deadline lists him fourth, so the article doesn't call it his lead.
+- **The Swooon quote.** The original interview is readable after all, and its wording differs from CinemaBlend's copy. The article now quotes Swooon directly and no longer says feeling comfortable was the point of the auditions. The type argument still holds, because meeting the people he'd work with is in his own words.
+
+**The ten minor findings are also fixed:**
+- Fanning laughed at the bucket-list answer, not him.
+- The Halifax line is a reason he gave, not his first line.
+- The article no longer suggests he chose to meet Harrelson only after shooting. The protected sentence now says "out of mind" instead of "out of the room."
+- The writing and directing quotes are in their original order.
+- The Grace conversation is dated by its March 2026 publication.
+- The Type 9 FAQ drops "keeps sets light" and uses the reporter's "remarkably upbeat" instead.
+- The name FAQ no longer ties his spiritual connection to the callback.
+- The schooling claim no longer cites the GQ interview nobody could open.
+- New claim rows cover "She's scary" and the Glenn Close/Ralph Fiennes cast line.
+- The evidence record gives his age on the *Invisible Boys* set as 18.
+
+A script compared every quote in the article and FAQs against the claim list. It found one more quote with no claim row ("My whole family and every family friend was somewhat connected"), which I checked against the transcript and added. What's left unmatched is punctuation noise plus "the cast became a family," which is a common phrase in quote marks, not a quotation from anyone.
+
+**Things for you to know:**
+- **One pushback on the verifier:** it said Wikipedia's Joseph Zada page doesn't give his *Invisible Boys* character's surname. The page does ("as Charlie Roth"), so I kept it as a second source and said so in the resolution file.
+- **One small change to the type argument:** the Type 9 section now admits that feeling comfortable doesn't separate a Six from a Nine. It rests the Type 6 case on his words about people he can rely on, and calls that "a lean rather than a clean split." The verifier had criticized that argument when it scored the Enneagram case. The thesis and the medium confidence are unchanged.
+- **Length:** the article is 3,835 words, up about 130. That's inside the 4,500 limit but above the ~3,500 target, which may cost a little on the writing score.
+- **Scores:** the evidence and Enneagram scores (both 7.5) and overall (7.9) were below the bar last round. Only the verifier can raise them, so this stays held unless the re-check scores it higher.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/`:
+- repair.md
+- evidence-repair.json
+- resolution-repair.json

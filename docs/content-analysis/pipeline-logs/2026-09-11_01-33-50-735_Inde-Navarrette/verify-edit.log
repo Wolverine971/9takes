@@ -1,0 +1,42 @@
+I wrote the verification file for Inde Navarrette. The status is `revise`: the fact-checking came back clean, but my scores put the article at 8.2 overall, below the 8.5 release bar.
+
+The runner's final check lists only those two blockers ("verification: revise" and "overall below 8.5"). Nothing else failed.
+
+**Verified:**
+- **Sources:** I re-checked all 24 sources the article uses. The 20 web articles were fetched fresh and matched word for word. The six videos were checked against the saved auto-captions, and their upload dates and channels match the citations.
+- **Claims:** all 94 hold up. Twelve hold with caveats and none are unsupported. The caveats are small: two Cosmopolitan quotes from the same interview are joined under one attribution, and one Hot Ones speaker is inferred from the captions rather than seen on video.
+- **Reviewer fixes:** the editor's fixes for all 47 reviewer findings meet their acceptance tests. The one partial is the "check the quotes against audio" request: no one could get to the audio, so it stays a to-do before publishing.
+- **Protected passages:** all 21 survive, or changed only where a reviewer showed they had to.
+- **No new risk from the edit:** the type is still 6, and nothing sensitive was added.
+
+**Scores:**
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 8.5 |
+| Enneagram | 8.0 |
+| Originality | 8.5 |
+| Writing | 7.5 |
+| Durability | 8.5 |
+| Hook | 8.5 |
+| Discoverability | 8.5 |
+
+Writing pulls the overall down. At 4,373 words the second half repeats itself, and the Type 3 argument leans on a weak point.
+
+**Four minor fixes for the one allowed repair pass:**
+1. **Gunn remark as the case against Type 3:** her 2023 caution about James Gunn backing the show is used as the main evidence against Type 3. But it was ordinary industry realism, and in the same interview she called the renewal odds "50-50". Her caution also turned out to be right. The article leans on it in four places.
+2. **Missing context on "if that's what Curry said":** the article leaves out her reason, "we shot this two years ago". She was deferring to his memory of a shoot she half-remembered.
+3. **Repetition:** the core pattern is restated several times and the rival-type sections pile up hedges. Tighten toward the 2,000–3,500-word target without losing any checked detail.
+4. **"Constantly":** the second FAQ and one body sentence say she enjoyed "moving constantly". Her words were "moving around a lot".
+
+**Still to do before publishing** (YouTube blocked audio and caption downloads from here):
+- Check the trimmed video quotes against audio.
+- Confirm the "making friends was always really difficult" line in the Complex News video (IUAsUy_aKR8) before using it.
+- Watch the Hot Ones clip to confirm who says the "freaky Nikki" lines.
+- Compare the Cosmopolitan original with the Yahoo copy.
+- Confirm whether the on-screen credit is Sarah Cushing or Sarah Cortez.
+- Re-check the box-office figures.
+
+Nothing else in the repo was changed and nothing was published. My scratch files are in `/tmp/inde-verify/`.
+
+Output: `docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette/verification-edit.json`

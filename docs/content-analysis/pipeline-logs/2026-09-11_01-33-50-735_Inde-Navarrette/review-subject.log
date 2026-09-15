@@ -1,0 +1,20 @@
+I wrote the subject (fairness) review to `review-subject.json` in the run directory. It passes `reviewSchema`, its hashes and role match the request, and all 13 quoted passages appear exactly in the draft. I didn't change any other files or publish anything.
+
+I couldn't reopen the video sources. YouTube blocked both transcript tools (IP-blocked and "too many requests" errors), so I checked quotes from Collider, Variety and Hot Ones only against the evidence file's excerpts, not the videos themselves. The review says so. I did reopen the Nylon article, and that turned up the one major finding.
+
+**Verdict:** The draft is fair to her overall. Her words are dated and attributed, counterevidence gets real weight, and it rightly leaves out the sensitive material (the mental-health line, her remarks on sexuality, the relationship rumor, the unrelated lawsuit). The problems are in the later interpretive sections.
+
+**One major finding.** The "What the pattern costs" section says she "names" the cost of the pattern herself, quoting "I don't care how much I'm not sleeping." In Nylon she goes straight on to joke about a SoulCycle class ("Sleep when you're dead") and say her gym jobs prepared her for it. She's describing stamina, not admitting a cost. The draft also states "now driving overwork" as fact.
+
+**Seven minor findings:**
+- **Twitch deletion:** the body says she deleted "the archive" and suggests it cost her money. She said "a lot of them," the FAQ says "most," and the money line was about streaming, not the deletion.
+- **Missing reaction:** Nylon has her saying "Oh my God" when old clips resurface. The draft shows only her relief from Variety.
+- **Ending of the film:** "Both agree her take changed the ending" credits her with a claim her quoted words don't make. Only the director, Curry Barker, says it.
+- **Hook:** it turns "I didn't know how to scream" into "could not scream." "The film she was too scared to start" also clashes with her fighting through three auditions for the role. "Biggest horror breakout" has no source.
+- **Closing:** the last paragraph frames her future as whether she can take risks without someone else making them safe first. Her own record includes a pact she built herself in 2021, and an unused line: "it's just up to me to make myself comfortable."
+- **Hot Ones speaker:** the profane line in the opening is credited to her by inference because the transcript has no speaker labels. It needs a video check.
+- **Piercing detail:** it opens the piece without saying she told it herself, as a joke on Kimmel.
+
+**Risk flags:** I kept "contested typing" set to true and added no new sensitive-allegation risk, since every intimate detail used is something she disclosed publicly.
+
+I also protected five passages that show good restraint, including the paragraph about the limits of press-tour evidence and "She says it didn't," which declines to invent a childhood wound.

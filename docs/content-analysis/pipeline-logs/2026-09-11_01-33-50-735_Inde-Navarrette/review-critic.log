@@ -1,0 +1,14 @@
+I've written the critic review for the Inde Navarrette profile to `review-critic.json` in the run folder. It passes the pipeline's review format check, its fingerprints for the draft and evidence match the request, and every quoted passage appears word for word in the draft. I didn't change any other repo files or publish anything.
+
+**Verdict:** The draft handles the Type 7 alternative honestly, but the Type 6 case isn't earned yet. Medium confidence only holds if the 6-versus-3 question is settled. If the editor can't settle it, the article should say the split is unresolved.
+
+**The five major findings:**
+1. **Type 3 is barely tested.** The deciding example is her deleting her Twitch streams because people might not "take me seriously." That reads just as well as protecting her image. She keeps talking about audience trust, proving herself and feeling "validated," yet Type 3 gets one sentence while Types 4, 8 and 9 each get a paragraph.
+2. **The Twitch deletion is oversold.** The draft calls it "unforced" and costly. But she had already stopped streaming ("I don't have time," Complex), so deleting old videos cost her no income. No source dates the deletion or says whether someone advised it, and newly cast actors often clean up old content.
+3. **"Counterphobic" lets everything count as Type 6.** Her cautious behavior counts as Six, and so do her daredevil moments. The meta description even lists her "leaps" as Six evidence, while the body lists the same skydive as evidence for Type 7.
+4. **A line that cuts against the thesis is left out.** In the GoldDerby interview the draft already quotes, she tells young actors to "be extremely stubborn... You have to really believe in yourself before other people will." That contradicts the claim that she gets her certainty from people she trusts.
+5. **The opening gives her credit for the director's plan.** In both of her tellings, director Curry Barker set up the private scream sessions and the charades games. Her part was admitting the fear and going along with it.
+
+The three minor findings: she says the ending changed at the last minute, but only Barker says her performance changed it; two different lessons from her mother are presented as one rule; and she's said to name "the price" of the pattern when she was joking about lost sleep.
+
+**What I checked:** I opened the Nylon and Complex articles live. The Variety and GoldDerby quotes I checked against the YouTube caption excerpts saved during research, not the audio. I couldn't open the Collider interview because YouTube rate-limited me, so the ending finding relies on the quote as recorded in the evidence file. The check for recycled wording from other recent profiles found no overlap worth flagging.

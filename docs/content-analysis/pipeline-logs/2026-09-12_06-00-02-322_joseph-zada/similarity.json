@@ -1,0 +1,197 @@
+{
+	"target": {
+		"person": "joseph-zada",
+		"type": "6",
+		"units": 16,
+		"file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/draft.md"
+	},
+	"comparison_set": [
+		{
+			"person": "Arthur-Mensch",
+			"date": "2026-09-10",
+			"units": 42
+		},
+		{
+			"person": "inde-navarrette",
+			"date": "2026-09-10",
+			"units": 11
+		},
+		{
+			"person": "zach-bryan",
+			"date": "2026-09-10",
+			"units": 39
+		},
+		{
+			"person": "Nathan-Fielder",
+			"date": "2026-09-09",
+			"units": 27
+		},
+		{
+			"person": "Patrick-Mahomes",
+			"date": "2026-09-08",
+			"units": 43
+		},
+		{
+			"person": "Bill-Burr",
+			"date": "2026-09-07",
+			"units": 32
+		},
+		{
+			"person": "Rebecca-Yarros",
+			"date": "2026-08-31",
+			"units": 28
+		},
+		{
+			"person": "laura-loomer",
+			"date": "2026-08-31",
+			"units": 22
+		}
+	],
+	"n_requested": 8,
+	"noise_floor": {
+		"pairs_compared": 3904,
+		"median": 0,
+		"p90": 0,
+		"p99": 0.007,
+		"max": 0.028
+	},
+	"trip_threshold": 0.04,
+	"tripped": false,
+	"trip_pairs": [],
+	"per_draft_max": [
+		{
+			"person": "laura-loomer",
+			"date": "2026-08-31",
+			"units": 22,
+			"maxScore": 0.028
+		},
+		{
+			"person": "Bill-Burr",
+			"date": "2026-09-07",
+			"units": 32,
+			"maxScore": 0.023
+		},
+		{
+			"person": "Patrick-Mahomes",
+			"date": "2026-09-08",
+			"units": 43,
+			"maxScore": 0.023
+		},
+		{
+			"person": "inde-navarrette",
+			"date": "2026-09-10",
+			"units": 11,
+			"maxScore": 0.019
+		},
+		{
+			"person": "Nathan-Fielder",
+			"date": "2026-09-09",
+			"units": 27,
+			"maxScore": 0.018
+		},
+		{
+			"person": "zach-bryan",
+			"date": "2026-09-10",
+			"units": 39,
+			"maxScore": 0.017
+		},
+		{
+			"person": "Rebecca-Yarros",
+			"date": "2026-08-31",
+			"units": 28,
+			"maxScore": 0.011
+		},
+		{
+			"person": "Arthur-Mensch",
+			"date": "2026-09-10",
+			"units": 42,
+			"maxScore": 0.011
+		}
+	],
+	"top_pairs": [
+		{
+			"score": 0.028,
+			"other_person": "laura-loomer",
+			"shared_phrases": [],
+			"target": "[diagnosis] The strongest clue is what success does to him",
+			"other": "[diagnosis] The strongest public-evidence case places Laura Loomer in Enneagram Type 6"
+		},
+		{
+			"score": 0.023,
+			"other_person": "Bill-Burr",
+			"shared_phrases": ["everyth below"],
+			"target": "[diagnosis] A limit shapes everything below.",
+			"other": "[diagnosis] \"I was onstage with the mindset of a 6-year-old from 23 to about 37.\" Everything below is the case that the wiring outlasted the phase."
+		},
+		{
+			"score": 0.023,
+			"other_person": "Patrick-Mahomes",
+			"shared_phrases": [],
+			"target": "[diagnosis] usually in people and structures that have earned trust.",
+			"other": "[diagnosis] a Six wants a trustworthy authority and a structure that holds."
+		},
+		{
+			"score": 0.019,
+			"other_person": "inde-navarrette",
+			"shared_phrases": [],
+			"target": "[diagnosis] The strongest clue is what success does to him",
+			"other": "[diagnosis] The key clue is how she handles bad outcomes that have not happened yet"
+		},
+		{
+			"score": 0.019,
+			"other_person": "laura-loomer",
+			"shared_phrases": [],
+			"target": "[diagnosis] usually in people and structures that have earned trust.",
+			"other": "[diagnosis] This type looks for dependable people and accurate signals in an uncertain world."
+		},
+		{
+			"score": 0.018,
+			"other_person": "Nathan-Fielder",
+			"shared_phrases": [],
+			"target": "[diagnosis] Almost every substantial source on Zada is an interview given between February 2025 and August 2026",
+			"other": "[diagnosis] Another piece of evidence is an object"
+		},
+		{
+			"score": 0.017,
+			"other_person": "inde-navarrette",
+			"shared_phrases": [],
+			"target": "[diagnosis] usually in people and structures that have earned trust.",
+			"other": "[diagnosis] The key clue is how she handles bad outcomes that have not happened yet"
+		},
+		{
+			"score": 0.017,
+			"other_person": "zach-bryan",
+			"shared_phrases": [],
+			"target": "[diagnosis] Type 6 is often flattened into \"anxious.\" A more useful description is a person who scans for what could go wrong and then looks for solid ground",
+			"other": "[diagnosis] A person driven by image buries it."
+		},
+		{
+			"score": 0.017,
+			"other_person": "Nathan-Fielder",
+			"shared_phrases": [],
+			"target": "[diagnosis] Almost every substantial source on Zada is an interview given between February 2025 and August 2026",
+			"other": "[diagnosis] that is an inference drawn from public behaviour. ---"
+		},
+		{
+			"score": 0.016,
+			"other_person": "inde-navarrette",
+			"shared_phrases": [],
+			"target": "[diagnosis] and as of September 2026 neither of his two biggest performances has been released.",
+			"other": "[diagnosis] given largely in interviews between May and September 2026 while she promoted a film about a woman who loses control of herself."
+		},
+		{
+			"score": 0.016,
+			"other_person": "inde-navarrette",
+			"shared_phrases": [],
+			"target": "[diagnosis] and as of September 2026 neither of his two biggest performances has been released.",
+			"other": "[diagnosis] Navarrette says she has been \"so sensitive\" her whole life"
+		},
+		{
+			"score": 0.016,
+			"other_person": "zach-bryan",
+			"shared_phrases": [],
+			"target": "[diagnosis] Type 6 is often flattened into \"anxious.\" A more useful description is a person who scans for what could go wrong and then looks for solid ground",
+			"other": "[diagnosis] A person driven by dominance defends the blowup."
+		}
+	]
+}

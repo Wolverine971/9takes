@@ -1,0 +1,19 @@
+Error: Reached max turns (60)I've written the Joseph Zada draft and its evidence file. Both pass the pipeline's own checks: 0 blockers, and every one of 77 claims matches exact text in the draft. Nothing was published and no other files were touched. The draft is `published: false`, so the next pipeline stage can take it from here.
+
+**The portrait:** Zada reads as an **Enneagram Type 6, at medium confidence**. The hook is his reaction to landing Haymitch in *Sunrise on the Reaping*. He started swearing, and when Elle Fanning asked if he was more scared after finding out, he said "Yes." The article follows that pattern through his career: asked for one audition scene, he flew home from New Zealand to make it with his brother and dad; he says what scared him was how the cast he admired would see him; and he brings family along before each big job. Type 9 gets a full section, since he calls himself easygoing ("I'm chilling"), and so does the "He just gets what he wants" Type 3 case. A friend's quote behind that last one stays an open question.
+
+**The research had errors, now fixed.** I reopened 15 of the sources and checked every quote against the original text:
+- **Two details didn't exist in the sources.** A David Morse anecdote and a film he was supposedly co-writing with his brother. Both are removed.
+- **The GQ award was misdated.** GQ's article is from March 2026, not December 2025, so the draft gives no month.
+- **The type argument had the timeline backwards.** The costly audition prep happened *before* he won, not as a reaction to winning. I rewrote that reasoning.
+- **Smaller fixes:** "Oscar winners" became "Hollywood veterans" (Close, Fiennes and Harrelson have none), the draft no longer says a casting director told him not to watch the 1955 film, and his birthday is given as the year only, since the full date rests on Wikipedia alone.
+
+**Still open for the review stages:**
+- **Length:** 4,079 words. That's under the 4,500 limit but above the roughly 3,500 target, so the editor may want to cut.
+- **School:** his two accounts of leaving school still conflict ("kicked out" vs. "dropped out to do an audition"). The GQ interview behind the second version is blocked, so the draft quotes both and draws no conclusion.
+- **Lint:** it flags three "not X but Y" sentences, but all three are inside his actual quotes, and the standard says not to rewrite quotations. The lint's other failures are for v2 page elements (TL;DR, extra headings) that v3 doesn't require.
+- **After release:** both big performances come out October 1 and November 20, 2026. The evidence file has triggers to recheck reception and how he talks about his work once they're out.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/`:
+- draft.md
+- evidence-draft.json

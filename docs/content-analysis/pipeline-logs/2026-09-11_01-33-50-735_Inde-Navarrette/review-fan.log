@@ -1,0 +1,21 @@
+I've written the fan review to `review-fan.json`. It passes the review schema, all 13 passages match `draft.md` word for word, and both hashes match what the pipeline computes. Nothing else was changed or published.
+
+**Verdict:** the profile is fair and well sourced, with no flattery and no invented scenes. The problems are places where it cuts or leaves out things she has said, and most of those tilt the argument toward Type 6 over Type 7.
+
+**Major findings (3)**
+- **The childhood moves didn't all feel fine to her.** The draft says flatly that the moving didn't hurt her. But in a June 2026 Complex video interview she reportedly said "Making friends was always really difficult for me," and that the moves made her "really close to video games and movies" instead. The Variety answer the draft quotes also goes on to say she has come to value "a small town mentality."
+- **The ending story misstates her account.** The draft says she and Barker both agree her take changed the ending. In her own Collider account, the change was a same-day group decision ("she's a final girl") along with Barker wanting to "sit with her." Only Barker credits her performance. The evidence file repeats the same mistake.
+- **How she got the role is missing.** She told Cosmopolitan the part came through Capstone, the company that funded *Obsession*, after she did *Trap House* with them: "If Inde is attached to this, we'd love to see her in that." She also signed on to *Invertigo* with the same producers before the film was a hit. That explains her third chance after "the worst audition," and it weakens the draft's claim that she "took a horror lead" because she walks toward fear.
+
+**Minor findings (5)**
+- "Dog, you're free" is quoted without "I've always wanted to do film" or her Cosmopolitan line calling the cut "disappointed and sad." "Feels like drugs" is quoted without her setup about "getting too much in your head."
+- The "so sensitive to horror" quote stops before "Obsessed has done for me is heal that." The draft also skips her Kimmel story of the Chucky movies and dolls at her aunt's house when she was about five.
+- She started streaming in 2022, per Complex. That was while she was still on *Superman & Lois*, not just during the dry spell. Her mixed "Oh my God" reaction to resurfaced clips in Nylon is also left out.
+- The ending treats her next roles as unknown, but Rogue in X-Men, *Invertigo* and her October 31 SNL hosting are all public.
+- Her *Superman & Lois* character later became Sarah Cortez, which fans may know better than Sarah Cushing.
+
+**Checked secondhand only:** YouTube blocked transcript requests, so I couldn't confirm the "making friends" quote against the Complex video. The Deadline and Far Out pages also wouldn't load. The review asks the editor to verify these before using them.
+
+**Not a fully blind review:** before writing, I opened `review-subject.json` to see the output format, which the stage instructions say not to do. My findings come from my own source checks, but the ending finding overlaps with that review. I noted this in the review itself so the editor knows.
+
+The similarity check didn't trip (0.032 against a 0.04 threshold), and the matches it flagged were only shared type vocabulary. "Contested typing" stays flagged as a risk, and I added no new risk flags.

@@ -1,0 +1,19 @@
+I've written the critic review to `docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-critic.json`. It passes the review schema check, and every quoted passage appears word-for-word in the draft. No other files were changed and nothing was published.
+
+**Verdict:** there's no fabrication here. Every quote I checked against the original article matches. The problem is which quotes the draft picks, and those choices make the Type 9 case look stronger than the record supports. I reopened 10 source articles to check context.
+
+**Findings (7 major, 1 minor):**
+1. **Weapons "costly holdout":** nothing shows staying on the film cost him anything, and the draft itself admits the record can't show any offers he turned down.
+2. **"People before parts":** his own words contradict this. He named "a perfect script" first for Brad's Status, and told EW "I loved the part." Asked in Hunger how he chooses roles, he described "that feeling of 'I have to do this'" and cited Weapons. That's exactly the account of what a part meant to him that the draft says a Type 4 would give.
+3. **The Resident Evil line the draft calls "the most revealing thing he has said":** it follows his admission that the games were too scary for him to play, and he was answering why he accepted a part he'd been offered. His general answers about choosing work (Hunger, Cero, Italian Rêve) point to his own instinct, and the draft leaves them out.
+4. **Dread Central quote cut short:** the draft drops "you're really hoping you don't slip" and the word "too," then concludes his safety "drops out of view." It also leaves out his Collider line "We all have to have boundaries."
+5. **The 13-year-old Facebook quote:** the same answer also says "I'm not very interested in showing people my life," which is the privacy-guarding reason the draft says he never gave.
+6. **Type answer and FAQ overstate the "we're all alike" argument:** the body admits only one of those lines is about himself. That line answers a "lone wolf or social animal?" question built on the film title *Wolfs*, and the "doesn't feel like it was me" line expresses disbelief at a big break, not modesty.
+7. **The ending's "whale test" can't fail:** being alone on screen says nothing about why he took the role. He auditioned for Whalefall, and nothing in the evidence gives a reason tied to a person he admires.
+8. **(Minor)** The description treats the director's "you'll die" joke as fact. In the same answer, he credits the stunt coordinator for Abrams never getting hurt.
+
+I also marked five passages to keep, including "The man who finds an interview frightening…", the THR "that framing is the reporter's" line, and the exposure puzzle.
+
+**Decision for you:** if the editor can't find a way to separate Type 9 from Type 4 that holds up against his own answers about choosing roles, the honest move is lower confidence or leaving 9 vs 4 undecided. That counts as a thesis change, so the profile would go back through the `--refresh --expanded-review` path.
+
+The similarity check didn't flag anything, and there was no reused writing.

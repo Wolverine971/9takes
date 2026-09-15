@@ -1,0 +1,29 @@
+{
+	"schema_version": 3,
+	"subject": "joseph-zada",
+	"mode": "create",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/candidate-edit.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/evidence-edit.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/similarity.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/repair-findings.json",
+		"resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/resolution-edit.json",
+		"verification": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/verification-edit.json"
+	},
+	"outputs": {
+		"repair.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/repair.md",
+		"evidence-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/evidence-repair.json",
+		"resolution-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/resolution-repair.json"
+	}
+}

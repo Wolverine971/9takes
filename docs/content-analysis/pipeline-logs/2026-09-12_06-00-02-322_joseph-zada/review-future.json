@@ -1,0 +1,89 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "f2d9087bff40b60d7105a9c44b45b88ffb4d28ed616db296e80713931a6a08a7",
+	"evidence_sha256": "c35ed25f0d9a051c78a92b6e9068fc9267b77ba155294908eda7311e8e042e36",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": true,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "In February 2025, on the Perth set of the Stan series _Invisible Boys_, he told Variety Australia's Julie Hosking:",
+			"problem": "This gives the publication date as the date of the interview. Variety Australia's piece (published February 13, 2025, the premiere day) describes a set visit on 'a stifling hot day in Perth' but gives no date. Stan and Banijay announced the series as 'currently filming in Western Australia' on March 13, 2024, and Wikipedia places filming in early 2024. The draft's own timeline also rules out February 2025: it has him shooting East of Eden in New Zealand from October 2024 to March 2025 (C46), and it says he taped We Were Liars 'in the middle of shooting Invisible Boys' even though We Were Liars came before East of Eden. The interview was most likely given in early 2024, when he was 18. The evidence record repeats the error in C08 ('given on set in February 2025') and C73 ('from a 19-year-old'). In five years readers will lean on these dates to place his two school-exit accounts in order, and one of the two is misdated by about a year.",
+			"acceptance_test": "Body text dates the conversation to the Invisible Boys shoot in early 2024 (attributed to the series' filming dates) and keeps February 13, 2025 only as the publication date. Alternatively it says 'in a set interview published February 13, 2025' without claiming a month for the visit. C08, C45 and C73 in the evidence record carry the corrected date and age, and the new filming-date source is added to sources. The related source-base sentences are made consistent (see future-02)."
+		},
+		{
+			"id": "future-02",
+			"severity": "major",
+			"passage": "This research found nothing substantial from before he was 19, and as of September 2026 neither of his two biggest performances has been released.",
+			"problem": "Once future-01 is fixed, the first clause is false. The Variety set interview was given at 18, and the article treats it as the least promotional source in the record. The previous sentence ('an interview given between February 2025 and August 2026') has the same problem, because it uses publication dates as interview dates. The second clause is a status claim that expires on October 1, 2026, three weeks after the accuracy check. It is missing from the claim inventory (C44's passage covers only the sentence before it) and has no review trigger. 'Two biggest performances' also ranks his work, and that ranking will not hold for five years.",
+			"acceptance_test": "The source-base paragraph says the substantial record was published between February 2025 and August 2026, with one set interview given in early 2024 at 18. The 'before he was 19' clause is either removed or corrected. The release-status clause names the two titles and their scheduled dates ('as of September 2026, East of Eden and Sunrise on the Reaping were unreleased') instead of ranking them. That clause either appears as a time_sensitive claim with a review trigger for October 1 and November 20, 2026, or is folded into C37's passage."
+		},
+		{
+			"id": "future-03",
+			"severity": "major",
+			"passage": "Those releases will test the portrait more than any interview has. The Six reading predicts that fame will not settle him, and that at the next threshold he will again bring his people with him before he jumps into the deep end.",
+			"problem": "The main argument passes the five-year test. It rests on the dated 2025 casting call and the preparation before it, not on any upcoming release. The closing paragraph does not pass. Its stakes are 'those releases', its framing is 'The public picture of him is also running ahead of the evidence', and 'His released leads so far' uses relative time. All of that will read as stale by late November 2026, so the last thing a later reader sees is a pending event. The prediction itself is valuable because it can be proven wrong, but it is not in the claim inventory. With no review trigger, nobody is prompted to check it and report the result.",
+			"acceptance_test": "The final paragraph still reads as true in 2031 without edits. Every forward-looking sentence is tied to a date ('as of September 2026'), 'so far' becomes an absolute date, and 'running ahead of the evidence' is framed as how things stood in mid-2026. The last line rests on the observable pattern the Six reading predicts, not on the release calendar. The prediction is added to the evidence record as an interpretation claim with durability time_sensitive or unresolved. Its review_trigger names what would falsify it: after the 2026 releases, public evidence of him facing a new professional threshold alone and calmly, or of fame visibly settling his anxiety."
+		},
+		{
+			"id": "future-04",
+			"severity": "major",
+			"passage": "repeated in two interviews fourteen months apart",
+			"problem": "The draft's own dates contradict this. The Halifax loneliness line comes from Behind The Blinds, July 9, 2025 (S02). The 'being forced to spend family time' line comes from HERO, March 23, 2026 (S03). That is about eight and a half months, not fourteen. The error matters beyond arithmetic. The draft's answer to the promotional-source problem is statements that 'repeat across years and interviewers', and here it overstates the one gap it actually measures. C15's inference repeats the same wrong figure.",
+			"acceptance_test": "The sentence states the correct gap (about eight months) or gives both interview dates, and C15's inference is corrected to match. No other passage describes the repetition as spanning more time than the cited dates support."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "He has not publicly named a type.",
+			"problem": "This undated negative claim appears in the plain-language type answer and again in the first FAQ answer, which search engines can show on its own. It will stop being true the day any interviewer asks him, and it has no claim record, source or review trigger. The evidence record also documents no search that would support it.",
+			"acceptance_test": "Both the body and the FAQ say 'As of September 2026, he had not publicly named an Enneagram type' (or the sentence is removed). If kept, a claim records the search performed, its date, durability time_sensitive, and a review_trigger to recheck at the next major press cycle."
+		},
+		{
+			"id": "future-06",
+			"severity": "minor",
+			"passage": "His father, Jeremy Cumpston, is a director, actor and doctor, and his mother, Jessica Brentnall, is a film producer",
+			"problem": "These are present-tense occupational status claims based on Wikipedia. The subject qualifies his mother's job in the record himself ('My mom is a producer too, or was a producer', quoted in C04's inference). The present tense already goes beyond what he said and will age further. The point of the sentence is the industry household he grew up in, and that point does not need present tense.",
+			"acceptance_test": "The sentence describes the household he grew up in using past-tense or career descriptions (for example 'his mother, Jessica Brentnall, worked as a film producer'), consistent with his own 'or was a producer'. C04 is updated to match the new wording."
+		},
+		{
+			"id": "future-07",
+			"severity": "minor",
+			"passage": "The call came at 7 a.m. in Sydney, and Joseph Zada knew what it meant before anyone said it.",
+			"problem": "The event that decides the type argument has no absolute date anywhere in the body or in the FAQ 'How did Joseph Zada get cast as Haymitch?'. Readers can place it only by working back from 'more than a year later' and the East of Eden wrap. C60 says the call came in April 2025, but no source in the record gives that date. A reader in five years, or an FAQ snippet shown alone, cannot tell when the casting happened.",
+			"acceptance_test": "The hook or the three-week-audition section gives a sourced month and year for the casting call or announcement (or 'in 2025, after East of Eden wrapped in March' if only that is supported). The Haymitch FAQ answer includes the year. C60's April 2025 date either cites an opened source or is removed."
+		},
+		{
+			"id": "future-08",
+			"severity": "minor",
+			"passage": "\"I want to direct a film before I'm 30, that's my goal,\"",
+			"problem": "This is a problem in the evidence record, not the prose. C33's claim text adds 'and has started writing', and its review_trigger tells a future maintainer to check 'whether the Zada brothers' co-written film enters production'. The record's own research_tasks and C33's inference both say that co-writing project was not found in the source. The trigger sends a maintainer after something the record already rejected, and the claim text asserts something the draft does not.",
+			"acceptance_test": "C33's claim text drops 'has started writing'. Its review_trigger refers only to the directing goal as sourced, for example: recheck before July 2035, or at any announced directing credit, and requalify the Type 3 paragraph if the goal advances or lapses. No trigger mentions the unverified co-writing project."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Those hedges carry a serious caveat. They are exactly what a well-advised teenager says in his first press cycle opposite Hollywood veterans, and all three come from about a month in mid-2025. If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+			"reason": "This is a model of durable writing. It dates its evidence window, names the confound, and states in advance what later evidence would change the reading, which keeps the section useful after the releases. It matches C21 and C76."
+		},
+		{
+			"passage": "Read quickly, the swearing is a joke, and it was told as one, more than a year later, to a friendly co-star after the film was safely shot.",
+			"reason": "It limits the key discriminator by when and to whom the story was told, so the type argument does not claim more than a reconstructed memory can support. Keep this limit when adding the casting date for future-07."
+		},
+		{
+			"passage": "Both accounts can be partly true, since an attendance problem can end in an ultimatum and an exit. They still place the decision on opposite sides, and the second is the more flattering telling. This profile does not choose between them or build a psychological claim on either.",
+			"reason": "It handles an unresolved record without depending on which account wins, so a future GQ retrieval or a third account from him can correct the facts without breaking the argument (C07/C45 triggers). Only the Variety date before it needs fixing (future-01)."
+		},
+		{
+			"passage": "The stated reticence and the actual openness do not match, and nothing he has said explains how he squares them.",
+			"reason": "It leaves a real contradiction visible instead of resolving it with the type. That keeps the portrait honest as more interviews pile up, and later evidence can settle it."
+		}
+	],
+	"assessment": "Five-year test: the thesis mostly passes. The type argument rests on dated 2025 behavior (the reaction to the casting call, the three-week tape built with family, and fear of admired collaborators in July 2025), not on the unreleased East of Eden (October 1, 2026) or Sunrise on the Reaping (November 20, 2026). Remove every pending event and the central insight still holds. Durability fails in four places. (1) A material dating error: the Variety set interview, which the draft treats as its least promotional source, is dated February 2025. Stan announced the series as filming in March 2024, and the draft's own chronology puts him in New Zealand in February 2025. The error spreads to the source-base sentence ('given between February 2025 and August 2026', 'nothing substantial from before he was 19') and to C08/C73. (2) The ending's stakes depend on releases that will be past within about ten weeks, and its falsifiable prediction has no claim record or trigger. (3) The cross-time repetition figure 'fourteen months' is really about eight and a half. (4) A few undated or present-tense status claims ('He has not publicly named a type', a parent's occupation, the undated casting call) plus a C33 trigger that points at a project the record rejected. The existing review triggers for the release dates, the hedging, filmography, expectations and press posture (C21, C24, C37, C38, C44, C76, C80) are concrete and actionable. Lower-priority note: several statements are attributed to 'Wikipedia' (the GQ school-exit quote and its December 2025 date, the half-brother, the paternal great-grandmother). Wikipedia text changes, so where possible cite the underlying source (for example Karen Leong, GQ Australia, December 17, 2025, as cited by Wikipedia) or give an access date. The similarity diagnostic did not trip (max 0.028 against a 0.04 threshold). Its top matches are generic type-diagnosis phrasing and a shared 'everything below', not reused arguments, so there is no distinctiveness finding. The expanded jury is warranted: contested typing (Type 9 and Type 3 alternatives) and source uncertainty (GQ and Swooon originals could not be opened) are both real."
+}

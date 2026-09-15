@@ -1,0 +1,19 @@
+I wrote the Enneagram review to `docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette/review-enneagram.json`. It passes `reviewSchema`, the hashes are copied from the request, and every quoted passage appears word for word in the draft. I didn't change any other file.
+
+**Verdict:** Type 6 at medium confidence holds up, and the draft is honest about the evidence against it. But the argument sounds more certain than its tests justify. I flagged the "contested typing" risk.
+
+**5 major findings:**
+- **Type 3 is never tested properly.** The only reason given for ruling it out is that she was candid on a podcast. The draft itself says press tours reward humble, fearless stories, so candor can't settle it. The record has a real Three case the draft never assembles: leaving school to pay for headshots, "survival mode," wanting to "prove" the film wasn't luck, "extremely validating," "feeling proud."
+- **The Twitch evidence overstates the cost.** The cached Variety transcript shows the money came from streaming at the time. She deleted the old videos later, after she had stopped streaming. So "at real cost… helped pay bills" mixes up the activity with the archive.
+- **"Counterphobic" leans on a confounded point.** Taking the horror lead was also taking a film lead after losing her TV role, and her own stated reasons were about moving into film and "let it all out." Meanwhile her genuinely daring acts (the skydive, the piercing) are counted for Type 7. The meta description also states the subtype without the body's "probably."
+- **The main argument against Type 7 ends in pride.** The full GoldDerby quote finishes on "accomplishing it and feeling proud of it," which fits Type 3 just as well.
+- **The "trusts the director" section only tests Type 4, using a stereotype.** It skips the Type 9 reading and the plain explanation that actors normally defer to a writer-director. The evidence file lists both.
+
+**3 minor findings:**
+- The three-step pattern in the hook (name the fear, find safety, commit) is pieced together from stories that don't each contain all three steps.
+- The draft treats single words ("secure," "trust") as proof of type.
+- The line "the Seven in her getting a vote" uses a wing to explain away evidence against the thesis.
+
+I protected five passages. These include the refusal to invent a childhood wound from the military moves, the pre-fame 2021 "doubt is the named enemy" point, and the section listing what the Six reading doesn't explain. The similarity check didn't flag anything: the closest match scored 0.032 against a 0.04 threshold, with no shared phrases.
+
+I checked the quotes behind my findings against the research stage's cached YouTube captions, not the audio. The research tasks already say the key video lines need an audio spot-check before publishing.

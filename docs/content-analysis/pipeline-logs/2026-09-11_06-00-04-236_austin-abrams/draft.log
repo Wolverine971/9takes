@@ -1,0 +1,25 @@
+I've written the Austin Abrams draft and its evidence file, and both pass the pipeline's own checks. Nothing was published and no other files were changed.
+
+**The argument:** the draft makes a medium-confidence Type 9 case. It opens on a contrast. Abrams told an interviewer in 2019 that talking about himself felt "somewhat frightening." Seven years later, Brian Duffield, who directed Abrams's upcoming film *Whalefall*, said he often had to tell him "you cannot do this because you'll die." The Type 9 case rests on a pattern that runs from 2017 to 2026. He says yes because of the people involved (Ben Stiller, then Clooney and Pitt, then Zach Cregger), he stayed with *Weapons* through a full recast, and when asked about himself he stresses how alike people are. Type 4 is the main alternative and gets its own section. That section also says what evidence would move the call to 4. Types 6 and 3 are covered after it, and a final section lists what no type explains well.
+
+**Checks run:**
+- Every quote in the draft (95) matches the text of an opened source page.
+- The contract's validation of `evidence-draft.json` against the draft passes: 89 claims, each tied to an exact passage, citing only opened sources.
+- The contract's draft check finds no blockers. The type answer is 54 words, and there are no em dashes or strong contrast pairs in the prose.
+
+**Research tasks I resolved:**
+- **Fan-site quotes:** I checked them against the original TheWrap, ET Online and Behind the Blinds pages, and the draft now cites those originals.
+- **Birth date:** Decider (2020) gives September 2, so the draft uses September 2, 1996.
+- ***Euphoria* season 3:** confirmed he isn't in it.
+- **Left out because no original source exists:** the John Green "no desire to be a celebrity" line, Clooney's "scary talented" and the stunt coordinator's praise.
+
+**For the next stages:**
+- **Length:** the draft is 3,854 words. That's within the 4,500 hard limit but above the standard's roughly 3,500 target, so the edit stage should trim.
+- **Dated claims:** the *Resident Evil* (September 18) and *Whalefall* (October 16) release claims have review triggers, as does the "alone on screen" framing of *Whalefall*.
+- **Review scope:** the typing is flagged as contested, so this needs the six-reviewer panel. `run.json` already has that set.
+
+Frontmatter is set as the contract requires: `published: false`, `production_pretext` in draft state with no inherited blockers, and no `content_quality` or `editorial_workflow` fields.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/`:
+- `draft.md`
+- `evidence-draft.json`

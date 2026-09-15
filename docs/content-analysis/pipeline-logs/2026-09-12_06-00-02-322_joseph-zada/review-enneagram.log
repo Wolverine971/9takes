@@ -1,0 +1,23 @@
+I wrote the Enneagram review for Joseph Zada to `review-enneagram.json`. It passes the contract's schema check, its hashes match the request, and all 15 quoted passages match the draft exactly. No other files were changed and nothing was published.
+
+**Verdict:** Type 6 at medium confidence holds up, and the draft is honest about its limits. The problem is the arguments meant to rule out the other types, which are weaker than the draft makes them sound.
+
+**Major findings (4):**
+- **The main tie-breaker doesn't work.** The draft's key clue is "winning made him more afraid." But his words on the call ("Now I have to do this and it's going to be really hard") fit a Type 9 dreading effort, and a Type 3's fear of failing, about as well as they fit Type 6.
+- **The core motive is written as a need for approval.** "Seeking acceptance from admired collaborators" reads like Type 3, and the draft's own rebuttal of Type 3 argues against that same wording. The record does have language about safety and people he can rely on, but the draft barely uses it.
+- **The argument against Type 9 leans on a stereotype.** It says he "does not drift," citing detailed notes and six films in two days, as if Nines lacked work ethic. Better evidence against Nine is already in the sources and goes unused: he set his own three-week deadline with the studio, changed his name himself, and plans to move abroad although his mother would rather he stay home.
+- **The draft leaves out its strongest supporting quote.** In the June 2026 Interview Magazine conversation it already cites, he says of actors he admires, "I'm shit scared of working with them," and that he'd be "deathly nervous." That fear comes back after the Flaunt interview where he said he could go "toe to toe with anyone." It backs the Type 6 case, and it contradicts the draft's suggestion that his fear had resolved.
+
+**Minor findings (6):**
+- **Date error:** the draft calls two interviews "fourteen months apart," but they were published July 9, 2025 and March 23, 2026, about 8.5 months apart.
+- **Missing context:** the "family time" he was grateful for was Mckenna Grace's mother and Iona Bell's mother on location in Spain, which is a sharper detail than the draft gives.
+- **Motive stated as fact:** the opening says he made the audition "harder on purpose," but he asked for three weeks partly because he was busy filming another series.
+- **Pattern overcounted:** the draft counts his teenage prep sessions as one of three times he gathered family before a big job, but those began as him helping his brother with his brother's auditions.
+- **Lind quote misplaced:** the draft treats "He just gets what he wants" as said on a private call. She actually said it in a People interview promoting the show.
+- **Evidence record error:** the record says the transcript doesn't mention voice coaches. It does ("I worked with quite a few coaches").
+
+The standard aims for eight findings per reviewer at most. I went to ten because the last two are factual errors, and the standard says not to drop those to hit the target. The similarity check didn't flag reuse: its closest matches to other profiles are standard Type 6 wording, so there's no finding for that.
+
+I kept two risk flags on: the typing is contested, and two original sources (GQ Australia and Swooon) still can't be opened. I also named five passages to protect, including the method statement and the open question about Lind.
+
+To check the tie-breaker arguments, I reopened the Interview Magazine transcript in full, plus the relevant passages from four other sources. The raw files don't match the hashes in the request, but that's expected: the contract hashes the draft without bookkeeping fields and the evidence as re-serialized JSON. Computed that way, both hashes match.

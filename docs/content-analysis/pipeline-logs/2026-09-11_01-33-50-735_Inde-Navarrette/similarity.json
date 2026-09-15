@@ -1,0 +1,197 @@
+{
+	"target": {
+		"person": "inde-navarrette",
+		"type": "6",
+		"units": 12,
+		"file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette/draft.md"
+	},
+	"comparison_set": [
+		{
+			"person": "Arthur-Mensch",
+			"date": "2026-09-10",
+			"units": 42
+		},
+		{
+			"person": "zach-bryan",
+			"date": "2026-09-10",
+			"units": 39
+		},
+		{
+			"person": "Nathan-Fielder",
+			"date": "2026-09-09",
+			"units": 27
+		},
+		{
+			"person": "Patrick-Mahomes",
+			"date": "2026-09-08",
+			"units": 43
+		},
+		{
+			"person": "Bill-Burr",
+			"date": "2026-09-07",
+			"units": 32
+		},
+		{
+			"person": "Rebecca-Yarros",
+			"date": "2026-08-31",
+			"units": 28
+		},
+		{
+			"person": "laura-loomer",
+			"date": "2026-08-31",
+			"units": 22
+		},
+		{
+			"person": "simone-biles",
+			"date": "2026-08-25",
+			"units": 37
+		}
+	],
+	"n_requested": 8,
+	"noise_floor": {
+		"pairs_compared": 3240,
+		"median": 0,
+		"p90": 0,
+		"p99": 0.007,
+		"max": 0.032
+	},
+	"trip_threshold": 0.04,
+	"tripped": false,
+	"trip_pairs": [],
+	"per_draft_max": [
+		{
+			"person": "Rebecca-Yarros",
+			"date": "2026-08-31",
+			"units": 28,
+			"maxScore": 0.032
+		},
+		{
+			"person": "laura-loomer",
+			"date": "2026-08-31",
+			"units": 22,
+			"maxScore": 0.021
+		},
+		{
+			"person": "simone-biles",
+			"date": "2026-08-25",
+			"units": 37,
+			"maxScore": 0.021
+		},
+		{
+			"person": "Arthur-Mensch",
+			"date": "2026-09-10",
+			"units": 42,
+			"maxScore": 0.016
+		},
+		{
+			"person": "zach-bryan",
+			"date": "2026-09-10",
+			"units": 39,
+			"maxScore": 0.015
+		},
+		{
+			"person": "Patrick-Mahomes",
+			"date": "2026-09-08",
+			"units": 43,
+			"maxScore": 0.014
+		},
+		{
+			"person": "Bill-Burr",
+			"date": "2026-09-07",
+			"units": 32,
+			"maxScore": 0.014
+		},
+		{
+			"person": "Nathan-Fielder",
+			"date": "2026-09-09",
+			"units": 27,
+			"maxScore": 0.007
+		}
+	],
+	"top_pairs": [
+		{
+			"score": 0.032,
+			"other_person": "Rebecca-Yarros",
+			"shared_phrases": [],
+			"target": "[diagnosis] probably the counterphobic version that walks toward its fears.",
+			"other": "[counter-typing] The counterphobic streak seals the six call"
+		},
+		{
+			"score": 0.025,
+			"other_person": "Rebecca-Yarros",
+			"shared_phrases": [],
+			"target": "[diagnosis] The reading below treats her statements as evidence of what she says and does",
+			"other": "[diagnosis] Yarros treats hers like incoming fire."
+		},
+		{
+			"score": 0.021,
+			"other_person": "laura-loomer",
+			"shared_phrases": [],
+			"target": "[diagnosis] Counterphobic Sixes go looking for the threat and test themselves against it.",
+			"other": "[diagnosis] she advocated loyalty oaths and tests for political appointees."
+		},
+		{
+			"score": 0.021,
+			"other_person": "simone-biles",
+			"shared_phrases": [],
+			"target": "[diagnosis] she secures against them early and borrows certainty from people she trusts.",
+			"other": "[diagnosis] and quieted only by a person she trusts."
+		},
+		{
+			"score": 0.019,
+			"other_person": "laura-loomer",
+			"shared_phrases": [],
+			"target": "[diagnosis] Type 6 gets flattened into \"anxious\" or \"loyal.\" The more useful question is what a Six does with doubt.",
+			"other": "[diagnosis] The behavior around those questions is concrete."
+		},
+		{
+			"score": 0.018,
+			"other_person": "simone-biles",
+			"shared_phrases": [],
+			"target": "[diagnosis] she secures against them early and borrows certainty from people she trusts.",
+			"other": "[counter-typing] she settles Los Angeles without consulting the people she consults."
+		},
+		{
+			"score": 0.017,
+			"other_person": "simone-biles",
+			"shared_phrases": [],
+			"target": "[diagnosis] Counterphobic Sixes go looking for the threat and test themselves against it.",
+			"other": "[diagnosis] No Achiever reading explains why the threat rather than the verdict is what she cannot close."
+		},
+		{
+			"score": 0.017,
+			"other_person": "laura-loomer",
+			"shared_phrases": [],
+			"target": "[diagnosis] It also fits smaller moves that recur in her interviews from 2021 to 2026",
+			"other": "[diagnosis] 2025 episode captures the thesis in her own words"
+		},
+		{
+			"score": 0.016,
+			"other_person": "Arthur-Mensch",
+			"shared_phrases": [],
+			"target": "[diagnosis] Type 6 gets flattened into \"anxious\" or \"loyal.\" The more useful question is what a Six does with doubt.",
+			"other": "[diagnosis] The second half is what he does with an authority he has stopped trusting."
+		},
+		{
+			"score": 0.016,
+			"other_person": "Arthur-Mensch",
+			"shared_phrases": [],
+			"target": "[diagnosis] The reading below treats her statements as evidence of what she says and does",
+			"other": "[diagnosis] As a description of what a man organizes his life against"
+		},
+		{
+			"score": 0.016,
+			"other_person": "Arthur-Mensch",
+			"shared_phrases": [],
+			"target": "[diagnosis] given largely during a four-month press run for a film about a woman who loses control of herself.",
+			"other": "[counter-typing] and the classic mistyping for a counterphobic Six."
+		},
+		{
+			"score": 0.015,
+			"other_person": "laura-loomer",
+			"shared_phrases": [],
+			"target": "[diagnosis] It also fits smaller moves that recur in her interviews from 2021 to 2026",
+			"other": "[diagnosis] The oldest clue appears in her own account of adolescence."
+		}
+	]
+}

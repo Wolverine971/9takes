@@ -1,0 +1,1271 @@
+{
+	"schema_version": 3,
+	"content_sha256": "b9e5d33444575e4d4fae5df9f755a339a32a5c1f3515bfa8ce08b520fb193f71",
+	"evidence_sha256": "0bd4a480a0cdd68e318fd92d9682f495bd2791ddd4877fb173b808d92e28c89e",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify-01",
+			"severity": "major",
+			"passage": "He took _Wolfs_ after reading a script that kept him in his underwear, telling Collider he was intimidated \"for like a second,\" and he auditioned for _Whalefall_.",
+			"problem": "The editor added this sentence in answer to fan-03, but no opened source supports the order it asserts, and the record points the other way. IndieWire (S15, 2024-09-27, reopened) says 'when he first received the script for Wolfs, Abrams knew only that Clooney and Pitt were set to star' and quotes him: 'All I got was the interrogation scene.' The article itself quotes the first half of that answer in 'How he says yes'. Collider's question (S18, 2024-10-01) asked whether the underwear intimidated him 'while reading the script, especially since you knew you were going to work with these two major movie stars', which places the reading after he was cast. The Italian Reve (S07), cited in C124, describes reading the Weapons script, not Wolfs. The sentence credits him with knowingly choosing the Wolfs exposure, the overstatement fan-03 asked the editor to remove, so fan-03's test ('notes that... he signed onto Wolfs knowing little') is not met.",
+			"acceptance_test": "The Wolfs clause says he signed on knowing little ('All I got was the interrogation scene') and met the underwear script once he knew he would be working with Pitt and Clooney, intimidated 'for like a second', or it cites an opened source establishing the opposite order. Whalefall remains the clearly chosen case. C124's claim and inference are corrected, and S07 is removed from its source_ids unless it supports the claim."
+		},
+		{
+			"id": "verify-02",
+			"severity": "major",
+			"passage": "As of his last interview on the subject, in September 2025, he had never had social media. At 13, he told Coup de Main, he had Facebook and kept asking himself, \"What am I gonna say?\"",
+			"problem": "The section's opening statement is contradicted by the next sentence. In the same Coup de Main answer (S02, reopened) he says 'I've never had it' and then 'I remember having Facebook when I was thirteen'. FAQ 3 repeats the contradiction in search-facing metadata: 'As of his September 2025 interview with Hunger, he had never had an account. He told Coup de Main in 2019 that on Facebook at 13...'. Hunger (S08, reopened) says only that he doesn't 'have an Instagram presence' and 'I felt like it might be a distraction, so I didn't do it'; it does not say he never had an account. 'Kept asking himself' also overstates S02's 'thinking, What am I gonna say?'",
+			"acceptance_test": "The body, FAQ 3 and the hook's 'had never had social media' describe his status without contradiction. For example: apart from a Facebook account at 13 he has stayed off social media, and as of his September 2025 Hunger interview he still had no Instagram presence. Alternatively, 'I've never had it' is attributed as his 2019 words with the Facebook exception. 'Kept asking himself' becomes 'thinking' or an equivalent. C08 and C134 are updated and keep their refresh triggers."
+		},
+		{
+			"id": "verify-05",
+			"severity": "minor",
+			"passage": "Asked in 2025 whether he brings personal experience to roles: \"I think it's best to just connect with the story and really be in it.\"",
+			"problem": "Hunger's question (S08) was 'do you find yourself bringing personal experiences into these roles?', and the answer begins 'Honestly, it just depends. Sometimes aspects of yourself come through or feel similar, but in the end, I think it's best to just connect with the story'. Quoting only the last clause makes a hedged answer read as a plain no, in the paragraph that carries the revised 9-over-4 discriminator. The openness paragraph also omits two inward self-descriptions: from the same interview, when asked whether he is drawn to characters that mirror him, 'A big part of acting is exploring different aspects of yourself. Everything still comes from within'; and from Collider (S18), 'it's always you'. Neither locates identity in difference or lack, so the discriminator can survive them, but the article should show that.",
+			"acceptance_test": "The quote keeps or paraphrases 'it just depends... sometimes aspects of yourself come through'. The openness paragraph or the Four section acknowledges his 'everything still comes from within' framing and says in one clause why it is not identity-through-difference. C117 and C149 are updated."
+		},
+		{
+			"id": "verify-06",
+			"severity": "minor",
+			"passage": "and at times borrows his drive from people he admires.",
+			"problem": "The type answer and FAQ 1 say he 'at times borrows his drive from people he admires'. The body says 'He names another person as the source of his own drive once, in 2026' and concludes 'on at least one project another person's passion was the spark'. The answer box, which many readers see alone, is stronger than the body.",
+			"acceptance_test": "The type answer and FAQ 1 match the body's strength (for example 'and has credited a director's passion for kindling his own'), or the body documents a second instance. The type answer stays at 60 words or fewer."
+		},
+		{
+			"id": "verify-04",
+			"severity": "minor",
+			"passage": "Of the chase through lower New York City, shot in underwear and socks over what he recalled as \"three, four weeks,\" he said, \"Physically, I was completely under-prepared.\" His method: \"you just get on with it, really.\" (Screen Rant)",
+			"problem": "'Physically, I was completely under-prepared' and 'you just get on with it, really' are in Screen Rant (S16). But 'three, four weeks' and the lower New York City setting come from IndieWire (S15). The paragraph's only inline credit is '(Screen Rant)', so readers will attribute the IndieWire quote to Screen Rant.",
+			"acceptance_test": "'Three, four weeks' is credited to IndieWire at the passage (for example 'he told IndieWire'), and Screen Rant stays credited for the other two quotes."
+		},
+		{
+			"id": "verify-03",
+			"severity": "minor",
+			"passage": "ET Online, February 21, 2022",
+			"problem": "The ET Online page (S44, reopened) prints 'Published: 7:00 PM PST, February 20, 2022'. The link text and S44's date give February 21, the UTC date.",
+			"acceptance_test": "The link text and S44's date read February 20, 2022."
+		},
+		{
+			"id": "verify-07",
+			"severity": "minor",
+			"passage": "named self-consciousness as his biggest creative challenge",
+			"problem": "Minor inventory gaps, none load-bearing. FAQ 2's 'named self-consciousness as his biggest creative challenge' and the Four section's repeated 'the only place I could really express myself' have no claim passage of their own; they restate C40 and C05. C61's inference still points to deleted C26. C124's inference cites The Italian Reve for a Wolfs script reading it does not contain.",
+			"acceptance_test": "Add restatement claims (or extend the C40 and C05 passages), remove the dangling C26 reference, and correct C124's inference."
+		}
+	],
+	"research_tasks": [
+		"To keep any claim that he knowingly accepted the Wolfs underwear costume, find a source for when he first read the full Wolfs script relative to being cast. IndieWire (2024-09-27) says he initially had only the interrogation scene; Collider (2024-10-01) implies he read the script after he knew he would work with Pitt and Clooney.",
+		"Optional: open the Deadline 2024-05-02 casting report and the EW originals of the recast quotes (still unopened; the Men's Journal copy is adequate for the current wording).",
+		"At each refresh, check for a verified social-media account (C08, C134 and C156 triggers) and whether Whalefall opened on 2026-10-16 (C84)."
+	],
+	"claim_checks": [
+		{
+			"claim_id": "C33",
+			"verdict": "supported",
+			"reason": "S29 reopened: 'Honest to God... you'll die' and 'so committed and so determined to do everything as viscerally real as possible' match; THR frames it 'in admiration', and the passage attributes it to Duffield."
+		},
+		{
+			"claim_id": "C135",
+			"verdict": "supported",
+			"reason": "S03 'the sensitive boyfriend of Barbie Ferreira's Kat' and S09 'abrams' homeless addict character' confirm both descriptions; 'most viewers' is an editorial generalization, disclosed in the claim."
+		},
+		{
+			"claim_id": "C84",
+			"verdict": "supported",
+			"reason": "S28 release box reads 'Release Date October 16, 2026' and 'Whalefall hits theaters on October 16'; S36 gives the sperm-whale premise. Time-sensitive trigger present."
+		},
+		{
+			"claim_id": "C59",
+			"verdict": "supported",
+			"reason": "S02 (Coup de Main, dated December 3, 2019): both quoted sentences match in the social-media answer; 22 at the August 2019 interview is consistent with the S26 birth date."
+		},
+		{
+			"claim_id": "C54",
+			"verdict": "supported",
+			"reason": "Dated juxtaposition of S02 (2019) and S29; S36 gives principal photography from June 9, 2025, so 'six years later' holds."
+		},
+		{
+			"claim_id": "C87",
+			"verdict": "supported",
+			"reason": "Built on S37 (script plus Stiller), S02 ('great people'), S15 (Wolfs), S07 ('people and the writing'), S08 (director plus character) and S33 (Cregger); 'usually' is fair, and the whale section concedes the Whalefall exception."
+		},
+		{
+			"claim_id": "C89",
+			"verdict": "qualified",
+			"reason": "The openness and undramatized-fear legs match the body. 'At times borrows his drive from people he admires' is stronger than the body's own 'He names another person as the source of his own drive once' (verify-06). Unresolved durability with a discriminator trigger is appropriate."
+		},
+		{
+			"claim_id": "C139",
+			"verdict": "supported",
+			"reason": "Accurate statement of an inference limit; no opened source shows a peace-keeping sacrifice."
+		},
+		{
+			"claim_id": "C97",
+			"verdict": "supported",
+			"reason": "No opened interview mentions the Enneagram; an absence claim, correctly time-sensitive with a search trigger."
+		},
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "S26 (Decider, 2020-08-21): 'his 24th birthday is on September 2nd'; S01 gives September 2, 1996 citing Decider; S20 'I'm 26 now' (September 2022) is consistent."
+		},
+		{
+			"claim_id": "C55",
+			"verdict": "supported",
+			"reason": "S01 wikitext: 'raised in Sarasota, Florida, and is the son of Lori and Bradley Abrams, who are doctors'; S02 asks about 'parents who are both doctors'."
+		},
+		{
+			"claim_id": "C04",
+			"verdict": "supported",
+			"reason": "S02 question premise and his answer 'Yeah! It definitely changed my life.' match; S27 item 4 repeats the camp story (not independent)."
+		},
+		{
+			"claim_id": "C05",
+			"verdict": "supported",
+			"reason": "S12 (Herald-Tribune, 2024-04-09) quote matches verbatim."
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "S12 quote matches."
+		},
+		{
+			"claim_id": "C03",
+			"verdict": "supported",
+			"reason": "S02: 'a bit preposterous to them... my mom was always mostly on my side, whereas my dad took a little more time' matches; the lead sentence now agrees with it."
+		},
+		{
+			"claim_id": "C07",
+			"verdict": "supported",
+			"reason": "S01 lists Ron Anderson (2015-2016), Ethan (2019-2022), lead roles in Chemical Hearts and Dash & Lily (2020); S43 supplies 'egomaniac' for Max."
+		},
+		{
+			"claim_id": "C58",
+			"verdict": "supported",
+			"reason": "S01, S17 and S09 confirm Wolfs (2024) opposite Pitt and Clooney, and Weapons."
+		},
+		{
+			"claim_id": "C122",
+			"verdict": "supported",
+			"reason": "S47 (Daily Beast, 2022-09-16): 'I definitely feel like I've run the gambit of the nice, shy guy' matches; the piece opens on his nice-guy typecasting."
+		},
+		{
+			"claim_id": "C141",
+			"verdict": "supported",
+			"reason": "Editorial framing that removes a non-evidentiary cue; consistent with S47."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "qualified",
+			"reason": "Quotes match S02, but the author-voice 'he had never had social media' is contradicted by the next sentence (Facebook at 13, from the same S02 answer), and S08 says only that he has no Instagram presence and 'didn't do it', not that he never had an account. 'Kept asking himself' overstates S02's 'thinking' (verify-02)."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "supported",
+			"reason": "S02: 'I just didn't understand why I was doing it' and 'this mental trap that I've seen a lot of people get in, trying to get your likes' match."
+		},
+		{
+			"claim_id": "C09",
+			"verdict": "supported",
+			"reason": "S02: the interviewer says other actors 'have lost out on parts to someone else who has more followers on Instagram'; both answers match."
+		},
+		{
+			"claim_id": "C61",
+			"verdict": "supported",
+			"reason": "S08 social-media answer matches."
+		},
+		{
+			"claim_id": "C52",
+			"verdict": "supported",
+			"reason": "S02 answer contains all three reasons; the paragraph now concedes the display-averse reason fits a Four as well as a Nine."
+		},
+		{
+			"claim_id": "C17",
+			"verdict": "supported",
+			"reason": "S37 (Get Reel Movies, 2017-10-05) matches."
+		},
+		{
+			"claim_id": "C71",
+			"verdict": "supported",
+			"reason": "S02 matches."
+		},
+		{
+			"claim_id": "C72",
+			"verdict": "supported",
+			"reason": "S15 matches; S15 continues 'All I got was the interrogation scene'."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "S17 (Variety, 2024-09-20): 'underwear and crew socks for the first half of the film' and both quotes match."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "S07 (2024-09-04): 'most of the time it's the people and the writing' and the Weapons script read from 1 a.m. to 3 a.m. match."
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "S08 matches after whitespace normalization; the question was 'what's the moment that makes you think, I need to play this character?'"
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "supported",
+			"reason": "S08 'I like to go with what feels right in the moment' and S09 'I only want to work on things that I want to work on' match."
+		},
+		{
+			"claim_id": "C107",
+			"verdict": "supported",
+			"reason": "S33 'I would try to play them and then just get too freaked out'; S33 and S32 confirm no other actor was considered."
+		},
+		{
+			"claim_id": "C73",
+			"verdict": "supported",
+			"reason": "S33 quote matches; Complex frames it as his reaction when offered the role, which the article states."
+		},
+		{
+			"claim_id": "C51",
+			"verdict": "supported",
+			"reason": "Labeled inference ('It suggests'), scoped to one project and to the record through 2026."
+		},
+		{
+			"claim_id": "C18",
+			"verdict": "supported",
+			"reason": "S07 and S09 quotes match."
+		},
+		{
+			"claim_id": "C108",
+			"verdict": "supported",
+			"reason": "Interpretation consistent with S07, S08 and S33."
+		},
+		{
+			"claim_id": "C66",
+			"verdict": "supported",
+			"reason": "S09: 'my friend wanted to go', 'I wasn't super excited going into it', then 'I need to figure out how to meet this guy and work with this guy'."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "supported",
+			"reason": "S11 matches; the Yahoo copy says it 'first appeared on Men's Journal on Aug 11, 2025' and quotes EW."
+		},
+		{
+			"claim_id": "C63",
+			"verdict": "supported",
+			"reason": "S48 wikitext: script entered the market January 22, 2023 and New Line won it; filming intended May-July 2023; Pascal announced May 2023."
+		},
+		{
+			"claim_id": "C138",
+			"verdict": "supported",
+			"reason": "S10: 'Pascal dropped out to work on The Fantastic Four: The First Steps'; S48 and S09 agree on the strike delay."
+		},
+		{
+			"claim_id": "C64",
+			"verdict": "supported",
+			"reason": "S11 matches."
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "supported",
+			"reason": "S11 quote matches; S09 and S10 confirm he was the lone holdout."
+		},
+		{
+			"claim_id": "C109",
+			"verdict": "supported",
+			"reason": "S48 gives filming from May 2024 to July 2024 against a May-July 2023 plan; S09 'the now critical and commercial hit'."
+		},
+		{
+			"claim_id": "C65",
+			"verdict": "supported",
+			"reason": "S09: 'loyal gesture' and 'willing to wait it out and not pursue other work' are the reporter's words, as the passage says."
+		},
+		{
+			"claim_id": "C15",
+			"verdict": "supported",
+			"reason": "S09 question 'did you just get lucky to not have any other conflicts?' and answer match; S11 EW quote matches."
+		},
+		{
+			"claim_id": "C143",
+			"verdict": "supported",
+			"reason": "Faithful summary of S09, S11 and S08."
+		},
+		{
+			"claim_id": "C68",
+			"verdict": "supported",
+			"reason": "S09 matches."
+		},
+		{
+			"claim_id": "C44",
+			"verdict": "supported",
+			"reason": "S33 and S32 quotes match."
+		},
+		{
+			"claim_id": "C110",
+			"verdict": "supported",
+			"reason": "Interpretation; the strike pause is documented in S10 and S48; no cost is claimed."
+		},
+		{
+			"claim_id": "C70",
+			"verdict": "supported",
+			"reason": "S10 'Barbarian took the horror world by storm'; the limit statement is accurate."
+		},
+		{
+			"claim_id": "C19",
+			"verdict": "supported",
+			"reason": "S16 (Screen Rant, 2024-09-23) matches."
+		},
+		{
+			"claim_id": "C111",
+			"verdict": "supported",
+			"reason": "S16 matches."
+		},
+		{
+			"claim_id": "C74",
+			"verdict": "supported",
+			"reason": "S45 prints '[Laughs]' after the line, then the qualifier; the article frames it as a joke."
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "S12 quotes match; the answer concerns Wolfs and actors he grew up watching."
+		},
+		{
+			"claim_id": "C20",
+			"verdict": "qualified",
+			"reason": "'Physically, I was completely under-prepared' and 'you just get on with it, really' are in S16 (Screen Rant), but 'three, four weeks' and the lower New York City setting come from S15 (IndieWire), and the paragraph's only inline credit is '(Screen Rant)' (verify-04)."
+		},
+		{
+			"claim_id": "C32",
+			"verdict": "supported",
+			"reason": "S28 matches."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "supported",
+			"reason": "S29: '95 percent-plus of the movie's stunts are Austin' and the gimbal/stomach context match."
+		},
+		{
+			"claim_id": "C112",
+			"verdict": "supported",
+			"reason": "S29 matches, crediting Shauna Duggins."
+		},
+		{
+			"claim_id": "C145",
+			"verdict": "supported",
+			"reason": "S29: 'the ADR sessions we did a couple of weeks ago' in a 2026-06-11 interview; quotes match; 'dubbing session' is a fair gloss of ADR."
+		},
+		{
+			"claim_id": "C78",
+			"verdict": "supported",
+			"reason": "S30 (Empire, 2026-06-09) quotes match."
+		},
+		{
+			"claim_id": "C34",
+			"verdict": "supported",
+			"reason": "S32: both concerns are now quoted; the source joins them with 'too'."
+		},
+		{
+			"claim_id": "C146",
+			"verdict": "supported",
+			"reason": "Accurate witness count across S29, S28 and S30."
+		},
+		{
+			"claim_id": "C113",
+			"verdict": "supported",
+			"reason": "Faithful to S29 (arguments, retakes, never hurt, Duggins), S32 (slip) and S17 ('I didn't really care')."
+		},
+		{
+			"claim_id": "C57",
+			"verdict": "supported",
+			"reason": "S08 matches; only the clause after the em dash is quoted, as the claim discloses."
+		},
+		{
+			"claim_id": "C114",
+			"verdict": "supported",
+			"reason": "S08 matches."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "supported",
+			"reason": "S03 matches."
+		},
+		{
+			"claim_id": "C115",
+			"verdict": "supported",
+			"reason": "Interpretation; fair."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "supported",
+			"reason": "S02: the interviewer saw 'a quote from Pierrot le Fou on your living room wall'; his explanation matches."
+		},
+		{
+			"claim_id": "C62",
+			"verdict": "supported",
+			"reason": "S02 matches."
+		},
+		{
+			"claim_id": "C13",
+			"verdict": "supported",
+			"reason": "S02 intro pull quote matches. It also contains 'it's not like I want to do it all over again', which the article omits but which does not reverse the longing."
+		},
+		{
+			"claim_id": "C147",
+			"verdict": "supported",
+			"reason": "Interpretation conceding adverse evidence."
+		},
+		{
+			"claim_id": "C11",
+			"verdict": "supported",
+			"reason": "S02 matches; the context is da Vinci not being 'extremely affected by people's opinions'."
+		},
+		{
+			"claim_id": "C35",
+			"verdict": "supported",
+			"reason": "S07 matches."
+		},
+		{
+			"claim_id": "C40",
+			"verdict": "supported",
+			"reason": "S05 (Numero Netherlands, 2024-09-19) one-word answer to 'What challenges you creatively the most as an actor?' matches."
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "S04 (Schon!, 2020-11-27) matches."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "supported",
+			"reason": "S28 matches."
+		},
+		{
+			"claim_id": "C148",
+			"verdict": "supported",
+			"reason": "States the alternative at its strongest; fair."
+		},
+		{
+			"claim_id": "C118",
+			"verdict": "supported",
+			"reason": "Absence claim limited to opened interviews. I found no opened answer that locates identity in difference, specialness, envy or lack. S08's 'Everything still comes from within' and S18's 'it's always you' are inward, but they are not about difference or lack."
+		},
+		{
+			"claim_id": "C116",
+			"verdict": "supported",
+			"reason": "S47 question 'What roles would you want to do next?' and the answer match verbatim."
+		},
+		{
+			"claim_id": "C117",
+			"verdict": "qualified",
+			"reason": "S08 asked 'do you find yourself bringing personal experiences into these roles?' and the answer begins 'Honestly, it just depends. Sometimes aspects of yourself come through or feel similar, but in the end...'. The article quotes only the last clause, so a hedged answer reads as a plain no (verify-05). The second quote matches."
+		},
+		{
+			"claim_id": "C149",
+			"verdict": "qualified",
+			"reason": "Holds for identity-through-difference, but the same S08 interview has 'A big part of acting is exploring different aspects of yourself. Everything still comes from within', and S18 has 'it's always you'. 'Openness' describes how he approaches roles more than it gives a full self-description."
+		},
+		{
+			"claim_id": "C25",
+			"verdict": "supported",
+			"reason": "All four quotes match S07, S09, S08 and S03; the following sentences disclose the craft-empathy context."
+		},
+		{
+			"claim_id": "C150",
+			"verdict": "supported",
+			"reason": "Accurate discount of the sameness lines."
+		},
+		{
+			"claim_id": "C119",
+			"verdict": "supported",
+			"reason": "S07 question verbatim: 'Do you identify as a lone wolf yourself? Or rather a social animal?'; the answer includes 'life is a balance'."
+		},
+		{
+			"claim_id": "C53",
+			"verdict": "supported",
+			"reason": "Two-sided interpretation; S14 (resistance to being controlled on set) is a loose but consistent citation."
+		},
+		{
+			"claim_id": "C151",
+			"verdict": "supported",
+			"reason": "Falsification criteria; not a factual claim."
+		},
+		{
+			"claim_id": "C154",
+			"verdict": "supported",
+			"reason": "S02, S33, S16 and S32 contain the fear statements."
+		},
+		{
+			"claim_id": "C39",
+			"verdict": "supported",
+			"reason": "S06: the answer to 'what was it like collaborating with Lili Reinhart?' contains 'inherent trust there that we've had for quite some time'."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "S04 'Our notebook helped create a bond between us' and S12 Berger 'someone I could really trust' match."
+		},
+		{
+			"claim_id": "C120",
+			"verdict": "supported",
+			"reason": "Interpretation tested against S03's explicit rejection."
+		},
+		{
+			"claim_id": "C22",
+			"verdict": "supported",
+			"reason": "S03 matches."
+		},
+		{
+			"claim_id": "C152",
+			"verdict": "supported",
+			"reason": "Interpretation; fair."
+		},
+		{
+			"claim_id": "C24",
+			"verdict": "supported",
+			"reason": "S08 matches."
+		},
+		{
+			"claim_id": "C153",
+			"verdict": "supported",
+			"reason": "Interpretation."
+		},
+		{
+			"claim_id": "C27",
+			"verdict": "supported",
+			"reason": "S43 (TheWrap original, 2022-09-16) and S21 both contain the quotes."
+		},
+		{
+			"claim_id": "C155",
+			"verdict": "supported",
+			"reason": "Interpretation consistent with C113."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "S18 matches."
+		},
+		{
+			"claim_id": "C121",
+			"verdict": "supported",
+			"reason": "S47 matches."
+		},
+		{
+			"claim_id": "C156",
+			"verdict": "supported",
+			"reason": "Anchored to 2025; S08 confirms no Instagram presence."
+		},
+		{
+			"claim_id": "C157",
+			"verdict": "supported",
+			"reason": "Interpretation consistent with S29."
+		},
+		{
+			"claim_id": "C123",
+			"verdict": "supported",
+			"reason": "Interpretation grounded in stated wants in S09, S11 and S08."
+		},
+		{
+			"claim_id": "C37",
+			"verdict": "supported",
+			"reason": "S15 quotes match."
+		},
+		{
+			"claim_id": "C90",
+			"verdict": "supported",
+			"reason": "Dated and softened; 'keeps ending up in' fits S17, S44, S29 and S36."
+		},
+		{
+			"claim_id": "C91",
+			"verdict": "supported",
+			"reason": "S44: 'originally had him performing in his underwear... he was terrified' (the reporter's word) and 'there was something so freeing about it' match. The page's own date is February 20, 2022 (verify-03)."
+		},
+		{
+			"claim_id": "C124",
+			"verdict": "unsupported",
+			"reason": "S15 (IndieWire): 'when he first received the script for Wolfs, Abrams knew only that Clooney and Pitt were set to star... All I got was the interrogation scene.' S18 asked about reading the script 'since you knew you were going to work with these two major movie stars', which places the reading after casting. No opened source shows he read an underwear script before taking the part. S07 describes reading the Weapons script, not Wolfs, contrary to the claim's inference. Only the Collider 'for like a second' and the Whalefall audition (S28) are supported (verify-01)."
+		},
+		{
+			"claim_id": "C158",
+			"verdict": "supported",
+			"reason": "States two readings; no factual claim."
+		},
+		{
+			"claim_id": "C125",
+			"verdict": "supported",
+			"reason": "States the lean; interpretation."
+		},
+		{
+			"claim_id": "C126",
+			"verdict": "supported",
+			"reason": "S28 matches."
+		},
+		{
+			"claim_id": "C127",
+			"verdict": "supported",
+			"reason": "S08 'such a wild and original project' matches; S28, S29 and S31 give no reason he pursued the part."
+		},
+		{
+			"claim_id": "C128",
+			"verdict": "supported",
+			"reason": "Interpretation grounded in S28 and in the absence of a reason in S29 and S31; unresolved with a trigger."
+		},
+		{
+			"claim_id": "C129",
+			"verdict": "supported",
+			"reason": "Statement of the narrowed thesis."
+		},
+		{
+			"claim_id": "C80",
+			"verdict": "supported",
+			"reason": "S08 matches."
+		},
+		{
+			"claim_id": "C130",
+			"verdict": "supported",
+			"reason": "Interpretation returning to the hook."
+		},
+		{
+			"claim_id": "C131",
+			"verdict": "supported",
+			"reason": "Dated summary of S02; drops 'somewhat', which subject-06 permitted when the remark is dated."
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "Attributed summary of S29's 'It was usually like, Austin, you cannot do this because you'll die'."
+		},
+		{
+			"claim_id": "C137",
+			"verdict": "supported",
+			"reason": "Consistent with S02, S08 and S29."
+		},
+		{
+			"claim_id": "C93",
+			"verdict": "qualified",
+			"reason": "Same overreach as C89: 'at times borrows his drive from people he admires' against the body's 'once' (verify-06)."
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "Restates S12."
+		},
+		{
+			"claim_id": "C96",
+			"verdict": "supported",
+			"reason": "Restates S02."
+		},
+		{
+			"claim_id": "C133",
+			"verdict": "supported",
+			"reason": "Restates S08 and C118."
+		},
+		{
+			"claim_id": "C134",
+			"verdict": "qualified",
+			"reason": "S08 does not say he 'had never had an account', and he told S02 he had Facebook at 13, which the same FAQ answer then mentions (verify-02)."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "Restates S02."
+		},
+		{
+			"claim_id": "C95",
+			"verdict": "supported",
+			"reason": "Restates S08."
+		},
+		{
+			"claim_id": "C102",
+			"verdict": "supported",
+			"reason": "Restates S10, S11 and S09."
+		},
+		{
+			"claim_id": "C136",
+			"verdict": "supported",
+			"reason": "Restates S11."
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "Restates S33."
+		},
+		{
+			"claim_id": "C79",
+			"verdict": "supported",
+			"reason": "Restates S29."
+		},
+		{
+			"claim_id": "C140",
+			"verdict": "supported",
+			"reason": "S29 matches."
+		},
+		{
+			"claim_id": "C132",
+			"verdict": "supported",
+			"reason": "S29 matches."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Raw wikitext (action=raw): lead and Early life; birth date, doctors, credits"
+		},
+		{
+			"source_id": "S02",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Q&A on social media, parents, Pierrot le Fou wall, songs, da Vinci; intro pull quote; dated December 3, 2019"
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Answers on Wolfs, storytelling and anxiety; datePublished 2024-12-16"
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Dash & Lily answers (sadness, notebook); 2020-11-27"
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Q&A 'What challenges you creatively the most as an actor?'; 2024-09-19"
+		},
+		{
+			"source_id": "S06",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Answer to 'what was it like collaborating with Lili Reinhart?'; 2020-08-21"
+		},
+		{
+			"source_id": "S07",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Q&A on lone wolf, noise, what makes you say yes, Weapons script 1-3 a.m.; 2024-09-04 (does not support C124's Wolfs-script inference)"
+		},
+		{
+			"source_id": "S08",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full Q&A, issue 36, September 16, 2025 (C117 quote is trimmed of 'it just depends'; see verify-05)"
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Intro ('loyal gesture', 'wait it out'); Q&A on conflicts, Barbarian, pity for James, Resident Evil; 2025-08-11"
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Recast timeline paragraphs; 2025-08-12"
+		},
+		{
+			"source_id": "S11",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraphs quoting EW; 'first appeared on Men's Journal on Aug 11, 2025' (Yahoo copy 2025-08-13)"
+		},
+		{
+			"source_id": "S12",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Q&A on Sarasota theaters, The Line and Berger, Wolfs; 2024-04-09"
+		},
+		{
+			"source_id": "S14",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Q&A on the hazing scene; 2024-04-15"
+		},
+		{
+			"source_id": "S15",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraphs on receiving the Wolfs script, the chase ('three, four weeks'), homework; 2024-09-27"
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Q&A on intimidation and the chase ('under-prepared', 'get on with it'); 2024-09-23"
+		},
+		{
+			"source_id": "S17",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraphs 1-3 (underwear and crew socks, 'I didn't really care'); 2024-09-20"
+		},
+		{
+			"source_id": "S18",
+			"opened": true,
+			"context_matches": false,
+			"locator": "Q&A on reading the script in underwear: the question places the reading after he 'knew you were going to work with these two'; the article uses it to say he took Wolfs after reading the script, which the source does not support (verify-01). Other uses (popular guy, 'for like a second') match."
+		},
+		{
+			"source_id": "S20",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fan-site repost of The Daily Beast: 'I'm 26 now', nice-shy-guy answer (original S47 also opened)"
+		},
+		{
+			"source_id": "S21",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fan-site repost of TheWrap: validation and ego answers (original S43 also opened)"
+		},
+		{
+			"source_id": "S26",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraph 3: 'his 24th birthday is on September 2nd'; 2020-08-21"
+		},
+		{
+			"source_id": "S27",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Item 4: acting camp at five to get over shyness"
+		},
+		{
+			"source_id": "S28",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Final Duffield answers (audition, uncool, Brolin); release box October 16, 2026; 2026-06-09"
+		},
+		{
+			"source_id": "S29",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Intro ('in admiration'); Q&A answer on stunts, gimbal, Duggins, ADR; 2026-06-11"
+		},
+		{
+			"source_id": "S30",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Trailer-breakdown paragraph on Jay; 2026-06-09"
+		},
+		{
+			"source_id": "S31",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full 487-word article; gives no casting reason; 2026-06-09"
+		},
+		{
+			"source_id": "S32",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraphs on the falling-bodies sequence and casting; 2026-09-10"
+		},
+		{
+			"source_id": "S33",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraphs 3-5 (games, offer, 'gets me passionate'); 2026-09-04"
+		},
+		{
+			"source_id": "S36",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Raw wikitext: lead, principal photography June 9, 2025, release"
+		},
+		{
+			"source_id": "S37",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Roundtable answers; 2017-10-05"
+		},
+		{
+			"source_id": "S43",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraphs on Max and high school; 2022-09-16"
+		},
+		{
+			"source_id": "S44",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Paragraphs on the script and dance; page shows 'Published: 7:00 PM PST, February 20, 2022'"
+		},
+		{
+			"source_id": "S45",
+			"opened": true,
+			"context_matches": true,
+			"locator": "First two Q&As with [Laughs]; 2024-11-12"
+		},
+		{
+			"source_id": "S47",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Q&A on Max, high-school roles, 'What roles would you want to do next?'; 2022-09-16"
+		},
+		{
+			"source_id": "S48",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Raw wikitext: lead, Development, Casting, Filming"
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-01",
+			"accepted": true,
+			"reason": "Verified in the candidate: both Dread Central concerns are quoted ('really hoping you don't slip' and 'because it takes so long to reset'); 'drop out of view' has 0 occurrences; the 95 percent-plus figure sits beside the gimbal note and 'Austin never got hurt', with Duggins credited. C34 and C113 match S32 and S29."
+		},
+		{
+			"finding_id": "subject-02",
+			"accepted": true,
+			"reason": "'It suggests that on this project, at least' labels the inference; the Hunger 'I have to do this' answer and THR's 'I only want to work on things that I want to work on' are quoted in 'How he says yes'; the Four-section Weapons sentence is gone; type_hypothesis.discriminator no longer uses people-before-parts."
+		},
+		{
+			"finding_id": "subject-03",
+			"accepted": true,
+			"reason": "The contrast and the private-actor generalization are gone; all three reasons are reported; 'whenever he is asked' and 'interchangeable' have 0 occurrences; the Wolfs line appears with its 'I can't really believe I did that' context and keeps 'sometimes'."
+		},
+		{
+			"finding_id": "subject-04",
+			"accepted": true,
+			"reason": "'What the whale shows' quotes S28's audition line (checked), says no opened source gives a person-reason, and the closing no longer poses a future test."
+		},
+		{
+			"finding_id": "subject-05",
+			"accepted": true,
+			"reason": "'His father took longer to come around than his mother' agrees with S02 and the quote that follows."
+		},
+		{
+			"finding_id": "subject-06",
+			"accepted": true,
+			"reason": "The description is dated ('said in 2019') and attributes the stunt clause; the pivot is dated; persona_title changed; the exposure sentence says 'keeps ending up in'. The following Wolfs sentence introduces a separate sequencing error, tracked under fan-03 and verify-01."
+		},
+		{
+			"finding_id": "fan-01",
+			"accepted": true,
+			"reason": "The Hunger role-choice answer is quoted; the pattern is people plus writing plus an inner pull; FAQ 2 and the type answer no longer claim he explains choices through people; the discriminator rests on openness, with a narrow margin at medium confidence."
+		},
+		{
+			"finding_id": "fan-02",
+			"accepted": true,
+			"reason": "'plainly cost him time' and 'costly' have 0 occurrences; the wait is dated from S48; 'The strikes paused work across the industry, and no source documents a cost.'"
+		},
+		{
+			"finding_id": "fan-03",
+			"accepted": false,
+			"reason": "Only partly met. 'Keeps ending up in', the Euphoria dance as part of an existing role and Whalefall as an audition are all in. But the test also required noting that he signed onto Wolfs knowing little. Instead the edit asserts 'He took Wolfs after reading a script that kept him in his underwear', which S15 (at first he had only the interrogation scene) and S18 (he read the script knowing he would work with Pitt and Clooney) do not support. See verify-01."
+		},
+		{
+			"finding_id": "fan-04",
+			"accepted": true,
+			"reason": "S48 wikitext confirms the January 22, 2023 sale, the planned May-July 2023 shoot and the May 2023 Pascal announcement; the sentence and C63 match."
+		},
+		{
+			"finding_id": "fan-05",
+			"accepted": true,
+			"reason": "The Wolfs line is out of the discriminator and appears in the fear section with its S12 context."
+		},
+		{
+			"finding_id": "fan-06",
+			"accepted": true,
+			"reason": "'He joked' plus the qualifier; S45 prints [Laughs] and the date November 12, 2024."
+		},
+		{
+			"finding_id": "fan-07",
+			"accepted": true,
+			"reason": "Typecasting sentence with S47's 'run the gambit of the nice, shy guy' and 'counts toward no type'; 'if the audience doesn't like me, lovely' is used in the Type 3 paragraph; S47 date verified as 2022-09-16."
+		},
+		{
+			"finding_id": "fan-08",
+			"accepted": true,
+			"reason": "The description attributes the warning to the director; the body says 'stunts Duffield framed as potentially fatal'; FAQ 5 quotes the warning and adds that he was never hurt, crediting Duggins."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "No 'costly' description remains; the no-cost statement and smart-bet caveat are present; C14 and C15 are out of for_claim_ids."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "The Italian Reve and Hunger role-choice answers are quoted with attribution; 'people before parts' is absent; a new discriminator is named with a narrow margin; FAQ 2 is updated."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "The Complex context (never played the games; offered with no competing actor) is given; Hunger 'what feels right in the moment' is quoted; the inference is labeled; the superlative becomes 'the plainest statement in the record through 2026'."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "The slip concern is reported, and the 'drop out of view' claim is deleted rather than qualified, which meets the test's revision option."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Three reasons are reported; the generalization is dropped; the line no longer counts toward Nine."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "The type answer and FAQs 1-2 now use the openness leg, matching the body's 'Openness, not distinctness'; the lone-wolf binary is quoted verbatim from S07; the Wolfs line has its context. The separate 'at times borrows his drive' overreach is tracked as minor verify-06."
+		},
+		{
+			"finding_id": "critic-07",
+			"accepted": true,
+			"reason": "The ending reports the audition and tests the people-following strand now; falsification criteria are stated in advance (C151). C86 was removed along with the closing it served, and C128 carries the trigger instead, which meets the intent."
+		},
+		{
+			"finding_id": "critic-08",
+			"accepted": true,
+			"reason": "Attributed in the description and body; the fear section notes the stunt coordinator and that he was never hurt."
+		},
+		{
+			"finding_id": "unfamiliar-01-late-orientation",
+			"accepted": true,
+			"reason": "The second paragraph gives the Euphoria and Weapons credits and the October 16, 2026 date within the first ~110 body words; the description names both credits at 155 characters."
+		},
+		{
+			"finding_id": "unfamiliar-02-hook-key-retracted",
+			"accepted": true,
+			"reason": "'This profile's working answer to that gap' frames it as a hypothesis; the exposure paragraph ties back to the opening, states the lean and names what stays open."
+		},
+		{
+			"finding_id": "unfamiliar-03-duffield-counted-both-ways",
+			"accepted": true,
+			"reason": "The split is stated once in the fear section, and the Type 3 and unexplained paragraphs follow it; for_claim_ids includes C32 and C21 but not C33 or C145."
+		},
+		{
+			"finding_id": "unfamiliar-04-answer-box-overclaims-body",
+			"accepted": true,
+			"reason": "The type answer is 59 words (checked); the openness leg matches the body; 'a felt pull' is gone. The remaining 'at times borrows his drive' overreach is minor (verify-06)."
+		},
+		{
+			"finding_id": "unfamiliar-05-whale-test-does-not-test",
+			"accepted": true,
+			"reason": "Option (a) is taken with S28's audition line; no release-date test remains ('so far' and 'purest test' have 0 occurrences)."
+		},
+		{
+			"finding_id": "unfamiliar-06-holdout-stakes-underdrawn",
+			"accepted": true,
+			"reason": "The wait length comes from S48 ('a year behind plan'), and the outcome is one attributed THR clause."
+		},
+		{
+			"finding_id": "unfamiliar-07-gloss-then-caveat-cadence",
+			"accepted": true,
+			"reason": "'On the Nine reading' appears twice; the hazing and junket-etiquette glosses are cut; the remaining caveats are specific to their evidence. At 4,109 words it is within release limits; the test did not require cuts."
+		},
+		{
+			"finding_id": "unfamiliar-08-newcomer-reference-gaps",
+			"accepted": true,
+			"reason": "Type 9 links to /enneagram-corner/enneagram-type-9 at first mention (the file exists); Type 3 is glossed; Jon Watts is named; the Brolin anecdote names Whalefall; 'He describes the physical ordeal just as plainly' replaces 'same flat treatment'."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"accepted": true,
+			"reason": "No sentence claims the Weapons account lacks what the part meant; FAQ 2 and the discriminator acknowledge people plus writing plus an inner pull (C104-C106)."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"accepted": true,
+			"reason": "Sameness is no longer in the type answer or FAQs; 'interchangeable' is removed; the lone-wolf answer is described as a hedge. Note: the resolution quotes a sentence ('The sameness lines fit a Nine but do not carry the case') that is not in the candidate, but the test is met without it."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"accepted": true,
+			"reason": "The Facebook answer is now said to fit Four and Nine alike; C52's alternative records the songs."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"accepted": true,
+			"reason": "C33, C77 and C145 are out of for_claim_ids; deference is narrowed to creative matters; 'Pushing past a director's veto is not deference' reconciles the conflict."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"accepted": true,
+			"reason": "The limits paragraph says the motive is inferred and that no peace-keeping sacrifice is shown; the holdout is 'a want, stated plainly and acted on'; against lists the stated wants."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"accepted": true,
+			"reason": "Counterphobic Six is tested against S03's rejection of doing what scares you and S08's no-plan answer; the stunt stereotype is removed; the type answer says 'Type 6 is a real third'; against names counterphobic Six."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"accepted": true,
+			"reason": "The anger and hazing passage is cut ('anger' appears only inside 'dangerous'); C26, C29 and C31 are gone from the evidence; for_claim_ids is limited to discriminating claims."
+		},
+		{
+			"finding_id": "future-01",
+			"accepted": true,
+			"reason": "The closing stands with no release date, 'so far' or future tense; the audition is confronted; the forward criteria are event-independent; the Resident Evil release paragraph is cut."
+		},
+		{
+			"finding_id": "future-02",
+			"accepted": true,
+			"reason": "The body, FAQ and Type 3 paragraph are anchored to September 2025; C08 and C134 are time_sensitive with a refresh trigger. The anchored wording still contains a factual contradiction (Facebook at 13), tracked as verify-02."
+		},
+		{
+			"finding_id": "future-03",
+			"accepted": true,
+			"reason": "The self-report is dated in the description, the pivot sentence and the exposure paragraph."
+		},
+		{
+			"finding_id": "future-04",
+			"accepted": true,
+			"reason": "'In a dubbing session a couple of weeks before that June 2026 interview'; 'recent' has 0 occurrences."
+		},
+		{
+			"finding_id": "future-05",
+			"accepted": true,
+			"reason": "Reads 'from 2017 to 2026'; 'nine years' is gone."
+		},
+		{
+			"finding_id": "future-06",
+			"accepted": true,
+			"reason": "The superlative is scoped; the preceding paragraphs carry instances from 2017 to 2025."
+		},
+		{
+			"finding_id": "future-07",
+			"accepted": true,
+			"reason": "The Euphoria season 3 sentence is cut ('third season' has 0 occurrences)."
+		},
+		{
+			"finding_id": "future-08",
+			"accepted": true,
+			"reason": "C89's durability is 'unresolved', with a discriminator-based review_trigger."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "The Hollywood Reporter called it a \"loyal gesture\" and described him as willing to wait it out rather than pursue other work. That framing is the reporter's.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "It was a brief, light answer, and it supports no story about a childhood wound.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "That was an attitude stated at 22, and no source documents a role he lost.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "Directors praise every lead's commitment, and Duffield gave these interviews while launching his trailer, so this is one enthusiastic witness in three outlets.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "The man who finds an interview frightening is the one his director has to hold back.",
+			"preserved": true,
+			"reason": "Changed to 'The man who found an interview frightening in 2019 is the one his director had to hold back six years later.' The organizing juxtaposition is intact, and dating it was needed to fix future-03 and subject-06."
+		},
+		{
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"preserved": true,
+			"reason": "Changed because the contrast misread S02 (the same answer gives a display-guarding reason) and the generalization was unsourced. The distinctive move, a close reading of the 13-year-old's reasons, is kept: 'The 13-year-old's reasons are the telling detail, and one answer holds three'."
+		},
+		{
+			"passage": "That last sentence is the most revealing thing he has said about his choices. His enthusiasm is kindled by someone else's.",
+			"preserved": true,
+			"reason": "Changed to a labeled, scoped inference that keeps the mechanism and the phrase 'kindled by someone else's'. The contribution survives as one strand, as the fan protector asked."
+		},
+		{
+			"passage": "In 2019, a line from the film _Pierrot le Fou_ hung on his living-room wall: \"Why do you look so sad? / Because you speak to me in words and I look at you with feelings.\"",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "Longing for a past he suspects was bad is classic Four texture, and nothing in the Nine reading predicts it.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "The largest puzzle is exposure. A man who says talking about himself feels frightening keeps choosing the most physically exposed work available: the underwear chase in _Wolfs_, a dance number in _Euphoria_'s second season, a film spent inside a whale.",
+			"preserved": true,
+			"reason": "Changed, but the open contradiction, 'The largest puzzle is exposure.' and the three examples are kept; 'said at 22' and 'keeps ending up in' repair unsupported detail. The new follow-up Wolfs sentence is inaccurate (verify-01), but that does not remove the protected contribution."
+		},
+		{
+			"passage": "Brian Duffield has one complaint about the lead of his survival thriller _Whalefall_.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "Long-form, non-promotional material in which he frames his choices around identity, envy or lack would move this profile toward Four. So would a documented break with trusted collaborators for private emotional reasons.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "On the Nine reading, exposure is bearable when he is absorbed in a role and someone else's vision. On the Four reading, the role is where the hidden self gets out. The public record cannot yet settle it.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "His account names only attachment: a filmmaker he loved, a part he loved, and holding on until the project could move again.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "That was an attitude stated at 22, and no source documents a role he lost. Six years and several leading roles later, he had not changed course.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem. Only the lone-wolf answer is directly about himself.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate (checked by exact string match); its contribution is unchanged."
+		}
+	],
+	"coverage_complete": true,
+	"metadata_consistent": false,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"scores": {
+		"evidence": {
+			"score": 7.5,
+			"reason": "I reopened about 30 sources as raw HTML or wikitext, and every quoted string in the inventory matches. This passage shows the discipline found throughout: reporter framing kept apart from self-report, inference labeled ('It suggests'), Duffield counted as one witness in three outlets, promotional context stated. It falls short of 8 because two reader-facing factual errors remain. The editor-added claim that he took Wolfs after reading the underwear script is contradicted by IndieWire and Collider, and 'never had social media' sits beside his Facebook account at 13, in the body and FAQ. There are also smaller attribution slips (the ET date, 'three, four weeks' credited to Screen Rant) and a trimmed Hunger quote inside the discriminator.",
+			"passage": "The Hollywood Reporter called it a \"loyal gesture\" and described him as willing to wait it out rather than pursue other work. That framing is the reporter's."
+		},
+		"enneagram": {
+			"score": 7.5,
+			"reason": "The alternatives are taken seriously. Type 4 gets a steelmanned section with specific evidence (Pierrot le Fou, the withheld songs, nostalgia for an 'awful' past), counterphobic Six is tested against a sourced rejection (Cero), Three is addressed, and the unexplained remainder is candid. The positive Nine case is thin, though. The article concedes that no source shows the peace motive and that no cost is documented for the holdout. The discriminator this passage introduces is an absence claim (no identity-through-difference in opened interviews) resting partly on junket 'openness' answers, one of them trimmed. The subject's most intense documented behavior (arguing past a director's veto, retakes by his own standard, Whalefall entered by audition) is admitted to be unexplained by Nine. The honest narrow call is well handled, but it is below the anchor-8 standard of a motive that explains repeated costly choices.",
+			"passage": "The Four reading strains where the two types differ most: how he talks when the subject is himself."
+		},
+		"originality": {
+			"score": 8.5,
+			"reason": "Details are specific to this person and verified: the wall quote and the 'No! No!' about his songs, the three reasons in the 13-year-old's Facebook answer, the Barbarian screening a friend dragged him to, the lone recast holdout, a stunt count that includes sitting on a gimbal, the ADR screaming, being 'too freaked out' to play Resident Evil, the hidden homework. The exposure puzzle is an original contradiction left open, and there is little reusable type boilerplate. Not 9, because the back half leans on generic type-comparison moves ('Fours tend to locate identity in what makes them different').",
+			"passage": "In 2019, a line from the film _Pierrot le Fou_ hung on his living-room wall: \"Why do you look so sad? / Because you speak to me in words and I look at you with feelings.\""
+		},
+		"writing": {
+			"score": 7.5,
+			"reason": "The prose is precise, and the first half moves well from hook to orientation, childhood, social media, choices and the holdout. As this passage shows, though, many sections now end by narrowing what came before, and the back half spends about 1,600 words of type adjudication across four sections (Four; Six and Three; the unexplained; the whale) that revisit the same exposure and intensity material. At 4,109 words it exceeds the 2,000-3,500 target. One internal contradiction ('never had social media', then Facebook at 13) breaks the reader's trust.",
+			"passage": "Almost anyone cast opposite Clooney and Pitt would defer, and the Complex line was said beside the director who cast him. What survives is narrower than a rule that people come first: in his telling the people are part of the pull, and on at least one project another person's passion was the spark."
+		},
+		"durability": {
+			"score": 8.5,
+			"reason": "Dates are absolute throughout. The 2019 remark is dated wherever it is used; status claims are anchored to September 2025 with refresh triggers; C89 and C128 are 'unresolved' with discriminator-based triggers; and the ending no longer depends on a release. Removing the 2026 material (Complex, Dread Central, Duffield) leaves the discriminator intact, since it rests on 2019-2025 self-descriptions. The only live date is the tracked October 16, 2026 release. Not 9, because the hook and whale section still center on promotional testimony from 2025-26.",
+			"passage": "That was an attitude stated at 22, and no source documents a role he lost. Six years and several leading roles later, he had not changed course."
+		},
+		"hook": {
+			"score": 9.0,
+			"reason": "Specific, sourced (THR, June 11, 2026) and surprising. The 'you'll die' quote sets up a contradiction with the 2019 'somewhat frightening' remark, which the article pursues and honestly leaves partly open in the exposure puzzle and whale section. Orientation now follows immediately.",
+			"passage": "Brian Duffield has one complaint about the lead of his survival thriller _Whalefall_."
+		},
+		"discoverability": {
+			"score": 7.5,
+			"reason": "The meta title (54 characters) and description (155) are accurate, dated and attributed, and they name Euphoria and Weapons. The type heading is followed by a 59-word answer. Five FAQs target real queries (type, Type 4, social media, the Weapons recast, stunts), with anchors matching H2 slugs. Internal links go to four type pages and three person pages that exist, and all five suggestions exist as drafts. It is held back by this FAQ 3 answer, which contradicts its own next sentence about Facebook at 13, and by FAQ 1's 'at times borrows his drive' overreach.",
+			"passage": "As of his September 2025 interview with Hunger, he had never had an account."
+		}
+	}
+}

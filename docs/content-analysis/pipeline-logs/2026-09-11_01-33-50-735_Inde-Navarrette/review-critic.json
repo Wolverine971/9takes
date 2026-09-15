@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "62f36e23d1362e3dfa681b8e616de4c577f719e4dafd5d763f562b3d09ce0546",
+	"evidence_sha256": "67ea2ed410c6cad513d9758a974aabff6724422915da7e759e4c835373d4def3",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "A Three protecting an image might delete the clips too, but would be less likely to describe the move on a Variety podcast as panic and call the fear baseless.",
+			"problem": "The central discriminator does not separate Six from Three. Her stated fear was that people would not 'take me seriously', which is an image and credibility concern on its face. The record the draft itself quotes keeps using that register: 'I don't want to lose the audience's trust in me'; proving Obsession 'wasn't just lightning in a bottle'; 'extremely validating'; a safety net meaning 'it doesn't mean that I didn't do a good job'; 'give it 110%'; 'doing everything that I possibly can'. Nylon (July 1, 2026, opened) also has her say that 'sometimes when people post old sh*t of mine, I go, \"Oh my God\"', a month before she told Variety her fear 'was for nothing'. Type 3 gets one sentence, while Types 4, 8 and 9 each get a paragraph. The one argument against Three is weak. Calling a fear baseless in hindsight, after fans embraced the clips, costs nothing and is itself a relatable press-tour self-presentation. The claim that a Seven's reflex 'runs the other way' is also asserted without support. Clearing out old content while 'moving into like a new chapter' is just as readable as moving on.",
+			"acceptance_test": "The alternatives section makes a paragraph-level Type 3 case that quotes the 'take me seriously', 'audience's trust', 'prove' and 'extremely validating' lines. It then names one sourced behavior that the security motive explains and an image/achievement motive does not, for example privately admitting to the director that she could not scream instead of performing competence. If no such discriminator holds, the body, the type answer and the FAQs state that 6 versus 3 is unresolved and lower confidence to match. The Seven 'runs the other way' sentence is either sourced or cut."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "This is the clearest unforced case in the record, and it separates the leading readings. The bad outcome was hypothetical. She acted before it arrived, at real cost: the archive was something she loved and something that had helped pay bills.",
+			"problem": "The 'real cost' claim mixes up the value of streaming with the cost of deleting the archive. The income came from live streaming while she was doing it. She told Complex (June 24, 2026, opened) 'I would still love to do it, but I don't have time', so she had stopped. Deleting old VODs gave up no income that the record shows. Only the loss of something sentimental is supported. The claim reads as though it was written to meet the standard's 'costly choice' bar. 'Unforced' is also unverifiable. The deletion is undated in the Variety answer (S10 ~10:33-11:10, checked against the cached caption excerpt), and no source says whether anyone advised it. Newly booked actors routinely scrub pre-fame content, and that ordinary explanation is never raised. The body's 'Then she deleted the archive' also overstates her own 'I deleted a lot of them'; the FAQ says 'most'.",
+			"acceptance_test": "The passage names only the cost the sources support: losing an archive she valued, with no income forfeited. It either dates the deletion from a source or says its timing, and whether anyone advised it, are unknown. It raises routine pre-fame scrubbing as an alternative explanation and drops or qualifies 'unforced' and 'clearest'. The body, FAQ and evidence claim C15 agree on scope ('many' or 'most' of the streams, not 'the archive')."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "Inde Navarrette fits Enneagram Type 6 best, probably the counterphobic version that walks toward its fears.",
+			"problem": "The subtype label lets both halves of the record count for Six. Most of the Six evidence is phobic in style: shyness, needing a safe space before screaming, deferring to an authority, a pre-emptive 'I just panicked' deletion, safety nets. Meanwhile the daredevil evidence (skydiving, taking a horror lead, 'slap me harder') is recruited as counterphobic Six. The meta description does this openly. 'Her safety nets, trusted guides and leaps point to a counterphobic Enneagram Type 6' lists the leaps as Six evidence, but the body lists the same skydive and tattoos as Type 7 evidence it cannot explain. The standard specifically warns against subtypes that explain away contradictions, and nothing in the draft says what would count against the counterphobic reading.",
+			"acceptance_test": "Either remove 'counterphobic' from the type answer, the description, the persona framing and FAQ 1, or add one short passage that sorts the observed behaviors into phobic and counterphobic, argues why the counterphobic label wins, and names a behavior that would falsify it. In either case, the description does not list 'leaps' as Six evidence unless the body argues that the skydive supports Six."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "For a Six, trust works like infrastructure: once it is in place, the risky work can begin.",
+			"problem": "Adverse self-report from a source the draft already quotes is omitted. In the GoldDerby interview (S11, ~36:0x-36:2x, right after the 'chasing that high' answer the draft quotes; checked in the cached caption excerpt), her advice to young actors is: 'challenge yourself, but also be extremely stubborn, you know what I mean? Kind of be delusional a little bit. You have to really believe in yourself before other people will.' That is her own statement that certainty should come from within before outside validation, which contradicts the 'borrows certainty from people she trusts' discriminator. The article also never gives the ordinary explanation for the mirror and deference behavior: a first-time feature lead deferring to the writer-director on his own film is normal craft practice. Evidence claim C23 logs that alternative, but the prose never mentions it.",
+			"acceptance_test": "The 'Borrowed certainty' section or the alternatives section quotes the 'be extremely stubborn... believe in yourself before other people will' line with source and date and addresses it, for example as a stated ideal set against the described behavior. The section also names ordinary actor-director deference as a competing explanation and says why the Six reading still adds something."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "The scream sessions show the order her choices tend to follow. She names the fear. She finds a person or a structure that makes it safe. Then she commits all the way.",
+			"problem": "The hook's causal story gives her credit for a structure the director built. In both of her own accounts, Barker designed it. He booked the private sessions (Collider, per the S09 excerpt), and on Hot Ones she says 'Curry was like, \"You got to get over that,\" and he's like, \"You're all going to come over and play charades.\"' Her choice was to disclose the fear and accept the plan. Graduated warm-ups for a nervous lead are ordinary directing, so this episode shows as much about Barker's method as her motive. The chemistry-read 'third chance' was also given to her, not found. The closing repeats the error by asking whether she can take risks 'without first building the safe room'.",
+			"acceptance_test": "The pattern sentence describes her part accurately: she names the fear and accepts or relies on a structure someone she trusts provides. It notes that the scream sessions were Barker's method. The ending's 'building the safe room' is reworded to match. Any 'she finds' wording that remains is backed by at least one example where she, not a director or her mother, set up the safeguard (the 2021 pact with herself would qualify)."
+		},
+		{
+			"id": "critic-06",
+			"severity": "minor",
+			"passage": "The accounts differ on who pushed. Both agree her take changed the ending.",
+			"problem": "Only Barker credits her performance with changing the ending. Her quoted account, 'last minute we decided to change be like no she's a final girl she wouldn't do that', gives a character reason and says nothing about her take. I could not open S09 to check the surrounding context: YouTube returned HTTP 429 to both the transcript API and yt-dlp. So this rests on the evidence packet's own excerpt, which contains no such statement. Evidence claim C61's inference makes the same overclaim.",
+			"acceptance_test": "The sentence says Barker credits her take and her own account attributes the change to a last-minute call about the character, or it cites an S09 timestamp where she credits her performance. C61's inference is corrected to match."
+		},
+		{
+			"id": "critic-07",
+			"severity": "minor",
+			"passage": "Five years later she was still quoting her mother's version: \"my mom really instilled in me to um not take no until no's a for sure\" (Collider).",
+			"problem": "The draft presents two different parental lessons as one continuous rule. The 2021 mindset is about accepting rejection: 'if we don't get something, that's not what we're supposed to do.' The 2026 line is about refusing to accept rejection until it is final. 'Still quoting her mother's version' invents continuity. The two lessons are arguably in tension, and that tension is more interesting than the tidy version.",
+			"acceptance_test": "The 2026 line is presented as a separate lesson from her mother, not the same rule. Either the tension is noted or the continuity claim is dropped."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "The Six pattern has a price, and she names it herself.",
+			"problem": "She named lost sleep, not a price of any pattern, and not with regret. In Nylon (opened) the next line compares it to 'being in a SoulCycle class and all of the girls are like, \"Sleep when you're dead\"', which frames it as cheerful hustle rather than anxious scarcity. Linking it to 'the same anticipation of loss behind the deleted streams' is the author's construction, but the sentence attributes the naming to her.",
+			"acceptance_test": "The section attributes the 'price' to the author's reading, for example 'On this reading, the pattern has a price'. It includes or accounts for the SoulCycle context and keeps the existing 'common first-breakout mindset' hedge."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "A Six story would be easier to tell if the moving had hurt. She says it didn't.",
+			"reason": "It confronts adverse evidence head-on and gives it to the alternative instead of explaining it away. That is exactly the honesty the critic role looks for."
+		},
+		{
+			"passage": "Toddlers of every type insist on doing it themselves, so the anecdote proves little on its own.",
+			"reason": "It limits an attractive origin story before it can carry weight, and it stops a childhood anecdote from becoming a causal wound."
+		},
+		{
+			"passage": "That quick turn toward freedom is the kind of reframe Type 7 is known for, and it counts for the alternative. It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"reason": "It scores the point for the rival type and states where the evidence runs out (the 2023 reaction was not opened) without hiding it."
+		},
+		{
+			"passage": "The limits are real. Most of this evidence is her own account, given largely during a four-month press run for a film about a woman who loses control of herself. Promotion rewards a humble, fearless story.",
+			"reason": "It names the biggest confound, press-run self-report on a film about control, right where the thesis is stated, not in a footer."
+		},
+		{
+			"passage": "What the Six reading does not explain matters just as much. It struggles with the piercing on the same day as the skydive, with the \"random\" tattoos, and with \"I don't think that far ahead,\" which cuts against the anticipation Sixes usually show.",
+			"reason": "It keeps a real 'unexplained' column that survives the type argument, which the standard's calibration anchors reward."
+		}
+	],
+	"assessment": "The draft is more honest than most about the Type 7 case: it scores the childhood moves, the freedom reframe and the same-day stunts against itself and keeps an unexplained column. Where it is weakest is the step from evidence to motive. The key discriminator, the Twitch deletion, is claimed as 'unforced' and costly, but its cost is overstated and its timing is unknown. On its face it is an image concern ('take me seriously'), and Type 3 is barely tested against it even though the draft quotes trust, proof and validation language throughout. The 'counterphobic' label lets phobic and daredevil behavior both count for Six. The hook's pattern gives her credit for safe-room structures Barker built. A directly adverse GoldDerby line ('believe in yourself before other people will') is omitted from a source the draft already uses. Medium confidence is defensible only if the 6-versus-3 discriminator is repaired; otherwise the article should say the split is unresolved. Sources checked: Nylon (S02) and Complex (S06) opened live. S10 and S11 were checked against the research stage's cached caption excerpts (captions, not audio). Collider (S09) could not be opened because YouTube returned HTTP 429, so critic-06 relies on the packet excerpt. Similarity advisory: not tripped (max 0.032 against a 0.04 threshold). The top pairs share only ordinary type vocabulary ('counterphobic', 'people she trusts'), not reused arguments, so I found no meaningful reuse. The contested_typing risk carries forward; I add no new risk."
+}

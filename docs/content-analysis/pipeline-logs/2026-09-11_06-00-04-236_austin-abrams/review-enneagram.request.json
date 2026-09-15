@@ -1,0 +1,20 @@
+{
+	"schema_version": 3,
+	"subject": "austin-abrams",
+	"mode": "create",
+	"role": "enneagram",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/draft.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/evidence-draft.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/similarity.json"
+	},
+	"outputs": {
+		"review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-enneagram.json"
+	},
+	"content_sha256": "3b7c006f101ebfdec8500bde8a7f1f166d4f61e6cec077ee7d44162acf7c8101",
+	"evidence_sha256": "f61062887b9f847f5b666bbd648d9685af83c0578163da32c5d23567e5d00721"
+}

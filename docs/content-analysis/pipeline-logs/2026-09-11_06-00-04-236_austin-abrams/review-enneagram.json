@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "3b7c006f101ebfdec8500bde8a7f1f166d4f61e6cec077ee7d44162acf7c8101",
+	"evidence_sha256": "f61062887b9f847f5b666bbd648d9685af83c0578163da32c5d23567e5d00721",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "His choices lean the same way. The yeses name people before parts, and the one costly holdout is explained entirely by attachment. On the Four reading, _Weapons_ would more likely come with an account of what the part meant to him.",
+			"problem": "The Four section's decisive test fails on the draft's own evidence. When Hunger (S08, 2025-09-16) asked what makes him feel he must play a character, he described an inner imperative, not a person: 'Sometimes you just feel something inside... it's just that feeling of 'I have to do this. I can't let this go. I'll do whatever I need to make it happen'. With Weapons, I definitely felt that. I really love the director, and the character had so many different possibilities to explore.' In the same interview he says what James's addiction showed him ('this synthetic version of heaven... putting yourself in hell'). To EW he said 'I loved the part', and the draft's own Weapons section concedes 'a part he loved'. Asked what makes him say yes, he told The Italian Rêve (S07) 'most of the time it's the people and the writing' and described reading the Weapons script from 1 a.m. to 3 a.m.; in 2017 he named 'A perfect script' before Stiller. The people-before-parts leg is curated from the people-first answers, and the Weapons holdout does not discriminate 9 from 4. (Context checked on the source pages 2026-09-11.)",
+			"acceptance_test": "No sentence in the body, the Type 4 FAQ answer ('explains his biggest choices through the people involved') or type_hypothesis.discriminator says or implies that his Weapons account lacks what the part meant to him or that his yeses name people rather than parts. The discriminator either acknowledges that his role-choice answers pair the director with the writing, the character and a felt inner imperative, and rests the 9-over-4 call only on evidence that survives that (for example the Complex line that Cregger's passion 'gets me passionate'), or confidence is lowered to match."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "His biggest choices follow people he admires and a felt pull, and when asked about himself he stresses how alike people are.",
+			"problem": "The plain-language answer (and both type FAQs: 'when asked about himself he stresses how alike people are'; 'asked about himself, reaches for sameness over difference') states the sameness leg more strongly than the body allows. The body concedes three of the four 'alike' lines answer questions about empathy for a character. The only one about himself is the lone-wolf answer, which in full (S07) is about how much time alone he wants: 'I think everyone's a social animal! It depends, life is a balance and we all fluctuate, so there are times when you want to spend time alone and times when you want to see people more. It's not black or white.' That is a hedge about solitude, not a claim of sameness over difference. The Four section's conclusion that 'the self-portrait is modest and interchangeable' then overstates it further.",
+			"acceptance_test": "The type answer, both FAQ answers and the Four section describe this leg no more strongly than the body's concession (one hedged lone-wolf answer plus self-minimizing asides), or drop it as a discriminator. 'Interchangeable' is removed or backed by a quote in which he describes himself as interchangeable. The type answer is still 60 words or fewer."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "minor",
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"problem": "The contrast is a false choice within one source. His Facebook answer does include 'I didn't know what to talk about', which supports self-minimizing. But in the same Coup de Main interview he says of songs he wrote 'I literally did it for myself', answers 'No! No!' to sharing them, and the magazine bills them as his 'secret music'. That is guarding private expression from display, with a self-minimizing disclaimer ('Not to say that they're good or anything'). The source shows both behaviors, so the Facebook line fits 9 and 4 alike. The draft still calls it 'the telling detail' and reuses it as a discriminator ('Add the 13-year-old with nothing important enough to say').",
+			"acceptance_test": "The paragraph either stops presenting the Facebook line as discriminating between 9 and 4, or deals with the same interview's withheld songs and gives a sourced reason why self-minimizing plus withholding still favors 9. The Four section no longer counts the line toward the Nine side unless that reason is given. C52's alternative field records the songs."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "On the Nine reading, this is what self-forgetting looks like from outside. Once he has merged with a project, his own safety and image drop out of view.",
+			"problem": "Duffield's testimony is counted on both sides. C33 and C88 are in type_hypothesis.for_claim_ids and this paragraph explains the behavior as Nine self-forgetting, but the evidence's 'unexplained' field and the draft's section on what no type explains say 'The intensity Duffield describes is hard for a placid Nine'. The specific behavior also contradicts the deference leg of the discriminator ('follow their lead'; 'I just really trust his direction'): his only arguments with Duffield came from overriding the director's 'you cannot do this because you'll die', and he asks for more takes 'because he thinks he can do everything better', which is his own standard, not the director's. THR itself frames it as Duffield having 'to protect Abrams from himself'. Merging with the director's vision would mean accepting the veto.",
+			"acceptance_test": "The Duffield testimony (C33, C77, C88) sits on one side only: either support in for_claim_ids or listed as unexplained, not both. The draft explicitly reconciles the arguments with Duffield with the claim that he defers to trusted directors, for example by narrowing deference to creative choices and showing it with a sourced example, or it drops deference as a discriminator."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "major",
+			"passage": "The episode fits Type 9 in its motive and its shape: attachment to a person and a project, then holding still until the flow resumed.",
+			"problem": "Motive is not tested against behavior. The hook defines Type 9 by 'keeping inner peace', but the Nine case never shows evidence of that motive (peace-keeping, conflict avoidance, numbing); it shows behaviors compatible with it. 'Attachment to a person and a project' is not the Nine motive, and 'holding still until the flow resumed' recasts what he describes as deliberate, will-driven choice: 'I just really held on 'cause I really wanted to do it' (EW via Men's Journal); 'Weapons then came together, and I only want to work on things that I want to work on' (THR, 2025-08-11); 'I'll do whatever I need to make it happen' (Hunger); 'I need to figure out how to meet this guy'. Difficulty knowing and asserting one's own wants is a Nine signature, and this record states wants plainly and acts on them. The only peace-motive candidates in the opened record are light: an improvised song 'that the situation is okay and not what it is' (Coup de Main banter) and comfort as 'to feel present, and to feel safe in your body' (The Italian Rêve), and the second reads as Six too.",
+			"acceptance_test": "The type argument either cites at least one sourced, costly behavior that shows peace-preservation or conflict avoidance, as opposed to following people, or states plainly that the Nine motive is inferred from behavior patterns. The Weapons paragraph treats his explicit stated wants as counterevidence to Nine self-forgetting and describes the holdout in terms that match his account (actively holding on to something he wanted), not inertia. type_hypothesis.against lists the stated-wants evidence."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "major",
+			"passage": "Nor does a security-first Six fit a man whose director has to veto his stunts.",
+			"problem": "Type 6 is dismissed with a phobic-Six stereotype. Pushing into danger despite fear is the counterphobic Six pattern, and the draft's own record is unusually fear-laden: talking about himself 'feels somewhat frightening'; Wolfs was 'super intimidating' and took 'a lot of hammering into my mind it was possible'; the Euphoria dance script terrified him (ET's word); he gets 'too freaked out' to play Resident Evil (Complex); the falling-bodies sequence was 'a little bit terrifying'; anxieties may be 'telling you something'; comfort means 'to feel safe in your body'. The fear section describes the counterphobic mechanism itself ('he resolves it with an instruction to himself: commit'). Trust as a precondition (Reinhart, Berger, Cregger), deference to trusted authority, and staying through the recast (THR's 'loyal gesture', Cregger's 'hung tough') fit Six loyalty as well as Nine merging. Nines usually under-report anxiety; this record names it often. 'A distant third' in the type answer is not earned.",
+			"acceptance_test": "The Six paragraph tests counterphobic Six and the loyalty/trusted-authority reading against Nine, with a sourced discriminator (for example whether his following is security-seeking under a trusted authority or borrowed enthusiasm, where the Complex line 'that gets me passionate about it' is a candidate). The stunt sentence is removed or rewritten so it does not rest on a security-first stereotype. 'Distant third' in the type answer is justified by that discriminator or revised, and type_hypothesis.against/unexplained name counterphobic Six."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "On the Nine reading, that is where his anger lives: in resistance to being pushed around.",
+			"problem": "A stereotyped Nine marker (anger as stubborn resistance to control) is drawn from a staged-hazing context the next sentence concedes anyone would react to, yet C29 is still counted in type_hypothesis.for_claim_ids. The same inflation applies to C26 (both-sides hedging the draft says 'could as easily be media training') and C31 (liking intense work, an acting-school value). Counting non-discriminating claims as support makes the Nine case look better evidenced than the prose admits.",
+			"acceptance_test": "Either the anger sentence is cut or it is labeled as compatible with 9 but not discriminating. for_claim_ids is limited to claims that separate 9 from 4 or 6, or the evidence record marks C26, C29 and C31 as merely compatible."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem.",
+			"reason": "Rare self-discounting of the draft's own best discriminator; keep it, and make the answer box and FAQs match it."
+		},
+		{
+			"passage": "Long-form, non-promotional material in which he frames his choices around identity, envy or lack would move this profile toward Four. So would a documented break with trusted collaborators for private emotional reasons.",
+			"reason": "States concrete, falsifiable evidence that would move the typing; this is the standard's 'what would change the call' done well."
+		},
+		{
+			"passage": "Longing for a past he suspects was bad is classic Four texture, and nothing in the Nine reading predicts it.",
+			"reason": "Gives the alternative a point the lead type cannot absorb instead of explaining it away with a wing or arrow."
+		},
+		{
+			"passage": "On the Nine reading, exposure is bearable when he is absorbed in a role and someone else's vision. On the Four reading, the role is where the hidden self gets out. The public record cannot yet settle it.",
+			"reason": "An unresolved contradiction that survives the type argument, set out as two readings without forcing a verdict."
+		},
+		{
+			"passage": "It was a brief, light answer, and it supports no story about a childhood wound.",
+			"reason": "Refuses to build a childhood-wound etiology on thin material; typing hygiene the standard requires."
+		}
+	],
+	"assessment": "Honest, well-hedged profile: no convenient wing or arrow props up the Nine, Four gets its own section, and the unexplained remainder is stated plainly. But the Nine case is built mainly from behavior compatible with 9, and its three-leg discriminator is weaker than the answer box says. Leg 1 (people before parts) is curated: his own role-choice answers pair the director with the writing, the character and an inner 'I have to do this' (Hunger 2025; The Italian Rêve 2024). Leg 2 (defers to directors) collides with the hook, where he overrides Duffield. Leg 3 (sameness when asked about himself) rests on one hedged lone-wolf answer. The Nine core motive is never evidenced directly; the record states clear personal wants and names fear often, and Six is dismissed with a phobic stereotype. The Complex 'that gets me passionate' mechanism plus the Weapons holdout could still support 9 at medium confidence if the rest is conceded; promoting 6 or 4 to lead would be a thesis change requiring --refresh --expanded-review. Contested typing confirmed. I opened S02, S07, S08, S09, S29 and S33 on 2026-09-11 to check the context of discriminator quotes. Similarity advisory: no meaningful reuse; the top matches (0.046, Nate-Bargatze) are methodological hedge sentences with no shared phrasing or argument."
+}

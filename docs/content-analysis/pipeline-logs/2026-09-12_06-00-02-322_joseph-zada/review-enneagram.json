@@ -1,0 +1,107 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "f2d9087bff40b60d7105a9c44b45b88ffb4d28ed616db296e80713931a6a08a7",
+	"evidence_sha256": "c35ed25f0d9a051c78a92b6e9068fc9267b77ba155294908eda7311e8e042e36",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": true,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "A Nine's steadiness would be expected to absorb good news, yet Zada's most consequential good news made him more afraid.",
+			"problem": "The headline discriminator does not separate the three types it is asked to separate. It rests on stereotypes: Nine as unflappable, Three as simply gratified by winning. What Zada actually said on the call was 'Now I have to do this and it's going to be really hard' (S01). That is dread of effort and obligation. It fits a Nine's resistance to a disruptive, effortful demand just as well. For Three, fear of failing in public is the core fear, not evidence against the type. The draft concedes this in the Type 3 section ('which points to fear of falling short more than a need for validation') and then counts it against Three anyway. The 'Yes' is also an answer to a leading question Fanning asked while laughing, a year later (S01, June 12, 2026 conversation). So the win reaction is a supporting datum, not a discriminator. The real discriminating material is in the remedy (flying home to build the tape with his brother and father; 'once I step on set and meet everyone, I'll be fine'), and the type argument never says what a Three or a Nine would have done instead.",
+			"acceptance_test": "Neither the type section, the Nine rebuttal, the Three rebuttal nor the first two FAQ answers presents the win reaction alone as evidence that separates 6 from 3 and 9. The article says in one or two sentences what each of 6, 3 and 9 would predict about (a) what the alarm is about and (b) how it is discharged. It cites at least two dated, linked passages where Zada's remedy matches the Six prediction and not the other two. The clause 'fear of falling short more than a need for validation' is removed or rewritten so it no longer treats fear of failure as anti-Three."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "The strongest clue is what success does to him: it raises his alarm, and he answers by preparing with trusted people and seeking acceptance from admired collaborators.",
+			"problem": "The core motive is described in the language of approval, not security. The thesis sentence, the first FAQ ('seeking acceptance from collaborators he admires'), 'The reward he names ... is acceptance', 'I had his blessing', and 'afraid of how they would perceive me' all describe wanting admired people to approve of him. As written, that reads at least as naturally as a Three motive (validation from people who matter) or a Nine motive (belonging), and it contradicts the article's own rebuttal of Three as 'more than a need for validation'. Six-specific markers get far less weight than they deserve. The record's reliability and safety language is mostly left unused or unframed: Glenn Close 'made it clear she was always there for me' (S10); 'more confident in myself, and in the people around me' (S02); Florence Pugh as 'very daunting, but she's so friendly and makes everyone feel so comfortable' (S01, not in draft); 'Australia is a safe place' (S01). The article also never admits that the record has no worst-case scanning beyond ordinary nerves, no testing of whether people can be trusted, and no mixed feelings toward authority. Those are the observations that would separate a Six from a Three or a Nine who also wants to be included.",
+			"acceptance_test": "The thesis sentence, the first FAQ answer and 'Getting inside the circle' describe the remedy as securing reliable support or safe footing, not approval. Each is tied to at least one cited passage about reliability or safety. The article states in one sentence that the public record shows little doubt-testing or ambivalence toward authority, and that this limits how Six-specific the case can be. The thesis no longer uses wording that the Three rebuttal then argues against."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "The third is that he does not drift.",
+			"problem": "The third argument against Nine treats Nine as a low-effort type. Its evidence is 'the most intricate notes' and 'six movies in two days during my time off'. But a Nine can be highly industrious at craft and routine. Nine self-forgetting is about neglecting one's own priorities, preferences and positions, not about work ethic. Six films in a trailer over two days (S03, during chariot coverage) can just as easily read as comfortable absorption. Meanwhile the record has real evidence against Nine that this section never uses: he set his own terms with a studio ('I'll have it to you in three weeks'); he changed his professional name himself; and he plans to move to Los Angeles, New York or London even though 'My mom doesn't really like that idea' (S01). The Nine case is also slightly inflated by context the article omits. Flaunt's 'uncommonly zen mentality' is the writer's conclusion after Zada jokingly called himself 'extremely talented, extremely chill, and extremely humble', which the writer says was 'all said in jest' (S04).",
+			"acceptance_test": "The 'does not drift' argument is replaced, or supplemented and demoted, by at least two dated, linked instances of Zada asserting his own agenda against someone else's preference or brief. The note-taking and film-watching are no longer framed as ruling out Nine. The 'uncommonly zen' quotation is attributed as the writer's read following his joking self-description."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+			"problem": "The draft leaves out the strongest cross-year evidence for its central Six claim, and that evidence also undercuts this sentence's arc. The Interview Magazine transcript already cited (S01, conversation dated June 12, 2026, after both big shoots) has this exchange. Asked 'Are there any actors on your bucket list to work with?', Zada said 'I love the actors I love, but I'm shit scared of working with them' and 'I don't know how excited I'd be as opposed to deathly nervous.' Of Florence Pugh he said 'She's scary ... It was very daunting, but she's so friendly and makes everyone feel so comfortable.' So the fear of admired collaborators he described in July 2025 (S02) comes back eleven months later, after his Flaunt claim that he could 'go toe to toe with anyone now'. His answer about Pugh also pairs the fear with comfort and inclusion as the fix. Right now the section reads as though the fear resolved. The method paragraph promises 'statements that repeat across years and interviewers', and this is the repetition that promise needs.",
+			"acceptance_test": "'Afraid of the people he admires' quotes at least the bucket-list exchange with its June 2026 date and a link, and notes the register (a laugh, a light question). The section's arc no longer implies the fear was settled by the Flaunt-era confidence: it shows confidence in mid-2025 and the fear recurring in June 2026. The evidence inventory gains a claim row for the new quotation(s) with S01 as the source."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "minor",
+			"passage": "It also misses how little credit he takes; he routes his growth to Verso, to Jacobson's search, to his brother and his father.",
+			"problem": "Giving credit to others is used as a discriminator against Three, but the article has already dismissed that same behavior as press convention ('gratitude ... are the house style of those formats'; 'Each is an expected press courtesy on its own'). It cannot be worthless for the Six case and decisive against Three. 'Jacobson's search' also has no Zada statement behind it. Jacobson praised him (S14); the nearest thing to Zada crediting her process is the CinemaBlend relay saying the audition was 'important for me to go through', which is not credit to Jacobson.",
+			"acceptance_test": "Either a linked Zada passage crediting Jacobson or her search is cited, or her name is removed from the sentence. The credit-routing point is either explicitly labelled weak because of press register, or replaced with a non-press behavioral datum against Three."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "He had made the process harder on purpose.",
+			"problem": "The opening states as fact a motive the source does not give. In S01 he asked for three weeks 'Because I was shooting' and because 'I had a plan to shoot the scenes properly and edit them'. The flight-home line answers 'Did Florence [Pugh] help you with the audition?' ('No, she didn't. Actually, I flew back ...'). Neither shows he aimed to make the process harder. This matters for the typing because the claim turns an observed costly choice into an intended one, and that is precisely the step the article later hedges ('cannot rule out that the trip also fit a break in the schedule').",
+			"acceptance_test": "The opening describes the observed choice (more time and more production than the brief required, prepared with family) without claiming intent to make it harder, or labels the intent as inference. Somewhere in the audition passage it notes that he was shooting another series when he asked for three weeks."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "Across three thresholds, the teenage sessions with Hal, the flight home for the Haymitch tape and Berlin, the same people appear right before the plunge.",
+			"problem": "The first 'threshold' was not his. S01 says acting appealed 'when I started helping my older brother with auditions when he'd come back from America'. The eight-hour sessions are described as mutual ('We'd drive each other'), and 'support system built in' is Fanning's framing, not his. Counting his brother's auditions as a moment when Zada gathered his people before his own plunge inflates the pattern from two clear instances to three. The same overcount appears earlier: 'the move repeats the eight-hour sessions from his teens. When the stakes rose, he gathered his people'.",
+			"acceptance_test": "The pattern is stated as two clear instances (the Haymitch tape and Berlin). The teenage sessions appear only as a formative habit of preparing with a partner, unless a linked source shows they were for Zada's own auditions at a high-stakes point."
+		},
+		{
+			"id": "enneagram-08",
+			"severity": "minor",
+			"passage": "Lind's line comes from the least performative setting in the record, a private call in the middle of the callbacks, and what she saw was appetite: secrecy about a shortlist and close attention to the competition.",
+			"problem": "This mixes up the call with the characterization. The private FaceTime is the setting for the behavior Lind reports (swearing her to secrecy, naming the big names he was up against). But 'He just gets what he wants' is her summary to People in a June 2025 promotional interview, relayed by THR (S09), not something said on the call. The sentence gives the compliment the credibility of an unguarded setting. The strongest evidence for the Three alternative should be weighted accurately in both directions.",
+			"acceptance_test": "The sentence separates the behavior Lind reports from the private call (the least performative part) from her summary line given to People in a June 2025 promotional interview. Only the reported behavior is described as coming from the least performative setting."
+		},
+		{
+			"id": "enneagram-09",
+			"severity": "minor",
+			"passage": "What carries weight is the direction, repeated in two interviews fourteen months apart: company keeps him out of his own head, and he welcomed having it imposed.",
+			"problem": "Factual error. The two interviews are Behind The Blinds (S02, July 9, 2025) and HERO (S03, March 23, 2026), about eight and a half months apart, not fourteen. Evidence row C15 repeats the error. The HERO context is also richer than the draft or C68 records. The 'family time' is Grace, her mother and Iona Bell's mother ('It's so lovely to have you and your mom and Iona's [Bell] mom.' / 'Our little family.'), around his twentieth birthday in Spain. That makes it a surrogate family formed on location, which bears directly on the Six-versus-Nine question of whether company works as support or as comfort.",
+			"acceptance_test": "The interval matches the linked publication dates (about eight months), or the sentence dates the events described instead, with a source for each date. C15 is corrected. C68's note that the preceding context was unavailable is updated with the S03 context, and the editor decides, with a reason, whether the surrogate-family detail goes into the prose."
+		},
+		{
+			"id": "enneagram-10",
+			"severity": "minor",
+			"passage": "he worked on the voice until \"I sounded exactly like him,\" meaning Woody Harrelson, \"and from there I stripped it completely back.\"",
+			"problem": "Evidence-trail error. C29's inference says 'The research record's mention of coaches does not appear in the retrieved text'. The S01 transcript does contain it, in the next Zada reply: 'I worked with quite a few coaches, but I more or less had to let go at some point and try not to focus on the accent'. The draft's wording is not wrong, but the record now contains a false negative about a source already treated as verified. It is also a small structure-then-release datum that parallels the draft's 'keep the looming authority out of the room' sequence.",
+			"acceptance_test": "C29's inference is corrected to quote the coaches line accurately as being about accent work. If the prose mentions coaches, it attributes them to accent work, not to reaching Harrelson's voice."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "So this reading leans on what he did, especially when it cost him something, and on statements that repeat across years and interviewers.",
+			"reason": "States the right method for typing someone whose record is almost all promotional press, and gives readers a standard they can hold the rest of the article to."
+		},
+		{
+			"passage": "It does not fully explain the appetite she saw, and that tension stays open.",
+			"reason": "Refuses to explain away Lind's testimony with a convenient wing or counterphobic-subtype patch. This is the restraint the standard asks for."
+		},
+		{
+			"passage": "If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+			"reason": "Turns a typing inference into a dated, falsifiable prediction that separates temperament from career stage."
+		},
+		{
+			"passage": "Chilling is also the word he used for what company protects him from: \"chilling in my own head and going crazy by myself.\"",
+			"reason": "A distinctive, verified detail that links his Nine-like self-description to his need for company without overclaiming, and is explicitly held lightly."
+		},
+		{
+			"passage": "It is still the one place where he describes a kind of freedom as closed to him, and no type in this analysis explains why.",
+			"reason": "An honest unexplained residue that survives the type argument. It makes the portrait feel like a person, not a type illustration."
+		}
+	],
+	"assessment": "Type 6 at medium confidence is defensible, and the draft's framing is unusually honest: it limits the source base up front, leaves the wing unknown, gives Nine a real section, tests Three, and keeps Lind's 'He just gets what he wants' open instead of patching it. The weakness is in the discriminators. The headline one (winning made him more afraid) rests on stereotyped predictions and fits a Three's fear of failure and a Nine's dread of effort almost as well. The motive is written in approval language ('acceptance from admired collaborators') that the Three rebuttal then argues against. The third argument against Nine treats Nine as low-effort while leaving unused the actual evidence of self-assertion (setting his own terms, the name change, relocating against his mother's wish). The best discriminating material is already in hand: the remedy (preparing with trusted allies, safety and reliability language) and a June 2026 recurrence of fear of admired actors ('I'm shit scared of working with them'; S01), which the draft omits. That recurrence both strengthens the Six case and corrects the section arc that implies the fear resolved. For this role I reopened S01 in full through a reader proxy, and targeted passages from S02, S03, S04 and S06. That surfaced one prose factual error (the 'fourteen months apart' interval) and two evidence-record errors (C29 coaches, C68 context). The similarity diagnostic did not trip (max 0.028 against a 0.04 threshold). Its top matches are generic Type 6 definitional vocabulary that the draft immediately particularizes, so there is no reuse finding. The contested_typing and historical_source_uncertainty flags stay set: the GQ Australia and Swooon originals remain unopened, and the 6/9/3 separation is still medium confidence."
+}

@@ -1,0 +1,29 @@
+I wrote `verification-edit.json` for the Joseph Zada profile. **The verdict is revise, not pass**, so the profile isn't eligible for release yet. The file passes the schema check, and nothing else in the repo was changed.
+
+**Two major problems block release:**
+1. **A factual error in the opening, repeated at the end.** The article says *Invisible Boys* was his "only released lead." Wikipedia, which the evidence file itself cites, says he played the lead, Dan, in *The Speedway Murders*. That film came out in 2023 and reached cinemas and streaming in June 2024. The editor added this sentence to help new readers, so the fix itself introduced the error. His own words support a narrower claim: *Invisible Boys* was his first lead in a series.
+2. **A key quote differs from its original.** The article says the Swooon interview "could not be opened," but I fetched it. Its wording differs from CinemaBlend's version, which the article quotes. In the original, "feel comfortable" is a separate remark, not a reason he gives for going through the auditions. This quote is one of the article's examples of what calms his nerves under pressure, the main evidence for Type 6 over Type 9. The Type 6 reading still holds on the other examples.
+
+**Ten minor issues:**
+- **Small mis-narrations:**
+  - It was Fanning who laughed, not him.
+  - His Halifax answer doesn't begin with the loneliness line.
+  - "I've already started writing" came before the directing goal, not after.
+  - "The order was his own" overstates his choice about when he met Harrelson.
+  - "Told Grace in 2026" is unproven; that conversation may date from late 2025.
+- **FAQ problems:** "keeps sets light" isn't supported anywhere, and one answer puts a time on the "spiritual connection" that the source doesn't give.
+- **Evidence-record gaps:** the "She's scary" quote and the Glenn Close/Ralph Fiennes cast mention aren't logged as claims. The evidence record still gives his age as 19 for an interview he gave at 18, credits the wrong source for Charlie Roth's surname, and lists the unopened GQ interview as supporting evidence.
+
+**What I checked:**
+- **Sources:** I reopened 22 sources and checked 71 quoted fragments; everything else matched word for word. Deadline was blocked through the reader proxy, so I fetched it directly. GQ Australia still returns 403 on all three addresses, and a web search found only Wikipedia's copy of the quote. I recorded GQ as not opened.
+- **Review decisions:** 49 of the 51 are accepted. Two aren't: the orientation fix (it brought in the *Speedway Murders* error) and one dating fix, because the evidence record still gives his age as 19.
+- **Protected passages:** all 20 are preserved. Each change either kept the passage's contribution or removed something unsupported.
+- **Hashes and structure:** the hashes match the request, and the draft's own structure checks are clean (3,707 words, meta title and description lengths within limits).
+
+**Scores:** evidence 7.5, Enneagram 7.5, originality 8.5, writing 8, durability 8.5, hook 8, discoverability 7.5, for 7.9 overall. That's below the 8.5 bar, and evidence and Enneagram are below their 8 minimums.
+
+The Enneagram score reflects the argument, not the errors. It's honest and specific, but the evidence for what calms him ("makes everyone feel so comfortable") would also fit a Nine settling into a group.
+
+Most fixes are small wording and record edits that fit the one allowed repair round. The Enneagram score is the harder part: better wording won't sharpen the Six-versus-Nine case without new evidence.
+
+Sources: [Joseph Zada – Wikipedia](https://en.wikipedia.org/wiki/Joseph_Zada), [The Speedway Murders – Wikipedia](https://en.wikipedia.org/wiki/The_Speedway_Murders), [Swooon interview](https://www.swooon.com/1197320/joseph-zada-haymitch-audition-sunrise-on-the-reaping-interview/)

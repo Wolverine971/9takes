@@ -11,9 +11,6 @@ function makeRow(overrides: Partial<PersonalitySimilarityRow>): PersonalitySimil
 	return {
 		person: 'sample-person',
 		enneagram: '3',
-		title: 'Sample',
-		description: null,
-		persona_title: null,
 		lastmod: '2026-03-01',
 		date: '2026-02-01',
 		type: ['creator'],

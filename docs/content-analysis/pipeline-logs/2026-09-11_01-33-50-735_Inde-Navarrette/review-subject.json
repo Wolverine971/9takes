@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "62f36e23d1362e3dfa681b8e616de4c577f719e4dafd5d763f562b3d09ce0546",
+	"evidence_sha256": "67ea2ed410c6cad513d9758a974aabff6724422915da7e759e4c835373d4def3",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "The Six pattern has a price, and she names it herself. As _Obsession_ broke out, strangers began stopping her on the street and her Instagram following passed 2.2 million, Nylon reported. Her response: \"I don't care how much I'm not sleeping, because I don't know if I'll get this opportunity again.\" That is scarcity thinking, the same anticipation of loss behind the deleted streams and the Oscar safety net, now driving overwork.",
+			"problem": "This attributes a self-acknowledged cost to her that the source does not support. I reopened Nylon (S02). The line is upbeat, and she follows it at once with \"It reminds me of being in a SoulCycle class and all of the girls are like, 'Sleep when you're dead.' Barry's Bootcamp and Orangetheory really [prepared me for this].\" She is presenting stamina she trained for, not naming a price. \"She names it herself\" puts the author's frame in her mouth. \"Now driving overwork\" states a causal motive, and a link between three separate events, as fact. The later hedge (\"a common first-breakout mindset\") does not undo the claim that she named the cost.",
+			"acceptance_test": "No sentence says she names or acknowledges a cost of the pattern unless a quoted line of hers does. The SoulCycle/'Sleep when you're dead' context is included or accurately reflected. Any link between the not-sleeping line and the Twitch deletion or Oscar safety net is marked as the author's inference ('this may reflect', 'one reading'). 'Driving overwork' is removed or attributed to a source. If the section heading still promises costs, it shows at least one cost the record documents, such as the deleted streams she says she loved."
+		},
+		{
+			"id": "subject-02",
+			"severity": "minor",
+			"passage": "She acted before it arrived, at real cost: the archive was something she loved and something that had helped pay bills.",
+			"problem": "The central discriminator is stated more strongly than her own account. In the S10 excerpt she says \"I deleted all of them\" and then \"I deleted a lot of them\", and the FAQ correctly says \"most\". The body says \"Then she deleted the archive\" and the ending says she was made to \"erase work she loved\". Both imply a total loss, yet the same section says fans had kept clips. Her financial line (\"it also just helped me out with like financials\") is about streaming, not the saved videos. Nothing shows that deleting the VODs cost her money. This makes a panic she describes lightly look more costly than her record supports.",
+			"acceptance_test": "The body, the ending and the FAQ all use the same scope for the deletion (most or many streams, not the whole archive). The cost is described as losing a record of something she loved. The financial detail is clearly about the streaming work, not the deletion. The Six-versus-Seven argument still holds without the financial-cost wording."
+		},
+		{
+			"id": "subject-03",
+			"severity": "minor",
+			"passage": "Nylon noted that old videos from her streamer channel have resurfaced, as they did for [Timothée Chalamet](/personality-analysis/timothee-chalamet) before her.",
+			"problem": "Her own response in the same Nylon piece is left out. Just before the writer's aside she says: \"It took me a while to find my style online, which is why sometimes when people post old sh*t of mine, I go, 'Oh my God.'\" Placed after Variety's \"my fear was for nothing\", the Nylon citation suggests she felt only relief about the resurfaced clips. Her documented reaction is mixed. It is also partly relevant evidence, because some embarrassment about being taken seriously lasted after the deletion.",
+			"acceptance_test": "Either her Nylon reaction appears next to the Variety relief line with its attribution, or the Nylon resurfacing aside is not placed to suggest she felt only relief. Any quoted Nylon text matches the article exactly, including its asterisk."
+		},
+		{
+			"id": "subject-04",
+			"severity": "minor",
+			"passage": "The accounts differ on who pushed. Both agree her take changed the ending.",
+			"problem": "This credits her with a claim her quoted words do not make. Her only quoted account (S09, per the packet excerpt) is \"last minute we decided to change be like no she's a final girl she wouldn't do that\". That describes a joint decision based on the character's logic, not her take persuading anyone. Only Barker (S16) credits her performance. I could not reopen S09 to check the wider context (YouTube returned IP-block/429 errors).",
+			"acceptance_test": "Either a verified line from S09 or another source in which she credits her take is quoted, or the sentence is changed to something like 'Barker credits her take; she describes a joint call on the day.' No sentence says she agrees with Barker's version without her own words showing it."
+		},
+		{
+			"id": "subject-05",
+			"severity": "minor",
+			"passage": "The star of 2026's biggest horror breakout could not scream.",
+			"problem": "The hook and metadata go beyond her framing. She said \"I didn't know how to scream\" and \"I'm feeling very shy\", which is about technique and comfort, not inability. Later, \"The film she was too scared to start\" suggests she hesitated to take the film. The record shows the opposite: she fought through a bad callback to a third read (\"I'm doing everything that I possibly can\"). The meta description repeats \"couldn't scream\". \"Biggest horror breakout\" is a superlative with no source.",
+			"acceptance_test": "The hook, the description and the persona line stay within her words (didn't know how to scream, too shy to scream in front of people). 'Too scared to start' refers to the scream work, not to taking the film. The superlative is attributed or softened, for example to Nylon's 'this year's breakout film' or the box-office figures already cited."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "The Six reading says what to watch for: whether she can keep taking risks without first building the safe room. On the _Obsession_ set, that room took a schedule, a charades game and a director willing to scream first. Her next roles will show how much of it she now carries on her own.",
+			"problem": "The closing turns the interpretation into a test of whether she can work without other people building her safety, which implies she currently can't. The draft's own record cuts against that. She built her own pact against doubt once her mother's buffer was gone (2021), went aggressive alone at the chemistry read, asked a castmate to slap her harder, and, in the packet's unused S16 line, said \"there's some moments where it's just up to me to make myself comfortable.\" The 'Borrowed certainty' summary (\"hands final judgment to one trusted person\") also generalizes from one director relationship, while the same section shows her refusing to show Johnston her choices and her take changing the ending.",
+			"acceptance_test": "The ending recognizes at least one safety structure she built herself (the 2021 pact or the S16 'up to me to make myself comfortable' line, quoted exactly and attributed). The closing question is framed as open, not as a deficit she must overcome. 'Hands final judgment to one trusted person' is limited to the Barker relationship."
+		},
+		{
+			"id": "subject-07",
+			"severity": "minor",
+			"passage": "Four months later, on _Hot Ones Versus_ with co-star Michael Johnston, she compressed the story into one line: \"The beginning of 'Obsession' was charades, because I was too scared to do shit.\"",
+			"problem": "A profane line in the opening is presented as definitely hers, but the S12 transcript has no speaker labels. The attribution rests on it being a first-person repeat of her Collider story. The Johnston 'freaky Nikki' quote in 'Borrowed certainty' was also attributed from turn order. I could not reopen the video to confirm (YouTube returned IP-block/429 errors). The attribution is probably correct, but the draft does not show that it is an inference.",
+			"acceptance_test": "Before publish, the evidence record notes a visual or audio check of who says the S12 line and the S13 'freaky Nikki' exchange. If that isn't done, the S12 line is removed from the hook, or the prose makes clear the attribution is unconfirmed."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "It is also where the argument meets resistance, because the same woman went skydiving and got her nipples pierced on her 18th birthday, both on the same day.",
+			"problem": "She disclosed this herself, for laughs, on Jimmy Kimmel Live (S14). But the hook uses the intimate body detail as a curiosity device without saying she volunteered it. It then appears again in the Type 7 section, where it is attributed. Unattributed in the opening, it reads as the author revealing something rather than reporting her own joke. 'On her 18th birthday, both on the same day' is also redundant.",
+			"acceptance_test": "Wherever the piercing appears, it is clear on first mention that she told it herself on Kimmel. Alternatively, the hook keeps only the skydive and the piercing stays in the attributed Type 7 section. The redundant 'both on the same day' is removed."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The limits are real. Most of this evidence is her own account, given largely during a four-month press run for a film about a woman who loses control of herself. Promotion rewards a humble, fearless story. The reading below treats her statements as evidence of what she says and does, which is not proof of what she feels.",
+			"reason": "This is the draft's main fairness safeguard. It separates what she said from what she felt, and places the evidence inside its promotional incentives, where the reader can see it rather than in a footer."
+		},
+		{
+			"passage": "That quick turn toward freedom is the kind of reframe Type 7 is known for, and it counts for the alternative. It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"reason": "It labels a hindsight self-report as hindsight and says plainly that the 2023 reaction was unavailable, instead of inventing one."
+		},
+		{
+			"passage": "A Six story would be easier to tell if the moving had hurt. She says it didn't.",
+			"reason": "It takes her account at face value when that account cuts against the thesis. The draft declines to invent a childhood wound."
+		},
+		{
+			"passage": "Toddlers of every type insist on doing it themselves, so the anecdote proves little on its own.",
+			"reason": "It states the limit of a charming origin story instead of treating it as evidence of motive."
+		},
+		{
+			"passage": "Privacy is common to several types and simply sensible for someone who became famous at 25, so it supports the portrait more than the type.",
+			"reason": "It treats her privacy as a reasonable response to fame, not a symptom, which is fair to someone newly famous."
+		}
+	],
+	"assessment": "Overall the draft is fair to the subject. Nearly every characterization is tied to her own dated words. Barker's and her versions of the ending are kept separate. Counterevidence is given real weight. The draft rightly leaves out the sensitive material in the packet: the CBR mental-health attachment line, her 2020 remarks on sexuality, the unconfirmed relationship rumor and the unrelated profits lawsuit. There are no invented scenes, dialogue or wounds. The main problem is in the later interpretive sections. 'What the pattern costs' says she named a cost that the reopened Nylon context shows she framed as gym-class stamina (subject-01, major). The Twitch discriminator slightly overstates the scope and cost of the deletion. The closing frames her future as a test of whether she can take risks without others building her safety, despite self-built structures in the record. Limitation: I reopened Nylon (S02), but YouTube returned IP-block/429 errors to both youtube-transcript-api and yt-dlp, so the video quotes (S09, S10, S12, S13) were checked only against the packet excerpts, not against captions or audio. Contested typing is kept as a risk; I raise no new sensitive-allegation risk, because every intimate detail used is her own public disclosure."
+}

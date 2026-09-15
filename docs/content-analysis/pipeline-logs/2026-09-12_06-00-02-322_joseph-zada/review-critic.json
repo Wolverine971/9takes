@@ -1,0 +1,107 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "f2d9087bff40b60d7105a9c44b45b88ffb4d28ed616db296e80713931a6a08a7",
+	"evidence_sha256": "c35ed25f0d9a051c78a92b6e9068fc9267b77ba155294908eda7311e8e042e36",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": true,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "The first is the win itself. A Nine's steadiness would be expected to absorb good news, yet Zada's most consequential good news made him more afraid.",
+			"problem": "The main discriminator doesn't separate the types. The evidence is a one-word \"Yes\" to Fanning's laughing, leading question, in a friendly retelling 14 months later. The draft itself calls it a joke. What he actually said on the morning, \"Now I have to do this and it's going to be really hard\", is dread of effort and obligation. A Nine facing a huge disruption or a Three afraid of failing on a big stage could say the same thing. The Type 3 section repeats the move (\"Winning made him more afraid, which points to fear of falling short more than a need for validation\") even though fear of falling short is central to Type 3. The same Interview Magazine transcript also has him and his sister jumping up and down and crying together that morning. The type sections never weigh that as adverse evidence.",
+			"acceptance_test": "Two options, and either passes. (a) Replace or supplement the win with a sourced observation that Type 9 and Type 3 would each predict differently, and explain why each fails it. (b) Downgrade the win to supporting evidence in both the Nine and Three sections, and state plainly why dread of a big obligation is not ordinary Nine disruption-aversion or Three fear of failure. Either way, the sister celebration is acknowledged next to the \"more afraid\" reading."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "The fear has a precise address: admired authorities, looking at him. That precision separates it from generic newcomer humility, which it also resembles.",
+			"problem": "\"I was just afraid of how they would perceive me\" is fear of being judged by admired people. That is image and approval territory, the Type 3 core, at least as much as Type 6 security-seeking. The draft counts this precision as Six evidence without testing it against Three. Being afraid of how a celebrated cast sees you is also exactly generic newcomer fear, so naming the target doesn't separate the two. The Type 3 section rebuts Three on credit-taking and hedging but never addresses this quote, which is the Three reading's best support after Lind.",
+			"acceptance_test": "The article names a sourced behaviour where he seeks reliability, guidance or a trustworthy structure rather than approval or a favourable impression, and uses it to separate 6 from 3 on this point. If no such behaviour exists, it says this quote is neutral between 6 and 3 and removes the claim that its precision separates it from newcomer humility."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "It also misses how little credit he takes; he routes his growth to Verso, to Jacobson's search, to his brother and his father.",
+			"problem": "Factual and inference problem in the rebuttal of Type 3. No quote in the draft or the evidence packet has Zada crediting Nina Jacobson or her search. The only Jacobson statement (C27) is her crediting him (\"Jo prepared like crazy\"). \"How little credit he takes\" also ignores self-crediting lines the draft quotes elsewhere: \"I really went all out\", \"I feel like I can go toe to toe with anyone now\" and \"man's got to work\". The evidence file's alternative_case makes the same unsupported Jacobson claim, so it came from research, not drafting.",
+			"acceptance_test": "Either cite a Zada statement crediting Jacobson or the search, or remove Jacobson from the list. The credit-taking argument must also acknowledge the self-crediting lines above, or be restated in weaker terms those lines don't contradict."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "Even so, the move repeats the eight-hour sessions from his teens. When the stakes rose, he gathered his people and turned a solo test into a joint project.",
+			"problem": "This is the strongest behavioural evidence for the Six reading, and the draft reads it as security-seeking without addressing the most obvious alternative: skill. His stated reason for three weeks was \"I had a plan to shoot the scenes properly and edit them.\" The people he recruited are a professional director (his father) and a working actor (his older brother, who he says is \"an actor too\"). For a produced short, they were the most skilled collaborators available to him. In the transcript the flight-home line answers Fanning's \"Did Florence [Pugh] help you with the audition?\", which frames it as whose help he used. The draft raises the industry-family explanation in its first section but drops it here. The opening line \"He had made the process harder on purpose\" also assigns a motive, where his own words describe aiming for quality.",
+			"acceptance_test": "At this passage, the article states the skill and resources explanation (a director father and an actor brother were the best crew for a properly shot and edited tape). It then either names what favours trust over skill (for example, that he describes the value in relational rather than technical terms, with a quote) or lowers the weight this episode carries. \"Harder on purpose\" is reworded to match his stated reason or labelled as inference."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "Across three thresholds, the teenage sessions with Hal, the flight home for the Haymitch tape and Berlin, the same people appear right before the plunge.",
+			"problem": "The count is inflated. By his own account (C05), the teenage sessions started when he was \"helping my older brother with auditions\". They were his brother's thresholds, with Zada as the helper, not people gathering around him before his own plunge. The Berlin case is a weekend trip to Portugal with family who had flown in, which a first real paycheck explains as well as a need for security. Only the flight home fits the pattern as defined, and critic-04 contests that one.",
+			"acceptance_test": "Either the sentence counts only the instances where family gathers before his own high-stakes step, or it recasts the teenage sessions as how he learned to prepare rather than an example of the pattern. Claims of repetition in the surrounding section match the reduced count."
+		},
+		{
+			"id": "critic-06",
+			"severity": "major",
+			"passage": "Its value here is its fit with the rest of the record, where good news keeps arriving as a new way to be found wanting.",
+			"problem": "This generalises from one instance, and the draft quotes a counterexample. Being cast in East of Eden was also major good news, and he told Fanning \"I didn't necessarily feel pressure until I finished the job and watched the film.\" The draft uses that line instead as support for an avoidance sequence: \"What repeats is the sequence: keep the looming authority out of the room while working, then receive its approval afterward.\" That sequence doesn't repeat either. The East of Eden avoidance was a production request he agreed to, and no approval followed. Watching the film ended in \"Oh, shit.\" Only the Harrelson episode has both halves.",
+			"acceptance_test": "The \"good news keeps arriving\" claim is removed, or backed by at least two sourced good-news events that produced fear, with the East of Eden no-pressure line acknowledged as cutting the other way. \"What repeats is the sequence\" is rewritten to reflect one complete instance (Harrelson) and one partial, imposed one (East of Eden)."
+		},
+		{
+			"id": "critic-07",
+			"severity": "major",
+			"passage": "Each is an expected press courtesy on its own. Together they route his growth through people who backed him.",
+			"problem": "The Six case repeatedly concedes an item is ordinary on its own, then claims weight for the group. That only works if the items don't share a confound, and here they all share the one the draft names up front: promotional interview style. Other instances: \"Grabbing readers for an urgent tape is common. The telling part is...\", \"Any 20-year-old living abroad for months gets lonely. What carries weight is...\", \"Any one of these trips is ordinary. Across three thresholds...\", \"'It's a family' is junket boilerplate. The specifics after it are what count.\" The evidence file itself calls C18, C20, C21 and C30 individually worthless for this reason. Adding up items that press style explains still leaves a total that press style explains. The repetition has also become a noticeable writing tic.",
+			"acceptance_test": "For each cluster the article aggregates (credits to backers, company as protection, family at thresholds), it names at least one item that promotional style, age or circumstance does not explain, or it lowers the claimed weight to \"consistent with\" rather than \"routes\" or \"carries weight\". The concede-then-combine construction appears no more than twice in the article."
+		},
+		{
+			"id": "critic-08",
+			"severity": "major",
+			"passage": "The third is that he does not drift.",
+			"problem": "The test for rejecting Type 9 uses a stereotype of the type as passive or lazy. Many Nines work diligently inside a structured job, and keeping character notes during a film shoot is part of the job. The HERO transcript places \"six movies in two days\" on two days off while the crew shot chariot coverage. Sinking comfortably into film on downtime is at least as consistent with Nine comfort-seeking as with watchful preparation. The evidence file's own falsifier (\"going flat, drifting or losing the thread of his own agenda\") has the same problem. As written, the Nine reading cannot pass this test.",
+			"acceptance_test": "Replace the drift test with an observation that a hard-working Nine would be expected to fail. For example: evidence that he pushes back or holds a position against a group or authority, or evidence about how he handles conflict rather than effort. Or state that the notes and film-watching don't discriminate and remove them as the third rebuttal."
+		},
+		{
+			"id": "critic-09",
+			"severity": "major",
+			"passage": "What carries weight is the direction, repeated in two interviews fourteen months apart: company keeps him out of his own head, and he welcomed having it imposed.",
+			"problem": "Factual error in a claim about consistency over time. The two sources are Behind The Blinds (published July 9, 2025, per the page) and HERO (published March 23, 2026, per the page). That is about eight and a half months, not fourteen. The error overstates how widely separated the repetition is, and the evidence file's C15 carries the same wrong span. Relatedly, \"statements that repeat across years and interviewers\" in the limits paragraph describes a record running February 2025 to August 2026, about 18 months. Context also matters: in HERO, the \"family time\" was Mckenna Grace insisting he have dinner with her mother and Iona Bell's mother when he was \"too tired from stunts\".",
+			"acceptance_test": "The span is corrected to about eight months (or the sentence gives both dates), C15 is corrected in the evidence file, and \"across years\" is replaced with the actual span (\"across 18 months\" or similar)."
+		},
+		{
+			"id": "critic-10",
+			"severity": "minor",
+			"passage": "Lind's line comes from the least performative setting in the record, a private call in the middle of the callbacks, and what she saw was appetite",
+			"problem": "Where the quote came from is wrong. Per THR's relay of People, what happened on the private FaceTime call was Zada confiding the shortlist and naming competitors. \"He just gets what he wants\" was Lind's summary to the People interviewer, in a promotional interview, alongside \"He is going to be one of these guys.\" Only the behaviour she describes comes from the private setting. The characterisation does not. Opening paragraph three with \"summed him up this way\" right after the FaceTime detail gives the same wrong impression.",
+			"acceptance_test": "The article says Lind gave the \"He just gets what he wants\" characterisation to People, and that the call itself supplied the shortlist secrecy and the named competitors. Any claim about how unguarded the setting was applies only to what happened on the call."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Nervousness, gratitude and \"the cast became a family\" are the house style of those formats, and a newcomer sharing a cast list with Glenn Close and Ralph Fiennes would produce them whatever his type.",
+			"reason": "States the central confound up front instead of burying it. That is what lets a skeptical reader trust the argument that follows, and it is the standard critic-07 holds the draft to."
+		},
+		{
+			"passage": "They still place the decision on opposite sides, and the second is the more flattering telling. This profile does not choose between them or build a psychological claim on either.",
+			"reason": "Handles two conflicting self-accounts honestly. It notes that one telling is self-serving and refuses to build psychology on either version."
+		},
+		{
+			"passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+			"reason": "A specific, well-sourced insight drawn from his own explanation in Flaunt. It turns counterevidence into observation instead of explaining it away."
+		},
+		{
+			"passage": "If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+			"reason": "A falsifiable, dated test that keeps the article useful for five years and admits a confound against its own evidence."
+		},
+		{
+			"passage": "The stated reticence and the actual openness do not match, and nothing he has said explains how he squares them.",
+			"reason": "Leaves a real contradiction unresolved instead of forcing it into the type argument."
+		}
+	],
+	"assessment": "The draft confronts adverse evidence better than most. It states the promotional-source confound before the argument, gives Type 9 a full section, tests Type 3, and leaves Lind's \"He just gets what he wants\" explicitly unresolved. The weakness is the Six causal story. Its discriminator (critic-01, 02, 08) is either not discriminating or tested against a stereotyped Nine, and its pattern claims are inflated by counting (critic-05, 06), a skipped skill explanation (critic-04) and adding up confounded items (critic-07). There are two factual errors in the argument: the unsupported Jacobson credit (critic-03) and a fourteen-month span that is really about eight and a half (critic-09). Lind's characterisation is also misplaced into the private call (critic-10). Medium confidence is the right ceiling, and if critic-01, 02 and 08 cannot be answered with sourced discriminators, confidence should drop or the article should say the 6/9/3 separation is weak. contested_typing and historical_source_uncertainty stay flagged: the GQ and Swooon primaries are still unopened, and the typing depends on a contested discriminator. Sources opened for this review: Interview Magazine (via reader proxy), Behind The Blinds, HERO (raw HTML, where the speaker label confirms Zada, not Grace, said \"Child actors are just so free, so loose. It's unattainable.\", so the draft's attribution is correct), THR via reader proxy, and Wikipedia pages for Joseph Zada and Hal Cumpston (Hal, born 1999, went to the US for acting work after Bilched, which fits him being the older brother in the age-15 story). I did not open the GQ Australia or Swooon originals."
+}

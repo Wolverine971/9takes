@@ -1,0 +1,31 @@
+I've written the verification file, and it holds the profile at the quality gate. The facts and the editor's fixes all check out; what stops it is the Enneagram argument, which I scored below the required 8.
+
+Output: `docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/verification-repair.json`. Nothing else in the repo was changed; the fetched source copies went to `/tmp`.
+
+**What checked out**
+- **Sources:** I downloaded all 44 sources again. 116 of the 117 quoted passages in the article match the page word for word; the last differs only by a stray space from formatting on the page. Every linked date matches the page's publication date, and the Wikipedia facts (birth date, credits, the Weapons and Whalefall timelines) hold up.
+- **Claims and fixes:** The file and evidence fingerprints match the request, and the automated draft checks report no blockers (4,247 words). All 133 claims appear word for word in the article. I accepted all 52 reviewer and prior-verifier fixes and agreed with all 17 editor decisions on passages reviewers asked to keep. There were no inherited blockers to clear.
+- **Gate result:** Everything passes except the quality scores. The only two blockers are `overall_below_8.5:8.1` and `enneagram_below_8:7.5`.
+
+**Scores**
+
+| Dimension | Score | Why |
+|---|---|---|
+| Evidence | 8.5 | Every quote verified, attribution and dates inline; nearly all sources are promotional interviews |
+| Enneagram | 7.5 | Honest and well tested, but the case for Type 9 over Type 4 is narrow and rests mainly on what's missing from promotional interviews |
+| Originality | 8.5 | Details specific to him: the Pierrot le Fou line on his wall, the gimbal counted as a stunt, the lone holdout through the Weapons recast |
+| Writing | 7.5 | Strong first half; the back half is 1,900 words of ruling on each type, and at 4,247 words it's over the 3,500 target |
+| Durability | 8.5 | All dates absolute and changing facts tracked |
+| Hook | 9 | The director's one complaint is having to hold him back |
+| Discoverability | 8 | The description never mentions the Enneagram, and "The Actor Who Holds On" is vague in search results |
+
+**Three minor fixes (none block release)**
+- **Wolfs audition:** "Only Whalefall, for which he auditioned, was plainly his choice" is misleading. The same IndieWire interview says Wolfs was also "a standard audition."
+- **Missing link:** The Italian Rêve is quoted four times but never linked in the body.
+- **Two slight overstatements:** "urged actors" (he was reflecting on actors, himself included) and "a friend talked Abrams into" Barbarian (he just went along).
+
+**Your call:** More editing won't clear this, because the limit is the public record: no source shows the Type 9 motive directly, and his most personal interview (Coup de Main, 2019) leans Type 4. Your options are:
+- **Park it** as a hold.
+- **Research** long-form, non-promotional interviews with him (podcasts, extended profiles) and rerun. That's the only evidence that could raise confidence or flip the call to Type 4.
+
+To find the acceptance tests for the prior verifier's findings, I opened `repair-findings.json`, which isn't a listed input. It also showed the previous run's scores. The instructions say not to look at old grades, so you should know I saw them. I scored each dimension from the article itself, and the reasons in the file quote the passage behind each score. Also, `baseline-reader.md` was empty, so there were no inherited blockers.

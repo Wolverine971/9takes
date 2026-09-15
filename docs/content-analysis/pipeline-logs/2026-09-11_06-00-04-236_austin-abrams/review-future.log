@@ -1,0 +1,19 @@
+The five-year review of the Austin Abrams draft is written to `review-future.json`. It passes schema validation, the role and both hashes match the request, and all 13 quoted passages (8 findings, 5 protected) appear word for word in the draft. I didn't change any other file or publish anything.
+
+**Main result:** the Type 9 argument still holds with all the 2026 material removed. The 2017, 2019 and 2024 "I said yes for the people" answers and the 2023 *Weapons* holdout carry it on their own.
+
+**Two major findings:**
+- **The ending is a "test" that can't test anything.** It presents the October 16, 2026 *Whalefall* release as "the purest test of the pattern so far." But he chose that film at an audition, "way before *Weapons* had come out" (I reopened the Screen Rant interview to confirm). A release date shows screen time, not why he chose the project. His hardest documented commitment (95%+ of the stunts) came on a project he entered by audition, with no admired director or co-star behind it. That point could count against the thesis, and the draft never mentions the audition.
+- **"He has never had social media" isn't dated or tracked.** It's written in the present tense in the body, an FAQ and the Type 3 section. The latest direct source is the September 2025 Hunger interview, and the evidence record marks it stable with no reminder to recheck. A web search on 2026-09-11 turned up only fan and namesake accounts ([Capital FM](https://www.capitalfm.com/news/tv-film/austin-abrams/instagram/), [Wikipedia](https://en.wikipedia.org/wiki/Austin_Abrams)), which suggests but doesn't confirm he's still off it.
+
+**Six minor findings:**
+- **Opening contradiction:** "The man who finds an interview frightening" rests on something he said in 2019 at 22, set against 2026 praise from his director, both in the present tense. The meta description does the same.
+- **Undated wording:** "a recent dubbing session" needs a date; THR's own page says "a couple of weeks ago" in a June 2026 interview.
+- **"Nine years":** the span is counted from 2026 and will go wrong when a refresh adds interviews.
+- **Superlative:** "the most revealing thing he has said" crowns a September 2026 press-tour quote.
+- **Euphoria line:** it's sourced to "Wikipedia reports", and his exit is left unexamined even though the draft's own tie-breaker between Type 9 and Type 4 names exactly that kind of break.
+- **No recheck prompt on the type call:** the typing is contested and held at medium confidence, but the claim has no reminder to retest it when new long interviews appear.
+
+I kept the contested-typing risk flag. The similarity check found no meaningful reuse from other profiles.
+
+For the THR *Whalefall* interview, the web fetch hit a paywall redirect, so I pulled the page directly. That confirmed the dubbing-session wording and found nothing on why he took the part.

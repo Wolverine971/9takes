@@ -212,8 +212,47 @@ async function generateFamousTypes() {
 		// Verify
 		const stats = await fs.stat(outputPath);
 		console.log(`📄 File size: ${(stats.size / 1024).toFixed(2)} KB`);
+
+		await writeSimilaritySnapshot(people);
 	} catch (error) {
 		console.error('❌ Error generating famousTypes.ts:', error);
+		process.exit(1);
+	}
+}
+
+// Personality pages rank related people from this snapshot while the live
+// reference-set query refreshes, so a slow cold-start query never blanks the rail.
+async function writeSimilaritySnapshot(people) {
+	try {
+		const rows = people
+			.filter((person) => person.published === true && person.person)
+			.map((person) => ({
+				person: person.person,
+				enneagram: person.enneagram,
+				lastmod: person.lastmod ?? null,
+				date: person.date ?? null,
+				type: person.type ?? null,
+				published: true,
+				// Ranking only reads the overall grade; drop grader notes from the bundle.
+				content_quality:
+					person.content_quality?.overall !== undefined
+						? { overall: person.content_quality.overall }
+						: null
+			}));
+		const snapshotPath = path.join(
+			__dirname,
+			'..',
+			'src',
+			'lib',
+			'generated',
+			'personalitySimilaritySnapshot.json'
+		);
+		const content = `[\n${rows.map((row) => `\t${JSON.stringify(row)}`).join(',\n')}\n]\n`;
+
+		await fs.writeFile(snapshotPath, content, 'utf-8');
+		console.log(`✅ personalitySimilaritySnapshot.json generated (${rows.length} published rows)`);
+	} catch (error) {
+		console.error('❌ Error generating personalitySimilaritySnapshot.json:', error);
 		process.exit(1);
 	}
 }

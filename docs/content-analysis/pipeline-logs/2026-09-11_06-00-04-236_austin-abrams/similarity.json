@@ -1,0 +1,197 @@
+{
+	"target": {
+		"person": "austin-abrams",
+		"type": "9",
+		"units": 8,
+		"file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/draft.md"
+	},
+	"comparison_set": [
+		{
+			"person": "Nate-Bargatze",
+			"date": "2026-09-06",
+			"units": 52
+		},
+		{
+			"person": "Victoria-Justice",
+			"date": "2026-08-19",
+			"units": 34
+		},
+		{
+			"person": "Ibai-Llanos",
+			"date": "2026-08-15",
+			"units": 39
+		},
+		{
+			"person": "caseoh",
+			"date": "2026-08-15",
+			"units": 32
+		},
+		{
+			"person": "penguinz0",
+			"date": "2026-08-01",
+			"units": 21
+		},
+		{
+			"person": "Jason-Sudeikis",
+			"date": "2026-07-30",
+			"units": 24
+		},
+		{
+			"person": "britney-spears",
+			"date": "2026-07-29",
+			"units": 32
+		},
+		{
+			"person": "Mira-Murati",
+			"date": "2026-07-28",
+			"units": 30
+		}
+	],
+	"n_requested": 8,
+	"noise_floor": {
+		"pairs_compared": 2112,
+		"median": 0,
+		"p90": 0,
+		"p99": 0.008,
+		"max": 0.046
+	},
+	"trip_threshold": 0.04,
+	"tripped": false,
+	"trip_pairs": [],
+	"per_draft_max": [
+		{
+			"person": "Nate-Bargatze",
+			"date": "2026-09-06",
+			"units": 52,
+			"maxScore": 0.046
+		},
+		{
+			"person": "penguinz0",
+			"date": "2026-08-01",
+			"units": 21,
+			"maxScore": 0.017
+		},
+		{
+			"person": "Jason-Sudeikis",
+			"date": "2026-07-30",
+			"units": 24,
+			"maxScore": 0.017
+		},
+		{
+			"person": "Victoria-Justice",
+			"date": "2026-08-19",
+			"units": 34,
+			"maxScore": 0.013
+		},
+		{
+			"person": "britney-spears",
+			"date": "2026-07-29",
+			"units": 32,
+			"maxScore": 0.011
+		},
+		{
+			"person": "Mira-Murati",
+			"date": "2026-07-28",
+			"units": 30,
+			"maxScore": 0.011
+		},
+		{
+			"person": "Ibai-Llanos",
+			"date": "2026-08-15",
+			"units": 39,
+			"maxScore": 0.01
+		},
+		{
+			"person": "caseoh",
+			"date": "2026-08-15",
+			"units": 32,
+			"maxScore": 0.009
+		}
+	],
+	"top_pairs": [
+		{
+			"score": 0.046,
+			"other_person": "Nate-Bargatze",
+			"shared_phrases": [],
+			"target": "[diagnosis] This profile treats his statements as evidence of what he says and does",
+			"other": "[counter-typing] If he starts defending the park in the language of what he wants rather than what he owes"
+		},
+		{
+			"score": 0.034,
+			"other_person": "Nate-Bargatze",
+			"shared_phrases": [],
+			"target": "[diagnosis] is the strongest alternative and explains his privacy and melancholy well.",
+			"other": "[counter-typing] The strongest discriminating evidence is the Emmys check"
+		},
+		{
+			"score": 0.024,
+			"other_person": "Nate-Bargatze",
+			"shared_phrases": [],
+			"target": "[diagnosis] much of it given while promoting a film",
+			"other": "[counter-typing] The Guinness record is the sharpest version of it"
+		},
+		{
+			"score": 0.023,
+			"other_person": "Nate-Bargatze",
+			"shared_phrases": [],
+			"target": "[diagnosis] is the strongest alternative and explains his privacy and melancholy well.",
+			"other": "[counter-typing] The strongest case against is Type 3 running a low-status image strategy."
+		},
+		{
+			"score": 0.021,
+			"other_person": "Nate-Bargatze",
+			"shared_phrases": [],
+			"target": "[diagnosis] Nearly all of this evidence is his own account or a director's praise",
+			"other": "[counter-typing] The strongest discriminating evidence is the Emmys check"
+		},
+		{
+			"score": 0.017,
+			"other_person": "penguinz0",
+			"shared_phrases": ["thi profile"],
+			"target": "[diagnosis] This profile treats his statements as evidence of what he says and does",
+			"other": "[diagnosis] His summary of the biggest voluntary earnings reveal in streaming history is the quote this profile opened on"
+		},
+		{
+			"score": 0.017,
+			"other_person": "Jason-Sudeikis",
+			"shared_phrases": [],
+			"target": "[diagnosis] and when asked about himself he stresses how alike people are.",
+			"other": "[diagnosis] Watch how Sudeikis talks about himself and the pattern is hard to miss."
+		},
+		{
+			"score": 0.017,
+			"other_person": "Nate-Bargatze",
+			"shared_phrases": [],
+			"target": "[diagnosis] Nearly all of this evidence is his own account or a director's praise",
+			"other": "[counter-typing] The best Six evidence is the exhaustion he described to Marchese"
+		},
+		{
+			"score": 0.015,
+			"other_person": "penguinz0",
+			"shared_phrases": [],
+			"target": "[diagnosis] and when asked about himself he stresses how alike people are.",
+			"other": "[diagnosis] And when other streamers worried his shutdown would shame the profession into following him"
+		},
+		{
+			"score": 0.013,
+			"other_person": "Victoria-Justice",
+			"shared_phrases": [],
+			"target": "[diagnosis] This profile treats his statements as evidence of what he says and does",
+			"other": "[counter-typing] Justice deferred to the label and to Schneider for years with no evidence of that probing skepticism."
+		},
+		{
+			"score": 0.011,
+			"other_person": "britney-spears",
+			"shared_phrases": [],
+			"target": "[diagnosis] Acting training supplies much of his vocabulary",
+			"other": "[diagnosis] Her own words supply the fear underneath it"
+		},
+		{
+			"score": 0.011,
+			"other_person": "Mira-Murati",
+			"shared_phrases": [],
+			"target": "[diagnosis] Nearly all of this evidence is his own account or a director's praise",
+			"other": "[diagnosis] The words at the top of this page come from her sworn testimony about the weekend OpenAI's board fired Sam Altman"
+		}
+	]
+}

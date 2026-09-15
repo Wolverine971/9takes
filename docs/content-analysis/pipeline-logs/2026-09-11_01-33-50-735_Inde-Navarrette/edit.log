@@ -1,0 +1,20 @@
+The edit stage for Inde Navarrette is finished. I wrote `edit.md`, `evidence-edit.json` and `resolution-edit.json`, and all three pass the contract's own checks: no draft blockers, every claim passage matches the article, and every one of the 47 review findings and 21 protected passages has a recorded decision. Nothing was published, and I changed no other repo files (I used one throwaway script in `/tmp`).
+
+**What changed for readers**
+- **Type 6 stays, at medium confidence.** I dropped the "counterphobic" label everywhere. Most of her Six-like evidence is hedging (safety nets, trusted guides, a pact against doubt), and her daring acts like the skydive fit Type 7 at least as well.
+- **Type 3 is now a live second alternative, with its own section.** Its case uses her "take me seriously," "prove" and "extremely validating" lines. The counter-case rests on evidence from before the press run: in 2021 she named doubt as the enemy, and in 2023 she wouldn't treat James Gunn's public backing of her show as settled. The type answer and a new FAQ now name Type 3.
+- **Five overstatements fixed after checking transcripts and articles:**
+  - Only Barker, the writer-director, says her performance changed the ending. She describes a same-day call about the character.
+  - She deleted "a lot of" her streams, not all of them. The cost was losing something she loved, not income.
+  - The not-sleeping quote was followed by a SoulCycle "sleep when you're dead" joke. It was hustle, not a cost she named.
+  - The two lessons she credits to her mother pull in opposite directions; the draft had presented them as one rule.
+  - The unsourced "2026's biggest horror breakout" line is gone.
+- **Added context for new readers:** what *Obsession* is about, when it was shot and released, and how she got the role. She told Cosmopolitan that Capstone, which funded the film, already wanted her after she made *Trap House* with them.
+
+**Worth knowing**
+- **Length:** the article is 4,373 words, under the 4,500 hard limit but above the standard's roughly 3,500 target. The reviewers' fixes added real material and I cut elsewhere to make room. There's little slack if the verification stage asks for additions.
+- **One quote held back:** Complex News reportedly has her saying "Making friends was always really difficult for me" about the childhood moves. YouTube blocked the video from this machine, so the quote stays out until someone checks it. It's logged as a research task.
+- **Audio still unchecked:** video quotes were checked against auto-captions only. I trimmed filler words ("um", false starts) with marked ellipses, and every trimmed line is listed for an audio spot-check before publish.
+- **Dated follow-ups:** the closing question now has review triggers tied to her SNL hosting date (2026-10-31) and the X-Men release (reported for 2028-05-05). The box-office figure is set to be re-checked on 2027-01-15.
+
+The next step is the separate verification stage.

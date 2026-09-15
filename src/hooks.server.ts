@@ -37,6 +37,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 		return probeResponse;
 	}
 
+	const retypedImageResponse = await createRetypedPersonalityImageResponse(event.url.pathname);
+	if (retypedImageResponse) {
+		return retypedImageResponse;
+	}
+
 	event.locals.supabase = createServerClient<Database>(
 		PUBLIC_SUPABASE_URL,
 		PUBLIC_SUPABASE_PUBLISHABLE_KEY,
@@ -361,6 +366,28 @@ function createSensitiveProbeResponse(pathname: string): Response | null {
 	applySecurityHeaders(headers);
 
 	return new Response('Not found', { status: 404, headers });
+}
+
+async function createRetypedPersonalityImageResponse(pathname: string): Promise<Response | null> {
+	if (!pathname.startsWith('/types/')) {
+		return null;
+	}
+
+	// Existing portraits are served statically, so only missed image requests get
+	// here. Load the people lookup lazily to keep it off every other request.
+	const { getRetypedPersonalityImagePath } = await import('$lib/server/personalityImageRedirect');
+	const location = getRetypedPersonalityImagePath(pathname);
+	if (!location) {
+		return null;
+	}
+
+	const headers = new Headers({
+		location,
+		'Cache-Control': 'public, max-age=86400'
+	});
+	applySecurityHeaders(headers);
+
+	return new Response(null, { status: 308, headers });
 }
 
 function createContentGuardResponse({

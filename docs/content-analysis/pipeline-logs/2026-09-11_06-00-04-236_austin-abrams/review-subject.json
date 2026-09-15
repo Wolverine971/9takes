@@ -1,0 +1,79 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "3b7c006f101ebfdec8500bde8a7f1f166d4f61e6cec077ee7d44162acf7c8101",
+	"evidence_sha256": "f61062887b9f847f5b666bbd648d9685af83c0578163da32c5d23567e5d00721",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "On _Resident Evil_, with heavy bodies falling around him, it was \"a little bit terrifying,\" he said, and his concern was the shot: he did not want to ruin a take \"because it takes so long to reset.\"",
+			"problem": "The quote is trimmed so that it supports the claim that he disregards his own safety. The Dread Central original (S32, reopened 2026-09-11) reads: \"it was a little bit terrifying because these super heavy things are falling and you're really hoping you don't slip and stuff. But I was just like, I don't want to fuck up the shot, too, because it takes so long to reset.\" He then describes following a set path \"so that things would be close, but so it wouldn't actually happen.\" He voices two concerns, and the word \"too\" joins them. The draft keeps only the shot. That trimmed version then supports the interpretation two paragraphs up: \"Once he has merged with a project, his own safety and image drop out of view.\" The Whalefall evidence carries the same slant. THR (S29) presents Duffield's \"you'll die\" line as said \"in admiration\" in answer to \"Was he a good sport?\", and in the same answer Duffield says \"Austin never got hurt\" and credits stunt coordinator Shauna Duggins. He also counts sitting still on a gimbal inside the whale's stomach as a stunt, which is context for \"95 percent-plus\". The article makes a claim about a real person's disregard for his own safety that rests on a trimmed quote and a director's hyperbole.",
+			"acceptance_test": "The Resident Evil sentence keeps both concerns (the fear of slipping and the shot, joined by \"too\") or paraphrases both faithfully. The sentence \"his own safety and image drop out of view\" is removed, or rewritten as an appetite for physical realism inside supervised stunt work, with no claim that he ignores his safety. The 95 percent figure is placed next to Duffield's note that it includes gimbal work and that Abrams never got hurt. Claims C34 and C88 in the evidence packet are updated to match."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "That last sentence is the most revealing thing he has said about his choices. His enthusiasm is kindled by someone else's.",
+			"problem": "The draft states a general fact about his motivation from a single junket line about the director sitting beside him, and it leaves out his most direct self-account of how he chooses roles. Hunger 2025 (S08, reopened) asked what makes him think \"I need to play this character\". He said: \"Sometimes you just feel something inside. Maybe it's excitement, maybe you feel scared, or maybe you start to imagine what it could be and it lights you up... it's just that feeling of 'I have to do this. I can't let this go. I'll do whatever I need to make it happen'. With Weapons, I definitely felt that. I really love the director, and the character had so many different possibilities to explore. That combination made it one of those projects I knew I couldn't pass up.\" In the same interview he added that he chooses \"what feels right in the moment\". To THR (S09) he said, \"I only want to work on things that I want to work on.\" In his own words, the pull comes from inside and the director and character count together. The omission also makes a later sentence false by silence: \"On the Four reading, _Weapons_ would more likely come with an account of what the part meant to him.\" He gave exactly that account (\"the character had so many different possibilities to explore\").",
+			"acceptance_test": "The \"kindled\" sentence is labeled as inference (for example \"this suggests\") and limited to the Cregger/Resident Evil quote. The Hunger role-choice answer, including the inner \"I have to do this\" pull and the director-plus-character combination, and the THR \"I only want to work on things that I want to work on\" line appear in \"Saying yes to people\" or \"The one who stayed\". The Type 4 discriminator sentence about Weapons is revised or cut to reflect that he did describe what the character offered. New claim entries are added for these passages, and the type_hypothesis discriminator is re-checked against them."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"problem": "This builds a psychological discriminator from a light anecdote and ignores the rest of the same answer. In Coup de Main (S02, reopened) the Facebook story is laughed off (\"I didn't know what to talk about. <laughs>\"). \"Nothing felt important enough to say and put out for a bunch of people to read\" describes his bar for broadcasting, not an empty inner life. The same answer goes straight on to his adult reason: \"I'm not very interested in showing people my life... which feels somewhat frightening.\" That is the guarding-from-display reason the draft says he did not give. The draft then generalizes (\"That self-minimizing note returns whenever he is asked about himself\") and adds a demeaning summary: \"Add the 13-year-old with nothing important enough to say and the man who feels _Wolfs_ wasn't him, and the self-portrait is modest and interchangeable.\" In context (Herald-Tribune, S12, reopened) the Wolfs line is gratitude and disbelief at working with actors he watched growing up: \"sometimes I'll think 'I can't really believe I did that'... It was a super special time that I'm very grateful that I got to have, even though sometimes it doesn't feel like it was me when I look back at it.\" It is not self-erasure. \"Interchangeable\" is the author's verdict on a real person's sense of himself and has no source.",
+			"acceptance_test": "The contrast \"Abrams described having too little to say\" is removed, or revised to acknowledge that the same answer includes not wanting to show his life and finding self-disclosure somewhat frightening. \"Whenever he is asked about himself\" becomes a claim limited to the cited instances. The Wolfs line is presented with its disbelief/gratitude context and keeps \"sometimes\". \"Interchangeable\" is removed. The self-minimizing leg of the type_hypothesis discriminator and claim C52 no longer rest on these two lines as currently read."
+		},
+		{
+			"id": "subject-04",
+			"severity": "major",
+			"passage": "The Nine reading says what to watch: whether he ever commits this hard to a project with no admired person at its center.",
+			"problem": "The closing presents as a future test something the article's own evidence already bears on. The hook's central evidence is how hard he committed to _Whalefall_. Duffield (Screen Rant, S28, reopened) says Abrams \"auditioned for the movie, and it was way before Weapons had come out\", so he went after this role through an ordinary audition. No opened source says he chose it for an admired person, and he describes it by the project itself: \"such a wild and original project\" (Hunger, S08). Framed this way, the subject's future behavior stands as a pending test of the thesis, and the reader is not told that his biggest commitment so far does not visibly fit the people-following pattern.",
+			"acceptance_test": "The article states that he auditioned for Whalefall before Weapons was released. It says his reason for taking the role is not on record, or sources it. It then either treats his Whalefall commitment as evidence that complicates the people-following pattern, or gives sourced grounds that an admired person (Duffield or Brolin) was at its center. The closing is rewritten so the article's own hook does not already answer its test."
+		},
+		{
+			"id": "subject-05",
+			"severity": "minor",
+			"passage": "His parents took longer to come around.",
+			"problem": "This misstates a private person's position. Coup de Main (S02, reopened) says both parents first found the idea \"a bit preposterous\", but \"my mom was always mostly on my side, whereas my dad took a little more time. But I wouldn't be anywhere really, without my mom.\" The lead sentence has both parents coming around slowly, and the quote that follows contradicts it for his mother.",
+			"acceptance_test": "The sentence separates the parents (for example, that his father took longer to come around while his mother was mostly on his side) and agrees with the quote that follows."
+		},
+		{
+			"id": "subject-06",
+			"severity": "minor",
+			"passage": "Austin Abrams says talking about himself feels frightening, yet a director had to stop him doing stunts that could kill him.",
+			"problem": "The metadata and hook present a single 2019 remark, made at 22, as a current trait, and they strengthen it. He said \"somewhat frightening\", and he has given many long interviews since. The description (\"says\"), the hook (\"The man who finds an interview frightening\"), the persona_title (\"The Shy Actor His Director Has to Hold Back\") and the exposure puzzle (\"A man who says talking about himself feels frightening keeps choosing the most physically exposed work available\") all use it in the present tense and drop \"somewhat\". The stunt clause turns Duffield's admiring hyperbole into established fact, and the description is what readers see in search, cut off from the body's caveats. \"Keeps choosing the most physically exposed work available\" also credits him with costume and script decisions the record does not show he made.",
+			"acceptance_test": "The description and hook date the remark (for example \"said in 2019\") or restore \"somewhat\". The stunt clause is attributed to Duffield rather than stated as fact. The exposure sentence says the roles he took involved exposure, not that he chooses \"the most physically exposed work available\", unless a source shows the choice was his. Claims C54, C59, C90 and C92 in the evidence packet are updated to match."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The Hollywood Reporter called it a \"loyal gesture\" and described him as willing to wait it out rather than pursue other work. That framing is the reporter's.",
+			"reason": "A model of separating a reporter's flattering framing from the subject's own words. It checks against THR (S09): the loyalty wording is the journalist's, and Abrams says only \"I just wanted to do Weapons.\""
+		},
+		{
+			"passage": "It was a brief, light answer, and it supports no story about a childhood wound.",
+			"reason": "Explicitly declines to invent a formative wound from thin family material. This is the fairness line the standard asks for, and it should survive any repair of the parents sentence."
+		},
+		{
+			"passage": "That was an attitude stated at 22, and no source documents a role he lost.",
+			"reason": "Keeps a stated attitude apart from a documented cost. Readers are not led to believe he paid a career price the record does not show."
+		},
+		{
+			"passage": "Directors praise every lead's commitment, and Duffield gave these interviews while launching his trailer, so this is one enthusiastic witness in three outlets.",
+			"reason": "Counts witnesses honestly instead of treating syndicated or repeated director praise as corroboration. This is the right frame to keep while subject-01 is fixed."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem.",
+			"reason": "The author discounts their own best evidence in the open. It checks against Hunger (S08) and THR (S09), where both lines answer questions about playing James."
+		}
+	],
+	"assessment": "Fairness proxy review; I do not speak for Abrams. The draft makes no allegations and does not accuse him of wrongdoing. It is careful in most places: it separates reporter framing from his words, flags promotional context, declines to invent a childhood wound, and gives the Type 4 case real space. The fairness problems cluster where evidence has been trimmed or left out in ways that favor the Nine thesis. (1) A Resident Evil quote loses his stated fear of slipping and then supports the claim that his safety \"drops out of view\". (2) His most direct account of how he picks roles, an inner \"I have to do this\" pull plus director and character together (Hunger 2025), is omitted, while one junket line becomes the general claim that his enthusiasm is kindled by others. (3) A laughed-off anecdote about being 13 and a line of disbelief about Wolfs become a \"modest and interchangeable\" self-portrait. (4) The closing frames Whalefall as a future test, although the article's own hook shows he already committed to it at full intensity after winning the role by audition. Two smaller items: the parents sentence and the present-tense \"frightening\" in the metadata. Sources reopened as raw HTML on 2026-09-11 for this review: S02 Coup de Main, S08 Hunger, S09 THR Weapons, S12 Herald-Tribune, S28 Screen Rant Whalefall, S29 THR Whalefall, S32 Dread Central. Every quote I checked exists as printed. The issues are context and selection, not fabrication. Typing is contested (popular sites say Type 4), and subject-02 and subject-04 weaken the Nine discriminator, so the expanded jury is warranted and the stated medium confidence should be re-examined after the fixes."
+}

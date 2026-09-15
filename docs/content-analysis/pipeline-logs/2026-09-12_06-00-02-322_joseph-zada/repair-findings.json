@@ -1,0 +1,36 @@
+{
+	"eligible": false,
+	"blockers": [
+		"verification:revise",
+		"verification:coverage_complete",
+		"verification:metadata_consistent",
+		"unresolved:verify-01:Factual error in the hook's orientation, repeated in the ending (\"As of September 2026, his released leads were _Invisible Boys_... and _We Were Liars_\"). S15, which C38 and C85 cite, says \"In 2023, he played the lead role of Dan in the crime documentary film The Speedway Murders\". The film's Wikipedia page (opened 2026-09-13) bills Joseph Cumpston first, as Dan, gives an October 20, 2023 premiere, and says it was released in select Australian and American cinemas and on streaming on June 21, 2024. His own statement to Grace supports only a narrower claim: \"I'd had small roles, but definitely not a lead role in a series.\" The editor introduced this sentence to satisfy unfamiliar-U03, so the orientation a new reader relies on is wrong.",
+		"unresolved:verify-02:The Swooon original (S19) is readable: fetched in full through a reader proxy on 2026-09-13, published 2025-06-11. It words this passage differently from CinemaBlend's relay that the article quotes: \"They put me through the wringer because [the role is] very important\", then \"go through that process as well, not just to learn about the character, but to meet all the people I [will be] working with\", and separately, introduced \"Looking ahead\", \"I feel comfortable. I'm excited and I'm nervous, but it is very exciting.\" The link the article quotes, meeting the people \"and feel comfortable\" as a purpose of the auditions, appears only in the relay. This passage is one of the dated remedy statements in the Six-versus-Nine discriminator (C67 and the type_hypothesis discriminator), and the article's stated limit (\"whose original could not be opened\") is no longer true. The meeting-the-people purpose survives, so the thesis does not fall, but a load-bearing quotation now differs from its primary.",
+		"unverified_claim:C38",
+		"unverified_claim:C85",
+		"unverified_source:S15",
+		"unverified_source:S18",
+		"unverified_source:S19",
+		"unresolved_review:unfamiliar-U03",
+		"unresolved_review:future-01",
+		"overall_below_8.5:7.9",
+		"evidence_below_8:7.5",
+		"enneagram_below_8:7.5"
+	],
+	"quality": {
+		"evidence": 7.5,
+		"enneagram": 7.5,
+		"originality": 8.5,
+		"writing": 8,
+		"durability": 8.5,
+		"hook": 8,
+		"discoverability": 7.5,
+		"overall": 7.9,
+		"letter": "C",
+		"rubric_version": 3,
+		"graded_at": "2026-09-13",
+		"caps_applied": [],
+		"needs_review": true,
+		"content_sha256": "f0e9c75e7eaf11164ee65ffba12785717d54bd36705884a08964cbcb5d3af51d"
+	}
+}

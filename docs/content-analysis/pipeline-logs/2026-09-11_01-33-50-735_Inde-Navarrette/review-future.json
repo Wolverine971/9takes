@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "62f36e23d1362e3dfa681b8e616de4c577f719e4dafd5d763f562b3d09ce0546",
+	"evidence_sha256": "67ea2ed410c6cad513d9758a974aabff6724422915da7e759e4c835373d4def3",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "future-1",
+			"severity": "major",
+			"passage": "The star of 2026's biggest horror breakout could not scream.",
+			"problem": "The first sentence depends on a ranking that has no source, isn't in the claim inventory and isn't settled yet. At the 2026-09-10 accuracy check, the October to December horror window (Halloween is the genre's peak) had not played out, so '2026's biggest' could become false within months of publication. The next paragraph already sets the film's scale with dated, sourced figures, so the superlative adds risk and no evidence. This matches the standard's durability-6 anchor: a hook that depends on 'this year's' status.",
+			"acceptance_test": "Either (a) the hook drops the superlative and uses scale the article already sources (for example, a horror film reportedly made for $750,000 that passed $500 million worldwide by September 9, 2026), or (b) evidence-edit.json adds a claim whose passage matches the sentence exactly. That claim cites an opened source ranking Obsession against 2026 horror releases as of a stated date, is marked time_sensitive, and has a dated review_trigger after the 2026 calendar-year box office closes (for example, re-check on or after 2027-01-15). Either way, a reader in 2031 cannot name a 2026 horror film that disproves the first sentence."
+		},
+		{
+			"id": "future-2",
+			"severity": "major",
+			"passage": "Her next roles will show how much of it she now carries on her own.",
+			"problem": "The ending leaves the article's key open question to future evidence, but the evidence record has no unresolved claim or review_trigger for it. Only C37 (box office) is tracked. The tests are already dated in the record: the SNL hosting booking on 2026-10-31 (S26) and the Rogue casting in an X-Men film reported for 2028-05-05 (S24), whose press will produce new long-form interviews. The thesis is medium confidence, and its central discriminator (C15) rests on one retrospective podcast answer (S10), checked only against auto-captions. Without a trigger, the article could keep ending on a question that was answered years earlier, and no maintainer is prompted to re-test the type. Keeping X-Men and SNL out of the body is defensible. Keeping them out of the maintenance record is not.",
+			"acceptance_test": "evidence-edit.json has at least one claim whose passage is this closing sentence (or the preceding 'what to watch for' sentence), with durability 'unresolved'. Its review_trigger lists concrete dated checks: after the 2026-10-31 SNL episode and its press; at the X-Men press cycle and release (reported for 2028-05-05); whenever she retells the Twitch deletion (C15); and when a long-form interview such as S33 or S34 becomes retrievable. The trigger also says what would count: public risks taken without a trusted guide or safe container would weaken or complicate the Six reading, and a retelling of the deletion with a different motive would require re-testing the discriminator. The body text can stay as it is."
+		},
+		{
+			"id": "future-3",
+			"severity": "minor",
+			"passage": "Type 7 is the serious alternative. She has not named her type.",
+			"problem": "This is an undated present-tense status claim, repeated in the first FAQ ('She has not publicly named a type.'), and neither version is in the claim inventory. She is mid-press-run and fan sites already type her (S30, S31). If she names a type in an interview, both the type answer and the FAQ become wrong with nothing to flag it. The type-answer paragraph is 57 words, so simply adding 'as of September 2026' would break the 60-word cap.",
+			"acceptance_test": "Both the body sentence and the FAQ line are either dated (for example, 'As of September 2026, she has not publicly named a type') or removed. The type-answer paragraph stays at 60 words or fewer, by trimming elsewhere (such as 'serious') or by moving the status line into the next paragraph. A claim records the status with durability time_sensitive and a review_trigger such as 'at each refresh, search interviews for Navarrette naming an Enneagram type.'"
+		},
+		{
+			"id": "future-4",
+			"severity": "minor",
+			"passage": "The wanting is real, and the net goes up before any nomination exists.",
+			"problem": "The sentence is in the narrative present, and its timing only means something relative to an awards season that ends in early 2027. Once nominations for 2026 films are announced (expected January 2027), readers can't tell whether she was nominated, and the article skips a natural test of its claim: how she talked once the outcome was real. C25 is marked stable and has no trigger.",
+			"acceptance_test": "The sentence anchors its timing to a date (for example, 'in July 2026, months before nominations') so it reads correctly whatever the outcome. C25, or a new claim, gets a review_trigger to check the awards outcome after nominations for 2026 films are announced. At that check, the maintainer notes any public response that tests the safety-net pattern and draws no inference from the result alone."
+		},
+		{
+			"id": "future-5",
+			"severity": "minor",
+			"passage": "Most of this evidence is her own account, given largely during a four-month press run for a film about a woman who loses control of herself.",
+			"problem": "The article's main limitation statement uses a relative window with no absolute dates, and the press run is still going (SNL, awards season, X-Men), so in 2031 'a four-month press run' won't identify which months. The same problem appears in 'What the pattern costs': in 'now driving overwork', 'now' means July 2026 but will read as the present.",
+			"acceptance_test": "The limitation names the window in absolute terms (for example, 'interviews given between May and September 2026'). 'now driving overwork' becomes a dated phrase (for example, 'driving overwork by July 2026'). No author-prose 'now', 'currently' or 'this year' that refers to 2026 remains undated."
+		},
+		{
+			"id": "future-6",
+			"severity": "minor",
+			"passage": "Then she deleted the archive.",
+			"problem": "The central discriminator episode has no absolute date. The article dates only when she told Variety about it (July 31, 2026), and the drought around it ('After wrapping _Obsession_, Navarrette went about a year and a half without another acting job.') is also undated in the body. C15 and C64 carry no date bounds. A future reader can't place the deletion relative to the film's September 2025 TIFF premiere or its May 2026 release, which matters to the framing 'The bad outcome was hypothetical. She acted before it arrived.' A later retelling that gives a different date would also be hard to reconcile.",
+			"acceptance_test": "The body either gives whatever bounds the record supports (for example, she has said she was 23 when Obsession was filmed (S14), and the deletion came before her July 31, 2026 Variety interview) or says plainly that the date of the deletion is not public. C15 and C64 record those bounds. The article adds no precision the sources don't support."
+		},
+		{
+			"id": "future-7",
+			"severity": "minor",
+			"passage": "The film she was too scared to start was made for a reported $750,000",
+			"problem": "C50 is marked 'stable' even though the record already has a conflicting figure: The Numbers lists a $1,000,000 production budget (S27). Budgets for surprise hits are often revised in later reporting, so this figure is unresolved, and readers aren't told the sources differ. C37's trigger ('when the theatrical run ends') has no date or checkable condition, so in practice it will never fire.",
+			"acceptance_test": "C50's durability becomes 'unresolved' (or time_sensitive), with a review_trigger to reconcile the budget if later reporting, court filings or studio statements give a different figure. The body either keeps the NBC News attribution and gives the range (for example, 'reported at $750,000 to $1 million'), or keeps the single attributed figure and records that decision in the resolution. C37's trigger names a concrete date or event (for example, re-check on 2027-01-15 or at home-video release, whichever comes first), and the as-of date changes whenever the figure is updated."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Doubt is the named enemy, and the defense is a structure set up in advance. Five years later she was still quoting her mother's version",
+			"reason": "Links a pre-fame 2021 source to a 2026 one, so this part of the thesis doesn't depend on the Obsession press cycle. It is the article's strongest cross-time evidence and should survive any refresh."
+		},
+		{
+			"passage": "In April 2023, with renewal in doubt, she told Just Jared Jr. that even a public statement from DC's James Gunn did not settle it for her",
+			"reason": "Pre-fame, contemporaneous evidence with an absolute date, showing her holding off on certainty. Later success doesn't color it, and the 'Two months later' follow-up keeps the timeline explicit."
+		},
+		{
+			"passage": "It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"reason": "Labels a retrospective self-report with its time context and says plainly what could not be checked. This is the dating discipline that keeps the counterevidence accurate as years pass."
+		},
+		{
+			"passage": "Privacy is the most durable trait in the record. In 2021 she told CBR, \"I feel as though my stuff is my own and I'm very private about that.\" In 2026 she told Nylon, \"I'm a very private person.\"",
+			"reason": "Documents one trait across five years with dated sources, then declines to stretch it into proof of the type. The claim stays durable because it stays modest."
+		},
+		{
+			"passage": "The Six reading says what to watch for: whether she can keep taking risks without first building the safe room.",
+			"reason": "Ends on a falsifiable prediction instead of a status claim, so the article becomes a test as it ages instead of going stale. Keep it, and add the tracking described in future-2."
+		}
+	],
+	"assessment": "Five-year test: mostly passes. Removing the latest event (Hot Ones Versus, 2026-09-08) leaves the argument intact, because it only corroborates the dated Collider account (2026-05-16), and the box-office figures only set scale and carry an as-of date. The thesis draws on material from several years (CBR 2021, Just Jared Jr. and KryptonSite 2023, 2026 interviews). The draft sensibly omits the X-Men casting, the SNL booking and relationship rumors, and the one follower count is framed historically through Nylon. The durability risks are fixable: the opening superlative ranks an unfinished 2026 box-office year; the 'has not named her type' and Oscar lines are untracked present-tense status claims; the press-run limitation and 'now driving overwork' use relative time; and the closing question has no review trigger in the evidence record, nor does the medium-confidence discriminator, which rests on one retrospective podcast answer, even though dated tests are already known (SNL 2026-10-31, X-Men reported for 2028-05-05). Only C37 is tracked, and its trigger needs a date. Similarity advisory: not tripped (max 0.032 against a 0.04 threshold, no shared phrases). The top matches are ordinary type vocabulary ('counterphobic', trust) and do not show reused arguments. Risk: contested_typing stays true (medium confidence, the record shows fan typings split between 6 and 7); the body contains no sensitive allegations."
+}

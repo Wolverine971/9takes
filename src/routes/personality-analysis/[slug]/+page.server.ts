@@ -25,6 +25,8 @@ import {
 	CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
 } from '$lib/server/contentAccessGuard';
 import { isQuestionPubliclyEligible } from '$lib/server/questionEditorial';
+import personalitySimilaritySnapshot from '$lib/generated/personalitySimilaritySnapshot.json';
+import { waitUntil } from '@vercel/functions';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
 type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
@@ -33,7 +35,7 @@ type PublicBlogCommentRow = Pick<
 	BlogCommentRow,
 	'id' | 'blog_link' | 'blog_type' | 'comment' | 'created_at' | 'author_id'
 >;
-type RelatedPersonalityCard = PersonalitySimilarityRow & { slug: string };
+type RelatedPersonalityCard = Pick<PersonalitySimilarityRow, 'enneagram'> & { slug: string };
 type RelatedPersonalityPayload = {
 	sameNichePosts: RelatedPersonalityCard[];
 	sameEnneagramPosts: RelatedPersonalityCard[];
@@ -41,6 +43,11 @@ type RelatedPersonalityPayload = {
 type PublicChorusQuestion = { question: string | null; questionUrl: string | null };
 
 const PERSONALITY_ENRICHMENT_TIMEOUT_MS = 4_000;
+// The similarity refresh runs after the response, so it can wait longer than
+// render-blocking enrichment queries.
+const SIMILARITY_REFRESH_TIMEOUT_MS = 10_000;
+const SIMILARITY_REFRESH_RETRY_MS = 60 * 1000;
+const PERSONALITY_SIMILARITY_SNAPSHOT = personalitySimilaritySnapshot as PersonalitySimilarityRow[];
 
 export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
@@ -361,7 +368,11 @@ function parsePostTypes(value: FormDataEntryValue | null): string[] {
 }
 
 function mapSimilarResults(rows: PersonalitySimilarityRow[]): RelatedPersonalityCard[] {
-	return rows.map((row) => ({ ...row, slug: normalizePersonalitySlug(row.person) }));
+	// Related cards only render a portrait and link, so ship just those fields.
+	return rows.map((row) => ({
+		slug: normalizePersonalitySlug(row.person),
+		enneagram: row.enneagram
+	}));
 }
 
 /**
@@ -452,25 +463,38 @@ async function buildRelatedPosts(
 async function getPersonalitySimilarityRows(
 	supabase: ServerSupabaseClient
 ): Promise<PersonalitySimilarityRow[]> {
-	const now = Date.now();
-	if (similarityRowsCache && similarityRowsCache.expiresAt > now) {
+	if (similarityRowsCache && similarityRowsCache.expiresAt > Date.now()) {
 		return similarityRowsCache.value;
 	}
 
+	const refresh = refreshPersonalitySimilarityRows(supabase);
+	const staleRows = similarityRowsCache?.value ?? PERSONALITY_SIMILARITY_SNAPSHOT;
+
+	if (!staleRows.length) {
+		return refresh;
+	}
+
+	// Never hold a render on the reference-set query: serve the last good rows (or
+	// the build-time snapshot on a cold instance) and finish the refresh after the
+	// response.
+	waitUntil(refresh);
+	return staleRows;
+}
+
+function refreshPersonalitySimilarityRows(
+	supabase: ServerSupabaseClient
+): Promise<PersonalitySimilarityRow[]> {
 	if (!similarityRowsPromise) {
 		similarityRowsPromise = Promise.resolve(
 			supabase
 				.from('blogs_famous_people')
-				.select(
-					'person, enneagram, title, description, persona_title, lastmod, date, type, published, content_quality'
-				)
+				.select('person, enneagram, lastmod, date, type, published, content_quality')
 				.eq('published', true)
-				.abortSignal(AbortSignal.timeout(PERSONALITY_ENRICHMENT_TIMEOUT_MS))
+				.abortSignal(AbortSignal.timeout(SIMILARITY_REFRESH_TIMEOUT_MS))
 		)
 			.then(({ data, error: similarityRowsError }) => {
 				if (similarityRowsError) {
-					console.error('Failed to load personality similarity rows', similarityRowsError);
-					return similarityRowsCache?.value ?? [];
+					return keepSimilarityRowsAfterFailedRefresh(similarityRowsError);
 				}
 
 				const value = (data ?? []) as PersonalitySimilarityRow[];
@@ -480,16 +504,24 @@ async function getPersonalitySimilarityRows(
 				};
 				return value;
 			})
-			.catch((similarityRowsError) => {
-				console.error('Failed to load personality similarity rows', similarityRowsError);
-				return similarityRowsCache?.value ?? [];
-			})
+			.catch(keepSimilarityRowsAfterFailedRefresh)
 			.finally(() => {
 				similarityRowsPromise = null;
 			});
 	}
 
 	return similarityRowsPromise;
+}
+
+function keepSimilarityRowsAfterFailedRefresh(refreshError: unknown): PersonalitySimilarityRow[] {
+	const value = similarityRowsCache?.value ?? PERSONALITY_SIMILARITY_SNAPSHOT;
+	console.warn('Personality similarity refresh failed; serving cached rows', {
+		cachedRows: value.length,
+		error: refreshError
+	});
+	// Back off briefly so a degraded database is not re-queried on every render.
+	similarityRowsCache = { value, expiresAt: Date.now() + SIMILARITY_REFRESH_RETRY_MS };
+	return value;
 }
 
 // Server-only blog content processor - keeps marked library out of client bundle

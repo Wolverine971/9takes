@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "fan",
+	"content_sha256": "3b7c006f101ebfdec8500bde8a7f1f166d4f61e6cec077ee7d44162acf7c8101",
+	"evidence_sha256": "f61062887b9f847f5b666bbd648d9685af83c0578163da32c5d23567e5d00721",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "fan-01",
+			"severity": "major",
+			"passage": "The yeses name people before parts, and the one costly holdout is explained entirely by attachment. On the Four reading, _Weapons_ would more likely come with an account of what the part meant to him.",
+			"problem": "Abrams has given exactly that account, in a source already in the evidence record (S08). Hunger (September 16, 2025) asked him directly, \"When you first read a script, what's the moment that makes you think, I need to play this character?\" He answered with an inner pull, not a person: \"Sometimes you just feel something inside... it's just that feeling of 'I have to do this. I can't let this go. I'll do whatever I need to make it happen'. With Weapons, I definitely felt that. I really love the director, and the character had so many different possibilities to explore. That combination made it one of those projects I knew I couldn't pass up.\" In the same interview he gives a reflective reading of James (addiction as \"this synthetic version of heaven\" that puts you \"in hell\"). To THR (S09, August 11, 2025) he said \"I only want to work on things that I want to work on\" and described reading the Weapons script \"in one go in the middle of the night.\" Hunger also has him saying what matters is \"the director, the writing and the people you're working with.\" His 2017 Brad's Status answer, the draft's first people-first example, names \"A perfect script\" before Ben Stiller. When asked directly how he chooses, he names the director and the part together and describes his own felt pull. The draft's main Nine-over-Four discriminator overstates the people-first pattern and misreports the Weapons record.",
+			"acceptance_test": "The Four section and 'Saying yes to people' no longer say the Weapons choice lacks an account of what the part meant to him. The Hunger 'I have to do this... the character had so many different possibilities to explore' answer is quoted or accurately summarized, and the pattern is described as director plus part, with an explicit argument for why the people element still separates Nine from Four. If it cannot, the stated confidence is lowered. The FAQ answer 'he explains his biggest choices through the people involved' and the type-answer paragraph are updated to match."
+		},
+		{
+			"id": "fan-02",
+			"severity": "major",
+			"passage": "the one decision that plainly cost him time followed it exactly.",
+			"problem": "The record does not show that the holdout cost him anything, and the draft contradicts itself two sections later: \"the record cannot show what offers, if any, he turned down.\" The planned May-July 2023 Weapons shoot slid to May-July 2024 (Wikipedia, Weapons (2025 film), Production, citing EW and THR). But the 2023 WGA and SAG-AFTRA strikes froze studio acting work for everyone. Wolfs had already started shooting in January 2023 (about 70 days; Wikipedia, Wolfs), and he said to THR only that doing something else \"certainly\" wouldn't have helped him land Resident Evil. 'Not pursue other work' is THR's framing, which the draft itself attributes to the reporter. The same unsupported cost reappears as \"the one costly holdout\" in the Type 4 section, where it carries weight in the discriminator.",
+			"acceptance_test": "'plainly cost him time' and 'costly holdout' are removed, unless a source documents a declined offer or a period with no work that he attributes to waiting. The episode is described as a roughly year-long wait through the strikes and the recast, noting that the strikes paused the whole industry, and it is weighed as the choice he explains most fully rather than as a proven sacrifice."
+		},
+		{
+			"id": "fan-03",
+			"severity": "major",
+			"passage": "A man who says talking about himself feels frightening keeps choosing the most physically exposed work available: the underwear chase in _Wolfs_, a dance number in _Euphoria_'s second season, a film spent inside a whale.",
+			"problem": "This overstates his agency in a way any Euphoria viewer will notice. The season 2 dance in Lexi's play was a set piece the showrunner wrote into a role Abrams had played since 2019. ET Online (S44) reports that the script \"originally had him performing in his underwear\" and that he was terrified, so the exposure was assigned, not chosen. For Wolfs, the draft itself quotes him saying \"No one knew anything about it other than that Brad and George were in it and that Jon was directing,\" and in the same IndieWire interview (S15) he says \"All I got was the interrogation scene.\" Only Whalefall, which he auditioned for (Duffield to Screen Rant, S28), is plainly his choice. The article calls this 'the largest puzzle', but the puzzle is partly created by the framing.",
+			"acceptance_test": "The sentence no longer says he 'keeps choosing' all three. It says he keeps ending up in exposed work and commits to it fully, notes that the Euphoria dance was a series assignment and that he signed onto Wolfs knowing little, and names Whalefall as the clearly chosen case. The ET 'freeing' quote is kept. The puzzle is reframed around how he handles exposure once he is in it."
+		},
+		{
+			"id": "fan-04",
+			"severity": "minor",
+			"passage": "That something was _Weapons_, whose original cast was announced in January 2023.",
+			"problem": "Factual error. January 2023 is when Cregger's spec script sold to New Line in a bidding war. THR announced the cast later: Pedro Pascal on May 9, 2023 and Renate Reinsve on May 22, 2023 (Wikipedia, Weapons (2025 film), Production, citing both THR pieces). Abrams's own casting was first publicly reported by Deadline on May 2, 2024, after the recast. Screen Rant's 'This was initially announced in January 2023' (S10) is ambiguous and is not a reliable source for a cast-announcement date. Cregger has also named Brian Tyree Henry as part of the original ensemble.",
+			"acceptance_test": "The sentence gives a sourced, accurate date, for example that New Line bought the script in January 2023 and that the original cast led by Pedro Pascal was announced in May 2023. The evidence record's C63 inference and sources are updated to match."
+		},
+		{
+			"id": "fan-05",
+			"severity": "minor",
+			"passage": "Add the 13-year-old with nothing important enough to say and the man who feels _Wolfs_ wasn't him, and the self-portrait is modest and interchangeable.",
+			"problem": "In context, the Wolfs line is starstruck gratitude, not evidence of an interchangeable self. The full Sarasota Herald-Tribune answer (S12, April 9, 2024) reads: \"sometimes I'll think 'I can't really believe I did that,' in a way. Because I just watched those guys growing up, as everyone did... It was a super special time that I'm very grateful that I got to have, even though sometimes it doesn't feel like it was me when I look back at it.\" I confirmed the question was about Wolfs. Recruiting this pinch-me remark about working with childhood idols as a discriminator against Type 4 stretches the source.",
+			"acceptance_test": "Either the Wolfs line is dropped from the discriminator sentence, or its 'I can't really believe I did that... I just watched those guys growing up' context is given and it is weighed as ordinary disbelief rather than self-effacement."
+		},
+		{
+			"id": "fan-06",
+			"severity": "minor",
+			"passage": "Asked when he began to feel comfortable in the role, he told the magazine Behind the Blinds, \"I think that happened about two days before we wrapped.\"",
+			"problem": "Tone fidelity. The original page (S45) prints \"[Laughs]\" immediately after this sentence and continues: \"I'm not sure if I was ever exactly comfortable, but I got closer to it throughout the shoot.\" Quoted bare and placed in a paragraph about fear, a self-deprecating joke reads as a literal measure of how long his anxiety lasted.",
+			"acceptance_test": "The laugh or the follow-up qualifier is included, or the line is framed as a joke, so the reader gets the tone the source records."
+		},
+		{
+			"id": "fan-07",
+			"severity": "minor",
+			"passage": "led _Chemical Hearts_ and Netflix's _Dash & Lily_ in 2020, and played the egomaniac Max in _Do Revenge_ (2022).",
+			"problem": "Missing context that fans know. For most of his career he was cast as the gentle, shy, sensitive boy (Ethan, Henry, Dash), and he has said so. In The Daily Beast (September 2022; S20, original opened and matched), talking about Max: \"When it's a nicer character, it's slightly more constraining, in a way. With this, if the audience doesn't like me, lovely. And if the audience does like me? That's good, too!\" and \"I definitely feel like I've run the gambit of the nice, shy guy.\" The draft never tells readers about this screen image, so they cannot separate an agreeable, gentle persona that reads as Nine from the man. It also leaves out a first-person statement of relief at not having to be liked, which matters for the Nine, Three and Four comparison.",
+			"acceptance_test": "One or two sentences name the nice, shy-guy typecasting and quote or summarize his 2022 remarks. A clause says how the move to Max, the Kid in Wolfs and James bears on the type argument, or explicitly treats it as neutral."
+		},
+		{
+			"id": "fan-08",
+			"severity": "minor",
+			"passage": "yet a director had to stop him doing stunts that could kill him",
+			"problem": "The metadata and body turn a director's comic hyperbole into an unattributed fact. Duffield's line to THR (S29) is a joke told during a trailer launch ('Honest to God, the only problem with Austin is...'; 'you cannot do this because you'll die'), and he says his actual arguments were 'about how he's just so committed and so determined to do everything as viscerally real as possible.' The body repeats the literal version: \"arguments over stunts that could kill him.\" Scuba stunts carry real risk (Duffield to Empire, S30), but no source says a specific stunt was potentially lethal.",
+			"acceptance_test": "The description attributes the claim and keeps Duffield's framing, for example 'a director says he had to tell him he would die', or softens it to 'a director had to veto his stunts'. The body sentence 'arguments over stunts that could kill him' is attributed to Duffield or rephrased to match his account. Claim C92 in the evidence record reflects the change."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The man who finds an interview frightening is the one his director has to hold back.",
+			"reason": "A true, sourced contradiction that organizes the whole piece and will surprise a fan who knows him only as the shy boyfriend. Keep it even if the description is softened."
+		},
+		{
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"reason": "A precise, original reading of a well-known fact (no social media) that most coverage treats as generic mystique. It is the draft's most distinctive move."
+		},
+		{
+			"passage": "That last sentence is the most revealing thing he has said about his choices. His enthusiasm is kindled by someone else's.",
+			"reason": "The Complex 2026 line is the strongest single piece of evidence for the Nine reading, and this framing lands it. It should survive fan-01 as one strand of the pattern, not the whole of it."
+		},
+		{
+			"passage": "In 2019, a line from the film _Pierrot le Fou_ hung on his living-room wall: \"Why do you look so sad? / Because you speak to me in words and I look at you with feelings.\"",
+			"reason": "An observed, specific detail from the interviewer's visit that fans rarely see quoted, and it gives the Type 4 case real weight instead of a straw man."
+		},
+		{
+			"passage": "It was a brief, light answer, and it supports no story about a childhood wound.",
+			"reason": "Disciplined restraint on the parents anecdote. It refuses the tempting invented-wound story that fan-typing sites lean on."
+		}
+	],
+	"assessment": "As an informed-reader proxy, I found the draft unusually careful. The birth date, credits, the Weapons holdout, the Duffield testimony and the 'doesn't feel like it was me' line (confirmed to answer a Wolfs question) all check out. I opened Hunger (S08), THR Weapons (S09), the Sarasota Herald-Tribune (S12, via Yahoo), Screen Rant (S10), Behind the Blinds (S45), The Daily Beast repost (S20), and the Wikipedia pages for Weapons and Wolfs. The consequential problem is the Nine-over-Four discriminator. It rests on a people-before-parts pattern that Abrams's own direct answer about choosing roles complicates: asked directly, he names the director and the character together and describes an inner 'I have to do this' pull. It also rests on a 'costly' holdout whose cost is undocumented and which the draft itself later concedes it cannot show. The exposure puzzle overstates how much he chose the Euphoria dance and the Wolfs chase. Fans will also notice the missing nice, shy-guy typecasting context. Fixing these may lower confidence but does not by itself flip the thesis. contested_typing stays true. Similarity advisory: not tripped (max 0.046, Nate Bargatze). The matched sentences share no phrases and are ordinary hedging and counter-typing vocabulary, not reused arguments, so there is no distinctiveness finding."
+}

@@ -1,0 +1,23 @@
+I wrote `review-unfamiliar.json`, the review from the point of view of a reader who has never heard of Joseph Zada. It passes the pipeline's review format, and every quoted passage matches the draft word for word. I didn't touch any other file and published nothing.
+
+**Bottom line:** the Type 6 argument is interesting and specific: winning the role made him more scared, and he handles pressure by pulling in family and people he trusts. The problems are about how the story is set up and paced. There are 8 findings: 5 major, 3 minor.
+
+**Major**
+1. **A quote is placed in the wrong setting.** Emily Alyn Lind's "He just gets what he wants" came from a People press interview after he was cast, not from her private FaceTime call with him. The draft calls it the least staged evidence it has, which makes the main point against Type 6 look stronger than it is.
+2. **The opening overstates his answer.** The draft says his answer to "You were more scared after finding out?" was one word, "Yes." The transcript shows he kept talking about the announcement.
+3. **Readers aren't told the stakes early enough.** The opening doesn't say he was nearly unknown, that Haymitch is the character Woody Harrelson played, or that Elle Fanning is his co-star. Harrelson doesn't appear until about 2,000 words in.
+4. **One move repeats about 11 times:** "this is ordinary, but here's why it matters." It slows the middle sections. The body is about 4,080 words, above the 2,000–3,500 target.
+5. **The case against Type 9 has two gaps.**
+   - Type 9 is never explained in plain language, so readers can't judge the argument.
+   - One section treats his "more scared after winning" story as a joke, then the Type 9 section uses that same moment as its first argument.
+
+**Minor**
+6. It's unclear whether "Hal" and "my older brother" are the same person.
+7. The school-exit section says it won't take sides between his two versions, then leans on the dropout version twice.
+8. The meta description says "fear of admired peers," but the article's point is that he stopped being afraid once he saw those people as peers.
+
+It also marks 5 passages to keep, including the ending's testable prediction and the line about his confidence arriving "once the people he feared had been reclassified as peers."
+
+- **Jury flags:** the review marks the typing as contested and the source base as uncertain, matching the risks already flagged in the evidence file.
+- **Hash check:** the hashes in the request didn't match a plain checksum of the files. They do match when computed the way the pipeline computes them, so the draft and evidence are the frozen versions.
+- **Other checks:** the draft says *Bilched* was directed by his father. Hal Cumpston's Wikipedia page says Hal wrote it and their father helped fund and direct it, so the draft holds up. The similarity scan didn't flag this draft, and the closest matches to other drafts are just shared Enneagram wording.

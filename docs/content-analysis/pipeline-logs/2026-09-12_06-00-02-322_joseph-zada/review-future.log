@@ -1,0 +1,18 @@
+I wrote the five-year durability review to `review-future.json`. It passes the schema check, its role and hashes match the request, and every passage it cites appears word for word in the draft. I didn't change any other file or publish anything.
+
+**Main result:** the Type 6 argument holds up over five years. It rests on things he did in 2025: how he reacted to the Haymitch casting call, the three-week audition tape he made with his family, and his fear of how admired co-workers would see him. None of that depends on the unreleased _East of Eden_ (October 1) or _Sunrise on the Reaping_ (November 20).
+
+**Findings (4 major, 4 minor):**
+- **Wrong interview date (major).** The draft says he spoke to Variety Australia on the Perth set of _Invisible Boys_ in February 2025. That's when the article was published, not when the interview happened. Stan announced the series as "currently filming" on March 13, 2024, and the draft's own timeline puts him in New Zealand in February 2025. So he was 18 when he gave that interview. The evidence file repeats the error in claims C08 and C73.
+- **Source description no longer true (major).** Once the date is fixed, the paragraph describing the sources is wrong: "nothing substantial from before he was 19" and "interviews given between February 2025 and August 2026". It also says neither big performance has been released, which stops being true on October 1, and that statement has no review trigger.
+- **Ending will go stale (major).** The closing paragraph builds up to "those releases", which will be in the past within about ten weeks. Its testable prediction ("fame will not settle him") isn't recorded in the evidence file or given a date to check it.
+- **Wrong time gap (major).** The draft says two interviews were "fourteen months apart". They're about eight and a half months apart (July 9, 2025 and March 23, 2026). This overstates the pattern-over-time evidence the draft relies on to answer the promotional-source problem.
+- **Minor:**
+  - "He has not publicly named a type" has no date and no source, and it appears in the body and the first FAQ.
+  - His mother is described as a producer in the present tense, though he himself said "or was a producer."
+  - The casting call is never given a date, in the article or the FAQs.
+  - Claim C33's review trigger points to a co-writing project that the evidence file itself says couldn't be found.
+
+I also marked four passages to keep, including the section admitting his hedging may reflect career position rather than personality, and the handling of his two different accounts of leaving school. The similarity check didn't flag any reused arguments from other profiles. I kept both risk flags on (the type is contested and some key sources couldn't be opened), so the full six-reviewer panel stays justified.
+
+Sources: [Variety Australia](https://au.variety.com/2025/tv/features/invisible-boys-shines-light-on-queer-stories-20235), [Banijay/Stan filming announcement](https://www.banijay.com/blog/2024/03/13/stan-announces-powerful-lgbtqia-stan-original-series-invisible-boys-currently-filming-in-western-australia/), [Invisible Boys – Wikipedia](https://en.wikipedia.org/wiki/Invisible_Boys)

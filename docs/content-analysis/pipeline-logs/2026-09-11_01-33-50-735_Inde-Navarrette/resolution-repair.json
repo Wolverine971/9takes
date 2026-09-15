@@ -1,0 +1,368 @@
+{
+	"schema_version": 3,
+	"decisions": [
+		{
+			"finding_id": "subject-01",
+			"action": "fixed",
+			"reason": "Reopened Nylon (S02): the not-sleeping line is followed at once by 'It reminds me of being in a SoulCycle class and all of the girls are like, \"Sleep when you're dead.\"' The 'What the pattern costs' section is gone. The not-sleeping line now sits in the Type 3 case with the SoulCycle joke quoted and is called 'cheerful hustle'. No sentence says she names a cost. 'Now driving overwork' and the links to the Twitch deletion and Oscar net are removed. The one documented cost (losing much of an archive she loved) is stated as the author's reading in the Twitch section (C95)."
+		},
+		{
+			"finding_id": "subject-02",
+			"action": "fixed",
+			"reason": "Body, ending and FAQ now use the same scope: 'Then she deleted many of the streams', 'The woman who deleted streams she loved', FAQ 'deleted many of her streams'. The cost is described as 'she gave up much of a record of something she loved'. The financial line is placed as being about streaming at the time, with Complex's 'I would still love to do it, but I don't have time' showing no forfeited income. The Six-versus-Seven argument no longer depends on cost."
+		},
+		{
+			"finding_id": "subject-03",
+			"action": "fixed",
+			"reason": "Added her Nylon reaction verbatim, including the asterisk, next to the Variety relief line: 'A month earlier she told Nylon, \"It took me a while to find my style online, which is why sometimes when people post old sh\\*t of mine, I go, 'Oh my God.'\"' It is introduced by 'The relief is not the whole story.' Matched against a fresh fetch of S02 (C88)."
+		},
+		{
+			"finding_id": "subject-04",
+			"action": "fixed",
+			"reason": "Checked the full Collider answer in the cached captions (S09 25:05-25:40). The sentence 'Both agree her take changed the ending' is removed. The paragraph now says Barker credits her performance, while she describes a same-day decision on the character ('she's a final girl'), credits Barker ('Curry was like no... we want to sit with her') and 'said nothing about her take persuading anyone.' The C61 inference is corrected."
+		},
+		{
+			"finding_id": "subject-05",
+			"action": "fixed",
+			"reason": "The hook is now 'went into _Obsession_... not knowing how to scream', within her 'I didn't know how to scream'. The description says 'didn't know how to scream when Obsession began'. 'The film she was too scared to start' is removed. The unsourced '2026's biggest horror breakout' superlative is gone; scale comes from the sourced budget range and the dated gross."
+		},
+		{
+			"finding_id": "subject-06",
+			"action": "fixed",
+			"reason": "The closing recognizes self-built structures: 'In 2021 she built her own pact against doubt' and the exact S16 line (\"there's some moments where it's just up to me to make myself comfortable\", checked in captions at 16:20-16:22). The question is framed as open ('The record already holds partial answers... will keep testing which habit leads'), not as a deficit. Final judgment is limited to Barker: 'handed final judgment on the performance to Barker'."
+		},
+		{
+			"finding_id": "subject-07",
+			"action": "fixed",
+			"reason": "The unlabeled S12 Hot Ones charades line is removed from the article, and C49 is deleted from the evidence. For the S13 'freaky Nikki' exchange, the evidence records that the transcript labels the next turn '[Inde] Do you want another one?' and notes '(Inde pops lips)' in response. A visual check remains a listed research task."
+		},
+		{
+			"finding_id": "subject-08",
+			"action": "fixed",
+			"reason": "The hook keeps only the skydive and attributes it on first mention: 'the same woman told Jimmy Kimmel she went skydiving on her 18th birthday.' The piercing appears only in the attributed Type 7 section. The redundant 'both on the same day' is gone."
+		},
+		{
+			"finding_id": "fan-01",
+			"action": "fixed",
+			"reason": "Tried to open the Complex News video (IUAsUy_aKR8): youtube-transcript-api returned IpBlocked. I opened the secondhand Where Is The Buzz write-up (S38, recorded as a source), but per the acceptance test the quote stays out until the video is checked; this is logged as a research task. The categorical 'She says it didn't' is now scoped: 'In her Variety telling, it didn't.' Her Variety continuation (appreciating 'a small town mentality', Visalia 'homey', checked in captions at 06:47-07:22) is added. The Type 7 list says 'the moves she says she enjoyed', the unexplained column says 'the pleasure she described to Variety in her frequent childhood moves' (repair removed 'constant', verify-04), and the eleven-schools figure is not used."
+		},
+		{
+			"finding_id": "fan-02",
+			"action": "fixed",
+			"reason": "Same fix as subject-04, checked against the cached captions (S09 25:05-25:40). The paragraph no longer says the accounts agree. It gives her same-day character-logic account and her credit to Barker's wish to 'sit with her'. It adds her 'that quickness of flipping... allowing yourself in that exact moment to have that freedom' and files it in the Seven column. The not-passive framing is attributed to Barker's account. The C61 inference is corrected."
+		},
+		{
+			"finding_id": "fan-03",
+			"action": "fixed",
+			"reason": "The freedom passage includes 'I got freedom. And it was again, to treat it like college, like I graduated' (captions 10:15-10:18) and says the freedom was 'freedom to chase film, which she says she had always wanted' (09:49). It adds Cosmopolitan (June 24, 2026, opened via Yahoo, S37): 'as disappointed and sad as it was to not be able to go back as a series regular,' it was 'divine timing.' The weight for Type 7 is reargued after the kept hindsight caveat ('And the freedom was freedom to chase film...'; repair consolidated the earlier 'It counts for less than it seems, though' hedge, verify-03). The dopamine line keeps its 'either getting too much in your head or feeling a high off of it' setup. Far Out's 'devastated' is not used."
+		},
+		{
+			"finding_id": "fan-04",
+			"action": "fixed",
+			"reason": "The casting section names the Capstone/Trap House connection in her own words from Cosmopolitan (June 24, 2026; S37, opened): 'I was allowed to do _Trap House_ with Capstone, which funded _Obsession_...'. At repair it is attributed separately from the 'If I hadn't had that disappointment' line ('Elsewhere in the piece'), because the verifier found the two come from different places (C76). The possible link to a third chance is labeled 'no source says so directly'. The type section says taking the horror lead 'is weaker evidence... than it looks', cites the lost series-regular role, Numero's 'really wanted to transition into film' and the financier's backing, and rests the fear argument on 'what she did with the fear once cast'. The Mercuri/Deadline detail and Invertigo are not used."
+		},
+		{
+			"finding_id": "fan-05",
+			"action": "fixed",
+			"reason": "The sensitivity quote now keeps its payoff, checked in captions at 30:13-30:14: 'something that [_Obsession_] has done for me is heal that'. The brackets replace the caption rendering 'Obsessed'. The Chucky/tia Maria anecdote was checked in the Kimmel captions but not added: it is optional, the piece is near the word ceiling, and a childhood exposure story risks reading as a causal wound."
+		},
+		{
+			"finding_id": "fan-06",
+			"action": "fixed",
+			"reason": "The streaming paragraph now dates the PC build to 2022, attributed to Complex (re-fetched S06), with the creators she watched, and says 'by that account the streaming began before the drought.' Her Nylon 'Oh my God' reaction is added verbatim with the asterisk, beside the Variety relief line. The deletion paragraph says she 'did not say when it happened'."
+		},
+		{
+			"finding_id": "fan-07",
+			"action": "fixed",
+			"reason": "The closing no longer says 'Her next roles will show'. It now points to the record's partial answers and says 'The roles and interviews that follow _Obsession_ will keep testing which habit leads', which does not imply her projects are unknown. The announced SNL (2026-10-31) and X-Men (reported 2028-05-05) projects stay out of the body for durability. They are tracked in the unresolved claim C91 with dated review triggers. The central insight does not depend on them."
+		},
+		{
+			"finding_id": "fan-08",
+			"action": "fixed",
+			"reason": "The Superman & Lois introduction now reads 'as Sarah Cushing..., a character later coverage calls Sarah Cortez', sourced to KryptonSite 2023 (C102). The Looper lines are not used."
+		},
+		{
+			"finding_id": "critic-01",
+			"action": "fixed",
+			"reason": "Added a paragraph-level Type 3 case in 'Type 3 and the other rivals'. It quotes 'take me seriously', 'audience's trust', 'wasn't just lightning in a bottle', 'extremely validating', '110%', 'survival mode' and the not-sleeping line, and the Type 7 section concedes the 'feeling proud' half to Three. It names the discriminator the test suggests: 'her first move with a new director was to tell him what she could not do, not to project competence', alongside the 2021 'doubt' framing ('The pre-fame record leans toward Six without deciding it'). At repair (verify-01) the 2023 Gunn remark is demoted to 'adds little'. Because no discriminator is decisive, the body, type answer, FAQ 1 and FAQ 3 keep Type 3 as a live second alternative at medium confidence. The Seven 'runs the other way' sentence is cut."
+		},
+		{
+			"finding_id": "critic-02",
+			"action": "fixed",
+			"reason": "The Twitch passage now names only the supported cost ('much of a record of something she loved'). It says nothing suggests lost income, citing Complex's 'I would still love to do it, but I don't have time'. It states that she 'did not say when it happened, and no source says whether anyone advised it', and raises routine persona-scrubbing ('so the episode leans toward Six rather than proving it'). 'Unforced' and 'clearest' are dropped, and the scope is 'many' in the body, FAQ and C15."
+		},
+		{
+			"finding_id": "critic-03",
+			"action": "fixed",
+			"reason": "'Counterphobic' is removed from the type answer, the description, FAQ 1 and the keywords; the persona line never used it. The description now lists 'safety nets, trusted guides and deleted streams', not leaps. The Twitch section explains why the label is not used: 'Here the safe move was a retreat... Most of her Six-like behavior is hedging. Her genuinely daring acts... fit Type 7 at least as well.'"
+		},
+		{
+			"finding_id": "critic-04",
+			"action": "fixed",
+			"reason": "'Borrowed certainty' quotes the GoldDerby advice (checked in captions at 36:23-36:31): 'be extremely stubborn... You have to really believe in yourself before other people will.' It treats the line as 'a stated ideal, not a description of how she worked on this set.' It names the ordinary explanation ('A young lead deferring to a writer-director on his own film is ordinary') and says what the Six reading adds (selectivity), labeled as corroboration rather than proof."
+		},
+		{
+			"finding_id": "critic-05",
+			"action": "fixed",
+			"reason": "The hook now says 'The plan was Barker's, and warming up a nervous lead is ordinary directing, so the story shows his method as much as her motive. Her part was to say the fear out loud and trust the plan.' The pattern sentence reads 'She secures against it, through someone she trusts or a rule she sets herself', and the 2021 pact is the self-built example. The ending's 'building the safe room' becomes 'when no one has built the safe room for her first'."
+		},
+		{
+			"finding_id": "critic-06",
+			"action": "fixed",
+			"reason": "Same fix as subject-04 and fan-02. The full S09 answer was checked in the cached captions. The article says Barker credits her take and she describes a same-day call about the character. The C61 inference is corrected."
+		},
+		{
+			"finding_id": "critic-07",
+			"action": "fixed",
+			"reason": "The 2026 line is now a separate lesson: 'Five years later she credited her mother with a second lesson that pulls the other way... One rule accepts a no as a sign; the other refuses it until it is final.' The invented continuity is gone."
+		},
+		{
+			"finding_id": "critic-08",
+			"action": "fixed",
+			"reason": "'The Six pattern has a price, and she names it herself' is deleted along with the section. The not-sleeping line appears with its SoulCycle context in the Type 3 case, as cheerful hustle. The 'common first-breakout' judgment is kept in the C28 alternative."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"action": "fixed",
+			"reason": "'The worst audition she had ever done' now opens with the premise, sourced to the re-fetched film page (S29, C81): Bear (Michael Johnston), the supernatural toy, Nikki's obsession. It names Cooper Tomlinson as Ian (C82). The ending paragraph glosses 'final girl' ('the horror survivor who makes it to the end'), states 'The script ended with Nikki's death; in the released film, she lives', and carries a spoiler flag. Johnston's 'freaky Nikki' line is introduced as 'a moment from the film'."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"action": "fixed",
+			"reason": "Added a timeline sentence: shot in Los Angeles in October 2024 when she was 23, TIFF premiere September 5, 2025, U.S. release May 15, 2026 (C83; S29, S14). It adds 'The record does not date her audition.' The Superman & Lois cut (June 2023), the shoot, the drought ('After wrapping _Obsession_') and the release can now be put in order."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"action": "fixed",
+			"reason": "The pattern is stated once in plain words that cover both stories: 'She names the fear. She secures against it, through someone she trusts or a rule she sets herself. Only then does she move, and the move is sometimes all-out commitment and sometimes a retreat.' The type answer matches ('by leaning on someone she trusts, setting a rule in advance or pulling back'). The Twitch section says the deletion was a retreat and explains why the counterphobic label is not used. FAQ 1 and the description use the same framing. At repair (verify-03) the later restatements ('What she describes is the Six sequence...', 'For a Six, trust works like infrastructure...') were cut, so the pattern is argued once in full and only summarized in the type answer."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"action": "fixed",
+			"reason": "The Type 4 rebuttal is removed from 'Borrowed certainty'. The Four case and its rebuttal now sit together in 'Type 3 and the other rivals'. 'Borrowed certainty' tests the Six claim against ordinary deference and Type 9, and names the evidence for Nine in the same paragraph. The Eight rebuttal sits in the same paragraph as its evidence ('slap me harder')."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"action": "fixed",
+			"reason": "The 'What the pattern costs' section is merged away. Privacy (with its protected sentences intact) moves to 'Mommy, I do', where it follows the craft-privacy childhood detail. The audience-trust and not-sleeping lines move to the Type 3 case, where they advance a stated point. No heading promises costs."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"action": "fixed",
+			"reason": "Each flagged caption quote is trimmed with marked ellipses, with no words changed, after re-reading the cached captions: 'I deleted all of them just cuz... I got scared', 'it's not based on fact, but... I just panicked', 'so crazy with the... take where she lives, and so disturbing... that', 'instilled in me to... not take no', 'my brain that is... just kind of having a safety net'. Audio is not reachable from this environment (YouTube IP block), so the audio check stays an explicit pre-publish research task listing every trimmed line."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"action": "fixed",
+			"reason": "The body and FAQ use 'many' (her words were 'all of them', then 'a lot of them'). The body says she 'did not say when it happened'. The hypothetical framing is kept, since at any date the feared judgment had not occurred, and the episode is described as leaning toward Six rather than proving it."
+		},
+		{
+			"finding_id": "unfamiliar-08",
+			"action": "fixed",
+			"reason": "The superlative is gone. The hook rests on her own words, and the scale sentence gives the sourced budget range and the dated gross. The new timeline sentence explains the 2025 TIFF premiere and 2026 release, so the year framing is consistent."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"action": "fixed",
+			"reason": "Added the Type 3 paragraph with the listed evidence (headshots, survival mode, 110% pact, not sleeping, prove, extremely validating, audience trust; 'feeling proud' is conceded to Three in the Type 7 section). It answers with evidence from outside 2026 press candor, chiefly the 2021 doubt framing, and says 'Podcast candor cannot settle this one.' The test's suggested 2023 Gunn discriminator was used at the edit stage; verification showed it is weaker (she partly credited the tweet as 'a little bit of 50-50', and her caution proved right), so at repair it is described as adding little (C111). Since no discriminator is decisive, the type answer, FAQ 1 and FAQ 3 name Type 3 as a live second alternative, which is the test's fallback. The Twitch paragraph no longer uses podcast candor against Three, and the Oscar net notes that a Three would guard that verdict too."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"action": "fixed",
+			"reason": "The cost sentence now matches S10 11:11-11:34: the loss is 'much of a record of something she loved', not income, backed by Complex's 'I don't have time'. The scope is 'many'. 'Separates the leading readings' becomes 'helps separate Six from Seven, though not from Three' and 'leans toward Six rather than proving it'. The base-rate explanation (scrubbing an old online persona when changing careers) is stated."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"action": "fixed",
+			"reason": "Next to the horror-sensitivity line, the type section says she took the part after losing her series-regular role, gives her Numero reason ('really wanted to transition into film') and notes the financier's backing. The counterphobic label is removed from the body, description and keywords, and the Twitch section explains why: most Six-like behavior is hedging, and the daring acts fit Type 7. The metadata ('suggest Enneagram Type 6', 'medium confidence') is no more certain than the body."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"action": "fixed",
+			"reason": "The sentence is restated to what the record shows. She names the fear and secures it 'through someone she trusts or a rule she sets herself', which covers the scream sessions (Barker's structure, by her account) and the 2021 pact (her own). The scream paragraph adds that the plan was Barker's and ordinary directing. The audition section says 'This story has no safety step', so the chemistry read is no longer counted as an instance."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"action": "fixed",
+			"reason": "The 'secure' paragraph is cut. 'Used the vocabulary directly' and 'control language ran through every interview' are gone, and C24 is removed from the evidence. 'I don't want to lose the audience's trust in me' now appears in the Type 3 case as reputation language, not as Six evidence."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"action": "fixed",
+			"reason": "The unsourced Four generalization is removed from 'Borrowed certainty'. The section names ordinary actor-director deference and Type 9 merging next to the Six claim, then offers selectivity ('full trust in one chosen authority while her choices stayed hidden from a scene partner') and says plainly that it 'corroborates the reading more than it proves it', the test's second option. The unsourced 'A Nine's going-along tends to be more general' and the Gunn reference were removed at repair (verify-01, verify-03). The stubborn-advice line stays as counterevidence."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"action": "fixed",
+			"reason": "The rebuttal includes the pride half ('challenge me but also allow me to... feel proud', captions 36:01-36:13) and says 'The pride half fits Type 3 as well.' It explains why fear as the entry condition points to Six: 'The thing she fears is a responsibility, doing a role justice and doing it correctly, not a sensation she wants to feel.' With that explanation in place, repair consolidated the hedge chain to 'The Seven case describes her energy well and her stated motives less well' (verify-03); FAQ 2 still calls the Six lead narrow. The skydive's 'The skydive can be read either way' concession stays."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"action": "fixed",
+			"reason": "'The Seven in her getting a vote' becomes 'a point for the Type 7 reading', consistent with a type answer that names no wing."
+		},
+		{
+			"finding_id": "future-1",
+			"action": "fixed",
+			"reason": "Took option (a). The hook no longer has a superlative. Scale comes from sourced figures with an as-of date: 'cost between $750,000 and $1 million to make, depending on the report... had grossed more than $500 million worldwide by September 9, 2026.'"
+		},
+		{
+			"finding_id": "future-2",
+			"action": "fixed",
+			"reason": "Added claim C91. Its passage is the closing 'The Six reading says what to watch for' sentence, with durability 'unresolved'. Its review_trigger lists the dated checks (after the 2026-10-31 SNL episode and press; the X-Men press cycle and reported 2028-05-05 release; any retelling of the Twitch deletion; retrieval of S33/S34) and what would count against the reading. C15 also carries a re-test trigger."
+		},
+		{
+			"finding_id": "future-3",
+			"action": "fixed",
+			"reason": "The status line is moved out of the type-answer paragraph, which is now 54 words, and dated in both places: 'As of September 2026, she has not publicly named an Enneagram type.' (body limits paragraph and FAQ 1). Claim C90 is time_sensitive with the refresh trigger."
+		},
+		{
+			"finding_id": "future-4",
+			"action": "fixed",
+			"reason": "The sentence is anchored: 'Asked about Oscar buzz in July 2026, months before any nominations'. C25 is now time_sensitive, with a review_trigger to check her public response after nominations for 2026 films are announced (expected January 2027) and to draw no inference from the result alone."
+		},
+		{
+			"finding_id": "future-5",
+			"action": "fixed",
+			"reason": "The limitation now reads 'given largely in interviews between May and September 2026'. 'Now driving overwork' is deleted. The ending's 'Now she was saying' becomes 'By July 2026 she was saying'. No undated author-prose 'now' or 'this year' referring to 2026 remains."
+		},
+		{
+			"finding_id": "future-6",
+			"action": "fixed",
+			"reason": "The body says plainly that she 'did not say when it happened'. C15 records the bounds (after the 2022 PC build, before the July 31, 2026 Variety interview). C64 records the October 2024 shoot as the drought's start bound. The new timeline sentence places the shoot, TIFF and release. No unsupported precision is added."
+		},
+		{
+			"finding_id": "future-7",
+			"action": "fixed",
+			"reason": "The body now gives the range, 'between $750,000 and $1 million to make, depending on the report', linking both NBC News and The Numbers. C50 is 'unresolved' with a reconciliation trigger. C37's trigger now names a date: re-check on or after 2027-01-15, or at the home-video release if earlier."
+		},
+		{
+			"finding_id": "verify-01",
+			"action": "fixed",
+			"reason": "Re-fetched S22: Just Jared Jr. (AJ Pitts, April 7, 2023) is reporting her remarks from an upcoming episode of The Wayne Ayers Podcast, so the Superman & Lois paragraph now says 'In a podcast interview released in April 2023' and credits '_The Wayne Ayers Podcast_, as reported by Just Jared Jr.' (the podcast's clips were uploaded 2023-04-12/13; S39 recorded as unavailable because captions were IpBlocked, and a primary audio check is a research task). The Gunn remark is argued in full once there. It quotes 'a little bit of 50-50' and adds 'The caution was ordinary industry realism, and it proved right: in June 2023, budget cuts ended her run as a series regular'. In the Type 3 case it is only referenced: 'The 2023 Gunn remark adds little, since she partly credited his tweet and her caution was ordinary and proved right' (C111). 'A Three tends to bank a positive signal...' is deleted. The lean now rests on the 2021 doubt framing and the scream disclosure ('The pre-fame record leans toward Six without deciding it'). The conclusion stays 'Type 3 stays a live second alternative', and FAQ 3 matches without the Gunn remark (C110). The Gunn reference in 'Borrowed certainty' is removed. C13, C56, C84 and the type_hypothesis discriminator are updated."
+		},
+		{
+			"finding_id": "verify-02",
+			"action": "fixed",
+			"reason": "The sentence now reads 'When an interviewer's question turned on Barker's account of how a sequence came together, she said they had shot it two years earlier and deferred to him: \"if that's what Curry said, then that's definitely what happened.\"' The analysis paragraph no longer counts it; it rests on the mirror trust and the guarded preparation. C23's claim, inference and alternative record the memory reason from the verify-stage caption reading of S11 09:21-09:31. Repair could not reopen the captions (IpBlocked), so an audio check of that span is added to the research tasks."
+		},
+		{
+			"finding_id": "verify-03",
+			"action": "fixed",
+			"reason": "Fixed within the test's constraint that every verified detail and protected passage survives. The body goes from 4,373 to 4,258 words (checkDraft). Each recurring point is now argued once. The name-secure-move pattern is stated in full in the hook and summarized in the 54-word type answer. The type section's 'and how often, from 2021 to 2026, she guards against disappointment before it arrives', the Twitch section's 'What she describes is the Six sequence...' and this 'For a Six, trust works like infrastructure...' sentence are cut, and claims C46 and C63 are removed from the evidence. The Gunn remark is argued in full once (Superman & Lois section), referenced in one sentence in the Type 3 case, and dropped from 'Borrowed certainty' and FAQ 3. Hedge chains are consolidated so each concession is made once. 'It counts for less than it seems, though' becomes 'And the freedom was freedom to chase film...'. 'On her stated motives it is weaker, though not by a knockout' becomes 'The Seven case describes her energy well and her stated motives less well'. The repeated promotion caveat in the Type 3 case becomes 'Podcast candor cannot settle this one'. 'A Nine's going-along tends to be more general' becomes one labeled concession ('corroborates the reading more than it proves it'). The Oscar, 'Mommy, I do' and closing paragraphs are tightened, and the closing no longer re-quotes 'lightning in a bottle'. The prose makes no new factual claims. The remaining length is mostly quoted evidence the reviews asked for (the Type 3 case, Cosmopolitan, the film premise and timeline); cutting further would remove verified details, which the test rules out."
+		},
+		{
+			"finding_id": "verify-04",
+			"action": "fixed",
+			"reason": "FAQ 2 now says she 'told Variety she liked moving around a lot as a kid'. The unexplained-column sentence says 'the pleasure she described to Variety in her frequent childhood moves'. C106 and the type_hypothesis 'unexplained' field match her scope ('My dad's a Marine, so I grew up moving around a lot... new story, new place')."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The limits are real. Most of this evidence is her own account, given largely during a four-month press run for a film about a woman who loses control of herself. Promotion rewards a humble, fearless story. The reading below treats her statements as evidence of what she says and does, which is not proof of what she feels.",
+			"action": "changed",
+			"reason": "Only the relative window changed, to satisfy future-5: 'a four-month press run' became 'interviews between May and September 2026 while she promoted'. The safeguard stays in place beside the thesis: the promotional-incentive caveat and the 'not proof of what she feels' sentence are verbatim."
+		},
+		{
+			"passage": "The limits are real. Most of this evidence is her own account, given largely during a four-month press run for a film about a woman who loses control of herself. Promotion rewards a humble, fearless story.",
+			"action": "changed",
+			"reason": "Same passage as above. The biggest confound (press-run self-report on a film about control) is still named right where the thesis is stated; only 'a four-month press run' became the absolute window 'between May and September 2026' (future-5)."
+		},
+		{
+			"passage": "That quick turn toward freedom is the kind of reframe Type 7 is known for, and it counts for the alternative. It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"action": "kept",
+			"reason": "Kept verbatim. Fan-03's context (the 'like I graduated' frame, the film goal and the Cosmopolitan acknowledgment) comes around it. At repair the following hedge became 'And the freedom was freedom to chase film...' (verify-03), so the point still scores for the rival type and still labels the hindsight."
+		},
+		{
+			"passage": "It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"action": "kept",
+			"reason": "Kept verbatim. The 2023 TikTok reaction (S32) is still unopened, so the statement remains accurate. The Cosmopolitan line added after it is also 2026 hindsight."
+		},
+		{
+			"passage": "A Six story would be easier to tell if the moving had hurt. She says it didn't.",
+			"action": "changed",
+			"reason": "Fan-01 (major) showed that 'She says it didn't' is too categorical for her record, so it is scoped to 'In her Variety telling, it didn't.' The first sentence is verbatim, and the paragraph still declines a ready-made military-kid wound and credits the counterevidence to Type 7 ('a genuine point for the Type 7 reading'). At repair the paragraph's closing clause 'and it belongs on the scale' was cut (verify-03); 'That is a genuine point for the Type 7 reading' remains."
+		},
+		{
+			"passage": "Toddlers of every type insist on doing it themselves, so the anecdote proves little on its own.",
+			"action": "kept",
+			"reason": "Kept verbatim. At repair the next sentence was tightened to 'What matters more is that her later independence was built with a partner' (verify-03)."
+		},
+		{
+			"passage": "Privacy is common to several types and simply sensible for someone who became famous at 25, so it supports the portrait more than the type.",
+			"action": "kept",
+			"reason": "Kept verbatim. The privacy paragraph moved into 'Mommy, I do' when the costs section was merged (unfamiliar-05)."
+		},
+		{
+			"passage": "He screamed alongside her: \"he would scream with me. And then he would stop and then I would stop. And he was like, 'No, what are you doing? Come on, go go go go on.'\"",
+			"action": "kept",
+			"reason": "Kept verbatim in the hook, and rechecked against the captions (S09 21:22-21:30)."
+		},
+		{
+			"passage": "Once she could drive herself, that buffer was gone, and she replaced it with a rule of her own",
+			"action": "kept",
+			"reason": "Kept verbatim. It now also serves as the self-built example in the pattern sentence and the ending."
+		},
+		{
+			"passage": "she brought a zodiac book and wrote out the signs \"from Aries all the way to Pisces.\"",
+			"action": "kept",
+			"reason": "Kept verbatim."
+		},
+		{
+			"passage": "When a scene called for Nikki to move backward, she tried and tried, coaching herself by her birth name: \"Danielle, hold it together. You can do this.\"",
+			"action": "kept",
+			"reason": "Kept verbatim."
+		},
+		{
+			"passage": "In April 2023, with renewal in doubt, she told Just Jared Jr. that even a public statement from DC's James Gunn did not settle it for her",
+			"action": "changed",
+			"reason": "Corrected a false detail found when S22 was re-fetched at repair: she said this on The Wayne Ayers Podcast, and Just Jared Jr. reported it on April 7, 2023, so 'she told Just Jared Jr.' was a misattribution. It now reads 'In a podcast interview released in April 2023, with renewal in doubt, she said that even a public statement from DC's James Gunn did not settle it for her', and the link credits '_The Wayne Ayers Podcast_, as reported by Just Jared Jr.' The passage's contribution (pre-fame, contemporaneous caution about an authority's reassurance) is kept, and it now gets her fuller words ('a little bit of 50-50') and the honest weighting verify-01 required."
+		},
+		{
+			"passage": "What the Six reading does not explain matters just as much. It struggles with the piercing on the same day as the skydive, with the \"random\" tattoos, and with \"I don't think that far ahead,\" which cuts against the anticipation Sixes usually show.",
+			"action": "kept",
+			"reason": "Kept verbatim. Only the following sentence changed, first to scope the moves to her Variety account (fan-01) and at repair to 'her frequent childhood moves' (verify-04)."
+		},
+		{
+			"passage": "By her account, Barker answered with a schedule. He booked days where it was just the two of them, and only once she was comfortable would she scream in front of anyone else.",
+			"action": "kept",
+			"reason": "Kept verbatim. The sentence after the scream quote now reads 'There was also a game of charades', because she says 'we played a charades game' without saying who played (the verifier's C48 qualification). Critic-05's note that the plan was Barker's still follows."
+		},
+		{
+			"passage": "Doubt is the named enemy, and the defense is a structure set up in advance.",
+			"action": "kept",
+			"reason": "Kept verbatim."
+		},
+		{
+			"passage": "When she was hit by a car during production and couldn't walk between takes, she sat beside the directors of photography, who \"always scared me,\" and started asking about lenses.",
+			"action": "kept",
+			"reason": "Kept verbatim."
+		},
+		{
+			"passage": "On the _Obsession_ set, that room took a schedule, a charades game and a director willing to scream first. Her next roles will show how much of it she now carries on her own.",
+			"action": "changed",
+			"reason": "The callback image is kept almost verbatim ('On the _Obsession_ set, that room took a schedule, a charades game and a director willing to scream first'). Critic-05, subject-06 and fan-07 required changing the second sentence: it no longer implies a deficit or unknown roles. It now sets the S16 'up to me to make myself comfortable' line against the callback and closes on an open question ('will keep testing which habit leads')."
+		},
+		{
+			"passage": "It also fits a shy Six gaining nerve, and the public record cannot separate the two.",
+			"action": "kept",
+			"reason": "Kept verbatim."
+		},
+		{
+			"passage": "Doubt is the named enemy, and the defense is a structure set up in advance. Five years later she was still quoting her mother's version",
+			"action": "changed",
+			"reason": "The first sentence is verbatim. Critic-07 showed that 'still quoting her mother's version' invented continuity between two different lessons, so the second sentence now reads 'Five years later she credited her mother with a second lesson that pulls the other way'. The cross-time link from a pre-fame 2021 source to 2026 survives, now with the more interesting tension named."
+		},
+		{
+			"passage": "Privacy is the most durable trait in the record. In 2021 she told CBR, \"I feel as though my stuff is my own and I'm very private about that.\" In 2026 she told Nylon, \"I'm a very private person.\"",
+			"action": "kept",
+			"reason": "Kept verbatim. A Nylon citation link now follows the closing quote, and the paragraph moved into 'Mommy, I do'."
+		},
+		{
+			"passage": "The Six reading says what to watch for: whether she can keep taking risks without first building the safe room.",
+			"action": "changed",
+			"reason": "It still ends on a falsifiable prediction ('The Six reading says what to watch for: whether she keeps taking risks...'). 'Without first building the safe room' became 'when no one has built the safe room for her first', because critic-05 showed Barker built the room. The tracking future-2 asked for is added as claim C91 with dated triggers."
+		}
+	],
+	"prior_blockers": []
+}

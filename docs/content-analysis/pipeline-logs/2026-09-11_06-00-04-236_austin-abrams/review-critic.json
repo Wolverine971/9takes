@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "3b7c006f101ebfdec8500bde8a7f1f166d4f61e6cec077ee7d44162acf7c8101",
+	"evidence_sha256": "f61062887b9f847f5b666bbd648d9685af83c0578163da32c5d23567e5d00721",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "Still, the same answer across nine years and very different projects is a real pattern, and the one decision that plainly cost him time followed it exactly.",
+			"problem": "The draft calls the Weapons holdout the one decision that 'plainly cost him time' and later 'the one costly holdout', but no source in the packet documents a cost. The delay came from the 2023 strikes, which halted production for everyone. THR's 'willing to wait it out and not pursue other work' is the reporter's framing, as the draft itself notes. Asked 'Did you just get lucky to not have any other conflicts?', Abrams answered 'No, not necessarily' (THR 2025-08-11, S09, reopened), which names no declined offer. The next section of the draft concedes 'the record cannot show what offers, if any, he turned down.' The choice also paid off ('I don't think it hurt anything. If I did something else instead of Weapons, I certainly don't think that would've helped me do something like Resident Evil'). The standard sets the Enneagram bar at a motive that explains repeated costly choices, so calling an uncosted choice costly inflates the Nine reading's strongest test case.",
+			"acceptance_test": "Every description of the holdout as costly ('plainly cost him time', 'the one costly holdout') either cites a source for a concrete sacrifice (a declined offer, lost work, a stated trade-off) or is reworded to say that no cost is documented. The type argument no longer counts the holdout as a costly choice unless such a source is added."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "His choices lean the same way. The yeses name people before parts, and the one costly holdout is explained entirely by attachment. On the Four reading, _Weapons_ would more likely come with an account of what the part meant to him.",
+			"problem": "Sources already in the packet contradict this discriminator. The Brad's Status answer names 'A perfect script' before Ben Stiller (S37). To EW he said 'I loved the part and I didn't wanna let it go' (S11). In Hunger 2025 (S08, reopened), asked what makes him think he needs to play a character, he said: 'Sometimes you just feel something inside... it lights you up... it's just that feeling of 'I have to do this. I can't let this go. I'll do whatever I need to make it happen'. With Weapons, I definitely felt that. I really love the director, and the character had so many different possibilities to explore. That combination made it one of those projects I knew I couldn't pass up.' In The Italian Rêve 2024 (S07, reopened), asked 'what makes you say yes to a new project?', he said: 'A lot of times it's the people involved, and if you feel excited about it... most of the time it's the people and the writing,' citing reading the Weapons script from 1 a.m. to 3 a.m. So Weapons already comes with an account of what the part meant to him, the very evidence the draft says a Four would provide and that is missing. The draft says the Nine lead is narrow, and this sentence is what it rests on.",
+			"acceptance_test": "The sentence is removed or rewritten to match the record. The Hunger 'I have to do this' answer and the Italian Rêve 'the people and the writing' answer appear in the draft or are accurately summarized with attribution. 'People before parts' no longer appears as a general claim. The draft either names a 9-versus-4 discriminator that survives this evidence, or it lowers confidence or declares the call unresolved. The FAQ answer to 'Could Austin Abrams be an Enneagram Type 4?' is updated to match."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "That last sentence is the most revealing thing he has said about his choices. His enthusiasm is kindled by someone else's.",
+			"problem": "Its context in Complex (S33, reopened) weakens the line the draft calls his most revealing statement. It comes right after he admits he never played the Resident Evil games because 'I would try to play them and then just get too freaked out.' Complex frames it as his reaction 'when offered the role', after Cregger had 'locked him in' with no other actor considered. When a non-fan explains why he accepted a franchise lead offered by the director of his last film, crediting the director is the expected junket answer, not a spontaneous account of his motivation. This section also leaves out his general answers about how he chooses work, and those point inward. Hunger 2025: 'when it comes to choosing projects, I like to go with what feels right in the moment.' Cero 2024, on projects that interest him: 'It's understanding what's actually going on inside of your body and what your body is leaning you towards, like why you should do it or shouldn't do it.' The draft uses the neighbouring Cero anxiety line only in the Type 6 section. 'His enthusiasm is kindled by someone else's' is stated as fact, with no qualifier.",
+			"acceptance_test": "The section gives the Complex question context: he had not played the games, and the part was offered to him. It includes at least one of his general answers about choosing projects (Hunger 'what feels right in the moment' or Cero 'what your body is leaning you towards'). 'Kindled by someone else's' is labelled as inference. The draft either explains why the Nine reading survives these inward-facing answers or stops calling the Complex line the most revealing thing he has said about his choices."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "On _Resident Evil_, with heavy bodies falling around him, it was \"a little bit terrifying,\" he said, and his concern was the shot: he did not want to ruin a take \"because it takes so long to reset.\"",
+			"problem": "The truncation shifts the meaning toward the thesis. Dread Central (S32, reopened) quotes him in full: 'it was a little bit terrifying because these super heavy things are falling and you're really hoping you don't slip and stuff. But I was just like, I don't want to fuck up the shot, too, because it takes so long to reset... it was a new kind of path that I needed to go down so that things would be close, but so it wouldn't actually happen.' He voiced both concerns ('too'). Two paragraphs later the draft concludes 'Once he has merged with a project, his own safety and image drop out of view.' Other adverse evidence is missing too. Collider 2024 (S18, reopened), on what he learned from Pitt and Clooney: 'seeing how they protect themselves... you gotta be careful because then you'll just be run thin... We all have to have boundaries.' In the same THR answer the draft quotes (S29, reopened), Duffield credits stunt coordinator Shauna Duggins for the fact that 'Austin never got hurt.'",
+			"acceptance_test": "The Resident Evil sentence reports his safety concern ('you're really hoping you don't slip') as well as his concern for the shot. The claim that 'his own safety and image drop out of view' is either qualified as inference from Duffield's account that conflicts with Abrams's own, or revised to deal with the Dread Central safety line and the Collider 'boundaries' line."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"problem": "This picks one reason from an answer that gives three. In the same Coup de Main reply (S02, reopened) he said: 'I didn't know what to talk about... Nothing felt important enough to say'; 'I kept going on there and using my time and looking at all these pictures and I just didn't understand why I was doing it'; and 'I'm not very interested in showing people my life. Just doing this interview and talking about myself... feels somewhat frightening.' The third reason is exactly the guarding-from-display the draft says he did not describe, and the draft uses it as its own hook. In the same interview he says he wrote songs 'for myself' and refuses to share them ('No! No!'). The comparison with other private actors has no source. The passage feeds the Type 4 section's discriminator ('Add the 13-year-old with nothing important enough to say') and claim C52, so the self-minimizing reading looks stronger than the record allows.",
+			"acceptance_test": "The passage reports the display-averse and time-wasting reasons from the same answer alongside 'nothing felt important enough to say.' The generalization about private actors is dropped or sourced. The Type 4 section no longer counts the 13-year-old line as evidence of self-minimizing, unless the draft explains why it outweighs the 'showing people my life' reason he gave in the same breath."
+		},
+		{
+			"id": "critic-06",
+			"severity": "major",
+			"passage": "His biggest choices follow people he admires and a felt pull, and when asked about himself he stresses how alike people are.",
+			"problem": "The headline type answer states the sameness discriminator more strongly than the body does. So do the FAQ ('when asked about himself he stresses how alike people are'; 'asked about himself, reaches for sameness over difference'). The body concedes that three of the four sameness lines answer questions about empathy for a character and that 'Only the lone-wolf answer is directly about himself.' That one line depends on its question. The Italian Rêve question (S07, reopened) was a Wolfs pun that offered a binary: 'Do you identify as a lone wolf yourself? Or rather a social animal?' He picked the offered option and went on: 'there are times when you want to spend time alone and times when you want to see people more.' The other supporting line, 'the man who feels _Wolfs_ wasn't him', comes from a Herald-Tribune answer (S12, reopened) that begins 'sometimes I'll think \"I can't really believe I did that\"... Because I just watched those guys growing up.' That expresses disbelief at a big break, not an interchangeable self. So the claim readers see in the type answer, the FAQ and search snippets rests on a discriminator the body itself nearly dissolves.",
+			"acceptance_test": "The type answer, the FAQ answers on Type 9 and Type 4, and the body state the discriminator at the same strength. The draft gives the binary wording of the lone-wolf question, or stops counting that line as self-description. The Wolfs 'wasn't me' line is either quoted with its 'I can't really believe I did that' context or removed from the sameness argument."
+		},
+		{
+			"id": "critic-07",
+			"severity": "major",
+			"passage": "That makes _Whalefall_ the purest test of the pattern so far: the actor whose yeses follow other people will spend most of a film alone on screen.",
+			"problem": "The test confuses screen time with motive: being alone on screen says nothing about why he chose the project. The record already bears on the real question, and the draft does not examine it. Whalefall is the source of the draft's strongest evidence of commitment (95 percent-plus of the stunts, the 'you'll die' arguments, the ADR retakes). Duffield says Abrams 'auditioned for the movie, and it was way before Weapons had come out' (S28), and nothing in the packet gives an admired-person reason for pursuing it. So the draft counts Whalefall as proof that a Nine merges with a project, while its proposed Nine mechanism (yeses follow admired people) has no support in that case. The closing criterion, 'whether he ever commits this hard to a project with no admired person at its center', can always be met after the fact by nominating Duffield or Brolin, which makes it unfalsifiable.",
+			"acceptance_test": "Either the ending reports what the record says about why he took Whalefall (the audition, plus any stated reason) and tests the people-following pattern against it now, or it states a test that does not equate being alone on screen with motive and says in advance what would count against the Nine reading. Time-sensitive claim C86 keeps its review trigger."
+		},
+		{
+			"id": "critic-08",
+			"severity": "minor",
+			"passage": "yet a director had to stop him doing stunts that could kill him",
+			"problem": "The description, and the body sentence 'arguments over stunts that could kill him', present Duffield's comic hyperbole as fact. In the same THR answer (S29, reopened) Duffield says 'everything in the full movie was dangerous, but Austin never got hurt. It's a real testament to Shauna Duggins, our stunt coordinator', and he credits 'great stitching with stunt performers and CG.' The hook quotes Duffield accurately. The paraphrases drop the attribution and the context of supervised stunts, which overstates the article's central contradiction.",
+			"acceptance_test": "The description and the body paraphrase attribute the lethal framing to Duffield (for example, 'his director says he kept having to warn him off stunts') instead of asserting that the stunts could kill him. The Fear section notes once that a stunt coordinator ran the stunts and that he was never hurt."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The man who finds an interview frightening is the one his director has to hold back.",
+			"reason": "A specific, sourced organizing contradiction that the article comes back to and never resolves cheaply. Keep the juxtaposition even if the paraphrases around it are corrected (critic-08)."
+		},
+		{
+			"passage": "The Hollywood Reporter called it a \"loyal gesture\" and described him as willing to wait it out rather than pursue other work. That framing is the reporter's.",
+			"reason": "A model separation of a reporter's framing from the subject's own account; it is exactly the discipline the critic role tests for."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem.",
+			"reason": "The draft honestly discounts its own evidence. Keep it, and bring the metadata and type answer up to its level of candour (critic-06)."
+		},
+		{
+			"passage": "Longing for a past he suspects was bad is classic Four texture, and nothing in the Nine reading predicts it.",
+			"reason": "It concedes adverse evidence plainly instead of explaining it away with wings or arrows."
+		},
+		{
+			"passage": "The largest puzzle is exposure. A man who says talking about himself feels frightening keeps choosing the most physically exposed work available: the underwear chase in _Wolfs_, a dance number in _Euphoria_'s second season, a film spent inside a whale.",
+			"reason": "A distinctive, verified contradiction that survives the type argument and is left open. It is the most original insight in the piece."
+		}
+	],
+	"assessment": "Critic pass. For context I reopened S02, S03, S07, S08, S09, S12, S18, S29, S32 and S33; every quotation I checked matches its source. The draft is unusually honest about its limits: it separates the reporter's framing from self-report, names promotional incentives, gives Type 4 a strong section of its own and leaves the exposure puzzle open. Even so, the Nine argument's causal story is more attractive than its support, and each of its three load-bearing supports weakens in context. (1) The people-following mechanism rests on the Complex line, in which a non-fan accepts a role he was offered, while his general answers about choosing work (Hunger, Cero, Italian Rêve) point to an inner felt pull and to 'the people and the writing'. (2) The Weapons test case is called costly with no documented cost, and Hunger already contains the account of what the part meant to him that the draft says a Four would give. (3) The self-minimizing and sameness evidence comes down to one answer to a lone-wolf pun, a 13-year-old's answer that also gives a display-guarding reason, and a Wolfs line that expresses disbelief. The self-forgetting reading also cuts a safety concern out of the Dread Central quote. The problems are selection and framing, not fabrication, but once they are fixed the 9-over-4 margin may disappear. If the editor cannot name a discriminator that survives the Hunger, Italian Rêve and Cero answers on choosing projects, the honest result is lower confidence or an unresolved 9/4 call. That would be a thesis change requiring the --refresh --expanded-review path. The similarity diagnostic did not trip: the max score of 0.046 equals the noise-floor max, and the top pairs share no phrases beyond generic 'this profile' diagnostic language. The details (Pierrot le Fou, Barbarian, the whale) are specific to this subject, so there is no reuse finding. Risk flags: contested_typing remains true, and there are no sensitive allegations."
+}

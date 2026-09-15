@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "3b7c006f101ebfdec8500bde8a7f1f166d4f61e6cec077ee7d44162acf7c8101",
+	"evidence_sha256": "f61062887b9f847f5b666bbd648d9685af83c0578163da32c5d23567e5d00721",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "That makes _Whalefall_ the purest test of the pattern so far: the actor whose yeses follow other people will spend most of a film alone on screen.",
+			"problem": "The ending is pinned to a release on 2026-10-16 that cannot test the motive. The yes to Whalefall came at an audition \"way before Weapons had come out\" (Duffield, Screen Rant S28, reopened 2026-09-11). Principal photography began June 2025, and his commitment is already documented by the draft's own hook. A release date shows only screen time, not why he chose the project. After October 2026 the section reads as a stale pending test. The record also already bears on the closing criterion (\"whether he ever commits this hard to a project with no admired person at its center\"). His most intense documented commitment, 95 percent-plus of the stunts plus arguments over stunts that could kill him, came on a project he entered by audition. No admired-person pull is sourced for Duffield or Brolin. The draft omits the audition, so the one data point that could count against the thesis is presented as the future instead of confronted. The release paragraph (\"premieres at Fantastic Fest on September 17\") also goes stale six days after accuracy_checked_at.",
+			"acceptance_test": "The closing argument still stands with every release date, \"so far\" and future-tense \"will spend\" removed. The body states the S28 audition fact and either (a) confronts Whalefall as a maximal commitment with no documented admired person at its center, or (b) cites a source showing he sought Duffield or Brolin. Any forward-looking criterion is phrased as something observable in future public records (for example, a long-form account of why he took a part), not tied to a release. At publication, the Resident Evil and Whalefall sentences are in the correct tense for that date, and C86 is removed or its trigger rewritten to match the new closing."
+		},
+		{
+			"id": "future-02",
+			"severity": "major",
+			"passage": "He has never had social media.",
+			"problem": "This is a changing status claim written in the present tense. It anchors a section, the FAQ \"Why is Austin Abrams not on social media?\" (\"He has never had it.\"), and the Type 3 paragraph (\"has stayed off social media through years when follower counts became casting currency\"). The latest primary confirmation is Hunger, 2025-09-16, a year before accuracy_checked_at. Yet C08, C61, C95 and C101 are all marked stable with empty review triggers. A web search on 2026-09-11 surfaced only fan and namesake accounts, with no verified account. That is not a primary confirmation. If he opens an account within five years, the FAQ, section and Type 3 rebuttal become false with no trigger to catch it.",
+			"acceptance_test": "Every present-tense status sentence in the body and FAQ is anchored to its latest source (for example, \"As of his September 2025 Hunger interview, he had never had social media\"), or a newer primary source is added. The evidence record carries a time_sensitive claim for the status with a review_trigger such as: \"At each refresh, check for a verified account; if one exists, revise the section, the FAQ answer and the Type 3 paragraph.\""
+		},
+		{
+			"id": "future-03",
+			"severity": "minor",
+			"passage": "The man who finds an interview frightening is the one his director has to hold back.",
+			"problem": "The organizing contradiction sets a 2019 self-report, made at 22 before he was a lead, against 2026 director testimony about him at 29, and renders both in the present tense. The description does the same (\"Austin Abrams says talking about himself feels frightening\"), as does the exposure paragraph (\"A man who says talking about himself feels frightening\"). By 2026 he gives joint cover-story interviews, and no post-2019 source repeats the fear of self-disclosure. Five years on, search-facing metadata would present a 12-year-old quote as a current trait.",
+			"acceptance_test": "The description, the pivot sentence and the exposure paragraph either date the self-report (for example, \"said at 22 that...\") or pair it with a post-2023 source for the same discomfort. No present-tense trait attribution rests solely on the 2019 Coup de Main interview."
+		},
+		{
+			"id": "future-04",
+			"severity": "minor",
+			"passage": "even in a recent dubbing session",
+			"problem": "This is relative time with no anchor. THR (S29, reopened directly 2026-09-11) says \"the ADR sessions we did a couple of weeks ago\" in an interview dated 2026-06-11. Read in 2030, \"recent\" is wrong.",
+			"acceptance_test": "The phrase carries an absolute anchor, for example \"in an ADR session a couple of weeks before that June 2026 interview\", and no other undated \"recent\", \"now\" or \"latest\" remains in author prose."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "Across nine years of interviews, Abrams describes his big decisions as following someone",
+			"problem": "\"Nine years\" is computed from the 2026 publication date. It is repeated in \"the same answer across nine years\". Once a refresh adds interviews, the span silently becomes wrong, and readers cannot tell which years are meant.",
+			"acceptance_test": "Both spans name their endpoints (\"from 2017 to 2026\"), or \"nine years\" appears alongside explicit years."
+		},
+		{
+			"id": "future-06",
+			"severity": "minor",
+			"passage": "That last sentence is the most revealing thing he has said about his choices.",
+			"problem": "The superlative crowns a line from a joint junket with Cregger published 2026-09-04, two weeks before release. The hook is also June 2026 promotion. With the 2026 material removed, the thesis survives: the 2017, 2019 and 2024 yes-answers and the 2023 Weapons holdout carry the pattern. The emphasis, however, will age as long-form interviews accumulate over the next five years, and the superlative has no scope.",
+			"acceptance_test": "The superlative is removed or scoped (\"in the record through 2026\"). The surrounding paragraph shows the pattern stands on the pre-2026 instances without depending on the Complex line."
+		},
+		{
+			"id": "future-07",
+			"severity": "minor",
+			"passage": "He is not part of _Euphoria_'s third season, which premiered in April 2026; Wikipedia reports that he departed in February 2025",
+			"problem": "This status note plays no part in the argument, and it is attributed to Wikipedia, a mutable source, rather than to the Deadline and Variety reports of 2025-02-14 that Wikipedia cites (neither was opened). The departure is also the one documented exit from a long collaboration. The draft's own discriminator names that kind of evidence (\"a documented break with trusted collaborators\"), yet it sits unexamined. His only recorded explanation is \"There were so many different factors\" (THR, 2025-08-11).",
+			"acceptance_test": "The sentence is either cut, or kept with his dated words and a primary casting report instead of \"Wikipedia reports\". If kept, the text says whether the exit bears on the Nine/Four discriminator or that the record cannot tell."
+		},
+		{
+			"id": "future-08",
+			"severity": "minor",
+			"passage": "Austin Abrams fits Enneagram Type 9 best, at medium confidence.",
+			"problem": "The typing is flagged contested and held at medium confidence, and the draft names the future evidence that would move it to Four. Yet the type-answer claim (C89), the Nine/Four crux (C53) and the FAQ restatement are recorded as stable with empty review triggers. Only C97 (\"has not publicly named a type\") has a trigger. Nothing in the record prompts a maintainer to re-test the thesis when new long-form interviews appear.",
+			"acceptance_test": "C89 (or a new claim covering the type answer and its FAQ) is marked unresolved with a review_trigger naming the discriminator evidence: a long-form, non-promotional interview framing his choices around identity, uniqueness, envy or lack; a documented break with trusted collaborators for private emotional reasons; or a project choice he explains by the role rather than the people."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Long-form, non-promotional material in which he frames his choices around identity, envy or lack would move this profile toward Four. So would a documented break with trusted collaborators for private emotional reasons.",
+			"reason": "A concrete, event-independent falsification test. It keeps the typing useful and correctable for years without depending on any release."
+		},
+		{
+			"passage": "His account names only attachment: a filmmaker he loved, a part he loved, and holding on until the project could move again.",
+			"reason": "The Weapons holdout (2023, reported 2025) is the costly, dated choice that carries the thesis once the 2026 promotional material is removed. This sentence keeps his account separate from the reporter's framing."
+		},
+		{
+			"passage": "That was an attitude stated at 22, and no source documents a role he lost. Six years and several leading roles later, he had not changed course.",
+			"reason": "A model of durable handling: it dates the statement, states the evidentiary limit, and tests the attitude across time instead of asserting it."
+		},
+		{
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"reason": "A distinctive observation specific to this person that does not depend on any current status or event."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem. Only the lone-wolf answer is directly about himself.",
+			"reason": "Honest discounting of the draft's own key discriminator. This kind of self-limitation keeps the argument credible as new evidence arrives."
+		}
+	],
+	"assessment": "Five-year test: the thesis mostly passes. With every 2026 item removed (the Duffield hook, the Complex \"gets me passionate\" line, the Dread Central casting remark and the whale section), the argument still rests on the 2017, 2019 and 2024 people-first answers and on the 2023 Weapons holdout, all dated and self-reported. The release claims are correctly tracked as time_sensitive (C47, C84, C86, C97). Durability weakens in three places. (1) The closing makes a pending release the \"test\", although the choice was made at an audition before August 2025 and the commitment is already documented. The draft never mentions that audition, and it bears directly on the closing criterion. (2) The present-tense \"never had social media\" status rests on a September 2025 source with no review trigger. (3) The organizing contradiction presents a 2019 self-report as a current trait, including in the description. Absolute dates are otherwise consistent, with a few relative spans to fix. Sources reopened for this review on 2026-09-11: S28 (audition confirmed), S29 (fetched directly; ADR \"a couple of weeks ago\" confirmed; no reason for joining Whalefall found), S31 (no casting information; Brolin appears in flashbacks). A web search found no verified social account, only fan and namesake pages, which is not conclusive. Similarity advisory: nothing tripped. The top matches (max 0.046, against Nate Bargatze) pair generic limitation and counter-typing sentences with no shared phrasing or argument, so there is no meaningful reuse. I kept the contested_typing risk flag."
+}

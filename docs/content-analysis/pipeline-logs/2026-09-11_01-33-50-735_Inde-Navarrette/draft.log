@@ -1,0 +1,23 @@
+I wrote both output files for the draft stage, and they pass the pipeline's own checks. Nothing was published and no other repo files changed. `git status` shows only the two new files; everything else listed there was written by the pipeline runner. The profile is unpublished, with no blockers carried over (it's a new profile).
+
+**The story.** It opens with a scene: the lead of 2026's biggest horror hit told her director she didn't know how to scream. He booked private sessions, screamed alongside her, and had the cast play charades. That sets up the pattern the piece follows: she names the fear, finds someone or something that makes it safe, then commits fully.
+- **The deciding evidence** is that she deleted her own Twitch archive because people might not "take me seriously." She admitted the fear was "not based on fact" and later said "my fear was for nothing." Her Oscar "safety net" and her rituals "to keep myself secure" show the same move.
+- **The strongest alternative, Type 7**, sits right next to that argument: skydiving plus piercings on her 18th birthday, "I don't think that far ahead," and "Dog, you're free." Type 4, 9 and 8 get shorter treatment, and what Type 6 can't explain is stated plainly.
+- **The ending** is her line to Nylon that she wants to "fall on my face publicly," which cuts against the fear pattern.
+
+**Checks:**
+- **Draft:** no blockers, 3,620 words (I cut from 3,940 to get near the 2,000–3,500 target), a 57-word type answer, description 164 characters, meta title 52.
+- **Evidence file:** 65 claims, each matching the draft word for word; 36 sources kept. No claim relies on a source that couldn't be opened.
+- **Quotes:** I checked every one against the source text, fetching the web articles again and using the video transcripts saved during research. That caught one error: "I felt seen, I felt heard" was about another film, not the _Obsession_ script, so I reworded it.
+
+**Deliberately left out:** her full birth date (only third-party profiles have it), the "11 schools" figure, the relationship rumor, the mental-health line, X-Men and SNL (upcoming news that isn't needed and would date the piece), and the Hot Ones lines where it's unclear who is speaking.
+
+**Still open for the review stages:**
+- The video quotes were checked against YouTube's auto-captions, not the audio. The four key passages to spot-check are listed in the evidence file.
+- One caption where she hands the backward-walk problem to Barker is garbled; the draft only paraphrases that moment.
+- Three names to confirm: "Sarah Cushing" (one outlet uses Cortez), "Cooper Tomlinson" as the actor who plays Ian, and whether Capstone should be called "the studio."
+- The box-office figure needs a fresh check before publishing.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette/`:
+- `draft.md`
+- `evidence-draft.json`

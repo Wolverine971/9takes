@@ -1,0 +1,28 @@
+I've written the unfamiliar-reader review of the Austin Abrams draft to `review-unfamiliar.json` in the run folder. It passes the review schema, its hashes and role match the request, and every quoted passage matches the draft word for word. I didn't change any other file or publish anything.
+
+The review has 8 findings: 5 major and 3 minor. Major findings block the draft until the edit stage fixes them.
+
+**Major:**
+1. **He's introduced too late.** Nothing says who he is (Euphoria, Weapons) until about 700 words in. The opening names *Whalefall*, which doesn't come out until October 16, 2026, and the article only says so in its last section. The description doesn't name a credit either.
+2. **The opening's promise gets taken back.** Paragraph 3 says "the key to that gap is where his energy comes from." The ending reopens the same contradiction and says "the public record cannot yet settle it."
+3. **The director's stunt story is counted three ways.** Brian Duffield's account is used as evidence for Type 9, as the most Type 3-like detail, and as something Type 9 can't explain.
+4. **The type answer claims more than the body supports.** The answer box and two FAQs say that "when asked about himself he stresses how alike people are." The body admits only one of those four quotes is actually about himself.
+5. **The closing "whale test" doesn't test anything.** The pattern is about how he picks projects. *Whalefall* was already chosen and shot, and the draft never says how he got the part. The evidence file says he auditioned before *Weapons* came out, so that film may already confirm or break the pattern.
+
+**Minor:**
+- **The Weapons holdout lacks stakes.** It never says how long he waited or how the film did.
+- **The same move repeats.** Many sections end with "On the Nine reading…" followed by a caveat, which drags the back half. The body is about 3,850 words, over the 3,500-word target.
+- **Small gaps for new readers:**
+  - Type 9 is never linked to its Enneagram Corner page, even though the page exists and Types 3, 4 and 6 are linked.
+  - Type 3 gets no short explanation.
+  - "Jon" (Watts) is never named.
+  - Josh Brolin comes up before the reader knows he's in *Whalefall*.
+
+**Passages to protect (5):**
+- the Duffield opening
+- the insight that at 13 he had "too little to say" rather than something to protect
+- "His enthusiasm is kindled by someone else's"
+- the *Pierrot le Fou* quote on his wall
+- the draft's honest admission that three of its four "sameness" quotes count for less than they seem
+
+The similarity check found no meaningful reuse. The closest match, to the Nate Bargatze profile, shares no phrases and only lines up on generic caveat sentences. Contested typing stays flagged, and I didn't add any new risk flags.

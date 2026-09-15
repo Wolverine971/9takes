@@ -1,0 +1,24 @@
+I've written all three outputs for this repair stage. Nothing was published, and no input files were changed.
+
+**Fixes for the verifier's findings (sources re-opened on 2026-09-11 to confirm wording):**
+- **Wolfs (verify-01, which also clears fan-03):** I deleted the claim that he took _Wolfs_ after reading the underwear script. The article now says he came to the film knowing little ("All I got was the interrogation scene," IndieWire). It quotes Collider's question with its own premise, and names _Whalefall_, which he auditioned for, as the only exposure he plainly chose.
+- **Social media (verify-02):** The body, the FAQ and the opening no longer say he "never had" social media. They now say he had Facebook at 13, and that as of the September 2025 Hunger interview he had no Instagram presence. His 2019 line "I've never had it" appears as his own words.
+- **Hunger quote (verify-05):** The quote now keeps its full hedge ("Honestly, it just depends…"). The article also admits he says "Everything still comes from within" and "it's always you," and explains in one clause why that isn't a Type 4 sign.
+- **Smaller fixes:**
+  - The type answer and FAQ 1 now say he credited a director's passion once, in 2026, which matches the body (verify-06).
+  - The "three, four weeks" quote is now credited to IndieWire, not Screen Rant (verify-04).
+  - The ET Online date is corrected to February 20, 2022 (verify-03).
+  - Four new claims cover the new or repeated passages, and a leftover reference to a deleted claim is removed (verify-07).
+
+**Checks:**
+- The article passes the draft checks with no blockers at 4,247 words, and the type answer is 59 words.
+- The evidence file validates against the article, so every claim's passage matches exactly.
+- All 45 reviewer findings and all 17 protected passages are recorded. Every passage marked "kept" still appears word for word.
+- I also corrected an edit-stage decision (enneagram-02) that quoted a sentence the article doesn't contain.
+
+**This article may still be held after re-verification.** The verifier scored Enneagram 7.5, Evidence 7.5 and Overall 7.9; the gates need 8, 8 and 8.5. These repairs remove the factual errors behind the Evidence score. But the Enneagram score reflects a thin positive case for Type 9, and I can't fix that honestly without new sources, so I didn't inflate it. Confidence stays at medium with a narrow margin over Type 4.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

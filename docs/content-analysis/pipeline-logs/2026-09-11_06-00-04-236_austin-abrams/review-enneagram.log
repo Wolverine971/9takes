@@ -1,0 +1,16 @@
+I wrote the enneagram review for the Austin Abrams draft. It's in `review-enneagram.json` in the run folder, and it passes the contract's schema check. The content and evidence hashes match the request, and every quoted passage appears word for word in the draft. I didn't change or publish anything else.
+
+**Verdict:** the profile is honest and careful, but the case for Type 9 is weaker than the plain-language answer at the top makes it sound. The review has 7 findings: 5 major and 2 minor.
+
+- **"People before parts" is cherry-picked (major).** When asked how he picks roles, he names the writing, the character and a gut feeling of "I have to do this," alongside the director. That's in Hunger 2025 and The Italian Rêve 2024. The Type 4 section says a Four would explain what the *Weapons* part meant to him, but he did explain it, and the draft itself says he loved the part.
+- **The "stresses how alike people are" line is overstated (major).** The body admits three of the four lines are about empathy for characters. The fourth, the lone-wolf answer, is really about how much time he wants alone. The answer box, both type FAQs and the word "interchangeable" all claim more than that.
+- **The Duffield stunt story is counted on both sides (major).** It's used as support for Nine and also listed as something Nine can't explain. It also clashes with the claim that he defers to directors, since the story is him arguing against his director's veto.
+- **The Nine motive is never shown directly (major).** The draft defines Nine as keeping inner peace, but the evidence only shows behavior that fits it. He also states clear personal wants, like "I only want to work on things that I want to work on," which cuts against the usual Nine pattern. The draft describes the *Weapons* holdout as "holding still," but he describes actively holding on to something he wanted.
+- **Type 6 is dismissed with a stereotype (major).** His record mentions fear often, and he pushes through it into dangerous stunts, which is the risk-taking kind of Six. His trust in directors and his loyalty through the *Weapons* recast fit Six too. "A distant third" isn't justified.
+- **Minor:** calling the 13-year-old's Facebook line "the telling detail" ignores the songs from the same interview that he wrote only for himself and won't share. The anger line and a few other points are counted as support for Nine even though the draft admits they don't favour it.
+
+I also marked five passages to keep, including the draft's own admission that three of the four "alike" lines count for less, and its test for what would move the typing to Four.
+
+**Your call:** Nine can still hold at medium confidence if the edit leans on the "that gets me passionate" line and the *Weapons* holdout and concedes the rest. If the editor makes Six or Four the main type, that's a change of thesis. The pipeline will then hold it for a rerun with `--refresh --expanded-review`.
+
+I didn't re-verify every source; that's the evidence reviewer's job. To check my own findings, I reopened six sources today: Coup de Main, The Italian Rêve, Hunger, Complex and the two Hollywood Reporter pieces. The similarity check found no meaningful reuse from other profiles.

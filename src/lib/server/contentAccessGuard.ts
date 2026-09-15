@@ -34,7 +34,10 @@ export type SearchPreviewBotName =
 	| 'TelegramBot'
 	| 'OAI-SearchBot'
 	| 'Claude-SearchBot'
-	| 'PerplexityBot';
+	| 'PerplexityBot'
+	| 'ExaSearchBot'
+	| 'Qwantbot'
+	| 'Baiduspider';
 
 export type UserFetchBotName =
 	'ChatGPT-User' | 'Claude-User' | 'Perplexity-User' | 'Meta-ExternalFetcher';
@@ -45,7 +48,8 @@ export type TrainingCrawlerName =
 	| 'CCBot'
 	| 'Google-Extended'
 	| 'Applebot-Extended'
-	| 'Meta-ExternalAgent';
+	| 'Meta-ExternalAgent'
+	| 'Reflectionbot';
 export type HardBlockedReason = 'disallowed_ai_training_crawler' | 'unknown_bot_user_agent';
 export type ContentActorType = 'anonymous_human';
 export type ContentRequestKind = 'page' | 'data';
@@ -127,7 +131,10 @@ const SEARCH_PREVIEW_BOTS: BotDefinition<SearchPreviewBotName>[] = [
 	{ name: 'TelegramBot', pattern: /telegrambot/i },
 	{ name: 'OAI-SearchBot', pattern: /oai-searchbot/i },
 	{ name: 'Claude-SearchBot', pattern: /claude-searchbot/i },
-	{ name: 'PerplexityBot', pattern: /perplexitybot/i }
+	{ name: 'PerplexityBot', pattern: /perplexitybot/i },
+	{ name: 'ExaSearchBot', pattern: /exasearchbot/i },
+	{ name: 'Qwantbot', pattern: /qwantbot/i },
+	{ name: 'Baiduspider', pattern: /baiduspider/i }
 ];
 
 const USER_FETCH_BOTS: BotDefinition<UserFetchBotName>[] = [
@@ -144,7 +151,9 @@ const TRAINING_CRAWLERS: BotDefinition<TrainingCrawlerName>[] = [
 	{ name: 'CCBot', pattern: /\bccbot\b/i },
 	{ name: 'Google-Extended', pattern: /google-extended/i },
 	{ name: 'Applebot-Extended', pattern: /applebot-extended/i },
-	{ name: 'Meta-ExternalAgent', pattern: /meta-externalagent/i }
+	{ name: 'Meta-ExternalAgent', pattern: /meta-externalagent/i },
+	// Undocumented crawler from Reflection, an AI model lab; no stated search use.
+	{ name: 'Reflectionbot', pattern: /reflectionbot/i }
 ];
 
 const GENERIC_BOT_PATTERNS = [/\bbot\b/i, /\bcrawler\b/i, /\bspider\b/i, /\bscraper\b/i];

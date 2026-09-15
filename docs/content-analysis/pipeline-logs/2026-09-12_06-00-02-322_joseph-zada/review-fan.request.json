@@ -1,0 +1,20 @@
+{
+	"schema_version": 3,
+	"subject": "joseph-zada",
+	"mode": "create",
+	"role": "fan",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/draft.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/evidence-draft.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/similarity.json"
+	},
+	"outputs": {
+		"review-fan.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-fan.json"
+	},
+	"content_sha256": "f2d9087bff40b60d7105a9c44b45b88ffb4d28ed616db296e80713931a6a08a7",
+	"evidence_sha256": "c35ed25f0d9a051c78a92b6e9068fc9267b77ba155294908eda7311e8e042e36"
+}

@@ -1,0 +1,31 @@
+{
+	"eligible": false,
+	"blockers": [
+		"verification:revise",
+		"verification:metadata_consistent",
+		"unresolved:verify-01:The editor added this sentence in answer to fan-03, but no opened source supports the order it asserts, and the record points the other way. IndieWire (S15, 2024-09-27, reopened) says 'when he first received the script for Wolfs, Abrams knew only that Clooney and Pitt were set to star' and quotes him: 'All I got was the interrogation scene.' The article itself quotes the first half of that answer in 'How he says yes'. Collider's question (S18, 2024-10-01) asked whether the underwear intimidated him 'while reading the script, especially since you knew you were going to work with these two major movie stars', which places the reading after he was cast. The Italian Reve (S07), cited in C124, describes reading the Weapons script, not Wolfs. The sentence credits him with knowingly choosing the Wolfs exposure, the overstatement fan-03 asked the editor to remove, so fan-03's test ('notes that... he signed onto Wolfs knowing little') is not met.",
+		"unresolved:verify-02:The section's opening statement is contradicted by the next sentence. In the same Coup de Main answer (S02, reopened) he says 'I've never had it' and then 'I remember having Facebook when I was thirteen'. FAQ 3 repeats the contradiction in search-facing metadata: 'As of his September 2025 interview with Hunger, he had never had an account. He told Coup de Main in 2019 that on Facebook at 13...'. Hunger (S08, reopened) says only that he doesn't 'have an Instagram presence' and 'I felt like it might be a distraction, so I didn't do it'; it does not say he never had an account. 'Kept asking himself' also overstates S02's 'thinking, What am I gonna say?'",
+		"unverified_claim:C124",
+		"unverified_source:S18",
+		"unresolved_review:fan-03",
+		"overall_below_8.5:7.9",
+		"evidence_below_8:7.5",
+		"enneagram_below_8:7.5"
+	],
+	"quality": {
+		"evidence": 7.5,
+		"enneagram": 7.5,
+		"originality": 8.5,
+		"writing": 7.5,
+		"durability": 8.5,
+		"hook": 9,
+		"discoverability": 7.5,
+		"overall": 7.9,
+		"letter": "C",
+		"rubric_version": 3,
+		"graded_at": "2026-09-11",
+		"caps_applied": [],
+		"needs_review": true,
+		"content_sha256": "b9e5d33444575e4d4fae5df9f755a339a32a5c1f3515bfa8ce08b520fb193f71"
+	}
+}

@@ -18,6 +18,7 @@ const SEARCH_AND_USER_CRAWLERS = [
 	'Claude-SearchBot',
 	'PerplexityBot',
 	'meta-webindexer',
+	'ExaSearchBot',
 	'ChatGPT-User',
 	'Claude-User',
 	'Perplexity-User',
@@ -30,7 +31,8 @@ const TRAINING_CRAWLERS = [
 	'CCBot',
 	'Google-Extended',
 	'Applebot-Extended',
-	'meta-externalagent'
+	'meta-externalagent',
+	'Reflectionbot'
 ];
 
 describe('public delivery policy', () => {

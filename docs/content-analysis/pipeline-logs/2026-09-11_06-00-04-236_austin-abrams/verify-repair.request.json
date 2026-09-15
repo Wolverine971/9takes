@@ -1,0 +1,27 @@
+{
+	"schema_version": 3,
+	"subject": "austin-abrams",
+	"mode": "create",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/candidate-repair.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/evidence-repair.json",
+		"resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/resolution-repair.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/checks-repair.json"
+	},
+	"outputs": {
+		"verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/verification-repair.json"
+	},
+	"content_sha256": "5ff5b13668e807d9aa146672d83976ff8bf2db96bb198d5bf7d3cc2be2e20569",
+	"evidence_sha256": "3d576f12199955ef0176e0ce5c1caaf067b6526f4b544b8d1b9bd54a581a2600"
+}

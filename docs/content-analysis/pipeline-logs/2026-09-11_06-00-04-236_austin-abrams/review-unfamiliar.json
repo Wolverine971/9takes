@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "3b7c006f101ebfdec8500bde8a7f1f166d4f61e6cec077ee7d44162acf7c8101",
+	"evidence_sha256": "f61062887b9f847f5b666bbd648d9685af83c0578163da32c5d23567e5d00721",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-01-late-orientation",
+			"severity": "major",
+			"passage": "The credits came steadily.",
+			"problem": "A reader who does not know Abrams learns what he is known for only here, roughly 700 words in, inside the childhood section. The hook names him only as the lead of _Whalefall_, a film that has not been released (the October 16, 2026 date first appears in the last section). Paragraph 2 cites a magazine interview, and the thesis and type answer come before any credit a newcomer would recognize (Ethan on _Euphoria_, _Weapons_). The description and meta_title don't name a credit either, so a searcher who half-remembers him from _Euphoria_ gets no confirmation that this is the right person.",
+			"acceptance_test": "Within the first 150 body words, one clause identifies him by at least one widely known credit (Euphoria or Weapons) and marks Whalefall as upcoming, with its release month or date. The Duffield quote still opens the article. The description names at least one credit and stays within 120–170 characters."
+		},
+		{
+			"id": "unfamiliar-02-hook-key-retracted",
+			"severity": "major",
+			"passage": "The key to that gap is where his energy comes from.",
+			"problem": "Paragraph 3 presents the Nine explanation as the answer to the opening contradiction (frightened of interviews, reckless with stunts). Near the end, the article reopens the same contradiction: 'The largest puzzle is exposure. A man who says talking about himself feels frightening keeps choosing the most physically exposed work available... The public record cannot yet settle it.' A newcomer is told the gap is solved and then told it is not. They leave unsure what the article concluded about the question it opened with.",
+			"acceptance_test": "Paragraph 3 frames the energy-source explanation as the article's hypothesis, not a settled key. The exposure paragraph explicitly ties back to the opening contradiction, says which reading the article leans toward, and names what stays open. No sentence treats the opening gap as resolved while another treats it as unresolved without saying why."
+		},
+		{
+			"id": "unfamiliar-03-duffield-counted-both-ways",
+			"severity": "major",
+			"passage": "The intensity Duffield describes is hard for a placid Nine: the arguments to do dangerous stunts, the retakes.",
+			"problem": "Duffield's testimony is the article's showcase evidence, and it is scored three ways. The fear section claims the stunt arguments for the Nine ('On the Nine reading, this is what self-forgetting looks like from outside... his own safety and image drop out of view'). The Type 3 paragraph calls the retakes 'the most Three-like note in the record.' This paragraph lists the same stunt arguments and retakes as things the Nine reading can't explain. A reader without prior knowledge can't tell whether the hook's central evidence supports the thesis or undercuts it.",
+			"acceptance_test": "The draft says once which part of Duffield's testimony the Nine reading claims (for example, risk-blind absorption in the project) and which part it can't explain (for example, retakes 'because he thinks he can do everything better'). The fear section, the Type 3 paragraph and the unexplained paragraph all follow that split. No behavior is presented both as Nine evidence and as something the Nine reading doesn't explain."
+		},
+		{
+			"id": "unfamiliar-04-answer-box-overclaims-body",
+			"severity": "major",
+			"passage": "His biggest choices follow people he admires and a felt pull, and when asked about himself he stresses how alike people are.",
+			"problem": "Most readers see this answer (and the search snippets drawn from it) and nothing else. It states as a habit something the body later concedes rests on one direct answer: of the four 'sameness' lines, 'Only the lone-wolf answer is directly about himself.' FAQ 1 repeats the claim ('when asked about himself he stresses how alike people are'), and FAQ 2 says he 'reaches for sameness over difference' when 'asked about himself.' 'A felt pull' is also too vague for a newcomer to picture. It stands in for the Weapons holdout, which the answer never names.",
+			"acceptance_test": "The type answer, FAQ 1 and FAQ 2 describe the self-directed evidence at the strength the body allows. For example: he describes himself modestly, and asked if he is a lone wolf he says everyone is a social animal. Alternatively, the body adds more opened-source instances of him answering a question about himself with sameness. 'A felt pull' is replaced with a concrete reference, such as holding on to Weapons. The answer stays at 60 words or fewer."
+		},
+		{
+			"id": "unfamiliar-05-whale-test-does-not-test",
+			"severity": "major",
+			"passage": "That makes _Whalefall_ the purest test of the pattern so far: the actor whose yeses follow other people will spend most of a film alone on screen.",
+			"problem": "The pattern the article builds is about how he chooses projects (following admired people). Time alone on screen doesn't test that. The Whalefall choice and his commitment have already happened: the film was shot in 2025, and Duffield's testimony about it opens the article. The draft never says how he came to Whalefall. The evidence record notes he auditioned 'way before Weapons had come out' (S28), so the project may already be a counter-case or a confirmation. The closing line then asks 'whether he ever commits this hard to a project with no admired person at its center' without saying whether Whalefall already is one. A newcomer leaves unsure what is being tested and what result would count.",
+			"acceptance_test": "The ending does at least one of these: (a) states from an opened source how he came to Whalefall and what that choice implies for the people-following pattern, or (b) names a concrete, observable future outcome that would strengthen or weaken the Nine reading. The ending no longer implies the October 16, 2026 release can test a choice he has already made."
+		},
+		{
+			"id": "unfamiliar-06-holdout-stakes-underdrawn",
+			"severity": "minor",
+			"passage": "Still, the same answer across nine years and very different projects is a real pattern, and the one decision that plainly cost him time followed it exactly.",
+			"problem": "The Weapons holdout is the article's strongest narrative episode, but a newcomer never learns its stakes. There is no span of time (how long he waited between the 2023 strikes and the resumed shoot) and no outcome (whether Weapons succeeded). 'Plainly cost him time' and his later 'I don't think it hurt anything' have nothing to measure against. Opened sources in the record describe Weapons as Oscar-winning (S33, S34). That payoff would help an unfamiliar reader weigh the choice, provided it is attributed and kept separate from his stated motive.",
+			"acceptance_test": "The holdout section gives, from an opened source, either the approximate length of the wait (for example, from the January 2023 announcement to when filming resumed or wrapped) or an explicit note that the length is undocumented. If the eventual outcome of Weapons is used, it appears in one attributed clause and is not presented as his motive."
+		},
+		{
+			"id": "unfamiliar-07-gloss-then-caveat-cadence",
+			"severity": "minor",
+			"passage": "On the Nine reading, that is where his anger lives: in resistance to being pushed around. Anyone subjected to a staged hazing might say the same.",
+			"problem": "Many evidence paragraphs end the same way: a Nine gloss, then a caveat that deflates it. Examples include the both-sides habit and media training, the yeses and junket etiquette, the hazing, Duffield and 'Directors praise every lead's commitment', and the sameness lines. 'On the Nine reading' appears five times and 'On the Four reading' three times. Many caveats repeat the generic limits already stated in the type section (promotional modesty, director praise, acting vocabulary, career strategy). For a newcomer the rhythm blurs which evidence the author actually rates as strong. It also slows the back half: about 3,850 body words, above the 2,000–3,500 target, with roughly the last 1,100 given to type adjudication rather than story.",
+			"acceptance_test": "'On the Nine reading' appears no more than 3 times. Generic limits (junket modesty, director praise, acting vocabulary, director-first strategy) are stated once in the limits paragraph and repeated only when a caveat is specific to that piece of evidence. No specific counterevidence or alternative explanation is deleted."
+		},
+		{
+			"id": "unfamiliar-08-newcomer-reference-gaps",
+			"severity": "minor",
+			"passage": "That pattern is the heart of the case for Enneagram Type 9, the type organized around keeping inner peace by merging with the people and projects around it.",
+			"problem": "Several small reference gaps assume prior knowledge. (1) The thesis type is never linked, while Types 3, 4 and 6 link to their Enneagram Corner pages; /enneagram-corner/enneagram-type-9 exists. (2) Type 3 gets a paragraph with no one-clause gloss, and the answer box ranks only 9, 4 and 6 ('Type 6 is a distant third'). (3) 'Jon was directing' never names Jon Watts. (4) 'a Josh Brolin scene he was not even in' comes before the reader learns Brolin plays his father in Whalefall. (5) 'got the same flat treatment' follows a paragraph about fear and intimidation, so 'same' has no clear antecedent.",
+			"acceptance_test": "The first or second mention of Type 9 links to /enneagram-corner/enneagram-type-9. Type 3 gets a one-clause gloss, or its place relative to Type 6 is stated. Jon Watts is identified at first mention (a bracketed insertion inside a quote is acceptable). The Brolin anecdote names Whalefall. 'Same flat treatment' has a clear antecedent or is reworded."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Brian Duffield has one complaint about the lead of his survival thriller _Whalefall_.",
+			"reason": "A specific, sourced, surprising hook. A director whose only complaint is that he has to stop his lead from doing lethal stunts creates curiosity the article largely rewards. Keep the Duffield quote as the opening even while adding orientation."
+		},
+		{
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"reason": "The most original insight in the piece. It turns an ordinary 'no social media' fact into a distinguishing observation a newcomer remembers, and it carries real weight in the type argument."
+		},
+		{
+			"passage": "That last sentence is the most revealing thing he has said about his choices. His enthusiasm is kindled by someone else's.",
+			"reason": "Clear, compact statement of the mechanism, drawn directly from his own words ('Because then that gets me passionate about it'). An unfamiliar reader understands the thesis here without any Enneagram vocabulary."
+		},
+		{
+			"passage": "In 2019, a line from the film _Pierrot le Fou_ hung on his living-room wall: \"Why do you look so sad? / Because you speak to me in words and I look at you with feelings.\"",
+			"reason": "A distinctive observed detail (seen by the interviewer, with his own explanation) that makes the Type 4 case feel like a real person rather than type vocabulary. With the 'No! No!' about sharing his songs, it is one of the article's most memorable moments."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem.",
+			"reason": "Honest self-discounting of the article's own key discriminator. This candor earns reader trust. The answer box and FAQs should be brought up to it, not the other way round."
+		}
+	],
+	"assessment": "Read cold, the profile has a strong sourced hook, vivid first-person detail, and one genuinely good narrative episode (the Weapons holdout, with the reporter's 'loyal gesture' framing separated from his own account). A newcomer comes away with a clear picture: a private, self-minimizing actor whose yeses follow admired people and who disappears into the work. Five things weaken that reader's experience. Orientation arrives late: he isn't identified by a known credit until about 700 words in, and the hook's film isn't released yet. Paragraph 3 promises a 'key' to the opening contradiction that the ending says the record cannot settle. Duffield's testimony is counted as Nine evidence, as Three-like, and as unexplained by the Nine. The answer box and FAQs state the sameness pattern more strongly than the body grants. And the closing 'whale test' doesn't test the choice pattern it names. The back half (about 1,100 words of type adjudication, in a body of about 3,850 words) loses momentum through a repeated gloss-then-caveat cadence. Similarity advisory: max 0.046 against Nate-Bargatze, with zero shared phrases. The top pairs match this draft's generic limits sentences ('This profile treats his statements as evidence...') against unrelated counter-typing arguments. Comparing the actual arguments shows no meaningful reuse. The limits paragraph is standard epistemic framing, not a copied argument, so no reuse finding is raised. Contested typing remains flagged; no new risk is escalated."
+}

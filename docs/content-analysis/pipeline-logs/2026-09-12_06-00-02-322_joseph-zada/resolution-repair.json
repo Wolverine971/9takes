@@ -1,0 +1,423 @@
+{
+	"schema_version": 3,
+	"decisions": [
+		{
+			"finding_id": "subject-F1",
+			"action": "fixed",
+			"reason": "Reopened S01: he says \"My grandmother's Australian Indigenous and also Afghan. The name comes from my great-grandfather, who was an Afghan cameleer.\" The article now quotes that statement, drops the implied conflict, and says Wikipedia's Afghan-Aboriginal/Barkandji record \"fits his account\". The mosque line is plain attribution. C03 and C53 updated."
+		},
+		{
+			"finding_id": "subject-F2",
+			"action": "fixed",
+			"reason": "Removed \"The sharpest solo act\" opener and \"the more flattering telling\". The section now opens neutrally (\"His school years left two accounts that do not match\"), and the Type 3 section no longer cites the GQ account. No speculation about the \"stuff going on\"."
+		},
+		{
+			"finding_id": "subject-F3",
+			"action": "fixed",
+			"reason": "No second instance of good news producing alarm exists, so the habitual claims were removed: the lede line, \"good news keeps arriving\", the type answer's \"what success does to him\", the FAQ's \"Success tends to raise his alarm\" and the description. The win is now presented as one reported reaction that \"shows little on its own\", with the joy with his sister beside it. Body and metadata match."
+		},
+		{
+			"finding_id": "subject-F4",
+			"action": "fixed",
+			"reason": "The passage now says he gave his reason (\"I do have to talk about it\") and that most later openness came in promotional interviews. It names the narrower open tension: how much he volunteers beyond the job, weighed against his stated wish for privacy."
+		},
+		{
+			"finding_id": "subject-F5",
+			"action": "fixed",
+			"reason": "The Type 3 section quotes Lind's \"You'll get it, because you're you\" framing, uses \"shared the shortlist in confidence\" instead of secrecy, and limits the private-call setting to the behaviour she reports. The line is identified as her verdict to People, placed directly under the heading's section opening."
+		},
+		{
+			"finding_id": "subject-F6",
+			"action": "fixed",
+			"reason": "Reworded as the author's open question. The article gives Grace's IT: Welcome to Derry prompt, says he was admiring a craft quality, and no longer says he described freedom as closed to himself."
+		},
+		{
+			"finding_id": "subject-F7",
+			"action": "fixed",
+			"reason": "Opened sources name the brother: Flaunt (S04) says \"his older brother Hal, who is also an actor\", and Behind The Blinds (S02) has \"me and Hal, my older brother\". The article now attributes the identification to Flaunt at first mention. The half-brother aside was removed."
+		},
+		{
+			"finding_id": "subject-F8",
+			"action": "fixed",
+			"reason": "Corrected: \"The two remarks were published about eight months apart, in July 2025 and March 2026.\" C15 and new C99 record the dates."
+		},
+		{
+			"finding_id": "fan-01",
+			"action": "fixed",
+			"reason": "The hook now quotes his continuation (\"Then the announcement came out a day after...\") instead of calling \"Yes\" one word. \"More scared\" appears only as Fanning's question. The persona title, meta title and description no longer state it as fact, and the win is demoted to supporting evidence. The franchise-premise limit sits beside the told-as-a-joke caveat. The opening uses \"so I more or less knew immediately\"."
+		},
+		{
+			"finding_id": "fan-02",
+			"action": "fixed",
+			"reason": "Verified: Stan's March 12, 2024 release (S23) and Wikipedia's production section (S25) place the Perth/Geraldton shoot in early 2024, and S06 describes a Perth set visit. The article dates the conversation to the early-2024 shoot, keeps February 13, 2025 as publication, and names the set visit as the exception in the limit paragraph. The \"before he was 19\" clause was removed. C08, C44, C45 and C88/C105 carry the date; on repair C73's alternative also gives his age as 18 (verify-12)."
+		},
+		{
+			"finding_id": "fan-03",
+			"action": "fixed",
+			"reason": "Fixed with subject-F1: his own Indigenous and Afghan heritage statement is quoted, the Wikipedia sentence presents compatibility, and the interpretation offers identity (\"claims that heritage publicly\"), practicality and company side by side. Only the mosque line is attribution-flagged."
+		},
+		{
+			"finding_id": "fan-04",
+			"action": "fixed",
+			"reason": "The East of Eden case is described as an instruction he followed after planning to watch the film \"maybe after I got the role\", with no approval afterward and his last-two-episodes aside. The sequence claim is limited to Harrelson (\"The Harrelson case has a clear order\"), and after verify-06 it attributes to his choice only keeping Harrelson out of his head, stating the post-shoot meeting as fact rather than as something he arranged. \"Complied without argument\" was removed; C22, C63 and C95 match."
+		},
+		{
+			"finding_id": "fan-05",
+			"action": "fixed",
+			"reason": "Interval corrected. The HERO quote is framed with Grace making him come to dinner with her mother (\"The family was Grace's, assembled on location\"). The Halifax line is introduced as his answer to McGregor's favourite-memory question, and on repair as a reason he \"gave\", not the first line of his answer (verify-05). The paragraph claims only that company works as a steadying force, not \"protection from his own thoughts\"."
+		},
+		{
+			"finding_id": "fan-06",
+			"action": "fixed",
+			"reason": "Added single clauses with sources: Cal Trask and the James Dean role (C90), his last-two-episodes presence (C92), Pugh as Cal's mother (C91), Charlie Roth's situation (C111), Fanning as Effie Trinket (C86) and Grace as Maysilee Donner (C87). The \"two biggest performances\" ranking was removed in favour of naming the titles with dates."
+		},
+		{
+			"finding_id": "fan-07",
+			"action": "fixed",
+			"reason": "The Hal identification is sourced to Flaunt (S04), with Hal's US series background from S24 (C89), presented as background with no causal claim. Bilched is described as a comedy Hal wrote and cast with his younger brothers and friends (C79)."
+		},
+		{
+			"finding_id": "critic-01",
+			"action": "fixed",
+			"reason": "Option (b). The win is demoted to supporting evidence in both alternative sections: \"The win itself does not settle this. A huge new obligation disrupts a Nine too, and that morning also brought joy with his sister.\" The anti-Three clause \"fear of falling short more than a need for validation\" was removed. The discriminator now rests on what settles his nerves, stated in the type section. The sister celebration is acknowledged in the hook."
+		},
+		{
+			"finding_id": "critic-02",
+			"action": "fixed",
+			"reason": "The article now says the quote does not favour a type (\"belongs to Threes as much as Sixes, and to most newcomers\"), and the \"precision separates it from newcomer humility\" claim was removed. The Three section adds that this fear \"sits comfortably in Three territory\". Separation is located in dated remedy statements about reliability (Close \"always there for me\", \"confident... in the people around me\", Pugh \"makes everyone feel so comfortable\")."
+		},
+		{
+			"finding_id": "critic-03",
+			"action": "fixed",
+			"reason": "No Zada statement credits Jacobson, so the credit-routing argument was removed entirely, including from the evidence alternative_case. The Three section now acknowledges self-crediting (\"I can go toe to toe with anyone now\") and calls the hedging \"a tendency, not a rule\"."
+		},
+		{
+			"finding_id": "critic-04",
+			"action": "fixed",
+			"reason": "At the passage the article now leads with skill (\"a director father and an actor brother were the best crew for a properly shot and edited tape\"). It notes the relational phrasing only as consistent with the Six reading, and limits its weight. \"Harder on purpose\" was replaced with his stated reason and the fact that he was still shooting."
+		},
+		{
+			"finding_id": "critic-05",
+			"action": "fixed",
+			"reason": "The teenage sessions are recast as habit (\"the auditions were his brother's. The habit is what matters\"). The threshold claim now counts \"two clear cases of family around his own threshold\" (flight home, Berlin), and the Berlin trip carries the pay-cheque alternative."
+		},
+		{
+			"finding_id": "critic-06",
+			"action": "fixed",
+			"reason": "\"Good news keeps arriving\" was removed. The East of Eden no-pressure line is acknowledged as cutting the other way (\"a famous role that produced no pressure until the work was done\"). The sequence is claimed only for Harrelson, with East of Eden described as an imposed instruction, and on repair the Harrelson passage no longer implies he arranged when they met (\"keep the looming authority out of mind while working\")."
+		},
+		{
+			"finding_id": "critic-07",
+			"action": "fixed",
+			"reason": "Per-item concede-then-combine constructions were cut (Verso, group chat, junket family, tribute and lunch-break items removed). The aggregate is lowered to \"consistent with a Six reading rather than a demonstration of it\", and two items press style does not explain are named: the flight home and the recurring fear. The remaining concession pairs are the pay-cheque trip and the swearing caveat."
+		},
+		{
+			"finding_id": "critic-08",
+			"action": "fixed",
+			"reason": "The drift test was removed. The notes are now explicitly non-discriminating (\"a work habit Nines can have in abundance\"), and the six-movies detail was cut. The Nine rebuttal now uses self-assertion: his own three-week deadline, begging the sound department to allow music (HERO, published March 2026) and the planned move abroad despite his mother's preference (Interview, 2026)."
+		},
+		{
+			"finding_id": "critic-09",
+			"action": "fixed",
+			"reason": "The interval is corrected to about eight months, with both publication dates, and C15 is corrected. \"Across years\" is kept: with the early-2024 set interview correctly dated (fan-02), the record runs from early 2024 to June 2026, and the limit paragraph states that span explicitly. The HERO dinner context is added."
+		},
+		{
+			"finding_id": "critic-10",
+			"action": "fixed",
+			"reason": "The article now says the call supplied only the behaviour (shortlist in confidence, naming contenders) and that \"He just gets what he wants\" was Lind's verdict in the People interview. The hook no longer runs the FaceTime into the quote, and C26 is corrected."
+		},
+		{
+			"finding_id": "unfamiliar-U01",
+			"action": "fixed",
+			"reason": "Fixed with critic-10. The hook no longer quotes Lind. The Type 3 section separates what she reports from the private call from her verdict to People, and C26's inference matches. The Type 3 argument is weighted as \"an affectionate prediction from a friend, given to the press\"."
+		},
+		{
+			"finding_id": "unfamiliar-U02",
+			"action": "fixed",
+			"reason": "The hook quotes \"Yes\" followed by his continuation to the announcement, and the opening uses \"so I more or less knew immediately\". All quotations in the first two paragraphs were re-verified against S01."
+		},
+		{
+			"finding_id": "unfamiliar-U03",
+			"action": "fixed",
+			"reason": "Within the first two paragraphs the article gives: his only released lead in a series (Invisible Boys), Haymitch as the tribute who grows into Harrelson's mentor, Sunrise on the Reaping as the prequel, Fanning as Effie Trinket and the Interview conversation, and Lionsgate's \"hundreds of gifted performers\" (Deadline, S22). Repair (verify-01): the edit-stage \"His only released lead was the Australian series Invisible Boys\" was wrong, because he was one of four credited stars of The Speedway Murders, released June 21, 2024. The hook now reads \"His only released lead in a series was the Australian _Invisible Boys_\", matching his own \"definitely not a lead role in a series\" (S03), and the dated final paragraph names The Speedway Murders with its release date, linked to Deadline (March 1, 2024) and WIBC (June 20, 2024). C38 and C85 are corrected, and C112 and S26-S29 are added. No other passage or FAQ implies he had no earlier starring credit. The article still opens on the 7 a.m. call."
+		},
+		{
+			"finding_id": "unfamiliar-U04",
+			"action": "fixed",
+			"reason": "The press-register caveat is stated once in the limit paragraph, and per-quote \"ordinary, but\" moves were cut to a small number on load-bearing evidence (swearing, Berlin trip, aggregate). The body fell from 4,079 words to 3835 (checkDraft on repair.md), while adding required orientation, heritage, recurrence and Nine-definition material. \"Afraid of the people he admires\" now adds the recurrence step, and \"What settles him\" adds the remedy step. The type tests, attributions and open questions are retained."
+		},
+		{
+			"finding_id": "unfamiliar-U05",
+			"action": "fixed",
+			"reason": "\"The case for Type 9\" opens with a plain definition of the Nine's core motive. The type section explains that the types differ in what the alarm is about and what settles it. The win has one consistent weight throughout (supporting only, with a \"does not settle this\" paragraph in the Nine section). Title, meta title and description no longer rest on it."
+		},
+		{
+			"finding_id": "unfamiliar-U06",
+			"action": "fixed",
+			"reason": "The first mention of the older brother is identified as Hal via Flaunt, with age and US career. The \"same people\" and \"three thresholds\" wording was replaced with \"two clear cases of family around his own threshold\"."
+		},
+		{
+			"finding_id": "unfamiliar-U07",
+			"action": "fixed",
+			"reason": "The section's first sentence is neutral. The Type 3 section no longer uses the school exit, the \"shares a structure with what comes later\" sentence was removed, and the section was shortened."
+		},
+		{
+			"finding_id": "unfamiliar-U08",
+			"action": "fixed",
+			"reason": "The description now refers to the Hunger Games role and to steadying himself with trusted people, without \"peers\" (131 characters, consistent with the FAQs)."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"action": "fixed",
+			"reason": "The type section states what 6, 3 and 9 each predict about what the alarm is about and what settles it. The Nine section and the discriminator cite dated remedy passages: July 2025 \"once I step on set and meet everyone\", June 2025 Swooon \"to meet all the people I [will be] working with\" (quoted from the primary after verify-02, with no comfort-as-purpose claim), July 2026 Close \"always there for me\" and June 2026 Pugh \"makes everyone feel so comfortable\". On repair the Nine section also concedes that comfort alone does not separate Six from Nine and that he tunes pressure out at times, calling the reliability wording \"a lean rather than a clean split\". The win is not presented as separating 6 from 3 and 9 in the body or FAQs, and the \"fear of falling short more than a need for validation\" clause is gone."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"action": "fixed",
+			"reason": "The thesis sentence and first FAQ now describe \"solid footing in people he trusts\", tied to the reliability passages (Close, \"people around me\", Pugh). \"Getting inside the circle\" was rewritten as \"What settles him\", and the acceptance paragraph was removed. The type section states: \"It is thin on other Six markers, such as testing whether people can be trusted or ambivalence toward authority, which keeps confidence at medium.\" The Three rebuttal no longer argues against the thesis wording."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"action": "fixed",
+			"reason": "The drift argument was replaced by dated self-assertion instances: his own three-week deadline (Interview, 2026), begging the sound team to let him play music (HERO, published March 2026; the recording date is unknown, per verify-08) and planning to move abroad despite his mother's wish (Interview, 2026). Notes are no longer framed as ruling out Nine. \"Uncommonly zen\" is attributed as the writer's read after his joking \"extremely chill\" self-description, \"all said in jest\"."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"action": "fixed",
+			"reason": "Added the June 2026 bucket-list exchange (\"I'm shit scared of working with them\") and the Pugh daunting/comfortable line with \"She's scary\" (now inventoried as C113). On repair the laughter is attributed to Fanning, as in the transcript (verify-04). The section arc shows mid-2025 confidence followed by the fear recurring eleven months later (\"The reclassification did not hold\"). C93, C94 and C108 record it with S01."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"action": "fixed",
+			"reason": "Jacobson was removed and the credit-routing argument dropped (see critic-03). A non-press behavioural difference replaces it: under pressure he brings trusted people in first rather than leaning on performance."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"action": "fixed",
+			"reason": "The opening no longer asserts intent. The audition passage says \"He was still shooting\" before he asked for three weeks and quotes his stated plan to shoot and edit properly."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"action": "fixed",
+			"reason": "The pattern is stated as two clear instances (Haymitch tape, Berlin), and the teenage sessions appear only as the formative habit of preparing with a partner."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"action": "fixed",
+			"reason": "Fixed with critic-10: only the reported behaviour is tied to the private call, and the summary line is attributed to her People interview (June 2025 relay)."
+		},
+		{
+			"finding_id": "enneagram-09",
+			"action": "fixed",
+			"reason": "Interval corrected to about eight months with dates, and C15 corrected. C68 now records the S03 context (Grace, her mother and Iona Bell's mother). The surrogate-family detail goes into the prose briefly (\"The family was Grace's, assembled on location\") because it bears on support versus comfort."
+		},
+		{
+			"finding_id": "enneagram-10",
+			"action": "fixed",
+			"reason": "Reopened S01: the coaches line exists and concerns accent work. The S01 source context now records it accurately. The voice-imitation sentence was cut for length, so C29 was retired rather than kept with a false note. The prose makes no coaches claim."
+		},
+		{
+			"finding_id": "future-01",
+			"action": "fixed",
+			"reason": "The body dates the conversation to the early-2024 shoot, sourced to Stan's March 12, 2024 release (S23), and keeps February 13, 2025 as the publication date. C08, C45, C88 and C105 carry the corrected date and age. On repair, C73's alternative now calls him \"an 18-year-old\" (verify-12), the residual the verifier identified. S23 and S25 are in the sources."
+		},
+		{
+			"finding_id": "future-02",
+			"action": "fixed",
+			"reason": "The limit paragraph says the record was \"published between February 2025 and August 2026\" and names the early-2024 set interview at 18 as the exception. The \"before he was 19\" clause was removed. The dated final paragraph names his released series leads with dates and, after verify-01, The Speedway Murders with its June 21, 2024 release. Scheduled releases are covered by time_sensitive C37/C38."
+		},
+		{
+			"finding_id": "future-03",
+			"action": "fixed",
+			"reason": "The final paragraph is anchored to \"As of September 2026\" and \"At that point\". \"So far\" and \"running ahead of the evidence\" were removed, and a sentence states that how the releases land does not change the dated pattern. The prediction is recorded as C82 (interpretation, unresolved) with a falsifying review_trigger."
+		},
+		{
+			"finding_id": "future-04",
+			"action": "fixed",
+			"reason": "Corrected to \"about eight months apart, in July 2025 and March 2026\", and C15 corrected. No other passage overstates the span."
+		},
+		{
+			"finding_id": "future-05",
+			"action": "fixed",
+			"reason": "Removed \"He has not publicly named a type\" from both the body and the FAQ, because no documented search supports it."
+		},
+		{
+			"finding_id": "future-06",
+			"action": "fixed",
+			"reason": "Rewritten as career descriptions (\"has worked as a director, actor and doctor... as a film producer\"), consistent with his \"or was a producer\". C04 updated."
+		},
+		{
+			"finding_id": "future-07",
+			"action": "fixed",
+			"reason": "The hook dates the call to April 2025, supported by Deadline's April 23, 2025 announcement (S22) and his \"announcement came out a day after\". The Haymitch FAQ says Lionsgate announced his casting in April 2025. C60 now cites S22."
+		},
+		{
+			"finding_id": "future-08",
+			"action": "fixed",
+			"reason": "The inconsistency is fixed by correcting the record rather than the claim. Reopened S02 contains \"I've already started writing\" and the co-writing plan with Hal, so the draft-stage \"not found\" note was wrong. C33's inference says so, and the article quotes only the sourced \"I've already started writing\" (C102), now in source order before the directing goal (verify-07). C33's review_trigger refers only to the directing goal and sourced writing."
+		},
+		{
+			"finding_id": "verify-01",
+			"action": "fixed",
+			"reason": "Fixed. The hook now reads \"His only released lead in a series was the Australian _Invisible Boys_\", consistent with his S03 \"definitely not a lead role in a series\". The final paragraph says \"his released series leads were\" and names the film: \"He was also one of four credited stars of _The Speedway Murders_, a true-crime documentary with dramatized scenes released in select theaters and on streaming on June 21, 2024\", linked to Deadline (March 1, 2024, opened directly: \"Starring Essie Randles..., Davida McKenzie..., and Joseph Zada (Total Control)\") and WIBC (June 20, 2024: \"available Friday, June 21 at select theaters, along with Apple TV+, Prime Video and On Demand\"). Wikipedia (S26) bills \"Joseph Cumpston\" first as Dan while Deadline lists him fourth, so the article does not call it his lead. C38 and C85 are corrected, and C112 and S26-S29 added with citations. No FAQ mentions earlier credits."
+		},
+		{
+			"finding_id": "verify-02",
+			"action": "fixed",
+			"reason": "Fixed. S19 (Swooon, published 2025-06-11) was reopened via reader proxy and is recorded as opened with its excerpt and context. The passage now quotes Swooon's wording, \"put me through the wringer because [the role is] very important\", and attributes the \"essential\" framing to the outlet before \"go through that process as well, not just to learn about the character, but to meet all the people I [will be] working with.\" The words \"whose original could not be opened\" are removed, as is \"feel comfortable\" as a stated purpose, and the link and citation point to Swooon instead of CinemaBlend. Also updated: C67 (passage, source_ids, inference), C50 and C44 source IDs, S12 context (divergent relay), the type_hypothesis discriminator, and the research tasks (the Swooon task is replaced by a video-check task)."
+		},
+		{
+			"finding_id": "verify-03",
+			"action": "fixed",
+			"reason": "Fixed. C07 now cites S06 and S15 only. S18 stays in sources as unavailable, and its research task records the three HTTP 403 results from 2026-09-13."
+		},
+		{
+			"finding_id": "verify-04",
+			"action": "fixed",
+			"reason": "Fixed. The passage now reads: \"Asked by Fanning in June 2026, after both shoots, whether any actors were on his bucket list, he answered: \"I love the actors I love, but I'm shit scared of working with them.\" Fanning laughed.\" Reopened S01 shows \"FANNING: [Laughs] Yeah.\" after his answer. C93's passage and inference now match."
+		},
+		{
+			"finding_id": "verify-05",
+			"action": "fixed",
+			"reason": "Fixed. \"began with a reason\" is now \"gave a reason\". Reopened S02 shows his answer opening \"We hung out so much off-set, literally\" before \"But I feel both of us get lonely\", and C15's inference records that."
+		},
+		{
+			"finding_id": "verify-06",
+			"action": "fixed",
+			"reason": "Fixed. \"For Haymitch the order was his own. He did not meet Woody Harrelson until after shooting\" is replaced by \"Harrelson was different. The two did not meet until the film was shot, and what Zada describes choosing is to keep Harrelson out of his head while he worked\", which follows S01's \"No. We ended up meeting, but we'd already shot. For my nerves...\". The protected pattern sentence keeps its shape with \"out of mind\" in place of \"out of the room\". C63's inference notes he does not say he arranged the meeting's timing."
+		},
+		{
+			"finding_id": "verify-07",
+			"action": "fixed",
+			"reason": "Fixed. The article now quotes in source order: \"I've already started writing. I want to direct a film before I'm 30, that's my goal,\" he told McGregor in July 2025 (S02 verified). The C33 and C102 passages are updated."
+		},
+		{
+			"finding_id": "verify-08",
+			"action": "fixed",
+			"reason": "Fixed. The article now says \"he told Grace in a conversation published in March 2026\". No other passage dates the HERO conversation beyond its March 23, 2026 publication."
+		},
+		{
+			"finding_id": "verify-09",
+			"action": "fixed",
+			"reason": "Fixed. \"keeps sets light\" is removed from the Type 9 FAQ. In its place is the body-supported Hosking observation, \"its reporter found him \"remarkably upbeat\" after a week of crying scenes\", inventoried as C115 (S06, the same source as body claim C31)."
+		},
+		{
+			"finding_id": "verify-10",
+			"action": "fixed",
+			"reason": "Fixed. The name FAQ now says \"He had been thinking about changing his name on his last callback before his big break, and he says he felt a spiritual connection to it\", so the feeling is not timed to the callback. C81's inference records the distinction."
+		},
+		{
+			"finding_id": "verify-11",
+			"action": "fixed",
+			"reason": "Fixed. C113 is added for \"Of Pugh: \"She's scary.\"\" (S01, with the omitted joke and transcript order noted), and C114 for \"a newcomer sharing a cast list with Glenn Close and Ralph Fiennes\" (S21, S10). New repair text is inventoried as well: Swooon wording (C67), the Speedway sentence (C112), \"Fanning laughed\" (C93) and the FAQ Hosking phrase (C115). A scripted pass matched every double-quoted span in the body, description and FAQs against claim passages. It found one more uninventoried quotation, \"My whole family and every family friend was somewhat connected\" (verified in S01), now C116. The only unmatched span left is the unattributed genre phrase \"the cast became a family\" inside a protected passage, which quotes no source."
+		},
+		{
+			"finding_id": "verify-12",
+			"action": "fixed",
+			"reason": "Fixed. C73's alternative now says \"an 18-year-old\", and C111's inference credits S25's cast list for \"Charlie Roth\". One correction to the finding: reopened S15 raw wikitext does give the surname (Career section: \"In 2025, Zada starred in the Stan series Invisible Boys as Charlie Roth\"), so S15 remains a second cited source and the inference quotes that line."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "So this reading leans on what he did, especially when it cost him something, and on statements that repeat across years and interviewers.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: It sets out, before any argument, the fairness rule for a promotional-only source base, and most of the article keeps to it."
+		},
+		{
+			"passage": "Read quickly, the swearing is a joke, and it was told as one, more than a year later, to a friendly co-star after the film was safely shot.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: It limits its own central anecdote in the reader's view instead of hiding the context. That is the model the rest of the success claims should follow (see subject-F3)."
+		},
+		{
+			"passage": "That was a real and common constraint, so it should not be read as a formative wound.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: It explicitly declines to invent a childhood wound for a young living subject, even with a school-stigma quote that would invite one."
+		},
+		{
+			"passage": "That is a young actor finding his footing, and a reader could fairly stop there.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: It gives the benign, non-typological reading full standing before offering an interpretation."
+		},
+		{
+			"passage": "It does not fully explain the appetite she saw, and that tension stays open.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: It admits honestly that the leading type does not absorb the most discordant testimony."
+		},
+		{
+			"passage": "Both accounts can be partly true, since an attendance problem can end in an ultimatum and an exit. They still place the decision on opposite sides, and the second is the more flattering telling. This profile does not choose between them or build a psychological claim on either.",
+			"action": "changed",
+			"reason": "Kept the naming of the conflict, the reconciling possibility and the refusal to build on either account verbatim. Removed only \"the second is the more flattering telling\", which implied spin on a sensitive episode (subject-F2, unfamiliar-U07)."
+		},
+		{
+			"passage": "The mechanism he names is still worth noticing. His confidence arrived once the people he feared had been reclassified as peers.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: A distinctive, source-faithful reading of his own words (\"these people are actually normal people\"). It turns apparent counterevidence into insight without denying it."
+		},
+		{
+			"passage": "He even qualifies his own calm. When Fanning followed up on \"I'm chilling,\" he added: \"There hasn't been a whole lot of chill until very recently. But yeah, Australia is a safe place.\"",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: Checked word for word against the transcript. It is a revealing follow-up a casual reader would miss, and it complicates his easygoing self-description fairly."
+		},
+		{
+			"passage": "The Six reading does not fully answer Lind either. A Six can want something intensely, and this reading accounts for the manner of his pursuit: tracking the competition quietly, confiding in a friend, preparing with family. It does not fully explain the appetite she saw, and that tension stays open.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: It keeps the most discordant testimony, from a friend who saw him unguarded during the callbacks, unresolved instead of absorbing it into the thesis."
+		},
+		{
+			"passage": "The stated reticence and the actual openness do not match, and nothing he has said explains how he squares them.",
+			"action": "changed",
+			"reason": "Its contribution, a real contradiction left visible, is retained in narrower form. The original sentence was inaccurate because his reason appears in the quoted passage (subject-F4). It now reads: \"the record does not show how he weighs that against his stated wish for privacy.\""
+		},
+		{
+			"passage": "Nervousness, gratitude and \"the cast became a family\" are the house style of those formats, and a newcomer sharing a cast list with Glenn Close and Ralph Fiennes would produce them whatever his type.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: States the central confound up front instead of burying it. That is what lets a skeptical reader trust the argument that follows, and it is the standard critic-07 holds the draft to."
+		},
+		{
+			"passage": "They still place the decision on opposite sides, and the second is the more flattering telling. This profile does not choose between them or build a psychological claim on either.",
+			"action": "changed",
+			"reason": "Same edit as the longer version: the opposite-sides observation and the refusal to choose stay verbatim, and only the \"more flattering\" judgement was removed (subject-F2)."
+		},
+		{
+			"passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: A specific, well-sourced insight drawn from his own explanation in Flaunt. It turns counterevidence into observation instead of explaining it away."
+		},
+		{
+			"passage": "If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: A falsifiable, dated test that keeps the article useful for five years and admits a confound against its own evidence."
+		},
+		{
+			"passage": "He had made the process harder on purpose.",
+			"action": "changed",
+			"reason": "The turn from the call to the three-week tape is kept (\"He was still shooting. He told them...\"), but the asserted intent was removed because S01 gives quality and scheduling reasons, not a wish to make it harder (critic-04, enneagram-06)."
+		},
+		{
+			"passage": "What repeats is the sequence: keep the looming authority out of the room while working, then receive its approval afterward.",
+			"action": "changed",
+			"reason": "The memorable pattern is retained for the one case with both steps: \"The Harrelson case has a clear order: keep the looming authority out of mind while working, then receive its approval afterward.\" \"Repeats\" was false, because East of Eden was an imposed instruction with no approval afterward (fan-04, critic-06). On repair \"out of the room\" became \"out of mind\": S01 shows he chose not to think about Harrelson, not that he delayed their meeting (verify-06)."
+		},
+		{
+			"passage": "The Six reading predicts that fame will not settle him, and that at the next threshold he will again bring his people with him before he jumps into the deep end.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: The ending makes a falsifiable prediction tied to dated releases, echoes his own \"deep end\" line, and gives readers a reason to come back. That is good for durability and for the story."
+		},
+		{
+			"passage": "Chilling is also the word he used for what company protects him from: \"chilling in my own head and going crazy by myself.\"",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: A distinctive, verified detail that links his Nine-like self-description to his need for company without overclaiming, and is explicitly held lightly."
+		},
+		{
+			"passage": "It is still the one place where he describes a kind of freedom as closed to him, and no type in this analysis explains why.",
+			"action": "changed",
+			"reason": "The unexplained-residue contribution is retained as the author's open question (\"Whether 'unattainable' says anything about his own looseness is unknown\"). The claim that he described freedom as closed to himself was removed because the HERO context shows a craft remark about child performers (subject-F6)."
+		},
+		{
+			"passage": "Those hedges carry a serious caveat. They are exactly what a well-advised teenager says in his first press cycle opposite Hollywood veterans, and all three come from about a month in mid-2025. If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+			"action": "kept",
+			"reason": "Retained verbatim in repair.md. Reviewer rationale: This is a model of durable writing. It dates its evidence window, names the confound, and states in advance what later evidence would change the reading, which keeps the section useful after the releases. It matches C21 and C76."
+		}
+	],
+	"prior_blockers": []
+}

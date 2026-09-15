@@ -1,0 +1,20 @@
+I wrote `verification-repair.json`. The facts and repairs check out, but the profile doesn't clear the release bar: the Enneagram score is 7.5 (the gate is 8) and the overall is 8.1 (the gate is 8.5). Running the contract's own assessment on the file confirms those are the only two blockers. Status is `pass`, because nothing is factually wrong. The hold comes from the quality scores, not from errors. Nothing was published, and I changed no other files.
+
+**What I checked**
+- **Web sources:** I re-fetched all 18 live, and pulled raw page text where the summaries were ambiguous. That settled two open questions:
+  - The editor was right that the Cosmopolitan "disappointment" line and the Trap House line come from different places in the piece.
+  - The 2023 James Gunn remark was said on *The Wayne Ayers Podcast*, not to Just Jared Jr., and the article now credits it correctly.
+- **Video quotes:** every one matched the cached YouTube captions, and all six upload dates matched the article. I couldn't check audio because YouTube is still blocking transcript requests. An audio spot-check stays on the pre-publish list.
+- **Review repairs:** all 44 fixes (40 reviewer findings plus the last verifier's 4) meet their acceptance tests. All 21 protected passages survive; where a passage changed, it was to fix something false or unsupported. All 94 claims are covered and none is unsupported.
+
+**Why the Enneagram score is 7.5**
+The typing is honest and careful: four rival types are tested, the unexplained evidence is kept, and there's a real test separating Six from Seven. But the article concedes each piece of Six evidence could be ordinary actor behavior, calls the one costly choice (deleting her streams) "modest", and says Type 3 isn't ruled out. That's an honest medium-confidence read, not a strong argument. The ceiling is the evidence: nearly everything comes from her May–September 2026 press tour. The most likely way to lift it is to retrieve older interviews (Interview Magazine, Schon!, Sweety High 2021) and test Six against Three on choices made outside that window.
+
+**Three small wording fixes I flagged:**
+- The Wikipedia link sits next to "Sarah Cushing", but Wikipedia calls the character Sarah Cortez.
+- The article joins "very discerning" to her audience-trust quote with "because". In the video, the trust reason goes with being "specific" about projects; the reason she gives for being discerning is "because I love cinema".
+- "Right after the 'lightning in a bottle' line" skips two sentences in between in the Nylon interview.
+
+The other scores: evidence 8.5, originality 8.5, writing 7.5 (the second half stacks too many caveats at 4,258 words), durability 8.5, hook 8.5, discoverability 8.5.
+
+One disclosure: I opened `repair-findings.json` to read the previous verifier's findings, and it also showed their scores. I set my scores independently and noted this inside the file.

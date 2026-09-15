@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "62f36e23d1362e3dfa681b8e616de4c577f719e4dafd5d763f562b3d09ce0546",
+	"evidence_sha256": "67ea2ed410c6cad513d9758a974aabff6724422915da7e759e4c835373d4def3",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "A Three protecting an image might delete the clips too, but would be less likely to describe the move on a Variety podcast as panic and call the fear baseless.",
+			"problem": "Type 3 gets one sentence, and its only discriminator is candor: she called the deletion panic on a podcast. The draft itself says 'Promotion rewards a humble, fearless story', so candor in 2026 press cannot separate Six from Three. The fear she named ('they don't take me seriously') is about credibility and image. The evidence record lists Three in type_hypothesis.against, and the record holds a Three case the draft never puts together: headshots over finishing school, 2021 'survival mode' and avoiding friendship with rival finalists, the 110% pact, 'I don't care how much I'm not sleeping', wanting to 'prove' Obsession wasn't luck, 'extremely validating', and 'accomplishing it and feeling proud of it'. Meanwhile the alternatives section spends paragraphs on the weaker 4, 9 and 8 readings. The Oscar 'safety net' is also about a performance verdict ('it doesn't mean that I didn't do a good job', S10 29:03), a Three-shaped worry filed under Six without comment.",
+			"acceptance_test": "The alternatives section has a Type 3 paragraph that gathers its best sourced case (at minimum: headshots over school, 'survival mode', the 110% pact, not sleeping, 'prove', 'extremely validating', 'feeling proud'). It answers that case with a discriminator that does not rely on 2026 press candor. One option is the pre-fame 2023 refusal to treat James Gunn's public assurance as 'a definitive', which is doubt toward an authority's reassurance. If no discriminator holds, the type answer and the Type 7 FAQ name Type 3 as a second live alternative. The Twitch paragraph stops using podcast candor as the reason to set Three aside."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "This is the clearest unforced case in the record, and it separates the leading readings. The bad outcome was hypothetical. She acted before it arrived, at real cost: the archive was something she loved and something that had helped pay bills.",
+			"problem": "In S10 10:34-11:34 the income came from streaming 'at that time' ('doing something that I loved and getting paid for it'). The deletion came later, as she was 'moving into like a new chapter'. Deleting old VODs after she had stopped streaming cost little or no money, so 'at real cost... helped pay bills' mixes up the activity with the archive. The standard's Enneagram bar is repeated costly choices. The lead discriminator here is one retrospective, low-cost episode with an ordinary explanation (people scrub an old online persona when they change careers), and she hedges between 'deleted all of them' and 'deleted a lot of them'. 'It separates the leading readings' overstates it, especially since Three is not separated (see enneagram-01).",
+			"acceptance_test": "The cost sentence matches S10: the loss is the archive and what it meant to her, not income, unless a source shows the VODs were earning money. 'Then she deleted the archive' matches her own hedge between all and 'a lot' (the FAQ already says 'most'). 'Separates the leading readings' is scaled down to what one retrospective anecdote can support (for example 'leans toward'). The paragraph also deals with the base-rate explanation that people clean up an old online presence when they change careers."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "That fits a woman who says she has been \"so sensitive\" her whole life, \"especially towards horror movies,\" and then took a horror lead",
+			"problem": "The main support for the counterphobic label is that she took a horror lead despite being sensitive to horror. But it was a film lead that came after she lost her series-regular role, and her stated reasons were career and expression: 'I really wanted to transition into film' and 'Obsession was the perfect script for me to let it all out' (Numero), and 'I've always wanted to do film' (Collider 09:49). The standard requires weighing professional incentives, and this one goes unmentioned. The draft also files the record's actual daring acts (the same-day skydive and piercing) under Seven, while the Six evidence it keeps (deleting streams, the Oscar net, deference to Barker, avoiding the scream) is phobic-style hedging. So the subtype takes in Seven-looking daring without a discriminator of its own, which the standard forbids. The metadata then drops the hedge: the description says the evidence 'point[s] to a counterphobic Enneagram Type 6', and 'counterphobic Type 6' is a keyword, while the body says 'probably' at 'medium' confidence.",
+			"acceptance_test": "Next to the horror-sensitivity line, the draft says she took Obsession as a film lead after losing her series-regular role, and gives her own stated reasons (transition into film, 'let it all out'). The counterphobic label then either gets at least one sourced case of her seeking out a feared thing with no career or performance incentive, plus an explicit statement of which daring acts (skydive, 'slap me harder', 'fall on my face publicly') count for counterphobic Six and which for Seven, or it is softened to 'possibly' in the body and removed from the description and keywords. Either way the metadata is no more certain than the body's 'probably... medium'."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "minor",
+			"passage": "The scream sessions show the order her choices tend to follow. She names the fear. She finds a person or a structure that makes it safe. Then she commits all the way.",
+			"problem": "The hook presents a three-step order as her habit, but the steps are pieced together from anecdotes that don't each contain all three. In the scream story Barker supplied the structure ('Okay, I'm going to schedule multiple days', by her account). The chemistry read has no safety step, and the draft later sums it up as 'shut down and frightened, then total commitment'. The skydive has none either. Only the 2021 audition pact clearly has all three steps. The evidence record's own alternative for C48 (ordinary directing technique for a nervous lead) never reaches the prose.",
+			"acceptance_test": "Either the sentence covers only instances that show all three steps, each with a named source (the 2021 pact qualifies, the chemistry read does not), or it is restated as what the record shows: she tells the person in charge about the fear and accepts the structure they offer. The scream paragraph adds a clause saying the schedule was Barker's plan by her account, and standard handling of a nervous lead, so it shows his method as much as her motive."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "minor",
+			"passage": "The word she chose for what those rituals give her, though, was \"secure.\"",
+			"problem": "'She used the vocabulary directly' suggests she spoke in type terms, and the section's clinching evidence is a single word. In S10 27:17-27:52, 'secure' sits inside an answer that is mostly about letting go ('sometimes to have less control over that is to feel it freely... let that emotion pass through you like a river'), and it is followed by comfort staples (watching Trixie and Katya since 17). Drives, music and games are generic ways to decompress. 'Control language ran through every interview' has no source. 'I don't want to lose the audience's trust in me' is reputation language a Three would use just as easily, and the draft counts it for Six without testing it. Matching words to type keywords is stereotyped typing, not evidence of motive.",
+			"acceptance_test": "'Used the vocabulary directly' is removed. The paragraph either quotes enough of S10 27:17-27:52 to show the letting-go half of the answer, or stops using 'secure' as its clincher. 'Control language ran through every interview' is either sourced or cut. 'Even her career strategy is phrased in terms of trust' is either dropped as type evidence or openly acknowledged as reputation language that fits Three as well."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "major",
+			"passage": "A Type 4 reading struggles here, since Fours tend to guard their own read of a character against outside correction, and she describes giving hers away gladly.",
+			"problem": "The only rival the borrowed-certainty reading is tested against is Four, and the test is an unsourced generalization about Fours. The paragraph just before it also shows her guarding Nikki from others on set. Actors deferring to a writer-director on his own script is a professional norm. And 'if that's what Curry said, then that's definitely what happened', 'so shut off from my own emotions', and needing to learn to stand up for herself all fit Nine merging and self-forgetting. The evidence record names both alternatives (C23, C63), but this section raises neither. 'For a Six, trust works like infrastructure' is therefore asserted rather than shown to beat its rivals.",
+			"acceptance_test": "The Four generalization is replaced with sourced reasoning or removed. The section names ordinary actor-director deference and Type 9 merging next to the Six claim. It then either gives a discriminator or says plainly that the section corroborates the Six reading without discriminating. One possible discriminator is the Six pattern of doubting some authorities, as in the 2023 'not a definitive' remark, while leaning hard on one chosen authority, compared with a Nine's more general going along."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "major",
+			"passage": "The reward she describes is fear faced and a job done correctly. A Seven's high more typically comes from options, novelty and escape from limits.",
+			"problem": "This is the draft's main rebuttal to Seven, but the full GoldDerby answer (S11 35:48-36:08) goes on: 'then you get that high of uh accomplishing it and feeling proud of it... taking projects that that challenge me but also allow me to um feel proud', which she credits to her parents. The payoff she names is pride in accomplishment, which fits Three (and 'do it correctly' fits One) as well as Six. 'Scared first, then the high' also describes the thrill Sevens chase, which is why the draft concedes the skydive reads either way. The quote leans away from pure novelty-seeking, but it does not show Six beating Seven or Three.",
+			"acceptance_test": "The rebuttal includes the pride half of the answer and acknowledges that pride in accomplishment fits Three. It then either explains why fear as the entry condition points to Six rather than a Seven's thrill (for example, the feared thing is a responsibility to 'do it justice and do it correctly', not a sensation), or softens 'It fits her stated motives less well' to a stated lean. The skydive's 'read either way' concession stays."
+		},
+		{
+			"id": "enneagram-08",
+			"severity": "minor",
+			"passage": "That could be growth, press-tour bravado, or the Seven in her getting a vote.",
+			"problem": "The type answer names no wing, yet the closing offers 'the Seven in her' as one explanation for the article's most important counter-pattern line. That lets contrary evidence count for the thesis through an unargued wing, which the standard rules out ('Do not use wings/arrows/subtypes to explain away every contradiction').",
+			"acceptance_test": "The closing either drops 'the Seven in her' or reframes it as a point for the Type 7 alternative rather than part of her Six, consistent with a type answer that names no wing."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "A Six story would be easier to tell if the moving had hurt. She says it didn't.",
+			"reason": "Declines a ready-made military-kid wound and credits the evidence to the rival type. This is the discipline the standard asks for."
+		},
+		{
+			"passage": "Toddlers of every type insist on doing it themselves, so the anecdote proves little on its own.",
+			"reason": "Keeps a charming origin story from doing typing work it can't support, then moves to better evidence."
+		},
+		{
+			"passage": "Doubt is the named enemy, and the defense is a structure set up in advance.",
+			"reason": "Rests on a pre-fame 2021 interview from outside the promotional window. This is the best non-press support for Six, and it is precise about motive (doubt) rather than a generic trait."
+		},
+		{
+			"passage": "What the Six reading does not explain matters just as much. It struggles with the piercing on the same day as the skydive, with the \"random\" tattoos, and with \"I don't think that far ahead,\" which cuts against the anticipation Sixes usually show.",
+			"reason": "An explicit unexplained column. It shows the type hypothesis where it fails instead of stretching it."
+		},
+		{
+			"passage": "It also fits a shy Six gaining nerve, and the public record cannot separate the two.",
+			"reason": "Honest about where the record can't discriminate (Six vs Nine), while the next sentences use the same line to rule out an Eight reading of her tough exterior."
+		}
+	],
+	"assessment": "At the stated medium confidence the Six hypothesis is defensible, and the draft is unusually honest about counterevidence: Seven gets real points, the unexplained items are listed, and no wing is claimed in the type answer. The typing rhetoric runs ahead of the discriminators in five places. Type 3, which the evidence record itself names, never gets a case, and the only test used against it (podcast candor) is undercut by the draft's own point that promotion rewards a humble-fearless story. The Twitch discriminator's 'real cost' conflates streaming income with an archive deleted after she stopped streaming (S10 10:34-11:34). The counterphobic subtype leans on a horror lead that was also a film lead after she lost her TV job, while the record's genuinely daring acts are filed under Seven, and the description states the subtype without the body's hedge. The main rebuttal to Seven ends in pride and accomplishment (S11 35:48-36:08), which fits Three. The borrowed-certainty section tests only a stereotyped Four and skips the Nine and professional-norm readings its own evidence record lists. Contested typing is confirmed as a risk: fan databases split between 6w7 and 7w8, and Six vs Three is untested. Similarity advisory: not tripped (max 0.032 against a 0.04 threshold, no shared phrases). The top pairs share only ordinary type vocabulary ('counterphobic', 'trust', 'threat'), not reused arguments, so there is no distinctiveness finding. I checked the S09, S10 and S11 passages cited above against the research-stage caption cache, not the audio."
+}

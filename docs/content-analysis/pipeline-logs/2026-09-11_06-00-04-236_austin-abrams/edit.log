@@ -1,0 +1,30 @@
+The edit stage is finished and all three output files are written in the run folder. Nothing was published, and the draft stays unpublished.
+
+**What changed:**
+- **Type call:** still Type 9 at medium confidence, but on narrower grounds. The reviewers showed that the draft's main support, "his yeses follow people, not parts," didn't survive his own interviews. Asked directly how he chooses roles, he names the director and the character together and describes an inner "I have to do this." The case now rests on how he talks about himself: open rather than distinct, no drama about fear or hardship, and he once said another person's passion was the source of his own. The article now says the lead over Type 4 is narrow.
+- **Fairness fixes:**
+  - A trimmed Resident Evil quote now includes his fear of slipping.
+  - The claim that he ignores his own safety is gone. The stunt coordinator and "never got hurt" are now in the article.
+  - "Interchangeable" is gone.
+  - The line about Weapons costing him time is gone.
+  - A wrong Weapons cast date is corrected.
+- **The ending:** it no longer treats the October release as a future test. It says Whalefall already complicates the pattern: he auditioned for it, and no admired person is documented at its center.
+- **Reader and five-year fixes:** he's now identified by Euphoria and Weapons in the first 150 words, and his 2019 remarks and social-media status carry dates.
+
+**Decisions:** all 45 reviewer findings are marked fixed. Of the 17 passages reviewers asked to protect, 13 are unchanged and 4 were revised. Each revision keeps what made the passage worth protecting; the reasons are in the resolution file.
+
+**Checks:**
+- The contract's own draft and evidence checks pass with no blockers.
+- All 112 quotations match the source pages.
+- The date, lastmod, published, person and loc fields are unchanged from the draft.
+
+**Two things for you to decide:**
+1. **Whether this needs the full re-review.** The type and the main alternative stayed the same, so I didn't flag it as a major thesis change. But the reasoning behind the call changed a lot, so the verifier may send it to `--refresh --expanded-review`. If you'd rather not risk that, running it now is the clean path.
+2. **Length.** The body is 4,109 words: under the 4,500 limit, but above the 3,500 target. Most of the added words were context the reviewers asked for. I can cut further, but that means dropping context they requested.
+
+The untracked `src/blog/people/drafts/Inde-Navarrette.md` in git status comes from the other pipeline run. I didn't touch it.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/`:
+- `edit.md`
+- `evidence-edit.json`
+- `resolution-edit.json`

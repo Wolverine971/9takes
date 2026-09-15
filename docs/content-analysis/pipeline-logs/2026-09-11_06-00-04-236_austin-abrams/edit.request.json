@@ -1,0 +1,27 @@
+{
+	"schema_version": 3,
+	"subject": "austin-abrams",
+	"mode": "create",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/draft.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/evidence-draft.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/similarity.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/draft-checks.json"
+	},
+	"outputs": {
+		"edit.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/edit.md",
+		"evidence-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/evidence-edit.json",
+		"resolution-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-11_06-00-04-236_austin-abrams/resolution-edit.json"
+	}
+}

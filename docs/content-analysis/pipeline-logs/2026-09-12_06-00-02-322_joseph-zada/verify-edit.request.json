@@ -1,0 +1,27 @@
+{
+	"schema_version": 3,
+	"subject": "joseph-zada",
+	"mode": "create",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/candidate-edit.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/evidence-edit.json",
+		"resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/resolution-edit.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/checks-edit.json"
+	},
+	"outputs": {
+		"verification-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-12_06-00-02-322_joseph-zada/verification-edit.json"
+	},
+	"content_sha256": "f0e9c75e7eaf11164ee65ffba12785717d54bd36705884a08964cbcb5d3af51d",
+	"evidence_sha256": "ce10c7fb4d14842922be973370df9b4a9c13152d456db2e4c8519591cd937c52"
+}

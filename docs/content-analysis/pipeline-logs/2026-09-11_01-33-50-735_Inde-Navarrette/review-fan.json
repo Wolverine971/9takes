@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "fan",
+	"content_sha256": "62f36e23d1362e3dfa681b8e616de4c577f719e4dafd5d763f562b3d09ce0546",
+	"evidence_sha256": "67ea2ed410c6cad513d9758a974aabff6724422915da7e759e4c835373d4def3",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "fan-01",
+			"severity": "major",
+			"passage": "A Six story would be easier to tell if the moving had hurt. She says it didn't.",
+			"problem": "This states her account of the childhood moves as settled when another account from the same press run says the opposite. In the Complex News video interview with Jillian Superstar (June 2026), as written up by Where Is The Buzz and syndicated on Yahoo on June 24, 2026, she said she went to 11 or 12 schools before 15, that \"Making friends was always really difficult for me,\" and, asked whether the moves brought her closer to her parents, that they made her \"really close to video games and movies and things like that.\" Complex's own description of the video lists \"growing up a military brat with 11 schools by age 15\" among its topics. The Variety answer the draft quotes also continues past \"new story, new place\": \"But as I've gotten older, I've really like appreciated like a small town mentality,\" and she calls Visalia \"homey\" (S10 06:50-07:22, cached captions). The packet has the eleven-schools figure (S01, S05), but the draft does not use it. So her record on moving is mixed. That matters for three reasons. It weakens the \"happy childhood moves\" item in the Type 7 case. It supplies a formative origin for her solitary gaming (\"I love playing video games by myself\") and her privacy. And it undercuts a sentence the draft uses to show fairness. Limitation: YouTube blocked my transcript request (IpBlocked), so I read the Complex quote secondhand and could not check it against the video.",
+			"acceptance_test": "The editor opens the Complex News video (youtube.com/watch?v=IUAsUy_aKR8 or complex.com/v/complex-news/nKxJrmCP), confirms the 'making friends' and 'video games and movies' wording and timestamp, and adds it as a source and claim. The moving paragraph then gives both of her accounts with outlet and date, and no longer says flatly that the moving didn't hurt. The Type 7 section's \"happy childhood moves\" and the unexplained-column line about \"apparent pleasure in constant moves\" reflect the mixed record. If the video can't be checked, the quote stays out, but the categorical \"She says it didn't\" still becomes a scoped statement such as 'In her Variety telling, it didn't.' Any eleven-schools figure is attributed to profiles, not stated as fact."
+		},
+		{
+			"id": "fan-02",
+			"severity": "major",
+			"passage": "The accounts differ on who pushed. Both agree her take changed the ending.",
+			"problem": "This misstates her account. Her full Collider answer (S09 25:05-25:40, cached captions) is: \"we had an alternate ending where... Nikki kills herself. And we shot that... And last minute we decided to change be like no she's a final girl she wouldn't do that she's going to sit with the grief... Curry was like no we really we were we want to sit with her and that's why we got the ending that we did and so that day we decided to change it.\" She puts the change down to a shared judgment about the character and to Barker's wish to 'sit with her'. She never says her take persuaded anyone. Only Barker (S16) credits her performance. Evidence claim C61 has the same error in its inference field. Her own lesson from the day is also left out: \"that quickness of flipping... allowing yourself in that exact moment to have that freedom.\" That is spontaneity language, relevant to the Type 7 ledger. The paragraph's argument that deference did not make her passive therefore rests on Barker's account alone.",
+			"acceptance_test": "No sentence says the two accounts agree that her take changed the ending. The paragraph says Barker credits her take, and that she describes a same-day decision on the character's logic, crediting Barker's wish to stay with Nikki. The C61 inference is corrected to match. Whatever conclusion about her not being passive survives is attributed to Barker. Quoted wording matches the captions."
+		},
+		{
+			"id": "fan-03",
+			"severity": "minor",
+			"passage": "That quick turn toward freedom is the kind of reframe Type 7 is known for, and it counts for the alternative. It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"problem": "Two pieces of Type 7 evidence are cut before the context that complicates them. First, the Collider freedom answer (S09 09:45-10:20; same wording in the YouTube short lM3pVdUiCDU) begins \"I've always wanted to do film, and I love film, and I'm very thankful for Superman & Lois cuz it gave me my start.\" It ends \"I got freedom. And it was again, to treat it like college, like I graduated.\" The freedom is tied to a long-held film goal and to her own college frame, not to novelty for its own sake. In the same press run Cosmopolitan (June 24, 2026, opened via Yahoo syndication) quotes her acknowledging the cut was disappointing and sad (\"as disappointed and sad as it was to not be able to go back as a series regular\"), and calling it \"divine timing\" only in light of what followed. So the draft presents the bright reframe as her whole account when it isn't. Second, \"feels like drugs... It's dopamine\" (S09 01:33-01:59) is the end of a fork: \"you have this split second of either getting too much in your head or feeling a high off of it. And then you kind of let that feed you.\" Even her high is described as what happens when doubt doesn't win. That is the draft's own sequence, but it appears only as stimulation evidence for Type 7.",
+			"acceptance_test": "The freedom passage includes or accurately reflects \"I've always wanted to do film\" and the \"like I graduated\" framing. Her Cosmopolitan acknowledgment that the cut was disappointing and sad appears with outlet and date, checked against the Cosmopolitan original or its syndication. Far Out's word 'devastated' is not used unless her own words say it. The dopamine line either keeps its \"getting too much in your head\" setup or the Type 7 paragraph notes that setup. The weight the draft gives these items for Type 7 is reargued, not just asserted."
+		},
+		{
+			"id": "fan-04",
+			"severity": "major",
+			"passage": "She got a third shot, a chemistry read.",
+			"problem": "The casting story is told as a pure audition comeback, and the formative route into Obsession is missing. Navarrette told Cosmopolitan (June 24, 2026, via Yahoo syndication): \"I was allowed to do Trap House with Capstone, which funded Obsession. They saw me and were like, 'If Inde is attached to this, we'd love to see her in that.'\" Wikipedia's Obsession page (S29, citing Deadline) says producer Christian Mercuri championed her after three Capstone projects. Dread Central (August 20, 2026) reports she had signed to reunite with the same producers on Capstone's Invertigo before Obsession became a hit. A prior relationship with the financier likely explains why she got a third chance after what she calls \"the worst audition I had ever done.\" It also bears on the thesis in two directions. Returning to a proven network is exactly what the Six reading predicts. And the type answer's \"and then took a horror lead\" treats accepting the role as walking toward fear, when the record shows a career circumstance: she had just lost her series-regular spot, told Numero she \"really wanted to transition into film,\" and the part came through people who already backed her. The standard asks the draft to weigh professional incentives against the type explanation. Here it doesn't.",
+			"acceptance_test": "The casting section names the Capstone/Trap House connection in her own words, with Cosmopolitan and the date. The Mercuri and Deadline detail is used only if the Deadline piece is actually opened and the lawsuit is not mentioned. The type section's counterphobic point rests on how she handled the fear once cast, such as the scream sessions, not on accepting the role, or it explicitly acknowledges the career circumstance. If the Invertigo reunion is used, it is dated and presented as either loyalty-pattern evidence or ordinary industry practice, not proof."
+		},
+		{
+			"id": "fan-05",
+			"severity": "minor",
+			"passage": "That fits a woman who says she has been \"so sensitive\" her whole life, \"especially towards horror movies,\" and then took a horror lead",
+			"problem": "The quote is cut before its payoff, and a vivid formative origin is left out. The Variety answer continues: \"And something that Obsessed has done for me is heal that\" (S10 30:06-30:15). By her account, the film healed the sensitivity, which is counterphobic mastery after the fact and a stronger point than the draft makes. On Kimmel (S14 07:19-07:50) she gives the origin: when she was about five, her tia Maria \"would always have Chucky on\" and kept Chucky dolls in her bathroom, and \"I had no choice on what's on the television.\" The Mexican side of the family loves horror; the Australian side doesn't. A reader who knows her press will miss these details, and they ground \"sensitive to horror\" in something specific instead of junket boilerplate.",
+			"acceptance_test": "The sensitivity quote keeps or reflects \"something that Obsessed has done for me is heal that,\" in caption-verified wording. If the Chucky/tia Maria detail is added, it is attributed to Kimmel with the date and presented as her anecdote, not a causal wound. The draft does not claim the childhood exposure caused her fear."
+		},
+		{
+			"id": "fan-06",
+			"severity": "minor",
+			"passage": "The streaming ran on a gaming PC she built herself, Complex reported.",
+			"problem": "Placed in the post-Obsession drought, this implies streaming was a drought stopgap. The Complex article (S06, reopened) says she \"built her own PC in 2022 and started streaming because she loved watching other creators like Jacksepticeye and Jenna Marbles.\" On Variety she adds Markiplier and a following of about 16,000 (S10 11:53-12:25). That puts the start while she was still a Superman & Lois regular, so streaming was a multi-year identity. That changes what she was protecting when she deleted it. Nylon (S02, reopened) also has her mixed feelings about the resurfaced clips, which the draft leaves out: \"It took me a while to find my style online, which is why sometimes when people post old sh*t of mine, I go, 'Oh my God.'\" Placed after Variety's \"my fear was for nothing,\" the Nylon resurfacing aside suggests relief alone. Her Nylon reaction is a live contradiction that fits the theme of being taken seriously.",
+			"acceptance_test": "The streaming paragraph dates the PC build and the start of streaming (2022, attributed to Complex), so the drought streaming reads as a continuation. If the Nylon 'Oh my God' reaction is used, it matches the article exactly, including the asterisk, and sits beside the Variety relief line. The deletion paragraph does not imply a date for the deletion that the sources don't give."
+		},
+		{
+			"id": "fan-07",
+			"severity": "minor",
+			"passage": "Her next roles will show how much of it she now carries on her own.",
+			"problem": "The ending treats her next roles as unknown when the record already shows them, and they bear on the question the ending poses. Before Obsession's success she signed to reunite with its producers on Capstone's Invertigo, shot in early 2026 in Thailand, the US and the UK (Dread Central, August 20, 2026). She was cast as Rogue in Marvel's X-Men, announced at D23 on August 15, 2026 (S24, in the packet). She is booked to host SNL on October 31, 2026 (S26). An informed reader will notice the ending gestures at a future the record already partly shows: a return to a known safe room, then a franchise leap. The packet left the X-Men casting out for maintenance reasons. That's defensible, but then the closing shouldn't point at 'next roles' as if nothing were known.",
+			"acceptance_test": "Either the ending names the announced projects with absolute dates, recorded as time_sensitive claims with review triggers (for example, after the Invertigo release, after October 31, 2026, and after the May 5, 2028 X-Men release), or the closing is rewritten so it doesn't imply her next roles are unknown. The central insight must still stand if those projects are removed."
+		},
+		{
+			"id": "fan-08",
+			"severity": "minor",
+			"passage": "Navarrette joined The CW's _Superman & Lois_ in 2021 as Sarah Cushing",
+			"problem": "This is accurate for 2021, but viewers know the character by another name: in the show she celebrates her quinceañera and takes the surname Cortez, \"which was her family's name before they changed it\" (Wikipedia, Superman & Lois). KryptonSite (S21) and CinemaBlend call her Sarah Cortez. Readers who know the show may think the draft has the name wrong. The arc also connects to an opened pre-fame source the draft doesn't use. She told Looper (S20, March 1, 2022) that \"I, unfortunately, wasn't able to have a quinceañera, but to be able to have one through Sarah was so beautiful.\" She also spoke of names as identity and \"a way to hide to make sure that there's comfortability.\" That is one of the few pre-2023 statements that echoes her later \"place to hide\" line, in a draft whose name motifs ('Mommy, I do', 'Danielle, hold it together') would benefit. The Looper remark concerns Mexican-American naming and assimilation, so it can't be lifted as type evidence.",
+			"acceptance_test": "The Superman & Lois introduction notes the later surname, for example 'Sarah Cushing (later Sarah Cortez)', or the draft otherwise heads off the confusion. If the Looper lines are used, the editor reopens S20, quotes them verbatim with their cultural context, and draws no inference from heritage to type."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "He screamed alongside her: \"he would scream with me. And then he would stop and then I would stop. And he was like, 'No, what are you doing? Come on, go go go go on.'\"",
+			"reason": "It's the most distinctive scene in the record, and it matches the cached Collider captions at 21:24. Readers who know the film remember this story, and the draft tells it in her words instead of summarizing it."
+		},
+		{
+			"passage": "Once she could drive herself, that buffer was gone, and she replaced it with a rule of her own",
+			"reason": "It shows, from a pre-fame 2021 source, how her mother's support became her own structure. That's formative context used as development, not as a wound, and it is the draft's best cross-time evidence."
+		},
+		{
+			"passage": "she brought a zodiac book and wrote out the signs \"from Aries all the way to Pisces.\"",
+			"reason": "An odd, specific, checkable 2021 detail no generic Type 6 profile would contain. It makes 'survival mode' concrete."
+		},
+		{
+			"passage": "When a scene called for Nikki to move backward, she tried and tried, coaching herself by her birth name: \"Danielle, hold it together. You can do this.\"",
+			"reason": "It ties her birth name to her self-talk under a physical limit. It rewards readers who remember the 'Mommy, I do' origin, and it's the kind of revealing detail fans look for."
+		},
+		{
+			"passage": "In April 2023, with renewal in doubt, she told Just Jared Jr. that even a public statement from DC's James Gunn did not settle it for her",
+			"reason": "It's contemporaneous pre-fame evidence of the trait, dated before the show's cuts. Fans will recognize the Gunn statement, and the passage doesn't depend on hindsight after Obsession."
+		}
+	],
+	"assessment": "From an informed reader's side, this is a well-sourced, fair portrait. The scream sessions, the 2021 audition pact, the zodiac book, the Gunn renewal quote and the torn-ACL self-coaching are the details a fan would want, and they are told in her words. The problems are omissions and trims of well-known source material, and they mostly tilt the Six-versus-Seven ledger. Her account of the childhood moves is mixed, not uniformly happy: Complex, secondhand, has 'Making friends was always really difficult for me' (fan-01). Her Collider ending account does not say her take changed the ending (fan-02). The 'Dog, you're free' and 'dopamine' lines are cut before context that complicates them (fan-03). The Capstone/Trap House route into Obsession is missing, even though it bears on both the casting story and the counterphobic 'took a horror lead' claim (fan-04). There are no flattering distortions, invented scenes or unsupported childhood wounds. The similarity advisory did not trip (max 0.032 against a 0.04 threshold). Its top pairs share only ordinary type vocabulary ('counterphobic', 'trust'), and after comparing them I found no reused argument. Sources I opened: the Nylon (S02) and Complex (S06) articles; cached captions for S09, S10, S12/S13, S14 and the YouTube short lM3pVdUiCDU; and new material from Cosmopolitan via Yahoo (June 24, 2026), Where Is The Buzz via Yahoo, Tatler Asia, Dread Central and Wikipedia's Superman & Lois page. Unavailable: the Complex News YouTube video (IpBlocked), Far Out (HTTP 403) and Deadline (tollbit), so the fan-01 quote and the Mercuri detail are secondhand and need checking. Process note: before writing this review I opened review-subject.json, looking for the output format. The findings here come from my own source checks, but the editor should know it isn't fully blind; fan-02 overlaps with that review. I raise no new risk flags; contested_typing stays true."
+}

@@ -1,0 +1,318 @@
+{
+	"schema_version": 3,
+	"decisions": [
+		{
+			"finding_id": "subject-01",
+			"action": "fixed",
+			"reason": "Checked against Dread Central (S32) and THR Whalefall (S29), both re-opened. The Resident Evil sentence now keeps both concerns: he was \"really hoping you don't slip\" and also did not want to ruin a take \"because it takes so long to reset.\" The claim that \"his own safety and image drop out of view\" is deleted. The fear section now concludes that the record shows \"an appetite for physical realism inside supervised stunt work.\" The 95 percent-plus figure now sits beside Duffield's note that it counts sitting still on a gimbal, and beside \"Everything in the full movie was dangerous, but Austin never got hurt,\" credited to stunt coordinator Shauna Duggins. C34 was rewritten; C88 was removed and replaced by C113, with C112 added."
+		},
+		{
+			"finding_id": "subject-02",
+			"action": "fixed",
+			"reason": "The 'kindled' sentence now reads \"It suggests that on this project, at least, his enthusiasm was kindled by someone else's.\" It is labeled as inference and tied to the Complex quote. 'How he says yes' now quotes the Hunger role-choice answer (\"I have to do this... I really love the director, and the character had so many different possibilities to explore\"), Hunger's \"what feels right in the moment\" and THR's \"I only want to work on things that I want to work on\" (new C105, C106). The Four-section sentence claiming his Weapons choice lacked an account of the part is deleted. The type_hypothesis discriminator was re-derived and no longer relies on people-before-parts."
+		},
+		{
+			"finding_id": "subject-03",
+			"action": "fixed",
+			"reason": "The contrast 'Abrams described having too little to say' and the generalization about private actors are gone. The paragraph now reports all three reasons from the same Coup de Main answer, including \"not interested in showing people his life\" with the \"somewhat frightening\" admission, and says the answer fits a Four's guardedness as well as a Nine's modesty. 'Whenever he is asked about himself' and 'interchangeable' are deleted. The Wolfs line now appears with its Herald-Tribune disbelief context (\"I can't really believe I did that\", \"I just watched those guys growing up\") and keeps \"sometimes\". C52 was rewritten, and the 13-year-old line no longer supports the discriminator."
+		},
+		{
+			"finding_id": "subject-04",
+			"action": "fixed",
+			"reason": "The closing section 'What the whale shows' now reports Duffield's statement that Abrams \"auditioned for the movie, and it was way before Weapons had come out\" (S28, re-opened). It says no opened source gives an admired-person reason and quotes his own description, \"such a wild and original project\" (Hunger). It then treats Whalefall now as a case the people-first rule cannot absorb. The future release 'test' is removed, and the ending no longer depends on the hook it already answered."
+		},
+		{
+			"finding_id": "subject-05",
+			"action": "fixed",
+			"reason": "The sentence is now \"His father took longer to come around than his mother,\" which agrees with the quote that follows."
+		},
+		{
+			"finding_id": "subject-06",
+			"action": "fixed",
+			"reason": "The description now reads \"said in 2019 that talking about himself felt frightening\" and attributes the stunt clause (\"His Whalefall director says he kept warning him off stunts\"). The hook pivot is dated (\"in 2019... six years later\"). The persona_title is now \"The Private Actor His Director Had to Rein In\". The exposure sentence now says he \"keeps ending up in\" exposed work, followed by \"Not all of it was his choice\", and names which exposures he chose. C54, C59, C90 and C92 were updated, and C131 and C137 were added."
+		},
+		{
+			"finding_id": "fan-01",
+			"action": "fixed",
+			"reason": "The Hunger role-choice answer is now quoted in 'How he says yes', and the pattern is described as people plus writing plus an inner pull (\"What survives is narrower than a rule that people come first\"). The Four-section Weapons sentence is deleted. FAQ 2 and the type answer no longer say he explains his choices through the people involved. The 9-over-4 call now rests on openness and the absence of identity-through-difference in how he describes himself (C116-C118), on his undramatized handling of fear (C20, C111) and on the Complex line. Confidence stays at medium, and the text says the margin is narrow."
+		},
+		{
+			"finding_id": "fan-02",
+			"action": "fixed",
+			"reason": "'plainly cost him time' and 'costly holdout' are deleted. The holdout is now dated: shooting was planned for May 2023 and the film was shot May to July 2024, \"a year behind plan\" (S48). The text adds \"The strikes paused work across the industry, and no source documents a cost\", and weighs the holdout as a plainly stated want rather than a sacrifice (C110)."
+		},
+		{
+			"finding_id": "fan-03",
+			"action": "fixed",
+			"reason": "The sentence now says he \"keeps ending up in the most physically exposed work of his career and committing to it fully\", followed by \"Not all of it was his choice.\" The dance came with a role he had played since 2019. He took Wolfs after reading a script that kept him in his underwear (Collider: intimidated \"for like a second\"). He auditioned for Whalefall. The ET \"freeing\" quote is kept."
+		},
+		{
+			"finding_id": "fan-04",
+			"action": "fixed",
+			"reason": "Checked the Weapons (2025 film) wikitext, added as new S48. The script entered the market January 22, 2023, and New Line won it within 24 hours. Filming was intended for May to July 2023, and Pascal and Reinsve were announced in May 2023. The sentence now reads \"New Line bought Cregger's script in January 2023 and planned to shoot that May, with a cast that included Pedro Pascal.\" C63 was re-sourced, and the Pascal exit moved to C138."
+		},
+		{
+			"finding_id": "fan-05",
+			"action": "fixed",
+			"reason": "The Wolfs line is removed from the discriminator. It now appears in the fear section with its 'I can't really believe I did that... I just watched those guys growing up, as everyone did' context, weighed as ordinary disbelief (C75)."
+		},
+		{
+			"finding_id": "fan-06",
+			"action": "fixed",
+			"reason": "The line now reads \"he joked to Behind the Blinds\" and is followed by his qualifier: \"I'm not sure if I was ever exactly comfortable, but I got closer to it throughout the shoot.\" The S45 date was corrected to November 12, 2024 from the page."
+		},
+		{
+			"finding_id": "fan-07",
+			"action": "fixed",
+			"reason": "The credits paragraph now adds \"For most of that run he was cast as the gentle boy; by 2022 he said he had 'run the gambit of the nice, shy guy'\", citing The Daily Beast original (new S47, opened). It states that the screen image and the later break from it are casting and count toward no type. His Daily Beast \"if the audience doesn't like me, lovely\" line now appears in the Type 3 paragraph."
+		},
+		{
+			"finding_id": "fan-08",
+			"action": "fixed",
+			"reason": "The description attributes the claim to the director. The body now says \"arguments over stunts Duffield framed as potentially fatal\". FAQ 5 quotes Duffield's warning verbatim and adds that Abrams was never hurt, crediting Shauna Duggins. C92 was updated, and C132 and C140 were added."
+		},
+		{
+			"finding_id": "critic-01",
+			"action": "fixed",
+			"reason": "Both 'costly' descriptions are deleted. The section now says no source documents a cost and that the strikes paused the whole industry. It keeps the smart-bet caveat and 'the record cannot show what offers, if any, he turned down'. The type argument no longer counts the holdout as a costly choice, and C14/C15 are out of for_claim_ids."
+		},
+		{
+			"finding_id": "critic-02",
+			"action": "fixed",
+			"reason": "The sentence is deleted. The Italian Rêve \"Most of the time it's the people and the writing\" and the Hunger \"I have to do this\" answer are now quoted with attribution (C104, C105). 'People before parts' no longer appears as a general claim. A discriminator that survives this evidence is named in the body and type_hypothesis: how he describes himself, with openness and no identity-through-difference. The stated margin is narrow. FAQ 2 was updated to match."
+		},
+		{
+			"finding_id": "critic-03",
+			"action": "fixed",
+			"reason": "The Complex context is added (S33, re-opened): he never played the games (\"too freaked out\"), and Cregger offered him the lead without considering anyone else. Hunger's \"what feels right in the moment\" is now quoted. 'Kindled' is labeled with \"It suggests\" and scoped to that project. The superlative is replaced by \"the plainest statement in the record through 2026 of where his enthusiasm can come from\", and the section concludes the pattern is narrower than a people-first rule."
+		},
+		{
+			"finding_id": "critic-04",
+			"action": "fixed",
+			"reason": "The Resident Evil sentence now reports his slipping concern alongside the shot. The claim that his safety and image drop out of view is deleted rather than qualified. The text now says the record does not show \"a man careless of his safety\" and that Duffield credits a stunt coordinator with keeping him unhurt."
+		},
+		{
+			"finding_id": "critic-05",
+			"action": "fixed",
+			"reason": "The passage now reports all three reasons from the same answer (nothing worth saying, the scrolling felt pointless, not wanting to show his life). The unsourced generalization about private actors is removed. The Four section no longer counts the 13-year-old line as self-minimizing evidence."
+		},
+		{
+			"finding_id": "critic-06",
+			"action": "fixed",
+			"reason": "The type answer, FAQ 1 and FAQ 2 no longer claim he stresses sameness 'when asked about himself'. All now state the openness discriminator at the strength the body supports. The lone-wolf question's binary is quoted (\"a lone wolf\" or \"rather a social animal\"), and his answer is called \"a hedge about solitude more than a claim that people are alike.\" The Wolfs 'wasn't me' line is removed from the sameness argument and given its context."
+		},
+		{
+			"finding_id": "critic-07",
+			"action": "fixed",
+			"reason": "The ending now reports the audition and the absence of any documented person-pull, and tests the people-following strand against Whalefall now. It states that the Nine claim is about how he inhabits a project and describes himself, not who recruits him. The falsification criteria in the Four section (C151) say in advance what would count against the Nine reading. C86 is removed; C128 carries a review trigger."
+		},
+		{
+			"finding_id": "critic-08",
+			"action": "fixed",
+			"reason": "The description and the body paraphrase attribute the lethal framing to Duffield. The fear section notes once that a stunt coordinator ran the stunts and that he was never hurt (C112)."
+		},
+		{
+			"finding_id": "unfamiliar-01-late-orientation",
+			"action": "fixed",
+			"reason": "The second paragraph now reads \"Most viewers know Abrams as Ethan, Kat's sensitive boyfriend on HBO's Euphoria, or as James, the addict in Zach Cregger's Weapons (2025),\" and marks Whalefall as due in theaters on October 16, 2026. This falls within the first 150 body words, and the Duffield quote still opens the piece. The description names Euphoria and Weapons (155 characters)."
+		},
+		{
+			"finding_id": "unfamiliar-02-hook-key-retracted",
+			"action": "fixed",
+			"reason": "Paragraph 4 now frames the explanation as \"This profile's working answer to that gap.\" After the two unresolved readings, the exposure paragraph ends: \"This is the opening contradiction again, and it is where the Four reading is strongest; the rest of the evidence keeps the Nine reading narrowly ahead.\""
+		},
+		{
+			"finding_id": "unfamiliar-03-duffield-counted-both-ways",
+			"action": "fixed",
+			"reason": "The split is stated once, in the fear section: \"The Nine reading can claim one part, the indifference to looking foolish... It cannot claim the arguments,\" and the retakes \"answer to his own standard.\" The unexplained paragraph lists the arguments and retakes, and the Type 3 paragraph calls the retakes Three-like, so neither presents them as Nine evidence. C33 and C145 are outside for_claim_ids."
+		},
+		{
+			"finding_id": "unfamiliar-04-answer-box-overclaims-body",
+			"action": "fixed",
+			"reason": "The type answer is rewritten at 59 words: openness rather than a distinct identity, fear and hardship told without drama, and drive at times borrowed from admired people. 'A felt pull' is gone. FAQ 1 and 2 match it. The body supports the self-directed claim with direct self-answers (Daily Beast 2022; Hunger 2025, twice) and the lone-wolf hedge."
+		},
+		{
+			"finding_id": "unfamiliar-05-whale-test-does-not-test",
+			"action": "fixed",
+			"reason": "This takes option (a). The ending states from S28 that he auditioned before Weapons came out, and says what that implies: it cuts against a people-first rule, and the profile's claim is about how he inhabits a project. The ending no longer implies the October 2026 release can test a choice already made."
+		},
+		{
+			"finding_id": "unfamiliar-06-holdout-stakes-underdrawn",
+			"action": "fixed",
+			"reason": "The holdout section now gives the timeline from S48: the script was bought in January 2023, shooting was planned for May 2023, and the film was shot May to July 2024, \"a year behind plan\". The outcome appears in one attributed clause (THR: a critical and commercial hit), kept separate from his motive."
+		},
+		{
+			"finding_id": "unfamiliar-07-gloss-then-caveat-cadence",
+			"action": "fixed",
+			"reason": "'On the Nine reading' now appears twice. Generic limits sit in the limits paragraph. The social-media hedging gloss, the hazing anger gloss and the 'choosing by director... junket etiquette' paragraph are cut. The remaining caveats are specific to their evidence: Clooney/Pitt deference, the Complex context and Duffield as one witness. No specific counterevidence was removed. Length is 4,108 words by the contract counter, inside release limits; the added material answers findings that asked for more context."
+		},
+		{
+			"finding_id": "unfamiliar-08-newcomer-reference-gaps",
+			"action": "fixed",
+			"reason": "Type 9 now links to /enneagram-corner/enneagram-type-9 at its first mention (the file exists). Type 3 is glossed as \"the achievement- and image-focused type\". The text reads \"On Wolfs, directed by Jon Watts\". The Brolin anecdote names Whalefall. 'got the same flat treatment' is replaced by \"He describes the physical ordeal just as plainly.\""
+		},
+		{
+			"finding_id": "enneagram-01",
+			"action": "fixed",
+			"reason": "No sentence in the body, FAQ 2 or type_hypothesis.discriminator now says his Weapons account lacks what the part meant or that his yeses name people rather than parts. The discriminator acknowledges that his role-choice answers pair the director with the writing, the character and an inner imperative (C104-C106). It now rests the 9-over-4 call on how he describes himself and on the Complex line, with a narrow margin at medium confidence."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"action": "fixed",
+			"reason": "The sameness leg is dropped as a discriminator: \"The sameness lines fit a Nine but do not carry the case.\" The lone-wolf answer is described as a hedge about solitude, and 'interchangeable' is deleted. The type answer and both FAQs now use the openness leg instead. The type answer is 59 words."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"action": "fixed",
+			"reason": "The paragraph no longer presents the Facebook line as discriminating. It concludes that the answer \"fits a Four's guardedness as well as a Nine's modesty\". The withheld songs remain in the Four section, the Four section no longer counts the line for Nine, and C52's alternative records the songs."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"action": "fixed",
+			"reason": "C33 is out of for_claim_ids, C88 is deleted, and the ADR retakes (C145) are listed only as unexplained. Only the image-indifference part of Duffield's testimony (C32) supports the Nine reading. Deference is narrowed to creative matters (\"On set, he describes deferring on creative matters\"). The fear section reconciles the conflict explicitly: \"Pushing past a director's veto is not deference.\""
+		},
+		{
+			"finding_id": "enneagram-05",
+			"action": "fixed",
+			"reason": "The limits paragraph now says \"The Nine motive, keeping inner peace, is inferred from these patterns; no source shows him giving up something he wanted to keep the peace.\" The Weapons paragraph calls the holdout \"a want, stated plainly and acted on\" and \"initiative, not the drift of the passive-Nine stereotype\"; 'holding still until the flow resumed' is deleted. The unexplained paragraph adds how plainly he states what he wants. type_hypothesis.against lists C105, C106, C66, C15 and C123."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"action": "fixed",
+			"reason": "The security-first stunt sentence is removed. The Six paragraph now tests counterphobic Six (loyalty through the recast, the stunts) against his explicit rejection of doing what scares you (Cero, C22) and his refusal to plan ahead (Hunger, C24). It notes that heeding anxiety is a cautious-Six note and ends \"Six is a real third option, not a close second.\" The type answer now reads \"Type 6 is a real third.\" type_hypothesis.against and C120 name counterphobic Six."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"action": "fixed",
+			"reason": "The anger sentence and the hazing passage are cut (C29 deleted). The both-sides hedging paragraph is cut (C26 deleted), and C31 is deleted. for_claim_ids now contains only claims that bear on 9 vs 4 or 6: openness in self-description, undramatized handling of fear, image indifference, borrowed passion, no forward planning and the Six test."
+		},
+		{
+			"finding_id": "future-01",
+			"action": "fixed",
+			"reason": "The closing argument no longer uses a release date, 'so far' or 'will spend'. The body states the S28 audition fact and confronts Whalefall as a maximal commitment with no documented admired person at its center. The forward-looking criteria stay event-independent in the Four section (C151). The only remaining release date is the orientation clause (C84, time_sensitive with a trigger). The Resident Evil release paragraph is cut, and C86 and C47 are removed."
+		},
+		{
+			"finding_id": "future-02",
+			"action": "fixed",
+			"reason": "The body now reads \"As of his last interview on the subject, in September 2025, he had never had social media.\" The FAQ reads \"As of his September 2025 interview with Hunger, he had never had an account.\" The Type 3 paragraph reads \"as of 2025, had stayed off social media\". C08 and C134 are time_sensitive with a refresh trigger to check for a verified account and revise the section, FAQ and Type 3 paragraph."
+		},
+		{
+			"finding_id": "future-03",
+			"action": "fixed",
+			"reason": "The self-report is dated in the description (\"said in 2019\"), the pivot sentence (\"in 2019... six years later\") and the exposure paragraph (\"said at 22\"). No present-tense trait now rests solely on the 2019 interview."
+		},
+		{
+			"finding_id": "future-04",
+			"action": "fixed",
+			"reason": "The phrase now reads \"In a dubbing session a couple of weeks before that June 2026 interview\". No undated 'recent' remains in author prose."
+		},
+		{
+			"finding_id": "future-05",
+			"action": "fixed",
+			"reason": "The hook now says \"from 2017 to 2026\", and the second 'nine years' sentence is deleted."
+		},
+		{
+			"finding_id": "future-06",
+			"action": "fixed",
+			"reason": "The superlative is scoped (\"the plainest statement in the record through 2026\"). The preceding paragraphs carry the 2017, 2019 and 2024 people answers and the 2024-2025 role-choice answers, so the narrowed pattern does not depend on the Complex line."
+		},
+		{
+			"finding_id": "future-07",
+			"action": "fixed",
+			"reason": "The Euphoria season 3 sentence is cut, and C48 is removed. It did not bear on the argument, and his only recorded reason (\"There were so many different factors\") cannot be tested against the discriminator."
+		},
+		{
+			"finding_id": "future-08",
+			"action": "fixed",
+			"reason": "C89, the type answer, is now 'unresolved' with a review trigger. The trigger names the discriminator evidence: long-form, non-promotional framing of choices around identity, uniqueness, envy or lack; a documented break with trusted collaborators for private emotional reasons; or a project choice explained by what makes him different. C128 (Whalefall motive undocumented) also carries a trigger."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The Hollywood Reporter called it a \"loyal gesture\" and described him as willing to wait it out rather than pursue other work. That framing is the reporter's.",
+			"action": "kept",
+			"reason": "Kept verbatim in 'The one who stayed'. It still separates THR's framing from his own \"I just wanted to do Weapons.\""
+		},
+		{
+			"passage": "It was a brief, light answer, and it supports no story about a childhood wound.",
+			"action": "kept",
+			"reason": "Kept verbatim. The preceding sentence was repaired (subject-05), and the refusal to invent a wound still follows it."
+		},
+		{
+			"passage": "That was an attitude stated at 22, and no source documents a role he lost.",
+			"action": "kept",
+			"reason": "Kept verbatim in the social-media section."
+		},
+		{
+			"passage": "Directors praise every lead's commitment, and Duffield gave these interviews while launching his trailer, so this is one enthusiastic witness in three outlets.",
+			"action": "kept",
+			"reason": "Kept verbatim. The Empire line stays in the paragraph above so that 'three outlets' (THR, Screen Rant, Empire) remains accurate."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem.",
+			"action": "kept",
+			"reason": "Kept verbatim with the four lines it discounts. The type answer and FAQs were brought down to its level of candour (critic-06, enneagram-02)."
+		},
+		{
+			"passage": "The man who finds an interview frightening is the one his director has to hold back.",
+			"action": "changed",
+			"reason": "It now reads \"The man who found an interview frightening in 2019 is the one his director had to hold back six years later.\" The organizing juxtaposition is intact. Dating it fixes future-03 and subject-06, which found a 2019 remark at 22 presented as a current trait."
+		},
+		{
+			"passage": "The 13-year-old's reason is the telling detail. Private actors often describe guarding something precious from display. Abrams described having too little to say.",
+			"action": "changed",
+			"reason": "The contrast misread the source: the same Coup de Main answer also gives a display-guarding reason (\"I'm not very interested in showing people my life\"), and the private-actor generalization was unsourced (subject-03, critic-05, enneagram-03). The passage's distinctive move is kept: reading the 13-year-old's reasons closely instead of treating no social media as generic mystique. It now says \"The 13-year-old's reasons are the telling detail, and one answer holds three...\" and ends with an honest 9/4 verdict."
+		},
+		{
+			"passage": "That last sentence is the most revealing thing he has said about his choices. His enthusiasm is kindled by someone else's.",
+			"action": "changed",
+			"reason": "The mechanism and the phrase \"kindled by someone else's\" are kept. It is now labeled as inference (\"It suggests that on this project, at least\") and scoped to \"the record through 2026\", per subject-02, critic-03 and future-06. It remains one strand of the pattern, as the fan protector asked."
+		},
+		{
+			"passage": "In 2019, a line from the film _Pierrot le Fou_ hung on his living-room wall: \"Why do you look so sad? / Because you speak to me in words and I look at you with feelings.\"",
+			"action": "kept",
+			"reason": "Kept verbatim in the Type 4 section with his explanation and the \"No! No!\" about his songs."
+		},
+		{
+			"passage": "Longing for a past he suspects was bad is classic Four texture, and nothing in the Nine reading predicts it.",
+			"action": "kept",
+			"reason": "Kept verbatim. It is also listed in type_hypothesis.unexplained."
+		},
+		{
+			"passage": "The largest puzzle is exposure. A man who says talking about himself feels frightening keeps choosing the most physically exposed work available: the underwear chase in _Wolfs_, a dance number in _Euphoria_'s second season, a film spent inside a whale.",
+			"action": "changed",
+			"reason": "The contradiction is kept and left open, starting \"The largest puzzle is exposure.\" and keeping the same three examples. 'says' became \"said at 22\" (future-03). 'keeps choosing the most physically exposed work available' became \"keeps ending up in the most physically exposed work of his career and committing to it fully\". The next sentences say which exposures he chose, because the Euphoria dance came with an existing role (fan-03, subject-06)."
+		},
+		{
+			"passage": "Brian Duffield has one complaint about the lead of his survival thriller _Whalefall_.",
+			"action": "kept",
+			"reason": "Kept verbatim as the opening line. The orientation was added in the next paragraph rather than inside the hook."
+		},
+		{
+			"passage": "Long-form, non-promotional material in which he frames his choices around identity, envy or lack would move this profile toward Four. So would a documented break with trusted collaborators for private emotional reasons.",
+			"action": "kept",
+			"reason": "Kept verbatim. It remains true after the edit, since the Hunger role-choice answer is an inner pull, not identity, envy or lack. It is mirrored in C89's review trigger."
+		},
+		{
+			"passage": "On the Nine reading, exposure is bearable when he is absorbed in a role and someone else's vision. On the Four reading, the role is where the hidden self gets out. The public record cannot yet settle it.",
+			"action": "kept",
+			"reason": "Kept verbatim, followed by a sentence that ties it to the opening contradiction and states the lean (unfamiliar-02)."
+		},
+		{
+			"passage": "His account names only attachment: a filmmaker he loved, a part he loved, and holding on until the project could move again.",
+			"action": "kept",
+			"reason": "Kept verbatim. It matches his sources (THR, EW via Men's Journal, Hunger). The following paragraph now calls the holdout an actively pursued want rather than inertia (enneagram-05)."
+		},
+		{
+			"passage": "That was an attitude stated at 22, and no source documents a role he lost. Six years and several leading roles later, he had not changed course.",
+			"action": "kept",
+			"reason": "Kept verbatim. The status claim it leads into is now anchored to September 2025 (future-02)."
+		},
+		{
+			"passage": "Three of those four lines answer questions about empathy for a character, where acting culture encourages them, so they weigh less than they seem. Only the lone-wolf answer is directly about himself.",
+			"action": "kept",
+			"reason": "Both sentences are kept verbatim. The next sentence adds the lone-wolf question's binary wording, as critic-06 asked."
+		}
+	],
+	"prior_blockers": []
+}

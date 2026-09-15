@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "f2d9087bff40b60d7105a9c44b45b88ffb4d28ed616db296e80713931a6a08a7",
+	"evidence_sha256": "c35ed25f0d9a051c78a92b6e9068fc9267b77ba155294908eda7311e8e042e36",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": true,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-F1",
+			"severity": "major",
+			"passage": "Wikipedia places his Afghan-Aboriginal heritage through a paternal great-grandmother, so the lineage here is his account.",
+			"problem": "This presents a conflict that does not exist, and it casts doubt on a living person's account of his Indigenous ancestry. In the same Interview Magazine answer the draft quotes, he says (as read through a reader proxy) that his grandmother is \"Australian Indigenous and also Afghan\" and that the name comes from an Afghan cameleer great-grandfather. That fits Wikipedia's Afghan-Aboriginal heritage through a paternal great-grandmother and its Barkandji connection. The draft leaves out his own statement of Indigenous heritage, puts Wikipedia forward as the contrary version, and places this directly after \"a claim this analysis could not independently verify.\" Together these suggest he is embellishing his family history. The mosque caveat can stay as plain attribution, but the stacked doubt is unwarranted.",
+			"acceptance_test": "Reconfirm the exact S01 wording of the heritage answer against the transcript. Then either report his own statement of his grandmother's Indigenous and Afghan heritage, attributed to Interview Magazine (2026), or drop the Wikipedia comparison. No sentence should imply that his account and Wikipedia's conflict unless an opened source actually contradicts one of them. Update C03 and C53 to match. The mosque line reads as what he says, without extra hedging that implies embellishment."
+		},
+		{
+			"id": "subject-F2",
+			"severity": "major",
+			"passage": "The sharpest solo act in his record is also the least settled.",
+			"problem": "The draft promises not to choose between his two accounts of leaving school, then does. Calling the exit his \"solo act\" assumes the GQ version, since being \"kicked out\" is not something he did. \"The second is the more flattering telling\" suggests he spun a sensitive episode that he connected to \"a lot of stuff going on when I was younger.\" The Type 3 section then counts \"the GQ account of leaving school for an audition\" as evidence. That contradicts \"This profile does not choose between them or build a psychological claim on either.\" The GQ interview was never opened.",
+			"acceptance_test": "The section opener no longer describes the exit as his act or as a solo act. \"More flattering\" is removed or replaced with a neutral description of how the accounts differ. The Type 3 section either drops the GQ account or explicitly gives it no weight because it is one of two conflicting accounts from an unopened source. No passage speculates about the \"stuff going on\"."
+		},
+		{
+			"id": "subject-F3",
+			"severity": "major",
+			"passage": "Good news registers first as an obligation he could fail.",
+			"problem": "This states a repeated inner pattern as fact, but the record holds only one instance of good news producing alarm. That is the Haymitch call, told a year later as a joke, as the draft itself admits. Later wording raises the certainty further: \"good news keeps arriving as a new way to be found wanting\", \"The strongest clue is what success does to him: it raises his alarm\", the FAQ's \"Success tends to raise his alarm\", and the description's flat \"was more scared after winning Haymitch than before.\" The other threshold examples are nerves before a job starts, not reactions to good news. Some sourced evidence points the other way: \"But I got over that quickly\", and his confidence growing after East of Eden. Presenting a motive as habitual on a single self-deprecating anecdote is an overclaim about a 21-year-old.",
+			"acceptance_test": "Either cite a second dated, sourced instance of good news producing alarm, or reword the lede, the type answer, the FAQ, the description and the \"keeps arriving\" line as interpretation of the one reported reaction. For example: \"in the one account of winning he has given...\". Body and metadata use the same level of confidence."
+		},
+		{
+			"id": "subject-F4",
+			"severity": "major",
+			"passage": "The stated reticence and the actual openness do not match, and nothing he has said explains how he squares them.",
+			"problem": "His explanation sits in the very quotation the draft uses: \"But now I'm in these situations where I do have to talk about it.\" Nearly all of the later openness comes in promotional interviews tied to his releases, which the draft itself establishes (C44). Calling the gap unexplained leaves out his response and implies he is incoherent or insincere.",
+			"acceptance_test": "The passage acknowledges his stated reason (that he now has to talk) and the promotional setting of the later interviews. If the item stays under what the record cannot settle, it names the precise tension that remains, such as how much personal material he offers beyond what promotion requires. It no longer claims that nothing he has said explains it."
+		},
+		{
+			"id": "subject-F5",
+			"severity": "minor",
+			"passage": "what she saw was appetite: secrecy about a shortlist and close attention to the competition.",
+			"problem": "This inference goes beyond the testimony. Lind's line comes after \"You'll get it, because you're you\" and before \"He is going to be one of these guys.\" It is an affectionate prediction of success, not a report of acquisitiveness. \"You can't tell anyone\" is ordinary casting confidentiality, not a trait of secrecy. \"The least performative setting in the record\" overstates things, because the private call survives only as Lind's retelling in a People promotional interview relayed by THR. As a bare H2, \"He just gets what he wants\" loses that context and can read as entitlement.",
+			"acceptance_test": "At first use or in the Type 3 section, Lind's quote appears with her \"You'll get it, because you're you\" framing. \"Secrecy\" is removed or replaced with confidentiality language. \"Least performative setting\" is qualified as a private call known only through her press retelling. If the heading stays, that context appears right under it."
+		},
+		{
+			"id": "subject-F6",
+			"severity": "minor",
+			"passage": "It is still the one place where he describes a kind of freedom as closed to him, and no type in this analysis explains why.",
+			"problem": "This supplies an interior meaning the context does not support. In HERO, Grace had just praised the young IT: Welcome to Derry cast (\"those kids are so good\"), and his line admires child performers' looseness as a craft quality. The draft concedes the lighter reading, then restates the heavier one as what he \"describes\" about himself.",
+			"acceptance_test": "Cut the passage, or reword it to attribute only what he said about child actors' performances, with Grace's prompt as context. It should not claim he described freedom as closed to himself. If an unexplained item is still wanted, flag it as the author's open question."
+		},
+		{
+			"id": "subject-F7",
+			"severity": "minor",
+			"passage": "the teenage sessions with Hal",
+			"problem": "This names a specific relative as his audition partner without a source. The Interview Magazine passages say only \"my older brother\", and the name Hal does not appear in that text. He has four siblings, and Wikipedia calls Hal a half-brother. The earlier aside \"whom Wikipedia lists as a half-brother\" adds a private family detail that he does not use and the argument does not need.",
+			"acceptance_test": "Replace \"Hal\" in this passage with \"his older brother\" unless an opened source names Hal as the brother from those sessions. Remove the half-brother aside, or tie it to a concrete need in the argument."
+		},
+		{
+			"id": "subject-F8",
+			"severity": "minor",
+			"passage": "repeated in two interviews fourteen months apart",
+			"problem": "This is a factual error. The Halifax remark comes from Behind The Blinds (July 9, 2025) and the family-time remark from HERO (March 23, 2026), about eight and a half months apart. C15 carries the same error.",
+			"acceptance_test": "The passage says about eight months apart or gives both dates, and C15's inference is corrected."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "So this reading leans on what he did, especially when it cost him something, and on statements that repeat across years and interviewers.",
+			"reason": "It sets out, before any argument, the fairness rule for a promotional-only source base, and most of the article keeps to it."
+		},
+		{
+			"passage": "Read quickly, the swearing is a joke, and it was told as one, more than a year later, to a friendly co-star after the film was safely shot.",
+			"reason": "It limits its own central anecdote in the reader's view instead of hiding the context. That is the model the rest of the success claims should follow (see subject-F3)."
+		},
+		{
+			"passage": "That was a real and common constraint, so it should not be read as a formative wound.",
+			"reason": "It explicitly declines to invent a childhood wound for a young living subject, even with a school-stigma quote that would invite one."
+		},
+		{
+			"passage": "That is a young actor finding his footing, and a reader could fairly stop there.",
+			"reason": "It gives the benign, non-typological reading full standing before offering an interpretation."
+		},
+		{
+			"passage": "It does not fully explain the appetite she saw, and that tension stays open.",
+			"reason": "It admits honestly that the leading type does not absorb the most discordant testimony."
+		}
+	],
+	"assessment": "Fairness proxy only; this review does not speak for Joseph Zada. On the whole the draft is careful with a young living subject. It states the promotional limits of the record early, attributes quotations at the point of use, flags relayed and unopened sources (GQ, Swooon), refuses a childhood-wound story, and gives benign readings next to each interpretation. The fairness problems are local. The draft doubts his heritage account when no source contradicts it, and leaves out his own statement of Indigenous heritage (F1). It says it will not choose between his school-exit accounts, then leans on the GQ version and implies spin (F2). It generalizes one joked-about reaction to winning into a habitual pattern across the lede, type answer, FAQ and description (F3). It calls his reticence unexplained when his explanation is in the quote it uses (F4). Smaller over-reads concern Lind's affectionate line, the child-actors remark and an unsourced \"Hal\", plus one date-gap error. Sources reopened here: Behind The Blinds, HERO, Flaunt and Wikipedia via WebFetch; Interview Magazine through a reader proxy, since the direct request returned 403. These tools return summarized text, so the editor should reconfirm exact wording before quoting, especially the heritage sentence. The FAQ's \"spiritual connection\" is supported by S01 but missing from the claim inventory. THR redirected to a paywall and was not reopened; Lind's context comes from the S09 excerpt. The similarity check did not trip (max 0.028 against a 0.04 threshold), and the top pairs share only generic phrasing about the type (security, trust, \"strongest clue\"), not reused arguments, so there is no distinctiveness finding. Risk flags: contested typing and historical source uncertainty remain true. No allegation of wrongdoing appears, but the heritage and school-exit passages need the care described above."
+}

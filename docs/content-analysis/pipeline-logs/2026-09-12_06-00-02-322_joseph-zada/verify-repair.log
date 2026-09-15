@@ -1,0 +1,28 @@
+I wrote `verification-repair.json`. The facts all check out, but the Joseph Zada profile misses the release bar: it scores 8.4 overall against a required 8.5. That's the only thing blocking it. This was the last allowed repair round, so the pipeline will hold it rather than attempt another pass.
+
+**What I verified:**
+- **Quotes and claims:** I pulled fresh copies of 24 sources (the interviews, trade stories and Wikipedia pages). Every quote in the body, description and FAQs matches its cited source. All 98 claims are covered: 86 fully supported and 12 supported with caveats (mostly labelled interpretation), none unsupported.
+- **Editor's fixes:** I accepted all 63 fix decisions (51 from the six reviewers, 12 from the earlier verify pass), and all 20 protected passages are intact or changed for a good reason.
+- **Validation:** hashes match the request, and the file passes the contract's schema and release check with that single blocker.
+- **Still unreachable:** the GQ Australia interview (one of his two school-exit accounts). The article already says so where it's quoted, and nothing is built on it.
+
+**Scores:**
+
+| Dimension | Score | Why |
+|---|---|---|
+| Evidence | 8.5 | Exceptionally traceable, but almost every source is promotional and two quotes are trimmed |
+| Enneagram | 8.0 | Type 9 is argued seriously and loses; the article admits the Six case is a lean, at medium confidence |
+| Originality | 8.5 | The "he stopped fearing admired actors by seeing them as normal people" insight is specific to him |
+| Writing | 8.0 | Sections build well, but steady hedging slows the middle, and it runs 3,835 words against a 3,500 target |
+| Durability | 9.0 | Dated throughout; the argument survives the fall 2026 releases |
+| Hook | 8.0 | Vivid, sourced opening on the swearing phone call |
+| Discoverability | 8.0 | Good metadata and FAQs, but the body doesn't link to any related profiles |
+
+**Three minor findings (none block release):**
+1. His plan to move abroad is quoted without his stated reason: to watch football every day, like his older brother. That weakens one of the points used against the Type 9 reading.
+2. The magazine writer's "all said in jest" drops the rest of her sentence, "but it's not untrue." She actually endorsed his "extremely chill" self-description.
+3. Two small bookkeeping gaps: the "swore when he got the call" line in the title and description has no claim entry of its own, and one claim still points to a retired claim ID (C23).
+
+Fixing those two quotes, cutting some of the middle-section hedging and adding a link or two to related profiles are the cheapest ways to gain a tenth or two on a future run. That run would need `--refresh`.
+
+I didn't touch any other repo files. Scratch copies of the sources are in `/tmp/zada-verify/`.

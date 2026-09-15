@@ -1,0 +1,1099 @@
+{
+	"schema_version": 3,
+	"content_sha256": "f0e9c75e7eaf11164ee65ffba12785717d54bd36705884a08964cbcb5d3af51d",
+	"evidence_sha256": "ce10c7fb4d14842922be973370df9b4a9c13152d456db2e4c8519591cd937c52",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify-01",
+			"severity": "major",
+			"passage": "His only released lead was the Australian series _Invisible Boys_.",
+			"problem": "Factual error in the hook's orientation, repeated in the ending (\"As of September 2026, his released leads were _Invisible Boys_... and _We Were Liars_\"). S15, which C38 and C85 cite, says \"In 2023, he played the lead role of Dan in the crime documentary film The Speedway Murders\". The film's Wikipedia page (opened 2026-09-13) bills Joseph Cumpston first, as Dan, gives an October 20, 2023 premiere, and says it was released in select Australian and American cinemas and on streaming on June 21, 2024. His own statement to Grace supports only a narrower claim: \"I'd had small roles, but definitely not a lead role in a series.\" The editor introduced this sentence to satisfy unfamiliar-U03, so the orientation a new reader relies on is wrong.",
+			"acceptance_test": "The hook and the final paragraph either limit the claim to series leads (for example \"his only released lead in a series\"), consistent with his S03 statement, or name The Speedway Murders with its dates. A source for the film credit is added to the evidence record, and C85 and C38 are corrected to match. No other passage or FAQ implies he had no prior released lead."
+		},
+		{
+			"id": "verify-02",
+			"severity": "major",
+			"passage": "In a Swooon interview relayed by CinemaBlend, whose original could not be opened, he said the Haymitch auditions were",
+			"problem": "The Swooon original (S19) is readable: fetched in full through a reader proxy on 2026-09-13, published 2025-06-11. It words this passage differently from CinemaBlend's relay that the article quotes: \"They put me through the wringer because [the role is] very important\", then \"go through that process as well, not just to learn about the character, but to meet all the people I [will be] working with\", and separately, introduced \"Looking ahead\", \"I feel comfortable. I'm excited and I'm nervous, but it is very exciting.\" The link the article quotes, meeting the people \"and feel comfortable\" as a purpose of the auditions, appears only in the relay. This passage is one of the dated remedy statements in the Six-versus-Nine discriminator (C67 and the type_hypothesis discriminator), and the article's stated limit (\"whose original could not be opened\") is no longer true. The meeting-the-people purpose survives, so the thesis does not fall, but a load-bearing quotation now differs from its primary.",
+			"acceptance_test": "The passage quotes the Swooon primary's wording, or quotes both renderings and states that they differ. It does not present \"feel comfortable\" as the stated purpose of the auditions unless the primary (or a video of the June 11, 2025 interview) supports that. \"whose original could not be opened\" is removed. S19 is recorded as opened, with its excerpt and context; C67's source_ids, passage and inference, the type_hypothesis discriminator and the Swooon research task are updated."
+		},
+		{
+			"id": "verify-03",
+			"severity": "minor",
+			"passage": "Wikipedia relays a different version from a December 2025 GQ Australia interview",
+			"problem": "The prose correctly says the GQ interview could not be opened. But claim C07 lists S18 (access: unavailable) among its supporting source_ids, so the record presents an unread source as support. On 2026-09-13 the recorded URL and both gq.com.au URLs cited by Wikipedia returned HTTP 403, directly and through the reader proxy, and a web search surfaced only Wikipedia.",
+			"acceptance_test": "C07 cites the opened sources that actually carry the two accounts (S06 and the S15 relay). S18 stays in sources as unavailable, with its research task, unless it is actually opened."
+		},
+		{
+			"id": "verify-04",
+			"severity": "minor",
+			"passage": "Asked lightly in June 2026, after both shoots, whether any actors were on his bucket list, he laughed along:",
+			"problem": "In S01 the laughter in this exchange is Fanning's (\"FANNING: [Laughs] Yeah.\" after his answer), not his. The register is light, but \"he laughed along\" and C93's \"said laughing\" attribute behaviour the transcript gives to the interviewer. (He does laugh in the Pugh answer that follows.)",
+			"acceptance_test": "The sentence describes the exchange without attributing the laughter to him (for example \"Asked lightly... he said:\"), and C93's inference matches."
+		},
+		{
+			"id": "verify-05",
+			"severity": "minor",
+			"passage": "he described nightly hangouts in Halifax and began with a reason:",
+			"problem": "In S02 his answer does not begin with the loneliness line. It opens \"We hung out so much off-set, literally. Shubham and Emily were a little tamer...\", then \"But I feel both of us get lonely; we need someone around.\" C15's inference repeats the error (\"the first line of his answer\").",
+			"acceptance_test": "The prose no longer says he began with the reason (for example \"and gave a reason\"), and C15's inference no longer calls it the first line."
+		},
+		{
+			"id": "verify-06",
+			"severity": "minor",
+			"passage": "For Haymitch the order was his own.",
+			"problem": "S01 establishes that he and Harrelson met only after shooting (\"We ended up meeting, but we'd already shot\") and that he kept Harrelson out of his thoughts \"For my nerves\". It does not show that delaying the meeting was his choice. \"the order was his own\" and \"keep the looming authority out of the room\" slightly overstate agency; what he describes choosing is not thinking about Harrelson.",
+			"acceptance_test": "The passage attributes to his choice only what S01 supports (keeping Harrelson out of his head while working), and treats the post-shoot timing of the meeting as fact without implying he arranged it. The protected Harrelson-pattern sentence may keep its shape if \"out of the room\" becomes \"out of mind\" or similar."
+		},
+		{
+			"id": "verify-07",
+			"severity": "minor",
+			"passage": "he told McGregor in July 2025, adding, \"I've already started writing.\"",
+			"problem": "In S02, \"I've already started writing\" comes before \"I want to direct a film before I'm 30, that's my goal\", not after. \"adding\" reverses the order. The meaning is barely affected, but it narrates the sequence of a quoted answer incorrectly.",
+			"acceptance_test": "The sentence either quotes in source order or uses neutral wording (\"and said he had already started writing\")."
+		},
+		{
+			"id": "verify-08",
+			"severity": "minor",
+			"passage": "he told Grace in 2026,",
+			"problem": "The HERO conversation's recording date is not established. It was published March 23, 2026 (page JSON) and took place after the Sunrise shoot, which wrapped November 28, 2025, and after IT: Welcome to Derry had aired, so it may date from late 2025. \"in 2026\" adds unsupported precision to one of the dated self-assertion instances.",
+			"acceptance_test": "The passage dates it by publication (for example \"in a conversation published in March 2026\") or omits the year."
+		},
+		{
+			"id": "verify-09",
+			"severity": "minor",
+			"passage": "keeps sets light",
+			"problem": "The Type 9 FAQ answer says he \"keeps sets light\". No sentence in the body says this, and no claim in the evidence inventory covers it or cites a source for it. Metadata that search engines can show on its own adds a characterisation the article does not support.",
+			"acceptance_test": "The FAQ phrase is removed, or replaced with a body-supported, inventoried detail (for example Hosking's \"remarkably upbeat\" observation)."
+		},
+		{
+			"id": "verify-10",
+			"severity": "minor",
+			"passage": "felt a spiritual connection to it while on his last callback before his big break",
+			"problem": "In S01 the callback timing attaches to when he had \"been thinking about changing my name\". The \"weird spiritual connection\" is stated afterwards without its own timing, so the FAQ adds precision the source does not give.",
+			"acceptance_test": "The FAQ says he was thinking about changing his name on his last callback before his big break and that he felt a spiritual connection to the name, without timing the feeling to the callback."
+		},
+		{
+			"id": "verify-11",
+			"severity": "minor",
+			"passage": "Of Pugh: \"She's scary.\"",
+			"problem": "Coverage gap. This direct quotation (verified in S01) has no claim row; C94 covers only the following sentence. The factual cast-list assertion \"a newcomer sharing a cast list with Glenn Close and Ralph Fiennes\" (supported by S21) is also uninventoried. The standard requires every direct quotation and factual assertion in the inventory.",
+			"acceptance_test": "The evidence inventory gains claim rows (or extends C94's passage) for \"She's scary.\" and for the Close/Fiennes cast-list assertion, citing S01 and S21."
+		},
+		{
+			"id": "verify-12",
+			"severity": "minor",
+			"passage": "\"I don't tend to wear my emotions on my sleeve like Charlie does,\"",
+			"problem": "Evidence-record residuals after the edit. C73's alternative still calls the speaker \"a 19-year-old\", although the article and C88 correctly place the set interview in early 2024, when he was 18 (the future-01 acceptance test named C73). C111's inference says S15 gives Charlie's surname; S15 does not, and S25's cast list does.",
+			"acceptance_test": "C73's alternative gives his age as 18 (or none), and C111's inference credits S25 for \"Charlie Roth\"."
+		}
+	],
+	"research_tasks": [
+		"Source The Speedway Murders credit: Joseph Cumpston billed first as Dan; premiered October 20, 2023; released in Australian and US cinemas and on streaming June 21, 2024 (en.wikipedia.org/wiki/The_Speedway_Murders, opened 2026-09-13; S15 Career section agrees). Prefer a trade or screen-agency credit if available. Correct C85, C38, the hook and the final paragraph.",
+		"Record S19 (Swooon, published 2025-06-11T17:39-04:00) as opened: it was readable in full via r.jina.ai on 2026-09-13. Quote its wording or both renderings. Look for a video of the June 11, 2025 Swooon/TV Insider interview to settle which transcription is exact.",
+		"GQ Australia (Karen Leong, 17 December 2025) remains unreadable. On 2026-09-13 the recorded URL and both Wikipedia-cited gq.com.au URLs returned HTTP 403, directly and via reader proxy, and a web search returned only Wikipedia. Keep C07 on S06 plus the S15 relay."
+	],
+	"claim_checks": [
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "S15 infobox gives July 21, 2005. S03 has him \"just turned twenty\" on the first night in Spain (summer 2025), and the S05/S01 ages agree. The article prints only the year."
+		},
+		{
+			"claim_id": "C02",
+			"verdict": "supported",
+			"reason": "S01 reopened: \"My original name is Cumpston, which my older brother still goes by.\" then \"But my grandmother's last name is Zada. When I was starting out, about to go for my big break, I was on my last callback...\" Quoted as two replies with a paraphrase between; accurate."
+		},
+		{
+			"claim_id": "C03",
+			"verdict": "supported",
+			"reason": "S01 verbatim: \"My grandmother's Australian Indigenous and also Afghan. The name comes from my great-grandfather, who was an Afghan cameleer. Our family built the first mosque in Australia\". The mosque line is attributed only."
+		},
+		{
+			"claim_id": "C04",
+			"verdict": "supported",
+			"reason": "S15: father \"is a director, actor, and doctor\", mother \"is a film producer\". S01: \"My mom is a producer too, or was a producer\". The career wording fits."
+		},
+		{
+			"claim_id": "C05",
+			"verdict": "supported",
+			"reason": "S01 verbatim (\"But it only properly appealed to me at about 15...\"). S04 independently: \"after helping his older brother Hal, who is also an actor, with self-tapes\"."
+		},
+		{
+			"claim_id": "C06",
+			"verdict": "supported",
+			"reason": "S01 verbatim, after Fanning's \"support system built in\". Framed as habit, and the article notes the auditions were his brother's."
+		},
+		{
+			"claim_id": "C07",
+			"verdict": "qualified",
+			"reason": "S06 \"I ended up being kicked out\" and S15's relayed GQ quotation (\"My attendance was too low... So I dropped out to do an audition\", cited to Karen Leong, GQ Australia, 17 December 2025) both verified. S18 itself could not be opened (HTTP 403 on three GQ URLs, no syndicated copy found), which the prose states. Qualified only because the record lists S18 as a supporting source (verify-03)."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "supported",
+			"reason": "S06 verbatim. S23 (Stan, March 12, 2024: \"filming in Perth and Geraldton\") and S25 place the set visit in early 2024."
+		},
+		{
+			"claim_id": "C09",
+			"verdict": "supported",
+			"reason": "S03 verbatim (\"As I turned eighteen...\"), following \"I'd had small roles, but definitely not a lead role in a series.\""
+		},
+		{
+			"claim_id": "C11",
+			"verdict": "supported",
+			"reason": "S01 verbatim; it answers \"Did Florence [Pugh] help you with the audition?\". S16 confirms New Zealand filming. The skill alternative is stated at the passage."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "supported",
+			"reason": "S01 verbatim: \"[Laughs] You were more scared after finding out?\" / \"Yes. Then the announcement came out a day after... It was pretty full-on.\""
+		},
+		{
+			"claim_id": "C13",
+			"verdict": "supported",
+			"reason": "S02 verbatim, answering McGregor's legacy question. \"But I got over that quickly\" follows and is quoted."
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "supported",
+			"reason": "S02 verbatim (\"phenomenally nervous\"; \"And like every other project I've done, I think once I step on set and meet everyone, I'll be fine\"). The intervening prep sentence is omitted without changing the meaning."
+		},
+		{
+			"claim_id": "C15",
+			"verdict": "qualified",
+			"reason": "The quotation is verbatim in S02 and does answer \"What's your favourite memory of the two of us?\". But it is not the first line: he opens \"We hung out so much off-set, literally...\" then \"But I feel both of us get lonely\". The prose \"began with a reason\" and C15's \"first line\" note are inaccurate (verify-05)."
+		},
+		{
+			"claim_id": "C16",
+			"verdict": "supported",
+			"reason": "S02 verbatim, from Berlin."
+		},
+		{
+			"claim_id": "C19",
+			"verdict": "supported",
+			"reason": "S10 (People via Yahoo, 2026-07-07T11:00Z) verbatim."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "S05 (published 2025-06-18) verbatim."
+		},
+		{
+			"claim_id": "C22",
+			"verdict": "supported",
+			"reason": "S01 verbatim: \"I said, 'Yeah, sure. I guess I won't watch it.' So I waited about eight months to watch it.\""
+		},
+		{
+			"claim_id": "C24",
+			"verdict": "supported",
+			"reason": "S04 verbatim."
+		},
+		{
+			"claim_id": "C25",
+			"verdict": "supported",
+			"reason": "S04: the two quoted sentences are consecutive, separated only by the tag \"says Zada\". Joining them changes no words or meaning."
+		},
+		{
+			"claim_id": "C26",
+			"verdict": "supported",
+			"reason": "S09 (THR, 2025-06-26) verbatim: \"He just gets what he wants,\" she said of Zada. \"He is going to be one of these guys.\" The article places this as her characterisation to People."
+		},
+		{
+			"claim_id": "C27",
+			"verdict": "supported",
+			"reason": "Jacobson's statement is verbatim in S14 and in S22 (Deadline, opened directly 2026-09-13): \"Jo prepared like crazy and stole our hearts.\""
+		},
+		{
+			"claim_id": "C28",
+			"verdict": "supported",
+			"reason": "S03: the unbolded MG line says \"you kept the most intricate notes\", so Grace is the speaker, as the article states."
+		},
+		{
+			"claim_id": "C31",
+			"verdict": "supported",
+			"reason": "S06 verbatim. The page's author metadata lists Julie Hosking, supporting the attribution."
+		},
+		{
+			"claim_id": "C32",
+			"verdict": "supported",
+			"reason": "S04: he says he's \"really happy, actually\", and of \"his attitude towards the pressures of the industry\": \"You've just got to roll with it,\" he says."
+		},
+		{
+			"claim_id": "C33",
+			"verdict": "supported",
+			"reason": "S02 verbatim: \"I've already started writing. I want to direct a film before I'm 30, that's my goal.\""
+		},
+		{
+			"claim_id": "C36",
+			"verdict": "supported",
+			"reason": "S03 verbatim, directly after Grace's \"Did you see IT: Welcome to Derry? Those kids are so good.\""
+		},
+		{
+			"claim_id": "C37",
+			"verdict": "supported",
+			"reason": "S16 and S17 (\"All seven episodes of East of Eden will drop exclusively on Netflix on Thursday, October 1, 2026\"); S21: \"scheduled to be released in the United States on November 20, 2026\". Dated and time_sensitive."
+		},
+		{
+			"claim_id": "C38",
+			"verdict": "unsupported",
+			"reason": "Contradicted by a source the claim cites. S15 Career: \"In 2023, he played the lead role of Dan in the crime documentary film The Speedway Murders\". That film's Wikipedia page (opened 2026-09-13) bills Joseph Cumpston first, as Dan, with an October 20, 2023 premiere and a June 21, 2024 Australian/US cinema and streaming release. As of September 2026 his released leads were not only Invisible Boys and We Were Liars (verify-01)."
+		},
+		{
+			"claim_id": "C40",
+			"verdict": "supported",
+			"reason": "S01 verbatim, including \"My mom doesn't really like that idea. She'd rather I just stay home.\""
+		},
+		{
+			"claim_id": "C41",
+			"verdict": "supported",
+			"reason": "S01 verbatim (\"no one in the house besides my little sister\")."
+		},
+		{
+			"claim_id": "C44",
+			"verdict": "supported",
+			"reason": "Publication metadata rechecked: S06 2025-02-13, S12 2025-06-12, S05 2025-06-18, S09 2025-06-26, S02 2025-07-09, S14 2025-11-20, S03 2026-03-23, S13 2026-06-19, S10 2026-07-07, S01 2026-08-10. \"Almost every\" is accurate, and the early-2024 exception is named."
+		},
+		{
+			"claim_id": "C45",
+			"verdict": "supported",
+			"reason": "S06 verbatim; early-2024 dating via S23."
+		},
+		{
+			"claim_id": "C46",
+			"verdict": "supported",
+			"reason": "S16: \"Filming began in New Zealand in October 2024\" and \"The production wrapped in March 2025\"."
+		},
+		{
+			"claim_id": "C47",
+			"verdict": "supported",
+			"reason": "S01: \"I met [casting director] Deb Zane in January of 2025\"."
+		},
+		{
+			"claim_id": "C48",
+			"verdict": "supported",
+			"reason": "S01 verbatim; the inner double quotes are rendered as single quotes for nesting."
+		},
+		{
+			"claim_id": "C49",
+			"verdict": "supported",
+			"reason": "S01 verbatim: \"Because I was shooting, I told them, 'I'll have it to you in three weeks,' because I had a plan to shoot the scenes properly and edit them.\""
+		},
+		{
+			"claim_id": "C50",
+			"verdict": "supported",
+			"reason": "Labelled interpretation at medium confidence, drawn from verified remedy passages (C14, C19, C66, C94) and behaviour (C11). It survives the C67 wording problem (verify-02), and the thin Six markers are stated."
+		},
+		{
+			"claim_id": "C51",
+			"verdict": "supported",
+			"reason": "S01 verbatim."
+		},
+		{
+			"claim_id": "C53",
+			"verdict": "supported",
+			"reason": "S15: \"He has Afghan-Aboriginal heritage through his paternal great-grandmother. His Indigenous roots link him to the Barkandji people.\" Compatible with his account."
+		},
+		{
+			"claim_id": "C54",
+			"verdict": "supported",
+			"reason": "S01 verbatim."
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "S01: \"Then the day I finished East of Eden... I went to L.A. and met with the Lionsgate people, doing chemistry reads and callbacks.\" S09 places him in L.A."
+		},
+		{
+			"claim_id": "C58",
+			"verdict": "supported",
+			"reason": "S09 verbatim (Lind quoting him; \"And he's naming names that are really big that he's up against.\")."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "supported",
+			"reason": "S01 dateline \"FRIDAY 2 PM JUN 12, 2026\"; S22 published 2025-04-23T21:55Z; S01 \"the announcement came out a day after\"; S21 principal photography wrapped November 28, 2025."
+		},
+		{
+			"claim_id": "C61",
+			"verdict": "supported",
+			"reason": "S02 verbatim, directly after C13."
+		},
+		{
+			"claim_id": "C62",
+			"verdict": "supported",
+			"reason": "S01 verbatim."
+		},
+		{
+			"claim_id": "C63",
+			"verdict": "supported",
+			"reason": "S01 verbatim, after \"No. We ended up meeting, but we'd already shot.\""
+		},
+		{
+			"claim_id": "C64",
+			"verdict": "supported",
+			"reason": "S01: \"But when I did meet Woody, I had his blessing\". Fanning had asked \"Did you get Woody's blessing?\""
+		},
+		{
+			"claim_id": "C65",
+			"verdict": "supported",
+			"reason": "S02 verbatim; the context (\"after the first episode or two\", \"a big American-made set\") places it on We Were Liars."
+		},
+		{
+			"claim_id": "C66",
+			"verdict": "supported",
+			"reason": "S02 verbatim."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "qualified",
+			"reason": "The quotation matches S12 (CinemaBlend, 2025-06-12). The Swooon original (S19, published 2025-06-11) was readable via reader proxy on 2026-09-13 and renders it differently: \"They put me through the wringer because [the role is] very important\"; \"go through that process as well, not just to learn about the character, but to meet all the people I [will be] working with\"; and separately, \"Looking ahead\", \"I feel comfortable. I'm excited and I'm nervous\". The relational purpose (meeting the people) survives. \"and feel comfortable\" as a purpose of the audition appears only in the relay, and \"whose original could not be opened\" is now inaccurate (verify-02)."
+		},
+		{
+			"claim_id": "C68",
+			"verdict": "supported",
+			"reason": "S03 verbatim with context: Grace's \"I would make you come and have dinner with my mom every night\" and his \"It's so lovely to have you and your mom and Iona's [Bell] mom.\""
+		},
+		{
+			"claim_id": "C69",
+			"verdict": "supported",
+			"reason": "S04: \"Zada has an uncommonly zen mentality akin to that of a seasoned industry professional.\""
+		},
+		{
+			"claim_id": "C70",
+			"verdict": "supported",
+			"reason": "S04: \"I try to block it all out and stay in my own lane.\""
+		},
+		{
+			"claim_id": "C71",
+			"verdict": "supported",
+			"reason": "S01 verbatim."
+		},
+		{
+			"claim_id": "C73",
+			"verdict": "supported",
+			"reason": "S06 verbatim; the en dash falls outside the quoted span. The record's alternative still calls him a \"19-year-old\" at an early-2024 interview, when he was 18 (verify-12)."
+		},
+		{
+			"claim_id": "C74",
+			"verdict": "supported",
+			"reason": "S01 verbatim, after \"But you're chilling mostly in Australia?\""
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "Labelled interpretation, explicitly held lightly; both uses of \"chilling\" verified (S01, S03)."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "supported",
+			"reason": "S04 verbatim."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "supported",
+			"reason": "S02 verbatim."
+		},
+		{
+			"claim_id": "C79",
+			"verdict": "supported",
+			"reason": "S15: directed by his father, starred Hal. S24: Hal \"wrote the screenplay for a teen comedy called 'Bilched' that his father helped fund and direct\" and \"called in his younger brothers and friends as part of the cast\"."
+		},
+		{
+			"claim_id": "C80",
+			"verdict": "supported",
+			"reason": "S13 (2026-06-19) verbatim."
+		},
+		{
+			"claim_id": "C81",
+			"verdict": "supported",
+			"reason": "S01: \"I felt a weird spiritual connection to it\"."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "Labelled prediction, unresolved, with a falsifying review trigger."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "S22 (opened directly) and S14: Westerman, \"After auditioning hundreds of gifted performers from around the world\"."
+		},
+		{
+			"claim_id": "C84",
+			"verdict": "supported",
+			"reason": "S21: Haymitch as \"a tribute from District 12... the future mentor\" of Katniss. S22: \"Haymitch is the character played earlier in the Hunger Games franchise by Woody Harrelson\"."
+		},
+		{
+			"claim_id": "C85",
+			"verdict": "unsupported",
+			"reason": "Contradicted by S15 (cited): \"In 2023, he played the lead role of Dan in... The Speedway Murders\", a film released in Australian and US cinemas and on streaming on June 21, 2024 (the film's Wikipedia page gives top billing to Joseph Cumpston). His own words (S03) support only that Invisible Boys was his first lead in a series (verify-01)."
+		},
+		{
+			"claim_id": "C86",
+			"verdict": "supported",
+			"reason": "S21 cast list: Elle Fanning as Effie Trinket."
+		},
+		{
+			"claim_id": "C87",
+			"verdict": "supported",
+			"reason": "S21: Mckenna Grace as Maysilee Donner; S03: \"[Mckenna's Hunger Games character]\"."
+		},
+		{
+			"claim_id": "C88",
+			"verdict": "supported",
+			"reason": "S06 Perth set visit (\"before production moves north to Geraldton\"); S23 filming in Perth and Geraldton as of March 12, 2024; S25 production announced March 15, 2024. A July 2005 birth makes him 18."
+		},
+		{
+			"claim_id": "C89",
+			"verdict": "supported",
+			"reason": "S04 names Hal; S01 \"He's six years older than me\"; S24 Hal born May 29, 1999, cast in The Walking Dead: World Beyond via video audition."
+		},
+		{
+			"claim_id": "C90",
+			"verdict": "supported",
+			"reason": "S16: \"Joseph Zada as Caleb 'Cal' Trask\"; S01 intro: \"Cal Trask, the role that made James Dean a legend\"; S17 \"All seven episodes\"."
+		},
+		{
+			"claim_id": "C91",
+			"verdict": "supported",
+			"reason": "S16: Florence Pugh as Cathy Ames; Zada as Cal, \"Cathy and Adam's son\"."
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "S01: \"But also, I'm in the last two episodes.\""
+		},
+		{
+			"claim_id": "C93",
+			"verdict": "qualified",
+			"reason": "The quotation is verbatim in S01 (June 12, 2026). But the laughter in that exchange is Fanning's (\"FANNING: [Laughs] Yeah.\"), not his. The prose \"he laughed along\" and C93's \"said laughing\" are inaccurate (verify-04)."
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "S01 verbatim. The omitted \"She shouldn't be that scary. [Laughs] As a mother, it doesn't add up. It's funny.\" does not change the meaning."
+		},
+		{
+			"claim_id": "C95",
+			"verdict": "supported",
+			"reason": "S01: \"I was thinking maybe after I got the role,\" and she's like, \"No, no, no, stop. Promise me you won't watch the film.\""
+		},
+		{
+			"claim_id": "C96",
+			"verdict": "supported",
+			"reason": "S03 verbatim (\"All the sound people hate the idea of you having something actually playing... I begged them to let me play it because I needed it to give me that energy\"), about an early Invisible Boys scene."
+		},
+		{
+			"claim_id": "C97",
+			"verdict": "supported",
+			"reason": "S03, Grace's own words."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "supported",
+			"reason": "S02 question and answer verified (\"We hung out every night... that beautiful balcony in Halifax\")."
+		},
+		{
+			"claim_id": "C99",
+			"verdict": "supported",
+			"reason": "S02 page published 2025-07-09; the HERO article JSON gives 2026-03-23T08:33:56. That is about eight and a half months, stated as \"about eight months\"."
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "S04: \"extremely talented, extremely chill, and extremely humble.\" It's all said in jest, but it's not untrue."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "S09 verbatim."
+		},
+		{
+			"claim_id": "C102",
+			"verdict": "supported",
+			"reason": "S02 verbatim."
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "FAQ restatement of verified S01 wording."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "S22 published 2025-04-23; S15 \"In April 2025\"."
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "S23 (March 12, 2024) \"filming in Perth and Geraldton\"; S06 \"The series was filmed in Perth and Geraldton\"; S25."
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "supported",
+			"reason": "Labelled interpretation offering identity and practical readings; S01's heritage statement and \"my older brother still goes by\" Cumpston support both."
+		},
+		{
+			"claim_id": "C107",
+			"verdict": "supported",
+			"reason": "Labelled interpretation; S01's stated aim to shoot and edit properly, S15's father a director, S01's brother an actor."
+		},
+		{
+			"claim_id": "C108",
+			"verdict": "supported",
+			"reason": "S02 (2025-07-09) to the S01 conversation (2026-06-12) is eleven months. The register is noted, apart from the laughter attribution flagged under C93."
+		},
+		{
+			"claim_id": "C109",
+			"verdict": "supported",
+			"reason": "S01 verbatim basis; unresolved with a trigger."
+		},
+		{
+			"claim_id": "C110",
+			"verdict": "supported",
+			"reason": "S01 wording verified; month from S22 plus \"a day after\"."
+		},
+		{
+			"claim_id": "C111",
+			"verdict": "supported",
+			"reason": "S06: \"a punk rocker who is outed on social media after an encounter with a married man\"; S25 cast list: \"Joseph Zada as Charlie Roth\". The record's note that S15 gives the surname is wrong: S15 does not, S25 does (verify-12)."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full transcript via reader proxy 2026-09-13; published 2026-08-10T13:00Z; dateline \"FRIDAY 2 PM JUN 12, 2026\". Casting, name, heritage, East of Eden, Harrelson, bucket-list, Pugh and relocation exchanges all reread."
+		},
+		{
+			"source_id": "S02",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full text, published 2025-07-09. Berlin opener, East of Eden legacy answer, We Were Liars nerves, favourite-memory answer, directing goal."
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full conversation; article JSON date 2026-03-23T08:33:56. Dinner/family-time exchange, IT: Welcome to Derry prompt, sound-department headphones, notes (Grace speaking), career sequence."
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full profile (undated on page). Hal self-tapes line, \"really happy, actually\", \"roll with it\", \"in jest\"/\"uncommonly zen\", \"weird place\", \"toe to toe\", \"still learning\"."
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full Q&A, published 2025-06-18; \"set anything in stone\" answer."
+		},
+		{
+			"source_id": "S06",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full article, published 2025-02-13; author metadata Julie Hosking. Perth set-visit paragraph, school-exit and \"wear my emotions\" quotes, \"punk rocker\" description, \"premieres today (February 13)\"."
+		},
+		{
+			"source_id": "S08",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Opened directly (reader proxy rate-limited); Deadline 2025-06-10T18:07Z. \"I'm so ridiculously nervous\"; Lockhart testimony. Used only for C44."
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full article, THR 2025-06-26. FaceTime/hotel recollection, \"naming names\", \"You'll get it, because you're you\", \"He just gets what he wants\" said of Zada, relaying People."
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Yahoo syndication of People, 2026-07-07T11:00Z; Glenn Close passage."
+		},
+		{
+			"source_id": "S12",
+			"opened": true,
+			"context_matches": true,
+			"locator": "CinemaBlend by Carly Levy, published June 12, 2025; block quote matches the article's quotation word for word. (Its divergence from the Swooon primary is recorded under S19.)"
+		},
+		{
+			"source_id": "S13",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Variety Australia 2026-06-19; Grace's \"biggest stars ever\"; Australian release November 19, 2026."
+		},
+		{
+			"source_id": "S14",
+			"opened": true,
+			"context_matches": true,
+			"locator": "RUSSH, published 2025-11-20T21:00Z; Westerman and Jacobson statements verbatim."
+		},
+		{
+			"source_id": "S15",
+			"opened": true,
+			"context_matches": false,
+			"locator": "Reread 2026-09-13: infobox, Early life (heritage, Barkandji, GQ relay), Career. Context mismatch for C38/C85: its Career section says \"In 2023, he played the lead role of Dan in the crime documentary film The Speedway Murders\", which contradicts \"His only released lead was... Invisible Boys\" and the released-leads list. Its uses for C01, C04, C07, C53, C79 and C104 do match."
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Cast list (Caleb \"Cal\" Trask; Pugh as Cathy Ames), Production (October 2024 to March 2025), release October 1, 2026."
+		},
+		{
+			"source_id": "S17",
+			"opened": true,
+			"context_matches": true,
+			"locator": "What's on Netflix: \"All seven episodes... Thursday, October 1, 2026\"."
+		},
+		{
+			"source_id": "S18",
+			"opened": false,
+			"context_matches": false,
+			"locator": "Not opened. HTTP 403 (News Corp bot block) on the recorded URL and on both Wikipedia-cited gq.com.au URLs, directly and via reader proxy, 2026-09-13; a web search returned only Wikipedia's relay."
+		},
+		{
+			"source_id": "S19",
+			"opened": true,
+			"context_matches": false,
+			"locator": "Opened via reader proxy 2026-09-13; published 2025-06-11T17:39-04:00. The record marks it unavailable and the article says it could not be opened. Its wording (\"put me through the wringer because [the role is] very important\"; \"meet all the people I [will be] working with\"; separately \"I feel comfortable\") differs from the relay quoted for C67."
+		},
+		{
+			"source_id": "S21",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Lead, cast list (Fanning as Effie, Grace as Maysilee, Fiennes, Close), Haymitch as District 12 tribute and future mentor, US release November 20, 2026, wrap November 28."
+		},
+		{
+			"source_id": "S22",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Opened directly (reader proxy rate-limited); Deadline by Matt Grobar, 2025-04-23T21:55Z. Casting lede, Harrelson line, Westerman \"hundreds of gifted performers\", Jacobson statement."
+		},
+		{
+			"source_id": "S23",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Stan release dated March 12, 2024: \"filming in Perth and Geraldton, Western Australia\"."
+		},
+		{
+			"source_id": "S24",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Infobox (born May 29, 1999; Joseph Zada half-brother), Bilched screenplay and casting of younger brothers, World Beyond video audition."
+		},
+		{
+			"source_id": "S25",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Production section (cast announced March 12, 2024; production announced March 15, 2024; Geraldton) and cast list \"Joseph Zada as Charlie Roth\"."
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-F1",
+			"accepted": true,
+			"reason": "Candidate quotes \"My grandmother's Australian Indigenous and also Afghan. The name comes from my great-grandfather, who was an Afghan cameleer.\" (verified in S01), says Wikipedia's record \"fits his account\", and attributes the mosque line plainly. C03/C53 match."
+		},
+		{
+			"finding_id": "subject-F2",
+			"accepted": true,
+			"reason": "Section now opens \"His school years left two accounts that do not match\"; \"more flattering\" is gone; the Type 3 section no longer uses the school exit; no speculation about \"stuff going on\"."
+		},
+		{
+			"finding_id": "subject-F3",
+			"accepted": true,
+			"reason": "No habitual good-news claim remains in the lede, type answer, FAQ or description. \"One reaction shows little on its own\" limits the anecdote, with the sister's joy beside it. The description states only that he swore when he won."
+		},
+		{
+			"finding_id": "subject-F4",
+			"accepted": true,
+			"reason": "Passage gives his reason (\"He gave the reason himself\") and the promotional setting, then names the narrower open tension about how much he volunteers."
+		},
+		{
+			"finding_id": "subject-F5",
+			"accepted": true,
+			"reason": "\"You'll get it, because you're you\" framing quoted; \"shared the shortlist in confidence\" replaces secrecy; the private-call claim is limited to reported behaviour; context appears in the section's first paragraph under the heading."
+		},
+		{
+			"finding_id": "subject-F6",
+			"accepted": true,
+			"reason": "Now framed as \"this analysis's question rather than his claim\", with Grace's IT: Welcome to Derry prompt and the craft reading (verified S03)."
+		},
+		{
+			"finding_id": "subject-F7",
+			"accepted": true,
+			"reason": "Hal identified via Flaunt (\"his older brother Hal, who is also an actor\", verified S04); half-brother aside removed."
+		},
+		{
+			"finding_id": "subject-F8",
+			"accepted": true,
+			"reason": "\"about eight months apart, in July 2025 and March 2026\" matches S02 (2025-07-09) and HERO (2026-03-23)."
+		},
+		{
+			"finding_id": "fan-01",
+			"accepted": true,
+			"reason": "Hook quotes \"Yes\" and his continuation verbatim. \"More scared\" appears only as Fanning's question. Titles and description no longer assert it. The franchise-premise limit sits beside the joke caveat, and the opening uses \"so I more or less knew immediately\"."
+		},
+		{
+			"finding_id": "fan-02",
+			"accepted": true,
+			"reason": "Body dates the set visit to the early-2024 shoot (S23/S25 verified), keeps February 13, 2025 as publication, names the exception in the limit paragraph, and removes \"before he was 19\". C08/C31/C73 no longer give a February 2025 interview date."
+		},
+		{
+			"finding_id": "fan-03",
+			"accepted": true,
+			"reason": "His own heritage statement is quoted; the Wikipedia sentence presents compatibility; identity, practical and company readings sit side by side; the mosque line is only attributed, which meets the joint intent of fan-03 and subject-F1."
+		},
+		{
+			"finding_id": "fan-04",
+			"accepted": true,
+			"reason": "East of Eden is an instruction he followed after planning to watch \"maybe after I got the role\" (verified), with no approval; the sequence claim is limited to Harrelson; C22 updated."
+		},
+		{
+			"finding_id": "fan-05",
+			"accepted": true,
+			"reason": "Interval corrected; the HERO dinners with Grace and her mother are identified (\"The family was Grace's, assembled on location\"); Halifax is framed as the favourite-memory answer. The leftover \"began with a reason\" slip is logged separately (verify-05) and does not revive the original distortion."
+		},
+		{
+			"finding_id": "fan-06",
+			"accepted": true,
+			"reason": "Cal Trask/James Dean, last two episodes, Pugh as Cal's mother, Charlie Roth's situation, Fanning as Effie and Grace as Maysilee each get a sourced clause; \"two biggest performances\" removed. Verified against S01, S06, S16, S21, S25."
+		},
+		{
+			"finding_id": "fan-07",
+			"accepted": true,
+			"reason": "Hal identification sourced to S04 with the US series from S24; Bilched described as Hal's script with his younger brothers and friends cast (verified S24); no causal claim."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "Option (b) met in substance: the win is supporting only (\"The win itself does not settle this. A huge new obligation disrupts a Nine too...\"), the anti-Three clause is removed, the sister celebration appears in the hook and the Nine section, and the discriminator moves to what settles him."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "Article says the fear \"belongs to Threes as much as Sixes, and to most newcomers\", removes the precision claim, and names reliability behaviours (Close \"always there for me\", \"people around me\", the flight home)."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "Jacobson credit-routing argument removed from the prose and alternative_case; self-crediting acknowledged (\"I can go toe to toe with anyone now\"; \"a tendency, not a rule\")."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "Skill explanation leads at the passage; the relational phrasing is noted with a schedule caveat; \"harder on purpose\" replaced by his stated reason and \"He was still shooting\"."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Count reduced to \"two clear cases of family around his own threshold\"; teenage sessions recast as habit (\"the auditions were his brother's\"); Berlin carries the pay-cheque alternative."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "\"Good news keeps arriving\" removed; the East of Eden no-pressure line is acknowledged; the sequence is claimed only for Harrelson."
+		},
+		{
+			"finding_id": "critic-07",
+			"accepted": true,
+			"reason": "Concede-then-combine now appears twice (swearing; pay-cheque trip). The aggregate is lowered to \"consistent with a Six reading rather than a demonstration of it\" and names two items press style does not explain."
+		},
+		{
+			"finding_id": "critic-08",
+			"accepted": true,
+			"reason": "Drift test removed; notes explicitly non-discriminating; replaced with three dated self-assertion instances, verified in S01 and S03."
+		},
+		{
+			"finding_id": "critic-09",
+			"accepted": true,
+			"reason": "Interval and C15 corrected; HERO dinner context added. \"Across years\" kept, and I agree with the reason: the record now runs from the early-2024 set visit to June 2026, the limit paragraph states that span, repeated statements do cross from 2025 into 2026, and the sentence is a protected passage."
+		},
+		{
+			"finding_id": "critic-10",
+			"accepted": true,
+			"reason": "The call supplies only behaviour; \"He just gets what he wants\" is attributed as Lind's verdict to People; the hook no longer runs the FaceTime into the quote."
+		},
+		{
+			"finding_id": "unfamiliar-U01",
+			"accepted": true,
+			"reason": "Hook no longer quotes Lind; the Type 3 section separates reported call behaviour from her People verdict; C26's inference matches."
+		},
+		{
+			"finding_id": "unfamiliar-U02",
+			"accepted": true,
+			"reason": "\"Yes\" plus continuation quoted; the opening's certainty matches \"more or less knew immediately\"; first-paragraph quotations match S01 and S22."
+		},
+		{
+			"finding_id": "unfamiliar-U03",
+			"accepted": false,
+			"reason": "Orientation additions are present and sourced, but the answer to how new he was to screen work is factually wrong. \"His only released lead was the Australian series Invisible Boys\" is contradicted by S15 and The Speedway Murders credits (a released lead, as Joseph Cumpston, 2023/2024). The test requires sourced, accurate orientation, so the fix introduced a new factual error (verify-01)."
+		},
+		{
+			"finding_id": "unfamiliar-U04",
+			"accepted": true,
+			"reason": "Press caveat made once in the limit paragraph; \"ordinary, but\" moves reduced; body is 3,707 words (checkDraft), near target; the two named sections now add recurrence and remedy steps; type tests and open questions retained."
+		},
+		{
+			"finding_id": "unfamiliar-U05",
+			"accepted": true,
+			"reason": "Nine section opens with a plain definition; the type section explains the types differ in what the alarm is about and what settles it; the win has one consistent supporting weight; titles and description no longer rest on it."
+		},
+		{
+			"finding_id": "unfamiliar-U06",
+			"accepted": true,
+			"reason": "Hal named at first mention via Flaunt; \"the same people\" replaced by \"two clear cases of family around his own threshold\"."
+		},
+		{
+			"finding_id": "unfamiliar-U07",
+			"accepted": true,
+			"reason": "Neutral first sentence; the school exit is not used elsewhere; the section is shorter and builds nothing on either account."
+		},
+		{
+			"finding_id": "unfamiliar-U08",
+			"accepted": true,
+			"reason": "Description (131 characters) now names the Hunger Games role and the steadying-with-trusted-people thesis without \"peers\". It no longer names a fear, which removes the contradiction the finding targeted, and it matches the FAQs."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"accepted": true,
+			"reason": "Type section states the 6/3/9 predictions about alarm and remedy and cites dated remedy passages (July 2025 \"once I step on set\", July 2026 Close, June 2026 Pugh), all verified. The win is not presented as discriminating, and the clause is removed. The C67 wording issue (verify-02) leaves more than two verified remedy passages."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"accepted": true,
+			"reason": "Thesis and first FAQ use \"solid footing in people he trusts\"; section renamed \"What settles him\"; the thin-Six-markers limit sentence is present; the Three rebuttal no longer argues against the thesis wording."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"accepted": true,
+			"reason": "Drift argument replaced with three dated self-assertion instances (three-week deadline, sound department, move abroad), all verified; notes non-discriminating; \"uncommonly zen\" attributed after the joking self-description. The HERO date wording is logged separately (verify-08)."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"accepted": true,
+			"reason": "Bucket-list exchange quoted with its June 2026 date and light register; the arc shows mid-2025 confidence, then recurrence; C93/C94/C108 added. The laughter misattribution (\"he laughed along\") is logged separately (verify-04)."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"accepted": true,
+			"reason": "Jacobson removed; credit-routing dropped; replaced with the behavioural contrast of bringing trusted people in first."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"accepted": true,
+			"reason": "No asserted intent; \"He was still shooting\" precedes the three-week request, with his stated plan quoted."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"accepted": true,
+			"reason": "Stated as two clear instances; teenage sessions appear only as a formative habit."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"accepted": true,
+			"reason": "Only reported behaviour is tied to the call; the summary line is attributed to her People interview."
+		},
+		{
+			"finding_id": "enneagram-09",
+			"accepted": true,
+			"reason": "Interval corrected with dates; C15 corrected; C68 records Grace, her mother and Iona Bell's mother (verified S03); the surrogate-family detail is placed in prose with a reason."
+		},
+		{
+			"finding_id": "enneagram-10",
+			"accepted": true,
+			"reason": "S01 coaches line verified as accent work and recorded in S01 context; C29 retired because the voice passage was cut; the prose makes no coaches claim."
+		},
+		{
+			"finding_id": "future-01",
+			"accepted": false,
+			"reason": "Body text and C08/C45/C88/C105 carry the early-2024 date correctly. But the test also requires C73 to carry the corrected age, and C73's alternative still describes the set-visit statement as \"from a 19-year-old\" (he was 18). An evidence-record residual with a trivial repair (verify-12)."
+		},
+		{
+			"finding_id": "future-02",
+			"accepted": true,
+			"reason": "Limit paragraph states the publication window with the early-2024 exception at 18; \"before he was 19\" removed; the release-status clause names both titles with dates inside the dated final paragraph, covered by time_sensitive C37."
+		},
+		{
+			"finding_id": "future-03",
+			"accepted": true,
+			"reason": "Final paragraph anchored \"As of September 2026\" and \"At that point\"; \"so far\" and \"running ahead of the evidence\" removed; a sentence says release outcomes do not change the dated pattern; C82 recorded with a falsifying trigger. The factual error in that paragraph's list of released leads is a separate accuracy problem (verify-01), not a durability regression."
+		},
+		{
+			"finding_id": "future-04",
+			"accepted": true,
+			"reason": "Corrected to about eight months with both dates; no other passage overstates the span."
+		},
+		{
+			"finding_id": "future-05",
+			"accepted": true,
+			"reason": "\"He has not publicly named a type\" removed from the body and FAQ."
+		},
+		{
+			"finding_id": "future-06",
+			"accepted": true,
+			"reason": "\"has worked as a director, actor and doctor... as a film producer\" matches S15 and his \"or was a producer\"."
+		},
+		{
+			"finding_id": "future-07",
+			"accepted": true,
+			"reason": "Hook dates the call to April 2025; Deadline S22 opened directly (2025-04-23) plus \"a day after\"; the Haymitch FAQ says April 2025; C60 cites S22."
+		},
+		{
+			"finding_id": "future-08",
+			"accepted": true,
+			"reason": "The finding's premise was a record error: S02 verified contains \"I've already started writing\" (and the Hal co-writing line). Correcting the record instead of the claim is right, and C33's trigger now refers only to the directing goal and sourced writing."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "So this reading leans on what he did, especially when it cost him something, and on statements that repeat across years and interviewers.",
+			"preserved": true,
+			"reason": "Present verbatim in the candidate; the method rule still governs the argument."
+		},
+		{
+			"passage": "Read quickly, the swearing is a joke, and it was told as one, more than a year later, to a friendly co-star after the film was safely shot.",
+			"preserved": true,
+			"reason": "Present verbatim; it still limits the central anecdote, now next to the franchise-premise limit."
+		},
+		{
+			"passage": "That was a real and common constraint, so it should not be read as a formative wound.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "That is a young actor finding his footing, and a reader could fairly stop there.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "It does not fully explain the appetite she saw, and that tension stays open.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "Both accounts can be partly true, since an attendance problem can end in an ultimatum and an exit. They still place the decision on opposite sides, and the second is the more flattering telling. This profile does not choose between them or build a psychological claim on either.",
+			"preserved": true,
+			"reason": "Changed, and I agree. The conflict, the reconciling possibility and the refusal to build on either account are retained verbatim; only the \"more flattering telling\" judgement was removed, which subject-F2 and unfamiliar-U07 correctly identified as unsupported spin."
+		},
+		{
+			"passage": "The mechanism he names is still worth noticing. His confidence arrived once the people he feared had been reclassified as peers.",
+			"preserved": true,
+			"reason": "Present verbatim; source-faithful to S04 (\"these people are actually normal people\")."
+		},
+		{
+			"passage": "He even qualifies his own calm. When Fanning followed up on \"I'm chilling,\" he added: \"There hasn't been a whole lot of chill until very recently. But yeah, Australia is a safe place.\"",
+			"preserved": true,
+			"reason": "Present verbatim; S01 wording rechecked."
+		},
+		{
+			"passage": "The Six reading does not fully answer Lind either. A Six can want something intensely, and this reading accounts for the manner of his pursuit: tracking the competition quietly, confiding in a friend, preparing with family. It does not fully explain the appetite she saw, and that tension stays open.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "The stated reticence and the actual openness do not match, and nothing he has said explains how he squares them.",
+			"preserved": true,
+			"reason": "Changed, and I agree. The original claim was inaccurate because his reason is in the S04 quote; the contradiction survives in narrower, accurate form (\"the record does not show how he weighs that against his stated wish for privacy\")."
+		},
+		{
+			"passage": "Nervousness, gratitude and \"the cast became a family\" are the house style of those formats, and a newcomer sharing a cast list with Glenn Close and Ralph Fiennes would produce them whatever his type.",
+			"preserved": true,
+			"reason": "Present verbatim; Glenn Close and Ralph Fiennes both appear in the S21 cast."
+		},
+		{
+			"passage": "They still place the decision on opposite sides, and the second is the more flattering telling. This profile does not choose between them or build a psychological claim on either.",
+			"preserved": true,
+			"reason": "Changed as with the longer version: the opposite-sides observation and the refusal to choose are retained; only the unsupported \"more flattering\" judgement was removed."
+		},
+		{
+			"passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "He had made the process harder on purpose.",
+			"preserved": true,
+			"reason": "Removal was necessary: S01 gives quality and scheduling reasons, not an intent to make it harder. The story's turn from the call to the three-week tape is retained (\"He was still shooting. He told them...\"), which the standard allows when an unsupported detail is removed."
+		},
+		{
+			"passage": "What repeats is the sequence: keep the looming authority out of the room while working, then receive its approval afterward.",
+			"preserved": true,
+			"reason": "Changed, contribution preserved: the memorable pattern survives verbatim for Harrelson, where both steps occur, and \"repeats\" was false. verify-06 asks only to soften \"the order was his own\"/\"out of the room\", which keeps the pattern."
+		},
+		{
+			"passage": "The Six reading predicts that fame will not settle him, and that at the next threshold he will again bring his people with him before he jumps into the deep end.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "Chilling is also the word he used for what company protects him from: \"chilling in my own head and going crazy by myself.\"",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "It is still the one place where he describes a kind of freedom as closed to him, and no type in this analysis explains why.",
+			"preserved": true,
+			"reason": "Changed, contribution preserved: the unexplained residue remains as the author's open question, and the claim that he described freedom as closed to himself was unsupported by the S03 context."
+		},
+		{
+			"passage": "Those hedges carry a serious caveat. They are exactly what a well-advised teenager says in his first press cycle opposite Hollywood veterans, and all three come from about a month in mid-2025. If he speaks with settled authority about his method once his work is released, the hedging was career position more than temperament.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		}
+	],
+	"coverage_complete": false,
+	"metadata_consistent": false,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"scores": {
+		"evidence": {
+			"score": 7.5,
+			"passage": "In a Swooon interview relayed by CinemaBlend, whose original could not be opened",
+			"reason": "Traceability is strong. 71 quoted fragments were rechecked against 22 reopened sources and match verbatim or are legitimately joined; speakers, outlets and dates are named at the passage; inference is labelled (\"This suggests\", \"consistent with a Six reading rather than a demonstration of it\"); and Stan, Deadline and Wikipedia production records independently fix the chronology. It falls below 8 for three reasons. The orientation sentence \"His only released lead was the Australian series Invisible Boys\" is contradicted by the record's own S15. A load-bearing remedy quotation (this passage) differs from its now-readable Swooon primary, while the article says the primary could not be opened. And several narration slips attribute or order details inaccurately (\"he laughed along\", \"began with a reason\", \"adding\")."
+		},
+		"enneagram": {
+			"score": 7.5,
+			"passage": "What differs is what the alarm is about and what settles it.",
+			"reason": "The argument states what 6, 3 and 9 each predict. It tests Nine with dated self-assertion (the self-set three-week deadline, begging the sound department, the move abroad over his mother's preference) and Three with Lind, the run of jobs and the directing goal. It admits the record is thin on Six markers and leaves Lind's appetite open, so it is honest and not boilerplate. But the Six-versus-Nine separation rests mostly on comfort and meeting-people remedies (\"makes everyone feel so comfortable\", \"once I step on set and meet everyone, I'll be fine\") that a Nine settling into a group would also produce. One of those remedies (C67) is wording-uncertain, and the most costly behavioural choice (flying home for the tape) is fairly conceded to skill. The strongest alternative is seriously tested but does not clearly fail a sharp discriminator."
+		},
+		"originality": {
+			"score": 8.5,
+			"passage": "His confidence arrived once the people he feared had been reclassified as peers.",
+			"reason": "The portrait is built from details specific to him: swearing at the casting call beside hugging his sister, flying from New Zealand to shoot the tape with family, keeping Harrelson out of mind until his blessing afterwards, the double use of \"chilling\", the cameleer surname, and begging the sound department for punk in his headphones. Insights such as fear returning after he had \"reclassified\" admired actors as peers cannot be reused for another subject. Type definitions are brief."
+		},
+		"writing": {
+			"score": 8,
+			"passage": "The reclassification did not hold.",
+			"reason": "Sections advance rather than restate: fear, then its recurrence, then what settles it, then two alternatives, then open questions. Short pivot sentences like this one give pace, and attribution is precise. Holding it back: the caveats are still dense (\"None of this is proof.\", \"One smaller detail should be held lightly.\"), the body runs about 3,700 words, above the 3,500 target, and a few connectives are flat or abstract (\"Company is the reason that recurs.\", \"Company works the same way.\")."
+		},
+		"durability": {
+			"score": 8.5,
+			"passage": "How those releases land does not change the dated pattern above.",
+			"reason": "Absolute dates run throughout. Pending releases and the closing prediction are fenced inside \"As of September 2026\" and recorded as time_sensitive or unresolved claims with actionable triggers (C37, C38, C82, C21, C76). The thesis rests on dated 2025–2026 behaviour, so removing the October and November 2026 releases leaves it intact. Minor dating imprecision (\"told Grace in 2026\") and the incorrect released-leads list in the same final paragraph need fixing but do not depend on time."
+		},
+		"hook": {
+			"score": 8,
+			"passage": "His first reaction: \"I just started swearing, like, 'Now I have to do this and it's going to be really hard.'\"",
+			"reason": "A specific, sourced, dated moment that creates a question the article then answers and limits honestly (told as a joke, franchise premise, joy with his sister). Its orientation clauses are useful but make the first two paragraphs heavy, and one of them (\"His only released lead...\") is factually wrong."
+		},
+		"discoverability": {
+			"score": 7.5,
+			"passage": "What is Joseph Zada's personality type?",
+			"reason": "meta_title is 59 characters and pairs the type with the hook; the description is 131 characters; the type answer is 57 words. Four FAQs match real search intents (type, Type 9 alternative, the Zada/Cumpston name, the Haymitch casting), and their anchors match the headings. The body links the Type 6, 3 and 9 pages, and the suggestions resolve to four existing drafts. Deductions: the Type 9 FAQ adds an unsupported \"keeps sets light\", the name FAQ over-times the \"spiritual connection\", and the body has no links to related personality analyses."
+		}
+	}
+}

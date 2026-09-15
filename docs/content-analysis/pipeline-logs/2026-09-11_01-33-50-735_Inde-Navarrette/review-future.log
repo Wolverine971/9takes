@@ -1,0 +1,16 @@
+I wrote the five-year ("future") review for the Inde Navarrette profile to `review-future.json`. It passes the pipeline's review schema, carries the request's hashes (they match the frozen draft and evidence), and every quoted passage appears word-for-word in the draft. I didn't change any other file, look at the other reviews, or publish anything.
+
+**Verdict:** the profile mostly holds up over five years. Its argument still works without the latest event: the Hot Ones interview from September 8 only backs up the earlier Collider account. The evidence spans 2021, 2023 and 2026, and the draft rightly leaves the X-Men casting, the SNL booking and the relationship rumors out of the body.
+
+**Two major findings (the editor has to fix or reject these with a reason):**
+1. **The first sentence could go stale.** "2026's biggest horror breakout" has no source, isn't in the list of tracked claims, and the rest of the year's horror season (Halloween is the genre's peak) hasn't happened yet. The fix is to lead with the sourced budget and box-office figures instead, or to source the ranking and schedule a re-check after the year's box office closes.
+2. **The ending's open question isn't tracked.** "Her next roles will show…" hands the type question to future evidence, but nothing in the record says when to look again. The next tests already have dates: SNL on October 31, 2026 and the X-Men film reported for May 5, 2028. The central piece of evidence, the Twitch deletion, comes from one podcast answer. The fix is a tracked open item with those dates as re-check points; the body can stay as it is.
+
+**Five minor findings:**
+- "She has not named her type" appears in the body and a FAQ without a date. The type-answer paragraph is already 57 words, so adding "as of September 2026" would break the 60-word cap unless something else is trimmed.
+- "Before any nomination exists" (Oscars) has no date, and nothing schedules a re-check once nominations are out, expected January 2027.
+- "A four-month press run" and "now driving overwork" use relative time that will mislead readers later.
+- The Twitch deletion and the job drought around it have no dates, even though the "she acted before it arrived" argument depends on timing.
+- The budget claim is marked settled even though sources disagree ($750,000 vs $1 million), and the box-office re-check ("when the theatrical run ends") has no date.
+
+I also marked five passages to keep, mostly the ones tying 2021 and 2023 interviews to 2026 and the testable closing line. The duplicate-writing check found no reused arguments. I kept the "contested typing" risk flag on.

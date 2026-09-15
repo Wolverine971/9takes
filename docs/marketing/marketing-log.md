@@ -10,6 +10,19 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-09-14 — Unattended weekly brief: best gate week on record and nothing reaches the person afterward; mail blocked on a postal address that exists nowhere; the 09-10 homepage rebuild zeroed homepage gate exposure; correction: the publisher has been publishing
+
+- Brief: [`docs/daily-briefs/2026-09-14_marketing-status.md`](../daily-briefs/2026-09-14_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-09-14`, audit exit 0 at 11:07 on its third start; the Monday chain ran ~5h late). Headline + biggest leak quoted verbatim. Supabase MCP down; read-only `scripts/db-query.sh` checks only.
+- **Growth headline (verbatim):** _"best activation week on record (gate 25%), and every one of the 7 contributors hit a dead end. 0 were reachable by email, the one host reply landed 4.8 days late on an anonymous take, and the first person ever to opt in to reply alerts never got a reply. Welcome mail is still off, 12 days now, and as of today it also blocks signup confirmations."_ Cohort 09-07: 4,213 new visitors (642 search), 0 signups, 0 profiles, 7 comments, gate 28 -> 7 = 25.0%; contributor return **0 / 31 across seven matured cohorts**.
+- **Biggest leak (verbatim):** _"the loop reaches the answer and then has no way to reach the person."_ Host digest drafted 2/7 and replied once at 115h (no `maxDuration`, fixed 48h lookback). The first-ever anonymous opt-in (take 733) got nothing. The logged-in reply email had 0 eligible events.
+- **Mail blocker sharpened:** per `docs/email-sequences/enneagram-launch-check-2026-09-10.md`, `EMAIL_FOOTER_ADDRESS` is absent from Vercel AND empty in both local env files. The missing input is DJ's postal address. It blocks welcome (4 errored), signup confirmation (`signups.id=208` failed today), and the Enneagram type-prompt campaign DJ approved and authorized 09-10 (31 eligible). The 09-09 alarm (`process-sequences` 500) is routed to nobody.
+- **NEW, not in the growth audit:** `02b469175` (09-10 19:10 UTC) deleted the homepage's `getHomepageFeaturedQuestion()` server load; `2ca432d5b` promoted the static-practice `HomeLandingV2` (Harry Dry V2). DB: `/` had 21 `gate_shown` rows + 4 contributions 09-01 -> 09-10, last at 09-10 17:20 UTC, **0 since**. Homepage visitors flat (14-23/day). Gate fps ~5.3/day -> ~3.3/day across all paths. Small n, causal link inferred.
+- **CORRECTION to the 09-07 and 08-28 briefs:** the auto-publisher did NOT lose Ryan Holiday, Freddie Mercury, Marcus Aurelius, Aaron Pierre or Jonathan Bailey. DB `published_at` is ~10:00 UTC on each job day, as it is for Zach Bryan (09-10). Only the post-publish `pnpm gen:all` fails on Node 26.5.0 (`scripts/daily-blog-publisher.sh:19` still bare `node`). "No publishable draft" also exits 1, so OpenClaw `error (46x)` is mostly noise.
+- **Content engine:** DJ refilled the queue 09-09 (7 scout subjects, athletes deprioritized); pipeline v3 shipped 09-10 (`733de46af`) after `docs/content-analysis/blog-pipeline-audit-2026-09-09.md`. Nightly: Arthur Mensch ungraded/needsReview, Austin Abrams 8.1 held, Joseph Zada 8.4 held, Tom Rhys Harries research timeout. Manual: Nathan Fielder 7.9, Inde Navarrette 8.1 (untracked, not queued), Sandra Bullock refresh 9.0 (gate-blocked). Publishes: Bill Burr + Patrick Mahomes by hand, Zach Bryan by the job. DB 447 -> 450, disk 438 -> 441. Publisher candidates 75 -> 80. Abrams' _Resident Evil_ window opens 09-18.
+- **Also this week:** comment ranking phase 2 live (09-07); question purge of 4 questions (48 -> 46 public, 09-10); Elizabeth Holmes + Adela refreshes; account page rebuild.
+- **Still dark:** Instagram 38 days (queue RED 0/10, frozen 37 days), Quora 118 days, Twitter since 05-19, 14 distribution assets (oldest 201 days), 7/8 Reddit drafts, 0 founding-circle invites, outreach 41 days, One Take 51 days, GSC 32 days stale (retrofit read due ~09-09 not done), pop-culture 21 (20 at 3+ months).
+- **Next move (ranked):** (1) DJ supplies the postal address -> Vercel env -> re-arm 4 + resend 208 -> header-checked test -> controlled Enneagram batch; route the alarm to Telegram. (2) Host-digest `maxDuration: 300` + last-success lookback; DJ replies to 733/735/737 today. (3) Decide whether `/` carries a live question again; have growth split gate exposure by surface before/after 09-10.
+
 ### 2026-09-07 — Unattended weekly brief (10-day window; 08-31 brief lost to a credit blackout): DJ shipped the whole post-answer loop, the welcome sequence has been dead in prod since 09-02 on a missing env var, and the content engine is stalled at both ends
 
 - Brief: [`docs/daily-briefs/2026-09-07_marketing-status.md`](../daily-briefs/2026-09-07_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-09-07`, audit exit 0 at 06:08); headline + biggest leak folded verbatim. Supabase MCP down this session; no DB re-query.
@@ -311,6 +324,17 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-09-14 — Current blockers needing DJ / eng decision
+
+- **Postal address for `EMAIL_FOOTER_ADDRESS` (DJ only, 12 days):** the value is empty in Vercel and both local env files. It blocks welcome (4 errored), signup confirmation (208 failed today), and the approved Enneagram campaign (31 eligible, authorized 09-10). After it is set: re-arm, resend, send a header-checked test, run a controlled batch, and route the `process-sequences` 500 alarm to Telegram.
+- **Host digest degraded:** no `maxDuration` on `/api/cron/host-digest`; fixed 48h lookback stranded 5 takes; takes 733 (opted in), 735 and 737 are owed a same-day reply that is now 5 days late.
+- **Homepage gate removed 09-10:** decide live question vs practice-first; `contribution.path` NULL on 5/7 blocks a clean surface split.
+- **Publisher regen step:** `pnpm gen:all` fails on Node 26.5.0 after every successful DB publish; pin Node in `scripts/daily-blog-publisher.sh`, and exit 0 when nothing is eligible.
+- **Held drafts in release windows:** Austin Abrams 8.1 (_Resident Evil_ 09-18), Joseph Zada 8.4 (11-20). Tom Rhys Harries research timeout, retry 1/3. Inde Navarrette 8.1 untracked and not queued.
+- **Founding circle + 7 Reddit drafts:** holding until bets 1 and 2 are live (growth recommendation); needs DJ confirmation.
+- **Carried:** Instagram restore-or-retire (5th brief; 38 days dark); perspective-review backfill fork (5th brief; 72 blocked); GSC refresh + overdue Ashby/Coogan/Hormozi retrofit read; `ms-rachel` Type 2 anchor 8.1 (6th brief); Quora 118 days; 14 distribution assets; pop-culture 21; One Take ep 1.
+- **Resolved since 09-07:** create queue refilled (DJ, 09-09); delivery-health alarm shipped (09-09; unrouted); publisher runtime reframed, since publishing works and only regen fails.
+
 ### 2026-09-07 — Current blockers needing DJ / eng decision
 
 - **`EMAIL_FOOTER_ADDRESS` missing in Vercel production:** welcome sequence dead since 09-02 06:15 UTC, 4/4 enrollments `errored`, cron no longer retrying. One env var + re-arm SQL (growth bet #1). Also gates `enneagram_type_prompt` and the weekly-question email.
@@ -390,6 +414,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Decisions
 
+### 2026-09-14 — Observed from artifacts (not stated to the PM directly)
+
+- **09-09:** DJ approved 7 CREATE subjects from `docs/content-research/2026-09-09_surging-people-scout.md` and deprioritized athletes (Ben Shelton moved to priority 20 despite 500K+ Trends). Elizabeth Holmes UPDATE executed the same day.
+- **09-10:** DJ approved the revised Enneagram type-prompt email ("Why we read people differently") and explicitly authorized the send after deployment + preflight; no further send approval needed (`docs/email-sequences/enneagram-launch-check-2026-09-10.md`).
+- **09-10:** DJ approved removal of questions #86, #132, #166, #172 (reversible `removed = true`); #144 kept; 356 generated questions left flagged (`docs/audits/question-purge-2026-09-10/removal-results.md`).
+- **09-10:** Homepage replaced with a practice-first `HomeLandingV2` built on the Harry Dry audit (`docs/marketing/2026-09-10-harry-dry-landing-page-audit.md`); the live featured-question server load was removed. Whether dropping the live gate was intended is unconfirmed (open question in the 09-14 brief).
+- **09-10:** People pipeline v3 adopted (`733de46af`), with the legacy runner kept, following `docs/content-analysis/blog-pipeline-audit-2026-09-09.md`.
+
 ### 2026-09-07 — Observed from artifacts (not stated to the PM directly)
 
 - DJ shipped the full post-answer loop (`7db255b8e`) rather than the narrower opt-in rewrite proposed on 08-28: reply email default-on for logged-in users, curated starter set with pinned answers, and a host reply desk with a daily digest. Design rationale in `docs/product/2026-09-06-engagement-brainstorm-response.md`.
@@ -425,6 +457,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-09-14](../daily-briefs/2026-09-14_marketing-status.md) — Growth gate passed; headline: best activation week on record (gate 25%, 7 contributors) and every contributor hit a dead end (0 reachable, 1 host reply at 115h, first anonymous opt-in never answered); welcome mail off 12 days and now blocking signup confirmations; 0/31 contributor return across seven matured cohorts. The mail blocker is a postal address that exists nowhere in config; the approved Enneagram campaign (31 eligible) waits on the same value. NEW: the 09-10 homepage rebuild removed the live featured question, and `/` has logged 0 gate events since (traffic flat). CORRECTION: the auto-publisher did publish the "lost" 08-28 -> 09-01 drafts and Zach Bryan; only post-publish `gen:all` fails on Node 26. Queue refilled + pipeline v3 shipped, 0 of 4 nightly attempts publishable; DB 447 -> 450. Instagram 38 / Quora 118 days dark; GSC 32 days stale.
 - [2026-09-07](../daily-briefs/2026-09-07_marketing-status.md) — 10-day window (08-31 brief lost to a credit blackout). Growth gate passed; headline: loop fix shipped four hours after the week closed, Reddit alpha's only answer was "Pooopin", welcome sequence dead in prod since 09-02 (`EMAIL_FOOTER_ADDRESS` unset in Vercel, 4/4 enrollments errored; 0/28 contributor return across six matured cohorts). DJ shipped reply email + starters/pins + host desk + founding-circle drafts (`7db255b8e`), unmeasured. Content engine stalled both ends: create queue empty six nights, publisher lost 4 eligible drafts to Node 26 (streak 39), 9 hand publishes (429 -> 438 disk, DB 447). Reddit live as a channel (1 of 8 fired). Instagram 31 days / Quora 111 days dark; GSC 25 days stale.
 - [2026-08-28](../daily-briefs/2026-08-28_marketing-status.md) — activation improved (matched comments 1 -> 4, gate 3.3% -> 15.4%; question-page funnel 7 -> 4 -> 4) and two registrations landed, one typed; the 08-24 welcome-exit, reveal persistence, attribution, sleep-protection, and reactivation fixes are live; the leak moved to post-answer relationship formation (4 opt-in views, 0 interactions/replies/returns); traffic +19.7% was direct/unknown while organic and returners were flat; four clean nightly drafts but publisher at 29 consecutive errors from a Node 26/engine mismatch; Instagram and Quora still dark.
 - [2026-08-24](../daily-briefs/2026-08-24_marketing-status.md) — growth did not compound (17 -> 3 comments, gate 12.0% -> 8.6%, 5th straight matured cohort at 0% return) and the return-leg defect was located in `welcomeSequenceGuards.ts`; **CORRECTION: DJ shipped `/register` + reveal type capture 08-21 (`e62c71c55`) and the audit recorded it as unshipped**, though the reveal half is measurement-only; auto-publisher autonomously dark 25 days (6 manual publishes, 417 -> 423, victoria-justice + keira-knightley finally closed); perspective backlog 89 -> 86 with zero backfill (all +9 dirs went to new drafts); image debt regressed 7 -> 12; NEW host-sleep failure class cost both 08-24 runs (~3h, nate-bargatze retry 2/3); Instagram unscheduled 2nd week with 15 overdue queue items; Quora 97 days dark.
@@ -443,6 +476,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 ## Experiment + campaign log
 
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
+
+### 2026-09-10 — Homepage swap: live featured-question gate -> practice-first `HomeLandingV2` (`02b469175`, `2ca432d5b`)
+
+- Unplanned as an experiment; logged so the readout isn't lost. Before (09-04 -> 09-10): `/` was the largest gate surface (9 gate fps, 2 contributions in 7 days; 21 `gate_shown` rows + 4 contributions since 09-01). After (09-11 -> 09-14): 0 gate events on `/`; all-path gate fps ~5.3/day -> ~3.3/day; homepage visitors flat. Small n, 3.3-day window, cause inferred. Proposed readout owner: `growth-analyst`, split by surface in the 09-21 audit. Detail: brief `2026-09-14` §Homepage.
+
+### 2026-09-07 -> 09-13 — Post-answer loop experiment, week 1 readout
+
+- Cross-link only. Gate 25.0% (record); host reply within 24h 0/7 (bar >=8/10); return not yet mature; q567 share 57% (bar <50%); logged-in reply email 0 eligible events; first anonymous opt-in, unserved. Detail: `docs/growth/growth-log.md` `### 2026-09-14`.
 
 ### 2026-09-03 — Reddit alpha: r/alphaandbetausers post on q567 (`alpha_beta_answer_first_20260831`)
 

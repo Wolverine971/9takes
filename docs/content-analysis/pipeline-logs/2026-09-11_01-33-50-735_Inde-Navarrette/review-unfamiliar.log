@@ -1,0 +1,23 @@
+The unfamiliar-reader review for Inde Navarrette is done and written to `review-unfamiliar.json`. It passes `reviewSchema`, its hashes match both the request and the frozen draft and evidence, and every quoted passage appears exactly in the draft. I didn't modify or publish anything else, and I didn't look at the other roles' reviews.
+
+**Risk flag:** contested typing is flagged, as the evidence record already does. Fan typing sites split between Type 6 and Type 7, confidence is medium, and the article's clearest example doesn't sit well with the "counterphobic" label (findings 3 and 6 below).
+
+**Findings (3 major, 5 minor):**
+1. **Major:** A reader who hasn't seen *Obsession* never learns what it's about. The draft doesn't explain who Nikki is, who Ian is, what a "final girl" is, or what her surviving take changed. So the story about her changing the ending has no stakes.
+2. **Major:** The film's timeline is never given: filmed when she was 23, premiered at the Toronto film festival in September 2025, released in U.S. theaters May 15, 2026. A reader can't tell when the audition, the shoot and the 18 months without work happened relative to losing her *Superman & Lois* role in June 2023.
+3. **Major:** The article gives two versions of its central pattern:
+   - The opening says she names the fear, finds safety, then commits all the way.
+   - The Twitch section says she secures against the worst case, then checks whether it was real.
+
+   Its clearest example, deleting her own streams, is a retreat, which undercuts the "counterphobic" label.
+4. **Minor:** The Type 4 reading is dismissed two sections before its case is made. Type 8 shows up only as a one-line dismissal.
+5. **Minor:** "What the pattern costs" names one real cost (lost sleep). The rest of the section is about privacy and audience trust.
+6. **Minor:** Key quotes are raw auto-captions with false starts and filler ("I felt like I was I got scared"). They read as typos and haven't been checked against audio.
+7. **Minor:** The stream deletion has no date, and its scope varies: "the archive" in the body, "all" and "a lot" in her words, "most" in the FAQ. When she did it decides whether the fear was really hypothetical, which the article claims.
+8. **Minor:** The opening line's "2026's biggest horror breakout" has no source and isn't in the claim inventory.
+
+**Protected passages (5):** the scream-session schedule, "A Six story would be easier to tell if the moving had hurt," "Doubt is the named enemy," the hit-by-a-car camera-lens detail, and the closing callback to the opening.
+
+**Similarity check:** no meaningful reuse. The top score (0.032) is below the 0.04 threshold, and no phrases are shared with the other drafts. The matches are ordinary type vocabulary attached to arguments specific to her.
+
+As this role requires, I relied on the frozen draft and evidence record and didn't reopen any sources.

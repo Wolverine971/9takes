@@ -10,16 +10,7 @@ import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 
 export type PersonalitySimilarityRow = Pick<
 	Database['public']['Tables']['blogs_famous_people']['Row'],
-	| 'person'
-	| 'enneagram'
-	| 'title'
-	| 'description'
-	| 'persona_title'
-	| 'lastmod'
-	| 'date'
-	| 'type'
-	| 'published'
-	| 'content_quality'
+	'person' | 'enneagram' | 'lastmod' | 'date' | 'type' | 'published' | 'content_quality'
 >;
 
 export interface PersonalitySimilarityResult {

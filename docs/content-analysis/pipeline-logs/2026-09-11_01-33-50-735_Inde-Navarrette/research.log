@@ -1,0 +1,25 @@
+Research is done. `evidence.json` is written, it passes the contract's own validator with status **ready**, and it's the only file I added to the repo. I didn't draft or publish anything.
+
+**Leading type: 6 (counterphobic Loyalist), medium confidence. Strongest alternative: 7.**
+
+The deciding evidence is how she acts when something bad is only *possible*:
+- **The Twitch deletion.** On Variety's podcast (July 31, 2026) she says she deleted her own Twitch archive when she moved into acting. She loved streaming and it had paid her rent, but she worried people wouldn't "take me seriously." Her words: "it's not based on fact… I just panicked."
+- **The same move keeps coming back.** She sets up a "safety net" before any Oscar nomination, uses rituals "to keep myself secure," tells Barker she's too shy to scream and lets him build a safe setup first, and "used Curry as a mirror where I put full trust in him."
+- **Fear comes before the thrill.** She chases "that high" only "whenever you're really scared of something." That reads as mastering fear, not novelty for its own sake.
+
+I recorded the Type 7 case in full: she loved moving around as a kid ("new story, new place"), called losing her Superman & Lois role "Dog, you're free," went skydiving and got pierced on the same day at 18, and says "I don't think that far ahead." The file also covers the Type 4 case (the "I felt seen, I felt heard" material) and the Type 3 case ("prove," "validating").
+
+**What this means for the next stages:**
+- **Six reviewers instead of two.** I flagged the typing as contested: fan sites split between 6 and 7w8, and my own read is close. The pipeline will therefore run all six reviewer roles, which costs more model calls. That's the honest safeguard here.
+- **Weak spot:** most of the evidence is her own words from the May–September 2026 press run for a film about losing control. Pre-fame material from 2020–2023 exists but is thin, and there's no testimony from anyone outside the Obsession cast and crew.
+- **Timing:** she hosts SNL on October 31, 2026, and was cast as Rogue in Marvel's X-Men (dated May 5, 2028), so search demand should be high this fall.
+
+**Limits the draft must respect (the file lists all 15):**
+- Quotes from videos come from YouTube auto-captions and must be checked against the audio (e.g. "Karyn" is Curry).
+- Speaker labels are missing in the Hot Ones transcript, so three lines are kept out of the claims until someone watches the video.
+- Her rumored relationship stays out.
+- The exact birth day comes only from third-party profiles, so the fallback is "March 2001."
+- Box office, X-Men and SNL facts are marked as time-sensitive with review triggers.
+- A 2021 remark touching on mental health must not be read as a diagnosis.
+
+Video transcripts are saved in `/tmp/inde/`, outside the repo, if a reviewer wants to check them.

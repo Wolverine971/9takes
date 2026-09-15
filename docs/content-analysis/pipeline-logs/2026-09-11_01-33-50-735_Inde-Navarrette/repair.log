@@ -1,0 +1,20 @@
+I finished the repair stage and wrote all three outputs. Nothing was published and no input files were changed.
+
+**What changed in the article (`repair.md`)**
+- **James Gunn quote (verify-01):** It now includes her fuller words, that his tweet made renewal "a little bit of 50-50," and says her caution was ordinary and proved right, since she was cut in June 2023. The Type 3 section now treats the remark as adding little, and the unsourced line about how Threes behave is gone. Type 3 is still a live second alternative, and FAQ 3 matches.
+- **A misattribution I found while checking that source:** she said the Gunn line on *The Wayne Ayers Podcast*; Just Jared Jr. only reported it. The article said "she told Just Jared Jr." I corrected it, even though that sentence was a protected passage, and recorded why in the resolution.
+- **Deferring to Barker's memory (verify-02):** The article now gives her reason, that they shot it two years earlier, and no longer counts the line as evidence of borrowed certainty.
+- **Repetition (verify-03):** The core pattern is now argued once. The later restatements are cut, including "trust works like infrastructure," the Gunn remark is argued fully in one place, and the stacked hedges are merged.
+- **"Constantly" (verify-04):** FAQ 2 and the body now use her own words, "moving around a lot."
+- **Two smaller fixes from the verifier's notes:** the two Cosmopolitan quotes that had been joined under one attribution are now attributed separately, and the charades line no longer says who played.
+
+All three files pass the pipeline's own checks: no draft blockers, every claim's passage is found in the article, and the resolution covers all 47 review findings, the 4 new ones and all 21 protected passages.
+
+**Decision for you:** the article is still long, at 4,258 words against a target of roughly 3,500, down only 115. The verifier's instructions for this fix said every verified detail had to survive, and most of what's left is quoted evidence the earlier reviewers asked me to add. Writing scored 7.5 last round and pulled the overall to 8.2, below the 8.5 needed. If the verifier still marks it down, the only way to get meaningfully shorter is to cut real material, such as the Type 4 and Type 9 paragraphs or some of the film background. That's your call, and it would mean a refresh rather than another repair.
+
+**Still unchecked:** YouTube blocked caption access again, so the new GoldDerby context relies on the verifier's earlier caption reading. I added audio checks for that line and for the original podcast clip to the research tasks.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-11_01-33-50-735_Inde-Navarrette/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "62f36e23d1362e3dfa681b8e616de4c577f719e4dafd5d763f562b3d09ce0546",
+	"evidence_sha256": "67ea2ed410c6cad513d9758a974aabff6724422915da7e759e4c835373d4def3",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-01",
+			"severity": "major",
+			"passage": "The script ended with Nikki's death.",
+			"problem": "A reader who has not seen Obsession never learns what the film is about or who Nikki is. The only description is 'a film about a woman who loses control of herself.' Ian, 'freaky Nikki' and 'final girl' also go unexplained. So several beats that carry the argument land without stakes: why screaming was central to the role, why the Zoom read needed 'all of them' emotions, what her surviving take actually changed, and what 'she's a final girl she wouldn't do that' refers to ('that' has no antecedent a newcomer can find). 'Deference did not make her passive' rests on the ending story, and the reader cannot tell what was at stake in it.",
+			"acceptance_test": "No later than the section 'The worst audition she had ever done', one to three sourced sentences, added to the claim inventory (for example from the opened Obsession page S29), give the premise and Nikki's role, spoiler-flagged if needed. The same passage names Cooper Tomlinson's and Michael Johnston's roles, glosses 'final girl' in plain language, and states what the changed ending means for Nikki. A reader who has never seen the film can explain why her take mattered."
+		},
+		{
+			"id": "unfamiliar-02",
+			"severity": "major",
+			"passage": "After wrapping _Obsession_, Navarrette went about a year and a half without another acting job.",
+			"problem": "Every interview is precisely dated, but the film's own timeline never is. The draft never says when she auditioned or when the film was shot (she told Kimmel she was 23 during filming). It never gives the September 2025 TIFF premiere or the May 15, 2026 U.S. release. So a first-time reader cannot tell whether the Obsession audition came before or after the June 2023 Superman & Lois cut, or when the year-and-a-half drought happened. It is also unclear why Barker was talking at TIFF in September 2025 about '2026's' breakout. The argument leans on sequence (loss, drought, breakout, fear of not being taken seriously), so the missing timeline hurts both momentum and the discriminator.",
+			"acceptance_test": "One compact, attributed sentence or clause places the shoot (at least 'filmed when she was 23', per S14), the TIFF premiere (September 2025) and the U.S. release (May 15, 2026). Where the record does not give the audition date, the draft says so. A reader can put the Superman & Lois cut, the Obsession audition and shoot, the drought and the release in order without looking anything up."
+		},
+		{
+			"id": "unfamiliar-03",
+			"severity": "major",
+			"passage": "What she describes is the Six sequence: secure against the worst case first, then find out whether it was real.",
+			"problem": "The article gives the reader two different formulas for its central pattern. The hook says 'She names the fear. She finds a person or a structure that makes it safe. Then she commits all the way,' and the type answer calls her 'the counterphobic version that walks toward its fears.' But the article's 'clearest unforced case' has a different shape: no trusted person and no commitment, just a pre-emptive retreat (erasing streams she loved). A newcomer finishes with two formulas and a label that the headline example seems to contradict, and cannot restate the one insight in a sentence. The closing section half-acknowledges the tension ('the fear... was enough to make her erase work she loved'), but only at the very end.",
+			"acceptance_test": "The body states the core pattern once, in plain words that cover both the scream sessions (approach inside a safety structure) and the Twitch deletion (pre-emptive retreat). It explicitly says the deletion is a retreat rather than a counterphobic approach, and what that means for the 'counterphobic' label. Body, FAQ answer and description use the same framing. A test reader can summarize the pattern in one sentence that fits both stories."
+		},
+		{
+			"id": "unfamiliar-04",
+			"severity": "minor",
+			"passage": "A Type 4 reading struggles here, since Fours tend to guard their own read of a character against outside correction, and she describes giving hers away gladly.",
+			"problem": "Type 4 is rebutted in 'Borrowed certainty' two sections before the reader learns why anyone would consider it (the case appears under 'Two other readings have partial claims'). Type 8 likewise appears only as a one-sentence rebuttal to a 'tough exterior'. A newcomer is answered before the question is asked, and the alternatives read like a checklist rather than a real contest.",
+			"acceptance_test": "Each alternative type gets at least one sentence of its evidence before, or in the same paragraph as, its rebuttal. The Type 4 rebuttal moves into the alternatives section or points back to a Four case already made."
+		},
+		{
+			"id": "unfamiliar-05",
+			"severity": "minor",
+			"passage": "The Six pattern has a price, and she names it herself.",
+			"problem": "The heading and topic sentence promise costs, but the section shows only one: lost sleep, which the draft itself calls a common first-breakout mindset. The privacy paragraph is explicitly said to support 'the portrait more than the type' and is not framed as a cost. The career-trust line is not a cost either. The clearest costs shown elsewhere are never pulled together here: erasing an archive she loved that had helped pay bills, and an early shut-down that nearly lost her the role. The stakes of the pattern stay abstract just before the ending.",
+			"acceptance_test": "The section names at least two evidence-backed costs tied to the pattern, with the draft's existing hedges, or it is retitled or merged so the heading does not promise more than it shows. The privacy and audience-trust paragraphs sit where they advance a stated point."
+		},
+		{
+			"id": "unfamiliar-06",
+			"severity": "minor",
+			"passage": "\"I deleted all of them just cuz I felt like I was I got scared.\"",
+			"problem": "Several load-bearing quotes are raw auto-caption text with false starts and filler: 'I felt like I was I got scared', 'but it I just panicked', 'so crazy with the with the take', 'to um not take no until no's a for sure', 'my brain that is um just kind of having a safety net'. A first-time reader takes them for typos, and they slow the article's key moments. The evidence record also says these lines have not been checked against audio, so the exact disfluencies may not be what she said.",
+			"acceptance_test": "Each load-bearing caption quote is checked against audio, then either trimmed with marked ellipses (no words changed) to the clause that carries meaning, or paraphrased with attribution. The quotation-fidelity rule is respected. A reader can parse every quoted line on first read."
+		},
+		{
+			"id": "unfamiliar-07",
+			"severity": "minor",
+			"passage": "Then she deleted the archive.",
+			"problem": "This is called 'the clearest unforced case in the record,' and the draft says 'The bad outcome was hypothetical.' But the reader cannot tell when she deleted the streams: during the drought, after booking her next job, or after Obsession's release, when fans may already have been clipping them. The reader also cannot tell how much she deleted. The body says 'the archive', her own words say both 'all of them' and 'a lot of them', and the FAQ says 'most'. The timing decides whether the fear really was hypothetical when she acted.",
+			"acceptance_test": "Body and FAQ describe the scope of the deletion in consistent terms that match her words (for example 'most of' or 'many of'). The body either dates the deletion from the record or says plainly that she did not say when. The 'hypothetical' sentence is scoped to match."
+		},
+		{
+			"id": "unfamiliar-08",
+			"severity": "minor",
+			"passage": "The star of 2026's biggest horror breakout could not scream.",
+			"problem": "The hook's stakes rest on a superlative, 'biggest horror breakout' of 2026, that has no source and is not in the claim inventory. The next paragraph's budget and gross support 'breakout', not 'biggest'. The film also premiered at TIFF in 2025 and is listed as a 2025 film, which can confuse a reader who looks it up.",
+			"acceptance_test": "Either the superlative gets a source (for example a 2026 horror box-office ranking) and a claim entry, or it is rephrased to what the $750,000 budget and $500 million-plus gross directly support. The hook's year framing is consistent with the chronology added for unfamiliar-02."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "By her account, Barker answered with a schedule. He booked days where it was just the two of them, and only once she was comfortable would she scream in front of anyone else.",
+			"reason": "A concrete, surprising detail that pays off the hook right away and makes the abstract safety-then-commitment idea visible to a reader with no background."
+		},
+		{
+			"passage": "A Six story would be easier to tell if the moving had hurt. She says it didn't.",
+			"reason": "Gives counterevidence real weight in two plain sentences. It builds a newcomer's trust that the article is testing its thesis rather than selling it."
+		},
+		{
+			"passage": "Doubt is the named enemy, and the defense is a structure set up in advance.",
+			"reason": "Turns pre-fame 2021 evidence into a compact, memorable insight without overclaiming. It is one of the clearest statements of the pattern in the draft."
+		},
+		{
+			"passage": "When she was hit by a car during production and couldn't walk between takes, she sat beside the directors of photography, who \"always scared me,\" and started asking about lenses.",
+			"reason": "A vivid, specific detail that only this person has. It shows her moving toward what intimidates her in miniature and keeps the Superman & Lois section moving."
+		},
+		{
+			"passage": "On the _Obsession_ set, that room took a schedule, a charades game and a director willing to scream first. Her next roles will show how much of it she now carries on her own.",
+			"reason": "The ending calls back to the opening image and closes on a real open question rather than a verdict or call to action. It rewards the curiosity the hook created."
+		}
+	],
+	"assessment": "Orientation is strong for the person and weak for the film. The hook (a horror lead who could not scream) creates real curiosity and is paid off within a paragraph; scale, family background and the Superman & Lois years are clearly set up. But a reader who has not seen Obsession never learns its premise, Nikki's role, what 'final girl' means, or when the film was shot and released, and several thesis-bearing beats depend on that. Momentum is good from the scream sessions through childhood, the TV years, the audition and the set, and the Twitch deletion lands as a well-built payoff around the 60 percent mark. 'What the pattern costs' is a lull, and the ending returns to the hook effectively. A newcomer comes away with a credible picture: a shy, self-described sensitive actor who builds structures against doubt, borrows certainty from trusted people, and has real counterevidence. The one confusion is that the article gives two versions of its core pattern, and its best example (a retreat) sits uneasily with the 'counterphobic' label. Honest limit statements ('The limits are real', the Six-story-would-be-easier paragraph) are an asset. Similarity advisory: not tripped (max 0.032 against a 0.04 threshold, equal to the noise-floor max); the top pairs share no phrases, and the matched lines (the counterphobic label, 'people she trusts', the Six-flattened opener) are ordinary type vocabulary attached to arguments specific to her, so I found no meaningful reuse. Contested typing remains flagged: the evidence record already sets it, fan databases split between 6 and 7, confidence is medium, and the headline discriminator's fit with the counterphobic framing needs the jury's scrutiny. This review relied on the frozen draft and evidence record; per role, I did not reopen sources."
+}

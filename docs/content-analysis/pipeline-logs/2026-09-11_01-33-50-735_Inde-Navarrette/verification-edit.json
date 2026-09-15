@@ -1,0 +1,1049 @@
+{
+	"schema_version": 3,
+	"content_sha256": "5d9c1578468c1402094c2780822472cb131693b75e76ef8021550ff5db8ca45a",
+	"evidence_sha256": "ce8d54f47a2313d1eb1cceb00dee77193492ba2eae86cc5a884d47e946044f11",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify-01",
+			"severity": "minor",
+			"passage": "In April 2023, when DC's James Gunn publicly backed her show, she would not treat the good news as settled. A Three tends to bank a positive signal from an authority and move on; withholding belief until an outcome is \"a definitive\" is a security reflex.",
+			"problem": "The article's main pre-promotional discriminator against Type 3 is an ordinary, correct piece of industry realism, framed with an unsourced type generalization. In the same Just Jared Jr. answer she says Gunn's tweet had moved things to \"a little bit of 50-50\", so she did partly bank the signal. Her caution also proved accurate: two months later her regular role was cut. The remark is used in four places (Superman & Lois section, \"Borrowed certainty\", the Type 3 case, FAQ 3) as if it discriminates more than it does.",
+			"acceptance_test": "Where the Gunn remark carries the Six-vs-Three argument, the prose notes that the caution was ordinary and proved warranted (or quotes the \"50-50\" line) and says it leans rather than separates. \"A Three tends to bank a positive signal...\" is either sourced or softened to a labeled reading. The Six-vs-Three conclusion stays \"live second alternative\", and FAQ 3 matches."
+		},
+		{
+			"id": "verify-02",
+			"severity": "minor",
+			"passage": "When an interviewer's question turned on Barker's memory of how a sequence came together, she deferred to it: \"if that's what Curry said, then that's definitely what happened.\"",
+			"problem": "The quote leaves out her stated reason. In S11 09:21-09:31 it directly follows \"because we shot this two years ago, there's some things that I kind of go\". Deferring to a director's memory of a shoot you half-remember is ordinary, so as borrowed-certainty evidence the line reads stronger than its context supports.",
+			"acceptance_test": "The sentence either includes or accurately reflects the memory reason (for example, \"saying they shot it two years ago, she deferred to it\"), or the line is no longer counted as evidence of borrowed certainty. C23's inference records the context."
+		},
+		{
+			"id": "verify-03",
+			"severity": "minor",
+			"passage": "For a Six, trust works like infrastructure: once it is in place, the risky work can begin.",
+			"problem": "At 4,373 words the article runs well past the standard's roughly 2,000-3,500 target, and much of the excess is repetition rather than new portrait. The central pattern is restated in the hook, the type answer, \"What she describes is the Six sequence\", and this infrastructure metaphor. The Gunn remark appears four times. The Type 7, Type 3 and other-rivals sections stack hedge on hedge (\"It counts for less than it seems, though...\", \"though not by a knockout\"), which slows the second half.",
+			"acceptance_test": "Each recurring point (the name-secure-move pattern, the Gunn remark) is argued in full once and only briefly referenced elsewhere. Hedge chains in the rival sections are consolidated so each concession is made once. Every verified detail and every protected passage survives, the type answer stays at 60 words or fewer, and the article moves meaningfully toward the standard's word target without new claims."
+		},
+		{
+			"id": "verify-04",
+			"severity": "minor",
+			"passage": "told Variety she enjoyed moving constantly as a kid",
+			"problem": "\"Constantly\" intensifies her Variety words (\"I grew up moving around a lot... new story, new place... that was really fun for me\"). The body's \"the pleasure she described to Variety in constant moves as a child\" has the same stretch.",
+			"acceptance_test": "FAQ 2 and the unexplained-column sentence use her scope (\"moving around a lot\", \"frequent moves\"), and C106 is updated to match."
+		}
+	],
+	"research_tasks": [
+		"Audio spot-check before publish (verify stage could re-read cached auto-captions only; YouTube blocked audio and caption downloads with HTTP 429/IpBlocked): S10 10:33-11:34 (Twitch deletion), S11 35:48-36:31 ('chasing that high', 'feel proud', 'be extremely stubborn'), S09 20:24-21:32 (scream sessions), S09 25:05-25:40 (alternate ending), S16 23:10-23:32 (Barker on the take). Confirm no trimmed word changes meaning.",
+		"S11 21:29-21:33 reads 'I just so humbly went to Korean and go Mino can do this' in captions; confirm on audio that it is 'went to Curry and go, me no can do this', which supports 'she took the problem to Barker'.",
+		"Complex News video IUAsUy_aKR8 (Complex, uploaded 2026-06-23; metadata reachable 2026-09-10, captions HTTP 429): confirm 'Making friends was always really difficult for me' and 'really close to video games and movies' before adding either to the 'Mommy, I do' section.",
+		"Visually confirm that Michael Johnston speaks the S13 'freaky Nikki' lines (14:33-14:47); caption turn markers and '(Inde pops lips)' already support it.",
+		"Check the Cosmopolitan original against the Yahoo syndication. If the article keeps the 'If I hadn't had that disappointment' and 'Trap House' sentences under one attribution, confirm they belong to the same answer; otherwise separate them.",
+		"Confirm on-screen credits for Sarah Cushing (2021 coverage, Wikipedia filmography) versus Sarah Cortez (Wikipedia prose, KryptonSite 2023, Cosmopolitan 2026).",
+		"Time-sensitive: re-check The Numbers' worldwide gross and its as-of date (the fetched page text shows $509,956,715 but no date) and whether later reporting reconciles the $750,000 and $1 million budget figures, per C37/C50 triggers."
+	],
+	"claim_checks": [
+		{
+			"claim_id": "C18",
+			"verdict": "supported",
+			"reason": "S09 captions 20:24-20:50: \"Funny enough, I didn't know how to scream. Whenever I met [Curry and] everybody, I was in a really shy place in my life... I said, 'I don't know how to scream, and I'm feeling very shy.'\" Passage matches."
+		},
+		{
+			"claim_id": "C48",
+			"verdict": "qualified",
+			"reason": "Schedule, \"he would scream with me... go go go go on\" and \"created a really safe space\" match S09 20:36-21:32; an interviewer \"Uh-huh\" between \"scream with me.\" and \"And then he would stop\" is dropped without an ellipsis, meaning unchanged. She says \"we played a charades game\" inside her account of Barker's plan; that he got the cast playing is implied there and explicit only in the unlabeled Hot Ones line the edit removed."
+		},
+		{
+			"claim_id": "C50",
+			"verdict": "supported",
+			"reason": "NBC News (May 25, 2026) prints \"a mere $750,000 budget\"; The Numbers lists \"Production Budget: $1,000,000\"; Wikipedia adds Barker's \"at most $750,000\". The range, both links and 'unresolved' durability are accurate."
+		},
+		{
+			"claim_id": "C37",
+			"verdict": "supported",
+			"reason": "The Numbers, fetched 2026-09-10, shows Worldwide Box Office $509,956,715 (same figure as the evidence record). The page text does not display an as-of date, so September 9 rests on the research record; the figure clears $500 million either way. Dated trigger present."
+		},
+		{
+			"claim_id": "C51",
+			"verdict": "supported",
+			"reason": "Labeled interpretation. Each ingredient re-checked: S09 disclosure and Barker's plan, S19 2021 pact, S11 'mirror', S10 deletion (a retreat). The article itself exempts the chemistry read (\"This story has no safety step\") and credits the scream plan to Barker."
+		},
+		{
+			"claim_id": "C52",
+			"verdict": "supported",
+			"reason": "Type answer summarizes verified instances (S10 deletion and safety net, S11 mirror, S19 pact), names Type 7 and Type 3, and states medium confidence in 52 words."
+		},
+		{
+			"claim_id": "C19",
+			"verdict": "supported",
+			"reason": "S10 30:02-30:15: \"the beginning of Obsessed I was so sensitive and I feel like I have been my entire life especially towards horror movies. And something that Obsessed has done for me is heal that.\" The bracketed [Obsession] replaces a caption error."
+		},
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "Wikipedia, HOLA! USA (June 11, 2026) and SCMP (May 19, 2026) each give Danielle Fabiola Navarrette, 2001, Tucson. The article attributes the birthplace to profiles and omits the third-party day. \"Danielle, hold it together\" (S11) corroborates the name."
+		},
+		{
+			"claim_id": "C47",
+			"verdict": "supported",
+			"reason": "S10 06:10: \"My dad's a Marine, so I grew up moving around a lot.\""
+		},
+		{
+			"claim_id": "C02",
+			"verdict": "supported",
+			"reason": "S10 06:55-07:04: \"because my parents were divorced, my mom grew up or for the majority had us live in Fresno, like Visalia, Bakersfield.\" Attributed as her account."
+		},
+		{
+			"claim_id": "C03",
+			"verdict": "supported",
+			"reason": "S10 06:25-06:50: friends who were \"military brats\" would say \"I hate moving around, I hate moving friends. Me, I was like new story, new place.\" The paraphrase is fair."
+		},
+		{
+			"claim_id": "C06",
+			"verdict": "supported",
+			"reason": "mixed feelings (Jun 18, 2026) matches verbatim: \"Mommy, I do,\" the nickname line, hairstylist mother, bubbles and dressing."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "supported",
+			"reason": "CBR (Mar 15, 2021) verbatim for both quoted clauses; \"make a whole day\" fairly paraphrases \"we'd go get lost, find dinner, come home\"."
+		},
+		{
+			"claim_id": "C53",
+			"verdict": "supported",
+			"reason": "CBR 2021 verbatim; the quote stops after \"weed its way in\", before \"and just be a massive little B!\", without changing meaning."
+		},
+		{
+			"claim_id": "C54",
+			"verdict": "supported",
+			"reason": "S09 06:02-06:10: \"my mom really instilled in me to um not take no until no's a for sure.\" Only the filler is elided."
+		},
+		{
+			"claim_id": "C07",
+			"verdict": "supported",
+			"reason": "S09 04:36: \"Gladiator, Russell Crowe... I watched that movie when I was like five\"; S10 25:24 says \"like three\". \"Very small\" covers both."
+		},
+		{
+			"claim_id": "C55",
+			"verdict": "supported",
+			"reason": "S10 25:50-26:25: dance battles with her cousin to perform for their parents; \"I would never act in front of them. That to me felt like I would rather jump off of a bridge\" verbatim."
+		},
+		{
+			"claim_id": "C09",
+			"verdict": "supported",
+			"reason": "S10 23:55-24:05 verbatim; S10 07:29 \"he really really loves to push education\"."
+		},
+		{
+			"claim_id": "C10",
+			"verdict": "supported",
+			"reason": "Seventeen via Yahoo (June 19, 2020) covers Estela in the final season; Wikipedia's filmography lists \"2021-2024 Superman & Lois Sarah Cushing Main role\"; CBR 2021 uses Sarah Cushing."
+		},
+		{
+			"claim_id": "C11",
+			"verdict": "supported",
+			"reason": "S10 07:29-08:52: \"I treated it like college\"; hit by a car \"and we were still filming\"; sat beside DPs who \"always scared me\"; asked about lenses; \"So even though I didn't have the opportunity to go to college I felt like I did.\" All verbatim."
+		},
+		{
+			"claim_id": "C42",
+			"verdict": "supported",
+			"reason": "CBR 2021 verbatim: \"so uncomfortable\", zodiac book \"from Aries all the way to Pisces\", not talking to the other finalists, \"survival mode\"."
+		},
+		{
+			"claim_id": "C13",
+			"verdict": "qualified",
+			"reason": "Just Jared Jr. (April 7, 2023) quote is verbatim. The same answer says Gunn's tweet had moved the odds to \"a little bit of 50-50\", and her caution proved accurate (her regular role was cut in June 2023). The quote is sound; its use as a Six-vs-Three discriminator is heavier than it bears (verify-01)."
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "Wikipedia: \"In June 2023, it was announced that Navarrette and six of her co-stars were departing the show... due to budget cuts\", with minor season-4 returns. \"Ended her run as a series regular\" is the right scope; \"Two months later\" from April 7 is correct."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "supported",
+			"reason": "S09 09:45-10:20 verbatim and in order: \"blessing... right in front of my face\", \"Dog, you're free... Dude\", \"that was hard to hear cuz I miss everybody\", \"I got freedom... like I graduated\"."
+		},
+		{
+			"claim_id": "C17",
+			"verdict": "supported",
+			"reason": "Numero Netherlands (May 13 dateline, content dates it to 2026) verbatim."
+		},
+		{
+			"claim_id": "C16",
+			"verdict": "supported",
+			"reason": "Complex (June 24, 2026) and NME (June 25, 2026) both print \"I think I was in a space personally where I was so shut off from my own emotions, and with Nikki, you need all of them\"; NME has \"it was awful\"."
+		},
+		{
+			"claim_id": "C57",
+			"verdict": "supported",
+			"reason": "S11 03:33: \"I was lucky enough to get a call back and I felt as though it was the worst audition I had ever done.\" \"It\" is the callback, as the article says."
+		},
+		{
+			"claim_id": "C58",
+			"verdict": "supported",
+			"reason": "Complex: \"For the final chemistry read, Navarrette said she committed fully. 'If I have this opportunity, I'm doing everything that I possibly can.'\""
+		},
+		{
+			"claim_id": "C59",
+			"verdict": "supported",
+			"reason": "S09 13:25-14:10 is about the chemistry reads: \"I locked eyes with Cooper. Um who at the time... I didn't know was going to play Ian... how can I make him utterly uncomfortable right now?\""
+		},
+		{
+			"claim_id": "C35",
+			"verdict": "supported",
+			"reason": "Moveable Fest, datePublished 2025-09-06, TIFF 2025 interview; the \"journey to find someone that could nail both those worlds, and Inde just nailed it\" answer is verbatim."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "S11 05:10-05:30 verbatim: \"I just needed to keep her private. I've really kept Nikki close to my chest.\""
+		},
+		{
+			"claim_id": "C22",
+			"verdict": "qualified",
+			"reason": "S13 14:33-14:47 caption verbatim. The caption's dash turn markers (\"- Thank you. - When you did the smile\") and \"(Inde pops lips)\" after \"the lip pop thing that you do\" support Johnston as the speaker; a visual check is still pending."
+		},
+		{
+			"claim_id": "C23",
+			"verdict": "qualified",
+			"reason": "S11 17:56-18:15 and 09:21-09:31 verbatim. The deference line directly follows \"because we shot this two years ago, there's some things that I kind of go\"; the article omits that memory reason, which offers an ordinary explanation and weakens it as borrowed-certainty evidence (verify-02)."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "qualified",
+			"reason": "S11 21:05-21:38 verbatim for the torn ACL, the self-talk and Barker's \"Wait, what if you go forwards and we reverse it?\". The bridge reads \"I just so humbly went to Korean and go Mino can do this\", a garbled \"went to Curry and go 'me no can do this'\", which supports \"took the problem to Barker\"."
+		},
+		{
+			"claim_id": "C36",
+			"verdict": "supported",
+			"reason": "S16 22:57-23:32 verbatim with marked ellipses (\"with the\", \"um\"): Capstone wanted \"a version where you live\", one throwaway take, \"I had people basically talk me into it\". Wikipedia confirms the theatrical cut uses the take where Nikki survives; S09 confirms the shot alternate ending."
+		},
+		{
+			"claim_id": "C61",
+			"verdict": "supported",
+			"reason": "S09 25:05-25:40 verbatim. She describes a same-day decision (\"she's a final girl\") and credits Barker (\"Curry was like no... we want to sit with her\"); she does not credit her take."
+		},
+		{
+			"claim_id": "C63",
+			"verdict": "supported",
+			"reason": "Labeled interpretation; ordinary actor-director deference and Type 9 merging are named in the same paragraph."
+		},
+		{
+			"claim_id": "C64",
+			"verdict": "supported",
+			"reason": "NME quoting Complex: \"I didn't work for a year and a half after Obsession\"; Nylon: \"Between Obsession and the film after that, I didn't work.\""
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "supported",
+			"reason": "Nylon (July 1, 2026) verbatim for both quoted sentences."
+		},
+		{
+			"claim_id": "C65",
+			"verdict": "supported",
+			"reason": "Complex writer's framing: \"built her own PC in 2022 and started streaming because she loved watching other creators like Jacksepticeye and Jenna Marbles\"; S10 11:48-12:44 verbatim for the Variety lines."
+		},
+		{
+			"claim_id": "C15",
+			"verdict": "supported",
+			"reason": "S10 10:33-11:00: \"I deleted all of them just cuz I felt like I was I got scared... what if people saw that I switched and now they don't take me seriously... it's not based on fact, but it I just panicked and I deleted a lot of them.\" The ellipses remove only false starts; \"many\" matches her \"all\" then \"a lot\"; she gives no date."
+		},
+		{
+			"claim_id": "C66",
+			"verdict": "supported",
+			"reason": "S10 11:11-11:34 verbatim; the financial line refers to streaming \"at that time... doing something that I loved and getting paid for it\", as the article places it."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "supported",
+			"reason": "Nylon writer's aside: \"Like Timothée Chalamet and Connor Storrie before her, old videos of Navarrette's streamer channel have been resurfaced by enthusiastic fans.\" It directly follows her \"Oh my God\" line."
+		},
+		{
+			"claim_id": "C46",
+			"verdict": "supported",
+			"reason": "Labeled interpretation; the article says the episode \"leans toward Six rather than proving it\" and names the persona-scrubbing base rate."
+		},
+		{
+			"claim_id": "C25",
+			"verdict": "supported",
+			"reason": "S10 28:43-29:09 verbatim in an awards-conversation answer; S11 32:08-32:15 verbatim. The July 2026 anchor is right; time_sensitive trigger present."
+		},
+		{
+			"claim_id": "C31",
+			"verdict": "supported",
+			"reason": "S14 02:55-03:10 and 05:02 verbatim; her mother and brothers are in the audience (\"My mom and my brothers are here\")."
+		},
+		{
+			"claim_id": "C68",
+			"verdict": "supported",
+			"reason": "S10 11:41-11:48, answering \"Were you thinking maybe like career-wise or just for fun?\": \"I wasn't thinking that too too far ahead. I don't think that far ahead.\""
+		},
+		{
+			"claim_id": "C69",
+			"verdict": "supported",
+			"reason": "S09 01:33-01:59: \"either getting too much in your head or feeling [music] a high off of it... that feels like drugs... It's dopamine.\" The caption artifact is omitted; the setup is kept."
+		},
+		{
+			"claim_id": "C32",
+			"verdict": "supported",
+			"reason": "S09 08:35 \"write my own stuff and possibly direct one day\"; mixed feelings \"I want to direct one day\"."
+		},
+		{
+			"claim_id": "C20",
+			"verdict": "supported",
+			"reason": "S11 35:48-36:01 verbatim; only \"uh\" elided."
+		},
+		{
+			"claim_id": "C34",
+			"verdict": "supported",
+			"reason": "S09 14:40-15:05: \"ugliness\", Chronology of Water, then \"I felt seen, I felt heard... whenever I read the script I was like, I know exactly how to play this.\" The order is kept."
+		},
+		{
+			"claim_id": "C71",
+			"verdict": "supported",
+			"reason": "S10 30:15-30:24 verbatim."
+		},
+		{
+			"claim_id": "C33",
+			"verdict": "supported",
+			"reason": "S10 26:57-27:05 verbatim."
+		},
+		{
+			"claim_id": "C30",
+			"verdict": "supported",
+			"reason": "KryptonSite (June 6, 2023) verbatim: \"you've got to slap me harder\"."
+		},
+		{
+			"claim_id": "C72",
+			"verdict": "supported",
+			"reason": "Nylon reports strangers stopping her and Instagram at 2.2 million."
+		},
+		{
+			"claim_id": "C28",
+			"verdict": "supported",
+			"reason": "Nylon verbatim; the SoulCycle joke follows at once, as the article shows."
+		},
+		{
+			"claim_id": "C26",
+			"verdict": "supported",
+			"reason": "CBR 2021 and Nylon 2026 verbatim; Nylon frames \"private person\" around unsolicited attention, which fits the privacy paragraph."
+		},
+		{
+			"claim_id": "C73",
+			"verdict": "supported",
+			"reason": "S10 26:29-26:44 credits Milly Alcock: \"it's kind of a place to hide and to be another person.\""
+		},
+		{
+			"claim_id": "C27",
+			"verdict": "supported",
+			"reason": "S10 14:30-14:46 verbatim; the article's clause order is reversed without changing meaning."
+		},
+		{
+			"claim_id": "C74",
+			"verdict": "supported",
+			"reason": "Nylon verbatim, including \"[but]\" and the laugh."
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "S16 16:17-16:24 verbatim. It follows her saying Johnston, off-screen, helped make her comfortable; the article's contrastive use is fair."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "qualified",
+			"reason": "Both sentences are hers in Cosmopolitan (Yahoo syndication, June 24, 2026) but from two places: the narrative quote \"If I had done the fourth season of Superman & Lois, if I hadn't had that disappointment, it wouldn't have led me to Obsession\" and the Q&A answer ending \"...divine timing. I was allowed to do Trap House with Capstone...\". The article joins them under one attribution and opens mid-sentence; meaning is intact."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "supported",
+			"reason": "S09 09:49 \"I've always wanted to do film, and I love film\"; Cosmopolitan \"as disappointed and sad as it was to not be able to go back as a series regular, it really was just divine timing\". \"A month later\" (May 16 to June 24) is approximate."
+		},
+		{
+			"claim_id": "C78",
+			"verdict": "supported",
+			"reason": "Labeled in the prose: \"though no source says so directly\"."
+		},
+		{
+			"claim_id": "C79",
+			"verdict": "supported",
+			"reason": "S10 06:47-07:22: \"appreciated like a small town mentality\"; \"I love Visalia. I love Tulare County... it's just homey.\""
+		},
+		{
+			"claim_id": "C80",
+			"verdict": "supported",
+			"reason": "Correctly scoped to Variety. The contrary Complex News line remains unverified secondhand and is held out."
+		},
+		{
+			"claim_id": "C81",
+			"verdict": "supported",
+			"reason": "Wikipedia film lead: Bear, a music store employee, a supernatural toy, the wish for his friend Nikki to fall in love with him, \"which makes her become obsessed\". \"Shy\" and \"co-worker\" come from the cast list."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "Wikipedia cast: \"Cooper Tomlinson as Ian, Bear and Nikki's friend and co-worker\"."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "Wikipedia: shot in Los Angeles in October 2024; TIFF September 5, 2025; U.S. release May 15, 2026. Kimmel: \"I was 23 when we filmed it.\" The Numbers: May 15, 2026."
+		},
+		{
+			"claim_id": "C84",
+			"verdict": "qualified",
+			"reason": "Labeled interpretation; the underlying 2021, 2023 and 2026 quotes check out. The Gunn element is weaker than presented, because the same answer shows partial optimism (\"50-50\") and her caution was accurate (verify-01)."
+		},
+		{
+			"claim_id": "C85",
+			"verdict": "supported",
+			"reason": "S11 36:23-36:31 verbatim; the ellipsis removes \"you know what I mean? Kind of be delusional a little bit.\""
+		},
+		{
+			"claim_id": "C86",
+			"verdict": "qualified",
+			"reason": "Labeled interpretation. Selectivity is suggestive only; \"A Nine's going-along tends to be more general\" is an unsourced generalization. The article treats it as corroboration, not proof."
+		},
+		{
+			"claim_id": "C87",
+			"verdict": "supported",
+			"reason": "Complex verbatim: \"I would still love to do it, but I don't have time.\""
+		},
+		{
+			"claim_id": "C88",
+			"verdict": "supported",
+			"reason": "Nylon verbatim; the Markdown escape renders the article's asterisk."
+		},
+		{
+			"claim_id": "C89",
+			"verdict": "supported",
+			"reason": "Nylon verbatim; stopping before \"Barry's Bootcamp and Orangetheory...\" changes nothing."
+		},
+		{
+			"claim_id": "C90",
+			"verdict": "qualified",
+			"reason": "No opened interview (S09, S10, S11 captions; all web interviews) has her naming a type; fan typing exists (Boo 6w7). Unopened S33-S35 remain. It is a negative claim, dated and tracked."
+		},
+		{
+			"claim_id": "C91",
+			"verdict": "supported",
+			"reason": "Labeled unresolved prediction with dated triggers (SNL 2026-10-31, X-Men 2028-05-05, retellings, S33/S34)."
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "S09 25:31-25:40 verbatim; \"um just\" elided."
+		},
+		{
+			"claim_id": "C93",
+			"verdict": "supported",
+			"reason": "S11 36:01-36:13 verbatim; \"which I think I get from my mom and my dad\"."
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "Wikipedia (June 2023 cut), Numero (\"really wanted to transition into film\") and Cosmopolitan (Capstone \"funded Obsession\") verified."
+		},
+		{
+			"claim_id": "C95",
+			"verdict": "supported",
+			"reason": "Labeled; S10 (streaming income was \"at that time\") and Complex (no time to stream now) support the modest-cost reading."
+		},
+		{
+			"claim_id": "C96",
+			"verdict": "supported",
+			"reason": "Labeled interpretation consistent with S10 and S14."
+		},
+		{
+			"claim_id": "C97",
+			"verdict": "supported",
+			"reason": "Labeled lean; S11 \"do it justice and do it correctly\" verified."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "supported",
+			"reason": "S10 22:14-22:25 verbatim, about people recording her in public."
+		},
+		{
+			"claim_id": "C99",
+			"verdict": "supported",
+			"reason": "S09 20:24 \"I didn't know how to scream\"; Nylon documents the fame."
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "S14 02:55-03:10 verbatim; attributed to Kimmel on first mention."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "S09 20:36-20:50: \"he was like, 'Okay, I'm going to schedule multiple days...'\" The plan is Barker's in her telling."
+		},
+		{
+			"claim_id": "C102",
+			"verdict": "supported",
+			"reason": "KryptonSite (June 6, 2023), Cosmopolitan (2026) and Wikipedia's prose use \"Sarah Cortez\"."
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "The description stays within her \"I didn't know how to scream\" (S09 20:24)."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "S10 10:33-11:34; Variety upload date 2026-07-31 re-confirmed."
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "Accurate paraphrase of Cosmopolitan's Trap House/Capstone answer."
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "qualified",
+			"reason": "Accurate except \"enjoyed moving constantly as a kid\", which intensifies her \"moving around a lot... that was really fun for me\"; the body's \"constant moves\" has the same stretch (verify-04)."
+		},
+		{
+			"claim_id": "C107",
+			"verdict": "supported",
+			"reason": "S10 23:55 (headshots) and CBR 2021 (\"survival mode\", \"110%\") verified."
+		},
+		{
+			"claim_id": "C109",
+			"verdict": "supported",
+			"reason": "Labeled; Complex says she \"committed fully\" at the final chemistry read after the failed Zoom callback."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Career prose: \"In June 2023... Navarrette and six of her co-stars were departing the show... due to budget cuts\"; \"Sarah Cortez\". Filmography table: \"2021-2024 Superman & Lois Sarah Cushing Main role\"; Danielle Fabiola, 2001, Tucson."
+		},
+		{
+			"source_id": "S02",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10 (Nylon, July 1, 2026). All ten quoted lines matched; the resurfaced-streams aside follows the \"Oh my God\" line; the SoulCycle joke follows the not-sleeping line; \"private person\" is framed around unsolicited attention."
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Q&A \"What drew you to the project?\" (transition into film, boiling pot); May 13 dateline."
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Hyperspecific LEVEL III kid anecdote (\"Mommy, I do\"); \"I want to direct one day\"; Jun 18, 2026."
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Items on real name and birthplace; June 11, 2026."
+		},
+		{
+			"source_id": "S06",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10 (June 24, 2026). Zoom callback, \"final chemistry read... committed fully\", PC built in 2022, Jacksepticeye/Jenna Marbles, \"I would still love to do it, but I don't have time\"."
+		},
+		{
+			"source_id": "S07",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10 (June 25, 2026). Body quotes Complex: year-and-a-half drought, tape, Zoom read \"it was awful\", \"shut off from my own emotions\"."
+		},
+		{
+			"source_id": "S08",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. May 19, 2026 explainer: Danielle Fabiola Navarrette, March 2001, Tucson, Marine father."
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Cached auto-caption transcript re-read at 01:30-02:00, 04:30-04:45, 06:00-06:12, 08:05-08:45, 09:32-10:25, 13:25-14:15, 14:40-15:15, 20:20-21:36, 25:00-25:45. Upload 2026-05-16, Collider Ladies Night, re-confirmed via yt-dlp. Audio not checked."
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Cached auto-captions re-read at 05:44-07:25, 07:25-08:55, 10:28-12:46, 14:26-14:48, 22:10-22:30, 23:52-24:27, 25:20-27:08, 28:40-29:12, 30:02-30:26. Upload 2026-07-31, Variety, re-confirmed. Audio not checked."
+		},
+		{
+			"source_id": "S11",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Cached auto-captions re-read at 03:00-03:40, 05:10-05:34, 09:15-09:33, 17:52-18:18, 21:02-21:40, 32:04-32:17, 35:45-36:33. Upload 2026-06-12, GoldDerby, re-confirmed. Audio not checked."
+		},
+		{
+			"source_id": "S13",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Cached captions re-read at 14:28-14:52; dash turn markers and \"(Inde pops lips)\" support Johnston as the speaker. Upload 2026-09-08, First We Feast, re-confirmed. Video not viewed."
+		},
+		{
+			"source_id": "S14",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Cached captions re-read at 02:50-03:20, 05:00-05:10, 08:18-08:26. Upload 2026-06-06, Jimmy Kimmel Live, re-confirmed."
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Cached captions re-read at 16:05-16:28 and 22:50-23:35. Upload 2026-06-08, Alamo Drafthouse, re-confirmed."
+		},
+		{
+			"source_id": "S17",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. datePublished 2025-09-06; TIFF 2025 answer to \"What sold you on Inde and Michael\"."
+		},
+		{
+			"source_id": "S19",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Published Mar 15, 2021; \"How did you land the role\" and \"relate to the most\" answers; all quoted lines matched."
+		},
+		{
+			"source_id": "S21",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. June 6, 2023; slap-scene answer; \"Sarah Cortez\"."
+		},
+		{
+			"source_id": "S22",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. April 7, 2023; renewal answer, including \"a little bit of 50-50 because James Gunn came out on Twitter\" and \"it's not a definitive\"."
+		},
+		{
+			"source_id": "S23",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Seventeen via Yahoo, June 19, 2020; Estela, final season."
+		},
+		{
+			"source_id": "S27",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Summary box: Worldwide $509,956,715; Production Budget $1,000,000; release May 15, 2026. No as-of date in the fetched text."
+		},
+		{
+			"source_id": "S28",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. May 25, 2026 byline; \"a mere $750,000 budget\", 20 days."
+		},
+		{
+			"source_id": "S29",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Lead premise, cast (Ian), production (LA, October 2024; \"shot one take of a version where Nikki survives, which he chose for the theatrical cut\"), release (TIFF September 5, 2025; U.S. May 15, 2026)."
+		},
+		{
+			"source_id": "S30",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Profile header shows 6w7 fan typing; used only for C90."
+		},
+		{
+			"source_id": "S37",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Fetched 2026-09-10. Cosmopolitan via Yahoo, June 24, 2026, Tamara Fuentes. Narrative quote \"If I had done the fourth season...\" and Q&A answer \"...divine timing. I was allowed to do Trap House with Capstone...\" both present."
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-01",
+			"accepted": true,
+			"reason": "Verified. The costs section is gone; the not-sleeping line sits in the Type 3 case with the SoulCycle joke (checked in Nylon) as \"cheerful hustle\"; no sentence says she names a cost; \"driving overwork\" is removed."
+		},
+		{
+			"finding_id": "subject-02",
+			"accepted": true,
+			"reason": "Verified. Body, ending and FAQ use \"many\"/\"streams she loved\"; the cost is \"much of a record of something she loved\"; the financial line is tied to streaming at the time (S10 11:11-11:34), with Complex's \"I don't have time\"."
+		},
+		{
+			"finding_id": "subject-03",
+			"accepted": true,
+			"reason": "Verified. The Nylon \"Oh my God\" line sits beside the Variety relief line, matching Nylon exactly with its asterisk."
+		},
+		{
+			"finding_id": "subject-04",
+			"accepted": true,
+			"reason": "Verified against S09 25:05-25:40. \"Both agree\" is gone; her account and Barker's are attributed separately; C61 is corrected."
+		},
+		{
+			"finding_id": "subject-05",
+			"accepted": true,
+			"reason": "Verified. The hook, description and persona stay within \"I didn't know how to scream\"; \"too scared to start\" and the unsourced superlative are removed."
+		},
+		{
+			"finding_id": "subject-06",
+			"accepted": true,
+			"reason": "Verified. The ending cites the 2021 pact and the exact S16 line (checked in captions at 16:17-16:24), frames the question as open, and limits final judgment to Barker."
+		},
+		{
+			"finding_id": "subject-07",
+			"accepted": true,
+			"reason": "Verified. The unlabeled S12 charades line is gone from the article and evidence. The S13 attribution is supported by caption turn markers (checked at verify stage); a visual check stays a research task, which is all the acceptance test requires for S13."
+		},
+		{
+			"finding_id": "subject-08",
+			"accepted": true,
+			"reason": "Verified. The hook keeps only the skydive, attributed to Kimmel; the piercing appears only in the attributed Type 7 section."
+		},
+		{
+			"finding_id": "fan-01",
+			"accepted": true,
+			"reason": "Verified. The Complex News video was still unretrievable at verify stage (metadata reachable, captions HTTP 429/IpBlocked), so the quote correctly stays out. \"In her Variety telling, it didn't\" and the Type 7/unexplained wording are scoped to Variety, and the small-town continuation is added (S10 06:47-07:22). This meets the fallback acceptance test."
+		},
+		{
+			"finding_id": "fan-02",
+			"accepted": true,
+			"reason": "Verified against S09 25:05-25:40. No agreement claim; same-day character decision and credit to Barker; \"quickness of flipping\" added to the Seven column; C61 is corrected."
+		},
+		{
+			"finding_id": "fan-03",
+			"accepted": true,
+			"reason": "Verified. \"I've always wanted to do film\" and \"like I graduated\" (S09 09:49, 10:15) are reflected; Cosmopolitan's \"disappointed and sad... divine timing\" is quoted with outlet and date (matched in the syndication); the dopamine line keeps its setup; the Type 7 weight is reargued; \"devastated\" is not used."
+		},
+		{
+			"finding_id": "fan-04",
+			"accepted": true,
+			"reason": "Verified. The Capstone/Trap House route appears in her words with Cosmopolitan and date; the type section acknowledges the career circumstance; Mercuri/Deadline and Invertigo are not used."
+		},
+		{
+			"finding_id": "fan-05",
+			"accepted": true,
+			"reason": "Verified. \"something that [Obsession] has done for me is heal that\" matches S10 30:13; the Chucky anecdote is optional and was reasonably left out."
+		},
+		{
+			"finding_id": "fan-06",
+			"accepted": true,
+			"reason": "Verified. The 2022 PC build is attributed to Complex (checked); the Nylon reaction is verbatim; the deletion is explicitly undated."
+		},
+		{
+			"finding_id": "fan-07",
+			"accepted": true,
+			"reason": "Verified. The closing no longer implies unknown roles; SNL and X-Men are tracked in C91 with dated triggers; the insight does not depend on them."
+		},
+		{
+			"finding_id": "fan-08",
+			"accepted": true,
+			"reason": "Verified. \"a character later coverage calls Sarah Cortez\" matches KryptonSite, Cosmopolitan and Wikipedia prose; the Looper lines are unused."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "Verified. A paragraph-level Type 3 case quotes \"take me seriously\", \"audience's trust\", \"lightning in a bottle\" and \"extremely validating\", and answers with the scream disclosure and pre-2026 evidence, conceding Three stays live. The \"runs the other way\" sentence is cut. The Gunn discriminator is weaker than presented (verify-01), but the acceptance test is met."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "Verified. Only the archive loss is named as the cost; timing and advice are stated as unknown; persona-scrubbing is raised; \"unforced\"/\"clearest\" are gone; the scope is \"many\" everywhere."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "Verified. \"Counterphobic\" is absent from the type answer, description, FAQ 1 and keywords; the body explains why the label is not used and files the daring acts under Seven."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "Verified. The GoldDerby \"be extremely stubborn... believe in yourself before other people will\" line (S11 36:23-36:31) is quoted and treated as a stated ideal; ordinary deference is named with what the Six reading adds. GoldDerby's date is given earlier in the article."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Verified. \"The plan was Barker's... his method as much as her motive\"; the pattern reads \"through someone she trusts or a rule she sets herself\", with the 2021 pact as the self-built case; the ending is reworded."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "Verified; same repair as subject-04, matching S09 25:05-25:40."
+		},
+		{
+			"finding_id": "critic-07",
+			"accepted": true,
+			"reason": "Verified. The 2026 lesson is presented as a second, opposing lesson (\"One rule accepts a no as a sign; the other refuses it until it is final\")."
+		},
+		{
+			"finding_id": "critic-08",
+			"accepted": true,
+			"reason": "Verified. The section and sentence are deleted; the line appears with its SoulCycle context."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"accepted": true,
+			"reason": "Verified. The premise, Nikki's role, Johnston and Tomlinson's roles, a \"final girl\" gloss, the script-vs-release ending and a spoiler flag all appear at the start of the audition and set sections, sourced to Wikipedia (checked)."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"accepted": true,
+			"reason": "Verified. The timeline sentence (October 2024 shoot at 23, TIFF September 5, 2025, U.S. May 15, 2026) is checked against Wikipedia and Kimmel; the audition is explicitly undated."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"accepted": true,
+			"reason": "Verified. One plain pattern sentence covers both commitment and retreat; the deletion is called a retreat and the counterphobic label is explained; the type answer, FAQ 1 and description agree."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"accepted": true,
+			"reason": "Verified. The Four case and rebuttal sit together in the rivals section; the Eight rebuttal shares a paragraph with \"slap me harder\"; the Nine reading is named beside the Six claim."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"accepted": true,
+			"reason": "Verified. The costs section is merged away; the privacy and audience-trust material now sits where it advances a point."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"accepted": true,
+			"reason": "Accepted with a limit. Every trimmed quote was re-matched at verify stage against the captions (S10 10:33, S16 23:15, S09 06:05, S10 28:55); only false starts and fillers were removed, and every line parses. The test's audio check was not possible for the editor or the verifier (YouTube blocks audio and captions here), so it stays an explicit pre-publish research task."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"accepted": true,
+			"reason": "Verified. \"Many\" in body and FAQ; \"did not say when it happened\"; the hypothetical framing holds at any date."
+		},
+		{
+			"finding_id": "unfamiliar-08",
+			"accepted": true,
+			"reason": "Verified. The superlative is gone; scale comes from the sourced budget range and the dated gross; the TIFF/2026 chronology is explained."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"accepted": true,
+			"reason": "Verified. The Type 3 paragraph gathers headshots, survival mode, 110%, not sleeping, \"prove\", \"extremely validating\" and audience trust; pride is conceded to Three in the Type 7 section; the answer does not rely on 2026 candor; Three is named in the type answer and has its own FAQ. The answer's strength is questioned in verify-01."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"accepted": true,
+			"reason": "Verified. The cost matches S10 (archive, not income); scope is \"many\"; \"helps separate Six from Seven, though not from Three\"; the persona-scrubbing base rate is stated."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"accepted": true,
+			"reason": "Verified. Career circumstance and her Numero reason sit beside the sensitivity line; the counterphobic label is removed from the body claim, description and keywords; the metadata says \"suggest\" at medium confidence."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"accepted": true,
+			"reason": "Verified. The pattern sentence covers only what the record shows; the scream plan is credited to Barker as ordinary directing; the chemistry read is marked as having \"no safety step\"."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"accepted": true,
+			"reason": "Verified. The 'secure' paragraph, \"used the vocabulary directly\" and \"control language ran through every interview\" are gone; audience trust is filed as Three-shaped reputation language."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"accepted": true,
+			"reason": "Verified. The Four generalization is removed; ordinary deference and Type 9 merging are named, with a selectivity discriminator offered as suggestive."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"accepted": true,
+			"reason": "Verified against S11 35:48-36:13. The pride half is included and conceded to Three; the responsibility-vs-sensation lean is explained; \"not by a knockout\" softens the claim; the skydive concession stays."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"accepted": true,
+			"reason": "Verified. \"A point for the Type 7 reading\"; no wing is invoked."
+		},
+		{
+			"finding_id": "future-1",
+			"accepted": true,
+			"reason": "Verified. Option (a): no superlative; scale from the sourced budget range and the dated gross."
+		},
+		{
+			"finding_id": "future-2",
+			"accepted": true,
+			"reason": "Verified. C91 is 'unresolved' with the closing passage and dated, falsifying triggers (SNL, X-Men, retellings, S33/S34)."
+		},
+		{
+			"finding_id": "future-3",
+			"accepted": true,
+			"reason": "Verified. \"As of September 2026\" in the body and FAQ 1; the type answer is 52 words; C90 is time_sensitive with a refresh trigger."
+		},
+		{
+			"finding_id": "future-4",
+			"accepted": true,
+			"reason": "Verified. \"Asked about Oscar buzz in July 2026, months before any nominations\"; C25 is time_sensitive with a January 2027 trigger."
+		},
+		{
+			"finding_id": "future-5",
+			"accepted": true,
+			"reason": "Verified. \"Interviews between May and September 2026\"; a scan of the author prose finds no undated \"now\", \"currently\" or \"this year\"."
+		},
+		{
+			"finding_id": "future-6",
+			"accepted": true,
+			"reason": "Verified. The body says she \"did not say when it happened\"; C15 and C64 record the bounds; the timeline sentence places the shoot and release."
+		},
+		{
+			"finding_id": "future-7",
+			"accepted": true,
+			"reason": "Verified. The body gives the $750,000-$1 million range with both links (checked); C50 is unresolved; C37 has a 2027-01-15 trigger."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "The limits are real. Most of this evidence is her own account, given largely during a four-month press run for a film about a woman who loses control of herself. Promotion rewards a humble, fearless story. The reading below treats her statements as evidence of what she says and does, which is not proof of what she feels.",
+			"preserved": true,
+			"reason": "Preserved in substance. Only the relative window changed (\"interviews between May and September 2026 while she promoted\"), which future-5 required; the promotion-incentive caveat and \"not proof of what she feels\" remain verbatim beside the thesis."
+		},
+		{
+			"passage": "That quick turn toward freedom is the kind of reframe Type 7 is known for, and it counts for the alternative. It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"preserved": true,
+			"reason": "Present verbatim in the Superman & Lois section; it still scores the reframe for Type 7 and labels the hindsight."
+		},
+		{
+			"passage": "A Six story would be easier to tell if the moving had hurt. She says it didn't.",
+			"preserved": true,
+			"reason": "Preserved in substance. The first sentence is verbatim; \"She says it didn't\" became \"In her Variety telling, it didn't\", a scoping fan-01 (major) required. The paragraph still declines the ready-made wound and credits Type 7."
+		},
+		{
+			"passage": "Toddlers of every type insist on doing it themselves, so the anecdote proves little on its own.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "Privacy is common to several types and simply sensible for someone who became famous at 25, so it supports the portrait more than the type.",
+			"preserved": true,
+			"reason": "Present verbatim, moved into \"Mommy, I do\"."
+		},
+		{
+			"passage": "He screamed alongside her: \"he would scream with me. And then he would stop and then I would stop. And he was like, 'No, what are you doing? Come on, go go go go on.'\"",
+			"preserved": true,
+			"reason": "Present verbatim in the second paragraph; the quote matches S09 21:22-21:30 (an interviewer backchannel omitted)."
+		},
+		{
+			"passage": "Once she could drive herself, that buffer was gone, and she replaced it with a rule of her own",
+			"preserved": true,
+			"reason": "Present verbatim; now also the self-built example in the pattern and the ending."
+		},
+		{
+			"passage": "she brought a zodiac book and wrote out the signs \"from Aries all the way to Pisces.\"",
+			"preserved": true,
+			"reason": "Present verbatim; matches CBR 2021."
+		},
+		{
+			"passage": "When a scene called for Nikki to move backward, she tried and tried, coaching herself by her birth name: \"Danielle, hold it together. You can do this.\"",
+			"preserved": true,
+			"reason": "Present verbatim; matches S11 21:10-21:20."
+		},
+		{
+			"passage": "In April 2023, with renewal in doubt, she told Just Jared Jr. that even a public statement from DC's James Gunn did not settle it for her",
+			"preserved": true,
+			"reason": "Present verbatim; matches Just Jared Jr."
+		},
+		{
+			"passage": "The limits are real. Most of this evidence is her own account, given largely during a four-month press run for a film about a woman who loses control of herself. Promotion rewards a humble, fearless story.",
+			"preserved": true,
+			"reason": "Preserved in substance: the confound is still named where the thesis is stated; only the time window became absolute (future-5)."
+		},
+		{
+			"passage": "What the Six reading does not explain matters just as much. It struggles with the piercing on the same day as the skydive, with the \"random\" tattoos, and with \"I don't think that far ahead,\" which cuts against the anticipation Sixes usually show.",
+			"preserved": true,
+			"reason": "Present verbatim in the Type 7 section."
+		},
+		{
+			"passage": "By her account, Barker answered with a schedule. He booked days where it was just the two of them, and only once she was comfortable would she scream in front of anyone else.",
+			"preserved": true,
+			"reason": "Present verbatim; critic-05's attribution note comes two sentences later."
+		},
+		{
+			"passage": "Doubt is the named enemy, and the defense is a structure set up in advance.",
+			"preserved": true,
+			"reason": "Present verbatim."
+		},
+		{
+			"passage": "When she was hit by a car during production and couldn't walk between takes, she sat beside the directors of photography, who \"always scared me,\" and started asking about lenses.",
+			"preserved": true,
+			"reason": "Present verbatim; matches S10 07:50-08:20."
+		},
+		{
+			"passage": "On the _Obsession_ set, that room took a schedule, a charades game and a director willing to scream first. Her next roles will show how much of it she now carries on her own.",
+			"preserved": true,
+			"reason": "Preserved in substance. The callback image is intact (\"On the _Obsession_ set, that room took a schedule, a charades game and a director willing to scream first\"); the deficit-framed second sentence was replaced as critic-05, subject-06 and fan-07 required, and the close is still an open question."
+		},
+		{
+			"passage": "It also fits a shy Six gaining nerve, and the public record cannot separate the two.",
+			"preserved": true,
+			"reason": "Present verbatim in the Type 9 paragraph."
+		},
+		{
+			"passage": "Doubt is the named enemy, and the defense is a structure set up in advance. Five years later she was still quoting her mother's version",
+			"preserved": true,
+			"reason": "Preserved in substance. The first sentence is verbatim and the 2021-to-2026 link survives; \"still quoting her mother's version\" became \"credited her mother with a second lesson that pulls the other way\", because critic-07 showed the continuity was invented."
+		},
+		{
+			"passage": "It is also hindsight; her reaction at the time could not be checked for this profile.",
+			"preserved": true,
+			"reason": "Present verbatim; still accurate, because the 2023 TikTok reaction (S32) remains unopened."
+		},
+		{
+			"passage": "Privacy is the most durable trait in the record. In 2021 she told CBR, \"I feel as though my stuff is my own and I'm very private about that.\" In 2026 she told Nylon, \"I'm a very private person.\"",
+			"preserved": true,
+			"reason": "Present verbatim, with a Nylon link added."
+		},
+		{
+			"passage": "The Six reading says what to watch for: whether she can keep taking risks without first building the safe room.",
+			"preserved": true,
+			"reason": "Preserved in substance: still a falsifiable prediction (\"whether she keeps taking risks when no one has built the safe room for her first\"), reworded because Barker built the room (critic-05), and now tracked as C91."
+		}
+	],
+	"coverage_complete": true,
+	"metadata_consistent": true,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"scores": {
+		"evidence": {
+			"score": 8.5,
+			"reason": "Every quote across the 24 sources used and 94 claims re-matched at verify stage, with correct speakers, outlets and dates; inference is labeled where it is made (\"By her account\", \"leans toward Six rather than proving it\"), and this passage states the limits of the key episode. Pre-fame sources (2021, 2023) and pre-release director testimony (TIFF 2025) add some independence. It stops short of 9: the core record is 2026 promotional self-report, the video quotes rest on captions rather than audio, and two contexts are thinned (C23's memory reason, C76's splice).",
+			"passage": "She tied the deletion to \"moving into like a new chapter of my life\" but did not say when it happened, and no source says whether anyone advised it."
+		},
+		"enneagram": {
+			"score": 8,
+			"reason": "The Six motive is tested against repeated behavior from 2021 to 2026 (the pact against doubt, the Gunn caution, disclosing to Barker, the mirror trust, the Twitch retreat, the Oscar net). Type 7 gets full weight, and this sourced discriminator (plus the retreat from something she loved) beats it narrowly, with a real unexplained column. Type 3 is built fairly. Held at 8: the choices are not very costly (the key episode costs an archive), and the Six-vs-Three answer leans on an ordinary 2023 remark framed with an unsourced generalization (verify-01). The article honestly calls the lead narrow.",
+			"passage": "The thing she fears is a responsibility, doing a role justice and doing it correctly, not a sensation she wants to feel."
+		},
+		"originality": {
+			"score": 8.5,
+			"reason": "Details only this person has, all verified: self-talk by her birth name, the zodiac book at the screen test, the DP lenses after the car accident, the director screaming first, the deleted Twitch archive, and two opposing lessons from her mother. The \"fall on my face publicly\" contradiction survives the argument. Some reusable type boilerplate remains (\"A Three tends to bank a positive signal...\", \"A Nine's going-along tends to be more general\", \"For a Six, trust works like infrastructure\").",
+			"passage": "When a scene called for Nikki to move backward, she tried and tried, coaching herself by her birth name: \"Danielle, hold it together. You can do this.\""
+		},
+		"writing": {
+			"score": 7.5,
+			"reason": "The hook, \"Mommy, I do\", Superman & Lois and the audition sections move well, with precise, varied sentences and honest turns. But at 4,373 words the second half loops. The pattern is restated in the hook, the type answer, the Twitch section and this new metaphor; the Gunn remark recurs four times; and the rival sections pile up qualifications, which blunts momentum before a strong ending (verify-03).",
+			"passage": "For a Six, trust works like infrastructure: once it is in place, the risky work can begin."
+		},
+		"durability": {
+			"score": 8.5,
+			"reason": "Time-bound statements carry absolute dates, as here. The changing facts are tracked with actionable triggers (C37 gross, C50 budget, C25 awards, C90 type status, C91 the closing prediction). The argument rests on a 2021-2026 pattern: removing the latest event (Hot Ones, 2026-09-08) leaves it intact, and the announced SNL and X-Men projects stay out of the body. Heavy reliance on one 2026 press cycle means the X-Men press will warrant a refresh, which is already flagged.",
+			"passage": "Asked about Oscar buzz in July 2026, months before any nominations, she told Variety that \"there's a part of my brain that is... just kind of having a safety net of if it doesn't happen, it doesn't mean that I didn't do a good job.\""
+		},
+		"hook": {
+			"score": 8.5,
+			"reason": "Specific, sourced (Collider, May 16, 2026) and surprising for a horror lead; paid off within a paragraph by the scream sessions, complicated by the Kimmel skydive, and returned to at the close.",
+			"passage": "Inde Navarrette went into _Obsession_, the horror film that made her famous, not knowing how to scream."
+		},
+		"discoverability": {
+			"score": 8.5,
+			"reason": "The meta title (58 characters) and description (168 characters) are within range and match the body's hedged Type 6 with 7 and 3 as rivals. Five substantive FAQs (type, Type 7, Type 3 like this one, Twitch, casting) answer real search questions, and their anchors match the H2 slugs. The type answer is a clear 52 words, and the body links to the Type 3, 6, 7 and 9 pages (the counterphobic anchor exists in enneagram-type-6.md) and to Timothée Chalamet; the four suggestions exist as people drafts. FAQ 2 carries the \"constantly\" overstatement (verify-04).",
+			"passage": "Could Inde Navarrette be an Enneagram Type 3?"
+		}
+	}
+}

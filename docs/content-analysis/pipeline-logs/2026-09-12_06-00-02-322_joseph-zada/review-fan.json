@@ -1,0 +1,86 @@
+{
+	"schema_version": 3,
+	"role": "fan",
+	"content_sha256": "f2d9087bff40b60d7105a9c44b45b88ffb4d28ed616db296e80713931a6a08a7",
+	"evidence_sha256": "c35ed25f0d9a051c78a92b6e9068fc9267b77ba155294908eda7311e8e042e36",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": true,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "fan-01",
+			"severity": "major",
+			"passage": "Fanning laughed and asked, \"You were more scared after finding out?\" His answer was one word: \"Yes.\"",
+			"problem": "The Interview Magazine transcript was reopened on 2026-09-13 via a reader proxy. Zada's reply was not one word. It runs straight on: \"Yes. Then the announcement came out a day after, so everyone found out at the same time as me.\" The draft cuts the reply to heighten the drama. The phrase \"more scared\" is also Fanning's laughing paraphrase, not his wording. His own words are about obligation and difficulty: \"Now I have to do this and it's going to be really hard.\" Even so, persona_title, meta_title (\"More Scared After He Won\"), the description (\"was more scared after winning Haymitch\") and the type section (\"Winning made him more afraid\"; \"his most consequential good news made him more afraid\") all present it as his own statement or as established fact, and it is the thesis's main discriminator. A fan would add a confound: this is a Hunger Games promotional conversation, headlined \"How the Odds Became Ever In His Favor,\" with the actor who plays Effie Trinket, his character's stylist. The franchise premise itself is that winning is where Haymitch's danger begins. Smaller issue: the transcript says \"so I more or less knew immediately,\" while the draft says he \"knew what it meant before anyone said it.\"",
+			"acceptance_test": "The body no longer describes the reply as one word; it either quotes the continuation or drops the characterisation. Wherever \"more scared\" appears (persona_title, meta_title, description, FAQ, type answer, Type 9 and Type 3 sections), it is attributed as his \"yes\" to Fanning's question, not stated as his own words or as fact. The discriminator is restated using his own wording about dread of difficulty and obligation. The franchise framing is noted as a limit next to the existing \"told as a joke\" caveat. The opening matches \"more or less knew immediately.\""
+		},
+		{
+			"id": "fan-02",
+			"severity": "major",
+			"passage": "In February 2025, on the Perth set of the Stan series _Invisible Boys_, he told Variety Australia's Julie Hosking:",
+			"problem": "This is a chronology error. Variety Australia published the piece on February 13, 2025, the premiere day, but it reports a set visit (\"a stifling hot day in Perth when Variety AU/NZ visits the set\") during production. Wikipedia's Invisible Boys page says production began in March 2024. So the interview, including the school-exit account and \"remarkably upbeat,\" was given in 2024, when he was about 18 and unknown. This breaks two claims in the source-limit paragraph: \"Almost every substantial source on Zada is an interview given between February 2025 and August 2026\" and \"This research found nothing substantial from before he was 19.\" It also misplaces the one pre-fame, on-set source, which is the basis of the strongest Type 9 clue, inside the promotional window.",
+			"acceptance_test": "The Variety material is dated as a 2024 set visit published February 13, 2025, with the production date sourced (Invisible Boys production record added to the evidence file). The limit paragraph and claim C44 are corrected: either the window starts in 2024, or the set visit is named as the exception, and the \"before he was 19\" sentence is fixed. Claims C08, C31 and C73 no longer describe the interview as given in February 2025."
+		},
+		{
+			"id": "fan-03",
+			"severity": "major",
+			"passage": "Wikipedia places his Afghan-Aboriginal heritage through a paternal great-grandmother, so the lineage here is his account.",
+			"problem": "This leaves out formative context that he states himself, and it invents a conflict. In the transcript he says: \"My grandmother's Australian Indigenous and also Afghan. The name comes from my great-grandfather, who was an Afghan cameleer.\" The draft never mentions his own statement of Indigenous heritage. It then sets his account against Wikipedia's (Afghan-Aboriginal heritage through a paternal great-grandmother, Barkandji) as if they disagree, when they fit together: a grandmother who is Indigenous and Afghan, whose surname came from her cameleer father. With that removed, the section reads his decision to work under an Indigenous-Afghan grandmother's surname only as security-seeking (\"sounds like company\"; \"he reached for ancestors\"). The most obvious reading, publicly claiming a heritage and identity, never gets a hearing.",
+			"acceptance_test": "The section quotes or paraphrases his own statement that his grandmother is Australian Indigenous and Afghan. The Wikipedia sentence either presents the two accounts as compatible or states precisely what differs, without implying a contradiction. The interpretation offers the identity reading alongside the company/security reading, and \"he reached for ancestors\" is framed as one reading among these. Only the family link to the first-mosque claim is flagged as unverified."
+		},
+		{
+			"id": "fan-04",
+			"severity": "major",
+			"passage": "What repeats is the sequence: keep the looming authority out of the room while working, then receive its approval afterward.",
+			"problem": "This claims a pattern that only one of its two examples supports. In the East of Eden case, keeping the predecessor out of the room was not his choice. The transcript says he had planned to watch the film \"maybe after I got the role,\" and someone at the callback (\"she\") told him, \"Promise me you won't watch the film.\" No approval followed either. James Dean died in 1955; when Zada watched the film he said \"Oh, shit,\" then immediately deflated the comparison: \"But also, I'm in the last two episodes. This project captures much more of the book.\" Only the Woody Harrelson case fits avoid-then-approval. The lead-in \"His handling of those authorities follows an order\" makes an instruction he followed sound like his own method. The Type 9 section's \"agreed without argument\" also leaves out his earlier plan to watch.",
+			"acceptance_test": "The sequence is claimed only where both steps occur (Harrelson), or the East of Eden case is described accurately: an instruction he followed, then a reckoning with no approval. If compliance is used as evidence, his \"I was thinking maybe after I got the role\" is included. The inference in claim C22 is updated to match."
+		},
+		{
+			"id": "fan-05",
+			"severity": "minor",
+			"passage": "What carries weight is the direction, repeated in two interviews fourteen months apart: company keeps him out of his own head, and he welcomed having it imposed.",
+			"problem": "There is a factual error and two context distortions. Behind The Blinds is dated July 9, 2025, and HERO March 23, 2026, about eight and a half months apart, not fourteen; the HERO conversation itself was recorded after the shoot wrapped, so the real gap is likely shorter. The HERO line \"being forced to spend family time\" refers, in context, to Mckenna Grace insisting he join her and her mother for dinner every night when he was exhausted from stunts, while they lived next door to each other in Spain. It was Grace's family and her hospitality, not his. The next paragraph opens \"Family shows up at the edge of each big job,\" which invites readers to think it was his family. The Halifax line answered McGregor's question \"What's your favourite memory of the two of us?\" and describes nightly hangouts and sunsets, a friendship memory. It says nothing about protection from his own thoughts, as the paragraph's topic sentence implies.",
+			"acceptance_test": "The interval is corrected or removed. The HERO quote identifies the dinners with Grace and her mother, and \"welcomed having it imposed\" is qualified accordingly. The Halifax quote is framed as a favourite-memory answer about their friendship, or is not used to support \"protection from his own thoughts.\""
+		},
+		{
+			"id": "fan-06",
+			"severity": "minor",
+			"passage": "Asked about _East of Eden_, whose lead role James Dean played in the 1955 film, he passed over the obvious answer:",
+			"problem": "Role context an informed reader expects, and needs, is missing. The draft never says Zada plays Cal Trask, the part Dean played, which is why legacy is \"the obvious answer.\" McGregor's question itself named \"that kind of legacy,\" and Fanning later called Cal \"the role that launched James Dean.\" He also says he is \"in the last two episodes\" of the seven-part series, so \"neither of his two biggest performances has been released\" overstates the size of the East of Eden role. Other gaps: Florence Pugh (quoted in \"toe to toe with Florence\") plays Cal's mother, Cathy. Charlie, in \"like Charlie does,\" is Charlie Roth, a punk outsider outed on social media in small-town Geraldton after the 2017 same-sex marriage vote. Readers cannot weigh \"I don't tend to wear my emotions on my sleeve like Charlie does,\" the strongest Type 9 clue, without that. Fanning (Effie Trinket) and Grace (Maysilee Donner) are never identified as Sunrise co-stars, and that affects how warm and promotional those conversations were.",
+			"acceptance_test": "One clause each establishes Cal Trask, the Dean role and his last-two-episodes presence; Pugh as Cathy; Charlie Roth's situation; and Fanning's and Grace's Sunrise roles. The \"two biggest performances\" sentence is recalibrated so it does not imply a lead role in East of Eden, all with sources in the evidence file."
+		},
+		{
+			"id": "fan-07",
+			"severity": "minor",
+			"passage": "Across three thresholds, the teenage sessions with Hal, the flight home for the Haymitch tape and Berlin, the same people appear right before the plunge.",
+			"problem": "Interview Magazine never names the older brother, so identifying him as Hal is the author's inference, stated as fact. The identification is probably right, and a fan would supply the formative context that makes the origin story sharper. Hal Cumpston, born 1999 and Zada's half-brother by a different mother, wrote and starred in Bilched with their father helping to fund and direct. Wikipedia says an audition three weeks after Bilched wrapped won Hal a 20-episode American series role (The Walking Dead: World Beyond, 2020 to 2021, filmed in Virginia). That fits \"helping my older brother with auditions when he'd come back from America.\" The draft calls Bilched \"starring his brother\" and leaves out that Hal wrote it, and it never mentions that the brother he learned from had just turned an audition into a US series.",
+			"acceptance_test": "The Hal identification is either sourced (the Hal Cumpston record added to the evidence file) with that brother's US series context, or the draft says \"his older brother\" wherever the interview does. Any added context is presented as background, with no claim that Hal's example caused Zada's approach."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Both accounts can be partly true, since an attendance problem can end in an ultimatum and an exit. They still place the decision on opposite sides, and the second is the more flattering telling. This profile does not choose between them or build a psychological claim on either.",
+			"reason": "It handles his two conflicting accounts of leaving school with exactly the restraint an informed reader wants. It names the conflict, notes which version flatters him, and refuses to build on either."
+		},
+		{
+			"passage": "The mechanism he names is still worth noticing. His confidence arrived once the people he feared had been reclassified as peers.",
+			"reason": "A distinctive, source-faithful reading of his own words (\"these people are actually normal people\"). It turns apparent counterevidence into insight without denying it."
+		},
+		{
+			"passage": "He even qualifies his own calm. When Fanning followed up on \"I'm chilling,\" he added: \"There hasn't been a whole lot of chill until very recently. But yeah, Australia is a safe place.\"",
+			"reason": "Checked word for word against the transcript. It is a revealing follow-up a casual reader would miss, and it complicates his easygoing self-description fairly."
+		},
+		{
+			"passage": "The Six reading does not fully answer Lind either. A Six can want something intensely, and this reading accounts for the manner of his pursuit: tracking the competition quietly, confiding in a friend, preparing with family. It does not fully explain the appetite she saw, and that tension stays open.",
+			"reason": "It keeps the most discordant testimony, from a friend who saw him unguarded during the callbacks, unresolved instead of absorbing it into the thesis."
+		},
+		{
+			"passage": "The stated reticence and the actual openness do not match, and nothing he has said explains how he squares them.",
+			"reason": "A real contradiction in the public record, left visible rather than explained away. It is what makes him read as a person rather than a type illustration."
+		}
+	],
+	"assessment": "Informed-reader pass. I reopened Interview Magazine (S01, via reader proxy), Behind The Blinds (S02), Variety Australia (S06) and HERO (S03), and checked Wikipedia's pages on Zada, Invisible Boys and Hal Cumpston plus the April 2025 casting reports. Most quotations are faithful, and the draft is unusually honest about the promotional source base, the two school-exit accounts and the Lind counterevidence. The problems a fan would catch cluster on the load-bearing moments. First, the hook shortens a continuing reply to \"one word\" and puts Fanning's \"more scared\" into the title and discriminator as if they were his words. Second, the one pre-fame on-set interview is misdated to February 2025, which breaks the draft's own statement of its source limits. Third, his own statement of Indigenous and Afghan heritage is missing from the name-change section, which reads the name only as security-seeking. Fourth, the claimed avoid-then-approval sequence does not hold for East of Eden. There are also context gaps: Cal Trask and the James Dean role, his last-two-episodes presence, Charlie Roth's arc, co-star roles and the brother's US career. None of these overturns the Type 6 hypothesis, but fixes 1, 2 and 4 weaken the discriminator as currently worded, and the editor should restate it in his own words. Similarity diagnostic: not tripped (max 0.028 against a noise-floor p99 of 0.007). The top pairs are generic diagnosis sentences or trivial shared phrases (\"everything below\"), not reused arguments, so there is no reuse finding. Risk flags from research are carried forward unchanged."
+}
