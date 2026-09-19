@@ -1,0 +1,79 @@
+{
+ "schema_version": 3,
+ "role": "future",
+ "content_sha256": "f31865c94313f2ac624b75e8e2835a36380b29944f25e3723e25c73bcb656c80",
+ "evidence_sha256": "3ed37bc9e8fc56186f2811a8d626a80371a7f9b0be88b95235e60570874ede94",
+ "risks": {
+  "sensitive_allegations": true,
+  "contested_typing": true,
+  "historical_source_uncertainty": true,
+  "major_thesis_change": false
+ },
+ "findings": [
+  {
+   "id": "future-01",
+   "severity": "major",
+   "passage": "The third, and sharpest, is heartbreak.",
+   "problem": "The Nine-over-Four call fails the remove-the-latest-event test. Take out the three August 2026 promotional interviews (S01-S03) and the first discriminator (a wrong image left to stand: S02 only), the sharpest one (the breakup answer: S01 only) and the peace description (S02) all disappear. Only the specialness discriminator keeps pre-2026 support (Complex 2020, 'one of us making music'). What remains from 2018-2025 (shyness, solitary recording, few interviews, wanting the smaller room, the 2025 'not a superstar' line) fits a Four's withdrawal nearly as well as a Nine's. The draft tells readers 'sources from 2018 to 2023 carry the most weight below', but the H2 'Why the breakup answer points to Type 9' makes a single 2026 on-camera exchange the headline evidence. The closer's 'What has held since at least 2020' includes 'A wrong public image is left to stand', which only the August 2026 Breakfast Club answer shows. The Type 4 FAQ gives four reasons, all from August 2026 and undated. C19, C23, C28, C29, C75, C76 and C80 are marked stable with no review trigger, even though C30 and C53 concede the settled register may belong to the album cycle. A later interview cycle in which he explains himself at length, or frames a breakup as a defining loss, would overturn the type argument with nothing in the record prompting a recheck.",
+   "acceptance_test": "Either (a) at least two of the three discriminators cite a pre-August-2026 source that independently shows the same behavior, and the prose names which one; or (b) the article says plainly that its sharpest discriminators come from the August 2026 promotional window: the 'carry the most weight' sentence and the 'since at least 2020' closer are narrowed to what the pre-2026 sources show, the Type 4 FAQ names August 2026, and C19/C23/C28/C29/C75/C76/C80 become time_sensitive with a trigger such as: 'At his next long-form interview or album cycle, recheck whether he still declines to correct his image, rejects \"pain\", and describes trained readiness after breakups; if not, revisit the Type 4 comparison and the stated confidence.'"
+  },
+  {
+   "id": "future-02",
+   "severity": "major",
+   "passage": "None of these allegations is proven, and no psychological conclusion should rest on them.",
+   "problem": "This is an undated, present-tense statement of legal status, and no claim passage includes it. It covers two pending 2025 Fulton County cases (14 charges including pointing a gun at another person; separate drug and weapons charges) that will very likely be resolved within five years. A plea or conviction would make the sentence false in a sensitive-allegations section. It also treats already-resolved matters (2014 dropped, 2022 dropped), an undetermined one (2021) and pending ones (2025) as a single status. The triggers on C34, C35, C36, C41, C42 and C70 say 'recheck the docket' or 'before publication and at each update' without naming a court, case identifier or date, and nothing schedules an update, so a maintainer cannot act on them. Resolving the Grizzly case would also change the countersuit section, the unresolved list in the closing section, and the FAQ 'Why was Rod Wave's Last Lap tour cancelled?'",
+   "acceptance_test": "The sentence either carries an absolute date (e.g. 'As of September 2026, none of the pending 2025 charges had been proven in court') or separates dropped, undetermined and pending matters. It is added to the evidence record as an unresolved claim. Each trigger on C34/C35/C36/C41/C42/C70 names the court and case or booking identifier (or states that none is public and names the jurisdiction) and sets a dated recheck, e.g. no later than 2027-03-17 and every six months until disposition."
+  },
+  {
+   "id": "future-03",
+   "severity": "minor",
+   "passage": "Quotations from those videos were checked against YouTube's automatically generated transcripts, not the audio, so sources from 2018 to 2023 carry the most weight below.",
+   "problem": "This reader-facing sentence describes the article's own verification status. The evidence record's research tasks require confirming every S01-S03 quote against the audio before publication, and once that is done the sentence becomes false. C53 is marked stable with no trigger, so nothing ties that task to this text. The '2018 to 2023' range also leaves out the 2025 Billboard interview (S06) that the draft uses for the ordinary-guy stance.",
+   "acceptance_test": "After the audio check, the sentence is removed or rewritten to say what was checked and when. Until then, C53 is time_sensitive with the trigger 'Update this sentence when S01-S03 quotations are confirmed against audio.' The weighting range matches the sources the argument actually leans on."
+  },
+  {
+   "id": "future-04",
+   "severity": "minor",
+   "passage": "He rarely gives interviews, and his hometown paper wrote its best account of him without his cooperation",
+   "problem": "This present-tense claim is untracked and supports the thesis: reticence is part of the positive Nine pattern (C52 is in for_claim_ids). Its only support is the Tampa Bay Times in 2021. Since then he has given Billboard sit-downs in 2023 and 2025, three long-form video interviews in August 2026 and trade interviews, and C52's own alternative field concedes 'he has given several long interviews since.' His new public roles as a promoter (Mainstay) and sports-agency founder make more press likely, so the claim is already strained and will age further.",
+   "acceptance_test": "The sentence is anchored in time (e.g. 'In 2021 the Tampa Bay Times noted he \"does not do many interviews\"') or restated as a dated pattern. Any author-voice claim about his interview habits is recorded as time_sensitive, with a trigger to recheck at the next album cycle."
+  },
+  {
+   "id": "future-05",
+   "severity": "minor",
+   "passage": "Has Rod Wave ever been to therapy?",
+   "problem": "The FAQ asks about a lifetime, present-tense status on a mental-health question about a living person. The only answer is a one-word August 2026 exchange, taken from an automatic transcript not yet checked against the audio. FAQ text is the surface most likely to appear as a standalone search snippet, where a reader years from now would take 'Nah' as the current answer. The C20/C79 triggers are passive ('if he later describes starting therapy') and name no point at which anyone looks.",
+   "acceptance_test": "The question is reframed so it stays true, e.g. 'What has Rod Wave said about therapy?', and the answer keeps the August 2026 date. The C79 trigger names a concrete check, such as reviewing his long-form interviews at each album cycle or by 2027-09-17."
+  },
+  {
+   "id": "future-06",
+   "severity": "minor",
+   "passage": "His working method has barely changed in six years.",
+   "problem": "Several phrases are pinned to the moment of writing instead of a date, so in 2031 they will read as current or cover the wrong span. 'Barely changed in six years' is one: the working-method evidence runs from Complex 2020 and the 2021 engineer to the 2025 phone recording, and nothing from 2026 describes his recording setup. Others: 'It still shows how he understands his distance today', 'and now treats his early self-importance as immaturity', 'Rod says his father still warns him', and 'His label CEO calls his lane \"struggle rap\"' (a 2023 remark in present tense, when label ties can change). Two events are undated: 'After the Last Lap tour collapsed he founded Mainstay Touring.' and 'Mainstay then promoted Ye's shows at SoFi Stadium'. C75's stable passage 'given on camera by a man in a relationship' brings in a relationship status from a different interview (S02).",
+   "acceptance_test": "Each listed phrase uses an absolute year or the interview date, e.g. 'from 2020 through at least 2025', 'in August 2026', 'told Billboard in 2023', the year Mainstay was founded and the year of the SoFi shows. The relationship remark is attributed to the August 2026 interviews or removed. Any remaining present-tense status about his label, partner or father is recorded as time_sensitive with a trigger."
+  }
+ ],
+ "protected_passages": [
+  {
+   "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy.",
+   "reason": "Dates the self-report and limits the inference in one sentence, so the passage holds up however he retells his origin story later."
+  },
+  {
+   "passage": "He accepts sadness and rejects depression as a label, though when pressed he allowed, \"Yeah, been there.\" Billboard reported in 2023 that he \"has struggled in the past with depression and anxiety and has always been open about having had suicidal thoughts.\" Both statements belong on the record, with their dates.",
+   "reason": "Handles conflicting mental-health self-descriptions by keeping both with their dates rather than picking the current one. It will stay accurate even if his account changes again."
+  },
+  {
+   "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him.",
+   "reason": "Sets a test that doesn't depend on any one event, so future evidence can be checked against it."
+  },
+  {
+   "passage": "The calm, business-minded voice of August 2026 may be growth, or it may be the voice an album about growth requires. When he sounded similarly settled to Billboard in September 2025, the Grizzly lawsuit arrived three weeks later.",
+   "reason": "Builds a durability warning into the article: it dates the current register and gives a dated precedent for doubting it."
+  },
+  {
+   "passage": "And on a night in 2021 when the choir sang every word back to him near home, the one thing he asked a 15-year-old fan to critique was the part of the show where he had to talk.",
+   "reason": "The ending rests on a specific, independently reported 2021 scene rather than the 2026 album cycle, and it still works if every later event is removed."
+  }
+ ],
+ "assessment": "Five-year test. Durable: the dated 2021 Tampa hook and ending, the pattern of feelings coming out only in the recording booth (Complex 2020, Tampa Bay Times 2021, Billboard 2023 and 2025), chart facts stated as ordinals or 'as of' dates, dated legal reporting, and explicit caveats about the promotional register. Not durable: the decisive Nine-over-Four evidence comes mostly from three August 2026 album-promotion interviews. Without them, the remaining record fits a Four's withdrawal nearly as well, and the medium-confidence call would drop to low (future-01). The legal material is mostly well dated, but one undated status sentence covers pending felony cases, and the docket triggers name no court, case or date (future-02). Smaller issues: a pipeline-status sentence that will go stale, an untracked 'rarely gives interviews', a therapy FAQ phrased as a current status, and scattered relative-time words. Similarity diagnostic: the tripped Ibai-Llanos pair ('the Nine reading') and the 0.08 Victoria-Justice pair ('insisting') share ordinary type vocabulary but make different arguments. 'Out of the frame' echoes Victoria-Justice's 'receding from the frame' as a spatial metaphor, but here it is tied to specific dated behavior. The H2 'The case for Type 4' also appears in austin-abrams as a label over a distinct argument. The short generic Type 9 definition paragraph is the most reusable text but is not meaningful reuse, so no finding. The hook and ending depend on reading the Times' 'Julius, the boy with cancer' as the 15-year-old named earlier (C66, an open research task). That is a reasonable reading of the article's structure, but it should be closed before publication."
+}

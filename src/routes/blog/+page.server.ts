@@ -47,8 +47,10 @@ export const load: PageServerLoad = async ({ locals }) => {
 				return null;
 			}
 
+			// Nested mental-health posts are served under /mental-health/{slug}.
+			const slug = slugFromPath(path);
 			return {
-				slug: slugFromPath(path),
+				slug: path.includes('/mental-health/') ? `mental-health/${slug}` : slug,
 				title: metadata.title,
 				description: metadata.description ?? '',
 				date: metadata.date,

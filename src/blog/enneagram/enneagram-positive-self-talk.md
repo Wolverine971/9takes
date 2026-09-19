@@ -1463,7 +1463,7 @@ The voice in your head has been wrong about you for decades. It's not permanent.
 **[Share Your Inner Critic Pattern →](/questions)**
 Get type-specific support from people who understand
 
-**[Track Your 30-Day Transformation →](/signup)**
+**[Track Your 30-Day Transformation →](/register)**
 Download our free type-specific self-talk tracker
 
 **[Go Deeper With Personal Coaching →](/book-session)**

@@ -1,0 +1,100 @@
+{
+  "schema_version": 3,
+  "role": "critic",
+  "content_sha256": "f31865c94313f2ac624b75e8e2835a36380b29944f25e3723e25c73bcb656c80",
+  "evidence_sha256": "3ed37bc9e8fc56186f2811a8d626a80371a7f9b0be88b95235e60570874ede94",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "critic-01",
+      "severity": "blocker",
+      "passage": "In his own voice, he tells it differently. \"If it mess up, man, I'm going to be blaming myself,\" he told Sharpe, \"cuz I just ain't with blaming people and because at the end of the day I brought y'all in.\" The charitable explanation is division of labor, since lawyers litigate and a countersuit is a defensive tool. That is probably most of the story.",
+      "problem": "This reverses the adverse evidence. In the Club Shay Shay transcript (re-pulled for this review, ~25:13-27:11), right before this line he blames the promoters outright: \"your one, two, three, four mistakes burn it down in three, four months,\" \"I'm just a pawn to y'all,\" \"I'm stuck with the aftermath of what you guys ruined,\" \"I'm stuck cleaning up what y'all messed up.\" His \"if it mess up\" is about the future of his own company. So in his own voice he tells the same story as the countersuit. The packet's Billboard 2025 excerpt (S06: \"my last tour had to get taken down because of the routing\") points the same way, and per S06's context Grizzly's complaint cites that interview as public blame. Billboard returned HTTP 402 to this reviewer, so that quote was not reopened. Nothing supports \"probably most of the story.\" The same misreading carries into the closing's open question (\"how 'I just ain't with blaming people' squares with his countersuit\"), C37, and item 2 of type_hypothesis.unexplained.",
+      "acceptance_test": "The countersuit section reports his own on-record blame of the promoters, quoted or accurately paraphrased from Club Shay Shay ~25:40-27:00, and presents \"if it mess up\" as a statement about his future company. \"That is probably most of the story\" is deleted or given evidence. The closing no longer calls the non-blaming line vs. countersuit gap unexplained, or states it accurately as a stated principle contradicted in the same breath. C37 and type_hypothesis are updated to match. The S06 routing quote is used only if a reviewer can reopen it."
+    },
+    {
+      "id": "critic-02",
+      "severity": "major",
+      "passage": "In conversation, he describes a trained readiness that forms in response to the other person's decision, so that a loss cannot pull him out of his work. That looks more like a Nine restoring calm.",
+      "problem": "The discriminator the draft calls \"sharpest\" is cut off before the parts that complicate it. In the same exchange (Club Shay Shay ~69:56-70:35) he says the change came because \"it took for somebody to dip, it took for somebody to be ready before me to leave.\" In other words, he was left before he was ready, the situation he first said he had never been in. He also calls his younger self \"controlling and boy this mine,\" and draws a relational lesson (\"treat somebody like they feeling matter... I'm going to treat you like a human\"), not a calm one. His stated reason for the training was protecting his work ethic, the drive the draft later says Nine theory cannot explain. The hedge that \"let me think back\" may mean he avoided a particular breakup is overtaken by the source, where he does go back to it. Detachment trained after being left (\"ain't nothing or nobody never yours\") reads at least as well as a defense against abandonment or loss of control. This is also a single auto-transcript exchange with inferred speaker labels.",
+      "acceptance_test": "The section reports his later account of someone leaving before he was ready and his \"controlling\" younger self, with timestamps. It names at least one non-Nine reading of the trained detachment and either shows why Nine still wins or scales the claim down. \"The third, and sharpest\" and the heading \"Why the breakup answer points to Type 9\" are revised unless the fuller exchange still discriminates. The FAQ phrase \"describes training himself so that a breakup cannot pull him away from his work\" is updated to match."
+    },
+    {
+      "id": "critic-03",
+      "severity": "major",
+      "passage": "It costs him something, he admitted: \"I wish people didn't ... take my image and run with it.\"",
+      "problem": "The quotation stops mid-sentence and turns a cost-benefit statement into a pure cost. The Breakfast Club transcript (~9:38-9:57) reads: \"it was kind of like a good a negative and a plus because negative like I wish people didn't... take my image and run with it, but it's a plus because that mysterious like... it make them want to dig a little deeper.\" In the same answer (~7:11-7:15) he says the misreading comes from his own withholding: \"I give them so little that they got to work with what they got.\" Charlamagne then praises it as \"old school superstar\" mystery, and in the draft's own car anecdote he calls being unseen \"my formula to stardom.\" In fairness, asked \"Is that by design?\" he said \"Nah.\" Even so, the first discriminator never tests the business case for mystique. \"Lets it stand\" also conflicts with the next section, where he corrects labels precisely when asked (\"pain,\" \"depression,\" and in 2020 \"Don't look at me like a rapper\"). At Club Shay Shay ~99:08-99:20 he says opening up in music brought \"backlash... people try to take it and twist it\": being misread as a reason to stop talking, close to the Four injury the draft says he does not show. Separately, \"as a rule he chose to keep\" sits oddly with his statement in the same car story (~120:46-120:56) that once he was older the same promoter booked him and he started hanging out.",
+      "acceptance_test": "The image passage includes his \"but it's a plus because that mysterious\" clause, or an accurate paraphrase, and his \"I give them so little\" framing. It weighs mystique-as-strategy against temperament, citing his \"Nah\" to \"by design.\" The first discriminator (\"Rod says his public image is wrong and, as a matter of temperament, lets it stand\") deals with his corrections when asked and his \"take it and twist it\" remark, or is weakened. \"A rule he chose to keep\" is reconciled with his later hanging out at the clubs."
+    },
+    {
+      "id": "critic-04",
+      "severity": "major",
+      "passage": "Nine theory does not explain that drive.",
+      "problem": "The draft sets its three strains (engine, countersuit, temper) aside as unexplained leftovers. It never tests whether they, plus lines it leaves out, form a competing pattern around control and autonomy. Left out: \"I just wanted to be in control\" (Club Shay Shay ~26:10), dropped without marking between the two quoted sentences \"I just didn't want to be the pawn no more\" and \"Like if somebody gonna mess this thing up\"; \"Like I'mma call all the shot\" (~14:26, recorded in C77 but not in the draft); his younger self as \"controlling and boy this mine\" (~70:00); and \"I start off by not trusting nobody... Trust is earned\" (~48:42-48:52). Add the temper his father warns about and a company built so nobody else controls his work. The draft only compares 4 with 9. Four explains the music, but the behavior that resists Nine points somewhere Four doesn't. The type answer and FAQ call Type 4 the strongest alternative without a control-centered type ever being considered.",
+      "acceptance_test": "The type argument names and tests at least one control- or autonomy-centered alternative, at minimum Type 8, with a sourced discriminator against Nine. Otherwise it shows with evidence why the engine, blame, temper and control statements don't form a competing pattern. The \"pawn\" quotation either restores \"I just wanted to be in control\" or marks the omission. If the test changes which alternative is strongest, the type section, FAQ and evidence type_hypothesis all agree."
+    },
+    {
+      "id": "critic-05",
+      "severity": "major",
+      "passage": "When the criticism peaked in January 2025, he did not argue with anyone.",
+      "problem": "The draft contradicts itself. That same hiatus post told the critics who \"drag my name\" that \"I dont fw you\" (HipHopDX, reopened), and the draft quotes that line in its Type 4 section. The packet also has an opened source the draft never uses: February 2021 Instagram Stories attacking his own label (\"P*ssy a*s label playing wit a n*gga shit I ain't shit f*ck ya pay me\") and blaming Alamo for the album delay (HipHop-N-More, reopened for this review; the original posts are no longer live). Together with the Club Shay Shay remarks about the promoters (critic-01), the record shows repeated public grievance against business partners and critics. The type answer's \"declines grievances\" and the closing's \"A wrong public image is left to stand\" don't acknowledge it. The indirect form (Story posts, withholding work) might be argued as Nine-like, but the draft has to make that argument, not leave the incident out.",
+      "acceptance_test": "\"Did not argue with anyone\" is removed or reconciled with the \"I dont fw you\" line. The 2021 Alamo posts are reported with source and date, and any later reconciliation is mentioned only if a source for it is opened. \"Declines grievances\" in the type answer is narrowed to the documented context (awards) or defended against these instances."
+    },
+    {
+      "id": "critic-06",
+      "severity": "major",
+      "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him. On awards, it does.",
+      "problem": "The test is passed on an interview answer, which costs nothing. His own answer (Club Shay Shay ~7:04-7:21) also says awards have no value to him: \"just never been part of my character. Like I don't really need no [validation]... all I need the fans to show up... get paid for what I do.\" Giving up something he says he doesn't want is not a costly choice. The same answer (~5:54-6:07) says \"I'm starting to network more... and just be normal.\" That undercuts the present-tense thesis \"Speaking as himself, to a crowd or to one person, is the part of the job he keeps avoiding,\" said of a man who, by the draft's own account, gave three long video interviews in three weeks, one over two hours.",
+      "acceptance_test": "\"On awards, it does\" is replaced by a dated behavioral cost he actually accepted, with support showing it was costly, or rewritten to say the awards answer is weak evidence. \"I'm starting to network more\" is reported. The \"keeps avoiding\" thesis is dated or narrowed, for example to talking about his feelings, so the August 2026 press run doesn't contradict it."
+    },
+    {
+      "id": "critic-07",
+      "severity": "major",
+      "passage": "The record shows music did not absorb all of it.",
+      "problem": "Under the heading \"The temper,\" this sentence turns the legal record into evidence of his anger. Four paragraphs later the draft says \"no psychological conclusion should rest on them\" and that the record \"does not show why these incidents happened.\" Several listed incidents don't involve alleged anger at all. November 2025 was a drug-and-weapons booking his lawyers call profiling. In the May 2025 case, his lawyers say he was the victim of a burglary. The victim called the 2014 shooting an accident, and the 2022 charge was dropped. \"They do mean that a portrait of a man who never disturbs a room would be false\" draws a conclusion from allegations the draft calls unproven. The evidence record says no inference is built on them (C40-C42). This is an attractive causal story in a sensitive-allegations profile.",
+      "acceptance_test": "Neither the heading nor \"did not absorb all of it\" links the incidents to temper any longer. Only allegations of violence sit next to the anger self-reports, each with its disposition and denial. The possession/profiling case and the burglary-victim case are moved out of the temper frame or explicitly marked as not bearing on it. \"They do mean...\" is reconciled with \"no psychological conclusion should rest on them.\""
+    },
+    {
+      "id": "critic-08",
+      "severity": "major",
+      "passage": "She also said her \"abandonment issues\" make rejection hit her harder, and that \"half of the mess I end up in I'm solely responsible for.\"",
+      "problem": "The adverse witness is trimmed against herself. In HipHopDX (reopened), the next sentence is \"Doesn't make the disrespect feel good or valid,\" so the draft presents as a concession something she explicitly refused to treat as one. It also leaves out her closing demand (\"Headliners, protect your openers\"), and it turns her \"evil, racist and demonic fans\" into \"'evil' and 'racist' treatment,\" which is HipHopDX's paraphrase presented as her words. On Rod's side, \"He did not address her charge that he stayed silent\" implies he dodged. But the Breakfast Club transcript (~45:49-46:06) shows Charlamagne asked only whether, given the crowd, he would change the decision to book her; the silence charge never came up. Rod's answer blamed \"demographics\" and \"maybe that was like a management call\" and said \"I had a good experience.\" That bears on the blame question and is left out.",
+      "acceptance_test": "The Lennox passage either adds \"Doesn't make the disrespect feel good or valid\" or drops the self-blame fragment, and quotes her words about the fans as she wrote them. The Rod paragraph says what he was actually asked and includes or accurately summarizes his \"demographics\"/\"management call\" answer. \"Did not address her charge\" becomes \"was not asked about her charge\" or equivalent."
+    },
+    {
+      "id": "critic-09",
+      "severity": "major",
+      "passage": "His account and Lennox's agree about the distance, if not about its meaning.",
+      "problem": "The Lil Poppa quotation leaves out the reason Rod gives in the same sentence (Club Shay Shay ~103:43-104:05): \"it was the last lap tour when things were not going good... things were falling apart. So I was focused on fixing what were going on on the tour... I really didn't get to bond with him.\" He frames it as grief-driven self-reproach (\"maybe I weren't doing enough\"). The draft drops the reason and places the passage after \"Avoided conflict can land on other people.\" It then treats it as agreeing with Lennox's account, which is about a different tour (2023 Nostalgia) and has no comparable stated crisis. Putting a suicide in a run of paragraphs about what his avoidance costs other people implies a link that the evidence record (C63) says the draft must not suggest.",
+      "acceptance_test": "The passage includes his stated situational reason (the collapsing Last Lap tour). It is not paired with Lennox as corroboration unless the difference in tours is stated. It is moved out of, or clearly separated from, the \"costs to other people\" framing, so no reader could infer his distance had any bearing on the death."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "reason": "A specific, dated, reported detail that sets up the tension between feeling and speech without asserting a motive. The closing earns its payoff from it."
+    },
+    {
+      "passage": "None of that tells us his type. It is the ordinary explanation for a young man who keeps people at a distance, and any type argument has to beat it.",
+      "reason": "Puts the circumstantial alternative right beside the childhood evidence instead of turning biography into a wound story."
+    },
+    {
+      "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy.",
+      "reason": "Honest skepticism about retrospective self-narration, exactly where the anecdote would otherwise carry the thesis."
+    },
+    {
+      "passage": "The Nine reading has real trouble in three places, and none of them should be explained away with Enneagram vocabulary.",
+      "reason": "Refuses to use wings or arrows as an escape hatch. The fixes above should build on this section, not soften it."
+    },
+    {
+      "passage": "A plainer reading also holds: some people are better writers than talkers.",
+      "reason": "A one-line deflation that keeps the karaoke insight from overreaching; keep it next to the inference it limits."
+    }
+  ],
+  "assessment": "Structurally honest (circumstance baseline, retrospective caveat, a dedicated strains section, source limits stated up front), but the adverse evidence it confronts is trimmed in the thesis's favor at each decisive point. The 'ain't with blaming people' line is lifted from a passage blaming the promoters (blocker). The image quote stops before 'but it's a plus because that mysterious.' The breakup answer stops before 'somebody... ready before me to leave.' The adverse witness Lennox loses the sentence that rejects her own qualifier. The strains are left unexplained rather than tested against a control-centered alternative (Type 8), which the omitted lines 'I just wanted to be in control' and 'I'mma call all the shot' make pressing. Fixing these may change the strongest alternative; if the editor changes the type thesis, the standard's hold for --refresh --expanded-review applies. Verification: the Club Shay Shay and Breakfast Club auto transcripts were re-pulled 2026-09-17 (audio not reviewed; timestamps approximate); HipHopDX and HipHop-N-More were reopened; Billboard 2025 (S06) returned HTTP 402, so its routing quote rests on the packet excerpt. Similarity: the tripped Ibai-Llanos pair ('the Nine reading struggles'), the Victoria-Justice pairs ('insisting,' 'frame') and the Sudeikis/Abrams 'keep the peace' pairs are ordinary type vocabulary carrying different arguments. That is no meaningful reuse, though the generic Nine definition paragraph could sit in any Nine profile."
+}

@@ -4,6 +4,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import rehypeSlug from 'rehype-slug';
 import rehypeExtractHeadings from './src/lib/rehype-extract-headings.js';
+import rehypeInternalLinks from './src/lib/rehype-internal-links.js';
 import remarkAbbr from 'remark-abbr';
 import remarkGithub from 'remark-github';
 
@@ -31,7 +32,8 @@ const config = defineConfig({
 	],
 	rehypePlugins: [
 		rehypeSlug,
-		rehypeExtractHeadings // must run after rehype-slug to read assigned IDs
+		rehypeExtractHeadings, // must run after rehype-slug to read assigned IDs
+		rehypeInternalLinks // undo mdsvex's forced nofollow on absolute 9takes.com links
 		// Uncomment the following lines if you want to use rehypeAutolinkHeadings
 		// [
 		//   rehypeAutolinkHeadings,

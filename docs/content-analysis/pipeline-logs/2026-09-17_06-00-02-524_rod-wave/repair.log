@@ -1,0 +1,18 @@
+I've finished the repair stage for the Rod Wave profile. The three output files are written and pass the contract's own checks: the evidence validates as `ready` with 94 claims, the draft check shows no blockers at 4,477 words, and every one of the 48 reviewer findings plus the 10 verifier findings has a decision. Nothing else was touched: not the live draft, the inputs, or the database, and nothing was published.
+
+**What changed in the article**
+- **Grief passage (the blocker):** the edit had taken lines from Rod's answer about Lil Poppa's suicide and presented them as his current, "unprompted" way of thinking, calling them the strongest Type 4 evidence. The Type 4 section now says the lines came from a grieving look back at the tour collapse and includes the lesson he drew ("everybody going through something," "that situation really woke me up"). It counts the passage for neither type. No death is named. The Type 4 FAQ now uses a different quote, his Breakfast Club line that as a younger man he was "so dramatic."
+- **"Gone for nineteen months" was false.** He released "Sinners" in April 2025, founded Mainstay that year, and headlined a sold-out Tampa arena show on August 29, 2025. The article now dates all three. It reads the January 2025 post as one rebuke followed by about two months without new music, not a long exit.
+- **Criminal cases:** the article now says three adult cases alleged violence, not two. The May 2025 case is described neutrally (aggravated assault and pointing a gun), next to his lawyers' denial. "Neither alleges anger" is gone.
+- **Type 8 argument narrowed:** "never face to face" is withdrawn. The case against Type 8 now rests mainly on the pre-fame shyness, such as shaking his head at "Are you that Rod Wave guy?" at the Krispy Kreme drive-thru. The unproven violence allegations count neither way. Confidence stays medium.
+- **Countersuit:** what the article had quoted as the countersuit's own words about loading equipment was actually Billboard's summary, so it is no longer in quotation marks. The article now adds that the countersuit says the alleged $1.8M scheme failed because Rod rejected the clause.
+- **Minor fixes:** five quotations that had drifted from their sources were corrected, the Uncle Dee cause-of-death sentence is now dated to Revolt's 2024 report, two dates and one attribution were fixed, and the twins are now placed in the pandemic period.
+
+**Two things to know**
+- **The verifier wants more reviewers on the grief passage before release.** Its fix list says the reworked passage should go back to the full six-reviewer panel. This stage can't arrange that, so I flagged it in the resolution file. The run may hold on it even if re-verification passes.
+- **The article is long.** It's at 4,477 words against a 4,500 ceiling; I trimmed about 90 words to make room for the fixes. The verifier had docked writing for length, and getting to the 3,500 target would need a structural cut this repair shouldn't make.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/`:
+- `repair.md`
+- `evidence-repair.json`
+- `resolution-repair.json`

@@ -1,0 +1,21 @@
+Error: Reached max turns (60)Stage complete. All three output files written and validated against the v3 contract.
+
+## What I did
+
+Adjudicated all **48 findings** from the six-role jury (2 blockers, 34 major, 12 minor). All 48 recorded as **fixed** — not rubber-stamped; each one changed the text. All **20 protected passages** adjudicated: 17 kept verbatim, 3 changed with the contribution retained.
+
+**The two blockers:**
+- `subject-01` — the Lil Poppa passage. Three reviewers independently showed the quote was stripped of its stated context and placed under a sentence about what his avoidance costs other people, next to a link whose headline gives a cause of death. **Removed entirely** rather than repaired; a rewrite would have left the association in the reader's eye.
+- `critic-01` — "I just ain't with blaming people" was lifted out of a passage where he blames the promoters at length. The draft built a hypocrisy narrative on it. His public account actually *matches* his countersuit, so that contradiction is gone and the real strain is now stated honestly: he fights often, just never face to face.
+
+**The pattern worth knowing:** the draft stage produced a systematically slanted piece — three of its load-bearing quotations were cut at exactly the point where the rest of the sentence undercut the thesis (the image answer lost its "plus," the breakup answer lost its possessive baseline, the awards answer lost the evidence that it costs him nothing). That's a draft-stage quality signal, not a one-off.
+
+## Judgment calls you can veto
+
+1. **Type stays 9 at medium confidence** — but it was close. Two of the three original discriminators got demoted to corroboration, so I rebuilt the lead on something that actually survives: he corrects *toward* the ordinary every time (2020 → 2026), yet will fight to prove what he can *do*. Type 8 now gets its own tested section (reviewers were right that it was never tried); Type 4 stays the formal alternative because it covers more of the record.
+
+2. **Length: 4,437 words** — under the 4,500 gate, above the 2,000–3,500 target. Six reviewers demanding restored context (Uncle Dee's return and death, fatherhood, "Heart on Ice," the 2021 Alamo fight) outweighed the cuts I could make. I cut a full section and ~470 words to get here.
+
+3. **I couldn't check court dockets.** Rather than let "as of September 2026" stand on reporting that stops in November 2025, the text now names its own evidence base, and dated triggers plus research tasks carry the gap forward.
+
+Nothing published, no other files touched — `backlog-queue.json` was already dirty when I started.

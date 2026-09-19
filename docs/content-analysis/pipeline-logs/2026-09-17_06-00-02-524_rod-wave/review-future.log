@@ -1,0 +1,17 @@
+I wrote the five-year-test review for the Rod Wave draft to `docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/review-future.json`. It passes the pipeline's review schema, and the role and both hashes are copied from the request. I didn't change any other file or publish anything.
+
+**Risk flags:** sensitive allegations, contested typing and source uncertainty are all on. Major thesis change is off.
+
+**Findings (2 major, 4 minor):**
+1. **Major – the Type 9 case depends on this summer's interviews.** Two of the three points that separate Type 9 from Type 4 come only from interviews he gave in August 2026 to promote his new album: letting a wrong public image stand, and the breakup answer. Take those out, and what's left from 2018–2025 fits Type 4 almost as well. Yet the draft tells readers the older sources carry the most weight. The ending's claim that "what has held since at least 2020" includes leaving a wrong image alone, and the Type 4 FAQ gives only 2026 reasons without dates. None of those claims is set to be rechecked.
+2. **Major – undated legal status.** "None of these allegations is proven" has no date, and it covers two 2025 criminal cases in Atlanta's Fulton County that are still pending. A plea or conviction would make it false. The recheck notes on the tour lawsuit and criminal cases name no court, case number or date, so nobody could act on them.
+3. **Minor:** The sentence saying quotes were checked against YouTube's automatic transcripts, not the audio, becomes false once the audio check required before publishing is done.
+4. **Minor:** "He rarely gives interviews" is present tense and helps the type argument. Its only support is a 2021 newspaper line, and he has given plenty of interviews since.
+5. **Minor:** The FAQ "Has Rod Wave ever been to therapy?" reads as his current status but rests on one "Nah" from August 2026. Rewording it to "What has Rod Wave said about therapy?" would keep it true.
+6. **Minor:** Several phrases have no fixed date and will read wrong in a few years: "barely changed in six years," "now," "still," "today," plus the undated founding of his touring company, Mainstay, and its Ye shows at SoFi Stadium.
+
+**Protected passages (5):** the "man about to turn 28" caveat on his origin story, the dated pair of statements about depression, the "real test" sentence on relatability, the warning about how settled he sounds in August 2026, and the 2021 ending.
+
+**Similarity check:** The phrase matches with the Ibai Llanos and Victoria Justice profiles, and the shared "The case for Type 4" heading with Austin Abrams, are ordinary type wording over different arguments. I didn't report them as reuse.
+
+The opening and ending also assume that "Julius," the boy in the 2021 Tampa Bay Times scene, is the 15-year-old cancer patient the article mentions earlier. That's a reasonable reading but still an open research task, so I noted it in the assessment rather than as a finding.

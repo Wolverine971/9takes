@@ -85,7 +85,7 @@ The gift isn't perfectionism. It's _refinement_. A 1 who learns to direct their 
 <div style="overflow: hidden;">
 <MarqueeHorizontal
 displayList={[
-{name: 'understanding yourself 🧠', link: '/enneagram-corner/enneagram-types-overview'},
+{name: 'understanding yourself 🧠', link: '/enneagram-corner/enneagram-tldr'},
 {name: 'growth paths 🌱', link: '/enneagram-corner/enneagram-personal-growth'},
 {name: 'emotional patterns 💭', link: '/enneagram-corner/philosophy-psychology-and-the-enneagram'},
 {name: 'stress responses 😰', link: '/enneagram-corner/enneagram-types-in-stress'}

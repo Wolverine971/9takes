@@ -1,0 +1,20 @@
+{
+  "schema_version": 3,
+  "subject": "rod-wave",
+  "mode": "create",
+  "role": "unfamiliar",
+  "root": "/Users/djwayne/9takes",
+  "command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+  "standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+  "contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+  "inputs": {
+    "draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/draft.md",
+    "evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/evidence-draft.json",
+    "similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/similarity.json"
+  },
+  "outputs": {
+    "review-unfamiliar.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/review-unfamiliar.json"
+  },
+  "content_sha256": "f31865c94313f2ac624b75e8e2835a36380b29944f25e3723e25c73bcb656c80",
+  "evidence_sha256": "3ed37bc9e8fc56186f2811a8d626a80371a7f9b0be88b95235e60570874ede94"
+}

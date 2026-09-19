@@ -262,7 +262,7 @@ Something else burns off in those shoots, and she names it exactly. "I find it q
 
 Anger is the harder half. Fear she narrates, medicates and plans around; it is the subject of nearly every profile written about her. Aggression is the one she has no license for, because a Six who holds it becomes the thing in the room other people watch. Horror hands her a script that requires it and a crew that applauds when it lands. She goes home empty.
 
-Anxiety [shows up differently in every type](/enneagram-corner/anxiety-and-enneagram-types-guide), and the version that runs on doubt is worst in the waiting room. Weaving found a career that is almost never the waiting room: a call sheet, a scene, a mark, a job for every pair of hands. It is also why she will not produce. She tried it once. "It's not for me," she said. Owning all the variables is the exact shape of the thing that keeps her awake.
+Anxiety [shows up differently in every type](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide), and the version that runs on doubt is worst in the waiting room. Weaving found a career that is almost never the waiting room: a call sheet, a scene, a mark, a job for every pair of hands. It is also why she will not produce. She tried it once. "It's not for me," she said. Owning all the variables is the exact shape of the thing that keeps her awake.
 
 A film wrap is not a treatment plan, and she has never claimed otherwise. What she reports is narrower, and it carries a bill. "Being terrified for weeks on end is just exhausting," she told _Coveteur_. "Being exhausted is useful for the character, but it's not useful for me."
 

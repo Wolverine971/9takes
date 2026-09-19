@@ -870,7 +870,7 @@ Do this for 30 days. Document what changes. Then share your story on our [questi
 **[Share Your Anxiety Pattern →](/questions)**
 Connect with others who understand your specific struggle
 
-**[Download Your Type's Anxiety Toolkit →](/signup)**
+**[Download Your Type's Anxiety Toolkit →](/register)**
 Get your personalized anxiety management guide
 
 **[Work With a Type-Aware Therapist →](/book-session)**

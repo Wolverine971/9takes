@@ -1,0 +1,215 @@
+{
+  "target": {
+    "person": "rod-wave",
+    "type": "9",
+    "units": 9,
+    "file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/draft.md"
+  },
+  "comparison_set": [
+    {
+      "person": "austin-abrams",
+      "date": "2026-09-11",
+      "units": 9
+    },
+    {
+      "person": "Nate-Bargatze",
+      "date": "2026-09-06",
+      "units": 52
+    },
+    {
+      "person": "Victoria-Justice",
+      "date": "2026-08-19",
+      "units": 34
+    },
+    {
+      "person": "Ibai-Llanos",
+      "date": "2026-08-15",
+      "units": 39
+    },
+    {
+      "person": "caseoh",
+      "date": "2026-08-15",
+      "units": 32
+    },
+    {
+      "person": "penguinz0",
+      "date": "2026-08-01",
+      "units": 21
+    },
+    {
+      "person": "Jason-Sudeikis",
+      "date": "2026-07-30",
+      "units": 24
+    },
+    {
+      "person": "britney-spears",
+      "date": "2026-07-29",
+      "units": 32
+    }
+  ],
+  "n_requested": 8,
+  "noise_floor": {
+    "pairs_compared": 2187,
+    "median": 0,
+    "p90": 0,
+    "p99": 0.008,
+    "max": 0.08
+  },
+  "trip_threshold": 0.04,
+  "tripped": true,
+  "trip_pairs": [
+    {
+      "score": 0.069,
+      "other_person": "Ibai-Llanos",
+      "shared_phrases": [
+        "nine read",
+        "the nine read"
+      ],
+      "target": "[diagnosis] a lawsuit and a temper that the Nine reading struggles to explain.",
+      "other": "[counter-typing] What the Nine reading genuinely struggles with is his deliberate record-chasing escalation"
+    }
+  ],
+  "per_draft_max": [
+    {
+      "person": "Victoria-Justice",
+      "date": "2026-08-19",
+      "units": 34,
+      "maxScore": 0.08
+    },
+    {
+      "person": "Ibai-Llanos",
+      "date": "2026-08-15",
+      "units": 39,
+      "maxScore": 0.069
+    },
+    {
+      "person": "Nate-Bargatze",
+      "date": "2026-09-06",
+      "units": 52,
+      "maxScore": 0.031
+    },
+    {
+      "person": "Jason-Sudeikis",
+      "date": "2026-07-30",
+      "units": 24,
+      "maxScore": 0.03
+    },
+    {
+      "person": "austin-abrams",
+      "date": "2026-09-11",
+      "units": 9,
+      "maxScore": 0.025
+    },
+    {
+      "person": "caseoh",
+      "date": "2026-08-15",
+      "units": 32,
+      "maxScore": 0.024
+    },
+    {
+      "person": "britney-spears",
+      "date": "2026-07-29",
+      "units": 32,
+      "maxScore": 0.013
+    },
+    {
+      "person": "penguinz0",
+      "date": "2026-08-01",
+      "units": 21,
+      "maxScore": 0.003
+    }
+  ],
+  "top_pairs": [
+    {
+      "score": 0.08,
+      "other_person": "Victoria-Justice",
+      "shared_phrases": [],
+      "target": "[diagnosis] What they avoid is the friction of insisting on themselves.",
+      "other": "[diagnosis] found the weight of insisting on it faintly distasteful"
+    },
+    {
+      "score": 0.069,
+      "other_person": "Ibai-Llanos",
+      "shared_phrases": [
+        "nine read",
+        "the nine read"
+      ],
+      "target": "[diagnosis] a lawsuit and a temper that the Nine reading struggles to explain.",
+      "other": "[counter-typing] What the Nine reading genuinely struggles with is his deliberate record-chasing escalation"
+    },
+    {
+      "score": 0.031,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] he lets a public image he calls wrong stand",
+      "other": "[counter-typing] He calls himself \"very driven\" unprompted"
+    },
+    {
+      "score": 0.031,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] What they avoid is the friction of insisting on themselves.",
+      "other": "[diagnosis] It rarely points at what they want for themselves."
+    },
+    {
+      "score": 0.03,
+      "other_person": "Jason-Sudeikis",
+      "shared_phrases": [
+        "keep the peace"
+      ],
+      "target": "[diagnosis] A more useful description is someone who keeps the peace by turning down the volume on their own presence",
+      "other": "[diagnosis] a man whose deepest instinct is to keep the peace"
+    },
+    {
+      "score": 0.026,
+      "other_person": "Victoria-Justice",
+      "shared_phrases": [],
+      "target": "[diagnosis] His repeated move is to take himself out of the frame",
+      "other": "[counter-typing] ceding ground and receding from the frame."
+    },
+    {
+      "score": 0.025,
+      "other_person": "austin-abrams",
+      "shared_phrases": [
+        "keep the peace"
+      ],
+      "target": "[diagnosis] A more useful description is someone who keeps the peace by turning down the volume on their own presence",
+      "other": "[diagnosis] no source shows him giving up something he wanted to keep the peace."
+    },
+    {
+      "score": 0.024,
+      "other_person": "caseoh",
+      "shared_phrases": [],
+      "target": "[diagnosis] and puts feelings into songs instead of conversations.",
+      "other": "[diagnosis] but as long as I get to stream every day instead of go to work"
+    },
+    {
+      "score": 0.023,
+      "other_person": "caseoh",
+      "shared_phrases": [],
+      "target": "[diagnosis] and parts of his record fit neither type.",
+      "other": "[counter-typing] and doubt is exactly what's missing from his record."
+    },
+    {
+      "score": 0.022,
+      "other_person": "Jason-Sudeikis",
+      "shared_phrases": [],
+      "target": "[diagnosis] His repeated move is to take himself out of the frame",
+      "other": "[diagnosis] a man whose deepest instinct is to keep the peace"
+    },
+    {
+      "score": 0.02,
+      "other_person": "Nate-Bargatze",
+      "shared_phrases": [],
+      "target": "[diagnosis] What they avoid is the friction of insisting on themselves.",
+      "other": "[diagnosis] until asking them what they want returns a blank screen."
+    },
+    {
+      "score": 0.018,
+      "other_person": "Ibai-Llanos",
+      "shared_phrases": [],
+      "target": "[diagnosis] The evidence below suggests Rod guards something plainer",
+      "other": "[diagnosis] The evidence spans his conflict-free rise and a boxing empire complete with referees"
+    }
+  ]
+}

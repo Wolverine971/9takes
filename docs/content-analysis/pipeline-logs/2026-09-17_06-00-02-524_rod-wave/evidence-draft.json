@@ -1,0 +1,1300 @@
+{
+  "schema_version": 3,
+  "subject": "rod-wave",
+  "status": "ready",
+  "research_tasks": [
+    "Draft stage (2026-09-17) reopened S01-S03 (transcripts re-pulled), S05-S19 and S04's transcript, and matched every quotation in draft.md against retrieved text. Corrections: C28 now reflects that he concedes 'I done been heartbroke'; C15 reflects his '50/50 problem' framing before self-blame; C38 dates Ari Lennox's statement to 2024 per HipHopDX's 'Last year'; C22 uses 'Airbnb closet or airport lounge'; C63 (Lil Poppa, 'I never do that with people') and C60 (pre-fame shyness, Simmons) are new from reopened sources. Removed from the draft inventory: C06, C13, C16, C27, C31, C33, C48 (folded into C42), C49, C55, C57.",
+    "Confirm every quotation from S01, S02 and S03 against the audio before publication. The draft now tells readers these were checked against automatic transcripts, not audio. Priority runs: C28 ('I done been heartbroke' speaker attribution), C63 (Lil Poppa passage), C19, C20, C23, C37.",
+    "Get the disposition of the open legal matters before publication and at each update: both 2025 Fulton County cases (C42), the 2021 Fulton County misdemeanor battery (C41), and Grizzly Touring v. Green including the countersuit and the Beau Williams allegation (C34, C35, C36, C70).",
+    "Confirm from the Tampa Bay Times article structure or another source that Julius (parking-lot scene) is the 15-year-old cancer patient mentioned earlier in the piece (C66).",
+    "Find an exact date or primary copy for Ari Lennox's statement about the 2023 Nostalgia Tour (C38); HipHopDX places it in 2024 without a date.",
+    "Find any long-form source outside a promotional window: the 2018 Koncrete/Danny Jones interview (subtitles disabled; needs manual transcription), the Ebro Darden Apple Music interview, any 2022 or 2024 sit-down, and the 2025 documentary 'Don't Look Down: The Turtle Race Continues' (not viewed).",
+    "Seek independent testimony from someone who has known him outside the label and family orbit. The packet has one adverse named witness (Lennox) and no neutral long-acquaintance source, which keeps confidence at medium.",
+    "Resolve the first-performance discrepancy (Billboard: teammate's birthday party, 2015; Tampa Bay Times: Menage Lounge, August 2016). The draft attributes both. Do not repeat Billboard's 'Lakeview High School' error; the draft uses Lakewood.",
+    "If Dereck Lane's death is ever discussed, first establish whether any named official source has released a cause of death; none had as of 2026-09-17, and the draft does not discuss it."
+  ],
+  "accuracy_checked_at": "2026-09-17",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "url": "https://www.youtube.com/watch?v=6jKmwaSeY-o",
+      "title": "Rod Wave on Kanye West, Jay-Z Comparison, Boosie, Grammys, Money & New Album: Don't Look Down",
+      "speaker": "Rod Wave (Rodarius Green) in conversation with Shannon Sharpe; Club Shay Shay",
+      "date": "2026-08-26 (published; Sharpe says on-air it airs the day before Rod Wave's 28th birthday)",
+      "locator": "Full 2:13:02 episode, read via machine transcript. Key timestamps: 06:00-07:30 awards/validation and 'never been the center of attention'; 10:30 'under a rock for like five years'; 21:30-23:30 Uncle Derek; 24:30-26:30 Mainstay Touring and 'I just didn't want to be the pawn no more'; 28:30-35:30 Ye at SoFi; 47:50 'I start off by not trusting nobody'; 66:00-69:30 heartbreak; 81:00 football brotherhood; 93:30-96:00 father, stealing, temper; 98:30-99:00 'I can't really talk about that kind of stuff'; 101:00-108:00 Lil Poppa and Uncle Dee; 109:00 'I don't be looking for no sympathy'; 118:30-120:30 first performance and waiting in the car; 126:30-128:00 music industry; 131:30 'turtle race continue'. Added: 05:54-06:40 '50/50 problem'; 14:26 'over creative'; 29:01 SoFi Stadium; 101:45-103:30 Lil Poppa (auto transcript spells 'Lil Papa').",
+      "excerpt": "On awards: 'maybe I'm not interacting enough or maybe I'm not putting myself out there enough or networking enough... I ain't going to blame nobody... maybe I'm going take blame. Take responsibility for it.' On attention: 'I've never been the center of attention type of person in a normal setting or just when I was just even a kid like a birthday party. I ain't never want no birthday parties.' On visibility: 'I've been under a rock for like five years. I'm just not coming up out my shell.' On the first shows: 'I used to have to sit in the car because I was too young... because that ended up being like my formula to stardom to being a star. Like you never really get to see me.' On the failed tour: 'if it mess up, man, I'm going to be blaming myself... cuz I just ain't with blaming people and because at the end of the day I brought y'all in.' On feelings: 'I can't just talk about what made me feel away or how I feel. I can't really talk about that kind of stuff... once I turned to the music it was like I was venting and getting it all out and people probably heard stuff in songs like that they never heard me say in real life.' On breakups: 'I ain't never been in a situation to where it was like we didn't mutually agree to go our separate ways... if she ready to get up out of here, that's going to bring me up to speed.' Additional passages used in the draft: 'I don't know, dog. I ain't never been in that situation... I done been heartbroke, but I ain't Well, let me think back.' 'It might be a 50/50 problem to where like maybe I'm not interacting enough...' 'I don't be looking for no sympathy.' 'bro your temper you got to work on that.' On Lil Poppa: 'I never really was, you know what I'm saying, interacting with the people on tour... he pulled up on me. And, you know, I never do that with people.'",
+      "context": "The longest first-person Rod Wave interview available anywhere: a 2h13m sit-down released two days before his seventh album. It is a promotional appearance inside an album and tour rollout, and Sharpe is a friendly host, so the register is uniformly reflective and settled. Quotations here are reproduced from YouTube's machine-generated transcript, which is unpunctuated, occasionally garbles words ('feel away' for 'feel a way') and does not label speakers; attributions were made from surrounding turn structure and every quotation used was checked for a coherent single-speaker run. Exact wording should be confirmed against the audio before any quotation is printed. Draft stage 2026-09-17: transcript re-pulled with youtube-transcript-api; it contains '>>' speaker-change markers, which support the attributions used. Two corrections to the research reading: (1) on heartbreak he concedes 'I done been heartbroke' before saying every ending was mutual; (2) on awards he first calls it possibly 'a 50/50 problem' and says 'I'm not saying it ain't it's all my fault' before offering to take responsibility. Audio was not reviewed.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S02",
+      "url": "https://www.youtube.com/watch?v=PdHRAVarHm8",
+      "title": "Rod Wave Talks 'Don't Look Down,' Music Saving His Life, Film & Production, Kanye, Grief +More",
+      "speaker": "Rod Wave in conversation with Charlamagne Tha God; CThaGod / Breakfast Club, Power 105.1",
+      "date": "2026-08-10 (published)",
+      "locator": "Full 1:00:06 interview, read via machine transcript. Key timestamps: 06:30-08:30 misconception and refusing to correct his image; 08:30-09:30 'I'm Rod Wave once out of here'; 10:00-11:30 rejecting the word 'pain'; 13:30-15:30 built-up anger and music as the outlet; 20:00-23:00 sad vs depressed; 28:30-33:00 'I was so dramatic'; 38:00-38:40 'I was in last place'; 45:30-47:00 Ari Lennox; 51:00 therapy; 51:00-53:00 betrayal vs poverty; 53:30-54:00 still letting people in; 56:30-58:00 what peace looks like.",
+      "excerpt": "'I feel like I'm Rod Wave once out of here. And when it's time to drop an album, do a tour, then I'm back to normal living. And it really don't really hit me until it's time to drop albums or do tours or do press runs where I actually like remember who I am.' On his public image: 'I give them so little that they got to work with what they got... it's just not natural for me to push that on people or try to prove a point of who I am.' On the framing of his music: 'people always taking and saying pain like I'm still not even like that word... it's not pain, it's not sad, it's not — it's normal. It's reality.' Asked whether he has ever gone to therapy: 'Nah.' Asked 'Just straight music?': 'Straight music, man.' On betrayal: 'poverty is something like you born into... But betrayal is like a decision.' On peace: 'I'm in my big king bed... AC on 65... me and baby just kick back watching TV, laughing. That's when I be at real peace.' Additional passages used in the draft: 'the image that people got about me is totally different'; 'I wish people didn't you know what I'm saying take my image and run with it'; 'my hobby, my therapy'; asked '>> You've never been there.' he answers 'Yeah, been there.'; on Ari Lennox: 'There's some things I just don't got control over'; 'maybe that was like a management call'; 'I wish her experience would have been better.'",
+      "context": "A one-hour album-cycle interview eighteen days before the album release. Charlamagne pushes on emotional territory more than any other 2026 interviewer, including a direct question about therapy and a direct question about Ari Lennox. Same machine-transcript limitations as S01: unpunctuated, speaker-unlabelled, occasional garbling (a partner's name appears mangled and is therefore not quoted). Exact wording needs confirmation against the audio before printing. Draft stage 2026-09-17: transcript re-pulled and every quoted run matched; speaker-change markers present. The 'I'm Rod Wave once out of here' clause is garbled and ambiguous and is not quoted. Audio was not reviewed.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S03",
+      "url": "https://www.youtube.com/watch?v=91tx_ndYsfE",
+      "title": "Rod Wave: The Don't Look Down Interview | The Plug Radio",
+      "speaker": "Rod Wave, interviewed by The Plug Radio hosts; Apple Music",
+      "date": "2026-08-28 (published, album release day)",
+      "locator": "31:47 interview, read via machine transcript. Key timestamps: 01:30-02:30 '40% of talent'; 05:00-08:00 not chasing new fans; 11:00-11:30 listening back to his 19-year-old music; 12:30-14:00 the I Am / Toast bookend and the two-year album.",
+      "excerpt": "'I'm not trying to convince you to be my fan. I'm not trying to convince these people to like me. I'm not trying to change so that I can be cool for them.' 'I don't got to be the biggest in the world. I don't got to be the most famous... I want to be the best to my people.' 'I feel like I done got to a place where I'm cool, bro. I'm comfortable.' On his early catalogue: 'sometimes I listen to it and I'll be like, damn, I was a little dramatic.' On success: 'I feel like it's only like about 40% of talent. The rest is like grind, discipline, and structure.'",
+      "context": "The hosts note they have interviewed him repeatedly since roughly 2019, which makes this the only interview in the packet with an explicit longitudinal frame from the interviewer's side. Release-day promotional context. Machine transcript, same limitations as S01 and S02. Draft stage 2026-09-17: transcript re-pulled; '40% of talent' and 'Damn, I was a little dramatic' matched.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S04",
+      "url": "https://www.youtube.com/watch?v=jSxlRHuIaRQ",
+      "title": "Rod Wave On Coping With Father 6 Year State Prison Bid and Regrets Stealing From Innocent People",
+      "speaker": "Rod Wave, interviewed by DJ Smallz Eyes",
+      "date": "2018-08-29 (published)",
+      "locator": "29:21 interview, read via machine transcript. Key timestamps: 03:30-05:30 growing up in St. Petersburg; 06:30-09:00 father's six-year sentence and Uncle Derek stepping in then going to prison; 13:30-15:30 stealing to keep pressure off his mother; 17:30-22:00 the 2014 arrest and juvenile detention; 22:30-24:30 regret about the people he stole from.",
+      "excerpt": "He describes his early childhood as 'peaches and cream' while his father was making money, then the collapse after his father drew six years for charges he lists as including marijuana possession, attempted murder and tampering with a witness. He says he began breaking into cars and houses to keep financial pressure off his mother rather than out of any street ambition, and that his single deepest regret is 'stealing from innocent people': he describes driving past those houses years later and wanting to knock on the door and apologise.",
+      "context": "The only substantial long-form interview in the packet from before he was famous: he was 19 or 20, two months into his Alamo deal and more than a year before 'Heart on Ice' charted. It is therefore the single most valuable check on whether the 2026 self-presentation is a promotional register or a durable pattern. Serious limitation: the 2018 machine transcript is of much poorer quality than the 2026 ones, with heavy garbling and profanity masking, so it is reliable for the substance of what he says but NOT at the sentence level. No direct quotation should be taken from it without listening to the audio. Draft stage 2026-09-17: transcript re-pulled; the regret passage ('I regret stealing from innocent people... ride past houses... wanna go knock on door') is confirmed in substance at ~23:07-24:10. Not cited in the current draft after cuts; retained as the only pre-fame long-form control source.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S05",
+      "url": "https://www.billboard.com/music/features/rod-wave-billboard-number-ones-interview-1235545448/",
+      "title": "Rod Wave Talks Going 'From The Nosebleeds To The Franchise Player Of The Team With Three Rings'",
+      "speaker": "Carl Lamarre, Billboard, with Rod Wave, Todd Moscowitz (Alamo Records CEO), Matt Ziegler and Tariq Cherif (Rolling Loud), Beau Williams (touring manager)",
+      "date": "2023-12-08 (posted); print issue dated 2023-12-09",
+      "locator": "Full feature. Opening scene at Barclays Center, November 2023; biography section ('Rod Wave's first-ever performance...'); Alamo/Hit House section; Moscowitz and Rolling Loud quotes; fatherhood section; closing stadium/Grammy ambition.",
+      "excerpt": "Rod Wave: 'I went from the nosebleeds to the franchise player of the team with three rings.' On the staged fall from a ladder during 'Come See Me': 'That was from a dream I had... it's really to show people, Don't get up and do that when you can do this... Imagine [if] I would've [gone through with committing suicide]. I would've never made it to this part.' On fatherhood: '[Fatherhood] made me softer. Back then, I could just move and feel nothing. Now I feel like they made me a little weaker.' Todd Moscowitz: 'Rod pioneered this lane of struggle rap... He has half of the NFL in tears on Instagram when he drops a single'; 'His shows are like going to karaoke with 15,000 people.' 'Though Rod feared rejection, to his surprise, the video caught the attention of one of his football teammates.' Barclays: 'a sold-out audience of 12,000.'",
+      "context": "The only major reported magazine profile with on-the-record access to him and to his label, promoter and touring manager at once. Written at his commercial peak after three consecutive No. 1 albums. One verifiable factual error: it names his school 'Lakeview High School'; the Tampa Bay Times, his hometown paper, and Wikipedia both say Lakewood High School, and a 2017 Tampa Bay Times crime report places the pellet-gun lockdown at Lakewood High. It also dates his first-ever performance to a teammate's 2015 birthday party, which conflicts with the Tampa Bay Times account of an August 2016 first show. Beau Williams, quoted here approvingly as his touring manager, is the person his 2025 countersuit accuses of taking under-the-table payments.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.billboard.com/music/rb-hip-hop/rod-wave-interview-2025-sinners-touring-album-1236057705/",
+      "title": "Rod Wave Talks Launching Mainstay Touring, 'Sinners' & Upcoming Album: 'Taking It to Another Level'",
+      "speaker": "Michael Saponara, Billboard, interviewing Rod Wave",
+      "date": "2025-09-08 (posted); interview conducted after his 2025-08-29 Tampa show",
+      "locator": "Full Q&A. Intro paragraphs on the cancelled tour and Mainstay Touring; 'Why did you launch Mainstay Touring?'; 'How does it feel to be a star that operates in the mainstream...'; 'How far into the new album are you...'; the 'Sinners' origin answer; the Drake question.",
+      "excerpt": "'I built this s—t up from zero, going from gymnasiums to arenas. I can't just put that in somebody's hands who doesn't even give a f—k about it.' 'What even pushed me to want to be more hands-on with touring is just the fact that my last tour had to get taken down because of the routing.' 'I feel the fewer people with their hands in the pot, the better the show it could be.' 'I'm not like a superstar or a fairy tale. We are going through the same thing. We all got some sort of similarity.' 'I just kind of went and did it my own way... I just went with the flow. So I'm just way more comfortable. Whatever felt right, that's what I did.' On 'Sinners': 'at 4:00 a.m. I woke up out of my sleep and I got an app on my phone that I can record music to, so I just found the beat and I recorded it on my phone. I was dreaming.'",
+      "context": "Conducted in the artist lounge after a sold-out hometown Tampa show, eleven months after the Last Lap tour collapsed and three weeks before Grizzly Touring sued him. Grizzly's complaint explicitly cites this interview as evidence that he was publicly blaming the promoter and announcing a competing tour in breach of an exclusivity clause, which makes it both a primary account and an exhibit in the litigation.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text. Posted September 8, 2025; Grizzly sued on September 29, 2025.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S07",
+      "url": "https://www.complex.com/music/a/j-mckinney/rod-wave-interview",
+      "title": "Rod Wave Recorded Alone in Dark Rooms For a Month to Make 'Pray 4 Love'",
+      "speaker": "Jessica McKinney, Complex, interviewing Rod Wave (age 21)",
+      "date": "2020-04-03",
+      "locator": "Full Q&A, conducted by phone during the first COVID lockdown. Key answers: the no-features question; 'What was the creative atmosphere like...'; 'Why have you chosen to go that route...'; 'Does it come naturally to write down emotions...'; the TikTok question; 'What do you want fans to take away...'",
+      "excerpt": "'Making music for me is personal. When I do my music, I don't even go to the studio. It's just me and my engineer in a dark room somewhere, recording.' 'It really be personal for me... Music is a way of opening up. I don't really talk about it. I never thought I would be on the phone with you right now... I just wanted to make music, because it's how I get stuff off my chest. I want it to always feel like my escape.' 'I don't really discuss what I go through or how I feel. So by the time I sit down, it all comes up.' On 'Fuck the World': 'That's how I feel sometimes. I don't want to be around nobody, I just want to be alone.' 'Don't try to put me in the loop with the rappers... Don't look at me like a rapper, because I don't want to be treated like that.' 'If I feel like it was too personal, I ain't going to drop it.' 'The music is so personal that he decided not to rely on outside guest features.' 'I understand I'm a rapper, but I am a human. Just like you, I've got ups and down.'",
+      "context": "Six years before the 2026 interviews and at the very start of his mainstream success, with none of the mogul framing. The substance of the working method and the stated reason for it are almost identical to what he says in 2026, which is the strongest longitudinal corroboration in the packet. He also says here that he had no Instagram or Twitter before music and had not heard of TikTok while a song of his was going viral on it.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text.",
+      "kind": "primary",
+      "access": "opened"
+    },
+    {
+      "id": "S08",
+      "url": "https://web.archive.org/web/20240409055519/https://www.tampabay.com/life-culture/music/2021/09/22/how-rod-wave-made-it-from-st-petersburg-to-music-stardom/",
+      "title": "How Rod Wave made it from St. Petersburg to music stardom",
+      "speaker": "Christopher Spata, Tampa Bay Times, reporting; with named testimony from Timmy Jenkins, Meghan Alfaro, Brandon Boyd (DJ Nephew), Andrew Lieber (booking agent), Erik Hill-Cainion",
+      "date": "2021-09-22 (published); updated 2022-11-09; read via Internet Archive capture of 2024-04-09",
+      "locator": "Full feature. Backstage scene at MidFlorida Credit Union Amphitheatre, 2021-09-11; 'Thug Life' section on St. Petersburg; elementary chorus section; 'Pain' section on family; the 2014 arrest; Menage Lounge first show; Krispy Kreme; the closing scene with the child from the Children's Dream Fund.",
+      "excerpt": "'This is all a fragment of the human orbit around Rod, who often sings of social anxiety and a need for solitude, with a track called Popular Loner on a mixtape titled PTSD. He did not speak with the Tampa Bay Times and does not do many interviews.' Booking agent Andrew Lieber, on Rod wanting to play the 2,000-capacity Jannus Live for his hometown show: 'I had to tell him, Rod, I'm sorry, you're too big.' After the biggest show of his life, to a boy with cancer: 'Is there anything I could have done better up there tonight?' he asks. 'I don't really know what to say between the songs.' On his engineer: 'He's never seen Rod write down a lyric.' Timmy Jenkins, elementary chorus classmate: 'I could never forget those days. We were old souls. We loved older music.' 'Rod and Lakewood classmate Elijah Simmons, a budding producer, started recording songs, but Rod was shy and uncomfortable with sharing anything publicly.' '\"People are going to ride your wave,\" Simmons told him.' '\"We call it the choir,\" says DJ Fizzumfade.' 'Rod is here, having arrived quietly at the last minute.' The engineer 'travels everywhere in case Rod wants to record at 4 a.m. in an Airbnb closet or an airport lounge.'",
+      "context": "The deepest independently reported account of his childhood, built from local records and people who knew him before the music, by his hometown daily. Crucially, it is reported without his cooperation, which both limits it and makes it the only substantial account in the packet not shaped by him or his label. It establishes the father's six-year sentence, Uncle Dee's federal sentence and roughly ten-year absence, the death of Uncle Dee's daughter Daijha at 17, the 2014 arrest and PTSD assessment, the August 2016 Menage Lounge debut at 17 for 500 dollars, the Krispy Kreme job and the eviction, and the 2020 Corvette crash. The original is behind a Tampa Bay Times subscription wall; it was read in full through the Internet Archive capture. Draft stage 2026-09-17: the Internet Archive capture was re-fetched and all quoted passages matched. Correction: the engineer's locations are an Airbnb closet or airport lounge, not hotel rooms. The draft links the original tampabay.com URL for readers; this record keeps the archive URL that was opened.",
+      "kind": "testimony",
+      "access": "opened"
+    },
+    {
+      "id": "S09",
+      "url": "https://www.billboard.com/pro/rod-wave-last-lap-tour-lawsuit-promoter-sues-advance/",
+      "title": "Rod Wave Sued Over $27M 'Last Lap' Tour Advance, Allegedly Used It on 'Private Jets and Lavish Second Homes'",
+      "speaker": "Rachel Scharf, Billboard Pro, reporting on Grizzly Touring's federal complaint",
+      "date": "2025-10-01 (posted); complaint filed 2025-09-29",
+      "locator": "Full article. Allegations on the $57m advance and 26 completed shows; the production-scale allegation; the citation of the September Billboard interview; the attached 2025-09-18 letter from Rod's attorney David Rose.",
+      "excerpt": "'Grizzly allegedly advanced Rod $57 million to cover expenses like travel, lodging and production costs. But according to the lawsuit, Rod only completed 26 performances that earned $30 million against the guarantee, leaving $27 million in advances that he now won't repay.' From the complaint: 'Artist refuses to pay Grizzly a single penny of the more than $27 million he owes... and has instead chosen to spend his advance on private jets and lavish second homes.' 'Grizzly alleges that many Last Lap shows had to be canceled because Rod upped the scale of his tour production without warning, requiring more time to put up and take down his arena sets and making it impossible to play shows back-to-back as originally scheduled.'",
+      "context": "One side of an unresolved federal contract dispute, reported by Billboard's trade desk from the filing. These are allegations, not findings. The production-scale allegation is the only third-party account of why the tour broke, and it describes from the outside the same trait Rod describes from the inside when he says he is 'over creative' and calls every shot on his show.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text. Filing date confirmed: 'a Monday (Sept. 29) federal court lawsuit'. The production-scale sentence is Billboard's paraphrase of the complaint.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S10",
+      "url": "https://www.billboard.com/pro/rod-wave-countersues-tour-lawsuit-canceled-concerts/",
+      "title": "Rod Wave Countersues After $27M Tour Lawsuit: Promoter Is Trying to Force 'Indentured Servitude'",
+      "speaker": "Rachel Scharf, Billboard Pro, reporting on Rod Wave's counterclaims; quoting his lawyer James Sammataro and his representatives",
+      "date": "2025-10-13 (posted); counterclaims filed 2025-10-12",
+      "locator": "Full article. The 'indentured servitude' quote; the routing allegations; the '12 of the 35' figure; the Beau Williams bribery allegation; the representatives' statement of 2025-10-13.",
+      "excerpt": "From the countersuit: 'Rod Wave frequently learned only at the last minute that a show had been rescheduled, often only after seeing tickets for these rescheduled shows available online. Only 12 of the 35 scheduled [shows] occurred at the date and venue originally announced.' 'Rod says AG gave Williams at least $1.8 million in under-the-table payments so that the agent would underhandedly sneak a five-tour exclusivity clause into the Last Lap tour contract.' His representatives: 'Grizzly Touring has no one to blame but itself.'",
+      "context": "The other side of the same unresolved dispute, again allegations rather than findings. Its importance to a personality reading is that it is the sharpest public act of blame in his record and it is aimed partly at his own former agent, six weeks after he told Billboard the tour was his to protect and a month before he told Shannon Sharpe he does not blame people.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text. Filing date confirmed: 'counterclaims filed Sunday (Oct. 12)'. 'Indentured servitude' is lawyer James Sammataro's description of the relief Grizzly sought.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S11",
+      "url": "https://hiphopdx.com/news/rod-wave-steps-back-music-bashed-by-fans/",
+      "title": "Rod Wave Steps Back From Music After Being 'Bashed' By Fans: 'I Don't FW You'",
+      "speaker": "Marisa Mendez, HipHopDX; quoting Rod Wave's Instagram post and Ari Lennox's Instagram Story",
+      "date": "2025-01-31",
+      "locator": "Full article. The 2025-01-28 Nashville cancellation; the hiatus post; the Ari Lennox statements about the 2023 Nostalgia Tour.",
+      "excerpt": "Rod Wave: 'To the rest of yall drag my name talk about me like a dog constantly speaking on me bashing me and what make me happy I dont fw you to the real fans that love me thank you this ain't goodbye it's simply see u later.' He also said he planned to 'travel, see the world, find love, raise kids, prolly go back to school.' Ari Lennox: 'Maybe I could've gotten over some of Rod Wave's evil, racist and demonic fans, but what made it even worse is Rod saying nothing in my defense. Privately or publicly.' Lennox also wrote: 'The only reason we met was because we ran into each in a Hotel Lobby after constant efforts of me trying to share my gratefulness for the opportunity.' And: 'I'm also aware that half of the mess I end up in I'm solely responsible for.'",
+      "context": "Covers the collapse of the Last Lap tour from the fan-facing side on the day it happened. Ari Lennox's statement is a named, first-person allegation from a collaborator about his conduct, and it is the only such account in the packet; she also states her own context, that she has 'abandonment issues' and takes rejection hard, and that half of what she ends up in is her own responsibility. Note the outlet is a hip-hop trade site, not a paper of record; the underlying material is her own public post. Draft stage 2026-09-17 correction: the article introduces Lennox's statement with 'Last year', so her statement dates to 2024, not January 2025. The bottle detail is HipHopDX's description of her 2023 Nostalgia Tour experience.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S12",
+      "url": "https://www.rollingstone.com/music/music-news/rod-wave-choked-ex-domestic-battery-charge-1352058/",
+      "title": "'Heart on Ice' Rapper Rod Wave Choked Ex-Girlfriend, Arrest Record Shows",
+      "speaker": "Tomas Mier, Rolling Stone, reporting on an arrest affidavit obtained by the Tampa Bay Times; with an update quoting attorney Bradford Cohen",
+      "date": "2022-05 (original); updated 2022-05-19 with the dismissal",
+      "locator": "Full article including the 5/19 update paragraph at the top.",
+      "excerpt": "'UPDATE (5/19): An attorney for Rod Wave tells Rolling Stone that the charges against the rapper have been dismissed and that Osceola County Attorney's Office will no longer be pursuing charges. This case was a misunderstanding between a girlfriend and boyfriend, Bradford Cohen tells Rolling Stone.' The original report: he faced a felony charge of domestic battery by strangulation, pleaded not guilty, was arrested during a traffic stop in St. Petersburg and released on $5,000 bail on May 3.",
+      "context": "A sensitive allegation that was never tested: the charge was filed, he pleaded not guilty, and the state dropped it within weeks. The underlying affidavit account came from his hometown paper. Any use must carry the disposition and his denial in the same breath, and no psychological inference should be built on an untested allegation.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S13",
+      "url": "https://www.latimes.com/entertainment-arts/music/story/2025-05-21/rod-wave-arrested-atlanta-gun-charges",
+      "title": "Rod Wave is arrested in Atlanta. His lawyers say he was in fact 'a victim of a burglary'",
+      "speaker": "Alexandra Del Rosario, Los Angeles Times; quoting attorneys Drew Findling and Marissa Goldberg",
+      "date": "2025-05-21",
+      "locator": "Full article. Charge list and bond; the September 2021 Fulton County battery booking traced to an October 2020 offense; the attorneys' statement.",
+      "excerpt": "'He faces 14 charges stemming from an April 21 incident. Green was booked on two counts of reckless conduct, aggravated and simple assault, pointing or aiming a gun or pistol at another and two felony charges of tampering with evidence, among other counts.' Attorneys Drew Findling and Marissa Goldberg: 'There is no truth to these charges. Rod Green was a victim of a burglary and committed no crimes. How he was even charged as a result of this situation is incomprehensible.' The paper also notes: 'In September 2021, Green was booked in Fulton County on a battery charge that can be traced to an alleged October 2020 offense.'",
+      "context": "A paper-of-record account built from jail records the reporter reviewed directly, with the denial included. The September 2021 battery booking independently corroborates the Tampa Bay Times account of him turning himself in over an incident with a promoter after a stage collapse. The narrative detail of the April 2025 incident in the article is sourced to TMZ and should not be treated as established.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S14",
+      "url": "https://www.rollingstone.com/music/music-news/rod-wave-arrested-drugs-weapons-charges-grammys-1235462608/",
+      "title": "Rod Wave Arrested on Drug and Weapons Charges on Same Day as First Grammy Nom",
+      "speaker": "Jon Blistein, Rolling Stone; quoting attorneys Drew Findling, Marissa Goldberg and Zack Findling",
+      "date": "2025-11 (published within days of the 2025-11-07 arrest)",
+      "locator": "Full article. Fulton County booking details; $8,000 bond and release on 2025-11-08; the lawyers' statement; the Grammy nomination for 'Sinners'.",
+      "excerpt": "'Green was notably arrested the same day he earned his first Grammy nomination. He was nominated in Best Song Written for Visual Media for Sinners.' His lawyers said he was 'unjustly profiled and unlawfully arrested' by an officer they said was part of the Atlanta Police Department's 'controversial Crime Suppression Unit.'",
+      "context": "Establishes both the first Grammy nomination of his career and the arrest that landed on the same day. Charges are unresolved and denied. The lawyers' profiling claim is an assertion by counsel, not a finding.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text. Arrest date confirmed as Friday, Nov. 7, 2025; article dated November 10, 2025.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S15",
+      "url": "https://www.billboard.com/music/chart-beat/rod-wave-dont-look-down-number-one-billboard-200-chart-1236335185/",
+      "title": "Rod Wave Achieves Fourth No. 1 Album on Billboard 200 With 'Don't Look Down'",
+      "speaker": "Keith Caulfield, Billboard",
+      "date": "2026-09-06",
+      "locator": "Full chart-beat item. First-week units and composition; the eight-consecutive-top-10 statement; the preceding singles.",
+      "excerpt": "'Don't Look Down debuts atop the list dated Sept. 12. The set earned 99,000 equivalent album units in the United States in its first week, ending Sept. 3, according to Luminate, largely driven by streaming activity.' 'Of Don't Look Down's 99,000 first-week equivalent album units, SEA units comprise 90,000 (equaling 95.07 million on-demand official streams...), album sales comprise 9,000... and TEA units comprise a negligible sum.' 'Don't Look Down marks the singer-rapper's eighth top 10-charted project on the Billboard 200, comprising the entirety of his charted titles.'",
+      "context": "Billboard's own chart desk, the authoritative source for these figures. The streaming-to-sales ratio is the quantitative form of the thing the profile is about: a 90-to-9 split is an artist whose relationship with his audience runs almost entirely through private listening rather than through any public apparatus.  Draft stage 2026-09-17: reopened and quoted passages matched against retrieved text.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S16",
+      "url": "https://en.wikipedia.org/wiki/Rod_Wave",
+      "title": "Rod Wave (Wikipedia article)",
+      "speaker": "Wikipedia contributors",
+      "date": "accessed 2026-09-17",
+      "locator": "Lead; Early life; Career sections 2015-2020 through 2026-present; Artistry; Legal issues 2014-2016, 2022, 2024, 2025; Personal life; Filmography; reference list.",
+      "excerpt": "Gives his birth as Rodarius Marcell Green, August 27, 1998, St. Petersburg. Records the 2014 arrest and the counselor's PTSD assessment, the January 2017 pellet-gun school lockdown and misdemeanor probation, the 2022 domestic battery charge and its Nolle Pross disposition, the April 2024 Manatee County weapons arrest and his release 'as it was determined that information provided regarding him being a convicted felon was inaccurate,' the May 2025 Fulton County charges, the Grizzly Touring suit, the November 2025 arrest, and a December 2025 copyright suit by photographer Allan Salas over the Last Lap cover. Filmography lists 'Don't Look Down: The Turtle Race Continues (2025; as himself).'",
+      "context": "Used only as a lead and a cross-checking index, never as authority. Every fact taken from it here is separately sourced to S05, S08, S09-S15 or S18. Two things in it were checked and matter: the 2024 Manatee County arrest and release, and the existence of the 2025 documentary, neither of which has a stronger source in this packet yet. Draft stage 2026-09-17: reopened; used for birth date, studio-album count and documentary title only.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S17",
+      "url": "https://www.dancehallmag.com/2026/08/29/features/interviews/rod-wave-promoted-the-biggest-hip-hop-show-in-us-history-and-is-launching-a-sports-agency.html",
+      "title": "Rod Wave Promoted the Biggest Hip-Hop Show in US History and Is Launching a Sports Agency",
+      "speaker": "DancehallMag, quoting Rod Wave",
+      "date": "2026-08-29",
+      "locator": "Full article. Mainstay and the SoFi show; the eight months of study; the divisions; the sports agency launch date; the film partnership; the album bookend; the closing quote.",
+      "excerpt": "'I believe if I'm not mistaken, it was the biggest hip-hop show ever, saleswise,' he said. 'I didn't want other people to say maybe that only worked for you... So it was kind of like, okay, let me show these people what I can do. And now no matter what you do, you cannot take that from me.' 'Rod Wave spent roughly eight months studying the inner workings of every part of the business he was already in... before formalizing the structure.' 'I just want to make my fans happy... I'm not trying to convince you to be my fan.'",
+      "context": "A short trade write-up of the same rollout, useful mainly for the business structure and for his own hedged phrasing about the SoFi record ('I believe if I'm not mistaken'), which is the version that should be reported rather than the flat claim. Not an independent verification of the gross figures. Draft stage 2026-09-17: reopened. The 'I didn't want other people to say maybe that only worked for you' quote matched. The hedged 'if I'm not mistaken' SoFi phrasing was not found in this article on reopen; the draft uses no SoFi superlative.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S18",
+      "url": "https://hiphop-n-more.com/2021/02/rod-wave-calls-out-his-label-alamo-records/",
+      "title": "Rod Wave Calls Out His Label Alamo Records",
+      "speaker": "HipHop-N-More, quoting Rod Wave's Instagram Stories",
+      "date": "2021-02 (reporting posts made 2021-01-31 or the night before)",
+      "locator": "Full item, including the quoted Instagram Story text and the note that the album had been announced in December as 'Hard Times'.",
+      "excerpt": "'P*ssy a*s label playing wit a n*gga shit I ain't [dropping] shit f*ck ya pay me,' he first wrote, followed by another post blaming the album delay on Alamo. The item notes the album had been announced in December 2020 and did not arrive, and that 'Rags2Riches' had just hit No. 1 on Urban radio that week.",
+      "context": "The clearest documented instance of him expressing anger at a business partner in public. The form matters: an Instagram Story and a withholding of work rather than a direct confrontation, followed within weeks by a public post saying the matter was resolved and 'everything cool,' and by continued partnership with Alamo through at least 2026. A blog-tier source quoting his own posts; the underlying posts are no longer live and were not independently viewed. Draft stage 2026-09-17: reopened. The item quotes the Instagram Story but does not contain the later 'resolved'/'everything cool' post. Not used in the draft.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S19",
+      "url": "https://www.nbcnews.com/pop-culture/pop-culture-news/florida-rapper-lil-poppa-dies-25-rcna259758",
+      "title": "Florida rapper Lil Poppa dies by suicide at 25",
+      "speaker": "Minyvonne Burke and Meriam Bouarrouj, NBC News, citing the Fulton County Medical Examiner's Office",
+      "date": "2026-02-19 (updated same day)",
+      "locator": "Full article. Medical examiner's confirmation; biography; the Collective Music Group signing.",
+      "excerpt": "'The Fulton County Medical Examiner's Office confirmed the rapper's death in a statement to NBC News. The cause of death was ruled a gunshot wound to the head and the manner of death was ruled a suicide.' Lil Poppa, real name Janarious Wheeler, was 25.",
+      "context": "Independently confirms, from a named official source, the death Rod Wave discusses at length on Club Shay Shay. Lil Poppa was a support act on the Last Lap Tour. Handle under standard reporting guidance on suicide: the fact is confirmed and relevant to what Rod says about checking on people, but method detail should not be reproduced. Draft stage 2026-09-17: reopened. The article does not mention Rod Wave or the Last Lap tour; that connection comes from S01. The draft states only the month of death, with no cause or method.",
+      "kind": "secondary",
+      "access": "opened"
+    },
+    {
+      "id": "S20",
+      "url": "https://www.revolt.tv/article/rod-wave-confirms-the-death-of-his-manager-uncle-dee",
+      "title": "Rod Wave confirms the death of his manager Uncle Dee",
+      "speaker": "Revolt / Rap-Up, quoting Rod Wave's Instagram Stories and Uncle Dee's own remarks to the 'Big Facts' podcast",
+      "date": "2024-07-03",
+      "locator": "Full article. The Instagram tribute; the note that no cause of death had been revealed; Dee's own quotes about federal prison and moving Rod to Atlanta.",
+      "excerpt": "'At the time of reporting, a cause of death has yet to be revealed.' Rod Wave's tribute: 'I love [you] so much, Pop... [I swear] when I was a kid, I thought [you] was bigger [than the] president.' And: 'F**k rap, n**ga. I [remember you] taking me to school, n**ga, picking me up. N**ga, f**k rap, I [remember everything you] taught me.' Uncle Dee, to the 'Big Facts' podcast: 'I raised [Rod Wave] when he was little kid, man. I was already in the music business, but I went to federal prison... I moved him to Atlanta, up here. I got him out of the way because he was in school, really.'",
+      "context": "Establishes the date of Dereck Lane's death and, importantly, that no cause of death was publicly released. The only public characterisation of how he died comes from Rod Wave's own remarks on Club Shay Shay, where he links it to Lil Poppa's death and says he long refused to believe it. That is reportable as his testimony about his own grief and nothing more; no cause of death should be stated. Not used in the draft. Rod's Club Shay Shay remarks about Lane were cut because they could imply a cause of death that no official source has released.",
+      "kind": "secondary",
+      "access": "opened"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "claim": "Rod Wave was born Rodarius Marcell Green on August 27, 1998, in St. Petersburg, Florida.",
+      "passage": "Rodarius Marcell Green was born on August 27, 1998, in St. Petersburg, Florida.",
+      "class": "third_party",
+      "source_ids": [
+        "S16",
+        "S01",
+        "S05",
+        "S08"
+      ],
+      "inference": "Wikipedia gives the full date; Shannon Sharpe says on air that the August 26, 2026 episode airs the day before Rod Wave's 28th birthday, which independently fixes August 27 and the 1998 year. Billboard (25 in November 2023) and the Tampa Bay Times (Rodarius Green, St. Petersburg) agree on name, year and city.",
+      "alternative": "If a primary birth record contradicts the day, fall back to 'born in August 1998'. Never convert to January 1.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C02",
+      "claim": "His father, Rodney 'Fatz' Green, was sentenced to six years in state prison just before Rod reached middle school.",
+      "passage": "Just before he started middle school, his father, Rodney \"Fatz\" Green, was sentenced to six years in state prison.",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S04"
+      ],
+      "inference": "Reopened 2026-09-17: the Tampa Bay Times states 'just before middle school, Rod's father was sentenced to six years in state prison for gun charges and witness intimidation.' Rod independently gives the six-year figure in the 2018 DJ Smallz Eyes interview. The draft omits the charge list, which rests partly on a teenager's recollection.",
+      "alternative": "Court records were not checked. The draft keeps to duration and timing, which two independent accounts share.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C03",
+      "claim": "Dereck 'Uncle Dee' Lane, a close friend of his father's, became the central male presence in his life and a year later went to federal prison.",
+      "passage": "Dereck \"Uncle Dee\" Lane, a close friend of his father's, stepped in as the central man in his life, then went to federal prison himself a year later.",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S20"
+      ],
+      "inference": "Tampa Bay Times: Lane 'stepped in as the central male presence in his life. A year later, Lane went to federal prison.' Lane himself told the Big Facts podcast (relayed by Revolt) that he raised Rod and went to federal prison. The draft deliberately omits the sentence length, where Rod (fourteen years) and the Times (came home after ten) disagree.",
+      "alternative": "Lane's own 'I raised him' is a self-description; the draft uses the Times's more modest 'central man' framing. Omitting the length avoids choosing between inconsistent accounts.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C04",
+      "claim": "Lane's daughter Daijha, who was close to Rod, died of cancer at 17 when he was 14, and he wrote about it in a lyric.",
+      "passage": "Lane's daughter Daijha, who was close to Rod, died of cancer at 17 when he was 14. He later wrote, \"I lost Daijha to cancer, I just got over it. I'm scared to love, so scared to get close again.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Reopened 2026-09-17: the Times reports 'She died from cancer at age 17, when Rod was 14' and prints the lyric verbatim from 'Pain.' The lyric corroborates the relationship and the fear of closeness he connects to it.",
+      "alternative": "Single reported source for the ages. A lyric is artistic self-presentation, not testimony about motive, so the draft uses it only as what he wrote.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C05",
+      "claim": "In 2014, at 15, he was arrested after a break-in; police said he admitted taking a .357 revolver and shooting another teen in the foot; the charge was dropped after the victim called it an accident; a detention-center counselor told him he had PTSD.",
+      "passage": "In 2014, at 15, he was arrested after a break-in. Police said he admitted taking a .357 revolver from the house and shooting another teen in the foot, and the charge was dropped after the victim called it an accident. A counselor at the juvenile detention center told him he had post-traumatic stress disorder, a remark made to a teenager in custody rather than a diagnosis of record.",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S16"
+      ],
+      "inference": "Reopened 2026-09-17 and matched to the Times text ('police said he admitted to taking a .357 revolver from the house and using it to shoot another teen in the foot'; 'the shooting charge was dropped. The victim called it an accident'; 'a counselor told him he had post-traumatic stress disorder'). The draft labels the PTSD remark exactly as what it was.",
+      "alternative": "Juvenile case facts come from police statements relayed by one paper. The PTSD remark carries no weight in the type argument and is not used as evidence for it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C07",
+      "claim": "The Tampa Bay Times dates his first show to a school night in August 2016 at the Menage Lounge in Clearwater, at 17; Billboard dates his first performance of any kind to a teammate's 2015 birthday party.",
+      "passage": "The Tampa Bay Times dates his first show to a school night in August 2016, at a Clearwater strip club called the Menage Lounge, when he was 17. (Billboard dates his first performance of any kind to a teammate's birthday party in 2015.)",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S05"
+      ],
+      "inference": "Both reopened 2026-09-17. Times: 'His first show was on a school night in August 2016 at a strip club in Clearwater called the Menage Lounge... He was 17.' Billboard: 'Rod Wave's first-ever performance was at a high school football teammate's birthday party in 2015.' The draft attributes each version instead of choosing.",
+      "alternative": "The accounts are reconcilable as first club show versus first performance of any kind, but that reconciliation is an inference and the draft does not assert it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C08",
+      "claim": "Because he was too young to be inside the clubs that booked him, he waited in the car, performed and left; he says that became his 'formula to stardom... you never really get to see me.'",
+      "passage": "At the clubs that booked him then, he was too young to wait inside. He told Shannon Sharpe on Club Shay Shay in August 2026 that he sat in the car until it was time to rap, walked in, performed and left. Then he connected that rule to his career. \"That ended up being like my formula to stardom to being a star,\" he said. \"Like you never really get to see me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript 2026-09-17 at ~120:23: 'I was too young. So I used to have to... sitting in the car until it's time for me to get on the mic coming in performing and leaving... Because that ended up being like my formula to stardom to being a star. Like you never really get to see me.' He says this applied to strip clubs and parties generally, so the draft does not tie it to the Menage Lounge specifically.",
+      "alternative": "Retrospective interpretation at 27 of a constraint at 17; the draft labels it as his reading of his own history in the next paragraph. Checked against the auto transcript, not audio.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C09",
+      "claim": "After graduation, working at Krispy Kreme, he denied being Rod Wave to a drive-thru customer who recognized him.",
+      "passage": "The Tampa Bay Times reported an early instance: after graduation, when he worked at Krispy Kreme, a drive-thru customer asked, \"Are you that Rod Wave guy?\" He smiled and shook his head no.",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Reopened 2026-09-17: 'He got a job at Krispy Kreme. A drive-thru customer asked, \"Are you that Rod Wave guy?\" He smiled and shook his head no.'",
+      "alternative": "A small single-source moment; a teenager on the clock has ordinary reasons to deny it. The draft places it after an explicit caveat about retrospective narration and draws no separate inference from it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C10",
+      "claim": "After Alamo Records signed him in early 2018, he played more than 100 shows, mostly small Florida clubs.",
+      "passage": "after Alamo signed him in 2018 he played more than 100 shows, mostly at small Florida clubs",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Times: 'In early 2018, the startup Alamo Records took a chance on signing him. He dropped Hunger Games 2 and 3 and began a relentless campaign of more than 100 shows, mostly at small clubs around Florida.'",
+      "alternative": "Single reported source for the show count.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C11",
+      "claim": "Don't Look Down is his fourth No. 1 album on the Billboard 200 and, as of September 2026, his eighth top-10 project, comprising every title he has charted.",
+      "passage": "_Don't Look Down_ is his fourth No. 1 album on the Billboard 200 and, as of September 2026, his eighth top-10 project, every title he has charted",
+      "class": "third_party",
+      "source_ids": [
+        "S15"
+      ],
+      "inference": "Billboard chart desk, September 6, 2026: 'Don't Look Down marks the singer-rapper's eighth top 10-charted project on the Billboard 200, comprising the entirety of his charted titles.'",
+      "alternative": "Chart records expire; the draft dates the claim.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck after his next charting project; the 'every title he has charted' clause fails if any later project misses the top 10."
+    },
+    {
+      "id": "C12",
+      "claim": "Don't Look Down arrived nineteen months after the hiatus announcement and debuted at No. 1 with 99,000 equivalent album units.",
+      "passage": "His next album, _Don't Look Down_, arrived nineteen months later and debuted at No. 1 with 99,000 equivalent album units.",
+      "class": "third_party",
+      "source_ids": [
+        "S15",
+        "S11"
+      ],
+      "inference": "Billboard: 'Rod Wave earns his fourth No. 1 album on the Billboard 200 chart as Don't Look Down debuts atop the list dated Sept. 12. The set earned 99,000 equivalent album units.' Nineteen months runs from the January 2025 hiatus post (S11) to the August 28, 2026 release. The fourth-No.-1 fact appears in the earlier awards paragraph.",
+      "alternative": "He performed live before the album (a sold-out Tampa show in August 2025, S06), so the draft says the album arrived nineteen months later rather than that he returned then.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck the 'fourth No. 1' count and first-week figures if a later project tops the chart."
+    },
+    {
+      "id": "C14",
+      "claim": "He says he has been 'under a rock for like five years' and not coming out of his shell, as an explanation for industry non-recognition.",
+      "passage": "Later: \"I've been under a rock for like five years. I'm just not coming up out my shell.\" And: \"Take responsibility for it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript ~10:52: 'I've been under a rock for like five years. I'm just not coming up out my shell... maybe I'm going just take take blame. Take responsibility for it.' The stutter 'take take' is not quoted; only 'Take responsibility for it.'",
+      "alternative": "He toured and released albums throughout; he means non-participation in industry social life, not literal absence.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C15",
+      "claim": "Offered the grievance about never winning a BET Award or Grammy, he split the blame and then took more of it himself.",
+      "passage": "When Sharpe raised a viral fan complaint that he had never won a BET Award or a Grammy, Rod split the blame, then took more of it. \"It might be a 50/50 problem,\" he said, \"to where like maybe I'm not interacting enough or maybe I'm not putting myself out there enough or networking enough.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript ~5:54-6:40. Correction to the research packet: he does not simply assign fault to himself; he first says 'a lot of it may not be... somebody else's fault... it might be a 50/50 problem,' and later says 'I'm not saying it ain't it's all my fault' before offering to take responsibility. The draft reports the split. The 'never won' premise is a fan's, relayed by Sharpe, and is attributed that way.",
+      "alternative": "Media discipline would also counsel against complaining about awards. He goes somewhat further than discipline requires by naming his own non-participation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C17",
+      "claim": "He says he has never wanted to be the center of attention, even as a child at birthday parties, and does not know whether that is ego or confidence.",
+      "passage": "He calls it lifelong temperament. \"I've never been the center of attention type of person,\" he said, recalling that even as a kid, \"I ain't never want no birthday parties.\" He was unsure whether that was \"a ego thing or if it's a confident thing.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript ~7:22: 'I've never been the center of attention type of person in a normal setting or just when I was just even a kid like a birthday party. I ain't never want no birthday parties... I don't know if it's a ego thing or if it's a confident thing.' His uncertainty about the cause argues against a rehearsed line.",
+      "alternative": "Uncorroborated childhood self-report in a promotional interview; no family member confirms it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C18",
+      "claim": "He describes being Rod Wave as a part-time role: roughly 300 days on business and ordinary life, 65 on 'straight rock and roll', with releases and tours being when he 'remember[s] who I am.'",
+      "passage": "He even treats the public figure as a part-time role. Roughly 300 days a year go to business and ordinary life, he said, and 65 to \"straight rock and roll.\" Album releases, tours and press runs are when \"I remember who I am.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Re-pulled transcript ~8:59-9:40: 'it really don't really hit me until it's time to drop albums or do tours or do press runs where I actually like remember who where I remember who I am... That's what I'm doing like 300 days out of year... And the other 65 is like straight rock and roll.' The garbled opening clause ('I'm Rodwave once out of here') is ambiguous and not quoted.",
+      "alternative": "The 300/65 split is rhetorical arithmetic, and a man mid-business-expansion has reason to cast music as part-time.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C19",
+      "claim": "He says the public image of him is 'totally different' from who he is, that it is not natural for him to correct it, and that he wishes people did not run with it.",
+      "passage": "Asked by Charlamagne about the biggest misconception about him, Rod said the image people have of him \"is totally different,\" then declined to do anything about it. \"It's just not natural for me to push that on people or try to prove a point of who I am,\" he said. \"I just don't ever feel the need to do that when I wake up in the morning.\" It costs him something, he admitted: \"I wish people didn't ... take my image and run with it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Re-pulled transcript: Charlamagne asks 'What's the biggest misconception you think people have about you?' (~6:36); Rod: 'the image that people got about me is totally different than' and 'it's just not natural for me to push that on people or try to prove a point of who I am... I just don't ever feel the need to do that when I wake up in the morning' (~7:51); 'I wish people didn't you know what I'm saying take my image and run with it' (~10:20).",
+      "alternative": "Charlamagne makes the commercial case for mystique in the same exchange, which may shape the answer. The behaviour predates the rationale: the Times noted in 2021 that he does not do many interviews.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C20",
+      "claim": "Asked whether he has ever gone to therapy, he said 'Nah'; asked 'Just straight music?', he said 'Straight music, man.'",
+      "passage": "Five years after Tampa, Charlamagne Tha God asked whether he had ever gone to therapy. \"Nah,\" he said. \"Just straight music?\" Charlamagne asked. \"Straight music, man.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Re-pulled transcript ~51:16: '>> Have you ever gone to therapy or anything? >> Nah. >> Just straight music. >> Straight music, man.' Speaker changes are marked in the transcript. The FAQ repeats this exchange.",
+      "alternative": "A single yes-or-no exchange; he also calls the music 'my hobby, my therapy', so he is not claiming to be unprocessed, only unassisted.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck whether he later describes starting therapy or other formal support; that would change the opening and the FAQ."
+    },
+    {
+      "id": "C21",
+      "claim": "He says he does not discuss how he feels, cannot talk about that kind of thing, and that listeners heard in songs what he never said in real life; he borrows a Lil Wayne line about doing it 'over snares and bass.'",
+      "passage": "\"I don't really discuss what I go through or how I feel,\" he told Complex. \"So by the time I sit down, it all comes up.\" In 2026, asked by Sharpe whether his family made room for him to talk about emotions, he said his mother tried, but \"I can't really talk about that kind of stuff,\" and \"people probably heard stuff in songs like that they never heard me say in real life.\" To Charlamagne he borrowed a line he credited to Lil Wayne: saying things to someone's face is hard, \"so I do it over snares and bass.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07",
+        "S01",
+        "S02"
+      ],
+      "inference": "Three statements across six years. Complex 2020 verified on reopen. Club Shay Shay ~98:36: 'like they tried like my mama tried but I never... I can't really talk about that kind of stuff... people probably heard stuff in songs like that they never heard me say in real life.' Breakfast Club ~32:20: 'I think Wayne said it like uh Kind of hard saying [masked] to your face so I do it over snares and bass.' The garbled 'feel away' phrase from the packet is not quoted.",
+      "alternative": "A flattering account of a limitation that also explains why his records work; a man with legal exposure also has practical reasons not to speak freely.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C22",
+      "claim": "His engineer travels with him to record at 4 a.m. in an Airbnb closet or airport lounge, recorded 'Brace Face' vocals under a hotel comforter, and has never seen him write down a lyric.",
+      "passage": "The next year his engineer described the routine to the Tampa Bay Times. He travels everywhere in case Rod wants to record at 4 a.m. in an Airbnb closet or an airport lounge. Rod cut the vocals for the gold-certified \"Brace Face\" with a hotel comforter over his head. The engineer has never seen him write down a lyric.",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Reopened 2026-09-17: 'Rod's recording engineer, who travels everywhere in case Rod wants to record at 4 a.m. in an Airbnb closet or an airport lounge, tells the story of Rod doing the vocals for certified gold hit Brace Face with a hotel comforter over his head. He's never seen Rod write down a lyric.' Correction to packet wording: Airbnb closet or airport lounge, not hotel rooms.",
+      "alternative": "Recording on the road is common; the distinctive element is consistency with his own 2020 account.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C23",
+      "claim": "He rejects 'pain' as the word for his music and calls it normal and reality.",
+      "passage": "Rod rejected the premise: \"people always taking and saying pain like I'm still not even like that word.\" Everybody goes through things, he said, and \"it's not pain, it's not sad ... it's normal. It's reality.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Re-pulled transcript ~10:20-11:30. The transcript reads 'it's not pain, it's not sad, it's not it's normal. It's reality.' The research packet rendered the break as an em dash; the draft uses an ellipsis for the elided repeated 'it's not' rather than inventing punctuation.",
+      "alternative": "He is at the launch of a happier album and may be tired of a reductive label. The 2020 Complex remarks (C26) make the same move before that incentive existed.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C24",
+      "claim": "He accepts sadness but rejects depression as a label, citing his output, while conceding he has 'been there'; Billboard reported in 2023 that he has struggled with depression and anxiety and been open about suicidal thoughts.",
+      "passage": "He accepts sadness and rejects depression as a label, though when pressed he allowed, \"Yeah, been there.\" Billboard reported in 2023 that he \"has struggled in the past with depression and anxiety and has always been open about having had suicidal thoughts.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S05"
+      ],
+      "inference": "Breakfast Club ~21:55-22:54: 'depressed is like depleted, like flat, can't go no more... How the hell do we do six albums back to back'; asked '>> You've never been there.' he answers 'I mean like in life like I don't know. Yeah, been there.' Billboard 2023 sentence verified verbatim on reopen. The draft reports both with dates.",
+      "alternative": "The 2026 distinction may be identity management; the 2023 report should not be overwritten by it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C25",
+      "claim": "In 2025 he told Billboard he is 'not like a superstar or a fairy tale. We are going through the same thing.'",
+      "passage": "Five years later he told Billboard, \"I'm not like a superstar or a fairy tale. We are going through the same thing.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S06"
+      ],
+      "inference": "Billboard Q&A reopened 2026-09-17; wording verbatim.",
+      "alternative": "Relatability is also the strongest commercial position for a streaming-era artist; the draft says so directly in the next paragraph.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C26",
+      "claim": "In 2020 he told Complex, 'I understand I'm a rapper, but I am a human. Just like you... Don't look at me like a rapper, because I don't want to be treated like that.'",
+      "passage": "\"I understand I'm a rapper, but I am a human. Just like you,\" he told Complex in 2020. \"Don't look at me like a rapper, because I don't want to be treated like that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Complex reopened 2026-09-17; both sentences verbatim, separated in the original by other sentences.",
+      "alternative": "A 21-year-old distancing himself from genre stereotypes is a common, partly defensive move.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C28",
+      "claim": "Asked what he does when a partner wants to leave, he said he has never been in that situation; he conceded being heartbroken, said every ending was mutual, and that her readiness to leave 'bring[s] me up to speed.'",
+      "passage": "\"I don't know, dog. I ain't never been in that situation,\" he said. He conceded, \"I done been heartbroke,\" then reconsidered aloud. \"Well, let me think back. I ain't never been in a situation to where it was like we didn't mutually agree to go our separate ways.\" If she is ready to go, he said, \"that's going to bring me up to speed. It's time to go.\" And: \"It's always just your turn, dog.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript ~66:53-67:40. Correction to the research packet: he does not report having no experience of heartbreak. The run reads '>> Then you ain't never been heartbroke. Yeah. Yeah. I done been heartbroke, but I ain't Well, let me think back.' The draft attributes 'I done been heartbroke' to Rod from turn structure. 'It's always just your turn, dog' is followed by Sharpe's 'Damn, Rod', which supports the attribution.",
+      "alternative": "On camera, in a relationship, with a host he likes; 'let me think back' may signal reluctance to revisit a particular breakup. Speaker labels are inferred from an auto transcript and need audio confirmation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C29",
+      "claim": "He says he trained himself out of attachment because heartbreak used to affect his work ethic.",
+      "passage": "\"I used to take it real hard,\" he explained, and \"I used to let it affect my work ethic.\" So \"that was the way I had to tell myself and train my brain like ain't nothing or nobody never yours.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript ~69:08: 'I used to take it real hard and used to used to it used to I used to let it affect my work ethic. I used to let it affect me. So that was the way I had to tell myself and train my brain like ain't nothing or nobody never yours.' Stutters are not quoted.",
+      "alternative": "Impermanence is also a widely held religious and philosophical view; the evidence is the 'train my brain' framing and the stated trigger, not the belief.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C30",
+      "claim": "Asked what peace looks like, he describes his own bed, a cleaned house, the AC on 65, a TV show with his partner and good meetings the next morning.",
+      "passage": "Asked what it looks like, he named his own bed, a freshly cleaned house, the \"AC on 65,\" an Apple TV show with his partner, and \"good meetings at the office\" the next morning. Music, recognition and being understood did not come up.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Re-pulled transcript ~57:25: 'I'm in my big king bed... Clean lady just cleaned the house up real good. AC on 65... a nice little Apple TV show on. And me and baby just kick back watching TV... Good meetings at the office.' A garbled name in the passage is not reproduced.",
+      "alternative": "He is mid-rollout and may simply be describing rest.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck at his next album cycle whether the settled, business-centred register of August 2026 persists."
+    },
+    {
+      "id": "C32",
+      "claim": "His self-chosen emblem is the turtle: he signed off Club Shay Shay with 'Turtle race continue', a 2025 documentary is titled Don't Look Down: The Turtle Race Continues, and he credits endurance over talent.",
+      "passage": "He signed off his Club Shay Shay interview with \"Turtle race continue,\" and a 2025 documentary about him is titled _Don't Look Down: The Turtle Race Continues_. He explains his success as endurance more than brilliance. \"I was right there in the room and I was in last place,\" he told Charlamagne, and some of the trophies went to \"whoever could last the longest.\" Talent, he told Apple Music, is \"only like about 40%.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S16"
+      ],
+      "inference": "Club Shay Shay ~132:29 'Turtle race continue'; Breakfast Club ~38:42 'I was right there in the room and I was in last place, right? But some of these some of these, right, trophies was because of whoever could last the longest'; Apple Music ~2:09 'it's only like about 40% of talent'. Documentary title from Wikipedia filmography; the film was not viewed. The packet's 'signs off interviews' habit is narrowed to the one verified sign-off.",
+      "alternative": "Modesty about talent is cheap, and seven albums in eight years is not a tortoise's pace; the draft says 'His pace does not.'",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C34",
+      "claim": "The Last Lap tour collapsed in January 2025: a Nashville show was called off moments before he was due on stage and the remaining dates were cancelled.",
+      "passage": "The Last Lap tour fell apart in January 2025, when a Nashville show was called off moments before he was due on stage and the remaining dates were cancelled.",
+      "class": "third_party",
+      "source_ids": [
+        "S11",
+        "S10",
+        "S09"
+      ],
+      "inference": "HipHopDX, reopened: 'Just moments before he was scheduled to hit the stage in Nashville for his Last Lap Tour on Tuesday (January 28), ticketholders received notice the show was cancelled... Shortly afterward, the entirety of the rest of the tour was also cancelled.' Both litigants agree the tour did not finish.",
+      "alternative": "The venue's own post called Nashville 'postponed'; the cause of the collapse is contested and the draft does not state it.",
+      "durability": "unresolved",
+      "review_trigger": "Recheck the Grizzly Touring v. Green docket for a ruling or settlement before publication and at each update."
+    },
+    {
+      "id": "C35",
+      "claim": "Grizzly Touring sued him in federal court on September 29, 2025, alleging he owed $27 million of a $57 million advance and had raised the scale of his production without warning.",
+      "passage": "On September 29, 2025, promoter Grizzly Touring sued him in federal court, alleging he owed $27 million of a $57 million advance and, in Billboard's summary, that he raised the scale of his production without warning",
+      "class": "disputed",
+      "source_ids": [
+        "S09"
+      ],
+      "inference": "Billboard Pro reopened: 'a Monday (Sept. 29) federal court lawsuit from Grizzly Touring'; '$57 million'; '$27 million in advances'; 'Grizzly alleges that many Last Lap shows had to be canceled because Rod upped the scale of his tour production without warning.' The production claim is Billboard's paraphrase of the complaint and is attributed as such.",
+      "alternative": "Unproven allegations by an adverse party with a financial motive; labelled as allegations in the draft and FAQ.",
+      "durability": "unresolved",
+      "review_trigger": "Recheck the docket; if the case settles or is dismissed, rewrite the countersuit section and the FAQ."
+    },
+    {
+      "id": "C36",
+      "claim": "His October 12, 2025 countersuit blamed Grizzly's scheduling, said only 12 of 35 shows occurred as announced, and alleged AG Entertainment paid his former agent Beau Williams at least $1.8 million in under-the-table payments to insert an exclusivity clause.",
+      "passage": "His October 12 countersuit blamed Grizzly's scheduling, saying \"only 12 of the 35 scheduled [shows] occurred at the date and venue originally announced.\" It also alleged that Grizzly member company AG Entertainment paid his former agent, Beau Williams, at least $1.8 million in \"under-the-table\" payments to slip an exclusivity clause into his contract",
+      "class": "disputed",
+      "source_ids": [
+        "S10"
+      ],
+      "inference": "Billboard Pro reopened: 'counterclaims filed Sunday (Oct. 12)'; 'Only 12 of the 35 scheduled [shows] occurred at the date and venue originally announced'; 'Rod says AG gave Williams at least $1.8 million in \"under-the-table\" payments so that the agent would underhandedly \"sneak\" a five-tour exclusively clause.' 'Indentured servitude' was the lawyer's phrase about the relief sought and is no longer quoted.",
+      "alternative": "Allegations only. Division of labour (lawyers litigate) is the likeliest reading; the filing is still in his name, and the draft says both.",
+      "durability": "unresolved",
+      "review_trigger": "Recheck the docket; if the bribery allegation is withdrawn, dismissed or substantiated, rewrite this passage."
+    },
+    {
+      "id": "C37",
+      "claim": "In his own voice he says he would blame himself if the touring business failed because he is not 'with blaming people.'",
+      "passage": "\"If it mess up, man, I'm going to be blaming myself,\" he told Sharpe, \"cuz I just ain't with blaming people and because at the end of the day I brought y'all in.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript ~27:01: 'So, if it mess up, man, I'm going to be blaming myself, >> right? cuz I just ain't with blaming people and because at the end of the day I brought y'all in.' The interjected 'right?' is Sharpe's. Sentence-initial capital added.",
+      "alternative": "Ordinary media posture plus ordinary litigation strategy could produce the same gap; the draft does not resolve it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C38",
+      "claim": "Ari Lennox, who opened his 2023 Nostalgia Tour and was hit by a bottle, said in 2024 that he said nothing in her defense privately or publicly and that they met only by chance in a hotel lobby; she also cited her own abandonment issues. In August 2026 he praised her, cited things outside his control, and wished her experience had been better without addressing the silence.",
+      "passage": "In 2024, Ari Lennox, who opened his 2023 Nostalgia Tour and was hit by a bottle thrown from the crowd, wrote about \"evil\" and \"racist\" treatment from his fans and said \"what made it even worse is Rod saying nothing in my defense. Privately or publicly.\" She added, \"The only reason we met was because we ran into each [other] in a Hotel Lobby after constant efforts of me trying to share my gratefulness for the opportunity.\" She also said her \"abandonment issues\" make rejection hit her harder, and that \"half of the mess I end up in I'm solely responsible for.\" Asked about that tour in August 2026, Rod praised her, said \"There's some things I just don't got control over,\" and wished \"her experience would have been better.\" He did not address her charge that he stayed silent.",
+      "class": "disputed",
+      "source_ids": [
+        "S11",
+        "S02"
+      ],
+      "inference": "HipHopDX reopened 2026-09-17. Correction to the packet: the article (January 31, 2025) introduces her statement with 'Last year', so it dates to 2024, not January 2025. The bottle detail is HipHopDX's ('culminated in her being pelted with a bottle from the audience'). Breakfast Club ~46:05-46:45: 'There's some things I just don't got control over'; 'maybe that was like a management call'; 'I wish her experience would have been better.'",
+      "alternative": "Her statement is her account, made while describing her own sensitivity to rejection; he may have reasons for silence he will not discuss. Both sides are attributed and neither is adjudicated. His 'I don't regret that though' refers to working with her and is not quoted, to avoid implying he dismissed her treatment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C39",
+      "claim": "Days after the cancellations he announced a hiatus, telling critics 'I dont fw you' and fans 'this ain't goodbye it's simply see u later', with plans to travel, find love and raise kids.",
+      "passage": "He left, telling the fans who stayed, \"this ain't goodbye it's simply see u later,\" and saying he planned to \"travel, see the world, find love, raise kids.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "HipHopDX reopened; post quoted verbatim ('to the real fans that love me thank you this ain't goodbye it's simply see u later'; 'travel, see the world, find love, raise kids ,prolly go back to school'). The 'drag my name' portion is inventoried under C62.",
+      "alternative": "A publicly humiliating tour collapse is sufficient reason to step back without any dispositional explanation.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C40",
+      "claim": "In May 2022 he was charged in Florida with felony domestic battery by strangulation, pleaded not guilty, the charge was dropped within weeks, and his attorney called it a misunderstanding.",
+      "passage": "In May 2022 he was charged in Florida with felony domestic battery by strangulation. He pleaded not guilty, the charge was dropped within weeks, and his attorney called it \"a misunderstanding between a girlfriend and boyfriend\"",
+      "class": "disputed",
+      "source_ids": [
+        "S12",
+        "S16"
+      ],
+      "inference": "Rolling Stone reopened: felony charge of domestic battery by strangulation; 'He has pleaded not guilty'; May 19 update that charges were dismissed and 'This case was a misunderstanding between a girlfriend and boyfriend,' Bradford Cohen said. Wikipedia records the nolle pross disposition.",
+      "alternative": "Dropped is not acquitted; a complainant's decision not to proceed has many causes. The draft states charge, plea, disposition and counsel's characterisation together and builds no inference on it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C41",
+      "claim": "In 2021 he turned himself in on a misdemeanor battery charge in Atlanta after a promoter said Rod hit him following a 2020 stage collapse; the outcome was not found.",
+      "passage": "As an adult, he turned himself in on a misdemeanor battery charge in Atlanta in 2021, after a promoter said Rod hit him following a 2020 show where a stage collapsed; this research did not find the outcome",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S13"
+      ],
+      "inference": "Times: 'That October, he narrowly escaped serious injury when a stage collapsed in Atlanta. The promoter for that show said Rod hit him after that. He returned to Atlanta on Sept. 6 to turn himself in on a misdemeanor battery charge.' Los Angeles Times independently: 'In September 2021, Green was booked in Fulton County on a battery charge that can be traced to an alleged October 2020 offense.'",
+      "alternative": "The promoter's account is the promoter's; disposition unknown and stated as such.",
+      "durability": "unresolved",
+      "review_trigger": "Find the disposition of the 2021 Fulton County misdemeanor battery case; if dropped or dismissed, say so."
+    },
+    {
+      "id": "C42",
+      "claim": "He was arrested twice in Fulton County in 2025: in May on 14 charges including pointing a gun at another person, which his lawyers denied; and on November 7, the day of his first Grammy nomination for 'Sinners', on drug and weapons charges his lawyers called profiling.",
+      "passage": "In 2025 he was arrested twice in Fulton County, Georgia. The first booking, in May, listed 14 charges including pointing a gun at another person; his lawyers said he \"was a victim of a burglary and committed no crimes.\" On November 7, the day he received his first Grammy nomination, for \"Sinners,\" he was booked on drug and weapons charges, and his lawyers said he was \"unjustly profiled and unlawfully arrested\"",
+      "class": "disputed",
+      "source_ids": [
+        "S13",
+        "S14"
+      ],
+      "inference": "LA Times reopened: 'He faces 14 charges stemming from an April 21 incident... \"pointing or aiming a gun or pistol at another\"'; 'Rod Green was a victim of a burglary and committed no crimes.' Rolling Stone reopened (November 10, 2025): 'arrested on drug and weapons charges in Atlanta last Friday, Nov. 7'; 'arrested the same day he earned his first Grammy nomination... Best Song Written for Visual Media for \"Sinners\"'; 'unjustly profiled and unlawfully arrested.'",
+      "alternative": "All charges denied and unresolved; the TMZ-sourced narrative of the April incident is not repeated; counsel's profiling claim is an assertion.",
+      "durability": "unresolved",
+      "review_trigger": "Recheck the disposition of both 2025 Fulton County cases before publication and at each update."
+    },
+    {
+      "id": "C43",
+      "claim": "His father warns him about his temper, which Rod connects to what sent his father to prison.",
+      "passage": "Rod says his father still warns him: \"bro your temper you got to work on that.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Re-pulled transcript ~96:32: 'he always tell me like your temper cuz you know that's what took him away... So he always tell me like bro your temper you got to work on that.'",
+      "alternative": "Second-hand report of a parent's advice; it shows temper is a live topic between them, not that any incident was caused by it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C44",
+      "claim": "He says his adolescent anger had no outlet, that peers expressed theirs violently, and that he expressed his through music.",
+      "passage": "\"I had a lot of built-up anger,\" he told Charlamagne, and \"I didn't know how to express it.\" Others his age \"violently expressed it,\" he said. \"And I just kind of expressed it through music.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Re-pulled transcript ~14:38: 'I had a lot of built-up anger. I had a lot of built-up Like, I didn't know how to express it... They violently expressed it, right?... And I just kind of expressed it through music.'",
+      "alternative": "A redemptive narrative from a man with open weapons cases; the draft follows it immediately with the record that complicates it.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C45",
+      "claim": "After the tour collapse he founded Mainstay Touring because he 'didn't want to be the pawn no more.'",
+      "passage": "After the Last Lap tour collapsed he founded Mainstay Touring. \"I just didn't want to be the pawn no more,\" he told Sharpe. \"Like if somebody gonna mess this thing up, it's going to be me.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S06"
+      ],
+      "inference": "Re-pulled transcript ~26:09: 'And I just didn't want to be the pawn no more. I just wanted to be in control. Like if somebody gonna mess this thing up, it's going to be me.' Billboard 2025 confirms the Mainstay launch after the cancelled tour.",
+      "alternative": "Other announced divisions (sports agency, film, publishing) rest on his rollout statements and are not asserted in the draft.",
+      "durability": "time_sensitive",
+      "review_trigger": "Recheck Mainstay's operating status at the next tour cycle."
+    },
+    {
+      "id": "C46",
+      "claim": "Mainstay promoted Ye's SoFi Stadium shows, a deal he says he took partly to prove his model worked for others.",
+      "passage": "Mainstay then promoted Ye's shows at SoFi Stadium, partly, he said, because \"I didn't want other people to say maybe that only worked for you\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S17"
+      ],
+      "inference": "Club Shay Shay ~29:01: 'you did Kanye's concert. >> Yeah, we did Kanye concert, man. Sofi Stadium.' DancehallMag reopened: 'He took the deal in part to prove a point... \"I didn't want other people to say maybe that only worked for you.\"' The 'biggest hip-hop show' superlative is not used; the hedged 'if I'm not mistaken' wording was not found in DancehallMag on reopen.",
+      "alternative": "Gross and record claims are unverified and omitted; Mainstay's exact promoter role (lead versus co-promoter) is unconfirmed.",
+      "durability": "time_sensitive",
+      "review_trigger": "Verify Mainstay's promoter-of-record role against Billboard Boxscore if the draft ever adds figures."
+    },
+    {
+      "id": "C47",
+      "claim": "He calls himself 'over creative' and likes things done a certain way; Grizzly's production-scale allegation describes something similar from outside, which is an inference.",
+      "passage": "Grizzly's production claim, from an adverse party with money at stake, also resembles his own \"I like things done a certain way.\" That link is an inference.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S09"
+      ],
+      "inference": "Club Shay Shay ~14:26: 'I'm over creative. I'm over I like things done a certain way.' The 'over creative' phrase is also quoted in the engine paragraph. Grizzly's allegation per C35. Neither party is trying to corroborate the other.",
+      "alternative": "His remark is about creative and business control in a label context, not tour logistics; Grizzly has every incentive to cast him as the cause. The draft labels the link as inference.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C51",
+      "claim": "At the September 2021 Tampa show he had wanted to play the 2,000-capacity Jannus Live instead, and his booking agent had to tell him he was too big.",
+      "passage": "He had wanted a smaller room, the 2,000-capacity Jannus Live back home. \"I had to tell him,\" said his booking agent, Andrew Lieber, \"Rod, I'm sorry, you're too big.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Times reopened: 'Rod wanted to perform this show at the 2,000-capacity Jannus Live in downtown St. Petersburg. \"I had to tell him,\" says his booking agent, Andrew Lieber, who just walked in, \"Rod, I'm sorry, you're too big.\"' The parking-lot exchange is inventoried as C66.",
+      "alternative": "Lieber's recollection, not a document.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C52",
+      "claim": "The Tampa Bay Times noted he did not speak with the paper and does not do many interviews.",
+      "passage": "\"He did not speak with the Tampa Bay Times and does not do many interviews.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Verbatim from the Times on reopen. It states the limits of the best reported source.",
+      "alternative": "One paper's experience in 2021; he has given several long interviews since.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C53",
+      "claim": "Most of his long first-person material comes from three video interviews within three weeks in August 2026 promoting Don't Look Down, and those quotes were checked against auto transcripts, not audio.",
+      "passage": "Most of his long first-person talk comes from three video interviews recorded within three weeks in August 2026 to promote his seventh album, _Don't Look Down_, so their settled tone may partly be the album's. Quotations from those videos were checked against YouTube's automatically generated transcripts, not the audio",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S03"
+      ],
+      "inference": "Published August 10, August 26 and August 28, 2026. Transcripts for all three were re-pulled with youtube-transcript-api on 2026-09-17 and every quoted run was matched; audio was not reviewed. Don't Look Down is his seventh studio album per S16's discography.",
+      "alternative": "Longitudinal sources (2018 S04, 2020 S07, 2021 S08, 2023 S05, 2025 S06) corroborate the withdrawal and working method, not the current emotional self-assessment.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C54",
+      "claim": "Alamo CEO Todd Moscowitz said his shows are 'like going to karaoke with 15,000 people' and that Rod 'pioneered this lane of struggle rap.'",
+      "passage": "\"His shows are like going to karaoke with 15,000 people,\" Todd Moscowitz, CEO of his label Alamo Records, told Billboard in 2023.",
+      "class": "third_party",
+      "source_ids": [
+        "S05"
+      ],
+      "inference": "Billboard reopened; verbatim. The 'struggle rap' phrase (also Moscowitz, same article) appears later in the draft as 'His label CEO calls his lane \"struggle rap.\"'",
+      "alternative": "His label CEO, with an interest in the framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C56",
+      "claim": "He agreed betrayal marked him more than poverty, reasoning that poverty is unchosen and betrayal is a decision.",
+      "passage": "He says betrayal marked him more than poverty, because poverty was unchosen: \"betrayal is like a decision.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Breakfast Club ~51:18-52:28: Charlamagne proposes the frame; 'Yeah, on God'; 'poverty is something like you born into... But betrayal is like a decision'; 'We didn't choose poverty.'",
+      "alternative": "Charlamagne supplies the frame and he agrees; the reasoning that follows is his own.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C58",
+      "claim": "He describes his younger self as 'so dramatic', feeling the world owed him and asking how people could do that to him.",
+      "passage": "\"When I was younger I was so dramatic,\" he told Charlamagne. \"I felt like the world owed me something. I felt like I was all mad at these people, these people what they did to me, how could they do that to me?\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Breakfast Club ~28:54 verbatim ('when I was younger I was so dramatic... I felt like the world owed me something. I felt like I was all mad at these people, these people what they did to me, how could they do that to me?'). Sentence-initial capital added.",
+      "alternative": "A man selling a more cheerful album has an interest in declaring the sad era over.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C59",
+      "claim": "At the September 11, 2021 Tampa amphitheatre show on his SoulFly tour, his DJ said 'We call it the choir' of fans who recite every line, and the Times reported Rod arrived 'quietly at the last minute.'",
+      "passage": "On September 11, 2021, Rod Wave brought his SoulFly tour to an amphitheatre in Tampa, across the bay from the St. Petersburg streets where he grew up. His fans recite every line, and DJ Fizzumfade has a name for them: \"We call it the choir.\" Rod, the Tampa Bay Times reported, had arrived \"quietly at the last minute.\"",
+      "class": "observed",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Times reopened: photo caption 'SoulFly tour at the MidFlorida Credit Union Amphitheatre in Tampa on Saturday, Sept. 11, 2021'; 'They'll recite every word. \"We call it the choir,\" says DJ Fizzumfade'; 'Rod is here, having arrived quietly at the last minute.' The draft does not call Fizzumfade the tour DJ, since the article mentions 'Rod's tour DJ, a cousin' separately without confirming they are the same person.",
+      "alternative": "A reporter's scene; the late arrival may be ordinary headliner logistics. It opens the piece as a detail, not as proof.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C60",
+      "claim": "Even after he began recording with classmate Elijah Simmons he was shy about sharing publicly and feared rejection; Simmons posted a hallway video and gave him his stage name.",
+      "passage": "Even after he and a classmate, Elijah Simmons, started recording songs, the Times reported, Rod was \"shy and uncomfortable with sharing anything publicly.\" Billboard wrote that \"Rod feared rejection\" when Simmons posted a video of him singing in a hallway to Facebook",
+      "class": "third_party",
+      "source_ids": [
+        "S08",
+        "S05"
+      ],
+      "inference": "New from reopened sources. Times: 'Rod and Lakewood classmate Elijah Simmons, a budding producer, started recording songs, but Rod was shy and uncomfortable with sharing anything publicly. It was Simmons who gave Rod his stage name... \"People are going to ride your wave,\" Simmons told him.' Billboard: 'recording a video of him singing in the hallway one day and posting it on Facebook. Though Rod feared rejection, to his surprise, the video caught the attention...' Two independent reported accounts of pre-fame reluctance to be seen.",
+      "alternative": "Teenage shyness about posting music is common and circumstantial; neither outlet quotes Rod on the motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C61",
+      "claim": "In 2020 he told Complex music is personal, he records with only his engineer in a dark room, skipped guest features for that reason, and won't release something that feels too personal.",
+      "passage": "\"Making music for me is personal,\" he told Complex in April 2020, at 21. \"When I do my music, I don't even go to the studio. It's just me and my engineer in a dark room somewhere.\" Complex reported that he skipped outside guest features for the same reason, and he named a limit: \"If I feel like it was too personal, I ain't going to drop it.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S07"
+      ],
+      "inference": "Complex reopened 2026-09-17; quotes verbatim; 'The music is so personal that he decided not to rely on outside guest features.' Published April 3, 2020; born August 1998, so 21.",
+      "alternative": "Plenty of artists record without producers present; the distinctive element is the relational rationale and its persistence to 2026.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C62",
+      "claim": "His January 2025 hiatus post addressed critics who 'drag my name... I dont fw you.'",
+      "passage": "his hiatus post was wounded, aimed at those who \"drag my name talk about me like a dog constantly speaking on me bashing me and what make me happy I dont fw you\"",
+      "class": "third_party",
+      "source_ids": [
+        "S11"
+      ],
+      "inference": "HipHopDX reopened; post text verbatim.",
+      "alternative": "The exit also followed a humiliating business failure; 'wounded' is the draft's characterisation of tone.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C63",
+      "claim": "Discussing Lil Poppa, who was on the Last Lap tour and died in February 2026, Rod said he never really interacted with people on tour and never 'do that with people' when Poppa sought him out.",
+      "passage": "Discussing Lil Poppa, a younger rapper on the Last Lap tour who died in February 2026 ([NBC News](https://www.nbcnews.com/pop-culture/pop-culture-news/florida-rapper-lil-poppa-dies-25-rcna259758)), Rod told Sharpe, \"I never really was, you know what I'm saying, interacting with the people on tour.\" Poppa had sought him out a few times, \"and, you know, I never do that with people.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01",
+        "S19"
+      ],
+      "inference": "New from the re-pulled transcript (~101:45-103:30; the auto transcript spells the name 'Lil Papa'). Sharpe: 'A guy that was on your tour that um Lil Papa'; Rod: 'we was on tour together... it was the last lap tour... I never really was, you know what I'm saying, interacting with the people on tour... It was two or three times where we talked and we bond, he pulled up on me. And, you know, I never do that with people.' NBC News (February 19, 2026) confirms the death via the Fulton County Medical Examiner. The draft follows safe-messaging practice: no cause or method, and no suggestion that Rod's distance bore on the death.",
+      "alternative": "Grief-inflected self-criticism after a death may overstate his own distance. The NBC article does not mention Rod Wave or the tour; that connection rests on the interview.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C64",
+      "claim": "He released a mixtape titled PTSD with a track 'Popular Loner', has 'Hard Times' tattooed on his forearms, and at Barclays Center in November 2023 staged a fall from a ladder that he said came from a dream.",
+      "passage": "He released a mixtape titled _PTSD_ with a track called \"Popular Loner,\" and his forearms are tattooed \"Hard Times.\" At Barclays Center in November 2023 he climbed a ladder on his stage set while fans screamed \"Don't do it, Rod!\" and then staged a fall, which he told Billboard came \"from a dream I had.\"",
+      "class": "observed",
+      "source_ids": [
+        "S08",
+        "S05"
+      ],
+      "inference": "Times: 'a track called Popular Loner on a mixtape titled PTSD'; 'His tattooed forearms read \"Hard Times.\"' Billboard: at Barclays Center near the end of 'Come See Me' 'he pauses and walks toward a ladder that's part of his stage design. Screams of \"Don't do it, Rod!\" commence'; 'That was from a dream I had,' Rod explains of the stage fall.",
+      "alternative": "Stagecraft and titles are artistic choices; they establish the Four surface the article tests, not a motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C65",
+      "claim": "Charlamagne asked how someone carrying so much pain became one of America's biggest artists without it destroying him.",
+      "passage": "Charlamagne asked how someone carrying so much pain became one of America's biggest artists without it destroying him.",
+      "class": "observed",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Breakfast Club ~10:05 paraphrased from the question: 'how does somebody who seems like they carry so much pain at least in their music, right? Become one of the biggest artists in America without letting that pain destroy them.'",
+      "alternative": "The paraphrase drops Charlamagne's hedge 'at least in their music'; the answer still addresses the music framing.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C66",
+      "claim": "After the Tampa show he posed with Julius, a 15-year-old with cancer, and asked him 'Is there anything I could have done better up there tonight? I don't really know what to say between the songs.'",
+      "passage": "After the show, in the private parking area, he posed for photos with Julius, a 15-year-old with cancer whose wish was to meet him. Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "class": "observed",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Times reopened: 'He poses for photos with Julius, the boy with cancer from the Children's Dream Fund. \"Is there anything I could have done better up there tonight?\" he asks the boy. \"I don't really know what to say between the songs.\"' Earlier the article describes 'a 15-year-old cancer patient whose greatest wish is to meet Rod Wave'; treating them as the same boy is a reasonable reading of the article's structure.",
+      "alternative": "May be a nervous performer's small talk; quoted because it is specific and dated. Confirm that Julius is the 15-year-old named earlier.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C67",
+      "claim": "He calls the studio 'my hobby, my therapy' and says he does not look for sympathy because he feels nobody cares about that kind of thing.",
+      "passage": "He calls the studio \"my hobby, my therapy.\" When Sharpe noted that Kevin Gates talks openly about mental illness, Rod explained why he does not. \"I don't be looking for no sympathy,\" he said. \"I'm going just deal with it myself because I feel like nobody really care about that kind of stuff cuz everybody dealing with their own problems.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Breakfast Club ~14:30: 'my hobby, my therapy, my what I like to do.' Club Shay Shay ~109:20: 'I don't be looking for no sympathy. For real... Like I'm going just deal with it myself because I feel like nobody really care about that kind of stuff cuz everybody dealing with their own problems.' The 'For real... Like' between the two sentences is elided at the sentence break.",
+      "alternative": "Common masculine reticence and the practical risk of speaking freely both explain this without type.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C68",
+      "claim": "His label CEO calls his lane 'struggle rap'; Rod calls his material normal, asked in 2020 to be seen as 'one of us making music', and on release day said of his 19-year-old music, 'Damn, I was a little dramatic.'",
+      "passage": "His label CEO calls his lane \"struggle rap.\" Rod calls his material \"normal,\" asked in 2020 to be seen as \"one of us making music,\" and now treats his early self-importance as immaturity. Of music he made at 19, he told Apple Music's The Plug Radio, \"Damn, I was a little dramatic\"",
+      "class": "self_report",
+      "source_ids": [
+        "S05",
+        "S07",
+        "S03"
+      ],
+      "inference": "Billboard 2023: 'Rod pioneered this lane of struggle rap' (Moscowitz). Complex 2020: 'it's just like one of us making music.' Apple Music ~11:13, asked about listening to his 19-year-old music: 'sometimes I listen to it and I'll be like, \"Damn, I was a little dramatic.\"'",
+      "alternative": "The release-day remark has a promotional incentive; the draft says the 2020 remarks matter more for that reason.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C69",
+      "claim": "He has released seven studio albums from Ghetto Gospel (2019) to Don't Look Down (2026) and calls himself 'over creative.'",
+      "passage": "Rod has released seven studio albums from _Ghetto Gospel_ in 2019 to _Don't Look Down_ in 2026",
+      "class": "third_party",
+      "source_ids": [
+        "S16",
+        "S15"
+      ],
+      "inference": "Wikipedia discography: Ghetto Gospel (2019), Pray 4 Love (2020), SoulFly (2021), Beautiful Mind (2022), Nostalgia (2023), Last Lap (2024), Don't Look Down (2026). Billboard confirms Ghetto Gospel as his first top 10 in 2019.",
+      "alternative": "Counts mixtapes out; the pace claim ('His pace does not') rests on this count.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update the count at his next studio album."
+    },
+    {
+      "id": "C70",
+      "claim": "FAQ: the cause of the Last Lap cancellation is disputed; Grizzly sued in September 2025 alleging enlarged production and $27 million owed of $57 million; his October 2025 countersuit blamed Grizzly's scheduling and routing; unresolved as of September 2026.",
+      "passage": "The cause is disputed in court. Promoter Grizzly Touring sued him in September 2025, alleging he enlarged the production without warning and owed $27 million of a $57 million advance. His October 2025 countersuit blamed Grizzly's scheduling and routing. Both sides' claims are allegations, unresolved in the reporting reviewed as of September 2026.",
+      "class": "disputed",
+      "source_ids": [
+        "S09",
+        "S10"
+      ],
+      "inference": "Metadata restatement of C35 and C36. Billboard: counterclaims contend 'Grizzly's production failures and routing issues made it \"logistically impossible\" for him to complete the tour.'",
+      "alternative": "Same limits as C35/C36.",
+      "durability": "unresolved",
+      "review_trigger": "Update this FAQ with any ruling, settlement or dismissal in Grizzly Touring v. Green."
+    },
+    {
+      "id": "C71",
+      "claim": "Description: Rod Wave says he can't tell people how he feels and puts it in songs arenas sing back.",
+      "passage": "Rod Wave says he can't tell people how he feels, so he puts it in songs arenas sing back.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S05"
+      ],
+      "inference": "Metadata summary of C21 (can't talk about feelings; songs carry what he never said) and C54/Barclays (arena crowds of 12,000-15,000 singing along).",
+      "alternative": "'So' compresses his own causal account into the description; the body attributes it to him.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C72",
+      "claim": "Nines are often summarized as 'the peacemaker'; the draft's working definition is someone who keeps the peace by turning down their own presence.",
+      "passage": "A more useful description is someone who keeps the peace by turning down the volume on their own presence: their wants, their grievances, their claim to the center of the room.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Type description applied to the subject; the specific application rests on C19, C15, C17 and C28.",
+      "alternative": "A general Enneagram description, not a claim about Rod Wave by itself; reviewers should check it does not do argumentative work the evidence doesn't.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C50",
+      "claim": "He made All-State Elementary Chorus twice (2009 and 2010), and at Lakewood High sang so constantly that the football coach put a timer in the locker room.",
+      "passage": "The voice came early. He made All-State Elementary Chorus twice, and at Lakewood High he sang so constantly, a former teammate told the Times, that the football coach put a timer in the locker room to get players out to practice.",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Times reopened: 'He was selected for All-State Elementary Chorus in 2009 and 2010'; 'Rod sang constantly, even on the football field, said former teammate Erik Hill-Cainion. It became such a problem that coach Cory Moore placed a timer in the locker room.' School named Lakewood by the Times; Billboard's 'Lakeview High School' is an error and is not used.",
+      "alternative": "One reporter's selection of named witnesses; it shows the voice predates the career, nothing about motive.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C73",
+      "claim": "Elijah Simmons gave him the stage name, telling him 'People are going to ride your wave.'",
+      "passage": "Simmons also gave him his stage name: \"People are going to ride your wave.\"",
+      "class": "third_party",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Times reopened: 'It was Simmons who gave Rod his stage name, partially inspired by something on a Gatorade bottle... \"People are going to ride your wave,\" Simmons told him.'",
+      "alternative": "Single source; biographical colour only.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C74",
+      "claim": "Leading type reading: Type 9 at medium confidence, based on letting a wrong public image stand, declining grievances, and putting feelings into songs rather than conversations; Type 4 is the strongest alternative and some of the record fits neither.",
+      "passage": "Rod Wave most likely fits Enneagram Type 9, at medium confidence. His repeated move is to take himself out of the frame: he lets a public image he calls wrong stand, declines grievances, and puts feelings into songs instead of conversations. Type 4 is the strongest alternative, and parts of his record fit neither type.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02",
+        "S07",
+        "S08"
+      ],
+      "inference": "Summary of C19 (image), C15 (grievance), C21/C61 (feelings into songs), with the unexplained engine, countersuit and temper stated in the same section.",
+      "alternative": "Circumstance (loss, legal exposure, industry incentives for mystique) explains much of the same behaviour without any type; the draft says so in 'The car outside the club'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C75",
+      "claim": "The breakup answer describes a trained readiness that forms in response to the other person's decision, which looks more like a Nine restoring calm than a Four's longing.",
+      "passage": "In conversation, he describes a trained readiness that forms in response to the other person's decision, so that a loss cannot pull him out of his work. That looks more like a Nine restoring calm. It is one answer, given on camera by a man in a relationship, and \"let me think back\" may mean he preferred not to revisit a particular breakup.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Built on C28 and C29 as re-verified; the packet's stronger version ('he reports no experience of being left') is corrected to reflect his concession that he has been heartbroken.",
+      "alternative": "A Four can also defend against loss; the discriminator is modest and the draft states its limits in the same paragraph.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C76",
+      "claim": "Fours tend to answer being misread by explaining themselves; Rod says his image is wrong and lets it stand.",
+      "passage": "Being seen inaccurately is close to the core injury for a Four, and Fours tend to answer it by explaining themselves more precisely. Rod says his public image is wrong and, as a matter of temperament, lets it stand.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Applies C19. 'As a matter of temperament' paraphrases 'it's just not natural for me.'",
+      "alternative": "A Four could also withhold explanation out of pride or a wish for mystique; the commercial case for mystique is made by Charlamagne in the same exchange.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C77",
+      "claim": "He calls himself 'over creative' and says he likes things done a certain way.",
+      "passage": "He calls himself \"over creative\": \"I like things done a certain way.\"",
+      "class": "self_report",
+      "source_ids": [
+        "S01"
+      ],
+      "inference": "Club Shay Shay ~14:26: 'I'm over creative. I'm over I like things done a certain way. Correct. Like I'mma call all the shot.' Said about business splits with labels.",
+      "alternative": "Context is creative and business control, not personality in general.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C78",
+      "claim": "In September 2025 he sounded settled to Billboard; Grizzly's lawsuit followed three weeks later.",
+      "passage": "When he sounded similarly settled to Billboard in September 2025, the Grizzly lawsuit arrived three weeks later.",
+      "class": "observed",
+      "source_ids": [
+        "S06",
+        "S09"
+      ],
+      "inference": "Billboard Q&A posted September 8, 2025 ('I just went with the flow. So I'm just way more comfortable'); Grizzly suit filed September 29, 2025.",
+      "alternative": "'Settled' characterises tone; a public interview says little about private legal negotiations already under way.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C79",
+      "claim": "FAQ: asked by Charlamagne in August 2026 whether he had been to therapy he said 'Nah', then 'Straight music, man'; he calls the studio his hobby and therapy.",
+      "passage": "Asked by Charlamagne Tha God in an August 2026 Breakfast Club interview whether he had ever gone to therapy, Rod Wave answered \"Nah.\" Asked if it was just music, he said, \"Straight music, man.\" He describes the studio as his hobby and his therapy.",
+      "class": "self_report",
+      "source_ids": [
+        "S02"
+      ],
+      "inference": "Metadata restatement of C20 and C67.",
+      "alternative": "Same limits as C20.",
+      "durability": "time_sensitive",
+      "review_trigger": "Update if he later describes starting therapy."
+    },
+    {
+      "id": "C80",
+      "claim": "FAQ: Type 4 is the obvious reading of his music; the Type 9 reading leads because he rejects 'pain', calls it normal, declines to correct his image, and describes training himself so a breakup can't pull him from his work.",
+      "passage": "Yes, and it is the obvious reading of his music, which is built on heartbreak and betrayal. The Type 9 reading leads because he rejects the word pain for his own material, calls it normal, declines to correct a public image he says is wrong, and describes training himself so that a breakup cannot pull him away from his work.",
+      "class": "interpretation",
+      "source_ids": [
+        "S02",
+        "S01"
+      ],
+      "inference": "Metadata restatement of C23, C19, C29 and C75.",
+      "alternative": "Same limits as the body discriminator.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C81",
+      "claim": "FAQ: Type 9 at medium confidence; lets a wrong public image stand, declines grievances about awards, and says he cannot talk about feelings with people, only in songs.",
+      "passage": "Rod Wave most likely fits Enneagram Type 9, at medium confidence. He repeatedly takes himself out of the frame: he lets a public image he calls wrong stand, declines grievances about awards, and says he cannot talk about his feelings with people, only in songs. Type 4 is the strongest alternative.",
+      "class": "interpretation",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "inference": "Metadata restatement of C74 with C15 and C21.",
+      "alternative": "'Only in songs' compresses his statements; he also says he talks to his 'homeboys' who understand, per the Breakfast Club, so the body keeps 'almost nowhere else'.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C82",
+      "claim": "His recorded material covers his father and Uncle Dee going to prison, Daijha's death from cancer, and being scared to love.",
+      "passage": "Few artists of his generation have put more private feeling on record: his father and then \"Uncle Dee\" going to prison, a friend dead of cancer, being scared to love.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08"
+      ],
+      "inference": "Lyrics quoted by the Times: \"'Member pops went to prison, unc' took me inside. Then unc' went to prison\" and \"I lost Daijha to cancer, I just got over it. I'm scared to love, so scared to get close again.\" 'Few artists of his generation' is a comparative judgement, supported in spirit by Moscowitz's 'channels emotion and vulnerability in a unique way' and Billboard's 'sensitive confessionals'.",
+      "alternative": "The comparative is editorial and unquantified.",
+      "durability": "stable",
+      "review_trigger": ""
+    },
+    {
+      "id": "C83",
+      "claim": "Thesis: speaking as himself, to a crowd or one person, is the part of the job he keeps avoiding.",
+      "passage": "Speaking as himself, to a crowd or to one person, is the part of the job he keeps avoiding.",
+      "class": "interpretation",
+      "source_ids": [
+        "S08",
+        "S02",
+        "S01",
+        "S07"
+      ],
+      "inference": "Supported by C66 ('I don't really know what to say between the songs'), C52 (few interviews), C21 (can't talk about feelings), C19 (won't correct image) and C63 (does not interact on tour).",
+      "alternative": "He has given several long interviews in 2026 and toured arenas, so the avoidance is partial and episodic.",
+      "durability": "stable",
+      "review_trigger": ""
+    }
+  ],
+  "type_hypothesis": {
+    "type": 9,
+    "confidence": "medium",
+    "for_claim_ids": [
+      "C08",
+      "C09",
+      "C14",
+      "C15",
+      "C17",
+      "C18",
+      "C19",
+      "C20",
+      "C21",
+      "C22",
+      "C23",
+      "C25",
+      "C26",
+      "C28",
+      "C29",
+      "C30",
+      "C32",
+      "C39",
+      "C51",
+      "C52",
+      "C60",
+      "C61",
+      "C63",
+      "C66",
+      "C67",
+      "C68",
+      "C75",
+      "C76"
+    ],
+    "against": "Four things resist the Type 9 reading, and two are serious.\n\nFirst, the countersuit (C36). On October 12, 2025 his lawyers filed counterclaims alleging that AG Entertainment paid his own former agent, Beau Williams, at least $1.8 million in under-the-table payments. Williams is the touring manager Billboard quoted warmly in 2023 (S05). That is a sharp public act of blame filed in his name, ten months before he told Shannon Sharpe 'I just ain't with blaming people' (C37). Division of labour is probably most of the explanation, but the draft says so rather than resolving it.\n\nSecond, the engine (C10, C45, C46, C69, C77). Seven studio albums from 2019 to 2026, more than 100 club shows after signing, a touring company founded after a catastrophe, and a promoter role on Ye's SoFi shows taken 'to prove a point'. He calls himself 'over creative' and likes things done a certain way; Grizzly alleges from outside that he raised production scale without warning (C35, C47). Nine theory does not explain this drive.\n\nThird, anger and its costs. His father warns him about his temper (C43); he says his adolescent anger had no outlet (C44); the public record holds a 2014 juvenile shooting case (C05), a 2021 misdemeanor battery surrender (C41), a dropped 2022 domestic battery charge (C40), and two denied, unresolved 2025 Fulton County cases (C42). None is proven and none carries an inference, but a reading built on a man who never disturbs the room must account for rooms repeatedly disturbed around him. Relatedly, Nine-style conflict avoidance has victims: Ari Lennox says he said nothing in her defense, privately or publicly (C38).\n\nFourth, the source base (C53). Three of the most quoted sources were recorded within three weeks in August 2026 to promote one album, all quotations from them were checked against auto transcripts rather than audio, and there is no adversarial profile. Circumstance (a father and father figure imprisoned, a friend's death, legal exposure, an industry that rewards mystique) explains much of the same behaviour without any type.",
+    "alternative_type": 4,
+    "alternative_case": "Type 4 is the default reading and most of the surface supports it. The catalogue runs on heartbreak and betrayal; he released a mixtape titled PTSD with 'Popular Loner', has 'Hard Times' tattooed on his forearms, and staged a fall from a ladder at Barclays Center that he says came from a dream (C64). His label CEO calls the lane 'struggle rap' (C54). He describes his younger self in Four terms: 'I felt like the world owed me something... how could they do that to me?' (C58). He says betrayal marked him more than poverty because betrayal is a decision (C56). His January 2025 hiatus post is wounded (C62). A Four reading would explain the dark rooms as protection of an inner life too personal for collaborators, awards indifference as disdain for a system that cannot see him, and the career as a wound made into identity. It accounts for much of the same evidence the Nine reading does.",
+    "discriminator": "What a Four protects is the significance of their own feeling and the injury of being misread. Rod repeatedly declines to defend either.\n\nOn being misread: he says his public image is 'totally different' from who he is and wishes people did not run with it, yet 'it's just not natural for me to push that on people or try to prove a point of who I am' (C19, C76).\n\nOn specialness: he rejects 'pain' for his own material and calls it 'normal... reality' (C23); in 2020, before any happier-album incentive, he asked to be seen as 'one of us making music' (C26, C68); in 2025, 'I'm not like a superstar or a fairy tale' (C25). Offered the awards grievance, he calls it possibly 'a 50/50 problem' and names his own non-participation (C15, C14).\n\nOn loss: asked what he does when a partner wants to leave, he concedes he has been heartbroken but describes a readiness that forms in response to the other person's decision ('that's going to bring me up to speed') and says he trained it in because heartbreak was affecting his work (C28, C29, C75). The Four's home territory, longing for what is gone, fills his songs; in conversation he describes a method for keeping loss from pulling him out of routine. His picture of peace is an undisturbed room (C30).\n\nThe positive Nine pattern runs longitudinally: waiting in the car and calling it 'my formula to stardom... you never really get to see me' (C08); shyness about sharing even after he began recording, per two outlets (C60); declining recognition at a drive-thru (C09); wanting the 2,000-capacity room and asking a boy with cancer what to say between songs (C51, C66); few interviews (C52); records only with one engineer, feelings that 'all come up' only when he sits down to record (C21, C22, C61, C67); not interacting with people on tour, 'I never do that with people' (C63), which converges with Lennox's hotel-lobby account (C38); and exit rather than rebuttal under criticism (C39). This discriminator is moderate, not decisive: the breakup answer is one on-camera exchange and several quotes await audio confirmation.",
+    "unexplained": "1. The engine: nothing public explains where a man this withdrawn gets the drive for seven albums, a touring company and stadium promotion (C45, C46, C69).\n\n2. The gap between 'I just ain't with blaming people' and a countersuit accusing his former agent of taking payments (C36, C37).\n\n3. The weapons-related and violence-related charges between 2014 and 2025, all dropped, denied or unresolved, with no public explanation (C05, C40, C41, C42).\n\n4. Whether the settled voice of August 2026 is change or register; when he sounded similarly settled in September 2025, the Grizzly lawsuit followed three weeks later (C53, C78)."
+  }
+}

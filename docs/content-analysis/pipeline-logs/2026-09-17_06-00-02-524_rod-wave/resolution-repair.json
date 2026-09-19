@@ -1,0 +1,398 @@
+{
+  "schema_version": 3,
+  "decisions": [
+    {
+      "finding_id": "subject-01",
+      "action": "fixed",
+      "reason": "Fixed by removal, carried forward: the Lil Poppa passage, the NBC link and C63 remain out of the article, and verification accepted that. Repair stage 2026-09-18: verification (verify-01) found the edit had reused lines from the same Club Shay Shay answer in the Type 4 case (C92) without their grief context, calling them 'unprompted' and a present 'habit of mind'. That is corrected. The passage now says it came in 'a long, grieving answer', names no death and no manner of death, sits in 'The case for Type 4' away from any sentence about what his distance costs other people (the Lennox paragraph is two sections later), gives the correction he drew from it ('everybody going through something', 'that situation really woke me up'), and counts it for neither type (C92, C109). The ambiguous 'my problems, my music, I'm sad, my this, my that', which follows 'could I have done better' about Poppa, is no longer quoted anywhere. Nothing in the article implies his conduct bore on any death."
+    },
+    {
+      "finding_id": "subject-02",
+      "action": "fixed",
+      "reason": "Fixed. The countersuit section now reports, before the \"blaming myself\" line, that he told Sharpe his partners' \"one, two, three, four mistakes burn it down in three, four months,\" that he was \"just a pawn to y'all,\" and that he was \"stuck with the aftermath of what you guys ruined,\" and it states that the principle points forward at Mainstay rather than backward at Last Lap. \"Nothing public closes the gap\" and the closing's \"squares with his countersuit\" are both gone. C37 is rewritten and the second item of type_hypothesis.unexplained is replaced. The lawsuit is no longer offered as a test of his sincerity: the closing now says only that a settled register in September 2025 preceded the suit that made the dispute public (C78). Repair stage 2026-09-18 (verify-06): 'stuck with the aftermath' was an unmarked correction of the transcript's 'stoked with the aftermath'; the article now quotes only 'the aftermath of what you guys ruined' (C37). The structure this finding required is unchanged."
+    },
+    {
+      "finding_id": "subject-03",
+      "action": "fixed",
+      "reason": "Fixed. The sentence linking Grizzly's production allegation to \"I like things done a certain way\" is deleted, and C47 is removed from the inventory; backing one side of a live $27 million suit with a quotation from a label-deal context was indefensible. His counter-account is now in the body in the countersuit's own language: the load-in failures, the \"unilateral, onerous and inexplicable routing and booking decisions,\" and \"logistically impossible\" (C36). The tour FAQ now carries his production-failure allegation alongside Grizzly's. Repair stage 2026-09-18 (verify-05): the counter-account is still in the body, but its wording is corrected. The load-in allegation was Billboard's paraphrase, not filing language; it is now given without quotation marks as Billboard's summary, with 'arenas' restored. The article also reports that the countersuit says the alleged exclusivity scheme failed because Rod identified and rejected the clause (C36)."
+    },
+    {
+      "finding_id": "subject-04",
+      "action": "fixed",
+      "reason": "Fixed. \"The record shows music did not absorb all of it\" is gone, and with it the framing of the charge list as temper evidence. What the record can and cannot show is now stated before the list, not after. His own account is in: the dangerous expression of adolescent anger he volunteers in the same Breakfast Club answer (C97), and the financial-pressure explanation and the regret, from the Times and the 2018 interview (C98). \"The charge was dropped\" is now \"the shooting charge was dropped.\" The section closes by saying no allegation is used as evidence about his personality, so the conclusion the finding objected to is gone rather than reworded. Repair stage 2026-09-18 (verify-03, verify-10): the section still draws no conclusion from any allegation and still carries his own account (C97, C98). The count of violence-alleging adult cases is corrected to three, and the May 2025 case is now described neutrally: 14 charges from an April 2025 incident, including aggravated and simple assault and 'pointing or aiming a gun or pistol at another', beside his lawyers' statement that he 'was a victim of a burglary and committed no crimes' (C42). The promoter's 2020 accusation is attributed to the Tampa Bay Times. 'Deepest regret' is now his answer to 'any regrets', as said (C98)."
+    },
+    {
+      "finding_id": "subject-05",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The article now says Charlamagne asked only whether he would make the same booking again, and that he was not asked about her account of his silence. His goodwill statements are included: glad he worked with her, wanted to work with her again, the \"demographics\" answer, \"maybe that was like a management call.\" \"Avoided conflict can land on other people\" is replaced with a lead that frames the cost as Lennox's account rather than asserting a motive the sources do not give."
+    },
+    {
+      "finding_id": "subject-06",
+      "action": "fixed",
+      "reason": "Fixed by the second option in the acceptance test. I cannot check a court docket from here, and an absence of coverage is not a disposition, so the article no longer says \"as of September 2026.\" It now says that in the coverage reviewed, the most recent from November 2025, no disposition had been reported for either 2025 case or the 2021 battery charge (C103). The Beau Williams sentence now records that no response from Williams or AG Entertainment appears in that coverage. Dated review triggers naming the jurisdiction are on C34, C35, C36, C41, C42, C70 and C103, and getting the dispositions and a Williams response are research tasks. Repair stage 2026-09-18: C103 is unchanged; the May and November 2025 cases are now separate claims (C42, C107), each with a dated trigger naming Fulton County, Georgia. The Williams sentence now reports, from Billboard, that neither Grizzly's lawyers nor Williams immediately answered requests for comment."
+    },
+    {
+      "finding_id": "subject-07",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The description and the type FAQ no longer say he can only express feelings in songs; the body now reports his own qualification that he could go around his \"homeboys and they understand how I feel\" (C21). \"Declines grievances\" in the H2 answer is narrowed to the awards grievance, which is what the evidence supports now that the 2021 Alamo call-out is in the article (C90). \"Keeps avoiding\" is reframed as the article's reading and narrowed to speaking without a track underneath, so the August 2026 press run no longer contradicts it (C83)."
+    },
+    {
+      "finding_id": "subject-08",
+      "action": "fixed",
+      "reason": "Fixed, all three. \"He admitted\" is gone and the image answer now carries both halves, including the mystique \"plus,\" \"I give them so little,\" and his \"Nah\" when asked whether it was by design (C19). The heartbreak passage now includes the relational lesson, that it \"made me a better person\" because a partner is \"a privilege to be with\" (C96). The depression concession keeps his qualifier, \"not like everyday\" (C24). All three runs are named in the research task for audio confirmation. Repair stage 2026-09-18: unchanged except the C19 quotation fix (verify-06)."
+    },
+    {
+      "finding_id": "fan-01",
+      "action": "fixed",
+      "reason": "Fixed. Uncle Dee now comes home. The article states that Lane returned from federal prison, became Rod's manager, and died in July 2024, seven months before the Last Lap collapse, with no cause of death publicly released (C87), placed in chronological order before 2025. The closing says plainly that nothing public connects that loss to the collapse and the quiet that followed, and that the profile does not either. Rod's own on-air remark about how Lane died is deliberately not used, since no official source has released a cause; that restraint is recorded on S20 and in the evidence. Repair stage 2026-09-18 (verify-08): the present-tense 'no cause of death has been publicly released' is now 'Revolt reported at the time that no cause of death had been revealed', dated to July 2024. Rod's own on-air remark about how Lane died remains unused. The closing's 'the long quiet that followed it' is corrected to 'the pause that followed' (verify-02, C106)."
+    },
+    {
+      "finding_id": "fan-02",
+      "action": "fixed",
+      "reason": "Fixed, with one element declined. The engine section now carries his own explanations, the discipline he credits to his father's football and to Uncle Dee, and the cost he names, that through the collapse he could not focus on his kids or his health (C88). His fatherhood is in twice: twin daughters and the Billboard 2023 \"made me softer\" line (C89), and \"He was already the father of two\" beside the \"raise kids\" quote. The closing no longer calls the engine unexplained in the record; it says the gap is in the type. Declined: the year \"around 2020.\" No source in the packet states when the twins were born, and the finding infers it, so the article gives no date and a research task asks for one. Repair stage 2026-09-18: the declined element is now done. Verification noted that Billboard 2023 places the twins' birth in the pandemic period, so beside the 'raise kids' line the article now says he 'was already the father of twin girls born during the pandemic' (C110), still with no exact year, which no source gives. 'Put him into football after prison' is corrected to 'after Rod's own months in jail at 15', matching Billboard (verify-06, C88)."
+    },
+    {
+      "finding_id": "fan-03",
+      "action": "fixed",
+      "reason": "Fixed. \"He did not argue with anyone\" is gone. Both mentions of the January 2025 post now describe it as one post that rebuked the critics and announced the exit. The January 2021 Alamo call-out is in the article, dated and sourced, reported in summary without the profanity, with the continued partnership noted (C90). The \"division of labor\" defence of the countersuit is deleted, since the 2021 grievance involved no lawyers, and the type answer and FAQ now narrow the grievance claim to awards. Repair stage 2026-09-18: both mentions still describe one post that rebuked the critics and announced the break. Verification (verify-02) showed the edit then overstated what followed as a nineteen-month absence; the article now dates the April 2025 single, the 2025 Mainstay launch and the August 29, 2025 Tampa show (C104) and re-weighs the post as 'thin evidence of a habit of exit' and 'not an absence of grievance' (C105)."
+    },
+    {
+      "finding_id": "fan-04",
+      "action": "fixed",
+      "reason": "Fixed. The awards passage now reports that the trophies were \"just never been part of my character,\" which makes giving them up costless, the swap to \"my worth on paper,\" the 2023 \"Grammys and sh-t\" ambition, and the November 2025 nomination (C93). The verdict is reversed rather than defended: the article now says awards look like the costly test and are not one. The FAQ and H2 answer are narrowed to match. Repair stage 2026-09-18 (verify-06): the quotation now reads 'it might be a 50/50 problem', as the transcript does (C15)."
+    },
+    {
+      "finding_id": "fan-05",
+      "action": "fixed",
+      "reason": "Fixed. Both halves of the answer are in his own words, the negative and the mystique \"plus,\" together with \"I give them so little that they got to work with what they got\" (C19). The image is no longer the leading discriminator. The article says outright that a man who half values being unread is weaker evidence than he looks, and the leading discriminator moved to the direction of his corrections (C76). Repair stage 2026-09-18 (verify-06): 'I give them so little that they got to work with what they got' silently removed a repetition and a false start; it now reads 'I give them so so little,' so 'they got to work with what they got' (C19)."
+    },
+    {
+      "finding_id": "fan-06",
+      "action": "fixed",
+      "reason": "Fixed. Verification (decision check and verify-01) found this only partly met: the Lil Poppa passage was removed, which the subject and critic reviewers' tests allow and verification accepted, but the self-focused material the finding said the Type 4 case needed was quoted stripped of its self-critical, grief-related frame and with no explanation of why the Nine reading survives it. Both parts are now met. The Type 4 section accurately paraphrases and quotes the material in context: in a long, grieving answer he looked back at the stretch when the Last Lap tour was collapsing, said he had been absorbed in his own problems and felt 'people should be telling me it's going to be okay', reached for The Fault in Our Stars, whose heroine in his telling feels 'the world just revolve around her', to make the opposite point, 'everybody going through something', and said 'that situation really woke me up'. It then says why the Nine reading survives: a Four reading can claim the first half and a Nine reading the correction, but because this is self-reproach after a loss the article counts it for neither (C92, C109), and confidence stays at medium. The 'my problems, my music, I'm sad' line is paraphrased as 'absorbed in his own problems' rather than quoted, because in the transcript it follows 'could I have done better, dog?' and may describe his music. The Lennox pairing the finding objected to no longer exists. The quotations are flagged for audio confirmation (research tasks)."
+    },
+    {
+      "finding_id": "fan-07",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed by the second option in the acceptance test. The Barclays ladder fall is dropped as evidence of dramatic self-presentation and removed from the article. Quoting it without Billboard's record of his stated purpose misrepresented a suicide-prevention message as theatrical flair, and including the purpose properly would have cost more space than the detail earns. C64 is trimmed to the PTSD mixtape and the tattoos."
+    },
+    {
+      "finding_id": "fan-08",
+      "action": "fixed",
+      "reason": "Fixed. The temper section now quotes his own concession that he expressed adolescent anger in dangerous ways before music became the outlet (C97), so the record no longer contradicts him. The 2014 case carries his stated motive and his regret, from the Times and the 2018 interview (C98). \"The public record does not show why these incidents happened\" is gone; the section now separates the teenage period he explains from the adult cases and draws nothing from either. Repair stage 2026-09-18 (verify-06): 'deepest regret' is gone; the 2018 answer is now quoted as said, 'I regret stealing from innocent people', given in answer to 'any regrets' (C98)."
+    },
+    {
+      "finding_id": "fan-09",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. \"He had wanted a smaller room\" is gone. The article says he had wanted to play Jannus Live, a 2,000-capacity room in downtown St. Petersburg, and assigns no motive, since the Times gives none and wanting the hometown venue reads at least as well. C51 is rewritten and dropped from the claims supporting the type reading."
+    },
+    {
+      "finding_id": "fan-10",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. \"Heart on Ice\" is now named as the breakthrough, with the TikTok virality and the Hot 100 entry, plus his own account of not having heard of TikTok while it was happening (C86). The guest-feature line now uses Complex's own wording, that he \"decided not to rely on outside guest features,\" instead of the draft's \"skipped\" (C61). \"Barely changed in six years\" is now \"barely changed between 2020 and 2025,\" which is the span the sources actually cover."
+    },
+    {
+      "finding_id": "critic-01",
+      "action": "fixed",
+      "reason": "Fixed, and it changed the argument rather than softening it. The countersuit section now reports his on-record blame of the promoters before the \"blaming myself\" line and states that the line is about Mainstay. \"That is probably most of the story\" is deleted. The closing no longer treats the gap as unexplained, because there is no gap: his public account and his filing agree. C37 is rewritten and type_hypothesis.against now says the real strain is that he fights often, not that he is inconsistent. The S06 routing quote is not used anywhere. Repair stage 2026-09-18: unchanged except the 'stuck'/'stoked' quotation fix in C37 (verify-06)."
+    },
+    {
+      "finding_id": "critic-02",
+      "action": "fixed",
+      "reason": "Fixed. The heading \"Why the breakup answer points to Type 9\" is gone, and the breakup is now explicitly the third and weakest discriminator. The article reports the possessive baseline, the heartbreak that used to hit \"real hard\" and \"affect my work ethic,\" and that the change came only after somebody was \"ready before me to leave\" (C29). It names the non-Nine readings, scales the claim down to a direction rather than a proof, and the FAQ wording is updated. The \"let me think back\" hedge is removed, since the source shows he does go back to it. Repair stage 2026-09-18: the self-ranking clause 'and it is the one a reader will find most vivid' is cut, per the verifier's writing note; the discriminator is still labelled the weakest."
+    },
+    {
+      "finding_id": "critic-03",
+      "action": "fixed",
+      "reason": "Fixed, by replacement rather than defence. The image answer now carries \"a negative and a plus,\" the mystique clause, \"I give them so little,\" and his \"Nah\" to \"by design.\" Rather than defend a discriminator that half of his own answer undercuts, I demoted it: the leading discriminator is now the direction of his corrections across 2020-2026 (C76), which is exactly the move the finding's own reasoning points to. \"A rule he chose to keep\" is gone, replaced with his statement that once he was older the promoters kept booking him and he stayed and hung out (C94). Not carried over: the \"take it and twist it\" remark, which became unnecessary once the image stopped doing discriminating work. Repair stage 2026-09-18: unchanged except the C19 quotation fix (verify-06)."
+    },
+    {
+      "finding_id": "critic-04",
+      "action": "fixed",
+      "reason": "Fixed. Type 8 now has its own section, built from \"I start off by not trusting nobody\" (C91), \"over creative\" and the intention to call every shot (C77), the temper, and the company founded so that only he can ruin the next tour. \"I just wanted to be in control,\" cut without a mark in the draft, is restored (C45). The discriminator against it is sourced and stated: his conflicts are real and repeated but always indirect, and the pre-fame record shows a teenager afraid to be seen and a graduate denying his own stage name (C99). Type 5 is named and set aside. Type 4 remains the formal alternative because it accounts for more of the record, and the evidence says why. Repair stage 2026-09-18 (verify-04): the Type 8 section is unchanged, and 'I just wanted to be in control' stays restored. The discriminator is narrowed: 'He fights often, but never face to face' is withdrawn, because no source establishes it and three adult cases allege physical violence. Its stronger half is now the pre-fame record (a shy teenager who feared rejection, a graduate who denied his own stage name); its weaker half is the form of his documented disputes, which the article says weighs lightly because Eights post and sue too; and it says the untested violence allegations count neither way (C99). The article calls this discriminator narrower than the Four one, and confidence stays at medium. Type 4 remains the formal alternative."
+    },
+    {
+      "finding_id": "critic-05",
+      "action": "fixed",
+      "reason": "Fixed. \"Did not argue with anyone\" is gone and both mentions of the January 2025 post now acknowledge the rebuke and the exit together. The 2021 Alamo posts are reported with source and date, without the profanity, and with the continued partnership noted; no later reconciliation is claimed, because the \"everything cool\" post was not found on reopen. \"Declines grievances\" is narrowed to awards, and the article makes the indirect-form argument explicitly instead of leaving the incident out. Repair stage 2026-09-18: unchanged in substance. The one rebuke plus a short pause is now dated accurately (C104, C105), and the indirect-form argument built on the incident is narrowed and said to weigh lightly (verify-04, C99)."
+    },
+    {
+      "finding_id": "critic-06",
+      "action": "fixed",
+      "reason": "Fixed. \"On awards, it does\" is replaced: the article now says awards look like a costly test and are not one, and gives the evidence, that he says trophies were never part of his character and swaps in his \"worth on paper\" (C93). I did not substitute another costly test, because the packet does not contain one I can support. \"I'm starting to network more\" is reported. The \"keeps avoiding\" thesis is narrowed to speaking without a track underneath and framed as the article's reading, so three long interviews in three weeks no longer contradict it. Repair stage 2026-09-18: unchanged except the C15 quotation fix (verify-06)."
+    },
+    {
+      "finding_id": "critic-07",
+      "action": "fixed",
+      "reason": "Fixed. Neither the framing nor the heading links the incidents to temper. \"Did not absorb all of it\" is gone. The two adult charges alleging violence are grouped and each carries its disposition and his side. The burglary-victim case and the possession case are explicitly separated with \"Neither alleges anger.\" The contradiction is resolved by dropping the conclusion, not the disclaimer: the section now says no allegation is used as evidence about his personality, and the only anger material the type argument uses is his own statement. Repair stage 2026-09-18 (verify-03): following this test in the edit led to the May 2025 case being described only through the defense's account and marked 'Neither alleges anger'. That is corrected. The May 2025 case is an allegation of violence, so it now sits with the other violence allegations, named neutrally with the denial beside it (C42). 'Neither alleges anger' is deleted; the November 2025 drug and weapons case is explicitly marked 'as reported, alleges no violence' (C107). Neither the heading nor any sentence links the incidents to temper, and the section still ends by saying none is used as evidence about his personality."
+    },
+    {
+      "finding_id": "critic-08",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The self-blame fragment is dropped rather than half-quoted, which removes the distortion the finding identified, and her closing demand, \"Headliners, protect your openers,\" is kept. Her words about the fans are now hers: \"evil, racist and demonic fans,\" not HipHopDX's paraphrase. On Rod's side, the article says what he was actually asked, includes the \"demographics\" and \"management call\" answers and his wish to work with her again, and replaces \"did not address her charge\" with a statement that he was not asked about it and did not raise it."
+    },
+    {
+      "finding_id": "critic-09",
+      "action": "fixed",
+      "reason": "Fixed by removal, carried forward and accepted at verification: the Lil Poppa passage is gone, so it is no longer paired with Lennox or placed in a run about what his distance costs others, and no link states a cause of death. Repair stage 2026-09-18: the lines from the same answer that the Type 4 section now uses (C92) are presented as a grieving, retrospective answer, name no death, sit two sections away from the Lennox paragraph, and are counted for neither type (C109). S19 stays in the record, uncited, with a note explaining why."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The first sentence now places him in St. Petersburg, Florida; the second says he is a singer and rapper who builds records out of prison, grief and money; the third gives the dated scale marker, all eight charting projects in the Billboard 200 top 10 by September 2026, four at No. 1. The Tampa scene still leads. Fizzumfade, Lieber and Charlamagne are identified by role at first mention, and \"Uncle Dee\" is now introduced as his father's friend rather than an unexplained name."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "action": "fixed",
+      "reason": "Fixed. The false promise is gone: the article no longer claims that 2018-2023 sources carry the most weight. Instead the caveat says what the album is about, dates the transcript check, and states that where the argument rests on a single 2026 answer it will say so, which it then does for the breakup discriminator. The argument now matches the caveat, because the leading discriminator is anchored in 2020 and 2025 material with the 2026 answers as corroboration (C76). Repair stage 2026-09-18 (verify-07): 'before there was an album to sell' was wrong, because the 2020 Complex interview promoted Pray 4 Love on its release day. The sentence now says he was flattening frames 'long before the calmer-man album cycle of 2026' (C108), which is what the durability argument needs."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The circumstance test is paid off inside the type argument. \"What separates them\" now opens by conceding that circumstance accounts for his distance about as well as any type does (C101), then names the one thing it does not account for: the direction of his corrections. The concession is repeated in the closing list of open questions, so a reader who asks why \"nobody never yours\" is not simply the lesson of his childhood gets an answer and an admission in the same place."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "action": "fixed",
+      "reason": "Fixed. Both mentions now describe the same post the same way. The Type 4 section calls the hiatus post wounded and quotes the rebuke; the closing says he did both things in one post and that the pattern is one rebuke and a long exit, not an absence of grievance. \"Did not argue with anyone\" is deleted. Repair stage 2026-09-18: both mentions still describe one post with a rebuke and a farewell. The closing's 'one rebuke and a long exit is the pattern' was factually overstated (verify-02) and now reads 'one rebuke and about two months without new music is thin evidence of a habit of exit, and it is not an absence of grievance' (C105), after dating what he did in 2025 (C104)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed by cutting the scene, which the acceptance test permits. Quoting the staged fall without the purpose Billboard recorded misrepresented it, and including that purpose responsibly costs more room than the detail earns in an article already at the length ceiling. The 2023 Billboard reporting on his openness about suicidal thoughts stays, in the passage the future reviewer protected."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "action": "fixed",
+      "reason": "Fixed. The lead-in no longer presents the incidents as his anger spilling past the music. What the record can and cannot show is stated before the list. The cases are grouped so status is readable in place: the 2014 shooting charge dropped, the 2022 charge dropped within weeks, the 2021 outcome not found, the two 2025 cases denied with no reported disposition. The section now draws no conclusion beyond the fact of the charges and the denials. The paragraph is also broken up, which helps the pacing problem the finding notes. Repair stage 2026-09-18 (verify-03): the status of each case is still readable in place. The adult violence allegations are now counted as three and each carries its status or denial; the November 2025 case is set apart as alleging no violence (C41, C42, C107)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "action": "fixed",
+      "reason": "Fixed. The section now states plainly what he describes doing, accepting the ending and moving on, and why, because heartbreak used to affect his work ethic, before any interpretation. The Four contrast is concrete rather than abstract: a trained exit against a defence that preserves the feeling. The argument no longer depends on \"I done been heartbroke,\" since the discriminator is ranked third and labelled weak, and the transcript limit is stated in the passage itself rather than only in the intro. Audio confirmation of that line is a named research task. Repair stage 2026-09-18: unchanged; the discriminator's lead sentence is shortened."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "action": "fixed",
+      "reason": "Fixed. The \"turning down the volume on their own presence\" gloss is deleted, so it no longer shares a metaphor with the linked Jelly-Roll profile, and the \"peacemaker sounds passive\" reframe is gone. The Type 9 paragraph is now anchored to his own words, \"I've never been the center of attention type of person\" and \"I ain't never want no birthday parties.\" The H2 \"The case for Type 4\" is kept as a plain label over an argument specific to Rod; the re-run of the similarity check belongs to the runner, not to this stage. Repair stage 2026-09-18: unchanged; the Type 4 explainer now opens its own section."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "action": "fixed",
+      "reason": "Fixed. Type 8 is named, given its own section and tested, using the lines the draft omitted: \"I start off by not trusting nobody,\" \"I'mma call all the shot,\" \"I just wanted to be in control,\" and the 2021 Alamo call-out, which is now in the article. The sourced discriminator against it is the form of his conflicts plus the pre-fame record of a teenager afraid to be seen and a graduate denying his own name (C99). Type 5 is mentioned and set aside. Confidence stays at medium, not because the Eight case failed cleanly but because the Nine case also lost two of its three discriminators; the evidence record now says that in the discriminator and in against. Repair stage 2026-09-18 (verify-04): Type 8 is still named, given its own section and tested, and Type 5 is still mentioned. The 9-versus-8 discriminator is narrowed to what the record supports: the pre-fame reticence reported by two outlets (C60, C09) carries it, the form of his documented disputes weighs lightly, and the untested violence allegations count neither way (C99). The article says it separates 9 from 8 less decisively than the Four discriminator; type_hypothesis says the same, and confidence stays at medium, as the acceptance test requires if the discriminator weakens."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "action": "fixed",
+      "reason": "Fixed by option (b) and part of (a). The breakup material no longer carries the heaviest weight; the leading discriminator is now the direction of his corrections, which holds from 2020 to 2026. The heading naming the breakup is gone. Where the breakup does appear, the article reports the possessive, hard-hit baseline and the trained override, says explicitly that a learned practice is weighed against the type rather than counted as proof, and notes his stated relational goal for it (C96) rather than assuming a peace motive. Repair stage 2026-09-18: unchanged."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "action": "fixed",
+      "reason": "Fixed. The countersuit section reports the \"pawn\" and \"what you guys ruined\" passage before the \"blaming myself\" line and states that the line is forward-looking. The closing question about how it squares with the countersuit is deleted. \"Declines grievances\" in the H2 answer is narrowed to awards. C37's alternative and the against text both reflect the fuller context, and the against text now says the real strain is that he fights often rather than that he is inconsistent. Repair stage 2026-09-18: unchanged except the C37 quotation fix (verify-06)."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed by removing the generalisation entirely. \"Fours tend to answer it by explaining themselves more precisely\" is gone, along with the discriminator it supported. The image paragraph now reports both halves of the \"negative and a plus\" answer and \"I give them so so little,\" and the article states that a man who half values being unread is weak evidence. The Four contrast that remains is about what a Four defends when handed a flattering frame, which his 2020 and 2025 answers test directly."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "action": "fixed",
+      "reason": "Fixed. The engine section no longer rests on output volume. It says volume is not the problem because Nines can work relentlessly, and names the behaviour Nine theory does not predict: seeking control and proving a point in business. The contrast the finding identified is now the hinge of the leading discriminator, that he declines to prove who he is and takes a stadium deal to prove what he can do (C95, C102), and it is repeated as an open question in the closing. Repair stage 2026-09-18: the prove-who-he-is / prove-what-he-can-do contrast is still the hinge of the leading discriminator and still listed as open in the closing. A third restatement at the end of the engine section was cut to reduce the thesis loops the verifier noted (C102)."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed by relabelling, which the acceptance test allows and which the fan and unfamiliar reviewers' protection of the same passage requires. The peace description is out of the discriminator sequence, and the article now says in plain words that almost anyone describes rest that way, so it corroborates rather than proves. The protected sentence about what did not come up is kept verbatim but no longer does argumentative work."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "action": "fixed",
+      "reason": "Fixed. Both explainer paragraphs are anchored to Rod: the Type 9 paragraph to his own \"center of attention\" answer, the Type 4 paragraph to what his records are made of. The shared \"turning down the volume\" metaphor, the peacemaker-is-not-passive reframe, and the \"Four guards identity, Nine guards an undisturbed room\" formula are all deleted, and the Nine-versus-Four contrast is now stated in terms of his dated corrections rather than a generic formula. Re-running the same-type similarity check is the runner's job, not this stage's. Repair stage 2026-09-18: the Type 4 explainer paragraph that followed the type answer is folded into the opening of 'The case for Type 4', with the Type 4 link, still anchored to what his records are made of. The Type 9 paragraph is unchanged."
+    },
+    {
+      "finding_id": "future-01",
+      "action": "fixed",
+      "reason": "Fixed, mainly by option (b) and partly by (a). The leading discriminator now cites pre-August-2026 sources that independently show the same behaviour, Complex 2020 and Billboard 2025, and the prose names them. The \"carry the most weight\" promise is deleted, and the closer's \"what has held since at least 2020\" no longer includes the image claim, which only the 2026 interview supports. The Type 4 FAQ now dates its evidence to August 2026. C23, C28 and C30 are now time_sensitive with concrete triggers; C19, C29, C75, C76 and C80 stay stable because their supporting behaviour is now anchored across 2020-2026 rather than in one window, and the research tasks carry the audio confirmation. Repair stage 2026-09-18 (verify-07): the leading discriminator's 2020 anchor is now described accurately (C108). The Type 4 FAQ now dates its Four evidence to the August 2026 Breakfast Club 'so dramatic' answer instead of the misframed Club Shay Shay line (C80)."
+    },
+    {
+      "finding_id": "future-02",
+      "action": "fixed",
+      "reason": "Fixed. The undated present-tense status sentence is replaced with one tied to its evidence base: in the coverage reviewed, the most recent from November 2025, no disposition had been reported (C103, inventoried as an unresolved claim). Dropped, undetermined and pending matters are now separated in the text. The triggers on C34, C35, C36, C41, C42, C70 and C103 name the jurisdiction, state that no docket number appears in the coverage reviewed, and set a dated recheck, before publication and no later than 2027-03-17, then every six months until disposition. Identifying the court and case number is a research task. Repair stage 2026-09-18: triggers carried forward; the new C107 carries its own dated Fulton County trigger, and the research task now lists all four open matters with a request for court and case numbers."
+    },
+    {
+      "finding_id": "future-03",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The sentence now dates the check, \"matched against automatic YouTube transcripts on September 17, 2026, not the audio,\" and C53 is time_sensitive with a trigger to rewrite or remove it once the audio confirmation is done. The misleading weighting range is removed rather than corrected, since the argument did not honour it."
+    },
+    {
+      "finding_id": "future-04",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The author-voice present-tense claim is gone. The article now attributes the reticence to the Tampa Bay Times in 2021 and immediately notes the three long 2026 interviews, so the reader sees both. C52 is time_sensitive with a trigger to recheck at the next album cycle and no later than 2027-09-17."
+    },
+    {
+      "finding_id": "future-05",
+      "action": "fixed",
+      "reason": "Carried forward from the edit stage; verification accepted it. Fixed. The FAQ question is now \"What has Rod Wave said about therapy?\" and the answer ends by dating his position to August 2026, so a standalone snippet cannot read as a current status. C79's trigger names a concrete check: his long-form interviews at each album cycle, and no later than 2027-09-17."
+    },
+    {
+      "finding_id": "future-06",
+      "action": "fixed",
+      "reason": "Fixed. \"Barely changed in six years\" is now \"between 2020 and 2025.\" Mainstay is dated to 2025 and the SoFi shows to 2026. \"It still shows how he understands his distance today\" and \"now treats his early self-importance as immaturity\" are gone, as is the present-tense \"his label CEO calls his lane struggle rap,\" which was cut with the quotation. The father's warning is now dated to 2026. The relationship aside in the breakup passage is removed rather than re-attributed. Repair stage 2026-09-18: the one relative phrase verification flagged, 'this year's interviews', now reads 'the August 2026 interviews'. The SoFi shows are no longer dated to 2026, because no source in the packet dates them; the article says Mainstay had promoted them 'by August 2026' (C46)."
+    },
+    {
+      "finding_id": "verify-01",
+      "action": "fixed",
+      "reason": "Fixed. The Type 4 passage and the Type 4 FAQ no longer present the Club Shay Shay lines as a present, unprompted 'habit of mind' or as the strongest Four evidence. The body now says they came in 'a long, grieving answer' looking back at the stretch when the Last Lap tour was collapsing; reports that he had been absorbed in his own problems and felt 'people should be telling me it's going to be okay'; gives the Fault in Our Stars comparison as he used it, to make the point 'everybody going through something'; quotes 'that situation really woke me up'; and states that the passage counts for neither the Four nor the Nine reading because it is self-reproach after a loss (C92, C109). No death is named. The ambiguous 'my problems, my music, I'm sad, my this, my that' is no longer quoted in the body or FAQ. The Type 4 FAQ now uses his Breakfast Club account of a younger self who was 'so dramatic' and felt 'the world owed me something' (C80). C92 and C80 record the question he was answering (Sharpe, ~101:41-103:43, on Lil Poppa's death and whether he missed signs) and the ~101:41-108:45 locator, with the lines used at ~105:55-106:51. The acceptance test also asks that the repaired passage go to the expanded jury before release. That is a runner decision outside this stage: this pass cannot convene reviewers, so the passage is flagged here for the independent re-verification and for any further jury the runner requires."
+    },
+    {
+      "finding_id": "verify-02",
+      "action": "fixed",
+      "reason": "Fixed. 'Then he was gone for nineteen months' is replaced with the dated record: the April 2025 'Sinners' single, the 2025 Mainstay founding and the August 29, 2025 sold-out Tampa arena show (C104, sourced to S16, S06 and S14), then 'Don't Look Down arrived nineteen months after the post' (C12). The exit reading is re-weighed against a pause of about two months before new music and demoted to 'thin evidence of a habit of exit' (C105). The Type 8 discriminator no longer mentions an absence (C99), and the closing's 'the long quiet that followed it' now reads 'the pause that followed' (C106). All three statements are inventoried. Note: nineteen months is the gap from the January 2025 post to the album, not between albums (Last Lap was October 2024), and the article words it that way."
+    },
+    {
+      "finding_id": "verify-03",
+      "action": "fixed",
+      "reason": "Fixed. The May 2025 case is now named neutrally: booked in Fulton County, Georgia, on 14 charges from an April 2025 incident, including aggravated and simple assault and 'pointing or aiming a gun or pistol at another', beside his lawyers' statement that he 'was a victim of a burglary and committed no crimes' (C42, S13, S14, S16). The count is corrected to three violence-alleging adult cases. 'Neither alleges anger' is deleted; the November 2025 drug and weapons case is marked 'as reported, alleges no violence' (C107). The absence of any reported disposition is stated for all three open cases (C103). The section still draws no personality inference from any charge. The corrected sentences are inventoried as disputed/unresolved with dated Fulton County review triggers."
+    },
+    {
+      "finding_id": "verify-04",
+      "action": "fixed",
+      "reason": "Fixed. 'He fights often, but never face to face' is withdrawn. The discriminator against Type 8 is narrowed: its stronger half is the pre-fame record (the shy teenager, the graduate who shook his head at 'Are you that Rod Wave guy?'); its weaker half is that his documented disputes with his label, promoter and critics ran through an Instagram post and a withheld album, a court filing and a post, which 'weighs lightly' because Eights post and sue too; and it says 'the untested allegations of violence below count neither way' (C99). The nineteen-month absence is gone from the paragraph. C99's inference and alternative state the limit, and type_hypothesis.discriminator and against say the narrowed discriminator separates 9 from 8 only moderately, which is part of why confidence stays at medium. The type section already names Type 8 as 'also tested', and the FAQ says 'Type 8 is tested too', neither of which claims more."
+    },
+    {
+      "finding_id": "verify-05",
+      "action": "fixed",
+      "reason": "Fixed. The load-in allegation is now given as Billboard's summary, without quotation marks, with Billboard's word 'arenas' ('In Billboard's summary, it says Grizzly breached the contract by failing to properly load his touring equipment in and out of arenas'). Only phrases Billboard itself quotes remain in quotation marks: 'making unilateral, onerous and inexplicable routing and booking decisions', 'logistically impossible', the '12 of the 35' sentence, 'under-the-table' and 'sneak'. The Williams sentence now adds that the countersuit 'says the attempt failed because Rod identified and rejected the clause'. The comment sentence now reports what Billboard says: neither Grizzly's lawyers nor Williams immediately answered requests for comment. C36's passage, claim and inference are updated, and S10's excerpt now separates Billboard's paraphrase from quoted filing language."
+    },
+    {
+      "finding_id": "verify-06",
+      "action": "fixed",
+      "reason": "Fixed, all five. (1) 'it might be a 50/50 problem', as in the transcript (C15). (2) 'I give them so so little,' so 'they got to work with what they got': two verbatim fragments, so the repetition is kept and the false start is outside the quotation (C19). (3) 'stuck with' is replaced by the unquoted 'left with', and only 'the aftermath of what you guys ruined' is quoted (C37). (4) 'asked about regrets, he said, \"I regret stealing from innocent people\"' replaces 'deepest regret' (C98; S04's research excerpt is corrected too). (5) 'after prison' now reads 'after Rod's own months in jail at 15', matching Billboard's 'After spending several months in jail' and 'when I got out of jail' (C88). All five runs are in the audio-confirmation research task."
+    },
+    {
+      "finding_id": "verify-07",
+      "action": "fixed",
+      "reason": "Fixed. 'He flattens it, and he was doing it before there was an album to sell' now reads 'He flattens it, and he was doing so long before the calmer-man album cycle of 2026', which is what the 2020 Complex material predates; the later sentence about 2020, 'when he had no reputation for calm to protect', is unchanged. Inventoried as C108; C76's inference is corrected."
+    },
+    {
+      "finding_id": "verify-08",
+      "action": "fixed",
+      "reason": "Fixed. The sentence now reads 'Revolt reported at the time that no cause of death had been revealed', dated to Revolt's July 3, 2024 report. It adds nothing about the manner of death. C87 records Rod's ~104:59-105:04 remark on Club Shay Shay and why it is not used."
+    },
+    {
+      "finding_id": "verify-09",
+      "action": "fixed",
+      "reason": "Fixed. The sentence now reads 'He sounded similarly settled to Billboard in September 2025, three weeks before Grizzly Touring sued him.' C78 is updated and notes that the dispute itself was already public in that interview."
+    },
+    {
+      "finding_id": "verify-10",
+      "action": "fixed",
+      "reason": "Fixed. The promoter's accusation and the stage collapse are now attributed in the sentence to the Tampa Bay Times ('the promoter said Rod hit him, the Tampa Bay Times reported'); the Los Angeles Times link stays attached to the September 2021 booking (C41)."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "After the show, in the private parking area, he posed for photos with Julius, a 15-year-old with cancer whose wish was to meet him. Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim, in place, as the second paragraph. Four reviewers protected some form of this scene and the closing still pays it off."
+    },
+    {
+      "passage": "Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim inside the unchanged opening scene."
+    },
+    {
+      "passage": "\"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim. A research task remains open to confirm that Julius is the 15-year-old named earlier in the Times piece, since the hook and the ending both rest on it."
+    },
+    {
+      "passage": "None of that tells us his type. It is the ordinary explanation for a young man who keeps people at a distance, and any type argument has to beat it.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim, and now actually honoured: the type section returns to the circumstance explanation and concedes it accounts for his distance about as well as any type does (C101), which is what three reviewers said the draft promised and never delivered."
+    },
+    {
+      "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy. It still shows how he understands his distance today, as a rule he chose to keep.",
+      "action": "changed",
+      "reason": "The first sentence is kept verbatim. The second is replaced, because critic-03 showed the same Club Shay Shay run has him saying that once he was older the promoters kept booking him and he stayed and hung out, so \"a rule he chose to keep\" was contradicted by its own source. The distinctive contribution, refusing to let a retrospective self-narration carry the thesis, is retained and strengthened: the article now says the rule did not outlast the constraint that made it, and \"today\" is gone per future-06. Untouched by the repair."
+    },
+    {
+      "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim. Four reviewers protected this sentence and it does more work now, since the paragraph that follows limits the anecdote further."
+    },
+    {
+      "passage": "A counselor at the juvenile detention center told him he had post-traumatic stress disorder, a remark made to a teenager in custody rather than a diagnosis of record.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim, as the subject reviewer asked, even though the surrounding temper section was restructured around it."
+    },
+    {
+      "passage": "He pleaded not guilty, the charge was dropped within weeks, and his attorney called it \"a misunderstanding between a girlfriend and boyfriend\"",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim, and used as the model the reviewer intended: every other allegation in the section now carries charge, status and the subject's side in the same breath, and none carries an inference."
+    },
+    {
+      "passage": "at Lakewood High he sang so constantly, a former teammate told the Times, that the football coach put a timer in the locker room to get players out to practice.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim. The All-State Elementary Chorus clause that preceded it was cut for length; the protected sentence is untouched."
+    },
+    {
+      "passage": "Asked what it looks like, he named his own bed, a freshly cleaned house, the \"AC on 65,\" an Apple TV show with his partner, and \"good meetings at the office\" the next morning. Music, recognition and being understood did not come up.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim, including the sentence about what did not come up, which two reviewers protected and one wanted removed. It is reconciled by moving the passage out of the discriminator sequence and adding that almost anyone describes rest this way, so it corroborates rather than proves (enneagram-06)."
+    },
+    {
+      "passage": "So \"that was the way I had to tell myself and train my brain like ain't nothing or nobody never yours.\"",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim. It now sits after his own account of the possessive baseline and the partner who was ready to leave first, which is the context the critic and enneagram reviewers showed it needs."
+    },
+    {
+      "passage": "The Nine reading has real trouble in three places, and none of them should be explained away with Enneagram vocabulary.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim, with the same three places, and honoured: no wing, arrow or subtype appears anywhere in the article, and the repairs made the strains section more honest rather than softer. The engine and the countersuit now concede more than the draft did."
+    },
+    {
+      "passage": "A plainer reading also holds: some people are better writers than talkers.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim, immediately after the inference it limits, as the reviewer asked."
+    },
+    {
+      "passage": "a drive-thru customer asked, \"Are you that Rod Wave guy?\" He smiled and shook his head no.",
+      "action": "kept",
+      "reason": "Kept verbatim. It now anchors the stronger half of the narrowed Type 8 discriminator (C99), where a young man shaking his head at his own stage name carries the argument that the edit's overstated 'never face to face' no longer does."
+    },
+    {
+      "passage": "Rod cut the vocals for the gold-certified \"Brace Face\" with a hotel comforter over his head.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim and in place."
+    },
+    {
+      "passage": "And on a night in 2021 when the choir sang every word back to him near home, the one thing he asked a 15-year-old fan to critique was the part of the show where he had to talk.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim as the last sentence of the article. Three reviewers protected it, and it survives every change above because it rests on the 2021 reporting rather than on the type argument or the 2026 interviews."
+    },
+    {
+      "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him. On awards, it does.",
+      "action": "changed",
+      "reason": "The first sentence is kept verbatim; \"On awards, it does\" is deleted. The enneagram reviewer protected this for naming a costly choice, but the fan and critic reviewers showed with evidence that the awards answer costs him nothing: he says the trophies were \"just never been part of my character,\" swaps in his \"worth on paper,\" named Grammys as a goal in 2023, and was nominated in November 2025. The distinctive contribution, testing the motive against the commercial incentive, is retained and sharpened, because the article now reports that the test fails rather than claiming a pass it cannot support. Untouched by the repair."
+    },
+    {
+      "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim. The future reviewer protected exactly this sentence, for setting a test that does not depend on any one event, and the test is now applied honestly to the awards evidence."
+    },
+    {
+      "passage": "He accepts sadness and rejects depression as a label, though when pressed he allowed, \"Yeah, been there.\" Billboard reported in 2023 that he \"has struggled in the past with depression and anxiety and has always been open about having had suicidal thoughts.\" Both statements belong on the record, with their dates.",
+      "action": "kept",
+      "reason": "Kept verbatim; untouched by the repair. Kept verbatim. A sentence is added after it carrying his qualifier, \"not like everyday,\" which subject-08 showed the draft had cut; nothing in the protected passage is altered."
+    },
+    {
+      "passage": "The calm, business-minded voice of August 2026 may be growth, or it may be the voice an album about growth requires. When he sounded similarly settled to Billboard in September 2025, the Grizzly lawsuit arrived three weeks later.",
+      "action": "changed",
+      "reason": "The first sentence is kept verbatim. The second now reads 'He sounded similarly settled to Billboard in September 2025, three weeks before Grizzly Touring sued him.' The edit's 'three weeks before Grizzly Touring's suit made the dispute public' overstated, because the dispute was already public in that interview (verify-09); the repair returns to the original sequence the future reviewer protected, a settled register three weeks before the lawsuit, while still not treating another party's filing as evidence about his state of mind (subject reviewer). The dated precedent for doubting the current register survives intact."
+    }
+  ],
+  "prior_blockers": []
+}

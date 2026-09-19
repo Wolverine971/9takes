@@ -1,37 +1,11 @@
 {
-  "lastUpdated": "2026-09-15T06:00:02Z",
+  "lastUpdated": "2026-09-19T06:10:59Z",
   "stats": {
     "totalUnpublished": 132,
     "totalPublished": 391,
     "completionRate": "74.8%"
   },
   "queue": [
-    {
-      "name": "tom-rhys-harries",
-      "displayName": "Tom Rhys Harries",
-      "type": null,
-      "priority": 87,
-      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Official Clayface lead with Oct. 23 US release and July EW cover/interview trail; six weeks of runway. Run entity-gap audit; do not derive type from his fictional role.",
-      "estimatedTraffic": "medium",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-09-09",
-      "retryCount": 2,
-      "strategicValue": "dcu-rising-star-cluster"
-    },
-    {
-      "name": "rod-wave",
-      "displayName": "Rod Wave",
-      "type": null,
-      "priority": 86,
-      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Aug. 28 album followed by Sept. 12-Nov. 19 arena tour, label-reported added shows, and fresh first-person interviews. Weaker music-crossover prior; no verified Google name-volume figure.",
-      "estimatedTraffic": "medium",
-      "searchVolume": "medium",
-      "personaTitle": null,
-      "addedToQueue": "2026-09-09",
-      "retryCount": 0,
-      "strategicValue": "music-creator-business-cluster"
-    },
     {
       "name": "ben-shelton",
       "displayName": "Ben Shelton",
@@ -42,11 +16,39 @@
       "searchVolume": "very-high",
       "personaTitle": null,
       "addedToQueue": "2026-09-09",
-      "retryCount": 0,
+      "retryCount": 1,
       "strategicValue": "tennis-culture-cluster"
     }
   ],
   "completed": [
+    {
+      "name": "rod-wave",
+      "displayName": "Rod Wave",
+      "type": null,
+      "priority": 86,
+      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Aug. 28 album followed by Sept. 12-Nov. 19 arena tour, label-reported added shows, and fresh first-person interviews. Weaker music-crossover prior; no verified Google name-volume figure.",
+      "estimatedTraffic": "medium",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 1,
+      "strategicValue": "music-creator-business-cluster",
+      "startedAt": "2026-09-18T06:00:00Z",
+      "completedAt": "2026-09-18T07:16:48Z",
+      "contentGrade": "ungraded",
+      "letter": "?",
+      "discoverability": "?",
+      "duration": "~76 min",
+      "needsReview": true,
+      "publishReady": false,
+      "publishBlockers": [
+        "missing_content_quality",
+        "editorial_v3:missing_or_invalid_release:ENOENT: no such file or directory, open '/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/release.json'",
+        "missing_full_image",
+        "missing_thumbnail_image",
+        "pipeline_operational_failure:1"
+      ]
+    },
     {
       "name": "arthur-mensch",
       "displayName": "Arthur Mensch",
@@ -2087,6 +2089,22 @@
       "strategicValue": "sports-icon-cluster",
       "startedAt": "2026-08-08T11:02:03Z",
       "failedAt": "2026-08-08T12:33:26Z",
+      "error": "no draft after pipeline run"
+    },
+    {
+      "name": "tom-rhys-harries",
+      "displayName": "Tom Rhys Harries",
+      "type": null,
+      "priority": 87,
+      "priorityReason": "DJ approved 2026-09-09; non-athlete subjects prioritized. Official Clayface lead with Oct. 23 US release and July EW cover/interview trail; six weeks of runway. Run entity-gap audit; do not derive type from his fictional role.",
+      "estimatedTraffic": "medium",
+      "searchVolume": "medium",
+      "personaTitle": null,
+      "addedToQueue": "2026-09-09",
+      "retryCount": 3,
+      "strategicValue": "dcu-rising-star-cluster",
+      "startedAt": "2026-09-16T06:00:00Z",
+      "failedAt": "2026-09-16T06:00:02Z",
       "error": "no draft after pipeline run"
     }
   ],

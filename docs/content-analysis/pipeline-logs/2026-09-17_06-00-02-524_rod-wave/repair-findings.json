@@ -1,0 +1,35 @@
+{
+  "eligible": false,
+  "blockers": [
+    "verification:revise",
+    "verification:coverage_complete",
+    "unresolved:verify-01:Editor-introduced context distortion in suicide-adjacent testimony. Club Shay Shay auto transcript, re-pulled 2026-09-18, ~101:45-108:10: Sharpe asks whether Rod missed signs before Lil Poppa's suicide, and these lines are part of that answer. Rod brings up the Fault in Our Stars character to make the point that 'it's not this about me... Everybody going through something'. He then says he felt people should be telling him it would be okay, and adds 'that situation really woke me up... you got to check on your strong friends'. 'my problems, my music, I'm sad, my this, my that' comes after 'could I have done better, dog?' about Poppa. The article presents a self-criticism he says he outgrew as his current 'habit of mind', calls it 'unprompted', and makes it the strongest Four evidence. It drops the fact that in the same breath he corrects himself toward the ordinary, which is the article's own leading Nine discriminator. The editor added this material at edit stage (C92), taken from the same passage that subject-01, fan-06 and critic-09 flagged. No reviewer has seen this framing. The Type 4 FAQ (C80) repeats it.",
+    "unresolved:verify-02:Nineteen months is the gap between albums, not an absence, and the packet's own sources say so. Wikipedia (S16) records the 'Sinners' single in April 2025, three months after the hiatus post. Rolling Stone (S14) reports it earned his first Grammy nomination. Billboard (S06, September 8, 2025) reports a sold-out hometown arena show in Tampa on August 29, 2025. Mainstay launched in 2025, and the countersuit coverage (S10) announces his Redemption Experience tour. The article itself mentions Mainstay, the September 2025 interview and the 'Sinners' nomination. The claim does argumentative work in three places: the Type 8 discriminator ('The January 2025 criticism produced one rebuke and a nineteen-month absence'), the pattern claim quoted above, and 'the long quiet that followed it' in the closing. None of these three statements about absence is inventoried as a claim.",
+    "unresolved:verify-03:This mischaracterizes a pending criminal case. The LA Times (S13, May 21, 2025), which the article cites, reports the May 2025 Fulton County booking on 14 charges, including aggravated and simple assault and 'pointing or aiming a gun or pistol at another'. Rolling Stone (S14, November 10, 2025) recaps them as aggravated assault, aiming a gun at someone, simple assault and battery. At least three adult cases allege violence, not two. For the May case the article prints only the defense's account ('a victim of a burglary') and then says 'Neither alleges anger.' That treats one side's framing of a disputed matter as fact. Neither sentence is in the evidence inventory.",
+    "unresolved:verify-04:The discriminator against Type 8 is stated as an absolute no source can establish, and the article's own later sections complicate it. The temper section reports a promoter's claim that Rod hit him after the 2020 stage collapse, the 2022 domestic battery charge, and the May 2025 assault case (see verify-03). It also quotes his own account of expressing adolescent anger 'in dangerous' ways. The article is right not to treat unproven allegations as evidence, but the same rule stops it asserting the opposite. The record supports something narrower: his documented disputes with his label, his promoter and his critics ran through a post, a filing and an exit. As written, the Nine-over-Eight case claims more than the evidence shows.",
+    "unresolved:verify-05:A court filing is misquoted in the sensitive-allegations section. Billboard Pro (S10, October 13, 2025) gives the load-in claim as its own unquoted paraphrase, 'failing to properly load his touring equipment in and out of arenas'. The article puts it in quotation marks as the countersuit's words and changes 'arenas' to 'venues'. The same Billboard piece reports the countersuit's statement that the alleged $1.8 million scheme 'was unsuccessful ... as Rod identified and rejected this exclusivity language'. The article omits this, leaving readers to assume a clause was slipped into his contract. That changes how an allegation against a named third party, Beau Williams, reads.",
+    "unverified_source:S01",
+    "unverified_source:S10",
+    "unverified_source:S13",
+    "unresolved_review:fan-06",
+    "overall_below_8.5:7.5",
+    "evidence_below_8:7",
+    "enneagram_below_8:7"
+  ],
+  "quality": {
+    "evidence": 7,
+    "enneagram": 7,
+    "originality": 8.5,
+    "writing": 7.5,
+    "durability": 8,
+    "hook": 8.5,
+    "discoverability": 8,
+    "overall": 7.5,
+    "letter": "C",
+    "rubric_version": 3,
+    "graded_at": "2026-09-18",
+    "caps_applied": [],
+    "needs_review": true,
+    "content_sha256": "e198143730c94cc08280db2ba7f4ba8214ee76760952ec723af5e272519d95a3"
+  }
+}

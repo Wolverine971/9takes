@@ -1,0 +1,1028 @@
+{
+  "schema_version": 3,
+  "content_sha256": "e198143730c94cc08280db2ba7f4ba8214ee76760952ec723af5e272519d95a3",
+  "evidence_sha256": "b460655f9bb77bb51d486412345880e712a78a2034d5170f48d9d821c85a7cc6",
+  "status": "revise",
+  "findings": [
+    {
+      "id": "verify-01",
+      "severity": "blocker",
+      "passage": "The strongest Four evidence is recent and unprompted. Describing that collapse to Sharpe, he said what he had wanted from the people around him: \"People should be telling me it's going to be okay. People should be trying to help me.\" Then he described his own habit of mind as \"my problems, my music, I'm sad, my this, my that,\" and compared himself to a character who thinks the world revolves around her.",
+      "problem": "Editor-introduced context distortion in suicide-adjacent testimony. Club Shay Shay auto transcript, re-pulled 2026-09-18, ~101:45-108:10: Sharpe asks whether Rod missed signs before Lil Poppa's suicide, and these lines are part of that answer. Rod brings up the Fault in Our Stars character to make the point that 'it's not this about me... Everybody going through something'. He then says he felt people should be telling him it would be okay, and adds 'that situation really woke me up... you got to check on your strong friends'. 'my problems, my music, I'm sad, my this, my that' comes after 'could I have done better, dog?' about Poppa. The article presents a self-criticism he says he outgrew as his current 'habit of mind', calls it 'unprompted', and makes it the strongest Four evidence. It drops the fact that in the same breath he corrects himself toward the ordinary, which is the article's own leading Nine discriminator. The editor added this material at edit stage (C92), taken from the same passage that subject-01, fan-06 and critic-09 flagged. No reviewer has seen this framing. The Type 4 FAQ (C80) repeats it.",
+      "acceptance_test": "Body and Type 4 FAQ present the lines as a retrospective self-criticism: while the tour was falling apart he was absorbed in his own problems, and he says the period 'woke me up' to the fact that 'everybody going through something'. No death needs to be named, but the text no longer calls it 'unprompted' or a present 'habit of mind'. The article says whether the self-correction counts for the Four reading, the Nine reading or neither. C92 and C80 record the question he was answering and the ~104:00-108:10 locator. This is new edit-stage use of suicide-adjacent material, so the repaired passage goes to the expanded jury before release."
+    },
+    {
+      "id": "verify-02",
+      "severity": "major",
+      "passage": "Then he was gone for nineteen months, and _Don't Look Down_ arrived in August 2026 and debuted at No. 1 with 99,000 equivalent album units. One rebuke and a long exit is the pattern, not an absence of grievance.",
+      "problem": "Nineteen months is the gap between albums, not an absence, and the packet's own sources say so. Wikipedia (S16) records the 'Sinners' single in April 2025, three months after the hiatus post. Rolling Stone (S14) reports it earned his first Grammy nomination. Billboard (S06, September 8, 2025) reports a sold-out hometown arena show in Tampa on August 29, 2025. Mainstay launched in 2025, and the countersuit coverage (S10) announces his Redemption Experience tour. The article itself mentions Mainstay, the September 2025 interview and the 'Sinners' nomination. The claim does argumentative work in three places: the Type 8 discriminator ('The January 2025 criticism produced one rebuke and a nineteen-month absence'), the pattern claim quoted above, and 'the long quiet that followed it' in the closing. None of these three statements about absence is inventoried as a claim.",
+      "acceptance_test": "Every mention describes the gap accurately: nineteen months between albums, with the April 2025 single, the 2025 Mainstay launch and the August 2025 return to the stage dated. The exit-rather-than-argument reading is re-weighed against a step back of months, not a year and a half. 'The long quiet' is corrected. The absence claim is inventoried with S06/S16 support."
+    },
+    {
+      "id": "verify-03",
+      "severity": "major",
+      "passage": "Two adult charges allege violence.",
+      "problem": "This mischaracterizes a pending criminal case. The LA Times (S13, May 21, 2025), which the article cites, reports the May 2025 Fulton County booking on 14 charges, including aggravated and simple assault and 'pointing or aiming a gun or pistol at another'. Rolling Stone (S14, November 10, 2025) recaps them as aggravated assault, aiming a gun at someone, simple assault and battery. At least three adult cases allege violence, not two. For the May case the article prints only the defense's account ('a victim of a burglary') and then says 'Neither alleges anger.' That treats one side's framing of a disputed matter as fact. Neither sentence is in the evidence inventory.",
+      "acceptance_test": "The May 2025 case names the nature of the charges neutrally (for example 'charged with aggravated assault and other counts from an April 2025 incident') beside his lawyers' denial and the absence of any reported disposition. The count of violence-alleging adult cases is corrected or removed. 'Neither alleges anger' is limited to the November drug and weapons case or deleted. The section still draws no personality inference from any charge. The corrected sentences are inventoried with S13/S14 and an unresolved review_trigger."
+    },
+    {
+      "id": "verify-04",
+      "severity": "major",
+      "passage": "The second discriminator is the shape of his fights, and it is aimed at Type 8. He fights often, but never face to face.",
+      "problem": "The discriminator against Type 8 is stated as an absolute no source can establish, and the article's own later sections complicate it. The temper section reports a promoter's claim that Rod hit him after the 2020 stage collapse, the 2022 domestic battery charge, and the May 2025 assault case (see verify-03). It also quotes his own account of expressing adolescent anger 'in dangerous' ways. The article is right not to treat unproven allegations as evidence, but the same rule stops it asserting the opposite. The record supports something narrower: his documented disputes with his label, his promoter and his critics ran through a post, a filing and an exit. As written, the Nine-over-Eight case claims more than the evidence shows.",
+      "acceptance_test": "The claim is limited to the documented business and public disputes. The article says the untested physical-confrontation allegations count neither way. With verify-02 corrected, the paragraph no longer relies on a nineteen-month absence. C99's inference and alternative state the limit. If the narrowed discriminator no longer separates 9 from 8, the type section, FAQ and type_hypothesis say so."
+    },
+    {
+      "id": "verify-05",
+      "severity": "major",
+      "passage": "It alleges that Grizzly failed to \"properly load his touring equipment in and out of the venues\" and made \"unilateral, onerous and inexplicable routing and booking decisions\"",
+      "problem": "A court filing is misquoted in the sensitive-allegations section. Billboard Pro (S10, October 13, 2025) gives the load-in claim as its own unquoted paraphrase, 'failing to properly load his touring equipment in and out of arenas'. The article puts it in quotation marks as the countersuit's words and changes 'arenas' to 'venues'. The same Billboard piece reports the countersuit's statement that the alleged $1.8 million scheme 'was unsuccessful ... as Rod identified and rejected this exclusivity language'. The article omits this, leaving readers to assume a clause was slipped into his contract. That changes how an allegation against a named third party, Beau Williams, reads.",
+      "acceptance_test": "The load-in allegation is given as Billboard's summary, without quotation marks, or with Billboard's exact wording. Only the source's own quoted phrases stay in quotation marks. The Williams sentence adds that the countersuit says the attempt failed because he rejected the clause. C36's passage and inference are updated."
+    },
+    {
+      "id": "verify-06",
+      "severity": "minor",
+      "passage": "Rod called it \"maybe a 50/50 problem\"",
+      "problem": "Several quotations drift from their sources. (1) Club Shay Shay ~6:20 reads 'it might be a 50/50 problem'; 'maybe' is not in the quoted phrase. (2) Breakfast Club ~7:10 reads 'I give them so so little that they got to use they got to work with what they got'; the quotation removes a repetition and a false start without marking them. (3) Club Shay Shay ~26:05 reads 'I'm stoked with the aftermath of what you guys ruined'. 'stuck' is a plausible fix for an auto-transcript error ('I'm stuck cleaning up what y'all messed up' follows), but it is unmarked. (4) DJ Smallz Eyes 2018 ~23:07 answers 'any regrets' with 'I regret stealing from innocent people'; 'deepest regret' adds a superlative. (5) Billboard 2023 says his father put him in football 'when I got out of jail', meaning his own juvenile detention; 'who put him into football after prison' says prison and is ambiguous about whose.",
+      "acceptance_test": "(1) is quoted as 'a 50/50 problem' or 'it might be a 50/50 problem'. (2) and (3) are confirmed against the audio, or the changes are marked. (4) says he named it as his regret. (5) says after his stint in juvenile detention, or quotes Billboard."
+    },
+    {
+      "id": "verify-07",
+      "severity": "minor",
+      "passage": "He flattens it, and he was doing it before there was an album to sell.",
+      "problem": "The 2020 Complex interview behind this sentence ran on April 3, 2020, the release day of Pray 4 Love, and Complex frames it around that album. There was an album to sell. What the argument needs, and what the next paragraph states correctly, is that in 2020 he had 'no reputation for calm to protect' and no growth-themed album to promote.",
+      "acceptance_test": "The sentence says what the 2020 material predates (the calmer-man album cycle and any reputation for calm), not that no album was being promoted."
+    },
+    {
+      "id": "verify-08",
+      "severity": "minor",
+      "passage": "Lane died in July 2024, seven months before the Last Lap tour fell apart, and no cause of death has been publicly released",
+      "problem": "Revolt/Rap-Up (S20, July 3, 2024) says only that no cause had been revealed 'at the time of reporting'. On Club Shay Shay (August 26, 2026, ~105:02) Rod himself said his uncle 'passed away the same way' as Lil Poppa, while also saying he could not believe it. As a present-tense statement in September 2026, 'no cause of death has been publicly released' is inaccurate. The editor was right not to repeat Rod's remark.",
+      "acceptance_test": "The sentence says no official cause of death has been released, or that Revolt reported at the time that no cause had been revealed. It adds no remark about the manner of death. C87 notes the S01 remark and why it is not used."
+    },
+    {
+      "id": "verify-09",
+      "severity": "minor",
+      "passage": "He sounded similarly settled to Billboard in September 2025, three weeks before Grizzly Touring's suit made the dispute public.",
+      "problem": "The dispute was already public. Billboard's September 8, 2025 introduction reports that the tour was cancelled 'due to production and routing issues'. In the same interview he blamed 'the routing', and Grizzly's complaint cites that interview as public blame (S06 context). What the suit made public was the litigation, not the dispute.",
+      "acceptance_test": "The sentence reads 'three weeks before Grizzly Touring sued him' or equivalent, and C78 is updated."
+    },
+    {
+      "id": "verify-10",
+      "severity": "minor",
+      "passage": "He turned himself in on a misdemeanor battery charge in Atlanta in September 2021, after a promoter said Rod hit him following a 2020 show where a stage collapsed ([Los Angeles Times, May 21, 2025]",
+      "problem": "The promoter's accusation and the stage collapse come from the Tampa Bay Times (S08, September 22, 2021). The linked Los Angeles Times piece reports only the September 2021 Fulton County booking and the October 2020 offense date. The allegation is credited to the wrong source where it appears.",
+      "acceptance_test": "The promoter's allegation is attributed to the Tampa Bay Times in the passage; the Los Angeles Times link stays for the booking."
+    }
+  ],
+  "research_tasks": [
+    "Confirm the S01-S03 quotations against the audio before publication, with priority on the runs this verification found drifting or out of context: Club Shay Shay ~101:45-108:10 (C92/C80 and its question), ~6:20 (C15, 'it might be a 50/50 problem'), ~26:05 (C37, 'stoked'/'stuck'), ~66:40-70:35 (C28/C29 speaker turns), and Breakfast Club ~7:10 (C19).",
+    "Get dispositions for the September 2021 Fulton County battery booking, the May 2025 Fulton County case (aggravated assault and related counts) and the November 2025 drug and weapons booking, plus Grizzly Touring v. Green and the counterclaims. Record the court and case numbers so the review triggers can be acted on.",
+    "Establish what he did publicly between the January 2025 hiatus post and the August 2026 album (the April 2025 'Sinners' release, the August 29, 2025 Tampa show, whether the Redemption Experience tour announced for December 2025 went ahead), so the gap can be described exactly.",
+    "Add a dated source for the Ye SoFi Stadium shows (search results point to April 1 and 3, 2026) to the packet if the 2026 date stays in the article; S17 does not give a date."
+  ],
+  "claim_checks": [
+    {
+      "claim_id": "C01",
+      "verdict": "supported",
+      "reason": "Wikipedia gives Rodarius Marcell Green, August 27, 1998, St. Petersburg. The Tampa Bay Times confirms the name and city, and Sharpe's on-air birthday remark (S01) agrees with the date."
+    },
+    {
+      "claim_id": "C02",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: 'just before middle school, Rod's father was sentenced to six years in state prison'; the nickname 'Fatz' appears in the same article."
+    },
+    {
+      "claim_id": "C03",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: Lane 'stepped in as the central male presence in his life. A year later, Lane went to federal prison.' Revolt corroborates the federal sentence."
+    },
+    {
+      "claim_id": "C04",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: Daijha 'died from cancer at age 17, when Rod was 14'. The lyric is printed verbatim."
+    },
+    {
+      "claim_id": "C05",
+      "verdict": "supported",
+      "reason": "Matches the Tampa Bay Times text: arrested at 15 in 2014 after a break-in; the .357 admission as police told it; 'the shooting charge was dropped. The victim called it an accident'; the counselor's PTSD remark, correctly framed as not a diagnosis."
+    },
+    {
+      "claim_id": "C07",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: August 2016, Menage Lounge, Clearwater, age 17. Billboard: 'first-ever performance was at a high school football teammate's birthday party in 2015.' The article attributes each version."
+    },
+    {
+      "claim_id": "C08",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~120:05-120:30 matches word for word apart from a dropped leading 'Because'. He says the practice applied to strip clubs and parties generally."
+    },
+    {
+      "claim_id": "C09",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times verbatim. Billboard 2023 independently reports that shyness made him shrug off questions at the Krispy Kreme drive-thru, though it places the job during high school rather than after graduation."
+    },
+    {
+      "claim_id": "C10",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: signed by Alamo in early 2018, followed by 'more than 100 shows, mostly at small clubs around Florida'."
+    },
+    {
+      "claim_id": "C11",
+      "verdict": "supported",
+      "reason": "Billboard chart desk, September 6, 2026: fourth No. 1 and eighth top-10 project, 'comprising the entirety of his charted titles'."
+    },
+    {
+      "claim_id": "C12",
+      "verdict": "qualified",
+      "reason": "Chart facts verified: No. 1 debut, 99,000 units, and nineteen months from the January 2025 post to the August 28, 2026 release. But 'he was gone for nineteen months' is contradicted by the April 2025 'Sinners' single, the 2025 Mainstay launch and the August 29, 2025 Tampa arena show (verify-02)."
+    },
+    {
+      "claim_id": "C15",
+      "verdict": "qualified",
+      "reason": "Substance verified (Club Shay Shay ~5:10-6:30): Sharpe relays a fan's viral complaint, and Rod says 'maybe I'm not interacting enough or maybe I'm not putting myself out there enough'. The transcript reads 'it might be a 50/50 problem', not 'maybe a 50/50 problem' (verify-06)."
+    },
+    {
+      "claim_id": "C17",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~7:22-7:28 verbatim, answering the awards and validation question."
+    },
+    {
+      "claim_id": "C19",
+      "verdict": "qualified",
+      "reason": "Both halves of the answer verified (Breakfast Club ~6:45-9:57). 'Nah' answers 'Is that by design? Like you don't do a lot of interviews'. The quoted 'I give them so little that they got to work with what they got' silently drops 'so so' and the false start 'they got to use' (verify-06)."
+    },
+    {
+      "claim_id": "C20",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~51:16-51:18 verbatim; the transcript marks the speaker changes."
+    },
+    {
+      "claim_id": "C21",
+      "verdict": "supported",
+      "reason": "Complex 2020 verbatim. Club Shay Shay ~98:30-98:50 verbatim, including 'my mama tried'. Breakfast Club ~14:17 'I'd go around my homeboys and they understand how I feel' verbatim."
+    },
+    {
+      "claim_id": "C22",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times verbatim in substance: 4 a.m. in an Airbnb closet or an airport lounge, the 'Brace Face' vocals under a hotel comforter, never seen him write a lyric."
+    },
+    {
+      "claim_id": "C23",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~10:05-11:08 verbatim. Charlamagne's premise and Rod's rejection of it are reported in order; the ellipsis stands in for a repeated 'it's not'."
+    },
+    {
+      "claim_id": "C24",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~21:40-22:34: 'Yeah, been there... not like everyday' verified. The Billboard 2023 sentence is verbatim."
+    },
+    {
+      "claim_id": "C25",
+      "verdict": "supported",
+      "reason": "Billboard Q&A, September 8, 2025, verbatim. Context: explaining why people relate to him and his growth album."
+    },
+    {
+      "claim_id": "C26",
+      "verdict": "supported",
+      "reason": "Complex, April 3, 2020, verbatim. 'Just like you' continues in the original as ', I've got ups and down', a fair truncation. 'one of us making music' verbatim."
+    },
+    {
+      "claim_id": "C28",
+      "verdict": "qualified",
+      "reason": "Words verified at Club Shay Shay ~66:43-67:39. 'I done been heartbroke' follows Sharpe's line with no speaker marker, so attribution rests on turn structure. The article discloses this."
+    },
+    {
+      "claim_id": "C29",
+      "verdict": "qualified",
+      "reason": "Every fragment verified at ~68:55-70:25. The article's 'So' joins two strands the transcript keeps apart: the brain-training follows heartbreak hurting his work, and being left 'before me' leads to the relational lesson. A fair compression, flagged for audio."
+    },
+    {
+      "claim_id": "C30",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~57:10-57:41 verified: big king bed, freshly cleaned house, AC on 65, Apple TV show with 'baby', good meetings at the office."
+    },
+    {
+      "claim_id": "C32",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~132:29 'Turtle race continue'. Breakfast Club ~38:39-38:47 verbatim. The documentary title comes from the Wikipedia filmography only; the film was not viewed."
+    },
+    {
+      "claim_id": "C34",
+      "verdict": "supported",
+      "reason": "HipHopDX, January 31, 2025: the Nashville show on January 28 was cancelled moments before he was due on stage, and the rest of the tour followed."
+    },
+    {
+      "claim_id": "C35",
+      "verdict": "supported",
+      "reason": "Billboard Pro, October 1, 2025: 'a Monday (Sept. 29) federal court lawsuit', $57 million advanced, $27 million outstanding. The production-scale allegation is correctly attributed as Billboard's summary."
+    },
+    {
+      "claim_id": "C36",
+      "verdict": "qualified",
+      "reason": "The countersuit's substance matches Billboard Pro, October 13, 2025. But the article quotes 'properly load his touring equipment in and out of the venues' as the countersuit's words when it is Billboard's unquoted paraphrase and reads 'arenas'. It also omits the countersuit's statement that the alleged scheme failed (verify-05)."
+    },
+    {
+      "claim_id": "C37",
+      "verdict": "qualified",
+      "reason": "Club Shay Shay ~25:20-27:10 verified: the blame of the partners comes before the conditional 'if it mess up', as the article says, and the article's reading is correct. The transcript reads 'stoked with the aftermath'; the article silently corrects it to 'stuck' (verify-06)."
+    },
+    {
+      "claim_id": "C38",
+      "verdict": "supported",
+      "reason": "HipHopDX quotes Lennox verbatim: 'evil, racist and demonic fans', 'Privately or publicly', 'Headliners, protect your openers'. 'Last year' dates it to 2024. Breakfast Club ~45:50-46:55 confirms the question was only about the booking, and the quoted answers are verbatim."
+    },
+    {
+      "claim_id": "C39",
+      "verdict": "supported",
+      "reason": "HipHopDX reproduces the post verbatim."
+    },
+    {
+      "claim_id": "C40",
+      "verdict": "supported",
+      "reason": "Rolling Stone, May 2022 with the May 19 update: felony domestic battery by strangulation, not-guilty plea, dismissal, and the Bradford Cohen quote."
+    },
+    {
+      "claim_id": "C41",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: after the October 2020 Atlanta stage collapse the promoter said Rod hit him, and he turned himself in on September 6 on a misdemeanor battery charge. The LA Times confirms the Fulton County booking. The promoter detail should be credited to the Times at the passage (verify-10)."
+    },
+    {
+      "claim_id": "C42",
+      "verdict": "qualified",
+      "reason": "The lawyers' statements are verbatim (LA Times May 21, 2025; Rolling Stone November 10, 2025), and the November 7 date and same-day Grammy nomination are verified. But the surrounding text leaves out that the May charges include aggravated assault and pointing a gun at another, and says neither case alleges anger (verify-03)."
+    },
+    {
+      "claim_id": "C43",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~96:32-96:39 verbatim; the connection to his father's own temper is in the same run."
+    },
+    {
+      "claim_id": "C44",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~14:24-14:38 verbatim."
+    },
+    {
+      "claim_id": "C45",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~26:09-26:12 verbatim, with the restored 'I just wanted to be in control'. Billboard 2025 and Wikipedia date Mainstay to 2025."
+    },
+    {
+      "claim_id": "C46",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~28:58 and DancehallMag verified. The 2026 date is not in any packet source but matches March 2026 trade coverage of the April 2026 SoFi shows found by search (research task)."
+    },
+    {
+      "claim_id": "C50",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: former teammate Erik Hill-Cainion, and coach Cory Moore's locker-room timer."
+    },
+    {
+      "claim_id": "C51",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times verbatim. The article gives no motive for wanting Jannus Live."
+    },
+    {
+      "claim_id": "C52",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times verbatim, dated to 2021 in the text."
+    },
+    {
+      "claim_id": "C53",
+      "verdict": "supported",
+      "reason": "yt-dlp confirms upload dates of 2026-08-10, 2026-08-26 and 2026-08-28. Wikipedia lists Don't Look Down as his seventh studio album. This verification also worked from automatic transcripts, as the sentence discloses."
+    },
+    {
+      "claim_id": "C54",
+      "verdict": "supported",
+      "reason": "Billboard 2023: Moscowitz's karaoke line verbatim."
+    },
+    {
+      "claim_id": "C56",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~51:30-52:28: Charlamagne proposes the frame, Rod agrees, and 'betrayal is like a decision' is verbatim."
+    },
+    {
+      "claim_id": "C58",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~28:52-29:01 verbatim, answering 'what have you healed from'. The article's 'younger self' framing respects that."
+    },
+    {
+      "claim_id": "C59",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times photo caption: SoulFly tour, MidFlorida Credit Union Amphitheatre, Tampa, Saturday September 11, 2021. The article also says he was 23."
+    },
+    {
+      "claim_id": "C60",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: 'shy and uncomfortable with sharing anything publicly'. Billboard: 'Though Rod feared rejection', about Simmons's hallway video posted to Facebook."
+    },
+    {
+      "claim_id": "C61",
+      "verdict": "supported",
+      "reason": "Complex verbatim. The quote drops a trailing ', recording' at its end, which is harmless."
+    },
+    {
+      "claim_id": "C62",
+      "verdict": "supported",
+      "reason": "HipHopDX reproduces the post verbatim."
+    },
+    {
+      "claim_id": "C64",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times: 'Popular Loner on a mixtape titled PTSD'; 'His tattooed forearms read Hard Times.'"
+    },
+    {
+      "claim_id": "C65",
+      "verdict": "qualified",
+      "reason": "Charlamagne (~10:05) asked about someone who 'seems like they carry so much pain at least in their music'. The paraphrase drops the hedge, but it is not in quotation marks and Rod's rejection of the premise is reported."
+    },
+    {
+      "claim_id": "C66",
+      "verdict": "qualified",
+      "reason": "Tampa Bay Times closing scene verbatim. That Julius is the 15-year-old patient named earlier is a strong inference ('the boy with cancer from the Children's Dream Fund' follows 'a 15-year-old cancer patient'), not an explicit statement."
+    },
+    {
+      "claim_id": "C67",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~14:03 'my hobby, my therapy' verbatim."
+    },
+    {
+      "claim_id": "C68",
+      "verdict": "supported",
+      "reason": "Apple Music ~11:12 verbatim, asked about his 19-year-old music; he adds that it is 'just a part of growing'."
+    },
+    {
+      "claim_id": "C69",
+      "verdict": "supported",
+      "reason": "Wikipedia discography lists seven studio albums, 2019-2026."
+    },
+    {
+      "claim_id": "C70",
+      "verdict": "supported",
+      "reason": "The FAQ restates C35 and C36 accurately at summary level and marks both as allegations."
+    },
+    {
+      "claim_id": "C71",
+      "verdict": "supported",
+      "reason": "The description summarizes C21 and C54 without overstatement."
+    },
+    {
+      "claim_id": "C72",
+      "verdict": "supported",
+      "reason": "An interpretation, immediately anchored to the verified C17 quote."
+    },
+    {
+      "claim_id": "C74",
+      "verdict": "supported",
+      "reason": "The type answer is consistent with C15, C23 and C26 and is under 60 words."
+    },
+    {
+      "claim_id": "C75",
+      "verdict": "supported",
+      "reason": "The interpretation is correctly scaled down, given the verified baseline in C29."
+    },
+    {
+      "claim_id": "C76",
+      "verdict": "qualified",
+      "reason": "The 2020, 2025 and 2026 corrections are all verified. But the adjacent claim that he did this 'before there was an album to sell' is wrong: the Complex interview promoted Pray 4 Love on its release day (verify-07)."
+    },
+    {
+      "claim_id": "C77",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~14:26-14:30 verbatim, in the label-deal context."
+    },
+    {
+      "claim_id": "C78",
+      "verdict": "qualified",
+      "reason": "Dates verified: September 8 and September 29, 2025. But 'made the dispute public' overstates, since in that same interview he publicly blamed the routing (verify-09)."
+    },
+    {
+      "claim_id": "C79",
+      "verdict": "supported",
+      "reason": "The FAQ restates C20 and C67 accurately and dates his position."
+    },
+    {
+      "claim_id": "C80",
+      "verdict": "qualified",
+      "reason": "The FAQ repeats the C92 self-description without its self-critical context (verify-01)."
+    },
+    {
+      "claim_id": "C81",
+      "verdict": "supported",
+      "reason": "The FAQ restates C74 accurately."
+    },
+    {
+      "claim_id": "C82",
+      "verdict": "supported",
+      "reason": "The Tampa Bay Times prints the lyrics. The comparative 'few artists' is presented as judgment."
+    },
+    {
+      "claim_id": "C83",
+      "verdict": "supported",
+      "reason": "Framed as the article's reading ('seems'). Supported by C66, C52 and C21."
+    },
+    {
+      "claim_id": "C84",
+      "verdict": "supported",
+      "reason": "Tampa Bay Times verbatim: 'They'll recite every word', 'We call it the choir', 'arrived quietly at the last minute'."
+    },
+    {
+      "claim_id": "C85",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~109:20-109:34 verbatim, answering a question about handling problems alone. Placing it in the Type 8 case is a fair reading."
+    },
+    {
+      "claim_id": "C86",
+      "verdict": "supported",
+      "reason": "The Tampa Bay Times and Billboard both record the TikTok spread and the Hot 100 debut. Complex has 'I didn't even know what that was.'"
+    },
+    {
+      "claim_id": "C87",
+      "verdict": "qualified",
+      "reason": "Revolt/Rap-Up, July 3, 2024, and the Tampa Bay Times confirm his return, the manager role and the death date. But the present-tense 'no cause of death has been publicly released' conflicts with Rod's own August 2026 on-air remark (~105:02) (verify-08)."
+    },
+    {
+      "claim_id": "C88",
+      "verdict": "qualified",
+      "reason": "Verified: the Billboard 2023 football-discipline quote, Club Shay Shay ~23:40 'made me discipline', and ~26:25-26:32 'my kids... My health'. But 'after prison' should be after his own juvenile jail stint (verify-06)."
+    },
+    {
+      "claim_id": "C89",
+      "verdict": "supported",
+      "reason": "The Tampa Bay Times and Billboard both report twin daughters, and the Billboard quote is verbatim. Billboard places the birth during the pandemic."
+    },
+    {
+      "claim_id": "C90",
+      "verdict": "supported",
+      "reason": "HipHop-N-More, January 31, 2021, quotes the Instagram Story and the album-delay blame. Wikipedia records the threat to withhold the album. Alamo is still his label per Billboard 2023 and Wikipedia."
+    },
+    {
+      "claim_id": "C91",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~48:48 verbatim, in a 'trust is earned' answer."
+    },
+    {
+      "claim_id": "C92",
+      "verdict": "qualified",
+      "reason": "The words are verified at ~106:21-107:59, but they are part of his answer about missing signs before Lil Poppa's suicide, offered as a self-criticism he says that period 'woke me up' from. The article presents it as a present 'habit of mind', offered 'unprompted' (verify-01)."
+    },
+    {
+      "claim_id": "C93",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~6:00, ~7:06 and ~8:44-8:46 verbatim. Billboard 2023 has 'Grammys and sh-t'. Rolling Stone, November 2025, confirms the nomination."
+    },
+    {
+      "claim_id": "C94",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~120:46: 'the same guy would book me and stuff and I start being able to hang out'. 'Same promoters' pluralizes a single booker, which is harmless."
+    },
+    {
+      "claim_id": "C95",
+      "verdict": "supported",
+      "reason": "DancehallMag verbatim."
+    },
+    {
+      "claim_id": "C96",
+      "verdict": "supported",
+      "reason": "Club Shay Shay ~69:30-69:40 verbatim."
+    },
+    {
+      "claim_id": "C97",
+      "verdict": "supported",
+      "reason": "Breakfast Club ~15:10-15:15 verbatim in substance."
+    },
+    {
+      "claim_id": "C98",
+      "verdict": "qualified",
+      "reason": "Tampa Bay Times verified on financial pressure and on deep regret (said to Koncrete in 2018). DJ Smallz Eyes ~23:07 'I regret stealing from innocent people' confirmed in substance. 'Deepest regret' is an unsupported superlative (verify-06)."
+    },
+    {
+      "claim_id": "C99",
+      "verdict": "qualified",
+      "reason": "The documented business and public disputes (the Alamo post, the countersuit, the hiatus post) are indirect as described. But 'never face to face' is an absolute no source supports and the article's own allegations section complicates (verify-04), and the 'nineteen-month absence' in the same paragraph is wrong (verify-02)."
+    },
+    {
+      "claim_id": "C100",
+      "verdict": "supported",
+      "reason": "The Type 8 case is built from verified lines (C77, C85, C91, C43, C45), and Type 5 is noted."
+    },
+    {
+      "claim_id": "C101",
+      "verdict": "supported",
+      "reason": "An interpretation, built on verified C02-C04 and stated as a concession."
+    },
+    {
+      "claim_id": "C102",
+      "verdict": "supported",
+      "reason": "C88 and C95 are verified, and the contrast is stated accurately."
+    },
+    {
+      "claim_id": "C103",
+      "verdict": "supported",
+      "reason": "No disposition appears in the coverage reviewed, the latest of which is Rolling Stone, November 10, 2025. The sentence is tied to that coverage rather than asserted as current."
+    }
+  ],
+  "source_checks": [
+    {
+      "source_id": "S01",
+      "opened": true,
+      "context_matches": false,
+      "locator": "YouTube auto transcript re-pulled 2026-09-18 (upload 2026-08-26, 2:13:02). Verified ~5:10-8:46, 14:26-14:30, 22:30-23:55, 25:20-27:10, 28:58, 48:48, 66:40-70:35, 96:32, 98:30-98:50, 101:45-108:10, 109:20-109:34, 120:05-120:56 and 132:29. Every use matches except C92/C80: the ~104:00-108:10 run is his self-reproach over Lil Poppa and is presented without that frame (verify-01). Minor wording drift at ~6:20 and ~26:05 (verify-06)."
+    },
+    {
+      "source_id": "S02",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto transcript re-pulled 2026-09-18 (upload 2026-08-10, 1:00:06). Verified ~6:45-11:08, 14:03-15:15, 21:40-22:34, 28:52-29:01, 38:39-38:47, 45:50-46:55, 51:16-52:28 and 57:10-57:41. 'so so little' at ~7:10 is cleaned up without a mark (verify-06)."
+    },
+    {
+      "source_id": "S03",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto transcript re-pulled 2026-09-18 (upload 2026-08-28, 31:47). At ~11:12, 'Damn, I was a little dramatic' answers a question about his 19-year-old music; '40% of talent' at ~2:09."
+    },
+    {
+      "source_id": "S04",
+      "opened": true,
+      "context_matches": true,
+      "locator": "YouTube auto transcript re-pulled 2026-09-18 (upload 2018-08-29, 29:21), poor quality. ~13:30-15:30: stealing to relieve pressure on his mother. ~22:40-24:30: 'I regret stealing from innocent people', answering 'any regrets'. Used as paraphrase only; 'deepest' is not in the source (verify-06)."
+    },
+    {
+      "source_id": "S05",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Billboard feature posted 2023-12-08, fetched in full. Verified: the first-performance paragraph, 'Though Rod feared rejection', the football-discipline quote ('when I got out of jail'), the depression/anxiety/suicidal-thoughts sentence, twins and 'made me softer', the karaoke line, and 'Grammys and sh-t'."
+    },
+    {
+      "source_id": "S06",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Billboard Q&A posted 2025-09-08, fetched in full. 'I'm not like a superstar or a fairy tale...' verified in the growth-album answer. The introduction also records the August 29, 2025 sold-out Tampa arena show, which contradicts 'gone for nineteen months' elsewhere in the article (verify-02)."
+    },
+    {
+      "source_id": "S07",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Complex, 2020-04-03 (Pray 4 Love release day), fetched in full. Verified: the no-features sentence, the dark-room quote, 'I don't really discuss...', 'I am a human. Just like you', 'one of us making music' and the TikTok answer. It was an album-promotion interview (verify-07)."
+    },
+    {
+      "source_id": "S08",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Internet Archive capture (2024-04-09) of the Tampa Bay Times, 2021-09-22 (updated 2022-11-09), fetched in full. Verified: the backstage opening, Jannus Live and Lieber, the choir, 'arrived quietly', 'did not speak with the Tampa Bay Times', the childhood, Lane and Daijha material, the 2014 arrest, Simmons, the timer, Menage Lounge, Krispy Kreme, twins, the 2020 stage collapse and battery surrender, and the closing Julius scene."
+    },
+    {
+      "source_id": "S09",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Billboard Pro, 2025-10-01, fetched in full. Verified the Monday (Sept. 29) federal suit, $57M/$27M and the production-scale paraphrase."
+    },
+    {
+      "source_id": "S10",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Billboard Pro, 2025-10-13, fetched in full. Verified 'Sunday (Oct. 12)', 'logistically impossible', the routing quote, '12 of the 35', the $1.8M allegation, and Williams not returning a comment request. But the load-in wording is Billboard's paraphrase ('arenas'), quoted in the article as filing language with 'venues', and the countersuit's statement that the scheme failed is omitted (verify-05)."
+    },
+    {
+      "source_id": "S11",
+      "opened": true,
+      "context_matches": true,
+      "locator": "HipHopDX, 2025-01-31, fetched in full. Verified the Nashville cancellation, the hiatus post text, and the Lennox quotes including 'Headliners, protect your openers' and the 'Last year' dating."
+    },
+    {
+      "source_id": "S12",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Rolling Stone, 2022-05-19 with update, fetched in full. Verified the felony charge, not-guilty plea, dismissal and Cohen quote."
+    },
+    {
+      "source_id": "S13",
+      "opened": true,
+      "context_matches": false,
+      "locator": "Los Angeles Times, 2025-05-21, fetched in full. Verified the lawyers' 'victim of a burglary' statement and the September 2021 battery booking. It lists the May 2025 charges as including aggravated and simple assault and 'pointing or aiming a gun or pistol at another'. The article omits these, says the case alleges no anger, and counts only two violence-alleging adult charges (verify-03)."
+    },
+    {
+      "source_id": "S14",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Rolling Stone, 2025-11-10, fetched in full. Verified the November 7 booking on drug and weapons charges, 'unjustly profiled and unlawfully arrested', and the same-day first Grammy nomination for 'Sinners'."
+    },
+    {
+      "source_id": "S15",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Billboard chart desk, 2026-09-06, fetched in full. Verified 99,000 units, fourth No. 1, and eighth top-10 comprising all charted titles."
+    },
+    {
+      "source_id": "S16",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Wikipedia, fetched 2026-09-18, used as an index only. Birth date, seven studio albums, 2025 documentary title and 2025 Mainstay founding verified. It also records the April 2025 'Sinners' single and the Redemption Experience tour (2025-26), which bear on verify-02."
+    },
+    {
+      "source_id": "S17",
+      "opened": true,
+      "context_matches": true,
+      "locator": "DancehallMag, 2026-08-29, fetched in full. Verified 'I didn't want other people to say maybe that only worked for you' and 'no matter what you do, you cannot take that from me'; Mainstay promoted a Kanye West SoFi show. No date is given for the show."
+    },
+    {
+      "source_id": "S18",
+      "opened": true,
+      "context_matches": true,
+      "locator": "HipHop-N-More, published 2021-01-31, fetched in full. Verified the Instagram Story call-out over pay and the blame for the album delay. The underlying posts were not viewed."
+    },
+    {
+      "source_id": "S20",
+      "opened": true,
+      "context_matches": true,
+      "locator": "Revolt (Rap-Up), 2024-07-03, fetched in full. Verified the confirmation that 'Uncle Dee' was his manager, the July 3 date, and that no cause had been revealed 'at the time of reporting'. See verify-08 on the article's present-tense extension."
+    }
+  ],
+  "decision_checks": [
+    {
+      "finding_id": "subject-01",
+      "accepted": true,
+      "reason": "Verified: the Lil Poppa passage and the NBC link are gone from the body and metadata; the test allows removal. The replacement use of the same Club Shay Shay run (C92) creates a separate problem, raised as verify-01."
+    },
+    {
+      "finding_id": "subject-02",
+      "accepted": true,
+      "reason": "Verified in 'The countersuit': the partner-blame quotes come before the 'blaming myself' line, which is identified as forward-looking. 'Nothing public closes the gap' is gone, and the lawsuit is no longer offered as a test of his sincerity. Checked against transcript ~25:20-27:10."
+    },
+    {
+      "finding_id": "subject-03",
+      "accepted": true,
+      "reason": "Verified: no sentence ties Grizzly's allegation to 'things done a certain way'; the counter-account and the FAQ carry his production-failure allegation. Its wording has its own quotation error (verify-05)."
+    },
+    {
+      "finding_id": "subject-04",
+      "accepted": true,
+      "reason": "Verified: 'did not absorb all of it' is gone, the limits are stated, his own account (C97, C98) is in, and no allegation is used as evidence. The new characterization of the May 2025 case is a separate error (verify-03)."
+    },
+    {
+      "finding_id": "subject-05",
+      "accepted": true,
+      "reason": "Verified against Breakfast Club ~45:50-46:55: the article says what he was asked, includes 'management call' and his wish to work with her again, and no longer implies a dodge or a conflict-avoidance motive."
+    },
+    {
+      "finding_id": "subject-06",
+      "accepted": true,
+      "reason": "Verified: the status is tied to the coverage (latest November 2025) rather than 'as of September 2026', and the no-response note for Williams/AG is present. The claim that none appears in the coverage matches Billboard's 'did not immediately return a request for comment'."
+    },
+    {
+      "finding_id": "subject-07",
+      "accepted": true,
+      "reason": "Verified: the description says 'talking about his feelings is hard', the homeboys qualifier is in the body, 'declines grievances' is narrowed to awards, and 'seems to be the part of the job he avoids' is framed as the article's reading."
+    },
+    {
+      "finding_id": "subject-08",
+      "accepted": true,
+      "reason": "Verified: the image answer carries both halves and 'Nah', the relational lesson (~69:30-69:40) is included, and 'not like everyday' is kept."
+    },
+    {
+      "finding_id": "fan-01",
+      "accepted": true,
+      "reason": "Verified: Lane's return, his manager role and the July 2024 death (Revolt) are in chronological order, no cause is stated as fact, and the closing says no link can be established. The 'publicly released' wording is refined in verify-08."
+    },
+    {
+      "finding_id": "fan-02",
+      "accepted": true,
+      "reason": "Verified: the discipline explanations and the kids/health cost are in, fatherhood appears twice, and the closing locates the gap in the type. The editor declined 'around 2020', reasoning that no source states the year. Billboard 2023 does place the twins' birth in the pandemic period, so that reasoning is slightly wrong, but leaving the year out introduces no error."
+    },
+    {
+      "finding_id": "fan-03",
+      "accepted": true,
+      "reason": "Verified: 'did not argue with anyone' is gone, the post is described as a rebuke plus an exit in both places, the 2021 Alamo call-out is dated and sourced, and the type answer is narrowed."
+    },
+    {
+      "finding_id": "fan-04",
+      "accepted": true,
+      "reason": "Verified: 'never been part of my character', 'worth on paper', the 2023 Grammy ambition and the November 2025 nomination are all in, and the article now says awards are not a costly test."
+    },
+    {
+      "finding_id": "fan-05",
+      "accepted": true,
+      "reason": "Verified: both halves of the answer are in his words, and the article states that the image evidence is weaker than it looks."
+    },
+    {
+      "finding_id": "fan-06",
+      "accepted": false,
+      "reason": "Partly met. The Lil Poppa passage is removed, but the test also required the 'my problems, my music' / 'people should be telling me' material to be quoted 'or accurately paraphrased' and to explain why the Nine reading survives it. The quotation is accurate word for word but stripped of its self-critical, grief-related frame, and no specific explanation of why Nine survives it is given (verify-01)."
+    },
+    {
+      "finding_id": "fan-07",
+      "accepted": true,
+      "reason": "Verified: the Barclays ladder fall has been removed from the article, which the test allows."
+    },
+    {
+      "finding_id": "fan-08",
+      "accepted": true,
+      "reason": "Verified: his concession about dangerous adolescent anger (~15:10) and his stated motive and regret are in, and the teenage period is separated from the adult cases. A 'deepest' superlative remains (verify-06)."
+    },
+    {
+      "finding_id": "fan-09",
+      "accepted": true,
+      "reason": "Verified: the article says he wanted to play Jannus Live and assigns no motive."
+    },
+    {
+      "finding_id": "fan-10",
+      "accepted": true,
+      "reason": "Verified: 'Heart on Ice' is named with its TikTok spread and Hot 100 entry, the guest-feature line uses Complex's wording, and 'between 2020 and 2025' matches the sources."
+    },
+    {
+      "finding_id": "critic-01",
+      "accepted": true,
+      "reason": "Verified against ~25:20-27:10: the on-record blame is reported, the conditional is identified as being about Mainstay, and the closing no longer presents a false gap."
+    },
+    {
+      "finding_id": "critic-02",
+      "accepted": true,
+      "reason": "Verified: the breakup answer is ranked weakest, the controlling baseline and 'ready before me to leave' are reported, the heading is gone, and the relational lesson is offered as an alternative reading. It could name the Four or ordinary-maturation reading more explicitly, but the claim is scaled down as the test allows."
+    },
+    {
+      "finding_id": "critic-03",
+      "accepted": true,
+      "reason": "Verified: the full image answer and the 'by design' exchange are in, the image is demoted rather than defended, and 'a rule he chose to keep' is replaced by the verified ~120:46 account."
+    },
+    {
+      "finding_id": "critic-04",
+      "accepted": true,
+      "reason": "Verified: Type 8 has its own section built from verified lines, 'I just wanted to be in control' is restored, and a discriminator is offered. That discriminator is overstated as written (verify-04)."
+    },
+    {
+      "finding_id": "critic-05",
+      "accepted": true,
+      "reason": "Verified: 'did not argue' is gone, the 2021 Alamo posts are reported without an unsourced reconciliation, and 'declines grievances' is narrowed."
+    },
+    {
+      "finding_id": "critic-06",
+      "accepted": true,
+      "reason": "Verified: 'On awards, it does' is replaced with the article saying the test fails, 'starting to network more' is reported, and the 'keeps avoiding' line is narrowed."
+    },
+    {
+      "finding_id": "critic-07",
+      "accepted": true,
+      "reason": "Verified: neither the heading nor the framing ties the charges to temper, and the possession case and the case the lawyers call a burglary are marked as not bearing on it, as the test asked. Following that test led to the May 2025 charges being mischaracterized (verify-03)."
+    },
+    {
+      "finding_id": "critic-08",
+      "accepted": true,
+      "reason": "Verified against HipHopDX: 'evil, racist and demonic fans' is quoted as she wrote it, the half-quoted self-blame is gone, 'Headliners, protect your openers' is kept, and Rod's side reports what he was asked."
+    },
+    {
+      "finding_id": "critic-09",
+      "accepted": true,
+      "reason": "Verified: the Lil Poppa passage is removed along with its pairing with Lennox."
+    },
+    {
+      "finding_id": "unfamiliar-01",
+      "accepted": true,
+      "reason": "Verified: within the first ~150 words the reader gets St. Petersburg, Florida, 'singer and rapper', and the eight-top-10/four-No.-1 scale marker. Fizzumfade, Lieber and Charlamagne are identified by role, and Uncle Dee is introduced as his father's friend."
+    },
+    {
+      "finding_id": "unfamiliar-02",
+      "accepted": true,
+      "reason": "Verified: the false weighting promise is gone, the album is described, the check is dated, and the leading discriminator visibly rests on 2020 and 2025 material. Minor wording issue in verify-07."
+    },
+    {
+      "finding_id": "unfamiliar-03",
+      "accepted": true,
+      "reason": "Verified: 'What separates them' opens by conceding circumstance and names what it does not explain, and the closing repeats the concession."
+    },
+    {
+      "finding_id": "unfamiliar-04",
+      "accepted": true,
+      "reason": "Verified: both mentions describe one post with a rebuke and an exit. The 'long exit' reading built on it is factually overstated (verify-02)."
+    },
+    {
+      "finding_id": "unfamiliar-05",
+      "accepted": true,
+      "reason": "Verified: the ladder scene is cut, which the test allows."
+    },
+    {
+      "finding_id": "unfamiliar-06",
+      "accepted": true,
+      "reason": "Verified: the limits are stated before the list, the status of each case is readable in place, and the paragraph is broken up. The count and characterization of the violence allegations is a separate error (verify-03)."
+    },
+    {
+      "finding_id": "unfamiliar-07",
+      "accepted": true,
+      "reason": "Verified: a plain statement of what he does and why comes before interpretation, the argument no longer depends on 'I done been heartbroke', and the transcript limit is stated in place. The contrast with a Four ('an exit rather than an argument') is thin but concrete enough for a discriminator now ranked weakest."
+    },
+    {
+      "finding_id": "unfamiliar-08",
+      "accepted": true,
+      "reason": "Verified: the 'turning down the volume' gloss is gone, and the Type 9 paragraph is anchored to the verified center-of-attention quote."
+    },
+    {
+      "finding_id": "enneagram-01",
+      "accepted": true,
+      "reason": "Verified: Type 8 is named, tested and given a discriminator, and Type 5 is mentioned. The discriminator's wording overclaims (verify-04)."
+    },
+    {
+      "finding_id": "enneagram-02",
+      "accepted": true,
+      "reason": "Verified: the breakup material is presented as a learned practice with its hard-hit baseline, the heaviest weight has moved to the 2020-2026 corrections, and the heading is gone."
+    },
+    {
+      "finding_id": "enneagram-03",
+      "accepted": true,
+      "reason": "Verified: the 'pawn' and 'what you guys ruined' passage comes before the conditional, the closing question is removed, and 'declines grievances' is narrowed."
+    },
+    {
+      "finding_id": "enneagram-04",
+      "accepted": true,
+      "reason": "Verified: the Fours-explain-themselves generalization is removed, both halves of the image answer are reported, and the discriminator is downgraded."
+    },
+    {
+      "finding_id": "enneagram-05",
+      "accepted": true,
+      "reason": "Verified: the engine section names control and proving a point, not volume, and the prove-who-he-is/prove-what-he-can-do contrast is made explicit and repeated as open."
+    },
+    {
+      "finding_id": "enneagram-06",
+      "accepted": true,
+      "reason": "Verified: the peace description is moved out of the discriminator sequence and explicitly labelled as corroboration."
+    },
+    {
+      "finding_id": "enneagram-07",
+      "accepted": true,
+      "reason": "Verified: both explainer paragraphs are anchored to Rod, and the generic 'Four guards identity, Nine guards quiet' contrast is gone. A brief peacemaker dismissal remains, but it is one line, not a reframe."
+    },
+    {
+      "finding_id": "future-01",
+      "accepted": true,
+      "reason": "Verified: the leading discriminator cites Complex 2020 and Billboard 2025 by name, the weighting promise is removed, the Type 4 FAQ dates its evidence to August 2026, and C23/C28/C30 are time_sensitive."
+    },
+    {
+      "finding_id": "future-02",
+      "accepted": true,
+      "reason": "Verified: the status sentence is tied to its November 2025 evidence base (C103), and the triggers on C34-C36, C41, C42, C70 and C103 name the jurisdiction and a dated recheck."
+    },
+    {
+      "finding_id": "future-03",
+      "accepted": true,
+      "reason": "Verified: the transcript-check sentence carries its date, and C53 is time_sensitive with a rewrite trigger."
+    },
+    {
+      "finding_id": "future-04",
+      "accepted": true,
+      "reason": "Verified: the reticence is attributed to the Tampa Bay Times in 2021, the 2026 interviews are acknowledged, and C52 is time_sensitive."
+    },
+    {
+      "finding_id": "future-05",
+      "accepted": true,
+      "reason": "Verified: the FAQ now asks 'What has Rod Wave said about therapy?' and dates the answer to August 2026, and C79's trigger is concrete."
+    },
+    {
+      "finding_id": "future-06",
+      "accepted": true,
+      "reason": "Verified: the listed phrases carry absolute dates (2020-2025, Mainstay 2025, SoFi 2026, the father's warning 2026), and the present-tense 'struggle rap' line is cut. One relative phrase remains in the closing, 'this year's interviews', which is noted under durability."
+    }
+  ],
+  "prior_blocker_checks": [],
+  "protected_checks": [
+    {
+      "passage": "After the show, in the private parking area, he posed for photos with Julius, a 15-year-old with cancer whose wish was to meet him. Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "preserved": true,
+      "reason": "Kept verbatim as the second paragraph. Checked against the Tampa Bay Times closing scene (moonlit private parking area, Julius, the quoted question)."
+    },
+    {
+      "passage": "None of that tells us his type. It is the ordinary explanation for a young man who keeps people at a distance, and any type argument has to beat it.",
+      "preserved": true,
+      "reason": "Kept verbatim, and now paid off: 'What separates them' concedes circumstance and names what it does not explain."
+    },
+    {
+      "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy. It still shows how he understands his distance today, as a rule he chose to keep.",
+      "preserved": true,
+      "reason": "The first sentence is kept verbatim. The second was replaced because Club Shay Shay ~120:46 shows he stayed and hung out once older, so 'a rule he chose to keep' was false. The distinctive limit on retrospective self-narration is kept and strengthened; correcting the false detail counts as preservation."
+    },
+    {
+      "passage": "A counselor at the juvenile detention center told him he had post-traumatic stress disorder, a remark made to a teenager in custody rather than a diagnosis of record.",
+      "preserved": true,
+      "reason": "Kept verbatim; it matches the Tampa Bay Times account."
+    },
+    {
+      "passage": "He pleaded not guilty, the charge was dropped within weeks, and his attorney called it \"a misunderstanding between a girlfriend and boyfriend\"",
+      "preserved": true,
+      "reason": "Kept verbatim; it matches the Rolling Stone May 19, 2022 update."
+    },
+    {
+      "passage": "Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "preserved": true,
+      "reason": "Kept verbatim inside the opening scene."
+    },
+    {
+      "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "at Lakewood High he sang so constantly, a former teammate told the Times, that the football coach put a timer in the locker room to get players out to practice.",
+      "preserved": true,
+      "reason": "Kept verbatim; it matches the Tampa Bay Times (Hill-Cainion, coach Moore)."
+    },
+    {
+      "passage": "Asked what it looks like, he named his own bed, a freshly cleaned house, the \"AC on 65,\" an Apple TV show with his partner, and \"good meetings at the office\" the next morning. Music, recognition and being understood did not come up.",
+      "preserved": true,
+      "reason": "Kept verbatim; it matches Breakfast Club ~57:10-57:41. It is now labelled as corroboration, which reconciles enneagram-06 with the two reviewers who protected it."
+    },
+    {
+      "passage": "So \"that was the way I had to tell myself and train my brain like ain't nothing or nobody never yours.\"",
+      "preserved": true,
+      "reason": "Kept verbatim (~69:08-69:11). It now follows the possessive baseline and the being-left account."
+    },
+    {
+      "passage": "The Nine reading has real trouble in three places, and none of them should be explained away with Enneagram vocabulary.",
+      "preserved": true,
+      "reason": "Kept verbatim, still with three strains and no wing, arrow or subtype escape hatch anywhere."
+    },
+    {
+      "passage": "A plainer reading also holds: some people are better writers than talkers.",
+      "preserved": true,
+      "reason": "Kept verbatim, directly after the inference it limits."
+    },
+    {
+      "passage": "\"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "preserved": true,
+      "reason": "Kept verbatim; it matches the Tampa Bay Times."
+    },
+    {
+      "passage": "a drive-thru customer asked, \"Are you that Rod Wave guy?\" He smiled and shook his head no.",
+      "preserved": true,
+      "reason": "Kept verbatim; moved into the Nine-versus-Eight argument. It matches the Tampa Bay Times."
+    },
+    {
+      "passage": "Rod cut the vocals for the gold-certified \"Brace Face\" with a hotel comforter over his head.",
+      "preserved": true,
+      "reason": "Kept verbatim and in place; it matches the Tampa Bay Times."
+    },
+    {
+      "passage": "And on a night in 2021 when the choir sang every word back to him near home, the one thing he asked a 15-year-old fan to critique was the part of the show where he had to talk.",
+      "preserved": true,
+      "reason": "Kept verbatim as the final sentence. It rests on the verified 2021 scene."
+    },
+    {
+      "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him. On awards, it does.",
+      "preserved": true,
+      "reason": "The first sentence is kept verbatim. 'On awards, it does' was removed because the verified evidence (~7:06 'never been part of my character', ~8:44 'worth on paper', Billboard 2023 'Grammys') shows the awards answer costs him nothing. The protected contribution, testing motive against a commercial incentive, is kept and applied honestly."
+    },
+    {
+      "passage": "He accepts sadness and rejects depression as a label, though when pressed he allowed, \"Yeah, been there.\" Billboard reported in 2023 that he \"has struggled in the past with depression and anxiety and has always been open about having had suicidal thoughts.\" Both statements belong on the record, with their dates.",
+      "preserved": true,
+      "reason": "Kept verbatim. The added 'not like everyday' qualifier (~22:34) follows it without changing it."
+    },
+    {
+      "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him.",
+      "preserved": true,
+      "reason": "Kept verbatim."
+    },
+    {
+      "passage": "The calm, business-minded voice of August 2026 may be growth, or it may be the voice an album about growth requires. When he sounded similarly settled to Billboard in September 2025, the Grizzly lawsuit arrived three weeks later.",
+      "preserved": true,
+      "reason": "The first sentence is kept verbatim. The second is rewritten so that another party's lawsuit is no longer read as evidence about his sincerity, while the dated precedent survives. 'Made the dispute public' is slightly off (verify-09), but the contribution is preserved."
+    }
+  ],
+  "coverage_complete": false,
+  "metadata_consistent": true,
+  "alternative_type_addressed": true,
+  "five_year_test_passed": true,
+  "scores": {
+    "evidence": {
+      "score": 7,
+      "passage": "Describing that collapse to Sharpe, he said what he had wanted from the people around him: \"People should be telling me it's going to be okay. People should be trying to help me.\"",
+      "reason": "Most of the record holds up on reopening. Across 19 opened sources nearly every quotation matched its transcript or article, allegations carry dispositions and denials, the auto-transcript limit is disclosed with a date, and inference is labelled ('This suggests', 'A plainer reading also holds'). Independent outlets corroborate the key pre-fame shyness (Tampa Bay Times and Billboard). Several load-bearing passages fall short. This edit-stage quotation is stripped of the self-critical, grief-related context it was said in (verify-01). A court filing is quoted from Billboard's paraphrase with a changed word, and the failed-scheme detail is left out (verify-05). The May 2025 charges are mischaracterized (verify-03). An absence is asserted that the packet's own sources contradict (verify-02). Below the 8 anchor, because the context faithfulness the anchor requires fails in these places."
+    },
+    "enneagram": {
+      "score": 7,
+      "passage": "He declines to prove who he is, then takes a stadium promotion deal so that \"no matter what you do, you cannot take that from me.\" He will prove what he can do. He will not prove what he is. A Four argues for the second.",
+      "reason": "The argument is unusually honest. It concedes that circumstance explains his distance about as well as any type, tests 4 and 8 by name, and downgrades the image, peace and awards answers rather than padding the case. The leading discriminator, flattening a flattering frame in 2020, 2025 and 2026, is specific and dated. But it rests on things he says about himself in interviews, not repeated costly choices, and the article itself shows that the one costly test (awards) fails. The case against Type 8 leans on 'never face to face' and a 'nineteen-month absence', both overstated (verify-04, verify-02). It also has to coexist with a drive for control and to prove a point, which the article admits Nine theory does not explain. The Type 4 alternative is argued seriously, but its best new evidence is misframed (verify-01). Medium confidence is the right call. It does not yet reach the 8 anchor, where the strongest alternative fails a specific, sourced discriminator."
+    },
+    "originality": {
+      "score": 8.5,
+      "passage": "Rod cut the vocals for the gold-certified \"Brace Face\" with a hotel comforter over his head. The engineer has never seen him write down a lyric.",
+      "reason": "Distinctive, verified details that no generic Nine profile could hold: the comforter over his head, waiting in the car outside the club, shaking his head at the Krispy Kreme drive-thru, asking a sick 15-year-old what to say between songs, 'karaoke with 15,000 people'. The central insight belongs to this person: feelings come out most easily 'when they are aimed at no one in particular', and he will prove what he can do but not what he is. Type boilerplate is minimal, and the peacemaker label is dismissed in one line."
+    },
+    "writing": {
+      "score": 7.5,
+      "passage": "The third discriminator is the weakest, and it is the one a reader will find most vivid.",
+      "reason": "The prose is precise, the opening scene and the closing callback are well built, and the pacing moves between scene, quotation and argument. But at 4,437 words it sits at the mechanical ceiling, well above the 2,000-3,500 target. The middle reads like an adjudication ledger: sentences that announce their own ranking (as here), 'in the coverage reviewed here' used twice, and caveats stacked on caveats. 'What separates them' and 'Where the Type 9 reading strains' partly re-argue the same control and grievance material. It could be tightened without losing substance."
+    },
+    "durability": {
+      "score": 8,
+      "passage": "What has held since at least 2020 is narrower, and does not depend on this year's interviews. The feelings come out when he sits down to record, and rarely in conversation.",
+      "reason": "Events carry absolute dates. Time-sensitive legal, business and chart facts have dated, jurisdiction-naming review triggers, the therapy FAQ dates itself, and the ending rests on the 2021 reported scene. Remove the August 2026 interviews and the leading discriminator still stands on Complex 2020 and Billboard 2025. Weaknesses: much of the article's texture comes from one promotional month; the transcript-verification sentence describes an audit state that must be rewritten after the audio check (tracked by C53); and 'this year's interviews' in this passage is relative wording that will read ambiguously in 2031."
+    },
+    "hook": {
+      "score": 8.5,
+      "passage": "After the show, in the private parking area, he posed for photos with Julius, a 15-year-old with cancer whose wish was to meet him. Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "reason": "A specific, dated scene, sourced to the Tampa Bay Times on September 11, 2021, that poses the article's puzzle: a man who records his private feelings for thousands asks a 15-year-old what to say between songs. The final line pays it off. The first paragraph front-loads orientation (chart record, venue capacity, the agent's quote), which slows the scene a little."
+    },
+    "discoverability": {
+      "score": 8,
+      "passage": "## What is Rod Wave's personality type?\n\nRod Wave most likely fits Enneagram Type 9, at medium confidence.",
+      "reason": "The meta_title (58 characters) and description are accurate and within range. The H2 answer is under 60 words. Four FAQs answer real queries (type, Type 4, therapy, why the tour was cancelled), carry dated answers and anchor to headings that exist. Internal links reach the Type 9 and Type 4 pages, and all four suggestions resolve to existing profiles. Deductions: the Type 4 FAQ repeats the misframed C92 line (verify-01), and the meta_title ('Waits Outside') and persona_title ('Waits in the Car') differ slightly."
+    }
+  }
+}

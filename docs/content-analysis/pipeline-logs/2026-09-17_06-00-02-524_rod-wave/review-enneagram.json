@@ -1,0 +1,86 @@
+{
+  "schema_version": 3,
+  "role": "enneagram",
+  "content_sha256": "f31865c94313f2ac624b75e8e2835a36380b29944f25e3723e25c73bcb656c80",
+  "evidence_sha256": "3ed37bc9e8fc56186f2811a8d626a80371a7f9b0be88b95235e60570874ede94",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "enneagram-01",
+      "severity": "major",
+      "passage": "Type 4 is the strongest alternative, and parts of his record fit neither type.",
+      "problem": "The draft only tests Type 9 against Type 4, which is the reading his music suggests. It never tests the reading that his adverse record suggests. What it files under 'fits neither type' fits together under an untested Type 8 reading: control, blame, temper, self-reliance and distrust. The draft also drops or trims the lines that point that way most directly. On Club Shay Shay (auto transcript ~26:09), 'I just wanted to be in control' comes right between the two sentences the engine section quotes, and it is cut. At ~14:26, 'over creative... I like things done a certain way' goes on to 'Like I'mma call all the shot... okay, I'm running the show now.' At ~48:50 he says 'I start off by not trusting nobody.' The packet's S18, which I reopened (HipHop-N-More, February 1, 2021), shows him attacking Alamo in an Instagram Story ('f*ck ya pay me') while the album was held back. It is not used. He also rejects the depression label by pointing to what he can do ('How the hell do we do six albums back to back'), says 'I don't be looking for no sympathy... deal with it myself,' and says 'ain't nothing or nobody never yours.' Every discriminator in the draft works against Type 4 only. Letting a wrong image stand and refusing the words 'pain' and 'depression' fit an Eight at least as well. The withdrawal cluster (recording alone, the 300/65 compartmentalizing, no contact with people on tour) also leaves Type 5 open, and nothing addresses it.",
+      "acceptance_test": "The type section names Type 8 as a tested rival, and mentions Type 5 at least briefly. It gives at least one sourced observation that separates 9 from 8. Candidates already in the packet: teenage shyness and fear of rejection reported by two outlets (C60), 'I don't really know what to say between the songs' (C66), wanting the smaller room (C51), the '50/50' self-blame on awards (C15), 'I try to give people the benefit of the doubt' (Breakfast Club ~53:50), no defense of Lennox (C38), and the 2021 label fight taking the form of withheld work followed by a continued partnership. It also says what the Eight reading explains that the Nine reading does not. 'I just wanted to be in control' and 'I'mma call all the shot' are quoted or deliberately addressed, and the 2021 Alamo call-out is either included or its omission is justified in the evidence record. If no 9-versus-8 discriminator holds up, confidence is lowered or the status becomes insufficient_evidence."
+    },
+    {
+      "id": "enneagram-02",
+      "severity": "major",
+      "passage": "The third, and sharpest, is heartbreak.",
+      "problem": "In his own account, the breakup answer describes a practice he learned, not his automatic pattern. In the same Club Shay Shay run (~67:50-69:40) he describes his earlier self as possessive ('I don't want to be my turn. I wanted to be mine'). He says heartbreak used to hit him 'real hard' and 'affect me.' He also says 'it took me a long time to get this' and 'once I got old enough... that was the way I had to grasp it... train my brain.' Core type rests on the automatic pattern. His untrained response to loss was intense and destabilizing, which is closer to the Four reading, or to no type at all. The detachment he trained later is a coping practice, and the standard says learned practices must be weighed against the type explanation, not counted as proof of it. The stated goal of the practice is also protecting his work and not hurting other people ('it made me a better person... treat it like it's a privilege to be with somebody... your feelings matter'). That is not a peace motive in particular. The draft notes the one-answer limit but still calls this the 'sharpest' discriminator. The speaker labels also come from an auto transcript.",
+      "acceptance_test": "The heartbreak material no longer carries the heaviest weight in the type argument. The draft either (a) presents it as a learned practice, reports his account of the earlier possessive, hard-hit baseline, and explains why the learned practice still points to a Nine motive rather than a Four's defense or ordinary maturing, or (b) moves the 'sharpest' label to evidence that holds across 2016-2026, before and after the stance changed. The heading 'Why the breakup answer points to Type 9' is revised so it matches the weight the evidence can bear."
+    },
+    {
+      "id": "enneagram-03",
+      "severity": "major",
+      "passage": "In his own voice, he tells it differently. \"If it mess up, man, I'm going to be blaming myself,\" he told Sharpe, \"cuz I just ain't with blaming people and because at the end of the day I brought y'all in.\"",
+      "problem": "The quote is cut in a way that manufactures the contrast the draft then calls unexplained. Earlier in the same answer (Club Shay Shay auto transcript ~25:10-27:10), he blames the touring partners at length: 'your one, two, three, four mistakes burn it down in three, four months'; 'I'm just a pawn to y'all'; 'now I'm stuck with five, six years destroyed'; the aftermath 'of what you guys ruined.' Only then does he say he will blame himself next time because he brought them in. In context, 'I just ain't with blaming people' is about owning his future choices of partners. It is not a refusal to blame anyone for the collapse. The draft relies on this line three times: 'In his own voice, he tells it differently,' the closing open question about how it 'squares with his countersuit,' and 'declines grievances' in the direct type answer. Together these overstate how much he avoids conflict, and that is the Nine premise itself.",
+      "acceptance_test": "The countersuit section reports that in the same answer he said the partners' mistakes destroyed five or six years of work and made him a 'pawn,' before the 'blaming myself' line. The closing's open question about 'I just ain't with blaming people' and the countersuit is revised or removed. 'declines grievances' in the direct answer under 'What is Rod Wave's personality type?' is narrowed to the domain the evidence supports, awards and his public image, or is qualified. The evidence record's C37 alternative and the against text reflect the fuller context."
+    },
+    {
+      "id": "enneagram-04",
+      "severity": "major",
+      "passage": "Being seen inaccurately is close to the core injury for a Four, and Fours tend to answer it by explaining themselves more precisely.",
+      "problem": "This discriminator depends on a stereotype, and it leaves out half of the sentence it quotes. Many Fours, especially withdrawn ones, do not explain themselves. They withhold and cultivate being unknown, and the packet's own C76 alternative concedes that. The Breakfast Club context (~6:40-9:40) cuts against 'as a matter of temperament.' He opens with 'people don't really understand like my personality,' which is itself a complaint about being misunderstood. He says 'I give them so so little that they got to work with what they got.' Charlamagne then praises 'an air of mystery' like 'old school superstars.' Rod calls the wrong image 'a negative and a plus.' The negative is 'I wish people didn't ... take my image and run with it,' and the plus is 'because that mysterious... make them want to dig a little deeper.' The draft quotes only the negative half and adds 'It costs him something, he admitted.' Separately, he calls sitting in the car 'my formula to stardom... you never really get to see me.' An uncorrected image that he partly values as mystique does not separate a Nine turning down their presence from a Four, Five or Eight keeping distance on purpose. He also said 'Nah' when asked whether it was by design, which the draft does not reconcile with 'formula.'",
+      "acceptance_test": "The generalization about Fours is qualified, for example 'many Fours' or 'a Four who wants to be understood,' or is removed. The image paragraph reports both halves of his 'negative and a plus' answer and 'I give them so so little.' The discriminator states why letting the image stand reads as self-effacement rather than cultivated mystique, citing his 'Nah' to 'by design' against his 'formula to stardom' line. If it cannot do that, the discriminator is downgraded to consistent-but-not-decisive."
+    },
+    {
+      "id": "enneagram-05",
+      "severity": "minor",
+      "passage": "Nine theory does not explain that drive.",
+      "problem": "This conflicts with the draft's own definition: 'Nines can work very hard. What they avoid is the friction of insisting on themselves.' Most of the engine paragraph is volume (seven albums, 100+ shows), and the draft has already said Nines can produce that. The Nine definition actually rules out insisting on himself, and the paragraph documents that without naming it: 'didn't want to be the pawn,' seeking control, and taking the Ye deal because 'I didn't want other people to say maybe that only worked for you' (DancehallMag: 'let me show these people what I can do'). That last line sits in direct tension with 'it's just not natural for me to... try to prove a point of who I am,' and the draft never connects the two. He declines to prove who he is but is eager to prove what he can do. That split is either a real discriminator or a real unexplained item, and the draft currently treats it as neither.",
+      "acceptance_test": "The engine section names the specific behaviour Nine theory does not predict (seeking control and proving a point in business) rather than output volume, in a way consistent with the type-explainer definition. The draft explicitly addresses the contrast between 'prove a point of who I am' and the Ye rationale, either as a discriminator with a reason or as an item in the closing's list of open questions."
+    },
+    {
+      "id": "enneagram-06",
+      "severity": "minor",
+      "passage": "Music, recognition and being understood did not come up.",
+      "problem": "This is an argument from absence built on an answer that doesn't discriminate. Asked what peace looks like, almost anyone describes rest at home: a bed, a clean house, TV with a partner. Leaving music out of a description of rest says nothing about motive. His answer also included 'good meetings at the office,' so work did come up. Placing this in the discriminator section ('His description of peace points the same way') treats comfort-seeking as a Nine marker, which is stereotyped typing.",
+      "acceptance_test": "The peace paragraph either comes out of the discriminator section or is explicitly labelled as consistent with the Nine reading but not distinguishing. The 'did not come up' sentence is removed, or rewritten so it does not imply that leaving music out of a description of rest is evidence."
+    },
+    {
+      "id": "enneagram-07",
+      "severity": "minor",
+      "passage": "The evidence below suggests Rod guards something plainer, an undisturbed room.",
+      "problem": "Similarity check. The flagged pair with Ibai-Llanos shares only 'the Nine reading,' which is ordinary type vocabulary, and the arguments differ: Ibai routes the problem through a wing and an arrow, while this draft refuses to. That match is not reuse. Comparing arguments directly turns up closer reuse that the diagnostic missed. The austin-abrams draft (2026-09-11) is also 'Type 9 over Type 4 at medium confidence,' and it uses the same contrast: 'On the Nine reading, what he guards is an unhurried inner quiet... On the Four reading, it is an authentic self.' This draft says a Four's withdrawal 'guards the significance of their own feelings,' while Rod 'guards something plainer, an undisturbed room.' The move of recasting 'peacemaker' as not passive ('which makes it sound passive. A more useful description...') also repeats Victoria-Justice ('The Peacemaker label oversells the calm') and Jason-Sudeikis ('a Nine's peace is not always passive'). The two type-explainer paragraphs here say nothing specific to Rod, so the typing reads as a template the evidence was fitted into.",
+      "acceptance_test": "Each of the Type 9 and Type 4 explainer paragraphs is tied to at least one Rod-specific observation, or is cut to a single orienting sentence plus the link. The Nine-versus-Four contrast is stated in terms of his record, not the generic 'Four guards identity, Nine guards quiet' formula. The peacemaker-is-not-passive reframe is removed or made specific to him. On re-run, the same-type similarity check shows no shared discriminator framing with austin-abrams."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "The Nine reading has real trouble in three places, and none of them should be explained away with Enneagram vocabulary.",
+      "reason": "It refuses to explain away the contradictions with a convenient wing, arrow or subtype. The same-type comparison set usually reaches for those patches, and this restraint is the draft's best typological discipline."
+    },
+    {
+      "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him. On awards, it does.",
+      "reason": "It tests the motive against a commercial incentive and names the costly choice. That is exactly what separates a type claim from a persona claim."
+    },
+    {
+      "passage": "None of that tells us his type. It is the ordinary explanation for a young man who keeps people at a distance, and any type argument has to beat it.",
+      "reason": "It sets up circumstance as the baseline explanation before any typing, as the standard asks. It is short and doesn't talk down to the reader."
+    },
+    {
+      "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy.",
+      "reason": "It limits the inference right where the Nine reading would otherwise take a self-narrated origin story as proof."
+    },
+    {
+      "passage": "And on a night in 2021 when the choir sang every word back to him near home, the one thing he asked a 15-year-old fan to critique was the part of the show where he had to talk.",
+      "reason": "It is an earned, sourced closing image that doesn't depend on the type label, so it survives any of the typing changes above."
+    }
+  ],
+  "assessment": "Type 9 is a defensible hypothesis, and this draft is more honest about what doesn't fit than most: it states the engine, the countersuit and the temper, and it declines wing or arrow patches. The typing argument is not yet earned at medium confidence. All three discriminators rule against Type 4 only. The residue the draft says fits neither type (seeking control, blaming partners, a temper, self-reliance, stated distrust, a 2021 public attack on his label) holds together under an untested Type 8 reading. Several of the clearest lines for that reading are omitted. Transcript context weakens two of the three discriminators. He calls his uncorrected image partly 'a plus' for its mystery. The breakup stance is, by his account, a trained override of an earlier possessive, hard-hit response. Also, 'I just ain't with blaming people' followed a long passage blaming the touring partners, which makes his avoidance of grievances look larger than it is. The packet does contain material that could separate 9 from 8 (teenage fear of rejection, 'what to say between the songs', 'benefit of the doubt', no defense of Lennox, withholding then reconciling in 2021), so the Nine reading may survive a real test. If it does not, confidence should drop. Limits: I re-pulled and read the S01-S03 YouTube auto transcripts (2026-09-17), which have unreliable speaker markers, and did not listen to the audio. I reopened S18. I did not reopen the print sources, which bear on biography rather than on the type reasoning checked here."
+}

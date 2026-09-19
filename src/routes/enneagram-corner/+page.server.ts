@@ -27,8 +27,11 @@ export const load: PageServerLoad = async () => {
 			return null;
 		}
 
+		// Mental-health posts live at /enneagram-corner/mental-health/{slug};
+		// linking the bare slug costs every visitor and crawler a 301.
+		const slug = slugFromPath(path);
 		return {
-			slug: slugFromPath(path),
+			slug: path.includes('/mental-health/') ? `mental-health/${slug}` : slug,
 			title: metadata.title,
 			description: metadata.description,
 			date: metadata.date,

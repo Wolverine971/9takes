@@ -981,7 +981,11 @@ async function generateSitemap() {
 		...posts.map(buildPostEntry),
 		...peoplePosts.map(buildPostEntry),
 		...questions.map(buildQuestionEntry),
-		...questionCategoryPages.entries
+		...questionCategoryPages.entries,
+		// The categories hub is indexable and self-canonical; list it alongside its children.
+		questionCategoryPages.latestLastmod
+			? { loc: `${SITE_URL}/questions/categories`, lastmod: questionCategoryPages.latestLastmod }
+			: null
 	].filter((entry) => entry !== null);
 
 	const entries = dedupeEntries([...staticPages, ...dynamicEntries]).sort((a, b) =>

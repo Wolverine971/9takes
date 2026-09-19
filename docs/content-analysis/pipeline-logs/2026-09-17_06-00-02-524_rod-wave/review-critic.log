@@ -1,0 +1,21 @@
+I wrote the critic review of the Rod Wave draft to `review-critic.json`. It has 1 blocker, 8 major findings and 5 passages to keep. It passes the schema check, its hashes match the request, and every quoted passage appears word for word in the draft. I didn't change or publish anything else, and I didn't look at the other reviews.
+
+**The main problem:** the draft does confront the evidence against its type reading, but at the key points the quotes stop just before the part that cuts against Type 9. I re-pulled the two main interview transcripts (YouTube's automatic transcripts) to check this.
+- **Blocker, the lawsuit section:** the draft sets his "I just ain't with blaming people" against his countersuit. In the interview, he says it right after blaming the promoters ("what y'all messed up," "I'm just a pawn to y'all"). His own words agree with the countersuit, so "division of labor… probably most of the story" has no support.
+- **His public image:** the "I wish people didn't… take my image and run with it" quote stops before "but it's a plus because that mysterious" makes people dig deeper. The draft never weighs mystery as a deliberate business choice.
+- **The breakup answer (called the "sharpest" evidence):** later in the same exchange he says someone left before he was ready and calls his younger self "controlling."
+- **Ari Lennox:** the draft quotes her "half of the mess… I'm solely responsible for" but drops her next sentence, "Doesn't make the disrespect feel good or valid." It also says Rod didn't address her charge that he stayed silent, but he was never asked about it.
+
+**Other major findings:**
+- **Type 8 is never tested.** The draft leaves out "I just wanted to be in control" without marking the cut. Along with "I'mma call all the shot" and his distrust remarks, the things it can't explain point to a need for control, not to Type 4.
+- **It says he doesn't publicly air grievances.** Yet it quotes his "I dont fw you" hiatus post itself, and it never mentions his 2021 Instagram posts attacking his label, which are in the research sources.
+- **The awards "costs him" test** rests on an interview answer in which he says awards don't matter to him and that he's "starting to network more." That also undercuts the present-tense claim that he keeps avoiding talking as himself.
+- **"The temper" section** implies anger explains charges that don't involve it: a drug and weapons booking, and a case where his lawyers say he was the burglary victim.
+- **The Lil Poppa passage** drops his stated reason (the tour was falling apart) and sits under "Avoided conflict can land on other people." That implies a link to a suicide that the draft's own research notes say it must not suggest.
+
+**Limits on the checks:**
+- Interview quotes were checked against automatic transcripts, not audio.
+- Billboard's paywall blocked its 2025 interview (HTTP 402), so that routing quote rests on the research notes and I didn't use it as independent support.
+- The similarity check's flagged matches with other profiles are ordinary Enneagram wording making different arguments, so I didn't count them as reuse.
+
+**Risk flags:** sensitive allegations, contested typing and uncertain sources are all set to true, so the six-reviewer panel stays required. If fixing these changes the type reading or its main alternative, the standard requires holding the draft for a fresh run with the six-reviewer panel (`--refresh --expanded-review`).

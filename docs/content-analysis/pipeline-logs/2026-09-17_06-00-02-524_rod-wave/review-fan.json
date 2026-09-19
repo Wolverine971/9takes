@@ -1,0 +1,107 @@
+{
+  "schema_version": 3,
+  "role": "fan",
+  "content_sha256": "f31865c94313f2ac624b75e8e2835a36380b29944f25e3723e25c73bcb656c80",
+  "evidence_sha256": "3ed37bc9e8fc56186f2811a8d626a80371a7f9b0be88b95235e60570874ede94",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "fan-01",
+      "severity": "major",
+      "passage": "Dereck \"Uncle Dee\" Lane, a close friend of his father's, stepped in as the central man in his life, then went to federal prison himself a year later.",
+      "problem": "The draft leaves the most important adult in Rod's career in prison and never brings him back. The packet's own sources say Lane came home after about 10 years, got Rod back into the studio, co-founded Hit House with Rod's father and managed him (Tampa Bay Times 2021 calls him \"Rod's manager now\"; Billboard 2023: \"With Lane designated as management\"). S20 (Revolt/Rap-Up) reports Rod confirmed Lane's death on July 3, 2024, calling him \"Pop\". That was about six months before the Last Lap tour collapsed, and the draft never mentions it. On Club Shay Shay (~22:30-23:55) Rod says \"without Uncle D, it wouldn't be no Rod Wave\" and that Lane \"laced me up\" and \"made me discipline.\" An informed fan would see this as the biggest gap in the profile. It changes how a reader sees the 2024-2026 run: the collapse, the hiatus, founding Mainstay because he \"didn't want to be the pawn no more,\" and the calm voice of 2026. Handle with care: Rod suggested on air (~104:59) that his uncle \"passed away the same way\" as Lil Poppa but also voiced disbelief, and no official cause has been released.",
+      "acceptance_test": "The article says Lane came home, managed Rod through Hit House, and died in July 2024, attributed to Rod's confirmation as reported by Revolt/Rap-Up. It sits in chronological order before the January 2025 collapse. The engine, Mainstay or open-questions passages either link that loss to what followed or say the link cannot be established. No cause of death is stated as fact. If Rod's August 2026 remark is used at all, it is attributed to him, keeps his stated disbelief, and is added to the evidence inventory as a sensitive self_report."
+    },
+    {
+      "id": "fan-02",
+      "severity": "major",
+      "passage": "Nine theory does not explain that drive.",
+      "problem": "The draft treats Rod's drive as unexplained. The closing says \"Several things remain open: where the engine comes from,\" and the evidence record says \"nothing public explains\" it. But Rod has explained it himself, repeatedly. Billboard 2023: after jail his father put him in football, \"a lot of discipline I learned then that I carry with me now.\" Club Shay Shay 2026 (~23:00-23:55): Uncle Dee \"made me tighten up... made me discipline.\" He has also named the costs, which the standard asks a profile to show: \"I couldn't even focus on certain stuff like my kids... My health\" (~26:25). The draft never says he is a father. The Tampa Bay Times (2021) and Billboard (2023) report twin daughters, and Billboard quotes him saying fatherhood \"made me softer... Back then, I could just move and feel nothing.\" The draft even quotes the hiatus plan to \"raise kids\" without noting he already had children. Self-reports don't settle motive, but leaving them out overstates the mystery and hides costs that bear on the breakup/detachment discriminator.",
+      "acceptance_test": "The engine section includes, with attribution and dates, at least one of Rod's own explanations for his discipline (football under his father, Billboard 2023; Uncle Dee, Club Shay Shay 2026) and his stated cost to his kids and health. It notes he became a father of twins around 2020 wherever \"raise kids\" or his relationships are discussed. The closing list no longer calls the engine's source unknown without acknowledging his explanation, and any remaining gap is described as a gap in type theory, not in the public record."
+    },
+    {
+      "id": "fan-03",
+      "severity": "major",
+      "passage": "When the criticism peaked in January 2025, he did not argue with anyone.",
+      "problem": "This is contradicted by the post the draft already quotes in the Type 4 section. The same January 2025 post told critics who \"drag my name... I dont fw you\" before announcing the break (HipHopDX, verified). \"Exit rather than rebuttal\" is part of the evidence record's Nine discriminator (C39), so the error does argumentative work. A second public grievance in his own words also goes unmentioned, though it is in the packet (S18). Around January 31, 2021, he attacked Alamo Records on his Instagram Story, profanely, over money, and blamed the label for delaying his album (HipHop-N-More, February 2021). That matters twice. It weakens \"declines grievances\" in the type answer and FAQ. And it undercuts the draft's explanation for the countersuit (\"lawyers litigate... That is probably most of the story\"), because this grievance involved no lawyers.",
+      "acceptance_test": "The sentence no longer claims he argued with no one. The hiatus is described as a rebuke to critics followed by a break. The January 2021 Alamo Instagram posts are included, attributed and dated, in the countersuit or grievance discussion. The \"division of labor\" paragraph and the type answer/FAQ wording on declining grievances are re-weighed in light of both posts. The Alamo claim is added to the evidence inventory."
+    },
+    {
+      "id": "fan-04",
+      "severity": "major",
+      "passage": "Relatability is also good business, so the real test is whether he holds the ordinary position when it costs him. On awards, it does.",
+      "problem": "The draft sets up awards as a costly test and says he passes, but it leaves out the evidence that complicates the answer. In Billboard's December 2023 feature (S05, already in the packet) Rod said his goals were stadiums and \"That's what I'm here for — Grammys and sh-t.\" In the same 2026 Club Shay Shay answer the draft quotes, he first says fans \"don't see the full picture\" because of \"a lot of these programs and companies.\" He then trades awards for another scoreboard: \"The people who really understand how the game work know what I'm doing... Long as they know my worth on paper... that's all I care about\" (~08:00-08:45). He was also nominated for a Grammy in November 2025, which the draft mentions only in the arrest paragraph. As quoted, the passage reads as indifference to recognition. The fuller record shows open ambition in 2023 and a preference for industry and financial validation in 2026. That is a real test of the Nine reading, not a pass.",
+      "acceptance_test": "The awards passage includes the dated 2023 \"Grammys\" ambition and the 2026 \"worth on paper\" line, both attributed, and notes the November 2025 nomination. The \"On awards, it does\" verdict is revised or explicitly defended against that evidence. The \"declines grievances about awards\" wording in the type answer and FAQ is qualified to match."
+    },
+    {
+      "id": "fan-05",
+      "severity": "major",
+      "passage": "It costs him something, he admitted: \"I wish people didn't ... take my image and run with it.\"",
+      "problem": "The ellipsis and framing keep only half of Rod's answer, and it's the half that helps the Nine case. In the Breakfast Club transcript (~09:38-09:50) he calls it \"a negative and a plus because negative like I wish people didn't... take my image and run with it, but it's a plus because that mysterious like... it make them want to dig a little deeper.\" Earlier in the same answer (~06:40) he blames the misreading on his own withholding: \"I give them so so little.\" Letting a wrong image stand is the draft's first and main discriminator against Type 4, and the evidence record admits a Four might withhold explanation out of a wish for mystique. Rod names that benefit himself. Leaving out his own \"plus\" distorts the source and hides the strongest alternative reading at the point where it matters most.",
+      "acceptance_test": "The passage presents both halves of his answer, the negative and the mystery \"plus,\" in his own words. The discriminator section (\"what he does with being misread\") says he sees commercial or intrigue value in staying unexplained, and explains why the Nine reading still leads or lowers how much the discriminator can carry."
+    },
+    {
+      "id": "fan-06",
+      "severity": "major",
+      "passage": "Poppa had sought him out a few times, \"and, you know, I never do that with people.\"",
+      "problem": "The clip strips the context and then uses the quote to back Ari Lennox's complaint (\"His account and Lennox's agree about the distance\"). In the Club Shay Shay transcript (~103:50-108:30), Sharpe asks whether Rod missed signs. Rod says he wasn't interacting with people on tour because \"it was the last lap tour when things were not going good... falling apart... I was focused on fixing what were going on.\" He says there were \"two or three times where we talked and we bond, he pulled up on me.\" \"I never do that with people\" means he felt he was already doing a lot by bonding at all, followed by regret: \"maybe I weren't doing enough... I wish I could, but can't take it back.\" The same answer also holds a self-description the type section never faces. During the collapse: \"People should be telling me it's going to be okay. People should be trying to help me,\" and \"I just always be like, you know, my problems, my music, I'm sad, my this, my that.\" He compares himself to a character who thinks \"the world just revolve around her.\" That is a vivid, recent statement of self-focused feeling from the same exchange the draft quotes. The Four case needs to hear it.",
+      "acceptance_test": "The Lil Poppa passage keeps the stated circumstance (the tour falling apart), the two or three times they bonded, and the regret. The line tying it to Lennox is qualified. The Type 4 or discriminator section quotes or accurately paraphrases the \"my problems, my music, I'm sad\" / \"people should be telling me it's going to be okay\" description and explains why the Nine reading survives it, or lowers confidence. New quotations are added to the evidence inventory and flagged for audio confirmation."
+    },
+    {
+      "id": "fan-07",
+      "severity": "major",
+      "passage": "At Barclays Center in November 2023 he climbed a ladder on his stage set while fans screamed \"Don't do it, Rod!\" and then staged a fall, which he told Billboard came \"from a dream I had.\"",
+      "problem": "This is well-known material, and the draft cites it misleadingly. Billboard's opening (S05) ties the fall to his openness about suicidal thoughts. Rod explains its purpose right after \"from a dream I had\": \"it's really to show people, 'Don't get up and do that when you can do this. You don't know where life can take you'... Imagine [if] I would've [gone through with committing suicide]. I would've never made it to this part.\" The draft keeps only the dream line and lists the fall as Four-style staging. His stated intent is a message aimed at the audience, not self-dramatization. Misreading a suicide-prevention moment as theatrical flair is also a sensitivity problem.",
+      "acceptance_test": "Wherever the ladder fall is mentioned, it includes Rod's stated meaning with attribution to Billboard 2023, worded carefully. The Type 4 case either drops it as evidence of dramatic self-presentation or explains why it still counts given his explanation."
+    },
+    {
+      "id": "fan-08",
+      "severity": "major",
+      "passage": "The record shows music did not absorb all of it.",
+      "problem": "The sentence sets the arrest record against Rod's own story, but his story already concedes the point. In the same Breakfast Club answer (~15:00-15:10), after \"violently expressed it,\" he says: \"I had a lot of built-up anger, and I just would express it in dangerous or ways that... put myself [in] stuff I probably couldn't get out of. So, finding music was my way.\" The 2014 case also sits under \"The temper\" with only the police account. The draft's own source, the Tampa Bay Times, says that halfway through freshman year he was breaking into cars and houses and \"has said he wanted to relieve the financial pressure on his mother,\" and that he \"deeply regrets\" affecting innocent people. In the 2018 interview (S04) he gives his own version of the gun incident and says he wishes he could knock on doors to apologize. The closing line of the section, \"The public record does not show why these incidents happened,\" is therefore inaccurate for 2014: he has given reasons, which can be doubted but are on the record.",
+      "acceptance_test": "The temper section quotes or paraphrases his admission that he expressed adolescent anger dangerously before music. The 2014 case includes his stated financial motive and his public regret, attributed to the Tampa Bay Times and the 2018 interview (with the auto-transcript limit noted). The \"record shows\" sentence separates the teenage period, which he acknowledges, from the adult cases of 2021-2025. \"The public record does not show why\" is limited to the incidents where that is true."
+    },
+    {
+      "id": "fan-09",
+      "severity": "minor",
+      "passage": "He had wanted a smaller room, the 2,000-capacity Jannus Live back home.",
+      "problem": "The Tampa Bay Times says only that \"Rod wanted to perform this show at the 2,000-capacity Jannus Live in downtown St. Petersburg.\" It doesn't say he wanted a smaller room. A fan would read it as wanting to play the hometown venue, especially given the paper's description of four generations of family and \"St. Petersburg is in the house.\" \"Wanted a smaller room\" assigns a withdrawal motive to the hook's supporting detail, and C51 is listed as evidence for Type 9.",
+      "acceptance_test": "The sentence says he wanted to play Jannus Live, a 2,000-capacity venue in downtown St. Petersburg, without claiming he wanted it because it was small. Or the hometown and size readings are both given as possibilities. C51 is described accordingly if it stays among the Type 9 claims."
+    },
+    {
+      "id": "fan-10",
+      "severity": "minor",
+      "passage": "His working method has barely changed in six years.",
+      "problem": "Informed readers will notice two things. First, the breakthrough is missing. \"Heart on Ice\" went viral on TikTok and became his Billboard Hot 100 debut (Tampa Bay Times 2021; Billboard 2023), and the draft never names it, even though its sources call him the \"'Heart on Ice' Rapper.\" Second, the collaboration claim is overstated. Complex (2020) said he \"decided not to rely on outside guest features,\" but Pray 4 Love includes ATR Son Son, with Yo Gotti and Lil Baby on the deluxe edition. The \"Heart on Ice\" remix featured Lil Baby, 21 Savage and Lil Durk (Billboard 2023), and Revolt (S20) lists 21 Savage, Wet and Sadie Jean on Nostalgia. \"Skipped outside guest features\" plus \"barely changed in six years\" suggests a solitude his catalogue doesn't fully show.",
+      "acceptance_test": "The article names \"Heart on Ice\" as his breakthrough, with source and date. The guest-feature line matches Complex's wording (few features, not none) or notes the later features. \"Barely changed\" is limited to the one-engineer recording routine that the 2020 and 2021 sources actually describe."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "Rod asked the boy a question. \"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "reason": "Verified word for word in the Tampa Bay Times closing scene. It is specific and surprising, and the ending pays it off. This is the kind of detail no other profile has."
+    },
+    {
+      "passage": "That is a man about to turn 28 interpreting what happened at 17, and people often recast accidents as strategy.",
+      "reason": "Keeps his waiting-in-the-car story without treating a retrospective account as proof. A model of honest inference limits."
+    },
+    {
+      "passage": "at Lakewood High he sang so constantly, a former teammate told the Times, that the football coach put a timer in the locker room to get players out to practice.",
+      "reason": "Verified against the Times (Erik Hill-Cainion, coach Cory Moore). A memorable detail from a named witness that shows the voice came before the career."
+    },
+    {
+      "passage": "Asked what it looks like, he named his own bed, a freshly cleaned house, the \"AC on 65,\" an Apple TV show with his partner, and \"good meetings at the office\" the next morning. Music, recognition and being understood did not come up.",
+      "reason": "Matches the Breakfast Club transcript. Concrete, unglamorous and revealing. The observation about what is absent does real type work without overclaiming."
+    },
+    {
+      "passage": "So \"that was the way I had to tell myself and train my brain like ain't nothing or nobody never yours.\"",
+      "reason": "Checked against the full Club Shay Shay exchange (~66:50-69:30). Quoted accurately and fairly, including his concession that he has been heartbroken. It is the draft's strongest first-person discriminator."
+    }
+  ],
+  "assessment": "The draft is carefully attributed, labels its allegations well, and its best scenes (the Julius question, the car outside the club, the AC on 65) come from sources it actually opened. As an informed reader, though, I found two systematic problems. First, missing formative context. Uncle Dee's return, his role as manager, and his July 2024 death are absent. So are Rod's fatherhood, the \"Heart on Ice\" breakthrough, and his own accounts of where his discipline came from and what it cost him. Without them, the 2024-2026 run and the \"unexplained engine\" feel more mysterious than the record supports. Second, selective quotation leans toward the Nine reading on the discriminators that carry the most weight: the image answer loses its mystique \"plus,\" the awards test omits the 2023 Grammy ambition and the 2026 \"worth on paper\" line, the hiatus is called non-argumentative despite \"I dont fw you,\" the 2021 Alamo callout is left out, the Lil Poppa quote loses its circumstance, its regret and a strongly self-focused self-description, and the Barclays fall loses its stated suicide-prevention meaning. None of this proves Type 4. Several points (benefit of the doubt, exit-and-return, the trained detachment) still fit Nine. But the discriminator is weaker than the draft presents. After repairs, medium confidence may still hold only if the new counterevidence is confronted directly. If the editor changes the type or drops confidence to low, the standard requires a refresh with the expanded review. For this review I opened S01, S02 and S04 via YouTube auto-transcripts (not audio), plus S05, S08 (archive capture), S11, S18 and S20. Similarity advisory: the trip against Ibai-Llanos (\"the Nine reading struggles\" / \"Nine theory does not [predict/explain]\") and the Victoria-Justice match (\"insisting\") are shared type phrasing, not reused arguments. The Rod Wave evidence and the refusal to explain the gaps away with wing or arrow vocabulary are specific to this subject, so I'm not filing a reuse finding. The generic Type 9 explainer paragraph is the most reusable text in the draft."
+}

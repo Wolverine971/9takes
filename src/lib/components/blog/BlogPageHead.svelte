@@ -3,7 +3,7 @@
 	import { buildSocialImageUrl } from '$lib/utils/socialImage';
 	import { serializeJsonLd } from '$lib/utils/jsonLd';
 	import { buildBreadcrumbSchemaForGraph } from '$lib/utils/schema';
-	import { capDescriptionForSnippet, capTitleForSnippet } from '$lib/utils/seoBudget';
+	import { capDescriptionForSnippet } from '$lib/utils/seoBudget';
 	import {
 		AUTHOR_DJ_WAYNE_ID,
 		DJ_WAYNE_SAME_AS,
@@ -26,8 +26,9 @@
 	let seoTitle = $derived(data?.meta_title || articleTitle || '');
 	let description = $derived(data?.description || '');
 	let formattedTitle = $derived(seoTitle ? `${seoTitle}` : '9takes');
-	// SERP-budgeted variants - only constrain the snippet-facing tags.
-	let serpTitle = $derived(capTitleForSnippet(formattedTitle));
+	// Keep the full title (matches PeopleBlogPageHead). Google applies its own
+	// visual truncation; a literal ellipsis in <title> cuts the keyword tail.
+	let serpTitle = $derived(formattedTitle.trim() || '9takes');
 	let serpDescription = $derived(capDescriptionForSnippet(description || seoTitle || articleTitle));
 	const defaultShareImage = 'https://9takes.com/brand/9takes-nine-mask-social-card.png';
 	let hasCompositeShareImage = $derived(Boolean(data?.pic?.endsWith('-composite')));

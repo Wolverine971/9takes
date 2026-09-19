@@ -1,0 +1,28 @@
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+I wrote the Rod Wave draft and its evidence file. Both pass the pipeline's contract checks: no draft blockers, 3,792 words, and all 73 claims match exact text in the draft. Nothing else in the run folder was changed, and nothing was published (`published: false`).
+
+**The angle:** He's the most openly emotional artist of his generation, and he says he can't tell a person how he feels. Asked if he's ever been to therapy: "Nah… Straight music, man." The piece opens on a reported 2021 scene. After a hometown show where fans sang every word, he asked a 15-year-old with cancer what he could have done better, adding "I don't really know what to say between the songs." It types him as a 9 with medium confidence and gives Type 4 a full section. Three problems for the 9 reading get their own space: his drive, the $27M tour lawsuit, and his arrest record, with every charge's outcome and his lawyers' denials stated.
+
+**Four errors in the research packet**, found by re-pulling the interview transcripts and reopening the articles:
+- **Heartbreak:** the packet's key argument said he's never experienced it. He actually says "I done been heartbroke" before claiming every breakup was mutual. The argument is weaker as a result, and the draft says so.
+- **Awards:** he doesn't simply take the blame. He first calls it maybe "a 50/50 problem."
+- **Ari Lennox:** her statement that he never defended her was from 2024, not January 2025.
+- **Recording details:** his engineer described an Airbnb closet or airport lounge, not hotel rooms.
+
+The reopened sources also turned up a strong new detail. Lennox says they only met by running into each other in a hotel lobby. Separately, Rod told Shannon Sharpe he never really interacted with anyone on that tour: "I never do that with people."
+
+**Judgment calls:**
+- **Uncle Dee's death:** I cut Rod's remarks about it, because they could hint at a cause of death no official source has released.
+- **Ye's SoFi Stadium shows:** I left out the "biggest hip-hop show ever" claim. It's unverified, and the hedged wording the packet cited isn't in the article.
+- **Lil Poppa's suicide:** I gave no cause of death and didn't link Rod's distance to it.
+
+**Still open before publishing:**
+- **Audio:** quotes from the three 2026 interviews were only checked against YouTube's automatic transcripts, and the draft tells readers that. Someone should confirm them against the audio.
+- **Court cases:** outcomes are still needed for both 2025 Georgia arrests, the 2021 battery charge and the tour lawsuit.
+- **Six reviewers:** the research flagged sensitive allegations and contested typing, so this goes to all six reviewers instead of the usual two.
+
+One unrelated note: several connectors (Linear, Notion, Slack, Ahrefs and others) need re-authorizing in your connector settings, and Supabase failed to connect. None of them were needed here.
+
+Files are in `docs/content-analysis/pipeline-logs/2026-09-17_06-00-02-524_rod-wave/`:
+- draft.md
+- evidence-draft.json

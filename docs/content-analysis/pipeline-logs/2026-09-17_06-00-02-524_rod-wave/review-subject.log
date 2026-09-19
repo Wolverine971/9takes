@@ -1,0 +1,18 @@
+I wrote the subject (fairness) review for the Rod Wave draft to `review-subject.json`. It passes the pipeline's review format check, all 13 quoted passages match the draft exactly, and both hashes are copied from the request. No other files changed and nothing was published. To check the passages I briefly added a script under `scripts/`, then deleted it.
+
+**Result:** 1 blocker, 5 major and 2 minor findings, so the draft can't move on until the edit stage deals with them. All four risk flags from research still apply except "major thesis change," so all six reviewers are still needed.
+
+I re-downloaded the Club Shay Shay and Breakfast Club auto-transcripts (text only, not audio), reopened the archived Tampa Bay Times article, and read the countersuit coverage through Yahoo's copy because Billboard is paywalled. Most problems are quotes cut in ways that hurt him, all in the sections arguing against Type 9:
+
+1. **Lil Poppa (blocker):** Sharpe asked whether he'd missed warning signs. Rod said he and Poppa "talked and we bond" two or three times, which he rarely does, and that he fears he "weren't doing enough." The draft keeps only "I never do that with people," placed right after "Avoided conflict can land on other people." Read that way, his grief suggests his distance played a part in a suicide.
+2. **"Blaming myself":** that line is about his new touring company failing in the future. In the same answer he blames the Last Lap promoters for "what you guys ruined." The contradiction with his countersuit that the draft points to isn't there.
+3. **Grizzly's lawsuit:** the draft ties the promoter's claim that he made the production bigger to his "I like things done a certain way," which he said about record-label deals. It leaves out his countersuit's claim that Grizzly failed to load his equipment in and out of venues.
+4. **Temper section:** unproven or dropped charges are laid out as evidence of anger. One is a case his lawyers say started with a burglary of his home. The draft also omits what the Tampa Bay Times reported in the same paragraph: why he did the break-ins as a teen, and his 2018 regret. He also said himself that his teenage anger came out "in dangerous ways."
+5. **Ari Lennox:** Charlamagne asked about the booking decision, not about her charge that Rod stayed silent. So "He did not address her charge" makes it look like he dodged a question he was never asked.
+6. **Case status:** "unresolved... as of September 2026" rests on reporting from November 2025. My search on 2026-09-17 found no dismissals, but that doesn't prove the cases are still open. The draft also names his former agent as taking alleged under-the-table payments without saying no response from him was found.
+
+The minor findings cover overstatements: the FAQ says he talks about feelings "only in songs," but he mentions talking to his friends. Three other quotes are trimmed so he sounds more pained or cold than his full answers.
+
+Fixing these also weakens the case against Type 9, so expect those sections to get shorter, not just gentler. The similarity check flagged a possible repeat, but the shared wording was just ordinary Enneagram vocabulary, not a reused argument.
+
+Several connectors (Linear, Notion, Slack, Ahrefs and others) need re-authorizing in your settings, and Supabase failed to connect. This stage didn't need any of them.

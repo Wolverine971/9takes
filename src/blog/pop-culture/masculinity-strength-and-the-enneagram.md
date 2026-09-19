@@ -98,7 +98,7 @@ This does not mean calmness wins every date. It means emotional regulation and r
 <MarqueeHorizontal
 displayList={[
 {name: 'dating guide (men) 💪', link: '/enneagram-corner/enneagram-dating-guide-for-men'},
-{name: 'emotional growth 🌱', link: '/enneagram-corner/enneagram-types-overview'},
+{name: 'emotional growth 🌱', link: '/enneagram-corner/enneagram-tldr'},
 {name: 'stress responses 😰', link: '/enneagram-corner/enneagram-types-in-stress'},
 {name: 'personal growth 🧭', link: '/enneagram-corner/enneagram-personal-growth'}
 ]}

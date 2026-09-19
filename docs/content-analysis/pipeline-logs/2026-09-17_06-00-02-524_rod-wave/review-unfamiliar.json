@@ -1,0 +1,93 @@
+{
+  "schema_version": 3,
+  "role": "unfamiliar",
+  "content_sha256": "f31865c94313f2ac624b75e8e2835a36380b29944f25e3723e25c73bcb656c80",
+  "evidence_sha256": "3ed37bc9e8fc56186f2811a8d626a80371a7f9b0be88b95235e60570874ede94",
+  "risks": {
+    "sensitive_allegations": true,
+    "contested_typing": true,
+    "historical_source_uncertainty": true,
+    "major_thesis_change": false
+  },
+  "findings": [
+    {
+      "id": "unfamiliar-01",
+      "severity": "major",
+      "passage": "On September 11, 2021, Rod Wave brought his SoulFly tour to an amphitheatre in Tampa, across the bay from the St. Petersburg streets where he grew up.",
+      "problem": "A reader who has never heard of Rod Wave is not told in the opening what he does, what his music sounds like, or how big he is. The word \"rap\" first appears about 900 words in (\"until it was time to rap\"), \"rapper\" only inside a 2020 quote about 1,700 words in, and the first scale marker (fourth No. 1 album on the Billboard 200) about 1,800 words in. The opening puzzle depends on stakes the cold reader lacks: \"you're too big\" and a star asking a 15-year-old what to say between songs only land if the reader knows he is a chart-topping arena act. Several names also arrive with no role: SoulFly, DJ Fizzumfade, \"Uncle Dee\" (explained 14 paragraphs later), Charlamagne Tha God and The Breakfast Club.",
+      "acceptance_test": "Within the first ~150 body words, a reader with no prior knowledge can say that he is a St. Petersburg, Florida rapper-singer, describe his lane in a phrase, and cite one dated, sourced scale marker (No. 1 albums or arena size). Every person, show or tour named in the first three paragraphs is identified by role at first mention. The Tampa scene still leads."
+    },
+    {
+      "id": "unfamiliar-02",
+      "severity": "major",
+      "passage": "Quotations from those videos were checked against YouTube's automatically generated transcripts, not the audio, so sources from 2018 to 2023 carry the most weight below.",
+      "problem": "The article promises that 2018-2023 sources carry the most weight, then builds the type call mostly on the three August 2026 promo interviews: the therapy answer in the hook, the first discriminator (the image he won't correct, Charlamagne 2026), the \"sharpest\" discriminator the H2 is named after (Sharpe's breakup question, 2026), and the picture of peace. Only the second discriminator leans on 2020 material. A cold reader can't tell how much the conclusion rests on sources the article said it would discount. The paragraph also puts procedure ahead of the type answer, and \"their settled tone may partly be the album's\" assumes the reader knows _Don't Look Down_ is pitched as a happier or growth album, which is only said at lines 183 and 229.",
+      "acceptance_test": "The stated weighting matches the argument as written. Either the caveat names which 2026 answers the type call depends on and why they are still used, or the discriminator section visibly rests on pre-2024 evidence with the 2026 answers as corroboration. Before relying on the album's influence, the caveat says in plain words what the album is about. A reader who finishes can say which evidence was discounted and whether the Type 9 call survives without it."
+    },
+    {
+      "id": "unfamiliar-03",
+      "severity": "major",
+      "passage": "None of that tells us his type. It is the ordinary explanation for a young man who keeps people at a distance, and any type argument has to beat it.",
+      "problem": "The article sets an explicit test, circumstance versus type, and never comes back to it. The type argument compares only Type 4 and Type 9. Its sharpest evidence is that he trained himself to believe \"ain't nothing or nobody never yours\" after heartbreak hurt his work. A cold reader will hear that as the plain lesson of the losses listed three sections earlier (father and father figure imprisoned, Daijha's death, \"I'm scared to love, so scared to get close again\"). The closing list of open questions doesn't mention circumstance either, so the reader never learns why a type is needed on top of the life story.",
+      "acceptance_test": "Near the Type 4/Type 9 argument, the article names the circumstance explanation again and either gives at least one sourced observation it fails to explain but the Nine reading does, or concedes that circumstance explains the distance as well as the type and adds that to the open questions. A cold reader can answer: why isn't \"nobody never yours\" just the lesson of his childhood?"
+    },
+    {
+      "id": "unfamiliar-04",
+      "severity": "major",
+      "passage": "When the criticism peaked in January 2025, he did not argue with anyone. He left, telling the fans who stayed, \"this ain't goodbye it's simply see u later,\"",
+      "problem": "This is the same single post the Type 4 section quotes as wounded and aimed at critics who \"drag my name ... I dont fw you\". In HipHopDX's text (S11), the dismissal and \"this ain't goodbye\" run together in one post. The article counts the post as Four evidence (a hurt rebuke) and then, in its closing section, as Nine evidence (he didn't argue, he left). A reader who remembers the earlier quote hits a contradiction right where the article is pulling its argument together.",
+      "acceptance_test": "Both mentions describe the post the same way and acknowledge it contained both the rebuke to critics and the exit. \"Did not argue with anyone\" is removed or narrowed to something the post supports, such as no back-and-forth after one post. The article says once which reading, if either, the post supports."
+    },
+    {
+      "id": "unfamiliar-05",
+      "severity": "major",
+      "passage": "At Barclays Center in November 2023 he climbed a ladder on his stage set while fans screamed \"Don't do it, Rod!\" and then staged a fall, which he told Billboard came \"from a dream I had.\"",
+      "problem": "A cold reader gets a startling scene with no explanation, offered as Four-style theatrics. The cited Billboard feature (S05) goes on to record his stated purpose: \"it's really to show people, Don't get up and do that when you can do this... Imagine [if] I would've [gone through with committing suicide]. I would've never made it to this part.\" Stopping the quote at \"a dream I had\" drops that purpose. It changes what the scene means (a deliberate message to fans, not only self-dramatization) and leaves \"Don't do it, Rod!\" unexplained. The article already cites Billboard on his openness about suicidal thoughts at line 161 but never connects the two.",
+      "acceptance_test": "The scene either includes his stated purpose in context, attributed to Billboard (December 2023) and handled with care suited to the topic, and says what it does and does not show about the Four reading, or it is cut. A reader can say what the staged fall depicted and why it is in the Type 4 section."
+    },
+    {
+      "id": "unfamiliar-06",
+      "severity": "major",
+      "passage": "The record shows music did not absorb all of it.",
+      "problem": "This lead-in tells the reader that the arrests that follow are his anger spilling past the music. The list then includes a 2014 shooting the victim called an accident, a strangulation charge dropped within weeks, a battery case with no known outcome, and two denied, unresolved 2025 cases. Two paragraphs later the article says \"None of these allegations is proven, and no psychological conclusion should rest on them\" and \"The public record does not show why these incidents happened.\" The cold reader is given two opposite instructions about the same evidence, and the framing is the one they'll remember. The single ~190-word paragraph of charges also stalls the piece just before the ending.",
+      "acceptance_test": "The lead-in no longer presents the incidents as evidence of his temper. What the record can and cannot show is stated before the list, not after. Each case's status (dropped, outcome not found, unresolved as of a stated date) is readable without going back over the paragraph. The section draws no conclusion from the incidents beyond the fact of the charges and denials, which is what its own disclaimer allows."
+    },
+    {
+      "id": "unfamiliar-07",
+      "severity": "major",
+      "passage": "In conversation, he describes a trained readiness that forms in response to the other person's decision, so that a loss cannot pull him out of his work.",
+      "problem": "The article calls this its sharpest test and names the H2 after it, but a cold reader can't easily say what he actually said. The quoted fragments (\"I ain't never been in that situation,\" \"It's always just your turn, dog,\" \"ain't nothing or nobody never yours\") are compressed and colloquial, and the paraphrase \"a trained readiness that forms in response to the other person's decision\" is abstract. The Four comparison is only \"longing for what is gone,\" with no concrete behavior to set against his. The evidence record (C28) also says speaker labels in this exchange are inferred from an unlabeled auto transcript, with \"I done been heartbroke\" flagged for audio confirmation. The general transcript caveat in the intro doesn't tell the reader that the key quote is one of those.",
+      "acceptance_test": "Before any interpretation, one plain sentence says what he describes doing when a partner wants to leave (accepting it and moving on, having taught himself not to treat anyone as his) and why (heartbreak used to hurt his work ethic). The contrast names a concrete Four response to compare it with. The attribution of \"I done been heartbroke\" is confirmed against the audio, or the argument no longer depends on that line."
+    },
+    {
+      "id": "unfamiliar-08",
+      "severity": "minor",
+      "passage": "A more useful description is someone who keeps the peace by turning down the volume on their own presence: their wants, their grievances, their claim to the center of the room.",
+      "problem": "The advisory's tripped match (Ibai-Llanos, \"the Nine reading\") and top match (Victoria-Justice, \"insisting\") are ordinary type vocabulary. The arguments differ, so neither is reuse. But this gloss closely paraphrases the Type 9 definition in src/blog/people/drafts/Jelly-Roll.md (\"a deep, early-learned habit of turning down the volume on your own needs, desires, and anger to maintain peace\"). Jelly Roll is this page's first suggested profile, so a reader who follows the link meets the same metaphor in the same slot. The H2 \"The case for Type 4\" also repeats the heading in austin-abrams.md (2026-09-11), another Nine-versus-Four profile. The gloss could describe any Nine and teaches nothing specific to Rod.",
+      "acceptance_test": "The Type 9 explanation is anchored to something specific to Rod (for example, his own \"I've never been the center of attention type of person\" or the 300/65-day split) and shares no distinctive metaphor with Jelly-Roll.md. A grep for \"turning down the volume\" across src/blog/people/drafts matches at most one profile."
+    }
+  ],
+  "protected_passages": [
+    {
+      "passage": "\"Is there anything I could have done better up there tonight? I don't really know what to say between the songs.\"",
+      "reason": "The hook's best detail. It is specific and sourced, a newcomer understands it immediately, and it sets up the puzzle the ending pays off."
+    },
+    {
+      "passage": "a drive-thru customer asked, \"Are you that Rod Wave guy?\" He smiled and shook his head no.",
+      "reason": "A small, sourced scene from before fame that shows the pattern in action instead of explaining it. A cold reader remembers it."
+    },
+    {
+      "passage": "Rod cut the vocals for the gold-certified \"Brace Face\" with a hotel comforter over his head.",
+      "reason": "A distinctive working-method detail that makes \"a recording booth built for one\" concrete. It couldn't belong in any other profile."
+    },
+    {
+      "passage": "Asked what it looks like, he named his own bed, a freshly cleaned house, the \"AC on 65,\" an Apple TV show with his partner, and \"good meetings at the office\" the next morning. Music, recognition and being understood did not come up.",
+      "reason": "Shows the \"undisturbed room\" idea through his own concrete words, and the second sentence makes the point without an Enneagram term."
+    },
+    {
+      "passage": "And on a night in 2021 when the choir sang every word back to him near home, the one thing he asked a 15-year-old fan to critique was the part of the show where he had to talk.",
+      "reason": "An earned ending. It brings back the opening scene, stays narrow enough to be supported, and leaves the reader with the article's clearest observation instead of a restated thesis."
+    }
+  ],
+  "assessment": "For a reader with no prior knowledge, this is a mostly gripping profile with an unusually honest spine. The Tampa hook creates real curiosity, the working-method and pre-fame scenes are vivid and specific, the Type 9 and Type 4 explanations are plain enough for someone new to the Enneagram, and the closing callback pays off the opening. Clarity breaks down at four points. (1) Orientation: the reader isn't told he is a rapper-singer or how big he is until well into the piece. (2) The argument's own promises: the intro says 2018-2023 sources carry the most weight while the discriminators mostly use August 2026 interviews, and the circumstance-versus-type test it sets is never paid off. (3) Consistency: the January 2025 post counts as evidence for both types, and the Barclays fall is quoted without the purpose Billboard recorded. (4) The sensitive-record section frames dropped and unresolved charges as temper evidence and then disclaims that. Momentum sags in \"Where the Type 9 reading strains\" (about 1,000 words). The H3 \"The countersuit\" also holds the Ari Lennox and Lil Poppa material, which is about distance, not the lawsuit, and \"Last Lap tour collapsed\" appears about 30 lines before the article explains it. The body runs about 3,800 words, above the 2,000-3,500 target. A secondary clarity tension for the enneagram and critic reviewers: the first discriminator says he lets a wrong image stand, yet the article shows him correcting it toward ordinariness (\"Don't look at me like a rapper,\" 2020) and taking the SoFi shows so no one could say \"maybe that only worked for you.\" Saying outright that he corrects toward ordinariness, never toward specialness, would sharpen the discriminator. Similarity: the tripped Ibai-Llanos match is shared type vocabulary, not a reused argument. The meaningful overlap is the Type 9 gloss shared with the linked Jelly Roll profile (unfamiliar-08). Risk flags stay raised: sensitive allegations (criminal charges, Lennox's statement, suicide context), contested typing (4 versus 9 at medium confidence), and source uncertainty (auto-transcript attributions, conflicting first-show accounts, a juvenile case known through one paper)."
+}

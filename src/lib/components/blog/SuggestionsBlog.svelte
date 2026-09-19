@@ -9,10 +9,17 @@
 
 	const normalizeSlugPrefix = (value: string | undefined): string =>
 		value ? value.replace(/^\/+|\/+$/g, '') : '';
-	const buildBlogPath = (prefix: string, slug: string): string =>
-		prefix ? `/${prefix}/${slug}` : `/${slug}`;
-	const buildBlogUrl = (prefix: string, slug: string): string =>
-		`https://9takes.com${buildBlogPath(prefix, slug)}`;
+	const SITE_ORIGIN = 'https://9takes.com';
+	// Prefer the post's canonical `loc` so nested posts (e.g. mental-health/)
+	// don't link through a 301; fall back to prefix + slug.
+	const buildBlogPath = (prefix: string, post: App.BlogPost): string => {
+		if (typeof post.loc === 'string' && post.loc.startsWith(`${SITE_ORIGIN}/`)) {
+			return post.loc.slice(SITE_ORIGIN.length);
+		}
+		return prefix ? `/${prefix}/${post.slug}` : `/${post.slug}`;
+	};
+	const buildBlogUrl = (prefix: string, post: App.BlogPost): string =>
+		`${SITE_ORIGIN}${buildBlogPath(prefix, post)}`;
 
 	$: resolvedPosts = Array.isArray(posts) ? posts : [];
 	$: normalizedSlugPrefix = normalizeSlugPrefix(slugPrefix);
@@ -36,7 +43,7 @@
 						'@type': 'Article',
 						name: post.title,
 						description: post.description,
-						url: buildBlogUrl(normalizedSlugPrefix, post.slug)
+						url: buildBlogUrl(normalizedSlugPrefix, post)
 					}
 				}))
 			})
@@ -59,7 +66,7 @@
 		{#each visiblePosts as blog (blog.slug)}
 			<li class="grid-item">
 				<a
-					href={buildBlogPath(normalizedSlugPrefix, blog.slug)}
+					href={buildBlogPath(normalizedSlugPrefix, blog)}
 					class="blog-link"
 					style={blog.pic ? `background-image: url(/blogs/s-${blog.pic}.webp);` : ''}
 					data-sveltekit-preload-data="tap"
