@@ -1,0 +1,21 @@
+I reviewed `src/blog/people/drafts/Elizabeth-Holmes.md` against the entity-gap brief. The fresh-eyes notes are now one block at the bottom of the file. The article body is unchanged, and the comment closes cleanly with no em-dashes.
+
+**The two biggest issues:**
+
+1. **The caveats drown out the person.** 15 sentences in the body say some version of "X cannot settle Y" or "X is not Y." Nearly every section ends on one, so readers hear a lawyer more than they hear Holmes. The contrast-pair lint doesn't catch this pattern. The note lists the three caveats worth keeping and says to cut the rest.
+2. **The story's high point and the collapse are both missing, and the Type 3 lens never answers the film's question.** There's no $9B valuation, Forbes billionaire ranking, Walgreens rollout, or Carreyrou/WSJ exposé. The best evidence for the piece's argument goes unused: after the 2015 WSJ story she told CNBC, "first they think you're crazy, then they fight you, and then all of a sudden you change the world." Reviews of the documentary now report she insists she has never lied. That makes the classic Type 3 weakness, self-deception, the one answer only 9takes can give to "is she ever being real?" Right now "I'm always being real" and the "disaster zone" text sit five sections apart and never meet.
+
+**The two questions the brief handed to this pass:**
+- **Mention the film in the opening?** Yes. Add one sentence with Fielder's teaser question before the Type 3 question, and save her answer for the documentary section. I also recommend giving the documentary its own H2 (it's why October readers arrive) and folding the thin motherhood section into it.
+- **Use Fielder's quote about Billy Evans?** Keep it out of the Balwani section: placed there, it implies a parallel between a private partner and an alleged abuser. If it's used at all, it belongs as one attributed sentence in the documentary section.
+
+**Before this ships:**
+- **Unverified claim:** the 2026 New York Times report that Holmes and Evans dispute the 2023 profile quotes still doesn't show up in search today. The brief says to cut that sentence and the matching FAQ answer unless it's confirmed before shipping.
+- **The epigraph is cut short:** the full New Yorker line continues "...and about people deciding not to spend their lives on something purposeful." That second half is the more revealing part.
+- **Unexplained name change:** a heading calls her "Liz Holmes," but the body never explains that she now goes by Liz.
+
+The draft is about 2,976 words against the 3,200–3,900 target, so all the suggested additions fit, especially once the caveats are cut.
+
+The note also records what's working and should be protected: the "Then the blood tests had to work" opening, the Kissinger/Gardner/Murdoch-binder section, the nine-year-old's letter to her father, and the ending.
+
+Sources: [Variety review](https://variety.com/2026/film/reviews/nathan-fielder-surprise-film-telluride-elizabeth-holmes-1236853513/), [Iowa Public Radio review](https://www.iowapublicradio.org/arts-life/2026-09-11/nathan-fielder-elizabeth-holmes-documentary-you-can-see-everything-movie-review), [CNBC, Oct 2015](https://www.cnbc.com/2015/10/15/theranos-ceo-fires-back-at-wsj-i-was-shocked.html), [Wikiquote](https://en.wikiquote.org/wiki/Elizabeth_Holmes), [Jezebel on the 2023 profile](https://www.jezebel.com/cute-new-york-times-helps-elizabeth-holmes-launder-her-1850413387), [Fortune on the 2023 profile](https://fortune.com/2023/05/08/elizabeth-holmes-theranos-reinvention-failing-new-york-times-profile), [SFGate on the Times backlash](https://www.sfgate.com/tech/article/elizabeth-holmes-new-york-times-profile-backlash-18130904.php), [Refinery29 on family history](https://www.refinery29.com/en-us/elizabeth-holmes-family-worth-rich-parents-grandparents)

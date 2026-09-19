@@ -2,7 +2,7 @@
 title: 'Elizabeth Holmes: An In-Depth Enneagram Type 3 Analysis'
 meta_title: 'Elizabeth Holmes: Enneagram Type 3 and the Cost of Belief'
 persona_title: The Founder Who Sold Belief
-description: 'Elizabeth Holmes''s Type 3 pattern: borrowed authority, Theranos''s fraud and how You Can See Everything complicates her carefully presented public identity.'
+description: "Elizabeth Holmes's Type 3 pattern: borrowed authority, Theranos's fraud and how You Can See Everything complicates her carefully presented public identity."
 author: DJ Wayne
 date: '2026-05-07'
 loc: 'https://9takes.com/personality-analysis/elizabeth-holmes'
@@ -112,7 +112,7 @@ production_pretext:
     - external_claude_pipeline_approval_pending
     - fresh_same_version_grades_missing
     - six_perspective_review_missing
-path: src/blog/people/drafts/Elizabeth-Holmes.md
+path: docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/draft-reviewed.md
 ---
 
 <!-- TESTIMONY LEDGER 2026-09-19
@@ -175,7 +175,7 @@ The claims outran the technology. In January 2022, a jury convicted Holmes of co
 
 One detail makes the fraud concrete: Holmes acknowledged adding pharmaceutical-company logos to Theranos validation reports. Representatives of those companies testified that they had neither validated the technology nor authorized the logos. Investors were handed the appearance of independent scientific endorsement. [Appeals court account](https://cdn.ca9.uscourts.gov/datastore/opinions/2025/12/22/23-1167.pdf#page=15)
 
-Twelve years after that New Yorker profile, a camera crew is asking about the same promise. In the teaser for *You Can See Everything*, the documentary A24 puts in theaters in October, Nathan Fielder asks her: **"You're being real right now?"** [A24's official teaser, released September 6, 2026](https://www.youtube.com/watch?v=GGJSRFWALTI), [NBC News, September 7, 2026](https://www.nbcnews.com/pop-culture/movies/elizabeth-holmes-nathan-fielder-documentary-you-can-see-everything-rcna596457)
+Twelve years after that New Yorker profile, a camera crew is asking about the same promise. In the teaser for _You Can See Everything_, the documentary A24 puts in theaters in October, Nathan Fielder asks her: **"You're being real right now?"** [A24's official teaser, released September 6, 2026](https://www.youtube.com/watch?v=GGJSRFWALTI), [NBC News, September 7, 2026](https://www.nbcnews.com/pop-culture/movies/elizabeth-holmes-nathan-fielder-documentary-you-can-see-everything-rcna596457)
 
 The [Enneagram Type 3](/enneagram-corner/enneagram-type-3) reading asks a specific question: **what happens when protecting your identity as a successful founder takes priority over correcting the story your company tells?**
 
@@ -267,7 +267,7 @@ Within a day, Holmes was on CNBC's Mad Money, contesting the reporting rather th
 
 Her willingness to talk never flagged across those years. What changed was what a sentence had to attach to. Onstage a promise could stay large and still move a room. In a deposition, every statement got fastened to a date, a document and a particular representation made to a particular investor, and the ability to inspire belief stopped counting as an answer.
 
-Other people took over the telling from there: Carreyrou's *Bad Blood* in 2018, HBO's *The Inventor* in 2019, Hulu's *The Dropout* in 2022, which won Amanda Seyfried an Emmy for playing her. For most of a decade, the most widely seen Elizabeth Holmes was someone else's performance of her.
+Other people took over the telling from there: Carreyrou's _Bad Blood_ in 2018, HBO's _The Inventor_ in 2019, Hulu's _The Dropout_ in 2022, which won Amanda Seyfried an Emmy for playing her. For most of a decade, the most widely seen Elizabeth Holmes was someone else's performance of her.
 
 ## Why the Sunny Balwani relationship resists a simple explanation
 
@@ -287,7 +287,7 @@ Readers pushed back hard. Jezebel called the piece help with laundering her repu
 
 The ordinary explanation is also available. A person can love her children and care intensely about how the public sees her, and a reported scene at the zoo cannot separate those two things.
 
-The documentary puts the same request to be believed under a harder light. Nathan Fielder and Lance Oppenheim's *You Can See Everything* screened at Telluride on September 6, 2026. A24 says the project began when Holmes invited a crew into her life 34 days before prison, and its teaser promises October; the studio's film page still listed the specific date as to be determined on September 19, while reporting gives October 16. [A24 film page](https://a24films.com/films/you-can-see-everything), [Telluride reporting](https://www.forbes.com/sites/alisondurkee/2026/09/07/nathan-fielder-secretly-made-an-elizabeth-holmes-documentary-heres-what-we-know-about-it/)
+The documentary puts the same request to be believed under a harder light. Nathan Fielder and Lance Oppenheim's _You Can See Everything_ screened at Telluride on September 6, 2026. A24 says the project began when Holmes invited a crew into her life 34 days before prison, and its teaser promises October; the studio's film page still listed the specific date as to be determined on September 19, while reporting gives October 16. [A24 film page](https://a24films.com/films/you-can-see-everything), [Telluride reporting](https://www.forbes.com/sites/alisondurkee/2026/09/07/nathan-fielder-secretly-made-an-elizabeth-holmes-documentary-heres-what-we-know-about-it/)
 
 NBC News reports her asking on camera: **"Why would I deceive you? There's no reason for me to do that."** Put Fielder's question from the top of this page to her, and the answer is **"I'm always being real."** [NBC News, September 7, 2026](https://www.nbcnews.com/pop-culture/movies/elizabeth-holmes-nathan-fielder-documentary-you-can-see-everything-rcna596457)
 

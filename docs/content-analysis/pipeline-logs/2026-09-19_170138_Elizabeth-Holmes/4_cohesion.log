@@ -1,0 +1,51 @@
+Cohesion pass complete. Lint, quality report, and similarity scan all re-run clean.
+
+## Cohesion Check Complete: `src/blog/people/drafts/Elizabeth-Holmes.md`
+
+**Before score: 7/10 → After score: 8.5/10**
+
+### Central Thesis
+Holmes's Type 3 pattern — protecting her identity as the exceptional founder took priority over correcting what her company claimed — explains how belief in her became a substitute for evidence, and it sets the standard any reinvention now has to meet.
+
+### Thread Map
+Intro (the promise, the rise, the verdict, the film) → **Diagnosis** (what the pattern is) → **Greatness** (where the identity came from) → **Voice** (how the image stood in for evidence) → **Endorsements** (how borrowed authority did scientific work) → **Employees** (what it cost people who challenged it) → **Unraveling** (internal objections go public) → **Balwani** (the one place she told it herself) → **Documentary** (two attempts at a new portrait) → **Prison** (the least glamorous version of the test) → **Ending** (the standard, applied both directions).
+
+| Check | Before | After |
+|---|---|---|
+| Through-Line Clarity | 8/10 | 8/10 |
+| Promise-Delivery Match | 9/10 | 9/10 |
+| Reader Mental Model | 6/10 | 9/10 |
+| Section Transitions | 6/10 | 9/10 |
+| Internal Paragraph Flow | 7/10 | 9/10 |
+
+### Changes Made (10)
+
+**Transition fixes (5)**
+- **Diagnosis → Greatness** (was weak, ended on a dead-end caveat): added a forward line carrying "identity" into the childhood section. Side benefit — the section no longer closes on a caveat, which the fresh-eyes review flagged as a house rule.
+- **Greatness → Voice** (was broken): added "Being that embodiment meant being looked at," carrying "visible embodiment" across the H2 boundary.
+- **Unraveling → Balwani** (was broken — hard topic switch): "Her own account of those years arrived in court" now hinges off "someone else's performance of her."
+- **Balwani → Documentary** (was broken + dangling antecedent): "Holmes attempted the reinvention herself first" referenced a reinvention the reader hadn't been told about. Recast to bridge off sworn testimony and seed "portrait," which the section and the TL;DR both pay off.
+- **Documentary → Prison** (was weak): added an outside/inside hinge carrying "portrait" forward.
+
+**Reader mental-model fixes (3)**
+- Diagnosis para 3 opened on a vague "It" → "That pressure."
+- Diagnosis said the film is "now in theaters," contradicting the draft's own October release in two other places → "the film opening in October."
+- "The documentary puts the same request under a harder light" had a fuzzy antecedent → "the same request to be believed."
+
+**Internal flow fixes (2)**
+- **Employees section** reordered A→C→B: the "being told to believe harder" analysis now follows the witness evidence it responds to, with the Tyler/George reconciliation moved to its natural coda position before the patient testimony.
+- **Prison section** had job → legal dates → meaning-of-job. Added a reach-back ("harder to score than any of that") so paragraph 3 reconnects over the legal paragraph, without costing the section's strong close.
+
+**Orphaned threads:** none found. The intro's Fielder question, the TL;DR's "who controls the portrait," the diagnosis's self-deception seed, and the epigraph's second half all get cashed.
+
+### Verification
+- `blog-lint`: **0 fail, 1 warn** — the single warn is the pre-existing comparative inside reported speech about her voice (L220), documented in the second-pass notes and untouched by this pass.
+- Body **3715 words** (was 3642), inside the 3200–3900 band.
+- Contrast pairs: 0 strong. No prose em-dashes. No banned AI phrases.
+- `same-type-similarity`: clear (0.042 vs 0.04 noise floor, `tripped=false`).
+- Frontmatter, FAQ anchors, all ledgers, Svelte/HTML blocks and every internal link untouched.
+
+### Remaining concerns (your call)
+1. **The Balwani section is the weakest thesis-server.** It guards against a one-dimensional portrait rather than advancing the founder-identity spine. It now bridges cleanly in and out, so it no longer reads as bolted on, but it's the one section that could be cut without the argument collapsing. It's FAQ-anchored, so cutting isn't free.
+2. **The documentary section deflates slightly at the end.** The Evans/control paragraph lands after the section's strongest beat (self-deception + Variety). I left it because it's where the fresh-eyes review deliberately placed it and it's what cashes the TL;DR's portrait promise.
+3. The draft is still production-blocked for unrelated reasons (no six-perspective review, no fresh grades) — this pass doesn't change that.

@@ -1,0 +1,18 @@
+Done — final checks all pass. Here's the summary.
+
+**Draft updated:** `src/blog/people/drafts/Elizabeth-Holmes.md` (2,967 → 3,642 prose words, inside the 3,200–3,900 band)
+
+**The four big fresh-eyes calls, and what I did:**
+
+1. **Cut the unverified NYT 2026 dispute** (voice section + FAQ + citation). A fresh search again surfaced only 2023 backlash coverage, and the entity-gap packet had already flagged it at-risk. The voice section now rests on the attributed 2023 profile plus the 2015 Glamour account.
+2. **Built the rise and the fall.** The intro now has the finger-prick pitch, the fall-2013 Walgreens launch and the $9B/$4.5B numbers; a new H2, "How the Theranos story came apart," runs four dated beats (Carreyrou's WSJ, Mad Money the next day, Parloff's retraction, Forbes to zero) and absorbs the old SEC-deposition section. *Bad Blood*, *The Inventor* and *The Dropout* are named, which finally earns "someone else's performance of her."
+3. **The Type 3 lens now answers the film's question.** Self-deception is seeded in the diagnosis and tested in the documentary section, where "I'm always being real" and NBC's on-camera "Why would I deceive you?" sit directly against the November 2014 disaster-zone text and the Murdoch binder. Variety's "willingness to lie to herself" is cited as the reviewer's view; the jury's knowing-deception finding is stated as untouched, and the cut "no Elizabeth underneath the costume" claim stays cut.
+4. **Restructure + caveat diet.** Documentary promoted to its own H2 (FAQ anchor preserved), motherhood folded in with the "Liz" rename and real critic pressure (Jezebel, Fortune, Chozick's "impossible not to believe her"), ending on Fielder's remark about Evans controlling the process. Of 15 caveat closers, 5 remain and all are load-bearing. No section ends on a caveat.
+
+**Newly verified, not taken on trust:** the full New Yorker epigraph and the Cincinnati hospital she toured at eight (extracted from a PDF of the Auletta profile, since newyorker.com is unfetchable); the two concrete patient witnesses and Cheung's "highly unreliable" from the Ninth Circuit opinion (pages 15 and 28); Forbes $4.5B → zero; BOP live today (FPC Bryan, release 2030-02-22).
+
+**Rejected one fresh-eyes ask:** the Mad Money "first they think you're crazy" quote. Search summaries disagreed on the date and YouTube blocked transcript access, so that beat is paraphrased against CNBC's dated report rather than quoted.
+
+**Checks:** blog-lint 0 fail / 1 warn (a comparative pattern inside reported speech), 0 strong contrast pairs, same-type-similarity clear, source audit 2 load-bearing quotes — 2 inline, 0 vague, 0 untagged.
+
+**Still open for an editor or ship-day pass:** Variety/Deadline/IndieWire are tollbit-paywalled so the review wording came from search snippets; people.com still 403s; the DOJ clemency page can't be read directly, so the September 1 attribution stands; and A24 still shows TBD, so October 16 is attributed to reporting. The draft remains production-blocked (no six-perspective review, no fresh grades) — and the packet's real deadline is shipping before October 16.

@@ -1,0 +1,26 @@
+Elizabeth Holmes is not an entity gap: she scores 41/100, a pass. The more urgent finding is that her live page is showing readers wrong facts right now. The fix already exists; it just never reached the database.
+
+**Why it's a pass:** she has a full Wikipedia article, a second Wikipedia article just for her trial, plus Britannica and Biography.com pages (the latter already updated for the documentary). Nobody needs 9takes for her biography, so the packet tells later pipeline stages not to add biography sections.
+
+**What's wrong on the live page:**
+- **Release date:** it says she's due out in "late 2032." The Bureau of Prisons listed February 22, 2030 when checked on Sept 9.
+- **"Husband":** it calls Billy Evans her husband. Holmes said in February 2025 that they never officially married.
+- **Unsupported claims:** "There was no Elizabeth underneath the costume," an unverified claim about warnings she posted from prison about AI, and a "$700M" figure presented as if it were what she was convicted of.
+
+The Sept 9 refresh fixes all of these. It's saved in git but still marked blocked, so the database still has the May version.
+
+**Where 9takes can win:** "Elizabeth Holmes personality type." 9takes sits around position 9 for it, and everything else in those results is crowd-voting typing sites. Film reviews are framing the documentary around what makes her tick, which is exactly what the page answers.
+
+**Timing:** the documentary, *You Can See Everything*, is reported to open in theaters October 16 (A24's own page still says "TBD"). Over the last 28 days the page had 56 impressions and 0 clicks, and a small spike right after the premiere. It has never had a click. My forecast for the 28 days after it ships: 80–600 impressions and 0–10 clicks. Most of any rise will come from interest in the film, not the rewrite. Getting it live well before October 16 matters more than any more wording polish.
+
+**Decisions for you:**
+- **Page title:** I recommended keeping "Enneagram Type 3" in the search title rather than switching to a biography-style title. On name searches the page loses to Wikipedia either way, and switching would give up the one search where it can win.
+- **Unconfirmed claim in the refresh:** it cites a Sept 2026 New York Times report that Holmes and Evans dispute how she was quoted in the 2023 Times profile. I couldn't confirm that story exists; the only earlier hit came from an odd non-nytimes.com web address. If nobody confirms it before shipping, the packet says to cut that sentence and the matching FAQ line.
+
+**Limits:**
+- My search tool doesn't return true Google rankings, so no rank positions are claimed.
+- PEOPLE, RogerEbert.com, Hollywood Reporter and IndieWire were paywalled or blocked, so review details come from search snippets.
+- The Google Trends spike (seen Sept 9) wasn't re-checked today.
+- Ahrefs isn't connected (it would have given real rankings and backlinks); it needs authorizing in your claude.ai connector settings. The Supabase connector failed to connect, so I checked the database with the repo's query script instead.
+
+I pulled Search Console data read-only to the terminal. The only file written is the packet: `docs/content-analysis/entity-gaps/Elizabeth-Holmes.md`

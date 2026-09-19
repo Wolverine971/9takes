@@ -72,7 +72,8 @@ const config = {
 			// SvelteKit's CSRF guard. They must NOT live in a root api/ folder:
 			// Vercel treats that as its own functions dir and 404s every dynamic
 			// /api/* SvelteKit route (see scripts/vercel-add-standalone-functions.mjs).
-			'vercel-functions/**/*.{test,spec}.{js,ts}'
+			'vercel-functions/**/*.{test,spec}.{js,ts}',
+			'scripts/**/*.{test,spec}.{js,mjs,ts}'
 		]
 	},
 	css: {
