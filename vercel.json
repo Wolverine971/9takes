@@ -118,6 +118,16 @@
 			"permanent": true
 		},
 		{
+			"source": "/contact",
+			"destination": "/about#contact",
+			"permanent": true
+		},
+		{
+			"source": "/contact-us",
+			"destination": "/about#contact",
+			"permanent": true
+		},
+		{
 			"source": "/blog/famous-enneagram-types/type/:slug",
 			"destination": "/personality-analysis/type/:slug",
 			"permanent": true

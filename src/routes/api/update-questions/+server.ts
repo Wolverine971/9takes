@@ -1,5 +1,6 @@
 // src/routes/api/update-questions/+server.ts
 import { error, json } from '@sveltejs/kit';
+import { waitUntil } from '@vercel/functions';
 import { PRIVATE_WEBHOOK_AUTH } from '$env/static/private';
 import { logger, withApiLogging } from '$lib/utils/logger';
 import { z } from 'zod';
@@ -11,6 +12,11 @@ import {
 	updateQuestionAiTaggingState
 } from '../../../utils/server/openai';
 import { checkDemoTime } from '../../../utils/api';
+
+// tagQuestion fans out to a director plus nine voice calls after the response.
+export const config = {
+	maxDuration: 300
+};
 
 // Validation schemas
 const updateQuestionSchema = z.object({
@@ -196,14 +202,9 @@ export const POST = withApiLogging(async (event) => {
 			jobId,
 			startedAt
 		});
-		const waitUntil =
-			(event as any)?.platform?.context?.waitUntil ?? (event as any)?.platform?.waitUntil;
-
-		if (typeof waitUntil === 'function') {
-			waitUntil(runTagging);
-		} else {
-			void runTagging;
-		}
+		// The Node adapter passes no `platform`; @vercel/functions keeps the
+		// invocation alive until tagging settles (tagQuestion catches its own errors).
+		waitUntil(runTagging);
 
 		logger.info('Question tagging queued successfully', { questionId, jobId });
 		return json({ success: true, status: 'processing', jobId });

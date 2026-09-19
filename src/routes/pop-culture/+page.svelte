@@ -127,8 +127,8 @@
 </svelte:head>
 
 <SEOHead
-	title="Pop Culture Psychology: Dark Triad, Celebrities & Criminal Minds | 9takes"
-	description="Explore the psychology of pop culture through the Enneagram. From serial killers and the Dark Triad to celebrity breakdowns and fictional characters. Deep dives into famous scandals, criminal psychology, and cultural phenomena."
+	title="Pop Culture Psychology: Dark Triad & Criminal Minds | 9takes"
+	description="Decode the psychology behind pop culture: the Dark Triad, serial killers, celebrity breakdowns, and fictional characters, read through the Enneagram."
 	canonical="https://9takes.com/pop-culture"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/blogs/pop-queens-enneagram-analysis-composite.webp"

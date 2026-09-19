@@ -699,7 +699,9 @@ TODO: add source.
 				loc: 'https://9takes.com/personality-analysis/missing-person',
 				title: 'Missing person',
 				enneagram: 4,
-				content: 'New unpublished draft'
+				content: 'New unpublished draft',
+				_requires_editorial_v3: true,
+				_source_path: 'src/blog/people/drafts/missing-person.md'
 			};
 			const insert = vi.fn().mockResolvedValue({ error: null });
 			const from = vi.fn(() => ({
@@ -730,6 +732,9 @@ TODO: add source.
 			expect(insert).toHaveBeenCalledWith(
 				expect.objectContaining({ person: 'missing-person', published: false })
 			);
+			// Parser-internal `_` flags are not columns; leaking one fails the insert.
+			const insertedKeys = Object.keys(insert.mock.calls[0][0]);
+			expect(insertedKeys.filter((key) => key.startsWith('_'))).toEqual([]);
 		});
 	});
 });

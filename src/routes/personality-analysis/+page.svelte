@@ -177,8 +177,8 @@
 </script>
 
 <SEOHead
-	title="Famous People Personality Analysis | Enneagram Character Studies | 9takes"
-	description={`Explore ${totalPeople} in-depth Enneagram personality analyses of celebrities, historical figures, and influential people. Browse by type or category to decode what drives the world's most fascinating personalities.`}
+	title="Famous People Personality Analysis: Enneagram Types | 9takes"
+	description={`${totalPeople} Enneagram personality analyses of celebrities, leaders, and historical figures. Browse by type or category to decode what drives each one.`}
 	canonical="https://9takes.com/personality-analysis"
 	twitterCardType="summary_large_image"
 	ogImage="https://9takes.com/brand/9takes-nine-mask-social-card.png"

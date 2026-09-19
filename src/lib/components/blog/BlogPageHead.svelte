@@ -129,7 +129,8 @@
 		(data?.article_citations ?? []).map((citation) => ({
 			'@type': 'CreativeWork',
 			name: citation.name,
-			...(citation.author ? { author: citation.author } : {}),
+			// schema.org `author` expects a Person/Organization, not bare text.
+			...(citation.author ? { author: { '@type': 'Person', name: citation.author } } : {}),
 			...(citation.datePublished ? { datePublished: citation.datePublished } : {}),
 			...(citation.publisher ? { publisher: citation.publisher } : {}),
 			...(citation.url ? { url: citation.url } : {})
@@ -195,8 +196,8 @@
 		},
 		...(aboutThings.length ? { about: aboutThings } : {}),
 		...(mentions.length ? { mentions } : {}),
-		...(articleCitations.length ? { citation: articleCitations } : {}),
-		...(data?.medical && data?.disclaimer ? { disclaimer: data.disclaimer } : {})
+		...(articleCitations.length ? { citation: articleCitations } : {})
+		// `disclaimer` is not a schema.org property; the disclaimer renders as visible copy instead.
 	});
 
 	let jsonldObj = $derived.by(() => ({

@@ -150,8 +150,9 @@
 	let seoTitle = $derived(
 		`${peopleCount} Famous Enneagram Type ${data.slug}s: ${typeInfo.name} (Examples & Analyses)`
 	);
+	// Lands at 136-154 chars for every type at any count from 1 to 150.
 	let seoDescription = $derived(
-		`${peopleCount} famous Enneagram Type ${data.slug} (${typeInfo.name}) personalities, decoded. ${typeInfo.tagline}. See how Type ${data.slug} shows up in celebrities, leaders, and creators.`
+		`${peopleCount} famous Enneagram Type ${data.slug}s (${typeInfo.name}), decoded. ${typeInfo.tagline}. See the pattern in celebrities, leaders, and creators.`
 	);
 
 	let latestDate = $derived(getLatestDate(data.people));

@@ -16,7 +16,7 @@
 	const pageUrl = `${siteUrl}/enneagram-test`;
 	const pageTitle = 'The Enneagram Test, Reframed | 9takes';
 	const pageDescription =
-		'9takes will never type you with a checkbox quiz. Answer real questions anonymously, read the nine takes, and notice which pattern sounds like the inside of your head.';
+		'Skip the checkbox Enneagram test. Answer real questions before the crowd, read the nine takes, and notice which one sounds like the inside of your head.';
 
 	const jsonLd = {
 		'@context': 'https://schema.org',

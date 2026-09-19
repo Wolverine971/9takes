@@ -1990,6 +1990,25 @@ function getEmptyBlogRecord() {
 }
 
 /**
+ * Builds the DB row for a parsed entry. Every `_`-prefixed key is parser-internal
+ * bookkeeping, never a column, so all of them are stripped here rather than by
+ * name at each write site (a named list missed `_requires_editorial_v3`).
+ * @param {PersonBlogEntry} entry
+ * @returns {BlogRecord}
+ */
+export function toBlogRecord(entry) {
+	const entryRecord = Object.fromEntries(
+		Object.entries(entry).filter(([key]) => !key.startsWith('_'))
+	);
+	/** @type {BlogRecord} */
+	const record = { ...getEmptyBlogRecord(), ...entryRecord };
+	if (!entry._has_content_quality || !entry._has_valid_content_quality) {
+		delete record.content_quality;
+	}
+	return record;
+}
+
+/**
  * Publish owns release metadata and deliberately retains the legacy insert path.
  * It is isolated from the non-publish tasker path.
  * @param {ReturnType<typeof createSupabaseServiceClient>} supabase
@@ -1997,16 +2016,7 @@ function getEmptyBlogRecord() {
  * @param {InsertIntoSupabaseResult} result
  */
 async function syncEntryForPublish(supabase, entry, result) {
-	const {
-		_has_content_quality,
-		_has_valid_content_quality,
-		_explicit_fields: _explicitFields,
-		_source_path: _sourcePath,
-		...entryRecord
-	} = entry;
-	/** @type {BlogRecord} */
-	const record = { ...getEmptyBlogRecord(), ...entryRecord };
-	if (!_has_content_quality || !_has_valid_content_quality) delete record.content_quality;
+	const record = toBlogRecord(entry);
 
 	const { data: existing, error: existingError } = await supabase
 		.from('blogs_famous_people')
@@ -2148,16 +2158,7 @@ export async function insertIntoSupabase(entries, options = {}) {
 						continue;
 					}
 
-					const {
-						_has_content_quality,
-						_has_valid_content_quality,
-						_explicit_fields: _explicitFields,
-						_source_path: _sourcePath,
-						...entryRecord
-					} = entry;
-					/** @type {BlogRecord} */
-					const record = { ...getEmptyBlogRecord(), ...entryRecord };
-					if (!_has_content_quality || !_has_valid_content_quality) delete record.content_quality;
+					const record = toBlogRecord(entry);
 
 					const { error: insertError } = await supabase
 						.from('blogs_famous_people')

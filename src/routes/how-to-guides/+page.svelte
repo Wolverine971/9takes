@@ -111,7 +111,7 @@
 				'@id': 'https://9takes.com/how-to-guides#webpage',
 				name: 'How-To Guides | Practical Life Advice | 9takes',
 				description:
-					'Practical guides to help you navigate life, relationships, and personal growth with the Enneagram.',
+					'Practical Enneagram guides for real problems: reading people, breaking repeat arguments, standing up for yourself, and building habits that fit your type.',
 				url: 'https://9takes.com/how-to-guides',
 				inLanguage: 'en-US',
 				publisher: {
@@ -138,7 +138,7 @@
 
 <SEOHead
 	title="How-To Guides | Practical Life Advice | 9takes"
-	description="Practical guides to help you navigate life, relationships, and personal growth with the Enneagram."
+	description="Practical Enneagram guides for real problems: reading people, breaking repeat arguments, standing up for yourself, and building habits that fit your type."
 	canonical="https://9takes.com/how-to-guides"
 	{jsonLd}
 />

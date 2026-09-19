@@ -20,6 +20,7 @@ import {
 	isTrackableContentRequester
 } from '$lib/server/contentAccessGuard';
 import { recordSharedContentAccessEvent } from '$lib/server/contentAccessStore';
+import { runBestEffortTelemetry } from '$lib/server/bestEffortTelemetry';
 
 import type { Handle } from '@sveltejs/kit';
 
@@ -177,16 +178,11 @@ export const handle: Handle = async ({ event, resolve }) => {
 			requestKind: getContentRequestKind(event.url.pathname)
 		});
 
-		// Never hold a reader response open for telemetry. The write runs after
-		// the response on Vercel and remains best-effort in local runtimes.
-		const waitUntil = (
-			event.platform as { context?: { waitUntil?: (p: Promise<unknown>) => void } } | undefined
-		)?.context?.waitUntil;
-		if (waitUntil) {
-			waitUntil(recordEvent.catch(() => {}));
-		} else {
-			recordEvent.catch(() => {});
-		}
+		// Never hold a reader response open for telemetry. The Node adapter passes
+		// no `platform`, so this must go through @vercel/functions' waitUntil or
+		// Vercel freezes the write mid-flight and it dies on the next thaw.
+		// recordSharedContentAccessEvent logs its own failures.
+		runBestEffortTelemetry(event, recordEvent, () => {});
 	}
 
 	// const job = schedule.scheduleJob('*/1 * * * *', async function () {

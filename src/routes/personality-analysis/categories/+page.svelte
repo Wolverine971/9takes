@@ -20,7 +20,7 @@
 	const canonicalUrl = 'https://9takes.com/personality-analysis/categories';
 	const seoTitle = 'Famous People Personality Analysis by Category | 9takes';
 	const seoDescription =
-		'Browse famous people personality analysis by category, including film & TV, creators, music, politics, tech founders, comedians, and authors. Compare Enneagram patterns by domain.';
+		'Famous people personality analysis by category: film & TV, creators, music, politics, tech, comedy, and authors. See which Enneagram types cluster where.';
 	const seoFaqs = [
 		{
 			question: 'What can you browse on the personality analysis category page?',

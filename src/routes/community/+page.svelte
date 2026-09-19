@@ -154,7 +154,7 @@
 				'@id': 'https://9takes.com/community#webpage',
 				name: '9takes Community | Ideas & Inspiration',
 				description:
-					'Discover the inspiration and ideas behind 9takes. Explore our community blog posts.',
+					'The ideas behind 9takes: essays on how minds change, why online arguments fail, and why the internet collapses nine perspectives into one winning take.',
 				url: 'https://9takes.com/community',
 				inLanguage: 'en-US',
 				publisher: {
@@ -181,7 +181,7 @@
 
 <SEOHead
 	title="9takes Community | Ideas & Inspiration"
-	description="Discover the inspiration and ideas behind 9takes. Explore our community blog posts."
+	description="The ideas behind 9takes: essays on how minds change, why online arguments fail, and why the internet collapses nine perspectives into one winning take."
 	canonical="https://9takes.com/community"
 	{jsonLd}
 />

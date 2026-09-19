@@ -63,9 +63,9 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'Actors, television personalities, and celebrity figures reveal how personality handles image pressure, reinvention, romantic projection, and the tension between public myth and private self.',
 		groupingDescription:
 			'Split into screen icons, rising stars, TV/comedy crossovers, and celebrity-image figures so actors are not mixed together with pure fame personalities.',
-		seoTitle: 'Film & TV Personality Types: Actors, Celebrities & Rising Stars | 9takes',
+		seoTitle: 'Actor & Celebrity Enneagram Types: Film & TV | 9takes',
 		seoDescription:
-			'Browse film and TV personality analysis for actors, celebrities, and rising stars through the Enneagram. Compare screen icons, breakout performers, and public-fascination figures.',
+			'Film and TV personality types, decoded: actors, celebrities, and rising stars through the Enneagram. See how image pressure and fame shape each type.',
 		seoKeywords: [
 			'film and tv personality types',
 			'actor enneagram types',
@@ -107,10 +107,9 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'Internet personalities make status, attention, audience trust, and identity management visible in real time. This category is where personality meets algorithms, parasociality, and platform economics.',
 		groupingDescription:
 			'Split into podcasters, commentators, business/self-improvement creators, streamers, viral entertainers, and lifestyle brand builders.',
-		seoTitle:
-			'Creators & Internet Personalities: Enneagram Types of YouTubers, Podcasters & Influencers | 9takes',
+		seoTitle: 'Creator Enneagram Types: YouTubers & Podcasters | 9takes',
 		seoDescription:
-			'Explore creator personality analysis for YouTubers, podcasters, streamers, commentators, and influencers. See how internet fame, parasociality, and platform pressure shape personality.',
+			'Creator personality analysis for YouTubers, podcasters, streamers, and influencers. See how internet fame and platform pressure shape each Enneagram type.',
 		seoKeywords: [
 			'creator personality analysis',
 			'youtuber enneagram types',
@@ -153,10 +152,9 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'Musicians are often where personality becomes the most theatrical: authenticity versus performance, creative obsession versus commercial pressure, vulnerability versus persona.',
 		groupingDescription:
 			'Split into pop stars, rappers, alternative voices, singer-songwriters, and crossovers so the music page feels like real lanes instead of one pile.',
-		seoTitle:
-			'Musicians & Artists Personality Types: Enneagram Analysis of Singers, Rappers & Pop Stars | 9takes',
+		seoTitle: 'Musician Enneagram Types: Singers & Rappers | 9takes',
 		seoDescription:
-			'Browse musician personality analysis through the Enneagram, including pop stars, rappers, alternative artists, singer-songwriters, and crossover performers.',
+			'Musician personality analysis through the Enneagram, including pop stars, rappers, alternative artists, singer-songwriters, and crossover performers.',
 		seoKeywords: [
 			'musician personality types',
 			'singer enneagram types',
@@ -198,8 +196,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'Public leadership makes power style visible. These profiles are useful for seeing how fear, conviction, charisma, duty, ambition, and symbolic responsibility scale under pressure.',
 		groupingDescription:
 			'Splits the library into modern world leaders, historical power holders, activists, royals, political spouses, campaign politicians, and historical cultural icons so power styles, eras, and roles stay legible side by side.',
-		seoTitle:
-			'Politics & Public Figures Personality Types: Politicians, Activists & Leaders | 9takes',
+		seoTitle: 'Politician Enneagram Types: Leaders & Activists | 9takes',
 		seoDescription:
 			'Explore political personality analysis through the Enneagram, including presidents, campaign politicians, activists, royals, and historical leaders.',
 		seoKeywords: [
@@ -244,9 +241,9 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'Founders and operators reveal how personality handles leverage, risk, optimization, control, long-term strategy, and the pressure to turn identity into systems.',
 		groupingDescription:
 			'Splits the category into big-tech CEOs, investors, frontier builders, operators, and tech interpreters.',
-		seoTitle: 'Tech, Founders & Business Personality Types: CEOs, Investors & Builders | 9takes',
+		seoTitle: 'Founder & CEO Enneagram Types: Tech & Business | 9takes',
 		seoDescription:
-			'Browse Enneagram personality analysis of tech founders, CEOs, investors, operators, and business builders. Compare ambition, control, leverage, and strategy across high-agency leaders.',
+			'Founder personality types, decoded: tech CEOs, investors, and operators through the Enneagram. Compare how each type handles ambition, control, and risk.',
 		seoKeywords: [
 			'founder personality types',
 			'tech ceo enneagram',
@@ -288,7 +285,7 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'Comedy is a strong personality laboratory because the coping style is part of the performance. These profiles often expose shame, status games, intimacy avoidance, and honesty through humor.',
 		groupingDescription:
 			'Splits the library into stand-up headliners, sketch/TV comics, satire hosts, and internet-native comedians.',
-		seoTitle: 'Comedians Personality Types: Stand-Up, Sketch & Satire Enneagram Analysis | 9takes',
+		seoTitle: 'Comedian Enneagram Types: Stand-Up & Sketch Comics | 9takes',
 		seoDescription:
 			'Explore comedian personality analysis through the Enneagram, from stand-up headliners to sketch performers, satire hosts, and internet-native comics.',
 		seoKeywords: [
@@ -332,9 +329,9 @@ export const PERSONALITY_CATEGORY_DEFINITIONS: PersonalityCategoryDefinition[] =
 			'This group is less about fame performance and more about world-building. These profiles are useful for seeing how personality shapes ideas, frameworks, obsession, and narrative control.',
 		groupingDescription:
 			'Splits the page into novelists, strategy/psychology writers, and business/media interpreters.',
-		seoTitle: 'Authors & Thinkers Personality Types: Writers, Psychologists & Strategists | 9takes',
+		seoTitle: 'Author Enneagram Types: Writers & Psychologists | 9takes',
 		seoDescription:
-			'Browse Enneagram personality analysis of authors, psychologists, essayists, strategists, and interpreters. Compare how different thinkers build frameworks, narratives, and ideas.',
+			'Author personality types, decoded: novelists, psychologists, and strategists through the Enneagram. See how each type builds ideas and narratives.',
 		seoKeywords: [
 			'author personality types',
 			'writer enneagram',

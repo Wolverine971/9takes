@@ -25,7 +25,7 @@
 			title: 'The Enneagram: Your Operating System Decoded',
 			seoTitle: 'Master the Enneagram: The Complete Psychology Framework | 9takes',
 			description:
-				'Discover why millions use the Enneagram to decode human behavior. Learn the nine recurring patterns that shape what people notice first, and how to work with yours.',
+				'Why millions use the Enneagram to decode human behavior: nine recurring patterns that shape what people notice first, and how to work with yours.',
 			pic: 'nine-greek-statues-having-a-conversation-with-their-wings'
 		},
 		'nine-types': {

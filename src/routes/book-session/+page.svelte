@@ -22,7 +22,7 @@
 	let existingSignup = $derived(!!data.alreadySignedUp && !form?.success);
 	let submitted = $derived(!!form?.success || existingSignup);
 
-	const title = 'Decode Yourself & The People In Your Life | 1-on-1 Coaching Waitlist | 9takes';
+	const title = '1-on-1 Enneagram Coaching: Decode Yourself & Others | 9takes';
 	const metaDescription =
 		'Join the 1-on-1 coaching waitlist. Decode yourself, the people in your life, or both. Get first access when sessions open.';
 	const keywords =

@@ -106,9 +106,8 @@ export const load: PageServerLoad = async () => {
 	// ----- Dynamic SEO copy. Bound to live numbers. -----
 	const title = `Enneagram Type Distribution Statistics: ${published} Public Figures by Type`;
 	const description =
-		`Current Enneagram type distribution statistics from ${published} published ` +
-		`public-figure profiles on 9takes, including musician, comedian, tech founder, ` +
-		`politician, and author breakdowns. Regenerated on every deploy.`;
+		`Enneagram type distribution statistics for ${published} public figures, split by ` +
+		`musicians, comedians, founders, politicians, and authors. Updated every deploy.`;
 	const headline = `Enneagram Type Distribution Statistics: ${published} Public Figures by Type`;
 
 	// ----- FAQ entries — Q&A pairs derived from citable claims + domain leaders. -----

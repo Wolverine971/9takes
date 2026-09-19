@@ -336,7 +336,7 @@
 		</p>
 	</section>
 
-	<section class="contact-section">
+	<section id="contact" class="contact-section">
 		<h3>Questions?</h3>
 		<p>Reach out. I read everything.</p>
 

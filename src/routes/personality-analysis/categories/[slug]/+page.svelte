@@ -185,7 +185,16 @@
 					itemListElement: data.people.map((person, index) => {
 						const personUrl = `https://9takes.com${buildPersonalityAnalysisPath(person.slug)}`;
 						const personImage = buildPersonalityImageUrl(person.enneagram, person.slug);
-						const personDescription = person.personaTitle ?? person.description ?? null;
+						// schema.org has no Person property for a personality type, and
+						// `additionalProperty` is only valid on Product/Place/etc., so the
+						// type rides in `description` ("Enneagram Type 6: <persona title>").
+						const personDescription =
+							[
+								person.enneagram ? `Enneagram Type ${person.enneagram}` : null,
+								person.personaTitle ?? person.description ?? null
+							]
+								.filter(Boolean)
+								.join(': ') || null;
 
 						return {
 							'@type': 'ListItem',
@@ -197,16 +206,7 @@
 								name: person.name,
 								url: personUrl,
 								...(personImage ? { image: personImage } : {}),
-								...(personDescription ? { description: personDescription } : {}),
-								...(person.enneagram
-									? {
-											additionalProperty: {
-												'@type': 'PropertyValue',
-												name: 'Enneagram Type',
-												value: String(person.enneagram)
-											}
-										}
-									: {})
+								...(personDescription ? { description: personDescription } : {})
 							}
 						};
 					})

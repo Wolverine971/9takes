@@ -9,7 +9,7 @@
 
 	export let data: PageData;
 
-	const hubDescription = `Each Enneagram type breaks differently. Type 7s mask depression with motion. Type 8s with anger. Type 9s with shutdown. These guides decode how anxiety, depression, trauma, and burnout actually show up by type, and what tends to help.`;
+	const hubDescription = `Each Enneagram type breaks differently: 7s mask depression with motion, 8s with anger, 9s with shutdown. Guides to anxiety, trauma, and burnout by type.`;
 
 	const heroLede = `Anxiety, depression, burnout, and addiction don't show up the same way in everyone. Type 7s outrun depression. Type 8s convert it to anger. Type 9s vanish into it. Knowing the type tells you what you're actually looking at, and what's likely to help.`;
 
