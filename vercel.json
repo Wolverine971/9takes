@@ -163,6 +163,11 @@
 			"permanent": true
 		},
 		{
+			"source": "/personality-analysis/sarah-safari",
+			"destination": "/personality-analysis/sara-saffari",
+			"permanent": true
+		},
+		{
 			"source": "/enneagram-corner/neurodiversity-vs-personality-enneagram",
 			"destination": "/enneagram-corner/neurodiversity-vs-personality",
 			"permanent": true

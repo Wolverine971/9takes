@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "subject": "Elizabeth-Holmes",
+  "review_dir": "docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138",
+  "verification_file": "docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/verification-final.md",
+  "verification_status": "pass",
+  "reviewed_snapshot_sha256": "a6a1c2033f6a9a8bfb8cfc1a5e232e457e2d00381e0078d89974b2308241d275",
+  "verified_content_sha256": "713cdeb19795787c68bdf6c5ddce9776ade1599ea3dee0082760856e82e66083",
+  "verified_at": "2026-09-20T03:39:47.000Z"
+}

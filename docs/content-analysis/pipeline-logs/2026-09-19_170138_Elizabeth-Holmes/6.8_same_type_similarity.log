@@ -1,0 +1,82 @@
+==============================================================================
+SAME-TYPE ARGUMENT-SIMILARITY SCAN — elizabeth-holmes (Type 3)
+/Users/djwayne/9takes/src/blog/people/drafts/Elizabeth-Holmes.md
+==============================================================================
+
+Target diagnosis+counter-typing units: 20
+Comparison set (last 8 other Type-3 drafts by date):
+  - Jonathan-Bailey  (2026-09-01, 33 units)
+  - Tate-McRae  (2026-08-27, 31 units)
+  - margaret-qualley  (2026-08-20, 28 units)
+  - alexandr-wang  (2026-08-18, 30 units)
+  - adela  (2026-08-14, 17 units)
+  - michael-jordan  (2026-08-14, 45 units)
+  - David-Beckham  (2026-08-12, 33 units)
+  - Mel-Robbins  (2026-08-12, 29 units)
+
+Noise floor over 4920 unit pairs:  median=0  p90=0  p99=0.007  max=0.042
+Trip threshold: 0.04  →  clear
+
+
+Most similar drafts (max unit-pair score):
+  0.042 ##                   Tate-McRae
+  0.037 #                    michael-jordan
+  0.032 #                    adela
+  0.025 #                    Jonathan-Bailey
+  0.023 #                    margaret-qualley
+  0.016 #                    David-Beckham
+  0.014 #                    Mel-Robbins
+  0.011                      alexandr-wang
+
+TOP SIMILAR SENTENCE/CLAUSE PAIRS:
+------------------------------------------------------------------------------
+score 0.042   elizabeth-holmes  <->  Tate-McRae
+   TARGET [diagnosis] and neither her wing nor her instinctual subtype can be settled from what is on the record.
+   OTHER  [diagnosis] and she describes it on the record with unusual precision.
+
+score 0.037   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] and pressure of any kind does not remove responsibility for it.
+   OTHER  [counter-typing] the type does not explain everything.
+
+score 0.032   elizabeth-holmes  <->  adela
+   TARGET [diagnosis] That threat is inferred from her public conduct
+   OTHER  [diagnosis] Her public interviews support that reading
+
+score 0.025   elizabeth-holmes  <->  Jonathan-Bailey
+   TARGET [diagnosis] the possibility that admitting a limit will make the whole person seem inadequate.
+   OTHER  [diagnosis] make the core type a safe call.
+
+score 0.024   elizabeth-holmes  <->  Jonathan-Bailey
+   TARGET [diagnosis] Enneagram writing names the Three's central liability deceit
+   OTHER  [diagnosis] Two of the three happened while he was hiding
+
+score 0.023   elizabeth-holmes  <->  margaret-qualley
+   TARGET [diagnosis] and it places the first deception inward
+   OTHER  [counter-typing] and it would make her role choices primary rather than incidental.
+
+score 0.023   elizabeth-holmes  <->  margaret-qualley
+   TARGET [diagnosis] The jury already decided what she knew
+   OTHER  [diagnosis] The 4 wing governs what she volunteers to be graded on.
+
+score 0.022   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] Enneagram writing names the Three's central liability deceit
+   OTHER  [diagnosis] It names the stories you tell yourself to keep the performance running.
+
+score 0.020   elizabeth-holmes  <->  Jonathan-Bailey
+   TARGET [diagnosis] The emotional pressure in this reading is shame
+   OTHER  [counter-typing] What sinks the Seven read is the shape of his worst moments.
+
+score 0.020   elizabeth-holmes  <->  Jonathan-Bailey
+   TARGET [diagnosis] The emotional pressure in this reading is shame
+   OTHER  [counter-typing] A Type 2 read is also available given the warmth and the philanthropy
+
+score 0.018   elizabeth-holmes  <->  michael-jordan
+   TARGET [diagnosis] she has never described the pressure herself.
+   OTHER  [diagnosis] which is a five-decade hunt for doubters that opened at a 1978 varsity roster and has never once closed.
+
+score 0.017   elizabeth-holmes  <->  margaret-qualley
+   TARGET [diagnosis] Correcting the technology required her to risk the standing she had gained by promoting it.
+   OTHER  [counter-typing] She declines to correct the public record about herself at all
+
+------------------------------------------------------------------------------
+Top pair scores 0.042 vs median 0  (~∞x the noise floor).

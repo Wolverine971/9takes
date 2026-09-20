@@ -1,0 +1,19 @@
+**Verification written and gate-checked.**
+
+Output: `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/verification-final.md`
+
+| Field | Value |
+| --- | --- |
+| verification_status | fail |
+| open_p0 | 0 |
+| protected_hit_regressions | 0 |
+
+The gate script parsed the artifact cleanly and reports the same state, so the frontmatter, SHA binding, content hash, and headings all validate. No other file was touched.
+
+**What held.** All nine P0 repairs pass their acceptance tests, including P0-05, where the revision pass restored the dropped negation. All twelve accepted P1 items are completed or deferred with a recorded reason. All thirteen protected hits and the four holding-set lines survive, and I re-verified the nine court quotations verbatim against the extracted opinion text. Every fixable residual from the initial verification is closed: the Tevanian citation is back, the runtime is out of the FAQ, the restitution order reads "jointly and severally," and the DOJ citation was added.
+
+**Why it fails anyway.** The cold-open rebuild introduced a new factual error. The frozen draft said Holmes founded Theranos in 2003 and left Stanford, without dating the departure. The revised paragraph now says she "left Stanford in 2003." The packet timeline puts the departure in March 2004, the cited opinion page never mentions Stanford, and a targeted check confirms 2004 ([Stanford Daily](https://stanforddaily.com/2022/01/03/elizabeth-holmes-theranos-founder-and-stanford-dropout-convicted-of-4-federal-charges/), [Wikipedia](https://en.wikipedia.org/wiki/Elizabeth_Holmes)). That is a step-6 regression, an unsourced and wrong biographical date riding a repair into the draft, so I failed the artifact on it rather than pass it through. The fix is one phrase: restore the frozen wording.
+
+**Still open for DJ or ship day**, unchanged from the prior pass: the Auletta epigraph colon versus the lint em-dash ban, the body running over the word band, the prison-section heading retitle, four research questions at safe defaults, the live database row check for the "Convicted fraudster" occupation value (both the Supabase connector and the read-only SQL script were unavailable this session), and the ship-day recheck of BOP, DOJ clemency, and A24's release field.
+
+Next step is a revision pass on the Stanford sentence, then this verification reruns.

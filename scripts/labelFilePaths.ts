@@ -20,7 +20,10 @@ const EXCLUDED_DIRS = [
 	'tmp',
 	'temp',
 	'static',
-	'public'
+	'public',
+	// Frozen review evidence: rewriting the `path:` line changes bytes the
+	// perspective gate froze, so the snapshot no longer matches its contract hash.
+	'perspective-reviews'
 ];
 
 const EXCLUDED_FILES = [

@@ -1,0 +1,13 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/future.md`
+
+**Verdict:** `revise` — trust strained, value high, delight clear_hit. **Blockers: 2. Concerns: 7.**
+
+**Snapshot integrity:** the live draft hashes to `a6a1c203…8241d275`, matching `context.json` and the supplied `--draft-sha` exactly. The snapshot copy hashes differently only because Prettier rewrote emphasis markers and YAML quote style and the `path:` label points at the snapshot — reader-visible content is identical. Audited the snapshot only; did not open the four sibling reviews already sitting in that directory.
+
+**Strongest hit:** the thesis does not depend on the newest event. Delete every sentence about *You Can See Everything* and the Type 3 argument still stands, carried by the November 2014 "disaster zone" text and the Murdoch binder, Kissinger's "Others will judge the technical aspects," Gardner, Shultz, Cheung, and the four dated beats of the unraveling chronology. For a news-pegged page that is the whole ballgame, and a post-release refresh will be tempted to spend it — the preserve list says not to.
+
+**Highest-priority concern:** the year-less `September 1` on the clemency status, in both the prison section and FAQ 4. Read in September 2027 it resolves to the wrong year by default, and it sits on the one fact most capable of being overturned without notice — Holmes pressed the petition publicly to Trump in January 2026 and it was still live as of September 8, 2026, decidable by one person with no docket.
+
+Two things worth flagging beyond the file. First, the blockers are both small repairs, but one may not be a twelve-month problem at all: "the documentary A24 puts in theaters in October" is present-tense with no year in five places including an FAQ answer, and the draft is production-blocked pending this very jury. If ship day lands after October 16, it publishes wrong. Second, the draft's epistemic care runs backwards relative to risk — it hedges a date Deadline and World of Reel had confirmed nine days earlier against A24's un-updated marketing field, then prints the Variety phrase in quotation marks despite the packet marking it "UNRESOLVED — highest-risk item," never retrieved, tollbit 402.
+
+Research note for whoever picks this up: application `25A1162` surfaces in Holmes-plus-Supreme-Court searches and is **not** her — I extracted the June 1, 2026 order list and it reads `HOLMES, C. V. HOLMES, JAMES KEVIN`. Forbes (403) and CNN (451) both blocked, consistent with the packet's access limits, so the January 2026 petition date needs verification before it goes in the draft; neither repair depends on it.

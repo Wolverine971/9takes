@@ -1,0 +1,14 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/fan.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **revise**
+
+**Blockers: 1** · Concerns: 8
+
+**Strongest hit — FAN-H1, the Kissinger clause (Endorsements H2).** The draft quotes *"Others will judge the technical aspects of Theranos, but the social implications are vast"* and then reads its grammar: "The sentence sets the technical question aside while enlarging the significance of the answer." That TIME tribute has been quoted for eleven years as proof the board was credulous; nobody points at the mechanism by which a statesman's prestige got converted into scientific cover. That is the informed-fan delight test passing exactly — I knew the moment, I'd never connected it that way. Must survive revision verbatim, gloss included.
+
+**Highest-priority concern — FAN-R1 (the blocker).** The section titled "What You Can See Everything adds" never says what the film is, while using two lines lifted from it as the thesis's current-tense evidence. Verified against Wikipedia (packet source S-28) and the NPR-syndicated Iowa Public Radio review: 174 minutes, shot over **three years** — not the 34 days the draft implies — by a director whose prior work is explicitly about the seam between a person and their performance, in a film reviewers uniformly describe as destabilizing what's real. The crew was filming through the same prison stretch the draft covers entirely from BOP records. Repair is two sentences after the Telluride line; the "I'm always being real" paragraph gets *stronger* once the reader knows who's asking.
+
+Two notes worth relaying beyond the artifact:
+
+- A search summarizer claimed the film re-creates off-camera sequences with an A-list actress standing in for Holmes. Neither Wikipedia nor the NPR review carries it, so I based **no** finding on it — filed as FAN-Q1. If it's true, the blocker's repair needs to name the practice, not just the runtime. Variety and IndieWire both die at tollbit HTTP 402, so the two reviews that would settle it are unreachable.
+- On the packet's highest-risk item (the Variety "willingness to lie to herself" quote), I can add one data point for the verifier: Wikipedia's article on the film quotes a *different* Gleiberman phrase and does not contain the draft's. Tier-4 corroboration didn't independently surface it either.

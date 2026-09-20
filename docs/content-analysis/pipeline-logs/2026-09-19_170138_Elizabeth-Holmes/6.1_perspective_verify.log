@@ -1,0 +1,11 @@
+**Output:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/verification-initial.md`
+
+- **verification_status:** `fail`
+- **open_p0:** 1
+- **protected_hit_regressions:** 0
+
+The one failure is P0-05: the health-axis sentence at line 210 reads *"most of that range involves deceiving anyone at all"* — the negation was dropped, so the sentence written to remove the contradiction with the Type 3 pillar (*"most 3s hold strong ethics around honesty"*) now asserts it instead. Same error is reproduced in `editor-resolution.md`, so the self-check missed it. One-word fix.
+
+Everything else holds. All five newly added court quotations verified verbatim against a freshly downloaded `23-1167.pdf` at the cited pages; the editor's two corrections to the synthesis (joint-and-several restitution, relocating the December 2013 item) are both right. All 28 protected strings survive byte-identical.
+
+The highest-value non-gating finding: splitting the employees paragraph for P0-02/P1-04 left the Tevanian direct quotation and his new credential claim with **no citation at all** — the ABC link stayed with the paragraph above. The testimony ledger still asserts the attribution the page dropped, and `blog-source-audit.mjs` doesn't inspect that slot, so nothing else catches it. Fix is re-appending a URL already in frontmatter.

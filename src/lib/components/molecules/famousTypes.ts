@@ -91,7 +91,7 @@ export const famousTypes: { [index: number]: FamousTypePerson[] } = {
 		{ name: 'drake', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Achiever Who Made Vulnerability Win', contentGrade: 9, types: ['musician', 'rapper'] },
 		{ name: 'dua-lipa', link: true, hasImage: true, lastmod: '2026-04-15', personaTitle: 'The Star Who Turns Doubt into Deadlines', contentGrade: 8.6, types: ['musician'] },
 		{ name: 'dwayne-johnson', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'Hollywood\'s Armored Shapeshifter', contentGrade: 8.9, types: ['movieStar', 'screen-icon'] },
-		{ name: 'elizabeth-holmes', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'Silicon Valley\'s Empty Costume', contentGrade: 8.6, types: ['entrepreneur', 'techie', 'business-operator'] },
+		{ name: 'elizabeth-holmes', link: true, hasImage: true, lastmod: '2026-05-07', personaTitle: 'The Founder Who Sold Belief', contentGrade: 8, types: ['entrepreneur', 'techie', 'business-operator'] },
 		{ name: 'gary-vee', link: true, hasImage: true, lastmod: '2026-04-23', personaTitle: 'The Hustle King', contentGrade: 9, types: ['business', 'business-operator'] },
 		{ name: 'gavin-newsom', link: true, hasImage: true, lastmod: '2026-03-28', personaTitle: 'California\'s Polished Shapeshifter', contentGrade: 8.8, types: ['politician', 'campaign-politician'] },
 		{ name: 'gigi-hadid', link: true, hasImage: true, lastmod: '2026-03-29', personaTitle: 'Fashion\'s Effortless Performer', contentGrade: 8.6, types: ['celebrity', 'lifestyleInfluencer', 'celebrity-image', 'lifestyle-builder'] },

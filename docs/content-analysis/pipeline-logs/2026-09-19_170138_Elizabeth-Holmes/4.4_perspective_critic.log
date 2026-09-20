@@ -1,0 +1,28 @@
+**Saved:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/critic.md`
+
+**Verdict:** trust `strained` · value `useful` · delight `clear_hit` · recommendation **revise**
+
+**Blockers: 3** (concerns: 11)
+
+**Strongest hit** — `CRITIC-H1`, the alibi refusal: *"That sequence is why ambition cannot work as an alibi here. Unwelcome information reached her, and the version that reached investors was edited. A personality reading can ask why protecting that version mattered enough to do it."* It states the boundary of what psychology is allowed to do, immediately after the most damning evidence on the page rather than in a distant caveat. On the excuse-making test that usually sinks this genre, the draft passes.
+
+**Highest-priority concern** — `CRITIC-B1`: the central self-deception hypothesis is never tested against the three record items that contradict it. The page carries only the pharma logos and the Murdoch binder omission — the two items in the entire record most hospitable to a "faithful to the promise, not the machine" reading. The Ninth Circuit opinion the draft cites five times contains, on the pages adjacent to the ones it quotes: false financial projections ($230M profit projected for 2015 against $1,944,948 total income reported to the IRS), a fabricated *historical* figure told to investor Grossman ($200M in DoD revenue, against Mattis's testimony that the device was never fielded), and the null-protocol demos where VIP samples were secretly run on third-party analyzers. A fabricated number about money already received has no inward half for self-deception to occupy. The thesis was curated, not tested — and the repair is available from the draft's own cited source with page numbers.
+
+The other two blockers: patient harm is retired on the acquittal while the CMS revocation, two-year lab ban, and two years of voided Edison results are absent (`CRITIC-B2`); and the section on employees who challenged the story omits what challenging it cost them (`CRITIC-B3`, bounded to company-level attribution).
+
+One process note worth flagging to the pipeline: the snapshot hashes to `321f0998…`, not the `a6a1c203…` in `context.json`. I diffed before reviewing — five lines, all Prettier/label-paths cosmetics, content identical, live draft untouched. The evidence packet reached the same conclusion independently. A verify stage that re-hashes will report a mismatch that is a formatting artifact.
+
+Sources:
+- [Ninth Circuit, USA v. Holmes, 23-1167](https://cdn.ca9.uscourts.gov/datastore/opinions/2025/12/22/23-1167.pdf)
+- [Markkula Center for Applied Ethics — Tyler Shultz interview note](https://www.scu.edu/ethics/focus-areas/business-ethics/resources/teaching-note-interview-of-theranos-whistleblower-tyler-shultz/)
+- [Lehigh News — "I didn't plan on being a whistleblower"](https://news.lehigh.edu/tyler-shultz-i-didnt-plan-on-being-a-whistleblower)
+- [Techdirt — Theranos's campaign to punish a whistleblower](https://www.techdirt.com/2016/11/21/theranoss-insane-campaign-to-punish-whistleblower-who-happened-to-be-famous-boardmembers-grandson/)
+- [MedCity News — CMS fines, cuts off testing at Theranos, bans Holmes](https://medcitynews.com/2016/07/cms-fines-theranos/)
+- [Dark Daily — CMS notifies Theranos of CLIA sanctions](https://www.darkdaily.com/2016/04/14/cms-notifies-theranos-of-clia-sanctions-that-include-revoking-clinical-laboratorys-clia-license-and-a-two-year-ban-on-holmes-balwani-and-dhawan-414/)
+- [CMS sanctions letter (copy)](https://www.classaction.org/media/theranos-sanctions-letter.pdf)
+- [TechCrunch — Theranos voids two years of Edison results](https://techcrunch.com/2016/05/18/theranos-voids-tests/)
+- [TIME — Theranos junks two years of blood test results](https://time.com/4341219/theranos-invalidated-blood-test-results/)
+- [Palo Alto Online — lab director voided 2014/2015 Edison tests](https://www.paloaltoonline.com/news/2021/11/10/former-theranos-lab-director-voided-tests-run-on-companys-malperforming-edison-devices-in-2014-2015/)
+- [NPR — Elizabeth Holmes's partner and a new blood-testing startup](https://www.npr.org/2025/05/10/nx-s1-5393950/elizabeth-holmes-theranos-billy-evans-blood-testing)
+- [TechCrunch — Evans fundraising for new blood-testing startup](https://techcrunch.com/2025/05/10/elizabeth-holmes-partner-reportedly-fundraising-for-new-blood-testing-startup/)
+- [PharmaVoice — Haemanthus and its competition](https://www.pharmavoice.com/news/startup-theranos-haemanthus-babson-holmes-evans-blood-test/748307/)

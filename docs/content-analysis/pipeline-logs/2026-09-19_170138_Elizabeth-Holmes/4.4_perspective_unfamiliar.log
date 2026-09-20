@@ -1,0 +1,15 @@
+Counts and headings check out.
+
+**Saved:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/unfamiliar.md`
+
+**Verdict:** trust `strained` · value `high` · delight `clear_hit` · recommendation **revise** · **1 blocker, 12 concerns**
+
+**Strongest hit:** the opening pair — *"Believe in the blood test, and you were helping bring affordable medicine to people who needed it. Believe in the founder, and you were recognizing someone who could change the world. For a while, those two decisions became almost indistinguishable."* followed by the one-line *"Then the blood tests had to work."* It orients a cold reader on who she is, what she sold, and where the trap is, before a single biographical fact.
+
+**Blocker (UNFAMILIAR-R1):** the documentary section's closing quote names "Billy" — a bare first name that appears exactly once, with no surname, role, or prior mention anywhere in the reader-visible article. I confirmed "Evans" appears nowhere in the body; the packet and one orientation search confirm it's Billy Evans, Holmes's partner, and that mainstream coverage always introduces him. Compounding it, the draft attributes the film invitation to Holmes alone, removing the last route by which a partner could enter the reader's model. Repair is ~6 words.
+
+**Highest-priority concern (UNFAMILIAR-C1):** Nathan Fielder is never identified. The article opens on his question, calls back to it, and builds a section on it — but a cold reader has no way to know why *this* filmmaker asking "You're being real right now?" is loaded. Every source I checked introduces him; the draft never does.
+
+The pattern under both, and under six of the twelve concerns, is one thing: the draft identifies people inline beautifully (Parloff, Cheung, Gardner, Tyler Shultz) and then stops doing it exactly where the names get famous — Balwani, Kissinger/Shultz/Mattis, Tevanian, Fielder, Evans. Every repair is sentence-level; none touches the argument.
+
+One artifact note for the pipeline: `draft-reviewed.md` does not hash to the supplied SHA. The supplied SHA matches the live draft, and the diff is cosmetic (prettier italic/YAML normalization plus the internal `path:` line), so I audited the snapshot as instructed and disclosed it under Limits — but something should reconcile which artifact `draft_sha256` is meant to describe.

@@ -1,0 +1,25 @@
+Frontmatter parses, the recomputed weighted overall matches the stored 8.0, all five FAQ anchors resolve to real H2 slugs, and the sidecar is written. Nothing further to fetch. Here is the result.
+
+## Grading Complete — Elizabeth Holmes (stage 9.1 stability regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Elizabeth-Holmes | 8 | 8 | 9 | 8 | 7 | 7 | 8.0 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc<7 caps at B.)
+
+**Stability pair.** Post-revision grade 8.2, this independent regrade 8.0, delta 0.2. The pre-revision stage-7 grade was 8.1. The letter has held at B across all three passes.
+
+**Bracket.** Beats Alex-Warren (C) on Evidence: the spine is fastened to page-level court records rather than press quotes, with no house imperatives. Loses to Peter Thiel (A) on Originality and Evidence: it opens on a borrowed trailer line, lands the most predictable typing available for her, and paragraph five asserts a date its own citation does not carry. Against the Matt-Smith B anchor it is stronger on Evidence and Discoverability and weaker on Writing and Hook, so it nets out at the bottom of the same band. No formula caps applied: zero strong contrast pairs, counter-typing quarantined in the rabbit hole, critic pressure faced, current anchor present, ending passes the swap test, empathy turn in its own phrasing.
+
+### Key Observations
+
+- **One live factual error is the whole gap between Evidence 8 and 9.** "Holmes left Stanford in 2003 to build Theranos" is wrong by a year. She founded the company in 2003 and left Stanford in March 2004. The cited opinion page only supports the founding year. The pipeline's own reverification gate is still failing on this exact phrase, so it also blocks the run.
+- **The strongest work is the endorsements section and the documentary test.** Kissinger's "Others will judge the technical aspects" read as a sentence that sets the technical question aside, then the dated "disaster zone" text and the Murdoch binder. The documentary section offers the deceit-begins-inward hypothesis, then names what it cannot cover and which evidence discriminates. That is a falsifiable reading, not a type description.
+- **Writing sits at 7 because the register is monochrome and the jury repairs show.** Four verification clauses read as inserts in reader-visible prose. The body runs about 4,000 prose words against a 3,200 to 3,900 band, and the prison legal paragraph duplicates FAQ 4 nearly line for line.
+- **Two smaller leaks.** "The Social Three's move" is a subtype label in the body. The diagnosis interior beat is generic-founder second person with none of Holmes's own vocabulary.
+- **Sameness and similarity checks are clean.** No reused moves against the three most recently graded drafts. Same-type scan clear.
+
+**Files written:** `src/blog/people/drafts/Elizabeth-Holmes.md` (frontmatter block after the path line, no body changes) and `docs/content-analysis/grades/Elizabeth-Holmes.review.md` (replaced). The sidecar carries the full TO REACH B+ list. Fixing the Stanford date plus the prison-paragraph and caveat trims computes to 8.4. Adding one rendered scene in her own vocabulary computes to 8.6.
+
+**Total graded this session: 1**

@@ -31,6 +31,9 @@ src/lib/data/corpus-stats.json
 src/lib/generated/personalityImageSlugMap.json
 src/lib/generated/personalitySimilaritySnapshot.json
 src/blog/people/drafts
+# Frozen perspective-review evidence must stay byte-identical to the draft the
+# jury read; formatting it silently breaks the snapshot's contract hash.
+docs/content-analysis/perspective-reviews
 *.bak
 
 # Large transcript folders; format on demand via `pnpm format:transcripts`

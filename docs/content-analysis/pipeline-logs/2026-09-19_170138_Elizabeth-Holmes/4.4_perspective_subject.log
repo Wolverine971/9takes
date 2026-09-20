@@ -1,0 +1,19 @@
+All eleven required headings present, counts match, and only `subject.md` was written — no other perspective file was read or touched.
+
+**Saved artifact:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/subject.md`
+
+**Verdict:** `trust: strained` · `value: high` · `delight: clear_hit` · **recommendation: revise**
+
+**Blockers: 2**
+
+1. **SUBJ-R1 — "The rename is the tell."** The draft treats "Liz" as a strategic act Holmes performed and scores it as Type 3 evidence (plus a TL;DR bullet). The packet never establishes self-renaming — it says only, passively, "referred to in 2023 reporting… as 'Liz.'" My exact-phrase search surfaced Chozick's own framing instead: *"I realized that I was essentially writing a story about two different people. There was Elizabeth… Then there is 'Liz,' the mom of two…"* A looser search did return a summarizer claim that Holmes said "That was Elizabeth. I'm Liz.", which I could not reproduce or confirm — so this is raised as an evidentiary asymmetry, not proof the draft is wrong. Repair is two sentences; the Type 3 reading survives on the softened voice, retired turtlenecks and chosen setting, all documented as hers.
+
+2. **SUBJ-R2 — Selective use of Ninth Circuit p. 28.** The draft quotes Cheung's "highly unreliable" from that page, then bridges to two patients' bad results with "Outside the building, the stakes were plainer." The same page records that QC-failing devices were not used for patient testing (packet T-5b, flagged in CLM-13). It builds a causal inference its own citation rebuts, against a subject acquitted on exactly those counts.
+
+**Strongest hit:** the reentry-clerk paragraph — *"for a pattern built on recognition at scale, 31 cents an hour and no audience is the least glamorous work available, which is exactly why a sustained version of it would mean something."* It refuses both cheap shots at once: no credit for rehabilitation, and an explicit block on the cynical read ("her continued denial does not make the help insincere").
+
+**Highest-priority concern:** SUBJ-C1 — the bolded Variety quotation *"the epic nature of her willingness to lie to herself"* is the packet's own highest-risk unverified item (variety.com → tollbit HTTP 402, Tier-4 corroboration only), printed as a verbatim claim about a living person's interior life, positioned so it reads as independent confirmation of the draft's hypothesis. Two searches left it corroborated but unfetched; a third surfaced far more hostile phrasing from the same review that the draft correctly declines to import. Verify, paraphrase, or un-bold before ship.
+
+Two of my findings contradict what the draft's embedded SECOND PASS NOTES record as resolved (page 28, and the Variety citation).
+
+One process note worth flagging separately: `draft-reviewed.md` no longer hashes to `context.json`'s value. The live frozen draft does match, and the snapshot differs only in Prettier/label-paths formatting across five lines with no prose change — but a downstream verify stage that re-hashes the snapshot will report a mismatch.

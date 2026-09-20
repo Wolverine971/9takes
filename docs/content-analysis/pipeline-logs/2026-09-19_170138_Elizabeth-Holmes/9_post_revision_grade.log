@@ -1,0 +1,28 @@
+Grading is complete. Frontmatter parses cleanly, the sidecar is written, and `lastmod` is untouched.
+
+## Grading Complete — Elizabeth Holmes (post-revision regrade)
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Elizabeth-Holmes | 8 | 8 | 9 | 8 | 8 | 8 | 8.2 | B |
+
+(Overall is weighted: `(Evid×1.5 + Orig×1.5 + Disc×1.5 + Ennea + Writing + Hook×0.5) / 7`. Disc<7 caps at B.)
+
+Supervised pair: first grade 8.1, regrade 8.2, stability delta 0.1. Bracket: beats Alex-Warren, loses to Peter Thiel, sits beside the Matt-Smith B anchor. No formula caps applied.
+
+### Key Observations
+
+- **The hook rewrite worked.** Fielder's "You're being real right now?" now sits in paragraph two, with the thesis question landing by paragraph five. Hook rose from 6 to 8.
+- **The revision introduced a factual error that cost a point on Evidence.** The new opening says Holmes left Stanford in 2003. The evidence packet and the Stanford Daily put it at March 2004, and the sentence it replaced was correct. The pipeline's own reverification already failed the artifact on this. Fixing that one phrase returns Evidence to 9 and the overall to 8.4.
+- **Evidence trail is otherwise top-decile.** The body carries 46 inline citations, including page-level deep links into the Ninth Circuit opinion and Judge Davila's order. One subject quote runs bare: the letter to her father at nine has no link on its own paragraph.
+- **Originality holds at 8 on the most-predicted typing available** because the documentary section tests its own hypothesis in place. It names what the self-deception reading cannot cover, names the competing reading, and names the evidence that discriminates between them.
+- **Enneagram stays at 8.** The new diagnosis interior beat is real but generic-founder second person, and one subtype label ("the Social Three's move") sits in the body.
+- **Body is over band and tonally flat.** Roughly 4,000 reader-visible prose words against a 3,200 to 3,900 band. The revision pass's accounting is credible that the remaining caveats are gate-required, so ship-length is your call. The tonal monochrome is a writing issue independent of length.
+
+Cross-draft sameness check against the three most recently graded drafts found no reused moves. Same-type similarity scan is clear.
+
+The sidecar at `docs/content-analysis/grades/Elizabeth-Holmes.review.md` carries the full TO REACH B+ list: fix the Stanford date, link the letter quote, anchor the diagnosis beat to Holmes's own words, split the background block, and give the Shultz reconciliation beat room to breathe.
+
+One open item outside my scope: the reverification gate is still failing on the Stanford date, so the pipeline will not clear until a revision pass restores the frozen wording.
+
+**Total graded this session: 1**

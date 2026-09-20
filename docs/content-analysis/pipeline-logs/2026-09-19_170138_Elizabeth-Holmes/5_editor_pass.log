@@ -1,0 +1,23 @@
+Polished `src/blog/people/drafts/Elizabeth-Holmes.md` in perspective-jury mode.
+
+**Exit gate: PASS.** `blog-lint` 0 fail, **0 strong contrast-pair engines** (I introduced two mid-pass — "names a motivation, not a moral level" and a "does not show… it was" — the lint caught both and I rewrote them). 1 comparative warn remains, the pre-existing one inside reported speech about her voice.
+
+**All 9 P0s and all 12 accepted P1s applied.** The biggest changes: the Cheung passage no longer makes a causal claim its own citation contradicts; the self-deception hypothesis is now bounded and tested rather than curated; the diagnosis section gained the health-axis distinction that was silently contradicting the linked Type 3 pillar; "The rename is the tell" is gone, with the Elizabeth/Liz split attributed to Chozick where the record puts it; the Variety line ships as attributed paraphrase.
+
+**I verified the load-bearing court extracts myself** against a locally extracted `23-1167.pdf` rather than trusting the synthesis transcription. All held — and one correction fell out: the $452M restitution is **joint and several with Balwani**. P1-03 as written ("with $452M in restitution ordered") would have implied it was hers alone, so the draft says so accurately.
+
+One structural judgment I made: the December 2013 special-operations fabrication went into the **2017 unraveling beat**, not the documentary section. P1-01 needed it there to make the SEC denial evidentiary, so one passage discharges both P0-03(a) and P1-01 instead of stating it twice.
+
+**Research:** RQ-04 resolved ($400k, Markkula Center). RQ-01, RQ-02, RQ-03, RQ-06 all failed verification and shipped at their prescribed safe defaults — nothing improvised. RQ-02 failed a fifth independent attempt.
+
+All 13 protected hits grep-verified intact, including PROTECT-01's Kissinger→Gardner→binder order and all five of PROTECT-10's restraints.
+
+Artifact: `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/editor-resolution.md`
+
+**Two things need your call, and one is the real one:**
+
+1. **Word count: 4,385 against the 3,200–3,900 band** (hard ceiling 4,500, so it passes). The brief's mandatory + accepted work adds ~670 words; I cut ~190 of genuine redundancy to offset. The two payment sources the synthesis named don't cover the gap, and the sections carrying the repairs are the same ones carrying the protected prose. Getting into band means cutting accepted jury repairs or protected lines — your decision, not mine. Lowest-value candidates if you want it: the Shultz legal-campaign paragraph (~60w), P1-05's consequence clause (~20w), more Rabbit Hole compression (~60w).
+
+2. **I declined P1-10(c)'s heading retitle.** Renaming "What Elizabeth Holmes does in prison" would break the live FAQ anchor on a published page. I dated the snapshot inline instead. Reversible if you'd rather have the temporal accuracy than the anchor.
+
+Not production-ready: this discharges the six-perspective review, but `fresh_same_version_grades_missing` is still open, and the verify stage runs independently. Also worth noting — the Supabase MCP server failed to connect, so I couldn't check whether the live `blogs_famous_people` row still carries the `Convicted fraudster` occupation I removed from frontmatter, or whether other people-corpus rows share it.

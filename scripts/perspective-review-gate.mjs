@@ -41,6 +41,10 @@ function pass(message) {
 	console.log(`ok    ${message}`);
 }
 
+function warn(message) {
+	console.warn(`WARN  ${message}`);
+}
+
 function requireArg(value, name) {
 	if (!value) fail(`missing --${name}`, 2);
 	return value;
@@ -83,6 +87,23 @@ async function loadContext(reviewDir) {
 	}
 	if (context.schema_version !== PERSPECTIVE_REVIEW_SCHEMA_VERSION) {
 		fail(`context.json schema_version must be ${PERSPECTIVE_REVIEW_SCHEMA_VERSION}`);
+	}
+	// The snapshot is the contract: every reviewer is supposed to read these exact
+	// bytes. Repo-wide formatters used to rewrite it after the freeze (58 of 66
+	// snapshots drifted before .prettierignore and label-paths excluded this tree),
+	// which cost two verification passes a paragraph of hash reconciliation each.
+	// Warn rather than fail so those historical reviews stay repairable.
+	try {
+		const snapshot = await fs.readFile(path.join(reviewDir, 'draft-reviewed.md'));
+		if (sha256(snapshot) !== context.draft_sha256) {
+			warn(
+				`draft-reviewed.md no longer matches context.json draft_sha256; the frozen snapshot was ` +
+					`modified after the freeze. Compare against \`git show <commit>:${context.draft_path}\` ` +
+					`before trusting line numbers.`
+			);
+		}
+	} catch {
+		warn('draft-reviewed.md is missing; snapshot integrity could not be checked');
 	}
 	return context;
 }

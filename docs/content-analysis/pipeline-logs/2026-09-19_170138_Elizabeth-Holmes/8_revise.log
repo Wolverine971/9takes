@@ -1,0 +1,29 @@
+Done. `src/blog/people/drafts/Elizabeth-Holmes.md` revised.
+
+**Triggered by:** grade B (8.1) with Hook at 6 and the body over band, plus `verification-initial.md` failing on one open P0 and naming six residuals. Lint was already 0 fail, so nothing mechanical was outstanding.
+
+## Fixed
+
+**The one open P0.** P0-05's repair sentence had dropped its negation and asserted the exact claim it was written to remove — "most of that range involves deceiving anyone at all." Now "most of that range involves **no deception of anyone**." PROTECT-03's two hedges sit directly above it, byte-identical.
+
+**Verifier residuals.** Tevanian's quote got its ABC News (Jan 23, 2019) link back — it lost the citation when the editor pass split that paragraph in three, and the source-audit script structurally can't see it. That closes the verifier's #1 and the grader's TO REACH (3) at once. Also: `jointly **and severally** liable`; "**A new name in the headline**, softer voice…"; DOJ case record added to the sentencing citation run. The 174-minute runtime came out of FAQ 5 and stayed in the body — the verifier's second authorized option, taken because IndieWire 307s to tollbit (HTTP 402), the known paywall trap.
+
+**Hook rewrite.** "You're being real right now?" moved from paragraph six to paragraph two, on its own line with its NBC attribution. Background compressed from three paragraphs to one, after the thesis question. "Then the blood tests had to work." survives verbatim — it's in the protected holding set.
+
+**Diagnosis interior beat.** Replaces the section's weakest sentence pair. It deliberately does *not* name the binder, Murdoch or the disaster-zone text, so PROTECT-01's evidence isn't spent twelve paragraphs early; it forward-points instead.
+
+**Stale QA ledger** corrected — it still described the NYT-dispute claim as live in the body, quoting wording a later pass had cut.
+
+## Rejected, with reason
+
+**The full 400–500 word cut.** I scanned every caveat sentence in the body mechanically: **399 caveat words total**, and about two-thirds are PROTECT-03/-07/-12, P1-07 or P1-12 text the gate requires, or the three caveats the grader itself said to keep. The grader's premise — that 400–500 words of removable caveat exist — doesn't survive the paragraph inventory. I cut 131 net while absorbing a 92-word interior beat and a rebuilt open, so the real cut was ~290 words. Going from 4,327 to 3,900 means deleting accepted jury repairs, which the next verification would correctly read as a regression.
+
+Also left alone: the Auletta epigraph colon (restoring the em dash hard-fails lint — policy call, not an editor call) and P1-10(c)'s heading retitle (breaks a published FAQ anchor).
+
+## Verification
+
+Lint **0 fail**, 34 ok, 2 warn — both pre-existing and documented. Source audit 2/2 inline, 0 untagged, and the cold-open slot now carries the Fielder quote. Same-type similarity clear. All 13 protected hits plus the holding set string-matched present (**39/39**); PROTECT-01's order re-verified monotonic; PROTECT-10's five restraints hold. `content_quality` and `lastmod` untouched.
+
+Resolution artifact written to `…/2026-09-19_170138/revision-resolution.md`. **Targeted perspective verification must rerun** — this pass doesn't close the gate, and the pipeline clears the consumed sidecar and re-grades.
+
+**One decision for you:** ship at 4,327 (under the 4,500 ceiling, over the 3,900 band), or name specific jury repairs you're willing to drop to get inside the band. The verifier already carried this forward as needing your call; I'd ship it — the overage is repairs, not accretion, which is exactly the distinction the ceiling comment says the rule exists to make.

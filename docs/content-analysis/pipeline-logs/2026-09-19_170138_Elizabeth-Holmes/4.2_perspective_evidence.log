@@ -1,0 +1,15 @@
+Packet written.
+
+**Artifact:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/evidence-packet.md`
+
+Subject and SHA matched `context.json`. I reused the six existing repository research artifacts first, then verified the load-bearing claims independently. Four primary sources were checked directly rather than through reporting: the Ninth Circuit amended opinion (pages 8, 11, 15 and 28 all verify exactly — logos, patient witnesses, verdict counts, Cheung's "highly unreliable"), Davila's ECF 1575 page 3 ("Normandy lab is an [expletive] disaster zone" and the Murdoch binder omission), the BOP inmate locator's own endpoint, and DOJ's downloadable clemency case file. The last two upgrade the draft's two most perishable current-status claims from 10-day-old browser observations to first-party records confirmed today: Bryan FPC with a 02/22/2030 projection, and petition C335361 listed Pending.
+
+34 claims are inventoried with class, status, support and counterevidence.
+
+**Largest unresolved evidence gap:** the Variety quotation, "the epic nature of her willingness to lie to herself" (CLM-26). It cannot be confirmed at the character level — variety.com redirects to a tollbit host returning HTTP 402, no syndicated copy surfaced, and Wikipedia's article on the film carries other Gleiberman phrases but not that one. An exact-phrase search returns the review as the top hit, which is Tier-4 corroboration of a Tier-3 opinion. The draft already labels it a critic's reading and records the snippet provenance, so the exposure is the attribution wording rather than the opinion status.
+
+Three things worth flagging beyond that gap:
+
+- **The snapshot file was mutated mid-run.** A parallel process reformatted `draft-reviewed.md` at 18:10 and staged it, so it no longer matches its declared hash. I confirmed the drift is purely cosmetic — Prettier emphasis markers and YAML quote style plus a label-paths `path:` rewrite, identical after normalization — and the live draft is untouched. I did not edit the snapshot; I recorded the details as limitation #8 so a verification stage doesn't read the mismatch as a content change.
+- **The 2026 NYT dispute failed a third independent search.** The draft's decision to cut it holds; evaluators should not read its absence as an omission.
+- **Five precision items** surfaced that evaluators can now check against source text rather than argue about: the epigraph is truncated without an ellipsis (Auletta continues "—the impact on character and quality of life"), Auletta says Fleischmann's *children* rather than "descendants who did less with it," CBS supports only an *implicit* acknowledgment from George Shultz and records that he never formally apologized, PEOPLE syndication says "tax credits" where the draft says "benefits," and the opinion's page 28 also notes that devices failing quality control were not used for patient testing. I recorded these as checkable notes, not as findings that any is an error — that call belongs to the six reviews.

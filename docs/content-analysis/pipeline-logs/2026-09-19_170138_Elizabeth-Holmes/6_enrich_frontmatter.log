@@ -1,0 +1,37 @@
+YAML parses, all five FAQ anchors resolve to real H2 headings, and my two edits touched only frontmatter (the body hunks in that diff are the pre-existing, uncommitted editor-pass changes, not mine).
+
+```
+Frontmatter enrichment complete: Elizabeth-Holmes
+```
+
+**Fields already present and verified (preserved):**
+`wikipedia`, `wikidata_qid`, `imdb_id`, `birth_date`, `birth_place`, `nationality`, `occupation`, `knows_about`, `keywords`, `same_as`
+
+This draft arrived essentially fully enriched, so the work was verification rather than backfill. Everything checked out against Wikidata `Q17503525` (label "Elizabeth Holmes", description "American biotechnology entrepreneur convicted of fraud"):
+
+- `imdb_id: nm7266010` — confirmed via Wikidata property P345, not guessed
+- `birth_date: 1984-02-03` — matches P569
+- `birth_place: Washington, D.C.` — matches P19 (Q61)
+- `wikipedia` — matches the entity's `enwiki` sitelink and returns 200; correct person, not a namesake or the Theranos company page
+- `knows_about` — genuine expertise areas, not the occupation-copied backfill pattern
+
+**Fields changed (2):**
+
+1. **`faqs[0]` answer rewritten.** The existing answer stated the type and stacked three hedges but carried zero evidence, which fails the first-FAQ template (type + wing + 3–5 signature evidences). It was not stale, just thin. The replacement keeps every hedge and adds evidence drawn from the body: the November 2014 Balwani "disaster zone" message and the Murdoch binder that omitted it, and the board endorsements that stood in for technical validation. It also picks up the motivation-versus-level distinction the editor pass added to the diagnosis section — a reader asking "what's her type?" should get the body's point that the type explains why the correction never came, not the fraud itself.
+2. **Added one citation** — the SCU ethics teaching note on Tyler Shultz, the only external body link missing from the list.
+
+**FAQs (5, all verified current against the revised body):**
+
+1. What is Elizabeth Holmes's personality type? → `#what-is-elizabeth-holmess-personality-type` *(rewritten)*
+2. Was Elizabeth Holmes faking her deep voice? → `#what-elizabeth-holmess-voice-can-tell-us`
+3. What has Elizabeth Holmes said about Sunny Balwani? → `#why-the-sunny-balwani-relationship-resists-a-simple-explanation`
+4. Where is Elizabeth Holmes now, and when could she be released? → `#what-elizabeth-holmes-does-in-prison`
+5. What is the Elizabeth Holmes documentary You Can See Everything? → `#what-you-can-see-everything-adds`
+
+FAQs 2–5 were already accurate against the post-editor-pass body — prison dates, the 123-month reduction, the pending commutation petition, the 174-minute runtime, and the Oct 16 2026 release all match the current text, so I left them alone.
+
+**Issues:**
+
+- **`citations` is now 30 items against a 3–8 guideline.** All 30 are real body links (I verified every one appears as an inline link — none invented), so this is comprehensiveness, not fabrication. I did not trim, since the command is additive-only and the list now maps exactly onto the body's external sources. Worth a decision at some point: trim to the 8 load-bearing sources, or accept that heavily-sourced people drafts carry a full source list.
+- **`occupation` is down to 2 items** (`Entrepreneur`, `Founder`). The editor pass removed `Convicted fraudster` before I ran. Two is within the 2–5 range and the removal reads as deliberate, so I left it — flagging rather than reverting another stage's call.
+- **`production_pretext` still lists `six_perspective_review_missing` as a blocker**, but the perspective-review files now exist in the working tree. That's a creator-owned field I don't touch; someone should clear it before the publish gate.

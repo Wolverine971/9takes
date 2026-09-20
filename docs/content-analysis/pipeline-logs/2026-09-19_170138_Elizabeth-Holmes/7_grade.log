@@ -1,0 +1,23 @@
+## Grading Complete — Elizabeth Holmes
+
+| Blog | Evid | Orig | Disc | Ennea | Writing | Hook | Overall | Grade |
+|------|------|------|------|-------|---------|------|---------|-------|
+| Elizabeth-Holmes | 9 | 8 | 9 | 8 | 7 | 6 | **8.1** | **B** |
+
+(Weighted: `(9×1.5 + 8×1.5 + 9×1.5 + 8 + 7 + 6×0.5) / 7` = 8.1. Discoverability 9 — gate passes, no cap. No formula caps triggered.)
+
+### Key observations
+
+**What carries it:** Evidence is the best I've seen in this corpus. Page-level deep links into the Ninth Circuit opinion, Davila's 2022 order, a BOP inmate-locator check dated today, DOJ clemency status. The Kissinger find — a board member writing "Others will judge the technical aspects of Theranos, but the social implications are vast" — is a genuine signature detail, read correctly as borrowed authority standing in for validation. Credit also for the Testimony Ledger openly recording a *failed* verification: the Variety quote flunked retrieval five times and was downgraded to paraphrase in the body instead of shipped.
+
+**The best move:** the documentary section states the in-type self-deception reading, then names exactly what it fails to cover (the December 2013 special-operations call, where "an invention about work never performed leaves nothing inward to occupy"), names the competing reading, and gives the discriminator. The piece tests its own hypothesis and lets it partly lose. Paired with the diagnosis conceding "personality is decoration on top of that," it's why Originality holds at 8 against the most-predicted typing in Enneagram content.
+
+**What holds it at B:** Hook is the weak card — "You're being real right now?" is the most arresting line available and it's buried at paragraph six behind founding/Walgreens/valuation background. And the piece runs 4,385 words against a 3,200–3,900 band with roughly a dozen stacked methodological caveats. Each hedge is defensible; the stack drains a register that's already uniformly cool.
+
+**Two things to know:**
+- The source-audit script reports 0 untagged, but it only scans epigraph/cold-open/diagnosis/empathy-turn/close. Avie Tevanian's "But Elizabeth took it to a new level" (line 260) runs bare outside those slots — it's the only qualifying character-testimony quote with no inline link. Traceable via the ledger, so no Evidence cap, but worth a one-line fix.
+- The 2026-09-09 QA ledger still describes the unverified NYT-dispute claim as live in the body. A later pass correctly cut it. Stale ledger, resolved safely, but it no longer matches the text.
+
+Path to B+ is cheap and specific: lead with the Fielder exchange, cut 400–500 words of caveat, link Tevanian, and give the diagnosis one *felt* interior beat instead of the textbook "the emotional pressure in this reading is shame." Details in `docs/content-analysis/grades/Elizabeth-Holmes.review.md`.
+
+**Total graded this session: 1**

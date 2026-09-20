@@ -137,8 +137,12 @@ quality/priority call, not a bug. Fifteen more are question categories that are 
 noindexed.
 
 **404 category slugs** (`economy-and-work`, `law-and-justice`, `legal-procedures-and-practices`,
-`global-economy`) and `/personality-analysis/sarah-safari` (misspelling of `sara-saffari`): verified
-no internal links and not in the sitemap. Historical only. Redirects optional, low value.
+`global-economy`): all four **exist in `question_categories`** — they 404 because
+`src/routes/questions/categories/[slug]/+page.server.ts` throws
+`error(404, 'No category with live questions found')` when a category's subtree has no live
+questions. That is deliberate, and it reverses itself the moment a question gets tagged into the
+subtree. Do not add redirects for these: pointing them at a loosely related parent is how a 404
+becomes a soft 404.
 
 **Discovered – currently not indexed — 65.** Validation Passed. Mostly `/community/*`,
 `/enneagram-corner/*` (incl. `mental-health/*` and `subtopic/*`) and `/questions/*`. Queued, not a
@@ -180,3 +184,51 @@ Still queued for a later day (same phantom-noindex class): `/pop-culture/twitter
   couple of seconds to re-render. JS return values are truncated around 1 KB, so slice the output.
 - `node scripts/fetch-gsc-data.mjs` (service-account API pull) is the non-UI path for performance
   data; see `docs/data/gsc/README.md`.
+
+---
+
+## Cleanup pass (same day, after the audit above)
+
+### The 9 malformed citation 404s are genuinely stale — verified, not assumed
+
+Built `scripts/audit-malformed-links.mjs` (`pnpm audit:links`) and crawled **all 710 sitemap URLs**,
+looking for four shapes that can only 404: external URLs that lost their domain
+(`/watch?v=…`, `/wiki/…`), markdown artifacts carrying a trailing `)`, foreign file extensions, and
+uppercase person slugs that merely redirect.
+
+**Result: 0 malformed links across 710 pages.** Nothing on the live site can produce those URLs
+anymore, so there is no code fix to make — Google is re-requesting URLs it learned between April and
+July from page versions that no longer exist. They age out on their own. The scanner is kept as the
+guard against regression, with rules unit-tested in `scripts/audit-malformed-links.spec.mjs`.
+
+A repo grep did surface two markdown links whose URL contains parentheses
+(`Adam-Neumann.md`, `joseph-zada.md`, both Wikipedia URLs). **These are not bugs** — the parens are
+balanced, CommonMark handles them, and the live Adam Neumann page renders
+`href="https://en.wikipedia.org/wiki/Flow_(real_estate_company)"` correctly. An edit "fixing" them
+was made and then reverted; leave them alone.
+
+### Sitemap hygiene: clean
+
+Fetched every one of the 710 sitemap URLs as Googlebot: **710/710 return 200**. No redirects, no
+404s, no noindex pages in the sitemap.
+
+### What changed
+
+- `vercel.json`: added `/personality-analysis/sarah-safari` → `/personality-analysis/sara-saffari`
+  (301). Verified the misspelling appears nowhere in our own content or `suggestions` cross-links,
+  so it is an external link someone typed wrong — the redirect just catches it.
+- `scripts/audit-malformed-links.mjs` + spec, plus the `audit:links` alias.
+- Search Console: started a **new validation on the Soft 404 bucket** (12 pending, 0 failed). All 12
+  are genuinely resolved now — 6 serve `noindex`, 2 are empty-category 404s by design, 3 have real
+  intros, and the 12th (`neurodiversity-vs-personality`) had reindexing requested.
+
+### Deliberately not done
+
+- **No redirects for the four empty-category 404s** — see the reasoning above.
+- **Did not start validation on the noindex bucket.** The carry-over fix has not deployed yet, so
+  validation would fail. Start it once a deploy has shipped and the manifest exists.
+- `/personality-analysis/edgar-allan-poe` is still a 404: the row exists in `blogs_famous_people`
+  with `published = false` and **18,263 characters of finished content**. Google indexed it when it
+  was live. Publishing it is a content decision for DJ — it is the only 404 in the bucket with a
+  real page waiting behind it. (`Ben-Shapiro` resolved itself: it was republished and now 200s,
+  with the uppercase URL 308ing correctly.)

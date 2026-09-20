@@ -1,0 +1,9 @@
+blog-quality-report: Elizabeth-Holmes
+────────────────────────────────────────────────────────────
+2.1 Contrast pairs: 1 total  (strong 0, comparative 1)
+   compar. [more/less-than] L246: Amy Chozick's May 2023 New York Times profile reported that Holmes described creating a business persona in order to be taken seriously, and
+
+2.4 Head-term: PASS  meta_title=Elizabeth Holmes: Enneagram Type 3 and the Cost of Belief
+   answer-block: ok (56 words; <=60)
+
+1.4 Corpus-count drift: none (corpus total = 450)

@@ -1,0 +1,18 @@
+All nine required H2s present, IDs match the frontmatter counts, `PROTECT-13` noted as an unnumbered addendum under Protected hits.
+
+**Synthesis path:** `docs/content-analysis/perspective-reviews/Elizabeth-Holmes/2026-09-19_170138/synthesis.md`
+
+**P0 items:** 9 — seven are two sentences or fewer, two are deletions, so the P0 set is roughly word-neutral against the 3,200–3,900 band.
+
+**Accepted P1 items:** 12
+
+**Research-required:** 6 — RQ-02 (the Variety quotation) and RQ-04 (Shultz legal costs) gate scheduled work; RQ-03 (Reuters/Balwani) and RQ-05 (January 2026 clemency) default to no change if unresolved.
+
+**Most important protected hit:** PROTECT-01 — the Kissinger → Gardner → Murdoch-binder sequence closing on *"That sequence is why ambition cannot work as an alibi here."* Named by four of six perspectives, and three P1 repairs add material directly around it.
+
+Two things worth flagging, both from pulling the Ninth Circuit opinion myself rather than relying on the reviews:
+
+- The critic's patient-harm blocker doesn't need the CMS sanction letter. Page 12 of the opinion the draft already cites five times records CMS's late-2015 inspection finding **"immediate jeopardy" to patient health** — an agency finding independent of the acquitted counts, free from a source already in the citation list. That moved it from research-required to a one-sentence P1.
+- The Enneagram reviewer's proposed fix would have created a new problem. `enneagram-type-3.md:115` says the Three's deceit *"isn't about lying… It's the lie you tell yourself"* — so the draft's self-deception framing **is** house doctrine, not the exculpatory outlier it was graded as. What survives is the structural complaint (one in-type reading offered where two exist), so P0-03 adds the competitor alongside rather than swapping it. Separately I escalated the missing levels-of-development axis to P0 above that reviewer's own grade, because the body contains zero health vocabulary while the pillar it links says most 3s hold strong ethics around honesty — a contradiction one click away.
+
+All six evaluators returned `revise`; the draft stays production-blocked on fresh grades and the two open P0/P1 gates.
