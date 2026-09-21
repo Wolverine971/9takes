@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:41:03.866Z",
+  "generated_at": "2026-09-21T14:26:46.204Z",
   "totals": {
     "published": 450,
     "unpublished_drafts": 0
@@ -659,13 +659,13 @@
   "pipeline": {
     "in_draft": 0,
     "published_last_30_days": 16,
-    "published_last_90_days": 72,
-    "avg_new_per_month": 24
+    "published_last_90_days": 69,
+    "avg_new_per_month": 23
   },
   "freshness": {
-    "updated_last_30_days": 30,
-    "updated_last_90_days": 110,
-    "share_updated_last_90_days": 0.2444,
+    "updated_last_30_days": 29,
+    "updated_last_90_days": 109,
+    "share_updated_last_90_days": 0.2422,
     "missing_lastmod": 0
   },
   "min_domain_size": 10,

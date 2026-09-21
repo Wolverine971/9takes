@@ -4,7 +4,6 @@ import { dev } from '$app/environment';
 import type { Actions } from './$types';
 import { error, redirect } from '@sveltejs/kit';
 import type { Database } from '../../../../database.types';
-import { getSupabaseAdminClient } from '$lib/server/supabaseAdmin';
 import type { SupabaseClient } from '@supabase/supabase-js';
 import {
 	rankSimilarPeople,
@@ -29,12 +28,7 @@ import personalitySimilaritySnapshot from '$lib/generated/personalitySimilarityS
 import { waitUntil } from '@vercel/functions';
 
 type FamousPersonRow = Database['public']['Tables']['blogs_famous_people']['Row'];
-type BlogCommentRow = Database['public']['Tables']['blog_comments']['Row'];
 type ServerSupabaseClient = SupabaseClient<Database>;
-type PublicBlogCommentRow = Pick<
-	BlogCommentRow,
-	'id' | 'blog_link' | 'blog_type' | 'comment' | 'created_at' | 'author_id'
->;
 type RelatedPersonalityCard = Pick<PersonalitySimilarityRow, 'enneagram'> & { slug: string };
 type RelatedPersonalityPayload = {
 	sameNichePosts: RelatedPersonalityCard[];
@@ -42,17 +36,35 @@ type RelatedPersonalityPayload = {
 };
 type PublicChorusQuestion = { question: string | null; questionUrl: string | null };
 
-const PERSONALITY_ENRICHMENT_TIMEOUT_MS = 4_000;
 // The similarity refresh runs after the response, so it can wait longer than
 // render-blocking enrichment queries.
 const SIMILARITY_REFRESH_TIMEOUT_MS = 10_000;
 const SIMILARITY_REFRESH_RETRY_MS = 60 * 1000;
 const PERSONALITY_SIMILARITY_SNAPSHOT = personalitySimilaritySnapshot as PersonalitySimilarityRow[];
 
+/**
+ * Served from Vercel's ISR cache: one stored copy per path, shared by every
+ * visitor and every crawler, refreshed on publish (scripts/revalidate-personality.mjs).
+ *
+ * That only holds because this payload is visitor-independent. The answer gate
+ * and comments moved to /api/personality-analysis/[slug]/discussion, and admin
+ * draft preview moved to /admin/content-board/personality-analysis/[slug].
+ * Nothing here may read the session, a cookie, or the user agent.
+ */
+const isrBypassToken = process.env.BYPASS_TOKEN;
+
+export const config = {
+	isr: {
+		// Content changes land through on-demand revalidation; this is the safety net.
+		expiration: 86_400,
+		// Ignore utm/fbclid and friends so tagged links reuse one cache entry.
+		allowQuery: [],
+		...(isrBypassToken && isrBypassToken.length >= 32 ? { bypassToken: isrBypassToken } : {})
+	}
+};
+
 export const load: PageServerLoad = async (event) => {
 	const setHeaders = event.setHeaders;
-	const session = event.locals.session;
-	const user = session?.user;
 	const requestedSlug = event.params.slug;
 	const canonicalSlugParam = normalizePersonalitySlug(requestedSlug);
 
@@ -60,13 +72,12 @@ export const load: PageServerLoad = async (event) => {
 		throw redirect(301, buildPersonalityAnalysisPath(canonicalSlugParam) + event.url.search);
 	}
 
-	const cookie = event.cookies.get('9tfingerprint');
 	const supabase = event.locals.supabase;
 
 	if (!dev) {
 		setHeaders({
-			// The content guard keeps humans/private states uncached and upgrades
-			// recognized search preview bots to this short edge cache policy.
+			// Identical for every visitor, so it can sit in a shared cache in front
+			// of ISR. hooks.server.ts applies the same policy to the response.
 			'Cache-Control': CONTENT_SEARCH_PREVIEW_CACHE_CONTROL
 		});
 	} else {
@@ -89,45 +100,16 @@ export const load: PageServerLoad = async (event) => {
 		throw error(404, `Person not found: ${requestedSlug}`);
 	}
 
+	// Unpublished people 404 for everyone here, including admins: this response is
+	// shared, so a draft fetched by an admin would be replayed to the public.
+	// Preview drafts at /admin/content-board/personality-analysis/[slug].
 	if (!personData.published) {
-		const { data: adminProfile } = user?.id
-			? await supabase.from('profiles').select('admin').eq('id', user.id).maybeSingle()
-			: { data: null };
-		if (!adminProfile?.admin) {
-			throw error(404, `Person not found: ${requestedSlug}`);
-		}
+		throw error(404, `Person not found: ${requestedSlug}`);
 	}
 
 	const legacySlug = personData.person ?? requestedSlug;
 	const canonicalSlug = normalizePersonalitySlug(legacySlug);
-	const commentSlugCandidates = [...new Set([legacySlug, canonicalSlug].filter(Boolean))];
 
-	const queryPromise = user?.id
-		? supabase
-				.from('blog_comments')
-				.select('id')
-				.in('blog_link', commentSlugCandidates)
-				.eq('author_id', user?.id)
-				.abortSignal(AbortSignal.timeout(PERSONALITY_ENRICHMENT_TIMEOUT_MS))
-				.maybeSingle()
-		: getSupabaseAdminClient()
-				.from('blog_comments')
-				.select('id')
-				.in('blog_link', commentSlugCandidates)
-				.eq('fingerprint', cookie ?? '')
-				.abortSignal(AbortSignal.timeout(PERSONALITY_ENRICHMENT_TIMEOUT_MS))
-				.maybeSingle();
-	const hasCommentedPromise = Promise.resolve(queryPromise)
-		.then(({ data: hasCommented, error: commentLookupError }) => {
-			if (commentLookupError) {
-				console.warn('Failed to check personality comment access', commentLookupError);
-			}
-			return Boolean(hasCommented);
-		})
-		.catch((commentLookupError) => {
-			console.warn('Failed to check personality comment access', commentLookupError);
-			return false;
-		});
 	const bridgeLinks = buildPersonalityBridgeLinks({
 		enneagram: personData.enneagram,
 		types: personData.type,
@@ -135,48 +117,24 @@ export const load: PageServerLoad = async (event) => {
 	});
 	const postTypes = normalizePeopleTypes(personData.type);
 	const enneagramNum = parseEnneagramNumber(personData.enneagram);
-	const [
-		userHasAnswered,
-		{ content, placeholders, headings },
-		relatedPosts,
-		publishedRows,
-		publicChorus
-	] = await Promise.all([
-		hasCommentedPromise,
-		processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
-		buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum),
-		getPersonalitySimilarityRows(supabase),
-		resolvePublicChorusQuestion(supabase, personData)
-	]);
+	const [{ content, placeholders, headings }, relatedPosts, publishedRows, publicChorus] =
+		await Promise.all([
+			processBlogContent(personData.content ?? '', { popCardImageTreatment: 'personality' }),
+			buildRelatedPosts(supabase, canonicalSlug, postTypes, enneagramNum),
+			getPersonalitySimilarityRows(supabase),
+			resolvePublicChorusQuestion(supabase, personData)
+		]);
 	const suggestedPeople = buildSuggestedPeople(
 		personData.suggestions,
 		canonicalSlug,
 		publishedRows
 	);
-	let comments: PublicBlogCommentRow[] = [];
-
-	// Only fetch comments if user has answered.
-	if (userHasAnswered) {
-		const { data: blogComments } = await supabase
-			.from('blog_comments')
-			.select('id, blog_link, blog_type, comment, created_at, author_id')
-			.in('blog_link', commentSlugCandidates)
-			.order('created_at', { ascending: false })
-			.limit(100);
-
-		comments = blogComments || [];
-	}
 
 	const wordCount = countRenderableWords(content);
 	const publishedAt = personData.published_at ?? personData.date ?? personData.created_at;
 	const modifiedAt = personData.lastmod ?? publishedAt;
 
 	return {
-		user: session?.user ? { id: session?.user?.id, email: session?.user?.email } : null, // Pass user info to components
-		flags: {
-			userHasAnswered,
-			userSignedIn: !!event?.locals?.session?.user?.aud
-		},
 		post: {
 			...(personData as FamousPersonRow),
 			chorus_question: publicChorus.question,
@@ -199,7 +157,6 @@ export const load: PageServerLoad = async (event) => {
 		canonicalSlug,
 		placeholders,
 		headings,
-		comments,
 		bridgeLinks,
 		suggestedPeople,
 		relatedPosts

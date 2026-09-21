@@ -3,6 +3,12 @@ import { describe, expect, it, vi } from 'vitest';
 
 import { PUT } from './+server';
 
+// $env/dynamic/private is resolved by the SvelteKit plugin, so stubbing
+// process.env after import would not reach revalidatePersonalityPage.
+vi.mock('$env/dynamic/private', () => ({
+	env: { BYPASS_TOKEN: 'test_token_0123456789abcdef0123456789' }
+}));
+
 interface CapturedUpdate {
 	payload: Record<string, unknown> | null;
 }
@@ -279,5 +285,40 @@ describe('/api/admin/content/[id]', () => {
 			wikidata_qid: null,
 			imdb_id: null
 		});
+	});
+
+	it('refreshes the ISR-cached public page after a successful save', async () => {
+		// Without this the edit sits behind the cached copy until expiration.
+		const captured: CapturedUpdate = { payload: null };
+		const supabase = buildSupabaseStub(captured);
+		const waited: Promise<unknown>[] = [];
+		const fetchSpy = vi
+			.spyOn(globalThis, 'fetch')
+			.mockResolvedValue(new Response(null, { status: 200 }));
+
+		const response = await PUT({
+			params: { id: '42' },
+			url: new URL('https://9takes.test/api/admin/content/42'),
+			platform: { context: { waitUntil: (promise: Promise<unknown>) => waited.push(promise) } },
+			request: new Request('https://9takes.test/api/admin/content/42', {
+				method: 'PUT',
+				body: JSON.stringify({ title: 'Edited Title' })
+			}),
+			locals: {
+				session: { user: { id: 'admin-user' } },
+				supabase
+			}
+		} as any);
+
+		expect(response.status).toBe(200);
+		await Promise.all(waited);
+
+		const [requestedUrl, init] = fetchSpy.mock.calls[0] ?? [];
+		expect(String(requestedUrl)).toBe('https://9takes.test/personality-analysis/taylor-swift');
+		expect((init as RequestInit)?.headers).toMatchObject({
+			'x-prerender-revalidate': 'test_token_0123456789abcdef0123456789'
+		});
+
+		fetchSpy.mockRestore();
 	});
 });

@@ -3,6 +3,8 @@ import { error, json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
 import { normalizePersonalitySlug } from '$lib/utils/personalityAnalysis';
 import { requireAdmin } from '$lib/server/adminAuth';
+import { revalidatePersonalityPage } from '$lib/server/personalityRevalidate';
+import { runBestEffortTelemetry } from '$lib/server/bestEffortTelemetry';
 import type { Database } from '../../../../../../database.types';
 
 type FamousPeopleUpdate = Database['public']['Tables']['blogs_famous_people']['Update'];
@@ -48,7 +50,8 @@ export const GET: RequestHandler = async ({ params, locals }) => {
 };
 
 // PUT - Update content
-export const PUT: RequestHandler = async ({ params, request, locals }) => {
+export const PUT: RequestHandler = async (event) => {
+	const { params, request, locals, url } = event;
 	const contentId = Number(params.id);
 	if (!Number.isFinite(contentId)) {
 		throw error(400, 'Invalid content ID');
@@ -184,6 +187,18 @@ export const PUT: RequestHandler = async ({ params, request, locals }) => {
 			console.error('Error recording content release event:', eventError);
 			throw error(400, eventError.message || 'Failed to record release event');
 		}
+	}
+
+	// The public page is served from the ISR cache, so an edit is invisible until
+	// that copy is replaced. Unpublishing refreshes too, so the page starts 404ing.
+	const revalidateSlug = normalizePersonalitySlug(data.person || existingContent.person);
+	if (revalidateSlug && url?.origin) {
+		runBestEffortTelemetry(
+			event,
+			revalidatePersonalityPage(revalidateSlug, url.origin),
+			(revalidateError) =>
+				console.warn('Failed to revalidate personality page', revalidateSlug, revalidateError)
+		);
 	}
 
 	return json({ data });

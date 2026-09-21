@@ -28,6 +28,8 @@
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
 	import { ENNEAGRAM_TYPE_COLORS } from '$lib/constants/enneagramColors';
+	import { getAuthShellUser } from '$lib/authShell';
+	import type { PublicBlogCommentRow } from '../../api/personality-analysis/[slug]/discussion/+server';
 	import { splitAtEnneagramTypeDossierSlot } from '$lib/utils/articleSlots';
 	import { SectionKicker, Spinner } from '$lib/components/atoms';
 	import EnneagramTypeDossier from '$lib/components/blog/EnneagramTypeDossier.svelte';
@@ -144,6 +146,12 @@
 	];
 	const mountedPlaceholders = new Map<string, ReturnType<typeof mount>>();
 
+	type DiscussionComment = PublicBlogCommentRow;
+
+	// Signed-in state is hydrated in the browser (the HTML is shared), so read it
+	// from the auth shell rather than the page payload.
+	const authShellUser = getAuthShellUser();
+
 	let mounted = false;
 	let commentsLoaded = false;
 	let commentsVisible = false;
@@ -151,8 +159,13 @@
 
 	// Use direct reactive assignments to ensure updates on navigation
 	let post: PageData['post'] = data.post;
-	let comments: PageData['comments'] = data.comments;
-	let userHasAnswered: PageData['flags']['userHasAnswered'] = data.flags.userHasAnswered;
+	// The page HTML is shared by every visitor (ISR), so the discussion arrives
+	// from /api/personality-analysis/[slug]/discussion when the section is near
+	// the viewport. The give-first gate is still decided on the server.
+	let comments: DiscussionComment[] = [];
+	let userHasAnswered = false;
+	let discussionLoaded = false;
+	let discussionRequest: Promise<void> | null = null;
 	let postMeta: App.BlogPost = normalizePost(data.post);
 	let postTypes: string[] = toStringArray(postMeta.type);
 	// Server-filtered to published pages; falls back to the raw column so the
@@ -165,8 +178,6 @@
 	);
 
 	$: post = data.post;
-	$: comments = data.comments;
-	$: userHasAnswered = data.flags.userHasAnswered;
 	$: postMeta = normalizePost(post);
 	$: postTypes = toStringArray(postMeta.type);
 	$: postSuggestions = data.suggestedPeople ?? toStringArray(postMeta.suggestions);
@@ -320,10 +331,44 @@
 		}
 	}
 
+	async function loadDiscussion(slug: string) {
+		if (!browser || discussionLoaded || discussionRequest) return;
+
+		discussionRequest = (async () => {
+			try {
+				const response = await fetch(
+					`/api/personality-analysis/${encodeURIComponent(slug)}/discussion`,
+					{ headers: { Accept: 'application/json' }, credentials: 'same-origin' }
+				);
+				if (!response.ok) return;
+
+				const payload = (await response.json()) as {
+					userHasAnswered?: boolean;
+					comments?: DiscussionComment[];
+				};
+				// A comment posted while this was in flight must not be dropped.
+				const pending = comments;
+				comments = [...pending, ...(payload.comments ?? [])];
+				userHasAnswered = Boolean(payload.userHasAnswered) || userHasAnswered;
+				discussionLoaded = true;
+			} catch {
+				// Leave the gate closed; posting an answer still opens it.
+			} finally {
+				discussionRequest = null;
+			}
+		})();
+
+		await discussionRequest;
+	}
+
 	// Reset state when navigating to a new page
 	function resetPageState() {
 		commentsLoaded = false;
 		commentsVisible = false;
+		comments = [];
+		userHasAnswered = false;
+		discussionLoaded = false;
+		discussionRequest = null;
 
 		// Re-setup page after DOM updates
 		tick().then(() => {
@@ -389,6 +434,9 @@
 					commentsVisible = true;
 					commentsLoaded = true;
 
+					// Per-visitor half of the page: gate state + comments.
+					loadDiscussion(data.post.slug);
+
 					// Load comments components
 					Promise.all([
 						import('$lib/components/blog/BlogComments.svelte'),
@@ -403,7 +451,7 @@
 		); // Load when element is 200px from viewport
 
 		// Load SuggestFamousPerson component (lowest priority)
-		if (!data?.user) {
+		if (!$authShellUser) {
 			import('$lib/components/molecules/SuggestFamousPerson.svelte').then((module) => {
 				SuggestFamousPerson = module.default;
 			});
@@ -679,7 +727,7 @@
 				<BlogComments
 					slug={post.slug}
 					{comments}
-					user={data?.user}
+					user={$authShellUser}
 					parentType={'personality-analysis'}
 					{userHasAnswered}
 				/>
@@ -687,7 +735,7 @@
 					data={data as any}
 					parentType={'personality-analysis'}
 					on:commentAdded={({ detail }) => commentAdded(detail)}
-					user={data?.user}
+					user={$authShellUser}
 				/>
 			</div>
 		{:else if commentsVisible}
@@ -698,7 +746,7 @@
 
 		<!-- Second way to weigh in — folded into the same feedback section. -->
 		{#key post.slug}
-			{#if !data?.user && SuggestFamousPerson}
+			{#if !$authShellUser && SuggestFamousPerson}
 				<div class="discussion-suggest">
 					<SuggestFamousPerson />
 				</div>

@@ -215,17 +215,41 @@ export function getProtectedContentPath(pathname: string): string | null {
  * for every visitor. Authenticated header state is hydrated separately in the
  * browser, so these responses can use a short shared-cache policy.
  *
- * Personality analysis stays private because its answer gate and comments are
- * selected from the authenticated user or fingerprint on the server.
+ * Personality analysis slug pages joined this set once the answer gate and
+ * comments moved to /api/personality-analysis/[slug]/discussion; the HTML no
+ * longer depends on the visitor. Type listings still render server-side auth.
  */
 export function getPublicEditorialCachePath(pathname: string): string | null {
 	const protectedPath = getProtectedContentPath(pathname);
 
-	if (!protectedPath || protectedPath.startsWith('/personality-analysis/')) {
+	if (!protectedPath) {
+		return null;
+	}
+
+	if (protectedPath.startsWith('/personality-analysis/') && !isIsrCachedContentPath(pathname)) {
 		return null;
 	}
 
 	return protectedPath;
+}
+
+/**
+ * Routes served from Vercel's ISR cache (see the `isr` config exported by
+ * src/routes/personality-analysis/[slug]/+page.server.ts).
+ *
+ * The ISR cache is keyed by pathname alone: `Vary` is not part of the key, so
+ * one response is replayed to every visitor. Anything user-agent dependent
+ * therefore has to stay out of these responses.
+ */
+export function isIsrCachedContentPath(pathname: string): boolean {
+	const segments = normalizePath(pathname).split('/').filter(Boolean);
+
+	return (
+		segments.length === 2 &&
+		segments[0] === 'personality-analysis' &&
+		segments[1] !== 'categories' &&
+		segments[1] !== 'type'
+	);
 }
 
 export function getHardBlockedReason({
@@ -234,6 +258,16 @@ export function getHardBlockedReason({
 	userAgent
 }: ProtectedContentRequest): HardBlockedReason | null {
 	if (!isInspectableContentRequest(method, pathname)) {
+		return null;
+	}
+
+	// ISR replays one stored response per path to everyone. A user-agent block
+	// decided inside the function would let the first blocked crawler poison the
+	// cache with a 403 for real readers, so these paths are enforced ahead of the
+	// cache instead: robots.txt + the Vercel Firewall rule in
+	// docs/seo/personality-isr.md. Every other protected route still hard-blocks
+	// here, and stays safe because its shared cache varies on User-Agent.
+	if (isIsrCachedContentPath(pathname)) {
 		return null;
 	}
 

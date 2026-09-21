@@ -7,7 +7,7 @@ loc: 'https://9takes.com/enneagram-corner/enneagram-test-comparison-2025'
 lastmod: '2026-04-27'
 changefreq: 'monthly'
 priority: '0.9'
-published: true
+published: false
 type: ['overview']
 blog: true
 pic: 'greek-statue-comparing-enneagram-tests'

@@ -1,5 +1,5 @@
 ---
-title: 'Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2025)'
+title: 'Love Languages & Enneagram Types: The 45-Combination Compatibility Guide (2026)'
 description: 'Discover how your Enneagram type shapes your love language. Complete guide to 45 personality + love language combinations with relationship tips that actually work.'
 author: 'DJ Wayne'
 date: '2025-08-25'

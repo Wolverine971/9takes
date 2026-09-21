@@ -13,6 +13,7 @@ import {
 	getHardBlockedReason,
 	getProtectedContentPath,
 	getPublicEditorialCachePath,
+	isIsrCachedContentPath,
 	isTrackableContentRequester
 } from './contentAccessGuard';
 
@@ -28,16 +29,54 @@ describe('contentAccessGuard', () => {
 		expect(getContentRequestKind('/pop-culture/post/__data.json')).toBe('data');
 	});
 
-	it('separates cacheable editorial routes from personalized personality pages', () => {
+	it('treats personality slug pages as shared editorial routes', () => {
 		expect(getPublicEditorialCachePath('/community/kantian-filters-and-nine-perspectives')).toBe(
 			'/community/kantian-filters-and-nine-perspectives'
 		);
 		expect(
 			getPublicEditorialCachePath('/enneagram-corner/mental-health/types-and-anxiety/__data.json')
 		).toBe('/enneagram-corner/mental-health/types-and-anxiety');
-		expect(getPublicEditorialCachePath('/personality-analysis/scott-galloway')).toBeNull();
+		// Slug pages are ISR-cached: the payload no longer depends on the visitor.
+		expect(getPublicEditorialCachePath('/personality-analysis/scott-galloway')).toBe(
+			'/personality-analysis/scott-galloway'
+		);
+		expect(getPublicEditorialCachePath('/personality-analysis/scott-galloway/__data.json')).toBe(
+			'/personality-analysis/scott-galloway'
+		);
+		// Type listings still render server-resolved auth, so they stay private.
 		expect(getPublicEditorialCachePath('/personality-analysis/type/enneagram-type-5')).toBeNull();
 		expect(getPublicEditorialCachePath('/community')).toBeNull();
+	});
+
+	it('marks only personality slug pages as ISR-cached', () => {
+		expect(isIsrCachedContentPath('/personality-analysis/scott-galloway')).toBe(true);
+		expect(isIsrCachedContentPath('/personality-analysis/scott-galloway/__data.json')).toBe(true);
+		expect(isIsrCachedContentPath('/personality-analysis/type/5')).toBe(false);
+		expect(isIsrCachedContentPath('/personality-analysis/categories')).toBe(false);
+		expect(isIsrCachedContentPath('/personality-analysis')).toBe(false);
+		expect(isIsrCachedContentPath('/community/kantian-filters-and-nine-perspectives')).toBe(false);
+	});
+
+	it('never decides an ISR-cached response from the user agent', () => {
+		// One stored response per path is replayed to everyone, so a user-agent
+		// block here would cache a 403 for real readers. These paths are enforced
+		// ahead of the cache (robots.txt + Vercel Firewall) instead.
+		for (const userAgent of [
+			'GPTBot/1.0',
+			'ClaudeBot/1.0',
+			'CCBot/2.0',
+			'Mozilla/5.0 (compatible; SomeUnknownBot/1.0)',
+			'Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)'
+		]) {
+			expect(
+				getHardBlockedReason({
+					method: 'GET',
+					pathname: '/personality-analysis/scott-galloway',
+					userAgent
+				}),
+				userAgent
+			).toBeNull();
+		}
 	});
 
 	it('blocks named model-training crawlers on protected editorial routes', () => {
@@ -54,7 +93,7 @@ describe('contentAccessGuard', () => {
 			expect(
 				getHardBlockedReason({
 					method: 'GET',
-					pathname: '/personality-analysis/jennifer-lopez',
+					pathname: '/enneagram-corner/enneagram-type-9',
 					userAgent
 				}),
 				userAgent
@@ -185,7 +224,7 @@ describe('contentAccessGuard', () => {
 		expect(
 			getHardBlockedReason({
 				method: 'GET',
-				pathname: '/personality-analysis/margot-robbie',
+				pathname: '/enneagram-corner/enneagram-type-9',
 				userAgent: 'Sogou web spider/4.0'
 			})
 		).toBe('unknown_bot_user_agent');
@@ -319,6 +358,9 @@ describe('contentAccessGuard', () => {
 			getContentResponseCacheControl(human, '/community/kantian-filters-and-nine-perspectives')
 		).toBe(PUBLIC_EDITORIAL_CACHE_CONTROL);
 		expect(getContentResponseCacheControl(human, '/personality-analysis/scott-galloway')).toBe(
+			PUBLIC_EDITORIAL_CACHE_CONTROL
+		);
+		expect(getContentResponseCacheControl(human, '/personality-analysis/type/5')).toBe(
 			CONTENT_GUARD_CACHE_CONTROL
 		);
 	});

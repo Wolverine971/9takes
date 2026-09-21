@@ -17,6 +17,7 @@ import {
 	getHardBlockedReason,
 	getProtectedContentPath,
 	getPublicEditorialCachePath,
+	isIsrCachedContentPath,
 	isTrackableContentRequester
 } from '$lib/server/contentAccessGuard';
 import { recordSharedContentAccessEvent } from '$lib/server/contentAccessStore';
@@ -202,7 +203,16 @@ export const handle: Handle = async ({ event, resolve }) => {
 				? CONTENT_GUARD_CACHE_CONTROL
 				: getContentResponseCacheControl(requester, event.url.pathname)
 		);
-		if (!dev && (publicEditorialCachePath || requester?.kind === 'search_preview_bot')) {
+		// `Vary: User-Agent` is what keeps user-agent-dependent responses (the bot
+		// hard block, search-preview upgrades) out of each other's shared-cache
+		// entries. ISR ignores Vary, so those paths must not depend on the agent
+		// at all — see getHardBlockedReason — and adding Vary there would only
+		// fragment the CDN layer in front of the ISR cache.
+		if (
+			!dev &&
+			!isIsrCachedContentPath(event.url.pathname) &&
+			(publicEditorialCachePath || requester?.kind === 'search_preview_bot')
+		) {
 			appendVary(response.headers, 'User-Agent');
 		}
 	}
@@ -225,6 +235,17 @@ export const handle: Handle = async ({ event, resolve }) => {
 		)
 	) {
 		response.headers.set('Cache-Control', 'private, no-store');
+	}
+
+	// Backstop: a Set-Cookie means the response carries per-visitor state, so it
+	// must never land in a shared cache. Public editorial routes resolve no user
+	// and set no cookies today; this keeps a future load() that starts doing so
+	// from being served to everyone.
+	if (!dev && publicEditorialCachePath && response.headers.has('set-cookie')) {
+		console.warn('Public editorial response set a cookie; forcing private cache', {
+			path: publicEditorialCachePath
+		});
+		response.headers.set('Cache-Control', CONTENT_GUARD_CACHE_CONTROL);
 	}
 	applySecurityHeaders(response.headers);
 

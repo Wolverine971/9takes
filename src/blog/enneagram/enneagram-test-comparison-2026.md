@@ -34,8 +34,6 @@ Keyword Strategy:
 
 **Verified:** August 1, 2026. Prices and access can change, so the links below go directly to each provider.
 
-Looking for the earlier edition? Read the archived [2025 Enneagram test comparison](/enneagram-corner/enneagram-test-comparison-2025).
-
 ## Free and paid Enneagram tests at a glance
 
 | Test                  | Price and result access                                                                | Length                                                                            | What the provider says you receive                                    | Best fit                             |

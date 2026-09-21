@@ -46,6 +46,7 @@
 		"index:blogs:dry": "node scripts/index-blogs-to-supabase.js --dry-run",
 		"index:blogs:force": "node scripts/index-blogs-to-supabase.js --force",
 		"push:people": "node scripts/personBlogParser.js",
+		"revalidate:personality": "node scripts/revalidate-personality.mjs",
 		"gen:chorus": "node scripts/generate-chorus.mjs",
 		"gen:chorus:force": "node scripts/generate-chorus.mjs --force",
 		"regen:takes": "node --import tsx scripts/regen-nine-takes.ts",
@@ -57,6 +58,7 @@
 		"audit:blog-enrichment": "node scripts/blog-enrichment-status.mjs",
 		"supabase:normalize-personality-slugs": "node scripts/normalize-personality-slugs.js",
 		"seo:normalize-internal-personality-links": "node scripts/normalize-internal-personality-links.js",
+		"submit:indexnow": "node scripts/submit-indexnow.mjs",
 		"test:smoke": "playwright test",
 		"audit:security": "pnpm audit --audit-level=low"
 	},

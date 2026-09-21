@@ -1,5 +1,5 @@
 {
-	"lastUpdated": "2026-09-20T06:00:00Z",
+	"lastUpdated": "2026-09-21T06:00:00Z",
 	"stats": {
 		"totalUnpublished": 132,
 		"totalPublished": 391,
@@ -7,6 +7,23 @@
 	},
 	"queue": [],
 	"completed": [
+		{
+			"name": "ben-shelton",
+			"displayName": "Ben Shelton",
+			"type": null,
+			"priority": 20,
+			"priorityReason": "DJ explicitly deprioritized athletes on 2026-09-09; low-priority reserve behind non-athlete subjects. Direct Google Trends name query at 500K+ in the Sept. 9 US past-24-hours snapshot after US Open quarterfinal win; confirmed Sept. 25-27 Laver Cup and substantive interview trail. Recheck event timing before creation.",
+			"estimatedTraffic": "high",
+			"searchVolume": "very-high",
+			"personaTitle": null,
+			"addedToQueue": "2026-09-09",
+			"retryCount": 1,
+			"strategicValue": "tennis-culture-cluster",
+			"startedAt": "2026-09-20T06:00:00Z",
+			"completedAt": "2026-09-21T06:00:00Z",
+			"needsReview": true,
+			"recoveryNote": "Reconciled by nightly-blog-cron: draft existed but queue was never updated."
+		},
 		{
 			"name": "rod-wave",
 			"displayName": "Rod Wave",
@@ -1740,20 +1757,7 @@
 			"reconcileNote": "Pipeline completed after daily creator wrapper relaunched it detached; manually reconciled queue state from final logs."
 		}
 	],
-	"inProgress": {
-		"name": "ben-shelton",
-		"displayName": "Ben Shelton",
-		"type": null,
-		"priority": 20,
-		"priorityReason": "DJ explicitly deprioritized athletes on 2026-09-09; low-priority reserve behind non-athlete subjects. Direct Google Trends name query at 500K+ in the Sept. 9 US past-24-hours snapshot after US Open quarterfinal win; confirmed Sept. 25-27 Laver Cup and substantive interview trail. Recheck event timing before creation.",
-		"estimatedTraffic": "high",
-		"searchVolume": "very-high",
-		"personaTitle": null,
-		"addedToQueue": "2026-09-09",
-		"retryCount": 1,
-		"strategicValue": "tennis-culture-cluster",
-		"startedAt": "2026-09-20T06:00:00Z"
-	},
+	"inProgress": null,
 	"skipped": [
 		{
 			"name": "nara-smith",
