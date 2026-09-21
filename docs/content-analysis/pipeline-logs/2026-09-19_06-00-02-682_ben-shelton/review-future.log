@@ -1,0 +1,18 @@
+The future-role review for Ben Shelton is written and validated. Only the one requested output file was created.
+
+**Output**
+
+`docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-future.json`
+
+It passes the review schema in the editorial contract. Role and both hashes are copied from the request. Every finding and protected passage is an exact substring of the frozen draft. The runner-owned log and run.json were not touched.
+
+**Five-year verdict: the thesis passes.** The discriminator is a verbatim quote from January 2023, before fame. The chase-talk pattern is dated across 2023, 2025 and 2026, after wins and after losses. The draft removes the 2026 final itself and shows the argument standing. The hook is 2023, not the latest event.
+
+**What does not yet pass** is the housekeeping around the latest event and the coaching arrangement. Eight findings, three major:
+
+- **Father-is-coach in present tense.** The sentence carrying the article's main evidence discount is undated and not inventoried on that passage. Rewrite as "has coached him full time since 2023" and attach the existing review trigger.
+- **Munich and Stuttgart titles rest on Wikipedia alone.** The evidence record marks this unresolved with a trigger that fires before publication. Open ATP sources or cut the two titles.
+- **The "sabotages himself" headline is still unopened.** Also a pre-publication trigger. The draft freezes a fetch failure into the prose in two places. Find the original or remove it from the body.
+- Five minor items: the "latest finish in history" record is marked stable with no trigger, an undated "No. 4" ranking sits inside the type argument, the comparative-pain leg of the discriminator rests on the final alone, "still the best available measurement" un-dates a 2025 statistic, and the "Sinner and Alcaraz win everything" discount needs a year.
+
+Five passages are protected, led by the paragraph where the draft performs its own five-year test. Similarity advisory was not tripped; the flagged pairs share type vocabulary, not argument structure. Risks unchanged: contested typing stays true, no escalation.

@@ -1,0 +1,27 @@
+{
+	"schema_version": 3,
+	"subject": "ben-shelton",
+	"mode": "create",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_verify_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/candidate-repair.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/evidence-repair.json",
+		"resolution": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/resolution-repair.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/checks-repair.json"
+	},
+	"outputs": {
+		"verification-repair.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/verification-repair.json"
+	},
+	"content_sha256": "8332ea2000f8ea73396031a1a10faf1eb4a3899caa18c9205a65b40f5557540f",
+	"evidence_sha256": "2af0fc9bfc3f2ebb2f754749e56b8744e7359acdece533d3eb71c21ec2d92c97"
+}

@@ -1,0 +1,27 @@
+{
+	"schema_version": 3,
+	"subject": "ben-shelton",
+	"mode": "create",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_edit_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/draft.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/evidence-draft.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/similarity.json",
+		"review-subject": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-subject.json",
+		"review-fan": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-fan.json",
+		"review-critic": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-critic.json",
+		"review-unfamiliar": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-unfamiliar.json",
+		"review-enneagram": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-enneagram.json",
+		"review-future": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-future.json",
+		"baseline": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/baseline-reader.md",
+		"checks": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/draft-checks.json"
+	},
+	"outputs": {
+		"edit.md": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/edit.md",
+		"evidence-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/evidence-edit.json",
+		"resolution-edit.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/resolution-edit.json"
+	}
+}

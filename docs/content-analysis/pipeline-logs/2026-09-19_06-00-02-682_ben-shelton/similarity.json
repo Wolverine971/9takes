@@ -1,0 +1,197 @@
+{
+	"target": {
+		"person": "ben-shelton",
+		"type": "3",
+		"units": 13,
+		"file": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/draft.md"
+	},
+	"comparison_set": [
+		{
+			"person": "Jonathan-Bailey",
+			"date": "2026-09-01",
+			"units": 33
+		},
+		{
+			"person": "Tate-McRae",
+			"date": "2026-08-27",
+			"units": 31
+		},
+		{
+			"person": "margaret-qualley",
+			"date": "2026-08-20",
+			"units": 28
+		},
+		{
+			"person": "alexandr-wang",
+			"date": "2026-08-18",
+			"units": 30
+		},
+		{
+			"person": "adela",
+			"date": "2026-08-14",
+			"units": 17
+		},
+		{
+			"person": "michael-jordan",
+			"date": "2026-08-14",
+			"units": 45
+		},
+		{
+			"person": "David-Beckham",
+			"date": "2026-08-12",
+			"units": 33
+		},
+		{
+			"person": "Mel-Robbins",
+			"date": "2026-08-12",
+			"units": 29
+		}
+	],
+	"n_requested": 8,
+	"noise_floor": {
+		"pairs_compared": 3198,
+		"median": 0,
+		"p90": 0,
+		"p99": 0.008,
+		"max": 0.055
+	},
+	"trip_threshold": 0.04,
+	"tripped": false,
+	"trip_pairs": [],
+	"per_draft_max": [
+		{
+			"person": "michael-jordan",
+			"date": "2026-08-14",
+			"units": 45,
+			"maxScore": 0.055
+		},
+		{
+			"person": "Mel-Robbins",
+			"date": "2026-08-12",
+			"units": 29,
+			"maxScore": 0.054
+		},
+		{
+			"person": "alexandr-wang",
+			"date": "2026-08-18",
+			"units": 30,
+			"maxScore": 0.05
+		},
+		{
+			"person": "Jonathan-Bailey",
+			"date": "2026-09-01",
+			"units": 33,
+			"maxScore": 0.021
+		},
+		{
+			"person": "David-Beckham",
+			"date": "2026-08-12",
+			"units": 33,
+			"maxScore": 0.018
+		},
+		{
+			"person": "margaret-qualley",
+			"date": "2026-08-20",
+			"units": 28,
+			"maxScore": 0.017
+		},
+		{
+			"person": "Tate-McRae",
+			"date": "2026-08-27",
+			"units": 31,
+			"maxScore": 0.009
+		},
+		{
+			"person": "adela",
+			"date": "2026-08-14",
+			"units": 17,
+			"maxScore": 0.006
+		}
+	],
+	"top_pairs": [
+		{
+			"score": 0.055,
+			"other_person": "michael-jordan",
+			"shared_phrases": [],
+			"target": "[diagnosis] so the fear underneath is failing in front of people who were counting on them.",
+			"other": "[diagnosis] the type whose worth exists only while it is being proven in front of witnesses."
+		},
+		{
+			"score": 0.054,
+			"other_person": "Mel-Robbins",
+			"shared_phrases": [],
+			"target": "[diagnosis] Threes are good at reading what a room rewards and becoming it.",
+			"other": "[diagnosis] 2015 Nobody leaves a profession they are good at over the phrasing of a cocktail-party answer"
+		},
+		{
+			"score": 0.05,
+			"other_person": "alexandr-wang",
+			"shared_phrases": [],
+			"target": "[diagnosis] A more useful description is someone whose sense of worth runs through being seen to deliver",
+			"other": "[counter-typing] a decision where he chose knowing something over being seen to have delivered it."
+		},
+		{
+			"score": 0.045,
+			"other_person": "michael-jordan",
+			"shared_phrases": [],
+			"target": "[diagnosis] so the fear underneath is failing in front of people who were counting on them.",
+			"other": "[counter-typing] from the 1978 roster he kept re-reading to the 2025 free throw that made him shake in front of grandkids."
+		},
+		{
+			"score": 0.035,
+			"other_person": "michael-jordan",
+			"shared_phrases": [],
+			"target": "[diagnosis] It also shows a specific thing a Seven does not usually say",
+			"other": "[counter-typing] the type does not explain everything."
+		},
+		{
+			"score": 0.031,
+			"other_person": "michael-jordan",
+			"shared_phrases": ["blind spot"],
+			"target": "[diagnosis] The blind spot is that the reading can replace the wanting.",
+			"other": "[diagnosis] The Enneagram's old teachers assigned each type a blind spot"
+		},
+		{
+			"score": 0.03,
+			"other_person": "alexandr-wang",
+			"shared_phrases": [],
+			"target": "[diagnosis] The evidence below shows plenty of that in Shelton.",
+			"other": "[counter-typing] Plenty of people read him as a quiet systems thinker."
+		},
+		{
+			"score": 0.023,
+			"other_person": "alexandr-wang",
+			"shared_phrases": [],
+			"target": "[diagnosis] The evidence below shows plenty of that in Shelton.",
+			"other": "[diagnosis] and the Type 5 investigator who is the archetype of this industry has plenty of it."
+		},
+		{
+			"score": 0.021,
+			"other_person": "Jonathan-Bailey",
+			"shared_phrases": [],
+			"target": "[diagnosis] It also shows a specific thing a Seven does not usually say",
+			"other": "[counter-typing] A Seven under threat escapes sideways into a new option."
+		},
+		{
+			"score": 0.02,
+			"other_person": "michael-jordan",
+			"shared_phrases": [],
+			"target": "[diagnosis] and names the pain of losing as watching others advance.",
+			"other": "[diagnosis] It names the stories you tell yourself to keep the performance running."
+		},
+		{
+			"score": 0.02,
+			"other_person": "Mel-Robbins",
+			"shared_phrases": [],
+			"target": "[diagnosis] The blind spot is that the reading can replace the wanting.",
+			"other": "[diagnosis] Type 1 is the reading that deserves a real hearing"
+		},
+		{
+			"score": 0.018,
+			"other_person": "David-Beckham",
+			"shared_phrases": [],
+			"target": "[diagnosis] A more useful description is someone whose sense of worth runs through being seen to deliver",
+			"other": "[diagnosis] though none proves his private source of worth."
+		}
+	]
+}

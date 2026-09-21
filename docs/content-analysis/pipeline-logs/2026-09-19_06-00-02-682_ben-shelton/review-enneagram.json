@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "enneagram",
+	"content_sha256": "f24058ec705862cdc5b50d69f088e7cec1d006f035f32e2c9d124d1cbea7e6fc",
+	"evidence_sha256": "202adeee7f631175aef758ac1adf966ac61826ab370cf9cedcebb68ddcd91b5f",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "enneagram-01",
+			"severity": "major",
+			"passage": "The reason Type 3 still leads is the discriminator. A Seven experiences constraint as the burden and stimulation as the relief. Shelton names evaluation as the burden and the removal of evaluation as the relief, and he names it consistently: the loving crowd's \"expectation,\" \"I'm not expecting a ton from myself,\" the chaser's chair, and the pain of watching others advance.",
+			"problem": "The discriminator separates 3 from 7, but the content it rests on is the shape of a counterphobic Type 6 self-report, and Type 6 is never tested. Every item in the list fits 6 at least as well as 3: fear of letting down people who are counting on you, comfort as the underdog, relief when expectation is removed, and moving toward hostility (\"I enjoy that hostile atmosphere\"). The packet holds more 6-shaped material the draft does not weigh: loyalty to \"three or four people\" (S15) and \"my best friends, my family, people I love... That's who I want to get over the line for\" (S08); a recurring fairness vocabulary of \"respectful\"/\"disrespectful\" across S02, S09 and S11; speaking up for other players, \"not just myself... Learner Tien\" (S02); challenging the umpire and then reassuring (\"maybe I should apologize to Nacho\", S09); and \"I don't have the answers. I just kind of do what they say and do my best to compete\" (S09). A Three typically seeks evaluation and wants to be the favourite; the draft concedes the underdog preference is \"unexplained\" by 3, yet it is the ordinary 6 position. The type does not beat a seriously tested alternative while the alternative most naturally implied by its own discriminator is absent.",
+			"acceptance_test": "The edit tests Type 6 (counterphobic) in the same register as the Type 7 case, using the sourced items above, and names one specific observation from the packet that separates 3 from 6. Candidate discriminators the editor may weigh: \"I feel like, you know, I'm untouchable\" when ahead at slams and \"I'm happy that in the big moments or big atmospheres I don't panic... I'm surprised with how normal it does feel\" (S01, S03), which a 6 rarely reports; \"I'm not a superstitious ritual guy\" (S15); and the direction of the self-edits toward what wins respect (S01, S10). If no sourced observation separates 3 from 6, the FAQ and the \"What is\" answer name 6 alongside 7 as an alternative and confidence stays at medium or drops."
+		},
+		{
+			"id": "enneagram-02",
+			"severity": "major",
+			"passage": "A more useful description is someone whose sense of worth runs through being seen to deliver, so the fear underneath is failing in front of people who were counting on them.",
+			"problem": "The Type 3 definition has been worded to fit the Melbourne quote. Standard descriptions locate the Three's fear in being worthless or exposed as a failure apart from achievement; \"failing in front of people who were counting on them\" imports the Six's fear (guilt at letting down those who rely on you) into the Three's definition, which is what lets \"letting them down\" read as 3 without argument. The same tailored wording is repeated in the FAQ (\"the Type 3 fear of failing in front of people who were counting on him\") and hardened in \"That is the Three's fear, stated in his own words at 20,\" which asserts identity rather than interpretation.",
+			"acceptance_test": "The definition of Type 3 in the \"What is\" section states the Three's fear as worthlessness or exposure as a failure, without the \"people who were counting on them\" clause, and the FAQ answer matches. \"That is the Three's fear, stated in his own words at 20\" becomes an inference (\"This profile reads that as...\" or \"this suggests\"). The Melbourne quote is then argued toward 3 on evidence, not by definition, and the argument survives the change or the confidence is lowered."
+		},
+		{
+			"id": "enneagram-03",
+			"severity": "major",
+			"passage": "That is the puzzle this profile works on: a player who wants the biggest stage in the sport and plays best when nobody in the building expects anything of him.",
+			"problem": "Motive is tested against self-report but not against the behavioral record, and the record cuts the other way. His best major results in the packet, the 2023 semifinal (S04, S05) and the 2026 final (S07, S08), came on Arthur Ashe in front of the most supportive crowd he plays for, and his two Masters titles were in Toronto and Montreal (S10, S14). The one measurement the draft cites, 77 percent at Grand Slams against 61 percent elsewhere (S30), says he plays best where expectation is highest. The title, persona_title, meta_title and hook hang the article on \"plays free when booed,\" yet the sourced behavior shows him at his best when the building is for him. The draft's own Melbourne source also contains the qualifier \"it's always a little bit bitter sometimes when... there's no one cheering for you, but it also motivates you\" (S13 excerpt), which the draft omits.",
+			"acceptance_test": "The article confronts the home-crowd results against the Melbourne self-report in the type argument (not only in \"What neither type explains\"), and states what the reconciliation implies: for example, that the expectation he manages is his own framing (\"I'm not expecting a ton from myself\", \"chaser\") rather than the stadium's, or that the Melbourne answer describes a feeling rather than a result. The \"bitter... but it also motivates you\" line from S13 appears with the quote. The hook and the \"What is\" answer no longer assert that he plays best when nobody expects anything unless a sourced result supports it."
+		},
+		{
+			"id": "enneagram-04",
+			"severity": "major",
+			"passage": "Boredom would be a Seven's pain. Watching others advance is a Three's.",
+			"problem": "This is presented as a discriminating observation and it does not discriminate. The Seven's core pain is deprivation and being left out, not boredom; \"sitting at home for 10, 11, 12 days while the tournament is still going on, watching, you know, everyone else run through the draw\" (S08) is a literal description of missing the party and fits a 7 at least as well as a status-relative 3. The neighbouring \"I'm an addict... feeling the pressure... there's no better feeling\" (S01) is placed in the case for Type 3 although the packet itself notes it fits 7 and 3 about equally (C21).",
+			"acceptance_test": "The sentence pair is removed or rewritten to say the quote cuts both ways, and the \"addict\" paragraph either states that it does not separate the types or moves to shared evidence. If the editor wants to keep a comparative-pain reading, the passage points to a sourced phrase that is specifically about others surpassing him rather than about being absent from the event."
+		},
+		{
+			"id": "enneagram-05",
+			"severity": "major",
+			"passage": "Bryan's description of his son off the court does not sound like a Type 3.",
+			"problem": "Stereotyped typing. \"Super high energy,\" \"fierce competitor\" and \"extrovert\" are fully consistent with Type 3, which sits with 7 and 8 in the assertive triad in common descriptions; the section opens on a claim that treats energy and extroversion as non-3, then \"The case for Type 7\" reuses the same words as \"Seven words.\" Neither move separates 3 from 7. The only fragment that mildly cuts against 3 is \"emotional at times,\" because Threes tend to set feelings aside to perform, and the draft does not isolate it.",
+			"acceptance_test": "The section opener no longer claims the father's temperament description argues against Type 3, and \"His father's words are Seven words\" is cut or restricted to \"emotional at times\" with the reason stated. Energy and extroversion are treated as shared evidence for 3 and 7."
+		},
+		{
+			"id": "enneagram-06",
+			"severity": "minor",
+			"passage": "Care about how achievement reads, in both directions, is the Three's signature.",
+			"problem": "Two over-readings toward the type. \"He also grades wins by how they look\" imports \"look\" into a quote that says \"the way you win, for me, it also matters. Not just winning, but the way you do it\" (S10), given after a title won without dropping a set; the manner of a win can mean dominance or quality of play, not appearance. Declining a place beside Agassi and Nadal is what almost any 23-year-old would say, as the packet notes (C26 alternative), and calling both \"the Three's signature\" describes any ambitious, modest athlete.",
+			"acceptance_test": "\"How they look\" becomes \"the manner of the win\" or is tied to a sourced phrase about appearance; the Agassi/Nadal disclaimer is presented as consistent with 3 rather than as its signature, or dropped from the case for Type 3."
+		},
+		{
+			"id": "enneagram-07",
+			"severity": "minor",
+			"passage": "So is the direction of his self-edits: between 2023 and 2026 he narrowed the persona toward \"blinders on\" and \"locked in\" because it produced results. A Seven tends to fight that narrowing. A Three adopts whatever wins respect.",
+			"problem": "The causal clause \"because it produced results\" is stated as fact. The packet classes it as interpretation (C22) and notes that professionalising between 21 and 23 is ordinary maturation and what a coach-father would instil. This is the second of the two discriminators the draft relies on, so the certainty matters.",
+			"acceptance_test": "The causal claim is marked as inference (\"this suggests\" or \"on this reading\") and the paragraph names the ordinary-maturation alternative in one clause, or cites a sourced statement from Shelton linking the change to results."
+		},
+		{
+			"id": "enneagram-08",
+			"severity": "minor",
+			"passage": "Start with the Melbourne answer, because it came before anyone had media-trained him and because it names the mechanism.",
+			"problem": "The cleanest independent repeat of the discriminator is in the packet and unused: two days later he said \"not having that expectation or the feeling that I have to perform, but being able to just go out there, be myself and play free\" (S12, January 23, 2023). It is the same mechanism in different words and strengthens the claim that the answer is a pattern rather than a one-off. Separately, \"before anyone had media-trained him\" is asserted without support; he had spent two seasons as a headline player at a major college program.",
+			"acceptance_test": "The S12 line is quoted in the case for Type 3 as a dated repeat, and the \"before anyone had media-trained him\" clause is softened to something supportable (for example, \"in his first month on tour\") or removed."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"reason": "An honest, sourced discount on the type evidence that most profiles would have used as proof; it should survive any retyping."
+		},
+		{
+			"passage": "The test for any passage in this article is whether it works when his motive is \"be seen to deliver\" and fails when it is \"avoid pain and keep options open.\" The Melbourne answer passes. The Zverev refusal fails. Both belong in the portrait.",
+			"reason": "An explicit, falsifiable discriminator method stated in plain language. Extend it to a third motive if Type 6 is added, but keep the form."
+		},
+		{
+			"passage": "One discount applies to all of it. Press conferences reward exactly this register, and a 23-year-old on a tour where Sinner and Alcaraz win everything will talk about chasing regardless of type. The argument rests on the Melbourne answer and its repeats, which are the parts the incentives do not explain.",
+			"reason": "Names the professional-incentive alternative the standard requires and limits the argument to what incentives cannot explain."
+		},
+		{
+			"passage": "And no wing is asserted here. The warmth toward a few people and the phone gesture would suggest 3w2, the neon-and-long-hair drive to be different would suggest 3w4, and the evidence does not settle it.",
+			"reason": "Refuses a convenient wing on thin evidence. No arrows are used anywhere to explain away contradictions, which is the right call."
+		},
+		{
+			"passage": "He does not want to be called a showman. He also wants the freedom to put on a show. Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"reason": "A sourced contradiction left standing rather than resolved by type vocabulary."
+		}
+	],
+	"assessment": "The draft is honest about incentives, the coach-father witness, and the Zverev counterexample, and it refuses a convenient wing or arrow. The Enneagram case still does not beat a seriously tested alternative. The discriminator built to beat Type 7 (evaluation as burden, its removal as relief, fear of letting down people who count on him, the underdog chair, loyalty to a small circle) is the shape of a counterphobic Type 6 self-report, and Type 6 is never tested; the Type 3 definition has been worded so the Melbourne quote fits it. The behavioral record also undercuts the self-report the article is titled on: his best major results came on Arthur Ashe in front of his most supportive crowd. Two supporting discriminators (boredom versus watching others advance; grading wins by how they look) do not separate 3 from 7 as claimed, and the father's energy/extrovert description is treated as non-3 when it fits 3 as well as 7. One note for the editor: the Zverev refusal fails the 3 test as the draft says, but the way he closed it (\"I know everybody wants that to be the story\") is narrative control and modestly supports 3; the draft could say so. None of this shows the type is wrong; medium confidence is defensible only once 6 is tested against a sourced discriminator. Similarity diagnostic did not trip; the top pairs are ordinary Type 3 definitional vocabulary with no shared argument or phrasing, so no reuse finding. I did not reopen sources; this review works from the frozen packet's verbatim excerpts."
+}

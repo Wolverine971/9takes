@@ -1,0 +1,60 @@
+{
+	"schema_version": 3,
+	"subject": "ben-shelton",
+	"content_sha256": "8332ea2000f8ea73396031a1a10faf1eb4a3899caa18c9205a65b40f5557540f",
+	"expanded": true,
+	"artifacts": {
+		"baseline": {
+			"file": "baseline.md",
+			"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+		},
+		"research": {
+			"file": "evidence.json",
+			"sha256": "14dc64faa36ed5d98e1deb9e69bb41cbf171a5ad6f405028fbb550084e253d41"
+		},
+		"draft": {
+			"file": "draft.md",
+			"sha256": "02fca6fdddcad85fc5d3757485dbafb2169708c0c79a608c00897e804ac79e8d"
+		},
+		"draft_evidence": {
+			"file": "evidence-draft.json",
+			"sha256": "9de60226f5c53423c31763808344ac07afdec900a9bf9b7072e7223552dcc5f9"
+		},
+		"evidence": {
+			"file": "evidence-repair.json",
+			"sha256": "eec8974e0a99e4ece5756c2734b5155f7dc43d45cd9f8d2c8c902fccc2809785"
+		},
+		"resolution": {
+			"file": "resolution-repair.json",
+			"sha256": "35796260b7bffdda8bdb078b589d94dfdd4f8be8eba136a2f7f437510268cdfb"
+		},
+		"verification": {
+			"file": "verification-repair.json",
+			"sha256": "44e8c83f481f55bc894bbf5a88241bbbf27784ff2b30cfb29726dd638806347b"
+		},
+		"review-subject": {
+			"file": "review-subject.json",
+			"sha256": "d8a79993719362536fcf8b6dcd28d588ef45e52ba8907b7828d11be104906182"
+		},
+		"review-fan": {
+			"file": "review-fan.json",
+			"sha256": "e8b8242738c8a44da4ada1697b38592eda3c51805e2adfc70b297e4967016f31"
+		},
+		"review-critic": {
+			"file": "review-critic.json",
+			"sha256": "13aa475651b4eb99f3e11970ae82db3c9548f963640d3db4b6a78afcd85fc2a5"
+		},
+		"review-unfamiliar": {
+			"file": "review-unfamiliar.json",
+			"sha256": "f6e9e18f50964a5035c45be61471a4fe27c8f8b7c9340b1f1adda62d259bd3dc"
+		},
+		"review-enneagram": {
+			"file": "review-enneagram.json",
+			"sha256": "93ac2194365393d9631b991055b20b8bcac0554b2bd051706a8ee04a1b540719"
+		},
+		"review-future": {
+			"file": "review-future.json",
+			"sha256": "c1a8652d2df4e05f7e703c3e3e0a25a442f4fc58c8c8760bd5bbd913e55b02ef"
+		}
+	}
+}

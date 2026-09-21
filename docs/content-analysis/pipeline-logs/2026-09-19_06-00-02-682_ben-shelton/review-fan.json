@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "fan",
+	"content_sha256": "f24058ec705862cdc5b50d69f088e7cec1d006f035f32e2c9d124d1cbea7e6fc",
+	"evidence_sha256": "202adeee7f631175aef758ac1adf966ac61826ab370cf9cedcebb68ddcd91b5f",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "fan-01",
+			"severity": "major",
+			"passage": "Two days later, after losing the semifinal to Jannik Sinner, he skipped the on-court interview and let the air out.",
+			"problem": "Losers do not get an on-court interview at a Grand Slam semifinal. The transcript line (S03, reopened), 'Yeah, obviously I didn't do any on-court interview today (smiling)', is a wry aside about having lost, not a boycott. Djokovic had actually refused an on-court interview that same week over the Tony Jones remarks, so 'skipped the on-court interview' credits Shelton with a protest gesture he never made and inflates the 'made his point... then declined to keep fighting' beat.",
+			"acceptance_test": "Delete 'skipped the on-court interview'. If the line is kept at all, render it as his joke about losing (he noted, smiling, that 'obviously' he had done no on-court interview that day) and let the de-escalation rest on the 'understanding, supportive' and 'cumulative stacking up' quotes, which S03 supports verbatim."
+		},
+		{
+			"id": "fan-02",
+			"severity": "major",
+			"passage": "One father remark, a Tennis Temple headline quoting Bryan that \"there are times he sabotages himself,\" could not be opened at its source.",
+			"problem": "The remark is available in at least three relays of Bryan Shelton's Tennis Insider Club interview with Caroline Garcia: Puntodebreak (Andrés Tomás Rico, July 22, 2026, https://www.puntodebreak.com/en/2026/07/22/sheltons-father-gives-homework-to-his-son-there-are-times-when-he-exceeds-that-limit-of), Tennis365 (Liam McMillen, July 23, 2026, https://www.tennis365.com/tennis-news/ben-sheltons-coach-explains-reason-early-exits-in-tournaments) and TennisUpToDate (Samuel Gill, July 23, 2026). Fuller wording per Puntodebreak: 'As a coach, that's the challenge, to work with a guy like Ben, who is very aggressive. But there are times when he crosses that line and sabotages himself, not making it to the second or third round of the tournament.' The relays appeared the day the 19-minute 'Insight' cut (S20) was released; the full episode, 'E35 - Bryan Shelton', was released August 25, 2025 (1h10m), which also resolves the Meg Jay dating discrepancy in research task 2. The cost Bryan names is over-aggression producing early exits, direct counterevidence to the composed 'blinders on' arc and material to the Type 7 appetite case. The draft twice tells the reader this evidence is missing (here and in 'Two cautions') when it is not.",
+			"acceptance_test": "Open at least one relay (or listen to the Insight episode, S20, 19 minutes) and quote the remark with speaker, outlet and date in 'What neither type explains' or 'The case for Type 7'; rewrite this intro caveat and the 'Two cautions' paragraph so they no longer say the remark could not be opened; if the '5 or 10%' quote is confirmed in E35, date the podcast (August 25, 2025) in the 'Five or ten percent' paragraph; add the new source and claim to the evidence file with the relay wording differences noted."
+		},
+		{
+			"id": "fan-03",
+			"severity": "minor",
+			"passage": "Offered a place on a list with Andre Agassi and Rafael Nadal as back-to-back Canadian champions, he declined it",
+			"problem": "Nadal never won consecutive Canadian titles (2005, 2008, 2013, 2018). The names came from the reporter's question, and Shelton himself doubted them on the spot (S10, reopened: 'Wait. So the guys who went back to back here was Agassi and Nadal?... on court they said Murray and a few others'). Stated in the author's voice, the error will be caught by any tennis reader. 'He declined it' also drops the first half of his answer, 'It's an elite group to be a part of, even if it's just one category', which is the sharper Type 3 detail: he accepts the narrow record and refuses the broader stature.",
+			"acceptance_test": "Attribute the Agassi/Nadal names to the reporter's question or replace them with names checked against ATP tournament history (do not assert a list without verifying it); quote 'It's an elite group to be a part of, even if it's just one category' before 'Obviously I'm nowhere near that' so 'declined' matches what he actually did."
+		},
+		{
+			"id": "fan-04",
+			"severity": "minor",
+			"passage": "Start with the Melbourne answer, because it came before anyone had media-trained him and because it names the mechanism.",
+			"problem": "'Before anyone had media-trained him' is asserted, not shown. By January 21, 2023 he had three seasons in an SEC program with media duties, an NCAA title, an August 2022 Cincinnati run that drew national coverage, a US Open main draw and five months of pro press. The same overreach appears in 'it is the first time on record that he manages how something reads': the ESPN line is only the earliest item in this packet. Both sentences carry weight in the claim that the Melbourne answer is the part 'the incentives do not explain'.",
+			"acceptance_test": "Replace both with dated, relative claims the record supports (e.g. 'the earliest extended statement in the record, five months into his pro career' and 'the earliest line in this record where he manages how something reads'), or cite a source establishing that he had no media coaching before Melbourne."
+		},
+		{
+			"id": "fan-05",
+			"severity": "minor",
+			"passage": "He played for his father at Florida, won the 2022 NCAA singles title, and turned professional on August 23, 2022.",
+			"problem": "The section is about the choices that shaped him, but the trigger for this one is missing. He had said he planned to return to Florida; a wildcard run at the Cincinnati Masters the week of August 15, 2022, including a win over world No. 5 Casper Ruud while still an amateur, changed the plan and is why the ESPN profile (S16, ranking 1,829 to 171) exists. It is the first documented case of a big stage moving his decisions, which is the pattern the portrait is built on.",
+			"acceptance_test": "Add one dated sentence on the Cincinnati run and its effect on the turn-pro decision, sourced to S16 if it contains it or to a tour report otherwise, and add the claim to the evidence file."
+		},
+		{
+			"id": "fan-06",
+			"severity": "minor",
+			"passage": "His losses run the same two-step every time: a precise autopsy, then a pivot inside the same answer.",
+			"problem": "'Every time' rests on three transcripts from January 2025 to September 2026. The record has no 2024 statement at all, and 2024 is the year a fan would test: a plateau season (Houston title, fourth-round exits at Wimbledon and the US Open, the latter a five-set loss to Tiafoe on Ashe) with no big result to pivot toward. The same gap sits under 'The chaser's chair was his in 2023, 2025 and 2026', and the 'seven career titles' count never names Tokyo 2023 or Houston 2024, so the arithmetic does not close for a reader.",
+			"acceptance_test": "Either add one dated 2024 post-loss statement (e.g. the September 2024 US Open press conference after the Tiafoe loss) that shows the same autopsy-then-pivot shape, or narrow 'every time' to the dated transcripts in the record; name the first title (Tokyo, October 2023) once so the title count adds up."
+		},
+		{
+			"id": "fan-07",
+			"severity": "minor",
+			"passage": "On September 6, 2023, in his first full season, he beat Frances Tiafoe in a US Open quarterfinal on Arthur Ashe Stadium, put a hand to his ear, and hung up the phone.",
+			"problem": "Two small distortions of well-known material. The match was the Tuesday night session of September 5, 2023 and finished late; ASAP dates the press conference September 6 and several outlets filed on September 6, but most match reports say Tuesday, September 5, so the bare date will read as wrong to fans (the FAQ repeats it). 'Put a hand to his ear' also blurs two different gestures: the cupped-ear 'I can't hear you' taunt the Melbourne reporter asked about (S13, reopened) and the phone-to-ear-then-hang-up celebration; the opening describes the first and this sentence describes the second in the same words.",
+			"acceptance_test": "Date the match 'the night of September 5, 2023' (or 'in the early hours of September 6') in body and FAQ, keep 'two days later' only if the dates still agree, and describe the phone gesture as a phone held to the ear and hung up so it is not confused with the cupped-ear taunt."
+		},
+		{
+			"id": "fan-08",
+			"severity": "minor",
+			"passage": "The 2026 season removed the \"not elite\" verdict: Dallas in February, a clay title in Munich in April, a grass title in Stuttgart in June, Montreal defended in August.",
+			"problem": "The season is presented as an unbroken climb. Shelton himself called it 'a roller coaster year' in the Montreal semifinal press conference (S11, already in the evidence file but unused), and the Tennis365 relay of the father's 'sabotages himself' remark frames it against 2026 early exits at Indian Wells (third round), Miami (second round) and Wimbledon (first round). If those exits are confirmed, the paragraph omits the results the father's one adverse remark explains, and the 'not elite' rebuttal looks cleaner than the year was.",
+			"acceptance_test": "Verify the 2026 Indian Wells, Miami and Wimbledon results on atptour.com; if confirmed, add one sentence naming them alongside the titles and quote 'roller coaster year' (S11) so the season reads as he described it; if not confirmed, record the check in the evidence file."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "So the crowd is what keeps him going, and the crowd's approval is what ties him up. That is the puzzle this profile works on: a player who wants the biggest stage in the sport and plays best when nobody in the building expects anything of him.",
+			"reason": "States the observed contradiction in one breath from two dated quotes; it is the spine of the article and specific to Shelton."
+		},
+		{
+			"passage": "He does not want to be called a showman. He also wants the freedom to put on a show. Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"reason": "An honest, sourced contradiction left open instead of being explained away by a wing."
+		},
+		{
+			"passage": "Boredom would be a Seven's pain. Watching others advance is a Three's.",
+			"reason": "The discriminator compressed to his own words about sitting at home; the sharpest sentence in the type argument."
+		},
+		{
+			"passage": "Two things about this matter for what follows. The most direct description of his temperament comes from a coach-father who is not a neutral witness. And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"reason": "Discounts the strongest-looking evidence before using it; informed readers will trust the argument more for it."
+		},
+		{
+			"passage": "The energy his father describes is aimed at a few people and at stadiums, and at very little in between.",
+			"reason": "A specific, verified social profile that resists the 'extrovert' label; not type boilerplate."
+		}
+	],
+	"assessment": "Informed-reader pass. The portrait is built on the right material (the January 2023 Melbourne crowd answer, the chaser self-story across 2023-2026, the showman contradiction) and the author discounts the press-conference register honestly. Spot-checks against the ASAP transcripts (S03, S04, S08, S10, S13, reopened via curl) confirmed the quotations and dates, with two fidelity problems: 'skipped the on-court interview' turns a joke about losing into a protest, and the Agassi/Nadal list repeats a reporter's error while cutting the half of the answer that best supports Type 3. The largest gap is that the one adverse father remark the draft twice calls unopenable is available in three July 2026 relays of the Tennis Insider Club interview and names a concrete cost (aggression crossing the line into early exits); with it, and with the 'roller coaster year' quote already in S11, the 2026 section should stop reading as a clean ascent. Missing formative context: the August 2022 Cincinnati run that produced the turn-pro decision, and any 2024 data point. The podcast date discrepancy resolves as E35 (August 25, 2025) versus the July 22, 2026 Insight re-cut. The phone celebration's debut after the Tiafoe match checks out (USOpen.org, September 6, 2023). Similarity advisory not tripped; the top pairs are generic Type 3 definitional sentences with no shared argument or phrasing, and the Shelton-specific details are distinctive. Risks unchanged: contested typing stays flagged; nothing found changes the thesis."
+}

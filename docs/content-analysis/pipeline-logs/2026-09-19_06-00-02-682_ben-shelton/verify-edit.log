@@ -1,0 +1,37 @@
+The verify-edit stage is complete. I wrote one file, `verification-edit.json`, in the run directory. It parses against the contract schema, and the deterministic decision on it returns exactly two blockers, both intended: `verification:revise` and `overall_below_8.5:8.4`. No other files were modified and nothing was published.
+
+**What I verified**
+
+- Reopened all 41 sources myself. 34 opened by direct fetch; the five ESPN and ATP pages that block curl opened through the fetch tool; only the unused Tennis Temple headline stayed unavailable. Every quotation in the body and FAQs was matched against the retrieved text, and I read the four load-bearing transcripts (Melbourne 2023, US Open final 2026, Montreal 2026, Australian Open 2025) in full.
+- All 90 claims are supported or qualified, none unsupported. The 50 review decisions are all accepted against their acceptance tests, and all 22 protected passages are preserved. Where the editor changed a protected passage, I independently agreed the removed detail was unsupported (the "plays best when booed" performance claim, the "boredom vs. watching others advance" discriminator, and the phantom 2025 chase statement).
+- Coverage, metadata consistency, alternative typing (Type 7 and Type 6 both seriously tested) and the five-year test all pass.
+
+**Why the status is revise rather than pass**
+
+Six minor, repairable wording findings, none affecting the thesis:
+
+1. Two quotations splice non-contiguous sentences without an ellipsis (the January 2025 "showman" answer drops two sentences about Monfils; the Djokovic reply drops "if you win the match, you deserve to do whatever you want").
+2. The ESPN "portray that I was calm" line is truncated mid-sentence, and it carries the Type 3 vs. Type 6 discriminator.
+3. Bryan Shelton's "sabotages himself" remark is quoted in an auto-translated relay's wording that differs from Tennis365's English transcription.
+4. Three unsupported precisions: "neon at 12", Djokovic's imitation "at the net", and "a week later" for the GQ interview.
+5. The final's score cites a Sports Illustrated piece written before the final; the ranking still cites Wikipedia although the live ATP page now opens and confirms No. 4.
+6. Length sits at the ceiling, with the same three exhibits re-listed in four sections.
+
+**Scores**
+
+| Dimension | Score |
+| --- | --- |
+| Evidence | 8.4 |
+| Enneagram | 8.0 |
+| Originality | 8.7 |
+| Writing | 8.2 |
+| Durability | 9.0 |
+| Hook | 9.0 |
+| Discoverability | 8.5 |
+| Overall | 8.4 (B) |
+
+Enneagram sits at the gate because the Type 3 case rests on self-reported feeling and framing rather than repeated costly choices, which the article itself admits. The Type 7 discriminator is specific, sourced and repeated, and the medium-confidence label is honest.
+
+**Next**
+
+The pipeline's optional targeted repair can address the six findings. Fixing the quotation fidelity items would most directly lift the evidence score. I also recorded four research tasks, including that the March 2025 father interview's original outlet is Vogue, which closes an open task from the edit stage.

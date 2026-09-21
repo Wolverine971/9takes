@@ -1,0 +1,16 @@
+The critic review stage is complete. I wrote one file, `review-critic.json`, in the Ben Shelton run directory. It validates against the runner's review schema, copies the role and both hashes from the request, and every finding and protected passage is an exact substring of the frozen draft. Nothing else was modified or published.
+
+**What I found.** The draft is honest about its limits and gives Type 7 a fair hearing, but the passages that carry the Type 3 thesis are over-read. I reopened the ASAP transcripts behind the key quotes and found the context cuts against the draft in several places:
+
+- **The discriminator quote is truncated.** In the 2023 Melbourne transcript, the reporter's question was explicitly about college crowds, Shelton said the atmosphere was "similar" to college, and right after "I enjoy that hostile atmosphere" he added that no one cheering is "a little bit bitter" but "motivates you." The draft omits all of this, and its "before anyone had media-trained him" claim has no source.
+- **"Boredom would be a Seven's pain."** The sitting-at-home quote describes missing out, which is the textbook Type 7 pain. In context he framed it as motivation and a wish to be in the action.
+- **Two exchanges are mischaracterized in ways that flatter the thesis.** He did not "decline" the Agassi/Nadal comparison; he called it "an honor, for sure." He did not "cut off the angle" on the Zverev rule; he went on to propose a rule limiting second-serve time.
+- **The 77/61 win-rate split** is presented as measuring "what a big stage does to him" without the best-of-five and draw-size confounds the evidence record itself lists.
+- **The chaser and late-bloomer remarks** were literal descriptions of his ranking and development, given in answer to a question about challenging Sinner and Alcaraz. Reading them as expectation management needs more.
+- **The "showman" contradiction** does not hold. He disowned a label, not celebrations, which he had defended since 2023.
+
+Nine findings total, eight major and one minor. Five passages are protected: the source-limits paragraph, the father-training discount, the incentive discount, the indifference-to-coverage paragraph, and the Djokovic intent attribution.
+
+**Risk flags.** I kept `contested_typing` true. The assessment tells the editor that after repair, medium confidence may honestly become low. The similarity diagnostic did not trip, and the top matches are ordinary Type 3 vocabulary, so no reuse finding.
+
+**What I could not check.** The ATP Dallas article behind the deciding-set record would not load, so that figure was left to the evidence reviewer. The pipeline's hashes are computed on normalized content, which is why the on-disk file hashes differ from the request; I copied the request values as instructed.

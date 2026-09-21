@@ -1,0 +1,20 @@
+{
+	"schema_version": 3,
+	"subject": "ben-shelton",
+	"mode": "create",
+	"role": "enneagram",
+	"root": "/Users/djwayne/9takes",
+	"command_file": "/Users/djwayne/9takes/.claude/commands/blog_review_people_v3.md",
+	"standard_file": "/Users/djwayne/9takes/docs/writing-system/people-profile-standard.md",
+	"contract_file": "/Users/djwayne/9takes/scripts/lib/blogEditorial.js",
+	"inputs": {
+		"draft": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/draft.md",
+		"evidence": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/evidence-draft.json",
+		"similarity": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/similarity.json"
+	},
+	"outputs": {
+		"review-enneagram.json": "/Users/djwayne/9takes/docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-enneagram.json"
+	},
+	"content_sha256": "f24058ec705862cdc5b50d69f088e7cec1d006f035f32e2c9d124d1cbea7e6fc",
+	"evidence_sha256": "202adeee7f631175aef758ac1adf966ac61826ab370cf9cedcebb68ddcd91b5f"
+}

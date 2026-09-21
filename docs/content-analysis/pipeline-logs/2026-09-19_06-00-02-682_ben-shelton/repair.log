@@ -1,0 +1,27 @@
+The repair stage is complete. All three requested outputs are written to the run directory and pass the contract checks. No inputs were modified and nothing was published.
+
+**Outputs**
+
+- `repair.md`: 4,388 words, zero machine blockers, unpublished, `date`, `lastmod`, `loc` and `person` preserved, runner-owned `editorial_workflow` omitted.
+- `evidence-repair.json`: 42 sources (one new) and 93 claims (one removed, four added), every passage matched to the article surface, status `ready`.
+- `resolution-repair.json`: all 50 original review findings carried forward plus decisions on the six verification findings, all 22 protected passages recorded, no inherited blockers.
+
+**What the repair fixed, with sources reopened today**
+
+- **verify-01**: Both silently joined quotations now print the omitted sentences. The Monfils "GOAT" lines are restored in the January 2025 answer, and "if you win the match, you deserve to do whatever you want" is restored in the Djokovic answer.
+- **verify-02**: The ESPN sentence now ends "and I had things under control" in the body, FAQ 3 and the Type 6 section. The C69 passage and S16 record were updated to match.
+- **verify-03**: Bryan Shelton's "sabotages himself" remark is now quoted in Tennis365's English transcription and attributed that way. The audio check remains an open research task.
+- **verify-04**: "Neon at 12" became "neon as a kid," "at the net" became "after closing out the win," and the GQ remark is dated to the Sports Illustrated relay. Sportskeeda's text names Vogue as the original outlet, so the attribution now says so.
+- **verify-05**: The final's result cites the September 13, 2026 transcript. The ranking sentence cites the live ATP table, opened through the fetch tool and showing No. 4 with 4,680 points.
+
+**Where the repair fell short**
+
+The trim landed at 67 words net, not the 500 to 900 the verifier asked for. The structural asks were all applied: the three Type 3 exhibits are quoted once with back-references in the Type 7 and Type 6 sections, the dense Type 6 section is split into three paragraphs, the "wants" and "hurts" paragraphs are merged, and "this profile" hedges in the body dropped from seven to four. A larger cut would have removed inventoried claims or reviewer-protected passages that the same acceptance test requires to stay. The resolution states this plainly with the exact figures, so the next verifier can judge it.
+
+**Not verifiable this run**
+
+- The podcast audio for both Bryan Shelton remarks was not opened.
+- The original Vogue and GQ interviews were not opened.
+- The ATP results pages still return 403 to curl, so the 2026 Indian Wells and Miami results rest on Tennis365 and the wire reports.
+
+The next stage is independent verification against `verification-repair.json`.

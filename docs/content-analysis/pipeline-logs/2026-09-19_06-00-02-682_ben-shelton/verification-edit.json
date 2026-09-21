@@ -1,0 +1,1162 @@
+{
+	"schema_version": 3,
+	"content_sha256": "eb964cbad123784d51d15e7a0302ca6f0622a5a0a5ce49c89eaa32207c4eb326",
+	"evidence_sha256": "8e010b918f32d023cd0151e0f684dba913126537b9e45df8e1f36da2a9961a7c",
+	"status": "revise",
+	"findings": [
+		{
+			"id": "verify-01",
+			"severity": "minor",
+			"passage": "I love being out there, and that energy comes out at times. No, I see myself a little bit different out there.",
+			"problem": "Two quotations run non-contiguous sentences together without an ellipsis. In S02 the sentences 'In terms of showman, Gael is the GOAT. He will always be the GOAT.' sit between 'comes out at times.' and 'No, I see myself...'; in S05, 'You know, I think if you win the match, you deserve to do whatever you want.' sits between 'can't celebrate.' and 'As a kid growing up...'. Meaning is unchanged in both cases, but the standard does not allow silent rewriting of quotations, and subject-03 was specifically about an omission inside the first of these.",
+			"acceptance_test": "Each quotation either marks the omission with an ellipsis, is split into two separately attributed quotations, or restores the omitted sentence(s); C14 and C54 passages updated to match."
+		},
+		{
+			"id": "verify-02",
+			"severity": "minor",
+			"passage": "Fake it till you make it, right? I wasn't feeling the calm out there, but I was trying to portray that I was calm.",
+			"problem": "S16 continues '...portray that I was calm and I had things under control.' The article ends the sentence at 'calm.' with a full stop, presenting a truncated sentence as complete. This line carries the Type 3 versus Type 6 discriminator, so its wording should be exact.",
+			"acceptance_test": "Restore 'and I had things under control' or close the quotation with an ellipsis, in body and FAQ 3; C69's passage updated to match."
+		},
+		{
+			"id": "verify-03",
+			"severity": "minor",
+			"passage": "As a coach, that's the challenge, to work with a guy like Ben, who is very aggressive. But there are times when he crosses that line and sabotages himself, not making it to the second or third round of the tournament.",
+			"problem": "The quoted wording is Puntodebreak's automatic English translation of a Spanish relay of English-language audio. Tennis365's English transcription of the same remark reads 'working with a guy like Ben' and 'and doesn't make it to the second or third round'. The substance agrees across both relays, but the article presents one relay's wording as Bryan's exact words, and the same sentence is paraphrased in FAQ 2.",
+			"acceptance_test": "Quote the Tennis365 wording (an English transcription of English audio), or add phrasing that signals the words are as relayed, or confirm the exact words against the E35 audio (August 25, 2025) or the July 22, 2026 Insight cut and cite that; C98 updated to match."
+		},
+		{
+			"id": "verify-04",
+			"severity": "minor",
+			"passage": "from neon at 12 to a signature celebration on Ashe at 20",
+			"problem": "Three small additions of precision the opened sources do not give: Bryan's neon remark is dated only 'As a kid' (S18), not age 12 (and 'even then' in the quarterback section ties it to the same age); S23 places Djokovic's imitation 'After closing out Shelton', not 'at the net'; and 'A week later Bryan told GQ' dates the GQ interview, when only the Sports Illustrated relay (September 15, 2023) carries a date.",
+			"acceptance_test": "'neon as a kid' (and 'even then' dropped or reworded), 'after the match' or 'after closing out the win' for the Djokovic imitation, and 'within a week, in a GQ interview relayed by Sports Illustrated on September 15, 2023' or equivalent; C08 and C30 reasons updated."
+		},
+		{
+			"id": "verify-05",
+			"severity": "minor",
+			"passage": "on September 13, 2026, Zverev beat him in it, 6-3, 7-6, 5-7, 6-2. ([Sports Illustrated, September 13, 2026]",
+			"problem": "The inline citation for the final's result points to the Sports Illustrated piece, which was written before the final ('will face Alexander Zverev') and does not report the score; the result is supported by S08's transcript header and S31. Separately, the September 14, 2026 ranking still cites Wikipedia; the live ATP rankings page was reachable through the fetch tool on 2026-09-20 and shows Shelton at No. 4.",
+			"acceptance_test": "Cite the September 13, 2026 press-conference transcript (or an ATP/AP match report) at the result sentence, keeping S21 for the semifinal and first-final facts; cite atptour.com rankings for the September 14, 2026 list and update C36/C89 and the citations list."
+		},
+		{
+			"id": "verify-06",
+			"severity": "minor",
+			"passage": "The test for any passage in this article is whether it works when his motive is \"be seen to deliver\" and fails when it is \"avoid pain and keep options open.\"",
+			"problem": "At 4,455 words the article sits 45 words under the mechanical ceiling and well above the 2,000-3,500 target. The same three Type 3 exhibits (the Melbourne answer, 'I'm not expecting a ton from myself', the chaser's chair) are re-listed in the Type 3 case, the Type 7 discriminator paragraph, the Type 6 section and the self-test paragraph, and the 'this profile reads / does not pretend' hedges accumulate in the last third. This is a pacing cost, not an error.",
+			"acceptance_test": "A trim of roughly 500-900 words that keeps every sourced discriminator, the counterevidence, the Type 6 test and all protected passages, and lists the three exhibits in full once with back-references elsewhere."
+		}
+	],
+	"research_tasks": [
+		"Confirm Bryan Shelton's exact wording for 'I probably give Ben about 5 or 10%... I wait' and 'there are times when he crosses that line and sabotages himself' against the audio: Tennis Insider Club E35 (August 25, 2025, 1h10m), the Tennis Insider Club YouTube video 'Bryan Shelton: Raising a Champion the Right Way' that Meg Jay's post links, or the July 22, 2026 Insight cut (19 min). Adjust the quotations and cite the audio.",
+		"Open the original Vogue interview (March 2025, ahead of Indian Wells) that Sportskeeda relays for the 'Our family is very conservative' quotation; the fetched Sportskeeda text names Vogue as the outlet, which closes the stripped-hyperlink task.",
+		"Find and date the September 2023 GQ interview behind Bryan Shelton's 'He wants to be loved so much' remark so the article can date the interview rather than the Sports Illustrated relay.",
+		"Replace the Wikipedia citation for the September 14, 2026 ranking with atptour.com when the runner can open it; the live page was reachable via the fetch tool on 2026-09-20 and showed No. 4 with 4,680 points."
+	],
+	"claim_checks": [
+		{
+			"claim_id": "C01",
+			"verdict": "supported",
+			"reason": "S31 (opened) gives birth October 9, 2002 in Atlanta and 'His sister Emma played college tennis at Florida'; S33 (opened) gives the October 9, 2002 birthday; S21 (opened) gives Bryan's Florida tenure; S04 and S16 place him in Gainesville."
+		},
+		{
+			"claim_id": "C50",
+			"verdict": "supported",
+			"reason": "S21 (opened): 'climbing as high as No. 55' and 'the first Black American man since Arthur Ashe in 1978 to win an ATP Tour singles title'."
+		},
+		{
+			"claim_id": "C02",
+			"verdict": "supported",
+			"reason": "S15 (opened) opens with the exact quotation; S16 (fetch tool, 2026-09-20): 'He was a quarterback for his middle school team' and 'At age 12, a switch flipped'; S18 (opened) has Bryan crediting Emma's travel. 'around 11 or 12' is a fair span."
+		},
+		{
+			"claim_id": "C30",
+			"verdict": "supported",
+			"reason": "S18 (opened, Sportskeeda, March 5, 2025) quotes Bryan verbatim ('As a kid, Ben just liked doing things his own way. Our family is very conservative, and everything he wore had to be neon. He wanted his hair to be long. He just wanted to do things differently.'). The fetched text names the original outlet as Vogue, which resolves the open research task. The article's 'even then' and the later 'neon at 12' add an age the source ('As a kid') does not give; see verify-04."
+		},
+		{
+			"claim_id": "C03",
+			"verdict": "supported",
+			"reason": "S16 (fetch tool): 'When Shelton was 16, he asked his father about traveling abroad... \"Ben, are you the best player in the U.S.?\" When Ben said no... This guidance kept Shelton based in Gainesville, allowing him to focus on education and training.'"
+		},
+		{
+			"claim_id": "C05",
+			"verdict": "supported",
+			"reason": "S16 (fetch tool): 'I had to earn my spot in the lineup even more so than anyone else' and the August 23, 2022 date; S23 (opened) calls him 'the 2022 NCAA singles champion'; S31 infobox: turned pro 2022."
+		},
+		{
+			"claim_id": "C67",
+			"verdict": "supported",
+			"reason": "S31 (opened): 'faced world No. 5 Casper Ruud... defeated Ruud in straight sets for his first top-10 win'; S16 (fetch tool): 'Shelton breaks Ruud again to win the match 6-3, 6-3' and 'a week before his US Open main draw debut... Shelton is going pro'."
+		},
+		{
+			"claim_id": "C68",
+			"verdict": "supported",
+			"reason": "S16 (fetch tool): 'With the momentum I have going right now, it's a good time for me to [go pro]...'. Ending the quotation at 'for me' preserves the meaning."
+		},
+		{
+			"claim_id": "C116",
+			"verdict": "supported",
+			"reason": "Labelled interpretation ('reads as') with the parent-lineup alternative in the same sentence, as critic-09 and subject-07 required."
+		},
+		{
+			"claim_id": "C69",
+			"verdict": "qualified",
+			"reason": "S16 (fetch tool) reads: 'Fake it till you make it, right? I wasn't feeling the calm out there, but I was trying to portray that I was calm and I had things under control.' The sentences are contiguous, but the article closes the quotation at 'calm.' and drops 'and I had things under control' without an ellipsis. Meaning preserved; wording not exact (verify-02)."
+		},
+		{
+			"claim_id": "C04",
+			"verdict": "supported",
+			"reason": "S12 (opened, January 23, 2023): 'my first Grand Slam outside of the United States' and 'never being out of the United States'; S13 for the booing; turned pro August 23, 2022 (S16/S31) puts January 21, 2023 five months in; born October 2002 gives age 20."
+		},
+		{
+			"claim_id": "C47",
+			"verdict": "supported",
+			"reason": "S13 (opened): 'They kind of set the tone when I walked out on the court, and I got booed (laughing). First time at a pro match that that's happened. I mean, it was unreal.' Header 6-3, 7-6, 6-4."
+		},
+		{
+			"claim_id": "C70",
+			"verdict": "supported",
+			"reason": "S13 (opened): reporter: 'putting your hand to your ear as if \"I can't hear you\" kind of thing. Is that part of playing in college...'; answer verbatim."
+		},
+		{
+			"claim_id": "C10",
+			"verdict": "supported",
+			"reason": "S13 (opened): verbatim, hedges 'maybe' and 'a little bit' preserved, college framing printed in the hook."
+		},
+		{
+			"claim_id": "C71",
+			"verdict": "supported",
+			"reason": "S13 (opened): verbatim continuation; the transcript adds 'So I really liked it', omitted without changing meaning."
+		},
+		{
+			"claim_id": "C11",
+			"verdict": "supported",
+			"reason": "S14 (opened, datePublished 2025-08-28): 'I don't think it's lonely. I feed off crowds... It's the one thing that kind of keeps me going.'"
+		},
+		{
+			"claim_id": "C72",
+			"verdict": "supported",
+			"reason": "Interpretation bounded to 'says he finds it easiest to play free'; both halves quoted from S13 and S14."
+		},
+		{
+			"claim_id": "C73",
+			"verdict": "supported",
+			"reason": "S31 (opened): 2023 US Open semifinal and 2026 final; S41 and S21 place both runs on Arthur Ashe. Framed as the puzzle, not a result claim."
+		},
+		{
+			"claim_id": "C45",
+			"verdict": "supported",
+			"reason": "Interpretation of the source base, checked against the packet: the subject's own words come from ASAP transcripts, a sponsor feature (S15) and a fashion feature (S14); S18's original is a Vogue interview, which reinforces the point."
+		},
+		{
+			"claim_id": "C74",
+			"verdict": "supported",
+			"reason": "S21 (opened): 'That arrangement changed in June 2023. After 11 seasons... Bryan stepped down'; S36/S37 (opened, July 2026) still describe him as coach. time_sensitive with an actionable trigger."
+		},
+		{
+			"claim_id": "C49",
+			"verdict": "supported",
+			"reason": "Body answer, FAQ 1, description and enneagram '3' agree; type_hypothesis type 3, alternative 7, confidence medium; Type 6 tested in its own section."
+		},
+		{
+			"claim_id": "C06",
+			"verdict": "supported",
+			"reason": "S19 (opened, November 5, 2025) quotes Bryan: 'I probably give Ben about 5 or 10% of the tennis knowledge I have... I have a lot more to give, but I wait' and recounts the changeover ('a Grand Slam match, one which he was losing... commentators went on and on about how he obviously needed to step forward'; 'What do you think about moving up?'). Jay attributes the excerpt to a Tennis Insider episode and links a Tennis Insider Club video titled 'Bryan Shelton: Raising a Champion the Right Way' (oEmbed, 2026-09-20). Audio not checked; the '5 or 10%' wording rests on Jay's transcription."
+		},
+		{
+			"claim_id": "C75",
+			"verdict": "supported",
+			"reason": "S38 (opened): E35 published 25 août 2025, 1 h 10 min; S19 dated Nov 05, 2025. Jay's November 2025 post can only refer to the 2025 episode, since the July 2026 cut (S20) did not yet exist."
+		},
+		{
+			"claim_id": "C53",
+			"verdict": "supported",
+			"reason": "Interpretation stated as such; the coaching-by-questions premise is in S19 ('I always try to ask the questions') and S36."
+		},
+		{
+			"claim_id": "C29",
+			"verdict": "supported",
+			"reason": "S17 (opened, November 23, 2023): 'Just high energy, super high energy, emotional at times, you know, fierce competitor' and 'he's an extrovert for sure'."
+		},
+		{
+			"claim_id": "C76",
+			"verdict": "supported",
+			"reason": "Interpretation, hedged ('mildly'), consistent with enneagram-05's acceptance test."
+		},
+		{
+			"claim_id": "C77",
+			"verdict": "supported",
+			"reason": "S41 (opened, datePublished 2023-09-06T05:49Z): 'on Tuesday night'; 'The match ended at around 12:30 a.m. ET on Wednesday'; S04 header September 6, 2023."
+		},
+		{
+			"claim_id": "C07",
+			"verdict": "supported",
+			"reason": "S04 (opened): 'I'm saying I'm dialed in', Grant Holloway at the University of Florida, 'something that connects me to my friends back home'; S23 (opened) describes the landline gesture. No debut claim remains."
+		},
+		{
+			"claim_id": "C78",
+			"verdict": "supported",
+			"reason": "S13 reporter describes a cupped-ear 'I can't hear you' gesture; S23 describes 'making a phone with his right hand... then threw his arm down to signal the hanging up'. Different gestures."
+		},
+		{
+			"claim_id": "C08",
+			"verdict": "qualified",
+			"reason": "S23 (opened): 'I thought it was very original, and I copied him. I stole his celebration' verbatim; S23 says 'After closing out Shelton, Djokovic imitated that very same gesture'. Neither S23 nor S05 places the imitation 'at the net'; that detail is unsupported precision (verify-04)."
+		},
+		{
+			"claim_id": "C79",
+			"verdict": "supported",
+			"reason": "S05 (opened): 'yeah, I didn't see it until after the match'."
+		},
+		{
+			"claim_id": "C54",
+			"verdict": "qualified",
+			"reason": "Both sentences are verbatim in S05 (opened) and S23, but between them Shelton said 'You know, I think if you win the match, you deserve to do whatever you want.' The article runs the two sentences together as one quotation without an ellipsis (verify-01)."
+		},
+		{
+			"claim_id": "C09",
+			"verdict": "supported",
+			"reason": "S22 (opened, September 15, 2023): 'He wants to be loved so much, Novak...' and 'He wanted to mock Ben at the end. It wasn't something he was doing just to copy Ben. It was to mock him.' Attributed to Bryan via GQ; classed disputed; Djokovic's account given."
+		},
+		{
+			"claim_id": "C14",
+			"verdict": "qualified",
+			"reason": "S02 (opened): every quoted sentence is verbatim, but the article joins 'and that energy comes out at times.' to 'No, I see myself a little bit different out there' while omitting 'In terms of showman, Gael is the GOAT. He will always be the GOAT.' with no ellipsis (verify-01)."
+		},
+		{
+			"claim_id": "C80",
+			"verdict": "supported",
+			"reason": "S02 (opened): verbatim, restored per subject-03."
+		},
+		{
+			"claim_id": "C13",
+			"verdict": "supported",
+			"reason": "S02 (opened): the whole closing statement is verbatim; S29 (fetch tool, ESPN January 22, 2025) carries the same quotations."
+		},
+		{
+			"claim_id": "C81",
+			"verdict": "supported",
+			"reason": "S02 (opened): 'I noticed it with Learner Tien in one of his matches.'"
+		},
+		{
+			"claim_id": "C15",
+			"verdict": "supported",
+			"reason": "S14 (opened): 'I definitely don't think it's hokey,' Shelton says. 'It's something about the whole narrative of tennis being a 'gentleman's sport' that I wish would change.'"
+		},
+		{
+			"claim_id": "C56",
+			"verdict": "supported",
+			"reason": "Interpretation; 'defended the right to celebrate since 2023' rests on S05's 'if you win the match, you deserve to do whatever you want'."
+		},
+		{
+			"claim_id": "C82",
+			"verdict": "supported",
+			"reason": "Both quotations dated and verbatim (S02 January 22, 2025; S14 August 28, 2025)."
+		},
+		{
+			"claim_id": "C83",
+			"verdict": "supported",
+			"reason": "Explicitly marked as this profile's reading."
+		},
+		{
+			"claim_id": "C84",
+			"verdict": "supported",
+			"reason": "S12 (opened): verbatim; the context is expectations for his first trip abroad, which the article correctly calls 'a different expectation'."
+		},
+		{
+			"claim_id": "C85",
+			"verdict": "supported",
+			"reason": "S31 (opened): 'two Masters 1000 trophies at the 2025 and 2026 Canadian Opens'; S10 moderator: 'Last year in Toronto, this year in Montreal'; 2023 semifinal and 2026 final on Ashe per S41/S21."
+		},
+		{
+			"claim_id": "C86",
+			"verdict": "supported",
+			"reason": "S15 (opened): 'I think I play some of my best matches in front of the big crowds, I love that whole vibe.'"
+		},
+		{
+			"claim_id": "C41",
+			"verdict": "supported",
+			"reason": "S13 (opened): verbatim, in answer to the Popyrin top-10 question."
+		},
+		{
+			"claim_id": "C20",
+			"verdict": "supported",
+			"reason": "S15 (opened, 2023): 'I know I'm a fairly late bloomer when it comes to tennis'; S10 (opened): the chase quotation verbatim; S10 reporter: 'You didn't drop a set all tournament.'"
+		},
+		{
+			"claim_id": "C57",
+			"verdict": "supported",
+			"reason": "S08 (opened): verbatim; S25 (fetch tool) carries 'I'm a late bloomer. That's just the way that it's always been.'"
+		},
+		{
+			"claim_id": "C87",
+			"verdict": "supported",
+			"reason": "S10 reporter: 'despite rising to sixth'; question named 'the Janniks, Carloses'; S16/S31 for the age-12 start and the 2022 turn."
+		},
+		{
+			"claim_id": "C88",
+			"verdict": "supported",
+			"reason": "S10 (opened): the question says 'you became [the favorite] and the defending champion'; answer verbatim."
+		},
+		{
+			"claim_id": "C89",
+			"verdict": "supported",
+			"reason": "S31 (opened): No. 4 (September 14, 2026); the live ATP singles rankings page (fetch tool, 2026-09-20) shows Shelton 4th with 4,680 points behind Sinner, Zverev and Alcaraz."
+		},
+		{
+			"claim_id": "C21",
+			"verdict": "supported",
+			"reason": "S01 (opened): 'But I'm an addict. I've become more and more addicted...' verbatim; S08: 'it's an addicting feeling being in positions like this'."
+		},
+		{
+			"claim_id": "C23",
+			"verdict": "supported",
+			"reason": "S08 (opened): verbatim."
+		},
+		{
+			"claim_id": "C90",
+			"verdict": "supported",
+			"reason": "Interpretation; S08 continues 'You know, it's motivating... this is the position I want to be in', which fits either reading, as the article says."
+		},
+		{
+			"claim_id": "C24",
+			"verdict": "supported",
+			"reason": "S03 (opened): 'Next time I'm out there with set points, I'm going to hit the ace (smiling)'; S08: 'this one stings 100%. Yeah, it's on to the next.'; S01: second-serve-return autopsy then 'I've become a lot more professional'. Narrowed to the three transcripts."
+		},
+		{
+			"claim_id": "C22",
+			"verdict": "supported",
+			"reason": "Interpretation marked 'On this reading', with the maturation alternative in the same paragraph."
+		},
+		{
+			"claim_id": "C91",
+			"verdict": "supported",
+			"reason": "S01 (opened): verbatim."
+		},
+		{
+			"claim_id": "C92",
+			"verdict": "supported",
+			"reason": "S02 (opened): verbatim."
+		},
+		{
+			"claim_id": "C93",
+			"verdict": "supported",
+			"reason": "S02 (opened): verbatim."
+		},
+		{
+			"claim_id": "C12",
+			"verdict": "supported",
+			"reason": "S04 (opened): verbatim, including '(smiling)'."
+		},
+		{
+			"claim_id": "C38",
+			"verdict": "supported",
+			"reason": "S07 (opened, September 9, 2026): verbatim; S24: 3:33 a.m., 4 hours 28 minutes."
+		},
+		{
+			"claim_id": "C94",
+			"verdict": "supported",
+			"reason": "Checked S03, S08 and S01 (the defeats in the packet): no comparable joy line after a loss."
+		},
+		{
+			"claim_id": "C16",
+			"verdict": "supported",
+			"reason": "S09 (opened): 'to stop when you're serving for the match, isn't as ideal'; header 6-2, 7-5, 6-4 puts the stop at 5-4 in the third; 'It's 70 seconds on court overall today'; umpire quotation verbatim; Hawk-Eye/sunset context."
+		},
+		{
+			"claim_id": "C95",
+			"verdict": "supported",
+			"reason": "S09 (opened): verbatim."
+		},
+		{
+			"claim_id": "C27",
+			"verdict": "supported",
+			"reason": "S08 (opened): the reporter describes him not 'getting down into ready position' while Zverev bounced 'between first and second'; 'stupid rule' verbatim."
+		},
+		{
+			"claim_id": "C96",
+			"verdict": "supported",
+			"reason": "S08 (opened): verbatim."
+		},
+		{
+			"claim_id": "C97",
+			"verdict": "supported",
+			"reason": "S08 (opened): the sentence opens the answer to the fatigue/return-pacing question; he then proposes 'limiting time on second serve' and says 'obviously cumulative... I wouldn't say my tiredness had to do with standing there and waiting'."
+		},
+		{
+			"claim_id": "C98",
+			"verdict": "qualified",
+			"reason": "S36 (opened, July 22, 2026) carries the quoted wording exactly, but S36 is an automatic English translation of a Spanish relay; S37 (opened, July 23, 2026), an English-language transcription, reads 'working with a guy like Ben' and 'and doesn't make it to the second or third round'. Substance agrees; exact words are not established (verify-03)."
+		},
+		{
+			"claim_id": "C99",
+			"verdict": "supported",
+			"reason": "S37 (opened): 'beaten in the third round of Indian Wells and the second round of the Miami Open' and 'first round exit at Wimbledon'; S31: lost to qualifier Otto Virtanen."
+		},
+		{
+			"claim_id": "C58",
+			"verdict": "supported",
+			"reason": "Interpretation; each cited quotation verified (C10, C84, C41, C20, C27)."
+		},
+		{
+			"claim_id": "C100",
+			"verdict": "supported",
+			"reason": "Interpretation; supporting items verified in S15, S08, S02, S09."
+		},
+		{
+			"claim_id": "C28",
+			"verdict": "supported",
+			"reason": "S15 (opened): all three quotations verbatim."
+		},
+		{
+			"claim_id": "C101",
+			"verdict": "supported",
+			"reason": "S08 (opened): verbatim."
+		},
+		{
+			"claim_id": "C102",
+			"verdict": "supported",
+			"reason": "S03 (opened, January 24, 2025 semifinal): verbatim."
+		},
+		{
+			"claim_id": "C103",
+			"verdict": "supported",
+			"reason": "S01 (opened): verbatim."
+		},
+		{
+			"claim_id": "C104",
+			"verdict": "supported",
+			"reason": "S15 (opened): 'I'm not a superstitious ritual guy.'"
+		},
+		{
+			"claim_id": "C105",
+			"verdict": "supported",
+			"reason": "Interpretation; the article states the separation is thinner and names the condition under which Type 6 moves up."
+		},
+		{
+			"claim_id": "C31",
+			"verdict": "supported",
+			"reason": "S18 (opened): the quotation, introduced as said 'last year' in a March 2025 article, so 2024; S34 (opened): 'No, I could care less' and the Instagram-clips answer."
+		},
+		{
+			"claim_id": "C106",
+			"verdict": "supported",
+			"reason": "S34 (opened): verbatim."
+		},
+		{
+			"claim_id": "C107",
+			"verdict": "supported",
+			"reason": "S22 has Bryan's remark; S05 shows Ben's answer stopped at 'that's all I have to say about that'."
+		},
+		{
+			"claim_id": "C59",
+			"verdict": "supported",
+			"reason": "S08 (opened): verbatim."
+		},
+		{
+			"claim_id": "C108",
+			"verdict": "supported",
+			"reason": "S11 (opened): 'I feel like it's been a roller coaster year for me'."
+		},
+		{
+			"claim_id": "C60",
+			"verdict": "supported",
+			"reason": "S27 (fetch tool): Dallas February 15, 2026; S39 (opened): Munich April 19, 2026, 6-2, 7-5; S40 (opened): Stuttgart June 14, 2026, 6-4, 2-6, 6-4; S10: no set dropped in Montreal; exits per S37/S31."
+		},
+		{
+			"claim_id": "C61",
+			"verdict": "supported",
+			"reason": "S26 (fetch tool): Alcaraz had won 'all three of his previous... matches against Shelton'."
+		},
+		{
+			"claim_id": "C62",
+			"verdict": "supported",
+			"reason": "S07 header 6-7, 6-1, 6-3, 1-6, 7-6; S24: 'finished at 3:33 a.m., smashing the previous record'. 'then the latest' keeps it durable."
+		},
+		{
+			"claim_id": "C109",
+			"verdict": "supported",
+			"reason": "S21 (opened): 'his first Grand Slam final after beating Frances Tiafoe in Friday's US Open semifinal'."
+		},
+		{
+			"claim_id": "C65",
+			"verdict": "supported",
+			"reason": "S08 header: A. ZVEREV/B. Shelton 6-3, 7-6, 5-7, 6-2 on September 13, 2026; S31 agrees. The inline citation at this sentence is S21, which was published before the final (verify-05)."
+		},
+		{
+			"claim_id": "C36",
+			"verdict": "supported",
+			"reason": "S31 infobox: No. 4 (September 14, 2026), seven titles; live ATP page (fetch tool, 2026-09-20) shows No. 4."
+		},
+		{
+			"claim_id": "C110",
+			"verdict": "supported",
+			"reason": "S31 (opened): Tokyo October 2023, Houston April 2024, Toronto 2025; S27/S39/S40/S10 for the four 2026 titles."
+		},
+		{
+			"claim_id": "C111",
+			"verdict": "supported",
+			"reason": "S08 (opened): 'I've never felt anything like that before.'"
+		},
+		{
+			"claim_id": "C112",
+			"verdict": "supported",
+			"reason": "'chase' (S10) and 'I feed off crowds' (S14) are his own words."
+		}
+	],
+	"source_checks": [
+		{
+			"source_id": "S01",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, January 28, 2026 (J. SINNER/B. Shelton 6-3, 6-4, 6-4); 'untouchable', 'I'm an addict', 'a lot more professional' verified."
+		},
+		{
+			"source_id": "S02",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, January 22, 2025; red-lining, 70-80%, showman and broadcaster answers verified (the showman answer contains two GOAT sentences the article omits without an ellipsis)."
+		},
+		{
+			"source_id": "S03",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, January 24, 2025 (Sinner semifinal); 'set points... ace' and 'I don't panic' verified."
+		},
+		{
+			"source_id": "S04",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, September 6, 2023; joy-in-pain answer and phone-celebration origin verified."
+		},
+		{
+			"source_id": "S05",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, September 8, 2023; 'didn't see it until after the match' and the celebration answer verified (one sentence omitted mid-quotation in the article)."
+		},
+		{
+			"source_id": "S06",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, August 29, 2025; not cited by any claim."
+		},
+		{
+			"source_id": "S07",
+			"opened": true,
+			"context_matches": true,
+			"locator": "ASAP quick quotes, September 9, 2026, header 6-7, 6-1, 6-3, 1-6, 7-6; 'most enjoyable match' verified."
+		},
+		{
+			"source_id": "S08",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, September 13, 2026, header 6-3, 7-6, 5-7, 6-2; all quoted passages verified in context."
+		},
+		{
+			"source_id": "S09",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, July 4, 2025; umpire exchange, apology offer, gym conversation, 70 seconds verified."
+		},
+		{
+			"source_id": "S10",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, August 13, 2026 (Montreal champion); expectations question, chase answer, no set dropped verified."
+		},
+		{
+			"source_id": "S11",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, August 13, 2026 (Montreal semifinal); 'roller coaster year' verified."
+		},
+		{
+			"source_id": "S12",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, January 23, 2023; 'first Grand Slam outside of the United States' and the expectation line verified."
+		},
+		{
+			"source_id": "S13",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, January 21, 2023; booing, cupped-ear question, crowd answer with 'bitter' continuation, 'not expecting a ton' verified."
+		},
+		{
+			"source_id": "S14",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Highsnobiety feature, datePublished 2025-08-28; 'I feed off crowds' and 'hokey' passages verified."
+		},
+		{
+			"source_id": "S15",
+			"opened": true,
+			"context_matches": true,
+			"locator": "On feature by Louise Hough (2023, age 20 stated); tennis dislike, sister, late bloomer, big crowds, three or four people, concert, partying, ritual quotations verified."
+		},
+		{
+			"source_id": "S16",
+			"opened": true,
+			"context_matches": true,
+			"locator": "ESPN, Aishwarya Kumar, August 23, 2022, opened via the fetch tool (curl returned a 202 challenge); age-16 exchange, Ruud 6-3, 6-3, turn-pro line, lineup line and the 'Fake it' passage verified (the article truncates the last)."
+		},
+		{
+			"source_id": "S17",
+			"opened": true,
+			"context_matches": true,
+			"locator": "EssentiallySports, November 23, 2023, relaying the ATP Tennis Radio podcast; temperament quotations verified."
+		},
+		{
+			"source_id": "S18",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Sportskeeda, March 5, 2025; Bryan's neon/long-hair quotation verified; original outlet named in the text as Vogue; Ben's 'cared less' quotation dated 'last year' (2024)."
+		},
+		{
+			"source_id": "S19",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Meg Jay Substack, November 5, 2025; '5 or 10%... I wait' excerpt and the changeover anecdote verified; links a Tennis Insider Club video."
+		},
+		{
+			"source_id": "S20",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Apple Podcasts episode page: published 22 July 2026, 19 min."
+		},
+		{
+			"source_id": "S21",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Sports Illustrated (On SI), Maggie MacKenzie; Bryan's No. 55, the 1978 Ashe fact, the June 2023 departure after 11 seasons, the Tiafoe semifinal and first Grand Slam final verified; written before the final, so it does not report the result."
+		},
+		{
+			"source_id": "S22",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Sports Illustrated, Zach Koons, September 15, 2023; GQ quotation verified."
+		},
+		{
+			"source_id": "S23",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Tennis.com, Baseline staff, September 8, 2023; Djokovic and Shelton quotations and the gesture description verified."
+		},
+		{
+			"source_id": "S24",
+			"opened": true,
+			"context_matches": true,
+			"locator": "NBC News, September 9, 2026; 3:33 a.m., 4 hours 28 minutes, latest-ever finish verified."
+		},
+		{
+			"source_id": "S25",
+			"opened": true,
+			"context_matches": true,
+			"locator": "ATP staff, September 14, 2026, opened via the fetch tool (curl 403); 'stings', 'addicting feeling', 'sitting at home', 'late bloomer' quotations match S08."
+		},
+		{
+			"source_id": "S26",
+			"opened": true,
+			"context_matches": true,
+			"locator": "ATP staff, September 7, 2026, opened via the fetch tool (curl 403); 6-2, 6-3, 6-4, sixth major quarter-final, 0-3 vs Alcaraz, Montreal Masters verified."
+		},
+		{
+			"source_id": "S27",
+			"opened": true,
+			"context_matches": true,
+			"locator": "ATP, Jerome Coombe, February 15, 2026, opened via the fetch tool (curl 403); 3-6, 6-3, 7-5, three championship points, fourth title, 11-4 verified."
+		},
+		{
+			"source_id": "S28",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Tennis.com, Steve Tignor, February 16, 2026; not cited by any claim."
+		},
+		{
+			"source_id": "S29",
+			"opened": true,
+			"context_matches": true,
+			"locator": "ESPN, Matt Walsh, January 22, 2025, opened via the fetch tool (curl 202 challenge); broadcaster quotations verified."
+		},
+		{
+			"source_id": "S30",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Last Word on Sports opinion column, November 11, 2025; opened; cited only for the shape of the source base."
+		},
+		{
+			"source_id": "S31",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Wikipedia, accessed 2026-09-20; infobox No. 4 (September 14, 2026), seven titles, two Canadian Open Masters titles, 2026 AO quarterfinal loss to Sinner, Wimbledon first-round loss to qualifier Otto Virtanen, Emma at Florida, Ruud win verified."
+		},
+		{
+			"source_id": "S32",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Yahoo/Sporting News, July 7, 2025; not cited by any claim."
+		},
+		{
+			"source_id": "S33",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Official bio page; birthday October 9, 2002 verified; title count stale as the evidence record notes."
+		},
+		{
+			"source_id": "S34",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Full ASAP transcript, May 30, 2025; earpiece answers verified."
+		},
+		{
+			"source_id": "S35",
+			"opened": false,
+			"context_matches": false,
+			"locator": "Tennis Temple headline; HTTP 403 on 2026-09-20; not cited by any claim and superseded by S36/S37."
+		},
+		{
+			"source_id": "S36",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Puntodebreak, Andrés Tomás Rico, 22 Jul 2026; 'sabotages himself' quotation verified in the auto-translated English text; Caroline Garcia interview named."
+		},
+		{
+			"source_id": "S37",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Tennis365, Liam McMillen, 23 Jul 2026; same remark with slightly different English wording; Indian Wells R3, Miami R2, Wimbledon R1 verified."
+		},
+		{
+			"source_id": "S38",
+			"opened": true,
+			"context_matches": true,
+			"locator": "Apple Podcasts (FR) episode page: E35 - Bryan Shelton, 25 août 2025, 1 h 10 min."
+		},
+		{
+			"source_id": "S39",
+			"opened": true,
+			"context_matches": true,
+			"locator": "AP via NBC Sports, published April 19, 2026; 6-2, 7-5 over Cobolli, fifth career title verified."
+		},
+		{
+			"source_id": "S40",
+			"opened": true,
+			"context_matches": true,
+			"locator": "AP via NBC Sports, published June 15, 2026 (final June 14); 6-4, 2-6, 6-4 over Fritz, sixth title, third of the season verified."
+		},
+		{
+			"source_id": "S41",
+			"opened": true,
+			"context_matches": true,
+			"locator": "CBS Sports, datePublished 2023-09-06T05:49Z; Tuesday night, 12:30 a.m. ET Wednesday, 6-2, 3-6, 7-6 (9-7), 6-2 verified."
+		}
+	],
+	"decision_checks": [
+		{
+			"finding_id": "subject-01",
+			"accepted": true,
+			"reason": "Checked: hook 'says he finds it easiest to play free when nobody in the building is for him' with 'His best runs have come at home, on Arthur Ashe Stadium'; FAQ 5 asks why he 'says he plays free'; persona and meta titles and the description carry only his words; the closing reads 'the thing he described in Melbourne, the expectation that comes with being wanted'. No performance claim remains."
+		},
+		{
+			"finding_id": "subject-02",
+			"accepted": true,
+			"reason": "'media-trained' does not appear; the Type 3 case opens on 'the earliest extended statement in this record'."
+		},
+		{
+			"finding_id": "subject-03",
+			"accepted": true,
+			"reason": "The 'Passionate about being out there' sentence is restored verbatim (S02); 'declined the label' replaces 'refused'; 'disowned' is gone. A separate, smaller omission inside the same quotation (the two Monfils GOAT sentences, no ellipsis) is recorded as verify-01."
+		},
+		{
+			"finding_id": "subject-04",
+			"accepted": true,
+			"reason": "'yeah, I didn't see it until after the match' verified in S05 and quoted; 'unbothered' absent; 'it was his father, not Ben, who voiced the grievance in public' matches the record."
+		},
+		{
+			"finding_id": "subject-05",
+			"accepted": true,
+			"reason": "The 'skipped the on-court interview' sentence and the whole 2025 semifinal de-escalation passage are gone from the candidate; the resolution describes a rewritten sentence that was later cut, but the acceptance test (no protest implied) is met by removal. S03 confirms the aside was a joke about losing."
+		},
+		{
+			"finding_id": "subject-06",
+			"accepted": true,
+			"reason": "Remark opened in S36 and S37 by this verifier, quoted once with speaker, outlet and dates beside the 2026 exits; Tennis Temple no longer appears; C48 removed. Wording caveat in verify-03."
+		},
+		{
+			"finding_id": "subject-07",
+			"accepted": true,
+			"reason": "'because it produced results' absent; his S02 tactical account quoted; maturation alternative stated; 'reads as managing how something looks' hedged with the parent-lineup alternative; 'shaped him' gone."
+		},
+		{
+			"finding_id": "subject-08",
+			"accepted": true,
+			"reason": "Apology offer and gym conversation present (S09 verbatim); 'good for the sport' present (S34 verbatim); grocery-store sentence cut; the Zverev passage reports only his own reason and rule critique."
+		},
+		{
+			"finding_id": "subject-09",
+			"accepted": true,
+			"reason": "'first did it' absent; FAQ 4 says he 'explained it the night he beat Frances Tiafoe'; date confirmed by S41."
+		},
+		{
+			"finding_id": "fan-01",
+			"accepted": true,
+			"reason": "Sentence removed with its passage; S03 shows the aside was a joke about losing. Acceptance test satisfied by deletion."
+		},
+		{
+			"finding_id": "fan-02",
+			"accepted": true,
+			"reason": "S36, S37 and S38 opened by this verifier; the remark is quoted in the Type 7 case with speaker, outlet and dates; the intro caveat and 'Two cautions' no longer say it could not be opened; the podcast is dated August 25, 2025. Audio still unchecked (research task)."
+		},
+		{
+			"finding_id": "fan-03",
+			"accepted": true,
+			"reason": "Agassi/Nadal exchange removed entirely; S10 confirms the reporter supplied the names and Shelton questioned them."
+		},
+		{
+			"finding_id": "fan-04",
+			"accepted": true,
+			"reason": "Both absolutes replaced with record-bounded wording."
+		},
+		{
+			"finding_id": "fan-05",
+			"accepted": true,
+			"reason": "Cincinnati sentence added with the S16 quotation and S31 corroboration (C67/C68)."
+		},
+		{
+			"finding_id": "fan-06",
+			"accepted": true,
+			"reason": "'every time' narrowed to three dated transcripts; title count itemised and sums to seven (S31)."
+		},
+		{
+			"finding_id": "fan-07",
+			"accepted": true,
+			"reason": "Match dated 'the night of September 5, 2023' with 'past midnight' press and 'around 12:30 a.m.' (S41); bridge 'Three days later'; phone gesture described distinctly from the cupped ear."
+		},
+		{
+			"finding_id": "fan-08",
+			"accepted": true,
+			"reason": "Exits named beside the titles with 'roller coaster year' (S11); S37 and S31 verified by this verifier; ATP 403 recorded as a task."
+		},
+		{
+			"finding_id": "critic-01",
+			"accepted": true,
+			"reason": "Hook prints the college question, his reply and the 'bitter... motivates you' continuation; the Type 3 case quotes the hedges; media-training claim gone; 'This profile reads that as the Three's fear'."
+		},
+		{
+			"finding_id": "critic-02",
+			"accepted": true,
+			"reason": "The sitting-at-home line now holds both readings and is not used to choose."
+		},
+		{
+			"finding_id": "critic-03",
+			"accepted": true,
+			"reason": "77/61 paragraph cut; no crowd-effect measurement remains ('77' occurs only inside URLs)."
+		},
+		{
+			"finding_id": "critic-04",
+			"accepted": true,
+			"reason": "S08 verified: the passage now reports the physical reason, the 'everybody wants that to be the story' opener, the second-serve time proposal and the cumulative-fatigue answer."
+		},
+		{
+			"finding_id": "critic-05",
+			"accepted": true,
+			"reason": "Passage removed from the Type 3 case; S10 confirms the reviewer's reading."
+		},
+		{
+			"finding_id": "critic-06",
+			"accepted": true,
+			"reason": "Section rebuilt around 'blinders on' (January 2025) versus 'I feed off crowds' (August 2025), both dated and linked; the label/practice pair is stated to reconcile."
+		},
+		{
+			"finding_id": "critic-07",
+			"accepted": true,
+			"reason": "'Each of these is literally true' paragraph present with the literal facts; only the favourite-position statement ('not thinking about it', S10) is used, with 'no single remark proves anything'."
+		},
+		{
+			"finding_id": "critic-08",
+			"accepted": true,
+			"reason": "Results link withdrawn; the S02 red-lining/70-80% account quoted; maturation alternative stated; stereotype pair removed."
+		},
+		{
+			"finding_id": "critic-09",
+			"accepted": true,
+			"reason": "'first time on record' gone; hedged reading with the parent alternative in the same sentence."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"accepted": true,
+			"reason": "Melbourne gesture described as cupping a hand to his ear as if to say 'I can't hear you' with the college link attributed to the reporter; 'Dialed in' states the phone celebration is 'a different gesture'."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"accepted": true,
+			"reason": "Date confirmed by S41; body, FAQ and 'Three days later' agree; 'first did it' removed."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"accepted": true,
+			"reason": "Passage removed; see fan-01."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"accepted": true,
+			"reason": "Semifinal opponent and 'first Grand Slam final' added, sourced to S21 (verified)."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"accepted": true,
+			"reason": "'after beating Carlos Alcaraz' at first mention in body and FAQ 2; 'Both examples are victories' stated."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"accepted": true,
+			"reason": "Highsnobiety attributed and linked at the 'hokey' passage; the 'set points' quote is linked to the January 24, 2025 transcript."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"accepted": true,
+			"reason": "'the one observation that separates the two readings' replaces 'discriminator'; wing and counterphobic defined in place."
+		},
+		{
+			"finding_id": "unfamiliar-08",
+			"accepted": true,
+			"reason": "Serving-plan habit removed from FAQ and body."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"accepted": true,
+			"reason": "'The case for Type 6' tests the counterphobic reading with the sourced items and names a discriminator (S03 'I don't panic', S01 'untouchable', S16 'portray that I was calm', S15 'not a superstitious ritual guy'); answer and FAQ name Type 6; confidence stays medium; the section states its separation is thinner. I agree the discriminator is real but thin, and it is honestly labelled."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"accepted": true,
+			"reason": "Type 3 definition now reads 'being exposed as a failure, worth nothing apart from the result'; the fear sentence is an explicit reading; FAQ 5 says 'reads the pattern, not the result'."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"accepted": true,
+			"reason": "The Type 3 case confronts the Ashe runs and Masters titles directly, quotes 'best matches in front of the big crowds' (S15), and states the reconciliation ('describes a feeling, not a result'); the bitter line appears with the hook quote; titles and description no longer assert a performance pattern."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"accepted": true,
+			"reason": "Sentence pair rewritten to cut both ways; the 'addict' paragraph says it fits 3 and 7 about equally."
+		},
+		{
+			"finding_id": "enneagram-05",
+			"accepted": true,
+			"reason": "Opener no longer treats energy/extroversion as non-3; only 'emotional at times' is isolated with the reason; 'Seven words' cut."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"accepted": true,
+			"reason": "'the way you win' passage and the Agassi/Nadal disclaimer removed from the Type 3 case."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"accepted": true,
+			"reason": "Causal clause replaced with his stated account; maturation alternative in the same paragraph; reading marked."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"accepted": true,
+			"reason": "S12 line quoted as a dated repeat; media-training clause gone."
+		},
+		{
+			"finding_id": "future-01",
+			"accepted": true,
+			"reason": "Rewritten as 'His father has coached him full time since 2023'; C74 carries the trigger."
+		},
+		{
+			"finding_id": "future-02",
+			"accepted": true,
+			"reason": "S39 and S40 opened and cited inline at the sentence (verified by this verifier); C60 stable."
+		},
+		{
+			"finding_id": "future-03",
+			"accepted": true,
+			"reason": "Remark located and quoted with date and context; no 'could not be opened' prose remains; C48 replaced by C98/C99."
+		},
+		{
+			"finding_id": "future-04",
+			"accepted": true,
+			"reason": "'then the latest finish' present."
+		},
+		{
+			"finding_id": "future-05",
+			"accepted": true,
+			"reason": "Sentence dated ('by September 2026') and tracked as C89; the Wikipedia citation remains because atptour.com returned 403 to the editor. The live ATP rankings page opened for this verifier and shows No. 4, so the swap can be made at repair (verify-05); the substance of the finding is resolved."
+		},
+		{
+			"finding_id": "future-06",
+			"accepted": true,
+			"reason": "Comparative-pain leg removed from the discriminator list; the list now names Melbourne, the S12 repeat, 'not expecting a ton' and the chaser's chair."
+		},
+		{
+			"finding_id": "future-07",
+			"accepted": true,
+			"reason": "Paragraph cut; no undated 'still' judgment remains."
+		},
+		{
+			"finding_id": "future-08",
+			"accepted": true,
+			"reason": "Clause dated: 'a 23-year-old on the 2026 tour, where Sinner and Alcaraz were winning nearly everything'."
+		}
+	],
+	"prior_blocker_checks": [],
+	"protected_checks": [
+		{
+			"passage": "The limits of the evidence matter.",
+			"preserved": true,
+			"reason": "Verbatim in the candidate's fifth paragraph."
+		},
+		{
+			"passage": "That is Bryan's reading of intent. Djokovic's stated account differs, and Ben never adopted his father's version in public.",
+			"preserved": true,
+			"reason": "Verbatim at the end of 'Dialed in'."
+		},
+		{
+			"passage": "Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"preserved": true,
+			"reason": "Verbatim, closing the showman section; it now refers to a pair that genuinely does not reconcile ('blinders on' versus 'I feed off crowds'), which strengthens the contribution the reviewers valued."
+		},
+		{
+			"passage": "The Melbourne answer passes. The Zverev refusal fails. Both belong in the portrait.",
+			"preserved": true,
+			"reason": "Verbatim at the end of the Type 7 section."
+		},
+		{
+			"passage": "is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"preserved": true,
+			"reason": "Verbatim in 'Five or ten percent'."
+		},
+		{
+			"passage": "So the crowd is what keeps him going, and the crowd's approval is what ties him up. That is the puzzle this profile works on: a player who wants the biggest stage in the sport and plays best when nobody in the building expects anything of him.",
+			"preserved": true,
+			"reason": "Changed: the one-breath contradiction and the puzzle framing are intact; 'plays best when nobody in the building expects anything of him' became 'says he finds it easiest to play free when nobody in the building is for him'. I independently agree the original stated a performance pattern the record does not hold (S13 is a self-report; S31/S41/S21 put his best runs on Ashe), so removing it was necessary and the distinctive contribution survives."
+		},
+		{
+			"passage": "He does not want to be called a showman. He also wants the freedom to put on a show. Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"preserved": true,
+			"reason": "Changed: first two sentences and the closing sentence verbatim; the middle now says the label and the practice reconcile and moves the unresolved pair to 'blinders on' versus 'I feed off crowds'. S02 and S14 confirm the new pair; the passage still leaves a real contradiction standing."
+		},
+		{
+			"passage": "Boredom would be a Seven's pain. Watching others advance is a Three's.",
+			"preserved": true,
+			"reason": "Changed: the two-sentence plain-language form is kept ('Missing the party would be a Seven's pain. Being passed would be a Three's.') but the claim that it discriminates is withdrawn. I independently agree: S08's 'sitting at home... watching everyone else run through the draw' describes missing out at least as much as being passed, so the original detail was unsupported; the plain-language contrast the fan and unfamiliar reviewers valued survives."
+		},
+		{
+			"passage": "Two things about this matter for what follows. The most direct description of his temperament comes from a coach-father who is not a neutral witness. And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"preserved": true,
+			"reason": "Verbatim in 'Five or ten percent'."
+		},
+		{
+			"passage": "The energy his father describes is aimed at a few people and at stadiums, and at very little in between.",
+			"preserved": true,
+			"reason": "Verbatim in 'What neither type explains'."
+		},
+		{
+			"passage": "Almost everything he has said on the record comes from tournament press conferences, which reward process, gratitude and improvement, and from sponsor and fashion features, which reward diligence. His father is his coach, so the closest witness is not independent, and Bryan Shelton's remarks reach print mostly through podcasts relayed by aggregators.",
+			"preserved": true,
+			"reason": "Changed: first sentence verbatim; 'His father is his coach' became 'His father has coached him full time since 2023' (S21), which keeps the discount true if the arrangement ends; the rest verbatim."
+		},
+		{
+			"passage": "And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"preserved": true,
+			"reason": "Verbatim in 'Five or ten percent'."
+		},
+		{
+			"passage": "One discount applies to all of it. Press conferences reward exactly this register, and a 23-year-old on a tour where Sinner and Alcaraz win everything will talk about chasing regardless of type.",
+			"preserved": true,
+			"reason": "Changed: first sentence verbatim; only the tour-landscape clause is dated ('on the 2026 tour, where Sinner and Alcaraz were winning nearly everything'); the discount is unchanged."
+		},
+		{
+			"passage": "His indifference to his own coverage sits oddly with an image motive. He does not watch the clips of his father commentating on him. He was uninterested in his father's playing days. When Djokovic mimicked him on the biggest stage of his young career, what annoyed him was strangers on social media telling him how to celebrate, and he let his father carry the grievance.",
+			"preserved": true,
+			"reason": "Changed: first sentence verbatim and the adverse evidence is kept unresolved; the clips and playing-days points are now quoted with their S34/S18 context; 'he said he did not see it until after the match' (S05) added; 'let his father carry the grievance' became a statement of the record. The contribution (concrete counterevidence against the leading type) is preserved and more accurate."
+		},
+		{
+			"passage": "It is a small line, and it is the first time on record that he manages how something reads.",
+			"preserved": true,
+			"reason": "Changed: 'It is a small line. It is also the earliest line in this record that reads as managing how something looks, and anyone playing for a parent would face the same question.' The move the unfamiliar reviewer valued (an observation earned from a tiny sourced detail) survives; the unsupported absolute and the mind-read are removed, which I agree was necessary."
+		},
+		{
+			"passage": "The test for any passage in this article is whether it works when his motive is \"be seen to deliver\" and fails when it is \"avoid pain and keep options open.\" The Melbourne answer passes. The Zverev refusal fails. Both belong in the portrait.",
+			"preserved": true,
+			"reason": "Verbatim at the end of the Type 7 section; the Type 6 section extends the same test without altering these sentences."
+		},
+		{
+			"passage": "One discount applies to all of it. Press conferences reward exactly this register, and a 23-year-old on a tour where Sinner and Alcaraz win everything will talk about chasing regardless of type. The argument rests on the Melbourne answer and its repeats, which are the parts the incentives do not explain.",
+			"preserved": true,
+			"reason": "Changed: first and last sentences verbatim; only the tour-landscape clause is dated."
+		},
+		{
+			"passage": "And no wing is asserted here. The warmth toward a few people and the phone gesture would suggest 3w2, the neon-and-long-hair drive to be different would suggest 3w4, and the evidence does not settle it.",
+			"preserved": true,
+			"reason": "Verbatim; a one-sentence definition of a wing now precedes it."
+		},
+		{
+			"passage": "Take the final away and the argument does not move. The Melbourne answer is from 2023. The chaser's chair was his in 2023, 2025 and 2026, after titles and after losses.",
+			"preserved": true,
+			"reason": "Changed: '2023, 2025 and 2026' became '2023 and 2026'. I checked the packet: the dated chase/late-bloomer statements are 2023 (S15), January 2026 (S01), August 2026 (S10) and September 2026 (S08); there is no 2025 instance, so the correction removes an unsupported detail and the self-test still passes."
+		},
+		{
+			"passage": "Honestly, when the whole crowd is for you, you feel this expectation that you have to deliver. When you miss a shot they're, like, Oh, and maybe you feel like you're letting them down a little bit. I find it easy to play free when the crowd is coming at you and being aggressive. I enjoy that hostile atmosphere.",
+			"preserved": true,
+			"reason": "Verbatim in the hook, now followed by his own continuation."
+		},
+		{
+			"passage": "Three and a half years later, after defending his Masters 1000 title in Montreal without dropping a set, he still put himself behind: \"I love having people out in front of me that I can chase. It's been that way my whole career. I've never just been the best. I've always been chasing the best.\"",
+			"preserved": true,
+			"reason": "Verbatim in the Type 3 section."
+		},
+		{
+			"passage": "The most direct description of his temperament comes from a coach-father who is not a neutral witness. And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"preserved": true,
+			"reason": "Verbatim in 'Five or ten percent'."
+		}
+	],
+	"coverage_complete": true,
+	"metadata_consistent": true,
+	"alternative_type_addressed": true,
+	"five_year_test_passed": true,
+	"scores": {
+		"evidence": {
+			"score": 8.4,
+			"passage": "He did not stop there: \"So it's always a little bit bitter sometimes when you are, like, oh, man, you win a point, and there's no one cheering for you, but it also motivates you a little bit.\"",
+			"reason": "Every load-bearing quotation was reopened at source and found verbatim in context, with the speaker's own counterweights printed (the 'bitter' line, the hedges, the Wimbledon apology, the earpiece 'good for the sport'), attribution and dates at the passage, self-report separated from interpretation, and the coach-father and relay limits stated before the argument. Independence is thin (father via relays, subject via press conferences) and the article says so. It falls short of 9 on fidelity: two quotations run non-contiguous sentences together without ellipses (S02, S05), the ESPN 'portray that I was calm' line is truncated, the father's one adverse remark is quoted in an auto-translated relay's wording that differs from the English transcription, and three details ('neon at 12', 'at the net', 'a week later... GQ') add precision the opened sources do not give."
+		},
+		"enneagram": {
+			"score": 8.0,
+			"passage": "A Seven experiences constraint as the burden and stimulation as the relief. Shelton names evaluation as the burden and the removal of evaluation as the relief",
+			"reason": "Type 7 gets a full hearing (joy in pain, the umpire, the Zverev refusal, the father's over-aggression remark) and fails a specific, sourced, dated discriminator that repeats across January 21 and 23, 2023 and August 2026; the article concedes the Zverev refusal fails its own test and that the Ashe results contradict the self-report. Type 6 is tested with a sourced discriminator ('I don't panic', 'untouchable', 'portray that I was calm') that the article itself calls thinner. What keeps this at 8 rather than higher: the Type 3 case rests on self-reported feeling and framing rather than repeated costly choices, the only cost named in the record is aggression-shaped, and the article admits no one names a Three's emotional cost. Medium confidence is the honest reading."
+		},
+		"originality": {
+			"score": 8.7,
+			"passage": "He is \"not a superstitious ritual guy,\" and he brands himself on purpose, from neon at 12 to a signature celebration on Ashe at 20. A Six seeks cover; he seeks the frame.",
+			"reason": "The central insight (he wants the crowd without its verdict) is specific to Shelton and earned from dated quotations; the verified details are surprising and particular: the 5-or-10-percent coaching method and the changeover question, the two different ear gestures, 'never been to a concert', 'I could care less' about his father's earpiece, and the chaser's chair kept as favourite. Two contradictions are left standing ('blinders on' versus 'I feed off crowds'; the underdog chair). Type definitions are brief and the sections develop rather than restate. The case-for/case-for/what-neither-explains scaffold is a familiar pattern, which is the only reusable element."
+		},
+		"writing": {
+			"score": 8.2,
+			"passage": "Take the final away and the argument does not move. The Melbourne answer is from 2023. The chaser's chair was his in 2023 and 2026, after titles and after losses.",
+			"reason": "The hook is a scene with a quotation and a counter-quotation; each middle section adds a different kind of evidence; the Type 7 section is vivid and concessive; the close returns to the opening word ('addicting') and leaves the question open. Language is precise and hedges are local. Costs: 4,455 words at the ceiling; the same three exhibits are re-listed in four places; the Type 6 section is dense; and the 'this profile reads' hedges accumulate, which slows the last third."
+		},
+		"durability": {
+			"score": 9.0,
+			"passage": "His father has coached him full time since 2023, so the closest witness is not independent",
+			"reason": "The hook and the discriminator are January 2023; the pattern is dated across 2023 and 2026 in wins and losses; the 2026 final is framed as one instance and the self-test paragraph removes it; the record superlative is 'then the latest'; the coach-father sentence stays true if the arrangement ends; the Sinner/Alcaraz landscape is dated; time-sensitive facts (ranking, coach) carry actionable triggers. Matches the Durability 9 anchor."
+		},
+		"hook": {
+			"score": 9.0,
+			"passage": "The crowd booed him before the first ball. \"They kind of set the tone when I walked out on the court, and I got booed (laughing),\" he said afterward.",
+			"reason": "A specific, dated, sourced scene (John Cain Arena, January 21, 2023, verified in S13) that produces the article's puzzle by the fourth paragraph, with the August 2025 counter-quotation set beside it and the source limits declared before the argument starts. It creates curiosity the article rewards."
+		},
+		"discoverability": {
+			"score": 8.5,
+			"passage": "What is Ben Shelton's personality type?",
+			"reason": "meta_title 61 characters and description 167 characters, both within range and accurate to the body; a 51-word answer under the required H2; five FAQs answering distinct searcher questions with anchors matching the section headings; internal links to the Type 3, 7 and 6 pages, which exist; four suggestions present in famousTypes.ts; 'athlete' is a recognised category label already used by published entries. Deductions: the result sentence's inline citation points to a pre-final SI piece, and the ranking cites Wikipedia rather than the ATP list."
+		}
+	}
+}

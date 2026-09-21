@@ -1,0 +1,398 @@
+{
+	"schema_version": 3,
+	"decisions": [
+		{
+			"finding_id": "subject-01",
+			"action": "fixed",
+			"reason": "Every crowd statement is now attributed or bounded. Hook: 'says he finds it easiest to play free when nobody in the building is for him', followed by 'His best runs have come at home, on Arthur Ashe Stadium'. Answer: 'names its expectation as the burden'. persona_title/meta_title: 'The Chaser Who Feeds Off Crowds' (both his own words). description: quotes 'this expectation that you have to deliver'. FAQ 4 retitled 'Why does Ben Shelton say he plays free when the crowd is against him?' and adds the 'a little bit bitter... motivates you' continuation. Closing: 'the thing he ran from in Melbourne' replaced with 'the thing he described in Melbourne, the expectation that comes with being wanted'. The Type 3 case now states outright that the Melbourne answer 'describes a feeling, not a result'."
+		},
+		{
+			"finding_id": "subject-02",
+			"action": "fixed",
+			"reason": "'Because it came before anyone had media-trained him' removed. The Type 3 case opens 'Start with the Melbourne answer, the earliest extended statement in this record, because it names a mechanism', and the hook already gives 'five months into his professional career'. The candour argument is made from the words (the hedges 'maybe' and 'a little bit' are quoted, the bitter continuation is printed) and from the dated repeat two days later (S12), not from a claim about training."
+		},
+		{
+			"finding_id": "subject-03",
+			"action": "fixed",
+			"reason": "The omitted sentence is restored verbatim in the January 22, 2025 quotation ('Passionate about being out there. I love being out there, and that energy comes out at times.'), and at the repair stage the two further sentences the edit had still skipped ('In terms of showman, Gael is the GOAT. He will always be the GOAT.') are restored too, so the answer is now printed whole and contiguous (verify-01). 'Refused it' is now 'declined the label' and 'the thing he had disowned' is gone. The section states that the label and the practice reconcile and moves the unresolved pair to 'blinders on' versus 'I feed off crowds' (see critic-06)."
+		},
+		{
+			"finding_id": "subject-04",
+			"action": "fixed",
+			"reason": "S05 reopened in full: 'yeah, I didn't see it until after the match' is verbatim and now quoted in the Dialed in section and echoed in What neither type explains. 'Unbothered' removed; the article says he 'aimed his answer elsewhere' and quotes it. 'Let his father carry the grievance' replaced with 'it was his father, not Ben, who voiced the grievance in public'. The indifference paragraph was re-checked and now rests on the playing-days and earpiece quotes with their context plus the did-not-see-it fact."
+		},
+		{
+			"finding_id": "subject-05",
+			"action": "fixed",
+			"reason": "S03 reopened; 'obviously I didn't do any on-court interview today (smiling)' is a wry aside. The sentence now reads 'there was no on-court interview for the loser to give, and in press he let the air out', and 'declined to keep fighting' became 'framed it as cumulative rather than personal', resting only on the 'understanding, supportive' and 'cumulative stacking up' quotes. The S03 source context note that wrongly said he declined an interview is withdrawn in the evidence record."
+		},
+		{
+			"finding_id": "subject-06",
+			"action": "fixed",
+			"reason": "The remark was located and opened in two relays of Bryan Shelton's Tennis Insider Club interview with Caroline Garcia (Puntodebreak, July 22, 2026; Tennis365, July 23, 2026), which agree on every substantive word, and the full episode listing (E35, August 25, 2025) was opened. It is quoted once, with speaker, outlet and dates, in the Type 7 case, in its actual context (over-aggression producing early exits, with the 2026 exits Tennis365 names). The unopened Tennis Temple headline is no longer quoted anywhere; C48 is removed and replaced by C98/C99, and S35 is marked superseded. A remaining research task asks for the audio check of the wording."
+		},
+		{
+			"finding_id": "subject-07",
+			"action": "fixed",
+			"reason": "'Because it produced results' withdrawn. The self-edit paragraph now separates observation (the persona narrowed toward 'blinders on', 'locked in', 'a lot more professional') from his stated reason (the verbatim 'I was red-lining' / 'win at 70% or 80%' lines from S02, reopened) and from the maturation alternative, then marks the reading explicitly ('On this reading, what tilts it toward Type 3...'). 'First time on record that he manages how something reads' became 'the earliest line in this record that reads as managing how something looks, and anyone playing for a parent would face the same question'. 'The choice that shaped him came at 16' is gone; the decision is reported as a fact ('At 16, after Bryan asked him...')."
+		},
+		{
+			"finding_id": "subject-08",
+			"action": "fixed",
+			"reason": "Wimbledon paragraph now includes 'I guess maybe I should apologize to Nacho if he felt scared up in the chair' and 'talked in the gym after' (S09 reopened, verbatim). The earpiece passage includes 'good for the sport to get some insight on the coaches' and his actual clips answer (S34 reopened, verbatim). The grocery-store sentence was cut for length rather than attributed. The umpire instruction in the Zverev passage was removed; the paragraph now reports only his own stated reason and the rule critique."
+		},
+		{
+			"finding_id": "subject-09",
+			"action": "fixed",
+			"reason": "'He first did it' removed from FAQ 3 and from the body and evidence (C07 no longer asserts a debut; S04 context corrected). FAQ 3 now says he 'explained it the night he beat Frances Tiafoe on Arthur Ashe Stadium, September 5, 2023'. The date was checked against CBS Sports (S41, opened): the match was Tuesday night, September 5, ending around 12:30 a.m. The September 5 fourth-round reporting was not chased because the article no longer makes any debut claim."
+		},
+		{
+			"finding_id": "fan-01",
+			"action": "fixed",
+			"reason": "'Skipped the on-court interview' deleted; the sentence now reads 'there was no on-court interview for the loser to give, and in press he let the air out', and the de-escalation rests on the 'understanding, supportive' and 'cumulative stacking up of incidences' quotes, verified against S03."
+		},
+		{
+			"finding_id": "fan-02",
+			"action": "fixed",
+			"reason": "Both relays opened (Puntodebreak, Andrés Tomás Rico, July 22, 2026; Tennis365, Liam McMillen, July 23, 2026) and added as S36/S37 with the wording difference noted; the E35 listing (August 25, 2025, 1h10m) opened as S38, which resolves the S19/S20 date discrepancy. The remark is quoted with speaker, outlet and date in 'The case for Type 7' alongside the 2026 exits it explains; the intro caveat and the 'Two cautions' paragraph no longer say it could not be opened. The 'Five or ten percent' paragraph now dates the podcast ('an episode released August 25, 2025'). The audio itself was not opened; a research task records that."
+		},
+		{
+			"finding_id": "fan-03",
+			"action": "fixed",
+			"reason": "The Agassi/Nadal exchange was removed from the Type 3 case entirely rather than repaired: with the full answer ('It's an elite group to be a part of... to be among them in anything is an honor') it is ordinary modesty and, as enneagram-06 notes, does not discriminate. S10's excerpt and context record that the names were the reporter's, that Shelton doubted them, and that Nadal did not win consecutive Canadian titles."
+		},
+		{
+			"finding_id": "fan-04",
+			"action": "fixed",
+			"reason": "'Before anyone had media-trained him' replaced with 'the earliest extended statement in this record' (the hook already dates it five months into his professional career). 'First time on record that he manages how something reads' replaced with 'the earliest line in this record that reads as managing how something looks'."
+		},
+		{
+			"finding_id": "fan-05",
+			"action": "fixed",
+			"reason": "Added, sourced to S16 (reopened via WebFetch) and S31: 'as an amateur wildcard at the Cincinnati Masters in August 2022, he beat world No. 5 Casper Ruud 6-3, 6-3 and turned professional on August 23, 2022.' The trigger for the pro turn is now in the section. At the repair stage the 'With the momentum I have going right now' quotation was dropped from the sentence for length (C68 removed); the Ruud result, the amateur status and the date remain, which is what the finding asked for."
+		},
+		{
+			"finding_id": "fan-06",
+			"action": "fixed",
+			"reason": "No 2024 post-loss transcript is in the packet, so 'every time' was narrowed to 'the three post-loss transcripts in this record, from January 2025, January 2026 and September 2026' (C24 updated). The title count now adds up in the text: 'seven career titles: Tokyo in October 2023, Houston in April 2024, Toronto in 2025, and the four of 2026' (C110, sourced to S31 with the 2026 four corroborated by S27/S39/S40/S10)."
+		},
+		{
+			"finding_id": "fan-07",
+			"action": "fixed",
+			"reason": "Body and FAQ now date the match 'the night of September 5, 2023', with the press conference 'past midnight' and the finish 'at around 12:30 a.m.' (CBS Sports, S41, opened); the bridge is 'Three days later'. The phone celebration is described as 'a hand held to the ear like a phone receiver, then hung up' and explicitly as 'a different gesture from the cupped ear in Melbourne'; the hook describes the Melbourne gesture as 'cupping a hand to his ear, as if to say \"I can't hear you\"'."
+		},
+		{
+			"finding_id": "fan-08",
+			"action": "fixed",
+			"reason": "atptour.com returned HTTP 403, so the exits were verified against Tennis365 (S37, opened: Indian Wells third round, Miami second round, Wimbledon first round) and Wikipedia (S31, reopened: first-round loss to qualifier Otto Virtanen with a match point in the fifth-set tiebreak). The closing section now opens with his own 'a roller coaster year' (S11) and names the exits beside the titles; the Type 7 case sets the father's remark against them. The ATP check is recorded as a research task."
+		},
+		{
+			"finding_id": "critic-01",
+			"action": "fixed",
+			"reason": "Hook now prints the reporter's college-crowd framing, his 'Yeah, kind of a similar type of atmosphere. Yeah, I think it helps me' reply, and the full 'bitter... no one cheering... motivates you' continuation; FAQ 4 summarizes the continuation. The Type 3 case quotes the hedges ('hedged, \"maybe you feel like you're letting them down a little bit\"') and says plainly what remains once the bitter line is in view: 'a man who wants the crowd and not its verdict'. The media-training claim is removed. 'That is the Three's fear' is now 'This profile reads that as the Three's fear'."
+		},
+		{
+			"finding_id": "critic-02",
+			"action": "fixed",
+			"reason": "The sitting-at-home quote is reclassified as consistent with both types: 'Missing the party would be a Seven's pain. Being passed would be a Three's. The sentence holds both, and this profile does not use it to choose between them.' It is dropped from the list of things he 'names consistently' in the Type 7 discriminator paragraph, and the 'addict' paragraph now ends 'That fits a Three, and it fits a Seven about as well.' No sourced comparative statement was substituted because none in the packet is unambiguously about being surpassed rather than absent."
+		},
+		{
+			"finding_id": "critic-03",
+			"action": "fixed",
+			"reason": "The 77/61 paragraph was cut entirely rather than qualified; it did not survive the length budget once the confounds and the attribution were added, and nothing else in the article depends on it. C40 is removed. The hook no longer relies on any crowd-effect measurement."
+		},
+		{
+			"finding_id": "critic-04",
+			"action": "fixed",
+			"reason": "S08 reopened. 'Then he cut off the angle' is gone. The passage now reads: 'When a later question tied it to fatigue, he opened with \"I know everybody wants that to be the story,\" then engaged anyway, proposing a limit on second-serve time and saying his tiredness was cumulative, not from waiting.' His physical rationale ('knees bent, tension in my body for 30 seconds') is quoted before the rule critique. Recorded as C96/C97."
+		},
+		{
+			"finding_id": "critic-05",
+			"action": "fixed",
+			"reason": "S10 reopened and the reviewer's reading confirmed ('It's an elite group to be a part of, even if it's just one category'; 'to be among them in anything is an honor'). The passage was removed from the Type 3 case rather than re-argued, because the full answer is ordinary modesty and does not carry the image-management point. S10's excerpt and context now hold the full exchange."
+		},
+		{
+			"finding_id": "critic-06",
+			"action": "fixed",
+			"reason": "Section rebuilt around the pairing the reviewer identified: 'blinders on... not notice too much outside the court' (January 2025) against 'I feed off crowds. It's the one thing that kind of keeps me going' (August 2025), both dated and linked. The label/practice pair is now stated to reconcile ('a label is not a practice, and he had defended the right to celebrate since 2023'), and the omitted 'Passionate about being out there' sentence is restored so the January answer is not misrepresented."
+		},
+		{
+			"finding_id": "critic-07",
+			"action": "fixed",
+			"reason": "'That looks like expectation management' is gone. A new paragraph states 'Each of these is literally true', gives the literal facts (took up tennis around 12, skipped the junior circuit, turned professional at 19, ranked outside the top four in Montreal, answering a question about challenging Sinner and Alcaraz), and says the remarks 'would fit any modest competitor of either type'. The only expectation statement used is the one made while holding the favourite's position ('I think I managed it by not thinking about it', S10), and the reading is confined to 'the consistency of the choice', with the concession that 'no single remark proves anything'."
+		},
+		{
+			"finding_id": "critic-08",
+			"action": "fixed",
+			"reason": "'Because it produced results' withdrawn. The paragraph now gives his own tactical account from S02 (reopened): 'I felt like everything had to be perfect. I was red-lining' versus 'your base game has to be good enough that you can win at 70% or 80%', plus 'a lot more professional' (S01). The maturation alternative is stated in the same paragraph ('The ordinary explanation is maturation between 21 and 23 under a coach-father, which is not type-specific'). The two stereotype sentences ('A Seven tends to fight that narrowing. A Three adopts whatever wins respect.') are removed; what remains is an explicit reading of what he changed toward."
+		},
+		{
+			"finding_id": "critic-09",
+			"action": "fixed",
+			"reason": "'First time on record' removed. The sentence is now 'It is a small line. It is also the earliest line in this record that reads as managing how something looks, and anyone playing for a parent would face the same question', which is bounded to the record, hedged ('reads as') and names the nepotism-question alternative in the same sentence."
+		},
+		{
+			"finding_id": "unfamiliar-01",
+			"action": "fixed",
+			"reason": "Hook: 'A reporter noted that he had been cupping a hand to his ear, as if to say \"I can't hear you,\" and asked whether college crowds had prepared him for it. \"Yeah, kind of a similar type of atmosphere. Yeah, I think it helps me.\"' Dialed in: 'a different gesture from the cupped ear in Melbourne: a hand held to the ear like a phone receiver, then hung up.' FAQ 3 opens with the same description. The two gestures can no longer be read as one."
+		},
+		{
+			"finding_id": "unfamiliar-02",
+			"action": "fixed",
+			"reason": "Date confirmed against CBS Sports (S41, opened): Tuesday night, September 5, 2023, ending around 12:30 a.m.; body, FAQ and the 'Three days later' bridge now agree. 'He first did it' removed; FAQ 3 says he 'explained it the night he beat Frances Tiafoe'."
+		},
+		{
+			"finding_id": "unfamiliar-03",
+			"action": "fixed",
+			"reason": "Rephrased to report what the transcript shows: 'there was no on-court interview for the loser to give, and in press he let the air out', with the de-escalation resting on the 'cumulative stacking up' quote."
+		},
+		{
+			"finding_id": "unfamiliar-04",
+			"action": "fixed",
+			"reason": "Added, sourced to Sports Illustrated (S21, reopened): 'He beat Tiafoe in the semifinal to reach his first Grand Slam final, and on September 13, 2026, Zverev beat him in it'. Recorded as C109."
+		},
+		{
+			"finding_id": "unfamiliar-05",
+			"action": "fixed",
+			"reason": "Body: 'after beating Carlos Alcaraz in four hours and 28 minutes, he called it...'. FAQ 2: 'a 3:33 a.m. win over Carlos Alcaraz'. The paragraph now says 'Both examples are victories; the record has no equivalent line after a defeat' (C94)."
+		},
+		{
+			"finding_id": "unfamiliar-06",
+			"action": "fixed",
+			"reason": "The 'hokey' quote is attributed to Highsnobiety with its date and linked at the passage; the 'set points' quote carries a link to the January 24, 2025 transcript at the passage."
+		},
+		{
+			"finding_id": "unfamiliar-07",
+			"action": "fixed",
+			"reason": "'The discriminator' replaced with 'the one observation that separates the two readings'. A plain definition now precedes the wing sentence: 'A wing is the neighbouring type that colours the core one, so a Three leans toward Two or toward Four.' Type 6's 'counterphobic' is also defined in place ('the security type in its fight-rather-than-flight form')."
+		},
+		{
+			"finding_id": "unfamiliar-08",
+			"action": "fixed",
+			"reason": "The serving-plan clause was removed from FAQ 2 and from the body (cut for length); the FAQ now names dated single episodes only (the Wimbledon umpire, the ready-position rule) plus the father's remark."
+		},
+		{
+			"finding_id": "enneagram-01",
+			"action": "fixed",
+			"reason": "A new section, 'The case for Type 6', tests the counterphobic Six in the same register as the Type 7 case using the sourced items the reviewer listed (small loyal circle, 'That's who I want to get over the line for', the 'respectful' complaint, Learner Tien, charging an umpire then offering to apologize). It names the separating observation: he reports the absence of doubt at moments of threat ('I don't panic... surprised with how normal it does feel', S03; 'untouchable', S01) and, at 19, reports performing composure he did not feel ('I wasn't feeling the calm out there, but I was trying to portray that I was calm', S16 reopened), plus deliberate self-branding and 'not a superstitious ritual guy'. The article states the separation is thinner than the Type 7 one and names the condition under which Type 6 moves up; the answer and FAQ name Type 6 as tested; confidence stays medium. Recorded as C100-C105."
+		},
+		{
+			"finding_id": "enneagram-02",
+			"action": "fixed",
+			"reason": "The Type 3 definition now reads 'the fear underneath is being exposed as a failure, worth nothing apart from the result', with no 'people who were counting on them' clause. 'That is the Three's fear, stated in his own words at 20' is now 'This profile reads that as the Three's fear, stated in his own words at 20: being watched by people who might see him fail.' FAQ 4 says 'This profile reads the pattern, not the result, as Type 3.' The Melbourne quote is then argued toward 3 on evidence (wants the crowd, not its verdict; the S12 repeat; the frame he keeps as favourite) and tested against 6."
+		},
+		{
+			"finding_id": "enneagram-03",
+			"action": "fixed",
+			"reason": "The Type 3 case now confronts the results directly: 'His best major runs, the 2023 semifinal and the 2026 final, came on Arthur Ashe Stadium in front of the most supportive crowd he plays for, and his two Masters 1000 titles were won in Toronto and Montreal', plus his own 'I think I play some of my best matches in front of the big crowds' (S15). It states the reconciliation the reviewer asked for: 'the Melbourne answer describes a feeling, not a result, and the expectation he handles is his own framing of the stakes rather than the stadium's mood.' The 'bitter... motivates you' line is printed with the quote in the hook. The hook, answer, titles and description no longer assert that he plays best when nobody expects anything."
+		},
+		{
+			"finding_id": "enneagram-04",
+			"action": "fixed",
+			"reason": "The sentence pair is rewritten to say the quote cuts both ways ('Missing the party would be a Seven's pain. Being passed would be a Three's. The sentence holds both...'), and the 'addict' paragraph now states 'That fits a Three, and it fits a Seven about as well.'"
+		},
+		{
+			"finding_id": "enneagram-05",
+			"action": "fixed",
+			"reason": "The section opener no longer claims the father's description argues against Type 3; it says 'Energy and extroversion fit a Three as well as a Seven; the one phrase that mildly cuts against Type 3 is \"emotional at times,\" because Threes tend to set feelings aside to perform.' 'His father's words are Seven words' is cut."
+		},
+		{
+			"finding_id": "enneagram-06",
+			"action": "fixed",
+			"reason": "'How they look' is now 'their manner'; the Agassi/Nadal disclaimer was removed from the Type 3 case entirely (see critic-05), and the paragraph it sat in was dropped for length."
+		},
+		{
+			"finding_id": "enneagram-07",
+			"action": "fixed",
+			"reason": "The causal clause is withdrawn and replaced with his stated account (red-lining versus 70-80%, 'a lot more professional'); the maturation alternative is stated in the same paragraph; the reading is marked ('On this reading, what tilts it toward Type 3...')."
+		},
+		{
+			"finding_id": "enneagram-08",
+			"action": "fixed",
+			"reason": "The S12 line is quoted in the Type 3 case as a dated repeat ('Two days later he said the same thing about a different expectation: \"not having that expectation or the feeling that I have to perform, but being able to just go out there, be myself and play free.\"', C84). The media-training clause is removed."
+		},
+		{
+			"finding_id": "future-01",
+			"action": "fixed",
+			"reason": "Rewritten as 'His father has coached him full time since 2023, so the closest witness is not independent', which stays true if the arrangement ends. A time_sensitive claim (C74) carries the 'still his coach' trigger; C06 no longer carries it."
+		},
+		{
+			"finding_id": "future-02",
+			"action": "fixed",
+			"reason": "atptour.com returned HTTP 403, so AP wire reports on NBC Sports were opened for both finals (Munich, April 19, 2026, over Cobolli 6-2, 7-5; Stuttgart, June 14, 2026, over Fritz 6-4, 2-6, 6-4) and added as S39/S40, cited inline at the sentence. C60 is now stable with no pre-publication trigger. A research task records the ATP check for when the site is reachable."
+		},
+		{
+			"finding_id": "future-03",
+			"action": "fixed",
+			"reason": "The remark was located in two relays of the Tennis Insider Club interview and is quoted with speaker, outlet, dates and context in the Type 7 case; both 'could not be opened' passages are gone. C48 is removed and replaced with C98 (stable), and the 'Two cautions' paragraph now states a durable limit: the remark names over-aggression, not an emotional cost, and no one in the record names that."
+		},
+		{
+			"finding_id": "future-04",
+			"action": "fixed",
+			"reason": "Now reads 'in what was then the latest finish in the tournament's history' (C62 updated)."
+		},
+		{
+			"finding_id": "future-05",
+			"action": "fixed",
+			"reason": "The earlier mention is dated ('through a rise to No. 4 in the world by September 2026') and tracked as its own time_sensitive claim (C89) with the update trigger. The ATP rankings page could not be opened (HTTP 403 on 2026-09-20), so the dated line still cites Wikipedia with its access date; C36's trigger now says to replace the citation with atptour.com when reachable, and the research task records it."
+		},
+		{
+			"finding_id": "future-06",
+			"action": "fixed",
+			"reason": "The comparative-pain leg is removed from the Type 7 discriminator list (which now names the Melbourne 'expectation', the S12 repeat, 'I'm not expecting a ton from myself' and the chaser's chair kept as defending champion), and the sitting-at-home quote is reclassified as cutting both ways."
+		},
+		{
+			"finding_id": "future-07",
+			"action": "fixed",
+			"reason": "The paragraph containing 'still the best available measurement' was cut in full (see critic-03); no undated judgment about the 2025 split remains."
+		},
+		{
+			"finding_id": "future-08",
+			"action": "fixed",
+			"reason": "Dated: 'a 23-year-old on the 2026 tour, where Sinner and Alcaraz were winning nearly everything, will talk about chasing regardless of type.'"
+		},
+		{
+			"finding_id": "verify-01",
+			"action": "fixed",
+			"reason": "Both quotations now print the sentences that sat between the joined parts. S02 (reopened via curl 2026-09-20): 'In terms of showman, Gael is the GOAT. He will always be the GOAT.' is restored between 'comes out at times.' and 'No, I see myself...'. S05 (reopened via curl 2026-09-20): 'You know, I think if you win the match, you deserve to do whatever you want.' is restored between 'can't celebrate.' and 'As a kid growing up...'. C14 and C54 claim texts updated; their passages are the contiguous closing sentences and still match."
+		},
+		{
+			"finding_id": "verify-02",
+			"action": "fixed",
+			"reason": "S16 reopened via WebFetch 2026-09-20 returns the sentence as 'I wasn't feeling the calm out there, but I was trying to portray that I was calm and I had things under control.' The body (quarterback section) and FAQ 3 now print the full sentence; the Type 6 section quotes the clause 'trying to portray that I was calm and I had things under control'. C69 passage and claim updated; S16 locator, excerpt and context updated."
+		},
+		{
+			"finding_id": "verify-03",
+			"action": "fixed",
+			"reason": "The article now quotes the Tennis365 transcription (S37, English audio transcribed in English, reopened via curl 2026-09-20): 'As a coach, that's the challenge, working with a guy like Ben, who is very aggressive. But there are times when he crosses that line and sabotages himself, and doesn't make it to the second or third round of the tournament.' The attribution says 'as transcribed by Tennis365 on July 23, 2026 and relayed a day earlier by Puntodebreak'. C98 passage, claim, inference and alternative updated; the audio check remains a research task. FAQ 2's fragment 'crosses that line and sabotages himself' is identical in both relays."
+		},
+		{
+			"finding_id": "verify-04",
+			"action": "fixed",
+			"reason": "'His father adds that even then Ben' is now 'His father says that as a kid Ben', matching S18's 'As a kid'; the Type 6 sentence reads 'from neon as a kid to a signature celebration on Ashe at 20'. 'at the net' is now 'after closing out the win', matching S23 ('After closing out Shelton'); the S05 context note and C08 claim/inference were corrected the same way. 'A week later Bryan told GQ' is now 'Within the week Bryan told GQ, in a remark Sports Illustrated relayed on September 15, 2023', which dates the relay and not the interview; S22 context and C30 inference updated. The Sportskeeda relay, reopened via curl, names Vogue as the original outlet, so the attribution now reads 'Bryan Shelton to Vogue, March 2025, relayed by Sportskeeda' (S18 speaker/context and C30 updated)."
+		},
+		{
+			"finding_id": "verify-05",
+			"action": "fixed",
+			"reason": "The final's result sentence now cites the September 13, 2026 press-conference transcript (S08) inline; the Sports Illustrated explainer is cited only for the semifinal and first-final clause. The September 14, 2026 ranking sentence now cites the live ATP singles table (new S42, opened via the fetch tool on 2026-09-20: No. 4, 4,680 points) alongside Wikipedia, which supplies the date; C36 and C89 source_ids and inferences updated, C65 inference updated, atptour.com/en/rankings/singles added to the citations list, and the atptour ranking research task closed."
+		},
+		{
+			"finding_id": "verify-06",
+			"action": "fixed",
+			"reason": "The three Type 3 exhibits (the Melbourne answer, 'I'm not expecting a ton from myself', the chaser's chair) are now quoted in full once, in the Type 3 case; the Type 7 discriminator paragraph back-references them ('in the Melbourne answer, its repeat two days later, and the chaser's chair he keeps as a defending champion') instead of re-quoting, and the Type 6 section quotes only the clause it needs. The 'wants' and 'hurts' paragraphs are merged and end 'Neither line settles it.' The Type 6 section is split into three paragraphs. 'This profile reads/does not' hedges in the body are down from seven to four (the remaining four are the protected showman close, the C83 interpretation, the puzzle sentence and the final question). The redundant thesis sentence opening the source-limits paragraph, the 'blind spot' definition sentence, the 'momentum' quotation and several narrative connectives were cut. Net length went from 4,455 to 4,388 words by the runner's count (about 110 words of narration cut, 40 words of quotation restored by verify-01 and verify-02), short of the 500-word floor: every remaining paragraph carries an inventoried claim or a reviewer-protected passage (all 22 protected passages are kept verbatim or in their already-accepted edited form, and every sourced discriminator, the Ashe counterevidence and the Type 6 test remain), so a larger cut would have removed material the same acceptance test requires to stay."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The limits of the evidence matter.",
+			"action": "kept",
+			"reason": "Verbatim in the fifth paragraph."
+		},
+		{
+			"passage": "That is Bryan's reading of intent. Djokovic's stated account differs, and Ben never adopted his father's version in public.",
+			"action": "kept",
+			"reason": "Verbatim at the end of the Dialed in section."
+		},
+		{
+			"passage": "Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"action": "kept",
+			"reason": "Verbatim, closing the showman section; it now refers to the dated pair that does not reconcile ('blinders on' versus 'I feed off crowds'), after critic-06 and subject-03 showed the label-versus-celebration pair reconciles on its face."
+		},
+		{
+			"passage": "The Melbourne answer passes. The Zverev refusal fails. Both belong in the portrait.",
+			"action": "kept",
+			"reason": "Verbatim at the end of the Type 7 section."
+		},
+		{
+			"passage": "is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"action": "kept",
+			"reason": "Verbatim in the Five or ten percent section."
+		},
+		{
+			"passage": "So the crowd is what keeps him going, and the crowd's approval is what ties him up. That is the puzzle this profile works on: a player who wants the biggest stage in the sport and plays best when nobody in the building expects anything of him.",
+			"action": "changed",
+			"reason": "The one-breath contradiction from two dated quotes and the puzzle framing are kept; 'plays best when nobody in the building expects anything of him' became 'says he finds it easiest to play free when nobody in the building is for him' and 'on his own account' was added, because the record holds a self-report and not a performance pattern (subject-01, enneagram-03). The sentence now also points to where his best runs actually came."
+		},
+		{
+			"passage": "He does not want to be called a showman. He also wants the freedom to put on a show. Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"action": "changed",
+			"reason": "First two sentences verbatim again after the repair ('He also wants the freedom to put on a show.' is a full sentence once more) and the closing sentence verbatim. The middle says the label and the practice reconcile and relocates the unresolved contradiction to the dated 'blinders on' / 'I feed off crowds' pair (critic-06, subject-03), so the passage still leaves a real, sourced contradiction standing rather than an apparent one."
+		},
+		{
+			"passage": "Boredom would be a Seven's pain. Watching others advance is a Three's.",
+			"action": "changed",
+			"reason": "The two-sentence plain-language contrast is kept in form ('Missing the party would be a Seven's pain. Being passed would be a Three's.') but the claim that it discriminates is withdrawn, because 'sitting at home... watching everyone else run through the draw' is a literal description of missing out and fits a Seven at least as well (critic-02, enneagram-04, future-06). The next sentence says the line holds both and is not used to choose."
+		},
+		{
+			"passage": "Two things about this matter for what follows. The most direct description of his temperament comes from a coach-father who is not a neutral witness. And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"action": "kept",
+			"reason": "Verbatim in the Five or ten percent section."
+		},
+		{
+			"passage": "The energy his father describes is aimed at a few people and at stadiums, and at very little in between.",
+			"action": "kept",
+			"reason": "Verbatim in What neither type explains."
+		},
+		{
+			"passage": "Almost everything he has said on the record comes from tournament press conferences, which reward process, gratitude and improvement, and from sponsor and fashion features, which reward diligence. His father is his coach, so the closest witness is not independent, and Bryan Shelton's remarks reach print mostly through podcasts relayed by aggregators.",
+			"action": "changed",
+			"reason": "First sentence verbatim. 'His father is his coach' became 'His father has coached him full time since 2023' so the discount stays true if the arrangement ends (future-01); the rest of the sentence is verbatim. At the repair stage the non-protected thesis sentence that preceded this passage was cut for length, so the paragraph now opens with 'The limits of the evidence matter.'"
+		},
+		{
+			"passage": "And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"action": "kept",
+			"reason": "Verbatim in the Five or ten percent section."
+		},
+		{
+			"passage": "One discount applies to all of it. Press conferences reward exactly this register, and a 23-year-old on a tour where Sinner and Alcaraz win everything will talk about chasing regardless of type.",
+			"action": "changed",
+			"reason": "First sentence verbatim. The tour-landscape clause is dated ('on the 2026 tour, where Sinner and Alcaraz were winning nearly everything') per future-08; the discount itself is unchanged."
+		},
+		{
+			"passage": "His indifference to his own coverage sits oddly with an image motive. He does not watch the clips of his father commentating on him. He was uninterested in his father's playing days. When Djokovic mimicked him on the biggest stage of his young career, what annoyed him was strangers on social media telling him how to celebrate, and he let his father carry the grievance.",
+			"action": "changed",
+			"reason": "First sentence verbatim and the adverse evidence is kept and left unresolved. The clips and playing-days points are now quoted with the 'good for the sport' context (subject-08); 'he said he did not see it until after the match' is added and 'let his father carry the grievance' became 'it was his father, not Ben, who voiced the grievance in public', because the record shows no permission or delegation (subject-04)."
+		},
+		{
+			"passage": "It is a small line, and it is the first time on record that he manages how something reads.",
+			"action": "changed",
+			"reason": "The move the reviewer valued, earning an observation from a tiny sourced detail, is kept: 'It is a small line. It is also the earliest line in this record that reads as managing how something looks, and anyone playing for a parent would face the same question.' The unsupported absolute ('first time on record') and the mind-read ('manages') are removed per critic-09, fan-04 and subject-07."
+		},
+		{
+			"passage": "The test for any passage in this article is whether it works when his motive is \"be seen to deliver\" and fails when it is \"avoid pain and keep options open.\" The Melbourne answer passes. The Zverev refusal fails. Both belong in the portrait.",
+			"action": "kept",
+			"reason": "Verbatim at the end of the Type 7 section; the Type 6 section extends the same test to a third motive, as the enneagram reviewer suggested, without altering these sentences."
+		},
+		{
+			"passage": "One discount applies to all of it. Press conferences reward exactly this register, and a 23-year-old on a tour where Sinner and Alcaraz win everything will talk about chasing regardless of type. The argument rests on the Melbourne answer and its repeats, which are the parts the incentives do not explain.",
+			"action": "changed",
+			"reason": "First and last sentences verbatim; only the tour-landscape clause is dated per future-08."
+		},
+		{
+			"passage": "And no wing is asserted here. The warmth toward a few people and the phone gesture would suggest 3w2, the neon-and-long-hair drive to be different would suggest 3w4, and the evidence does not settle it.",
+			"action": "kept",
+			"reason": "Verbatim; a one-sentence definition of a wing now precedes it (unfamiliar-07)."
+		},
+		{
+			"passage": "Take the final away and the argument does not move. The Melbourne answer is from 2023. The chaser's chair was his in 2023, 2025 and 2026, after titles and after losses.",
+			"action": "changed",
+			"reason": "First two sentences verbatim. '2023, 2025 and 2026' became '2023 and 2026' because the packet contains no 2025 chase or late-bloomer statement (the dated instances are January 2023, January 2026, August 2026 and September 2026); the self-test is otherwise intact and still passes. The answer and FAQ 1 were corrected to match."
+		},
+		{
+			"passage": "Honestly, when the whole crowd is for you, you feel this expectation that you have to deliver. When you miss a shot they're, like, Oh, and maybe you feel like you're letting them down a little bit. I find it easy to play free when the crowd is coming at you and being aggressive. I enjoy that hostile atmosphere.",
+			"action": "kept",
+			"reason": "Verbatim in the hook, now followed by his own continuation ('So it's always a little bit bitter...')."
+		},
+		{
+			"passage": "Three and a half years later, after defending his Masters 1000 title in Montreal without dropping a set, he still put himself behind: \"I love having people out in front of me that I can chase. It's been that way my whole career. I've never just been the best. I've always been chasing the best.\"",
+			"action": "kept",
+			"reason": "Verbatim in the Type 3 section."
+		},
+		{
+			"passage": "The most direct description of his temperament comes from a coach-father who is not a neutral witness. And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"action": "kept",
+			"reason": "Verbatim in the Five or ten percent section."
+		}
+	],
+	"prior_blockers": []
+}

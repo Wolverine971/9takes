@@ -1,0 +1,15 @@
+The review-fan stage is complete. I wrote the one requested output, `docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-fan.json`, validated it against the pipeline's review schema, and confirmed every quoted passage matches the frozen draft byte for byte. The three tracked files showing as modified in that run directory were already modified before this session and I did not touch them.
+
+**What the fan review found** (8 findings, 5 protected passages, risks unchanged with contested typing still flagged):
+
+- **Major, a misread quote.** The draft says Shelton "skipped the on-court interview" after the 2025 Australian Open semifinal. The transcript line is a joke about having lost, since losers get no on-court interview. The draft turns it into a protest gesture he never made.
+- **Major, the "missing" father quote exists.** The draft twice says Bryan Shelton's "there are times he sabotages himself" remark could not be opened. It is carried by three July 2026 relays of the Tennis Insider Club interview, with fuller wording about aggression crossing a line into early exits. This is the only adverse father testimony and it belongs in the piece. The same search resolved the podcast date discrepancy in the research tasks: the full episode aired August 25, 2025 and the July 2026 listing is a re-cut.
+- **Minor, a visible tennis error.** Nadal never won back-to-back Canadian titles. The reporter said it, Shelton doubted it on the spot, and the draft repeats it in the author's voice while cutting the half of his answer that best supports Type 3.
+- **Minor, unsupported "firsts."** "Before anyone had media-trained him" and "first time on record" overstate what the packet shows.
+- **Minor, missing formative context.** The August 2022 Cincinnati run that triggered the turn-pro decision, and any 2024 data point behind "every time" and "2023, 2025 and 2026."
+- **Minor, two small distortions.** The Tiafoe match date and a blur between the cupped-ear taunt and the phone celebration.
+- **Minor, 2026 presented as a clean ascent.** His own "roller coaster year" quote is already in the evidence file and unused, and one relay ties the father's remark to early 2026 exits that need checking on the ATP site.
+
+I also verified that the phone celebration did debut after the Tiafoe match, so that claim stands. The similarity advisory was not tripped and the top pairs are generic type definitions, not reused arguments.
+
+The editor stage picks this up next. Nothing was published or modified outside the requested output.

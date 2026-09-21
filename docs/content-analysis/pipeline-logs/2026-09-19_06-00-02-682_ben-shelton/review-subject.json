@@ -1,0 +1,100 @@
+{
+	"schema_version": 3,
+	"role": "subject",
+	"content_sha256": "f24058ec705862cdc5b50d69f088e7cec1d006f035f32e2c9d124d1cbea7e6fc",
+	"evidence_sha256": "202adeee7f631175aef758ac1adf966ac61826ab370cf9cedcebb68ddcd91b5f",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "subject-01",
+			"severity": "major",
+			"passage": "a player who wants the biggest stage in the sport and plays best when nobody in the building expects anything of him",
+			"problem": "The public record holds one self-description after one match (January 21, 2023: \"I find it easy to play free when the crowd is coming at you\"). It holds no evidence that he performs better without support, and the draft's own measurements point the other way: 77 percent at majors versus 61 percent elsewhere, and his best 2026 results came on Ashe at home and in Montreal. Yet the hook, the plain-language answer (\"he plays free when booed\"), persona_title (\"The Chaser Who Plays Free When Booed\"), meta_title, description (\"plays his freest tennis when they boo him\") and FAQ 4 (\"Why does Ben Shelton play better when the crowd is against him?\") all state a performance pattern as fact. The closing \"the thing he ran from in Melbourne\" compounds it: he ran from nothing in Melbourne; he was booed, won, and said he enjoyed it. This attaches to a real athlete a trait he has described once and never demonstrated.",
+			"acceptance_test": "Every body and metadata statement about crowds either attributes the claim to his own words (\"says he plays free when booed\") or cites results evidence comparing hostile and supportive crowds. FAQ 4's question no longer presupposes that he plays better when the crowd is against him (for example, \"Why does Ben Shelton say he plays free when the crowd is against him?\"). \"The thing he ran from in Melbourne\" is replaced with language matching the record: a feeling he described, not something he fled."
+		},
+		{
+			"id": "subject-02",
+			"severity": "major",
+			"passage": "because it came before anyone had media-trained him",
+			"problem": "No source in the packet says anything about his media preparation. By January 2023 he had been an NCAA champion at a major program, had played the 2022 US Open, and had done tournament press for five months. Stating as fact that the answer predates media training is an invented biographical detail, and the draft leans on it: the Type 3 case explicitly \"rests on the Melbourne answer\" because that answer is treated as unmanaged.",
+			"acceptance_test": "The clause is removed or replaced with what the record supports (his first month abroad, five months into his professional career, an answer to a question about the hand-to-ear gesture). Any argument that the answer is unusually candid is made from the words themselves, not from a claim about his training."
+		},
+		{
+			"id": "subject-03",
+			"severity": "major",
+			"passage": "Seven months later, in a fashion magazine, he defended the thing he had disowned.",
+			"problem": "The January 22, 2025 quotation as reproduced omits the middle of his answer: \"Passionate about being out there. I love being out there, and that energy comes out at times.\" With that sentence he declined the \"showman\" label while affirming the energy; without it the section says he \"refused\" and \"disowned\" showmanship and then contradicted himself to Highsnobiety. Part of the contradiction the section builds is manufactured by the cut. On the record he was more consistent than the draft lets him be.",
+			"acceptance_test": "The omitted sentence is restored to the January 2025 quotation (an ellipsis-marked version is acceptable), and \"refused it\" and \"the thing he had disowned\" are changed to language that separates the label from the practice, such as \"declined the label.\" The section's closing distinction between the label and the freedom to put on a show may stand."
+		},
+		{
+			"id": "subject-04",
+			"severity": "major",
+			"passage": "When Djokovic mimicked him on the biggest stage of his young career, what annoyed him was strangers on social media telling him how to celebrate, and he let his father carry the grievance.",
+			"problem": "The evidence record (S05) notes that Shelton said he did not see Djokovic's gesture live. The draft omits this, reads his measured answer as \"unbothered\" (an internal state), and reads his father's GQ remark a week later as something Ben \"let\" happen, then uses both as evidence of indifference to his image. Nothing in the record shows Ben permitting or directing his father's comment. The reader is led to infer composure-by-choice and family delegation from an event he says he did not witness.",
+			"acceptance_test": "The passage states that he said he did not see the gesture live (verified against the full September 8, 2023 transcript, since S05 is a fetch summary), \"unbothered\" is replaced with what he said or an explicit \"this reads as,\" and \"let his father carry the grievance\" becomes a statement of the record (his father voiced the grievance publicly; Ben did not repeat it). The \"indifference to his own coverage\" paragraph is re-checked once the Djokovic instance carries less weight."
+		},
+		{
+			"id": "subject-05",
+			"severity": "major",
+			"passage": "he skipped the on-court interview and let the air out",
+			"problem": "At Grand Slams the loser of a semifinal does not give an on-court interview; only the winner does. His remark in the January 24, 2025 transcript, \"obviously I didn't do any on-court interview today (smiling),\" reads as a wry acknowledgment of that, not a protest. The draft converts it into a deliberate act (\"skipped\"), which then underwrites \"He had made his point on the biggest stage available and then declined to keep fighting.\" This attributes an invented action to a real person.",
+			"acceptance_test": "Either the draft documents that a loser's on-court interview was scheduled and he declined it, or the sentence is rewritten so no protest is implied (for example, \"after losing the semifinal to Jannik Sinner there was no on-court interview to give, and in press he let the air out\"). The \"declined to keep fighting\" inference is re-examined on the remaining evidence: officials \"understanding, supportive\" and \"the cumulative stacking up of incidences.\""
+		},
+		{
+			"id": "subject-06",
+			"severity": "major",
+			"passage": "the \"sabotages himself\" headline, could not be opened, so the case against the composed version of Shelton is thinner than it should be",
+			"problem": "The phrase \"sabotages himself,\" attributed to his father, appears twice in the article (introduction and \"Two cautions\") from a headline the research could not open. The standard treats unopened snippets as not sources. Even framed as a limitation, publishing the words puts an unverified characterization of a flaw into his father's mouth in a public profile of his son. Date and context are unknown; it may be mistranslated or about a single match.",
+			"acceptance_test": "The original remark is located and opened with date and context and then quoted accurately; or the article carries at most one sentence noting that a father remark naming a cost could not be verified, without reproducing the quoted phrase; or the mention is cut. The C48 review trigger in the evidence record is honored before publication."
+		},
+		{
+			"id": "subject-07",
+			"severity": "major",
+			"passage": "between 2023 and 2026 he narrowed the persona toward \"blinders on\" and \"locked in\" because it produced results. A Seven tends to fight that narrowing. A Three adopts whatever wins respect.",
+			"problem": "\"Because it produced results\" is a motive the draft supplies; he has not said why he changed. His own explanations in the record are tactical (the January 2025 account of no longer \"red-lining\" and winning at 70 to 80 percent; the January 2026 \"a lot more professional\" answer), and the evidence record's own alternative is ordinary maturation between 21 and 23 under a coach-father. The sentence states the imputed motive as fact and pins a type stereotype to it. The same pattern appears in \"it is the first time on record that he manages how something reads\" (a mind-read presented as observation) and \"The choice that shaped him came at 16\" (an unsupported causal childhood claim).",
+			"acceptance_test": "The self-edit passage separates observation (the persona narrowed; his stated reasons) from interpretation (\"this profile reads the direction of that change as ...\") and gives his own stated reason for the change. \"Manages how something reads\" becomes an explicit reading (for example, \"reads as sensitivity to how the arrangement looked\"). \"Shaped him\" is softened or supported."
+		},
+		{
+			"id": "subject-08",
+			"severity": "minor",
+			"passage": "And he framed himself: \"I don't think that I ever get disrespectful on the court.\"",
+			"problem": "Several passages trim the subject's own accountable or softening words, or state relayed paraphrase as fact, in ways that tilt against him. The Wimbledon transcript also has \"I guess maybe I should apologize to Nacho if he felt scared up in the chair\" and \"we talked in the gym after,\" which the draft omits while keeping the self-image line. The earpiece transcript has him saying he was comfortable with it and thought it good for the growth of tennis, but the draft keeps only \"I could care less.\" The grocery-store sentence is EssentiallySports' paraphrase of Bryan, stated in the author's voice as fact. The umpire instruction in the Zverev passage is Shelton's own account, stated as observed fact.",
+			"acceptance_test": "The Wimbledon paragraph includes the apology offer and the gym conversation; the earpiece paragraph includes the \"comfortable with it, good for the sport\" context; the grocery-store detail is attributed to Bryan via the outlet; the umpire instruction is attributed to Shelton's account."
+		},
+		{
+			"id": "subject-09",
+			"severity": "minor",
+			"passage": "He first did it on Arthur Ashe Stadium after beating Frances Tiafoe on",
+			"problem": "FAQ 3 reads as the celebration's debut. The September 6, 2023 transcript establishes when he explained the gesture and where he first saw it (Grant Holloway), not that this was the first time he performed it. Contemporary reporting associated the same phone celebration with his fourth-round win over Tommy Paul on September 5, 2023. This reviewer could not open that reporting and flags it as uncertain rather than established; if the Paul match is the debut, the FAQ misdates the origin.",
+			"acceptance_test": "The September 5, 2023 fourth-round reporting is checked. If the celebration appeared there, the FAQ says he \"explained it after beating Frances Tiafoe on September 6, 2023\" and drops \"first did it\"; if the Tiafoe match is confirmed as the debut, a source establishing that is added to the evidence record."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "The limits of the evidence matter.",
+			"reason": "The paragraph names the press-conference and sponsor bias and the non-independent coach-father witness before making any argument. It is the fairest thing in the piece for both subject and reader."
+		},
+		{
+			"passage": "That is Bryan's reading of intent. Djokovic's stated account differs, and Ben never adopted his father's version in public.",
+			"reason": "Model handling of a disputed intent claim: attributed to its speaker, the rival's response given, and the subject's own non-adoption recorded rather than assumed."
+		},
+		{
+			"passage": "Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"reason": "Refuses to resolve a real tension by inventing a motive. Keep, once \"disowned\" and \"refused it\" in the same section are corrected."
+		},
+		{
+			"passage": "The Melbourne answer passes. The Zverev refusal fails. Both belong in the portrait.",
+			"reason": "States a falsifiable test for the type argument and concedes the counterexample in the same breath. This is the honest core of the Enneagram case."
+		},
+		{
+			"passage": "is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"reason": "Offers a non-type explanation for the cleanest-looking Type 3 behavior before the case is made, which protects the subject from having coached habits read as character."
+		}
+	],
+	"assessment": "Subject-proxy review of the frozen Ben Shelton draft (Type 3 at medium confidence, Type 7 as the alternative). The draft is structurally careful: it discloses the press-conference and sponsor bias, names the coach-father as a non-independent witness, attributes the Djokovic intent dispute with the rival's response, cut the relationship material, and concedes that the Zverev refusal fails its own discriminator. Nothing in it is defamatory and no private matter is exposed. The consequential problems are of one kind: the record contains his words, and the draft repeatedly converts them into facts about him. The metadata and hook turn one 2023 self-description into a performance trait (\"plays free when booed\", FAQ \"play better when the crowd is against him\") that the draft's own numbers do not show; the Type 3 case privileges the Melbourne answer with an invented fact about media training; the showman section manufactures part of its contradiction by cutting the sentence in which he affirms his energy; the Djokovic passage omits that he said he did not see the gesture and imputes composure and delegation; the 2025 semifinal passage invents a protest where no loser's on-court interview exists; an unopened headline (\"sabotages himself\") is quoted twice; and the second discriminator states an imputed motive (\"because it produced results\") as fact. All fixes are local and none requires a thesis change. One factual item (the phone celebration's debut, FAQ 3) is flagged with honest uncertainty for the evidence reviewer or verifier to settle; the Tennis Insider podcast date discrepancy (S19 versus S20) remains an open research task and the draft correctly avoids asserting a date. Similarity diagnostic: not tripped; the highest-scoring pairs (maximum 0.055, against the Michael Jordan draft) share ordinary Type 3 vocabulary such as \"blind spot\" and \"being seen to deliver\" and no argument or anecdote, so no formulaic reuse is found. Risk flags are carried forward from research: contested typing remains true; no sensitive allegations, no historical source uncertainty, no thesis change."
+}

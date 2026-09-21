@@ -1,0 +1,18 @@
+The passage matches the parsed FAQ text exactly. The earlier miss was an artifact of my check escaping quotes, not a problem in the review. The stage is complete.
+
+**Done.** I wrote the unfamiliar-reader review for the Ben Shelton draft to `docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/review-unfamiliar.json`. It validates against the review schema, carries the request's role and both hashes, and every finding and protected passage is anchored to exact draft text. No other files were touched and nothing was published.
+
+**What the review says.** The draft orients a cold reader well and keeps momentum, and the typing argument is honest about Type 7. I flagged one major finding and seven minor ones:
+
+- **Major: two ear gestures read as one.** The opening's January 2023 "hand-to-the-ear gesture" is a cupped-ear taunt per the transcript, but the phone celebration section and the FAQ make it look like the same gesture with contradictory dates.
+- **FAQ date and "first" claim need a check.** The Tiafoe transcript's own "two days off, don't play till Friday" implies the match was September 5, not 6, and nothing in it says that night was the first phone celebration.
+- **"Skipped the on-court interview" misreads a joke.** Losing semifinalists do not get one. The transcript shows a smiling aside, not a boycott.
+- **Closing section skips the semifinal** and never says this was his first Grand Slam final, which the evidence supports.
+- **Alcaraz result withheld** where the "most enjoyable match" quote's weight depends on knowing he won.
+- **Two quotes lack links** at the passage, including the Highsnobiety "hokey" quote.
+- **"Wing" and "the discriminator" are undefined** for a reader who came for Shelton, not the Enneagram.
+- **One FAQ turns a single game into a habit** on the serving-plan claim.
+
+Five passages are protected, including the puzzle statement in the hook and the article's own falsification test. Risk flags: contested typing true, the other three false. The similarity diagnostic did not trip, and direct comparison found only generic type vocabulary in the top pairs.
+
+The pipeline runner picks up this artifact for the remaining jury roles and the edit stage.

@@ -1,0 +1,18 @@
+Draft stage complete. Both requested outputs are written and pass the contract checks; nothing else in the repo was touched and nothing was published.
+
+**Outputs**
+
+- `docs/content-analysis/pipeline-logs/2026-09-19_06-00-02-682_ben-shelton/draft.md` passes `checkDraft` with no blockers at 4,190 words, nine H2 sections, a 56-word type answer, four FAQs, `published: false`, and `production_pretext.status: draft` with an empty blockers list (the baseline was empty, so nothing was inherited).
+- `evidence-draft.json` passes `validateEvidence` against the draft surface: 57 claims, each with an exact passage, all 35 sources retained, type hypothesis still Type 3 at medium confidence with Type 7 as the alternative.
+
+**Editorial choices worth knowing**
+
+- The portrait is built on one sourced tension: he says crowds are "the one thing that kind of keeps me going," yet told press in January 2023 that a supportive crowd creates "this expectation that you have to deliver" while hostility lets him "play free." That quote opens the piece and serves as the discriminator against Type 7. The 2026 US Open final closes the piece but the argument stands without it.
+- Before drafting I reopened the four transcripts whose quotes appeared only in claim text and matched every quotation I used. All matched. No new sources were added.
+- Unused research claims were dropped from the inventory (retirement, red-lining, childhood weight, degree, Trinity Rodman, official-bio claims, and others), and 21 new claims were added so every quotation and factual sentence in the draft has its own passage.
+
+**Flags for the editor and verifier**
+
+- Word count sits above the 2,000 to 3,500 target though under the 4,500 ceiling. I cut about 1,100 words from the first pass; further trimming is a reasonable edit-stage call.
+- A date discrepancy surfaced: Meg Jay quoted Bryan Shelton's Tennis Insider remarks in November 2025, but the episode listing shows a July 2026 release. The draft avoids dating the podcast; the discrepancy is logged in `research_tasks`.
+- The "sabotages himself" father remark remains unopened and is presented only as a limit on the evidence. Munich and Stuttgart title details and the No. 4 ranking rest on Wikipedia and carry review triggers. The six research tasks from the research stage are carried forward unchanged.

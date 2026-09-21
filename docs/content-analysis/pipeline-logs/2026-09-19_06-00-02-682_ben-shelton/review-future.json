@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "future",
+	"content_sha256": "f24058ec705862cdc5b50d69f088e7cec1d006f035f32e2c9d124d1cbea7e6fc",
+	"evidence_sha256": "202adeee7f631175aef758ac1adf966ac61826ab370cf9cedcebb68ddcd91b5f",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "future-01",
+			"severity": "major",
+			"passage": "His father is his coach, so the closest witness is not independent, and Bryan Shelton's remarks reach print mostly through podcasts relayed by aggregators.",
+			"problem": "Present-tense, undated status claim that carries the article's main evidence discount. Father-coach arrangements at the top of the tour change often; if Bryan stops coaching Ben within five years the sentence reads as false and the discount it introduces loses its stated basis. The claim inventory attaches the \"still his coach\" review trigger to C06, whose passage is the \"5 or 10%\" quote, so this sentence itself is not tracked.",
+			"acceptance_test": "Rewrite as a durable fact (\"His father has coached him full time since 2023, so the closest witness is not independent\") and either add this passage to C06 or create a time_sensitive claim for it that carries the existing \"check whether Bryan Shelton is still Ben's coach\" trigger. The sentence must remain true whether or not the arrangement ends."
+		},
+		{
+			"id": "future-02",
+			"severity": "major",
+			"passage": "Dallas in February, a clay title in Munich in April, a grass title in Stuttgart in June, Montreal defended in August",
+			"problem": "C60 is marked unresolved with a review trigger that fires before publication: the Munich and Stuttgart titles rest on Wikipedia alone (S31), which is a tertiary source that changes. The sentence is what \"removed the 'not elite' verdict\", so it is doing argumentative work, not decoration. Publishing with an open pre-publication trigger converts a research state into a factual assertion.",
+			"acceptance_test": "Open the ATP results or tournament pages for the BMW Open (April 2026) and the Boss Open (June 2026), record them as opened sources with dates and final scorelines, cite one inline at this sentence, and set C60 to stable. If they cannot be opened, cut Munich and Stuttgart from the sentence and let the verdict rest on Dallas and Montreal, which are already confirmed by tour reports and a transcript."
+		},
+		{
+			"id": "future-03",
+			"severity": "major",
+			"passage": "One father remark, a Tennis Temple headline quoting Bryan that \"there are times he sabotages himself,\" could not be opened at its source.",
+			"problem": "C48 is unresolved with a trigger that fires before publication. The draft also freezes a transient research condition (\"could not be opened\") into the published prose here and again in \"What neither type explains\". A reader in 2029 gets a note about a fetch failure rather than either the testimony or a durable statement of the limit. The evidence record calls this the only father testimony naming a cost, so leaving it as an unopened headline weakens the counterevidence for five years.",
+			"acceptance_test": "Before publication, locate the original interview behind the Tennis Temple headline (podcast or broadcast), quote it with date and context, and let it reshape the cautions paragraph; set C48 to a resolved class. If it cannot be found, remove the headline from both body passages and keep the gap in the evidence record, or phrase it as a durable limitation (\"this profile could not verify a relayed remark in which Bryan reportedly said his son sometimes sabotages himself\") without describing the tooling failure."
+		},
+		{
+			"id": "future-04",
+			"severity": "minor",
+			"passage": "He beat him in the quarterfinal, 6-7, 6-1, 6-3, 1-6, 7-6, in the latest finish in the tournament's history.",
+			"problem": "A superlative record claim inventoried as stable (C62) with no review trigger. Records of this kind are broken; the 3:33 a.m. finish itself displaced an earlier record. The sentence will silently become false without any trigger firing.",
+			"acceptance_test": "Make the sentence permanently true (\"then the latest finish in the tournament's history\" or \"the latest finish in the tournament's history to that point\"), or keep the wording and change C62 to time_sensitive with a trigger to check the US Open latest-finish record at each refresh."
+		},
+		{
+			"id": "future-05",
+			"severity": "minor",
+			"passage": "He has kept the chaser's chair through a rise to No. 4 in the world.",
+			"problem": "Undated ranking status inside the type argument. C36 dates and tracks the No. 4 ranking only at the September 14, 2026 sentence in the final section; this earlier mention has no date and is not inventoried, so a refresh that updates the dated line can leave this one stale. The dated line also cites Wikipedia with an access date, which will not show the September 2026 list to a future reader.",
+			"acceptance_test": "Date the sentence (\"through a rise to No. 4 in the world by September 2026\") and add it to C36's tracked passages, or replace the number with wording that stays true (\"through a rise into the top five\"). For the dated line in the final section, cite the ATP rankings or an ATP report for the September 14, 2026 list instead of Wikipedia, per C36's own alternative note."
+		},
+		{
+			"id": "future-06",
+			"severity": "minor",
+			"passage": "Boredom would be a Seven's pain. Watching others advance is a Three's.",
+			"problem": "One of the four named discriminator instances in \"The case for Type 7\" (\"the pain of watching others advance\") rests on a single quote from the latest event, the September 13, 2026 final press conference. The other three instances span 2023 to 2026. Removing the final removes this leg entirely, so the article slightly overstates how consistently he \"names\" comparative pain.",
+			"acceptance_test": "Either add one earlier dated instance of comparative pain from an existing opened source (for example an early-exit press conference from 2024 or 2025 if the transcript says something similar), or soften the sentence to mark it as a single instance (\"the one time he named what hurt, it was comparative\") and drop \"the pain of watching others advance\" from the list of things he \"names consistently\" at the end of the Type 7 section."
+		},
+		{
+			"id": "future-07",
+			"severity": "minor",
+			"passage": "The split is still the best available measurement of what a big stage does to him.",
+			"problem": "\"Still\" is a present-tense editorial judgment about a fan-site author's 2025 statistics. Within a season it will be false: 2026 alone added a Grand Slam final and four titles, and C40's trigger already says to attribute strictly to the November 2025 piece or recompute. The preceding sentence dates the verdict; this one un-dates it.",
+			"acceptance_test": "Either drop \"still\" and bound the claim (\"Through 2025, the split is the clearest available measurement of what a big stage does to him\") or recompute majors-versus-elsewhere from official 2026 results, date the new figure, and add the ATP source to C40."
+		},
+		{
+			"id": "future-08",
+			"severity": "minor",
+			"passage": "Press conferences reward exactly this register, and a 23-year-old on a tour where Sinner and Alcaraz win everything will talk about chasing regardless of type.",
+			"problem": "The discount that qualifies the entire Type 3 case depends on an undated description of the tour's competitive landscape. In five years \"Sinner and Alcaraz win everything\" may be untrue or forgotten, and the reader loses the reason the chase talk should be discounted. The age anchors the year only for readers who know his birthday.",
+			"acceptance_test": "Date the clause (\"in 2026, a 23-year-old on a tour where Sinner and Alcaraz were winning nearly everything\") so the discount stays legible after the landscape changes."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Take the final away and the argument does not move. The Melbourne answer is from 2023. The chaser's chair was his in 2023, 2025 and 2026, after titles and after losses.",
+			"reason": "The draft performs the five-year test on itself and passes it honestly. This paragraph is what keeps a recency-heavy final section from becoming the thesis."
+		},
+		{
+			"passage": "Honestly, when the whole crowd is for you, you feel this expectation that you have to deliver. When you miss a shot they're, like, Oh, and maybe you feel like you're letting them down a little bit. I find it easy to play free when the crowd is coming at you and being aggressive. I enjoy that hostile atmosphere.",
+			"reason": "The discriminator is a verbatim, dated, pre-fame quote from January 21, 2023. Its durability does not depend on any later result, which is why the whole profile survives the removal of 2026."
+		},
+		{
+			"passage": "Three and a half years later, after defending his Masters 1000 title in Montreal without dropping a set, he still put himself behind: \"I love having people out in front of me that I can chase. It's been that way my whole career. I've never just been the best. I've always been chasing the best.\"",
+			"reason": "This is the dated repetition that turns a single quote into a pattern (2023, August 2026, September 2026, after wins and after losses). It is the Durability 9 anchor in practice."
+		},
+		{
+			"passage": "He does not want to be called a showman. He also wants the freedom to put on a show. Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"reason": "A dated, unresolved contradiction left open rather than explained away. It stays true no matter what he does next and is the kind of detail that makes the portrait a person rather than a type."
+		},
+		{
+			"passage": "The most direct description of his temperament comes from a coach-father who is not a neutral witness. And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"reason": "The incentive and coaching discount is stated in durable terms that hold whether or not the coaching arrangement continues, and it protects the reader from over-reading press-conference register as motive."
+		}
+	],
+	"assessment": "Five-year verdict: the thesis passes. The discriminator (Melbourne, January 21, 2023) predates fame and the chase-talk pattern is dated across 2023, 2025 and 2026, in wins and losses; the draft explicitly removes the 2026 final and shows the argument standing. The hook is 2023, not the latest event. What does not yet pass is the housekeeping around the latest event and the coaching arrangement: one present-tense, uninventoried status claim carries the main evidence discount (future-01); two claims in the evidence record carry triggers that fire before publication and are still open (future-02, future-03), one of which freezes a fetch failure into the prose; and a superlative record, an undated ranking, an undated tour-landscape aside and a \"still\" judgment will go stale without any trigger firing (future-04, -05, -07, -08). The comparative-pain leg of the discriminator rests on the final alone (future-06); the other three legs do not. All non-stable claims in the record (C06, C36, C37, C40, C48, C60) carry actionable triggers, and the C06 podcast-date discrepancy is handled honestly by not asserting a date. The closing section is entirely 2026 US Open; that is acceptable because it is dated, framed as one more instance, and preceded by the self-test paragraph, but the editor should keep the final as a dated example rather than a culmination so a later Grand Slam title does not orphan the ending. Similarity diagnostic: not tripped per the advisory (top pair 0.055, noise-floor p99 0.008); I compared the flagged pairs against michael-jordan, Mel-Robbins and alexandr-wang and they share ordinary type vocabulary (\"blind spot\", \"being seen to deliver\") and no argument structure, so no formulaic-writing finding is warranted. Risks: contested_typing stays true (Type 3 over 7 at medium confidence); no escalation."
+}

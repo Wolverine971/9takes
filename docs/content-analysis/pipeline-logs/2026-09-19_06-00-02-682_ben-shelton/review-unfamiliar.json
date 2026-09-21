@@ -1,0 +1,93 @@
+{
+	"schema_version": 3,
+	"role": "unfamiliar",
+	"content_sha256": "f24058ec705862cdc5b50d69f088e7cec1d006f035f32e2c9d124d1cbea7e6fc",
+	"evidence_sha256": "202adeee7f631175aef758ac1adf966ac61826ab370cf9cedcebb68ddcd91b5f",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "unfamiliar-01",
+			"severity": "major",
+			"passage": "Then a reporter asked whether the hand-to-the-ear gesture he had carried over from college helped in a building like that, and Shelton gave the most useful answer in four years of his press conferences.",
+			"problem": "A reader with no prior knowledge meets one 'hand-to-the-ear gesture' in January 2023 here, then in 'Dialed in' reads that on September 6, 2023 he 'put a hand to his ear, and hung up the phone', and then reads in the FAQ that he 'first did it' that September night. The three passages look like the same gesture and contradict each other. The January 21, 2023 transcript (S13, reopened) shows the reporter asked about him 'putting your hand to your ear as if \"I can't hear you\"', a cupped-ear taunt to the crowd, and Shelton answered only 'Yeah, kind of a similar type of atmosphere. Yeah, I think it helps me.' That is a different gesture from the phone celebration, and 'carried over from college' is the reporter's framing, not his statement. The profile's signature detail (in keywords and a FAQ) is left ambiguous for exactly the reader who does not already know the difference.",
+			"acceptance_test": "The opening describes the Melbourne gesture as cupping a hand to his ear as if to say 'I can't hear you' and attributes the college link to the reporter's question and his 'similar type of atmosphere' reply; the 'Dialed in' section makes explicit that the phone celebration is a different gesture (hand to ear as a receiver, then hung up); an unfamiliar reader can no longer read the two as the same thing."
+		},
+		{
+			"id": "unfamiliar-02",
+			"severity": "minor",
+			"passage": "He first did it on Arthur Ashe Stadium after beating Frances Tiafoe on September 6, 2023, and explained it that night: \"I'm saying I'm dialed in.\"",
+			"problem": "Two things in this FAQ sentence are not what the cited transcript (S04) establishes. First, the reporter asked for 'the origin of' the gesture and Shelton gave its origin (Grant Holloway, his Gainesville friends); nothing in the transcript says this was the first time he did it, so 'He first did it' is an unsupported precision that an unfamiliar reader will take as fact. Second, the date: the transcript header reads September 6, 2023, but in the same session he says he has 'two days off from singles' and does not 'play till Friday' (the Djokovic semifinal, S05, September 8), which implies the match was played Tuesday, September 5 and the press conference ran past midnight. The body repeats 'On September 6, 2023' and then says Djokovic beat him 'Two days later'; if the match was September 5 that is three days. A searcher reading only the FAQ gets a date and a 'first' that the evidence does not carry.",
+			"acceptance_test": "Confirm the Tiafoe quarterfinal date against a tour or tournament source. If it was September 5, the body, the FAQ and the 'Two days later' bridge all agree with it and the explanation is dated to the same night's press conference. 'He first did it' is removed unless a source dates the first occurrence; 'He explained it the night he beat Frances Tiafoe' is acceptable."
+		},
+		{
+			"id": "unfamiliar-03",
+			"severity": "minor",
+			"passage": "Two days later, after losing the semifinal to Jannik Sinner, he skipped the on-court interview and let the air out.",
+			"problem": "'Skipped the on-court interview' reads to an unfamiliar reader as a deliberate boycott continuing the broadcaster fight. The transcript (S03) shows a wry aside to a question about follow-up conversations: 'Yeah, obviously I didn't do any on-court interview today (smiling)'. Losing semifinalists are not given on-court interviews, so the 'obviously' is a joke about having lost, not an act of protest. The sentence then makes 'let the air out' look like a reversal of a stand he never took.",
+			"acceptance_test": "Either a source shows he declined an on-court interview he was offered, or the sentence is rephrased to report what the transcript shows (he joked that, having lost, there was no on-court interview to give) and the de-escalation rests on the 'cumulative stacking up' quote alone."
+		},
+		{
+			"id": "unfamiliar-04",
+			"severity": "minor",
+			"passage": "Four days later Zverev beat him in the final, 6-3, 7-6, 5-7, 6-2.",
+			"problem": "The closing section jumps from the 3:33 a.m. quarterfinal straight to the final. A reader who does not follow tennis is left wondering who he beat in the semifinal, or whether the profile forgot a round. The same section never says this was his first Grand Slam final, although both S08's context and S31 state it; without that line the stakes of 'something he had never felt before' and 'this is the position I want to be in' are weaker than the record supports.",
+			"acceptance_test": "One sourced clause names the semifinal opponent and result (or at minimum bridges 'after winning his semifinal'), and the section states that the 2026 US Open final was his first Grand Slam final with a source."
+		},
+		{
+			"id": "unfamiliar-05",
+			"severity": "minor",
+			"passage": "At 3:33 a.m. on September 9, 2026, after four hours and 28 minutes against Carlos Alcaraz, he called it \"the most enjoyable match that I've had in my career, for sure.\"",
+			"problem": "At this point the reader has not been told he won that match; the result arrives two sections later. 'Joy is his register in pain' is being argued with a quote whose weight depends on the result (a winner calling a five-setter enjoyable is ordinary; a loser doing so would be striking), and the reader cannot weigh it. The same withholding happens in the FAQ ('a 3:33 a.m. finish against Carlos Alcaraz'). The Tiafoe example in the same paragraph is also a win, so the paragraph's evidence for joy-in-pain is two victories presented as if the result were incidental.",
+			"acceptance_test": "The result is stated at first mention (for example 'after beating Carlos Alcaraz in four hours and 28 minutes'), in the body and in the FAQ, and the paragraph acknowledges that both joy-in-pain examples are wins."
+		},
+		{
+			"id": "unfamiliar-06",
+			"severity": "minor",
+			"passage": "Seven months later, in a fashion magazine, he defended the thing he had disowned.",
+			"problem": "The magazine is not named or linked at this passage, and 'seven months later' forces the reader to count from a date two paragraphs back. The quote that follows ('I definitely don't think it's hokey...') is one of the two halves of the article's central unresolved contradiction, so a reader who wants to check it has nowhere to click. The same gap recurs at 'After Sinner in 2025: \"Next time I'm out there with set points, I'm going to hit the ace (smiling).\"', which has no link to the January 24, 2025 transcript.",
+			"acceptance_test": "The 'hokey' quote is attributed to Highsnobiety with its date (August 28, 2025) and linked at that passage, and the 'set points' quote carries a link to the January 24, 2025 transcript."
+		},
+		{
+			"id": "unfamiliar-07",
+			"severity": "minor",
+			"passage": "And no wing is asserted here.",
+			"problem": "'Wing', '3w2' and '3w4' are never defined for a reader who arrived from a search for Ben Shelton rather than for the Enneagram, and there is no link to a wings explainer. The same insider vocabulary appears earlier at 'The reason Type 3 still leads is the discriminator.', where 'the discriminator' is workflow jargon used as if the reader already knew the term; the sentence that follows explains the idea well, so the bare noun is the only obstacle.",
+			"acceptance_test": "One plain-language clause defines a wing (or links to the site's wings explainer) before 3w2/3w4 appear, and 'the discriminator' is replaced with plain wording such as 'the one observation that separates the two readings'."
+		},
+		{
+			"id": "unfamiliar-08",
+			"severity": "minor",
+			"passage": "abandons a serving plan the moment an ace lands",
+			"problem": "The FAQ states this as a standing habit. The body has a single instance (one service game at Wimbledon on July 3, 2025, C17), and the evidence record's own limit says 'A single game'. A reader who only sees the FAQ learns a trait the article does not establish.",
+			"acceptance_test": "The FAQ describes the single dated episode ('abandoned his serving plan after an early ace at Wimbledon in July 2025') or the habit is supported by a second sourced instance."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "So the crowd is what keeps him going, and the crowd's approval is what ties him up. That is the puzzle this profile works on: a player who wants the biggest stage in the sport and plays best when nobody in the building expects anything of him.",
+			"reason": "States the puzzle in one sentence an unfamiliar reader can hold for the whole article; every later section pays it off."
+		},
+		{
+			"passage": "It is a small line, and it is the first time on record that he manages how something reads.",
+			"reason": "Earns a psychological observation from a tiny sourced detail instead of asserting it; the reader learns how to read the rest of the record."
+		},
+		{
+			"passage": "He does not want to be called a showman. He also wants the freedom to put on a show. Both have been true at once since 2025, and this profile does not pretend they reconcile.",
+			"reason": "A real contradiction left standing; it makes the subject a person rather than a type illustration and survives whichever type wins."
+		},
+		{
+			"passage": "Boredom would be a Seven's pain. Watching others advance is a Three's.",
+			"reason": "The clearest plain-language version of the Type 3 versus Type 7 distinction in the article; a reader with no Enneagram background gets the whole argument in two sentences."
+		},
+		{
+			"passage": "The test for any passage in this article is whether it works when his motive is \"be seen to deliver\" and fails when it is \"avoid pain and keep options open.\" The Melbourne answer passes. The Zverev refusal fails. Both belong in the portrait.",
+			"reason": "Gives the reader the article's own falsification test and applies it honestly to a passage that fails; this is what keeps the typing from reading as a foregone conclusion."
+		}
+	],
+	"assessment": "Read cold, the profile orients well: by the end of the second paragraph the reader knows who he is, where he is, how old he is and what the puzzle is, and the dated chronology from 2002 to September 2026 is easy to follow despite the deliberate jumps. Momentum holds because each middle section adds a new kind of evidence (family, coaching method, the celebration, the showman fight) and the two 'case for' sections argue rather than restate. The reader leaves knowing the crowd paradox, the chaser self-story, the phone celebration's origin, the father-coach discount and why Type 7 is a live rival, which is more than most profiles deliver. The consequential problem is the gesture confusion (unfamiliar-01/02): the opening's ear gesture, the phone celebration and the FAQ's 'first did it' read as one contradictory story to exactly the reader this role represents, and the Tiafoe date and 'first' claim need checking. The remaining findings are clarity and stakes: the closing section skips the semifinal and never says 'first Grand Slam final', two quotes lack links where they matter, the Alcaraz result is withheld while the quote's weight depends on it, one FAQ turns a single game into a habit, and 'wing'/'discriminator' are undefined. Typing remains contested by the article's own account (medium confidence, Type 7 a serious rival), so contested_typing is flagged; no allegations or historical-source problems. Similarity diagnostic: not tripped; I compared the top pairs (Jordan 0.055, Robbins 0.054, Wang 0.05) and they share only generic type vocabulary ('blind spot', 'in front of'), while the actual arguments (letting supporters down versus worth proven before witnesses) differ. The diagnostic saw only 13 units of this draft, so it is a weak instrument here, but direct reading found no reusable boilerplate; the details (John Cain Arena, Grant Holloway, the 5 or 10 percent, the 3:33 a.m. finish) are specific to Shelton."
+}

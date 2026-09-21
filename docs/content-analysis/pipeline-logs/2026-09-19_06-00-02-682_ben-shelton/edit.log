@@ -1,0 +1,28 @@
+The edit stage is complete. All three requested outputs are written in the run directory and pass the contract checks; no inputs were modified and nothing was published.
+
+**Outputs**
+
+- `edit.md`: 4,455 words, zero machine blockers, unpublished, with `date`, `lastmod`, `loc` and `person` preserved.
+- `evidence-edit.json`: 41 sources (35 carried forward, 6 new) and 90 claims, every passage matched exactly to the article surface.
+- `resolution-edit.json`: decisions on all 50 findings, all 22 distinct protected passages recorded, no inherited blockers.
+
+**What changed in the article**
+
+- The performance claim came out of the hook, title, description and FAQ. The record holds a self-report, not a result, so the persona title is now "The Chaser Who Feeds Off Crowds" and the Type 3 case confronts his best runs on Ashe directly.
+- The Melbourne quote now prints its own counterweight and the reporter's college framing. The two ear gestures are described as different things.
+- Six transcript misreadings were fixed after reopening the sources: the "skipped" on-court interview, "cut off the angle", the Agassi/Nadal "declined", the cut "Passionate about being out there" sentence, "unbothered", and the media-training claim.
+- The father's "sabotages himself" remark was located in two independent relays and is quoted with dates and context beside the 2026 early exits.
+- A new "The case for Type 6" section tests the counterphobic reading and names the separating observation. Confidence stays medium, thesis and alternative unchanged, so no review-scope escalation.
+- Nine reviewer-flagged overreadings were reduced to explicit, hedged interpretations with the ordinary alternative stated alongside.
+
+**Protected passages**
+
+Thirteen are verbatim. Nine changed with reasons recorded. Two of those changes remove details the packet does not support: "Boredom would be a Seven's pain" no longer claims to discriminate, and "2023, 2025 and 2026" became "2023 and 2026" because no 2025 chase statement exists in the evidence.
+
+**Not verifiable this run**
+
+- ATP pages returned 403, so Munich, Stuttgart, the 2026 early exits and the September 14 ranking rest on AP wire copies, Tennis365 and Wikipedia. Recorded as research tasks.
+- The podcast audio was not opened; the "5 or 10%" and "sabotages himself" wording rests on relays, with the audio check recorded as a task.
+- The ESPN 2022 profile was reopened only via a summarizing fetch, so its two new quotes are marked as fragments.
+
+Next stage is independent verification against `verification-edit.json`.

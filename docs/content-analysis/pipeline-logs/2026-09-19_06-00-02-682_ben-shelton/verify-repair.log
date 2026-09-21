@@ -1,0 +1,29 @@
+Verification complete. One file written: `verification-repair.json` in the run directory. Nothing else was modified.
+
+**Status: pass.** The runner's own decision on the full artifact set returns eligible with no blockers.
+
+| Dimension | Score |
+|---|---|
+| Evidence | 8.5 |
+| Enneagram | 8.1 |
+| Originality | 8.6 |
+| Writing | 8.3 |
+| Durability | 8.9 |
+| Hook | 9.0 |
+| Discoverability | 8.5 |
+| Overall | 8.5 (B+) |
+
+**What I verified**
+- Reopened all 42 sources. 38 via curl, the four ATP pages via the fetch tool after curl returned 403. Tennis Temple (S35) is still unreachable but is cited by no claim.
+- Machine-matched every quotation in the body and frontmatter against the retrieved source text. All matched verbatim. The three fidelity problems from the previous round (S02 GOAT sentences, S05 middle sentence, S16 "under control") are repaired.
+- Checked all 93 claims (81 supported, 12 qualified, none unsupported), all 56 review and verifier decisions against their acceptance tests, and all 22 distinct protected passages. Every decision is accepted; every protected passage is preserved verbatim or changed with its contribution intact.
+- Confirmed the Type 6 section exists and is argued, metadata agrees with the body, FAQ anchors match headings, the three type links and four suggestion slugs resolve, and the argument survives removal of the 2026 final.
+
+**Three minor findings remain**, none blocking:
+- Meg Jay wrote the Grand Slam match was one Ben "was losing"; the article says he "lost" it.
+- Four small precisions exceed the sources: the podcast dated "November 2023" from a Nov 23 relay saying "recently", "that afternoon" where the transcript says "today", a compressed clips answer, and three back-reference fragments closed with a period inside the quotes.
+- The subject-08 resolution says the "talked in the gym after" clause is included; it was cut at the repair stage. Restore it or correct the record.
+
+**Open research tasks** carried forward: the E35 audio check for both Bryan Shelton quotes, the Vogue and GQ originals, ATP results pages for the 2026 Indian Wells and Miami rounds and the 2023 and 2024 titles, and sourcing the podcast air date.
+
+One disclosure: while listing the run directory I saw the prior round's score summary in `repair-findings.json`. My dimension scores were assessed from the candidate with passage-specific reasons before computing any overall, and several differ from that summary.

@@ -1,0 +1,100 @@
+{
+	"schema_version": 3,
+	"role": "critic",
+	"content_sha256": "f24058ec705862cdc5b50d69f088e7cec1d006f035f32e2c9d124d1cbea7e6fc",
+	"evidence_sha256": "202adeee7f631175aef758ac1adf966ac61826ab370cf9cedcebb68ddcd91b5f",
+	"risks": {
+		"sensitive_allegations": false,
+		"contested_typing": true,
+		"historical_source_uncertainty": false,
+		"major_thesis_change": false
+	},
+	"findings": [
+		{
+			"id": "critic-01",
+			"severity": "major",
+			"passage": "Start with the Melbourne answer, because it came before anyone had media-trained him and because it names the mechanism.",
+			"problem": "The discriminator is presented without its own counterweight. In the S13 transcript (reopened) the reporter's question was explicitly about college crowds (\"Is that part of playing in college and in front of crowds like that? Does that help you?\"), Shelton opened with \"Yeah, kind of a similar type of atmosphere. Yeah, I think it helps me,\" and two answers earlier called the arena \"Similar to some away matches and college atmospheres that I have been at, but definitely amplified today.\" Immediately after \"I enjoy that hostile atmosphere\" he added: \"So it's always a little bit bitter sometimes when you are, like, oh, man, you win a point, and there's no one cheering for you, but it also motivates you a little bit.\" The draft, in the hook, the Type 3 case and FAQ 4, stops the quote before the bitter line and never mentions the college framing, so the reader gets \"hostility takes evaluation out of the room\" when the speaker said the absence of support stings and that he is habituated to hostile rooms from college. The evidence record's own C10 alternative lists both points; the draft voices neither. The claim that the answer came \"before anyone had media-trained him\" has no source in the packet, and the transcript shows him treating the setting as familiar. \"That is the Three's fear, stated in his own words at 20\" also strips his hedges: he said \"maybe you feel like you're letting them down a little bit,\" not that he fears it.",
+			"acceptance_test": "Wherever the Melbourne answer is used as the discriminator (hook, Type 3 case, FAQ 4), quote or paraphrase the college framing and the \"bitter... no one cheering... motivates you\" continuation, restore the hedges (\"maybe,\" \"a little bit\") in any paraphrase, remove or source the media-training claim, and state plainly what the discriminator still shows once the bitter line is in view."
+		},
+		{
+			"id": "critic-02",
+			"severity": "major",
+			"passage": "Boredom would be a Seven's pain. Watching others advance is a Three's.",
+			"problem": "Stereotyped and unsupported. The classic Type 7 pain is deprivation and missing out, and \"sitting at home for 10, 11, 12 days while the tournament is still going on, watching, you know, everyone else run through the draw\" is a literal description of missing out. In the S08 transcript (reopened) the question was how this Sunday felt different from other Sundays; he answered with \"an addicting feeling being in positions like this,\" then the sitting-at-home line, then \"You know, it's motivating... but this is the position I want to be in.\" That is a wish to be in the action, which a stimulation motive explains at least as well as a comparative status motive. The draft asserts the opposite in two sentences and offers it as evidence the Seven reading fails.",
+			"acceptance_test": "Either supply a sourced statement that a deprivation/missing-out motive cannot explain (an explicitly comparative or ranking-relative remark) and show why it beats the FOMO reading, or reclassify the sitting-at-home quote as consistent with both types and delete the boredom/advance contrast from the Type 3 case."
+		},
+		{
+			"id": "critic-03",
+			"severity": "major",
+			"passage": "The verdict did not survive 2026. The split is still the best available measurement of what a big stage does to him.",
+			"problem": "An opinion column's win-rate split is converted into a measurement of a crowd or stage effect without confronting the obvious structural confounds: majors are best-of-five (rewarding a big server's physicality), 128-player draws give a top-10 seed weaker early-round opponents than Masters 1000 draws do, and 2025's \"elsewhere\" includes clay and indoor swings. In the S30 column (reopened) Beatnik offers the number as evidence of inconsistency, noting his Canadian title came in a field without Sinner, Alcaraz, Djokovic or Draper; his point is opposition strength and week-to-week consistency, not crowds. The evidence record's C11 alternative already names the format confound; the draft asserts causation anyway.",
+			"acceptance_test": "Either attribute the big-stage reading to the columnist and name the format/draw confounds in the same paragraph, or cut the sentence claiming the split measures what a big stage does to him and let the stat stand only as the critic's consistency argument."
+		},
+		{
+			"id": "critic-04",
+			"severity": "major",
+			"passage": "Then he cut off the angle: \"I know everybody wants that to be the story.\"",
+			"problem": "Mischaracterizes the exchange in a way that flatters the image-management thesis. In the S08 transcript (reopened) that sentence opened his answer to a later two-part question about fatigue and return pacing, and he then engaged at length: \"I definitely think... there should be some sort of rule. I'm not sure exactly how you would do it, limiting time on second serve. You shouldn't have unlimited time,\" adding that his tiredness was cumulative, not from waiting. He did not cut off the angle; he endorsed a rule change. Separately, his stated reason for not crouching was physical (\"I'm not going to sit there in a ready position with my knees bent, tension in my body for 30 seconds\"), which the \"resists constraint\" framing omits.",
+			"acceptance_test": "Replace \"cut off the angle\" with an accurate summary that he went on to propose limiting time on second serves and gave a physical rationale for staying loose, or drop the line; the \"resists constraint\" paragraph must acknowledge his stated reason before reading the episode as evidence for either type."
+		},
+		{
+			"id": "critic-05",
+			"severity": "major",
+			"passage": "Offered a place on a list with Andre Agassi and Rafael Nadal as back-to-back Canadian champions, he declined it: \"Obviously I'm nowhere near that, and I would never say or claim to be among those guys.\"",
+			"problem": "He did not decline it. In the S10 transcript (reopened) the answer begins \"It's an elite group to be a part of, even if it's just one category, you know,\" and ends \"to be among them in anything is an honor, for sure.\" The disclaimer sits inside an acceptance. The draft presents the truncated version as evidence that he manages how achievement reads \"in both directions,\" when the full answer is ordinary modesty about a company he says he is honoured to join.",
+			"acceptance_test": "Summarize the answer accurately, including the \"elite group\" and \"honor\" lines, then either show why it still supports the type claim or remove it from the Type 3 case."
+		},
+		{
+			"id": "critic-06",
+			"severity": "major",
+			"passage": "Seven months later, in a fashion magazine, he defended the thing he had disowned.",
+			"problem": "The contradiction the section is built on does not hold. In January 2025 he disowned the label \"showman\" and described a more focused style; he never disowned celebrations, and had defended them since September 2023 (\"if you win the match, you deserve to do whatever you want\"). Rejecting a label while defending the right to celebrate is a consistent position, so \"this profile does not pretend they reconcile\" presents as unresolved something that reconciles on its face. A real tension is available in the same sources and is not the one drawn: \"blinders on... not notice too much outside the court\" (January 2025) against \"I feed off crowds. It's the one thing that kind of keeps me going\" (August 2025).",
+			"acceptance_test": "Either rebuild the section around the blinders-on versus feeds-off-crowds pairing with both quotes dated, or reword so the section no longer asserts that he disowned and then defended the same thing."
+		},
+		{
+			"id": "critic-07",
+			"severity": "major",
+			"passage": "He has kept the chaser's chair through a rise to No. 4 in the world. That looks like expectation management, and the Melbourne answer explains why it would be worth managing.",
+			"problem": "Motive is read into accurate self-description. In the S10 transcript (reopened) the Montreal chase line answered \"how much confidence does that give you to challenge the Janniks, Carloses of this tour?\"; he was ranked sixth, had never beaten Alcaraz, and added \"Been a little bit behind, you could say, in my progression.\" At No. 4 three players remain ahead of him. \"Late bloomer\" describes a player who took up tennis around 12, skipped the international junior circuit and turned professional at 19 after college, and in S08 he glossed it as \"I haven't always been successful the very first time that I've been in finals.\" A person literally behind the top three saying he is chasing them is not evidence of lowering expectations he could reasonably hold. The later discount paragraph concedes the incentive but does not concede that the statements are simply true.",
+			"acceptance_test": "For each chaser/late-bloomer use, either cite a statement where he lowers expectations he was entitled to hold (as favourite or defending champion) or label the remarks as literal descriptions consistent with either type; drop \"That looks like expectation management\" unless supported by such a statement."
+		},
+		{
+			"id": "critic-08",
+			"severity": "major",
+			"passage": "So is the direction of his self-edits: between 2023 and 2026 he narrowed the persona toward \"blinders on\" and \"locked in\" because it produced results. A Seven tends to fight that narrowing. A Three adopts whatever wins respect.",
+			"problem": "An attractive causal story without support in the draft. The \"because it produced results\" link is not sourced anywhere in the article (the 2023 red-lining versus 70-80 percent material that could carry it was removed from the inventory as unused), and the ordinary alternative recorded in the evidence record (C22: professionalisation between 21 and 23 under a coach-father is normal maturation and not type-specific) is never voiced in the prose. The closing type contrast is a stereotype pair that would apply to any young athlete who matured.",
+			"acceptance_test": "Source the results link with his own words or soften it to his stated account of becoming \"more professional\"; state the maturation/coaching alternative in the same paragraph; and either evidence the Seven-fights-narrowing claim from his record or remove the two type-contrast sentences."
+		},
+		{
+			"id": "critic-09",
+			"severity": "minor",
+			"passage": "It is a small line, and it is the first time on record that he manages how something reads.",
+			"problem": "\"First time on record\" is an unsupported absolute, and the reading is a reach: the evidence record's own C05 alternative notes that anyone playing for a parent invites exactly this defensive framing regardless of temperament. Planting the thesis in a 2022 biography line this way asks the reader to accept the type before the argument begins.",
+			"acceptance_test": "Remove \"first time on record\" or replace it with a hedged reading that names the nepotism-question alternative, or cut the sentence and let the quote stand as biography."
+		}
+	],
+	"protected_passages": [
+		{
+			"passage": "Almost everything he has said on the record comes from tournament press conferences, which reward process, gratitude and improvement, and from sponsor and fashion features, which reward diligence. His father is his coach, so the closest witness is not independent, and Bryan Shelton's remarks reach print mostly through podcasts relayed by aggregators.",
+			"reason": "Honest, specific scoping of the source base at the top of the article; this is the paragraph that makes the medium-confidence claim credible and should survive any repair."
+		},
+		{
+			"passage": "And the press-conference habit that reads so cleanly as Type 3 below, owning the flaw and pivoting to the next step, is exactly what a parent who asks \"What do you think about moving up?\" would train.",
+			"reason": "Confronts the strongest non-type explanation for the core behavioural evidence before that evidence is used; a genuinely skeptical move most profiles skip."
+		},
+		{
+			"passage": "One discount applies to all of it. Press conferences reward exactly this register, and a 23-year-old on a tour where Sinner and Alcaraz win everything will talk about chasing regardless of type.",
+			"reason": "Names the incentive confound on the whole Type 3 case in the author's own voice; keep it even if the surrounding case is narrowed."
+		},
+		{
+			"passage": "His indifference to his own coverage sits oddly with an image motive. He does not watch the clips of his father commentating on him. He was uninterested in his father's playing days. When Djokovic mimicked him on the biggest stage of his young career, what annoyed him was strangers on social media telling him how to celebrate, and he let his father carry the grievance.",
+			"reason": "Adverse evidence against the leading type, stated concretely and left unresolved rather than explained away with a wing."
+		},
+		{
+			"passage": "That is Bryan's reading of intent. Djokovic's stated account differs, and Ben never adopted his father's version in public.",
+			"reason": "Fair handling of a disputed intent claim: attributes the accusation, gives the other party's account, and notes the subject's own silence."
+		}
+	],
+	"assessment": "The draft is honest about its structural limits (coach-father witness, relayed testimony, the unopened 'sabotages himself' remark, press-conference incentives) and gives Type 7 a real hearing. Its weakness is the opposite habit inside the Type 3 case: the passages that carry the thesis are over-read. Reopening S13, S08 and S10 shows the discriminator quote is cut before the speaker's own counterweight ('bitter... no one cheering... motivates you') and its college framing; two quoted exchanges (Agassi/Nadal 'declined it', 'cut off the angle') are summarized in ways that flatter an image-management reading and are contradicted by the transcripts; the 77/61 stat is converted from a consistency argument into a crowd-effect measurement without the format and draw confounds the evidence record itself lists; and the chaser/late-bloomer repeats are literal descriptions of his ranking read as motive. The 'showman' section asserts a contradiction that reconciles on its face. None of this shows Type 7 is right, but after repair the discriminator is thinner than the draft claims, and the editor should be prepared for medium confidence to become low or for the Zverev/FOMO evidence to move the balance; contested_typing stays flagged. Similarity diagnostic: not tripped; the top pairs are ordinary Type 3 definitional sentences with no shared phrasing beyond 'blind spot', and the compared arguments differ, so no reuse finding. Limitation: the diagnostic does not measure section scaffolding, and this role cannot inspect other drafts, so the 'case for / case for / what neither explains' structure was not tested for recurrence. Sources reopened for this review: S13, S08, S10, S30. S27 (ATP) could not be fetched; the deciding-set figure was not checked here."
+}

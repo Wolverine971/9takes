@@ -1,0 +1,14 @@
+The review-subject stage is complete. I wrote the single requested output, `review-subject.json`, into the run directory. It validates against `reviewSchema`, copies role and both hashes from the request, and every cited passage matches the frozen draft verbatim. No other files were touched, and nothing was published. The three pre-existing modified files in that directory (`research.log`, `run.json`, `stage-summary.tsv`) were already dirty before this stage and I did not edit them.
+
+**What the subject-proxy review found.** The draft is structurally fair: it discloses source bias, names the coach-father as non-independent, and concedes its own counterexample. The consequential problems are all one kind: his words get converted into facts about him.
+
+- **Metadata overclaim (major).** One 2023 self-description ("easy to play free when the crowd is coming at you") becomes a performance trait across the hook, persona title, description, and an FAQ that asks why he plays *better* when booed. The draft's own numbers show his best results at home and at majors.
+- **Invented biographical fact (major).** "Before anyone had media-trained him" has no source, and the Type 3 case leans on it.
+- **Trimmed quote sharpens a contradiction (major).** The January 2025 showman answer omits "I love being out there, and that energy comes out at times," so "refused" and "disowned" overstate.
+- **Omitted context on Djokovic (major).** The evidence record notes he said he did not see the mimicry live. The draft reads him as "unbothered" and says he "let his father carry the grievance."
+- **Invented protest (major).** Losers of a semifinal do not give on-court interviews. "He skipped the on-court interview" turns a wry remark into an act.
+- **Unopened headline quoted twice (major).** "Sabotages himself" appears in the intro and in "Two cautions" from a source research could not open.
+- **Imputed motive stated as fact (major).** "Narrowed the persona ... because it produced results" supplies a reason he never gave, then attaches a type stereotype.
+- **Two minor items.** Omitted self-softening lines (the Nacho apology offer, "good for the growth of tennis"), and an uncertain FAQ claim that the phone celebration debuted against Tiafoe rather than Paul, flagged for the evidence reviewer to settle.
+
+Five passages are marked protected, including the evidence-limits paragraph and the "Melbourne answer passes, Zverev refusal fails" test. Risk flags carry forward unchanged: contested typing stays true, no sensitive allegations. The similarity diagnostic did not trip and the top pairs share only ordinary Type 3 vocabulary. None of the findings requires a thesis change.
