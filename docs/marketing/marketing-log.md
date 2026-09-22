@@ -10,6 +10,16 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Active workstreams
 
+### 2026-09-21 — Unattended weekly brief: best takes on record landed on a host desk dead for 8 days; four reachable contributors got nothing; none of last week's bets shipped; DJ's week went to SEO infrastructure (GSC deploy-skew fix pushed; personality ISR + IndexNow sitting uncommitted); first v3 subject cleared 8.5 and then the create queue ran dry
+
+- Brief: [`docs/daily-briefs/2026-09-21_marketing-status.md`](../daily-briefs/2026-09-21_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-09-21`, audit exit 0 at 06:09:24; the Monday chain ran on time). Headline + biggest leak quoted verbatim. Supabase MCP down; one read-only `scripts/db-query.sh` query (people publish counts).
+- **Growth headline (verbatim):** _"the best takes on record (median 367 chars, gate 33%) landed in front of a host desk that has been silent for 8 days. The week produced four reachable contributors, two anonymous reply opt-ins, a repeat contributor who posted 3 takes and asked a question, and a search visitor who answered and then registered 7 minutes later, and every one of them got nothing. None of last week's three bets shipped."_ Cohort 09-14: 4,598 new visitors (8-week high; 602 search, first drop in 4 weeks), 1 signup, 1 profile, 9 human takes, gate 18 -> 6 = 33.3% (held numerator, -40% denominator); contributor return **0 / 28 across seven matured cohorts**; waitlist 0, 22nd week.
+- **Biggest leak (verbatim):** _"the same leak as last week, now with people standing in it."_ Host digest: last draft 09-12, last digest 09-13, 8 silent runs, 0/9 drafted; takes 743, 746, 747, 748 owed replies; no `maxDuration`, no run log, 48h lookback stranded 740-745. Mail: 19 days; the `process-sequences` 503 pre-check now blocks any retry; the 09-19 registrant's welcome failed 4 s after the first observed answer -> register conversion. Homepage: `/` 0/0 gate all week (was 15-19 fps/week in August); 0 of 131 home-entry sessions reached q203. Confirmed from git: no commit since 09-14 touches cron / hostDigest / email / giveFirstFunnel / questions / homepage.
+- **SEO is where the week went.** Pushed 09-19 (`6a5ac24ad`, `809a1410f`): GSC page-indexing audit (indexed 464 -> 524, not-indexed 764 -> 490 since July; one real bug, deploy-skew `noindex` on ~11 good pages; fix `scripts/carry-over-immutable-assets.mjs`, needs one deploy to verify); `/contact` redirects; `enneagram-personal-growth` rebuild + `BehaviorDecoder.svelte` + wave-2 seed-takes doc. **Uncommitted, not live:** personality pages to Vercel ISR (gate + comments split to `GET /api/personality-analysis/[slug]/discussion`; in-function UA block removed on those paths; `personalityIsrContract.spec.ts`), `pnpm revalidate:personality`, IndexNow submitter `pnpm submit:indexnow`, 2025 test-comparison unpublished + sitemap entry removed, love-languages title 2026. DJ owes `BYPASS_TOKEN`, `INDEXNOW_KEY` + `static/<key>.txt`. Side effect for growth: `content_access_events` + `9tanon` stop firing on personality pages.
+- **Content engine:** Ben Shelton passed the full v3 chain 09-20 (verify `pass`, release.json) and graded **8.5 B+ rubric v3**, `needs_review: false`; 09-20 publisher blocked it on images only (09-21 it left the top-8 list, unexplained). Rod Wave draft complete, `verify-repair` hit the 60-turn cap twice, ungraded, no release.json. Tom Rhys Harries FAILED permanently. Turn caps hit 4x this week (new v3 failure class); checkpoint resume works. Queue EMPTY at 02:00 09-21 (Telegram notified). Publisher "No publishable draft" 6/6 days; **0 people publishes since 09-10** (DB 450 / 134; disk 441 / 92). Node default now v24.18.0 (was 26.5.0), so `gen:all` should pass the engine check; unverified. Elizabeth Holmes refresh ran the full legacy chain 09-19 -> 8.0 B (v2), Stanford-date factual error flagged, 4,022 words; DB sync unverified.
+- **Still dark:** Instagram 45 days (queue RED 0/10, frozen 44 days; 6th restore-or-retire ask), Quora 125, Twitter 125, 9 distribution packets (oldest 208 days), 7/8 Reddit + 0 founding-circle invites (held per growth), outreach 48 days, One Take 58 days, GSC performance CSV 39 days stale, pop-culture 21 (20 at 3+ months, 8th brief).
+- **Next move (ranked, growth's bets adopted):** (1) DJ replies to 743/746/747/748 today; eng adds `maxDuration: 300`, a per-run digest log row that alarms on "human takes, zero drafts", last-success lookback. (2) Postal address -> `EMAIL_FOOTER_ADDRESS` -> re-arm 5 -> resend 208 -> header-checked test -> Enneagram batch; route the 503 alarm to Telegram. (3) Homepage fork: practice submit becomes the first take on q203 with `path='/'`, or reinstate the featured question; fix `contribution.path` in the same change. Following: Shelton images -> publish; land the SEO batch behind its two env vars; refill the create queue; Holmes date fix.
+
 ### 2026-09-14 — Unattended weekly brief: best gate week on record and nothing reaches the person afterward; mail blocked on a postal address that exists nowhere; the 09-10 homepage rebuild zeroed homepage gate exposure; correction: the publisher has been publishing
 
 - Brief: [`docs/daily-briefs/2026-09-14_marketing-status.md`](../daily-briefs/2026-09-14_marketing-status.md). Growth freshness gate PASSED (growth-log `### 2026-09-14`, audit exit 0 at 11:07 on its third start; the Monday chain ran ~5h late). Headline + biggest leak quoted verbatim. Supabase MCP down; read-only `scripts/db-query.sh` checks only.
@@ -324,6 +334,18 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Blocked / waiting
 
+### 2026-09-21 — Current blockers needing DJ / eng decision
+
+- **Host desk dead, replies owed (DJ + eng):** takes 743 (anon, opted in), 746/747/748 (signed-in repeat contributor) need real replies today; `host-digest` needs `maxDuration: 300`, a per-run log row with an alarm, and a last-success lookback. Draft #2 (take 736) still `pending`.
+- **Postal address for `EMAIL_FOOTER_ADDRESS` (DJ only, 19 days, 4th ask):** blocks welcome (4 errored + 1 stalled), signup 208's confirmation, the 09-19 registrant, and the approved Enneagram campaign (31 eligible). The 503 pre-check means nothing retries until it exists.
+- **Homepage gate:** `/` at 0/0 for a full week; DJ fork between wiring the practice submit to q203 and reinstating the featured question. `contribution.path` NULL on 7/9.
+- **Uncommitted SEO batch (DJ):** ISR + discussion endpoint + IndexNow + 2025 unpublish are in the working tree; needs `BYPASS_TOKEN`, `INDEXNOW_KEY` + key file, a commit and a push. Deploy-skew fix (pushed) still needs a deploy + GSC re-inspection to verify.
+- **Ben Shelton publish (DJ):** 8.5 B+ v3, images only per the 09-20 publisher; confirm 09-21 state by hand, generate 2 images, publish. Athletes were deprioritized for queue order, not vetoed.
+- **Create queue empty (DJ):** refill from the 09-09 scout's remaining names or run a fresh scout. Rod Wave needs `verify-repair` rerun with a higher turn cap. Tom Rhys Harries permanently failed.
+- **Holmes refresh:** 8.0 with a Stanford-date error; fix before syncing. Personal-growth seed takes need DJ to create the backing question.
+- **Carried:** Instagram restore-or-retire (6th brief; 45 days dark); perspective-review backfill (6th brief; 72 blocked); publisher wrapper exit 0 on "no publishable draft" (4th raise; Node itself now 24.18); founding circle + 7 Reddit drafts held per growth; GSC performance CSV refresh + Ashby/Coogan/Hormozi retrofit read; `ms-rachel` Type 2 anchor 8.1 (7th brief); Quora 125 days; 9 distribution packets; pop-culture 21; One Take ep 1; Austin Abrams (first window passed 09-18) / Joseph Zada (11-20) held.
+- **Resolved since 09-14:** Inde Navarrette artifacts now tracked (09-15); Node runtime moved off 26.x (observed 24.18.0); Monday chain timing.
+
 ### 2026-09-14 — Current blockers needing DJ / eng decision
 
 - **Postal address for `EMAIL_FOOTER_ADDRESS` (DJ only, 12 days):** the value is empty in Vercel and both local env files. It blocks welcome (4 errored), signup confirmation (208 failed today), and the approved Enneagram campaign (31 eligible, authorized 09-10). After it is set: re-arm, resend, send a header-checked test, run a controlled batch, and route the `process-sequences` 500 alarm to Telegram.
@@ -414,6 +436,13 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Decisions
 
+### 2026-09-21 — Observed from artifacts (not stated to the PM directly)
+
+- **09-19:** DJ ran the GSC page-indexing audit from the UI and shipped the deploy-skew carry-over fix (`6a5ac24ad`) plus Ahrefs title / nofollow / redirect fixes and `/contact` -> `/about#contact` redirects (`809a1410f`).
+- **09-19:** DJ rebuilt `enneagram-personal-growth.md` around a new `BehaviorDecoder` widget and drafted wave-2 seed takes for a not-yet-created question ("When you're stuck, what do you actually need someone to say to you?").
+- **09-19:** DJ ran the Elizabeth Holmes refresh through the full legacy pipeline (not v3); graded 8.0 B; not confirmed synced.
+- **09-20/21 (uncommitted):** DJ is moving personality-analysis pages to Vercel ISR, removing the in-function user-agent block on those paths in favor of robots.txt / firewall, adding IndexNow, and unpublishing (not redirecting) `enneagram-test-comparison-2025`. Intent inferred from the working tree and `docs/seo/personality-isr.md` / `indexnow.md`; not yet confirmed as final.
+
 ### 2026-09-14 — Observed from artifacts (not stated to the PM directly)
 
 - **09-09:** DJ approved 7 CREATE subjects from `docs/content-research/2026-09-09_surging-people-scout.md` and deprioritized athletes (Ben Shelton moved to priority 20 despite 500K+ Trends). Elizabeth Holmes UPDATE executed the same day.
@@ -457,6 +486,7 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 
 ## Status snapshots
 
+- [2026-09-21](../daily-briefs/2026-09-21_marketing-status.md) — Growth gate passed (chain on time); headline: best takes on record (median 367 chars, gate 33%) landed on a host desk dead for 8 days (0/9 drafted); four reachable contributors incl. the first repeat contributor and the first answer -> register conversion got nothing; mail off 19 days and the 503 pre-check now blocks retries; `/` at 0/0 gate for a full week; none of last week's bets shipped (confirmed from git). DJ's week went to SEO: GSC indexed 464 -> 524 with the deploy-skew noindex fix pushed, and personality ISR + IndexNow + 2025-page unpublish sitting uncommitted behind `BYPASS_TOKEN` / `INDEXNOW_KEY`. Ben Shelton is the first v3 subject through the full chain (8.5 B+, images only); Rod Wave stuck at verify-repair; Harries failed permanently; create queue empty; 0 people publishes in 11 days. Instagram 45 / Quora 125 days dark.
 - [2026-09-14](../daily-briefs/2026-09-14_marketing-status.md) — Growth gate passed; headline: best activation week on record (gate 25%, 7 contributors) and every contributor hit a dead end (0 reachable, 1 host reply at 115h, first anonymous opt-in never answered); welcome mail off 12 days and now blocking signup confirmations; 0/31 contributor return across seven matured cohorts. The mail blocker is a postal address that exists nowhere in config; the approved Enneagram campaign (31 eligible) waits on the same value. NEW: the 09-10 homepage rebuild removed the live featured question, and `/` has logged 0 gate events since (traffic flat). CORRECTION: the auto-publisher did publish the "lost" 08-28 -> 09-01 drafts and Zach Bryan; only post-publish `gen:all` fails on Node 26. Queue refilled + pipeline v3 shipped, 0 of 4 nightly attempts publishable; DB 447 -> 450. Instagram 38 / Quora 118 days dark; GSC 32 days stale.
 - [2026-09-07](../daily-briefs/2026-09-07_marketing-status.md) — 10-day window (08-31 brief lost to a credit blackout). Growth gate passed; headline: loop fix shipped four hours after the week closed, Reddit alpha's only answer was "Pooopin", welcome sequence dead in prod since 09-02 (`EMAIL_FOOTER_ADDRESS` unset in Vercel, 4/4 enrollments errored; 0/28 contributor return across six matured cohorts). DJ shipped reply email + starters/pins + host desk + founding-circle drafts (`7db255b8e`), unmeasured. Content engine stalled both ends: create queue empty six nights, publisher lost 4 eligible drafts to Node 26 (streak 39), 9 hand publishes (429 -> 438 disk, DB 447). Reddit live as a channel (1 of 8 fired). Instagram 31 days / Quora 111 days dark; GSC 25 days stale.
 - [2026-08-28](../daily-briefs/2026-08-28_marketing-status.md) — activation improved (matched comments 1 -> 4, gate 3.3% -> 15.4%; question-page funnel 7 -> 4 -> 4) and two registrations landed, one typed; the 08-24 welcome-exit, reveal persistence, attribution, sleep-protection, and reactivation fixes are live; the leak moved to post-answer relationship formation (4 opt-in views, 0 interactions/replies/returns); traffic +19.7% was direct/unknown while organic and returners were flat; four clean nightly drafts but publisher at 29 consecutive errors from a Node 26/engine mismatch; Instagram and Quora still dark.
@@ -476,6 +506,14 @@ Maintained by the `marketing-pm` agent + DJ. Cross-link to `docs/growth/growth-l
 ## Experiment + campaign log
 
 Cross-link only. Detail lives in `docs/growth/growth-log.md`.
+
+### 2026-09-14 -> 09-20 — Post-answer loop experiment, week 2 readout
+
+- Growth-log `### 2026-09-21`. Gate 18 -> 6 (33.3%); 9 human takes, median 367 chars; contributions on 5 questions, q567 share 33%. Host digest produced 0 drafts (dead since 09-12); logged-in reply email 0 sent with its first eligible user now present; anonymous opt-in 2/14 cumulative, both unserved; welcome 0 sent / 2 failed; `/` 0 gate events. Contributor return 0/28 matured. None of the 09-14 bets shipped.
+
+### 2026-09-19 — GSC deploy-skew `noindex` fix pushed (`6a5ac24ad`); ISR + IndexNow staged but uncommitted
+
+- `docs/seo/gsc-indexing-audit-2026-09-19.md`: indexed 464 -> 524, not-indexed 764 -> 490 since 07-19. Fix: `scripts/carry-over-immutable-assets.mjs`. Outcome pending one deploy + URL re-inspection. ISR / IndexNow outcome pending commit + env vars (`docs/seo/personality-isr.md`, `docs/seo/indexnow.md`).
 
 ### 2026-09-10 — Homepage swap: live featured-question gate -> practice-first `HomeLandingV2` (`02b469175`, `2ca432d5b`)
 

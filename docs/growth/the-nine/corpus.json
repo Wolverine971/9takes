@@ -1,0 +1,2872 @@
+[
+	{
+		"id": "81",
+		"question": "How do you figure out who is right for me",
+		"context": "",
+		"url": "how-do-you-figure-out-who-is-right",
+		"comment_count": "9"
+	},
+	{
+		"id": "85",
+		"question": "what are you thinking about these days",
+		"context": "",
+		"url": "what-are-you-thinking-about-these-days",
+		"comment_count": "20"
+	},
+	{
+		"id": "98",
+		"question": "Who are you voting for next election",
+		"context": "",
+		"url": "who-are-you-voting-for-next-election",
+		"comment_count": "37"
+	},
+	{
+		"id": "104",
+		"question": "I need date ideas",
+		"context": "",
+		"url": "i-need-date-ideas",
+		"comment_count": "2"
+	},
+	{
+		"id": "107",
+		"question": "How do you do",
+		"context": "",
+		"url": "How-do-you-do",
+		"comment_count": "3"
+	},
+	{
+		"id": "109",
+		"question": "What is the key to a good marriage",
+		"context": "",
+		"url": "what-is-the-key-to-a-good-marriage",
+		"comment_count": "2"
+	},
+	{
+		"id": "110",
+		"question": "What is the best parenting advice you ever recieved",
+		"context": "",
+		"url": "best-parenting-advice-ever-recieved",
+		"comment_count": "2"
+	},
+	{
+		"id": "113",
+		"question": "What advice you have for an 18 year old that wants to go to college but doesnt know what he wants to do",
+		"context": "",
+		"url": "advice-18-year-old-wants-go-college-doesnt-know-wants",
+		"comment_count": "2"
+	},
+	{
+		"id": "115",
+		"question": "What was the dumbest thing you did as a kid",
+		"context": "",
+		"url": "what-was-the-dumbest-thing-you-did-as-a-kid",
+		"comment_count": "0"
+	},
+	{
+		"id": "116",
+		"question": "Who do you look up to and why",
+		"context": "",
+		"url": "who-do-you-look-up-to-and-why",
+		"comment_count": "7"
+	},
+	{
+		"id": "117",
+		"question": "What is the best part about being out of highschool",
+		"context": "",
+		"url": "what-is-the-best-part-about-being-out-of-highschool",
+		"comment_count": "3"
+	},
+	{
+		"id": "118",
+		"question": "what were you like as a kid in 3 words",
+		"context": "",
+		"url": "what-were-you-like-as-a-kid-in-3-words",
+		"comment_count": "43"
+	},
+	{
+		"id": "119",
+		"question": "if you had to be trapped somewhere where would you choose",
+		"context": "",
+		"url": "if-you-had-to-be-trapped-somewhere-where-would-you-choose",
+		"comment_count": "23"
+	},
+	{
+		"id": "120",
+		"question": "What are traits that a good company must embody",
+		"context": "",
+		"url": "traits-good-company-embody",
+		"comment_count": "4"
+	},
+	{
+		"id": "133",
+		"question": "What book should I read next",
+		"context": "",
+		"url": "what-book-should-i-read-next",
+		"comment_count": "2"
+	},
+	{
+		"id": "134",
+		"question": "What are the problems with social media",
+		"context": "",
+		"url": "what-are-the-problems-with-social-media",
+		"comment_count": "5"
+	},
+	{
+		"id": "136",
+		"question": "What was your dream job as a child",
+		"context": "",
+		"url": "what-was-your-dream-job-as-a-child",
+		"comment_count": "3"
+	},
+	{
+		"id": "137",
+		"question": "Whats your biggest fear",
+		"context": "",
+		"url": "whats-your-biggest-fear",
+		"comment_count": "18"
+	},
+	{
+		"id": "143",
+		"question": "How do you hope people describe you",
+		"context": "",
+		"url": "how-do-you-hope-people-describe",
+		"comment_count": "2"
+	},
+	{
+		"id": "144",
+		"question": "what is something you would change about yourself if you could",
+		"context": "",
+		"url": "what-is-something-you-would-change-about-yourself",
+		"comment_count": "2"
+	},
+	{
+		"id": "145",
+		"question": "What is something that is never going to change about yourself",
+		"context": "",
+		"url": "something-going-change-yourself",
+		"comment_count": "3"
+	},
+	{
+		"id": "146",
+		"question": "What was one of the best times of your life",
+		"context": "",
+		"url": "one-best-times-life",
+		"comment_count": "2"
+	},
+	{
+		"id": "151",
+		"question": "What would you tell your parents if you knew they wouldnt get angry or upset",
+		"context": "",
+		"url": "tell-parents-knew-wouldnt-angry-upset",
+		"comment_count": "9"
+	},
+	{
+		"id": "152",
+		"question": "What are you afraid to tell to your partner",
+		"context": "",
+		"url": "what-are-you-afraid-to-tell-to-your-partner",
+		"comment_count": "6"
+	},
+	{
+		"id": "153",
+		"question": "What are technical skills worth knowing other than programming",
+		"context": "",
+		"url": "technical-skills-worth-knowing-programming",
+		"comment_count": "3"
+	},
+	{
+		"id": "154",
+		"question": "What is valueable to you when searching for community",
+		"context": "",
+		"url": "valueable-when-searching-community",
+		"comment_count": "1"
+	},
+	{
+		"id": "155",
+		"question": "Where do you get off",
+		"context": "",
+		"url": "where-do-you-get-off",
+		"comment_count": "5"
+	},
+	{
+		"id": "156",
+		"question": "What are the problems of each political party",
+		"context": "",
+		"url": "what-are-the-problems-of-each-political-party",
+		"comment_count": "4"
+	},
+	{
+		"id": "157",
+		"question": "Why do some people have 2 phones Trying to find an answer without assuming bf anything negative about people",
+		"context": "",
+		"url": "why-people-2-phones-trying-find-answer-without-assuming-bf-anything-negative-people",
+		"comment_count": "7"
+	},
+	{
+		"id": "158",
+		"question": "Why do people line up so early to board planes",
+		"context": "",
+		"url": "why-people-line-so-early-board-planes",
+		"comment_count": "2"
+	},
+	{
+		"id": "163",
+		"question": "If you could change something about yourself what would you change",
+		"context": "",
+		"url": "change-something-yourself-change",
+		"comment_count": "5"
+	},
+	{
+		"id": "164",
+		"question": "How do you handle stress",
+		"context": "",
+		"url": "how-do-you-handle-stress",
+		"comment_count": "4"
+	},
+	{
+		"id": "165",
+		"question": "Whats the best advice youve ever received about business",
+		"context": "",
+		"url": "whats-best-advice-youve-ever-received-business",
+		"comment_count": "2"
+	},
+	{
+		"id": "167",
+		"question": "What would it take for you to change your mind politically",
+		"context": "",
+		"url": "what-would-it-take-for-you-to-change-your-mind-politically",
+		"comment_count": "4"
+	},
+	{
+		"id": "168",
+		"question": "Will Kamala Harris make a good president",
+		"context": "",
+		"url": "will-kamala-harris-good-president",
+		"comment_count": "9"
+	},
+	{
+		"id": "173",
+		"question": "What do single people not understand about married people",
+		"context": "",
+		"url": "single-people-not-understand-married-people",
+		"comment_count": "1"
+	},
+	{
+		"id": "174",
+		"question": "How do you typically handle disagreements with close friends or family",
+		"context": "",
+		"url": "typically-handle-disagreements-close-friends-family",
+		"comment_count": "4"
+	},
+	{
+		"id": "180",
+		"question": "What tips do you have for a recent highschool grad who wants to become a politician",
+		"context": "",
+		"url": "tips-recent-highschool-grad-wants-become-politician",
+		"comment_count": "2"
+	},
+	{
+		"id": "197",
+		"question": "What do you think and feel about the murder of Charlie Kirk",
+		"context": "",
+		"url": "think-feel-murder-charlie-kirk",
+		"comment_count": "2"
+	},
+	{
+		"id": "198",
+		"question": "What is your ideal morning routine Not your real one your ideal one",
+		"context": "",
+		"url": "ideal-morning-routine-not-real-one-ideal-one",
+		"comment_count": "1"
+	},
+	{
+		"id": "199",
+		"question": "Whos the most influential person in your life",
+		"context": "",
+		"url": "whos-influential-person-life",
+		"comment_count": "2"
+	},
+	{
+		"id": "202",
+		"question": "Whats the best decision youve ever made in your life",
+		"context": "",
+		"url": "whats-best-decision-youve-ever-made-life",
+		"comment_count": "2"
+	},
+	{
+		"id": "203",
+		"question": "Whats your criteria for considering someone a friend",
+		"context": "",
+		"url": "whats-criteria-considering-someone-friend",
+		"comment_count": "10"
+	},
+	{
+		"id": "204",
+		"question": "What belief have you changed in the last 3 years and what changed it",
+		"context": "",
+		"url": "belief-changed-last-3-years-changed",
+		"comment_count": "0"
+	},
+	{
+		"id": "205",
+		"question": "Are there any parents who encourage their toddler boys to poo on the grass in the garden",
+		"context": "",
+		"url": "parents-encourage-toddler-boys-poo-grass-garden",
+		"comment_count": "3"
+	},
+	{
+		"id": "206",
+		"question": "What do you think the real objective of the US war with Iran is that the public isnt being told",
+		"context": "",
+		"url": "think-real-objective-us-war-iran-public-isnt-told",
+		"comment_count": "4"
+	},
+	{
+		"id": "207",
+		"question": "What part of your daily routine do you wish you started sooner",
+		"context": "",
+		"url": "part-daily-routine-wish-started-sooner",
+		"comment_count": "2"
+	},
+	{
+		"id": "208",
+		"question": "Whats something you overresearched that no one asked about",
+		"context": "If you are a enneagram type 5 you have probably have some golden nuggets.",
+		"url": "whats-something-overresearched-no-one-asked",
+		"comment_count": "1"
+	},
+	{
+		"id": "209",
+		"question": "When you have given all you can to someone, but they still ask for more, how do you decide what to do?",
+		"context": "",
+		"url": "when-you-have-given-all-you-can-to-someone-but",
+		"comment_count": "0"
+	},
+	{
+		"id": "210",
+		"question": "When surrounded by conflict and division, how do you find the strength to hold things together without losing yourself?",
+		"context": "",
+		"url": "when-surrounded-by-conflict-and-division-how-do-you-find",
+		"comment_count": "0"
+	},
+	{
+		"id": "211",
+		"question": "If you could step away from all expectations, would you disappear completely, or find a new way to be seen?",
+		"context": "",
+		"url": "if-you-could-step-away-from-all-expectations-would-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "212",
+		"question": "If you could achieve every dream you have but it meant letting go of who you truly are, would you do it?",
+		"context": "",
+		"url": "if-you-could-achieve-every-dream-you-have-but-it",
+		"comment_count": "0"
+	},
+	{
+		"id": "213",
+		"question": "What is the hardest part about setting boundaries with people you care about deeply?",
+		"context": "",
+		"url": "what-is-the-hardest-part-about-setting-boundaries-with-people",
+		"comment_count": "0"
+	},
+	{
+		"id": "214",
+		"question": "If your mind saw and understood things few others could, what responsibility would you feel toward everyone else?",
+		"context": "",
+		"url": "if-your-mind-saw-and-understood-things-few-others-could",
+		"comment_count": "0"
+	},
+	{
+		"id": "215",
+		"question": "If you never quite fit in with the group around you, how much of yourself would you change to belong?",
+		"context": "",
+		"url": "if-you-never-quite-fit-in-with-the-group-around",
+		"comment_count": "0"
+	},
+	{
+		"id": "216",
+		"question": "When faced with a path that promises comfort but limits your adventures, how do you decide what to do?",
+		"context": "",
+		"url": "when-faced-with-a-path-that-promises-comfort-but-limits",
+		"comment_count": "0"
+	},
+	{
+		"id": "217",
+		"question": "When you have given so much of yourself to others, how do you know what parts are still truly yours?",
+		"context": "",
+		"url": "when-you-have-given-so-much-of-yourself-to-others",
+		"comment_count": "0"
+	},
+	{
+		"id": "218",
+		"question": "When facing something truly uncertain, where do you find your footing to keep going?",
+		"context": "",
+		"url": "when-facing-something-truly-uncertain-where-do-you-find-your",
+		"comment_count": "0"
+	},
+	{
+		"id": "219",
+		"question": "When something you once loved becomes a heavy burden, what truly compels you to return to it?",
+		"context": "",
+		"url": "when-something-you-once-loved-becomes-a-heavy-burden-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "220",
+		"question": "If your most profound contributions went unrecognized, would the value of your work diminish, or would its inner truth remain unchanged?",
+		"context": "",
+		"url": "if-your-most-profound-contributions-went-unrecognized-would-the-value",
+		"comment_count": "0"
+	},
+	{
+		"id": "221",
+		"question": "What is the true cost of pursuing an ideal, not just for yourself, but for those around you?",
+		"context": "",
+		"url": "what-is-the-true-cost-of-pursuing-an-ideal-not",
+		"comment_count": "0"
+	},
+	{
+		"id": "222",
+		"question": "When others expect you to carry a great burden, how do you decide if it is truly yours to bear?",
+		"context": "",
+		"url": "when-others-expect-you-to-carry-a-great-burden-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "223",
+		"question": "When you have fought to build a safe place for yourself, how do you know when it is truly safe to let your guard down?",
+		"context": "",
+		"url": "when-you-have-fought-to-build-a-safe-place-for",
+		"comment_count": "0"
+	},
+	{
+		"id": "224",
+		"question": "What does it feel like to know that others' perception of you might never truly change, no matter what you do?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-know-that-others-perception",
+		"comment_count": "0"
+	},
+	{
+		"id": "225",
+		"question": "What does it mean to truly be free, and what actions would you take to ensure that freedom for yourself?",
+		"context": "",
+		"url": "what-does-it-mean-to-truly-be-free-and-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "226",
+		"question": "What does it feel like when you finally meet someone who truly sees you, and takes your deepest fears seriously?",
+		"context": "",
+		"url": "what-does-it-feel-like-when-you-finally-meet-someone",
+		"comment_count": "0"
+	},
+	{
+		"id": "227",
+		"question": "When you are striving to be good and do good, but others still find fault, what does that feel like inside?",
+		"context": "",
+		"url": "when-you-are-striving-to-be-good-and-do-good",
+		"comment_count": "0"
+	},
+	{
+		"id": "228",
+		"question": "If you could design your ideal life, would it be one where the world sees you clearly, or one where you feel completely unseen?",
+		"context": "",
+		"url": "if-you-could-design-your-ideal-life-would-it-be",
+		"comment_count": "0"
+	},
+	{
+		"id": "229",
+		"question": "When pursuing a goal, how do you decide if you are adapting to achieve it or compromising what truly matters to you?",
+		"context": "",
+		"url": "when-pursuing-a-goal-how-do-you-decide-if-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "230",
+		"question": "If you could choose between having everything you ever wanted or knowing you are at peace, which would you pick?",
+		"context": "",
+		"url": "if-you-could-choose-between-having-everything-you-ever-wanted",
+		"comment_count": "0"
+	},
+	{
+		"id": "231",
+		"question": "If you needed help and no one believed you, how would you respond when they finally saw you were right?",
+		"context": "",
+		"url": "if-you-needed-help-and-no-one-believed-you-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "232",
+		"question": "If you needed to disappear completely to find your true self, what would be the hardest part of leaving your current life behind?",
+		"context": "",
+		"url": "if-you-needed-to-disappear-completely-to-find-your-true",
+		"comment_count": "0"
+	},
+	{
+		"id": "233",
+		"question": "If you spent years perfecting one part of your life, what would you do if keeping it meant living in a way others found strange or even disturbing?",
+		"context": "",
+		"url": "if-you-spent-years-perfecting-one-part-of-your-life",
+		"comment_count": "0"
+	},
+	{
+		"id": "234",
+		"question": "When facing chaos all around, how do you find and maintain your own inner sense of calm and steadfastness?",
+		"context": "",
+		"url": "when-facing-chaos-all-around-how-do-you-find-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "235",
+		"question": "If you could erase one thing from your past to feel more complete, would you do it, or live with the memory?",
+		"context": "",
+		"url": "if-you-could-erase-one-thing-from-your-past-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "236",
+		"question": "When you are the only one who believes in your vision, how do you find the will to keep building it?",
+		"context": "",
+		"url": "when-you-are-the-only-one-who-believes-in-your",
+		"comment_count": "0"
+	},
+	{
+		"id": "237",
+		"question": "When you have deeply absorbed something outside yourself, how do you find your way back to your own natural way of being?",
+		"context": "",
+		"url": "when-you-have-deeply-absorbed-something-outside-yourself-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "238",
+		"question": "When building something meant to last beyond your own life, what part of yourself do you hope also endures?",
+		"context": "",
+		"url": "when-building-something-meant-to-last-beyond-your-own-life",
+		"comment_count": "0"
+	},
+	{
+		"id": "239",
+		"question": "When you have been silent for a long time, what makes you finally decide to share your true voice with the world?",
+		"context": "",
+		"url": "when-you-have-been-silent-for-a-long-time-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "240",
+		"question": "After reaching a big goal, why is it so hard to just enjoy the moment and feel truly satisfied?",
+		"context": "",
+		"url": "after-reaching-a-big-goal-why-is-it-so-hard",
+		"comment_count": "0"
+	},
+	{
+		"id": "241",
+		"question": "What does one do when they have achieved a good life, but still feel a deep urge for something entirely new?",
+		"context": "",
+		"url": "what-does-one-do-when-they-have-achieved-a-good",
+		"comment_count": "0"
+	},
+	{
+		"id": "242",
+		"question": "What responsibility do you feel to uphold things even when it means making a great personal sacrifice?",
+		"context": "",
+		"url": "what-responsibility-do-you-feel-to-uphold-things-even-when",
+		"comment_count": "0"
+	},
+	{
+		"id": "243",
+		"question": "When you have achieved something great, what makes you risk it all, knowing you might lose everything?",
+		"context": "",
+		"url": "when-you-have-achieved-something-great-what-makes-you-risk",
+		"comment_count": "0"
+	},
+	{
+		"id": "244",
+		"question": "What is it like when your deep need to be strong and in control comes up against your longing for connection?",
+		"context": "",
+		"url": "what-is-it-like-when-your-deep-need-to-be",
+		"comment_count": "0"
+	},
+	{
+		"id": "245",
+		"question": "If you could only choose one, is it more important to be kind to yourself or kind to others?",
+		"context": "",
+		"url": "if-you-could-only-choose-one-is-it-more-important",
+		"comment_count": "0"
+	},
+	{
+		"id": "246",
+		"question": "When you have achieved everything you set out to do, what truly makes you feel like you matter?",
+		"context": "",
+		"url": "when-you-have-achieved-everything-you-set-out-to-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "247",
+		"question": "When you have given so much of yourself to others, how do you find your true self again later?",
+		"context": "",
+		"url": "when-you-have-given-so-much-of-yourself-to-others-2",
+		"comment_count": "0"
+	},
+	{
+		"id": "248",
+		"question": "If pursuing your greatest achievement means pushing past your body’s absolute limits, how do you decide when to stop?",
+		"context": "",
+		"url": "if-pursuing-your-greatest-achievement-means-pushing-past-your-body",
+		"comment_count": "0"
+	},
+	{
+		"id": "249",
+		"question": "If you built something that everyone admired but felt empty to you, would you keep refining it or start something new?",
+		"context": "",
+		"url": "if-you-built-something-that-everyone-admired-but-felt-empty",
+		"comment_count": "0"
+	},
+	{
+		"id": "250",
+		"question": "When faced with an institution that shaped your life, what causes you to question its fundamental fairness or truth?",
+		"context": "",
+		"url": "when-faced-with-an-institution-that-shaped-your-life-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "251",
+		"question": "When facing something that drains your inner world, how do you choose between preserving yourself and engaging with it?",
+		"context": "",
+		"url": "when-facing-something-that-drains-your-inner-world-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "252",
+		"question": "What does it feel like to finally escape a cage you have been building for yourself your entire life?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-escape-a-cage",
+		"comment_count": "0"
+	},
+	{
+		"id": "253",
+		"question": "When you have painstakingly created something to be exactly right, how do you handle it being misunderstood or critiqued?",
+		"context": "",
+		"url": "when-you-have-painstakingly-created-something-to-be-exactly-right",
+		"comment_count": "0"
+	},
+	{
+		"id": "254",
+		"question": "When you have the chance to create something new, what is the deepest motivation that drives your effort?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-create-something-new-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "255",
+		"question": "When faced with something painful or difficult, what makes you choose to look away or find an escape?",
+		"context": "",
+		"url": "when-faced-with-something-painful-or-difficult-what-makes-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "256",
+		"question": "When you have the chance to become just like everyone around you, what makes you choose to remain distinctly yourself?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-become-just-like-everyone",
+		"comment_count": "0"
+	},
+	{
+		"id": "257",
+		"question": "If pursuing your highest hopes only brought you anxiety, what would make you keep going, or what would make you stop?",
+		"context": "",
+		"url": "if-pursuing-your-highest-hopes-only-brought-you-anxiety-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "258",
+		"question": "When you see injustice and the people around you are silent, what compels you to act, or to hold back?",
+		"context": "",
+		"url": "when-you-see-injustice-and-the-people-around-you-are",
+		"comment_count": "0"
+	},
+	{
+		"id": "259",
+		"question": "How do you decide what parts of your struggle are meant only for you, and what parts are meant to be shared?",
+		"context": "",
+		"url": "how-do-you-decide-what-parts-of-your-struggle-are",
+		"comment_count": "0"
+	},
+	{
+		"id": "260",
+		"question": "When facing something truly difficult, how do you manage the feeling that no one else could possibly understand your specific struggle?",
+		"context": "",
+		"url": "when-facing-something-truly-difficult-how-do-you-manage-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "261",
+		"question": "If adapting yourself perfectly for others brings peace in the moment, what does it cost you over time?",
+		"context": "",
+		"url": "if-adapting-yourself-perfectly-for-others-brings-peace-in-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "262",
+		"question": "When you have the chance to become someone entirely new, what holds you back from taking that leap?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-become-someone-entirely-new",
+		"comment_count": "0"
+	},
+	{
+		"id": "263",
+		"question": "What is the most difficult thing about showing others a softer side of yourself?",
+		"context": "",
+		"url": "what-is-the-most-difficult-thing-about-showing-others-a",
+		"comment_count": "0"
+	},
+	{
+		"id": "264",
+		"question": "When your deepest longing is denied, do you try harder to attain it, or do you eventually stop believing it can be found?",
+		"context": "",
+		"url": "when-your-deepest-longing-is-denied-do-you-try-harder",
+		"comment_count": "0"
+	},
+	{
+		"id": "265",
+		"question": "When facing a path that could lead to great success but also requires navigating public scrutiny, what gives you pause?",
+		"context": "",
+		"url": "when-facing-a-path-that-could-lead-to-great-success",
+		"comment_count": "0"
+	},
+	{
+		"id": "266",
+		"question": "When you have been publicly vulnerable or failed, what is the best way to move forward and regain your footing?",
+		"context": "",
+		"url": "when-you-have-been-publicly-vulnerable-or-failed-what-is",
+		"comment_count": "0"
+	},
+	{
+		"id": "267",
+		"question": "What is it like to discover a truth that reshapes everything, yet realize most others may never see it?",
+		"context": "",
+		"url": "what-is-it-like-to-discover-a-truth-that-reshapes",
+		"comment_count": "0"
+	},
+	{
+		"id": "268",
+		"question": "If you could show the world your deepest truth, would you, knowing some would love it and others would misunderstand or reject it?",
+		"context": "",
+		"url": "if-you-could-show-the-world-your-deepest-truth-would",
+		"comment_count": "0"
+	},
+	{
+		"id": "269",
+		"question": "When you have the chance to be truly seen, do you tend to reveal your whole self, or hold parts back?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-be-truly-seen-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "270",
+		"question": "If optimizing your life for peak performance meant sacrificing a deeply valued connection, what would you do?",
+		"context": "",
+		"url": "if-optimizing-your-life-for-peak-performance-meant-sacrificing-a",
+		"comment_count": "0"
+	},
+	{
+		"id": "271",
+		"question": "If you could truly disappear and be free from all expectations, what would you gain and what would you lose?",
+		"context": "",
+		"url": "if-you-could-truly-disappear-and-be-free-from-all",
+		"comment_count": "0"
+	},
+	{
+		"id": "272",
+		"question": "What does it feel like to finally get something you resisted for a long time, and did your feelings about it change?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-get-something-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "273",
+		"question": "When times are tough, do you look for ways to lighten the mood, or does humor feel out of place during serious moments?",
+		"context": "",
+		"url": "when-times-are-tough-do-you-look-for-ways-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "274",
+		"question": "When faced with immense pressure to change or hold steady, how do you decide what is most essential to preserve?",
+		"context": "",
+		"url": "when-faced-with-immense-pressure-to-change-or-hold-steady",
+		"comment_count": "0"
+	},
+	{
+		"id": "275",
+		"question": "If you gave everything to achieve a dream, and it came true, what would make you feel like it was all worth it?",
+		"context": "",
+		"url": "if-you-gave-everything-to-achieve-a-dream-and-it",
+		"comment_count": "0"
+	},
+	{
+		"id": "276",
+		"question": "When something you create comes from a deeply vulnerable place, how do you feel about sharing it with a wide audience?",
+		"context": "",
+		"url": "when-something-you-create-comes-from-a-deeply-vulnerable-place",
+		"comment_count": "0"
+	},
+	{
+		"id": "277",
+		"question": "When facing widespread criticism, how do you decide if it's fair feedback for growth or noise to be ignored?",
+		"context": "",
+		"url": "when-facing-widespread-criticism-how-do-you-decide-if-it",
+		"comment_count": "0"
+	},
+	{
+		"id": "278",
+		"question": "When building something new, how do you decide how much of yourself to pour into the effort?",
+		"context": "",
+		"url": "when-building-something-new-how-do-you-decide-how-much",
+		"comment_count": "0"
+	},
+	{
+		"id": "279",
+		"question": "When faced with something truly painful, how do you keep yourself from dwelling on the worst parts of it?",
+		"context": "",
+		"url": "when-faced-with-something-truly-painful-how-do-you-keep",
+		"comment_count": "0"
+	},
+	{
+		"id": "280",
+		"question": "When faced with an exciting opportunity, what makes you most hesitant about saying yes?",
+		"context": "",
+		"url": "when-faced-with-an-exciting-opportunity-what-makes-you-most",
+		"comment_count": "0"
+	},
+	{
+		"id": "281",
+		"question": "What does it feel like to build something successful only to find that it requires your constant, exhausting effort to maintain?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-build-something-successful-only",
+		"comment_count": "0"
+	},
+	{
+		"id": "282",
+		"question": "When facing a monumental task where everyone expects you to fail, what gives you the confidence to lead the way?",
+		"context": "",
+		"url": "when-facing-a-monumental-task-where-everyone-expects-you-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "283",
+		"question": "When you have a clear vision for how things should be, how much are you willing to compromise that vision for others?",
+		"context": "",
+		"url": "when-you-have-a-clear-vision-for-how-things-should",
+		"comment_count": "0"
+	},
+	{
+		"id": "284",
+		"question": "What does it feel like to chase success, only to find that what you wanted to achieve has subtly shifted?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-chase-success-only-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "285",
+		"question": "When facing something difficult, do you try to find the good in it, or does that feel like denying reality?",
+		"context": "",
+		"url": "when-facing-something-difficult-do-you-try-to-find-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "286",
+		"question": "When you have worked hard to create something new, how do you decide if it is truly successful?",
+		"context": "",
+		"url": "when-you-have-worked-hard-to-create-something-new-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "287",
+		"question": "When you have given all you can to help others, what then lets you feel satisfied with yourself?",
+		"context": "",
+		"url": "when-you-have-given-all-you-can-to-help-others",
+		"comment_count": "0"
+	},
+	{
+		"id": "288",
+		"question": "When does the drive to improve yourself stop feeling like progress and start feeling like an endless obligation?",
+		"context": "",
+		"url": "when-does-the-drive-to-improve-yourself-stop-feeling-like",
+		"comment_count": "0"
+	},
+	{
+		"id": "289",
+		"question": "How do you respond when the lighthearted approach you rely on for living starts to feel like a performance?",
+		"context": "",
+		"url": "how-do-you-respond-when-the-lighthearted-approach-you-rely",
+		"comment_count": "0"
+	},
+	{
+		"id": "290",
+		"question": "When faced with something that feels truly overwhelming, what is the most honest way you typically respond?",
+		"context": "",
+		"url": "when-faced-with-something-that-feels-truly-overwhelming-what-is",
+		"comment_count": "0"
+	},
+	{
+		"id": "291",
+		"question": "If you achieved everything you thought would bring fulfillment, but it still felt hollow, what would you do next?",
+		"context": "",
+		"url": "if-you-achieved-everything-you-thought-would-bring-fulfillment-but",
+		"comment_count": "0"
+	},
+	{
+		"id": "292",
+		"question": "If you built a successful version of yourself, but then felt disconnected from it, how would you find your way back to who you genuinely are?",
+		"context": "",
+		"url": "if-you-built-a-successful-version-of-yourself-but-then",
+		"comment_count": "0"
+	},
+	{
+		"id": "293",
+		"question": "What does one do when every possible path forward, no matter how exciting, eventually starts to feel like a cage?",
+		"context": "",
+		"url": "what-does-one-do-when-every-possible-path-forward-no",
+		"comment_count": "0"
+	},
+	{
+		"id": "294",
+		"question": "When you have achieved great success, how do you find meaning and purpose beyond that accomplishment?",
+		"context": "",
+		"url": "when-you-have-achieved-great-success-how-do-you-find",
+		"comment_count": "0"
+	},
+	{
+		"id": "295",
+		"question": "What does it feel like to stand firm in your conviction when others around you want you to compromise?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-stand-firm-in-your",
+		"comment_count": "0"
+	},
+	{
+		"id": "296",
+		"question": "After years of trying to get something you deeply desire, if it finally happens, how do you handle the surprise and newness of it all?",
+		"context": "",
+		"url": "after-years-of-trying-to-get-something-you-deeply-desire",
+		"comment_count": "0"
+	},
+	{
+		"id": "297",
+		"question": "What is it like to finally achieve a long-held dream, only to find yourself still striving for something more?",
+		"context": "",
+		"url": "what-is-it-like-to-finally-achieve-a-long-held",
+		"comment_count": "0"
+	},
+	{
+		"id": "298",
+		"question": "If you could truly become someone else for a time, completely unseen and unknown, how would you choose to exist?",
+		"context": "",
+		"url": "if-you-could-truly-become-someone-else-for-a-time",
+		"comment_count": "0"
+	},
+	{
+		"id": "299",
+		"question": "When you have a strong, intense feeling about something, how do you decide if it is a profound truth or just a fleeting emotion?",
+		"context": "",
+		"url": "when-you-have-a-strong-intense-feeling-about-something-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "300",
+		"question": "When your path forward is blocked, do you try to find a new way, or do you wait for the obstacle to move?",
+		"context": "",
+		"url": "when-your-path-forward-is-blocked-do-you-try-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "301",
+		"question": "When you see something deeply wrong, what is your true, honest obligation to speak out or intervene?",
+		"context": "",
+		"url": "when-you-see-something-deeply-wrong-what-is-your-true",
+		"comment_count": "0"
+	},
+	{
+		"id": "302",
+		"question": "If you built a life around presenting your true self, what would you do if that self started to change in unexpected ways?",
+		"context": "",
+		"url": "if-you-built-a-life-around-presenting-your-true-self",
+		"comment_count": "0"
+	},
+	{
+		"id": "303",
+		"question": "When you find something that brings you great joy, how much of yourself do you give to pursuing that feeling?",
+		"context": "",
+		"url": "when-you-find-something-that-brings-you-great-joy-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "304",
+		"question": "When facing an imperfect system, how do you decide if it is better to work within its limits or push against them?",
+		"context": "",
+		"url": "when-facing-an-imperfect-system-how-do-you-decide-if",
+		"comment_count": "0"
+	},
+	{
+		"id": "305",
+		"question": "How do you navigate making choices that benefit you, even when others around you might strongly disapprove?",
+		"context": "",
+		"url": "how-do-you-navigate-making-choices-that-benefit-you-even",
+		"comment_count": "0"
+	},
+	{
+		"id": "306",
+		"question": "When does the desire for constant new experiences become a barrier to building lasting joy and connection?",
+		"context": "",
+		"url": "when-does-the-desire-for-constant-new-experiences-become-a",
+		"comment_count": "0"
+	},
+	{
+		"id": "307",
+		"question": "After facing a deeply painful loss, how can you best apply that experience to benefit the world around you?",
+		"context": "",
+		"url": "after-facing-a-deeply-painful-loss-how-can-you-best",
+		"comment_count": "0"
+	},
+	{
+		"id": "308",
+		"question": "What makes a person keep seeking out intense, difficult situations, even when they could choose an easier path?",
+		"context": "",
+		"url": "what-makes-a-person-keep-seeking-out-intense-difficult-situations",
+		"comment_count": "0"
+	},
+	{
+		"id": "309",
+		"question": "When standing up for what you believe is right, what is the hardest part about facing strong opposition?",
+		"context": "",
+		"url": "when-standing-up-for-what-you-believe-is-right-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "310",
+		"question": "When facing a monumental global problem, what is the most important thing to secure before acting?",
+		"context": "",
+		"url": "when-facing-a-monumental-global-problem-what-is-the-most",
+		"comment_count": "0"
+	},
+	{
+		"id": "311",
+		"question": "What does it mean to truly understand something, and what changes once you do?",
+		"context": "",
+		"url": "what-does-it-mean-to-truly-understand-something-and-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "312",
+		"question": "When a pursuit of happiness causes harm, how do you know if you should keep going or stop entirely?",
+		"context": "",
+		"url": "when-a-pursuit-of-happiness-causes-harm-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "313",
+		"question": "If you truly found your own way of living and expressing yourself, what would matter most about that unique path?",
+		"context": "",
+		"url": "if-you-truly-found-your-own-way-of-living-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "314",
+		"question": "When you have been deeply misunderstood by many, how do you find and hold onto your true self?",
+		"context": "",
+		"url": "when-you-have-been-deeply-misunderstood-by-many-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "315",
+		"question": "If you protected yourself from ever getting hurt again, what part of your humanity would you lose?",
+		"context": "",
+		"url": "if-you-protected-yourself-from-ever-getting-hurt-again-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "316",
+		"question": "When faced with a situation where you feel threatened, do you try to understand the threat or do you focus on controlling it?",
+		"context": "",
+		"url": "when-faced-with-a-situation-where-you-feel-threatened-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "317",
+		"question": "When facing something difficult, do you try to find a way around it, meet it directly, or make sure it never happens?",
+		"context": "",
+		"url": "when-facing-something-difficult-do-you-try-to-find-a",
+		"comment_count": "0"
+	},
+	{
+		"id": "318",
+		"question": "If something deeply personal and painful became public, what would you do to protect your sense of self afterward?",
+		"context": "",
+		"url": "if-something-deeply-personal-and-painful-became-public-what-would",
+		"comment_count": "0"
+	},
+	{
+		"id": "319",
+		"question": "When facing a choice that could alienate many people, how do you decide if it is worth pursuing?",
+		"context": "",
+		"url": "when-facing-a-choice-that-could-alienate-many-people-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "320",
+		"question": "When faced with real pain, what helps you choose joy, or do you find joy chooses you?",
+		"context": "",
+		"url": "when-faced-with-real-pain-what-helps-you-choose-joy",
+		"comment_count": "0"
+	},
+	{
+		"id": "321",
+		"question": "What does a person do when the path they choose requires a discipline that feels almost impossible to maintain?",
+		"context": "",
+		"url": "what-does-a-person-do-when-the-path-they-choose",
+		"comment_count": "0"
+	},
+	{
+		"id": "322",
+		"question": "When you have the chance to belong, what makes you hesitate to fully join in?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-belong-what-makes-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "323",
+		"question": "What does it feel like when you realize the effort you put into optimizing life still leaves you wanting more?",
+		"context": "",
+		"url": "what-does-it-feel-like-when-you-realize-the-effort",
+		"comment_count": "0"
+	},
+	{
+		"id": "324",
+		"question": "What does it take for you to clearly see and then directly pursue what you truly want?",
+		"context": "",
+		"url": "what-does-it-take-for-you-to-clearly-see-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "325",
+		"question": "If you could choose between being truly understood or completely free, which would offer more peace?",
+		"context": "",
+		"url": "if-you-could-choose-between-being-truly-understood-or-completely",
+		"comment_count": "0"
+	},
+	{
+		"id": "326",
+		"question": "If transforming yourself completely for a role brought you everything, how would you feel when it was over and you were just yourself again?",
+		"context": "",
+		"url": "if-transforming-yourself-completely-for-a-role-brought-you-everything",
+		"comment_count": "0"
+	},
+	{
+		"id": "327",
+		"question": "If you truly believe you are on the right path, what does it take for you to change directions?",
+		"context": "",
+		"url": "if-you-truly-believe-you-are-on-the-right-path",
+		"comment_count": "0"
+	},
+	{
+		"id": "328",
+		"question": "If you achieved a major goal but felt unexpectedly sad, what meaning would you make of that feeling?",
+		"context": "",
+		"url": "if-you-achieved-a-major-goal-but-felt-unexpectedly-sad",
+		"comment_count": "0"
+	},
+	{
+		"id": "329",
+		"question": "When you have given so much of yourself, how do you decide if you have more to give, or if it is time to stop?",
+		"context": "",
+		"url": "when-you-have-given-so-much-of-yourself-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "330",
+		"question": "When facing a gatekeeper who tells you 'no,' how do you decide whether to walk away, negotiate, or force a different outcome?",
+		"context": "",
+		"url": "when-facing-a-gatekeeper-who-tells-you-no-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "331",
+		"question": "If you speak your mind and it creates a conflict, how do you know if you did the right thing?",
+		"context": "",
+		"url": "if-you-speak-your-mind-and-it-creates-a-conflict",
+		"comment_count": "0"
+	},
+	{
+		"id": "332",
+		"question": "When you have done everything right but things still go wrong, how do you reconcile your effort with the outcome?",
+		"context": "",
+		"url": "when-you-have-done-everything-right-but-things-still-go",
+		"comment_count": "0"
+	},
+	{
+		"id": "333",
+		"question": "When you have the chance to change your path, what is the most important thing that guides your decision?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-change-your-path-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "334",
+		"question": "When you have the chance to start fresh, what makes you hesitate and hold onto the past?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-start-fresh-what-makes",
+		"comment_count": "0"
+	},
+	{
+		"id": "335",
+		"question": "When you are praised for something that feels easy or natural, how do you reconcile that with your most meaningful struggles?",
+		"context": "",
+		"url": "when-you-are-praised-for-something-that-feels-easy-or",
+		"comment_count": "0"
+	},
+	{
+		"id": "336",
+		"question": "What is the true cost of pursuing a restless drive for creation, and what parts of life might be missed along the way?",
+		"context": "",
+		"url": "what-is-the-true-cost-of-pursuing-a-restless-drive",
+		"comment_count": "0"
+	},
+	{
+		"id": "337",
+		"question": "Before an important experience, what compels you to make sure every single detail is absolutely perfect?",
+		"context": "",
+		"url": "before-an-important-experience-what-compels-you-to-make-sure",
+		"comment_count": "0"
+	},
+	{
+		"id": "338",
+		"question": "What happens when the excitement of a new experience fades, and the path ahead becomes ordinary?",
+		"context": "",
+		"url": "what-happens-when-the-excitement-of-a-new-experience-fades",
+		"comment_count": "0"
+	},
+	{
+		"id": "339",
+		"question": "If you could help everyone who asked, but it left you with nothing for yourself, would you still do it?",
+		"context": "",
+		"url": "if-you-could-help-everyone-who-asked-but-it-left",
+		"comment_count": "0"
+	},
+	{
+		"id": "340",
+		"question": "If you could share your deepest struggles and heal completely, but it meant losing part of what makes you special, would you do it?",
+		"context": "",
+		"url": "if-you-could-share-your-deepest-struggles-and-heal-completely",
+		"comment_count": "0"
+	},
+	{
+		"id": "341",
+		"question": "When you have poured out your heart to others, how do you then nourish your own tender places?",
+		"context": "",
+		"url": "when-you-have-poured-out-your-heart-to-others-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "342",
+		"question": "When faced with something truly unknown and potentially dangerous, when do you decide to lean in, and when do you back away?",
+		"context": "",
+		"url": "when-faced-with-something-truly-unknown-and-potentially-dangerous-when",
+		"comment_count": "0"
+	},
+	{
+		"id": "343",
+		"question": "When you have built something unique and true to yourself, how do you handle others who misunderstand or try to change it?",
+		"context": "",
+		"url": "when-you-have-built-something-unique-and-true-to-yourself",
+		"comment_count": "0"
+	},
+	{
+		"id": "344",
+		"question": "When you have achieved something great, how do you decide if it is truly enough, or if there is still more left to prove?",
+		"context": "",
+		"url": "when-you-have-achieved-something-great-how-do-you-decide",
+		"comment_count": "0"
+	},
+	{
+		"id": "345",
+		"question": "When you are at the center of everything, how does it feel when everyone around you has an opinion about who you are?",
+		"context": "",
+		"url": "when-you-are-at-the-center-of-everything-how-does",
+		"comment_count": "0"
+	},
+	{
+		"id": "346",
+		"question": "What does it feel like to finally achieve a long-held ambition, only to realize the summit is just another step?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-achieve-a-long",
+		"comment_count": "0"
+	},
+	{
+		"id": "347",
+		"question": "When you have the power to influence many, how do you decide what to do and what to simply observe?",
+		"context": "",
+		"url": "when-you-have-the-power-to-influence-many-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "348",
+		"question": "When you have worked hard to create something meaningful, how much does its reception change your own sense of its worth?",
+		"context": "",
+		"url": "when-you-have-worked-hard-to-create-something-meaningful-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "349",
+		"question": "When your true self feels invisible, what do you do to make sure others see you and take you seriously?",
+		"context": "",
+		"url": "when-your-true-self-feels-invisible-what-do-you-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "350",
+		"question": "When facing a system that feels unjust, how do you decide to fight against it, work within it, or walk away entirely?",
+		"context": "",
+		"url": "when-facing-a-system-that-feels-unjust-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "351",
+		"question": "When you are in a situation where you don't quite fit in, how do you navigate the desire to belong versus the urge to withdraw?",
+		"context": "",
+		"url": "when-you-are-in-a-situation-where-you-don-t",
+		"comment_count": "0"
+	},
+	{
+		"id": "352",
+		"question": "If you could choose to be celebrated by millions or known deeply by a few, which would bring you more peace?",
+		"context": "",
+		"url": "if-you-could-choose-to-be-celebrated-by-millions-or",
+		"comment_count": "0"
+	},
+	{
+		"id": "353",
+		"question": "When you see something deeply wrong, what is your true obligation to fix it, especially if it means personal cost?",
+		"context": "",
+		"url": "when-you-see-something-deeply-wrong-what-is-your-true-2",
+		"comment_count": "0"
+	},
+	{
+		"id": "354",
+		"question": "How do you decide when to share your whole self with others and when to keep parts of yourself private?",
+		"context": "",
+		"url": "how-do-you-decide-when-to-share-your-whole-self",
+		"comment_count": "0"
+	},
+	{
+		"id": "355",
+		"question": "If you could fully shed a constant inner restlessness that drives you, would you want to, and why?",
+		"context": "",
+		"url": "if-you-could-fully-shed-a-constant-inner-restlessness-that",
+		"comment_count": "0"
+	},
+	{
+		"id": "356",
+		"question": "If you gave everything to others and still felt an aching emptiness inside, what would you do next?",
+		"context": "",
+		"url": "if-you-gave-everything-to-others-and-still-felt-an",
+		"comment_count": "0"
+	},
+	{
+		"id": "357",
+		"question": "When you see something deeply wrong in the world, what is your true, first impulse to do about it?",
+		"context": "",
+		"url": "when-you-see-something-deeply-wrong-in-the-world-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "358",
+		"question": "What does it feel like to finally reach a goal, only to discover there is another, more exciting path opening before you?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-reach-a-goal",
+		"comment_count": "0"
+	},
+	{
+		"id": "359",
+		"question": "When you have the chance to become a completely new version of yourself, what is the most important thing you consider?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-become-a-completely-new",
+		"comment_count": "0"
+	},
+	{
+		"id": "360",
+		"question": "When you dedicate yourself to supporting another person's purpose, what do you hope your own legacy will be?",
+		"context": "",
+		"url": "when-you-dedicate-yourself-to-supporting-another-person-s-purpose",
+		"comment_count": "0"
+	},
+	{
+		"id": "361",
+		"question": "What is the cost of always needing to feel strong, and what do you do when that strength falters?",
+		"context": "",
+		"url": "what-is-the-cost-of-always-needing-to-feel-strong",
+		"comment_count": "0"
+	},
+	{
+		"id": "362",
+		"question": "When facing an exciting opportunity, how do you decide if saying yes will lead to greater peace or disrupt the peace you already have?",
+		"context": "",
+		"url": "when-facing-an-exciting-opportunity-how-do-you-decide-if",
+		"comment_count": "0"
+	},
+	{
+		"id": "363",
+		"question": "What does a person do when the way they bring joy to others no longer brings joy to themselves?",
+		"context": "",
+		"url": "what-does-a-person-do-when-the-way-they-bring",
+		"comment_count": "0"
+	},
+	{
+		"id": "364",
+		"question": "When faced with danger, or people in conflict, how do you keep your private sense of inner peace intact?",
+		"context": "",
+		"url": "when-faced-with-danger-or-people-in-conflict-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "365",
+		"question": "When you have to make a big decision without knowing the outcome, how do you finally move forward?",
+		"context": "",
+		"url": "when-you-have-to-make-a-big-decision-without-knowing",
+		"comment_count": "0"
+	},
+	{
+		"id": "366",
+		"question": "If something you believe in turns out to be false, what happens to your ability to trust anything else?",
+		"context": "",
+		"url": "if-something-you-believe-in-turns-out-to-be-false",
+		"comment_count": "0"
+	},
+	{
+		"id": "367",
+		"question": "What does it feel like to finally understand a complex problem you have spent a long time observing?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-understand-a-complex",
+		"comment_count": "0"
+	},
+	{
+		"id": "368",
+		"question": "If you could snap your fingers and erase the most public part of your past, what would you gain and what would you lose?",
+		"context": "",
+		"url": "if-you-could-snap-your-fingers-and-erase-the-most",
+		"comment_count": "0"
+	},
+	{
+		"id": "369",
+		"question": "When enduring life's difficulties, what is your most reliable compass for knowing how to keep going?",
+		"context": "",
+		"url": "when-enduring-life-s-difficulties-what-is-your-most-reliable",
+		"comment_count": "0"
+	},
+	{
+		"id": "370",
+		"question": "If something good came to you later in life, would you regret the time lost before it, or just appreciate it arrived?",
+		"context": "",
+		"url": "if-something-good-came-to-you-later-in-life-would",
+		"comment_count": "0"
+	},
+	{
+		"id": "371",
+		"question": "How do you keep finding new sources of joy and vitality when faced with constant pain or limitation?",
+		"context": "",
+		"url": "how-do-you-keep-finding-new-sources-of-joy-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "372",
+		"question": "What is the hardest part about pursuing a dream that demands constant, intense mastery?",
+		"context": "",
+		"url": "what-is-the-hardest-part-about-pursuing-a-dream-that",
+		"comment_count": "0"
+	},
+	{
+		"id": "373",
+		"question": "If you could only show one part of your suffering to the world, would you reveal the outer wounds or the inner pain?",
+		"context": "",
+		"url": "if-you-could-only-show-one-part-of-your-suffering",
+		"comment_count": "0"
+	},
+	{
+		"id": "374",
+		"question": "If you could have a life of great outer success or one of deep inner peace, which would you choose?",
+		"context": "",
+		"url": "if-you-could-have-a-life-of-great-outer-success",
+		"comment_count": "0"
+	},
+	{
+		"id": "375",
+		"question": "What is the most difficult thing about living a life where you have to prove yourself over and over again?",
+		"context": "",
+		"url": "what-is-the-most-difficult-thing-about-living-a-life",
+		"comment_count": "0"
+	},
+	{
+		"id": "376",
+		"question": "When your deepest wounds inspire your greatest creations, how do you know if you are truly healing or just endlessly retelling your pain?",
+		"context": "",
+		"url": "when-your-deepest-wounds-inspire-your-greatest-creations-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "377",
+		"question": "What does it feel like to always be on the outside looking in, even when you are present?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-always-be-on-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "378",
+		"question": "When you have to step into a new identity, how do you manage the feeling of losing your own sense of self?",
+		"context": "",
+		"url": "when-you-have-to-step-into-a-new-identity-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "379",
+		"question": "When facing a conflict that could change your world, what matters most in deciding how you will respond?",
+		"context": "",
+		"url": "when-facing-a-conflict-that-could-change-your-world-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "380",
+		"question": "When you have achieved something you thought would make you feel complete, but it did not, what do you do next?",
+		"context": "",
+		"url": "when-you-have-achieved-something-you-thought-would-make-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "381",
+		"question": "If you achieved everything you hoped for, yet still felt a need to prove your value, where would you look for true fulfillment?",
+		"context": "",
+		"url": "if-you-achieved-everything-you-hoped-for-yet-still-felt",
+		"comment_count": "0"
+	},
+	{
+		"id": "382",
+		"question": "What does it feel like to achieve everything you set out to do, only to realize a deeper need remains unmet?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-achieve-everything-you-set",
+		"comment_count": "0"
+	},
+	{
+		"id": "383",
+		"question": "What responsibility does one have to speak up when they see something that is clearly not right?",
+		"context": "",
+		"url": "what-responsibility-does-one-have-to-speak-up-when-they",
+		"comment_count": "0"
+	},
+	{
+		"id": "384",
+		"question": "When others see you one way, but you know your true self is very different, how do you navigate that gap?",
+		"context": "",
+		"url": "when-others-see-you-one-way-but-you-know-your",
+		"comment_count": "0"
+	},
+	{
+		"id": "385",
+		"question": "When you have achieved great things, how do you manage the pressure to keep proving your worth?",
+		"context": "",
+		"url": "when-you-have-achieved-great-things-how-do-you-manage",
+		"comment_count": "0"
+	},
+	{
+		"id": "386",
+		"question": "If people misunderstood your intentions, would you rather be seen accurately or simply ensure everyone was still comfortable?",
+		"context": "",
+		"url": "if-people-misunderstood-your-intentions-would-you-rather-be-seen",
+		"comment_count": "0"
+	},
+	{
+		"id": "387",
+		"question": "If you could achieve great things but it meant being the absolute center of attention, would you still pursue it?",
+		"context": "",
+		"url": "if-you-could-achieve-great-things-but-it-meant-being",
+		"comment_count": "0"
+	},
+	{
+		"id": "388",
+		"question": "What parts of yourself do you keep private, and why do you choose to protect those specific parts?",
+		"context": "",
+		"url": "what-parts-of-yourself-do-you-keep-private-and-why",
+		"comment_count": "0"
+	},
+	{
+		"id": "389",
+		"question": "When something you created and put into the world is completely misunderstood, what is your first instinct?",
+		"context": "",
+		"url": "when-something-you-created-and-put-into-the-world-is",
+		"comment_count": "0"
+	},
+	{
+		"id": "390",
+		"question": "When facing something truly difficult, how do you find the will to keep creating and building a new way forward?",
+		"context": "",
+		"url": "when-facing-something-truly-difficult-how-do-you-find-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "391",
+		"question": "How do you navigate the tension between wanting to be truly seen and wanting to disappear completely?",
+		"context": "",
+		"url": "how-do-you-navigate-the-tension-between-wanting-to-be",
+		"comment_count": "0"
+	},
+	{
+		"id": "392",
+		"question": "What does it feel like to finally accomplish a goal, only to see all the ways it could have been better?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-accomplish-a-goal",
+		"comment_count": "0"
+	},
+	{
+		"id": "393",
+		"question": "If you saw a path to escape a painful situation, but it meant losing everything familiar, would you take it?",
+		"context": "",
+		"url": "if-you-saw-a-path-to-escape-a-painful-situation",
+		"comment_count": "0"
+	},
+	{
+		"id": "394",
+		"question": "If transforming yourself for success meant losing who you truly were, how would you find your way back?",
+		"context": "",
+		"url": "if-transforming-yourself-for-success-meant-losing-who-you-truly",
+		"comment_count": "0"
+	},
+	{
+		"id": "395",
+		"question": "When building something you care deeply about, what responsibility do you feel for the way others experience what you have made?",
+		"context": "",
+		"url": "when-building-something-you-care-deeply-about-what-responsibility-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "396",
+		"question": "If you completely transformed yourself, would you feel disappointed if people still only saw your original self?",
+		"context": "",
+		"url": "if-you-completely-transformed-yourself-would-you-feel-disappointed-if",
+		"comment_count": "0"
+	},
+	{
+		"id": "397",
+		"question": "When you have experienced division your whole life, how do you finally choose where you truly belong?",
+		"context": "",
+		"url": "when-you-have-experienced-division-your-whole-life-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "398",
+		"question": "If you could choose a quiet, ordinary life or a public life of extraordinary impact, which would you pick?",
+		"context": "",
+		"url": "if-you-could-choose-a-quiet-ordinary-life-or-a",
+		"comment_count": "0"
+	},
+	{
+		"id": "399",
+		"question": "When you have done everything right but things still go wrong, what part of yourself do you examine first?",
+		"context": "",
+		"url": "when-you-have-done-everything-right-but-things-still-go-2",
+		"comment_count": "0"
+	},
+	{
+		"id": "400",
+		"question": "When you have the chance to back down and avoid further conflict, what makes you decide to stand your ground instead?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-back-down-and-avoid",
+		"comment_count": "0"
+	},
+	{
+		"id": "401",
+		"question": "When you have the power to change anything, what stops you from changing absolutely everything?",
+		"context": "",
+		"url": "when-you-have-the-power-to-change-anything-what-stops",
+		"comment_count": "0"
+	},
+	{
+		"id": "402",
+		"question": "If you changed who you were to please others, what part of yourself would you miss the most, if any?",
+		"context": "",
+		"url": "if-you-changed-who-you-were-to-please-others-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "403",
+		"question": "When facing an inevitable, overwhelming challenge, how do you decide between fighting fiercely and accepting personal limits?",
+		"context": "",
+		"url": "when-facing-an-inevitable-overwhelming-challenge-how-do-you-decide",
+		"comment_count": "0"
+	},
+	{
+		"id": "404",
+		"question": "When you have to fight to be heard or understood, what makes you keep going?",
+		"context": "",
+		"url": "when-you-have-to-fight-to-be-heard-or-understood",
+		"comment_count": "0"
+	},
+	{
+		"id": "405",
+		"question": "When you have done your absolute best, but it is still not good enough, what makes you try again?",
+		"context": "",
+		"url": "when-you-have-done-your-absolute-best-but-it-is",
+		"comment_count": "0"
+	},
+	{
+		"id": "406",
+		"question": "When you have poured yourself into meeting others' needs, how do you know what you truly need for yourself?",
+		"context": "",
+		"url": "when-you-have-poured-yourself-into-meeting-others-needs-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "407",
+		"question": "If you could achieve every dream you have, but it meant showing no emotion through it all, would you do it?",
+		"context": "",
+		"url": "if-you-could-achieve-every-dream-you-have-but-it-2",
+		"comment_count": "0"
+	},
+	{
+		"id": "408",
+		"question": "If you see a system that seems fundamentally flawed, how do you decide whether to work within it or leave it entirely?",
+		"context": "",
+		"url": "if-you-see-a-system-that-seems-fundamentally-flawed-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "409",
+		"question": "If you curate every detail of your outer life, what part of your inner self are you trying to protect?",
+		"context": "",
+		"url": "if-you-curate-every-detail-of-your-outer-life-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "410",
+		"question": "When something you created with passion becomes controversial, how do you decide whether to defend it, revise it, or walk away?",
+		"context": "",
+		"url": "when-something-you-created-with-passion-becomes-controversial-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "411",
+		"question": "When you have poured your truest self into something, and it is received as ordinary, how do you respond?",
+		"context": "",
+		"url": "when-you-have-poured-your-truest-self-into-something-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "412",
+		"question": "When you have all the information and know what must be done, what stops you from acting on it?",
+		"context": "",
+		"url": "when-you-have-all-the-information-and-know-what-must",
+		"comment_count": "0"
+	},
+	{
+		"id": "413",
+		"question": "When you have the power to protect others, what compels you to shoulder that responsibility, even when it is difficult?",
+		"context": "",
+		"url": "when-you-have-the-power-to-protect-others-what-compels",
+		"comment_count": "0"
+	},
+	{
+		"id": "414",
+		"question": "When you have to make a difficult decision, how do you know if you are protecting yourself or limiting your true potential?",
+		"context": "",
+		"url": "when-you-have-to-make-a-difficult-decision-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "415",
+		"question": "When faced with an uncertain future, what is the most reliable way you have learned to navigate your path?",
+		"context": "",
+		"url": "when-faced-with-an-uncertain-future-what-is-the-most",
+		"comment_count": "0"
+	},
+	{
+		"id": "416",
+		"question": "When something is clearly broken, how much effort do you owe it to make things right?",
+		"context": "",
+		"url": "when-something-is-clearly-broken-how-much-effort-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "417",
+		"question": "If you strongly believe something is wrong, and feel obligated to speak up, what would make you hesitate?",
+		"context": "",
+		"url": "if-you-strongly-believe-something-is-wrong-and-feel-obligated",
+		"comment_count": "0"
+	},
+	{
+		"id": "418",
+		"question": "When faced with uncertainty, what is the best way to determine if a path is truly safe before committing to it?",
+		"context": "",
+		"url": "when-faced-with-uncertainty-what-is-the-best-way-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "419",
+		"question": "When facing someone powerful, what does it feel like to challenge them, and what makes you decide to speak up or stay silent?",
+		"context": "",
+		"url": "when-facing-someone-powerful-what-does-it-feel-like-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "420",
+		"question": "When facing something that feels insurmountable, what makes you choose to keep pushing forward instead of stopping?",
+		"context": "",
+		"url": "when-facing-something-that-feels-insurmountable-what-makes-you-choose",
+		"comment_count": "0"
+	},
+	{
+		"id": "421",
+		"question": "If you could only choose one, would you rather have continuous comfort or continuous challenge in your life?",
+		"context": "",
+		"url": "if-you-could-only-choose-one-would-you-rather-have",
+		"comment_count": "0"
+	},
+	{
+		"id": "422",
+		"question": "When you have done everything right and still come up short, how do you reconcile yourself with the outcome?",
+		"context": "",
+		"url": "when-you-have-done-everything-right-and-still-come-up",
+		"comment_count": "0"
+	},
+	{
+		"id": "423",
+		"question": "When you see something clearly wrong, what part of you decides if it is your duty to speak up and act?",
+		"context": "",
+		"url": "when-you-see-something-clearly-wrong-what-part-of-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "424",
+		"question": "If you could shed all expectations and simply be, what kind of person would you choose to become?",
+		"context": "",
+		"url": "if-you-could-shed-all-expectations-and-simply-be-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "425",
+		"question": "When you have the chance to become a new version of yourself, what makes you decide which parts to keep and which to let go?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-become-a-new-version",
+		"comment_count": "0"
+	},
+	{
+		"id": "426",
+		"question": "When you have achieved what you set out to do, what makes it feel truly meaningful and complete?",
+		"context": "",
+		"url": "when-you-have-achieved-what-you-set-out-to-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "427",
+		"question": "When you have worked hard for something you truly want, what makes you give up on attaining it?",
+		"context": "",
+		"url": "when-you-have-worked-hard-for-something-you-truly-want",
+		"comment_count": "0"
+	},
+	{
+		"id": "428",
+		"question": "When you have to choose between keeping peace and speaking a hard truth, how do you decide which path to take?",
+		"context": "",
+		"url": "when-you-have-to-choose-between-keeping-peace-and-speaking",
+		"comment_count": "0"
+	},
+	{
+		"id": "429",
+		"question": "When you have given so much of yourself to others, how do you decide what, if anything, is left for you?",
+		"context": "",
+		"url": "when-you-have-given-so-much-of-yourself-to-others-3",
+		"comment_count": "0"
+	},
+	{
+		"id": "430",
+		"question": "When you have to choose between going along with the group and standing firm in what you believe, what guides your decision?",
+		"context": "",
+		"url": "when-you-have-to-choose-between-going-along-with-the",
+		"comment_count": "1"
+	},
+	{
+		"id": "431",
+		"question": "If you stopped performing at your best, would you still feel worthy of love and attention?",
+		"context": "",
+		"url": "if-you-stopped-performing-at-your-best-would-you-still",
+		"comment_count": "0"
+	},
+	{
+		"id": "432",
+		"question": "When faced with immense pressure to conform, how do you decide whether to stand firm in your convictions or adapt to external expectations?",
+		"context": "",
+		"url": "when-faced-with-immense-pressure-to-conform-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "433",
+		"question": "If you achieved everything you desired, yet it never felt like enough, what would you do next?",
+		"context": "",
+		"url": "if-you-achieved-everything-you-desired-yet-it-never-felt",
+		"comment_count": "0"
+	},
+	{
+		"id": "434",
+		"question": "When you have achieved a lot, how do you decide if you have done enough, or if there is still more to prove?",
+		"context": "",
+		"url": "when-you-have-achieved-a-lot-how-do-you-decide",
+		"comment_count": "0"
+	},
+	{
+		"id": "435",
+		"question": "When facing a crisis, do you trust your preparation and the people around you, or do you rely on your own gut feeling?",
+		"context": "",
+		"url": "when-facing-a-crisis-do-you-trust-your-preparation-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "436",
+		"question": "When building something meant to last beyond you, how much of yourself do you sacrifice to ensure its survival?",
+		"context": "",
+		"url": "when-building-something-meant-to-last-beyond-you-how-much",
+		"comment_count": "0"
+	},
+	{
+		"id": "437",
+		"question": "When does the satisfaction of building something new outweigh the effort it took to create it?",
+		"context": "",
+		"url": "when-does-the-satisfaction-of-building-something-new-outweigh-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "438",
+		"question": "When your life is intertwined with someone else's, how do you find your distinct path and self?",
+		"context": "",
+		"url": "when-your-life-is-intertwined-with-someone-else-s-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "439",
+		"question": "What happens when the problems you are driven to solve are so big that they demand more than any one person can give?",
+		"context": "",
+		"url": "what-happens-when-the-problems-you-are-driven-to-solve",
+		"comment_count": "0"
+	},
+	{
+		"id": "440",
+		"question": "What is the true cost of pursuing absolute freedom and new experiences above all other things?",
+		"context": "",
+		"url": "what-is-the-true-cost-of-pursuing-absolute-freedom-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "441",
+		"question": "How do you decide when to stay and fight for something, or when to walk away and protect your own peace?",
+		"context": "",
+		"url": "how-do-you-decide-when-to-stay-and-fight-for",
+		"comment_count": "0"
+	},
+	{
+		"id": "442",
+		"question": "When a world you created becomes so vast, how do you decide whether to keep expanding it or finally let it go?",
+		"context": "",
+		"url": "when-a-world-you-created-becomes-so-vast-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "443",
+		"question": "When you have achieved something significant, what makes it feel truly valuable and worth celebrating?",
+		"context": "",
+		"url": "when-you-have-achieved-something-significant-what-makes-it-feel",
+		"comment_count": "0"
+	},
+	{
+		"id": "444",
+		"question": "When you have achieved a great deal, how do you decide if your accomplishments are truly yours or merely reflections of others' expectations?",
+		"context": "",
+		"url": "when-you-have-achieved-a-great-deal-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "445",
+		"question": "When fear suddenly grips you and makes you want to retreat, what is most likely to move you forward again?",
+		"context": "",
+		"url": "when-fear-suddenly-grips-you-and-makes-you-want-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "446",
+		"question": "What does it feel like to constantly prepare for something difficult, only to find peace in the absence of trouble?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-constantly-prepare-for-something",
+		"comment_count": "0"
+	},
+	{
+		"id": "447",
+		"question": "When you have the chance to fully step away from a public life, how much of your truest self do you choose to share with the world?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-fully-step-away-from",
+		"comment_count": "0"
+	},
+	{
+		"id": "448",
+		"question": "When you have the chance to serve a greater purpose, how do you decide if your personal commitments are more important?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-serve-a-greater-purpose",
+		"comment_count": "0"
+	},
+	{
+		"id": "449",
+		"question": "If something good came out of a terrible experience, how do you decide if the good was worth the pain?",
+		"context": "",
+		"url": "if-something-good-came-out-of-a-terrible-experience-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "450",
+		"question": "If you built something for the whole world to use, would you keep shaping its purpose, or let it live on its own?",
+		"context": "",
+		"url": "if-you-built-something-for-the-whole-world-to-use",
+		"comment_count": "0"
+	},
+	{
+		"id": "451",
+		"question": "If you depend on appreciation to feel secure, how do you find peace when no one is around to acknowledge you?",
+		"context": "",
+		"url": "if-you-depend-on-appreciation-to-feel-secure-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "452",
+		"question": "When you pour your whole being into creating something, how do you decide if it is truly finished and ready to share?",
+		"context": "",
+		"url": "when-you-pour-your-whole-being-into-creating-something-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "453",
+		"question": "How do you decide when to push forward and assert yourself, and when is it better to hold back?",
+		"context": "",
+		"url": "how-do-you-decide-when-to-push-forward-and-assert",
+		"comment_count": "0"
+	},
+	{
+		"id": "454",
+		"question": "When you must always appear strong and capable for others, what does it feel like when you are privately struggling?",
+		"context": "",
+		"url": "when-you-must-always-appear-strong-and-capable-for-others",
+		"comment_count": "0"
+	},
+	{
+		"id": "455",
+		"question": "If you could stop running from a difficult part of your past, what would make you finally turn around and face it?",
+		"context": "",
+		"url": "if-you-could-stop-running-from-a-difficult-part-of",
+		"comment_count": "0"
+	},
+	{
+		"id": "456",
+		"question": "What happens when the path you chose for excitement and freedom suddenly becomes confining and joyless?",
+		"context": "",
+		"url": "what-happens-when-the-path-you-chose-for-excitement-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "457",
+		"question": "If you could choose to be happy and ordinary, or remain restless while creating something truly meaningful, which would you choose?",
+		"context": "",
+		"url": "if-you-could-choose-to-be-happy-and-ordinary-or",
+		"comment_count": "0"
+	},
+	{
+		"id": "458",
+		"question": "When faced with something difficult and uncertain, where do you find the resolve to keep moving forward?",
+		"context": "",
+		"url": "when-faced-with-something-difficult-and-uncertain-where-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "459",
+		"question": "What is it like to want to bring joy to others, yet also want to disappear from the public eye?",
+		"context": "",
+		"url": "what-is-it-like-to-want-to-bring-joy-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "460",
+		"question": "What happens when the path to success asks you to pursue something different than what your heart truly desires?",
+		"context": "",
+		"url": "what-happens-when-the-path-to-success-asks-you-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "461",
+		"question": "If something you created brought you great success but also felt deeply misaligned with who you are, would you abandon it?",
+		"context": "",
+		"url": "if-something-you-created-brought-you-great-success-but-also",
+		"comment_count": "0"
+	},
+	{
+		"id": "462",
+		"question": "When does upholding a promise to others become less important than protecting the ones you love most?",
+		"context": "",
+		"url": "when-does-upholding-a-promise-to-others-become-less-important",
+		"comment_count": "0"
+	},
+	{
+		"id": "463",
+		"question": "If you could completely remake who you are, would you become someone entirely new, or just a better version of your current self?",
+		"context": "",
+		"url": "if-you-could-completely-remake-who-you-are-would-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "464",
+		"question": "What is the hardest part about protecting what you love when it means confronting something difficult and potentially dangerous?",
+		"context": "",
+		"url": "what-is-the-hardest-part-about-protecting-what-you-love",
+		"comment_count": "0"
+	},
+	{
+		"id": "465",
+		"question": "When facing a difficult situation where the path is unclear, what ultimately guides your decision-making?",
+		"context": "",
+		"url": "when-facing-a-difficult-situation-where-the-path-is-unclear",
+		"comment_count": "0"
+	},
+	{
+		"id": "466",
+		"question": "If you could shed every expectation and role others have placed on you, what authentic self would you discover?",
+		"context": "",
+		"url": "if-you-could-shed-every-expectation-and-role-others-have",
+		"comment_count": "0"
+	},
+	{
+		"id": "467",
+		"question": "When faced with great difficulty, how do you find strength to keep going without losing yourself in the process?",
+		"context": "",
+		"url": "when-faced-with-great-difficulty-how-do-you-find-strength",
+		"comment_count": "0"
+	},
+	{
+		"id": "468",
+		"question": "What does it feel like to finally arrive at the place you always wanted to be, then realize you don't want to stay?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-arrive-at-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "469",
+		"question": "If you could change a difficult past, would you, knowing it shaped who you are?",
+		"context": "",
+		"url": "if-you-could-change-a-difficult-past-would-you-knowing",
+		"comment_count": "0"
+	},
+	{
+		"id": "470",
+		"question": "When you see something clearly wrong, what makes you speak up, even if it costs you everything?",
+		"context": "",
+		"url": "when-you-see-something-clearly-wrong-what-makes-you-speak",
+		"comment_count": "0"
+	},
+	{
+		"id": "471",
+		"question": "When pursuing a great ambition, how do you decide whether to compromise your vision for the sake of unity, or push forward alone?",
+		"context": "",
+		"url": "when-pursuing-a-great-ambition-how-do-you-decide-whether",
+		"comment_count": "0"
+	},
+	{
+		"id": "472",
+		"question": "When faced with immense pain or discomfort, how do you find the will to keep moving forward or find something good in it?",
+		"context": "",
+		"url": "when-faced-with-immense-pain-or-discomfort-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "473",
+		"question": "What does it feel like to finally slow down and just be, without needing to create or achieve?",
+		"context": "",
+		"url": "what-does-it-feel-like-to-finally-slow-down-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "474",
+		"question": "When faced with the chance to finally settle into a good situation, what makes you want to explore other possibilities instead?",
+		"context": "",
+		"url": "when-faced-with-the-chance-to-finally-settle-into-a",
+		"comment_count": "0"
+	},
+	{
+		"id": "475",
+		"question": "When you have worked hard to achieve a new position, what is the most important thing to do once you are there?",
+		"context": "",
+		"url": "when-you-have-worked-hard-to-achieve-a-new-position",
+		"comment_count": "0"
+	},
+	{
+		"id": "476",
+		"question": "When helping others feels draining and leaves you with little, how do you decide if you over-gave or if it was worth the sacrifice?",
+		"context": "",
+		"url": "when-helping-others-feels-draining-and-leaves-you-with-little",
+		"comment_count": "0"
+	},
+	{
+		"id": "477",
+		"question": "What happens when the image you have carefully built no longer aligns with who you feel you are inside?",
+		"context": "",
+		"url": "what-happens-when-the-image-you-have-carefully-built-no",
+		"comment_count": "0"
+	},
+	{
+		"id": "478",
+		"question": "When faced with immense external pressure to do something, how do you decide if you will meet that expectation or not?",
+		"context": "",
+		"url": "when-faced-with-immense-external-pressure-to-do-something-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "479",
+		"question": "When you have painstakingly crafted a unique identity, what does it feel like if others still misunderstand who you are?",
+		"context": "",
+		"url": "when-you-have-painstakingly-crafted-a-unique-identity-what-does",
+		"comment_count": "0"
+	},
+	{
+		"id": "480",
+		"question": "If pursuing more of what you want might cost you everything, how would you decide what to do?",
+		"context": "",
+		"url": "if-pursuing-more-of-what-you-want-might-cost-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "481",
+		"question": "If you could truly accept yourself, with all your flaws and imperfections, what would that freedom feel like?",
+		"context": "",
+		"url": "if-you-could-truly-accept-yourself-with-all-your-flaws",
+		"comment_count": "0"
+	},
+	{
+		"id": "482",
+		"question": "If you achieved everything you set out to do, yet still felt a deep need to prove your worth, what would you do next?",
+		"context": "",
+		"url": "if-you-achieved-everything-you-set-out-to-do-yet",
+		"comment_count": "0"
+	},
+	{
+		"id": "483",
+		"question": "How do you decide when to step forward and make your own presence felt, and when to blend in with your surroundings?",
+		"context": "",
+		"url": "how-do-you-decide-when-to-step-forward-and-make",
+		"comment_count": "0"
+	},
+	{
+		"id": "484",
+		"question": "When facing a situation where you feel your power is being challenged, how do you typically respond?",
+		"context": "",
+		"url": "when-facing-a-situation-where-you-feel-your-power-is",
+		"comment_count": "0"
+	},
+	{
+		"id": "485",
+		"question": "When you have given so much of yourself to others, how do you know when it is time to turn that same care back to yourself?",
+		"context": "",
+		"url": "when-you-have-given-so-much-of-yourself-to-others-4",
+		"comment_count": "0"
+	},
+	{
+		"id": "486",
+		"question": "What does it mean to truly want something, and how do you know when pursuing it is no longer serving you?",
+		"context": "",
+		"url": "what-does-it-mean-to-truly-want-something-and-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "487",
+		"question": "What does one do when they have achieved their dreams, yet still feel a deep sense of longing?",
+		"context": "",
+		"url": "what-does-one-do-when-they-have-achieved-their-dreams",
+		"comment_count": "0"
+	},
+	{
+		"id": "488",
+		"question": "If you could choose between being widely loved and being widely respected, which would you pick and why?",
+		"context": "",
+		"url": "if-you-could-choose-between-being-widely-loved-and-being",
+		"comment_count": "0"
+	},
+	{
+		"id": "489",
+		"question": "When your greatest strengths are consistently overlooked, how do you find the motivation to keep excelling?",
+		"context": "",
+		"url": "when-your-greatest-strengths-are-consistently-overlooked-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "490",
+		"question": "When you have to change your path entirely, how do you decide what parts of your former self to carry forward?",
+		"context": "",
+		"url": "when-you-have-to-change-your-path-entirely-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "491",
+		"question": "When you have to show up as one version of yourself, but deep down feel like someone else, what do you do?",
+		"context": "",
+		"url": "when-you-have-to-show-up-as-one-version-of",
+		"comment_count": "0"
+	},
+	{
+		"id": "492",
+		"question": "If your most important insights were misunderstood by many people, would you try to clarify, or let the ideas stand on their own?",
+		"context": "",
+		"url": "if-your-most-important-insights-were-misunderstood-by-many-people",
+		"comment_count": "0"
+	},
+	{
+		"id": "493",
+		"question": "When you have given so much of yourself and still feel unappreciated, what do you do with that lingering disappointment?",
+		"context": "",
+		"url": "when-you-have-given-so-much-of-yourself-and-still",
+		"comment_count": "0"
+	},
+	{
+		"id": "494",
+		"question": "If you saw a new way to build something great, would you pursue it, even if it meant isolating yourself from others?",
+		"context": "",
+		"url": "if-you-saw-a-new-way-to-build-something-great",
+		"comment_count": "0"
+	},
+	{
+		"id": "495",
+		"question": "What responsibility does one have to the world when they create something that changes how everyone connects?",
+		"context": "",
+		"url": "what-responsibility-does-one-have-to-the-world-when-they",
+		"comment_count": "0"
+	},
+	{
+		"id": "496",
+		"question": "When you have given so much of yourself in a new situation, what do you do if you feel deeply unwanted?",
+		"context": "",
+		"url": "when-you-have-given-so-much-of-yourself-in-a",
+		"comment_count": "0"
+	},
+	{
+		"id": "497",
+		"question": "If you suffered a profound loss that shaped your entire life, how would you then define what makes a life well-lived?",
+		"context": "",
+		"url": "if-you-suffered-a-profound-loss-that-shaped-your-entire",
+		"comment_count": "0"
+	},
+	{
+		"id": "498",
+		"question": "How do you decide when to stand firm against wrong, and when to let something go for the sake of greater peace?",
+		"context": "",
+		"url": "how-do-you-decide-when-to-stand-firm-against-wrong",
+		"comment_count": "0"
+	},
+	{
+		"id": "499",
+		"question": "When you put genuine effort into caring for something or someone, what do you hope your dedication will create?",
+		"context": "",
+		"url": "when-you-put-genuine-effort-into-caring-for-something-or",
+		"comment_count": "0"
+	},
+	{
+		"id": "500",
+		"question": "If you know the right way to build something, how do you decide when to compromise on your ideals for the sake of progress?",
+		"context": "",
+		"url": "if-you-know-the-right-way-to-build-something-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "501",
+		"question": "When your life's work creates something truly terrible, how do you then make sense of your own existence?",
+		"context": "",
+		"url": "when-your-life-s-work-creates-something-truly-terrible-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "502",
+		"question": "When you have been deeply misunderstood, what does it take to show others who you truly are?",
+		"context": "",
+		"url": "when-you-have-been-deeply-misunderstood-what-does-it-take",
+		"comment_count": "0"
+	},
+	{
+		"id": "503",
+		"question": "When you have the chance to change your life for the better, what is the hardest part about letting go of old ways?",
+		"context": "",
+		"url": "when-you-have-the-chance-to-change-your-life-for",
+		"comment_count": "0"
+	},
+	{
+		"id": "504",
+		"question": "When you have escaped something that once consumed you, what then makes you feel safe enough to truly relax?",
+		"context": "",
+		"url": "when-you-have-escaped-something-that-once-consumed-you-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "505",
+		"question": "When faced with something that feels broken or inefficient, what is your first impulse?",
+		"context": "",
+		"url": "when-faced-with-something-that-feels-broken-or-inefficient-what",
+		"comment_count": "0"
+	},
+	{
+		"id": "506",
+		"question": "If you always put others first, how do you know if your own needs are truly being met, or if you are simply running on empty?",
+		"context": "",
+		"url": "if-you-always-put-others-first-how-do-you-know",
+		"comment_count": "0"
+	},
+	{
+		"id": "507",
+		"question": "If you had to choose between being the person everyone wants you to be or the person you truly are, which would you pick?",
+		"context": "",
+		"url": "if-you-had-to-choose-between-being-the-person-everyone",
+		"comment_count": "0"
+	},
+	{
+		"id": "508",
+		"question": "How do you know if you are being yourself, or if you are performing a role for the hopes of achieving something?",
+		"context": "",
+		"url": "how-do-you-know-if-you-are-being-yourself-or",
+		"comment_count": "0"
+	},
+	{
+		"id": "509",
+		"question": "How do you navigate situations where you feel deeply anxious, but others expect you to appear completely confident?",
+		"context": "",
+		"url": "how-do-you-navigate-situations-where-you-feel-deeply-anxious",
+		"comment_count": "0"
+	},
+	{
+		"id": "510",
+		"question": "When you have achieved the most important things in your life, what does it mean to feel like it is still not enough?",
+		"context": "",
+		"url": "when-you-have-achieved-the-most-important-things-in-your",
+		"comment_count": "0"
+	},
+	{
+		"id": "511",
+		"question": "If you immerse yourself completely in a world that is not truly yours, what part of yourself do you risk leaving behind?",
+		"context": "",
+		"url": "if-you-immerse-yourself-completely-in-a-world-that-is",
+		"comment_count": "0"
+	},
+	{
+		"id": "512",
+		"question": "When you have to choose between your own success and someone else's comfort, what guides your decision?",
+		"context": "",
+		"url": "when-you-have-to-choose-between-your-own-success-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "513",
+		"question": "If you built something enormous and became known for it, how would you feel if it then demanded everything from you?",
+		"context": "",
+		"url": "if-you-built-something-enormous-and-became-known-for-it",
+		"comment_count": "0"
+	},
+	{
+		"id": "514",
+		"question": "What does it feel like when you are pursuing something important, and you realize you might not achieve it?",
+		"context": "",
+		"url": "what-does-it-feel-like-when-you-are-pursuing-something",
+		"comment_count": "0"
+	},
+	{
+		"id": "515",
+		"question": "If you could truly disappear from everything and everyone you know, what would you hope to find, and what would you hope to leave behind?",
+		"context": "",
+		"url": "if-you-could-truly-disappear-from-everything-and-everyone-you",
+		"comment_count": "4"
+	},
+	{
+		"id": "516",
+		"question": "If you built a life around being seen a certain way, what happens when that image no longer serves who you are?",
+		"context": "",
+		"url": "if-you-built-a-life-around-being-seen-a-certain",
+		"comment_count": "0"
+	},
+	{
+		"id": "517",
+		"question": "When you have to fight for something important, what part of you makes you step forward despite the risks?",
+		"context": "",
+		"url": "when-you-have-to-fight-for-something-important-what-part",
+		"comment_count": "0"
+	},
+	{
+		"id": "518",
+		"question": "What is the hardest part about helping someone else, even when you know it is the right thing to do?",
+		"context": "",
+		"url": "what-is-the-hardest-part-about-helping-someone-else-even",
+		"comment_count": "0"
+	},
+	{
+		"id": "519",
+		"question": "What does it mean to choose a path of constant critique, knowing it might lead to being misunderstood or isolated by others?",
+		"context": "",
+		"url": "what-does-it-mean-to-choose-a-path-of-constant",
+		"comment_count": "0"
+	},
+	{
+		"id": "520",
+		"question": "What is the true measure of a life well-lived, beyond any single achievement or setback?",
+		"context": "",
+		"url": "what-is-the-true-measure-of-a-life-well-lived",
+		"comment_count": "0"
+	},
+	{
+		"id": "521",
+		"question": "How do you decide when to prioritize your own well-being over the unspoken expectations of others?",
+		"context": "",
+		"url": "how-do-you-decide-when-to-prioritize-your-own-well",
+		"comment_count": "0"
+	},
+	{
+		"id": "522",
+		"question": "If you share your truest self with others, how do you protect what feels most tender and personal to you?",
+		"context": "",
+		"url": "if-you-share-your-truest-self-with-others-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "523",
+		"question": "If something important to you was lost forever, how would you find a way to keep going without it?",
+		"context": "",
+		"url": "if-something-important-to-you-was-lost-forever-how-would",
+		"comment_count": "0"
+	},
+	{
+		"id": "524",
+		"question": "If you could completely redefine yourself, would you seize the chance or hold onto the person you have become?",
+		"context": "",
+		"url": "if-you-could-completely-redefine-yourself-would-you-seize-the",
+		"comment_count": "0"
+	},
+	{
+		"id": "525",
+		"question": "What does a person do when the structures meant to provide safety and security feel deeply untrustworthy?",
+		"context": "",
+		"url": "what-does-a-person-do-when-the-structures-meant-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "526",
+		"question": "When you have built something you truly care about, how do you decide who is worthy of being inside the walls with you?",
+		"context": "",
+		"url": "when-you-have-built-something-you-truly-care-about-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "527",
+		"question": "How do you navigate the tension between wanting to disappear and needing to be seen?",
+		"context": "",
+		"url": "how-do-you-navigate-the-tension-between-wanting-to-disappear",
+		"comment_count": "0"
+	},
+	{
+		"id": "528",
+		"question": "When you have escaped a difficult part of your life, what makes you confident it will not come back into your life again?",
+		"context": "",
+		"url": "when-you-have-escaped-a-difficult-part-of-your-life",
+		"comment_count": "0"
+	},
+	{
+		"id": "529",
+		"question": "When creating something new, what part of the process truly makes it feel like it belongs to you?",
+		"context": "",
+		"url": "when-creating-something-new-what-part-of-the-process-truly",
+		"comment_count": "0"
+	},
+	{
+		"id": "530",
+		"question": "What is the true cost of prioritizing order and clear systems above all else in life?",
+		"context": "",
+		"url": "what-is-the-true-cost-of-prioritizing-order-and-clear",
+		"comment_count": "0"
+	},
+	{
+		"id": "531",
+		"question": "What happens when the path you are on starts to feel less like your own and more like something chosen for you?",
+		"context": "",
+		"url": "what-happens-when-the-path-you-are-on-starts-to",
+		"comment_count": "0"
+	},
+	{
+		"id": "532",
+		"question": "How do you decide when to trust your preparations versus when to trust your ability to adapt?",
+		"context": "",
+		"url": "how-do-you-decide-when-to-trust-your-preparations-versus",
+		"comment_count": "0"
+	},
+	{
+		"id": "533",
+		"question": "If you could truly disappear and cease to exist in anyone's memory, what would be the quietest urge compelling you to stay?",
+		"context": "",
+		"url": "if-you-could-truly-disappear-and-cease-to-exist-in",
+		"comment_count": "0"
+	},
+	{
+		"id": "534",
+		"question": "Why do some people dedicate their lives to situations that keep them feeling like an outsider?",
+		"context": "",
+		"url": "why-do-some-people-dedicate-their-lives-to-situations-that",
+		"comment_count": "0"
+	},
+	{
+		"id": "535",
+		"question": "How much of ourselves must we hold back to protect what we have learned about how the world works?",
+		"context": "",
+		"url": "how-much-of-ourselves-must-we-hold-back-to-protect",
+		"comment_count": "0"
+	},
+	{
+		"id": "536",
+		"question": "What does one do when gaining more power means risking the very connections that matter most?",
+		"context": "",
+		"url": "what-does-one-do-when-gaining-more-power-means-risking",
+		"comment_count": "0"
+	},
+	{
+		"id": "537",
+		"question": "When everything says you should give up on a path, what makes you decide to keep going anyway?",
+		"context": "",
+		"url": "when-everything-says-you-should-give-up-on-a-path",
+		"comment_count": "0"
+	},
+	{
+		"id": "538",
+		"question": "When faced with difficult feelings, do you confront them head-on, or do you find ways to move past them quickly?",
+		"context": "",
+		"url": "when-faced-with-difficult-feelings-do-you-confront-them-head",
+		"comment_count": "0"
+	},
+	{
+		"id": "539",
+		"question": "When facing a powerful system, how do you decide between working within its rules or challenging them directly?",
+		"context": "",
+		"url": "when-facing-a-powerful-system-how-do-you-decide-between",
+		"comment_count": "0"
+	},
+	{
+		"id": "540",
+		"question": "When can securing your position become a relentless pursuit that isolates you from others?",
+		"context": "",
+		"url": "when-can-securing-your-position-become-a-relentless-pursuit-that",
+		"comment_count": "0"
+	},
+	{
+		"id": "541",
+		"question": "When facing something that scares you deeply, how do you decide if you should confront it directly or find another path?",
+		"context": "",
+		"url": "when-facing-something-that-scares-you-deeply-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "542",
+		"question": "When you have achieved a significant personal transformation, how do you decide what parts of your past self to remember or forget?",
+		"context": "",
+		"url": "when-you-have-achieved-a-significant-personal-transformation-how-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "543",
+		"question": "When faced with personal struggles, how do you find peace without ignoring the difficulties or upsetting those around you?",
+		"context": "",
+		"url": "when-faced-with-personal-struggles-how-do-you-find-peace",
+		"comment_count": "0"
+	},
+	{
+		"id": "544",
+		"question": "What is it like to recognize a world-changing pattern, and then realize only you can fully see its potential?",
+		"context": "",
+		"url": "what-is-it-like-to-recognize-a-world-changing-pattern",
+		"comment_count": "0"
+	},
+	{
+		"id": "545",
+		"question": "When you have achieved the peak of something you once deeply desired, what makes you walk away from it?",
+		"context": "",
+		"url": "when-you-have-achieved-the-peak-of-something-you-once",
+		"comment_count": "0"
+	},
+	{
+		"id": "546",
+		"question": "If you feel fundamentally different from others, how do you find your place in the world without compromising who you are?",
+		"context": "",
+		"url": "if-you-feel-fundamentally-different-from-others-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "547",
+		"question": "When you have to choose between speaking your full truth and keeping the peace, which path do you usually take?",
+		"context": "",
+		"url": "when-you-have-to-choose-between-speaking-your-full-truth",
+		"comment_count": "0"
+	},
+	{
+		"id": "548",
+		"question": "When you have caused real damage, what is the best way to live with yourself afterward?",
+		"context": "",
+		"url": "when-you-have-caused-real-damage-what-is-the-best",
+		"comment_count": "0"
+	},
+	{
+		"id": "549",
+		"question": "When you have to choose between keeping the peace or standing up for what you believe, how do you decide what to do?",
+		"context": "",
+		"url": "when-you-have-to-choose-between-keeping-the-peace-or",
+		"comment_count": "0"
+	},
+	{
+		"id": "550",
+		"question": "If you built a life around presenting yourself a certain way, what happens when the real you unexpectedly shows through?",
+		"context": "",
+		"url": "if-you-built-a-life-around-presenting-yourself-a-certain",
+		"comment_count": "0"
+	},
+	{
+		"id": "551",
+		"question": "When you have an idea you are certain is great, but no one around you seems to agree, how do you proceed?",
+		"context": "",
+		"url": "when-you-have-an-idea-you-are-certain-is-great",
+		"comment_count": "0"
+	},
+	{
+		"id": "552",
+		"question": "If something that once brought great comfort suddenly felt wrong, would you abandon it or try to make it right?",
+		"context": "",
+		"url": "if-something-that-once-brought-great-comfort-suddenly-felt-wrong",
+		"comment_count": "0"
+	},
+	{
+		"id": "553",
+		"question": "When you have worked hard to build something meaningful, how do you decide what truly deserves your full attention?",
+		"context": "",
+		"url": "when-you-have-worked-hard-to-build-something-meaningful-how",
+		"comment_count": "0"
+	},
+	{
+		"id": "554",
+		"question": "When facing an uncertain future, how do you decide between preparing for every outcome or simply trusting things will work out?",
+		"context": "",
+		"url": "when-facing-an-uncertain-future-how-do-you-decide-between",
+		"comment_count": "0"
+	},
+	{
+		"id": "555",
+		"question": "When you are constantly caring for others, how do you know if you are being helpful or just avoiding your own needs?",
+		"context": "",
+		"url": "when-you-are-constantly-caring-for-others-how-do-you",
+		"comment_count": "0"
+	},
+	{
+		"id": "556",
+		"question": "When facing something that scares you deeply, how do you decide whether to stand your ground, fight, or strategically withdraw?",
+		"context": "",
+		"url": "when-facing-something-that-scares-you-deeply-how-do-you-2",
+		"comment_count": "0"
+	},
+	{
+		"id": "557",
+		"question": "When you want to stop a habit or step away from something you once loved, what makes you finally commit to that change?",
+		"context": "",
+		"url": "when-you-want-to-stop-a-habit-or-step-away",
+		"comment_count": "0"
+	},
+	{
+		"id": "558",
+		"question": "When faced with an injustice that has nothing to do with you, what part of you decides if you will get involved?",
+		"context": "",
+		"url": "when-faced-with-an-injustice-that-has-nothing-to-do",
+		"comment_count": "0"
+	},
+	{
+		"id": "559",
+		"question": "If you needed to disappear, would you change everything about yourself, or hide in plain sight as you are?",
+		"context": "",
+		"url": "if-you-needed-to-disappear-would-you-change-everything-about",
+		"comment_count": "0"
+	},
+	{
+		"id": "560",
+		"question": "If you could share your truest self with everyone without consequence, what part would you still choose to keep private?",
+		"context": "",
+		"url": "if-you-could-share-your-truest-self-with-everyone-without",
+		"comment_count": "0"
+	},
+	{
+		"id": "561",
+		"question": "When something feels deeply out of line with your principles, how do you decide whether to speak up or let it go?",
+		"context": "",
+		"url": "when-something-feels-deeply-out-of-line-with-your-principles",
+		"comment_count": "0"
+	},
+	{
+		"id": "562",
+		"question": "What does one do when they feel fundamentally different from everyone around them, and this difference fuels their ambition?",
+		"context": "",
+		"url": "what-does-one-do-when-they-feel-fundamentally-different-from",
+		"comment_count": "0"
+	},
+	{
+		"id": "563",
+		"question": "If you knew your truest, most intense way of being would burn through every other part of your life, would you still embrace it?",
+		"context": "",
+		"url": "if-you-knew-your-truest-most-intense-way-of-being",
+		"comment_count": "0"
+	},
+	{
+		"id": "564",
+		"question": "When you have built something significant, how do you decide what parts of it are truly yours to defend, and what to let go of?",
+		"context": "",
+		"url": "when-you-have-built-something-significant-how-do-you-decide",
+		"comment_count": "0"
+	},
+	{
+		"id": "565",
+		"question": "What is the true cost of pursuing profound understanding and knowledge above all other things?",
+		"context": "",
+		"url": "what-is-the-true-cost-of-pursuing-profound-understanding-and",
+		"comment_count": "0"
+	},
+	{
+		"id": "566",
+		"question": "When you have worked hard to build a certain image, how do you react when that image is suddenly challenged or broken?",
+		"context": "",
+		"url": "when-you-have-worked-hard-to-build-a-certain-image",
+		"comment_count": "0"
+	},
+	{
+		"id": "567",
+		"question": "Whats something you do every day to seem fine that nobody knows is costing you effort",
+		"context": "",
+		"url": "whats-something-every-day-seem-fine-nobody-knows-costing-effort",
+		"comment_count": "35"
+	},
+	{
+		"id": "568",
+		"question": "What do you provide so that you never have to ask",
+		"context": "",
+		"url": "what-do-you-provide-so-that-you-never-have-to-ask",
+		"comment_count": "1"
+	},
+	{
+		"id": "569",
+		"question": "What’s something you say “I don’t mind” about when you actually do?",
+		"context": "",
+		"url": "s-something-say-don-t-mind-when-actually",
+		"comment_count": "1"
+	},
+	{
+		"id": "570",
+		"question": "Wh why are there no benefits of being a Type 6? I see how the type benefits society and other people, but how does it benefit ME when 6 is only about anxiety, which is negative, and responsibility and servitude, which are burdensome? There is no person on planet earth pathologica",
+		"context": "",
+		"url": "wh-why-no-benefits-type-6-type-benefits-society-people-does-benefit-when-6",
+		"comment_count": "1"
+	}
+]

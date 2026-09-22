@@ -1,0 +1,78 @@
+{
+	"_comment": "Venue config for scripts/find-threads.mjs. Tier 1 = situation subs where arguers live (unbranded comments, never link). Tier 2 = personality home turf (organic discussion posts allowed). Tier 3 = founder subs, deprioritized on purpose: they evaluate products, they do not argue about situations.",
+	"defaults": {
+		"listing": "hot",
+		"limit": 50,
+		"minComments": 15,
+		"minBodyWords": 40,
+		"maxAgeHours": 36
+	},
+	"venues": [
+		{
+			"subreddit": "AmItheAsshole",
+			"tier": 1,
+			"linkPolicy": "never",
+			"notes": "24.5M members. Verdict splits ARE the format. Judgement-bot sub: top-level comments must contain a verdict acronym (NTA/YTA/ESH/NAH/INFO) or they get removed. Lead with the verdict, then the nine-takes read."
+		},
+		{
+			"subreddit": "AmIOverreacting",
+			"tier": 1,
+			"linkPolicy": "never",
+			"notes": "Purest interpretive-disagreement sub on Reddit. The entire premise is 'two people read this differently'. Best single venue for the 9takes move."
+		},
+		{
+			"subreddit": "AITAH",
+			"tier": 1,
+			"linkPolicy": "never",
+			"notes": "Looser AITA spinoff, no verdict-format requirement. Good for longer reads."
+		},
+		{
+			"subreddit": "relationship_advice",
+			"tier": 1,
+			"linkPolicy": "never",
+			"notes": "High volume, high emotion. Skew toward threads where commenters split rather than pile on."
+		},
+		{
+			"subreddit": "Advice",
+			"tier": 1,
+			"linkPolicy": "never",
+			"notes": "Smaller, less pile-on culture, comments get read. Good ratio of effort to visibility."
+		},
+		{
+			"subreddit": "askwomenadvice",
+			"tier": 1,
+			"linkPolicy": "never",
+			"notes": "Smaller and more engaged. Check current gender-participation rules before commenting."
+		},
+		{
+			"subreddit": "Enneagram",
+			"tier": 2,
+			"linkPolicy": "profile-only",
+			"notes": "173k members. Home turf and the venue for the Monday Nine question. reddit/01-enneagram-organic-discussion.md is already written for this sub and is link-free by design. Flair: Type Discussion."
+		},
+		{
+			"subreddit": "mbti",
+			"tier": 2,
+			"linkPolicy": "profile-only",
+			"notes": "Much larger than r/Enneagram and openly curious about other systems. The MBTI-bridge angle already exists in docs/twitter/content-ideas/mbti-bridge.md."
+		},
+		{
+			"subreddit": "PersonalityTheory",
+			"tier": 2,
+			"linkPolicy": "profile-only",
+			"notes": "Small, high signal, tolerant of system-comparison posts."
+		},
+		{
+			"subreddit": "SideProject",
+			"tier": 3,
+			"linkPolicy": "allowed",
+			"notes": "DEPRIORITIZED. reddit/04-sideproject-weekly-thread.md targets this. Founders evaluate products here; they do not leave takes. Keep on ice until the Nine loop is proven."
+		},
+		{
+			"subreddit": "indiehackers",
+			"tier": 3,
+			"linkPolicy": "allowed",
+			"notes": "DEPRIORITIZED. Same reason as r/SideProject."
+		}
+	]
+}
