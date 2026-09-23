@@ -18,7 +18,7 @@ wikipedia: ''
 twitter: ''
 instagram: ''
 tiktok: ''
-path: src/blog/pop-culture/epstien-research/Jeffrey-Epstein-Psychology-Of-The-Web.md
+path: docs/research/epstein/Jeffrey-Epstein-Psychology-Of-The-Web.md
 ---
 
 <!-- Merged into src/blog/pop-culture/epstein-web-of-manipulation.md on 2026-02-03 -->

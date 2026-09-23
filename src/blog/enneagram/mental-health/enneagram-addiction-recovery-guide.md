@@ -112,7 +112,7 @@ This perfectionist drive often leads Type 1s to seek [therapy approaches that ad
 
 **The core shift:** Progress, not perfection. Recovery is messy. Accept it now or suffer longer.
 
-**Self-compassion practice:** The inner critic will tell you that self-compassion is weakness. The inner critic is wrong. Daily self-forgiveness practice, loving-kindness meditation, and learning to dialogue with your critic rather than obey it.
+**Self-compassion practice:** The inner critic will tell you that self-compassion is weakness. The inner critic is wrong. Daily self-forgiveness practice, loving-kindness meditation, and learning to [dialogue with your critic](/enneagram-corner/enneagram-positive-self-talk) rather than obey it.
 
 **Flexible structure:** Type 1s need structure, but rigid rules break under pressure. Build routines that bend. For Type 1s especially, harm reduction beats all-or-nothing rules — because the more perfect the rule, the more complete the failure when it breaks.
 
@@ -557,7 +557,7 @@ Each center has predictable ways they sabotage their own recovery:
 
 **Heart Types (2, 3, 4):** Managing their image in recovery. Looking like they're doing well rather than actually doing the work. Using recovery groups as another audience.
 
-**Head Types (5, 6, 7):** Overthinking recovery instead of feeling it. Knowing everything about addiction while remaining addicted. Treating sobriety as an intellectual exercise.
+**Head Types (5, 6, 7):** Overthinking recovery instead of feeling it. Knowing everything about addiction while remaining addicted. Treating sobriety as [an intellectual exercise](/community/fear-triad-intellectual-fortress-or-prison).
 
 ## Recovery Resources by Type
 

@@ -559,6 +559,7 @@ Now go build it.
 - <a href="/enneagram-corner/enneagram-self-development">Enneagram Self-Development Guide</a>
 - <a href="/enneagram-corner/enneagram-wings-complete-guide">Understanding Your Wing Influence</a>
 - <a href="/enneagram-corner/enneagram-workplace-team-building">Workplace Team Building by Type</a>
+- <a href="/how-to-guides/definitive-guide-to-self-efficacy">Why You Don't Believe in Yourself</a>
 
 **Books worth your time:**
 

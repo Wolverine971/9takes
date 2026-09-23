@@ -118,7 +118,7 @@ They'd realize within minutes that they've been describing the same architecture
 
 This isn't academic coincidence. It's convergent discovery — multiple brilliant minds arriving at the same fundamental insight about human nature through completely different methods. (For the longer version of that argument, tracing the [same three forces from Plato to modern neuroscience](/community/consensus-on-human-nature), read on.)
 
-The Enneagram isn't competing with philosophy or psychology. It's completing a conversation that's been ongoing for 2,400 years.
+The Enneagram isn't competing with philosophy or psychology. It's completing a conversation that's been ongoing for 2,400 years. To use that architecture on the people in front of you, start with [how to read people in four steps](/how-to-guides/how-to-psychoanalyze-people).
 
 Ready to explore where that conversation leads? Start with [core Enneagram concepts](/enneagram-corner/enneagram-concepts), see how modern thinkers build on these foundations in [The Hardware and Software of the Mind](/community/software-and-hardware-of-the-mind), or discover how [Kant's philosophy maps directly onto the nine Enneagram filters](/community/kantian-filters-and-nine-perspectives).
 

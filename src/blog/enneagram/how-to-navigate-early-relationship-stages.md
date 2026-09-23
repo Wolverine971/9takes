@@ -248,7 +248,7 @@ They need someone who pursues THEM, not just receives their giving. Chase them b
 
 ### You Might Be a Type 3 If:
 
-- Your dating profile reads like LinkedIn
+- Your [dating profile](/enneagram-corner/enneagram-online-dating-guide) reads like LinkedIn
 - You've rehearsed your "casual" success stories
 - Emotional conversations make you check your phone
 - You're mentally calculating their market value

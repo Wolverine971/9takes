@@ -46,7 +46,7 @@ open marble agora marketplace in ancient Athens, small groups of Greek marble st
 
 The ancient Greeks didn't just invent democracy—they invented the infrastructure for productive disagreement. They understood something we've forgotten: **you can't have good answers without good questions.**
 
-The Socratic method wasn't about winning arguments. It was about:
+The Socratic method wasn't about [winning arguments](/community/what-winning-online-arguments-looks-like). It was about:
 
 - **Asking questions** rather than making statements
 - **Exposing assumptions** that people didn't know they held
@@ -121,7 +121,7 @@ The physical agora served multiple functions—and 9takes recreates each one dig
 
 ## Why This Matters Now
 
-We're living through a crisis of discourse. Social media has balkanized us into filter bubbles. Political polarization makes understanding "the other side" feel impossible. Nuance has become a liability.
+We're living through a crisis of discourse. Social media has balkanized us into filter bubbles. Political polarization makes [understanding "the other side"](/pop-culture/trump-type-8-vs-biden-type-2) feel impossible. Nuance has become a liability.
 
 The Greeks faced similar challenges. Athens was politically divided, foreign ideas threatened tradition, and populist demagogues gained power. Their solution? Institutions designed to slow down thinking and expose people to different perspectives.
 

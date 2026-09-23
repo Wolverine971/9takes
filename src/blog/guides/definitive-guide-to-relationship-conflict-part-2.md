@@ -689,7 +689,7 @@ Remember these key takeaways:
 
 By combining the insights from Part 1 on the Four Horsemen and their antidotes with the practical strategies in this guide, you have a comprehensive toolkit for transforming relationship conflicts into opportunities for deeper connection and growth.
 
-If you do nothing else, pick one tool to practice this week: a time-out script, a mirroring script, or a repair attempt phrase. Repetition turns it into a reflex.
+If you do nothing else, pick one tool to practice this week: a time-out script, a mirroring script, or a repair attempt phrase. Repetition turns it into a reflex. Each time the tool works, you bank a small win, and small wins are <a href="/how-to-guides/definitive-guide-to-self-efficacy">the biggest driver of self-efficacy</a>.
 
 For more relationship insights, explore our <a href="/enneagram-corner/relationship-communication-guide">Relationship Communication Guide</a> and <a href="/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner">5 Tough Conversations You Need to Have With Your Partner</a>.
 

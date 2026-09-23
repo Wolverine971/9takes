@@ -150,7 +150,7 @@ These are meaningful patterns. They show that Enneagram scores are not floating 
 
 They do **not** prove that nine discrete types exist. Type descriptions contain trait content, so some convergence is expected. They also do not prove the Enneagram's deeper claims about core fears, childhood origins, wings, instincts, or movement under stress.
 
-The Big Five is a dimensional model: you receive a score along broad trait continua. Modern measures such as the [Big Five Inventory-2](https://doi.org/10.1037/pspp0000096) were developed through large psychometric programs that test broad domains and narrower facets. The Enneagram makes a harder categorical claim: that a collection of traits and motivations coheres into one dominant type.
+[The Big Five](/enneagram-corner/enneagram-vs-personality-frameworks-comparison) is a dimensional model: you receive a score along broad trait continua. Modern measures such as the [Big Five Inventory-2](https://doi.org/10.1037/pspp0000096) were developed through large psychometric programs that test broad domains and narrower facets. The Enneagram makes a harder categorical claim: that a collection of traits and motivations coheres into one dominant type.
 
 That categorical claim is exactly where more evidence is needed.
 
@@ -212,7 +212,7 @@ The same boundary applies to:
 - claiming that fMRI can identify Enneagram type
 - treating an Enneagram test as a suicide, violence, addiction, or relapse risk assessment
 
-This does not mean personality is irrelevant to mental health. Personality traits and habitual coping patterns can matter. It means the Enneagram has not earned those specific clinical inferences.
+This does not mean personality is irrelevant to mental health. Personality traits and habitual coping patterns can matter. It means the Enneagram has not earned those specific clinical inferences. For telling a clinical condition apart from a personality pattern, see [neurodiversity vs. personality](/enneagram-corner/neurodiversity-vs-personality).
 
 If you are working with a therapist who uses the Enneagram, a safe question is:
 

@@ -184,7 +184,7 @@ Seeing other answers first [primes your thinking](/community/memetic-comments). 
 <b style="color: var(--ink-bright);">A personality lens (the Enneagram).</b>
 </span>
 
-The Enneagram maps nine personality types based on core motivations: what drives you, what you fear, how you process the world. Astrology assigns you a label from your birthday; the Enneagram gives you a framework for [why different people communicate the way they do](/enneagram-corner/relationship-communication-guide). On 9takes, you can optionally tag your answer with your type. It gives readers context without forcing a real name. If you don't know your type yet, [use this beginner's guide to find your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) or skip it entirely.
+The Enneagram maps nine personality types based on core motivations: what drives you, what you fear, how you process the world. [Astrology assigns you a label from your birthday](/enneagram-corner/astrology-and-the-enneagram); the Enneagram gives you a framework for [why different people communicate the way they do](/enneagram-corner/relationship-communication-guide). On 9takes, you can optionally tag your answer with your type. It gives readers context without forcing a real name. If you don't know your type yet, [use this beginner's guide to find your Enneagram type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type) or skip it entirely.
 
 <span class="point-list" style="margin-top: 1rem;">
 <span class="center-svg">
@@ -203,7 +203,7 @@ Every Q&A platform claims to value diverse perspectives. Here's how they actuall
 
 **Quora** rewards long-form expertise but optimizes for authority, not diversity. You get one "best answer," usually from whoever has the most followers. Different perspectives get pushed to the bottom.
 
-**Twitter/X** rewards hot takes and engagement bait. The loudest voice wins. Nuance dies in 280 characters.
+**Twitter/X** [rewards hot takes and engagement bait](/pop-culture/twitter-x-personality-types-toxic). The loudest voice wins. Nuance dies in 280 characters.
 
 **9takes** does something none of them do: it forces you to think independently before you see anyone else's answer. Then it shows you how personality shapes perspective. Instead of reacting to a thread, you're contributing to a mosaic.
 

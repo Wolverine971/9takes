@@ -1,6 +1,5 @@
 <!-- src/lib/components/molecules/FamousTypes.svelte -->
 <script lang="ts">
-	export let type: number; //: Database['public']['Tables']['comments']['Row'];
 	import {
 		getPersonalityCategoryBySlug,
 		getPersonalityCategorySlugs,
@@ -11,6 +10,8 @@
 		buildPersonalityAnalysisPath,
 		formatPersonalityDisplayName
 	} from '$lib/utils/personalityAnalysis';
+
+	let { type }: { type: number } = $props();
 
 	type FamousTypeGroup = {
 		slug: PersonalityCategorySlug | 'other';
@@ -60,7 +61,7 @@
 		});
 	}
 
-	$: groupedFamousTypes = groupFamousPeople(famousTypes[type] ?? []);
+	const groupedFamousTypes = $derived(groupFamousPeople(famousTypes[type] ?? []));
 </script>
 
 <div class="famous-types">
@@ -85,6 +86,12 @@
 		</section>
 	{/each}
 </div>
+
+<p class="famous-types__all">
+	<a href={`/personality-analysis/type/${type}`}>
+		See all famous Enneagram Type {type}s, each with a full personality analysis →
+	</a>
+</p>
 
 <style>
 	.famous-types {
@@ -125,6 +132,18 @@
 		break-inside: avoid;
 		padding: 0.06rem 0;
 		line-height: 1.3;
+	}
+
+	.famous-types__all {
+		margin: 0.25rem 0 1rem;
+		font-size: 0.95rem;
+		font-weight: 600;
+	}
+
+	.famous-types__all a {
+		color: var(--ink-bright);
+		text-decoration-thickness: 0.08em;
+		text-underline-offset: 0.18em;
 	}
 
 	.famous-types__list a {

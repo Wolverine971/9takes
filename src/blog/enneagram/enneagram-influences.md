@@ -44,7 +44,7 @@ Each of the nine points represented a quality of the divine. Each type reflected
 
 This wasn't pop psychology. It was mysticism: self-knowledge as a path to spiritual awakening.
 
-That's why the Enneagram carries depth that most personality systems lack. It started as a spiritual practice, not a corporate team-building exercise. The goal wasn't to label yourself; it was to transcend yourself. <a href="https://sufipathoflove.com/enneagram-in-sufism/">Learn more about Sufi origins here</a>
+That's why the Enneagram carries depth that [most personality systems](/enneagram-corner/enneagram-vs-personality-frameworks-comparison) lack. It started as a spiritual practice, not a corporate team-building exercise. The goal wasn't to label yourself; it was to transcend yourself. <a href="https://sufipathoflove.com/enneagram-in-sufism/">Learn more about Sufi origins here</a>
 
 <p  style="text-align: center;">
 <Enneagram height={'10rem'} fill={'#1e2922'}/>
@@ -97,7 +97,7 @@ The ancients knew something modern psychology keeps rediscovering: the mind isn'
 Freud's <a class="external-link" target="_blank" rel="noopener" href="https://www.simplypsychology.org/psyche.html">id, ego, and superego</a> echo the same tripartite pattern:
 
 - **Id** = instinct (maps to gut center)
-- **Ego** = rationality (maps to head center)
+- **Ego** = rationality (maps to [head center](/community/fear-triad-intellectual-fortress-or-prison))
 - **Superego** = morality and social conscience (maps to heart center)
 
 Jung added thinking, feeling, and sensing types. Different language, same underlying observation: humans process the world through distinct centers, and most of us overdevelop one at the expense of the others.

@@ -59,7 +59,7 @@ Delroy Paulhus and Kevin Williams introduced the term **Dark Triad** in a 2002 s
 
 In this literature:
 
-- **Narcissism** generally refers to traits such as grandiosity, entitlement, self-importance, and a strong need for status or admiration. A trait score is not the same thing as Narcissistic Personality Disorder.
+- **Narcissism** generally refers to traits such as grandiosity, entitlement, self-importance, and a strong need for status or admiration. A trait score is not the same thing as [Narcissistic Personality Disorder](/enneagram-corner/enneagram-and-mental-illness).
 - **Machiavellianism** generally refers to cynical beliefs about people, strategic manipulation, and a willingness to use others for personal goals.
 - **Subclinical psychopathy** generally refers to a pattern that can include callousness, low remorse, impulsivity, and antisocial tendencies. It is not a conclusion that someone is violent, incapable of empathy, or clinically diagnosed.
 

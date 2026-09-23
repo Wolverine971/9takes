@@ -53,7 +53,7 @@ Five evidence-backed questions deserve attention before Enneagram type enters th
 
 ### Are you treating the right problem?
 
-Sleep deprivation, grief, trauma, depression, ADHD, autism, substance use, chronic pain, relationship violence, and medication effects can produce overlapping problems. A personality explanation can feel elegant while missing the condition that needs assessment or specialized care.
+Sleep deprivation, grief, trauma, depression, [ADHD, autism](/enneagram-corner/mental-health/enneagram-neurodivergence-guide), substance use, chronic pain, relationship violence, and medication effects can produce overlapping problems. A personality explanation can feel elegant while missing the condition that needs assessment or specialized care.
 
 Ask what working formulation guides the treatment. A formulation is the therapist's current explanation of what keeps the problem going. It should be open to revision when the evidence changes.
 

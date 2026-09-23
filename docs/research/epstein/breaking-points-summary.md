@@ -1,4 +1,4 @@
-<!-- src/blog/pop-culture/epstien-research/breaking-points-summary.md -->
+<!-- docs/research/epstein/breaking-points-summary.md -->
 
 # Breaking Points Epstein Files Coverage: Research Summary
 

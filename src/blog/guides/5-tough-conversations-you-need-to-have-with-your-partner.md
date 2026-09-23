@@ -125,7 +125,7 @@ The Enneagram reveals something most couples miss: each person operates from a c
 
 **Heart Triad (Types 2, 3, 4):** Process through shame and pride. Shows up as people-pleasing, achievement-chasing, or intense emotional expression.
 
-**Head Triad (Types 5, 6, 7):** Process through fear and anxiety. Shows up as over-analysis, vigilance, or escape into plans and possibilities.
+**Head Triad (Types 5, 6, 7):** [Process through fear and anxiety](/community/fear-triad-intellectual-fortress-or-prison). Shows up as over-analysis, vigilance, or escape into plans and possibilities.
 
 This reframes behavior you might have been misreading for years.
 

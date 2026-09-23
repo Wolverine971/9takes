@@ -87,7 +87,8 @@ The blackpill downward spiral begins with real pain—rejection, bullying, lonel
         The men who end up in blackpill spaces are not one type of person. A 2025 study of 561
         self-identified incels found substantial variation in politics, class, employment, and ethnicity.
         The consistent signals were much worse mental health, loneliness, bullying histories, and—in part
-        of the sample—high autistic traits. That does not make autism or loneliness causes of misogyny. It
+        of the sample—high autistic traits. That does not make <a
+            href="/enneagram-corner/mental-health/enneagram-neurodivergence-guide">autism</a> or loneliness causes of misogyny. It
         shows why a simple manual for a confusing social world can feel like rescue. (<a
             href="https://www.swansea.ac.uk/press-office/news-events/news/2025/05/major-new-study-reveals-key-insights-into-incel-community.php"
             >Swansea University study summary</a
@@ -173,7 +174,8 @@ The blackpill downward spiral begins with real pain—rejection, bullying, lonel
     <p>
         That relief is not fake. The story reduces uncertainty, ends the exhausting search for what to do,
         and converts private failure into group knowledge. This is why facts alone rarely pull someone
-        out. You are not merely challenging a claim about faces or dating apps. You are threatening the
+        out. You are not merely challenging a claim about faces or <a
+            href="/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types">dating apps</a>. You are threatening the
         person's explanation, identity, and only tribe at the same time.
     </p>
     </section>
@@ -409,7 +411,8 @@ The blackpill downward spiral begins with real pain—rejection, bullying, lonel
 
     <p>
         The Enneagram is not a validated model of radicalization, and no type is an “incel type.” Its useful
-        role here is smaller: it can help someone notice what he does when pain becomes intolerable.
+        role here is smaller: it can help someone notice <a href="/enneagram-corner/enneagram-types-in-stress"
+            >what he does when pain becomes intolerable</a>.
     </p>
 
     <ul class="defense-list">
@@ -453,7 +456,8 @@ The blackpill downward spiral begins with real pain—rejection, bullying, lonel
     </div>
 
     <p>
-        Professional help matters when shame, depression, autism-related social difficulty, trauma, or
+        Professional help matters when shame, <a
+            href="/enneagram-corner/depression-patterns-by-enneagram-type">depression</a>, autism-related social difficulty, trauma, or
         suicidal thinking sits under the ideology. Look for a therapist who understands male loneliness,
         neurodivergence when relevant, and online radicalization. <a href="https://parents4peace.org/"
             >Parents for Peace</a

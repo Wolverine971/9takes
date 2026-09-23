@@ -59,7 +59,7 @@ This is the pocket version. The full read on each type, what they're thinking, f
 - **The scan:** can you handle a real conversation?
 - **The move:** name one specific thing you noticed about them. Ditch the small-talk script early.
 - **Ask:** "What's something you noticed today that everyone else walked past?"
-- **Never:** say "you're so unique." Generic praise for their uniqueness proves you weren't paying attention.
+- **Never:** say "you're so unique." [Generic praise](/enneagram-corner/biggest-compliments-to-give-each-enneagram-type) for their uniqueness proves you weren't paying attention.
 
 [Type 4 first-impression patterns →](/enneagram-corner/first-impression-enneagram-playbook#type-4)
 

@@ -110,7 +110,7 @@ Below, we’ll explore how each subtype can alter the expression of the nine Enn
 - May exchange practical help (like cooking, cleaning) for emotional safety
 - Feels fulfilled when others appreciate their support
 
-**Recognize Them**: Quick to offer comfort items, meals, or small acts of service to show care.
+**Recognize Them**: Quick to offer comfort items, meals, or small [acts of service](/enneagram-corner/love-languages-and-enneagram-types) to show care.
 
 #### Social Two (SO 2)
 
@@ -352,7 +352,7 @@ Discovering your **Enneagram Instinctual Subtype** adds another layer to your ty
 - **Promote Dialogue**: Share your thoughts or experiences with others. Start a conversation in your community or in the comments: how does your subtype affect your relationships, work, or personal goals?
 - **Keep Learning**: Check out our dedicated [Enneagram Type pages](https://9takes.com/enneagram-corner/) for insights on how each type interacts with these instincts.
 
-Compare your subtype hypothesis against real situations: where your attention goes under stress, what you track in a room, and what you neglect. The [questions](https://9takes.com/questions) page gives you more patterns to test against your own behavior.
+Compare your subtype hypothesis against real situations: where your attention goes under stress, what you track in a room, and what you neglect. The [questions](https://9takes.com/questions) page gives you more patterns to test against your own behavior. To run the same test on someone else, use [this four-step guide to reading people](/how-to-guides/how-to-psychoanalyze-people).
 
 ## FAQs About Enneagram Instinctual Subtypes
 
@@ -369,7 +369,7 @@ Despite the name, the Sexual (One-to-One) instinct refers to intensity and deep 
 Instinctual subtypes are often the reason. A Social 7 focused on group fun and FOMO looks very different from a Self-Preservation 7 focused on personal pleasures and resource abundance. The same core fears and motivations express through different instinctual channels.
 
 **What is a "countertype" and how does it work?**
-Each Enneagram type has one subtype that goes against the type's typical pattern. For example, Self-Preservation 6 (counterphobic) faces fears aggressively rather than seeking security, looking more like an 8. Countertypes can be harder to identify because they mask typical type characteristics.
+Each Enneagram type has one subtype that goes against the type's typical pattern. For example, One-to-One 6 (counterphobic) faces fears aggressively rather than seeking security, looking more like an 8. Countertypes can be harder to identify because they mask typical type characteristics.
 
 <svelte:head>
 
@@ -417,7 +417,7 @@ Each Enneagram type has one subtype that goes against the type's typical pattern
           "name": "What is a countertype and how does it work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Each Enneagram type has one subtype that goes against the type's typical pattern. For example, Self-Preservation 6 (counterphobic) faces fears aggressively rather than seeking security, looking more like an 8. Countertypes can be harder to identify because they mask typical type characteristics."
+            "text": "Each Enneagram type has one subtype that goes against the type's typical pattern. For example, One-to-One 6 (counterphobic) faces fears aggressively rather than seeking security, looking more like an 8. Countertypes can be harder to identify because they mask typical type characteristics."
           }
         }
       ]

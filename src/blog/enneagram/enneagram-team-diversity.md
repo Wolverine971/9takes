@@ -120,7 +120,7 @@ You're not being manipulative. You're being effective.
 - **Types 2, 6, 8** need to feel heard before they'll hear you. Acknowledge their concern first.
 - **Types 4, 7, 9** respond to vision and possibility. Connect the task to something bigger.
 
-Dive deeper into [how each type communicates](/enneagram-corner/relationship-communication-guide).
+Dive deeper into [how each type communicates](/enneagram-corner/relationship-communication-guide). To see what recognition each type is after, read [how each type flexes](/enneagram-corner/how-each-enneagram-flexes).
 
 ### Predict Conflicts Before They Happen
 

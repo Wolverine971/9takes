@@ -1,0 +1,245 @@
+{
+	"_about": "Link suggestions rejected by /crosslink-queue (wrong match). Candidates with these ids never reappear in the queue.",
+	"skipped": [
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /personality-analysis/barack-obama",
+			"reason": "Obama named only as an AI Overviews misinformation example ('Obama was a Muslim president'); sentence is about Google's AI errors, not Obama",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/google-leadership-evolution -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "word match: 'an apology' is Pichai's corporate response to the 2018 walkouts, not about how to apologize",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/toxic-traits-of-each-enneagram-type -> /enneagram-corner/mental-health/enneagram-neurodivergence-guide",
+			"reason": "'neurodivergence' is the description of a different linked article (ADHD post) in Related Reading; toxic-traits post is not about neurodivergence",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/kardashian-family-enneagram-analysis -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "one-word 'Depression.' in a tabloid-style list of Rob Kardashian's struggles; incidental mention of a real person's condition, not a depression-by-type discussion",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-compatibility-matrix -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "word match: 'depth is not depression' is a 4+7 pairing aphorism, not about depression",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/tech-titans-ai-wars -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "word match: 'Problem-Solver variant' names the 5w6 wing, nothing to do with comparing Enneagram tests",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-compatibility-matrix -> /pop-culture/masculinity-strength-and-the-enneagram",
+			"reason": "word match: 'emotional maturity' in a compatibility FAQ list; target is about masculinity and strength",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/psychology-of-public-shame -> /personality-analysis/bill-burr",
+			"reason": "Name sits inside the author's hypothetical denunciation quote ('what a coward he is'), where the post calls the celebrity 'the prop'. The only other mention is in a BuzzFeed-list bullet group that already has 6 links",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/personality-maxing -> /enneagram-corner/astrology-and-the-enneagram",
+			"reason": "Negation ('Not your zodiac sign') used while defining personality. The sentence is not about zodiac-to-Enneagram mapping",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/astrology-and-the-enneagram",
+			"reason": "'horoscopes' is inside a quote of what a real person (DJ's brother) said, and it is a dismissal, not the topic",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-wings-complete-guide -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "'instinctual variants' is not the test-comparison page's subject. A reader expecting a variants explainer would get a test review",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/how-to-guides/how-to-psychoanalyze-people -> /pop-culture/cancel-culture-enneagram-type",
+			"reason": "False match: 'always cancels plans' is about flaky friends, not cancel culture",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/comedy-kings-enneagram-analysis -> /personality-analysis/ariana-grande",
+			"reason": "Both mentions are about Pete Davidson's dating pattern, not Ariana Grande; first one is a list item in the 'Questions This Blog Will Answer' teaser.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/ghislaine-maxwell-psychology -> /enneagram-corner/how-to-apologize-like-a-pro",
+			"reason": "Word match: Maxwell refusing to apologize to victims is not about how to apologize; tonally wrong.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-neurodivergence-guide -> /enneagram-corner/enneagram-vs-personality-frameworks-comparison",
+			"reason": "Inside QuickAnswer; 'non-clinical personality framework' is about Enneagram vs diagnosis, not framework comparison.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-science-mental-health -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'Do not use type to decide compatibility' is a caution, not the topic.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-books-websites-podcasts -> /enneagram-corner/astrology-and-the-enneagram",
+			"reason": "'Horoscopes' used pejoratively for bad resources; linking the astrology post there insults the target.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/community/societal-ticking-time-bombs -> /enneagram-corner/attachment-styles-and-enneagram-types",
+			"reason": "Passing example of pop-psych vocabulary the paragraph argues isn't working; not about attachment styles.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis -> /enneagram-corner/enneagram-party-planner",
+			"reason": "Word match: Unwell's Super Bowl party in a feud timeline, not party planning.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-dating-guide-for-women -> /pop-culture/masculinity-strength-and-the-enneagram",
+			"reason": "'Emotional maturity' refers to the reader's own flexibility on dates, not masculinity.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /personality-analysis/jimmy-fallon",
+			"reason": "The sentence is about Amy Poehler; Fallon only appears inside her anecdote and quote.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /personality-analysis/howard-stern",
+			"reason": "The post names Stern once, in a list inside a pointer sentence to the Podcaster Map, and never discusses him. A second link there would compete with the map link.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-vs-meyers-briggs -> /enneagram-corner/enneagram-types-and-career-choices",
+			"reason": "'Career path suggestions' is listed as an MBTI strength, and the post says the Enneagram does not give career paths directly. Linking it to an Enneagram career page would mislead.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/how-to-guides/using-the-enneagram-for-self-development -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "The sentence warns against using the Enneagram to predict compatibility. It is a caution, not the topic.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'Not compatibility. Not chemistry. Communication.' dismisses compatibility as a predictor. It is a caution, not the topic.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/attachment-styles-and-enneagram-types -> /enneagram-corner/depression-patterns-by-enneagram-type",
+			"reason": "'Depressive or limiting dynamics' is a partner dynamic that triggers Type 7s. The line is not about depression patterns.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-religion -> /enneagram-corner/enneagram-compatibility-matrix",
+			"reason": "'compatibility with Christian doctrine' refers to theology, not type compatibility.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/fallen-founders-enneagram-analysis -> /pop-culture/tech-titans-ai-wars",
+			"reason": "'OpenAI' appears in a sentence about the Toner board-paper dispute, not the AI race. The post has no sentence about the AI wars.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-religion -> /enneagram-corner/enneagram-test-comparison-2026",
+			"reason": "'eclectic' describes the New Age movement. It has nothing to do with Enneagram tests.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-religion -> /enneagram-corner/mental-health/enneagram-science-mental-health",
+			"reason": "'not scientifically validated' refers to chakra and energy-work add-ons. The post has no sentence about Enneagram research itself.",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-type-4 -> /community/personality-frameworks-map-not-territory",
+			"reason": "'find yourself' generic phrase, sentence about past loves",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types -> /community/personality-frameworks-map-not-territory",
+			"reason": "'find yourself' generic phrase",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-therapy-guide -> /community/personality-frameworks-map-not-territory",
+			"reason": "'find yourself' generic phrase in therapy list",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/how-type-8-challengers-actually-succeed -> /pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis",
+			"reason": "name anchor; person page exists; sentence about Portnoy's team",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/podcast-bros-enneagram-analysis -> /pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis",
+			"reason": "name in list; person page exists; sentence already links podcaster map",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-and-religion -> /pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis",
+			"reason": "Rabbi David Cooper, wrong person",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-wings-complete-guide -> /pop-culture/tech-titans-platform-emperors",
+			"reason": "Zuckerberg name in examples list; person page exists",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/mental-health/enneagram-workplace-mental-health -> /pop-culture/incel-blackpill-radicalization-enneagram",
+			"reason": "'pain becomes' word match; sentence is about Type 7 anxiety, not the blackpill",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/community/fear-triad-intellectual-fortress-or-prison -> /pop-culture/incel-blackpill-radicalization-enneagram",
+			"reason": "'pain becomes' word match; sentence is about Sevens avoiding pain",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-instinctual-subtypes -> /enneagram-corner/enneagram-social-styles",
+			"reason": "generic 'triads' in a sentence that already routes to enneagram-concepts",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/community/why-im-selective-sharing-enneagram -> /enneagram-corner/enneagram-social-styles",
+			"reason": "generic 'Triads' in a list of system terms",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /enneagram-corner/enneagram-coach-toolkit",
+			"reason": "'clients' = Epstein's bounty-hunting clients",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-types-and-career-choices -> /enneagram-corner/enneagram-coach-toolkit",
+			"reason": "'clients' = workplace clients, not coaching",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-stress-number -> /pop-culture/cancel-culture-enneagram-type",
+			"reason": "'Cancel' verb (cancel helping)",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/how-to-guides/dating-dynamics-by-enneagram-type -> /pop-culture/cancel-culture-enneagram-type",
+			"reason": "'Cancel' verb (cancel a plan)",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic -> /pop-culture/cancel-culture-enneagram-type",
+			"reason": "'cancel' a subscription",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/enneagram-corner/enneagram-positive-self-talk -> /pop-culture/cancel-culture-enneagram-type",
+			"reason": "'Cancel' verb (cancel one plan)",
+			"date": "2026-09-22"
+		},
+		{
+			"id": "/pop-culture/epstein-psychology-part-1 -> /pop-culture/tech-titans-disruptors",
+			"reason": "Elon Musk named in an Epstein photo sentence; not about disruptors",
+			"date": "2026-09-22"
+		}
+	]
+}

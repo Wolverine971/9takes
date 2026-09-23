@@ -57,13 +57,13 @@ He stabilized Google for seven years. Then OpenAI shipped ChatGPT, and the same 
 
 ## The minds that ran Google
 
-| Era                      | Leader                                               | Type | Leadership Posture    | Era Signature                                             |
-| ------------------------ | ---------------------------------------------------- | ---- | --------------------- | --------------------------------------------------------- |
-| 1998–2015                | [Larry Page](/personality-analysis/larry-page)       | 5w6  | The Fortress          | Invisible authorship, hedging moonshots                   |
-| 1998–2019 / 2023–present | [Sergey Brin](/personality-analysis/sergey-brin)     | 5w7  | The Trapeze           | Restless iconoclasm, AI-as-personal-question              |
-| 2001–2011                | Eric Schmidt                                         | 5w6  | The Adult Supervision | IPO, Gmail, YouTube, DoubleClick — head-center continuity |
-| 2015–present             | [Sundar Pichai](/personality-analysis/sundar-pichai) | 9    | The Shock Absorber    | Consensus, diplomatic stability, conflict avoidance       |
-| 2014–present             | Demis Hassabis                                       | 5    | The Technical Anchor  | DeepMind acquired by Page; AlphaFold, AlphaGo, now Gemini |
+| Era                      | Leader                                                 | Type | Leadership Posture    | Era Signature                                             |
+| ------------------------ | ------------------------------------------------------ | ---- | --------------------- | --------------------------------------------------------- |
+| 1998–2015                | [Larry Page](/personality-analysis/larry-page)         | 5w6  | The Fortress          | Invisible authorship, hedging moonshots                   |
+| 1998–2019 / 2023–present | [Sergey Brin](/personality-analysis/sergey-brin)       | 5w7  | The Trapeze           | Restless iconoclasm, AI-as-personal-question              |
+| 2001–2011                | Eric Schmidt                                           | 5w6  | The Adult Supervision | IPO, Gmail, YouTube, DoubleClick — head-center continuity |
+| 2015–present             | [Sundar Pichai](/personality-analysis/sundar-pichai)   | 9    | The Shock Absorber    | Consensus, diplomatic stability, conflict avoidance       |
+| 2014–present             | [Demis Hassabis](/personality-analysis/demis-hassabis) | 5    | The Technical Anchor  | DeepMind acquired by Page; AlphaFold, AlphaGo, now Gemini |
 
 Three eras of leadership. Two head-center stewards (Schmidt early, Hassabis late) bridging the handoffs. The blog you're reading exists because of one rare structural fact: when the founder engine retired in 2019, it didn't stay retired. It came back four years later, and the personality reason why is the spine of everything below.
 
@@ -246,7 +246,7 @@ There was a 9-shaped hedge running underneath the founder return, and it grew to
 
 This is the personality contradiction at industrial scale. A Type 5 founder rarely funds a rival; the 5 instinct is to eat the rival, or to study them so completely you understand why they will lose. The most public face of Google's AI strategy was Brin on stage saying _Gemini will be the very first AGI._ The most expensive face of Google's AI strategy was a 9 in the CEO seat writing checks to the company most likely to make that promise wrong. Both bets were running at the same time, in the same building, with the same balance sheet. Founders pick a sword. Stewards distribute the risk. Google in 2026 was doing both at once — because the company had both wirings active again.
 
-By early 2026, Gemini had clawed back. The latest models were trading benchmark wins with OpenAI and Anthropic. Enterprise AI revenue was growing faster at Google Cloud than anywhere else in the field. Brin had told Stanford students in December 2025 that retiring "would have been a big mistake." Time's most-influential-companies list named Alphabet specifically because of how Pichai had pushed Gemini to the front of the AI race — a credit that, fairly read, belonged jointly to Pichai, Brin, Page, and Hassabis. The 9 brought the fight back to the parity line. The 5s were the engine that got it there.
+By early 2026, Gemini had clawed back. The latest models were trading benchmark wins with OpenAI and Anthropic. Enterprise AI revenue was growing faster at Google Cloud than anywhere else in the field. Brin had told Stanford students in December 2025 that retiring "would have been a big mistake." Time's most-influential-companies list named Alphabet specifically because of how Pichai had pushed Gemini to the front of [the AI race](/pop-culture/tech-titans-ai-wars) — a credit that, fairly read, belonged jointly to Pichai, Brin, Page, and Hassabis. The 9 brought the fight back to the parity line. The 5s were the engine that got it there.
 
 The skeptic's read on the same period: ChatGPT caught every Big Tech company off guard, not just Google. Meta shipped Llama late. Apple shipped Apple Intelligence to muted reviews. Amazon's Alexa LLM reboot kept slipping. Google's lag had structural causes — academic-publication culture at DeepMind, RLHF caution baked in from years of search-quality work, brand-risk lawyers everywhere — that have nothing to do with the CEO's Enneagram type. That's the strongest counter-argument and it's a real one.
 
@@ -288,3 +288,4 @@ What this story is actually evidence of is something quieter and more useful. _P
 - [Larry Page: The Man Who Indexed the World and Disappeared](/personality-analysis/larry-page) — the full GUS / Zee.Aero / Fiji story.
 - [Sergey Brin: An In-Depth Enneagram Type 5w7 Analysis](/personality-analysis/sergey-brin) — the LRRK2 alpha-test, the China exit, the spiraling retirement.
 - [Sundar Pichai: The Quiet Force Behind Google's Empire](/personality-analysis/sundar-pichai) — the silence-as-management-tool deep cut.
+- [US Presidents by Enneagram Type](/pop-culture/us-presidents-enneagram-analysis) — the same succession logic at national scale: after a fracture, voters keep reaching for a Type 9.

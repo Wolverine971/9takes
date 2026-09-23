@@ -202,3 +202,4 @@ Krystal and Saagar make it look easy. It isn't. But they show up and do it anywa
 - **The populist personality**: Both Krystal and Saagar identify as populists, one left, one right. Is populism itself a personality-driven stance? Which types get pulled toward anti-establishment movements?
 - **Media business models and type**: Ad-supported media rewards Type 3 (flashy, viral). Subscription media rewards Type 5 (deep, loyal). Breaking Points went subscription. Does the business model match the hosts' types?
 - **The third-party fantasy**: Both hosts flirt with anti-two-party rhetoric. Is the desire for a third party a psychological need for certain types who can't tolerate binary choices?
+- **The Epstein coverage**: Breaking Points keeps returning to the Epstein files. What kind of personality builds a network powerful people kept protecting? Start with our [Epstein psychology breakdown](/pop-culture/epstein-psychology-part-1).

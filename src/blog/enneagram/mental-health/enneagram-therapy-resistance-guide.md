@@ -187,7 +187,7 @@ This is why reassurance doesn't work. Telling a 6 "you're safe here" just gives 
 
 ## Type 7: The Client Who Makes Therapy Entertaining
 
-**How they resist:** Turns sessions into stand-up comedy. Future-trips instead of processing. Brings fascinating stories and tangents. Reframes pain into positive spin before the therapist can even respond to it.
+**How they resist:** Turns sessions into [stand-up comedy](/pop-culture/comedy-kings-enneagram-analysis). Future-trips instead of processing. Brings fascinating stories and tangents. Reframes pain into positive spin before the therapist can even respond to it.
 
 **What the therapist sees:** Someone sprinting from feeling to feeling, never landing long enough for anything to actually be processed. The charm and optimism are real — and they're also a sophisticated escape hatch. The entertainer keeps the therapist engaged while keeping vulnerability at arm's length.
 
@@ -251,7 +251,7 @@ When therapy feels stuck — when neither you nor your therapist knows what to d
 
 The impulse is to fix it. Pick a new technique. Try a different approach. Fire acronyms at the problem. But experienced therapists know: **the stuckness itself is the material.**
 
-You got stuck in therapy the same way you get stuck in life. The same pattern that keeps you from being vulnerable with your partner is keeping you from being vulnerable in session. The same defense that protects you at work is protecting you on the couch.
+You got stuck in therapy the same way you [get stuck in life](/enneagram-corner/situations-change-emotions-dont). The same pattern that keeps you from being vulnerable with your partner is keeping you from being vulnerable in session. The same defense that protects you at work is protecting you on the couch.
 
 The difference is that in therapy, someone is watching. And if they're good at their job, they'll point it out — not to shame you, but to show you the pattern in real time.
 

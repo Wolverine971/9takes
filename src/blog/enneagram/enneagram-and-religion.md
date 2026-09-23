@@ -41,7 +41,7 @@ The Enneagram has spiritual roots but isn't inherently religious. It likely orig
 
 Well, the answer is complex because the Enneagram is old.
 
-It has been both influenced by and also done the influencing in many spiritual traditions. It has found its way into many religious practices - from Christianity to Judaism, from Sufism to New Age philosophies. Yet, at its core, the Enneagram remains a psychological tool for self-understanding and personal growth.
+It has been both influenced by and also done the influencing in many spiritual traditions. It has found its way into many religious practices - from Christianity to Judaism, from Sufism to New Age philosophies. Yet, at its core, the Enneagram remains a psychological tool for [self-understanding and personal growth](/enneagram-corner/enneagram-self-development).
 
 For the full lineage (Sufis → Gurdjieff → Ichazo → Naranjo), start with [who built the Enneagram](/enneagram-corner/enneagram-influences).
 

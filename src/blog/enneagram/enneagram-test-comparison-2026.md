@@ -58,7 +58,7 @@ We evaluated each test on five things that can be checked:
 
 We did not convert those dimensions into a fake percentage. We also did not assume that more questions automatically means a more accurate type. Item quality, scoring, response bias, and the construct being measured matter too.
 
-There is a second reason for caution. A peer-reviewed [systematic review of 104 independent samples](https://pubmed.ncbi.nlm.nih.gov/33332604/) found mixed evidence for the Enneagram's reliability and validity. Some individual instruments publish promising results, but that is not the same as proving that every online test identifies a person's “true type” at a known success rate.
+There is a second reason for caution. A peer-reviewed [systematic review of 104 independent samples](https://pubmed.ncbi.nlm.nih.gov/33332604/) found mixed evidence for [the Enneagram's reliability and validity](/enneagram-corner/mental-health/enneagram-science-mental-health). Some individual instruments publish promising results, but that is not the same as proving that every online test identifies a person's “true type” at a known success rate.
 
 ## 1. Truity: the best-documented free starting point
 

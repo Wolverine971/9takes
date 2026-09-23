@@ -460,6 +460,7 @@ That is how a pattern starts becoming a relationship.
 - **[The Complete Enneagram Compatibility Matrix](/enneagram-corner/enneagram-compatibility-matrix)**: Attraction patterns and conflict triggers across type pairings
 - **[Love Languages and Enneagram Types](/enneagram-corner/love-languages-and-enneagram-types)**: How motivation can shape giving and receiving affection
 - **[Attachment Styles and Enneagram Types](/enneagram-corner/attachment-styles-and-enneagram-types)**: Where the frameworks overlap and where they do not
+- **[Object Relations by Enneagram Type](/enneagram-corner/enneagram-object-relations)**: Attachment, frustration, and rejection as three recurring relationship patterns
 - **[Red Flags You Are Dating Each Enneagram Type](/enneagram-corner/red-flags-dating-each-enneagram-type)**: Unhealthy patterns to notice early
 - **[Enneagram Communication Styles](/enneagram-corner/relationship-communication-guide)**: How each type tends to process difficult conversations
 

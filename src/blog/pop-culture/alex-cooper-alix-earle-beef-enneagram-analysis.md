@@ -147,7 +147,7 @@ A Nine doesn't read rooms strategically — she _is_ the room. When the atmosphe
 
 ### December 2024: Dad Gets Involved
 
-TJ Earle — Alix's father and manager — appears on Hot Mess and describes handling a "business situation, but it was also something else." He says he "wasn't happy about it" and "still isn't."
+TJ Earle — Alix's father and manager — appears on Hot Mess and describes handling a "business situation, but it was also something else." He says he "wasn't happy about it" and "still isn't." A parent running the business side has a famous precedent in Kris Jenner, the momager at the center of our [Kardashian family analysis](/pop-culture/kardashian-family-enneagram-analysis).
 
 TJ is a New Jersey construction magnate with an unusual education in media scandals: in 2008 he began an affair with Ashley Dupré — the same Ashley Dupré whose escort work as "Kristen" had just brought down New York Governor Eliot Spitzer — and married her in 2013, making her Alix's stepmother. He knows, in a way most fathers don't, how fast a contract and a public narrative can swallow a young woman. The "something else" he won't name is the friendship the contract had been carrying — and the moment the contract felt uneven, the friendship started to feel like a lie.
 

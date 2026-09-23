@@ -444,7 +444,7 @@ Every generation picks its heartthrobs, and every generation's choices are a mir
 
 The 1980s chose invulnerable men—Schwarzenegger, Stallone, Cruise. Physical dominance. Stoic authority. This was Reagan-era masculinity: the man as fortress. The culture wanted protection through strength, and the heartthrobs delivered it.
 
-The late 1990s chose men who started cracking the facade. Brad Pitt in _Fight Club_ was a heartthrob whose movie was about the toxicity of masculine ideals. DiCaprio in _Titanic_ was strong but sensitive, artistic, and poor—a romantic lead who drew pictures and cried. Johnny Depp built a career on playing beautiful weirdos. The cracks were showing.
+The late 1990s chose men who started cracking the facade. [Brad Pitt](/personality-analysis/brad-pitt) in _Fight Club_ was a heartthrob whose movie was about the toxicity of masculine ideals. DiCaprio in _Titanic_ was strong but sensitive, artistic, and poor—a romantic lead who drew pictures and cried. [Johnny Depp](/personality-analysis/johnny-depp) built a career on playing beautiful weirdos. The cracks were showing.
 
 Now look at what this generation chose: **two anxious protectors and two brooding artists.**
 
@@ -454,7 +454,7 @@ Not a single action hero in the bunch. Not a single man whose appeal is based on
 
 ### What Changed
 
-**Post-#MeToo masculinity.** The cultural reckoning around toxic masculinity made the old model of the dominant, aggressive male heartthrob less appealing and more threatening. Younger audiences gravitated toward men who signaled safety, consent, and emotional intelligence.
+**Post-#MeToo masculinity.** The cultural reckoning around [toxic masculinity](/pop-culture/masculinity-strength-and-the-enneagram) made the old model of the dominant, aggressive male heartthrob less appealing and more threatening. Younger audiences gravitated toward men who signaled safety, consent, and emotional intelligence.
 
 **Therapy culture.** The normalization of mental health discourse means emotional intelligence is now valued and legible. Audiences can appreciate a heartthrob who cries in interviews. Twenty years ago that would have been career poison. Now it's the appeal.
 

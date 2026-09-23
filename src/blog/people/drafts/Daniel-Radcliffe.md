@@ -192,7 +192,7 @@ It is the same line he used to describe getting sober. It is the line he keeps f
 
 There is a fluency in that speech worth slowing down for. He doesn't thank "everyone who believed in me," which is the script. He thanks the *specific people* — by name, by quirk, by the small thing they actually did. His parents got a *Father's Day* line, not a *thanks for the support* line. Erin got pulled into the same sentence as his son. Jonathan Groff and Lindsay Mendez got named earlier in the speech with a vulnerability that almost no Tony speech permits: "I don't really have to act in this show. I just have to look at you and feel everything I want to feel."
 
-That is what [a Six in growth](/enneagram-corner/enneagram-relationship-guide) sounds like at a microphone. The voice gets quieter. The thanks get more specific. The list of people he refuses to drop shows up with him.
+That is what [a Six in growth](/enneagram-corner/enneagram-type-6) sounds like at a microphone. The voice gets quieter. The thanks get more specific. The list of people he refuses to drop shows up with him.
 
 He has been doing one play after another in New York for the last two years. He has been a quiet, durable presence on Broadway. He has stopped being a child star. He is now, finally, a working actor in his thirties — which is, for a Six, the first time the framework of *job, partner, son, friends* fully holds the weight of the anxiety underneath.
 

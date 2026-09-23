@@ -577,7 +577,7 @@ The Nine's shadow sees the One as "demanding and critical." The One's shadow see
 
 When triggered by your partner, ask: **"What is this situation activating in ME?"** instead of defaulting to "What's wrong with them?"
 
-This doesn't mean your partner is blameless. Sometimes they're being genuinely inconsiderate. But if you're having the same fight repeatedly with an intensity that surprises you, your shadow is involved.
+This doesn't mean your partner is blameless. Sometimes they're being genuinely inconsiderate. But if you're having [the same fight repeatedly](/how-to-guides/definitive-guide-to-relationship-conflict-part-2) with an intensity that surprises you, your shadow is involved.
 
 **Warning:** Shadow work should never be weaponized. "You're just projecting" is not a valid response to legitimate concerns. Real relational issues require real accountability—not spiritual bypassing disguised as self-awareness.
 

@@ -532,7 +532,7 @@ Seeing the pattern isn't the same as boxing your child in. It's seeing them clea
 
 ### Four Things to Remember When Your Child Falls Apart
 
-**Your child is not their pattern.** They're a whole human being who shows these patterns under stress. The pattern is the map, not the territory.
+**Your child is not their pattern.** They're a whole human being who shows these patterns under stress. The pattern is [the map, not the territory](/community/personality-frameworks-map-not-territory).
 
 **Early intervention is not overreaction.** Every therapist I know wishes parents had brought their child in sooner. Trust your gut.
 

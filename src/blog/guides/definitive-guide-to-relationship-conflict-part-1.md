@@ -252,7 +252,7 @@ The antidote to defensiveness is taking responsibility, even if only for part of
 
 2. **Use validating language** - Validate your partner's perspective even when you disagree. Example: "I can see why you'd feel that way" or "That makes sense from your perspective."
 
-3. **Apologize for your part** - Offer sincere apologies for your contribution to the problem. Example: "You're right that I've been distracted lately. I'm sorry for not being more present."
+3. **Apologize for your part** - Offer [sincere apologies](/enneagram-corner/how-to-apologize-like-a-pro) for your contribution to the problem. Example: "You're right that I've been distracted lately. I'm sorry for not being more present."
 
 4. **Ask clarifying questions** - Instead of defending, seek to understand better. Example: "Can you help me understand how my actions affected you?"
 

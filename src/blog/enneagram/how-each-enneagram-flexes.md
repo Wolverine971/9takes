@@ -304,7 +304,7 @@ Understanding flexing patterns offers three powerful opportunities:
 | **8** | "Respect my strength + honesty" | "I respect your directness—what do you want to happen next?" | Power games or passive aggression     |
 | **9** | "My voice matters"              | "I really want your take—what do you think we should do?"    | Talking over them or rushing conflict |
 
-The most evolved individuals don't stop flexing—they flex mindfully, with an awareness of why they're doing it.
+The most evolved individuals don't stop flexing—they flex mindfully, with an awareness of why they're doing it. Spotting the flex is step one, and [how to use the Enneagram past the test](/how-to-guides/using-the-enneagram-for-self-development) covers what to do next.
 
 If you want the compliment-version of this cheat sheet, see [How to Compliment Each Enneagram Type](/enneagram-corner/biggest-compliments-to-give-each-enneagram-type).
 

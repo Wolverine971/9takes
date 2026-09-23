@@ -2,11 +2,28 @@
 import { enhancedImages } from '@sveltejs/enhanced-img';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { svelteTesting } from '@testing-library/svelte/vite';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createLogger, type ConfigEnv } from 'vite';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// A package plus everything it depends on, resolved the way Node would (pnpm nests deps).
+function dependencyClosure(name: string, fromDir: string, found = new Set<string>()): string[] {
+	if (found.has(name)) return [...found];
+	for (let dir = fromDir; ; dir = path.dirname(dir)) {
+		const manifest = path.join(dir, 'node_modules', name, 'package.json');
+		if (fs.existsSync(manifest)) {
+			found.add(name);
+			const pkgDir = fs.realpathSync(path.dirname(manifest));
+			const { dependencies = {} } = JSON.parse(fs.readFileSync(manifest, 'utf8'));
+			for (const dep of Object.keys(dependencies)) dependencyClosure(dep, pkgDir, found);
+			return [...found];
+		}
+		if (dir === path.dirname(dir)) return [...found];
+	}
+}
 const scssMixinsPath = path.resolve(__dirname, 'src/scss/_mixins.scss').replace(/\\/g, '/');
 const scssMixinsUse = `@use '${scssMixinsPath}' as *;`;
 
@@ -52,11 +69,14 @@ const config = ({ command }: ConfigEnv) => ({
 		preserveSymlinks: false
 	},
 	ssr: {
-		// Vercel's runtime cannot require htmlparser2's ESM entry from sanitize-html.
-		// Bundle the CommonJS caller so Rolldown converts that require to an ESM import.
+		// Vercel's runtime cannot require htmlparser2's ESM entry from sanitize-html, so
+		// sanitize-html is bundled. Rolldown leaves a bundled CommonJS module's require()
+		// calls as runtime requires that Vercel's file tracer never sees, so everything
+		// sanitize-html reaches must be bundled with it (bundling it alone 500'd every
+		// personality page on 2026-09-22). check:server-runtime guards this.
 		// Build-only: the dev SSR runner can't evaluate CommonJS, so inlining it there
 		// throws `require is not defined` on every page that sanitizes HTML.
-		noExternal: command === 'build' ? ['sanitize-html'] : []
+		noExternal: command === 'build' ? dependencyClosure('sanitize-html', __dirname) : []
 	},
 
 	define: {

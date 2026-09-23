@@ -275,7 +275,7 @@ Podcasts are especially good at producing a feeling of company: a familiar voice
 
 Research supports the medium's capacity to foster these bonds without proving that podcasts are universally more intimate than television. An exploratory survey of 804 German podcast listeners found that host characteristics such as perceived authenticity and social attractiveness helped predict parasocial ties, which were in turn associated with listeners' attitudes and behavioral intentions. Because the study was a survey, it shows relationships among those factors rather than simple cause and effect. ([Schlütz & Hedder, 2022](https://doi.org/10.1080/19376529.2020.1870467))
 
-Confessional moments and public fallouts can therefore land as more than entertainment for invested listeners. The medium may reward vulnerability, but how a host experiences that pressure and how any particular listener responds will vary. For more on the surrounding trust ecosystem, see [Podcast Bros and the Enneagram](/pop-culture/podcast-bros-enneagram-analysis).
+Confessional moments and [public fallouts](/pop-culture/cancel-culture-enneagram-type) can therefore land as more than entertainment for invested listeners. The medium may reward vulnerability, but how a host experiences that pressure and how any particular listener responds will vary. For more on the surrounding trust ecosystem, see [Podcast Bros and the Enneagram](/pop-culture/podcast-bros-enneagram-analysis).
 
 ### The Loneliness Factor
 

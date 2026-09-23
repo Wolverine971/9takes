@@ -1,4 +1,4 @@
-<!-- src/blog/pop-culture/epstien-research/epstien-connections.md -->
+<!-- docs/research/epstein/epstien-connections.md -->
 
 # Elon, Reid Hoffman, Bill Gates: Billionaire Epstein Lies REVEALED
 

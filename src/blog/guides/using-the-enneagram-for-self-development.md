@@ -184,7 +184,7 @@ Let me be crystal clear about something: the Enneagram is NOT a replacement for 
 
 What it can be, however, is an incredibly valuable complement to professional care—offering insights that help both therapist and client understand patterns more deeply.
 
-A therapist I know works with a Type 9 client who struggles with depression. Understanding the Type 9's tendency to "fall asleep" to their own needs and merge with others helped identify a core pattern: the client was neglecting self-care while overaccommodating everyone else. This Enneagram insight helped target interventions specifically to these patterns.
+A therapist I know works with a Type 9 client who [struggles with depression](/how-to-guides/guide-to-fighting-depression). Understanding the Type 9's tendency to "fall asleep" to their own needs and merge with others helped identify a core pattern: the client was neglecting self-care while overaccommodating everyone else. This Enneagram insight helped target interventions specifically to these patterns.
 
 **The dangerous misconception:** Using the Enneagram to self-diagnose or replace therapy.
 
@@ -196,7 +196,7 @@ Clinicians who use the Enneagram in therapy consistently report that it helps cl
 
 ### Enneagram-Informed Emotional Health
 
-Each type has characteristic emotional patterns that can either support or undermine mental health:
+Each type has [characteristic emotional patterns](/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten) that can either support or undermine mental health:
 
 Type 4s often amplify negative emotions, finding identity in their depth of feeling. Mindful awareness of this pattern helps reduce emotional identification and suffering.
 

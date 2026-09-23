@@ -218,7 +218,7 @@ Kim shares her mother's Type 3 core but adds a Type 4 wing, making her not just 
 **Type 3w4 patterns in Kim:**
 
 - **Perfectionism about image:** Hours of styling, contouring, curation
-- **Brand as identity:** KKW, SKIMS, the law degree, all image extensions
+- **Brand as identity:** KKW, SKIMS, the law apprenticeship, all image extensions
 - **Emotional depth under the surface:** Her prison reform work reveals genuine feeling
 - **Competitive with siblings:** Must be the most successful AND the most distinctive
 
@@ -231,7 +231,7 @@ Kim's evolution from reality star to criminal justice advocate confuses people w
 | SKIMS valuation           | $4 billion (2023)                      |
 | Instagram followers       | 360+ million                           |
 | People freed from prison  | 17+ through direct advocacy            |
-| Bar exam attempts         | Passed on 4th try while raising 4 kids |
+| Baby bar attempts         | Passed on 4th try while raising 4 kids |
 | KKW Beauty sale           | $200 million to Coty                   |
 | Time 100 Most Influential | Named in 2015                          |
 
@@ -243,7 +243,7 @@ Whether you think she's genuinely committed or just rebranding, the results—ac
 
 ### Kim and Kanye: Two Type 3s Collide
 
-Her marriage to Kanye West put two achievement-driven personalities in competition. Both needed to be the star. Both measured worth through public perception. Both struggled when the other's choices threatened their brand.
+Her marriage to [Kanye West](/personality-analysis/kanye) put two achievement-driven personalities in competition. Both needed to be the star. Both measured worth through public perception. Both struggled when the other's choices threatened their brand.
 
 The divorce became inevitable when Kanye's behavior started damaging Kim's carefully curated image. Type 3s will sacrifice relationships before reputation.
 
@@ -396,7 +396,7 @@ By 2024 she'd been two years panic-attack-free. She announced it like a sobriety
 
 ### America's Most Visible Ghost
 
-The most-followed woman to walk the Golden Globes red carpet didn't walk it. She snuck in through a side entrance in a silver gown so her boyfriend, [Timothée Chalamet](/personality-analysis/timothee-chalamet), could have his moment alone. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets erased.
+The most-followed woman to walk the Golden Globes red carpet didn't walk it. She snuck in through a side entrance in a silver gown so her boyfriend, [Timothée Chalamet](/personality-analysis/timothee-chalamet), could have his moment alone. She'd done the same thing the year before. And the year before that. Three consecutive Golden Globes, three red carpets erased. What that spotlight does to Chalamet himself gets its own section in [inside the heartthrob machine](/pop-culture/hollywood-heartthrobs-enneagram-analysis).
 
 This is not shyness. It's the strategy you develop when you're the youngest in a family where every personality slot is already taken and every conflict gets turned into content.
 

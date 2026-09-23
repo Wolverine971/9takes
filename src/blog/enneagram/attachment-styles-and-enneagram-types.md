@@ -150,7 +150,7 @@ The Enneagram groups its nine types into three "centers": Body (8, 9, 1), Heart 
 
 - **Body types (8, 9, 1)** try to control the attachment field (through force, withdrawal, or rules) so they don't have to feel exposed in it.
 - **Heart types (2, 3, 4)** use the relationship as a mirror for identity: _am I loved, am I valuable, am I special?_ The attachment wound is usually about being seen for who you actually are.
-- **Head types (5, 6, 7)** intellectualize the intimacy problem to keep the raw fear out of reach, whether by minimizing (5), rehearsing worst cases (6), or escaping into the next thing (7).
+- **Head types (5, 6, 7)** [intellectualize the intimacy problem](/community/fear-triad-intellectual-fortress-or-prison) to keep the raw fear out of reach, whether by minimizing (5), rehearsing worst cases (6), or escaping into the next thing (7).
 
 Keep this lens in mind as you read: two anxious attachers in different centers will need almost opposite interventions.
 

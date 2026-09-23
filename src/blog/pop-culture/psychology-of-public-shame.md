@@ -241,7 +241,7 @@ Most analyses of public shame are addressed to the would-be participant. But hal
 
 **The crowd in the thread is not your judge.** The timeline is not a deliberative body and cannot be persuaded as one. Your real review board is much smaller: the people who know you, your family, your collaborators, the institutions with a relational or contractual stake in your conduct. Reach those parties directly and privately. The timeline is not entitled to a hearing. Most of the audience will not remember the incident in six months; the people whose opinions actually matter will, and they are reachable by something other than a quote-tweet.
 
-**Repair is for the harmed, not the audience.** If you did something wrong, repair it to the person you harmed — restitution, behavior change, an apology that costs you something. The timeline will not accept any of this and is not designed to. Repair anyway. Living through the aftermath as a person you respect is the part the archive cannot revoke. The point of repair was never to clear the receipt. It was to become the kind of person for whom the receipt no longer describes the present.
+**Repair is for the harmed, not the audience.** If you did something wrong, repair it to the person you harmed — restitution, behavior change, [an apology that costs you something](/enneagram-corner/how-to-apologize-like-a-pro). The timeline will not accept any of this and is not designed to. Repair anyway. Living through the aftermath as a person you respect is the part the archive cannot revoke. The point of repair was never to clear the receipt. It was to become the kind of person for whom the receipt no longer describes the present.
 
 ## The 9takes lens: which types engineer the ritual
 
@@ -273,7 +273,7 @@ The BuzzFeed article ends, as every BuzzFeed article ends, with an invitation:
 
 > _What celebrity did you lose all respect for? Let us know in the comments._
 
-That is the prompt. It is also the question to refuse — because the prompt is the product the page is selling.
+That is the prompt. It is also the question to refuse — because the prompt is the product the page is selling. Questions built for performance are older than the internet, and [Genesis separates them from honest ones](/community/questions-are-the-engine-of-moral-awakening).
 
 Notice what is not being asked. Not _who is doing real harm right now and what response is owed?_ Not _what is the difference between a crime and a tweet?_ Not _what do I owe the people I actually know?_ The prompt asks you to perform the same ritual the article just demonstrated: pick a parasocial figure, declare your revocation, drop it in the box, get scored. The same hit that ran Salem runs Reddit. The substrate changed. The dopamine didn't.
 

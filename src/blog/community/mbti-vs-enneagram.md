@@ -79,7 +79,7 @@ path: src/blog/community/mbti-vs-enneagram.md
 </script>
 
 <QuickAnswer question="Why is the Enneagram better than MBTI?">
-MBTI hands you a four-letter label and a job suggestion. The Enneagram reveals your core fear, your childhood wound, and the unconscious strategy running your decisions. Then it maps a path forward. MBTI tells you what you prefer. The Enneagram tells you what you're avoiding, and how to stop.
+MBTI hands you a four-letter label and a job suggestion. The Enneagram names your core fear and the unconscious strategy running your decisions. Then it maps a path forward. MBTI tells you what you prefer. The Enneagram tells you what you're avoiding, and how to stop.
 </QuickAnswer>
 
 > "You're an INTP."
@@ -92,10 +92,10 @@ MBTI hands you a four-letter label and a job suggestion. The Enneagram reveals y
 Then nothing changed.
 </div>
 
-You kept hitting the same walls in relationships. You kept circling the same career frustrations. The label described you but gave you nothing to do with it.
+You kept [hitting the same walls in relationships](/how-to-guides/definitive-guide-to-relationship-conflict-part-2). You kept circling the same career frustrations. The label described you but gave you nothing to do with it.
 
 <InsightBox title="The Real Question" tone="info">
-<p>What if a personality system told you WHY you keep making the same mistakes, and showed you a way out?</p>
+<p>What if a personality system could tell apart two people making the same mistake for different reasons, and showed each of them a different way out?</p>
 </InsightBox>
 
 That's the gap the Enneagram fills. (New to it? Start with our [quick Enneagram overview](/enneagram-corner/enneagram-tldr) or [find your type](/enneagram-corner/beginners-guide-to-determining-your-enneagram-type).)
@@ -181,7 +181,7 @@ Picture two people who both take charge in meetings. One does it because they fe
 
 ### What It Doesn't Get Right (Yet)
 
-Honesty check: the Enneagram has less peer-reviewed research than MBTI or the Big Five. The RHETI shows solid test-retest reliability, and researchers keep finding meaningful correlations with established psychological constructs, but the research base is thinner.
+Honesty check: the Enneagram has less peer-reviewed research than MBTI or the Big Five. The RHETI shows solid test-retest reliability, and researchers keep finding meaningful correlations with established psychological constructs, but [the research base is thinner](/enneagram-corner/mental-health/enneagram-science-mental-health).
 
 The system also resists standardized testing by design. It works best through self-reflection and guided inquiry, not bubble sheets. That makes it powerful for growth but harder to validate through traditional psychometric methods.
 

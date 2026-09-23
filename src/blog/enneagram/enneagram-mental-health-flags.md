@@ -547,7 +547,7 @@ Mental health isn't a destination—it's a journey of awareness, acceptance, and
 
 Your personality type isn't a prison—it's a map. Use it wisely, with compassion for yourself and others on this shared journey of becoming whole.
 
-**Remember:** These red flags are invitations for deeper self-care, not judgments about your worth. Healing is always possible, and help is always available.
+**Remember:** These red flags are invitations for deeper self-care, not judgments about your worth. Healing is always possible, and help is always available. For the day-to-day side of self-care, start with [how each type actually recharges](/enneagram-corner/how-each-enneagram-type-unwinds).
 
 <svelte:head>
 

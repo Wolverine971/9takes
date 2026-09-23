@@ -27,7 +27,7 @@ quality_safety_gate: 'n/a'
 
 Here's the uncomfortable truth: you do the same thing. Different triggers, same pattern.
 
-The situations in your life keep changing. New job, new city, new relationship. But your emotional responses? Those follow you everywhere like a shadow you can't outrun.
+The situations in your life keep changing. New job, new city, [new relationship](/enneagram-corner/how-to-navigate-early-relationship-stages). But your emotional responses? Those follow you everywhere like a shadow you can't outrun.
 
 This isn't a character flaw. It's how human psychology works. And once you understand it, you can finally do something about it.
 
@@ -96,7 +96,7 @@ For a deeper look at how each type responds under pressure, see our guide on <a 
 
 Understanding the paradox is step one. Breaking the cycle requires action.
 
-Marcus Aurelius put it plainly: **"You have power over your mind, not outside events. Realize this, and you will find strength."**
+[Marcus Aurelius](/personality-analysis/marcus-aurelius) put it plainly: **"You have power over your mind, not outside events. Realize this, and you will find strength."**
 
 Here's how to apply that power:
 

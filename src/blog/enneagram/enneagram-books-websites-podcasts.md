@@ -164,6 +164,8 @@ Not sure of your type? See our [full comparison of Enneagram tests](/enneagram-c
 
 - [9takes Corpus Stats](/corpus-stats): Live distribution of Enneagram types across 293 publicly-documented figures on 9takes, broken out by professional domain (musicians, tech founders, comedians, politicians) and compared side-by-side with the two largest public test-taker datasets (Truity, enneagram-personality.com) and the peer-reviewed literature. Regenerated on every deploy. Citable as a public dataset.
 
+- [What Enneagram Type Are Most Musicians?](/pop-culture/what-enneagram-type-are-most-musicians): One domain from the corpus, worked through. Type 4 makes up 38.8% of 67 musician profiles, more than double its sitewide share.
+
 - <a target="_blank" rel="noopener" href="https://enneagram-personality.com/en/test/stats/1-enneagram-population-distribution">Enneagram-Personality.com Population Distribution</a>: The only public source we've found that publishes a complete 9-type distribution table with sample size, date, and methodology on a single page. n ≈ 200,000 online test-takers as of 2026.
 
 </article>
@@ -577,7 +579,7 @@ The Enneagram has gone digital. These tools bring type insights to your phone an
 
 - <a  target="_blank" rel="noopener" href="https://enneaapp.com/">EnneaApp</a>: The most comprehensive Enneagram reference app. Detailed type descriptions, instinctual variant information, and growth tips, all offline-accessible. Think of it as the Enneagram Institute in your pocket.
 
-- <a  target="_blank" rel="noopener" href="https://cloverleaf.me/">Cloverleaf</a>: Goes beyond typing: it integrates the Enneagram with other frameworks (DISC, StrengthsFinder, 16 Types) and delivers daily coaching tips. Popular with teams and organizations.
+- <a  target="_blank" rel="noopener" href="https://cloverleaf.me/">Cloverleaf</a>: Goes beyond typing: it integrates the Enneagram with [other frameworks](/enneagram-corner/enneagram-vs-personality-frameworks-comparison) (DISC, StrengthsFinder, 16 Types) and delivers daily coaching tips. Popular with teams and organizations.
 
 - <a  target="_blank" rel="noopener" href="https://www.crystalknows.com/">Crystal</a>: Uses personality data (including Enneagram) to help you communicate better with colleagues. Shows you how to email, chat, and present to different types.
 

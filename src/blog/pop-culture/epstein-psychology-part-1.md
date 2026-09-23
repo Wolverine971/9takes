@@ -153,7 +153,7 @@ The full source of Epstein's fortune is no longer a complete mystery — it was 
 
 ## The Realm Above: Why Epstein Was So Effective
 
-Here is the thesis that ties everything together: Jeffrey Epstein operated at a realm above. Not above the law — above the people who made the law, enforced it, and profited from it. As journalist Ryan Grim put it: "He doesn't work for Mossad. It's more like Mossad works for him." ([Breaking Points](https://www.youtube.com/watch?v=5WvMb1cTwvs))
+Here is the thesis that ties everything together: Jeffrey Epstein operated at a realm above. Not above the law — above the people who made the law, enforced it, and profited from it. As journalist [Ryan Grim](/personality-analysis/ryan-grim) put it: "He doesn't work for Mossad. It's more like Mossad works for him." ([Breaking Points](https://www.youtube.com/watch?v=5WvMb1cTwvs))
 
 Epstein was above everyone he touched — billionaires, scientists, politicians — because he combined three things none of them could see clearly until it was too late.
 
@@ -362,7 +362,7 @@ That was his real protection. Not secrecy. **Mutual need.**
 
 ## The Control System: Type 2 to Type 8
 
-When Type 2s move toward health, they integrate to Type 8, becoming assertive and action-oriented. But when they move toward dysfunction, they also access Type 8's shadow: domination and control.
+Under stress, Type 2s move toward Type 8: the helper turns assertive and controlling. At the unhealthy end of that line sits Type 8's shadow: domination and control.
 
 Epstein didn't just help people. He owned them.
 

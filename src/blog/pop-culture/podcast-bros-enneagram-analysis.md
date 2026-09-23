@@ -113,7 +113,7 @@ Shawn Ryan was a former Navy SEAL and CIA contractor who turned military debrief
 
 ### How the Network Grew
 
-What turned this into a movement was the cross-pollination. These men appeared on each other's podcasts, shared guests, referenced each other's work. A listener who discovered Rogan might hear him mention Lex, check out Lex's show, hear Lex mention Huberman, and so on. The shared guest pool—Elon Musk, David Goggins, Naval Ravikant, Matthew Walker, Jocko Willink—created recurring characters that listeners followed across shows.
+What turned this into a movement was the cross-pollination. These men appeared on each other's podcasts, shared guests, referenced each other's work. A listener who discovered Rogan might hear him mention Lex, check out Lex's show, hear Lex mention Huberman, and so on. The shared guest pool—Elon Musk, [David Goggins](/personality-analysis/david-goggins), Naval Ravikant, Matthew Walker, Jocko Willink—created recurring characters that listeners followed across shows.
 
 None of this was planned. It was emergent. And the reason it worked is that these men's personality types were complementary, not competitive. Rogan's Type 8 energy (confrontation, truth-testing) doesn't overlap with Lex's Type 5 energy (depth, meaning-seeking). Ferriss's optimization instinct doesn't overlap with Williamson's Type 3 benchmarking instinct. They carved the same audience into different psychological niches and pointed listeners toward each other.
 
@@ -325,7 +325,7 @@ The criticism of this movement is real, and worth taking seriously.
 
 The Type 8's weakness is the mirror of its strength: the same instinct that refuses to let gatekeepers decide who gets heard also refuses to accept that some gates exist for good reason. An 8's definition of "censorship" can expand until it covers any form of editorial judgment.
 
-The "manosphere pipeline" criticism is harder to dismiss than the movement's fans want to admit. A 19-year-old who starts with Huberman protocols can end up, through algorithmic recommendation, watching red-pill content that the original hosts would disavow. The podcast bros didn't create that pipeline, but their audience is the on-ramp. The ecosystem's shared emphasis on masculine self-improvement—discipline, strength, directness—can shade into something darker when it's absorbed without the nuance that the better hosts provide.
+The "[manosphere pipeline](/pop-culture/incel-blackpill-radicalization-enneagram)" criticism is harder to dismiss than the movement's fans want to admit. A 19-year-old who starts with Huberman protocols can end up, through algorithmic recommendation, watching red-pill content that the original hosts would disavow. The podcast bros didn't create that pipeline, but their audience is the on-ramp. The ecosystem's shared emphasis on masculine self-improvement—discipline, strength, directness—can shade into something darker when it's absorbed without the nuance that the better hosts provide.
 
 Then there are the guests who turned out to be grifters. Supplement hawkers who cited "studies" that didn't replicate. Self-help figures who preached discipline while their personal lives contradicted every word. The long-form format that makes honest people more honest also gives skilled performers three hours to build a credibility they haven't earned.
 
@@ -344,3 +344,4 @@ The result is a parallel media ecosystem with real cultural power. Rogan can pla
 - **The Female Podcaster Gap**: Alex Cooper, Brené Brown, and others dominate specific genres. The "intellectual long-form" space remains predominantly male. Is that a personality type pattern, a cultural barrier, or both?
 - **The Guest Selection Psychology**: Who each host invites reveals their type. Rogan wants fighters and comedians (8 energy). Lex wants philosophers and scientists (5 energy). Ferriss wants peak performers. What does the guest list tell you about the host's inner world?
 - **The Second Generation**: A wave of newer hosts—Andrew Schulz, Theo Von, Danny Jones—are building audiences using the infrastructure the original podcast bros created but with different personality types and different energy. How does the Enneagram map shift as the ecosystem expands?
+- **The Co-Host Split**: Each show profiled here centers on one host. [TBPN's Type 7 and Type 3 hosts](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic) want different things from the same desk. Does two-host chemistry beat one dominant voice?

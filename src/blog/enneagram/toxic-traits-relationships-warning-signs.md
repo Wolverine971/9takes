@@ -128,7 +128,7 @@ Type 2s fear being unlovable at their core. Their toxic relationship behaviors s
 
 "After everything I've done for you..."
 
-This phrase (or some version of it) is the Type 2's toxic weapon of choice. Their acts of service come with invisible strings attached.
+This phrase (or some version of it) is the Type 2's toxic weapon of choice. Their [acts of service](/enneagram-corner/love-languages-and-enneagram-types) come with invisible strings attached.
 
 A Type 2 might spend hours cooking an elaborate meal, then use this "generosity" to manipulate their partner into canceling plans with friends. The message is clear: my kindness must be repaid.
 

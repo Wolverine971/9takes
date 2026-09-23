@@ -66,7 +66,7 @@ Here's the definition that actually matters:
 
 **Personality is the dimensions by which people are similar and different.**
 
-That's it. Not your zodiac sign. Not your Myers-Briggs letters. Not some abstract trait score.
+That's it. Not your [zodiac sign](/enneagram-corner/astrology-and-the-enneagram). Not your [Myers-Briggs letters](/enneagram-corner/enneagram-vs-meyers-briggs). Not some abstract trait score.
 
 We measure those dimensions a hundred different ways: attributes, traits, strengths, weaknesses, tendencies. But it all comes back to dimensions. The specific axes on which one person runs higher, lower, or simply different than another.
 
@@ -887,7 +887,7 @@ That's it. That's the "max."
 
 Remember the gym analogy? You don't go to the gym to become a different person. You go to become a stronger version of yourself. The muscle was always there. You just needed to develop it.
 
-Same with personality maxing.
+Same with [personality maxing](/enneagram-corner/personality-maxing).
 
 The capacity to understand yourself was always there. The capacity to genuinely understand others was always there. You just needed to exercise it.
 

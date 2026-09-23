@@ -127,7 +127,7 @@ Your neighboring types shade how your Seven shows up:
 
 ### How This Plays Out at Work
 
-You thrive in roles with variety, autonomy, and creative latitude. Startups. Consulting. Anything project-based where you can see results, get the dopamine hit, and move on. You're the person who energizes brainstorms, sees angles no one else caught, and somehow makes the tedious parts fun.
+You thrive in [roles with variety, autonomy, and creative latitude](/enneagram-corner/enneagram-types-and-career-choices). Startups. Consulting. Anything project-based where you can see results, get the dopamine hit, and move on. You're the person who energizes brainstorms, sees angles no one else caught, and somehow makes the tedious parts fun.
 
 Where you struggle: long-term maintenance. The unsexy middle of projects. Meetings that could've been emails. Processes that require the same steps every time. Office politics that require playing a slow game. You might volunteer for the exciting new initiative while your existing responsibilities quietly pile up.
 

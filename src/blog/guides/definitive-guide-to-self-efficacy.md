@@ -650,7 +650,7 @@ Self-efficacy manifests differently across various life domains. Understanding h
 
 **What it looks like**: Your confidence in your ability to perform job tasks, navigate workplace challenges, and advance in your chosen field.
 
-**Why it matters**: Strong career self-efficacy leads to greater job satisfaction, better performance, more innovative thinking, and resilience during workplace changes or challenges.
+**Why it matters**: Strong career self-efficacy leads to [greater job satisfaction](/enneagram-corner/enneagram-types-and-career-choices), better performance, more innovative thinking, and resilience during workplace changes or challenges.
 
 **Building strategies**:
 

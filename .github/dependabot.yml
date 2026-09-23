@@ -6,6 +6,11 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 5
+    ignore:
+      # Tailwind v4 is a rewrite (CSS-first config, separate @tailwindcss/postcss
+      # plugin) — a bot bump can't build. Migrate deliberately, not via Dependabot.
+      - dependency-name: tailwindcss
+        update-types: ['version-update:semver-major']
   - package-ecosystem: github-actions
     directory: /
     schedule:

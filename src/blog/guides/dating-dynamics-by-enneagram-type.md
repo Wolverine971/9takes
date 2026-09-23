@@ -55,7 +55,7 @@ You will get red flags to watch in yourself, a simple "5-second test" to sanity-
 
 ## The Real Dating Problem Nobody Solves
 
-Dating is a multibillion-dollar industry. Apps promise more matches, faster, with better filters. Yet a lot of people report modern dating feels exhausting and confusing. That gap makes sense once you understand what is really driving attraction.
+Dating is a multibillion-dollar industry. [Apps promise more matches](/enneagram-corner/why-dating-apps-are-harder-for-certain-personality-types), faster, with better filters. Yet a lot of people report modern dating feels exhausting and confusing. That gap makes sense once you understand what is really driving attraction.
 
 ### The Hidden Psychology That Controls Attraction
 
@@ -592,7 +592,7 @@ Type 8s are consistently drawn to:
 
 - Create equal decision-making structure
 - Admit one mistake daily
-- Apologize without justification
+- [Apologize without justification](/enneagram-corner/how-to-apologize-like-a-pro)
 - Success: Discovering vulnerability is ultimate power
 
 **Your Type 8 Power Move:** Say: "I protect everyone else but struggle to let anyone protect me. I'm learning that needing you doesn't make me weak." This opens the door to real intimacy.

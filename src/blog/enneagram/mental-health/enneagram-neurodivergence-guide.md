@@ -58,7 +58,7 @@ All three can shape one moment. None should be used as a shortcut for the others
 
 People use **neurodivergent** as a broad identity and community term. It is not one diagnosis with one agreed clinical boundary. This guide focuses on several formal conditions and several descriptive terms that are often mixed together online.
 
-- **ADHD** is a formal neurodevelopmental diagnosis. Executive-function difficulties can involve planning, working memory, organization, task initiation, or decision-making. Executive dysfunction describes a set of functional difficulties, not a diagnosis by itself, and it can have more than one cause.
+- **ADHD** is a formal neurodevelopmental diagnosis. [Executive-function difficulties](/enneagram-corner/enneagram-and-adhd-which-types-struggle-most) can involve planning, working memory, organization, task initiation, or decision-making. Executive dysfunction describes a set of functional difficulties, not a diagnosis by itself, and it can have more than one cause.
 - **Autism** is a developmental disability with wide variation in communication, sensory experiences, repetitive behavior, interests, abilities, and support needs. No Enneagram type is evidence for or against autism. This guide uses identity-first language, which many autistic self-advocates prefer, while respecting individual language preferences. The [Autistic Self Advocacy Network](https://autisticadvocacy.org/about-asan/about-autism/) also cautions against reducing people to functioning labels.
 - **Dyslexia** is a learning disability involving reading. Learning disabilities are unrelated to intelligence and can affect reading, writing, speaking, or math in different ways, according to [NICHD](https://www.nichd.nih.gov/health/topics/learningdisabilities). Dyslexia does not create a known Enneagram profile.
 - **Developmental coordination disorder (DCD)** is the preferred clinical term for a developmental condition affecting motor coordination and daily activities. **Dyspraxia** is also used, especially in the UK, but it can have broader meanings. International [DCD clinical recommendations](https://onlinelibrary.wiley.com/doi/full/10.1111/dmcn.14132) and current [NHS guidance](https://www.nhs.uk/conditions/developmental-coordination-disorder-dyspraxia/) emphasize assessment of motor skills and daily impact.
@@ -73,13 +73,13 @@ The old version of this guide mapped ADHD, autism, dyslexia, sensory differences
 
 ### Leaving, withdrawing, or going quiet
 
-Possible processing and context factors include sensory overload, language-processing time, attention fatigue, pain, a need to use another communication method, or the effort of camouflaging. Possible personality interpretations include protecting privacy, avoiding conflict, preventing failure, or staying in control.
+Possible processing and context factors include sensory overload, language-processing time, attention fatigue, pain, a need to use another communication method, or the effort of camouflaging. Possible personality interpretations include protecting privacy, avoiding conflict, preventing failure, or staying in control, [the defenses each type reaches for under stress](/enneagram-corner/enneagram-types-in-stress).
 
 The behavior cannot tell you which explanation is true. Ask what happened before it, what the person experienced internally, and what changed when the environment changed.
 
 ### Missing a deadline or struggling to start
 
-Possible functional barriers include planning, working memory, time estimation, reading load, motor demands, sleep, anxiety, unclear instructions, or too many competing tasks. A person may then interpret the missed deadline as proof that they are bad, incompetent, unwanted, unsafe, trapped, or powerless.
+Possible functional barriers include planning, working memory, time estimation, reading load, motor demands, sleep, [anxiety](/enneagram-corner/mental-health/enneagram-anxiety-complete-guide), unclear instructions, or too many competing tasks. A person may then interpret the missed deadline as proof that they are bad, incompetent, unwanted, unsafe, trapped, or powerless.
 
 The interpretation matters for self-reflection. The functional barrier matters for support. Addressing only the story can leave the access problem intact.
 

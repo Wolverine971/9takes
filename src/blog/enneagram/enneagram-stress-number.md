@@ -715,7 +715,7 @@ Will you:
 
 **Here's the truth most people can't handle:**
 
-Your stress number isn't your enemy—it's your alarm system. It's showing you exactly where your personality breaks down, which means it's showing you exactly where to build strength.
+Your stress number isn't your enemy—it's your alarm system. It's showing you exactly where your personality breaks down, which means it's showing you exactly where to build strength. If you coach clients through these patterns, start with [type-specific homework that sticks](/enneagram-corner/enneagram-coach-toolkit).
 
 ### The Master Key: Integration
 

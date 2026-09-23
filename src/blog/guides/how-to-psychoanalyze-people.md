@@ -387,7 +387,7 @@ So how do these self-exercises work if our blind spots are so powerful?
 
 The ancient Greeks didn't just worship their gods — they used them as a language for human nature. Athena was the pattern of strategic calm under pressure. Ares was raw confrontation. Aphrodite was the pull toward connection and beauty. These weren't bugs in the mythology; they were the point. Every person was understood as carrying different gods within them in different measure. When a Greek recognized "I'm acting like Ares right now," they gained distance from the pattern — they could see it instead of just being consumed by it.
 
-We've lost that shared vocabulary. Modern culture treats personality as either a mystery or a zodiac meme. The Enneagram does the same work the Greek pantheon did — maps the recurring patterns of motivation that show up across every culture and century — but with more precision and less mythology. It gives names to drives that are otherwise invisible.
+We've lost that shared vocabulary. Modern culture treats personality as either a mystery or a [zodiac meme](/enneagram-corner/astrology-and-the-enneagram). The Enneagram does the same work the Greek pantheon did — maps the recurring patterns of motivation that show up across every culture and century — but with more precision and less mythology. It gives names to drives that are otherwise invisible.
 
 **Here's why this matters for self-understanding:**
 

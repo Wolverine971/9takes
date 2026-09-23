@@ -1,4 +1,4 @@
-<!-- src/blog/pop-culture/epstien-research/epstien-pltr.md -->
+<!-- docs/research/epstein/epstien-pltr.md -->
 
 # EXPLOSIVE AUDIO: Epstein Pushes Palantir To Former Israeli PM
 

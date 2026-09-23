@@ -289,7 +289,7 @@ Multiply this by years. One day there's a blowup over who loaded the dishwasher 
 
 ### The Four Horsemen Are Really Four Emotional Literacy Failures
 
-Gottman identified four communication patterns that predict divorce with 94% accuracy. Each one is an emotion somebody couldn't name:
+Gottman identified [four communication patterns that predict divorce](/how-to-guides/5-tough-conversations-you-need-to-have-with-your-partner) with 94% accuracy. Each one is an emotion somebody couldn't name:
 
 1. **Criticism** ("You never help") = an unspoken need. The literate version: "I feel overwhelmed and need help tonight."
 2. **Contempt** (eye-rolling, sarcasm) = hurt that was never named, left to curdle into disgust. The single strongest predictor of divorce.

@@ -120,7 +120,7 @@ If every compliment follows a favor, a Type 2 can hear the same old bargain: you
 
 Try this during an ordinary moment with no request attached: **"I love how you make a boring errand funny. I would choose your company even if neither of us needed anything."**
 
-Thank them when they help, of course. Just make sure help is not the only part of them that earns your attention.
+Thank them when they help, of course. Just make sure help is not the only part of them that earns your attention. If you're a Type 2 woman, the [Enneagram dating guide for women](/enneagram-corner/enneagram-dating-guide-for-women) covers the other half: taking a compliment without deflecting it.
 
 [Read the full Type 2 guide](/enneagram-corner/enneagram-type-2)
 

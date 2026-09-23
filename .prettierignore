@@ -25,6 +25,9 @@ yarn.lock
 .vercel/
 database.types.ts
 docs/BLOG-CROSSLINK-INDEX.md
+# Generated / agent-maintained cross-link artifacts (target-phrases.json stays formatted)
+docs/crosslinks/*
+!docs/crosslinks/target-phrases.json
 docs/data/corpus-stats.md
 src/lib/components/molecules/famousTypes.ts
 src/lib/data/corpus-stats.json

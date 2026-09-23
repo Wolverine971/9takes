@@ -93,11 +93,11 @@ The first commenter didn't just share an opinion. They set the frame, and everyo
 
 This isn't a bug in human nature. It's a feature of platform design.
 
-**Upvote systems create consensus before one exists.** Reddit's algorithm surfaces early-upvoted comments. Latecomers see a thread that already looks like it has a "correct" answer. The Muchnik study proved this: early positive signals create cascading agreement that has nothing to do with content quality.
+**Upvote systems create consensus before one exists.** [Reddit's algorithm](/community/reddit-deep-connections-limitations) surfaces early-upvoted comments. Latecomers see a thread that already looks like it has a "correct" answer. The Muchnik study proved this: early positive signals create cascading agreement that has nothing to do with content quality.
 
 **Algorithmic sorting rewards speed, not depth.** The first reply gets the most eyeballs. A thoughtful response posted two hours later gets buried. The incentive is clear: type fast, match the room's energy, collect the upvotes.
 
-**Quote-tweet culture turns disagreement into performance.** On Twitter/X, disagreement isn't a conversation — it's content. Quote-tweeting someone to dunk on them rewards the sharpest reaction, not the most accurate one. The audience picks a side, and mimesis does the rest.
+**Quote-tweet culture turns disagreement into performance.** On Twitter/X, disagreement isn't a conversation — it's content. [Quote-tweeting someone to dunk on them](/pop-culture/twitter-x-personality-types-toxic) rewards the sharpest reaction, not the most accurate one. The audience picks a side, and mimesis does the rest.
 
 **Top comments become the de facto summary.** Most people don't read articles. They read the top comment and adopt its framing. A 3,000-word investigative piece gets reduced to whatever quip reached the top of the pile fastest.
 

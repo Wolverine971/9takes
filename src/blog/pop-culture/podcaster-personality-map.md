@@ -93,7 +93,7 @@ Across their different formats, the repeated themes are power, competition, auth
 
 ## The Investigators: Type 5s
 
-**Lex Fridman. Shawn Ryan. Andrew Huberman.**
+**Lex Fridman. [Shawn Ryan](/personality-analysis/shawn-ryan). Andrew Huberman.**
 
 These hosts give guests room, then steer the conversation toward systems, mechanisms, and first principles. The Type 5 pattern reduces uncertainty by building a deeper internal model, which makes long-form interviewing a natural fit.
 
@@ -186,7 +186,7 @@ Williamson is the only Type 3 in this sample. That makes him a useful contrast r
 
 ## The OG: Type 6
 
-**Howard Stern.**
+**[Howard Stern](/personality-analysis/howard-stern).**
 
 The provocateur whose interviews keep circling fear, trust, and power.
 
@@ -212,7 +212,7 @@ The dynamic also produces conflict. In the episode ["Is This The End Of The Pod?
 
 The pattern of a Type 7 paired with a grounding type also appears on [Breaking Points](/pop-culture/breaking-points-enneagram-analysis), with Krystal Ball typed as a 1 and Saagar Enjeti as a 7. The 7 opens the aperture; the grounding type pressure-tests what comes through. Their tension helps the show avoid both heaviness and drift.
 
-A more accelerator-heavy pairing appears on [TBPN](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic), where John Coogan's Type 7 possibility-seeking runs beside Jordi Hays's Type 3 focus on stakes, presentation, and visible value.
+A more accelerator-heavy pairing appears on [TBPN](/pop-culture/tbpn-john-coogan-jordi-hays-enneagram-dynamic), where John Coogan's Type 7 possibility-seeking runs beside [Jordi Hays](/personality-analysis/jordi-hays)'s Type 3 focus on stakes, presentation, and visible value.
 
 ## The Crossover Test
 
@@ -265,7 +265,7 @@ Controversy often amplifies a host's established format, but it does not prove a
 - **A 7-style response** reframes the rupture as a new chapter and moves attention toward the next project.
 - **A 6-style response** revisits loyalty, trust, and the relationship between a provocative public persona and the people it affected.
 
-The sequence can matter as much as the statement. Some hosts respond immediately and turn the conflict into content; others disappear, gather information, and return with a controlled explanation. Some protect the audience relationship, while others protect independence or forward momentum. Those patterns are useful prompts for comparing communication styles. They are not excuses for harmful behavior, substitutes for sourcing, or proof of a person's private motivation.
+The sequence can matter as much as the statement. Some hosts respond immediately and turn the conflict into content; others disappear, gather information, and return with a controlled explanation. Some protect the audience relationship, while others protect independence or forward momentum. Those patterns are useful prompts for comparing communication styles. They are not excuses for harmful behavior, substitutes for sourcing, or proof of a person's private motivation. For the crowd's side of a public controversy, see [who cancels and who gets cancelled](/pop-culture/cancel-culture-enneagram-type).
 
 That distinction also protects the analysis from hindsight bias. Once a controversy is known, almost any response can be made to look inevitable for a chosen type. A credible reading should compare the response with the host's ordinary behavior across many episodes and should remain open to a simpler explanation, including business strategy or professional advice.
 

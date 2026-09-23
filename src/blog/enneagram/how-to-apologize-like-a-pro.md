@@ -98,7 +98,7 @@ The key finding: **you can stumble through the delivery, but if you don't clearl
 
 ### Why Protecting Your Ego Wrecks Your Apology
 
-The harder you try to protect your ego during an apology, the less effective it becomes. Yet each Enneagram type has specific ego protections that activate when we feel vulnerable.
+The harder you try to protect your ego during an apology, the less effective it becomes. Yet each Enneagram type has [specific ego protections](/enneagram-corner/enneagram-types-in-stress) that activate when we feel vulnerable.
 
 - Types 1, 3, and 8 protect their **competence**
 - Types 2, 6, and 7 protect their **security**
@@ -149,7 +149,7 @@ The breakthrough: the time you "save" by rushing an apology is borrowed against 
 
 You said something cutting to a friend, and now the guilt is a physical weight in your chest. You draft an apology text — delete it. Draft another — delete it. The words aren't capturing the depth of what you feel. Maybe a poem would express it better. Maybe you should write them a letter. By the time you've found the "authentic" way to say sorry, three days have passed and your friend thinks you don't care.
 
-That's the Type 4 trap. You feel remorse more intensely than almost any other type, but the intensity itself becomes the obstacle. You either disappear under the weight of shame or make the apology about your emotional experience ("I feel so terrible about this") when the other person needs to hear about _their_ experience.
+That's the [Type 4](/enneagram-corner/enneagram-type-4) trap. You feel remorse more intensely than almost any other type, but the intensity itself becomes the obstacle. You either disappear under the weight of shame or make the apology about your emotional experience ("I feel so terrible about this") when the other person needs to hear about _their_ experience.
 
 **The Inner Monologue:**
 _"They'll never understand how I really feel. My pain is probably worse than theirs. Maybe I should just disappear."_
@@ -204,7 +204,7 @@ The real strength play? Vulnerability is the hardest thing you can do, which mea
 
 Your sister asks what's wrong. You say "nothing" for the fourth time this week. When she finally pushes, you offer: "I'm sorry if I've been off, I don't know, I guess I'm just tired." She knows it's not tired. You know it's not tired. But naming the real thing would mean admitting there's conflict, and conflict means disruption, and disruption means taking a position. So you stay in the fog, hoping it blows over.
 
-As an identity protector, you preserve your sense of self by avoiding disruption. A specific apology names a specific wound, which creates a specific conflict, which asks you to take a specific stance. All of that is louder than you're willing to be. Vague apologies preserve the peace by trading away the repair.
+As an identity protector, you preserve your sense of self by avoiding disruption. A specific apology names a specific wound, which creates [a specific conflict](/how-to-guides/definitive-guide-to-relationship-conflict-part-1), which asks you to take a specific stance. All of that is louder than you're willing to be. Vague apologies preserve the peace by trading away the repair.
 
 **The Inner Monologue:**
 _"Maybe if I just act normal, this will go away. I'll say whatever they need to hear. I hate conflict so much."_
@@ -354,7 +354,7 @@ The breakthrough: name the exact thing, out loud. "I'm sorry I agreed to go to y
 
 <!-- {#when-someone-owes-you} -->
 
-Every type has a tell. Once you know what a real apology looks like from a Type 8 versus a Type 2, you stop accepting performances as repair.
+Every type has a tell. Once you know what a real apology looks like from a Type 8 versus a Type 2, you [stop accepting performances as repair](/enneagram-corner/how-each-enneagram-type-manipulates).
 
 ### Reading Apology Sincerity by Type
 

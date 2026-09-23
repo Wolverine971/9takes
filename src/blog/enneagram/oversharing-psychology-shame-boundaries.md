@@ -170,7 +170,7 @@ Oversharing isn't one thing. It looks different depending on who's doing it—an
 
 **How it looks:** "I probably shouldn't admit this, but last week I completely lost my temper with my daughter and I said something I really regret and I've been thinking about it constantly and I know it makes me a terrible parent but—"
 
-**The pattern:** Type 1s overshare their sins, treating casual conversations like confession booths. They're hoping you'll play priest.
+**The pattern:** Type 1s overshare their sins, treating casual conversations like confession booths. They're hoping you'll play priest. If the confessions keep circling back to your kids, read the Type 1 section of [Enneagram parenting styles](/enneagram-corner/enneagram-parenting-styles).
 
 [More on Type 1s](/enneagram-corner/enneagram-type-1)
 

@@ -104,7 +104,7 @@ The man who [never carried a pocket knife](/personality-analysis/abraham-lincoln
 
 JFK's presidency reads like a Type 7 highlight reel. The Peace Corps—let's go everywhere. The space race—let's reach for something impossible. The Cuban Missile Crisis—a terrifying game of chicken that a 7's risk tolerance was uniquely suited to navigate (7s don't freeze under pressure; they get sharper). His affairs—the 7's constant hunger for new experience, the inability to sit with what's already here.
 
-Even the Camelot mythology is peak 7. The 7's deepest fear is being trapped in pain, so they build worlds of possibility around themselves. Jackie Kennedy naming the era "Camelot" after his death was the final expression of what a 7 presidency creates: a feeling that the golden age was always just about to arrive.
+Even the Camelot mythology is peak 7. The 7's deepest fear is being trapped in pain, so they build worlds of possibility around themselves. [Jackie Kennedy](/personality-analysis/jackie-kennedy) naming the era "Camelot" after his death was the final expression of what a 7 presidency creates: a feeling that the golden age was always just about to arrive.
 
 **The assassination's real wound**: When JFK was killed, America didn't just lose a president. It lost the personality type he represented—the Enthusiast's promise that anything was possible. The national trauma wasn't proportional to his policy achievements (which were limited). It was proportional to the psychological function he served. Losing a 7 feels like losing the future itself.
 
@@ -301,9 +301,9 @@ Next election, don't ask what the candidates believe. Ask what type they are—a
 
 ## Rabbit Holes Worth Exploring
 
-- **First Ladies as Type Complements**: Eleanor Roosevelt, Jackie Kennedy, Michelle Obama—do presidents marry types that compensate for their blind spots? Is the First Lady the president's psychological balance?
+- **First Ladies as Type Complements**: Eleanor Roosevelt, Jackie Kennedy, [Michelle Obama](/personality-analysis/michelle-obama)—do presidents marry types that compensate for their blind spots? Is the First Lady the president's psychological balance?
 - **The Father-Son Type Inheritance**: Both Bushes were Type 6s. Is the personality type that reaches for the presidency hereditary? Or does growing up in the White House select for the same psychological patterns?
 - **Cabinet as Personality Test**: Lincoln's "Team of Rivals" was a 9 including every voice. Trump's revolving door was a 3 firing anyone who threatened the brand. Obama's "no drama" team was a 9 surrounding himself with calm. Your cabinet reveals your type.
 - **The VP as Missing Piece**: Biden (2) under Obama (9). Pence (1) under Trump (3). Does the VP selection reveal what the president knows they're psychologically missing?
-- **Presidential Debates as Type Theater**: Nixon vs. Kennedy. Obama vs. Romney. Trump vs. Biden. The winner of every modern debate is the personality type that performs better under confrontation—and that's predictable before they open their mouths.
+- **Presidential Debates as Type Theater**: Nixon vs. Kennedy. Obama vs. Romney. [Trump vs. Biden](/pop-culture/trump-type-8-vs-biden-type-2). The winner of every modern debate is the personality type that performs better under confrontation—and that's predictable before they open their mouths.
 - **The Wartime Type Mismatch**: What happens when a Type 9 faces a war? A Type 6 faces prosperity? A Type 3 faces a conflict that can't be branded? The mismatch between type and moment may be the single best predictor of failed presidencies.

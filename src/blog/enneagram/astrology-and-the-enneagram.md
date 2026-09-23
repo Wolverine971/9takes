@@ -174,7 +174,7 @@ If your chart has a heavy 8th house and you're a Type 8, that intensity is echoi
 
 ## Enneagram Subtypes and Astrological Elements
 
-The Enneagram has three instinctual subtypes (self-preservation, social, and sexual/one-to-one), and each maps to an astrological element:
+The Enneagram has [three instinctual subtypes](/enneagram-corner/enneagram-instinctual-subtypes) (self-preservation, social, and sexual/one-to-one), and each maps to an astrological element:
 
 | Subtype                 | Element      | What It Drives                                           | Zodiac Signs That Amplify It                                     |
 | ----------------------- | ------------ | -------------------------------------------------------- | ---------------------------------------------------------------- |

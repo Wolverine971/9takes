@@ -170,7 +170,7 @@ You're marketing yourself like a LinkedIn profile. Leading with achievements, op
 
 **Tactical shift**: Lead with presence, not performance.
 
-- Achievement detox: Remove all status symbols from dating profiles
+- Achievement detox: Remove all status symbols from [dating profiles](/enneagram-corner/enneagram-online-dating-guide)
 - Vulnerability metric: Share one "failure" that taught you something
 - Connection over collection: Quality time beats quality venues
 
@@ -660,6 +660,7 @@ Your dating style is one piece of your relationship blueprint.
 
 - [How your type handles conflict](/enneagram-corner/relationship-communication-guide)
 - [How your type shows up when the honeymoon ends](/enneagram-corner/enneagram-types-in-relationships)
+- [How your type shows off (and what it needs)](/enneagram-corner/how-each-enneagram-flexes)
 - [Get real-time feedback on your dating situations](/questions)
 
 ## The Bottom Line

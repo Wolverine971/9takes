@@ -299,7 +299,7 @@ Type 3s are susceptible to:
 
 Type 4s are susceptible to:
 
-- Severe depression
+- Severe depression ([how depression looks different in each type](/enneagram-corner/depression-patterns-by-enneagram-type))
 - Narcissistic Personality Disorder
 - Avoidant Personality Disorder
 - Self-destructive behaviors

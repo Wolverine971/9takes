@@ -254,7 +254,7 @@ Both Trump and Biden have had public moments where they acted like the OTHER man
 
 ### Trump's Type 2 Moments
 
-**The First Step Act (2018).** Trump signed bipartisan criminal justice reform — not a typical power move. He championed Alice Johnson's clemency case after Kim Kardashian brought it to him. He talked about giving people "a second chance." For a man who usually divides the world into winners and losers, this was a rare move toward empathy and service. Classic Type 8 → 2 growth arrow.
+**The First Step Act (2018).** Trump signed bipartisan criminal justice reform — not a typical power move. He championed Alice Johnson's clemency case after [Kim Kardashian](/personality-analysis/kim-kardashian) brought it to him. He talked about giving people "a second chance." For a man who usually divides the world into winners and losers, this was a rare move toward empathy and service. Classic Type 8 → 2 growth arrow.
 
 **The RNC speech after the assassination attempt (July 2024).** After being shot in Butler, Pennsylvania, Trump opened his convention speech with 25 minutes of genuine vulnerability. He described the moment he was hit, how he thought he was dying, how he felt "very safe because I had God on my side." The crowd was silent. No insults, no bravado — just a man processing mortality out loud. For a brief window, the Challenger dropped the armor.
 
@@ -316,7 +316,7 @@ Trump couldn't accept the 2020 results. It wasn't strategy. His brain literally 
 
 ### Biden Stepped Aside
 
-Biden's July 2024 decision to drop out and back Kamala Harris was pure Type 2. He decided that stepping aside helped others more than staying. So he did it. Even though it meant admitting he couldn't go the distance.
+Biden's July 2024 decision to drop out and back [Kamala Harris](/personality-analysis/kamala-harris) was pure Type 2. He decided that stepping aside helped others more than staying. So he did it. Even though it meant admitting he couldn't go the distance.
 
 > "Nothing, nothing, can come in the way of saving our democracy. That includes personal ambition." — Joe Biden, withdrawal announcement
 

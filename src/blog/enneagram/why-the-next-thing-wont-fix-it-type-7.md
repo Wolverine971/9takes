@@ -158,7 +158,7 @@ Reframing says: "That wasn't so bad." Using says: "That was terrible. And it's t
 
 [Brittany Broski](/personality-analysis/brittany-broski) got fired from her bank job for going viral with the kombucha video. Her response was pure 7 alchemy: "If there was ever a time to show that I'm funny and I'm more than some Jim Carrey faces, it's now." The job loss wasn't a setback. It was permission.
 
-[Tim Dillon](/personality-analysis/tim-dillon) took his schizophrenic mother, his closeted years, his cocaine addiction, his foreclosed house, and turned all of it into comedy. Not by pretending it was okay. By seeing the absurdity: "I'm a near perfect person: a closeted gay cocaine addict who enthusiastically supported the Iraq War and didn't get a credit score until he was 36."
+[Tim Dillon](/personality-analysis/tim-dillon) took his schizophrenic mother, his closeted years, his cocaine addiction, his foreclosed house, and [turned all of it into comedy](/pop-culture/comedy-kings-enneagram-analysis). Not by pretending it was okay. By seeing the absurdity: "I'm a near perfect person: a closeted gay cocaine addict who enthusiastically supported the Iraq War and didn't get a credit score until he was 36."
 
 [Benson Boone](/personality-analysis/benson-boone) wrote "Beautiful Things" at 2 AM, sitting with the fear of losing everything good in his life. The song didn't escape the fear. It _sat in it_. It became the biggest-selling global single of 2024.
 

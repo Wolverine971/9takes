@@ -138,7 +138,7 @@ Chemistry, competence, and format fit are observable strengths. The harder quest
 
 ## They match on speed and split the field of vision
 
-Type 3 and Type 7 belong to the Enneagram's assertive group. Both move toward what they want. Both default toward movement.
+Type 3 and Type 7 belong to the Enneagram's [assertive group](/enneagram-corner/enneagram-social-styles). Both move toward what they want. Both default toward movement.
 
 Their inner questions differ.
 
@@ -302,7 +302,7 @@ The format does psychological work for both men. It gives John novelty inside co
 
 That arrangement also explains why neither can easily host the same show alone. John's curiosity would have less pressure to compound into an institution. Jordi's institution would have fewer strange inputs to keep it from becoming ordinary corporate television.
 
-John has already run the control experiment. His solo YouTube channel plateaued around 450,000 subscribers while Alex Hormozi, who started around the same time, passed four million by treating his channel like a media company. [John's own diagnosis](https://www.linkedin.com/feed/update/urn:li:activity:7481042266170621954/): "I was treating it more like a personal blog and following my interests." Curiosity alone built an audience. It took the partnership to build a company that could hold his curiosity to a commercial standard.
+John has already run the control experiment. His solo YouTube channel plateaued around 450,000 subscribers while [Alex Hormozi](/personality-analysis/alex-hormozi), who started around the same time, passed four million by treating his channel like a media company. [John's own diagnosis](https://www.linkedin.com/feed/update/urn:li:activity:7481042266170621954/): "I was treating it more like a personal blog and following my interests." Curiosity alone built an audience. It took the partnership to build a company that could hold his curiosity to a commercial standard.
 
 ## Why the old-money costume feels convincing
 
@@ -336,7 +336,7 @@ They have three children each, six between them: John with a five-year-old and t
 
 TBPN describes itself as openly pro-technology. That orientation creates warmth, access, and unusually fluent founder conversations. It also produces the partnership's most important weakness.
 
-The tradeoff becomes visible in the interviews. [_The New Yorker_ noted](https://www.newyorker.com/culture/the-lede/tbpn-and-the-rise-of-the-tech-friendly-talk-show) that they asked Palantir chief Alex Karp about kettlebells and celebrated Microsoft chief Satya Nadella's OpenAI news with a gong. That friendliness helps executives relax and reveal how they think. It can also leave the audience with enthusiasm where scrutiny should sit.
+The tradeoff becomes visible in the interviews. [_The New Yorker_ noted](https://www.newyorker.com/culture/the-lede/tbpn-and-the-rise-of-the-tech-friendly-talk-show) that they asked Palantir chief [Alex Karp](/personality-analysis/alex-karp) about kettlebells and celebrated Microsoft chief Satya Nadella's OpenAI news with a gong. That friendliness helps executives relax and reveal how they think. It can also leave the audience with enthusiasm where scrutiny should sit.
 
 The hosts have a coherent answer, and they have now stated two boundaries rather than one. They rarely try to break news, preferring to comment on announcements after founders release them. They also decline to make market calls: asked on _Prof G_ to price a specific IPO, Jordi noted that their origins are in private markets, that neither host does much public-market investing beyond index funds, and that the show does not issue buy and sell ratings. Their product is interpretation, access, and conversation.
 
@@ -376,7 +376,7 @@ The deal fulfills each host's visible drive with almost uncomfortable precision.
 
 Knowing what was bought makes the conflict sharper rather than softer. A show that also serves as its owner's creative marketing arm holds two jobs that can collide on any given Tuesday, and no editorial-control clause resolves which job wins that morning. Ownership does not need to issue instructions. It works through gratitude, access, shared incentives, and the ordinary wish to keep a good arrangement running.
 
-The first evidence is better than skeptics would predict. Weeks after the sale, on someone else's show, Jordi agreed that Anthropic had overtaken OpenAI, citing the revenue numbers circulating publicly while noting they come from anonymous accounts. He called the reversal one of the most remarkable stories in business history, said the lesson is the value of focus, and framed it as a warning to founders about complacency and about respecting every competitor. He also called Anthropic one of the greatest American companies in history. That is the owner's chief rival, praised by name, and the owner's competitive setback conceded out loud.
+The first evidence is better than skeptics would predict. Weeks after the sale, on someone else's show, Jordi agreed that [Anthropic had overtaken OpenAI](/pop-culture/tech-titans-ai-wars), citing the revenue numbers circulating publicly while noting they come from anonymous accounts. He called the reversal one of the most remarkable stories in business history, said the lesson is the value of focus, and framed it as a warning to founders about complacency and about respecting every competitor. He also called Anthropic one of the greatest American companies in history. That is the owner's chief rival, praised by name, and the owner's competitive setback conceded out loud.
 
 Set beside the adult-mode comment, that moves the independence question off zero. It does not close it. Both remarks came on a guest appearance rather than on TBPN's own air. The adult-mode criticism was a pre-acquisition view restated rather than a fresh judgment, and it concerns a product that never shipped. Neither moment required pressing a live OpenAI executive about something that had actually gone wrong.
 

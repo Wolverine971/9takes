@@ -48,7 +48,7 @@ Every type has predictable warning signs rooted in their core fears. Type 1s cri
 
 <p class="firstLetter">That charming confidence? Might be Type 3 image management. The intense emotional connection? Could be Type 4 drama addiction. The protectiveness? Possibly Type 8 control.</p>
 
-**The most dangerous relationship red flags don't look like red flags at first.**
+**The most dangerous [relationship red flags](/enneagram-corner/toxic-traits-relationships-warning-signs) don't look like red flags at first.**
 
 They look like attractive qualities—until they're not.
 

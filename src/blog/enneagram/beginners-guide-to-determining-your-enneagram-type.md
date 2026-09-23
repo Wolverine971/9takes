@@ -49,7 +49,7 @@ Ready? Let's cut through the confusion.
 
 Here's the truth:
 
-Most personality systems are like taking a photo of your house from the outside. The Enneagram? It gives you the blueprints.
+[Most personality systems](/enneagram-corner/enneagram-vs-personality-frameworks-comparison) are like taking a photo of your house from the outside. The Enneagram? It gives you the blueprints.
 
 > **"The Enneagram doesn't put you in a box. It shows you the box you're already in and how to break free."**
 

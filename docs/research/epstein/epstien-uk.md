@@ -1,4 +1,4 @@
-<!-- src/blog/pop-culture/epstien-research/epstien-uk.md -->
+<!-- docs/research/epstein/epstien-uk.md -->
 
 # EPSTEIN FILES: US Elites Protected While UK GOV SEEKS JUSTICE
 

@@ -67,7 +67,7 @@ Before diving into individual types, notice which center yours falls in. This sh
 
 **Heart Center (Types 2, 3, 4)**: Anxiety wraps around shame, image, and emotional flooding. Try heart coherence breathing: 5 counts in, 5 counts out, focusing on the center of your chest.
 
-**Head Center (Types 5, 6, 7)**: Anxiety spins as mental loops, catastrophizing, and fear-based thinking. Try 4-7-8 breathing: inhale 4, hold 7, exhale 8.
+**Head Center (Types 5, 6, 7)**: Anxiety spins as mental loops, catastrophizing, and [fear-based thinking](/community/fear-triad-intellectual-fortress-or-prison). Try 4-7-8 breathing: inhale 4, hold 7, exhale 8.
 
 These are your baselines. The type-specific strategies below build on them.
 
@@ -111,7 +111,7 @@ Then the resentment creeps in. Then the heart races. Then you're lying awake won
 
 ### The Pattern
 
-Twos experience rejection anxiety, a deep fear of being unneeded or unwanted. This connects to anxious attachment, which research has well-documented. Individuals with anxious attachment chronically intensify emotions like fear and anxiety, hyperactivating their attachment system in response to perceived relational threats (Mikulincer & Shaver, 2007). Meta-analyses confirm a significant association between insecure attachment and social anxiety (Zhang et al., 2025).
+Twos experience rejection anxiety, a deep fear of being unneeded or unwanted. This connects to [anxious attachment](/enneagram-corner/attachment-styles-and-enneagram-types), which research has well-documented. Individuals with anxious attachment chronically intensify emotions like fear and anxiety, hyperactivating their attachment system in response to perceived relational threats (Mikulincer & Shaver, 2007). Meta-analyses confirm a significant association between insecure attachment and social anxiety (Zhang et al., 2025).
 
 The triggers are relational: conflict, being seen as selfish, others becoming independent. The body speaks through heart palpitations, shortness of breath, and fatigue from overgiving. The mind ruminates on relationships, catastrophizing about rejection.
 

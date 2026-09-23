@@ -157,7 +157,7 @@ A Type 8 would have framed these as acts of dominance: "we're taking control." J
 
 Amazon under Jassy is more operationally disciplined and less personally volatile. The company no longer orbits one man's intensity. Decisions are driven by preparation and performance data rather than by the emotional force of a question mark from the founder's email.
 
-What's less clear is whether Amazon under a 3 can still make the kind of leaps an 8 makes instinctively. Bezos funded the 10,000-year clock because he was drawn to century-scale problems. He bought the Washington Post because media is a power vector worth controlling. He launched Blue Origin because space was the next frontier to conquer. An 8 takes territory no one else is even looking at.
+What's less clear is whether Amazon under a 3 can still make the kind of [leaps an 8 makes instinctively](/pop-culture/tech-titans-disruptors). Bezos funded the 10,000-year clock because he was drawn to century-scale problems. He bought the Washington Post because media is a power vector worth controlling. He launched Blue Origin because space was the next frontier to conquer. An 8 takes territory no one else is even looking at.
 
 A 3 optimizes territory already held.
 
@@ -189,7 +189,7 @@ When Google's board looked at their company, they saw a dozen ambitious projects
 
 ### The AI Moment That Exposed the 9's Limitation
 
-November 2022. OpenAI launches ChatGPT. Within weeks, it becomes the fastest-growing consumer product in history, built on Transformer architecture that was invented at Google. The existential irony wasn't lost on anyone.
+November 2022. [OpenAI launches ChatGPT](/pop-culture/tech-titans-ai-wars). Within weeks, it becomes the fastest-growing consumer product in history, built on Transformer architecture that was invented at Google. The existential irony wasn't lost on anyone.
 
 Google had the talent. The data. The compute. The foundational research. What it didn't have was a leader whose type is wired for war.
 

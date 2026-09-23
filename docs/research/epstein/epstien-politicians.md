@@ -1,4 +1,4 @@
-<!-- src/blog/pop-culture/epstien-research/epstien-politicians.md -->
+<!-- docs/research/epstein/epstien-politicians.md -->
 
 # PROOF: Politicians Caught LYING About Epstein Relationship
 

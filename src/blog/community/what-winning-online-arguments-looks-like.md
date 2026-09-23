@@ -120,7 +120,7 @@ Instead, open with a genuine question. Not a gotcha question. Not a rhetorical t
 
 Good questions are specific, not broad. "Why do you believe that?" is lazy. "What experience led you to prioritize X over Y?" shows you've actually thought about their position.
 
-This is a skill worth developing. The quality of your questions determines the quality of your conversations.
+This is a skill worth developing. The quality of your questions determines the quality of your conversations. Socrates built a whole method on that idea, which is [why 9takes borrows the Greek look](/community/why-the-greek-vibe).
 
 ### Bonus: Invite Correction
 

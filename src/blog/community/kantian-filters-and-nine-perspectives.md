@@ -52,7 +52,7 @@ He then raises Kant's third question — the one that should keep you up at nigh
 
 This is not an abstract philosophy question. This is the question that governs every argument you've ever had. Every time you've thought "how can they possibly see it that way?" — that's Kant's third question, playing out in real time.
 
-9takes was built on the premise that the answer is: **you don't see the same world.** You're only seeing 1/9th of reality. Your [Enneagram type](/enneagram-corner/enneagram-tldr) IS your filter. Not the only filter — but one of the deepest ones. It's built on which core emotion dominates how you process reality: anger, fear, or shame.
+[9takes was built](/community/inspiration-for-9takes) on the premise that the answer is: **you don't see the same world.** You're only seeing 1/9th of reality. Your [Enneagram type](/enneagram-corner/enneagram-tldr) IS your filter. Not the only filter — but one of the deepest ones. It's built on which core emotion dominates how you process reality: anger, fear, or shame.
 
 Ask 9 personality types "how do you handle conflict at work?" and you don't get 9 opinions. You get 9 different realities described.
 
@@ -66,7 +66,7 @@ Same question. Three completely different phenomenal worlds. Kant would recogniz
 
 Jiang uses Kant's filter problem to build toward a specific conclusion: **powerful groups exploit the gap between noumena and phenomena.** They keep people trapped in the material "shadow world" and deny the spiritual reality underneath. That's his theory of how evil triumphs — through coordinated secrecy, shared transgression, and the systematic denial of truth.
 
-It's a compelling narrative — "rhetorically strong but evidentially weak," as one analysis put it. A story that feels true even when the evidence is thin. The framework is self-sealing: missing evidence gets interpreted as proof that the secrets are being kept. (In fairness, the Enneagram itself faces evidence debates — its empirical validation lags behind models like the Big Five, even as its clinical usefulness keeps practitioners coming back. The difference is that the Enneagram doesn't claim to explain global power structures — just the patterns in how individuals process reality.)
+It's a compelling narrative — "rhetorically strong but evidentially weak," as one analysis put it. A story that feels true even when the evidence is thin. The framework is self-sealing: missing evidence gets interpreted as proof that the secrets are being kept. (In fairness, the Enneagram itself faces evidence debates — its empirical validation lags behind [models like the Big Five](/enneagram-corner/enneagram-vs-personality-frameworks-comparison), even as its clinical usefulness keeps practitioners coming back. The difference is that the Enneagram doesn't claim to explain global power structures — just the patterns in how individuals process reality.)
 
 But separate the philosophical infrastructure from the conspiracy framework, and something interesting remains.
 

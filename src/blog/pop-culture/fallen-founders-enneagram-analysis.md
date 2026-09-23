@@ -100,7 +100,7 @@ She had not built anything yet. Most founders work toward the comparison. Holmes
 
 Then the patron board. By 2014, the Theranos board read like a Cold War reunion. Henry Kissinger. George Shultz. James Mattis. William Perry. Sam Nunn. Bill Frist. Not one had healthcare expertise. Kissinger described her in _Time_ as _"ethereal"_ and _"like a member of a monastic order."_ Mattis called her _"a revolutionary in the truest sense."_ Ken Auletta reported the board talked about her _"as if she were Beethoven."_
 
-That board was not assembled to govern. It was assembled to be the social proof _that the company was real._ They did not need to understand the device. They needed to be photographed near it.
+That board was not assembled to govern. It was assembled to be the social proof _that the company was real._ They did not need to understand the device. They needed to be photographed near it. Jeffrey Epstein bought the same kind of proof with donations to Harvard and MIT, a playbook traced in [how Epstein trapped the powerful](/pop-culture/epstein-psychology-part-2).
 
 John Carreyrou, the Wall Street Journal reporter who broke the Theranos story, captured the interpersonal mode: _"the way she trained her big blue eyes on you without blinking made you feel like the center of the world."_ That is the helper wing in deployment. She read the person across from her and gave them back exactly the version of themselves they wanted to feel.
 

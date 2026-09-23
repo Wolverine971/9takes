@@ -426,7 +426,7 @@ Your core motivations remain stable throughout life. A Type 6 doesn't wake up as
 - Share growth edges, not just patterns
 - Don't assume others care as much as you do
 
-**Remember:** The Enneagram is a tool for understanding, not an identity to broadcast.
+**Remember:** The Enneagram is a tool for understanding, [not an identity to broadcast](/community/why-im-selective-sharing-enneagram).
 
 </div>
 </details>
@@ -558,7 +558,7 @@ That's not a population claim — it's the shape of _who actually gets profiled_
 
 Among the **57 profiles** in the 9takes [Musicians & Artists](/personality-analysis/categories/music) category, **Type 4 (Individualist) is over-represented at 35.1%** — **+21.24 percentage points** above the corpus baseline.
 
-That's the biggest single-domain over-representation in the entire 9takes corpus. Authentic-expression-over-fitting-in is the load-bearing wiring of the musician archetype, and the data shows it. Full breakdown: <a href="/corpus-stats#domain-music">/corpus-stats#domain-music</a>.
+That's the biggest single-domain over-representation in the entire 9takes corpus. Authentic-expression-over-fitting-in is the load-bearing wiring of [the musician archetype](/pop-culture/what-enneagram-type-are-most-musicians), and the data shows it. Full breakdown: <a href="/corpus-stats#domain-music">/corpus-stats#domain-music</a>.
 
 </div>
 </details>

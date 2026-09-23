@@ -111,7 +111,7 @@ The Dark Helper's calculus: _the more someone needs, the more leverage I have._
 
 **Mentorship.** For girls lacking stable parental figures, Epstein offered attention, guidance, apparent care.
 
-**Maxwell's presence.** This was crucial. **A woman's involvement made victims feel safe.** Shopping trips, girl talk, apparent friendship. If a woman was part of it, how bad could it be? (See [Epstein psychology Part 1](/pop-culture/epstein-psychology-part-1) for Maxwell's full psychology.)
+**Maxwell's presence.** This was crucial. **A woman's involvement made victims feel safe.** Shopping trips, girl talk, apparent friendship. If a woman was part of it, how bad could it be? (See [Ghislaine Maxwell's full psychology](/pop-culture/ghislaine-maxwell-psychology), and [Part 1](/pop-culture/epstein-psychology-part-1) for how she fit Epstein's system.)
 
 ### The Grooming Progression
 
@@ -360,7 +360,7 @@ If you recognize that combination in someone — they've already given themselve
 
 ## The Web Beyond Epstein
 
-Jeffrey Epstein is dead. Ghislaine Maxwell is in prison — her appeal rejected, her habeas petition denied, her offer to testify for a commutation ignored. The immediate operation collapsed.
+Jeffrey Epstein is dead. [Ghislaine Maxwell](/pop-culture/ghislaine-maxwell-psychology) is in prison — her appeal rejected, her habeas petition denied, her offer to testify for a commutation ignored. The immediate operation collapsed.
 
 But the 2026 document releases have shown just how far the web extended. Co-conspirators have been named. Prince Andrew has been arrested on suspicion of sexual offenses (he has not been charged). International figures have resigned. And yet: as of February 2026, no new criminal indictments in the United States.
 
@@ -459,7 +459,7 @@ The nearly 3.5 million pages of documents are answering that question. The psych
 - Added "each sweetheart plea deal proved empirically that the rules didn't apply" to close the Darwinian section.
 
 **Sources:**
-- Breaking Points coverage: see /src/blog/pop-culture/epstien-research/ for full transcripts
+- Breaking Points coverage: see docs/research/epstein/ for full transcripts
 - Primary citations inline throughout article
 - Virginia Heffernan, The Nerve: https://www.thenerve.news/p/epstein-billionaires-eugenics-project-harvard-academia-john-brockman
 - Harvard Program for Evolutionary Dynamics / Martin Nowak: Harvard Magazine, March 2021

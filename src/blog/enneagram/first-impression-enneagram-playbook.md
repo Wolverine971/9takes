@@ -76,7 +76,7 @@ They got there early. Not to relax: to audit. Is the table right, is the plan so
 **Pass the scan:**
 
 - Be on time, or name the lateness before they do. Ownership disarms a 1 faster than perfection ever could.
-- Compliment something they built or refined, and be specific. Not "great job" but "you accounted for the thing everyone forgets."
+- [Compliment something they built or refined](/enneagram-corner/biggest-compliments-to-give-each-enneagram-type), and be specific. Not "great job" but "you accounted for the thing everyone forgets."
 - Ask: "What's something you've improved lately that nobody noticed?" Then watch someone who has waited years for that question.
 
 **Fail it:** make an excuse. To a 1, the excuse is worse than the mistake, because the mistake was human and the excuse is a choice.

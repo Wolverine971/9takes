@@ -18,7 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jeffrey_Epstein'
 twitter: ''
 instagram: ''
 tiktok: ''
-path: src/blog/pop-culture/epstien-research/Jeffrey-Epstein.md
+path: docs/research/epstein/Jeffrey-Epstein.md
 content_quality:
   hook: 9
   enneagram: 9

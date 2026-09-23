@@ -196,7 +196,7 @@ Let's be honest about the science:
 
 **MBTI**: Despite widespread corporate use, MBTI has been criticized by psychologists for low test-retest reliability (people get different results on retakes) and lack of predictive validity. It's not considered scientifically rigorous by academic psychology.
 
-**Enneagram**: Originally from spiritual traditions, the Enneagram has less academic research behind it than Big Five personality models. However, recent studies show correlations with established psychological constructs, and it's gaining traction in clinical settings.
+**Enneagram**: Originally from spiritual traditions, the Enneagram has less academic research behind it than Big Five personality models. However, [recent studies show correlations](/enneagram-corner/mental-health/enneagram-science-mental-health) with established psychological constructs, and it's gaining traction in clinical settings.
 
 **Neither is "scientific" in the way the Big Five is.** But both can be useful tools for self-reflection, as long as you don't treat them as absolute truth.
 

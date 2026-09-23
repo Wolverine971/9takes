@@ -155,7 +155,7 @@ _"Righteous action with helping hearts"_
 
 **The Tell:** 1w2s are passionate advocates who apply their high standards to helping others, then don't understand why people get defensive about it. They mentor, organize, and reform with genuine warmth, but under stress their "help" becomes controlling, their concern becomes criticism, and they burn out from over-giving while resenting that no one appreciates the effort.
 
-**In Relationships:** More emotionally expressive than 1w9. Gives advice freely (often unsolicited) and shows love through acts of service, with a side of wanting to "improve" their partner.
+**In Relationships:** More emotionally expressive than 1w9. Gives advice freely (often unsolicited) and [shows love through acts of service](/enneagram-corner/love-languages-and-enneagram-types), with a side of wanting to "improve" their partner.
 
 **Career Patterns:** Social work, coaching, management, politics, healthcare, education
 
@@ -359,7 +359,7 @@ _"Understanding through practical application"_
 
 **Career Patterns:** Science, engineering, IT, consulting, analysis, technical writing
 
-**Famous Examples:** Bill Gates, Stephen Hawking, Mark Zuckerberg
+**Famous Examples:** Bill Gates, [Stephen Hawking](/personality-analysis/stephen-hawking), Mark Zuckerberg
 
 **Red Flags You're This Type:**
 
@@ -409,7 +409,7 @@ _"Security through activity and optimism"_
 
 **Career Patterns:** Sales, marketing, event planning, hospitality, training, team management
 
-**Famous Examples:** Ellen DeGeneres, Conan O'Brien, Jennifer Lawrence
+**Famous Examples:** Ellen DeGeneres, Conan O'Brien, [Jennifer Lawrence](/personality-analysis/jennifer-lawrence)
 
 **Red Flags You're This Type:**
 

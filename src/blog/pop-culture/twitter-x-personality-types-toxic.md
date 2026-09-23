@@ -152,7 +152,7 @@ Low friction does not cause cruelty by itself. It shortens the distance between 
 
 The honest answer is date-limited.
 
-A [2025 PLOS One study](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0313293) compared English-language posts before and after Elon Musk's October 2022 purchase. Using data through June 2023, the researchers estimated that weekly hate content was about 50 percent higher after the purchase and that the weekly rate at which hate content was liked was about 70 percent higher. They could not determine which policy or product change caused the increase.
+A [2025 PLOS One study](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0313293) compared English-language posts before and after [Elon Musk's October 2022 purchase](/pop-culture/tech-titans-platform-emperors). Using data through June 2023, the researchers estimated that weekly hate content was about 50 percent higher after the purchase and that the weekly rate at which hate content was liked was about 70 percent higher. They could not determine which policy or product change caused the increase.
 
 That finding supports saying hostility rose in the period studied. It does not prove the same rate persists in 2026, that every user's feed changed equally, or that one moderation decision explains the result.
 
@@ -178,7 +178,7 @@ There is evidence that one of those interventions can work. A [2025 PNAS study o
 
 Multiple types can enter the same pile-on for different reasons. One person corrects, another protects, another performs, and another refuses to be controlled. The shared platform mechanics matter more than a speculative type label.
 
-For a deeper look at what a crowd does to its target, read [The Anatomy of Public Shame](/pop-culture/psychology-of-public-shame). For the one-sided bonds that make creator conflicts feel personal, see [Parasocial Relationships Through the Enneagram](/pop-culture/parasocial-relationships-enneagram-type).
+For a deeper look at what a crowd does to its target, read [The Anatomy of Public Shame](/pop-culture/psychology-of-public-shame). For the one-sided bonds that make creator conflicts feel personal, see [Parasocial Relationships Through the Enneagram](/pop-culture/parasocial-relationships-enneagram-type). For a creator feud fought through reposts, likes, and a public callout, see [Alex Cooper vs Alix Earle](/pop-culture/alex-cooper-alix-earle-beef-enneagram-analysis).
 
 ## A five-step way to interrupt your own loop
 

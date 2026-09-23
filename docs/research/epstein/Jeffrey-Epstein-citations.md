@@ -18,7 +18,7 @@ wikipedia: 'https://en.wikipedia.org/wiki/Jeffrey_Epstein'
 twitter: ''
 instagram: ''
 tiktok: ''
-path: src/blog/pop-culture/epstien-research/Jeffrey-Epstein-citations.md
+path: docs/research/epstein/Jeffrey-Epstein-citations.md
 ---
 
 > "On my own island or on my own ranch, I can think the thoughts I want to think. I can do the work I want to do and I'm free to explore as I see fit."

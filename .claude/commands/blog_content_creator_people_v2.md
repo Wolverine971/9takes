@@ -620,8 +620,8 @@ Mixing breaks rendering.
 ### Common topical link targets
 
 - Stress patterns → `/enneagram-corner/enneagram-types-in-stress`
-- Communication styles → `/enneagram-corner/enneagram-communication-styles`
-- Relationships → `/enneagram-corner/enneagram-relationship-guide`
+- Communication styles → `/enneagram-corner/relationship-communication-guide`
+- Relationships → `/enneagram-corner/enneagram-types-in-relationships`
 - Wings → `/enneagram-corner/enneagram-wings-complete-guide`
 - Strengths/weaknesses → `/enneagram-corner/enneagram-strengths-and-weaknesses`
 

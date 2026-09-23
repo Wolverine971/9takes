@@ -280,13 +280,19 @@ These cannot be mixed. Markdown links inside HTML blocks will not render.
 
 ## Internal Linking Rules
 
-Add 2-5 strategic internal links per blog. Do this automatically after drafting, before presenting to the user.
+Add 3-6 strategic outbound internal links per blog. Do this automatically after drafting, before presenting to the user.
+
+**Cross-link gate:** once a post is `published: true`, `pnpm crosslinks:check` (run by `pnpm lint` and CI) fails
+unless it has **3+ outbound** links to live blog/people pages **and 3+ inbound** links from other live posts.
+For inbound, run `pnpm gen:crosslinks -- --target /<section>/<slug>`: it lists sentences in live posts that
+already mention the new post's topic. Add a link in 3 of them (anchor from the existing sentence,
+root-relative URL, never touch their `lastmod`). Outbound ideas: `pnpm gen:crosslinks -- --source <url>`.
 
 ### Link Types (priority order):
 
 1. **Enneagram Type Links** — Link mentions of types to `/enneagram-corner/enneagram-type-X`
 2. **Topical Blog Links** — Link to relevant published posts in `src/blog/enneagram/` or `src/blog/guides/`
-3. **Celebrity Cross-Links** — If a celebrity is mentioned and we have a published blog, link to `/personality-analysis/[Person-Name]` (check `src/lib/components/molecules/famousTypes.ts` for entries with `link: true`)
+3. **Celebrity Cross-Links** — If a celebrity is mentioned and we have a published blog, link to `/personality-analysis/<name>` using the lowercase `name` from `src/lib/components/molecules/famousTypes.ts` (entries with `link: true`), e.g. `/personality-analysis/taylor-swift`
 4. **Community Posts** — Link to relevant community posts at `/community/[slug]`
 
 ### Finding Valid Link Targets:
@@ -297,7 +303,7 @@ Add 2-5 strategic internal links per blog. Do this automatically after drafting,
 
 ### Linking Rules:
 
-1. Only 2-5 links total — be strategic
+1. 3-6 outbound links total — be strategic
 2. Natural placement — links should fit naturally in the text
 3. First mention only — only link the first occurrence
 4. Avoid linking in headings
@@ -306,8 +312,8 @@ Add 2-5 strategic internal links per blog. Do this automatically after drafting,
 ### Common Topical Link Targets:
 
 - Stress patterns → `/enneagram-corner/enneagram-types-in-stress`
-- Communication styles → `/enneagram-corner/enneagram-communication-styles`
-- Relationships → `/enneagram-corner/enneagram-relationship-guide`
+- Communication styles → `/enneagram-corner/relationship-communication-guide`
+- Relationships → `/enneagram-corner/enneagram-types-in-relationships`
 - Wings → `/enneagram-corner/enneagram-wings-complete-guide`
 - Strengths/weaknesses → `/enneagram-corner/enneagram-strengths-and-weaknesses`
 
@@ -578,7 +584,7 @@ Pay special attention to:
 
 ### Step 7: Add Internal Links
 
-Follow the Internal Linking Rules from Part 1. Search for valid link targets and add 2-5 strategic links.
+Follow the Internal Linking Rules from Part 1. Search for valid link targets and add 3-6 strategic outbound links. If the post is being published now, also add 3 inbound links from other live posts (`pnpm gen:crosslinks -- --target <url>`) and confirm `pnpm crosslinks:check` passes.
 
 ### Step 8: Present to User
 

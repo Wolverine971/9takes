@@ -57,7 +57,7 @@ Enneagram compatibility research reveals a counterintuitive truth: **couples who
 The patterns are clear once you see them:
 
 - **Same-type pairings** create either profound understanding or explosive conflict. There's rarely a middle ground.
-- **Growth line connections** (your stress and security points) produce the most intense chemistry.
+- **Growth line connections** ([your stress and security points](/enneagram-corner/enneagram-connecting-lines)) produce the most intense chemistry.
 - **Opposing types** often carry the exact medicine each partner needs.
 - **"Perfect matches"** frequently enable each other's worst tendencies.
 
@@ -227,7 +227,7 @@ The Two supports the Three's ambitions with warmth and encouragement. The Three 
 
 The fracture: the Two starts feeling used for support without getting emotional depth back. The Three feels smothered by the Two's need for closeness.
 
-**What makes it work:** Scheduled quality time disconnected from achievements. The Three learns to be present. The Two learns that the Three's drive is not rejection.
+**What makes it work:** Scheduled [quality time](/enneagram-corner/love-languages-and-enneagram-types) disconnected from achievements. The Three learns to be present. The Two learns that the Three's drive is not rejection.
 
 #### 2 + 4: The Emotional Intensity
 
@@ -581,7 +581,7 @@ Find activities that honor both types. Develop shared rituals that meet both peo
 
 **3. Honor Different Needs**
 
-Respect different processing styles. Allow separate recharge methods. Negotiate social needs openly rather than assuming the other person should adapt.
+Respect different processing styles. Allow [separate recharge methods](/enneagram-corner/how-each-enneagram-type-unwinds). Negotiate social needs openly rather than assuming the other person should adapt.
 
 **4. Use Type Knowledge Wisely**
 
@@ -621,7 +621,7 @@ Reading about compatibility patterns is useful. But the real work happens when y
 
 **1. Identify Core Patterns**
 
-Start with the basics: both partners' types and instinctual variants. Map how each of you moves under stress and security. Note which center dominates for each person (Head, Heart, or Body).
+Start with the basics: both partners' types and [instinctual variants](/enneagram-corner/enneagram-instinctual-subtypes). Map how each of you moves under stress and security. Note which center dominates for each person (Head, Heart, or Body).
 
 **2. Map Connection Points**
 
@@ -659,7 +659,7 @@ No types should categorically avoid each other. While some pairings (like 1-7 or
 
 ### How important is Enneagram compatibility compared to other factors?
 
-Enneagram compatibility is one factor among many. Shared values, emotional maturity, communication skills, and commitment to growth matter more than type matching. Use the Enneagram as a tool for understanding, not a relationship rulebook.
+Enneagram compatibility is one factor among many. Shared values, emotional maturity, [communication skills](/enneagram-corner/relationship-communication-guide), and commitment to growth matter more than type matching. Use the Enneagram as a tool for understanding, not a relationship rulebook.
 
 ### Can Enneagram compatibility predict relationship success?
 

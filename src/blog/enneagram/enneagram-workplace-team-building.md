@@ -327,7 +327,7 @@ Their ability to rally teams through challenging periods with genuine optimism. 
 
 Freedom to explore ideas. Appreciation for their vision. Systems to help them follow through on their best concepts.
 
-**Team Leadership Tip:** Help Type 7s channel their energy by creating milestone celebrations that reward progress through longer projects.
+**Team Leadership Tip:** Help Type 7s channel their energy by creating milestone celebrations that reward progress through longer projects. If the celebration is a party, [plan it for all nine types](/enneagram-corner/enneagram-party-planner), not just the 7s.
 
 [More on Type 7s](/enneagram-corner/enneagram-type-7)
 

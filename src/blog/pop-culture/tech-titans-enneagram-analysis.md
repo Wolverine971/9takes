@@ -156,4 +156,5 @@ Understanding these types isn't gossip. It's the operating manual for how the fu
 - **Tech Wives and Partners**: Priscilla Chan (Zuckerberg), Lauren Sanchez (Bezos), Grimes (Musk). Do tech titans' relationship patterns reveal their type dynamics?
 - **The Loneliness of the Tech Titan**: Altman, Musk, and Zuckerberg all describe feeling misunderstood. Is that a function of power, personality type, or both?
 - **AI Alignment as a Personality Problem**: Safety strategies differ because the PEOPLE proposing them differ. A 4's safety is "the right person leads." A 5's safety is "deep understanding first." An 8's safety is "I need leverage."
+- **[Musk vs Altman in Court](/pop-culture/musk-vs-altman-trial-personality-dynamics)**: A Type 5 and a Type 4 fought over OpenAI's founding promise. The jury only decided that Musk waited too long to sue.
 - **The Missing Types**: Where are the 2s, 7s, and most 9s in tech leadership? Their absence shapes what gets built and, more importantly, what doesn't.

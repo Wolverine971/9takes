@@ -295,6 +295,7 @@ If a connecting-line description feels partly right but not exact, look at the b
 - **Meet the part you push away**: [Shadow Work by Enneagram Type](/enneagram-corner/shadow-work-by-enneagram-type) shows how rejected traits return under pressure.
 - **Build a type-specific practice**: [Enneagram Personal Growth](/enneagram-corner/enneagram-personal-growth) turns each type's growth path into concrete exercises.
 - **Decode your stress number**: [Your Dark Side Has a Number](/enneagram-corner/enneagram-stress-number) goes deeper into the patterns behind each type's worst moments.
+- **Track the pattern across situations**: [The Stress Paradox](/enneagram-corner/situations-change-emotions-dont) shows why your reactions stay the same when the job, city, or relationship changes.
 
 <svelte:head>
 

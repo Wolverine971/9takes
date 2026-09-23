@@ -36,7 +36,7 @@ In this guide, you'll decode your type's exact stress-relief blueprint—the act
 
 Most people are actively sabotaging their downtime without knowing it. They follow advice that works against their core emotional wiring.
 
-**The pattern**: Each Enneagram type has specific stress triggers AND specific restoration needs. Ignore these patterns and you'll feel more drained after "relaxing" than before.
+**The pattern**: Each Enneagram type has specific stress triggers AND specific restoration needs. Ignore these patterns and you'll feel more drained after "relaxing" than before. The same rule applies when you [plan a party for mixed types](/enneagram-corner/enneagram-party-planner): what energizes one guest drains another.
 
 **Small experiment**: Think about your last truly restorative experience. What made it different? Chances are, it accidentally aligned with your type's needs.
 
@@ -348,7 +348,7 @@ Reflect on what worked. Schedule it. What you don't schedule doesn't happen.
 Type 1s and Type 3s struggle most—they turn relaxation into another performance metric. Type 1s judge their leisure quality while Type 3s measure relaxation ROI. Both need to practice "purposeless pleasure."
 
 **Can I use another Enneagram type's relaxation method?**
-Yes, especially your integration point. Stressed Type 7s benefit from Type 5's stillness. Burned-out Type 2s need Type 8's boundaries. But start with your own type's methods for immediate relief.
+Yes, especially your integration point. Stressed Type 7s benefit from Type 5's stillness. Burned-out Type 2s need Type 4's honesty about their own needs. But start with your own type's methods for immediate relief.
 
 **How long before I see results from type-specific relaxation?**
 Most people notice immediate energy differences, but lasting change takes 2-3 weeks of consistent practice. The activities that feel most uncomfortable initially often produce the biggest breakthroughs.

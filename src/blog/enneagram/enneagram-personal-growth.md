@@ -222,6 +222,7 @@ If you want to turn one of the experiments above into a daily practice, the [90-
 
 - **Not sure of your type?** Start with the [Enneagram test](/enneagram-test), then come back to your section.
 - **Want the stress side in detail?** See [how each type behaves under stress](/enneagram-corner/enneagram-types-in-stress).
+- **Want the social payoff?** Read [personality maxing](/enneagram-corner/personality-maxing), which turns self-knowledge into how people experience you.
 - **Want to see nine perspectives on one question?** Browse [the questions](/questions) and answer one before you read the others.
 
 ## Frequently asked questions

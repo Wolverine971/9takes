@@ -70,7 +70,7 @@ I've watched friends' eyes glaze over as I explained wings, arrows, and instinct
 
 - "I discovered something about myself that was pretty eye-opening. Want to hear about it?"
 
-The second version makes them an equal participant. The first makes them your student. Nobody likes surprise homework.
+The second version makes them an equal participant. The first makes them your student. Nobody likes surprise homework. Even people who ask for it stall until the [homework fits their type](/enneagram-corner/enneagram-coach-toolkit).
 
 ## The Curse of Knowledge
 

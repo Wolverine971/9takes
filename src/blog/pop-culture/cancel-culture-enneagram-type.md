@@ -179,7 +179,7 @@ Type 8s get cancelled for saying exactly what they think and refusing to walk it
 
 Roseanne Barr lost her ABC show in a single day in 2018 after a racist tweet—and never apologized in a way the mob recognized. Joe Rogan has been targeted repeatedly since 2020 and remains the largest podcast on earth. Same type, opposite outcomes. The variable is leverage, not personality.
 
-**How they respond:** Double down. Refuse to apologize (apology = weakness). Often emerge with a smaller but more devoted audience that respects the refusal to bend.
+**How they respond:** Double down. [Refuse to apologize](/enneagram-corner/how-to-apologize-like-a-pro) (apology = weakness). Often emerge with a smaller but more devoted audience that respects the refusal to bend.
 
 ### Type 4: The Misunderstood Cancelled
 
@@ -213,7 +213,7 @@ Type 9s are the worst-equipped to weather it. Their instinct is to disappear and
 
 **Stage 2: The Call-Out.** The accusation goes public. Call-outs spread when they have moral clarity, a vivid victim, an identifiable villain, screenshottable evidence, and a high-reach account willing to amplify.
 
-**Stage 3: The Pile-On.** The mob arrives. By now the original framing has been remixed by every type adding their own anger. Type 1s want reform, Type 6s want banishment, Type 8s want destruction, Type 3s want to be on the right side of it.
+**Stage 3: The Pile-On.** The mob arrives. By now the original framing has been remixed by every type adding their own anger. Type 1s want reform, Type 6s want banishment, Type 8s want destruction, Type 3s want to be on the right side of it. Many latecomers simply adopt [the frame the first comments set](/community/memetic-comments).
 
 **Stage 4: The Response.** How the target responds determines the outcome.
 

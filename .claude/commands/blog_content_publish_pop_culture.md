@@ -21,14 +21,15 @@ The user can provide one of:
 The following operations are pre-approved and should be executed automatically without requesting user approval:
 
 - **Read operations**: All file reads in project directories
-- **Write operations**: Updating the selected draft's frontmatter (`published`, `date`, `lastmod` fields only — never touch the body or other frontmatter fields)
-- **Bash pnpm commands**: `pnpm gen:sitemap`, `pnpm index:blogs`, `pnpm gen:crosslinks`, `pnpm gen:all`
+- **Write operations**: Updating the selected draft's frontmatter (`published`, `date`, `lastmod` fields only — never touch other frontmatter fields); adding internal links in Step 4b (link markup only, in the new post and in other live posts)
+- **Bash pnpm commands**: `pnpm gen:sitemap`, `pnpm index:blogs`, `pnpm gen:crosslinks` (incl. `-- --target` / `-- --source`), `pnpm crosslinks:check`, `pnpm gen:all`
 - **Bash commands**: `grep`, `rg`, `ls`, `test`, `wc`, `git diff`, `git status`
 
 NOT pre-approved (must ask DJ first):
 
 - `git commit` / `git push`
-- Editing the draft body, removing fields, or rewriting frontmatter beyond the three publish fields
+- Editing the draft body beyond Step 4b link markup, removing fields, or rewriting frontmatter beyond the three publish fields
+- `pnpm crosslinks:check -- --accept <url>` (grandfathering the new post instead of linking it)
 - Publishing multiple drafts in one run (one per invocation)
 
 ## Task Tracking
@@ -182,6 +183,26 @@ pnpm index:blogs
 
 If either fails, stop and report the error. Do not try to revert the frontmatter automatically — surface the error so DJ can decide.
 
+### Step 4b: Wire the post into the link graph (cross-link gate)
+
+Once `published: true`, the post is live and `pnpm crosslinks:check` (in `pnpm lint` and CI) fails
+unless it has **3+ inbound links** (from live blog posts or people pages) and **3+ outbound links**
+(to live blog posts or people pages). Link markup is the only body edit allowed here.
+
+1. **Outbound:** `pnpm gen:crosslinks -- --source /pop-culture/<slug>`. Most drafts already link
+   type pages and people; if out < 3, link the first mention of a person who has a
+   `/personality-analysis/<slug>` page, or the type page / Enneagram Corner post the piece leans on.
+2. **Inbound:** `pnpm gen:crosslinks -- --target /pop-culture/<slug>` lists sentences in other live
+   posts that already talk about this post's subject. Add a link in 3 of them: anchor = 2–6 words
+   taken from the existing sentence, root-relative URL (`/pop-culture/<slug>`), meaning unchanged.
+   Prefer other posts in the same series or that link the same people. If the list is empty, add one
+   bridging sentence to the most related live pop-culture post and link from the people pages' blog
+   posts that discuss the same person.
+3. Never touch `lastmod` (or any frontmatter) in the posts you link from. Never edit
+   `src/blog/people/drafts/` here (those sync to the database).
+4. `pnpm crosslinks:check` must pass. If you cannot reach 3 inbound links, stop and tell DJ which
+   posts you tried; do not grandfather the post with `--accept`.
+
 ### Step 5: Verify
 
 Check the diff:
@@ -215,7 +236,7 @@ Blockers: none
 
 Suggested follow-up:
 - Distribution: does a packet exist in docs/distribution-assets/? If yes, name it. If no, /distribute may apply.
-- Internal links: pnpm gen:crosslinks (optional; included in pnpm gen:all)
+- Internal links: added in Step 4b (list them: source → anchor); pnpm crosslinks:check passes
 - Commit: not done. To commit, ask DJ — sample message below.
   publish(pop-culture): <slug>
 ```

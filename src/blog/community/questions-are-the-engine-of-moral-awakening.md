@@ -34,7 +34,7 @@ But the moment the story gets interesting — the moment something goes wrong �
 
 **"Where are you?"** (Genesis 3:9)
 
-Three words. The first question in the entire Bible. And they change everything about how you should think about questions, answers, and the platforms we've built to handle both.
+Three words. God's first question in the entire Bible. And they change everything about how you should think about questions, answers, and the platforms we've built to handle both.
 
 ## God Already Knew the Answer
 
@@ -174,7 +174,7 @@ Every time you encounter a question — online, in a relationship, at work — y
 
 The platforms we've built made deflection easy and genuine inquiry almost impossible. 9takes is built on the bet that if you change the architecture — if you force people to answer honestly before they see the crowd — you get more Abraham and less Cain.
 
-One question. [Nine personality types](/enneagram-corner/enneagram-tldr). Nine different ways of processing reality. Nine honest answers given before anyone could perform for an audience.
+One question. [Nine personality types](/enneagram-corner/enneagram-tldr). Nine [different ways of processing reality](/community/kantian-filters-and-nine-perspectives). Nine honest answers given before anyone could perform for an audience.
 
 The first question in the Bible wasn't looking for information. It was looking for honesty. That's still the hard part.
 

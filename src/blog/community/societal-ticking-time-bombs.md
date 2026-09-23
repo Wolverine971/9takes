@@ -298,7 +298,7 @@ This one hits different because it targets a specific demographic and it exploit
 
 In 2018, the Supreme Court struck down the federal ban on sports betting. Before that, Americans legally wagered less than $5 billion a year on sports. In 2025? An estimated [$157 billion](https://www.sportsbookreview.com/news/us-betting-revenue-tracker/), with some projections even higher. That's a 3,000% increase in seven years. 90% of bets are placed on phones. The casino is in your pocket.
 
-Saagar Enjeti from Breaking Points has been on his soapbox about this and I agree with him completely. He's described it on the show as a [predatory industry](https://www.aaronrenn.com/p/sports-gambling-apps-saagar-enjeti) and compared it to the opioid crisis. And he makes a point that should make everyone's blood boil: **cigarette companies are not allowed to partner with sports leagues, but gambling platforms are.**
+[Saagar Enjeti from Breaking Points](/pop-culture/breaking-points-enneagram-analysis) has been on his soapbox about this and I agree with him completely. He's described it on the show as a [predatory industry](https://www.aaronrenn.com/p/sports-gambling-apps-saagar-enjeti) and compared it to the opioid crisis. And he makes a point that should make everyone's blood boil: **cigarette companies are not allowed to partner with sports leagues, but gambling platforms are.**
 
 ESPN launched ESPN Bet. Barstool Sports exists basically as a gambling funnel. CNN partnered with prediction markets. Every sports broadcast integrates betting odds. A [Ringer staffer told Nieman Lab](https://www.niemanlab.org/2026/02/sports-betting-reshaped-newsrooms-and-its-a-little-gross-now-here-come-the-prediction-markets/) it's "actively bankrupting some people on a regular basis" while acknowledging that gambling money "pays all our paychecks."
 
@@ -310,7 +310,7 @@ Sports betting is different from slots or roulette. It has a **skill narrative**
 
 Psychologists call this the ["illusion of control"](https://pmc.ncbi.nlm.nih.gov/articles/PMC9292938/) -- and the research shows that **knowledge actually amplifies the illusion rather than protecting against it.** The more you know about sports, the more confident you become in your bets, even though the house edge hasn't changed at all.
 
-For young men specifically, this hooks into something deep. [Research on young male sports bettors](https://pmc.ncbi.nlm.nih.gov/articles/PMC9059698/) finds that betting is bound up with masculinity, identity, and proving yourself. It's a way to demonstrate knowledge, analytical skill, and risk tolerance -- all things that our culture tells men they should have. The betting slip becomes a **proxy for achievement when traditional pathways feel blocked.**
+For young men specifically, this hooks into something deep. [Research on young male sports bettors](https://pmc.ncbi.nlm.nih.gov/articles/PMC9059698/) finds that betting is bound up with [masculinity, identity, and proving yourself](/pop-culture/masculinity-strength-and-the-enneagram). It's a way to demonstrate knowledge, analytical skill, and risk tolerance -- all things that our culture tells men they should have. The betting slip becomes a **proxy for achievement when traditional pathways feel blocked.**
 
 #### When Traditional Pathways Feel Blocked
 

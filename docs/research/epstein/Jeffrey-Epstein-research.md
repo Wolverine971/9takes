@@ -1,4 +1,4 @@
-<!-- src/blog/pop-culture/epstien-research/Jeffrey-Epstein-research.md -->
+<!-- docs/research/epstein/Jeffrey-Epstein-research.md -->
 
 # Jeffrey Epstein - Research Document
 

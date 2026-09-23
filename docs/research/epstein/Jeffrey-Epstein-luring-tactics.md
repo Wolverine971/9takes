@@ -1,4 +1,4 @@
-<!-- src/blog/pop-culture/epstien-research/Jeffrey-Epstein-luring-tactics.md -->
+<!-- docs/research/epstein/Jeffrey-Epstein-luring-tactics.md -->
 <!-- Merged into src/blog/pop-culture/epstein-web-of-manipulation.md on 2026-02-03 -->
 
 # Notes: How Jeffrey Epstein Lured People In

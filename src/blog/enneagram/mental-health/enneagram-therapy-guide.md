@@ -88,7 +88,7 @@ _Your therapist is the best person to recommend a specific modality for your sit
 
 **ACT (Acceptance and Commitment Therapy):** Stop fighting reality. ACT teaches you that perfection is the enemy of progress. You learn to act on values, not rules.
 
-**Compassion-Focused Therapy:** Your inner critic is a tyrant. CFT teaches you to talk to yourself like you would talk to someone you actually like.
+**Compassion-Focused Therapy:** Your inner critic is a tyrant. CFT teaches you to [talk to yourself](/enneagram-corner/enneagram-positive-self-talk) like you would talk to someone you actually like.
 
 **Somatic Work:** Your jaw is clenched. Your shoulders are armor. You do not even know it. Body work releases what perfectionism has locked down.
 

@@ -1,0 +1,145 @@
+{
+	"_about": "Curated phrases that mean a sentence is about the target page. Used by scripts/lib/crosslinkOpportunities.js on top of terms it mines from Search Console queries and person display names. Phrases with a capital letter match case-sensitively. Add a target when the queue misses obvious mentions; remove phrases that keep producing bad suggestions.",
+	"/enneagram-corner/astrology-and-the-enneagram": [
+		"astrology",
+		"astrological",
+		"zodiac",
+		"zodiac sign",
+		"zodiac signs",
+		"horoscope",
+		"horoscopes",
+		"star sign",
+		"birth chart"
+	],
+	"/enneagram-corner/depression-patterns-by-enneagram-type": [
+		"depression",
+		"depressed",
+		"depressive",
+		"depressive episode",
+		"depressive episodes"
+	],
+	"/enneagram-corner/enneagram-types-and-career-choices": [
+		"career choice",
+		"career choices",
+		"career path",
+		"career paths",
+		"wrong career",
+		"hate your job",
+		"hate their job",
+		"job satisfaction"
+	],
+	"/enneagram-corner/toxic-traits-relationships-warning-signs": [
+		"toxic relationship",
+		"toxic relationships",
+		"toxic partner",
+		"relationship red flags",
+		"warning signs in a relationship"
+	],
+	"/enneagram-corner/how-to-apologize-like-a-pro": [
+		"apology",
+		"apologies",
+		"apologize",
+		"apologizing",
+		"apologized",
+		"say sorry",
+		"saying sorry"
+	],
+	"/pop-culture/tech-titans-ai-wars": [
+		"OpenAI",
+		"AI race",
+		"AI arms race",
+		"AI wars",
+		"frontier AI",
+		"frontier model",
+		"frontier models"
+	],
+	"/enneagram-corner/enneagram-vs-personality-frameworks-comparison": [
+		"Big Five",
+		"DISC",
+		"StrengthsFinder",
+		"CliftonStrengths",
+		"16Personalities",
+		"personality framework",
+		"personality frameworks",
+		"personality systems"
+	],
+	"/community/fear-triad-intellectual-fortress-or-prison": [
+		"head center",
+		"head triad",
+		"fear triad",
+		"thinking center",
+		"head types"
+	],
+	"/pop-culture/trump-type-8-vs-biden-type-2": [
+		"Trump and Biden",
+		"Biden and Trump",
+		"Trump vs. Biden",
+		"Trump versus Biden",
+		"2020 election",
+		"2024 election",
+		"presidential debate"
+	],
+	"/pop-culture/kardashian-family-enneagram-analysis": [
+		"Kardashians",
+		"Kardashian family",
+		"Kardashian-Jenner",
+		"Kardashian empire",
+		"Keeping Up with the Kardashians"
+	],
+	"/enneagram-corner/mental-health/enneagram-neurodivergence-guide": [
+		"neurodivergent",
+		"neurodivergence",
+		"autism",
+		"autistic"
+	],
+	"/enneagram-corner/enneagram-compatibility-matrix": [
+		"compatibility",
+		"most compatible",
+		"compatible types",
+		"type pairings",
+		"type pairing"
+	],
+	"/enneagram-corner/attachment-styles-and-enneagram-types": [
+		"attachment style",
+		"attachment styles",
+		"anxious attachment",
+		"avoidant attachment",
+		"secure attachment"
+	],
+	"/enneagram-corner/enneagram-instinctual-subtypes": [
+		"instinctual subtype",
+		"instinctual subtypes",
+		"instinctual variant",
+		"instinctual variants",
+		"self-preservation",
+		"social subtype",
+		"sexual subtype",
+		"one-to-one subtype"
+	],
+	"/enneagram-corner/love-languages-and-enneagram-types": [
+		"love language",
+		"love languages",
+		"words of affirmation",
+		"quality time",
+		"acts of service"
+	],
+	"/enneagram-corner/mental-health/enneagram-science-mental-health": [
+		"scientifically valid",
+		"scientific validity",
+		"test-retest",
+		"peer-reviewed research",
+		"psychometric"
+	],
+	"/pop-culture/incel-blackpill-radicalization-enneagram": [
+		"incel",
+		"incels",
+		"blackpill",
+		"manosphere",
+		"red pill"
+	],
+	"/pop-culture/masculinity-strength-and-the-enneagram": [
+		"masculinity",
+		"toxic masculinity",
+		"emotional maturity"
+	]
+}

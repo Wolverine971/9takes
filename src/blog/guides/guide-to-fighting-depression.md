@@ -178,7 +178,7 @@ Depression follows predictable patterns shaped by your personality — and the s
 
   <p>Depression doesn't come from personality alone. Job loss, grief, health crises, loneliness, financial stress — these hit everyone. But your personality shapes how you <em>respond</em> to those circumstances, which coping strategies backfire, and where you get trapped. That's the part most advice ignores.</p>
 
-  <p>Depression follows predictable emotional patterns shaped by your personality. Once you see your pattern, you can interrupt it. Not with generic advice, but with interventions designed for exactly how <em>you</em> get stuck.</p>
+  <p><a href="/enneagram-corner/depression-patterns-by-enneagram-type">Depression follows predictable emotional patterns</a> shaped by your personality. Once you see your pattern, you can interrupt it. Not with generic advice, but with interventions designed for exactly how <em>you</em> get stuck.</p>
 
   <div class="pattern-flow">
     <h3>The Universal Pattern</h3>
@@ -671,7 +671,7 @@ Depression follows predictable patterns shaped by your personality — and the s
 
 <div class="body-section">
   <h2>Your Body Knows First</h2>
-  <p>Everything above is cognitive — reframing thoughts, changing self-talk. But depression often lives below the level of thoughts, in your nervous system. Your body noticed the depression before your mind had words for it.</p>
+  <p>Everything above is cognitive — reframing thoughts, changing self-talk. But depression often lives below the level of thoughts, in your nervous system. Your body noticed the depression <a href="/how-to-guides/the-crash-course-on-emotions-that-we-missed-in-kindergarten">before your mind had words for it</a>.</p>
 
   <div class="body-grid">
     <div class="body-item">

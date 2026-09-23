@@ -49,7 +49,7 @@ By the time states came around my senior year, I wasn't strong. I was weak. Weak
 
 When I joined the Marines, that was literally the motto. And I thought: _Hell yeah, I'll fit right in._
 
-Fast forward to being a newlywed, arguing with my wife. Same mindset: just be tough. When I saw her crying during a fight, my brain ran its pattern recognition: _She's crying. She's weak. Weak means wrong. Therefore I'm right._
+Fast forward to being a newlywed, [arguing with my wife](/community/inspiration-for-9takes). Same mindset: just be tough. When I saw her crying during a fight, my brain ran its pattern recognition: _She's crying. She's weak. Weak means wrong. Therefore I'm right._
 
 Me strong, her weak.
 
@@ -311,7 +311,7 @@ A person's level of development within their type – not the type itself – de
 - At average levels, patterns are more flexible but still largely automatic
 - At healthy levels, type gifts emerge while fixations relax
 
-This understanding transforms the Enneagram from a static typing system into a dynamic roadmap for growth.
+This understanding transforms the Enneagram from a static typing system into a dynamic roadmap for growth. Riso and Hudson map all nine levels in _The Wisdom of the Enneagram_, the depth pick in our [guide to Enneagram books and podcasts](/enneagram-corner/enneagram-books-websites-podcasts).
 
 ## How the Enneagram Integrates With Modern Therapy
 
