@@ -158,7 +158,7 @@ export async function buildQuestionCategoryIntroContext(
 	const activeQuestionIds = new Set(activeQuestionList.map((question) => question.id));
 	const tree = buildVisibleQuestionCategoryTree(
 		categoriesList as QuestionCategoryRow[],
-		((categoryTags ?? []) as QuestionCategoryTagRow[]) ?? [],
+		(categoryTags ?? []) as QuestionCategoryTagRow[],
 		activeQuestionIds
 	);
 	const treeNode = findQuestionCategoryNodeById(tree, categoryId);

@@ -4,7 +4,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { svelteTesting } from '@testing-library/svelte/vite';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { createLogger } from 'vite';
+import { createLogger, type ConfigEnv } from 'vite';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const scssMixinsPath = path.resolve(__dirname, 'src/scss/_mixins.scss').replace(/\\/g, '/');
@@ -45,8 +45,7 @@ logger.warn = (msg, options) => {
 	originalWarn(msg, options);
 };
 
-/** @type {import('vite').UserConfig} */
-const config = {
+const config = ({ command }: ConfigEnv) => ({
 	customLogger: logger,
 	plugins: [enhancedImages(), sveltekit(), svelteTesting()],
 	resolve: {
@@ -54,8 +53,10 @@ const config = {
 	},
 	ssr: {
 		// Vercel's runtime cannot require htmlparser2's ESM entry from sanitize-html.
-		// Bundle the CommonJS caller so Rollup converts that require to an ESM import.
-		noExternal: ['sanitize-html']
+		// Bundle the CommonJS caller so Rolldown converts that require to an ESM import.
+		// Build-only: the dev SSR runner can't evaluate CommonJS, so inlining it there
+		// throws `require is not defined` on every page that sanitizes HTML.
+		noExternal: command === 'build' ? ['sanitize-html'] : []
 	},
 
 	define: {
@@ -84,6 +85,6 @@ const config = {
 			}
 		}
 	}
-};
+});
 
 export default config;

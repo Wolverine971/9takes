@@ -29,7 +29,7 @@ overrides:
   minimatch@9.0.5: 9.0.7
   minimatch@10.1.1: 10.2.5
   picomatch@2.3.1: 2.3.2
-  picomatch@4.0.3: 4.0.5
+  'picomatch@4': 4.0.7
   postcss: 8.5.26
   'qs@6': 6.16.0
   rollup@4.55.1: 4.59.0
@@ -47,4 +47,4 @@ overrides:
   'fflate@0.4': 0.4.9
 peerDependencyRules:
   allowedVersions:
-    '@tailwindcss/typography@0.5.20>tailwindcss': 3.4.17
+    '@tailwindcss/typography>tailwindcss': '3'

@@ -1,6 +1,8 @@
 <!-- src/routes/design-preview/harry-dry-v2/ConversationScenes.svelte -->
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import type { Attachment } from 'svelte/attachments';
+	import { on } from 'svelte/events';
 	import { prefersReducedMotion } from 'svelte/motion';
 
 	const scenes = [
@@ -78,6 +80,20 @@
 		}
 	}
 
+	// Listen from the client: SSR turns onload/onerror attributes into an inline
+	// `this.__e=event` handler, which the CSP's script-src-attr 'none' blocks.
+	// onMount already catches images that finished loading before hydration.
+	function listenForLoad(index: number): Attachment<HTMLImageElement> {
+		return (image) => {
+			const stopLoad = on(image, 'load', () => imageLoaded(index));
+			const stopError = on(image, 'error', () => imageFailed(index));
+			return () => {
+				stopLoad();
+				stopError();
+			};
+		};
+	}
+
 	function imageFailed(index: number) {
 		failed[index] = true;
 		if (index === active) {
@@ -103,8 +119,7 @@
 				alt={`Cel-shaded illustration: ${scene.alt}`}
 				class:active={active === index}
 				aria-hidden={active !== index}
-				onload={() => imageLoaded(index)}
-				onerror={() => imageFailed(index)}
+				{@attach listenForLoad(index)}
 			/>
 		{/each}
 	</div>

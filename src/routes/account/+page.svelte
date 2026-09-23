@@ -1,6 +1,7 @@
 <!-- src/routes/account/+page.svelte -->
 <script lang="ts">
 	import { tick, untrack } from 'svelte';
+	import { on } from 'svelte/events';
 	import {
 		Settings,
 		ArrowRight,
@@ -1004,7 +1005,9 @@
 												loading="lazy"
 												width="320"
 												height="400"
-												onerror={() => (failedPortraits[person.slug] = true)}
+												{@attach (image) =>
+													// Not onerror={...}: its SSR'd inline handler is blocked by the CSP.
+													on(image, 'error', () => (failedPortraits[person.slug] = true))}
 											/>{:else}<span class="portrait-fallback" aria-hidden="true"
 												>{person.name
 													.split(' ')
