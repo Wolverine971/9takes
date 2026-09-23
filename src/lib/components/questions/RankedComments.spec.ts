@@ -1,6 +1,7 @@
 // @vitest-environment jsdom
 import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/svelte';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import { createRawSnippet } from 'svelte';
 import type { Comment, QuestionPageData } from '$lib/types/questions';
 
 vi.mock('svelte/transition', () => ({
@@ -204,9 +205,12 @@ describe('the question take list', () => {
 		});
 		const view = render(QuestionContent, { data: optimistic, user: null });
 		expect(ids(view.container)).toEqual([]);
-		expect(
-			within(view.getByRole('region', { name: 'Your take' })).getByText(own.comment)
-		).toBeTruthy();
+		const ownRegion = view.getByRole('region', { name: 'Your take' });
+		expect(within(ownRegion).getByText(own.comment)).toBeTruthy();
+		// While the server confirms, placeholders hold the room: never a false empty state.
+		expect(view.container.querySelectorAll('.take-skeleton')).toHaveLength(3);
+		expect(view.queryByText(/No other takes/)).toBeNull();
+		expect(view.getByText('Loading the other takes…')).toBeTruthy();
 
 		const community = Array.from({ length: 12 }, (_, i) => take(12 - i));
 		const unlocked = page([own, ...community], {
@@ -219,9 +223,11 @@ describe('the question take list', () => {
 		const firstScreen = Array.from({ length: 10 }, (_, i) => i + 1);
 		expect(ids(view.container)).toEqual(firstScreen);
 		expect(ids(view.container)).not.toContain(own.id);
-		expect(
-			within(view.getByRole('region', { name: 'Your take' })).getByText(own.comment)
-		).toBeTruthy();
+		// Replaced in place: "Your take" is the same node, not a remount flash.
+		expect(view.getByRole('region', { name: 'Your take' })).toBe(ownRegion);
+		expect(view.container.querySelectorAll('.take-skeleton')).toHaveLength(0);
+		expect(view.container.querySelector('.ranked-comments.is-revealing')).not.toBeNull();
+		expect(view.getByText('12 other takes revealed.')).toBeTruthy();
 
 		// These new counts would rotate take 1 behind the rest on a fresh visit.
 		const refreshed = {
@@ -234,6 +240,53 @@ describe('the question take list', () => {
 		expect(ids(view.container)).toEqual(firstScreen);
 		expect(ids(view.container)).not.toContain(own.id);
 		expect(fetch).not.toHaveBeenCalled();
+	});
+
+	it('says you are first instead of implying filters hid everyone', () => {
+		const own = take(50, { is_own: true });
+		const view = render(RankedComments, {
+			data: page([own], { ownComments: [own] }),
+			user: { id: 'viewer' }
+		});
+		expect(
+			view.getByText("You're first. Other takes will land here as people answer.")
+		).toBeTruthy();
+		expect(view.queryByText(/match these filters/)).toBeNull();
+	});
+
+	it('places the interstitial after the first three takes and keeps it mounted through a sort', async () => {
+		const takes = Array.from({ length: 8 }, (_, i) => take(8 - i));
+		const interstitial = createRawSnippet(() => ({
+			render: () => '<aside class="invite-probe">Ask one person</aside>'
+		}));
+		const view = render(RankedComments, {
+			data: page(takes),
+			user: { id: 'viewer' },
+			interstitial
+		});
+		const probe = view.container.querySelector('.invite-probe') as HTMLElement;
+		const precedingIds = () =>
+			[...view.container.querySelectorAll('[data-take-id], .invite-probe')]
+				.map((node) => node.getAttribute('data-take-id') ?? 'invite')
+				.indexOf('invite');
+		expect(precedingIds()).toBe(3);
+		await chooseSort(view, 'Oldest');
+		expect(view.container.querySelector('.invite-probe')).toBe(probe);
+		expect(precedingIds()).toBe(3);
+	});
+
+	it('offers a retry when the reveal could not be confirmed', async () => {
+		const own = take(50, { is_own: true });
+		const onretryReveal = vi.fn();
+		const view = render(RankedComments, {
+			data: page([own], { commentsReady: false, ownComments: [own] }),
+			user: { id: 'viewer' },
+			revealFailed: true,
+			onretryReveal
+		});
+		expect(view.getByRole('alert').textContent).toContain("the other takes didn't load");
+		await fireEvent.click(view.getByRole('button', { name: 'Try again' }));
+		expect(onretryReveal).toHaveBeenCalledOnce();
 	});
 
 	it('never renders the human list before the give-first gate unlocks', () => {

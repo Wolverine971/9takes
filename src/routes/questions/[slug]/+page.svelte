@@ -14,13 +14,17 @@
   globally in src/scss/index.scss.
 -->
 <script lang="ts">
+	import { tick } from 'svelte';
 	import { afterNavigate, beforeNavigate, invalidateAll } from '$app/navigation';
 	import { deserialize } from '$app/forms';
 	import { page } from '$app/state';
 	import QuestionDisplay from '$lib/components/questions/QuestionDisplay.svelte';
-	import Interact from '$lib/components/molecules/Interact.svelte';
+	import Interact, { COMPOSER_COLLAPSE_MS } from '$lib/components/molecules/Interact.svelte';
 	import QuestionContent from '$lib/components/questions/QuestionContent.svelte';
 	import QuestionInviteCard from '$lib/components/questions/QuestionInviteCard.svelte';
+	import ReplyOptInTray, {
+		type ReplyOptInOffer
+	} from '$lib/components/questions/ReplyOptInTray.svelte';
 	import SEOHead from '$lib/components/SEOHead.svelte';
 	import Breadcrumbs from '$lib/components/blog/Breadcrumbs.svelte';
 	import { Button, SectionKicker } from '$lib/components/atoms';
@@ -65,6 +69,9 @@
 	// optimistic flag) so the line stays put while the reveal loads.
 	let justAnswered = $state(false);
 	let replyOptInState = $state<'hidden' | 'shown' | 'dismissed' | 'subscribed'>('hidden');
+	let replyOptInOffer = $state<ReplyOptInOffer | null>(null);
+	// Set when the post-answer reload came back without the unlocked room.
+	let revealFailed = $state(false);
 	let inviteCardVisible = $state(false);
 	let inviteSource = $state<QuestionInviteSource>('question-answer');
 	let recipientInviteId = $state<string | null>(null);
@@ -479,12 +486,62 @@
 			optimisticUserHasAnswered = true;
 			justAnswered = true;
 			showQuestionInvite('question-answer');
+			void loadRevealedTakes();
+			void moveToReveal();
 		}
+	}
 
-		// Invalidate for first-time commenters to refresh permissions and load all comments
-		if (isFirstComment) {
-			invalidateAll();
+	// The reveal choreography after a first answer:
+	//   1. the gate opens at once: your take + placeholder cards (optimistic)
+	//   2. the composer collapses (COMPOSER_COLLAPSE_MS)
+	//   3. the page glides to "What people actually said"
+	//   4. the server's takes replace the placeholders and come into focus
+	// The reload in (4) starts immediately, so it overlaps steps 2-3.
+	async function loadRevealedTakes() {
+		revealFailed = false;
+		try {
+			await invalidateAll();
+		} catch {
+			// Fall through: the unconfirmed state below renders the retry.
 		}
+		revealFailed = !data.flags?.userHasAnswered;
+	}
+
+	// The glide lands on the first of these boundaries that still leaves the
+	// start of the room (the other takes) on screen, so it never stops with the
+	// payoff below the fold or with a card sliced in half.
+	const REVEAL_ANCHORS = ['#takes-discussion', '.own-takes', '.after-own-takes'];
+	const REVEAL_ROOM_VISIBLE_PX = 120;
+	const REVEAL_TOP_GAP_PX = 20;
+
+	async function moveToReveal() {
+		await tick();
+		const heading = document.getElementById('takes-discussion');
+		if (!heading) return;
+		// Moving focus off the textarea also closes the mobile keyboard, which
+		// would otherwise resize the viewport mid-scroll.
+		heading.focus({ preventScroll: true });
+		const reduceMotion =
+			typeof window.matchMedia === 'function' &&
+			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		setTimeout(
+			() => {
+				const pageTop = (el: Element) => el.getBoundingClientRect().top + window.scrollY;
+				const room = document.querySelector('.ranked-comments');
+				const latest = room
+					? pageTop(room) + REVEAL_ROOM_VISIBLE_PX - window.innerHeight
+					: Number.POSITIVE_INFINITY;
+				const anchors = REVEAL_ANCHORS.flatMap((selector) => {
+					const el = document.querySelector(selector);
+					return el ? [pageTop(el) - REVEAL_TOP_GAP_PX] : [];
+				});
+				const top = anchors.find((anchor) => anchor >= latest) ?? latest;
+				// Only ever move toward the room, and skip nudges too small to read as intent.
+				if (!Number.isFinite(top) || top - window.scrollY < 24) return;
+				window.scrollTo({ top, behavior: reduceMotion ? 'auto' : 'smooth' });
+			},
+			reduceMotion ? 0 : COMPOSER_COLLAPSE_MS + 20
+		);
 	}
 
 	function showQuestionInvite(source: QuestionInviteSource) {
@@ -496,7 +553,24 @@
 	beforeNavigate(() => {
 		inviteCardVisible = false;
 		recipientInviteId = null;
+		// Post-answer state belongs to this question only.
+		justAnswered = false;
+		replyOptInOffer = null;
+		replyOptInState = 'hidden';
+		revealFailed = false;
 	});
+
+	function receiveReplyOptIn(offer: ReplyOptInOffer) {
+		replyOptInOffer = offer;
+		replyOptInState = 'shown';
+	}
+
+	// Everything that follows your first answer lives in the thread, under your
+	// own take, instead of stacking above it and pushing the reveal off screen.
+	let showAnswerHandoff = $derived(
+		justAnswered &&
+			(Boolean(hostPromiseCopy) || (replyOptInOffer !== null && replyOptInState !== 'dismissed'))
+	);
 
 	afterNavigate(() => {
 		recipientInviteId = getRecipientQuestionInviteId(window.location.href);
@@ -840,12 +914,9 @@
 					parentType="question"
 					isDemo={data.demo_time === true}
 					oncommentAdded={addComment}
-					onreplyOptInChange={(state) => (replyOptInState = state)}
+					onreplyOptIn={receiveReplyOptIn}
 					user={data?.user}
 				/>
-				{#if justAnswered && hostPromiseCopy}
-					<p class="host-promise" role="status">{hostPromiseCopy}</p>
-				{/if}
 			</div>
 
 			<div class="open-case-coords mono">
@@ -864,7 +935,7 @@
 				</aside>
 			{/if}
 
-			{#if inviteCardVisible}
+			{#snippet inviteCard()}
 				<QuestionInviteCard
 					questionId={data.question.id}
 					questionUrl={data.question.url}
@@ -872,6 +943,27 @@
 					source={inviteSource}
 					onclose={() => (inviteCardVisible = false)}
 				/>
+			{/snippet}
+
+			{#snippet answerHandoff()}
+				<div class="answer-handoff">
+					{#if replyOptInOffer && replyOptInState !== 'dismissed'}
+						<!-- The host promise rides inside the tray as its lead sentence. -->
+						<ReplyOptInTray
+							offer={replyOptInOffer}
+							lead={hostPromiseCopy ? 'DJ reads every take and replies.' : ''}
+							onstatechange={(state) => (replyOptInState = state)}
+						/>
+					{:else if hostPromiseCopy}
+						<p class="host-promise">{hostPromiseCopy}</p>
+					{/if}
+				</div>
+			{/snippet}
+
+			<!-- Unlocked, the invite waits inside the thread until a few takes have
+			     landed; it only renders up here for a visitor who is still locked. -->
+			{#if inviteCardVisible && !commentsUnlocked}
+				{@render inviteCard()}
 			{/if}
 
 			{#if dataForChild}
@@ -882,6 +974,10 @@
 						nextStarter={data.nextStarter ?? null}
 						replyFocus={data.replyFocus ?? null}
 						oncommentAdded={() => addComment()}
+						afterOwnTakes={showAnswerHandoff ? answerHandoff : undefined}
+						interstitial={inviteCardVisible && commentsUnlocked ? inviteCard : undefined}
+						{revealFailed}
+						onretryReveal={() => void loadRevealedTakes()}
 					/>
 				</div>
 			{/if}
@@ -1168,9 +1264,15 @@
 		margin: 4px 0 4px;
 	}
 
-	/* Host promise: one quiet line under the composer after a take is posted. */
+	.answer-handoff {
+		display: grid;
+		gap: 12px;
+		min-width: 0;
+	}
+
+	/* Host promise: one quiet line under your take after it is posted. */
 	.host-promise {
-		margin: 10px 0 0;
+		margin: 0;
 		padding-left: 14px;
 		border-left: 2px solid var(--lamp-glow);
 		color: var(--ink-mid);

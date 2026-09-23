@@ -1,8 +1,15 @@
 <!-- src/lib/components/molecules/Interact.svelte -->
+<script lang="ts" module>
+	/** Composer collapse after a first answer; the page waits this long before
+	 * scrolling to the reveal so the scroll target has stopped moving. */
+	export const COMPOSER_COLLAPSE_MS = 220;
+</script>
+
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { deserialize } from '$app/forms';
 	import { slide } from 'svelte/transition';
+	import { cubicOut } from 'svelte/easing';
 	import { notifications } from '$lib/components/molecules/notifications';
 	import BellIcon from '$lib/components/icons/bellIcon.svelte';
 	import MasterCommentIcon from '$lib/components/icons/masterCommentIcon.svelte';
@@ -24,16 +31,7 @@
 	} from '$lib/analytics/commentEvents';
 	import { capture } from '$lib/analytics/posthog';
 	import { extractPageViewAttribution } from '$lib/analytics/attribution';
-	import {
-		captureReplyOptInDismissed,
-		captureReplyOptInFailed,
-		captureReplyOptInFocused,
-		captureReplyOptInShown,
-		captureReplyOptInSubmitted,
-		captureReplyOptInSucceeded,
-		type ReplyOptInContext,
-		type ReplyOptInFailureCategory
-	} from '$lib/analytics/replyOptInEvents';
+	import type { ReplyOptInOffer } from '$lib/components/questions/ReplyOptInTray.svelte';
 	import {
 		getRecipientQuestionInviteId,
 		recordQuestionInviteCreated,
@@ -50,8 +48,9 @@
 		questionId: number;
 		isDemo?: boolean;
 		oncommentAdded?: (comment: CommentType) => void;
-		/** Lets the page mirror the anonymous reply-email tray state (host promise copy). */
-		onreplyOptInChange?: (state: 'shown' | 'dismissed' | 'subscribed') => void;
+		/** An eligible anonymous first answer earns the optional reply-email tray,
+		 * which the page renders in the thread under the visitor's own take. */
+		onreplyOptIn?: (offer: ReplyOptInOffer) => void;
 	}
 
 	let {
@@ -61,7 +60,7 @@
 		questionId,
 		isDemo = false,
 		oncommentAdded,
-		onreplyOptInChange
+		onreplyOptIn
 	}: Props = $props();
 
 	// Type guard to check if data is QuestionPageData
@@ -92,13 +91,6 @@
 	let voiceBusy = $state(false);
 	let textareaElement = $state<HTMLTextAreaElement | null>(null);
 	let voiceInsertionRange = { start: 0, end: 0 };
-	let replyOptInContext = $state<ReplyOptInContext | null>(null);
-	let replyOptInFingerprint = '';
-	let replyEmail = $state('');
-	let replyOptInLoading = $state(false);
-	let replyOptInSucceeded = $state(false);
-	let replyOptInMessage = $state('');
-	let replyOptInFocusedTracked = false;
 	let composerId = $derived(
 		parentType === 'question'
 			? `question-${questionId}`
@@ -108,11 +100,11 @@
 	let nudgeId = $derived(`comment-composer-nudge-${composerId}`);
 	let errorId = $derived(`comment-composer-error-${composerId}`);
 	let commentButtonId = $derived(`comment-button-${composerId}`);
+	let composerSurfaceId = $derived(`comment-composer-${composerId}`);
 
 	const SHORT_ANSWER_THRESHOLD = 100;
 	const TEXTAREA_MAX_HEIGHT_PX = 320;
 	const REPLY_OPT_IN_DISMISSED_KEY = '9t-reply-opt-in-dismissed';
-	const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 	const depthPrompts = [
 		'What personal experience shaped your view on this?',
@@ -161,13 +153,6 @@
 		confirmShortSubmit = false;
 		commenting = parentType === 'question' && !userHasAnswered;
 		shareLoading = false;
-		replyOptInContext = null;
-		replyOptInFingerprint = '';
-		replyEmail = '';
-		replyOptInLoading = false;
-		replyOptInSucceeded = false;
-		replyOptInMessage = '';
-		replyOptInFocusedTracked = false;
 	});
 	let composerKindTitle = $derived(
 		`${composerKind.charAt(0).toUpperCase()}${composerKind.slice(1)}`
@@ -371,7 +356,11 @@
 			commentError = '';
 			const submittedKind = composerKind;
 			const wasAnonymousQuestionCommenter = isAnonymousQuestionCommenter();
-			notifications.success(`${composerKindTitle} posted`, 3000);
+			// A first answer's confirmation is the reveal itself (the page moves to
+			// the unlocked thread), so only later comments get a toast.
+			if (submittedKind !== 'answer') {
+				notifications.success(`${composerKindTitle} posted`, 3000);
+			}
 			if (wasAnonymousQuestionCommenter) {
 				anonymousComment = true;
 			}
@@ -429,14 +418,6 @@
 		}
 	}
 
-	function rememberReplyOptInDismissal() {
-		try {
-			sessionStorage.setItem(REPLY_OPT_IN_DISMISSED_KEY, '1');
-		} catch {
-			// The current component state still prevents the tray from reappearing.
-		}
-	}
-
 	function maybeShowReplyOptIn(input: {
 		commentData: any;
 		serverAnalytics: { isFirstCommentEver?: boolean };
@@ -458,101 +439,16 @@
 			return;
 		}
 
-		replyOptInFingerprint = getCommentFingerprint();
-		replyOptInContext = {
-			questionId,
-			questionUrl,
-			commentId,
-			surface: 'question_page',
-			isFirstCommentEver: true
-		};
-		replyEmail = '';
-		replyOptInMessage = '';
-		replyOptInSucceeded = false;
-		replyOptInFocusedTracked = false;
-		void captureReplyOptInShown(replyOptInContext);
-		onreplyOptInChange?.('shown');
-	}
-
-	function focusReplyOptIn() {
-		if (!replyOptInContext || replyOptInFocusedTracked) return;
-		replyOptInFocusedTracked = true;
-		void captureReplyOptInFocused(replyOptInContext);
-	}
-
-	function dismissReplyOptIn() {
-		if (!replyOptInContext) return;
-		void captureReplyOptInDismissed(replyOptInContext);
-		rememberReplyOptInDismissal();
-		replyOptInContext = null;
-		replyEmail = '';
-		replyOptInMessage = '';
-		onreplyOptInChange?.('dismissed');
-	}
-
-	function getReplyOptInStatus(result: any): string {
-		return (
-			result?.data?.replyOptIn?.status ??
-			result?.data?.status ??
-			result?.replyOptIn?.status ??
-			'failed'
-		);
-	}
-
-	function replyOptInFailureCopy(category: ReplyOptInFailureCategory): string {
-		if (category === 'invalid_email') return 'Enter a valid email address.';
-		if (category === 'suppressed') return 'That address is unsubscribed, so no email was added.';
-		if (category === 'ineligible') return 'This reply reminder is no longer available.';
-		return 'Your take is posted, but the email could not be saved. Try again if you’d like.';
-	}
-
-	async function submitReplyOptIn() {
-		if (!replyOptInContext || replyOptInLoading || replyOptInSucceeded) return;
-		const email = replyEmail.trim();
-		void captureReplyOptInSubmitted(replyOptInContext);
-
-		if (!EMAIL_PATTERN.test(email) || email.length > 320) {
-			replyOptInMessage = replyOptInFailureCopy('invalid_email');
-			void captureReplyOptInFailed(replyOptInContext, 'invalid_email');
-			return;
-		}
-
-		replyOptInLoading = true;
-		replyOptInMessage = '';
-		try {
-			const body = new FormData();
-			body.append('comment_id', String(replyOptInContext.commentId));
-			body.append('question_id', String(replyOptInContext.questionId));
-			body.append('fingerprint', replyOptInFingerprint);
-			body.append('email', email);
-
-			const response = await fetch('?/subscribeToCommentReplies', { method: 'POST', body });
-			const result = deserialize(await response.text());
-			const status = getReplyOptInStatus(result);
-			if (status === 'subscribed' || status === 'already_subscribed') {
-				replyOptInSucceeded = true;
-				replyOptInMessage = 'You’re set. We’ll only email if someone replies to this conversation.';
-				void captureReplyOptInSucceeded(replyOptInContext);
-				onreplyOptInChange?.('subscribed');
-				return;
+		onreplyOptIn?.({
+			fingerprint: getCommentFingerprint(),
+			context: {
+				questionId,
+				questionUrl,
+				commentId,
+				surface: 'question_page',
+				isFirstCommentEver: true
 			}
-
-			const category: ReplyOptInFailureCategory =
-				status === 'suppressed'
-					? 'suppressed'
-					: status === 'invalid'
-						? 'invalid_email'
-						: status === 'ineligible'
-							? 'ineligible'
-							: 'server_error';
-			replyOptInMessage = replyOptInFailureCopy(category);
-			void captureReplyOptInFailed(replyOptInContext, category);
-		} catch {
-			replyOptInMessage = replyOptInFailureCopy('network_error');
-			void captureReplyOptInFailed(replyOptInContext, 'network_error');
-		} finally {
-			replyOptInLoading = false;
-		}
+		});
 	}
 
 	function getCommentEventContext() {
@@ -576,6 +472,20 @@
 		if (commentStartedTracked || !value.trim()) return;
 		commentStartedTracked = true;
 		void captureCommentStarted(getCommentEventContext());
+	}
+
+	function toggleComposer() {
+		if (commenting) {
+			commenting = false;
+			return;
+		}
+		// Anonymous visitors get one take per question: say so before they type
+		// a second one instead of after they press Post.
+		if (!canComment()) {
+			commentError = '';
+			return;
+		}
+		commenting = true;
 	}
 
 	// Toggle subscription status
@@ -740,18 +650,22 @@
 <div class="interact-shell">
 	<div class="interaction-toolbar">
 		<div class="toolbar-buttons">
+			<!-- While the composer is open its Post button is the one primary action,
+			     so this toggle steps down to secondary instead of competing with it. -->
 			<Button
-				title={commentActionLabel}
+				title={commenting ? `Hide ${composerKind} box` : commentActionLabel}
 				class="interaction-toolbar-button"
-				variant="primary"
+				variant={commenting ? 'secondary' : 'primary'}
 				size="md"
-				onclick={() => (commenting = !commenting)}
+				onclick={toggleComposer}
 				disabled={voiceBusy}
-				aria-label={commenting ? `Hide ${composerKind} composer` : commentActionAria}
+				aria-label={commenting ? `Hide ${composerKind} box` : commentActionAria}
+				aria-expanded={commenting}
+				aria-controls={commenting ? composerSurfaceId : undefined}
 				aria-busy={voiceBusy || undefined}
 				icon={commentIcon}
 			>
-				{commenting ? `Hide ${composerKind}` : commentActionLabel}
+				{commenting ? `Hide ${composerKind} box` : commentActionLabel}
 			</Button>
 
 			{#if parentType === 'question'}
@@ -791,7 +705,11 @@
 	</div>
 
 	{#if commenting}
-		<div class="composer-surface" in:slide={{ duration: reduceMotion ? 0 : 300 }}>
+		<div
+			class="composer-surface"
+			id={composerSurfaceId}
+			transition:slide={{ duration: reduceMotion ? 0 : COMPOSER_COLLAPSE_MS, easing: cubicOut }}
+		>
 			<div class="composer-body">
 				{#if parentType === 'question' && comment.length === 0}
 					<p class="depth-prompt">
@@ -807,7 +725,7 @@
 					placeholder={parentType === 'question'
 						? 'Share what happened, give an example, or explain what shaped your view.'
 						: 'Share what you want to add.'}
-					class="composer-textarea bg-[var(--night-deep)]/80 w-full resize-none overflow-y-auto rounded-md border border-[var(--stone-warm)] px-3 py-2 text-sm leading-relaxed text-[var(--ink-bright)] focus:border-[var(--lamp-glow)] focus:outline-none focus:ring-1 focus:ring-[var(--lamp-glow)]"
+					class="composer-textarea resize-none overflow-y-auto"
 					bind:value={comment}
 					id={textareaId}
 					aria-invalid={commentError ? 'true' : 'false'}
@@ -892,73 +810,6 @@
 				{/if}
 			</div>
 		</div>
-	{/if}
-
-	{#if replyOptInContext}
-		<section
-			class="reply-opt-in"
-			aria-labelledby="reply-opt-in-heading"
-			aria-live="polite"
-			in:slide={{ duration: reduceMotion ? 0 : 220 }}
-		>
-			<div class="reply-opt-in__copy">
-				<p class="reply-opt-in__eyebrow">OPTIONAL · THIS CONVERSATION ONLY</p>
-				<h3 id="reply-opt-in-heading">Want a note if someone replies?</h3>
-				<p>
-					Leave an email if you'd like. Your take stays anonymous, and we'll only email about this
-					conversation.
-				</p>
-			</div>
-
-			{#if replyOptInSucceeded}
-				<p class="reply-opt-in__status reply-opt-in__status--success" role="status">
-					{replyOptInMessage}
-				</p>
-			{:else}
-				<label class="reply-opt-in__label" for="reply-opt-in-email">Email</label>
-				<input
-					id="reply-opt-in-email"
-					class="reply-opt-in__input"
-					type="email"
-					inputmode="email"
-					autocomplete="email"
-					placeholder="you@example.com"
-					bind:value={replyEmail}
-					onfocus={focusReplyOptIn}
-					oninput={() => (replyOptInMessage = '')}
-					aria-invalid={replyOptInMessage ? 'true' : 'false'}
-					aria-describedby={replyOptInMessage ? 'reply-opt-in-status' : undefined}
-				/>
-				{#if replyOptInMessage}
-					<p id="reply-opt-in-status" class="reply-opt-in__status" role="status">
-						{replyOptInMessage}
-					</p>
-				{/if}
-				<div class="reply-opt-in__actions">
-					<Button
-						class="reply-opt-in__button"
-						variant="primary"
-						size="md"
-						type="button"
-						onclick={submitReplyOptIn}
-						disabled={replyOptInLoading}
-						loading={replyOptInLoading}
-					>
-						Keep me posted
-					</Button>
-					<Button
-						class="reply-opt-in__button"
-						variant="ghost"
-						size="md"
-						type="button"
-						onclick={dismissReplyOptIn}
-						disabled={replyOptInLoading}
-					>
-						Not now
-					</Button>
-				</div>
-			{/if}
-		</section>
 	{/if}
 </div>
 
@@ -1067,14 +918,34 @@
 		justify-self: end;
 	}
 
+	/* The writing field needs its own visible edge: it sits on the composer's
+	   warm surface, so a stone-warm border and a translucent fill vanished. */
 	.composer-textarea {
 		display: block;
+		width: 100%;
 		min-height: 80px;
 		max-height: 20rem;
 		padding: 1rem;
+		border: 1px solid var(--stone-edge);
+		border-radius: 0.625rem;
+		background: color-mix(in srgb, var(--night-deep) 72%, transparent);
+		color: var(--ink-bright);
 		font: inherit;
 		font-size: 16px;
 		line-height: 1.5;
+		transition:
+			border-color 0.15s ease,
+			box-shadow 0.15s ease;
+	}
+
+	.composer-textarea:hover {
+		border-color: color-mix(in srgb, var(--lamp-glow) 30%, var(--stone-edge));
+	}
+
+	.composer-textarea:focus {
+		border-color: var(--lamp-glow);
+		outline: none;
+		box-shadow: 0 0 0 3px color-mix(in srgb, var(--lamp-glow) 18%, transparent);
 	}
 
 	.composer-textarea::placeholder {
@@ -1131,87 +1002,6 @@
 		font-size: 0.875rem;
 		font-weight: 600;
 		line-height: 1.45;
-	}
-
-	.reply-opt-in {
-		padding: 1rem;
-		border: 1px solid color-mix(in srgb, var(--lamp-glow) 22%, var(--stone-edge));
-		border-radius: 1rem;
-		background:
-			linear-gradient(135deg, color-mix(in srgb, var(--lamp-soft) 58%, transparent), transparent),
-			color-mix(in srgb, var(--stone-warm) 97%, var(--night-deep));
-	}
-
-	.reply-opt-in__copy h3 {
-		margin: 0.2rem 0 0.35rem;
-		color: var(--ink-bright);
-		font-size: 1rem;
-		font-weight: 650;
-	}
-
-	.reply-opt-in__copy p:last-child,
-	.reply-opt-in__status {
-		margin: 0;
-		color: var(--ink-mid);
-		font-size: 0.82rem;
-		line-height: 1.5;
-	}
-
-	.reply-opt-in__eyebrow {
-		margin: 0;
-		color: var(--lamp-glow);
-		font-family: 'JetBrains Mono', monospace;
-		font-size: 0.68rem;
-		font-weight: 600;
-		letter-spacing: 0.08em;
-	}
-
-	.reply-opt-in__label {
-		display: block;
-		margin-top: 0.8rem;
-		color: var(--ink-bright);
-		font-size: 0.76rem;
-		font-weight: 600;
-	}
-
-	.reply-opt-in__input {
-		display: block;
-		width: 100%;
-		margin-top: 0.35rem;
-		padding: 0.7rem 0.8rem;
-		border: 1px solid var(--stone-edge);
-		border-radius: 0.625rem;
-		background: color-mix(in srgb, var(--night-deep) 88%, transparent);
-		color: var(--ink-bright);
-		font: inherit;
-		font-size: 16px;
-	}
-
-	:global(.reply-opt-in__input:focus-visible) {
-		border-color: var(--lamp-glow);
-		outline: 2px solid color-mix(in srgb, var(--lamp-glow) 36%, transparent);
-		outline-offset: 2px;
-	}
-
-	.reply-opt-in__status {
-		margin-top: 0.55rem;
-		color: var(--error-text);
-	}
-
-	.reply-opt-in__status--success {
-		padding-top: 0.7rem;
-		color: var(--lamp-light);
-	}
-
-	.reply-opt-in__actions {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
-		margin-top: 0.75rem;
-	}
-
-	:global(.reply-opt-in__button) {
-		flex: 0 1 auto;
 	}
 
 	@media (max-width: 640px) {

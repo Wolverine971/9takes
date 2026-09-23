@@ -5,6 +5,7 @@
 	import { resolve } from '$app/paths';
 	import { ChevronRight, EllipsisVertical, MessageCircle, ThumbsUp } from '@lucide/svelte';
 	import { slide } from 'svelte/transition';
+	import { cubicOut } from 'svelte/easing';
 	import {
 		captureCommentCreated,
 		captureCommentFailed,
@@ -60,6 +61,7 @@
 	let isExpanded = false;
 	let flagError = '';
 	let showReplies = false;
+	let reduceMotion = false;
 
 	// Constants
 	const COMMENT_TRUNCATE_LENGTH = 136;
@@ -99,6 +101,28 @@
 	$: shouldTruncate =
 		(_commentComment.comment?.length ?? 0) > COMMENT_TRUNCATE_LENGTH ||
 		_commentComment.comment?.includes('\n');
+
+	// The character count is only a first-paint guess: on a phone a much
+	// shorter take still wraps past the three-line clamp. Once mounted, the
+	// measured overflow decides, so clipped text always gets "Read more".
+	let measuredOverflow: boolean | null = null;
+	let clampNode: HTMLElement | null = null;
+	function measureClamp() {
+		if (clampNode) measuredOverflow = clampNode.scrollHeight - clampNode.clientHeight > 2;
+	}
+	function observeClamp(node: HTMLElement) {
+		if (typeof ResizeObserver === 'undefined') return;
+		clampNode = node;
+		const observer = new ResizeObserver(measureClamp);
+		observer.observe(node);
+		measureClamp();
+		return () => {
+			observer.disconnect();
+			clampNode = null;
+		};
+	}
+	$: (_commentComment.comment, measureClamp());
+	$: showReadMore = !isExpanded && (measuredOverflow ?? shouldTruncate);
 
 	// Handle comment expansion
 	function toggleExpandText() {
@@ -167,6 +191,9 @@
 	}
 
 	onMount(() => {
+		reduceMotion =
+			typeof window.matchMedia === 'function' &&
+			window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 		if (!autoExpandReplies || !(_commentComment.comment_count > 0)) return;
 		if (_commentComment.comments?.length) {
 			showReplies = true;
@@ -484,13 +511,15 @@
 				<div
 					class="comment-copy block {isExpanded
 						? ''
-						: 'max-h-[4.65em] overflow-hidden'} relative whitespace-pre-line break-words text-lg leading-relaxed text-[var(--ink-bright)] transition-all duration-200 [overflow-wrap:anywhere]"
+						: 'max-h-[4.65em] overflow-hidden'} relative whitespace-pre-line break-words text-lg leading-relaxed text-[var(--ink-bright)] [overflow-wrap:anywhere]"
+					class:comment-copy--clamped={showReadMore}
 					itemprop="text"
+					{@attach observeClamp}
 				>
 					{_commentComment.comment}
 				</div>
 
-				{#if shouldTruncate && !isExpanded}
+				{#if showReadMore}
 					<button
 						type="button"
 						class="mt-xs inline-flex min-h-11 items-center rounded-md text-sm font-medium text-[var(--ink-mid)] underline-offset-4 transition-colors duration-200 hover:text-[var(--ink-bright)] hover:underline focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--lamp-glow)]"
@@ -639,7 +668,10 @@
 
 		<!-- Reply form -->
 		{#if commenting}
-			<div class="comment-composer" transition:slide={{ duration: 300 }}>
+			<div
+				class="comment-composer"
+				transition:slide={{ duration: reduceMotion ? 0 : 200, easing: cubicOut }}
+			>
 				<div class="mb-3">
 					<label
 						for={`reply-comment-${_commentComment.id}`}
@@ -737,7 +769,13 @@
 
 				<!-- Nested comments container -->
 				{#if showReplies && _commentComment?.comments?.length}
-					<div class="nested-comments" transition:slide={{ duration: 200 }}>
+					<div
+						class="nested-comments"
+						transition:slide={{
+							duration: reduceMotion ? 0 : 200,
+							easing: cubicOut
+						}}
+					>
 						<Comments
 							{questionId}
 							comments={_commentComment.comments}
@@ -962,6 +1000,12 @@
 
 	.comment-card__main {
 		padding: 1.25rem 1rem 1rem;
+	}
+
+	/* Clipped takes fade out on their last visible line instead of ending mid-word. */
+	.comment-copy--clamped {
+		-webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 1.5em), transparent);
+		mask-image: linear-gradient(to bottom, #000 calc(100% - 1.5em), transparent);
 	}
 
 	.comment-footer {

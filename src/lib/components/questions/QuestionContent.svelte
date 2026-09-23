@@ -1,6 +1,6 @@
 <!-- src/lib/components/questions/QuestionContent.svelte -->
 <script lang="ts">
-	import { onDestroy, onMount, setContext } from 'svelte';
+	import { onDestroy, onMount, setContext, type Snippet } from 'svelte';
 	import { browser } from '$app/environment';
 	import { resolve } from '$app/paths';
 	import { fade } from 'svelte/transition';
@@ -31,9 +31,25 @@
 		nextStarter?: NextStarterLink | null;
 		/** Server-resolved ?reply=<id> target (signed-in reply email landing). */
 		replyFocus?: ReplyFocusThreadData | null;
+		/** Post-answer handoff rendered under "Your take". */
+		afterOwnTakes?: Snippet;
+		/** Rendered after the first few revealed takes. */
+		interstitial?: Snippet;
+		revealFailed?: boolean;
+		onretryReveal?: () => void;
 	}
 
-	let { data, user, oncommentAdded, nextStarter = null, replyFocus = null }: Props = $props();
+	let {
+		data,
+		user,
+		oncommentAdded,
+		nextStarter = null,
+		replyFocus = null,
+		afterOwnTakes,
+		interstitial,
+		revealFailed = false,
+		onretryReveal
+	}: Props = $props();
 
 	// Local state
 	let selectedTab = $state('Comments');
@@ -301,69 +317,75 @@
 									{/if}
 								</div>
 							{:else}
-								{#if replyFocus && browser}
-									<ReplyFocusThread
-										thread={replyFocus}
-										questionId={_data.question.id}
-										{user}
-										parentData={_data}
-									/>
-								{/if}
+								<!-- Local transition: plays when the gate opens on this page,
+								     not on a direct load of an already-unlocked thread. -->
+								<div class="unlocked-thread" in:fade={{ duration: reduceMotion ? 0 : 180 }}>
+									{#if replyFocus && browser}
+										<ReplyFocusThread
+											thread={replyFocus}
+											questionId={_data.question.id}
+											{user}
+											parentData={_data}
+										/>
+									{/if}
 
-								<header class="community-discussion-head">
-									<div>
-										<span>Community discussion</span>
-										<h3>What people actually said</h3>
-									</div>
-									<p>Real answers from people who responded before reading the room.</p>
-								</header>
-								{#key data.commentsReady !== false}
+									<header class="community-discussion-head">
+										<div>
+											<span>Community discussion</span>
+											<h3 id="takes-discussion" tabindex="-1">What people actually said</h3>
+										</div>
+										<p>Real answers from people who responded before reading the room.</p>
+									</header>
 									<RankedComments
 										data={_data}
 										{user}
 										excludeIds={hiddenFromCommunity}
 										active={selectedTab === 'Comments'}
 										oncommentAdded={handleCommentAdded}
+										{afterOwnTakes}
+										{interstitial}
+										{revealFailed}
+										{onretryReveal}
 									/>
-								{/key}
 
-								{@render nextQuestionNudge()}
+									{@render nextQuestionNudge()}
 
-								{#if validAiComments.length}
-									<details class="ai-perspectives-disclosure">
-										<summary>
-											<span>Compare with nine AI perspectives</span>
-											<small>Optional · generated examples</small>
-										</summary>
-										<div class="ai-perspectives-disclosure__body">
-											<p>
-												These are prompts for comparison, not community posts. The real discussion
-												above always comes first.
-											</p>
-											<AIComments data={_data} parentType="question" />
-										</div>
-									</details>
-								{/if}
+									{#if validAiComments.length}
+										<details class="ai-perspectives-disclosure">
+											<summary>
+												<span>Compare with nine AI perspectives</span>
+												<small>Optional · generated examples</small>
+											</summary>
+											<div class="ai-perspectives-disclosure__body">
+												<p>
+													These are prompts for comparison, not community posts. The real discussion
+													above always comes first.
+												</p>
+												<AIComments data={_data} parentType="question" />
+											</div>
+										</details>
+									{/if}
 
-								<!-- Removed comments: quiet disclosure, not a top-level tab -->
-								{#if _data?.removed_comment_count > 0}
-									<details class="removed-comments-disclosure">
-										<summary>
-											{_data.removed_comment_count} removed
-											{_data.removed_comment_count === 1 ? 'comment' : 'comments'}
-										</summary>
-										{#if _data?.removedComments?.length > 0}
-											<Comments
-												questionId={_data.question.id}
-												parentData={_data}
-												comment_count={_data.removed_comment_count}
-												comments={_data.removedComments}
-												parentType="question"
-												{user}
-											/>
-										{/if}
-									</details>
-								{/if}
+									<!-- Removed comments: quiet disclosure, not a top-level tab -->
+									{#if _data?.removed_comment_count > 0}
+										<details class="removed-comments-disclosure">
+											<summary>
+												{_data.removed_comment_count} removed
+												{_data.removed_comment_count === 1 ? 'comment' : 'comments'}
+											</summary>
+											{#if _data?.removedComments?.length > 0}
+												<Comments
+													questionId={_data.question.id}
+													parentData={_data}
+													comment_count={_data.removed_comment_count}
+													comments={_data.removedComments}
+													parentType="question"
+													{user}
+												/>
+											{/if}
+										</details>
+									{/if}
+								</div>
 							{/if}
 						{:else if section === 'Articles'}
 							<ArticleLinks
@@ -505,6 +527,12 @@
 		font-size: 1.15rem;
 		font-weight: 700;
 		letter-spacing: -0.015em;
+		scroll-margin-top: 1.25rem;
+	}
+
+	/* Focus lands here programmatically after an answer; it is not a control. */
+	.community-discussion-head h3:focus {
+		outline: none;
 	}
 
 	.community-discussion-head p {

@@ -162,6 +162,7 @@ describe('Interact', () => {
 			`/questions/what-are-you-thinking-about-these-days?via=${inviteId}&utm_campaign=welcome-sequence`
 		);
 		const oncommentAdded = vi.fn();
+		const onreplyOptIn = vi.fn();
 		const longComment =
 			'This is a detailed comment that is intentionally long enough to avoid the short-answer confirmation path and submit immediately.';
 
@@ -172,6 +173,7 @@ describe('Interact', () => {
 				questionId: 85,
 				user: null,
 				oncommentAdded,
+				onreplyOptIn,
 				data: {
 					question: {
 						id: 85,
@@ -232,7 +234,8 @@ describe('Interact', () => {
 				comment: 'Posted comment'
 			})
 		);
-		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
+		// The reveal itself confirms a first answer; no toast competes with it.
+		expect(notificationsSuccessMock).not.toHaveBeenCalledWith('Answer posted', 3000);
 		expect(captureCommentCreatedMock).toHaveBeenCalledWith({
 			commentId: 123,
 			questionId: 85,
@@ -255,116 +258,36 @@ describe('Interact', () => {
 		);
 		expect(captureCommentStartedMock).toHaveBeenCalledTimes(1);
 		expect(queryByRole('textbox', { name: /your answer/i })).toBeNull();
-		expect(getByRole('heading', { name: 'Want a note if someone replies?' })).toBeTruthy();
-		const replyEmailInput = getByRole('textbox', { name: 'Email' });
-		expect(document.activeElement).not.toBe(replyEmailInput);
-		const replyTray = getByRole('region', { name: 'Want a note if someone replies?' });
-		expect(replyTray.getAttribute('aria-live')).toBe('polite');
+		// The optional reply-email tray now renders in the thread (page-owned),
+		// so Interact only hands over the eligible offer.
+		expect(onreplyOptIn).toHaveBeenCalledWith({
+			fingerprint: 'visitor-123',
+			context: {
+				questionId: 85,
+				questionUrl: 'what-are-you-thinking-about-these-days',
+				commentId: 123,
+				surface: 'question_page',
+				isFirstCommentEver: true
+			}
+		});
+		expect(queryByRole('heading', { name: 'Want a note if someone replies?' })).toBeNull();
+		// Reduced motion collapses the composer without animation.
 		await waitFor(() => {
 			expect(slideMock.mock.calls.some(([, options]) => options?.duration === 0)).toBe(true);
 		});
-		replyEmailInput.focus();
-		expect(document.activeElement).toBe(replyEmailInput);
-		expect(captureMock).toHaveBeenCalledWith(
-			'reply_opt_in_shown',
-			expect.objectContaining({
-				question_id: 85,
-				comment_id: 123,
-				is_first_comment_ever: true
-			})
-		);
-
-		await fireEvent.click(getByRole('button', { name: 'Not now' }));
-		expect(queryByRole('heading', { name: 'Want a note if someone replies?' })).toBeNull();
-		expect(window.sessionStorage.getItem('9t-reply-opt-in-dismissed')).toBe('1');
-		expect(captureMock).toHaveBeenCalledWith(
-			'reply_opt_in_dismissed',
-			expect.objectContaining({ comment_id: 123 })
-		);
 	});
 
-	it('saves a valid reply email separately from the already-posted answer', async () => {
-		const longComment =
-			'This is a detailed first answer that is long enough to post immediately while keeping reply consent as a separate action.';
-		const { getByRole, getByText } = render(Interact, {
+	it('does not offer the reply tray once the visitor dismissed it this session', async () => {
+		window.sessionStorage.setItem('9t-reply-opt-in-dismissed', '1');
+		const onreplyOptIn = vi.fn();
+		const { getByRole } = render(Interact, {
 			intro: false,
 			props: {
 				parentType: 'question',
 				questionId: 85,
 				user: null,
 				oncommentAdded: vi.fn(),
-				data: {
-					question: {
-						id: 85,
-						question: 'what are you thinking about these days',
-						created_at: '2023-09-22T05:23:03.858015+00:00',
-						url: 'what-are-you-thinking-about-these-days',
-						comment_count: 10,
-						removed: false,
-						flagged: false,
-						subscriptions: []
-					},
-					comments: [],
-					removedComments: [],
-					comment_count: 10,
-					removed_comment_count: 0,
-					questionTags: [],
-					user: null,
-					flags: { userHasAnswered: false, userSignedIn: false },
-					aiComments: null,
-					links: null,
-					links_count: 0,
-					flagReasons: []
-				}
-			}
-		});
-
-		await fireEvent.input(getByRole('textbox', { name: /your answer/i }), {
-			target: { value: longComment }
-		});
-		await fireEvent.click(getByRole('button', { name: /post answer/i }));
-		await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
-
-		deserializeMock.mockReturnValueOnce({
-			type: 'success',
-			data: { replyOptIn: { status: 'subscribed' } }
-		});
-		const emailInput = getByRole('textbox', { name: 'Email' });
-		await fireEvent.focus(emailInput);
-		await fireEvent.input(emailInput, { target: { value: 'Reader@Example.com' } });
-		await fireEvent.click(getByRole('button', { name: 'Keep me posted' }));
-
-		await waitFor(() => {
-			expect(getByText(/we’ll only email if someone replies/i)).toBeTruthy();
-		});
-		expect(fetchMock).toHaveBeenCalledTimes(2);
-		const replyRequest = fetchMock.mock.calls[1];
-		expect(replyRequest[0]).toBe('?/subscribeToCommentReplies');
-		expect((replyRequest[1]?.body as FormData).get('email')).toBe('Reader@Example.com');
-		expect((replyRequest[1]?.body as FormData).get('comment_id')).toBe('123');
-		expect(captureMock).toHaveBeenCalledWith(
-			'reply_opt_in_focused',
-			expect.objectContaining({ comment_id: 123 })
-		);
-		expect(captureMock).toHaveBeenCalledWith(
-			'reply_opt_in_submitted',
-			expect.objectContaining({ comment_id: 123 })
-		);
-		expect(captureMock).toHaveBeenCalledWith(
-			'reply_opt_in_succeeded',
-			expect.objectContaining({ comment_id: 123 })
-		);
-		expect(JSON.stringify(captureMock.mock.calls)).not.toContain('Reader@Example.com');
-	});
-
-	it('keeps the answer successful when the optional email is invalid', async () => {
-		const { getByRole, getByText } = render(Interact, {
-			intro: false,
-			props: {
-				parentType: 'question',
-				questionId: 85,
-				user: null,
-				oncommentAdded: vi.fn(),
+				onreplyOptIn,
 				data: {
 					question: {
 						id: 85,
@@ -396,18 +319,89 @@ describe('Interact', () => {
 		});
 		await fireEvent.click(getByRole('button', { name: /post answer/i }));
 		await waitFor(() => expect(fetchMock).toHaveBeenCalledTimes(1));
+		expect(onreplyOptIn).not.toHaveBeenCalled();
+	});
 
-		await fireEvent.input(getByRole('textbox', { name: 'Email' }), {
-			target: { value: 'not-an-email' }
+	it('steps the toolbar toggle down to secondary while the composer is open', async () => {
+		const { getByRole, queryByRole } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				user: { id: 'member' },
+				data: {
+					question: {
+						id: 85,
+						question: 'a question',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'a-question',
+						comment_count: 0,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 0,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: { userHasAnswered: false, userSignedIn: true },
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
 		});
-		await fireEvent.click(getByRole('button', { name: 'Keep me posted' }));
 
-		expect(getByText('Enter a valid email address.')).toBeTruthy();
-		expect(fetchMock).toHaveBeenCalledTimes(1);
-		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
-		expect(captureMock).toHaveBeenCalledWith(
-			'reply_opt_in_failed',
-			expect.objectContaining({ failure_category: 'invalid_email' })
+		const toggle = getByRole('button', { name: 'Hide answer box' });
+		expect(toggle.className).toContain('btn--secondary');
+		expect(toggle.getAttribute('aria-expanded')).toBe('true');
+		await fireEvent.click(toggle);
+		await waitFor(() => expect(queryByRole('textbox', { name: /your answer/i })).toBeNull());
+		const reopen = getByRole('button', { name: 'Add your take to reveal the other answers' });
+		expect(reopen.className).toContain('btn--primary');
+	});
+
+	it('tells an anonymous visitor who already answered to sign up before opening a second composer', async () => {
+		const { getByRole, queryByRole } = render(Interact, {
+			intro: false,
+			props: {
+				parentType: 'question',
+				questionId: 85,
+				user: null,
+				data: {
+					question: {
+						id: 85,
+						question: 'a question',
+						created_at: '2023-09-22T05:23:03.858015+00:00',
+						url: 'a-question',
+						comment_count: 3,
+						removed: false,
+						flagged: false,
+						subscriptions: []
+					},
+					comments: [],
+					removedComments: [],
+					comment_count: 3,
+					removed_comment_count: 0,
+					questionTags: [],
+					user: null,
+					flags: { userHasAnswered: true, userSignedIn: false },
+					aiComments: null,
+					links: null,
+					links_count: 0,
+					flagReasons: []
+				}
+			}
+		});
+
+		await fireEvent.click(getByRole('button', { name: 'Write a comment' }));
+		expect(queryByRole('textbox', { name: /your comment/i })).toBeNull();
+		expect(notificationsInfoMock).toHaveBeenCalledWith(
+			'Sign up or log in to comment multiple times.',
+			3000
 		);
 	});
 
@@ -581,6 +575,6 @@ describe('Interact', () => {
 			'Must register or login to comment multiple times',
 			3000
 		);
-		expect(notificationsSuccessMock).toHaveBeenCalledWith('Answer posted', 3000);
+		expect(notificationsSuccessMock).not.toHaveBeenCalledWith('Answer posted', 3000);
 	});
 });

@@ -224,6 +224,61 @@ Verification:
   - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-grouped-desktop-light.png`
   - `/Users/djwayne/.codex/visualizations/2026/08/07/019fddc6-ff8d-73a2-b4d2-9fc20d0c3edc/question-comments-grouped-mobile-light.png`
 
+## First-answer reveal flow - 2026-09-23
+
+Audit of post -> reveal, measured with a stubbed submit (no production write) and a real
+unlocked reload. Before: one frame swapped seven things at once (composer vanished, reply tray,
+invite card, host line, toast, coords, thread), the thread read `No other takes match these
+filters.` for the whole reload, then ten takes popped in. The first other take sat about 1,500px
+down on desktop, under the reply tray and invite card, so `Post answer and reveal` revealed nothing
+in view.
+
+- [reveal sequencing] The gate opens optimistically into your take plus three card-shaped
+  placeholders (no false empty state). The composer collapses over 220ms, the page glides to the
+  thread, and the server's takes replace the placeholders in place (no `{#key}` remount), coming
+  into focus with a one-time 60ms-stagger fade/rise/un-blur. It never replays on sort, filter or
+  paging. -> P4+P8+P11 + one signature effect (new P? "give-first un-blur")
+- [payoff placement] The reply-email tray and host promise moved out of the composer area into
+  the thread, directly under "Your take". The ask-one-person invite renders after the third
+  community take. Both stay visible without burying the reveal. -> P4+P8
+- [scroll landing] The glide lands on the first boundary (heading, then "Your take", then the
+  tray) that still leaves at least 120px of the first other take on screen. Focus moves to the
+  heading (closes the mobile keyboard; announces the room). Reduced motion jumps instantly.
+  -> P11+P13
+- [composer] The toolbar toggle steps down to secondary as `Hide answer box` while the composer
+  is open, so `Post answer and reveal` is the single primary action. The textarea has a visible
+  stone-edge field, hover state, and amber focus ring; it was invisible against the composer
+  surface. First answers drop the redundant `Answer posted` toast. -> P6+P13
+- [dead end] An anonymous visitor who already answered gets the sign-up message on `Comment`
+  instead of a composer that rejects the second take on submit. -> P6
+- [tray] Extracted `ReplyOptInTray.svelte`: one grid, a single `Not now` that sits top-right on
+  desktop and beside the submit on phones, full-width email field on phones, and the host promise
+  as its lead sentence. It dropped from 259px to 180px on desktop. -> P1+P4+P13
+- [clamped takes] `Read more` came from a character count (>136), so on phones shorter takes were
+  clipped mid-sentence with no way to expand. Overflow is now measured (ResizeObserver) and
+  clipped text fades out on its last line. -> P1+P8
+- [first answerer] The empty community list says `You're first. Other takes will land here as
+people answer.` instead of implying filters hid everyone. -> P6
+- [failure] If the reload does not confirm the unlock, the placeholders become `Your take is
+posted, but the other takes didn't load.` with a Try again button. -> P13
+- [speed] Server round trips: the load no longer awaits `parent()` (the root layout's profile query
+  had serialized signed-in loads); curation -> next-starter and the reply-focus thread joined the
+  main parallel batch; author category data and the reply-return thread joined the answered check.
+  The answer action runs the rate-limit and give-first checks in parallel (rate-limit rejection
+  still wins). The unlocked reload drops from four sequential DB round trips to three, and the
+  answer POST drops by one.
+
+Verification:
+
+- Headless Chromium harness (stubbed POST, borrowed read-only unlocked session, view beacons
+  blocked). Desktop 1280x800 and phone 390x844, dark and light, plus reduced motion. Zero
+  console errors, zero horizontal overflow. Phone lands with the first other take fully on
+  screen. Desktop lands on the heading with 236px of the first take visible.
+- `pnpm check` 0 errors; full Vitest 200 files / 1,090 tests pass (new `ReplyOptInTray.spec.ts`;
+  RankedComments covers placeholders, in-place replacement, interstitial stability, retry, and
+  first-answerer copy); lint:radius, lint:colors, lint:global-css pass.
+- Owed: a real-device pass on iOS Safari (keyboard-dismiss + glide) after deploy.
+
 ## Tier 3 - polish/signature (motion/effects, at most one per surface)
 
 - [motion pass] The surface already has enough visual identity from its small type-color data marks and Streetlamp case-file styling. Do not add P14-P18 signature effects yet. First gate the existing `slide`, `fade`, hover translate, carousel transform, spinner, and modal fly/scale motion for reduced-motion users. -> P11

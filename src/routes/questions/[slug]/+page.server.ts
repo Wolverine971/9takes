@@ -11,6 +11,7 @@ import {
 } from '$lib/server/bestEffortTelemetry';
 import { recordGiveFirstEvent } from '$lib/server/giveFirstFunnel';
 import { checkDemoTime } from '../../../utils/api';
+import { loadRouteDemoTime } from '$lib/server/demoTime';
 import { mapDemoValues } from '../../../utils/demo';
 import { extractFirstURL } from '../../../utils/StringUtils';
 import {
@@ -124,8 +125,11 @@ const createLeafCategorySchema = z.object({
 });
 
 export const load: PageServerLoad = async (event) => {
-	const { demo_time } = await event.parent();
-	const isDemoTime = demo_time === true;
+	// Read the (memory-cached) demo switch directly instead of awaiting
+	// event.parent(): parent() also waits on the root layout's profile query,
+	// which would serialize a signed-in viewer's whole load behind it. This
+	// load reruns on every post-answer reveal, so each round trip is felt.
+	const isDemoTime = (await loadRouteDemoTime(event.locals.supabase)) === true;
 	const session = event.locals.session;
 	const cookie = event.cookies.get('9tfingerprint');
 
@@ -134,18 +138,19 @@ export const load: PageServerLoad = async (event) => {
 		throw error(404, { message: 'No question found' });
 	}
 
-	const [viewerHasAnswered, questionTags] = await Promise.all([
-		checkUserAnswered(cookie, question.id, session?.user?.id, event.locals.supabase),
-		getQuestionTags(question.id)
-	]);
 	const replyNotificationReturn = consumeReplyNotificationReturn(event, question.id);
-	const replyNotificationThread = replyNotificationReturn
-		? await getReplyNotificationThread(replyNotificationReturn, isDemoTime)
-		: null;
-	const userHasAnswered = Boolean(viewerHasAnswered || replyNotificationReturn);
 	const canEditTags =
 		!isDemoTime && Boolean(session?.user?.id && question.author_id === session?.user?.id);
-	const categoryEditor = canEditTags ? await getCategoryEditorData() : null;
+	const [viewerHasAnswered, questionTags, replyNotificationThread, categoryEditor] =
+		await Promise.all([
+			checkUserAnswered(cookie, question.id, session?.user?.id, event.locals.supabase),
+			getQuestionTags(question.id),
+			replyNotificationReturn
+				? getReplyNotificationThread(replyNotificationReturn, isDemoTime)
+				: null,
+			canEditTags ? getCategoryEditorData() : null
+		]);
+	const userHasAnswered = Boolean(viewerHasAnswered || replyNotificationReturn);
 
 	if (!userHasAnswered) {
 		// Give-first wall is being shown to a not-yet-answered visitor. Log the
@@ -160,12 +165,11 @@ export const load: PageServerLoad = async (event) => {
 			});
 		}
 
-		const [commentCount, aiComments, curation] = await Promise.all([
+		const [commentCount, aiComments, { curation, nextStarter }] = await Promise.all([
 			getCommentCount(question.id, isDemoTime),
 			isDemoTime ? null : getAIComments(question.id),
-			getQuestionCuration(question.id, isDemoTime)
+			getCurationWithNextStarter(question.id, isDemoTime)
 		]);
-		const nextStarter = await getNextStarter(curation.starterRank);
 		// Give-first integrity: pinned human takes are never sent before the
 		// visitor answers. Only the starter position (for the next-question
 		// nudge) travels with the locked payload.
@@ -192,7 +196,16 @@ export const load: PageServerLoad = async (event) => {
 		};
 	}
 
-	const [comments, removedComments, links, aiComments, flagReasons, curation] = await Promise.all([
+	// One parallel batch: this is the payload the post-answer reveal waits on.
+	const [
+		comments,
+		removedComments,
+		links,
+		aiComments,
+		flagReasons,
+		{ curation, nextStarter },
+		replyFocus
+	] = await Promise.all([
 		isDemoTime
 			? getComments(question.id, true, false)
 			: getQuestionTakes(question.id, { viewerId: session?.user?.id, fingerprint: cookie }),
@@ -200,10 +213,7 @@ export const load: PageServerLoad = async (event) => {
 		getQuestionLinks(question.id),
 		isDemoTime ? null : getAIComments(question.id),
 		getFlagReasons(),
-		getQuestionCuration(question.id, isDemoTime)
-	]);
-	const [nextStarter, replyFocus] = await Promise.all([
-		getNextStarter(curation.starterRank),
+		getCurationWithNextStarter(question.id, isDemoTime),
 		getReplyFocusThread(
 			question.id,
 			parseReplyFocusParam(event.url.searchParams.get('reply')),
@@ -313,16 +323,18 @@ async function createQuestionComment(event: RequestEvent) {
 	}
 	const commentInput = validationResult.data;
 
-	if (!demo_time) {
-		const isAllowed = await checkRateLimit(commentInput.fingerprint, ip);
-		if (!isAllowed) {
-			throw error(429, {
-				message: 'Too many comments. Please wait a minute before trying again.'
-			});
-		}
+	// The rate limit and the give-first access check are independent reads, so
+	// they share one round trip. The rate-limit rejection still wins when both fail.
+	const [rateLimit, access] = await Promise.allSettled([
+		demo_time ? Promise.resolve(true) : checkRateLimit(commentInput.fingerprint, ip),
+		assertCommentAccess(commentInput, sessionUserId, demo_time)
+	]);
+	if (rateLimit.status === 'fulfilled' && !rateLimit.value) {
+		throw error(429, {
+			message: 'Too many comments. Please wait a minute before trying again.'
+		});
 	}
-
-	await assertCommentAccess(commentInput, sessionUserId, demo_time);
+	if (access.status === 'rejected') throw access.reason;
 	const commentData = await createCommentData(commentInput, ip, sessionUserId);
 	const record = await handleCommentCreation(db, commentData, commentInput.parent_type, demo_time);
 	if (!demo_time && commentInput.parent_type === 'question') {
@@ -1150,6 +1162,15 @@ async function getNextStarter(starterRank: number | null): Promise<NextStarterLi
 		question: String(data.question_formatted || data.question || '').trim(),
 		starter_rank: Number(data.starter_rank)
 	};
+}
+
+/**
+ * Curation plus the dependent next-starter lookup as one chain, so the pair
+ * can join the load's parallel batch instead of adding a sequential round trip.
+ */
+async function getCurationWithNextStarter(questionId: number, demo_time: boolean) {
+	const curation = await getQuestionCuration(questionId, demo_time);
+	return { curation, nextStarter: await getNextStarter(curation.starterRank) };
 }
 
 // =============================================================================
